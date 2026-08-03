@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "384";
+const APP_BUILD = "385";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -12099,18 +12099,11 @@ function detlefRathmerJazzPage() {
     { id: "QogJd6km5W8", label: "Album 61 – Healing Music for Self-Preservatione Neuner (SP9)" },
   ];
 
-  const enneagrammSongs = [
-    { id: "UIs80tsNcmE", label: "Enneagram Anthem – Song of Praise for the 9 Types (German)" },
-    { id: "2li9BrwEdGo", label: "Enneagram Anthem – Hymn of Praise (English)" },
-    { id: "0wuNFvrDWgs", label: "27 Paths – Song about the 27 Personalities (German)" },
-    { id: "gKt5ewn7MY4", label: "27 Paths – Song About the 27 Personalities (English)" },
-    { id: "UiiJxzKg_8k", label: "Neun Wege – Jazz-Version" },
-    { id: "nVoATnACLyg", label: "Enneagramm-Haiku-Song (Deutsch)" },
-    { id: "c4NAtdSJc7U", label: "Enneagram Haiku Song (English)" },
-    { id: "xDYFjndwt2A", label: "Wer du wirklich bist – Ein Enneagramm-Klassiker" },
-  ];
-
   const germanSongs = [
+    { id: "UIs80tsNcmE", label: "Enneagram Anthem – Song of Praise for the 9 Types (German)" },
+    { id: "0wuNFvrDWgs", label: "27 Paths – Song about the 27 Personalities (German)" },
+    { id: "UiiJxzKg_8k", label: "Neun Wege – Jazz-Version" },
+    { id: "nVoATnACLyg", label: "Enneagramm-Haiku-Song (German)" },
     { id: "1OPgSJAh5OE", label: "Blei zu Gold – Inner Transformation of the 9 Types (German)" },
     { id: "Pg7AIif63lE", label: "Zwei Stimmen, ein Lied – Psychological Needs of Being Human (German)" },
     { id: "ZKzxDWLHj8M", label: "Die Zeit in meinen Händen – Sense of Time of the 9 Types (German)" },
@@ -12139,6 +12132,9 @@ function detlefRathmerJazzPage() {
   ];
 
   const englishSongs = [
+    { id: "2li9BrwEdGo", label: "Enneagram Anthem – Hymn of Praise" },
+    { id: "gKt5ewn7MY4", label: "27 Paths – Song About the 27 Personalities" },
+    { id: "c4NAtdSJc7U", label: "Enneagram Haiku Song" },
     { id: "w2iFAGFT5Iw", label: "Nine Gazes, Nine Worlds – The Gaze Qualities of the Nine Types" },
     { id: "Hjww24C4v_o", label: "Enneagram Ballad" },
     { id: "ldFzU1hRIVU", label: "Nine Paths, Nine Hearts (Irish Folk Style)" },
@@ -12265,31 +12261,25 @@ const SPIRITUELL_TRACKS = {
 
       <h2 id="dr-enn-songs" style="margin-top:3rem;margin-bottom:0.3rem;">Enneagramm-Songs</h2>
       <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
-        Individual songs around the Enneagram &ndash; to sing along and ponder.
-        You can find the Homeopathy Songs on the dedicated page
+        Individual songs around the Enneagram &ndash; to sing along and ponder. The first part contains the
+        German-language songs, the second part the English-language songs. You can find the Homeopathy Songs
+        on the dedicated page
         <a href="#homoeopathie-songs" data-route="homoeopathie-songs" style="color:var(--copper);">Homeopathy & Songs</a>.
       </p>
-      ${grid(enneagrammSongs)}
+
+      <h3 id="dr-de-songs" style="margin-top:1.5rem;margin-bottom:0.3rem;">German-Language Enneagram Songs</h3>
+      ${grid(germanSongs)}
+      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Back to top</button></p>
+
+      <h3 id="dr-en-songs" style="margin-top:2.5rem;margin-bottom:0.3rem;">English-Language Enneagram Songs</h3>
+      ${grid(englishSongs)}
+      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Back to top</button></p>
+
+      ${grid([{ id: "xDYFjndwt2A", label: "Wer du wirklich bist – Ein Enneagramm-Klassiker" }])}
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence. The first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
       ${bookTip("wer-du-wirklich-bist-band-2", "Deepened type profiles and archetypal considerations – Volume 2 of the Rathmer trilogy.", "Wer du wirklich bist – Band 2")}
       ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, paths of healing, and the big picture – Volume 3 concluding the trilogy.", "Wer du wirklich bist – Band 3")}
-      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz Albums"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spiritual Songs"},{route:"stille",label:"9 Minutes of Silence"},{route:"musik",label:"Relaxation and Healing Music"}])}
-      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Back to top</button></p>
-
-      <h2 id="dr-de-songs" style="margin-top:3rem;margin-bottom:0.3rem;">German-Language Enneagram Songs</h2>
-      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
-        25 more German-language songs about the 9 Enneagram types – from ballad to rap, punk, and bossa nova versions.
-      </p>
-      ${grid(germanSongs)}
-      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-en-songs",label:"English Songs"},{route:"detlef-rathmer-jazz|dr-flammen",label:"Flames of Life"},{route:"detlef-rathmer-jazz|dr-enn-songs",label:"Enneagram Songs"}])}
-      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Back to top</button></p>
-
-      <h2 id="dr-en-songs" style="margin-top:3rem;margin-bottom:0.3rem;">English-Language Enneagram Songs</h2>
-      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
-        Enneagram songs in English.
-      </p>
-      ${grid(englishSongs)}
-      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-de-songs",label:"German Songs"},{route:"detlef-rathmer-jazz|dr-flammen",label:"Flames of Life"},{route:"detlef-rathmer-jazz|dr-enn-songs",label:"Enneagram Songs"}])}
+      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz Albums"},{route:"detlef-rathmer-jazz|dr-flammen",label:"Flames of Life"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spiritual Songs"},{route:"stille",label:"9 Minutes of Silence"}])}
       <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Back to top</button></p>
 
       <h2 id="dr-flammen" style="margin-top:3rem;margin-bottom:0.3rem;">International Music Project: Flames of Life</h2>
