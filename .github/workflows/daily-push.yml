@@ -2,8 +2,8 @@ name: Täglicher Push-Impuls
 
 on:
   schedule:
-    # Jeden Morgen um 08:00 Uhr deutscher Zeit (= 06:00 UTC)
-    - cron: "0 6 * * *"
+    # Jeden Morgen um 07:00 Uhr deutscher Zeit (= 05:00 UTC)
+    - cron: "0 5 * * *"
   workflow_dispatch: # Manuell auslösbar zum Testen
 
 jobs:
