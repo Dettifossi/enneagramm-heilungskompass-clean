@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "395";
+const APP_BUILD = "396";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -42684,9 +42684,9 @@ function subtypeSchaubilderPage() {
     if (isBadgePage) {
       const typEl = app.querySelector(".krim-portrait-typ");
       if (typEl) {
-        const match = typEl.textContent.match(/^(S[EeOoXx][1-9])/);
+        const match = typEl.textContent.match(/^(S[PpEeOoXx][1-9])/);
         if (match) {
-          const code = match[1].toLowerCase();
+          const code = match[1].toLowerCase().replace(/^sp/, "se");
           const wrap = document.createElement("span");
           wrap.className = "krim-tier-badge-wrap";
           const img = document.createElement("img");
