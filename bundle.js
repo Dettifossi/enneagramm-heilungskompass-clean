@@ -27151,7 +27151,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "396";
+const APP_BUILD = "397";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -42326,7 +42326,7 @@ function larryKingPortraitPage() {
 
         <h2 class="vb-section">2. Die Familie: N\u00e4he als Beruf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 7 die <strong>Familie</strong> &ndash; weil dieser Subtyp Sicherheit und Freude nicht in der gro\u00dfen Welt sucht, sondern im engsten Kreis, im vertrauten Gespr\u00e4ch, in der unmittelbaren, warmen Verbindung zwischen zwei Menschen. Genau das machte King zu seinem Lebenswerk: Er verwandelte das Fernsehinterview, eigentlich ein \u00f6ffentliches, oft konfrontatives Format, in etwas Intimes &ndash; ein Gespr\u00e4ch am K\u00fcchentisch, das zuf\u00e4llig Millionen Menschen zusahen.</p>
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 7 die <strong>Familie</strong> &ndash; weil dieser Subtyp Sicherheit und Freude nicht in der gro\u00dfen Welt sucht, sondern im engsten Kreis, im vertrauten Gespr\u00e4ch, in der unmittelbaren, warmen Verbindung zwischen zwei Menschen. Genau das machte King zu seinem Lebenswerk: Er verwandelte das Fernsehinterview, eigentlich ein \u00f6ffentliches, oft konfrontatives Format, in etwas Intimes &ndash; ein Gespr\u00e4ch am K\u00fcchentisch, dem zuf\u00e4llig Millionen Menschen zusahen.</p>
           <p class="vb-intro">Sein Markenzeichen war die offene, unaufgeregte Frage: <em>\u201eErz\u00e4hl mir davon."</em> Statt G\u00e4ste in die Enge zu treiben, lie\u00df er ihnen Raum. Kritiker warfen ihm sp\u00e4ter vor, er stelle zu weiche Fragen &ndash; doch genau diese Weichheit war der Grund, warum sich selbst die verschlossensten Prominenten und Politiker bei ihm \u00f6ffneten. Der Gorilla baut kein Territorium durch Dominanz. Er baut es durch Vertrauen.</p>
         </blockquote>
 
