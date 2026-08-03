@@ -17,10 +17,10 @@ jobs:
       - name: Push-Benachrichtigung senden
         run: |
           curl -s -X POST "https://onesignal.com/api/v1/notifications" \
-            -H "Authorization: Basic ${{ secrets.ONESIGNAL_REST_API_KEY }}" \
+            -H "Authorization: Key ${{ secrets.ONESIGNAL_REST_API_KEY }}" \
             -H "Content-Type: application/json" \
             -d '{
-              "app_id": "a8616f76-24df-4a4d-970f-59976a11503e",
+              "app_id": "f1437dae-964e-43b5-b870-afeed3e99a8d",
               "included_segments": ["All"],
               "target_channel": "push",
               "headings": {"en": "Enneagramm-Heilungskompass", "de": "Enneagramm-Heilungskompass"},
