@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "396";
+const APP_BUILD = "397";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -19867,7 +19867,7 @@ function francisBaconPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: Power and Assertion</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Self-Preservation Seven an assertiveness the pure Seven lacks. Where the Seven evades when resistance arises, the SP7w8 seeks confrontation &ndash; and the climb into positions from which it can actually shape things.</p>
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Self-Preservation Seven an assertiveness the pure Seven lacks. Based on decades of experience with this subtype, Naranjo called the Self-Preservation Seven <em>the hidden Eight</em> &ndash; a Seven that carries the Eight's decisiveness and directness within it, without displaying it openly. Where the Seven evades when resistance arises, the SP7w8 seeks confrontation &ndash; and the climb into positions from which it can actually shape things.</p>
           <p class="vb-intro">Bacon's political career shows this assertiveness in its purest form: member of the House of Commons, Solicitor General, Attorney General, Lord Keeper and finally, in 1618, Lord Chancellor of England under King James I &ndash; an unprecedented rise through legal precision, political calculation and persistent courting of favour. But the Eight-wing also has a painful side: in 1601, it was Bacon who, as Crown counsel, played a decisive role in prosecuting his former patron and friend, the Earl of Essex, for treason &ndash; a betrayal of a personal bond in favour of his own career that many contemporaries never forgave him. Power and loyalty were often in competition in Bacon, and power mostly won.</p>
         </blockquote>
 

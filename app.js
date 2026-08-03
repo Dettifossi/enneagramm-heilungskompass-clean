@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "394";
+const APP_BUILD = "395";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -11864,13 +11864,13 @@ function francisBaconPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude am Entdecken</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> sucht ihre Freude nicht in der großen Bühne, sondern im eigenen, selbst geschaffenen Umfeld &ndash; im Prozess des Erschaffens, Sammelns und Ordnens selbst. Naranjo nannte diesen Subtyp <em>Familie</em>: ein Nest, in dem sich Neugier ungestört entfalten kann.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> sucht ihre Freude nicht auf der großen Bühne, sondern im eigenen, selbst geschaffenen Umfeld &ndash; im Prozess des Erschaffens, Sammelns und Ordnens selbst. Naranjo nannte diesen Subtyp <em>Familie</em>: ein Nest, in dem sich Neugier ungestört entfalten kann.</p>
           <p class="vb-intro">Bacons Neugier kannte praktisch kein Fach, das ihm zu fremd gewesen wäre. Er sammelte Beobachtungen zu Naturphänomenen, Experimenten, Rechtsfällen, Staatsgeschäften und moralischen Fragen mit derselben Hingabe. Sein Werk <em>Novum Organum</em> (1620) schlug ein radikal neues Fundament für die Wissenschaft vor: nicht länger aus alten Autoritäten wie Aristoteles ableiten, sondern durch systematische Beobachtung und Experiment zu neuem Wissen gelangen &ndash; die induktive Methode, die bis heute als Geburtsstunde der modernen empirischen Wissenschaft gilt. „Wissen ist Macht", schrieb er &ndash; ein Satz, der sein ganzes Lebensprojekt zusammenfasst: die Freude der SE7 am Entdecken, verwandelt in ein System für die gesamte Menschheit.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Achterflügel: Macht und Durchsetzung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der selbsterhaltenden Sieben eine Durchsetzungskraft, die der reinen Sieben fehlt. Wo die Sieben ausweicht, wenn Widerstand entsteht, sucht die SE7w8 die Konfrontation &ndash; und den Aufstieg in Positionen, aus denen heraus sie tatsächlich gestalten kann.</p>
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der selbsterhaltenden Sieben eine Durchsetzungskraft, die der reinen Sieben fehlt. Naranjo nannte die selbsterhaltende Sieben nach seinen jahrzehntelangen Erfahrungen mit diesem Subtyp <em>die versteckte Acht</em> &ndash; eine Sieben, die die Entschlossenheit und Direktheit der Acht in sich trägt, ohne sie offen zur Schau zu stellen. Wo die Sieben ausweicht, wenn Widerstand entsteht, sucht die SE7w8 die Konfrontation &ndash; und den Aufstieg in Positionen, aus denen heraus sie tatsächlich gestalten kann.</p>
           <p class="vb-intro">Bacons politische Karriere zeigt diese Durchsetzungskraft in Reinform: Abgeordneter im Unterhaus, Solicitor General, Attorney General, Lordsiegelbewahrer und schließlich 1618 Lordkanzler von England unter König Jakob I. &ndash; ein beispielloser Aufstieg durch juristische Präzision, politisches Kalkül und beharrliches Werben um Gunst am Hof. Doch der Achterflügel hat auch eine schmerzhafte Seite: 1601 war es Bacon, der als Kronanwalt maßgeblich an der Anklage seines früheren Förderers und Freundes, des Earl of Essex, wegen Hochverrats mitwirkte &ndash; ein Verrat an einer persönlichen Bindung zugunsten der eigenen Karriere, den ihm viele Zeitgenossen nie verziehen. Macht und Loyalität standen bei Bacon oft in Konkurrenz, und die Macht gewann meist.</p>
         </blockquote>
 
