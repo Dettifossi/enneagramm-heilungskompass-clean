@@ -29,6 +29,5 @@ jobs:
               "chrome_web_icon": "https://kompass.verlagshausrathmer.com/apple-touch-icon.png",
               "isAnyWeb": true,
               "delayed_option": "timezone",
-              "delivery_time_of_day": "7:00AM",
-              "throttle_rate_per_minute": 0
+              "delivery_time_of_day": "7:00AM"
             }'
