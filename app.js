@@ -10,7 +10,7 @@ import { SITUATIONSKOMPASS } from "./data/situationskompass.js?v=9";
 import { registerEntries } from "./data/register.js?v=32";
 import { TIERENTSPRECHUNGEN } from "./data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "./data/verhalten.js?v=1";
-import { TIERLEXIKON } from "./data/tierlexikon.js?v=8";
+import { TIERLEXIKON } from "./data/tierlexikon.js?v=9";
 
 // ── Firebase Auth ────────────────────────────────────────────────────────────
 const FB_CONFIG = {
@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "386";
+const APP_BUILD = "387";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;

@@ -607,9 +607,9 @@ export const TIERLEXIKON = {
     tier: "Gürteltier",
     lateinisch: "Dasypus novemcinctus",
     emoji: "🦔",
-    intro: "Das Gürteltier ist ein evolutionäres Unikat – gepanzert wie ein mittelalterlicher Ritter, aber weich an der Unterseite. Es gräbt sich in die Erde, trägt seine Schutzrüstung zur Schau und ist dennoch verletzbar. Die SO4 kennt diesen Zwiespalt: Er zeigt, was er hat – und schützt, was ihn wirklich ausmacht.",
+    intro: "Das Gürteltier ist ein evolutionäres Unikat – gepanzert wie ein mittelalterlicher Ritter, aber weich an der Unterseite. Es gräbt sich in die Erde, trägt seine Schutzrüstung zur Schau und ist dennoch verletzbar. Die SO4 kennt diesen Zwiespalt: Sie zeigt, was sie hat – und schützt, was sie wirklich ausmacht.",
     fakten: [
-      "Gürteltiere haben ein knöchernes Hautpanzer aus Schuppen – einzigartig unter Säugetieren. *Die SO4 hat eine Außenschicht, die Schutz und Identität zugleich ist. Das Panzer ist nicht Versteckspiel – es ist Teil ihres Wesens.*",
+      "Gürteltiere haben einen knöchernen Hautpanzer aus Schuppen – einzigartig unter Säugetieren. *Die SO4 hat eine Außenschicht, die Schutz und Identität zugleich ist. Das Panzer ist nicht Versteckspiel – es ist Teil ihres Wesens.*",
       "Sie sind die einzigen bekannten Tiere außer dem Menschen, die Lepra übertragen können. *Die SO4 trägt manchmal etwas, das sie nicht wählte. Was sie einzigartig macht, trägt auch Risiken.*",
       "Gürteltiere schlafen bis zu 16 Stunden täglich. *Die SO4 braucht Rückzug. Nicht aus Faulheit – sondern weil sie sich regenerieren muss.*",
       "Sie können bis zu 6 Minuten die Luft anhalten und durch Flüsse tauchen. *Die SO4 hat erstaunliche Kapazitäten, die niemand erwartet. Unter Druck zeigt sie, was sie kann.*",
