@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "392";
+const APP_BUILD = "393";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -11681,7 +11681,7 @@ function scarlettJohanssonPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Angst und des Zweifels am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Statt sich zurückzuziehen, tritt die SX6 nach vorn. <em>Wenn ich stark genug wirke, kann mir niemand zu nahe kommen.</em> Naranjo nannte diesen Subtyp <em>Stärke</em>: Die SX6 begegnet der eigenen Verletzlichkeit, indem sie eine Fassade von Unangreifbarkeit errichtet.</p>
           <p class="vb-intro">Bei Johansson zeigt sich das in einer Karriere voller Rollen, die genau diese Spannung verkörpern: die kühle, tödlich präzise Black Widow im Marvel Cinematic Universe, die selbstbewusste Femme fatale in <em>Match Point</em>, die kontrollierte KI-Stimme in <em>Her</em>, deren emotionale Tiefe sich nur in Nuancen zeigt. Immer wieder Figuren, die Stärke performen, während darunter etwas Verletzliches, Suchendes liegt &ndash; genau das Muster der SX6, das Innere hinter einer Rüstung aus Präsenz zu verbergen.</p>
-          <p class="vb-intro">Auch privat hat Johansson ihr Rudel klein und geschützt gehalten. Trotz jahrzehntelanger globaler Bekanntheit hat sie ihr Privatleben &ndash; drei Ehen, ihre Tochter und ihr Sohn &ndash; konsequent aus dem Blitzlicht ferngehalten, soweit das für einen der bekanntesten Filmstars der Welt möglich ist. Der Wolf gibt nur preis, was er selbst entscheidet preiszugeben.</p>
+          <p class="vb-intro">Auch privat hat Johansson ihr Rudel klein und geschützt gehalten. Trotz jahrzehntelanger globaler Bekanntheit hat sie ihr Privatleben &ndash; drei Ehen, ihre Tochter und ihren Sohn &ndash; konsequent aus dem Blitzlicht ferngehalten, soweit das für einen der bekanntesten Filmstars der Welt möglich ist. Der Wolf gibt nur preis, was er selbst entscheidet preiszugeben.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Siebenerflügel: Vielseitigkeit und Tempo</h2>
