@@ -2,8 +2,12 @@ name: Täglicher Push-Impuls
 
 on:
   schedule:
-    # Jeden Morgen um 07:00 Uhr deutscher Zeit (= 05:00 UTC)
-    - cron: "0 5 * * *"
+    # Läuft früh morgens (= 03:00 UTC / 05:00 Uhr deutscher Zeit) mit großem
+    # Zeitpuffer, da GitHub Actions Cron-Jobs sich um Stunden verzögern können.
+    # Die tatsächliche Zustellung um 7 Uhr übernimmt OneSignal selbst
+    # (delayed_option/delivery_time_of_day unten) – unabhängig davon, wann
+    # dieser Job tatsächlich lief.
+    - cron: "0 3 * * *"
   workflow_dispatch: # Manuell auslösbar zum Testen
 
 jobs:
@@ -23,5 +27,8 @@ jobs:
               "contents": {"en": "Your daily impulse is waiting for you", "de": "Dein Tagesimpuls wartet auf dich"},
               "url": "https://kompass.verlagshausrathmer.com/#dashboard",
               "chrome_web_icon": "https://kompass.verlagshausrathmer.com/apple-touch-icon.png",
-              "isAnyWeb": true
+              "isAnyWeb": true,
+              "delayed_option": "timezone",
+              "delivery_time_of_day": "7:00AM",
+              "throttle_rate_per_minute": 0
             }'
