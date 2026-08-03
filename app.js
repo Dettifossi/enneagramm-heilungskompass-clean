@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "393";
+const APP_BUILD = "394";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -614,6 +614,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hans Zimmer – Selbsterhaltender Typ 7",
     teaser:"SE7w8 · geb. 1957. Filmkomponist, Arrangeur, Musikproduzent. The Lion King, Gladiator, Inception, Interstellar. Der Gorilla, der Klang zu Emotion macht – und eine ganze Familie von Komponisten um sich versammelt hat. Tierentsprechung: Gorilla.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-francis-bacon", name:"Francis Bacon", added:"2026-08-03", subtyp:"SE7w8",
+    heading:"Francis Bacon – Selbsterhaltender Typ 7",
+    teaser:"SE7w8 · geb. 1561, gest. 1626. Philosoph, Staatsmann, Begründer des modernen Empirismus, ehem. Lordkanzler von England. Der Gorilla, der alles Wissen der Menschheit neu ordnen wollte – und an der eigenen Macht scheiterte.",
+    tags:["Philosophie","Politik"], gender:"m"},
   { route:"beruehmte-rowan-atkinson", name:"Rowan Atkinson", added:"2026-07-22", subtyp:"SO7w6",
     heading:"Rowan Atkinson – Sozialer Typ 7",
     teaser:"SO7w6 \xb7 geb. 1955 in Consett, County Durham. Schauspieler, Komiker, Autor. Mr. Bean, Blackadder, Johnny English. Der Biber mit Sechserfl\xfcgel: Zugeh\xf6rigkeit statt Ausbruch, Perfektion als innere Versicherung.",
@@ -11832,6 +11836,70 @@ function hansZimmerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-jasmin-paolini", label:"Porträt: Jasmine Paolini (SE7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function francisBaconPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-francis-bacon-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Francis Bacon</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Philosoph, Staatsmann &amp; Begründer des Empirismus, geb. 1561, gest. 1626 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; ein Tier von enormer Kraft, das im Verband lebt, dessen Reichweite sich über ein ganzes Territorium erstreckt und dessen Präsenz einen Raum füllt, ohne dass es sich anstrengen müsste. Der Gorilla denkt in großen Zusammenhängen &ndash; und er baut sich sein Umfeld so, dass er darin wachsen kann.</p>
+          <p class="vb-intro">Francis Bacon, geboren 1561 in London als Sohn des Lordsiegelbewahrers Nicholas Bacon, ist dieser Gorilla. Kaum ein Denker seiner Zeit griff nach so viel zugleich: Jurist, Politiker, Wissenschaftstheoretiker, Essayist &ndash; und am Ende seiner Laufbahn Lordkanzler von England, das höchste juristische Amt der Krone. Sein erklärtes Lebensziel war nichts Geringeres als die <em>Instauratio Magna</em>, die „Große Erneuerung" des gesamten menschlichen Wissens. Ein Gorilla baut kein kleines Nest &ndash; er baut ein Territorium, das ein ganzes Rudel trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude am Entdecken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> sucht ihre Freude nicht in der großen Bühne, sondern im eigenen, selbst geschaffenen Umfeld &ndash; im Prozess des Erschaffens, Sammelns und Ordnens selbst. Naranjo nannte diesen Subtyp <em>Familie</em>: ein Nest, in dem sich Neugier ungestört entfalten kann.</p>
+          <p class="vb-intro">Bacons Neugier kannte praktisch kein Fach, das ihm zu fremd gewesen wäre. Er sammelte Beobachtungen zu Naturphänomenen, Experimenten, Rechtsfällen, Staatsgeschäften und moralischen Fragen mit derselben Hingabe. Sein Werk <em>Novum Organum</em> (1620) schlug ein radikal neues Fundament für die Wissenschaft vor: nicht länger aus alten Autoritäten wie Aristoteles ableiten, sondern durch systematische Beobachtung und Experiment zu neuem Wissen gelangen &ndash; die induktive Methode, die bis heute als Geburtsstunde der modernen empirischen Wissenschaft gilt. „Wissen ist Macht", schrieb er &ndash; ein Satz, der sein ganzes Lebensprojekt zusammenfasst: die Freude der SE7 am Entdecken, verwandelt in ein System für die gesamte Menschheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Macht und Durchsetzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der selbsterhaltenden Sieben eine Durchsetzungskraft, die der reinen Sieben fehlt. Wo die Sieben ausweicht, wenn Widerstand entsteht, sucht die SE7w8 die Konfrontation &ndash; und den Aufstieg in Positionen, aus denen heraus sie tatsächlich gestalten kann.</p>
+          <p class="vb-intro">Bacons politische Karriere zeigt diese Durchsetzungskraft in Reinform: Abgeordneter im Unterhaus, Solicitor General, Attorney General, Lordsiegelbewahrer und schließlich 1618 Lordkanzler von England unter König Jakob I. &ndash; ein beispielloser Aufstieg durch juristische Präzision, politisches Kalkül und beharrliches Werben um Gunst am Hof. Doch der Achterflügel hat auch eine schmerzhafte Seite: 1601 war es Bacon, der als Kronanwalt maßgeblich an der Anklage seines früheren Förderers und Freundes, des Earl of Essex, wegen Hochverrats mitwirkte &ndash; ein Verrat an einer persönlichen Bindung zugunsten der eigenen Karriere, den ihm viele Zeitgenossen nie verziehen. Macht und Loyalität standen bei Bacon oft in Konkurrenz, und die Macht gewann meist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Aufstieg und Fall: Der Lordkanzler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1618 erreichte Bacon den Gipfel seiner Laufbahn: Lordkanzler von England, kurz darauf zum Viscount St Alban erhoben. Er war damit der oberste Richter des Landes &ndash; und zugleich mitten in der Arbeit an seinem großen wissenschaftlichen Reformwerk. Zwei Leben, ein Mann: der Staatsdiener am Tag, der Universalgelehrte in den frühen Morgenstunden.</p>
+          <p class="vb-intro">1621 stürzte dieses doppelte Leben ein. Das Parlament klagte Bacon der Bestechlichkeit an &ndash; er hatte, wie damals nicht unüblich, Geschenke von Prozessparteien angenommen, während deren Verfahren vor ihm liefen. Bacon gestand die Vorwürfe ein, ohne sich zu rechtfertigen, wurde zu einer hohen Geldstrafe verurteilt, kurzzeitig im Tower of London inhaftiert und von allen öffentlichen Ämtern sowie vom Parlament und Hof ausgeschlossen. Der Gorilla, der ein Territorium für die gesamte Menschheit hatte bauen wollen, verlor binnen weniger Wochen sein eigenes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE7w8 ist ihre Fähigkeit, aus reiner Entdeckerfreude ein Werk zu schaffen, das über die eigene Lebenszeit hinausreicht. Bacons Beschreibung der „Idole des Geistes" &ndash; der systematischen Denkfehler, die menschliche Erkenntnis verzerren, von Vorurteilen des Einzelnen bis zu blindem Vertrauen in überlieferte Autoritäten &ndash; nimmt moderne Erkenntnistheorie und Kognitionspsychologie um Jahrhunderte vorweg. Ohne Bacons Methode sähe die gesamte neuzeitliche Naturwissenschaft anders aus.</p>
+          <p class="vb-intro">Der Schatten liegt in einer bitteren Ironie: Der Mann, der wie kein anderer vor Selbsttäuschung und verzerrtem Urteil warnte, unterlag am Ende genau jenen „Idolen", die er selbst beschrieben hatte &ndash; der Versuchung der Macht, der Bequemlichkeit angenommener Geschenke, dem Glauben, über den eigenen Regeln zu stehen. Das Schicksalsmuster der Sieben ist die <strong>Völlerei</strong> &ndash; bei der SE7w8 zeigt sie sich nicht nur als Hunger nach Wissen, sondern auch als Hunger nach Ämtern, Einfluss und Anerkennung, der irgendwann die eigene Integrität überholt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Wissen, das bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sieben führt von der Frage <em>Wonach greife ich als Nächstes?</em> zur Nüchternheit: dem bewussten Verzicht auf das Zuviel, zugunsten dessen, was wirklich trägt. Für die SE7w8 bedeutet das, die eigene Schöpferkraft nicht mehr in den Dienst der Selbstvermehrung von Macht zu stellen, sondern in den Dienst einer Sache, die größer ist als man selbst.</p>
+          <p class="vb-intro">Genau das tat Bacon in seinen letzten fünf Lebensjahren nach dem Sturz: von öffentlichen Ämtern befreit, widmete er sich fast ausschließlich dem Schreiben und vollendete einige seiner bedeutendsten Werke. Sein Tod im April 1626 passt zu keinem anderen Subtyp so gut wie zur SE7w8: Auf einer Kutschfahrt kam ihm die Idee, ob Kälte Fäulnis verzögern könnte &ndash; er hielt an, kaufte ein Hähnchen, stopfte es eigenhändig mit Schnee aus und erkältete sich dabei tödlich. Der Gorilla, der bis zum letzten Atemzug nach der nächsten Entdeckung griff &ndash; und im Sterben noch ein Experiment machte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
       ])}
     </div>
   `);
@@ -45171,6 +45239,7 @@ function render() {
       "beruehmte-scarlett-johansson": scarlettJohanssonPortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
+      "beruehmte-francis-bacon": francisBaconPortraitPage,
       "beruehmte-ina-mueller": inaMuellerPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,

@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "394";
+const APP_BUILD = "395";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -444,6 +444,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hans Zimmer – Self-Preservation Type 7",
     teaser:"SP7w8 · born 1957. Film composer, arranger, music producer. The Lion King, Gladiator, Inception, Interstellar. The gorilla that turns sound into emotion – and has gathered an entire family of composers around itself. Animal correspondence: Gorilla.",
     tags:["Musik"] },
+  { route:"beruehmte-francis-bacon", name:"Francis Bacon", added:"2026-08-03", subtyp:"SE7w8",
+    heading:"Francis Bacon – Self-Preservation Type 7",
+    teaser:"SP7w8 · born 1561, died 1626. Philosopher, statesman, founder of modern empiricism, former Lord Chancellor of England. The gorilla that wanted to reorganise all human knowledge – and fell from his own power.",
+    tags:["Philosophie","Politik"]},
   { route:"beruehmte-elon-musk", name:"Elon Musk", subtyp:"SO7w6",
     heading:"Elon Musk – Social Type 7",
     teaser:"SO7w6 · born 1971. Entrepreneur, founder of PayPal, SpaceX, X (formerly Twitter), co-owner of Tesla. The beaver that builds worlds – and never finishes. Animal correspondence: Beaver.",
@@ -19829,6 +19833,70 @@ function hansZimmerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
         {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmine Paolini (SP7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function francisBaconPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-francis-bacon-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Francis Bacon</p>
+        <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Philosopher, statesman &amp; founder of empiricism, born 1561, died 1626 &ndash; Animal correspondence: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Gorilla</strong> is the animal of the Self-Preservation Type 7 &ndash; an animal of enormous strength that lives in a group, whose reach extends over an entire territory, and whose presence fills a room without any effort. The Gorilla thinks in large connections &ndash; and builds its surroundings so it can grow within them.</p>
+          <p class="vb-intro">Francis Bacon, born 1561 in London, son of the Lord Keeper Nicholas Bacon, is this Gorilla. Hardly any thinker of his time reached for so much at once: lawyer, politician, philosopher of science, essayist &ndash; and, at the peak of his career, Lord Chancellor of England, the Crown's highest legal office. His declared life's goal was nothing less than the <em>Instauratio Magna</em>, the "Great Renewal" of all human knowledge. A Gorilla does not build a small nest &ndash; it builds a territory that can carry an entire troop.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Seven: Joy in Discovery</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Seven (SP7)</strong> seeks its joy not on the grand stage but in its own, self-made surroundings &ndash; in the process of creating, collecting and ordering itself. Naranjo called this subtype <em>Family</em>: a nest in which curiosity can unfold undisturbed.</p>
+          <p class="vb-intro">Bacon's curiosity knew almost no field too foreign for him. He gathered observations on natural phenomena, experiments, legal cases, affairs of state and moral questions with the same devotion. His work <em>Novum Organum</em> (1620) proposed a radically new foundation for science: no longer deriving knowledge from old authorities such as Aristotle, but arriving at new knowledge through systematic observation and experiment &ndash; the inductive method, still regarded today as the birth of modern empirical science. "Knowledge is power," he wrote &ndash; a sentence that sums up his entire life's project: the SP7's joy in discovery, turned into a system for all of humanity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: Power and Assertion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Self-Preservation Seven an assertiveness the pure Seven lacks. Where the Seven evades when resistance arises, the SP7w8 seeks confrontation &ndash; and the climb into positions from which it can actually shape things.</p>
+          <p class="vb-intro">Bacon's political career shows this assertiveness in its purest form: member of the House of Commons, Solicitor General, Attorney General, Lord Keeper and finally, in 1618, Lord Chancellor of England under King James I &ndash; an unprecedented rise through legal precision, political calculation and persistent courting of favour. But the Eight-wing also has a painful side: in 1601, it was Bacon who, as Crown counsel, played a decisive role in prosecuting his former patron and friend, the Earl of Essex, for treason &ndash; a betrayal of a personal bond in favour of his own career that many contemporaries never forgave him. Power and loyalty were often in competition in Bacon, and power mostly won.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Rise and Fall: The Lord Chancellor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1618 Bacon reached the summit of his career: Lord Chancellor of England, shortly afterwards elevated to Viscount St Alban. He was now the country's highest judge &ndash; and, at the same time, in the middle of work on his great scientific reform project. Two lives, one man: statesman by day, universal scholar in the early morning hours.</p>
+          <p class="vb-intro">In 1621 this double life collapsed. Parliament charged Bacon with corruption &ndash; he had, as was not uncommon at the time, accepted gifts from litigants while their cases were pending before him. Bacon admitted the charges without justifying himself, was sentenced to a heavy fine, briefly imprisoned in the Tower of London, and barred from all public office as well as from Parliament and the court. The Gorilla who had wanted to build a territory for all of humanity lost his own within a matter of weeks.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP7w8 is its ability to turn pure joy of discovery into a body of work that outlasts its own lifetime. Bacon's description of the "Idols of the Mind" &ndash; the systematic errors of thought that distort human understanding, from individual prejudice to blind trust in received authority &ndash; anticipates modern epistemology and cognitive psychology by centuries. Without Bacon's method, the whole of modern natural science would look different.</p>
+          <p class="vb-intro">The shadow lies in a bitter irony: the man who, like no other, warned against self-deception and distorted judgment ultimately fell victim to exactly the "idols" he himself had described &ndash; the temptation of power, the convenience of accepted gifts, the belief that he stood above his own rules. The core passion of the Seven is <strong>gluttony</strong> &ndash; in the SP7w8 it shows not only as a hunger for knowledge, but also as a hunger for office, influence and recognition that eventually outran his own integrity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: Knowledge That Endures</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Seven leads from the question <em>What do I reach for next?</em> to sobriety: the conscious renunciation of excess in favour of what truly endures. For the SP7w8 this means no longer placing one's own creative force in the service of accumulating power, but in the service of a cause greater than oneself.</p>
+          <p class="vb-intro">That is exactly what Bacon did in the five years remaining after his fall. Freed from public office, he devoted himself almost entirely to writing and completed some of his most significant works. His death in April 1626 fits no other subtype so well as the SP7w8: on a carriage ride, the idea struck him that cold might delay decay &ndash; he stopped, bought a chicken, stuffed it with snow with his own hands, and caught a fatal chill in the process. The Gorilla that, to its last breath, reached for the next discovery &ndash; and made one more experiment while dying.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
+        {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
       ])}
     </div>
   `);
@@ -42250,6 +42318,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-scarlett-johansson": scarlettJohanssonPortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
+      "beruehmte-francis-bacon": francisBaconPortraitPage,
       "beruehmte-ina-mueller": inaMuellerPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,

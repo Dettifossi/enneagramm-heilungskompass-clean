@@ -23810,6 +23810,7 @@ const registerEntries = [
   // Ber\u00fchmte Pers\u00f6nlichkeiten \u2013 Portraits
   { term: "Wladimir Putin",                route: "beruehmte-wladimir-putin",              description: "Portrait: SX6w5 \u00b7 Sexueller Typ 6 \u00b7 Politiker, Pr\u00e4sident der Russischen F\u00f6deration" },
   { term: "Scarlett Johansson",             route: "beruehmte-scarlett-johansson",          description: "Portrait: SX6w7 \u00b7 Sexueller Typ 6 \u00b7 Schauspielerin, Produzentin" },
+  { term: "Francis Bacon",                  route: "beruehmte-francis-bacon",               description: "Portrait: SE7w8 \u00b7 Selbsterhaltender Typ 7 \u00b7 Philosoph, Staatsmann, Lordkanzler" },
   { term: "Alice Schwarzer",               route: "beruehmte-alice-schwarzer",             description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Feministin, EMMA-Gr\u00fcnderin" },
   { term: "Ana de Armas",                  route: "beruehmte-ana-de-armas",                description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, Knives Out" },
   { term: "Angelina Jolie",                route: "beruehmte-angelina-jolie",              description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, UN-Botschafterin" },
@@ -24061,6 +24062,7 @@ const registerEntriesEN = [
   // Famous Personalities \u2013 Portraits
   { term: "Vladimir Putin", route: "beruehmte-wladimir-putin", description: "Portrait: SX6w5 \u00b7 Sexual Type 6 \u00b7 Politician, President of the Russian Federation" },
   { term: "Scarlett Johansson", route: "beruehmte-scarlett-johansson", description: "Portrait: SX6w7 \u00b7 Sexual Type 6 \u00b7 Actress, producer" },
+  { term: "Francis Bacon", route: "beruehmte-francis-bacon", description: "Portrait: SE7w8 \u00b7 Self-Preservation Type 7 \u00b7 Philosopher, statesman, Lord Chancellor" },
   { term: "Alice Schwarzer", route: "beruehmte-alice-schwarzer", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Feminist, EMMA founder" },
   { term: "Ana de Armas", route: "beruehmte-ana-de-armas", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, Knives Out" },
   { term: "Angelina Jolie", route: "beruehmte-angelina-jolie", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, UN Ambassador" },
@@ -27147,7 +27149,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "393";
+const APP_BUILD = "394";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -27708,6 +27710,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hans Zimmer \u2013 Selbsterhaltender Typ 7",
     teaser:"SE7w8 \u00b7 geb. 1957. Filmkomponist, Arrangeur, Musikproduzent. The Lion King, Gladiator, Inception, Interstellar. Der Gorilla, der Klang zu Emotion macht \u2013 und eine ganze Familie von Komponisten um sich versammelt hat. Tierentsprechung: Gorilla.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-francis-bacon", name:"Francis Bacon", added:"2026-08-03", subtyp:"SE7w8",
+    heading:"Francis Bacon \u2013 Selbsterhaltender Typ 7",
+    teaser:"SE7w8 \u00b7 geb. 1561, gest. 1626. Philosoph, Staatsmann, Begr\u00fcnder des modernen Empirismus, ehem. Lordkanzler von England. Der Gorilla, der alles Wissen der Menschheit neu ordnen wollte \u2013 und an der eigenen Macht scheiterte.",
+    tags:["Philosophie","Politik"], gender:"m"},
   { route:"beruehmte-rowan-atkinson", name:"Rowan Atkinson", added:"2026-07-22", subtyp:"SO7w6",
     heading:"Rowan Atkinson \u2013 Sozialer Typ 7",
     teaser:"SO7w6 \xb7 geb. 1955 in Consett, County Durham. Schauspieler, Komiker, Autor. Mr. Bean, Blackadder, Johnny English. Der Biber mit Sechserfl\xfcgel: Zugeh\xf6rigkeit statt Ausbruch, Perfektion als innere Versicherung.",
@@ -38926,6 +38932,70 @@ function hansZimmerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-jasmin-paolini", label:"Portr\u00e4t: Jasmine Paolini (SE7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function francisBaconPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-francis-bacon-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Francis Bacon</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Philosoph, Staatsmann &amp; Begr\u00fcnder des Empirismus, geb. 1561, gest. 1626 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; ein Tier von enormer Kraft, das im Verband lebt, dessen Reichweite sich \u00fcber ein ganzes Territorium erstreckt und dessen Pr\u00e4senz einen Raum f\u00fcllt, ohne dass es sich anstrengen m\u00fcsste. Der Gorilla denkt in gro\u00dfen Zusammenh\u00e4ngen &ndash; und er baut sich sein Umfeld so, dass er darin wachsen kann.</p>
+          <p class="vb-intro">Francis Bacon, geboren 1561 in London als Sohn des Lordsiegelbewahrers Nicholas Bacon, ist dieser Gorilla. Kaum ein Denker seiner Zeit griff nach so viel zugleich: Jurist, Politiker, Wissenschaftstheoretiker, Essayist &ndash; und am Ende seiner Laufbahn Lordkanzler von England, das h\u00f6chste juristische Amt der Krone. Sein erkl\u00e4rtes Lebensziel war nichts Geringeres als die <em>Instauratio Magna</em>, die \u201eGro\u00dfe Erneuerung" des gesamten menschlichen Wissens. Ein Gorilla baut kein kleines Nest &ndash; er baut ein Territorium, das ein ganzes Rudel tr\u00e4gt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude am Entdecken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> sucht ihre Freude nicht in der gro\u00dfen B\u00fchne, sondern im eigenen, selbst geschaffenen Umfeld &ndash; im Prozess des Erschaffens, Sammelns und Ordnens selbst. Naranjo nannte diesen Subtyp <em>Familie</em>: ein Nest, in dem sich Neugier ungest\u00f6rt entfalten kann.</p>
+          <p class="vb-intro">Bacons Neugier kannte praktisch kein Fach, das ihm zu fremd gewesen w\u00e4re. Er sammelte Beobachtungen zu Naturph\u00e4nomenen, Experimenten, Rechtsf\u00e4llen, Staatsgesch\u00e4ften und moralischen Fragen mit derselben Hingabe. Sein Werk <em>Novum Organum</em> (1620) schlug ein radikal neues Fundament f\u00fcr die Wissenschaft vor: nicht l\u00e4nger aus alten Autorit\u00e4ten wie Aristoteles ableiten, sondern durch systematische Beobachtung und Experiment zu neuem Wissen gelangen &ndash; die induktive Methode, die bis heute als Geburtsstunde der modernen empirischen Wissenschaft gilt. \u201eWissen ist Macht", schrieb er &ndash; ein Satz, der sein ganzes Lebensprojekt zusammenfasst: die Freude der SE7 am Entdecken, verwandelt in ein System f\u00fcr die gesamte Menschheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Macht und Durchsetzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> gibt der selbsterhaltenden Sieben eine Durchsetzungskraft, die der reinen Sieben fehlt. Wo die Sieben ausweicht, wenn Widerstand entsteht, sucht die SE7w8 die Konfrontation &ndash; und den Aufstieg in Positionen, aus denen heraus sie tats\u00e4chlich gestalten kann.</p>
+          <p class="vb-intro">Bacons politische Karriere zeigt diese Durchsetzungskraft in Reinform: Abgeordneter im Unterhaus, Solicitor General, Attorney General, Lordsiegelbewahrer und schlie\u00dflich 1618 Lordkanzler von England unter K\u00f6nig Jakob I. &ndash; ein beispielloser Aufstieg durch juristische Pr\u00e4zision, politisches Kalk\u00fcl und beharrliches Werben um Gunst am Hof. Doch der Achterfl\u00fcgel hat auch eine schmerzhafte Seite: 1601 war es Bacon, der als Kronanwalt ma\u00dfgeblich an der Anklage seines fr\u00fcheren F\u00f6rderers und Freundes, des Earl of Essex, wegen Hochverrats mitwirkte &ndash; ein Verrat an einer pers\u00f6nlichen Bindung zugunsten der eigenen Karriere, den ihm viele Zeitgenossen nie verziehen. Macht und Loyalit\u00e4t standen bei Bacon oft in Konkurrenz, und die Macht gewann meist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Aufstieg und Fall: Der Lordkanzler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1618 erreichte Bacon den Gipfel seiner Laufbahn: Lordkanzler von England, kurz darauf zum Viscount St Alban erhoben. Er war damit der oberste Richter des Landes &ndash; und zugleich mitten in der Arbeit an seinem gro\u00dfen wissenschaftlichen Reformwerk. Zwei Leben, ein Mann: der Staatsdiener am Tag, der Universalgelehrte in den fr\u00fchen Morgenstunden.</p>
+          <p class="vb-intro">1621 st\u00fcrzte dieses doppelte Leben ein. Das Parlament klagte Bacon der Bestechlichkeit an &ndash; er hatte, wie damals nicht un\u00fcblich, Geschenke von Prozessparteien angenommen, w\u00e4hrend deren Verfahren vor ihm liefen. Bacon gestand die Vorw\u00fcrfe ein, ohne sich zu rechtfertigen, wurde zu einer hohen Geldstrafe verurteilt, kurzzeitig im Tower of London inhaftiert und von allen \u00f6ffentlichen \u00c4mtern sowie vom Parlament und Hof ausgeschlossen. Der Gorilla, der ein Territorium f\u00fcr die gesamte Menschheit hatte bauen wollen, verlor binnen weniger Wochen sein eigenes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE7w8 ist ihre F\u00e4higkeit, aus reiner Entdeckerfreude ein Werk zu schaffen, das \u00fcber die eigene Lebenszeit hinausreicht. Bacons Beschreibung der \u201eIdole des Geistes" &ndash; der systematischen Denkfehler, die menschliche Erkenntnis verzerren, von Vorurteilen des Einzelnen bis zu blindem Vertrauen in \u00fcberlieferte Autorit\u00e4ten &ndash; nimmt moderne Erkenntnistheorie und Kognitionspsychologie um Jahrhunderte vorweg. Ohne Bacons Methode s\u00e4he die gesamte neuzeitliche Naturwissenschaft anders aus.</p>
+          <p class="vb-intro">Der Schatten liegt in einer bitteren Ironie: Der Mann, der wie kein anderer vor Selbstt\u00e4uschung und verzerrtem Urteil warnte, unterlag am Ende genau jenen \u201eIdolen", die er selbst beschrieben hatte &ndash; der Versuchung der Macht, der Bequemlichkeit angenommener Geschenke, dem Glauben, \u00fcber den eigenen Regeln zu stehen. Das Schicksalsmuster der Sieben ist die <strong>V\u00f6llerei</strong> &ndash; bei der SE7w8 zeigt sie sich nicht nur als Hunger nach Wissen, sondern auch als Hunger nach \u00c4mtern, Einfluss und Anerkennung, der irgendwann die eigene Integrit\u00e4t \u00fcberholt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Wissen, das bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sieben f\u00fchrt von der Frage <em>Wonach greife ich als N\u00e4chstes?</em> zur N\u00fcchternheit: dem bewussten Verzicht auf das Zuviel, zugunsten dessen, was wirklich tr\u00e4gt. F\u00fcr die SE7w8 bedeutet das, die eigene Sch\u00f6pferkraft nicht mehr in den Dienst der Selbstvermehrung von Macht zu stellen, sondern in den Dienst einer Sache, die gr\u00f6\u00dfer ist als man selbst.</p>
+          <p class="vb-intro">Genau das tat Bacon in seinen letzten f\u00fcnf Lebensjahren nach dem Sturz: von \u00f6ffentlichen \u00c4mtern befreit, widmete er sich fast ausschlie\u00dflich dem Schreiben und vollendete einige seiner bedeutendsten Werke. Sein Tod im April 1626 passt zu keinem anderen Subtyp so gut wie zur SE7w8: Auf einer Kutschfahrt kam ihm die Idee, ob K\u00e4lte F\u00e4ulnis verz\u00f6gern k\u00f6nnte &ndash; er hielt an, kaufte ein H\u00e4hnchen, stopfte es eigenh\u00e4ndig mit Schnee aus und erk\u00e4ltete sich dabei t\u00f6dlich. Der Gorilla, der bis zum letzten Atemzug nach der n\u00e4chsten Entdeckung griff &ndash; und im Sterben noch ein Experiment machte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
       ])}
     </div>
   `);
@@ -72265,6 +72335,7 @@ function render() {
       "beruehmte-scarlett-johansson": scarlettJohanssonPortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
+      "beruehmte-francis-bacon": francisBaconPortraitPage,
       "beruehmte-ina-mueller": inaMuellerPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
