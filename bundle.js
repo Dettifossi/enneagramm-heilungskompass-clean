@@ -23813,6 +23813,7 @@ const registerEntries = [
   { term: "Francis Bacon",                  route: "beruehmte-francis-bacon",               description: "Portrait: SE7w8 \u00b7 Selbsterhaltender Typ 7 \u00b7 Philosoph, Staatsmann, Lordkanzler" },
   { term: "Larry King",                     route: "beruehmte-larry-king",                  description: "Portrait: SE7w6 \u00b7 Selbsterhaltender Typ 7 \u00b7 Talkshow-Moderator" },
   { term: "Jeanne-Marie Bouvier de la Motte Guyon", route: "beruehmte-jeanne-marie-guyon",   description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Mystikerin, Quietismus" },
+  { term: "Drew Barrymore",                 route: "beruehmte-drew-barrymore",              description: "Portrait: SO7w8 \u00b7 Sozialer Typ 7 \u00b7 Schauspielerin, Produzentin, Talkshow-Moderatorin" },
   { term: "Alice Schwarzer",               route: "beruehmte-alice-schwarzer",             description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Feministin, EMMA-Gr\u00fcnderin" },
   { term: "Ana de Armas",                  route: "beruehmte-ana-de-armas",                description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, Knives Out" },
   { term: "Angelina Jolie",                route: "beruehmte-angelina-jolie",              description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, UN-Botschafterin" },
@@ -24067,6 +24068,7 @@ const registerEntriesEN = [
   { term: "Francis Bacon", route: "beruehmte-francis-bacon", description: "Portrait: SE7w8 \u00b7 Self-Preservation Type 7 \u00b7 Philosopher, statesman, Lord Chancellor" },
   { term: "Larry King", route: "beruehmte-larry-king", description: "Portrait: SE7w6 \u00b7 Self-Preservation Type 7 \u00b7 Talk show host" },
   { term: "Jeanne-Marie Bouvier de la Motte Guyon", route: "beruehmte-jeanne-marie-guyon", description: "Portrait: SO7w6 \u00b7 Social Type 7 \u00b7 Mystic, Quietism" },
+  { term: "Drew Barrymore", route: "beruehmte-drew-barrymore", description: "Portrait: SO7w8 \u00b7 Social Type 7 \u00b7 Actress, producer, talk show host" },
   { term: "Alice Schwarzer", route: "beruehmte-alice-schwarzer", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Feminist, EMMA founder" },
   { term: "Ana de Armas", route: "beruehmte-ana-de-armas", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, Knives Out" },
   { term: "Angelina Jolie", route: "beruehmte-angelina-jolie", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, UN Ambassador" },
@@ -27153,7 +27155,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "399";
+const APP_BUILD = "400";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -27742,6 +27744,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hazel Brugger \u2013 Sozialer Typ 7",
     teaser:"SO7w8 \u00b7 geb. 1993. Comedian, Kabarettistin, Moderatorin, Bloggerin, Autorin, Slam-Poetin. Schweizer-US-amerikanisch. Der Biber, der baut, am\u00fcsiert und attackiert \u2013 mit Tempo, Tiefe und einem Lachen, das nichts ausl\u00e4sst. Tierentsprechung: Biber.",
     tags:["Schauspiel","Musik"] , gender:"f"},
+  { route:"beruehmte-drew-barrymore", name:"Drew Barrymore", added:"2026-08-03", subtyp:"SO7w8",
+    heading:"Drew Barrymore \u2013 Sozialer Typ 7",
+    teaser:"SO7w8 \u00b7 geb. 1975 in Los Angeles. Schauspielerin, Produzentin, Talkshow-Moderatorin. Kinderstar in \u201eE.T.\u201c, Absturz und Neuanfang, heute \u201eThe Drew Barrymore Show\u201c. Der Biber, der sein eigenes Chaos zum Fundament einer zweiten Karriere machte.",
+    tags:["Film","Medien"], gender:"f"},
   { route:"beruehmte-caroline-peters", name:"Caroline Peters", added:"2026-07-22", subtyp:"SX7w6",
     heading:"Caroline Peters \u2013 Sexueller Typ 7",
     teaser:"SX7w6 \u00b7 geb. 1971 in K\u00f6ln. Schauspielerin. Mord mit Aussicht (ARD), Burgtheater Wien, Grimme-Preis. Der Schimpanse mit Sechserfl\u00fcgel: Rausch der Verwandlung, Loyalit\u00e4t als Anker.",
@@ -39066,6 +39072,70 @@ function hazelBruggerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so7", label:"SO7 \u2013 Der Biber: Subtyp-Profil"},
         {route:"beruehmte-elon-musk", label:"Portr\u00e4t: Elon Musk (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function drewBarrymorePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-drew-barrymore-portrait.jpg" alt="Biber" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Drew Barrymore</p>
+        <p class="krim-portrait-typ">SO7w8 &middot; Sozialer Typ 7 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, Produzentin &amp; Talkshow-Moderatorin, geb. 1975 in Los Angeles &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 &ndash; ein Baumeister, der Katastrophen \u00fcbersteht, weil er st\u00e4ndig weiterbaut. F\u00e4llt ein Damm ein, beginnt der Biber sofort von Neuem, ohne lange innezuhalten. Er arbeitet nicht f\u00fcr sich allein, sondern f\u00fcr ein ganzes \u00d6kosystem, das von seiner Konstruktion abh\u00e4ngt.</p>
+          <p class="vb-intro">Drew Barrymore, geboren 1975 in Los Angeles als Spross der legend\u00e4ren Schauspielerdynastie Barrymore, ist dieser Biber. Mit sieben Jahren wurde sie durch ihre Rolle als Gertie in <em>E.T. &ndash; Der Au\u00dferirdische</em> (1982) weltber\u00fchmt &ndash; und st\u00fcrzte anschlie\u00dfend in eine der \u00f6ffentlichsten Kindheitskrisen Hollywoods. Doch statt daran zu zerbrechen, baute sie ihr Leben immer wieder neu auf: als Schauspielerin, als Unternehmerin, als eine der erfolgreichsten Produzentinnen ihrer Generation, und schlie\u00dflich als eine der beliebtesten Talkshow-Moderatorinnen Amerikas.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Freude als geteiltes Gut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> lenkt die Leidenschaft der Sieben &ndash; den unstillbaren Hunger nach Erfahrung &ndash; nicht auf den eigenen Genuss, sondern in den Dienst einer Gemeinschaft. Naranjo beschrieb diesen Subtyp treffend: Freude, die geteilt werden will, verwandelt sich in Idealismus, in das Bed\u00fcrfnis, andere an der eigenen Begeisterung teilhaben zu lassen.</p>
+          <p class="vb-intro">Barrymores gesamte \u00f6ffentliche Persona ist von diesem Impuls gepr\u00e4gt: die spontane Umarmung fremder Talkshow-G\u00e4ste, die Tr\u00e4nen, die ihr bei emotionalen Momenten unverhohlen \u00fcber das Gesicht laufen, die unerm\u00fcdliche Botschaft von Selbstakzeptanz und Optimismus, die sie in Interviews wiederholt. Freude ist f\u00fcr sie kein privates Vergn\u00fcgen, sondern etwas, das erst vollst\u00e4ndig wird, wenn es geteilt wird &ndash; eine Haltung, die sie sp\u00e4ter zur Grundlage einer ganzen Sendung machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Kontrolle \u00fcber das eigene Leben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel (w8)</strong> gibt der sozialen Sieben eine Durchsetzungskraft und Direktheit, die der reinen SO7 fehlt. Wo die SO7 allein zur Zerstreuung neigen k\u00f6nnte, verwandelt der Achterfl\u00fcgel diese Energie in aktives Gestalten &ndash; in den Willen, die eigenen Verh\u00e4ltnisse selbst in die Hand zu nehmen, statt sich ihnen auszuliefern.</p>
+          <p class="vb-intro">Mit gerade einmal 14 Jahren lie\u00df sich Barrymore, nach Jahren von Alkohol- und Drogenkonsum, zwei Klinikaufenthalten und einem gescheiterten Suizidversuch, gerichtlich von ihren Eltern emanzipieren &ndash; ein radikaler, in dieser Form ungew\u00f6hnlicher Schritt f\u00fcr eine Minderj\u00e4hrige. 1995 gr\u00fcndete sie mit gerade 20 Jahren ihre eigene Produktionsfirma, Flower Films, um nie wieder von den Entscheidungen anderer \u00fcber ihre Karriere abh\u00e4ngig zu sein. \u00dcber diese Firma produzierte sie unter anderem die erfolgreiche <em>Drei Engel f\u00fcr Charlie</em>-Reihe. Der Achterfl\u00fcgel zeigt sich hier nicht als Aggression, sondern als entschlossene Selbsterm\u00e4chtigung: Niemand sonst sollte je wieder \u00fcber ihr Leben bestimmen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Absturz und Wiederaufbau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Barrymores Kindheit ist eine der bekanntesten Warnungen Hollywoods vor den Schattenseiten des Kinderstar-Daseins: erste Zigarette mit neun Jahren, Alkohol mit neun, Marihuana mit zehn, Kokain mit zw\u00f6lf oder dreizehn. Ihre eigene Mutter nahm sie mit in Nachtclubs. Mit 13 Jahren erschien ihre erste Autobiografie, <em>Little Girl Lost</em> &ndash; ein Kind, das \u00f6ffentlich \u00fcber seine eigene Selbstzerst\u00f6rung schrieb.</p>
+          <p class="vb-intro">Der Wiederaufbau begann in den 1990er Jahren: Rollen in <em>Poison Ivy</em> und <em>Scream</em> (1996) zeigten eine erwachsene, eigenst\u00e4ndige K\u00fcnstlerin. Mit <em>Der Hochzeitsplaner</em>, <em>Nie wieder verliebt!</em> und <em>50 erste Dates</em> etablierte sie sich als eine der gefragtesten Kom\u00f6diendarstellerinnen ihrer Zeit &ndash; parallel dazu als Produzentin, die anderen jungen Talenten dieselben Chancen erm\u00f6glichte, die sie sich selbst erk\u00e4mpft hatte. Der Biber, der seinen eingest\u00fcrzten Bau nicht nur reparierte, sondern gr\u00f6\u00dfer und stabiler wieder aufbaute als zuvor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w8 ist ihre F\u00e4higkeit, aus eigenem Leid eine ansteckende, \u00f6ffentlich geteilte Lebensfreude zu machen, ohne diese Freude als Fassade zu missbrauchen. Barrymore spricht offen \u00fcber ihre Vergangenheit, \u00fcber Therapie, \u00fcber R\u00fcckschl\u00e4ge &ndash; und macht gerade dadurch anderen Mut, mit den eigenen Br\u00fcchen offen umzugehen.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einem Muster, das sich durch ihr gesamtes Erwachsenenleben zieht: drei gescheiterte Ehen (mit Jeremy Thomas, Tom Green und Will Kopelman), zwischenzeitliche R\u00fcckf\u00e4lle in problematischen Substanzkonsum, und eine Rastlosigkeit, die trotz aller Stabilit\u00e4t nie ganz verschwunden ist. Die soziale Sieben mit Achterfl\u00fcgel k\u00e4mpft daf\u00fcr, niemals wieder ohnm\u00e4chtig zu sein &ndash; doch genau diese Kampfbereitschaft kann verhindern, zur Ruhe zu kommen, selbst wenn \u00e4u\u00dferlich l\u00e4ngst alles gut zu sein scheint.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: The Drew Barrymore Show</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sieben f\u00fchrt von der Zerstreuung zur N\u00fcchternheit &ndash; der F\u00e4higkeit, bei einer Sache und bei den eigenen Gef\u00fchlen zu bleiben, statt vor ihnen davonzulaufen. F\u00fcr die SO7w8 bedeutet das, die eigene Durchsetzungskraft nicht mehr nur zum Selbstschutz einzusetzen, sondern in den Dienst echter, verletzlicher Verbindung mit anderen zu stellen.</p>
+          <p class="vb-intro">Seit 2020 moderiert Barrymore <em>The Drew Barrymore Show</em> &ndash; eine Talkshow, die sich bewusst von zynischer Distanz abgrenzt und stattdessen auf Empathie, Tr\u00e4nen und echte Umarmungen setzt. Kritiker nennen das mitunter zu sentimental. Doch genau darin liegt die Essenz der geheilten SO7w8: der Biber, der gelernt hat, sein Bauwerk nicht mehr aus Angst vor dem n\u00e4chsten Einsturz zu errichten, sondern aus der ehrlichen Freude daran, dass andere darin Schutz finden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so7", label:"SO7 \u2013 Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-hazel-brugger", label:"Portr\u00e4t: Hazel Brugger (SO7w8)"},
       ])}
     </div>
   `);
@@ -72480,6 +72550,7 @@ function render() {
       "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
+      "beruehmte-drew-barrymore": drewBarrymorePortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,

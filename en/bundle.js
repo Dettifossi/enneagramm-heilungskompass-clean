@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "399";
+const APP_BUILD = "400";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -533,6 +533,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Boris Becker – Sexual Type 7",
     teaser:"SX7w8 · born 1967. Tennis professional, three-time Wimbledon winner, youngest Wimbledon champion of all time (1985, at 17 years old). The chimpanzee with eight wings: limitless intensity, fame as a home, and the lifelong struggle for the image of the great Boris. Animal correspondence: Chimpanzee.",
     tags:["Sports"] , gender:"m"},
+  { route:"beruehmte-drew-barrymore", name:"Drew Barrymore", added:"2026-08-03", subtyp:"SO7w8",
+    heading:"Drew Barrymore – Social Type 7",
+    teaser:"SO7w8 \xb7 born 1975 in Los Angeles. Actress, producer, talk show host. Child star in \"E.T.\", crash and comeback, now host of \"The Drew Barrymore Show\". The beaver that turned her own chaos into the foundation of a second career.",
+    tags:["Film","Medien"], gender:"f"},
   { route:"beruehmte-caroline-peters", name:"Caroline Peters", added:"2026-07-22", subtyp:"SX7w6",
     heading:"Caroline Peters – Sexual Type 7",
     teaser:"SX7w6 · born 1971 in Cologne. Actress. Murder with a View (ARD), Burgtheater Vienna, Grimme Prize. The chimpanzee with six wings: the rush of transformation, loyalty as an anchor.",
@@ -19969,6 +19973,70 @@ function francisBaconPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function drewBarrymorePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-drew-barrymore-portrait.jpg" alt="Beaver" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Drew Barrymore</p>
+        <p class="krim-portrait-typ">SO7w8 &middot; Social Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Actress, producer &amp; talk show host, born 1975 in Los Angeles &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Beaver</strong> is the animal of the Social Type 7 &ndash; a builder that survives disaster by simply continuing to build. If a dam collapses, the Beaver starts again immediately, without dwelling on it for long. It does not work for itself alone, but for an entire ecosystem that depends on its construction.</p>
+          <p class="vb-intro">Drew Barrymore, born 1975 in Los Angeles into the legendary Barrymore acting dynasty, is this Beaver. At age seven she became world-famous for her role as Gertie in <em>E.T. the Extra-Terrestrial</em> (1982) &ndash; and subsequently fell into one of Hollywood's most public childhood crises. But instead of breaking under it, she rebuilt her life again and again: as an actress, as an entrepreneur, as one of the most successful producers of her generation, and finally as one of America's most beloved talk show hosts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Joy as a Shared Good</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Seven (SO7)</strong> directs the Seven's passion &ndash; the insatiable hunger for experience &ndash; not toward personal enjoyment but into the service of a community. Naranjo aptly described this subtype: joy that wants to be shared turns into idealism, into the need to let others take part in one's own enthusiasm.</p>
+          <p class="vb-intro">Barrymore's entire public persona is shaped by this impulse: the spontaneous hug for a stranger on her talk show, the tears that visibly run down her face in emotional moments, the tireless message of self-acceptance and optimism she repeats in interviews. For her, joy is not a private pleasure but something that becomes complete only when it is shared &ndash; an attitude she later made the foundation of an entire show.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: Control Over One's Own Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Social Seven an assertiveness and directness the pure SO7 lacks. Where the SO7 alone might tend toward scattering, the Eight-wing turns this energy into active shaping &ndash; into the will to take one's own circumstances into one's own hands, rather than being at their mercy.</p>
+          <p class="vb-intro">At just 14, after years of alcohol and drug use, two stints in rehab and a failed suicide attempt, Barrymore had herself legally emancipated from her parents &ndash; a radical step, unusual in this form for a minor. In 1995, at just 20, she founded her own production company, Flower Films, so that she would never again be dependent on other people's decisions about her career. Through this company she went on to produce, among other things, the successful <em>Charlie's Angels</em> series. The Eight-wing shows here not as aggression, but as determined self-empowerment: no one else would ever again decide her life for her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Crash and Rebuild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Barrymore's childhood is one of Hollywood's best-known cautionary tales about the dark side of being a child star: her first cigarette at nine, alcohol at nine, marijuana at ten, cocaine at twelve or thirteen. Her own mother took her to nightclubs. At 13 her first memoir, <em>Little Girl Lost</em>, was published &ndash; a child writing publicly about her own self-destruction.</p>
+          <p class="vb-intro">The rebuild began in the 1990s: roles in <em>Poison Ivy</em> and <em>Scream</em> (1996) revealed a grown, self-possessed artist. With <em>The Wedding Singer</em>, <em>Never Been Kissed</em> and <em>50 First Dates</em>, she established herself as one of the most sought-after comedic actresses of her era &ndash; while simultaneously becoming a producer who gave other young talents the same chances she had had to fight for herself. The Beaver that did not just repair its collapsed dam, but rebuilt it bigger and sturdier than before.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w8 is its ability to turn its own suffering into an infectious, publicly shared joy of living, without abusing that joy as a facade. Barrymore speaks openly about her past, about therapy, about setbacks &ndash; and in doing so gives others the courage to be open about their own fractures.</p>
+          <p class="vb-intro">The shadow shows in a pattern that runs through her entire adult life: three failed marriages (to Jeremy Thomas, Tom Green and Will Kopelman), occasional relapses into problematic substance use, and a restlessness that, despite all the stability, has never quite disappeared. The Social Seven with an Eight-wing fights to never be powerless again &ndash; but that very readiness to fight can prevent it from ever truly settling, even when everything outwardly seems fine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: The Drew Barrymore Show</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Seven leads from scattering to sobriety &ndash; the ability to stay with one thing, and with one's own feelings, instead of running from them. For the SO7w8 this means no longer using its assertiveness only for self-protection, but placing it in the service of real, vulnerable connection with others.</p>
+          <p class="vb-intro">Since 2020 Barrymore has hosted <em>The Drew Barrymore Show</em> &ndash; a talk show that deliberately sets itself apart from cynical distance and instead relies on empathy, tears and genuine hugs. Critics sometimes call it too sentimental. But that is exactly where the essence of the healed SO7w8 lies: the Beaver that has learned to build its dam not out of fear of the next collapse, but out of the honest joy that others find shelter in it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-hazel-brugger", label:"Portrait: Hazel Brugger (SO7w8)"},
       ])}
     </div>
   `);
@@ -42458,6 +42526,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-ina-mueller": inaMuellerPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
+      "beruehmte-drew-barrymore": drewBarrymorePortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
