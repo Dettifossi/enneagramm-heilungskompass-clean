@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "391";
+const APP_BUILD = "392";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -594,6 +594,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Anke Engelke – Sexueller Typ 6",
     teaser:"SX6w7 · geb. 1965. Komikerin, Schauspielerin, Entertainerin, Sängerin, Synchronsprecherin, Moderatorin. Mut durch Erscheinen: die SX6, die Angst in Energie und Humor verwandelt. Tierentsprechung: Wolf.",
     tags:["Medien","Kunst"] , gender:"f"},
+  { route:"beruehmte-scarlett-johansson", name:"Scarlett Johansson", added:"2026-08-03", subtyp:"SX6w7",
+    heading:"Scarlett Johansson – Sexueller Typ 6",
+    teaser:"SX6w7 · geb. 1984. Schauspielerin, Produzentin, meistkassierende Schauspielerin der Filmgeschichte. Der Wolf, der Verletzlichkeit hinter Intensität und Präsenz verbirgt.",
+    tags:["Film"], gender:"f"},
   { route:"beruehmte-jasmin-paolini", name:"Jasmine Paolini", subtyp:"SE7w6",
     heading:"Jasmine Paolini – Selbsterhaltender Typ 7",
     teaser:"SE7w6 · geb. 1996. Italienische Tennisspielerin, Weltranglistenvierte 2024. Finalistin Roland Garros & Wimbledon, Siegerin WTA Finals. Der Gorilla: Freude als Fundament, Wärme als Waffe, Kampfgeist als Geschenk. Tierentsprechung: Gorilla.",
@@ -11647,6 +11651,71 @@ function michaelSchumacherPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-anke-engelke", label:"Portr\xe4t: Anke Engelke (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function scarlettJohanssonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-scarlett-johansson-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Scarlett Johansson</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Produzentin, geb. 1984 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Tier von enormer Präsenz, das genau spürt, wann es Nähe zulassen kann und wann es sein Territorium verteidigen muss. Der Wolf zeigt selten Schwäche nach außen. Er trägt seine Wachsamkeit in der Haltung, im Blick, in der Art, wie er einen Raum betritt &ndash; nicht laut, aber unübersehbar.</p>
+          <p class="vb-intro">Scarlett Johansson, geboren 1984 in New York City, ist dieser Wolf. Seit ihrem Debüt als Kind in <em>The Horse Whisperer</em> und ihrem Durchbruch mit <em>Lost in Translation</em> (2003) hat sie sich als eine der intensivsten Präsenzen des Weltkinos etabliert &ndash; eine Schauspielerin, die selten viel sagen muss, um einen Raum zu füllen. Diese Intensität ist kein Zufall. Sie ist die Signatur des Wolfes: eine Kraft, die spürbar ist, bevor ein Wort fällt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Schutzschild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Angst und des Zweifels am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Statt sich zurückzuziehen, tritt die SX6 nach vorn. <em>Wenn ich stark genug wirke, kann mir niemand zu nahe kommen.</em> Naranjo nannte diesen Subtyp <em>Stärke</em>: Die SX6 begegnet der eigenen Verletzlichkeit, indem sie eine Fassade von Unangreifbarkeit errichtet.</p>
+          <p class="vb-intro">Bei Johansson zeigt sich das in einer Karriere voller Rollen, die genau diese Spannung verkörpern: die kühle, tödlich präzise Black Widow im Marvel Cinematic Universe, die selbstbewusste Femme fatale in <em>Match Point</em>, die kontrollierte KI-Stimme in <em>Her</em>, deren emotionale Tiefe sich nur in Nuancen zeigt. Immer wieder Figuren, die Stärke performen, während darunter etwas Verletzliches, Suchendes liegt &ndash; genau das Muster der SX6, das Innere hinter einer Rüstung aus Präsenz zu verbergen.</p>
+          <p class="vb-intro">Auch privat hat Johansson ihr Rudel klein und geschützt gehalten. Trotz jahrzehntelanger globaler Bekanntheit hat sie ihr Privatleben &ndash; drei Ehen, ihre Tochter und ihr Sohn &ndash; konsequent aus dem Blitzlicht ferngehalten, soweit das für einen der bekanntesten Filmstars der Welt möglich ist. Der Wolf gibt nur preis, was er selbst entscheidet preiszugeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Vielseitigkeit und Tempo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> bringt der sexuellen Sechs eine Leichtigkeit und Vielseitigkeit, die die reine Sechs so nicht hätte. Die SX6w7 kämpft nicht nur &ndash; sie sucht auch die Abwechslung, das nächste Projekt, die nächste Herausforderung, bevor die vorherige ausgeschöpft ist. <em>Stillstand ist gefährlicher als Bewegung.</em></p>
+          <p class="vb-intro">Johanssons Filmografie ist ein Musterbeispiel für diesen Flügel: Arthouse-Kino (<em>Lost in Translation</em>, <em>Under the Skin</em>), Blockbuster-Action (<em>Black Widow</em>, <em>Lucy</em>), Stimmarbeit (<em>Her</em>), ernstes Drama (<em>Marriage Story</em>, für das sie 2020 gleich zwei Oscar-Nominierungen erhielt), Satire (<em>Jojo Rabbit</em>) &ndash; kaum ein Genre, das sie ausgelassen hat. Dazu kommt ihr Engagement als Produzentin und ihr Ausflug in die Musik mit dem Album <em>Anywhere I Lay My Head</em> (2008). Der Siebenerflügel verwandelt die Wachsamkeit der Sechs in Neugier: Wer sich ständig weiterbewegt, gibt der Angst keine Zeit, sich festzusetzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Karriere: Vom Kinderstar zur meistkassierenden Schauspielerin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Johanssons Weg vom Kinderdarstellerinnen-Dasein zur, nach Kinokasseneinspielungen gerechnet, meistkassierenden Schauspielerin der Filmgeschichte ist eine Geschichte konsequenter Neuerfindung. Nach dem kritischen Erfolg von <em>Lost in Translation</em> und <em>Girl with a Pearl Earring</em> etablierte sie sich zunächst als anspruchsvolle Charakterdarstellerin, bevor sie 2010 mit <em>Iron Man 2</em> als Natasha Romanoff / Black Widow in das Marvel Cinematic Universe eintrat &ndash; eine Rolle, die sie über ein Jahrzehnt und neun Filme hinweg prägte, bis zu ihrem eigenen Solofilm <em>Black Widow</em> (2021).</p>
+          <p class="vb-intro">Diese Doppelbewegung &ndash; ernsthaftes Autorenkino neben physisch fordernder Blockbuster-Action &ndash; ist typisch für die SX6w7: die Fähigkeit, in völlig unterschiedlichen Registern zu bestehen, ohne sich auf ein einziges Bild festlegen zu lassen. Der Wolf, der in jedem Rudel eine andere Rolle einnehmen kann, ohne seine Kernidentität zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 ist ihre Fähigkeit, unter Druck Präsenz zu zeigen &ndash; die Bereitschaft, sich physisch und emotional in eine Rolle zu werfen, ohne sich zu schonen. Johanssons Trainingsintensität für actionlastige Rollen, ihre Bereitschaft, in <em>Marriage Story</em> eine schmerzhafte Scheidung mit schonungsloser Offenheit darzustellen, ihr Eintreten für gerechte Bezahlung von Schauspielerinnen in Hollywood: All das zeugt von der Bereitschaft, sich der Bedrohung zu stellen, statt ihr auszuweichen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Angst</strong> &ndash; und bei der SX6w7 zeigt sich die Schattenseite oft als Kontrollbedürfnis über das eigene Bild, das in juristischen Auseinandersetzungen mündete: Ihr öffentlicher Streit mit Disney 2021 um die Streaming-Auswertung von <em>Black Widow</em> war eine der seltenen Gelegenheiten, bei denen der sonst so sorgfältig geschützte Wolf öffentlich die Zähne zeigte &ndash; ein Kampf um Anerkennung und Kontrolle, ausgetragen mit derselben Direktheit, die sie sonst nur ihren Rollen vorbehält.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Stärke, die nicht mehr schützen muss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Wie schütze ich mich vor der nächsten Bedrohung?</em> zur Erkenntnis <em>Ich bin bereits sicher genug, um mich zu zeigen.</em> Für die SX6w7 bedeutet das, die Rüstung der ständigen Bewegung und Selbstinszenierung abzulegen &ndash; und Verletzlichkeit nicht nur zu spielen, sondern zuzulassen.</p>
+          <p class="vb-intro">Rollen wie die in <em>Marriage Story</em>, in der Johansson eine Frau spielt, die sich selbst neu erfinden muss, deuten genau diese Richtung an: nicht die nächste Rolle als Flucht, sondern als ehrlicher Ausdruck. Der Wolf, der nicht mehr kämpfen muss, um sicher zu sein &ndash; sondern der weiß, dass seine Stärke längst bewiesen ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
       ])}
     </div>
   `);
@@ -45099,6 +45168,7 @@ function render() {
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
       "beruehmte-michael-schumacher": michaelSchumacherPortraitPage,
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
+      "beruehmte-scarlett-johansson": scarlettJohanssonPortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
       "beruehmte-ina-mueller": inaMuellerPortraitPage,

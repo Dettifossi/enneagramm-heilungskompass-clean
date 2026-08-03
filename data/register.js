@@ -378,6 +378,7 @@ export const registerEntries = [
 
   // Berühmte Persönlichkeiten – Portraits
   { term: "Wladimir Putin",                route: "beruehmte-wladimir-putin",              description: "Portrait: SX6w5 · Sexueller Typ 6 · Politiker, Präsident der Russischen Föderation" },
+  { term: "Scarlett Johansson",             route: "beruehmte-scarlett-johansson",          description: "Portrait: SX6w7 · Sexueller Typ 6 · Schauspielerin, Produzentin" },
   { term: "Alice Schwarzer",               route: "beruehmte-alice-schwarzer",             description: "Portrait: SO1w2 · Sozialer Typ 1 · Feministin, EMMA-Gründerin" },
   { term: "Ana de Armas",                  route: "beruehmte-ana-de-armas",                description: "Portrait: SX2w3 · Sexueller Typ 2 · Schauspielerin, Knives Out" },
   { term: "Angelina Jolie",                route: "beruehmte-angelina-jolie",              description: "Portrait: SX2w3 · Sexueller Typ 2 · Schauspielerin, UN-Botschafterin" },
@@ -628,6 +629,7 @@ export const registerEntriesEN = [
 
   // Famous Personalities – Portraits
   { term: "Vladimir Putin", route: "beruehmte-wladimir-putin", description: "Portrait: SX6w5 · Sexual Type 6 · Politician, President of the Russian Federation" },
+  { term: "Scarlett Johansson", route: "beruehmte-scarlett-johansson", description: "Portrait: SX6w7 · Sexual Type 6 · Actress, producer" },
   { term: "Alice Schwarzer", route: "beruehmte-alice-schwarzer", description: "Portrait: SO1w2 · Social Type 1 · Feminist, EMMA founder" },
   { term: "Ana de Armas", route: "beruehmte-ana-de-armas", description: "Portrait: SX2w3 · Sexual Type 2 · Actress, Knives Out" },
   { term: "Angelina Jolie", route: "beruehmte-angelina-jolie", description: "Portrait: SX2w3 · Sexual Type 2 · Actress, UN Ambassador" },
