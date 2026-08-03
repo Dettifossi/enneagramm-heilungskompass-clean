@@ -20,7 +20,7 @@ jobs:
             -H "Authorization: Key ${{ secrets.ONESIGNAL_REST_API_KEY }}" \
             -H "Content-Type: application/json" \
             -d '{
-              "app_id": "f1437dae-964e-43b5-b870-afeed3e99a8d",
+              "app_id": "a8616f76-24df-4a4d-970f-59976a11503e",
               "included_segments": ["All"],
               "target_channel": "push",
               "headings": {"en": "Enneagramm-Heilungskompass", "de": "Enneagramm-Heilungskompass"},
