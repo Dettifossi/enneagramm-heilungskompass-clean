@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "384";
+const APP_BUILD = "385";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -8010,6 +8010,7 @@ function detlefRathmerJazzPage() {
     { id: "WsfKzMoc3ss", label: "Neun Wege (World-Music-Version)" },
     { id: "mGgl_ELpgaQ", label: "Neun Wege (Bossa-Nova-Version)" },
     { id: "HTCLOI-Qtzw", label: "Neun Wege (R'n'B/Soul-Version)" },
+    { id: "ycCGpZqmzeY", label: "Neun Typen, neun Welten, wie sie Weihnachten seh'n" },
   ];
 
   const englischsprachigeSongs = [
