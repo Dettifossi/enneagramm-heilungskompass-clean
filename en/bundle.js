@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "386";
+const APP_BUILD = "387";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -12276,7 +12276,10 @@ const SPIRITUELL_TRACKS = {
       ${grid(englishSongs)}
       <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Back to top</button></p>
 
-      ${grid([{ id: "xDYFjndwt2A", label: "Wer du wirklich bist – Ein Enneagramm-Klassiker" }])}
+      ${grid([
+        { id: "lq0d0zpwiik", label: "Das Enneagramm-Lied (Unplugged, German)" },
+        { id: "xDYFjndwt2A", label: "Wer du wirklich bist – Ein Enneagramm-Klassiker" },
+      ])}
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence. The first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
       ${bookTip("wer-du-wirklich-bist-band-2", "Deepened type profiles and archetypal considerations – Volume 2 of the Rathmer trilogy.", "Wer du wirklich bist – Band 2")}
       ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, paths of healing, and the big picture – Volume 3 concluding the trilogy.", "Wer du wirklich bist – Band 3")}
