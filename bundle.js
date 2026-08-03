@@ -23812,6 +23812,7 @@ const registerEntries = [
   { term: "Scarlett Johansson",             route: "beruehmte-scarlett-johansson",          description: "Portrait: SX6w7 \u00b7 Sexueller Typ 6 \u00b7 Schauspielerin, Produzentin" },
   { term: "Francis Bacon",                  route: "beruehmte-francis-bacon",               description: "Portrait: SE7w8 \u00b7 Selbsterhaltender Typ 7 \u00b7 Philosoph, Staatsmann, Lordkanzler" },
   { term: "Larry King",                     route: "beruehmte-larry-king",                  description: "Portrait: SE7w6 \u00b7 Selbsterhaltender Typ 7 \u00b7 Talkshow-Moderator" },
+  { term: "Jeanne-Marie Bouvier de la Motte Guyon", route: "beruehmte-jeanne-marie-guyon",   description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Mystikerin, Quietismus" },
   { term: "Alice Schwarzer",               route: "beruehmte-alice-schwarzer",             description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Feministin, EMMA-Gr\u00fcnderin" },
   { term: "Ana de Armas",                  route: "beruehmte-ana-de-armas",                description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, Knives Out" },
   { term: "Angelina Jolie",                route: "beruehmte-angelina-jolie",              description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, UN-Botschafterin" },
@@ -24065,6 +24066,7 @@ const registerEntriesEN = [
   { term: "Scarlett Johansson", route: "beruehmte-scarlett-johansson", description: "Portrait: SX6w7 \u00b7 Sexual Type 6 \u00b7 Actress, producer" },
   { term: "Francis Bacon", route: "beruehmte-francis-bacon", description: "Portrait: SE7w8 \u00b7 Self-Preservation Type 7 \u00b7 Philosopher, statesman, Lord Chancellor" },
   { term: "Larry King", route: "beruehmte-larry-king", description: "Portrait: SE7w6 \u00b7 Self-Preservation Type 7 \u00b7 Talk show host" },
+  { term: "Jeanne-Marie Bouvier de la Motte Guyon", route: "beruehmte-jeanne-marie-guyon", description: "Portrait: SO7w6 \u00b7 Social Type 7 \u00b7 Mystic, Quietism" },
   { term: "Alice Schwarzer", route: "beruehmte-alice-schwarzer", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Feminist, EMMA founder" },
   { term: "Ana de Armas", route: "beruehmte-ana-de-armas", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, Knives Out" },
   { term: "Angelina Jolie", route: "beruehmte-angelina-jolie", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, UN Ambassador" },
@@ -27151,7 +27153,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "397";
+const APP_BUILD = "398";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -27728,6 +27730,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Elon Musk \u2013 Sozialer Typ 7",
     teaser:"SO7w6 \u00b7 geb. 1971. Unternehmer, Gr\u00fcnder von PayPal, SpaceX, X (ehem. Twitter), Mitinhaber von Tesla. Reichster Mensch der Welt (Stand 2026). Der Biber, der Welten baut \u2013 und dabei nie fertig wird. Tierentsprechung: Biber.",
     tags:["Wirtschaft","Wissenschaft"] , gender:"m"},
+  { route:"beruehmte-jeanne-marie-guyon", name:"Jeanne-Marie Bouvier de la Motte Guyon", added:"2026-08-03", subtyp:"SO7w6",
+    heading:"Madame Guyon \u2013 Sozialer Typ 7",
+    teaser:"SO7w6 \u00b7 geb. 1648, gest. 1717. Mystikerin, bedeutendste Vertreterin des Quietismus. Verfolgt als H\u00e4retikerin, jahrelang inhaftiert, u. a. in der Bastille. Der Biber, der sich ganz der Hingabe an Gott verschrieb \u2013 und Verfolgung mit stiller Standhaftigkeit ertrug.",
+    tags:["Spiritualit\u00e4t","Geschichte"], gender:"f"},
   { route:"beruehmte-dieter-nuhr", name:"Dieter Nuhr", added:"2026-07-22", subtyp:"SO7w8",
     heading:"Dieter Nuhr \u2013 Sozialer Typ 7",
     teaser:"SO7w8 \u00b7 geb. 1960 in Wesel am Rhein. Kabarettist, Comedian, Moderator, Maler. Nuhr im Ersten (ARD seit 2005). Der Biber mit Achterfl\u00fcgel: Komik als Dienst an der \u00d6ffentlichkeit, Haltung als Schutzschild.",
@@ -39294,6 +39300,70 @@ function elonMuskPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so7", label:"SO7 \u2013 Der Biber: Subtyp-Profil"},
         {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function jeanneMarieGuyonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jeanne-marie-guyon-portrait.jpg" alt="Biber" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jeanne-Marie Bouvier de la Motte Guyon</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Mystikerin, geb. 1648, gest. 1717 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 &ndash; ein Baumeister, der nicht f\u00fcr sich allein arbeitet, sondern f\u00fcr ein gr\u00f6\u00dferes System: den Damm, den Bau, die Gemeinschaft, die davon profitiert. Der Biber ist flei\u00dfig, zielstrebig und bereit, sich einer Aufgabe unterzuordnen, die gr\u00f6\u00dfer ist als er selbst &ndash; solange er wei\u00df, wof\u00fcr er baut.</p>
+          <p class="vb-intro">Jeanne-Marie Bouvier de la Motte Guyon, geboren 1648 in Montargis, ist dieser Biber. Die bedeutendste Vertreterin des Quietismus im Frankreich Ludwigs XIV. widmete ihr gesamtes Leben einem einzigen Bauwerk: der vollst\u00e4ndigen Hingabe an Gott. Kein Territorium, keine Macht, kein pers\u00f6nlicher Ruhm &ndash; sondern der Dienst an einer geistigen Idee, f\u00fcr die sie bereit war, Verfolgung, Gef\u00e4ngnis und \u00f6ffentliche Verleumdung zu ertragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Dienst statt Selbstgenuss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> lenkt die Leidenschaft der Sieben &ndash; den unstillbaren Hunger nach Erfahrung &ndash; nicht auf den eigenen Genuss, sondern auf ein gr\u00f6\u00dferes Ganzes. Naranjo nannte diesen Subtyp treffend: Freude wird zur Aufopferung, Genusssucht wird zu Idealismus. Die SO7 findet ihre Erf\u00fcllung darin, sich einer Sache zu verschreiben, die \u00fcber sie selbst hinausweist.</p>
+          <p class="vb-intro">Bei Guyon zeigt sich das in Reinform. Nach dem fr\u00fchen Tod ihres Mannes 1676 h\u00e4tte sie ein Leben in Wohlstand und gesellschaftlicher Stellung f\u00fchren k\u00f6nnen. Stattdessen entwickelte sie eine Lehre der v\u00f6lligen Selbstent\u00e4u\u00dferung &ndash; das <em>innere Gebet des Schweigens</em>, in dem der eigene Wille sich restlos dem Willen Gottes unterordnet. Sie reiste, predigte, schrieb, gr\u00fcndete Zirkel geistlicher Gef\u00e4hrten. Kein R\u00fcckzug ins Kloster, sondern eine Mission, die in die Welt hineinwirken sollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Hingabe an eine h\u00f6here F\u00fchrung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\u00fcgel (w6)</strong> unterscheidet die SO7w6 grundlegend von der SO7w8. Eine Sieben mit Achterfl\u00fcgel w\u00fcrde sich gegen jede h\u00f6here Autorit\u00e4t str\u00e4uben &ndash; sie will autonom, unabh\u00e4ngig, selbstbestimmt sein. Die SO7w6 dagegen sucht genau das Gegenteil: eine absolut vertrauensw\u00fcrdige, h\u00f6here F\u00fchrung, an die sie sich vollkommen binden und in deren Schutz sie sich aufl\u00f6sen kann.</p>
+          <p class="vb-intro">Guyons gesamte Mystik ist dieser Fl\u00fcgel in Reinform. In ihrer Autobiografie beschreibt sie ausf\u00fchrlich Phasen extremer innerer Unruhe, \u00c4ngste und Skrupel, bevor sie zu ihrem mystischen Frieden fand &ndash; das st\u00e4ndige Oszillieren zwischen geistigem Enthusiasmus und der tiefen Angst vor Verlassenheit oder S\u00fcnde, charakteristisch f\u00fcr die 7w6-Kombination. Auch ihre engen, fast seelenverwandten Loyalit\u00e4ten &ndash; allen voran zu ihrem geistlichen Gef\u00e4hrten Fran\u00e7ois F\u00e9nelon, dem sp\u00e4teren Erzbischof von Cambrai &ndash; zeigen, wie sehr der Sechserfl\u00fcgel die Sieben beziehungsorientiert, verletzlich und treu macht. Wo die Achterfl\u00fcgel-Sieben Verb\u00fcndete sucht, um Macht zu vermehren, sucht die Sechserfl\u00fcgel-Sieben Gef\u00e4hrten, um gemeinsam zu glauben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Verfolgung: Sanftmut statt Rebellion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als die katholische Kirche &ndash; allen voran Bischof Jacques-B\u00e9nigne Bossuet &ndash; und schlie\u00dflich K\u00f6nig Ludwig XIV. selbst Guyons Lehren als h\u00e4retisch verurteilten, wurde sie \u00fcber Jahre hinweg verfolgt und mehrfach inhaftiert, darunter mehrere Jahre in der Bastille. Eine Sieben mit Achterfl\u00fcgel h\u00e4tte in dieser Lage vermutlich mit Gegenangriff, offener Konfrontation oder dem Aufbau einer Gegenmacht reagiert.</p>
+          <p class="vb-intro">Guyon tat das Gegenteil. Sie ertrug die Haft mit einer sanftm\u00fctigen, dulderischen Ergebung &ndash; treu zu ihrer inneren \u00dcberzeugung, ohne den offenen Bruch mit der Kirche zu suchen. Dieses stille Ausharren in Loyalit\u00e4t, selbst unter Verfolgung, ist ein tief verankertes Muster der Sechs: nicht der laute Widerstand, sondern das beharrliche Festhalten an dem, dem man sich einmal anvertraut hat &ndash; sei es Gott, sei es die eigene \u00dcberzeugung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 ist ihre F\u00e4higkeit, aus reiner Hingabe heraus eine geistige Tiefe zu erreichen, die weit \u00fcber blo\u00dfe Begeisterung hinausgeht. Guyons Schriften &ndash; allen voran ihre <em>Kurze und sehr leichte Methode zu beten</em> &ndash; pr\u00e4gten die Mystik-Geschichte Europas \u00fcber Jahrhunderte und wirkten weit \u00fcber den Katholizismus hinaus, bis hin zu protestantischen und methodistischen Fr\u00f6mmigkeitsbewegungen.</p>
+          <p class="vb-intro">Der Schatten der SO7w6 zeigt sich in der Gefahr, die eigene Unterwerfung so radikal zu leben, dass sie zur Selbstausl\u00f6schung wird &ndash; und darin, dass ihre N\u00e4he zu F\u00e9nelon und ihr Einfluss auf den Hof am Ende genau jene Eifersucht und jenes Misstrauen weckten, die zu ihrem Sturz f\u00fchrten. Der Streit zwischen Bossuet und F\u00e9nelon um Guyons Lehre kostete F\u00e9nelon seine Karriere und Guyon ihre Freiheit &ndash; ein Preis, den die Sechs-Loyalit\u00e4t im Zweifel bereit ist zu zahlen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Hingabe ohne Ausl\u00f6schung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sieben f\u00fchrt von der Zerstreuung zur N\u00fcchternheit &ndash; der F\u00e4higkeit, sich einer Sache zu widmen, ohne vor der eigenen Tiefe davonzulaufen. F\u00fcr die SO7w6 bedeutet das, Hingabe nicht mit Selbstausl\u00f6schung zu verwechseln: sich einer h\u00f6heren F\u00fchrung anzuvertrauen, ohne die eigene Stimme darin zu verlieren.</p>
+          <p class="vb-intro">Nach ihrer letzten Freilassung 1703 verbrachte Guyon ihre letzten Lebensjahre zur\u00fcckgezogen in Blois, weiterhin im brieflichen Austausch mit geistlichen Weggef\u00e4hrten in ganz Europa &ndash; nicht mehr verfolgt, aber auch nicht gebrochen. Der Biber, der sein Bauwerk gegen alle Widerst\u00e4nde vollendet hat: nicht durch Gegenangriff, sondern durch die stille, unersch\u00fctterliche Treue zu dem, woran er glaubte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so7", label:"SO7 \u2013 Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-elon-musk", label:"Portr\u00e4t: Elon Musk (SO7w6)"},
       ])}
     </div>
   `);
@@ -72411,6 +72481,7 @@ function render() {
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
+      "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
     "beruehmte-umberto-eco": umbertEcoPortraitPage,
           "beruehmte-golda-meir": goldaMeirPortraitPage,

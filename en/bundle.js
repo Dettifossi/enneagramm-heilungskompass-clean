@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "398";
+const APP_BUILD = "399";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -452,6 +452,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Elon Musk – Social Type 7",
     teaser:"SO7w6 · born 1971. Entrepreneur, founder of PayPal, SpaceX, X (formerly Twitter), co-owner of Tesla. The beaver that builds worlds – and never finishes. Animal correspondence: Beaver.",
     tags:["Wirtschaft","Wissenschaft"] },
+  { route:"beruehmte-jeanne-marie-guyon", name:"Jeanne-Marie Bouvier de la Motte Guyon", added:"2026-08-03", subtyp:"SO7w6",
+    heading:"Madame Guyon – Social Type 7",
+    teaser:"SO7w6 · born 1648, died 1717. Mystic, the leading exponent of Quietism. Persecuted as a heretic, imprisoned for years, including in the Bastille. The beaver that devoted itself entirely to surrender to God – and endured persecution with quiet steadfastness.",
+    tags:["Spiritualität","Geschichte"]},
   { route:"beruehmte-hazel-brugger", name:"Hazel Brugger", subtyp:"SO7w8",
     heading:"Hazel Brugger – Social Type 7",
     teaser:"SO7w8 · born 1993. Comedian, cabaret artist, presenter, blogger, author, slam poet. Swiss-American. The beaver that builds, amuses and attacks – with speed, depth and a laugh that misses nothing. Animal correspondence: Beaver.",
@@ -20139,6 +20143,70 @@ function thomasGottschalkPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"beruehmte-hazel-brugger", label:"Portrait: Hazel Brugger (SO7w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function jeanneMarieGuyonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jeanne-marie-guyon-portrait.jpg" alt="Beaver" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jeanne-Marie Bouvier de la Motte Guyon</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Mystic, born 1648, died 1717 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Beaver</strong> is the animal of the Social Type 7 &ndash; a builder that does not work for itself alone but for a larger system: the dam, the lodge, the community that benefits from it. The Beaver is industrious, purposeful, and willing to subordinate itself to a task greater than itself &ndash; as long as it knows what it is building for.</p>
+          <p class="vb-intro">Jeanne-Marie Bouvier de la Motte Guyon, born 1648 in Montargis, is this Beaver. The leading exponent of Quietism in the France of Louis XIV devoted her entire life to a single edifice: complete surrender to God. No territory, no power, no personal glory &ndash; but service to a spiritual idea for which she was willing to endure persecution, imprisonment and public defamation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Service Instead of Self-Indulgence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Seven (SO7)</strong> directs the Seven's passion &ndash; the insatiable hunger for experience &ndash; not toward personal enjoyment but toward a larger whole. Naranjo aptly named this subtype: joy becomes sacrifice, hedonism becomes idealism. The SO7 finds fulfilment in devoting itself to a cause that points beyond itself.</p>
+          <p class="vb-intro">In Guyon this shows in its purest form. After the early death of her husband in 1676, she could have led a life of wealth and social standing. Instead, she developed a teaching of complete self-abandonment &ndash; the <em>inner prayer of silence</em>, in which one's own will submits entirely to the will of God. She travelled, preached, wrote, founded circles of spiritual companions. Not a retreat into a convent, but a mission meant to act upon the world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Devotion to a Higher Guidance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> fundamentally distinguishes the SO7w6 from the SO7w8. A Seven with an Eight-wing would resist any higher authority &ndash; it wants to be autonomous, independent, self-determined. The SO7w6, by contrast, seeks exactly the opposite: an absolutely trustworthy, higher guidance to which it can bind itself completely and within whose protection it can dissolve.</p>
+          <p class="vb-intro">Guyon's entire mysticism is this wing in its purest form. In her autobiography she describes at length phases of extreme inner unrest, fear and scruple before she found her mystical peace &ndash; the constant oscillation between spiritual enthusiasm and a deep fear of abandonment or sin, characteristic of the 7w6 combination. Her close, almost soul-deep loyalties &ndash; above all to her spiritual companion François Fénelon, later Archbishop of Cambrai &ndash; likewise show how strongly the Six-wing makes the Seven relationship-oriented, vulnerable and faithful. Where an Eight-wing Seven seeks allies to multiply power, a Six-wing Seven seeks companions with whom to believe together.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Persecution: Meekness Instead of Rebellion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">When the Catholic Church &ndash; above all Bishop Jacques-Bénigne Bossuet &ndash; and eventually King Louis XIV himself condemned Guyon's teachings as heretical, she was persecuted for years and imprisoned repeatedly, including several years in the Bastille. An Eight-wing Seven would likely have responded to this situation with counterattack, open confrontation, or building a rival power base.</p>
+          <p class="vb-intro">Guyon did the opposite. She bore her imprisonment with a meek, patient submission &ndash; faithful to her inner conviction, without seeking an open break with the Church. This quiet endurance in loyalty, even under persecution, is a deeply rooted pattern of the Six: not loud resistance, but persistent adherence to whatever one has once entrusted oneself to &ndash; whether God, or one's own conviction.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 is its ability to reach, out of pure devotion, a spiritual depth that goes far beyond mere enthusiasm. Guyon's writings &ndash; above all her <em>Short and Very Easy Method of Prayer</em> &ndash; shaped the history of European mysticism for centuries and influenced far beyond Catholicism, reaching into Protestant and Methodist devotional movements.</p>
+          <p class="vb-intro">The shadow of the SO7w6 shows in the danger of living one's own submission so radically that it becomes self-erasure &ndash; and in the fact that her closeness to Fénelon and her influence at court ultimately provoked exactly the jealousy and suspicion that led to her downfall. The dispute between Bossuet and Fénelon over Guyon's teaching cost Fénelon his career and Guyon her freedom &ndash; a price that Six-loyalty, when in doubt, is willing to pay.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: Devotion Without Erasure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Seven leads from scattering to sobriety &ndash; the ability to devote oneself to a cause without fleeing one's own depth. For the SO7w6 this means not confusing devotion with self-erasure: entrusting oneself to a higher guidance without losing one's own voice within it.</p>
+          <p class="vb-intro">After her final release in 1703, Guyon spent her last years in seclusion in Blois, still corresponding with spiritual companions across Europe &ndash; no longer persecuted, but not broken either. The Beaver that completed its structure against every resistance: not through counterattack, but through quiet, unshakeable faithfulness to what it believed.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
       ])}
     </div>
   `);
@@ -42391,6 +42459,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
+      "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
       "beruehmte-toni-morrison": toniMorrisonPortraitPage,
       "beruehmte-michelle-obama": michelleObamaPortraitPage,
