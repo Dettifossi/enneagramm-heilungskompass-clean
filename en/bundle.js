@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "389";
+const APP_BUILD = "390";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -416,6 +416,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"James Corden – Social Type 6",
     teaser:"SO6w7 · born 1978. Actor, TV host, ‹The Late Late Show›, ‹Carpool Karaoke›. The meerkat that pulls everyone into the car – and makes sure no one sings alone.",
     tags:["Film","TV"] },
+  { route:"beruehmte-wladimir-putin", name:"Vladimir Putin", added:"2026-08-03", subtyp:"SX6w5",
+    heading:"Vladimir Putin – Sexual Type 6",
+    teaser:"SX6w5 · born 1952 in Leningrad. Politician, President of the Russian Federation, former KGB officer. The Wolf that tries to overcome fear by controlling others.",
+    tags:["Politics"], gender:"m"},
   { route:"beruehmte-alice-schwarzer", name:"Alice Schwarzer", subtyp:"SX6w5",
     heading:"Alice Schwarzer – Sexual Type 6",
     teaser:"SX6w5 · born 1942. Journalist, feminist, founder of Emma magazine. The wolf that does not bow down – and fights for its pack, even when standing alone.",
@@ -19445,6 +19449,72 @@ function kollegahPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Six leads from the question <em>How do I protect myself?</em> to the recognition <em>I do not need this protection.</em> For the SX6w5 this means laying down the armour &ndash; not because one is weak, but because one is strong enough to appear without it. The Boss character is a response to an inner need. When that need is heard, the character is no longer required.</p>
           <p class="vb-intro">Kollegah's later work shows traces of this path. The conversion, the conscious engagement with limits, the public distancing from certain aesthetics &ndash; these are not breaks but movements. The Wolf that begins to lead its pack no longer through baring teeth but through calm and direction. The strength remains. The fear behind it grows smaller.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function wladimirPutinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-wladimir-putin-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Vladimir Putin</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Politician, President of the Russian Federation, born 1952 in Leningrad &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Wolf</strong> is the animal of the Sexual Type 6 &ndash; a pack animal that asserts its position through strength and answers any threat to its territory with bared teeth. The Wolf does not trust easily. It watches for a long time before it acts, and when it acts, it does so decisively. It knows fear &ndash; and precisely for that reason it refuses to allow it.</p>
+          <p class="vb-intro">Vladimir Putin, born 1952 in Leningrad, today's St. Petersburg, into modest circumstances and the only surviving child of his parents after two siblings died in the war or of illness, is this Wolf. His path from KGB officer through the St. Petersburg administration to the top of the Russian state is the story of a man who learned that control over one's own environment is the only reliable answer to an uncertain world. It is no coincidence that he himself once said his most formative childhood lesson was not to retreat when a rat is cornered &ndash; it attacks.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Strength as Counter-Fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Six (SX6)</strong> is, according to Naranjo, the <strong>counter-type</strong> of the Six &ndash; the subtype in which the passion of cowardice is least visible, because it is turned into its opposite. The SX6 meets its fear not with retreat but with preemptive attack. <em>If I am strong enough, if I am unpredictable enough, if I act first &ndash; then nothing can happen to me.</em> Naranjo called this subtype <em>Strength</em>: the SX6 seeks power because it knows the experience of powerlessness and has sworn never to be at its mercy again.</p>
+          <p class="vb-intro">Putin's political style unmistakably bears the signature of this pattern. The calculated toughness in crises, the staged displays of physical strength &ndash; judo, ice hockey, riding bare-chested &ndash;, the strategic unsettling of opponents through deliberate unpredictability: all of this follows the logic of the Wolf, which secures its position not through closeness but through demonstrated invulnerability. His own experience of the collapse of the Soviet Union in 1991, which Putin later called <em>the greatest geopolitical catastrophe of the 20th century</em>, is the biographical core of this stance: the moment the pack fell apart and the threat came from within.</p>
+          <p class="vb-intro">The SX6's pack is small, loyal and hierarchically ordered &ndash; a tight circle of confidants, often still from KGB and St. Petersburg days, from whom unconditional loyalty is demanded and to whom protection is granted in return. Whoever breaks from this pack or is deemed a traitor is declared a threat &ndash; a pattern that runs through Putin's entire political career.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Control Through Knowledge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Sexual Six an analytical coolness that distinguishes its combative nature from pure impulsiveness. The SX6w5 does not act from affect &ndash; it observes, gathers information, weighs options, and strikes only once it has fully grasped the situation. <em>I don't just want to be strong. I want to know before I act.</em></p>
+          <p class="vb-intro">Putin's entire professional formation embodies this Five-wing: 16 years in the KGB and its successor organisations, a profession whose core is the gathering, analysis and discreet exploitation of information. His public appearances are marked by a deliberate reserve, a distance that avoids closeness and preserves control over his own self-presentation. The Five-wing also explains the patient, often years-long strategic planning that precedes many of his political moves &ndash; the opposite of impulsiveness, even when the outcome may appear abrupt from the outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Rise: From KGB Officer to President</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Putin's rise is a textbook case of systematic consolidation of power. After the end of his KGB career in 1991, he became an advisor to St. Petersburg mayor Anatoly Sobchak, moved to Moscow's presidential administration in 1996, became head of the domestic intelligence service FSB in 1998, and was appointed prime minister by Boris Yeltsin in 1999. On the last day of 1999, Yeltsin unexpectedly handed him the presidency. Since then &ndash; with a four-year interruption as prime minister between 2008 and 2012, during which he continued to pull the strings de facto &ndash; he has shaped Russian politics without interruption.</p>
+          <p class="vb-intro">This continuity is itself an expression of the SX6w5 pattern: the systematic securing of one's own position against any form of uncertainty, through constitutional changes, through control of the media, through a tight network of loyal confidants in business and administration. The Wolf that leaves nothing about its territory to chance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w5 is the ability to convey stability and capacity for action in crises. In the chaotic years after the collapse of the Soviet Union, Putin's calm, controlled manner promised many Russians an end to instability &ndash; a promise that explains his early popularity and still carries part of his domestic approval today.</p>
+          <p class="vb-intro">The core passion of the Six is <strong>cowardice</strong> &ndash; and the SX6's counter-reaction to it is a toughness that recognises no limit once the perceived threat becomes existential. The annexation of Crimea in 2014 and the war of aggression against Ukraine that has continued since 2022 are the darkest consequence of this pattern: the transformation of diffuse fear &ndash; of NATO enlargement, of the loss of spheres of influence, of the imagined disintegration of his own power base &ndash; into massive aggression that has proven fatal for countless people. The suppression of domestic opposition, the crackdown on independent journalism, and the imprisonment or death of critics such as Alexei Navalny show the same pattern turned inward: whoever is deemed a threat to the pack is eliminated. This is not a peripheral aspect of the personality structure &ndash; it is its shadow side in its most radical, most consequential form.</p>
+          <p class="vb-intro"><em>Note: This portrait analyses a personality structure according to the Enneagram model. It explains patterns; it justifies nothing. The war of aggression against Ukraine and the suppression of political freedom in Russia are actions to be condemned in their own right, independent of any psychological framing.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: Safety Without Controlling Others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Six leads from the question <em>How do I protect myself from the threat?</em> to the recognition <em>I do not need to control the world in order to be safe.</em> For the SX6w5 this means no longer understanding strength as dominion over others, but as an inner firmness that needs no external confirmation through submission.</p>
+          <p class="vb-intro">This path is not publicly visible in Vladimir Putin &ndash; on the contrary, his years in office show an increasing, not a decreasing, hardening of the pattern. The portrait therefore does not end in reconciliation but in the observation that holds for every counter-type Six: as long as safety is sought only through control over others, the Wolf remains trapped in exactly the fear it is trying to fight. The way out does not lead through more power, but through the trust it has spent a lifetime learning to avoid.</p>
         </blockquote>
 
       </div>
@@ -42104,6 +42174,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-xu-bing": xuBingPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
+      "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,

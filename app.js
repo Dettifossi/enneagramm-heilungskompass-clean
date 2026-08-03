@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "387";
+const APP_BUILD = "388";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -574,6 +574,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"James Corden – Sozialer Typ 6",
     teaser:"SO6w7 · geb. 1978. Schauspieler, Moderator, ‹The Late Late Show›, ‹Carpool Karaoke›. Das Erdmännchen, das jeden ins Auto holt – und dafür sorgt, dass niemand allein singt.",
     tags:["Film","TV"], gender:"m"},
+  { route:"beruehmte-wladimir-putin", name:"Wladimir Putin", added:"2026-08-03", subtyp:"SX6w5",
+    heading:"Wladimir Putin – Sexueller Typ 6",
+    teaser:"SX6w5 · geb. 1952 in Leningrad. Politiker, Präsident der Russischen Föderation, ehem. KGB-Offizier. Der Wolf, der Angst durch Kontrolle über andere zu bezwingen versucht.",
+    tags:["Politik"], gender:"m"},
   { route:"beruehmte-alice-schwarzer", name:"Alice Schwarzer", subtyp:"SX6w5",
     heading:"Alice Schwarzer – Sexueller Typ 6",
     teaser:"SX6w5 · geb. 1942. Journalistin, Feministin, Emma-Gründerin. Der Wolf, der sich nicht duckt – und der für sein Rudel kämpft, auch wenn er dabei allein steht.",
@@ -11381,6 +11385,72 @@ function kollegahPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Wie schütze ich mich?</em> zur Erkenntnis <em>Ich brauche diesen Schutz nicht.</em> Für die SX6w5 bedeutet das, die Rüstung abzulegen &ndash; nicht weil man schwach ist, sondern weil man stark genug ist, ohne sie aufzutreten. Der Boss-Charakter ist eine Antwort auf eine innere Not. Wenn diese Not gehört wird, braucht es den Charakter nicht mehr.</p>
           <p class="vb-intro">Kollegahs späteres Schaffen zeigt Spuren dieses Weges. Die Konversion, die bewusste Auseinandersetzung mit Grenzen, die öffentliche Distanzierung von bestimmten Ästhetiken &ndash; das sind keine Brüche, sondern Bewegungen. Der Wolf, der beginnt, sein Rudel nicht mehr durch Zähnezeigen zu führen, sondern durch Ruhe und Richtung. Die Stärke bleibt. Die Angst dahinter wird kleiner.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-alice-schwarzer", label:"Porträt: Alice Schwarzer (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function wladimirPutinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-wladimir-putin-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wladimir Putin</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Politiker, Präsident der Russischen Föderation, geb. 1952 in Leningrad &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Rudeltier, das seine Position durch Stärke behauptet und jede Bedrohung des Territoriums mit Zähnen beantwortet. Der Wolf vertraut nicht leicht. Er beobachtet lange, bevor er handelt, und wenn er handelt, dann entschlossen. Er kennt Angst &ndash; und genau deshalb lässt er sie nicht zu.</p>
+          <p class="vb-intro">Wladimir Putin, geboren 1952 in Leningrad, dem heutigen St. Petersburg, in einfachen Verhältnissen und als einziges überlebendes Kind seiner Eltern nach zwei im Krieg bzw. an Krankheit verstorbenen Geschwistern, ist dieser Wolf. Sein Weg vom KGB-Offizier über den St. Petersburger Verwaltungsapparat bis an die Spitze des russischen Staates ist die Geschichte eines Mannes, der gelernt hat, dass Kontrolle über die eigene Umgebung die einzige verlässliche Antwort auf eine unsichere Welt ist. Kein Zufall, dass er selbst einmal sagte, seine prägendste Kindheitslektion sei gewesen, sich nicht zurückzuziehen, wenn eine Ratte in die Enge getrieben wird &ndash; sie greife an.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Gegenangst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Feigheit am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit Rückzug, sondern mit präventivem Angriff. <em>Wenn ich stark genug bin, wenn ich unberechenbar genug bin, wenn ich zuerst handle &ndash; dann kann mir nichts geschehen.</em> Naranjo nannte diesen Subtyp <em>Stärke</em>: Die SX6 sucht Macht, weil sie die Erfahrung von Ohnmacht kennt und sich geschworen hat, ihr nie wieder ausgeliefert zu sein.</p>
+          <p class="vb-intro">Putins politischer Stil trägt die Handschrift dieses Musters unverkennbar. Die kalkulierte Härte in Krisen, die Inszenierungen von physischer Stärke &ndash; Judo, Eishockey, Reiten mit nacktem Oberkörper &ndash;, das strategische Verunsichern von Gegnern durch bewusste Unberechenbarkeit: All das folgt der Logik des Wolfes, der seine Position nicht durch Nähe, sondern durch demonstrierte Unangreifbarkeit sichert. Die eigene Erfahrung des Zusammenbruchs der Sowjetunion 1991, den Putin später als <em>größte geopolitische Katastrophe des 20. Jahrhunderts</em> bezeichnete, ist der biografische Kern dieser Haltung: der Moment, in dem das Rudel auseinanderfiel und die Bedrohung von innen kam.</p>
+          <p class="vb-intro">Das Rudel der SX6 ist klein, loyal und hierarchisch geordnet &ndash; ein enger Kreis aus Vertrauten, oft noch aus KGB- und St.-Petersburg-Zeiten, dem bedingungslose Loyalität abverlangt und im Gegenzug Schutz gewährt wird. Wer aus diesem Rudel ausschert oder als Verräter gilt, wird zur Bedrohung erklärt &ndash; ein Muster, das sich durch Putins gesamte politische Laufbahn zieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Kontrolle durch Wissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> bringt der sexuellen Sechs eine analytische Kühle, die ihre Kämpfernatur von reiner Impulsivität unterscheidet. Die SX6w5 handelt nicht aus dem Affekt &ndash; sie beobachtet, sammelt Informationen, wägt ab, und schlägt erst zu, wenn sie die Lage vollständig durchdrungen hat. <em>Ich will nicht nur stark sein. Ich will wissen, bevor ich handle.</em></p>
+          <p class="vb-intro">Putins gesamte berufliche Prägung ist die Verkörperung dieses Fünferflügels: 16 Jahre im KGB und dessen Nachfolgeorganisationen, ein Beruf, dessen Kern das Sammeln, Analysieren und diskrete Verwerten von Informationen ist. Seine öffentlichen Auftritte sind geprägt von einer bewussten Zurückhaltung, einer Distanz, die Nähe vermeidet und Kontrolle über die eigene Selbstdarstellung wahrt. Der Fünferflügel erklärt auch die geduldige, oft jahrelange strategische Planung, die vielen seiner politischen Schritte vorausgeht &ndash; das Gegenteil von Impulsivität, auch wenn das Ergebnis nach außen hin abrupt erscheinen mag.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Aufstieg: Vom KGB-Offizier zum Präsidenten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Putins Aufstieg ist ein Lehrstück systematischer Machtsicherung. Nach dem Ende seiner KGB-Laufbahn 1991 wurde er Berater des St. Petersburger Bürgermeisters Anatoli Sobtschak, wechselte 1996 nach Moskau in die Präsidialverwaltung, wurde 1998 Chef des Inlandsgeheimdienstes FSB und 1999 von Boris Jelzin zum Ministerpräsidenten ernannt. Am letzten Tag des Jahres 1999 übergab Jelzin ihm überraschend das Präsidentenamt. Seither hat er &ndash; mit einer vierjährigen Unterbrechung als Ministerpräsident zwischen 2008 und 2012, während der er de facto weiter die Fäden zog &ndash; die russische Politik ohne Unterbrechung geprägt.</p>
+          <p class="vb-intro">Diese Kontinuität ist selbst Ausdruck des SX6w5-Musters: die systematische Absicherung der eigenen Position gegen jede Form von Unsicherheit, durch Verfassungsänderungen, durch Kontrolle der Medien, durch ein engmaschiges Netz loyaler Vertrauter in Wirtschaft und Verwaltung. Der Wolf, der sein Territorium nicht dem Zufall überlässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 ist die Fähigkeit, in Krisen Stabilität und Handlungsfähigkeit zu vermitteln. In den chaotischen Jahren nach dem Zusammenbruch der Sowjetunion versprach Putins ruhige, kontrollierte Art vielen Russen ein Ende der Instabilität &ndash; ein Versprechen, das seine frühe Popularität erklärt und das bis heute einen Teil seiner innenpolitischen Zustimmung trägt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Feigheit</strong> &ndash; und die Kontrareaktion der SX6 darauf ist eine Härte, die keine Grenze mehr kennt, wenn die wahrgenommene Bedrohung existenziell wird. Die Annexion der Krim 2014 und der seit 2022 andauernde Angriffskrieg gegen die Ukraine sind die dunkelste Konsequenz dieses Musters: die Umwandlung diffuser Angst &ndash; vor NATO-Erweiterung, vor dem Verlust von Einflusssphären, vor dem imaginierten Zerfall der eigenen Machtbasis &ndash; in massive, für unzählige Menschen tödliche Aggression. Die Unterdrückung innenpolitischer Opposition, das Vorgehen gegen unabhängigen Journalismus und die Inhaftierung oder der Tod von Kritikern wie Alexei Nawalny zeigen dasselbe Muster nach innen gewendet: Wer als Bedrohung des Rudels gilt, wird eliminiert. Das ist kein Randaspekt der Persönlichkeitsstruktur &ndash; es ist ihre Schattenseite in ihrer radikalsten, folgenschwersten Form.</p>
+          <p class="vb-intro"><em>Hinweis: Dieses Porträt analysiert eine Persönlichkeitsstruktur nach dem Enneagramm-Modell. Es erklärt Muster, es rechtfertigt nichts. Der Angriffskrieg gegen die Ukraine und die Unterdrückung politischer Freiheit in Russland sind eigenständig zu verurteilende Handlungen, unabhängig von jeder psychologischen Einordnung.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Sicherheit ohne Kontrolle über andere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Wie schütze ich mich vor der Bedrohung?</em> zur Erkenntnis <em>Ich muss die Welt nicht kontrollieren, um sicher zu sein.</em> Für die SX6w5 bedeutet das, Stärke nicht länger als Herrschaft über andere zu verstehen, sondern als innere Festigkeit, die keine äußere Bestätigung durch Unterwerfung braucht.</p>
+          <p class="vb-intro">Dieser Weg ist bei Wladimir Putin öffentlich nicht erkennbar &ndash; im Gegenteil, seine Amtsjahre zeigen eine zunehmende, nicht eine abnehmende Verhärtung des Musters. Das Porträt endet damit nicht mit einer Aussöhnung, sondern mit der Feststellung, die für jeden Kontratyp der Sechs gilt: Solange Sicherheit nur durch die Kontrolle über andere gesucht wird, bleibt der Wolf gefangen in genau der Angst, die er zu bekämpfen versucht. Der Weg nach draußen führt nicht über mehr Macht, sondern über das Vertrauen, das er sein Leben lang zu vermeiden gelernt hat.</p>
         </blockquote>
 
       </div>
@@ -45024,6 +45094,7 @@ function render() {
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-xu-bing": xuBingPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
+      "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
       "beruehmte-michael-schumacher": michaelSchumacherPortraitPage,
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
