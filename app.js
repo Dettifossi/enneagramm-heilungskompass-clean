@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "395";
+const APP_BUILD = "396";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -606,6 +606,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wallace Shawn – Selbsterhaltender Typ 7",
     teaser:"SE7w6 · geb. 1943 in New York. Schauspieler, Bühnenautor, Essayist. Vizzini in „Die Prinzessin Braut“, Rex in „Toy Story“, André in „Mein Abendessen mit André“. Der Gorilla, der beim Mittagessen über Kapitalismus und Tod nachdenkt – und dabei jeden zum Lachen bringt.",
     tags:["Schauspiel","Literatur"], gender:"m"},
+  { route:"beruehmte-larry-king", name:"Larry King", added:"2026-08-03", subtyp:"SE7w6",
+    heading:"Larry King – Selbsterhaltender Typ 7",
+    teaser:"SE7w6 · geb. 1933 in Brooklyn, gest. 2021. Talkshow-Moderator, „Larry King Live“ auf CNN über 25 Jahre, mehr als 50.000 Interviews. Der Gorilla, der jedes Gespräch zu einem sicheren Ort machte – und selbst am wenigsten preisgab.",
+    tags:["Medien"], gender:"m"},
   { route:"beruehmte-mariah-carey", name:"Mariah Carey", added:"2026-07-21", subtyp:"SE7w8",
     heading:"Mariah Carey – Selbsterhaltender Typ 7",
     teaser:"SE7w8 · geb. 1969 in Huntington, New York. Sängerin, Songwriterin, Produzentin. 18 Nummer-1-Singles, fünf Oktaven, ein Weihnachtslied für die Ewigkeit. Der Gorilla mit Achterflügel: Freude als Recht, Überfluss als Heimat, Macht als Schutzschild.",
@@ -15196,6 +15200,70 @@ function charlesDarwinPortraitPage() {
         {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
         {route:"beruehmte-vera-birkenbihl", label:"Portr\xe4t: Vera Birkenbihl (SE5w6)"},
         {route:"beruehmte-warren-buffett", label:"Portr\xe4t: Warren Buffett (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function larryKingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-larry-king-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Larry King</p>
+        <p class="krim-portrait-typ">SE7w6 &middot; Selbsterhaltender Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Talkshow-Moderator, geb. 1933 in Brooklyn, gest. 2021 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das mächtigste Tier des Regenwaldes &ndash; und das friedlichste. Er sucht keine Konfrontation, er sitzt, isst, beobachtet, und wer ihm begegnet, fühlt sich seltsam sicher in seiner Nähe. Der Gorilla lebt in der Gruppe, kümmert sich um sein Umfeld, und seine Größe wirkt nicht bedrohlich, sondern beruhigend.</p>
+          <p class="vb-intro">Larry King, geboren 1933 als Lawrence Harvey Zeiger in Brooklyn, war genau dieser Gorilla &ndash; ein Mann mit markanter Hornbrille und Hosenträgern, dessen bloße Anwesenheit in einem Fernsehstudio etwas Beruhigendes hatte. In über sechs Jahrzehnten im Rundfunk führte er mehr als 50.000 Interviews &ndash; mit sieben US-Präsidenten, mit Weltführern, mit Mördern, mit Popstars. Was ihn auszeichnete, war nicht Aggressivität im Gespräch, sondern das Gegenteil: die Fähigkeit, einen Raum zu schaffen, in dem sich Menschen sicher genug fühlten, um wirklich etwas preiszugeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Familie: Nähe als Beruf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 7 die <strong>Familie</strong> &ndash; weil dieser Subtyp Sicherheit und Freude nicht in der großen Welt sucht, sondern im engsten Kreis, im vertrauten Gespräch, in der unmittelbaren, warmen Verbindung zwischen zwei Menschen. Genau das machte King zu seinem Lebenswerk: Er verwandelte das Fernsehinterview, eigentlich ein öffentliches, oft konfrontatives Format, in etwas Intimes &ndash; ein Gespräch am Küchentisch, das zufällig Millionen Menschen zusahen.</p>
+          <p class="vb-intro">Sein Markenzeichen war die offene, unaufgeregte Frage: <em>„Erzähl mir davon."</em> Statt Gäste in die Enge zu treiben, ließ er ihnen Raum. Kritiker warfen ihm später vor, er stelle zu weiche Fragen &ndash; doch genau diese Weichheit war der Grund, warum sich selbst die verschlossensten Prominenten und Politiker bei ihm öffneten. Der Gorilla baut kein Territorium durch Dominanz. Er baut es durch Vertrauen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Loyalität und Verlässlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der selbsterhaltenden Sieben ein stabiles, loyales Fundament. Wo die reine SE7 zur Zerstreuung neigt, verankert der w6-Flügel sie in Verlässlichkeit &ndash; im festen Ritual, im wiederkehrenden Termin, in der Rolle, auf die man sich verlassen kann.</p>
+          <p class="vb-intro">Kings Karriere war genau das: Verlässlichkeit über Jahrzehnte. <em>Larry King Live</em> lief von 1985 bis 2010 auf CNN, fünf Abende die Woche, 25 Jahre lang &ndash; eine der am längsten laufenden Sendungen mit demselben Moderator in der US-Fernsehgeschichte. Diese Beständigkeit war kein Zufall, sondern Ausdruck des Sechserflügels: die Sendung als sicherer Ort, jeden Abend zur gleichen Zeit, egal was in der Welt geschah. Zuschauer wie Gäste wussten: King ist da, verlässlich wie ein Ritual.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: 50.000 Gespräche</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kings Karriere begann im Radio in Miami in den 1950er Jahren, wo er sich seinen Künstlernamen zulegte, weil ein Produzent seinen Geburtsnamen für zu kompliziert hielt. Über Jahrzehnte baute er sich als Interviewer einen Ruf auf, der ihn schließlich 1985 zu CNN führte, wo er zur zentralen Stimme des noch jungen Senders wurde &ndash; zur Zeit von Golfkriegen, Präsidentschaftswahlen und Weltkrisen ebenso wie bei Klatsch und Popkultur.</p>
+          <p class="vb-intro">Was King von anderen Interviewern unterschied, war die schiere Bandbreite seiner Neugier: In derselben Woche konnte er mit einem amtierenden Präsidenten über Außenpolitik sprechen und am nächsten Abend mit einem Filmstar über dessen neue Komödie. Diese Vielseitigkeit ist die reinste Form der SE7-Freude am Entdecken &ndash; nicht das Fach-Expertentum, sondern der unstillbare Appetit, mit jedem Menschen ins Gespräch zu kommen, der etwas zu erzählen hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE7w6 ist ihre Fähigkeit, echte Nähe zu erzeugen, ohne dabei ihre eigene Warmherzigkeit zu verlieren, selbst nach zehntausenden Gesprächen. King blieb bis ins hohe Alter neugierig auf Menschen &ndash; eine Eigenschaft, die viele Talkshow-Moderatoren nach Jahrzehnten im Geschäft verlieren.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einer Lebensgeschichte voller finanzieller und privater Turbulenzen: 1971 wurde King wegen Veruntreuung angeklagt, verlor zeitweise seinen Job, die Anklage wurde später fallengelassen, aber der finanzielle Ruin folgte ihm noch Jahre. Privat heiratete er acht Mal, siebenmal geschieden, ein Muster, das die Kehrseite der SE7 offenbart: die Sehnsucht nach dem sicheren Nest, gepaart mit der Rastlosigkeit, die es immer wieder verlässt. 1987 erlitt er einen schweren Herzinfarkt, der ihn nachhaltig veränderte &ndash; er gründete daraufhin die Larry King Cardiac Foundation, um Herzoperationen für Menschen zu finanzieren, die sie sich nicht leisten konnten. Aus der eigenen Verwundbarkeit wurde Fürsorge für andere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Gorilla, der zuhörte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Larry King starb 2021 im Alter von 87 Jahren, nach einem Leben, das fast vollständig im Gespräch mit anderen Menschen stattfand &ndash; und das doch, so beschrieben es Weggefährten, sein eigenes Innenleben oft im Hintergrund ließ. Der Mann, der Millionen anderen half, sich zu öffnen, blieb selbst oft schwer zu fassen.</p>
+          <p class="vb-intro">Genau darin liegt die Essenz der SE7w6: Freude und Sicherheit werden im Kontakt mit anderen gefunden, nicht in der Innenschau. Kings Vermächtnis ist kein einzelnes großes Interview, sondern die schiere Menge an Momenten, in denen ein Mensch gegenüber einem anderen zum ersten Mal etwas Wahres aussprach &ndash; weil der Gorilla im Studio ihm das Gefühl gab, dass es hier sicher war, das zu tun.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-wallace-shawn", label:"Porträt: Wallace Shawn (SE7w6)"},
       ])}
     </div>
   `);
@@ -45293,6 +45361,7 @@ function render() {
       "beruehmte-peter-lustig": peterLustigPortraitPage,
       "beruehmte-mariah-carey": mariahCareyPortraitPage,
       "beruehmte-wallace-shawn": wallaceShawnPortraitPage,
+      "beruehmte-larry-king": larryKingPortraitPage,
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
       "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,
       "beruehmte-charles-darwin": charlesDarwinPortraitPage,

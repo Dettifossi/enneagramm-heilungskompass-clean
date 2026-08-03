@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "397";
+const APP_BUILD = "398";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -737,6 +737,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wallace Shawn – Self-Preservation Type 7",
     teaser:"SE7w6 · born 1943 in New York. Actor, playwright, essayist. Vizzini in “The Princess Bride”, Rex in “Toy Story”, André in “My Dinner with André”. The gorilla who thinks about capitalism and death over lunch - and makes everyone laugh.",
     tags:["Film/Theater","Literature"], gender:"m"},
+  { route:"beruehmte-larry-king", name:"Larry King", added:"2026-08-03", subtyp:"SE7w6",
+    heading:"Larry King – Self-Preservation Type 7",
+    teaser:"SP7w6 · born 1933 in Brooklyn, died 2021. Talk show host, \"Larry King Live\" on CNN for over 25 years, more than 50,000 interviews. The gorilla who made every conversation a safe place – while revealing the least about himself.",
+    tags:["Medien"], gender:"m"},
   { route:"beruehmte-warren-buffett", name:"Warren Buffett", added:"2026-07-21", subtyp:"SE5w6",
     heading:"Warren Buffett – Self-Preservation Type 5",
     teaser:"SE5w6 \xb7 born 1930, Omaha. Investor, entrepreneur, oracle of Omaha. Five hundred pages a day, the same house since 1958, 99 percent of the fortune given away. The owl that waits until it really understands.",
@@ -18053,6 +18057,70 @@ function charlesDarwinPortraitPage() {
         {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
         {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SE5w6)"},
         {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function larryKingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-larry-king-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Larry King</p>
+        <p class="krim-portrait-typ">SP7w6 &middot; Self-Preservation Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Talk show host, born 1933 in Brooklyn, died 2021 &ndash; Animal correspondence: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Gorilla</strong> is the most powerful animal of the rainforest &ndash; and the most peaceful. It seeks no confrontation; it sits, eats, observes, and those who encounter it feel strangely safe in its presence. The Gorilla lives in a group, cares for those around it, and its size feels reassuring rather than threatening.</p>
+          <p class="vb-intro">Larry King, born 1933 as Lawrence Harvey Zeiger in Brooklyn, was exactly this Gorilla &ndash; a man with distinctive horn-rimmed glasses and suspenders, whose mere presence in a television studio had something calming about it. Over more than six decades in broadcasting he conducted more than 50,000 interviews &ndash; with seven US presidents, with world leaders, with murderers, with pop stars. What set him apart was not aggressiveness in conversation, but the opposite: the ability to create a space in which people felt safe enough to reveal something real.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Family: Closeness as a Profession</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the Self-Preservation Type 7 the <strong>Family</strong> &ndash; because this subtype seeks safety and joy not in the wider world, but in the closest circle, in familiar conversation, in the direct, warm connection between two people. That is exactly what King made his life's work: he turned the television interview, ordinarily a public and often confrontational format, into something intimate &ndash; a conversation at the kitchen table that happened to be watched by millions.</p>
+          <p class="vb-intro">His trademark was the open, unhurried question: <em>"Tell me about it."</em> Instead of cornering his guests, he gave them room. Critics later accused him of asking questions that were too soft &ndash; but exactly this softness was why even the most guarded celebrities and politicians opened up to him. The Gorilla does not build a territory through dominance. It builds it through trust.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Loyalty and Reliability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Self-Preservation Seven a stable, loyal foundation. Where the pure SP7 tends toward scattering, the w6 wing anchors it in reliability &ndash; in a fixed ritual, a recurring appointment, a role one can count on.</p>
+          <p class="vb-intro">King's career was exactly that: reliability across decades. <em>Larry King Live</em> ran from 1985 to 2010 on CNN, five nights a week, for 25 years &ndash; one of the longest-running shows with the same host in US television history. This constancy was no accident but an expression of the Six-wing: the show as a safe place, at the same time every evening, no matter what happened in the world. Viewers and guests alike knew: King is there, reliable as a ritual.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: 50,000 Conversations</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">King's career began in Miami radio in the 1950s, where he adopted his stage name because a producer thought his birth name too complicated. Over decades he built a reputation as an interviewer that eventually brought him to CNN in 1985, where he became the central voice of the still-young network &ndash; through Gulf Wars, presidential elections and world crises, as much as through gossip and pop culture.</p>
+          <p class="vb-intro">What distinguished King from other interviewers was the sheer breadth of his curiosity: in the same week he could discuss foreign policy with a sitting president and, the following night, a new comedy with a movie star. This versatility is the purest form of SP7 joy in discovery &ndash; not specialist expertise, but an insatiable appetite to talk with anyone who had something to say.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP7w6 is its ability to generate real closeness without losing its own warmth, even after tens of thousands of conversations. King remained curious about people well into old age &ndash; a quality many talk show hosts lose after decades in the business.</p>
+          <p class="vb-intro">The shadow shows in a life full of financial and personal turbulence: in 1971 King was charged with embezzlement, temporarily lost his job, and although the charges were later dropped, financial ruin followed him for years. Privately he married eight times, divorced seven times &ndash; a pattern that reveals the flip side of the SP7: the longing for a safe nest, paired with a restlessness that keeps leaving it. In 1987 he suffered a severe heart attack that changed him lastingly &ndash; he subsequently founded the Larry King Cardiac Foundation to fund heart surgery for people who could not afford it. His own vulnerability turned into care for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gorilla Who Listened</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Larry King died in 2021 at the age of 87, after a life spent almost entirely in conversation with other people &ndash; and yet, as those who knew him described it, one that often left his own inner life in the background. The man who helped millions of others open up remained, himself, often hard to grasp.</p>
+          <p class="vb-intro">This is exactly the essence of the SP7w6: joy and safety are found in contact with others, not in introspection. King's legacy is not a single great interview, but the sheer volume of moments in which one person, facing another, said something true for the first time &ndash; because the Gorilla in the studio made them feel it was safe to do so.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
+        {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SP7w6)"},
       ])}
     </div>
   `);
@@ -42443,6 +42511,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,
       "beruehmte-charles-darwin": charlesDarwinPortraitPage,
       "beruehmte-wallace-shawn": wallaceShawnPortraitPage,
+      "beruehmte-larry-king": larryKingPortraitPage,
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
       "beruehmte-will-smith": willSmithPortraitPage,
       "beruehmte-wolodymyr-selenskyj": wolodymyrSelenskyjPortraitPage,

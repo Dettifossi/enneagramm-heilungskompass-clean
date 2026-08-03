@@ -23811,6 +23811,7 @@ const registerEntries = [
   { term: "Wladimir Putin",                route: "beruehmte-wladimir-putin",              description: "Portrait: SX6w5 \u00b7 Sexueller Typ 6 \u00b7 Politiker, Pr\u00e4sident der Russischen F\u00f6deration" },
   { term: "Scarlett Johansson",             route: "beruehmte-scarlett-johansson",          description: "Portrait: SX6w7 \u00b7 Sexueller Typ 6 \u00b7 Schauspielerin, Produzentin" },
   { term: "Francis Bacon",                  route: "beruehmte-francis-bacon",               description: "Portrait: SE7w8 \u00b7 Selbsterhaltender Typ 7 \u00b7 Philosoph, Staatsmann, Lordkanzler" },
+  { term: "Larry King",                     route: "beruehmte-larry-king",                  description: "Portrait: SE7w6 \u00b7 Selbsterhaltender Typ 7 \u00b7 Talkshow-Moderator" },
   { term: "Alice Schwarzer",               route: "beruehmte-alice-schwarzer",             description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Feministin, EMMA-Gr\u00fcnderin" },
   { term: "Ana de Armas",                  route: "beruehmte-ana-de-armas",                description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, Knives Out" },
   { term: "Angelina Jolie",                route: "beruehmte-angelina-jolie",              description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, UN-Botschafterin" },
@@ -24063,6 +24064,7 @@ const registerEntriesEN = [
   { term: "Vladimir Putin", route: "beruehmte-wladimir-putin", description: "Portrait: SX6w5 \u00b7 Sexual Type 6 \u00b7 Politician, President of the Russian Federation" },
   { term: "Scarlett Johansson", route: "beruehmte-scarlett-johansson", description: "Portrait: SX6w7 \u00b7 Sexual Type 6 \u00b7 Actress, producer" },
   { term: "Francis Bacon", route: "beruehmte-francis-bacon", description: "Portrait: SE7w8 \u00b7 Self-Preservation Type 7 \u00b7 Philosopher, statesman, Lord Chancellor" },
+  { term: "Larry King", route: "beruehmte-larry-king", description: "Portrait: SE7w6 \u00b7 Self-Preservation Type 7 \u00b7 Talk show host" },
   { term: "Alice Schwarzer", route: "beruehmte-alice-schwarzer", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Feminist, EMMA founder" },
   { term: "Ana de Armas", route: "beruehmte-ana-de-armas", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, Knives Out" },
   { term: "Angelina Jolie", route: "beruehmte-angelina-jolie", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, UN Ambassador" },
@@ -27149,7 +27151,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "395";
+const APP_BUILD = "396";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -27702,6 +27704,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wallace Shawn \u2013 Selbsterhaltender Typ 7",
     teaser:"SE7w6 \u00b7 geb. 1943 in New York. Schauspieler, B\u00fchnenautor, Essayist. Vizzini in \u201eDie Prinzessin Braut\u201c, Rex in \u201eToy Story\u201c, Andr\u00e9 in \u201eMein Abendessen mit Andr\u00e9\u201c. Der Gorilla, der beim Mittagessen \u00fcber Kapitalismus und Tod nachdenkt \u2013 und dabei jeden zum Lachen bringt.",
     tags:["Schauspiel","Literatur"], gender:"m"},
+  { route:"beruehmte-larry-king", name:"Larry King", added:"2026-08-03", subtyp:"SE7w6",
+    heading:"Larry King \u2013 Selbsterhaltender Typ 7",
+    teaser:"SE7w6 \u00b7 geb. 1933 in Brooklyn, gest. 2021. Talkshow-Moderator, \u201eLarry King Live\u201c auf CNN \u00fcber 25 Jahre, mehr als 50.000 Interviews. Der Gorilla, der jedes Gespr\u00e4ch zu einem sicheren Ort machte \u2013 und selbst am wenigsten preisgab.",
+    tags:["Medien"], gender:"m"},
   { route:"beruehmte-mariah-carey", name:"Mariah Carey", added:"2026-07-21", subtyp:"SE7w8",
     heading:"Mariah Carey \u2013 Selbsterhaltender Typ 7",
     teaser:"SE7w8 \u00b7 geb. 1969 in Huntington, New York. S\u00e4ngerin, Songwriterin, Produzentin. 18 Nummer-1-Singles, f\u00fcnf Oktaven, ein Weihnachtslied f\u00fcr die Ewigkeit. Der Gorilla mit Achterfl\u00fcgel: Freude als Recht, \u00dcberfluss als Heimat, Macht als Schutzschild.",
@@ -42292,6 +42298,70 @@ function charlesDarwinPortraitPage() {
         {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
         {route:"beruehmte-vera-birkenbihl", label:"Portr\xe4t: Vera Birkenbihl (SE5w6)"},
         {route:"beruehmte-warren-buffett", label:"Portr\xe4t: Warren Buffett (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function larryKingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-larry-king-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Larry King</p>
+        <p class="krim-portrait-typ">SE7w6 &middot; Selbsterhaltender Typ 7 mit Sechserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Talkshow-Moderator, geb. 1933 in Brooklyn, gest. 2021 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das m\u00e4chtigste Tier des Regenwaldes &ndash; und das friedlichste. Er sucht keine Konfrontation, er sitzt, isst, beobachtet, und wer ihm begegnet, f\u00fchlt sich seltsam sicher in seiner N\u00e4he. Der Gorilla lebt in der Gruppe, k\u00fcmmert sich um sein Umfeld, und seine Gr\u00f6\u00dfe wirkt nicht bedrohlich, sondern beruhigend.</p>
+          <p class="vb-intro">Larry King, geboren 1933 als Lawrence Harvey Zeiger in Brooklyn, war genau dieser Gorilla &ndash; ein Mann mit markanter Hornbrille und Hosentr\u00e4gern, dessen blo\u00dfe Anwesenheit in einem Fernsehstudio etwas Beruhigendes hatte. In \u00fcber sechs Jahrzehnten im Rundfunk f\u00fchrte er mehr als 50.000 Interviews &ndash; mit sieben US-Pr\u00e4sidenten, mit Weltf\u00fchrern, mit M\u00f6rdern, mit Popstars. Was ihn auszeichnete, war nicht Aggressivit\u00e4t im Gespr\u00e4ch, sondern das Gegenteil: die F\u00e4higkeit, einen Raum zu schaffen, in dem sich Menschen sicher genug f\u00fchlten, um wirklich etwas preiszugeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Familie: N\u00e4he als Beruf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 7 die <strong>Familie</strong> &ndash; weil dieser Subtyp Sicherheit und Freude nicht in der gro\u00dfen Welt sucht, sondern im engsten Kreis, im vertrauten Gespr\u00e4ch, in der unmittelbaren, warmen Verbindung zwischen zwei Menschen. Genau das machte King zu seinem Lebenswerk: Er verwandelte das Fernsehinterview, eigentlich ein \u00f6ffentliches, oft konfrontatives Format, in etwas Intimes &ndash; ein Gespr\u00e4ch am K\u00fcchentisch, das zuf\u00e4llig Millionen Menschen zusahen.</p>
+          <p class="vb-intro">Sein Markenzeichen war die offene, unaufgeregte Frage: <em>\u201eErz\u00e4hl mir davon."</em> Statt G\u00e4ste in die Enge zu treiben, lie\u00df er ihnen Raum. Kritiker warfen ihm sp\u00e4ter vor, er stelle zu weiche Fragen &ndash; doch genau diese Weichheit war der Grund, warum sich selbst die verschlossensten Prominenten und Politiker bei ihm \u00f6ffneten. Der Gorilla baut kein Territorium durch Dominanz. Er baut es durch Vertrauen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Loyalit\u00e4t und Verl\u00e4sslichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\u00fcgel (w6)</strong> gibt der selbsterhaltenden Sieben ein stabiles, loyales Fundament. Wo die reine SE7 zur Zerstreuung neigt, verankert der w6-Fl\u00fcgel sie in Verl\u00e4sslichkeit &ndash; im festen Ritual, im wiederkehrenden Termin, in der Rolle, auf die man sich verlassen kann.</p>
+          <p class="vb-intro">Kings Karriere war genau das: Verl\u00e4sslichkeit \u00fcber Jahrzehnte. <em>Larry King Live</em> lief von 1985 bis 2010 auf CNN, f\u00fcnf Abende die Woche, 25 Jahre lang &ndash; eine der am l\u00e4ngsten laufenden Sendungen mit demselben Moderator in der US-Fernsehgeschichte. Diese Best\u00e4ndigkeit war kein Zufall, sondern Ausdruck des Sechserfl\u00fcgels: die Sendung als sicherer Ort, jeden Abend zur gleichen Zeit, egal was in der Welt geschah. Zuschauer wie G\u00e4ste wussten: King ist da, verl\u00e4sslich wie ein Ritual.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: 50.000 Gespr\u00e4che</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kings Karriere begann im Radio in Miami in den 1950er Jahren, wo er sich seinen K\u00fcnstlernamen zulegte, weil ein Produzent seinen Geburtsnamen f\u00fcr zu kompliziert hielt. \u00dcber Jahrzehnte baute er sich als Interviewer einen Ruf auf, der ihn schlie\u00dflich 1985 zu CNN f\u00fchrte, wo er zur zentralen Stimme des noch jungen Senders wurde &ndash; zur Zeit von Golfkriegen, Pr\u00e4sidentschaftswahlen und Weltkrisen ebenso wie bei Klatsch und Popkultur.</p>
+          <p class="vb-intro">Was King von anderen Interviewern unterschied, war die schiere Bandbreite seiner Neugier: In derselben Woche konnte er mit einem amtierenden Pr\u00e4sidenten \u00fcber Au\u00dfenpolitik sprechen und am n\u00e4chsten Abend mit einem Filmstar \u00fcber dessen neue Kom\u00f6die. Diese Vielseitigkeit ist die reinste Form der SE7-Freude am Entdecken &ndash; nicht das Fach-Expertentum, sondern der unstillbare Appetit, mit jedem Menschen ins Gespr\u00e4ch zu kommen, der etwas zu erz\u00e4hlen hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE7w6 ist ihre F\u00e4higkeit, echte N\u00e4he zu erzeugen, ohne dabei ihre eigene Warmherzigkeit zu verlieren, selbst nach zehntausenden Gespr\u00e4chen. King blieb bis ins hohe Alter neugierig auf Menschen &ndash; eine Eigenschaft, die viele Talkshow-Moderatoren nach Jahrzehnten im Gesch\u00e4ft verlieren.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einer Lebensgeschichte voller finanzieller und privater Turbulenzen: 1971 wurde King wegen Veruntreuung angeklagt, verlor zeitweise seinen Job, die Anklage wurde sp\u00e4ter fallengelassen, aber der finanzielle Ruin folgte ihm noch Jahre. Privat heiratete er acht Mal, siebenmal geschieden, ein Muster, das die Kehrseite der SE7 offenbart: die Sehnsucht nach dem sicheren Nest, gepaart mit der Rastlosigkeit, die es immer wieder verl\u00e4sst. 1987 erlitt er einen schweren Herzinfarkt, der ihn nachhaltig ver\u00e4nderte &ndash; er gr\u00fcndete daraufhin die Larry King Cardiac Foundation, um Herzoperationen f\u00fcr Menschen zu finanzieren, die sie sich nicht leisten konnten. Aus der eigenen Verwundbarkeit wurde F\u00fcrsorge f\u00fcr andere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Gorilla, der zuh\u00f6rte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Larry King starb 2021 im Alter von 87 Jahren, nach einem Leben, das fast vollst\u00e4ndig im Gespr\u00e4ch mit anderen Menschen stattfand &ndash; und das doch, so beschrieben es Weggef\u00e4hrten, sein eigenes Innenleben oft im Hintergrund lie\u00df. Der Mann, der Millionen anderen half, sich zu \u00f6ffnen, blieb selbst oft schwer zu fassen.</p>
+          <p class="vb-intro">Genau darin liegt die Essenz der SE7w6: Freude und Sicherheit werden im Kontakt mit anderen gefunden, nicht in der Innenschau. Kings Verm\u00e4chtnis ist kein einzelnes gro\u00dfes Interview, sondern die schiere Menge an Momenten, in denen ein Mensch gegen\u00fcber einem anderen zum ersten Mal etwas Wahres aussprach &ndash; weil der Gorilla im Studio ihm das Gef\u00fchl gab, dass es hier sicher war, das zu tun.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-wallace-shawn", label:"Portr\u00e4t: Wallace Shawn (SE7w6)"},
       ])}
     </div>
   `);
@@ -72389,6 +72459,7 @@ function render() {
       "beruehmte-peter-lustig": peterLustigPortraitPage,
       "beruehmte-mariah-carey": mariahCareyPortraitPage,
       "beruehmte-wallace-shawn": wallaceShawnPortraitPage,
+      "beruehmte-larry-king": larryKingPortraitPage,
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
       "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,
       "beruehmte-charles-darwin": charlesDarwinPortraitPage,
