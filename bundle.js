@@ -27153,7 +27153,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "398";
+const APP_BUILD = "399";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -39347,7 +39347,7 @@ function jeanneMarieGuyonPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO7w6 ist ihre F\u00e4higkeit, aus reiner Hingabe heraus eine geistige Tiefe zu erreichen, die weit \u00fcber blo\u00dfe Begeisterung hinausgeht. Guyons Schriften &ndash; allen voran ihre <em>Kurze und sehr leichte Methode zu beten</em> &ndash; pr\u00e4gten die Mystik-Geschichte Europas \u00fcber Jahrhunderte und wirkten weit \u00fcber den Katholizismus hinaus, bis hin zu protestantischen und methodistischen Fr\u00f6mmigkeitsbewegungen.</p>
-          <p class="vb-intro">Der Schatten der SO7w6 zeigt sich in der Gefahr, die eigene Unterwerfung so radikal zu leben, dass sie zur Selbstausl\u00f6schung wird &ndash; und darin, dass ihre N\u00e4he zu F\u00e9nelon und ihr Einfluss auf den Hof am Ende genau jene Eifersucht und jenes Misstrauen weckten, die zu ihrem Sturz f\u00fchrten. Der Streit zwischen Bossuet und F\u00e9nelon um Guyons Lehre kostete F\u00e9nelon seine Karriere und Guyon ihre Freiheit &ndash; ein Preis, den die Sechs-Loyalit\u00e4t im Zweifel bereit ist zu zahlen.</p>
+          <p class="vb-intro">Der Schatten der SO7w6 zeigt sich in der Gefahr, die eigene Unterwerfung so radikal zu leben, dass sie zur Selbstausl\u00f6schung wird &ndash; und darin, dass ihre N\u00e4he zu F\u00e9nelon und ihr Einfluss auf den Hof am Ende genau jene Eifersucht und jenes Misstrauen weckten, die zu ihrem Sturz f\u00fchrten. Der Streit zwischen Bossuet und F\u00e9nelon um Guyons Lehre kostete F\u00e9nelon seine Karriere und Guyon ihre Freiheit &ndash; ein Preis, den die Sechserloyalit\u00e4t im Zweifel bereit ist zu zahlen.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: Hingabe ohne Ausl\u00f6schung</h2>

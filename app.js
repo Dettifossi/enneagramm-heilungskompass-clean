@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "398";
+const APP_BUILD = "399";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -12247,7 +12247,7 @@ function jeanneMarieGuyonPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO7w6 ist ihre Fähigkeit, aus reiner Hingabe heraus eine geistige Tiefe zu erreichen, die weit über bloße Begeisterung hinausgeht. Guyons Schriften &ndash; allen voran ihre <em>Kurze und sehr leichte Methode zu beten</em> &ndash; prägten die Mystik-Geschichte Europas über Jahrhunderte und wirkten weit über den Katholizismus hinaus, bis hin zu protestantischen und methodistischen Frömmigkeitsbewegungen.</p>
-          <p class="vb-intro">Der Schatten der SO7w6 zeigt sich in der Gefahr, die eigene Unterwerfung so radikal zu leben, dass sie zur Selbstauslöschung wird &ndash; und darin, dass ihre Nähe zu Fénelon und ihr Einfluss auf den Hof am Ende genau jene Eifersucht und jenes Misstrauen weckten, die zu ihrem Sturz führten. Der Streit zwischen Bossuet und Fénelon um Guyons Lehre kostete Fénelon seine Karriere und Guyon ihre Freiheit &ndash; ein Preis, den die Sechs-Loyalität im Zweifel bereit ist zu zahlen.</p>
+          <p class="vb-intro">Der Schatten der SO7w6 zeigt sich in der Gefahr, die eigene Unterwerfung so radikal zu leben, dass sie zur Selbstauslöschung wird &ndash; und darin, dass ihre Nähe zu Fénelon und ihr Einfluss auf den Hof am Ende genau jene Eifersucht und jenes Misstrauen weckten, die zu ihrem Sturz führten. Der Streit zwischen Bossuet und Fénelon um Guyons Lehre kostete Fénelon seine Karriere und Guyon ihre Freiheit &ndash; ein Preis, den die Sechserloyalität im Zweifel bereit ist zu zahlen.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: Hingabe ohne Auslöschung</h2>
