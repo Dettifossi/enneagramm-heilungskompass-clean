@@ -27145,7 +27145,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "389";
+const APP_BUILD = "390";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -38510,7 +38510,8 @@ function wladimirPutinPortraitPage() {
         <h2 class="vb-section">1. Der Wolf</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Rudeltier, das seine Position durch St\u00e4rke behauptet und jede Bedrohung des Territoriums mit Z\u00e4hnen beantwortet. Der Wolf vertraut nicht leicht. Er beobachtet lange, bevor er handelt, und wenn er handelt, dann entschlossen. Er kennt Angst &ndash; und genau deshalb l\u00e4sst er sie nicht zu.</p>
-          <p class="vb-intro">Wladimir Putin, geboren 1952 in Leningrad, dem heutigen St. Petersburg, in einfachen Verh\u00e4ltnissen und als einziges \u00fcberlebendes Kind seiner Eltern nach zwei im Krieg bzw. an Krankheit verstorbenen Geschwistern, ist dieser Wolf. Sein Weg vom KGB-Offizier \u00fcber den St. Petersburger Verwaltungsapparat bis an die Spitze des russischen Staates ist die Geschichte eines Mannes, der gelernt hat, dass Kontrolle \u00fcber die eigene Umgebung die einzige verl\u00e4ssliche Antwort auf eine unsichere Welt ist. Kein Zufall, dass er selbst einmal sagte, seine pr\u00e4gendste Kindheitslektion sei gewesen, sich nicht zur\u00fcckzuziehen, wenn eine Ratte in die Enge getrieben wird &ndash; sie greife an.</p>
+          <p class="vb-intro">Wladimir Putin, geboren 1952 in Leningrad, dem heutigen St. Petersburg, in einfachen Verh\u00e4ltnissen und als einziges \u00fcberlebendes Kind seiner Eltern nach zwei im Krieg bzw. an Krankheit verstorbenen Geschwistern, ist dieser Wolf. Sein Weg vom KGB-Offizier \u00fcber den St. Petersburger Verwaltungsapparat bis an die Spitze des russischen Staates ist die Geschichte eines Mannes, der gelernt hat, dass Kontrolle \u00fcber die eigene Umgebung die einzige verl\u00e4ssliche Antwort auf eine unsichere Welt ist.</p>
+          <p class="vb-intro">Passend dazu erz\u00e4hlte Putin in seinen Autobiografien eine pr\u00e4gende Kindheitserinnerung aus einem Hinterhof im damaligen Leningrad: Er hatte eine Ratte mit einem Stock in eine Ecke getrieben &ndash; doch statt sich zu ergeben, sprang das Tier ihm pl\u00f6tzlich ins Gesicht. F\u00fcr ihn wurde daraus die zentrale Lebenslektion: Wer in die Enge getrieben ist, darf sich niemals zur\u00fcckziehen, sondern muss wie die Ratte nach vorne springen. Die Ratte ist ein treffendes Bild f\u00fcr den SX6: Sie greift nicht aus \u00dcberlegenheit an, sondern aus Angst und Enge &ndash; und macht daraus Angriff. Wie tief dieses Muster reicht, zeigt auch der Watergate-Drahtzieher G. Gordon Liddy, ebenfalls ein SX6, der als Kind von einer Rattenphobie gequ\u00e4lt wurde und sich sp\u00e4ter eine Ratte briet und a\u00df, um seine Angst durch reinen Willen zu bezwingen. Ob metaphorisch wie bei Putin oder w\u00f6rtlich wie bei Liddy: Beide versuchen, der eigenen Verwundbarkeit zu entkommen, indem sie selbst zum gef\u00e4hrlichsten Faktor im Raum werden.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Sechs: St\u00e4rke als Gegenangst</h2>

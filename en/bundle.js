@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "391";
+const APP_BUILD = "392";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -19482,7 +19482,8 @@ function wladimirPutinPortraitPage() {
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Wolf</strong> is the animal of the Sexual Type 6 &ndash; a pack animal that asserts its position through strength and answers any threat to its territory with bared teeth. The Wolf does not trust easily. It watches for a long time before it acts, and when it acts, it does so decisively. It knows fear &ndash; and precisely for that reason it refuses to allow it.</p>
-          <p class="vb-intro">Vladimir Putin, born 1952 in Leningrad, today's St. Petersburg, into modest circumstances and the only surviving child of his parents after two siblings died in the war or of illness, is this Wolf. His path from KGB officer through the St. Petersburg administration to the top of the Russian state is the story of a man who learned that control over one's own environment is the only reliable answer to an uncertain world. It is no coincidence that he himself once said his most formative childhood lesson was not to retreat when a rat is cornered &ndash; it attacks.</p>
+          <p class="vb-intro">Vladimir Putin, born 1952 in Leningrad, today's St. Petersburg, into modest circumstances and the only surviving child of his parents after two siblings died in the war or of illness, is this Wolf. His path from KGB officer through the St. Petersburg administration to the top of the Russian state is the story of a man who learned that control over one's own environment is the only reliable answer to an uncertain world.</p>
+          <p class="vb-intro">Fittingly, Putin recounted in his memoirs a formative childhood memory from a courtyard in Leningrad: he had cornered a rat with a stick &ndash; but instead of surrendering, the animal suddenly leapt straight at his face. For him this became a central life lesson: when cornered, never retreat, but spring forward like the rat. The rat is a fitting image for the SX6: it does not attack out of superiority but out of fear and confinement &ndash; and turns that into aggression. How deep this pattern runs is shown by another famous SX6, Watergate operative G. Gordon Liddy, who was tormented by a rat phobia as a child and later caught, cooked and ate one to conquer his fear through sheer will. Whether metaphorically, as with Putin, or literally, as with Liddy: both try to escape their own vulnerability by becoming the most dangerous factor in the room themselves.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Six: Strength as Counter-Fear</h2>

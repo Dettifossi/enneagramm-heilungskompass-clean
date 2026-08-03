@@ -1,6 +1,6 @@
 // Kompass Service Worker – iOS-kompatibler Auto-Reload
-const SW_VERSION = 'v390';
-const BUNDLE_VERSION = 'v886'; // wird bei jedem Deploy mitaktualisiert → löst Auto-Reload aus
+const SW_VERSION = 'v391';
+const BUNDLE_VERSION = 'v887'; // wird bei jedem Deploy mitaktualisiert → löst Auto-Reload aus
 const CACHE_NAME = 'kompass-cache-' + SW_VERSION;
 
 self.addEventListener('install', event => {
