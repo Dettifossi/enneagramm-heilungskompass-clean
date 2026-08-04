@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "413";
+const APP_BUILD = "414";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -512,6 +512,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Bärbel Bas – Self-Preservation Type 9",
     teaser:"SP9w1 · born 1968. Politician (SPD), President of the Bundestag since 2021. The elephant that guards the house – persistent, quiet, with a stability stronger than any volume. Animal correspondence: Elephant.",
     tags:["Politik"] },
+  { route:"beruehmte-ludwig-erhard", name:"Ludwig Erhard", added:"2026-08-04", subtyp:"SE9w1",
+    heading:"Ludwig Erhard – Self-Preservation Type 9",
+    teaser:"SP9w1 · 1897–1977. Economist, Federal Minister of Economics 1949–1963, Chancellor of Germany 1963–1966, father of the Social Market Economy. The elephant who carried the German economic miracle without loud posturing – persistent, principled, with the cigar as his only expression of composure.",
+    tags:["Politik","Wirtschaft"], gender:"m"},
   { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8",
     heading:"Hans-Dietrich Genscher – Self-Preservation Type 9",
     teaser:"SP9w8 · 1927–2016. Foreign Minister and Vice Chancellor of West Germany (1974–1992). 23 years of formative foreign policy, architect of German reunification, bridge-builder between East and West. The elephant that never forgets – and never stops negotiating. Animal correspondence: Elephant.",
@@ -21589,6 +21593,70 @@ function baerbelBasPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
         {route:"kriminalpsychologie-alfons-schuhbeck", label:"Portrait: Alfons Schuhbeck (SP9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function ludwigErhardPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ludwig-erhard-portrait.jpg" alt="Elephant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig Erhard</p>
+        <p class="krim-portrait-typ">SP9w1 &middot; Self-Preservation Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Federal Minister of Economics 1949&ndash;1963, Chancellor 1963&ndash;1966, 1897&ndash;1977 &ndash; Animal correspondence: Elephant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Elephant</strong> is the animal of Type 9 &ndash; and few images fit Ludwig Erhard better. The elephant is a heavy, calm animal that needs no noise to have an effect. It moves slowly, deliberately, with a presence that simply is, whether or not anyone is watching. Once it is in motion, little can stop it.</p>
+          <p class="vb-intro">Ludwig Erhard, born in 1897 in Fürth, was this elephant: portly, seemingly relaxed, cigar in hand and calm of voice &ndash; and yet the man who led Germany out of the rubble of the Second World War into one of the most stable economies in Europe. No revolutionary, no speaker who swept up crowds. A man who held on persistently to an idea until it became reality.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Nine: Appetite for Stability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Nine (SP9)</strong> is what Naranjo called <em>Appetite</em>: the SP9 seeks peace and security through consistency, through routine, through enjoying the simple, reliable things in life. He is no fighter for spectacular upheaval &ndash; he is someone who builds a solid foundation and trusts that stability itself is the most persuasive message.</p>
+          <p class="vb-intro">Erhard's entire economic career was exactly this: not a fight for attention, but the persistent construction of a stable order. As Federal Minister of Economics, he pushed through the abolition of price controls in 1948 against considerable resistance from the Allied military government and large parts of German politics &ndash; a step that seemed risky, but showed precisely the calm, principled trust that characterises the SP9: he believed in the system he had designed and let it simply work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Principled Conviction as Economic Order</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing</strong> gives the Self-Preservation Nine a special quality: a deep sense of order, of what is right, of principles that are not negotiable. The <strong>SP9w1</strong> is not only patient &ndash; he is also shaped by an inner moral clarity that tolerates no compromise on core values.</p>
+          <p class="vb-intro">Erhard's life's work, the Social Market Economy, is the One-wing in its purest form: a free market economy, but embedded in a clear regulatory framework that protects competition and secures social balance. “Prosperity for all” was, for him, no advertising slogan but a moral principle he defended with the same unshakeable conviction as an SP9w1 defends his inner principles. He tolerated no deviation from this framework &ndash; neither from the left nor from the right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From the Economic Miracle to the Chancellorship</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As Federal Minister of Economics from 1949 to 1963 under Konrad Adenauer, Erhard laid the foundation for what became known as the “economic miracle”: the unprecedented economic recovery of West Germany after the war. The currency reform of 1948, which he helped shape, followed by his consistent policy of free price formation, set an economy that had been flat on the ground into motion within just a few years.</p>
+          <p class="vb-intro">In 1963, Erhard, now Adenauer's successor, became Chancellor &ndash; an office that suited him politically far less than the Ministry of Economics. His chancellorship (1963&ndash;1966) was marked by reckoning with the postwar period, deepening European integration, and growing domestic political tensions. The elephant who had excelled as an economic architect struggled more as a political leader &ndash; the SP9 can act more hesitantly in leadership positions when confrontation, rather than consensus, is required.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP9w1 is his <strong>ability to create lasting structures out of principled patience</strong>. Erhard's Social Market Economy still shapes Germany's economic order today &ndash; a legacy that reaches far beyond his own term in office, precisely because it was built not on spectacular individual decisions but on a stable, internally coherent system.</p>
+          <p class="vb-intro">The shadow shows in exactly the inertia inherent in the SP9: Erhard reacted hesitantly, almost passively, to the growing budget crises and rising domestic criticism during his chancellorship, until the governing coalition collapsed in 1966 and he was forced to resign. The elephant who patiently endures can, in the wrong situation, endure too long &ndash; until the decision is taken out of his hands rather than made by him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Elephant Who Built an Order That Outlasted Him</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Nine leads from inertia to genuine agency &ndash; from self-forgetting in the status quo to an active, conscious shaping of one's own vision. Erhard found this path above all during his years as Minister of Economics, when, though ridiculed by many, he held with quiet persistence to his economic conviction until it proved right.</p>
+          <p class="vb-intro">Erhard died in 1977 in Bonn, but the Social Market Economy he designed still carries Germany today. That is the SP9w1 at its most mature: not an elephant that trumpets loudly, but one that builds an order so stable it still stands long after he himself is gone.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
+        {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SP9w1)"},
       ])}
     </div>
   `);
@@ -43091,6 +43159,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
       "beruehmte-baerbel-bas": baerbelBasPortraitPage,
+      "beruehmte-ludwig-erhard": ludwigErhardPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-james-corden": jamesCordenPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,

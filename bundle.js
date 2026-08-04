@@ -23822,6 +23822,7 @@ const registerEntries = [
   { term: "Cynthia Lummis",                 route: "beruehmte-cynthia-lummis",              description: "Portrait: SO8w7 \u00b7 Sozialer Typ 8 \u00b7 US-Senatorin, Bitcoin-Verfechterin" },
   { term: "Karl Marx",                      route: "beruehmte-karl-marx",                   description: "Portrait: SO8w9 \u00b7 Sozialer Typ 8 \u00b7 Philosoph, \u00d6konom, Begr\u00fcnder des Marxismus" },
   { term: "Eli Jaxon-Bear",                 route: "beruehmte-eli-jaxon-bear",              description: "Portrait: SX8w9 \u00b7 Sexueller Typ 8 \u00b7 Spiritueller Lehrer, Autor" },
+  { term: "Ludwig Erhard",                  route: "beruehmte-ludwig-erhard",               description: "Portrait: SE9w1 \u00b7 Selbsterhaltender Typ 9 \u00b7 Bundeswirtschaftsminister, Bundeskanzler" },
   { term: "Alice Schwarzer",               route: "beruehmte-alice-schwarzer",             description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Feministin, EMMA-Gr\u00fcnderin" },
   { term: "Ana de Armas",                  route: "beruehmte-ana-de-armas",                description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, Knives Out" },
   { term: "Angelina Jolie",                route: "beruehmte-angelina-jolie",              description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, UN-Botschafterin" },
@@ -24085,6 +24086,7 @@ const registerEntriesEN = [
   { term: "Cynthia Lummis", route: "beruehmte-cynthia-lummis", description: "Portrait: SO8w7 \u00b7 Social Type 8 \u00b7 US Senator, Bitcoin advocate" },
   { term: "Karl Marx", route: "beruehmte-karl-marx", description: "Portrait: SO8w9 \u00b7 Social Type 8 \u00b7 Philosopher, economist, founder of Marxism" },
   { term: "Eli Jaxon-Bear", route: "beruehmte-eli-jaxon-bear", description: "Portrait: SX8w9 \u00b7 Sexual Type 8 \u00b7 Spiritual teacher, author" },
+  { term: "Ludwig Erhard", route: "beruehmte-ludwig-erhard", description: "Portrait: SP9w1 \u00b7 Self-Preservation Type 9 \u00b7 Federal Minister of Economics, Chancellor" },
   { term: "Alice Schwarzer", route: "beruehmte-alice-schwarzer", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Feminist, EMMA founder" },
   { term: "Ana de Armas", route: "beruehmte-ana-de-armas", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, Knives Out" },
   { term: "Angelina Jolie", route: "beruehmte-angelina-jolie", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, UN Ambassador" },
@@ -27171,7 +27173,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "421";
+const APP_BUILD = "422";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -27868,6 +27870,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"B\u00e4rbel Bas \u2013 Selbsterhaltender Typ 9",
     teaser:"SE9w1 \u00b7 geb. 1968. Politikerin (SPD), Bundestagspr\u00e4sidentin seit 2021. Der Elefant, der das Haus h\u00fctet \u2013 beharrlich, ger\u00e4uschlos, mit einer Stabilit\u00e4t, die st\u00e4rker ist als alle Lautst\u00e4rke. Tierentsprechung: Elefant.",
     tags:["Politik"] , gender:"f"},
+  { route:"beruehmte-ludwig-erhard", name:"Ludwig Erhard", added:"2026-08-04", subtyp:"SE9w1",
+    heading:"Ludwig Erhard \u2013 Selbsterhaltender Typ 9",
+    teaser:"SE9w1 \u00b7 1897\u20131977. Wirtschaftswissenschaftler, Bundeswirtschaftsminister 1949\u20131963, Bundeskanzler 1963\u20131966, Vater der Sozialen Marktwirtschaft. Der Elefant, der ohne lautes Auftreten das deutsche Wirtschaftswunder trug \u2013 beharrlich, prinzipientreu, mit der Zigarre als einzigem Ausdruck von Gelassenheit.",
+    tags:["Politik","Wirtschaft"], gender:"m"},
   { route:"beruehmte-angela-merkel", name:"Angela Merkel", added:"2026-07-22", subtyp:"SE9w8",
     heading:"Angela Merkel \u2013 Selbsterhaltende Typ 9",
     teaser:"SE9w8 \u00b7 geb. 1954. Bundeskanzlerin 2005\u20132021. Sechzehn Jahre Aussitzen, Entscheiden, Beharren \u2013 und ein Erbe voller Widerspr\u00fcche. Der Elefant, der sich in seinem eigenen Rhythmus bewegt. Manchmal Weisheit. Manchmal Stillstand.",
@@ -41483,6 +41489,70 @@ function baerbelBasPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se9", label:"SE9 \u2013 Der Elefant: Subtyp-Profil"},
         {route:"kriminalpsychologie-alfons-schuhbeck", label:"Portr\u00e4t: Alfons Schuhbeck (SE9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function ludwigErhardPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ludwig-erhard-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig Erhard</p>
+        <p class="krim-portrait-typ">SE9w1 &middot; Selbsterhaltender Typ 9 mit Einserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Bundeswirtschaftsminister 1949&ndash;1963, Bundeskanzler 1963&ndash;1966, 1897&ndash;1977 &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des Typs 9 &ndash; und kaum ein Bild trifft Ludwig Erhard genauer. Der Elefant ist ein massiges, ruhiges Tier, das keinen L\u00e4rm braucht, um zu wirken. Er bewegt sich langsam, bed\u00e4chtig, mit einer Pr\u00e4senz, die einfach da ist, unabh\u00e4ngig davon, ob jemand hinschaut. Wenn er einmal in Bewegung ist, h\u00e4lt ihn kaum etwas auf.</p>
+          <p class="vb-intro">Ludwig Erhard, 1897 in F\u00fcrth geboren, war dieser Elefant: rundlich, gem\u00fctlich wirkend, mit Zigarre und ruhiger Stimme &ndash; und dennoch der Mann, der Deutschland aus den Tr\u00fcmmern des Zweiten Weltkriegs in eines der stabilsten Wirtschaftssysteme Europas f\u00fchrte. Kein Revolution\u00e4r, kein Redner, der Massen mitriss. Ein Mann, der beharrlich an einer Idee festhielt, bis sie Wirklichkeit wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit auf Stabilit\u00e4t</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nannte Naranjo <em>Appetit</em>: Die SE9 sucht Frieden und Sicherheit durch Best\u00e4ndigkeit, durch Routine, durch das Genie\u00dfen der einfachen, verl\u00e4sslichen Dinge des Lebens. Sie ist keine K\u00e4mpferin f\u00fcr spektakul\u00e4re Umbr\u00fcche &ndash; sie ist jemand, der ein solides Fundament baut und darauf vertraut, dass Stabilit\u00e4t selbst die \u00fcberzeugendste Botschaft ist.</p>
+          <p class="vb-intro">Erhards gesamtes wirtschaftspolitisches Wirken war genau das: kein Kampf um Aufmerksamkeit, sondern das beharrliche Errichten einer stabilen Ordnung. Als Bundeswirtschaftsminister setzte er 1948 gegen erheblichen Widerstand der Alliierten Milit\u00e4rregierung und weiter Teile der deutschen Politik die Aufhebung der Preisbindung durch &ndash; ein Schritt, der scheinbar riskant war, aber genau die Art von ruhigem, prinzipientreuem Vertrauen zeigte, das die SE9 auszeichnet: Er glaubte an das System, das er entworfen hatte, und lie\u00df es einfach wirken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Prinzipientreue als Wirtschaftsordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\u00fcgel</strong> verleiht der selbsterhaltenden Neun eine besondere Qualit\u00e4t: ein tiefes Gef\u00fchl f\u00fcr Ordnung, f\u00fcr das Richtige, f\u00fcr Prinzipien, die nicht verhandelbar sind. Die <strong>SE9w1</strong> ist nicht nur geduldig &ndash; sie ist auch von einer inneren moralischen Klarheit gepr\u00e4gt, die keine Kompromisse bei den Grundwerten duldet.</p>
+          <p class="vb-intro">Erhards Lebenswerk, die Soziale Marktwirtschaft, ist der Einserfl\u00fcgel in Reinform: freie Marktwirtschaft, aber eingebettet in einen klaren ordnungspolitischen Rahmen, der Wettbewerb sch\u00fctzt und sozialen Ausgleich sichert. \u201eWohlstand f\u00fcr alle" war f\u00fcr ihn kein Werbeslogan, sondern ein moralisches Prinzip, das er mit derselben Unbeirrbarkeit verteidigte wie ein SE9w1 seine inneren Grunds\u00e4tze. Er duldete keine Abweichung von diesem Ordnungsrahmen &ndash; weder von links noch von rechts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Wirtschaftswunder zur Kanzlerschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Bundeswirtschaftsminister von 1949 bis 1963 unter Konrad Adenauer legte Erhard die Grundlage f\u00fcr das sogenannte \u201eWirtschaftswunder": den beispiellosen wirtschaftlichen Wiederaufstieg der Bundesrepublik nach dem Krieg. Die von ihm mitgestaltete W\u00e4hrungsreform 1948, gefolgt von seiner konsequenten Politik der freien Preisbildung, brachte innerhalb weniger Jahre eine \u00d6konomie in Schwung, die zuvor am Boden lag.</p>
+          <p class="vb-intro">1963 wurde Erhard, nun als Nachfolger Adenauers, Bundeskanzler &ndash; ein Amt, das ihm politisch weit weniger lag als das Wirtschaftsministerium. Seine Kanzlerschaft (1963&ndash;1966) war von der Aufarbeitung der Nachkriegszeit, der Vertiefung der europ\u00e4ischen Integration und zunehmenden innenpolitischen Spannungen gepr\u00e4gt. Der Elefant, der als Wirtschaftsgestalter brillierte, tat sich als politischer F\u00fchrer schwerer &ndash; die SE9 kann in F\u00fchrungspositionen z\u00f6gerlicher agieren, wenn Konfrontation statt Konsens gefragt ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE9w1 ist ihre <strong>F\u00e4higkeit, aus prinzipientreuer Geduld dauerhafte Strukturen zu schaffen</strong>. Erhards Soziale Marktwirtschaft pr\u00e4gt die deutsche Wirtschaftsordnung bis heute &ndash; ein Erbe, das weit \u00fcber seine eigene Amtszeit hinausreicht, gerade weil es nicht auf spektakul\u00e4re Einzelentscheidungen, sondern auf ein stabiles, in sich stimmiges System gebaut war.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in genau der Tr\u00e4gheit, die der SE9 innewohnt: Erhard reagierte auf die zunehmenden Haushaltskrisen und die wachsende innenpolitische Kritik in seiner Kanzlerschaft z\u00f6gerlich, fast passiv, bis die Regierungskoalition 1966 zerbrach und er zum R\u00fccktritt gezwungen wurde. Der Elefant, der geduldig ausharrt, kann in der falschen Situation zu lange ausharren &ndash; bis die Entscheidung ihm abgenommen wird, statt selbst getroffen zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Elefant, der eine Ordnung schuf, die ihn \u00fcberdauerte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Neun f\u00fchrt von der Tr\u00e4gheit zu echter Handlungsf\u00e4higkeit &ndash; von der Selbstvergessenheit im Bestehenden zu einer aktiven, bewussten Gestaltung der eigenen Vision. Erhard fand diesen Weg vor allem in seiner Zeit als Wirtschaftsminister, als er, obwohl von vielen bel\u00e4chelt, mit ruhiger Beharrlichkeit an seiner \u00f6konomischen \u00dcberzeugung festhielt, bis sie sich als richtig erwies.</p>
+          <p class="vb-intro">Erhard starb 1977 in Bonn, doch die Soziale Marktwirtschaft, die er entworfen hatte, tr\u00e4gt Deutschland bis heute. Das ist die SE9w1 in ihrer reifsten Form: kein Elefant, der laut trompetet, sondern einer, der eine so stabile Ordnung errichtet, dass sie noch lange steht, nachdem er selbst gegangen ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se9", label:"SE9 \u2013 Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-baerbel-bas", label:"Portr\u00e4t: B\u00e4rbel Bas (SE9w1)"},
       ])}
     </div>
   `);
@@ -73148,6 +73218,7 @@ function render() {
     "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
           "beruehmte-james-levine": jamesLevinePortraitPage,
     "beruehmte-baerbel-bas": baerbelBasPortraitPage,
+    "beruehmte-ludwig-erhard": ludwigErhardPortraitPage,
       "beruehmte-donata-hopfen": donataHopfenPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-james-corden": jamesCordenPortraitPage,

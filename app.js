@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "421";
+const APP_BUILD = "422";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -750,6 +750,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Bärbel Bas – Selbsterhaltender Typ 9",
     teaser:"SE9w1 · geb. 1968. Politikerin (SPD), Bundestagspräsidentin seit 2021. Der Elefant, der das Haus hütet – beharrlich, geräuschlos, mit einer Stabilität, die stärker ist als alle Lautstärke. Tierentsprechung: Elefant.",
     tags:["Politik"] , gender:"f"},
+  { route:"beruehmte-ludwig-erhard", name:"Ludwig Erhard", added:"2026-08-04", subtyp:"SE9w1",
+    heading:"Ludwig Erhard – Selbsterhaltender Typ 9",
+    teaser:"SE9w1 · 1897–1977. Wirtschaftswissenschaftler, Bundeswirtschaftsminister 1949–1963, Bundeskanzler 1963–1966, Vater der Sozialen Marktwirtschaft. Der Elefant, der ohne lautes Auftreten das deutsche Wirtschaftswunder trug – beharrlich, prinzipientreu, mit der Zigarre als einzigem Ausdruck von Gelassenheit.",
+    tags:["Politik","Wirtschaft"], gender:"m"},
   { route:"beruehmte-angela-merkel", name:"Angela Merkel", added:"2026-07-22", subtyp:"SE9w8",
     heading:"Angela Merkel – Selbsterhaltende Typ 9",
     teaser:"SE9w8 · geb. 1954. Bundeskanzlerin 2005–2021. Sechzehn Jahre Aussitzen, Entscheiden, Beharren – und ein Erbe voller Widersprüche. Der Elefant, der sich in seinem eigenen Rhythmus bewegt. Manchmal Weisheit. Manchmal Stillstand.",
@@ -14365,6 +14369,70 @@ function baerbelBasPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
         {route:"kriminalpsychologie-alfons-schuhbeck", label:"Porträt: Alfons Schuhbeck (SE9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function ludwigErhardPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ludwig-erhard-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig Erhard</p>
+        <p class="krim-portrait-typ">SE9w1 &middot; Selbsterhaltender Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Bundeswirtschaftsminister 1949&ndash;1963, Bundeskanzler 1963&ndash;1966, 1897&ndash;1977 &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des Typs 9 &ndash; und kaum ein Bild trifft Ludwig Erhard genauer. Der Elefant ist ein massiges, ruhiges Tier, das keinen Lärm braucht, um zu wirken. Er bewegt sich langsam, bedächtig, mit einer Präsenz, die einfach da ist, unabhängig davon, ob jemand hinschaut. Wenn er einmal in Bewegung ist, hält ihn kaum etwas auf.</p>
+          <p class="vb-intro">Ludwig Erhard, 1897 in Fürth geboren, war dieser Elefant: rundlich, gemütlich wirkend, mit Zigarre und ruhiger Stimme &ndash; und dennoch der Mann, der Deutschland aus den Trümmern des Zweiten Weltkriegs in eines der stabilsten Wirtschaftssysteme Europas führte. Kein Revolutionär, kein Redner, der Massen mitriss. Ein Mann, der beharrlich an einer Idee festhielt, bis sie Wirklichkeit wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit auf Stabilität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nannte Naranjo <em>Appetit</em>: Die SE9 sucht Frieden und Sicherheit durch Beständigkeit, durch Routine, durch das Genießen der einfachen, verlässlichen Dinge des Lebens. Sie ist keine Kämpferin für spektakuläre Umbrüche &ndash; sie ist jemand, der ein solides Fundament baut und darauf vertraut, dass Stabilität selbst die überzeugendste Botschaft ist.</p>
+          <p class="vb-intro">Erhards gesamtes wirtschaftspolitisches Wirken war genau das: kein Kampf um Aufmerksamkeit, sondern das beharrliche Errichten einer stabilen Ordnung. Als Bundeswirtschaftsminister setzte er 1948 gegen erheblichen Widerstand der Alliierten Militärregierung und weiter Teile der deutschen Politik die Aufhebung der Preisbindung durch &ndash; ein Schritt, der scheinbar riskant war, aber genau die Art von ruhigem, prinzipientreuem Vertrauen zeigte, das die SE9 auszeichnet: Er glaubte an das System, das er entworfen hatte, und ließ es einfach wirken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Prinzipientreue als Wirtschaftsordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> verleiht der selbsterhaltenden Neun eine besondere Qualität: ein tiefes Gefühl für Ordnung, für das Richtige, für Prinzipien, die nicht verhandelbar sind. Die <strong>SE9w1</strong> ist nicht nur geduldig &ndash; sie ist auch von einer inneren moralischen Klarheit geprägt, die keine Kompromisse bei den Grundwerten duldet.</p>
+          <p class="vb-intro">Erhards Lebenswerk, die Soziale Marktwirtschaft, ist der Einserflügel in Reinform: freie Marktwirtschaft, aber eingebettet in einen klaren ordnungspolitischen Rahmen, der Wettbewerb schützt und sozialen Ausgleich sichert. „Wohlstand für alle" war für ihn kein Werbeslogan, sondern ein moralisches Prinzip, das er mit derselben Unbeirrbarkeit verteidigte wie ein SE9w1 seine inneren Grundsätze. Er duldete keine Abweichung von diesem Ordnungsrahmen &ndash; weder von links noch von rechts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Wirtschaftswunder zur Kanzlerschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Bundeswirtschaftsminister von 1949 bis 1963 unter Konrad Adenauer legte Erhard die Grundlage für das sogenannte „Wirtschaftswunder": den beispiellosen wirtschaftlichen Wiederaufstieg der Bundesrepublik nach dem Krieg. Die von ihm mitgestaltete Währungsreform 1948, gefolgt von seiner konsequenten Politik der freien Preisbildung, brachte innerhalb weniger Jahre eine Ökonomie in Schwung, die zuvor am Boden lag.</p>
+          <p class="vb-intro">1963 wurde Erhard, nun als Nachfolger Adenauers, Bundeskanzler &ndash; ein Amt, das ihm politisch weit weniger lag als das Wirtschaftsministerium. Seine Kanzlerschaft (1963&ndash;1966) war von der Aufarbeitung der Nachkriegszeit, der Vertiefung der europäischen Integration und zunehmenden innenpolitischen Spannungen geprägt. Der Elefant, der als Wirtschaftsgestalter brillierte, tat sich als politischer Führer schwerer &ndash; die SE9 kann in Führungspositionen zögerlicher agieren, wenn Konfrontation statt Konsens gefragt ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE9w1 ist ihre <strong>Fähigkeit, aus prinzipientreuer Geduld dauerhafte Strukturen zu schaffen</strong>. Erhards Soziale Marktwirtschaft prägt die deutsche Wirtschaftsordnung bis heute &ndash; ein Erbe, das weit über seine eigene Amtszeit hinausreicht, gerade weil es nicht auf spektakuläre Einzelentscheidungen, sondern auf ein stabiles, in sich stimmiges System gebaut war.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in genau der Trägheit, die der SE9 innewohnt: Erhard reagierte auf die zunehmenden Haushaltskrisen und die wachsende innenpolitische Kritik in seiner Kanzlerschaft zögerlich, fast passiv, bis die Regierungskoalition 1966 zerbrach und er zum Rücktritt gezwungen wurde. Der Elefant, der geduldig ausharrt, kann in der falschen Situation zu lange ausharren &ndash; bis die Entscheidung ihm abgenommen wird, statt selbst getroffen zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Elefant, der eine Ordnung schuf, die ihn überdauerte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Neun führt von der Trägheit zu echter Handlungsfähigkeit &ndash; von der Selbstvergessenheit im Bestehenden zu einer aktiven, bewussten Gestaltung der eigenen Vision. Erhard fand diesen Weg vor allem in seiner Zeit als Wirtschaftsminister, als er, obwohl von vielen belächelt, mit ruhiger Beharrlichkeit an seiner ökonomischen Überzeugung festhielt, bis sie sich als richtig erwies.</p>
+          <p class="vb-intro">Erhard starb 1977 in Bonn, doch die Soziale Marktwirtschaft, die er entworfen hatte, trägt Deutschland bis heute. Das ist die SE9w1 in ihrer reifsten Form: kein Elefant, der laut trompetet, sondern einer, der eine so stabile Ordnung errichtet, dass sie noch lange steht, nachdem er selbst gegangen ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-baerbel-bas", label:"Porträt: Bärbel Bas (SE9w1)"},
       ])}
     </div>
   `);
@@ -46030,6 +46098,7 @@ function render() {
     "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
           "beruehmte-james-levine": jamesLevinePortraitPage,
     "beruehmte-baerbel-bas": baerbelBasPortraitPage,
+    "beruehmte-ludwig-erhard": ludwigErhardPortraitPage,
       "beruehmte-donata-hopfen": donataHopfenPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-james-corden": jamesCordenPortraitPage,
