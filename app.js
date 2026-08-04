@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "409";
+const APP_BUILD = "410";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -12692,7 +12692,7 @@ function winstonChurchillPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Acht: Das Recht auf Widerstand</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> drückt die Leidenschaft der Acht &ndash; die <em>Wollust</em>, den Hunger nach uneingeschränkter Intensität &ndash; durch Selbstbehauptung und die unbedingte Sicherung des eigenen Überlebens aus. Naranjo nannte diesen Subtyp <em>Satisfacción</em>. Die SE8 verteidigt, was ihr gehört, mit einer Sturheit, die keine Verhandlung kennt, sobald die Existenz selbst bedroht ist.</p>
-          <p class="vb-intro">Churchills berühmteste Rede, gehalten am 4. Juni 1940 vor dem Unterhaus, ist der reinste Ausdruck einer SE8: „We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender." Kein Kompromissangebot, keine Verhandlungsbereitschaft mit Hitler, die viele im Kabinett damals noch für vernünftig hielten. Nur das nackte Recht, weiterzuexistieren &ndash; und die Weigerung, es aufzugeben.</p>
+          <p class="vb-intro">Churchills berühmteste Rede, gehalten am 4. Juni 1940 vor dem Unterhaus, ist der reinste Ausdruck einer SE8: „We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender." (deutsche Übersetzung: „Wir werden an den Stränden kämpfen, wir werden auf den Landeplätzen kämpfen, wir werden in den Feldern und in den Straßen kämpfen, wir werden in den Hügeln kämpfen; wir werden niemals kapitulieren.") Kein Kompromissangebot, keine Verhandlungsbereitschaft mit Hitler, die viele im Kabinett damals noch für vernünftig hielten. Nur das nackte Recht, weiterzuexistieren &ndash; und die Weigerung, es aufzugeben.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Neunerflügel: Die Fähigkeit zu warten</h2>
