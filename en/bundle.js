@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "410";
+const APP_BUILD = "411";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -506,7 +506,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Musik","Kunst"] },
   { route:"beruehmte-eli-jaxon-bear", name:"Eli Jaxon-Bear", added:"2026-08-04", subtyp:"SX8w9",
     heading:"Eli Jaxon-Bear – Sexual Type 8",
-    teaser:"SX8w9 · born 1941. Spiritual teacher, student of Papaji, author of “From Fixation to Freedom”. The crocodile that saw through its own fixation – and became a guide to freedom for others.",
+    teaser:"SX8w9 · born 1947. Spiritual teacher, student of Papaji, author of “From Fixation to Freedom”. The crocodile that saw through its own fixation – and became a guide to freedom for others.",
     tags:["Spiritualität"], gender:"m"},
   { route:"beruehmte-baerbel-bas", name:"Bärbel Bas", subtyp:"SE9w1",
     heading:"Bärbel Bas – Self-Preservation Type 9",
@@ -21181,14 +21181,14 @@ function eliJaxonBearPortraitPage() {
         </div>
         <p class="krim-portrait-name">Eli Jaxon-Bear</p>
         <p class="krim-portrait-typ">SX8w9 &middot; Sexual Type 8 with Nine-wing</p>
-        <p class="krim-portrait-subtitle">Spiritual teacher &amp; author, born 1941 &ndash; Animal correspondence: Crocodile</p>
+        <p class="krim-portrait-subtitle">Spiritual teacher &amp; author, born 1947 &ndash; Animal correspondence: Crocodile</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Crocodile</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Crocodile</strong> is the animal of Sexual Type 8 &ndash; a creature that does not survive through adaptation, but through unshakeable presence. It lies motionless beneath the surface of the water, patient, primordial, and when it strikes, there is no going back. But the crocodile can also do something else: grow so still that one forgets anything lurks beneath the surface at all &ndash; until the decisive moment arrives.</p>
-          <p class="vb-intro">Eli Jaxon-Bear, born in 1941, was in his younger years a fierce political activist of the American left of the 1960s and 1970s &ndash; uncompromising, confrontational, always in the fight. In 1974 he travelled to India to bring, as he himself put it, his search for truth to its end &ndash; and met H. W. L. Poonja, known as Papaji, a disciple of the great sage Ramana Maharshi. What followed was no gentle conversion. It was the complete surrender of a crocodile that recognised its own biting was the last fixation it had to let go of.</p>
+          <p class="vb-intro">Eli Jaxon-Bear, born in 1947 as Elliot J. Zeldow in Brooklyn, New York, was in his younger years a fierce political activist of the American civil rights movement &ndash; in 1965 he took part in the civil rights marches in Montgomery, Alabama, and later became a community organiser in Chicago and Detroit. In 1990 he travelled to India and met H. W. L. Poonja, known as Papaji, a disciple of the great sage Ramana Maharshi &ndash; the final teacher on a lifelong search that had already taken him through a Zen monastery in Japan and a Sufi circle in Marrakesh. What followed was no gentle conversion. It was the complete surrender of a crocodile that recognised its own biting was the last fixation it had to let go of.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Eight: Possession as the Search for Truth</h2>
@@ -21206,7 +21206,7 @@ function eliJaxonBearPortraitPage() {
         <h2 class="vb-section">4. The Work: From Fixation to Freedom</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Jaxon-Bear is one of the few spiritual teachers who directly connect the Enneagram of personality fixations with non-dual awakening. His major work, <em>From Fixation to Freedom: The Enneagram of Liberation</em>, describes the nine fixations not as a mere personality model, but as nine different ways the ego experiences itself as real &ndash; and as nine ways to see through that illusion.</p>
-          <p class="vb-intro">Together with his wife Toni Jaxon-Bear, he founded the Leela Foundation and has led retreats and satsangs worldwide for decades, confronting people directly with the question of who they truly are beyond their personality fixation. Not gentle coaching, but a direct, often uncomfortable invitation to recognise one's own fixation as a fixation &ndash; and let it go.</p>
+          <p class="vb-intro">He founded the Leela Foundation and has led retreats and satsangs worldwide for decades, confronting people directly with the question of who they truly are beyond their personality fixation. He lives in Ashland, Oregon, with his wife Gangaji, herself a well-known spiritual teacher &ndash; the two married in 1989 in a cave at the Haleakala Crater on Maui. Jaxon-Bear's teaching is not gentle coaching, but a direct, often uncomfortable invitation to recognise one's own fixation as a fixation &ndash; and let it go.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow</h2>

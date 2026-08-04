@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "418";
+const APP_BUILD = "419";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -740,7 +740,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Musik","Kunst"] , gender:"m"},
   { route:"beruehmte-eli-jaxon-bear", name:"Eli Jaxon-Bear", added:"2026-08-04", subtyp:"SX8w9",
     heading:"Eli Jaxon-Bear – Sexueller Typ 8",
-    teaser:"SX8w9 · geb. 1941. Spiritueller Lehrer, Schüler von Papaji, Autor von „From Fixation to Freedom“. Das Krokodil, das die eigene Fixierung durchschaute – und zum Wegweiser für die Befreiung anderer wurde.",
+    teaser:"SX8w9 · geb. 1947. Spiritueller Lehrer, Schüler von Papaji, Autor von „From Fixation to Freedom“. Das Krokodil, das die eigene Fixierung durchschaute – und zum Wegweiser für die Befreiung anderer wurde.",
     tags:["Spiritualität"], gender:"m"},
   { route:"beruehmte-james-levine", name:"James Levine", added:"2026-07-22", subtyp:"SE9w1",
     heading:"James Levine – Selbsterhaltender Typ 9",
@@ -13566,14 +13566,14 @@ function eliJaxonBearPortraitPage() {
         </div>
         <p class="krim-portrait-name">Eli Jaxon-Bear</p>
         <p class="krim-portrait-typ">SX8w9 &middot; Sexueller Typ 8 mit Neunerflügel</p>
-        <p class="krim-portrait-subtitle">Spiritueller Lehrer &amp; Autor, geb. 1941 &ndash; Tierentsprechung: Krokodil</p>
+        <p class="krim-portrait-subtitle">Spiritueller Lehrer &amp; Autor, geb. 1947 &ndash; Tierentsprechung: Krokodil</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. Das Krokodil</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier des sexuellen Typs 8 &ndash; ein Wesen, das nicht durch Anpassung überlebt, sondern durch unerschütterliche Präsenz. Es liegt reglos unter der Wasseroberfläche, geduldig, urtümlich, und wenn es zuschnappt, gibt es kein Zurück. Doch das Krokodil kann auch etwas anderes: still werden, so still, dass man vergisst, dass unter der Oberfläche überhaupt etwas lauert &ndash; bis der entscheidende Moment kommt.</p>
-          <p class="vb-intro">Eli Jaxon-Bear, geboren 1941, war in jungen Jahren ein glühender politischer Aktivist der amerikanischen Linken der 1960er und 1970er Jahre &ndash; kompromisslos, konfrontativ, immer im Kampf. 1974 reiste er nach Indien, um dort, wie er selbst sagte, seine Suche nach Wahrheit an ihr Ende zu bringen &ndash; und traf auf H. W. L. Poonja, genannt Papaji, einen Schüler des großen Weisen Ramana Maharshi. Was folgte, war keine sanfte Bekehrung. Es war die vollständige Kapitulation eines Krokodils, das erkannte, dass sein eigenes Beißen die letzte Fixierung war, die es loslassen musste.</p>
+          <p class="vb-intro">Eli Jaxon-Bear, geboren 1947 als Elliot J. Zeldow in Brooklyn, New York, war in jungen Jahren ein glühender politischer Aktivist der amerikanischen Bürgerrechtsbewegung &ndash; 1965 nahm er an den Bürgerrechtsmärschen in Montgomery, Alabama, teil, wurde später Gemeindeorganisator in Chicago und Detroit. 1990 reiste er nach Indien und traf dort H. W. L. Poonja, genannt Papaji, einen Schüler des großen Weisen Ramana Maharshi &ndash; den letzten Lehrer auf einer lebenslangen Suche, die ihn zuvor bereits in ein Zen-Kloster in Japan und einen Sufi-Zirkel in Marrakesch geführt hatte. Was folgte, war keine sanfte Bekehrung. Es war die vollständige Kapitulation eines Krokodils, das erkannte, dass sein eigenes Beißen die letzte Fixierung war, die es loslassen musste.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Acht: Besitzergreifung als Wahrheitssuche</h2>
@@ -13591,7 +13591,7 @@ function eliJaxonBearPortraitPage() {
         <h2 class="vb-section">4. Das Werk: Vom Fixiertsein zur Freiheit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Jaxon-Bear ist einer der wenigen spirituellen Lehrer, die das Enneagramm der Persönlichkeitsfixierungen direkt mit dem nicht-dualen Erwachen verbinden. Sein Hauptwerk <em>From Fixation to Freedom: The Enneagram of Liberation</em> beschreibt die neun Fixierungen nicht als bloßes Persönlichkeitsmodell, sondern als neun verschiedene Wege, wie das Ego sich selbst als real erlebt &ndash; und als neun Wege, diese Illusion zu durchschauen.</p>
-          <p class="vb-intro">Gemeinsam mit seiner Frau Toni Jaxon-Bear gründete er die Leela Foundation und hält seit Jahrzehnten Retreats und Satsangs weltweit, in denen er Menschen direkt mit der Frage konfrontiert, wer sie jenseits ihrer Persönlichkeitsfixierung wirklich sind. Kein sanftes Coaching, sondern die direkte, oft unbequeme Einladung, die eigene Fixierung als Fixierung zu erkennen &ndash; und loszulassen.</p>
+          <p class="vb-intro">Er gründete die Leela Foundation und hält seit Jahrzehnten Retreats und Satsangs weltweit, in denen er Menschen direkt mit der Frage konfrontiert, wer sie jenseits ihrer Persönlichkeitsfixierung wirklich sind. Er lebt in Ashland, Oregon, gemeinsam mit seiner Frau Gangaji, ebenfalls einer bekannten spirituellen Lehrerin &ndash; 1989 heirateten die beiden in einer Höhle am Haleakala-Krater auf Maui. Jaxon-Bears Lehre ist kein sanftes Coaching, sondern die direkte, oft unbequeme Einladung, die eigene Fixierung als Fixierung zu erkennen &ndash; und loszulassen.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
