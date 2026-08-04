@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "421";
+const APP_BUILD = "422";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -585,6 +585,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Cynthia Lummis – Social Type 8",
     teaser:"SO8w7 · born 1954 in Cheyenne, Wyoming. US Senator, first female Bitcoin advocate in the US Senate, former Wyoming State Treasurer. The lioness who fights for her pride – uncompromising, direct, and always at the front line.",
     tags:["Politik"], gender:"f"},
+  { route:"beruehmte-carl-rogers", name:"Carl Rogers", added:"2026-08-05", subtyp:"SX9w1",
+    heading:"Carl Rogers – Sexual Type 9",
+    teaser:"SX9w1 · 1902–1987. Psychologist, founder of client-centered therapy. The sloth who created the judgment-free space in which people could find themselves again – unconditional positive regard as a therapeutic principle.",
+    tags:["Psychology","Science"], gender:"m"},
   { route:"beruehmte-dakota-johnson", name:"Dakota Johnson", added:"2026-07-22", subtyp:"SX9w8",
     heading:"Dakota Johnson – Sexual Type 9",
     teaser:"SX9w8 · born 1989. Actress. Fifty Shades, Suspiria, The Prodigal Daughter. Granddaughter of Tippi Hedren, daughter of Melanie Griffith. The sloth that bites – when challenged.",
@@ -14610,6 +14614,70 @@ function cynthiaLummisPortraitPage() {
         {route:"beruehmte-carsten-stahl", label:"Portrait: Carsten Stahl (SO8w7)"},
         {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
       ])}
+    </div>
+  `);
+}
+
+function carlRogersPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-carl-rogers-portrait.jpg" alt="Sloth" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carl Rogers</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Psychologist, founder of client-centered therapy, 1902&ndash;1987 &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sloth</strong> is the animal of Sexual Type 9 &ndash; an animal that does not fight, does not hunt, does not push. It simply hangs there, entirely present, and lets things come to it. Anyone who approaches it feels no threat, no judgment &ndash; only a quiet, sustaining presence in which one is free to simply be.</p>
+          <p class="vb-intro">Carl Rogers, born 1902 in Oak Park, Illinois, was exactly this sloth: not a therapist who judged, diagnosed, or dispensed advice from above, but one who was simply there &ndash; with a presence so unconditionally accepting that people, within it, dared for the first time to show themselves.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Nine: Merging Without Judgment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Nine (SX9)</strong> is what Naranjo called <em>Fusion</em>: peace through complete immersion in another person or experience, without inserting one's own position in between. The SX9 does not lose itself in the other out of weakness, but because it is precisely there that it finds its deepest form of connection &ndash; a state in which judgment, separation, and evaluation no longer exist.</p>
+          <p class="vb-intro">Rogers originally began his career at Union Theological Seminary, but switched to psychology after realizing, through clinical work with children, that people carry their own answers within themselves &ndash; if only given the space for them. This core conviction, that a person unfolds best when one fully engages with them rather than instructing them, is the SX9 in its purest professional expression.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Principle Instead of Arbitrariness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing</strong> gives the Sexual Nine a quality that goes beyond mere merging: a clear, almost disciplined commitment to a principle. The <strong>SX9w1</strong> does not merge indiscriminately with everything &ndash; it merges consistently with a stance to which it commits with great inner precision.</p>
+          <p class="vb-intro">Rogers formulated his three “core conditions” for therapeutic change &ndash; unconditional positive regard, empathy, and congruence &ndash; with the precision of a scientist and the persistence of a man of principle. He defended this stance for decades against a professional world shaped by diagnosis, interpretation, and therapeutic authority. The One-wing gave him the clarity not to dilute his principle &ndash; even when it stood against the mainstream of psychotherapy at the time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Method: The Judgment-Free Space</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rogers' central insight was deceptively simple and radical at once: change does not come from a therapist fixing the client, but from offering them a space in which no evaluation takes place. In this space &ndash; carried by <em>unconditional positive regard</em> &ndash; no one needs to pretend, justify themselves, or maintain a particular image. This is precisely the SX9 in its therapeutic fulfillment: a presence so completely free of judgment that the other person can meet themselves within it again.</p>
+          <p class="vb-intro">This stance was not a technique in the conventional sense, but a way of being. Rogers deliberately dispensed with interpretation and diagnosis &ndash; the classic tools of authority in the psychotherapy of his time &ndash; and replaced them with something far harder to learn: genuine, non-judgmental listening. He called this “client-centered” (later “person-centered”) therapy, because it was not the expert but the client themselves who was the center and the true authority over their own experience. His 1961 book <em>On Becoming a Person</em> became one of the most influential works in the history of psychotherapy, shaping generations of counselors, teachers, and parents far beyond the therapy room.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX9w1 is its <strong>capacity to create a space in which another person can, for the first time, be entirely themselves</strong>. Rogers' approach transformed not only psychotherapy but also education, conflict mediation, and leadership &ndash; everywhere people flourish when met with judgment-free trust instead of control.</p>
+          <p class="vb-intro">The shadow shows in the flip side of this complete merging: critics accused the client-centered approach of offering too little structure and confrontation in some cases &ndash; particularly for clients who needed clear boundaries or active guidance rather than simply being reflected back to themselves. The SX9, which dissolves fully into connection, can lose sight of its own position, its own leadership &ndash; a price Rogers' method, too, paid in certain borderline cases.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Sloth Who Listened</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carl Rogers died in 1987, shortly after being nominated for the Nobel Peace Prize &ndash; for his work on conflict mediation in crisis regions such as Northern Ireland and South Africa, grounded in the very same principles as his therapy: listening without judgment. In 1947 he had become president of the American Psychological Association &ndash; proof that his quiet, unassuming approach ultimately convinced the field, not because it was loud, but because it worked.</p>
+          <p class="vb-intro">What remains is one of the simplest and yet hardest insights in psychology: that people change not through pressure, but through genuine, judgment-free encounter. The sloth hangs there, motionless &ndash; and precisely therein lies its entire strength. It does not push, it does not evaluate, it simply merges with what is. And in that space, healing becomes possible.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w1)"},
+          {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
+          {route:"beruehmte-dakota-johnson", label:"Portrait: Dakota Johnson (SX9w8)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -43427,6 +43495,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-carsten-stahl": carstenStahlPortraitPage,
       "beruehmte-cynthia-lummis": cynthiaLummisPortraitPage,
+      "beruehmte-carl-rogers": carlRogersPortraitPage,
       "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,
       "beruehmte-david-l-rathmer": davidLRathmerPortraitPage,
       "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,

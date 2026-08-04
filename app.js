@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "431";
+const APP_BUILD = "432";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -802,6 +802,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Friedensreich Hundertwasser – Sexueller Typ 9",
     teaser:"SX9w1 · 1928–2000. Maler, Architekt, Ökologe. Vom Friedrich Stowasser zum Friedensreich Hundertwasser – ein Leben als Verschmelzung mit der Natur, gegen die gerade Linie, für das organische Fließen. Tierentsprechung: Faultier.",
     tags:["Kunst","Architektur"] , gender:"m"},
+  { route:"beruehmte-carl-rogers", name:"Carl Rogers", added:"2026-08-05", subtyp:"SX9w1",
+    heading:"Carl Rogers – Sexueller Typ 9",
+    teaser:"SX9w1 · 1902–1987. Psychologe, Begründer der klientenzentrierten Gesprächstherapie. Das Faultier, das den wertfreien Raum schuf, in dem Menschen sich selbst wieder finden konnten – bedingungslose Wertschätzung als therapeutisches Prinzip.",
+    tags:["Psychologie","Wissenschaft"], gender:"m"},
   { route:"beruehmte-dakota-johnson", name:"Dakota Johnson", added:"2026-07-22", subtyp:"SX9w8",
     heading:"Dakota Johnson – Sexueller Typ 9",
     teaser:"SX9w8 · geb. 1989. Schauspielerin. Fifty Shades, Suspiria, Die verlorene Tochter. Enkelin von Tippi Hedren, Tochter von Melanie Griffith. Das Faultier, das beißt – wenn man es herausfordert.",
@@ -14082,6 +14086,71 @@ function julianAssangePortraitPage() {
     </div>
   `);
 }
+
+function carlRogersPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-carl-rogers-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carl Rogers</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Psychologe, Begründer der klientenzentrierten Gesprächstherapie, 1902&ndash;1987 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; ein Tier, das nicht kämpft, nicht jagt, nicht drängt. Es hängt einfach da, vollkommen präsent, und lässt die Dinge zu sich kommen. Wer sich ihm nähert, spürt keine Bedrohung, keine Bewertung &ndash; nur eine stille, tragende Anwesenheit, in der man selbst ganz sein darf.</p>
+          <p class="vb-intro">Carl Rogers, 1902 in Oak Park, Illinois geboren, war genau dieses Faultier: kein Therapeut, der urteilte, diagnostizierte oder von oben herab Ratschläge erteilte, sondern einer, der einfach da war &ndash; mit einer Gegenwart, die so bedingungslos annehmend war, dass Menschen in ihr zum ersten Mal wagten, sich selbst zu zeigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung ohne Bewertung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> nannte Naranjo <em>Verschmelzung</em>: Frieden durch vollständiges Eintauchen in eine andere Person oder eine Erfahrung, ohne die eigene Position dazwischenzuschieben. Die SX9 verliert sich nicht aus Schwäche im Gegenüber, sondern weil sie genau darin ihre tiefste Form der Verbindung findet &ndash; ein Zustand, in dem kein Urteil, keine Trennung, kein Bewerten mehr existiert.</p>
+          <p class="vb-intro">Rogers begann seine Laufbahn ursprünglich am Union Theological Seminary, wechselte aber zur Psychologie, nachdem er in der klinischen Arbeit mit Kindern erkannte, dass Menschen ihre eigenen Antworten in sich tragen &ndash; wenn man ihnen nur den Raum dafür gibt. Diese Grundüberzeugung, dass ein Mensch sich am besten entfaltet, wenn man sich ganz auf ihn einlässt, statt ihn zu belehren, ist die SX9 in ihrer reinsten fachlichen Ausprägung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Prinzip statt Beliebigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> verleiht der sexuellen Neun eine Qualität, die über reines Verschmelzen hinausgeht: eine klare, fast disziplinierte Verpflichtung auf ein Prinzip. Die <strong>SX9w1</strong> verschmilzt nicht beliebig mit allem &ndash; sie verschmilzt konsequent mit einer Haltung, der sie sich mit großer innerer Genauigkeit verschreibt.</p>
+          <p class="vb-intro">Rogers formulierte seine drei „Kernbedingungen" für therapeutische Veränderung &ndash; bedingungslose positive Wertschätzung, Empathie und Kongruenz &ndash; mit der Präzision eines Wissenschaftlers und der Beharrlichkeit eines Prinzipientreuen. Er verteidigte diese Haltung jahrzehntelang gegen eine Fachwelt, die von Diagnose, Deutung und therapeutischer Autorität geprägt war. Der Einserflügel gab ihm die Klarheit, sein Prinzip nicht zu verwässern &ndash; auch wenn es gegen den damaligen Mainstream der Psychotherapie stand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Methode: Der wertfreie Raum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rogers' zentrale Erkenntnis war denkbar einfach und zugleich radikal: Veränderung entsteht nicht dadurch, dass ein Therapeut den Klienten repariert, sondern dadurch, dass er ihm einen Raum bietet, in dem keine Bewertung stattfindet. In diesem Raum &ndash; getragen von <em>bedingungsloser positiver Wertschätzung</em> &ndash; muss sich niemand verstellen, rechtfertigen oder ein bestimmtes Bild von sich aufrechterhalten. Genau das ist die SX9 in ihrer therapeutischen Vollendung: eine Präsenz, die so vollständig frei von Urteil ist, dass der andere sich darin selbst wieder begegnen kann.</p>
+          <p class="vb-intro">Diese Haltung war keine Technik im herkömmlichen Sinn, sondern eine Seinsweise. Rogers verzichtete bewusst auf Deutung und Diagnose &ndash; die klassischen Werkzeuge der Autorität in der Psychotherapie seiner Zeit &ndash; und ersetzte sie durch etwas, das viel schwerer zu erlernen ist: echtes, urteilsfreies Zuhören. Er nannte dies „klientenzentrierte" (später „personzentrierte") Therapie, weil nicht der Experte, sondern der Klient selbst der Mittelpunkt und die eigentliche Autorität über sein Erleben war. Sein 1961 erschienenes Buch <em>On Becoming a Person</em> wurde zu einem der einflussreichsten Werke der Psychotherapiegeschichte und prägte Generationen von Beratern, Lehrern und Eltern weit über die Therapie hinaus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 ist ihre <strong>Fähigkeit, einen Raum zu schaffen, in dem ein anderer Mensch zum ersten Mal ganz er selbst sein darf</strong>. Rogers' Ansatz veränderte nicht nur die Psychotherapie, sondern auch Pädagogik, Konfliktvermittlung und Führung &ndash; überall dort, wo Menschen aufblühen, wenn man ihnen wertfreies Vertrauen entgegenbringt, statt sie zu kontrollieren.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kehrseite dieser vollständigen Verschmelzung: Kritiker warfen dem klientenzentrierten Ansatz vor, in manchen Fällen zu wenig Struktur und Konfrontation zu bieten &ndash; gerade bei Klienten, die klare Grenzen oder aktive Anleitung brauchten, statt nur gespiegelt zu werden. Die SX9, die sich ganz in die Verbindung auflöst, kann dabei die eigene Position, die eigene Führung aus dem Blick verlieren &ndash; ein Preis, den auch Rogers' Methode in bestimmten Grenzfällen zahlte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Faultier, das zuhörte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carl Rogers starb 1987, kurz nachdem er für den Friedensnobelpreis nominiert worden war &ndash; für seine Arbeit an Konfliktvermittlung in Krisenregionen wie Nordirland und Südafrika, die auf denselben Prinzipien beruhte wie seine Therapie: zuhören, ohne zu urteilen. 1947 war er Präsident der American Psychological Association geworden &ndash; ein Beweis dafür, dass sein leiser, unaufdringlicher Ansatz die Fachwelt letztlich überzeugte, nicht weil er lauter war, sondern weil er wirkte.</p>
+          <p class="vb-intro">Was bleibt, ist eine der einfachsten und zugleich schwersten Erkenntnisse der Psychologie: dass Menschen sich nicht durch Druck verändern, sondern durch echte, wertfreie Begegnung. Das Faultier hängt bewegungslos da &ndash; und genau darin liegt seine ganze Kraft. Es drängt nicht, es wertet nicht, es verschmilzt einfach mit dem, was ist. Und in diesem Raum wird Heilung möglich.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-hundertwasser", label:"Portr\xe4t: Friedensreich Hundertwasser (SX9w1)"},
+          {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
+          {route:"beruehmte-dakota-johnson", label:"Portr\xe4t: Dakota Johnson (SX9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 
 function dakotaJohnsonPortraitPage() {
   return shell(`
@@ -46307,7 +46376,8 @@ function render() {
     "beruehmte-wilma-mankiller": wilmaMankillerPortraitPage,
     "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
-          "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,
+          "beruehmte-carl-rogers": carlRogersPortraitPage,
+    "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,
     "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
           "beruehmte-james-levine": jamesLevinePortraitPage,
     "beruehmte-baerbel-bas": baerbelBasPortraitPage,
