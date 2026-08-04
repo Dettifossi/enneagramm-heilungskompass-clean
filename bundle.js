@@ -27163,7 +27163,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "411";
+const APP_BUILD = "412";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -39826,7 +39826,7 @@ function winstonChurchillPortraitPage() {
         <h2 class="vb-section">6. Der Orang-Utan, der den Ast nicht loslie\u00df</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Acht f\u00fchrt von der Wollust zur Unschuld &ndash; von der zwanghaften Behauptung der eigenen St\u00e4rke zu einer Kraft, die auch verletzlich sein darf. Churchill selbst nannte seine wiederkehrenden Depressionen \u201ethe black dog", den schwarzen Hund, der ihn sein Leben lang begleitete &ndash; ein seltenes Eingest\u00e4ndnis von Schw\u00e4che bei einem Mann, der \u00f6ffentlich nie eine zeigte.</p>
-          <p class="vb-intro">1953 erhielt er den Literaturnobelpreis f\u00fcr sein historisches und biografisches Gesamtwerk, darunter seine sechsb\u00e4ndige Geschichte des Zweiten Weltkriegs. Er starb 1965 im Alter von 90 Jahren, nach einem der l\u00e4ngsten Staatsbegr\u00e4bnisse der britischen Geschichte. Der Orang-Utan, der in der dunkelsten Stunde seines Landes auf dem Ast blieb, w\u00e4hrend andere fielen &ndash; und der bis heute als Symbol daf\u00fcr steht, dass ein einzelner Mensch, der sich weigert nachzugeben, den Lauf der Geschichte ver\u00e4ndern kann.</p>
+          <p class="vb-intro">1953 erhielt er den Literaturnobelpreis f\u00fcr sein historisches und biografisches Gesamtwerk, darunter seine sechsb\u00e4ndige Geschichte des Zweiten Weltkriegs. Er starb 1965 im Alter von 90 Jahren, gefolgt von einem der l\u00e4ngsten Staatsbegr\u00e4bnisse der britischen Geschichte. Der Orang-Utan, der in der dunkelsten Stunde seines Landes auf dem Ast blieb, w\u00e4hrend andere fielen &ndash; und der bis heute als Symbol daf\u00fcr steht, dass ein einzelner Mensch, der sich weigert nachzugeben, den Lauf der Geschichte ver\u00e4ndern kann.</p>
         </blockquote>
 
       </div>

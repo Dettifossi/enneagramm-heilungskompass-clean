@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "411";
+const APP_BUILD = "412";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -12716,7 +12716,7 @@ function winstonChurchillPortraitPage() {
         <h2 class="vb-section">6. Der Orang-Utan, der den Ast nicht losließ</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Acht führt von der Wollust zur Unschuld &ndash; von der zwanghaften Behauptung der eigenen Stärke zu einer Kraft, die auch verletzlich sein darf. Churchill selbst nannte seine wiederkehrenden Depressionen „the black dog", den schwarzen Hund, der ihn sein Leben lang begleitete &ndash; ein seltenes Eingeständnis von Schwäche bei einem Mann, der öffentlich nie eine zeigte.</p>
-          <p class="vb-intro">1953 erhielt er den Literaturnobelpreis für sein historisches und biografisches Gesamtwerk, darunter seine sechsbändige Geschichte des Zweiten Weltkriegs. Er starb 1965 im Alter von 90 Jahren, nach einem der längsten Staatsbegräbnisse der britischen Geschichte. Der Orang-Utan, der in der dunkelsten Stunde seines Landes auf dem Ast blieb, während andere fielen &ndash; und der bis heute als Symbol dafür steht, dass ein einzelner Mensch, der sich weigert nachzugeben, den Lauf der Geschichte verändern kann.</p>
+          <p class="vb-intro">1953 erhielt er den Literaturnobelpreis für sein historisches und biografisches Gesamtwerk, darunter seine sechsbändige Geschichte des Zweiten Weltkriegs. Er starb 1965 im Alter von 90 Jahren, gefolgt von einem der längsten Staatsbegräbnisse der britischen Geschichte. Der Orang-Utan, der in der dunkelsten Stunde seines Landes auf dem Ast blieb, während andere fielen &ndash; und der bis heute als Symbol dafür steht, dass ein einzelner Mensch, der sich weigert nachzugeben, den Lauf der Geschichte verändern kann.</p>
         </blockquote>
 
       </div>
