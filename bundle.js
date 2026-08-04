@@ -27159,7 +27159,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "404";
+const APP_BUILD = "405";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -39364,7 +39364,7 @@ function shakiraPortraitPage() {
 
         <h2 class="vb-section">3. Der Achterfl\u00fcgel: Kontrolle \u00fcber das eigene Werk</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterfl\u00fcgel (w8)</strong> gibt der sexuellen Sieben etwas, das reine Siebener oft fehlt: den Willen, die eigene Intensit\u00e4t nicht dem Zufall zu \u00fcberlassen, sondern selbst zu gestalten und zu verteidigen. Wo die reine SX7 sich treiben lassen k\u00f6nnte, ergreift die SX7w8 die Kontrolle &ndash; \u00fcber die eigene Karriere, das eigene Bild, die eigene Kunst.</p>
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel (w8)</strong> gibt der sexuellen Sieben etwas, das reinen Siebenern oft fehlt: den Willen, die eigene Intensit\u00e4t nicht dem Zufall zu \u00fcberlassen, sondern selbst zu gestalten und zu verteidigen. Wo die reine SX7 sich treiben lassen k\u00f6nnte, ergreift die SX7w8 die Kontrolle &ndash; \u00fcber die eigene Karriere, das eigene Bild, die eigene Kunst.</p>
           <p class="vb-intro">Shakira schreibt und komponiert den Gro\u00dfteil ihrer Songs selbst, seit sie als Teenager ihre ersten Alben ver\u00f6ffentlichte, die kommerziell scheiterten &ndash; und sich weigerte, aufzugeben oder sich von der Plattenfirma ein fremdes Image aufzwingen zu lassen. Sie produzierte sp\u00e4ter ihre eigenen Alben, k\u00e4mpfte \u00f6ffentlich und erfolgreich gegen die spanischen Steuerbeh\u00f6rden in einem jahrelangen Rechtsstreit um mutma\u00dfliche Steuerhinterziehung, und setzte sich in der m\u00e4nnerdominierten lateinamerikanischen Musikindustrie als eine der m\u00e4chtigsten Produzentinnen durch. Der Achterfl\u00fcgel zeigt sich hier nicht als H\u00e4rte um ihrer selbst willen, sondern als entschlossene Selbstbestimmung: Niemand sonst sollte je \u00fcber ihr Werk bestimmen.</p>
         </blockquote>
 

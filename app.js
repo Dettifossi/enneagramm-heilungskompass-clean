@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "404";
+const APP_BUILD = "405";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -12258,7 +12258,7 @@ function shakiraPortraitPage() {
 
         <h2 class="vb-section">3. Der Achterflügel: Kontrolle über das eigene Werk</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der sexuellen Sieben etwas, das reine Siebener oft fehlt: den Willen, die eigene Intensität nicht dem Zufall zu überlassen, sondern selbst zu gestalten und zu verteidigen. Wo die reine SX7 sich treiben lassen könnte, ergreift die SX7w8 die Kontrolle &ndash; über die eigene Karriere, das eigene Bild, die eigene Kunst.</p>
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der sexuellen Sieben etwas, das reinen Siebenern oft fehlt: den Willen, die eigene Intensität nicht dem Zufall zu überlassen, sondern selbst zu gestalten und zu verteidigen. Wo die reine SX7 sich treiben lassen könnte, ergreift die SX7w8 die Kontrolle &ndash; über die eigene Karriere, das eigene Bild, die eigene Kunst.</p>
           <p class="vb-intro">Shakira schreibt und komponiert den Großteil ihrer Songs selbst, seit sie als Teenager ihre ersten Alben veröffentlichte, die kommerziell scheiterten &ndash; und sich weigerte, aufzugeben oder sich von der Plattenfirma ein fremdes Image aufzwingen zu lassen. Sie produzierte später ihre eigenen Alben, kämpfte öffentlich und erfolgreich gegen die spanischen Steuerbehörden in einem jahrelangen Rechtsstreit um mutmaßliche Steuerhinterziehung, und setzte sich in der männerdominierten lateinamerikanischen Musikindustrie als eine der mächtigsten Produzentinnen durch. Der Achterflügel zeigt sich hier nicht als Härte um ihrer selbst willen, sondern als entschlossene Selbstbestimmung: Niemand sonst sollte je über ihr Werk bestimmen.</p>
         </blockquote>
 
