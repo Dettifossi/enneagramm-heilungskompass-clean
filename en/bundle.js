@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "423";
+const APP_BUILD = "424";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -39770,6 +39770,9 @@ function mineralstoffePage() {
         </article>`;
       }).join("")}
     </section>
+    <div style="max-width:580px;margin:0 auto;padding:0 1rem;">
+      ${bookTip("enneagramm-biochemie", "The nine regulation patterns of the Enneagram, connected with the biochemical mineral salts according to Dr. Schüßler – guidance for therapists, counselors, and interested readers.", "Enneagramm-Biochemie")}
+    </div>
     <p style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:0 1rem 2rem;max-width:580px;margin:0 auto;">For use in therapeutic consultation only. The assignments apply to the core type.</p>
   `);
 }
@@ -39873,6 +39876,9 @@ function bachbluetenPage() {
         </article>`;
       }).join("")}
     </section>
+    <div style="max-width:580px;margin:0 auto;padding:0 1rem;">
+      ${bookTip("enneagramm-bachblueten-therapie", "The nine Enneagram types connected with the Bach flowers according to Dr. Edward Bach – passion and wound flowers from therapeutic practice.", "Enneagramm-Bachblüten-Therapie")}
+    </div>
     <p style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:0 1rem 2rem;max-width:580px;margin:0 auto;">For use in therapeutic consultation only. The assignments apply to the core type.</p>
   `);
 }
