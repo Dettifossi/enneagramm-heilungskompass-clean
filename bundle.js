@@ -23818,6 +23818,7 @@ const registerEntries = [
   { term: "Shakira",                        route: "beruehmte-shakira",                     description: "Portrait: SX7w8 \u00b7 Sexueller Typ 7 \u00b7 S\u00e4ngerin, Songwriterin, T\u00e4nzerin, Produzentin" },
   { term: "Diogenes von Sinope",            route: "beruehmte-diogenes",                    description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Philosoph, Begr\u00fcnder des Kynismus" },
   { term: "Winston Churchill",              route: "beruehmte-winston-churchill",           description: "Portrait: SE8w9 \u00b7 Selbsterhaltender Typ 8 \u00b7 Britischer Staatsmann, Premierminister" },
+  { term: "Indra Nooyi",                    route: "beruehmte-indra-nooyi",                 description: "Portrait: SE8w7 \u00b7 Selbsterhaltender Typ 8 \u00b7 Wirtschaftsf\u00fchrerin, ehem. CEO von PepsiCo" },
   { term: "Alice Schwarzer",               route: "beruehmte-alice-schwarzer",             description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Feministin, EMMA-Gr\u00fcnderin" },
   { term: "Ana de Armas",                  route: "beruehmte-ana-de-armas",                description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, Knives Out" },
   { term: "Angelina Jolie",                route: "beruehmte-angelina-jolie",              description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, UN-Botschafterin" },
@@ -24077,6 +24078,7 @@ const registerEntriesEN = [
   { term: "Shakira", route: "beruehmte-shakira", description: "Portrait: SX7w8 \u00b7 Sexual Type 7 \u00b7 Singer, songwriter, dancer, producer" },
   { term: "Diogenes of Sinope", route: "beruehmte-diogenes", description: "Portrait: SX8w7 \u00b7 Sexual Type 8 \u00b7 Philosopher, founder of Cynicism" },
   { term: "Winston Churchill", route: "beruehmte-winston-churchill", description: "Portrait: SE8w9 \u00b7 Self-Preservation Type 8 \u00b7 British statesman, Prime Minister" },
+  { term: "Indra Nooyi", route: "beruehmte-indra-nooyi", description: "Portrait: SE8w7 \u00b7 Self-Preservation Type 8 \u00b7 Business leader, former CEO of PepsiCo" },
   { term: "Alice Schwarzer", route: "beruehmte-alice-schwarzer", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Feminist, EMMA founder" },
   { term: "Ana de Armas", route: "beruehmte-ana-de-armas", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, Knives Out" },
   { term: "Angelina Jolie", route: "beruehmte-angelina-jolie", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, UN Ambassador" },
@@ -27163,7 +27165,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "412";
+const APP_BUILD = "413";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -27787,6 +27789,10 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-jacqueline-mars", name:"Jacqueline Mars", added:"2026-07-22", subtyp:"SE8w7",
     heading:"Jacqueline Mars \u2013 Selbsterhaltender Typ 8",
     teaser:"SE8w7 \u00b7 geb. 1939 in Newark. Enkelin des Mars-Gr\u00fcnders, Mitinhaberin von Mars, Incorporated (M&M's, Snickers, Pedigree). \u00dcber 30 Milliarden Dollar Verm\u00f6gen, kein einziges Interview. Der Orang-Utan, der nie gesehen werden muss \u2013 und genau das seit Jahrzehnten perfektioniert.",
+    tags:["Wirtschaft"], gender:"f"},
+  { route:"beruehmte-indra-nooyi", name:"Indra Nooyi", added:"2026-08-04", subtyp:"SE8w7",
+    heading:"Indra Nooyi \u2013 Selbsterhaltender Typ 8",
+    teaser:"SE8w7 \u00b7 geb. 1955 in Chennai, Indien. Wirtschaftsf\u00fchrerin, CEO von PepsiCo 2006\u20132018. Eine der m\u00e4chtigsten Frauen der globalen Wirtschaft. Der Orang-Utan, der ein Weltkonzern-Territorium neu verma\u00df \u2013 mit Weitsicht, H\u00e4rte und unersch\u00fctterlicher Zielstrebigkeit.",
     tags:["Wirtschaft"], gender:"f"},
   { route:"beruehmte-toni-morrison", name:"Toni Morrison", subtyp:"SE8w9",
     heading:"Toni Morrison \u2013 Selbsterhaltende Typ 8",
@@ -39654,6 +39660,70 @@ function jacquelineMarsPortraitPage() {
   `);
 }
 
+
+function indraNooyiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-indra-nooyi-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Indra Nooyi</p>
+        <p class="krim-portrait-typ">SE8w7 &middot; Selbsterhaltender Typ 8 mit Siebenerfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Wirtschaftsf\u00fchrerin, CEO von PepsiCo 2006&ndash;2018, geb. 1955 in Chennai, Indien &ndash; Tierentsprechung: Orang-Utan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Orang-Utan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier des selbsterhaltenden Typs 8 &ndash; massig, geerdet, mit einer Kraft, die kein Publikum braucht, um real zu sein. Er baut sein Territorium in aller Ruhe, Ast f\u00fcr Ast, und wenn er fertig ist, thront er dar\u00fcber, ohne dass jemand ihm das streitig machen k\u00f6nnte. Er ist kein lauter K\u00e4mpfer &ndash; er ist einfach unbeweglich, sobald er sich niedergelassen hat.</p>
+          <p class="vb-intro">Indra Nooyi, geboren 1955 in Chennai, Indien, kam 1978 mit wenig mehr als 500 Dollar in der Tasche in die USA, um an der Yale School of Management zu studieren. Achtundzwanzig Jahre sp\u00e4ter f\u00fchrte sie als Vorstandsvorsitzende einen der gr\u00f6\u00dften Lebensmittelkonzerne der Welt. Kein Zufall, keine Gunst des Schicksals &ndash; sondern das systematische, geduldige Errichten eines Territoriums, Ebene um Ebene, bis niemand mehr daran zweifelte, wer oben sitzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Acht: Satisfaktion durch Aufbau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> dr\u00fcckt die Leidenschaft der Acht &ndash; die <em>Wollust</em>, den Hunger nach voller Intensit\u00e4t &ndash; durch Ressourcensicherung, Kontrolle \u00fcber das eigene Territorium und beharrliche Selbstbehauptung aus. Naranjo nannte diesen Subtyp <em>Satisfacci\u00f3n</em>. Die SE8 baut sich Strukturen, die tragen &ndash; nicht f\u00fcr den Moment, sondern auf Dauer.</p>
+          <p class="vb-intro">Nooyi arbeitete sich \u00fcber zwei Jahrzehnte durch PepsiCo hindurch, bevor sie 2006 CEO wurde: Strategieabteilung, \u00dcbernahmen, die Aufspaltung des Tricon-Fastfood-Gesch\u00e4fts (KFC, Pizza Hut, Taco Bell), die milliardenschwere \u00dcbernahme von Tropicana und Quaker Oats. Jede dieser Entscheidungen war eine SE8-Bewegung: Territorium sichern, diversifizieren, Abh\u00e4ngigkeiten reduzieren. Sie handelte nie impulsiv &ndash; sie handelte, wenn die Basis stand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerfl\u00fcgel: Weitsicht und Expansionslust</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerfl\u00fcgel</strong> verleiht der selbsterhaltenden Acht eine Qualit\u00e4t, die die reine SE8 nicht automatisch mitbringt: den Blick nach vorn, die Lust am Neuen, die Bereitschaft, ganze Gesch\u00e4ftsfelder neu zu denken, statt nur das Bestehende zu verteidigen. Die SE8w7 verwaltet nicht nur ihr Territorium &ndash; sie erweitert es, mit einer Energie, die fast unternehmerisch-jugendlich wirkt.</p>
+          <p class="vb-intro">Nooyi pr\u00e4gte bei PepsiCo die Strategie \u201ePerformance with Purpose" &ndash; die bewusste Verschiebung des Portfolios weg von reinen Zucker- und Fettprodukten hin zu ges\u00fcnderen Alternativen, verbunden mit Nachhaltigkeitszielen bei Wasser, Verpackung und Ern\u00e4hrung. Das war kein Marketing-Trick, sondern eine strategische Neuausrichtung eines gesamten Weltkonzerns \u00fcber ein Jahrzehnt hinweg &ndash; eine Vision, die weit \u00fcber das Quartalsergebnis hinausblickte. Genau das ist der Siebenerfl\u00fcgel: das Territorium nicht nur zu halten, sondern es neu zu vermessen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Zw\u00f6lf Jahre an der Spitze von PepsiCo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als CEO von PepsiCo (2006&ndash;2018) f\u00fchrte Nooyi einen Konzern mit \u00fcber 260.000 Mitarbeitern und einem Jahresumsatz von zuletzt \u00fcber 63 Milliarden Dollar. Sie war \u00fcber Jahre hinweg regelm\u00e4\u00dfig unter den m\u00e4chtigsten Frauen der Welt gelistet (Forbes, Fortune). Unter ihrer F\u00fchrung stieg der Aktienkurs des Unternehmens deutlich, w\u00e4hrend sie gleichzeitig das Portfolio radikal diversifizierte und den Konzern strategisch f\u00fcr Jahrzehnte neu ausrichtete.</p>
+          <p class="vb-intro">Sie f\u00fchrte zugleich mit einer pers\u00f6nlichen Geste, die zur Legende wurde: Nooyi schrieb handschriftliche Briefe an die Eltern ihrer Top-Manager, um ihnen zu danken, ihre Kinder gro\u00dfgezogen zu haben. Keine Widerspr\u00fcchlichkeit zur SE8w7 &ndash; im Gegenteil: Territorium sichern hei\u00dft auch, die Menschen zu binden, die es tragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE8w7 ist ihre <strong>langfristige Weitsicht gepaart mit Durchsetzungskraft</strong>. Nooyi traf unpopul\u00e4re strategische Entscheidungen &ndash; etwa die Investition in ges\u00fcndere Produkte, als der Markt noch auf Zucker und Fett setzte &ndash; und hielt an ihnen fest, auch gegen den Widerstand von Analysten, die kurzfristige Gewinne forderten. Das ist die SE8 in ihrer reifsten Form: Sicherheit nicht f\u00fcr das n\u00e4chste Quartal, sondern f\u00fcr die n\u00e4chste Generation.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einer H\u00e4rte, die von Mitarbeitern und Analysten zuweilen als unnachgiebig, distanziert oder \u00fcberm\u00e4\u00dfig kontrollierend beschrieben wurde. Als aktivistische Investoren 2012 forderten, das Snackgesch\u00e4ft von PepsiCo abzuspalten, verteidigte Nooyi ihr Territorium mit aller Konsequenz &ndash; und setzte sich durch, aber nicht ohne \u00f6ffentlichen Machtkampf. Die selbsterhaltende Acht gibt ihr Territorium nicht freiwillig ab, selbst wenn andere gute Argumente daf\u00fcr vorbringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Orang-Utan, der ein Weltunternehmen neu verma\u00df</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Acht f\u00fchrt von der Wollust zur Unschuld &ndash; von der zwanghaften Kontrolle \u00fcber das eigene Territorium zu einer Kraft, die auch loslassen und vertrauen kann. Nooyi trat 2018 geordnet und auf eigenen Wunsch zur\u00fcck, \u00fcbergab die F\u00fchrung an einen von ihr selbst mit aufgebauten Nachfolger und wandte sich seither Mentoring, Aufsichtsratsmandaten (u. a. Amazon, Philips) und ihrem Buch <em>My Life in Full</em> zu, in dem sie offen \u00fcber die Spannung zwischen Karriere und Mutterschaft schrieb.</p>
+          <p class="vb-intro">Von einer jungen Einwanderin mit 500 Dollar in der Tasche zu einer der einflussreichsten Wirtschaftsf\u00fchrerinnen der Welt: Das ist der Orang-Utan, der sein Territorium nicht geerbt, sondern selbst errichtet hat &ndash; Ast f\u00fcr Ast, Entscheidung f\u00fcr Entscheidung, bis der Baum trug, was er tragen sollte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se8", label:"SE8 \u2013 Der Orang-Utan: Subtyp-Profil"},
+        {route:"beruehmte-jacqueline-mars", label:"Portr\u00e4t: Jacqueline Mars (SE8w7)"},
+      ])}
+    </div>
+  `);
+}
 
 function umbertEcoPortraitPage() {
   return shell(`
@@ -72836,6 +72906,7 @@ function render() {
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
+          "beruehmte-indra-nooyi": indraNooyiPortraitPage,
     "beruehmte-umberto-eco": umbertEcoPortraitPage,
           "beruehmte-golda-meir": goldaMeirPortraitPage,
           "beruehmte-winston-churchill": winstonChurchillPortraitPage,

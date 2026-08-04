@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "412";
+const APP_BUILD = "413";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -677,6 +677,10 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-jacqueline-mars", name:"Jacqueline Mars", added:"2026-07-22", subtyp:"SE8w7",
     heading:"Jacqueline Mars – Selbsterhaltender Typ 8",
     teaser:"SE8w7 · geb. 1939 in Newark. Enkelin des Mars-Gründers, Mitinhaberin von Mars, Incorporated (M&M's, Snickers, Pedigree). Über 30 Milliarden Dollar Vermögen, kein einziges Interview. Der Orang-Utan, der nie gesehen werden muss – und genau das seit Jahrzehnten perfektioniert.",
+    tags:["Wirtschaft"], gender:"f"},
+  { route:"beruehmte-indra-nooyi", name:"Indra Nooyi", added:"2026-08-04", subtyp:"SE8w7",
+    heading:"Indra Nooyi – Selbsterhaltender Typ 8",
+    teaser:"SE8w7 · geb. 1955 in Chennai, Indien. Wirtschaftsführerin, CEO von PepsiCo 2006–2018. Eine der mächtigsten Frauen der globalen Wirtschaft. Der Orang-Utan, der ein Weltkonzern-Territorium neu vermaß – mit Weitsicht, Härte und unerschütterlicher Zielstrebigkeit.",
     tags:["Wirtschaft"], gender:"f"},
   { route:"beruehmte-toni-morrison", name:"Toni Morrison", subtyp:"SE8w9",
     heading:"Toni Morrison – Selbsterhaltende Typ 8",
@@ -12544,6 +12548,70 @@ function jacquelineMarsPortraitPage() {
   `);
 }
 
+
+function indraNooyiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-indra-nooyi-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Indra Nooyi</p>
+        <p class="krim-portrait-typ">SE8w7 &middot; Selbsterhaltender Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Wirtschaftsführerin, CEO von PepsiCo 2006&ndash;2018, geb. 1955 in Chennai, Indien &ndash; Tierentsprechung: Orang-Utan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Orang-Utan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier des selbsterhaltenden Typs 8 &ndash; massig, geerdet, mit einer Kraft, die kein Publikum braucht, um real zu sein. Er baut sein Territorium in aller Ruhe, Ast für Ast, und wenn er fertig ist, thront er darüber, ohne dass jemand ihm das streitig machen könnte. Er ist kein lauter Kämpfer &ndash; er ist einfach unbeweglich, sobald er sich niedergelassen hat.</p>
+          <p class="vb-intro">Indra Nooyi, geboren 1955 in Chennai, Indien, kam 1978 mit wenig mehr als 500 Dollar in der Tasche in die USA, um an der Yale School of Management zu studieren. Achtundzwanzig Jahre später führte sie als Vorstandsvorsitzende einen der größten Lebensmittelkonzerne der Welt. Kein Zufall, keine Gunst des Schicksals &ndash; sondern das systematische, geduldige Errichten eines Territoriums, Ebene um Ebene, bis niemand mehr daran zweifelte, wer oben sitzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Acht: Satisfaktion durch Aufbau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> drückt die Leidenschaft der Acht &ndash; die <em>Wollust</em>, den Hunger nach voller Intensität &ndash; durch Ressourcensicherung, Kontrolle über das eigene Territorium und beharrliche Selbstbehauptung aus. Naranjo nannte diesen Subtyp <em>Satisfacción</em>. Die SE8 baut sich Strukturen, die tragen &ndash; nicht für den Moment, sondern auf Dauer.</p>
+          <p class="vb-intro">Nooyi arbeitete sich über zwei Jahrzehnte durch PepsiCo hindurch, bevor sie 2006 CEO wurde: Strategieabteilung, Übernahmen, die Aufspaltung des Tricon-Fastfood-Geschäfts (KFC, Pizza Hut, Taco Bell), die milliardenschwere Übernahme von Tropicana und Quaker Oats. Jede dieser Entscheidungen war eine SE8-Bewegung: Territorium sichern, diversifizieren, Abhängigkeiten reduzieren. Sie handelte nie impulsiv &ndash; sie handelte, wenn die Basis stand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Weitsicht und Expansionslust</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> verleiht der selbsterhaltenden Acht eine Qualität, die die reine SE8 nicht automatisch mitbringt: den Blick nach vorn, die Lust am Neuen, die Bereitschaft, ganze Geschäftsfelder neu zu denken, statt nur das Bestehende zu verteidigen. Die SE8w7 verwaltet nicht nur ihr Territorium &ndash; sie erweitert es, mit einer Energie, die fast unternehmerisch-jugendlich wirkt.</p>
+          <p class="vb-intro">Nooyi prägte bei PepsiCo die Strategie „Performance with Purpose" &ndash; die bewusste Verschiebung des Portfolios weg von reinen Zucker- und Fettprodukten hin zu gesünderen Alternativen, verbunden mit Nachhaltigkeitszielen bei Wasser, Verpackung und Ernährung. Das war kein Marketing-Trick, sondern eine strategische Neuausrichtung eines gesamten Weltkonzerns über ein Jahrzehnt hinweg &ndash; eine Vision, die weit über das Quartalsergebnis hinausblickte. Genau das ist der Siebenerflügel: das Territorium nicht nur zu halten, sondern es neu zu vermessen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Zwölf Jahre an der Spitze von PepsiCo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als CEO von PepsiCo (2006&ndash;2018) führte Nooyi einen Konzern mit über 260.000 Mitarbeitern und einem Jahresumsatz von zuletzt über 63 Milliarden Dollar. Sie war über Jahre hinweg regelmäßig unter den mächtigsten Frauen der Welt gelistet (Forbes, Fortune). Unter ihrer Führung stieg der Aktienkurs des Unternehmens deutlich, während sie gleichzeitig das Portfolio radikal diversifizierte und den Konzern strategisch für Jahrzehnte neu ausrichtete.</p>
+          <p class="vb-intro">Sie führte zugleich mit einer persönlichen Geste, die zur Legende wurde: Nooyi schrieb handschriftliche Briefe an die Eltern ihrer Top-Manager, um ihnen zu danken, ihre Kinder großgezogen zu haben. Keine Widersprüchlichkeit zur SE8w7 &ndash; im Gegenteil: Territorium sichern heißt auch, die Menschen zu binden, die es tragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE8w7 ist ihre <strong>langfristige Weitsicht gepaart mit Durchsetzungskraft</strong>. Nooyi traf unpopuläre strategische Entscheidungen &ndash; etwa die Investition in gesündere Produkte, als der Markt noch auf Zucker und Fett setzte &ndash; und hielt an ihnen fest, auch gegen den Widerstand von Analysten, die kurzfristige Gewinne forderten. Das ist die SE8 in ihrer reifsten Form: Sicherheit nicht für das nächste Quartal, sondern für die nächste Generation.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einer Härte, die von Mitarbeitern und Analysten zuweilen als unnachgiebig, distanziert oder übermäßig kontrollierend beschrieben wurde. Als aktivistische Investoren 2012 forderten, das Snackgeschäft von PepsiCo abzuspalten, verteidigte Nooyi ihr Territorium mit aller Konsequenz &ndash; und setzte sich durch, aber nicht ohne öffentlichen Machtkampf. Die selbsterhaltende Acht gibt ihr Territorium nicht freiwillig ab, selbst wenn andere gute Argumente dafür vorbringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Orang-Utan, der ein Weltunternehmen neu vermaß</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Acht führt von der Wollust zur Unschuld &ndash; von der zwanghaften Kontrolle über das eigene Territorium zu einer Kraft, die auch loslassen und vertrauen kann. Nooyi trat 2018 geordnet und auf eigenen Wunsch zurück, übergab die Führung an einen von ihr selbst mit aufgebauten Nachfolger und wandte sich seither Mentoring, Aufsichtsratsmandaten (u. a. Amazon, Philips) und ihrem Buch <em>My Life in Full</em> zu, in dem sie offen über die Spannung zwischen Karriere und Mutterschaft schrieb.</p>
+          <p class="vb-intro">Von einer jungen Einwanderin mit 500 Dollar in der Tasche zu einer der einflussreichsten Wirtschaftsführerinnen der Welt: Das ist der Orang-Utan, der sein Territorium nicht geerbt, sondern selbst errichtet hat &ndash; Ast für Ast, Entscheidung für Entscheidung, bis der Baum trug, was er tragen sollte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+        {route:"beruehmte-jacqueline-mars", label:"Porträt: Jacqueline Mars (SE8w7)"},
+      ])}
+    </div>
+  `);
+}
 
 function umbertEcoPortraitPage() {
   return shell(`
@@ -45726,6 +45794,7 @@ function render() {
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
+          "beruehmte-indra-nooyi": indraNooyiPortraitPage,
     "beruehmte-umberto-eco": umbertEcoPortraitPage,
           "beruehmte-golda-meir": goldaMeirPortraitPage,
           "beruehmte-winston-churchill": winstonChurchillPortraitPage,

@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "406";
+const APP_BUILD = "407";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -612,6 +612,10 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-jacqueline-mars", name:"Jacqueline Mars", added:"2026-07-22", subtyp:"SE8w7",
     heading:"Jacqueline Mars – Self-Preservation Type 8",
     teaser:"SE8w7 · born 1939 in Newark. Granddaughter of Mars founder, co-owner of Mars, Incorporated (M&M's, Snickers, Pedigree). Over $30 billion in assets, not a single interview. The orangutan that never needs to be seen - and has been perfecting exactly that for decades.",
+    tags:["Business"], gender:"f"},
+  { route:"beruehmte-indra-nooyi", name:"Indra Nooyi", added:"2026-08-04", subtyp:"SE8w7",
+    heading:"Indra Nooyi – Self-Preservation Type 8",
+    teaser:"SE8w7 · born 1955 in Chennai, India. Business leader, CEO of PepsiCo 2006–2018. One of the most powerful women in global business. The orangutan that remapped a world corporation's territory – with foresight, toughness and unshakeable resolve.",
     tags:["Business"], gender:"f"},
   { route:"beruehmte-jamaica-kincaid", name:"Jamaica Kincaid", added:"2026-07-22", subtyp:"SO8w9",
     heading:"Jamaica Kincaid – Social Type 8",
@@ -15305,6 +15309,70 @@ function jacquelineMarsPortraitPage() {
           {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function indraNooyiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-indra-nooyi-portrait.jpg" alt="Orangutan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Indra Nooyi</p>
+        <p class="krim-portrait-typ">SE8w7 &middot; Self-Preservation Type 8 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Business leader, CEO of PepsiCo 2006&ndash;2018, born 1955 in Chennai, India &ndash; Animal correspondence: Orangutan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Orangutan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Orangutan</strong> is the animal of Self-Preservation Type 8 &ndash; heavy-set, grounded, with a strength that needs no audience to be real. It builds its territory calmly, branch by branch, and once it is done, it sits enthroned above it, unchallenged. It is not a loud fighter &ndash; it is simply immovable once it has settled in.</p>
+          <p class="vb-intro">Indra Nooyi, born 1955 in Chennai, India, arrived in the United States in 1978 with little more than 500 dollars in her pocket to study at the Yale School of Management. Twenty-eight years later, as chairman and CEO, she led one of the largest food and beverage companies in the world. No coincidence, no stroke of luck &ndash; but the systematic, patient construction of a territory, level by level, until no one doubted any longer who sat at the top.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Eight: Satisfaction Through Building</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Eight (SE8)</strong> expresses the passion of the Eight &ndash; <em>Lust</em>, the hunger for full intensity &ndash; through securing resources, controlling its own territory, and persistent self-assertion. Naranjo called this subtype <em>Satisfaction</em>. The SE8 builds structures that hold &ndash; not for the moment, but for the long term.</p>
+          <p class="vb-intro">Nooyi worked her way through PepsiCo for two decades before becoming CEO in 2006: strategy department, acquisitions, the spin-off of the Tricon fast-food business (KFC, Pizza Hut, Taco Bell), the multi-billion-dollar acquisitions of Tropicana and Quaker Oats. Every one of these decisions was an SE8 move: secure territory, diversify, reduce dependencies. She never acted impulsively &ndash; she acted once the foundation was solid.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Foresight and the Drive to Expand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the Self-Preservation Eight a quality the pure SE8 does not automatically carry: the forward-looking gaze, the appetite for the new, the willingness to rethink entire business lines rather than merely defend what already exists. The SE8w7 does not just manage its territory &ndash; it expands it, with an energy that feels almost youthfully entrepreneurial.</p>
+          <p class="vb-intro">At PepsiCo, Nooyi shaped the strategy known as “Performance with Purpose” &ndash; the deliberate shift of the portfolio away from purely sugar- and fat-heavy products toward healthier alternatives, paired with sustainability goals around water, packaging, and nutrition. This was not a marketing gimmick, but the strategic realignment of an entire global corporation over the course of a decade &ndash; a vision that looked far beyond the next quarterly report. That is exactly the Seven-wing: not just holding the territory, but remapping it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Twelve Years at the Helm of PepsiCo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As CEO of PepsiCo (2006&ndash;2018), Nooyi led a corporation with more than 260,000 employees and annual revenue that most recently exceeded 63 billion dollars. For years she was regularly ranked among the most powerful women in the world (Forbes, Fortune). Under her leadership, the company's stock price rose significantly, even as she radically diversified the portfolio and strategically repositioned the corporation for decades to come.</p>
+          <p class="vb-intro">She led, too, with a personal gesture that became legendary: Nooyi wrote handwritten letters to the parents of her top executives, thanking them for raising their children. No contradiction to the SE8w7 &ndash; quite the opposite: securing territory also means binding to it the people who carry it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE8w7 is its <strong>long-term foresight paired with assertiveness</strong>. Nooyi made unpopular strategic decisions &ndash; such as investing in healthier products while the market still rewarded sugar and fat &ndash; and held to them, even against analysts demanding short-term gains. That is the SE8 in its most mature form: securing safety not for the next quarter, but for the next generation.</p>
+          <p class="vb-intro">The shadow shows in a toughness that employees and analysts sometimes described as unyielding, distant, or excessively controlling. When activist investors in 2012 demanded that PepsiCo spin off its snack business, Nooyi defended her territory with total resolve &ndash; and prevailed, though not without a public power struggle. The Self-Preservation Eight does not voluntarily surrender its territory, even when others raise good arguments for it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Orangutan Who Remapped a World Corporation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Eight leads from lust to innocence &ndash; from compulsive control over one's own territory to a strength that can also let go and trust. Nooyi stepped down in orderly fashion and by her own choice in 2018, handing leadership to a successor she had helped develop, and turned since then to mentoring, board roles (including Amazon and Philips), and her book <em>My Life in Full</em>, in which she wrote openly about the tension between career and motherhood.</p>
+          <p class="vb-intro">From a young immigrant with 500 dollars in her pocket to one of the most influential business leaders in the world: that is the orangutan that did not inherit its territory, but built it &ndash; branch by branch, decision by decision, until the tree could carry what it was meant to carry.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-jacqueline-mars", label:"Portrait: Jacqueline Mars (SE8w7)"},
+      ])}
     </div>
   `);
 }
@@ -42881,6 +42949,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-guenther-jauch": guentherJauchPortraitPage,
       "beruehmte-iga-swiatek": igaSwiatekPortraitPage,
       "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
+      "beruehmte-indra-nooyi": indraNooyiPortraitPage,
       "beruehmte-jamaica-kincaid": jamaicaKincaidPortraitPage,
       "beruehmte-james-levine": jamesLevinePortraitPage,
       "beruehmte-jamie-lee-curtis": jamieleecurtisPortraitPage,
