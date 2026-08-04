@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "425";
+const APP_BUILD = "426";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -14028,7 +14028,7 @@ function julianAssangePortraitPage() {
 
         <h2 class="vb-section">1. Der Büffel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier des sozialen Typs 9 &ndash; ein Tier, das sich nicht durch Alleingang, sondern durch das Eingebundensein in eine größere Sache definiert. Er senkt den Kopf und geht durch, was ihm im Weg steht, ohne sich um Ansehen oder Applaus zu kümmern. Er kämpft nicht für sich selbst &ndash; er kämpft für etwas, das größer ist als das eigene Überleben.</p>
+          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier des sozialen Typs 9 &ndash; ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine größere Sache definiert. Er senkt den Kopf und geht hindurch durch das, was ihm im Weg steht, ohne sich um Ansehen oder Applaus zu kümmern. Er kämpft nicht für sich selbst &ndash; er kämpft für etwas, das größer ist als das eigene Überleben.</p>
           <p class="vb-intro">Julian Assange, 1971 in Townsville, Australien, geboren, ist dieser Büffel: kein Redner, der Menschenmengen mitreißt, sondern ein Programmierer und Aktivist, der glaubte, dass die Wahrheit selbst das mächtigste Werkzeug sei. Mit der Gründung von WikiLeaks 2006 begann er, eine Plattform zu bauen, die geheime Dokumente von Regierungen und Konzernen der Weltöffentlichkeit zugänglich machen sollte &ndash; ohne Rücksicht darauf, wer dabei bloßgestellt wurde.</p>
         </blockquote>
 

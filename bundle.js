@@ -27177,7 +27177,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "425";
+const APP_BUILD = "426";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -41152,7 +41152,7 @@ function julianAssangePortraitPage() {
 
         <h2 class="vb-section">1. Der B\u00fcffel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>B\u00fcffel</strong> ist das Tier des sozialen Typs 9 &ndash; ein Tier, das sich nicht durch Alleingang, sondern durch das Eingebundensein in eine gr\u00f6\u00dfere Sache definiert. Er senkt den Kopf und geht durch, was ihm im Weg steht, ohne sich um Ansehen oder Applaus zu k\u00fcmmern. Er k\u00e4mpft nicht f\u00fcr sich selbst &ndash; er k\u00e4mpft f\u00fcr etwas, das gr\u00f6\u00dfer ist als das eigene \u00dcberleben.</p>
+          <p class="vb-intro">Der <strong>B\u00fcffel</strong> ist das Tier des sozialen Typs 9 &ndash; ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine gr\u00f6\u00dfere Sache definiert. Er senkt den Kopf und geht hindurch durch das, was ihm im Weg steht, ohne sich um Ansehen oder Applaus zu k\u00fcmmern. Er k\u00e4mpft nicht f\u00fcr sich selbst &ndash; er k\u00e4mpft f\u00fcr etwas, das gr\u00f6\u00dfer ist als das eigene \u00dcberleben.</p>
           <p class="vb-intro">Julian Assange, 1971 in Townsville, Australien, geboren, ist dieser B\u00fcffel: kein Redner, der Menschenmengen mitrei\u00dft, sondern ein Programmierer und Aktivist, der glaubte, dass die Wahrheit selbst das m\u00e4chtigste Werkzeug sei. Mit der Gr\u00fcndung von WikiLeaks 2006 begann er, eine Plattform zu bauen, die geheime Dokumente von Regierungen und Konzernen der Welt\u00f6ffentlichkeit zug\u00e4nglich machen sollte &ndash; ohne R\u00fccksicht darauf, wer dabei blo\u00dfgestellt wurde.</p>
         </blockquote>
 
