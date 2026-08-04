@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "423";
+const APP_BUILD = "424";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -762,6 +762,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hans-Dietrich Genscher – Selbsterhaltender Typ 9",
     teaser:"SE9w8 · 1927–2016. Außenminister und Vizekanzler der Bundesrepublik Deutschland (1974–1992). 23 Jahre prägende außenpolitische Kraft, Architekt der deutschen Einheit, Brückenbauer zwischen Ost und West. Der Elefant, der nicht vergisst – und nie aufhört zu verhandeln. Tierentsprechung: Elefant.",
     tags:["Politik"] , gender:"m"},
+  { route:"beruehmte-abida-parveen", name:"Abida Parveen", added:"2026-08-04", subtyp:"SE9w8",
+    heading:"Abida Parveen – Selbsterhaltender Typ 9",
+    teaser:"SE9w8 · geb. 1954 in Larkana, Pakistan. Sängerin, „Königin des Sufi-Gesangs“, bekannteste Interpretin des Kalam und Qawwali. Der Elefant, der in Trance versinkt und dabei ganze Konzertsäle mit sich reißt – Ruhe, die zur Ekstase wird.",
+    tags:["Musik","Spiritualität"], gender:"f"},
   { route:"beruehmte-kevin-costner", name:"Kevin Costner", added:"2026-07-22", subtyp:"SO9w1",
     heading:"Kevin Costner – Sozialer Typ 9",
     teaser:"SO9w1 · geb. 1955. Schauspieler und Regisseur. Dances with Wolves, Field of Dreams, Yellowstone. Der Büffel, der nicht für sich kämpft – sondern für etwas, das größer ist als er selbst.",
@@ -13744,6 +13748,70 @@ function hansDietrichGenscherPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-baerbel-bas", label:"Porträt: Bärbel Bas (SE9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function abidaParveenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-abida-parveen-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Abida Parveen</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin, „Königin des Sufi-Gesangs", geb. 1954 in Larkana, Pakistan &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des Typs 9 &ndash; ein Wesen von enormer Masse, das sich nicht beeilen muss, um Eindruck zu machen. Er bewegt sich in seinem eigenen Rhythmus, geduldig, unerschütterlich, und wenn er sich einmal in Bewegung setzt, folgt ihm alles um ihn herum. Seine Kraft liegt nicht im Angriff, sondern im schieren Gewicht seiner Präsenz.</p>
+          <p class="vb-intro">Abida Parveen, geboren 1954 in Larkana, Pakistan, ist dieser Elefant auf der Bühne. Wenn sie in einem farbenprächtigen Gewand auf die Bühne tritt und die Augen schließt, geschieht zunächst wenig &ndash; keine Show, keine Choreografie, kein Spektakel. Und doch versinkt der gesamte Konzertsaal binnen Minuten in eine kollektive Trance, mitgezogen von einer Stimme, die keine Eile kennt und genau deshalb alles mit sich reißt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit auf Verschmelzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nannte Naranjo <em>Appetit</em>: Frieden durch Beharrlichkeit, durch das vollständige Einlassen auf den gegenwärtigen Moment, durch Sicherheit im Bestehenden statt im Streben nach Neuem. Sie sucht nicht die Bühne der Selbstdarstellung, sondern das stille Verschmelzen mit etwas Größerem als sich selbst.</p>
+          <p class="vb-intro">Parveen wuchs in einer Familie von Sufi-Musikern auf und wurde von ihrem Vater ausgebildet, obwohl es zu ihrer Zeit unüblich war, Töchter zur Sängerin auszubilden &ndash; Söhne wurden bevorzugt. Sie folgte dennoch beharrlich diesem einen Weg, jahrzehntelang, ohne öffentliche Rebellion, ohne lautes Auflehnen gegen die Konvention. Die SE9 verändert die Welt nicht durch Kampf, sondern durch die stille, unbeirrbare Fortsetzung dessen, was sie als ihre Aufgabe erkannt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Die Kraft in der Hingabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> verleiht der selbsterhaltenden Neun eine Intensität, die der reinen Neun fehlt: eine körperliche, fast überwältigende Kraft, die sich Bahn bricht, sobald der Moment reif ist. Die <strong>SE9w8</strong> ist keine zurückhaltende Neun &ndash; sie kann, wenn sie sich öffnet, mit einer Wucht auftreten, die niemand erwartet hätte.</p>
+          <p class="vb-intro">Genau das geschieht bei Parveens Auftritten: Was als ruhige, meditative Anrufung beginnt, steigert sich unaufhaltsam in eine ekstatische, körperlich spürbare Intensität &ndash; ihre Stimme kann von einem flüsternden Gebet zu einem durchdringenden Schrei anschwellen, der ganze Konzerthallen in Bewegung versetzt. Der Achterflügel ist die Kraft, die aus der Hingabe der Neun eine Naturgewalt macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Kalam, Qawwali und die Botschaft der Sufis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Abida Parveen gilt weithin als bedeutendste lebende Interpretin des Kalam &ndash; der mystischen Sufi-Poesie von Dichtern wie Bulleh Shah, Shah Hussain und Rumi &ndash; sowie des Qawwali, der traditionellen Sufi-Devotionalmusik. Sie singt in Sindhi, Urdu, Punjabi, Persisch und Saraiki und hat über Jahrzehnte hinweg Konzertsäle von Pakistan über Indien bis nach Europa und Nordamerika gefüllt.</p>
+          <p class="vb-intro">Ihre Musik überschreitet bewusst religiöse und nationale Grenzen: Sie tritt sowohl vor muslimischem als auch vor hinduistischem Publikum auf, wird in Pakistan wie in Indien gleichermaßen verehrt, und ihre Botschaft der göttlichen Liebe (Ishq) kennt keine konfessionellen Schranken. 2012 wurde sie mit dem UNESCO-Preis für Musik ausgezeichnet, in Pakistan trägt sie den höchsten zivilen Verdienstorden, den Hilal-e-Imtiaz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE9w8 ist ihre <strong>Fähigkeit, in völliger Hingabe eine Kraft zu entfalten, die weit über die eigene Person hinausreicht</strong>. Parveen wird von Millionen Menschen verehrt, weil sie nicht sich selbst inszeniert, sondern zum Gefäß für etwas wird, das größer ist als sie &ndash; die mystische Sehnsucht des Sufismus nach Vereinigung mit dem Göttlichen.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einer Trägheit, die den eigenen künstlerischen Fortschritt bremsen kann: Parveen hat über Jahrzehnte im Wesentlichen an derselben Form festgehalten, ohne sich musikalisch grundlegend zu verändern oder zu experimentieren. Die selbsterhaltende Neun kann in ihrer Beharrlichkeit so tief in einer bewährten Form verankert sein, dass Weiterentwicklung dahinter zurücktritt &ndash; ein Preis, den auch eine Meisterschaft zahlen kann, die zur Gewohnheit wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Elefant, der in Trance versinkt und alle mitreißt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Neun führt von der Trägheit zu echter, aktiver Präsenz &ndash; von der Selbstvergessenheit im Alltäglichen zu einem bewussten Aufgehen in etwas, das größer ist als das eigene Ich. Bei Abida Parveen ist genau dieser Weg zum künstlerischen Prinzip geworden: Sie vergisst sich selbst auf der Bühne nicht aus Passivität, sondern aus einer geübten, jahrzehntelang vertieften spirituellen Hingabe.</p>
+          <p class="vb-intro">Wenn Parveen singt, verschwindet die Grenze zwischen Performerin und Publikum, zwischen Diesseits und dem, wovon die Sufi-Dichter sprachen. Das ist die SE9w8 in ihrer reifsten Form: der Elefant, der scheinbar bewegungslos in sich selbst versinkt &ndash; und genau dadurch alle mit sich in Bewegung setzt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
       ])}
     </div>
   `);
@@ -46088,6 +46156,7 @@ function render() {
           "beruehmte-eli-jaxon-bear": eliJaxonBearPortraitPage,
           "beruehmte-angela-merkel": angelaMerkelPortraitPage,
     "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
+          "beruehmte-abida-parveen": abidaParveenPortraitPage,
           "beruehmte-kevin-costner": kevinCostnerPortraitPage,
         "beruehmte-iga-swiatek": igaSwiatekPortraitPage,
     "beruehmte-steffi-graf": steffiGrafPortraitPage,

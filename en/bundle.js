@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "414";
+const APP_BUILD = "415";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -520,6 +520,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hans-Dietrich Genscher – Self-Preservation Type 9",
     teaser:"SP9w8 · 1927–2016. Foreign Minister and Vice Chancellor of West Germany (1974–1992). 23 years of formative foreign policy, architect of German reunification, bridge-builder between East and West. The elephant that never forgets – and never stops negotiating. Animal correspondence: Elephant.",
     tags:["Politik"] },
+  { route:"beruehmte-abida-parveen", name:"Abida Parveen", added:"2026-08-04", subtyp:"SE9w8",
+    heading:"Abida Parveen – Self-Preservation Type 9",
+    teaser:"SP9w8 · born 1954 in Larkana, Pakistan. Singer, “Queen of Sufi Music”, foremost living interpreter of Kalam and Qawwali. The elephant that sinks into trance and sweeps entire concert halls along with her – stillness turning into ecstasy.",
+    tags:["Musik","Spiritualität"], gender:"f"},
   { route:"beruehmte-steffi-graf", name:"Steffi Graf", subtyp:"SO9w1",
     heading:"Steffi Graf – Social Type 9",
     teaser:"SO9w1 · born 1969. Tennis player, 22 Grand Slam titles, Golden Slam 1988. The buffalo that simply runs – persistent, grounded, with an inner stillness stronger than any victory celebration. Animal correspondence: Buffalo.",
@@ -21292,6 +21296,70 @@ function hansDietrichGenscherPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
         {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SP9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function abidaParveenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-abida-parveen-portrait.jpg" alt="Elephant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Abida Parveen</p>
+        <p class="krim-portrait-typ">SP9w8 &middot; Self-Preservation Type 9 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Singer, “Queen of Sufi Music”, born 1954 in Larkana, Pakistan &ndash; Animal correspondence: Elephant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Elephant</strong> is the animal of Type 9 &ndash; a creature of enormous mass that does not need to hurry to make an impression. It moves at its own pace, patient, unshakeable, and once it sets itself in motion, everything around it follows. Its power lies not in attack, but in the sheer weight of its presence.</p>
+          <p class="vb-intro">Abida Parveen, born in 1954 in Larkana, Pakistan, is this elephant on stage. When she steps onto the stage in richly coloured robes and closes her eyes, little happens at first &ndash; no show, no choreography, no spectacle. And yet within minutes the entire concert hall sinks into a collective trance, carried along by a voice that knows no hurry and precisely because of that sweeps everything with it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Nine: Appetite for Merging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Nine (SP9)</strong> is what Naranjo called <em>Appetite</em>: peace through persistence, through fully settling into the present moment, through security in what already exists rather than in the pursuit of the new. She does not seek the stage of self-display, but the quiet merging with something larger than herself.</p>
+          <p class="vb-intro">Parveen grew up in a family of Sufi musicians and was trained by her father, even though at the time it was unusual to train daughters as singers &ndash; sons were preferred. Yet she persistently followed this one path, for decades, without public rebellion, without loudly rising up against convention. The SP9 does not change the world through struggle, but through the quiet, unwavering continuation of what she has recognised as her task.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: The Force in Surrender</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Self-Preservation Nine an intensity the pure Nine lacks: a physical, almost overwhelming force that breaks through once the moment is ripe. The <strong>SP9w8</strong> is no reserved Nine &ndash; when she opens herself, she can appear with a force no one would have expected.</p>
+          <p class="vb-intro">This is exactly what happens at Parveen's performances: what begins as a calm, meditative invocation builds unstoppably into an ecstatic, physically palpable intensity &ndash; her voice can swell from a whispered prayer into a piercing cry that sets entire concert halls in motion. The Eight-wing is the force that turns the Nine's surrender into a force of nature.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Kalam, Qawwali, and the Message of the Sufis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Abida Parveen is widely regarded as the most important living interpreter of Kalam &ndash; the mystical Sufi poetry of poets such as Bulleh Shah, Shah Hussain, and Rumi &ndash; as well as of Qawwali, the traditional Sufi devotional music. She sings in Sindhi, Urdu, Punjabi, Persian, and Saraiki, and has filled concert halls for decades, from Pakistan and India to Europe and North America.</p>
+          <p class="vb-intro">Her music deliberately crosses religious and national boundaries: she performs before both Muslim and Hindu audiences, is equally revered in Pakistan and India, and her message of divine love (Ishq) knows no denominational barriers. In 2012 she received the UNESCO Music Prize, and in Pakistan she holds the country's highest civilian award, the Hilal-e-Imtiaz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP9w8 is her <strong>ability to unfold, through total surrender, a force that reaches far beyond her own person</strong>. Parveen is revered by millions not because she stages herself, but because she becomes a vessel for something larger than herself &ndash; the mystical Sufi longing for union with the divine.</p>
+          <p class="vb-intro">The shadow shows in an inertia that can slow her own artistic development: Parveen has essentially held to the same form for decades, without fundamentally changing or experimenting musically. The Self-Preservation Nine can, in her persistence, become so deeply anchored in a proven form that further development recedes behind it &ndash; a price that even a mastery which turns into habit can end up paying.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Elephant That Sinks Into Trance and Carries Everyone Along</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Nine leads from inertia to genuine, active presence &ndash; from self-forgetting in the everyday to a conscious dissolving into something larger than one's own self. In Abida Parveen, exactly this path has become an artistic principle: she does not forget herself on stage out of passivity, but out of a practised, decades-deepened spiritual surrender.</p>
+          <p class="vb-intro">When Parveen sings, the boundary between performer and audience dissolves, as does the boundary between this world and what the Sufi poets spoke of. That is the SP9w8 at its most mature: the elephant that seemingly sinks motionless into itself &ndash; and precisely through that sets everyone else into motion.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
       ])}
     </div>
   `);
@@ -43154,6 +43222,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
       "beruehmte-eli-jaxon-bear": eliJaxonBearPortraitPage,
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
+      "beruehmte-abida-parveen": abidaParveenPortraitPage,
       "beruehmte-steffi-graf": steffiGrafPortraitPage,
       "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
