@@ -30,5 +30,7 @@ jobs:
               "contents": {"en": "Your daily impulse is waiting for you", "de": "Dein Tagesimpuls wartet auf dich"},
               "url": "https://kompass.verlagshausrathmer.com/#dashboard",
               "chrome_web_icon": "https://kompass.verlagshausrathmer.com/apple-touch-icon.png",
-              "isAnyWeb": true
+              "isAnyWeb": true,
+              "delayed_option": "timezone",
+              "delivery_time_of_day": "7:00AM"
             }'
