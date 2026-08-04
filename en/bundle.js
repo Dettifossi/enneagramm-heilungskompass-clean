@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "407";
+const APP_BUILD = "408";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -557,6 +557,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Carsten Stahl – Social Type 8",
     teaser:"SO8w7 · born 1974 in Heidelberg. Martial artist, anti-bullying activist, author. Hundreds of school visits, “Shut up!” The lion who goes to schools &mdash; Strength that is given away.",
     tags:["Aktivismus"], gender:"m"},
+  { route:"beruehmte-cynthia-lummis", name:"Cynthia Lummis", added:"2026-08-04", subtyp:"SO8w7",
+    heading:"Cynthia Lummis – Social Type 8",
+    teaser:"SO8w7 · born 1954 in Cheyenne, Wyoming. US Senator, first female Bitcoin advocate in the US Senate, former Wyoming State Treasurer. The lioness who fights for her pride – uncompromising, direct, and always at the front line.",
+    tags:["Politik"], gender:"f"},
   { route:"beruehmte-dakota-johnson", name:"Dakota Johnson", added:"2026-07-22", subtyp:"SX9w8",
     heading:"Dakota Johnson – Sexual Type 9",
     teaser:"SX9w8 · born 1989. Actress. Fifty Shades, Suspiria, The Prodigal Daughter. Granddaughter of Tippi Hedren, daughter of Melanie Griffith. The sloth that bites – when challenged.",
@@ -14513,6 +14517,71 @@ function carstenStahlPortraitPage() {
           {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function cynthiaLummisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-cynthia-lummis-portrait.jpg" alt="Lion" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Cynthia Lummis</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Social Type 8 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">US Senator, born 1954 in Cheyenne, Wyoming &ndash; Animal correspondence: Lion</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Lioness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Lion</strong> is the animal of Social Type 8 &ndash; a creature that uses its strength not for itself, but for the pride it belongs to. It defends territory and kin alike, steps forward when danger threatens, and does not retreat as long as its pride is under threat. Its strength is no display &ndash; it is function.</p>
+          <p class="vb-intro">Cynthia Lummis, born in 1954 in Cheyenne, Wyoming, is exactly this lioness: a fifth-generation ranching heir who fought her way up through Wyoming politics over decades &ndash; as a state representative, as State Treasurer, as a member of Congress, and finally, in 2020, as the first woman ever to represent Wyoming in the US Senate. She fights for her pride: the ranchers, the miners, the conservative voters of one of the most sparsely populated states in the country.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Eight: Solidarity with the Overlooked</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Eight (SO8)</strong> puts its strength in the service of a community. Naranjo called this subtype <em>Solidarity</em>: the SO8 identifies with those who are politically or economically overlooked, and stands in front of them without fear. It does not fight for abstract principles &ndash; it fights concretely for people it knows.</p>
+          <p class="vb-intro">Lummis has represented, for decades, the interests of a state often overlooked in Washington: Wyoming has the smallest population of any US state. Her political commitment to land rights, mining, energy production, and fiscal restraint is always tied concretely to the lived reality of her constituents &ndash; not to distant ideological debates. The SO8 fights for those no one else represents.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Pioneering Spirit and Appetite for Risk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the Social Eight a quality that complements the pure SO8: openness to the new, willingness to take risks, a readiness to stand against the current when convinced of something. The SO8w9 protects out of silence. The <strong>SO8w7</strong> protects with pioneering spirit, often long before the mainstream follows.</p>
+          <p class="vb-intro">Lummis was one of the first politicians in Washington to publicly advocate for Bitcoin and cryptocurrencies &ndash; at a time when the topic was still met with ridicule in the Senate. In 2021, together with Kirsten Gillibrand, she introduced the “Responsible Financial Innovation Act,” one of the first serious attempts to create a regulatory framework for digital assets. The Seven-wing shows here as a willingness to explore new terrain before it seems safe &ndash; and then defend it with determination.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From the Ranch to the Senate</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lummis began her political career in 1978 in the Wyoming House of Representatives, later served as State Treasurer (1999&ndash;2007), and represented Wyoming in the US House of Representatives from 2009 to 2017. In 2020 she won the seat in the US Senate &ndash; the first woman ever to represent Wyoming in that chamber, in a state that was the very first to grant women the right to vote, in 1869.</p>
+          <p class="vb-intro">She herself runs a ranch near Cheyenne, is a trained lawyer, and explicitly sees herself as the voice of the rural, conservative West in an increasingly urban political landscape. Her advocacy for Bitcoin was tied to her traditional stance on fiscal policy: as a hedge against what she views as irresponsible government debt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO8w7 is her <strong>willingness to take unpopular positions early</strong> and remain steadfast in them, even when colleagues dismiss her. Lummis held her Bitcoin position long before cryptocurrencies became politically acceptable &ndash; and was later recognized as one of the most influential voices in that policy field.</p>
+          <p class="vb-intro">The shadow shows in an uncompromising quality that sharply rejects political opponents, leaving little room for nuance. Her clear, often confrontational rhetoric on contested topics such as immigration policy or transgender rights has repeatedly sparked public controversy. The Social Eight with a Seven-wing fights with fire &ndash; and that fire rarely distinguishes between disagreement and attack.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Lioness Who Defends New Terrain</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Eight leads from lust to innocence &ndash; from the compulsive assertion of one's own position to a strength that can also listen without losing its power. Lummis has shown over decades that political persistence and the willingness to venture into unknown terrain are not mutually exclusive.</p>
+          <p class="vb-intro">From the ranch in Cheyenne to Wyoming's first female senator, from a ridiculed fringe position to a recognized voice in US crypto policy: that is the SO8w7 at its most mature &ndash; the lioness who defends her pride by going ahead, into territory no one has entered yet, and then standing her ground until others follow.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
+        {route:"beruehmte-carsten-stahl", label:"Portrait: Carsten Stahl (SO8w7)"},
+        {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+      ])}
     </div>
   `);
 }
@@ -42937,6 +43006,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-carsten-stahl": carstenStahlPortraitPage,
+      "beruehmte-cynthia-lummis": cynthiaLummisPortraitPage,
       "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,
       "beruehmte-david-l-rathmer": davidLRathmerPortraitPage,
       "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,

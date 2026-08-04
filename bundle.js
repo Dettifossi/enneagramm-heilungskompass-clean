@@ -23819,6 +23819,7 @@ const registerEntries = [
   { term: "Diogenes von Sinope",            route: "beruehmte-diogenes",                    description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Philosoph, Begr\u00fcnder des Kynismus" },
   { term: "Winston Churchill",              route: "beruehmte-winston-churchill",           description: "Portrait: SE8w9 \u00b7 Selbsterhaltender Typ 8 \u00b7 Britischer Staatsmann, Premierminister" },
   { term: "Indra Nooyi",                    route: "beruehmte-indra-nooyi",                 description: "Portrait: SE8w7 \u00b7 Selbsterhaltender Typ 8 \u00b7 Wirtschaftsf\u00fchrerin, ehem. CEO von PepsiCo" },
+  { term: "Cynthia Lummis",                 route: "beruehmte-cynthia-lummis",              description: "Portrait: SO8w7 \u00b7 Sozialer Typ 8 \u00b7 US-Senatorin, Bitcoin-Verfechterin" },
   { term: "Alice Schwarzer",               route: "beruehmte-alice-schwarzer",             description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Feministin, EMMA-Gr\u00fcnderin" },
   { term: "Ana de Armas",                  route: "beruehmte-ana-de-armas",                description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, Knives Out" },
   { term: "Angelina Jolie",                route: "beruehmte-angelina-jolie",              description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, UN-Botschafterin" },
@@ -24079,6 +24080,7 @@ const registerEntriesEN = [
   { term: "Diogenes of Sinope", route: "beruehmte-diogenes", description: "Portrait: SX8w7 \u00b7 Sexual Type 8 \u00b7 Philosopher, founder of Cynicism" },
   { term: "Winston Churchill", route: "beruehmte-winston-churchill", description: "Portrait: SE8w9 \u00b7 Self-Preservation Type 8 \u00b7 British statesman, Prime Minister" },
   { term: "Indra Nooyi", route: "beruehmte-indra-nooyi", description: "Portrait: SE8w7 \u00b7 Self-Preservation Type 8 \u00b7 Business leader, former CEO of PepsiCo" },
+  { term: "Cynthia Lummis", route: "beruehmte-cynthia-lummis", description: "Portrait: SO8w7 \u00b7 Social Type 8 \u00b7 US Senator, Bitcoin advocate" },
   { term: "Alice Schwarzer", route: "beruehmte-alice-schwarzer", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Feminist, EMMA founder" },
   { term: "Ana de Armas", route: "beruehmte-ana-de-armas", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, Knives Out" },
   { term: "Angelina Jolie", route: "beruehmte-angelina-jolie", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, UN Ambassador" },
@@ -27165,7 +27167,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "413";
+const APP_BUILD = "414";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -27814,6 +27816,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Carsten Stahl \u2013 Sozialer Typ 8",
     teaser:"SO8w7 \u00b7 geb. 1974 in Heidelberg. Kampfsportler, Antimobbingaktivist, Buchautor. Hunderte Schulbesuche, \u203aHalt die Fresse!\u2039. Der L\u00f6we, der in die Schulen geht &ndash; St\u00e4rke, die sich verschenkt.",
     tags:["Aktivismus"], gender:"m"},
+  { route:"beruehmte-cynthia-lummis", name:"Cynthia Lummis", added:"2026-08-04", subtyp:"SO8w7",
+    heading:"Cynthia Lummis \u2013 Sozialer Typ 8",
+    teaser:"SO8w7 \u00b7 geb. 1954 in Cheyenne, Wyoming. US-Senatorin, erste weibliche Bitcoin-Verfechterin im US-Senat, ehem. Wyoming State Treasurer. Die L\u00f6win, die f\u00fcr ihre Herde k\u00e4mpft \u2013 kompromisslos, direkt, und immer an vorderster Front.",
+    tags:["Politik"], gender:"f"},
   { route:"beruehmte-bud-spencer", name:"Bud Spencer", subtyp:"SO8w9",
     heading:"Bud Spencer \u2013 Sozialer Typ 8",
     teaser:"SO8w9 \u00b7 Carlo Pedersoli, 1929\u20132016. Schauspieler, Schwimmer, Unternehmer, Familienvater. Vier F\u00e4uste f\u00fcr ein Halleluja. Der L\u00f6we, der nicht braucht zu br\u00fcllen \u2013 er ist einfach da. Tierentsprechung: L\u00f6we.",
@@ -40034,6 +40040,71 @@ function carstenStahlPortraitPage() {
   `);
 }
 
+
+function cynthiaLummisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-cynthia-lummis-portrait.jpg" alt="L\u00f6we" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Cynthia Lummis</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenerfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">US-Senatorin, geb. 1954 in Cheyenne, Wyoming &ndash; Tierentsprechung: L\u00f6we</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die L\u00f6win</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>L\u00f6we</strong> ist das Tier des sozialen Typs 8 &ndash; ein Wesen, das seine Kraft nicht f\u00fcr sich selbst einsetzt, sondern f\u00fcr das Rudel, dem es angeh\u00f6rt. Er verteidigt Territorium und Zugeh\u00f6rige zugleich, tritt vor, wenn Gefahr droht, und weicht nicht, solange sein Rudel bedroht ist. Seine St\u00e4rke ist keine Show &ndash; sie ist Funktion.</p>
+          <p class="vb-intro">Cynthia Lummis, geboren 1954 in Cheyenne, Wyoming, ist genau diese L\u00f6win: eine Ranch-Erbin aus f\u00fcnfter Generation, die sich \u00fcber Jahrzehnte durch die Politik Wyomings nach oben k\u00e4mpfte &ndash; als Abgeordnete, als State Treasurer, als Kongressabgeordnete und schlie\u00dflich, 2020, als erste Frau, die Wyoming im US-Senat vertrat. Sie k\u00e4mpft f\u00fcr ihr Rudel: die Rancher, die Bergarbeiter, die konservativen W\u00e4hler eines der am d\u00fcnnsten besiedelten Bundesstaaten der USA.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Solidarit\u00e4t mit den \u00dcbersehenen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft in den Dienst einer Gemeinschaft. Naranjo nannte diesen Subtyp <em>Solidarit\u00e4t</em>: Die SO8 identifiziert sich mit denen, die politisch oder wirtschaftlich \u00fcbersehen werden, und stellt sich unerschrocken vor sie. Sie k\u00e4mpft nicht abstrakt f\u00fcr Prinzipien &ndash; sie k\u00e4mpft konkret f\u00fcr Menschen, die sie kennt.</p>
+          <p class="vb-intro">Lummis vertritt seit Jahrzehnten die Interessen eines Bundesstaates, der in Washington oft \u00fcbersehen wird: Wyoming hat die kleinste Bev\u00f6lkerung aller US-Bundesstaaten. Ihr politisches Engagement f\u00fcr Landrechte, Bergbau, Energieproduktion und fiskalische Zur\u00fcckhaltung ist immer konkret an die Lebensrealit\u00e4t ihrer W\u00e4hler gebunden &ndash; nicht an ferne ideologische Debatten. Die SO8 k\u00e4mpft f\u00fcr die, die sonst niemand vertritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerfl\u00fcgel: Pioniergeist und Risikofreude</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerfl\u00fcgel</strong> verleiht der sozialen Acht eine Qualit\u00e4t, die den reinen SO8er erg\u00e4nzt: Aufgeschlossenheit f\u00fcr Neues, Risikofreude, eine Bereitschaft, sich gegen den Strom zu stellen, wenn sie von etwas \u00fcberzeugt ist. Die SO8w9 sch\u00fctzt aus der Stille. Die <strong>SO8w7</strong> sch\u00fctzt mit Pioniergeist, oft lange bevor der Mainstream folgt.</p>
+          <p class="vb-intro">Lummis war eine der ersten Politikerinnen in Washington, die sich \u00f6ffentlich f\u00fcr Bitcoin und Kryptow\u00e4hrungen einsetzte &ndash; zu einer Zeit, in der das Thema im Senat noch bel\u00e4chelt wurde. 2021 brachte sie gemeinsam mit Kirsten Gillibrand den \u201eResponsible Financial Innovation Act" ein, einen der ersten ernsthaften Versuche, einen regulatorischen Rahmen f\u00fcr digitale Verm\u00f6genswerte zu schaffen. Der Siebenerfl\u00fcgel zeigt sich hier als Bereitschaft, neues Terrain zu erkunden, bevor es sicher erscheint &ndash; und es dann entschlossen zu verteidigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von der Ranch zum Senat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lummis begann ihre politische Laufbahn 1978 im Repr\u00e4sentantenhaus von Wyoming, wurde sp\u00e4ter State Treasurer (1999&ndash;2007) und vertrat Wyoming von 2009 bis 2017 im US-Repr\u00e4sentantenhaus. 2020 gewann sie den Sitz im US-Senat &ndash; als erste Frau \u00fcberhaupt, die Wyoming in dieser Kammer vertritt, in einem Bundesstaat, der Frauen 1869 als erster \u00fcberhaupt das Wahlrecht gab.</p>
+          <p class="vb-intro">Sie selbst betreibt eine Ranch in Cheyenne, ist ausgebildete Juristin und versteht sich explizit als Stimme des l\u00e4ndlichen, konservativen Westens in einer zunehmend urbanen politischen Landschaft. Ihr Engagement f\u00fcr Bitcoin verband sie mit ihrer traditionellen Haltung zu Fiskalpolitik: als Absicherung gegen eine aus ihrer Sicht unverantwortliche Staatsverschuldung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO8w7 ist ihre <strong>Bereitschaft, unpopul\u00e4re Positionen fr\u00fch zu vertreten</strong> und dabei standhaft zu bleiben, auch wenn Kollegen sie bel\u00e4cheln. Lummis hielt an ihrer Bitcoin-Position fest, lange bevor Kryptow\u00e4hrungen politisch salonf\u00e4hig wurden &ndash; und wurde daf\u00fcr sp\u00e4ter als eine der einflussreichsten Stimmen in diesem Politikfeld anerkannt.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einer Kompromisslosigkeit, die politische Gegner scharf zur\u00fcckweist, ohne viel Raum f\u00fcr Zwischent\u00f6ne zu lassen. Ihre klare, oft konfrontative Rhetorik in umstrittenen Themen wie Einwanderungspolitik oder Transgender-Rechten hat wiederholt f\u00fcr \u00f6ffentliche Kontroversen gesorgt. Die soziale Acht mit Siebenerfl\u00fcgel k\u00e4mpft mit Feuer &ndash; und dieses Feuer unterscheidet selten zwischen Widerspruch und Angriff.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die L\u00f6win, die neues Terrain verteidigt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Acht f\u00fchrt von der Wollust zur Unschuld &ndash; von der zwanghaften Behauptung der eigenen Position zu einer Kraft, die auch zuh\u00f6ren kann, ohne die eigene St\u00e4rke zu verlieren. Lummis hat \u00fcber Jahrzehnte gezeigt, dass sich politische Beharrlichkeit und die Bereitschaft, in unbekanntes Terrain vorzudringen, nicht ausschlie\u00dfen.</p>
+          <p class="vb-intro">Von der Ranch in Cheyenne zur ersten Senatorin Wyomings, von einer bel\u00e4chelten Randposition zur anerkannten Stimme der US-Kryptopolitik: Das ist die SO8w7 in ihrer reifsten Form &ndash; die L\u00f6win, die ihr Rudel verteidigt, indem sie vorausgeht, dorthin, wo noch niemand war, und dann standh\u00e4lt, bis andere folgen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so8", label:"SO8 \u2013 Der L\u00f6we: Subtyp-Profil"},
+        {route:"beruehmte-carsten-stahl", label:"Portr\u00e4t: Carsten Stahl (SO8w7)"},
+        {route:"beruehmte-michelle-obama", label:"Portr\u00e4t: Michelle Obama (SO8w7)"},
+      ])}
+    </div>
+  `);
+}
 
 function michelleObamaPortraitPage() {
   return shell(`
@@ -72912,6 +72983,7 @@ function render() {
           "beruehmte-winston-churchill": winstonChurchillPortraitPage,
     "beruehmte-toni-morrison": toniMorrisonPortraitPage,
           "beruehmte-carsten-stahl": carstenStahlPortraitPage,
+          "beruehmte-cynthia-lummis": cynthiaLummisPortraitPage,
     "beruehmte-michelle-obama": michelleObamaPortraitPage,
           "beruehmte-jamaica-kincaid": jamaicaKincaidPortraitPage,
     "beruehmte-bud-spencer": budSpencerPortraitPage,

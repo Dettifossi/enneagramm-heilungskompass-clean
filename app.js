@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "413";
+const APP_BUILD = "414";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -702,6 +702,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Carsten Stahl – Sozialer Typ 8",
     teaser:"SO8w7 · geb. 1974 in Heidelberg. Kampfsportler, Antimobbingaktivist, Buchautor. Hunderte Schulbesuche, ›Halt die Fresse!‹. Der Löwe, der in die Schulen geht &ndash; Stärke, die sich verschenkt.",
     tags:["Aktivismus"], gender:"m"},
+  { route:"beruehmte-cynthia-lummis", name:"Cynthia Lummis", added:"2026-08-04", subtyp:"SO8w7",
+    heading:"Cynthia Lummis – Sozialer Typ 8",
+    teaser:"SO8w7 · geb. 1954 in Cheyenne, Wyoming. US-Senatorin, erste weibliche Bitcoin-Verfechterin im US-Senat, ehem. Wyoming State Treasurer. Die Löwin, die für ihre Herde kämpft – kompromisslos, direkt, und immer an vorderster Front.",
+    tags:["Politik"], gender:"f"},
   { route:"beruehmte-bud-spencer", name:"Bud Spencer", subtyp:"SO8w9",
     heading:"Bud Spencer – Sozialer Typ 8",
     teaser:"SO8w9 · Carlo Pedersoli, 1929–2016. Schauspieler, Schwimmer, Unternehmer, Familienvater. Vier Fäuste für ein Halleluja. Der Löwe, der nicht braucht zu brüllen – er ist einfach da. Tierentsprechung: Löwe.",
@@ -12922,6 +12926,71 @@ function carstenStahlPortraitPage() {
   `);
 }
 
+
+function cynthiaLummisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-cynthia-lummis-portrait.jpg" alt="Löwe" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Cynthia Lummis</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">US-Senatorin, geb. 1954 in Cheyenne, Wyoming &ndash; Tierentsprechung: Löwe</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Löwin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 &ndash; ein Wesen, das seine Kraft nicht für sich selbst einsetzt, sondern für das Rudel, dem es angehört. Er verteidigt Territorium und Zugehörige zugleich, tritt vor, wenn Gefahr droht, und weicht nicht, solange sein Rudel bedroht ist. Seine Stärke ist keine Show &ndash; sie ist Funktion.</p>
+          <p class="vb-intro">Cynthia Lummis, geboren 1954 in Cheyenne, Wyoming, ist genau diese Löwin: eine Ranch-Erbin aus fünfter Generation, die sich über Jahrzehnte durch die Politik Wyomings nach oben kämpfte &ndash; als Abgeordnete, als State Treasurer, als Kongressabgeordnete und schließlich, 2020, als erste Frau, die Wyoming im US-Senat vertrat. Sie kämpft für ihr Rudel: die Rancher, die Bergarbeiter, die konservativen Wähler eines der am dünnsten besiedelten Bundesstaaten der USA.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Solidarität mit den Übersehenen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft in den Dienst einer Gemeinschaft. Naranjo nannte diesen Subtyp <em>Solidarität</em>: Die SO8 identifiziert sich mit denen, die politisch oder wirtschaftlich übersehen werden, und stellt sich unerschrocken vor sie. Sie kämpft nicht abstrakt für Prinzipien &ndash; sie kämpft konkret für Menschen, die sie kennt.</p>
+          <p class="vb-intro">Lummis vertritt seit Jahrzehnten die Interessen eines Bundesstaates, der in Washington oft übersehen wird: Wyoming hat die kleinste Bevölkerung aller US-Bundesstaaten. Ihr politisches Engagement für Landrechte, Bergbau, Energieproduktion und fiskalische Zurückhaltung ist immer konkret an die Lebensrealität ihrer Wähler gebunden &ndash; nicht an ferne ideologische Debatten. Die SO8 kämpft für die, die sonst niemand vertritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Pioniergeist und Risikofreude</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> verleiht der sozialen Acht eine Qualität, die den reinen SO8er ergänzt: Aufgeschlossenheit für Neues, Risikofreude, eine Bereitschaft, sich gegen den Strom zu stellen, wenn sie von etwas überzeugt ist. Die SO8w9 schützt aus der Stille. Die <strong>SO8w7</strong> schützt mit Pioniergeist, oft lange bevor der Mainstream folgt.</p>
+          <p class="vb-intro">Lummis war eine der ersten Politikerinnen in Washington, die sich öffentlich für Bitcoin und Kryptowährungen einsetzte &ndash; zu einer Zeit, in der das Thema im Senat noch belächelt wurde. 2021 brachte sie gemeinsam mit Kirsten Gillibrand den „Responsible Financial Innovation Act" ein, einen der ersten ernsthaften Versuche, einen regulatorischen Rahmen für digitale Vermögenswerte zu schaffen. Der Siebenerflügel zeigt sich hier als Bereitschaft, neues Terrain zu erkunden, bevor es sicher erscheint &ndash; und es dann entschlossen zu verteidigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von der Ranch zum Senat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lummis begann ihre politische Laufbahn 1978 im Repräsentantenhaus von Wyoming, wurde später State Treasurer (1999&ndash;2007) und vertrat Wyoming von 2009 bis 2017 im US-Repräsentantenhaus. 2020 gewann sie den Sitz im US-Senat &ndash; als erste Frau überhaupt, die Wyoming in dieser Kammer vertritt, in einem Bundesstaat, der Frauen 1869 als erster überhaupt das Wahlrecht gab.</p>
+          <p class="vb-intro">Sie selbst betreibt eine Ranch in Cheyenne, ist ausgebildete Juristin und versteht sich explizit als Stimme des ländlichen, konservativen Westens in einer zunehmend urbanen politischen Landschaft. Ihr Engagement für Bitcoin verband sie mit ihrer traditionellen Haltung zu Fiskalpolitik: als Absicherung gegen eine aus ihrer Sicht unverantwortliche Staatsverschuldung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO8w7 ist ihre <strong>Bereitschaft, unpopuläre Positionen früh zu vertreten</strong> und dabei standhaft zu bleiben, auch wenn Kollegen sie belächeln. Lummis hielt an ihrer Bitcoin-Position fest, lange bevor Kryptowährungen politisch salonfähig wurden &ndash; und wurde dafür später als eine der einflussreichsten Stimmen in diesem Politikfeld anerkannt.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einer Kompromisslosigkeit, die politische Gegner scharf zurückweist, ohne viel Raum für Zwischentöne zu lassen. Ihre klare, oft konfrontative Rhetorik in umstrittenen Themen wie Einwanderungspolitik oder Transgender-Rechten hat wiederholt für öffentliche Kontroversen gesorgt. Die soziale Acht mit Siebenerflügel kämpft mit Feuer &ndash; und dieses Feuer unterscheidet selten zwischen Widerspruch und Angriff.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Löwin, die neues Terrain verteidigt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Acht führt von der Wollust zur Unschuld &ndash; von der zwanghaften Behauptung der eigenen Position zu einer Kraft, die auch zuhören kann, ohne die eigene Stärke zu verlieren. Lummis hat über Jahrzehnte gezeigt, dass sich politische Beharrlichkeit und die Bereitschaft, in unbekanntes Terrain vorzudringen, nicht ausschließen.</p>
+          <p class="vb-intro">Von der Ranch in Cheyenne zur ersten Senatorin Wyomings, von einer belächelten Randposition zur anerkannten Stimme der US-Kryptopolitik: Das ist die SO8w7 in ihrer reifsten Form &ndash; die Löwin, die ihr Rudel verteidigt, indem sie vorausgeht, dorthin, wo noch niemand war, und dann standhält, bis andere folgen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"beruehmte-carsten-stahl", label:"Porträt: Carsten Stahl (SO8w7)"},
+        {route:"beruehmte-michelle-obama", label:"Porträt: Michelle Obama (SO8w7)"},
+      ])}
+    </div>
+  `);
+}
 
 function michelleObamaPortraitPage() {
   return shell(`
@@ -45800,6 +45869,7 @@ function render() {
           "beruehmte-winston-churchill": winstonChurchillPortraitPage,
     "beruehmte-toni-morrison": toniMorrisonPortraitPage,
           "beruehmte-carsten-stahl": carstenStahlPortraitPage,
+          "beruehmte-cynthia-lummis": cynthiaLummisPortraitPage,
     "beruehmte-michelle-obama": michelleObamaPortraitPage,
           "beruehmte-jamaica-kincaid": jamaicaKincaidPortraitPage,
     "beruehmte-bud-spencer": budSpencerPortraitPage,
