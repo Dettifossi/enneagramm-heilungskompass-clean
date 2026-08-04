@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "401";
+const APP_BUILD = "402";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -464,6 +464,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Thomas Gottschalk – Sexual Type 7",
     teaser:"SX7w6 · born 1950. German radio and TV host, entertainer, actor. Wetten, dass..? – 23 years, 212 episodes. The chimpanzee: lively, magnetic, unpredictable – always searching for the next spark. Animal correspondence: Chimpanzee.",
     tags:["Schauspiel","Medien"] },
+  { route:"beruehmte-miley-cyrus", name:"Miley Cyrus", added:"2026-08-04", subtyp:"SX7w6",
+    heading:"Miley Cyrus – Sexual Type 7",
+    teaser:"SX7w6 · born 1992 in Franklin, Tennessee. Singer, songwriter, actress. Child star as “Hannah Montana”, later reinventions from “Wrecking Ball” to “Flowers”. The chimpanzee with Six-wing: transformation as a way of life, loyalty to herself as the thread running through every shedding of skin.",
+    tags:["Musik","Film"]},
   { route:"beruehmte-ina-mueller", name:"Ina Müller", subtyp:"SX7w8",
     heading:"Ina Müller – Sexual Type 7",
     teaser:"SX7w8 · born 1965. Singer, musical cabaret artist, TV presenter (Inas Nacht). The chimpanzee with Eight-wing: zestful, direct, fearless – and always close to people. Animal correspondence: Chimpanzee.",
@@ -20095,6 +20099,70 @@ function hazelBruggerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function mileyCyrusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-miley-cyrus-portrait.jpg" alt="Chimpanzee" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Miley Cyrus</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Singer, songwriter &amp; actress, born 1992 in Franklin, Tennessee &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chimpanzee</strong> is the animal of the Sexual Type 7 &ndash; lively, contact-seeking, constantly in motion. It does not learn from a distance, but through direct contact with what surrounds it. It transforms when its environment changes &ndash; and does so without false shyness, often right in front of everyone's eyes.</p>
+          <p class="vb-intro">Miley Cyrus, born 1992 in Franklin, Tennessee, daughter of country singer Billy Ray Cyrus, is a Chimpanzee who grew up in public &ndash; from Disney child star to independent artist, from the well-behaved girl in a blonde wig to a startlingly self-assured pop icon, and further into the reflective, self-possessed singer who today touches whole generations with “Flowers”. Every one of these sheddings of skin was loud, visible &ndash; and honest.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Seven: Transformation as a Way of Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Seven (SX7)</strong> seeks intensity in immediate experience, not in planned progress. Naranjo called this subtype <em>Suggestibility</em>: the readiness to give oneself completely to a moment, an idea, a relationship &ndash; and to reinvent oneself in the process. Where other people hold on to one identity, the SX7 tries on several, because the new itself is the appeal.</p>
+          <p class="vb-intro">Hardly any pop career shows this more clearly than Miley Cyrus's: Hannah Montana, the shattered “Wrecking Ball” version of herself, the brightly coloured, hedonistic “Bangerz” era, the introspective Americana phase of “Younger Now”, and finally the grounded maturity of “Endless Summer Vacation”. Every phase was real, none of them a role. That is exactly the Sexual Seven: she does not play transformation &ndash; she lives it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Loyalty as the Common Thread</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Sexual Seven something that seems to contradict it at first glance: the need for bonding, for a reliable core to anchor every transformation to. Where the pure SX7 might simply drift, the SX7w6 looks for people and values it can stay loyal to &ndash; even in the middle of permanent change.</p>
+          <p class="vb-intro">In Miley Cyrus this shows in the close, lifelong bond with her family, especially with her godmother Dolly Parton, and in her outspoken, unwavering support for the LGBTQ+ community throughout the years &ndash; a loyalty that has never changed while almost everything else around her has. The Six-wing is the dam the Chimpanzee needs so that transformation does not become dissolution.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. From Child Star to Her Own Voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At eleven, Cyrus became a global Disney phenomenon as “Hannah Montana” &ndash; a dual role that literally demanded two identities: the well-behaved schoolgirl Miley and the shining pop star Hannah. For a Sexual Seven, whose deepest need is genuine, unfiltered presence, this forced split became increasingly unbearable.</p>
+          <p class="vb-intro">In 2013, with the album “Bangerz” and her performance at the MTV Video Music Awards, she broke with this role radically and publicly &ndash; a break that drew heavy criticism, but was also the moment the Chimpanzee was finally allowed to decide for itself who it wanted to be. In the years that followed, no further scandal came, but instead a steady artistic maturing: from provocation to her own, unmistakable voice.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX7w6 is its ability to keep reinventing itself without losing itself &ndash; every phase of Miley Cyrus looks, in hindsight, like an honest station on a journey, not a denial of the one before. This continuity despite change is the fruit of the Six-wing: the core stays the same even as the surface changes radically.</p>
+          <p class="vb-intro">The shadow shows in phases of excessive behaviour, publicly played-out relationship crises &ndash; including the on-and-off, repeatedly interrupted and finally ended relationship with Liam Hemsworth &ndash; and a need for attention that at times seemed more important than her own stability. The Sexual Seven can, in fleeing emptiness, seek so much intensity that the search itself becomes the trap.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: Flowers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Seven leads from scattering to sobriety &ndash; from the constant search for the next thrill to the ability to actually arrive in one's own life. For the SX7w6 this means no longer using her own capacity for transformation as a flight from bonding, but as an expression of genuine, matured self-love.</p>
+          <p class="vb-intro">“Flowers” (2023), the song in which Cyrus sings that she can buy herself flowers, hold her own hand, and love herself better than anyone else ever could, is exactly this healing step compressed into three minutes of pop music. The Chimpanzee, who spent years searching for bonding outside herself, finally finds the reliable core exactly where the Six-wing had suspected it all along: within herself.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
       ])}
     </div>
   `);
@@ -42523,6 +42591,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
       "beruehmte-francis-bacon": francisBaconPortraitPage,
+      "beruehmte-miley-cyrus": mileyCyrusPortraitPage,
       "beruehmte-ina-mueller": inaMuellerPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,

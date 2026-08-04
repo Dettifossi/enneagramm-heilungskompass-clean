@@ -23814,6 +23814,7 @@ const registerEntries = [
   { term: "Larry King",                     route: "beruehmte-larry-king",                  description: "Portrait: SE7w6 \u00b7 Selbsterhaltender Typ 7 \u00b7 Talkshow-Moderator" },
   { term: "Jeanne-Marie Bouvier de la Motte Guyon", route: "beruehmte-jeanne-marie-guyon",   description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Mystikerin, Quietismus" },
   { term: "Drew Barrymore",                 route: "beruehmte-drew-barrymore",              description: "Portrait: SO7w8 \u00b7 Sozialer Typ 7 \u00b7 Schauspielerin, Produzentin, Talkshow-Moderatorin" },
+  { term: "Miley Cyrus",                    route: "beruehmte-miley-cyrus",                 description: "Portrait: SX7w6 \u00b7 Sexueller Typ 7 \u00b7 S\u00e4ngerin, Songwriterin, Schauspielerin" },
   { term: "Alice Schwarzer",               route: "beruehmte-alice-schwarzer",             description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Feministin, EMMA-Gr\u00fcnderin" },
   { term: "Ana de Armas",                  route: "beruehmte-ana-de-armas",                description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, Knives Out" },
   { term: "Angelina Jolie",                route: "beruehmte-angelina-jolie",              description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, UN-Botschafterin" },
@@ -24069,6 +24070,7 @@ const registerEntriesEN = [
   { term: "Larry King", route: "beruehmte-larry-king", description: "Portrait: SE7w6 \u00b7 Self-Preservation Type 7 \u00b7 Talk show host" },
   { term: "Jeanne-Marie Bouvier de la Motte Guyon", route: "beruehmte-jeanne-marie-guyon", description: "Portrait: SO7w6 \u00b7 Social Type 7 \u00b7 Mystic, Quietism" },
   { term: "Drew Barrymore", route: "beruehmte-drew-barrymore", description: "Portrait: SO7w8 \u00b7 Social Type 7 \u00b7 Actress, producer, talk show host" },
+  { term: "Miley Cyrus", route: "beruehmte-miley-cyrus", description: "Portrait: SX7w6 \u00b7 Sexual Type 7 \u00b7 Singer, songwriter, actress" },
   { term: "Alice Schwarzer", route: "beruehmte-alice-schwarzer", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Feminist, EMMA founder" },
   { term: "Ana de Armas", route: "beruehmte-ana-de-armas", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, Knives Out" },
   { term: "Angelina Jolie", route: "beruehmte-angelina-jolie", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, UN Ambassador" },
@@ -27155,7 +27157,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "401";
+const APP_BUILD = "402";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -27756,6 +27758,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Thomas Gottschalk \u2013 Sexueller Typ 7",
     teaser:"SX7w6 \u00b7 geb. 1950. Deutscher Radio- und Fernsehmoderator, Entertainer, Schauspieler. Wetten, dass..? \u2013 23 Jahre, 212 Sendungen. Der Schimpanse: lebendig, magnetisch, unberechenbar \u2013 und immer auf der Suche nach dem n\u00e4chsten Funken. Tierentsprechung: Schimpanse.",
     tags:["Schauspiel","Medien"], gender:"m" },
+  { route:"beruehmte-miley-cyrus", name:"Miley Cyrus", added:"2026-08-04", subtyp:"SX7w6",
+    heading:"Miley Cyrus \u2013 Sexueller Typ 7",
+    teaser:"SX7w6 \u00b7 geb. 1992 in Franklin, Tennessee. S\u00e4ngerin, Songwriterin, Schauspielerin. Kinderstar als \u201eHannah Montana\u201c, sp\u00e4tere Neuerfindungen von \u201eWrecking Ball\u201c bis \u201eFlowers\u201c. Der Schimpanse mit Sechserfl\u00fcgel: Verwandlung als Lebensform, Loyalit\u00e4t zu sich selbst als roter Faden durch jede H\u00e4utung.",
+    tags:["Musik","Film"], gender:"f"},
   { route:"beruehmte-ina-mueller", name:"Ina M\u00fcller", subtyp:"SX7w8",
     heading:"Ina M\u00fcller \u2013 Sexueller Typ 7",
     teaser:"SX7w8 \u00b7 geb. 1965. S\u00e4ngerin, Musikkabarettistin, Fernsehmoderatorin (Inas Nacht). Der Schimpanse mit Achterfl\u00fcgel: lebenslustig, direkt, unerschrocken \u2013 und immer nah am Menschen. Tierentsprechung: Schimpanse.",
@@ -39136,6 +39142,70 @@ function drewBarrymorePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so7", label:"SO7 \u2013 Der Biber: Subtyp-Profil"},
         {route:"beruehmte-hazel-brugger", label:"Portr\u00e4t: Hazel Brugger (SO7w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function mileyCyrusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-miley-cyrus-portrait.jpg" alt="Schimpanse" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Miley Cyrus</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">S\u00e4ngerin, Songwriterin &amp; Schauspielerin, geb. 1992 in Franklin, Tennessee &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 &ndash; lebendig, kontaktsuchend, st\u00e4ndig in Bewegung. Er lernt nicht aus der Distanz, sondern durch direkte Ber\u00fchrung mit dem, was ihn umgibt. Er verwandelt sich, wenn sich sein Umfeld ver\u00e4ndert &ndash; und tut das ohne falsche Scheu, oft mitten vor den Augen aller.</p>
+          <p class="vb-intro">Miley Cyrus, geboren 1992 in Franklin, Tennessee, als Tochter des Country-S\u00e4ngers Billy Ray Cyrus, ist ein Schimpanse, der \u00f6ffentlich aufgewachsen ist &ndash; vom Disney-Kinderstar zur eigenst\u00e4ndigen K\u00fcnstlerin, vom braven M\u00e4dchen mit blonder Per\u00fccke zur schockierend selbstbewussten Popk\u00fcnstlerin, und weiter zur reflektierten, souver\u00e4nen S\u00e4ngerin, die heute mit \u201eFlowers" ganze Generationen ber\u00fchrt. Jede dieser H\u00e4utungen war laut, sichtbar &ndash; und ehrlich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Verwandlung als Lebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht Intensit\u00e4t im unmittelbaren Erleben, nicht im geplanten Fortschritt. Naranjo nannte diesen Subtyp <em>Suggestibility</em>: die Bereitschaft, sich einem Moment, einer Idee, einer Beziehung vollst\u00e4ndig hinzugeben &ndash; und sich dabei selbst neu zu erfinden. Wo andere Menschen an einer Identit\u00e4t festhalten, probiert die SX7 mehrere aus, weil das Neue selbst der Reiz ist.</p>
+          <p class="vb-intro">Kaum eine Popkarriere zeigt das deutlicher als die von Miley Cyrus: Hannah Montana, die zerbrochene \u201eWrecking Ball"-Version ihrer selbst, die knallbunte, hedonistische \u201eBangerz"-\u00c4ra, die introspektive Americana-Phase von \u201eYounger Now", und schlie\u00dflich die geerdete Reife von \u201eEndless Summer Vacation". Jede Phase war real, keine davon eine Rolle. Genau das ist die sexuelle Sieben: Sie spielt nicht Verwandlung &ndash; sie lebt sie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Loyalit\u00e4t als roter Faden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\u00fcgel (w6)</strong> gibt der sexuellen Sieben etwas, das ihr auf den ersten Blick zu widersprechen scheint: das Bed\u00fcrfnis nach Bindung, nach einem verl\u00e4sslichen Kern, an dem sich alle Verwandlungen festmachen lassen. Wo die reine SX7 sich treiben lassen k\u00f6nnte, sucht die SX7w6 nach Menschen und Werten, denen sie treu bleiben kann &ndash; auch mitten im permanenten Wandel.</p>
+          <p class="vb-intro">Bei Miley Cyrus zeigt sich das in der engen, lebenslangen Bindung an ihre Familie, insbesondere an ihre Patin Dolly Parton, sowie in ihrem offenen Eintreten f\u00fcr die LGBTQ+-Community \u00fcber all die Jahre hinweg &ndash; eine Loyalit\u00e4t, die sich nie ge\u00e4ndert hat, w\u00e4hrend sich fast alles andere um sie herum ver\u00e4ndert hat. Der Sechserfl\u00fcgel ist der Damm, den der Schimpanse braucht, damit die Verwandlung nicht zur Aufl\u00f6sung wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Vom Kinderstar zur eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit elf Jahren wurde Cyrus als \u201eHannah Montana" zum globalen Disney-Ph\u00e4nomen &ndash; eine Doppelrolle, die buchst\u00e4blich zwei Identit\u00e4ten verlangte: das brave Schulm\u00e4dchen Miley und den strahlenden Popstar Hannah. F\u00fcr eine sexuelle Sieben, deren tiefstes Bed\u00fcrfnis echte, ungefilterte Pr\u00e4senz ist, wurde diese erzwungene Aufspaltung zunehmend unertr\u00e4glich.</p>
+          <p class="vb-intro">2013, mit dem Album \u201eBangerz" und dem Auftritt bei den MTV Video Music Awards, brach sie mit dieser Rolle radikal und \u00f6ffentlich &ndash; ein Bruch, der viel Kritik erntete, aber auch der Moment war, in dem der Schimpanse endlich selbst entscheiden durfte, wer er sein wollte. In den Jahren danach folgte kein weiterer Skandal, sondern eine stetige k\u00fcnstlerische Reifung: von der Provokation zur eigenen, unverwechselbaren Stimme.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX7w6 ist ihre F\u00e4higkeit, sich immer wieder neu zu erfinden, ohne sich selbst zu verlieren &ndash; jede Phase von Miley Cyrus wirkt im R\u00fcckblick wie eine ehrliche Station auf einem Weg, nicht wie eine Verleugnung der vorherigen. Diese Kontinuit\u00e4t trotz Wandel ist die Frucht des Sechserfl\u00fcgels: Der Kern bleibt derselbe, auch wenn die Oberfl\u00e4che sich radikal ver\u00e4ndert.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in Phasen exzessiven Verhaltens, \u00f6ffentlich ausgetragener Beziehungskrisen &ndash; darunter die wechselvolle, mehrfach unterbrochene und schlie\u00dflich gescheiterte Beziehung zu Liam Hemsworth &ndash; und einem Bed\u00fcrfnis nach Aufmerksamkeit, das zeitweise wichtiger schien als die eigene Stabilit\u00e4t. Die sexuelle Sieben kann in der Flucht vor Leere so viel Intensit\u00e4t suchen, dass die Suche selbst zur Falle wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Flowers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sieben f\u00fchrt von der Zerstreuung zur N\u00fcchternheit &ndash; von der st\u00e4ndigen Suche nach dem n\u00e4chsten Reiz zur F\u00e4higkeit, im eigenen Leben tats\u00e4chlich anzukommen. F\u00fcr die SX7w6 bedeutet das, die eigene Wandlungsf\u00e4higkeit nicht mehr als Flucht vor Bindung zu nutzen, sondern als Ausdruck echter, gereifter Selbstliebe.</p>
+          <p class="vb-intro">\u201eFlowers" (2023), der Song, in dem Cyrus singt, sie k\u00f6nne sich selbst Blumen kaufen, sich selbst an die Hand nehmen und sich selbst besser lieben, als es je ein anderer k\u00f6nnte, ist genau dieser Heilungsschritt in drei Minuten Popmusik. Der Schimpanse, der jahrelang Bindung au\u00dferhalb von sich selbst gesucht hat, findet den verl\u00e4sslichen Kern schlie\u00dflich dort, wo der Sechserfl\u00fcgel ihn die ganze Zeit vermutet hatte: bei sich selbst.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 \u2013 Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portr\u00e4t: Thomas Gottschalk (SX7w6)"},
       ])}
     </div>
   `);
@@ -72546,6 +72616,7 @@ function render() {
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
       "beruehmte-francis-bacon": francisBaconPortraitPage,
+      "beruehmte-miley-cyrus": mileyCyrusPortraitPage,
       "beruehmte-ina-mueller": inaMuellerPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
