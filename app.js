@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "434";
+const APP_BUILD = "435";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -42852,6 +42852,9 @@ function mineralstoffePage() {
         </article>`;
       }).join("")}
     </section>
+    <div style="max-width:580px;margin:0 auto;padding:0 1rem;">
+      ${bookTip("enneagramm-biochemie", "Die neun Regulationsmuster des Enneagramms, verbunden mit den biochemischen Mineralsalzen nach Dr. Schüßler – Orientierung für Therapeuten, Berater und interessierte Leser.", "Enneagramm-Biochemie")}
+    </div>
     <p style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:0 1rem 2rem;max-width:580px;margin:0 auto;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus.</p>
   `);
 }
