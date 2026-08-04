@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "402";
+const APP_BUILD = "403";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -20146,7 +20146,7 @@ function mileyCyrusPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SX7w6 is its ability to keep reinventing itself without losing itself &ndash; every phase of Miley Cyrus looks, in hindsight, like an honest station on a journey, not a denial of the one before. This continuity despite change is the fruit of the Six-wing: the core stays the same even as the surface changes radically.</p>
-          <p class="vb-intro">The shadow shows in phases of excessive behaviour, publicly played-out relationship crises &ndash; including the on-and-off, repeatedly interrupted and finally ended relationship with Liam Hemsworth &ndash; and a need for attention that at times seemed more important than her own stability. The Sexual Seven can, in fleeing emptiness, seek so much intensity that the search itself becomes the trap.</p>
+          <p class="vb-intro">The shadow shows in phases of excessive behaviour, publicly played-out relationship crises &ndash; including the on-and-off, repeatedly interrupted and finally ended relationship with Liam Hemsworth (SO1w2) &ndash; and a need for attention that at times seemed more important than her own stability. The Sexual Seven can, in fleeing emptiness, seek so much intensity that the search itself becomes the trap.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Path of Healing: Flowers</h2>

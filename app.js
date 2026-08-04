@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "402";
+const APP_BUILD = "403";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -12085,7 +12085,7 @@ function mileyCyrusPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SX7w6 ist ihre Fähigkeit, sich immer wieder neu zu erfinden, ohne sich selbst zu verlieren &ndash; jede Phase von Miley Cyrus wirkt im Rückblick wie eine ehrliche Station auf einem Weg, nicht wie eine Verleugnung der vorherigen. Diese Kontinuität trotz Wandel ist die Frucht des Sechserflügels: Der Kern bleibt derselbe, auch wenn die Oberfläche sich radikal verändert.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in Phasen exzessiven Verhaltens, öffentlich ausgetragener Beziehungskrisen &ndash; darunter die wechselvolle, mehrfach unterbrochene und schließlich gescheiterte Beziehung zu Liam Hemsworth &ndash; und einem Bedürfnis nach Aufmerksamkeit, das zeitweise wichtiger schien als die eigene Stabilität. Die sexuelle Sieben kann in der Flucht vor Leere so viel Intensität suchen, dass die Suche selbst zur Falle wird.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in Phasen exzessiven Verhaltens, öffentlich ausgetragener Beziehungskrisen &ndash; darunter die wechselvolle, mehrfach unterbrochene und schließlich gescheiterte Beziehung zu Liam Hemsworth (SO1w2) &ndash; und einem Bedürfnis nach Aufmerksamkeit, das zeitweise wichtiger schien als die eigene Stabilität. Die sexuelle Sieben kann in der Flucht vor Leere so viel Intensität suchen, dass die Suche selbst zur Falle wird.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: Flowers</h2>

@@ -27157,7 +27157,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "402";
+const APP_BUILD = "403";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -39189,7 +39189,7 @@ function mileyCyrusPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SX7w6 ist ihre F\u00e4higkeit, sich immer wieder neu zu erfinden, ohne sich selbst zu verlieren &ndash; jede Phase von Miley Cyrus wirkt im R\u00fcckblick wie eine ehrliche Station auf einem Weg, nicht wie eine Verleugnung der vorherigen. Diese Kontinuit\u00e4t trotz Wandel ist die Frucht des Sechserfl\u00fcgels: Der Kern bleibt derselbe, auch wenn die Oberfl\u00e4che sich radikal ver\u00e4ndert.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in Phasen exzessiven Verhaltens, \u00f6ffentlich ausgetragener Beziehungskrisen &ndash; darunter die wechselvolle, mehrfach unterbrochene und schlie\u00dflich gescheiterte Beziehung zu Liam Hemsworth &ndash; und einem Bed\u00fcrfnis nach Aufmerksamkeit, das zeitweise wichtiger schien als die eigene Stabilit\u00e4t. Die sexuelle Sieben kann in der Flucht vor Leere so viel Intensit\u00e4t suchen, dass die Suche selbst zur Falle wird.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in Phasen exzessiven Verhaltens, \u00f6ffentlich ausgetragener Beziehungskrisen &ndash; darunter die wechselvolle, mehrfach unterbrochene und schlie\u00dflich gescheiterte Beziehung zu Liam Hemsworth (SO1w2) &ndash; und einem Bed\u00fcrfnis nach Aufmerksamkeit, das zeitweise wichtiger schien als die eigene Stabilit\u00e4t. Die sexuelle Sieben kann in der Flucht vor Leere so viel Intensit\u00e4t suchen, dass die Suche selbst zur Falle wird.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: Flowers</h2>
