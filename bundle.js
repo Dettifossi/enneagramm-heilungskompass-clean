@@ -23816,6 +23816,7 @@ const registerEntries = [
   { term: "Drew Barrymore",                 route: "beruehmte-drew-barrymore",              description: "Portrait: SO7w8 \u00b7 Sozialer Typ 7 \u00b7 Schauspielerin, Produzentin, Talkshow-Moderatorin" },
   { term: "Miley Cyrus",                    route: "beruehmte-miley-cyrus",                 description: "Portrait: SX7w6 \u00b7 Sexueller Typ 7 \u00b7 S\u00e4ngerin, Songwriterin, Schauspielerin" },
   { term: "Shakira",                        route: "beruehmte-shakira",                     description: "Portrait: SX7w8 \u00b7 Sexueller Typ 7 \u00b7 S\u00e4ngerin, Songwriterin, T\u00e4nzerin, Produzentin" },
+  { term: "Diogenes von Sinope",            route: "beruehmte-diogenes",                    description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Philosoph, Begr\u00fcnder des Kynismus" },
   { term: "Alice Schwarzer",               route: "beruehmte-alice-schwarzer",             description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Feministin, EMMA-Gr\u00fcnderin" },
   { term: "Ana de Armas",                  route: "beruehmte-ana-de-armas",                description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, Knives Out" },
   { term: "Angelina Jolie",                route: "beruehmte-angelina-jolie",              description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, UN-Botschafterin" },
@@ -24073,6 +24074,7 @@ const registerEntriesEN = [
   { term: "Drew Barrymore", route: "beruehmte-drew-barrymore", description: "Portrait: SO7w8 \u00b7 Social Type 7 \u00b7 Actress, producer, talk show host" },
   { term: "Miley Cyrus", route: "beruehmte-miley-cyrus", description: "Portrait: SX7w6 \u00b7 Sexual Type 7 \u00b7 Singer, songwriter, actress" },
   { term: "Shakira", route: "beruehmte-shakira", description: "Portrait: SX7w8 \u00b7 Sexual Type 7 \u00b7 Singer, songwriter, dancer, producer" },
+  { term: "Diogenes of Sinope", route: "beruehmte-diogenes", description: "Portrait: SX8w7 \u00b7 Sexual Type 8 \u00b7 Philosopher, founder of Cynicism" },
   { term: "Alice Schwarzer", route: "beruehmte-alice-schwarzer", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Feminist, EMMA founder" },
   { term: "Ana de Armas", route: "beruehmte-ana-de-armas", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, Knives Out" },
   { term: "Angelina Jolie", route: "beruehmte-angelina-jolie", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, UN Ambassador" },
@@ -27159,7 +27161,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "405";
+const APP_BUILD = "406";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -27816,6 +27818,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Donald J. Trump \u2013 Sexueller Typ 8",
     teaser:"SX8w7 \u00b7 geb. 1946. Unternehmer, Medienpers\u00f6nlichkeit, 45. & 47. Pr\u00e4sident der USA. Das Krokodil, das die B\u00fchne beherrscht \u2013 laut, unberechenbar, leidenschaftlich und stets im Angriff. Tierentsprechung: Krokodil.",
     tags:["Politik"] , gender:"m"},
+  { route:"beruehmte-diogenes", name:"Diogenes von Sinope", added:"2026-08-04", subtyp:"SX8w7",
+    heading:"Diogenes \u2013 Sexueller Typ 8",
+    teaser:"SX8w7 \u00b7 geb. um 412 v. Chr. in Sinope, gest. 323 v. Chr. in Korinth. Philosoph, Begr\u00fcnder des Kynismus, lebte in einer Tonne. Das Krokodil, das jede gesellschaftliche Konvention \u00f6ffentlich zerbiss \u2013 schamlos, kompromisslos, frei.",
+    tags:["Philosophie"], gender:"m"},
   { route:"beruehmte-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", added:"2026-07-22", subtyp:"SX8w9",
     heading:"Ruth Bader Ginsburg \u2013 Sexueller Typ 8",
     teaser:"SX8w9 \u00b7 1933\u20132020. US-Bundesrichterin am Supreme Court, RBG. Pionierin der Geschlechtergleichstellung, legendary dissenter. Das Krokodil, das bleibt \u2013 der Abdruck ist geblieben.",
@@ -40187,6 +40193,70 @@ function donaldTrumpPortraitPage() {
         {route:"subtype/sx8", label:"SX8 \u2013 Das Krokodil: Subtyp-Profil"},
         {route:"beruehmte-bud-spencer", label:"Portr\u00e4t: Bud Spencer (SO8w9)"},
         {route:"beruehmte-michelle-obama", label:"Portr\u00e4t: Michelle Obama (SO8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function diogenesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-diogenes-portrait.jpg" alt="Krokodil" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Diogenes von Sinope</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexueller Typ 8 mit Siebenerfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Philosoph, Begr\u00fcnder des Kynismus, geb. um 412 v. Chr. in Sinope, gest. 323 v. Chr. in Korinth &ndash; Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier des sexuellen Typs 8 &ndash; ein Wesen, das sich um keine gesellschaftliche Ordnung schert, kaum Bed\u00fcrfnisse zeigt und dennoch die volle Aufmerksamkeit jedes Gew\u00e4ssers auf sich zieht, das es betritt. Es lebt \u00f6ffentlich, ungesch\u00fctzt, ohne R\u00fcckzugsort &ndash; und genau das macht es so schwer zu ignorieren.</p>
+          <p class="vb-intro">Diogenes von Sinope, geboren um 412 v. Chr., lebte in einer ausrangierten Tonne (einem Pithos, einem gro\u00dfen Vorratsgef\u00e4\u00df) auf dem Marktplatz von Athen &ndash; ohne Haus, ohne Besitz, ohne Scham. Der Legende nach ging er tags\u00fcber mit einer brennenden Lampe durch die Stra\u00dfen und erkl\u00e4rte auf die Frage, was er suche: \u201eIch suche einen Menschen." Kein Philosoph der Antike hat radikaler \u00f6ffentlich gelebt als er. Das Krokodil verbirgt sich nicht &ndash; es liegt sichtbar am Ufer, und wer vorbeikommt, muss sich mit ihm auseinandersetzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Acht: Schamlosigkeit als Befreiung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den Kern der <strong>sexuellen Acht (SX8)</strong> <em>Desverg\u00fcenza</em> &ndash; Schamlosigkeit. Gemeint ist damit nicht sexuelle Z\u00fcgellosigkeit im engen Sinn, sondern das bewusste, \u00f6ffentliche Hinwegsetzen \u00fcber gesellschaftliche Tabus, Normen und Anpassungszw\u00e4nge. Die SX8 lehnt es ab, sich f\u00fcr das eigene Wesen zu entschuldigen &ndash; sie stellt es aus, ungeschminkt, kompromisslos, oft provokant.</p>
+          <p class="vb-intro">Kaum eine historische Figur verk\u00f6rpert diese Schamlosigkeit reiner als Diogenes. Er masturbierte \u00f6ffentlich auf dem Marktplatz und begr\u00fcndete es damit, dass es schade sei, den Hunger nicht ebenso einfach durch Reiben des Bauches stillen zu k\u00f6nnen. Er urinierte auf Menschen, die ihn beleidigten, und verspottete Platon vor versammeltem Publikum. Nichts davon war Zufall oder mangelnde Selbstkontrolle &ndash; es war Methode. Die Scham selbst war f\u00fcr ihn das eigentliche gesellschaftliche \u00dcbel, das es zu entlarven galt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerfl\u00fcgel: Der Witz als Waffe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerfl\u00fcgel (w7)</strong> gibt der sexuellen Acht eine Leichtigkeit, die den Ernst des Achterkerns nicht mildert, sondern sch\u00e4rft. Wo die reine SX8 mit roher Konfrontation arbeitet, arbeitet die SX8w7 mit Witz, Ironie und Spott &ndash; Waffen, die tiefer treffen, weil sie zum Lachen zwingen, bevor der Stich \u00fcberhaupt bemerkt wird.</p>
+          <p class="vb-intro">Als Alexander der Gro\u00dfe, der m\u00e4chtigste Mann der damaligen Welt, Diogenes besuchte und ihm anbot, jeden Wunsch zu erf\u00fcllen, antwortete der Philosoph nur: \u201eGeh mir aus der Sonne." Als er gefragt wurde, ob er nicht Angst habe, von R\u00e4ubern in seinem armseligen Zuhause bestohlen zu werden, lachte er &ndash; er besa\u00df nichts, was sich zu stehlen lohnte. Der Siebenerfl\u00fcgel macht aus jeder Konfrontation eine Pointe, aus jeder Dem\u00fctigung des Gegen\u00fcbers ein Lachen, das noch Jahrtausende sp\u00e4ter \u00fcberliefert wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Kynismus: Philosophie als gelebter Widerstand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Diogenes begr\u00fcndete mit dem Kynismus (griech. <em>kyon</em>, \u201eHund" &ndash; er selbst nannte sich stolz \u201eder Hund") eine Philosophie, die nicht gelehrt, sondern gelebt wurde. Sein Ziel war die <em>Autarkeia</em>, die vollst\u00e4ndige Unabh\u00e4ngigkeit von gesellschaftlichen Konventionen, Besitz und Ansehen. Reichtum, Ruhm und soziale Stellung galten ihm als Ketten, die Menschen sich selbst anlegten.</p>
+          <p class="vb-intro">Diese Radikalit\u00e4t unterscheidet ihn deutlich von den anderen Subtypen der Acht: Die selbsterhaltende Acht (SP8) sichert Territorium und materiellen Besitz &ndash; Diogenes lehnte beides bewusst ab. Die soziale Acht (SO8) k\u00e4mpft als Besch\u00fctzer f\u00fcr eine Gruppe &ndash; Diogenes war ein radikaler Einzelg\u00e4nger, der keine Gefolgschaft suchte, sondern allein durch sein Beispiel provozierte. Nur die sexuelle Acht greift die Gesellschaft direkt, pers\u00f6nlich und schamlos an, ohne den Umweg \u00fcber Kollektiv oder Besitz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX8w7 ist eine Freiheit, die kaum ein anderer Subtyp erreicht: die vollst\u00e4ndige Unabh\u00e4ngigkeit von der Meinung anderer, gepaart mit dem Mut, jede gesellschaftliche Heuchelei beim Namen zu nennen. Diogenes entlarvte die Doppelmoral seiner Zeit, indem er einfach lebte, wie er dachte &ndash; ohne Rest, ohne Kompromiss.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einer Kompromisslosigkeit, die keine R\u00fccksicht kennt: Diogenes verletzte gezielt, besch\u00e4mte \u00f6ffentlich, respektierte keine sozialen Grenzen. Wer ihm zu nahe kam, wurde nicht geschont. Die sexuelle Acht mit Siebenerfl\u00fcgel kann Provokation so sehr zum Selbstzweck machen, dass Verbindung zu anderen Menschen unm\u00f6glich wird &ndash; das Krokodil, das jeden angreift, der sich n\u00e4hert, bleibt am Ende allein in seinem Fass.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Die Lampe am helllichten Tag</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Acht f\u00fchrt von der Wollust zur Unschuld &ndash; von der zwanghaften Behauptung der eigenen St\u00e4rke zu einer Kraft, die nicht mehr beweisen muss, dass sie unbezwingbar ist. F\u00fcr die SX8w7 bedeutet das, die Schamlosigkeit nicht mehr als Waffe gegen andere einzusetzen, sondern als radikale Ehrlichkeit sich selbst gegen\u00fcber zu leben.</p>
+          <p class="vb-intro">Das Bild von Diogenes mit der Lampe am helllichten Tag, der einen ehrlichen Menschen sucht, ist genau dieser Heilungsimpuls: die Suche nach echter, ungeschminkter Wahrheit &ndash; zuerst bei sich selbst. Der Legende nach starb Diogenes, indem er einfach aufh\u00f6rte zu atmen, im Alter von etwa 89 Jahren, ganz nach seinen eigenen Bedingungen, bis zum letzten Moment ungebunden. Das Krokodil, das nie ein Zuhause brauchte, weil es die ganze Welt als seinen Lebensraum betrachtete.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx8", label:"SX8 \u2013 Das Krokodil: Subtyp-Profil"},
+        {route:"beruehmte-donald-trump", label:"Portr\u00e4t: Donald J. Trump (SX8w7)"},
       ])}
     </div>
   `);
@@ -72705,6 +72775,7 @@ function render() {
     "beruehmte-bud-spencer": budSpencerPortraitPage,
     "beruehmte-adele-neuhauser": adeleNeuhauserPortraitPage,
     "beruehmte-donald-trump": donaldTrumpPortraitPage,
+          "beruehmte-diogenes": diogenesPortraitPage,
           "beruehmte-ruth-bader-ginsburg": ruthBaderGinsburgPortraitPage,
     "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
           "beruehmte-angela-merkel": angelaMerkelPortraitPage,

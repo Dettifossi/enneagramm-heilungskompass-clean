@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "404";
+const APP_BUILD = "405";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -492,6 +492,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Donald J. Trump – Sexual Type 8",
     teaser:"SX8w7 · born 1946. Entrepreneur, media personality, 45th & 47th President of the USA. The crocodile that dominates the stage – loud, unpredictable, passionate and always on the attack. Animal correspondence: Crocodile.",
     tags:["Politik"] },
+  { route:"beruehmte-diogenes", name:"Diogenes of Sinope", added:"2026-08-04", subtyp:"SX8w7",
+    heading:"Diogenes – Sexual Type 8",
+    teaser:"SX8w7 · born c. 412 BC in Sinope, died 323 BC in Corinth. Philosopher, founder of Cynicism, lived in a barrel. The crocodile that publicly tore apart every social convention – shameless, uncompromising, free.",
+    tags:["Philosophie"]},
   { route:"beruehmte-genesis-p-orridge", name:"Genesis P-Orridge", subtyp:"SX8w9",
     heading:"Genesis P-Orridge – Sexual Type 8",
     teaser:"SX8w9 · 1950–2020. Musician, performance artist, occultist, founder of Throbbing Gristle. The crocodile that crossed the boundaries of body, art and identity – and never came back. Animal correspondence: Crocodile.",
@@ -20762,6 +20766,70 @@ function donaldTrumpPortraitPage() {
         {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
         {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
         {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function diogenesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-diogenes-portrait.jpg" alt="Crocodile" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Diogenes of Sinope</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Philosopher, founder of Cynicism, born c. 412 BC in Sinope, died 323 BC in Corinth &ndash; Animal correspondence: Crocodile</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Crocodile</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Crocodile</strong> is the animal of Sexual Type 8 &ndash; a creature that cares nothing for social order, shows almost no needs, and yet draws the full attention of any water it enters. It lives openly, unprotected, without a place to retreat to &ndash; and that is exactly what makes it impossible to ignore.</p>
+          <p class="vb-intro">Diogenes of Sinope, born around 412 BC, lived in a discarded barrel (a pithos, a large storage jar) in the marketplace of Athens &ndash; without a house, without possessions, without shame. According to legend, he walked the streets by daylight carrying a lit lamp, and when asked what he was searching for, replied: “I am looking for an honest man.” No philosopher of antiquity lived more radically in public than he did. The crocodile does not hide &ndash; it lies visible on the shore, and anyone passing by has to reckon with it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Eight: Shamelessness as Liberation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the core of the <strong>Sexual Eight (SX8)</strong> <em>Desvergüenza</em> &ndash; Shamelessness. This does not mean sexual licence in the narrow sense, but the conscious, public disregard for social taboos, norms, and pressures to conform. The SX8 refuses to apologise for her own nature &ndash; she puts it on display, unvarnished, uncompromising, often provocative.</p>
+          <p class="vb-intro">Hardly any historical figure embodies this shamelessness more purely than Diogenes. He masturbated openly in the marketplace, arguing it was a pity that hunger could not be satisfied just as simply by rubbing one's stomach. He urinated on people who insulted him and mocked Plato in front of an assembled crowd. None of this was accident or a lack of self-control &ndash; it was method. For him, shame itself was the true social evil that needed to be exposed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Wit as a Weapon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Sexual Eight a lightness that does not soften the seriousness of the Eight core, but sharpens it. Where the pure SX8 works through raw confrontation, the SX8w7 works through wit, irony and mockery &ndash; weapons that land deeper because they force laughter before the sting is even noticed.</p>
+          <p class="vb-intro">When Alexander the Great, the most powerful man of the age, visited Diogenes and offered to grant him any wish, the philosopher replied only: “Get out of my sunlight.” Asked whether he was not afraid of thieves stealing from his meagre home, he laughed &ndash; he owned nothing worth stealing. The Seven-wing turns every confrontation into a punchline, every humiliation of the other into a laugh that is still remembered millennia later.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Cynicism: Philosophy as Lived Resistance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Diogenes founded Cynicism (from Greek <em>kyon</em>, “dog” &ndash; he proudly called himself “the dog”), a philosophy that was not taught but lived. His goal was <em>autarkeia</em>, complete independence from social convention, possessions, and reputation. Wealth, fame, and social standing were, to him, chains people placed on themselves.</p>
+          <p class="vb-intro">This radicalism clearly distinguishes him from the other subtypes of the Eight: the self-preservation Eight (SP8) secures territory and material possessions &ndash; Diogenes deliberately rejected both. The social Eight (SO8) fights as a protector for a group &ndash; Diogenes was a radical loner who sought no following, provoking instead purely through his own example. Only the Sexual Eight attacks society directly, personally, and shamelessly, without the detour of collective or possession.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX8w7 is a freedom that few other subtypes reach: complete independence from the opinions of others, paired with the courage to name every social hypocrisy by its name. Diogenes exposed the double standards of his time simply by living exactly as he thought &ndash; without reservation, without compromise.</p>
+          <p class="vb-intro">The shadow shows in an uncompromising quality that spares no one: Diogenes deliberately hurt people, publicly shamed them, respected no social boundaries. Whoever came too close was not spared. The Sexual Eight with a Seven-wing can turn provocation into an end in itself so completely that connection to other people becomes impossible &ndash; the crocodile that attacks anyone who approaches ends up alone in its barrel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: The Lamp in Broad Daylight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Eight leads from lust to innocence &ndash; from the compulsive assertion of one's own strength to a power that no longer needs to prove it is invincible. For the SX8w7 this means no longer using shamelessness as a weapon against others, but living it as radical honesty toward oneself.</p>
+          <p class="vb-intro">The image of Diogenes with his lamp in broad daylight, searching for an honest man, is exactly this healing impulse: the search for genuine, unvarnished truth &ndash; starting with oneself. According to legend, Diogenes died simply by holding his breath, at around 89 years old, entirely on his own terms, unbound to the very last moment. The crocodile that never needed a home, because it regarded the whole world as its habitat.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
+        {route:"beruehmte-donald-trump", label:"Portrait: Donald J. Trump (SX8w7)"},
       ])}
     </div>
   `);
@@ -42671,6 +42739,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-michelle-obama": michelleObamaPortraitPage,
       "beruehmte-bud-spencer": budSpencerPortraitPage,
       "beruehmte-donald-trump": donaldTrumpPortraitPage,
+      "beruehmte-diogenes": diogenesPortraitPage,
       "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
       "beruehmte-steffi-graf": steffiGrafPortraitPage,
