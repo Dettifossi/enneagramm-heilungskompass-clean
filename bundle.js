@@ -23820,6 +23820,7 @@ const registerEntries = [
   { term: "Winston Churchill",              route: "beruehmte-winston-churchill",           description: "Portrait: SE8w9 \u00b7 Selbsterhaltender Typ 8 \u00b7 Britischer Staatsmann, Premierminister" },
   { term: "Indra Nooyi",                    route: "beruehmte-indra-nooyi",                 description: "Portrait: SE8w7 \u00b7 Selbsterhaltender Typ 8 \u00b7 Wirtschaftsf\u00fchrerin, ehem. CEO von PepsiCo" },
   { term: "Cynthia Lummis",                 route: "beruehmte-cynthia-lummis",              description: "Portrait: SO8w7 \u00b7 Sozialer Typ 8 \u00b7 US-Senatorin, Bitcoin-Verfechterin" },
+  { term: "Karl Marx",                      route: "beruehmte-karl-marx",                   description: "Portrait: SO8w9 \u00b7 Sozialer Typ 8 \u00b7 Philosoph, \u00d6konom, Begr\u00fcnder des Marxismus" },
   { term: "Alice Schwarzer",               route: "beruehmte-alice-schwarzer",             description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Feministin, EMMA-Gr\u00fcnderin" },
   { term: "Ana de Armas",                  route: "beruehmte-ana-de-armas",                description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, Knives Out" },
   { term: "Angelina Jolie",                route: "beruehmte-angelina-jolie",              description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, UN-Botschafterin" },
@@ -24081,6 +24082,7 @@ const registerEntriesEN = [
   { term: "Winston Churchill", route: "beruehmte-winston-churchill", description: "Portrait: SE8w9 \u00b7 Self-Preservation Type 8 \u00b7 British statesman, Prime Minister" },
   { term: "Indra Nooyi", route: "beruehmte-indra-nooyi", description: "Portrait: SE8w7 \u00b7 Self-Preservation Type 8 \u00b7 Business leader, former CEO of PepsiCo" },
   { term: "Cynthia Lummis", route: "beruehmte-cynthia-lummis", description: "Portrait: SO8w7 \u00b7 Social Type 8 \u00b7 US Senator, Bitcoin advocate" },
+  { term: "Karl Marx", route: "beruehmte-karl-marx", description: "Portrait: SO8w9 \u00b7 Social Type 8 \u00b7 Philosopher, economist, founder of Marxism" },
   { term: "Alice Schwarzer", route: "beruehmte-alice-schwarzer", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Feminist, EMMA founder" },
   { term: "Ana de Armas", route: "beruehmte-ana-de-armas", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, Knives Out" },
   { term: "Angelina Jolie", route: "beruehmte-angelina-jolie", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, UN Ambassador" },
@@ -27167,7 +27169,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "415";
+const APP_BUILD = "416";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -27824,6 +27826,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Bud Spencer \u2013 Sozialer Typ 8",
     teaser:"SO8w9 \u00b7 Carlo Pedersoli, 1929\u20132016. Schauspieler, Schwimmer, Unternehmer, Familienvater. Vier F\u00e4uste f\u00fcr ein Halleluja. Der L\u00f6we, der nicht braucht zu br\u00fcllen \u2013 er ist einfach da. Tierentsprechung: L\u00f6we.",
     tags:["Schauspiel"], gender:"m" },
+  { route:"beruehmte-karl-marx", name:"Karl Marx", added:"2026-08-04", subtyp:"SO8w9",
+    heading:"Karl Marx \u2013 Sozialer Typ 8",
+    teaser:"SO8w9 \u00b7 geb. 1818 in Trier, gest. 1883 in London. Philosoph, \u00d6konom, Begr\u00fcnder des Marxismus. Das Kapital, das Kommunistische Manifest. Der L\u00f6we, der sein Leben lang f\u00fcr die Ausgebeuteten k\u00e4mpfte \u2013 aus dem Schatten heraus, mit einer Wucht, die die Welt bis heute nicht zur Ruhe kommen l\u00e4sst.",
+    tags:["Philosophie","Politik"], gender:"m"},
   { route:"beruehmte-jamaica-kincaid", name:"Jamaica Kincaid", added:"2026-07-22", subtyp:"SO8w9",
     heading:"Jamaica Kincaid \u2013 Soziale Typ 8",
     teaser:"SO8w9 \u00b7 geb. 1949 in Antigua. Schriftstellerin, Essayistin, Harvard-Professorin. Annie John, A Small Place, Lucy. Der L\u00f6we, der schreibt \u2013 sch\u00e4rfer als jede Klage, pr\u00e4ziser als jede Anklage.",
@@ -40281,6 +40287,71 @@ function budSpencerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so8", label:"SO8 \u2013 Der L\u00f6we: Subtyp-Profil"},
         {route:"beruehmte-michelle-obama", label:"Portr\u00e4t: Michelle Obama (SO8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function karlMarxPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-karl-marx-portrait.jpg" alt="L\u00f6we" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karl Marx</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Sozialer Typ 8 mit Neunerfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Philosoph, \u00d6konom, Begr\u00fcnder des Marxismus, 1818&ndash;1883 &ndash; Tierentsprechung: L\u00f6we</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der L\u00f6we</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>L\u00f6we</strong> ist das Tier des sozialen Typs 8 &ndash; ein Wesen, das seine Kraft nicht f\u00fcr sich selbst, sondern f\u00fcr sein Rudel einsetzt. Er muss nicht st\u00e4ndig br\u00fcllen; seine blo\u00dfe Pr\u00e4senz gen\u00fcgt, um Respekt zu erzwingen. Doch wenn das Rudel bedroht ist &ndash; oder wenn er selbst zum Kampf um dessen \u00dcberleben aufruft &ndash; entfaltet er eine Wucht, die niemand ignorieren kann.</p>
+          <p class="vb-intro">Karl Marx, 1818 in Trier geboren, war dieser L\u00f6we: kein lauter Selbstdarsteller, sondern ein Mann, der \u00fcber Jahrzehnte im Verborgenen &ndash; in Bibliotheken, in Armut, im Londoner Exil &ndash; an einem Werk arbeitete, das er als Waffe f\u00fcr die Unterdr\u00fcckten verstand. Er k\u00e4mpfte nicht f\u00fcr sich. Er k\u00e4mpfte f\u00fcr ein Rudel, das er nie pers\u00f6nlich kannte: die Arbeiterklasse der ganzen Welt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Solidarit\u00e4t mit den Ausgebeuteten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft in den Dienst einer Gemeinschaft. Naranjo nannte diesen Subtyp <em>Solidarit\u00e4t</em>: Die SO8 identifiziert sich mit den Machtlosen und stellt sich unerschrocken vor sie &ndash; nicht aus Mitleid, sondern aus einer tiefen Emp\u00f6rung \u00fcber das Unrecht selbst. Sie k\u00e4mpft nicht f\u00fcr abstrakte Prinzipien, sondern f\u00fcr konkrete Menschen, deren Leid sie als eigenes empfindet.</p>
+          <p class="vb-intro">Marx' gesamtes Lebenswerk ist SO8 in Reinform: Er analysierte nicht neutral, er klagte an. <em>Das Kapital</em> ist kein trockenes Wirtschaftslehrbuch, sondern eine minuti\u00f6se Anklageschrift gegen die Ausbeutung der Arbeiterklasse durch das Kapital. Er wollte nicht nur verstehen, wie der Kapitalismus funktioniert &ndash; er wollte ihn st\u00fcrzen. Die ber\u00fchmte elfte Feuerbach-These bringt es auf den Punkt: \u201eDie Philosophen haben die Welt nur verschieden interpretiert; es kommt aber darauf an, sie zu ver\u00e4ndern."</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\u00fcgel: Die Geduld des Systematikers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\u00fcgel</strong> verleiht der sozialen Acht eine Qualit\u00e4t, die der reinen Acht oft fehlt: Geduld, Ausdauer und die F\u00e4higkeit, ein gewaltiges, komplexes System \u00fcber Jahrzehnte hinweg gedanklich zu durchdringen, statt impulsiv zu handeln. Die SO8w7 k\u00e4mpft mit Feuer und Tempo. Die <strong>SO8w9</strong> k\u00e4mpft mit stiller, unerbittlicher Beharrlichkeit.</p>
+          <p class="vb-intro">Marx arbeitete \u00fcber 30 Jahre am <em>Kapital</em> &ndash; der erste Band erschien 1867, die weiteren B\u00e4nde blieben bei seinem Tod 1883 unvollendet und wurden von Friedrich Engels aus seinem Nachlass fertiggestellt. Diese jahrzehntelange, oft von Krankheit, Armut und famili\u00e4ren Trag\u00f6dien \u00fcberschattete Systemarbeit ist die Handschrift des Neunerfl\u00fcgels: nicht der schnelle Schlag, sondern das langsame, unaufhaltsame Fundamentgraben unter einem ganzen Weltsystem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von Trier nach London</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Studium der Rechtswissenschaft und Philosophie in Bonn und Berlin wandte sich Marx dem Journalismus zu, wurde wegen seiner radikalen Schriften mehrfach aus Preu\u00dfen, Frankreich und Belgien ausgewiesen und lie\u00df sich schlie\u00dflich 1849 in London nieder, wo er bis zu seinem Tod im Exil lebte. Zusammen mit Friedrich Engels verfasste er 1848 das <em>Kommunistische Manifest</em>, das mit dem ber\u00fchmten Satz beginnt: \u201eEin Gespenst geht um in Europa &ndash; das Gespenst des Kommunismus."</p>
+          <p class="vb-intro">Marx lebte w\u00e4hrend seiner Londoner Jahre in bitterer Armut, oft finanziell abh\u00e4ngig von Engels, w\u00e4hrend drei seiner sieben Kinder in jungen Jahren starben &ndash; teils an den Folgen der Entbehrungen. Trotzdem arbeitete er t\u00e4glich im Lesesaal des Britischen Museums an seinem \u00f6konomischen Hauptwerk. Der L\u00f6we zog sich nicht zur\u00fcck, als das Leben ihn niederwarf. Er arbeitete weiter, f\u00fcr ein Ziel, das gr\u00f6\u00dfer war als sein eigenes Wohlergehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO8w9 ist ihre <strong>unersch\u00fctterliche Beharrlichkeit im Dienst einer Sache</strong>, die gr\u00f6\u00dfer ist als sie selbst. Marx entwickelte mit dem historischen Materialismus und der Mehrwerttheorie ein analytisches Instrumentarium, das die Geistes- und Sozialwissenschaften bis heute pr\u00e4gt &ndash; unabh\u00e4ngig davon, wie man zu seinen politischen Schlussfolgerungen steht.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einer Kompromisslosigkeit, die im 20. Jahrhundert von totalit\u00e4ren Regimen &ndash; der Sowjetunion, Maos China, weiteren kommunistischen Diktaturen &ndash; f\u00fcr Massenverbrechen instrumentalisiert wurde, weit \u00fcber das hinaus, was Marx selbst vorausgesehen oder gewollt h\u00e4tte. Die soziale Acht, die f\u00fcr die Unterdr\u00fcckten k\u00e4mpft, kann in ihrer Radikalit\u00e4t auch zum Rechtfertigungssystem f\u00fcr neue Formen der Unterdr\u00fcckung werden &ndash; ein Erbe, mit dem sich die Nachwelt bis heute auseinandersetzen muss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der L\u00f6we, der die Welt bis heute nicht zur Ruhe kommen l\u00e4sst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Acht f\u00fchrt von der Wollust zur Unschuld &ndash; von der zwanghaften Behauptung der eigenen Position zu einer Kraft, die auch Nuancen und Gegenargumente zulassen kann. Marx selbst starb 1883 verarmt, in London, an seinem Schreibtisch sitzend, ohne den Umsturz zu erleben, den er theoretisch begr\u00fcndet hatte &ndash; die eigentliche Weltwirkung seines Werks entfaltete sich erst nach seinem Tod.</p>
+          <p class="vb-intro">Kein Denker des 19. Jahrhunderts hat die politische, wirtschaftliche und intellektuelle Landkarte der Welt so nachhaltig ver\u00e4ndert wie Karl Marx &ndash; im Guten wie im Schlechten. Der L\u00f6we, der aus dem Schatten der Bibliothek heraus k\u00e4mpfte, nicht auf der offenen Savanne, dessen Br\u00fcllen aber bis heute in jeder Debatte \u00fcber Kapitalismus, Ausbeutung und soziale Gerechtigkeit nachhallt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so8", label:"SO8 \u2013 Der L\u00f6we: Subtyp-Profil"},
+        {route:"beruehmte-bud-spencer", label:"Portr\u00e4t: Bud Spencer (SO8w9)"},
+        {route:"beruehmte-jamaica-kincaid", label:"Portr\u00e4t: Jamaica Kincaid (SO8w9)"},
       ])}
     </div>
   `);
@@ -72987,6 +73058,7 @@ function render() {
     "beruehmte-michelle-obama": michelleObamaPortraitPage,
           "beruehmte-jamaica-kincaid": jamaicaKincaidPortraitPage,
     "beruehmte-bud-spencer": budSpencerPortraitPage,
+    "beruehmte-karl-marx": karlMarxPortraitPage,
     "beruehmte-adele-neuhauser": adeleNeuhauserPortraitPage,
     "beruehmte-donald-trump": donaldTrumpPortraitPage,
           "beruehmte-diogenes": diogenesPortraitPage,

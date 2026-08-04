@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "415";
+const APP_BUILD = "416";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -710,6 +710,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Bud Spencer – Sozialer Typ 8",
     teaser:"SO8w9 · Carlo Pedersoli, 1929–2016. Schauspieler, Schwimmer, Unternehmer, Familienvater. Vier Fäuste für ein Halleluja. Der Löwe, der nicht braucht zu brüllen – er ist einfach da. Tierentsprechung: Löwe.",
     tags:["Schauspiel"], gender:"m" },
+  { route:"beruehmte-karl-marx", name:"Karl Marx", added:"2026-08-04", subtyp:"SO8w9",
+    heading:"Karl Marx – Sozialer Typ 8",
+    teaser:"SO8w9 · geb. 1818 in Trier, gest. 1883 in London. Philosoph, Ökonom, Begründer des Marxismus. Das Kapital, das Kommunistische Manifest. Der Löwe, der sein Leben lang für die Ausgebeuteten kämpfte – aus dem Schatten heraus, mit einer Wucht, die die Welt bis heute nicht zur Ruhe kommen lässt.",
+    tags:["Philosophie","Politik"], gender:"m"},
   { route:"beruehmte-jamaica-kincaid", name:"Jamaica Kincaid", added:"2026-07-22", subtyp:"SO8w9",
     heading:"Jamaica Kincaid – Soziale Typ 8",
     teaser:"SO8w9 · geb. 1949 in Antigua. Schriftstellerin, Essayistin, Harvard-Professorin. Annie John, A Small Place, Lucy. Der Löwe, der schreibt – schärfer als jede Klage, präziser als jede Anklage.",
@@ -13167,6 +13171,71 @@ function budSpencerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
         {route:"beruehmte-michelle-obama", label:"Porträt: Michelle Obama (SO8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function karlMarxPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-karl-marx-portrait.jpg" alt="Löwe" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karl Marx</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Sozialer Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Philosoph, Ökonom, Begründer des Marxismus, 1818&ndash;1883 &ndash; Tierentsprechung: Löwe</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Löwe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 &ndash; ein Wesen, das seine Kraft nicht für sich selbst, sondern für sein Rudel einsetzt. Er muss nicht ständig brüllen; seine bloße Präsenz genügt, um Respekt zu erzwingen. Doch wenn das Rudel bedroht ist &ndash; oder wenn er selbst zum Kampf um dessen Überleben aufruft &ndash; entfaltet er eine Wucht, die niemand ignorieren kann.</p>
+          <p class="vb-intro">Karl Marx, 1818 in Trier geboren, war dieser Löwe: kein lauter Selbstdarsteller, sondern ein Mann, der über Jahrzehnte im Verborgenen &ndash; in Bibliotheken, in Armut, im Londoner Exil &ndash; an einem Werk arbeitete, das er als Waffe für die Unterdrückten verstand. Er kämpfte nicht für sich. Er kämpfte für ein Rudel, das er nie persönlich kannte: die Arbeiterklasse der ganzen Welt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Solidarität mit den Ausgebeuteten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft in den Dienst einer Gemeinschaft. Naranjo nannte diesen Subtyp <em>Solidarität</em>: Die SO8 identifiziert sich mit den Machtlosen und stellt sich unerschrocken vor sie &ndash; nicht aus Mitleid, sondern aus einer tiefen Empörung über das Unrecht selbst. Sie kämpft nicht für abstrakte Prinzipien, sondern für konkrete Menschen, deren Leid sie als eigenes empfindet.</p>
+          <p class="vb-intro">Marx' gesamtes Lebenswerk ist SO8 in Reinform: Er analysierte nicht neutral, er klagte an. <em>Das Kapital</em> ist kein trockenes Wirtschaftslehrbuch, sondern eine minutiöse Anklageschrift gegen die Ausbeutung der Arbeiterklasse durch das Kapital. Er wollte nicht nur verstehen, wie der Kapitalismus funktioniert &ndash; er wollte ihn stürzen. Die berühmte elfte Feuerbach-These bringt es auf den Punkt: „Die Philosophen haben die Welt nur verschieden interpretiert; es kommt aber darauf an, sie zu verändern."</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die Geduld des Systematikers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> verleiht der sozialen Acht eine Qualität, die der reinen Acht oft fehlt: Geduld, Ausdauer und die Fähigkeit, ein gewaltiges, komplexes System über Jahrzehnte hinweg gedanklich zu durchdringen, statt impulsiv zu handeln. Die SO8w7 kämpft mit Feuer und Tempo. Die <strong>SO8w9</strong> kämpft mit stiller, unerbittlicher Beharrlichkeit.</p>
+          <p class="vb-intro">Marx arbeitete über 30 Jahre am <em>Kapital</em> &ndash; der erste Band erschien 1867, die weiteren Bände blieben bei seinem Tod 1883 unvollendet und wurden von Friedrich Engels aus seinem Nachlass fertiggestellt. Diese jahrzehntelange, oft von Krankheit, Armut und familiären Tragödien überschattete Systemarbeit ist die Handschrift des Neunerflügels: nicht der schnelle Schlag, sondern das langsame, unaufhaltsame Fundamentgraben unter einem ganzen Weltsystem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von Trier nach London</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Studium der Rechtswissenschaft und Philosophie in Bonn und Berlin wandte sich Marx dem Journalismus zu, wurde wegen seiner radikalen Schriften mehrfach aus Preußen, Frankreich und Belgien ausgewiesen und ließ sich schließlich 1849 in London nieder, wo er bis zu seinem Tod im Exil lebte. Zusammen mit Friedrich Engels verfasste er 1848 das <em>Kommunistische Manifest</em>, das mit dem berühmten Satz beginnt: „Ein Gespenst geht um in Europa &ndash; das Gespenst des Kommunismus."</p>
+          <p class="vb-intro">Marx lebte während seiner Londoner Jahre in bitterer Armut, oft finanziell abhängig von Engels, während drei seiner sieben Kinder in jungen Jahren starben &ndash; teils an den Folgen der Entbehrungen. Trotzdem arbeitete er täglich im Lesesaal des Britischen Museums an seinem ökonomischen Hauptwerk. Der Löwe zog sich nicht zurück, als das Leben ihn niederwarf. Er arbeitete weiter, für ein Ziel, das größer war als sein eigenes Wohlergehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO8w9 ist ihre <strong>unerschütterliche Beharrlichkeit im Dienst einer Sache</strong>, die größer ist als sie selbst. Marx entwickelte mit dem historischen Materialismus und der Mehrwerttheorie ein analytisches Instrumentarium, das die Geistes- und Sozialwissenschaften bis heute prägt &ndash; unabhängig davon, wie man zu seinen politischen Schlussfolgerungen steht.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einer Kompromisslosigkeit, die im 20. Jahrhundert von totalitären Regimen &ndash; der Sowjetunion, Maos China, weiteren kommunistischen Diktaturen &ndash; für Massenverbrechen instrumentalisiert wurde, weit über das hinaus, was Marx selbst vorausgesehen oder gewollt hätte. Die soziale Acht, die für die Unterdrückten kämpft, kann in ihrer Radikalität auch zum Rechtfertigungssystem für neue Formen der Unterdrückung werden &ndash; ein Erbe, mit dem sich die Nachwelt bis heute auseinandersetzen muss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Löwe, der die Welt bis heute nicht zur Ruhe kommen lässt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Acht führt von der Wollust zur Unschuld &ndash; von der zwanghaften Behauptung der eigenen Position zu einer Kraft, die auch Nuancen und Gegenargumente zulassen kann. Marx selbst starb 1883 verarmt, in London, an seinem Schreibtisch sitzend, ohne den Umsturz zu erleben, den er theoretisch begründet hatte &ndash; die eigentliche Weltwirkung seines Werks entfaltete sich erst nach seinem Tod.</p>
+          <p class="vb-intro">Kein Denker des 19. Jahrhunderts hat die politische, wirtschaftliche und intellektuelle Landkarte der Welt so nachhaltig verändert wie Karl Marx &ndash; im Guten wie im Schlechten. Der Löwe, der aus dem Schatten der Bibliothek heraus kämpfte, nicht auf der offenen Savanne, dessen Brüllen aber bis heute in jeder Debatte über Kapitalismus, Ausbeutung und soziale Gerechtigkeit nachhallt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"beruehmte-bud-spencer", label:"Porträt: Bud Spencer (SO8w9)"},
+        {route:"beruehmte-jamaica-kincaid", label:"Porträt: Jamaica Kincaid (SO8w9)"},
       ])}
     </div>
   `);
@@ -45873,6 +45942,7 @@ function render() {
     "beruehmte-michelle-obama": michelleObamaPortraitPage,
           "beruehmte-jamaica-kincaid": jamaicaKincaidPortraitPage,
     "beruehmte-bud-spencer": budSpencerPortraitPage,
+    "beruehmte-karl-marx": karlMarxPortraitPage,
     "beruehmte-adele-neuhauser": adeleNeuhauserPortraitPage,
     "beruehmte-donald-trump": donaldTrumpPortraitPage,
           "beruehmte-diogenes": diogenesPortraitPage,

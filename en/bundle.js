@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "408";
+const APP_BUILD = "409";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -488,6 +488,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Bud Spencer – Social Type 8",
     teaser:"SO8w9 · Carlo Pedersoli, 1929–2016. Actor, swimmer, entrepreneur, family man. Four Fists for a Halleluja. The lion that does not need to roar – it is simply there. Animal correspondence: Lion.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-karl-marx", name:"Karl Marx", added:"2026-08-04", subtyp:"SO8w9",
+    heading:"Karl Marx – Social Type 8",
+    teaser:"SO8w9 · born 1818 in Trier, died 1883 in London. Philosopher, economist, founder of Marxism. Das Kapital, the Communist Manifesto. The lion that fought his whole life for the exploited – from the shadows, with a force that the world has not settled since.",
+    tags:["Philosophie","Politik"], gender:"m"},
   { route:"beruehmte-donald-trump", name:"Donald J. Trump", subtyp:"SX8w7",
     heading:"Donald J. Trump – Sexual Type 8",
     teaser:"SX8w7 · born 1946. Entrepreneur, media personality, 45th & 47th President of the USA. The crocodile that dominates the stage – loud, unpredictable, passionate and always on the attack. Animal correspondence: Crocodile.",
@@ -20912,6 +20916,70 @@ function budSpencerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
         {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function karlMarxPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-karl-marx-portrait.jpg" alt="Lion" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karl Marx</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Social Type 8 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Philosopher, economist, founder of Marxism, 1818&ndash;1883 &ndash; Animal correspondence: Lion</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Lion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Lion</strong> is the animal of Social Type 8 &ndash; a creature that uses its strength not for itself, but for its pride. It does not need to roar constantly; its mere presence commands respect. But when the pride is threatened &ndash; or when it calls for a fight for the pride's survival &ndash; it unleashes a force no one can ignore.</p>
+          <p class="vb-intro">Karl Marx, born in 1818 in Trier, was this lion: not a loud self-promoter, but a man who spent decades working in obscurity &ndash; in libraries, in poverty, in London exile &ndash; on a body of work he understood as a weapon for the oppressed. He did not fight for himself. He fought for a pride he never personally knew: the working class of the entire world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Eight: Solidarity with the Exploited</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Eight (SO8)</strong> puts its strength in the service of a community. Naranjo called this subtype <em>Solidarity</em>: the SO8 identifies with the powerless and stands in front of them without fear &ndash; not out of pity, but out of deep indignation at injustice itself. It does not fight for abstract principles, but for concrete people whose suffering it feels as its own.</p>
+          <p class="vb-intro">Marx's entire life's work is SO8 in its purest form: he did not analyse neutrally, he indicted. <em>Das Kapital</em> is no dry economics textbook, but a meticulous indictment of the exploitation of the working class by capital. He did not merely want to understand how capitalism works &ndash; he wanted to overthrow it. His famous eleventh thesis on Feuerbach puts it plainly: “The philosophers have only interpreted the world in various ways; the point, however, is to change it.”</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: The Patience of the Systematist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> gives the Social Eight a quality the pure Eight often lacks: patience, endurance, and the ability to think through a vast, complex system over decades rather than act impulsively. The SO8w7 fights with fire and speed. The <strong>SO8w9</strong> fights with quiet, relentless persistence.</p>
+          <p class="vb-intro">Marx worked on <em>Das Kapital</em> for over 30 years &ndash; the first volume appeared in 1867, while the later volumes remained unfinished at his death in 1883 and were completed from his notes by Friedrich Engels. This decades-long work of building a system, often overshadowed by illness, poverty, and family tragedy, is the signature of the Nine-wing: not the fast strike, but the slow, unstoppable digging of a foundation beneath an entire world system.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Trier to London</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After studying law and philosophy in Bonn and Berlin, Marx turned to journalism, was expelled from Prussia, France, and Belgium multiple times for his radical writings, and finally settled in London in 1849, where he lived in exile until his death. Together with Friedrich Engels, he wrote the <em>Communist Manifesto</em> in 1848, which opens with the famous line: “A spectre is haunting Europe &ndash; the spectre of communism.”</p>
+          <p class="vb-intro">During his London years, Marx lived in bitter poverty, often financially dependent on Engels, while three of his seven children died young &ndash; partly as a result of the family's deprivation. Nonetheless, he worked daily in the reading room of the British Museum on his major economic work. The lion did not withdraw when life struck him down. He kept working, for a goal larger than his own well-being.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO8w9 is its <strong>unshakeable persistence in service of a cause</strong> larger than itself. With historical materialism and the theory of surplus value, Marx developed an analytical toolkit that still shapes the humanities and social sciences today &ndash; regardless of how one views his political conclusions.</p>
+          <p class="vb-intro">The shadow shows in an uncompromising quality that, in the 20th century, was instrumentalised by totalitarian regimes &ndash; the Soviet Union, Mao's China, other communist dictatorships &ndash; for mass atrocities far beyond anything Marx himself foresaw or wanted. The Social Eight that fights for the oppressed can, in its radicalism, also become a justification system for new forms of oppression &ndash; a legacy that posterity is still grappling with today.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Lion the World Has Not Settled Since</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Eight leads from lust to innocence &ndash; from the compulsive assertion of one's own position to a strength that can also allow for nuance and counterargument. Marx himself died in 1883, impoverished, in London, sitting at his desk, without witnessing the overthrow he had theoretically justified &ndash; the true global impact of his work unfolded only after his death.</p>
+          <p class="vb-intro">No 19th-century thinker changed the political, economic, and intellectual map of the world as lastingly as Karl Marx &ndash; for better and for worse. The lion who fought from the shadow of the library, not on the open savanna, whose roar still echoes today in every debate about capitalism, exploitation, and social justice.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
+        {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
       ])}
     </div>
   `);
@@ -42943,6 +43011,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-toni-morrison": toniMorrisonPortraitPage,
       "beruehmte-michelle-obama": michelleObamaPortraitPage,
       "beruehmte-bud-spencer": budSpencerPortraitPage,
+      "beruehmte-karl-marx": karlMarxPortraitPage,
       "beruehmte-donald-trump": donaldTrumpPortraitPage,
       "beruehmte-diogenes": diogenesPortraitPage,
       "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
