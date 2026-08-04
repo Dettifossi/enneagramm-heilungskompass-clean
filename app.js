@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "433";
+const APP_BUILD = "434";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -14305,7 +14305,7 @@ function marioBarthPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit der Masse</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> nannte Naranjo <em>Verschmelzung</em>: Frieden durch vollständiges Aufgehen in einer anderen Person, einem Publikum, einer Stimmung. Die SX9 verliert dabei nicht sich selbst &ndash; sie findet sich gerade in diesem Zustand des Einsseins mit dem Gegenüber.</p>
-          <p class="vb-intro">Barths Bühnenprogramme &ndash; „Männer sind Schweine, Frauen aber auch", „Männer sind primitiv, aber glücklich!", „Männer sind peinlich, Frauen manchmal auch!" &ndash; leben genau von dieser Verschmelzung: Er spricht nicht über das Publikum, er wird zur Stimme des Publikums. Jeder Scherz über Alltagsstreit zwischen Mann und Frau funktioniert nur, weil Millionen sich darin sofort wiedererkennen. Das ist keine Beobachtung von außen &ndash; das ist Einssein mit der kollektiven Erfahrung.</p>
+          <p class="vb-intro">Barths Bühnenprogramme &ndash; „Männer sind Schweine, Frauen aber auch", „Männer sind primitiv, aber glücklich!", „Männer sind peinlich, Frauen manchmal auch!" &ndash; leben genau von dieser Verschmelzung: Er spricht nicht über das Publikum, er wird zur Stimme des Publikums. Jeder Scherz über Alltagsstreitigkeiten zwischen Mann und Frau funktioniert nur, weil Millionen sich darin sofort wiedererkennen. Das ist keine Beobachtung von außen &ndash; das ist Einssein mit der kollektiven Erfahrung.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Achterflügel: Wucht im entspannten Auftritt</h2>

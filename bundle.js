@@ -27183,7 +27183,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "433";
+const APP_BUILD = "434";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -41435,7 +41435,7 @@ function marioBarthPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit der Masse</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> nannte Naranjo <em>Verschmelzung</em>: Frieden durch vollst\u00e4ndiges Aufgehen in einer anderen Person, einem Publikum, einer Stimmung. Die SX9 verliert dabei nicht sich selbst &ndash; sie findet sich gerade in diesem Zustand des Einsseins mit dem Gegen\u00fcber.</p>
-          <p class="vb-intro">Barths B\u00fchnenprogramme &ndash; \u201eM\u00e4nner sind Schweine, Frauen aber auch", \u201eM\u00e4nner sind primitiv, aber gl\u00fccklich!", \u201eM\u00e4nner sind peinlich, Frauen manchmal auch!" &ndash; leben genau von dieser Verschmelzung: Er spricht nicht \u00fcber das Publikum, er wird zur Stimme des Publikums. Jeder Scherz \u00fcber Alltagsstreit zwischen Mann und Frau funktioniert nur, weil Millionen sich darin sofort wiedererkennen. Das ist keine Beobachtung von au\u00dfen &ndash; das ist Einssein mit der kollektiven Erfahrung.</p>
+          <p class="vb-intro">Barths B\u00fchnenprogramme &ndash; \u201eM\u00e4nner sind Schweine, Frauen aber auch", \u201eM\u00e4nner sind primitiv, aber gl\u00fccklich!", \u201eM\u00e4nner sind peinlich, Frauen manchmal auch!" &ndash; leben genau von dieser Verschmelzung: Er spricht nicht \u00fcber das Publikum, er wird zur Stimme des Publikums. Jeder Scherz \u00fcber Alltagsstreitigkeiten zwischen Mann und Frau funktioniert nur, weil Millionen sich darin sofort wiedererkennen. Das ist keine Beobachtung von au\u00dfen &ndash; das ist Einssein mit der kollektiven Erfahrung.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Achterfl\u00fcgel: Wucht im entspannten Auftritt</h2>
