@@ -23821,6 +23821,7 @@ const registerEntries = [
   { term: "Indra Nooyi",                    route: "beruehmte-indra-nooyi",                 description: "Portrait: SE8w7 \u00b7 Selbsterhaltender Typ 8 \u00b7 Wirtschaftsf\u00fchrerin, ehem. CEO von PepsiCo" },
   { term: "Cynthia Lummis",                 route: "beruehmte-cynthia-lummis",              description: "Portrait: SO8w7 \u00b7 Sozialer Typ 8 \u00b7 US-Senatorin, Bitcoin-Verfechterin" },
   { term: "Karl Marx",                      route: "beruehmte-karl-marx",                   description: "Portrait: SO8w9 \u00b7 Sozialer Typ 8 \u00b7 Philosoph, \u00d6konom, Begr\u00fcnder des Marxismus" },
+  { term: "Eli Jaxon-Bear",                 route: "beruehmte-eli-jaxon-bear",              description: "Portrait: SX8w9 \u00b7 Sexueller Typ 8 \u00b7 Spiritueller Lehrer, Autor" },
   { term: "Alice Schwarzer",               route: "beruehmte-alice-schwarzer",             description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Feministin, EMMA-Gr\u00fcnderin" },
   { term: "Ana de Armas",                  route: "beruehmte-ana-de-armas",                description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, Knives Out" },
   { term: "Angelina Jolie",                route: "beruehmte-angelina-jolie",              description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, UN-Botschafterin" },
@@ -24083,6 +24084,7 @@ const registerEntriesEN = [
   { term: "Indra Nooyi", route: "beruehmte-indra-nooyi", description: "Portrait: SE8w7 \u00b7 Self-Preservation Type 8 \u00b7 Business leader, former CEO of PepsiCo" },
   { term: "Cynthia Lummis", route: "beruehmte-cynthia-lummis", description: "Portrait: SO8w7 \u00b7 Social Type 8 \u00b7 US Senator, Bitcoin advocate" },
   { term: "Karl Marx", route: "beruehmte-karl-marx", description: "Portrait: SO8w9 \u00b7 Social Type 8 \u00b7 Philosopher, economist, founder of Marxism" },
+  { term: "Eli Jaxon-Bear", route: "beruehmte-eli-jaxon-bear", description: "Portrait: SX8w9 \u00b7 Sexual Type 8 \u00b7 Spiritual teacher, author" },
   { term: "Alice Schwarzer", route: "beruehmte-alice-schwarzer", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Feminist, EMMA founder" },
   { term: "Ana de Armas", route: "beruehmte-ana-de-armas", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, Knives Out" },
   { term: "Angelina Jolie", route: "beruehmte-angelina-jolie", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, UN Ambassador" },
@@ -27169,7 +27171,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "417";
+const APP_BUILD = "418";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -27854,6 +27856,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Genesis P-Orridge \u2013 Sexueller Typ 8",
     teaser:"SX8w9 \u00b7 1950\u20132020. Musiker, Performance-K\u00fcnstler, Okkultist, Gr\u00fcnder von Throbbing Gristle. Das Krokodil, das die Grenzen des K\u00f6rpers, der Kunst und der Identit\u00e4t \u00fcberschritt \u2013 und nie zur\u00fcckkam. Tierentsprechung: Krokodil.",
     tags:["Musik","Kunst"] , gender:"m"},
+  { route:"beruehmte-eli-jaxon-bear", name:"Eli Jaxon-Bear", added:"2026-08-04", subtyp:"SX8w9",
+    heading:"Eli Jaxon-Bear \u2013 Sexueller Typ 8",
+    teaser:"SX8w9 \u00b7 geb. 1941. Spiritueller Lehrer, Sch\u00fcler von Papaji, Autor von \u201eFrom Fixation to Freedom\u201c. Das Krokodil, das die eigene Fixierung durchschaute \u2013 und zum Wegweiser f\u00fcr die Befreiung anderer wurde.",
+    tags:["Spiritualit\u00e4t"], gender:"m"},
   { route:"beruehmte-james-levine", name:"James Levine", added:"2026-07-22", subtyp:"SE9w1",
     heading:"James Levine \u2013 Selbsterhaltender Typ 9",
     teaser:"SE9w1 \u00b7 1943\u20132021. Dirigent, 40 Jahre Musikdirektor der Metropolitan Opera New York. Der Elefant, der das Haus bewohnte \u2013 vollst\u00e4ndige Versenkung, langer Atem, und ein Schatten, der das Bild f\u00fcr immer teilt.",
@@ -40662,6 +40668,70 @@ function genesisPOrridgePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx8", label:"SX8 \u2013 Das Krokodil: Subtyp-Profil"},
         {route:"beruehmte-donald-trump", label:"Portr\u00e4t: Donald J. Trump (SX8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function eliJaxonBearPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-eli-jaxon-bear-portrait.jpg" alt="Krokodil" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Eli Jaxon-Bear</p>
+        <p class="krim-portrait-typ">SX8w9 &middot; Sexueller Typ 8 mit Neunerfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Spiritueller Lehrer &amp; Autor, geb. 1941 &ndash; Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier des sexuellen Typs 8 &ndash; ein Wesen, das nicht durch Anpassung \u00fcberlebt, sondern durch unersch\u00fctterliche Pr\u00e4senz. Es liegt reglos unter der Wasseroberfl\u00e4che, geduldig, urt\u00fcmlich, und wenn es zuschnappt, gibt es kein Zur\u00fcck. Doch das Krokodil kann auch etwas anderes: still werden, so still, dass man vergisst, dass unter der Oberfl\u00e4che \u00fcberhaupt etwas lauert &ndash; bis der entscheidende Moment kommt.</p>
+          <p class="vb-intro">Eli Jaxon-Bear, geboren 1941, war in jungen Jahren ein gl\u00fchender politischer Aktivist der amerikanischen Linken der 1960er und 1970er Jahre &ndash; kompromisslos, konfrontativ, immer im Kampf. 1974 reiste er nach Indien, um dort, wie er selbst sagte, seine Suche nach Wahrheit an ihr Ende zu bringen &ndash; und traf auf H. W. L. Poonja, genannt Papaji, einen Sch\u00fcler des gro\u00dfen Weisen Ramana Maharshi. Was folgte, war keine sanfte Bekehrung. Es war die vollst\u00e4ndige Kapitulation eines Krokodils, das erkannte, dass sein eigenes Bei\u00dfen die letzte Fixierung war, die es loslassen musste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Acht: Besitzergreifung als Wahrheitssuche</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong> nannte Naranjo <em>Besitzergreifung</em> &ndash; einen Hunger nach totaler, ungeteilter Intensit\u00e4t, der keine halben Wahrheiten und keine halben Verbindungen duldet. Die SX8 will das Ganze, sofort, ohne Kompromiss. Wenn sie sich einer Sache verschreibt, tut sie es vollst\u00e4ndig &ndash; oder gar nicht.</p>
+          <p class="vb-intro">Jaxon-Bears fr\u00fches Leben war genau dieser Hunger, gerichtet auf Gerechtigkeit und Revolution: Er k\u00e4mpfte in der amerikanischen B\u00fcrgerrechts- und Anti-Kriegsbewegung mit derselben Kompromisslosigkeit, mit der er sp\u00e4ter die spirituelle Erleuchtung suchte. Als er schlie\u00dflich vor Papaji sa\u00df, verlangte er nicht nach Trost oder Technik &ndash; er verlangte nach der ganzen Wahrheit, sofort. Die SX8 handelt nie halbherzig, auch nicht auf dem spirituellen Weg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\u00fcgel: Die Stille nach dem Sturm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\u00fcgel</strong> gibt der sexuellen Acht eine Qualit\u00e4t, die auf den ersten Blick paradox wirkt: Ruhe, Weite, die F\u00e4higkeit, in die Stille einzutauchen, statt sich in ihr zu verlieren. Die SX8w7 k\u00e4mpft mit Feuer und Tempo. Die <strong>SX8w9</strong> tr\u00e4gt eine tiefere, ruhende Intensit\u00e4t &ndash; ein Krokodil, das gelernt hat, dass die gr\u00f6\u00dfte Kraft manchmal darin liegt, vollkommen still zu werden.</p>
+          <p class="vb-intro">Genau diese Verbindung zeigt sich in Jaxon-Bears Weg vom k\u00e4mpferischen Aktivisten zum stillen Lehrer der Nicht-Dualit\u00e4t. Er tauschte den lauten Widerstand gegen Ungerechtigkeit nicht gegen Gleichg\u00fcltigkeit ein, sondern gegen eine tiefere, ruhigere Form von Klarheit. Der Neunerfl\u00fcgel erlaubte ihm, in der absoluten Stille der Selbsterkenntnis anzukommen, ohne die rohe Kraft der Acht zu verlieren &ndash; er nutzt sie seither, um andere ebenso schonungslos mit ihrer eigenen Wahrheit zu konfrontieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Fixiertsein zur Freiheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jaxon-Bear ist einer der wenigen spirituellen Lehrer, die das Enneagramm der Pers\u00f6nlichkeitsfixierungen direkt mit dem nicht-dualen Erwachen verbinden. Sein Hauptwerk <em>From Fixation to Freedom: The Enneagram of Liberation</em> beschreibt die neun Fixierungen nicht als blo\u00dfes Pers\u00f6nlichkeitsmodell, sondern als neun verschiedene Wege, wie das Ego sich selbst als real erlebt &ndash; und als neun Wege, diese Illusion zu durchschauen.</p>
+          <p class="vb-intro">Gemeinsam mit seiner Frau Toni Jaxon-Bear gr\u00fcndete er die Leela Foundation und h\u00e4lt seit Jahrzehnten Retreats und Satsangs weltweit, in denen er Menschen direkt mit der Frage konfrontiert, wer sie jenseits ihrer Pers\u00f6nlichkeitsfixierung wirklich sind. Kein sanftes Coaching, sondern die direkte, oft unbequeme Einladung, die eigene Fixierung als Fixierung zu erkennen &ndash; und loszulassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX8w9 ist ihre <strong>F\u00e4higkeit, radikale Konfrontation mit tiefer Ruhe zu verbinden</strong>. Jaxon-Bear konfrontiert Sch\u00fcler direkt mit ihren Selbstt\u00e4uschungen &ndash; ohne die H\u00e4rte, die bei anderen Achtern zu Verletzung f\u00fchren kann, weil der Neunerfl\u00fcgel diese Direktheit in eine Weite einbettet, die nicht verurteilt, sondern einl\u00e4dt.</p>
+          <p class="vb-intro">Der Schatten liegt in einem Weg, der von den meisten als zu radikal empfunden wird: Wer bei ihm nach sanfter Selbstoptimierung sucht, wird entt\u00e4uscht. Jaxon-Bears Lehre verlangt die vollst\u00e4ndige Bereitschaft, jede Vorstellung vom eigenen Ich fallen zu lassen &ndash; eine Forderung, die dem Krokodil-Naturell entspricht, aber viele Suchende \u00fcberfordert, die sich einen sanfteren spirituellen Weg w\u00fcnschen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Das Krokodil, das die eigene Fixierung durchschaute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Acht f\u00fchrt von der Wollust zur Unschuld &ndash; von der zwanghaften Behauptung der eigenen St\u00e4rke zu einer Kraft, die sich selbst nicht mehr beweisen muss. Bei Jaxon-Bear vollzog sich dieser Weg nicht als allm\u00e4hliche Milderung, sondern als vollst\u00e4ndiger Durchbruch: die Erkenntnis, dass das k\u00e4mpfende, besitzergreifende Selbst selbst nur eine weitere Fixierung war &ndash; die letzte, die es zu durchschauen galt.</p>
+          <p class="vb-intro">Vom revolution\u00e4ren Aktivisten zum Lehrer der Befreiung: Das ist die SX8w9 in ihrer reifsten Form &ndash; ein Krokodil, das nicht aufgeh\u00f6rt hat, kompromisslos zu sein, sondern das seine Kompromisslosigkeit auf die letzte, entscheidende Grenze richtet: die eigene Vorstellung davon, wer man ist. Jaxon-Bear zeigt anderen bis heute denselben Weg, den er selbst gegangen ist &ndash; nicht sanft, sondern direkt, mit der Wucht einer Acht, die die Wahrheit nicht verhandeln l\u00e4sst.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx8", label:"SX8 \u2013 Das Krokodil: Subtyp-Profil"},
+        {route:"beruehmte-genesis-p-orridge", label:"Portr\u00e4t: Genesis P-Orridge (SX8w9)"},
       ])}
     </div>
   `);
@@ -73064,6 +73134,7 @@ function render() {
           "beruehmte-diogenes": diogenesPortraitPage,
           "beruehmte-ruth-bader-ginsburg": ruthBaderGinsburgPortraitPage,
     "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
+          "beruehmte-eli-jaxon-bear": eliJaxonBearPortraitPage,
           "beruehmte-angela-merkel": angelaMerkelPortraitPage,
     "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
           "beruehmte-kevin-costner": kevinCostnerPortraitPage,

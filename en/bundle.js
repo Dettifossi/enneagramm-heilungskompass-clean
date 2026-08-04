@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "409";
+const APP_BUILD = "410";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -504,6 +504,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Genesis P-Orridge – Sexual Type 8",
     teaser:"SX8w9 · 1950–2020. Musician, performance artist, occultist, founder of Throbbing Gristle. The crocodile that crossed the boundaries of body, art and identity – and never came back. Animal correspondence: Crocodile.",
     tags:["Musik","Kunst"] },
+  { route:"beruehmte-eli-jaxon-bear", name:"Eli Jaxon-Bear", added:"2026-08-04", subtyp:"SX8w9",
+    heading:"Eli Jaxon-Bear – Sexual Type 8",
+    teaser:"SX8w9 · born 1941. Spiritual teacher, student of Papaji, author of “From Fixation to Freedom”. The crocodile that saw through its own fixation – and became a guide to freedom for others.",
+    tags:["Spiritualität"], gender:"m"},
   { route:"beruehmte-baerbel-bas", name:"Bärbel Bas", subtyp:"SE9w1",
     heading:"Bärbel Bas – Self-Preservation Type 9",
     teaser:"SP9w1 · born 1968. Politician (SPD), President of the Bundestag since 2021. The elephant that guards the house – persistent, quiet, with a stability stronger than any volume. Animal correspondence: Elephant.",
@@ -21161,6 +21165,70 @@ function genesisPOrridgePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
         {route:"beruehmte-donald-trump", label:"Portrait: Donald J. Trump (SX8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function eliJaxonBearPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-eli-jaxon-bear-portrait.jpg" alt="Crocodile" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Eli Jaxon-Bear</p>
+        <p class="krim-portrait-typ">SX8w9 &middot; Sexual Type 8 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Spiritual teacher &amp; author, born 1941 &ndash; Animal correspondence: Crocodile</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Crocodile</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Crocodile</strong> is the animal of Sexual Type 8 &ndash; a creature that does not survive through adaptation, but through unshakeable presence. It lies motionless beneath the surface of the water, patient, primordial, and when it strikes, there is no going back. But the crocodile can also do something else: grow so still that one forgets anything lurks beneath the surface at all &ndash; until the decisive moment arrives.</p>
+          <p class="vb-intro">Eli Jaxon-Bear, born in 1941, was in his younger years a fierce political activist of the American left of the 1960s and 1970s &ndash; uncompromising, confrontational, always in the fight. In 1974 he travelled to India to bring, as he himself put it, his search for truth to its end &ndash; and met H. W. L. Poonja, known as Papaji, a disciple of the great sage Ramana Maharshi. What followed was no gentle conversion. It was the complete surrender of a crocodile that recognised its own biting was the last fixation it had to let go of.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Eight: Possession as the Search for Truth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Eight (SX8)</strong> is what Naranjo called <em>Possession</em> &ndash; a hunger for total, undivided intensity that tolerates no half-truths and no half-connections. The SX8 wants the whole, immediately, without compromise. When it commits to something, it does so completely &ndash; or not at all.</p>
+          <p class="vb-intro">Jaxon-Bear's early life was exactly this hunger, directed at justice and revolution: he fought in the American civil rights and anti-war movements with the same uncompromising force he later brought to his search for spiritual awakening. When he finally sat before Papaji, he did not ask for comfort or technique &ndash; he demanded the whole truth, immediately. The SX8 never acts half-heartedly, not even on the spiritual path.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: The Stillness After the Storm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> gives the Sexual Eight a quality that seems paradoxical at first glance: calm, spaciousness, the ability to sink into stillness rather than lose itself in it. The SX8w7 fights with fire and speed. The <strong>SX8w9</strong> carries a deeper, resting intensity &ndash; a crocodile that has learned that the greatest power sometimes lies in becoming completely still.</p>
+          <p class="vb-intro">This exact connection shows in Jaxon-Bear's path from combative activist to quiet teacher of non-duality. He did not trade loud resistance to injustice for indifference, but for a deeper, quieter form of clarity. The Nine-wing allowed him to arrive at the absolute stillness of self-knowledge without losing the raw force of the Eight &ndash; he has used it ever since to confront others just as unsparingly with their own truth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Fixation to Freedom</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jaxon-Bear is one of the few spiritual teachers who directly connect the Enneagram of personality fixations with non-dual awakening. His major work, <em>From Fixation to Freedom: The Enneagram of Liberation</em>, describes the nine fixations not as a mere personality model, but as nine different ways the ego experiences itself as real &ndash; and as nine ways to see through that illusion.</p>
+          <p class="vb-intro">Together with his wife Toni Jaxon-Bear, he founded the Leela Foundation and has led retreats and satsangs worldwide for decades, confronting people directly with the question of who they truly are beyond their personality fixation. Not gentle coaching, but a direct, often uncomfortable invitation to recognise one's own fixation as a fixation &ndash; and let it go.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX8w9 is its <strong>ability to combine radical confrontation with deep stillness</strong>. Jaxon-Bear confronts students directly with their self-deceptions &ndash; without the harshness that can wound in other Eights, because the Nine-wing embeds this directness in a spaciousness that does not condemn, but invites.</p>
+          <p class="vb-intro">The shadow lies in a path most people find too radical. Those seeking gentle self-improvement from him will be disappointed. Jaxon-Bear's teaching demands the complete willingness to drop every idea of one's own self &ndash; a demand that fits the crocodile nature but overwhelms many seekers who wish for a gentler spiritual path.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: The Crocodile That Saw Through Its Own Fixation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Eight leads from lust to innocence &ndash; from the compulsive assertion of one's own strength to a power that no longer needs to prove itself. For Jaxon-Bear, this path unfolded not as gradual softening but as a complete breakthrough: the recognition that the fighting, possessing self was itself just another fixation &ndash; the last one that needed to be seen through.</p>
+          <p class="vb-intro">From revolutionary activist to teacher of liberation: that is the SX8w9 at its most mature &ndash; a crocodile that has not stopped being uncompromising, but has turned its uncompromising nature toward the last, decisive boundary: one's own idea of who one is. Jaxon-Bear still shows others today the same path he walked himself &ndash; not gently, but directly, with the force of an Eight that will not negotiate the truth.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
+        {route:"beruehmte-genesis-p-orridge", label:"Portrait: Genesis P-Orridge (SX8w9)"},
       ])}
     </div>
   `);
@@ -43015,6 +43083,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-donald-trump": donaldTrumpPortraitPage,
       "beruehmte-diogenes": diogenesPortraitPage,
       "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
+      "beruehmte-eli-jaxon-bear": eliJaxonBearPortraitPage,
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
       "beruehmte-steffi-graf": steffiGrafPortraitPage,
       "beruehmte-willy-brandt": willyBrandtPortraitPage,
