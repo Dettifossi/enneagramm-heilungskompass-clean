@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "420";
+const APP_BUILD = "421";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -2333,13 +2333,13 @@ function pageHeader(active) {
         <span>${text.meta.appTitle}</span>
       </button>
       ${nav(active)}
-      <a href="/" class="lang-switcher" title="Zur deutschen Version" aria-label="Zur deutschen Version">🇩🇪 DE</a>
+      <a href="/" class="lang-switcher" title="Zur deutschen Version" aria-label="Zur deutschen Version" onclick="_switchLangVoice(event, this.href, 'sounds/lang/switch_to_de.mp3')">🇩🇪 DE</a>
     </header>
     <div class="suche-bar-outer">
       <div style="display:flex;gap:0.5rem;align-items:center;">
       <button class="suche-bar-btn" data-route="suche" aria-label="Search" style="flex:1;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>Search…</span></button>
       <button class="suche-fav-nav-btn" data-route="favoriten" aria-label="Favorites" title="Meine Favorites">♥</button>
-      <a href="https://kompass.verlagshausrathmer.com/" class="suche-fav-nav-btn" aria-label="Deutsche Version" title="Zur deutschen Version" style="text-decoration:none;font-size:0.8rem;font-weight:600;letter-spacing:0.02em;" rel="noopener">🇩🇪 DE</a>
+      <a href="https://kompass.verlagshausrathmer.com/" class="suche-fav-nav-btn" aria-label="Deutsche Version" title="Zur deutschen Version" style="text-decoration:none;font-size:0.8rem;font-weight:600;letter-spacing:0.02em;" rel="noopener" onclick="_switchLangVoice(event, this.href, 'sounds/lang/switch_to_de.mp3')">🇩🇪 DE</a>
       </div>
     </div>
     ${(()=>{
@@ -2972,6 +2972,7 @@ const COUNTRY_NAME_EN = {
 };
 
 window._bewertungSenden = _bewertungSenden;
+window._switchLangVoice = _switchLangVoice;
 window.translateReview = function(btn) {
   try {
     var card = btn.parentElement;
@@ -3056,6 +3057,7 @@ function _bewertungSenden() {
   const reviewText = document.getElementById('bwrt-text').value.trim();
   const nameVal = (document.getElementById('bwrt-name') || {value:''}).value.trim();
   if (!sterne) { alert('Please click stars first.'); return; }
+  try { new Audio('sounds/purchase/bewertung_dank.mp3').play().catch(() => {}); } catch (e) {}
   const sternText = '★'.repeat(sterne) + '☆'.repeat(5 - sterne);
   const form = document.getElementById('bwrt-form');
   form.innerHTML = '<div style="text-align:center;padding:1.5rem 1rem;">' +
@@ -3214,7 +3216,7 @@ function startPage() {
 
   return shell(`
     ${onboardingOverlay()}
-    <div style="position:fixed;top:0.6rem;right:0.75rem;z-index:999;"><a href="/" class="lang-switcher" title="Zur deutschen Version" aria-label="Zur deutschen Version">🇩🇪 DE</a></div>
+    <div style="position:fixed;top:0.6rem;right:0.75rem;z-index:999;"><a href="/" class="lang-switcher" title="Zur deutschen Version" aria-label="Zur deutschen Version" onclick="_switchLangVoice(event, this.href, 'sounds/lang/switch_to_de.mp3')">🇩🇪 DE</a></div>
     <section class="hero">
       <div class="hero__symbol">${compassMark()}</div>
       <p class="eyebrow">${text.meta.modelLine}</p>
@@ -43953,4 +43955,18 @@ setTimeout(showTagesimpuls, 600);
 // unlock button is itself the user interaction, so autoplay is allowed.
 function playPurchaseWelcome() {
   try { new Audio('sounds/purchase/purchase_welcome.mp3').play().catch(() => {}); } catch (e) {}
+}
+
+// Language-switch link: short spoken confirmation in the target language, then navigation.
+// Fallback timeout in case the audio file fails to load or 'ended' doesn't fire.
+function _switchLangVoice(evt, url, audioFile) {
+  evt.preventDefault();
+  let navigated = false;
+  const go = () => { if (navigated) return; navigated = true; window.location.href = url; };
+  try {
+    const audio = new Audio(audioFile);
+    audio.addEventListener('ended', go);
+    audio.play().catch(go);
+  } catch (e) { go(); return; }
+  setTimeout(go, 4000);
 }

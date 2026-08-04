@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "430";
+const APP_BUILD = "431";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -1876,7 +1876,7 @@ function pageHeader(active) {
         <span>${text.meta.appTitle}</span>
       </button>
       ${nav(active)}
-      <a href="/en/" class="lang-switcher" title="Switch to English" aria-label="Switch to English">🇬🇧 EN</a>
+      <a href="/en/" class="lang-switcher" title="Switch to English" aria-label="Switch to English" onclick="_switchLangVoice(event, this.href, 'sounds/lang/switch_to_en.mp3')">🇬🇧 EN</a>
     </header>
     <div class="suche-bar-outer">
       <div style="display:flex;gap:0.5rem;align-items:center;">
@@ -2553,6 +2553,7 @@ const COUNTRY_NAME_DE = {
 };
 
 window._bewertungSenden = _bewertungSenden;
+window._switchLangVoice = _switchLangVoice;
 window.translateReview = function(btn) {
   try {
     var card = btn.parentElement;
@@ -2631,6 +2632,7 @@ function _bewertungSenden() {
   const reviewText = document.getElementById('bwrt-text').value.trim();
   const nameVal = (document.getElementById('bwrt-name') || {value:''}).value.trim();
   if (!sterne) { alert('Bitte erst Sterne anklicken.'); return; }
+  try { new Audio('sounds/purchase/bewertung_dank.mp3').play().catch(() => {}); } catch (e) {}
   const sternText = '★'.repeat(sterne) + '☆'.repeat(5 - sterne);
   const form = document.getElementById('bwrt-form');
   form.innerHTML = '<div style="text-align:center;padding:1.5rem 1rem;">' +
@@ -2791,7 +2793,7 @@ function startPage() {
 
   return shell(`
     ${onboardingOverlay()}
-    <div style="position:fixed;top:0.6rem;right:0.75rem;z-index:999;"><a href="/en/" class="lang-switcher" title="Switch to English" aria-label="Switch to English">🇬🇧 EN</a></div>
+    <div style="position:fixed;top:0.6rem;right:0.75rem;z-index:999;"><a href="/en/" class="lang-switcher" title="Switch to English" aria-label="Switch to English" onclick="_switchLangVoice(event, this.href, 'sounds/lang/switch_to_en.mp3')">🇬🇧 EN</a></div>
     <section class="hero">
       <div class="hero__symbol">${compassMark()}</div>
       <p class="eyebrow">${text.meta.modelLine}</p>
@@ -46865,4 +46867,18 @@ setTimeout(showTagesimpuls, 600);
 // den Freischalt-Button ist selbst die Nutzerinteraktion, Autoplay ist also erlaubt.
 function playPurchaseWelcome() {
   try { new Audio('sounds/purchase/purchase_willkommen.mp3').play().catch(() => {}); } catch (e) {}
+}
+
+// Sprachwechsel-Link: kurze gesprochene Ansage in der Zielsprache, dann Navigation.
+// Fallback-Timeout, falls die Audiodatei nicht lädt oder 'ended' nicht feuert.
+function _switchLangVoice(evt, url, audioFile) {
+  evt.preventDefault();
+  let navigated = false;
+  const go = () => { if (navigated) return; navigated = true; window.location.href = url; };
+  try {
+    const audio = new Audio(audioFile);
+    audio.addEventListener('ended', go);
+    audio.play().catch(go);
+  } catch (e) { go(); return; }
+  setTimeout(go, 4000);
 }
