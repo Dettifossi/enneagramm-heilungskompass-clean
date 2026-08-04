@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "406";
+const APP_BUILD = "407";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -13126,7 +13126,7 @@ function diogenesPortraitPage() {
         <h2 class="vb-section">4. Der Kynismus: Philosophie als gelebter Widerstand</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Diogenes begründete mit dem Kynismus (griech. <em>kyon</em>, „Hund" &ndash; er selbst nannte sich stolz „der Hund") eine Philosophie, die nicht gelehrt, sondern gelebt wurde. Sein Ziel war die <em>Autarkeia</em>, die vollständige Unabhängigkeit von gesellschaftlichen Konventionen, Besitz und Ansehen. Reichtum, Ruhm und soziale Stellung galten ihm als Ketten, die Menschen sich selbst anlegten.</p>
-          <p class="vb-intro">Diese Radikalität unterscheidet ihn deutlich von den anderen Subtypen der Acht: Die selbsterhaltende Acht (SP8) sichert Territorium und materiellen Besitz &ndash; Diogenes lehnte beides bewusst ab. Die soziale Acht (SO8) kämpft als Beschützer für eine Gruppe &ndash; Diogenes war ein radikaler Einzelgänger, der keine Gefolgschaft suchte, sondern allein durch sein Beispiel provozierte. Nur die sexuelle Acht greift die Gesellschaft direkt, persönlich und schamlos an, ohne den Umweg über Kollektiv oder Besitz.</p>
+          <p class="vb-intro">Diese Radikalität unterscheidet ihn deutlich von den anderen Subtypen der Acht: Die selbsterhaltende Acht (SE8) sichert Territorium und materiellen Besitz &ndash; Diogenes lehnte beides bewusst ab. Die soziale Acht (SO8) kämpft als Beschützer für eine Gruppe &ndash; Diogenes war ein radikaler Einzelgänger, der keine Gefolgschaft suchte, sondern allein durch sein Beispiel provozierte. Nur die sexuelle Acht greift die Gesellschaft direkt, persönlich und schamlos an, ohne den Umweg über Kollektiv oder Besitz.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
