@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "403";
+const APP_BUILD = "404";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -666,6 +666,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Boris Becker – Sexueller Typ 7",
     teaser:"SX7w8 · geb. 1967. Tennisprofi, dreifacher Wimbledon-Sieger, jüngster Wimbledon-Champion aller Zeiten (1985, mit 17 Jahren). Der Schimpanse mit Achterflügel: grenzenlose Intensität, Ruhm als Heimat, und das lebenslange Ringen um das Bild des großen Boris. Tierentsprechung: Schimpanse.",
     tags:["Sport"] , gender:"m"},
+  { route:"beruehmte-shakira", name:"Shakira", added:"2026-08-04", subtyp:"SX7w8",
+    heading:"Shakira – Sexueller Typ 7",
+    teaser:"SX7w8 · geb. 1977 in Barranquilla, Kolumbien. Sängerin, Songwriterin, Tänzerin, Produzentin. „Hips Don't Lie“, „Waka Waka“, über 80 Millionen verkaufte Tonträger. Der Schimpanse mit Achterflügel: Rhythmus als Sprache des Körpers, Intensität ohne Bremse, Kraft, die aus persönlichem Schmerz Bühnenpräsenz macht.",
+    tags:["Musik"], gender:"f"},
   { route:"beruehmte-umberto-eco", name:"Umberto Eco", subtyp:"SE8w7",
     heading:"Umberto Eco – Selbsterhaltender Typ 8",
     teaser:"SE8w7 · 1932–2016. Schriftsteller, Semiotiker, Philosoph, Medienwissenschaftler. Der Name der Rose, Das Foucaultsche Pendel. 30.000 Bücher. Der Orang-Utan, der im Labyrinth zu Hause ist – und der weiß, dass alle Zeichen lügen. Tierentsprechung: Orang-Utan.",
@@ -12220,6 +12224,70 @@ function borisBeckerPortraitPage() {
         {route:"astrologie-boris-becker", label:"Astrologie-Analyse: Boris Becker (SX7w8)"},
         {route:"kriminalpsychologie-boris-becker", label:"Kriminalfall: Boris Becker (SX7w8)"},
         {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+      ])}
+    </div>
+  `);
+}
+
+function shakiraPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-shakira-portrait.jpg" alt="Schimpanse" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Shakira</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin, Songwriterin, Tänzerin &amp; Produzentin, geb. 1977 in Barranquilla, Kolumbien &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 &ndash; ein Wesen, das nicht durch Nachdenken, sondern durch Bewegung, Rhythmus und direkten Kontakt mit der Welt lernt. Er ist neugierig, körperlich präsent, unmittelbar &ndash; und wenn er sich bewegt, bewegt sich alles um ihn herum mit.</p>
+          <p class="vb-intro">Shakira, geboren 1977 in Barranquilla an der kolumbianischen Karibikküste, ist dieser Schimpanse in Reinform. Schon als Kind schrieb sie Songs, tanzte auf Tischen in Restaurants ihrer Heimatstadt und wurde von einem Talentmanager entdeckt, der sie „unaufhaltsam" nannte. Ihre Hüften, wie sie selbst in einem ihrer bekanntesten Songs sang, lügen nicht &ndash; und genau diese ungefilterte, körperliche Ehrlichkeit ist der Kern ihrer gesamten Kunst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Rausch als Ausdrucksform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht Intensität nicht als Ausnahme, sondern als Grundzustand. Naranjo nannte diesen Subtyp <em>Suggestibility</em>: die Fähigkeit, sich einem Erleben so vollständig hinzugeben, dass sich alle Anwesenden davon anstecken lassen. Die SX7 wirkt nicht durch Kontrolle, sondern durch Ansteckung &ndash; durch die pure, ungebremste Präsenz eines Moments.</p>
+          <p class="vb-intro">Shakiras Bühnenpräsenz ist genau diese Ansteckung in Reinform: der Bauchtanz, den sie mit kolumbianischen und libanesischen Wurzeln verbindet, die Stimme, die zwischen Zerbrechlichkeit und roher Kraft wechselt, die Choreografien, die keine Distanz zulassen. Bei „Hips Don't Lie" oder dem Auftritt bei der Super-Bowl-Halbzeitshow 2020 verschwindet die Grenze zwischen Performerin und Publikum vollständig. Das ist die sexuelle Sieben: kein Konzert, sondern ein gemeinsamer Rausch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Kontrolle über das eigene Werk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der sexuellen Sieben etwas, das reine Siebener oft fehlt: den Willen, die eigene Intensität nicht dem Zufall zu überlassen, sondern selbst zu gestalten und zu verteidigen. Wo die reine SX7 sich treiben lassen könnte, ergreift die SX7w8 die Kontrolle &ndash; über die eigene Karriere, das eigene Bild, die eigene Kunst.</p>
+          <p class="vb-intro">Shakira schreibt und komponiert den Großteil ihrer Songs selbst, seit sie als Teenager ihre ersten Alben veröffentlichte, die kommerziell scheiterten &ndash; und sich weigerte, aufzugeben oder sich von der Plattenfirma ein fremdes Image aufzwingen zu lassen. Sie produzierte später ihre eigenen Alben, kämpfte öffentlich und erfolgreich gegen die spanischen Steuerbehörden in einem jahrelangen Rechtsstreit um mutmaßliche Steuerhinterziehung, und setzte sich in der männerdominierten lateinamerikanischen Musikindustrie als eine der mächtigsten Produzentinnen durch. Der Achterflügel zeigt sich hier nicht als Härte um ihrer selbst willen, sondern als entschlossene Selbstbestimmung: Niemand sonst sollte je über ihr Werk bestimmen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Von Barranquilla zur Weltbühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Shakiras Weg zur globalen Ikone war kein geradliniger. Ihre ersten beiden Alben in den frühen 1990er Jahren verkauften sich kaum. Statt sich anzupassen, ging sie zurück ins Studio, verband kolumbianische Folklore mit Rock, arabischen Klängen und Pop &ndash; und schuf mit „Pies Descalzos" (1995) und „¿Dónde Están los Ladrones?" (1998) einen völlig eigenständigen Sound, der Lateinamerika im Sturm eroberte.</p>
+          <p class="vb-intro">Der Durchbruch im englischsprachigen Markt kam 2001 mit „Whenever, Wherever" und gipfelte 2006 in „Hips Don't Lie", das zu einem der meistverkauften Singles der Musikgeschichte wurde. 2010 komponierte sie mit „Waka Waka (This Time for Africa)" die offizielle Hymne der FIFA-Weltmeisterschaft in Südafrika. Der Schimpanse, der niemals stillsaß, hatte sich von einer lokalen Teenager-Sängerin zu einer der einflussreichsten Künstlerinnen der Welt verwandelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX7w8 ist ihre Fähigkeit, kulturelle Grenzen mühelos zu überschreiten und dabei ganz sie selbst zu bleiben &ndash; Shakira verbindet Genres, Sprachen und Kontinente, ohne ihre Wurzeln zu verleugnen. Ihre Musik ist ein Fest der Vielfalt, getragen von echter, körperlicher Freude.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der über elfjährigen Beziehung zu Gerard Piqué, die 2022 öffentlich und schmerzhaft zerbrach, nachdem Untreue bekannt wurde &ndash; ein Trennungsschmerz, den Shakira in „Music Sessions #53" und „Bzrp Music Sessions" mit einer Direktheit verarbeitete, die viele überraschte. Die sexuelle Sieben mit Achterflügel kann Verletzung selten still ertragen; sie muss sie in Intensität verwandeln, oft öffentlich, oft kompromisslos.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Der Schmerz, der zum Tanz wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sieben führt von der Zerstreuung zur Nüchternheit &ndash; von der ständigen Flucht in die nächste Intensität zur Fähigkeit, auch im Schmerz präsent zu bleiben, ohne ihn zu betäuben. Für die SX7w8 bedeutet das, die eigene Durchsetzungskraft nicht nur zur Selbstverteidigung zu nutzen, sondern in echten kreativen Ausdruck zu verwandeln.</p>
+          <p class="vb-intro">Nach der Trennung von Piqué verarbeitete Shakira ihren Schmerz nicht durch Rückzug, sondern durch eines der offensten Alben ihrer Karriere, „Las Mujeres Ya No Lloran" (2024) &ndash; ein Titel, der übersetzt bedeutet: „Frauen weinen nicht mehr". Der Schimpanse, der sein ganzes Leben lang Intensität gesucht hat, findet hier den reifsten Ausdruck dieser Gabe: Er verwandelt das, was ihn zerbrechen könnte, direkt vor aller Augen in Rhythmus, in Bewegung, in Kraft, die andere mitreißt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-boris-becker", label:"Porträt: Boris Becker (SX7w8)"},
       ])}
     </div>
   `);
@@ -45515,6 +45583,7 @@ function render() {
       "beruehmte-miley-cyrus": mileyCyrusPortraitPage,
       "beruehmte-ina-mueller": inaMuellerPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
+      "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
       "beruehmte-drew-barrymore": drewBarrymorePortraitPage,

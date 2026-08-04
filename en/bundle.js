@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "403";
+const APP_BUILD = "404";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -537,6 +537,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Boris Becker – Sexual Type 7",
     teaser:"SX7w8 · born 1967. Tennis professional, three-time Wimbledon winner, youngest Wimbledon champion of all time (1985, at 17 years old). The chimpanzee with eight wings: limitless intensity, fame as a home, and the lifelong struggle for the image of the great Boris. Animal correspondence: Chimpanzee.",
     tags:["Sports"] , gender:"m"},
+  { route:"beruehmte-shakira", name:"Shakira", added:"2026-08-04", subtyp:"SX7w8",
+    heading:"Shakira – Sexual Type 7",
+    teaser:"SX7w8 · born 1977 in Barranquilla, Colombia. Singer, songwriter, dancer, producer. “Hips Don't Lie”, “Waka Waka”, over 80 million records sold. The chimpanzee with Eight-wing: rhythm as the language of the body, intensity without a brake, strength that turns personal pain into stage presence.",
+    tags:["Musik"], gender:"f"},
   { route:"beruehmte-drew-barrymore", name:"Drew Barrymore", added:"2026-08-03", subtyp:"SO7w8",
     heading:"Drew Barrymore – Social Type 7",
     teaser:"SO7w8 \xb7 born 1975 in Los Angeles. Actress, producer, talk show host. Child star in \"E.T.\", crash and comeback, now host of \"The Drew Barrymore Show\". The beaver that turned her own chaos into the foundation of a second career.",
@@ -14306,6 +14310,70 @@ function borisBeckerPortraitPage() {
         {route:"astrologie-boris-becker", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"kriminalpsychologie-boris-becker", label:"Kriminalfall: Boris Becker (SX7w8)"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+      ])}
+    </div>
+  `);
+}
+
+function shakiraPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-shakira-portrait.jpg" alt="Chimpanzee" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Shakira</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Singer, songwriter, dancer &amp; producer, born 1977 in Barranquilla, Colombia &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chimpanzee</strong> is the animal of the Sexual Type 7 &ndash; a creature that learns not through reflection but through movement, rhythm and direct contact with the world. It is curious, physically present, immediate &ndash; and when it moves, everything around it moves with it.</p>
+          <p class="vb-intro">Shakira, born 1977 in Barranquilla on Colombia's Caribbean coast, is this Chimpanzee in its purest form. Even as a child she wrote songs, danced on restaurant tables in her hometown, and was discovered by a talent manager who called her “unstoppable.” Her hips, as she herself sang in one of her most famous songs, don't lie &ndash; and that unfiltered, physical honesty is the very core of her entire art.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Seven: Ecstasy as a Form of Expression</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Seven (SX7)</strong> seeks intensity not as an exception but as a baseline state. Naranjo called this subtype <em>Suggestibility</em>: the ability to give oneself so completely to an experience that everyone present is swept up in it. The SX7 works not through control but through contagion &ndash; through the pure, unrestrained presence of a moment.</p>
+          <p class="vb-intro">Shakira's stage presence is exactly this contagion in its purest form: the belly dancing that blends her Colombian and Lebanese roots, the voice that shifts between fragility and raw power, the choreography that allows no distance. In “Hips Don't Lie” or her 2020 Super Bowl halftime performance, the line between performer and audience dissolves completely. That is the Sexual Seven: not a concert, but a shared ecstasy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: Control Over Her Own Work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Sexual Seven something pure Sevens often lack: the will to not leave one's own intensity to chance, but to shape and defend it deliberately. Where the pure SX7 might simply drift, the SX7w8 seizes control &ndash; over her own career, her image, her art.</p>
+          <p class="vb-intro">Shakira has written and composed most of her songs herself since her teenage years, when her first albums flopped commercially &ndash; and she refused to give up or let the record label impose a foreign image on her. She later produced her own albums, fought publicly and successfully against Spanish tax authorities in a years-long legal battle over alleged tax evasion, and established herself as one of the most powerful producers in the male-dominated Latin American music industry. The Eight-wing shows here not as hardness for its own sake, but as determined self-determination: no one else would ever again decide over her work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. From Barranquilla to the World Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Shakira's path to global icon was not a straight line. Her first two albums in the early 1990s barely sold. Instead of adapting, she went back into the studio, blending Colombian folklore with rock, Arabic sounds and pop &ndash; creating with “Pies Descalzos” (1995) and “¿Dónde Están los Ladrones?” (1998) a completely distinctive sound that swept across Latin America.</p>
+          <p class="vb-intro">Her breakthrough in the English-speaking market came in 2001 with “Whenever, Wherever” and peaked in 2006 with “Hips Don't Lie,” which became one of the best-selling singles in music history. In 2010 she composed “Waka Waka (This Time for Africa)” as the official anthem of the FIFA World Cup in South Africa. The Chimpanzee, who never sat still, had transformed from a local teenage singer into one of the most influential artists in the world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX7w8 is her ability to effortlessly cross cultural boundaries while remaining entirely herself &ndash; Shakira blends genres, languages and continents without denying her roots. Her music is a celebration of diversity, carried by genuine, physical joy.</p>
+          <p class="vb-intro">The shadow shows in her eleven-year relationship with Gerard Piqué, which broke apart publicly and painfully in 2022 after infidelity came to light &ndash; a heartbreak Shakira processed in “Music Sessions #53” and other collaborations with a directness that surprised many. The Sexual Seven with an Eight-wing can rarely endure hurt quietly; it must be transformed into intensity, often publicly, often uncompromisingly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: The Pain That Becomes a Dance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Seven leads from scattering to sobriety &ndash; from the constant flight into the next intensity to the ability to stay present even in pain, without numbing it. For the SX7w8 this means using her own assertiveness not merely for self-defense, but transforming it into genuine creative expression.</p>
+          <p class="vb-intro">After separating from Piqué, Shakira did not process her pain through withdrawal, but through one of the most open albums of her career, “Las Mujeres Ya No Lloran” (2024) &ndash; a title that translates to “Women No Longer Cry.” The Chimpanzee, who spent her whole life seeking intensity, finds here the most mature expression of that gift: she turns what could break her, right before everyone's eyes, into rhythm, into movement, into strength that sweeps others along.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"beruehmte-boris-becker", label:"Portrait: Boris Becker (SX7w8)"},
       ])}
     </div>
   `);
@@ -42661,6 +42729,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-adele-neuhauser": adeleNeuhauserPortraitPage,
       "beruehmte-angela-merkel": angelaMerkelPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
+      "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-carsten-stahl": carstenStahlPortraitPage,
       "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,
