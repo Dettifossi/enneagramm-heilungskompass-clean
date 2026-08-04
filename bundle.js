@@ -27179,7 +27179,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "427";
+const APP_BUILD = "428";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -41475,6 +41475,7 @@ function wilmaMankillerPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>B\u00fcffel</strong> ist das Tier des sozialen Typs 9 &ndash; ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine gr\u00f6\u00dfere Sache definiert. Er senkt den Kopf und geht hindurch durch das, was ihm im Weg steht, ohne sich um Ansehen oder Applaus zu k\u00fcmmern. Er tr\u00e4gt die Herde, auch wenn er selbst geschw\u00e4cht ist.</p>
           <p class="vb-intro">Wilma Mankiller, 1945 in Tahlequah, Oklahoma geboren, ist dieser B\u00fcffel in Reinform: sechstes von elf Kindern einer Cherokee-Familie, mit zehn Jahren in eine Umsiedlungspolitik der US-Regierung nach San Francisco verpflanzt, kehrte sie in den 1970er-Jahren zur\u00fcck, um die Cherokee Nation von innen wieder aufzubauen &ndash; und trug sie zehn Jahre lang als erste weibliche Principal Chief ihrer Geschichte.</p>
+          <p class="vb-intro">Selbst ihr Nachname erz\u00e4hlt diese B\u00fcffel-Geschichte weiter: <em>Mankiller</em> (Cherokee: <em>Asagasta</em>) war urspr\u00fcnglich kein Familienname, sondern ein milit\u00e4rischer Ehrentitel der Cherokee-Gesellschaft &ndash; verliehen an einen Krieger, der ein Dorf verteidigte und besch\u00fctzte, sinngem\u00e4\u00df \u201eBesch\u00fctzer der Menschen\u201c. Als US-Beh\u00f6rden im 18. und 19. Jahrhundert Namenslisten anlegten, wurde dieser Titel w\u00f6rtlich ins Englische \u00fcbersetzt und als Nachname festgeschrieben. Mankiller selbst ging mit dem ungew\u00f6hnlichen Namen selbstbewusst um: \u201eMankiller ist ein alter Cherokee-Titel &ndash; so etwas wie ein milit\u00e4rischer Rang, ein Hauptmann. Aber es ist ein gro\u00dfartiger Name, wenn man im Hotel reservieren m\u00f6chte\u201c, scherzte sie gerne. Ein Name, der buchst\u00e4blich Besch\u00fctzerin bedeutet &ndash; getragen von einer Frau, die genau das f\u00fcr ihre Nation wurde.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Neun: Aufgehen in der Gemeinschaft</h2>

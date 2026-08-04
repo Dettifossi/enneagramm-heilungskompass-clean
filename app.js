@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "427";
+const APP_BUILD = "428";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -14349,6 +14349,7 @@ function wilmaMankillerPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier des sozialen Typs 9 &ndash; ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine größere Sache definiert. Er senkt den Kopf und geht hindurch durch das, was ihm im Weg steht, ohne sich um Ansehen oder Applaus zu kümmern. Er trägt die Herde, auch wenn er selbst geschwächt ist.</p>
           <p class="vb-intro">Wilma Mankiller, 1945 in Tahlequah, Oklahoma geboren, ist dieser Büffel in Reinform: sechstes von elf Kindern einer Cherokee-Familie, mit zehn Jahren in eine Umsiedlungspolitik der US-Regierung nach San Francisco verpflanzt, kehrte sie in den 1970er-Jahren zurück, um die Cherokee Nation von innen wieder aufzubauen &ndash; und trug sie zehn Jahre lang als erste weibliche Principal Chief ihrer Geschichte.</p>
+          <p class="vb-intro">Selbst ihr Nachname erzählt diese Büffel-Geschichte weiter: <em>Mankiller</em> (Cherokee: <em>Asagasta</em>) war ursprünglich kein Familienname, sondern ein militärischer Ehrentitel der Cherokee-Gesellschaft &ndash; verliehen an einen Krieger, der ein Dorf verteidigte und beschützte, sinngemäß „Beschützer der Menschen“. Als US-Behörden im 18. und 19. Jahrhundert Namenslisten anlegten, wurde dieser Titel wörtlich ins Englische übersetzt und als Nachname festgeschrieben. Mankiller selbst ging mit dem ungewöhnlichen Namen selbstbewusst um: „Mankiller ist ein alter Cherokee-Titel &ndash; so etwas wie ein militärischer Rang, ein Hauptmann. Aber es ist ein großartiger Name, wenn man im Hotel reservieren möchte“, scherzte sie gerne. Ein Name, der buchstäblich Beschützerin bedeutet &ndash; getragen von einer Frau, die genau das für ihre Nation wurde.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Neun: Aufgehen in der Gemeinschaft</h2>

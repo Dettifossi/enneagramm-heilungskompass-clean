@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "417";
+const APP_BUILD = "418";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -21699,6 +21699,7 @@ function wilmaMankillerPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Buffalo</strong> is the animal of Social Type 9 &ndash; an animal that defines itself not through going it alone, but through being bound to something larger than itself. It lowers its head and pushes through whatever stands in its way, unconcerned with recognition or applause. It carries the herd, even when it is weakened itself.</p>
           <p class="vb-intro">Wilma Mankiller, born 1945 in Tahlequah, Oklahoma, is this buffalo in pure form: the sixth of eleven children in a Cherokee family, relocated at age ten to San Francisco under a federal termination-era policy, she returned to Oklahoma in the 1970s to help rebuild the Cherokee Nation from within &ndash; and carried it for ten years as its first woman Principal Chief.</p>
+          <p class="vb-intro">Even her surname carries this buffalo story forward: <em>Mankiller</em> (Cherokee: <em>Asagasta</em>) was originally not a family name at all, but a military honorific of Cherokee society &ndash; bestowed on a warrior who defended and protected a village, roughly meaning “protector of the people.” When US authorities began compiling name registers in the 18th and 19th centuries, this title was translated literally into English and fixed as a surname. Mankiller herself handled the unusual name with confident humor: “Mankiller is an old Cherokee title &ndash; it's like a military rank, something like a captain. But it's a great name to have when you're trying to make a hotel reservation,” she liked to joke. A name that literally means protector &ndash; carried by a woman who became exactly that for her nation.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Nine: Merging with the Community</h2>
