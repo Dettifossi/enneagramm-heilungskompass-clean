@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "422";
+const APP_BUILD = "423";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -14404,7 +14404,7 @@ function ludwigErhardPortraitPage() {
         <h2 class="vb-section">3. Der Einserflügel: Prinzipientreue als Wirtschaftsordnung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Einserflügel</strong> verleiht der selbsterhaltenden Neun eine besondere Qualität: ein tiefes Gefühl für Ordnung, für das Richtige, für Prinzipien, die nicht verhandelbar sind. Die <strong>SE9w1</strong> ist nicht nur geduldig &ndash; sie ist auch von einer inneren moralischen Klarheit geprägt, die keine Kompromisse bei den Grundwerten duldet.</p>
-          <p class="vb-intro">Erhards Lebenswerk, die Soziale Marktwirtschaft, ist der Einserflügel in Reinform: freie Marktwirtschaft, aber eingebettet in einen klaren ordnungspolitischen Rahmen, der Wettbewerb schützt und sozialen Ausgleich sichert. „Wohlstand für alle" war für ihn kein Werbeslogan, sondern ein moralisches Prinzip, das er mit derselben Unbeirrbarkeit verteidigte wie ein SE9w1 seine inneren Grundsätze. Er duldete keine Abweichung von diesem Ordnungsrahmen &ndash; weder von links noch von rechts.</p>
+          <p class="vb-intro">Erhards Lebenswerk, die Soziale Marktwirtschaft, ist der Einserflügel in Reinform: freie Marktwirtschaft, aber eingebettet in einen klaren ordnungspolitischen Rahmen, der Wettbewerb schützt und sozialen Ausgleich sichert. „Wohlstand für alle" war für ihn kein Werbeslogan, sondern ein moralisches Prinzip, das er mit derselben Unbeirrbarkeit verteidigte wie ein SE9w1er seine inneren Grundsätze. Er duldete keine Abweichung von diesem Ordnungsrahmen &ndash; weder von links noch von rechts.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Vom Wirtschaftswunder zur Kanzlerschaft</h2>

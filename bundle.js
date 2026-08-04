@@ -27173,7 +27173,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "422";
+const APP_BUILD = "423";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -41524,7 +41524,7 @@ function ludwigErhardPortraitPage() {
         <h2 class="vb-section">3. Der Einserfl\u00fcgel: Prinzipientreue als Wirtschaftsordnung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Einserfl\u00fcgel</strong> verleiht der selbsterhaltenden Neun eine besondere Qualit\u00e4t: ein tiefes Gef\u00fchl f\u00fcr Ordnung, f\u00fcr das Richtige, f\u00fcr Prinzipien, die nicht verhandelbar sind. Die <strong>SE9w1</strong> ist nicht nur geduldig &ndash; sie ist auch von einer inneren moralischen Klarheit gepr\u00e4gt, die keine Kompromisse bei den Grundwerten duldet.</p>
-          <p class="vb-intro">Erhards Lebenswerk, die Soziale Marktwirtschaft, ist der Einserfl\u00fcgel in Reinform: freie Marktwirtschaft, aber eingebettet in einen klaren ordnungspolitischen Rahmen, der Wettbewerb sch\u00fctzt und sozialen Ausgleich sichert. \u201eWohlstand f\u00fcr alle" war f\u00fcr ihn kein Werbeslogan, sondern ein moralisches Prinzip, das er mit derselben Unbeirrbarkeit verteidigte wie ein SE9w1 seine inneren Grunds\u00e4tze. Er duldete keine Abweichung von diesem Ordnungsrahmen &ndash; weder von links noch von rechts.</p>
+          <p class="vb-intro">Erhards Lebenswerk, die Soziale Marktwirtschaft, ist der Einserfl\u00fcgel in Reinform: freie Marktwirtschaft, aber eingebettet in einen klaren ordnungspolitischen Rahmen, der Wettbewerb sch\u00fctzt und sozialen Ausgleich sichert. \u201eWohlstand f\u00fcr alle" war f\u00fcr ihn kein Werbeslogan, sondern ein moralisches Prinzip, das er mit derselben Unbeirrbarkeit verteidigte wie ein SE9w1er seine inneren Grunds\u00e4tze. Er duldete keine Abweichung von diesem Ordnungsrahmen &ndash; weder von links noch von rechts.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Vom Wirtschaftswunder zur Kanzlerschaft</h2>
