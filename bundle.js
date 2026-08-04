@@ -23827,6 +23827,7 @@ const registerEntries = [
   { term: "Julian Assange",                 route: "beruehmte-julian-assange",              description: "Portrait: SO9w1 \u00b7 Sozialer Typ 9 \u00b7 Gr\u00fcnder von WikiLeaks" },
   { term: "Wilma Mankiller",                route: "beruehmte-wilma-mankiller",             description: "Portrait: SO9w8 \u00b7 Sozialer Typ 9 \u00b7 Erste Frau als Principal Chief der Cherokee Nation" },
   { term: "Carl Rogers",                    route: "beruehmte-carl-rogers",                 description: "Portrait: SX9w1 \u00b7 Sexueller Typ 9 \u00b7 Begr\u00fcnder der klientenzentrierten Gespr\u00e4chstherapie" },
+  { term: "Mario Barth",                    route: "beruehmte-mario-barth",                 description: "Portrait: SX9w8 \u00b7 Sexueller Typ 9 \u00b7 Comedian, Weltrekordhalter Olympiastadion Berlin" },
   { term: "Alice Schwarzer",               route: "beruehmte-alice-schwarzer",             description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Feministin, EMMA-Gr\u00fcnderin" },
   { term: "Ana de Armas",                  route: "beruehmte-ana-de-armas",                description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, Knives Out" },
   { term: "Angelina Jolie",                route: "beruehmte-angelina-jolie",              description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, UN-Botschafterin" },
@@ -24095,6 +24096,7 @@ const registerEntriesEN = [
   { term: "Julian Assange", route: "beruehmte-julian-assange", description: "Portrait: SO9w1 \u00b7 Social Type 9 \u00b7 Founder of WikiLeaks" },
   { term: "Wilma Mankiller", route: "beruehmte-wilma-mankiller", description: "Portrait: SO9w8 \u00b7 Social Type 9 \u00b7 First woman to serve as Principal Chief of the Cherokee Nation" },
   { term: "Carl Rogers", route: "beruehmte-carl-rogers", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 Founder of client-centered therapy" },
+  { term: "Mario Barth", route: "beruehmte-mario-barth", description: "Portrait: SX9w8 \u00b7 Sexual Type 9 \u00b7 Comedian, world record holder Berlin Olympic Stadium" },
   { term: "Alice Schwarzer", route: "beruehmte-alice-schwarzer", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Feminist, EMMA founder" },
   { term: "Ana de Armas", route: "beruehmte-ana-de-armas", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, Knives Out" },
   { term: "Angelina Jolie", route: "beruehmte-angelina-jolie", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, UN Ambassador" },
@@ -27181,7 +27183,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "432";
+const APP_BUILD = "433";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -27942,6 +27944,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Heike Makatsch \u2013 Sexueller Typ 9",
     teaser:"SX9w8 \u00b7 geb. 1971. Schauspielerin, bekannt aus \u201eAim\u00e9e & Jaguar\u201c, \u201eLove Actually\u201c u. v. m. Die sexuelle Neun als Verst\u00e4rkungstyp: vollst\u00e4ndige Hingabe an die Rolle, mit der Kraft des Achterfl\u00fcgels im R\u00fccken. Tierentsprechung: Faultier.",
     tags:["Schauspiel"] , gender:"f"},
+  { route:"beruehmte-mario-barth", name:"Mario Barth", added:"2026-08-05", subtyp:"SX9w8",
+    heading:"Mario Barth \u2013 Sexueller Typ 9",
+    teaser:"SX9w8 \u00b7 geb. 1972. Comedian, Rekordhalter f\u00fcr die gr\u00f6\u00dfte Comedy-Show der Welt (Olympiastadion Berlin). Das Faultier, das sich mit dem Lachen der Masse verschmilzt \u2013 und mit Wucht zubei\u00dft, wenn Kritik kommt.",
+    tags:["Comedy"], gender:"m"},
 ];
 
 const ASTROLOGIE_PORTRAITS = [
@@ -41401,6 +41407,71 @@ function heikeMakatschPortraitPage() {
         {route:"beruehmte-keanu-reeves", label:"Portr\u00e4t: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-willy-brandt", label:"Portr\u00e4t: Willy Brandt (SO9w8)"},
       ])}
+    </div>
+  `);
+}
+
+function marioBarthPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mario-barth-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mario Barth</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Comedian, geb. 1972 in Berlin &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; ein Tier, das nicht k\u00e4mpft, sondern verschmilzt. Es h\u00e4ngt entspannt im Ge\u00e4st, l\u00e4sst die Welt an sich vorbeiziehen und geht ganz in seiner Umgebung auf. Doch wer glaubt, das Faultier sei wehrlos, irrt: Ber\u00fchrt man es an der falschen Stelle, reagiert es pl\u00f6tzlich mit \u00fcberraschender Wucht.</p>
+          <p class="vb-intro">Mario Barth, 1972 in Berlin-Mariendorf geboren, eines von sechs Geschwistern, lernte zun\u00e4chst Fernmeldeelektroniker bei Siemens, bevor er sich der Comedy zuwandte. 2001 deb\u00fctierte er mit seinem ersten B\u00fchnenprogramm &ndash; und verschmolz von da an mit einer B\u00fchnenfigur, die zum Millionenpublikum sprach: der Berliner Kumpeltyp, der die ewigen Reibereien zwischen M\u00e4nnern und Frauen auf den Punkt bringt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit der Masse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> nannte Naranjo <em>Verschmelzung</em>: Frieden durch vollst\u00e4ndiges Aufgehen in einer anderen Person, einem Publikum, einer Stimmung. Die SX9 verliert dabei nicht sich selbst &ndash; sie findet sich gerade in diesem Zustand des Einsseins mit dem Gegen\u00fcber.</p>
+          <p class="vb-intro">Barths B\u00fchnenprogramme &ndash; \u201eM\u00e4nner sind Schweine, Frauen aber auch", \u201eM\u00e4nner sind primitiv, aber gl\u00fccklich!", \u201eM\u00e4nner sind peinlich, Frauen manchmal auch!" &ndash; leben genau von dieser Verschmelzung: Er spricht nicht \u00fcber das Publikum, er wird zur Stimme des Publikums. Jeder Scherz \u00fcber Alltagsstreit zwischen Mann und Frau funktioniert nur, weil Millionen sich darin sofort wiedererkennen. Das ist keine Beobachtung von au\u00dfen &ndash; das ist Einssein mit der kollektiven Erfahrung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Wucht im entspannten Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> verleiht der sexuellen Neun eine Kraft, die der reinen SX9 fehlt: Durchsetzungsverm\u00f6gen, Direktheit, eine gewisse unternehmerische H\u00e4rte. Die <strong>SX9w8</strong> wirkt entspannt und gem\u00fctlich &ndash; und ist zugleich f\u00e4hig, mit vollem K\u00f6rpereinsatz f\u00fcr die eigene Sache zu k\u00e4mpfen.</p>
+          <p class="vb-intro">Am 12. Juli 2008 stellte Barth im Berliner Olympiastadion vor 70.000 Zuschauern einen Weltrekord f\u00fcr die gr\u00f6\u00dfte Live-Comedy-Show auf &ndash; 2014 \u00fcberbot er sich selbst mit 116.498 Zuschauern binnen 24 Stunden. Solche Dimensionen entstehen nicht aus reiner Gem\u00fctlichkeit: Es brauchte den Achterfl\u00fcgel, um aus einer entspannten B\u00fchnenfigur ein Unternehmen mit eigenem Verlag, eigener Stiftung und millionenschweren Tourneen zu machen. Das Faultier h\u00e4ngt im Baum &ndash; aber es ist der Baum eines ganzen Waldes, den es sich erobert hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Der Alltag als gro\u00dfe B\u00fchne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Barths Humor basiert nicht auf politischer Satire oder intellektuellem Wortwitz, sondern auf dem, was jeder kennt: der Streit ums Autofahren, das Aufr\u00e4umen, die Kommunikation zwischen den Geschlechtern. Er verschmilzt so vollst\u00e4ndig mit dem gemeinsamen Nenner des Alltags, dass sein Publikum sich nicht belehrt, sondern verstanden f\u00fchlt.</p>
+          <p class="vb-intro">Neben der B\u00fchne baute er ein Medienimperium auf: eigene Verlagsprojekte, eine Stiftung, TV-Formate. 2016 gr\u00fcndete er die Mario-Barth-Stiftung, die sich unter anderem f\u00fcr Kinder- und Jugendprojekte engagiert. Auch hier zeigt sich das Muster der SX9w8: die entspannte Pr\u00e4senz des Faultiers, verbunden mit der Tatkraft des Achterfl\u00fcgels, die aus Sympathie tragf\u00e4hige Strukturen macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w8 ist ihre <strong>F\u00e4higkeit, mit einer riesigen Menschenmenge zu verschmelzen, ohne sich dabei zu verstellen</strong>. Barth wirkt auf der B\u00fchne, als w\u00fcrde er mit jedem Einzelnen im Stadion pers\u00f6nlich reden &ndash; eine seltene Gabe, die aus echter Verbindung entsteht, nicht aus Technik.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kritik, die ihn seit Jahren begleitet: Sein Humor wurde vielfach als plump, klischeehaft und wiederholend bezeichnet, seine Themen als immer gleiche M\u00e4nner-Frauen-Gegen\u00fcberstellung ohne Weiterentwicklung. Die SX9w8, die sich so vollst\u00e4ndig mit dem verschmilzt, was funktioniert, tut sich schwer, davon abzuweichen &ndash; aus Angst, die Verbindung zum Publikum zu verlieren, die genau dieses vertraute Muster \u00fcberhaupt erst geschaffen hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Faultier, das ein Stadion f\u00fcllte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mario Barth ist bis heute einer der erfolgreichsten deutschsprachigen Comedians &ndash; seine B\u00fchnenprogramme f\u00fcllten wiederholt die gr\u00f6\u00dften Stadien und Hallen des Landes. Seine Rekorde im Olympiastadion bleiben unerreicht: kein anderer Comedian der Welt hat je vor so vielen Menschen gleichzeitig live gearbeitet.</p>
+          <p class="vb-intro">Was bleibt, ist das Bild eines Faultiers, das sich nicht zur\u00fcckzieht, sondern sich mit der gr\u00f6\u00dftm\u00f6glichen Menge verschmilzt, die man sich vorstellen kann &ndash; und dabei genau die Kraft entwickelt, die es braucht, um ein ganzes Stadion zu f\u00fcllen. Entspannung und Wucht, Gem\u00fctlichkeit und Durchsetzung: Das ist die SX9w8 in ihrer massentauglichsten Form.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+          {route:"subtype/sx9", label:"SX9 \u2013 Das Faultier: Subtyp-Profil"},
+          {route:"beruehmte-heike-makatsch", label:"Portr\u00e4t: Heike Makatsch (SX9w8)"},
+          {route:"beruehmte-dakota-johnson", label:"Portr\u00e4t: Dakota Johnson (SX9w8)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -73507,6 +73578,7 @@ function render() {
           "beruehmte-carl-rogers": carlRogersPortraitPage,
     "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,
     "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
+    "beruehmte-mario-barth": marioBarthPortraitPage,
           "beruehmte-james-levine": jamesLevinePortraitPage,
     "beruehmte-baerbel-bas": baerbelBasPortraitPage,
     "beruehmte-ludwig-erhard": ludwigErhardPortraitPage,

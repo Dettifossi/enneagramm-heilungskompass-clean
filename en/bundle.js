@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "422";
+const APP_BUILD = "423";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -552,6 +552,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Heike Makatsch – Sexual Type 9",
     teaser:"SX9w8 · born 1971. Actress, known from 'Aimée & Jaguar', 'Love Actually' and more. The sexual Nine as amplification type: complete devotion to the role, with the strength of the Eight-wing at her back. Animal correspondence: Sloth.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-mario-barth", name:"Mario Barth", added:"2026-08-05", subtyp:"SX9w8",
+    heading:"Mario Barth – Sexual Type 9",
+    teaser:"SX9w8 · born 1972. Comedian, record holder for the largest comedy show in the world (Berlin Olympic Stadium). The sloth that merges with the laughter of the crowd – and bites back with force when criticism comes.",
+    tags:["Comedy"], gender:"m"},
 
   { route:"beruehmte-adele-neuhauser", name:"Adele Neuhauser", added:"2026-07-22", subtyp:"SX8w7",
     heading:"Adele Neuhauser – Sexual Type 8",
@@ -21625,6 +21629,71 @@ function heikeMakatschPortraitPage() {
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
       ])}
+    </div>
+  `);
+}
+
+function marioBarthPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-mario-barth-portrait.jpg" alt="Sloth" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mario Barth</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexual Type 9 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Comedian, born 1972 in Berlin &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sloth</strong> is the animal of Sexual Type 9 &ndash; an animal that does not fight, but merges. It hangs relaxed in the branches, lets the world drift past, and dissolves entirely into its surroundings. But anyone who thinks the sloth is defenseless is mistaken: touched in the wrong spot, it suddenly responds with surprising force.</p>
+          <p class="vb-intro">Mario Barth, born 1972 in Berlin-Mariendorf, one of six siblings, first trained as a telecommunications electrician before turning to comedy. In 2001 he debuted with his first stage show &ndash; and from then on merged with a stage persona that spoke to a mass audience: the Berlin everyman who nails the eternal friction between men and women.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Nine: Merging with the Crowd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Nine (SX9)</strong> is what Naranjo called <em>Fusion</em>: peace through complete absorption into another person, an audience, a mood. The SX9 does not lose itself in this &ndash; it finds itself precisely in this state of oneness with the other.</p>
+          <p class="vb-intro">Barth's stage shows &ndash; “Männer sind Schweine, Frauen aber auch,” “Männer sind primitiv, aber glücklich!,” “Männer sind peinlich, Frauen manchmal auch!” &ndash; live off exactly this fusion: he doesn't talk about the audience, he becomes the voice of the audience. Every joke about everyday friction between men and women only works because millions instantly recognize themselves in it. This isn't observation from the outside &ndash; it's oneness with collective experience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: Force Behind a Relaxed Presence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Sexual Nine a force the pure SX9 lacks: assertiveness, directness, a certain entrepreneurial toughness. The <strong>SX9w8</strong> appears relaxed and easygoing &ndash; and is at the same time capable of fighting with full force for its own cause.</p>
+          <p class="vb-intro">On 12 July 2008, Barth set a world record at Berlin's Olympic Stadium with 70,000 spectators for the largest live comedy show &ndash; in 2014 he outdid himself with 116,498 spectators within 24 hours. Scale like that doesn't come from mere easygoingness alone: it took the Eight-wing to turn a relaxed stage persona into a business with its own publishing arm, its own foundation, and multi-million-euro tours. The sloth hangs in the tree &ndash; but it's the tree of an entire forest it has conquered.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Everyday Life as a Grand Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Barth's humor isn't based on political satire or intellectual wordplay, but on what everyone knows: arguments over driving, tidying up, communication between the sexes. He merges so completely with the common denominator of everyday life that his audience doesn't feel lectured, but understood.</p>
+          <p class="vb-intro">Beyond the stage, he built a media empire: his own publishing projects, a foundation, TV formats. In 2016 he founded the Mario Barth Foundation, which supports, among other things, children's and youth projects. Here too, the pattern of the SX9w8 shows itself: the sloth's relaxed presence, combined with the Eight-wing's drive that turns sympathy into lasting structures.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX9w8 is its <strong>ability to merge with an enormous crowd without ever pretending to be someone else</strong>. On stage, Barth comes across as though he were speaking to every single person in the stadium personally &ndash; a rare gift that arises from genuine connection, not technique.</p>
+          <p class="vb-intro">The shadow shows in the criticism that has followed him for years: his humor has repeatedly been called crude, clichéd, and repetitive, his topics an unchanging men-versus-women routine with no development. The SX9w8, merging so completely with what already works, finds it hard to deviate &ndash; out of fear of losing the very connection to the audience that this familiar pattern created in the first place.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Sloth That Filled a Stadium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mario Barth remains to this day one of the most successful German-speaking comedians &ndash; his stage shows have repeatedly filled the country's largest stadiums and arenas. His records at the Olympic Stadium remain unmatched: no other comedian in the world has ever performed live in front of so many people at once.</p>
+          <p class="vb-intro">What remains is the image of a sloth that doesn't withdraw, but merges with the largest possible crowd imaginable &ndash; and in doing so develops exactly the force needed to fill an entire stadium. Ease and impact, comfort and assertiveness: this is the SX9w8 in its most crowd-pleasing form.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+          {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8)"},
+          {route:"beruehmte-dakota-johnson", label:"Portrait: Dakota Johnson (SX9w8)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -43438,6 +43507,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-wilma-mankiller": wilmaMankillerPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
+      "beruehmte-mario-barth": marioBarthPortraitPage,
       "beruehmte-baerbel-bas": baerbelBasPortraitPage,
       "beruehmte-ludwig-erhard": ludwigErhardPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,

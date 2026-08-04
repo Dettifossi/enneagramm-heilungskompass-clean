@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "432";
+const APP_BUILD = "433";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -814,6 +814,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Heike Makatsch – Sexueller Typ 9",
     teaser:"SX9w8 · geb. 1971. Schauspielerin, bekannt aus „Aimée & Jaguar“, „Love Actually“ u. v. m. Die sexuelle Neun als Verstärkungstyp: vollständige Hingabe an die Rolle, mit der Kraft des Achterflügels im Rücken. Tierentsprechung: Faultier.",
     tags:["Schauspiel"] , gender:"f"},
+  { route:"beruehmte-mario-barth", name:"Mario Barth", added:"2026-08-05", subtyp:"SX9w8",
+    heading:"Mario Barth – Sexueller Typ 9",
+    teaser:"SX9w8 · geb. 1972. Comedian, Rekordhalter für die größte Comedy-Show der Welt (Olympiastadion Berlin). Das Faultier, das sich mit dem Lachen der Masse verschmilzt – und mit Wucht zubeißt, wenn Kritik kommt.",
+    tags:["Comedy"], gender:"m"},
 ];
 
 const ASTROLOGIE_PORTRAITS = [
@@ -14273,6 +14277,71 @@ function heikeMakatschPortraitPage() {
         {route:"beruehmte-keanu-reeves", label:"Porträt: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-willy-brandt", label:"Porträt: Willy Brandt (SO9w8)"},
       ])}
+    </div>
+  `);
+}
+
+function marioBarthPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mario-barth-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mario Barth</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Comedian, geb. 1972 in Berlin &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; ein Tier, das nicht kämpft, sondern verschmilzt. Es hängt entspannt im Geäst, lässt die Welt an sich vorbeiziehen und geht ganz in seiner Umgebung auf. Doch wer glaubt, das Faultier sei wehrlos, irrt: Berührt man es an der falschen Stelle, reagiert es plötzlich mit überraschender Wucht.</p>
+          <p class="vb-intro">Mario Barth, 1972 in Berlin-Mariendorf geboren, eines von sechs Geschwistern, lernte zunächst Fernmeldeelektroniker bei Siemens, bevor er sich der Comedy zuwandte. 2001 debütierte er mit seinem ersten Bühnenprogramm &ndash; und verschmolz von da an mit einer Bühnenfigur, die zum Millionenpublikum sprach: der Berliner Kumpeltyp, der die ewigen Reibereien zwischen Männern und Frauen auf den Punkt bringt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit der Masse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> nannte Naranjo <em>Verschmelzung</em>: Frieden durch vollständiges Aufgehen in einer anderen Person, einem Publikum, einer Stimmung. Die SX9 verliert dabei nicht sich selbst &ndash; sie findet sich gerade in diesem Zustand des Einsseins mit dem Gegenüber.</p>
+          <p class="vb-intro">Barths Bühnenprogramme &ndash; „Männer sind Schweine, Frauen aber auch", „Männer sind primitiv, aber glücklich!", „Männer sind peinlich, Frauen manchmal auch!" &ndash; leben genau von dieser Verschmelzung: Er spricht nicht über das Publikum, er wird zur Stimme des Publikums. Jeder Scherz über Alltagsstreit zwischen Mann und Frau funktioniert nur, weil Millionen sich darin sofort wiedererkennen. Das ist keine Beobachtung von außen &ndash; das ist Einssein mit der kollektiven Erfahrung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Wucht im entspannten Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> verleiht der sexuellen Neun eine Kraft, die der reinen SX9 fehlt: Durchsetzungsvermögen, Direktheit, eine gewisse unternehmerische Härte. Die <strong>SX9w8</strong> wirkt entspannt und gemütlich &ndash; und ist zugleich fähig, mit vollem Körpereinsatz für die eigene Sache zu kämpfen.</p>
+          <p class="vb-intro">Am 12. Juli 2008 stellte Barth im Berliner Olympiastadion vor 70.000 Zuschauern einen Weltrekord für die größte Live-Comedy-Show auf &ndash; 2014 überbot er sich selbst mit 116.498 Zuschauern binnen 24 Stunden. Solche Dimensionen entstehen nicht aus reiner Gemütlichkeit: Es brauchte den Achterflügel, um aus einer entspannten Bühnenfigur ein Unternehmen mit eigenem Verlag, eigener Stiftung und millionenschweren Tourneen zu machen. Das Faultier hängt im Baum &ndash; aber es ist der Baum eines ganzen Waldes, den es sich erobert hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Der Alltag als große Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Barths Humor basiert nicht auf politischer Satire oder intellektuellem Wortwitz, sondern auf dem, was jeder kennt: der Streit ums Autofahren, das Aufräumen, die Kommunikation zwischen den Geschlechtern. Er verschmilzt so vollständig mit dem gemeinsamen Nenner des Alltags, dass sein Publikum sich nicht belehrt, sondern verstanden fühlt.</p>
+          <p class="vb-intro">Neben der Bühne baute er ein Medienimperium auf: eigene Verlagsprojekte, eine Stiftung, TV-Formate. 2016 gründete er die Mario-Barth-Stiftung, die sich unter anderem für Kinder- und Jugendprojekte engagiert. Auch hier zeigt sich das Muster der SX9w8: die entspannte Präsenz des Faultiers, verbunden mit der Tatkraft des Achterflügels, die aus Sympathie tragfähige Strukturen macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w8 ist ihre <strong>Fähigkeit, mit einer riesigen Menschenmenge zu verschmelzen, ohne sich dabei zu verstellen</strong>. Barth wirkt auf der Bühne, als würde er mit jedem Einzelnen im Stadion persönlich reden &ndash; eine seltene Gabe, die aus echter Verbindung entsteht, nicht aus Technik.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kritik, die ihn seit Jahren begleitet: Sein Humor wurde vielfach als plump, klischeehaft und wiederholend bezeichnet, seine Themen als immer gleiche Männer-Frauen-Gegenüberstellung ohne Weiterentwicklung. Die SX9w8, die sich so vollständig mit dem verschmilzt, was funktioniert, tut sich schwer, davon abzuweichen &ndash; aus Angst, die Verbindung zum Publikum zu verlieren, die genau dieses vertraute Muster überhaupt erst geschaffen hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Faultier, das ein Stadion füllte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mario Barth ist bis heute einer der erfolgreichsten deutschsprachigen Comedians &ndash; seine Bühnenprogramme füllten wiederholt die größten Stadien und Hallen des Landes. Seine Rekorde im Olympiastadion bleiben unerreicht: kein anderer Comedian der Welt hat je vor so vielen Menschen gleichzeitig live gearbeitet.</p>
+          <p class="vb-intro">Was bleibt, ist das Bild eines Faultiers, das sich nicht zurückzieht, sondern sich mit der größtmöglichen Menge verschmilzt, die man sich vorstellen kann &ndash; und dabei genau die Kraft entwickelt, die es braucht, um ein ganzes Stadion zu füllen. Entspannung und Wucht, Gemütlichkeit und Durchsetzung: Das ist die SX9w8 in ihrer massentauglichsten Form.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+          {route:"beruehmte-heike-makatsch", label:"Porträt: Heike Makatsch (SX9w8)"},
+          {route:"beruehmte-dakota-johnson", label:"Porträt: Dakota Johnson (SX9w8)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -46379,6 +46448,7 @@ function render() {
           "beruehmte-carl-rogers": carlRogersPortraitPage,
     "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,
     "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
+    "beruehmte-mario-barth": marioBarthPortraitPage,
           "beruehmte-james-levine": jamesLevinePortraitPage,
     "beruehmte-baerbel-bas": baerbelBasPortraitPage,
     "beruehmte-ludwig-erhard": ludwigErhardPortraitPage,
