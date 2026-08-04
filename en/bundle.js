@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "412";
+const APP_BUILD = "413";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -21213,6 +21213,7 @@ function eliJaxonBearPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SX8w9 is its <strong>ability to combine radical confrontation with deep stillness</strong>. Jaxon-Bear confronts students directly with their self-deceptions &ndash; without the harshness that can wound in other Eights, because the Nine-wing embeds this directness in a spaciousness that does not condemn, but invites.</p>
           <p class="vb-intro">The shadow lies in a path most people find too radical. Those seeking gentle self-improvement from him will be disappointed. Jaxon-Bear's teaching demands the complete willingness to drop every idea of one's own self &ndash; a demand that fits the crocodile nature but overwhelms many seekers who wish for a gentler spiritual path.</p>
+          <p class="vb-intro">In 2005, Jaxon-Bear admitted to his wife Gangaji a three-year affair with the then executive director of the Leela Foundation, a former student. The foundation stated publicly that what had initially appeared to be a matter between two adults was now recognised as a betrayal of the teacher-student relationship and an abuse of power. Jaxon-Bear stepped down from leadership as a result, but re-established the Leela Foundation in 2008 and has taught there again ever since. The Sexual Eight knows no half-boundaries &ndash; and that very boundlessness, celebrated as spiritual radicalism, can turn into an abuse of one's own authority in the personal realm.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Path of Healing: The Crocodile That Saw Through Its Own Fixation</h2>

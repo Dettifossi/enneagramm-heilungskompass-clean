@@ -27171,7 +27171,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "420";
+const APP_BUILD = "421";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -40716,6 +40716,7 @@ function eliJaxonBearPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SX8w9 ist ihre <strong>F\u00e4higkeit, radikale Konfrontation mit tiefer Ruhe zu verbinden</strong>. Jaxon-Bear konfrontiert Sch\u00fcler direkt mit ihren Selbstt\u00e4uschungen &ndash; ohne die H\u00e4rte, die bei anderen Achtern zu Verletzung f\u00fchren kann, weil der Neunerfl\u00fcgel diese Direktheit in eine Weite einbettet, die nicht verurteilt, sondern einl\u00e4dt.</p>
           <p class="vb-intro">Der Schatten liegt in einem Weg, der von den meisten als zu radikal empfunden wird: Wer bei ihm nach sanfter Selbstoptimierung sucht, wird entt\u00e4uscht. Jaxon-Bears Lehre verlangt die vollst\u00e4ndige Bereitschaft, jede Vorstellung vom eigenen Ich fallen zu lassen &ndash; eine Forderung, die dem Krokodil-Naturell entspricht, aber viele Suchende \u00fcberfordert, die sich einen sanfteren spirituellen Weg w\u00fcnschen.</p>
+          <p class="vb-intro">2005 gestand Jaxon-Bear seiner Frau Gangaji eine dreij\u00e4hrige Aff\u00e4re mit der damaligen Gesch\u00e4ftsf\u00fchrerin der Leela Foundation, einer ehemaligen Sch\u00fclerin. Die Stiftung erkl\u00e4rte \u00f6ffentlich, was zun\u00e4chst als Angelegenheit zwischen zwei Erwachsenen erschienen sei, werde nun als Verrat an der Lehrer-Sch\u00fcler-Beziehung und Machtmissbrauch anerkannt. Jaxon-Bear trat daraufhin von der Leitung zur\u00fcck, gr\u00fcndete die Leela Foundation aber 2008 neu und lehrt seither wieder. Die sexuelle Acht kennt keine halben Grenzen &ndash; und genau diese Grenzenlosigkeit, die als spirituelle Radikalit\u00e4t gefeiert wird, kann sich im pers\u00f6nlichen Bereich als Missbrauch der eigenen Autorit\u00e4t entpuppen.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: Das Krokodil, das die eigene Fixierung durchschaute</h2>

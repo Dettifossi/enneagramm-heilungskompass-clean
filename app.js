@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "420";
+const APP_BUILD = "421";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -13598,6 +13598,7 @@ function eliJaxonBearPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SX8w9 ist ihre <strong>Fähigkeit, radikale Konfrontation mit tiefer Ruhe zu verbinden</strong>. Jaxon-Bear konfrontiert Schüler direkt mit ihren Selbsttäuschungen &ndash; ohne die Härte, die bei anderen Achtern zu Verletzung führen kann, weil der Neunerflügel diese Direktheit in eine Weite einbettet, die nicht verurteilt, sondern einlädt.</p>
           <p class="vb-intro">Der Schatten liegt in einem Weg, der von den meisten als zu radikal empfunden wird: Wer bei ihm nach sanfter Selbstoptimierung sucht, wird enttäuscht. Jaxon-Bears Lehre verlangt die vollständige Bereitschaft, jede Vorstellung vom eigenen Ich fallen zu lassen &ndash; eine Forderung, die dem Krokodil-Naturell entspricht, aber viele Suchende überfordert, die sich einen sanfteren spirituellen Weg wünschen.</p>
+          <p class="vb-intro">2005 gestand Jaxon-Bear seiner Frau Gangaji eine dreijährige Affäre mit der damaligen Geschäftsführerin der Leela Foundation, einer ehemaligen Schülerin. Die Stiftung erklärte öffentlich, was zunächst als Angelegenheit zwischen zwei Erwachsenen erschienen sei, werde nun als Verrat an der Lehrer-Schüler-Beziehung und Machtmissbrauch anerkannt. Jaxon-Bear trat daraufhin von der Leitung zurück, gründete die Leela Foundation aber 2008 neu und lehrt seither wieder. Die sexuelle Acht kennt keine halben Grenzen &ndash; und genau diese Grenzenlosigkeit, die als spirituelle Radikalität gefeiert wird, kann sich im persönlichen Bereich als Missbrauch der eigenen Autorität entpuppen.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: Das Krokodil, das die eigene Fixierung durchschaute</h2>
