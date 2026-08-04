@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "407";
+const APP_BUILD = "408";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -686,6 +686,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Golda Meir – Selbsterhaltender Typ 8",
     teaser:"SE8w9 · 1898–1978. Politikerin, Staatsfrau, vierte Premierministerin Israels (1969–1974). Eine der Unterzeichnerinnen der israelischen Unabhängigkeitserklärung. Der Orang-Utan, der langsam klettert und am Ende höher sitzt als alle, die lauter waren.",
     tags:["Politik"], gender:"f"},
+  { route:"beruehmte-winston-churchill", name:"Winston Churchill", added:"2026-08-04", subtyp:"SE8w9",
+    heading:"Winston Churchill – Selbsterhaltender Typ 8",
+    teaser:"SE8w9 · 1874–1965. Britischer Staatsmann, Premierminister 1940–1945 und 1951–1955, Literaturnobelpreisträger 1953. Der Orang-Utan, der in der dunkelsten Stunde Großbritanniens nicht wich – geerdet, stur, unerschütterlich.",
+    tags:["Politik"], gender:"m"},
   { route:"beruehmte-michelle-obama", name:"Michelle Obama", subtyp:"SO8w7",
     heading:"Michelle Obama – Sozialer Typ 8",
     teaser:"SO8w7 · geb. 1964. Anwältin, Autorin, ehemalige First Lady der USA (2009–2017). Bestseller-Autorin (Becoming). Der Löwe, der für sein Rudel kämpft – und der weiß, dass man hochgeht, wenn andere runtergehen. Tierentsprechung: Löwe.",
@@ -12663,6 +12667,70 @@ function goldaMeirPortraitPage() {
   `);
 }
 
+
+function winstonChurchillPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-winston-churchill-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Winston Churchill</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Selbsterhaltender Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Britischer Staatsmann, Premierminister 1940&ndash;1945 &amp; 1951&ndash;1955, 1874&ndash;1965 &ndash; Tierentsprechung: Orang-Utan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Orang-Utan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier des selbsterhaltenden Typs 8 &ndash; massiv, geduldig, kaum aus der Ruhe zu bringen. Er braucht kein Publikum, um seine Kraft zu beweisen; er sitzt einfach da, wo er sitzt, und wer ihn verdrängen will, muss ihn erst einmal bewegen. Sein Körper ist gebaut, um zu bleiben &ndash; nicht um zu fliehen.</p>
+          <p class="vb-intro">Winston Churchill, 1874 auf Schloss Blenheim geboren, war genau dieser Orang-Utan: körperlich massig, in der Öffentlichkeit oft unterschätzt, politisch mehrfach für gescheitert erklärt &ndash; und doch immer wieder da, wenn es darauf ankam. Als Großbritannien 1940 vor der Invasion durch Nazi-Deutschland stand, war es dieser Mann, kein anderer, der auf dem Ast blieb, während der Sturm tobte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Acht: Das Recht auf Widerstand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> drückt die Leidenschaft der Acht &ndash; die <em>Wollust</em>, den Hunger nach uneingeschränkter Intensität &ndash; durch Selbstbehauptung und die unbedingte Sicherung des eigenen Überlebens aus. Naranjo nannte diesen Subtyp <em>Satisfacción</em>. Die SE8 verteidigt, was ihr gehört, mit einer Sturheit, die keine Verhandlung kennt, sobald die Existenz selbst bedroht ist.</p>
+          <p class="vb-intro">Churchills berühmteste Rede, gehalten am 4. Juni 1940 vor dem Unterhaus, ist reinste SE8: „We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender." Kein Kompromissangebot, keine Verhandlungsbereitschaft mit Hitler, die viele im Kabinett damals noch für vernünftig hielten. Nur das nackte Recht, weiterzuexistieren &ndash; und die Weigerung, es aufzugeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die Fähigkeit zu warten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> gibt der selbsterhaltenden Acht etwas, das der reinen Acht fehlt: Ausdauer über Jahre hinweg, die Fähigkeit, eine unpopuläre Position zu halten, ohne sofort zu triumphieren oder zu resignieren. Die SE8w9 kämpft nicht in einer einzigen Schlacht &ndash; sie hält die Linie, so lange es nötig ist.</p>
+          <p class="vb-intro">Während der gesamten 1930er Jahre warnte Churchill, weitgehend isoliert und von der eigenen Partei belächelt, vor der Aufrüstung Nazi-Deutschlands &ndash; ein jahrelanger Ruf in der Wüste, den kaum jemand hören wollte. Als Neville Chamberlains Appeasement-Politik 1938/39 scheiterte, war es dieser Neunerflügel, der Geduld gepaart mit Sturheit, der Churchill befähigte, genau in diesem Moment bereitzustehen &ndash; nicht zu früh verbraucht, nicht zu spät gekommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von Gallipoli zur Downing Street</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Churchills politische Karriere war alles andere als eine gerade Linie. Als Marineminister trug er die Verantwortung für das Desaster von Gallipoli 1915, das ihn für Jahre ins politische Abseits stellte. Er wechselte mehrfach die Partei, wurde nach dem Ersten Weltkrieg als Kriegstreiber verspottet, verlor 1929 sein Amt und verbrachte die 1930er Jahre in dem, was Historiker seine „Wildernis Years" nennen &ndash; die Wildnisjahre.</p>
+          <p class="vb-intro">Am 10. Mai 1940, dem Tag, an dem Deutschland die Niederlande, Belgien und Frankreich überfiel, wurde Churchill Premierminister &ndash; nicht weil er beliebt war, sondern weil das Land in seiner dunkelsten Stunde einen Orang-Utan brauchte, keinen Diplomaten. Er organisierte die Evakuierung von Dünkirchen, hielt während der Luftschlacht um England die Nerven, als deutsche Bomben nächtlich auf London fielen, und schmiedete mit Roosevelt und Stalin die Allianz, die den Krieg schließlich gewann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE8w9 ist ihre <strong>unerschütterliche Standhaftigkeit</strong> in existenziellen Krisen. Churchills Reden waren keine rhetorischen Kunststücke &ndash; sie waren Ausdruck einer Kraft, die real war und die ein ganzes Volk spürte. Er verlangte nichts von den Briten, was er nicht selbst vorlebte: durchhalten, weitermachen, niemals aufgeben.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einer Rücksichtslosigkeit, die im Zweifel über Menschenleben hinwegging: Die Entscheidungen während der Bengalischen Hungersnot 1943, bei der Millionen Menschen starben, während Getreide für das Militär und Großbritannien reserviert blieb, werfen bis heute einen dunklen Schatten auf sein Erbe. Die selbsterhaltende Acht verteidigt kompromisslos das eigene Territorium &ndash; und kann dabei blind werden für das Leid derer, die außerhalb dieses Territoriums liegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Orang-Utan, der den Ast nicht losließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Acht führt von der Wollust zur Unschuld &ndash; von der zwanghaften Behauptung der eigenen Stärke zu einer Kraft, die auch verletzlich sein darf. Churchill selbst nannte seine wiederkehrenden Depressionen „the black dog", den schwarzen Hund, der ihn sein Leben lang begleitete &ndash; ein seltenes Eingeständnis von Schwäche bei einem Mann, der öffentlich nie eine zeigte.</p>
+          <p class="vb-intro">1953 erhielt er den Literaturnobelpreis für sein historisches und biografisches Gesamtwerk, darunter seine sechsbändige Geschichte des Zweiten Weltkriegs. Er starb 1965 im Alter von 90 Jahren, nach einem der längsten Staatsbegräbnisse der britischen Geschichte. Der Orang-Utan, der in der dunkelsten Stunde seines Landes auf dem Ast blieb, während andere fielen &ndash; und der bis heute als Symbol dafür steht, dass ein einzelner Mensch, der sich weigert nachzugeben, den Lauf der Geschichte verändern kann.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+        {route:"beruehmte-golda-meir", label:"Porträt: Golda Meir (SE8w9)"},
+      ])}
+    </div>
+  `);
+}
 
 function toniMorrisonPortraitPage() {
   return shell(`
@@ -45660,6 +45728,7 @@ function render() {
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
     "beruehmte-umberto-eco": umbertEcoPortraitPage,
           "beruehmte-golda-meir": goldaMeirPortraitPage,
+          "beruehmte-winston-churchill": winstonChurchillPortraitPage,
     "beruehmte-toni-morrison": toniMorrisonPortraitPage,
           "beruehmte-carsten-stahl": carstenStahlPortraitPage,
     "beruehmte-michelle-obama": michelleObamaPortraitPage,

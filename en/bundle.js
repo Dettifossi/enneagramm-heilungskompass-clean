@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "405";
+const APP_BUILD = "406";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -589,6 +589,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Golda Meir – Self-Preservation Type 8",
     teaser:"SE8w9 · 1898–1978. Politician, stateswoman, fourth prime minister of Israel (1969–1974). One of the signatories of Israel's Declaration of Independence. The orangutan that climbs slowly and ends up sitting higher than everyone who was louder.",
     tags:["Politics"], gender:"f"},
+  { route:"beruehmte-winston-churchill", name:"Winston Churchill", added:"2026-08-04", subtyp:"SE8w9",
+    heading:"Winston Churchill – Self-Preservation Type 8",
+    teaser:"SE8w9 · 1874–1965. British statesman, Prime Minister 1940–1945 and 1951–1955, Nobel Laureate in Literature 1953. The orangutan that did not budge in Britain's darkest hour – grounded, stubborn, unshakeable.",
+    tags:["Politics"], gender:"m"},
   { route:"beruehmte-rasputin", name:"Grigori Rasputin", added:"2026-07-29", subtyp:"SX1w9",
     heading:"Grigori Rasputin \u2013 Sexual Type 1",
     teaser:"SX1w9 \u00b7 1869\u20131916. Wandering monk, healer, confidant of the Tsar's family. A man whose burning gaze unsettled St. Petersburg's salons and who healed a sick Tsarevich where doctors had failed \u2013 purity and intoxication in a single figure. Animal correspondence: Black Mamba.",
@@ -15041,6 +15045,70 @@ function goldaMeirPortraitPage() {
           {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function winstonChurchillPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-winston-churchill-portrait.jpg" alt="Orangutan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Winston Churchill</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">British statesman, Prime Minister 1940&ndash;1945 &amp; 1951&ndash;1955, 1874&ndash;1965 &ndash; Animal correspondence: Orangutan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Orangutan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Orangutan</strong> is the animal of Self-Preservation Type 8 &ndash; massive, patient, hardly ever shaken. It needs no audience to prove its strength; it simply sits where it sits, and whoever wants to displace it must first find a way to move it. Its body is built to stay &ndash; not to flee.</p>
+          <p class="vb-intro">Winston Churchill, born in 1874 at Blenheim Palace, was exactly this orangutan: physically heavy-set, often underestimated in public life, repeatedly declared politically finished &ndash; and yet always there when it mattered most. When Britain faced invasion by Nazi Germany in 1940, it was this man, no one else, who stayed on the branch while the storm raged.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Eight: The Right to Resist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Eight (SE8)</strong> expresses the passion of the Eight &ndash; <em>Lust</em>, the hunger for unrestrained intensity &ndash; through self-assertion and the unconditional securing of one's own survival. Naranjo called this subtype <em>Satisfaction</em>. The SE8 defends what belongs to it with a stubbornness that knows no negotiation once existence itself is threatened.</p>
+          <p class="vb-intro">Churchill's most famous speech, delivered on 4 June 1940 before the House of Commons, is pure SE8: “We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.” No offer of compromise, no willingness to negotiate with Hitler, which many in the cabinet at the time still considered reasonable. Only the bare right to keep existing &ndash; and the refusal to give it up.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: The Capacity to Wait</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> gives the Self-Preservation Eight something the pure Eight lacks: endurance across years, the ability to hold an unpopular position without needing to triumph or resign immediately. The SE8w9 does not fight in a single battle &ndash; it holds the line for as long as necessary.</p>
+          <p class="vb-intro">Throughout the 1930s, Churchill warned, largely isolated and mocked by his own party, about the rearmament of Nazi Germany &ndash; a years-long voice in the wilderness that almost no one wanted to hear. When Neville Chamberlain's policy of appeasement collapsed in 1938/39, it was this Nine-wing, patience paired with stubbornness, that enabled Churchill to be ready in exactly that moment &ndash; not spent too early, not arriving too late.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Gallipoli to Downing Street</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Churchill's political career was anything but a straight line. As First Lord of the Admiralty, he bore responsibility for the disaster at Gallipoli in 1915, which pushed him to the political sidelines for years. He switched parties more than once, was mocked as a warmonger after the First World War, lost his seat in 1929, and spent the 1930s in what historians call his “Wilderness Years.”</p>
+          <p class="vb-intro">On 10 May 1940, the day Germany invaded the Netherlands, Belgium and France, Churchill became Prime Minister &ndash; not because he was popular, but because the country, in its darkest hour, needed an orangutan, not a diplomat. He organised the evacuation of Dunkirk, held firm through the Battle of Britain as German bombs fell nightly on London, and forged with Roosevelt and Stalin the alliance that ultimately won the war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE8w9 is its <strong>unshakeable steadfastness</strong> in existential crises. Churchill's speeches were not rhetorical tricks &ndash; they were the expression of a force that was real and that an entire nation could feel. He asked nothing of the British that he did not live himself: hold on, carry on, never give up.</p>
+          <p class="vb-intro">The shadow shows in a ruthlessness that, when in doubt, disregarded human lives: the decisions made during the Bengal famine of 1943, in which millions died while grain was reserved for the military and Britain, still cast a dark shadow over his legacy today. The Self-Preservation Eight defends its own territory without compromise &ndash; and can become blind to the suffering of those who lie outside that territory.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Orangutan That Would Not Let Go of the Branch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Eight leads from lust to innocence &ndash; from the compulsive assertion of one's own strength to a power that is also allowed to be vulnerable. Churchill himself called his recurring depressions “the black dog,” a companion throughout his life &ndash; a rare admission of weakness from a man who publicly never showed one.</p>
+          <p class="vb-intro">In 1953 he received the Nobel Prize in Literature for his historical and biographical body of work, including his six-volume history of the Second World War. He died in 1965 at the age of 90, after one of the longest state funerals in British history. The orangutan that stayed on the branch through his country's darkest hour while others fell &ndash; and who still stands today as a symbol that a single person who refuses to give in can change the course of history.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
+      ])}
     </div>
   `);
 }
@@ -42809,6 +42877,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
       "beruehmte-jack-black": jackBlackPortraitPage,
       "beruehmte-golda-meir": goldaMeirPortraitPage,
+      "beruehmte-winston-churchill": winstonChurchillPortraitPage,
       "beruehmte-guenther-jauch": guentherJauchPortraitPage,
       "beruehmte-iga-swiatek": igaSwiatekPortraitPage,
       "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
