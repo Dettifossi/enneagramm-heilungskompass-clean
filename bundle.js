@@ -27171,7 +27171,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "419";
+const APP_BUILD = "420";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -40709,7 +40709,7 @@ function eliJaxonBearPortraitPage() {
         <h2 class="vb-section">4. Das Werk: Vom Fixiertsein zur Freiheit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Jaxon-Bear ist einer der wenigen spirituellen Lehrer, die das Enneagramm der Pers\u00f6nlichkeitsfixierungen direkt mit dem nicht-dualen Erwachen verbinden. Sein Hauptwerk <em>From Fixation to Freedom: The Enneagram of Liberation</em> beschreibt die neun Fixierungen nicht als blo\u00dfes Pers\u00f6nlichkeitsmodell, sondern als neun verschiedene Wege, wie das Ego sich selbst als real erlebt &ndash; und als neun Wege, diese Illusion zu durchschauen.</p>
-          <p class="vb-intro">Er gr\u00fcndete die Leela Foundation und h\u00e4lt seit Jahrzehnten Retreats und Satsangs weltweit, in denen er Menschen direkt mit der Frage konfrontiert, wer sie jenseits ihrer Pers\u00f6nlichkeitsfixierung wirklich sind. Er lebt in Ashland, Oregon, gemeinsam mit seiner Frau Gangaji, ebenfalls einer bekannten spirituellen Lehrerin &ndash; 1989 heirateten die beiden in einer H\u00f6hle am Haleakala-Krater auf Maui. Jaxon-Bears Lehre ist kein sanftes Coaching, sondern die direkte, oft unbequeme Einladung, die eigene Fixierung als Fixierung zu erkennen &ndash; und loszulassen.</p>
+          <p class="vb-intro">Er gr\u00fcndete die Leela Foundation und h\u00e4lt seit Jahrzehnten Retreats und Satsangs weltweit, in denen er Menschen direkt mit der Frage konfrontiert, wer sie jenseits ihrer Pers\u00f6nlichkeitsfixierung wirklich sind. Er lebt in Ashland, Oregon, gemeinsam mit seiner Frau Gangaji (SX4w3), ebenfalls einer bekannten spirituellen Lehrerin &ndash; 1989 heirateten die beiden in einer H\u00f6hle am Haleakala-Krater auf Maui. Jaxon-Bears Lehre ist kein sanftes Coaching, sondern die direkte, oft unbequeme Einladung, die eigene Fixierung als Fixierung zu erkennen &ndash; und loszulassen.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten</h2>

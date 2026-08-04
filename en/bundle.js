@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "411";
+const APP_BUILD = "412";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -21206,7 +21206,7 @@ function eliJaxonBearPortraitPage() {
         <h2 class="vb-section">4. The Work: From Fixation to Freedom</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Jaxon-Bear is one of the few spiritual teachers who directly connect the Enneagram of personality fixations with non-dual awakening. His major work, <em>From Fixation to Freedom: The Enneagram of Liberation</em>, describes the nine fixations not as a mere personality model, but as nine different ways the ego experiences itself as real &ndash; and as nine ways to see through that illusion.</p>
-          <p class="vb-intro">He founded the Leela Foundation and has led retreats and satsangs worldwide for decades, confronting people directly with the question of who they truly are beyond their personality fixation. He lives in Ashland, Oregon, with his wife Gangaji, herself a well-known spiritual teacher &ndash; the two married in 1989 in a cave at the Haleakala Crater on Maui. Jaxon-Bear's teaching is not gentle coaching, but a direct, often uncomfortable invitation to recognise one's own fixation as a fixation &ndash; and let it go.</p>
+          <p class="vb-intro">He founded the Leela Foundation and has led retreats and satsangs worldwide for decades, confronting people directly with the question of who they truly are beyond their personality fixation. He lives in Ashland, Oregon, with his wife Gangaji (SX4w3), herself a well-known spiritual teacher &ndash; the two married in 1989 in a cave at the Haleakala Crater on Maui. Jaxon-Bear's teaching is not gentle coaching, but a direct, often uncomfortable invitation to recognise one's own fixation as a fixation &ndash; and let it go.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow</h2>
