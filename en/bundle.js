@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "416";
+const APP_BUILD = "417";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -536,6 +536,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Willy Brandt – Social Type 9",
     teaser:"SO9w8 · 1913–1992. Federal Chancellor, Nobel Peace Prize 1971, architect of Ostpolitik. The Warsaw Kneel – a silence that wrote history. Animal correspondence: Buffalo.",
     tags:["Politik"] },
+  { route:"beruehmte-wilma-mankiller", name:"Wilma Mankiller", added:"2026-08-04", subtyp:"SO9w8",
+    heading:"Wilma Mankiller – Social Type 9",
+    teaser:"SO9w8 · 1945–2010. First woman to serve as Principal Chief of the Cherokee Nation (1985–1995). The buffalo who carried an entire nation – against illness, resistance and doubt, with unwavering strength for the community.",
+    tags:["Politics","Activism"], gender:"f"},
   { route:"beruehmte-keanu-reeves", name:"Keanu Reeves", subtyp:"SX9w1",
     heading:"Keanu Reeves – Sexual Type 9",
     teaser:"SX9w1 · born 1964. Actor (The Matrix, John Wick). The quiet man who dissolves into every role – and in real life is even more humble than on screen. Animal correspondence: Sloth.",
@@ -21672,6 +21676,70 @@ function willyBrandtPortraitPage() {
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
         {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
       ])}
+    </div>
+  `);
+}
+
+function wilmaMankillerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-wilma-mankiller-portrait.jpg" alt="Buffalo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wilma Mankiller</p>
+        <p class="krim-portrait-typ">SO9w8 &middot; Social Type 9 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">First woman to serve as Principal Chief of the Cherokee Nation, 1945&ndash;2010 &ndash; Animal correspondence: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Buffalo</strong> is the animal of Social Type 9 &ndash; an animal that defines itself not through going it alone, but through being bound to something larger than itself. It lowers its head and pushes through whatever stands in its way, unconcerned with recognition or applause. It carries the herd, even when it is weakened itself.</p>
+          <p class="vb-intro">Wilma Mankiller, born 1945 in Tahlequah, Oklahoma, is this buffalo in pure form: the sixth of eleven children in a Cherokee family, relocated at age ten to San Francisco under a federal termination-era policy, she returned to Oklahoma in the 1970s to help rebuild the Cherokee Nation from within &ndash; and carried it for ten years as its first woman Principal Chief.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Nine: Merging with the Community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Nine (SO9)</strong> is what Naranjo called <em>Participation</em>: peace through belonging to a community larger than the self. The SO9 merges with the collective so completely that the individual self steps back &ndash; not out of weakness, but because it finds its identity precisely in this belonging.</p>
+          <p class="vb-intro">In 1969 Mankiller took part in the occupation of Alcatraz by Native American activists &ndash; an awakening moment that ignited her political consciousness for Indigenous rights. She returned to Mankiller Flats in the 1970s and in 1977 took a position as economic development coordinator for the Cherokee Nation. Her first major project, in 1981 in the town of Bell, Oklahoma, was typical of the SO9: she organised the community, laying 16 miles of water pipe by hand together with the residents &ndash; not as an outside administrator, but as part of the effort itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: Fighting Strength for the Community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Social Nine a quality the pure SO9 lacks: directness, assertiveness, and the willingness to confront resistance openly. The <strong>SO9w8</strong> merges with the community &ndash; and fights unflinchingly for it whenever necessary.</p>
+          <p class="vb-intro">In 1983 Mankiller ran for Deputy Chief of the Cherokee Nation &ndash; against considerable resistance, including from within her own ranks, since a woman in this role was unthinkable to many at the time. She won, and in 1985, after the sitting chief's resignation, she assumed the nation's highest office. The Eight-wing gave her the resolve to withstand open hostility, anonymous threats, and deep-seated distrust &ndash; not out of vanity, but because she was convinced the cause demanded it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: A Decade of Rebuilding</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As Principal Chief from 1985 to 1995, the enrolled population of the Cherokee Nation more than doubled, from around 68,000 to over 170,000 members. Mankiller built three rural health centers, expanded the Head Start early-childhood education program, and strengthened the nation's economic self-sufficiency through new cooperative projects and a stronger tribal administration.</p>
+          <p class="vb-intro">Her guiding principle was <em>gadugi</em> &ndash; a Cherokee word for communal work for the good of all. She understood governance not as rule, but as service: problems were solved by bringing people together and returning to them the responsibility for their own future &ndash; as with the Bell water project. In 1998 President Bill Clinton awarded her the Presidential Medal of Freedom, the highest civilian honor in the United States.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO9w8 is its <strong>capacity to carry an entire community without placing itself in the foreground</strong> &ndash; while remaining resolute enough to stand firm against resistance. Mankiller led not through classic charisma, but through persistent, patient presence, paired with the toughness to push through unpopular decisions when necessary.</p>
+          <p class="vb-intro">The shadow shows in the price this carrying demanded: in 1979 she survived a severe car accident in which a close friend died; in its aftermath she developed myasthenia gravis, a neuromuscular disorder. This was compounded by polycystic kidney disease, which required a kidney transplant from her brother Donald in 1990, and later lymphoma and breast cancer. The Social Nine, fully devoted to a cause, easily forgets its own limits &ndash; Mankiller led the Cherokee Nation through its most important decade while her own body repeatedly brought her to the edge of death.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Buffalo That Carried a Nation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1995 Mankiller did not seek re-election due to declining health, but remained an activist for Native American and women's rights until her death in April 2010 at age 64. In 2013 the film <em>The Cherokee Word for Water</em> told the story of her first major community project in Bell; in 2022 her portrait appeared on a US quarter as part of the American Women Quarters series.</p>
+          <p class="vb-intro">What remains is the image of a woman who did not want to be the exception, but a nation that could take care of itself. The buffalo lowers its head and pushes through illness, resistance, and doubt &ndash; not because it is invulnerable, but because the cause is larger than its own suffering. „I want to be remembered as the person who helped us restore faith in ourselves,“ Mankiller once said &ndash; the purest formula of the SO9w8.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-ronald-reagan", label:"Portrait: Ronald Reagan (SO9w8)"},
+          {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
+          {route:"beruehmte-julian-assange", label:"Portrait: Julian Assange (SO9w1)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -43294,6 +43362,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-steffi-graf": steffiGrafPortraitPage,
       "beruehmte-julian-assange": julianAssangePortraitPage,
       "beruehmte-willy-brandt": willyBrandtPortraitPage,
+      "beruehmte-wilma-mankiller": wilmaMankillerPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
       "beruehmte-baerbel-bas": baerbelBasPortraitPage,

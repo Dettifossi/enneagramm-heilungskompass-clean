@@ -23825,6 +23825,7 @@ const registerEntries = [
   { term: "Ludwig Erhard",                  route: "beruehmte-ludwig-erhard",               description: "Portrait: SE9w1 \u00b7 Selbsterhaltender Typ 9 \u00b7 Bundeswirtschaftsminister, Bundeskanzler" },
   { term: "Abida Parveen",                  route: "beruehmte-abida-parveen",               description: "Portrait: SE9w8 \u00b7 Selbsterhaltender Typ 9 \u00b7 S\u00e4ngerin, K\u00f6nigin des Sufi-Gesangs" },
   { term: "Julian Assange",                 route: "beruehmte-julian-assange",              description: "Portrait: SO9w1 \u00b7 Sozialer Typ 9 \u00b7 Gr\u00fcnder von WikiLeaks" },
+  { term: "Wilma Mankiller",                route: "beruehmte-wilma-mankiller",             description: "Portrait: SO9w8 \u00b7 Sozialer Typ 9 \u00b7 Erste Frau als Principal Chief der Cherokee Nation" },
   { term: "Alice Schwarzer",               route: "beruehmte-alice-schwarzer",             description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Feministin, EMMA-Gr\u00fcnderin" },
   { term: "Ana de Armas",                  route: "beruehmte-ana-de-armas",                description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, Knives Out" },
   { term: "Angelina Jolie",                route: "beruehmte-angelina-jolie",              description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Schauspielerin, UN-Botschafterin" },
@@ -24091,6 +24092,7 @@ const registerEntriesEN = [
   { term: "Ludwig Erhard", route: "beruehmte-ludwig-erhard", description: "Portrait: SP9w1 \u00b7 Self-Preservation Type 9 \u00b7 Federal Minister of Economics, Chancellor" },
   { term: "Abida Parveen", route: "beruehmte-abida-parveen", description: "Portrait: SP9w8 \u00b7 Self-Preservation Type 9 \u00b7 Singer, Queen of Sufi Music" },
   { term: "Julian Assange", route: "beruehmte-julian-assange", description: "Portrait: SO9w1 \u00b7 Social Type 9 \u00b7 Founder of WikiLeaks" },
+  { term: "Wilma Mankiller", route: "beruehmte-wilma-mankiller", description: "Portrait: SO9w8 \u00b7 Social Type 9 \u00b7 First woman to serve as Principal Chief of the Cherokee Nation" },
   { term: "Alice Schwarzer", route: "beruehmte-alice-schwarzer", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Feminist, EMMA founder" },
   { term: "Ana de Armas", route: "beruehmte-ana-de-armas", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, Knives Out" },
   { term: "Angelina Jolie", route: "beruehmte-angelina-jolie", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Actress, UN Ambassador" },
@@ -27177,7 +27179,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "426";
+const APP_BUILD = "427";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -27906,6 +27908,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ronald Reagan \u2013 Sozialer Typ 9",
     teaser:"SO9w8 \u00b7 1911\u20132004. 40. Pr\u00e4sident der USA 1981\u20131989. Der Gro\u00dfe Kommunikator: Morning in America, Evil Empire, Gorbatschow. Der B\u00fcffel, der l\u00e4chelt \u2013 und dem die Herde folgt.",
     tags:["Politik"], gender:"m"},
+  { route:"beruehmte-wilma-mankiller", name:"Wilma Mankiller", added:"2026-08-04", subtyp:"SO9w8",
+    heading:"Wilma Mankiller \u2013 Sozialer Typ 9",
+    teaser:"SO9w8 \u00b7 1945\u20132010. Erste Frau als Principal Chief der Cherokee Nation (1985\u20131995). Der B\u00fcffel, der eine ganze Nation trug \u2013 gegen Krankheit, Widerstand und Zweifel, mit unbeirrbarer Kampfkraft f\u00fcr die Gemeinschaft.",
+    tags:["Politik","Aktivismus"], gender:"f"},
   { route:"beruehmte-willy-brandt", name:"Willy Brandt", subtyp:"SO9w8",
     heading:"Willy Brandt \u2013 Sozialer Typ 9",
     teaser:"SO9w8 \u00b7 1913\u20131992. Bundeskanzler, Friedensnobelpreis 1971, Architekt der Ostpolitik. Der Kniefall von Warschau \u2013 ein Schweigen, das Geschichte schrieb. Tierentsprechung: B\u00fcffel.",
@@ -41443,6 +41449,71 @@ function ronaldReaganPortraitPage() {
           {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
           {route:"beruehmte-kevin-costner", label:"Portr\xe4t: Kevin Costner (SO9w1)"},
           {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
+function wilmaMankillerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-wilma-mankiller-portrait.jpg" alt="B\u00fcffel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wilma Mankiller</p>
+        <p class="krim-portrait-typ">SO9w8 &middot; Sozialer Typ 9 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Erste Frau als Principal Chief der Cherokee Nation, 1945&ndash;2010 &ndash; Tierentsprechung: B\u00fcffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der B\u00fcffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>B\u00fcffel</strong> ist das Tier des sozialen Typs 9 &ndash; ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine gr\u00f6\u00dfere Sache definiert. Er senkt den Kopf und geht hindurch durch das, was ihm im Weg steht, ohne sich um Ansehen oder Applaus zu k\u00fcmmern. Er tr\u00e4gt die Herde, auch wenn er selbst geschw\u00e4cht ist.</p>
+          <p class="vb-intro">Wilma Mankiller, 1945 in Tahlequah, Oklahoma geboren, ist dieser B\u00fcffel in Reinform: sechstes von elf Kindern einer Cherokee-Familie, mit zehn Jahren in eine Umsiedlungspolitik der US-Regierung nach San Francisco verpflanzt, kehrte sie in den 1970er-Jahren zur\u00fcck, um die Cherokee Nation von innen wieder aufzubauen &ndash; und trug sie zehn Jahre lang als erste weibliche Principal Chief ihrer Geschichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Aufgehen in der Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> nannte Naranjo <em>Partizipation</em>: Frieden durch Zugeh\u00f6rigkeit zu einer Gemeinschaft, die gr\u00f6\u00dfer ist als das eigene Ich. Die SO9 verschmilzt mit dem Kollektiv so vollst\u00e4ndig, dass die eigene Person zur\u00fccktritt &ndash; nicht aus Schw\u00e4che, sondern weil sie ihre Identit\u00e4t genau in dieser Zugeh\u00f6rigkeit findet.</p>
+          <p class="vb-intro">1969 beteiligte sich Mankiller an der Besetzung von Alcatraz durch indigene Aktivisten &ndash; ein Erweckungsmoment, der ihr politisches Bewusstsein f\u00fcr die Rechte amerikanischer Ureinwohner entz\u00fcndete. Sie kehrte in den 1970er-Jahren zu den Mankiller Flats zur\u00fcck und \u00fcbernahm 1977 eine Stelle als Koordinatorin f\u00fcr wirtschaftliche Entwicklung der Cherokee Nation. Ihr erstes gro\u00dfes Projekt, 1981 im Ort Bell, Oklahoma, war typisch f\u00fcr die SO9: Sie organisierte eine Gemeinschaft, lie\u00df gemeinsam mit den Bewohnern 16 Meilen Wasserleitung von Hand verlegen &ndash; nicht als Verwalterin von au\u00dfen, sondern als Teil der Sache selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Kampfkraft f\u00fcr die Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> verleiht der sozialen Neun eine Qualit\u00e4t, die der reinen SO9 fehlt: Direktheit, Durchsetzungskraft und die Bereitschaft, sich offen mit Widerstand anzulegen. Die <strong>SO9w8</strong> verschmilzt mit der Gemeinschaft &ndash; und k\u00e4mpft zugleich unerschrocken f\u00fcr sie, wenn es n\u00f6tig wird.</p>
+          <p class="vb-intro">1983 kandidierte Mankiller f\u00fcr das Amt der Deputy Chief der Cherokee Nation &ndash; gegen erheblichen Widerstand, auch aus den eigenen Reihen, weil eine Frau in dieser Rolle f\u00fcr viele undenkbar war. Sie gewann, und 1985 \u00fcbernahm sie nach dem R\u00fccktritt des amtierenden Chiefs das h\u00f6chste Amt der Nation. Der Achterfl\u00fcgel gab ihr die Sturheit, sich gegen offene Anfeindungen, anonyme Drohungen und tief verwurzeltes Misstrauen zu behaupten &ndash; nicht aus Eitelkeit, sondern weil sie \u00fcberzeugt war, dass die Sache es verlangte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Zehn Jahre Wiederaufbau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Principal Chief von 1985 bis 1995 verdoppelte sich die eingeschriebene Bev\u00f6lkerung der Cherokee Nation von rund 68.000 auf \u00fcber 170.000 Mitglieder. Mankiller baute drei l\u00e4ndliche Gesundheitszentren auf, erweiterte das Head-Start-Programm zur fr\u00fchkindlichen Bildung und st\u00e4rkte die wirtschaftliche Selbstst\u00e4ndigkeit der Nation, unter anderem durch neue Genossenschaftsprojekte und eine gest\u00e4rkte eigene Verwaltung.</p>
+          <p class="vb-intro">Ihr Leitgedanke war das Prinzip der <em>gadugi</em> &ndash; ein Cherokee-Wort f\u00fcr gemeinschaftliche Arbeit zum Wohl aller. Sie verstand Regierungsf\u00fchrung nicht als Herrschaft, sondern als Dienst: Probleme wurden gel\u00f6st, indem man Menschen zusammenbrachte und ihnen die Verantwortung f\u00fcr ihre eigene Zukunft zur\u00fcckgab &ndash; wie schon beim Wasserleitungsprojekt in Bell. 1998 erhielt sie daf\u00fcr von Pr\u00e4sident Bill Clinton die Presidential Medal of Freedom, die h\u00f6chste zivile Auszeichnung der USA.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w8 ist ihre <strong>F\u00e4higkeit, eine ganze Gemeinschaft zu tragen, ohne sich selbst in den Vordergrund zu stellen</strong> &ndash; und dabei doch entschlossen genug zu sein, sich gegen Widerstand zu behaupten. Mankiller f\u00fchrte nicht durch Charisma im klassischen Sinn, sondern durch beharrliche, geduldige Pr\u00e4senz, gepaart mit der H\u00e4rte, unpopul\u00e4re Entscheidungen durchzusetzen, wenn es sein musste.</p>
+          <p class="vb-intro">Der Schatten zeigt sich im Preis, den dieses Tragen forderte: 1979 \u00fcberlebte sie einen schweren Autounfall, bei dem eine enge Freundin starb; in dessen Folge entwickelte sich bei ihr Myasthenia gravis, eine neuromuskul\u00e4re Erkrankung. Dazu kamen eine polyzystische Nierenerkrankung, die 1990 einen Nierentransplantat von ihrem Bruder Donald n\u00f6tig machte, sowie sp\u00e4ter Lymphdr\u00fcsenkrebs und Brustkrebs. Die soziale Neun, die sich vollst\u00e4ndig einer Sache verschreibt, vergisst dabei leicht die eigenen Grenzen &ndash; Mankiller f\u00fchrte die Cherokee Nation durch ihr wichtigstes Jahrzehnt, w\u00e4hrend ihr eigener K\u00f6rper sie mehrfach an den Rand des Todes brachte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der B\u00fcffel, der eine Nation trug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1995 trat Mankiller aus gesundheitlichen Gr\u00fcnden nicht erneut zur Wahl an, blieb aber bis zu ihrem Tod im April 2010 im Alter von 64 Jahren Aktivistin f\u00fcr die Rechte amerikanischer Ureinwohner und f\u00fcr Frauenrechte. 2013 erz\u00e4hlte der Spielfilm <em>The Cherokee Word for Water</em> die Geschichte ihres ersten gro\u00dfen Gemeinschaftsprojekts in Bell nach; 2022 erschien ihr Portr\u00e4t auf einer US-Quarter-M\u00fcnze der Reihe \u201eAmerican Women".</p>
+          <p class="vb-intro">Was bleibt, ist das Bild einer Frau, die keine Ausnahme sein wollte, sondern eine Nation, die f\u00fcr sich selbst sorgen kann. Der B\u00fcffel senkt den Kopf, geht durch Krankheit, Widerstand und Zweifel hindurch &ndash; nicht weil er unverwundbar ist, sondern weil die Sache gr\u00f6\u00dfer ist als das eigene Leiden. \u201eIch m\u00f6chte in Erinnerung bleiben als die Person, die dazu beigetragen hat, dass wir uns wieder gegenseitig helfen", sagte Mankiller einmal \u00fcber sich selbst &ndash; die reinste Formel der SO9w8.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-ronald-reagan", label:"Portr\xe4t: Ronald Reagan (SO9w8)"},
+          {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
+          {route:"beruehmte-julian-assange", label:"Portr\xe4t: Julian Assange (SO9w1)"},
         ])}
       </div>
     </div>
@@ -73354,6 +73425,7 @@ function render() {
     "beruehmte-steffi-graf": steffiGrafPortraitPage,
     "beruehmte-julian-assange": julianAssangePortraitPage,
           "beruehmte-ronald-reagan": ronaldReaganPortraitPage,
+    "beruehmte-wilma-mankiller": wilmaMankillerPortraitPage,
     "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
           "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,

@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "426";
+const APP_BUILD = "427";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -782,6 +782,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ronald Reagan – Sozialer Typ 9",
     teaser:"SO9w8 · 1911–2004. 40. Präsident der USA 1981–1989. Der Große Kommunikator: Morning in America, Evil Empire, Gorbatschow. Der Büffel, der lächelt – und dem die Herde folgt.",
     tags:["Politik"], gender:"m"},
+  { route:"beruehmte-wilma-mankiller", name:"Wilma Mankiller", added:"2026-08-04", subtyp:"SO9w8",
+    heading:"Wilma Mankiller – Sozialer Typ 9",
+    teaser:"SO9w8 · 1945–2010. Erste Frau als Principal Chief der Cherokee Nation (1985–1995). Der Büffel, der eine ganze Nation trug – gegen Krankheit, Widerstand und Zweifel, mit unbeirrbarer Kampfkraft für die Gemeinschaft.",
+    tags:["Politik","Aktivismus"], gender:"f"},
   { route:"beruehmte-willy-brandt", name:"Willy Brandt", subtyp:"SO9w8",
     heading:"Willy Brandt – Sozialer Typ 9",
     teaser:"SO9w8 · 1913–1992. Bundeskanzler, Friedensnobelpreis 1971, Architekt der Ostpolitik. Der Kniefall von Warschau – ein Schweigen, das Geschichte schrieb. Tierentsprechung: Büffel.",
@@ -14319,6 +14323,71 @@ function ronaldReaganPortraitPage() {
           {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
           {route:"beruehmte-kevin-costner", label:"Portr\xe4t: Kevin Costner (SO9w1)"},
           {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
+function wilmaMankillerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-wilma-mankiller-portrait.jpg" alt="Büffel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wilma Mankiller</p>
+        <p class="krim-portrait-typ">SO9w8 &middot; Sozialer Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Erste Frau als Principal Chief der Cherokee Nation, 1945&ndash;2010 &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier des sozialen Typs 9 &ndash; ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine größere Sache definiert. Er senkt den Kopf und geht hindurch durch das, was ihm im Weg steht, ohne sich um Ansehen oder Applaus zu kümmern. Er trägt die Herde, auch wenn er selbst geschwächt ist.</p>
+          <p class="vb-intro">Wilma Mankiller, 1945 in Tahlequah, Oklahoma geboren, ist dieser Büffel in Reinform: sechstes von elf Kindern einer Cherokee-Familie, mit zehn Jahren in eine Umsiedlungspolitik der US-Regierung nach San Francisco verpflanzt, kehrte sie in den 1970er-Jahren zurück, um die Cherokee Nation von innen wieder aufzubauen &ndash; und trug sie zehn Jahre lang als erste weibliche Principal Chief ihrer Geschichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Aufgehen in der Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> nannte Naranjo <em>Partizipation</em>: Frieden durch Zugehörigkeit zu einer Gemeinschaft, die größer ist als das eigene Ich. Die SO9 verschmilzt mit dem Kollektiv so vollständig, dass die eigene Person zurücktritt &ndash; nicht aus Schwäche, sondern weil sie ihre Identität genau in dieser Zugehörigkeit findet.</p>
+          <p class="vb-intro">1969 beteiligte sich Mankiller an der Besetzung von Alcatraz durch indigene Aktivisten &ndash; ein Erweckungsmoment, der ihr politisches Bewusstsein für die Rechte amerikanischer Ureinwohner entzündete. Sie kehrte in den 1970er-Jahren zu den Mankiller Flats zurück und übernahm 1977 eine Stelle als Koordinatorin für wirtschaftliche Entwicklung der Cherokee Nation. Ihr erstes großes Projekt, 1981 im Ort Bell, Oklahoma, war typisch für die SO9: Sie organisierte eine Gemeinschaft, ließ gemeinsam mit den Bewohnern 16 Meilen Wasserleitung von Hand verlegen &ndash; nicht als Verwalterin von außen, sondern als Teil der Sache selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Kampfkraft für die Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> verleiht der sozialen Neun eine Qualität, die der reinen SO9 fehlt: Direktheit, Durchsetzungskraft und die Bereitschaft, sich offen mit Widerstand anzulegen. Die <strong>SO9w8</strong> verschmilzt mit der Gemeinschaft &ndash; und kämpft zugleich unerschrocken für sie, wenn es nötig wird.</p>
+          <p class="vb-intro">1983 kandidierte Mankiller für das Amt der Deputy Chief der Cherokee Nation &ndash; gegen erheblichen Widerstand, auch aus den eigenen Reihen, weil eine Frau in dieser Rolle für viele undenkbar war. Sie gewann, und 1985 übernahm sie nach dem Rücktritt des amtierenden Chiefs das höchste Amt der Nation. Der Achterflügel gab ihr die Sturheit, sich gegen offene Anfeindungen, anonyme Drohungen und tief verwurzeltes Misstrauen zu behaupten &ndash; nicht aus Eitelkeit, sondern weil sie überzeugt war, dass die Sache es verlangte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Zehn Jahre Wiederaufbau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Principal Chief von 1985 bis 1995 verdoppelte sich die eingeschriebene Bevölkerung der Cherokee Nation von rund 68.000 auf über 170.000 Mitglieder. Mankiller baute drei ländliche Gesundheitszentren auf, erweiterte das Head-Start-Programm zur frühkindlichen Bildung und stärkte die wirtschaftliche Selbstständigkeit der Nation, unter anderem durch neue Genossenschaftsprojekte und eine gestärkte eigene Verwaltung.</p>
+          <p class="vb-intro">Ihr Leitgedanke war das Prinzip der <em>gadugi</em> &ndash; ein Cherokee-Wort für gemeinschaftliche Arbeit zum Wohl aller. Sie verstand Regierungsführung nicht als Herrschaft, sondern als Dienst: Probleme wurden gelöst, indem man Menschen zusammenbrachte und ihnen die Verantwortung für ihre eigene Zukunft zurückgab &ndash; wie schon beim Wasserleitungsprojekt in Bell. 1998 erhielt sie dafür von Präsident Bill Clinton die Presidential Medal of Freedom, die höchste zivile Auszeichnung der USA.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w8 ist ihre <strong>Fähigkeit, eine ganze Gemeinschaft zu tragen, ohne sich selbst in den Vordergrund zu stellen</strong> &ndash; und dabei doch entschlossen genug zu sein, sich gegen Widerstand zu behaupten. Mankiller führte nicht durch Charisma im klassischen Sinn, sondern durch beharrliche, geduldige Präsenz, gepaart mit der Härte, unpopuläre Entscheidungen durchzusetzen, wenn es sein musste.</p>
+          <p class="vb-intro">Der Schatten zeigt sich im Preis, den dieses Tragen forderte: 1979 überlebte sie einen schweren Autounfall, bei dem eine enge Freundin starb; in dessen Folge entwickelte sich bei ihr Myasthenia gravis, eine neuromuskuläre Erkrankung. Dazu kamen eine polyzystische Nierenerkrankung, die 1990 einen Nierentransplantat von ihrem Bruder Donald nötig machte, sowie später Lymphdrüsenkrebs und Brustkrebs. Die soziale Neun, die sich vollständig einer Sache verschreibt, vergisst dabei leicht die eigenen Grenzen &ndash; Mankiller führte die Cherokee Nation durch ihr wichtigstes Jahrzehnt, während ihr eigener Körper sie mehrfach an den Rand des Todes brachte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Büffel, der eine Nation trug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1995 trat Mankiller aus gesundheitlichen Gründen nicht erneut zur Wahl an, blieb aber bis zu ihrem Tod im April 2010 im Alter von 64 Jahren Aktivistin für die Rechte amerikanischer Ureinwohner und für Frauenrechte. 2013 erzählte der Spielfilm <em>The Cherokee Word for Water</em> die Geschichte ihres ersten großen Gemeinschaftsprojekts in Bell nach; 2022 erschien ihr Porträt auf einer US-Quarter-Münze der Reihe „American Women".</p>
+          <p class="vb-intro">Was bleibt, ist das Bild einer Frau, die keine Ausnahme sein wollte, sondern eine Nation, die für sich selbst sorgen kann. Der Büffel senkt den Kopf, geht durch Krankheit, Widerstand und Zweifel hindurch &ndash; nicht weil er unverwundbar ist, sondern weil die Sache größer ist als das eigene Leiden. „Ich möchte in Erinnerung bleiben als die Person, die dazu beigetragen hat, dass wir uns wieder gegenseitig helfen", sagte Mankiller einmal über sich selbst &ndash; die reinste Formel der SO9w8.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-ronald-reagan", label:"Portr\xe4t: Ronald Reagan (SO9w8)"},
+          {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
+          {route:"beruehmte-julian-assange", label:"Portr\xe4t: Julian Assange (SO9w1)"},
         ])}
       </div>
     </div>
@@ -46230,6 +46299,7 @@ function render() {
     "beruehmte-steffi-graf": steffiGrafPortraitPage,
     "beruehmte-julian-assange": julianAssangePortraitPage,
           "beruehmte-ronald-reagan": ronaldReaganPortraitPage,
+    "beruehmte-wilma-mankiller": wilmaMankillerPortraitPage,
     "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
           "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,
