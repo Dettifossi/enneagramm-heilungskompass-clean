@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "414";
+const APP_BUILD = "415";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -12963,7 +12963,7 @@ function cynthiaLummisPortraitPage() {
         <h2 class="vb-section">4. Das Werk: Von der Ranch zum Senat</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Lummis begann ihre politische Laufbahn 1978 im Repräsentantenhaus von Wyoming, wurde später State Treasurer (1999&ndash;2007) und vertrat Wyoming von 2009 bis 2017 im US-Repräsentantenhaus. 2020 gewann sie den Sitz im US-Senat &ndash; als erste Frau überhaupt, die Wyoming in dieser Kammer vertritt, in einem Bundesstaat, der Frauen 1869 als erster überhaupt das Wahlrecht gab.</p>
-          <p class="vb-intro">Sie selbst betreibt eine Ranch in Cheyenne, ist ausgebildete Juristin und versteht sich explizit als Stimme des ländlichen, konservativen Westens in einer zunehmend urbanen politischen Landschaft. Ihr Engagement für Bitcoin verband sie mit ihrer traditionellen Haltung zu Fiskalpolitik: als Absicherung gegen eine aus ihrer Sicht unverantwortliche Staatsverschuldung.</p>
+          <p class="vb-intro">Sie selbst betreibt eine Ranch in Cheyenne, ist ausgebildete Juristin und versteht sich explizit als Stimme des ländlichen, konservativen Westens in einer zunehmend urbanen politischen Landschaft. Ihr Engagement für Bitcoin verband sie mit ihrer traditionellen Haltung zur Fiskalpolitik: als Absicherung gegen eine aus ihrer Sicht unverantwortliche Staatsverschuldung.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
