@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "415";
+const APP_BUILD = "416";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -528,6 +528,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Steffi Graf – Social Type 9",
     teaser:"SO9w1 · born 1969. Tennis player, 22 Grand Slam titles, Golden Slam 1988. The buffalo that simply runs – persistent, grounded, with an inner stillness stronger than any victory celebration. Animal correspondence: Buffalo.",
     tags:["Sport"] },
+  { route:"beruehmte-julian-assange", name:"Julian Assange", added:"2026-08-04", subtyp:"SO9w1",
+    heading:"Julian Assange – Social Type 9",
+    teaser:"SO9w1 · born 1971 in Townsville, Australia. Founder of WikiLeaks, revealer of secret government documents. The buffalo who sacrificed himself for transparency and the community of the informed – and paid years of isolation and imprisonment for it.",
+    tags:["Medien","Aktivismus"], gender:"m"},
   { route:"beruehmte-willy-brandt", name:"Willy Brandt", subtyp:"SO9w8",
     heading:"Willy Brandt – Social Type 9",
     teaser:"SO9w8 · 1913–1992. Federal Chancellor, Nobel Peace Prize 1971, architect of Ostpolitik. The Warsaw Kneel – a silence that wrote history. Animal correspondence: Buffalo.",
@@ -21420,6 +21424,70 @@ function steffiGrafPortraitPage() {
         {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
         {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SP9w1)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function julianAssangePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-julian-assange-portrait.jpg" alt="Buffalo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Julian Assange</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Founder of WikiLeaks, born 1971 in Townsville, Australia &ndash; Animal correspondence: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Buffalo</strong> is the animal of Social Type 9 &ndash; an animal defined not by acting alone, but by being embedded in something larger than itself. It lowers its head and pushes through whatever stands in its way, unconcerned with recognition or applause. It does not fight for itself &ndash; it fights for something bigger than its own survival.</p>
+          <p class="vb-intro">Julian Assange, born in 1971 in Townsville, Australia, is this buffalo: not an orator who sweeps up crowds, but a programmer and activist who believed truth itself was the most powerful tool there is. With the founding of WikiLeaks in 2006, he began building a platform designed to make secret government and corporate documents accessible to the world &ndash; without regard for who was exposed in the process.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Nine: Dissolving Into a Larger Cause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Nine (SO9)</strong> is what Naranjo called <em>Participation</em>: peace through belonging to a community or an idea larger than the self. The SO9 merges with a cause so completely that her own person recedes &ndash; not out of weakness, but because she finds her identity in that belonging.</p>
+          <p class="vb-intro">Assange merged with the idea of radical transparency in a way that shaped the rest of his life. WikiLeaks was, for him, not a professional stepping stone but a community of the informed to which he devoted himself entirely &ndash; the release of the Afghan and Iraq war logs in 2010, the “Collateral Murder” video, hundreds of thousands of diplomatic cables. The SO9 knows no half-commitments: when she devotes herself to a cause, she does so completely.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Principled Conviction as Mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing</strong> gives the Social Nine a quality that goes beyond mere belonging: an unwavering moral compass that tolerates no compromise on her own principles. The <strong>SO9w1</strong> does not act out of defiance, but out of the deep conviction that she is doing the right thing &ndash; even if it costs her everything.</p>
+          <p class="vb-intro">Assange held to his principle of radical transparency even as it drove him into total isolation: seven years of refuge in the Ecuadorian embassy in London (2012&ndash;2019), followed by another five years in British high-security detention, until he pleaded guilty in a deal with US authorities in 2024 and was released. The One-wing gave him the stubbornness to hold to his mission even as the personal costs grew immeasurable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: WikiLeaks and the Politics of Disclosure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Under Assange, WikiLeaks published some of the most consequential revelations of recent history: the “Afghan War Diary” and “Iraq War Logs” in 2010, which showed the reality of those wars far more starkly than official statements; hundreds of thousands of US State Department cables; internal documents from banks, corporations, and intelligence agencies. The platform made investigative journalism possible in ways that had previously been technically unthinkable.</p>
+          <p class="vb-intro">The same radicalism that made WikiLeaks a global phenomenon also brought Assange into bitter conflict with powerful governments, foremost the United States, which charged him with espionage. He became a symbolic figure in a dispute that continues today: where does investigative journalism end, and where does it begin to endanger human lives and national security?</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO9w1 is her <strong>ability to surrender to an idea so completely that she is willing to sacrifice everything for it</strong>. Assange made visible crimes and cover-ups that would otherwise have remained hidden, strengthening the global debate about government transparency and press freedom.</p>
+          <p class="vb-intro">The shadow shows in an uncompromising quality that also accepted considerable collateral damage: critics accused him of paying too little attention, in some releases, to protecting informants and vulnerable individuals. He was also, for a period, prosecuted in Sweden over allegations of sexual assault &ndash; proceedings that were later dropped, but that lastingly shaped his reputation. The Social Nine, fully dissolved into a mission, can lose sight of the individual people affected by her actions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Buffalo Who Put the Truth Above Himself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Nine leads from inertia to genuine, conscious presence &ndash; from self-dissolution into a cause to an identity that can also stand outside that cause. Assange's years of isolation, physical and psychological, show the dark side of this dissolving into a mission: a self that fully subordinates itself to an idea can break when that idea becomes a prison.</p>
+          <p class="vb-intro">In 2024, Assange returned to Australia, after more than a decade in embassy asylum and detention. That is the SO9w1 in its full ambivalence: the buffalo who committed himself without reservation to an idea larger than himself &ndash; and who ultimately paid a price for it that almost no one would pay willingly.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
+        {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
       ])}
     </div>
   `);
@@ -43224,6 +43292,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
       "beruehmte-abida-parveen": abidaParveenPortraitPage,
       "beruehmte-steffi-graf": steffiGrafPortraitPage,
+      "beruehmte-julian-assange": julianAssangePortraitPage,
       "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,

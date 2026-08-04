@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "424";
+const APP_BUILD = "425";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -774,6 +774,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Steffi Graf – Sozialer Typ 9",
     teaser:"SO9w1 · geb. 1969. Tennisspielerin, 22 Grand-Slam-Titel, Golden Slam 1988. Der Büffel, der einfach läuft – beharrlich, bodennah, mit einer Stille im Inneren, die stärker ist als jeder Siegesjubel. Tierentsprechung: Büffel.",
     tags:["Sport"], gender:"f" },
+  { route:"beruehmte-julian-assange", name:"Julian Assange", added:"2026-08-04", subtyp:"SO9w1",
+    heading:"Julian Assange – Sozialer Typ 9",
+    teaser:"SO9w1 · geb. 1971 in Townsville, Australien. Gründer von WikiLeaks, Enthüller geheimer Regierungsdokumente. Der Büffel, der sich für Transparenz und die Gemeinschaft der Informierten aufopferte – und Jahre in Isolation und Haft dafür zahlte.",
+    tags:["Medien","Aktivismus"], gender:"m"},
   { route:"beruehmte-ronald-reagan", name:"Ronald Reagan", added:"2026-07-22", subtyp:"SO9w8",
     heading:"Ronald Reagan – Sozialer Typ 9",
     teaser:"SO9w8 · 1911–2004. 40. Präsident der USA 1981–1989. Der Große Kommunikator: Morning in America, Evil Empire, Gorbatschow. Der Büffel, der lächelt – und dem die Herde folgt.",
@@ -14002,6 +14006,70 @@ function steffiGrafPortraitPage() {
         {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
         {route:"beruehmte-baerbel-bas", label:"Porträt: Bärbel Bas (SE9w1)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function julianAssangePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-julian-assange-portrait.jpg" alt="Büffel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Julian Assange</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Gründer von WikiLeaks, geb. 1971 in Townsville, Australien &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier des sozialen Typs 9 &ndash; ein Tier, das sich nicht durch Alleingang, sondern durch das Eingebundensein in eine größere Sache definiert. Er senkt den Kopf und geht durch, was ihm im Weg steht, ohne sich um Ansehen oder Applaus zu kümmern. Er kämpft nicht für sich selbst &ndash; er kämpft für etwas, das größer ist als das eigene Überleben.</p>
+          <p class="vb-intro">Julian Assange, 1971 in Townsville, Australien, geboren, ist dieser Büffel: kein Redner, der Menschenmengen mitreißt, sondern ein Programmierer und Aktivist, der glaubte, dass die Wahrheit selbst das mächtigste Werkzeug sei. Mit der Gründung von WikiLeaks 2006 begann er, eine Plattform zu bauen, die geheime Dokumente von Regierungen und Konzernen der Weltöffentlichkeit zugänglich machen sollte &ndash; ohne Rücksicht darauf, wer dabei bloßgestellt wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Aufgehen in einer größeren Sache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> nannte Naranjo <em>Partizipation</em>: Frieden durch Zugehörigkeit zu einer Gemeinschaft oder einer Idee, die größer ist als das eigene Ich. Die SO9 verschmilzt mit einer Sache so vollständig, dass die eigene Person zurücktritt &ndash; nicht aus Schwäche, sondern weil sie ihre Identität in dieser Zugehörigkeit findet.</p>
+          <p class="vb-intro">Assange verschmolz mit der Idee radikaler Transparenz auf eine Weise, die sein gesamtes weiteres Leben bestimmte. WikiLeaks war für ihn keine berufliche Station, sondern eine Gemeinschaft der Informierten, der er sich vollständig verschrieb &ndash; die Veröffentlichung der Afghanistan- und Irak-Kriegsprotokolle 2010, das „Collateral Murder"-Video, Hunderttausende diplomatische Depeschen. Die SO9 kennt keine halben Bindungen: Wenn sie sich einer Sache verschreibt, dann ganz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Prinzipientreue als Mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> verleiht der sozialen Neun eine Qualität, die über bloße Zugehörigkeit hinausgeht: einen unbeirrbaren moralischen Kompass, der keine Kompromisse bei den eigenen Prinzipien duldet. Die <strong>SO9w1</strong> handelt nicht aus Trotz, sondern aus der tiefen Überzeugung, das Richtige zu tun &ndash; auch wenn es sie alles kostet.</p>
+          <p class="vb-intro">Assange hielt an seinem Prinzip der radikalen Transparenz fest, selbst als es ihn in völlige Isolation trieb: sieben Jahre Zuflucht in der ecuadorianischen Botschaft in London (2012&ndash;2019), gefolgt von weiteren fünf Jahren in britischer Hochsicherheitshaft, bis er sich 2024 in einem Deal mit US-Behörden schuldig bekannte und freikam. Der Einserflügel gab ihm die Sturheit, an seiner Mission festzuhalten, selbst als die persönlichen Kosten ins Unermessliche stiegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: WikiLeaks und die Politik der Offenlegung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">WikiLeaks veröffentlichte unter Assange einige der folgenreichsten Enthüllungen der jüngeren Geschichte: die „Afghan War Diary" und „Iraq War Logs" 2010, die die Realität dieser Kriege weit deutlicher zeigten als offizielle Verlautbarungen; Hunderttausende Depeschen des US-Außenministeriums; interne Dokumente von Banken, Konzernen und Geheimdiensten. Die Plattform machte investigativen Journalismus auf eine Weise möglich, die zuvor technisch undenkbar war.</p>
+          <p class="vb-intro">Dieselbe Radikalität, die WikiLeaks zu einem globalen Phänomen machte, brachte Assange auch in erbitterten Konflikt mit mächtigen Regierungen, allen voran den USA, die ihn wegen Spionage anklagten. Er wurde zur Symbolfigur eines Streits, der bis heute andauert: Wo endet investigativer Journalismus, und wo beginnt eine Gefährdung von Menschenleben und nationaler Sicherheit?</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w1 ist ihre <strong>Fähigkeit, sich einer Idee so vollständig hinzugeben, dass sie bereit ist, alles dafür zu opfern</strong>. Assange machte Verbrechen und Vertuschungen sichtbar, die sonst im Verborgenen geblieben wären, und stärkte damit weltweit die Debatte über Regierungstransparenz und Pressefreiheit.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einer Kompromisslosigkeit, die auch erhebliche Kollateralschäden in Kauf nahm: Kritiker warfen ihm vor, bei einigen Veröffentlichungen zu wenig auf den Schutz von Informanten und gefährdeten Personen geachtet zu haben. Zudem wurde er in Schweden zeitweise wegen Vorwürfen sexueller Übergriffe strafrechtlich verfolgt &ndash; Verfahren, die später eingestellt wurden, aber seinen Ruf nachhaltig prägten. Die soziale Neun, die vollständig in einer Mission aufgeht, kann dabei die individuellen Menschen aus dem Blick verlieren, die von ihrem Handeln betroffen sind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Büffel, der die Wahrheit über sich selbst stellte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Neun führt von der Trägheit zu echter, bewusster Präsenz &ndash; von der Selbstauflösung in einer Sache zu einer Identität, die auch außerhalb dieser Sache tragfähig ist. Assanges jahrelange Isolation, physisch wie psychisch, zeigt die dunkle Seite dieses Aufgehens in der Mission: Ein Selbst, das sich vollständig einer Idee unterordnet, kann zerbrechen, wenn diese Idee zum Gefängnis wird.</p>
+          <p class="vb-intro">2024 kehrte Assange nach Australien zurück, nach über einem Jahrzehnt in Botschaftsasyl und Haft. Das ist die SO9w1 in ihrer ganzen Ambivalenz: der Büffel, der sich rückhaltlos für eine Idee einsetzte, die größer war als er selbst &ndash; und der am Ende einen Preis dafür zahlte, den kaum jemand freiwillig zahlen würde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1)"},
       ])}
     </div>
   `);
@@ -46160,6 +46228,7 @@ function render() {
           "beruehmte-kevin-costner": kevinCostnerPortraitPage,
         "beruehmte-iga-swiatek": igaSwiatekPortraitPage,
     "beruehmte-steffi-graf": steffiGrafPortraitPage,
+    "beruehmte-julian-assange": julianAssangePortraitPage,
           "beruehmte-ronald-reagan": ronaldReaganPortraitPage,
     "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
