@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "419";
+const APP_BUILD = "420";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -10710,6 +10710,7 @@ function bindEvents() {
         }
         setTier("heilwissen");
         setLizenzName(name);
+        playPurchaseWelcome();
         // Erfolgsmeldung + Homescreen-Anleitung anzeigen
         const card = document.querySelector(".freischalt-card");
         if (card) {
@@ -10766,6 +10767,7 @@ function bindEvents() {
         const cred = await fbSignIn(fbAuth, email, pass);
         setTier("heilwissen");
         setLizenzName(cred.user.displayName || cred.user.email);
+        playPurchaseWelcome();
         const card = document.querySelector(".freischalt-card");
         if (card) {
           card.innerHTML = `
@@ -43945,3 +43947,10 @@ setTimeout(showTagesimpuls, 600);
   };
   events.forEach(ev => document.addEventListener(ev, play, { once: true }));
 })();
+
+// Spoken welcome message after successful unlock/purchase – one single generic
+// message (subtype is often not yet known at purchase time). Clicking the
+// unlock button is itself the user interaction, so autoplay is allowed.
+function playPurchaseWelcome() {
+  try { new Audio('sounds/purchase/purchase_welcome.mp3').play().catch(() => {}); } catch (e) {}
+}

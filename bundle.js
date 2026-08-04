@@ -27179,7 +27179,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "429";
+const APP_BUILD = "430";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -33766,6 +33766,7 @@ function bindEvents() {
         }
         setTier("heilwissen");
         setLizenzName(name);
+        playPurchaseWelcome();
         // Erfolgsmeldung + Homescreen-Anleitung anzeigen
         const card = document.querySelector(".freischalt-card");
         if (card) {
@@ -33822,6 +33823,7 @@ function bindEvents() {
         const cred = await fbSignIn(fbAuth, email, pass);
         setTier("heilwissen");
         setLizenzName(cred.user.displayName || cred.user.email);
+        playPurchaseWelcome();
         const card = document.querySelector(".freischalt-card");
         if (card) {
           card.innerHTML = `
@@ -73983,3 +73985,10 @@ setTimeout(showTagesimpuls, 600);
   };
   events.forEach(ev => document.addEventListener(ev, play, { once: true }));
 })();
+
+// Gesprochene Begr\u00fc\u00dfung nach erfolgreicher Freischaltung/Kauf \u2013 eine einzige,
+// allgemeine Nachricht (Subtyp ist beim Kauf oft noch nicht bekannt). Klick auf
+// den Freischalt-Button ist selbst die Nutzerinteraktion, Autoplay ist also erlaubt.
+function playPurchaseWelcome() {
+  try { new Audio('sounds/purchase/purchase_willkommen.mp3').play().catch(() => {}); } catch (e) {}
+}
