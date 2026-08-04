@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "410";
+const APP_BUILD = "411";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -12698,7 +12698,7 @@ function winstonChurchillPortraitPage() {
         <h2 class="vb-section">3. Der Neunerflügel: Die Fähigkeit zu warten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Neunerflügel</strong> gibt der selbsterhaltenden Acht etwas, das der reinen Acht fehlt: Ausdauer über Jahre hinweg, die Fähigkeit, eine unpopuläre Position zu halten, ohne sofort zu triumphieren oder zu resignieren. Die SE8w9 kämpft nicht in einer einzigen Schlacht &ndash; sie hält die Linie, so lange es nötig ist.</p>
-          <p class="vb-intro">Während der gesamten 1930er Jahre warnte Churchill, weitgehend isoliert und von der eigenen Partei belächelt, vor der Aufrüstung Nazi-Deutschlands &ndash; ein jahrelanger Ruf in der Wüste, den kaum jemand hören wollte. Als Neville Chamberlains Appeasement-Politik 1938/39 scheiterte, war es dieser Neunerflügel, der Geduld gepaart mit Sturheit, der Churchill befähigte, genau in diesem Moment bereitzustehen &ndash; nicht zu früh verbraucht, nicht zu spät gekommen.</p>
+          <p class="vb-intro">Während der gesamten 1930er Jahre warnte Churchill, weitgehend isoliert und von der eigenen Partei belächelt, vor der Aufrüstung Nazi-Deutschlands &ndash; ein jahrelanger Ruf in der Wüste, den kaum jemand hören wollte. Als Neville Chamberlains Appeasement-Politik 1938/39 scheiterte, war es dieser Neunerflügel, Geduld gepaart mit Sturheit, der Churchill befähigte, genau in diesem Moment bereitzustehen &ndash; nicht zu früh verbraucht, nicht zu spät gekommen.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Von Gallipoli zur Downing Street</h2>

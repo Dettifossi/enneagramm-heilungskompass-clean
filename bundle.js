@@ -27163,7 +27163,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "410";
+const APP_BUILD = "411";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -39808,7 +39808,7 @@ function winstonChurchillPortraitPage() {
         <h2 class="vb-section">3. Der Neunerfl\u00fcgel: Die F\u00e4higkeit zu warten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Neunerfl\u00fcgel</strong> gibt der selbsterhaltenden Acht etwas, das der reinen Acht fehlt: Ausdauer \u00fcber Jahre hinweg, die F\u00e4higkeit, eine unpopul\u00e4re Position zu halten, ohne sofort zu triumphieren oder zu resignieren. Die SE8w9 k\u00e4mpft nicht in einer einzigen Schlacht &ndash; sie h\u00e4lt die Linie, so lange es n\u00f6tig ist.</p>
-          <p class="vb-intro">W\u00e4hrend der gesamten 1930er Jahre warnte Churchill, weitgehend isoliert und von der eigenen Partei bel\u00e4chelt, vor der Aufr\u00fcstung Nazi-Deutschlands &ndash; ein jahrelanger Ruf in der W\u00fcste, den kaum jemand h\u00f6ren wollte. Als Neville Chamberlains Appeasement-Politik 1938/39 scheiterte, war es dieser Neunerfl\u00fcgel, der Geduld gepaart mit Sturheit, der Churchill bef\u00e4higte, genau in diesem Moment bereitzustehen &ndash; nicht zu fr\u00fch verbraucht, nicht zu sp\u00e4t gekommen.</p>
+          <p class="vb-intro">W\u00e4hrend der gesamten 1930er Jahre warnte Churchill, weitgehend isoliert und von der eigenen Partei bel\u00e4chelt, vor der Aufr\u00fcstung Nazi-Deutschlands &ndash; ein jahrelanger Ruf in der W\u00fcste, den kaum jemand h\u00f6ren wollte. Als Neville Chamberlains Appeasement-Politik 1938/39 scheiterte, war es dieser Neunerfl\u00fcgel, Geduld gepaart mit Sturheit, der Churchill bef\u00e4higte, genau in diesem Moment bereitzustehen &ndash; nicht zu fr\u00fch verbraucht, nicht zu sp\u00e4t gekommen.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Von Gallipoli zur Downing Street</h2>
