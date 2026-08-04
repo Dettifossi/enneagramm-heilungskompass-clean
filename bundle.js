@@ -27169,7 +27169,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "416";
+const APP_BUILD = "417";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -40316,7 +40316,7 @@ function karlMarxPortraitPage() {
         <h2 class="vb-section">2. Die soziale Acht: Solidarit\u00e4t mit den Ausgebeuteten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft in den Dienst einer Gemeinschaft. Naranjo nannte diesen Subtyp <em>Solidarit\u00e4t</em>: Die SO8 identifiziert sich mit den Machtlosen und stellt sich unerschrocken vor sie &ndash; nicht aus Mitleid, sondern aus einer tiefen Emp\u00f6rung \u00fcber das Unrecht selbst. Sie k\u00e4mpft nicht f\u00fcr abstrakte Prinzipien, sondern f\u00fcr konkrete Menschen, deren Leid sie als eigenes empfindet.</p>
-          <p class="vb-intro">Marx' gesamtes Lebenswerk ist SO8 in Reinform: Er analysierte nicht neutral, er klagte an. <em>Das Kapital</em> ist kein trockenes Wirtschaftslehrbuch, sondern eine minuti\u00f6se Anklageschrift gegen die Ausbeutung der Arbeiterklasse durch das Kapital. Er wollte nicht nur verstehen, wie der Kapitalismus funktioniert &ndash; er wollte ihn st\u00fcrzen. Die ber\u00fchmte elfte Feuerbach-These bringt es auf den Punkt: \u201eDie Philosophen haben die Welt nur verschieden interpretiert; es kommt aber darauf an, sie zu ver\u00e4ndern."</p>
+          <p class="vb-intro">Marx' gesamtes Lebenswerk ist das SO8-Prinzip in Reinform: Er analysierte nicht neutral, er klagte an. <em>Das Kapital</em> ist kein trockenes Wirtschaftslehrbuch, sondern eine minuti\u00f6se Anklageschrift gegen die Ausbeutung der Arbeiterklasse durch das Kapital. Er wollte nicht nur verstehen, wie der Kapitalismus funktioniert &ndash; er wollte ihn st\u00fcrzen. Die ber\u00fchmte elfte Feuerbach-These bringt es auf den Punkt: \u201eDie Philosophen haben die Welt nur verschieden interpretiert; es kommt aber darauf an, sie zu ver\u00e4ndern."</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Neunerfl\u00fcgel: Die Geduld des Systematikers</h2>

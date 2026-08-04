@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "416";
+const APP_BUILD = "417";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -13200,7 +13200,7 @@ function karlMarxPortraitPage() {
         <h2 class="vb-section">2. Die soziale Acht: Solidarität mit den Ausgebeuteten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft in den Dienst einer Gemeinschaft. Naranjo nannte diesen Subtyp <em>Solidarität</em>: Die SO8 identifiziert sich mit den Machtlosen und stellt sich unerschrocken vor sie &ndash; nicht aus Mitleid, sondern aus einer tiefen Empörung über das Unrecht selbst. Sie kämpft nicht für abstrakte Prinzipien, sondern für konkrete Menschen, deren Leid sie als eigenes empfindet.</p>
-          <p class="vb-intro">Marx' gesamtes Lebenswerk ist SO8 in Reinform: Er analysierte nicht neutral, er klagte an. <em>Das Kapital</em> ist kein trockenes Wirtschaftslehrbuch, sondern eine minutiöse Anklageschrift gegen die Ausbeutung der Arbeiterklasse durch das Kapital. Er wollte nicht nur verstehen, wie der Kapitalismus funktioniert &ndash; er wollte ihn stürzen. Die berühmte elfte Feuerbach-These bringt es auf den Punkt: „Die Philosophen haben die Welt nur verschieden interpretiert; es kommt aber darauf an, sie zu verändern."</p>
+          <p class="vb-intro">Marx' gesamtes Lebenswerk ist das SO8-Prinzip in Reinform: Er analysierte nicht neutral, er klagte an. <em>Das Kapital</em> ist kein trockenes Wirtschaftslehrbuch, sondern eine minutiöse Anklageschrift gegen die Ausbeutung der Arbeiterklasse durch das Kapital. Er wollte nicht nur verstehen, wie der Kapitalismus funktioniert &ndash; er wollte ihn stürzen. Die berühmte elfte Feuerbach-These bringt es auf den Punkt: „Die Philosophen haben die Welt nur verschieden interpretiert; es kommt aber darauf an, sie zu verändern."</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Neunerflügel: Die Geduld des Systematikers</h2>
