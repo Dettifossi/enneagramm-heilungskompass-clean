@@ -1645,6 +1645,7 @@ text.nav = [
     { route: "enneagramm-kunst", label: "Enneagram Art" },
     { route: "enneagramm-filme", label: "Enneagram Movie Recommendations" },
     { route: "kriminalpsychologie", label: "Fascinating Criminal Cases (Criminal Psychology)" },
+    { route: "laenderzuordnungen", label: "Country Assignments" },
     { route: "tierlexikon", label: "Animal Lexicon" },
   ]},
   { route: "schaubilder", label: "Diagrams", dropdown: [
@@ -1693,7 +1694,6 @@ text.nav = [
     { route: "kerneberzeugungen", label: "Core Beliefs" },
     { route: "koerperregulation", label: "Body Regulation" },
     { route: "kindheitsperspektiven", label: "Childhood Perspectives" },
-    { route: "laenderzuordnungen", label: "Country Assignments: All Countries of the World" },
     { route: "laster-tugenden-affirmationen", label: "Vices · Virtues · Affirmations" },
     { route: "lebensgluck", label: "Life Happiness" },
     { route: "liebesverhalten", label: "Love Behavior of the 9 Types" },
