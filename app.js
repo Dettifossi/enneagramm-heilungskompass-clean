@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "444";
+const APP_BUILD = "445";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -5861,6 +5861,14 @@ function knowledgeCard(item) {
 
 const AFFILIATE_LINKS = {
   "Rosenquarz": "https://link.amazon/B00SUkNTI",
+  "Amethyst": "https://www.amazon.de/Lebensquelle-Plus-Amethyst-Edelstein-Anh%C3%A4nger/dp/B06XK8T2J3?linkCode=ll2&tag=enneagrammkom-21&linkId=e943ceecdcd6918d8f80446ea49668ad&language=de_DE&ref_=as_li_ss_tl",
+  "Tigerauge": "https://www.amazon.de/Lebensquelle-Plus-Tigerauge-Edelstein-Anh%C3%A4nger/dp/B06XGDB3GQ?linkCode=ll2&tag=enneagrammkom-21&linkId=64eacd8a6e2eafd6fd9e3080337ade45&language=de_DE&ref_=as_li_ss_tl",
+  "Rhodonit": "https://www.amazon.de/Lebensquelle-Plus-Rhodonit-Edelstein-Anh%C3%A4nger/dp/B06XJ847PJ?linkCode=ll2&tag=enneagrammkom-21&linkId=b702cc213235dd6b07d9154f25ffa807&language=de_DE&ref_=as_li_ss_tl",
+  "Amazonit": "https://www.amazon.de/Lebensquelle-Plus-Amazonit-Edelstein-Anh%C3%A4nger/dp/B06XPYZX9L?linkCode=ll2&tag=enneagrammkom-21&linkId=c50a51af59c62f2e9526bae6eb4db93a&language=de_DE&ref_=as_li_ss_tl",
+  "Hämatit": "https://www.amazon.de/Lebensquelle-Plus-H%C3%A4matit-Edelstein-Anh%C3%A4nger/dp/B0BMVSJ53N?linkCode=ll2&tag=enneagrammkom-21&linkId=64d7df7e4be338fbd363e9bef0d877a8&language=de_DE&ref_=as_li_ss_tl",
+  "Rauchquarz": "https://www.amazon.de/Lebensquelle-Plus-Rauchquarz-Edelstein-Anh%C3%A4nger/dp/B0BZ119GZN?linkCode=ll2&tag=enneagrammkom-21&linkId=f28e45161db0c7faa59781d0ff7baa46&language=de_DE&ref_=as_li_ss_tl",
+  "Fluorit": "https://www.amazon.de/Lebensquelle-Plus-Edelstein-Anh%C3%A4nger-Regenbogenfluorit/dp/B01N26C7JA?linkCode=ll2&tag=enneagrammkom-21&linkId=f042b0f895c6ac707bd3f2c152aa6761&language=de_DE&ref_=as_li_ss_tl",
+  "Karneol": "https://www.amazon.de/Lebensquelle-Plus-Karneol-Edelstein-Anh%C3%A4nger/dp/B01N5WJ5EF?linkCode=ll2&tag=enneagrammkom-21&linkId=396b104243136d95b7ea068fa5c372f0&language=de_DE&ref_=as_li_ss_tl",
 };
 
 function affiliateBoxHtml(remedyName) {
