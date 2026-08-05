@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "451";
+const APP_BUILD = "452";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -5860,6 +5860,12 @@ function knowledgeCard(item) {
 	  `;
 }
 
+const MEDITATIONS_SITZHILFEN = [
+  { name: "Meditationsmatte", subtitle: "Zabuton", eignung: "Die Basis für alle: Sie wird flach auf den Boden gelegt und dämpft Knie und Fußgelenke – egal ob zusätzlich ein Kissen oder eine Bank darauf steht. Besonders geeignet für Einsteiger und für alle, die auf hartem Boden (Parkett, Fliesen) sitzen." },
+  { name: "Meditationskissen", subtitle: "Zafu", eignung: "Am besten für alle, die im Schneider- oder Lotussitz sitzen möchten: Es hebt die Hüfte über die Knie an und ermöglicht einen aufrechten, entspannten Rücken. Gut geeignet, wenn die Hüften bereits einigermaßen beweglich sind." },
+  { name: "Meditationsbank", subtitle: "Seiza", eignung: "Am besten für alle, denen der Schneidersitz unangenehm ist oder die Knie-, Hüft- oder Rückenprobleme haben: Im Fersensitz auf der Bank werden die Knie entlastet und der Rücken bleibt mühelos aufrecht – auch für ungeübte Sitzende bequem." },
+];
+
 const CARD_AFFILIATE_CATEGORY = {
   "Edelstein": "edelstein",
   "Bachblüte": "bachbluete",
@@ -5928,6 +5934,11 @@ const AFFILIATE_LINKS = {
     "Calcium carbonicum": "https://www.amazon.de/Calcium-Carbonicum-30-Globuli-Hahnemanni/dp/B00E4ZKF4S?linkCode=ll2&tag=enneagrammkom-21&linkId=217ecd804966a851af4669558448542d&language=de_DE&ref_=as_li_ss_tl",
     "Veratrum album": "https://www.amazon.de/Veratrum-Album-12-Globuli-10/dp/B00ELNZ2VE?linkCode=ll2&tag=enneagrammkom-21&linkId=658e24520fe18bc94653de6704281922&language=de_DE&ref_=as_li_ss_tl",
     "Staphysagria": "https://www.amazon.de/DHU-STAPHISAGRIA-12-Globuli-10/dp/B00E4ZVRXG?linkCode=ll2&tag=enneagrammkom-21&linkId=12e5cade08329e3ed68f53a74af5c3e3&language=de_DE&ref_=as_li_ss_tl",
+  },
+  sitzhilfe: {
+    "Meditationsmatte": "https://www.amazon.de/Lotuscrafts-Meditationsmatte-Zabuton-Standard-Meditationskissen/dp/B00D8E739Q?linkCode=ll2&tag=enneagrammkom-21&linkId=5ed08fee6c47cc4289c1df05d6140301&ref_=as_li_ss_tl",
+    "Meditationskissen": "https://www.amazon.de/Lotuscrafts-Yogakissen-Meditationskissen-Extra-Hoch/dp/B01N4DQ30X?linkCode=ll2&tag=enneagrammkom-21&linkId=11ea45ee43d03099e881252afcd938b7&language=de_DE&ref_=as_li_ss_tl",
+    "Meditationsbank": "https://www.amazon.de/Bodhi-Meditationsbank-LHOTSE-Buche-ge%C3%B6lt/dp/B08V5FM48T?linkCode=ll2&tag=enneagrammkom-21&linkId=a46e46761384c0c7cdeb46f4d90b9f2c&ref_=as_li_ss_tl",
   },
 };
 
@@ -44367,6 +44378,20 @@ function stillePage() {
       <p style="margin-top:2.5rem;font-size:0.82rem;color:var(--ink-muted);max-width:340px;margin-left:auto;margin-right:auto;">
         Lege das Handy zur Seite. Ein Gong ertönt am Anfang und am Ende.
       </p>
+
+      <div style="margin:2.2rem auto 0;max-width:480px;text-align:left;">
+        <p style="font-size:0.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);font-weight:700;margin:0 0 .35rem;text-align:center;">Bequem sitzen für die Stille-Praxis</p>
+        <p style="font-size:0.8rem;color:var(--ink-muted);text-align:center;margin:0 0 1.1rem;line-height:1.5;">Drei bewährte Sitzhilfen – welche am besten passt, hängt von deiner Sitzgewohnheit und Beweglichkeit ab.</p>
+        <div style="display:flex;flex-direction:column;gap:.9rem;">
+          ${MEDITATIONS_SITZHILFEN.map(s => `
+            <div style="background:var(--paper);border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;">
+              <p style="margin:0 0 .3rem;font-size:0.95rem;font-weight:700;color:var(--ink);">${s.name} <em style="font-weight:400;color:var(--muted);font-size:0.8rem;">· ${s.subtitle}</em></p>
+              <p style="margin:0 0 .7rem;font-size:0.85rem;line-height:1.55;color:var(--ink-muted);">${s.eignung}</p>
+              ${AFFILIATE_LINKS.sitzhilfe[s.name] ? affiliateBoxHtml("sitzhilfe", s.name) : ""}
+            </div>
+          `).join("")}
+        </div>
+      </div>
 
       <div style="margin:2.2rem auto 0;max-width:480px;background:var(--paper);border-radius:14px;border:1px solid var(--border);padding:1.3rem 1.4rem;display:flex;gap:1rem;align-items:flex-start;">
         <img src="https://www.verlagshausrathmer.com/images/2026/03/WhatsApp-Image-2026-03-22-at-9.26.55-PM.jpeg" alt="Meta-Intelligenz – Das Hörbuch – Cover" style="width:64px;height:64px;border-radius:8px;object-fit:cover;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,.15);">
