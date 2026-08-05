@@ -27186,7 +27186,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "449";
+const APP_BUILD = "450";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -33021,6 +33021,16 @@ const AFFILIATE_LINKS = {
   "Agrimony": "https://www.amazon.de/Bachbl%C3%BCten-Agrimony-Tropfen-20-ml/dp/B001FD45TI?linkCode=ll2&tag=enneagrammkom-21&linkId=6311d8a184fdde1a899515c616c31da0&language=de_DE&ref_=as_li_ss_tl",
   "Vine": "https://www.amazon.de/NELSONS-GMBH-Bachbl%C3%BCte-Vine-20/dp/B001O1KMZC?linkCode=ll2&tag=enneagrammkom-21&linkId=7fa0f49179a925d1fad9d001c9f7b57f&language=de_DE&ref_=as_li_ss_tl",
   "Wild Rose": "https://www.amazon.de/BACHBLUETEN-Wild-Rose-Tropfen-20/dp/B001FD493K?linkCode=ll2&tag=enneagrammkom-21&linkId=e1f17723c29c208c7a2cc7b103125d5a&language=de_DE&ref_=as_li_ss_tl",
+  "Kalium sulfuricum": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Kalium-sulfuricum-umweltfreundlich/dp/B00DIVY1HQ?linkCode=ll2&tag=enneagrammkom-21&linkId=dde4c6ae3a80be23f5f99b9d8533bb1a&language=de_DE&ref_=as_li_ss_tl",
+  "Kalium chloratum": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Kalium-chloratum-umweltfreundlich/dp/B0DN6FLGMZ?linkCode=ll2&tag=enneagrammkom-21&linkId=450e54cf0b5115b5ed4749acbfe42aa9&language=de_DE&ref_=as_li_ss_tl",
+  "Natrium chloratum": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Natrium-chloratum-Fl%C3%BCssigkeitshaushalts/dp/B0DN6H8R62?linkCode=ll2&tag=enneagrammkom-21&linkId=429aeb8a8da288125cb08515f65bf96e&language=de_DE&ref_=as_li_ss_tl",
+  "Ferrum phosphoricum": "https://www.amazon.de/Sch%C3%BC%C3%9Fler-Ferrum-phosphoricum-Tabletten-200/dp/B00E67E4DM?linkCode=ll2&tag=enneagrammkom-21&linkId=177e73fb16e96a2a761b46ff4846e031&language=de_DE&ref_=as_li_ss_tl",
+  "Kalium phosphoricum": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Kalium-phosphoricum-umweltfreundlich/dp/B00DIVXVWM?linkCode=ll2&tag=enneagrammkom-21&linkId=efec432d40fe0bc2d6da8aa8844d3678&language=de_DE&ref_=as_li_ss_tl",
+  "Silicea": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Nr-Silicea-umweltfreundlich/dp/B00E67E1F8?linkCode=ll2&tag=enneagrammkom-21&linkId=9f7edea18a8959c62f65f052334bf71d&language=de_DE&ref_=as_li_ss_tl",
+  "Magnesium phosphoricum": "https://www.amazon.de/Biochemie-Dhu-Magnesium-phosphoricum-Table/dp/B00EMFXNSU?linkCode=ll2&tag=enneagrammkom-21&linkId=e494c9f4125349396bd8d86dd69156ba&language=de_DE&ref_=as_li_ss_tl",
+  "Natrium phosphoricum": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Natrium-phosphoricum-umweltfreundlich/dp/B0DN6JPGCC?linkCode=ll2&tag=enneagrammkom-21&linkId=e51ec073b1faf3e1557be34a7b88f042&language=de_DE&ref_=as_li_ss_tl",
+  "Calcium fluoratum": "https://www.amazon.de/Sch%C3%BC%C3%9Fler-Calcium-fluoratum-D12-Tabletten/dp/B00E67FOWM?linkCode=ll2&tag=enneagrammkom-21&linkId=29f8ae07c6a4a29716102f9f37027b31&language=de_DE&ref_=as_li_ss_tl",
+  "Natrium sulfuricum": "https://www.amazon.de/Sch%C3%BC%C3%9Fler-Natrium-sulfuricum-Tabletten-200/dp/B00E67AL0M?linkCode=ll2&tag=enneagrammkom-21&linkId=0abe6ff6cbcd43b97a673601a19ec9cd&language=de_DE&ref_=as_li_ss_tl",
 };
 
 function affiliateBoxHtml(remedyName) {
@@ -69976,6 +69986,8 @@ function mineralstoffePage() {
         <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid color-mix(in srgb, var(--copper) 60%, var(--paper));border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;max-width:640px;">
           <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${d.beschreibung}</p>
         </div>` : ""}
+        ${AFFILIATE_LINKS[d.leidenschaftsSalz] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml(d.leidenschaftsSalz)}</div>` : ""}
+        ${(!sameSalz && AFFILIATE_LINKS[d.wundeSalz]) ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml(d.wundeSalz)}</div>` : ""}
         <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus &ndash; im Einzelfall kommen je nach Fl&uuml;gel-, Stress- und Entspannungsrichtung weitere Mittel in Betracht.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtyp-Detail &middot; Heilmittel-Kompass</p>
