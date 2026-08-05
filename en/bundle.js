@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "429";
+const APP_BUILD = "430";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -2555,7 +2555,7 @@ function inhaltsübersichtPage() {
 
         ${cat("Famous Personalities", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "59 portraits from culture, music, sports & society – through the lens of the Enneagram.")}
 
-        ${cat("Fascinating Criminal Cases (Criminal Psychology)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "72 in-depth psychological perpetrator portraits – well-known cases through the lens of the Enneagram. Informative, precise, never sensationalist.")}
+        ${cat("Fascinating Criminal Cases (Criminal Psychology)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "73 in-depth psychological perpetrator portraits – well-known cases through the lens of the Enneagram. Informative, precise, never sensationalist.")}
 
         ${cat("Philosophy & Spirituality", "&#129812;", [
           "Schopenhauer & Enneagramm",
@@ -3348,7 +3348,7 @@ function startPage() {
               ["&#127807;","Remedies","Hom., Oils, Bach Fl., Tea, Gemstones"],
               ["&#127775;","Famous Personalities","59 portraits from culture, music & society"],
               ["&#128444;","Charts","100+ colour overviews"],
-              ["&#128269;","Criminal Psychology","72 psychological perpetrator portraits"],
+              ["&#128269;","Criminal Psychology","73 psychological perpetrator portraits"],
               ["&#127807;","Development","Healing path, exercises, questions"],
               ["&#127759;","Culture & Lifestyle","Animals, nature, lifestyle of the 9 types"],
               ["&#128065;","Psychology","Passion, wound, ego structure"],
@@ -4654,7 +4654,7 @@ function kaufenPage() {
           <li>🔄 <strong>Lives and grows</strong> — the app is continuously updated and expanded; you receive all updates automatically</li>
           <li>⚡ <strong>Interactive</strong> — you experience your profile instead of just reading it</li>
           <li>&#127775; <strong>Famous Personalities</strong> — 59 portraits from culture, music &amp; society through the lens of the Enneagram</li>
-          <li>&#128269; <strong>Fascinating Criminal Cases (Criminal Psychology)</strong> — 72 famous perpetrators through the lens of the Enneagram: educational, psychologically deep, never sensationalist</li>
+          <li>&#128269; <strong>Fascinating Criminal Cases (Criminal Psychology)</strong> — 73 famous perpetrators through the lens of the Enneagram: educational, psychologically deep, never sensationalist</li>
         </ul>
         <h3>Who is this for?</h3>
         <p>For everyone who already knows their Enneagram type and wants to go deeper. For therapists, counsellors and coaches. For people who want to truly understand themselves — not superficially, but really.</p>

@@ -27186,7 +27186,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "454";
+const APP_BUILD = "455";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -29228,7 +29228,7 @@ function inhalts\u00fcbersichtPage() {
 
         ${cat("Ber\u00fchmte Pers\u00f6nlichkeiten", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "59 Portr\u00e4ts aus Kultur, Musik, Sport & Gesellschaft \u2013 durch die Linse des Enneagramms.")}
 
-        ${cat("Spannende Kriminalf\u00e4lle (Kriminalpsychologie)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "72 tiefenpsychologische T\u00e4terportr\u00e4ts \u2013 bekannte F\u00e4lle durch die Linse des Enneagramms. Lehrreich, pr\u00e4zise, nie rei\u00dferisch.")}
+        ${cat("Spannende Kriminalf\u00e4lle (Kriminalpsychologie)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "73 tiefenpsychologische T\u00e4terportr\u00e4ts \u2013 bekannte F\u00e4lle durch die Linse des Enneagramms. Lehrreich, pr\u00e4zise, nie rei\u00dferisch.")}
 
         ${cat("Philosophie & Spiritualit\xe4t", "&#129812;", [
           "Schopenhauer & Enneagramm",
