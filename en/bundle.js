@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "432";
+const APP_BUILD = "433";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -25427,7 +25427,7 @@ function ronnieBiggsPortraitPage() {
         with Eight Wing (SX7w8)</strong>. The sexual Seven does not seek quiet
         belonging (SO7) or a secured nest (SE7), but complete fusion with
         the most intense, most exciting life available – Naranjo aptly
-        describes this subtype as marked by <em>Suggestibility</em>: the
+        described this subtype as marked by <em>Suggestibility</em>: the
         sexual Seven lets itself be enchanted, swept along, drawn into a
         larger adventure, often without fully thinking through the risks.
         In Biggs, this showed already at his entry into the train robbery:
@@ -25441,8 +25441,8 @@ function ronnieBiggsPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Chimpanzee</h3>
         <p class="vb-intro">The <strong>chimpanzee</strong> is the animal equivalent of the sexual
-        Seven with an Eight wing – vibrant, status-conscious, entirely in
-        the moment, and capable of instant escalation when its rank is
+        Seven – in this case paired with an Eight wing: vibrant, status-conscious,
+        entirely in the moment, and capable of instant escalation when its rank is
         threatened. Chimpanzees live in groups where belonging is negotiated
         through display, courage, and risk-taking – whoever dares, gains
         standing. Biggs was this chimpanzee: a man with no particular
@@ -25537,6 +25537,24 @@ function ronnieBiggsPortraitPage() {
         In 2009, Biggs was released on humanitarian grounds after having
         largely lost his speech. He died on December 18, 2013, at the age
         of 84 – a public figure to the last, whose legend outlived him.</p>
+        <p class="vb-intro"><strong>g) The money and the fate of the gang:</strong>
+        Of the roughly £2.6 million haul, only a fraction was ever
+        recovered – most of it disappeared for good, spent on escape, new
+        identities, and a life underground. Biggs' own share, estimated at
+        around £147,000, was used up within a few years on the cost of
+        fleeing, plastic surgery in Paris, and building his new life; in
+        Rio de Janeiro he later financed himself mainly by selling his own
+        story, not by the original loot. Most of the other gang members
+        were caught and convicted: Bruce Reynolds, the mastermind behind
+        the plan, was not arrested until 1968 and served about ten years;
+        Charlie Wilson also escaped from prison, was recaptured in Canada
+        in 1978, and was shot dead in Spain in 1990; Ronald "Buster" Edwards
+        voluntarily returned in 1966 and served his sentence. One member of
+        the gang was never identified. Despite the 30-year sentences handed
+        down, most of those convicted were released after roughly ten to
+        thirteen years through ordinary parole – only Biggs, through his
+        escape, remained in the public eye far longer than anyone else
+        from the gang.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">

@@ -27186,7 +27186,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "457";
+const APP_BUILD = "458";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -52058,7 +52058,7 @@ function ronnieBiggsPortraitPage() {
         Die sexuelle Sieben sucht nicht die stille Zugeh\u00f6rigkeit (SO7)
         oder das gesicherte Nest (SE7), sondern die vollst\u00e4ndige Fusion
         mit dem intensivsten, aufregendsten Leben, das m\u00f6glich ist \u2013
-        Naranjo beschreibt diesen Subtyp treffend als von <em>Suggestibility</em>
+        Naranjo beschrieb diesen Subtyp treffend als von <em>Suggestibility</em>
         (Beeinflussbarkeit) gepr\u00e4gt: Die sexuelle Sieben l\u00e4sst sich begeistern,
         mitrei\u00dfen, hinein in ein gr\u00f6\u00dferes Abenteuer ziehen, oft ohne die Risiken
         wirklich zu Ende zu denken. Bei Biggs zeigte sich das schon am Einstieg
@@ -52071,9 +52071,10 @@ function ronnieBiggsPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Schimpanse</h3>
-        <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben mit
-        Achterfl\u00fcgel \u2013 lebendig, statusbewusst, ganz im Moment, und f\u00e4hig, bei
-        Bedrohung des eigenen Rangs sofort zu eskalieren. Schimpansen leben in
+        <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben \u2013
+        in diesem Fall gepaart mit dem Achterfl\u00fcgel: lebendig, statusbewusst,
+        ganz im Moment, und f\u00e4hig, bei Bedrohung des eigenen Rangs sofort zu
+        eskalieren. Schimpansen leben in
         Gruppen, in denen Zugeh\u00f6rigkeit \u00fcber Auftritt, Mut und das Eingehen von
         Risiken verhandelt wird \u2013 wer sich traut, gewinnt Ansehen. Biggs war
         dieser Schimpanse: ein Mann ohne besondere kriminelle Statur, der sich
@@ -52174,6 +52175,25 @@ function ronnieBiggsPortraitPage() {
         seine Sprache weitgehend verloren hatte. Er starb am 18. Dezember
         2013 im Alter von 84 Jahren \u2013 bis zuletzt eine \u00f6ffentliche Figur,
         deren Legende ihn \u00fcberlebte.</p>
+        <p class="vb-intro"><strong>g) Das Geld und das Schicksal der Bande:</strong>
+        Von der Beute in H\u00f6he von rund 2,6 Millionen Pfund wurde nur ein
+        Bruchteil je sichergestellt \u2013 der gr\u00f6\u00dfte Teil blieb f\u00fcr immer
+        verschwunden, aufgebraucht f\u00fcr Flucht, neue Identit\u00e4ten und ein
+        Leben im Untergrund. Biggs' eigener Anteil, sch\u00e4tzungsweise rund
+        147.000 Pfund, war binnen weniger Jahre f\u00fcr Fluchtkosten, die
+        plastische Operation in Paris und den Aufbau seines neuen Lebens
+        aufgezehrt; in Rio de Janeiro finanzierte er sich sp\u00e4ter vor allem
+        durch den Verkauf seiner eigenen Geschichte, nicht durch die Beute
+        selbst. Von den \u00fcbrigen Bandenmitgliedern wurden die meisten gefasst
+        und verurteilt: Bruce Reynolds, der Kopf des Plans, wurde erst 1968
+        verhaftet und verb\u00fc\u00dfte rund zehn Jahre; Charlie Wilson floh
+        ebenfalls aus der Haft, wurde 1978 in Kanada wiedergefasst und 1990
+        in Spanien erschossen; Ronald \u201eBuster" Edwards kehrte 1966 freiwillig
+        zur\u00fcck und verb\u00fc\u00dfte seine Strafe. Ein Mitglied der Bande wurde nie
+        identifiziert. Trotz der verh\u00e4ngten 30-Jahre-Strafen kamen die
+        meisten Verurteilten nach etwa zehn bis dreizehn Jahren regul\u00e4r
+        frei \u2013 nur Biggs selbst blieb durch seine Flucht so lange im
+        \u00f6ffentlichen Bewusstsein wie kein anderer aus der Bande.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
