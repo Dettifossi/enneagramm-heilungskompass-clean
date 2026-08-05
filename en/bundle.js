@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "426";
+const APP_BUILD = "427";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -40542,9 +40542,12 @@ function datenschutzPage() {
     <h2>8. Purchase, Payment Processing and Contact</h2>
     <p>Access codes are purchased via Stripe (stripe.com). This app itself does not process any payment data. Legal basis for processing by the payment provider: Art. 6 Para. 1 lit. b GDPR.</p>
     <p>In some places the app offers to contact Detlef Rathmer directly via email or WhatsApp (WhatsApp Ireland Limited, Dublin, Ireland, a Meta company), for example to schedule a personal consultation. These functions merely open your email program or WhatsApp with a pre-filled message; whether and which data you transmit is entirely your choice. Legal basis: Art. 6 Para. 1 lit. a or b GDPR.</p>
-    <h2>9. Cookies and Tracking</h2>
-    <p>This app does not set any cookies of its own and does not use any analytics or tracking services of its own. As described in section 5, embedded YouTube videos may set cookies provided by their respective operator for technical reasons.</p>
-    <h2>10. Your Rights</h2>
+    <h2>9. Amazon Associates Program (Affiliate Links)</h2>
+    <p>In some places, this app recommends suitable products (e.g. gemstones, Bach flower remedies, essential oils, meditation cushions, books) and links to Amazon. This app participates in the Amazon EU Associates Programme, an affiliate advertising programme designed to provide a means for sites to earn advertising fees by linking to Amazon.de and affiliated sites. As an Amazon Associate, I earn a commission from qualifying purchases.</p>
+    <p>Links marked accordingly are affiliate links (advertising links). If you click such a link and subsequently make a purchase on Amazon, Amazon sets a cookie that attributes the purchase to this app for commission purposes; this does not result in any additional cost to you. Beyond the click itself, this app does not process or store any further personal data — any data processing after the click takes place exclusively at Amazon. Legal basis: Art. 6 Para. 1 lit. f GDPR (legitimate interest in financing the free app offering). Further information on Amazon's privacy practices: <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496" target="_blank" rel="noopener">amazon.com/privacy notice</a>.</p>
+    <h2>10. Cookies and Tracking</h2>
+    <p>This app does not set any cookies of its own and does not use any analytics or tracking services of its own. As described in section 5, embedded YouTube videos may set cookies provided by their respective operator for technical reasons; as described in section 9, clicking an Amazon affiliate link may cause Amazon to set a cookie.</p>
+    <h2>11. Your Rights</h2>
     <p>You have the right to access, rectification, erasure, restriction of processing, and data portability (Art. 15–20 GDPR), as well as the right to object to processing (Art. 21 GDPR). Complaints may be directed to a supervisory authority, e.g. the LDI NRW (<a href="https://www.ldi.nrw.de" target="_blank" rel="noopener">ldi.nrw.de</a>).</p>
   `);
 }

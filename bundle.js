@@ -27186,7 +27186,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "441";
+const APP_BUILD = "442";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -70679,9 +70679,12 @@ function datenschutzPage() {
     <h2>8. Kauf, Zahlungsabwicklung und Kontaktaufnahme</h2>
     <p>Der Kauf von Zugangscodes erfolgt \u00fcber Stripe (stripe.com). Diese App selbst verarbeitet keine Zahlungsdaten. Rechtsgrundlage f\u00fcr die Verarbeitung durch den Zahlungsanbieter: Art. 6 Abs. 1 lit. b DSGVO.</p>
     <p>An einigen Stellen bietet die App an, Detlef Rathmer direkt per E-Mail oder \u00fcber WhatsApp (WhatsApp Ireland Limited, Dublin, Irland, ein Meta-Unternehmen) zu kontaktieren, etwa zur Terminvereinbarung einer pers\u00f6nlichen Beratung. Diese Funktionen \u00f6ffnen lediglich Ihr E-Mail-Programm bzw. WhatsApp mit einem vorbereiteten Text; ob und welche Daten Sie dabei \u00fcbermitteln, entscheiden Sie selbst. Rechtsgrundlage: Art. 6 Abs. 1 lit. a bzw. b DSGVO.</p>
-    <h2>9. Cookies und Tracking</h2>
-    <p>Diese App setzt selbst keine Cookies und verwendet keine eigenen Analyse- oder Tracking-Dienste. Wie unter Punkt 5 beschrieben, k\u00f6nnen eingebettete YouTube-Videos technisch bedingt Cookies der jeweiligen Anbieter setzen.</p>
-    <h2>10. Ihre Rechte</h2>
+    <h2>9. Amazon-Partnerprogramm (Affiliate-Links)</h2>
+    <p>An einigen Stellen der App empfehle ich passende Produkte (z. B. Edelsteine, Bachbl\u00fcten, \u00e4therische \u00d6le, Meditationskissen, B\u00fccher) und verlinke dabei auf Amazon. Diese App nimmt am Partnerprogramm von Amazon Europe S.\u00e0 r.l. und verbundenen Unternehmen (Amazon-Partnerprogramm) teil, einem Werbeprogramm, das zur Bereitstellung eines Mediums f\u00fcr Websites konzipiert wurde, mittels dessen durch die Platzierung von Werbeanzeigen und Links zu amazon.de Werbekostenerstattung verdient werden kann. Als Amazon-Partner verdiene ich an qualifizierten K\u00e4ufen eine Provision.</p>
+    <p>Entsprechend gekennzeichnete Links sind Affiliate-Links (Werbelinks). Klicken Sie auf einen solchen Link und kaufen Sie anschlie\u00dfend bei Amazon ein, wird bei Amazon ein Cookie gesetzt, das dieser App den Kauf f\u00fcr die Provisionsabrechnung zuordnet; f\u00fcr Sie entstehen dadurch keine Mehrkosten. Es werden hierbei keine \u00fcber den Klick hinausgehenden personenbezogenen Daten durch diese App selbst verarbeitet oder gespeichert &ndash; die Datenverarbeitung nach dem Klick erfolgt ausschlie\u00dflich bei Amazon. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Finanzierung des kostenlosen App-Angebots). Weitere Informationen zum Datenschutz bei Amazon: <a href="https://www.amazon.de/gp/help/customer/display.html?nodeId=201909010" target="_blank" rel="noopener">amazon.de/Datenschutzerkl\u00e4rung</a>.</p>
+    <h2>10. Cookies und Tracking</h2>
+    <p>Diese App setzt selbst keine Cookies und verwendet keine eigenen Analyse- oder Tracking-Dienste. Wie unter Punkt 5 beschrieben, k\u00f6nnen eingebettete YouTube-Videos technisch bedingt Cookies der jeweiligen Anbieter setzen; wie unter Punkt 9 beschrieben, kann ein Klick auf einen Amazon-Affiliate-Link zum Setzen eines Cookies bei Amazon f\u00fchren.</p>
+    <h2>11. Ihre Rechte</h2>
     <p>Sie haben das Recht auf Auskunft, Berichtigung, L\u00f6schung, Einschr\u00e4nkung der Verarbeitung sowie Daten\u00fcbertragbarkeit (Art. 15&ndash;20 DSGVO) und das Recht, der Verarbeitung zu widersprechen (Art. 21 DSGVO). Beschwerden richten Sie an eine Datenschutzaufsichtsbeh\u00f6rde, z. B. die LDI NRW (<a href="https://www.ldi.nrw.de" target="_blank" rel="noopener">ldi.nrw.de</a>).</p>
   `);
 }
