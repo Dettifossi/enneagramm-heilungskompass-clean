@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "450";
+const APP_BUILD = "451";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -3439,7 +3439,7 @@ function oilCard(oel) {
         <p class="oil-card__wound"><strong>${c.woundLabel}:</strong> „${oel.urWunde}“</p>
         <p class="oil-card__effect">${oel.wirkung}</p>
         ${oel.vertiefung ? `<p class="oil-card__text">${oel.vertiefung}</p>` : ""}
-        ${AFFILIATE_LINKS[oel.name] ? affiliateBoxHtml(oel.name) : ""}
+        ${AFFILIATE_LINKS.oel[oel.name] ? affiliateBoxHtml("oel", oel.name) : ""}
       </div>
     </article>
   `;
@@ -5860,49 +5860,80 @@ function knowledgeCard(item) {
 	  `;
 }
 
-const AFFILIATE_LINKS = {
-  "Rosenquarz": "https://link.amazon/B00SUkNTI",
-  "Amethyst": "https://www.amazon.de/Lebensquelle-Plus-Amethyst-Edelstein-Anh%C3%A4nger/dp/B06XK8T2J3?linkCode=ll2&tag=enneagrammkom-21&linkId=e943ceecdcd6918d8f80446ea49668ad&language=de_DE&ref_=as_li_ss_tl",
-  "Tigerauge": "https://www.amazon.de/Lebensquelle-Plus-Tigerauge-Edelstein-Anh%C3%A4nger/dp/B06XGDB3GQ?linkCode=ll2&tag=enneagrammkom-21&linkId=64eacd8a6e2eafd6fd9e3080337ade45&language=de_DE&ref_=as_li_ss_tl",
-  "Rhodonit": "https://www.amazon.de/Lebensquelle-Plus-Rhodonit-Edelstein-Anh%C3%A4nger/dp/B06XJ847PJ?linkCode=ll2&tag=enneagrammkom-21&linkId=b702cc213235dd6b07d9154f25ffa807&language=de_DE&ref_=as_li_ss_tl",
-  "Amazonit": "https://www.amazon.de/Lebensquelle-Plus-Amazonit-Edelstein-Anh%C3%A4nger/dp/B06XPYZX9L?linkCode=ll2&tag=enneagrammkom-21&linkId=c50a51af59c62f2e9526bae6eb4db93a&language=de_DE&ref_=as_li_ss_tl",
-  "Hämatit": "https://www.amazon.de/Lebensquelle-Plus-H%C3%A4matit-Edelstein-Anh%C3%A4nger/dp/B0BMVSJ53N?linkCode=ll2&tag=enneagrammkom-21&linkId=64d7df7e4be338fbd363e9bef0d877a8&language=de_DE&ref_=as_li_ss_tl",
-  "Rauchquarz": "https://www.amazon.de/Lebensquelle-Plus-Rauchquarz-Edelstein-Anh%C3%A4nger/dp/B0BZ119GZN?linkCode=ll2&tag=enneagrammkom-21&linkId=f28e45161db0c7faa59781d0ff7baa46&language=de_DE&ref_=as_li_ss_tl",
-  "Fluorit": "https://www.amazon.de/Lebensquelle-Plus-Edelstein-Anh%C3%A4nger-Regenbogenfluorit/dp/B01N26C7JA?linkCode=ll2&tag=enneagrammkom-21&linkId=f042b0f895c6ac707bd3f2c152aa6761&language=de_DE&ref_=as_li_ss_tl",
-  "Karneol": "https://www.amazon.de/Lebensquelle-Plus-Karneol-Edelstein-Anh%C3%A4nger/dp/B01N5WJ5EF?linkCode=ll2&tag=enneagrammkom-21&linkId=396b104243136d95b7ea068fa5c372f0&language=de_DE&ref_=as_li_ss_tl",
-  "Mandarine": "https://www.amazon.de/Heldengr%C3%BCn%C2%AE-Mandarinen%C3%B6l-NATURREIN-Schonend-kaltgepresst/dp/B0GV19CJPX?linkCode=ll2&tag=enneagrammkom-21&linkId=cd48093e3451af34d4b29b932ea8df81&language=de_DE&ref_=as_li_ss_tl",
-  "Zirbelkiefer": "https://www.amazon.de/Emma-Gr%C3%BCn%C2%AE-Zirben%C3%B6l-100-NATURREIN/dp/B0F6DB7XS9?linkCode=ll2&tag=enneagrammkom-21&linkId=b4ca6223fdd832160f74fd0abbcaacf1&language=de_DE&ref_=as_li_ss_tl",
-  "Orange süß": "https://www.amazon.de/Heldengr%C3%BCn%C2%AE-Orangen%C3%B6l-NATURREIN-Kaltgepresst-Orangen/dp/B0CBFVCYL8?linkCode=ll2&tag=enneagrammkom-21&linkId=1d01da69aeaea7991db4d5a906a416d1&language=de_DE&ref_=as_li_ss_tl",
-  "Zedernholz": "https://www.amazon.de/Heldengr%C3%BCn%C2%A9-BIO-Zedernholz%C3%B6l-100-NATURREIN/dp/B0D8JDR1NG?linkCode=ll2&tag=enneagrammkom-21&linkId=77467108b162659c8d42aed8a63f6c70&language=de_DE&ref_=as_li_ss_tl",
-  "Vetiver": "https://www.amazon.de/dp/B07CYYV9BJ?linkCode=ll2&tag=enneagrammkom-21&linkId=1897d653a9bd3f7370f6cf38595574f9&ref_=as_li_ss_tl",
-  "Lavendel fein": "https://www.amazon.de/Heldengr%C3%BCn%C2%AE-BIO-Lavendel%C3%B6l-100-NATURREIN/dp/B09DGFG8KC?linkCode=ll2&tag=enneagrammkom-21&linkId=e4c1e08ba7e4f4e9678c235df635b936&language=de_DE&ref_=as_li_ss_tl",
-  "Grapefruit": "https://www.amazon.de/Heldengr%C3%BCn%C2%AE-Grapefruit-NATURREIN-Schonend-kaltgepresst/dp/B0GTZG8NXW?linkCode=ll2&tag=enneagrammkom-21&linkId=ee37b469b3e4108b6941e43fe88d5d41&language=de_DE&ref_=as_li_ss_tl",
-  "Palmarosa": "https://www.amazon.de/dp/B09BVBW9QK?linkCode=ll2&tag=enneagrammkom-21&linkId=090067bf34799a5035d895e586b2d93d&ref_=as_li_ss_tl",
-  "Majoran": "https://www.amazon.de/Mumianhua-Majoran%C3%B6l%EF%BC%8C100-Majoran-%C3%84therisches-Diffusoren/dp/B0DSZSX2CW?linkCode=ll2&tag=enneagrammkom-21&linkId=a0ea5ad05dd2bc4458f2dfba1c88a0cf&language=de_DE&ref_=as_li_ss_tl",
-  "Rock Water": "https://www.amazon.de/BACHBLUETEN-Rock-Water-Tropfen-20/dp/B001FD67DA?linkCode=ll2&tag=enneagrammkom-21&linkId=f9135424e3f3c69dce889ae034b796ed&language=de_DE&ref_=as_li_ss_tl",
-  "Chicory": "https://www.amazon.de/BACHBLUETEN-Chicory-Tropfen-20-ml/dp/B001FD474G?linkCode=ll2&tag=enneagrammkom-21&linkId=a9593e39880233078072c5d312b03ea5&language=de_DE&ref_=as_li_ss_tl",
-  "Vervain": "https://www.amazon.de/NELSONS-GMBH-Bachbl%C3%BCte-Vervain-20/dp/B001O1KMYS?linkCode=ll2&tag=enneagrammkom-21&linkId=f561648f0a77fdc66489333b199887b9&language=de_DE&ref_=as_li_ss_tl",
-  "Sweet Chestnut": "https://www.amazon.de/BACHBLUETEN-Sweet-Chestnut-Tropfen-20/dp/B001FD2J4G?linkCode=ll2&tag=enneagrammkom-21&linkId=9e03c10e03c7beadd4c2ab81f0168d7c&language=de_DE&ref_=as_li_ss_tl",
-  "Water Violet": "https://www.amazon.de/BACHBLUETEN-Water-Violet-Tropfen-20/dp/B001FD0KSS?linkCode=ll2&tag=enneagrammkom-21&linkId=d814be82fdcc3f32868bd2d21178dfc0&language=de_DE&ref_=as_li_ss_tl",
-  "Aspen": "https://www.amazon.de/Bachbl%C3%BCten-Aspen-Tropfen-20-ml/dp/B001FD46R4?linkCode=ll2&tag=enneagrammkom-21&linkId=75f02c45e704509cb2108182a828d1c7&language=de_DE&ref_=as_li_ss_tl",
-  "Agrimony": "https://www.amazon.de/Bachbl%C3%BCten-Agrimony-Tropfen-20-ml/dp/B001FD45TI?linkCode=ll2&tag=enneagrammkom-21&linkId=6311d8a184fdde1a899515c616c31da0&language=de_DE&ref_=as_li_ss_tl",
-  "Vine": "https://www.amazon.de/NELSONS-GMBH-Bachbl%C3%BCte-Vine-20/dp/B001O1KMZC?linkCode=ll2&tag=enneagrammkom-21&linkId=7fa0f49179a925d1fad9d001c9f7b57f&language=de_DE&ref_=as_li_ss_tl",
-  "Wild Rose": "https://www.amazon.de/BACHBLUETEN-Wild-Rose-Tropfen-20/dp/B001FD493K?linkCode=ll2&tag=enneagrammkom-21&linkId=e1f17723c29c208c7a2cc7b103125d5a&language=de_DE&ref_=as_li_ss_tl",
-  "Kalium sulfuricum": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Kalium-sulfuricum-umweltfreundlich/dp/B00DIVY1HQ?linkCode=ll2&tag=enneagrammkom-21&linkId=dde4c6ae3a80be23f5f99b9d8533bb1a&language=de_DE&ref_=as_li_ss_tl",
-  "Kalium chloratum": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Kalium-chloratum-umweltfreundlich/dp/B0DN6FLGMZ?linkCode=ll2&tag=enneagrammkom-21&linkId=450e54cf0b5115b5ed4749acbfe42aa9&language=de_DE&ref_=as_li_ss_tl",
-  "Natrium chloratum": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Natrium-chloratum-Fl%C3%BCssigkeitshaushalts/dp/B0DN6H8R62?linkCode=ll2&tag=enneagrammkom-21&linkId=429aeb8a8da288125cb08515f65bf96e&language=de_DE&ref_=as_li_ss_tl",
-  "Ferrum phosphoricum": "https://www.amazon.de/Sch%C3%BC%C3%9Fler-Ferrum-phosphoricum-Tabletten-200/dp/B00E67E4DM?linkCode=ll2&tag=enneagrammkom-21&linkId=177e73fb16e96a2a761b46ff4846e031&language=de_DE&ref_=as_li_ss_tl",
-  "Kalium phosphoricum": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Kalium-phosphoricum-umweltfreundlich/dp/B00DIVXVWM?linkCode=ll2&tag=enneagrammkom-21&linkId=efec432d40fe0bc2d6da8aa8844d3678&language=de_DE&ref_=as_li_ss_tl",
-  "Silicea": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Nr-Silicea-umweltfreundlich/dp/B00E67E1F8?linkCode=ll2&tag=enneagrammkom-21&linkId=9f7edea18a8959c62f65f052334bf71d&language=de_DE&ref_=as_li_ss_tl",
-  "Magnesium phosphoricum": "https://www.amazon.de/Biochemie-Dhu-Magnesium-phosphoricum-Table/dp/B00EMFXNSU?linkCode=ll2&tag=enneagrammkom-21&linkId=e494c9f4125349396bd8d86dd69156ba&language=de_DE&ref_=as_li_ss_tl",
-  "Natrium phosphoricum": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Natrium-phosphoricum-umweltfreundlich/dp/B0DN6JPGCC?linkCode=ll2&tag=enneagrammkom-21&linkId=e51ec073b1faf3e1557be34a7b88f042&language=de_DE&ref_=as_li_ss_tl",
-  "Calcium fluoratum": "https://www.amazon.de/Sch%C3%BC%C3%9Fler-Calcium-fluoratum-D12-Tabletten/dp/B00E67FOWM?linkCode=ll2&tag=enneagrammkom-21&linkId=29f8ae07c6a4a29716102f9f37027b31&language=de_DE&ref_=as_li_ss_tl",
-  "Natrium sulfuricum": "https://www.amazon.de/Sch%C3%BC%C3%9Fler-Natrium-sulfuricum-Tabletten-200/dp/B00E67AL0M?linkCode=ll2&tag=enneagrammkom-21&linkId=0abe6ff6cbcd43b97a673601a19ec9cd&language=de_DE&ref_=as_li_ss_tl",
+const CARD_AFFILIATE_CATEGORY = {
+  "Edelstein": "edelstein",
+  "Bachblüte": "bachbluete",
+  "Mineralstoff": "schuessler",
+  "Wundenmittel": "homoeopathie",
 };
 
-function affiliateBoxHtml(remedyName) {
+const AFFILIATE_LINKS = {
+  edelstein: {
+    "Rosenquarz": "https://link.amazon/B00SUkNTI",
+    "Amethyst": "https://www.amazon.de/Lebensquelle-Plus-Amethyst-Edelstein-Anh%C3%A4nger/dp/B06XK8T2J3?linkCode=ll2&tag=enneagrammkom-21&linkId=e943ceecdcd6918d8f80446ea49668ad&language=de_DE&ref_=as_li_ss_tl",
+    "Tigerauge": "https://www.amazon.de/Lebensquelle-Plus-Tigerauge-Edelstein-Anh%C3%A4nger/dp/B06XGDB3GQ?linkCode=ll2&tag=enneagrammkom-21&linkId=64eacd8a6e2eafd6fd9e3080337ade45&language=de_DE&ref_=as_li_ss_tl",
+    "Rhodonit": "https://www.amazon.de/Lebensquelle-Plus-Rhodonit-Edelstein-Anh%C3%A4nger/dp/B06XJ847PJ?linkCode=ll2&tag=enneagrammkom-21&linkId=b702cc213235dd6b07d9154f25ffa807&language=de_DE&ref_=as_li_ss_tl",
+    "Amazonit": "https://www.amazon.de/Lebensquelle-Plus-Amazonit-Edelstein-Anh%C3%A4nger/dp/B06XPYZX9L?linkCode=ll2&tag=enneagrammkom-21&linkId=c50a51af59c62f2e9526bae6eb4db93a&language=de_DE&ref_=as_li_ss_tl",
+    "Hämatit": "https://www.amazon.de/Lebensquelle-Plus-H%C3%A4matit-Edelstein-Anh%C3%A4nger/dp/B0BMVSJ53N?linkCode=ll2&tag=enneagrammkom-21&linkId=64d7df7e4be338fbd363e9bef0d877a8&language=de_DE&ref_=as_li_ss_tl",
+    "Rauchquarz": "https://www.amazon.de/Lebensquelle-Plus-Rauchquarz-Edelstein-Anh%C3%A4nger/dp/B0BZ119GZN?linkCode=ll2&tag=enneagrammkom-21&linkId=f28e45161db0c7faa59781d0ff7baa46&language=de_DE&ref_=as_li_ss_tl",
+    "Fluorit": "https://www.amazon.de/Lebensquelle-Plus-Edelstein-Anh%C3%A4nger-Regenbogenfluorit/dp/B01N26C7JA?linkCode=ll2&tag=enneagrammkom-21&linkId=f042b0f895c6ac707bd3f2c152aa6761&language=de_DE&ref_=as_li_ss_tl",
+    "Karneol": "https://www.amazon.de/Lebensquelle-Plus-Karneol-Edelstein-Anh%C3%A4nger/dp/B01N5WJ5EF?linkCode=ll2&tag=enneagrammkom-21&linkId=396b104243136d95b7ea068fa5c372f0&language=de_DE&ref_=as_li_ss_tl",
+  },
+  oel: {
+    "Mandarine": "https://www.amazon.de/Heldengr%C3%BCn%C2%AE-Mandarinen%C3%B6l-NATURREIN-Schonend-kaltgepresst/dp/B0GV19CJPX?linkCode=ll2&tag=enneagrammkom-21&linkId=cd48093e3451af34d4b29b932ea8df81&language=de_DE&ref_=as_li_ss_tl",
+    "Zirbelkiefer": "https://www.amazon.de/Emma-Gr%C3%BCn%C2%AE-Zirben%C3%B6l-100-NATURREIN/dp/B0F6DB7XS9?linkCode=ll2&tag=enneagrammkom-21&linkId=b4ca6223fdd832160f74fd0abbcaacf1&language=de_DE&ref_=as_li_ss_tl",
+    "Orange süß": "https://www.amazon.de/Heldengr%C3%BCn%C2%AE-Orangen%C3%B6l-NATURREIN-Kaltgepresst-Orangen/dp/B0CBFVCYL8?linkCode=ll2&tag=enneagrammkom-21&linkId=1d01da69aeaea7991db4d5a906a416d1&language=de_DE&ref_=as_li_ss_tl",
+    "Zedernholz": "https://www.amazon.de/Heldengr%C3%BCn%C2%A9-BIO-Zedernholz%C3%B6l-100-NATURREIN/dp/B0D8JDR1NG?linkCode=ll2&tag=enneagrammkom-21&linkId=77467108b162659c8d42aed8a63f6c70&language=de_DE&ref_=as_li_ss_tl",
+    "Vetiver": "https://www.amazon.de/dp/B07CYYV9BJ?linkCode=ll2&tag=enneagrammkom-21&linkId=1897d653a9bd3f7370f6cf38595574f9&ref_=as_li_ss_tl",
+    "Lavendel fein": "https://www.amazon.de/Heldengr%C3%BCn%C2%AE-BIO-Lavendel%C3%B6l-100-NATURREIN/dp/B09DGFG8KC?linkCode=ll2&tag=enneagrammkom-21&linkId=e4c1e08ba7e4f4e9678c235df635b936&language=de_DE&ref_=as_li_ss_tl",
+    "Grapefruit": "https://www.amazon.de/Heldengr%C3%BCn%C2%AE-Grapefruit-NATURREIN-Schonend-kaltgepresst/dp/B0GTZG8NXW?linkCode=ll2&tag=enneagrammkom-21&linkId=ee37b469b3e4108b6941e43fe88d5d41&language=de_DE&ref_=as_li_ss_tl",
+    "Palmarosa": "https://www.amazon.de/dp/B09BVBW9QK?linkCode=ll2&tag=enneagrammkom-21&linkId=090067bf34799a5035d895e586b2d93d&ref_=as_li_ss_tl",
+    "Majoran": "https://www.amazon.de/Mumianhua-Majoran%C3%B6l%EF%BC%8C100-Majoran-%C3%84therisches-Diffusoren/dp/B0DSZSX2CW?linkCode=ll2&tag=enneagrammkom-21&linkId=a0ea5ad05dd2bc4458f2dfba1c88a0cf&language=de_DE&ref_=as_li_ss_tl",
+  },
+  bachbluete: {
+    "Rock Water": "https://www.amazon.de/BACHBLUETEN-Rock-Water-Tropfen-20/dp/B001FD67DA?linkCode=ll2&tag=enneagrammkom-21&linkId=f9135424e3f3c69dce889ae034b796ed&language=de_DE&ref_=as_li_ss_tl",
+    "Chicory": "https://www.amazon.de/BACHBLUETEN-Chicory-Tropfen-20-ml/dp/B001FD474G?linkCode=ll2&tag=enneagrammkom-21&linkId=a9593e39880233078072c5d312b03ea5&language=de_DE&ref_=as_li_ss_tl",
+    "Vervain": "https://www.amazon.de/NELSONS-GMBH-Bachbl%C3%BCte-Vervain-20/dp/B001O1KMYS?linkCode=ll2&tag=enneagrammkom-21&linkId=f561648f0a77fdc66489333b199887b9&language=de_DE&ref_=as_li_ss_tl",
+    "Sweet Chestnut": "https://www.amazon.de/BACHBLUETEN-Sweet-Chestnut-Tropfen-20/dp/B001FD2J4G?linkCode=ll2&tag=enneagrammkom-21&linkId=9e03c10e03c7beadd4c2ab81f0168d7c&language=de_DE&ref_=as_li_ss_tl",
+    "Water Violet": "https://www.amazon.de/BACHBLUETEN-Water-Violet-Tropfen-20/dp/B001FD0KSS?linkCode=ll2&tag=enneagrammkom-21&linkId=d814be82fdcc3f32868bd2d21178dfc0&language=de_DE&ref_=as_li_ss_tl",
+    "Aspen": "https://www.amazon.de/Bachbl%C3%BCten-Aspen-Tropfen-20-ml/dp/B001FD46R4?linkCode=ll2&tag=enneagrammkom-21&linkId=75f02c45e704509cb2108182a828d1c7&language=de_DE&ref_=as_li_ss_tl",
+    "Agrimony": "https://www.amazon.de/Bachbl%C3%BCten-Agrimony-Tropfen-20-ml/dp/B001FD45TI?linkCode=ll2&tag=enneagrammkom-21&linkId=6311d8a184fdde1a899515c616c31da0&language=de_DE&ref_=as_li_ss_tl",
+    "Vine": "https://www.amazon.de/NELSONS-GMBH-Bachbl%C3%BCte-Vine-20/dp/B001O1KMZC?linkCode=ll2&tag=enneagrammkom-21&linkId=7fa0f49179a925d1fad9d001c9f7b57f&language=de_DE&ref_=as_li_ss_tl",
+    "Wild Rose": "https://www.amazon.de/BACHBLUETEN-Wild-Rose-Tropfen-20/dp/B001FD493K?linkCode=ll2&tag=enneagrammkom-21&linkId=e1f17723c29c208c7a2cc7b103125d5a&language=de_DE&ref_=as_li_ss_tl",
+  },
+  schuessler: {
+    "Kalium sulfuricum": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Kalium-sulfuricum-umweltfreundlich/dp/B00DIVY1HQ?linkCode=ll2&tag=enneagrammkom-21&linkId=dde4c6ae3a80be23f5f99b9d8533bb1a&language=de_DE&ref_=as_li_ss_tl",
+    "Kalium chloratum": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Kalium-chloratum-umweltfreundlich/dp/B0DN6FLGMZ?linkCode=ll2&tag=enneagrammkom-21&linkId=450e54cf0b5115b5ed4749acbfe42aa9&language=de_DE&ref_=as_li_ss_tl",
+    "Natrium chloratum": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Natrium-chloratum-Fl%C3%BCssigkeitshaushalts/dp/B0DN6H8R62?linkCode=ll2&tag=enneagrammkom-21&linkId=429aeb8a8da288125cb08515f65bf96e&language=de_DE&ref_=as_li_ss_tl",
+    "Ferrum phosphoricum": "https://www.amazon.de/Sch%C3%BC%C3%9Fler-Ferrum-phosphoricum-Tabletten-200/dp/B00E67E4DM?linkCode=ll2&tag=enneagrammkom-21&linkId=177e73fb16e96a2a761b46ff4846e031&language=de_DE&ref_=as_li_ss_tl",
+    "Kalium phosphoricum": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Kalium-phosphoricum-umweltfreundlich/dp/B00DIVXVWM?linkCode=ll2&tag=enneagrammkom-21&linkId=efec432d40fe0bc2d6da8aa8844d3678&language=de_DE&ref_=as_li_ss_tl",
+    "Silicea": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Nr-Silicea-umweltfreundlich/dp/B00E67E1F8?linkCode=ll2&tag=enneagrammkom-21&linkId=9f7edea18a8959c62f65f052334bf71d&language=de_DE&ref_=as_li_ss_tl",
+    "Magnesium phosphoricum": "https://www.amazon.de/Biochemie-Dhu-Magnesium-phosphoricum-Table/dp/B00EMFXNSU?linkCode=ll2&tag=enneagrammkom-21&linkId=e494c9f4125349396bd8d86dd69156ba&language=de_DE&ref_=as_li_ss_tl",
+    "Natrium phosphoricum": "https://www.amazon.de/DHU-Sch%C3%BC%C3%9Fler-Salz-Natrium-phosphoricum-umweltfreundlich/dp/B0DN6JPGCC?linkCode=ll2&tag=enneagrammkom-21&linkId=e51ec073b1faf3e1557be34a7b88f042&language=de_DE&ref_=as_li_ss_tl",
+    "Calcium fluoratum": "https://www.amazon.de/Sch%C3%BC%C3%9Fler-Calcium-fluoratum-D12-Tabletten/dp/B00E67FOWM?linkCode=ll2&tag=enneagrammkom-21&linkId=29f8ae07c6a4a29716102f9f37027b31&language=de_DE&ref_=as_li_ss_tl",
+    "Natrium sulfuricum": "https://www.amazon.de/Sch%C3%BC%C3%9Fler-Natrium-sulfuricum-Tabletten-200/dp/B00E67AL0M?linkCode=ll2&tag=enneagrammkom-21&linkId=0abe6ff6cbcd43b97a673601a19ec9cd&language=de_DE&ref_=as_li_ss_tl",
+  },
+  homoeopathie: {
+    "Platinum metallicum": "https://www.amazon.de/Platinum-Met-12-Globuli-10/dp/B00EM7IJ6E?linkCode=ll2&tag=enneagrammkom-21&linkId=4d2a3d2180dcff2a87773fd3f1d01c72&language=de_DE&ref_=as_li_ss_tl",
+    "Arsenicum album": "https://www.amazon.de/DHU-ARSENICUM-ALBUM-Globuli-10/dp/B00EM5BUZS?linkCode=ll2&tag=enneagrammkom-21&linkId=c32c479b5c2e634d1fd0d9262c377866&language=de_DE&ref_=as_li_ss_tl",
+    "Hyoscyamus niger": "https://www.amazon.de/DHU-HYOSCYAMUS-Globuli-10/dp/B00DIVR5KQ?linkCode=ll2&tag=enneagrammkom-21&linkId=20aab2badc7cac043c3b3b8f8cf9f2db&language=de_DE&ref_=as_li_ss_tl",
+    "Pulsatilla pratensis": "https://www.amazon.de/DHU-Arzneimittel-GmbH-Co-KG-Globuli/dp/B00ELNX9PA?linkCode=ll2&tag=enneagrammkom-21&linkId=c97bc4dc0ef0de7249ad3b5fa628d6f7&language=de_DE&ref_=as_li_ss_tl",
+    "Tarentula hispanica": "https://www.amazon.de/DHU-TARANTULA-30-Globuli-10/dp/B00E59ZD54?linkCode=ll2&tag=enneagrammkom-21&linkId=9ada30a9e98b6e75c3a6bf31989218e3&language=de_DE&ref_=as_li_ss_tl",
+    "Lycopodium clavatum": "https://www.amazon.de/DHU-Lycopodium-C6-Streuk%C3%BCgelchen-Globuli/dp/B00E5AL686?linkCode=ll2&tag=enneagrammkom-21&linkId=d49ea212b1db5c3306a1458f09e66b6a&language=de_DE&ref_=as_li_ss_tl",
+    "Ignatia amara": "https://www.amazon.de/DHU-IGNATIA-Globuli-10/dp/B00E5ABTC4?linkCode=ll2&tag=enneagrammkom-21&linkId=ef97f86439915c93aeb13fa876c22d9b&language=de_DE&ref_=as_li_ss_tl",
+    "Stramonium": "https://www.amazon.de/STRAMONIUM-30-Globuli-10/dp/B00ELNX2F2?linkCode=ll2&tag=enneagrammkom-21&linkId=b2bc3a601a40508d98b7f2d12f07d3cc&language=de_DE&ref_=as_li_ss_tl",
+    "Silicea": "https://www.amazon.de/DHU-Arzneimittel-GmbH-Co-KG-Tabletten/dp/B00ELJU8X0?linkCode=ll2&tag=enneagrammkom-21&linkId=b0e6120913e0417063d5ce77d8226a59&language=de_DE&ref_=as_li_ss_tl",
+    "Opium": "https://www.amazon.de/DHU-Opium-C30-Streuk%C3%BCgelchen-Globuli/dp/B00E5AQ6WM?linkCode=ll2&tag=enneagrammkom-21&linkId=2f67403094f00b5f4e747e5e7f2c88e9&language=de_DE&ref_=as_li_ss_tl",
+    "Belladonna": "https://www.amazon.de/DHU-BELLADONNA-30-Globuli-10/dp/B00E4UAG6A?linkCode=ll2&tag=enneagrammkom-21&linkId=461784c1ca19c784a37d6a109cf77938&language=de_DE&ref_=as_li_ss_tl",
+    "Calcium carbonicum": "https://www.amazon.de/Calcium-Carbonicum-30-Globuli-Hahnemanni/dp/B00E4ZKF4S?linkCode=ll2&tag=enneagrammkom-21&linkId=217ecd804966a851af4669558448542d&language=de_DE&ref_=as_li_ss_tl",
+    "Veratrum album": "https://www.amazon.de/Veratrum-Album-12-Globuli-10/dp/B00ELNZ2VE?linkCode=ll2&tag=enneagrammkom-21&linkId=658e24520fe18bc94653de6704281922&language=de_DE&ref_=as_li_ss_tl",
+    "Staphysagria": "https://www.amazon.de/DHU-STAPHISAGRIA-12-Globuli-10/dp/B00E4ZVRXG?linkCode=ll2&tag=enneagrammkom-21&linkId=12e5cade08329e3ed68f53a74af5c3e3&language=de_DE&ref_=as_li_ss_tl",
+  },
+};
+
+function affiliateBoxHtml(category, remedyName) {
   return `
-    <a href="${AFFILIATE_LINKS[remedyName]}" target="_blank" rel="noopener sponsored" class="remedy-card__affiliate">
+    <a href="${AFFILIATE_LINKS[category][remedyName]}" target="_blank" rel="noopener sponsored" class="remedy-card__affiliate">
       <img src="assets/detlef-rathmer-empfehlung.jpg" alt="Detlef Rathmer" class="remedy-card__affiliate-photo" loading="lazy" />
       <span class="remedy-card__affiliate-text">
         <span class="remedy-card__affiliate-label">Meine Empfehlung bei Amazon ansehen</span>
@@ -5913,9 +5944,9 @@ function affiliateBoxHtml(remedyName) {
 
 function heilmittelSection(h, oel, code) {
   const w = text.knowledgeCard.heilmittel;
-  const row = (label, value) => {
+  const row = (label, value, category) => {
     const meaning = value && remedyGlossary[value] ? `<small class="remedy-row__meaning">${remedyGlossary[value]}</small>` : "";
-    const affiliate = value && AFFILIATE_LINKS[value] ? affiliateBoxHtml(value) : "";
+    const affiliate = value && category && AFFILIATE_LINKS[category]?.[value] ? affiliateBoxHtml(category, value) : "";
     return `<li class="remedy-row"><span class="remedy-row__label">${label}</span><span class="remedy-row__value${value ? "" : " remedy-row__value--empty"}">${value || w.pending}${meaning}${affiliate}</span></li>`;
   };
   const passion = h.leidenschaft || {};
@@ -5934,11 +5965,11 @@ function heilmittelSection(h, oel, code) {
       <div class="remedy-level">
         <span class="remedy-level__title remedy-level__title--passion">${w.leidenschaftTitle}</span>
         <ul class="remedy-list">
-          ${row(w.homoeopathie, passion.homoeopathie)}
-          ${row(w.schuessler, passion.schuessler)}
-          ${row(w.bachbluete, passion.bachbluete)}
-          ${row(w.edelstein, passion.edelstein)}
-          ${row(w.tee, passion.tee)}
+          ${row(w.homoeopathie, passion.homoeopathie, "homoeopathie")}
+          ${row(w.schuessler, passion.schuessler, "schuessler")}
+          ${row(w.bachbluete, passion.bachbluete, "bachbluete")}
+          ${row(w.edelstein, passion.edelstein, "edelstein")}
+          ${row(w.tee, passion.tee, "tee")}
         </ul>
         ${
           h.homoeopathieThema
@@ -5949,9 +5980,9 @@ function heilmittelSection(h, oel, code) {
       <div class="remedy-level">
         <span class="remedy-level__title remedy-level__title--wound">${w.wundeTitle}</span>
         <ul class="remedy-list">
-          ${row(w.homoeopathie, wound.homoeopathie)}
-          ${row(w.schuessler, wound.schuessler)}
-          ${row(w.bachbluete, wound.bachbluete)}
+          ${row(w.homoeopathie, wound.homoeopathie, "homoeopathie")}
+          ${row(w.schuessler, wound.schuessler, "schuessler")}
+          ${row(w.bachbluete, wound.bachbluete, "bachbluete")}
         </ul>
         ${
           h.wundeThema
@@ -5966,7 +5997,7 @@ function heilmittelSection(h, oel, code) {
                    <span class="remedy-oil__label">${w.aetherischesOel}</span>
                    <strong>${oel.name}</strong>
                    <p>${oel.wirkung}</p>
-                   ${AFFILIATE_LINKS[oel.name] ? affiliateBoxHtml(oel.name) : ""}
+                   ${AFFILIATE_LINKS.oel[oel.name] ? affiliateBoxHtml("oel", oel.name) : ""}
                  </div>
                </div>`
             : ""
@@ -6030,7 +6061,7 @@ function remedyCardSection(cards) {
               <p>${card.text}</p>
               <small>${card.goal}</small>
               ${card.imagePlan ? `<small class="remedy-card__plan">${card.imagePlan}</small>` : ""}
-              ${AFFILIATE_LINKS[card.title] ? affiliateBoxHtml(card.title) : ""}
+              ${CARD_AFFILIATE_CATEGORY[card.category] && AFFILIATE_LINKS[CARD_AFFILIATE_CATEGORY[card.category]]?.[card.title] ? affiliateBoxHtml(CARD_AFFILIATE_CATEGORY[card.category], card.title) : ""}
             </div>
           </article>
         `).join("")}
@@ -42749,6 +42780,8 @@ function homoeopathiePage() {
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .5rem;">Homöopathische Wirkung</p>
           <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${d.wirkung}</p>
         </div>` : ""}
+        ${AFFILIATE_LINKS.homoeopathie[d.leidenschaftsMittel] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("homoeopathie", d.leidenschaftsMittel)}</div>` : ""}
+        ${(!sameMittel && AFFILIATE_LINKS.homoeopathie[d.wundeMittel]) ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("homoeopathie", d.wundeMittel)}</div>` : ""}
         <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">Anwendung nur in therapeutischer Rücksprache. Die Zuordnungen gelten für den Kerntypus &ndash; im Einzelfall kommen je nach Flügel-, Stress- und Entspannungsrichtung weitere Mittel in Betracht.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtyp-Detail &middot; Heilmittel-Kompass</p>
@@ -42853,8 +42886,8 @@ function mineralstoffePage() {
         <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid color-mix(in srgb, var(--copper) 60%, var(--paper));border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;max-width:640px;">
           <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${d.beschreibung}</p>
         </div>` : ""}
-        ${AFFILIATE_LINKS[d.leidenschaftsSalz] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml(d.leidenschaftsSalz)}</div>` : ""}
-        ${(!sameSalz && AFFILIATE_LINKS[d.wundeSalz]) ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml(d.wundeSalz)}</div>` : ""}
+        ${AFFILIATE_LINKS.schuessler[d.leidenschaftsSalz] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("schuessler", d.leidenschaftsSalz)}</div>` : ""}
+        ${(!sameSalz && AFFILIATE_LINKS.schuessler[d.wundeSalz]) ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("schuessler", d.wundeSalz)}</div>` : ""}
         <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus &ndash; im Einzelfall kommen je nach Fl&uuml;gel-, Stress- und Entspannungsrichtung weitere Mittel in Betracht.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtyp-Detail &middot; Heilmittel-Kompass</p>
@@ -42961,8 +42994,8 @@ function bachbluetenPage() {
         <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid color-mix(in srgb, var(--copper) 60%, var(--paper));border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;max-width:640px;">
           <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${d.beschreibung}</p>
         </div>` : ""}
-        ${AFFILIATE_LINKS[d.leidenschaftsBl] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml(d.leidenschaftsBl)}</div>` : ""}
-        ${(!sameBl && AFFILIATE_LINKS[d.wundeBl]) ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml(d.wundeBl)}</div>` : ""}
+        ${AFFILIATE_LINKS.bachbluete[d.leidenschaftsBl] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("bachbluete", d.leidenschaftsBl)}</div>` : ""}
+        ${(!sameBl && AFFILIATE_LINKS.bachbluete[d.wundeBl]) ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("bachbluete", d.wundeBl)}</div>` : ""}
         <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus &ndash; im Einzelfall kommen je nach Fl&uuml;gel-, Stress- und Entspannungsrichtung weitere Mittel in Betracht.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtyp-Detail &middot; Heilmittel-Kompass</p>
@@ -43131,9 +43164,9 @@ function edelsteinePage() {
                alt="Typ ${e.typ} &ndash; ${e.name}"
                class="psycho-img" />
         </div>
-        ${AFFILIATE_LINKS[e.name] ? `
+        ${AFFILIATE_LINKS.edelstein[e.name] ? `
         <div style="margin-top:1.2rem;">
-          ${affiliateBoxHtml(e.name)}
+          ${affiliateBoxHtml("edelstein", e.name)}
         </div>` : ""}
 
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);">
