@@ -27186,7 +27186,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "448";
+const APP_BUILD = "449";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -33012,6 +33012,15 @@ const AFFILIATE_LINKS = {
   "Grapefruit": "https://www.amazon.de/Heldengr%C3%BCn%C2%AE-Grapefruit-NATURREIN-Schonend-kaltgepresst/dp/B0GTZG8NXW?linkCode=ll2&tag=enneagrammkom-21&linkId=ee37b469b3e4108b6941e43fe88d5d41&language=de_DE&ref_=as_li_ss_tl",
   "Palmarosa": "https://www.amazon.de/dp/B09BVBW9QK?linkCode=ll2&tag=enneagrammkom-21&linkId=090067bf34799a5035d895e586b2d93d&ref_=as_li_ss_tl",
   "Majoran": "https://www.amazon.de/Mumianhua-Majoran%C3%B6l%EF%BC%8C100-Majoran-%C3%84therisches-Diffusoren/dp/B0DSZSX2CW?linkCode=ll2&tag=enneagrammkom-21&linkId=a0ea5ad05dd2bc4458f2dfba1c88a0cf&language=de_DE&ref_=as_li_ss_tl",
+  "Rock Water": "https://www.amazon.de/BACHBLUETEN-Rock-Water-Tropfen-20/dp/B001FD67DA?linkCode=ll2&tag=enneagrammkom-21&linkId=f9135424e3f3c69dce889ae034b796ed&language=de_DE&ref_=as_li_ss_tl",
+  "Chicory": "https://www.amazon.de/BACHBLUETEN-Chicory-Tropfen-20-ml/dp/B001FD474G?linkCode=ll2&tag=enneagrammkom-21&linkId=a9593e39880233078072c5d312b03ea5&language=de_DE&ref_=as_li_ss_tl",
+  "Vervain": "https://www.amazon.de/NELSONS-GMBH-Bachbl%C3%BCte-Vervain-20/dp/B001O1KMYS?linkCode=ll2&tag=enneagrammkom-21&linkId=f561648f0a77fdc66489333b199887b9&language=de_DE&ref_=as_li_ss_tl",
+  "Sweet Chestnut": "https://www.amazon.de/BACHBLUETEN-Sweet-Chestnut-Tropfen-20/dp/B001FD2J4G?linkCode=ll2&tag=enneagrammkom-21&linkId=9e03c10e03c7beadd4c2ab81f0168d7c&language=de_DE&ref_=as_li_ss_tl",
+  "Water Violet": "https://www.amazon.de/BACHBLUETEN-Water-Violet-Tropfen-20/dp/B001FD0KSS?linkCode=ll2&tag=enneagrammkom-21&linkId=d814be82fdcc3f32868bd2d21178dfc0&language=de_DE&ref_=as_li_ss_tl",
+  "Aspen": "https://www.amazon.de/Bachbl%C3%BCten-Aspen-Tropfen-20-ml/dp/B001FD46R4?linkCode=ll2&tag=enneagrammkom-21&linkId=75f02c45e704509cb2108182a828d1c7&language=de_DE&ref_=as_li_ss_tl",
+  "Agrimony": "https://www.amazon.de/Bachbl%C3%BCten-Agrimony-Tropfen-20-ml/dp/B001FD45TI?linkCode=ll2&tag=enneagrammkom-21&linkId=6311d8a184fdde1a899515c616c31da0&language=de_DE&ref_=as_li_ss_tl",
+  "Vine": "https://www.amazon.de/NELSONS-GMBH-Bachbl%C3%BCte-Vine-20/dp/B001O1KMZC?linkCode=ll2&tag=enneagrammkom-21&linkId=7fa0f49179a925d1fad9d001c9f7b57f&language=de_DE&ref_=as_li_ss_tl",
+  "Wild Rose": "https://www.amazon.de/BACHBLUETEN-Wild-Rose-Tropfen-20/dp/B001FD493K?linkCode=ll2&tag=enneagrammkom-21&linkId=e1f17723c29c208c7a2cc7b103125d5a&language=de_DE&ref_=as_li_ss_tl",
 };
 
 function affiliateBoxHtml(remedyName) {
@@ -70073,6 +70082,8 @@ function bachbluetenPage() {
         <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid color-mix(in srgb, var(--copper) 60%, var(--paper));border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;max-width:640px;">
           <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${d.beschreibung}</p>
         </div>` : ""}
+        ${AFFILIATE_LINKS[d.leidenschaftsBl] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml(d.leidenschaftsBl)}</div>` : ""}
+        ${(!sameBl && AFFILIATE_LINKS[d.wundeBl]) ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml(d.wundeBl)}</div>` : ""}
         <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">Anwendung nur in therapeutischer R&uuml;cksprache. Die Zuordnungen gelten f&uuml;r den Kerntypus &ndash; im Einzelfall kommen je nach Fl&uuml;gel-, Stress- und Entspannungsrichtung weitere Mittel in Betracht.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtyp-Detail &middot; Heilmittel-Kompass</p>
