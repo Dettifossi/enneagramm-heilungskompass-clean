@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "446";
+const APP_BUILD = "447";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -3439,6 +3439,7 @@ function oilCard(oel) {
         <p class="oil-card__wound"><strong>${c.woundLabel}:</strong> „${oel.urWunde}“</p>
         <p class="oil-card__effect">${oel.wirkung}</p>
         ${oel.vertiefung ? `<p class="oil-card__text">${oel.vertiefung}</p>` : ""}
+        ${AFFILIATE_LINKS[oel.name] ? affiliateBoxHtml(oel.name) : ""}
       </div>
     </article>
   `;
@@ -5869,6 +5870,13 @@ const AFFILIATE_LINKS = {
   "Rauchquarz": "https://www.amazon.de/Lebensquelle-Plus-Rauchquarz-Edelstein-Anh%C3%A4nger/dp/B0BZ119GZN?linkCode=ll2&tag=enneagrammkom-21&linkId=f28e45161db0c7faa59781d0ff7baa46&language=de_DE&ref_=as_li_ss_tl",
   "Fluorit": "https://www.amazon.de/Lebensquelle-Plus-Edelstein-Anh%C3%A4nger-Regenbogenfluorit/dp/B01N26C7JA?linkCode=ll2&tag=enneagrammkom-21&linkId=f042b0f895c6ac707bd3f2c152aa6761&language=de_DE&ref_=as_li_ss_tl",
   "Karneol": "https://www.amazon.de/Lebensquelle-Plus-Karneol-Edelstein-Anh%C3%A4nger/dp/B01N5WJ5EF?linkCode=ll2&tag=enneagrammkom-21&linkId=396b104243136d95b7ea068fa5c372f0&language=de_DE&ref_=as_li_ss_tl",
+  "Mandarine": "https://www.amazon.de/Heldengr%C3%BCn%C2%AE-Mandarinen%C3%B6l-NATURREIN-Schonend-kaltgepresst/dp/B0GV19CJPX?linkCode=ll2&tag=enneagrammkom-21&linkId=cd48093e3451af34d4b29b932ea8df81&language=de_DE&ref_=as_li_ss_tl",
+  "Zirbelkiefer": "https://www.amazon.de/Emma-Gr%C3%BCn%C2%AE-Zirben%C3%B6l-100-NATURREIN/dp/B0F6DB7XS9?linkCode=ll2&tag=enneagrammkom-21&linkId=b4ca6223fdd832160f74fd0abbcaacf1&language=de_DE&ref_=as_li_ss_tl",
+  "Orange süß": "https://www.amazon.de/Heldengr%C3%BCn%C2%AE-Orangen%C3%B6l-NATURREIN-Kaltgepresst-Orangen/dp/B0CBFVCYL8?linkCode=ll2&tag=enneagrammkom-21&linkId=1d01da69aeaea7991db4d5a906a416d1&language=de_DE&ref_=as_li_ss_tl",
+  "Zedernholz": "https://www.amazon.de/Heldengr%C3%BCn%C2%A9-BIO-Zedernholz%C3%B6l-100-NATURREIN/dp/B0D8JDR1NG?linkCode=ll2&tag=enneagrammkom-21&linkId=77467108b162659c8d42aed8a63f6c70&language=de_DE&ref_=as_li_ss_tl",
+  "Vetiver": "https://www.amazon.de/dp/B07CYYV9BJ?linkCode=ll2&tag=enneagrammkom-21&linkId=1897d653a9bd3f7370f6cf38595574f9&ref_=as_li_ss_tl",
+  "Lavendel fein": "https://www.amazon.de/Heldengr%C3%BCn%C2%AE-BIO-Lavendel%C3%B6l-100-NATURREIN/dp/B09DGFG8KC?linkCode=ll2&tag=enneagrammkom-21&linkId=e4c1e08ba7e4f4e9678c235df635b936&language=de_DE&ref_=as_li_ss_tl",
+  "Grapefruit": "https://www.amazon.de/Heldengr%C3%BCn%C2%AE-Grapefruit-NATURREIN-Schonend-kaltgepresst/dp/B0GTZG8NXW?linkCode=ll2&tag=enneagrammkom-21&linkId=ee37b469b3e4108b6941e43fe88d5d41&language=de_DE&ref_=as_li_ss_tl",
 };
 
 function affiliateBoxHtml(remedyName) {
@@ -5937,6 +5945,7 @@ function heilmittelSection(h, oel, code) {
                    <span class="remedy-oil__label">${w.aetherischesOel}</span>
                    <strong>${oel.name}</strong>
                    <p>${oel.wirkung}</p>
+                   ${AFFILIATE_LINKS[oel.name] ? affiliateBoxHtml(oel.name) : ""}
                  </div>
                </div>`
             : ""
