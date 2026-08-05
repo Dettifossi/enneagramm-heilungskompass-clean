@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "424";
+const APP_BUILD = "425";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -1693,6 +1693,7 @@ text.nav = [
     { route: "kerneberzeugungen", label: "Core Beliefs" },
     { route: "koerperregulation", label: "Body Regulation" },
     { route: "kindheitsperspektiven", label: "Childhood Perspectives" },
+    { route: "laender-der-welt", label: "Countries of the World" },
     { route: "laster-tugenden-affirmationen", label: "Vices · Virtues · Affirmations" },
     { route: "lebensgluck", label: "Life Happiness" },
     { route: "liebesverhalten", label: "Love Behavior of the 9 Types" },
@@ -40713,6 +40714,127 @@ function maennlicheWeiblicheSeitePage() {
   `;
 }
 
+function laenderDerWeltPage() {
+  const REGIONEN = [
+    {
+      region: "Europe",
+      laender: [
+        { name: "Germany", typ: 6, label: "Loyalist · Security Thinker", beschreibung: "Rule-following, thoroughness, and a deep need for security shape the German mentality – from engineering to bureaucracy. Skepticism toward risk and a desire for reliability are very Six-like." },
+        { name: "France", typ: 4, label: "Individualist · Aesthete", beschreibung: "The culture of the Grande Nation thrives on aesthetics, intellect, and a certain melancholic depth – from philosophy to fashion. Pride in the unique and unmistakable is typical of the Four." },
+        { name: "Italy", typ: 7, label: "Enthusiast · Pleasure-Seeker", beschreibung: "La Dolce Vita: enjoyment, improvisation, and an infectious zest for life – even if things get chaotic along the way. The Seven loves the fullness of the moment." },
+        { name: "Spain", typ: 8, label: "Challenger · Passionate", beschreibung: "Pride, honor, and direct passion – from bullfighting to flamenco. Spanish mentality doesn't shy away from open confrontation, but lives it out fully." },
+        { name: "United Kingdom", typ: 1, label: "Perfectionist · Tradition-Keeper", beschreibung: "Etiquette, fair play, and the famous \"understatement\" – British culture places great value on form, decorum, and unwritten rules. \"Keep calm and carry on\" is a deeply One-like attitude." },
+        { name: "Switzerland", typ: 1, label: "Perfectionist · Precision Thinker", beschreibung: "Precision, order, and reliability down to the smallest detail – from the watchmaking industry to direct democracy. Few countries embody the One's desire for correctness so consistently." },
+        { name: "Austria", typ: 9, label: "Peacemaker · Comfort-Seeker", beschreibung: "Coziness (\"Gemütlichkeit\"), a need for harmony, and a certain avoidance of conflict shape the self-image – things are taken slowly rather than confronted head-on." },
+        { name: "Sweden", typ: 9, label: "Peacemaker · Balancer", beschreibung: "Consensus orientation and \"Jantelagen\" – the unwritten rule not to place oneself above others – reveal a deep need for balance and social harmony." },
+        { name: "Norway", typ: 5, label: "Observer · Recluse", beschreibung: "Vast, solitary landscapes and an introverted, nature-connected mentality. Withdrawal and silence are understood here not as a lack, but as richness." },
+        { name: "Finland", typ: 5, label: "Observer · Quiet One", beschreibung: "Reserve, sparseness of words, and the concept of \"sisu\" – quiet, unshakeable endurance. Finnish communication thrives on omission, not addition." },
+        { name: "Denmark", typ: 9, label: "Peacemaker · Hygge Culture", beschreibung: "\"Hygge\" – the feeling of coziness and security – is deeply rooted in Danish culture. Consensus and a relaxed way of being together are central." },
+        { name: "Russia", typ: 8, label: "Challenger · Power-Conscious", beschreibung: "Vast expanses, a history of strength, and a deeply rooted power consciousness shape the national self-image – paired with an intense, often dramatic emotional depth in literature and art." },
+        { name: "Poland", typ: 6, label: "Loyalist · Resilient", beschreibung: "A history full of partitions and occupations has created strong solidarity and a deep need for security – carried by loyalty to family, faith, and nation." },
+        { name: "Greece", typ: 4, label: "Individualist · Tragedian", beschreibung: "Birthplace of tragedy and of a deep emotional culture – pride in a millennia-old past meets a passionate, often melancholic underlying mood." },
+        { name: "Ireland", typ: 4, label: "Individualist · Storyteller", beschreibung: "Poetry, music, and the \"craic\" – convivial storytelling – combine with a deep, often wistful emotional world unmistakable in Irish literature." },
+        { name: "Portugal", typ: 4, label: "Individualist · Yearner", beschreibung: "\"Saudade\" – a deep, wistful longing – is considered by many to be the quintessential Portuguese national feeling. Few concepts capture the essence of the Four so directly." },
+        { name: "Turkey", typ: 8, label: "Challenger · Proud One", beschreibung: "Situated at the crossroads of two continents, Turkish mentality combines a trading spirit with pride, a sense of honor, and a clear, direct leadership culture." },
+      ]
+    },
+    {
+      region: "North America",
+      laender: [
+        { name: "USA", typ: 3, label: "Achiever · Doer", beschreibung: "The \"American Dream\" – rising through achievement, status as proof of one's own worth. Hardly any national culture is as strongly geared toward success, speed, and visibility as the American one." },
+        { name: "Canada", typ: 9, label: "Peacemaker · Mediator", beschreibung: "Politeness, balance, and an internationally recognized role as mediator shape Canada's self-image – conflicts are moderated rather than escalated." },
+        { name: "Mexico", typ: 2, label: "Helper · Family Person", beschreibung: "Family, hospitality, and caring for one another are at the center of Mexican culture – visible in large celebrations, close family bonds, and a warm culture of welcome." },
+      ]
+    },
+    {
+      region: "South America",
+      laender: [
+        { name: "Brazil", typ: 7, label: "Enthusiast · Lover of Life", beschreibung: "Carnival, color, music – Brazil lives an infectious, exuberant zest for life that also knows how to improvise its way through adversity." },
+        { name: "Argentina", typ: 4, label: "Individualist · Dramatist", beschreibung: "The tango as national dance tells of longing, pride, and melancholy – a deeply felt, dramatic emotional culture, proud of its own uniqueness." },
+        { name: "Colombia", typ: 2, label: "Helper · Hospitable One", beschreibung: "Warmth and hospitality toward guests are considered a Colombian trademark – caring for others is at the center of social life." },
+        { name: "Chile", typ: 1, label: "Perfectionist · Order Thinker", beschreibung: "Economic stability and discipline set Chile apart in the region – a country that relies on structure, reliability, and long-term order." },
+      ]
+    },
+    {
+      region: "Asia",
+      laender: [
+        { name: "Japan", typ: 1, label: "Perfectionist · Master of Precision", beschreibung: "Order, discipline, and an aesthetic of perfection run through everyday life and craftsmanship – from the tea ceremony to manufacturing. Few cultures live the One's standard so consistently." },
+        { name: "China", typ: 3, label: "Achiever · Riser", beschreibung: "Economic ascent, status consciousness, and achievement-oriented thinking shape modern Chinese society – combined with a strong ambition to advance oneself and one's family." },
+        { name: "India", typ: 9, label: "Peacemaker · Diversity Mediator", beschreibung: "An enormous diversity of languages, religions, and traditions is held together by a deep spiritual calm – harmony despite contrasts." },
+        { name: "South Korea", typ: 3, label: "Achiever · High Performer", beschreibung: "Educational ambition, status consciousness, and enormous performance pressure shape everyday life – visible also in the international success of K-pop and technology companies." },
+        { name: "Israel", typ: 8, label: "Challenger · Assertive One", beschreibung: "Directness, assertiveness, and a strong will to survive shape the \"Sabra\" mentality – tough on the outside, but deeply connected at the core." },
+        { name: "Saudi Arabia", typ: 1, label: "Perfectionist · Tradition-Keeper", beschreibung: "Strict religious and social order, combined with a deep sense of tradition – rules provide stability and structure here." },
+        { name: "Thailand", typ: 9, label: "Peacemaker · Harmony-Seeker", beschreibung: "The \"Land of Smiles\": conflict avoidance and ease – expressed in the saying \"Mai Pen Rai\", \"never mind\" – shape social interaction." },
+        { name: "Vietnam", typ: 6, label: "Loyalist · Resilient", beschreibung: "A history shaped by wars has deeply rooted vigilance and solidarity – loyalty to community and caution toward outside threats." },
+      ]
+    },
+    {
+      region: "Africa",
+      laender: [
+        { name: "Egypt", typ: 1, label: "Perfectionist · Keeper of Order", beschreibung: "The monumental precision of the pyramids and temples testifies to an ancient sense of order – a deep awareness of structure, measure, and permanence." },
+        { name: "South Africa", typ: 9, label: "Peacemaker · Reconciler", beschreibung: "The rainbow nation and the reconciliation process after apartheid stand for the philosophy of \"Ubuntu\": I am because we are – a deeply Nine-like ideal." },
+        { name: "Nigeria", typ: 8, label: "Challenger · Entrepreneur", beschreibung: "Assertiveness, entrepreneurial spirit, and direct communication shape Africa's largest economy – driven by self-confidence and drive." },
+        { name: "Morocco", typ: 2, label: "Helper · Host", beschreibung: "Hospitality is considered the highest social commandment – welcoming and caring for visitors is deeply anchored in the culture." },
+        { name: "Kenya", typ: 6, label: "Loyalist · Community Thinker", beschreibung: "\"Harambee\" – pulling together for the good of the community – is a central value. Solidarity and mutual reliability carry social cohesion." },
+      ]
+    },
+    {
+      region: "Oceania",
+      laender: [
+        { name: "Australia", typ: 7, label: "Enthusiast · Adventurer", beschreibung: "The \"no worries\" attitude, love of freedom, and a strong outdoor and adventure culture shape the Australian lifestyle – carefree and in search of new experiences." },
+        { name: "New Zealand", typ: 9, label: "Peacemaker · Nature-Connected", beschreibung: "Balance, connection to nature, and a low-conflict culture characterize the country – calm and ease are highly valued." },
+      ]
+    },
+  ];
+
+  const typenFarben = {
+    1: "#c0392b", 2: "#e67e22", 3: "#f1c40f", 4: "#27ae60",
+    5: "#2980b9", 6: "#8e44ad", 7: "#16a085", 8: "#d35400", 9: "#7f8c8d"
+  };
+
+  const regionenHtml = REGIONEN.map(r => `
+    <div class="bl-region">
+      <h2 class="bl-region__title">${r.region}</h2>
+      <div class="bl-grid">
+        ${r.laender.map(l => `
+          <div class="bl-card">
+            <div class="bl-card__badge" style="background:${typenFarben[l.typ] ?? 'var(--copper)'}">Type ${l.typ}</div>
+            <div class="bl-card__body">
+              <h3 class="bl-card__name">${l.name}</h3>
+              <p class="bl-card__label">${l.label}</p>
+              <p class="bl-card__beschreibung">${l.beschreibung}</p>
+            </div>
+          </div>
+        `).join("")}
+      </div>
+    </div>
+  `).join("");
+
+  const fazitHtml = `
+    <div class="bl-fazit">
+      <h2 class="bl-fazit__title">Conclusion</h2>
+      <p>This assignment is a <strong>symbolic tendency</strong>, not a scientific finding – of course, all nine types are represented in every country. Yet history, climate, religion, and collective experience shape cultural patterns that surprisingly often align with one of the nine Enneagram principles.</p>
+      <p>As with individuals, the point here is not to pigeonhole, but to offer a playful lens through which to view cultures and their history anew.</p>
+    </div>
+  `;
+
+  return shell(`
+    ${pageHeader("laender-der-welt")}
+    <div class="schaubild-page">
+      <p class="eyebrow">Diagrams · Culture</p>
+      <h1 class="schaubild-page__title">Countries of the World</h1>
+      <p class="schaubild-page__intro">About 40 well-known countries and their predominant Enneagram principle – a symbolic approach to national mentalities, history, and culture.</p>
+      ${regionenHtml}
+      ${fazitHtml}
+      ${relatedLinks([
+        {route:"schaubilder", label:"Diagrams Overview"},
+        {route:"bundeslaender", label:"German Federal States"},
+        {route:"epochen-weltgeschichte", label:"Epochs of World History"},
+      ])}
+    </div>
+  `);
+}
+
 function bundeslaenderPage() {
   const REGIONEN = [
     {
@@ -43823,6 +43945,7 @@ function subtypeSchaubilderPage() {
     "gesichtsausdruecke": gesichtsausdrueckePage,
     "maennliche-weibliche-seite": maennlicheWeiblicheSeitePage,
     "bundeslaender": bundeslaenderPage,
+    "laender-der-welt": laenderDerWeltPage,
     "stille": stillePage,
     "musik":  musikPage,
     "typenvergleiche": typenvergleichePage,

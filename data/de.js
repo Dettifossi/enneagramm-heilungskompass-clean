@@ -5215,6 +5215,7 @@ export const uiText = {
       { route: "koerperregulation", label: "Körperregulation" },
       { route: "kindheitsperspektiven", label: "Kindheitsperspektiven" },
       { route: "kindliche-temperamente", label: "Kindliche Temperamente" },
+      { route: "laender-der-welt", label: "L\xe4nder der Welt" },
       { route: "laster-tugenden-affirmationen", label: "Laster · Tugenden · Affirmationen" },
       { route: "lebensgluck", label: "Lebensgl\xfcck" },
       { route: "liebesverhalten", label: "Liebesverhalten der 9 Typen" },

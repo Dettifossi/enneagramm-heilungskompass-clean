@@ -15922,6 +15922,7 @@ const uiText = {
       { route: "koerperregulation", label: "K\u00f6rperregulation" },
       { route: "kindheitsperspektiven", label: "Kindheitsperspektiven" },
       { route: "kindliche-temperamente", label: "Kindliche Temperamente" },
+      { route: "laender-der-welt", label: "L\xe4nder der Welt" },
       { route: "laster-tugenden-affirmationen", label: "Laster \u00b7 Tugenden \u00b7 Affirmationen" },
       { route: "lebensgluck", label: "Lebensgl\xfcck" },
       { route: "liebesverhalten", label: "Liebesverhalten der 9 Typen" },
@@ -23521,6 +23522,7 @@ const registerEntries = [
 
   // D
   { term: "Deutsche Bundesl\u00e4nder",   route: "bundeslaender",            description: "Schaubild: Zuordnung der 16 Bundesl\u00e4nder zu den 9 Enneagramm-Prinzipien" },
+  { term: "L\u00e4nder der Welt",         route: "laender-der-welt",         description: "Schaubild: Rund 40 bekannte L\u00e4nder und ihr vorherrschendes Enneagramm-Prinzip" },
   { term: "Diagnose-Test",           route: "start",                    description: "Schnelltest: 9 Profile, Schnelleinstieg zur Typbestimmung" },
   { term: "Dialektische Struktur",   route: "dialektische-struktur",    description: "Schaubild: innere Gegensatzspannung jedes Typs" },
   { term: "Drei Lebenskr\u00e4fte",       route: "drei-lebenskraefte",       description: "Schaubild: aktiv, ausgleichend, passiv &ndash; die drei Grundenergien der 9 Typen" },
@@ -24268,6 +24270,7 @@ const registerEntriesEN = [
   { term: "Burnout", route: "library", description: "Book: Burnout in all 27 subtypes (type-specific profiles)" },
   { term: "Chihuahua", route: "tierlexikon/sx4", description: "Animal archetype of SX4 \u00b7 Typ 4 \u00b7 Heart center" },
   { term: "German Federal States", route: "bundeslaender", description: "Diagram: Assignment of the 16 federal states to the 9 Enneagram principles" },
+  { term: "Countries of the World", route: "laender-der-welt", description: "Diagram: About 40 well-known countries and their predominant Enneagram principle" },
   { term: "Diagnostic Test", route: "start", description: "Quick test: 9 profiles, quick start for type determination" },
   { term: "Dialectical Structure", route: "dialektische-struktur", description: "Diagram: inner tension of opposites of each type" },
   { term: "Three Life Forces", route: "drei-lebenskraefte", description: "Diagram: active, balancing, passive \u2013 the three basic energies of the 9 types" },
@@ -27183,7 +27186,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "436";
+const APP_BUILD = "437";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -70831,6 +70834,127 @@ function maennlicheWeiblicheSeitePage() {
   `;
 }
 
+function laenderDerWeltPage() {
+  const REGIONEN = [
+    {
+      region: "Europa",
+      laender: [
+        { name: "Deutschland", typ: 6, label: "Loyaler \u00b7 Sicherheitsdenker", beschreibung: "Regeltreue, Gr\u00fcndlichkeit und ein tiefes Sicherheitsbed\u00fcrfnis pr\u00e4gen die deutsche Mentalit\u00e4t &ndash; von der Ingenieurskunst bis zur B\u00fcrokratie. Skepsis gegen\u00fcber Risiko und der Wunsch nach Verl\u00e4sslichkeit sind sehr sechserhaft." },
+        { name: "Frankreich", typ: 4, label: "Individualist \u00b7 \u00c4sthet", beschreibung: "Die Kultur der Grande Nation lebt von \u00c4sthetik, Intellekt und einer gewissen melancholischen Tiefe &ndash; von der Philosophie bis zur Mode. Der Stolz auf das Einzigartige, Unverwechselbare ist typisch f\u00fcr die Vier." },
+        { name: "Italien", typ: 7, label: "Lebensfreudiger \u00b7 Genie\u00dfer", beschreibung: "La Dolce Vita: Genuss, Improvisation und eine ansteckende Lebensfreude pr\u00e4gen das Bild &ndash; auch wenn es dabei manchmal chaotisch zugeht. Die Sieben liebt die F\u00fclle des Augenblicks." },
+        { name: "Spanien", typ: 8, label: "Herausforderer \u00b7 Temperamentvoller", beschreibung: "Stolz, Ehre und direkte Leidenschaft &ndash; vom Stierkampf bis zum Flamenco. Die spanische Mentalit\u00e4t scheut die offene Konfrontation nicht, sondern lebt sie aus." },
+        { name: "Gro\u00dfbritannien", typ: 1, label: "Perfektionist \u00b7 Traditionsbewahrer", beschreibung: "Etikette, Fair Play und das ber\u00fchmte \u201eUnderstatement\u201c &ndash; die britische Kultur h\u00e4lt viel von Form, Anstand und ungeschriebenen Regeln. \u201eKeep calm and carry on\u201c ist eine sehr einserhafte Haltung." },
+        { name: "Schweiz", typ: 1, label: "Perfektionist \u00b7 Pr\u00e4zisionsdenker", beschreibung: "Pr\u00e4zision, Ordnung und Zuverl\u00e4ssigkeit bis ins kleinste Detail &ndash; von der Uhrenindustrie bis zur direkten Demokratie. Kaum ein Land verk\u00f6rpert den Einser-Wunsch nach Korrektheit so konsequent." },
+        { name: "\u00d6sterreich", typ: 9, label: "Friedliebender \u00b7 Gem\u00fctlicher", beschreibung: "Gem\u00fctlichkeit, Harmoniebed\u00fcrfnis und eine gewisse Konfliktscheu pr\u00e4gen das Selbstbild &ndash; man l\u00e4sst die Dinge lieber langsam angehen, als sich zu streiten." },
+        { name: "Schweden", typ: 9, label: "Friedliebender \u00b7 Ausgleicher", beschreibung: "Konsensorientierung und das \u201eJantelagen\u201c &ndash; die ungeschriebene Regel, sich nicht \u00fcber andere zu stellen &ndash; zeigen ein tiefes Bed\u00fcrfnis nach Gleichgewicht und sozialer Harmonie." },
+        { name: "Norwegen", typ: 5, label: "Beobachter \u00b7 R\u00fcckz\u00fcgler", beschreibung: "Weite, einsame Landschaften und eine introvertierte, naturverbundene Mentalit\u00e4t. R\u00fcckzug und Stille werden hier nicht als Mangel, sondern als Reichtum verstanden." },
+        { name: "Finnland", typ: 5, label: "Beobachter \u00b7 Stiller", beschreibung: "Zur\u00fcckhaltung, Wortkargheit und das Konzept des \u201eSisu\u201c &ndash; stille, unersch\u00fctterliche Ausdauer. Finnische Kommunikation lebt vom Weglassen, nicht vom Hinzuf\u00fcgen." },
+        { name: "D\u00e4nemark", typ: 9, label: "Friedliebender \u00b7 Hygge-Kultur", beschreibung: "\u201eHygge\u201c &ndash; das Gef\u00fchl von Geborgenheit und Gem\u00fctlichkeit &ndash; ist tief in der d\u00e4nischen Kultur verwurzelt. Konsens und ein entspanntes Miteinander stehen im Mittelpunkt." },
+        { name: "Russland", typ: 8, label: "Herausforderer \u00b7 Machtbewusster", beschreibung: "Weite, Geschichte der St\u00e4rke und ein tief verwurzeltes Machtbewusstsein pr\u00e4gen das nationale Selbstbild &ndash; gepaart mit einer intensiven, oft dramatischen Gef\u00fchlstiefe in Literatur und Kunst." },
+        { name: "Polen", typ: 6, label: "Loyaler \u00b7 Widerstandsf\u00e4higer", beschreibung: "Eine Geschichte voller Teilungen und Besatzungen hat einen starken Zusammenhalt und ein tiefes Sicherheitsbed\u00fcrfnis geschaffen &ndash; getragen von Loyalit\u00e4t zu Familie, Glauben und Nation." },
+        { name: "Griechenland", typ: 4, label: "Individualist \u00b7 Tragiker", beschreibung: "Wiege der Trag\u00f6die und Herkunftsort einer tiefen Gef\u00fchlskultur &ndash; Stolz auf eine jahrtausendealte Vergangenheit trifft auf eine leidenschaftliche, oft melancholische Grundstimmung." },
+        { name: "Irland", typ: 4, label: "Individualist \u00b7 Geschichtenerz\u00e4hler", beschreibung: "Dichtkunst, Musik und der \u201eCraic\u201c &ndash; das gesellige Erz\u00e4hlen &ndash; verbinden sich mit einer tiefen, oft wehm\u00fctigen Gef\u00fchlswelt, die in der irischen Literatur unverkennbar ist." },
+        { name: "Portugal", typ: 4, label: "Individualist \u00b7 Sehnsuchtsvoller", beschreibung: "Die \u201eSaudade\u201c &ndash; eine tiefe, wehm\u00fctige Sehnsucht &ndash; gilt vielen als portugiesisches Nationalgef\u00fchl schlechthin. Kaum ein Konzept trifft die Essenz der Vier so direkt." },
+        { name: "T\u00fcrkei", typ: 8, label: "Herausforderer \u00b7 Stolzer", beschreibung: "An der Kreuzung zweier Kontinente gelegen, verbindet die t\u00fcrkische Mentalit\u00e4t Handelsgeist mit Stolz, Ehrgef\u00fchl und einer klaren, direkten F\u00fchrungskultur." },
+      ]
+    },
+    {
+      region: "Nordamerika",
+      laender: [
+        { name: "USA", typ: 3, label: "Erfolgsorientierter \u00b7 Macher", beschreibung: "Der \u201eAmerican Dream\u201c &ndash; Aufstieg durch Leistung, Status als Beweis des eigenen Werts. Kaum eine Nationalkultur ist so stark auf Erfolg, Tempo und Sichtbarkeit ausgerichtet wie die US-amerikanische." },
+        { name: "Kanada", typ: 9, label: "Friedliebender \u00b7 Vermittler", beschreibung: "H\u00f6flichkeit, Ausgleich und eine international anerkannte Vermittlerrolle pr\u00e4gen das kanadische Selbstbild &ndash; Konflikte werden lieber moderiert als eskaliert." },
+        { name: "Mexiko", typ: 2, label: "Helfer \u00b7 Familienmensch", beschreibung: "Familie, Gastfreundschaft und F\u00fcrsorge f\u00fcreinander stehen im Zentrum der mexikanischen Kultur &ndash; sichtbar in gro\u00dfen Festen, engen Familienbanden und einer warmherzigen Willkommenskultur." },
+      ]
+    },
+    {
+      region: "S\u00fcdamerika",
+      laender: [
+        { name: "Brasilien", typ: 7, label: "Enthusiast \u00b7 Lebensfreudiger", beschreibung: "Karneval, Farben, Musik &ndash; Brasilien lebt eine ansteckende, \u00fcbersch\u00e4umende Lebensfreude, die auch mit Widrigkeiten improvisierend umzugehen wei\u00df." },
+        { name: "Argentinien", typ: 4, label: "Individualist \u00b7 Dramatiker", beschreibung: "Der Tango als Nationaltanz erz\u00e4hlt von Sehnsucht, Stolz und Melancholie &ndash; eine tief empfundene, dramatische Gef\u00fchlskultur, stolz auf das eigene Unverwechselbare." },
+        { name: "Kolumbien", typ: 2, label: "Helfer \u00b7 Gastfreundlicher", beschreibung: "Herzlichkeit und Warmherzigkeit gegen\u00fcber G\u00e4sten gelten als kolumbianisches Markenzeichen &ndash; die F\u00fcrsorge f\u00fcr andere steht im Mittelpunkt des sozialen Lebens." },
+        { name: "Chile", typ: 1, label: "Perfektionist \u00b7 Ordnungsdenker", beschreibung: "Wirtschaftliche Stabilit\u00e4t und Disziplin heben Chile in der Region hervor &ndash; ein Land, das auf Struktur, Verl\u00e4sslichkeit und langfristige Ordnung setzt." },
+      ]
+    },
+    {
+      region: "Asien",
+      laender: [
+        { name: "Japan", typ: 1, label: "Perfektionist \u00b7 Meister der Pr\u00e4zision", beschreibung: "Ordnung, Disziplin und eine \u00c4sthetik der Perfektion durchziehen Alltag und Handwerk &ndash; von der Teezeremonie bis zur Fertigungsindustrie. Kaum eine Kultur lebt den Einser-Anspruch so konsequent." },
+        { name: "China", typ: 3, label: "Erfolgsorientierter \u00b7 Aufsteiger", beschreibung: "Wirtschaftlicher Aufstieg, Statusbewusstsein und Leistungsdenken pr\u00e4gen die moderne chinesische Gesellschaft &ndash; verbunden mit einem starken Ehrgeiz, sich und die Familie voranzubringen." },
+        { name: "Indien", typ: 9, label: "Friedliebender \u00b7 Vielfaltsvermittler", beschreibung: "Eine enorme Vielfalt an Sprachen, Religionen und Traditionen wird zusammengehalten durch eine tiefe spirituelle Gelassenheit &ndash; Harmonie trotz Gegens\u00e4tzen." },
+        { name: "S\u00fcdkorea", typ: 3, label: "Erfolgsorientierter \u00b7 Leistungsstarker", beschreibung: "Bildungsehrgeiz, Statusdenken und ein enormer Leistungsdruck pr\u00e4gen den Alltag &ndash; sichtbar auch im internationalen Erfolg von K-Pop und Technologie-Konzernen." },
+        { name: "Israel", typ: 8, label: "Herausforderer \u00b7 Durchsetzungsstarker", beschreibung: "Direktheit, Durchsetzungsf\u00e4higkeit und ein starker \u00dcberlebenswille pr\u00e4gen die \u201eSabra\u201c-Mentalit\u00e4t &ndash; hart in der Schale, aber mit tiefer Verbundenheit im Kern." },
+        { name: "Saudi-Arabien", typ: 1, label: "Perfektionist \u00b7 Traditionswahrer", beschreibung: "Strenge religi\u00f6se und gesellschaftliche Ordnung, verbunden mit einem tiefen Traditionsbewusstsein &ndash; Regeln geben hier Halt und Struktur." },
+        { name: "Thailand", typ: 9, label: "Friedliebender \u00b7 Harmoniesuchender", beschreibung: "Das \u201eLand des L\u00e4chelns\u201c: Konfliktvermeidung und Gelassenheit &ndash; ausgedr\u00fcckt im Sprichwort \u201eMai Pen Rai\u201c, \u201emacht nichts\u201c &ndash; pr\u00e4gen den gesellschaftlichen Umgang." },
+        { name: "Vietnam", typ: 6, label: "Loyaler \u00b7 Widerstandsf\u00e4higer", beschreibung: "Eine von Kriegen gepr\u00e4gte Geschichte hat Wachsamkeit und Zusammenhalt tief verwurzelt &ndash; Loyalit\u00e4t zur Gemeinschaft und Vorsicht gegen\u00fcber Bedrohungen von au\u00dfen." },
+      ]
+    },
+    {
+      region: "Afrika",
+      laender: [
+        { name: "\u00c4gypten", typ: 1, label: "Perfektionist \u00b7 Bewahrer der Ordnung", beschreibung: "Die monumentale Pr\u00e4zision der Pyramiden und Tempel zeugt von einem uralten Ordnungssinn &ndash; ein tiefes Bewusstsein f\u00fcr Struktur, Ma\u00df und Dauer." },
+        { name: "S\u00fcdafrika", typ: 9, label: "Friedliebender \u00b7 Vers\u00f6hner", beschreibung: "Die Regenbogennation und der Vers\u00f6hnungsprozess nach der Apartheid stehen f\u00fcr die Philosophie des \u201eUbuntu\u201c: Ich bin, weil wir sind &ndash; ein zutiefst neunerhaftes Ideal." },
+        { name: "Nigeria", typ: 8, label: "Herausforderer \u00b7 Unternehmer", beschreibung: "Durchsetzungskraft, Unternehmergeist und direkte Kommunikation pr\u00e4gen die gr\u00f6\u00dfte Wirtschaft Afrikas &ndash; angetrieben von Selbstbewusstsein und Tatkraft." },
+        { name: "Marokko", typ: 2, label: "Helfer \u00b7 Gastgeber", beschreibung: "Gastfreundschaft gilt als oberstes gesellschaftliches Gebot &ndash; Besucher willkommen zu hei\u00dfen und f\u00fcr sie zu sorgen, ist tief in der Kultur verankert." },
+        { name: "Kenia", typ: 6, label: "Loyaler \u00b7 Gemeinschaftsdenker", beschreibung: "\u201eHarambee\u201c &ndash; gemeinsames Anpacken f\u00fcr das Wohl der Gemeinschaft &ndash; ist ein zentraler Wert. Zusammenhalt und gegenseitige Verl\u00e4sslichkeit tragen den gesellschaftlichen Zusammenhalt." },
+      ]
+    },
+    {
+      region: "Ozeanien",
+      laender: [
+        { name: "Australien", typ: 7, label: "Enthusiast \u00b7 Abenteurer", beschreibung: "Die \u201eNo worries\u201c-Attit\u00fcde, Freiheitsliebe und eine ausgepr\u00e4gte Outdoor- und Abenteuerkultur pr\u00e4gen den australischen Lebensstil &ndash; unbeschwert und auf der Suche nach neuen Erfahrungen." },
+        { name: "Neuseeland", typ: 9, label: "Friedliebender \u00b7 Naturverbundener", beschreibung: "Ausgleich, Naturverbundenheit und eine geringe Konfliktkultur zeichnen das Land aus &ndash; Ruhe und Gelassenheit stehen hoch im Kurs." },
+      ]
+    },
+  ];
+
+  const typenFarben = {
+    1: "#c0392b", 2: "#e67e22", 3: "#f1c40f", 4: "#27ae60",
+    5: "#2980b9", 6: "#8e44ad", 7: "#16a085", 8: "#d35400", 9: "#7f8c8d"
+  };
+
+  const regionenHtml = REGIONEN.map(r => `
+    <div class="bl-region">
+      <h2 class="bl-region__title">${r.region}</h2>
+      <div class="bl-grid">
+        ${r.laender.map(l => `
+          <div class="bl-card">
+            <div class="bl-card__badge" style="background:${typenFarben[l.typ] ?? 'var(--copper)'}">Typ ${l.typ}</div>
+            <div class="bl-card__body">
+              <h3 class="bl-card__name">${l.name}</h3>
+              <p class="bl-card__label">${l.label}</p>
+              <p class="bl-card__beschreibung">${l.beschreibung}</p>
+            </div>
+          </div>
+        `).join("")}
+      </div>
+    </div>
+  `).join("");
+
+  const fazitHtml = `
+    <div class="bl-fazit">
+      <h2 class="bl-fazit__title">Fazit</h2>
+      <p>Diese Zuordnung ist eine <strong>symbolische Tendenz</strong>, kein wissenschaftlicher Befund &ndash; nat\u00fcrlich sind in jedem Land alle neun Typen vertreten. Doch Geschichte, Klima, Religion und kollektive Erfahrungen pr\u00e4gen kulturelle Muster, die sich verbl\u00fcffend oft in einem der neun Enneagramm-Prinzipien wiedererkennen lassen.</p>
+      <p>Genau wie beim Einzelnen gilt auch hier: Es geht nicht um Schubladendenken, sondern um eine spielerische Linse, durch die man Kulturen und ihre Geschichte neu betrachten kann.</p>
+    </div>
+  `;
+
+  return shell(`
+    ${pageHeader("laender-der-welt")}
+    <div class="schaubild-page">
+      <p class="eyebrow">Schaubilder \u00b7 Kultur</p>
+      <h1 class="schaubild-page__title">L\u00e4nder der Welt</h1>
+      <p class="schaubild-page__intro">Rund 40 bekannte L\u00e4nder und ihr vorherrschendes Enneagramm-Prinzip &ndash; eine symbolische Ann\u00e4herung an nationale Mentalit\u00e4ten, Geschichte und Kultur.</p>
+      ${regionenHtml}
+      ${fazitHtml}
+      ${relatedLinks([
+        {route:"schaubilder", label:"Schaubilder-\u00dcbersicht"},
+        {route:"bundeslaender", label:"Deutsche Bundesl\u00e4nder"},
+        {route:"epochen-weltgeschichte", label:"Epochen der Weltgeschichte"},
+      ])}
+    </div>
+  `);
+}
+
 function bundeslaenderPage() {
   const REGIONEN = [
     {
@@ -73867,6 +73991,7 @@ function render() {
     "gesichtsausdruecke": gesichtsausdrueckePage,
     "maennliche-weibliche-seite": maennlicheWeiblicheSeitePage,
     "bundeslaender": bundeslaenderPage,
+    "laender-der-welt": laenderDerWeltPage,
     "stille": stillePage,
     "musik":  musikPage,
     "typenvergleiche": typenvergleichePage,

@@ -90,6 +90,7 @@ export const registerEntries = [
 
   // D
   { term: "Deutsche Bundesländer",   route: "bundeslaender",            description: "Schaubild: Zuordnung der 16 Bundesländer zu den 9 Enneagramm-Prinzipien" },
+  { term: "Länder der Welt",         route: "laender-der-welt",         description: "Schaubild: Rund 40 bekannte Länder und ihr vorherrschendes Enneagramm-Prinzip" },
   { term: "Diagnose-Test",           route: "start",                    description: "Schnelltest: 9 Profile, Schnelleinstieg zur Typbestimmung" },
   { term: "Dialektische Struktur",   route: "dialektische-struktur",    description: "Schaubild: innere Gegensatzspannung jedes Typs" },
   { term: "Drei Lebenskräfte",       route: "drei-lebenskraefte",       description: "Schaubild: aktiv, ausgleichend, passiv &ndash; die drei Grundenergien der 9 Typen" },
@@ -837,6 +838,7 @@ export const registerEntriesEN = [
   { term: "Burnout", route: "library", description: "Book: Burnout in all 27 subtypes (type-specific profiles)" },
   { term: "Chihuahua", route: "tierlexikon/sx4", description: "Animal archetype of SX4 · Typ 4 · Heart center" },
   { term: "German Federal States", route: "bundeslaender", description: "Diagram: Assignment of the 16 federal states to the 9 Enneagram principles" },
+  { term: "Countries of the World", route: "laender-der-welt", description: "Diagram: About 40 well-known countries and their predominant Enneagram principle" },
   { term: "Diagnostic Test", route: "start", description: "Quick test: 9 profiles, quick start for type determination" },
   { term: "Dialectical Structure", route: "dialektische-struktur", description: "Diagram: inner tension of opposites of each type" },
   { term: "Three Life Forces", route: "drei-lebenskraefte", description: "Diagram: active, balancing, passive – the three basic energies of the 9 types" },
