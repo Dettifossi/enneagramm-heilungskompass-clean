@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "428";
+const APP_BUILD = "429";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -9819,6 +9819,7 @@ const AFFILIATE_LINKS = {
     "Meditation Mat": "https://www.amazon.com/dp/B08WJP9FNB?tag=enneagramcomp-20",
     "Meditation Cushion": "https://www.amazon.com/dp/B00AFEV8S4?tag=enneagramcomp-20",
     "Meditation Bench": "https://www.amazon.com/dp/B0CT7STPL5?tag=enneagramcomp-20",
+    "Singing Bowl": "https://www.amazon.com/dp/B00K9HHFZ2?tag=enneagramcomp-20",
   },
   tee: {
     "Lemon Balm Tea": "https://www.amazon.com/dp/B0089VPTZ8?tag=enneagramcomp-20",
@@ -9847,6 +9848,7 @@ function affiliateBoxHtml(category, remedyName) {
 const MEDITATIONS_SITZHILFEN = [
   { name: "Meditation Mat", subtitle: "Zabuton", eignung: "The foundation for everyone: it lies flat on the floor and cushions the knees and ankles — whether or not a cushion or bench is placed on top. Best suited for beginners and anyone sitting on a hard floor (parquet, tile)." },
   { name: "Meditation Cushion", subtitle: "Zafu", eignung: "Best for those who like to sit cross-legged or in a lotus position: it lifts the hips above the knees, allowing an upright, relaxed back. Well suited if your hips are already reasonably flexible." },
+  { name: "Singing Bowl", subtitle: "Therapy-Grade Sound Bowl", eignung: "Best for those who want to deepen their stillness practice through sound: the tone of a genuine therapy-grade singing bowl calms the nervous system and marks the beginning and end of the practice. Especially well suited for anyone working with body work, sound massage, or subtle-energy practices." },
   { name: "Meditation Bench", subtitle: "Seiza", eignung: "Best for those who find cross-legged sitting uncomfortable or who have knee, hip or back issues: sitting kneeling on the bench takes pressure off the knees while the back stays upright with ease — comfortable even for beginners." },
 ];
 
