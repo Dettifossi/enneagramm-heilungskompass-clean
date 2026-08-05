@@ -3809,6 +3809,7 @@ const se2 = {
           field: "Herz\u00f6ffnung, Sanftheit und Selbstliebe",
           text: "Der Rosenquarz ist der zart-rosa Stein des Herzens schlechthin und seit jeher mit Liebe, Sanftheit und Vers\u00f6hnung verbunden. Er \u00f6ffnet das Herz f\u00fcr Mitgef\u00fchl, W\u00e4rme und Vergebung \u2013 und richtet diese liebevolle Haltung ausdr\u00fccklich auch nach innen, auf einen selbst. Traditionell hilft er, alten Kummer und Verletzungen sanft zu l\u00f6sen und wieder Vertrauen in N\u00e4he zu fassen. F\u00fcr die Zwei, deren Liebe fast immer nach au\u00dfen str\u00f6mt, ist er eine stille Erinnerung an die eigene Bed\u00fcrftigkeit. Er n\u00e4hrt die Selbstliebe und schenkt die Erlaubnis, auch selbst zu empfangen, ohne sich erst n\u00fctzlich machen zu m\u00fcssen.",
           goal: "Als energetisches Werkzeug \u00f6ffnet er das Herz f\u00fcr liebevolle Selbstannahme \u2013 F\u00fcrsorge, die aus dem Vollen kommt statt aus Bed\u00fcrftigkeit.",
+          affiliateUrl: "https://link.amazon/B00SUkNTI",
         },
         {
           title: "Rosenbl\u00fctentee",
@@ -6389,6 +6390,7 @@ const so2 = {
           field: "Herz\u00f6ffnung, Sanftheit und Selbstliebe",
           text: "Der Rosenquarz ist der zart-rosa Stein des Herzens schlechthin und seit jeher mit Liebe, Sanftheit und Vers\u00f6hnung verbunden. Er \u00f6ffnet das Herz f\u00fcr Mitgef\u00fchl, W\u00e4rme und Vergebung \u2013 und richtet diese liebevolle Haltung ausdr\u00fccklich auch nach innen, auf einen selbst. Traditionell hilft er, alten Kummer und Verletzungen sanft zu l\u00f6sen und wieder Vertrauen in N\u00e4he zu fassen. F\u00fcr die Zwei, deren Liebe fast immer nach au\u00dfen str\u00f6mt, ist er eine stille Erinnerung an die eigene Bed\u00fcrftigkeit. Er n\u00e4hrt die Selbstliebe und schenkt die Erlaubnis, auch selbst zu empfangen, ohne sich erst n\u00fctzlich machen zu m\u00fcssen.",
           goal: "Als energetisches Werkzeug \u00f6ffnet er das Herz f\u00fcr liebevolle Selbstannahme \u2013 F\u00fcrsorge, die aus dem Vollen kommt statt aus Bed\u00fcrftigkeit.",
+          affiliateUrl: "https://link.amazon/B00SUkNTI",
         },
         {
           title: "Rosenbl\u00fctentee",
@@ -8950,6 +8952,7 @@ const sx2 = {
           field: "Herz\u00f6ffnung, Sanftheit und Selbstliebe",
           text: "Der Rosenquarz ist der zart-rosa Stein des Herzens schlechthin und seit jeher mit Liebe, Sanftheit und Vers\u00f6hnung verbunden. Er \u00f6ffnet das Herz f\u00fcr Mitgef\u00fchl, W\u00e4rme und Vergebung \u2013 und richtet diese liebevolle Haltung ausdr\u00fccklich auch nach innen, auf einen selbst. Traditionell hilft er, alten Kummer und Verletzungen sanft zu l\u00f6sen und wieder Vertrauen in N\u00e4he zu fassen. F\u00fcr die Zwei, deren Liebe fast immer nach au\u00dfen str\u00f6mt, ist er eine stille Erinnerung an die eigene Bed\u00fcrftigkeit. Er n\u00e4hrt die Selbstliebe und schenkt die Erlaubnis, auch selbst zu empfangen, ohne sich erst n\u00fctzlich machen zu m\u00fcssen.",
           goal: "Als energetisches Werkzeug \u00f6ffnet er das Herz f\u00fcr liebevolle Selbstannahme \u2013 F\u00fcrsorge, die aus dem Vollen kommt statt aus Bed\u00fcrftigkeit.",
+          affiliateUrl: "https://link.amazon/B00SUkNTI",
         },
         {
           title: "Rosenbl\u00fctentee",
@@ -33109,6 +33112,14 @@ function remedyCardSection(cards) {
               <p>${card.text}</p>
               <small>${card.goal}</small>
               ${card.imagePlan ? `<small class="remedy-card__plan">${card.imagePlan}</small>` : ""}
+              ${card.affiliateUrl ? `
+              <a href="${card.affiliateUrl}" target="_blank" rel="noopener sponsored" class="remedy-card__affiliate">
+                <img src="assets/detlef-rathmer-empfehlung.jpg" alt="Detlef Rathmer" class="remedy-card__affiliate-photo" loading="lazy" />
+                <span class="remedy-card__affiliate-text">
+                  <span class="remedy-card__affiliate-label">Meine Empfehlung bei Amazon ansehen</span>
+                  <span class="remedy-card__affiliate-note">Werbelink \u00b7 Amazon-Partnerprogramm</span>
+                </span>
+              </a>` : ""}
             </div>
           </article>
         `).join("")}

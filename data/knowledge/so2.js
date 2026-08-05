@@ -187,6 +187,7 @@ export const so2 = {
           field: "Herzöffnung, Sanftheit und Selbstliebe",
           text: "Der Rosenquarz ist der zart-rosa Stein des Herzens schlechthin und seit jeher mit Liebe, Sanftheit und Versöhnung verbunden. Er öffnet das Herz für Mitgefühl, Wärme und Vergebung – und richtet diese liebevolle Haltung ausdrücklich auch nach innen, auf einen selbst. Traditionell hilft er, alten Kummer und Verletzungen sanft zu lösen und wieder Vertrauen in Nähe zu fassen. Für die Zwei, deren Liebe fast immer nach außen strömt, ist er eine stille Erinnerung an die eigene Bedürftigkeit. Er nährt die Selbstliebe und schenkt die Erlaubnis, auch selbst zu empfangen, ohne sich erst nützlich machen zu müssen.",
           goal: "Als energetisches Werkzeug öffnet er das Herz für liebevolle Selbstannahme – Fürsorge, die aus dem Vollen kommt statt aus Bedürftigkeit.",
+          affiliateUrl: "https://link.amazon/B00SUkNTI",
         },
         {
           title: "Rosenblütentee",

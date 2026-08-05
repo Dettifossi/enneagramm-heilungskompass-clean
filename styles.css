@@ -1231,6 +1231,45 @@ textarea:focus {
   font-weight: 800;
 }
 
+.remedy-card__affiliate {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.6rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid rgba(126, 85, 49, 0.3);
+  border-radius: 10px;
+  background: rgba(126, 85, 49, 0.06);
+  text-decoration: none;
+}
+
+.remedy-card__affiliate-photo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid rgba(126, 85, 49, 0.35);
+}
+
+.remedy-card__affiliate-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.remedy-card__affiliate-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.remedy-card__affiliate-note {
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
 /* Ätherische Öle – eigene Rubrik */
 .oil-grid {
   display: grid;

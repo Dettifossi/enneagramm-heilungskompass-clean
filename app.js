@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "441";
+const APP_BUILD = "442";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -5976,6 +5976,14 @@ function remedyCardSection(cards) {
               <p>${card.text}</p>
               <small>${card.goal}</small>
               ${card.imagePlan ? `<small class="remedy-card__plan">${card.imagePlan}</small>` : ""}
+              ${card.affiliateUrl ? `
+              <a href="${card.affiliateUrl}" target="_blank" rel="noopener sponsored" class="remedy-card__affiliate">
+                <img src="assets/detlef-rathmer-empfehlung.jpg" alt="Detlef Rathmer" class="remedy-card__affiliate-photo" loading="lazy" />
+                <span class="remedy-card__affiliate-text">
+                  <span class="remedy-card__affiliate-label">Meine Empfehlung bei Amazon ansehen</span>
+                  <span class="remedy-card__affiliate-note">Werbelink · Amazon-Partnerprogramm</span>
+                </span>
+              </a>` : ""}
             </div>
           </article>
         `).join("")}
