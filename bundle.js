@@ -27186,7 +27186,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "439";
+const APP_BUILD = "440";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -71073,6 +71073,14 @@ function laenderzuordnungenPage() {
     <div class="schaubild-page">
       <p class="eyebrow">Wissen \u00b7 Kultur</p>
       <h1 class="schaubild-page__title">L\u00e4nderzuordnungen &ndash; Alle L\u00e4nder der Welt</h1>
+
+      <div style="max-width:420px;margin:0 auto 1.4rem;border-radius:16px;overflow:hidden;box-shadow:0 8px 28px rgba(0,0,0,0.25);">
+        <video autoplay loop muted playsinline preload="auto" style="display:block;width:100%;height:auto;" aria-label="Rotierende Erde (NASA Blue Marble, gemeinfrei)">
+          <source src="./assets/video/earth-rotating-nasa.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <p style="text-align:center;font-size:0.72rem;color:var(--muted);margin:-0.8rem 0 1.2rem;">Erdrotation: NASA Blue Marble Next Generation &ndash; gemeinfrei (Public Domain)</p>
+
       <p class="schaubild-page__intro">Rund 107 L\u00e4nder und ihr vorherrschendes Enneagramm-Prinzip &ndash; eine begr\u00fcndete, aber bewusst perspektivische Ann\u00e4herung an nationale Mentalit\u00e4ten, Geschichte und Kultur.</p>
 
       <div style="background:var(--paper-deep,#ede8dc);border-left:3px solid var(--copper);border-radius:0 10px 10px 0;padding:1.1rem 1.3rem;margin:1.2rem 0;">
