@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "452";
+const APP_BUILD = "453";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -5871,6 +5871,7 @@ const CARD_AFFILIATE_CATEGORY = {
   "Bachblüte": "bachbluete",
   "Mineralstoff": "schuessler",
   "Wundenmittel": "homoeopathie",
+  "Tee": "tee",
 };
 
 const AFFILIATE_LINKS = {
@@ -5939,6 +5940,17 @@ const AFFILIATE_LINKS = {
     "Meditationsmatte": "https://www.amazon.de/Lotuscrafts-Meditationsmatte-Zabuton-Standard-Meditationskissen/dp/B00D8E739Q?linkCode=ll2&tag=enneagrammkom-21&linkId=5ed08fee6c47cc4289c1df05d6140301&ref_=as_li_ss_tl",
     "Meditationskissen": "https://www.amazon.de/Lotuscrafts-Yogakissen-Meditationskissen-Extra-Hoch/dp/B01N4DQ30X?linkCode=ll2&tag=enneagrammkom-21&linkId=11ea45ee43d03099e881252afcd938b7&language=de_DE&ref_=as_li_ss_tl",
     "Meditationsbank": "https://www.amazon.de/Bodhi-Meditationsbank-LHOTSE-Buche-ge%C3%B6lt/dp/B08V5FM48T?linkCode=ll2&tag=enneagrammkom-21&linkId=a46e46761384c0c7cdeb46f4d90b9f2c&ref_=as_li_ss_tl",
+  },
+  tee: {
+    "Melissentee": "https://www.amazon.de/Melissentee-Melissenbl%C3%A4tter-geschnitten-vom-Achterhof/dp/B08522M91G?linkCode=ll2&tag=enneagrammkom-21&linkId=20a5a7924414af34e3e287f92aae9356&language=de_DE&ref_=as_li_ss_tl",
+    "Rosenblütentee": "https://www.amazon.de/Alpi-Nature-Rosenbl%C3%BCten-Rosenknospen-Tee-Rosenbl%C3%BCtentee-Rosentee/dp/B07WNJLKQJ?linkCode=ll2&tag=enneagrammkom-21&linkId=578fd31664949093041a6b57d81d2d00&language=de_DE&ref_=as_li_ss_tl",
+    "Rosmarintee": "https://www.amazon.de/Bio-Rosmarin-geschnitten-Rosmarin-Tee-vom-Achterhof-Bio-Gew%C3%BCrze/dp/B071JK4XBK?linkCode=ll2&tag=enneagrammkom-21&linkId=b8a0dea0753415072943cf59f8a43622&language=de_DE&ref_=as_li_ss_tl",
+    "Weidenröschentee": "https://www.amazon.de/250-Weidenr%C3%B6schen-kleinbl%C3%BCtig-orig-vom-Achterhof/dp/B00MY9TLCI?linkCode=ll2&tag=enneagrammkom-21&linkId=7a1123732564035ca53489f9ada9633c&language=de_DE&ref_=as_li_ss_tl",
+    "Haferkrauttee": "https://www.amazon.de/100g-Gr%C3%BCner-Hafer-Tee-geschnitten-Nat%C3%BCrlich/dp/B012COAT3E?linkCode=ll2&tag=enneagrammkom-21&linkId=d027a1f4a3025042715a1c9ec50ee103&language=de_DE&ref_=as_li_ss_tl",
+    "Kamillenblütentee": "https://www.amazon.de/Kamillentee-lose-Kamillenbl%C3%BCten-Tee-getrocknet-Kamille/dp/B0774LYCW9?linkCode=ll2&tag=enneagrammkom-21&linkId=e74ab6065356acf2b1f52101ee6b30a0&language=de_DE&ref_=as_li_ss_tl",
+    "Pfefferminztee": "https://www.amazon.de/Pfefferminzbl%C3%A4tter-getrocknet-geschnitten-Pfefferminz-Tee-Kr%C3%A4utertee/dp/B00MNNW3N4?linkCode=ll2&tag=enneagrammkom-21&linkId=8974284e49f7a023323e476866b7678a&language=de_DE&ref_=as_li_ss_tl",
+    "Ingwertee": "https://www.amazon.de/Ingwerwurzel-geschnitten-getrocknet-Kr%C3%A4utertee-vom-Achterhof/dp/B01C06ZSKS?linkCode=ll2&tag=enneagrammkom-21&linkId=14cec56b79963ac6f69be8c556fdc483&language=de_DE&ref_=as_li_ss_tl",
+    "Fencheltee": "https://www.amazon.de/Fenchelsamen-Fencheltee-nat%C3%BCrlich-vom-Achterhof/dp/B075HXXPJP?linkCode=ll2&tag=enneagrammkom-21&linkId=1eea7f36bcd5656d9b2c62382fbdaa79&language=de_DE&ref_=as_li_ss_tl",
   },
 };
 
@@ -43107,6 +43119,7 @@ function heilteesPage() {
         <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid color-mix(in srgb, var(--copper) 60%, var(--paper));border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;max-width:640px;">
           <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${d.beschreibung}</p>
         </div>` : ""}
+        ${AFFILIATE_LINKS.tee[d.tee] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("tee", d.tee)}</div>` : ""}
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtyp-Detail &middot; Heilmittel-Kompass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
