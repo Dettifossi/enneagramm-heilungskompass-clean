@@ -27186,7 +27186,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "453";
+const APP_BUILD = "454";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -32996,6 +32996,7 @@ function knowledgeCard(item) {
 const MEDITATIONS_SITZHILFEN = [
   { name: "Meditationsmatte", subtitle: "Zabuton", eignung: "Die Basis f\u00fcr alle: Sie wird flach auf den Boden gelegt und d\u00e4mpft Knie und Fu\u00dfgelenke \u2013 egal ob zus\u00e4tzlich ein Kissen oder eine Bank darauf steht. Besonders geeignet f\u00fcr Einsteiger und f\u00fcr alle, die auf hartem Boden (Parkett, Fliesen) sitzen." },
   { name: "Meditationskissen", subtitle: "Zafu", eignung: "Am besten f\u00fcr alle, die im Schneider- oder Lotussitz sitzen m\u00f6chten: Es hebt die H\u00fcfte \u00fcber die Knie an und erm\u00f6glicht einen aufrechten, entspannten R\u00fccken. Gut geeignet, wenn die H\u00fcften bereits einigerma\u00dfen beweglich sind." },
+  { name: "Klangschale", subtitle: "Peter Hess Therapie-Klangschale", eignung: "Am besten f\u00fcr alle, die ihre Stille-Praxis durch Klang vertiefen m\u00f6chten: Der Ton einer echten Therapie-Klangschale wirkt beruhigend auf das Nervensystem und markiert Anfang und Ende der \u00dcbung. Besonders geeignet f\u00fcr alle, die mit K\u00f6rperarbeit, Klangmassage oder feinstofflicher Vertiefung arbeiten." },
   { name: "Meditationsbank", subtitle: "Seiza", eignung: "Am besten f\u00fcr alle, denen der Schneidersitz unangenehm ist oder die Knie-, H\u00fcft- oder R\u00fcckenprobleme haben: Im Fersensitz auf der Bank werden die Knie entlastet und der R\u00fccken bleibt m\u00fchelos aufrecht \u2013 auch f\u00fcr unge\u00fcbte Sitzende bequem." },
 ];
 
@@ -33073,6 +33074,7 @@ const AFFILIATE_LINKS = {
     "Meditationsmatte": "https://www.amazon.de/Lotuscrafts-Meditationsmatte-Zabuton-Standard-Meditationskissen/dp/B00D8E739Q?linkCode=ll2&tag=enneagrammkom-21&linkId=5ed08fee6c47cc4289c1df05d6140301&ref_=as_li_ss_tl",
     "Meditationskissen": "https://www.amazon.de/Lotuscrafts-Yogakissen-Meditationskissen-Extra-Hoch/dp/B01N4DQ30X?linkCode=ll2&tag=enneagrammkom-21&linkId=11ea45ee43d03099e881252afcd938b7&language=de_DE&ref_=as_li_ss_tl",
     "Meditationsbank": "https://www.amazon.de/Bodhi-Meditationsbank-LHOTSE-Buche-ge%C3%B6lt/dp/B08V5FM48T?linkCode=ll2&tag=enneagrammkom-21&linkId=a46e46761384c0c7cdeb46f4d90b9f2c&ref_=as_li_ss_tl",
+    "Klangschale": "https://www.amazon.de/KLANGSCHALE-Klangmassage-SET-BECKENSCHALE-Reibekl%C3%B6ppel-Therapie-Kl%C3%B6ppel/dp/B076F92JDF?linkCode=ll2&tag=enneagrammkom-21&linkId=4cc9bc3dc6a4b436b8c8d42aad61adc0&language=de_DE&ref_=as_li_ss_tl",
   },
   tee: {
     "Melissentee": "https://www.amazon.de/Melissentee-Melissenbl%C3%A4tter-geschnitten-vom-Achterhof/dp/B08522M91G?linkCode=ll2&tag=enneagrammkom-21&linkId=20a5a7924414af34e3e287f92aae9356&language=de_DE&ref_=as_li_ss_tl",
