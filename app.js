@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "447";
+const APP_BUILD = "448";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -5877,6 +5877,8 @@ const AFFILIATE_LINKS = {
   "Vetiver": "https://www.amazon.de/dp/B07CYYV9BJ?linkCode=ll2&tag=enneagrammkom-21&linkId=1897d653a9bd3f7370f6cf38595574f9&ref_=as_li_ss_tl",
   "Lavendel fein": "https://www.amazon.de/Heldengr%C3%BCn%C2%AE-BIO-Lavendel%C3%B6l-100-NATURREIN/dp/B09DGFG8KC?linkCode=ll2&tag=enneagrammkom-21&linkId=e4c1e08ba7e4f4e9678c235df635b936&language=de_DE&ref_=as_li_ss_tl",
   "Grapefruit": "https://www.amazon.de/Heldengr%C3%BCn%C2%AE-Grapefruit-NATURREIN-Schonend-kaltgepresst/dp/B0GTZG8NXW?linkCode=ll2&tag=enneagrammkom-21&linkId=ee37b469b3e4108b6941e43fe88d5d41&language=de_DE&ref_=as_li_ss_tl",
+  "Palmarosa": "https://www.amazon.de/dp/B09BVBW9QK?linkCode=ll2&tag=enneagrammkom-21&linkId=090067bf34799a5035d895e586b2d93d&ref_=as_li_ss_tl",
+  "Majoran": "https://www.amazon.de/Mumianhua-Majoran%C3%B6l%EF%BC%8C100-Majoran-%C3%84therisches-Diffusoren/dp/B0DSZSX2CW?linkCode=ll2&tag=enneagrammkom-21&linkId=a0ea5ad05dd2bc4458f2dfba1c88a0cf&language=de_DE&ref_=as_li_ss_tl",
 };
 
 function affiliateBoxHtml(remedyName) {
