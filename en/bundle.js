@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "427";
+const APP_BUILD = "428";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -4152,6 +4152,7 @@ function oilCard(oel) {
         <p class="oil-card__wound"><strong>Core Wound:</strong> “${oel.urWunde}”</p>
         <p class="oil-card__effect">${wirkung}</p>
         ${vertiefung ? `<p class="oil-card__text">${vertiefung}</p>` : ""}
+        ${AFFILIATE_LINKS.oel[name] ? affiliateBoxHtml("oel", name) : ""}
       </div>
     </article>
   `;
@@ -9744,14 +9745,120 @@ const OILS_EN = {
   9: { name: "Grapefruit", wirkung: "The bittersweet wake-up call for willpower and presence.", image: "../assets/heilmittel/aetherische-oele/typ-9.jpg", vertiefung: "The Nine forgets herself, merges with others and easily sleeps through her own significance — 'I play no role anyway'. Grapefruit is bitter-fresh, clarifying and activating; it lifts inertia and awakens the will. Its sparkling scent works like a friendly but clear wake-up call that brings the Nine out of inner twilight. Where self-forgetting prevails, grapefruit sharpens the sense of one's own presence and willpower. So the Nine steps perceptibly into the picture: I am here, and I matter." },
 };
 
+const CARD_AFFILIATE_CATEGORY = {
+  "Edelstein": "edelstein",
+  "Bachblüte": "bachbluete",
+  "Mineralstoff": "schuessler",
+  "Wundenmittel": "homoeopathie",
+  "Tee": "tee",
+};
+
+const AFFILIATE_LINKS = {
+  edelstein: {
+    "Amethyst": "https://www.amazon.com/dp/B0GRD1PP98?tag=enneagramcomp-20",
+    "Rosenquarz": "https://www.amazon.com/dp/B07ZS31CQ4?tag=enneagramcomp-20",
+    "Tigerauge": "https://www.amazon.com/dp/B0H1124YQV?tag=enneagramcomp-20",
+    "Rhodonit": "https://www.amazon.com/dp/B0B7KR616Q?tag=enneagramcomp-20",
+    "Amazonit": "https://www.amazon.com/dp/B09K248PF5?tag=enneagramcomp-20",
+    "Hämatit": "https://www.amazon.com/dp/B01CRHUO1S?tag=enneagramcomp-20",
+    "Rauchquarz": "https://www.amazon.com/dp/B0C5MQZR6D?tag=enneagramcomp-20",
+    "Fluorit": "https://www.amazon.com/dp/B08C5HY9ZV?tag=enneagramcomp-20",
+    "Karneol": "https://www.amazon.com/dp/B0GL99X7JF?tag=enneagramcomp-20",
+  },
+  oel: {
+    "Mandarin": "https://www.amazon.com/dp/B015UH3I9M?tag=enneagramcomp-20",
+    "Palmarosa": "https://www.amazon.com/dp/B06VX5QYTJ?tag=enneagramcomp-20",
+    "Marjoram": "https://www.amazon.com/dp/B0752HPN91?tag=enneagramcomp-20",
+    "Swiss Stone Pine": "https://www.amazon.de/Emma-Gr%C3%BCn%C2%AE-Zirben%C3%B6l-100-NATURREIN/dp/B0F6DB7XS9?linkCode=ll2&tag=enneagrammkom-21&linkId=b4ca6223fdd832160f74fd0abbcaacf1&language=de_DE&ref_=as_li_ss_tl",
+    "Sweet Orange": "https://www.amazon.com/dp/B00UZOZ5S8?tag=enneagramcomp-20",
+    "Cedarwood": "https://www.amazon.com/dp/B073Z6VPL8?tag=enneagramcomp-20",
+    "Vetiver": "https://www.amazon.com/dp/B075GHN3VD?tag=enneagramcomp-20",
+    "Fine Lavender": "https://www.amazon.com/dp/B01452A92W?tag=enneagramcomp-20",
+    "Grapefruit": "https://www.amazon.com/dp/B085TKPJ8H?tag=enneagramcomp-20",
+  },
+  bachbluete: {
+    "Rock Water": "https://www.amazon.com/dp/B00016QT8K?tag=enneagramcomp-20",
+    "Chicory": "https://www.amazon.com/dp/B000Q6DNBG?tag=enneagramcomp-20",
+    "Vervain": "https://www.amazon.com/dp/B000Q6AFB2?tag=enneagramcomp-20",
+    "Sweet Chestnut": "https://www.amazon.com/dp/B008XLQG9W?tag=enneagramcomp-20",
+    "Water Violet": "https://www.amazon.com/dp/B00014I412?tag=enneagramcomp-20",
+    "Aspen": "https://www.amazon.com/dp/B000NTJ3H4?tag=enneagramcomp-20",
+    "Agrimony": "https://www.amazon.com/dp/B00016QSZY?tag=enneagramcomp-20",
+    "Vine": "https://www.amazon.com/dp/B000NTL0S4?tag=enneagramcomp-20",
+    "Wild Rose": "https://www.amazon.com/dp/B000Q6HCI6?tag=enneagramcomp-20",
+  },
+  schuessler: {
+    "Kalium sulfuricum": "https://www.amazon.com/dp/B00016X5YG?tag=enneagramcomp-20",
+    "Kalium chloratum": "https://www.amazon.com/dp/B00016X5Z0?tag=enneagramcomp-20",
+    "Natrium chloratum": "https://www.amazon.com/dp/B0011DIWMS?tag=enneagramcomp-20",
+    "Ferrum phosphoricum": "https://www.amazon.com/dp/B001EH6AV6?tag=enneagramcomp-20",
+    "Kalium phosphoricum": "https://www.amazon.com/dp/B00020HTGQ?tag=enneagramcomp-20",
+    "Silicea": "https://www.amazon.com/dp/B0045PDPBC?tag=enneagramcomp-20",
+    "Magnesium phosphoricum": "https://www.amazon.com/dp/B000M0J1BC?tag=enneagramcomp-20",
+    "Natrium phosphoricum": "https://www.amazon.com/dp/B08ZGVZHFG?tag=enneagramcomp-20",
+    "Calcium fluoratum": "https://www.amazon.com/dp/B00ADD5TL4?tag=enneagramcomp-20",
+    "Natrium sulfuricum": "https://www.amazon.com/dp/B0045PEWMS?tag=enneagramcomp-20",
+  },
+  homoeopathie: {
+    "Platinum metallicum": "https://www.amazon.com/dp/B0006PKOLO?tag=enneagramcomp-20",
+    "Arsenicum album": "https://www.amazon.com/dp/B001EH66YW?tag=enneagramcomp-20",
+    "Hyoscyamus niger": "https://www.amazon.com/dp/B004LFG1NA?tag=enneagramcomp-20",
+    "Pulsatilla pratensis": "https://www.amazon.com/dp/B00014D2VY?tag=enneagramcomp-20",
+    "Tarentula hispanica": "https://www.amazon.com/dp/B0006PKPFY?tag=enneagramcomp-20",
+    "Lycopodium clavatum": "https://www.amazon.com/dp/B005P0W73I?tag=enneagramcomp-20",
+    "Ignatia amara": "https://www.amazon.com/dp/B000FJ1DFW?tag=enneagramcomp-20",
+    "Stramonium": "https://www.amazon.com/dp/B004LFG38I?tag=enneagramcomp-20",
+    "Silicea": "https://www.amazon.com/dp/B006H9T57C?tag=enneagramcomp-20",
+    "Opium": "https://www.amazon.de/DHU-Opium-C30-Streuk%C3%BCgelchen-Globuli/dp/B00E5AQ6WM?linkCode=ll2&tag=enneagrammkom-21&linkId=2f67403094f00b5f4e747e5e7f2c88e9&language=de_DE&ref_=as_li_ss_tl",
+    "Belladonna": "https://www.amazon.com/dp/B078NF6QB9?tag=enneagramcomp-20",
+    "Calcium carbonicum": "https://www.amazon.com/dp/B005P0XWQY?tag=enneagramcomp-20",
+    "Veratrum album": "https://www.amazon.com/dp/B00014I2O6?tag=enneagramcomp-20",
+    "Staphysagria": "https://www.amazon.com/dp/B00028O0T2?tag=enneagramcomp-20",
+  },
+  sitzhilfe: {
+    "Meditation Mat": "https://www.amazon.com/dp/B08WJP9FNB?tag=enneagramcomp-20",
+    "Meditation Cushion": "https://www.amazon.com/dp/B00AFEV8S4?tag=enneagramcomp-20",
+    "Meditation Bench": "https://www.amazon.com/dp/B0CT7STPL5?tag=enneagramcomp-20",
+  },
+  tee: {
+    "Lemon Balm Tea": "https://www.amazon.com/dp/B0089VPTZ8?tag=enneagramcomp-20",
+    "Rose Blossom Tea": "https://www.amazon.com/dp/B07H1RFYGD?tag=enneagramcomp-20",
+    "Rosemary Tea": "https://www.amazon.com/dp/B0CWL2KPVQ?tag=enneagramcomp-20",
+    "Willowherb Tea": "https://www.amazon.de/250-Weidenr%C3%B6schen-kleinbl%C3%BCtig-orig-vom-Achterhof/dp/B00MY9TLCI?linkCode=ll2&tag=enneagrammkom-21&linkId=7a1123732564035ca53489f9ada9633c&language=de_DE&ref_=as_li_ss_tl",
+    "Oat Straw Tea": "https://www.amazon.com/dp/B00DLLQ7KC?tag=enneagramcomp-20",
+    "Chamomile Blossom Tea": "https://www.amazon.com/dp/B000QSHK3G?tag=enneagramcomp-20",
+    "Peppermint Tea": "https://www.amazon.com/dp/B00CMU0CKE?tag=enneagramcomp-20",
+    "Ginger Tea": "https://www.amazon.com/dp/B014UHJN0G?tag=enneagramcomp-20",
+    "Fennel Tea": "https://www.amazon.com/dp/B01N90SAQR?tag=enneagramcomp-20",
+  },
+};
+
+function affiliateBoxHtml(category, remedyName) {
+  return `
+    <a href="${AFFILIATE_LINKS[category][remedyName]}" target="_blank" rel="noopener sponsored" class="remedy-card__affiliate">
+      <img src="../assets/detlef-rathmer-empfehlung.jpg" alt="Detlef Rathmer" class="remedy-card__affiliate-photo" loading="lazy" />
+      <span class="remedy-card__affiliate-text">
+        <span class="remedy-card__affiliate-label">See my recommendation on Amazon</span>
+        <span class="remedy-card__affiliate-note">Advertising Link · Amazon Associates Program</span>
+      </span>
+    </a>`;
+}
+
+const MEDITATIONS_SITZHILFEN = [
+  { name: "Meditation Mat", subtitle: "Zabuton", eignung: "The foundation for everyone: it lies flat on the floor and cushions the knees and ankles — whether or not a cushion or bench is placed on top. Best suited for beginners and anyone sitting on a hard floor (parquet, tile)." },
+  { name: "Meditation Cushion", subtitle: "Zafu", eignung: "Best for those who like to sit cross-legged or in a lotus position: it lifts the hips above the knees, allowing an upright, relaxed back. Well suited if your hips are already reasonably flexible." },
+  { name: "Meditation Bench", subtitle: "Seiza", eignung: "Best for those who find cross-legged sitting uncomfortable or who have knee, hip or back issues: sitting kneeling on the bench takes pressure off the knees while the back stays upright with ease — comfortable even for beginners." },
+];
+
 function heilmittelSection(h, oel, code) {
   const w = text.knowledgeCard.heilmittel;
   const enName = (v) => GERMAN_REMEDY_NAMES_EN[v] || v;
   const enDesc = (v) => REMEDY_GLOSSARY_EN[v] || null;
-  const row = (label, value) => {
+  const row = (label, value, category) => {
     const displayValue = enName(value || "");
     const meaning = displayValue && enDesc(value) ? `<small class="remedy-row__meaning">${enDesc(value)}</small>` : "";
-    return `<li class="remedy-row"><span class="remedy-row__label">${label}</span><span class="remedy-row__value${displayValue ? "" : " remedy-row__value--empty"}">${displayValue || w.pending}${meaning}</span></li>`;
+    const affiliate = value && category && AFFILIATE_LINKS[category]?.[value] ? affiliateBoxHtml(category, value) : "";
+    return `<li class="remedy-row"><span class="remedy-row__label">${label}</span><span class="remedy-row__value${displayValue ? "" : " remedy-row__value--empty"}">${displayValue || w.pending}${meaning}${affiliate}</span></li>`;
   };
   const passion = h.leidenschaft || {};
   const wound = h.wunde || {};
@@ -9776,20 +9883,20 @@ function heilmittelSection(h, oel, code) {
       <div class="remedy-level">
         <span class="remedy-level__title remedy-level__title--passion">${w.leidenschaftTitle}</span>
         <ul class="remedy-list">
-          ${row(w.homoeopathie, passion.homoeopathie)}
-          ${row(w.schuessler, passion.schuessler)}
-          ${row(w.bachbluete, passion.bachbluete)}
-          ${row(w.edelstein, passion.edelstein)}
-          ${row(w.tee, passion.tee)}
+          ${row(w.homoeopathie, passion.homoeopathie, "homoeopathie")}
+          ${row(w.schuessler, passion.schuessler, "schuessler")}
+          ${row(w.bachbluete, passion.bachbluete, "bachbluete")}
+          ${row(w.edelstein, passion.edelstein, "edelstein")}
+          ${row(w.tee, passion.tee, "tee")}
         </ul>
         ${passionTheme ? `<p class="remedy-theme"><strong>${enName(passion.homoeopathie) || w.homoeopathie}:</strong> ${passionTheme}</p>` : ""}
       </div>
       <div class="remedy-level">
         <span class="remedy-level__title remedy-level__title--wound">${w.wundeTitle}</span>
         <ul class="remedy-list">
-          ${row(w.homoeopathie, wound.homoeopathie)}
-          ${row(w.schuessler, wound.schuessler)}
-          ${row(w.bachbluete, wound.bachbluete)}
+          ${row(w.homoeopathie, wound.homoeopathie, "homoeopathie")}
+          ${row(w.schuessler, wound.schuessler, "schuessler")}
+          ${row(w.bachbluete, wound.bachbluete, "bachbluete")}
         </ul>
         ${woundTheme ? `<p class="remedy-theme"><strong>${enName(wound.homoeopathie) || w.homoeopathie}:</strong> ${woundTheme}</p>` : ""}
         ${
@@ -9801,6 +9908,7 @@ function heilmittelSection(h, oel, code) {
                    <strong>${oilEN.name}</strong>
                    <p>${oilEN.wirkung}</p>
                    ${oilEN.vertiefung ? `<p class="remedy-oil__vertiefung" style="margin-top:.5rem;font-size:.88rem;line-height:1.65;">${oilEN.vertiefung}</p>` : ""}
+                   ${AFFILIATE_LINKS.oel[oilEN.name] ? affiliateBoxHtml("oel", oilEN.name) : ""}
                  </div>
                </div>`
             : ""
@@ -39613,6 +39721,8 @@ function homoeopathiePage() {
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .5rem;">Homeopathic Effect</p>
           <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${d.wirkung}</p>
         </div>` : ""}
+        ${AFFILIATE_LINKS.homoeopathie[d.leidenschaftsMittel] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("homoeopathie", d.leidenschaftsMittel)}</div>` : ""}
+        ${(!sameMittel && AFFILIATE_LINKS.homoeopathie[d.wundeMittel]) ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("homoeopathie", d.wundeMittel)}</div>` : ""}
         <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">For use in therapeutic consultation only. The assignments apply to the core type – individual cases may call for additional remedies depending on wing, stress and integration direction.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
@@ -39717,6 +39827,8 @@ function mineralstoffePage() {
         <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid color-mix(in srgb, var(--copper) 60%, var(--paper));border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;max-width:640px;">
           <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${d.beschreibung}</p>
         </div>` : ""}
+        ${AFFILIATE_LINKS.schuessler[d.leidenschaftsSalz] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("schuessler", d.leidenschaftsSalz)}</div>` : ""}
+        ${(!sameSalz && AFFILIATE_LINKS.schuessler[d.wundeSalz]) ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("schuessler", d.wundeSalz)}</div>` : ""}
         <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">For use in therapeutic consultation only. The assignments apply to the core type – individual cases may call for additional remedies depending on wing, stress and integration direction.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
@@ -39823,6 +39935,8 @@ function bachbluetenPage() {
         <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid color-mix(in srgb, var(--copper) 60%, var(--paper));border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;max-width:640px;">
           <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${d.beschreibung}</p>
         </div>` : ""}
+        ${AFFILIATE_LINKS.bachbluete[d.leidenschaftsBl] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("bachbluete", d.leidenschaftsBl)}</div>` : ""}
+        ${(!sameBl && AFFILIATE_LINKS.bachbluete[d.wundeBl]) ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("bachbluete", d.wundeBl)}</div>` : ""}
         <p style="font-size:.8rem;color:var(--muted);font-style:italic;max-width:580px;">For use in therapeutic consultation only. The assignments apply to the core type – individual cases may call for additional remedies depending on wing, stress and integration direction.</p>
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
@@ -39923,6 +40037,7 @@ function heilteesPage() {
         <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid color-mix(in srgb, var(--copper) 60%, var(--paper));border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;max-width:640px;">
           <p style="font-size:.93rem;line-height:1.7;margin:0;color:var(--ink);">${d.beschreibung}</p>
         </div>` : ""}
+        ${AFFILIATE_LINKS.tee[d.tee] ? `<div style="max-width:640px;margin-bottom:1rem;">${affiliateBoxHtml("tee", d.tee)}</div>` : ""}
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);max-width:640px;">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Subtype Detail · Remedies Compass</p>
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
@@ -40018,6 +40133,11 @@ function edelsteinePage() {
         <div style="text-align:center;padding:1rem 1.2rem 1.4rem;margin-bottom:1rem;max-width:640px;">
           <p style="font-size:.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin:0 0 .4rem;">Key Phrase</p>
           <p style="font-family:var(--serif);font-size:1.25rem;font-style:italic;color:var(--copper);margin:0;line-height:1.5;">${e.merksatz}</p>
+        </div>` : ""}
+
+        ${AFFILIATE_LINKS.edelstein[e.name] ? `
+        <div style="margin-bottom:1.2rem;max-width:640px;">
+          ${affiliateBoxHtml("edelstein", e.name)}
         </div>` : ""}
 
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);">
@@ -41238,6 +41358,20 @@ function stillePage() {
       <p style="margin-top:2.5rem;font-size:0.82rem;color:var(--ink-muted);max-width:340px;margin-left:auto;margin-right:auto;">
         Put your phone aside. A gong sounds at the beginning and end.
       </p>
+
+      <div style="margin:2.2rem auto 0;max-width:480px;text-align:left;">
+        <p style="font-size:0.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);font-weight:700;margin:0 0 .35rem;text-align:center;">Comfortable Seating for Your Stillness Practice</p>
+        <p style="font-size:0.8rem;color:var(--ink-muted);text-align:center;margin:0 0 1.1rem;line-height:1.5;">Three tried-and-tested seating aids – which one fits best depends on your sitting habits and flexibility.</p>
+        <div style="display:flex;flex-direction:column;gap:.9rem;">
+          ${MEDITATIONS_SITZHILFEN.map(s => `
+            <div style="background:var(--paper);border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;">
+              <p style="margin:0 0 .3rem;font-size:0.95rem;font-weight:700;color:var(--ink);">${s.name} <em style="font-weight:400;color:var(--muted);font-size:0.8rem;">· ${s.subtitle}</em></p>
+              <p style="margin:0 0 .7rem;font-size:0.85rem;line-height:1.55;color:var(--ink-muted);">${s.eignung}</p>
+              ${AFFILIATE_LINKS.sitzhilfe[s.name] ? affiliateBoxHtml("sitzhilfe", s.name) : ""}
+            </div>
+          `).join("")}
+        </div>
+      </div>
 
       ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven spiritual art-of-living steps for daily life &ndash; the ideal companion to daily stillness practice.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
       ${bookTip("nichts-und-alles", "A silent book about looking inward &ndash; consciousness, space, and inner freedom.", "Nichts und Alles")}
