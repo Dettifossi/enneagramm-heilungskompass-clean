@@ -27186,7 +27186,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "455";
+const APP_BUILD = "456";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -27291,6 +27291,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              added:"2026-07-15",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs \u2013 Sexueller Typ 7",                              teaser:"SX7w8 \u2013 Musikproduzent, Unternehmer, Verurteilter. Geb. 1969 in New York. Jahrzehntelang einer der m\u00e4chtigsten M\u00e4nner der Musikindustrie \u2013 und ein System sexueller Gewalt, das hinter Glamour und Kontrolle verborgen blieb. Verurteilt 2025 wegen Sex-Trafficking und N\u00f6tigung. Die sexuelle Sieben mit Achterfl\u00fcgel: Vergn\u00fcgen als Recht, Kontrolle als Liebe, Macht als Schutzschild. Tierentsprechung: Schimpanse." , tags:["Missbrauch","Musikindustrie"], gender:"m"},
   { route:"kriminalpsychologie-aileen-wuornos",      name:"Aileen Wuornos",                      subtyp:"SX7w8",  heading:"Aileen Wuornos \u2013 Sexueller Typ 7",                                       teaser:"SX7w8 \u2013 US-amerikanische Serienm\u00f6rderin, 1956\u20132002. Sieben Morde an M\u00e4nnern in Florida, November 1989 bis November 1990. Die sexuelle Sieben mit Achterfl\u00fcgel: idealisierte Liebe als \u00dcberlebensprojekt, Beziehung als einziges Fundament, Wut als letzte Grenze. Tierentsprechung: Schimpanse." , tags:["Serienmord"], gender:"f"},
   { route:"kriminalpsychologie-boris-becker",         name:"Boris Becker",                         added:"2026-07-19",  subtyp:"SX7w8",  heading:"Boris Becker \u2013 Sexueller Typ 7",                              teaser:"SX7w8 \u2013 Tennisprofi, geb. 1967 in Leimen. Dreifacher Wimbledon-Sieger, j\u00fcngster Champion der Geschichte \u2013 und 2022 in Gro\u00dfbritannien verurteilt wegen Insolvenzvergehen. Die sexuelle Sieben mit Achterfl\u00fcgel: Ruhm als \u00dcberlebensfundament, Verleugnung der Grenzen, Vergangenheit als unaufgebbares Selbstbild. Tierentsprechung: Schimpanse." , tags:["Betrug"], gender:"m"},
+  { route:"kriminalpsychologie-ronnie-biggs",          name:"Ronnie Biggs",                          added:"2026-08-05",  subtyp:"SX7w8",  heading:"Ronnie Biggs \u2013 Sexueller Typ 7",                              teaser:"SX7w8 \u2013 Britischer Zugr\u00e4uber, 1929\u20132013. Beteiligt am Gro\u00dfen Postraub 1963, spektakul\u00e4rer Gef\u00e4ngnisausbruch 1965, jahrzehntelang \u00f6ffentlich unbehelligt in Rio de Janeiro. Die sexuelle Sieben mit Achterfl\u00fcgel: Beeinflussbarkeit als Einstieg, Legendenbildung als Lebensinhalt, Trotz statt Reue. Tierentsprechung: Schimpanse." , tags:["Raub"], gender:"m"},
   { route:"kriminalpsychologie-griselda-blanco",    name:"Griselda Blanco",                     subtyp:"SE8w9",  heading:"Griselda Blanco \u2013 Selbsterhaltender Typ 8",                        teaser:"SE8w9 \u2013 Die Patin von Medell\u00edn, 1943\u20132012. Wegbereiterin des Kokainhandels und Lehrmeisterin Escobars \u2013 die selbsterhaltende Acht mit Neunerfl\u00fcgel: Macht als \u00dcberlebensgarantie, stille Kontrolle, absolute Konsequenz. Tierentsprechung: Orang-Utan." , tags:["Mafia"], gender:"f"},
   { route:"kriminalpsychologie-salvatore-riina",     name:"Salvatore Riina",                     subtyp:"SE8w9",  heading:"Salvatore Riina \u2013 Selbsterhaltender Typ 8",                           teaser:"Mafia-Boss, 1930\u20132017. 23 Jahre untergetaucht, Hunderte Morde verantwortet \u2013 die selbsterhaltende Acht mit Neunerfl\xfcgel: territoriale Macht, stille Gef\xe4hrlichkeit, absolute Loyalit\xe4t." , tags:["Mafia"], gender:"m"},
   { route:"kriminalpsychologie-john-gotti",          name:"John Gotti",                          subtyp:"SO8w7",  heading:"John Gotti \u2013 Sozialer Typ 8",                                     teaser:"SO8w7 \u2013 Der Teflon-Don, 1940\u20132002. Boss der Gambino-Familie, dreimal freigesprochen, schlie\xdflich durch seinen engsten Vertrauten verraten \u2013 die soziale Acht mit Siebenerfl\xfcgel: Herrschaft durch Schutz, Macht durch Sichtbarkeit. Tierentsprechung: L\xf6we." , tags:["Mafia"], gender:"m"},
@@ -52014,6 +52015,223 @@ function borisBeckerKriminalPage() {
   `);
 }
 
+function ronnieBiggsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ronnie Biggs \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/ronnie-biggs-portrait.jpg" alt="Ronnie Biggs \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ronnie Biggs</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterfl\u00fcgel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Britischer Zugr\u00e4uber und Fl\u00fcchtling &middot; Tierentsprechung: Schimpanse</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Ronald Arthur \u201eRonnie" Biggs</strong>, geboren am 8. August 1929
+        in Lambeth, London, war ein kleinkrimineller Handwerker mit einigen
+        Vorstrafen wegen Einbruchs, als er 1963 zur Legende wurde: Am 8. August \u2013
+        seinem 34. Geburtstag \u2013 beteiligte er sich am sogenannten \u201eGro\u00dfen Postraub",
+        dem \u00dcberfall auf einen Postzug zwischen Glasgow und London.
+        Die Bande erbeutete umgerechnet rund 2,6 Millionen Pfund \u2013 eine der
+        gr\u00f6\u00dften Beutesummen der britischen Kriminalgeschichte.
+        Biggs\u2019 eigener Tatbeitrag war vergleichsweise klein: Er vermittelte
+        der Bande einen pensionierten Lokf\u00fchrer, weil die eigentlichen T\u00e4ter
+        den Zug nicht selbst sicher bewegen konnten.
+        1964 zu 30 Jahren Haft verurteilt, gelang ihm 1965 der spektakul\u00e4re
+        Ausbruch aus dem Gef\u00e4ngnis Wandsworth. \u00dcber Paris und Australien floh
+        er 1970 nach Brasilien, wo er \u2013 vor Auslieferung gesch\u00fctzt, weil er
+        Vater eines brasilianischen Sohnes war \u2013 jahrzehntelang \u00f6ffentlich
+        und unbehelligt lebte, Interviews gab und zur Touristenattraktion in
+        Rio de Janeiro wurde. Gesundheitlich schwer angeschlagen, kehrte er
+        2001 freiwillig nach Gro\u00dfbritannien zur\u00fcck, wurde erneut inhaftiert
+        und 2009 aus humanit\u00e4ren Gr\u00fcnden entlassen. Er starb 2013 im Alter
+        von 84 Jahren.
+      </p>
+
+      <div class="vb-section" style="background:rgba(0,80,60,0.06);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Ronnie Biggs</strong> wird dem <strong>Sexuellen Typ 7
+        mit Achterfl\u00fcgel (SX7w8)</strong> im Enneagramm zugeordnet.
+        Die sexuelle Sieben sucht nicht die stille Zugeh\u00f6rigkeit (SO7)
+        oder das gesicherte Nest (SE7), sondern die vollst\u00e4ndige Fusion
+        mit dem intensivsten, aufregendsten Leben, das m\u00f6glich ist \u2013
+        Naranjo beschreibt diesen Subtyp treffend als von <em>Suggestibility</em>
+        (Beeinflussbarkeit) gepr\u00e4gt: Die sexuelle Sieben l\u00e4sst sich begeistern,
+        mitrei\u00dfen, hinein in ein gr\u00f6\u00dferes Abenteuer ziehen, oft ohne die Risiken
+        wirklich zu Ende zu denken. Bei Biggs zeigte sich das schon am Einstieg
+        in den Postraub: Er wurde nicht als Kopf der Bande, sondern als
+        mitgerissener Mitl\u00e4ufer Teil eines Plans, der ihn faszinierte.
+        Der Achterfl\u00fcgel bringt Mut, Trotz und eine unbeugsame Direktheit
+        gegen\u00fcber Autorit\u00e4t hinzu \u2013 genau die Mischung, die Biggs nach seiner
+        Verurteilung nicht resignieren, sondern \u00fcber eine Gef\u00e4ngnismauer klettern lie\u00df.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Schimpanse</h3>
+        <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben mit
+        Achterfl\u00fcgel \u2013 lebendig, statusbewusst, ganz im Moment, und f\u00e4hig, bei
+        Bedrohung des eigenen Rangs sofort zu eskalieren. Schimpansen leben in
+        Gruppen, in denen Zugeh\u00f6rigkeit \u00fcber Auftritt, Mut und das Eingehen von
+        Risiken verhandelt wird \u2013 wer sich traut, gewinnt Ansehen. Biggs war
+        dieser Schimpanse: ein Mann ohne besondere kriminelle Statur, der sich
+        durch einen einzigen k\u00fchnen Auftritt \u2013 die Vermittlung des Lokf\u00fchrers,
+        die Teilnahme am gr\u00f6\u00dften Coup seiner Zeit \u2013 in die oberste Riege der
+        britischen Verbrecherlegenden katapultierte. Und sp\u00e4ter, im Gef\u00e4ngnishof
+        von Wandsworth, zeigte sich derselbe Instinkt noch einmal: Nicht abwarten,
+        nicht verhandeln, sondern klettern, springen, handeln \u2013 der Sprung \u00fcber
+        die Mauer als archetypische Schimpansenbewegung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Blickqualit\u00e4t</h3>
+        <p class="vb-intro"><strong>a) Verschmitzt, einnehmend, nie ganz ernst:</strong>
+        Zeitzeugen und Journalisten, die Biggs in Rio trafen, beschrieben
+        ihn \u00fcbereinstimmend als charmant, witzig und seltsam sympathisch \u2013
+        einen Mann, dem man seine Vergangenheit fast verzeihen wollte, weil
+        er selbst so wenig Reue zur Schau trug. Dieser einnehmende Blick,
+        der H\u00e4rte in Leichtigkeit aufl\u00f6st, ist Kernmerkmal der sexuellen Sieben:
+        Intensit\u00e4t wird nicht bedrohlich inszeniert, sondern als Einladung
+        zum Mitfeiern verpackt.</p>
+        <p class="vb-intro"><strong>b) Die Suche nach dem n\u00e4chsten Rausch der Aufmerksamkeit:</strong>
+        Biggs verkaufte T-Shirts mit seinem eigenen Konterfei, veranstaltete
+        Grillabende f\u00fcr Touristen, sang 1978 mit den Sex Pistols einen Song
+        \u00fcber sein eigenes Leben. Das ist kein reiner Zynismus \u2013 es ist die
+        sexuelle Sieben, die sich selbst am liebsten als Legende, als Ereignis,
+        als Erlebnis erlebt, das andere unbedingt teilen wollen.</p>
+        <p class="vb-intro"><strong>c) Der Achterfl\u00fcgel: Trotz statt Reue:</strong>
+        Anders als eine reine Sieben, die bei Konfrontation eher ausweicht,
+        begegnete Biggs Beh\u00f6rden, Richtern und Reportern mit einer fast
+        vergn\u00fcgten Unbeugsamkeit. Er entschuldigte sich kaum, verhandelte
+        stattdessen \u00f6ffentlich \u00fcber seine Bedingungen \u2013 eine Direktheit,
+        die typisch f\u00fcr den Achterfl\u00fcgel ist: Macht wird nicht gef\u00fcrchtet,
+        sondern als Gegen\u00fcber auf Augenh\u00f6he behandelt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Intensit\u00e4t statt Kalkulation als prim\u00e4res Motiv:</strong>
+        Biggs war nie der Kopf eines Plans, sondern derjenige, der sich von
+        der Intensit\u00e4t eines fremden Plans mitrei\u00dfen lie\u00df. Das entspricht der
+        sexuellen Siebener-Logik: nicht das eigene System bauen (SO7), nicht
+        das eigene Nest sichern (SE7), sondern sich einem Sog aus Erregung,
+        Risiko und M\u00f6glichkeit hingeben, der gr\u00f6\u00dfer ist als man selbst.</p>
+        <p class="vb-intro"><strong>b) Die Legende als \u00dcberlebensstrategie:</strong>
+        In Rio verwandelte Biggs seine Straftat in eine Marke. Er verkaufte
+        seine eigene Geschichte immer wieder neu, erg\u00e4nzte sie, dramatisierte
+        sie \u2013 nicht aus reiner Berechnung, sondern weil die sexuelle Sieben
+        ihr Leben als fortlaufendes, mitrei\u00dfendes Ereignis erz\u00e4hlen muss,
+        um sich selbst lebendig zu f\u00fchlen.</p>
+        <p class="vb-intro"><strong>c) Der Achterfl\u00fcgel: Kontrolle \u00fcber die eigene Erz\u00e4hlung:</strong>
+        Was den SX7w8 von einer reinen sexuellen Sieben unterscheidet, ist der
+        Wille, die eigene Geschichte nicht anderen zu \u00fcberlassen. Biggs gab
+        Interviews zu seinen eigenen Bedingungen, verlangte Bezahlung f\u00fcr
+        Fotos, inszenierte seine R\u00fcckkehr nach Gro\u00dfbritannien 2001 selbst als
+        letzten gro\u00dfen \u00f6ffentlichen Auftritt \u2013 ein Achterfl\u00fcgel-Bed\u00fcrfnis
+        nach Kontrolle, selbst \u00fcber das eigene Ende.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Konkrete Taten</h3>
+        <p class="vb-intro"><strong>a) Der Postraub am eigenen Geburtstag:</strong>
+        Am 8. August 1963 \u00fcberfiel eine f\u00fcnfzehnk\u00f6pfige Bande einen Postzug
+        bei Ledburn in Buckinghamshire und erbeutete rund 2,6 Millionen Pfund
+        in Banknoten. Biggs\u2019 Beitrag: Er hatte einen pensionierten Lokf\u00fchrer
+        angeworben, der den Zug bis zur geplanten \u00dcbergabestelle fahren sollte \u2013
+        ein kleiner, fast nebens\u00e4chlicher Baustein in einem riesigen Coup,
+        der ihn dennoch f\u00fcr immer mit dem gr\u00f6\u00dften Raub seiner Zeit verband.</p>
+        <p class="vb-intro"><strong>b) Verurteilung und Ausbruch:</strong>
+        1964 zu 30 Jahren Haft verurteilt, verbrachte Biggs kaum mehr als ein
+        Jahr im Gef\u00e4ngnis Wandsworth. Im Juli 1965 kletterte er mithilfe einer
+        von Komplizen \u00fcber die Mauer geworfenen Strickleiter aus dem Gef\u00e4ngnishof
+        und entkam in einem wartenden M\u00f6belwagen \u2013 ein Ausbruch, der binnen
+        Sekunden entschieden werden musste und keine Zeit f\u00fcr Z\u00f6gern lie\u00df.</p>
+        <p class="vb-intro"><strong>c) Flucht \u00fcber drei Kontinente:</strong>
+        \u00dcber Paris, wo er sich einer plastischen Operation unterzog und eine
+        neue Identit\u00e4t annahm, floh er nach Australien und schlie\u00dflich 1970
+        nach Brasilien. Jede Station war ein neuer Anfang, ein neues Abenteuer \u2013
+        nie ein R\u00fcckzug ins Verborgene, sondern eine fortgesetzte Bewegung
+        von einem intensiven Kapitel ins n\u00e4chste.</p>
+        <p class="vb-intro"><strong>d) Das \u00f6ffentliche Leben in Rio de Janeiro:</strong>
+        In Brasilien vor Auslieferung gesch\u00fctzt \u2013 als Vater eines
+        minderj\u00e4hrigen brasilianischen Staatsb\u00fcrgers \u2013, lebte Biggs
+        Jahrzehnte lang v\u00f6llig \u00f6ffentlich. Er gab bezahlte Interviews,
+        verkaufte Merchandise mit seinem eigenen Gesicht, veranstaltete
+        Grillabende f\u00fcr Touristen und sang 1978 mit den Sex Pistols den
+        Song \u201eNo One Is Innocent" \u00fcber sein eigenes Leben \u2013 eine
+        beispiellose Selbstvermarktung als Verbrecherlegende.</p>
+        <p class="vb-intro"><strong>e) Gesundheitlicher Verfall und freiwillige R\u00fcckkehr:</strong>
+        Nach mehreren Schlaganf\u00e4llen ab 1998 zunehmend geschw\u00e4cht, kehrte
+        Biggs 2001 freiwillig nach Gro\u00dfbritannien zur\u00fcck, um sich vom
+        staatlichen Gesundheitssystem behandeln zu lassen \u2013 wohl wissend,
+        dass ihn sofort erneute Haft erwartete. Auch das ein letzter,
+        \u00f6ffentlichkeitswirksamer Auftritt: die Heimkehr des Ausbrechers,
+        inszeniert als eigene Entscheidung, nicht als Kapitulation.</p>
+        <p class="vb-intro"><strong>f) Entlassung und Tod:</strong>
+        2009 wurde Biggs aus humanit\u00e4ren Gr\u00fcnden entlassen, nachdem er
+        seine Sprache weitgehend verloren hatte. Er starb am 18. Dezember
+        2013 im Alter von 84 Jahren \u2013 bis zuletzt eine \u00f6ffentliche Figur,
+        deren Legende ihn \u00fcberlebte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. T\u00e4terprofil &amp; Einordnung</h3>
+        <p class="vb-intro"><strong>a) Kein Drahtzieher \u2013 ein mitgerissener Rollenspieler:</strong>
+        Biggs war weder der Kopf noch der gewaltbereite Teil der Bande.
+        Seine kriminelle Bedeutung entstand fast zuf\u00e4llig, wuchs dann aber
+        durch seinen Ausbruch und seine jahrzehntelange \u00f6ffentliche
+        Selbstinszenierung weit \u00fcber seinen tats\u00e4chlichen Tatbeitrag hinaus \u2013
+        typisch f\u00fcr eine sexuelle Sieben, die aus einem kleinen Funken ein
+        ganzes, lebenslanges Ereignis macht.</p>
+        <p class="vb-intro"><strong>b) Die Legende als eigenst\u00e4ndiges Werk:</strong>
+        Biggs\u2019 eigentliche \u201eTat" nach 1965 war weniger der Postraub selbst
+        als die permanente Fortschreibung seiner eigenen Legende \u2013 Interviews,
+        Merchandise, Musik, \u00f6ffentliche Auftritte. Das ist die sexuelle
+        Sieben in ihrer reinsten Form: Das Leben selbst wird zur B\u00fchne,
+        auf der Intensit\u00e4t immer wieder neu erzeugt werden muss.</p>
+        <p class="vb-intro"><strong>c) Abgrenzung zu anderen SX7w8-F\u00e4llen:</strong>
+        Anders als Boris Becker, der an einem einzigen, unaufgebbaren
+        Selbstbild (dem Wimbledon-Champion) festhielt, oder Aileen Wuornos,
+        deren Fusion mit einer idealisierten Liebe in t\u00f6dliche Gewalt kippte,
+        suchte Biggs die Fusion mit dem eigenen Abenteuer selbst \u2013 nicht mit
+        einer Person, nicht mit einem vergangenen Triumph, sondern mit der
+        fortlaufenden Geschichte seines eigenen, immer weiter dramatisierten
+        Lebens.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(0,80,60,0.07);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">Zusammenfassung</h3>
+        <p style="margin:0 0 0.6rem;font-size:0.95rem;color:var(--ink);">
+        Ronnie Biggs ist der SX7w8 in einer seiner \u00f6ffentlichkeitswirksamsten
+        Auspr\u00e4gungen: ein Mann, der sich weniger durch Berechnung als durch
+        Beeinflussbarkeit und Sog in einen der gr\u00f6\u00dften Raub\u00fcberf\u00e4lle der
+        britischen Geschichte hineinziehen lie\u00df \u2013 und der danach sein ganzes
+        Leben der Aufgabe widmete, aus diesem einen Moment eine fortlaufende,
+        immer wieder neu erz\u00e4hlte Legende zu machen.</p>
+        <p style="margin:0 0 0.6rem;font-size:0.95rem;color:var(--ink);">
+        Der Achterfl\u00fcgel zeigte sich in seinem Trotz gegen\u00fcber Autorit\u00e4t,
+        seinem selbstbestimmten Umgang mit der eigenen Geschichte und dem
+        beinahe vergn\u00fcgten Mut, mit dem er \u00fcber eine Gef\u00e4ngnismauer kletterte,
+        statt seine Strafe schweigend abzusitzen.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);">
+        Der Schimpanse springt, wo andere z\u00f6gern, und gewinnt Ansehen durch
+        die schiere K\u00fchnheit des Sprungs. Doch was bleibt, wenn die Legende
+        einmal zu Ende erz\u00e4hlt ist? Biggs\u2019 freiwillige R\u00fcckkehr 2001 und sein
+        stiller Tod 2013 beantworten diese Frage nur teilweise \u2013 der letzte
+        gro\u00dfe Auftritt eines Mannes, der sein Leben lang die B\u00fchne suchte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-aileen-wuornos", label:"Kriminalpsychologie: Aileen Wuornos (SX7w8)"},
+        {route:"kriminalpsychologie-boris-becker", label:"Kriminalpsychologie: Boris Becker (SX7w8)"},
+        {route:"kriminalpsychologie-p-diddy", label:"Kriminalpsychologie: Sean 'P. Diddy' Combs (SX7w8)"},
+      ])}
+    </div>
+  `);
+}
+
 function grisdaBlancoPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -74170,6 +74388,7 @@ function render() {
       "kriminalpsychologie-dorothea-puente": dorotheaPuentePortraitPage,
       "kriminalpsychologie-aileen-wuornos": aileenWuornosPortraitPage,
       "kriminalpsychologie-boris-becker": borisBeckerKriminalPage,
+      "kriminalpsychologie-ronnie-biggs": ronnieBiggsPortraitPage,
       "kriminalpsychologie-richard-ramirez": richardRamirezPortraitPage,
       "kriminalpsychologie-dennis-nilsen": dennisNilsenPortraitPage,
       "kriminalpsychologie-gennadi-mikhasevich": gennadiMikhasevichPortraitPage,

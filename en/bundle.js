@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "430";
+const APP_BUILD = "431";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -156,6 +156,7 @@ const KRIMINAL_PORTRAITS = [
       { route:"kriminalpsychologie-frank-abagnale-jr", name:"Frank Abagnale Jr.", subtyp:"SO7w6", heading:"Frank Abagnale Jr. – Social Type 7", teaser:"SO7w6 – Most famous impostor in history, born 1948. Pilot, doctor, lawyer – without ever having been one. The social Seven with Six-wing: restless search for new systems, belonging as the driving force, trust as the ultimate goal. Animal correspondence: Beaver.", tags:["Betrug"]},
   { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              added:"2026-07-15",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs – Sexual Type 7",                              teaser:"SX7w8 – Music producer, entrepreneur, convicted offender. Born 1969 in New York. For decades one of the most powerful men in the music industry – and a system of sexual violence hidden behind glamour and control. Convicted 2025 for sex trafficking and coercion. The sexual Seven with Eight-wing: pleasure as a right, control as love, power as shield. Animal correspondence: Chimpanzee." , tags:["Missbrauch","Musikindustrie"]},
   { route:"kriminalpsychologie-aileen-wuornos",      name:"Aileen Wuornos",                      subtyp:"SX7w8",  heading:"Aileen Wuornos – Sexual Type 7",                                       teaser:"SX7w8 – American serial killer, 1956–2002. Seven murders of men in Florida, November 1989 to November 1990. The sexual Seven with Eight-wing: idealized love as survival project, relationship as the only foundation, rage as the final boundary. Animal correspondence: Chimpanzee." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-ronnie-biggs",          name:"Ronnie Biggs",                          added:"2026-08-05",  subtyp:"SX7w8",  heading:"Ronnie Biggs – Sexual Type 7",                              teaser:"SX7w8 – British train robber, 1929–2013. Involved in the Great Train Robbery of 1963, spectacular prison escape in 1965, decades living openly in Rio de Janeiro. The sexual Seven with Eight-wing: suggestibility as entry point, legend-building as life's work, defiance instead of remorse. Animal correspondence: Chimpanzee." , tags:["Raub"]},
   { route:"kriminalpsychologie-griselda-blanco",    name:"Griselda Blanco",                     subtyp:"SE8w9",  heading:"Griselda Blanco – Self-Preservation Type 8",                        teaser:"SP8w9 – The Godmother of Medellín, 1943–2012. Pioneer of the cocaine trade and mentor of Escobar – the self-preservation Eight with Nine-wing: power as survival guarantee, quiet control, absolute consequence. Animal correspondence: Orangutan." , tags:["Mafia"]},
   { route:"kriminalpsychologie-salvatore-riina",     name:"Salvatore Riina",                     subtyp:"SE8w9",  heading:"Salvatore Riina \u2013 Self-Preservation Type 8",                           teaser:"Mafia boss, 1930–2017. 23 years underground, hundreds of murders attributed – the self-preservation Eight with Nine-wing: territorial power, quiet danger, absolute loyalty." , tags:["Mafia"]},
   { route:"kriminalpsychologie-john-gotti",          name:"John Gotti",                          subtyp:"SO8w7",  heading:"John Gotti – Social Type 8",                                     teaser:"SO8w7 – The Teflon Don, 1940–2002. Boss of the Gambino family, acquitted three times, ultimately betrayed by his closest confidant – the social Eight with Seven-wing: dominance through protection, power through visibility. Animal correspondence: Lion." , tags:["Mafia"]},
@@ -25401,6 +25402,195 @@ function borisBeckerKriminalPage() {
     </div>
   `);
 }
+
+function ronnieBiggsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ronnie Biggs – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/ronnie-biggs-portrait.jpg" alt="Ronnie Biggs – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ronnie Biggs</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight Wing</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">British train robber and fugitive &middot; Animal Equivalent: Chimpanzee</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Ronald Arthur "Ronnie" Biggs</strong>, born August 8, 1929, in Lambeth, London, was a minor career criminal with a handful of burglary convictions when he became a legend in 1963: on August 8 – his 34th birthday – he took part in the so-called Great Train Robbery, the raid on a Royal Mail train travelling from Glasgow to London. The gang made off with roughly £2.6 million – one of the largest hauls in British criminal history. Biggs' own role was comparatively minor: he recruited a retired train driver for the gang, since the actual robbers could not safely move the train themselves. Sentenced to 30 years in 1964, he pulled off a spectacular escape from Wandsworth Prison in 1965. Via Paris and Australia, he fled to Brazil in 1970, where – protected from extradition as the father of a Brazilian son – he lived openly and unmolested for decades, gave interviews, and became a tourist attraction in Rio de Janeiro. Severely weakened in health, he voluntarily returned to Britain in 2001, was imprisoned again, and was released in 2009 on humanitarian grounds. He died in 2013 at the age of 84.
+      </p>
+
+      <div class="vb-section" style="background:rgba(0,80,60,0.06);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+        <strong>Ronnie Biggs</strong> is assigned to the <strong>Sexual Type 7
+        with Eight Wing (SX7w8)</strong>. The sexual Seven does not seek quiet
+        belonging (SO7) or a secured nest (SE7), but complete fusion with
+        the most intense, most exciting life available – Naranjo aptly
+        describes this subtype as marked by <em>Suggestibility</em>: the
+        sexual Seven lets itself be enchanted, swept along, drawn into a
+        larger adventure, often without fully thinking through the risks.
+        In Biggs, this showed already at his entry into the train robbery:
+        he became part of a plan that fascinated him not as its architect,
+        but as an enthralled participant. The Eight wing adds courage,
+        defiance, and an unbending directness toward authority – precisely
+        the mix that, after his conviction, made Biggs climb over a prison
+        wall instead of resigning himself to his sentence.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Chimpanzee</h3>
+        <p class="vb-intro">The <strong>chimpanzee</strong> is the animal equivalent of the sexual
+        Seven with an Eight wing – vibrant, status-conscious, entirely in
+        the moment, and capable of instant escalation when its rank is
+        threatened. Chimpanzees live in groups where belonging is negotiated
+        through display, courage, and risk-taking – whoever dares, gains
+        standing. Biggs was this chimpanzee: a man with no particular
+        criminal stature who, through a single bold appearance – arranging
+        the driver, taking part in the biggest heist of his era – catapulted
+        himself into the top ranks of British criminal legend. And later,
+        in the prison yard at Wandsworth, the same instinct showed itself
+        again: not waiting, not negotiating, but climbing, leaping, acting –
+        the jump over the wall as an archetypal chimpanzee movement.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Gaze Quality</h3>
+        <p class="vb-intro"><strong>a) Impish, engaging, never quite serious:</strong>
+        Witnesses and journalists who met Biggs in Rio consistently described
+        him as charming, funny, and strangely likeable – a man whose past one
+        almost wanted to forgive because he himself displayed so little
+        remorse. This engaging gaze, which dissolves hardness into lightness,
+        is a core trait of the sexual Seven: intensity is not staged as
+        threatening, but wrapped as an invitation to join the celebration.</p>
+        <p class="vb-intro"><strong>b) The search for the next rush of attention:</strong>
+        Biggs sold T-shirts bearing his own likeness, hosted barbecues for
+        tourists, and in 1978 sang with the Sex Pistols on a song about his
+        own life. This is not pure cynicism – it is the sexual Seven, who
+        most wants to experience herself as a legend, an event, an
+        experience that others are eager to share.</p>
+        <p class="vb-intro"><strong>c) The Eight wing: defiance instead of remorse:</strong>
+        Unlike a pure Seven, who tends to sidestep confrontation, Biggs met
+        authorities, judges, and reporters with an almost gleeful
+        unyieldingness. He rarely apologized, instead negotiating his terms
+        publicly – a directness typical of the Eight wing: power is not
+        feared, but treated as an equal counterpart.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Intensity rather than calculation as primary motive:</strong>
+        Biggs was never the mastermind of a plan, but the one who let
+        himself be swept along by the intensity of someone else's plan.
+        This matches sexual-Seven logic: not building one's own system (SO7),
+        not securing one's own nest (SE7), but surrendering to a pull of
+        excitement, risk, and possibility greater than oneself.</p>
+        <p class="vb-intro"><strong>b) The legend as a survival strategy:</strong>
+        In Rio, Biggs turned his crime into a brand. He sold his own story
+        again and again, embellished it, dramatized it – not out of pure
+        calculation, but because the sexual Seven must narrate her life as
+        an ongoing, enthralling event in order to feel alive.</p>
+        <p class="vb-intro"><strong>c) The Eight wing: control over one's own narrative:</strong>
+        What distinguishes the SX7w8 from a pure sexual Seven is the will
+        not to leave one's own story to others. Biggs gave interviews on
+        his own terms, demanded payment for photographs, and staged his
+        2001 return to Britain himself as one last major public appearance –
+        an Eight-wing need for control, even over one's own ending.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Concrete Actions</h3>
+        <p class="vb-intro"><strong>a) The train robbery on his own birthday:</strong>
+        On August 8, 1963, a fifteen-strong gang robbed a Royal Mail train
+        near Ledburn in Buckinghamshire, making off with about £2.6 million
+        in banknotes. Biggs' contribution: he had recruited a retired train
+        driver to move the train to the planned handover point – a small,
+        almost incidental piece in a massive heist that nonetheless bound
+        him forever to the biggest robbery of his era.</p>
+        <p class="vb-intro"><strong>b) Conviction and escape:</strong>
+        Sentenced to 30 years in 1964, Biggs spent barely more than a year
+        at Wandsworth Prison. In July 1965, using a rope ladder thrown over
+        the wall by accomplices, he climbed out of the prison yard and
+        escaped in a waiting furniture van – an escape that had to be
+        decided within seconds, leaving no room for hesitation.</p>
+        <p class="vb-intro"><strong>c) Flight across three continents:</strong>
+        Via Paris, where he underwent plastic surgery and adopted a new
+        identity, he fled to Australia and finally, in 1970, to Brazil.
+        Each stop was a new beginning, a new adventure – never a retreat
+        into hiding, but a continued movement from one intense chapter into
+        the next.</p>
+        <p class="vb-intro"><strong>d) Public life in Rio de Janeiro:</strong>
+        Protected from extradition in Brazil – as the father of a minor
+        Brazilian citizen – Biggs lived completely in public for decades.
+        He gave paid interviews, sold merchandise bearing his own face,
+        hosted barbecues for tourists, and in 1978 sang with the Sex Pistols
+        on the song "No One Is Innocent" about his own life – an
+        unprecedented self-marketing as a criminal legend.</p>
+        <p class="vb-intro"><strong>e) Physical decline and voluntary return:</strong>
+        Increasingly weakened by a series of strokes from 1998 onward,
+        Biggs voluntarily returned to Britain in 2001 to receive treatment
+        under the state health system – fully aware that renewed
+        imprisonment awaited him immediately. This too was one last public
+        performance: the escapee's homecoming, staged as his own decision,
+        not as surrender.</p>
+        <p class="vb-intro"><strong>f) Release and death:</strong>
+        In 2009, Biggs was released on humanitarian grounds after having
+        largely lost his speech. He died on December 18, 2013, at the age
+        of 84 – a public figure to the last, whose legend outlived him.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Perpetrator Profile &amp; Classification</h3>
+        <p class="vb-intro"><strong>a) Not a mastermind – a swept-along participant:</strong>
+        Biggs was neither the head nor the violent core of the gang. His
+        criminal significance arose almost by chance, then grew, through
+        his escape and decades of public self-staging, far beyond his
+        actual contribution to the crime – typical of a sexual Seven who
+        turns a small spark into a whole, lifelong event.</p>
+        <p class="vb-intro"><strong>b) The legend as a work in its own right:</strong>
+        Biggs' real "deed" after 1965 was less the train robbery itself
+        than the ongoing continuation of his own legend – interviews,
+        merchandise, music, public appearances. This is the sexual Seven
+        in its purest form: life itself becomes a stage on which intensity
+        must constantly be regenerated.</p>
+        <p class="vb-intro"><strong>c) Distinction from other SX7w8 cases:</strong>
+        Unlike Boris Becker, who clung to a single, unrelinquishable
+        self-image (the Wimbledon champion), or Aileen Wuornos, whose fusion
+        with an idealized love tipped into deadly violence, Biggs sought
+        fusion with his own adventure itself – not with a person, not with
+        a past triumph, but with the ongoing, ever more dramatized story
+        of his own life.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(0,80,60,0.07);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">Summary</h3>
+        <p style="margin:0 0 0.6rem;font-size:0.95rem;color:var(--ink);">
+        Ronnie Biggs is the SX7w8 in one of its most publicity-savvy forms:
+        a man who was drawn into one of the biggest robberies in British
+        history less through calculation than through suggestibility and
+        being swept along – and who then devoted his entire life to turning
+        that one moment into an ongoing, endlessly retold legend.</p>
+        <p style="margin:0 0 0.6rem;font-size:0.95rem;color:var(--ink);">
+        The Eight wing showed in his defiance toward authority, his
+        self-determined handling of his own story, and the almost gleeful
+        courage with which he climbed over a prison wall rather than
+        silently serve his sentence.</p>
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);">
+        The chimpanzee leaps where others hesitate, gaining standing through
+        the sheer boldness of the leap. But what remains once the legend has
+        finally been told to its end? Biggs' voluntary return in 2001 and
+        his quiet death in 2013 answer that question only partly – the last
+        great appearance of a man who spent his whole life seeking the stage.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-aileen-wuornos", label:"Criminal Psychology: Aileen Wuornos (SX7w8)"},
+        {route:"kriminalpsychologie-boris-becker", label:"Criminal Psychology: Boris Becker (SX7w8)"},
+        {route:"kriminalpsychologie-p-diddy", label:"Criminal Psychology: Sean 'P. Diddy' Combs (SX7w8)"},
+      ])}
+    </div>
+  `);
+}
 function kriminalpsychologiePage() {
   const allInst = ["SE","SO","SX"];
   const allTyp  = [1,2,3,4,5,6,7,8,9];
@@ -44112,6 +44302,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-sebastian-greenwood": sebastianGreenwoodPortraitPage,
       "kriminalpsychologie-michael-franzese": michaelFranzesePortraitPage,
       "kriminalpsychologie-boris-becker": borisBeckerKriminalPage,
+      "kriminalpsychologie-ronnie-biggs": ronnieBiggsPortraitPage,
       "kriminalpsychologie-david-berkowitz": davidBerkowitzPortraitPage,
       "kriminalpsychologie-john-mcafee": johnMcAfeePortraitPage,
       "kriminalpsychologie-pedro-alonso-lopez": pedroAlonsoLopezPortraitPage,
