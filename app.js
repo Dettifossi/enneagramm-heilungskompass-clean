@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "456";
+const APP_BUILD = "457";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -2096,7 +2096,7 @@ function inhaltsübersichtPage() {
 
         ${cat("Berühmte Persönlichkeiten", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "59 Porträts aus Kultur, Musik, Sport & Gesellschaft – durch die Linse des Enneagramms.")}
 
-        ${cat("Spannende Kriminalfälle (Kriminalpsychologie)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "73 tiefenpsychologische Täterporträts – bekannte Fälle durch die Linse des Enneagramms. Lehrreich, präzise, nie reißerisch.")}
+        ${cat("Spannende Kriminalfälle (Kriminalpsychologie)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "74 tiefenpsychologische Täterporträts – bekannte Fälle durch die Linse des Enneagramms. Lehrreich, präzise, nie reißerisch.")}
 
         ${cat("Philosophie & Spiritualit\xe4t", "&#129812;", [
           "Schopenhauer & Enneagramm",
