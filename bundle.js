@@ -27189,7 +27189,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "442";
+const APP_BUILD = "444";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -32995,11 +32995,27 @@ function knowledgeCard(item) {
 	  `;
 }
 
+const AFFILIATE_LINKS = {
+  "Rosenquarz": "https://link.amazon/B00SUkNTI",
+};
+
+function affiliateBoxHtml(remedyName) {
+  return `
+    <a href="${AFFILIATE_LINKS[remedyName]}" target="_blank" rel="noopener sponsored" class="remedy-card__affiliate">
+      <img src="assets/detlef-rathmer-empfehlung.jpg" alt="Detlef Rathmer" class="remedy-card__affiliate-photo" loading="lazy" />
+      <span class="remedy-card__affiliate-text">
+        <span class="remedy-card__affiliate-label">Meine Empfehlung bei Amazon ansehen</span>
+        <span class="remedy-card__affiliate-note">Werbelink \u00b7 Amazon-Partnerprogramm</span>
+      </span>
+    </a>`;
+}
+
 function heilmittelSection(h, oel, code) {
   const w = text.knowledgeCard.heilmittel;
   const row = (label, value) => {
     const meaning = value && remedyGlossary[value] ? `<small class="remedy-row__meaning">${remedyGlossary[value]}</small>` : "";
-    return `<li class="remedy-row"><span class="remedy-row__label">${label}</span><span class="remedy-row__value${value ? "" : " remedy-row__value--empty"}">${value || w.pending}${meaning}</span></li>`;
+    const affiliate = value && AFFILIATE_LINKS[value] ? affiliateBoxHtml(value) : "";
+    return `<li class="remedy-row"><span class="remedy-row__label">${label}</span><span class="remedy-row__value${value ? "" : " remedy-row__value--empty"}">${value || w.pending}${meaning}${affiliate}</span></li>`;
   };
   const passion = h.leidenschaft || {};
   const wound = h.wunde || {};
@@ -70216,6 +70232,10 @@ function edelsteinePage() {
                alt="Typ ${e.typ} &ndash; ${e.name}"
                class="psycho-img" />
         </div>
+        ${AFFILIATE_LINKS[e.name] ? `
+        <div style="margin-top:1.2rem;">
+          ${affiliateBoxHtml(e.name)}
+        </div>` : ""}
 
         <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--line);">
           <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .6rem;">Passende Schaubilder</p>
