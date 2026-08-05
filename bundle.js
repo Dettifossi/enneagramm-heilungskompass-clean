@@ -27186,7 +27186,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "438";
+const APP_BUILD = "439";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -71093,6 +71093,16 @@ function laenderzuordnungenPage() {
         <h2 class="bl-fazit__title">Fazit</h2>
         <p>Diese Zuordnung ist eine <strong>symbolische Tendenz</strong>, kein wissenschaftlicher Befund &ndash; nat\u00fcrlich sind in jedem Land alle neun Typen vertreten. Doch Geschichte, kollektive Erfahrung und gelebte Alltagskultur pr\u00e4gen Muster, die sich verbl\u00fcffend oft in einem der neun Enneagramm-Prinzipien wiedererkennen lassen.</p>
         <p>Genau wie beim Einzelnen gilt auch hier: Es geht nicht um Schubladendenken, sondern um eine spielerische, begr\u00fcndete Linse, durch die man Kulturen und ihre Geschichte neu betrachten kann.</p>
+      </div>
+
+      <div style="background:var(--paper-deep,#ede8dc);border-left:3px solid var(--copper);border-radius:0 10px 10px 0;padding:1.1rem 1.3rem;margin:1.4rem 0;">
+        <p style="font-weight:700;font-size:0.92rem;margin:0 0 0.6rem;color:var(--ink);">Waren Sie selbst dort?</p>
+        <p style="font-size:0.88rem;line-height:1.65;color:var(--ink);margin:0 0 0.8rem;">Einige L\u00e4nder &ndash; etwa \u00c4thiopien, Myanmar oder Kuba &ndash; sind bei dieser Zuordnung bewusst als strittig gekennzeichnet, weil sich zwei Enneagramm-Prinzipien plausibel gegen\u00fcberstehen. Ich war nicht in jedem Land dieser Welt selbst vor Ort. Wenn Sie aus eigener Erfahrung eine andere, gut begr\u00fcndete Einsch\u00e4tzung zu einem Land haben &ndash; ob strittig markiert oder nicht &ndash; freue ich mich \u00fcber Ihre Nachricht. Klingt Ihr Vorschlag plausibel und nachvollziehbar begr\u00fcndet, nehme ich ihn gerne in die App auf.</p>
+        <p style="font-size:0.88rem;margin:0;">
+          <a href="mailto:detlefrathmer@t-online.de?subject=L%C3%A4nderzuordnung%3A%20Mein%20Vorschlag" style="color:var(--copper);text-decoration:underline;">\u2709 E-Mail schreiben</a>
+          &nbsp;\u00b7&nbsp;
+          <a href="https://wa.me/4915758786201" target="_blank" rel="noopener" style="color:var(--copper);text-decoration:underline;">\ud83d\udcac WhatsApp</a>
+        </p>
       </div>
 
       ${relatedLinks([
