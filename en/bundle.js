@@ -9844,14 +9844,20 @@ const AFFILIATE_LINKS = {
     "Ginger Tea": "https://www.amazon.com/dp/B014UHJN0G?tag=enneagramcomp-20",
     "Fennel Tea": "https://www.amazon.com/dp/B01N90SAQR?tag=enneagramcomp-20",
   },
+  astro: {
+    "Red Light Flashlight": "https://www.amazon.com/dp/B0GF1ZG3Y6?tag=enneagramcomp-20",
+    "Planisphere": "https://www.amazon.com/dp/0961320753?tag=enneagramcomp-20",
+    "Beginner Binoculars": "https://www.amazon.com/dp/B00008Y0VN?tag=enneagramcomp-20",
+    "Tabletop Telescope": "https://www.amazon.com/dp/B00DV6SBRO?tag=enneagramcomp-20",
+  },
 };
 
-function affiliateBoxHtml(category, remedyName) {
+function affiliateBoxHtml(category, remedyName, label) {
   return `
     <a href="${AFFILIATE_LINKS[category][remedyName]}" target="_blank" rel="noopener sponsored" class="remedy-card__affiliate">
       <img src="../assets/detlef-rathmer-empfehlung.jpg" alt="Detlef Rathmer" class="remedy-card__affiliate-photo" loading="lazy" />
       <span class="remedy-card__affiliate-text">
-        <span class="remedy-card__affiliate-label">See my recommendation on Amazon</span>
+        <span class="remedy-card__affiliate-label">${label || "See my recommendation on Amazon"}</span>
         <span class="remedy-card__affiliate-note">Advertising Link · Amazon Associates Program</span>
       </span>
     </a>`;
@@ -41624,6 +41630,15 @@ function planetenzuordnungenPage() {
             <span class="vb-buch__hint">The world's best-selling practical guide to observing stars and planets</span>
           </span>
         </a>
+        <p style="font-size:0.72rem;color:var(--muted);margin:0.6rem 0 0;">*Affiliate links to Amazon. If you make a purchase, we earn a small commission at no extra cost to you.</p>
+      </div>
+
+      <div class="vb-buecher">
+        <h3 class="vb-buecher__title">Practical Gear for Stargazers</h3>
+        ${affiliateBoxHtml("astro", "Red Light Flashlight", "Night-vision tip: red light doesn't ruin your eyes' dark adaptation like a phone screen")}
+        ${affiliateBoxHtml("astro", "Beginner Binoculars", "See the planets up close: binoculars for observing the night sky with your own eyes")}
+        ${affiliateBoxHtml("astro", "Tabletop Telescope", "See moon craters &amp; Jupiter live: a compact beginner telescope")}
+        ${affiliateBoxHtml("astro", "Planisphere", "Analog tool: a classic rotating star finder for outdoor use")}
         <p style="font-size:0.72rem;color:var(--muted);margin:0.6rem 0 0;">*Affiliate links to Amazon. If you make a purchase, we earn a small commission at no extra cost to you.</p>
       </div>
 

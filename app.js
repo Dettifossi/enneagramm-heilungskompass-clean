@@ -5965,14 +5965,20 @@ const AFFILIATE_LINKS = {
     "Ingwertee": "https://www.amazon.de/Ingwerwurzel-geschnitten-getrocknet-Kr%C3%A4utertee-vom-Achterhof/dp/B01C06ZSKS?linkCode=ll2&tag=enneagrammkom-21&linkId=14cec56b79963ac6f69be8c556fdc483&language=de_DE&ref_=as_li_ss_tl",
     "Fencheltee": "https://www.amazon.de/Fenchelsamen-Fencheltee-nat%C3%BCrlich-vom-Achterhof/dp/B075HXXPJP?linkCode=ll2&tag=enneagrammkom-21&linkId=1eea7f36bcd5656d9b2c62382fbdaa79&language=de_DE&ref_=as_li_ss_tl",
   },
+  astro: {
+    "Rotlicht-Taschenlampe": "https://www.amazon.de/dp/B0F8W2559S?tag=enneagrammkom-21",
+    "Drehbare Sternkarte": "https://www.amazon.de/dp/3440154513?tag=enneagrammkom-21",
+    "Einsteiger-Fernglas": "https://www.amazon.de/dp/B00008Y0VN?tag=enneagrammkom-21",
+    "Tisch-Teleskop": "https://www.amazon.de/dp/B00DV6SBRO?tag=enneagrammkom-21",
+  },
 };
 
-function affiliateBoxHtml(category, remedyName) {
+function affiliateBoxHtml(category, remedyName, label) {
   return `
     <a href="${AFFILIATE_LINKS[category][remedyName]}" target="_blank" rel="noopener sponsored" class="remedy-card__affiliate">
       <img src="assets/detlef-rathmer-empfehlung.jpg" alt="Detlef Rathmer" class="remedy-card__affiliate-photo" loading="lazy" />
       <span class="remedy-card__affiliate-text">
-        <span class="remedy-card__affiliate-label">Meine Empfehlung bei Amazon ansehen</span>
+        <span class="remedy-card__affiliate-label">${label || "Meine Empfehlung bei Amazon ansehen"}</span>
         <span class="remedy-card__affiliate-note">Werbelink · Amazon-Partnerprogramm</span>
       </span>
     </a>`;
@@ -44647,6 +44653,15 @@ function planetenzuordnungenPage() {
             <span class="vb-buch__hint">Handlicher Kosmos-Führer zum Beobachten von Sternbildern und Planeten</span>
           </span>
         </a>
+        <p style="font-size:0.72rem;color:var(--muted);margin:0.6rem 0 0;">*Affiliate-Links zu Amazon. Bei einem Kauf erhalten wir eine kleine Provision, für dich ändert sich der Preis nicht.</p>
+      </div>
+
+      <div class="vb-buecher">
+        <h3 class="vb-buecher__title">Praktisches Zubehör für Sternenbeobachter</h3>
+        ${affiliateBoxHtml("astro", "Rotlicht-Taschenlampe", "Nacht-Modus-Tipp: Rotlicht blendet die Augen nicht wie Smartphone-Licht")}
+        ${affiliateBoxHtml("astro", "Einsteiger-Fernglas", "Planeten hautnah: Fernglas für die Himmelsbeobachtung mit eigenen Augen")}
+        ${affiliateBoxHtml("astro", "Tisch-Teleskop", "Mondkrater &amp; Jupiter live sehen: kompaktes Einsteiger-Teleskop")}
+        ${affiliateBoxHtml("astro", "Drehbare Sternkarte", "Analoges Werkzeug: klassische drehbare Sternkarte für draußen")}
         <p style="font-size:0.72rem;color:var(--muted);margin:0.6rem 0 0;">*Affiliate-Links zu Amazon. Bei einem Kauf erhalten wir eine kleine Provision, für dich ändert sich der Preis nicht.</p>
       </div>
 
