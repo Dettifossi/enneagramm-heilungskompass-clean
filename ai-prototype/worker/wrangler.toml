@@ -1,0 +1,6 @@
+name = "kompass-assistent"
+main = "index.mjs"
+compatibility_date = "2026-08-01"
+
+# GEMINI_API_KEY wird NICHT hier eingetragen, sondern als Secret gesetzt:
+#   npx wrangler secret put GEMINI_API_KEY

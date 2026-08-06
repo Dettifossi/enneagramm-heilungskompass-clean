@@ -44075,6 +44075,8 @@ function datenschutzPage() {
     <p>An zahlreichen Stellen der App sind Videos von YouTube eingebunden (u. a. Porträts, Musik, Fachvideos). Beim Aufruf einer Seite mit einem eingebetteten YouTube-Video wird eine Verbindung zu Servern von YouTube (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) hergestellt; dabei kann Google bereits vor dem Abspielen technische Daten wie Ihre IP-Adresse erfassen und ggf. Cookies setzen. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Weitere Informationen, auch zu Ihren Widerspruchsmöglichkeiten: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
     <h2>6. Gesichts-Scan &amp; Video-Aufnahme (Kamera- und Mikrofonzugriff)</h2>
     <p>Auf der optionalen Seite „Gesichts-Scan &amp; Video" zur Vorbereitung einer persönlichen Typberatung fragt Ihr Browser mit Ihrer ausdrücklichen Erlaubnis Zugriff auf Kamera und ggf. Mikrofon ab (Art. 6 Abs. 1 lit. a DSGVO, Einwilligung). Die dabei entstehenden Fotos bzw. das Video werden ausschließlich lokal auf Ihrem eigenen Gerät verarbeitet und gespeichert; es findet keine automatische Übertragung an einen Server statt. Erst wenn Sie selbst aktiv den Versand per E-Mail oder WhatsApp auswählen, verlassen die Aufnahmen Ihr Gerät (siehe Punkt 8). Sie können den Kamerazugriff jederzeit über Ihre Browser- bzw. Geräteeinstellungen widerrufen.</p>
+    <h2>6a. „Der Wegweiser" – KI-Wissens-Assistent (Beta)</h2>
+    <p>Über den Kompass-Button (🧭) können Sie „Der Wegweiser" nutzen, einen experimentellen KI-Assistenten, der Ihre Fragen anhand der Inhalte dieser App beantwortet. Ihre eingegebene Frage sowie die zur Beantwortung passenden Textauszüge aus der App werden dabei an die Gemini-API der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland (ein Google-Dienst) übermittelt und dort verarbeitet, um eine Antwort zu erzeugen. Es werden dabei keine Profildaten, kein Name und keine sonstigen personenbezogenen Angaben von Ihnen übermittelt – lediglich der von Ihnen eingegebene Frage-Text. Eine Verarbeitung durch Google kann auch außerhalb der EU erfolgen. Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung durch aktive Nutzung der Funktion). Weitere Informationen: <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">ai.google.dev/gemini-api/terms</a>. Wenn Sie diese Funktion nicht nutzen möchten, klicken Sie den Kompass-Button einfach nicht an – die App ist ohne diese Funktion vollständig nutzbar.</p>
     <h2>7. Google Fonts</h2>
     <p>Diese App verwendet Schriftarten des Dienstes Google Fonts (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland). Beim Laden der Seite wird eine Verbindung zu Google-Servern hergestellt, wobei Ihre IP-Adresse übertragen wird. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. Weitere Informationen: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
     <h2>8. Kauf, Zahlungsabwicklung und Kontaktaufnahme</h2>
@@ -48148,6 +48150,97 @@ if (localStorage.getItem('kompass-admin-redirect')) {
 }
 render();
 setTimeout(showTagesimpuls, 600);
+
+// "Der Wegweiser" – KI-Wissens-Assistent (Prototyp), fragt die Wissensbasis
+// über einen Cloudflare-Worker + Gemini ab und zitiert die Quellen.
+(function initWegweiser() {
+  const WORKER_URL = "https://kompass-assistent.9rathmer.workers.dev";
+
+  const btn = document.createElement("button");
+  btn.id = "wegweiser-btn";
+  btn.setAttribute("aria-label", "Der Wegweiser – Fragen an den Kompass stellen");
+  btn.title = "Der Wegweiser – frag mich etwas";
+  btn.textContent = "🧭";
+  btn.style.cssText =
+    "position:fixed;right:1rem;bottom:1rem;z-index:9998;width:3.2rem;height:3.2rem;border-radius:50%;" +
+    "background:var(--copper,#a5652f);color:#fff;border:none;font-size:1.4rem;cursor:pointer;" +
+    "box-shadow:0 2px 10px rgba(0,0,0,0.3);";
+
+  const panel = document.createElement("div");
+  panel.id = "wegweiser-panel";
+  panel.style.cssText =
+    "position:fixed;right:1rem;bottom:4.6rem;z-index:9998;width:min(340px,90vw);max-height:70vh;" +
+    "background:var(--paper,#fff);color:var(--ink,#28241f);border:1px solid var(--line,#ddd);border-radius:10px;" +
+    "box-shadow:0 4px 24px rgba(0,0,0,0.25);display:none;flex-direction:column;overflow:hidden;font-family:Georgia,serif;";
+  panel.innerHTML =
+    '<div style="padding:0.7rem 0.9rem;border-bottom:1px solid var(--line,#ddd);font-weight:bold;display:flex;justify-content:space-between;align-items:center;">' +
+    "<span>🧭 Der Wegweiser</span>" +
+    '<button id="wegweiser-close" aria-label="Schließen" style="background:none;border:none;font-size:1.1rem;cursor:pointer;color:inherit;">×</button>' +
+    "</div>" +
+    '<div id="wegweiser-msgs" style="flex:1;overflow-y:auto;padding:0.7rem 0.9rem;font-size:0.88rem;line-height:1.5;min-height:120px;max-height:45vh;"></div>' +
+    '<form id="wegweiser-form" style="display:flex;border-top:1px solid var(--line,#ddd);">' +
+    '<input id="wegweiser-input" type="text" placeholder="Frag zu einem Subtyp..." style="flex:1;border:none;padding:0.6rem;font-size:0.85rem;background:transparent;color:inherit;" />' +
+    '<button type="submit" style="border:none;background:none;padding:0 0.8rem;cursor:pointer;color:var(--copper,#a5652f);font-weight:bold;">→</button>' +
+    "</form>";
+
+  document.body.appendChild(btn);
+  document.body.appendChild(panel);
+
+  const msgsEl = panel.querySelector("#wegweiser-msgs");
+  const formEl = panel.querySelector("#wegweiser-form");
+  const inputEl = panel.querySelector("#wegweiser-input");
+  const closeEl = panel.querySelector("#wegweiser-close");
+
+  function addMsg(text, kind) {
+    const div = document.createElement("div");
+    div.style.cssText =
+      "margin-bottom:0.6rem;white-space:pre-wrap;" +
+      (kind === "user" ? "font-weight:bold;" : "") +
+      (kind === "meta" ? "font-size:0.78rem;color:var(--muted,#886);" : "");
+    div.textContent = text;
+    msgsEl.appendChild(div);
+    msgsEl.scrollTop = msgsEl.scrollHeight;
+    return div;
+  }
+
+  btn.addEventListener("click", function () {
+    panel.style.display = panel.style.display === "none" ? "flex" : "none";
+    if (panel.style.display === "flex") inputEl.focus();
+  });
+  closeEl.addEventListener("click", function () {
+    panel.style.display = "none";
+  });
+
+  formEl.addEventListener("submit", async function (e) {
+    e.preventDefault();
+    const question = inputEl.value.trim();
+    if (!question) return;
+    addMsg(question, "user");
+    inputEl.value = "";
+    const loadingEl = addMsg("… denkt nach …", "meta");
+
+    try {
+      const res = await fetch(WORKER_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ question: question, lang: "de" }),
+      });
+      const data = await res.json();
+      loadingEl.remove();
+      if (data.error) {
+        addMsg("Fehler: " + data.error, "meta");
+      } else {
+        addMsg(data.answer, "answer");
+        if (data.sources && data.sources.length) {
+          addMsg("Quellen: " + data.sources.join(", "), "meta");
+        }
+      }
+    } catch (err) {
+      loadingEl.remove();
+      addMsg("Verbindungsfehler. Bitte später erneut versuchen.", "meta");
+    }
+  });
+})();
 
 // Persönliche gesprochene Begrüßung – einmal pro Browser-Session, ausgelöst
 // durch die erste Nutzerinteraktion (Autoplay mit Ton wird sonst geblockt).
