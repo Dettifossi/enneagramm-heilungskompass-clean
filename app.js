@@ -1877,8 +1877,24 @@ function nav(active) {
   return `<nav class="tabbar" aria-label="${text.meta.mainNavigation}">${items}</nav>`;
 }
 
+// Ton-Einstellung: steuert die gesprochene Begrüßung (Start, Kauf-Freischaltung).
+// Wird lokal im Browser gespeichert (localStorage), gilt geräteweit und dauerhaft.
+const VOICE_MUTE_KEY = "kompass-voice-muted";
+function isVoiceMuted() { return localStorage.getItem(VOICE_MUTE_KEY) === "1"; }
+window.toggleVoiceMute = function() {
+  const muted = !isVoiceMuted();
+  localStorage.setItem(VOICE_MUTE_KEY, muted ? "1" : "0");
+  document.querySelectorAll(".voice-mute-btn").forEach(function(b) {
+    b.textContent = muted ? "🔇" : "🔊";
+    const label = muted ? "Sprachausgabe einschalten" : "Sprachausgabe ausschalten";
+    b.setAttribute("aria-label", label);
+    b.title = label;
+  });
+};
+
 function pageHeader(active) {
   const showBack = active && active !== "start";
+  const voiceMuted = isVoiceMuted();
   return `
     <header class="topline">
       <button class="brand" data-route="start" aria-label="${text.routes.start.brandAria}">
@@ -1891,6 +1907,7 @@ function pageHeader(active) {
     <div class="suche-bar-outer">
       <div style="display:flex;gap:0.5rem;align-items:center;">
       <button class="suche-bar-btn" data-route="suche" aria-label="Suche" style="flex:1;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>Suchen…</span></button>
+      <button class="voice-mute-btn" onclick="toggleVoiceMute()" aria-label="${voiceMuted ? "Sprachausgabe einschalten" : "Sprachausgabe ausschalten"}" title="${voiceMuted ? "Sprachausgabe einschalten" : "Sprachausgabe ausschalten"}" style="flex-shrink:0;background:none;border:1px solid var(--line);border-radius:50%;width:2.1rem;height:2.1rem;font-size:0.95rem;cursor:pointer;">${voiceMuted ? "🔇" : "🔊"}</button>
       <button class="suche-fav-nav-btn" data-route="favoriten" aria-label="Favoriten" title="Meine Favoriten">♥</button>
       </div>
     </div>
@@ -48132,12 +48149,18 @@ setTimeout(showTagesimpuls, 600);
 (function initWelcomeGreeting() {
   const KEY = 'kompass-welcome-played';
   if (sessionStorage.getItem(KEY)) return;
+  if (isVoiceMuted()) return; // Nutzer hat die Sprachausgabe stummgeschaltet
   const code = hasProfile() ? getProfile().toLowerCase() : 'unknown';
   const url = 'sounds/welcome/welcome_' + code + '.mp3';
   const events = ['click', 'touchstart', 'keydown'];
   let played = false;
   const play = () => {
     if (played) return; // verhindert Doppel-Trigger (touchstart + click auf Mobilgeräten = Hall-Effekt)
+    if (isVoiceMuted()) { // erneut prüfen: Nutzer könnte zwischen Seitenaufruf und erster Interaktion stummgeschaltet haben
+      played = true;
+      events.forEach(ev => document.removeEventListener(ev, play));
+      return;
+    }
     played = true;
     sessionStorage.setItem(KEY, '1');
     events.forEach(ev => document.removeEventListener(ev, play));
@@ -48150,6 +48173,7 @@ setTimeout(showTagesimpuls, 600);
 // allgemeine Nachricht (Subtyp ist beim Kauf oft noch nicht bekannt). Klick auf
 // den Freischalt-Button ist selbst die Nutzerinteraktion, Autoplay ist also erlaubt.
 function playPurchaseWelcome() {
+  if (isVoiceMuted()) return;
   try { new Audio('sounds/purchase/purchase_willkommen.mp3').play().catch(() => {}); } catch (e) {}
 }
 
