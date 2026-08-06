@@ -44633,17 +44633,17 @@ function planetenzuordnungenPage() {
             <span class="vb-buch__hint">Leicht verständlicher Überblick über Astronomie, Physik und die Entstehung der Welt</span>
           </span>
         </a>
-        <a class="vb-buch" href="https://www.amazon.de/dp/3442317354?tag=enneagrammkom-21" target="_blank" rel="noopener sponsored">
+        <a class="vb-buch" href="https://www.amazon.de/dp/3860472445?tag=enneagrammkom-21" target="_blank" rel="noopener sponsored">
           <span class="vb-buch__icon">📖</span>
           <span class="vb-buch__body">
             <span class="vb-buch__name">Carl Sagan &ndash; Unser Kosmos</span>
             <span class="vb-buch__hint">Der zeitlose Klassiker über Astronomie, Philosophie und die Prinzipien des Universums</span>
           </span>
         </a>
-        <a class="vb-buch" href="https://www.amazon.de/dp/3440165841?tag=enneagrammkom-21" target="_blank" rel="noopener sponsored">
+        <a class="vb-buch" href="https://www.amazon.de/dp/3440167038?tag=enneagrammkom-21" target="_blank" rel="noopener sponsored">
           <span class="vb-buch__icon">📖</span>
           <span class="vb-buch__body">
-            <span class="vb-buch__name">Hermann-Michael Hahn &ndash; Welcher Stern ist das?</span>
+            <span class="vb-buch__name">Hermann-Michael Hahn &ndash; Welches Sternbild ist das?</span>
             <span class="vb-buch__hint">Handlicher Kosmos-Führer zum Beobachten von Sternbildern und Planeten</span>
           </span>
         </a>

@@ -24080,6 +24080,9 @@ const registerEntries = [
 
 const registerEntriesEN = [
 
+  { term: "Planets & Moons of the Solar System", route: "planetenzuordnungen", description: "Knowledge: Mercury to Pluto, each celestial body assigned to an Enneagram type" },
+  { term: "Country Assignments", route: "laenderzuordnungen", description: "Knowledge: 202 countries of the world, thoroughly derived from core fear, motivation and essence" },
+
   // Famous Personalities \u2013 Portraits
   { term: "Vladimir Putin", route: "beruehmte-wladimir-putin", description: "Portrait: SX6w5 \u00b7 Sexual Type 6 \u00b7 Politician, President of the Russian Federation" },
   { term: "Scarlett Johansson", route: "beruehmte-scarlett-johansson", description: "Portrait: SX6w7 \u00b7 Sexual Type 6 \u00b7 Actress, producer" },
@@ -71768,17 +71771,17 @@ function planetenzuordnungenPage() {
             <span class="vb-buch__hint">Leicht verst\u00e4ndlicher \u00dcberblick \u00fcber Astronomie, Physik und die Entstehung der Welt</span>
           </span>
         </a>
-        <a class="vb-buch" href="https://www.amazon.de/dp/3442317354?tag=enneagrammkom-21" target="_blank" rel="noopener sponsored">
+        <a class="vb-buch" href="https://www.amazon.de/dp/3860472445?tag=enneagrammkom-21" target="_blank" rel="noopener sponsored">
           <span class="vb-buch__icon">\ud83d\udcd6</span>
           <span class="vb-buch__body">
             <span class="vb-buch__name">Carl Sagan &ndash; Unser Kosmos</span>
             <span class="vb-buch__hint">Der zeitlose Klassiker \u00fcber Astronomie, Philosophie und die Prinzipien des Universums</span>
           </span>
         </a>
-        <a class="vb-buch" href="https://www.amazon.de/dp/3440165841?tag=enneagrammkom-21" target="_blank" rel="noopener sponsored">
+        <a class="vb-buch" href="https://www.amazon.de/dp/3440167038?tag=enneagrammkom-21" target="_blank" rel="noopener sponsored">
           <span class="vb-buch__icon">\ud83d\udcd6</span>
           <span class="vb-buch__body">
-            <span class="vb-buch__name">Hermann-Michael Hahn &ndash; Welcher Stern ist das?</span>
+            <span class="vb-buch__name">Hermann-Michael Hahn &ndash; Welches Sternbild ist das?</span>
             <span class="vb-buch__hint">Handlicher Kosmos-F\u00fchrer zum Beobachten von Sternbildern und Planeten</span>
           </span>
         </a>
