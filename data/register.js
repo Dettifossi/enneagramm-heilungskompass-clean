@@ -90,7 +90,7 @@ export const registerEntries = [
 
   // D
   { term: "Deutsche Bundesländer",   route: "bundeslaender",            description: "Schaubild: Zuordnung der 16 Bundesländer zu den 9 Enneagramm-Prinzipien" },
-  { term: "Länderzuordnungen",       route: "laenderzuordnungen",       description: "Wissen: 107 Länder der Welt, ausführlich hergeleitet aus Grundangst, Motivation und Essenz" },
+  { term: "Länderzuordnungen",       route: "laenderzuordnungen",       description: "Wissen: 202 Länder der Welt, ausführlich hergeleitet aus Grundangst, Motivation und Essenz" },
   { term: "Diagnose-Test",           route: "start",                    description: "Schnelltest: 9 Profile, Schnelleinstieg zur Typbestimmung" },
   { term: "Dialektische Struktur",   route: "dialektische-struktur",    description: "Schaubild: innere Gegensatzspannung jedes Typs" },
   { term: "Drei Lebenskräfte",       route: "drei-lebenskraefte",       description: "Schaubild: aktiv, ausgleichend, passiv &ndash; die drei Grundenergien der 9 Typen" },

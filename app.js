@@ -3944,7 +3944,7 @@ window._resetQuiz = function() {
 
 function _sucheResults(q) {
   const lq = q.toLowerCase();
-  const res = { subtypen: [], portraits: [], register: [], zitate: [] };
+  const res = { subtypen: [], portraits: [], register: [], zitate: [], laender: [] };
 
   Object.values(subtypeProfiles).forEach(p => {
     const hay = [p.code, p.title, p.titleAlt, p.archetype, p.subtitle || ""].join(" ").toLowerCase();
@@ -3963,6 +3963,14 @@ function _sucheResults(q) {
     if (hay.includes(lq)) res.register.push({ label: e.term, sub: (e.description || "").slice(0, 80), route: e.route });
   });
 
+  LAENDER_REGIONEN.forEach(r => {
+    r.laender.forEach(l => {
+      if (l.name.toLowerCase().includes(lq)) {
+        res.laender.push({ label: l.name, sub: r.region + " · Typ " + l.typ, route: "laenderzuordnungen|ll-" + l.iso });
+      }
+    });
+  });
+
   (window._zitateData || []).forEach(z => {
     const hay = (z.q + " " + z.a + " " + (z.t || "")).toLowerCase();
     if (hay.includes(lq)) {
@@ -3975,7 +3983,7 @@ function _sucheResults(q) {
 }
 
 function _sucheResultsHtml(res, q) {
-  const total = res.subtypen.length + res.portraits.length + res.register.length + res.zitate.length;
+  const total = res.subtypen.length + res.portraits.length + res.register.length + res.zitate.length + res.laender.length;
   if (total === 0) return `<p class="suche-hint">Keine Ergebnisse für „${q}“ gefunden.</p>`;
 
   const hl = (txt) => {
@@ -3999,6 +4007,7 @@ function _sucheResultsHtml(res, q) {
     ${group("Subtypen", res.subtypen)}
     ${group("Kriminalporträts", res.portraits)}
     ${group("Register &amp; Schaubilder", res.register)}
+    ${group("Länder", res.laender)}
     ${group("Zitate der Weisen", res.zitate)}`;
 }
 
