@@ -27186,7 +27186,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: pr\u00fcft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "461";
+const APP_BUILD = "462";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -71514,7 +71514,7 @@ function laenderzuordnungenPage() {
       <h2 class="bl-region__title">${r.region}</h2>
       <div class="bl-grid">
         ${r.laender.map(l => `
-          <div class="bl-card">
+          <div class="bl-card" id="ll-${l.iso}" data-ll-region="${r.region}" data-ll-typ="${l.typ}" data-ll-name="${l.name}">
             <div class="bl-card__badge" style="background:${typenFarben[l.typ] ?? 'var(--copper)'}">${flagEmoji(l.iso)} Typ ${l.typ}</div>
             <div class="bl-card__body">
               <h3 class="bl-card__name">${flagEmoji(l.iso)} ${l.name}</h3>
@@ -71525,6 +71525,27 @@ function laenderzuordnungenPage() {
       </div>
     </div>
   `).join("");
+
+  const llTotal = LAENDER_REGIONEN.reduce((s,r) => s+r.laender.length, 0);
+  function llFilterBar() {
+    const regionBtn = reg => '<button class="kf-btn" data-ll-region="'+reg+'" onclick="llSet(\'region\',\''+reg+'\')">'+(reg==="ALL"?"Alle":reg)+'</button>';
+    const typBtn = n => {
+      const col = n===0 ? null : (TYPE_COLORS[n]||"var(--copper)");
+      const style = col ? ' style="--kf-typ-col:'+col+';"' : '';
+      return '<button class="kf-btn kf-btn--typ'+(col?' kf-btn--typ-colored':'')+'"'
+        +' data-ll-typ-btn="'+n+'" data-kf-col="'+(col||'')+'"'
+        +style+' onclick="llSet(\'typ\','+n+')">'+(n===0?"Alle":n)+'</button>';
+    };
+    const allRegions = LAENDER_REGIONEN.map(r => r.region);
+    return '<div class="kf-bar">'
+      +'<div class="kf-row"><span class="kf-label">Region</span>'
+      +regionBtn("ALL")+allRegions.map(regionBtn).join("")+'</div>'
+      +'<div class="kf-row"><span class="kf-label">Typ</span>'
+      +typBtn(0)+[1,2,3,4,5,6,7,8,9].map(typBtn).join("")+'</div>'
+      +'<div class="kf-count"><span id="ll-count-num">'+llTotal+'</span> von '+llTotal+' L\u00e4ndern</div>'
+      +'<div class="kf-row" style="margin-top:0.4rem;"><button class="kf-btn" style="background:var(--gold);color:var(--anthracite,#2c2c2c);border-color:var(--gold-dark,#A8872D);font-weight:700;" onclick="llRandom()">&#127922; Zuf\u00e4lliges Land</button></div>'
+      +'</div>';
+  }
 
   return shell(`
     ${pageHeader("laenderzuordnungen")}
@@ -71552,6 +71573,7 @@ function laenderzuordnungenPage() {
       ${tabelleHtml}
       ${quelleHtml}
 
+      ${llFilterBar()}
       ${regionenHtml}
       ${diskussionHtml}
 
@@ -71579,6 +71601,45 @@ function laenderzuordnungenPage() {
     </div>
   `);
 }
+
+window.llState = { region:"ALL", typ:0 };
+window.llSet = function(dim, val) {
+  if(window.llState[dim]===val){ window.llState[dim]= dim==="typ"?0:"ALL"; }
+  else { window.llState[dim]=val; }
+  llApply();
+};
+window.llRandom = function() {
+  var cards = Array.prototype.slice.call(document.querySelectorAll(".bl-card[data-ll-name]")).filter(function(c){ return c.style.display !== "none"; });
+  if (!cards.length) return;
+  var pick = cards[Math.floor(Math.random() * cards.length)];
+  pick.scrollIntoView({behavior:"smooth", block:"center"});
+  var prevBoxShadow = pick.style.boxShadow, prevOutline = pick.style.outline;
+  pick.style.outline = "3px solid var(--gold)";
+  pick.style.boxShadow = "0 0 0 6px rgba(197,160,89,0.3)";
+  setTimeout(function(){
+    pick.style.outline = prevOutline;
+    pick.style.boxShadow = prevBoxShadow;
+  }, 1500);
+};
+window.llApply = function() {
+  const s = window.llState;
+  const cards = document.querySelectorAll(".bl-card[data-ll-region]");
+  let vis = 0;
+  cards.forEach(function(c){
+    const ok = (s.region==="ALL" || c.dataset.llRegion===s.region)
+      && (s.typ===0 || parseInt(c.dataset.llTyp)===s.typ);
+    c.style.display = ok ? "" : "none";
+    if(ok) vis++;
+  });
+  const cnt = document.getElementById("ll-count-num");
+  if(cnt) cnt.textContent = vis;
+  document.querySelectorAll(".kf-btn[data-ll-region]").forEach(function(b){
+    b.classList.toggle("kf-btn--active", b.dataset.llRegion===s.region||(s.region==="ALL"&&b.dataset.llRegion==="ALL"));
+  });
+  document.querySelectorAll(".kf-btn[data-ll-typ-btn]").forEach(function(b){
+    b.classList.toggle("kf-btn--active", parseInt(b.dataset.llTypBtn)===(s.typ||0));
+  });
+};
 
 function bundeslaenderPage() {
   const REGIONEN = [
