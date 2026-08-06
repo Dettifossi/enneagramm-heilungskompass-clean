@@ -4081,6 +4081,10 @@ const BOOK_EN_AMAZON = {
     url: "https://www.amazon.com/-/de/dp/B0H2FNYT27/ref=tmm_pap_swatch_0",
     title: "The Hidden Dynamics of the 27 Subtypes",
   },
+  "der-code-deiner-persoenlichkeit": {
+    url: "https://www.amazon.com/dp/B0G3Y8DBC9",
+    title: "The Code of Your Personality",
+  },
 };
 function bookTip(buchId, teaser, title) {
   const enBook = BOOK_EN_AMAZON[buchId];
