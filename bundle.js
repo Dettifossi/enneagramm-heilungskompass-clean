@@ -78999,8 +78999,9 @@ setTimeout(showTagesimpuls, 600);
     '<button id="wegweiser-close" aria-label="Schlie\u00dfen" style="background:none;border:none;font-size:1.1rem;cursor:pointer;color:inherit;">\u00d7</button>' +
     "</div>" +
     '<div id="wegweiser-msgs" style="flex:1;overflow-y:auto;padding:0.7rem 0.9rem;font-size:0.88rem;line-height:1.5;min-height:120px;max-height:45vh;"></div>' +
-    '<form id="wegweiser-form" style="display:flex;border-top:1px solid var(--line,#ddd);">' +
+    '<form id="wegweiser-form" style="display:flex;align-items:center;border-top:1px solid var(--line,#ddd);">' +
     '<input id="wegweiser-input" type="text" placeholder="Frag zu einem Subtyp..." style="flex:1;border:none;padding:0.6rem;font-size:0.85rem;background:transparent;color:inherit;" />' +
+    '<button type="button" id="wegweiser-mic" aria-label="Frage per Sprache eingeben" title="Spracheingabe" style="border:none;background:none;padding:0 0.4rem;cursor:pointer;font-size:1rem;color:var(--muted,#886);">\ud83c\udfa4</button>' +
     '<button type="submit" style="border:none;background:none;padding:0 0.8rem;cursor:pointer;color:var(--copper,#a5652f);font-weight:bold;">\u2192</button>' +
     "</form>";
 
@@ -79011,6 +79012,61 @@ setTimeout(showTagesimpuls, 600);
   const formEl = panel.querySelector("#wegweiser-form");
   const inputEl = panel.querySelector("#wegweiser-input");
   const closeEl = panel.querySelector("#wegweiser-close");
+  const micEl = panel.querySelector("#wegweiser-mic");
+
+  // Spracheingabe via Web Speech API (Chrome/Android gut unterst\u00fctzt,
+  // Safari/iOS eingeschr\u00e4nkt/nicht verf\u00fcgbar \u2013 dann Fallback-Hinweis).
+  const SpeechRecognitionCtor = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (SpeechRecognitionCtor) {
+    const recognition = new SpeechRecognitionCtor();
+    recognition.lang = "de-DE";
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 1;
+    let listening = false;
+
+    recognition.addEventListener("result", function (e) {
+      const transcript = e.results[0][0].transcript;
+      inputEl.value = transcript;
+      inputEl.focus();
+    });
+    recognition.addEventListener("end", function () {
+      listening = false;
+      micEl.textContent = "\ud83c\udfa4";
+      micEl.style.color = "var(--muted,#886)";
+    });
+    recognition.addEventListener("error", function () {
+      listening = false;
+      micEl.textContent = "\ud83c\udfa4";
+      micEl.style.color = "var(--muted,#886)";
+      addMsgFallbackNotice();
+    });
+
+    function addMsgFallbackNotice() {
+      addMsg("Spracheingabe hat nicht funktioniert. Bitte Mikrofonzugriff erlauben oder Frage eintippen.", "meta");
+    }
+
+    micEl.addEventListener("click", function () {
+      if (listening) {
+        recognition.stop();
+        return;
+      }
+      listening = true;
+      micEl.textContent = "\ud83d\udd34";
+      micEl.style.color = "#c0392b";
+      try {
+        recognition.start();
+      } catch (e) {
+        listening = false;
+        micEl.textContent = "\ud83c\udfa4";
+      }
+    });
+  } else {
+    // Kein Web-Speech-Support (z.B. viele Safari/iOS-Versionen) \u2013 Mikrofon-Button
+    // bleibt sichtbar, weist beim Klick nur auf die Texteingabe hin.
+    micEl.addEventListener("click", function () {
+      addMsg("Spracheingabe wird von diesem Browser leider nicht unterst\u00fctzt. Bitte die Frage eintippen.", "meta");
+    });
+  }
 
   function addMsg(text, kind) {
     const div = document.createElement("div");

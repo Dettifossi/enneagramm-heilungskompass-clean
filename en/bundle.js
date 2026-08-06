@@ -45236,8 +45236,9 @@ setTimeout(showTagesimpuls, 600);
     '<button id="wegweiser-close" aria-label="Close" style="background:none;border:none;font-size:1.1rem;cursor:pointer;color:inherit;">×</button>' +
     "</div>" +
     '<div id="wegweiser-msgs" style="flex:1;overflow-y:auto;padding:0.7rem 0.9rem;font-size:0.88rem;line-height:1.5;min-height:120px;max-height:45vh;"></div>' +
-    '<form id="wegweiser-form" style="display:flex;border-top:1px solid var(--line,#ddd);">' +
+    '<form id="wegweiser-form" style="display:flex;align-items:center;border-top:1px solid var(--line,#ddd);">' +
     '<input id="wegweiser-input" type="text" placeholder="Ask about a subtype..." style="flex:1;border:none;padding:0.6rem;font-size:0.85rem;background:transparent;color:inherit;" />' +
+    '<button type="button" id="wegweiser-mic" aria-label="Ask by voice" title="Voice input" style="border:none;background:none;padding:0 0.4rem;cursor:pointer;font-size:1rem;color:var(--muted,#886);">🎤</button>' +
     '<button type="submit" style="border:none;background:none;padding:0 0.8rem;cursor:pointer;color:var(--copper,#a5652f);font-weight:bold;">→</button>' +
     "</form>";
 
@@ -45248,6 +45249,55 @@ setTimeout(showTagesimpuls, 600);
   const formEl = panel.querySelector("#wegweiser-form");
   const inputEl = panel.querySelector("#wegweiser-input");
   const closeEl = panel.querySelector("#wegweiser-close");
+  const micEl = panel.querySelector("#wegweiser-mic");
+
+  // Voice input via Web Speech API (well supported on Chrome/Android,
+  // limited/unavailable on Safari/iOS – falls back to a text hint there).
+  const SpeechRecognitionCtor = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (SpeechRecognitionCtor) {
+    const recognition = new SpeechRecognitionCtor();
+    recognition.lang = "en-US";
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 1;
+    let listening = false;
+
+    recognition.addEventListener("result", function (e) {
+      const transcript = e.results[0][0].transcript;
+      inputEl.value = transcript;
+      inputEl.focus();
+    });
+    recognition.addEventListener("end", function () {
+      listening = false;
+      micEl.textContent = "🎤";
+      micEl.style.color = "var(--muted,#886)";
+    });
+    recognition.addEventListener("error", function () {
+      listening = false;
+      micEl.textContent = "🎤";
+      micEl.style.color = "var(--muted,#886)";
+      addMsg("Voice input didn't work. Please allow microphone access or type your question.", "meta");
+    });
+
+    micEl.addEventListener("click", function () {
+      if (listening) {
+        recognition.stop();
+        return;
+      }
+      listening = true;
+      micEl.textContent = "🔴";
+      micEl.style.color = "#c0392b";
+      try {
+        recognition.start();
+      } catch (e) {
+        listening = false;
+        micEl.textContent = "🎤";
+      }
+    });
+  } else {
+    micEl.addEventListener("click", function () {
+      addMsg("Voice input isn't supported by this browser. Please type your question instead.", "meta");
+    });
+  }
 
   function addMsg(text, kind) {
     const div = document.createElement("div");
