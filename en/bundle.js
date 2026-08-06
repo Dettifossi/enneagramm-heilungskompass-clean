@@ -2336,8 +2336,28 @@ function nav(active) {
   return `<nav class="tabbar" aria-label="${text.meta.mainNavigation}">${items}</nav>`;
 }
 
+// Voice setting: controls the spoken welcome greeting (start, purchase unlock).
+// Stored locally in the browser (localStorage), device-wide and persistent.
+const VOICE_MUTE_KEY = "kompass-voice-muted";
+function isVoiceMuted() { return localStorage.getItem(VOICE_MUTE_KEY) === "1"; }
+window.toggleVoiceMute = function() {
+  const muted = !isVoiceMuted();
+  localStorage.setItem(VOICE_MUTE_KEY, muted ? "1" : "0");
+  document.querySelectorAll(".voice-mute-btn").forEach(function(b) {
+    b.textContent = muted ? "🔇" : "🔊";
+    const label = muted ? "Turn voice on" : "Turn voice off";
+    b.setAttribute("aria-label", label);
+    b.title = label;
+  });
+  document.querySelectorAll(".voice-mute-btn-inline").forEach(function(b) {
+    b.textContent = muted ? "🔇 Greeting voice off – tap to enable" : "🔊 Greeting voice on – tap to disable";
+    b.style.color = muted ? "var(--muted)" : "var(--gold)";
+  });
+};
+
 function pageHeader(active) {
   const showBack = active && active !== "start";
+  const voiceMuted = isVoiceMuted();
   return `
     <header class="topline">
       <button class="brand" data-route="start" aria-label="${text.routes.start.brandAria}">
@@ -2350,6 +2370,7 @@ function pageHeader(active) {
     <div class="suche-bar-outer">
       <div style="display:flex;gap:0.5rem;align-items:center;">
       <button class="suche-bar-btn" data-route="suche" aria-label="Search" style="flex:1;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>Search…</span></button>
+      <button class="voice-mute-btn" onclick="toggleVoiceMute()" aria-label="${voiceMuted ? "Turn voice on" : "Turn voice off"}" title="${voiceMuted ? "Turn voice on" : "Turn voice off"}" style="flex-shrink:0;background:none;border:1px solid var(--line);border-radius:50%;width:2.1rem;height:2.1rem;font-size:0.95rem;cursor:pointer;">${voiceMuted ? "🔇" : "🔊"}</button>
       <button class="suche-fav-nav-btn" data-route="favoriten" aria-label="Favorites" title="Meine Favorites">♥</button>
       <a href="https://kompass.verlagshausrathmer.com/" class="suche-fav-nav-btn" aria-label="Deutsche Version" title="Zur deutschen Version" style="text-decoration:none;font-size:0.8rem;font-weight:600;letter-spacing:0.02em;" rel="noopener" onclick="_switchLangVoice(event, this.href, 'sounds/lang/switch_to_de.mp3')">🇩🇪 DE</a>
       </div>
@@ -3487,6 +3508,7 @@ function dashboardPage() {
         <button class="ghost-link" data-route="typalbum" style="margin-top:0.3rem;font-size:0.82rem;">🗂 My Type Album →</button>
         <a href="./vorstellung.html#video" target="_blank" rel="noopener" class="ghost-link" style="margin-top:0.3rem;font-size:0.82rem;text-decoration:none;display:inline-block;">🎬 Watch the intro video →</a>
         <button id="push-enable-btn" class="ghost-link" style="margin-top:0.3rem;font-size:0.78rem;color:var(--muted);">🔔 Enable push notifications</button>
+        <button class="ghost-link voice-mute-btn-inline" onclick="toggleVoiceMute()" style="margin-top:0.3rem;font-size:0.78rem;color:${isVoiceMuted() ? "var(--muted)" : "var(--gold)"};">${isVoiceMuted() ? "🔇 Greeting voice off – tap to enable" : "🔊 Greeting voice on – tap to disable"}</button>
       </div>
     </section>
     <section class="daily-grid">
@@ -45190,6 +45212,7 @@ setTimeout(showTagesimpuls, 600);
 (function initWelcomeGreeting() {
   const KEY = 'kompass-welcome-played';
   if (sessionStorage.getItem(KEY)) return;
+  if (isVoiceMuted()) return; // user has muted the voice greeting
   let code = hasProfile() ? getProfile().toLowerCase() : 'unknown';
   if (code !== 'unknown') code = code.replace(/^se/, 'sp'); // internal "se" = Self-Preservation
   const url = 'sounds/welcome/welcome_' + code + '.mp3';
@@ -45197,6 +45220,11 @@ setTimeout(showTagesimpuls, 600);
   let played = false;
   const play = () => {
     if (played) return; // prevents double-trigger (touchstart + click on mobile = echo effect)
+    if (isVoiceMuted()) { // re-check: user may have muted between page load and first interaction
+      played = true;
+      events.forEach(ev => document.removeEventListener(ev, play));
+      return;
+    }
     played = true;
     sessionStorage.setItem(KEY, '1');
     events.forEach(ev => document.removeEventListener(ev, play));
@@ -45209,6 +45237,7 @@ setTimeout(showTagesimpuls, 600);
 // message (subtype is often not yet known at purchase time). Clicking the
 // unlock button is itself the user interaction, so autoplay is allowed.
 function playPurchaseWelcome() {
+  if (isVoiceMuted()) return;
   try { new Audio('sounds/purchase/purchase_welcome.mp3').play().catch(() => {}); } catch (e) {}
 }
 
