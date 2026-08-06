@@ -28811,6 +28811,7 @@ window.addEventListener("hashchange", () => {
   if (window.__gtag) window.__gtag('event', 'page_view', { page_path: '/#' + newRoute, page_title: newRoute });
   render();
   if (scrollAnchor) setTimeout(() => {
+    if (newRoute === "laenderzuordnungen" && window._llFlushLazyRegions) window._llFlushLazyRegions();
     const el = document.getElementById(scrollAnchor);
     if (el) el.scrollIntoView({ behavior: "auto", block: "start" });
   }, 300);
