@@ -21,6 +21,14 @@ if (fs.existsSync(laenderPath)) {
   chunks.push(...laenderChunks);
 }
 
+// Weitere Wissensquellen ergänzen (falls bereits per extract-more.mjs generiert):
+// Tierlexikon, Situationskompass, Beziehungspaarungen, Verhalten, Differenzierungen
+const morePath = path.join(__dirname, "knowledge-more.json");
+if (fs.existsSync(morePath)) {
+  const moreChunks = JSON.parse(fs.readFileSync(morePath, "utf-8"));
+  chunks.push(...moreChunks);
+}
+
 const outDir = path.join(__dirname, "worker");
 fs.mkdirSync(outDir, { recursive: true });
 const outPath = path.join(outDir, "knowledge.json");

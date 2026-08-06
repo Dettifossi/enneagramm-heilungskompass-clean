@@ -22,7 +22,7 @@ async function askGemini(question, chunks, apiKey, lang) {
     .join("\n\n");
 
   const systemInstruction = lang === "en" ? SYSTEM_INSTRUCTION_EN : SYSTEM_INSTRUCTION_DE;
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${apiKey}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key=${apiKey}`;
   const body = {
     systemInstruction: { parts: [{ text: systemInstruction }] },
     contents: [{ role: "user", parts: [{ text: `Kontext:\n${context}\n\nFrage: ${question}` }] }],
