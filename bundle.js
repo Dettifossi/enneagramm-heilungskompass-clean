@@ -71564,7 +71564,7 @@ function laenderzuordnungenPage() {
       <h1 class="schaubild-page__title">L\u00e4nderzuordnungen &ndash; Alle L\u00e4nder der Welt</h1>
 
       <div style="max-width:420px;margin:0 auto 1.4rem;border-radius:16px;overflow:hidden;box-shadow:0 8px 28px rgba(0,0,0,0.25);">
-        <video autoplay loop muted playsinline preload="auto" style="display:block;width:100%;height:auto;" aria-label="Rotierende Erde (NASA Blue Marble, gemeinfrei)">
+        <video id="ll-earth-video" autoplay loop muted playsinline preload="metadata" style="display:block;width:100%;height:auto;" aria-label="Rotierende Erde (NASA Blue Marble, gemeinfrei)">
           <source src="./assets/video/earth-rotating-nasa.mp4" type="video/mp4" />
         </video>
       </div>
@@ -71634,6 +71634,17 @@ window.llRandom = function() {
 window.llBackToFilter = function() {
   var bar = document.getElementById("ll-filter-bar");
   if (bar) bar.scrollIntoView({behavior:"smooth", block:"start"});
+};
+window._llInitVideoObserver = function() {
+  var vid = document.getElementById("ll-earth-video");
+  if (!vid || !window.IntersectionObserver) return;
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) vid.play().catch(function(){});
+      else vid.pause();
+    });
+  }, { threshold: 0.1 });
+  obs.observe(vid);
 };
 window.llApply = function() {
   const s = window.llState;
@@ -74769,6 +74780,7 @@ function render() {
     }
     if (base === "admin") { adminPage(); requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; })); return; }
     if (base === "start") requestAnimationFrame(_bewertungSterneInit);
+    if (base === "laenderzuordnungen") requestAnimationFrame(window._llInitVideoObserver);
     if (base === "stille") requestAnimationFrame(_stilleInit);
     if (base === "bewusstseinstest") requestAnimationFrame(_bewusstseinsgradTestInit);
     if (base === "gesichts-scan") requestAnimationFrame(_gesichtsScanInit);
