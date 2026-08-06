@@ -44391,6 +44391,7 @@ function laenderzuordnungenPage() {
       <div class="bl-grid">
         ${r.laender.map(l => `
           <div class="bl-card" id="ll-${l.iso}" data-ll-region="${r.region}" data-ll-typ="${l.typ}" data-ll-name="${l.name}">
+            <button class="bl-card__back" onclick="llBackToFilter()" aria-label="Zurück zur Länderauswahl" title="Zurück zur Länderauswahl">&uarr;</button>
             <div class="bl-card__badge" style="background:${typenFarben[l.typ] ?? 'var(--copper)'}">${flagEmoji(l.iso)} Typ ${l.typ}</div>
             <div class="bl-card__body">
               <h3 class="bl-card__name">${flagEmoji(l.iso)} ${l.name}</h3>
@@ -44413,7 +44414,7 @@ function laenderzuordnungenPage() {
         +style+' onclick="llSet(\'typ\','+n+')">'+(n===0?"Alle":n)+'</button>';
     };
     const allRegions = LAENDER_REGIONEN.map(r => r.region);
-    return '<div class="kf-bar">'
+    return '<div class="kf-bar" id="ll-filter-bar">'
       +'<div class="kf-row"><span class="kf-label">Region</span>'
       +regionBtn("ALL")+allRegions.map(regionBtn).join("")+'</div>'
       +'<div class="kf-row"><span class="kf-label">Typ</span>'
@@ -44496,6 +44497,10 @@ window.llRandom = function() {
     pick.style.outline = prevOutline;
     pick.style.boxShadow = prevBoxShadow;
   }, 1500);
+};
+window.llBackToFilter = function() {
+  var bar = document.getElementById("ll-filter-bar");
+  if (bar) bar.scrollIntoView({behavior:"smooth", block:"start"});
 };
 window.llApply = function() {
   const s = window.llState;
