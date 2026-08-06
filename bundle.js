@@ -32711,6 +32711,10 @@ window.toggleVoiceMute = function() {
     b.setAttribute("aria-label", label);
     b.title = label;
   });
+  document.querySelectorAll(".voice-mute-btn-inline").forEach(function(b) {
+    b.textContent = muted ? "\ud83d\udd07 Begr\u00fc\u00dfungston aus \u2013 tippen zum Aktivieren" : "\ud83d\udd0a Begr\u00fc\u00dfungston an \u2013 tippen zum Deaktivieren";
+    b.style.color = muted ? "var(--muted)" : "var(--gold)";
+  });
 };
 
 function pageHeader(active) {
@@ -33900,6 +33904,7 @@ function dashboardPage() {
         <button class="ghost-link" data-route="typalbum" style="margin-top:0.3rem;font-size:0.82rem;">\ud83d\uddc2 Mein Typalbum \u2192</button>
         <a href="./vorstellung.html#video" target="_blank" rel="noopener" class="ghost-link" style="margin-top:0.3rem;font-size:0.82rem;text-decoration:none;display:inline-block;">\ud83c\udfac Vorstellungsvideo ansehen \u2192</a>
         <button id="push-enable-btn" class="ghost-link" style="margin-top:0.3rem;font-size:0.78rem;color:var(--muted);">\ud83d\udd14 Push-Benachrichtigungen aktivieren</button>
+        <button class="ghost-link voice-mute-btn-inline" onclick="toggleVoiceMute()" style="margin-top:0.3rem;font-size:0.78rem;color:${isVoiceMuted() ? "var(--muted)" : "var(--gold)"};">${isVoiceMuted() ? "\ud83d\udd07 Begr\u00fc\u00dfungston aus \u2013 tippen zum Aktivieren" : "\ud83d\udd0a Begr\u00fc\u00dfungston an \u2013 tippen zum Deaktivieren"}</button>
       </div>
     </section>
     <section class="daily-grid">
