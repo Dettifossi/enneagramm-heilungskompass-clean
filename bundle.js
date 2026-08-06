@@ -23522,7 +23522,7 @@ const registerEntries = [
 
   // D
   { term: "Deutsche Bundesl\u00e4nder",   route: "bundeslaender",            description: "Schaubild: Zuordnung der 16 Bundesl\u00e4nder zu den 9 Enneagramm-Prinzipien" },
-  { term: "L\u00e4nderzuordnungen",       route: "laenderzuordnungen",       description: "Wissen: 107 L\u00e4nder der Welt, ausf\u00fchrlich hergeleitet aus Grundangst, Motivation und Essenz" },
+  { term: "L\u00e4nderzuordnungen",       route: "laenderzuordnungen",       description: "Wissen: 202 L\u00e4nder der Welt, ausf\u00fchrlich hergeleitet aus Grundangst, Motivation und Essenz" },
   { term: "Diagnose-Test",           route: "start",                    description: "Schnelltest: 9 Profile, Schnelleinstieg zur Typbestimmung" },
   { term: "Dialektische Struktur",   route: "dialektische-struktur",    description: "Schaubild: innere Gegensatzspannung jedes Typs" },
   { term: "Drei Lebenskr\u00e4fte",       route: "drei-lebenskraefte",       description: "Schaubild: aktiv, ausgleichend, passiv &ndash; die drei Grundenergien der 9 Typen" },
@@ -31077,7 +31077,7 @@ window._resetQuiz = function() {
 
 function _sucheResults(q) {
   const lq = q.toLowerCase();
-  const res = { subtypen: [], portraits: [], register: [], zitate: [] };
+  const res = { subtypen: [], portraits: [], register: [], zitate: [], laender: [] };
 
   Object.values(subtypeProfiles).forEach(p => {
     const hay = [p.code, p.title, p.titleAlt, p.archetype, p.subtitle || ""].join(" ").toLowerCase();
@@ -31096,6 +31096,14 @@ function _sucheResults(q) {
     if (hay.includes(lq)) res.register.push({ label: e.term, sub: (e.description || "").slice(0, 80), route: e.route });
   });
 
+  LAENDER_REGIONEN.forEach(r => {
+    r.laender.forEach(l => {
+      if (l.name.toLowerCase().includes(lq)) {
+        res.laender.push({ label: l.name, sub: r.region + " \u00b7 Typ " + l.typ, route: "laenderzuordnungen|ll-" + l.iso });
+      }
+    });
+  });
+
   (window._zitateData || []).forEach(z => {
     const hay = (z.q + " " + z.a + " " + (z.t || "")).toLowerCase();
     if (hay.includes(lq)) {
@@ -31108,7 +31116,7 @@ function _sucheResults(q) {
 }
 
 function _sucheResultsHtml(res, q) {
-  const total = res.subtypen.length + res.portraits.length + res.register.length + res.zitate.length;
+  const total = res.subtypen.length + res.portraits.length + res.register.length + res.zitate.length + res.laender.length;
   if (total === 0) return `<p class="suche-hint">Keine Ergebnisse f\u00fcr \u201e${q}\u201c gefunden.</p>`;
 
   const hl = (txt) => {
@@ -31132,6 +31140,7 @@ function _sucheResultsHtml(res, q) {
     ${group("Subtypen", res.subtypen)}
     ${group("Kriminalportr\u00e4ts", res.portraits)}
     ${group("Register &amp; Schaubilder", res.register)}
+    ${group("L\u00e4nder", res.laender)}
     ${group("Zitate der Weisen", res.zitate)}`;
 }
 
