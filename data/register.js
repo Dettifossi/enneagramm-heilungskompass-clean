@@ -238,6 +238,7 @@ export const registerEntries = [
   { term: "Baumarten der 9 Typen", route: "baumarten", description: "9 Baumarten als archetypische Entsprechungen der Enneagrammtypen" },
   { term: "Berge der 9 Typen", route: "berge-der-9-typen", description: "9 berühmte Berge der Welt als archetypische Entsprechungen der Enneagrammtypen" },
   { term: "9 Jahreszyklen des Lebens", route: "9-jahreszyklen", description: "Schaubild: 9 Neunjahresphasen des menschlichen Lebens, von Geburt bis Vollendung, je einem Enneagrammtyp zugeordnet" },
+  { term: "Temperamentenlehre der Antike", route: "temperamentenlehre-antike", description: "Schaubild: die 4 antiken Temperamente (Choleriker, Sanguiniker, Melancholiker, Phlegmatiker) den 9 Enneagrammtypen zugeordnet" },
   { term: "Luxusautos der 9 Typen", route: "luxusautos-der-9-typen", description: "9 Luxusautos als archetypische Entsprechungen der Enneagrammtypen" },
   { term: "Luxusuhren der 9 Typen", route: "luxusuhren-der-9-typen", description: "9 Luxusuhren als archetypische Entsprechungen der Enneagrammtypen" },
   { term: "Brillenmodelle der 9 Typen", route: "brillenmodelle-der-9-typen", description: "9 Brillenmodelle als archetypische Entsprechungen der Enneagrammtypen" },
