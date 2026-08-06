@@ -9849,6 +9849,11 @@ const AFFILIATE_LINKS = {
     "Planisphere": "https://www.amazon.com/dp/0961320753?tag=enneagramcomp-20",
     "Beginner Binoculars": "https://www.amazon.com/dp/B00008Y0VN?tag=enneagramcomp-20",
     "Tabletop Telescope": "https://www.amazon.com/dp/B00DV6SBRO?tag=enneagramcomp-20",
+    "Orrery Model": "https://www.amazon.com/dp/B0GRMFGPY9?tag=enneagramcomp-20",
+  },
+  deko: {
+    "Illuminated Globe": "https://www.amazon.com/dp/B00686HNO6?tag=enneagramcomp-20",
+    "World Map": "https://www.amazon.com/dp/0792283279?tag=enneagramcomp-20",
   },
 };
 
@@ -41463,6 +41468,13 @@ const LAENDER_REGIONEN = [
         </p>
       </div>
 
+      <div class="vb-buecher">
+        <h3 class="vb-buecher__title">Globe &amp; World Map for Home</h3>
+        ${affiliateBoxHtml("deko", "Illuminated Globe", "A classic for the shelf: illuminated globe with day and night view")}
+        ${affiliateBoxHtml("deko", "World Map", "For the study: large-format, laminated National Geographic world map")}
+        <p style="font-size:0.72rem;color:var(--muted);margin:0.6rem 0 0;">*Affiliate links to Amazon. If you make a purchase, we earn a small commission at no extra cost to you.</p>
+      </div>
+
       ${relatedLinks([
         {route:"bundeslaender", label:"German Federal States: Diagram"},
         {route:"epochen-weltgeschichte", label:"Epochs of World History"},
@@ -41638,6 +41650,7 @@ function planetenzuordnungenPage() {
         ${affiliateBoxHtml("astro", "Red Light Flashlight", "Night-vision tip: red light doesn't ruin your eyes' dark adaptation like a phone screen")}
         ${affiliateBoxHtml("astro", "Beginner Binoculars", "See the planets up close: binoculars for observing the night sky with your own eyes")}
         ${affiliateBoxHtml("astro", "Tabletop Telescope", "See moon craters &amp; Jupiter live: a compact beginner telescope")}
+        ${affiliateBoxHtml("astro", "Orrery Model", "Hands-on: a mechanical orrery that makes planetary orbits tangible")}
         ${affiliateBoxHtml("astro", "Planisphere", "Analog tool: a classic rotating star finder for outdoor use")}
         <p style="font-size:0.72rem;color:var(--muted);margin:0.6rem 0 0;">*Affiliate links to Amazon. If you make a purchase, we earn a small commission at no extra cost to you.</p>
       </div>

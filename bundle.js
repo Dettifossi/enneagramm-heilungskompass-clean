@@ -33108,6 +33108,11 @@ const AFFILIATE_LINKS = {
     "Drehbare Sternkarte": "https://www.amazon.de/dp/3440154513?tag=enneagrammkom-21",
     "Einsteiger-Fernglas": "https://www.amazon.de/dp/B00008Y0VN?tag=enneagrammkom-21",
     "Tisch-Teleskop": "https://www.amazon.de/dp/B00DV6SBRO?tag=enneagrammkom-21",
+    "Sonnensystem-Modell": "https://www.amazon.de/dp/B0GRMFGPY9?tag=enneagrammkom-21",
+  },
+  deko: {
+    "Leuchtglobus": "https://www.amazon.de/dp/3871292087?tag=enneagrammkom-21",
+    "Weltkarte": "https://www.amazon.de/dp/0792283279?tag=enneagrammkom-21",
   },
 };
 
@@ -71624,6 +71629,13 @@ function laenderzuordnungenPage() {
         </p>
       </div>
 
+      <div class="vb-buecher">
+        <h3 class="vb-buecher__title">Globus &amp; Weltkarte f\u00fcr zu Hause</h3>
+        ${affiliateBoxHtml("deko", "Leuchtglobus", "Klassiker f\u00fcrs Regal: Leuchtglobus mit Holzfu\u00df, Tag- und Nachtansicht")}
+        ${affiliateBoxHtml("deko", "Weltkarte", "F\u00fcrs Arbeitszimmer: gro\u00dfformatige, laminierte Weltkarte von National Geographic")}
+        <p style="font-size:0.72rem;color:var(--muted);margin:0.6rem 0 0;">*Affiliate-Links zu Amazon. Bei einem Kauf erhalten wir eine kleine Provision, f\u00fcr dich \u00e4ndert sich der Preis nicht.</p>
+      </div>
+
       ${relatedLinks([
         {route:"bundeslaender", label:"Deutsche Bundesl\u00e4nder: Schaubild"},
         {route:"epochen-weltgeschichte", label:"Epochen der Weltgeschichte"},
@@ -71800,6 +71812,7 @@ function planetenzuordnungenPage() {
         ${affiliateBoxHtml("astro", "Einsteiger-Fernglas", "Planeten hautnah: Fernglas f\u00fcr die Himmelsbeobachtung mit eigenen Augen")}
         ${affiliateBoxHtml("astro", "Tisch-Teleskop", "Mondkrater &amp; Jupiter live sehen: kompaktes Einsteiger-Teleskop")}
         ${affiliateBoxHtml("astro", "Drehbare Sternkarte", "Analoges Werkzeug: klassische drehbare Sternkarte f\u00fcr drau\u00dfen")}
+        ${affiliateBoxHtml("astro", "Sonnensystem-Modell", "Zum Anfassen: mechanisches Orrery-Modell, das die Planetenbahnen greifbar macht")}
         <p style="font-size:0.72rem;color:var(--muted);margin:0.6rem 0 0;">*Affiliate-Links zu Amazon. Bei einem Kauf erhalten wir eine kleine Provision, f\u00fcr dich \u00e4ndert sich der Preis nicht.</p>
       </div>
 
