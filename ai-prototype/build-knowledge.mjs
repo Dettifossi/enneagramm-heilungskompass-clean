@@ -29,6 +29,13 @@ if (fs.existsSync(morePath)) {
   chunks.push(...moreChunks);
 }
 
+// Register ergänzen (falls bereits per extract-register.mjs generiert)
+const registerPath = path.join(__dirname, "knowledge-register.json");
+if (fs.existsSync(registerPath)) {
+  const registerChunks = JSON.parse(fs.readFileSync(registerPath, "utf-8"));
+  chunks.push(...registerChunks);
+}
+
 const outDir = path.join(__dirname, "worker");
 fs.mkdirSync(outDir, { recursive: true });
 const outPath = path.join(outDir, "knowledge.json");
