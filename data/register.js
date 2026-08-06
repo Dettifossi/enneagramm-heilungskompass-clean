@@ -647,6 +647,8 @@ export const registerEntries = [
 
 export const registerEntriesEN = [
 
+  { term: "Planets & Moons of the Solar System", route: "planetenzuordnungen", description: "Knowledge: Mercury to Pluto, each celestial body assigned to an Enneagram type" },
+
   // Famous Personalities – Portraits
   { term: "Vladimir Putin", route: "beruehmte-wladimir-putin", description: "Portrait: SX6w5 · Sexual Type 6 · Politician, President of the Russian Federation" },
   { term: "Scarlett Johansson", route: "beruehmte-scarlett-johansson", description: "Portrait: SX6w7 · Sexual Type 6 · Actress, producer" },

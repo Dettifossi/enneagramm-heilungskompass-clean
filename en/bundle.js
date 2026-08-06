@@ -1647,6 +1647,7 @@ text.nav = [
     { route: "enneagramm-filme", label: "Enneagram Movie Recommendations" },
     { route: "kriminalpsychologie", label: "Fascinating Criminal Cases (Criminal Psychology)" },
     { route: "laenderzuordnungen", label: "Country Assignments" },
+    { route: "planetenzuordnungen", label: "Planets & Moons of the Solar System" },
     { route: "tierlexikon", label: "Animal Lexicon" },
   ]},
   { route: "schaubilder", label: "Diagrams", dropdown: [
@@ -41484,6 +41485,96 @@ window.llApply = function() {
   });
 };
 
+const PLANETEN_DATEN_EN = [
+  { name: "Saturn", bild: "saturn.jpg", typ: 1,
+    text: "Few sights in the solar system are as ordered as Saturn's ring system – billions of ice and rock fragments, each on its exact orbit, arranged in strict, concentric circles around the planet. Saturn is named after the Titan of time and harvest, and in astrology it is the planet of discipline, duty, and boundaries, enforcing structure where chaos would otherwise reign. This is the signature of the One: a deep need for order, regularity, and reliability – freedom not in the unbound, but in the cleanly kept form." },
+  { name: "Venus", bild: "venus.jpg", typ: 2,
+    text: "Named after the goddess of love and beauty, Venus is wrapped in a dense, all-enveloping cloud layer – nothing hard or sharp is shown to the outside, only a warm, veiling surface. After the sun and moon it is the brightest object in the night sky, and since antiquity, as the morning and evening star, it has embodied attraction and longing, the desire to be seen and wanted. The Two seeks exactly that: creating closeness, caring for others, pleasing, dissolving into the gaze of another – Venus lives out this longing as a cosmic principle." },
+  { name: "Neptune", bild: "neptun.jpg", typ: 3,
+    text: "Named after the god of the sea, Neptune appears as a flawless, glossy blue sphere – but in fact this deep blue is largely an effect of light refraction on methane in the atmosphere, not what an observer on site would actually see. Neptune is so far away that it remains invisible to the naked eye and was discovered in 1846 through mathematical prediction rather than direct observation – a planet that first existed as a pure forecast, an effect without a visible cause. That is the Three: the flawless, carefully staged surface, the image that convinces before anyone asks what is really behind it." },
+  { name: "Uranus", bild: "uranus.jpg", typ: 4,
+    text: "Uranus stands apart from every other planet: its rotation axis lies almost entirely on its side, so it essentially \"rolls\" around the sun instead of spinning upright – a radical, literal deviation from the norm of the rest of the solar system. Only recognized as a planet in 1781, it was the first newly discovered celestial body since antiquity to break open a millennia-old worldview. That is the Four: deliberate difference, the break with convention, the refusal to conform to the familiar order because one's own, unique nature matters more than fitting in." },
+  { name: "Mercury", bild: "merkur.jpg", typ: 5,
+    text: "As the fastest and sun-closest planet, Mercury bears the name of the Roman messenger god – cool, agile, constantly in motion, yet never truly emotionally involved. Its extreme proximity to the sun forces it into a life on the edge of burning up, which is why it has retreated into an armored, crater-covered distance, almost without atmosphere – a planet that observes but does not expose itself. That is exactly the signature of the Five: fast, precise gathering of information while simultaneously withdrawing into a safe interior, mapping the world from cover rather than exposing itself to it unprotected." },
+  { name: "Earth", bild: "erde.jpg", typ: 6,
+    text: "The only planet we know from our own experience, because it is the only solid ground we have – a thin, vulnerable layer of atmosphere, water, and magnetic field that shields life against the lethal emptiness of space. This need for protection shapes every human civilization: stockpiling, alliances, safeguards against catastrophe, the need to secure the ground beneath one's feet. That is exactly the Six: the awareness that safety is nothing to be taken for granted, but must be actively defended." },
+  { name: "Jupiter", bild: "jupiter.jpg", typ: 7,
+    text: "By far the largest planet in the solar system, named after the king of the gods – its massive, colorful cloud bands swirl in permanent, vibrant motion, driven by a sheer abundance of energy that knows no standstill. In astrology, Jupiter has always been the planet of luck, expansion, and abundance – those born under it are said to have generosity and joie de vivre. The Seven lives out exactly this vastness: always new possibilities, never lingering in one place, understanding life as an open, lush space." },
+  { name: "Mars", bild: "mars.jpg", typ: 8,
+    text: "The red planet bears the name of the god of war – its rust-red color comes from oxidized iron, literally \"blood\" in the rock, and its surface is marked by massive volcanoes, canyons, and impact craters that speak of raw, unbridled geological force. No planet stands so directly for confrontation, assertiveness, and the fight for survival under hostile conditions. That is the Eight in its purest form: direct force, no detours, no pretense – strength that needs no justification." },
+  { name: "Pluto", bild: "pluto.jpg", typ: 9,
+    text: "Discovered in 1930 as the ninth planet and an obvious part of every textbook list for over 76 years, Pluto was demoted to \"dwarf planet\" status in 2006 at a sparsely attended IAU conference – many delegates had already left – by a minority of the remaining astronomers. Overnight it publicly lost its status as \"full-fledged,\" even though nothing had changed about its physical reality: it still orbits the sun, undeterred, with its own moon, its own thin atmosphere, its own geological activity – just now at the margin, in half-darkness, barely noticed anymore. That is exactly the Nine: being declared unimportant, holding oneself back, being pushed to the edge – and still, quietly, unshakably continuing to follow one's own path." },
+];
+
+function planetenzuordnungenPage() {
+  const typenFarben = TYPE_COLORS;
+  const cardsHtml = PLANETEN_DATEN_EN.map(p => `
+    <div class="bl-card" id="pl-${p.name}" data-pl-typ="${p.typ}" data-pl-name="${p.name}">
+      <img src="../assets/planeten/${p.bild}" alt="${p.name} (NASA, public domain)" loading="lazy" style="display:block;width:100%;height:180px;object-fit:cover;" />
+      <div class="bl-card__badge" style="background:${typenFarben[p.typ] ?? 'var(--copper)'}">Type ${p.typ}</div>
+      <div class="bl-card__body">
+        <h3 class="bl-card__name">${p.name}</h3>
+        <p class="bl-card__beschreibung">${p.text}</p>
+      </div>
+    </div>
+  `).join("");
+
+  return shell(`
+    ${pageHeader("planetenzuordnungen")}
+    <div class="schaubild-page">
+      <p class="eyebrow">Knowledge · Astronomy</p>
+      <h1 class="schaubild-page__title">Planets &amp; Moons of the Solar System</h1>
+      <p class="schaubild-page__intro">The nine classical bodies of our solar system &ndash; Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, and Pluto &ndash; and their predominant Enneagram principle. A well-founded, but deliberately playful analogy between astronomical character, mythology, and the nine core patterns.</p>
+
+      <div style="max-width:640px;margin:0 auto 0.4rem;border-radius:12px;overflow:hidden;">
+        <img src="../assets/planeten/groessenvergleich.jpg" alt="Size comparison of all planets and Pluto in the solar system (NASA, public domain)" style="display:block;width:100%;height:auto;" />
+      </div>
+      <p style="text-align:center;font-size:0.72rem;color:var(--muted);margin:-0.4rem 0 1.2rem;">Size comparison: NASA &ndash; Public Domain. Distances are not to scale, only the relative sizes.</p>
+
+      <div style="background:var(--paper-deep,#ede8dc);border-left:3px solid var(--copper);border-radius:0 10px 10px 0;padding:1.1rem 1.3rem;margin:1.2rem 0;">
+        <p style="font-size:0.88rem;line-height:1.65;color:var(--ink);margin:0 0 0.7rem;">Pluto's official planet status was revoked in 2006 &ndash; it has since been classified as a dwarf planet. This assignment deliberately keeps the original count of nine (including Pluto), because nine celestial bodies map organically onto nine Enneagram types &ndash; and because Pluto's own story of demotion and being overlooked itself offers a fitting image for an Enneagram principle (see below).</p>
+        <p style="font-size:0.88rem;line-height:1.65;color:var(--ink);margin:0;">All photos: NASA/JPL-Caltech, public domain.</p>
+      </div>
+
+      <div class="bl-grid">
+        ${cardsHtml}
+      </div>
+
+      <div class="vb-buecher">
+        <h3 class="vb-buecher__title">Book Recommendations</h3>
+        <a class="vb-buch" href="https://www.amazon.com/dp/076790818X?tag=enneagramcomp-20" target="_blank" rel="noopener sponsored">
+          <span class="vb-buch__icon">📖</span>
+          <span class="vb-buch__body">
+            <span class="vb-buch__name">Bill Bryson &ndash; A Short History of Nearly Everything</span>
+            <span class="vb-buch__hint">An accessible overview of astronomy, physics, and the origins of the world</span>
+          </span>
+        </a>
+        <a class="vb-buch" href="https://www.amazon.com/dp/0345539435?tag=enneagramcomp-20" target="_blank" rel="noopener sponsored">
+          <span class="vb-buch__icon">📖</span>
+          <span class="vb-buch__body">
+            <span class="vb-buch__name">Carl Sagan &ndash; Cosmos</span>
+            <span class="vb-buch__hint">The timeless classic on astronomy, philosophy, and the principles of the universe</span>
+          </span>
+        </a>
+        <a class="vb-buch" href="https://www.amazon.com/dp/0228104394?tag=enneagramcomp-20" target="_blank" rel="noopener sponsored">
+          <span class="vb-buch__icon">📖</span>
+          <span class="vb-buch__body">
+            <span class="vb-buch__name">Terence Dickinson &ndash; NightWatch</span>
+            <span class="vb-buch__hint">The world's best-selling practical guide to observing stars and planets</span>
+          </span>
+        </a>
+        <p style="font-size:0.72rem;color:var(--muted);margin:0.6rem 0 0;">*Affiliate links to Amazon. If you make a purchase, we earn a small commission at no extra cost to you.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"laenderzuordnungen", label:"Country Assignments: All Countries of the World"},
+        {route:"enneagramm-astrologie", label:"Enneagram meets Astrology"},
+        {route:"angst-essenz", label:"Diagram: Fear → Essence"},
+      ])}
+    </div>
+  `);
+}
+
 function bundeslaenderPage() {
   const REGIONEN = [
     {
@@ -44611,6 +44702,7 @@ function subtypeSchaubilderPage() {
     "maennliche-weibliche-seite": maennlicheWeiblicheSeitePage,
     "bundeslaender": bundeslaenderPage,
     "laenderzuordnungen": laenderzuordnungenPage,
+    "planetenzuordnungen": planetenzuordnungenPage,
     "stille": stillePage,
     "musik":  musikPage,
     "typenvergleiche": typenvergleichePage,
