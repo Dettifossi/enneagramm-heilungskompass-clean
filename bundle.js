@@ -79020,25 +79020,33 @@ setTimeout(showTagesimpuls, 600);
   if (SpeechRecognitionCtor) {
     const recognition = new SpeechRecognitionCtor();
     recognition.lang = "de-DE";
-    recognition.interimResults = false;
+    recognition.interimResults = true; // zeigt Text schon w\u00e4hrend des Sprechens live an
+    recognition.continuous = true; // bricht nicht nach der ersten kurzen Sprechpause ab
     recognition.maxAlternatives = 1;
     let listening = false;
 
     recognition.addEventListener("result", function (e) {
-      const transcript = e.results[0][0].transcript;
+      let transcript = "";
+      for (let i = 0; i < e.results.length; i++) {
+        transcript += e.results[i][0].transcript;
+      }
       inputEl.value = transcript;
-      inputEl.focus();
     });
     recognition.addEventListener("end", function () {
       listening = false;
       micEl.textContent = "\ud83c\udfa4";
       micEl.style.color = "var(--muted,#886)";
+      inputEl.focus();
     });
-    recognition.addEventListener("error", function () {
+    recognition.addEventListener("error", function (e) {
       listening = false;
       micEl.textContent = "\ud83c\udfa4";
       micEl.style.color = "var(--muted,#886)";
-      addMsgFallbackNotice();
+      // "no-speech" / "aborted" sind normale Abbr\u00fcche (z.B. Stille) - kein Fehlerhinweis n\u00f6tig,
+      // der bisher erkannte Text bleibt im Feld stehen und kann normal abgeschickt werden.
+      if (e.error !== "no-speech" && e.error !== "aborted") {
+        addMsgFallbackNotice();
+      }
     });
 
     function addMsgFallbackNotice() {

@@ -45257,25 +45257,33 @@ setTimeout(showTagesimpuls, 600);
   if (SpeechRecognitionCtor) {
     const recognition = new SpeechRecognitionCtor();
     recognition.lang = "en-US";
-    recognition.interimResults = false;
+    recognition.interimResults = true; // shows text live while speaking
+    recognition.continuous = true; // don't stop after the first short pause
     recognition.maxAlternatives = 1;
     let listening = false;
 
     recognition.addEventListener("result", function (e) {
-      const transcript = e.results[0][0].transcript;
+      let transcript = "";
+      for (let i = 0; i < e.results.length; i++) {
+        transcript += e.results[i][0].transcript;
+      }
       inputEl.value = transcript;
-      inputEl.focus();
     });
     recognition.addEventListener("end", function () {
       listening = false;
       micEl.textContent = "🎤";
       micEl.style.color = "var(--muted,#886)";
+      inputEl.focus();
     });
-    recognition.addEventListener("error", function () {
+    recognition.addEventListener("error", function (e) {
       listening = false;
       micEl.textContent = "🎤";
       micEl.style.color = "var(--muted,#886)";
-      addMsg("Voice input didn't work. Please allow microphone access or type your question.", "meta");
+      // "no-speech"/"aborted" are normal interruptions (e.g. silence) - keep whatever
+      // was already transcribed in the field instead of showing an error.
+      if (e.error !== "no-speech" && e.error !== "aborted") {
+        addMsg("Voice input didn't work. Please allow microphone access or type your question.", "meta");
+      }
     });
 
     micEl.addEventListener("click", function () {
