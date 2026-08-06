@@ -44658,11 +44658,11 @@ function planetenzuordnungenPage() {
             <span class="vb-buch__hint">Der zeitlose Klassiker über Astronomie, Philosophie und die Prinzipien des Universums</span>
           </span>
         </a>
-        <a class="vb-buch" href="https://www.amazon.de/dp/3440167038?tag=enneagrammkom-21" target="_blank" rel="noopener sponsored">
+        <a class="vb-buch" href="https://www.amazon.de/dp/3440173593?tag=enneagrammkom-21" target="_blank" rel="noopener sponsored">
           <span class="vb-buch__icon">📖</span>
           <span class="vb-buch__body">
-            <span class="vb-buch__name">Hermann-Michael Hahn &ndash; Welches Sternbild ist das?</span>
-            <span class="vb-buch__hint">Handlicher Kosmos-Führer zum Beobachten von Sternbildern und Planeten</span>
+            <span class="vb-buch__name">Hermann-Michael Hahn &ndash; Basic Sternbilder</span>
+            <span class="vb-buch__hint">103 Karten für die Jackentasche &ndash; alle Sternbilder für jede Jahreszeit</span>
           </span>
         </a>
         <p style="font-size:0.72rem;color:var(--muted);margin:0.6rem 0 0;">*Affiliate-Links zu Amazon. Bei einem Kauf erhalten wir eine kleine Provision, für dich ändert sich der Preis nicht.</p>
