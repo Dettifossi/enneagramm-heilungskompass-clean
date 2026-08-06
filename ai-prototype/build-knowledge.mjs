@@ -13,6 +13,14 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
 
 const chunks = loadAllKnowledge(rootDir);
+
+// Länderzuordnungen ergänzen (falls bereits per extract-laender.mjs generiert)
+const laenderPath = path.join(__dirname, "knowledge-laender.json");
+if (fs.existsSync(laenderPath)) {
+  const laenderChunks = JSON.parse(fs.readFileSync(laenderPath, "utf-8"));
+  chunks.push(...laenderChunks);
+}
+
 const outDir = path.join(__dirname, "worker");
 fs.mkdirSync(outDir, { recursive: true });
 const outPath = path.join(outDir, "knowledge.json");
