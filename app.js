@@ -44385,7 +44385,8 @@ function laenderzuordnungenPage() {
     </div>
   `;
 
-  const regionenHtml = LAENDER_REGIONEN.map(r => `
+  function llRegionHtml(r) {
+    return `
     <div class="bl-region">
       <h2 class="bl-region__title">${r.region}</h2>
       <div class="bl-grid">
@@ -44401,7 +44402,15 @@ function laenderzuordnungenPage() {
         `).join("")}
       </div>
     </div>
-  `).join("");
+  `;
+  }
+  window._llRegionHtml = window._llRegionHtml || {};
+  window._llRegionHtml.fn = llRegionHtml;
+  window._llRegionsData = LAENDER_REGIONEN;
+
+  const LL_EAGER_REGIONS = 1;
+  const regionenHtml = LAENDER_REGIONEN.slice(0, LL_EAGER_REGIONS).map(llRegionHtml).join("")
+    + `<div id="ll-lazy-container" data-ll-next="${LL_EAGER_REGIONS}"></div>`;
 
   const llTotal = LAENDER_REGIONEN.reduce((s,r) => s+r.laender.length, 0);
   function llFilterBar() {
@@ -44430,13 +44439,10 @@ function laenderzuordnungenPage() {
       <p class="eyebrow">Wissen · Kultur</p>
       <h1 class="schaubild-page__title">Länderzuordnungen &ndash; Alle Länder der Welt</h1>
 
-      <div style="max-width:420px;margin:0 auto 1.4rem;border-radius:16px;overflow:hidden;box-shadow:0 8px 28px rgba(0,0,0,0.25);position:relative;cursor:pointer;" onclick="_llPlayEarthVideo(this)">
-        <video id="ll-earth-video" muted playsinline preload="none" style="display:block;width:100%;height:auto;background:#0a1a2a;" aria-label="Rotierende Erde (NASA Blue Marble, gemeinfrei)">
+      <div style="max-width:420px;margin:0 auto 1.4rem;border-radius:16px;overflow:hidden;box-shadow:0 8px 28px rgba(0,0,0,0.25);">
+        <video id="ll-earth-video" autoplay loop muted playsinline preload="auto" style="display:block;width:100%;height:auto;" aria-label="Rotierende Erde (NASA Blue Marble, gemeinfrei)">
           <source src="./assets/video/earth-rotating-nasa.mp4" type="video/mp4" />
         </video>
-        <div id="ll-earth-playbtn" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.25);">
-          <span style="width:3.4rem;height:3.4rem;border-radius:50%;background:rgba(255,255,255,0.9);display:flex;align-items:center;justify-content:center;font-size:1.3rem;color:#1a1a1a;">&#9654;</span>
-        </div>
       </div>
       <p style="text-align:center;font-size:0.72rem;color:var(--muted);margin:-0.8rem 0 1.2rem;">Erdrotation: NASA Blue Marble Next Generation &ndash; gemeinfrei (Public Domain)</p>
 
@@ -44488,7 +44494,32 @@ window.llSet = function(dim, val) {
   else { window.llState[dim]=val; }
   llApply();
 };
+window._llFlushLazyRegions = function() {
+  var box = document.getElementById("ll-lazy-container");
+  if (!box) return;
+  var regions = window._llRegionsData;
+  var fn = window._llRegionHtml.fn;
+  if (!regions || !fn) return;
+  var next = parseInt(box.getAttribute("data-ll-next") || "0", 10);
+  var html = "";
+  for (; next < regions.length; next++) html += fn(regions[next]);
+  if (html) box.insertAdjacentHTML("beforebegin", html);
+  box.setAttribute("data-ll-next", String(next));
+};
+window._llLazyLoadStep = function() {
+  var box = document.getElementById("ll-lazy-container");
+  if (!box) return;
+  var regions = window._llRegionsData;
+  var fn = window._llRegionHtml.fn;
+  if (!regions || !fn) return;
+  var next = parseInt(box.getAttribute("data-ll-next") || "0", 10);
+  if (next >= regions.length) return;
+  box.insertAdjacentHTML("beforebegin", fn(regions[next]));
+  box.setAttribute("data-ll-next", String(next + 1));
+  requestAnimationFrame(window._llLazyLoadStep);
+};
 window.llRandom = function() {
+  window._llFlushLazyRegions();
   var cards = Array.prototype.slice.call(document.querySelectorAll(".bl-card[data-ll-name]")).filter(function(c){ return c.style.display !== "none"; });
   if (!cards.length) return;
   var pick = cards[Math.floor(Math.random() * cards.length)];
@@ -44505,24 +44536,11 @@ window.llBackToFilter = function() {
   var bar = document.getElementById("ll-filter-bar");
   if (bar) bar.scrollIntoView({behavior:"smooth", block:"start"});
 };
-window._llPlayEarthVideo = function(wrap) {
-  var vid = document.getElementById("ll-earth-video");
-  var btn = document.getElementById("ll-earth-playbtn");
-  if (!vid) return;
-  if (vid.getAttribute("data-started") !== "1") {
-    vid.setAttribute("data-started", "1");
-    vid.setAttribute("loop", "");
-    vid.load();
-  }
-  vid.play().catch(function(){});
-  if (btn) btn.style.display = "none";
-};
 window._llInitVideoObserver = function() {
   var vid = document.getElementById("ll-earth-video");
   if (!vid || !window.IntersectionObserver) return;
   var obs = new IntersectionObserver(function(entries) {
     entries.forEach(function(e) {
-      if (vid.getAttribute("data-started") !== "1") return;
       if (e.isIntersecting) vid.play().catch(function(){});
       else vid.pause();
     });
@@ -44530,6 +44548,7 @@ window._llInitVideoObserver = function() {
   obs.observe(vid);
 };
 window.llApply = function() {
+  window._llFlushLazyRegions();
   const s = window.llState;
   const cards = document.querySelectorAll(".bl-card[data-ll-region]");
   let vis = 0;
@@ -47663,7 +47682,10 @@ function render() {
     }
     if (base === "admin") { adminPage(); requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; })); return; }
     if (base === "start") requestAnimationFrame(_bewertungSterneInit);
-    if (base === "laenderzuordnungen") requestAnimationFrame(window._llInitVideoObserver);
+    if (base === "laenderzuordnungen") {
+      requestAnimationFrame(window._llInitVideoObserver);
+      setTimeout(function(){ requestAnimationFrame(window._llLazyLoadStep); }, 400);
+    }
     if (base === "stille") requestAnimationFrame(_stilleInit);
     if (base === "bewusstseinstest") requestAnimationFrame(_bewusstseinsgradTestInit);
     if (base === "gesichts-scan") requestAnimationFrame(_gesichtsScanInit);
