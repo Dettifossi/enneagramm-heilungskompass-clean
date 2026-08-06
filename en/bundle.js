@@ -2137,6 +2137,7 @@ window.addEventListener("hashchange", () => {
   if (window.__gtag) window.__gtag('event', 'page_view', { page_path: '/#' + newRoute, page_title: newRoute });
   render();
   if (scrollAnchor) setTimeout(() => {
+    if (newRoute === "laenderzuordnungen" && window._llFlushLazyRegions) window._llFlushLazyRegions();
     const el = document.getElementById(scrollAnchor);
     if (el) el.scrollIntoView({ behavior: "auto", block: "start" });
   }, 300);
@@ -4944,7 +4945,7 @@ window._resetQuiz = function() {
 
 function _sucheResults(q) {
   const lq = q.toLowerCase();
-  const res = { subtypen: [], portraits: [], register: [], zitate: [] };
+  const res = { subtypen: [], portraits: [], register: [], zitate: [], laender: [] };
 
   Object.values(subtypeProfiles).forEach(p => {
     const hay = [p.code, p.title_en || p.title, p.titleAlt, p.archetype, p.subtitle || ""].join(" ").toLowerCase();
@@ -4963,6 +4964,14 @@ function _sucheResults(q) {
     if (hay.includes(lq)) res.register.push({ label: e.term, sub: (e.description || "").slice(0, 80), route: e.route });
   });
 
+  LAENDER_REGIONEN.forEach(r => {
+    r.laender.forEach(l => {
+      if (l.name.toLowerCase().includes(lq)) {
+        res.laender.push({ label: l.name, sub: r.region + " · Type " + l.typ, route: "laenderzuordnungen|ll-" + l.iso });
+      }
+    });
+  });
+
   (window._zitateData || []).forEach(z => {
     const hay = (z.q + " " + z.a + " " + (z.t || "")).toLowerCase();
     if (hay.includes(lq)) {
@@ -4975,7 +4984,7 @@ function _sucheResults(q) {
 }
 
 function _sucheResultsHtml(res, q) {
-  const total = res.subtypen.length + res.portraits.length + res.register.length + res.zitate.length;
+  const total = res.subtypen.length + res.portraits.length + res.register.length + res.zitate.length + res.laender.length;
   if (total === 0) return `<p class="suche-hint">No results found for &ldquo;${q}&rdquo;.</p>`;
 
   const hl = (txt) => {
@@ -4995,10 +5004,11 @@ function _sucheResultsHtml(res, q) {
       </button>`).join("")}${more}</div>`;
   };
 
-  return `<p class="suche-total">${total} Ergebnis${total === 1 ? "" : "se"}</p>
+  return `<p class="suche-total">${total} result${total === 1 ? "" : "s"}</p>
     ${group("Subtypes", res.subtypen)}
-    ${group("Kriminalporträts", res.portraits)}
+    ${group("Criminal Portraits", res.portraits)}
     ${group("Register &amp; Charts", res.register)}
+    ${group("Countries", res.laender)}
     ${group("Quotes of the Wise", res.zitate)}`;
 }
 
@@ -41353,12 +41363,14 @@ const LAENDER_REGIONEN = [
     </div>
   `;
 
-  const regionenHtml = LAENDER_REGIONEN.map(r => `
+  function llRegionHtml(r) {
+    return `
     <div class="bl-region">
       <h2 class="bl-region__title">${r.region}</h2>
       <div class="bl-grid">
         ${r.laender.map(l => `
           <div class="bl-card" id="ll-${l.iso}" data-ll-region="${r.region}" data-ll-typ="${l.typ}" data-ll-name="${l.name}">
+            <button class="bl-card__back" onclick="llBackToFilter()" aria-label="Back to country filter" title="Back to country filter">&uarr;</button>
             <div class="bl-card__badge" style="background:${typenFarben[l.typ] ?? 'var(--copper)'}">${flagEmoji(l.iso)} Type ${l.typ}</div>
             <div class="bl-card__body">
               <h3 class="bl-card__name">${flagEmoji(l.iso)} ${l.name}</h3>
@@ -41368,7 +41380,15 @@ const LAENDER_REGIONEN = [
         `).join("")}
       </div>
     </div>
-  `).join("");
+  `;
+  }
+  window._llRegionHtml = window._llRegionHtml || {};
+  window._llRegionHtml.fn = llRegionHtml;
+  window._llRegionsData = LAENDER_REGIONEN;
+
+  const LL_EAGER_REGIONS = 1;
+  const regionenHtml = LAENDER_REGIONEN.slice(0, LL_EAGER_REGIONS).map(llRegionHtml).join("")
+    + `<div id="ll-lazy-container" data-ll-next="${LL_EAGER_REGIONS}"></div>`;
 
   const llTotal = LAENDER_REGIONEN.reduce((s,r) => s+r.laender.length, 0);
   function llFilterBar() {
@@ -41381,7 +41401,7 @@ const LAENDER_REGIONEN = [
         +style+' onclick="llSet(\'typ\','+n+')">'+(n===0?"All":n)+'</button>';
     };
     const allRegions = LAENDER_REGIONEN.map(r => r.region);
-    return '<div class="kf-bar">'
+    return '<div class="kf-bar" id="ll-filter-bar">'
       +'<div class="kf-row"><span class="kf-label">Region</span>'
       +regionBtn("ALL")+allRegions.map(regionBtn).join("")+'</div>'
       +'<div class="kf-row"><span class="kf-label">Type</span>'
@@ -41398,7 +41418,7 @@ const LAENDER_REGIONEN = [
       <h1 class="schaubild-page__title">Country Assignments &ndash; All Countries of the World</h1>
 
       <div style="max-width:420px;margin:0 auto 1.4rem;border-radius:16px;overflow:hidden;box-shadow:0 8px 28px rgba(0,0,0,0.25);">
-        <video autoplay loop muted playsinline preload="auto" style="display:block;width:100%;height:auto;" aria-label="Rotating Earth (NASA Blue Marble, public domain)">
+        <video id="ll-earth-video" autoplay loop muted playsinline preload="auto" style="display:block;width:100%;height:auto;" aria-label="Rotating Earth (NASA Blue Marble, public domain)">
           <source src="../assets/video/earth-rotating-nasa.mp4" type="video/mp4" />
         </video>
       </div>
@@ -41452,7 +41472,47 @@ window.llSet = function(dim, val) {
   else { window.llState[dim]=val; }
   llApply();
 };
+window._llFlushLazyRegions = function() {
+  var box = document.getElementById("ll-lazy-container");
+  if (!box) return;
+  var regions = window._llRegionsData;
+  var fn = window._llRegionHtml.fn;
+  if (!regions || !fn) return;
+  var next = parseInt(box.getAttribute("data-ll-next") || "0", 10);
+  var html = "";
+  for (; next < regions.length; next++) html += fn(regions[next]);
+  if (html) box.insertAdjacentHTML("beforebegin", html);
+  box.setAttribute("data-ll-next", String(next));
+};
+window._llLazyLoadStep = function() {
+  var box = document.getElementById("ll-lazy-container");
+  if (!box) return;
+  var regions = window._llRegionsData;
+  var fn = window._llRegionHtml.fn;
+  if (!regions || !fn) return;
+  var next = parseInt(box.getAttribute("data-ll-next") || "0", 10);
+  if (next >= regions.length) return;
+  box.insertAdjacentHTML("beforebegin", fn(regions[next]));
+  box.setAttribute("data-ll-next", String(next + 1));
+  requestAnimationFrame(window._llLazyLoadStep);
+};
+window.llBackToFilter = function() {
+  var bar = document.getElementById("ll-filter-bar");
+  if (bar) bar.scrollIntoView({behavior:"smooth", block:"start"});
+};
+window._llInitVideoObserver = function() {
+  var vid = document.getElementById("ll-earth-video");
+  if (!vid || !window.IntersectionObserver) return;
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) vid.play().catch(function(){});
+      else vid.pause();
+    });
+  }, { threshold: 0.1 });
+  obs.observe(vid);
+};
 window.llRandom = function() {
+  window._llFlushLazyRegions();
   var cards = Array.prototype.slice.call(document.querySelectorAll(".bl-card[data-ll-name]")).filter(function(c){ return c.style.display !== "none"; });
   if (!cards.length) return;
   var pick = cards[Math.floor(Math.random() * cards.length)];
@@ -41466,6 +41526,7 @@ window.llRandom = function() {
   }, 1500);
 };
 window.llApply = function() {
+  window._llFlushLazyRegions();
   const s = window.llState;
   const cards = document.querySelectorAll(".bl-card[data-ll-region]");
   let vis = 0;
@@ -44768,6 +44829,10 @@ function subtypeSchaubilderPage() {
     }
     if (base === "admin") { adminPage(); requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; })); return; }
     if (base === "start") requestAnimationFrame(_bewertungSterneInit);
+    if (base === "laenderzuordnungen") {
+      requestAnimationFrame(window._llInitVideoObserver);
+      setTimeout(function(){ requestAnimationFrame(window._llLazyLoadStep); }, 400);
+    }
     if (base === "stille") requestAnimationFrame(_stilleInit);
     if (base === "bewusstseinstest") requestAnimationFrame(_bewusstseinsgradTestInit);
     if (base === "gesichts-scan") requestAnimationFrame(_gesichtsScanInit);
