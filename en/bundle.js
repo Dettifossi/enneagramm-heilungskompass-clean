@@ -1531,7 +1531,7 @@ const SCHAUBILDER_NEU = {
   "architektur-raumgestaltung-der-9-typen": "2026-07-31",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -35946,6 +35946,79 @@ function neunJahreszyklenPage() {
   `);
 }
 
+function temperamentenlehreAntikePage() {
+  return shell(`
+    ${pageHeader("temperamentenlehre-antike")}
+    <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
+      <p class="eyebrow">Charts · Character Studies</p>
+      <h1 class="section-title">The Four Temperaments of Antiquity</h1>
+      <p class="psycho-intro">As early as antiquity, physicians such as Hippocrates and Galen distinguished four human temperaments, derived from the theory of the four bodily humors: the Choleric (yellow bile), the Sanguine (blood), the Melancholic (black bile), and the Phlegmatic (phlegm/water). Each temperament is assigned a season, an element, and specific qualities &ndash; hot, cold, moist, dry. This overview maps the four ancient temperaments onto the nine Enneagram types.</p>
+      <img src="../assets/temperamentenlehre-antike.jpg" alt="The Four Temperaments of Antiquity – diagram"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+
+      <div style="background:var(--paper-deep,#ede8dc);border-left:3px solid var(--copper);border-radius:0 10px 10px 0;padding:1.1rem 1.3rem;margin:0 0 1.6rem;">
+        <p style="font-size:0.86rem;line-height:1.65;color:var(--ink);margin:0;"><strong>Note:</strong> In addition to the four classical temperaments of this already-ancient theory, I have added to the Phlegmatic the quality of the <strong>Anxious type (Angustic)</strong> &ndash; that is, a person whose driving force is fear (Type 6), including the fear of not being successful (Type 3).</p>
+      </div>
+
+      <div style="background:var(--paper-deep,#ede8dc);border-left:3px solid var(--copper);border-radius:0 10px 10px 0;padding:1.1rem 1.3rem;margin:0 0 1.8rem;">
+        <p style="font-weight:700;font-size:0.92rem;margin:0 0 0.6rem;color:var(--ink);">Primary desire for:</p>
+        <p style="font-size:0.86rem;line-height:1.75;color:var(--ink);margin:0;">
+          <strong>Recognition + Status</strong> &ndash; Types 1 + 8<br/>
+          <strong>Compassion</strong> &ndash; Types 4 + 5<br/>
+          <strong>Respect + Security</strong> &ndash; Types 3 + 6 + 9<br/>
+          <strong>Attention</strong> &ndash; Types 2 + 7
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Type 1 &ndash; Choleric (yellow bile): Summer, Fire, Anger &ndash; hot + dry</h3>
+        <p class="vb-intro">In the ancient theory of temperaments, the Choleric is the temperament of yellow bile &ndash; assigned to summer, the element of fire, and the passion of anger. The ancient physicians already described the Choleric as hot and dry in temperament: quickly ignited, energetic, with an inner heat that pushes outward. Character-wise, the Choleric is described as quickly angered, wrathful, irritable, and excitable &ndash; a description that has changed little in over two thousand years. Together with Type 8, the One's primary desire is directed toward recognition and status: the Choleric doesn't just want to act, they want their actions to be seen and respected. This combination of fiery energy and the desire for visible recognition makes the One a type that tolerates no mistakes &ndash; neither in themselves nor in others &ndash; and who usually channels their inner heat into controlled discipline rather than letting it erupt unfiltered. The principle of Enneagram Type 1: the fire of anger is not suppressed, but poured into a form that creates order rather than destroying it.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Type 2 &ndash; Sanguine (blood): Spring, Air, Heart &ndash; hot + moist</h3>
+        <p class="vb-intro">In the ancient theory of the four humors, the Sanguine represents blood &ndash; assigned to spring, the element of air, and the organ of the heart. Its temperature is considered hot and moist: warm, lively, in constant motion. The ancient sources describe the Sanguine as courageous, hopeful, loving, cheerful, and active &ndash; a person who receives life with open arms and infects others with their warmth. Together with Type 7, the Two's primary desire is directed toward attention: the Sanguine flourishes when they are the center of attention, when their affection is returned, and their presence is noticed. This combination of heartfelt warmth and the wish to be seen makes the Two a type that actively seeks and shapes relationships, feels alive in closeness to others, and experiences emotional coldness as the greatest threat. The principle of Enneagram Type 2: love is not awaited, but actively given &ndash; in the hope of being seen oneself through devotion.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Type 3 &ndash; Anxious/Phlegmatic: Winter, Water, Brain &ndash; cold + moist</h3>
+        <p class="vb-intro">For Type 3, the chart combines two qualities: the classical Phlegmatic with the author-added quality of the Anxious type. The Phlegmatic classically represents the element of water, winter, and the brain, tempered cold and moist. The added Anxious quality describes a person whose deeper driving force is fear &ndash; for the Three, specifically the fear of not being successful. Character-wise, the Anxious type is described as fearful, worried, caring, and friendly &ndash; a description that, in the Three, is usually well hidden behind a smooth, controlled surface. Together with Types 6 and 9, the Three's primary desire is directed toward respect and security: the outward success the Three displays serves not only recognition, but above all the soothing of a deeper fear of worthlessness and failure. The principle of Enneagram Type 3: behind the flawless, successful facade lies the quiet fear of not being safe, not being respected, without performance.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Type 4 &ndash; Melancholic (black bile): Autumn, Earth &ndash; cold + dry</h3>
+        <p class="vb-intro">In the ancient theory of temperaments, the Melancholic represents black bile &ndash; assigned to autumn and the element of earth. Its temperature is considered cold and dry: heavy, muted, turned inward. The ancient sources describe the Melancholic as discouraged, sleepless, irritated, thoughtful, and sad &ndash; a description that at first glance seems bleak, but at the same time reveals the depth and capacity for reflection of this temperament. Together with Type 5, the Four's primary desire is directed toward compassion: the Four does not seek applause or success, but to be truly understood and compassionately accompanied in their pain, longing, and uniqueness. This earthbound, heavy melancholy is at the same time the fertile ground for the artistic and emotional depth for which Enneagram Type 4 is known. The principle of Enneagram Type 4: from the heavy, dark earth of melancholy grows the deepest capacity for genuine feeling and genuine empathy.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Type 5 &ndash; Melancholic (black bile): Autumn, Earth &ndash; cold + dry</h3>
+        <p class="vb-intro">The Five, too, carries in this chart the temperament of the Melancholic: black bile, autumn, the element of earth, tempered cold and dry. Unlike the Four, however, this melancholic undertone expresses itself in the Five less as emotional depth than as inner distance: discouraged, sleepless, irritated, thoughtful, sad &ndash; the same ancient character traits, but in the Five translated into withdrawal, observation, and quiet mental work rather than open emotional expression. Together with Type 4, the Five's primary desire is directed toward compassion &ndash; even if the Five often hides this desire behind a facade of self-sufficiency and intellectual distance. The earthbound heaviness of the Melancholic shows up in this type as a need for spaces of retreat, where one can think and process undisturbed before even seeking contact with others. The principle of Enneagram Type 5: the heaviness of earth is not radiated outward, but turned inward &ndash; into a fortified, mental place of retreat.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Type 6 &ndash; Anxious/Phlegmatic: Winter, Water, Brain &ndash; cold + moist</h3>
+        <p class="vb-intro">Type 6, like the Three and the Nine, carries the combined quality of Phlegmatic and the added Anxious trait: the element of water, winter, brain, tempered cold and moist. In no other type does the fear-driven force of the Anxious type lie so openly on the surface as in the Six, whose entire Enneagram principle revolves around basic fear and the search for security. Character-wise, the Anxious type is described as fearful, worried, caring, and friendly &ndash; a description that fits precisely the vigilant, loyal, but also brooding nature of the Six. Together with Types 3 and 9, the Six's primary desire is directed toward respect and security: it seeks reliable structures, trustworthy allies, and certainty in a world that fundamentally seems unpredictable to it. The cold, moist water quality of the Phlegmatic shows up in the Six as a watchful mind that never quite comes to rest, constantly running through dangers in order to preempt them. The principle of Enneagram Type 6: out of the vigilance of fear grows care &ndash; for oneself and for those to whom one is loyal.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Type 7 &ndash; Sanguine (blood): Spring, Air, Heart &ndash; hot + moist</h3>
+        <p class="vb-intro">Like the Two, the Seven also carries the temperament of the Sanguine: blood, spring, the element of air, heart, tempered hot and moist. Character-wise, the Sanguine is described as courageous, hopeful, loving, cheerful, and active &ndash; in the Seven, this description expresses itself as boundless optimism, constant mobility, and an infectious joy of life that is hard to slow down. Together with Type 2, the Seven's primary desire is directed toward attention: it wants not only to experience things, but to share its experiences, to sweep others along, to stand at the center of its own adventure story. The airy, light quality of the Sanguine shows up in the Seven as an inability to linger long in one place or on one thought &ndash; it is always drawn onward, to the next possibility, to the next source of enthusiasm. The principle of Enneagram Type 7: the warm, airy lightness of the Sanguine becomes a flight forward &ndash; into ever new, bright possibilities.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Type 8 &ndash; Choleric (yellow bile): Summer, Fire, Anger &ndash; hot + dry</h3>
+        <p class="vb-intro">Like the One, the Eight also carries the temperament of the Choleric: yellow bile, summer, the element of fire, the passion of anger, tempered hot and dry. Character-wise, the Choleric is described as quickly angered, wrathful, irritable, and excitable &ndash; in the Eight, however, this fire quality expresses itself not as controlled discipline as in the One, but as immediate, unfiltered force that knows no detours. Together with Type 1, the Eight's primary desire is directed toward recognition and status: it does not want to be overlooked, controlled, or kept small, but wants to place its strength unmistakably in the world. The fire of the Choleric temperament shows up in the Eight as a direct, confrontational energy that despises weakness and seeks control over its own territory. The principle of Enneagram Type 8: the heat of anger is not disciplined, but directly unleashed &ndash; as unrestrained force that commands respect rather than asking for it.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Type 9 &ndash; Phlegmatic/Anxious: Winter, Water, Brain &ndash; cold + moist</h3>
+        <p class="vb-intro">At the top of the chart stands the Nine, with the purest expression of the Phlegmatic, complemented by the Anxious quality: the element of water, winter, brain, tempered cold and moist. Character-wise, the Phlegmatic is described as calm, unemotional, and passive &ndash; a description that corresponds exactly to the peace-loving, conflict-averse basic nature of the Nine, who would rather give in than cause unrest. Together with Types 3 and 6, the Nine's primary desire is directed toward respect and security: it seeks a stable, conflict-free place in the world, where it is not pushed, not disturbed, not drawn into disputes. The cold, moist water quality of the Phlegmatic shows up in the Nine as a deep inner inertia toward its own urgency &ndash; its own needs are often set aside in favor of peace in the outer world. The principle of Enneagram Type 9: in the cool stillness of the Phlegmatic rests a force that does not fight, but creates peace through mere presence and equanimity.</p>
+
+      </div>
+
+      <div style="background:var(--paper-deep,#ede8dc);border-left:3px solid var(--copper);border-radius:0 10px 10px 0;padding:1.1rem 1.3rem;margin:1.6rem 0;">
+        <p style="font-size:0.86rem;line-height:1.65;color:var(--ink);margin:0;"><strong>Note:</strong> What does the human body need to survive? Air to breathe, drink, food, and warmth &ndash; corresponding to the four basic qualities of the temperaments: air, water, earth, and fire.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Deepened type profiles and archetypal considerations – Volume 2 of the Rathmer Trilogy.", "Wer du wirklich bist – Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, paths of healing, and the big picture – Volume 3 as the conclusion of the trilogy.", "Wer du wirklich bist – Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"9-jahreszyklen", label:"The 9 Nine-Year Cycles of Life"},
+        {route:"kindliche-temperamente", label:"Childhood Temperaments"},
+        {route:"drei-zentren", label:"Three Centers"},
+      ])}
+    </div>
+  `);
+}
+
 function baumartenPage() {
   return shell(`
     ${pageHeader("baumarten")}
@@ -44473,6 +44546,7 @@ function subtypeSchaubilderPage() {
     "baumarten": baumartenPage,
     "berge-der-9-typen": bergeDer9TypenPage,
     "9-jahreszyklen": neunJahreszyklenPage,
+    "temperamentenlehre-antike": temperamentenlehreAntikePage,
     "luxusautos-der-9-typen": luxusautosDer9TypenPage,
     "luxusuhren-der-9-typen": luxusuhrend9TypenPage,
     "brillenmodelle-der-9-typen": brillenmodelleDer9TypenPage,

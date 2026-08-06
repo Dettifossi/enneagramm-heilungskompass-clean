@@ -968,6 +968,7 @@ export const registerEntriesEN = [
   { term: "Tree Species of the 9 Types", route: "baumarten", description: "9 tree species as archetypal equivalents of the Enneagram types" },
   { term: "Mountains of the 9 Types", route: "berge-der-9-typen", description: "9 famous mountains of the world as archetypal equivalents of the Enneagram types" },
   { term: "The 9 Nine-Year Cycles of Life", route: "9-jahreszyklen", description: "Chart: 9 nine-year phases of human life, from birth to fulfillment, each assigned to an Enneagram type" },
+  { term: "The Four Temperaments of Antiquity", route: "temperamentenlehre-antike", description: "Chart: the 4 ancient temperaments (Choleric, Sanguine, Melancholic, Phlegmatic) mapped onto the 9 Enneagram types" },
   { term: "Luxury Cars of the 9 Types", route: "luxusautos-der-9-typen", description: "9 luxury cars as archetypal equivalents of the Enneagram types" },
   { term: "Luxury Watches of the 9 Types", route: "luxusuhren-der-9-typen", description: "9 luxury watches as archetypal equivalents of the Enneagram types" },
   { term: "Glasses Models of the 9 Types", route: "brillenmodelle-der-9-typen", description: "9 glasses models as archetypal equivalents of the Enneagram types" },
