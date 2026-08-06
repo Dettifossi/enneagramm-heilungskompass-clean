@@ -44624,6 +44624,32 @@ function planetenzuordnungenPage() {
         ${cardsHtml}
       </div>
 
+      <div class="vb-buecher">
+        <h3 class="vb-buecher__title">Buchtipps zum Thema</h3>
+        <a class="vb-buch" href="https://www.amazon.de/dp/3442460719?tag=enneagrammkom-21" target="_blank" rel="noopener sponsored">
+          <span class="vb-buch__icon">📖</span>
+          <span class="vb-buch__body">
+            <span class="vb-buch__name">Bill Bryson &ndash; Eine kurze Geschichte von fast allem</span>
+            <span class="vb-buch__hint">Leicht verständlicher Überblick über Astronomie, Physik und die Entstehung der Welt</span>
+          </span>
+        </a>
+        <a class="vb-buch" href="https://www.amazon.de/dp/3442317354?tag=enneagrammkom-21" target="_blank" rel="noopener sponsored">
+          <span class="vb-buch__icon">📖</span>
+          <span class="vb-buch__body">
+            <span class="vb-buch__name">Carl Sagan &ndash; Unser Kosmos</span>
+            <span class="vb-buch__hint">Der zeitlose Klassiker über Astronomie, Philosophie und die Prinzipien des Universums</span>
+          </span>
+        </a>
+        <a class="vb-buch" href="https://www.amazon.de/dp/3440165841?tag=enneagrammkom-21" target="_blank" rel="noopener sponsored">
+          <span class="vb-buch__icon">📖</span>
+          <span class="vb-buch__body">
+            <span class="vb-buch__name">Hermann-Michael Hahn &ndash; Welcher Stern ist das?</span>
+            <span class="vb-buch__hint">Handlicher Kosmos-Führer zum Beobachten von Sternbildern und Planeten</span>
+          </span>
+        </a>
+        <p style="font-size:0.72rem;color:var(--muted);margin:0.6rem 0 0;">*Affiliate-Links zu Amazon. Bei einem Kauf erhalten wir eine kleine Provision, für dich ändert sich der Preis nicht.</p>
+      </div>
+
       ${relatedLinks([
         {route:"laenderzuordnungen", label:"Länderzuordnungen: Alle Länder der Welt"},
         {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
