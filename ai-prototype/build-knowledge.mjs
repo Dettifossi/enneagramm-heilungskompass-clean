@@ -36,6 +36,14 @@ if (fs.existsSync(registerPath)) {
   chunks.push(...registerChunks);
 }
 
+// Porträts ergänzen (berühmte Persönlichkeiten + Kriminalpsychologie-Fälle,
+// falls bereits per extract-portraits.mjs generiert)
+const portraitsPath = path.join(__dirname, "knowledge-portraits.json");
+if (fs.existsSync(portraitsPath)) {
+  const portraitChunks = JSON.parse(fs.readFileSync(portraitsPath, "utf-8"));
+  chunks.push(...portraitChunks);
+}
+
 const outDir = path.join(__dirname, "worker");
 fs.mkdirSync(outDir, { recursive: true });
 const outPath = path.join(outDir, "knowledge.json");
