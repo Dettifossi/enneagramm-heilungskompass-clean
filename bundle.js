@@ -59079,7 +59079,7 @@ function michaelFranzesePortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
         <p class="vb-intro"><strong>a) Charmant und bodenst\xe4ndig:</strong>
-        <strong>Franzese</strong> wirkte nie k\xe4lt oder bedrohlich \u2013 obwohl er einer der
+        <strong>Franzese</strong> wirkte nie kalt oder bedrohlich \u2013 obwohl er einer der
         m\u00e4chtigsten Kriminellen seiner Zeit war. Der Zweierfl\xfcgel verleiht der Drei
         W\xe4rme und Zug\xe4nglichkeit. Menschen in seiner N\xe4he f\xfchlten sich wohl,
         nicht eingesch\xfcchtert.</p>
