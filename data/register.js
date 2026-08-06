@@ -223,6 +223,7 @@ export const registerEntries = [
   { term: "Wolkenformationen der 9 Typen", route: "wolkenformationen-der-9-typen", description: "Archetypische Wolken-Entsprechungen f\xfcr jeden Enneagrammtyp" },
   { term: "Superpower der 9 Typen",   route: "superpower-der-9-typen",   description: "Die spirituelle Superpower jedes Enneagrammtyps – wahre St\xe4rke von innen" },
   { term: "Wolfsarten der 9 Typen",    route: "wolfsarten-der-9-typen",   description: "Archetypische Wolfs-Entsprechungen f\xfcr jeden Enneagrammtyp" },
+  { term: "Planeten & Trabanten des Sonnensystems", route: "planetenzuordnungen", description: "Wissen: Merkur bis Pluto, jeder Himmelsk\xf6rper einem Enneagramm-Typ zugeordnet" },
   { term: "Pferdearten der 9 Typen",   route: "pferdearten-der-9-typen",  description: "Archetypische Pferde-Entsprechungen f\xfcr jeden Enneagrammtyp" },
   { term: "Obstsorten der 9 Typen",  route: "obstsorten",               description: "Archetypische Frucht-Entsprechungen f\xfcr jeden Enneagrammtyp" },
   { term: "Gem\xfcsesorten der 9 Typen",  route: "gemuesesorten",            description: "Archetypische Gem\xfcse-Entsprechungen f\xfcr jeden Enneagrammtyp" },

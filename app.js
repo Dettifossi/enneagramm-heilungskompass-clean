@@ -44569,6 +44569,65 @@ window.llApply = function() {
   });
 };
 
+const PLANETEN_DATEN = [
+  { name: "Merkur", bild: "merkur.jpg", typ: 5,
+    text: "Als schnellster und sonnennächster Planet trägt Merkur den Namen des römischen Götterboten – kühl, wendig, ständig in Bewegung, aber nie wirklich emotional involviert. Seine extreme Nähe zur Sonne zwingt ihn zu einem Leben am Rand der Verbrennung, weshalb er sich in eine gepanzerte, kraterübersäte Distanz zurückgezogen hat, fast ganz ohne Atmosphäre – ein Planet, der beobachtet, aber sich nicht exponiert. Genau das ist die Signatur der Fünf: schnelles, präzises Erfassen von Information bei gleichzeitigem Rückzug ins sichere Innere, aus der Deckung heraus die Welt kartieren, statt sich ihr ungeschützt auszusetzen." },
+  { name: "Venus", bild: "venus.jpg", typ: 2,
+    text: "Benannt nach der Göttin der Liebe und Schönheit, ist Venus von einer dichten, alles einhüllenden Wolkendecke umgeben – nichts Hartes, Kantiges wird nach außen gezeigt, nur eine warme, verhüllende Oberfläche. Sie ist nach Sonne und Mond das hellste Objekt am Nachthimmel und war seit der Antike als Morgen- und Abendstern der Inbegriff von Anziehung und Verlangen, gesehen und begehrt zu werden. Die Zwei sucht genau das: Nähe herstellen, umsorgen, gefallen, im Blick des anderen aufgehen – Venus lebt diese Sehnsucht als kosmisches Prinzip vor." },
+  { name: "Erde", bild: "erde.jpg", typ: 6,
+    text: "Der einzige Planet, den wir aus eigener Erfahrung kennen, weil er der einzige feste Boden ist, den wir haben – ein schmaler, verletzlicher Streifen aus Atmosphäre, Wasser und Magnetfeld, der Leben gegen die tödliche Leere des Alls abschirmt. Diese Schutzbedürftigkeit prägt jede menschliche Zivilisation: Vorratshaltung, Bündnisse, Absicherung gegen Katastrophen, das Bedürfnis, den Boden unter den Füßen zu sichern. Genau das ist die Sechs: das Bewusstsein, dass Sicherheit nichts Selbstverständliches ist, sondern aktiv verteidigt werden muss." },
+  { name: "Mars", bild: "mars.jpg", typ: 8,
+    text: "Der rote Planet trägt den Namen des Kriegsgottes – seine rostrote Farbe stammt von oxidiertem Eisen, buchstäblich \"Blut\" im Gestein, und seine Oberfläche ist von gewaltigen Vulkanen, Canyons und Einschlagskratern gezeichnet, die von roher, ungebremster geologischer Kraft erzählen. Kein Planet steht so unmittelbar für Konfrontation, Durchsetzung und den Kampf ums Überleben unter lebensfeindlichen Bedingungen. Das ist die Acht in Reinform: direkte Kraft, keine Umwege, kein Zieren – Stärke, die sich nicht rechtfertigen muss." },
+  { name: "Jupiter", bild: "jupiter.jpg", typ: 7,
+    text: "Der mit Abstand größte Planet des Sonnensystems, benannt nach dem König der Götter – seine gewaltigen, bunten Wolkenbänder wirbeln in permanenter, farbenfroher Bewegung, angetrieben von einer schieren Fülle an Energie, die keinen Stillstand kennt. Jupiter ist in der Astrologie seit jeher der Planet des Glücks, der Expansion und des Überflusses – wer unter ihm geboren ist, dem wird Großzügigkeit und Lebensfreude nachgesagt. Die Sieben lebt diese Weite: immer neue Möglichkeiten, nie an einem Ort verharren, das Leben als offenen, üppigen Raum begreifen." },
+  { name: "Saturn", bild: "saturn.jpg", typ: 1,
+    text: "Kaum ein Anblick im Sonnensystem ist so geordnet wie Saturns Ringsystem – Milliarden Eis- und Gesteinsbrocken, jeder exakt auf seiner Bahn, in strengen, konzentrischen Kreisen um den Planeten angeordnet. Saturn trägt den Namen des Titanen der Zeit und der Ernte, in der Astrologie der Planet der Disziplin, der Pflicht und der Grenzen, der Struktur erzwingt, wo sonst Chaos herrschen würde. Das ist die Signatur der Eins: das tiefe Bedürfnis nach Ordnung, Regelhaftigkeit und Verlässlichkeit – Freiheit nicht im Ungebundenen, sondern in der sauber eingehaltenen Form." },
+  { name: "Uranus", bild: "uranus.jpg", typ: 4,
+    text: "Uranus fällt aus jeder Reihe: Anders als alle anderen Planeten liegt seine Rotationsachse fast vollständig auf der Seite, er \"rollt\" gewissermaßen um die Sonne, statt sich aufrecht zu drehen – eine radikale, buchstäbliche Abweichung von der Norm des restlichen Sonnensystems. Erst 1781 überhaupt als Planet erkannt, durchbrach er als erster neuentdeckter Himmelskörper seit der Antike das seit Jahrtausenden feststehende Weltbild. Genau das ist die Vier: bewusstes Anderssein, der Bruch mit der Konvention, die Weigerung, sich der gewohnten Ordnung anzupassen, weil das eigene, einzigartige Wesen wichtiger ist als Anpassung." },
+  { name: "Neptun", bild: "neptun.jpg", typ: 3,
+    text: "Benannt nach dem Gott des Meeres, erscheint Neptun als makellos blaue, glänzende Kugel – tatsächlich aber ist dieses tiefe Blau größtenteils ein Effekt der Lichtbrechung an Methan in der Atmosphäre, nicht das, was ein Betrachter vor Ort tatsächlich sähe. Neptun ist so weit entfernt, dass er mit bloßem Auge unsichtbar bleibt und erst 1846 durch mathematische Berechnung, nicht durch direkte Beobachtung, entdeckt wurde – ein Planet, der zunächst als reine Vorhersage, als Wirkung ohne sichtbare Ursache existierte. Das ist die Drei: die makellose, sorgfältig inszenierte Oberfläche, das Bild, das überzeugt, bevor irgendjemand fragt, was wirklich dahintersteckt." },
+  { name: "Pluto", bild: "pluto.jpg", typ: 9,
+    text: "1930 als neunter Planet entdeckt und über 76 Jahre lang selbstverständlicher Teil jeder Schulbuch-Aufzählung, wurde Pluto 2006 auf einer schwach besuchten IAU-Konferenz – viele Delegierte waren bereits abgereist – von einer Minderheit der verbliebenen Astronomen zum \"Zwergplaneten\" herabgestuft. Er verlor über Nacht öffentlich seinen Status als \"vollwertig\", obwohl sich an seiner physischen Realität nichts geändert hatte: Er umkreist die Sonne weiterhin, unbeirrt, mit eigenem Mond, eigener dünner Atmosphäre, eigener geologischer Aktivität – nur eben am Rand, im Halbdunkel, kaum noch beachtet. Genau das ist die Neun: für unwichtig erklärt werden, sich selbst zurücknehmen, an den Rand gedrängt sein – und trotzdem, leise, unbeirrbar weiter die eigene Bahn ziehen." },
+];
+
+function planetenzuordnungenPage() {
+  const typenFarben = TYPE_COLORS;
+  const cardsHtml = PLANETEN_DATEN.map(p => `
+    <div class="bl-card" id="pl-${p.name}" data-pl-typ="${p.typ}" data-pl-name="${p.name}">
+      <img src="./assets/planeten/${p.bild}" alt="${p.name} (NASA, gemeinfrei)" loading="lazy" style="display:block;width:100%;height:180px;object-fit:cover;" />
+      <div class="bl-card__badge" style="background:${typenFarben[p.typ] ?? 'var(--copper)'}">Typ ${p.typ}</div>
+      <div class="bl-card__body">
+        <h3 class="bl-card__name">${p.name}</h3>
+        <p class="bl-card__beschreibung">${p.text}</p>
+      </div>
+    </div>
+  `).join("");
+
+  return shell(`
+    ${pageHeader("planetenzuordnungen")}
+    <div class="schaubild-page">
+      <p class="eyebrow">Wissen · Astronomie</p>
+      <h1 class="schaubild-page__title">Planeten &amp; Trabanten des Sonnensystems</h1>
+      <p class="schaubild-page__intro">Die neun klassischen Himmelskörper unseres Sonnensystems &ndash; Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus, Neptun und Pluto &ndash; und ihr jeweils vorherrschendes Enneagramm-Prinzip. Eine begründete, aber bewusst spielerische Analogie zwischen astronomischem Charakter, Mythologie und den neun Grundmustern.</p>
+
+      <div style="background:var(--paper-deep,#ede8dc);border-left:3px solid var(--copper);border-radius:0 10px 10px 0;padding:1.1rem 1.3rem;margin:1.2rem 0;">
+        <p style="font-size:0.88rem;line-height:1.65;color:var(--ink);margin:0 0 0.7rem;">Pluto wurde 2006 der offizielle Planetenstatus aberkannt &ndash; er gilt seither als Zwergplanet. Diese Zuordnung übernimmt bewusst die ursprüngliche neunfache Zählung (inklusive Pluto), weil sich neun Himmelskörper organisch auf neun Enneagramm-Typen abbilden lassen &ndash; und weil gerade Plutos Geschichte des Herabgestuft- und Übersehenwerdens selbst ein treffendes Sinnbild für ein Enneagramm-Prinzip liefert (siehe unten).</p>
+        <p style="font-size:0.88rem;line-height:1.65;color:var(--ink);margin:0;">Alle Fotos: NASA/JPL-Caltech, gemeinfrei (Public Domain).</p>
+      </div>
+
+      <div class="bl-grid">
+        ${cardsHtml}
+      </div>
+
+      ${relatedLinks([
+        {route:"laenderzuordnungen", label:"Länderzuordnungen: Alle Länder der Welt"},
+        {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
+        {route:"angst-essenz", label:"Schaubild: Angst → Essenz"},
+      ])}
+    </div>
+  `);
+}
+
 function bundeslaenderPage() {
   const REGIONEN = [
     {
@@ -47619,6 +47678,7 @@ function render() {
     "maennliche-weibliche-seite": maennlicheWeiblicheSeitePage,
     "bundeslaender": bundeslaenderPage,
     "laenderzuordnungen": laenderzuordnungenPage,
+    "planetenzuordnungen": planetenzuordnungenPage,
     "stille": stillePage,
     "musik":  musikPage,
     "typenvergleiche": typenvergleichePage,

@@ -5163,6 +5163,7 @@ export const uiText = {
       { route: "beruehmte-persoenlichkeiten", label: "Ber\xfchmte Pers\xf6nlichkeiten" },
       { route: "kriminalpsychologie", label: "Spannende Kriminalf\xe4lle (Kriminalpsychologie)" },
       { route: "laenderzuordnungen", label: "L\xe4nderzuordnungen" },
+      { route: "planetenzuordnungen", label: "Planeten & Trabanten des Sonnensystems" },
       { route: "tierlexikon", label: "Tierlexikon" },
       { route: "tritypen", label: "Die 27 Tritypen des Enneagramms (f\xfcr Fortgeschrittene)" },
     ]},
