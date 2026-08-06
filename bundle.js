@@ -71563,10 +71563,13 @@ function laenderzuordnungenPage() {
       <p class="eyebrow">Wissen \u00b7 Kultur</p>
       <h1 class="schaubild-page__title">L\u00e4nderzuordnungen &ndash; Alle L\u00e4nder der Welt</h1>
 
-      <div style="max-width:420px;margin:0 auto 1.4rem;border-radius:16px;overflow:hidden;box-shadow:0 8px 28px rgba(0,0,0,0.25);">
-        <video id="ll-earth-video" autoplay loop muted playsinline preload="metadata" style="display:block;width:100%;height:auto;" aria-label="Rotierende Erde (NASA Blue Marble, gemeinfrei)">
+      <div style="max-width:420px;margin:0 auto 1.4rem;border-radius:16px;overflow:hidden;box-shadow:0 8px 28px rgba(0,0,0,0.25);position:relative;cursor:pointer;" onclick="_llPlayEarthVideo(this)">
+        <video id="ll-earth-video" muted playsinline preload="none" style="display:block;width:100%;height:auto;background:#0a1a2a;" aria-label="Rotierende Erde (NASA Blue Marble, gemeinfrei)">
           <source src="./assets/video/earth-rotating-nasa.mp4" type="video/mp4" />
         </video>
+        <div id="ll-earth-playbtn" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.25);">
+          <span style="width:3.4rem;height:3.4rem;border-radius:50%;background:rgba(255,255,255,0.9);display:flex;align-items:center;justify-content:center;font-size:1.3rem;color:#1a1a1a;">&#9654;</span>
+        </div>
       </div>
       <p style="text-align:center;font-size:0.72rem;color:var(--muted);margin:-0.8rem 0 1.2rem;">Erdrotation: NASA Blue Marble Next Generation &ndash; gemeinfrei (Public Domain)</p>
 
@@ -71635,11 +71638,24 @@ window.llBackToFilter = function() {
   var bar = document.getElementById("ll-filter-bar");
   if (bar) bar.scrollIntoView({behavior:"smooth", block:"start"});
 };
+window._llPlayEarthVideo = function(wrap) {
+  var vid = document.getElementById("ll-earth-video");
+  var btn = document.getElementById("ll-earth-playbtn");
+  if (!vid) return;
+  if (vid.getAttribute("data-started") !== "1") {
+    vid.setAttribute("data-started", "1");
+    vid.setAttribute("loop", "");
+    vid.load();
+  }
+  vid.play().catch(function(){});
+  if (btn) btn.style.display = "none";
+};
 window._llInitVideoObserver = function() {
   var vid = document.getElementById("ll-earth-video");
   if (!vid || !window.IntersectionObserver) return;
   var obs = new IntersectionObserver(function(entries) {
     entries.forEach(function(e) {
+      if (vid.getAttribute("data-started") !== "1") return;
       if (e.isIntersecting) vid.play().catch(function(){});
       else vid.pause();
     });
