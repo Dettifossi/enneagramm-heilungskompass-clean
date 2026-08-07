@@ -1632,6 +1632,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "eulenarten-der-9-typen",
     "papageienarten-der-9-typen",
     "blumenarten-der-9-typen",
+    "kampfkunstarten-der-9-typen",
     "hunderassen-der-9-typen",
     "pferdearten-der-9-typen",
     "nagetierarten-der-9-typen",
@@ -38657,6 +38658,57 @@ function blumenartenDer9TypenPage() {
   `);
 }
 
+function kampfkunstartenDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Kampfkunstarten der 9 Typen", "Schaubilder · Archetypen")}
+      <p class="psycho-intro">Als Kampfkunstarten bezeichnet man Stile, die Fertigkeiten und Techniken der ernsthaften körperlichen Auseinandersetzung mit einem Gegner unterrichten. Jede der hier aufgeführten Kampfkünste besitzt in ihrem Kern primär eines der Enneagramm-Muster, welches genau der innersten Philosophie der jeweiligen Kampfkunst entspricht.</p>
+      <img src="./assets/kampfkunstarten-der-9-typen.jpg" alt="Kampfkunstarten der 9 Enneagrammtypen – Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 – Karate: Präzision und unbestechliche Form</h3>
+        <p class="vb-intro">Karate ist die Kampfkunst der exakten Linie. Jede Technik hat eine einzige richtige Ausführung — der Winkel der Faust, die Stellung des Fußes, der Zeitpunkt des Ausatmens beim Schlag sind bis ins Detail festgelegt und werden über Jahre in den Kata, den festen Bewegungsformen, immer wieder wiederholt, bis keine Abweichung mehr möglich ist. Es gibt kein „ungefähr richtig" — nur richtig oder falsch. Genau das entspricht der inneren Welt des Typs 1: dem Streben nach dem einen korrekten Weg, der Disziplin, die eigene Ausführung so lange zu verfeinern, bis sie dem inneren Ideal entspricht. Der Karateka übt nicht, um zu gewinnen, sondern um die Form zu vervollkommnen — der Sieg über den Gegner ist nur die logische Folge der perfektionierten Technik. Die Leidenschaft des Zorns zeigt sich hier als kontrollierte, kanalisierte Kraft: Jeder Schlag ist Ausdruck von Ordnung, nicht von Wut.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 – Ringen: Körperlicher Kontakt und fürsorgliche Kontrolle</h3>
+        <p class="vb-intro">Ringen ist die älteste aller Kampfkünste — und die intimste. Anders als bei distanzierten Schlagkünsten gibt es hier keinen Abstand: Man hält den Gegner, spürt sein Gewicht, seinen Atem, seine nächste Bewegung, bevor sie geschieht. Der Ringer gewinnt nicht durch Verletzen, sondern durch Kontrolle über den Körper des anderen — durch Umklammern, Führen, Zu-Boden-Bringen, ohne zu schlagen. Das entspricht der Beziehungsdynamik des Typs 2: der Wunsch nach engem, direktem Kontakt, das Bedürfnis, den anderen so gut zu „lesen", dass man seine nächste Bewegung schon spürt, bevor er selbst sie kennt. Ringen ist Fürsorge und Dominanz zugleich — man hält den anderen fest, angeblich um ihn zu bezwingen, tatsächlich aber, um in Verbindung zu bleiben. Die Leidenschaft des Stolzes zeigt sich als das Bedürfnis, im Griff unentbehrlich zu sein.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 – Kung Fu: Virtuosität und beeindruckende Wirkung</h3>
+        <p class="vb-intro">Kung Fu (genauer: Wushu) ist die Kampfkunst der tausend Stile und der sichtbaren Meisterschaft. Es gibt kaum eine andere Kampfkunst mit so vielfältigen, akrobatischen und visuell beeindruckenden Bewegungsformen — vom Tigerstil über den Kranich- bis zum Affenstil. Kung-Fu-Meister werden seit Jahrhunderten in Legenden, Filmen und Shaolin-Vorführungen zu Ikonen: Bruce Lee machte Kung Fu weltberühmt, weil es Kraft, Eleganz und Show in einer einzigen Bewegungssprache vereint. Genau das entspricht dem Typ 3: dem Wunsch, durch sichtbare Exzellenz zu beeindrucken, die eigene Fähigkeit so zu perfektionieren, dass sie Bewunderung erzeugt. Kung Fu ist niemals nur funktional — es ist immer auch Darbietung, ein Bild von Können, das Wirkung erzielen will. Die Leidenschaft der Eitelkeit zeigt sich als Identifikation mit der makellosen, bestaunten Ausführung.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 – Judo: Der eigene Weg durch die Kraft des anderen</h3>
+        <p class="vb-intro">Judo bedeutet wörtlich „der sanfte Weg" — sein Gründer Jigoro Kano entwickelte es aus dem Grundsatz, dass man nicht gegen die Kraft des Gegners kämpft, sondern sie aufnimmt, umlenkt und für den eigenen Wurf nutzbar macht. Ein kleinerer, leichterer Judoka kann einen viel stärkeren Gegner besiegen, wenn er dessen Bewegung und Energie versteht und sie in eine neue, eigene Richtung lenkt. Das ist die zutiefst individualistische Logik des Typs 4: nicht die direkte Konfrontation zu suchen, sondern aus dem, was von außen kommt — auch aus Schmerz, auch aus fremder Kraft — etwas ganz Eigenes, Unverwechselbares zu formen. Jeder Wurf im Judo ist eine kleine Transformation: fremde Energie wird zur eigenen Bewegung. Die Leidenschaft des Neids zeigt sich als das tiefe Gefühl, den eigenen, unverwechselbaren Weg erst im Umgang mit dem finden zu müssen, was einem fehlt oder entgegensteht.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 – Taekwondo: Distanz, Reichweite und technische Klarheit</h3>
+        <p class="vb-intro">Taekwondo ist die Kampfkunst der Distanz. Anders als Ringen oder Judo sucht sie explizit den Abstand zum Gegner — ihre charakteristischen, weit ausholenden Beintechniken erlauben es, einen Angriff zu setzen, ohne in direkten Körperkontakt zu geraten. Taekwondo ist zugleich eine der am klarsten systematisierten Kampfkünste: ein durchdachtes Gürtelsystem, exakt katalogisierte Techniken, ein hoher Anteil an theoretischem und analytischem Verständnis der Bewegungsmechanik. Das entspricht der Welt des Typs 5: dem Bedürfnis nach Abstand als Schutz, der Vorliebe für klare, durchdachte Systeme, der Sicherheit, die aus genauer Analyse statt aus körperlicher Nähe entsteht. Der Taekwondoin trifft aus der Distanz — präzise, kalkuliert, ohne sich in ein Handgemenge zu begeben. Die Leidenschaft des Geizes zeigt sich als sparsamer Einsatz von Nähe: Kontakt nur im genau kalkulierten Moment.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 – Faustkampf: Wachsamkeit, Deckung und geprüftes Vertrauen</h3>
+        <p class="vb-intro">Der klassische Faustkampf — der Vorläufer des modernen Boxens, in vielen Kulturen als reine waffenlose Auseinandersetzung von Faust gegen Faust überliefert — lebt von einem einzigen Grundprinzip: der ständigen Wachsamkeit. Wer die Deckung auch nur für einen Moment senkt, wird getroffen. Der Faustkämpfer beobachtet unablässig die kleinsten Signale im Gesicht und in der Schulterhaltung des Gegners, um dessen nächsten Schlag vorherzuahnen. Das entspricht der Grundhaltung des Typs 6: der permanenten inneren Wachsamkeit, dem Scannen der Umgebung nach Gefahr, dem Bedürfnis, erst zu prüfen, bevor man sich öffnet. Faustkampf ist keine Kunst der großen Gesten, sondern der kleinen, ständigen Korrekturen — Schritt für Schritt, Deckung für Deckung, im Zweifel lieber einmal zu viel geprüft als einmal zu wenig. Die Leidenschaft der Angst zeigt sich als nie ganz abschaltende innere Alarmbereitschaft.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 – Kickboxen: Tempo, Vielfalt und explosive Energie</h3>
+        <p class="vb-intro">Kickboxen verbindet Fauststöße und Fußtritte zu einem schnellen, abwechslungsreichen, kombinationsreichen Kampfstil, der ständig neue Optionen eröffnet — Kombinationen aus Boxen, Karate, Taekwondo und Muay Thai fließen hier zusammen. Es ist eine der energiereichsten, tempointensivsten Kampfsportarten überhaupt: hohe Schlagfrequenz, wechselnde Distanzen, ständige Bewegung. Kein Moment gleicht dem anderen, kein Kampf verläuft nach festem Schema. Das entspricht der Lebendigkeit des Typs 7: dem Bedürfnis nach Abwechslung, Tempo und einer Fülle an Möglichkeiten, der Abneigung gegen starre, eintönige Wiederholung. Der Kickboxer sucht nicht die eine perfekte Technik, sondern die größtmögliche Bandbreite an Optionen — Fäuste, Füße, Knie, Kombinationen ohne Ende. Die Leidenschaft der Völlerei zeigt sich als unstillbarer Hunger nach immer neuen Reizen und Bewegungsmöglichkeiten.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 – Boxen: Direkte Kraft und kompromisslose Konfrontation</h3>
+        <p class="vb-intro">Boxen ist die reinste, direkteste Form der körperlichen Konfrontation, die es im Kampfsport gibt — keine Tritte, keine Würfe, keine Ausweichmanöver in andere Techniken, nur die Faust, die geradlinig auf den Gegner trifft. Zwei Menschen stehen sich gegenüber, ohne Ablenkung, ohne Umweg, und messen ihre Kraft in ihrer reinsten Form. Boxen verlangt, den Schmerz auszuhalten und zurückzuschlagen, den eigenen Willen über die Erschöpfung zu stellen. Das entspricht der Grundhaltung des Typs 8: der Vorliebe für die direkte, unverstellte Auseinandersetzung, dem Misstrauen gegenüber Umwegen und Taktiken, die die eigentliche Kraftfrage verschleiern. Der Boxer verhandelt nicht — er tritt an, steht durch und schlägt zurück. Die Leidenschaft der Gier (Übermaß) zeigt sich als der Drang, die eigene Kraft bis an die Grenze und darüber hinaus zu spüren und zu beweisen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 – Aikido: Harmonie statt Konfrontation</h3>
+        <p class="vb-intro">Aikido ist die einzige große Kampfkunst, die keinen eigenen Angriff kennt — ihr Begründer Morihei Ueshiba entwickelte sie ausdrücklich als „Weg der Harmonisierung der Energie". Der Aikidoka greift nicht an, er löst die Angriffsenergie des Gegners auf, indem er sich mit ihr verbindet, sie umlenkt und in einen kreisförmigen, harmlosen Wurf überführt — ohne Kraft gegen Kraft zu setzen. Am Ende der Technik steht im Idealfall kein besiegter Gegner, sondern eine wiederhergestellte Ordnung, in der niemand ernsthaft verletzt wurde. Das entspricht der tiefsten Sehnsucht des Typs 9: Konflikt nicht durch Konfrontation, sondern durch Harmonisierung aufzulösen, die Energie des Gegenübers nicht zu brechen, sondern in etwas Friedliches zu wandeln. Aikido ist Kampfkunst als Versöhnung — Stärke, die sich nicht durchsetzt, sondern integriert. Die Leidenschaft der Trägheit zeigt sich als tiefer Wunsch, dass am Ende jeder Bewegung wieder Ruhe und Einklang stehen.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Schaubilder und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"hunderassen-der-9-typen", label:"Hunderassen der 9 Typen"},
+        {route:"blumenarten-der-9-typen", label:"Blumenarten der 9 Typen"},
+        {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 function hunderassenDer9TypenPage() {
   return shell(`
     <div class="page-container">
@@ -48255,6 +48307,7 @@ function render() {
     "eulenarten-der-9-typen": eulenartenDer9TypenPage,
     "papageienarten-der-9-typen": papageienartenDer9TypenPage,
     "blumenarten-der-9-typen": blumenartenDer9TypenPage,
+    "kampfkunstarten-der-9-typen": kampfkunstartenDer9TypenPage,
     "hunderassen-der-9-typen": hunderassenDer9TypenPage,
     "pferdearten-der-9-typen": pferdearteDer9TypenPage,
     "nagetierarten-der-9-typen": nagetierartenDer9TypenPage,

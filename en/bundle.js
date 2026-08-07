@@ -1578,6 +1578,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "eulenarten-der-9-typen",
     "papageienarten-der-9-typen",
     "blumenarten-der-9-typen",
+    "kampfkunstarten-der-9-typen",
     "hunderassen-der-9-typen",
     "pferdearten-der-9-typen",
     "nagetierarten-der-9-typen",
@@ -1772,6 +1773,7 @@ text.nav = [
     { route: "baumarten", label: "Tree Species of the 9 Types" },
     { route: "berge-der-9-typen", label: "Mountains of the 9 Types" },
     { route: "blumenarten-der-9-typen", label: "Flower Types of the 9 Types" },
+    { route: "kampfkunstarten-der-9-typen", label: "Martial Arts of the 9 Types" },
     { route: "brillenmodelle-der-9-typen", label: "Eyeglass Models of the 9 Types" },
     { route: "brotsorten", label: "Bread Varieties of the 9 Types" },
     { route: "bundeslaender", label: "German Federal States" },
@@ -35429,6 +35431,57 @@ function blumenartenDer9TypenPage() {
   `);
 }
 
+function kampfkunstartenDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Kampfkunstarten der 9 Typen", "Charts · Archetypen")}
+      <p class="psycho-intro">Martial arts are disciplines that teach the skills and techniques of serious physical confrontation with an opponent. Each of the martial arts listed here carries, at its core, primarily one of the Enneagram patterns — a pattern that matches exactly the innermost philosophy of that particular martial art.</p>
+      <img src="../assets/kampfkunstarten-der-9-typen.jpg" alt="Kampfkunstarten der 9 Enneagrammtypen – Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 1 – Karate: Precision and Incorruptible Form</h3>
+        <p class="vb-intro">Karate is the martial art of the exact line. Every technique has a single correct execution — the angle of the fist, the position of the foot, the timing of the exhale on a strike are defined down to the smallest detail and repeated for years in the kata, the fixed movement forms, until no deviation remains possible. There is no "roughly right" — only right or wrong. This matches the inner world of Type 1 precisely: the striving for the one correct way, the discipline to refine one's own execution until it matches the inner ideal. The karateka does not practice to win, but to perfect the form — victory over the opponent is merely the logical consequence of perfected technique. The passion of anger shows here as controlled, channeled force: every strike is an expression of order, not of rage.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 2 – Wrestling: Physical Contact and Caring Control</h3>
+        <p class="vb-intro">Wrestling is the oldest of all martial arts — and the most intimate. Unlike distanced striking arts, there is no distance here: you hold the opponent, feel their weight, their breath, their next move before it happens. The wrestler wins not by injuring, but through control over the other's body — through gripping, guiding, taking to the ground, without striking. This matches the relational dynamic of Type 2: the desire for close, direct contact, the need to "read" the other so well that you sense their next move before they know it themselves. Wrestling is care and dominance at once — you hold on to the other, ostensibly to subdue them, but really to stay in connection. The passion of pride shows as the need to be indispensable in the hold.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 3 – Kung Fu: Virtuosity and Impressive Effect</h3>
+        <p class="vb-intro">Kung Fu (more precisely: Wushu) is the martial art of a thousand styles and visible mastery. Hardly any other martial art has such diverse, acrobatic, and visually impressive movement forms — from the tiger style to the crane style to the monkey style. Kung Fu masters have become icons for centuries through legends, films, and Shaolin performances: Bruce Lee made Kung Fu world-famous because it unites power, elegance, and showmanship in a single language of movement. This matches Type 3 exactly: the desire to impress through visible excellence, to perfect one's own ability until it commands admiration. Kung Fu is never merely functional — it is always also performance, an image of skill designed to have an effect. The passion of vanity shows as identification with the flawless, admired execution.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 4 – Judo: One's Own Path Through the Other's Force</h3>
+        <p class="vb-intro">Judo literally means "the gentle way" — its founder Jigoro Kano developed it on the principle that one does not fight the opponent's force, but absorbs it, redirects it, and makes it usable for one's own throw. A smaller, lighter judoka can defeat a much stronger opponent by understanding their movement and energy and channeling it in a new, self-determined direction. This is the deeply individualistic logic of Type 4: not seeking direct confrontation, but shaping something entirely one's own, unmistakable, out of what comes from outside — even out of pain, even out of another's force. Every throw in Judo is a small transformation: foreign energy becomes one's own movement. The passion of envy shows as the deep feeling of having to find one's own, unmistakable path only through dealing with what is missing or standing in one's way.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 5 – Taekwondo: Distance, Reach, and Technical Clarity</h3>
+        <p class="vb-intro">Taekwondo is the martial art of distance. Unlike wrestling or judo, it explicitly seeks distance from the opponent — its characteristic, wide-sweeping leg techniques allow an attack to land without entering direct bodily contact. Taekwondo is also one of the most clearly systematized martial arts: a well-thought-out belt system, precisely catalogued techniques, a high proportion of theoretical and analytical understanding of movement mechanics. This matches the world of Type 5: the need for distance as protection, the preference for clear, well-thought-out systems, the security that comes from precise analysis rather than physical closeness. The taekwondoin strikes from a distance — precise, calculated, without entering a scramble. The passion of avarice shows as sparing use of closeness: contact only at the precisely calculated moment.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 6 – Bare-Knuckle Boxing: Vigilance, Guard, and Tested Trust</h3>
+        <p class="vb-intro">Classic bare-knuckle fighting — the forerunner of modern boxing, handed down in many cultures as a pure, weaponless confrontation of fist against fist — lives by a single core principle: constant vigilance. Whoever lowers their guard even for a moment gets hit. The bare-knuckle fighter continuously watches the smallest signals in the opponent's face and shoulder posture to anticipate the next strike. This matches the basic stance of Type 6: permanent inner vigilance, scanning the environment for danger, the need to test before opening up. Bare-knuckle fighting is not an art of grand gestures, but of small, constant corrections — step by step, guard by guard, when in doubt checking once too often rather than once too little. The passion of fear shows as an inner alertness that never fully switches off.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 7 – Kickboxing: Speed, Variety, and Explosive Energy</h3>
+        <p class="vb-intro">Kickboxing combines punches and kicks into a fast, varied, combination-rich fighting style that constantly opens new options — combinations of boxing, karate, taekwondo, and Muay Thai flow together here. It is one of the most energetic, tempo-intensive combat sports there is: high strike frequency, changing distances, constant movement. No moment resembles another, no fight follows a fixed pattern. This matches the vitality of Type 7: the need for variety, tempo, and an abundance of possibilities, the aversion to rigid, monotonous repetition. The kickboxer doesn't seek the one perfect technique, but the greatest possible range of options — fists, feet, knees, combinations without end. The passion of gluttony shows as an insatiable hunger for ever-new stimuli and movement possibilities.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 8 – Boxing: Direct Force and Uncompromising Confrontation</h3>
+        <p class="vb-intro">Boxing is the purest, most direct form of physical confrontation that exists in combat sport — no kicks, no throws, no evasive detours into other techniques, only the fist meeting the opponent in a straight line. Two people stand facing each other, without distraction, without detour, measuring their strength in its purest form. Boxing demands enduring pain and striking back, placing one's own will above exhaustion. This matches the basic stance of Type 8: the preference for direct, unvarnished confrontation, the mistrust of detours and tactics that obscure the actual question of strength. The boxer does not negotiate — he steps up, endures, and strikes back. The passion of lust (excess) shows as the drive to feel and prove one's own strength to the limit and beyond.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 9 – Aikido: Harmony Instead of Confrontation</h3>
+        <p class="vb-intro">Aikido is the only major martial art that has no attack of its own — its founder Morihei Ueshiba explicitly developed it as the "way of harmonizing energy." The aikidoka does not attack; they dissolve the opponent's attacking energy by joining with it, redirecting it, and channeling it into a circular, harmless throw — without meeting force with force. At the ideal end of the technique stands not a defeated opponent, but a restored order in which no one was seriously hurt. This matches the deepest longing of Type 9: to resolve conflict not through confrontation but through harmonization, not to break the other's energy but to transform it into something peaceful. Aikido is martial art as reconciliation — strength that does not assert itself but integrates. The passion of sloth shows as the deep wish that, at the end of every movement, calm and harmony are restored.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Deepened type profiles and archetypal considerations – Volume 2 of the Rathmer trilogy.", "Wer du wirklich bist – Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, paths of healing, and the big picture – Volume 3 concluding the trilogy.", "Wer du wirklich bist – Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"hunderassen-der-9-typen", label:"Dog Breeds of the 9 Types"},
+        {route:"blumenarten-der-9-typen", label:"Flower Types of the 9 Types"},
+        {route:"superpower-der-9-typen", label:"Superpower of the 9 Types"},
+      ])}
+    </div>
+  `);
+}
+
 function hunderassenDer9TypenPage() {
   return shell(`
     <div class="page-container">
@@ -45310,6 +45363,7 @@ function subtypeSchaubilderPage() {
     "eulenarten-der-9-typen": eulenartenDer9TypenPage,
     "papageienarten-der-9-typen": papageienartenDer9TypenPage,
     "blumenarten-der-9-typen": blumenartenDer9TypenPage,
+    "kampfkunstarten-der-9-typen": kampfkunstartenDer9TypenPage,
     "hunderassen-der-9-typen": hunderassenDer9TypenPage,
     "pferdearten-der-9-typen": pferdearteDer9TypenPage,
     "nagetierarten-der-9-typen": nagetierartenDer9TypenPage,

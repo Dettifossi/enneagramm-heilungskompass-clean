@@ -217,6 +217,7 @@ export const registerEntries = [
 
   // P
   { term: "Blumenarten der 9 Typen",    route: "blumenarten-der-9-typen",  description: "Archetypische Blumen-Entsprechungen f\xfcr jeden Enneagrammtyp" },
+  { term: "Kampfkunstarten der 9 Typen", route: "kampfkunstarten-der-9-typen", description: "Archetypische Kampfkunst-Entsprechungen f\xfcr jeden Enneagrammtyp" },
   { term: "Hunderassen der 9 Typen",   route: "hunderassen-der-9-typen",  description: "Archetypische Hunde-Entsprechungen f\xfcr jeden Enneagrammtyp" },
   { term: "Papageienarten der 9 Typen", route: "papageienarten-der-9-typen", description: "Archetypische Papageien-Entsprechungen f\xfcr jeden Enneagrammtyp" },
   { term: "Eulenarten der 9 Typen",     route: "eulenarten-der-9-typen",   description: "Archetypische Eulen-Entsprechungen f\xfcr jeden Enneagrammtyp" },
@@ -960,6 +961,7 @@ export const registerEntriesEN = [
   { term: "Orangutan", route: "tierlexikon/se8", description: "Animal archetype of SE8 · Typ 8 · Belly center" },
   { term: "Organ Clock", route: "tcm", description: "Chinese organ clock in the context of the Enneagram" },
   { term: "Flower Types of the 9 Types", route: "blumenarten-der-9-typen", description: "Archetypal flower equivalents for each Enneagram type" },
+  { term: "Martial Arts of the 9 Types", route: "kampfkunstarten-der-9-typen", description: "Archetypal martial-arts equivalents for each Enneagram type" },
   { term: "Dog Breeds of the 9 Types", route: "hunderassen-der-9-typen", description: "Archetypal dog equivalents for each Enneagram type" },
   { term: "Parrot Species of the 9 Types", route: "papageienarten-der-9-typen", description: "Archetypal parrot equivalents for each Enneagram type" },
   { term: "Owl Species of the 9 Types", route: "eulenarten-der-9-typen", description: "Archetypal owl equivalents for each Enneagram type" },
