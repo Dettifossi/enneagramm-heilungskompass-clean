@@ -78982,8 +78982,8 @@ setTimeout(showTagesimpuls, 600);
   btn.setAttribute("aria-label", "Der Wegweiser \u2013 Fragen an den Kompass stellen");
   btn.title = "Der Wegweiser \u2013 frag mich etwas";
   btn.style.cssText =
-    "position:fixed;right:1rem;bottom:1rem;z-index:9998;width:3.4rem;height:3.4rem;border-radius:50%;" +
-    "background:var(--copper,#a5652f) url('./favicon.svg') center/70% no-repeat;color:#fff;border:none;cursor:pointer;" +
+    "position:fixed;right:1rem;bottom:1rem;z-index:9998;width:3.4rem;height:3.4rem;border-radius:50%;overflow:hidden;" +
+    "background:transparent url('./favicon.svg') center/cover no-repeat;color:#fff;border:none;cursor:pointer;padding:0;" +
     "box-shadow:0 2px 10px rgba(0,0,0,0.3);";
 
   const panel = document.createElement("div");
