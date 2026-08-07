@@ -373,6 +373,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Tilda Swinton – Sexual Type 5",
     teaser:"SX5w4 · born 1960. Actress. Orlando, Michael Clayton, We Need to Talk About Kevin. The hedgehog that transforms so completely into every role that no one knows where Tilda ends.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-buddha", name:"Siddhartha Gautama (Buddha)", added:"2026-08-07", subtyp:"SX5w4",
+    heading:"Siddhartha Gautama (Buddha) – Sexual Type 5",
+    teaser:"SX5w4 · c. 563–483 BCE. Religious founder, founder of Buddhism. From the palace into a radical search for the cause of suffering – the hedgehog that dissects the world until only truth remains. Animal correspondence: Hedgehog.",
+    tags:["Religion","Philosophy"]},
   { route:"beruehmte-mark-zuckerberg", name:"Mark Zuckerberg", added:"2026-07-15", subtyp:"SX5w6",
     heading:"Mark Zuckerberg – Sexual Type 5",
     teaser:"SX5w6 · born 1984. CEO of Meta (Facebook, Instagram, WhatsApp). The hedgehog that built the world’s largest social network – and is barely visible within it.",
@@ -16556,6 +16560,89 @@ function hundertwasserPortraitPage() {
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-iga-swiatek", label:"Portrait: Iga \u015awi\u0105tek (SX9w1)"},
         {route:"architektur-raumgestaltung-der-9-typen", label:"Chart: Architecture & Interior Design of the 9 Types"},
+      ])}
+    </div>
+  `);
+}
+
+function buddhaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-buddha-portrait.jpg" alt="Siddhartha Gautama (Buddha)" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Siddhartha Gautama (Buddha)</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexual Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Religious founder, c. 563&ndash;483 BCE &ndash; Founder of Buddhism &ndash; Animal correspondence: Hedgehog</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hedgehog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hedgehog</strong> is the animal of the sexual Five &ndash; an animal that presents itself as spiny and unapproachable on the outside, while carrying a warmth inside that reveals itself only to the very few who come close enough. No accidental animal for a man who left his palace, his wife, and his newborn son to dissect a single question with cutting rigor: What is the cause of suffering? No prayer, no offering, no devotion to a creator god &ndash; but a radical, almost clinical analysis of reality as it is.</p>
+          <p class="vb-intro">Siddhartha Gautama, born a prince of a small kingdom in what is now the border region of India and Nepal, turned away from security, status, and family at the age of 29. For six years he passed through the most extreme schools of his time &ndash; first with the greatest meditation masters, then through an asceticism that nearly cost him his life &ndash; before attaining enlightenment under a Bodhi tree in Bodhgaya. Not a path of attachment to people, places, or institutions, but a path of radical penetration &ndash; the hedgehog that curls up in order to reach the core undisturbed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Five: Depth Instead of System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Five (SX5)</strong> is the counter-type among the Fives &ndash; the Five that secures its existence not through withdrawal into a system, but through selective, highly intense connection with what is essential. Unlike the social Five, which orders its knowledge into a teaching accessible to many, or the self-preservation Five, which withdraws into a protected retreat, the sexual Five seeks the one, ultimate truth with which it can fully merge. Its goal is not distance but transcendence &ndash; complete immersion in what truly matters.</p>
+          <p class="vb-intro">Gautama's first teaching after his enlightenment was accordingly not a mass address but a deeply personal encounter: he deliberately sought out his five former companions from his ascetic years in Sarnath. And when the grieving Kisa Gotami came to him with her dead child, he gave her no abstract lecture on impermanence &ndash; he sent her to fetch a mustard seed from a house where no one had ever died. She returned empty-handed &ndash; and with an insight no lecture could have conveyed. This is precisely the sexual Five: truth tailored to the individual, person to person, not delivered from a pulpit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: Existential Pain as Trigger</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> adds something to the Five's cool analytical sharpness that a pure 5w6 rarely shows at this depth: existential pain as a driving force. In tradition it is the "four sights" &ndash; an old man, a sick man, a dead man, and an ascetic &ndash; that Siddhartha encounters on excursions from the palace and that shake him to his core. Not intellectual curiosity alone, but a deeply felt wound in the face of age, illness, and death &ndash; the typical motif of the Four, who does not rationalize away the pain of existence but allows it, until it becomes the driving force.</p>
+          <p class="vb-intro">This combination explains why Buddha's teaching never remained pure dry logic, but carries a contemplative, almost poetic quality &ndash; visible for instance in the parables of the Pali Canon, the image of the poisoned arrow, or the raft that is carried across the river but not dragged along afterward. The Five's mind dissects reality; the Four-wing ensures that this dissection never stays cold, but is carried by genuine empathy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Avarice as Withdrawal into the Essential</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Five is called <strong>avarice</strong> (Avaritia) &ndash; hoarding one's own inner resources out of fear of being overwhelmed by the world's demands. In Siddhartha this passion appears in a radical inversion: he does not hoard possessions, but gives up all material wealth entirely &ndash; and instead withdraws to the one thing he refuses to share until he has fully penetrated it: truth itself. The hedgehog that curls up not to hoard, but to reach the core undisturbed.</p>
+          <p class="vb-intro">Only after his enlightenment does this restraint dissolve: according to tradition, he first considers keeping what he has realized to himself, believing it too subtle to convey to the world. Only an inner call to compassion &ndash; personified in legend as the deity Brahma Sahampati &ndash; moves him to teach after all. The Five, who initially wants to hoard its most precious possession, finds a way to share it generously without losing itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Leadership Without Power: The Kosambi Conflict</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">How a Five handles conflict is shown exemplarily in the Kosambi crisis: a dispute between two monks splits the entire community into hostile camps. Buddha urges reconciliation &ndash; but is rebuffed by the disputants, who tell him to stay out of it. Rather than asserting his authority as founder or imposing punishments, he silently packs his bowl and withdraws alone into the Parileyyaka forest for months.</p>
+          <p class="vb-intro">No power struggle, no insistence on his own position at any cost &ndash; but energy conservation when emotional confusion threatens, and trust that cause and effect will bring their own clarification. Only the pressure of lay followers, who withhold alms from the quarreling monks, resolves the conflict. The hedgehog that does not entangle itself in the senseless, but waits until insight ripens on its own.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. No Successor, No Institution for Its Own Sake</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Before his death, Buddha refuses to name a successor at the head of the Sangha. His last instruction states, in essence, that the teaching itself and the monastic rules shall be the authority after his death &ndash; not a person. No interest in power structures for their own sake, but the consistent stance of a Five whose loyalty belongs to the truth, not the organization. The Sangha was never a political project for him, but a resonance space for truth-seekers &ndash; a natural byproduct of his teaching, not a goal pursued from the start.</p>
+          <p class="vb-intro">Even when his own cousin Devadatta tries to take over the Sangha with stricter rules and splits off part of the monks, Buddha does not respond with counter-power, but sends his closest disciples Sariputta and Moggallana to clarify matters for those who were misled, using clear arguments. Persuasion through insight, not through domination &ndash; this too is the signature of the Five.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Light and Shadow of the Sexual Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX5w4 is its ability to recognize the cause of suffering with unsparing clarity &ndash; and to convey this insight not as dry theory, but as deeply personal, tailored truth to individuals. The three marks of existence &ndash; impermanence (Anicca), non-self (Anatta), and unsatisfactoriness (Dukkha) &ndash; are not an abstract cosmology, but the result of a Five who dissects reality like a diagnostician until nothing unexamined remains. "Do not believe anything blindly, test it like gold in fire" &ndash; a classic Five stance that only accepts knowledge once it has been fully penetrated.</p>
+          <p class="vb-intro">The shadow shows itself in the permanent temptation of withdrawal: the impulse, after enlightenment, to retreat entirely from the world and keep the insight to oneself. Only the inner call to compassion &ndash; and, from the perspective of subtype theory, the Four-wing with its deep empathy for the suffering of others &ndash; overcomes this pull toward withdrawal. The sexual Five that opens itself without losing itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. The Middle Way: Neither Attachment Nor Denial</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After six years between radical asceticism and the abundance of palace life, Buddha finds the "Middle Way" &ndash; neither extreme materialism nor self-destructive renunciation. Famous is his parable of the poisoned arrow: whoever is struck by an arrow does not first ask the name of the archer or the wood of the arrow &ndash; they pull it out. His entire teaching was less cosmology than practical instruction for liberating the mind, radically pragmatic, free of speculation for its own sake.</p>
+          <p class="vb-intro">Even the principle of dependent origination (Paticcasamuppada) &ndash; "When this exists, that exists; when this arises, that arises" &ndash; is pure causality without divine will: one's own actions (karma) shape one's own reality. No fate, no revelation &ndash; but the investigation of causes as a worldview. The Five that refuses to believe anything it has not penetrated for itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">9. Legacy: 2,500 Years of Impact from a Withdrawal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">For 45 years, from his enlightenment at 35 to his death at 80, Buddha wanders through northern India, teaches in countless one-to-one and small-group encounters, and lets a community emerge that still shapes over 500 million people today. Not a mass project from the outset &ndash; but the organic spread of what people sensed in him as depth and truthfulness, and wanted to connect with.</p>
+          <p class="vb-intro">His death, probably from food poisoning, occurs among his closest monks &ndash; no grand ending, but the final consequence of a life that was never oriented toward outward effect, but always toward the one unshakeable truth. The hedgehog that appeared spiny and unapproachable throughout his life &ndash; and whose innermost warmth, once opened, has not faded to this day.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype profile"},
+        {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
+        {route:"beruehmte-tilda-swinton", label:"Portrait: Tilda Swinton (SX5w4)"},
       ])}
     </div>
   `);
@@ -44653,6 +44740,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-woody-allen": woodyAllenPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
+      "beruehmte-buddha": buddhaPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
       "beruehmte-jodie-foster": jodieFosterPortraitPage,
