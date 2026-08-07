@@ -23924,6 +23924,7 @@ const registerEntries = [
   { term: "Ken Follett",                   route: "beruehmte-ken-follett",                 description: "Portrait: SE1w9 \u00b7 Selbsterhaltender Typ 1 \u00b7 Bestseller-Autor historischer Romane" },
   { term: "Marie-Agnes Strack-Zimmermann", route: "beruehmte-marie-agnes-strack-zimmermann", description: "Portrait: SX1w9 \u00b7 Sexueller Typ 1 \u00b7 FDP-Politikerin, Verteidigungsexpertin" },
   { term: "Marilyn Monroe",                route: "beruehmte-marilyn-monroe",               description: "Portrait: SX3w4 \u00b7 Sexueller Typ 3 \u00b7 Schauspielerin, Filmikone" },
+  { term: "Buddha",                        route: "beruehmte-buddha",                      description: "Portrait: SX5w4 \u00b7 Sexueller Typ 5 \u00b7 Religionsstifter, Begr\u00fcnder des Buddhismus" },
   { term: "Mark Zuckerberg",               route: "beruehmte-mark-zuckerberg",             description: "Portrait: SX5w6 \u00b7 Sexueller Typ 5 \u00b7 Meta-Gr\u00fcnder, Wissen als Macht" },
   { term: "Matthias Schweigh\u00f6fer",      route: "beruehmte-matthias-schweighoefer",      description: "Portrait: SE2w3 \u00b7 Selbsterhaltender Typ 2 \u00b7 Schauspieler, Regisseur" },
   { term: "Meg Ryan",                      route: "beruehmte-meg-ryan",                    description: "Portrait: SX3w4 \u00b7 Sexueller Typ 3 \u00b7 Schauspielerin, Romantik-Ikone" },
@@ -31336,6 +31337,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Tilda Swinton \u2013 Sexueller Typ 5",
     teaser:"SX5w4 \u00b7 geb. 1960. Schauspielerin. Orlando, Michael Clayton, We Need to Talk About Kevin. Der Igel, der sich in jede Rolle so vollst\u00e4ndig verwandelt, dass niemand mehr wei\u00df, wo Tilda aufh\u00f6rt.",
     tags:["Schauspiel"], gender:"f"},
+  { route:"beruehmte-buddha", name:"Siddhartha Gautama (Buddha)", added:"2026-08-07", subtyp:"SX5w4",
+    heading:"Siddhartha Gautama (Buddha) \u2013 Sexueller Typ 5",
+    teaser:"SX5w4 \u00b7 ca. 563\u2013483 v. Chr. Religionsstifter, Begr\u00fcnder des Buddhismus. Vom Palast in die radikale Suche nach der Ursache des Leidens \u2013 der Igel, der die Welt seziert, bis nur noch die Wahrheit \u00fcbrig bleibt. Tierentsprechung: Igel.",
+    tags:["Religion","Philosophie"], gender:"m"},
   { route:"beruehmte-mark-zuckerberg", name:"Mark Zuckerberg", added:"2026-07-15", subtyp:"SX5w6",
     heading:"Mark Zuckerberg \u2013 Sexueller Typ 5",
     teaser:"SX5w6 \u00b7 geb. 1984. CEO von Meta (Facebook, Instagram, WhatsApp). Der Igel, der das gr\u00f6\u00dfte soziale Netzwerk der Welt baute \u2013 und selbst darin kaum sichtbar ist.",
@@ -49789,6 +49794,89 @@ function jesusChristusPortraitPage() {
   `);
 }
 
+
+function buddhaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-buddha-portrait.jpg" alt="Siddhartha Gautama (Buddha)" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Siddhartha Gautama (Buddha)</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexueller Typ 5 mit Viererfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Religionsstifter, ca. 563&ndash;483 v. Chr. &ndash; Begr\u00fcnder des Buddhismus &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier der sexuellen F\u00fcnf &ndash; ein Tier, das sich nach au\u00dfen stachelig und unnahbar zeigt, im Inneren aber eine W\u00e4rme birgt, die sich nur den ganz Wenigen offenbart, die nah genug herankommen. Kein Zufallstier f\u00fcr einen Menschen, der seinen Palast, seine Frau, seinen neugeborenen Sohn verlie\u00df, um mit schneidender Konsequenz eine einzige Frage zu zerlegen: Was ist die Ursache des Leidens? Kein Gebet, keine Opfergabe, keine Hingabe an einen Sch\u00f6pfergott &ndash; sondern eine radikale, fast klinische Analyse der Wirklichkeit, wie sie ist.</p>
+          <p class="vb-intro">Siddhartha Gautama, geboren als Prinz eines kleinen Reichs im heutigen Grenzgebiet von Indien und Nepal, wandte sich mit 29 Jahren von Sicherheit, Status und Familie ab. Sechs Jahre lang durchlief er die extremsten Schulen seiner Zeit &ndash; erst bei den gr\u00f6\u00dften Meditationsmeistern, dann in einer Askese, die ihn fast das Leben kostete &ndash;, bevor er unter einem Bodhi-Baum in Bodhgaya die Erleuchtung erlangte. Kein Weg der Anhaftung an Menschen, Orte oder Institutionen, sondern ein Weg des radikalen Durchdringens &ndash; der Igel, der sich zusammenrollt, um ungest\u00f6rt zum Kern vorzudringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle F\u00fcnf: Tiefe statt System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle F\u00fcnf (SX5)</strong> ist der Kontratyp unter den F\u00fcnfern &ndash; die F\u00fcnf, die nicht durch R\u00fcckzug ins System, sondern durch selektive, hochintensive Verbindung mit dem Wesentlichen seine Existenz sichert. Anders als die soziale F\u00fcnf, die ihr Wissen zu einer f\u00fcr viele zug\u00e4nglichen Lehre ordnet, oder die selbsterhaltende F\u00fcnf, die sich in einen gesch\u00fctzten R\u00fcckzugsraum begibt, sucht die sexuelle F\u00fcnf die eine, ultimative Wahrheit, mit der sie vollst\u00e4ndig verschmelzen kann. Nicht Distanz ist ihr Ziel, sondern Transzendenz &ndash; das restlose Eintauchen in das, was wirklich z\u00e4hlt.</p>
+          <p class="vb-intro">Gautamas erste Lehrrede nach der Erleuchtung war denn auch keine Massenansprache, sondern eine zutiefst pers\u00f6nliche Begegnung: Er suchte gezielt seine f\u00fcnf fr\u00fcheren Weggef\u00e4hrten aus der Askesezeit in Sarnath auf. Und als die trauernde Kisa Gotami mit ihrem toten Kind zu ihm kam, hielt er ihr keine abstrakte Lehrrede \u00fcber Verg\u00e4nglichkeit &ndash; er schickte sie los, ein Senfkorn aus einem Haus zu holen, in dem noch niemand gestorben war. Sie kehrte mit leeren H\u00e4nden zur\u00fcck &ndash; und mit einer Einsicht, die kein Vortrag h\u00e4tte vermitteln k\u00f6nnen. Genau das ist die sexuelle F\u00fcnf: ma\u00dfgeschneiderte Wahrheit, von Mensch zu Mensch, nicht von der Kanzel herab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Der Weltschmerz als Ausl\u00f6ser</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> gibt der k\u00fchlen Analysesch\u00e4rfe der F\u00fcnf etwas hinzu, das eine reine 5w6 selten in dieser Tiefe zeigt: existenziellen Schmerz als Antrieb. In der \u00dcberlieferung sind es die &bdquo;vier Zeichen&ldquo; &ndash; ein alter Mann, ein Kranker, ein Toter und ein Asket &ndash;, die Siddhartha bei Ausfahrten aus dem Palast erblickt und die ihn im Innersten ersch\u00fcttern. Keine intellektuelle Neugier allein, sondern eine tief empfundene Wunde angesichts von Alter, Krankheit und Tod &ndash; das typische Motiv der Vier, die den Schmerz der Existenz nicht wegrationalisiert, sondern ihn zul\u00e4sst, bis er zur treibenden Kraft wird.</p>
+          <p class="vb-intro">Diese Kombination erkl\u00e4rt, warum Buddhas Lehre nie rein trockene Logik blieb, sondern eine kontemplative, fast poetische Qualit\u00e4t tr\u00e4gt &ndash; sichtbar etwa in den Gleichnissen des Pali-Kanons, dem Bild vom vergifteten Pfeil oder dem Flo\u00df, das man \u00fcber den Fluss tr\u00e4gt, aber nicht mit sich schleppt. Der F\u00fcnfer-Verstand seziert die Wirklichkeit; der Vierer-Fl\u00fcgel sorgt daf\u00fcr, dass diese Sezierung nicht kalt bleibt, sondern von echter Betroffenheit getragen ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Gier als R\u00fcckzug ins Wesentliche</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der F\u00fcnf hei\u00dft <strong>Geiz</strong> (Avaritia) &ndash; das Horten der eigenen inneren Ressourcen aus der Angst, von den Anspr\u00fcchen der Welt \u00fcberw\u00e4ltigt zu werden. Bei Siddhartha zeigt sich diese Leidenschaft in einer radikalen Umkehrung: Er hortet nicht Besitz, sondern gibt allen materiellen Reichtum vollst\u00e4ndig auf &ndash; und zieht sich stattdessen auf das eine zur\u00fcck, das er nicht teilen will, bis er es vollst\u00e4ndig durchdrungen hat: die Wahrheit selbst. Der Igel, der sich zusammenrollt, nicht um zu horten, sondern um ungest\u00f6rt zum Kern vorzudringen.</p>
+          <p class="vb-intro">Erst nach der Erleuchtung l\u00f6st sich diese Zur\u00fcckhaltung: Der \u00dcberlieferung nach erw\u00e4gt er zun\u00e4chst, das Erkannte f\u00fcr sich zu behalten, weil er es f\u00fcr zu subtil h\u00e4lt, um es der Welt zu vermitteln. Erst ein innerer Ruf zum Mitgef\u00fchl &ndash; in der Legende als Gottheit Brahma Sahampati personifiziert &ndash; bewegt ihn, doch zu lehren. Die F\u00fcnf, die ihr kostbarstes Gut zun\u00e4chst horten will, findet den Weg, es gro\u00dfz\u00fcgig zu teilen, ohne sich dabei zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. F\u00fchrung ohne Macht: Der Konflikt von Kosambi</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wie eine F\u00fcnf mit Konflikten umgeht, zeigt sich exemplarisch in der Krise von Kosambi: Ein Streit zwischen zwei M\u00f6nchen spaltet die gesamte Gemeinschaft in verfeindete Lager. Buddha mahnt zur Vers\u00f6hnung &ndash; wird aber von den Streitenden zur\u00fcckgewiesen, die ihn auffordern, sich herauszuhalten. Anstatt seine Autorit\u00e4t als Gr\u00fcnder durchzusetzen oder Strafen zu verh\u00e4ngen, packt er wortlos seine Schale und zieht sich monatelang allein in den Wald von Parileyyaka zur\u00fcck.</p>
+          <p class="vb-intro">Kein Machtkampf, kein Beharren auf der eigenen Position um jeden Preis &ndash; sondern Energieversiegelung, wenn emotionale Verwirrung droht, und das Vertrauen, dass Ursache und Wirkung ihre eigene Kl\u00e4rung bringen werden. Erst der Druck der Laienanh\u00e4nger, die den Streith\u00e4hnen die Almosen verweigern, l\u00f6st den Konflikt. Der Igel, der sich nicht in Sinnlosem verstrickt, sondern wartet, bis die Einsicht von selbst reift.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Kein Nachfolger, keine Institution um ihrer selbst willen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vor seinem Tod lehnt Buddha es ab, einen Nachfolger an der Spitze der Sangha zu benennen. Seine letzte Anweisung lautet sinngem\u00e4\u00df: Die Lehre selbst und die Ordensregeln sollen nach seinem Tod die Autorit\u00e4t sein &ndash; nicht eine Person. Kein Interesse an Machtstrukturen um ihrer selbst willen, sondern die konsequente Haltung einer F\u00fcnf, deren Loyalit\u00e4t der Wahrheit gilt, nicht der Organisation. Die Sangha war f\u00fcr ihn kein politisches Projekt, sondern ein Resonanzraum f\u00fcr Wahrheitssucher &ndash; ein nat\u00fcrliches Nebenprodukt seiner Lehre, kein von Anfang an verfolgtes Ziel.</p>
+          <p class="vb-intro">Auch als sein eigener Vetter Devadatta versucht, die Sangha mit radikaleren Regeln zu \u00fcbernehmen und einen Teil der M\u00f6nche abspaltet, reagiert Buddha nicht mit Gegenmacht, sondern schickt seine engsten Sch\u00fcler Sariputta und Moggallana, um die Verf\u00fchrten mit klaren Argumenten aufzukl\u00e4ren. \u00dcberzeugung durch Einsicht, nicht durch Herrschaft &ndash; auch das die Handschrift der F\u00fcnf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten der sexuellen F\u00fcnf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w4 ist ihre F\u00e4higkeit, mit schonungsloser Klarheit die Ursache des Leidens zu erkennen &ndash; und diese Erkenntnis nicht als trockene Theorie zu vermitteln, sondern als tief pers\u00f6nliche, ma\u00dfgeschneiderte Wahrheit an Einzelne weiterzugeben. Die drei Daseinsmerkmale &ndash; Unbest\u00e4ndigkeit (Anicca), Nicht-Selbst (Anatta) und Leidhaftigkeit (Dukkha) &ndash; sind keine abstrakte Kosmologie, sondern das Ergebnis einer F\u00fcnf, die die Wirklichkeit wie ein Diagnostiker seziert, bis nichts Ungepr\u00fcftes mehr \u00fcbrig bleibt. &bdquo;Glaubt nichts blind, pr\u00fcft es wie Gold im Feuer&ldquo; &ndash; eine klassische Haltung der F\u00fcnf, die Wissen nur dann anerkennt, wenn sie es selbst durchdrungen hat.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der permanenten Versuchung des R\u00fcckzugs: der Impuls, sich nach der Erleuchtung ganz aus der Welt zur\u00fcckzuziehen und die Erkenntnis f\u00fcr sich zu behalten. Nur der innere Ruf zum Mitgef\u00fchl &ndash; und, aus Sicht der Subtypenlehre, der Viererfl\u00fcgel mit seiner tiefen Betroffenheit \u00fcber das Leiden anderer &ndash; \u00fcberwindet diesen R\u00fcckzugsimpuls. Die sexuelle F\u00fcnf, die sich \u00f6ffnet, ohne sich zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Der Mittlere Weg: Weder Anhaftung noch Verweigerung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach sechs Jahren zwischen radikaler Askese und der F\u00fclle des Palastlebens findet Buddha den &bdquo;Mittleren Weg&ldquo; &ndash; weder extremer Materialismus noch selbstzerst\u00f6rerischer Verzicht. Bekannt ist sein Gleichnis vom vergifteten Pfeil: Wer von einem Pfeil getroffen wird, fragt nicht zuerst nach dem Namen des Sch\u00fctzen oder der Holzart des Pfeils &ndash; er zieht ihn heraus. Seine gesamte Lehre war weniger Kosmologie als praktische Anleitung zur Befreiung des Geistes, radikal pragmatisch, frei von Spekulation um der Spekulation willen.</p>
+          <p class="vb-intro">Auch das Prinzip des bedingten Entstehens (Paticcasamuppada) &ndash; &bdquo;Wenn dies ist, ist jenes; wenn dies entsteht, entsteht jenes&ldquo; &ndash; ist reine Kausalit\u00e4t ohne g\u00f6ttlichen Willen: das eigene Handeln (Karma) formt die eigene Realit\u00e4t. Kein Schicksal, keine Offenbarung &ndash; sondern Ursachenforschung als Weltbild. Die F\u00fcnf, die sich weigert, etwas zu glauben, das sie nicht selbst durchdrungen hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">9. Verm\u00e4chtnis: 2500 Jahre Wirkung eines R\u00fcckzugs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">45 Jahre lang, von seiner Erleuchtung mit 35 bis zu seinem Tod mit 80 Jahren, wandert Buddha durch Nordindien, lehrt in unz\u00e4hligen 1:1- und Kleingruppenbegegnungen und l\u00e4sst eine Gemeinschaft entstehen, die bis heute \u00fcber 500 Millionen Menschen pr\u00e4gt. Kein Massenprojekt von Anfang an &ndash; sondern die organische Ausbreitung dessen, was Menschen bei ihm an Tiefe und Wahrhaftigkeit sp\u00fcrten und mit denen sie sich verbinden wollten.</p>
+          <p class="vb-intro">Sein Tod, vermutlich durch eine Lebensmittelvergiftung, geschieht im Kreis seiner engsten M\u00f6nche &ndash; kein pomp\u00f6ses Ende, sondern die letzte Konsequenz eines Lebens, das nie auf \u00e4u\u00dfere Wirkung, sondern immer auf die eine, unersch\u00fctterliche Wahrheit ausgerichtet war. Der Igel, der sein Leben lang stachelig und unnahbar wirkte &ndash; und dessen innerste W\u00e4rme, einmal ge\u00f6ffnet, bis heute nicht verblasst ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 \u2013 Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-frederic-chopin", label:"Portr\u00e4t: Fr\u00e9d\u00e9ric Chopin (SX5w4)"},
+        {route:"beruehmte-tilda-swinton", label:"Portr\u00e4t: Tilda Swinton (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
 
 function klausKinskiPortraitPage() {
   return shell(`
@@ -78451,6 +78539,7 @@ function render() {
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
+      "beruehmte-buddha": buddhaPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
       "beruehmte-jodie-foster": jodieFosterPortraitPage,

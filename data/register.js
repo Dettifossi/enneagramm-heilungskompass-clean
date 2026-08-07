@@ -491,6 +491,7 @@ export const registerEntries = [
   { term: "Ken Follett",                   route: "beruehmte-ken-follett",                 description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Bestseller-Autor historischer Romane" },
   { term: "Marie-Agnes Strack-Zimmermann", route: "beruehmte-marie-agnes-strack-zimmermann", description: "Portrait: SX1w9 · Sexueller Typ 1 · FDP-Politikerin, Verteidigungsexpertin" },
   { term: "Marilyn Monroe",                route: "beruehmte-marilyn-monroe",               description: "Portrait: SX3w4 · Sexueller Typ 3 · Schauspielerin, Filmikone" },
+  { term: "Buddha",                        route: "beruehmte-buddha",                      description: "Portrait: SX5w4 · Sexueller Typ 5 · Religionsstifter, Begründer des Buddhismus" },
   { term: "Mark Zuckerberg",               route: "beruehmte-mark-zuckerberg",             description: "Portrait: SX5w6 · Sexueller Typ 5 · Meta-Gründer, Wissen als Macht" },
   { term: "Matthias Schweighöfer",      route: "beruehmte-matthias-schweighoefer",      description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Schauspieler, Regisseur" },
   { term: "Meg Ryan",                      route: "beruehmte-meg-ryan",                    description: "Portrait: SX3w4 · Sexueller Typ 3 · Schauspielerin, Romantik-Ikone" },

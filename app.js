@@ -515,6 +515,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Tilda Swinton – Sexueller Typ 5",
     teaser:"SX5w4 · geb. 1960. Schauspielerin. Orlando, Michael Clayton, We Need to Talk About Kevin. Der Igel, der sich in jede Rolle so vollständig verwandelt, dass niemand mehr weiß, wo Tilda aufhört.",
     tags:["Schauspiel"], gender:"f"},
+  { route:"beruehmte-buddha", name:"Siddhartha Gautama (Buddha)", added:"2026-08-07", subtyp:"SX5w4",
+    heading:"Siddhartha Gautama (Buddha) – Sexueller Typ 5",
+    teaser:"SX5w4 · ca. 563–483 v. Chr. Religionsstifter, Begründer des Buddhismus. Vom Palast in die radikale Suche nach der Ursache des Leidens – der Igel, der die Welt seziert, bis nur noch die Wahrheit übrig bleibt. Tierentsprechung: Igel.",
+    tags:["Religion","Philosophie"], gender:"m"},
   { route:"beruehmte-mark-zuckerberg", name:"Mark Zuckerberg", added:"2026-07-15", subtyp:"SX5w6",
     heading:"Mark Zuckerberg – Sexueller Typ 5",
     teaser:"SX5w6 · geb. 1984. CEO von Meta (Facebook, Instagram, WhatsApp). Der Igel, der das größte soziale Netzwerk der Welt baute – und selbst darin kaum sichtbar ist.",
@@ -18968,6 +18972,89 @@ function jesusChristusPortraitPage() {
   `);
 }
 
+
+function buddhaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-buddha-portrait.jpg" alt="Siddhartha Gautama (Buddha)" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Siddhartha Gautama (Buddha)</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexueller Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Religionsstifter, ca. 563&ndash;483 v. Chr. &ndash; Begründer des Buddhismus &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier der sexuellen Fünf &ndash; ein Tier, das sich nach außen stachelig und unnahbar zeigt, im Inneren aber eine Wärme birgt, die sich nur den ganz Wenigen offenbart, die nah genug herankommen. Kein Zufallstier für einen Menschen, der seinen Palast, seine Frau, seinen neugeborenen Sohn verließ, um mit schneidender Konsequenz eine einzige Frage zu zerlegen: Was ist die Ursache des Leidens? Kein Gebet, keine Opfergabe, keine Hingabe an einen Schöpfergott &ndash; sondern eine radikale, fast klinische Analyse der Wirklichkeit, wie sie ist.</p>
+          <p class="vb-intro">Siddhartha Gautama, geboren als Prinz eines kleinen Reichs im heutigen Grenzgebiet von Indien und Nepal, wandte sich mit 29 Jahren von Sicherheit, Status und Familie ab. Sechs Jahre lang durchlief er die extremsten Schulen seiner Zeit &ndash; erst bei den größten Meditationsmeistern, dann in einer Askese, die ihn fast das Leben kostete &ndash;, bevor er unter einem Bodhi-Baum in Bodhgaya die Erleuchtung erlangte. Kein Weg der Anhaftung an Menschen, Orte oder Institutionen, sondern ein Weg des radikalen Durchdringens &ndash; der Igel, der sich zusammenrollt, um ungestört zum Kern vorzudringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Tiefe statt System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Fünf (SX5)</strong> ist der Kontratyp unter den Fünfern &ndash; die Fünf, die nicht durch Rückzug ins System, sondern durch selektive, hochintensive Verbindung mit dem Wesentlichen seine Existenz sichert. Anders als die soziale Fünf, die ihr Wissen zu einer für viele zugänglichen Lehre ordnet, oder die selbsterhaltende Fünf, die sich in einen geschützten Rückzugsraum begibt, sucht die sexuelle Fünf die eine, ultimative Wahrheit, mit der sie vollständig verschmelzen kann. Nicht Distanz ist ihr Ziel, sondern Transzendenz &ndash; das restlose Eintauchen in das, was wirklich zählt.</p>
+          <p class="vb-intro">Gautamas erste Lehrrede nach der Erleuchtung war denn auch keine Massenansprache, sondern eine zutiefst persönliche Begegnung: Er suchte gezielt seine fünf früheren Weggefährten aus der Askesezeit in Sarnath auf. Und als die trauernde Kisa Gotami mit ihrem toten Kind zu ihm kam, hielt er ihr keine abstrakte Lehrrede über Vergänglichkeit &ndash; er schickte sie los, ein Senfkorn aus einem Haus zu holen, in dem noch niemand gestorben war. Sie kehrte mit leeren Händen zurück &ndash; und mit einer Einsicht, die kein Vortrag hätte vermitteln können. Genau das ist die sexuelle Fünf: maßgeschneiderte Wahrheit, von Mensch zu Mensch, nicht von der Kanzel herab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Der Weltschmerz als Auslöser</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der kühlen Analyseschärfe der Fünf etwas hinzu, das eine reine 5w6 selten in dieser Tiefe zeigt: existenziellen Schmerz als Antrieb. In der Überlieferung sind es die &bdquo;vier Zeichen&ldquo; &ndash; ein alter Mann, ein Kranker, ein Toter und ein Asket &ndash;, die Siddhartha bei Ausfahrten aus dem Palast erblickt und die ihn im Innersten erschüttern. Keine intellektuelle Neugier allein, sondern eine tief empfundene Wunde angesichts von Alter, Krankheit und Tod &ndash; das typische Motiv der Vier, die den Schmerz der Existenz nicht wegrationalisiert, sondern ihn zulässt, bis er zur treibenden Kraft wird.</p>
+          <p class="vb-intro">Diese Kombination erklärt, warum Buddhas Lehre nie rein trockene Logik blieb, sondern eine kontemplative, fast poetische Qualität trägt &ndash; sichtbar etwa in den Gleichnissen des Pali-Kanons, dem Bild vom vergifteten Pfeil oder dem Floß, das man über den Fluss trägt, aber nicht mit sich schleppt. Der Fünfer-Verstand seziert die Wirklichkeit; der Vierer-Flügel sorgt dafür, dass diese Sezierung nicht kalt bleibt, sondern von echter Betroffenheit getragen ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Gier als Rückzug ins Wesentliche</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Fünf heißt <strong>Geiz</strong> (Avaritia) &ndash; das Horten der eigenen inneren Ressourcen aus der Angst, von den Ansprüchen der Welt überwältigt zu werden. Bei Siddhartha zeigt sich diese Leidenschaft in einer radikalen Umkehrung: Er hortet nicht Besitz, sondern gibt allen materiellen Reichtum vollständig auf &ndash; und zieht sich stattdessen auf das eine zurück, das er nicht teilen will, bis er es vollständig durchdrungen hat: die Wahrheit selbst. Der Igel, der sich zusammenrollt, nicht um zu horten, sondern um ungestört zum Kern vorzudringen.</p>
+          <p class="vb-intro">Erst nach der Erleuchtung löst sich diese Zurückhaltung: Der Überlieferung nach erwägt er zunächst, das Erkannte für sich zu behalten, weil er es für zu subtil hält, um es der Welt zu vermitteln. Erst ein innerer Ruf zum Mitgefühl &ndash; in der Legende als Gottheit Brahma Sahampati personifiziert &ndash; bewegt ihn, doch zu lehren. Die Fünf, die ihr kostbarstes Gut zunächst horten will, findet den Weg, es großzügig zu teilen, ohne sich dabei zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Führung ohne Macht: Der Konflikt von Kosambi</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wie eine Fünf mit Konflikten umgeht, zeigt sich exemplarisch in der Krise von Kosambi: Ein Streit zwischen zwei Mönchen spaltet die gesamte Gemeinschaft in verfeindete Lager. Buddha mahnt zur Versöhnung &ndash; wird aber von den Streitenden zurückgewiesen, die ihn auffordern, sich herauszuhalten. Anstatt seine Autorität als Gründer durchzusetzen oder Strafen zu verhängen, packt er wortlos seine Schale und zieht sich monatelang allein in den Wald von Parileyyaka zurück.</p>
+          <p class="vb-intro">Kein Machtkampf, kein Beharren auf der eigenen Position um jeden Preis &ndash; sondern Energieversiegelung, wenn emotionale Verwirrung droht, und das Vertrauen, dass Ursache und Wirkung ihre eigene Klärung bringen werden. Erst der Druck der Laienanhänger, die den Streithähnen die Almosen verweigern, löst den Konflikt. Der Igel, der sich nicht in Sinnlosem verstrickt, sondern wartet, bis die Einsicht von selbst reift.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Kein Nachfolger, keine Institution um ihrer selbst willen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vor seinem Tod lehnt Buddha es ab, einen Nachfolger an der Spitze der Sangha zu benennen. Seine letzte Anweisung lautet sinngemäß: Die Lehre selbst und die Ordensregeln sollen nach seinem Tod die Autorität sein &ndash; nicht eine Person. Kein Interesse an Machtstrukturen um ihrer selbst willen, sondern die konsequente Haltung einer Fünf, deren Loyalität der Wahrheit gilt, nicht der Organisation. Die Sangha war für ihn kein politisches Projekt, sondern ein Resonanzraum für Wahrheitssucher &ndash; ein natürliches Nebenprodukt seiner Lehre, kein von Anfang an verfolgtes Ziel.</p>
+          <p class="vb-intro">Auch als sein eigener Vetter Devadatta versucht, die Sangha mit radikaleren Regeln zu übernehmen und einen Teil der Mönche abspaltet, reagiert Buddha nicht mit Gegenmacht, sondern schickt seine engsten Schüler Sariputta und Moggallana, um die Verführten mit klaren Argumenten aufzuklären. Überzeugung durch Einsicht, nicht durch Herrschaft &ndash; auch das die Handschrift der Fünf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten der sexuellen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w4 ist ihre Fähigkeit, mit schonungsloser Klarheit die Ursache des Leidens zu erkennen &ndash; und diese Erkenntnis nicht als trockene Theorie zu vermitteln, sondern als tief persönliche, maßgeschneiderte Wahrheit an Einzelne weiterzugeben. Die drei Daseinsmerkmale &ndash; Unbeständigkeit (Anicca), Nicht-Selbst (Anatta) und Leidhaftigkeit (Dukkha) &ndash; sind keine abstrakte Kosmologie, sondern das Ergebnis einer Fünf, die die Wirklichkeit wie ein Diagnostiker seziert, bis nichts Ungeprüftes mehr übrig bleibt. &bdquo;Glaubt nichts blind, prüft es wie Gold im Feuer&ldquo; &ndash; eine klassische Haltung der Fünf, die Wissen nur dann anerkennt, wenn sie es selbst durchdrungen hat.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der permanenten Versuchung des Rückzugs: der Impuls, sich nach der Erleuchtung ganz aus der Welt zurückzuziehen und die Erkenntnis für sich zu behalten. Nur der innere Ruf zum Mitgefühl &ndash; und, aus Sicht der Subtypenlehre, der Viererflügel mit seiner tiefen Betroffenheit über das Leiden anderer &ndash; überwindet diesen Rückzugsimpuls. Die sexuelle Fünf, die sich öffnet, ohne sich zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Der Mittlere Weg: Weder Anhaftung noch Verweigerung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach sechs Jahren zwischen radikaler Askese und der Fülle des Palastlebens findet Buddha den &bdquo;Mittleren Weg&ldquo; &ndash; weder extremer Materialismus noch selbstzerstörerischer Verzicht. Bekannt ist sein Gleichnis vom vergifteten Pfeil: Wer von einem Pfeil getroffen wird, fragt nicht zuerst nach dem Namen des Schützen oder der Holzart des Pfeils &ndash; er zieht ihn heraus. Seine gesamte Lehre war weniger Kosmologie als praktische Anleitung zur Befreiung des Geistes, radikal pragmatisch, frei von Spekulation um der Spekulation willen.</p>
+          <p class="vb-intro">Auch das Prinzip des bedingten Entstehens (Paticcasamuppada) &ndash; &bdquo;Wenn dies ist, ist jenes; wenn dies entsteht, entsteht jenes&ldquo; &ndash; ist reine Kausalität ohne göttlichen Willen: das eigene Handeln (Karma) formt die eigene Realität. Kein Schicksal, keine Offenbarung &ndash; sondern Ursachenforschung als Weltbild. Die Fünf, die sich weigert, etwas zu glauben, das sie nicht selbst durchdrungen hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">9. Vermächtnis: 2500 Jahre Wirkung eines Rückzugs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">45 Jahre lang, von seiner Erleuchtung mit 35 bis zu seinem Tod mit 80 Jahren, wandert Buddha durch Nordindien, lehrt in unzähligen 1:1- und Kleingruppenbegegnungen und lässt eine Gemeinschaft entstehen, die bis heute über 500 Millionen Menschen prägt. Kein Massenprojekt von Anfang an &ndash; sondern die organische Ausbreitung dessen, was Menschen bei ihm an Tiefe und Wahrhaftigkeit spürten und mit denen sie sich verbinden wollten.</p>
+          <p class="vb-intro">Sein Tod, vermutlich durch eine Lebensmittelvergiftung, geschieht im Kreis seiner engsten Mönche &ndash; kein pompöses Ende, sondern die letzte Konsequenz eines Lebens, das nie auf äußere Wirkung, sondern immer auf die eine, unerschütterliche Wahrheit ausgerichtet war. Der Igel, der sein Leben lang stachelig und unnahbar wirkte &ndash; und dessen innerste Wärme, einmal geöffnet, bis heute nicht verblasst ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4)"},
+        {route:"beruehmte-tilda-swinton", label:"Porträt: Tilda Swinton (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
 
 function klausKinskiPortraitPage() {
   return shell(`
@@ -47630,6 +47717,7 @@ function render() {
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
+      "beruehmte-buddha": buddhaPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
       "beruehmte-jodie-foster": jodieFosterPortraitPage,
