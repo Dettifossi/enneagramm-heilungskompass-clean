@@ -1,8 +1,8 @@
 import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-31-cloudinary-v2";
-import { TYP_IMPULSE, TYP_IMPULSE_EN, SUBTYP_IMPULSE } from "../data/impulse.js?v=3";
+import { TYP_IMPULSE, TYP_IMPULSE_EN, SUBTYP_IMPULSE_EN as SUBTYP_IMPULSE } from "../data/impulse.js?v=4";
 import { TAGESIMPULSE_EN } from "../data/tagesimpulse_en.js?v=1";
 import { TRIADEN_EN as TRIADEN, TYPFRAGEN_EN as TYPFRAGEN, TYPNAMEN_EN as TYPNAMEN, TYPKURZ_EN as TYPKURZ, INSTINKTE_EN as INSTINKTE } from "../data/typentest_en.js?v=1";
-import { MOTIVTEST } from "../data/motivtest.js?v=1";
+import { MOTIVTEST_EN as MOTIVTEST } from "../data/motivtest_en.js?v=1";
 import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
@@ -10,7 +10,7 @@ import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
 import { registerEntries, registerEntriesEN } from "../data/register.js?v=32";
 import { TIERENTSPRECHUNGEN } from "../data/tierentsprechungen.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
-import { TIERLEXIKON } from "../data/tierlexikon.js?v=9";
+import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=9";
 
 // ── Firebase Auth ────────────────────────────────────────────────────────────
 const FB_CONFIG = {
@@ -11103,7 +11103,7 @@ function typentestMotivationalPage() {
       <div class="typentest-wrap">
         <div class="typentest-card">
           <div class="motiv-progress">
-            <span class="motiv-progress__label">Frage ${qi + 1} von ${total}</span>
+            <span class="motiv-progress__label">Question ${qi + 1} of ${total}</span>
             <div class="motiv-progress__track"><div class="motiv-progress__bar" style="width:${pct}%"></div></div>
           </div>
           <p class="eyebrow" style="margin-top:1.2rem;">Question ${q.nr}: ${q.thema}</p>
@@ -11169,16 +11169,16 @@ function typentestMotivationalPage() {
           </div>
 
           <div class="typentest-cta-group">
-            <button class="primary" style="background:${typColor};border-color:${typColor}" data-route="type/${topType}">Zum Typ&nbsp;${topType} im Kompass &#8594;</button>
+            <button class="primary" style="background:${typColor};border-color:${typColor}" data-route="type/${topType}">Go to Type&nbsp;${topType} in the Compass &#8594;</button>
             <p class="typentest-berater-label">Request a consultation appointment:</p>
-            <a class="typentest-cta-btn" href="mailto:detlefrathmer@t-online.de?subject=Request%20a%20Typing%20Consultation">&#9993; Beratungstermin bei Detlef Rathmer anfragen</a>
+            <a class="typentest-cta-btn" href="mailto:detlefrathmer@t-online.de?subject=Request%20a%20Typing%20Consultation">&#9993; Request consultation with Detlef Rathmer</a>
             <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915758786201?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp Detlef Rathmer</a>
-            <a class="typentest-cta-btn" href="mailto:rathmer.david.business@gmail.com?subject=Request%20a%20Typing%20Consultation">&#9993; Beratungstermin bei David L. Rathmer anfragen</a>
+            <a class="typentest-cta-btn" href="mailto:rathmer.david.business@gmail.com?subject=Request%20a%20Typing%20Consultation">&#9993; Request consultation with David L. Rathmer</a>
             <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915901902479?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp David L. Rathmer</a>
           </div>
 
-          <button class="ghost-link" data-motiv-reset>Test wiederholen</button>
-          <button class="ghost-link" data-route="dashboard">&#8592; Zum Dashboard</button>
+          <button class="ghost-link" data-motiv-reset>Retake Test</button>
+          <button class="ghost-link" data-route="dashboard">&#8592; Go to Dashboard</button>
         </div>
       </div>
     `);
@@ -14105,7 +14105,7 @@ function tierlexikonDetailPage(codeRaw) {
         return `
           <div style="margin-top:2.5rem;">
             <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin:0 0 .8rem;display:flex;align-items:center;gap:.4rem;">
-              🎬 <span>Tierdoku</span>
+              🎬 <span>Animal Documentary</span>
             </h2>
             <div style="position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;border:1px solid var(--line);">
               <iframe

@@ -54,6 +54,8 @@ def main():
         neutral_ok = {
             "de.js",  # enthaelt bereits pro Feld ..._en Varianten, kein 1:1-Fall
             "register.js",  # exportiert registerEntries UND registerEntriesEN
+            "differenzierungen.js",  # jede Paarung hat bereits textEN/kernAen/kernBen inline
+            "situationskompass.js",  # enthaelt DE+EN Text nebeneinander im selben Objekt
         }
         if "_en" not in fname and fname not in neutral_ok:
             suspects.append((names.strip(), fname))
