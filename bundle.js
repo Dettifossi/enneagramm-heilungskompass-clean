@@ -78969,6 +78969,55 @@ if (localStorage.getItem('kompass-admin-redirect')) {
   localStorage.removeItem('kompass-admin-redirect');
   location.hash = 'admin/rathmer9';
 }
+// Buchtipp-Stapel automatisch einklappen: fasst 3+ direkt aufeinanderfolgende
+// .book-tip-Elemente (egal auf welcher Seite) in ein <details>-Aufklappmen\u00fc
+// zusammen, statt dass lange Buchlisten die Seite vollschreiben. L\u00e4uft per
+// MutationObserver auf #app, damit es unabh\u00e4ngig davon funktioniert, an
+// welcher der vielen Render-Stellen im Code die Seite gesetzt wurde.
+(function initBookTipGrouping() {
+  const LABEL = "\ud83d\udcd6 Buchtipps";
+
+  function groupBookTips(root) {
+    const tips = Array.from(root.querySelectorAll(".book-tip")).filter(
+      (el) => !el.closest(".book-tips-group")
+    );
+    let i = 0;
+    while (i < tips.length) {
+      const run = [tips[i]];
+      while (i + run.length < tips.length) {
+        let sib = run[run.length - 1].nextSibling;
+        while (sib && sib.nodeType === 3 && !sib.textContent.trim()) sib = sib.nextSibling;
+        if (sib === tips[i + run.length]) {
+          run.push(tips[i + run.length]);
+        } else {
+          break;
+        }
+      }
+      if (run.length >= 3) {
+        const details = document.createElement("details");
+        details.className = "book-tips-group";
+        const summary = document.createElement("summary");
+        summary.innerHTML = `${LABEL} <span class="book-tips-group__count">(${run.length})</span>`;
+        details.appendChild(summary);
+        run[0].parentNode.insertBefore(details, run[0]);
+        run.forEach((el) => details.appendChild(el));
+      }
+      i += run.length;
+    }
+  }
+
+  const appEl = document.getElementById("app");
+  if (!appEl) return;
+
+  const observer = new MutationObserver(() => {
+    observer.disconnect();
+    groupBookTips(appEl);
+    observer.observe(appEl, { childList: true, subtree: true });
+  });
+  groupBookTips(appEl);
+  observer.observe(appEl, { childList: true, subtree: true });
+})();
+
 render();
 setTimeout(showTagesimpuls, 600);
 
