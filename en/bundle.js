@@ -3,7 +3,7 @@ import { TYP_IMPULSE, TYP_IMPULSE_EN, SUBTYP_IMPULSE } from "../data/impulse.js?
 import { TAGESIMPULSE_EN } from "../data/tagesimpulse_en.js?v=1";
 import { TRIADEN_EN as TRIADEN, TYPFRAGEN_EN as TYPFRAGEN, TYPNAMEN_EN as TYPNAMEN, TYPKURZ_EN as TYPKURZ, INSTINKTE_EN as INSTINKTE } from "../data/typentest_en.js?v=1";
 import { MOTIVTEST } from "../data/motivtest.js?v=1";
-import { DIAGNOSETEST } from "../data/diagnosetest.js?v=1";
+import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
@@ -11555,7 +11555,7 @@ function diagnosetestPage() {
           <div class="diag-list">${items}</div>
           <div class="diag-nav">
             ${s > 0 ? `<button class="typentest-start-btn" style="background:transparent;color:var(--copper,#a5603d);border:1.5px solid var(--copper,#a5603d);" data-diag-back>&#8592; Back</button>` : `<span></span>`}
-            <button class="typentest-start-btn" data-diag-next>${isLast ? "Ergebnis anzeigen &#8594;" : "Next &#8594;"}</button>
+            <button class="typentest-start-btn" data-diag-next>${isLast ? "Show Result &#8594;" : "Next &#8594;"}</button>
           </div>
         </div>
       </div>
@@ -11576,7 +11576,7 @@ function diagnosetestPage() {
 
     const bars = sorted.map((s, i) => `
       <li class="${i === 0 ? "is-top" : ""}">
-        <span class="diag-scores__label">Typ ${s.typ} &ndash; ${s.name.replace("Der ", "").replace("Die ", "")}</span>
+        <span class="diag-scores__label">Type ${s.typ} &ndash; ${s.name.replace("The ", "")}</span>
         <span class="diag-scores__bar-wrap"><span class="diag-scores__bar" style="width:${Math.round((s.score / maxScore) * 100)}%"></span></span>
         <span class="diag-scores__pts">${s.score}</span>
       </li>`).join("");
@@ -11587,7 +11587,7 @@ function diagnosetestPage() {
         <div class="typentest-card typentest-card--result">
           <div class="diag-result__heading">
             <p class="eyebrow">Your Result</p>
-            <div class="diag-result__typ">Typ ${winner.typ} &ndash; ${winner.name}</div>
+            <div class="diag-result__typ">Type ${winner.typ} &ndash; ${winner.name}</div>
             <p class="typentest-intro">Out of ${winner.total} statements, you checked <strong>${winner.score}</strong> as accurate.</p>
             ${TYPKURZ[winner.typ] ? `<p style="font-size:0.95rem;line-height:1.6;color:var(--ink);margin:0.8rem 0 0;font-style:italic;">${TYPKURZ[winner.typ]}</p>` : ""}
           </div>
@@ -11599,12 +11599,12 @@ function diagnosetestPage() {
           </div>
           <div class="typentest-cta-group" style="margin-top:1.5rem;display:flex;flex-direction:column;gap:0.7rem;">
             <p class="typentest-berater-label">Request a consultation appointment:</p>
-            <a class="typentest-cta-btn" href="mailto:detlefrathmer@t-online.de?subject=Request%20a%20Typing%20Consultation">✉ Beratungstermin bei Detlef Rathmer anfragen</a>
+            <a class="typentest-cta-btn" href="mailto:detlefrathmer@t-online.de?subject=Request%20a%20Typing%20Consultation">✉ Request consultation with Detlef Rathmer</a>
             <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915758786201?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp Detlef Rathmer</a>
-            <a class="typentest-cta-btn" href="mailto:rathmer.david.business@gmail.com?subject=Request%20a%20Typing%20Consultation">✉ Beratungstermin bei David L. Rathmer anfragen</a>
+            <a class="typentest-cta-btn" href="mailto:rathmer.david.business@gmail.com?subject=Request%20a%20Typing%20Consultation">✉ Request consultation with David L. Rathmer</a>
             <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915901902479?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp David L. Rathmer</a>
-            <button class="typentest-start-btn" style="background:transparent;color:var(--copper,#a5603d);border:1.5px solid var(--copper,#a5603d);" data-diag-reset>Test wiederholen</button>
-            <button class="typentest-start-btn" data-route="start">Zur Startseite</button>
+            <button class="typentest-start-btn" style="background:transparent;color:var(--copper,#a5603d);border:1.5px solid var(--copper,#a5603d);" data-diag-reset>Retake Test</button>
+            <button class="typentest-start-btn" data-route="start">Go to Homepage</button>
           </div>
         </div>
       </div>
