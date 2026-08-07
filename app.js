@@ -1634,6 +1634,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "blumenarten-der-9-typen",
     "kampfkunstarten-der-9-typen",
     "bagua-zonen-der-9-typen",
+    "grimms-maerchen-der-9-typen",
     "hunderassen-der-9-typen",
     "pferdearten-der-9-typen",
     "nagetierarten-der-9-typen",
@@ -38710,6 +38711,89 @@ function kampfkunstartenDer9TypenPage() {
   `);
 }
 
+function grimmsMaerchenDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Grimms Märchen der 9 Typen", "Schaubilder · Archetypen")}
+      <p class="psycho-intro">Kaum eine Erzählform trägt archetypisches Wissen so unmittelbar weiter wie das Märchen. In wenigen, klaren Bildern erzählen die Grimm'schen Märchen von genau jenen inneren Kämpfen, Sehnsüchten und Erlösungswegen, die auch das Enneagramm beschreibt — Neid, Stolz, Trägheit, Gier, Angst, nicht als abstrakte Begriffe, sondern als Hexen, Wölfe, verzauberte Prinzen und tapfere Schneiderlein. Genau deshalb sind Märchen für Kinder so wichtig: Sie lassen die Grundprinzipien dieser Welt früh und auf einer Ebene erfahrbar werden, die kein Sachbuch erreicht — auch wenn sie manchmal unbequem, ja grausam sind. Denn sie erzählen von der Wirklichkeit, nicht von einer beschönigten Version davon. Das Vorlesen von Märchen ist heute seltener geworden, als es sein sollte — dabei bräuchten gerade Kinder diese frühen, archetypischen Landkarten der Seele.</p>
+      <img src="./assets/grimms-maerchen-der-9-typen.jpg" alt="Grimms Märchen und Enneagramm-Strukturen – Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:0 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
+        <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Schnellzugriff — direkt zum Typ</span>
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('grimm-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:var(--cream);color:var(--copper);text-decoration:none;border:1px solid var(--line);">Typ ${n}</a>`).join("")}
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 id="grimm-typ-1" style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 – Der Froschkönig · König Drosselbart · Der Eisenofen</h3>
+        <p class="vb-intro">Alle drei Märchen erzählen von Verwandlung durch Prinzipientreue — davon, dass Erlösung nicht durch Gefühl, sondern durch das Einhalten des rechten Weges geschieht. Genau das ist die innerste Logik des Typs 1.</p>
+        <p class="vb-intro"><strong>Der Froschkönig:</strong> Die Prinzessin verspricht dem Frosch aus Not, ihn als Gefährten zu akzeptieren — und muss dieses Versprechen später gegen ihren Ekel halten. Erst als sie ihr Wort tatsächlich einlöst, nicht weil sie will, sondern weil es richtig ist, löst sich der Zauber. Ein Urbild des Typ-1-Prinzips: Nicht das Gefühl entscheidet, sondern die Verpflichtung, die man eingegangen ist.</p>
+        <p class="vb-intro"><strong>König Drosselbart:</strong> Eine hochmütige Prinzessin, die jeden Bewerber verspottet, wird durch eine harte Lektion in Demut geführt — verkleidet als Bettler muss sie ihren eigenen Hochmut am eigenen Leib erfahren, bevor sie zur wahren, ungekünstelten Integrität finden kann. Die Läuterung falschen Stolzes zu echter Rechtschaffenheit ist ein zentrales Typ-1-Motiv.</p>
+        <p class="vb-intro"><strong>Der Eisenofen:</strong> Ein verzauberter Prinz kann nur erlöst werden, wenn eine treue Gefährtin eine Reihe schwieriger, genau einzuhaltender Aufgaben erfüllt — und selbst als sie gegen eine einzige Regel verstößt, muss sie den Fehler durch beharrliches, korrektes Handeln wiedergutmachen. Erlösung als Belohnung für Beharrlichkeit trotz Rückschlägen.</p>
+
+        <h3 id="grimm-typ-2" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 – Rotkäppchen · Rapunzel · Der süße Brei</h3>
+        <p class="vb-intro">Diese drei Märchen kreisen um Fürsorge, Nähe und Nahrung — und um deren Schattenseite: Geben, Binden und Nähren, das aus dem Gleichgewicht gerät. Ein Kernthema des Typs 2.</p>
+        <p class="vb-intro"><strong>Rotkäppchen:</strong> Ein Mädchen bringt liebevoll Essen zur kranken Großmutter — und wird durch ihre eigene Gutgläubigkeit und Grenzenlosigkeit zur Beute des Wolfs. Ein Bild dafür, wie das reine Bedürfnis zu geben und zu versorgen blind machen kann für Gefahr und für die eigenen Grenzen.</p>
+        <p class="vb-intro"><strong>Rapunzel:</strong> Eine Zauberin sperrt ein Mädchen aus vermeintlicher Fürsorge in einen Turm und lässt niemanden an sie heran — die Schattenseite der Typ-2-Energie in Reinform: Liebe, die zu Besitz und Kontrolle wird, Fürsorge, die den anderen einsperrt statt ihn wachsen zu lassen.</p>
+        <p class="vb-intro"><strong>Der süße Brei:</strong> Ein magischer Topf, der auf Zuruf endlos Brei kocht, gerät außer Kontrolle und überflutet das ganze Dorf. Ein treffendes Bild für ungebremstes Geben und Nähren, das — einmal in Gang gesetzt — sich selbst nicht mehr zu stoppen weiß.</p>
+
+        <h3 id="grimm-typ-3" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 – Marienkind · Doktor Allwissend · Der Meisterdieb</h3>
+        <p class="vb-intro">In allen drei Geschichten geht es um Image, Täuschung und die Frage, was einen wirklichen Wert schafft — Leistung, Schein oder Wahrheit. Der zentrale Konflikt des Typs 3.</p>
+        <p class="vb-intro"><strong>Marienkind:</strong> Ein Mädchen öffnet aus Neugier eine verbotene Tür, leugnet die Tat jedoch beharrlich, um ihr Bild der Unschuld zu wahren — und verliert dafür ihre Stimme. Erst das ehrliche Bekenntnis, das Ablegen der Fassade, bringt die Erlösung. Image gegen Wahrheit — ein Kernthema von Typ 3.</p>
+        <p class="vb-intro"><strong>Doktor Allwissend:</strong> Ein einfacher Bauer gibt sich durch geschickte Inszenierung als allwissender Gelehrter aus — und hat tatsächlich Erfolg, allein durch die überzeugende Darstellung, nicht durch echtes Wissen. Ein Märchen über die Kraft (und Gefahr) der reinen Selbstdarstellung.</p>
+        <p class="vb-intro"><strong>Der Meisterdieb:</strong> Ein gewiefter Held beweist seine Fähigkeiten durch spektakuläre, öffentlich bestaunte Kunststücke — sein Wert bemisst sich an der Wirkung vor Publikum, nicht an stiller Tugend. Leistung als Bühne, auf der man glänzen muss.</p>
+
+        <h3 id="grimm-typ-4" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 – Schneewittchen · Vom Fischer und seiner Frau · Jorinde und Joringel</h3>
+        <p class="vb-intro">Drei Geschichten über Einzigartigkeit, unstillbare Sehnsucht und den Schmerz des Verlusts — Grundmelodien des Typs 4.</p>
+        <p class="vb-intro"><strong>Schneewittchen:</strong> Die Stiefmutter kann die einzigartige Schönheit der Tochter nicht ertragen und verfolgt sie bis zum vermeintlichen Tod. Ein Märchen über Neid auf das Besondere im anderen, über Isolation, Verlust der eigenen Mitte — und die Wiedererweckung durch echte, unverstellte Liebe.</p>
+        <p class="vb-intro"><strong>Vom Fischer und seiner Frau:</strong> Eine Frau wünscht sich immer mehr — vom Häuschen zum Palast, vom König zum Papst, zuletzt will sie sein wie Gott selbst — und verliert am Ende alles. Der endlose Hunger nach dem, was fehlt, als Kern der Erzählung.</p>
+        <p class="vb-intro"><strong>Jorinde und Joringel:</strong> Zwei Liebende werden durch eine Verzauberung brutal getrennt, die Sehnsucht nach der verlorenen Verbindung zieht sich über Jahre — bis Beharrlichkeit und ein magisches Zeichen die Wiedervereinigung ermöglichen. Sehnsucht, Verlust und das Festhalten an dem, was einmal ganz war.</p>
+
+        <h3 id="grimm-typ-5" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 – Hänsel und Gretel · Das tapfere Schneiderlein · Rumpelstilzchen</h3>
+        <p class="vb-intro">Drei Geschichten, in denen Verstand, Wissen und List über rohe Kraft siegen — die Überlebensstrategie des Typs 5.</p>
+        <p class="vb-intro"><strong>Hänsel und Gretel:</strong> Im Wald ausgesetzte Kinder überleben nicht durch Kraft, sondern durch Scharfsinn — Brotkrumen als Orientierungssystem, eine kluge List, um der Hexe zu entkommen. Überleben durch Denken, nicht durch körperliche Stärke.</p>
+        <p class="vb-intro"><strong>Das tapfere Schneiderlein:</strong> Ein kleiner, körperlich unterlegener Schneider besiegt Riesen und Einhörner allein durch Cleverness, Sprache und geschickte Täuschung. Der Intellekt als überlegene Waffe gegenüber roher Gewalt — ein Urbild des Typ-5-Prinzips.</p>
+        <p class="vb-intro"><strong>Rumpelstilzchen:</strong> Das Wissen um den geheimen Namen des Männchens wird zur einzigen Rettung der Königin — Wissen als Schlüssel zur Macht, als das eine entscheidende Detail, das über Sieg oder Niederlage entscheidet.</p>
+
+        <h3 id="grimm-typ-6" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 – Phobisch: Der Wolf und die sieben Geißlein · Kontraphobisch: Märchen von einem, der auszog, das Fürchten zu lernen</h3>
+        <p class="vb-intro">Der Typ 6 zeigt sich im Enneagramm in zwei gegensätzlichen Ausprägungen — der phobischen (vorsichtig-wachsamen) und der kontraphobischen (der Angst aktiv entgegentretenden) Variante. Beide finden sich hier exemplarisch.</p>
+        <p class="vb-intro"><strong>Der Wolf und die sieben Geißlein (phobisch):</strong> Die Geißenmutter warnt eindringlich vor dem Wolf, der sich als sie selbst tarnt — die Geißlein müssen lernen, jedes Zeichen genau zu prüfen, bevor sie vertrauen. Wachsamkeit und Misstrauen als Überlebensstrategie, Sicherheit durch ständige Prüfung.</p>
+        <p class="vb-intro"><strong>Märchen von einem, der auszog, das Fürchten zu lernen (kontraphobisch):</strong> Ein junger Mann, der buchstäblich keine Angst empfinden kann, sucht sie aktiv — er stellt sich Geistern, Toten und Ungeheuern, um endlich das Gruseln zu lernen. Die Angst nicht zu vermeiden, sondern ihr direkt entgegenzugehen, um sie zu bezwingen — die kontraphobische Spielart des Typs 6.</p>
+
+        <h3 id="grimm-typ-7" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 – Hans im Glück · Bruder Lustig · Der Spielhansel</h3>
+        <p class="vb-intro">Drei Figuren, die dem Ernst des Lebens mit Leichtigkeit, Witz und beständiger Umdeutung begegnen — die Grundhaltung des Typs 7.</p>
+        <p class="vb-intro"><strong>Hans im Glück:</strong> Hans tauscht seinen Lohn immer wieder gegen etwas scheinbar Geringeres — bis er am Ende mit leeren Händen dasteht und sich trotzdem als der glücklichste Mensch der Welt fühlt. Die Kunst, jeden Verlust positiv umzudeuten und sich nie von der eigenen guten Laune abbringen zu lassen.</p>
+        <p class="vb-intro"><strong>Bruder Lustig:</strong> Ein schlitzohriger, ewig hungriger und ewig fröhlicher Ex-Soldat schwindelt sich mit Witz, Chuzpe und einer gehörigen Portion Regelbruch durchs Leben — sogar mit dem Teufel und dem Heiligen Petrus handelt er noch. Lebensfreude, die sich von keiner Autorität einschränken lässt.</p>
+        <p class="vb-intro"><strong>Der Spielhansel:</strong> Eine Gestalt, die das Leben als Spiel begreift, immer in Bewegung, immer auf der Suche nach der nächsten Unterhaltung — ein Sinnbild für die Rastlosigkeit und den Facettenreichtum, mit dem Typ 7 der Langeweile entkommt.</p>
+
+        <h3 id="grimm-typ-8" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 – Der starke Hans · Der junge Riese · Lieb und Leid teilen</h3>
+        <p class="vb-intro">Drei Geschichten über rohe Kraft, Schutzinstinkt und die Frage, wie sich Macht mit Loyalität verbindet — zentrale Themen des Typs 8.</p>
+        <p class="vb-intro"><strong>Der starke Hans:</strong> Ein Junge mit übermenschlicher Kraft bezwingt Räuber und ein Ungeheuer, um Schwächere zu befreien und zu beschützen. Kraft, die sich nicht in Zerstörung erschöpft, sondern sich in den Dienst der Schwachen stellt — der positive Kern von Typ 8.</p>
+        <p class="vb-intro"><strong>Der junge Riese:</strong> Ein körperlich übermächtiger junger Mann wehrt sich gegen die Ausbeutung durch seinen Vater und später durch andere, die seine Kraft für ihre Zwecke missbrauchen wollen. Das Thema Gerechtigkeit und Selbstbehauptung durch Stärke gegen Unterdrückung.</p>
+        <p class="vb-intro"><strong>Lieb und Leid teilen:</strong> Ein starker Mann verspricht seiner Braut, mit ihr sowohl Freude als auch Leid zu teilen — und wird buchstäblich auf diese Zusage geprüft. Loyalität und Beschützerprinzip, die auch die eigene Verwundbarkeit nicht verleugnen.</p>
+
+        <h3 id="grimm-typ-9" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 – Das blaue Licht · Der faule Heinz · Die 12 faulen Knechte</h3>
+        <p class="vb-intro">Drei Geschichten über Rückzug, Trägheit und die unterschätzte, oft übersehene innere Kraft — das Spannungsfeld des Typs 9.</p>
+        <p class="vb-intro"><strong>Das blaue Licht:</strong> Ein treuer Soldat wird nach Jahren des Dienstes achtlos fortgeschickt und übersehen — bis er eine magische, verborgene Kraft entdeckt, die ihm endlich zu seinem Recht verhilft. Ein Bild für die stille, oft übergangene Kraft, die im Rückzug schlummert und erst geweckt werden muss.</p>
+        <p class="vb-intro"><strong>Der faule Heinz:</strong> Eine Figur, die sich mit bemerkenswertem Erfindungsreichtum jeder Anstrengung entzieht und lieber noch mehr Aufwand betreibt, um Arbeit zu vermeiden, als die Arbeit selbst zu tun. Trägheit als zentrales Motiv, der Widerstand gegen jede Form von Aktivität, die den inneren Frieden stören könnte.</p>
+        <p class="vb-intro"><strong>Die 12 faulen Knechte:</strong> Eine ganze Gruppe von Knechten, die sich gegenseitig in ihrer Arbeitsvermeidung bestätigt und mit immer neuen Ausreden dem Handeln entgeht. Kollektive Trägheit und Konfliktvermeidung durch beharrliches Nicht-Tun.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Schaubilder und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"bagua-zonen-der-9-typen", label:"Bagua-Zonen der 9 Typen"},
+        {route:"kampfkunstarten-der-9-typen", label:"Kampfkunstarten der 9 Typen"},
+        {route:"limericks", label:"Die 9 Enneagramm-Limericks"},
+      ])}
+    </div>
+  `);
+}
+
 function baguaZonenDer9TypenPage() {
   return shell(`
     <div class="page-container">
@@ -48361,6 +48445,7 @@ function render() {
     "blumenarten-der-9-typen": blumenartenDer9TypenPage,
     "kampfkunstarten-der-9-typen": kampfkunstartenDer9TypenPage,
     "bagua-zonen-der-9-typen": baguaZonenDer9TypenPage,
+    "grimms-maerchen-der-9-typen": grimmsMaerchenDer9TypenPage,
     "hunderassen-der-9-typen": hunderassenDer9TypenPage,
     "pferdearten-der-9-typen": pferdearteDer9TypenPage,
     "nagetierarten-der-9-typen": nagetierartenDer9TypenPage,

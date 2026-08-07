@@ -1580,6 +1580,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "blumenarten-der-9-typen",
     "kampfkunstarten-der-9-typen",
     "bagua-zonen-der-9-typen",
+    "grimms-maerchen-der-9-typen",
     "hunderassen-der-9-typen",
     "pferdearten-der-9-typen",
     "nagetierarten-der-9-typen",
@@ -1776,6 +1777,7 @@ text.nav = [
     { route: "blumenarten-der-9-typen", label: "Flower Types of the 9 Types" },
     { route: "kampfkunstarten-der-9-typen", label: "Martial Arts of the 9 Types" },
     { route: "bagua-zonen-der-9-typen", label: "Bagua Zones of the 9 Types" },
+    { route: "grimms-maerchen-der-9-typen", label: "Grimm's Fairy Tales of the 9 Types" },
     { route: "brillenmodelle-der-9-typen", label: "Eyeglass Models of the 9 Types" },
     { route: "brotsorten", label: "Bread Varieties of the 9 Types" },
     { route: "bundeslaender", label: "German Federal States" },
@@ -35484,6 +35486,89 @@ function kampfkunstartenDer9TypenPage() {
   `);
 }
 
+function grimmsMaerchenDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Grimm's Fairy Tales of the 9 Types", "Charts · Archetypen")}
+      <p class="psycho-intro">Hardly any narrative form carries archetypal knowledge as directly as the fairy tale. In a few clear images, the Brothers Grimm's tales tell of exactly those inner struggles, longings, and paths to redemption that the Enneagram also describes — envy, pride, sloth, greed, fear, not as abstract concepts but as witches, wolves, enchanted princes, and brave little tailors. That is exactly why fairy tales matter so much for children: they make the basic principles of this world tangible early on, on a level no textbook can reach — even when they are sometimes uncomfortable, even cruel. Because they speak of reality, not a sanitized version of it. Reading fairy tales aloud has become rarer than it should be — yet children need precisely these early, archetypal maps of the soul.</p>
+      <img src="../assets/grimms-maerchen-der-9-typen.jpg" alt="Grimms Märchen und Enneagramm-Strukturen – Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:0 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
+        <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Quick jump — go directly to a type</span>
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('grimm-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:var(--cream);color:var(--copper);text-decoration:none;border:1px solid var(--line);">Type ${n}</a>`).join("")}
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 id="grimm-typ-1" style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 1 – The Frog King · King Thrushbeard · The Iron Stove</h3>
+        <p class="vb-intro">All three tales speak of transformation through fidelity to principle — of redemption that comes not through feeling but through keeping to the right path. This is exactly the innermost logic of Type 1.</p>
+        <p class="vb-intro"><strong>The Frog King:</strong> The princess promises, out of desperation, to accept the frog as a companion — and must later keep that promise against her own disgust. Only when she truly honors her word, not because she wants to but because it is right, does the spell break. A primal image of the Type 1 principle: not feeling but the obligation one has entered decides.</p>
+        <p class="vb-intro"><strong>King Thrushbeard:</strong> An arrogant princess who mocks every suitor is led through a harsh lesson in humility — disguised as a beggar, she must experience her own arrogance firsthand before she can find true, unaffected integrity. The purification of false pride into genuine righteousness is a central Type 1 motif.</p>
+        <p class="vb-intro"><strong>The Iron Stove:</strong> An enchanted prince can only be redeemed if a faithful companion completes a series of difficult, precisely defined tasks — and even when she breaks a single rule, she must make amends through persistent, correct action. Redemption as the reward for persistence despite setbacks.</p>
+
+        <h3 id="grimm-typ-2" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 2 – Little Red Riding Hood · Rapunzel · Sweet Porridge</h3>
+        <p class="vb-intro">These three tales circle around care, closeness, and nourishment — and their shadow side: giving, binding, and nurturing that spins out of balance. A core theme of Type 2.</p>
+        <p class="vb-intro"><strong>Little Red Riding Hood:</strong> A girl lovingly brings food to her sick grandmother — and falls prey to the wolf through her own naivety and boundlessness. An image of how the pure need to give and provide can blind one to danger and to one's own limits.</p>
+        <p class="vb-intro"><strong>Rapunzel:</strong> A sorceress locks a girl into a tower out of supposed care and lets no one near her — the shadow side of Type 2 energy in its purest form: love that turns into possession and control, care that locks the other away instead of letting them grow.</p>
+        <p class="vb-intro"><strong>Sweet Porridge:</strong> A magic pot that cooks porridge endlessly on command spins out of control and floods the entire village. A fitting image for unchecked giving and nurturing that — once set in motion — no longer knows how to stop itself.</p>
+
+        <h3 id="grimm-typ-3" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 3 – Mary's Child · Doctor Know-All · The Master Thief</h3>
+        <p class="vb-intro">All three stories deal with image, deception, and the question of what creates real worth — achievement, appearance, or truth. The central conflict of Type 3.</p>
+        <p class="vb-intro"><strong>Mary's Child:</strong> A girl opens a forbidden door out of curiosity but persistently denies the deed to preserve her image of innocence — and loses her voice for it. Only honest confession, the shedding of the facade, brings redemption. Image versus truth — a core theme of Type 3.</p>
+        <p class="vb-intro"><strong>Doctor Know-All:</strong> A simple farmer presents himself, through clever staging, as an all-knowing scholar — and succeeds purely through convincing performance, not through actual knowledge. A tale about the power (and danger) of pure self-presentation.</p>
+        <p class="vb-intro"><strong>The Master Thief:</strong> A cunning hero proves his abilities through spectacular feats performed for an admiring public — his worth measured by the effect on an audience, not by quiet virtue. Achievement as a stage on which one must shine.</p>
+
+        <h3 id="grimm-typ-4" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 4 – Snow White · The Fisherman and His Wife · Jorinde and Joringel</h3>
+        <p class="vb-intro">Three stories about uniqueness, insatiable longing, and the pain of loss — the basic melodies of Type 4.</p>
+        <p class="vb-intro"><strong>Snow White:</strong> The stepmother cannot bear the daughter's unique beauty and pursues her to a seeming death. A tale about envy of what is special in another, about isolation, the loss of one's own center — and revival through genuine, unaffected love.</p>
+        <p class="vb-intro"><strong>The Fisherman and His Wife:</strong> A woman wishes for ever more — from cottage to palace, from king to pope, finally wanting to be like God himself — and loses everything in the end. The endless hunger for what is missing as the core of the story.</p>
+        <p class="vb-intro"><strong>Jorinde and Joringel:</strong> Two lovers are brutally separated by an enchantment; the longing for the lost connection stretches over years — until persistence and a magical sign make reunion possible. Longing, loss, and holding on to what was once whole.</p>
+
+        <h3 id="grimm-typ-5" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 5 – Hansel and Gretel · The Brave Little Tailor · Rumpelstiltskin</h3>
+        <p class="vb-intro">Three stories in which intellect, knowledge, and cunning triumph over raw force — the survival strategy of Type 5.</p>
+        <p class="vb-intro"><strong>Hansel and Gretel:</strong> Children abandoned in the forest survive not through strength but through sharp thinking — breadcrumbs as an orientation system, a clever ruse to escape the witch. Survival through thought, not physical power.</p>
+        <p class="vb-intro"><strong>The Brave Little Tailor:</strong> A small, physically inferior tailor defeats giants and a unicorn purely through cleverness, language, and skillful deception. Intellect as the superior weapon against brute force — a primal image of the Type 5 principle.</p>
+        <p class="vb-intro"><strong>Rumpelstiltskin:</strong> Knowledge of the little man's secret name becomes the queen's only salvation — knowledge as the key to power, as the one decisive detail that determines victory or defeat.</p>
+
+        <h3 id="grimm-typ-6" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 6 – Phobic: The Wolf and the Seven Young Goats · Counterphobic: The Story of the Youth Who Went Forth to Learn Fear</h3>
+        <p class="vb-intro">Type 6 appears in the Enneagram in two opposite expressions — the phobic (cautious, vigilant) and the counterphobic (actively confronting fear) variant. Both are found here exemplified.</p>
+        <p class="vb-intro"><strong>The Wolf and the Seven Young Goats (phobic):</strong> The mother goat warns urgently of the wolf, who disguises himself as her — the young goats must learn to examine every sign carefully before trusting it. Vigilance and mistrust as a survival strategy, safety through constant checking.</p>
+        <p class="vb-intro"><strong>The Story of the Youth Who Went Forth to Learn Fear (counterphobic):</strong> A young man who literally cannot feel fear actively seeks it out — he confronts ghosts, corpses, and monsters in order to finally learn to shudder. Not avoiding fear but walking straight toward it in order to conquer it — the counterphobic variant of Type 6.</p>
+
+        <h3 id="grimm-typ-7" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 7 – Hans in Luck · Brother Lustig · The Gamester</h3>
+        <p class="vb-intro">Three figures who meet the seriousness of life with lightness, wit, and constant reframing — the basic stance of Type 7.</p>
+        <p class="vb-intro"><strong>Hans in Luck:</strong> Hans keeps trading his wages for something apparently lesser — until he ends up empty-handed and yet feels like the happiest man in the world. The art of reframing every loss positively and never letting one's own good mood be shaken.</p>
+        <p class="vb-intro"><strong>Brother Lustig:</strong> A wily, eternally hungry, eternally cheerful ex-soldier swindles his way through life with wit, cheek, and a healthy dose of rule-breaking — he even deals with the devil and Saint Peter. A joy for life that no authority can constrain.</p>
+        <p class="vb-intro"><strong>The Gamester:</strong> A figure who treats life as a game, always in motion, always searching for the next diversion — an image of the restlessness and multifacetedness with which Type 7 escapes boredom.</p>
+
+        <h3 id="grimm-typ-8" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 8 – Strong Hans · The Young Giant · Sharing Joy and Sorrow</h3>
+        <p class="vb-intro">Three stories about raw strength, protective instinct, and how power connects with loyalty — central themes of Type 8.</p>
+        <p class="vb-intro"><strong>Strong Hans:</strong> A boy with superhuman strength defeats robbers and a monster in order to free and protect the weaker. Strength that does not exhaust itself in destruction but places itself in the service of the weak — the positive core of Type 8.</p>
+        <p class="vb-intro"><strong>The Young Giant:</strong> A physically overpowering young man resists exploitation by his father and later by others who want to misuse his strength for their own ends. The theme of justice and self-assertion through strength against oppression.</p>
+        <p class="vb-intro"><strong>Sharing Joy and Sorrow:</strong> A strong man promises his bride to share both joy and sorrow with her — and is literally tested on this promise. Loyalty and the protector principle, which does not deny its own vulnerability either.</p>
+
+        <h3 id="grimm-typ-9" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 9 – The Blue Light · Lazy Heinz · The Twelve Lazy Servants</h3>
+        <p class="vb-intro">Three stories about withdrawal, sloth, and the underestimated, often overlooked inner strength — the tension field of Type 9.</p>
+        <p class="vb-intro"><strong>The Blue Light:</strong> A loyal soldier is carelessly dismissed and overlooked after years of service — until he discovers a hidden magical power that finally secures him his due. An image of the quiet, often passed-over strength that slumbers in withdrawal and must first be awakened.</p>
+        <p class="vb-intro"><strong>Lazy Heinz:</strong> A figure who, with remarkable ingenuity, evades every effort and would rather go to greater lengths to avoid work than simply do the work itself. Sloth as the central motif, resistance to any activity that might disturb inner peace.</p>
+        <p class="vb-intro"><strong>The Twelve Lazy Servants:</strong> An entire group of servants who reinforce each other's avoidance of work and escape action with ever-new excuses. Collective sloth and conflict avoidance through persistent inaction.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Deepened type profiles and archetypal considerations – Volume 2 of the Rathmer trilogy.", "Wer du wirklich bist – Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, paths of healing, and the big picture – Volume 3 concluding the trilogy.", "Wer du wirklich bist – Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"bagua-zonen-der-9-typen", label:"Bagua Zones of the 9 Types"},
+        {route:"kampfkunstarten-der-9-typen", label:"Martial Arts of the 9 Types"},
+        {route:"limericks", label:"The 9 Enneagram Limericks"},
+      ])}
+    </div>
+  `);
+}
+
 function baguaZonenDer9TypenPage() {
   return shell(`
     <div class="page-container">
@@ -45418,6 +45503,7 @@ function subtypeSchaubilderPage() {
     "blumenarten-der-9-typen": blumenartenDer9TypenPage,
     "kampfkunstarten-der-9-typen": kampfkunstartenDer9TypenPage,
     "bagua-zonen-der-9-typen": baguaZonenDer9TypenPage,
+    "grimms-maerchen-der-9-typen": grimmsMaerchenDer9TypenPage,
     "hunderassen-der-9-typen": hunderassenDer9TypenPage,
     "pferdearten-der-9-typen": pferdearteDer9TypenPage,
     "nagetierarten-der-9-typen": nagetierartenDer9TypenPage,
