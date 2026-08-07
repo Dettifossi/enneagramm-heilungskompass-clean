@@ -525,6 +525,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ludwig Erhard – Self-Preservation Type 9",
     teaser:"SP9w1 · 1897–1977. Economist, Federal Minister of Economics 1949–1963, Chancellor of Germany 1963–1966, father of the Social Market Economy. The elephant who carried the German economic miracle without loud posturing – persistent, principled, with the cigar as his only expression of composure.",
     tags:["Politik","Wirtschaft"], gender:"m"},
+  { route:"beruehmte-laozi", name:"Laozi (Lao Tzu)", added:"2026-08-07", subtyp:"SE9w1",
+    heading:"Laozi (Lao Tzu) – Self-Preservation Type 9",
+    teaser:"SE9w1 · c. 6th century BCE (legendary). Philosopher, founder of Daoism, traditionally credited as author of the Tao Te Ching. According to legend, he finally rode a black ox into the desert and vanished. The elephant that lets go of what it no longer needs to carry – wu wei as the Nine's highest expression.",
+    tags:["Philosophy","Religion"]},
   { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8",
     heading:"Hans-Dietrich Genscher – Self-Preservation Type 9",
     teaser:"SP9w8 · 1927–2016. Foreign Minister and Vice Chancellor of West Germany (1974–1992). 23 years of formative foreign policy, architect of German reunification, bridge-builder between East and West. The elephant that never forgets – and never stops negotiating. Animal correspondence: Elephant.",
@@ -16634,6 +16638,71 @@ function mohammedPortraitPage() {
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype profile"},
         {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
         {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function laoziPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-laozi-portrait.jpg" alt="Laozi (Lao Tzu)" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Laozi (Lao Tzu)</p>
+        <p class="krim-portrait-typ">SE9w1 &middot; Self-Preservation Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Philosopher, c. 6th century BCE (legendary) &ndash; Founder of Daoism, traditionally credited as author of the Tao Te Ching &ndash; Animal correspondence: Elephant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>elephant</strong> is the animal of the self-preservation Nine &ndash; calm, heavy, almost impossible to rattle, and yet, for all its inertia, of enormous strength. It does not fight for territory, does not defend its status &ndash; it simply moves on when the pasture grows thin, leaving behind what no longer sustains it. Few figures in intellectual history embody this image as completely as Laozi, who, according to tradition, ended his life by riding a black ox westward and vanishing into the desert.</p>
+          <p class="vb-intro">Little is historically certain about Laozi's existence (also Lao Tzu, literally "old master") &ndash; tradition places him in the 6th century BCE and makes him an older contemporary of Confucius, whom legend even has him meet. He is credited with the <em>Tao Te Ching</em>, a slim text of just over 5,000 Chinese characters that became the foundation of Daoism &ndash; one of the most influential schools of thought in China, still shaping philosophy, medicine, and the art of living today.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Nine: Peace Through Simplicity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Nine (SE9)</strong> seeks inner peace not through relationships or social recognition, but through reduction to the essential: comfort, simplicity, merging with a manageable, natural environment. Naranjo aptly calls this subtype "appetite" &ndash; satisfying one's needs through small, physical comforts as a substitute, when the big, uncomfortable questions of life are meant to be kept at a distance.</p>
+          <p class="vb-intro">In Laozi, this basic tendency appears in its most mature, philosophically distilled form: he did not want to administer a kingdom, found a school with thousands of students, or lead a political movement. According to legend, he served for a long time as keeper of the imperial archives &ndash; a withdrawn, observing post &ndash; before he could no longer bear the growing decay of the state and withdrew for good. Not a fight for reform, but the quiet departure from a world that, in his view, was destroying itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Wu Wei: Effortlessness as the Highest Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The core concept of the Tao Te Ching is <strong>wu wei</strong>, usually translated as "non-action" or "effortless action." This does not mean literally doing nothing, but acting in a way that does not fight against the natural course of things (the Dao), but fits into it &ndash; like water, which offers no resistance to any obstacle and yet, over time, shapes the hardest stone. "The softest thing in the world overcomes the hardest thing in the world," the Tao Te Ching says.</p>
+          <p class="vb-intro">This is the Nine in its purest, most highly integrated form: not avoidance out of comfort, but a deliberate refusal to wear oneself out in friction and resistance. Where Confucius (Type 1) sought to create order through rules, duties, and active example, and Buddha (Type 5) penetrated suffering through unsparing analysis, Laozi taught the opposite of both paths: let go, do not interfere, trust the flow of life instead of trying to control it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The One-Wing: Quiet Moral Clarity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Nine something pure inertia would not have: a clear, almost incorruptible inner orientation. Laozi criticized the artificial harshness, the bloated bureaucracy, and the moral over-regulation of his time &ndash; not through struggle or counter-reform, as an Eight or a pure One might have, but through a call to return to natural simplicity, referred to in the Tao Te Ching as <em>pu</em> (the "uncarved block").</p>
+          <p class="vb-intro">"The more laws and regulations, the more thieves and robbers," the Tao Te Ching states &ndash; a critique of excessive regulation that simultaneously formulates a clear moral position. The One-wing gives the Nine a direction without driving it into active resistance: not a fighter against the system, but a quiet admonisher who trusts nature's own wisdom.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Legend of the Pass: A Quiet Departure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The best-known account of Laozi's final years shows the self-preservation Nine in pure form: seeing that the state was decaying and reform was hopeless, he mounted a black ox and rode west, turning his back on the collapsing order for good. At the Hangu Pass, the last border post, the gatekeeper Yinxi stopped him and asked him to write down his wisdom before disappearing. Laozi complied, composing the roughly 5,000 characters of the Tao Te Ching in a short span of time &ndash; then rode on into the desert, never to return.</p>
+          <p class="vb-intro">No great farewell speech, no school left behind, no successor appointed &ndash; only a slim text, almost reluctantly written down, and a quiet disappearance. This is precisely the signature of the SE9: no loud struggle for impact, but trust that what truly matters will find its own way even without one's continued involvement &ndash; a trust that, two and a half millennia later, has proven remarkably justified.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow of the Self-Preservation Nine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE9w1 is its ability to live peace not as escape, but as a mature, deliberate stance: not fighting the world, but acting in accordance with its natural course. This calm is not indifference &ndash; the Tao Te Ching is threaded through with a quiet but unyielding clarity about what makes a good life and a good order.</p>
+          <p class="vb-intro">The shadow of the Nine shows in the consequences of withdrawal: Laozi left behind no institution, no organized succession, no body of rules beyond his text &ndash; unlike Confucius, whose school continued to shape society actively for centuries. The Nine's risk of disengaging from commitment to the concrete, imperfect world is carried within Laozi's legacy too: a philosophy of timeless depth, but without the sustaining structure that secured its practical impact over time &ndash; had it not been for the gatekeeper at the pass.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se9", label:"SE9 – The Elephant: Subtype profile"},
+        {route:"beruehmte-buddha", label:"Portrait: Siddhartha Gautama (Buddha) (SX5w4)"},
+        {route:"beruehmte-ludwig-erhard", label:"Portrait: Ludwig Erhard (SE9w1)"},
       ])}
     </div>
   `);
@@ -44880,6 +44949,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
       "beruehmte-mohammed": mohammedPortraitPage,
+      "beruehmte-laozi": laoziPortraitPage,
       "beruehmte-greta-garbo": gretaGarboPortraitPage,
       "beruehmte-buddha": buddhaPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
