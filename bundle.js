@@ -38530,6 +38530,39 @@ function kindheitsperspektivenPage() {
              alt="Die subjektiven Wahrnehmungen der 9 Enneagrammtypen in ihrer Kindheit"
              class="psycho-img" />
       </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Jeder der drei Enneagramm-Zentren tr\u00e4gt eine eigene kindliche Grundemotion in sich: Die Bauchtriade (Typ 8, 9, 1) reagiert mit Zorn, Wut und Groll auf die Welt. Die Herztriade (Typ 2, 3, 4) tr\u00e4gt Traurigkeit, Kummer um einen Verlust und emotionalen Schmerz in sich. Die Kopftriade (Typ 5, 6, 7) lebt in Angst, Furcht und Unsicherheit. Aus diesen fr\u00fchen Grundgef\u00fchlen heraus entwickelte jeder Typ eine ganz eigene, oft unbewusste \u00dcberzeugung dar\u00fcber, wie die Welt ist \u2014 ein subjektiver Kindheitseindruck, der bis heute nachwirkt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 1 &ndash; Zorn / Perfektion</h3>
+        <p class="vb-intro">\u201eDie Welt bestraft schlechte Einstellungen und alles Spontane.\u201c Der junge Typ 1 erlebt seine Umwelt als streng bewertend \u2014 Fehler werden sanktioniert, Spontaneit\u00e4t wirkt gef\u00e4hrlich. Daraus entsteht die Leidenschaft des Zorns und die Motivation, durch Perfektion Sicherheit und Anerkennung zu gewinnen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 2 &ndash; Stolz / Liebe</h3>
+        <p class="vb-intro">\u201eDie anderen \u00fcbersehen mich. Ich werde zu wenig geliebt.\u201c Der junge Typ 2 f\u00fchlt sich in seinem Bed\u00fcrftig-Sein nicht ausreichend gesehen und entwickelt daraufhin die Leidenschaft des Stolzes: Liebe wird fortan aktiv erarbeitet, indem man sich f\u00fcr andere unentbehrlich macht.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 3 &ndash; Eitelkeit / Erfolg</h3>
+        <p class="vb-intro">\u201eDie anderen lieben mich nur, weil ich etwas Bestimmtes tue.\u201c Zuwendung erscheint dem jungen Typ 3 an Leistung gekoppelt \u2014 nicht das Sein, sondern das Tun wird belohnt. Daraus entsteht die Leidenschaft der Eitelkeit und die Motivation, Erfolg als Liebesbeweis zu erbringen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 4 &ndash; Neid / Individualit\u00e4t</h3>
+        <p class="vb-intro">\u201eMan hat mich verlassen, allein gelassen.\u201c Ein fr\u00fcher Verlust oder ein Gef\u00fchl des Getrennt-Seins pr\u00e4gt den jungen Typ 4. Daraus w\u00e4chst die Leidenschaft des Neids \u2014 die schmerzliche Sehnsucht nach dem, was andere zu haben scheinen \u2014 und die Motivation, die eigene Individualit\u00e4t als Ausgleich zu behaupten.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 5 &ndash; Geiz / Wissen</h3>
+        <p class="vb-intro">\u201eDie Welt ist erdr\u00fcckend, \u00e4u\u00dfere Einfl\u00fcsse \u00fcberw\u00e4ltigen mich regelm\u00e4\u00dfig.\u201c Der junge Typ 5 erlebt die Anforderungen der Welt als \u00fcbergriffig und ersch\u00f6pfend. Er zieht sich zur\u00fcck, hortet seine Energie \u2014 die Leidenschaft des Geizes \u2014 und sucht in Wissen einen sicheren, kontrollierbaren Ersatzraum.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 6 &ndash; Angst / Sicherheit</h3>
+        <p class="vb-intro">\u201eIch bin verraten worden. Die Welt ist b\u00f6se und unzuverl\u00e4ssig.\u201c Ein fr\u00fcher Vertrauensbruch pr\u00e4gt den jungen Typ 6 nachhaltig. Daraus entsteht die Leidenschaft der Angst und ein lebenslanges Streben nach Sicherheit \u2014 durch Wachsamkeit, durch verl\u00e4ssliche Bindungen oder durch aktive Konfrontation der Gefahr.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 7 &ndash; V\u00f6llerei / Spa\u00df</h3>
+        <p class="vb-intro">\u201eIch leide unter den Grenzen dieser Welt, die mich einengt.\u201c Der junge Typ 7 erlebt Begrenzung als Schmerz und flieht in Vielfalt, Optionen und Vergn\u00fcgen. Daraus entsteht die Leidenschaft der V\u00f6llerei \u2014 der unstillbare Hunger nach immer neuen, angenehmen Erfahrungen als Gegenmittel gegen Enge und Schmerz.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 8 &ndash; Wollust / Macht</h3>
+        <p class="vb-intro">\u201eDie Welt ist hart und ungerecht; als ich schwach war, hat man mich missbraucht.\u201c Eine fr\u00fche Erfahrung von Ohnmacht pr\u00e4gt den jungen Typ 8 tief. Er schw\u00f6rt sich, nie wieder verletzlich zu erscheinen \u2014 daraus entsteht die Leidenschaft der Wollust (\u00dcberma\u00df, Intensit\u00e4t) und das Streben nach Macht und Kontrolle.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 9 &ndash; Tr\u00e4gheit / Harmonie</h3>
+        <p class="vb-intro">\u201eDie anderen lehnen mich ab, wenn ich meine eigene Meinung \u00e4u\u00dfere.\u201c Der junge Typ 9 lernt fr\u00fch, dass die eigene Position Konflikt und Ablehnung bedeuten kann. Er l\u00f6st sich lieber selbst auf, um Harmonie zu erhalten \u2014 daraus entsteht die Leidenschaft der Tr\u00e4gheit gegen\u00fcber dem eigenen Willen.</p>
+
+        <p class="vb-anmerkung" style="margin-top:1.5rem;font-style:italic;">\u201eIn jedem Kind tr\u00e4umt Gott den Traum der Liebe.\u201c (Unbekannt)</p>
+      </div>
       ${bookTip("in-der-tiefe-der-zeit", "Wie pr\u00e4gende Kindheitserfahrungen die Pers\u00f6nlichkeitsstruktur jedes Enneagrammtyps formen.", "In der Tiefe der Zeit")}
       ${relatedLinks([
         {route:"kindliche-temperamente", label:"Kindliche Temperamente"},
@@ -38551,6 +38584,39 @@ function kerneberzeugungPage() {
         <img src="./assets/schaubilder/kerneberzeugungen/kerneberzeugungen.jpg"
              alt="Die tiefsten Kern\u00fcberzeugungen der 9 Enneagrammtypen"
              class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Jede Kern\u00fcberzeugung ist ein Satz, den der jeweilige Typ nie laut ausspricht \u2014 und der doch, meist unbewusst, sein gesamtes Denken, F\u00fchlen und Handeln steuert. Sie ist die innere Logik hinter der Leidenschaft und der Motivation jedes Typs.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 1 &ndash; Der Perfektionist</h3>
+        <p class="vb-intro">\u201eIch habe sicher einige M\u00e4ngel, aber ich tue alles, um Fehler/Irrt\u00fcmer zu vermeiden.\u201c Fehler sind f\u00fcr den Typ 1 kein neutraler Teil des Lebens, sondern eine Bedrohung der eigenen Integrit\u00e4t \u2014 deshalb die st\u00e4ndige innere Kontrolle und der Anspruch, es richtig zu machen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 2 &ndash; Der Altruist</h3>
+        <p class="vb-intro">\u201eWozu lohnt es sich \u00fcberhaupt zu leben, wenn man nicht f\u00fcr andere Menschen da sein kann?\u201c Der eigene Wert ist f\u00fcr den Typ 2 untrennbar an das Gebrauchtwerden gebunden \u2014 F\u00fcrsorge ist hier nicht nur Handlung, sondern Existenzberechtigung.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 3 &ndash; Der Erfolgreiche</h3>
+        <p class="vb-intro">\u201eSpa\u00df an der Arbeit ist der Weg zum Erfolg.\u201c Der Typ 3 verschmilzt mit seiner Leistung so vollst\u00e4ndig, dass Arbeit selbst zur Quelle von Freude und Identit\u00e4t wird \u2014 Stillstand f\u00fchlt sich dagegen wie Bedeutungslosigkeit an.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 4 &ndash; Der Romantiker</h3>
+        <p class="vb-intro">\u201eJeder Schmerz ist besser als der des Herzens.\u201c F\u00fcr den Typ 4 ist emotionale Taubheit schlimmer als Leid \u2014 lieber f\u00fchlt er die Tiefe des Schmerzes vollst\u00e4ndig, als in oberfl\u00e4chlicher Gef\u00fchllosigkeit zu verharren.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 5 &ndash; Der Beobachter</h3>
+        <p class="vb-intro">\u201eNur durch blo\u00dfes Zuschauen kann man eine Menge lernen.\u201c Der Typ 5 zieht sich in die Beobachterposition zur\u00fcck, weil er glaubt, dass Distanz Klarheit schafft \u2014 Verstehen geht dem Handeln immer voraus.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 6 &ndash; Der Loyale</h3>
+        <p class="vb-intro">\u201eOhne Zweifel keine Sicherheit.\u201c F\u00fcr den Typ 6 ist Misstrauen kein Makel, sondern ein Schutzmechanismus \u2014 nur wer alles hinterfragt, kann sicher sein, nicht get\u00e4uscht zu werden.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 7 &ndash; Der Epikureer</h3>
+        <p class="vb-intro">\u201eMan lebt schlie\u00dflich nur einmal \u2013 machen wir das Beste daraus!\u201c Der Typ 7 begegnet der Endlichkeit des Lebens mit einem entschlossenen Ja zur F\u00fclle \u2014 jede Erfahrung, jede M\u00f6glichkeit soll ausgekostet werden, bevor die Zeit verrinnt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 8 &ndash; Der Boss</h3>
+        <p class="vb-intro">\u201eEin Recht, das man hat, erbettelt man sich nicht. Man k\u00e4mpft darum.\u201c F\u00fcr den Typ 8 ist Passivit\u00e4t gleichbedeutend mit Schw\u00e4che \u2014 wer etwas will, muss es sich mit Kraft und Entschlossenheit nehmen, statt darauf zu hoffen, dass es einem gegeben wird.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 9 &ndash; Der Vermittler</h3>
+        <p class="vb-intro">\u201eGott hat dem Menschen die Zeit gegeben, aber von Eile hat er nichts gesagt.\u201c Der Typ 9 lehnt inneren wie \u00e4u\u00dferen Druck instinktiv ab \u2014 echte Dinge, glaubt er, brauchen ihre Zeit und lassen sich nicht erzwingen.</p>
+
+        <p class="vb-anmerkung" style="margin-top:1.5rem;font-style:italic;">\u201eDie \u00dcberzeugung ist das Gewissen des Geistes.\u201c (Nikolas Chamfort, 1741&ndash;1794)</p>
       </div>
       ${bookTip("du-bist-nicht-dein-zweifel", "Kern\u00fcberzeugungen erkennen und loslassen &ndash; ein Wegweiser zu innerer Freiheit f\u00fcr alle 9 Typen.", "Du bist nicht dein Zweifel")}
       ${relatedLinks([
@@ -38878,6 +38944,39 @@ function spirituelleUebungenPage() {
         <img src="./assets/schaubilder/spirituelle-uebungen/spirituelle-uebungen.jpg"
              alt="Spezielle spirituelle \u00dcbungen f\u00fcr die 9 Enneagrammtypen"
              class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Jeder Typ befindet sich auf einer \u201eewigen Suche\u201c nach genau der Qualit\u00e4t, die seiner Leidenschaft entgegensteht \u2014 und die spirituelle \u00dcbung besteht jeweils darin, diese Qualit\u00e4t nicht mehr im Au\u00dfen zu suchen, sondern im Inneren als bereits vorhanden wahrzunehmen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 1 &ndash; Die ewige Suche nach Perfektion</h3>
+        <p class="vb-intro">\u00dcbung: Nach innen gehen und die eigene innere Vollkommenheit wahrnehmen \u2014 nicht die Welt verbessern, sondern erkennen, dass das Vollkommene bereits im gegenw\u00e4rtigen Augenblick da ist.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 2 &ndash; Die ewige Suche nach Liebe</h3>
+        <p class="vb-intro">\u00dcbung: Nach innen f\u00fchlen und die eigene innere Liebensw\u00fcrdigkeit wahrnehmen \u2014 sp\u00fcren, dass man geliebt werden darf, ohne sich diese Liebe zuvor durch Geben verdienen zu m\u00fcssen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 3 &ndash; Die ewige Suche nach Erfolg</h3>
+        <p class="vb-intro">\u00dcbung: Nach innen f\u00fchlen und den eigenen inneren Wert wahrnehmen \u2014 erkennen, dass der eigene Wert nicht erst durch Leistung entsteht, sondern immer schon da ist.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 4 &ndash; Die ewige Suche nach Individualit\u00e4t</h3>
+        <p class="vb-intro">\u00dcbung: Nach innen f\u00fchlen und den eigenen inneren Ursprung wahrnehmen \u2014 die eigene Einzigartigkeit nicht l\u00e4nger als etwas Fehlendes suchen, sondern als l\u00e4ngst vorhandenen Wesenskern erkennen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 5 &ndash; Die ewige Suche nach Wissen</h3>
+        <p class="vb-intro">\u00dcbung: Nach innen forschen und die eigene innere Verbundenheit mit allem wahrnehmen \u2014 erkennen, dass wahres Verstehen nicht durch Anh\u00e4ufung von Wissen entsteht, sondern durch das Erleben der eigenen Zugeh\u00f6rigkeit zum Ganzen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 6 &ndash; Die ewige Suche nach Sicherheit</h3>
+        <p class="vb-intro">\u00dcbung: Nach innen forschen und das eigene innere Urvertrauen wahrnehmen \u2014 sp\u00fcren, dass echte Sicherheit nicht von au\u00dfen kommt, sondern ein innerer, bereits vorhandener Grund ist.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 7 &ndash; Die ewige Suche nach Spa\u00df</h3>
+        <p class="vb-intro">\u00dcbung: Nach innen forschen und die eigene innere Lebensfreude wahrnehmen \u2014 erkennen, dass Freude keine Ansammlung \u00e4u\u00dferer Erlebnisse braucht, sondern bereits im gegenw\u00e4rtigen Moment innewohnt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 8 &ndash; Die ewige Suche nach Macht</h3>
+        <p class="vb-intro">\u00dcbung: Nach innen gehen und die eigene innere St\u00e4rke wahrnehmen \u2014 verstehen, dass wahre Kraft nicht durch Kontrolle \u00fcber andere entsteht, sondern aus der Verbindung mit der eigenen inneren Festigkeit.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 9 &ndash; Die ewige Suche nach Harmonie</h3>
+        <p class="vb-intro">\u00dcbung: Nach innen gehen und den eigenen inneren Frieden wahrnehmen \u2014 erkennen, dass Harmonie nicht erst durch Anpassung an andere entstehen muss, sondern der eigene, bereits vorhandene Urgrund ist.</p>
+
+        <p class="vb-anmerkung" style="margin-top:1.5rem;font-style:italic;">\u201eWahrhafte Selbsterkenntnis ist das Ahnen Gottes.\u201c (\u00d6stliche Weisheit)</p>
       </div>
       ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "7 spirituelle Lebenskunst-\u00dcbungen f\u00fcr den Alltag &ndash; der ideale Begleiter zu dieser \u00dcbersicht.", "7 Wege zu Dir selbst")}
       ${bookTip("nichts-und-alles", "Stilles Buch \u00fcber das Schauen nach innen &ndash; Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
@@ -39430,6 +39529,38 @@ function ber\u00fchmteKomponistenPage() {
              class="psycho-img" />
       </div>
 
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.6rem;color:var(--ink);">Typ 1 SX &ndash; Johann Sebastian Bach (1685&ndash;1750)</h3>
+        <p class="vb-intro">Musik ist Ausdruck g\u00f6ttlicher, v\u00e4terlicher Liebe. Bachs kunstvoll durchkomponierte Fugen und Kantaten spiegeln die Sehnsucht des Typ 1 nach vollkommener, gottgewollter Ordnung wider \u2014 jede Stimme f\u00fcgt sich in ein gr\u00f6\u00dferes, gerechtes Ganzes.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 2 SE &ndash; Wolfgang Amadeus Mozart (1756&ndash;1791)</h3>
+        <p class="vb-intro">Musik ist Ausdruck menschlicher, m\u00fctterlich-unterst\u00fctzender Liebe. Mozarts Melodien wirken warm, zugewandt und unmittelbar ber\u00fchrend \u2014 Musik, die dem H\u00f6rer entgegenkommt und ihn umsorgt, statt ihn auf Distanz zu halten.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 3 SE &ndash; Joseph Haydn (1732&ndash;1809)</h3>
+        <p class="vb-intro">Musik ist Ausdruck formal-perfekter, sch\u00f6pferisch-tatkr\u00e4ftiger Liebe. Haydn, der \u201eVater der Sinfonie\u201c, entwickelte unerm\u00fcdlich neue Formen und perfektionierte sie bis zur Meisterschaft \u2014 Schaffenskraft und makellose Struktur als Ausdruck seines Typs.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 4 SX &ndash; Claude Debussy (1862&ndash;1918)</h3>
+        <p class="vb-intro">Musik ist Ausdruck unerf\u00fcllter, romantisch-verzehrender Liebe. Debussys impressionistische Klangfarben schweben zwischen Sehnsucht und Aufl\u00f6sung \u2014 nie ganz greifbar, immer auf der Suche nach etwas, das sich der vollst\u00e4ndigen Erf\u00fcllung entzieht.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 5 SX &ndash; Fr\u00e9d\u00e9ric Chopin (1810&ndash;1849)</h3>
+        <p class="vb-intro">Musik ist Ausdruck introvertierter, geistig-platonischer Liebe. Chopins Klavierwerke sind intim, zur\u00fcckgenommen und von gro\u00dfer innerer Tiefe \u2014 Musik f\u00fcr den einzelnen H\u00f6rer im stillen Raum, nicht f\u00fcr die gro\u00dfe B\u00fchne.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 6 SE (phobisch) &ndash; Franz Schubert (1797&ndash;1828)</h3>
+        <p class="vb-intro">Musik ist Ausdruck \u00e4ngstlicher, freundschaftlich-treuer Liebe. Schuberts Lieder kreisen oft um Geborgenheit, Wanderschaft und die Suche nach einem sicheren Zuhause \u2014 die stille, treue Sehnsucht des phobischen Typ 6.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 6 SX (kontraphobisch) &ndash; Ludwig van Beethoven (1770&ndash;1827)</h3>
+        <p class="vb-intro">Musik ist Ausdruck angstabwehrender, heroischer Liebe. Beethoven begegnete seiner eigenen Angst \u2014 auch der Angst vor der Taubheit \u2014 mit trotziger, k\u00e4mpferischer Gr\u00f6\u00dfe. Seine Sinfonien sind Triumphe des Willens \u00fcber das Schicksal \u2014 die kontraphobische Spielart des Typ 6.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 7 SX &ndash; Robert Schumann (1810&ndash;1856)</h3>
+        <p class="vb-intro">Musik ist Ausdruck fr\u00f6hlicher, spielerisch-humorvoller Liebe. Schumanns Charakterst\u00fccke sind voller Fantasie, rascher Stimmungswechsel und verspielter Ideen \u2014 Musik, die sich nie lange bei einer einzigen Farbe aufh\u00e4lt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 8 SX &ndash; Giacomo Puccini (1858&ndash;1924)</h3>
+        <p class="vb-intro">Musik ist Ausdruck kraftvoller, k\u00e4mpferisch-streitender Liebe. Puccinis Opern leben von dramatischer Wucht, intensiven Gef\u00fchlsausbr\u00fcchen und schicksalhaften Konflikten \u2014 Liebe, die mit voller Kraft gelebt und verteidigt wird.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 9 SE &ndash; Johannes Brahms (1833&ndash;1897)</h3>
+        <p class="vb-intro">Musik ist Ausdruck egofreier, selbstloser, geschwisterlich-akzeptierender Liebe. Brahms' Werke verbinden klassische Form mit warmer, in sich ruhender Tiefe \u2014 Musik ohne Geltungsdrang, getragen von stiller, umfassender W\u00e4rme.</p>
+      </div>
+
       ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2014 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2014 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
       ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2014 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
@@ -39575,6 +39706,22 @@ function weihnachtsgeschenkePage() {
              alt="Die 9 Enneagrammtypen und ihre Geschenke an die Welt"
              class="psycho-img" />
       </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:var(--copper);">Typ 1 &ndash; Der Perfektionist:</span> Perfektion / Korrektur \u2014 der Blick f\u00fcr das, was besser werden kann.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 2 &ndash; Der Helfer:</span> Geben / Helfen \u2014 bedingungslose Zuwendung zu anderen.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 3 &ndash; Der Dynamiker:</span> Leistung / Erfolg \u2014 die Kraft, Dinge tats\u00e4chlich zu bewegen.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 4 &ndash; Der Individualist:</span> Inspiration / Differenzierung \u2014 Tiefe und Ausdruckskraft, die ber\u00fchrt.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 5 &ndash; Der Denker:</span> Beobachtung / Wissen \u2014 Klarheit durch genaues Hinsehen.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 6 &ndash; Der Loyale Skeptiker:</span> Vertrauen / Fragen stellen \u2014 Wachsamkeit, die Gemeinschaften sch\u00fctzt.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 7 &ndash; Der Optimist:</span> Vorstellungsverm\u00f6gen / Anregung \u2014 Leichtigkeit, die andere mitrei\u00dft.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 8 &ndash; Der Herausforderer:</span> Wahrheit / Besch\u00fctzen \u2014 Kraft im Dienst der Schw\u00e4cheren.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 9 &ndash; Der Friedliche:</span> Harmonie / Vereinigung \u2014 die stille F\u00e4higkeit, Gegens\u00e4tze zu vers\u00f6hnen.</div>
+        </div>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">\u201eWas du bist, ist Gottes Geschenk an dich. Was du aus dir machst, ist dein Geschenk an Gott.\u201c (Deutsches Sprichwort)</p>
+      </div>
+
       <div style="border-top:1px solid var(--line);margin-top:2rem;padding-top:1.8rem;">
         <h2 style="font-size:1.25rem;font-weight:700;margin-bottom:.6rem;">Weihnachtsw\u00fcnsche an alle 9 Enneagrammtypen</h2>
         <p class="lead-small" style="margin-bottom:1.2rem;">Zu Weihnachten darf die Maske einmal fallen. Dieser herzliche Wunsch richtet sich an jeden der 9 Typen \u2014 mit der Einladung, sich selbst ein St\u00fcck weit loszulassen.</p>
@@ -39582,6 +39729,19 @@ function weihnachtsgeschenkePage() {
           <img src="./assets/schaubilder/weihnachtsgeschenke/weihnachtswuensche.jpg"
                alt="Weihnachtsw\u00fcnsche an alle 9 Enneagrammtypen"
                class="psycho-img" />
+        </div>
+        <div class="vb-section" style="max-width:100%;margin-top:1.2rem;">
+          <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+            <div><span style="font-weight:700;color:var(--copper);">Typ 1:</span> Setze doch mal die Maske des untadeligen, gewissenhaften Perfektionisten ab!</div>
+            <div><span style="font-weight:700;color:var(--copper);">Typ 2:</span> Setze doch mal die Maske des liebevollen, gro\u00dfz\u00fcgigen Helfers ab!</div>
+            <div><span style="font-weight:700;color:var(--copper);">Typ 3:</span> Setze doch mal die Maske des kompetenten, effizienten Erfolgsmenschen ab!</div>
+            <div><span style="font-weight:700;color:var(--copper);">Typ 4:</span> Setze doch mal die Maske des authentischen, tiefgr\u00fcndigen Individualisten ab!</div>
+            <div><span style="font-weight:700;color:var(--copper);">Typ 5:</span> Setze doch mal die Maske des objektiven, wissenden Beobachters ab!</div>
+            <div><span style="font-weight:700;color:var(--copper);">Typ 6:</span> Setze doch mal die Maske des vorsichtigen, stets wachsamen Zweiflers ab!</div>
+            <div><span style="font-weight:700;color:var(--copper);">Typ 7:</span> Setze doch mal die Maske des unbek\u00fcmmerten, fr\u00f6hlichen Optimisten ab!</div>
+            <div><span style="font-weight:700;color:var(--copper);">Typ 8:</span> Setze doch mal die Maske des stets starken, unabh\u00e4ngigen Besch\u00fctzers ab!</div>
+            <div><span style="font-weight:700;color:var(--copper);">Typ 9:</span> Setze doch mal die Maske des ruhigen, gelassenen Vermittlers ab!</div>
+          </div>
         </div>
       </div>
       ${bookTip("die-sprache-unserer-beziehungen", "Jeder Typ hat ein einzigartiges Geschenk f\u00fcr Beziehungen &ndash; entdecke die Sprache der N\u00e4he.", "Die Sprache unserer Beziehungen")}
@@ -39882,6 +40042,22 @@ function dreiZentrenPage() {
              alt="Die drei Intelligenzzentren der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Jeder Typ geh\u00f6rt einem der drei Zentren an \u2014 Bauch (8, 9, 1), Herz (2, 3, 4) oder Kopf (5, 6, 7) \u2014 und nutzt dessen Intelligenz entweder im ungesunden \u00dcberma\u00df/Mangel (&minus;) oder in ihrer reifen, hilfreichen Form (+).</p>
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:var(--copper);">Typ 1:</span> &minus; Reaktionskontrolle (starre Selbstunterdr\u00fcckung) &nbsp;/&nbsp; + Gutes Bauchgef\u00fchl (verl\u00e4ssliche innere Orientierung)</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 2:</span> &minus; Emotionale Manipulation &nbsp;/&nbsp; + Empathie</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 3:</span> &minus; Unechtes Rollenspiel &nbsp;/&nbsp; + Authentische Beziehung</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 4:</span> &minus; Hypersensibilit\u00e4t &nbsp;/&nbsp; + Mitgef\u00fchl</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 5:</span> &minus; Hyperanalyse (Denken ohne Ende) &nbsp;/&nbsp; + Objektive Analyse</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 6:</span> &minus; Projektion (\u00c4ngste nach au\u00dfen tragen) &nbsp;/&nbsp; + Bewusste Einsicht</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 7:</span> &minus; Ma\u00dflose Planung &nbsp;/&nbsp; + Produktive Planung</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 8:</span> &minus; \u00dcberm\u00e4\u00dfige Handlung &nbsp;/&nbsp; + Ma\u00dfvolle Handlung</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 9:</span> &minus; Passivit\u00e4t &nbsp;/&nbsp; + Standhaftigkeit</div>
+        </div>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">\u201eGenie ist Intelligenz der Begeisterung.\u201c (Edward Bach, 1886&ndash;1936)</p>
+      </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Das Enneagramm mit Kopf, Herz und Bauch &ndash; die drei Zentren und ihre Bedeutung f\u00fcr deine Pers\u00f6nlichkeit.", "Wer du wirklich bist &ndash; Band 1")}
       <p style="margin-top:1.5rem; text-align:center;">
         <a href="#zentren-weltwahrnehmung" style="color:var(--copper); text-decoration:none; font-size:0.95rem;">
@@ -39935,6 +40111,22 @@ function energetischeBewegungPage() {
              alt="Die energetische Bewegung der 9 Enneagrammtypen im Rahmen von Beziehungen"
              class="psycho-img" />
       </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Die Bauchtriade (8, 9, 1) reagiert auf Trennung mit <strong>Angriff</strong> \u2014 gegen die anderen an. Die Herztriade (2, 3, 4) reagiert mit <strong>T\u00e4uschung</strong> \u2014 durch ein Image, das sich zu den anderen hin bewegt. Die Kopftriade (5, 6, 7) reagiert mit <strong>Flucht</strong> \u2014 Angst, die von den anderen weg treibt. Innerhalb jeder Triade wird die Zentrumsenergie entweder extern ausagiert, gehalten/ausgesessen oder internalisiert.</p>
+        <div style="display:grid;gap:.6rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:var(--copper);">Typ 1 (Bauch, internalisiert)</span> &ndash; Thema Autonomie/Raum: &minus; immer nur Recht haben wollen &nbsp;/&nbsp; + ethisch und vorurteilsfrei unterst\u00fctzen.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 2 (Herz, externalisiert)</span> &ndash; Thema Beziehung/Kontakt: &minus; immer nur geliebt werden wollen &nbsp;/&nbsp; + begeistert und selbstlos geben/helfen.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 3 (Herz, gehalten/ausgesessen)</span> &ndash; Thema Beziehung/Kontakt: &minus; immer nur bewundert werden wollen &nbsp;/&nbsp; + liebensw\u00fcrdig und gef\u00fchlvoll agieren.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 4 (Herz, internalisiert)</span> &ndash; Thema Beziehung/Kontakt: &minus; immer nur sich selbst verstehen wollen &nbsp;/&nbsp; + mitrei\u00dfend und originell sein.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 5 (Kopf, internalisiert)</span> &ndash; Thema Sicherheit/Orientierung: &minus; immer nur die Welt verstehen wollen &nbsp;/&nbsp; + klar denken, f\u00fchlen und handeln.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 6 (Kopf, gehalten/ausgesessen)</span> &ndash; Thema Sicherheit/Orientierung: &minus; immer autorit\u00e4tsgl\u00e4ubig und wachsam sein wollen &nbsp;/&nbsp; + mutig und loyal (mit)streiten, entspannen.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 7 (Kopf, externalisiert)</span> &ndash; Thema Sicherheit/Orientierung: &minus; immer nur Spa\u00df haben wollen &nbsp;/&nbsp; + positiv pragmatisch handeln.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 8 (Bauch, externalisiert)</span> &ndash; Thema Autonomie/Raum: &minus; immer der St\u00e4rkste sein wollen &nbsp;/&nbsp; + fair k\u00e4mpfen und besch\u00fctzen.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 9 (Bauch, gehalten/ausgesessen)</span> &ndash; Thema Autonomie/Raum: &minus; immer nur Harmonie halten wollen &nbsp;/&nbsp; + freundlich, aber bestimmt handeln.</div>
+        </div>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">\u201eAnerkennung ist der Sauerstoff f\u00fcr menschliche Beziehungen.\u201c (Deutsches Sprichwort)</p>
+      </div>
       ${bookTip("die-sprache-unserer-beziehungen", "Wie sich N\u00e4he, R\u00fcckzug und Verbindung bei allen 9 Typen in Beziehungen zeigen &ndash; 365 Paarungskombinationen.", "Die Sprache unserer Beziehungen")}
 
       ${relatedLinks([
@@ -39958,6 +40150,22 @@ function lookalikeTypenPage() {
              alt="Lookalike-Typen im Enneagramm"
              class="psycho-img" />
       </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Interessanterweise sind es gerade die Typen <em>ohne</em> direkte Fl\u00fcgel- oder Verbindungslinie im Enneagramm-Symbol, die im Alltag am leichtesten verwechselt werden \u2014 weil sie sich in bestimmten Verhaltensmerkmalen \u00e4hneln, obwohl ihre inneren Motivationen v\u00f6llig verschieden sind.</p>
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:var(--copper);">Typ 1 (Der Perfektionist)</span> wird oft verwechselt mit Typ 3 (Der Dynamiker), Typ 6 (Der loyale Skeptiker) und Typ 8 (Der Herausforderer) \u2014 alle wirken nach au\u00dfen bestimmt und kontrolliert, aus sehr unterschiedlichen inneren Gr\u00fcnden.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 2 (Der Helfer)</span> wird oft verwechselt mit Typ 7 (Der Optimist) und Typ 9 (Der Friedliche) \u2014 alle wirken warmherzig und zugewandt, doch mit unterschiedlichen Beweggr\u00fcnden.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 3 (Der Dynamiker)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist), Typ 7 (Der Optimist) und Typ 8 (Der Herausforderer) \u2014 alle wirken tatkr\u00e4ftig und zielorientiert.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 4 (Der Individualist)</span> wird oft verwechselt mit Typ 6 (Der loyale Skeptiker), Typ 7 (Der Optimist) und Typ 9 (Der Friedliche) \u2014 alle k\u00f6nnen nach innen gerichtet und stimmungsvoll wirken.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 5 (Der Denker)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist) und Typ 9 (Der Friedliche) \u2014 alle wirken zur\u00fcckhaltend und sachlich-distanziert.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 6 (Der loyale Skeptiker)</span> wird oft verwechselt mit Typ 4 (Der Individualist) und Typ 8 (Der Herausforderer) \u2014 alle k\u00f6nnen wachsam, kritisch oder konfrontativ auftreten.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 7 (Der Optimist)</span> wird oft verwechselt mit Typ 2 (Der Helfer), Typ 3 (Der Dynamiker) und Typ 9 (Der Friedliche) \u2014 alle wirken freundlich, leicht und angenehm im Umgang.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 8 (Der Herausforderer)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist), Typ 4 (Der Individualist) und Typ 6 (Der loyale Skeptiker) \u2014 alle k\u00f6nnen intensiv, direkt oder konfrontativ wirken.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 9 (Der Friedliche)</span> wird oft verwechselt mit Typ 2 (Der Helfer), Typ 4 (Der Individualist) und Typ 7 (Der Optimist) \u2014 alle k\u00f6nnen sanft, zugewandt oder vertr\u00e4umt wirken.</div>
+        </div>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">\u201eDenn eine \u00c4hnlichkeit der Charaktere ist das st\u00e4rkste Band der Freundschaft.\u201c (Plinius der J\u00fcngere, um 61 &ndash; um 113 n. Chr., r\u00f6mischer Politiker und Schriftsteller, Epistulae, Buch IV, Brief 15)</p>
+      </div>
       ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Typbestimmung Schritt f\u00fcr Schritt &ndash; inkl. Lookalike-Differenzierung f\u00fcr alle 9 Typen.", "Die Praxis der Typbestimmung")}
       ${relatedLinks([
         {route:"differenzierung", label:"Differenzierung"},
@@ -39979,6 +40187,21 @@ function befreiendeFragenPage() {
         <img src="./assets/schaubilder/befreiende-fragen/befreiende-fragen.jpg"
              alt="Befreiende Fragen an die 9 Enneagrammtypen"
              class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:var(--copper);">Typ 1 &ndash; Der Perfektionist:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass die Dinge bereits perfekt sind, ohne dein Zutun?</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 2 &ndash; Der Helfer:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass ein h\u00f6herer Wille sich um deine Bed\u00fcrfnisse k\u00fcmmert?</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 3 &ndash; Der Dynamiker:</span> Wie w\u00fcrde dein Leben aussehen, wenn du hoffen k\u00f6nntest, dass die wichtigen Dinge des Lebens auch ohne dein Handeln f\u00fcr dich getan werden?</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 4 &ndash; Der Individualist:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du auch geliebt und gesehen wirst, wenn du deine Urspr\u00fcnglichkeit lebst?</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 5 &ndash; Der Denker:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du schon alles Wissen besitzt, was du ben\u00f6tigst?</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 6 &ndash; Der loyale Skeptiker:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du dir, anderen Menschen und der Welt vertrauen kannst?</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 7 &ndash; Der Optimist:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du gl\u00fccklich wirst, auch wenn du dich festlegst?</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 8 &ndash; Der Herausforderer:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du trotz \u00e4u\u00dferer St\u00e4rke innerlich manchmal schwach bist?</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 9 &ndash; Der Friedliche:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du bedingungslos geliebt und als wichtig angenommen bist?</div>
+        </div>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">\u201eKlug fragen k\u00f6nnen, ist die halbe Weisheit.\u201c (Sir Francis Bacon, englischer Philosoph, Jurist und Staatsmann, 1561&ndash;1626)</p>
       </div>
       ${bookTip("du-bist-nicht-dein-zweifel", "Befreiende Fragen und Impulse f\u00fcr alle 9 Typen &ndash; loslassen, was nicht wirklich du bist.", "Du bist nicht dein Zweifel")}
       <p style="margin-top:1.5rem; text-align:center;">
@@ -40032,6 +40255,21 @@ function fuehrungsstilePage() {
         <img src="./assets/schaubilder/fuehrungsstile/fuehrungsstile.jpg"
              alt="Die F\u00fchrungsstile der 9 Enneagrammtypen"
              class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:var(--copper);">Typ 1 &ndash; Der Perfektionist:</span> F\u00fchrungsstil durch Standards, Beispiele, Normen, Regeln.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 2 &ndash; Der Helfer:</span> F\u00fchrungsstil durch Motivation, Unterst\u00fctzung, Hilfe.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 3 &ndash; Der Dynamiker:</span> F\u00fchrungsstil durch Ziele, Pl\u00e4ne, Ergebnisse.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 4 &ndash; Der Individualist:</span> F\u00fchrungsstil durch Visionen, emotionale Verbindungen.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 5 &ndash; Der Denker:</span> F\u00fchrungsstil durch Erforschung, Beobachtung, Analyse.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 6 &ndash; Der loyale Skeptiker:</span> F\u00fchrungsstil durch kreative Probleml\u00f6sung, Logik, Rationalit\u00e4t.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 7 &ndash; Der Optimist:</span> F\u00fchrungsstil durch neue Ideen, Innovation.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 8 &ndash; Der Herausforderer:</span> F\u00fchrungsstil durch Strategien, gro\u00dfe Aktionen.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 9 &ndash; Der Friedliche:</span> F\u00fchrungsstil durch Konsens, \u00dcbereinstimmung, Einigkeit.</div>
+        </div>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">\u201eAus Demut erw\u00e4chst verantwortliche F\u00fchrung.\u201c (Laotse, vermutlich 6. Jhd. vor Chr.)</p>
       </div>
       ${bookTip("fuehrung-mit-fundament", "F\u00fchrung mit dem Enneagramm &ndash; wie jeder der 9 Typen sein volles F\u00fchrungspotenzial entfaltet.", "F\u00fchrung mit Fundament")}
       ${bookTip("meta-intelligenz", "Meta-Intelligenz: Wie das Enneagramm F\u00fchrungskr\u00e4fte in ihrer tiefsten Wirksamkeit st\u00e4rkt.", "Meta-Intelligenz")}
@@ -74307,6 +74545,21 @@ function aufmerksamkeitsfokusPage() {
              alt="Aufmerksamkeitsfokus und Blindheit der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Die 9 unterschiedlichen Enneagrammtypen richten schon aufgrund ihres meist unbewussten, spezifischen Wahrnehmungsmusters ihren Aufmerksamkeitsfokus auf bestimmte Aspekte (Eigenschaften, Situationen, Beziehungen) des Lebens. Diese Aspekte sind f\u00fcr den jeweiligen Typ so wichtig, dass er andere notwendigerweise vernachl\u00e4ssigen muss \u2014 was zu einer mehr oder weniger eingeschr\u00e4nkten Wahrnehmung, einer Blindheit, f\u00fchren kann.</p>
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:var(--copper);">Typ 1 (Der Prinzipien-Orientierte):</span> Fokus auf Richtig &amp; Falsch &ndash; blind f\u00fcr emotionale Zwischent\u00f6ne.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 2 (Der Liebesorientierte):</span> Fokus auf Anerkennung &ndash; blind f\u00fcr die W\u00fcrde anderer.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 3 (Der Erfolgsorientierte):</span> Fokus auf Leistungen &ndash; blind f\u00fcr die Eigenschaften anderer.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 4 (Der Selbstorientierte):</span> Fokus auf das Gute im Fehlenden &ndash; blind f\u00fcr das Gute im Vorhandenen.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 5 (Der Erkenntnisorientierte):</span> Fokus auf Anforderungen anderer &ndash; blind f\u00fcr Bed\u00fcrfnisse anderer.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 6 (Der Sicherheitsorientierte):</span> Fokus auf die Absichten anderer &ndash; blind f\u00fcr die Motive anderer (das Motiv ist der tiefere Beweggrund hinter einer Absicht).</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 7 (Der Lustorientierte):</span> Fokus auf eine ideale Welt &ndash; blind f\u00fcr Notwendigkeiten.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 8 (Der Machtorientierte):</span> Fokus auf Kontrolle &ndash; blind f\u00fcr die Freiheit anderer.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 9 (Der Harmonieorientierte):</span> Fokus auf Komplexit\u00e4t &ndash; blind f\u00fcr das Wesentliche.</div>
+        </div>
+      </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Wo liegt dein Aufmerksamkeitsfokus &ndash; und was siehst du dabei nicht? Der Code deiner Pers\u00f6nlichkeit.", "Der Code deiner Pers\u00f6nlichkeit")}
       ${relatedLinks([
         {route:"wahrnehmungsstile", label:"Wahrnehmungsstile"},
@@ -74452,6 +74705,20 @@ function perspektivenPage() {
         <img src="./assets/schaubilder/perspektiven/perspektiven-mitmenschen.jpg"
              alt="Enneagrammtypen und die Perspektiven ihrer Mitmenschen"
              class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:var(--copper);">Typ 1 (Der konsequente Perfektionist):</span> \u201eWir f\u00fchlen uns h\u00e4ufig von dir korrigiert, kritisiert oder gema\u00dfregelt!\u201c</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 2 (Der f\u00fcrsorgliche Liebeshungrige):</span> \u201eWir f\u00fchlen uns von dir h\u00e4ufig in irgendeiner Form manipuliert!\u201c</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 3 (Der erfolgreiche Macher):</span> \u201eWir erleben dich h\u00e4ufig t\u00e4uschend und emotional unerreichbar, mitunter gar abweisend!\u201c</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 4 (Der intensive K\u00fcnstler):</span> \u201eWir erleben dich h\u00e4ufig ein wenig \u00fcbertrieben emotional und mit dir in Beziehungsdramen verstrickt!\u201c</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 5 (Der kompetente Denker):</span> \u201eWir f\u00fchlen uns von dir h\u00e4ufig beobachtet, ein wenig von oben herab gesehen und emotional vernachl\u00e4ssigt!\u201c</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 6 (Der loyale Held):</span> \u201eWir f\u00fchlen uns h\u00e4ufig von dir auf Verl\u00e4sslichkeit getestet und sp\u00fcren oft auch deinen Zweifel und dein Misstrauen!\u201c</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 7 (Das begeisternde Gl\u00fcckskind):</span> \u201eWir empfinden dich h\u00e4ufig ein wenig oberfl\u00e4chlich und oft wenig verl\u00e4sslich!\u201c</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 8 (Der aktive Schutzpatron):</span> \u201eWir f\u00fchlen uns h\u00e4ufig von dir dominiert und beherrscht!\u201c</div>
+          <div><span style="font-weight:700;color:var(--copper);">Typ 9 (Der angepasste Diplomat):</span> \u201eWir \u00e4rgern uns h\u00e4ufig, dass du nur \u00e4u\u00dferst selten eine klare Position beziehst!\u201c</div>
+        </div>
       </div>
       ${relatedLinks([
         {route:"schaubilder-als-spiegel", label:"Schaubilder als Spiegel"},
@@ -75225,6 +75492,36 @@ function teeEnneagrammPage() {
              alt="Tee und Enneagramm &ndash; \u00dcbersicht 2"
              class="psycho-img" />
       </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.6rem;color:var(--ink);">Typ 1 &ndash; Melissentee</h3>
+        <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> mild, entkrampfend, ausgleichend, nervlich beruhigend. <strong>F\u00f6rdert:</strong> Gelassenheit, innere Weichheit, Entspannung, freundliche Selbstregulation. <strong>Passt zu Typ 1, weil:</strong> die Strenge weicher werden darf, ohne dass Klarheit verloren geht. <strong>Leitidee:</strong> Weniger innere Verkrampfung, mehr milde Ordnung.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 2 &ndash; Rosenbl\u00fctentee</h3>
+        <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> herz\u00f6ffnend, harmonisierend, verfeinernd, emotional w\u00e4rmend. <strong>F\u00f6rdert:</strong> Selbstwert, Herzensw\u00e4rme, Empf\u00e4nglichkeit, liebevolle Pr\u00e4senz. <strong>Passt zu Typ 2, weil:</strong> Zuwendung nicht nur nach au\u00dfen flie\u00dfen muss, sondern auch nach innen. <strong>Leitidee:</strong> Geben und Empfangen kommen in ein besseres Gleichgewicht.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 3 &ndash; Rosmarintee</h3>
+        <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> anregend, kl\u00e4rend, sammelnd, aufrichtend. <strong>F\u00f6rdert:</strong> Pr\u00e4senz, Fokus, Wachheit, innere Ausrichtung. <strong>Passt zu Typ 3, weil:</strong> Aktivit\u00e4t und Zielkraft in echte innere Sammlung zur\u00fcckgef\u00fchrt werden. <strong>Leitidee:</strong> Weniger Fassade, mehr Substanz und Richtung.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 4 &ndash; Weidenr\u00f6schentee</h3>
+        <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> fein, regulierend, bes\u00e4nftigend, zur\u00fccknehmend, seelisch differenziert. <strong>F\u00f6rdert:</strong> Sammlung, innere Beruhigung, Abgrenzung, stille Zentrierung. <strong>Passt zu Typ 4, weil:</strong> emotionale Tiefe da sein darf, ohne sich im Eigengef\u00fchl zu verlieren. <strong>Leitidee:</strong> Tiefe mit Ma\u00df, Gef\u00fchl mit stiller Form.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 5 &ndash; Haferkrauttee</h3>
+        <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> n\u00e4hrend, aufbauend, nervenst\u00e4rkend, schlicht stabilisierend. <strong>F\u00f6rdert:</strong> Substanz, Regeneration, Verk\u00f6rperung, ruhige Belastbarkeit. <strong>Passt zu Typ 5, weil:</strong> der R\u00fcckzug nicht noch mehr Vergeistigung braucht, sondern Nahrung und Boden. <strong>Leitidee:</strong> Mehr Kraft, Dichte und Anbindung an den Leib.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 6 &ndash; Kamillenbl\u00fctentee</h3>
+        <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> beruhigend, entkrampfend, haltgebend, vertraut. <strong>F\u00f6rdert:</strong> Sicherheit, Loslassen, nervliche Beruhigung, Vertrauen. <strong>Passt zu Typ 6, weil:</strong> innere Alarmbereitschaft und Gr\u00fcbelspannung bes\u00e4nftigt werden. <strong>Leitidee:</strong> Weniger Dauervigilanz, mehr innere Geborgenheit.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 7 &ndash; Pfefferminztee</h3>
+        <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> frisch, beweglich, kl\u00e4rend, belebend. <strong>F\u00f6rdert:</strong> geistige Frische, Leichtigkeit, freie Bewegung, Aufhellung. <strong>Passt zu Typ 7, weil:</strong> der helle, mobile, luftige Charakter des Typs direkt gespiegelt wird. <strong>Leitidee:</strong> Lebensfreude und Beweglichkeit in klarer Form.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 8 &ndash; Ingwertee</h3>
+        <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> w\u00e4rmend, aktivierend, durchdringend, vitalisierend. <strong>F\u00f6rdert:</strong> Kraft, Entschiedenheit, W\u00e4rme, Durchsetzung, Pr\u00e4senz. <strong>Passt zu Typ 8, weil:</strong> Intensit\u00e4t und Lebenskraft eine klare, unmittelbare Entsprechung finden. <strong>Leitidee:</strong> Kraft mit W\u00e4rme und Direktheit.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 9 &ndash; Fencheltee</h3>
+        <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> mild, harmonisierend, rund, freundlich ausgleichend. <strong>F\u00f6rdert:</strong> Zentrierung, Bek\u00f6mmlichkeit, innere Ruhe, sanfte Pr\u00e4senz. <strong>Passt zu Typ 9, weil:</strong> er nicht \u00fcberfordert, aber dennoch leise in Bewegung bringt. <strong>Leitidee:</strong> Sanft aus der Tr\u00e4gheit in mehr Pr\u00e4senz.</p>
+      </div>
+
       ${relatedLinks([
         {route:"aetherische-oele", label:"\xc4therische \xd6le"},
         {route:"edelsteine", label:"Edelsteine"},

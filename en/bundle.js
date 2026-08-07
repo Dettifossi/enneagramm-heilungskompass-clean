@@ -11790,6 +11790,39 @@ function kindheitsperspektivenPage() {
              alt="Die subjektiven Wahrnehmungen der 9 Enneagrammtypen in ihrer Kindheit"
              class="psycho-img" />
       </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Each of the three Enneagram centers carries its own childhood core emotion: the Body Triad (Types 8, 9, 1) reacts to the world with anger, rage, and resentment. The Heart Triad (Types 2, 3, 4) carries sadness, grief over a loss, and emotional pain. The Head Triad (Types 5, 6, 7) lives in anxiety, fear, and insecurity. Out of these early core feelings, each type developed its own, often unconscious, belief about what the world is like — a subjective childhood impression that still shapes them today.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 1 &ndash; Anger / Perfection</h3>
+        <p class="vb-intro">"The world punishes bad attitudes and anything spontaneous." Young Type 1 experiences their environment as strictly judgmental — mistakes are sanctioned, spontaneity feels dangerous. From this arises the passion of anger and the motivation to gain security and approval through perfection.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 2 &ndash; Pride / Love</h3>
+        <p class="vb-intro">"Others overlook me. I'm not loved enough." Young Type 2 feels insufficiently seen in their own neediness and, in response, develops the passion of pride: from then on, love is actively earned by making oneself indispensable to others.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 3 &ndash; Vanity / Success</h3>
+        <p class="vb-intro">"Others only love me because I do something specific." For young Type 3, affection appears tied to achievement — not being, but doing gets rewarded. From this arises the passion of vanity and the motivation to deliver success as proof of love.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 4 &ndash; Envy / Individuality</h3>
+        <p class="vb-intro">"I was abandoned, left alone." An early loss or a feeling of being disconnected shapes young Type 4. From this grows the passion of envy — the painful longing for what others seem to have — and the motivation to assert their own individuality as a counterbalance.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 5 &ndash; Avarice / Knowledge</h3>
+        <p class="vb-intro">"The world is overwhelming; outside influences regularly overpower me." Young Type 5 experiences the demands of the world as intrusive and exhausting. They withdraw, hoarding their energy — the passion of avarice — and seek in knowledge a safe, controllable substitute space.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 6 &ndash; Fear / Security</h3>
+        <p class="vb-intro">"I have been betrayed. The world is evil and unreliable." An early breach of trust leaves a lasting mark on young Type 6. From this arises the passion of fear and a lifelong striving for security — through vigilance, through reliable bonds, or through actively confronting danger.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 7 &ndash; Gluttony / Fun</h3>
+        <p class="vb-intro">"I suffer under the limits of this world that confine me." Young Type 7 experiences limitation as pain and flees into variety, options, and pleasure. From this arises the passion of gluttony — an insatiable hunger for ever-new, pleasant experiences as an antidote to confinement and pain.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 8 &ndash; Lust / Power</h3>
+        <p class="vb-intro">"The world is hard and unjust; when I was weak, I was abused." An early experience of powerlessness leaves a deep mark on young Type 8. They vow never to appear vulnerable again — from this arises the passion of lust (excess, intensity) and the striving for power and control.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 9 &ndash; Sloth / Harmony</h3>
+        <p class="vb-intro">"Others reject me when I voice my own opinion." Young Type 9 learns early that taking their own position can mean conflict and rejection. They prefer to dissolve themselves in order to preserve harmony — from this arises the passion of sloth toward one's own will.</p>
+
+        <p class="vb-anmerkung" style="margin-top:1.5rem;font-style:italic;">"In every child, God dreams the dream of love." (Unknown)</p>
+      </div>
       ${bookTip("in-der-tiefe-der-zeit", "How formative childhood experiences shape the personality structure of each Enneagram type.", "In der Tiefe der Zeit")}
       ${relatedLinks([
         {route:"kindliche-temperamente", label:"Childhood Temperaments"},
@@ -11811,6 +11844,39 @@ function kerneberzeugungPage() {
         <img src="../assets/schaubilder/kerneberzeugungen/kerneberzeugungen.jpg"
              alt="Die tiefsten Kernüberzeugungen der 9 Enneagrammtypen"
              class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Each core belief is a sentence the respective type never says out loud — and yet, mostly unconsciously, it steers their entire thinking, feeling, and acting. It is the inner logic behind each type's passion and motivation.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 1 &ndash; The Perfectionist</h3>
+        <p class="vb-intro">"I certainly have some flaws, but I do everything to avoid mistakes and errors." For Type 1, mistakes are not a neutral part of life but a threat to their own integrity — hence the constant inner control and the demand to get it right.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 2 &ndash; The Altruist</h3>
+        <p class="vb-intro">"What's even the point of living if you can't be there for other people?" For Type 2, self-worth is inseparably bound to being needed — caregiving is not just an action here, but a justification for existing.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 3 &ndash; The Achiever</h3>
+        <p class="vb-intro">"Enjoying your work is the path to success." Type 3 merges with their achievement so completely that work itself becomes a source of joy and identity — standstill, by contrast, feels like meaninglessness.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 4 &ndash; The Romantic</h3>
+        <p class="vb-intro">"Any pain is better than the pain of the heart." For Type 4, emotional numbness is worse than suffering — they would rather feel the depth of pain fully than remain in shallow, unfeeling neutrality.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 5 &ndash; The Observer</h3>
+        <p class="vb-intro">"Just by watching, you can learn a great deal." Type 5 withdraws into the observer's position because they believe distance creates clarity — understanding always comes before action.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 6 &ndash; The Loyalist</h3>
+        <p class="vb-intro">"No security without doubt." For Type 6, mistrust is not a flaw but a protective mechanism — only those who question everything can be sure they aren't being deceived.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 7 &ndash; The Epicure</h3>
+        <p class="vb-intro">"You only live once — let's make the best of it!" Type 7 meets life's finitude with a determined yes to abundance — every experience, every possibility should be savored before time runs out.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 8 &ndash; The Boss</h3>
+        <p class="vb-intro">"A right you have is not begged for. You fight for it." For Type 8, passivity is equivalent to weakness — whoever wants something must take it with force and determination rather than hope it will be handed to them.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 9 &ndash; The Mediator</h3>
+        <p class="vb-intro">"God gave humankind time, but said nothing about hurry." Type 9 instinctively rejects pressure, whether inner or outer — real things, they believe, need their time and cannot be forced.</p>
+
+        <p class="vb-anmerkung" style="margin-top:1.5rem;font-style:italic;">"Conviction is the conscience of the mind." (Nicolas Chamfort, 1741&ndash;1794)</p>
       </div>
       ${bookTip("du-bist-nicht-dein-zweifel", "Recognizing and letting go of core beliefs &ndash; a guide to inner freedom for all 9 types.", "Du bist nicht dein Zweifel")}
       ${relatedLinks([
@@ -12171,6 +12237,39 @@ function spirituelleUebungenPage() {
         <img src="../assets/schaubilder/spirituelle-uebungen/spirituelle-uebungen.jpg"
              alt="Spezielle spirituelle Übungen für die 9 Enneagrammtypen"
              class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Every type is on an "eternal search" for exactly the quality that stands opposed to their passion — and the spiritual exercise, in each case, is to stop seeking that quality outside and instead perceive it as already present within.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 1 &ndash; The Eternal Search for Perfection</h3>
+        <p class="vb-intro">Exercise: Go inward and perceive your own inner perfection — not improving the world, but recognizing that the perfect is already present in the current moment.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 2 &ndash; The Eternal Search for Love</h3>
+        <p class="vb-intro">Exercise: Feel inward and perceive your own inner lovableness — sense that you are allowed to be loved without first having to earn that love through giving.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 3 &ndash; The Eternal Search for Success</h3>
+        <p class="vb-intro">Exercise: Feel inward and perceive your own inner worth — recognize that your worth is not created by achievement, but has always already been there.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 4 &ndash; The Eternal Search for Individuality</h3>
+        <p class="vb-intro">Exercise: Feel inward and perceive your own inner origin — stop seeking your own uniqueness as something missing and instead recognize it as a core of being that has always been there.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 5 &ndash; The Eternal Search for Knowledge</h3>
+        <p class="vb-intro">Exercise: Search inward and perceive your own inner connectedness with everything — recognize that true understanding does not arise from accumulating knowledge, but from experiencing your own belonging to the whole.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 6 &ndash; The Eternal Search for Security</h3>
+        <p class="vb-intro">Exercise: Search inward and perceive your own inner basic trust — sense that true security does not come from outside but is an already-present inner ground.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 7 &ndash; The Eternal Search for Fun</h3>
+        <p class="vb-intro">Exercise: Search inward and perceive your own inner joy of life — recognize that joy needs no accumulation of outer experiences, because it already dwells in the present moment.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 8 &ndash; The Eternal Search for Power</h3>
+        <p class="vb-intro">Exercise: Go inward and perceive your own inner strength — understand that true power does not arise from control over others, but from connection with your own inner steadiness.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 9 &ndash; The Eternal Search for Harmony</h3>
+        <p class="vb-intro">Exercise: Go inward and perceive your own inner peace — recognize that harmony does not first have to arise through adapting to others, but is your own, already-present foundation.</p>
+
+        <p class="vb-anmerkung" style="margin-top:1.5rem;font-style:italic;">"True self-knowledge is the intuition of God." (Eastern wisdom)</p>
       </div>
       ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "7 spiritual art-of-living exercises for daily life &ndash; the ideal companion to this overview.", "7 Wege zu Dir selbst")}
       ${bookTip("nichts-und-alles", "A quiet book on looking inward &ndash; awareness, space, and inner freedom.", "Nichts und Alles")}
@@ -12723,6 +12822,38 @@ function berühmteKomponistenPage() {
              class="psycho-img" />
       </div>
 
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.6rem;color:var(--ink);">Type 1 SX &ndash; Johann Sebastian Bach (1685&ndash;1750)</h3>
+        <p class="vb-intro">Music is an expression of divine, paternal love. Bach's intricately composed fugues and cantatas mirror Type 1's longing for perfect, God-ordained order — every voice fits into a greater, righteous whole.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 2 SP &ndash; Wolfgang Amadeus Mozart (1756&ndash;1791)</h3>
+        <p class="vb-intro">Music is an expression of human, motherly, supportive love. Mozart's melodies feel warm, engaging, and immediately touching — music that reaches out to the listener and cares for them rather than keeping them at a distance.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 3 SP &ndash; Joseph Haydn (1732&ndash;1809)</h3>
+        <p class="vb-intro">Music is an expression of formally perfect, creatively powerful love. Haydn, the "father of the symphony," tirelessly developed new forms and perfected them to mastery — creative drive and flawless structure as an expression of his type.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 4 SX &ndash; Claude Debussy (1862&ndash;1918)</h3>
+        <p class="vb-intro">Music is an expression of unfulfilled, romantically consuming love. Debussy's impressionistic tone colors hover between longing and dissolution — never quite graspable, always searching for something that eludes complete fulfillment.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 5 SX &ndash; Frédéric Chopin (1810&ndash;1849)</h3>
+        <p class="vb-intro">Music is an expression of introverted, spiritually platonic love. Chopin's piano works are intimate, restrained, and of great inner depth — music for the individual listener in a quiet room, not for the grand stage.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 6 SP (phobic) &ndash; Franz Schubert (1797&ndash;1828)</h3>
+        <p class="vb-intro">Music is an expression of anxious, faithfully devoted love. Schubert's songs often circle around shelter, wandering, and the search for a safe home — the quiet, faithful longing of the phobic Type 6.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 6 SX (counterphobic) &ndash; Ludwig van Beethoven (1770&ndash;1827)</h3>
+        <p class="vb-intro">Music is an expression of fear-defying, heroic love. Beethoven met his own fear — including the fear of deafness — with defiant, fighting greatness. His symphonies are triumphs of will over fate — the counterphobic variant of Type 6.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 7 SX &ndash; Robert Schumann (1810&ndash;1856)</h3>
+        <p class="vb-intro">Music is an expression of cheerful, playful, humorous love. Schumann's character pieces are full of imagination, quick shifts of mood, and playful ideas — music that never lingers long on a single color.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 8 SX &ndash; Giacomo Puccini (1858&ndash;1924)</h3>
+        <p class="vb-intro">Music is an expression of powerful, fighting, contentious love. Puccini's operas thrive on dramatic force, intense emotional outbursts, and fateful conflicts — love lived and defended with full force.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Type 9 SP &ndash; Johannes Brahms (1833&ndash;1897)</h3>
+        <p class="vb-intro">Music is an expression of ego-free, selfless, sibling-like, accepting love. Brahms's works combine classical form with a warm, self-contained depth — music without any need for validation, carried by quiet, all-embracing warmth.</p>
+      </div>
+
       ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
       ${bookTip("wer-du-wirklich-bist-band-2", "In-depth type profiles and archetypal reflections – Volume 2 of the Rathmer trilogy.", "Wer du wirklich bist – Band 2")}
       ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypes, paths to healing, and the big picture – Volume 3 as the conclusion of the trilogy.", "Wer du wirklich bist – Band 3")}
@@ -12868,6 +12999,22 @@ function weihnachtsgeschenkePage() {
              alt="Die 9 Enneagrammtypen und ihre Geschenke an die Welt"
              class="psycho-img" />
       </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:var(--copper);">Type 1 &ndash; The Perfectionist:</span> Perfection / correction — an eye for what can be made better.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 2 &ndash; The Helper:</span> Giving / helping — unconditional attention to others.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 3 &ndash; The Dynamic One:</span> Achievement / success — the drive to actually make things happen.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 4 &ndash; The Individualist:</span> Inspiration / differentiation — depth and expressiveness that move people.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 5 &ndash; The Thinker:</span> Observation / knowledge — clarity through careful attention.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 6 &ndash; The Loyal Skeptic:</span> Trust / asking questions — vigilance that protects communities.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 7 &ndash; The Optimist:</span> Imagination / inspiration — lightness that carries others along.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 8 &ndash; The Challenger:</span> Truth / protection — strength in the service of the weaker.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 9 &ndash; The Peaceful One:</span> Harmony / union — the quiet ability to reconcile opposites.</div>
+        </div>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">"What you are is God's gift to you. What you make of yourself is your gift to God." (German proverb)</p>
+      </div>
+
       <div style="border-top:1px solid var(--line);margin-top:2rem;padding-top:1.8rem;">
         <h2 style="font-size:1.25rem;font-weight:700;margin-bottom:.6rem;">Christmas Wishes to All 9 Enneagram Types</h2>
         <p class="lead-small" style="margin-bottom:1.2rem;">At Christmas, the mask may finally fall. This heartfelt wish is addressed to each of the 9 types &mdash; with an invitation to let go of oneself a little.</p>
@@ -12875,6 +13022,19 @@ function weihnachtsgeschenkePage() {
           <img src="../assets/schaubilder/weihnachtsgeschenke/weihnachtswuensche.jpg"
                alt="Weihnachtswünsche an alle 9 Enneagrammtypen"
                class="psycho-img" />
+        </div>
+        <div class="vb-section" style="max-width:100%;margin-top:1.2rem;">
+          <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+            <div><span style="font-weight:700;color:var(--copper);">Type 1:</span> Why not set aside the mask of the impeccable, conscientious perfectionist!</div>
+            <div><span style="font-weight:700;color:var(--copper);">Type 2:</span> Why not set aside the mask of the loving, generous helper!</div>
+            <div><span style="font-weight:700;color:var(--copper);">Type 3:</span> Why not set aside the mask of the competent, efficient achiever!</div>
+            <div><span style="font-weight:700;color:var(--copper);">Type 4:</span> Why not set aside the mask of the authentic, profound individualist!</div>
+            <div><span style="font-weight:700;color:var(--copper);">Type 5:</span> Why not set aside the mask of the objective, knowing observer!</div>
+            <div><span style="font-weight:700;color:var(--copper);">Type 6:</span> Why not set aside the mask of the cautious, ever-watchful doubter!</div>
+            <div><span style="font-weight:700;color:var(--copper);">Type 7:</span> Why not set aside the mask of the carefree, cheerful optimist!</div>
+            <div><span style="font-weight:700;color:var(--copper);">Type 8:</span> Why not set aside the mask of the ever-strong, independent protector!</div>
+            <div><span style="font-weight:700;color:var(--copper);">Type 9:</span> Why not set aside the mask of the calm, easygoing mediator!</div>
+          </div>
         </div>
       </div>
       ${bookTip("die-sprache-unserer-beziehungen", "Every type has a unique gift for relationships &ndash; discover the language of intimacy.", "Die Sprache unserer Beziehungen")}
@@ -13203,6 +13363,22 @@ function dreiZentrenPage() {
              alt="Die drei Intelligenzzentren der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Each type belongs to one of the three centers — Gut (8, 9, 1), Heart (2, 3, 4), or Head (5, 6, 7) — and uses that center's intelligence either in its unhealthy excess/deficiency (&minus;) or in its mature, helpful form (+).</p>
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:var(--copper);">Type 1:</span> &minus; Reaction control (rigid self-suppression) &nbsp;/&nbsp; + Good gut feeling (reliable inner orientation)</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 2:</span> &minus; Emotional manipulation &nbsp;/&nbsp; + Empathy</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 3:</span> &minus; Inauthentic role-playing &nbsp;/&nbsp; + Authentic relationship</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 4:</span> &minus; Hypersensitivity &nbsp;/&nbsp; + Compassion</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 5:</span> &minus; Hyper-analysis (endless thinking) &nbsp;/&nbsp; + Objective analysis</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 6:</span> &minus; Projection (casting fears outward) &nbsp;/&nbsp; + Conscious insight</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 7:</span> &minus; Excessive planning &nbsp;/&nbsp; + Productive planning</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 8:</span> &minus; Excessive action &nbsp;/&nbsp; + Measured action</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 9:</span> &minus; Passivity &nbsp;/&nbsp; + Steadfastness</div>
+        </div>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">"Genius is the intelligence of enthusiasm." (Edward Bach, 1886&ndash;1936)</p>
+      </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The Enneagram with head, heart, and gut &ndash; the three centers and their significance for your personality.", "Wer du wirklich bist &ndash; Band 1")}
       <p style="margin-top:1.5rem; text-align:center;">
         Next: World Perception in the Three Centers &rarr;
@@ -13270,6 +13446,22 @@ function energetischeBewegungPage() {
              alt="The energetic movement of the 9 Enneagram types in relationships"
              class="psycho-img" />
       </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">The Gut Triad (8, 9, 1) responds to separation with <strong>attack</strong> — moving against others. The Heart Triad (2, 3, 4) responds with <strong>deception</strong> — an image that moves toward others. The Head Triad (5, 6, 7) responds with <strong>flight</strong> — fear that drives them away from others. Within each triad, the center's energy is either acted out externally, held/sat with, or internalized.</p>
+        <div style="display:grid;gap:.6rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:var(--copper);">Type 1 (Gut, internalized)</span> &ndash; Theme: autonomy/space: &minus; always wanting to be right &nbsp;/&nbsp; + supporting ethically and without prejudice.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 2 (Heart, externalized)</span> &ndash; Theme: relationship/contact: &minus; always wanting to be loved &nbsp;/&nbsp; + giving and helping enthusiastically and selflessly.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 3 (Heart, held/sat with)</span> &ndash; Theme: relationship/contact: &minus; always wanting to be admired &nbsp;/&nbsp; + acting lovable and warmhearted.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 4 (Heart, internalized)</span> &ndash; Theme: relationship/contact: &minus; always wanting to understand themselves &nbsp;/&nbsp; + being inspiring and original.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 5 (Head, internalized)</span> &ndash; Theme: security/orientation: &minus; always wanting to understand the world &nbsp;/&nbsp; + thinking, feeling, and acting clearly.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 6 (Head, held/sat with)</span> &ndash; Theme: security/orientation: &minus; always wanting to trust authority and stay vigilant &nbsp;/&nbsp; + fighting bravely and loyally alongside others, relaxing.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 7 (Head, externalized)</span> &ndash; Theme: security/orientation: &minus; always wanting to have fun &nbsp;/&nbsp; + acting positively and pragmatically.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 8 (Gut, externalized)</span> &ndash; Theme: autonomy/space: &minus; always wanting to be the strongest &nbsp;/&nbsp; + fighting fair and protecting.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 9 (Gut, held/sat with)</span> &ndash; Theme: autonomy/space: &minus; always wanting to keep the peace &nbsp;/&nbsp; + acting friendly, yet firm.</div>
+        </div>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">"Recognition is the oxygen of human relationships." (German proverb)</p>
+      </div>
       ${bookTip("die-sprache-unserer-beziehungen", "How intimacy, withdrawal, and connection manifest in relationships across all 9 types &ndash; 365 pairing combinations.", "Die Sprache unserer Beziehungen")}
 
       ${relatedLinks([
@@ -13293,6 +13485,22 @@ function lookalikeTypenPage() {
              alt="Lookalike-Typen im Enneagramm"
              class="psycho-img" />
       </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Interestingly, it is precisely the types <em>without</em> a direct wing or connecting line in the Enneagram symbol that are most easily confused in everyday life — because they resemble each other in certain behavioral traits, even though their inner motivations are completely different.</p>
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:var(--copper);">Type 1 (The Perfectionist)</span> is often confused with Type 3 (The Achiever), Type 6 (The Loyal Skeptic), and Type 8 (The Challenger) — all appear determined and controlled outwardly, for very different inner reasons.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 2 (The Helper)</span> is often confused with Type 7 (The Optimist) and Type 9 (The Peaceful One) — all appear warm and engaging, but with different motives.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 3 (The Achiever)</span> is often confused with Type 1 (The Perfectionist), Type 7 (The Optimist), and Type 8 (The Challenger) — all appear energetic and goal-oriented.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 4 (The Individualist)</span> is often confused with Type 6 (The Loyal Skeptic), Type 7 (The Optimist), and Type 9 (The Peaceful One) — all can appear inward-turned and moody.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 5 (The Thinker)</span> is often confused with Type 1 (The Perfectionist) and Type 9 (The Peaceful One) — all appear reserved and matter-of-factly detached.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 6 (The Loyal Skeptic)</span> is often confused with Type 4 (The Individualist) and Type 8 (The Challenger) — all can appear vigilant, critical, or confrontational.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 7 (The Optimist)</span> is often confused with Type 2 (The Helper), Type 3 (The Achiever), and Type 9 (The Peaceful One) — all appear friendly, light, and pleasant to be around.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 8 (The Challenger)</span> is often confused with Type 1 (The Perfectionist), Type 4 (The Individualist), and Type 6 (The Loyal Skeptic) — all can appear intense, direct, or confrontational.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 9 (The Peaceful One)</span> is often confused with Type 2 (The Helper), Type 4 (The Individualist), and Type 7 (The Optimist) — all can appear gentle, warm, or dreamy.</div>
+        </div>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">"For a likeness of character is the strongest bond of friendship." (Pliny the Younger, c. 61 &ndash; c. 113 AD, Roman statesman and writer, Epistulae, Book IV, Letter 15)</p>
+      </div>
       ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Step-by-step type identification &ndash; incl. lookalike differentiation for all 9 types.", "Die Praxis der Typbestimmung")}
       ${relatedLinks([
         {route:"differenzierung", label:"Differentiation"},
@@ -13314,6 +13522,21 @@ function befreiendeFragenPage() {
         <img src="../assets/schaubilder/befreiende-fragen/befreiende-fragen.jpg"
              alt="Befreiende Fragen an die 9 Enneagrammtypen"
              class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:var(--copper);">Type 1 &ndash; The Perfectionist:</span> What would your life look like if you recognized that things are already perfect, without your intervention?</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 2 &ndash; The Helper:</span> What would your life look like if you recognized that a higher will already takes care of your needs?</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 3 &ndash; The Achiever:</span> What would your life look like if you could hope that the important things in life get done for you, even without your action?</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 4 &ndash; The Individualist:</span> What would your life look like if you recognized that you are loved and seen even when you simply live your own originality?</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 5 &ndash; The Thinker:</span> What would your life look like if you recognized that you already possess all the knowledge you need?</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 6 &ndash; The Loyal Skeptic:</span> What would your life look like if you recognized that you can trust yourself, other people, and the world?</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 7 &ndash; The Optimist:</span> What would your life look like if you recognized that you can be happy, even when you commit to something?</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 8 &ndash; The Challenger:</span> What would your life look like if you recognized that, despite your outer strength, you are sometimes weak inside?</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 9 &ndash; The Peaceful One:</span> What would your life look like if you recognized that you are unconditionally loved and accepted as important?</div>
+        </div>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">"To ask questions wisely is half the wisdom." (Sir Francis Bacon, English philosopher, jurist, and statesman, 1561&ndash;1626)</p>
       </div>
       ${bookTip("du-bist-nicht-dein-zweifel", "Liberating questions and impulses for all 9 types &ndash; letting go of what isn't truly you.", "Du bist nicht dein Zweifel")}
       <p style="margin-top:1.5rem; text-align:center;">
@@ -13372,6 +13595,21 @@ function fuehrungsstilePage() {
         <img src="../assets/schaubilder/fuehrungsstile/fuehrungsstile.jpg"
              alt="Die Führungsstile der 9 Enneagrammtypen"
              class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:var(--copper);">Type 1 &ndash; The Perfectionist:</span> Leadership through standards, examples, norms, rules.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 2 &ndash; The Helper:</span> Leadership through motivation, support, help.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 3 &ndash; The Achiever:</span> Leadership through goals, plans, results.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 4 &ndash; The Individualist:</span> Leadership through vision, emotional connection.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 5 &ndash; The Thinker:</span> Leadership through research, observation, analysis.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 6 &ndash; The Loyal Skeptic:</span> Leadership through creative problem-solving, logic, rationality.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 7 &ndash; The Optimist:</span> Leadership through new ideas, innovation.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 8 &ndash; The Challenger:</span> Leadership through strategy, bold action.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 9 &ndash; The Peaceful One:</span> Leadership through consensus, agreement, unity.</div>
+        </div>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">"From humility grows responsible leadership." (Laozi, presumably 6th century BC)</p>
       </div>
       ${bookTip("fuehrung-mit-fundament", "Leadership with the Enneagram &ndash; how each of the 9 types unfolds their full leadership potential.", "Führung mit Fundament")}
       ${bookTip("meta-intelligenz", "Meta-Intelligence: How the Enneagram strengthens leaders in their deepest effectiveness.", "Meta-Intelligenz")}
@@ -37808,44 +38046,44 @@ function blickqualitaetPage() {
 function beruhmtePhilosophenPage() {
   const phil = [
     {
-      nr: 1, name: "Aristoteles", jahre: "384–322 v. Chr.", subtyp: "Sozialer Subtype (Untertyp)",
-      text: "Aristoteles war der Systematiker schlechthin. Er klassifizierte Pflanzen, Tiere, Tugenden, Staatsformen, Dichtgattungen &ndash; und schuf damit die Grundlage der westlichen Wissenschaft. Typisch für den Sozialen Subtype des Typs 1: Er suchte nicht persönliche Perfektion für sich allein, sondern richtiges Handeln im gesellschaftlichen Kontext. Seine Nikomachische Ethik ist ein Versuch, die Tugend zu definieren, die das Gemeinwesen trägt. Der Drang, die Welt in Ordnung zu bringen &ndash; und dabei präzise, korrekt und umfassend zu sein &ndash; ist das Markenzeichen dieses Subtypes."
+      nr: 1, name: "Aristotle", jahre: "384–322 BC", subtyp: "Social Subtype",
+      text: "Aristotle was the systematizer par excellence. He classified plants, animals, virtues, forms of government, and poetic genres &ndash; laying the foundation of Western science in the process. Typical of Type 1's Social subtype: he did not seek personal perfection for himself alone, but right action within the social context. His Nicomachean Ethics is an attempt to define the virtue that carries a community. The drive to bring the world into order &ndash; while being precise, correct, and comprehensive &ndash; is the hallmark of this subtype."
     },
     {
-      nr: 2, name: "Søren Kierkegaard", jahre: "1813–1855", subtyp: "Self-Preservationer Subtype (Untertyp)",
-      text: "Kierkegaard schrieb über Liebe mit einer Intensität, die kaum seinesgleichen kennt. Doch er liebte nicht leicht &ndash; er liebte angespannt, selbstquälerisch, unter ständiger Frage, ob er würdig sei zu geben und zu empfangen. Der Self-Preservatione Subtype des Typs 2 ist der introvertierte Helfer: Er gibt nicht offen und theatralisch, sondern im Verborgenen, oft mit innerem Konflikt. Kierkegaard brach seine Verlobung, weil er glaubte, der anderen Person nicht geben zu können, was sie verdiente &ndash; eine zutiefst typische Zwei-Geste, die Fürsorge zur Last macht."
+      nr: 2, name: "Søren Kierkegaard", jahre: "1813–1855", subtyp: "Self-Preservation Subtype",
+      text: "Kierkegaard wrote about love with an intensity few have matched. Yet he did not love easily &ndash; he loved with tension, self-torment, under the constant question of whether he was worthy to give and receive. Type 2's Self-Preservation subtype is the introverted Helper: giving not openly and theatrically, but in secret, often with inner conflict. Kierkegaard broke off his engagement because he believed he could not give the other person what she deserved &ndash; a deeply typical Two gesture that turns caregiving into a burden."
     },
     {
-      nr: 3, name: "Gottfried Wilhelm Leibniz", jahre: "1646–1716", subtyp: "Sozialer Subtype (Untertyp)",
-      text: "Leibniz war Diplomat, Mathematiker, Philosoph und Erfinder &ndash; und das alles gleichzeitig. Er entwarf die Differential- und Integralrechnung, entwickelte das binäre Zahlensystem, schrieb über Metaphysik und verhandelte zugleich an europäischen Fürstenhöfen. Der Soziale Subtype des Typs 3 strebt nach Erfolg im gesellschaftlichen Rahmen: Anerkennung durch Leistung, Sichtbarkeit durch Wirkung. Leibniz wollte immer nützlich sein &ndash; und zwar auf der größtmöglichen Bühne. Kein Typ verkörpert das Streben nach gesellschaftlichem Einfluss durch Kompetenz klarer."
+      nr: 3, name: "Gottfried Wilhelm Leibniz", jahre: "1646–1716", subtyp: "Social Subtype",
+      text: "Leibniz was a diplomat, mathematician, philosopher, and inventor &ndash; all at once. He devised differential and integral calculus, developed the binary number system, wrote on metaphysics, and negotiated at European royal courts at the same time. Type 3's Social subtype strives for success within a social framework: recognition through achievement, visibility through impact. Leibniz always wanted to be useful &ndash; on the largest possible stage. No type embodies the pursuit of social influence through competence more clearly."
     },
     {
-      nr: 4, name: "Arthur Schopenhauer", jahre: "1788–1860", subtyp: "Sexueller Subtype (Untertyp)",
-      text: "Schopenhauer war ein Meister des gepflegten Leidens. Er sah die Welt als blinden Willen, der uns antreibt, ohne uns je zu befriedigen &ndash; und schrieb darüber mit einer Leidenschaft, die sein eigenes Prinzip widerlegte. Der Sexuelle Subtype des Typs 4 sucht intensive Verbindung und leidet tief an Enttäuschung. Schopenhauer hatte ein angespanntes Verhältnis zu seiner Mutter, lebte isoliert, hatte wenige enge Bindungen &ndash; und kompensierte seine Sehnsucht nach Tiefe durch philosophischen Pessimismus, den er mit geradezu ästhetischer Hingabe pflegte."
+      nr: 4, name: "Arthur Schopenhauer", jahre: "1788–1860", subtyp: "Sexual Subtype",
+      text: "Schopenhauer was a master of cultivated suffering. He saw the world as a blind will that drives us without ever satisfying us &ndash; and wrote about it with a passion that contradicted his own principle. Type 4's Sexual subtype seeks intense connection and suffers deeply from disappointment. Schopenhauer had a strained relationship with his mother, lived in isolation, had few close bonds &ndash; and compensated for his longing for depth with a philosophical pessimism he cultivated with almost aesthetic devotion."
     },
     {
-      nr: 5, name: "René Descartes", jahre: "1596–1650", subtyp: "Sozialer Subtype (Untertyp)",
-      text: "„Ich denke, also bin ich“ &ndash; kein Satz verkörpert den Typ 5 besser. Descartes zog sich zurück, um in völliger Stille zu denken. Er lebte lange in den Niederlanden, wechselte häufig den Wohnort, um ungestört zu arbeiten, und veröffentlichte erst zögerlich. Der Soziale Subtype des Typs 5 sucht Wissen im Austausch mit intellektuellen Kreisen &ndash; aber auf seinen Bedingungen. Descartes korrespondierte ausgiebig mit den Gelehrten seiner Zeit, knüpfte Netzwerke des Denkens &ndash; immer mit sicherem Abstand zu körperlicher Nähe und emotionalem Anspruch."
+      nr: 5, name: "René Descartes", jahre: "1596–1650", subtyp: "Social Subtype",
+      text: "\"I think, therefore I am\" &ndash; no sentence embodies Type 5 better. Descartes withdrew in order to think in complete silence. He lived for years in the Netherlands, moved frequently to work undisturbed, and published only hesitantly. Type 5's Social subtype seeks knowledge through exchange with intellectual circles &ndash; but on his own terms. Descartes corresponded extensively with the scholars of his time, building networks of thought &ndash; always at a safe distance from physical closeness and emotional demands."
     },
     {
-      nr: "6a", name: "Immanuel Kant", jahre: "1724–1804", subtyp: "Phobischer Sozialer Subtype (Untertyp)",
-      text: "Kant lebte in strikter Ordnung: Er verließ Königsberg kaum je, sein Tagesablauf war so regelmäßig, dass Nachbarn die Uhr nach ihm stellen konnten. Der phobische Soziale Subtype des Typs 6 sucht Sicherheit durch Regeln, Systeme und verlässliche Strukturen. Kants Kategorischer Imperativ ist das philosophische Projekt eines Sechs: eine universelle Regel finden, der alle folgen können &ndash; eine Ethik, die Sicherheit schafft, weil sie keine Ausnahmen kennt. Sein Pflichtbegriff atmet die Angst des Sechsers vor dem Chaos, das entsteht, wenn Menschen nach Belieben handeln."
+      nr: "6a", name: "Immanuel Kant", jahre: "1724–1804", subtyp: "Phobic Social Subtype",
+      text: "Kant lived in strict order: he barely ever left Königsberg, and his daily routine was so regular that neighbors could set their clocks by him. Type 6's phobic Social subtype seeks security through rules, systems, and reliable structures. Kant's Categorical Imperative is the philosophical project of a Six: find a universal rule everyone can follow &ndash; an ethic that creates security because it knows no exceptions. His concept of duty breathes the Six's fear of the chaos that arises when people act as they please."
     },
     {
-      nr: "6b", name: "Platon", jahre: "427–347 v. Chr.", subtyp: "Kontraphobischer Sexueller Subtype (Untertyp)",
-      text: "Platon ist der kontraphobische Gegenentwurf zu Kant. Wo Kant absichert, greift Platon an. Der kontraphobische Subtype (Untertyp) des Typs 6 geht auf die Angst zu &ndash; er kämpft gegen sie, indem er sich ihr stellt. Platon entwarf die Philosophenherrschaft, einen Idealstaat mit klaren Hierarchien &ndash; ein Versuch, dem Chaos der athenischen Demokratie etwas Unerschütterliches entgegenzusetzen. Der Sexuelle Subtype zeigt sich in der Intensität seiner Bindungen: Sokrates war für Platon nicht nur Lehrer, sondern Lebensthema."
+      nr: "6b", name: "Plato", jahre: "427–347 BC", subtyp: "Counterphobic Sexual Subtype",
+      text: "Plato is the counterphobic counterpart to Kant. Where Kant hedges, Plato attacks. Type 6's counterphobic subtype moves toward fear &ndash; fighting it by confronting it head-on. Plato designed the rule of philosopher-kings, an ideal state with clear hierarchies &ndash; an attempt to set something unshakeable against the chaos of Athenian democracy. The Sexual subtype shows in the intensity of his bonds: Socrates was, for Plato, not merely a teacher but a life's theme."
     },
     {
-      nr: 7, name: "Epikur", jahre: "341–271 v. Chr.", subtyp: "Sozialer Subtype (Untertyp)",
-      text: "Epikur gilt als Philosoph der Lust &ndash; was ihn gründlich missverstanden hat. Er lehrte nicht Völlerei, sondern die Kunst, das Angenehme zu wählen und Schmerz zu meiden. Das ist das Sieben-Prinzip in Reinform: Freude als Orientierungspunkt, Schmerzmeidung als Lebenshaltung. Der Soziale Subtype (Untertyp) des Typs 7 sucht Genuss im Miteinander: Epikur gründete seinen berühmten Garten in Athen, lebte dort in Gemeinschaft mit Freunden und Schülern &ndash; eine Art Wohngemeinschaft des guten Lebens, wo intellektueller Austausch und gesellige Freude untrennbar waren."
+      nr: 7, name: "Epicurus", jahre: "341–271 BC", subtyp: "Social Subtype",
+      text: "Epicurus is regarded as the philosopher of pleasure &ndash; which has led to him being thoroughly misunderstood. He did not teach gluttony, but the art of choosing what is pleasant and avoiding pain. That is the Seven principle in its purest form: joy as a guiding point, pain avoidance as a way of life. Type 7's Social subtype seeks enjoyment together with others: Epicurus founded his famous Garden in Athens, living there in community with friends and students &ndash; a kind of shared household of the good life, where intellectual exchange and convivial joy were inseparable."
     },
     {
-      nr: 8, name: "Sokrates", jahre: "469–399 v. Chr.", subtyp: "Sozialer Subtype (Untertyp)",
-      text: "Sokrates provozierte. Er stellte Fragen, die Menschen in die Enge trieben, entlarvte Scheinsicherheiten und bestand darauf, dass Nicht-Wissen der Anfang aller Weisheit sei. Der Soziale Subtype (Untertyp) des Typs 8 kämpft für Gerechtigkeit im öffentlichen Raum &ndash; und nimmt dafür Konflikte in Kauf. Sokrates wurde angeklagt, zum Tode verurteilt, und lehnte die Flucht ab, die ihm seine Freunde anboten: Er starb lieber, als sein Lebenswerk zu verraten. Diese kompromisslose Stärke, die nicht um der Wirkung willen kämpft, sondern um der Sache willen, ist der Kern des Achters."
+      nr: 8, name: "Socrates", jahre: "469–399 BC", subtyp: "Social Subtype",
+      text: "Socrates provoked. He asked questions that cornered people, exposed false certainties, and insisted that not-knowing was the beginning of all wisdom. Type 8's Social subtype fights for justice in the public sphere &ndash; and accepts conflict as the price. Socrates was indicted, sentenced to death, and refused the escape his friends offered him: he preferred to die rather than betray his life's work. This uncompromising strength, which fights not for effect but for the cause itself, is the core of the Eight."
     },
     {
-      nr: 9, name: "David Hume", jahre: "1711–1776", subtyp: "Self-Preservationer Subtype (Untertyp)",
-      text: "David Hume war einer der einflussreichsten Denker der Aufklärung &ndash; und einer der umgänglichsten. Zeitgenossen beschrieben ihn als heiter, wohlwollend, ohne Bitterkeit. Er zweifelte an fast allem &ndash; an der Kausalität, an der Existenz des Selbst, an Gott &ndash; und blieb dabei seltsam unaufgeregt. Der Self-Preservatione Subtype (Untertyp) des Typs 9 sucht inneren Frieden und äußere Bequemlichkeit. Hume schrieb, um zu verstehen, nicht um zu streiten. Sein radikaler Skeptizismus ist das ruhige Staunen eines Neunzehners, der alle Sicherheiten ablegt &ndash; und dabei entspannter bleibt als die meisten, die an ihnen festhalten."
+      nr: 9, name: "David Hume", jahre: "1711–1776", subtyp: "Self-Preservation Subtype",
+      text: "David Hume was one of the most influential thinkers of the Enlightenment &ndash; and one of the most agreeable. Contemporaries described him as cheerful, benevolent, without bitterness. He doubted almost everything &ndash; causality, the existence of the self, God &ndash; and remained strangely unruffled throughout. Type 9's Self-Preservation subtype seeks inner peace and outer comfort. Hume wrote to understand, not to argue. His radical skepticism is the calm wonder of a Nine who lets go of all certainties &ndash; and stays more relaxed doing so than most who cling to them."
     },
   ];
 
@@ -37938,22 +38176,22 @@ function dreiLebenskraeftePage() {
 
 function sucheNachLiebePage() {
   const typen = [
-    { nr: 1, ersatz: "Perfektion & Richtigkeit statt Liebe", halt: "Halt durch Selbst- und Fremdverbesserung.", text: "Typ 1 glaubt, erst wenn alles richtig ist &ndash; er selbst, die Verhältnisse, die anderen &ndash; darf Liebe da sein. So wird die Suche nach Liebe zur Suche nach Errorlosigkeit. Doch Liebe wartet nicht auf Perfektion." },
-    { nr: 2, ersatz: "Bedingte Liebe & Geben statt Liebe", halt: "Halt durch Manipulation und Verführung der Umgebung.", text: "Typ 2 gibt, damit er geliebt wird &ndash; und nennt es Liebe. Doch Geben als Strategie ist noch nicht Liebe. Solange er sich selbst verbiegt, um gebraucht zu werden, bleibt die wahre Zuwendung aus." },
-    { nr: 3, ersatz: "Erfolg & Leistung statt Liebe", halt: "Halt durch Selbst- und Fremdtäuschung, es allein zu können.", text: "Typ 3 arbeitet, leistet, erreicht &ndash; und hofft, dass das zählt. Er täuscht andere über sein wahres Gesicht, manchmal auch sich selbst. Doch Liebe ist keine Auszeichnung für Leistung." },
-    { nr: 4, ersatz: "Individualität & Kreativität statt Liebe", halt: "Halt durch Leugnung der Trennung vom Sein sowie Selbst- und Fremdkontrolle.", text: "Typ 4 sehnt sich intensiver als die meisten anderen nach Liebe &ndash; und leidet tiefer an ihrem Fehlen. Die Trennung vom Sein, von dem, was ihn ursprünglich trägt, wird geleugnet. Kreativität und Einzigartigkeit werden zum Ersatz für die Verbindung, die er wirklich sucht." },
-    { nr: 5, ersatz: "Wissen & Beobachtung statt Liebe", halt: "Halt durch Nichtfühlen, Rückzug, Isolation und Vermeidung.", text: "Typ 5 hält Abstand &ndash; auch von der Liebe. Wissen schützt, Beobachten hält sicher. Was er fühlen könnte, hält er auf Distanz. Die Wärme von Verbindung erscheint als Bedrohung der inneren Autonomie." },
-    { nr: 6, ersatz: "Sicherheit & Loyalität statt Liebe", halt: "Halt durch Angst, Misstrauen sowie defensives und paranoides Verhalten.", text: "Typ 6 sucht in Liebe vor allem Sicherheit. Doch Angst und Misstrauen vergiften, was sie schützen sollen. Er prüft, zweifelt, sichert ab &ndash; und merkt nicht, dass echte Liebe kein Sicherheitsnetz braucht." },
-    { nr: 7, ersatz: "Spaß & Freude statt Liebe", halt: "Halt durch Planung, alles wieder gut zu machen (Rückkehr ins verlorene Paradies).", text: "Typ 7 flieht vor dem Schmerz der Sehnsucht in Genuss und Ablenkung. Freude soll ersetzen, was fehlt. Die Idee, dass man alles wieder gut machen kann, hält ihn in Bewegung &ndash; und verhindert die Stille, in der Liebe wachsen könnte." },
-    { nr: 8, ersatz: "Macht & Kontrolle statt Liebe", halt: "Halt durch Zorn, Kampf, Kontrolle, Gerechtigkeit und Rache.", text: "Typ 8 hat gelernt: Wer sich zeigt, wird verletzt. Also zeigt er Stärke. Macht und Kontrolle sichern ihn ab. Doch Liebe braucht Verletzlichkeit &ndash; genau das, was er am stärksten schützt." },
-    { nr: 9, ersatz: "Harmonie & Selbstvergessenheit statt Liebe", halt: "Halt durch Glätten, so als wäre alles gut, leben auf mechanische Weise.", text: "Typ 9 hält den Frieden &ndash; auf Kosten von sich selbst. Er gleicht aus, verdrängt Spannungen, lebt auf Autopilot. Was wie Liebe aussieht, ist oft nur das Fehlen von Konflikt. Echte Liebe würde ihn aufwecken &ndash; und das ist das, wovor er sich fürchtet." },
+    { nr: 1, ersatz: "Perfection & correctness instead of love", halt: "Held together by self- and other-improvement.", text: "Type 1 believes that love may only exist once everything is right &ndash; themselves, circumstances, others. So the search for love becomes a search for flawlessness. But love does not wait for perfection." },
+    { nr: 2, ersatz: "Conditional love & giving instead of love", halt: "Held together by manipulating and charming their surroundings.", text: "Type 2 gives so that they will be loved &ndash; and calls it love. But giving as a strategy is not yet love. As long as they twist themselves into shape to be needed, true affection never truly arrives." },
+    { nr: 3, ersatz: "Success & achievement instead of love", halt: "Held together by deceiving themselves and others into believing they can manage alone.", text: "Type 3 works, performs, achieves &ndash; and hopes that it counts. They deceive others about their true face, sometimes themselves too. But love is not an award for performance." },
+    { nr: 4, ersatz: "Individuality & creativity instead of love", halt: "Held together by denying the separation from being, and by controlling self and others.", text: "Type 4 longs for love more intensely than most others &ndash; and suffers more deeply from its absence. The separation from being, from what originally sustained them, is denied. Creativity and uniqueness become a substitute for the connection they truly seek." },
+    { nr: 5, ersatz: "Knowledge & observation instead of love", halt: "Held together by not feeling, by withdrawal, isolation, and avoidance.", text: "Type 5 keeps their distance &ndash; even from love. Knowledge protects, observing keeps them safe. What they might feel, they keep at arm's length. The warmth of connection appears as a threat to their inner autonomy." },
+    { nr: 6, ersatz: "Security & loyalty instead of love", halt: "Held together by fear, mistrust, and defensive, paranoid behavior.", text: "Type 6 seeks, above all, security in love. But fear and mistrust poison the very thing they are meant to protect. They test, doubt, hedge their bets &ndash; and don't notice that real love needs no safety net." },
+    { nr: 7, ersatz: "Fun & joy instead of love", halt: "Held together by planning to make everything right again (the return to paradise lost).", text: "Type 7 flees the pain of longing into pleasure and distraction. Joy is meant to replace what's missing. The idea that everything can still be made right keeps them in motion &ndash; and prevents the stillness in which love could grow." },
+    { nr: 8, ersatz: "Power & control instead of love", halt: "Held together by anger, fighting, control, justice, and revenge.", text: "Type 8 has learned: whoever shows themselves gets hurt. So they show strength instead. Power and control secure them. But love requires vulnerability &ndash; exactly what they protect most fiercely." },
+    { nr: 9, ersatz: "Harmony & self-forgetting instead of love", halt: "Held together by smoothing things over, acting as if all is well, living on autopilot.", text: "Type 9 keeps the peace &ndash; at their own expense. They balance things out, suppress tension, live on autopilot. What looks like love is often just the absence of conflict. Real love would wake them up &ndash; and that is exactly what they fear." },
   ];
 
   return shell(`
     ${pageHeader("suche-nach-liebe")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Relationships &middot; Development</p>
-      <h1 class="section-title">Die Search nach der wahren Liebe</h1>
+      <h1 class="section-title">The Search for True Love</h1>
       <p class="psycho-intro">All nine types seek love. But each seeks it in their own way &ndash; and each has developed their own way of standing in their own way.</p>
 
       <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1.25rem 0;">That sounds paradoxical, but it isn't. Every Enneagram type experienced early in life that love &ndash; affection, being seen, connection &ndash; seemed attached to certain conditions. And so they developed a strategy: replacing the original with something achievable. Perfection instead of love. Achievement instead of love. Control instead of love.</p>
@@ -38933,15 +39171,15 @@ function haikuDer9TypenPage() {
 
 function rumiZitatePage() {
   const zitate = [
-    { nr: 1, zitat: "Jenseits von richtig und falsch gibt es einen Ort. Hier können wir einander begegnen.", erklaerung: "Typ 1 lebt in einer Welt klarer Unterscheidungen: richtig oder falsch, gut oder schlecht. Rumi zeigt den Ausweg: Es gibt einen Raum jenseits dieser Urteile. Genau dort beginnt die Heilung des Reformers &ndash; wenn er aufhört, alles zu bewerten, und stattdessen einfach begegnet." },
-    { nr: 2, zitat: "Du fragst nach dem Geliebten &ndash; lauf vor dir selbst nicht davon.", erklaerung: "Typ 2 sucht Liebe und Anerkennung nach außen &ndash; im Geben, im Helfen, im Gebrauchtwerden. Rumi dreht den Blick um: Die Suche führt nicht zu anderen, sondern zurück zu sich selbst. Das Eigene wahrzunehmen, statt vor ihm zu fliehen, ist das Lernfeld des Helfers." },
-    { nr: 3, zitat: "Zeige dich, wie du bist &ndash; oder sei, wie du dich zeigst.", erklaerung: "Typ 3 ist Meister der Selbstdarstellung &ndash; er zeigt, was ankommt, nicht unbedingt, was er ist. Rumis Satz stellt die entscheidende Frage: Stimmen Außen und Innen überein? Entweder zeige dich wirklich &ndash; oder lebe, was du zeigst. Echtheit beginnt dort, wo beides dasselbe ist." },
-    { nr: 4, zitat: "Die Wunde ist der Ort, an dem das Licht in dich hinein kommt.", erklaerung: "Kein Zitat trifft Typ 4 so tief wie dieses. Der Individualist leidet, er trägt seine Wunden sichtbar &ndash; und genau darin liegt seine Größe. Rumi sagt: Die Wunde ist kein Makel. Sie ist die Öffnung. Wo Schmerz ist, kann auch Licht eintreten." },
-    { nr: 5, zitat: "Denke weniger. Fühle mehr.", erklaerung: "Typ 5 lebt im Kopf. Er beobachtet, analysiert, zieht sich zurück &ndash; und hält Gefühle auf Abstand. Rumis Aufforderung ist direkt und klar: Das Denken hat seinen Platz, aber das Fühlen ist nicht sein Feind. Für den Beobachter ist das eine der größten Einladungen zur Entwicklung." },
-    { nr: 6, zitat: "Vergiss Sicherheit. Lebe, wo du fürchtest zu leben.", erklaerung: "Typ 6 sucht Sicherheit, plant für das Schlimmste, traut dem Guten nicht ganz. Rumi zeigt den Gegenpol mit aller Direktheit: Gerade dort, wo die Angst sitzt, ist das Leben. Nicht trotz der Unsicherheit, sondern mitten in ihr &ndash; dort wartet die Freiheit des Loyalen." },
-    { nr: 7, zitat: "Schätze sowohl das Gute als auch das Schlechte in deinem Leben.", erklaerung: "Typ 7 hält das Positive fest und meidet das Schwere. Er sammelt Erfahrungen, Ideen, Möglichkeiten &ndash; und flieht vor dem Schmerz. Rumi sagt: Beides gehört dazu. Erst wer das Schwere würdigt, kommt ganz an. Für den Enthusiasten ist das die Einladung zur Tiefe." },
-    { nr: 8, zitat: "Du änderst deine Welt, indem du dich selbst änderst.", erklaerung: "Typ 8 will die Welt gestalten, Einfluss nehmen, Verhältnisse klären. Rumi kehrt die Richtung um: Die Veränderung beginnt nicht draußen, sondern innen. Nicht die Welt muss sich beugen &ndash; der Herausforderer muss sich zeigen. Das ist vielleicht die anspruchsvollste Zumutung für diesen Typ." },
-    { nr: 9, zitat: "Nur am Leben zu sein ist nicht genug.", erklaerung: "Typ 9 strebt nach Harmonie und Frieden &ndash; und vergisst dabei oft sich selbst. Er lässt es geschehen, passt sich an, tritt zurück. Rumis Satz weckt: Existenz allein reicht nicht. Das Leben will gelebt, nicht nur ertragen werden. Der Friedvolle ist eingeladen, sich zu zeigen &ndash; mit dem eigenen Willen, der eigenen Stimme, dem eigenen Platz." },
+    { nr: 1, zitat: "Out beyond ideas of wrongdoing and rightdoing, there is a field. I'll meet you there.", erklaerung: "Type 1 lives in a world of clear distinctions: right or wrong, good or bad. Rumi points to a way out: there is a space beyond these judgments. That is exactly where the Reformer's healing begins &ndash; when they stop evaluating everything and simply meet what is." },
+    { nr: 2, zitat: "You ask about the beloved &ndash; don't run away from yourself.", erklaerung: "Type 2 seeks love and recognition outwardly &ndash; in giving, in helping, in being needed. Rumi turns the gaze around: the search doesn't lead to others, but back to oneself. Perceiving one's own being, instead of fleeing from it, is the Helper's field of learning." },
+    { nr: 3, zitat: "Show yourself as you are &ndash; or be as you show yourself.", erklaerung: "Type 3 is a master of self-presentation &ndash; showing what lands well, not necessarily what they truly are. Rumi's line asks the decisive question: do the outside and the inside match? Either truly show yourself &ndash; or live what you show. Authenticity begins where both become the same." },
+    { nr: 4, zitat: "The wound is the place where the light enters you.", erklaerung: "No quote captures Type 4 as deeply as this one. The Individualist suffers, carries their wounds visibly &ndash; and precisely there lies their greatness. Rumi says: the wound is not a flaw. It is the opening. Where there is pain, light can also enter." },
+    { nr: 5, zitat: "Think less. Feel more.", erklaerung: "Type 5 lives in the head. They observe, analyze, withdraw &ndash; and keep feelings at a distance. Rumi's call is direct and clear: thinking has its place, but feeling is not its enemy. For the Observer, this is one of the greatest invitations to growth." },
+    { nr: 6, zitat: "Forget safety. Live where you fear to live.", erklaerung: "Type 6 seeks security, plans for the worst, doesn't quite trust the good. Rumi shows the counter-pole with total directness: life is exactly where the fear sits. Not despite the uncertainty, but right in the middle of it &ndash; that's where the Loyalist's freedom awaits." },
+    { nr: 7, zitat: "Appreciate both the good and the bad in your life.", erklaerung: "Type 7 clings to the positive and avoids the heavy. They collect experiences, ideas, possibilities &ndash; and flee from pain. Rumi says: both belong. Only those who honor the heavy truly arrive. For the Enthusiast, this is an invitation into depth." },
+    { nr: 8, zitat: "You change your world by changing yourself.", erklaerung: "Type 8 wants to shape the world, exert influence, set things straight. Rumi reverses the direction: change doesn't begin out there, but within. It's not the world that must bend &ndash; the Challenger must show themselves. That may be the most demanding request for this type." },
+    { nr: 9, zitat: "Just being alive is not enough.", erklaerung: "Type 9 strives for harmony and peace &ndash; and in doing so often forgets themselves. They let things happen, adapt, step back. Rumi's line awakens: mere existence is not enough. Life wants to be lived, not just endured. The Peaceful One is invited to show themselves &ndash; with their own will, their own voice, their own place." },
   ];
 
   return shell(`
@@ -40258,6 +40496,21 @@ function aufmerksamkeitsfokusPage() {
         <img src="../assets/schaubilder/aufmerksamkeitsfokus/aufmerksamkeitsfokus.jpg"
              alt="Aufmerksamkeitsfokus und Blindheit der 9 Enneagrammtypen"
              class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Due to their mostly unconscious, specific perceptual pattern, the 9 Enneagram types direct their focus of attention toward certain aspects (traits, situations, relationships) of life. These aspects matter so much to each type that they inevitably neglect others — which can lead to a more or less limited perception, a blind spot.</p>
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:var(--copper);">Type 1 (Principle-oriented):</span> Focus on right &amp; wrong &ndash; blind to emotional undertones.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 2 (Love-oriented):</span> Focus on recognition &ndash; blind to the dignity of others.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 3 (Achievement-oriented):</span> Focus on accomplishments &ndash; blind to the qualities of others.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 4 (Self-oriented):</span> Focus on the good in what's missing &ndash; blind to the good in what's present.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 5 (Knowledge-oriented):</span> Focus on others' demands &ndash; blind to others' needs.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 6 (Security-oriented):</span> Focus on others' intentions &ndash; blind to others' motives (the motive being the deeper driver behind an intention).</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 7 (Pleasure-oriented):</span> Focus on an ideal world &ndash; blind to necessities.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 8 (Power-oriented):</span> Focus on control &ndash; blind to the freedom of others.</div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 9 (Harmony-oriented):</span> Focus on complexity &ndash; blind to what's essential.</div>
+        </div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "Where is your focus of attention &ndash; and what do you fail to see in the process? The code of your personality.", "Der Code deiner Persönlichkeit")}
       ${relatedLinks([
