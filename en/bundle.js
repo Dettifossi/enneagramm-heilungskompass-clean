@@ -8,7 +8,7 @@ import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
 import { registerEntries, registerEntriesEN } from "../data/register.js?v=32";
-import { TIERENTSPRECHUNGEN } from "../data/tierentsprechungen.js?v=1";
+import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=9";
 
@@ -13841,7 +13841,7 @@ function tierentsprechungenPage() {
       border-radius:10px;padding:.9rem 1rem;
       font-size:.82rem;line-height:1.5;
     ">
-      <div style="font-weight:800;font-size:1rem;margin-bottom:.6rem;letter-spacing:.04em;border-bottom:1px solid rgba(255,255,255,.25);padding-bottom:.4rem;">Typ ${t.typ}</div>
+      <div style="font-weight:800;font-size:1rem;margin-bottom:.6rem;letter-spacing:.04em;border-bottom:1px solid rgba(255,255,255,.25);padding-bottom:.4rem;">Type ${t.typ}</div>
       ${rows}
     </div>`;
   }).join("");
@@ -13858,7 +13858,7 @@ function tierentsprechungenPage() {
       <h3 style="font-size:.95rem;font-weight:700;margin:0 0 .3rem;">${b.title}</h3>
       <p style="font-size:.78rem;color:var(--muted);margin:0 0 .7rem;">${b.themes.join(" · ")}</p>
       <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
-        <a href="${b.link}" target="_blank" rel="noopener" style="font-size:.82rem;color:var(--copper);font-weight:600;">Im Verlag ansehen →</a>
+        <a href="${b.link}" target="_blank" rel="noopener" style="font-size:.82rem;color:var(--copper);font-weight:600;">View at Publisher →</a>
         ${b.bodUrl ? `<a href="${b.bodUrl}" target="_blank" rel="noopener" style="font-size:.82rem;color:var(--muted);">Buy at BoD →</a>` : ""}
       </div>
     </article>`;
@@ -13868,7 +13868,7 @@ function tierentsprechungenPage() {
     ${pageHeader("tierentsprechungen")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Animal Correspondences</p>
-      <h1 class="section-title">Tierentsprechungen der 27 Subtypes</h1>
+      <h1 class="section-title">Animal Correspondences of the 27 Subtypes</h1>
       <p class="psycho-intro">Characteristic animals are assigned to each of the 27 subtypes, whose nature, behavior, and survival strategies mirror the respective subtype. The image shows the visual overview; the table below systematically lists all correspondences by type and instinct (SP &middot; SO &middot; SX).</p>
       <img
         src="../assets/tierentsprechungen-kreis.jpg"
