@@ -23925,6 +23925,7 @@ const registerEntries = [
   { term: "Marie-Agnes Strack-Zimmermann", route: "beruehmte-marie-agnes-strack-zimmermann", description: "Portrait: SX1w9 \u00b7 Sexueller Typ 1 \u00b7 FDP-Politikerin, Verteidigungsexpertin" },
   { term: "Marilyn Monroe",                route: "beruehmte-marilyn-monroe",               description: "Portrait: SX3w4 \u00b7 Sexueller Typ 3 \u00b7 Schauspielerin, Filmikone" },
   { term: "Buddha",                        route: "beruehmte-buddha",                      description: "Portrait: SX5w4 \u00b7 Sexueller Typ 5 \u00b7 Religionsstifter, Begr\u00fcnder des Buddhismus" },
+  { term: "Mohammed",                      route: "beruehmte-mohammed",                    description: "Portrait: SO8w9 \u00b7 Sozialer Typ 8 \u00b7 Religionsstifter, Begr\u00fcnder des Islam" },
   { term: "Mark Zuckerberg",               route: "beruehmte-mark-zuckerberg",             description: "Portrait: SX5w6 \u00b7 Sexueller Typ 5 \u00b7 Meta-Gr\u00fcnder, Wissen als Macht" },
   { term: "Matthias Schweigh\u00f6fer",      route: "beruehmte-matthias-schweighoefer",      description: "Portrait: SE2w3 \u00b7 Selbsterhaltender Typ 2 \u00b7 Schauspieler, Regisseur" },
   { term: "Meg Ryan",                      route: "beruehmte-meg-ryan",                    description: "Portrait: SX3w4 \u00b7 Sexueller Typ 3 \u00b7 Schauspielerin, Romantik-Ikone" },
@@ -24194,6 +24195,8 @@ const registerEntriesEN = [
   { term: "Ken Follett", route: "beruehmte-ken-follett", description: "Portrait: SE1w9 \u00b7 Self-Preservation Type 1 \u00b7 bestselling author of historical novels" },
   { term: "Marie-Agnes Strack-Zimmermann", route: "beruehmte-marie-agnes-strack-zimmermann", description: "Portrait: SX1w9 \u00b7 Sexual Type 1 \u00b7 FDP-Politician, Defense policy expert" },
   { term: "Marilyn Monroe", route: "beruehmte-marilyn-monroe", description: "Portrait: SX3w4 \u00b7 Sexual Type 3 \u00b7 Actress, film icon" },
+  { term: "Buddha", route: "beruehmte-buddha", description: "Portrait: SX5w4 \u00b7 Sexual Type 5 \u00b7 Religious founder, founder of Buddhism" },
+  { term: "Muhammad", route: "beruehmte-mohammed", description: "Portrait: SO8w9 \u00b7 Social Type 8 \u00b7 Religious founder, founder of Islam" },
   { term: "Mark Zuckerberg", route: "beruehmte-mark-zuckerberg", description: "Portrait: SX5w6 \u00b7 Sexual Type 5 \u00b7 Meta founder, knowledge as power" },
   { term: "Matthias Schweigh\u00f6fer", route: "beruehmte-matthias-schweighoefer", description: "Portrait: SE2w3 \u00b7 Self-Preservation Type 2 \u00b7 Actor, Director" },
   { term: "Meg Ryan", route: "beruehmte-meg-ryan", description: "Portrait: SX3w4 \u00b7 Sexual Type 3 \u00b7 Actress, Romantic icon" },
@@ -31545,6 +31548,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jamaica Kincaid \u2013 Soziale Typ 8",
     teaser:"SO8w9 \u00b7 geb. 1949 in Antigua. Schriftstellerin, Essayistin, Harvard-Professorin. Annie John, A Small Place, Lucy. Der L\u00f6we, der schreibt \u2013 sch\u00e4rfer als jede Klage, pr\u00e4ziser als jede Anklage.",
     tags:["Literatur"], gender:"f"},
+  { route:"beruehmte-mohammed", name:"Mohammed ibn Abdullah", added:"2026-08-07", subtyp:"SO8w9",
+    heading:"Mohammed ibn Abdullah \u2013 Sozialer Typ 8",
+    teaser:"SO8w9 \u00b7 ca. 570\u2013632 n. Chr. Religionsstifter, Begr\u00fcnder des Islam. Vom Waisenkind zum Propheten, Feldherrn und Staatsmann, der die St\u00e4mme Arabiens zu einer Gemeinschaft einte. Der L\u00f6we, der Recht und Schutz f\u00fcr die Schwachen erk\u00e4mpfte. Aus Respekt vor dem religi\u00f6sen Bilderverbot ohne Gesichtsdarstellung \u2013 Symbolentsprechung: Kalligrafie seines Namens.",
+    tags:["Religion","Geschichte"], gender:"m"},
   { route:"beruehmte-adele-neuhauser", name:"Adele Neuhauser", added:"2026-07-22", subtyp:"SX8w7",
     heading:"Adele Neuhauser \u2013 Sexueller Typ 8",
     teaser:"SX8w7 \u00b7 geb. 1959 in Athen. \u00d6sterreichische Schauspielerin, Bibi Fellner im Tatort, mehrfache \u00d6sterreichischer Filmpreis-Tr\u00e4gerin. Begann als T\u00e4nzerin. Das Krokodil, das tanzt \u2013 pr\u00e4sent bis auf den Grund.",
@@ -49794,6 +49801,72 @@ function jesusChristusPortraitPage() {
   `);
 }
 
+
+function mohammedPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mohammed-portrait.jpg" alt="Kalligrafie des Namens Mohammed \u2013 Symbolbild anstelle eines Portr\u00e4ts" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mohammed ibn Abdullah</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Sozialer Typ 8 mit Neunerfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Religionsstifter, ca. 570&ndash;632 n. Chr. &ndash; Begr\u00fcnder des Islam &ndash; Symbolentsprechung: Kalligrafie seines Namens</p>
+        <p class="krim-portrait-subtitle" style="font-style:italic;">Aus Respekt vor dem im Islam verbreiteten Bilderverbot religi\u00f6ser Figuren zeigt dieses Portr\u00e4t bewusst kein Gesicht, sondern die kalligrafische Schreibung seines Namens als zentrales Symbol.</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der L\u00f6we</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>L\u00f6we</strong> ist das Tier der sozialen Acht &ndash; ein Tier, das seine St\u00e4rke nicht zur Schau stellt, sondern zum Schutz des Rudels einsetzt. Es beansprucht keine Beute f\u00fcr sich allein, sondern verteidigt das Territorium, in dem alle sicher leben k\u00f6nnen. Kein Zufallstier f\u00fcr einen Mann, der als Waisenkind im Mekka des 6. Jahrhunderts aufwuchs &ndash; einer Gesellschaft, in der Waisen, Witwen und Sklaven kaum Rechte hatten &ndash; und der Zeit seines Lebens genau f\u00fcr diese Schw\u00e4chsten eintrat.</p>
+          <p class="vb-intro">Mohammed ibn Abdullah, geboren um 570 n. Chr. in Mekka, verlor fr\u00fch beide Eltern und wuchs bei seinem Gro\u00dfvater und sp\u00e4ter seinem Onkel auf. Als Karawanenf\u00fchrer und Kaufmann erwarb er sich den Ruf eines au\u00dfergew\u00f6hnlich verl\u00e4sslichen, ehrlichen Mannes &ndash; noch bevor er mit etwa 40 Jahren nach eigener \u00dcberlieferung die ersten Offenbarungen erhielt, die zum Koran wurden. Der Beginn eines Weges, der aus einem Einzelnen den Gr\u00fcnder einer Weltreligion machte, die heute rund zwei Milliarden Menschen pr\u00e4gt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: St\u00e4rke im Dienst der Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre nat\u00fcrliche Durchsetzungskraft nicht f\u00fcr private Macht ein, sondern f\u00fcr den Aufbau und Schutz einer Gemeinschaft. Wo die selbsterhaltende Acht die eigene Unabh\u00e4ngigkeit sichert und die sexuelle Acht die eine intensive Beziehung sucht, richtet die soziale Acht ihre Kraft auf das gro\u00dfe Ganze: Sie baut Strukturen, schlie\u00dft B\u00fcndnisse, stiftet Ordnung &ndash; und ist bereit, daf\u00fcr Widerstand in Kauf zu nehmen.</p>
+          <p class="vb-intro">Genau das zeigt sich im Wirken Mohammeds nach der Auswanderung von Mekka nach Medina (622 n. Chr., der Hidschra): Er einigte dort verfeindete St\u00e4mme und Sippen &ndash; darunter auch j\u00fcdische Gemeinschaften &ndash; in einem gemeinsamen Vertragswerk, der sogenannten Verfassung von Medina. Kein Diktat von oben, sondern ein ausgehandeltes Regelwerk \u00fcber gegenseitigen Schutz, Rechte und Pflichten &ndash; ein fr\u00fches Beispiel f\u00fcr die soziale Acht, die Macht in Struktur \u00fcbersetzt, statt sie nur zu behaupten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\u00fcgel: Geduld statt Eskalation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\u00fcgel (w9)</strong> verleiht der sozialen Acht eine strategische Geduld, die eine reine Acht selten zeigt. Deutlich wird das im Vertrag von Hudaybiyya (628 n. Chr.): Mohammed schloss mit den Mekkanern einen Waffenstillstand, der aus Sicht vieler seiner eigenen Anh\u00e4nger wie ein Nachgeben wirkte &ndash; er verzichtete auf die sofortige Pilgerfahrt nach Mekka und akzeptierte Bedingungen, die kurzfristig nachteilig erschienen. R\u00fcckblickend erwies sich genau dieser Verzicht als kluger Schachzug: Der Waffenstillstand schuf einen Rahmen, in dem sich der Islam in den folgenden zwei Jahren weit st\u00e4rker verbreiten konnte als durch milit\u00e4rische Konfrontation.</p>
+          <p class="vb-intro">Diese F\u00e4higkeit, einen kurzfristigen Nachteil f\u00fcr einen langfristigen, stabileren Frieden in Kauf zu nehmen, ist typisch f\u00fcr den Neunerfl\u00fcgel: Er erdet die Durchsetzungskraft der Acht, macht sie ausdauernd statt impulsiv. Nach der schlie\u00dflich unblutigen Einnahme Mekkas 630 n. Chr. erkl\u00e4rte Mohammed eine allgemeine Amnestie f\u00fcr seine fr\u00fcheren Gegner &ndash; keine Rache, sondern Konsolidierung. Auch das die Handschrift der SO8w9: Sieg wird genutzt, um Frieden zu stiften, nicht um alte Rechnungen zu begleichen. Gerade dieser Verzicht auf Rache ist bezeichnend: Im Ego der Acht liegt die Versuchung, Vergeltung als Best\u00e4tigung der eigenen St\u00e4rke zu suchen. Dass die soziale Acht sich als Kontratyp der Acht bewusst gegen diesen Impuls entscheidet und die eigene Genugtuung der Gemeinschaft unterordnet, ist selbst Ausdruck des Kontratyp-Prinzips: Sie k\u00e4mpft innerlich gegen das eigene, sonst so bestimmende Achterprinzip an, anstatt ihm nachzugeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Recht und Ordnung: Die Acht als Gesetzgeber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein zentrales Merkmal der Acht ist der Wille, klare, verbindliche Regeln zu schaffen, die f\u00fcr alle gelten &ndash; unabh\u00e4ngig von Herkunft oder Status. Die im Koran und in der Sunna niedergelegten Regelungen zu Erbrecht, Eigentum, Vertragswesen und dem Schutz von Waisen und Witwen ver\u00e4nderten die Rechtsstellung der Schw\u00e4chsten in der arabischen Gesellschaft grundlegend. Frauen erhielten erstmals einen eigenst\u00e4ndigen, festgeschriebenen Erbanspruch; Sklaverei wurde zwar nicht abgeschafft, aber die Freilassung von Sklaven ausdr\u00fccklich als verdienstvolle Handlung verankert.</p>
+          <p class="vb-intro">Das ist die konstruktive Seite der Acht: Macht wird genutzt, um Schutzstrukturen f\u00fcr die zu schaffen, die sie selbst nicht durchsetzen k\u00f6nnen &ndash; das Kennzeichen einer gesunden Acht. Zugleich ist genau das Ausdruck des Kontratyp-Prinzips der sozialen Acht: Sie k\u00e4mpft innerlich gegen den rohen, selbstbezogenen Machtimpuls der Acht an und lenkt ihre Durchsetzungskraft stattdessen bewusst in den Dienst der Gemeinschaft um, statt sie f\u00fcr sich selbst zu beanspruchen. Gleichzeitig geh\u00f6rt zur historischen Ehrlichkeit, dass Mohammeds Wirken auch milit\u00e4rische Konflikte und Kriegsz\u00fcge einschloss &ndash; eine Seite, die in der Geschichtsschreibung ausf\u00fchrlich diskutiert wird und hier nicht ausgeblendet werden soll. Aus Enneagramm-Sicht zeigt sich darin weniger Prinzipienreiterei, das w\u00e4re eher der Ausdruck eines Typs 1, sondern die Konfliktbereitschaft und Machtorientierung, die die Leidenschaft der Acht kennzeichnet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Leidenschaft: Machtstreben im Dienst der Sache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Acht hei\u00dft <strong>Wollust</strong> im urspr\u00fcnglichen Sinn von Naranjo &ndash; ein \u00dcberma\u00df an Intensit\u00e4t und Kontrolle, das sich in Machtstreben, Grenz\u00fcberschreitung und dem Bed\u00fcrfnis \u00e4u\u00dfert, die eigene St\u00e4rke unwiderlegbar unter Beweis zu stellen. Bei der sozialen Acht bindet sich dieses Streben an eine Sache, die gr\u00f6\u00dfer ist als die eigene Person &ndash; anders als die selbsterhaltende Acht, die ihre Intensit\u00e4t auf die eigene Unabh\u00e4ngigkeit richtet, oder die sexuelle Acht, die die eine besondere Beziehung sucht, funktioniert die soziale Acht als Kontratyp: Sie bindet ihre Kraft bewusst an ein \u00fcberpers\u00f6nliches Ziel, statt sie unmittelbar f\u00fcr sich zu beanspruchen. Mohammed verstand sich der \u00dcberlieferung nach nicht als Herrscher im weltlichen Sinn, sondern als Diener einer Botschaft, die er als g\u00f6ttlichen Auftrag begriff.</p>
+          <p class="vb-intro">Diese Verschmelzung von pers\u00f6nlicher Durchsetzungskraft und einem als \u00fcberpers\u00f6nlich verstandenen Auftrag ist eine der komplexesten Auspr\u00e4gungen der Acht: Die Grenze zwischen \u00dcberzeugung und Machtanspruch, zwischen Schutz der Gemeinschaft und Durchsetzung gegen Widerstand, verl\u00e4uft hier nicht immer eindeutig &ndash; und wird bis heute kontrovers diskutiert, sowohl innerhalb als auch au\u00dferhalb der islamischen Welt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verm\u00e4chtnis: Eine Gemeinschaft, die den Gr\u00fcnder \u00fcberdauert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Mohammed 632 n. Chr. in Medina starb, hatte er in gut zwei Jahrzehnten aus zersplitterten, oft verfeindeten arabischen St\u00e4mmen eine geeinte Gemeinschaft mit eigenem Rechtssystem, eigener Schrift und einer bis heute bestehenden Weltreligion geschaffen. Kein K\u00f6nigreich im klassischen Sinn, das an eine Dynastie \u00fcberging, sondern eine Ordnung, die er bewusst nicht an eine einzelne Nachfolgerfamilie band &ndash; die Frage der Nachfolge (Kalifat) sollte die islamische Welt in den folgenden Jahrhunderten immer wieder neu besch\u00e4ftigen.</p>
+          <p class="vb-intro">Der L\u00f6we, der nicht f\u00fcr sich selbst Territorium beanspruchte, sondern eines errichtete, in dem eine Gemeinschaft \u00fcber seinen eigenen Tod hinaus bestehen konnte &ndash; das ist die bleibende Signatur der sozialen Acht mit Neunerfl\u00fcgel: St\u00e4rke, die nicht in Eroberung endet, sondern in Struktur, die Bestand hat.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so8", label:"SO8 \u2013 Der L\u00f6we: Subtyp-Profil"},
+        {route:"beruehmte-karl-marx", label:"Portr\u00e4t: Karl Marx (SO8w9)"},
+        {route:"beruehmte-bud-spencer", label:"Portr\u00e4t: Bud Spencer (SO8w9)"},
+      ])}
+    </div>
+  `);
+}
 
 function buddhaPortraitPage() {
   return shell(`
@@ -78539,6 +78612,7 @@ function render() {
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
+      "beruehmte-mohammed": mohammedPortraitPage,
       "beruehmte-buddha": buddhaPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,

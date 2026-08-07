@@ -662,6 +662,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jamaica Kincaid – Social Type 8",
     teaser:"SO8w9 · born 1949 in Antigua. Writer, essayist, Harvard professor. Annie John, A Small Place, Lucy. The lion who writes - sharper than any complaint, more precise than any accusation.",
     tags:["Literature"], gender:"f"},
+  { route:"beruehmte-mohammed", name:"Muhammad ibn Abdullah", added:"2026-08-07", subtyp:"SO8w9",
+    heading:"Muhammad ibn Abdullah – Social Type 8",
+    teaser:"SO8w9 · c. 570–632 CE. Religious founder, founder of Islam. From orphan to prophet, statesman and military leader who united the tribes of Arabia into one community. The lion who fought for justice and protection of the weak. Out of respect for the religious prohibition on depicting him, shown without a face – symbolic correspondence: calligraphy of his name.",
+    tags:["Religion","History"]},
   { route:"beruehmte-james-levine", name:"James Levine", added:"2026-07-22", subtyp:"SE9w1",
     heading:"James Levine – Self-Preservation Type 9",
     teaser:"SE9w1 · 1943–2021. Conductor, music director of the Metropolitan Opera New York for 40 years. The elephant that inhabited the house – complete absorption, long breath, and a shadow that forever divides the image.",
@@ -16560,6 +16564,72 @@ function hundertwasserPortraitPage() {
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-iga-swiatek", label:"Portrait: Iga \u015awi\u0105tek (SX9w1)"},
         {route:"architektur-raumgestaltung-der-9-typen", label:"Chart: Architecture & Interior Design of the 9 Types"},
+      ])}
+    </div>
+  `);
+}
+
+function mohammedPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-mohammed-portrait.jpg" alt="Calligraphy of the name Muhammad – symbolic image in place of a portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Muhammad ibn Abdullah</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Social Type 8 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Religious founder, c. 570&ndash;632 CE &ndash; Founder of Islam &ndash; Symbolic correspondence: Calligraphy of his name</p>
+        <p class="krim-portrait-subtitle" style="font-style:italic;">Out of respect for the widespread Islamic prohibition on depicting religious figures, this portrait deliberately shows no face, but instead a calligraphic rendering of his name as the central symbol.</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Lion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>lion</strong> is the animal of the social Eight &ndash; an animal that does not display its strength for its own sake, but uses it to protect the pride. It does not claim prey for itself alone, but defends the territory in which everyone can live safely. No accidental animal for a man who grew up an orphan in sixth-century Mecca &ndash; a society in which orphans, widows, and slaves had almost no rights &ndash; and who stood up for exactly these weakest members throughout his life.</p>
+          <p class="vb-intro">Muhammad ibn Abdullah, born around 570 CE in Mecca, lost both parents early and grew up with his grandfather and later his uncle. As a caravan leader and merchant he earned a reputation for exceptional reliability and honesty &ndash; even before he received, according to tradition, the first revelations at around age 40 that became the Quran. The beginning of a path that turned one individual into the founder of a world religion that today shapes roughly two billion people.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Eight: Strength in the Service of Community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Eight (SO8)</strong> directs its natural assertiveness not toward private power, but toward building and protecting a community. Where the self-preservation Eight secures its own independence and the sexual Eight seeks the one intense relationship, the social Eight aims its force at the larger whole: it builds structures, forges alliances, establishes order &ndash; and is willing to accept resistance in doing so.</p>
+          <p class="vb-intro">This is exactly what shows in Muhammad's actions after the migration from Mecca to Medina (622 CE, the Hijra): there he united previously hostile tribes and clans &ndash; including Jewish communities &ndash; under a shared framework known as the Constitution of Medina. Not a dictate from above, but a negotiated set of rules on mutual protection, rights, and duties &ndash; an early example of the social Eight translating power into structure rather than merely asserting it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Patience Instead of Escalation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the social Eight a strategic patience that a pure Eight rarely shows. This becomes clear in the Treaty of Hudaybiyyah (628 CE): Muhammad concluded a truce with the Meccans that, to many of his own followers, looked like a concession &ndash; he gave up the immediate pilgrimage to Mecca and accepted terms that seemed disadvantageous in the short term. In hindsight, this very concession proved to be a wise move: the truce created a framework in which Islam spread far more over the following two years than it could have through military confrontation.</p>
+          <p class="vb-intro">This ability to accept a short-term disadvantage for a longer-term, more stable peace is typical of the Nine-wing: it grounds the Eight's assertiveness, making it enduring rather than impulsive. After the ultimately bloodless conquest of Mecca in 630 CE, Muhammad declared a general amnesty for his former opponents &ndash; not revenge, but consolidation. This too is the signature of the SO8w9: victory used to establish peace, not to settle old scores. This renunciation of revenge is telling: in the Eight's ego lies the temptation to seek retaliation as proof of one's own strength. That the social Eight, as the counter-type of the Eight, consciously decides against this impulse and subordinates its own satisfaction to the community is itself an expression of the counter-type principle: it fights inwardly against the very Eight-principle that would otherwise dominate, rather than giving in to it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Law and Order: The Eight as Lawgiver</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A central trait of the Eight is the will to create clear, binding rules that apply to everyone, regardless of origin or status. The regulations on inheritance, property, contracts, and the protection of orphans and widows laid down in the Quran and the Sunna fundamentally changed the legal standing of the weakest members of Arabian society. For the first time, women received an independent, codified right of inheritance; slavery was not abolished, but freeing slaves was explicitly established as a meritorious act.</p>
+          <p class="vb-intro">This is the constructive side of the Eight: power used to create protective structures for those who cannot enforce them themselves &ndash; the mark of a healthy Eight. At the same time, this is exactly an expression of the social Eight's counter-type principle: it fights inwardly against the Eight's raw, self-centered drive for power and consciously redirects its assertiveness into the service of the community rather than claiming it for itself. At the same time, historical honesty requires noting that Muhammad's life also included military conflicts and campaigns &ndash; a side extensively discussed in historiography and not to be glossed over here. From an Enneagram perspective, this reflects less the rigid principle-holding of a One than the willingness to confront and the orientation toward power that characterize the Eight's passion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Passion: Striving for Power in Service of a Cause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Eight is called <strong>lust</strong> in Naranjo's original sense &ndash; an excess of intensity and control that expresses itself in the drive for power, boundary-crossing, and the need to prove one's own strength beyond doubt. In the social Eight, this drive attaches itself to a cause larger than the individual &ndash; unlike the self-preservation Eight, which directs its intensity toward its own independence, or the sexual Eight, which seeks the one special relationship, the social Eight functions as the counter-type: it deliberately binds its force to a transpersonal goal instead of claiming it directly for itself. According to tradition, Muhammad did not see himself as a ruler in the worldly sense, but as a servant of a message he understood as a divine mandate.</p>
+          <p class="vb-intro">This fusion of personal assertiveness and a mission understood as transpersonal is one of the most complex expressions of the Eight: the line between conviction and claim to power, between protecting the community and imposing it against resistance, is not always clear-cut here &ndash; and remains a subject of controversy to this day, both within and outside the Islamic world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Legacy: A Community That Outlasted Its Founder</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">When Muhammad died in Medina in 632 CE, he had, in just over two decades, turned scattered and often hostile Arabian tribes into a unified community with its own legal system, its own scripture, and a world religion that still exists today. Not a kingdom in the classical sense passed down through a dynasty, but an order he deliberately did not tie to a single successor family &ndash; the question of succession (the caliphate) would occupy the Islamic world again and again in the centuries that followed.</p>
+          <p class="vb-intro">The lion that claimed no territory for itself, but built one in which a community could endure beyond its own death &ndash; that is the lasting signature of the social Eight with a Nine-wing: strength that ends not in conquest, but in structure that lasts.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so8", label:"SO8 – The Lion: Subtype profile"},
+        {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
+        {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
       ])}
     </div>
   `);
@@ -44740,6 +44810,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-woody-allen": woodyAllenPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
+      "beruehmte-mohammed": mohammedPortraitPage,
       "beruehmte-buddha": buddhaPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
