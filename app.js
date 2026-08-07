@@ -519,6 +519,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Siddhartha Gautama (Buddha) – Sexueller Typ 5",
     teaser:"SX5w4 · ca. 563–483 v. Chr. Religionsstifter, Begründer des Buddhismus. Vom Palast in die radikale Suche nach der Ursache des Leidens – der Igel, der die Welt seziert, bis nur noch die Wahrheit übrig bleibt. Tierentsprechung: Igel.",
     tags:["Religion","Philosophie"], gender:"m"},
+  { route:"beruehmte-greta-garbo", name:"Greta Garbo", added:"2026-08-07", subtyp:"SX5w4",
+    heading:"Greta Garbo – Sexueller Typ 5",
+    teaser:"SX5w4 · 1905–1990. Schauspielerin, Hollywood-Ikone. Mit 36 Jahren kompletter Rückzug aus dem Filmgeschäft. „I want to be let alone.“ Der Igel, dessen Blick die Kinosäle verstummen ließ – und der sich dann fünfzig Jahre lang niemandem mehr zeigte.",
+    tags:["Film"], gender:"f"},
   { route:"beruehmte-mark-zuckerberg", name:"Mark Zuckerberg", added:"2026-07-15", subtyp:"SX5w6",
     heading:"Mark Zuckerberg – Sexueller Typ 5",
     teaser:"SX5w6 · geb. 1984. CEO von Meta (Facebook, Instagram, WhatsApp). Der Igel, der das größte soziale Netzwerk der Welt baute – und selbst darin kaum sichtbar ist.",
@@ -19038,6 +19042,71 @@ function mohammedPortraitPage() {
         {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
         {route:"beruehmte-karl-marx", label:"Porträt: Karl Marx (SO8w9)"},
         {route:"beruehmte-bud-spencer", label:"Porträt: Bud Spencer (SO8w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function gretaGarboPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-greta-garbo-portrait.jpg" alt="Greta Garbo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Greta Garbo</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexueller Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, 1905&ndash;1990 &ndash; Hollywood-Ikone des Stummfilms und frühen Tonfilms &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier der sexuellen Fünf &ndash; stachelig und unnahbar nach außen, von einer Wärme durchdrungen, die sich nur den ganz Wenigen zeigt, die nah genug herankommen. Kaum eine Hollywood-Figur verkörpert dieses Bild so vollständig wie Greta Garbo. Auf der Leinwand strahlte sie eine Intensität aus, die ganze Kinosäle verstummen ließ &ndash; im wirklichen Leben zog sie sich mit 36 Jahren, auf dem Höhepunkt ihres Ruhms, vollständig aus der Öffentlichkeit zurück und blieb es fast fünfzig Jahre lang, bis zu ihrem Tod 1990.</p>
+          <p class="vb-intro">Greta Lovisa Gustafsson, geboren 1905 in Stockholm, wuchs in ärmlichen Verhältnissen auf, wurde vom schwedischen Regisseur Mauritz Stiller entdeckt und ging mit ihm nach Hollywood. Innerhalb weniger Jahre wurde sie zum größten weiblichen Filmstar ihrer Zeit &ndash; und zu einer der konsequentesten Rückzieherinnen der Filmgeschichte. Kein Widerspruch, sondern die beiden Seiten derselben Fünf: das restlose Eintauchen in die eine, intensive Begegnung vor der Kamera und der ebenso radikale Rückzug davor und danach.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. „I want to be let alone“ &ndash; nicht allein, sondern in Ruhe gelassen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kein Satz ist enger mit Greta Garbo verknüpft als das ihr zugeschriebene „Ich möchte allein sein“. Sie selbst hat dieser Version widersprochen &ndash; und die Korrektur ist der eigentliche Schlüssel zu ihrem Typus: <em>„I never said, ‚I want to be alone.‘ I only said, ‚I want to be let alone.‘ There is all the difference.“</em> („Ich habe nie gesagt: ‚Ich will allein sein.‘ Ich sagte nur: ‚Ich will in Ruhe gelassen werden.‘ Das ist ein himmelweiter Unterschied.“)</p>
+          <p class="vb-intro">Das ist keine Nuance, sondern die gesamte Grundstrategie der Fünf in einem Satz: Es geht nicht um Isolation als Selbstzweck, sondern um den Schutz begrenzter innerer Ressourcen vor einer Welt, die grenzenlos viel davon einfordert. Die Fünf zieht sich nicht zurück, weil sie Menschen ablehnt &ndash; sie zieht sich zurück, um überhaupt noch etwas von sich zu haben, das sie den wenigen Menschen geben kann, die ihr wirklich etwas bedeuten. Garbos Präzisierung ist damit fast ein enneagrammatisches Lehrstück: der Unterschied zwischen Rückzug aus Erschöpfung und Rückzug aus Ablehnung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die sexuelle Fünf: Intensität statt Distanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Fünf (SX5)</strong> unterscheidet sich grundlegend von der kühlen, auf Sicherheit bedachten selbsterhaltenden Fünf. Sie trägt eine fast vulkanische Sehnsucht nach absoluter Verbindung in sich &ndash; gepaart mit einer ebenso starken Angst vor Verletzlichkeit. Naranjo beschreibt diesen Subtyp als „Vertrauen“ oder „Transparenz“: Die SX5 öffnet sich, aber nur dort, wo sie sich restlos sicher fühlt &ndash; und dann mit einer Intensität, die alle anderen Fünfer-Subtypen übertrifft.</p>
+          <p class="vb-intro">Genau diese Qualität war Garbos Markenzeichen als Schauspielerin: die berühmte Nahaufnahme, in der ihr Blick eine fast hypnotische, zutiefst private Vertrautheit erzeugte &ndash; als spräche sie nur mit einer einzigen Person im ganzen Saal. Zeitgenossen und Filmhistoriker beschrieben genau dieses Paradox: äußerlich unnahbar und rätselhaft, im Moment der Begegnung von einer verzehrenden, kompromisslosen Präsenz. Kein Zufall, dass ihre größten Rollen &ndash; Mata Hari, Anna Karenina, Kameliendame &ndash; Frauen zeigten, die sich der Welt verweigerten, aber für die eine große, absolute Liebe alles opferten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Viererflügel: Melancholie als Ausdrucksform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gab Garbos Fünfer-Kern jene melancholische, ästhetische Tiefe, für die sie bis heute gefeiert wird. Anders als eine 5w6, die eher analytisch-strukturiert wirkt, verwandelte Garbo existenziellen Schmerz in Kunst &ndash; nicht durch dramatische Zurschaustellung, sondern durch eine stille, fast schwermütige Intensität, die durch die Kamera hindurch direkt beim Publikum ankam. Als der Tonfilm viele Stummfilmstars scheitern ließ, faszinierte Garbos rauchige, tiefe Stimme und ihr bedeutungsschweres Schweigen die Menschen nur noch mehr.</p>
+          <p class="vb-intro">Diese Kombination erklärt, warum sie in der öffentlichen Wahrnehmung oft fälschlich als Typ 4 gelesen wurde: Dramatik, Schönheit, Weltschmerz. Doch das Fundament ihres Verhaltens spricht für die Fünf: Nicht das Verlangen der Vier, endlich verstanden zu werden, sondern die Schutzstrategie der Fünf, die eigene Energie so sorgfältig zu rationieren, dass sie erhalten bleibt &ndash; verstärkt und veredelt durch die ästhetische Tiefe des Viererflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Rückzug: Schutz der Intensität, nicht Flucht vor ihr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1941, nach dem kommerziellen Misserfolg des Films <em>Zwei-Gesichtige Frau</em>, zog sich Garbo aus dem Filmgeschäft zurück &ndash; und kam nie wieder zurück, obwohl ihr über die folgenden Jahrzehnte immer wieder Rollen angeboten wurden. Sie lebte fortan zurückgezogen in New York, unternahm getarnt mit Sonnenbrille und Hut lange, einsame Spaziergänge durch die Stadt, mied Partys, Smalltalk und die Hollywood-Öffentlichkeit fast vollständig &ndash; klassisches Verhalten der Fünf: die Welt beobachten, ohne selbst beobachtet zu werden.</p>
+          <p class="vb-intro">Doch eine SX5 zieht sich nicht zurück, weil sie Nähe ablehnt. Über Jahrzehnte hinweg unterhielt Garbo hochintensive, fast geheime Verbindungen zu einer kleinen Zahl ausgewählter Menschen &ndash; etwa zur Dichterin Mercedes de Acosta oder zu ihrem frühen Mentor und Weggefährten Mauritz Stiller. Kein Widerspruch zum Rückzug, sondern dessen eigentlicher Sinn: Die kommerzielle, öffentliche Welt entweihte für sie das Private und Heilige. Der Rückzug schützte nicht die Abwesenheit von Gefühl, sondern seine Reinheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w4 ist ihre Fähigkeit, in der einen Begegnung &ndash; ob mit einem Menschen oder, wie bei Garbo, mit einer Filmkamera und einem Millionenpublikum &ndash; eine Tiefe und Wahrhaftigkeit zu erzeugen, die keine Distanz zulässt. Genau das machte Garbo zur Legende: Man empfand ihre Präsenz als absolut echt, obwohl sie selbst so gut wie nichts von sich preisgab.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Konsequenz, mit der die Fünf den Stecker zieht, sobald sie sich ausgenutzt oder bloßgestellt fühlt: Garbos Rückzug 1941 war endgültig, kompromisslos, ohne Interviews, ohne Erklärungen, ohne ein einziges Wort zu viel. Kein Zögern, kein halber Ausstieg &ndash; die typische Radikalität der Fünf, die lieber ganz verschwindet, als die eigene Energie weiter unkontrolliert abfließen zu lassen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4)"},
+        {route:"beruehmte-tilda-swinton", label:"Porträt: Tilda Swinton (SX5w4)"},
       ])}
     </div>
   `);
@@ -47788,6 +47857,7 @@ function render() {
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
       "beruehmte-mohammed": mohammedPortraitPage,
+      "beruehmte-greta-garbo": gretaGarboPortraitPage,
       "beruehmte-buddha": buddhaPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,

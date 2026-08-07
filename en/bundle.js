@@ -377,6 +377,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Siddhartha Gautama (Buddha) – Sexual Type 5",
     teaser:"SX5w4 · c. 563–483 BCE. Religious founder, founder of Buddhism. From the palace into a radical search for the cause of suffering – the hedgehog that dissects the world until only truth remains. Animal correspondence: Hedgehog.",
     tags:["Religion","Philosophy"]},
+  { route:"beruehmte-greta-garbo", name:"Greta Garbo", added:"2026-08-07", subtyp:"SX5w4",
+    heading:"Greta Garbo – Sexual Type 5",
+    teaser:"SX5w4 · 1905–1990. Actress, Hollywood icon. Complete withdrawal from film at age 36. \"I want to be let alone.\" The hedgehog whose gaze silenced entire movie theaters – and who then showed herself to no one for fifty years.",
+    tags:["Film"]},
   { route:"beruehmte-mark-zuckerberg", name:"Mark Zuckerberg", added:"2026-07-15", subtyp:"SX5w6",
     heading:"Mark Zuckerberg – Sexual Type 5",
     teaser:"SX5w6 · born 1984. CEO of Meta (Facebook, Instagram, WhatsApp). The hedgehog that built the world’s largest social network – and is barely visible within it.",
@@ -16630,6 +16634,71 @@ function mohammedPortraitPage() {
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype profile"},
         {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
         {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function gretaGarboPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-greta-garbo-portrait.jpg" alt="Greta Garbo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Greta Garbo</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexual Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Actress, 1905&ndash;1990 &ndash; Hollywood icon of the silent and early sound film era &ndash; Animal correspondence: Hedgehog</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hedgehog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hedgehog</strong> is the animal of the sexual Five &ndash; spiny and unapproachable on the outside, permeated by a warmth that reveals itself only to the very few who come close enough. Hardly any Hollywood figure embodies this image as completely as Greta Garbo. On screen she radiated an intensity that silenced entire movie theaters &ndash; in real life, at age 36, at the height of her fame, she withdrew from public life entirely and remained withdrawn for almost fifty years, until her death in 1990.</p>
+          <p class="vb-intro">Greta Lovisa Gustafsson, born 1905 in Stockholm, grew up in modest circumstances, was discovered by Swedish director Mauritz Stiller, and went to Hollywood with him. Within a few years she became the greatest female film star of her era &ndash; and one of the most consistent recluses in film history. Not a contradiction, but the two sides of the same Five: complete immersion in the one, intense encounter in front of the camera, and an equally radical withdrawal before and after it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. "I Want to Be Let Alone" &ndash; Not Alone, But Left in Peace</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">No sentence is more closely tied to Greta Garbo than the line often misquoted as "I want to be alone." She herself corrected it &ndash; and the correction is the real key to her type: <em>"I never said, 'I want to be alone.' I only said, 'I want to be let alone.' There is all the difference."</em></p>
+          <p class="vb-intro">This is not a nuance but the entire core strategy of the Five in a single sentence: it is not about isolation as an end in itself, but about protecting limited inner resources from a world that demands endless amounts of them. The Five does not withdraw because she rejects people &ndash; she withdraws in order to still have something of herself left to give to the very few people who truly matter to her. Garbo's correction reads almost like an Enneagram lesson in itself: the difference between withdrawal from exhaustion and withdrawal from rejection.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Sexual Five: Intensity Instead of Distance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Five (SX5)</strong> differs fundamentally from the cool, security-focused self-preservation Five. She carries an almost volcanic longing for absolute connection &ndash; paired with an equally strong fear of vulnerability. Naranjo describes this subtype as "confidence" or "transparency": the SX5 opens up, but only where she feels completely safe &ndash; and then with an intensity that exceeds every other Five subtype.</p>
+          <p class="vb-intro">This quality was exactly Garbo's trademark as an actress: the famous close-up, in which her gaze created an almost hypnotic, deeply private intimacy &ndash; as if she were speaking to a single person in the entire theater. Contemporaries and film historians described precisely this paradox: outwardly unapproachable and enigmatic, in the moment of encounter a devouring, uncompromising presence. It is no accident that her greatest roles &ndash; Mata Hari, Anna Karenina, Camille &ndash; portrayed women who refused the world but sacrificed everything for the one great, absolute love.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Four-Wing: Melancholy as a Mode of Expression</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gave Garbo's Five core the melancholic, aesthetic depth for which she is still celebrated today. Unlike a 5w6, who tends to appear analytical and structured, Garbo transformed existential pain into art &ndash; not through dramatic display, but through a quiet, almost sorrowful intensity that reached the audience directly through the camera. When sound film caused many silent stars to fail, Garbo's smoky, deep voice and her weighty silences fascinated audiences even more.</p>
+          <p class="vb-intro">This combination explains why she was often mistakenly read as a Type 4 in public perception: drama, beauty, world-weariness. But the foundation of her behavior points to the Five: not the Four's longing to finally be understood, but the Five's protective strategy of rationing her own energy so carefully that it is preserved &ndash; intensified and refined by the aesthetic depth of the Four-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Withdrawal: Protecting Intensity, Not Fleeing It</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1941, after the commercial failure of the film <em>Two-Faced Woman</em>, Garbo withdrew from filmmaking &ndash; and never returned, even though roles kept being offered to her over the following decades. She lived reclusively in New York from then on, taking long, solitary walks through the city disguised in sunglasses and a hat, largely avoiding parties, small talk, and the Hollywood public &ndash; classic Five behavior: observing the world without being observed herself.</p>
+          <p class="vb-intro">But an SX5 does not withdraw because she rejects closeness. Over decades, Garbo maintained highly intense, almost secret connections with a small number of chosen people &ndash; among them the poet Mercedes de Acosta and her early mentor and companion Mauritz Stiller. Not a contradiction to her withdrawal, but its actual purpose: for her, the commercial, public world desecrated what was private and sacred. The withdrawal protected not the absence of feeling, but its purity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow of the Sexual Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX5w4 is her ability to create depth and truthfulness in the one encounter &ndash; whether with a person or, as with Garbo, with a film camera and a audience of millions &ndash; that admits no distance. This is exactly what made Garbo a legend: her presence felt absolutely real, even though she revealed almost nothing of herself.</p>
+          <p class="vb-intro">The shadow shows in the consistency with which the Five pulls the plug the moment she feels exploited or exposed: Garbo's withdrawal in 1941 was final, uncompromising, without interviews, without explanations, without a single word too many. No hesitation, no half-measure &ndash; the typical radicalism of the Five, who would rather disappear completely than let her own energy keep draining away uncontrolled.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype profile"},
+        {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
+        {route:"beruehmte-tilda-swinton", label:"Portrait: Tilda Swinton (SX5w4)"},
       ])}
     </div>
   `);
@@ -44811,6 +44880,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
       "beruehmte-mohammed": mohammedPortraitPage,
+      "beruehmte-greta-garbo": gretaGarboPortraitPage,
       "beruehmte-buddha": buddhaPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,

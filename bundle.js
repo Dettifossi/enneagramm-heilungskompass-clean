@@ -23874,6 +23874,7 @@ const registerEntries = [
   { term: "Elvis Presley",                 route: "beruehmte-elvis-presley",               description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 King of Rock'n'Roll, S\u00e4nger, Schauspieler" },
   { term: "Freddie Mercury",               route: "beruehmte-freddie-mercury",             description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Queen-Fronts\u00e4nger, B\u00fchnenmagier" },
   { term: "Fr\u00e9d\u00e9ric Chopin",          route: "beruehmte-frederic-chopin",            description: "Portrait: SX5w4 \u00b7 Sexueller Typ 5 \u00b7 Komponist, romantische Klaviermusik" },
+  { term: "Greta Garbo",               route: "beruehmte-greta-garbo",                 description: "Portrait: SX5w4 \u00b7 Sexueller Typ 5 \u00b7 Schauspielerin, Hollywood-Ikone, radikaler R\u00fcckzug" },
   { term: "David Bowie",                   route: "beruehmte-david-bowie",                 description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Musiker, kulturelle Grenzg\u00e4ngerfigur" },
   { term: "Ursula von der Leyen",          route: "beruehmte-ursula-von-der-leyen",        description: "Portrait: SO1w9 \u00b7 Sozialer Typ 1 \u00b7 EU-Kommissionspr\u00e4sidentin, Pfizergate-Aff\u00e4re" },
   { term: "Friedrich Merz",                route: "beruehmte-friedrich-merz",              description: "Portrait: SO1w9 \u00b7 Sozialer Typ 1 \u00b7 CDU-Vorsitzender, Wirtschaftspolitiker" },
@@ -31344,6 +31345,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Siddhartha Gautama (Buddha) \u2013 Sexueller Typ 5",
     teaser:"SX5w4 \u00b7 ca. 563\u2013483 v. Chr. Religionsstifter, Begr\u00fcnder des Buddhismus. Vom Palast in die radikale Suche nach der Ursache des Leidens \u2013 der Igel, der die Welt seziert, bis nur noch die Wahrheit \u00fcbrig bleibt. Tierentsprechung: Igel.",
     tags:["Religion","Philosophie"], gender:"m"},
+  { route:"beruehmte-greta-garbo", name:"Greta Garbo", added:"2026-08-07", subtyp:"SX5w4",
+    heading:"Greta Garbo \u2013 Sexueller Typ 5",
+    teaser:"SX5w4 \u00b7 1905\u20131990. Schauspielerin, Hollywood-Ikone. Mit 36 Jahren kompletter R\u00fcckzug aus dem Filmgesch\u00e4ft. \u201eI want to be let alone.\u201c Der Igel, dessen Blick die Kinos\u00e4le verstummen lie\u00df \u2013 und der sich dann f\u00fcnfzig Jahre lang niemandem mehr zeigte.",
+    tags:["Film"], gender:"f"},
   { route:"beruehmte-mark-zuckerberg", name:"Mark Zuckerberg", added:"2026-07-15", subtyp:"SX5w6",
     heading:"Mark Zuckerberg \u2013 Sexueller Typ 5",
     teaser:"SX5w6 \u00b7 geb. 1984. CEO von Meta (Facebook, Instagram, WhatsApp). Der Igel, der das gr\u00f6\u00dfte soziale Netzwerk der Welt baute \u2013 und selbst darin kaum sichtbar ist.",
@@ -49863,6 +49868,71 @@ function mohammedPortraitPage() {
         {route:"subtype/so8", label:"SO8 \u2013 Der L\u00f6we: Subtyp-Profil"},
         {route:"beruehmte-karl-marx", label:"Portr\u00e4t: Karl Marx (SO8w9)"},
         {route:"beruehmte-bud-spencer", label:"Portr\u00e4t: Bud Spencer (SO8w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function gretaGarboPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-greta-garbo-portrait.jpg" alt="Greta Garbo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Greta Garbo</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexueller Typ 5 mit Viererfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, 1905&ndash;1990 &ndash; Hollywood-Ikone des Stummfilms und fr\u00fchen Tonfilms &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier der sexuellen F\u00fcnf &ndash; stachelig und unnahbar nach au\u00dfen, von einer W\u00e4rme durchdrungen, die sich nur den ganz Wenigen zeigt, die nah genug herankommen. Kaum eine Hollywood-Figur verk\u00f6rpert dieses Bild so vollst\u00e4ndig wie Greta Garbo. Auf der Leinwand strahlte sie eine Intensit\u00e4t aus, die ganze Kinos\u00e4le verstummen lie\u00df &ndash; im wirklichen Leben zog sie sich mit 36 Jahren, auf dem H\u00f6hepunkt ihres Ruhms, vollst\u00e4ndig aus der \u00d6ffentlichkeit zur\u00fcck und blieb es fast f\u00fcnfzig Jahre lang, bis zu ihrem Tod 1990.</p>
+          <p class="vb-intro">Greta Lovisa Gustafsson, geboren 1905 in Stockholm, wuchs in \u00e4rmlichen Verh\u00e4ltnissen auf, wurde vom schwedischen Regisseur Mauritz Stiller entdeckt und ging mit ihm nach Hollywood. Innerhalb weniger Jahre wurde sie zum gr\u00f6\u00dften weiblichen Filmstar ihrer Zeit &ndash; und zu einer der konsequentesten R\u00fcckzieherinnen der Filmgeschichte. Kein Widerspruch, sondern die beiden Seiten derselben F\u00fcnf: das restlose Eintauchen in die eine, intensive Begegnung vor der Kamera und der ebenso radikale R\u00fcckzug davor und danach.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. \u201eI want to be let alone\u201c &ndash; nicht allein, sondern in Ruhe gelassen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kein Satz ist enger mit Greta Garbo verkn\u00fcpft als das ihr zugeschriebene \u201eIch m\u00f6chte allein sein\u201c. Sie selbst hat dieser Version widersprochen &ndash; und die Korrektur ist der eigentliche Schl\u00fcssel zu ihrem Typus: <em>\u201eI never said, \u201aI want to be alone.\u2018 I only said, \u201aI want to be let alone.\u2018 There is all the difference.\u201c</em> (\u201eIch habe nie gesagt: \u201aIch will allein sein.\u2018 Ich sagte nur: \u201aIch will in Ruhe gelassen werden.\u2018 Das ist ein himmelweiter Unterschied.\u201c)</p>
+          <p class="vb-intro">Das ist keine Nuance, sondern die gesamte Grundstrategie der F\u00fcnf in einem Satz: Es geht nicht um Isolation als Selbstzweck, sondern um den Schutz begrenzter innerer Ressourcen vor einer Welt, die grenzenlos viel davon einfordert. Die F\u00fcnf zieht sich nicht zur\u00fcck, weil sie Menschen ablehnt &ndash; sie zieht sich zur\u00fcck, um \u00fcberhaupt noch etwas von sich zu haben, das sie den wenigen Menschen geben kann, die ihr wirklich etwas bedeuten. Garbos Pr\u00e4zisierung ist damit fast ein enneagrammatisches Lehrst\u00fcck: der Unterschied zwischen R\u00fcckzug aus Ersch\u00f6pfung und R\u00fcckzug aus Ablehnung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die sexuelle F\u00fcnf: Intensit\u00e4t statt Distanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle F\u00fcnf (SX5)</strong> unterscheidet sich grundlegend von der k\u00fchlen, auf Sicherheit bedachten selbsterhaltenden F\u00fcnf. Sie tr\u00e4gt eine fast vulkanische Sehnsucht nach absoluter Verbindung in sich &ndash; gepaart mit einer ebenso starken Angst vor Verletzlichkeit. Naranjo beschreibt diesen Subtyp als \u201eVertrauen\u201c oder \u201eTransparenz\u201c: Die SX5 \u00f6ffnet sich, aber nur dort, wo sie sich restlos sicher f\u00fchlt &ndash; und dann mit einer Intensit\u00e4t, die alle anderen F\u00fcnfer-Subtypen \u00fcbertrifft.</p>
+          <p class="vb-intro">Genau diese Qualit\u00e4t war Garbos Markenzeichen als Schauspielerin: die ber\u00fchmte Nahaufnahme, in der ihr Blick eine fast hypnotische, zutiefst private Vertrautheit erzeugte &ndash; als spr\u00e4che sie nur mit einer einzigen Person im ganzen Saal. Zeitgenossen und Filmhistoriker beschrieben genau dieses Paradox: \u00e4u\u00dferlich unnahbar und r\u00e4tselhaft, im Moment der Begegnung von einer verzehrenden, kompromisslosen Pr\u00e4senz. Kein Zufall, dass ihre gr\u00f6\u00dften Rollen &ndash; Mata Hari, Anna Karenina, Kameliendame &ndash; Frauen zeigten, die sich der Welt verweigerten, aber f\u00fcr die eine gro\u00dfe, absolute Liebe alles opferten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Viererfl\u00fcgel: Melancholie als Ausdrucksform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> gab Garbos F\u00fcnfer-Kern jene melancholische, \u00e4sthetische Tiefe, f\u00fcr die sie bis heute gefeiert wird. Anders als eine 5w6, die eher analytisch-strukturiert wirkt, verwandelte Garbo existenziellen Schmerz in Kunst &ndash; nicht durch dramatische Zurschaustellung, sondern durch eine stille, fast schwerm\u00fctige Intensit\u00e4t, die durch die Kamera hindurch direkt beim Publikum ankam. Als der Tonfilm viele Stummfilmstars scheitern lie\u00df, faszinierte Garbos rauchige, tiefe Stimme und ihr bedeutungsschweres Schweigen die Menschen nur noch mehr.</p>
+          <p class="vb-intro">Diese Kombination erkl\u00e4rt, warum sie in der \u00f6ffentlichen Wahrnehmung oft f\u00e4lschlich als Typ 4 gelesen wurde: Dramatik, Sch\u00f6nheit, Weltschmerz. Doch das Fundament ihres Verhaltens spricht f\u00fcr die F\u00fcnf: Nicht das Verlangen der Vier, endlich verstanden zu werden, sondern die Schutzstrategie der F\u00fcnf, die eigene Energie so sorgf\u00e4ltig zu rationieren, dass sie erhalten bleibt &ndash; verst\u00e4rkt und veredelt durch die \u00e4sthetische Tiefe des Viererfl\u00fcgels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der R\u00fcckzug: Schutz der Intensit\u00e4t, nicht Flucht vor ihr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1941, nach dem kommerziellen Misserfolg des Films <em>Zwei-Gesichtige Frau</em>, zog sich Garbo aus dem Filmgesch\u00e4ft zur\u00fcck &ndash; und kam nie wieder zur\u00fcck, obwohl ihr \u00fcber die folgenden Jahrzehnte immer wieder Rollen angeboten wurden. Sie lebte fortan zur\u00fcckgezogen in New York, unternahm getarnt mit Sonnenbrille und Hut lange, einsame Spazierg\u00e4nge durch die Stadt, mied Partys, Smalltalk und die Hollywood-\u00d6ffentlichkeit fast vollst\u00e4ndig &ndash; klassisches Verhalten der F\u00fcnf: die Welt beobachten, ohne selbst beobachtet zu werden.</p>
+          <p class="vb-intro">Doch eine SX5 zieht sich nicht zur\u00fcck, weil sie N\u00e4he ablehnt. \u00dcber Jahrzehnte hinweg unterhielt Garbo hochintensive, fast geheime Verbindungen zu einer kleinen Zahl ausgew\u00e4hlter Menschen &ndash; etwa zur Dichterin Mercedes de Acosta oder zu ihrem fr\u00fchen Mentor und Weggef\u00e4hrten Mauritz Stiller. Kein Widerspruch zum R\u00fcckzug, sondern dessen eigentlicher Sinn: Die kommerzielle, \u00f6ffentliche Welt entweihte f\u00fcr sie das Private und Heilige. Der R\u00fcckzug sch\u00fctzte nicht die Abwesenheit von Gef\u00fchl, sondern seine Reinheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen F\u00fcnf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w4 ist ihre F\u00e4higkeit, in der einen Begegnung &ndash; ob mit einem Menschen oder, wie bei Garbo, mit einer Filmkamera und einem Millionenpublikum &ndash; eine Tiefe und Wahrhaftigkeit zu erzeugen, die keine Distanz zul\u00e4sst. Genau das machte Garbo zur Legende: Man empfand ihre Pr\u00e4senz als absolut echt, obwohl sie selbst so gut wie nichts von sich preisgab.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Konsequenz, mit der die F\u00fcnf den Stecker zieht, sobald sie sich ausgenutzt oder blo\u00dfgestellt f\u00fchlt: Garbos R\u00fcckzug 1941 war endg\u00fcltig, kompromisslos, ohne Interviews, ohne Erkl\u00e4rungen, ohne ein einziges Wort zu viel. Kein Z\u00f6gern, kein halber Ausstieg &ndash; die typische Radikalit\u00e4t der F\u00fcnf, die lieber ganz verschwindet, als die eigene Energie weiter unkontrolliert abflie\u00dfen zu lassen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 \u2013 Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-frederic-chopin", label:"Portr\u00e4t: Fr\u00e9d\u00e9ric Chopin (SX5w4)"},
+        {route:"beruehmte-tilda-swinton", label:"Portr\u00e4t: Tilda Swinton (SX5w4)"},
       ])}
     </div>
   `);
@@ -78613,6 +78683,7 @@ function render() {
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
       "beruehmte-mohammed": mohammedPortraitPage,
+      "beruehmte-greta-garbo": gretaGarboPortraitPage,
       "beruehmte-buddha": buddhaPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
