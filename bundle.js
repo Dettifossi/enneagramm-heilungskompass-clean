@@ -27885,7 +27885,7 @@ const TIERLEXIKON = {
       "Igel sind Insektenfresser und fressen Sch\u00e4dlinge \u2013 n\u00fctzlich und wenig beachtet. *Die SX5 tut Gutes oft ohne Anerkennung. Ihr Beitrag ist real, aber nicht sichtbar.*",
       "Sie sind nachtaktiv und werden tags\u00fcber kaum gesehen. *Die SX5 lebt im Verborgenen. Ihr echtes Leben spielt sich ab, wenn andere schlafen.*",
       "Igel haben ein hohes Selbstbestimmungsverhalten \u2013 sie verlassen bekannte Pfade, um zu erkunden. *Die SX5 ist neugierig. Trotz R\u00fcckzugsneigung \u2013 sie erkundet, wenn sie sicher ist.*",
-      "Sie produzieren Speichel beim Begegnen unbekannter D\u00fcfte und bemalenihre Stacheln damit \u2013 ein R\u00e4tsel der Verhaltensforschung. *Die SX5 reagiert auf das Neue mit einer merkw\u00fcrdigen Intensit\u00e4t. Was sie fasziniert, macht sie aktiv.*",
+      "Sie produzieren Speichel beim Begegnen unbekannter D\u00fcfte und bemalen ihre Stacheln damit \u2013 ein R\u00e4tsel der Verhaltensforschung. *Die SX5 reagiert auf das Neue mit einer merkw\u00fcrdigen Intensit\u00e4t. Was sie fasziniert, macht sie aktiv.*",
       "Igel kommunizieren durch Schnaufen, Fauchen und Quietschen. *Die SX5 kommuniziert selten viel \u2013 aber wenn, dann unmissverst\u00e4ndlich.*",
       "Sie sind Einzelg\u00e4nger \u2013 au\u00dfer zur Paarungszeit. *Die SX5 ist solo strukturiert. Verbindung ist die Ausnahme, nicht die Regel.*",
       "Igel k\u00f6nnen bis zu 2 km pro Nacht laufen. *Die SX5 bewegt sich weiter, als man denkt. Sie erkundet systematisch.*",
@@ -78981,28 +78981,27 @@ setTimeout(showTagesimpuls, 600);
   btn.id = "wegweiser-btn";
   btn.setAttribute("aria-label", "Der Wegweiser \u2013 Fragen an den Kompass stellen");
   btn.title = "Der Wegweiser \u2013 frag mich etwas";
-  btn.textContent = "\ud83e\udded";
   btn.style.cssText =
-    "position:fixed;right:1rem;bottom:1rem;z-index:9998;width:3.2rem;height:3.2rem;border-radius:50%;" +
-    "background:var(--copper,#a5652f);color:#fff;border:none;font-size:1.4rem;cursor:pointer;" +
+    "position:fixed;right:1rem;bottom:1rem;z-index:9998;width:3.4rem;height:3.4rem;border-radius:50%;" +
+    "background:var(--copper,#a5652f) url('./favicon.svg') center/70% no-repeat;color:#fff;border:none;cursor:pointer;" +
     "box-shadow:0 2px 10px rgba(0,0,0,0.3);";
 
   const panel = document.createElement("div");
   panel.id = "wegweiser-panel";
   panel.style.cssText =
-    "position:fixed;right:1rem;bottom:4.6rem;z-index:9998;width:min(340px,90vw);max-height:70vh;" +
+    "position:fixed;right:1rem;left:1rem;bottom:4.9rem;z-index:9998;width:auto;max-width:400px;margin-left:auto;max-height:70vh;box-sizing:border-box;" +
     "background:var(--paper,#fff);color:var(--ink,#28241f);border:1px solid var(--line,#ddd);border-radius:10px;" +
     "box-shadow:0 4px 24px rgba(0,0,0,0.25);display:none;flex-direction:column;overflow:hidden;font-family:Georgia,serif;";
   panel.innerHTML =
     '<div style="padding:0.7rem 0.9rem;border-bottom:1px solid var(--line,#ddd);font-weight:bold;display:flex;justify-content:space-between;align-items:center;">' +
     "<span>\ud83e\udded Der Wegweiser</span>" +
-    '<button id="wegweiser-close" aria-label="Schlie\u00dfen" style="background:none;border:none;font-size:1.1rem;cursor:pointer;color:inherit;">\u00d7</button>' +
+    '<button id="wegweiser-close" aria-label="Schlie\u00dfen" style="background:none;border:none;font-size:1.4rem;cursor:pointer;color:inherit;padding:0.3rem;line-height:1;">\u00d7</button>' +
     "</div>" +
-    '<div id="wegweiser-msgs" style="flex:1;overflow-y:auto;padding:0.7rem 0.9rem;font-size:0.88rem;line-height:1.5;min-height:120px;max-height:45vh;"></div>' +
-    '<form id="wegweiser-form" style="display:flex;align-items:center;border-top:1px solid var(--line,#ddd);">' +
-    '<input id="wegweiser-input" type="text" placeholder="Frag zu einem Subtyp..." style="flex:1;border:none;padding:0.6rem;font-size:0.85rem;background:transparent;color:inherit;" />' +
-    '<button type="button" id="wegweiser-mic" aria-label="Frage per Sprache eingeben" title="Spracheingabe" style="border:none;background:none;padding:0 0.4rem;cursor:pointer;font-size:1rem;color:var(--muted,#886);">\ud83c\udfa4</button>' +
-    '<button type="submit" style="border:none;background:none;padding:0 0.8rem;cursor:pointer;color:var(--copper,#a5652f);font-weight:bold;">\u2192</button>' +
+    '<div id="wegweiser-msgs" style="flex:1;overflow-y:auto;overflow-x:hidden;padding:0.7rem 0.9rem;font-size:0.88rem;line-height:1.5;min-height:120px;max-height:45vh;word-wrap:break-word;overflow-wrap:break-word;"></div>' +
+    '<form id="wegweiser-form" style="display:flex;align-items:center;gap:0.2rem;border-top:1px solid var(--line,#ddd);padding:0.3rem;box-sizing:border-box;">' +
+    '<input id="wegweiser-input" type="text" placeholder="Frag zu einem Subtyp..." style="flex:1;min-width:0;border:none;padding:0.6rem 0.4rem;font-size:0.95rem;background:transparent;color:inherit;" />' +
+    '<button type="button" id="wegweiser-mic" aria-label="Frage per Sprache eingeben" title="Spracheingabe" style="flex:0 0 auto;border:none;background:none;width:2.6rem;height:2.6rem;cursor:pointer;font-size:1.3rem;color:var(--muted,#886);">\ud83c\udfa4</button>' +
+    '<button type="submit" aria-label="Frage absenden" style="flex:0 0 auto;border:none;background:var(--copper,#a5652f);color:#fff;border-radius:50%;width:2.6rem;height:2.6rem;cursor:pointer;font-size:1.2rem;font-weight:bold;display:flex;align-items:center;justify-content:center;">\u2192</button>' +
     "</form>";
 
   document.body.appendChild(btn);
