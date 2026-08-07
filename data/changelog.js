@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v998", date: "2026-08-07", text: "Neues Schaubild: Bagua-Zonen der 9 Typen (Feng Shui).", text_en: "New chart: Bagua Zones of the 9 Types (Feng Shui).", route: "bagua-zonen-der-9-typen" },
     { version: "v997", date: "2026-08-07", text: "Neues Schaubild: Kampfkunstarten der 9 Typen.", text_en: "New chart: Martial Arts of the 9 Types.", route: "kampfkunstarten-der-9-typen" },
     { version: "v996", date: "2026-08-07", text: "Neues Porträt: Moses (SX6w5) unter Berühmte Persönlichkeiten.", text_en: "New portrait: Moses (SX6w5) under Famous Personalities.", route: "beruehmte-moses" },
     { version: "v995", date: "2026-08-07", text: "Neues Porträt: Konfuzius (Kong Fuzi) (SO1w2) unter Berühmte Persönlichkeiten.", text_en: "New portrait: Confucius (Kong Fuzi) (SO1w2) under Famous Personalities.", route: "beruehmte-konfuzius" },

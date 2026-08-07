@@ -1633,6 +1633,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "papageienarten-der-9-typen",
     "blumenarten-der-9-typen",
     "kampfkunstarten-der-9-typen",
+    "bagua-zonen-der-9-typen",
     "hunderassen-der-9-typen",
     "pferdearten-der-9-typen",
     "nagetierarten-der-9-typen",
@@ -38709,6 +38710,57 @@ function kampfkunstartenDer9TypenPage() {
   `);
 }
 
+function baguaZonenDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Bagua-Zonen der 9 Typen", "Schaubilder · Archetypen")}
+      <p class="psycho-intro">Die Bagua-Zonen im Feng Shui teilen ein Haus, eine Wohnung oder auch einen einzelnen Raum in neun Lebensbereiche ein — und diese neun Bereiche entsprechen erstaunlich genau den neun Enneagramm-Mustern. Wenn man einen der neun Bereiche gezielt verbessern möchte, kann man die jeweilige Zone bewusst mit Feng-Shui-Maßnahmen aufwerten — und dabei zugleich verstehen, welches innere Prinzip dahintersteht.</p>
+      <img src="./assets/bagua-zonen-der-9-typen.jpg" alt="Bagua-Zonen der 9 Enneagrammtypen im Feng Shui – Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 – Ruhm: Integrität, die sichtbar wird</h3>
+        <p class="vb-intro">Die Bagua-Zone „Ruhm" steht im Feng Shui für Ansehen, Reputation und die Art, wie man in der Welt wahrgenommen wird — nicht als lauter Erfolg, sondern als der gute Ruf, der aus rechtem Handeln erwächst. Genau das ist die Logik des Typs 1: Er strebt nicht nach Ruhm um seiner selbst willen, sondern danach, als integer, korrekt und vertrauenswürdig zu gelten. Sein Ansehen soll die Frucht seiner inneren Ordnung sein, nicht das Ziel seines Handelns. Im Feng Shui wird diese Zone traditionell mit Feuer, mit Licht und mit Symbolen der eigenen Werte gestärkt — passend zu einem Typ, dessen Ruf untrennbar mit seinem inneren moralischen Kompass verbunden ist.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 – Partnerschaft: Beziehung als Lebensmittelpunkt</h3>
+        <p class="vb-intro">Die Zone „Partnerschaft" steht für Liebe, Nähe und die Qualität aller engen Beziehungen — und das ist exakt das Zentrum, um das sich das Leben des Typs 2 dreht. Kein anderer Typ richtet seine Aufmerksamkeit so beständig auf das Wohl des anderen, auf das Gelingen von Verbindung, auf das feine Gespür dafür, was der Partner oder Freund gerade braucht. Im Feng Shui wird diese Zone durch Paarsymbole, durch Wärme und durch bewusst geschaffene Nähe aktiviert — ein Prinzip, das der Typ 2 ohnehin lebt: Er schafft Nähe, noch bevor jemand danach fragt, weil Beziehung für ihn keine Ergänzung des Lebens ist, sondern dessen Grundlage.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 – Karriere: Der sichtbare Weg nach vorn</h3>
+        <p class="vb-intro">Die Zone „Karriere" liegt im Feng Shui traditionell im Eingangsbereich — dort, wo der Lebensweg beginnt und wo Bewegung, Fluss und Fortschritt entstehen. Das trifft die Grundmotivation des Typs 3 punktgenau: Er ist der Typ, der vorankommen will, der Ziele setzt und erreicht, der seinen Wert über sichtbare Leistung und Fortschritt definiert. Wo andere zögern, bewegt sich der Typ 3 bereits weiter — Stillstand ist für ihn das größte Unbehagen. Im Feng Shui wird diese Zone durch fließendes Wasser, durch Klarheit und offene Wege gestärkt — Sinnbilder für einen Menschen, dessen Energie ständig nach vorne drängt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 – Hilfreiche Freunde: Verbündete für den eigenen Weg</h3>
+        <p class="vb-intro">Die Zone „Hilfreiche Freunde" steht für Mentoren, Wegbegleiter und jene seltenen Menschen, die einen wirklich verstehen und unterstützen — nicht die große Menge, sondern die wenigen, echten Verbindungen. Genau das sucht der Typ 4: nicht oberflächliche Kontakte, sondern tiefe, authentische Begegnungen mit Menschen, die seine Einzigartigkeit sehen, ohne sie zu verbiegen. Er braucht keine Masse an Unterstützung, sondern die eine Seelenverwandtschaft, die ihn in seinem So-Sein bestätigt. Im Feng Shui wird diese Zone durch Symbole der Unterstützung von außen aktiviert — passend zu einem Typ, der oft allein seinen Weg geht, aber zutiefst dankbar ist für jene wenigen, die ihn dabei wirklich begleiten.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 – Wissen: Der Rückzugsort des Verstehens</h3>
+        <p class="vb-intro">Die Zone „Wissen" steht für Selbstkultivierung, Studium und stille innere Einkehr — der Raum, in dem man sich zurückzieht, um zu verstehen. Kaum ein Typ verkörpert dieses Prinzip so klar wie der Typ 5: Er zieht sich zurück, um Wissen zu sammeln, Zusammenhänge zu durchdringen und eine innere Landkarte der Welt zu bauen, bevor er sich ihr wieder zuwendet. Im Feng Shui wird diese Zone traditionell ruhig, ungestört und reduziert gestaltet — ein Ort für Bücher, für Stille, für konzentriertes Denken. Für den Typ 5 ist genau das kein Zufall, sondern Notwendigkeit: Nur im geschützten Rückzug kann er die Klarheit gewinnen, die er später wieder mit anderen teilt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 – Familie: Der sichere Kreis</h3>
+        <p class="vb-intro">Die Zone „Familie" steht für Zugehörigkeit, Verwurzelung und das tragende soziale Netz, das Halt gibt — und genau dieser Halt ist das, wonach der Typ 6 sich am meisten sehnt. Sicherheit entsteht für ihn nicht durch Alleingang, sondern durch verlässliche Bindung an eine Gruppe, eine Familie, ein System, dem er vertrauen kann und dem er selbst treu zur Seite steht. Im Feng Shui wird diese Zone durch Familienfotos, durch Symbole der Herkunft und durch stabile, geerdete Materialien gestärkt — ein Prinzip, das der Typ 6 instinktiv versteht: Wurzeln sind kein Rückschritt, sondern die Basis, von der aus überhaupt erst Vertrauen wachsen kann.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 – Kinder: Kreativität, Spiel und Zukunftsfreude</h3>
+        <p class="vb-intro">Die Zone „Kinder" steht im Feng Shui für Kreativität, Spielfreude und neue Projekte — für alles, was aus reiner Lebensfreude entsteht und in die Zukunft weist. Das ist die ureigene Welt des Typs 7: Er lebt aus einer kindlichen Begeisterungsfähigkeit heraus, liebt es, Neues zu erschaffen, Ideen sprießen zu lassen und das Leben als Abenteuer statt als Pflicht zu erleben. Im Feng Shui wird diese Zone durch Farben, durch Symbole der Fruchtbarkeit und durch Raum für spontanen Ausdruck aktiviert — ganz im Sinne eines Typs, der sich nie ganz von seiner spielerischen, neugierigen inneren Kindheit verabschiedet.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 – Reichtum: Ressourcen als Fundament der Freiheit</h3>
+        <p class="vb-intro">Die Zone „Reichtum" steht für materiellen Wohlstand, Ressourcen und die Fülle, aus der heraus man handlungsfähig bleibt — und genau das ist für den Typ 8 von zentraler Bedeutung. Es geht ihm dabei selten um Besitz als Selbstzweck, sondern um Unabhängigkeit: Wer über eigene Ressourcen verfügt, muss sich niemandem unterordnen und kann andere schützen, die auf ihn angewiesen sind. Im Feng Shui wird diese Zone durch Symbole des Wachstums, durch bewusst gepflegte Fülle und durch stabile, kraftvolle Elemente gestärkt — passend zu einem Typ, für den Stärke immer auch bedeutet, Verantwortung für das eigene Territorium und die eigenen Leute zu übernehmen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 – Tai-Chi (Gesundheit): Die stille Mitte von allem</h3>
+        <p class="vb-intro">Die Zone „Tai-Chi" liegt im Zentrum des Bagua — sie steht für Gesundheit, Balance und jenen ruhenden Mittelpunkt, von dem aus alle anderen acht Lebensbereiche zusammengehalten werden. Kein Zufall, dass ausgerechnet der Typ 9 diesem Zentrum entspricht: Er ist der Vermittler, der Ausgleichende, derjenige, der von Natur aus das große Ganze im Blick behält und andere zueinanderführt, statt sich in einem einzelnen Lebensbereich zu verlieren. Im Feng Shui bleibt diese zentrale Zone bewusst frei, ruhig und ungestört — ein Bild, das die tiefste Sehnsucht des Typs 9 spiegelt: innerer Frieden als tragender Grund, aus dem heraus alles andere seinen Platz findet.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Schaubilder und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"kampfkunstarten-der-9-typen", label:"Kampfkunstarten der 9 Typen"},
+        {route:"blumenarten-der-9-typen", label:"Blumenarten der 9 Typen"},
+        {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 function hunderassenDer9TypenPage() {
   return shell(`
     <div class="page-container">
@@ -48308,6 +48360,7 @@ function render() {
     "papageienarten-der-9-typen": papageienartenDer9TypenPage,
     "blumenarten-der-9-typen": blumenartenDer9TypenPage,
     "kampfkunstarten-der-9-typen": kampfkunstartenDer9TypenPage,
+    "bagua-zonen-der-9-typen": baguaZonenDer9TypenPage,
     "hunderassen-der-9-typen": hunderassenDer9TypenPage,
     "pferdearten-der-9-typen": pferdearteDer9TypenPage,
     "nagetierarten-der-9-typen": nagetierartenDer9TypenPage,
