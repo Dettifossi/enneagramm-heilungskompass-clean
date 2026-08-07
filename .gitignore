@@ -1,4 +1,5 @@
 .env
+node_modules/
 .claude/social-media-cron.log
 .wrangler/
 ai-prototype/worker/.wrangler/
