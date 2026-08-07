@@ -601,7 +601,7 @@ const BERUEHMT_PORTRAITS = [
     added:"2026-07-15", tags:["Musik","Gesellschaft"], gender:"m" },
   { route:"beruehmte-moses", name:"Moses", added:"2026-08-07", subtyp:"SX6w5",
     heading:"Moses – Sexueller Typ 6",
-    teaser:"SX6w5 · ca. 13. Jh. v. Chr. (biblische Überlieferung). Prophet, Gesetzgeber, Anführer des Exodus. Vom zögernden Hirten am brennenden Dornbusch zum furchtlosen Konfrontierer des Pharaos. Der Wolf, der die eigene Angst erst überwindet, um dann für sein Rudel durch die Wüste zu gehen.",
+    teaser:"SX6w5 · ca. 13. Jh. v. Chr. (biblische Überlieferung). Prophet, Gesetzgeber, Anführer des Exodus. Vom zögernden Hirten am brennenden Dornbusch zum furchtlosen Gegenspieler des Pharaos. Der Wolf, der die eigene Angst erst überwindet, um dann für sein Rudel durch die Wüste zu gehen.",
     tags:["Religion","Geschichte"], gender:"m"},
   { route:"beruehmte-michael-schumacher", name:"Michael Schumacher", added:"2026-07-21", subtyp:"SX6w7",
     heading:"Michael Schumacher – Sexueller Typ 6",
@@ -19094,8 +19094,8 @@ function mosesPortraitPage() {
 
         <h2 class="vb-section">4. Der Fünferflügel: Rückzug vor dem Sturm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> zeigt sich bei Moses in den Jahrzehnten vor der Berufung: vierzig Jahre als Hirte in der Wüste Midian, fernab jeder Öffentlichkeit, jeder Macht, jedes gesellschaftlichen Einflusses &ndash; eine Zeit des Rückzugs, der Beobachtung, des Verarbeitens. Anders als ein 6w7, der seine Unsicherheit eher durch Aktivität und Ablenkung überspielen würde, sucht der Fünferflügel Distanz und Klarheit, bevor er sich wieder der Welt zuwendet.</p>
-          <p class="vb-intro">Diese Kombination erklärt, warum Moses als Führungsfigur eine eigentümliche Doppelnatur trägt: einerseits der distanzierte, fast introvertierte Denker, der Gott lieber im Zwiegespräch auf dem Berg begegnet als der Menge; andererseits der entschlossene Konfrontierer, sobald die Sache klar ist. Der Fünferflügel liefert die Tiefe und die Zurückgezogenheit, die kontraphobische Sechs die Durchsetzungskraft, sobald der Rückzug vorbei ist.</p>
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> zeigt sich bei Moses in den Jahrzehnten vor der Berufung: vierzig Jahre als Hirte in der Wüste Midian, fernab jeder Öffentlichkeit, jeder Macht, jedes gesellschaftlichen Einflusses &ndash; eine Zeit des Rückzugs, der Beobachtung, des Verarbeitens. Anders als ein 6w7er, der seine Unsicherheit eher durch Aktivität und Ablenkung überspielen würde, sucht der Fünferflügel Distanz und Klarheit, bevor er sich wieder der Welt zuwendet.</p>
+          <p class="vb-intro">Diese Kombination erklärt, warum Moses als Führungsfigur eine eigentümliche Doppelnatur trägt: einerseits der distanzierte, fast introvertierte Denker, der Gott lieber im Zwiegespräch auf dem Berg begegnet als der Menge; andererseits der entschlossene Konfrontative, sobald die Sache klar ist. Der Fünferflügel liefert die Tiefe und die Zurückgezogenheit, die kontraphobische Sechs die Durchsetzungskraft, sobald der Rückzug vorbei ist.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Der Zorn des Wolfs: Impulsivität als Schattenseite</h2>
@@ -19112,7 +19112,7 @@ function mosesPortraitPage() {
 
         <h2 class="vb-section">7. Licht und Schatten der sexuellen Sechs</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w5 ist ihre Fähigkeit, aus tiefem Zweifel heraus zu wachsender Furchtlosigkeit zu gelangen &ndash; nicht durch Verdrängung der Angst, sondern durch ihre bewusste Überwindung im Dienst einer Sache, an die sie glaubt. Moses' Weg vom widerstrebenden Hirten zum unerschrockenen Konfrontierer des Pharaos ist eines der eindrücklichsten Beispiele dieser Entwicklung in der gesamten Überlieferung.</p>
+          <p class="vb-intro">Das Licht der SX6w5 ist ihre Fähigkeit, aus tiefem Zweifel heraus zu wachsender Furchtlosigkeit zu gelangen &ndash; nicht durch Verdrängung der Angst, sondern durch ihre bewusste Überwindung im Dienst einer Sache, an die sie glaubt. Moses' Weg vom widerstrebenden Hirten zum unerschrockenen Gegenspieler des Pharaos ist eines der eindrücklichsten Beispiele dieser Entwicklung in der gesamten Überlieferung.</p>
           <p class="vb-intro">Der Schatten zeigt sich in der Konsequenz seiner eigenen Prüfungsbedürftigkeit: Der biblischen Erzählung nach darf Moses das Gelobte Land selbst nicht betreten &ndash; als Strafe dafür, dass er in einer Situation des Zweifels am Wasser von Meriba nicht auf die Anweisung vertraute, sondern eigenmächtig handelte. Ein Detail, das die zentrale Spannung der Sechs auf den Punkt bringt: das Ringen zwischen dem Bedürfnis nach Vertrauen und dem Drang, die Kontrolle selbst in die Hand zu nehmen, bleibt bis zum Ende ungelöst.</p>
         </blockquote>
 

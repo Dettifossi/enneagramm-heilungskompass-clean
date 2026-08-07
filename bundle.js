@@ -24191,6 +24191,7 @@ const registerEntriesEN = [
   { term: "Keanu Reeves", route: "beruehmte-keanu-reeves", description: "Portrait: SX9w8 \u00b7 Sexual Type 9 \u00b7 Actor, The Matrix, quiet presence" },
   { term: "Klaus Kinski", route: "beruehmte-klaus-kinski", description: "Portrait: SX1w9 \u00b7 Sexual Type 1 \u00b7 Actor, intensity & excess" },
   { term: "Kollegah", route: "beruehmte-kollegah", description: "Portrait: SO3w4 \u00b7 Social Type 3 \u00b7 Rapper, fitness icon, brand & mask" },
+  { term: "Moses", route: "beruehmte-moses", description: "Portrait: SX6w5 \u00b7 Sexual Type 6 \u00b7 Prophet, lawgiver, leader of the Exodus" },
   { term: "Lady Diana", route: "beruehmte-lady-diana", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Prinzessin, Heart of the world" },
   { term: "Lena Meyer-Landrut", route: "beruehmte-lena-meyer-landrut", description: "Portrait: SX3w2 \u00b7 Sexual Type 3 \u00b7 Singer, Eurovision winner" },
   { term: "Leonardo DiCaprio", route: "beruehmte-leonardo-dicaprio", description: "Portrait: SX3w4 \u00b7 Sexual Type 3 \u00b7 Oscar winner, Environmental activist" },
@@ -31433,7 +31434,7 @@ const BERUEHMT_PORTRAITS = [
     added:"2026-07-15", tags:["Musik","Gesellschaft"], gender:"m" },
   { route:"beruehmte-moses", name:"Moses", added:"2026-08-07", subtyp:"SX6w5",
     heading:"Moses \u2013 Sexueller Typ 6",
-    teaser:"SX6w5 \u00b7 ca. 13. Jh. v. Chr. (biblische \u00dcberlieferung). Prophet, Gesetzgeber, Anf\u00fchrer des Exodus. Vom z\u00f6gernden Hirten am brennenden Dornbusch zum furchtlosen Konfrontierer des Pharaos. Der Wolf, der die eigene Angst erst \u00fcberwindet, um dann f\u00fcr sein Rudel durch die W\u00fcste zu gehen.",
+    teaser:"SX6w5 \u00b7 ca. 13. Jh. v. Chr. (biblische \u00dcberlieferung). Prophet, Gesetzgeber, Anf\u00fchrer des Exodus. Vom z\u00f6gernden Hirten am brennenden Dornbusch zum furchtlosen Gegenspieler des Pharaos. Der Wolf, der die eigene Angst erst \u00fcberwindet, um dann f\u00fcr sein Rudel durch die W\u00fcste zu gehen.",
     tags:["Religion","Geschichte"], gender:"m"},
   { route:"beruehmte-michael-schumacher", name:"Michael Schumacher", added:"2026-07-21", subtyp:"SX6w7",
     heading:"Michael Schumacher \u2013 Sexueller Typ 6",
@@ -49926,8 +49927,8 @@ function mosesPortraitPage() {
 
         <h2 class="vb-section">4. Der F\u00fcnferfl\u00fcgel: R\u00fcckzug vor dem Sturm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> zeigt sich bei Moses in den Jahrzehnten vor der Berufung: vierzig Jahre als Hirte in der W\u00fcste Midian, fernab jeder \u00d6ffentlichkeit, jeder Macht, jedes gesellschaftlichen Einflusses &ndash; eine Zeit des R\u00fcckzugs, der Beobachtung, des Verarbeitens. Anders als ein 6w7, der seine Unsicherheit eher durch Aktivit\u00e4t und Ablenkung \u00fcberspielen w\u00fcrde, sucht der F\u00fcnferfl\u00fcgel Distanz und Klarheit, bevor er sich wieder der Welt zuwendet.</p>
-          <p class="vb-intro">Diese Kombination erkl\u00e4rt, warum Moses als F\u00fchrungsfigur eine eigent\u00fcmliche Doppelnatur tr\u00e4gt: einerseits der distanzierte, fast introvertierte Denker, der Gott lieber im Zwiegespr\u00e4ch auf dem Berg begegnet als der Menge; andererseits der entschlossene Konfrontierer, sobald die Sache klar ist. Der F\u00fcnferfl\u00fcgel liefert die Tiefe und die Zur\u00fcckgezogenheit, die kontraphobische Sechs die Durchsetzungskraft, sobald der R\u00fcckzug vorbei ist.</p>
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> zeigt sich bei Moses in den Jahrzehnten vor der Berufung: vierzig Jahre als Hirte in der W\u00fcste Midian, fernab jeder \u00d6ffentlichkeit, jeder Macht, jedes gesellschaftlichen Einflusses &ndash; eine Zeit des R\u00fcckzugs, der Beobachtung, des Verarbeitens. Anders als ein 6w7er, der seine Unsicherheit eher durch Aktivit\u00e4t und Ablenkung \u00fcberspielen w\u00fcrde, sucht der F\u00fcnferfl\u00fcgel Distanz und Klarheit, bevor er sich wieder der Welt zuwendet.</p>
+          <p class="vb-intro">Diese Kombination erkl\u00e4rt, warum Moses als F\u00fchrungsfigur eine eigent\u00fcmliche Doppelnatur tr\u00e4gt: einerseits der distanzierte, fast introvertierte Denker, der Gott lieber im Zwiegespr\u00e4ch auf dem Berg begegnet als der Menge; andererseits der entschlossene Konfrontative, sobald die Sache klar ist. Der F\u00fcnferfl\u00fcgel liefert die Tiefe und die Zur\u00fcckgezogenheit, die kontraphobische Sechs die Durchsetzungskraft, sobald der R\u00fcckzug vorbei ist.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Der Zorn des Wolfs: Impulsivit\u00e4t als Schattenseite</h2>
@@ -49944,7 +49945,7 @@ function mosesPortraitPage() {
 
         <h2 class="vb-section">7. Licht und Schatten der sexuellen Sechs</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w5 ist ihre F\u00e4higkeit, aus tiefem Zweifel heraus zu wachsender Furchtlosigkeit zu gelangen &ndash; nicht durch Verdr\u00e4ngung der Angst, sondern durch ihre bewusste \u00dcberwindung im Dienst einer Sache, an die sie glaubt. Moses' Weg vom widerstrebenden Hirten zum unerschrockenen Konfrontierer des Pharaos ist eines der eindr\u00fccklichsten Beispiele dieser Entwicklung in der gesamten \u00dcberlieferung.</p>
+          <p class="vb-intro">Das Licht der SX6w5 ist ihre F\u00e4higkeit, aus tiefem Zweifel heraus zu wachsender Furchtlosigkeit zu gelangen &ndash; nicht durch Verdr\u00e4ngung der Angst, sondern durch ihre bewusste \u00dcberwindung im Dienst einer Sache, an die sie glaubt. Moses' Weg vom widerstrebenden Hirten zum unerschrockenen Gegenspieler des Pharaos ist eines der eindr\u00fccklichsten Beispiele dieser Entwicklung in der gesamten \u00dcberlieferung.</p>
           <p class="vb-intro">Der Schatten zeigt sich in der Konsequenz seiner eigenen Pr\u00fcfungsbed\u00fcrftigkeit: Der biblischen Erz\u00e4hlung nach darf Moses das Gelobte Land selbst nicht betreten &ndash; als Strafe daf\u00fcr, dass er in einer Situation des Zweifels am Wasser von Meriba nicht auf die Anweisung vertraute, sondern eigenm\u00e4chtig handelte. Ein Detail, das die zentrale Spannung der Sechs auf den Punkt bringt: das Ringen zwischen dem Bed\u00fcrfnis nach Vertrauen und dem Drang, die Kontrolle selbst in die Hand zu nehmen, bleibt bis zum Ende ungel\u00f6st.</p>
         </blockquote>
 
