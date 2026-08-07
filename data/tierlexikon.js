@@ -859,7 +859,7 @@ export const TIERLEXIKON = {
       "Igel sind Insektenfresser und fressen Schädlinge – nützlich und wenig beachtet. *Die SX5 tut Gutes oft ohne Anerkennung. Ihr Beitrag ist real, aber nicht sichtbar.*",
       "Sie sind nachtaktiv und werden tagsüber kaum gesehen. *Die SX5 lebt im Verborgenen. Ihr echtes Leben spielt sich ab, wenn andere schlafen.*",
       "Igel haben ein hohes Selbstbestimmungsverhalten – sie verlassen bekannte Pfade, um zu erkunden. *Die SX5 ist neugierig. Trotz Rückzugsneigung – sie erkundet, wenn sie sicher ist.*",
-      "Sie produzieren Speichel beim Begegnen unbekannter Düfte und bemalenihre Stacheln damit – ein Rätsel der Verhaltensforschung. *Die SX5 reagiert auf das Neue mit einer merkwürdigen Intensität. Was sie fasziniert, macht sie aktiv.*",
+      "Sie produzieren Speichel beim Begegnen unbekannter Düfte und bemalen ihre Stacheln damit – ein Rätsel der Verhaltensforschung. *Die SX5 reagiert auf das Neue mit einer merkwürdigen Intensität. Was sie fasziniert, macht sie aktiv.*",
       "Igel kommunizieren durch Schnaufen, Fauchen und Quietschen. *Die SX5 kommuniziert selten viel – aber wenn, dann unmissverständlich.*",
       "Sie sind Einzelgänger – außer zur Paarungszeit. *Die SX5 ist solo strukturiert. Verbindung ist die Ausnahme, nicht die Regel.*",
       "Igel können bis zu 2 km pro Nacht laufen. *Die SX5 bewegt sich weiter, als man denkt. Sie erkundet systematisch.*",
