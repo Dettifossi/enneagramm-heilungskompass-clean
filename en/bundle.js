@@ -1,7 +1,7 @@
 import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-31-cloudinary-v2";
 import { TYP_IMPULSE, TYP_IMPULSE_EN, SUBTYP_IMPULSE } from "../data/impulse.js?v=3";
 import { TAGESIMPULSE_EN } from "../data/tagesimpulse_en.js?v=1";
-import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "../data/typentest.js?v=1";
+import { TRIADEN_EN as TRIADEN, TYPFRAGEN_EN as TYPFRAGEN, TYPNAMEN_EN as TYPNAMEN, TYPKURZ_EN as TYPKURZ, INSTINKTE_EN as INSTINKTE } from "../data/typentest_en.js?v=1";
 import { MOTIVTEST } from "../data/motivtest.js?v=1";
 import { DIAGNOSETEST } from "../data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
@@ -11268,7 +11268,7 @@ function typentestPage() {
               </button>
             `).join("")}
           </div>
-          ${qi > 0 ? `<button class="ghost-link" id="tt-back-q">← Vorherige Frage</button>` : `<button class="ghost-link" id="tt-back-1">← Zur Triaden-Auswahl</button>`}
+          ${qi > 0 ? `<button class="ghost-link" id="tt-back-q">← Previous Question</button>` : `<button class="ghost-link" id="tt-back-1">← Back to Triad Selection</button>`}
         </div>
       </div>
     `);
@@ -11320,7 +11320,7 @@ function typentestPage() {
         <div class="typentest-card typentest-card--result">
           <p class="eyebrow">Your Resulting Type</p>
           <div class="typentest-result-badge" style="border-color:${typColor};color:${typColor}">
-            Typ ${typNum} · ${instCode}
+            Type ${typNum} · ${instCode}
           </div>
           <h2 class="typentest-titel" style="color:${typColor}">${typName}</h2>
           <p class="typentest-subline">${instCode} &ndash; ${instLabel}</p>
@@ -11331,17 +11331,17 @@ function typentestPage() {
           </div>
 
           <div class="typentest-cta-group">
-            ${hasSubtype ? `<button class="primary" style="background:${typColor};border-color:${typColor}" data-route="subtype/${subtypeCode}">Zum Subtype-Profil: ${instCode.toUpperCase()}${typNum} →</button>` : `<button class="primary" style="background:${typColor};border-color:${typColor}" data-route="type/${typNum}">Zum Typ ${typNum} im Kompass →</button>`}
+            ${hasSubtype ? `<button class="primary" style="background:${typColor};border-color:${typColor}" data-route="subtype/${subtypeCode}">Go to Subtype Profile: ${instCode.toUpperCase()}${typNum} →</button>` : `<button class="primary" style="background:${typColor};border-color:${typColor}" data-route="type/${typNum}">Go to Type ${typNum} in the Compass →</button>`}
             <p class="typentest-berater-label">Request a consultation appointment:</p>
-            <a class="typentest-cta-btn" href="mailto:detlefrathmer@t-online.de?subject=Request%20a%20Typing%20Consultation">✉ Beratungstermin bei Detlef Rathmer anfragen</a>
+            <a class="typentest-cta-btn" href="mailto:detlefrathmer@t-online.de?subject=Request%20a%20Typing%20Consultation">✉ Request consultation with Detlef Rathmer</a>
             <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915758786201?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp Detlef Rathmer</a>
-            <a class="typentest-cta-btn" href="mailto:rathmer.david.business@gmail.com?subject=Request%20a%20Typing%20Consultation">✉ Beratungstermin bei David L. Rathmer anfragen</a>
+            <a class="typentest-cta-btn" href="mailto:rathmer.david.business@gmail.com?subject=Request%20a%20Typing%20Consultation">✉ Request consultation with David L. Rathmer</a>
             <a class="typentest-cta-btn typentest-cta-btn--wa" href="https://wa.me/4915901902479?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp David L. Rathmer</a>
           </div>
 
-          <button class="ghost-link" id="tt-restart">Test wiederholen</button>
-          <button class="ghost-link" id="tt-merken" data-tt-code="${subtypeCode}">✦ Meinen Typ speichern</button>
-          <button class="ghost-link" data-route="dashboard">← Zum Dashboard</button>
+          <button class="ghost-link" id="tt-restart">Retake Test</button>
+          <button class="ghost-link" id="tt-merken" data-tt-code="${subtypeCode}">✦ Save My Type</button>
+          <button class="ghost-link" data-route="dashboard">← Back to Dashboard</button>
         </div>
       </div>
     `);
