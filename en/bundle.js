@@ -9,7 +9,7 @@ import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
 import { registerEntries, registerEntriesEN } from "../data/register.js?v=32";
 import { TIERENTSPRECHUNGEN } from "../data/tierentsprechungen.js?v=1";
-import { VERHALTEN } from "../data/verhalten.js?v=1";
+import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON } from "../data/tierlexikon.js?v=9";
 
 // ── Firebase Auth ────────────────────────────────────────────────────────────
@@ -40432,15 +40432,15 @@ function angstEssenzPage() {
             essenz:"Peace" },
         ].map(t => `
           <div class="vb-typ">
-            <h3 class="vb-typ__head"><span class="vb-typ__nr">Typ\xa0${t.nr}</span> &ndash; ${t.titel}</h3>
+            <h3 class="vb-typ__head"><span class="vb-typ__nr">Type\xa0${t.nr}</span> &ndash; ${t.titel}</h3>
             <div style="display:grid;gap:.25rem .6rem;font-size:.85rem;margin:.5rem 0 .6rem;color:var(--ink);">
-              <div><span style="color:var(--muted);font-style:italic;">Grundangst:</span> „${t.angst}“</div>
-              <div><span style="color:var(--muted);font-style:italic;">Ich-Organisation:</span> ${t.org}</div>
-              <div><span style="color:var(--muted);font-style:italic;">Leidenschaft:</span> ${t.leidenschaft}</div>
-              <div><span style="color:var(--muted);font-style:italic;">Intrinsische Motivation:</span> ${t.motivation}</div>
+              <div><span style="color:var(--muted);font-style:italic;">Core fear:</span> "${t.angst}"</div>
+              <div><span style="color:var(--muted);font-style:italic;">Ego organization:</span> ${t.org}</div>
+              <div><span style="color:var(--muted);font-style:italic;">Passion:</span> ${t.leidenschaft}</div>
+              <div><span style="color:var(--muted);font-style:italic;">Intrinsic motivation:</span> ${t.motivation}</div>
             </div>
             <p class="vb-typ__text">${t.reife}</p>
-            <p style="font-size:.85rem;font-weight:700;color:var(--copper);margin:.3rem 0 0;">Essenz: ${t.essenz}</p>
+            <p style="font-size:.85rem;font-weight:700;color:var(--copper);margin:.3rem 0 0;">Essence: ${t.essenz}</p>
           </div>
         `).join("")}
 
@@ -44816,13 +44816,13 @@ function verhaltensPage(key) {
   if (!d) return shell(`<p>Seite nicht gefunden.</p>`);
   const typenHtml = d.typen.map(t => `
     <div class="vb-typ">
-      <h3 class="vb-typ__head"><span class="vb-typ__nr">Typ ${t.nr}</span> &ndash; ${t.name}</h3>
+      <h3 class="vb-typ__head"><span class="vb-typ__nr">Type ${t.nr}</span> &ndash; ${t.name}</h3>
       <p class="vb-typ__text">${t.verhalten}</p>
     </div>
   `).join("");
   const buecherHtml = (d.buecher && d.buecher.length) ? `
     <div class="vb-buecher">
-      <h3 class="vb-buecher__title">Buchtipps zum Thema</h3>
+      <h3 class="vb-buecher__title">Book Recommendations</h3>
       ${d.buecher.map(b => `
         <a class="vb-buch" href="${b.link}" target="_blank" rel="noopener">
           <span class="vb-buch__icon">📖</span>
@@ -44845,7 +44845,7 @@ function verhaltensPage(key) {
     <div class="vb-section">
       <p class="vb-intro">${d.intro}</p>
       ${typenHtml}
-      <p class="vb-anmerkung"><em>Anmerkung: ${d.anmerkung}</em></p>
+      <p class="vb-anmerkung"><em>Note: ${d.anmerkung}</em></p>
       ${buecherHtml}      ${relatedLinks([
         {route:"beziehungen", label:"Relationships"},
         {route:"naehe", label:"Closeness & Distance"},
