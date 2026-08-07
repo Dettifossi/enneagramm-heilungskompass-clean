@@ -23829,7 +23829,7 @@ const registerEntries = [
   { term: "Karl Marx",                      route: "beruehmte-karl-marx",                   description: "Portrait: SO8w9 \u00b7 Sozialer Typ 8 \u00b7 Philosoph, \u00d6konom, Begr\u00fcnder des Marxismus" },
   { term: "Eli Jaxon-Bear",                 route: "beruehmte-eli-jaxon-bear",              description: "Portrait: SX8w9 \u00b7 Sexueller Typ 8 \u00b7 Spiritueller Lehrer, Autor" },
   { term: "Ludwig Erhard",                  route: "beruehmte-ludwig-erhard",               description: "Portrait: SE9w1 \u00b7 Selbsterhaltender Typ 9 \u00b7 Bundeswirtschaftsminister, Bundeskanzler" },
-  { term: "Laozi (Laotse)",                 route: "beruehmte-laozi",                       description: "Portrait: SE9w1 \u00b7 Selbsterhaltender Typ 9 \u00b7 Philosoph, Begr\u00fcnder des Daoismus" },
+  { term: "Laotse (Laozi)",                 route: "beruehmte-laozi",                       description: "Portrait: SE9w1 \u00b7 Selbsterhaltender Typ 9 \u00b7 Philosoph, Begr\u00fcnder des Daoismus" },
   { term: "Konfuzius (Kong Fuzi)",          route: "beruehmte-konfuzius",                   description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Philosoph, Begr\u00fcnder des Konfuzianismus" },
   { term: "Abida Parveen",                  route: "beruehmte-abida-parveen",               description: "Portrait: SE9w8 \u00b7 Selbsterhaltender Typ 9 \u00b7 S\u00e4ngerin, K\u00f6nigin des Sufi-Gesangs" },
   { term: "Julian Assange",                 route: "beruehmte-julian-assange",              description: "Portrait: SO9w1 \u00b7 Sozialer Typ 9 \u00b7 Gr\u00fcnder von WikiLeaks" },
@@ -31602,8 +31602,8 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ludwig Erhard \u2013 Selbsterhaltender Typ 9",
     teaser:"SE9w1 \u00b7 1897\u20131977. Wirtschaftswissenschaftler, Bundeswirtschaftsminister 1949\u20131963, Bundeskanzler 1963\u20131966, Vater der Sozialen Marktwirtschaft. Der Elefant, der ohne lautes Auftreten das deutsche Wirtschaftswunder trug \u2013 beharrlich, prinzipientreu, mit der Zigarre als einzigem Ausdruck von Gelassenheit.",
     tags:["Politik","Wirtschaft"], gender:"m"},
-  { route:"beruehmte-laozi", name:"Laozi (Laotse)", added:"2026-08-07", subtyp:"SE9w1",
-    heading:"Laozi (Laotse) \u2013 Selbsterhaltender Typ 9",
+  { route:"beruehmte-laozi", name:"Laotse (Laozi)", added:"2026-08-07", subtyp:"SE9w1",
+    heading:"Laotse (Laozi) \u2013 Selbsterhaltender Typ 9",
     teaser:"SE9w1 \u00b7 ca. 6. Jh. v. Chr. (Legende). Philosoph, Begr\u00fcnder des Daoismus, zugeschriebener Verfasser des Daodejing. Der Legende nach ritt er zuletzt auf einem schwarzen B\u00fcffel in die W\u00fcste davon. Der Elefant, der losl\u00e4sst, was er nicht halten muss \u2013 Wu Wei als h\u00f6chste Form der Neun.",
     tags:["Philosophie","Religion"], gender:"m"},
   { route:"beruehmte-angela-merkel", name:"Angela Merkel", added:"2026-07-22", subtyp:"SE9w8",
@@ -49950,7 +49950,7 @@ function konfuziusPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so1", label:"SO1 \u2013 Die Gans: Subtyp-Profil"},
-        {route:"beruehmte-laozi", label:"Portr\u00e4t: Laozi (Laotse) (SE9w1)"},
+        {route:"beruehmte-laozi", label:"Portr\u00e4t: Laotse (Laozi) (SE9w1)"},
         {route:"beruehmte-buddha", label:"Portr\u00e4t: Siddhartha Gautama (Buddha) (SX5w4)"},
       ])}
     </div>
@@ -49964,9 +49964,9 @@ function laoziPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-laozi-portrait.jpg" alt="Laozi (Laotse)" class="krim-portrait-img" loading="lazy" />
+          <img src="./assets/portraits/beruehmte-laozi-portrait.jpg" alt="Laotse (Laozi)" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Laozi (Laotse)</p>
+        <p class="krim-portrait-name">Laotse (Laozi)</p>
         <p class="krim-portrait-typ">SE9w1 &middot; Selbsterhaltender Typ 9 mit Einserfl\u00fcgel</p>
         <p class="krim-portrait-subtitle">Philosoph, ca. 6. Jh. v. Chr. (Legende) &ndash; Begr\u00fcnder des Daoismus, zugeschriebener Verfasser des Daodejing &ndash; Tierentsprechung: Elefant</p>
       </div>
@@ -49974,38 +49974,38 @@ function laoziPortraitPage() {
 
         <h2 class="vb-section">1. Der Elefant</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier der selbsterhaltenden Neun &ndash; ruhig, schwer, kaum aus der Ruhe zu bringen, in seiner Tr\u00e4gheit doch von enormer Kraft. Er k\u00e4mpft nicht um Territorium, er verteidigt nicht seinen Status &ndash; er zieht weiter, wenn die Weide karg wird, und l\u00e4sst zur\u00fcck, was ihn nicht mehr tr\u00e4gt. Kaum eine Gestalt der Geistesgeschichte verk\u00f6rpert dieses Bild so vollst\u00e4ndig wie Laozi, der der \u00dcberlieferung nach am Ende seines Lebens einfach auf einem schwarzen B\u00fcffel gen Westen ritt und in der W\u00fcste verschwand.</p>
-          <p class="vb-intro">\u00dcber die historische Existenz Laozis (auch Laotse, w\u00f6rtlich \u201ealter Meister") ist wenig gesichert &ndash; die \u00dcberlieferung datiert ihn ins 6. Jahrhundert v. Chr. und macht ihn zu einem \u00e4lteren Zeitgenossen des Konfuzius, dem er der Legende nach sogar begegnet sein soll. Ihm wird das <em>Daodejing</em> zugeschrieben, ein schmaler Text von gut 5000 chinesischen Schriftzeichen, der zur Grundlage des Daoismus wurde &ndash; einer der einflussreichsten Denkrichtungen Chinas, die bis heute Philosophie, Medizin und Lebenskunst pr\u00e4gt.</p>
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier der selbsterhaltenden Neun &ndash; ruhig, schwer, kaum aus der Ruhe zu bringen, in seiner Tr\u00e4gheit doch von enormer Kraft. Er k\u00e4mpft nicht um Territorium, er verteidigt nicht seinen Status &ndash; er zieht weiter, wenn die Weide karg wird, und l\u00e4sst zur\u00fcck, was ihn nicht mehr tr\u00e4gt. Kaum eine Gestalt der Geistesgeschichte verk\u00f6rpert dieses Bild so vollst\u00e4ndig wie Laotse, der der \u00dcberlieferung nach am Ende seines Lebens einfach auf einem schwarzen B\u00fcffel gen Westen ritt und in der W\u00fcste verschwand.</p>
+          <p class="vb-intro">\u00dcber die historische Existenz Laotses (auch Laozi, w\u00f6rtlich \u201ealter Meister") ist wenig gesichert &ndash; die \u00dcberlieferung datiert ihn ins 6. Jahrhundert v. Chr. und macht ihn zu einem \u00e4lteren Zeitgenossen des Konfuzius, dem er der Legende nach sogar begegnet sein soll. Ihm wird das <em>Daodejing</em> zugeschrieben, ein schmaler Text von gut 5000 chinesischen Schriftzeichen, der zur Grundlage des Daoismus wurde &ndash; einer der einflussreichsten Denkrichtungen Chinas, die bis heute Philosophie, Medizin und Lebenskunst pr\u00e4gt.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Neun: Frieden durch Einfachheit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> sucht ihren inneren Frieden nicht in Beziehungen oder gesellschaftlicher Anerkennung, sondern in der Reduktion auf das Wesentliche: Komfort, Einfachheit, das Verschmelzen mit einer \u00fcberschaubaren, nat\u00fcrlichen Umgebung. Naranjo nennt diesen Subtyp treffend \u201eAppetit" &ndash; ein Ersatzbefriedigen der eigenen Bed\u00fcrfnisse durch kleine, k\u00f6rperliche Annehmlichkeiten, wenn die gro\u00dfen, unbequemen Fragen des Lebens auf Abstand gehalten werden sollen.</p>
-          <p class="vb-intro">Bei Laozi zeigt sich diese Grundtendenz in ihrer reifsten, philosophisch durchdrungenen Form: Er wollte kein Reich verwalten, keine Schule mit Tausenden Sch\u00fclern gr\u00fcnden, keine politische Bewegung anf\u00fchren. Der Legende nach diente er lange als H\u00fcter der kaiserlichen Archive &ndash; ein zur\u00fcckgezogener, beobachtender Posten &ndash;, bevor er den zunehmenden Verfall des Staates nicht mehr mittragen wollte und sich endg\u00fcltig zur\u00fcckzog. Kein Kampf um Reform, sondern der stille Abschied von einer Welt, die sich seiner Ansicht nach selbst zerst\u00f6rte.</p>
+          <p class="vb-intro">Bei Laotse zeigt sich diese Grundtendenz in ihrer reifsten, philosophisch durchdrungenen Form: Er wollte kein Reich verwalten, keine Schule mit Tausenden Sch\u00fclern gr\u00fcnden, keine politische Bewegung anf\u00fchren. Der Legende nach diente er lange als H\u00fcter der kaiserlichen Archive &ndash; ein zur\u00fcckgezogener, beobachtender Posten &ndash;, bevor er den zunehmenden Verfall des Staates nicht mehr mittragen wollte und sich endg\u00fcltig zur\u00fcckzog. Kein Kampf um Reform, sondern der stille Abschied von einer Welt, die sich seiner Ansicht nach selbst zerst\u00f6rte.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Wu Wei: M\u00fchelosigkeit als h\u00f6chstes Prinzip</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Kernkonzept des Daodejing ist <strong>Wu Wei</strong>, meist \u00fcbersetzt als \u201eNicht-Handeln" oder \u201em\u00fcheloses Handeln". Gemeint ist damit kein Nichtstun im w\u00f6rtlichen Sinn, sondern ein Handeln, das nicht gegen den nat\u00fcrlichen Lauf der Dinge (das Dao) ank\u00e4mpft, sondern sich ihm einf\u00fcgt &ndash; so wie Wasser, das keinem Hindernis Widerstand leistet und doch mit der Zeit den h\u00e4rtesten Stein formt. \u201eDas Weichste der Welt \u00fcberwindet das H\u00e4rteste der Welt", hei\u00dft es im Daodejing.</p>
-          <p class="vb-intro">Das ist die Neun in ihrer reinsten, hochintegrierten Form: keine Vermeidung aus Bequemlichkeit, sondern eine bewusste Weigerung, sich in Reibung und Widerstand zu verschlei\u00dfen. Wo Konfuzius (Typ 1) Ordnung durch Regeln, Pflichten und aktives Vorbild schaffen wollte, und Buddha (Typ 5) das Leiden durch schonungslose Analyse durchdrang, lehrte Laozi das Gegenteil beider Wege: loslassen, nicht eingreifen, dem Fluss des Lebens vertrauen, statt ihn kontrollieren zu wollen.</p>
+          <p class="vb-intro">Das ist die Neun in ihrer reinsten, hochintegrierten Form: keine Vermeidung aus Bequemlichkeit, sondern eine bewusste Weigerung, sich in Reibung und Widerstand zu verschlei\u00dfen. Wo Konfuzius (Typ 1) Ordnung durch Regeln, Pflichten und aktives Vorbild schaffen wollte, und Buddha (Typ 5) das Leiden durch schonungslose Analyse durchdrang, lehrte Laotse das Gegenteil beider Wege: loslassen, nicht eingreifen, dem Fluss des Lebens vertrauen, statt ihn kontrollieren zu wollen.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Der Einserfl\u00fcgel: Stille moralische Klarheit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserfl\u00fcgel (w1)</strong> verleiht der Neun etwas, das reine Tr\u00e4gheit nicht h\u00e4tte: eine klare, fast unbestechliche innere Ausrichtung. Laozi kritisierte die k\u00fcnstliche H\u00e4rte, die aufgebl\u00e4hte B\u00fcrokratie und die moralische \u00dcberregulierung seiner Zeit &ndash; nicht durch Kampf oder Gegenreform, wie es eine Acht oder eine reine Eins getan h\u00e4tte, sondern durch den Aufruf zur R\u00fcckkehr zu nat\u00fcrlicher Einfachheit, im Daodejing als <em>Pu</em> (der \u201eunbehauene Block") bezeichnet.</p>
+          <p class="vb-intro">Der <strong>Einserfl\u00fcgel (w1)</strong> verleiht der Neun etwas, das reine Tr\u00e4gheit nicht h\u00e4tte: eine klare, fast unbestechliche innere Ausrichtung. Laotse kritisierte die k\u00fcnstliche H\u00e4rte, die aufgebl\u00e4hte B\u00fcrokratie und die moralische \u00dcberregulierung seiner Zeit &ndash; nicht durch Kampf oder Gegenreform, wie es eine Acht oder eine reine Eins getan h\u00e4tte, sondern durch den Aufruf zur R\u00fcckkehr zu nat\u00fcrlicher Einfachheit, im Daodejing als <em>Pu</em> (der \u201eunbehauene Block") bezeichnet.</p>
           <p class="vb-intro">\u201eJe mehr Gesetze und Vorschriften, desto mehr Diebe und R\u00e4uber", hei\u00dft es im Daodejing &ndash; eine Kritik an \u00fcberm\u00e4\u00dfiger Regulierung, die zugleich einen klaren moralischen Standpunkt formuliert: Der Einserfl\u00fcgel gibt der Neun eine Richtung, ohne sie in aktiven Widerstand zu treiben. Kein K\u00e4mpfer gegen das System, sondern ein stiller Mahner, der auf die eigene Weisheit der Natur vertraut.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Die Legende vom Pass: Lautloses Entgleiten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die bekannteste \u00dcberlieferung \u00fcber Laozis Lebensende zeigt die selbsterhaltende Neun in Reinform: Als er sah, dass der Staat verfiel und Reformen aussichtslos waren, bestieg er einen schwarzen B\u00fcffel und ritt Richtung Westen, um den zerfallenden Verh\u00e4ltnissen f\u00fcr immer den R\u00fccken zu kehren. Am Hangu-Pass, der letzten Grenzstation, hielt ihn der W\u00e4chter Yinxi auf und bat ihn, seine Weisheit niederzuschreiben, bevor er verschwand. Laozi kam der Bitte nach, verfasste in kurzer Zeit die rund 5000 Zeichen des Daodejing &ndash; und ritt dann weiter in die W\u00fcste, aus der er nie zur\u00fcckkehrte.</p>
+          <p class="vb-intro">Die bekannteste \u00dcberlieferung \u00fcber Laotses Lebensende zeigt die selbsterhaltende Neun in Reinform: Als er sah, dass der Staat verfiel und Reformen aussichtslos waren, bestieg er einen schwarzen B\u00fcffel und ritt Richtung Westen, um den zerfallenden Verh\u00e4ltnissen f\u00fcr immer den R\u00fccken zu kehren. Am Hangu-Pass, der letzten Grenzstation, hielt ihn der W\u00e4chter Yinxi auf und bat ihn, seine Weisheit niederzuschreiben, bevor er verschwand. Laotse kam der Bitte nach, verfasste in kurzer Zeit die rund 5000 Zeichen des Daodejing &ndash; und ritt dann weiter in die W\u00fcste, aus der er nie zur\u00fcckkehrte.</p>
           <p class="vb-intro">Keine gro\u00dfe Abschiedsrede, keine Schule, die er zur\u00fccklie\u00df, kein Nachfolger, den er einsetzte &ndash; nur ein schmaler Text, beinahe widerwillig niedergeschrieben, und ein stilles Verschwinden. Genau das ist die Signatur der SE9: kein lautes Ringen um Wirkung, sondern das Vertrauen, dass das Wesentliche auch ohne ihr eigenes Zutun seinen Weg finden wird &ndash; ein Vertrauen, das sich \u00fcber zweieinhalb Jahrtausende sp\u00e4ter als bemerkenswert berechtigt erwiesen hat.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Neun</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE9w1 ist ihre F\u00e4higkeit, Frieden nicht als Flucht, sondern als reife, bewusste Haltung zu leben: nicht gegen die Welt ank\u00e4mpfen, sondern in \u00dcbereinstimmung mit ihrem nat\u00fcrlichen Lauf handeln. Diese Gelassenheit ist keine Gleichg\u00fcltigkeit &ndash; das Daodejing ist durchzogen von einer stillen, aber unnachgiebigen Klarheit dar\u00fcber, was ein gutes Leben und eine gute Ordnung ausmacht.</p>
-          <p class="vb-intro">Der Schatten der Neun zeigt sich in der Konsequenz des R\u00fcckzugs: Laozi hinterlie\u00df keine Institution, keine organisierte Nachfolge, kein Regelwerk, das \u00fcber seinen Text hinausging &ndash; anders als Konfuzius, dessen Schule \u00fcber Jahrhunderte aktiv weiterwirkte. Das Risiko der Neun, sich dem Engagement f\u00fcr die konkrete, unvollkommene Welt zu entziehen, tr\u00e4gt auch Laozis Verm\u00e4chtnis in sich: eine Philosophie von zeitloser Tiefe, aber ohne die tragende Struktur, die ihre praktische Wirkung \u00fcber die Zeit hinweg gesichert h\u00e4tte, w\u00e4re der Pass-W\u00e4chter nicht gewesen.</p>
+          <p class="vb-intro">Der Schatten der Neun zeigt sich in der Konsequenz des R\u00fcckzugs: Laotse hinterlie\u00df keine Institution, keine organisierte Nachfolge, kein Regelwerk, das \u00fcber seinen Text hinausging &ndash; anders als Konfuzius, dessen Schule \u00fcber Jahrhunderte aktiv weiterwirkte. Das Risiko der Neun, sich dem Engagement f\u00fcr die konkrete, unvollkommene Welt zu entziehen, tr\u00e4gt auch Laotses Verm\u00e4chtnis in sich: eine Philosophie von zeitloser Tiefe, aber ohne die tragende Struktur, die ihre praktische Wirkung \u00fcber die Zeit hinweg gesichert h\u00e4tte, w\u00e4re der Pass-W\u00e4chter nicht gewesen.</p>
         </blockquote>
 
       </div>

@@ -396,7 +396,7 @@ export const registerEntries = [
   { term: "Karl Marx",                      route: "beruehmte-karl-marx",                   description: "Portrait: SO8w9 · Sozialer Typ 8 · Philosoph, Ökonom, Begründer des Marxismus" },
   { term: "Eli Jaxon-Bear",                 route: "beruehmte-eli-jaxon-bear",              description: "Portrait: SX8w9 · Sexueller Typ 8 · Spiritueller Lehrer, Autor" },
   { term: "Ludwig Erhard",                  route: "beruehmte-ludwig-erhard",               description: "Portrait: SE9w1 · Selbsterhaltender Typ 9 · Bundeswirtschaftsminister, Bundeskanzler" },
-  { term: "Laozi (Laotse)",                 route: "beruehmte-laozi",                       description: "Portrait: SE9w1 · Selbsterhaltender Typ 9 · Philosoph, Begründer des Daoismus" },
+  { term: "Laotse (Laozi)",                 route: "beruehmte-laozi",                       description: "Portrait: SE9w1 · Selbsterhaltender Typ 9 · Philosoph, Begründer des Daoismus" },
   { term: "Konfuzius (Kong Fuzi)",          route: "beruehmte-konfuzius",                   description: "Portrait: SO1w2 · Sozialer Typ 1 · Philosoph, Begründer des Konfuzianismus" },
   { term: "Abida Parveen",                  route: "beruehmte-abida-parveen",               description: "Portrait: SE9w8 · Selbsterhaltender Typ 9 · Sängerin, Königin des Sufi-Gesangs" },
   { term: "Julian Assange",                 route: "beruehmte-julian-assange",              description: "Portrait: SO9w1 · Sozialer Typ 9 · Gründer von WikiLeaks" },
