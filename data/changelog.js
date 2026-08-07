@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v995", date: "2026-08-07", text: "Neues Porträt: Konfuzius (Kong Fuzi) (SO1w2) unter Berühmte Persönlichkeiten.", text_en: "New portrait: Confucius (Kong Fuzi) (SO1w2) under Famous Personalities.", route: "beruehmte-konfuzius" },
     { version: "v994", date: "2026-08-07", text: "Neues Porträt: Laozi (Laotse) (SE9w1) unter Berühmte Persönlichkeiten.", text_en: "New portrait: Laozi (Lao Tzu) (SE9w1) under Famous Personalities.", route: "beruehmte-laozi" },
     { version: "v993", date: "2026-08-07", text: "Neues Porträt: Greta Garbo (SX5w4) unter Berühmte Persönlichkeiten.", text_en: "New portrait: Greta Garbo (SX5w4) under Famous Personalities.", route: "beruehmte-greta-garbo" },
     { version: "v992", date: "2026-08-07", text: "Neues Porträt: Mohammed ibn Abdullah (SO8w9) unter Berühmte Persönlichkeiten.", text_en: "New portrait: Muhammad ibn Abdullah (SO8w9) under Famous Personalities.", route: "beruehmte-mohammed" },

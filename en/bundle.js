@@ -213,6 +213,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"David Bowie – Social Type 1",
     teaser:"SO1w2 · 1947–2016. Musician, artist, cultural boundary-crosser. Ziggy Stardust, Thin White Duke, Berlin Trilogy – five decades of transformation aimed at dissolving social boundaries. The goose who opened the way for others. Animal correspondence: Goose.",
     tags:["Musik"] },
+  { route:"beruehmte-konfuzius", name:"Confucius (Kong Fuzi)", added:"2026-08-07", subtyp:"SO1w2",
+    heading:"Confucius (Kong Fuzi) – Social Type 1",
+    teaser:"SO1w2 · 551–479 BCE. Philosopher, founder of Confucianism, teacher and wanderer through the principalities of China. \"To make a mistake and not correct it - this is called a true mistake.\" The goose who became a role model for an entire civilization. Animal correspondence: Goose.",
+    tags:["Philosophy","History"]},
   { route:"beruehmte-leonardo-dicaprio", name:"Leonardo DiCaprio", subtyp:"SX1w2",
     heading:"Leonardo DiCaprio – Sexual Type 1",
     teaser:"SX1w2 · born 1974. Actor, climate activist. Five Oscar nominations, six attempts – and in the moment of triumph he spoke about climate change, not himself. The Black Mamba does not burn for applause. Animal correspondence: Black Mamba.",
@@ -16643,6 +16647,77 @@ function mohammedPortraitPage() {
   `);
 }
 
+function konfuziusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-konfuzius-portrait.jpg" alt="Confucius (Kong Fuzi)" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Confucius (Kong Fuzi)</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Philosopher, 551&ndash;479 BCE &ndash; Founder of Confucianism &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; an animal that flies in formation, holds the line, and insists loudly and unyieldingly that everyone stays within the same order. No accidental animal for a man who devoted his entire life to the question of how a disintegrating society could be brought back into a workable shape through example, ritual, and self-cultivation. Kong Fuzi &ndash; Latinized in the West as Confucius &ndash; lived from 551 to 479 BCE, during a period of political fragmentation and moral decline known as China's Spring and Autumn period.</p>
+          <p class="vb-intro">Born into an impoverished noble family, he worked his way up as a minor official before becoming a wandering teacher: for decades he traveled with a growing circle of students through China's warring principalities, offered his counsel to rulers, and was usually sent away disappointed. Only after his death did his teachings, recorded in the <em>Analects</em> (Lunyu), become the defining moral and political foundation of China for more than two millennia.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. "This Is the True Mistake" &ndash; Self-Correction as Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hardly any sentence of Confucius captures his type as precisely as this one from the <em>Analects</em>: <em>"To make a mistake and not correct it &ndash; this is called a true mistake."</em> The mistake itself is not the real failing; the refusal to correct it is. A sentence that deeply carries the signature of the One: perfection is not a state one reaches and then possesses, but an ongoing practice of self-examination and improvement.</p>
+          <p class="vb-intro">This is exactly where the mature One differs from her own inner critic: she does not demand flawlessness, but honesty about one's own mistakes and the will to learn from them. Confucius described himself as someone who, even at seventy, could "follow what my heart desired without overstepping the boundaries" &ndash; not because he never erred, but because he worked on himself his entire life. Precisely this stance &ndash; not fearing failure, but refusing to correct it &ndash; is at the core of what the social One demands of the world and of herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Social One: Example Instead of Coercion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> does not live her standard of rightness as a private discipline, but as a benchmark for the community. Naranjo describes her as the One who becomes a living norm: she asks not only "How should I act?" but "What must a society look like for it to function well?" &ndash; and lives out the answer herself rather than merely demanding it.</p>
+          <p class="vb-intro">This was precisely Confucius's life project: he did not want to pass new laws or tighten punishments, but to guide people &ndash; starting with rulers &ndash; through <em>li</em> (ritual, propriety) and <em>ren</em> (humaneness, benevolence) toward an inner compass that makes external control unnecessary. "Lead the people by regulations and keep order by punishments, and the people will try to avoid the punishment but have no sense of shame. Lead them by virtue and keep order by ritual, and they will have a sense of shame and moreover set themselves right," the Analects state &ndash; an almost exact definition of what the social One expects of order: not enforced, but internalized.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Two-Wing: The Teacher Who Serves</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gave Confucius's strict moral demands a warm, relational side. He was no lonely moralist, but a teacher in the truest sense: according to tradition he taught regardless of a student's origin or wealth &ndash; a radical idea for his time &ndash; and bound himself for decades to a growing circle of students to whom he attended individually. His most famous pedagogical maxim states: "I do not enlighten those who are not eager to learn, nor arouse those who are not anxious to give an explanation themselves."</p>
+          <p class="vb-intro">This combination of uncompromising standards and personal warmth is the typical coloring of the 1w2: principled conviction that does not stay cold, but places itself in the service of actual people. Confucius did not merely want to describe a better society &ndash; he wanted to shape it through the education of every individual he could reach.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Noble Person (Junzi): Character as Life's Work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At the center of Confucian teaching stands the concept of the <em>Junzi</em>, usually translated as "the noble person" or "the exemplary person" &ndash; an ideal determined not by birth or rank, but by constant self-cultivation. "The noble person seeks what is good within himself; the small person seeks it in others," the Analects state &ndash; a clear rejection of excuses and external blame that sums up the One's demand on herself in a single line.</p>
+          <p class="vb-intro">Confucius distinguished five key relationships &ndash; ruler and subject, father and son, husband and wife, elder and younger brother, friend and friend &ndash; each grounding its own reciprocal duties. Not a rigid hierarchy of power, but a system in which order arises through the lived acceptance of responsibility on every side &ndash; the social One, who understands society not as a collection of individual interests, but as a web of mutual obligations.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Failure in His Lifetime, Influence Across Millennia</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">During his lifetime, Confucius was, in political terms, above all one thing: unsuccessful. No ruler followed his advice for long, his most significant political post in the state of Lu ended after a few years, and he spent roughly a decade as a homeless wanderer between courts, often short of means, occasionally in danger. From the perspective of the One, this is no footnote but the actual test: she holds to her inner standard even when the world does not recognize it &ndash; not out of stubbornness, but because the rightness of the cause itself remains the standard, independent of immediate success.</p>
+          <p class="vb-intro">Only after his death did his students compile his teaching dialogues into the <em>Analects</em>, and only centuries later did Confucianism become the state doctrine of China &ndash; with an influence reaching into the present, from East Asian educational ethics to examination systems that still carry traces of his idea that character and knowledge can be learned and taught. The goose that was barely heeded in her lifetime &ndash; and whose formation held for two millennia.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Light and Shadow of the Social One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1w2 is her ability to truly serve out of a high moral standard &ndash; not to judge, but to teach; not to punish, but to change through example. Confucius's ideal that a person could become noble through constant work on himself, regardless of origin, was a deeply hopeful idea for his time.</p>
+          <p class="vb-intro">The shadow of the One shows in the strictness with which standards are set &ndash; and in the risk that a living ideal can, over centuries, harden into a rigid system, as the later, often fossilized state Confucianism demonstrates. Confucius himself warned against letting rituals ossify into empty forms: "Ritual, ritual &ndash; does it mean no more than jade and silk?" A line that can also be read as a warning to every One: the standard must stay alive, or principled conviction becomes mere form.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype profile"},
+        {route:"beruehmte-laozi", label:"Portrait: Laozi (Lao Tzu) (SE9w1)"},
+        {route:"beruehmte-buddha", label:"Portrait: Siddhartha Gautama (Buddha) (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function laoziPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -16702,7 +16777,7 @@ function laoziPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se9", label:"SE9 – The Elephant: Subtype profile"},
         {route:"beruehmte-buddha", label:"Portrait: Siddhartha Gautama (Buddha) (SX5w4)"},
-        {route:"beruehmte-ludwig-erhard", label:"Portrait: Ludwig Erhard (SE9w1)"},
+        {route:"beruehmte-konfuzius", label:"Portrait: Confucius (Kong Fuzi) (SO1w2)"},
       ])}
     </div>
   `);
@@ -44949,6 +45024,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
       "beruehmte-mohammed": mohammedPortraitPage,
+      "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,
       "beruehmte-greta-garbo": gretaGarboPortraitPage,
       "beruehmte-buddha": buddhaPortraitPage,

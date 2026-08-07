@@ -219,6 +219,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"David Bowie – Sozialer Typ 1",
     teaser:"SO1w2 · 1947–2016. Musiker, Künstler, kulturelle Grenzgängerfigur. Ziggy Stardust, Thin White Duke, Berliner Trilogie – fünf Jahrzehnte Verwandlung mit dem Anspruch, gesellschaftliche Grenzen aufzulösen. Die Gans, die anderen den Weg öffnete. Tierentsprechung: Gans.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-konfuzius", name:"Konfuzius (Kong Fuzi)", added:"2026-08-07", subtyp:"SO1w2",
+    heading:"Konfuzius (Kong Fuzi) – Sozialer Typ 1",
+    teaser:"SO1w2 · 551–479 v. Chr. Philosoph, Begründer des Konfuzianismus, Lehrer und Wanderer durch die Fürstentümer Chinas. „Einen Fehler zu machen und ihn nicht zu korrigieren – das ist der wahre Fehler.“ Die Gans, die zur Vorbildfigur einer ganzen Zivilisation wurde. Tierentsprechung: Gans.",
+    tags:["Philosophie","Geschichte"], gender:"m"},
   { route:"beruehmte-klaus-kinski", name:"Klaus Kinski", added:"2026-07-20", subtyp:"SX1w9",
     heading:"Klaus Kinski – Sexueller Typ 1",
     teaser:"SX1w9 · 1926–1991. Schauspieler, Kontratyp der Eins. Aguirre, Nosferatu, Fitzcarraldo. Die Schwarze Mamba des deutschen Kinos: unberechenbar, intensiv, unvermeidlich. Man konnte ihn lieben oder hassen – Gleichgültigkeit war keine Option.",
@@ -19051,6 +19055,77 @@ function mohammedPortraitPage() {
   `);
 }
 
+function konfuziusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-konfuzius-portrait.jpg" alt="Konfuzius (Kong Fuzi)" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Konfuzius (Kong Fuzi)</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Philosoph, 551&ndash;479 v. Chr. &ndash; Begründer des Konfuzianismus &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; ein Tier, das im Verband fliegt, die Formation hält und mit lauter, unnachgiebiger Stimme darauf besteht, dass alle in derselben Ordnung bleiben. Kein Zufallstier für einen Mann, der sein ganzes Leben der Frage widmete, wie eine zerfallende Gesellschaft durch Vorbild, Sitte und Selbstkultivierung wieder in eine tragfähige Form gebracht werden kann. Kong Fuzi &ndash; im Westen als Konfuzius latinisiert &ndash; lebte von 551 bis 479 v. Chr. in einer Zeit politischer Zersplitterung und moralischen Verfalls, der sogenannten Frühlings- und Herbstperiode Chinas.</p>
+          <p class="vb-intro">Aus einer verarmten Adelsfamilie stammend, arbeitete er sich zunächst als kleiner Beamter hoch, bevor er zum Wanderlehrer wurde: Über Jahrzehnte zog er mit einem wachsenden Kreis von Schülern durch die zerstrittenen chinesischen Fürstentümer, bot Herrschern seinen Rat an und wurde meist enttäuscht wieder fortgeschickt. Erst nach seinem Tod wurden seine Lehren, überliefert in den <em>Gesprächen</em> (Lunyu), zur prägenden moralischen und politischen Grundlage Chinas für mehr als zwei Jahrtausende.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. „Das ist der wahre Fehler“ &ndash; Selbstkorrektur als Prinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kaum ein Satz des Konfuzius bringt seinen Typus so klar auf den Punkt wie dieser aus den <em>Gesprächen</em>: <em>„Einen Fehler zu machen und ihn nicht zu korrigieren &ndash; das nennt man einen wahren Fehler.“</em> Nicht der Fehler selbst ist die eigentliche Verfehlung, sondern die Weigerung, ihn zu berichtigen. Ein Satz, der zutiefst die Handschrift der Eins trägt: Vollkommenheit ist kein Zustand, den man erreicht und dann besitzt, sondern eine fortlaufende Praxis der Selbstprüfung und Verbesserung.</p>
+          <p class="vb-intro">Genau darin unterscheidet sich die reife Eins von ihrem eigenen inneren Kritiker: Sie fordert nicht Fehlerlosigkeit, sondern Ehrlichkeit gegenüber dem eigenen Fehler und den Willen, daraus zu lernen. Konfuzius beschrieb sich selbst als jemanden, der noch mit siebzig Jahren „dem Herzen folgen konnte, ohne das Maß zu überschreiten“ &ndash; nicht weil er nie irrte, sondern weil er ein Leben lang an sich arbeitete. Genau diese Haltung &ndash; nicht das Scheitern zu fürchten, sondern die Weigerung zur Korrektur &ndash; ist der Kern dessen, was die soziale Eins von der Welt und von sich selbst verlangt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die soziale Eins: Vorbild statt Zwang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> lebt ihren Anspruch an Richtigkeit nicht als private Disziplin, sondern als Maßstab für die Gemeinschaft. Naranjo beschreibt sie als die Eins, die zur lebendigen Norm wird: Sie fragt nicht nur „Wie soll ich handeln?“, sondern „Wie muss eine Gesellschaft beschaffen sein, damit sie gut funktioniert?“ &ndash; und lebt die Antwort selbst vor, statt sie nur zu fordern.</p>
+          <p class="vb-intro">Genau das war Konfuzius' Lebensprojekt: Er wollte keine neuen Gesetze erlassen und keine Strafen verschärfen, sondern Menschen &ndash; beginnend bei den Herrschenden &ndash; durch <em>Li</em> (Riten, Sitte) und <em>Ren</em> (Menschlichkeit, Güte) zu einem inneren Kompass führen, der äußere Kontrolle überflüssig macht. „Führt man das Volk durch Gesetze und hält es durch Strafen in Ordnung, so wird es diesen zu entgehen suchen, ohne Scham zu empfinden. Führt man es aber durch Tugend und hält es durch Sitte in Ordnung, so wird es Scham empfinden und sich von selbst bessern“, heißt es in den Gesprächen &ndash; eine fast wörtliche Definition dessen, was die soziale Eins von Ordnung erwartet: nicht erzwungen, sondern verinnerlicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Zweierflügel: Der Lehrer, der dient</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gab Konfuzius' strengem moralischen Anspruch eine warme, zugewandte Seite. Er war kein einsamer Moralist, sondern ein Lehrer im eigentlichen Sinn: Der Überlieferung nach unterrichtete er, unabhängig von Herkunft oder Vermögen der Schüler &ndash; ein für seine Zeit radikaler Gedanke &ndash; und band sich über Jahrzehnte an einen wachsenden Kreis von Schülern, denen er sich individuell zuwandte. Seine berühmteste pädagogische Maxime lautet: „Ich erkläre nicht dem, der nicht begierig ist zu lernen, und öffne nicht dem, der sich nicht bemüht, sich verständlich zu machen.“</p>
+          <p class="vb-intro">Diese Kombination aus unbedingtem Anspruch und persönlicher Zuwendung ist die typische Färbung der 1w2: Prinzipientreue, die nicht kalt bleibt, sondern sich in den Dienst konkreter Menschen stellt. Konfuzius wollte nicht nur eine bessere Gesellschaft beschreiben &ndash; er wollte sie durch die Erziehung jedes Einzelnen, den er erreichen konnte, tatsächlich formen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Edle (Junzi): Charakter als Lebensaufgabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Zentrum der konfuzianischen Lehre steht der Begriff des <em>Junzi</em>, meist als „der Edle“ oder „der vortreffliche Mensch“ übersetzt &ndash; ein Ideal, das nicht durch Geburt oder Rang bestimmt wird, sondern durch beständige Selbstkultivierung. „Der Edle sucht das Gute in sich selbst, der gemeine Mensch sucht es bei anderen“, heißt es in den Gesprächen &ndash; eine klare Absage an Ausreden und äußere Schuldzuweisungen, die den Anspruch der Eins an sich selbst auf den Punkt bringt.</p>
+          <p class="vb-intro">Konfuzius unterschied fünf zentrale Beziehungen &ndash; Herrscher und Untertan, Vater und Sohn, Ehemann und Ehefrau, älterer und jüngerer Bruder, Freund und Freund &ndash;, die jeweils eigene, wechselseitige Pflichten begründen. Kein starres Machtgefälle, sondern ein System, in dem Ordnung durch die gelebte Übernahme von Verantwortung auf jeder Seite entsteht &ndash; die soziale Eins, die Gesellschaft nicht als Ansammlung von Einzelinteressen, sondern als Geflecht wechselseitiger Pflichten begreift.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Scheitern zu Lebzeiten, Wirkung über Jahrtausende</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu seinen Lebzeiten war Konfuzius vor allem eines: erfolglos im politischen Sinn. Kein Fürst folgte seinem Rat dauerhaft, seine wichtigste politische Anstellung im Staat Lu endete nach wenigen Jahren, und er verbrachte gut ein Jahrzehnt als heimatloser Wanderer zwischen den Höfen, oft knapp an Mitteln, gelegentlich in Lebensgefahr. Aus Sicht der Eins ist das keine Randnotiz, sondern der eigentliche Prüfstein: Sie hält an ihrem inneren Maßstab fest, auch wenn die Welt ihn nicht anerkennt &ndash; nicht aus Sturheit, sondern weil die Richtigkeit der Sache selbst der Maßstab bleibt, unabhängig vom unmittelbaren Erfolg.</p>
+          <p class="vb-intro">Erst nach seinem Tod sammelten seine Schüler seine Lehrgespräche in den <em>Gesprächen</em>, und erst Jahrhunderte später wurde der Konfuzianismus zur Staatsdoktrin Chinas &ndash; mit Wirkung bis in die Gegenwart, von der ostasiatischen Bildungsethik bis zu Prüfungssystemen, die noch heute Spuren seiner Idee tragen, dass Charakter und Wissen erlernbar und lehrbar sind. Die Gans, die zu Lebzeiten kaum gehört wurde &ndash; und deren Formation zwei Jahrtausende lang Bestand hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten der sozialen Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w2 ist ihre Fähigkeit, aus einem hohen moralischen Anspruch heraus tatsächlich zu dienen &ndash; nicht zu richten, sondern zu lehren, nicht zu bestrafen, sondern durch Vorbild zu verändern. Konfuzius' Ideal, dass ein Mensch durch beständige Arbeit an sich selbst zum Edlen werden kann, unabhängig von Herkunft, war für seine Zeit ein zutiefst hoffnungsvoller Gedanke.</p>
+          <p class="vb-intro">Der Schatten der Eins zeigt sich in der Strenge, mit der Maßstäbe gesetzt werden &ndash; und im Risiko, dass aus einem lebendigen Ideal über Jahrhunderte ein starres System werden kann, wie es der spätere, oft erstarrte Staatskonfuzianismus zeigte. Konfuzius selbst warnte davor, Riten zu leeren Formen erstarren zu lassen: „Riten, Riten &ndash; meint man damit nur Jade und Seide?“ Ein Satz, der auch als Mahnung an jede Eins gelesen werden kann: Der Maßstab muss lebendig bleiben, sonst wird aus Prinzipientreue bloße Form.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-laozi", label:"Porträt: Laozi (Laotse) (SE9w1)"},
+        {route:"beruehmte-buddha", label:"Porträt: Siddhartha Gautama (Buddha) (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function laoziPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -19110,7 +19185,7 @@ function laoziPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-buddha", label:"Porträt: Siddhartha Gautama (Buddha) (SX5w4)"},
-        {route:"beruehmte-ludwig-erhard", label:"Porträt: Ludwig Erhard (SE9w1)"},
+        {route:"beruehmte-konfuzius", label:"Porträt: Konfuzius (Kong Fuzi) (SO1w2)"},
       ])}
     </div>
   `);
@@ -47926,6 +48001,7 @@ function render() {
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
       "beruehmte-mohammed": mohammedPortraitPage,
+      "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,
       "beruehmte-greta-garbo": gretaGarboPortraitPage,
       "beruehmte-buddha": buddhaPortraitPage,

@@ -23830,6 +23830,7 @@ const registerEntries = [
   { term: "Eli Jaxon-Bear",                 route: "beruehmte-eli-jaxon-bear",              description: "Portrait: SX8w9 \u00b7 Sexueller Typ 8 \u00b7 Spiritueller Lehrer, Autor" },
   { term: "Ludwig Erhard",                  route: "beruehmte-ludwig-erhard",               description: "Portrait: SE9w1 \u00b7 Selbsterhaltender Typ 9 \u00b7 Bundeswirtschaftsminister, Bundeskanzler" },
   { term: "Laozi (Laotse)",                 route: "beruehmte-laozi",                       description: "Portrait: SE9w1 \u00b7 Selbsterhaltender Typ 9 \u00b7 Philosoph, Begr\u00fcnder des Daoismus" },
+  { term: "Konfuzius (Kong Fuzi)",          route: "beruehmte-konfuzius",                   description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Philosoph, Begr\u00fcnder des Konfuzianismus" },
   { term: "Abida Parveen",                  route: "beruehmte-abida-parveen",               description: "Portrait: SE9w8 \u00b7 Selbsterhaltender Typ 9 \u00b7 S\u00e4ngerin, K\u00f6nigin des Sufi-Gesangs" },
   { term: "Julian Assange",                 route: "beruehmte-julian-assange",              description: "Portrait: SO9w1 \u00b7 Sozialer Typ 9 \u00b7 Gr\u00fcnder von WikiLeaks" },
   { term: "Wilma Mankiller",                route: "beruehmte-wilma-mankiller",             description: "Portrait: SO9w8 \u00b7 Sozialer Typ 9 \u00b7 Erste Frau als Principal Chief der Cherokee Nation" },
@@ -24105,6 +24106,8 @@ const registerEntriesEN = [
   { term: "Karl Marx", route: "beruehmte-karl-marx", description: "Portrait: SO8w9 \u00b7 Social Type 8 \u00b7 Philosopher, economist, founder of Marxism" },
   { term: "Eli Jaxon-Bear", route: "beruehmte-eli-jaxon-bear", description: "Portrait: SX8w9 \u00b7 Sexual Type 8 \u00b7 Spiritual teacher, author" },
   { term: "Ludwig Erhard", route: "beruehmte-ludwig-erhard", description: "Portrait: SP9w1 \u00b7 Self-Preservation Type 9 \u00b7 Federal Minister of Economics, Chancellor" },
+  { term: "Laozi (Lao Tzu)", route: "beruehmte-laozi", description: "Portrait: SE9w1 \u00b7 Self-Preservation Type 9 \u00b7 Philosopher, founder of Daoism" },
+  { term: "Confucius (Kong Fuzi)", route: "beruehmte-konfuzius", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Philosopher, founder of Confucianism" },
   { term: "Abida Parveen", route: "beruehmte-abida-parveen", description: "Portrait: SP9w8 \u00b7 Self-Preservation Type 9 \u00b7 Singer, Queen of Sufi Music" },
   { term: "Julian Assange", route: "beruehmte-julian-assange", description: "Portrait: SO9w1 \u00b7 Social Type 9 \u00b7 Founder of WikiLeaks" },
   { term: "Wilma Mankiller", route: "beruehmte-wilma-mankiller", description: "Portrait: SO9w8 \u00b7 Social Type 9 \u00b7 First woman to serve as Principal Chief of the Cherokee Nation" },
@@ -31047,6 +31050,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"David Bowie \u2013 Sozialer Typ 1",
     teaser:"SO1w2 \u00b7 1947\u20132016. Musiker, K\u00fcnstler, kulturelle Grenzg\u00e4ngerfigur. Ziggy Stardust, Thin White Duke, Berliner Trilogie \u2013 f\u00fcnf Jahrzehnte Verwandlung mit dem Anspruch, gesellschaftliche Grenzen aufzul\u00f6sen. Die Gans, die anderen den Weg \u00f6ffnete. Tierentsprechung: Gans.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-konfuzius", name:"Konfuzius (Kong Fuzi)", added:"2026-08-07", subtyp:"SO1w2",
+    heading:"Konfuzius (Kong Fuzi) \u2013 Sozialer Typ 1",
+    teaser:"SO1w2 \u00b7 551\u2013479 v. Chr. Philosoph, Begr\u00fcnder des Konfuzianismus, Lehrer und Wanderer durch die F\u00fcrstent\u00fcmer Chinas. \u201eEinen Fehler zu machen und ihn nicht zu korrigieren \u2013 das ist der wahre Fehler.\u201c Die Gans, die zur Vorbildfigur einer ganzen Zivilisation wurde. Tierentsprechung: Gans.",
+    tags:["Philosophie","Geschichte"], gender:"m"},
   { route:"beruehmte-klaus-kinski", name:"Klaus Kinski", added:"2026-07-20", subtyp:"SX1w9",
     heading:"Klaus Kinski \u2013 Sexueller Typ 1",
     teaser:"SX1w9 \u00b7 1926\u20131991. Schauspieler, Kontratyp der Eins. Aguirre, Nosferatu, Fitzcarraldo. Die Schwarze Mamba des deutschen Kinos: unberechenbar, intensiv, unvermeidlich. Man konnte ihn lieben oder hassen \u2013 Gleichg\u00fcltigkeit war keine Option.",
@@ -49879,6 +49886,77 @@ function mohammedPortraitPage() {
   `);
 }
 
+function konfuziusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-konfuzius-portrait.jpg" alt="Konfuzius (Kong Fuzi)" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Konfuzius (Kong Fuzi)</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Philosoph, 551&ndash;479 v. Chr. &ndash; Begr\u00fcnder des Konfuzianismus &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; ein Tier, das im Verband fliegt, die Formation h\u00e4lt und mit lauter, unnachgiebiger Stimme darauf besteht, dass alle in derselben Ordnung bleiben. Kein Zufallstier f\u00fcr einen Mann, der sein ganzes Leben der Frage widmete, wie eine zerfallende Gesellschaft durch Vorbild, Sitte und Selbstkultivierung wieder in eine tragf\u00e4hige Form gebracht werden kann. Kong Fuzi &ndash; im Westen als Konfuzius latinisiert &ndash; lebte von 551 bis 479 v. Chr. in einer Zeit politischer Zersplitterung und moralischen Verfalls, der sogenannten Fr\u00fchlings- und Herbstperiode Chinas.</p>
+          <p class="vb-intro">Aus einer verarmten Adelsfamilie stammend, arbeitete er sich zun\u00e4chst als kleiner Beamter hoch, bevor er zum Wanderlehrer wurde: \u00dcber Jahrzehnte zog er mit einem wachsenden Kreis von Sch\u00fclern durch die zerstrittenen chinesischen F\u00fcrstent\u00fcmer, bot Herrschern seinen Rat an und wurde meist entt\u00e4uscht wieder fortgeschickt. Erst nach seinem Tod wurden seine Lehren, \u00fcberliefert in den <em>Gespr\u00e4chen</em> (Lunyu), zur pr\u00e4genden moralischen und politischen Grundlage Chinas f\u00fcr mehr als zwei Jahrtausende.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. \u201eDas ist der wahre Fehler\u201c &ndash; Selbstkorrektur als Prinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kaum ein Satz des Konfuzius bringt seinen Typus so klar auf den Punkt wie dieser aus den <em>Gespr\u00e4chen</em>: <em>\u201eEinen Fehler zu machen und ihn nicht zu korrigieren &ndash; das nennt man einen wahren Fehler.\u201c</em> Nicht der Fehler selbst ist die eigentliche Verfehlung, sondern die Weigerung, ihn zu berichtigen. Ein Satz, der zutiefst die Handschrift der Eins tr\u00e4gt: Vollkommenheit ist kein Zustand, den man erreicht und dann besitzt, sondern eine fortlaufende Praxis der Selbstpr\u00fcfung und Verbesserung.</p>
+          <p class="vb-intro">Genau darin unterscheidet sich die reife Eins von ihrem eigenen inneren Kritiker: Sie fordert nicht Fehlerlosigkeit, sondern Ehrlichkeit gegen\u00fcber dem eigenen Fehler und den Willen, daraus zu lernen. Konfuzius beschrieb sich selbst als jemanden, der noch mit siebzig Jahren \u201edem Herzen folgen konnte, ohne das Ma\u00df zu \u00fcberschreiten\u201c &ndash; nicht weil er nie irrte, sondern weil er ein Leben lang an sich arbeitete. Genau diese Haltung &ndash; nicht das Scheitern zu f\u00fcrchten, sondern die Weigerung zur Korrektur &ndash; ist der Kern dessen, was die soziale Eins von der Welt und von sich selbst verlangt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die soziale Eins: Vorbild statt Zwang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> lebt ihren Anspruch an Richtigkeit nicht als private Disziplin, sondern als Ma\u00dfstab f\u00fcr die Gemeinschaft. Naranjo beschreibt sie als die Eins, die zur lebendigen Norm wird: Sie fragt nicht nur \u201eWie soll ich handeln?\u201c, sondern \u201eWie muss eine Gesellschaft beschaffen sein, damit sie gut funktioniert?\u201c &ndash; und lebt die Antwort selbst vor, statt sie nur zu fordern.</p>
+          <p class="vb-intro">Genau das war Konfuzius' Lebensprojekt: Er wollte keine neuen Gesetze erlassen und keine Strafen versch\u00e4rfen, sondern Menschen &ndash; beginnend bei den Herrschenden &ndash; durch <em>Li</em> (Riten, Sitte) und <em>Ren</em> (Menschlichkeit, G\u00fcte) zu einem inneren Kompass f\u00fchren, der \u00e4u\u00dfere Kontrolle \u00fcberfl\u00fcssig macht. \u201eF\u00fchrt man das Volk durch Gesetze und h\u00e4lt es durch Strafen in Ordnung, so wird es diesen zu entgehen suchen, ohne Scham zu empfinden. F\u00fchrt man es aber durch Tugend und h\u00e4lt es durch Sitte in Ordnung, so wird es Scham empfinden und sich von selbst bessern\u201c, hei\u00dft es in den Gespr\u00e4chen &ndash; eine fast w\u00f6rtliche Definition dessen, was die soziale Eins von Ordnung erwartet: nicht erzwungen, sondern verinnerlicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Zweierfl\u00fcgel: Der Lehrer, der dient</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> gab Konfuzius' strengem moralischen Anspruch eine warme, zugewandte Seite. Er war kein einsamer Moralist, sondern ein Lehrer im eigentlichen Sinn: Der \u00dcberlieferung nach unterrichtete er, unabh\u00e4ngig von Herkunft oder Verm\u00f6gen der Sch\u00fcler &ndash; ein f\u00fcr seine Zeit radikaler Gedanke &ndash; und band sich \u00fcber Jahrzehnte an einen wachsenden Kreis von Sch\u00fclern, denen er sich individuell zuwandte. Seine ber\u00fchmteste p\u00e4dagogische Maxime lautet: \u201eIch erkl\u00e4re nicht dem, der nicht begierig ist zu lernen, und \u00f6ffne nicht dem, der sich nicht bem\u00fcht, sich verst\u00e4ndlich zu machen.\u201c</p>
+          <p class="vb-intro">Diese Kombination aus unbedingtem Anspruch und pers\u00f6nlicher Zuwendung ist die typische F\u00e4rbung der 1w2: Prinzipientreue, die nicht kalt bleibt, sondern sich in den Dienst konkreter Menschen stellt. Konfuzius wollte nicht nur eine bessere Gesellschaft beschreiben &ndash; er wollte sie durch die Erziehung jedes Einzelnen, den er erreichen konnte, tats\u00e4chlich formen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Edle (Junzi): Charakter als Lebensaufgabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Zentrum der konfuzianischen Lehre steht der Begriff des <em>Junzi</em>, meist als \u201eder Edle\u201c oder \u201eder vortreffliche Mensch\u201c \u00fcbersetzt &ndash; ein Ideal, das nicht durch Geburt oder Rang bestimmt wird, sondern durch best\u00e4ndige Selbstkultivierung. \u201eDer Edle sucht das Gute in sich selbst, der gemeine Mensch sucht es bei anderen\u201c, hei\u00dft es in den Gespr\u00e4chen &ndash; eine klare Absage an Ausreden und \u00e4u\u00dfere Schuldzuweisungen, die den Anspruch der Eins an sich selbst auf den Punkt bringt.</p>
+          <p class="vb-intro">Konfuzius unterschied f\u00fcnf zentrale Beziehungen &ndash; Herrscher und Untertan, Vater und Sohn, Ehemann und Ehefrau, \u00e4lterer und j\u00fcngerer Bruder, Freund und Freund &ndash;, die jeweils eigene, wechselseitige Pflichten begr\u00fcnden. Kein starres Machtgef\u00e4lle, sondern ein System, in dem Ordnung durch die gelebte \u00dcbernahme von Verantwortung auf jeder Seite entsteht &ndash; die soziale Eins, die Gesellschaft nicht als Ansammlung von Einzelinteressen, sondern als Geflecht wechselseitiger Pflichten begreift.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Scheitern zu Lebzeiten, Wirkung \u00fcber Jahrtausende</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu seinen Lebzeiten war Konfuzius vor allem eines: erfolglos im politischen Sinn. Kein F\u00fcrst folgte seinem Rat dauerhaft, seine wichtigste politische Anstellung im Staat Lu endete nach wenigen Jahren, und er verbrachte gut ein Jahrzehnt als heimatloser Wanderer zwischen den H\u00f6fen, oft knapp an Mitteln, gelegentlich in Lebensgefahr. Aus Sicht der Eins ist das keine Randnotiz, sondern der eigentliche Pr\u00fcfstein: Sie h\u00e4lt an ihrem inneren Ma\u00dfstab fest, auch wenn die Welt ihn nicht anerkennt &ndash; nicht aus Sturheit, sondern weil die Richtigkeit der Sache selbst der Ma\u00dfstab bleibt, unabh\u00e4ngig vom unmittelbaren Erfolg.</p>
+          <p class="vb-intro">Erst nach seinem Tod sammelten seine Sch\u00fcler seine Lehrgespr\u00e4che in den <em>Gespr\u00e4chen</em>, und erst Jahrhunderte sp\u00e4ter wurde der Konfuzianismus zur Staatsdoktrin Chinas &ndash; mit Wirkung bis in die Gegenwart, von der ostasiatischen Bildungsethik bis zu Pr\u00fcfungssystemen, die noch heute Spuren seiner Idee tragen, dass Charakter und Wissen erlernbar und lehrbar sind. Die Gans, die zu Lebzeiten kaum geh\u00f6rt wurde &ndash; und deren Formation zwei Jahrtausende lang Bestand hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten der sozialen Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w2 ist ihre F\u00e4higkeit, aus einem hohen moralischen Anspruch heraus tats\u00e4chlich zu dienen &ndash; nicht zu richten, sondern zu lehren, nicht zu bestrafen, sondern durch Vorbild zu ver\u00e4ndern. Konfuzius' Ideal, dass ein Mensch durch best\u00e4ndige Arbeit an sich selbst zum Edlen werden kann, unabh\u00e4ngig von Herkunft, war f\u00fcr seine Zeit ein zutiefst hoffnungsvoller Gedanke.</p>
+          <p class="vb-intro">Der Schatten der Eins zeigt sich in der Strenge, mit der Ma\u00dfst\u00e4be gesetzt werden &ndash; und im Risiko, dass aus einem lebendigen Ideal \u00fcber Jahrhunderte ein starres System werden kann, wie es der sp\u00e4tere, oft erstarrte Staatskonfuzianismus zeigte. Konfuzius selbst warnte davor, Riten zu leeren Formen erstarren zu lassen: \u201eRiten, Riten &ndash; meint man damit nur Jade und Seide?\u201c Ein Satz, der auch als Mahnung an jede Eins gelesen werden kann: Der Ma\u00dfstab muss lebendig bleiben, sonst wird aus Prinzipientreue blo\u00dfe Form.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so1", label:"SO1 \u2013 Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-laozi", label:"Portr\u00e4t: Laozi (Laotse) (SE9w1)"},
+        {route:"beruehmte-buddha", label:"Portr\u00e4t: Siddhartha Gautama (Buddha) (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function laoziPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -49938,7 +50016,7 @@ function laoziPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se9", label:"SE9 \u2013 Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-buddha", label:"Portr\u00e4t: Siddhartha Gautama (Buddha) (SX5w4)"},
-        {route:"beruehmte-ludwig-erhard", label:"Portr\u00e4t: Ludwig Erhard (SE9w1)"},
+        {route:"beruehmte-konfuzius", label:"Portr\u00e4t: Konfuzius (Kong Fuzi) (SO1w2)"},
       ])}
     </div>
   `);
@@ -78754,6 +78832,7 @@ function render() {
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
       "beruehmte-mohammed": mohammedPortraitPage,
+      "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,
       "beruehmte-greta-garbo": gretaGarboPortraitPage,
       "beruehmte-buddha": buddhaPortraitPage,
