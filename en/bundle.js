@@ -2123,7 +2123,9 @@ const ORGANISM_Q_EN = {
 };
 
 
-document.title = text.meta.appTitle;
+if (!location.hash || location.hash === "#start") {
+  document.title = text.meta.appTitle;
+}
 
 window.addEventListener("hashchange", () => {
   const raw = location.hash.replace("#", "") || "start";

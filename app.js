@@ -1664,7 +1664,12 @@ const TYPNAMEN_MOTIV = {
 };
 const text = uiText;
 
-document.title = text.meta.appTitle;
+// Nur auf der Startseite überschreiben - Unterseiten (inkl. vorgerenderter
+// SEO-Snapshot-Seiten in /<route>/index.html) tragen ihren eigenen <title>
+// bereits im HTML, der sonst hier sofort wieder überschrieben würde.
+if (!location.hash || location.hash === "#start") {
+  document.title = text.meta.appTitle;
+}
 
 window.addEventListener("hashchange", () => {
   const raw = location.hash.replace("#", "") || "start";
