@@ -3,7 +3,8 @@
 // gibt Antwort + Quellen zurück. Der API-Key steckt NIE im Code, sondern
 // als Worker-Secret (siehe Deploy-Anleitung).
 
-import knowledge from "./knowledge.json";
+import knowledgeDE from "./knowledge.json";
+import knowledgeEN from "./knowledge-en.json";
 import { retrieveRelevantChunks } from "../retrieval.mjs";
 
 const SYSTEM_INSTRUCTION_DE = `Du bist "Der Wegweiser", der Wissens-Assistent des Enneagramm-Heilungskompass von Detlef Rathmer.
@@ -75,6 +76,7 @@ export default {
         });
       }
 
+      const knowledge = lang === "en" ? knowledgeEN : knowledgeDE;
       const relevant = retrieveRelevantChunks(question, knowledge, 5);
       if (relevant.length === 0) {
         const noMatch =
