@@ -382,6 +382,7 @@ export const registerEntries = [
 
   // Berühmte Persönlichkeiten – Portraits
   { term: "Wladimir Putin",                route: "beruehmte-wladimir-putin",              description: "Portrait: SX6w5 · Sexueller Typ 6 · Politiker, Präsident der Russischen Föderation" },
+  { term: "Moses",                         route: "beruehmte-moses",                       description: "Portrait: SX6w5 · Sexueller Typ 6 · Prophet, Gesetzgeber, Anführer des Exodus" },
   { term: "Scarlett Johansson",             route: "beruehmte-scarlett-johansson",          description: "Portrait: SX6w7 · Sexueller Typ 6 · Schauspielerin, Produzentin" },
   { term: "Francis Bacon",                  route: "beruehmte-francis-bacon",               description: "Portrait: SE7w8 · Selbsterhaltender Typ 7 · Philosoph, Staatsmann, Lordkanzler" },
   { term: "Larry King",                     route: "beruehmte-larry-king",                  description: "Portrait: SE7w6 · Selbsterhaltender Typ 7 · Talkshow-Moderator" },
@@ -757,6 +758,7 @@ export const registerEntriesEN = [
   { term: "Keanu Reeves", route: "beruehmte-keanu-reeves", description: "Portrait: SX9w8 · Sexual Type 9 · Actor, The Matrix, quiet presence" },
   { term: "Klaus Kinski", route: "beruehmte-klaus-kinski", description: "Portrait: SX1w9 · Sexual Type 1 · Actor, intensity & excess" },
   { term: "Kollegah", route: "beruehmte-kollegah", description: "Portrait: SO3w4 · Social Type 3 · Rapper, fitness icon, brand & mask" },
+  { term: "Moses", route: "beruehmte-moses", description: "Portrait: SX6w5 · Sexual Type 6 · Prophet, lawgiver, leader of the Exodus" },
   { term: "Lady Diana", route: "beruehmte-lady-diana", description: "Portrait: SX2w3 · Sexual Type 2 · Prinzessin, Heart of the world" },
   { term: "Lena Meyer-Landrut", route: "beruehmte-lena-meyer-landrut", description: "Portrait: SX3w2 · Sexual Type 3 · Singer, Eurovision winner" },
   { term: "Leonardo DiCaprio", route: "beruehmte-leonardo-dicaprio", description: "Portrait: SX3w4 · Sexual Type 3 · Oscar winner, Environmental activist" },

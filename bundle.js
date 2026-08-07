@@ -23815,6 +23815,7 @@ const registerEntries = [
 
   // Ber\u00fchmte Pers\u00f6nlichkeiten \u2013 Portraits
   { term: "Wladimir Putin",                route: "beruehmte-wladimir-putin",              description: "Portrait: SX6w5 \u00b7 Sexueller Typ 6 \u00b7 Politiker, Pr\u00e4sident der Russischen F\u00f6deration" },
+  { term: "Moses",                         route: "beruehmte-moses",                       description: "Portrait: SX6w5 \u00b7 Sexueller Typ 6 \u00b7 Prophet, Gesetzgeber, Anf\u00fchrer des Exodus" },
   { term: "Scarlett Johansson",             route: "beruehmte-scarlett-johansson",          description: "Portrait: SX6w7 \u00b7 Sexueller Typ 6 \u00b7 Schauspielerin, Produzentin" },
   { term: "Francis Bacon",                  route: "beruehmte-francis-bacon",               description: "Portrait: SE7w8 \u00b7 Selbsterhaltender Typ 7 \u00b7 Philosoph, Staatsmann, Lordkanzler" },
   { term: "Larry King",                     route: "beruehmte-larry-king",                  description: "Portrait: SE7w6 \u00b7 Selbsterhaltender Typ 7 \u00b7 Talkshow-Moderator" },
@@ -31430,6 +31431,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kollegah \u2013 Sexueller Typ 6",
     teaser:"SX6w5 \u00b7 geb. 1984. Rapper, K\u00fcnstler & Unternehmer, 2016 zum Islam \u00fcbergetreten. Der Wolf, der sein Rudel aus Worten baut \u2013 und der Angst in Dominanz verwandelt, bis er nicht mehr wei\u00df, wohin damit.",
     added:"2026-07-15", tags:["Musik","Gesellschaft"], gender:"m" },
+  { route:"beruehmte-moses", name:"Moses", added:"2026-08-07", subtyp:"SX6w5",
+    heading:"Moses \u2013 Sexueller Typ 6",
+    teaser:"SX6w5 \u00b7 ca. 13. Jh. v. Chr. (biblische \u00dcberlieferung). Prophet, Gesetzgeber, Anf\u00fchrer des Exodus. Vom z\u00f6gernden Hirten am brennenden Dornbusch zum furchtlosen Konfrontierer des Pharaos. Der Wolf, der die eigene Angst erst \u00fcberwindet, um dann f\u00fcr sein Rudel durch die W\u00fcste zu gehen.",
+    tags:["Religion","Geschichte"], gender:"m"},
   { route:"beruehmte-michael-schumacher", name:"Michael Schumacher", added:"2026-07-21", subtyp:"SX6w7",
     heading:"Michael Schumacher \u2013 Sexueller Typ 6",
     teaser:"SX6w7 \xb7 geb. 1969 in H\xfcrth. Formel-1-Rennfahrer, siebenmaliger Weltmeister, 91 Siege. Der Wolf, der Angst in Geschwindigkeit verwandelt hat &ndash; und dessen Stille seit 2013 lauter ist als alles, was er je gesagt hat.",
@@ -49881,6 +49886,77 @@ function mohammedPortraitPage() {
         {route:"subtype/so8", label:"SO8 \u2013 Der L\u00f6we: Subtyp-Profil"},
         {route:"beruehmte-karl-marx", label:"Portr\u00e4t: Karl Marx (SO8w9)"},
         {route:"beruehmte-bud-spencer", label:"Portr\u00e4t: Bud Spencer (SO8w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function mosesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-moses-portrait.jpg" alt="Moses" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Moses</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit F\u00fcnferfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Prophet, Gesetzgeber, ca. 13. Jh. v. Chr. (biblische \u00dcberlieferung) &ndash; Anf\u00fchrer des Exodus &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs &ndash; ein Tier, das Gefahr nicht meidet, sondern ihr entgegentritt, sobald es sein Rudel bedroht sieht. Kein Zufallstier f\u00fcr eine Gestalt, die zun\u00e4chst alles tut, um einer Berufung zu entgehen, und die dann, einmal \u00fcberzeugt, furchtlos dem m\u00e4chtigsten Herrscher ihrer Zeit gegen\u00fcbertritt. Moses, der \u00dcberlieferung des zweiten Buches Mose (Exodus) nach als Kind der versklavten Hebr\u00e4er geboren und im Haus des Pharaos aufgewachsen, floh nach einem Totschlag in die W\u00fcste Midian und lebte dort jahrzehntelang als Hirte &ndash; zur\u00fcckgezogen, unauff\u00e4llig, weit weg von jeder Macht.</p>
+          <p class="vb-intro">Erst am brennenden Dornbusch, in der Einsamkeit der W\u00fcste, wird er mit einer Aufgabe konfrontiert, die alles \u00fcbersteigt, was er sich zutraut: sein Volk aus der Sklaverei \u00c4gyptens zu befreien. Kein Held, der sich freiwillig meldet, sondern ein Mann, der sich der Berufung mit aller Kraft widersetzt &ndash; und genau darin liegt der Schl\u00fcssel zu seinem Typus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der Dornbusch: Zweifel als erste Reaktion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Berufungsszene am Dornbusch ist eines der eindr\u00fccklichsten Zeugnisse enneagrammatischer Sechser-Dynamik in der gesamten \u00dcberlieferung. Nach der biblischen Erz\u00e4hlung widerspricht Moses nicht einmal, sondern gleich viermal: \u201eWer bin ich, dass ich zum Pharao gehen sollte?" &ndash; \u201eSie werden mir nicht glauben." &ndash; \u201eIch bin nicht redegewandt, ich bin schwer von Mund und schwer von Zunge." &ndash; und schlie\u00dflich, unverbl\u00fcmt: \u201eSende doch, wen du sonst senden willst." Erst nach wiederholter Zusicherung g\u00f6ttlicher Unterst\u00fctzung, einschlie\u00dflich Wunderzeichen zur Beglaubigung, nimmt er die Aufgabe an.</p>
+          <p class="vb-intro">Das ist keine Feigheit, sondern die klassische Struktur der Sechs: Sie pr\u00fcft, zweifelt, sucht Absicherung, bevor sie handelt &ndash; nicht aus Schw\u00e4che, sondern weil sie die Tragweite einer Entscheidung von Anfang an mitdenkt. Anders als eine Acht oder eine Drei, die sich einer Aufgabe impulsiv stellen w\u00fcrde, braucht die Sechs die Gewissheit, dass die Grundlage tr\u00e4gt, bevor sie den ersten Schritt tut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die sexuelle Sechs: Vom Zweifel zur Furchtlosigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist der Kontratyp unter den Sechsern &ndash; jener Subtyp, der die f\u00fcr Typ 6 charakteristische Angst nicht durch Vorsicht und R\u00fcckversicherung bew\u00e4ltigt, sondern durch das Gegenteil: durch St\u00e4rke, Konfrontation und den demonstrativen Beweis, dass die Angst keine Macht \u00fcber einen hat. Naranjo nennt diesen Subtyp \u201eSt\u00e4rke/Sch\u00f6nheit" &ndash; die Sechs, die furchtloser wirkt als jeder andere Typ, weil sie ihre eigene Furcht am aktivsten bek\u00e4mpft.</p>
+          <p class="vb-intro">Genau dieses Muster zeigt sich bei Moses nach der Berufung: Er, der sich am Dornbusch viermal gewunden hatte, tritt nun wiederholt und ohne erkennbares Z\u00f6gern vor den Pharao &ndash; den m\u00e4chtigsten Herrscher der bekannten Welt &ndash; und fordert die Freilassung eines ganzen versklavten Volkes. Kein einmaliger Auftritt, sondern ein wiederholtes Zur\u00fcckkehren trotz wiederholter Ablehnung, trotz eskalierender Bedrohung. Die kontraphobische Sechs k\u00e4mpft nicht trotz der Angst, sondern gerade weil sie die Angst nicht \u00fcber sich bestimmen lassen will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der F\u00fcnferfl\u00fcgel: R\u00fcckzug vor dem Sturm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> zeigt sich bei Moses in den Jahrzehnten vor der Berufung: vierzig Jahre als Hirte in der W\u00fcste Midian, fernab jeder \u00d6ffentlichkeit, jeder Macht, jedes gesellschaftlichen Einflusses &ndash; eine Zeit des R\u00fcckzugs, der Beobachtung, des Verarbeitens. Anders als ein 6w7, der seine Unsicherheit eher durch Aktivit\u00e4t und Ablenkung \u00fcberspielen w\u00fcrde, sucht der F\u00fcnferfl\u00fcgel Distanz und Klarheit, bevor er sich wieder der Welt zuwendet.</p>
+          <p class="vb-intro">Diese Kombination erkl\u00e4rt, warum Moses als F\u00fchrungsfigur eine eigent\u00fcmliche Doppelnatur tr\u00e4gt: einerseits der distanzierte, fast introvertierte Denker, der Gott lieber im Zwiegespr\u00e4ch auf dem Berg begegnet als der Menge; andererseits der entschlossene Konfrontierer, sobald die Sache klar ist. Der F\u00fcnferfl\u00fcgel liefert die Tiefe und die Zur\u00fcckgezogenheit, die kontraphobische Sechs die Durchsetzungskraft, sobald der R\u00fcckzug vorbei ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Zorn des Wolfs: Impulsivit\u00e4t als Schattenseite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die kontraphobische Sechs zeigt ihre Schattenseite in spontanen, oft harten Ausbr\u00fcchen, wenn sie sich provoziert oder verraten f\u00fchlt. Schon vor der Berufung t\u00f6tet Moses einen \u00e4gyptischen Aufseher, den er einen hebr\u00e4ischen Sklaven schlagen sieht &ndash; eine impulsive, ungeplante Gewalttat, die ihn zur Flucht zwingt. Jahrzehnte sp\u00e4ter, als er vom Berg Sinai zur\u00fcckkehrt und sein Volk beim Tanz um das Goldene Kalb vorfindet, zerschmettert er in einem Zornesausbruch die frisch empfangenen Gesetzestafeln.</p>
+          <p class="vb-intro">Beide Szenen zeigen dieselbe Struktur: kein kalkuliertes Machtkalk\u00fcl wie bei einer Acht, sondern eine pl\u00f6tzliche, fast \u00fcberw\u00e4ltigende Reaktion auf empfundenen Verrat oder Unrecht &ndash; typisch f\u00fcr die Sechs, deren tiefstes Bed\u00fcrfnis nach Verl\u00e4sslichkeit und Loyalit\u00e4t verletzt wird. Der Wolf, der bei\u00dft, wenn das Rudel die gemeinsame Ordnung bricht, die er gerade erst m\u00fchsam errichtet hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Vierzig Jahre W\u00fcste: Sicherheit durch Regel und Gesetz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die vierzig Jahre des Exodus durch die W\u00fcste sind aus enneagrammatischer Sicht eine einzige gro\u00dfe Sechser-Bewegung: ein Volk, das st\u00e4ndig zwischen Vertrauen und Zweifel schwankt, das sich zur\u00fcck nach \u00c4gypten sehnt, sobald die Lage unsicher wird, und das durch klare, verbindliche Regeln &ndash; die Zehn Gebote, das gesamte mosaische Gesetzeswerk &ndash; erst zu einer stabilen Gemeinschaft wird. Kein Zufall, dass ausgerechnet ein 6er-Anf\u00fchrer diesem Volk nicht eine Vision, sondern ein Regelwerk als Fundament gibt: Gesetz als \u00e4u\u00dferer Anker f\u00fcr eine innerlich verunsicherte Gruppe.</p>
+          <p class="vb-intro">Moses selbst bleibt w\u00e4hrend dieser gesamten Zeit die Instanz, die immer wieder zwischen Volk und Gott vermittelt, die Zusicherungen einholt, die B\u00fcndnisse (Bund) erneuert &ndash; die klassische Sechser-Funktion des Vertrauensankers, der selbst nie ganz frei von Zweifel ist, aber gerade deshalb versteht, wie sehr andere diese Sicherheit brauchen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten der sexuellen Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 ist ihre F\u00e4higkeit, aus tiefem Zweifel heraus zu wachsender Furchtlosigkeit zu gelangen &ndash; nicht durch Verdr\u00e4ngung der Angst, sondern durch ihre bewusste \u00dcberwindung im Dienst einer Sache, an die sie glaubt. Moses' Weg vom widerstrebenden Hirten zum unerschrockenen Konfrontierer des Pharaos ist eines der eindr\u00fccklichsten Beispiele dieser Entwicklung in der gesamten \u00dcberlieferung.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Konsequenz seiner eigenen Pr\u00fcfungsbed\u00fcrftigkeit: Der biblischen Erz\u00e4hlung nach darf Moses das Gelobte Land selbst nicht betreten &ndash; als Strafe daf\u00fcr, dass er in einer Situation des Zweifels am Wasser von Meriba nicht auf die Anweisung vertraute, sondern eigenm\u00e4chtig handelte. Ein Detail, das die zentrale Spannung der Sechs auf den Punkt bringt: das Ringen zwischen dem Bed\u00fcrfnis nach Vertrauen und dem Drang, die Kontrolle selbst in die Hand zu nehmen, bleibt bis zum Ende ungel\u00f6st.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-konfuzius", label:"Portr\u00e4t: Konfuzius (Kong Fuzi) (SO1w2)"},
+        {route:"beruehmte-mohammed", label:"Portr\u00e4t: Mohammed ibn Abdullah (SO8w9)"},
       ])}
     </div>
   `);
@@ -78832,6 +78908,7 @@ function render() {
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
       "beruehmte-mohammed": mohammedPortraitPage,
+      "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,
       "beruehmte-greta-garbo": gretaGarboPortraitPage,

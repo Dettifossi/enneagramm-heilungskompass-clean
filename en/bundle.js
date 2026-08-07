@@ -746,6 +746,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Melanie Kreis – Social Type 6",
     teaser:"SO6w5 \xb7 born 1971 in Bonn. Chief Financial Officer (CFO) of the DHL Group. Physicist, McKinsey consultant, DAX manager. The meerkat that keeps watch - for one of the largest logistics companies in the world.",
     tags:["Business","F\xfchrung"], gender:"f"},
+  { route:"beruehmte-moses", name:"Moses", added:"2026-08-07", subtyp:"SX6w5",
+    heading:"Moses – Sexual Type 6",
+    teaser:"SX6w5 · c. 13th century BCE (biblical tradition). Prophet, lawgiver, leader of the Exodus. From the reluctant shepherd at the burning bush to the fearless confronter of Pharaoh. The wolf who overcomes his own fear first, then walks his pack through the desert.",
+    tags:["Religion","History"]},
   { route:"beruehmte-michael-schumacher", name:"Michael Schumacher", added:"2026-07-21", subtyp:"SX6w7",
     heading:"Michael Schumacher – Sexual Type 6",
     teaser:"SX6w7 \xb7 born 1969 in H\xfcrth. Formula 1 racing driver, seven-time world champion, 91 victories. The wolf who turned fear into speed &mdash; and whose silence since 2013 is louder than anything he has ever said.",
@@ -16642,6 +16646,77 @@ function mohammedPortraitPage() {
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype profile"},
         {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
         {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function mosesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-moses-portrait.jpg" alt="Moses" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Moses</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Prophet, lawgiver, c. 13th century BCE (biblical tradition) &ndash; Leader of the Exodus &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Six &ndash; an animal that does not avoid danger, but turns to face it the moment it senses a threat to its pack. No accidental animal for a figure who first does everything he can to escape a calling, and who then, once convinced, fearlessly confronts the most powerful ruler of his time. According to the biblical account in Exodus, Moses was born to enslaved Hebrews and raised in Pharaoh's household, fled into the wilderness of Midian after killing a man, and lived there for decades as a shepherd &ndash; withdrawn, unremarkable, far from any power.</p>
+          <p class="vb-intro">Only at the burning bush, in the solitude of the desert, is he confronted with a task that exceeds everything he believes himself capable of: freeing his people from Egyptian slavery. Not a hero who volunteers, but a man who resists the calling with all his strength &ndash; and it is exactly there that the key to his type lies.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Burning Bush: Doubt as the First Response</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The burning-bush scene is one of the most striking testimonies to Six-type dynamics in the entire biblical tradition. According to the narrative, Moses objects not once but four times: "Who am I that I should go to Pharaoh?" &ndash; "They will not believe me." &ndash; "I am slow of speech and slow of tongue." &ndash; and finally, bluntly: "Please send someone else." Only after repeated assurances of divine support, including miraculous signs to authenticate his mission, does he accept the task.</p>
+          <p class="vb-intro">This is not cowardice, but the classic structure of the Six: she tests, doubts, seeks reassurance before acting &ndash; not out of weakness, but because she weighs the full consequences of a decision from the very start. Unlike an Eight or a Three, who would meet a task impulsively, the Six needs certainty that the ground beneath her will hold before she takes the first step.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Sexual Six: From Doubt to Fearlessness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Six (SX6)</strong> is the counter-type among the Sixes &ndash; the subtype that does not manage the fear characteristic of Type 6 through caution and reassurance-seeking, but through the opposite: through strength, confrontation, and the demonstrative proof that fear holds no power over her. Naranjo calls this subtype "strength/beauty" &ndash; the Six who appears more fearless than any other type, precisely because she fights her own fear most actively.</p>
+          <p class="vb-intro">This exact pattern shows up in Moses after his calling: the man who had wavered four times at the burning bush now stands repeatedly, without visible hesitation, before Pharaoh &ndash; the most powerful ruler of the known world &ndash; demanding the freedom of an entire enslaved people. Not a single appearance, but a repeated return despite repeated refusal, despite escalating danger. The counterphobic Six does not fight in spite of the fear, but precisely because she refuses to let the fear determine her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Five-Wing: Retreat Before the Storm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> shows itself in the decades before Moses's calling: forty years as a shepherd in the wilderness of Midian, far from any public life, power, or social influence &ndash; a time of withdrawal, observation, and processing. Unlike a 6w7, who would tend to cover insecurity through activity and distraction, the Five-wing seeks distance and clarity before turning back to the world.</p>
+          <p class="vb-intro">This combination explains why Moses carries a peculiar dual nature as a leader: on one hand the distant, almost introverted thinker who prefers to meet God in dialogue on the mountain rather than address the crowd; on the other, the resolute confronter once the matter is clear. The Five-wing supplies the depth and withdrawal; the counterphobic Six supplies the assertiveness once the retreat is over.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Wolf's Anger: Impulsiveness as Shadow Side</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The counterphobic Six shows her shadow side in sudden, often harsh outbursts when she feels provoked or betrayed. Even before his calling, Moses kills an Egyptian overseer he sees beating a Hebrew slave &ndash; an impulsive, unplanned act of violence that forces him to flee. Decades later, returning from Mount Sinai to find his people dancing around the Golden Calf, he shatters the freshly received tablets of the law in a burst of anger.</p>
+          <p class="vb-intro">Both scenes show the same structure: not a calculated exercise of power, as an Eight might display, but a sudden, almost overwhelming reaction to perceived betrayal or injustice &ndash; typical of the Six, whose deepest need for reliability and loyalty has been violated. The wolf that bites when the pack breaks the shared order it has only just painstakingly established.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Forty Years in the Desert: Security Through Rule and Law</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The forty years of the Exodus through the desert are, from an Enneagram perspective, one long Six-type movement: a people constantly swinging between trust and doubt, longing to return to Egypt the moment things become uncertain, and only becoming a stable community through clear, binding rules &ndash; the Ten Commandments, the entire Mosaic law. It is no coincidence that a Six-type leader gives this people not a vision, but a body of law as its foundation: law as an external anchor for an internally insecure group.</p>
+          <p class="vb-intro">Throughout this entire time, Moses remains the mediating authority between the people and God, repeatedly seeking reassurance, renewing the covenant &ndash; the classic Six function of the trust-anchor who is never entirely free of doubt himself, but precisely because of that understands how badly others need this security.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Light and Shadow of the Sexual Six</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w5 is her ability to move from deep doubt toward growing fearlessness &ndash; not by suppressing the fear, but by consciously overcoming it in service of a cause she believes in. Moses's path from a reluctant shepherd to the unafraid confronter of Pharaoh is one of the most striking examples of this development in the entire tradition.</p>
+          <p class="vb-intro">The shadow shows in the consequences of his own need for proof: according to the biblical narrative, Moses himself is not allowed to enter the Promised Land &ndash; punished for acting on his own authority instead of trusting the instruction given to him, in a moment of doubt at the waters of Meribah. A detail that captures the Six's central tension precisely: the struggle between the need to trust and the urge to seize control oneself remains unresolved right to the end.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype profile"},
+        {route:"beruehmte-konfuzius", label:"Portrait: Confucius (Kong Fuzi) (SO1w2)"},
+        {route:"beruehmte-mohammed", label:"Portrait: Muhammad ibn Abdullah (SO8w9)"},
       ])}
     </div>
   `);
@@ -45024,6 +45099,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
       "beruehmte-mohammed": mohammedPortraitPage,
+      "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,
       "beruehmte-greta-garbo": gretaGarboPortraitPage,
