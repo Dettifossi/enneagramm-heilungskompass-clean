@@ -25,6 +25,8 @@
     <link rel="alternate" hreflang="de" href="https://kompass.verlagshausrathmer.com/" />
     <link rel="alternate" hreflang="en" href="https://kompass.verlagshausrathmer.com/en/" />
     <link rel="alternate" hreflang="x-default" href="https://kompass.verlagshausrathmer.com/" />
+    <!-- aggregateRating/review manually taken from bewertungen-admin.html (as of 2026-08-07,
+         22 approved reviews, all 5 stars) - update reviewCount/selection when new ones are approved -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -36,7 +38,19 @@
       "description": "The interactive Enneagram Healing Compass by Detlef Rathmer – subtype profiles for all 27 Enneagram subtypes, remedies from homeopathy, Bach flowers, gemstones and TCM, portraits of famous personalities, and a self-discovery quiz.",
       "author": { "@type": "Person", "name": "Detlef Rathmer" },
       "offers": { "@type": "Offer", "price": "89.00", "priceCurrency": "USD" },
-      "inLanguage": ["de", "en"]
+      "inLanguage": ["de", "en"],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "22"
+      },
+      "review": [
+        { "@type": "Review", "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "author": { "@type": "Person", "name": "Verified user" }, "reviewBody": "An inexhaustible Enneagram universe! By far the best app on the market - worth every cent! It's like a living encyclopedia for your pocket, constantly expanded with new analyses and cases." },
+        { "@type": "Review", "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "author": { "@type": "Person", "name": "Verified user" }, "reviewBody": "Incredible insider knowledge! Astonishing what you get here for the price. This app is a wealth of insights you simply can't find anywhere else." },
+        { "@type": "Review", "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "author": { "@type": "Person", "name": "Verified user" }, "reviewBody": "A brilliant system with incredible value! Despite the huge amount of information, everything is perfectly structured and easy to navigate." },
+        { "@type": "Review", "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "author": { "@type": "Person", "name": "Verified user" }, "reviewBody": "This app is truly excellent and offers an incredible amount of content for the price. Overall it's extensive, thoughtful and nearly perfectly executed. Clear five stars, highly recommended." },
+        { "@type": "Review", "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "author": { "@type": "Person", "name": "Verified user" }, "reviewBody": "Finally everything in one place! I've been studying the Enneagram for years, but I've never seen such a deep yet clear collection before." }
+      ]
     }
     </script>
     <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
