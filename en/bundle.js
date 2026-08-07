@@ -2334,17 +2334,17 @@ function nav(active) {
       const lockedBasis = !hasBasis();
       const locked = lockedHeil || lockedBasis;
       const lockTarget = lockedHeil ? "heilwissen" : "basis";
-      const sortedDropdown = label === "Charts"
-        ? [...dropdown].sort((a, b) => a.label.localeCompare(b.label, "de"))
+      const sortedDropdown = label === "Diagrams"
+        ? [...dropdown].sort((a, b) => a.label.localeCompare(b.label, "en"))
         : dropdown;
       const subItems = sortedDropdown.map(({ route: sr, label: sl }) => {
         const neuBadge = SCHAUBILDER_NEU[sr] && new Date()-new Date(SCHAUBILDER_NEU[sr])<30*864e5
           ? ' <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:4px;vertical-align:middle;letter-spacing:0.05em;">NEU</span>' : '';
         return `<button class="nav-dropdown__item" data-route="${locked ? ("freischalt/" + lockTarget) : sr}">${sl}${neuBadge}</button>`;
       }).join("");
-      const isCharts = label === "Charts";
+      const isCharts = label === "Diagrams";
       const searchBox = isCharts
-        ? `<div class="nav-dropdown__search-wrap"><input class="nav-dropdown__search" type="text" placeholder="Schaubild suchen …" autocomplete="off" /></div>`
+        ? `<div class="nav-dropdown__search-wrap"><input class="nav-dropdown__search" type="text" placeholder="Search diagrams …" autocomplete="off" /></div>`
         : "";
       const isMultiline = label.includes("<br>");
       return `<div class="nav-dropdown-wrap${isActive ? " is-active" : ""}${isCharts ? " nav-dropdown-wrap--searchable" : ""}">
