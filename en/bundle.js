@@ -39029,26 +39029,26 @@ function limericksPage() {
     ${pageHeader("limericks")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Interesting Insights</p>
-      <h1 class="section-title">Die 9 Enneagramm-Limericks</h1>
+      <h1 class="section-title">The 9 Enneagram Limericks</h1>
       <p class="psycho-intro">A limerick is a short, rhythmic five-line poem with a fixed rhyme scheme and usually a humorous or even transforming punchline &ndash; making it a surprisingly precise vessel for the nine types.</p>
       <img
         src="../assets/limericks.jpg"
-        alt="Die 9 Enneagramm-Limericks"
+        alt="The 9 Enneagram Limericks"
         style="width:100%;border-radius:8px;margin:1.5rem 0;"
       />
 
       <p style="font-size:0.92rem;color:var(--gray-mid);line-height:1.7;margin-bottom:2rem;">The name most likely originates from the Irish city of Limerick. There, in the 18th and early 19th centuries, there was a social drinking and mocking-song game &ndash; after each improvised stanza, the circle sang a refrain: <em>&bdquo;Will you come up to Limerick?&ldquo;</em> From this, a poetic form developed. Here, it carries the nine types &ndash; each in five lines, each with a twist at the end.</p>
 
       ${[
-        ["1", "Der Reformer", "Es lebte ein Mensch, der nach Klarheit stets strebte,", "weil Ordnung im Innern nach Reinheit sich sehnte.", "Er milderte Pflicht,", "ließ Wärme ins Licht —", "und fand: Güte trägt weiter als strenger Zwang."],
-        ["2", "Der Helfer", "Es lebte ein Herz, das sich schenkend verlor,", "es stellte die andern stets leise zuvor.", "Als es sich erspürt,", "ward Liebe berührt —", "denn Geben wird wahr, wenn das Selbst tritt hervor."],
-        ["3", "Der Erfolgreiche", "Es eilte ein Mensch, stets dem Ziele entlang,", "vom Bild seiner Stärke nach außen gedrängt.", "Als Stille ihn fand,", "fiel die Rolle wie Sand —", "und Sein wog tiefer als jeder Empfang."],
-        ["4", "Der Individualist", "Es fühlte ein Mensch wie ein offenes Meer,", "die Sehnsucht zog leise sein Innerstes leer.", "Im einfachen Sein,", "ward Tiefe ganz rein —", "da trug ihn das Leben, nicht die Suche mehr."],
-        ["5", "Der Beobachter", "Es saß ein stiller Geist fern vom Lärm,", "bewahrte die Welt in gedanklichem Schwärm.", "Doch als er empfand,", "dass Leben verband —", "ward Wissen zu Wärme, und Nähe wurd' mehr."],
-        ["6", "Der Loyale", "Es fragte ein Mensch, sah Gefahren im Raum,", "der Zweifel erschien ihm oft größer als Traum.", "Doch Schritt wurde Mut,", "und Vertrauen tat gut —", "so wuchs aus dem Fragen ein tragender Baum."],
-        ["7", "Der Enthusiast", "Es suchte ein Mensch stets das Leichte, das Weit,", "entwich vor dem Schmerz in die Fülle der Zeit.", "Als Tiefe ihn hielt,", "ward Freude gefühlt —", "nicht Flucht, sondern Gegenwart machte ihn wirklich weit."],
-        ["8", "Der Herausforderer", "Es stand eine Kraft unbeugsam und klar,", "die schützte, was schwach und gefährdet oft war.", "Als Herz sich gezeigt,", "ward Stärke geweicht —", "und Macht wurde Liebe, die tragender war."],
-        ["9", "Der Friedvolle", "Es ruhte ein Mensch still im weiten Dazwischen,", "wo Gegensätze leise sich lösen und mischen.", "Er fand seine Spur,", "ward wach in sich nur —", "und Frieden begann, als er aufhörte, sich zu verwischen."],
+        ["1", "The Reformer", "There once was a man ruled by order,", "who policed every inch of his border.", "When he loosened his grip,", "and let warmth touch his lip,", "he found grace ruled better than order."],
+        ["2", "The Helper", "There once was a heart bent on giving,", "who forgot she herself was worth living.", "Till she counted herself,", "and took love off the shelf,", "true giving needs the giver's own living."],
+        ["3", "The Achiever", "There once was a man built for winning,", "whose worth kept on endlessly spinning.", "When stillness he found,", "his role hit the ground —", "and being outweighed all the grinning."],
+        ["4", "The Individualist", "There once was a soul like the sea,", "whose longing ran hollow and free.", "In simple delight,", "depth turned pure and right —", "and life, not the search, set her free."],
+        ["5", "The Observer", "There once was a mind calm and still,", "who watched the whole world from the hill.", "When life touched his core,", "he knew something more —", "and knowledge grew warm past the chill."],
+        ["6", "The Loyalist", "There once was a soul full of doubt,", "who saw every danger about.", "Yet step he would take,", "and trust he would make —", "till doubt grew a tree, strong and stout."],
+        ["7", "The Enthusiast", "There once was a soul chasing light,", "who fled from his pain in swift flight.", "When depth held him fast,", "joy settled at last —", "not fleeing, but presence, brought light."],
+        ["8", "The Challenger", "There once was a force strong and clear,", "who guarded the weak, drawing near.", "When his heart came in view,", "his strength softened too —", "and power grew love, not just fear."],
+        ["9", "The Peacemaker", "There once was a soul calm and wide,", "who rested where opposites collide.", "He found his own ground,", "awake and unbound —", "and peace bloomed the moment he ceased to hide."],
       ].map(([nr, titel, z1, z2, z3, z4, z5]) => `
         <div style="background:var(--cream);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;margin-bottom:1.5rem;">
           <p style="font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold-dark);margin:0 0 0.3rem;">Type ${nr} &middot; ${titel}</p>
