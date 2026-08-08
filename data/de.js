@@ -5174,6 +5174,7 @@ export const uiText = {
       { route: "antriebskraefte", label: "Antriebskr\xe4fte der Menschheit" },
       { route: "aufmerksamkeitsfokus", label: "Aufmerksamkeitsfokus & Blindheit" },
       { route: "basisemotionen", label: "Basisemotionen" },
+      { route: "enneagramm-emotionalitaet", label: "Enneagramm und Emotionalität" },
       { route: "beruhmte-komponisten", label: "Berühmte Komponisten" },
       { route: "homoeopathie-songs", label: "Enneagramm, Homöopathie & Songs" },
       { route: "beruhmte-philosophen", label: "Berühmte Philosophen" },
