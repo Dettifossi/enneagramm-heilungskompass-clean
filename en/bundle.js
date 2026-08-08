@@ -834,6 +834,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Warren Buffett – Self-Preservation Type 5",
     teaser:"SE5w6 \xb7 born 1930, Omaha. Investor, entrepreneur, oracle of Omaha. Five hundred pages a day, the same house since 1958, 99 percent of the fortune given away. The owl that waits until it really understands.",
     tags:["Business","Finanzen"], gender:"m"},
+  { route:"beruehmte-julius-caesar", name:"Julius Caesar", added:"2026-08-08", subtyp:"SO2w3",
+    heading:"Julius Caesar – Social Type 2",
+    teaser:"SO2w3 · 100–44 BC. Roman general, statesman, dictator for life. Generosity as an instrument of power, clemency toward enemies, self-staging in his own campaign account – the Golden Retriever who united an empire and was murdered by a man he had pardoned. Animal correspondence: Golden Retriever.",
+    tags:["History","Politics"] , gender:"m"},
   { route:"beruehmte-will-smith", name:"Will Smith", added:"2026-07-20", subtyp:"SO2w3",
     heading:"Will Smith – Social Type 2",
     teaser:"SO2w3 · born 1968. Actor, rapper, Oscar winner. Fresh Prince, Ali, Men in Black. The golden retriever who wants to hug the world - and sometimes bites because he protects. Ambition as a form of love. Animal correspondence: Golden Retriever.",
@@ -19515,6 +19519,72 @@ function warrenBuffettPortraitPage() {
         {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
         {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SE5w6)"},
         {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function juliusCaesarPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-julius-caesar-portrait.jpg" alt="Julius Caesar" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Julius Caesar</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with a Three-Wing &middot; Heart Type</p>
+        <p class="krim-portrait-subtitle">100&ndash;44 BC &ndash; General, statesman, dictator for life &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever Who Embraced an Empire</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; devoted, generous, irresistibly driven to be needed and loved. Few historical figures show this pattern as clearly as Julius Caesar. His contemporaries consistently describe a man who won people over by storm: through charm, through generosity, through the ability to make every single person &ndash; legionary, senator, or Roman street crowd &ndash; feel personally important to him.</p>
+          <p class="vb-intro">Born in 100 BC into an old but impoverished patrician family, Caesar deliberately and dramatically went into debt in his early years to fund public games, cover allies' debts, and hand out favors. Where a frugal strategist would have built reserves, the social Two invested in relationship. The capital he built was not money &ndash; it was affection, loyalty, indebtedness. And that capital eventually paid out in legions and consulships.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SO2: Ambition as a Form of Love</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the social Two <strong>ambition</strong> &ndash; and in Caesar this ambition fuses seamlessly with his care for the people. He wanted not merely to serve Rome: he wanted to be the most indispensable one, the benefactor without whom nothing would work anymore. His famous <em>clementia</em>, his mercy toward defeated enemies, was far more than political calculation &ndash; it was the SO2 reflex in its purest form: whoever forgives, binds. Whoever rescues, is needed. Whoever is generous, is loved.</p>
+          <p class="vb-intro">This logic runs through his entire public career: the spectacular gladiatorial games and public festivals he funded out of his own pocket, the distribution of land to destitute veterans and citizens, the debt relief for heavily indebted Romans during the civil-war turmoil. Every one of these gestures was politics and a declaration of love at once &ndash; an offer: <em>I provide for you. I see you. Belong to me.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Staging in the Service of Connection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> turns the warmhearted benefactor into a master of self-presentation. Caesar's <em>Commentarii de Bello Gallico</em>, his own campaign account of the Gallic War, is one of the earliest examples of deliberate political image management in world history &ndash; written in the third person to appear objective and heroic at once. The Three-wing gave him stage presence, a strategic instinct for effect, and the ability to turn every victory into narrative before anyone else could seize the interpretation.</p>
+          <p class="vb-intro">At the same time, this wing carries the same danger as in every SO2w3: the confusion of public image with inner core. The more honors Caesar accepted &ndash; the purple cloak, the golden chair in the Senate, and finally the title <em>dictator perpetuo</em>, dictator for life &ndash; the more the role of the indispensable benefactor merged with that of a ruler who no longer tolerated equals beside him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Ides of March: When the Golden Retriever Was Betrayed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">March 15, 44 BC is a typological document of shattering clarity. Among the conspirators who killed Caesar in the Senate with twenty-three dagger blows was Marcus Junius Brutus &ndash; a man Caesar had personally pardoned and promoted with high office, even though Brutus had stood on the opposing side in the civil war. For the social Two, this is the deepest conceivable rupture: the person one saved to secure connection becomes the instrument of one's own destruction.</p>
+          <p class="vb-intro">Yet the path there already shows the typical stress point of the Two: under pressure, Type 2 moves to <strong>Type 8</strong> &ndash; and exactly this pattern runs through Caesar's final years. The benefactor who secured relationship through giving increasingly became a man who claimed control over the state without listening to dissent from the Senate anymore. The honors he accepted no longer looked to many like gratitude, but like entitlement. The Golden Retriever who once courted affection began to take it for granted &ndash; and that is exactly what made him vulnerable to, and in the eyes of his opponents dangerous to, his enemies.</p>
+          <p class="vb-intro">Contemporary accounts report that Caesar deliberately reduced his bodyguard in the preceding weeks &ndash; a trust in his own indispensability typical of an SO2w3: <em>Surely no one would harm me, I have provided for everyone.</em> It was this trust that ultimately left him unprotected.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetic Effect: A Sun over the Republic</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Caesar's effect on his contemporaries was solar: legionaries followed him for years through cold, hunger, and danger because he marched alongside them himself, knew their names, and returned their loyalty with palpable, personal attention. He would enter a room &ndash; camp or Senate alike &ndash; and become the center around which everything arranged itself. This was no cold technique of power. It was the real, warm energy of a person who lived in connection and drew strength from connection.</p>
+          <p class="vb-intro">And yet: behind this sun lay the long shadow of the Two, the passion of <strong>pride</strong> &ndash; the belief that one must be needed in order to have worth, and the difficulty of ever having enough. Caesar had fame, power, the love of the people &ndash; and still the same inner logic kept driving him further: to one more campaign, one more title, one more gesture of generosity. Whether he could have been loved without all of it remained, for him, likely an unanswerable question.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: An Empire That Includes Everyone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Julius Caesar left the world cannot be reduced to military campaigns. He reformed the Roman calendar into the Julian calendar, still in use today with minor adjustments. He extended Roman citizenship to provincial inhabitants who had never belonged before &ndash; a deeply SO2-typical gesture: create connection, include people, dissolve the line between "us" and "them." His public building projects, foremost the Forum of Caesar, were gifts to a people he understood as his large, extended family.</p>
+          <p class="vb-intro">This is the SO2w3 at its farthest-reaching level: a person whose personal need for belonging transformed into structures that outlasted centuries. The Golden Retriever with the Three-wing can unite an empire &ndash; once he learns that true belonging need not be fought for or secured through ever-new proof, but simply is.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: subtype profile"},
+        {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
+        {route:"beruehmte-jesus-christus", label:"Portrait: Jesus Christ (SO2w1)"},
       ])}
     </div>
   `);
@@ -45946,6 +46016,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-wallace-shawn": wallaceShawnPortraitPage,
       "beruehmte-larry-king": larryKingPortraitPage,
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
+      "beruehmte-julius-caesar": juliusCaesarPortraitPage,
       "beruehmte-will-smith": willSmithPortraitPage,
       "beruehmte-wolodymyr-selenskyj": wolodymyrSelenskyjPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,

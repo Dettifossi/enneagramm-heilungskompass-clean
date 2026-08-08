@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v1004", date: "2026-08-08", text: "Neues Porträt: Julius Caesar (SO2w3, Golden Retriever) in Berühmte Persönlichkeiten.", text_en: "New portrait: Julius Caesar (SO2w3, Golden Retriever) in Famous Personalities.", route: "beruehmte-julius-caesar" },
     { version: "v1003", date: "2026-08-08", text: "Zwei neue Schaubilder: Enneagramm und Instinkt sowie Enneagramm und Intellekt (9 Typen, 27 Subtypen, bewusst/unbewusst).", text_en: "Two new charts: Enneagram and Instinct and Enneagram and Intellect (9 types, 27 subtypes, conscious/unconscious).", route: "enneagramm-instinkt" },
     { version: "v1002", date: "2026-08-08", text: "Neu: 12 persönliche, gesprochene Botschaften von Detlef zu besonderen Momenten in der App – u. a. beim ersten Subtyp, nach 7 Tagen und 1 Monat, bei allen 27 Subtypen, nach einem Testergebnis oder bei der Rückkehr nach einer Pause.", text_en: "New: 12 personal, spoken messages from Detlef for special moments in the app – e.g. your first subtype, after 7 days and 1 month, all 27 subtypes explored, a test result, or returning after a break.", route: "profile" },
     { version: "v1001", date: "2026-08-08", text: "Neues Schaubild: Enneagramm und Emotionalität (9 Typen, 27 Subtypen, bewusst/unbewusst).", text_en: "New chart: Enneagram and Emotionality (9 types, 27 subtypes, conscious/unconscious).", route: "enneagramm-emotionalitaet" },

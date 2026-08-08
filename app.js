@@ -287,6 +287,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Marisa Abela – Sozialer Typ 2",
     teaser:"SO2w1 · geb. 1996. Schauspielerin, Industry, Back to Black. Ensemblegefühl und Vorbereitungsdisziplin – der Golden Retriever, der Verbindung durch Sorgfalt verdient. Tierentsprechung: Golden Retriever.",
     tags:["Schauspiel"] , gender:"f"},
+  { route:"beruehmte-julius-caesar", name:"Julius Caesar", added:"2026-08-08", subtyp:"SO2w3",
+    heading:"Julius Caesar – Sozialer Typ 2",
+    teaser:"SO2w3 · 100–44 v. Chr. Römischer Feldherr, Staatsmann, Diktator auf Lebenszeit. Freigebigkeit als Machtinstrument, Gnade gegenüber Feinden, Selbstinszenierung im Feldzugsbericht – der Golden Retriever, der ein Weltreich einte und von einem Begnadigten ermordet wurde. Tierentsprechung: Golden Retriever.",
+    tags:["Geschichte","Politik"] , gender:"m"},
   { route:"beruehmte-will-smith", name:"Will Smith", added:"2026-07-20", subtyp:"SO2w3",
     heading:"Will Smith – Sozialer Typ 2",
     teaser:"SO2w3 · geb. 1968. Schauspieler, Rapper, Oscar-Preisträger. Fresh Prince, Ali, Men in Black. Der Golden Retriever, der die Welt umarmen will – und manchmal beißt, weil er schützt. Ehrgeiz als Form der Liebe. Tierentsprechung: Golden Retriever.",
@@ -20116,6 +20120,72 @@ function kamalaHarrisPortraitPage() {
         {route:"beruehmte-nina-chuba", label:"Porträt: Nina Chuba (SO2w3)"},
         {route:"beruehmte-will-smith", label:"Porträt: Will Smith (SO2w3)"},
         {route:"beruehmte-barack-obama", label:"Porträt: Barack Obama (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function juliusCaesarPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-julius-caesar-portrait.jpg" alt="Julius Caesar" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Julius Caesar</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Sozialer Typ 2 mit Dreierflügel &middot; Herztyp</p>
+        <p class="krim-portrait-subtitle">100&ndash;44 v. Chr. &ndash; Feldherr, Staatsmann, Diktator auf Lebenszeit &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever, der ein Weltreich umarmte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; zugewandt, großzügig, unwiderstehlich darauf aus, gebraucht und geliebt zu werden. Kaum eine historische Gestalt zeigt dieses Muster so deutlich wie Julius Caesar. Seine Zeitgenossen berichten übereinstimmend von einem Mann, der Menschen im Sturm gewann: durch Charme, durch Freigebigkeit, durch die Fähigkeit, jedem Einzelnen das Gefühl zu geben, für ihn persönlich wichtig zu sein &ndash; ob Legionär, Senator oder römischer Straßenpöbel.</p>
+          <p class="vb-intro">Geboren 100 v. Chr. in eine altehrwürdige, aber verarmte Patrizierfamilie, verschuldete sich Caesar in jungen Jahren bewusst und dramatisch, um öffentliche Spiele zu finanzieren, Schulden von Verbündeten zu übernehmen und Wohltaten zu verteilen. Wo ein sparsamer Stratege Rücklagen gebildet hätte, investierte die soziale Zwei in Beziehung. Das Kapital, das er aufbaute, war kein Geld &ndash; es war Zuneigung, Loyalität, Schuldigkeit. Und dieses Kapital zahlte sich am Ende in Legionen und Konsulaten aus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SO2: Ehrgeiz als Form der Liebe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die soziale Zwei <strong>Ehrgeiz</strong> &ndash; und bei Caesar verschmilzt dieser Ehrgeiz nahtlos mit seiner Fürsorge fürs Volk. Er wollte nicht nur Rom dienen: Er wollte der Unentbehrlichste sein, der Wohltäter, ohne den nichts mehr ginge. Seine berühmte <em>clementia</em>, die Gnade gegenüber besiegten Gegnern, war weit mehr als politisches Kalkül &ndash; sie war der SO2-Reflex in Reinform: Wer verzeiht, bindet. Wer rettet, wird gebraucht. Wer großzügig ist, wird geliebt.</p>
+          <p class="vb-intro">Diese Logik zieht sich durch sein gesamtes öffentliches Wirken: die spektakulären Gladiatorenspiele und Volksfeste, die er aus eigener Tasche finanzierte, die Landverteilung an mittellose Veteranen und Bürger, der Schuldenerlass für hoch verschuldete Römer während der Bürgerkriegswirren. Jede dieser Gesten war zugleich Politik und Liebesbeweis &ndash; ein Angebot: <em>Ich sorge für euch. Ich sehe euch. Gehört zu mir.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Inszenierung im Dienst der Verbindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> macht aus dem warmherzigen Wohltäter einen Meister der Selbstdarstellung. Caesars <em>Commentarii de Bello Gallico</em>, sein eigener Feldzugsbericht über den Gallischen Krieg, ist eines der frühesten Beispiele bewusster politischer Imagepflege der Weltgeschichte &ndash; in der dritten Person geschrieben, um sachlich und heldenhaft zugleich zu wirken. Der Dreierflügel gab ihm die Bühnenpräsenz, den strategischen Instinkt für Wirkung, die Fähigkeit, jeden Sieg sofort in Erzählung zu verwandeln, bevor andere die Deutungshoheit übernehmen konnten.</p>
+          <p class="vb-intro">Gleichzeitig trägt dieser Flügel dieselbe Gefahr wie bei jedem SO2w3: die Verwechslung von öffentlichem Bild und innerem Kern. Je mehr Ehren Caesar annahm &ndash; der purpurne Umhang, der goldene Stuhl im Senat, schließlich der Titel <em>dictator perpetuo</em>, Diktator auf Lebenszeit &ndash; desto mehr verschmolz die Rolle des unentbehrlichen Wohltäters mit der eines Herrschers, der keine Gleichen mehr neben sich duldete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Iden des März: Als der Golden Retriever betrogen wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der 15. März 44 v. Chr. ist ein typologisches Dokument von erschütternder Klarheit. Unter den Attentätern, die Caesar im Senat mit dreiundzwanzig Dolchstichen töteten, war Marcus Junius Brutus &ndash; ein Mann, den Caesar zuvor persönlich begnadigt, gefördert und mit Ämtern ausgestattet hatte, obwohl Brutus im Bürgerkrieg auf der Gegenseite gestanden hatte. Für die soziale Zwei ist genau das der tiefste denkbare Bruch: Der Mensch, den man rettete, um Verbindung zu sichern, wird zum Werkzeug der eigenen Vernichtung.</p>
+          <p class="vb-intro">Doch schon der Weg dorthin zeigt den typischen Stresspunkt der Zwei: Unter Druck geht der Typ 2 in den <strong>Typ 8</strong> &ndash; und genau dieses Muster durchzieht Caesars letzte Lebensjahre. Aus dem Wohltäter, der Beziehung durch Geben sicherte, wurde zunehmend ein Mann, der Kontrolle über den Staat beanspruchte, ohne noch auf Widerspruch aus dem Senat zu hören. Die Ehrungen, die er annahm, wirkten auf viele nicht mehr wie Dank, sondern wie Anspruch. Der Golden Retriever, der einst um Zuneigung warb, begann, sie als selbstverständlich vorauszusetzen &ndash; und genau das machte ihn für seine Gegner verwundbar und in ihren Augen gefährlich.</p>
+          <p class="vb-intro">Zeitgenössische Überlieferungen berichten, Caesar habe seine Leibwache in den Wochen zuvor bewusst reduziert &ndash; ein Vertrauen in die eigene Unentbehrlichkeit, das für einen SO2w3 typisch ist: <em>Man wird mir doch nichts tun, ich habe doch für alle gesorgt.</em> Es war dieses Vertrauen, das ihn schließlich schutzlos zurückließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Sonne über der Republik</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Caesars Wirkung auf seine Zeitgenossen war solar: Legionäre folgten ihm über Jahre in Kälte, Hunger und Gefahr, weil er selbst mit ihnen marschierte, ihre Namen kannte, ihre Loyalität mit spürbarer, persönlicher Zuwendung erwiderte. Er betrat einen Raum &ndash; ob Feldlager oder Senat &ndash; und wurde zum Zentrum, um das sich alles ordnete. Das war keine kalte Machttechnik. Es war die echte, warme Energie eines Menschen, der in Verbindung lebte und aus Verbindung Kraft schöpfte.</p>
+          <p class="vb-intro">Und doch: Hinter dieser Sonne lag der lange Schatten der Zwei, die Leidenschaft <strong>Stolz</strong> &ndash; der Glaube, gebraucht werden zu müssen, um wertvoll zu sein, und die Schwierigkeit, jemals genug zu haben. Caesar hatte Ruhm, Macht, die Liebe des Volkes &ndash; und dennoch drängte ihn dieselbe innere Logik immer weiter: zu einem weiteren Feldzug, einem weiteren Titel, einer weiteren Geste der Großzügigkeit. Die Frage, ob er ohne all das noch geliebt worden wäre, blieb für ihn selbst wohl unbeantwortbar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Ein Reich, das alle einschließt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Julius Caesar der Welt hinterließ, lässt sich nicht auf Feldzüge reduzieren. Er reformierte den römischen Kalender zum Julianischen Kalender, der mit geringen Anpassungen bis heute in Gebrauch ist. Er weitete das römische Bürgerrecht auf Provinzbewohner aus, die zuvor nie dazugehört hatten &ndash; eine zutiefst SO2-typische Geste: Verbindung schaffen, Menschen einschließen, die Grenze zwischen "wir" und "die anderen" auflösen. Seine öffentlichen Bauprojekte, allen voran das Forum Caesaris, waren Geschenke an ein Volk, das er als seine große, weite Familie verstand.</p>
+          <p class="vb-intro">Das ist die SO2w3 auf ihrer weitreichendsten Stufe: ein Mensch, dessen persönliches Bedürfnis nach Zugehörigkeit sich in Strukturen verwandelte, die Jahrhunderte überdauerten. Der Golden Retriever mit dem Dreierflügel kann ein Reich einen &ndash; wenn er lernt, dass wahre Zugehörigkeit nicht erkämpft und nicht durch immer neue Beweise gesichert werden muss, sondern einfach ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 &ndash; Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-will-smith", label:"Porträt: Will Smith (SO2w3)"},
+        {route:"beruehmte-jesus-christus", label:"Porträt: Jesus Christus (SO2w1)"},
       ])}
     </div>
   `);
@@ -48911,6 +48981,7 @@ function render() {
       "beruehmte-oprah-winfrey": oprahWinfreyPortraitPage,
       "beruehmte-barack-obama": barackObamaPortraitPage,
       "beruehmte-marisa-abela": marisaAbelaPortraitPage,
+      "beruehmte-julius-caesar": juliusCaesarPortraitPage,
       "beruehmte-will-smith": willSmithPortraitPage,
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,
