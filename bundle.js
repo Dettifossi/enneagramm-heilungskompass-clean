@@ -38060,6 +38060,7 @@ function typentestMotivationalPage() {
 
   // \u2500\u2500 Phase: Result \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
   if (ms.phase === "result") {
+    playMilestone("test-abgeschlossen");
     const scores = {};
     for (let t = 1; t <= 9; t++) scores[t] = 0;
     for (const [, ans] of Object.entries(ms.answers)) {
@@ -38238,6 +38239,7 @@ function typentestPage() {
 
   // Phase 4: Ergebnis
   if (ts.phase === 4) {
+    playMilestone("test-abgeschlossen");
     // Typ mit h\u00f6chstem Score ermitteln
     const scores = ts.scores;
     const topTyp = Object.entries(scores).sort((a, b) => b[1] - a[1])[0]?.[0];
@@ -38500,6 +38502,7 @@ function diagnosetestPage() {
 
   // \u2500\u2500 Phase: Result \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
   if (ds.phase === "result") {
+    playMilestone("test-abgeschlossen");
     const scores = DIAGNOSETEST.map(entry => ({
       typ: entry.typ,
       name: entry.name,
