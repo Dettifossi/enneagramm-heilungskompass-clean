@@ -24115,6 +24115,7 @@ const registerEntries = [
   { term: "Monika Gruber",                 route: "beruehmte-monika-gruber",               description: "Portrait: SX2w1 \u00b7 Sexueller Typ 2 \u00b7 Kabarettistin, Herzw\u00e4rme & Leidenschaft" },
   { term: "Neil Armstrong",                route: "beruehmte-neil-armstrong",              description: "Portrait: SE6w7 \u00b7 Selbsterhaltender Typ 6 \u00b7 erster Mensch auf dem Mond, 1969" },
   { term: "Nina Chuba",                    route: "beruehmte-nina-chuba",                  description: "Portrait: SX4w3 \u00b7 Sexueller Typ 4 \u00b7 S\u00e4ngerin, Songwriterin, Authentizit\u00e4t" },
+  { term: "Madame Tussaud",                route: "beruehmte-madame-tussaud",               description: "Portrait: SE3w4 \u00b7 Selbsterhaltender Typ 3 \u00b7 Wachsbildnerin, Museumsgr\u00fcnderin" },
   { term: "Osho",                          route: "beruehmte-osho",                        description: "Portrait: SE3w4 \u00b7 Selbsterhaltender Typ 3 \u00b7 Mystiker, Kommune-Gr\u00fcnder, Autor" },
   { term: "Oprah Winfrey",                 route: "beruehmte-oprah-winfrey",               description: "Portrait: SE2w3 \u00b7 Selbsterhaltender Typ 2 \u00b7 Moderatorin, Unternehmerin, Philanthropin" },
   { term: "Pamela Reif",                   route: "beruehmte-pamela-reif",                 description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Fitness-Influencerin, Erfolg durch Verbindung" },
@@ -24392,6 +24393,7 @@ const registerEntriesEN = [
   { term: "Monika Gruber", route: "beruehmte-monika-gruber", description: "Portrait: SX2w1 \u00b7 Sexual Type 2 \u00b7 Comedian, warmth of heart & passion" },
   { term: "Neil Armstrong", route: "beruehmte-neil-armstrong", description: "Portrait: SE6w7 \u00b7 Self-Preservation Type 6 \u00b7 first human on the Moon, 1969" },
   { term: "Nina Chuba", route: "beruehmte-nina-chuba", description: "Portrait: SX4w3 \u00b7 Sexual Type 4 \u00b7 Singer, songwriter, authenticity" },
+  { term: "Madame Tussaud", route: "beruehmte-madame-tussaud", description: "Portrait: SP3w4 \u00b7 Self-Preservation Type 3 \u00b7 Wax sculptor, museum founder" },
   { term: "Osho", route: "beruehmte-osho", description: "Portrait: SE3w4 \u00b7 Self-Preservation Type 3 \u00b7 Mystic, commune founder, author" },
   { term: "Oprah Winfrey", route: "beruehmte-oprah-winfrey", description: "Portrait: SE2w3 \u00b7 Self-Preservation Type 2 \u00b7 TV host, entrepreneur, philanthropist" },
   { term: "Pamela Reif", route: "beruehmte-pamela-reif", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Fitness influencer, success through connection" },
@@ -31362,6 +31364,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kathrin Bauerfeind \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w4 \u00b7 geb. 1981. Journalistin, Moderatorin, Autorin, Entertainerin. Vielseitig, pr\u00e4zise, unverwechselbar \u2013 der Waschb\u00e4r, der aus K\u00f6nnen Sicherheit macht.",
     tags:["Medien"] , gender:"f"},
+  { route:"beruehmte-madame-tussaud", name:"Madame Tussaud", added:"2026-08-08", subtyp:"SE3w4",
+    heading:"Madame Tussaud \u2013 Selbsterhaltender Typ 3",
+    teaser:"SE3w4 \u00b7 1761\u20131850. Wachsbildnerin, Museumsgr\u00fcnderin. Totenmasken der Guillotine-Opfer w\u00e4hrend der Franz\u00f6sischen Revolution, 33 Jahre Wandertournee durch Gro\u00dfbritannien, das \u201eKabinett des Schreckens\u201c \u2013 der Waschb\u00e4r, der aus reiner \u00dcberlebensfertigkeit ein Weltunternehmen baute. Tierentsprechung: Waschb\u00e4r.",
+    tags:["Kunst","Geschichte"] , gender:"f"},
   { route:"beruehmte-osho", name:"Osho", added:"2026-07-31", subtyp:"SE3w4",
     heading:"Osho \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w4 \u00b7 1931\u20131990. Mystiker, Kommune-Gr\u00fcnder, Autor von \u00fcber 600 B\u00fcchern. Vom Ashram in Poona zur Utopie-Stadt Rajneeshpuram \u2013 der Waschb\u00e4r, der Systeme baut, w\u00e4hrend die Vier alle Konventionen infrage stellt. Tierentsprechung: Waschb\u00e4r.",
@@ -52001,6 +52007,71 @@ function davidLRathmerPortraitPage() {
         {route:"subtype/se3", label:"SE3 &ndash; Der Waschb\u00e4r: Subtyp-Profil"},
         {route:"beruehmte-wolodymyr-selenskyj", label:"Portr\u00e4t: Wolodymyr Selenskyj (SE3w2)"},
         {route:"beruehmte-sadhguru", label:"Portr\u00e4t: Sadhguru (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function madameTussaudPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-madame-tussaud-portrait.jpg" alt="Madame Tussaud" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Madame Tussaud</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererfl\u00fcgel &middot; Herztyp</p>
+        <p class="krim-portrait-subtitle">1761&ndash;1850 &ndash; Wachsbildnerin, Museumsgr\u00fcnderin &ndash; Tierentsprechung: Waschb\u00e4r</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschb\u00e4r, der ein Weltunternehmen aus Wachs baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das keine B\u00fchne braucht, um zu \u00fcberleben, sondern findige H\u00e4nde, ein wachsames Auge und die F\u00e4higkeit, aus jeder Umgebung, so feindlich sie auch sein mag, ein funktionierendes Auskommen zu bauen. Kaum eine Biografie zeigt dieses Muster so klar wie die von Marie Tussaud. Als Kind einer verarmten Familie in Stra\u00dfburg geboren, wuchs sie im Haushalt ihres Onkels, des Wachsbildners Philippe Curtius, auf und lernte von ihm ein Handwerk, das ihr fortan als einzige verl\u00e4ssliche Existenzgrundlage diente &ndash; durch eine Revolution, zwei L\u00e4nder und \u00fcber sechzig Jahre hinweg.</p>
+          <p class="vb-intro">Was als Kunstfertigkeit begann, wurde bei ihr zu einem Weltunternehmen: Die Marke \u201eMadame Tussauds" existiert heute, fast zweihundert Jahre nach ihrem Tod, in Dutzenden St\u00e4dten rund um den Globus. Kein Zufall, sondern das Ergebnis einer Frau, die praktisches K\u00f6nnen systematisch in dauerhafte Sicherheit verwandelte &ndash; der Waschb\u00e4r, der aus einem Handwerk ein Verm\u00e4chtnis macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SE3: \u00dcberleben durch praktische Leistung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Sie sucht ihren Wert nicht in \u00f6ffentlicher Bewunderung, sondern in der stillen Gewissheit, gebraucht zu werden und die eigene Existenz mit den eigenen H\u00e4nden sichern zu k\u00f6nnen. Wo die soziale Drei die B\u00fchne sucht, sucht die SE3 die Funktion &ndash; das, was tr\u00e4gt, auch wenn niemand applaudiert.</p>
+          <p class="vb-intro">Nirgendwo zeigt sich das dramatischer als w\u00e4hrend der Franz\u00f6sischen Revolution. Tussaud, die zuvor als Kunstlehrerin am Hof Ludwigs XVI. gearbeitet hatte, geriet unter Terrorherrschaft selbst in Verdacht und Gefangenschaft &ndash; ihr wurde, wie es die \u00dcberlieferung will, sogar der Kopf f\u00fcr die Guillotine geschoren, ehe eine F\u00fcrsprache sie rettete. Um zu \u00fcberleben, tat sie das einzig Pragmatische: Sie stellte ihr Handwerk in den Dienst der neuen Machthaber und fertigte Totenmasken der Hingerichteten an &ndash; teils von K\u00f6pfen, die sie selbst aus den Leichenbergen unter der Guillotine bergen musste, darunter, wie sie sp\u00e4ter schrieb, das Antlitz Ludwigs XVI. und Marie Antoinettes. Keine Loyalit\u00e4t war best\u00e4ndig genug, um Sicherheit zu bieten &ndash; nur die eigene, unentbehrliche Fertigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Das Kabinett des Schreckens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> gibt der selbsterhaltenden Drei eine Tiefe, die reines Handwerk \u00fcbersteigt &ndash; ein Gesp\u00fcr f\u00fcr das Dramatische, das Abgr\u00fcndige, das, was unter der glatten Oberfl\u00e4che liegt. Bei Tussaud zeigt sich das in der ber\u00fchmten <em>Chamber of Horrors</em>, dem separaten Kabinett, in dem sie Totenmasken von Hingerichteten und Nachbildungen ber\u00fcchtigter Verbrecher versammelte &ndash; ein Raum, der nicht nur unterhielt, sondern die Besucher mit dem Abgrund menschlicher Gewalt konfrontierte.</p>
+          <p class="vb-intro">Diese Faszination f\u00fcr das Extreme war kein blo\u00dfer gesch\u00e4ftlicher Kalk\u00fcl, auch wenn sie sich als solcher gl\u00e4nzend bew\u00e4hrte. Sie war Ausdruck eines Blicks, der das Gew\u00f6hnliche nicht gen\u00fcgend fand: Tussaud modellierte nicht einfach \u00c4hnlichkeit, sie suchte den Moment, in dem ein Gesicht Charakter, Schicksal, Abgrund offenbart. Ihre sp\u00e4ten, sorgf\u00e4ltig komponierten Memoiren, in denen sie ihr eigenes Leben zwischen Hofdame und Revolutions\u00fcberlebender inszenierte, zeigen dieselbe Handschrift: die Vier, die ihre eigene Geschichte als einzigartig, unwiederholbar erz\u00e4hlt haben will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Terrorjahre: Als der Waschb\u00e4r im Kerker sa\u00df</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Monate ihrer Gefangenschaft w\u00e4hrend der Terrorherrschaft, in derselben Zelle wie die sp\u00e4tere Kaiserin Jos\u00e9phine de Beauharnais, sind das typologische Zentrum ihres Lebens. F\u00fcr die selbsterhaltende Drei, deren Sicherheit auf eigener Kontrolle und eigenem K\u00f6nnen beruht, ist v\u00f6llige Machtlosigkeit &ndash; das Ausgeliefertsein an eine willk\u00fcrliche Guillotine &ndash; die tiefste denkbare Bedrohung. Der Waschb\u00e4r, der eingesperrt keinen Ausweg findet, verliert f\u00fcr einen Moment genau das, was ihn definiert: die F\u00e4higkeit, sich selbst zu retten.</p>
+          <p class="vb-intro">Ihre Rettung, und der Preis daf\u00fcr, offenbaren den Stresspunkt der Drei: Unter Druck geht der Typ 3 in seinen <strong>Neuner-Stresspunkt</strong> &ndash; ein Aufgeben der eigenen Position zugunsten dessen, was die Umst\u00e4nde gerade verlangen. Tussaud, freigelassen, weil man ihr handwerkliches K\u00f6nnen brauchte, fertigte fortan im Auftrag der Revolution\u00e4re genau jene Totenmasken der Guillotine-Opfer an, die sie zuvor selbst um ihr Leben hatten f\u00fcrchten lassen. Keine Trauer wurde \u00f6ffentlich gezeigt, keine Emp\u00f6rung ge\u00e4u\u00dfert &ndash; nur die stille, funktionale Anpassung an das, was \u00dcberleben in diesem Moment erforderte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Ruhige, z\u00e4he Beharrlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tussauds Wirkung war nie die einer Rampenfigur. 1802 verlie\u00df sie Frankreich mit ihrer Wachsfigurensammlung Richtung England und tourte \u00fcber 33 Jahre durch Gro\u00dfbritannien und Irland &ndash; von Stadt zu Stadt, mit schweren Kisten, oft unter widrigsten Reisebedingungen, getrennt von ihrem in Frankreich zur\u00fcckgebliebenen Ehemann, allein mit ihren beiden S\u00f6hnen. Erst 1835, im Alter von vierundsiebzig Jahren, lie\u00df sie sich endg\u00fcltig in der Baker Street in London nieder und gr\u00fcndete das erste dauerhafte Museum.</p>
+          <p class="vb-intro">Diese jahrzehntelange, nie spektakul\u00e4re, aber nie erlahmende Beharrlichkeit ist reine SE3-Energie: kein Durchbruch \u00fcber Nacht, sondern eine lange Kette praktischer Entscheidungen, jede einzelne auf Sicherung des Fortbestands ausgerichtet. Sie \u00fcberzeugte durch die Qualit\u00e4t ihrer Arbeit, nicht durch pers\u00f6nliche Selbstdarstellung &ndash; ein Museum, das ihren Namen bis heute tr\u00e4gt, obwohl kaum jemand ihr Gesicht kennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Ein Handwerk, das die Zeit \u00fcberdauert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Madame Tussaud der Welt hinterlie\u00df, l\u00e4sst sich nicht auf ein Kuriosit\u00e4tenkabinett reduzieren. Sie schuf eine der best\u00e4ndigsten Institutionen der Popul\u00e4rkultur &ndash; ein Museum, das bis heute in London und Dutzenden weiteren St\u00e4dten Millionen Besucher j\u00e4hrlich anzieht, und eine Wachsbildnerkunst, die zugleich historisches Dokument war: Ihre Totenmasken der Franz\u00f6sischen Revolution z\u00e4hlen heute zu den wenigen unmittelbaren physischen Zeugnissen jener Epoche.</p>
+          <p class="vb-intro">Das ist die SE3w4 auf ihrer weitreichendsten Stufe: eine Frau, deren Bed\u00fcrfnis nach materieller Sicherheit sich mit einem untr\u00fcglichen Gesp\u00fcr f\u00fcr das verband, was Menschen wirklich fasziniert &ndash; Sch\u00f6nheit und Schrecken, Macht und Untergang, in Wachs gegossen und der Nachwelt \u00fcberlassen. Der Waschb\u00e4r mit dem Viererfl\u00fcgel \u00fcberlebt nicht nur &ndash; er hinterl\u00e4sst ein Werk, das seine eigene Lebenszeit weit \u00fcberdauert.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se3", label:"SE3 &ndash; Der Waschb\u00e4r: Subtyp-Profil"},
+        {route:"beruehmte-osho", label:"Portr\u00e4t: Osho (SE3w4)"},
+        {route:"beruehmte-david-l-rathmer", label:"Portr\u00e4t: David L. Rathmer (SE3w4)"},
       ])}
     </div>
   `);
@@ -80080,6 +80151,7 @@ function render() {
       "beruehmte-sadhguru": sadhguruPortraitPage,
       "beruehmte-penelope-cruz": penelopeCruzPortraitPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
+      "beruehmte-madame-tussaud": madameTussaudPortraitPage,
       "beruehmte-osho": oshoPortraitPage,
       "beruehmte-karl-lagerfeld": karlLagerfeldPortraitPage,
       "beruehmte-teresa-von-avila": teresaVonAvilaPortraitPage,

@@ -277,6 +277,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kathrin Bauerfeind – Self-Preservation Type 3",
     teaser:"SP3w4 · born 1981. Journalist, presenter, author, entertainer. Versatile, precise, unmistakable – the raccoon that turns skill into security.",
     tags:["Medien"] },
+  { route:"beruehmte-madame-tussaud", name:"Madame Tussaud", added:"2026-08-08", subtyp:"SE3w4",
+    heading:"Madame Tussaud – Self-Preservation Type 3",
+    teaser:"SP3w4 · 1761–1850. Wax sculptor, museum founder. Death masks of guillotine victims during the French Revolution, 33 years touring Britain, the \"Chamber of Horrors\" – the raccoon that turned pure survival skill into a world enterprise. Animal correspondence: Raccoon.",
+    tags:["Art","History"] , gender:"f"},
   { route:"beruehmte-osho", name:"Osho", added:"2026-07-31", subtyp:"SE3w4",
     heading:"Osho – Self-Preservation Type 3",
     teaser:"SP3w4 · 1931–1990. Mystic, commune founder, author of over 600 books. From the Poona ashram to the utopian city of Rajneeshpuram – the raccoon that builds systems while the Four questions every convention. Animal correspondence: Raccoon.",
@@ -25241,6 +25245,71 @@ function pharrellWilliamsPortraitPage() {
 }
 
 
+function madameTussaudPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-madame-tussaud-portrait.jpg" alt="Madame Tussaud" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Madame Tussaud</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with a Four-Wing &middot; Heart Type</p>
+        <p class="krim-portrait-subtitle">1761&ndash;1850 &ndash; Wax sculptor, museum founder &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon Who Built a World Enterprise out of Wax</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that needs no stage to survive, only resourceful hands, a watchful eye, and the ability to build a working existence out of any environment, however hostile. Few biographies show this pattern as clearly as that of Marie Tussaud. Born into an impoverished family in Strasbourg, she grew up in the household of her uncle, the wax sculptor Philippe Curtius, and learned from him a craft that would serve as her sole reliable foundation for survival &ndash; through a revolution, two countries, and over sixty years.</p>
+          <p class="vb-intro">What began as a skill became, in her hands, a world enterprise: the brand "Madame Tussauds" exists today, nearly two hundred years after her death, in dozens of cities around the globe. This is no accident, but the result of a woman who systematically turned practical skill into lasting security &ndash; the raccoon that turns a craft into a legacy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SE3: Survival Through Practical Achievement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is considered the counter-type of the Three: it seeks its worth not in public admiration, but in the quiet certainty of being needed and able to secure its own existence with its own hands. Where the social Three seeks the stage, the SE3 seeks function &ndash; what carries weight, even when no one applauds.</p>
+          <p class="vb-intro">Nowhere does this show more dramatically than during the French Revolution. Tussaud, who had previously worked as an art tutor at the court of Louis XVI, herself came under suspicion and imprisonment during the Reign of Terror &ndash; tradition holds that her head was even shaved for the guillotine before an intervention saved her. To survive, she did the one pragmatic thing available: she placed her craft in service of the new rulers and made death masks of the executed &ndash; some of heads she herself had to retrieve from the piles of corpses beneath the guillotine, including, as she later wrote, the faces of Louis XVI and Marie Antoinette. No loyalty was stable enough to offer safety &ndash; only her own, indispensable skill.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: The Chamber of Horrors</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three a depth that exceeds pure craft &ndash; a sense for the dramatic, the abysmal, for what lies beneath the smooth surface. In Tussaud, this shows itself in the famous <em>Chamber of Horrors</em>, the separate cabinet where she gathered death masks of the executed and effigies of notorious criminals &ndash; a room that not only entertained, but confronted visitors with the abyss of human violence.</p>
+          <p class="vb-intro">This fascination with extremity was no mere business calculation, even though it proved brilliantly effective as one. It expressed a gaze that never found the ordinary sufficient: Tussaud did not simply model likeness, she sought the moment in which a face reveals character, fate, abyss. Her late, carefully composed memoirs, in which she staged her own life between court lady and revolutionary survivor, show the same signature: the Four, who wants her own story told as unique, unrepeatable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Terror Years: When the Raccoon Sat in a Cell</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The months of her imprisonment during the Reign of Terror, in the same cell as the future Empress Joséphine de Beauharnais, form the typological center of her life. For the self-preservation Three, whose safety rests on its own control and its own skill, complete powerlessness &ndash; being at the mercy of an arbitrary guillotine &ndash; is the deepest conceivable threat. The raccoon that, caged, finds no way out loses, for a moment, exactly what defines it: the ability to save itself.</p>
+          <p class="vb-intro">Her rescue, and its price, reveal the stress point of the Three: under pressure, Type 3 moves into its <strong>Nine stress point</strong> &ndash; a surrender of one's own position in favor of whatever circumstances demand. Tussaud, released because her craftsmanship was needed, went on to produce, on commission from the revolutionaries, the very death masks of guillotine victims that she herself had previously feared becoming. No grief was shown publicly, no outrage voiced &ndash; only the quiet, functional adaptation to what survival required in that moment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetic Effect: Quiet, Tenacious Persistence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tussaud's effect was never that of a spotlight figure. In 1802 she left France with her collection of wax figures for England and toured Britain and Ireland for over thirty-three years &ndash; town by town, with heavy crates, often under the harshest travel conditions, separated from her husband who remained in France, alone with her two sons. Only in 1835, at age seventy-four, did she finally settle on Baker Street in London and found the first permanent museum.</p>
+          <p class="vb-intro">This decades-long, never spectacular but never flagging persistence is pure SE3 energy: no overnight breakthrough, but a long chain of practical decisions, each one aimed at securing continuation. She convinced through the quality of her work, not through personal self-promotion &ndash; a museum that carries her name to this day, though hardly anyone knows her face.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: A Craft That Outlasted Its Time</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Madame Tussaud left the world cannot be reduced to a cabinet of curiosities. She created one of the most enduring institutions in popular culture &ndash; a museum that still draws millions of visitors annually in London and dozens of other cities, and a wax-sculpting art that was simultaneously historical document: her death masks from the French Revolution rank among the few immediate physical testimonies of that era that survive today.</p>
+          <p class="vb-intro">This is the SP3w4 at its farthest-reaching level: a woman whose need for material security merged with an unerring instinct for what truly fascinates people &ndash; beauty and horror, power and downfall, cast in wax and handed down to posterity. The raccoon with the Four-wing does not merely survive &ndash; it leaves behind a work that far outlasts its own lifetime.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: subtype profile"},
+        {route:"beruehmte-osho", label:"Portrait: Osho (SP3w4)"},
+        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SP3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function oshoPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -46015,6 +46084,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-sadhguru": sadhguruPortraitPage,
       "beruehmte-penelope-cruz": penelopeCruzPortraitPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
+      "beruehmte-madame-tussaud": madameTussaudPortraitPage,
       "beruehmte-osho": oshoPortraitPage,
       "beruehmte-cristiano-ronaldo": cristianoRonaldoPortraitPage,
       "beruehmte-pharrell-williams": pharrellWilliamsPortraitPage,

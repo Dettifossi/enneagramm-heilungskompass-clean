@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v1006", date: "2026-08-08", text: "Neues Porträt: Madame Tussaud (SE3w4, Waschbär) in Berühmte Persönlichkeiten.", text_en: "New portrait: Madame Tussaud (SP3w4, Raccoon) in Famous Personalities.", route: "beruehmte-madame-tussaud" },
     { version: "v1005", date: "2026-08-08", text: "Neues Porträt: Teresa von Ávila (SO3w4, Gepard) in Berühmte Persönlichkeiten.", text_en: "New portrait: Teresa of Ávila (SO3w4, Cheetah) in Famous Personalities.", route: "beruehmte-teresa-von-avila" },
     { version: "v1004", date: "2026-08-08", text: "Neues Porträt: Julius Caesar (SO2w3, Golden Retriever) in Berühmte Persönlichkeiten.", text_en: "New portrait: Julius Caesar (SO2w3, Golden Retriever) in Famous Personalities.", route: "beruehmte-julius-caesar" },
     { version: "v1003", date: "2026-08-08", text: "Zwei neue Schaubilder: Enneagramm und Instinkt sowie Enneagramm und Intellekt (9 Typen, 27 Subtypen, bewusst/unbewusst).", text_en: "Two new charts: Enneagram and Instinct and Enneagram and Intellect (9 types, 27 subtypes, conscious/unconscious).", route: "enneagramm-instinkt" },

@@ -347,6 +347,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kathrin Bauerfeind – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · geb. 1981. Journalistin, Moderatorin, Autorin, Entertainerin. Vielseitig, präzise, unverwechselbar – der Waschbär, der aus Können Sicherheit macht.",
     tags:["Medien"] , gender:"f"},
+  { route:"beruehmte-madame-tussaud", name:"Madame Tussaud", added:"2026-08-08", subtyp:"SE3w4",
+    heading:"Madame Tussaud – Selbsterhaltender Typ 3",
+    teaser:"SE3w4 · 1761–1850. Wachsbildnerin, Museumsgründerin. Totenmasken der Guillotine-Opfer während der Französischen Revolution, 33 Jahre Wandertournee durch Großbritannien, das „Kabinett des Schreckens“ – der Waschbär, der aus reiner Überlebensfertigkeit ein Weltunternehmen baute. Tierentsprechung: Waschbär.",
+    tags:["Kunst","Geschichte"] , gender:"f"},
   { route:"beruehmte-osho", name:"Osho", added:"2026-07-31", subtyp:"SE3w4",
     heading:"Osho – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · 1931–1990. Mystiker, Kommune-Gründer, Autor von über 600 Büchern. Vom Ashram in Poona zur Utopie-Stadt Rajneeshpuram – der Waschbär, der Systeme baut, während die Vier alle Konventionen infrage stellt. Tierentsprechung: Waschbär.",
@@ -20986,6 +20990,71 @@ function davidLRathmerPortraitPage() {
         {route:"subtype/se3", label:"SE3 &ndash; Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-wolodymyr-selenskyj", label:"Porträt: Wolodymyr Selenskyj (SE3w2)"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function madameTussaudPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-madame-tussaud-portrait.jpg" alt="Madame Tussaud" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Madame Tussaud</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel &middot; Herztyp</p>
+        <p class="krim-portrait-subtitle">1761&ndash;1850 &ndash; Wachsbildnerin, Museumsgründerin &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der ein Weltunternehmen aus Wachs baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das keine Bühne braucht, um zu überleben, sondern findige Hände, ein wachsames Auge und die Fähigkeit, aus jeder Umgebung, so feindlich sie auch sein mag, ein funktionierendes Auskommen zu bauen. Kaum eine Biografie zeigt dieses Muster so klar wie die von Marie Tussaud. Als Kind einer verarmten Familie in Straßburg geboren, wuchs sie im Haushalt ihres Onkels, des Wachsbildners Philippe Curtius, auf und lernte von ihm ein Handwerk, das ihr fortan als einzige verlässliche Existenzgrundlage diente &ndash; durch eine Revolution, zwei Länder und über sechzig Jahre hinweg.</p>
+          <p class="vb-intro">Was als Kunstfertigkeit begann, wurde bei ihr zu einem Weltunternehmen: Die Marke „Madame Tussauds" existiert heute, fast zweihundert Jahre nach ihrem Tod, in Dutzenden Städten rund um den Globus. Kein Zufall, sondern das Ergebnis einer Frau, die praktisches Können systematisch in dauerhafte Sicherheit verwandelte &ndash; der Waschbär, der aus einem Handwerk ein Vermächtnis macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SE3: Überleben durch praktische Leistung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Sie sucht ihren Wert nicht in öffentlicher Bewunderung, sondern in der stillen Gewissheit, gebraucht zu werden und die eigene Existenz mit den eigenen Händen sichern zu können. Wo die soziale Drei die Bühne sucht, sucht die SE3 die Funktion &ndash; das, was trägt, auch wenn niemand applaudiert.</p>
+          <p class="vb-intro">Nirgendwo zeigt sich das dramatischer als während der Französischen Revolution. Tussaud, die zuvor als Kunstlehrerin am Hof Ludwigs XVI. gearbeitet hatte, geriet unter Terrorherrschaft selbst in Verdacht und Gefangenschaft &ndash; ihr wurde, wie es die Überlieferung will, sogar der Kopf für die Guillotine geschoren, ehe eine Fürsprache sie rettete. Um zu überleben, tat sie das einzig Pragmatische: Sie stellte ihr Handwerk in den Dienst der neuen Machthaber und fertigte Totenmasken der Hingerichteten an &ndash; teils von Köpfen, die sie selbst aus den Leichenbergen unter der Guillotine bergen musste, darunter, wie sie später schrieb, das Antlitz Ludwigs XVI. und Marie Antoinettes. Keine Loyalität war beständig genug, um Sicherheit zu bieten &ndash; nur die eigene, unentbehrliche Fertigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Das Kabinett des Schreckens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei eine Tiefe, die reines Handwerk übersteigt &ndash; ein Gespür für das Dramatische, das Abgründige, das, was unter der glatten Oberfläche liegt. Bei Tussaud zeigt sich das in der berühmten <em>Chamber of Horrors</em>, dem separaten Kabinett, in dem sie Totenmasken von Hingerichteten und Nachbildungen berüchtigter Verbrecher versammelte &ndash; ein Raum, der nicht nur unterhielt, sondern die Besucher mit dem Abgrund menschlicher Gewalt konfrontierte.</p>
+          <p class="vb-intro">Diese Faszination für das Extreme war kein bloßer geschäftlicher Kalkül, auch wenn sie sich als solcher glänzend bewährte. Sie war Ausdruck eines Blicks, der das Gewöhnliche nicht genügend fand: Tussaud modellierte nicht einfach Ähnlichkeit, sie suchte den Moment, in dem ein Gesicht Charakter, Schicksal, Abgrund offenbart. Ihre späten, sorgfältig komponierten Memoiren, in denen sie ihr eigenes Leben zwischen Hofdame und Revolutionsüberlebender inszenierte, zeigen dieselbe Handschrift: die Vier, die ihre eigene Geschichte als einzigartig, unwiederholbar erzählt haben will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Terrorjahre: Als der Waschbär im Kerker saß</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Monate ihrer Gefangenschaft während der Terrorherrschaft, in derselben Zelle wie die spätere Kaiserin Joséphine de Beauharnais, sind das typologische Zentrum ihres Lebens. Für die selbsterhaltende Drei, deren Sicherheit auf eigener Kontrolle und eigenem Können beruht, ist völlige Machtlosigkeit &ndash; das Ausgeliefertsein an eine willkürliche Guillotine &ndash; die tiefste denkbare Bedrohung. Der Waschbär, der eingesperrt keinen Ausweg findet, verliert für einen Moment genau das, was ihn definiert: die Fähigkeit, sich selbst zu retten.</p>
+          <p class="vb-intro">Ihre Rettung, und der Preis dafür, offenbaren den Stresspunkt der Drei: Unter Druck geht der Typ 3 in seinen <strong>Neuner-Stresspunkt</strong> &ndash; ein Aufgeben der eigenen Position zugunsten dessen, was die Umstände gerade verlangen. Tussaud, freigelassen, weil man ihr handwerkliches Können brauchte, fertigte fortan im Auftrag der Revolutionäre genau jene Totenmasken der Guillotine-Opfer an, die sie zuvor selbst um ihr Leben hatten fürchten lassen. Keine Trauer wurde öffentlich gezeigt, keine Empörung geäußert &ndash; nur die stille, funktionale Anpassung an das, was Überleben in diesem Moment erforderte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Ruhige, zähe Beharrlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tussauds Wirkung war nie die einer Rampenfigur. 1802 verließ sie Frankreich mit ihrer Wachsfigurensammlung Richtung England und tourte über 33 Jahre durch Großbritannien und Irland &ndash; von Stadt zu Stadt, mit schweren Kisten, oft unter widrigsten Reisebedingungen, getrennt von ihrem in Frankreich zurückgebliebenen Ehemann, allein mit ihren beiden Söhnen. Erst 1835, im Alter von vierundsiebzig Jahren, ließ sie sich endgültig in der Baker Street in London nieder und gründete das erste dauerhafte Museum.</p>
+          <p class="vb-intro">Diese jahrzehntelange, nie spektakuläre, aber nie erlahmende Beharrlichkeit ist reine SE3-Energie: kein Durchbruch über Nacht, sondern eine lange Kette praktischer Entscheidungen, jede einzelne auf Sicherung des Fortbestands ausgerichtet. Sie überzeugte durch die Qualität ihrer Arbeit, nicht durch persönliche Selbstdarstellung &ndash; ein Museum, das ihren Namen bis heute trägt, obwohl kaum jemand ihr Gesicht kennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Ein Handwerk, das die Zeit überdauert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Madame Tussaud der Welt hinterließ, lässt sich nicht auf ein Kuriositätenkabinett reduzieren. Sie schuf eine der beständigsten Institutionen der Populärkultur &ndash; ein Museum, das bis heute in London und Dutzenden weiteren Städten Millionen Besucher jährlich anzieht, und eine Wachsbildnerkunst, die zugleich historisches Dokument war: Ihre Totenmasken der Französischen Revolution zählen heute zu den wenigen unmittelbaren physischen Zeugnissen jener Epoche.</p>
+          <p class="vb-intro">Das ist die SE3w4 auf ihrer weitreichendsten Stufe: eine Frau, deren Bedürfnis nach materieller Sicherheit sich mit einem untrüglichen Gespür für das verband, was Menschen wirklich fasziniert &ndash; Schönheit und Schrecken, Macht und Untergang, in Wachs gegossen und der Nachwelt überlassen. Der Waschbär mit dem Viererflügel überlebt nicht nur &ndash; er hinterlässt ein Werk, das seine eigene Lebenszeit weit überdauert.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 &ndash; Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-osho", label:"Porträt: Osho (SE3w4)"},
+        {route:"beruehmte-david-l-rathmer", label:"Porträt: David L. Rathmer (SE3w4)"},
       ])}
     </div>
   `);
@@ -49065,6 +49134,7 @@ function render() {
       "beruehmte-sadhguru": sadhguruPortraitPage,
       "beruehmte-penelope-cruz": penelopeCruzPortraitPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
+      "beruehmte-madame-tussaud": madameTussaudPortraitPage,
       "beruehmte-osho": oshoPortraitPage,
       "beruehmte-karl-lagerfeld": karlLagerfeldPortraitPage,
       "beruehmte-teresa-von-avila": teresaVonAvilaPortraitPage,
