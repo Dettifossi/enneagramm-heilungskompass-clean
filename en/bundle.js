@@ -694,6 +694,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Karl Lagerfeld – Social Type 3",
     teaser:"SO3w4 · 1933–2019. Fashion icon, creative director of Chanel and Fendi. The cheetah who transformed himself into a symbol - and behind it lived a life of books, aesthetics and hidden depth.",
     tags:["Mode","Art"] , gender:"m"},
+  { route:"beruehmte-teresa-von-avila", name:"Teresa of Ávila", added:"2026-08-08", subtyp:"SO3w4",
+    heading:"Teresa of Ávila – Social Type 3",
+    teaser:"SO3w4 · 1515–1582. Mystic, monastic reformer, Doctor of the Church. Founder of 17 reformed convents despite chronic illness, author of \"The Interior Castle\", scrutinized by the Inquisition – the cheetah whose deepest vision became the most famous artwork of her age. Animal correspondence: Cheetah.",
+    tags:["Religion","History"] , gender:"f"},
   { route:"beruehmte-sean-connery", name:"Sean Connery", added:"2026-07-31", subtyp:"SO3w4",
     heading:"Sean Connery – Social Type 3",
     teaser:"SO3w4 · 1930–2020. Actor, the first and most iconic James Bond, Oscar for \"The Untouchables\". From milkman to global icon – the cheetah that perfected its image and yet had the courage to leave it behind. Animal correspondence: Cheetah.",
@@ -16390,6 +16394,72 @@ function karlLagerfeldPortraitPage() {
         {route:"beruehmte-sahra-wagenknecht", label:"Portrait: Sahra Wagenknecht (SO3w2)"},
         {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"}
+      ])}
+    </div>
+  `);
+}
+
+function teresaVonAvilaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-teresa-von-avila-portrait.jpg" alt="Teresa of Ávila" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Teresa of Ávila</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Social Type 3 with a Four-Wing</p>
+        <p class="krim-portrait-subtitle">1515&ndash;1582 &ndash; Mystic, monastic reformer, Doctor of the Church &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Cheetah Who Founded a Realm of Convents</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>cheetah</strong> is the animal of the social Three &ndash; the fastest animal on earth, built for visible, undeniable success. Few historical figures outside politics or the stage embody this pattern as vividly as Teresa of Ávila. With chronically fragile health, in an era when women were barely permitted to appear in public at all, she built a network of seventeen reformed convents across Spain within two decades &ndash; an institutional achievement that even healthy men of her time would have struggled to match.</p>
+          <p class="vb-intro">Born in 1515 in Ávila, the daughter of a wealthy merchant family with Jewish roots, she entered the Carmelite order at twenty against her father's wishes. But ordinary convent life soon wasn't enough for her. She didn't want merely to be a nun &ndash; she wanted to renew the order, visibly, tangibly, irrefutably. The cheetah does not stay back with the pack. It sprints ahead while others keep to their accustomed pace.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SO3: Reform as Visible Work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> does not live for isolated, private achievements &ndash; it needs a work that becomes publicly visible and lasts. Naranjo described this subtype as the one in which ambition most unmistakably merges with the need for recognition by a larger whole. In Teresa, this ambition was directed not at personal fame in the worldly sense, but at a goal that was greater still: the reform of an entire order, visible in stone, rule, and community.</p>
+          <p class="vb-intro">Her journeys across Spain, often in a rickety ox-cart, frequently ill, always under time pressure to found yet another convent, are SO3 energy in its purest form: she did not wait for ideal conditions. She built institutions &ndash; the <em>Convento de San José</em> in Ávila in 1562 as the first, then Medina del Campo, Malagón, Valladolid, Toledo, and onward, until her work spread a visible, undeniable network across the entire country. Every new convent was a proof: <em>The reform is alive. It works. It can no longer be ignored.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: The Innermost Castle of the Soul</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the social Three a depth that exceeds pure institutional achievement &ndash; the need to be perceived as a unique, unmistakable inner world, not merely as a reformer. This depth shows itself precisely in Teresa's writings: <em>The Interior Castle</em> describes the soul as a crystalline palace with seven nested chambers, through which a person advances toward union with God &ndash; an image of poetic, almost literary symbolic power, far removed from dry dogmatics.</p>
+          <p class="vb-intro">Her mystical experiences carried an intensity she herself could barely put into words &ndash; above all the so-called <em>transverberation</em>: the vision of an angel piercing her heart with a golden, fire-tipped spear, a pain so sweet that, as she wrote, she would have wished it to last forever. Two generations later, Gian Lorenzo Bernini immortalized this moment in his marble sculpture <em>The Ecstasy of Saint Teresa</em> &ndash; a work still celebrated today as one of the most significant sacred artworks in Europe, and still debated for its openly sensual depiction. The innermost, most personal experience of the Four-winged mystic became the most public artwork of her age.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Years of Paralysis: When the Cheetah Could No Longer Run</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At twenty-three, Teresa suffered a severe illness, likely a form of catalepsy, that left her in a death-like rigid state for months &ndash; for a time she was thought dead, and a grave had already been prepared. Afterward she remained partially paralyzed for over three years, unable to walk unassisted. For the social Three, whose worth is defined through visible achievement, complete physical helplessness is one of the deepest conceivable crises: the cheetah that can no longer run is, for a moment, no cheetah at all.</p>
+          <p class="vb-intro">It is precisely in this period that the typical stress point of the Three shows itself: under pressure, Type 3 moves into its <strong>Nine stress point</strong> &ndash; withdrawal, self-doubt, a disappearance from one's own capacity to act. For decades, Teresa was accompanied by tormenting self-doubt over whether her mystical experiences truly came from God or, as she herself feared, might have been inspired by the devil. She repeatedly submitted to examination by confessors and came under the scrutiny of the Spanish Inquisition, which kept her <em>Vida</em>, her autobiography, under seal for years before releasing it.</p>
+          <p class="vb-intro">She wrote this autobiography explicitly on the instruction of her spiritual advisors &ndash; so that they, and if necessary the Inquisition itself, could judge her orthodoxy. The social Three, who needs recognition from a larger whole, thereby submitted herself to the harshest public scrutiny available in her era &ndash; and passed it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetic Effect: Speed in the Service of Renewal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Teresa's effect on her contemporaries was marked by nearly unstoppable momentum: she founded, negotiated, wrote letters to kings and bishops, and kept traveling even when feverish and exhausted. Contemporaries described a woman of sharp intellect, practical organizational talent, and a dry, often self-deprecating humor &ndash; no distant saint, but an energetic reformer who overcame resistance with the same determination she applied to physical obstacles.</p>
+          <p class="vb-intro">And yet: behind this momentum lay the long shadow of the Three, the passion of <strong>vanity</strong> &ndash; not in the sense of ostentation, but as the constant need to prove one's own work orthodox, successful, unimpeachable. Teresa had to prove, her whole life long, that she was no fraud, no heretic, none of the numerous <em>alumbradas</em> the Inquisition pursued in those decades. Whether she would have found the same clarity about her own inner world without this constant pressure to justify herself remains an open question.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: A Language for the Innermost Self</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Teresa of Ávila left the world cannot be reduced to seventeen convent foundations. With <em>The Interior Castle</em>, <em>The Way of Perfection</em>, and her autobiography, she created one of the most striking languages for mystical experience in the history of world literature &ndash; written by a woman, in an age when women were almost entirely barred from theological writing. In 1970, nearly four hundred years after her death, she was named &ndash; together with Catherine of Siena &ndash; the first woman ever to be declared a <em>Doctor of the Church</em>, the highest recognition the Catholic Church grants for theological work.</p>
+          <p class="vb-intro">This is the SO3w4 at its farthest-reaching level: a woman whose need for visible, unimpeachable recognition merged with a depth that outlasted centuries. The cheetah with the Four-wing can refound an entire spiritual tradition &ndash; once it learns that the innermost self it tries to protect works most powerfully precisely when it is shared.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
+        {route:"beruehmte-sean-connery", label:"Portrait: Sean Connery (SO3w4)"},
+        {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
       ])}
     </div>
   `);
@@ -45975,6 +46045,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jamie-lee-curtis": jamieleecurtisPortraitPage,
       "beruehmte-juergen-klopp": juergenKloppPortraitPage,
       "beruehmte-karl-lagerfeld": karlLagerfeldPortraitPage,
+      "beruehmte-teresa-von-avila": teresaVonAvilaPortraitPage,
       "beruehmte-sean-connery": seanConneryPortraitPage,
       "beruehmte-karoline-herfurth": karolineHerfurthPortraitPage,
       "beruehmte-kevin-costner": kevinCostnerPortraitPage,

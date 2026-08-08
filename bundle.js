@@ -24133,6 +24133,7 @@ const registerEntries = [
   { term: "Romy Schneider",                route: "beruehmte-romy-schneider",              description: "Portrait: SX4w5 \u00b7 Sexueller Typ 4 \u00b7 Filmikone, Traum & Tragik" },
   { term: "Sadhguru",                      route: "beruehmte-sadhguru",                    description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Yogi, spiritueller Lehrer, Isha Foundation" },
   { term: "Sahra Wagenknecht",             route: "beruehmte-sahra-wagenknecht",           description: "Portrait: SO3w2 \u00b7 Sozialer Typ 3 \u00b7 Politikerin, BSW-Gr\u00fcnderin" },
+  { term: "Teresa von \u00c1vila",               route: "beruehmte-teresa-von-avila",             description: "Portrait: SO3w4 \u00b7 Sozialer Typ 3 \u00b7 Mystikerin, Ordensreformerin, Kirchenlehrerin" },
   { term: "Sean Connery",                  route: "beruehmte-sean-connery",                description: "Portrait: SO3w4 \u00b7 Sozialer Typ 3 \u00b7 Schauspieler, James Bond" },
   { term: "Sigmund Freud",                 route: "beruehmte-sigmund-freud",               description: "Portrait: SE5w6 \u00b7 Selbsterhaltender Typ 5 \u00b7 Psychoanalyse-Gr\u00fcnder" },
     { term: "Kevin Costner", route: "beruehmte-kevin-costner", description: "Portrait: SO9w1 \u00b7 Sozialer Typ 9 \u00b7 Schauspieler & Regisseur, Dances with Wolves, Yellowstone, B\u00fcffel" },
@@ -24409,6 +24410,7 @@ const registerEntriesEN = [
   { term: "Romy Schneider", route: "beruehmte-romy-schneider", description: "Portrait: SX4w5 \u00b7 Sexual Type 4 \u00b7 Film icon, dream & tragedy" },
   { term: "Sadhguru", route: "beruehmte-sadhguru", description: "Portrait: SO7w6 \u00b7 Social Type 7 \u00b7 Yogi, spiritual teacher, Isha Foundation" },
   { term: "Sahra Wagenknecht", route: "beruehmte-sahra-wagenknecht", description: "Portrait: SO3w2 \u00b7 Social Type 3 \u00b7 Politician, BSW founder" },
+  { term: "Teresa of \u00c1vila", route: "beruehmte-teresa-von-avila", description: "Portrait: SO3w4 \u00b7 Social Type 3 \u00b7 Mystic, monastic reformer, Doctor of the Church" },
   { term: "Sean Connery", route: "beruehmte-sean-connery", description: "Portrait: SO3w4 \u00b7 Social Type 3 \u00b7 Actor, James Bond" },
   { term: "Sigmund Freud", route: "beruehmte-sigmund-freud", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 founder of psychoanalysis" },
   { term: "Kevin Costner", route: "beruehmte-kevin-costner", description: "Portrait: SO9w1 \u00b7 Social Type 9 \u00b7 Actor & Director, Dances with Wolves, Yellowstone, Buffalo" },
@@ -31380,6 +31382,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Karl Lagerfeld \u2013 Sozialer Typ 3",
     teaser:"SO3w4 \u00b7 1933\u20132019. Mode-Ikone, Creative Director von Chanel und Fendi. Der Gepard, der sich selbst in ein Symbol verwandelt hat \u2013 und dahinter ein Leben aus B\u00fcchern, \u00c4sthetik und verborgener Tiefe f\u00fchrte.",
     tags:["Mode","Kunst"] , gender:"m"},
+  { route:"beruehmte-teresa-von-avila", name:"Teresa von \u00c1vila", added:"2026-08-08", subtyp:"SO3w4",
+    heading:"Teresa von \u00c1vila \u2013 Sozialer Typ 3",
+    teaser:"SO3w4 \u00b7 1515\u20131582. Mystikerin, Ordensreformerin, Kirchenlehrerin. Gr\u00fcnderin von 17 reformierten Kl\u00f6stern trotz chronischer Krankheit, Autorin der \u201eInneren Burg\u201c, unter Beobachtung der Inquisition \u2013 der Gepard, dessen tiefste Vision zum ber\u00fchmtesten Kunstwerk ihrer Zeit wurde. Tierentsprechung: Gepard.",
+    tags:["Religion","Geschichte"] , gender:"f"},
   { route:"beruehmte-sean-connery", name:"Sean Connery", added:"2026-07-31", subtyp:"SO3w4",
     heading:"Sean Connery \u2013 Sozialer Typ 3",
     teaser:"SO3w4 \u00b7 1930\u20132020. Schauspieler, erster und ikonischster James Bond, Oscar f\u00fcr \u201eDie Unbestechlichen\u201c. Vom Milchmann zum Weltstar \u2013 der Gepard, der sein Image perfektionierte und doch den Mut hatte, es hinter sich zu lassen. Tierentsprechung: Gepard.",
@@ -51601,6 +51607,72 @@ function karlLagerfeldPortraitPage() {
         {route:"beruehmte-sahra-wagenknecht", label:"Portr\u00e4t: Sahra Wagenknecht (SO3w2)"},
         {route:"beruehmte-cristiano-ronaldo", label:"Portr\u00e4t: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-david-l-rathmer", label:"Portr\u00e4t: David L. Rathmer (SE3w4)"}
+      ])}
+    </div>
+  `);
+}
+
+function teresaVonAvilaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-teresa-von-avila-portrait.jpg" alt="Teresa von \u00c1vila" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Teresa von \u00c1vila</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">1515&ndash;1582 &ndash; Mystikerin, Ordensreformerin, Kirchenlehrerin &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard, der ein Ordensreich gr\u00fcndete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; das schnellste Tier der Erde, gebaut f\u00fcr sichtbaren, unbestreitbaren Erfolg. Kaum eine historische Gestalt au\u00dferhalb von Politik und B\u00fchne verk\u00f6rpert dieses Muster so eindr\u00fccklich wie Teresa von \u00c1vila. Mit chronisch schwacher Gesundheit, in einer Zeit, in der Frauen kaum \u00f6ffentlich in Erscheinung treten durften, baute sie binnen zwei Jahrzehnten ein Netzwerk von siebzehn reformierten Kl\u00f6stern quer durch Spanien auf &ndash; eine institutionelle Leistung, die selbst gesunde M\u00e4nner ihrer Zeit kaum vollbracht h\u00e4tten.</p>
+          <p class="vb-intro">Geboren 1515 in \u00c1vila als Tochter einer wohlhabenden Kaufmannsfamilie mit j\u00fcdischen Wurzeln, trat sie mit zwanzig Jahren gegen den Willen ihres Vaters in den Karmelitinnenorden ein. Doch der regul\u00e4re Klosteralltag gen\u00fcgte ihr bald nicht mehr. Sie wollte nicht einfach Nonne sein &ndash; sie wollte den Orden erneuern, sichtbar, sp\u00fcrbar, unwiderlegbar. Der Gepard bleibt nicht im Rudel zur\u00fcck. Er sprintet voraus, w\u00e4hrend andere im gewohnten Tempo weitergehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SO3: Reform als sichtbares Werk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> lebt nicht f\u00fcr einzelne, private Erfolge &ndash; sie braucht ein Werk, das \u00f6ffentlich sichtbar wird und Bestand hat. Naranjo beschrieb diesen Subtyp als denjenigen, bei dem Ehrgeiz sich am unverstelltesten mit dem Bed\u00fcrfnis nach Anerkennung durch ein gr\u00f6\u00dferes Ganzes verbindet. Bei Teresa richtete sich dieser Ehrgeiz nicht auf pers\u00f6nlichen Ruhm im weltlichen Sinn, sondern auf ein Ziel, das noch gr\u00f6\u00dfer war: die Reform eines ganzen Ordens, sichtbar in Stein, Regel und Gemeinschaft.</p>
+          <p class="vb-intro">Ihre Reise durch Spanien, oft in einem klapprigen Ochsenkarren, meist krank, immer unter Zeitdruck, um ein weiteres Kloster zu gr\u00fcnden, ist SO3-Energie in Reinform: Sie wartete nicht auf ideale Bedingungen. Sie schuf Institutionen &ndash; das <em>Convento de San Jos\u00e9</em> in \u00c1vila 1562 als erstes, dann Medina del Campo, Malag\u00f3n, Valladolid, Toledo, und so weiter, bis ihr Werk ein sichtbares, un\u00fcbersehbares Netz \u00fcber das ganze Land legte. Jedes neue Kloster war ein Beweis: <em>Die Reform lebt. Sie wirkt. Man kann sie nicht mehr ignorieren.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Die innerste Burg der Seele</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> gibt der sozialen Drei eine Tiefe, die reines institutionelles Wirken \u00fcbersteigt &ndash; das Bed\u00fcrfnis, als einzigartige, unverwechselbare innere Welt wahrgenommen zu werden, nicht nur als Reformerin. Genau diese Tiefe zeigt sich in Teresas Schriften: <em>Die innere Burg</em> beschreibt die Seele als einen kristallenen Palast mit sieben ineinanderliegenden Wohnungen, durch die der Mensch zur Vereinigung mit Gott vordringt &ndash; ein Bild von poetischer, fast literarischer Symbolkraft, weit entfernt von trockener Dogmatik.</p>
+          <p class="vb-intro">Ihre mystischen Erfahrungen waren von einer Intensit\u00e4t, die sie selbst kaum in Worte fassen konnte &ndash; allen voran die sogenannte <em>Transverberation</em>: die Vision eines Engels, der ihr Herz mit einem goldenen, feuerspitzen Pfeil durchbohrte, ein Schmerz von solcher S\u00fc\u00dfe, dass sie ihn sich, wie sie schrieb, ewig gew\u00fcnscht h\u00e4tte. Gian Lorenzo Bernini verewigte diesen Moment zwei Generationen sp\u00e4ter in seiner Marmorskulptur <em>Die Verz\u00fcckung der heiligen Teresa</em> &ndash; ein Werk, das bis heute zugleich als eines der bedeutendsten sakralen Kunstwerke Europas gefeiert und wegen seiner unverhohlen sinnlichen Darstellung kontrovers diskutiert wird. Das innerste, pers\u00f6nlichste Erlebnis der Viererfl\u00fcgel-Mystikerin wurde zum \u00f6ffentlichsten Kunstwerk ihrer Zeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Jahre der L\u00e4hmung: Als der Gepard nicht mehr laufen konnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit dreiundzwanzig Jahren erlitt Teresa eine schwere Erkrankung, vermutlich eine Form der Katalepsie, die sie \u00fcber Monate in einen todes\u00e4hnlichen Starrezustand versetzte &ndash; man hielt sie zeitweise f\u00fcr tot und hatte bereits ein Grab vorbereitet. Sie blieb danach \u00fcber drei Jahre teilweise gel\u00e4hmt, unf\u00e4hig, selbstst\u00e4ndig zu gehen. F\u00fcr die soziale Drei, deren Wert sich \u00fcber sichtbares Wirken definiert, ist v\u00f6llige k\u00f6rperliche Ohnmacht eine der tiefsten denkbaren Krisen: Der Gepard, der nicht mehr laufen kann, ist f\u00fcr einen Moment kein Gepard mehr.</p>
+          <p class="vb-intro">Genau in dieser Zeit zeigt sich der typische Stresspunkt der Drei: Unter Druck geht der Typ 3 in seinen <strong>Neuner-Stresspunkt</strong> &ndash; R\u00fcckzug, Selbstzweifel, ein Verschwinden aus der eigenen Handlungsf\u00e4higkeit. Jahrzehntelang begleiteten Teresa qu\u00e4lende Selbstzweifel, ob ihre mystischen Erfahrungen tats\u00e4chlich von Gott stammten oder, wie sie selbst f\u00fcrchtete, vom Teufel eingegeben sein k\u00f6nnten. Sie unterwarf sich wiederholt der Pr\u00fcfung durch Beichtv\u00e4ter und geriet ins Visier der spanischen Inquisition, die ihre <em>Vida</em>, ihre Autobiografie, jahrelang unter Verschluss hielt und pr\u00fcfte, bevor sie freigegeben wurde.</p>
+          <p class="vb-intro">Sie schrieb diese Autobiografie explizit auf Anweisung ihrer geistlichen Begleiter &ndash; damit diese, und notfalls die Inquisition selbst, \u00fcber ihre Rechtgl\u00e4ubigkeit urteilen konnten. Die soziale Drei, die Anerkennung durch ein gr\u00f6\u00dferes Ganzes braucht, unterstellte sich damit der h\u00e4rtesten verf\u00fcgbaren \u00f6ffentlichen Pr\u00fcfung ihrer Zeit &ndash; und bestand sie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Tempo im Dienst der Erneuerung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Teresas Wirkung auf ihre Zeitgenossen war von geradezu unb\u00e4ndigem Tempo gepr\u00e4gt: Sie gr\u00fcndete, verhandelte, schrieb Briefe an K\u00f6nige und Bisch\u00f6fe, reiste weiter, obwohl sie oft fieberkrank und ersch\u00f6pft war. Zeitgenossen beschrieben eine Frau von scharfem Verstand, praktischem Organisationstalent und einem trockenen, oft selbstironischen Humor &ndash; keine entr\u00fcckte Heilige, sondern eine energiegeladene Reformerin, die Widerst\u00e4nde mit derselben Entschlossenheit \u00fcberwand wie \u00e4u\u00dfere Hindernisse.</p>
+          <p class="vb-intro">Und doch: Hinter diesem Tempo lag der lange Schatten der Drei, die Leidenschaft <strong>Eitelkeit</strong> &ndash; nicht im Sinne von Prunksucht, sondern als die Notwendigkeit, das eigene Werk permanent als rechtgl\u00e4ubig, als erfolgreich, als unanfechtbar zu erweisen. Teresa musste ihr Leben lang beweisen, dass sie keine Betr\u00fcgerin, keine H\u00e4retikerin, keine der zahlreichen <em>alumbradas</em> war, die die Inquisition in jenen Jahrzehnten verfolgte. Die Frage, ob sie ohne diesen st\u00e4ndigen Rechtfertigungsdruck dieselbe Klarheit \u00fcber ihre eigene innere Welt gefunden h\u00e4tte, bleibt offen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Eine Sprache f\u00fcr das Innerste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Teresa von \u00c1vila der Welt hinterlie\u00df, l\u00e4sst sich nicht auf siebzehn Klostergr\u00fcndungen reduzieren. Mit <em>Die innere Burg</em>, <em>Der Weg der Vollkommenheit</em> und ihrer Autobiografie schuf sie eine der eindr\u00fccklichsten Sprachen f\u00fcr mystische Erfahrung in der Geschichte der Weltliteratur &ndash; verfasst von einer Frau, in einer Zeit, in der Frauen theologisches Schreiben fast g\u00e4nzlich verwehrt war. 1970, fast vierhundert Jahre nach ihrem Tod, wurde sie gemeinsam mit Katharina von Siena als erste Frau \u00fcberhaupt zur <em>Kirchenlehrerin</em> erhoben &ndash; jener h\u00f6chsten Anerkennung, die die katholische Kirche f\u00fcr theologisches Wirken vergibt.</p>
+          <p class="vb-intro">Das ist die SO3w4 auf ihrer weitreichendsten Stufe: eine Frau, deren Bed\u00fcrfnis nach sichtbarer, unanfechtbarer Anerkennung sich mit einer Tiefe verband, die Jahrhunderte \u00fcberdauerte. Der Gepard mit dem Viererfl\u00fcgel kann eine ganze geistliche Tradition neu begr\u00fcnden &ndash; wenn er lernt, dass das Innerste, das er zu sch\u00fctzen versucht, gerade dann am st\u00e4rksten wirkt, wenn er es teilt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so3", label:"SO3 &ndash; Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-sean-connery", label:"Portr\u00e4t: Sean Connery (SO3w4)"},
+        {route:"beruehmte-karl-lagerfeld", label:"Portr\u00e4t: Karl Lagerfeld (SO3w4)"},
       ])}
     </div>
   `);
@@ -80010,6 +80082,7 @@ function render() {
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
       "beruehmte-osho": oshoPortraitPage,
       "beruehmte-karl-lagerfeld": karlLagerfeldPortraitPage,
+      "beruehmte-teresa-von-avila": teresaVonAvilaPortraitPage,
       "beruehmte-sean-connery": seanConneryPortraitPage,
       "beruehmte-sahra-wagenknecht": sahraWagenknechtPortraitPage,
       "beruehmte-cristiano-ronaldo": cristianoRonaldoPortraitPage,
