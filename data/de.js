@@ -5175,6 +5175,8 @@ export const uiText = {
       { route: "aufmerksamkeitsfokus", label: "Aufmerksamkeitsfokus & Blindheit" },
       { route: "basisemotionen", label: "Basisemotionen" },
       { route: "enneagramm-emotionalitaet", label: "Enneagramm und Emotionalität" },
+      { route: "enneagramm-instinkt", label: "Enneagramm und Instinkt" },
+      { route: "enneagramm-intellekt", label: "Enneagramm und Intellekt" },
       { route: "beruhmte-komponisten", label: "Berühmte Komponisten" },
       { route: "homoeopathie-songs", label: "Enneagramm, Homöopathie & Songs" },
       { route: "beruhmte-philosophen", label: "Berühmte Philosophen" },

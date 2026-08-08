@@ -1554,6 +1554,8 @@ function enneagrammFilmeTypPage(code) {
 const SCHAUBILDER_NEU = {
   "architektur-raumgestaltung-der-9-typen": "2026-07-31",
   "enneagramm-emotionalitaet": "2026-08-08",
+  "enneagramm-instinkt": "2026-08-08",
+  "enneagramm-intellekt": "2026-08-08",
 };
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -1583,6 +1585,8 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "bagua-zonen-der-9-typen",
     "grimms-maerchen-der-9-typen",
     "enneagramm-emotionalitaet",
+    "enneagramm-instinkt",
+    "enneagramm-intellekt",
     "hunderassen-der-9-typen",
     "pferdearten-der-9-typen",
     "nagetierarten-der-9-typen",
@@ -1781,6 +1785,8 @@ text.nav = [
     { route: "bagua-zonen-der-9-typen", label: "Bagua Zones of the 9 Types" },
     { route: "grimms-maerchen-der-9-typen", label: "Grimm's Fairy Tales of the 9 Types" },
     { route: "enneagramm-emotionalitaet", label: "Enneagram and Emotionality" },
+    { route: "enneagramm-instinkt", label: "Enneagram and Instinct" },
+    { route: "enneagramm-intellekt", label: "Enneagram and Intellect" },
     { route: "brillenmodelle-der-9-typen", label: "Eyeglass Models of the 9 Types" },
     { route: "brotsorten", label: "Bread Varieties of the 9 Types" },
     { route: "bundeslaender", label: "German Federal States" },
@@ -35907,6 +35913,186 @@ function enneagrammEmotionalitaetPage() {
   `);
 }
 
+function enneagrammInstinktPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Enneagram and Instinct", "Charts · Emotions & Awareness")}
+      <p class="psycho-intro">Instinct in the Enneagram is the immediate, bodily drive — the energy that acts before the mind has finished thinking. It, too, is value-free in itself: neither good nor bad, but pure life force in search of a direction. Lived consciously, instinct becomes healthy presence, timely action that steps in at the right moment, and a reliable feel for what is needed now. Lived unconsciously, the same energy becomes impulsivity, reaction without pause — the body acts before the person understands why.</p>
+      <img src="../assets/enneagramm-instinkt.jpg" alt="Enneagram and Instinct – Chart"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+
+      <div class="vb-section" style="max-width:100%;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Two faces of the same force</h2>
+        <p class="vb-intro">Each of the nine types carries its own instinctual coloring — its own way in which bodily energy arises, gets held back, or discharges into action. This coloring is in itself neutral. It is only the degree of awareness that decides whether it becomes a reliable inner compass needle or a blind reflex. In a conscious state, instinct becomes an instrument of perception: it grounds a person in action, anchors them in the body, and gives presence along with a fine sense for the right moment. In an unconscious state, the very same instinctual force runs unfiltered — it overwhelms, hardens, freezes, or exhausts itself, often without the person noticing at first.</p>
+        <p class="vb-intro">The chart shows, for each type, this double possibility: the quality that emerges when instinct is lived consciously — and the distortion that emerges when it unconsciously takes the wheel. It is the same bodily energy, only with a different degree of inner observation.</p>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:1rem 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
+        <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Quick jump — go directly to a type</span>
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('ins-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:var(--cream);color:var(--copper);text-decoration:none;border:1px solid var(--line);">Type ${n}</a>`).join("")}
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 id="ins-typ-1" style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 1 — The Instinct of Rightness</h3>
+        <p class="vb-intro">In Type 1, instinct is closely coupled to inner resistance: the body tenses where something isn't right, before the mind has even named it. Lived consciously, this becomes precise, hands-on drive that corrects at the right moment without overcorrecting.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP1):</strong> Consciously, an alert, physically grounded sense of order in one's own surroundings shows itself — instinct that takes practical action. Unconsciously, this becomes chronic muscular tension, a body permanently braced.</p>
+        <p class="vb-intro"><strong>Social (SO1):</strong> Consciously, determined, big-picture drive emerges that addresses wrongs directly. Unconsciously, it tips into reflexive lecturing, a body that draws itself up to correct others.</p>
+        <p class="vb-intro"><strong>Sexual (SX1):</strong> Consciously, intense, almost fiery energy shows itself, sweeping the partner along into shared change. Unconsciously, this becomes impulsive impatience — a body that pushes before the other is ready.</p>
+
+        <h3 id="ins-typ-2" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 2 — The Instinct of Devotion</h3>
+        <p class="vb-intro">In Type 2, instinctual energy flows immediately outward, toward the other — the body moves before the mind decides to help. Lived consciously, this becomes warm, reliable presence that senses where it's needed.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP2):</strong> Consciously, playful, physically warm affection shows itself within the close circle — instinct that seeks and gives closeness directly. Unconsciously, this becomes restless busyness, a body that must constantly be doing something for others to settle itself.</p>
+        <p class="vb-intro"><strong>Social (SO2):</strong> Consciously, energetic, community-building drive emerges that keeps many people in view at once. Unconsciously, it tips into excessive activism — a body that exhausts itself to stay indispensable.</p>
+        <p class="vb-intro"><strong>Sexual (SX2):</strong> Consciously, magnetic, devoted physical presence shows itself, entirely focused on one person. Unconsciously, this becomes instinctive courting of attention that knows no pause.</p>
+
+        <h3 id="ins-typ-3" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 3 — The Instinct of Achievement</h3>
+        <p class="vb-intro">In Type 3, instinct is closely tied to pace and efficiency — the body sets itself in motion as soon as a goal is visible. Lived consciously, this becomes effortless, infectious drive that moves others into action.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP3):</strong> Consciously, tireless, down-to-earth productivity shows itself, creating security through steady doing. Unconsciously, this becomes drivenness — a body that cannot switch off because stillness feels like danger.</p>
+        <p class="vb-intro"><strong>Social (SO3):</strong> Consciously, dynamic, team-leading energy emerges that moves a shared project forward. Unconsciously, it tips into restless status-striving — a body in permanent self-optimization.</p>
+        <p class="vb-intro"><strong>Sexual (SX3):</strong> Consciously, magnetic, self-assured physical presence shows itself that attracts without staging. Unconsciously, this becomes restless self-presentation, putting energy into effect rather than genuine closeness.</p>
+
+        <h3 id="ins-typ-4" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 4 — The Instinct of Intensity</h3>
+        <p class="vb-intro">In Type 4, instinct seeks the special, the intensely lived — the body reacts strongly to beauty and pain alike. Lived consciously, this becomes deep, embodied expressive power that turns experience into form.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP4):</strong> Consciously, tough, steady bodily strength shows itself, carrying even hard phases through. Unconsciously, this becomes quiet exhaustion, a body that silently endures deprivation instead of expressing it.</p>
+        <p class="vb-intro"><strong>Social (SO4):</strong> Consciously, the ability emerges to turn one's own intensity into expression that touches others. Unconsciously, it tips into demonstrative withdrawal, a body that visibly removes itself from the fray.</p>
+        <p class="vb-intro"><strong>Sexual (SX4):</strong> Consciously, volcanic, immediate bodily energy shows itself, bringing real intensity into relationship. Unconsciously, this becomes dramatic escalation, a body that seeks closeness through intensification.</p>
+
+        <h3 id="ins-typ-5" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 5 — The Instinct of Withdrawal</h3>
+        <p class="vb-intro">In Type 5, instinctual energy is first held back, conserved, observed — the body restrains itself before acting. Lived consciously, this becomes calm, economical strength that is exactly present when needed.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP5):</strong> Consciously, quiet sufficiency shows itself, a body that gets by with little while staying fully present to itself. Unconsciously, this becomes near-total withdrawal from the body, a life lived mostly in the head.</p>
+        <p class="vb-intro"><strong>Social (SO5):</strong> Consciously, matter-of-fact, observant presence emerges that contributes in a targeted, selective way. Unconsciously, it tips into detached passivity, a body that prefers analyzing to acting.</p>
+        <p class="vb-intro"><strong>Sexual (SX5):</strong> Consciously, surprisingly intense devotion to a person or subject shows itself once trust exists. Unconsciously, this becomes consuming inner absorption that barely shows itself physically at all.</p>
+
+        <h3 id="ins-typ-6" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 6 — The Instinct of Vigilance</h3>
+        <p class="vb-intro">In Type 6, the body is constantly tuned to signals of danger or safety — instinct shows itself as fine alertness. Lived consciously, this becomes fast, accurate responsiveness that protects without paralyzing.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP6):</strong> Consciously, provident, down-to-earth vigilance shows itself, establishing safety in daily life. Unconsciously, this becomes nervous tension, a body permanently braced for the next problem.</p>
+        <p class="vb-intro"><strong>Social (SO6):</strong> Consciously, loyal, reliable presence emerges in service of the group. Unconsciously, it tips into suspicious overwatchfulness, a body that keeps a wary eye on authorities.</p>
+        <p class="vb-intro"><strong>Sexual (SX6):</strong> Consciously, courageous, direct bodily strength shows itself, turning fear into confrontation rather than retreat. Unconsciously, this becomes impulsive readiness to attack, a body that strikes before it has checked.</p>
+
+        <h3 id="ins-typ-7" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 7 — The Instinct of Movement</h3>
+        <p class="vb-intro">In Type 7, the body wants to keep moving, take in new stimuli, miss nothing — instinct shows itself as a constant pull forward. Lived consciously, this becomes lively, infectious energy that brings momentum into any situation.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP7):</strong> Consciously, practical, pleasure-loving physicality shows itself, combining safety with experience. Unconsciously, this becomes restless busyness, a body that needs distraction so as not to feel unease.</p>
+        <p class="vb-intro"><strong>Social (SO7):</strong> Consciously, generous, inspiring energy emerges in service of a good cause. Unconsciously, it tips into self-overextension, a body that keeps giving until its reserves run dry.</p>
+        <p class="vb-intro"><strong>Sexual (SX7):</strong> Consciously, intense, fascinating presence shows itself that spontaneously sweeps others along. Unconsciously, this becomes impulsive stimulus-seeking, a body that leaps from one enthusiasm to the next.</p>
+
+        <h3 id="ins-typ-8" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 8 — The Instinct of Strength</h3>
+        <p class="vb-intro">In Type 8, the body itself is the message: powerful, present, immediate. Lived consciously, this becomes protective strength that holds space without taking it from others.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP8):</strong> Consciously, robust, unshakeable presence shows itself, creating safety for self and others. Unconsciously, this becomes uncompromising toughness, a body that never lets vulnerability show at all.</p>
+        <p class="vb-intro"><strong>Social (SO8):</strong> Consciously, powerful, loyal leadership energy emerges in service of a group. Unconsciously, it tips into dominant controlling behavior, a body that claims space instead of sharing it.</p>
+        <p class="vb-intro"><strong>Sexual (SX8):</strong> Consciously, devoted, immediate passion shows itself, wholly embracing the partner. Unconsciously, this becomes possessive intensity, a body that confuses closeness with taking over.</p>
+
+        <h3 id="ins-typ-9" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 9 — The Instinct of Calm</h3>
+        <p class="vb-intro">In Type 9, instinctual energy often withdraws to preserve peace — the body dampens itself before conflict can arise. Lived consciously, this becomes carrying, grounded presence that radiates safety without imposing.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP9):</strong> Consciously, cozy, physically grounded ease shows itself, creating a sense of shelter. Unconsciously, this becomes inertia — a body that numbs itself in habit and comfort.</p>
+        <p class="vb-intro"><strong>Social (SO9):</strong> Consciously, connecting, balancing energy emerges that holds groups together. Unconsciously, it tips into self-effacement, a body that shows up for everyone else while forgetting its own energy.</p>
+        <p class="vb-intro"><strong>Sexual (SX9):</strong> Consciously, intense, merging bodily presence shows itself, fully oriented toward the beloved person. Unconsciously, this becomes energetic fusion to the point of self-abandonment, a body that loses its own boundaries in the other.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("sprache-der-sexualität", "Instinct and emotionality working together — how desire and bodily energy connect in the 9 types and their subtypes.", "Die Sprache unserer Sexualität")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 subtypes in detail — the normal, boosting, and counter variant of every Enneagram type explained in depth.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
+      </div>
+      ${relatedLinks([
+        {route:"enneagramm-emotionalitaet", label:"Enneagram and Emotionality"},
+        {route:"enneagramm-intellekt", label:"Enneagram and Intellect"},
+        {route:"leidenschaft-und-wunde", label:"Passion and Wound"},
+      ])}
+    </div>
+  `);
+}
+
+function enneagrammIntellektPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Enneagram and Intellect", "Charts · Emotions & Awareness")}
+      <p class="psycho-intro">Intellect in the Enneagram is the ability to pause, order, and understand before acting or feeling. It, too, is value-free in itself: neither good nor bad, but mental clarity in search of a direction. Lived consciously, intellect becomes genuine insight, an overview that recognizes connections without getting lost in them. Lived unconsciously, the same ability becomes rumination, distance, a mind that thinks instead of living — reasoning that pushes itself between the person and the world.</p>
+      <img src="../assets/enneagramm-intellekt.jpg" alt="Enneagram and Intellect – Chart"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+
+      <div class="vb-section" style="max-width:100%;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Two faces of the same force</h2>
+        <p class="vb-intro">Each of the nine types carries its own intellectual coloring — its own way of using the mind to order the world. This coloring is in itself neutral. It is only the degree of awareness that decides whether it becomes clear insight or a flight from one's own experience. In a conscious state, intellect becomes an instrument of perception: it creates overview, recognizes patterns, and links feeling and action with understanding. In an unconscious state, the very same mind runs unfiltered — it ruminates, justifies, distances, or freezes in analysis, often without the person noticing at first.</p>
+        <p class="vb-intro">The chart shows, for each type, this double possibility: the quality that emerges when intellect is lived consciously — and the distortion that emerges when it unconsciously takes the wheel. It is the same mental force, only with a different degree of inner observation.</p>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:1rem 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
+        <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Quick jump — go directly to a type</span>
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('int-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:var(--cream);color:var(--copper);text-decoration:none;border:1px solid var(--line);">Type ${n}</a>`).join("")}
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 id="int-typ-1" style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 1 — The Intellect of Discernment</h3>
+        <p class="vb-intro">In Type 1, the mind is trained to separate right from wrong — an inner rulebook checks every situation. Lived consciously, this becomes clear, differentiated judgment that sees nuance instead of only black and white.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP1):</strong> Consciously, practical, solution-oriented thinking shows itself, creating order in daily life. Unconsciously, this becomes an inner critic that scans every detail for flaws.</p>
+        <p class="vb-intro"><strong>Social (SO1):</strong> Consciously, systemic thinking emerges that keeps fair structures for everyone in view. Unconsciously, it tips into self-righteous rule-mongering, a mind that measures others against its own standard.</p>
+        <p class="vb-intro"><strong>Sexual (SX1):</strong> Consciously, committed, persuasive thinking shows itself that wins others over for a better cause. Unconsciously, this becomes missionary zeal, a mind that no longer allows any other viewpoint.</p>
+
+        <h3 id="int-typ-2" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 2 — The Intellect of Relationship</h3>
+        <p class="vb-intro">In Type 2, the mind thinks primarily in relationships — who needs what, who feels how. Lived consciously, this becomes fine social sense that recognizes needs without losing itself.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP2):</strong> Consciously, warm, everyday-close understanding of the people in the close circle shows itself. Unconsciously, this becomes constant thinking-for-others that leaves the mind hardly any room of its own.</p>
+        <p class="vb-intro"><strong>Social (SO2):</strong> Consciously, strategic thinking emerges for the good of many, an overview of social networks. Unconsciously, it tips into calculated maneuvering over who owes whom what.</p>
+        <p class="vb-intro"><strong>Sexual (SX2):</strong> Consciously, intuitive sense for the one person shows itself, a mind entirely tuned to them. Unconsciously, this becomes ruminating circling around the question of whether one is loved enough.</p>
+
+        <h3 id="int-typ-3" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 3 — The Intellect of Effectiveness</h3>
+        <p class="vb-intro">In Type 3, thinking is goal-directed and efficient — the mind plans the shortest route to success. Lived consciously, this becomes clear, pragmatic strategy that brings others along rather than merely functioning.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP3):</strong> Consciously, down-to-earth, efficient organizational talent shows itself, creating security through smart action. Unconsciously, this becomes constant optimization-thinking that never comes to rest.</p>
+        <p class="vb-intro"><strong>Social (SO3):</strong> Consciously, strategic thinking emerges that cleverly leads a team toward a shared goal. Unconsciously, it tips into image calculation, a mind that precisely computes every effect.</p>
+        <p class="vb-intro"><strong>Sexual (SX3):</strong> Consciously, magnetic, self-assured thinking shows itself that wins the partner over through real substance. Unconsciously, this becomes permanent self-staging in the mind before any action even happens.</p>
+
+        <h3 id="int-typ-4" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 4 — The Intellect of Meaning</h3>
+        <p class="vb-intro">In Type 4, the mind seeks not efficiency but meaning — what makes this experience unique? Lived consciously, this becomes deep, symbolic understanding that turns experience into meaning.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP4):</strong> Consciously, quiet, steady reflection shows itself that can put even hard things into words. Unconsciously, this becomes tough rumination over one's own inadequacy.</p>
+        <p class="vb-intro"><strong>Social (SO4):</strong> Consciously, the ability emerges to put one's own experience into words that comfort others. Unconsciously, it tips into constant comparison, a mind that keeps re-proving its own difference.</p>
+        <p class="vb-intro"><strong>Sexual (SX4):</strong> Consciously, immediate, honest thinking shows itself that creates closeness through clarity. Unconsciously, this becomes dramatizing mental cinema that tests every relationship for intensity.</p>
+
+        <h3 id="int-typ-5" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 5 — The Intellect of Understanding</h3>
+        <p class="vb-intro">In Type 5, thinking is home ground — the mind is used here more directly and more readily than anywhere else. Lived consciously, this becomes rare clarity, an overview that makes complex connections simple.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP5):</strong> Consciously, focused, independent expertise shows itself that achieves much with little effort. Unconsciously, this becomes near-total retreat into thinking, far from one's own body and feeling.</p>
+        <p class="vb-intro"><strong>Social (SO5):</strong> Consciously, expertise emerges that willingly shares knowledge with others. Unconsciously, it tips into superior distance, a mind that entrenches itself behind expertise.</p>
+        <p class="vb-intro"><strong>Sexual (SX5):</strong> Consciously, intense, deepened engagement with a person or subject shows itself. Unconsciously, this becomes secret, walled-off thinking that is hardly shared at all.</p>
+
+        <h3 id="int-typ-6" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 6 — The Intellect of Contingency</h3>
+        <p class="vb-intro">In Type 6, the mind thinks in scenarios — what could go wrong, how can one prepare? Lived consciously, this becomes smart, realistic foresight that assesses risk without getting lost in it.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP6):</strong> Consciously, careful, forward-looking planning in daily life shows itself, creating security. Unconsciously, this becomes exhausting rumination over every worst-case scenario.</p>
+        <p class="vb-intro"><strong>Social (SO6):</strong> Consciously, loyal, systemic thinking emerges that creates reliability for the group. Unconsciously, it tips into distrust of authorities, a mind constantly searching for proof.</p>
+        <p class="vb-intro"><strong>Sexual (SX6):</strong> Consciously, courageous, direct thinking shows itself that turns uncertainty into action rather than rumination. Unconsciously, this becomes impulsive black-and-white thinking that no longer allows any middle ground.</p>
+
+        <h3 id="int-typ-7" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 7 — The Intellect of Possibility</h3>
+        <p class="vb-intro">In Type 7, the mind leaps from idea to idea, linking, associating, seeing options everywhere. Lived consciously, this becomes sparkling, creative clarity that opens perspectives instead of confusing.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP7):</strong> Consciously, practical, solution-loving thinking shows itself that smartly combines enjoyment and security. Unconsciously, this becomes jumpy restlessness, a mind that never stays long with one thought.</p>
+        <p class="vb-intro"><strong>Social (SO7):</strong> Consciously, idealistic, connecting thinking emerges that excites others for a vision. Unconsciously, it tips into self-overextension through too many parallel plans.</p>
+        <p class="vb-intro"><strong>Sexual (SX7):</strong> Consciously, fascinating, visionary thinking shows itself that infects others. Unconsciously, this becomes impulsive idealization, a mind that excites quickly and moves on just as fast.</p>
+
+        <h3 id="int-typ-8" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 8 — The Intellect of Clarity</h3>
+        <p class="vb-intro">In Type 8, thinking is direct and unfiltered — the mind gets straight to the point without detours. Lived consciously, this becomes strategic clarity that quickly cuts to the heart of a complex situation.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP8):</strong> Consciously, robust, down-to-earth judgment shows itself, organizing security for self and others. Unconsciously, this becomes uncompromising black-and-white thinking that tolerates no gray areas.</p>
+        <p class="vb-intro"><strong>Social (SO8):</strong> Consciously, far-sighted strategic thinking emerges in service of a group or cause. Unconsciously, it tips into authoritarian self-righteousness, a mind that tolerates no opposing view.</p>
+        <p class="vb-intro"><strong>Sexual (SX8):</strong> Consciously, passionate, decisive thinking shows itself, entirely focused on the partner and the shared venture. Unconsciously, this becomes possessive controlling thought.</p>
+
+        <h3 id="int-typ-9" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 9 — The Intellect of Mediation</h3>
+        <p class="vb-intro">In Type 9, the mind instinctively seeks the connecting perspective — it can understand many viewpoints at once. Lived consciously, this becomes wise, balancing clarity that mediates without losing itself.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP9):</strong> Consciously, calm, practical thinking shows itself that smoothly orders daily life. Unconsciously, this becomes mental inertia, a mind that prefers distraction to deciding.</p>
+        <p class="vb-intro"><strong>Social (SO9):</strong> Consciously, connecting thinking emerges that brings different standpoints together. Unconsciously, it tips into self-effacement, a mind that sets its own opinion aside to avoid conflict.</p>
+        <p class="vb-intro"><strong>Sexual (SX9):</strong> Consciously, intense, empathetic understanding of the beloved person shows itself. Unconsciously, this becomes fusion in thinking, a mind that dissolves its own view entirely into the other's.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 subtypes in detail — the normal, boosting, and counter variant of every Enneagram type explained in depth.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Deepened type profiles and archetypal perspectives – volume 2 of the Rathmer trilogy.", "Wer du wirklich bist – Band 2")}
+      </div>
+      ${relatedLinks([
+        {route:"enneagramm-emotionalitaet", label:"Enneagram and Emotionality"},
+        {route:"enneagramm-instinkt", label:"Enneagram and Instinct"},
+        {route:"drei-zentren", label:"The Three Centers"},
+      ])}
+    </div>
+  `);
+}
+
 function baguaZonenDer9TypenPage() {
   return shell(`
     <div class="page-container">
@@ -45863,6 +46049,8 @@ function subtypeSchaubilderPage() {
     "bagua-zonen-der-9-typen": baguaZonenDer9TypenPage,
     "grimms-maerchen-der-9-typen": grimmsMaerchenDer9TypenPage,
     "enneagramm-emotionalitaet": enneagrammEmotionalitaetPage,
+    "enneagramm-instinkt": enneagrammInstinktPage,
+    "enneagramm-intellekt": enneagrammIntellektPage,
     "hunderassen-der-9-typen": hunderassenDer9TypenPage,
     "pferdearten-der-9-typen": pferdearteDer9TypenPage,
     "nagetierarten-der-9-typen": nagetierartenDer9TypenPage,

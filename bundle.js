@@ -15882,6 +15882,8 @@ const uiText = {
       { route: "aufmerksamkeitsfokus", label: "Aufmerksamkeitsfokus & Blindheit" },
       { route: "basisemotionen", label: "Basisemotionen" },
       { route: "enneagramm-emotionalitaet", label: "Enneagramm und Emotionalit\u00e4t" },
+      { route: "enneagramm-instinkt", label: "Enneagramm und Instinkt" },
+      { route: "enneagramm-intellekt", label: "Enneagramm und Intellekt" },
       { route: "beruhmte-komponisten", label: "Ber\u00fchmte Komponisten" },
       { route: "homoeopathie-songs", label: "Enneagramm, Hom\u00f6opathie & Songs" },
       { route: "beruhmte-philosophen", label: "Ber\u00fchmte Philosophen" },
@@ -23818,6 +23820,8 @@ const registerEntries = [
   { term: "Bagua-Zonen der 9 Typen", route: "bagua-zonen-der-9-typen", description: "Feng-Shui-Bagua-Zonen als Entsprechung der 9 Enneagrammtypen" },
   { term: "Grimms M\u00e4rchen der 9 Typen", route: "grimms-maerchen-der-9-typen", description: "Grimm'sche M\u00e4rchen als archetypische Entsprechung der 9 Enneagrammtypen" },
   { term: "Enneagramm und Emotionalit\u00e4t", route: "enneagramm-emotionalitaet", description: "Bewusste und unbewusste Emotionalit\u00e4t der 9 Typen und ihrer 27 Subtypen" },
+  { term: "Enneagramm und Instinkt", route: "enneagramm-instinkt", description: "Bewusster und unbewusster Instinkt der 9 Typen und ihrer 27 Subtypen" },
+  { term: "Enneagramm und Intellekt", route: "enneagramm-intellekt", description: "Bewusster und unbewusster Intellekt der 9 Typen und ihrer 27 Subtypen" },
   { term: "Hunderassen der 9 Typen",   route: "hunderassen-der-9-typen",  description: "Archetypische Hunde-Entsprechungen f\xfcr jeden Enneagrammtyp" },
   { term: "Papageienarten der 9 Typen", route: "papageienarten-der-9-typen", description: "Archetypische Papageien-Entsprechungen f\xfcr jeden Enneagrammtyp" },
   { term: "Eulenarten der 9 Typen",     route: "eulenarten-der-9-typen",   description: "Archetypische Eulen-Entsprechungen f\xfcr jeden Enneagrammtyp" },
@@ -24565,6 +24569,8 @@ const registerEntriesEN = [
   { term: "Bagua Zones of the 9 Types", route: "bagua-zonen-der-9-typen", description: "Feng Shui Bagua zones as equivalents of the 9 Enneagram types" },
   { term: "Grimm's Fairy Tales of the 9 Types", route: "grimms-maerchen-der-9-typen", description: "Grimm's fairy tales as archetypal equivalents of the 9 Enneagram types" },
   { term: "Enneagram and Emotionality", route: "enneagramm-emotionalitaet", description: "Conscious and unconscious emotionality of the 9 types and their 27 subtypes" },
+  { term: "Enneagram and Instinct", route: "enneagramm-instinkt", description: "Conscious and unconscious instinct of the 9 types and their 27 subtypes" },
+  { term: "Enneagram and Intellect", route: "enneagramm-intellekt", description: "Conscious and unconscious intellect of the 9 types and their 27 subtypes" },
   { term: "Dog Breeds of the 9 Types", route: "hunderassen-der-9-typen", description: "Archetypal dog equivalents for each Enneagram type" },
   { term: "Parrot Species of the 9 Types", route: "papageienarten-der-9-typen", description: "Archetypal parrot equivalents for each Enneagram type" },
   { term: "Owl Species of the 9 Types", route: "eulenarten-der-9-typen", description: "Archetypal owl equivalents for each Enneagram type" },
@@ -32613,6 +32619,8 @@ function enneagrammFilmeTypPage(n) {
 const SCHAUBILDER_NEU = {
   "architektur-raumgestaltung-der-9-typen": "2026-07-31",
   "enneagramm-emotionalitaet": "2026-08-08",
+  "enneagramm-instinkt": "2026-08-08",
+  "enneagramm-intellekt": "2026-08-08",
 };
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -32642,6 +32650,8 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "bagua-zonen-der-9-typen",
     "grimms-maerchen-der-9-typen",
     "enneagramm-emotionalitaet",
+    "enneagramm-instinkt",
+    "enneagramm-intellekt",
     "hunderassen-der-9-typen",
     "pferdearten-der-9-typen",
     "nagetierarten-der-9-typen",
@@ -70136,6 +70146,186 @@ function enneagrammEmotionalitaetPage() {
   `);
 }
 
+function enneagrammInstinktPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Enneagramm und Instinkt", "Schaubilder \u00b7 Emotionen & Bewusstsein")}
+      <p class="psycho-intro">Instinkt ist im Enneagramm die unmittelbare, k\u00f6rperliche Antriebskraft \u2014 die Energie, die handelt, bevor der Verstand fertig gedacht hat. Auch sie ist an sich wertfrei: weder gut noch schlecht, sondern reine Lebenskraft, die Richtung sucht. Bewusst gelebt wird Instinkt zu gesunder Pr\u00e4senz, zu Tatkraft, die im richtigen Moment zupackt, und zu einem verl\u00e4sslichen Gesp\u00fcr f\u00fcr das, was jetzt gebraucht wird. Unbewusst wird dieselbe Energie zu Impulsivit\u00e4t, zu Reaktion ohne Innehalten \u2014 der K\u00f6rper handelt, bevor die Person selbst begreift, warum.</p>
+      <img src="./assets/enneagramm-instinkt.jpg" alt="Enneagramm und Instinkt \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+
+      <div class="vb-section" style="max-width:100%;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Zwei Gesichter derselben Kraft</h2>
+        <p class="vb-intro">Jeder der neun Typen tr\u00e4gt eine eigene instinktive Grundf\u00e4rbung \u2014 eine Art, wie K\u00f6rperenergie entsteht, sich staut oder in Handlung entl\u00e4dt. Diese F\u00e4rbung ist an sich neutral. Erst der Grad an Bewusstheit entscheidet, ob sie zur verl\u00e4sslichen inneren Kompassnadel wird oder zum blinden Reflex. Im bewussten Zustand wird Instinkt zu einem Instrument der Wahrnehmung: Er macht handlungsf\u00e4hig, verankert im K\u00f6rper, verleiht Pr\u00e4senz und ein feines Gesp\u00fcr f\u00fcr den richtigen Moment. Im unbewussten Zustand dagegen l\u00e4uft dieselbe instinktive Kraft ungefiltert \u2014 sie \u00fcberrollt, verh\u00e4rtet, erstarrt oder verausgabt sich, ohne dass die Person es zun\u00e4chst selbst bemerkt.</p>
+        <p class="vb-intro">Das Schaubild zeigt f\u00fcr jeden Typ diese doppelte M\u00f6glichkeit: die Qualit\u00e4t, die entsteht, wenn Instinkt bewusst gelebt wird \u2014 und die Verzerrung, die entsteht, wenn er unbewusst das Steuer \u00fcbernimmt. Es ist dieselbe K\u00f6rperenergie, nur mit unterschiedlichem Grad an innerer Beobachtung.</p>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:1rem 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
+        <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Schnellzugriff \u2014 direkt zum Typ</span>
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('ins-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:var(--cream);color:var(--copper);text-decoration:none;border:1px solid var(--line);">Typ ${n}</a>`).join("")}
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 id="ins-typ-1" style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 \u2014 Der Instinkt der Richtigkeit</h3>
+        <p class="vb-intro">Beim Typ 1 ist Instinkt eng an inneren Widerstand gekoppelt: Der K\u00f6rper spannt sich an, wo etwas nicht stimmt, noch bevor der Verstand es benennt. Bewusst gelebt wird daraus pr\u00e4zise, zupackende Tatkraft, die im richtigen Moment korrigiert, ohne zu \u00fcberkorrigieren.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE1):</strong> Bewusst zeigt sich ein wacher, k\u00f6rperlich verankerter Sinn f\u00fcr Ordnung im eigenen Umfeld \u2014 Instinkt, der pragmatisch anpackt. Unbewusst wird daraus chronische muskul\u00e4re Anspannung, ein K\u00f6rper, der st\u00e4ndig im Anschlag steht.</p>
+        <p class="vb-intro"><strong>Sozial (SO1):</strong> Bewusst entsteht entschlossene, auf das Ganze gerichtete Handlungskraft, die Missst\u00e4nde unmittelbar angeht. Unbewusst kippt es in reflexhafte Belehrung, einen K\u00f6rper, der sich aufrichtet, um andere zurechtzuweisen.</p>
+        <p class="vb-intro"><strong>Sexuell (SX1):</strong> Bewusst zeigt sich intensive, fast feurige Energie, die den Partner mitrei\u00dft und gemeinsam ver\u00e4ndert. Unbewusst wird daraus impulsive Ungeduld \u2014 ein K\u00f6rper, der dr\u00e4ngt, bevor der andere bereit ist.</p>
+
+        <h3 id="ins-typ-2" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 \u2014 Der Instinkt der Zuwendung</h3>
+        <p class="vb-intro">Beim Typ 2 flie\u00dft instinktive Energie sofort nach au\u00dfen, in Richtung des anderen \u2014 der K\u00f6rper bewegt sich, bevor der Kopf entscheidet, zu helfen. Bewusst gelebt wird daraus warme, verl\u00e4ssliche Pr\u00e4senz, die sp\u00fcrt, wo sie gebraucht wird.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE2):</strong> Bewusst zeigt sich verspielte, k\u00f6rpernahe Zuneigung im engen Kreis \u2014 Instinkt, der N\u00e4he unmittelbar sucht und schenkt. Unbewusst wird daraus rastlose Betriebsamkeit, ein K\u00f6rper, der st\u00e4ndig etwas f\u00fcr andere tun muss, um sich zu beruhigen.</p>
+        <p class="vb-intro"><strong>Sozial (SO2):</strong> Bewusst entsteht tatkr\u00e4ftige, gemeinschaftsstiftende Energie, die viele gleichzeitig im Blick beh\u00e4lt. Unbewusst kippt es in \u00fcberzogenen Aktivismus \u2014 ein K\u00f6rper, der sich verausgabt, um unentbehrlich zu bleiben.</p>
+        <p class="vb-intro"><strong>Sexuell (SX2):</strong> Bewusst zeigt sich anziehende, hingebungsvolle K\u00f6rperpr\u00e4senz, ganz auf den einen Menschen gerichtet. Unbewusst wird daraus instinktives Werben um Aufmerksamkeit, das keine Pause kennt.</p>
+
+        <h3 id="ins-typ-3" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 \u2014 Der Instinkt der Leistung</h3>
+        <p class="vb-intro">Beim Typ 3 ist Instinkt eng mit Tempo und Effizienz verbunden \u2014 der K\u00f6rper geht in Bewegung, sobald ein Ziel erkennbar ist. Bewusst gelebt wird daraus m\u00fchelose, ansteckende Tatkraft, die andere ins Handeln bringt.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE3):</strong> Bewusst zeigt sich unerm\u00fcdliche, bodenst\u00e4ndige Schaffenskraft, die Sicherheit durch stetiges Tun schafft. Unbewusst wird daraus Getriebenheit \u2014 ein K\u00f6rper, der nicht abschalten kann, weil Stillstand sich wie Gefahr anf\u00fchlt.</p>
+        <p class="vb-intro"><strong>Sozial (SO3):</strong> Bewusst entsteht dynamische, teamf\u00fchrende Energie, die ein gemeinsames Vorhaben voranbringt. Unbewusst kippt es in ruheloses Statusstreben \u2014 ein K\u00f6rper in permanenter Selbstoptimierung.</p>
+        <p class="vb-intro"><strong>Sexuell (SX3):</strong> Bewusst zeigt sich magnetische, selbstsichere K\u00f6rperpr\u00e4senz, die anzieht, ohne zu inszenieren. Unbewusst wird daraus rastlose Selbstdarstellung, die Energie in Wirkung statt in echte N\u00e4he steckt.</p>
+
+        <h3 id="ins-typ-4" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 \u2014 Der Instinkt der Intensit\u00e4t</h3>
+        <p class="vb-intro">Beim Typ 4 sucht Instinkt das Besondere, das intensiv Erlebte \u2014 der K\u00f6rper reagiert stark auf Sch\u00f6nheit und Schmerz gleicherma\u00dfen. Bewusst gelebt wird daraus tiefe, verk\u00f6rperte Ausdruckskraft, die Erfahrung in Gestalt verwandelt.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE4):</strong> Bewusst zeigt sich z\u00e4he, standhafte K\u00f6rperkraft, die auch schwere Phasen durchtr\u00e4gt. Unbewusst wird daraus stille Ersch\u00f6pfung, ein K\u00f6rper, der Entbehrung stumm aush\u00e4lt, statt sie auszudr\u00fccken.</p>
+        <p class="vb-intro"><strong>Sozial (SO4):</strong> Bewusst entsteht die F\u00e4higkeit, eigene Intensit\u00e4t in Ausdruck zu verwandeln, der andere ber\u00fchrt. Unbewusst kippt es in demonstrative Zur\u00fcckgezogenheit, einen K\u00f6rper, der sich sichtbar aus dem Get\u00fcmmel entfernt.</p>
+        <p class="vb-intro"><strong>Sexuell (SX4):</strong> Bewusst zeigt sich vulkanische, unmittelbare K\u00f6rperenergie, die echte Intensit\u00e4t in Beziehung bringt. Unbewusst wird daraus dramatische Eskalation, ein K\u00f6rper, der N\u00e4he \u00fcber Zuspitzung sucht.</p>
+
+        <h3 id="ins-typ-5" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 \u2014 Der Instinkt des R\u00fcckzugs</h3>
+        <p class="vb-intro">Beim Typ 5 wird instinktive Energie zuerst zur\u00fcckgehalten, gespart, beobachtet \u2014 der K\u00f6rper h\u00e4lt sich zur\u00fcck, bevor er handelt. Bewusst gelebt wird daraus ruhige, \u00f6konomische Kraft, die genau dann da ist, wenn sie gebraucht wird.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE5):</strong> Bewusst zeigt sich stille Gen\u00fcgsamkeit, ein K\u00f6rper, der mit wenig auskommt und dabei ganz bei sich bleibt. Unbewusst wird daraus fast vollst\u00e4ndiger R\u00fcckzug aus dem eigenen K\u00f6rper, ein Leben vorwiegend im Kopf.</p>
+        <p class="vb-intro"><strong>Sozial (SO5):</strong> Bewusst entsteht sachliche, beobachtende Pr\u00e4senz, die sich punktuell und gezielt einbringt. Unbewusst kippt es in distanzierte Passivit\u00e4t, einen K\u00f6rper, der lieber analysiert als handelt.</p>
+        <p class="vb-intro"><strong>Sexuell (SX5):</strong> Bewusst zeigt sich \u00fcberraschend intensive Hingabe an einen Menschen oder ein Thema, sobald Vertrauen besteht. Unbewusst wird daraus verzehrende innere Vertiefung, die sich k\u00f6rperlich kaum mehr zeigt.</p>
+
+        <h3 id="ins-typ-6" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 \u2014 Der Instinkt der Wachsamkeit</h3>
+        <p class="vb-intro">Beim Typ 6 ist der K\u00f6rper st\u00e4ndig auf Signale von Gefahr oder Sicherheit geeicht \u2014 Instinkt zeigt sich als feine Alarmbereitschaft. Bewusst gelebt wird daraus schnelle, treffsichere Reaktionsf\u00e4higkeit, die sch\u00fctzt, ohne zu l\u00e4hmen.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE6):</strong> Bewusst zeigt sich vorsorgende, bodenst\u00e4ndige Wachsamkeit, die Sicherheit im Alltag herstellt. Unbewusst wird daraus nerv\u00f6se Anspannung, ein K\u00f6rper, der st\u00e4ndig auf das n\u00e4chste Problem vorbereitet ist.</p>
+        <p class="vb-intro"><strong>Sozial (SO6):</strong> Bewusst entsteht loyale, verl\u00e4ssliche Pr\u00e4senz im Dienst der Gruppe. Unbewusst kippt es in misstrauische \u00dcberwachsamkeit, einen K\u00f6rper, der Autorit\u00e4ten pr\u00fcfend im Blick beh\u00e4lt.</p>
+        <p class="vb-intro"><strong>Sexuell (SX6):</strong> Bewusst zeigt sich mutige, direkte K\u00f6rperkraft, die Angst in Konfrontation statt R\u00fcckzug verwandelt. Unbewusst wird daraus impulsive Angriffsbereitschaft, ein K\u00f6rper, der zuschl\u00e4gt, bevor er gepr\u00fcft hat.</p>
+
+        <h3 id="ins-typ-7" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 \u2014 Der Instinkt der Bewegung</h3>
+        <p class="vb-intro">Beim Typ 7 will der K\u00f6rper in Bewegung bleiben, neue Reize aufnehmen, nichts verpassen \u2014 Instinkt zeigt sich als best\u00e4ndiger Drang nach vorn. Bewusst gelebt wird daraus lebendige, ansteckende Energie, die Schwung in jede Situation bringt.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE7):</strong> Bewusst zeigt sich praktische, genussfreudige K\u00f6rperlichkeit, die Sicherheit mit Erlebnis verbindet. Unbewusst wird daraus rastlose Betriebsamkeit, ein K\u00f6rper, der Ablenkung braucht, um Unruhe nicht zu sp\u00fcren.</p>
+        <p class="vb-intro"><strong>Sozial (SO7):</strong> Bewusst entsteht gro\u00dfz\u00fcgige, mitrei\u00dfende Energie im Dienst einer guten Sache. Unbewusst kippt es in Selbst\u00fcberforderung, einen K\u00f6rper, der immer weiter gibt, bis die Reserven leer sind.</p>
+        <p class="vb-intro"><strong>Sexuell (SX7):</strong> Bewusst zeigt sich intensive, faszinierende Pr\u00e4senz, die andere spontan mitrei\u00dft. Unbewusst wird daraus impulsive Reizsuche, ein K\u00f6rper, der von einer Begeisterung zur n\u00e4chsten springt.</p>
+
+        <h3 id="ins-typ-8" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 \u2014 Der Instinkt der Kraft</h3>
+        <p class="vb-intro">Beim Typ 8 ist der K\u00f6rper selbst die Botschaft: kraftvoll, pr\u00e4sent, unmittelbar. Bewusst gelebt wird daraus besch\u00fctzende St\u00e4rke, die Raum h\u00e4lt, ohne ihn anderen zu nehmen.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE8):</strong> Bewusst zeigt sich robuste, unersch\u00fctterliche Pr\u00e4senz, die f\u00fcr sich und andere Sicherheit schafft. Unbewusst wird daraus kompromisslose H\u00e4rte, ein K\u00f6rper, der Verletzlichkeit gar nicht erst zul\u00e4sst.</p>
+        <p class="vb-intro"><strong>Sozial (SO8):</strong> Bewusst entsteht kraftvolle, loyale F\u00fchrungsenergie im Dienst einer Gruppe. Unbewusst kippt es in dominantes Kontrollverhalten, einen K\u00f6rper, der Raum beansprucht, statt ihn zu teilen.</p>
+        <p class="vb-intro"><strong>Sexuell (SX8):</strong> Bewusst zeigt sich hingebungsvolle, unmittelbare Leidenschaft, die den Partner ganz umfasst. Unbewusst wird daraus besitzergreifende Wucht, ein K\u00f6rper, der N\u00e4he mit \u00dcbernahme verwechselt.</p>
+
+        <h3 id="ins-typ-9" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 \u2014 Der Instinkt der Ruhe</h3>
+        <p class="vb-intro">Beim Typ 9 zieht sich instinktive Energie oft zur\u00fcck, um Frieden zu wahren \u2014 der K\u00f6rper d\u00e4mpft sich selbst, bevor Konflikt entstehen kann. Bewusst gelebt wird daraus tragende, geerdete Pr\u00e4senz, die Sicherheit ausstrahlt, ohne sich aufzudr\u00e4ngen.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE9):</strong> Bewusst zeigt sich gem\u00fctliche, k\u00f6rperlich verankerte Gelassenheit, die Geborgenheit schafft. Unbewusst wird daraus Tr\u00e4gheit \u2014 ein K\u00f6rper, der sich in Gewohnheit und Bequemlichkeit bet\u00e4ubt.</p>
+        <p class="vb-intro"><strong>Sozial (SO9):</strong> Bewusst entsteht verbindende, ausgleichende Energie, die Gruppen zusammenh\u00e4lt. Unbewusst kippt es in Selbstverleugnung, einen K\u00f6rper, der sich f\u00fcr alle einsetzt und dabei die eigene Energie vergisst.</p>
+        <p class="vb-intro"><strong>Sexuell (SX9):</strong> Bewusst zeigt sich intensive, verschmelzende K\u00f6rperpr\u00e4senz, ganz auf den geliebten Menschen ausgerichtet. Unbewusst wird daraus energetisches Verschmelzen bis zur Selbstaufgabe, ein K\u00f6rper, der die eigenen Grenzen im anderen verliert.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("sprache-der-sexualit\u00e4t", "Instinkt und Emotionalit\u00e4t im Zusammenspiel \u2014 wie Begehren und K\u00f6rperenergie sich bei den 9 Typen und ihren Subtypen verbinden.", "Die Sprache unserer Sexualit\u00e4t")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Detail \u2014 Normal-, Verst\u00e4rkungs- und Kontratyp jedes Enneagrammtyps ausf\u00fchrlich erl\u00e4utert.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      </div>
+      ${relatedLinks([
+        {route:"enneagramm-emotionalitaet", label:"Enneagramm und Emotionalit\u00e4t"},
+        {route:"enneagramm-intellekt", label:"Enneagramm und Intellekt"},
+        {route:"leidenschaft-und-wunde", label:"Leidenschaft und Wunde"},
+      ])}
+    </div>
+  `);
+}
+
+function enneagrammIntellektPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Enneagramm und Intellekt", "Schaubilder \u00b7 Emotionen & Bewusstsein")}
+      <p class="psycho-intro">Intellekt ist im Enneagramm die F\u00e4higkeit, innezuhalten, zu ordnen und zu verstehen, bevor gehandelt oder gef\u00fchlt wird. Auch er ist an sich wertfrei: weder gut noch schlecht, sondern geistige Klarheit, die eine Richtung sucht. Bewusst gelebt wird Intellekt zu echter Einsicht, zu \u00dcberblick, der Zusammenh\u00e4nge erkennt, ohne sich in ihnen zu verlieren. Unbewusst wird dieselbe F\u00e4higkeit zu Gr\u00fcbeln, zu Distanz, zu einem Kopf, der denkt, statt zu leben \u2014 Verstand, der sich zwischen die Person und die Welt schiebt.</p>
+      <img src="./assets/enneagramm-intellekt.jpg" alt="Enneagramm und Intellekt \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+
+      <div class="vb-section" style="max-width:100%;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Zwei Gesichter derselben Kraft</h2>
+        <p class="vb-intro">Jeder der neun Typen tr\u00e4gt eine eigene intellektuelle Grundf\u00e4rbung \u2014 eine Art, wie Verstand eingesetzt wird, um die Welt zu ordnen. Diese F\u00e4rbung ist an sich neutral. Erst der Grad an Bewusstheit entscheidet, ob sie zu klarer Einsicht wird oder zur Flucht vor dem eigenen Erleben. Im bewussten Zustand wird Intellekt zu einem Instrument der Wahrnehmung: Er schafft \u00dcberblick, erkennt Muster, verbindet Gef\u00fchl und Handlung mit Verst\u00e4ndnis. Im unbewussten Zustand dagegen l\u00e4uft derselbe Verstand ungefiltert \u2014 er gr\u00fcbelt, rechtfertigt, distanziert oder erstarrt in Analyse, ohne dass die Person es zun\u00e4chst selbst bemerkt.</p>
+        <p class="vb-intro">Das Schaubild zeigt f\u00fcr jeden Typ diese doppelte M\u00f6glichkeit: die Qualit\u00e4t, die entsteht, wenn Intellekt bewusst gelebt wird \u2014 und die Verzerrung, die entsteht, wenn er unbewusst das Steuer \u00fcbernimmt. Es ist dieselbe geistige Kraft, nur mit unterschiedlichem Grad an innerer Beobachtung.</p>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:1rem 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
+        <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Schnellzugriff \u2014 direkt zum Typ</span>
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('int-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:var(--cream);color:var(--copper);text-decoration:none;border:1px solid var(--line);">Typ ${n}</a>`).join("")}
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 id="int-typ-1" style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 \u2014 Der Intellekt der Unterscheidung</h3>
+        <p class="vb-intro">Beim Typ 1 ist Verstand darauf trainiert, richtig von falsch zu trennen \u2014 ein inneres Regelwerk pr\u00fcft jede Situation. Bewusst gelebt wird daraus klare, differenzierte Urteilskraft, die Nuancen erkennt, statt nur schwarz-wei\u00df zu sehen.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE1):</strong> Bewusst zeigt sich praktisches, l\u00f6sungsorientiertes Denken, das Ordnung im Alltag herstellt. Unbewusst wird daraus ein innerer Kritiker, der jedes Detail auf Fehler abklopft.</p>
+        <p class="vb-intro"><strong>Sozial (SO1):</strong> Bewusst entsteht systemisches Denken, das gerechte Strukturen f\u00fcr alle im Blick hat. Unbewusst kippt es in rechthaberische Prinzipienreiterei, einen Verstand, der andere an der eigenen Norm misst.</p>
+        <p class="vb-intro"><strong>Sexuell (SX1):</strong> Bewusst zeigt sich engagiertes, \u00fcberzeugendes Denken, das andere f\u00fcr eine bessere Sache gewinnt. Unbewusst wird daraus missionarischer Eifer, ein Verstand, der keine andere Sichtweise mehr zul\u00e4sst.</p>
+
+        <h3 id="int-typ-2" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 \u2014 Der Intellekt der Beziehung</h3>
+        <p class="vb-intro">Beim Typ 2 denkt der Verstand vor allem in Beziehungen \u2014 wer braucht was, wer f\u00fchlt sich wie. Bewusst gelebt wird daraus feines soziales Gesp\u00fcr, das Bed\u00fcrfnisse erkennt, ohne sich selbst zu verlieren.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE2):</strong> Bewusst zeigt sich warmes, alltagsnahes Verst\u00e4ndnis f\u00fcr die Menschen im engen Kreis. Unbewusst wird daraus st\u00e4ndiges Mitdenken f\u00fcr andere, das die eigenen Gedanken kaum noch Raum l\u00e4sst.</p>
+        <p class="vb-intro"><strong>Sozial (SO2):</strong> Bewusst entsteht strategisches Denken f\u00fcr das Wohl vieler, ein \u00dcberblick \u00fcber soziale Netzwerke. Unbewusst kippt es in berechnendes Taktieren, wer wem wie viel schuldet.</p>
+        <p class="vb-intro"><strong>Sexuell (SX2):</strong> Bewusst zeigt sich intuitives Gesp\u00fcr f\u00fcr den einen Menschen, ein Verstand, der ganz auf ihn eingestimmt ist. Unbewusst wird daraus gr\u00fcbelndes Kreisen um die Frage, ob man geliebt genug ist.</p>
+
+        <h3 id="int-typ-3" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 \u2014 Der Intellekt der Wirksamkeit</h3>
+        <p class="vb-intro">Beim Typ 3 ist Denken zielgerichtet und effizient \u2014 der Verstand plant den k\u00fcrzesten Weg zum Erfolg. Bewusst gelebt wird daraus klare, pragmatische Strategie, die andere mitnimmt statt nur zu funktionieren.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE3):</strong> Bewusst zeigt sich bodenst\u00e4ndiges, effizientes Organisationstalent, das Sicherheit durch kluges Handeln schafft. Unbewusst wird daraus st\u00e4ndiges Optimierungsdenken, das nie zur Ruhe kommt.</p>
+        <p class="vb-intro"><strong>Sozial (SO3):</strong> Bewusst entsteht strategisches Denken, das ein Team klug zu einem gemeinsamen Ziel f\u00fchrt. Unbewusst kippt es in Image-Kalk\u00fcl, einen Verstand, der jede Wirkung genau berechnet.</p>
+        <p class="vb-intro"><strong>Sexuell (SX3):</strong> Bewusst zeigt sich anziehendes, selbstbewusstes Denken, das den Partner durch echte Substanz \u00fcberzeugt. Unbewusst wird daraus permanente Selbstinszenierung im Kopf, bevor \u00fcberhaupt gehandelt wird.</p>
+
+        <h3 id="int-typ-4" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 \u2014 Der Intellekt der Bedeutung</h3>
+        <p class="vb-intro">Beim Typ 4 sucht Verstand nicht Effizienz, sondern Bedeutung \u2014 was macht dieses Erleben einzigartig? Bewusst gelebt wird daraus tiefes, symbolisches Verst\u00e4ndnis, das Erfahrung in Sinn verwandelt.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE4):</strong> Bewusst zeigt sich stilles, standhaftes Nachdenken, das auch Schweres in Worte fassen kann. Unbewusst wird daraus z\u00e4hes Gr\u00fcbeln \u00fcber das eigene Ungen\u00fcgen.</p>
+        <p class="vb-intro"><strong>Sozial (SO4):</strong> Bewusst entsteht die F\u00e4higkeit, eigenes Erleben in Worte zu fassen, die andere tr\u00f6sten. Unbewusst kippt es in st\u00e4ndigen Vergleich, einen Verstand, der die eigene Andersartigkeit immer wieder neu belegt.</p>
+        <p class="vb-intro"><strong>Sexuell (SX4):</strong> Bewusst zeigt sich unmittelbares, ehrliches Denken, das N\u00e4he durch Klarheit schafft. Unbewusst wird daraus dramatisierendes Kopfkino, das jede Beziehung auf Zuspitzung pr\u00fcft.</p>
+
+        <h3 id="int-typ-5" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 \u2014 Der Intellekt des Verstehens</h3>
+        <p class="vb-intro">Beim Typ 5 ist Denken das ureigene Zuhause \u2014 hier wird Verstand am direktesten und am liebsten eingesetzt. Bewusst gelebt wird daraus seltene Klarheit, ein \u00dcberblick, der komplexe Zusammenh\u00e4nge einfach macht.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE5):</strong> Bewusst zeigt sich konzentriertes, unabh\u00e4ngiges Fachwissen, das mit wenig Aufwand viel erreicht. Unbewusst wird daraus fast vollst\u00e4ndiger R\u00fcckzug ins Denken, weit weg vom eigenen K\u00f6rper und Gef\u00fchl.</p>
+        <p class="vb-intro"><strong>Sozial (SO5):</strong> Bewusst entsteht Expertentum, das Wissen bereitwillig mit anderen teilt. Unbewusst kippt es in \u00fcberlegene Distanz, einen Verstand, der sich hinter Fachwissen verschanzt.</p>
+        <p class="vb-intro"><strong>Sexuell (SX5):</strong> Bewusst zeigt sich intensive, vertiefte Besch\u00e4ftigung mit einem Menschen oder Thema. Unbewusst wird daraus geheimes, abgeschottetes Denken, das kaum geteilt wird.</p>
+
+        <h3 id="int-typ-6" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 \u2014 Der Intellekt der Absicherung</h3>
+        <p class="vb-intro">Beim Typ 6 denkt der Verstand in Szenarien \u2014 was k\u00f6nnte schiefgehen, wie l\u00e4sst sich vorsorgen? Bewusst gelebt wird daraus kluge, realistische Weitsicht, die Risiken einsch\u00e4tzt, ohne sich in ihnen zu verlieren.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE6):</strong> Bewusst zeigt sich sorgf\u00e4ltiges, vorausschauendes Planen im Alltag, das Sicherheit schafft. Unbewusst wird daraus zerm\u00fcrbendes Durchdenken jedes Worst-Case-Szenarios.</p>
+        <p class="vb-intro"><strong>Sozial (SO6):</strong> Bewusst entsteht loyales, systemisches Denken, das Verl\u00e4sslichkeit f\u00fcr die Gruppe schafft. Unbewusst kippt es in Misstrauen gegen\u00fcber Autorit\u00e4ten, einen Verstand, der st\u00e4ndig nach Beweisen sucht.</p>
+        <p class="vb-intro"><strong>Sexuell (SX6):</strong> Bewusst zeigt sich mutiges, direktes Denken, das Unsicherheit in Handlung statt Gr\u00fcbeln verwandelt. Unbewusst wird daraus impulsives Schwarz-Wei\u00df-Denken, das keine Zwischent\u00f6ne mehr zul\u00e4sst.</p>
+
+        <h3 id="int-typ-7" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 \u2014 Der Intellekt der M\u00f6glichkeiten</h3>
+        <p class="vb-intro">Beim Typ 7 springt der Verstand von Idee zu Idee, verkn\u00fcpft, assoziiert, sieht \u00fcberall Optionen. Bewusst gelebt wird daraus sprudelnde, kreative Klarheit, die Perspektiven er\u00f6ffnet, statt zu verwirren.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE7):</strong> Bewusst zeigt sich praktisches, l\u00f6sungsfreudiges Denken, das Genuss und Sicherheit klug verbindet. Unbewusst wird daraus sprunghafte Rastlosigkeit, ein Verstand, der bei keinem Gedanken lange bleibt.</p>
+        <p class="vb-intro"><strong>Sozial (SO7):</strong> Bewusst entsteht idealistisches, verbindendes Denken, das andere f\u00fcr eine Vision begeistert. Unbewusst kippt es in Selbst\u00fcberforderung durch zu viele parallele Pl\u00e4ne.</p>
+        <p class="vb-intro"><strong>Sexuell (SX7):</strong> Bewusst zeigt sich faszinierendes, vision\u00e4res Denken, das andere ansteckt. Unbewusst wird daraus impulsive Idealisierung, ein Verstand, der schnell begeistert und ebenso schnell weiterzieht.</p>
+
+        <h3 id="int-typ-8" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 \u2014 Der Intellekt der Klarheit</h3>
+        <p class="vb-intro">Beim Typ 8 ist Denken direkt und unumwunden \u2014 der Verstand geht sofort zur Sache, ohne Umwege. Bewusst gelebt wird daraus strategische Klarheit, die komplexe Lagen schnell auf den Punkt bringt.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE8):</strong> Bewusst zeigt sich robustes, bodenst\u00e4ndiges Urteilsverm\u00f6gen, das f\u00fcr sich und andere Sicherheit organisiert. Unbewusst wird daraus kompromissloses Schwarz-Wei\u00df-Denken, das keine Graut\u00f6ne duldet.</p>
+        <p class="vb-intro"><strong>Sozial (SO8):</strong> Bewusst entsteht weitsichtiges strategisches Denken im Dienst einer Gruppe oder Sache. Unbewusst kippt es in autorit\u00e4re Rechthaberei, einen Verstand, der keine Gegenrede ertr\u00e4gt.</p>
+        <p class="vb-intro"><strong>Sexuell (SX8):</strong> Bewusst zeigt sich leidenschaftliches, entschlossenes Denken, ganz auf den Partner und das gemeinsame Vorhaben gerichtet. Unbewusst wird daraus besitzergreifendes Kontrolldenken.</p>
+
+        <h3 id="int-typ-9" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 \u2014 Der Intellekt der Vermittlung</h3>
+        <p class="vb-intro">Beim Typ 9 sucht Verstand instinktiv nach der verbindenden Perspektive \u2014 er kann viele Sichtweisen zugleich verstehen. Bewusst gelebt wird daraus weise, ausgleichende Klarheit, die vermittelt, ohne sich selbst zu verlieren.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE9):</strong> Bewusst zeigt sich ruhiges, praktisches Denken, das den Alltag geschmeidig ordnet. Unbewusst wird daraus gedankliche Tr\u00e4gheit, ein Verstand, der sich lieber ablenkt als entscheidet.</p>
+        <p class="vb-intro"><strong>Sozial (SO9):</strong> Bewusst entsteht verbindendes Denken, das unterschiedliche Standpunkte zusammenf\u00fchrt. Unbewusst kippt es in Selbstverleugnung, einen Verstand, der die eigene Meinung hintanstellt, um Konflikt zu vermeiden.</p>
+        <p class="vb-intro"><strong>Sexuell (SX9):</strong> Bewusst zeigt sich intensives, einf\u00fchlsames Verstehen des geliebten Menschen. Unbewusst wird daraus Verschmelzung im Denken, ein Verstand, der die eigene Sicht ganz im anderen aufl\u00f6st.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Detail \u2014 Normal-, Verst\u00e4rkungs- und Kontratyp jedes Enneagrammtyps ausf\u00fchrlich erl\u00e4utert.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+      </div>
+      ${relatedLinks([
+        {route:"enneagramm-emotionalitaet", label:"Enneagramm und Emotionalit\u00e4t"},
+        {route:"enneagramm-instinkt", label:"Enneagramm und Instinkt"},
+        {route:"drei-zentren", label:"Die drei Zentren"},
+      ])}
+    </div>
+  `);
+}
+
 function baguaZonenDer9TypenPage() {
   return shell(`
     <div class="page-container">
@@ -79853,6 +80043,8 @@ function render() {
     "bagua-zonen-der-9-typen": baguaZonenDer9TypenPage,
     "grimms-maerchen-der-9-typen": grimmsMaerchenDer9TypenPage,
     "enneagramm-emotionalitaet": enneagrammEmotionalitaetPage,
+    "enneagramm-instinkt": enneagrammInstinktPage,
+    "enneagramm-intellekt": enneagrammIntellektPage,
     "hunderassen-der-9-typen": hunderassenDer9TypenPage,
     "pferdearten-der-9-typen": pferdearteDer9TypenPage,
     "nagetierarten-der-9-typen": nagetierartenDer9TypenPage,
