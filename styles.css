@@ -4827,6 +4827,26 @@ button.primary:hover::after {
   line-height: 1.55;
   margin: 0;
 }
+.bl-card__subtyp {
+  margin-top: 0.7rem;
+  padding-top: 0.6rem;
+  border-top: 1px dashed var(--line);
+}
+.bl-card__subtyp-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--copper);
+  margin: 0 0 0.3rem;
+}
+.bl-card__subtyp-text {
+  font-size: 0.82rem;
+  color: var(--ink);
+  line-height: 1.5;
+  margin: 0;
+  opacity: 0.9;
+}
 .bl-fazit {
   background: var(--ivory);
   border: 1px solid var(--line);
