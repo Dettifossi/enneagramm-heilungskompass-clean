@@ -11027,6 +11027,10 @@ function bindEvents() {
         localStorage.setItem(VISITED_KEY, "1");
         state.profile = subtypeProfiles[id];
         state.isFirstVisit = false;
+        // Deferred so the personal greeting (welcome_${id}), which fires on
+        // the same click via the document listener, always queues first and
+        // the milestone follows after it.
+        setTimeout(() => playMilestone("erster-subtyp"), 0);
         go("dashboard");
       }
     });
@@ -46021,6 +46025,7 @@ function subtypeSchaubilderPage() {
     if (base === "gesichts-scan") requestAnimationFrame(_gesichtsScanInit);
     if (base === "dynamik-des-bewusstseinszustandes") requestAnimationFrame(_dynamikBewusstseinszustandesInit);
     if (base === "musik")  requestAnimationFrame(_musikInit);
+    trackMilestoneVisit(base, param);
     bindEvents();
     const _scrollTo = sessionStorage.getItem('kompass:scrollTo');
     if (_scrollTo) {
@@ -46402,6 +46407,91 @@ setTimeout(showTagesimpuls, 600);
 
 // Personal spoken welcome greeting – once per browser session, triggered by
 // the first user interaction (autoplay with sound is otherwise blocked).
+// Sequential voice playback: prevents the welcome greeting and milestone
+// messages from overlapping. onStart only fires after playback actually
+// started, so a play blocked by the autoplay policy isn't wrongly marked done.
+const _voiceQueue = [];
+let _voicePlaying = false;
+function queueVoice(url, onStart) {
+  if (isVoiceMuted()) return;
+  _voiceQueue.push({ url, onStart });
+  _playNextVoice();
+}
+function _playNextVoice() {
+  if (_voicePlaying || !_voiceQueue.length) return;
+  if (isVoiceMuted()) { _voiceQueue.length = 0; return; }
+  _voicePlaying = true;
+  const item = _voiceQueue.shift();
+  const audio = new Audio(item.url);
+  const done = () => { _voicePlaying = false; _playNextVoice(); };
+  audio.addEventListener("ended", done);
+  audio.addEventListener("error", done);
+  audio.play().then(() => { if (item.onStart) item.onStart(); }).catch(done);
+}
+
+// Milestone messages: personal, one-time audio for meaningful moments in the
+// app (7 days, 1 month, 9 base types, 27 subtypes, return after a break).
+// Always routed through queueVoice so they never collide with the greeting.
+const MILESTONE_FIRST_VISIT_KEY = "enneagramm-kompass:first-visit-date";
+const MILESTONE_LAST_VISIT_KEY = "enneagramm-kompass:last-visit-date";
+const MILESTONE_VIEWED_TYPES_KEY = "enneagramm-kompass:viewed-types";
+const MILESTONE_VIEWED_SUBTYPES_KEY = "enneagramm-kompass:viewed-subtypes";
+const MILESTONE_PLAYED_PREFIX = "enneagramm-kompass:milestone-played:";
+
+function _milestonePlayed(id) {
+  return !!localStorage.getItem(MILESTONE_PLAYED_PREFIX + id);
+}
+function _readJSONSet(key) {
+  try { return new Set(JSON.parse(localStorage.getItem(key) || "[]")); } catch (e) { return new Set(); }
+}
+function _writeJSONSet(key, set) {
+  localStorage.setItem(key, JSON.stringify([...set]));
+}
+function playMilestone(id) {
+  if (_milestonePlayed(id)) return;
+  queueVoice("sounds/milestones/" + id + ".mp3", () => {
+    localStorage.setItem(MILESTONE_PLAYED_PREFIX + id, "1");
+  });
+}
+
+// Time-based milestones: checked once per page load after the first user
+// interaction (see initTimeMilestones below).
+function _checkTimeMilestones() {
+  const now = Date.now();
+  const DAY = 864e5;
+  let firstVisit = localStorage.getItem(MILESTONE_FIRST_VISIT_KEY);
+  if (!firstVisit) {
+    firstVisit = String(now);
+    localStorage.setItem(MILESTONE_FIRST_VISIT_KEY, firstVisit);
+  }
+  const lastVisit = localStorage.getItem(MILESTONE_LAST_VISIT_KEY);
+  if (lastVisit && (now - Number(lastVisit)) >= 30 * DAY) {
+    playMilestone("wiederkehr");
+  }
+  localStorage.setItem(MILESTONE_LAST_VISIT_KEY, String(now));
+  const daysSinceFirst = (now - Number(firstVisit)) / DAY;
+  if (daysSinceFirst >= 7) playMilestone("sieben-tage");
+  if (daysSinceFirst >= 30) playMilestone("ein-monat");
+}
+
+// Route-based milestones (9 base types, 27 subtypes): counts distinct
+// type/subtype pages visited on every page render.
+function trackMilestoneVisit(base, param) {
+  const typMatch = base.match(/^portrait-typ-([1-9])$/);
+  if (typMatch) {
+    const set = _readJSONSet(MILESTONE_VIEWED_TYPES_KEY);
+    set.add(typMatch[1]);
+    _writeJSONSet(MILESTONE_VIEWED_TYPES_KEY, set);
+    if (set.size >= 9) playMilestone("neun-typen");
+  }
+  if (base === "subtype" && param && /^s[eox][1-9]$/i.test(param)) {
+    const set = _readJSONSet(MILESTONE_VIEWED_SUBTYPES_KEY);
+    set.add(param.toLowerCase());
+    _writeJSONSet(MILESTONE_VIEWED_SUBTYPES_KEY, set);
+    if (set.size >= 27) playMilestone("27-subtypen");
+  }
+}
+
 (function initWelcomeGreeting() {
   const KEY = 'kompass-welcome-played';
   if (sessionStorage.getItem(KEY)) return;
@@ -46421,9 +46511,24 @@ setTimeout(showTagesimpuls, 600);
     played = true;
     sessionStorage.setItem(KEY, '1');
     events.forEach(ev => document.removeEventListener(ev, play));
-    try { new Audio(url).play().catch(() => {}); } catch (e) {}
+    queueVoice(url);
   };
   events.forEach(ev => document.addEventListener(ev, play, { once: true }));
+})();
+
+// Time-based milestone check (7 days, 1 month, return after a break) – waits
+// for the first interaction just like the greeting, and always plays after
+// it thanks to the shared voice queue.
+(function initTimeMilestones() {
+  const events = ['click', 'touchstart', 'keydown'];
+  let done = false;
+  const check = () => {
+    if (done) return;
+    done = true;
+    events.forEach(ev => document.removeEventListener(ev, check));
+    _checkTimeMilestones();
+  };
+  events.forEach(ev => document.addEventListener(ev, check, { once: true }));
 })();
 
 // Spoken welcome message after successful unlock/purchase – one single generic
