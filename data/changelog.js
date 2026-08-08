@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v1002", date: "2026-08-08", text: "Neu: 12 persönliche, gesprochene Botschaften von Detlef zu besonderen Momenten in der App – u. a. beim ersten Subtyp, nach 7 Tagen und 1 Monat, bei allen 27 Subtypen, nach einem Testergebnis oder bei der Rückkehr nach einer Pause.", text_en: "New: 12 personal, spoken messages from Detlef for special moments in the app – e.g. your first subtype, after 7 days and 1 month, all 27 subtypes explored, a test result, or returning after a break.", route: "profile" },
     { version: "v1001", date: "2026-08-08", text: "Neues Schaubild: Enneagramm und Emotionalität (9 Typen, 27 Subtypen, bewusst/unbewusst).", text_en: "New chart: Enneagram and Emotionality (9 types, 27 subtypes, conscious/unconscious).", route: "enneagramm-emotionalitaet" },
     { version: "v1000", date: "2026-08-07", text: "Fehlende Erklärtexte bei 15 Schaubild-Seiten ergänzt (DE) und ins Englische übersetzt; 3 weitere unübersetzte EN-Seiten korrigiert.", text_en: "Added missing explanatory text to 15 chart pages (DE) and translated to English; fixed 3 further untranslated EN pages.", route: "kerneberzeugungen" },
     { version: "v999", date: "2026-08-07", text: "Neues Schaubild: Grimms Märchen der 9 Typen.", text_en: "New chart: Grimm's Fairy Tales of the 9 Types.", route: "grimms-maerchen-der-9-typen" },
