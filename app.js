@@ -49452,7 +49452,11 @@ function _checkTimeMilestones() {
   const DAY = 864e5;
   let firstVisit = localStorage.getItem(MILESTONE_FIRST_VISIT_KEY);
   if (!firstVisit) {
-    firstVisit = String(now);
+    // Bestandsnutzer (erkennbar an VISITED_KEY, das es schon vor den
+    // Meilensteinen gab) bekommen ein zurückdatiertes Startdatum, damit
+    // 7-Tage/1-Monat nicht erneut von vorn zu laufen beginnen.
+    const isExistingUser = !!localStorage.getItem(VISITED_KEY);
+    firstVisit = String(now - (isExistingUser ? 31 * DAY : 0));
     localStorage.setItem(MILESTONE_FIRST_VISIT_KEY, firstVisit);
   }
   const lastVisit = localStorage.getItem(MILESTONE_LAST_VISIT_KEY);
