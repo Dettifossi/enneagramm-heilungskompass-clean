@@ -80364,7 +80364,10 @@ setTimeout(showTagesimpuls, 600);
 
   btn.addEventListener("click", function () {
     panel.style.display = panel.style.display === "none" ? "flex" : "none";
-    if (panel.style.display === "flex") inputEl.focus();
+    if (panel.style.display === "flex") {
+      inputEl.focus();
+      playMilestone("wegweiser-intro");
+    }
   });
   closeEl.addEventListener("click", function () {
     panel.style.display = "none";
@@ -80465,17 +80468,21 @@ function _checkTimeMilestones() {
     localStorage.setItem(MILESTONE_FIRST_VISIT_KEY, firstVisit);
   }
   const lastVisit = localStorage.getItem(MILESTONE_LAST_VISIT_KEY);
-  if (lastVisit && (now - Number(lastVisit)) >= 30 * DAY) {
-    playMilestone("wiederkehr");
+  if (lastVisit) {
+    const gap = now - Number(lastVisit);
+    // Ab 60 Tagen nur noch die st\u00e4rkere Botschaft, nicht zus\u00e4tzlich die 30-Tage-Variante.
+    if (gap >= 60 * DAY) playMilestone("wiederkehr-lang");
+    else if (gap >= 30 * DAY) playMilestone("wiederkehr");
   }
   localStorage.setItem(MILESTONE_LAST_VISIT_KEY, String(now));
   const daysSinceFirst = (now - Number(firstVisit)) / DAY;
   if (daysSinceFirst >= 7) playMilestone("sieben-tage");
   if (daysSinceFirst >= 30) playMilestone("ein-monat");
+  if (daysSinceFirst >= 365) playMilestone("jahrestag");
 }
 
-// Routenbasierte Meilensteine (9 Grundtypen, 27 Subtypen): z\u00e4hlt bei jedem
-// Seitenaufruf die Anzahl unterschiedlicher besuchter Typ-/Subtyp-Seiten.
+// Routenbasierte Meilensteine (9 Grundtypen, 27 Subtypen, Wunde/Krisenkompass):
+// z\u00e4hlt bzw. pr\u00fcft bei jedem Seitenaufruf.
 function trackMilestoneVisit(base, param) {
   const typMatch = base.match(/^portrait-typ-([1-9])$/);
   if (typMatch) {
@@ -80489,6 +80496,9 @@ function trackMilestoneVisit(base, param) {
     set.add(param.toLowerCase());
     _writeJSONSet(MILESTONE_VIEWED_SUBTYPES_KEY, set);
     if (set.size >= 27) playMilestone("27-subtypen");
+  }
+  if (base === "wunden" || base === "krisenkompass") {
+    playMilestone("wunde-troest");
   }
 }
 
@@ -80531,6 +80541,15 @@ function trackMilestoneVisit(base, param) {
   };
   events.forEach(ev => document.addEventListener(ev, check, { once: true }));
 })();
+
+// Meilenstein "Buch-Dank": beim ersten Klick auf einen Buchtipp-Link, egal
+// auf welcher Seite. playMilestone() ist selbst idempotent, daher gen\u00fcgt ein
+// dauerhafter, delegierter Klick-Listener statt eines "once"-Patterns.
+document.addEventListener("click", function (e) {
+  if (e.target.closest && e.target.closest(".book-tip")) {
+    playMilestone("buch-dank");
+  }
+}, true);
 
 // Gesprochene Begr\u00fc\u00dfung nach erfolgreicher Freischaltung/Kauf \u2013 eine einzige,
 // allgemeine Nachricht (Subtyp ist beim Kauf oft noch nicht bekannt). Klick auf

@@ -46368,7 +46368,10 @@ setTimeout(showTagesimpuls, 600);
 
   btn.addEventListener("click", function () {
     panel.style.display = panel.style.display === "none" ? "flex" : "none";
-    if (panel.style.display === "flex") inputEl.focus();
+    if (panel.style.display === "flex") {
+      inputEl.focus();
+      playMilestone("wegweiser-intro");
+    }
   });
   closeEl.addEventListener("click", function () {
     panel.style.display = "none";
@@ -46469,17 +46472,21 @@ function _checkTimeMilestones() {
     localStorage.setItem(MILESTONE_FIRST_VISIT_KEY, firstVisit);
   }
   const lastVisit = localStorage.getItem(MILESTONE_LAST_VISIT_KEY);
-  if (lastVisit && (now - Number(lastVisit)) >= 30 * DAY) {
-    playMilestone("wiederkehr");
+  if (lastVisit) {
+    const gap = now - Number(lastVisit);
+    // From 60 days on, only the stronger message plays, not also the 30-day one.
+    if (gap >= 60 * DAY) playMilestone("wiederkehr-lang");
+    else if (gap >= 30 * DAY) playMilestone("wiederkehr");
   }
   localStorage.setItem(MILESTONE_LAST_VISIT_KEY, String(now));
   const daysSinceFirst = (now - Number(firstVisit)) / DAY;
   if (daysSinceFirst >= 7) playMilestone("sieben-tage");
   if (daysSinceFirst >= 30) playMilestone("ein-monat");
+  if (daysSinceFirst >= 365) playMilestone("jahrestag");
 }
 
-// Route-based milestones (9 base types, 27 subtypes): counts distinct
-// type/subtype pages visited on every page render.
+// Route-based milestones (9 base types, 27 subtypes, wounds/crisis compass):
+// checked/counted on every page render.
 function trackMilestoneVisit(base, param) {
   const typMatch = base.match(/^portrait-typ-([1-9])$/);
   if (typMatch) {
@@ -46493,6 +46500,9 @@ function trackMilestoneVisit(base, param) {
     set.add(param.toLowerCase());
     _writeJSONSet(MILESTONE_VIEWED_SUBTYPES_KEY, set);
     if (set.size >= 27) playMilestone("27-subtypen");
+  }
+  if (base === "wunden" || base === "krisenkompass") {
+    playMilestone("wunde-troest");
   }
 }
 
@@ -46534,6 +46544,15 @@ function trackMilestoneVisit(base, param) {
   };
   events.forEach(ev => document.addEventListener(ev, check, { once: true }));
 })();
+
+// "Book thanks" milestone: on the first click of any book-tip link, anywhere
+// in the app. playMilestone() is itself idempotent, so a plain delegated
+// click listener is enough (no "once" pattern needed).
+document.addEventListener("click", function (e) {
+  if (e.target.closest && e.target.closest(".book-tip")) {
+    playMilestone("buch-dank");
+  }
+}, true);
 
 // Spoken welcome message after successful unlock/purchase – one single generic
 // message (subtype is often not yet known at purchase time). Clicking the
