@@ -1635,6 +1635,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "kampfkunstarten-der-9-typen",
     "bagua-zonen-der-9-typen",
     "grimms-maerchen-der-9-typen",
+    "enneagramm-emotionalitaet",
     "hunderassen-der-9-typen",
     "pferdearten-der-9-typen",
     "nagetierarten-der-9-typen",
@@ -39032,6 +39033,96 @@ function grimmsMaerchenDer9TypenPage() {
   `);
 }
 
+function enneagrammEmotionalitaetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Enneagramm und Emotionalität", "Schaubilder · Emotionen & Bewusstsein")}
+      <p class="psycho-intro">Emotionalität ist im Enneagramm bewusst wertfrei zu verstehen. Sie ist weder gut noch schlecht — sie ist Energie, die eine Richtung sucht. Im bewussten Zustand kann Emotionalität eine besondere Qualität sein: ein Segen für andere und für sich selbst, eine Quelle von Wärme, Tiefe und lebendiger Verbindung. In unbewussten Phasen des Lebens jedoch kann dieselbe Emotionalität genauso zum Fluch werden — für die Mitmenschen und plötzlich auch für die betroffene Person selbst. Es ist dieselbe Kraft, die trägt oder überflutet, verbindet oder verstrickt — je nachdem, wie viel Bewusstheit ihr zur Seite steht.</p>
+      <img src="./assets/enneagramm-emotionalitaet.jpg" alt="Enneagramm und Emotionalität – Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+
+      <div class="vb-section" style="max-width:100%;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Zwei Gesichter derselben Kraft</h2>
+        <p class="vb-intro">Jeder der neun Typen trägt eine eigene emotionale Grundfärbung — eine Art, wie Gefühl entsteht, sich zeigt, gestaut oder ausgedrückt wird. Diese Färbung ist an sich neutral. Erst der Grad an Bewusstheit entscheidet, ob sie zur Gabe oder zur Last wird. Im bewussten Zustand wird Emotionalität zu einem Instrument der Wahrnehmung: Sie macht empfänglich für die Not und die Freude anderer, sie verleiht Ausdruck Tiefe, sie schafft echte Nähe. Im unbewussten Zustand dagegen läuft dieselbe Emotionalität ungefiltert — sie überschwemmt, manipuliert, verwirrt oder erstarrt, ohne dass die Person es zunächst selbst bemerkt.</p>
+        <p class="vb-intro">Das Schaubild zeigt für jeden Typ diese doppelte Möglichkeit: die Qualität, die entsteht, wenn Emotionalität bewusst gelebt wird — und die Verzerrung, die entsteht, wenn sie unbewusst das Steuer übernimmt. Es ist derselbe Rohstoff, nur mit unterschiedlichem Grad an innerer Beobachtung.</p>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:1rem 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
+        <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Schnellzugriff — direkt zum Typ</span>
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('emo-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:var(--cream);color:var(--copper);text-decoration:none;border:1px solid var(--line);">Typ ${n}</a>`).join("")}
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 id="emo-typ-1" style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 — Die Emotionalität der Richtigkeit</h3>
+        <p class="vb-intro">Beim Typ 1 zeigt sich Emotionalität selten roh, sondern meist gefiltert durch das innere Gericht: Bevor ein Gefühl gezeigt wird, wird geprüft, ob es angemessen ist. Bewusst gelebt wird daraus eine warme, verlässliche Anteilnahme — ein Gefühl, das genau dort ansetzt, wo es wirklich gebraucht wird, ohne Übertreibung, aber mit echtem Ernst.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE1):</strong> Bewusst zeigt sich eine stille, fürsorgliche Sorgfalt im Alltäglichen — Gefühl, das sich in Ordnung und Verlässlichkeit ausdrückt. Unbewusst kann daraus permanente innere Anspannung werden, ein ständiges Ärgergefühl über das, was nicht stimmt, das sich in Reizbarkeit oder stillem Groll entlädt.</p>
+        <p class="vb-intro"><strong>Sozial (SO1):</strong> Bewusst wird Emotionalität zu engagiertem Verantwortungsgefühl für das Ganze — ein Mitgefühl, das sich für gerechte Verhältnisse einsetzt. Unbewusst kippt es in moralische Empörung, in ein Gefühl der eigenen Rechtschaffenheit, das andere klein macht.</p>
+        <p class="vb-intro"><strong>Sexuell (SX1):</strong> Bewusst entsteht eine leidenschaftliche, fast missionarische Intensität im Gefühl für den anderen — Emotionalität als Antrieb, die Welt für den Partner besser zu machen. Unbewusst wird daraus Kontrolle im Gewand der Fürsorge, ein Gefühl, das dem anderen die eigene Sicht der Dinge aufdrängt.</p>
+
+        <h3 id="emo-typ-2" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 — Die Emotionalität der Zuwendung</h3>
+        <p class="vb-intro">Beim Typ 2 ist Emotionalität von Anfang an nach außen gerichtet: auf das Gefühl des anderen, auf dessen Bedürfnis, auf die Beziehung. Bewusst gelebt wird daraus echte Empathie — ein Gefühl, das trägt, ohne zu vereinnahmen. Unbewusst wird dasselbe Gefühl zum Mittel, gebraucht zu werden.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE2):</strong> Bewusst zeigt sich eine liebevolle, fast kindliche Wärme im engen Kreis — ein Gefühl, das Geborgenheit schafft. Unbewusst wird daraus Anhänglichkeit und ein stilles Fordern von Aufmerksamkeit, das sich hinter Charme verbirgt.</p>
+        <p class="vb-intro"><strong>Sozial (SO2):</strong> Bewusst entsteht ein großzügiges, gemeinschaftsstiftendes Mitgefühl, das viele einschließt. Unbewusst kippt es in ein Gefühl von Unentbehrlichkeit — die Emotionalität wird zum Beweis der eigenen Wichtigkeit für die Gruppe.</p>
+        <p class="vb-intro"><strong>Sexuell (SX2):</strong> Bewusst zeigt sich eine tiefe, hingebungsvolle Intensität in der Nähe zu einem einzelnen Menschen — verführerische Wärme, die wirklich beim anderen ist. Unbewusst wird daraus emotionale Vereinnahmung, ein Gefühl, das den anderen besitzen will, um sich selbst gesehen zu fühlen.</p>
+
+        <h3 id="emo-typ-3" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 — Die Emotionalität der Leistung</h3>
+        <p class="vb-intro">Beim Typ 3 wird Gefühl häufig zuerst reguliert, dann erst zugelassen — es darf nicht im Weg stehen. Bewusst gelebt wird daraus eine ansteckende, motivierende emotionale Energie, die andere mitreißt. Unbewusst wird Gefühl zur Nebensache, verdrängt zugunsten von Funktion und Erfolg.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE3):</strong> Bewusst zeigt sich ruhige, sachliche Wärme, die sich in Zuverlässigkeit und stiller Fürsorge ausdrückt. Unbewusst wird Gefühl komplett dem Funktionieren untergeordnet — Erschöpfung und innere Leere, die nach außen nicht sichtbar werden dürfen.</p>
+        <p class="vb-intro"><strong>Sozial (SO3):</strong> Bewusst entsteht begeisternde, teamstiftende Energie — ein Gefühl, das andere für ein gemeinsames Ziel entflammt. Unbewusst wird Emotionalität zur Inszenierung, zum Mittel, bewundert zu werden, ohne dass echte Verletzlichkeit gezeigt wird.</p>
+        <p class="vb-intro"><strong>Sexuell (SX3):</strong> Bewusst zeigt sich intensive, anziehende Leidenschaft, echte Begeisterungsfähigkeit für den Partner und das gemeinsame Projekt. Unbewusst wird daraus ein Gefühl, das vor allem beeindrucken will — Nähe, die an Erfolg und Attraktivität geknüpft bleibt.</p>
+
+        <h3 id="emo-typ-4" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 — Die Emotionalität der Tiefe</h3>
+        <p class="vb-intro">Beim Typ 4 ist Emotionalität die eigentliche Muttersprache — hier wird das Gefühl direkter erlebt und ausgedrückt als bei jedem anderen Typ. Bewusst gelebt wird daraus eine seltene Fähigkeit, Gefühl in Schönheit, Kunst und echte Begegnung zu verwandeln. Unbewusst wird dieselbe Intensität zur Falle, aus der kein Weg herauszuführen scheint.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE4):</strong> Bewusst zeigt sich stille, standhafte emotionale Tiefe, die auch schwere Gefühle trägt, ohne daran zu zerbrechen. Unbewusst wird daraus zäher, stiller Leidensdruck — ein Gefühl von Entbehrung, das sich kaum mitteilt und innerlich zehrt.</p>
+        <p class="vb-intro"><strong>Sozial (SO4):</strong> Bewusst entsteht eine Fähigkeit, das eigene Leid in etwas zu verwandeln, das anderen Trost und Verständnis schenkt. Unbewusst kippt es in das Gefühl, mit dem eigenen Schmerz besonders und unverstanden zu sein — Scham, die sich zurückzieht oder anklagt.</p>
+        <p class="vb-intro"><strong>Sexuell (SX4):</strong> Bewusst zeigt sich vulkanische, unmittelbare emotionale Ehrlichkeit, die echte, ungeschönte Nähe ermöglicht. Unbewusst wird daraus dramatische Auf- und Abwärtsbewegung, ein Gefühl, das Nähe sucht, indem es Konflikt und Intensität provoziert.</p>
+
+        <h3 id="emo-typ-5" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 — Die Emotionalität des Rückzugs</h3>
+        <p class="vb-intro">Beim Typ 5 wird Gefühl zunächst nicht ausgedrückt, sondern beobachtet — oft aus sicherer innerer Distanz. Bewusst gelebt wird daraus eine seltene emotionale Klarheit: Gefühl, das nicht überschwemmt, sondern präzise erkannt und dann bewusst geteilt wird. Unbewusst wird dieselbe Distanz zur Mauer.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE5):</strong> Bewusst zeigt sich eine ruhige, in sich gefestigte Genügsamkeit, die anderen Sicherheit vermittelt. Unbewusst wird daraus emotionale Abschottung — Rückzug in ein kleines, kontrolliertes Refugium, aus dem Gefühl kaum noch nach außen dringt.</p>
+        <p class="vb-intro"><strong>Sozial (SO5):</strong> Bewusst entsteht ein sachliches, aber echtes Interesse am inneren Leben anderer — Gefühl, das über Verstehen ausgedrückt wird. Unbewusst kippt es in überlegene Distanz, ein Gefühl, das sich hinter Wissen und Beobachtung versteckt, statt sich zu zeigen.</p>
+        <p class="vb-intro"><strong>Sexuell (SX5):</strong> Bewusst zeigt sich überraschend intensive, fast schwärmerische Hingabe an einen einzelnen Menschen oder ein Thema. Unbewusst wird daraus verzehrende innere Vertiefung, die sich äußerlich kaum zeigt und den anderen im Ungewissen lässt.</p>
+
+        <h3 id="emo-typ-6" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 — Die Emotionalität der Wachsamkeit</h3>
+        <p class="vb-intro">Beim Typ 6 ist Gefühl eng mit Sicherheit verknüpft — es entsteht als Antwort auf wahrgenommene Bedrohung oder Verbindung. Bewusst gelebt wird daraus loyale, verlässliche Wärme und ein feines Gespür für die Gefühle anderer. Unbewusst wird dieselbe Sensibilität zur Quelle ständiger innerer Unruhe.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE6):</strong> Bewusst zeigt sich warme, familiäre Verbundenheit, die Sicherheit im engen Kreis schafft. Unbewusst wird daraus ängstliche Anhänglichkeit — ein Gefühl, das sich an Vertraute klammert, aus Furcht vor dem Alleinsein.</p>
+        <p class="vb-intro"><strong>Sozial (SO6):</strong> Bewusst entsteht Loyalität und emotionales Engagement für die Gruppe, echtes Pflichtgefühl. Unbewusst kippt es in Misstrauen und die Suche nach klaren Autoritäten, an denen sich das eigene Gefühl festmachen kann.</p>
+        <p class="vb-intro"><strong>Sexuell (SX6):</strong> Bewusst zeigt sich mutige, kraftvolle emotionale Intensität, die Nähe direkt und ungeschützt sucht. Unbewusst wird daraus impulsive Heftigkeit — ein Gefühl, das die eigene Angst durch Angriff statt durch Rückzug beantwortet.</p>
+
+        <h3 id="emo-typ-7" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 — Die Emotionalität der Begeisterung</h3>
+        <p class="vb-intro">Beim Typ 7 sucht Gefühl instinktiv die leichte, angenehme Seite — schwere Emotionen werden schnell umgedeutet oder überspielt. Bewusst gelebt wird daraus ansteckende Lebensfreude, die auch andere aus schweren Momenten holt. Unbewusst wird dieselbe Leichtigkeit zur Flucht.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE7):</strong> Bewusst zeigt sich praktische, erdende Fröhlichkeit, die Sicherheit mit Genuss verbindet. Unbewusst wird daraus rastlose Ablenkung — ein Gefühl, das ständig nach dem nächsten angenehmen Reiz sucht, um Unruhe nicht spüren zu müssen.</p>
+        <p class="vb-intro"><strong>Sozial (SO7):</strong> Bewusst entsteht großzügige, idealistische Begeisterung, die andere für eine gute Sache mitreißt. Unbewusst kippt es in Selbstaufopferung mit verstecktem Groll — Gefühl, das gibt, aber innerlich zählt, was es zurückbekommt.</p>
+        <p class="vb-intro"><strong>Sexuell (SX7):</strong> Bewusst zeigt sich intensive, verzaubernde Begeisterungsfähigkeit, die andere mit ihrer Vision ansteckt. Unbewusst wird daraus impulsive Idealisierung — ein Gefühl, das sich schnell verliebt, um ebenso schnell zu enttäuschen und weiterzuziehen.</p>
+
+        <h3 id="emo-typ-8" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 — Die Emotionalität der Kraft</h3>
+        <p class="vb-intro">Beim Typ 8 wird Gefühl selten als solches benannt — es zeigt sich häufig als Handlung, als Energie, als Präsenz. Bewusst gelebt wird daraus starke, beschützende Zuwendung, die anderen Sicherheit gibt. Unbewusst wird dieselbe Kraft zur Wucht, die überrollt.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE8):</strong> Bewusst zeigt sich robuste, unkomplizierte Fürsorge — Gefühl, das sich in Handeln und Versorgen ausdrückt. Unbewusst wird daraus Dickfelligkeit, ein Überspielen eigener Verletzlichkeit durch immer mehr Kontrolle.</p>
+        <p class="vb-intro"><strong>Sozial (SO8):</strong> Bewusst entsteht loyale, aufopfernde Kraft im Dienst einer Gruppe oder Sache, ein Gefühl von Verantwortung, das trägt. Unbewusst kippt es in autoritäres Dominanzverhalten — Emotionalität, die keine Gegenmeinung duldet.</p>
+        <p class="vb-intro"><strong>Sexuell (SX8):</strong> Bewusst zeigt sich intensive, hingebungsvolle Leidenschaft, die den Partner ganz und kompromisslos liebt. Unbewusst wird daraus besitzergreifende Heftigkeit — ein Gefühl, das Nähe mit Kontrolle verwechselt.</p>
+
+        <h3 id="emo-typ-9" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 — Die Emotionalität der Harmonie</h3>
+        <p class="vb-intro">Beim Typ 9 wird eigenes Gefühl häufig zuerst zurückgestellt, um Frieden zu wahren — die eigene Emotionalität tritt hinter die der anderen zurück. Bewusst gelebt wird daraus eine seltene, umfassende Fähigkeit zum Mitgefühl, die viele Perspektiven zugleich halten kann. Unbewusst wird dieselbe Fähigkeit zum Verschwinden im Gefühl anderer.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE9):</strong> Bewusst zeigt sich stille, tragende Gelassenheit, die Geborgenheit ausstrahlt, ohne viel Aufhebens zu machen. Unbewusst wird daraus emotionale Betäubung — ein Rückzug in Gewohnheit und Ablenkung, um das eigene Gefühl gar nicht erst spüren zu müssen.</p>
+        <p class="vb-intro"><strong>Sozial (SO9):</strong> Bewusst entsteht eine warme, verbindende Präsenz, die Gruppen zusammenhält, ohne sich in den Vordergrund zu drängen. Unbewusst kippt es in Selbstverleugnung — ein Gefühl, das sich für alle einsetzt, nur für sich selbst nicht.</p>
+        <p class="vb-intro"><strong>Sexuell (SX9):</strong> Bewusst zeigt sich intensive, verschmelzende Hingabe an einen geliebten Menschen — Gefühl, das sich ganz auf den anderen einlässt. Unbewusst wird daraus Selbstaufgabe, ein Verlust der eigenen Identität im Gefühl und in den Vorlieben des Partners.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("sprache-unserer-beziehungen", "Wie die 9 Typen Nähe, Bindung und Gefühl in Beziehungen erleben — und was jeder Typ braucht, um emotional wirklich anzukommen.", "Die Sprache unserer Beziehungen")}
+        ${bookTip("sprache-der-sexualität", "Emotionalität und Instinkt im Zusammenspiel — wie sich Gefühl und Begehren bei den 9 Typen und ihren Subtypen verbinden.", "Die Sprache unserer Sexualität")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Detail — Normal-, Verstärkungs- und Kontratyp jedes Enneagrammtyps ausführlich erläutert.", "Die verborgene Dynamik der 27 Subtypen")}
+      </div>
+      ${relatedLinks([
+        {route:"basisemotionen", label:"Basisemotionen der 9 Typen"},
+        {route:"zornverhalten", label:"Zornverhalten der 9 Typen"},
+        {route:"leidenschaft-und-wunde", label:"Leidenschaft und Wunde"},
+      ])}
+    </div>
+  `);
+}
+
 function baguaZonenDer9TypenPage() {
   return shell(`
     <div class="page-container">
@@ -48743,6 +48834,7 @@ function render() {
     "kampfkunstarten-der-9-typen": kampfkunstartenDer9TypenPage,
     "bagua-zonen-der-9-typen": baguaZonenDer9TypenPage,
     "grimms-maerchen-der-9-typen": grimmsMaerchenDer9TypenPage,
+    "enneagramm-emotionalitaet": enneagrammEmotionalitaetPage,
     "hunderassen-der-9-typen": hunderassenDer9TypenPage,
     "pferdearten-der-9-typen": pferdearteDer9TypenPage,
     "nagetierarten-der-9-typen": nagetierartenDer9TypenPage,

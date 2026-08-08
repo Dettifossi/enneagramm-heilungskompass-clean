@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=32";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=33";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=9";
@@ -1581,6 +1581,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "kampfkunstarten-der-9-typen",
     "bagua-zonen-der-9-typen",
     "grimms-maerchen-der-9-typen",
+    "enneagramm-emotionalitaet",
     "hunderassen-der-9-typen",
     "pferdearten-der-9-typen",
     "nagetierarten-der-9-typen",
@@ -1778,6 +1779,7 @@ text.nav = [
     { route: "kampfkunstarten-der-9-typen", label: "Martial Arts of the 9 Types" },
     { route: "bagua-zonen-der-9-typen", label: "Bagua Zones of the 9 Types" },
     { route: "grimms-maerchen-der-9-typen", label: "Grimm's Fairy Tales of the 9 Types" },
+    { route: "enneagramm-emotionalitaet", label: "Enneagram and Emotionality" },
     { route: "brillenmodelle-der-9-typen", label: "Eyeglass Models of the 9 Types" },
     { route: "brotsorten", label: "Bread Varieties of the 9 Types" },
     { route: "bundeslaender", label: "German Federal States" },
@@ -35807,6 +35809,96 @@ function grimmsMaerchenDer9TypenPage() {
   `);
 }
 
+function enneagrammEmotionalitaetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Enneagram and Emotionality", "Charts · Emotions & Awareness")}
+      <p class="psycho-intro">Emotionality in the Enneagram is deliberately understood as value-free. It is neither good nor bad — it is energy in search of a direction. In a conscious state, emotionality can be a rare quality: a blessing for others and for oneself, a source of warmth, depth, and living connection. In unconscious phases of life, however, the very same emotionality can just as easily become a curse — for the people around us, and suddenly for the person themselves. It is the same force that carries or overwhelms, connects or entangles — depending on how much awareness stands beside it.</p>
+      <img src="../assets/enneagramm-emotionalitaet.jpg" alt="Enneagram and Emotionality – Chart"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+
+      <div class="vb-section" style="max-width:100%;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Two faces of the same force</h2>
+        <p class="vb-intro">Each of the nine types carries its own emotional coloring — its own way in which feeling arises, shows itself, gets held back, or finds expression. This coloring is in itself neutral. It is only the degree of awareness that decides whether it becomes a gift or a burden. In a conscious state, emotionality becomes an instrument of perception: it opens a person to the distress and joy of others, gives depth to expression, and creates real closeness. In an unconscious state, the very same emotionality runs unfiltered — it floods, manipulates, confuses, or freezes, often without the person noticing at first.</p>
+        <p class="vb-intro">The chart shows, for each type, this double possibility: the quality that emerges when emotionality is lived consciously — and the distortion that emerges when it unconsciously takes the wheel. It is the same raw material, only with a different degree of inner observation.</p>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:1rem 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
+        <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Quick jump — go directly to a type</span>
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('emo-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:var(--cream);color:var(--copper);text-decoration:none;border:1px solid var(--line);">Type ${n}</a>`).join("")}
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 id="emo-typ-1" style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 1 — The Emotionality of Rightness</h3>
+        <p class="vb-intro">In Type 1, emotionality rarely shows itself raw; it is usually filtered through an inner court: before a feeling is shown, it is checked for whether it is appropriate. Lived consciously, this becomes warm, reliable care — feeling that lands exactly where it is truly needed, without exaggeration but with real seriousness.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP1):</strong> Consciously, a quiet, caring diligence shows itself in everyday life — feeling expressed through order and reliability. Unconsciously, this can become permanent inner tension, a constant undercurrent of irritation about what isn't right, discharging as irritability or silent resentment.</p>
+        <p class="vb-intro"><strong>Social (SO1):</strong> Consciously, emotionality becomes committed responsibility for the whole — compassion that stands up for fair conditions. Unconsciously, it tips into moral outrage, a feeling of one's own righteousness that diminishes others.</p>
+        <p class="vb-intro"><strong>Sexual (SX1):</strong> Consciously, a passionate, almost missionary intensity of feeling for the other emerges — emotionality as the drive to make the world better for the partner. Unconsciously, this becomes control disguised as care, a feeling that imposes its own view of things on the other.</p>
+
+        <h3 id="emo-typ-2" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 2 — The Emotionality of Devotion</h3>
+        <p class="vb-intro">In Type 2, emotionality is oriented outward from the start: toward the other person's feeling, their need, the relationship. Lived consciously, this becomes genuine empathy — feeling that carries without possessing. Unconsciously, the same feeling becomes a means of being needed.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP2):</strong> Consciously, a loving, almost childlike warmth shows itself within the close circle — feeling that creates a sense of shelter. Unconsciously, this becomes clinginess and a quiet demand for attention hidden behind charm.</p>
+        <p class="vb-intro"><strong>Social (SO2):</strong> Consciously, a generous, community-building compassion emerges that includes many. Unconsciously, it tips into a feeling of indispensability — emotionality becomes proof of one's own importance to the group.</p>
+        <p class="vb-intro"><strong>Sexual (SX2):</strong> Consciously, a deep, devoted intensity shows itself in closeness to a single person — seductive warmth that is genuinely present with the other. Unconsciously, this becomes emotional possessiveness, a feeling that wants to own the other in order to feel seen itself.</p>
+
+        <h3 id="emo-typ-3" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 3 — The Emotionality of Achievement</h3>
+        <p class="vb-intro">In Type 3, feeling is often regulated before it is allowed — it must not get in the way. Lived consciously, this becomes infectious, motivating emotional energy that carries others along. Unconsciously, feeling becomes an afterthought, suppressed in favor of function and success.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP3):</strong> Consciously, a calm, matter-of-fact warmth shows itself, expressed through reliability and quiet care. Unconsciously, feeling is entirely subordinated to functioning — exhaustion and inner emptiness that must not become visible from the outside.</p>
+        <p class="vb-intro"><strong>Social (SO3):</strong> Consciously, inspiring, team-building energy emerges — feeling that ignites others for a shared goal. Unconsciously, emotionality becomes performance, a means of being admired, without genuine vulnerability being shown.</p>
+        <p class="vb-intro"><strong>Sexual (SX3):</strong> Consciously, intense, magnetic passion shows itself, genuine enthusiasm for the partner and the shared project. Unconsciously, this becomes a feeling aimed above all at impressing — closeness that remains tied to success and attractiveness.</p>
+
+        <h3 id="emo-typ-4" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 4 — The Emotionality of Depth</h3>
+        <p class="vb-intro">In Type 4, emotionality is the true mother tongue — feeling is experienced and expressed here more directly than in any other type. Lived consciously, this becomes a rare ability to transform feeling into beauty, art, and genuine encounter. Unconsciously, the same intensity becomes a trap with no apparent way out.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP4):</strong> Consciously, a quiet, steady emotional depth shows itself, one that carries even heavy feelings without breaking under them. Unconsciously, this becomes tough, silent suffering — a feeling of deprivation that is rarely shared and quietly wears the person down.</p>
+        <p class="vb-intro"><strong>Social (SO4):</strong> Consciously, an ability emerges to transform one's own suffering into something that offers others comfort and understanding. Unconsciously, it tips into the feeling of being uniquely and unbearably misunderstood in one's pain — shame that withdraws or accuses.</p>
+        <p class="vb-intro"><strong>Sexual (SX4):</strong> Consciously, volcanic, immediate emotional honesty shows itself, enabling real, unembellished closeness. Unconsciously, this becomes dramatic swings up and down, a feeling that seeks closeness by provoking conflict and intensity.</p>
+
+        <h3 id="emo-typ-5" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 5 — The Emotionality of Withdrawal</h3>
+        <p class="vb-intro">In Type 5, feeling is at first not expressed but observed — often from a safe inner distance. Lived consciously, this becomes a rare emotional clarity: feeling that does not flood but is precisely recognized and then consciously shared. Unconsciously, the same distance becomes a wall.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP5):</strong> Consciously, a calm, self-contained sufficiency shows itself, one that offers others a sense of security. Unconsciously, this becomes emotional shutdown — withdrawal into a small, controlled refuge from which feeling barely reaches the outside.</p>
+        <p class="vb-intro"><strong>Social (SO5):</strong> Consciously, a matter-of-fact but genuine interest in others' inner lives emerges — feeling expressed through understanding. Unconsciously, it tips into superior distance, a feeling that hides behind knowledge and observation instead of showing itself.</p>
+        <p class="vb-intro"><strong>Sexual (SX5):</strong> Consciously, a surprisingly intense, almost rapturous devotion to a single person or subject shows itself. Unconsciously, this becomes consuming inner absorption that hardly shows on the surface, leaving the other in the dark.</p>
+
+        <h3 id="emo-typ-6" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 6 — The Emotionality of Vigilance</h3>
+        <p class="vb-intro">In Type 6, feeling is closely tied to safety — it arises as a response to perceived threat or connection. Lived consciously, this becomes loyal, dependable warmth and a fine sense for the feelings of others. Unconsciously, the same sensitivity becomes a source of constant inner unrest.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP6):</strong> Consciously, warm, familial connectedness shows itself, creating safety within the close circle. Unconsciously, this becomes anxious clinginess — a feeling that clings to trusted people out of fear of being alone.</p>
+        <p class="vb-intro"><strong>Social (SO6):</strong> Consciously, loyalty and emotional commitment to the group emerge, genuine sense of duty. Unconsciously, it tips into mistrust and a search for clear authorities to which one's own feeling can anchor itself.</p>
+        <p class="vb-intro"><strong>Sexual (SX6):</strong> Consciously, courageous, forceful emotional intensity shows itself, seeking closeness directly and unguardedly. Unconsciously, this becomes impulsive vehemence — a feeling that answers its own fear with attack rather than retreat.</p>
+
+        <h3 id="emo-typ-7" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 7 — The Emotionality of Enthusiasm</h3>
+        <p class="vb-intro">In Type 7, feeling instinctively seeks the light, pleasant side — heavy emotions are quickly reframed or glossed over. Lived consciously, this becomes infectious zest for life that pulls others out of difficult moments too. Unconsciously, the same lightness becomes escape.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP7):</strong> Consciously, practical, grounded cheerfulness shows itself, combining safety with enjoyment. Unconsciously, this becomes restless distraction — a feeling constantly seeking the next pleasant stimulus in order not to have to feel unease.</p>
+        <p class="vb-intro"><strong>Social (SO7):</strong> Consciously, generous, idealistic enthusiasm emerges, carrying others along for a good cause. Unconsciously, it tips into self-sacrifice with hidden resentment — feeling that gives, but inwardly keeps score of what it gets back.</p>
+        <p class="vb-intro"><strong>Sexual (SX7):</strong> Consciously, intense, enchanting enthusiasm shows itself, infecting others with its vision. Unconsciously, this becomes impulsive idealization — a feeling that falls in love quickly, only to be disappointed just as quickly and move on.</p>
+
+        <h3 id="emo-typ-8" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 8 — The Emotionality of Strength</h3>
+        <p class="vb-intro">In Type 8, feeling is rarely named as such — it usually shows itself as action, as energy, as presence. Lived consciously, this becomes strong, protective devotion that gives others a sense of safety. Unconsciously, the same force becomes an overwhelming weight.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP8):</strong> Consciously, robust, uncomplicated care shows itself — feeling expressed through action and provision. Unconsciously, this becomes thick-skinnedness, a covering-over of one's own vulnerability through ever more control.</p>
+        <p class="vb-intro"><strong>Social (SO8):</strong> Consciously, loyal, self-sacrificing strength emerges in service of a group or cause, a feeling of responsibility that carries. Unconsciously, it tips into authoritarian dominance — emotionality that tolerates no opposing view.</p>
+        <p class="vb-intro"><strong>Sexual (SX8):</strong> Consciously, intense, devoted passion shows itself, loving the partner wholly and unconditionally. Unconsciously, this becomes possessive intensity — a feeling that confuses closeness with control.</p>
+
+        <h3 id="emo-typ-9" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 9 — The Emotionality of Harmony</h3>
+        <p class="vb-intro">In Type 9, one's own feeling is often set aside first to preserve peace — one's own emotionality steps back behind that of others. Lived consciously, this becomes a rare, encompassing capacity for compassion that can hold many perspectives at once. Unconsciously, the same capacity becomes disappearing into the feelings of others.</p>
+        <p class="vb-intro"><strong>Self-Preservation (SP9):</strong> Consciously, quiet, carrying calm shows itself, radiating a sense of shelter without much fuss. Unconsciously, this becomes emotional numbing — withdrawal into habit and distraction in order to avoid feeling one's own emotion at all.</p>
+        <p class="vb-intro"><strong>Social (SO9):</strong> Consciously, a warm, connecting presence emerges that holds groups together without pushing itself to the foreground. Unconsciously, it tips into self-effacement — a feeling that shows up for everyone else, but not for oneself.</p>
+        <p class="vb-intro"><strong>Sexual (SX9):</strong> Consciously, intense, merging devotion to a beloved person shows itself — feeling that fully gives itself over to the other. Unconsciously, this becomes self-abandonment, a loss of one's own identity within the other's feelings and preferences.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("sprache-unserer-beziehungen", "How the 9 types experience closeness, bonding, and feeling in relationships — and what each type needs to truly arrive emotionally.", "Die Sprache unserer Beziehungen")}
+        ${bookTip("sprache-der-sexualität", "Emotionality and instinct working together — how feeling and desire connect in the 9 types and their subtypes.", "Die Sprache unserer Sexualität")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 subtypes in detail — the normal, boosting, and counter variant of every Enneagram type explained in depth.", "Die verborgene Dynamik der 27 Subtypen")}
+      </div>
+      ${relatedLinks([
+        {route:"basisemotionen", label:"Basic Emotions of the 9 Types"},
+        {route:"zornverhalten", label:"Anger Behavior of the 9 Types"},
+        {route:"leidenschaft-und-wunde", label:"Passion and Wound"},
+      ])}
+    </div>
+  `);
+}
+
 function baguaZonenDer9TypenPage() {
   return shell(`
     <div class="page-container">
@@ -45757,6 +45849,7 @@ function subtypeSchaubilderPage() {
     "kampfkunstarten-der-9-typen": kampfkunstartenDer9TypenPage,
     "bagua-zonen-der-9-typen": baguaZonenDer9TypenPage,
     "grimms-maerchen-der-9-typen": grimmsMaerchenDer9TypenPage,
+    "enneagramm-emotionalitaet": enneagrammEmotionalitaetPage,
     "hunderassen-der-9-typen": hunderassenDer9TypenPage,
     "pferdearten-der-9-typen": pferdearteDer9TypenPage,
     "nagetierarten-der-9-typen": nagetierartenDer9TypenPage,

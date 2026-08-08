@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v1001", date: "2026-08-08", text: "Neues Schaubild: Enneagramm und Emotionalität (9 Typen, 27 Subtypen, bewusst/unbewusst).", text_en: "New chart: Enneagram and Emotionality (9 types, 27 subtypes, conscious/unconscious).", route: "enneagramm-emotionalitaet" },
     { version: "v1000", date: "2026-08-07", text: "Fehlende Erklärtexte bei 15 Schaubild-Seiten ergänzt (DE) und ins Englische übersetzt; 3 weitere unübersetzte EN-Seiten korrigiert.", text_en: "Added missing explanatory text to 15 chart pages (DE) and translated to English; fixed 3 further untranslated EN pages.", route: "kerneberzeugungen" },
     { version: "v999", date: "2026-08-07", text: "Neues Schaubild: Grimms Märchen der 9 Typen.", text_en: "New chart: Grimm's Fairy Tales of the 9 Types.", route: "grimms-maerchen-der-9-typen" },
     { version: "v998", date: "2026-08-07", text: "Neues Schaubild: Bagua-Zonen der 9 Typen (Feng Shui).", text_en: "New chart: Bagua Zones of the 9 Types (Feng Shui).", route: "bagua-zonen-der-9-typen" },
