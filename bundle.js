@@ -24094,6 +24094,7 @@ const registerEntries = [
   { term: "Leonardo DiCaprio",             route: "beruehmte-leonardo-dicaprio",           description: "Portrait: SX3w4 \u00b7 Sexueller Typ 3 \u00b7 Oscarpreistr\u00e4ger, Umweltaktivist" },
   { term: "Linda Leinweber",               route: "beruehmte-linda-leinweber",             description: "Portrait: SX4w5 \u00b7 Sexueller Typ 4 \u00b7 Enneagramm-Trainerin" },
   { term: "Claude Debussy",                route: "beruehmte-claude-debussy",              description: "Portrait: SX4w5 \u00b7 Sexueller Typ 4 \u00b7 Komponist, Begr\u00fcnder der musikalischen Moderne" },
+  { term: "Marquis de Sade",               route: "beruehmte-marquis-de-sade",             description: "Portrait: SX4w5 \u00b7 Sexueller Typ 4 \u00b7 Schriftsteller, Philosoph, Justine" },
   { term: "Marisa Abela",                  route: "beruehmte-marisa-abela",                description: "Portrait: SO2w1 \u00b7 Sozialer Typ 2 \u00b7 Schauspielerin, Industry, Back to Black" },
   { term: "Marie Kondo",                   route: "beruehmte-marie-kondo",                 description: "Portrait: SE1w2 \u00b7 Selbsterhaltender Typ 1 \u00b7 Ordnungsexpertin, KonMari" },
   { term: "Dan Brown",                     route: "beruehmte-dan-brown",                   description: "Portrait: SE1w2 \u00b7 Selbsterhaltender Typ 1 \u00b7 Bestseller-Autor" },
@@ -24372,6 +24373,7 @@ const registerEntriesEN = [
   { term: "Leonardo DiCaprio", route: "beruehmte-leonardo-dicaprio", description: "Portrait: SX3w4 \u00b7 Sexual Type 3 \u00b7 Oscar winner, Environmental activist" },
   { term: "Linda Leinweber", route: "beruehmte-linda-leinweber", description: "Portrait: SX4w5 \u00b7 Sexual Type 4 \u00b7 Enneagram trainer" },
   { term: "Claude Debussy", route: "beruehmte-claude-debussy", description: "Portrait: SX4w5 \u00b7 Sexual Type 4 \u00b7 Composer, founder of musical modernism" },
+  { term: "Marquis de Sade", route: "beruehmte-marquis-de-sade", description: "Portrait: SX4w5 \u00b7 Sexual Type 4 \u00b7 Writer, philosopher, Justine" },
   { term: "Marisa Abela", route: "beruehmte-marisa-abela", description: "Portrait: SO2w1 \u00b7 Social Type 2 \u00b7 Actress, Industry, Back to Black" },
   { term: "Marie Kondo", route: "beruehmte-marie-kondo", description: "Portrait: SE1w2 \u00b7 Self-Preservation Type 1 \u00b7 tidying expert, KonMari" },
   { term: "Dan Brown", route: "beruehmte-dan-brown", description: "Portrait: SE1w2 \u00b7 Self-Preservation Type 1 \u00b7 bestselling author" },
@@ -31496,6 +31498,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Claude Debussy \u2013 Sexueller Typ 4",
     teaser:"SX4w5 \u00b7 1862\u20131918. Komponist, Begr\u00fcnder der musikalischen Moderne. Clair de Lune, La Mer, Pell\u00e9as et M\u00e9lisande. Der Chihuahua, der die europ\u00e4ische Musik von den Fundamenten her neu dachte \u2013 und dabei nie aufh\u00f6rte, gegen die Konvention zu rivalisieren.",
     tags:["Musik"], gender:"m"},
+  { route:"beruehmte-marquis-de-sade", name:"Marquis de Sade", subtyp:"SX4w5",
+    heading:"Marquis de Sade \u2013 Sexueller Typ 4",
+    teaser:"SX4w5 \u00b7 1740\u20131814. Franz\u00f6sischer Adliger, Schriftsteller, Philosoph. Justine, Die 120 Tage von Sodom. Der Chihuahua, der 32 Jahre seines Lebens hinter Gittern verbrachte \u2013 und dessen Name zum Synonym f\u00fcr den radikalsten aller Tabubr\u00fcche wurde.",
+    tags:["Literatur","Philosophie"], gender:"m"},
   { route:"beruehmte-christian-raetsch", name:"Christian R\u00e4tsch", subtyp:"SE5w4",
     heading:"Christian R\u00e4tsch \u2013 Selbsterhaltender Typ 5",
     teaser:"SE5w4 \u00b7 1957\u20132022. Ethnologe, Ethnopharmakologe. Enzyklop\u00e4die der psychoaktiven Pflanzen. Die Eule, die in der Dunkelheit sieht \u2013 und das Wissen bewahrt, das andere nicht sehen wollen.",
@@ -42733,6 +42739,74 @@ function claudeDebussyPortraitPage() {
         {route:"subtype/sx4", label:"SX4 \u2013 Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-ana-de-armas", label:"Portr\xe4t: Ana de Armas (SX4w5)"},
         {route:"beruehmte-linda-leinweber", label:"Portr\xe4t: Linda Leinweber (SX4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function marquisDeSadePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marquis-de-sade-portrait.jpg" alt="Marquis de Sade" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marquis de Sade</p>
+        <p class="krim-portrait-typ">SX4w5 &middot; Sexueller Typ 4 mit F\u00fcnferfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Schriftsteller &amp; Philosoph, 1740&ndash;1814 &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua, der keine Grenze anerkannte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier: klein von Gestalt, unermesslich in seiner inneren Intensit\u00e4t, unf\u00e4hig, sich in eine Form zu f\u00fcgen, die nicht die eigene ist. Er kennt keine halben Gef\u00fchle, keine gem\u00e4\u00dfigten Positionen. Was er ablehnt, lehnt er radikal ab. Was er begehrt, begehrt er ohne Kompromiss &ndash; selbst wenn ihn das in offenen Konflikt mit allem bringt, was seine Zeit f\u00fcr heilig h\u00e4lt.</p>
+          <p class="vb-intro">Donatien Alphonse Fran\u00e7ois, Marquis de Sade, wurde 1740 in Paris in eine der \u00e4ltesten Adelsfamilien Frankreichs hineingeboren. Schon als Kind galt er als unb\u00e4ndig, j\u00e4hzornig, grenzenlos in seinen Emotionen. Eine Erziehung durch einen liederlichen Onkel in der Provence, gepr\u00e4gt von Freidenkerei und offen gelebter Libertinage, legte fr\u00fch den Grundstein f\u00fcr ein Leben, das zeitlebens einer einzigen Frage zu folgen schien: Warum sollte ich mich der Ordnung f\u00fcgen, die andere f\u00fcr mich vorgesehen haben?</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Rivalit\u00e4t gegen jede Konvention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> tr\u00e4gt den Schmerz der Vier nicht nach innen, sondern nach au\u00dfen &ndash; als Intensit\u00e4t, als Provokation, als offener Widerstand gegen alles, was sich wie eine fremde, aufgezwungene Form anf\u00fchlt. Naranjo nannte diesen Subtyp <em>Rivalit\u00e4t</em>: die brennende \u00dcberzeugung, dass die bestehende Ordnung &ndash; moralisch, religi\u00f6s, gesellschaftlich &ndash; einem selbst etwas Wesentliches vorenth\u00e4lt, verbunden mit dem unbedingten Antrieb, genau dagegen anzutreten.</p>
+          <p class="vb-intro">Bei Sade wurde diese Rivalit\u00e4t zum Lebensprogramm. Er rivalisierte gegen die katholische Kirche, gegen das Gesetz, gegen die Institution der Ehe, gegen jede Autorit\u00e4t, die Grenzen setzte. Seine literarischen Werke &ndash; <em>Justine oder Das Missgeschick der Tugend</em> (1791), <em>Die 120 Tage von Sodom</em> (verfasst 1785 in der Bastille) &ndash; sind keine blo\u00dfen Provokationen, sondern der systematische, philosophisch durchdachte Versuch, jede moralische Grenze als menschliche Erfindung zu entlarven, nicht als Naturgesetz.</p>
+          <p class="vb-intro">Diese Rivalit\u00e4t kostete ihn fast sein gesamtes erwachsenes Leben: Insgesamt verbrachte er rund 32 Jahre in Gef\u00e4ngnissen und der Irrenanstalt von Charenton &ndash; wegen Sittenskandalen, wegen Beschwerden seiner eigenen Schwiegermutter, wegen seiner Schriften. Die SX4 weicht dem Konflikt nicht aus. Sie sucht ihn, weil nur im Widerstand gegen die auferlegte Ordnung das eigene, unverf\u00e4lschte Selbst sp\u00fcrbar bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\u00fcnferfl\u00fcgel: Das System hinter dem Tabubruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> gibt der sexuellen Vier den analytischen, systematisierenden Blick &ndash; die F\u00e4higkeit, das eigene Begehren nicht nur zu leben, sondern bis in seine Struktur zu durchdringen und in ein geschlossenes Gedankengeb\u00e4ude zu \u00fcbersetzen. Bei Sade zeigte sich das in der geradezu enzyklop\u00e4dischen Systematik seiner Werke: <em>Die 120 Tage von Sodom</em> ist als mathematisch durchkomponierte Aufz\u00e4hlung angelegt, in der Begierden kategorisiert, durchnummeriert und in aufsteigender Eskalation abgehandelt werden &ndash; nicht chaotisch, sondern mit der Akribie eines Gelehrten.</p>
+          <p class="vb-intro">Auch philosophisch verlie\u00df sich Sade nicht auf blo\u00dfe Provokation. Er kannte Diderot, die Aufkl\u00e4rungsphilosophie, den Materialismus seiner Zeit &ndash; und nutzte dieses intellektuelle R\u00fcstzeug, um seine radikale Ablehnung jeder Moral als Weltbild zu begr\u00fcnden, nicht nur als Verhalten zu leben. Der F\u00fcnferfl\u00fcgel verwandelte den nackten Trieb der SX4 in ein durchdachtes philosophisches System, das bis heute Denker von Simone de Beauvoir bis Michel Foucault besch\u00e4ftigt.</p>
+          <p class="vb-intro">Diese Systematik entstand gr\u00f6\u00dftenteils in Isolation: Gro\u00dfe Teile seines Werks schrieb Sade in der Zelle, oft heimlich, auf zusammengen\u00e4hten Papierrollen. Der R\u00fcckzug des F\u00fcnferfl\u00fcgels traf hier auf die erzwungene Einsamkeit der Gefangenschaft &ndash; und wurde zum Werkzeug, mit dem er der \u00e4u\u00dferen Kontrolle seine eigene, unkontrollierbare Gedankenwelt entgegensetzte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Bastille: Schreiben als letzter Akt der Selbstbehauptung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1789, wenige Tage vor dem Sturm auf die Bastille, soll Sade durch das Gitter seiner Zelle den vorbeiziehenden Menschen zugerufen haben, man t\u00f6te dort drinnen die Gefangenen &ndash; ein letzter, \u00f6ffentlichkeitswirksamer Akt der Rebellion gegen die Institution, die ihn festhielt. Er wurde daraufhin in ein anderes Gef\u00e4ngnis verlegt, ohne die Chance, seine dort zur\u00fcckgelassenen Manuskripte mitzunehmen &ndash; darunter die einzige Reinschrift von <em>Die 120 Tage von Sodom</em>, die er als f\u00fcr immer verloren betrauerte. Erst Jahrzehnte nach seinem Tod tauchte die Schriftrolle wieder auf.</p>
+          <p class="vb-intro">Das ist die SX4w5 in ihrer reinsten Form: Selbst in vollst\u00e4ndiger Machtlosigkeit &ndash; eingesperrt, entrechtet, seiner Freiheit beraubt &ndash; bleibt das Schreiben der eine Ort, an dem die eigene Wahrheit unangetastet bleibt. Der Stift wird zur letzten Waffe gegen eine Welt, die den K\u00f6rper einsperren, aber nicht das Denken kontrollieren kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Freiheit ohne R\u00fccksicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; bei der SX4 als Rivalit\u00e4t, als das tiefe Gef\u00fchl, dass die bestehende Ordnung einem selbst das Wesentliche vorenth\u00e4lt. Bei Sade \u00e4u\u00dferte sich das als lebenslanger Kampf gegen jede Autorit\u00e4t, die ihm sagen wollte, was erlaubt und was verboten sei &ndash; eine Wut, die sich nicht nur philosophisch, sondern auch in konkreten \u00dcbergriffen gegen andere Menschen entlud, f\u00fcr die er wiederholt strafrechtlich verfolgt wurde.</p>
+          <p class="vb-intro">Das Licht der SX4w5 liegt in der kompromisslosen Bereitschaft, unbequeme Wahrheiten \u00fcber Macht, Begehren und die Konstruiertheit gesellschaftlicher Moral auszusprechen &ndash; Sades Werk beeinflusst bis heute Philosophie, Literaturwissenschaft und die Debatte \u00fcber die Grenzen individueller Freiheit. Der Schatten liegt in der R\u00fccksichtslosigkeit, mit der die SX4 die eigene Intensit\u00e4t \u00fcber das Wohl anderer stellen kann &ndash; bei Sade nicht nur literarisch, sondern in realem Leid, das er anderen Menschen zuf\u00fcgte.</p>
+          <p class="vb-intro">Der F\u00fcnferfl\u00fcgel versch\u00e4rfte diese Spannung: Wo reine Impulsivit\u00e4t irgendwann an eigenen Grenzen haltmacht, verlieh die analytische Systematik der SX4w5 dem Tabubruch eine kalte, durchdachte Konsequenz &ndash; ein Werk, das nicht aus einem einzelnen Wutausbruch besteht, sondern aus einem vollst\u00e4ndig ausgearbeiteten Gedankensystem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Chihuahua, der der Nachwelt seinen Namen gab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier f\u00fchrt von der Frage <em>Warum bin ich nicht wie die anderen, warum wird mir vorenthalten, was mir zusteht?</em> zur Erkenntnis, dass die eigene Intensit\u00e4t nicht gegen andere gerichtet werden muss, um echt zu sein. Bei Sade blieb dieser Weg zeitlebens unvollendet &ndash; seine Rivalit\u00e4t gegen die Konvention kannte kaum eine reifere, integrierte Form.</p>
+          <p class="vb-intro">Sade starb 1814 in der Anstalt von Charenton, wo er seine letzten Lebensjahre verbrachte und noch Theaterst\u00fccke mit Mitpatienten inszenierte &ndash; bis zuletzt unf\u00e4hig und unwillig, sich in eine ihm auferlegte Rolle zu f\u00fcgen. Sein Name wurde zum Gattungsbegriff &bdquo;Sadismus&ldquo; &ndash; eine Sprache, die bis heute existiert, weil ein Chihuahua sich weigerte, sein Begehren, sein Denken und seine Wut jemals kleiner zu machen, als sie waren.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 \u2013 Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-claude-debussy", label:"Portr\xe4t: Claude Debussy (SX4w5)"},
+        {route:"beruehmte-ana-de-armas", label:"Portr\xe4t: Ana de Armas (SX4w5)"},
       ])}
     </div>
   `);
@@ -80050,6 +80124,7 @@ function render() {
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
       "beruehmte-claude-debussy": claudeDebussyPortraitPage,
+      "beruehmte-marquis-de-sade": marquisDeSadePortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-xu-bing": xuBingPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,

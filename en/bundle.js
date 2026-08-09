@@ -349,6 +349,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ana de Armas – Sexual Type 4",
     teaser:"SX4w5 · born 1988. Actress. Knives Out, Blonde. The chihuahua that fears no stage – and never forgets where it comes from.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-marquis-de-sade", name:"Marquis de Sade", subtyp:"SX4w5",
+    heading:"Marquis de Sade – Sexual Type 4",
+    teaser:"SX4w5 · 1740–1814. French nobleman, writer, philosopher. Justine, The 120 Days of Sodom. The chihuahua who spent 32 years of his life behind bars – and whose name became a synonym for the most radical breaking of taboos.",
+    tags:["Literature","Philosophy"], gender:"m"},
   { route:"beruehmte-christian-raetsch", name:"Christian Rätsch", subtyp:"SE5w4",
     heading:"Christian Rätsch – Self-Preservation Type 5",
     teaser:"SP5w4 · 1957–2022. Ethnologist, ethnopharmacologist. Encyclopedia of Psychoactive Plants. The owl that sees in the dark – and preserves the knowledge others do not want to see.",
@@ -17743,6 +17747,74 @@ function claudeDebussyPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-ana-de-armas", label:"Portrait: Ana de Armas (SX4w5)"},
         {route:"beruehmte-linda-leinweber", label:"Portrait: Linda Leinweber (SX4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function marquisDeSadePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-marquis-de-sade-portrait.jpg" alt="Marquis de Sade" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marquis de Sade</p>
+        <p class="krim-portrait-typ">SX4w5 &middot; Sexual Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Writer &amp; philosopher, 1740&ndash;1814 &ndash; Animal correspondence: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua Who Recognized No Boundary</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal of the sexual Four: small in stature, immeasurable in its inner intensity, unable to fit into a form that isn&#39;t its own. It knows no half-feelings, no moderate positions. What it rejects, it rejects radically. What it desires, it desires without compromise &ndash; even when that puts it in open conflict with everything its era holds sacred.</p>
+          <p class="vb-intro">Donatien Alphonse François, Marquis de Sade, was born in 1740 in Paris into one of France&#39;s oldest noble families. Even as a child he was considered unruly, hot-tempered, boundless in his emotions. An upbringing under a dissolute uncle in Provence, steeped in free-thinking and openly lived libertinism, laid the early foundation for a life that seemed to follow a single question throughout: why should I submit to an order others have prescribed for me?</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Four: Rivalry Against Every Convention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Four (SX4)</strong> does not carry the Four&#39;s pain inward, but outward &ndash; as intensity, as provocation, as open resistance to anything that feels like a foreign, imposed form. Naranjo called this subtype <em>rivalry</em>: the burning conviction that the existing order &ndash; moral, religious, social &ndash; withholds something essential from oneself, combined with the unconditional drive to stand directly against it.</p>
+          <p class="vb-intro">In Sade, this rivalry became a life program. He rivaled against the Catholic Church, against the law, against the institution of marriage, against every authority that set boundaries. His literary works &ndash; <em>Justine, or The Misfortunes of Virtue</em> (1791), <em>The 120 Days of Sodom</em> (written in 1785 in the Bastille) &ndash; are not mere provocations, but the systematic, philosophically grounded attempt to expose every moral boundary as a human invention, not a law of nature.</p>
+          <p class="vb-intro">This rivalry cost him nearly his entire adult life: in total he spent around 32 years in prisons and the Charenton asylum &ndash; over moral scandals, over complaints from his own mother-in-law, over his writings. The SX4 does not avoid conflict. It seeks it out, because only in resistance against the imposed order does the unadulterated self remain palpable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: The System Behind the Taboo-Breaking</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the sexual Four its analytical, systematizing gaze &ndash; the ability not just to live its own desire, but to penetrate it down to its structure and translate it into a closed system of thought. In Sade this showed in the almost encyclopedic systematics of his works: <em>The 120 Days of Sodom</em> is laid out as a mathematically composed enumeration, in which desires are categorized, numbered, and treated in ascending escalation &ndash; not chaotic, but with a scholar&#39;s meticulousness.</p>
+          <p class="vb-intro">Philosophically too, Sade did not rely on mere provocation. He knew Diderot, Enlightenment philosophy, the materialism of his time &ndash; and used this intellectual toolkit to ground his radical rejection of all morality as a worldview, not merely to live it as behavior. The Five-wing turned the SX4&#39;s naked drive into a thought-out philosophical system that occupies thinkers from Simone de Beauvoir to Michel Foucault to this day.</p>
+          <p class="vb-intro">This systematics arose largely in isolation: Sade wrote large portions of his work in his cell, often secretly, on scrolls of sewn-together paper. The Five-wing&#39;s retreat met the forced solitude of imprisonment here &ndash; and became the tool with which he set his own uncontrollable world of thought against external control.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Bastille: Writing as a Final Act of Self-Assertion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1789, days before the storming of the Bastille, Sade is said to have shouted through the bars of his cell to passersby that prisoners were being killed inside &ndash; a final, publicity-seeking act of rebellion against the institution holding him. He was subsequently transferred to another prison without the chance to take the manuscripts he left behind &ndash; among them the only fair copy of <em>The 120 Days of Sodom</em>, which he mourned as lost forever. Only decades after his death did the scroll resurface.</p>
+          <p class="vb-intro">This is the SX4w5 in its purest form: even in complete powerlessness &ndash; imprisoned, disenfranchised, deprived of freedom &ndash; writing remains the one place where one&#39;s own truth stays untouched. The pen becomes the last weapon against a world that can lock up the body but not control the mind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: Freedom Without Regard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; in the SX4 expressed as rivalry, as the deep feeling that the existing order withholds what is essential from oneself. In Sade this showed as a lifelong struggle against every authority that wanted to tell him what was allowed and what was forbidden &ndash; a rage that discharged not only philosophically but also in concrete offenses against other people, for which he was repeatedly prosecuted.</p>
+          <p class="vb-intro">The light of the SX4w5 lies in the uncompromising willingness to speak uncomfortable truths about power, desire, and the constructed nature of social morality &ndash; Sade&#39;s work still influences philosophy, literary studies, and the debate over the limits of individual freedom today. The shadow lies in the ruthlessness with which the SX4 can place its own intensity above the well-being of others &ndash; in Sade&#39;s case not only literary, but in real suffering he inflicted on other people.</p>
+          <p class="vb-intro">The Five-wing sharpened this tension further: where pure impulsivity eventually reaches its own limits, the analytical systematics of the SX4w5 gave the taboo-breaking a cold, deliberate consistency &ndash; a body of work that does not consist of a single outburst of rage, but of a fully elaborated system of thought.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Chihuahua Who Gave Posterity His Name</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Four leads from the question <em>Why am I not like the others, why am I withheld what is mine?</em> to the insight that one&#39;s own intensity need not be turned against others to be real. In Sade, this path remained unfinished throughout his life &ndash; his rivalry against convention barely knew a more mature, integrated form.</p>
+          <p class="vb-intro">Sade died in 1814 at the Charenton asylum, where he spent his final years and even staged plays with fellow patients &ndash; to the end unable and unwilling to fit into a role imposed on him. His name became the generic term &bdquo;sadism&ldquo; &ndash; a word that still exists today because one chihuahua refused to ever make his desire, his thinking, and his rage smaller than they were.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5)"},
+        {route:"beruehmte-ana-de-armas", label:"Portrait: Ana de Armas (SX4w5)"},
       ])}
     </div>
   `);
@@ -46040,6 +46112,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
+      "beruehmte-marquis-de-sade": marquisDeSadePortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-xu-bing": xuBingPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,

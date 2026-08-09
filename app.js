@@ -479,6 +479,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Claude Debussy – Sexueller Typ 4",
     teaser:"SX4w5 · 1862–1918. Komponist, Begründer der musikalischen Moderne. Clair de Lune, La Mer, Pelléas et Mélisande. Der Chihuahua, der die europäische Musik von den Fundamenten her neu dachte – und dabei nie aufhörte, gegen die Konvention zu rivalisieren.",
     tags:["Musik"], gender:"m"},
+  { route:"beruehmte-marquis-de-sade", name:"Marquis de Sade", subtyp:"SX4w5",
+    heading:"Marquis de Sade – Sexueller Typ 4",
+    teaser:"SX4w5 · 1740–1814. Französischer Adliger, Schriftsteller, Philosoph. Justine, Die 120 Tage von Sodom. Der Chihuahua, der 32 Jahre seines Lebens hinter Gittern verbrachte – und dessen Name zum Synonym für den radikalsten aller Tabubrüche wurde.",
+    tags:["Literatur","Philosophie"], gender:"m"},
   { route:"beruehmte-christian-raetsch", name:"Christian Rätsch", subtyp:"SE5w4",
     heading:"Christian Rätsch – Selbsterhaltender Typ 5",
     teaser:"SE5w4 · 1957–2022. Ethnologe, Ethnopharmakologe. Enzyklopädie der psychoaktiven Pflanzen. Die Eule, die in der Dunkelheit sieht – und das Wissen bewahrt, das andere nicht sehen wollen.",
@@ -11716,6 +11720,74 @@ function claudeDebussyPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-ana-de-armas", label:"Portr\xe4t: Ana de Armas (SX4w5)"},
         {route:"beruehmte-linda-leinweber", label:"Portr\xe4t: Linda Leinweber (SX4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function marquisDeSadePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marquis-de-sade-portrait.jpg" alt="Marquis de Sade" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marquis de Sade</p>
+        <p class="krim-portrait-typ">SX4w5 &middot; Sexueller Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Schriftsteller &amp; Philosoph, 1740&ndash;1814 &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua, der keine Grenze anerkannte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier: klein von Gestalt, unermesslich in seiner inneren Intensität, unfähig, sich in eine Form zu fügen, die nicht die eigene ist. Er kennt keine halben Gefühle, keine gemäßigten Positionen. Was er ablehnt, lehnt er radikal ab. Was er begehrt, begehrt er ohne Kompromiss &ndash; selbst wenn ihn das in offenen Konflikt mit allem bringt, was seine Zeit für heilig hält.</p>
+          <p class="vb-intro">Donatien Alphonse François, Marquis de Sade, wurde 1740 in Paris in eine der ältesten Adelsfamilien Frankreichs hineingeboren. Schon als Kind galt er als unbändig, jähzornig, grenzenlos in seinen Emotionen. Eine Erziehung durch einen liederlichen Onkel in der Provence, geprägt von Freidenkerei und offen gelebter Libertinage, legte früh den Grundstein für ein Leben, das zeitlebens einer einzigen Frage zu folgen schien: Warum sollte ich mich der Ordnung fügen, die andere für mich vorgesehen haben?</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Rivalität gegen jede Konvention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> trägt den Schmerz der Vier nicht nach innen, sondern nach außen &ndash; als Intensität, als Provokation, als offener Widerstand gegen alles, was sich wie eine fremde, aufgezwungene Form anfühlt. Naranjo nannte diesen Subtyp <em>Rivalität</em>: die brennende Überzeugung, dass die bestehende Ordnung &ndash; moralisch, religiös, gesellschaftlich &ndash; einem selbst etwas Wesentliches vorenthält, verbunden mit dem unbedingten Antrieb, genau dagegen anzutreten.</p>
+          <p class="vb-intro">Bei Sade wurde diese Rivalität zum Lebensprogramm. Er rivalisierte gegen die katholische Kirche, gegen das Gesetz, gegen die Institution der Ehe, gegen jede Autorität, die Grenzen setzte. Seine literarischen Werke &ndash; <em>Justine oder Das Missgeschick der Tugend</em> (1791), <em>Die 120 Tage von Sodom</em> (verfasst 1785 in der Bastille) &ndash; sind keine bloßen Provokationen, sondern der systematische, philosophisch durchdachte Versuch, jede moralische Grenze als menschliche Erfindung zu entlarven, nicht als Naturgesetz.</p>
+          <p class="vb-intro">Diese Rivalität kostete ihn fast sein gesamtes erwachsenes Leben: Insgesamt verbrachte er rund 32 Jahre in Gefängnissen und der Irrenanstalt von Charenton &ndash; wegen Sittenskandalen, wegen Beschwerden seiner eigenen Schwiegermutter, wegen seiner Schriften. Die SX4 weicht dem Konflikt nicht aus. Sie sucht ihn, weil nur im Widerstand gegen die auferlegte Ordnung das eigene, unverfälschte Selbst spürbar bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Das System hinter dem Tabubruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sexuellen Vier den analytischen, systematisierenden Blick &ndash; die Fähigkeit, das eigene Begehren nicht nur zu leben, sondern bis in seine Struktur zu durchdringen und in ein geschlossenes Gedankengebäude zu übersetzen. Bei Sade zeigte sich das in der geradezu enzyklopädischen Systematik seiner Werke: <em>Die 120 Tage von Sodom</em> ist als mathematisch durchkomponierte Aufzählung angelegt, in der Begierden kategorisiert, durchnummeriert und in aufsteigender Eskalation abgehandelt werden &ndash; nicht chaotisch, sondern mit der Akribie eines Gelehrten.</p>
+          <p class="vb-intro">Auch philosophisch verließ sich Sade nicht auf bloße Provokation. Er kannte Diderot, die Aufklärungsphilosophie, den Materialismus seiner Zeit &ndash; und nutzte dieses intellektuelle Rüstzeug, um seine radikale Ablehnung jeder Moral als Weltbild zu begründen, nicht nur als Verhalten zu leben. Der Fünferflügel verwandelte den nackten Trieb der SX4 in ein durchdachtes philosophisches System, das bis heute Denker von Simone de Beauvoir bis Michel Foucault beschäftigt.</p>
+          <p class="vb-intro">Diese Systematik entstand größtenteils in Isolation: Große Teile seines Werks schrieb Sade in der Zelle, oft heimlich, auf zusammengenähten Papierrollen. Der Rückzug des Fünferflügels traf hier auf die erzwungene Einsamkeit der Gefangenschaft &ndash; und wurde zum Werkzeug, mit dem er der äußeren Kontrolle seine eigene, unkontrollierbare Gedankenwelt entgegensetzte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Bastille: Schreiben als letzter Akt der Selbstbehauptung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1789, wenige Tage vor dem Sturm auf die Bastille, soll Sade durch das Gitter seiner Zelle den vorbeiziehenden Menschen zugerufen haben, man töte dort drinnen die Gefangenen &ndash; ein letzter, öffentlichkeitswirksamer Akt der Rebellion gegen die Institution, die ihn festhielt. Er wurde daraufhin in ein anderes Gefängnis verlegt, ohne die Chance, seine dort zurückgelassenen Manuskripte mitzunehmen &ndash; darunter die einzige Reinschrift von <em>Die 120 Tage von Sodom</em>, die er als für immer verloren betrauerte. Erst Jahrzehnte nach seinem Tod tauchte die Schriftrolle wieder auf.</p>
+          <p class="vb-intro">Das ist die SX4w5 in ihrer reinsten Form: Selbst in vollständiger Machtlosigkeit &ndash; eingesperrt, entrechtet, seiner Freiheit beraubt &ndash; bleibt das Schreiben der eine Ort, an dem die eigene Wahrheit unangetastet bleibt. Der Stift wird zur letzten Waffe gegen eine Welt, die den Körper einsperren, aber nicht das Denken kontrollieren kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Freiheit ohne Rücksicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; bei der SX4 als Rivalität, als das tiefe Gefühl, dass die bestehende Ordnung einem selbst das Wesentliche vorenthält. Bei Sade äußerte sich das als lebenslanger Kampf gegen jede Autorität, die ihm sagen wollte, was erlaubt und was verboten sei &ndash; eine Wut, die sich nicht nur philosophisch, sondern auch in konkreten Übergriffen gegen andere Menschen entlud, für die er wiederholt strafrechtlich verfolgt wurde.</p>
+          <p class="vb-intro">Das Licht der SX4w5 liegt in der kompromisslosen Bereitschaft, unbequeme Wahrheiten über Macht, Begehren und die Konstruiertheit gesellschaftlicher Moral auszusprechen &ndash; Sades Werk beeinflusst bis heute Philosophie, Literaturwissenschaft und die Debatte über die Grenzen individueller Freiheit. Der Schatten liegt in der Rücksichtslosigkeit, mit der die SX4 die eigene Intensität über das Wohl anderer stellen kann &ndash; bei Sade nicht nur literarisch, sondern in realem Leid, das er anderen Menschen zufügte.</p>
+          <p class="vb-intro">Der Fünferflügel verschärfte diese Spannung: Wo reine Impulsivität irgendwann an eigenen Grenzen haltmacht, verlieh die analytische Systematik der SX4w5 dem Tabubruch eine kalte, durchdachte Konsequenz &ndash; ein Werk, das nicht aus einem einzelnen Wutausbruch besteht, sondern aus einem vollständig ausgearbeiteten Gedankensystem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Chihuahua, der der Nachwelt seinen Namen gab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum bin ich nicht wie die anderen, warum wird mir vorenthalten, was mir zusteht?</em> zur Erkenntnis, dass die eigene Intensität nicht gegen andere gerichtet werden muss, um echt zu sein. Bei Sade blieb dieser Weg zeitlebens unvollendet &ndash; seine Rivalität gegen die Konvention kannte kaum eine reifere, integrierte Form.</p>
+          <p class="vb-intro">Sade starb 1814 in der Anstalt von Charenton, wo er seine letzten Lebensjahre verbrachte und noch Theaterstücke mit Mitpatienten inszenierte &ndash; bis zuletzt unfähig und unwillig, sich in eine ihm auferlegte Rolle zu fügen. Sein Name wurde zum Gattungsbegriff &bdquo;Sadismus&ldquo; &ndash; eine Sprache, die bis heute existiert, weil ein Chihuahua sich weigerte, sein Begehren, sein Denken und seine Wut jemals kleiner zu machen, als sie waren.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-claude-debussy", label:"Portr\xe4t: Claude Debussy (SX4w5)"},
+        {route:"beruehmte-ana-de-armas", label:"Portr\xe4t: Ana de Armas (SX4w5)"},
       ])}
     </div>
   `);
@@ -49033,6 +49105,7 @@ function render() {
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
       "beruehmte-claude-debussy": claudeDebussyPortraitPage,
+      "beruehmte-marquis-de-sade": marquisDeSadePortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-xu-bing": xuBingPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,

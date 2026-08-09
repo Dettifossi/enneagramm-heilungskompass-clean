@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v1008", date: "2026-08-09", text: "Neues Porträt: Marquis de Sade (SX4w5, Chihuahua) in Berühmte Persönlichkeiten.", text_en: "New portrait: Marquis de Sade (SX4w5, Chihuahua) in Famous Personalities.", route: "beruehmte-marquis-de-sade" },
     { version: "v1007", date: "2026-08-09", text: "Neu: Freiwilliger Wertschätzungs-Beitrag – wer möchte, kann den Kompass mit einem kleinen Betrag unterstützen (Button unter Verlagshaus/Praxis/Ennea Scholars auf der Startseite). Kein Abo, keine Pflicht.", text_en: "New: Voluntary appreciation contribution – support the Compass with a small amount if you'd like (button below Publishing House/Practice/Ennea Scholars on the home screen). No subscription, no obligation.", route: "profile" },
     { version: "v1006", date: "2026-08-08", text: "Neues Porträt: Madame Tussaud (SE3w4, Waschbär) in Berühmte Persönlichkeiten.", text_en: "New portrait: Madame Tussaud (SP3w4, Raccoon) in Famous Personalities.", route: "beruehmte-madame-tussaud" },
     { version: "v1005", date: "2026-08-08", text: "Neues Porträt: Teresa von Ávila (SO3w4, Gepard) in Berühmte Persönlichkeiten.", text_en: "New portrait: Teresa of Ávila (SO3w4, Cheetah) in Famous Personalities.", route: "beruehmte-teresa-von-avila" },
