@@ -47549,7 +47549,7 @@ function friedrichNietzschePortraitPage() {
         <h2 class="vb-section">6. Der Igel, der sein Alleinsein in Sprache verwandelte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der F\u00fcnf f\u00fchrt von der Angst, von der Welt aufgezehrt zu werden, zur Erkenntnis, dass F\u00fclle nicht durch R\u00fcckzug allein entsteht, sondern durch die eine, wirkliche Verbindung, die man wagt. Nietzsche wagte sie selten im Leben &ndash; mit Lou Salom\u00e9, mit Wagner, in wenigen Freundschaften &ndash; und jedes Mal brach sie. Was blieb, war das Werk, das an ihre Stelle trat.</p>
-          <p class="vb-intro">Er starb 1900 in Weimar, ohne je zu erleben, wie sein Denken die Philosophie des zwanzigsten Jahrhunderts pr\u00e4gen w\u00fcrde. Der Igel aus R\u00f6cken zeigte sich nie wirklich einem Menschen vollst\u00e4ndig &ndash; aber er zeigte sich, Seite f\u00fcr Seite, einem Werk, das seine Stacheln in Gedanken verwandelte, die bis heute stechen.</p>
+          <p class="vb-intro">Er starb 1900 in Weimar, ohne je zu erleben, wie sein Denken die Philosophie des zwanzigsten Jahrhunderts pr\u00e4gen w\u00fcrde. Der Igel aus R\u00f6cken zeigte sich nie wirklich einem Menschen vollst\u00e4ndig &ndash; aber er zeigte sich Seite f\u00fcr Seite in seinen genialen Werken, die seine Stacheln in Gedanken verwandelten, die bis heute stechen.</p>
         </blockquote>
 
       </div>

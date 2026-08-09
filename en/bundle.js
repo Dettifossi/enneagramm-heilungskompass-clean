@@ -15508,7 +15508,7 @@ function friedrichNietzschePortraitPage() {
         <h2 class="vb-section">6. The Hedgehog Who Turned His Solitude Into Language</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Five leads from the fear of being consumed by the world to the insight that fullness does not arise from withdrawal alone, but from the one real connection one dares to risk. Nietzsche rarely dared it in life &ndash; with Lou Salomé, with Wagner, in a handful of friendships &ndash; and each time it broke. What remained was the work that took its place.</p>
-          <p class="vb-intro">He died in 1900 in Weimar, never living to see how his thought would shape twentieth-century philosophy. The hedgehog from Röcken never fully showed himself to another person &ndash; but he showed himself, page by page, to a body of work whose quills still sting today.</p>
+          <p class="vb-intro">He died in 1900 in Weimar, never living to see how his thought would shape twentieth-century philosophy. The hedgehog from Röcken never fully showed himself to another person &ndash; but he showed himself page by page in his brilliant body of work, which turned his quills into thoughts that still sting today.</p>
         </blockquote>
 
       </div>
