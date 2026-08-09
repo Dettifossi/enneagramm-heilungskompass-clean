@@ -205,7 +205,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Politik"] , gender:"m"},
   { route:"beruehmte-adam-smith", name:"Adam Smith", added:"2026-08-09", subtyp:"SO1w9",
     heading:"Adam Smith – Sozialer Typ 1",
-    teaser:"SO1w9 · 1723–1790. Schottischer Moralphilosoph und Ökonom, Theory of Moral Sentiments, Wealth of Nations. Die Gans, die eine gerechtere Ordnung suchte – und deren Treue zu ihrem Freund David Hume sie den eigenen guten Ruf kostete.",
+    teaser:"SO1w9 · 1723–1790. Schottischer Moralphilosoph und Ökonom, Theorie der ethischen Gefühle, Der Wohlstand der Nationen. Die Gans, die eine gerechtere Ordnung suchte – und deren Treue zu ihrem Freund David Hume sie den eigenen guten Ruf kostete.",
     tags:["Philosophie","Wirtschaft"], gender:"m"},
   { route:"beruehmte-jordan-peterson", name:"Jordan Peterson", subtyp:"SO1w9",
     heading:"Jordan Peterson – Sozialer Typ 1",
@@ -813,7 +813,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Politik"], gender:"f"},
   { route:"beruehmte-david-hume", name:"David Hume", subtyp:"SE9w8",
     heading:"David Hume – Selbsterhaltender Typ 9",
-    teaser:"SE9w8 · 1711–1776. Schottischer Philosoph. A Treatise of Human Nature, radikaler Skeptizismus. Der Elefant, der an allem zweifelte – an der Kausalität, am Selbst, an Gott – und dabei gelassener blieb als jeder seiner erbitterten Kritiker.",
+    teaser:"SE9w8 · 1711–1776. Schottischer Philosoph. Ein Traktat über die menschliche Natur, radikaler Skeptizismus. Der Elefant, der an allem zweifelte – an der Kausalität, am Selbst, an Gott – und dabei gelassener blieb als jeder seiner erbitterten Kritiker.",
     tags:["Philosophie"], gender:"m"},
   { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8",
     heading:"Hans-Dietrich Genscher – Selbsterhaltender Typ 9",
@@ -14322,13 +14322,13 @@ function davidHumePortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Neun: Gelassenheit als Methode</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> ist nach Naranjo der Subtyp, den er <em>Appetit</em> nannte &ndash; die Neigung, sich in Komfort und innerem Frieden einzurichten und Konflikten durch Gelassenheit zu begegnen, statt sie zu eskalieren. Bei Hume wurde diese Gelassenheit zur philosophischen Methode selbst: Er zweifelte an der Kausalität &ndash; der Annahme, dass ein Ereignis zwangsläufig ein anderes verursacht &ndash; an der Existenz eines stabilen Selbst und an jedem rationalen Gottesbeweis, und blieb dabei erstaunlich unaufgeregt.</p>
-          <p class="vb-intro">Sein Hauptwerk <em>A Treatise of Human Nature</em> (1739&ndash;40) erschien zunächst fast unbeachtet &ndash; Hume selbst schrieb später, es sei &bdquo;tot von der Presse gefallen&ldquo;. Statt zu kämpfen, überarbeitete er die Ideen jahrzehntelang in zugänglicherer Form, etwa in den <em>Essays, Moral and Political</em> und der <em>Enquiry Concerning Human Understanding</em> (1748). Kein Wutausbruch, kein Rückzug &ndash; nur die geduldige Wiederholung derselben Wahrheit in immer neuer Gestalt, bis sie gehört wurde.</p>
+          <p class="vb-intro">Sein Hauptwerk <em>Ein Traktat über die menschliche Natur</em> (A Treatise of Human Nature, 1739&ndash;40) erschien zunächst fast unbeachtet &ndash; Hume selbst schrieb später, es sei &bdquo;tot von der Presse gefallen&ldquo;. Statt zu kämpfen, überarbeitete er die Ideen jahrzehntelang in zugänglicherer Form, etwa in den <em>Moralischen und politischen Essays</em> (Essays, Moral and Political) und der <em>Untersuchung über den menschlichen Verstand</em> (An Enquiry Concerning Human Understanding, 1748). Kein Wutausbruch, kein Rückzug &ndash; nur die geduldige Wiederholung derselben Wahrheit in immer neuer Gestalt, bis sie gehört wurde.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Achterflügel: Der Mut zum radikalen Zweifel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> verleiht der selbsterhaltenden Neun eine Kraft, die man nach außen kaum sieht, bis man ihre Konsequenzen begreift: die Bereitschaft, eine Position bis zum radikalen Ende zu denken, ohne vor der Reaktion der Umwelt zurückzuschrecken. Die reine SE9 würde vielleicht ausweichen. Die SE9w8 zieht die Konsequenz &ndash; ruhig, aber unbeirrbar.</p>
-          <p class="vb-intro">Hume vertrat einen konsequenten religiösen Skeptizismus, der ihm zeitlebens die begehrten Lehrstühle in Edinburgh und Glasgow verwehrte &ndash; kirchliche Einwände verhinderten beide Berufungen. Sein Werk <em>Dialogues Concerning Natural Religion</em>, das die klassischen Gottesbeweise systematisch demontiert, ließ er aus Vorsicht erst nach seinem Tod veröffentlichen &ndash; nicht aus Feigheit, sondern aus der kühlen Berechnung des Achterflügels: Der Kampf lohnt sich nicht, solange man ihn nicht gewinnen kann. Man wartet den richtigen Moment ab.</p>
+          <p class="vb-intro">Hume vertrat einen konsequenten religiösen Skeptizismus, der ihm zeitlebens die begehrten Lehrstühle in Edinburgh und Glasgow verwehrte &ndash; kirchliche Einwände verhinderten beide Berufungen. Sein Werk <em>Dialoge über natürliche Religion</em> (Dialogues Concerning Natural Religion), das die klassischen Gottesbeweise systematisch demontiert, ließ er aus Vorsicht erst nach seinem Tod veröffentlichen &ndash; nicht aus Feigheit, sondern aus der kühlen Berechnung des Achterflügels: Der Kampf lohnt sich nicht, solange man ihn nicht gewinnen kann. Man wartet den richtigen Moment ab.</p>
           <p class="vb-intro">Diese Mischung aus Nachgiebigkeit und unerschütterlicher Grundhaltung zeigte sich auch 1766 in seiner Freundschaft mit dem französischen Philosophen Jean-Jacques Rousseau, den Hume aus Frankreich nach England holte, als dieser politisch verfolgt wurde. Rousseau, zunehmend paranoid, wandte sich gegen Hume und beschuldigte ihn öffentlich der Verschwörung. Hume reagierte nicht mit Gegenangriff, sondern mit einer sachlichen, in ganz Europa verbreiteten Verteidigungsschrift &ndash; die Neun bleibt ruhig, aber der Achterflügel verteidigt seinen Ruf mit aller gebotenen Härte.</p>
         </blockquote>
 
@@ -14388,8 +14388,8 @@ function adamSmithPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Eins: Gerechtigkeit als Ordnungsprinzip</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> sucht Vollkommenheit nicht im Privaten, sondern im gesellschaftlichen Rahmen &ndash; sie will die Welt gerechter, geordneter, moralisch stimmiger machen. Smiths erstes großes Werk, <em>The Theory of Moral Sentiments</em> (1759), fragt genau danach: Wie entsteht Moral in einer Gesellschaft, in der Menschen einander beobachten und beurteilen? Seine Antwort &ndash; der &bdquo;unparteiische Beobachter&ldquo; in uns, der unser Handeln an einem inneren Maßstab misst &ndash; ist die Stimme der inneren Kritikerin der Eins, nach außen gewendet und zum philosophischen System erhoben.</p>
-          <p class="vb-intro">Siebzehn Jahre später folgte <em>An Inquiry into the Nature and Causes of the Wealth of Nations</em> (1776), das Gründungswerk der modernen Ökonomie. Auch hier: die Suche nach der richtigen Ordnung &ndash; diesmal nicht der Moral, sondern des Marktes. Smith wollte zeigen, wie aus dem Eigeninteresse Vieler durch faire Regeln ein gerechtes Ganzes entstehen kann.</p>
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> sucht Vollkommenheit nicht im Privaten, sondern im gesellschaftlichen Rahmen &ndash; sie will die Welt gerechter, geordneter, moralisch stimmiger machen. Smiths erstes großes Werk, <em>Theorie der ethischen Gefühle</em> (The Theory of Moral Sentiments, 1759), fragt genau danach: Wie entsteht Moral in einer Gesellschaft, in der Menschen einander beobachten und beurteilen? Seine Antwort &ndash; der &bdquo;unparteiische Beobachter&ldquo; in uns, der unser Handeln an einem inneren Maßstab misst &ndash; ist die Stimme der inneren Kritikerin der Eins, nach außen gewendet und zum philosophischen System erhoben.</p>
+          <p class="vb-intro">Siebzehn Jahre später folgte <em>Der Wohlstand der Nationen</em> (An Inquiry into the Nature and Causes of the Wealth of Nations, 1776), das Gründungswerk der modernen Ökonomie. Auch hier: die Suche nach der richtigen Ordnung &ndash; diesmal nicht der Moral, sondern des Marktes. Smith wollte zeigen, wie aus dem Eigeninteresse Vieler durch faire Regeln ein gerechtes Ganzes entstehen kann.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Neunerflügel: Versöhnung statt Anklage</h2>
@@ -14407,7 +14407,7 @@ function adamSmithPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO1w9 ist die Fähigkeit, <strong>Prinzipientreue mit Versöhnlichkeit</strong> zu verbinden &ndash; eine Gerechtigkeit, die nicht anklagt, sondern durch überzeugende Ordnung wirkt. Smiths Vision einer moralisch fundierten Marktordnung wollte beides zugleich: Freiheit des Einzelnen und Verantwortung für das Ganze.</p>
-          <p class="vb-intro">Der Schatten: Smiths Werk wurde später oft auf die reine Verteidigung des Eigeninteresses reduziert &ndash; unter Verlust seiner moralischen Rahmung aus der <em>Theory of Moral Sentiments</em>. Die Kehrseite der SO1w9 zeigt sich hier: die Sorge um das große Ganze kann so sehr im System aufgehen, dass die eigene, differenzierte Position im Nachhinein vereinfacht und instrumentalisiert wird &ndash; etwas, gegen das sich der zurückhaltende, versöhnliche Smith kaum mehr wehren konnte.</p>
+          <p class="vb-intro">Der Schatten: Smiths Werk wurde später oft auf die reine Verteidigung des Eigeninteresses reduziert &ndash; unter Verlust seiner moralischen Rahmung aus der <em>Theorie der ethischen Gefühle</em>. Die Kehrseite der SO1w9 zeigt sich hier: die Sorge um das große Ganze kann so sehr im System aufgehen, dass die eigene, differenzierte Position im Nachhinein vereinfacht und instrumentalisiert wird &ndash; etwas, gegen das sich der zurückhaltende, versöhnliche Smith kaum mehr wehren konnte.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Die Gans, die eine gerechtere Ordnung hinterließ</h2>
