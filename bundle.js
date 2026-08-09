@@ -24158,6 +24158,7 @@ const registerEntries = [
   { term: "Tilda Swinton",                 route: "beruehmte-tilda-swinton",               description: "Portrait: SX5w4 \u00b7 Sexueller Typ 5 \u00b7 Schauspielerin" },
   { term: "Thomas Gottschalk",             route: "beruehmte-thomas-gottschalk",           description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 TV-Entertainer, Wetten dass, Leichtigkeit" },
   { term: "Til Schweiger",                 route: "beruehmte-til-schweiger",               description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Schauspieler, Regisseur, Direktheit" },
+  { term: "Johnny Depp",                   route: "beruehmte-johnny-depp",                 description: "Portrait: SO4w3 \u00b7 Sozialer Typ 4 \u00b7 Schauspieler, Musiker, Captain Jack Sparrow" },
   { term: "Tim Bendzko",                   route: "beruehmte-tim-bendzko",                 description: "Portrait: SE4w3 \u00b7 Selbsterhaltender Typ 4 \u00b7 S\u00e4nger, Melancholie & Aufbruch" },
     { term: "Golda Meir", route: "beruehmte-golda-meir", description: "Portrait: SE8w9 \u00b7 Selbsterhaltender Typ 8 \u00b7 Premierministerin Israels, Staatsfrau, Orang-Utan" },
   { term: "Toni Morrison",                 route: "beruehmte-toni-morrison",               description: "Portrait: SO9w8 \u00b7 Sozialer Typ 9 \u00b7 Nobelpreis-Literatur, Ged\u00e4chtnis & Gemeinschaft" },
@@ -24444,6 +24445,7 @@ const registerEntriesEN = [
   { term: "Tilda Swinton", route: "beruehmte-tilda-swinton", description: "Portrait: SX5w4 \u00b7 Sexual Type 5 \u00b7 Actress" },
   { term: "Thomas Gottschalk", route: "beruehmte-thomas-gottschalk", description: "Portrait: SO7w6 \u00b7 Social Type 7 \u00b7 TV entertainer, Wetten dass, lightness" },
   { term: "Til Schweiger", route: "beruehmte-til-schweiger", description: "Portrait: SX8w7 \u00b7 Sexual Type 8 \u00b7 Actor, Director, directness" },
+  { term: "Johnny Depp", route: "beruehmte-johnny-depp", description: "Portrait: SO4w3 \u00b7 Social Type 4 \u00b7 Actor, musician, Captain Jack Sparrow" },
   { term: "Tim Bendzko", route: "beruehmte-tim-bendzko", description: "Portrait: SE4w3 \u00b7 Self-Preservation Type 4 \u00b7 Singer, melancholy & new beginnings" },
   { term: "Golda Meir", route: "beruehmte-golda-meir", description: "Portrait: SE8w9 \u00b7 Self-Preservation Type 8 \u00b7 Prime Minister of Israel, Stateswoman, Orang-utan" },
   { term: "Toni Morrison", route: "beruehmte-toni-morrison", description: "Portrait: SO9w8 \u00b7 Social Type 9 \u00b7 Nobel Prize in Literature, memory & community" },
@@ -31491,6 +31493,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Til Schweiger \u2013 Sozialer Typ 4",
     teaser:"SO4w3 \u00b7 geb. 1963. Schauspieler, Regisseur & Produzent. Das G\u00fcrteltier, das sich hinter einer Maske aus Coolness verbirgt \u2013 und darunter eine tiefe Sehnsucht nach echter Anerkennung tr\u00e4gt.",
     added:"2026-07-15", tags:["Film","Kunst"] , gender:"m"},
+  { route:"beruehmte-johnny-depp", name:"Johnny Depp", added:"2026-08-09", subtyp:"SO4w3",
+    heading:"Johnny Depp \u2013 Sozialer Typ 4",
+    teaser:"SO4w3 \u00b7 geb. 1963. Schauspieler und Musiker. Captain Jack Sparrow, Edward mit den Scherenh\u00e4nden, Hollywood Vampires. Das G\u00fcrteltier, das sein Anderssein nie versteckte, sondern zur schillerndsten B\u00fchnenfigur seiner Zeit machte.",
+    tags:["Film","Musik"], gender:"m"},
   { route:"beruehmte-john-lennon", name:"John Lennon", subtyp:"SO4w5",
     heading:"John Lennon \u2013 Sozialer Typ 4",
     teaser:"SO4w5 \u00b7 1940\u20131980. Musiker, Komponist, Friedensaktivist, Mitbegr\u00fcnder der Beatles. Das G\u00fcrteltier, das die Welt fragte: Stell Dir vor, es w\u00e4re Frieden.",
@@ -45631,6 +45637,70 @@ function edgarAllanPoePortraitPage() {
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
         {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
         {route:"beruehmte-fiona-apple", label:"Portr\xe4t: Fiona Apple (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+function johnnyDeppPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-johnny-depp-portrait.jpg" alt="G\u00fcrteltier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johnny Depp</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Sozialer Typ 4 mit Dreierfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Schauspieler und Musiker, geb. 1963 &ndash; Tierentsprechung: G\u00fcrteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das G\u00fcrteltier auf der gro\u00dfen B\u00fchne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>G\u00fcrteltier</strong> ist das Tier der sozialen Vier &ndash; ein Wesen, das sein Anderssein nicht verbirgt, sondern sichtbar auf der Haut tr\u00e4gt. Anders als seine introvertierten Artgenossen versteckt sich diese Vier nicht im eigenen Panzer, sondern tr\u00e4gt ihn stolz zur Schau &ndash; als Beweis der eigenen Einzigartigkeit, auf einer B\u00fchne, die alle sehen k\u00f6nnen.</p>
+          <p class="vb-intro">Johnny Depp wurde 1963 in Owensboro, Kentucky, geboren, wuchs in einer von h\u00e4ufigen Umz\u00fcgen und famili\u00e4ren Spannungen gepr\u00e4gten Kindheit auf und brach die Schule mit 15 ab, um Musiker zu werden. Bevor er zum Schauspieler wurde, spielte er in Bands, unter anderem mit Musikern, die sp\u00e4ter bei Guns N&rsquo; Roses landeten &ndash; die Sehnsucht nach k\u00fcnstlerischem Ausdruck war von Anfang an gr\u00f6\u00dfer als jede konventionelle Laufbahnplanung. Der Durchbruch kam 1987 mit der Fernsehserie &bdquo;21 Jump Street&ldquo; &ndash; einer Rolle, die er selbst zeitlebens als zu glattes Teenie-Idol-Image empfand und die so gar nicht zu seinem Selbstverst\u00e4ndnis als K\u00fcnstler passte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Einzigartigkeit als B\u00fchnenwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> lebt ihre Andersartigkeit nicht im Verborgenen, sondern sucht die Gruppe, um genau dort als die tragische, besondere Ausnahme wahrgenommen zu werden. Depps gesamte Karriere ist eine einzige Flucht vor dem Massentauglichen: Immer wieder w\u00e4hlte er exzentrische, oft schwierige Au\u00dfenseiterfiguren &ndash; Edward mit den Scherenh\u00e4nden, Ed Wood, Sweeney Todd, den Hutmacher in &bdquo;Alice im Wunderland&ldquo; &ndash; Figuren, die alle eines gemeinsam haben: eine tief empfundene Isolation, gepaart mit einer schillernden, unverwechselbaren \u00c4u\u00dferlichkeit.</p>
+          <p class="vb-intro">Auch privat kultivierte Depp \u00fcber Jahrzehnte ein unverwechselbares Image &ndash; Ringe an jedem Finger, Kajal, H\u00fcte, T\u00e4towierungen, ein bewusst kreierter Rockstar-Habitus, der ihn selbst dann noch von der Masse abhob, wenn er auf dem roten Teppich stand. F\u00fcr die soziale Vier ist das typisch: Die eigene Verletzlichkeit wird nicht versteckt, sondern in ein Bild verwandelt, das andere faszinieren und zugleich auf Distanz halten kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierfl\u00fcgel: Der Auftritt als Existenzform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierfl\u00fcgel (w3)</strong> verleiht der Vier die F\u00e4higkeit, ihre Einzigartigkeit erfolgreich zu inszenieren und zu vermarkten &ndash; das Leiden bleibt real, wird aber zu einer Performance verdichtet, die ein Millionenpublikum erreicht. Keine Rolle zeigt das deutlicher als Captain Jack Sparrow in &bdquo;Fluch der Karibik&ldquo;: Depp entwickelte die Figur eigenm\u00e4chtig gegen den Willen des Studios in Richtung eines exzentrischen, t\u00e4nzelnden Rockstar-Piraten &ndash; ein enormes k\u00fcnstlerisches Risiko, das sich zu einem der ikonischsten Charaktere der Filmgeschichte und einem der gr\u00f6\u00dften kommerziellen Erfolge des Kinos entwickelte.</p>
+          <p class="vb-intro">Auch als Musiker suchte Depp konsequent das Rampenlicht: In der Supergroup Hollywood Vampires stand er neben Alice Cooper und Joe Perry auf gro\u00dfen B\u00fchnen weltweit. Diese Mischung aus tiefem k\u00fcnstlerischem Anspruch und dem unbedingten Willen zur Pr\u00e4senz und Anerkennung vor Publikum ist die reinste Auspr\u00e4gung der SO4w3: Die Vier f\u00fchlt, der Dreierfl\u00fcgel performt es.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Preis der \u00f6ffentlichen B\u00fchne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2022 stand Depp in einem international vielbeachteten Verleumdungsprozess gegen seine Ex-Frau Amber Heard vor Gericht &ndash; ein Verfahren, das live im Fernsehen und in sozialen Medien \u00fcbertragen wurde und Millionen Zuschauer weltweit verfolgten. F\u00fcr die soziale Vier mit Dreierfl\u00fcgel wurde ausgerechnet der tiefste pers\u00f6nliche Schmerz, der Vorwurf h\u00e4uslicher Gewalt und der jahrelange Rufschaden, zu einem \u00f6ffentlichen Schauspiel &ndash; eine Situation, die viele Menschen um jeden Preis vermieden h\u00e4tten, die Depp aber, gest\u00fctzt von einer riesigen \u00f6ffentlichen Anteilnahme, bis zum Ende durchstand und f\u00fcr sich entschied.</p>
+          <p class="vb-intro">Bemerkenswert war dabei, wie sehr Depp w\u00e4hrend des Prozesses selbst als Figur inszeniert wurde &ndash; von seinen Anh\u00e4ngern als tragischer Held gefeiert, mit Fanartikeln, Memes und einer regelrechten Fankultur um seine Gerichtsauftritte. Die soziale Vier mit Dreierfl\u00fcgel fand hier, in einer der dunkelsten Phasen seines Lebens, paradoxerweise die gr\u00f6\u00dfte \u00f6ffentliche B\u00fchne ihrer Karriere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w3 ist die F\u00e4higkeit, <strong>tiefes Gef\u00fchl in wirkungsvolle Kunst</strong> zu verwandeln &ndash; Figuren zu erschaffen, die trotz aller Exzentrik ein Millionenpublikum ber\u00fchren, weil in ihnen echte Verletzlichkeit steckt. Depps beste Rollen leben genau von diesem Wagnis, sich vollst\u00e4ndig in eine Figur hineinzugeben, ohne R\u00fccksicht auf das eigene Image zu nehmen.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in den \u00f6ffentlich dokumentierten exzessiven Lebensphasen &ndash; Alkohol- und Substanzmissbrauch, finanzielle Turbulenzen trotz enormer Gagen, zerbrochene Beziehungen. Die Kehrseite der SO4w3: Wenn die B\u00fchne zur einzigen Best\u00e4tigungsquelle wird, kann die Grenze zwischen echtem Selbstausdruck und reiner Inszenierung verschwimmen &ndash; und das Bed\u00fcrfnis nach Anerkennung wird nie ganz gestillt, egal wie gro\u00df der Applaus ausf\u00e4llt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das G\u00fcrteltier, das seinen Panzer zur Kunstform machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Johnny Depp bleibt einer der eigenwilligsten Schauspieler seiner Generation &ndash; ein K\u00fcnstler, der immer wieder bereit war, kommerziellen Erfolg f\u00fcr k\u00fcnstlerisches Risiko zu opfern, und der genau dadurch zu einem der einflussreichsten Charakterdarsteller Hollywoods wurde. Sein Werk zeigt eindrucksvoll, wie aus tief empfundener Isolation eine Galerie unvergesslicher Au\u00dfenseiterfiguren entstehen kann.</p>
+          <p class="vb-intro">Das G\u00fcrteltier, das sein Anderssein nie versteckte, sondern zur schillerndsten B\u00fchnenfigur seiner Zeit machte &ndash; das ist das bleibende Bild der sozialen Vier mit Dreierfl\u00fcgel: Verletzlichkeit, die sich nicht zur\u00fcckzieht, sondern hinaustritt ins Rampenlicht, um dort gesehen zu werden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
+        {route:"beruehmte-til-schweiger", label:"Portr\xe4t: Til Schweiger (SO4w3)"},
+        {route:"beruehmte-romy-schneider", label:"Portr\xe4t: Romy Schneider (SO4w3)"},
       ])}
     </div>
   `);
@@ -80985,6 +81055,7 @@ function render() {
     "beruehmte-gerhard-schroeder": gerhardSchroederPortraitPage,
     "beruehmte-konrad-adenauer": konradAdenauerPortraitPage,
     "beruehmte-edgar-allan-poe": edgarAllanPoePortraitPage,
+    "beruehmte-johnny-depp": johnnyDeppPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,

@@ -341,6 +341,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Til Schweiger – Social Type 4",
     teaser:"SO4w3 · born 1963. Actor, director & producer. The armadillo that hides behind a mask of coolness – carrying beneath it a deep longing for genuine recognition.",
     added:"2026-07-15", tags:["Film","Kunst"] },
+  { route:"beruehmte-johnny-depp", name:"Johnny Depp", added:"2026-08-09", subtyp:"SO4w3",
+    heading:"Johnny Depp – Social Type 4",
+    teaser:"SO4w3 · born 1963. Actor and musician. Captain Jack Sparrow, Edward Scissorhands, Hollywood Vampires. The armadillo that never hid its difference, but turned it into the most dazzling stage persona of its time.",
+    tags:["Film","Music"], gender:"m"},
   { route:"beruehmte-john-lennon", name:"John Lennon", subtyp:"SO4w5",
     heading:"John Lennon – Social Type 4",
     teaser:"SO4w5 · 1940–1980. Musician, composer, peace activist, co-founder of The Beatles. The armadillo that asked the world: Imagine there’s peace.",
@@ -17457,6 +17461,71 @@ function edgarAllanPoePortraitPage() {
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
         {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function johnnyDeppPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-johnny-depp-portrait.jpg" alt="Armadillo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johnny Depp</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">American actor and musician, born 1963 &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo on the Big Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four &ndash; a creature that does not hide its difference but wears it visibly on its skin. Unlike its more introverted counterparts, this Four does not retreat into its own shell but proudly displays it &ndash; as proof of its own uniqueness, on a stage everyone can see.</p>
+          <p class="vb-intro">Johnny Depp was born in 1963 in Owensboro, Kentucky, grew up in a childhood marked by frequent moves and family tension, and dropped out of school at 15 to become a musician. Before becoming an actor, he played in bands, including with musicians who later ended up in Guns N' Roses &ndash; the longing for artistic expression was, from the start, bigger than any conventional career plan. His breakthrough came in 1987 with the television series "21 Jump Street" &ndash; a role he himself considered, for the rest of his life, too polished a teen-idol image, one that never fit his sense of himself as an artist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: Uniqueness as a Work for the Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> does not live its difference in hiding but seeks out the group, precisely in order to be seen there as the tragic, special exception. Depp's entire career is one long flight from the mass-market appeal: again and again he chose eccentric, often difficult outsider figures &ndash; Edward Scissorhands, Ed Wood, Sweeney Todd, the Hatter in "Alice in Wonderland" &ndash; figures that all share one thing: a deeply felt isolation, paired with a dazzling, unmistakable exterior.</p>
+          <p class="vb-intro">Privately, too, Depp cultivated an unmistakable image for decades &ndash; rings on every finger, kohl eyeliner, hats, tattoos, a deliberately crafted rock-star persona that set him apart from the crowd even on the red carpet. This is typical of the social Four: one's own vulnerability is not hidden but transformed into an image that can fascinate others while also keeping them at a distance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Performance as a Way of Being</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Four the ability to successfully stage and market its uniqueness &ndash; the suffering remains real, but is condensed into a performance that reaches an audience of millions. No role shows this more clearly than Captain Jack Sparrow in "Pirates of the Caribbean": Depp developed the character on his own initiative, against the studio's wishes, into an eccentric, swaying rock-star pirate &ndash; an enormous artistic risk that grew into one of the most iconic characters in film history and one of cinema's biggest commercial successes.</p>
+          <p class="vb-intro">As a musician, too, Depp consistently sought the spotlight: in the supergroup Hollywood Vampires, he stood on major stages worldwide alongside Alice Cooper and Joe Perry. This mix of deep artistic ambition and an unconditional will to be present and recognized in front of an audience is the purest expression of the SO4w3: the Four feels it, the Three-wing performs it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Price of the Public Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2022, Depp stood trial in an internationally watched defamation case against his ex-wife Amber Heard &ndash; a proceeding broadcast live on television and social media, followed by millions of viewers worldwide. For the social Four with a Three-wing, of all things the deepest personal pain, the accusation of domestic violence, and years of reputational damage became a public spectacle &ndash; a situation many people would have avoided at any cost, but which Depp, buoyed by an enormous wave of public sympathy, endured and saw through to the end on his own terms.</p>
+          <p class="vb-intro">Remarkably, during the trial Depp himself became a staged figure &ndash; celebrated by his fans as a tragic hero, with merchandise, memes, and a genuine fan culture forming around his courtroom appearances. Here, in one of the darkest phases of his life, the social Four with a Three-wing paradoxically found the biggest public stage of its career.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w3 is the ability to turn <strong>deep feeling into powerful art</strong> &ndash; to create characters that, despite all their eccentricity, move audiences of millions because they carry genuine vulnerability within them. Depp's best roles thrive precisely on this willingness to fully surrender to a character, without regard for his own image.</p>
+          <p class="vb-intro">The shadow showed itself in publicly documented periods of excess &ndash; alcohol and substance abuse, financial turbulence despite enormous fees, broken relationships. The flip side of the SO4w3: when the stage becomes the only source of validation, the line between genuine self-expression and pure performance can blur &ndash; and the need for recognition is never fully satisfied, no matter how loud the applause.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Armadillo That Turned Its Shell Into Art</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Johnny Depp remains one of the most idiosyncratic actors of his generation &ndash; an artist repeatedly willing to sacrifice commercial success for artistic risk, and precisely because of that one of Hollywood's most influential character actors. His body of work shows impressively how deeply felt isolation can give rise to a gallery of unforgettable outsider figures.</p>
+          <p class="vb-intro">The armadillo that never hid its difference, but turned it into the most dazzling stage persona of its time &ndash; that is the lasting image of the social Four with a Three-wing: vulnerability that does not withdraw but steps out into the spotlight to be seen there.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
+        {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
       ])}
     </div>
   `);
@@ -46935,6 +47004,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-gerhard-schroeder": gerhardSchroederPortraitPage,
       "beruehmte-konrad-adenauer": konradAdenauerPortraitPage,
       "beruehmte-edgar-allan-poe": edgarAllanPoePortraitPage,
+      "beruehmte-johnny-depp": johnnyDeppPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,
