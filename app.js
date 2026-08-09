@@ -203,6 +203,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Friedrich Merz – Sozialer Typ 1",
     teaser:"SO1w9 · „Die Gans“, geb. 1955. Bundeskanzler, CDU-Vorsitzender, Jurist. Prinzip vor Pragmatismus, Ordnung als moralische Frage – und die Geduld, jahrelang zu warten, bis die Stunde kommt. Tierentsprechung: Gans.",
     tags:["Politik"] , gender:"m"},
+  { route:"beruehmte-adam-smith", name:"Adam Smith", added:"2026-08-09", subtyp:"SO1w9",
+    heading:"Adam Smith – Sozialer Typ 1",
+    teaser:"SO1w9 · 1723–1790. Schottischer Moralphilosoph und Ökonom, Theory of Moral Sentiments, Wealth of Nations. Die Gans, die eine gerechtere Ordnung suchte – und deren Treue zu ihrem Freund David Hume sie den eigenen guten Ruf kostete.",
+    tags:["Philosophie","Wirtschaft"], gender:"m"},
   { route:"beruehmte-jordan-peterson", name:"Jordan Peterson", subtyp:"SO1w9",
     heading:"Jordan Peterson – Sozialer Typ 1",
     teaser:"SO1w9 · geb. 1962. Psychologe, Autor, Vortragsredner. Die Gans, die Ordnung predigt – weil sie das Chaos aus eigener Erfahrung kennt und weiß, was es kostet, wenn Struktur fehlt.",
@@ -14355,6 +14359,72 @@ function davidHumePortraitPage() {
         {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"beruehmte-adam-smith", label:"Portr\xe4t: Adam Smith (SO1w9) – sein enger Freund"},
+      ])}
+    </div>
+  `);
+}
+
+function adamSmithPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-adam-smith-portrait.jpg" alt="Gans" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Adam Smith</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schottischer Moralphilosoph und Ökonom, 1723&ndash;1790 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die eine moralische Ordnung entwarf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; wachsam, prinzipientreu, unbestechlich in ihrem Sinn für Recht und Unrecht. Sie fliegt nicht für sich allein, sondern hält die Formation zusammen und wacht darüber, dass alle sich an die Regeln halten, die das Gemeinwohl sichern.</p>
+          <p class="vb-intro">Adam Smith wurde 1723 in Kirkcaldy, Schottland, geboren, wenige Monate nach dem Tod seines Vaters. Er wuchs bei seiner Mutter auf, zu der er zeitlebens eine enge Bindung behielt, studierte in Glasgow und Oxford und wurde 1751 Professor für Logik, ein Jahr später für Moralphilosophie in Glasgow. Zeitgenossen beschrieben ihn als zerstreut, bescheiden, fast schüchtern im persönlichen Umgang &ndash; und zugleich als einen der schärfsten Beobachter menschlichen Verhaltens seiner Zeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Gerechtigkeit als Ordnungsprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> sucht Vollkommenheit nicht im Privaten, sondern im gesellschaftlichen Rahmen &ndash; sie will die Welt gerechter, geordneter, moralisch stimmiger machen. Smiths erstes großes Werk, <em>The Theory of Moral Sentiments</em> (1759), fragt genau danach: Wie entsteht Moral in einer Gesellschaft, in der Menschen einander beobachten und beurteilen? Seine Antwort &ndash; der &bdquo;unparteiische Beobachter&ldquo; in uns, der unser Handeln an einem inneren Maßstab misst &ndash; ist die Stimme der inneren Kritikerin der Eins, nach außen gewendet und zum philosophischen System erhoben.</p>
+          <p class="vb-intro">Siebzehn Jahre später folgte <em>An Inquiry into the Nature and Causes of the Wealth of Nations</em> (1776), das Gründungswerk der modernen Ökonomie. Auch hier: die Suche nach der richtigen Ordnung &ndash; diesmal nicht der Moral, sondern des Marktes. Smith wollte zeigen, wie aus dem Eigeninteresse Vieler durch faire Regeln ein gerechtes Ganzes entstehen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Versöhnung statt Anklage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> mildert die Schärfe der reinen Eins zu einer versöhnlicheren, geduldigeren Haltung. Wo eine reine Eins mit dem moralischen Zeigefinger anklagt, sucht die SO1w9 den Ausgleich &ndash; sie will überzeugen, nicht bestrafen. Smiths berühmtestes Bild, die &bdquo;unsichtbare Hand&ldquo;, ist genau das: kein Aufruf zum Kampf der Interessen, sondern das Vertrauen, dass geordnetes Eigeninteresse, richtig gerahmt, von selbst zu einem größeren Guten findet.</p>
+          <p class="vb-intro">Auch sein Lehrstil war von dieser Milde geprägt: Smith war als Professor in Glasgow so beliebt, dass Studenten ihn nach seinem Rücktritt noch Jahre später baten, weiterzulehren. Kein donnernder Moralist, sondern ein geduldiger Ordner der Gedanken &ndash; die Eins mit der Gelassenheit der Neun im Rücken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Elefant und die Gans: Freundschaft mit David Hume</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Smiths engste und prägendste Freundschaft galt <a href="#beruehmte-david-hume">David Hume</a> (SE9w8) &ndash; sie lernten sich um 1750 in intellektuellen Zirkeln in Edinburgh kennen und blieben bis zu Humes Tod 1776 eng verbunden, tauschten Manuskripte aus, kritisierten und ermutigten sich gegenseitig über Jahrzehnte. Zwei sehr unterschiedliche Temperamente: der gelassene, unerschütterliche Elefant Hume, der öffentliche Empörung mit heiterer Ruhe hinnahm &ndash; und die pflichtbewusste, auf ihren Ruf bedachte Gans Smith, für die gesellschaftliche Anerkennung und moralische Integrität untrennbar waren.</p>
+          <p class="vb-intro">Diese Differenz wurde zur eigentlichen Problematik der Freundschaft: Als Hume 1776 im Sterben lag, besuchte Smith ihn wiederholt und war tief beeindruckt von dessen Gelassenheit angesichts des Todes. Nach Humes Tod veröffentlichte Smith einen öffentlichen Brief, in dem er seinen Freund als einen Menschen beschrieb, der der Weisheit und Tugend so nahekomme, wie es die menschliche Natur erlaube &ndash; ein Lob, das angesichts von Humes bekanntem religiösen Skeptizismus einen Sturm der Entrüstung auslöste. Smith wurde öffentlich als Verteidiger des Unglaubens attackiert; er schrieb später, dieser kurze Brief habe ihm mehr Anfeindungen eingebracht als sein gesamtes Werk über den Wohlstand der Nationen. Für die soziale Eins, die auf Anerkennung und moralische Integrität angewiesen ist, war das ein schmerzhafter Preis &ndash; und zugleich der Beweis, dass ihm die Loyalität zum Freund wichtiger war als die eigene Reputation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 ist die Fähigkeit, <strong>Prinzipientreue mit Versöhnlichkeit</strong> zu verbinden &ndash; eine Gerechtigkeit, die nicht anklagt, sondern durch überzeugende Ordnung wirkt. Smiths Vision einer moralisch fundierten Marktordnung wollte beides zugleich: Freiheit des Einzelnen und Verantwortung für das Ganze.</p>
+          <p class="vb-intro">Der Schatten: Smiths Werk wurde später oft auf die reine Verteidigung des Eigeninteresses reduziert &ndash; unter Verlust seiner moralischen Rahmung aus der <em>Theory of Moral Sentiments</em>. Die Kehrseite der SO1w9 zeigt sich hier: die Sorge um das große Ganze kann so sehr im System aufgehen, dass die eigene, differenzierte Position im Nachhinein vereinfacht und instrumentalisiert wird &ndash; etwas, gegen das sich der zurückhaltende, versöhnliche Smith kaum mehr wehren konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Gans, die eine gerechtere Ordnung hinterließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Adam Smith starb 1790 in Edinburgh, unverheiratet, kinderlos, und verfügte kurz vor seinem Tod, dass fast alle seine unveröffentlichten Manuskripte verbrannt werden sollten &ndash; ein letzter Akt der Kontrolle über das eigene Bild, typisch für die Eins, die lieber nichts Unfertiges hinterlässt als etwas Unvollkommenes. Was blieb, war ordentlich, durchdacht, zu Ende gebracht.</p>
+          <p class="vb-intro">Wie sein Freund Hume liegt auch Smith auf dem Canongate Kirkyard in Edinburgh begraben &ndash; nur wenige Hundert Meter von dessen Grabmal entfernt. Zwei Denker, die sich im Leben ergänzten wie Elefant und Gans: der eine gelassen im Zweifel, der andere beharrlich auf der Suche nach der gerechten Ordnung &ndash; und beide bis zuletzt einander treu.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-friedrich-merz", label:"Portr\xe4t: Friedrich Merz (SO1w9)"},
+        {route:"beruehmte-david-hume", label:"Portr\xe4t: David Hume (SE9w8) – sein enger Freund"},
       ])}
     </div>
   `);
@@ -49367,6 +49437,7 @@ function render() {
           "beruehmte-eli-jaxon-bear": eliJaxonBearPortraitPage,
           "beruehmte-angela-merkel": angelaMerkelPortraitPage,
     "beruehmte-david-hume": davidHumePortraitPage,
+    "beruehmte-adam-smith": adamSmithPortraitPage,
     "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
           "beruehmte-abida-parveen": abidaParveenPortraitPage,
           "beruehmte-kevin-costner": kevinCostnerPortraitPage,

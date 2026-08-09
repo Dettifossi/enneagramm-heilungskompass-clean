@@ -201,6 +201,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Friedrich Merz – Social Type 1",
     teaser:"SO1w9 · “The Goose”, born 1955. Federal Chancellor, CDU chairman, lawyer. Principle over pragmatism, order as a moral question – and the patience to wait years for the right moment. Animal correspondence: Goose.",
     tags:["Politik"] },
+  { route:"beruehmte-adam-smith", name:"Adam Smith", subtyp:"SO1w9",
+    heading:"Adam Smith – Social Type 1",
+    teaser:"SO1w9 · 1723–1790. Scottish moral philosopher and economist, Theory of Moral Sentiments, Wealth of Nations. The goose that sought a juster order – and whose loyalty to his friend David Hume cost him his own good name.",
+    added:"2026-08-09", tags:["Philosophie","Wirtschaft"] },
   { route:"beruehmte-jordan-peterson", name:"Jordan Peterson", subtyp:"SO1w9",
     heading:"Jordan Peterson – Social Type 1",
     teaser:"SO1w9 · born 1962. Psychologist, author, public speaker. The goose that preaches order – because it knows chaos from personal experience and understands the cost of missing structure.",
@@ -22661,6 +22665,72 @@ function davidHumePortraitPage() {
         {route:"subtype/se9", label:"SE9 – The Elephant: Subtype Profile"},
         {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"beruehmte-adam-smith", label:"Portrait: Adam Smith (SO1w9) – his close friend"},
+      ])}
+    </div>
+  `);
+}
+
+function adamSmithPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-adam-smith-portrait.jpg" alt="Goose" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Adam Smith</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Scottish moral philosopher and economist, 1723&ndash;1790 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose Who Designed a Moral Order</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; watchful, principled, incorruptible in its sense of right and wrong. It doesn&#39;t fly for itself alone: it holds the formation together and watches over the rules that keep the common good intact.</p>
+          <p class="vb-intro">Adam Smith was born in 1723 in Kirkcaldy, Scotland, a few months after his father&#39;s death. He was raised by his mother, to whom he remained closely bound throughout his life, studied at Glasgow and Oxford, and became a professor of logic in 1751 and of moral philosophy the following year, in Glasgow. Contemporaries described him as absent-minded, modest, almost shy in person &ndash; and at the same time as one of the sharpest observers of human behavior of his age.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Justice as a Principle of Order</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> seeks perfection not in the private sphere but in the social order &ndash; it wants to make the world more just, more orderly, more morally coherent. Smith&#39;s first major work, <em>The Theory of Moral Sentiments</em> (1759), asks exactly that: how does morality arise in a society where people constantly observe and judge one another? His answer &ndash; the &bdquo;impartial spectator&ldquo; within us, measuring our conduct against an inner standard &ndash; is the One&#39;s inner critic, turned outward and elevated into a philosophical system.</p>
+          <p class="vb-intro">Seventeen years later came <em>An Inquiry into the Nature and Causes of the Wealth of Nations</em> (1776), the founding work of modern economics. Here too: the search for the right order &ndash; this time not of morality, but of the market. Smith wanted to show how the self-interest of the many, channeled through fair rules, could produce a just whole.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: Reconciliation Instead of Accusation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> softens the sharp edges of the pure One into a more conciliatory, more patient stance. Where a pure One accuses with a raised moral finger, the SO1w9 seeks balance &ndash; it wants to persuade, not punish. Smith&#39;s most famous image, the &bdquo;invisible hand,&ldquo; is exactly that: not a call to the battle of interests, but a trust that self-interest, properly framed by rules, will find its own way to a greater good.</p>
+          <p class="vb-intro">His teaching style carried the same gentleness: Smith was so beloved as a professor in Glasgow that students, years after his resignation, still asked him to keep teaching. No thundering moralist, but a patient orderer of thought &ndash; the One with the Nine&#39;s calm at its back.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Elephant and the Goose: Friendship with David Hume</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Smith&#39;s closest and most formative friendship was with <a href="#beruehmte-david-hume">David Hume</a> (SE9w8) &ndash; they met around 1750 in Edinburgh&#39;s intellectual circles and remained closely bound until Hume&#39;s death in 1776, exchanging manuscripts, criticizing and encouraging each other across decades. Two very different temperaments: the calm, unshakeable elephant Hume, who met public outrage with cheerful serenity &ndash; and the dutiful, reputation-conscious goose Smith, for whom social standing and moral integrity were inseparable.</p>
+          <p class="vb-intro">That difference became the friendship&#39;s real difficulty: when Hume lay dying in 1776, Smith visited him repeatedly and was deeply struck by his composure in the face of death. After Hume&#39;s death, Smith published a public letter describing his friend as a man who approached as near the idea of a perfectly wise and virtuous person as the frailty of human nature would permit &ndash; praise that, given Hume&#39;s well-known religious skepticism, ignited a storm of outrage. Smith was publicly attacked as a defender of unbelief; he later wrote that this short letter had brought him more abuse than his entire work on the wealth of nations. For the social One, dependent on recognition and moral integrity, that was a painful price &ndash; and at the same time proof that loyalty to his friend mattered more to him than his own reputation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1w9 is its ability to combine <strong>principled conviction with a conciliatory spirit</strong> &ndash; a justice that doesn&#39;t accuse but persuades through convincing order. Smith&#39;s vision of a morally grounded market order wanted both at once: freedom for the individual and responsibility for the whole.</p>
+          <p class="vb-intro">The shadow: Smith&#39;s work was later often reduced to a pure defense of self-interest &ndash; stripped of the moral framing from <em>The Theory of Moral Sentiments</em>. The flip side of the SO1w9 shows here: concern for the greater whole can become so absorbed into the system that one&#39;s own, more nuanced position is later simplified and instrumentalized &ndash; something the reserved, conciliatory Smith could do little to resist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Goose Who Left Behind a Juster Order</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Adam Smith died in 1790 in Edinburgh, unmarried, childless, and shortly before his death instructed that nearly all his unpublished manuscripts be burned &ndash; a final act of control over his own image, typical of the One, who would rather leave nothing unfinished than something imperfect. What remained was orderly, considered, complete.</p>
+          <p class="vb-intro">Like his friend Hume, Smith is buried in Canongate Kirkyard in Edinburgh &ndash; just a few hundred meters from Hume&#39;s own grave. Two thinkers who complemented each other in life like elephant and goose: one calm in doubt, the other persistent in the search for a just order &ndash; and both faithful to each other to the end.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
+        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8) – his close friend"},
       ])}
     </div>
   `);
@@ -46361,6 +46431,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
       "beruehmte-eli-jaxon-bear": eliJaxonBearPortraitPage,
       "beruehmte-david-hume": davidHumePortraitPage,
+      "beruehmte-adam-smith": adamSmithPortraitPage,
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
       "beruehmte-abida-parveen": abidaParveenPortraitPage,
       "beruehmte-steffi-graf": steffiGrafPortraitPage,
