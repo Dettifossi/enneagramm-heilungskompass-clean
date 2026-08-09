@@ -353,6 +353,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Fiona Apple – Social Type 4",
     teaser:"SO4w5 · born 1977. Musician & songwriter. From the 1997 MTV Awards speech to 'Fetch the Bolt Cutters' – the armadillo that turns shame into a brutally honest voice.",
     tags:["Musik"] , gender:"f"},
+  { route:"beruehmte-edgar-allan-poe", name:"Edgar Allan Poe", added:"2026-08-09", subtyp:"SO4w5",
+    heading:"Edgar Allan Poe – Social Type 4",
+    teaser:"SO4w5 · 1809–1849. American writer, inventor of the detective story, master of literary horror. The Raven, The Tell-Tale Heart. The armadillo whose shell of pain and isolation became an art form.",
+    tags:["Literature"], gender:"m"},
   { route:"beruehmte-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3",
     heading:"Freddie Mercury – Sexual Type 4",
     teaser:"SX4w3 · 1946–1991. Rock singer, songwriter, co-founder of Queen. Bohemian Rhapsody, Live Aid 1985. The chihuahua that knew no fear – and made the stage a home.",
@@ -17388,6 +17392,71 @@ function konradAdenauerPortraitPage() {
         {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SO8w9) – Chancellor"},
+      ])}
+    </div>
+  `);
+}
+
+function edgarAllanPoePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-edgar-allan-poe-portrait.jpg" alt="Armadillo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Edgar Allan Poe</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">American writer, 1809&ndash;1849 &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo That Withdrew Into the Night</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four &ndash; a creature that, when threatened, doesn't flee but withdraws into its own shell, preferring to live hidden rather than expose itself to the glare of the public eye. It wears its difference visibly on its skin &ndash; and precisely there lies its quiet dignity.</p>
+          <p class="vb-intro">Edgar Allan Poe was born in 1809 in Boston, lost both biological parents by the age of not quite three, and grew up in the household of the merchant family Allan in Richmond &ndash; never formally adopted, always a foreign body in his own home. This early experience of loss and non-belonging runs through his entire body of work like a red thread. His life was marked by poverty, failed positions, early fame, and equally early collapse &ndash; a rollercoaster that kept his personality oscillating for life between brilliant literary sharpness and deep despair.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: Chosen Suffering</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> differs from the other Four subtypes in that it does not hide its suffering but almost puts it on display &ndash; it sees itself as the tragic exception within the group, feeling and suffering more deeply than others by nature. Poe cultivated this self-image deliberately: he staged himself as the artist misunderstood by fate and society, surrounded by critics unwilling to recognize his genius &ndash; and indeed he was often derided during his lifetime, while his work only found full recognition after his death.</p>
+          <p class="vb-intro">This attitude also shows in his famous essay "The Philosophy of Composition" (1846), in which he called the "death of a beautiful woman" the most poetical topic of all &ndash; a coolly analytical defense of something that was, for him, deeply personal at the same time: the loss of beloved women shaped his entire life, from his biological mother to his adoptive mother to his young wife Virginia, who died of tuberculosis in 1847.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: The Analytical Gaze Into the Abyss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four a cool, observing distance from its own abysses &ndash; feeling is not just lived through but simultaneously dissected, analyzed, put into language. Poe was not only a master of the macabre but also a sharp thinker: with "The Murders in the Rue Morgue" (1841), he essentially invented the literary detective story single-handedly, a genre built on pure, methodical reason &ndash; from the pen of a man whose own inner life seemed so uncontrollable.</p>
+          <p class="vb-intro">This combination of abyss and analysis is the signature of the SO4w5: in stories like "The Tell-Tale Heart" or "The Fall of the House of Usher," horror is not merely asserted but dissected with almost clinical precision from a first-person perspective &ndash; the narrator observes his own madness even as he succumbs to it. It is precisely this simultaneous feeling and observing that makes Poe's work so distinctive to this day.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A Body of Work as a Mirror of His Own Wound</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With "The Raven" (1845), Poe created one of the most famous poems in American literary history &ndash; a work about inconsolable grief, embodied in the refrain "Nevermore," which snuffs out any hope of comfort in the bud. The raven that sits on the bust and never flies away is an image for exactly what the social Four both fears and seeks: the feeling of being permanently marked by one's own loss &ndash; and, within that, recognizing something deeply significant.</p>
+          <p class="vb-intro">As a literary critic, too, Poe was feared for his uncompromising sharpness &ndash; he tore into prominent contemporaries without regard for their reputation, earning him the nickname "Tomahawk Man." This uncompromising judgment was the flip side of his own demand for authenticity: someone who does not pretend himself forgives no pretense in others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w5 is the ability to combine <strong>deep feeling with analytical formal power</strong> &ndash; pain is not merely expressed but condensed into a literary form that moves other people because they recognize their own hidden suffering in it. Poe's invention of the modern horror and detective genres is owed exactly to this rare combination.</p>
+          <p class="vb-intro">The shadow showed itself in alcohol dependency, financial hardship, and social isolation that accompanied his entire adult life. Poe died in 1849 under circumstances still unexplained to this day in Baltimore &ndash; found confused, in someone else's clothes, just days before his death. The flip side of the social Four: the feeling of being fundamentally different and not belonging can become so entrenched that, in the end, even the simplest supports of an ordered life &ndash; a home, financial security, reliable relationships &ndash; remain out of reach.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Armadillo Whose Shell Became an Art Form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Often misunderstood during his lifetime, Edgar Allan Poe became one of the most influential writers in world literature after his death &ndash; revered and translated by Baudelaire in France, admired by Dostoevsky, and to this day a model for genres he essentially invented himself: the detective story, the psychological horror story, the unreliable narrator as a literary form.</p>
+          <p class="vb-intro">The armadillo that withdrew into its own shell of pain and isolation during its lifetime let precisely that shell become, in the end, a body of work that carries it outward &ndash; art that still moves us today because it does not repress the darkness but looks at it with unrelenting clarity.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
+        {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5)"},
       ])}
     </div>
   `);
@@ -46865,6 +46934,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-helmut-kohl": helmutKohlPortraitPage,
       "beruehmte-gerhard-schroeder": gerhardSchroederPortraitPage,
       "beruehmte-konrad-adenauer": konradAdenauerPortraitPage,
+      "beruehmte-edgar-allan-poe": edgarAllanPoePortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,

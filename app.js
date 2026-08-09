@@ -467,6 +467,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Fiona Apple – Sozialer Typ 4",
     teaser:"SO4w5 · geb. 1977. Musikerin & Songwriterin. Von der MTV-Award-Rede 1997 bis zu ›Fetch the Bolt Cutters‹ – das Gürteltier, das Scham in eine schonungslos ehrliche Sprache verwandelt.",
     tags:["Musik"] , gender:"f"},
+  { route:"beruehmte-edgar-allan-poe", name:"Edgar Allan Poe", added:"2026-08-09", subtyp:"SO4w5",
+    heading:"Edgar Allan Poe – Sozialer Typ 4",
+    teaser:"SO4w5 · 1809–1849. Amerikanischer Schriftsteller, Erfinder der Detektivgeschichte, Meister des literarischen Schauerlichen. The Raven, The Tell-Tale Heart. Das Gürteltier, dessen Panzer aus Schmerz und Isolation zur Kunstform wurde.",
+    tags:["Literatur"], gender:"m"},
   { route:"beruehmte-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3",
     heading:"Freddie Mercury – Sexueller Typ 4",
     teaser:"SX4w3 · 1946–1991. Rocksänger, Songwriter, Mitbegründer von Queen. Bohemian Rhapsody, Live Aid 1985. Der Chihuahua, der keine Angst kannte – und der Bühne eine Heimat gab.",
@@ -14528,6 +14532,71 @@ function konradAdenauerPortraitPage() {
         {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portr\xe4t: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-helmut-kohl", label:"Portr\xe4t: Helmut Kohl (SO8w9) – Bundeskanzler"},
+      ])}
+    </div>
+  `);
+}
+
+function edgarAllanPoePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-edgar-allan-poe-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Edgar Allan Poe</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Schriftsteller, 1809&ndash;1849 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier, das sich in die Nacht zurückzog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier &ndash; ein Wesen, das sich bei Bedrohung nicht in die Flucht, sondern in den eigenen Panzer zurückzieht, und das lieber im Verborgenen lebt, als sich der grellen Öffentlichkeit auszusetzen. Es trägt sein Anderssein sichtbar auf der Haut &ndash; und genau darin liegt seine stille Würde.</p>
+          <p class="vb-intro">Edgar Allan Poe wurde 1809 in Boston geboren, verlor mit knapp drei Jahren beide leiblichen Eltern und wuchs bei der Kaufmannsfamilie Allan in Richmond auf &ndash; nie offiziell adoptiert, immer ein Fremdkörper im eigenen Zuhause. Diese frühe Erfahrung des Verlusts und der Nichtzugehörigkeit durchzieht sein gesamtes Werk wie ein roter Faden. Sein Leben war von Armut, gescheiterten Anstellungen, frühem Ruhm und ebenso frühem Absturz geprägt &ndash; ein Wechselbad, das seine Persönlichkeit lebenslang zwischen brillanter literarischer Schärfe und tiefer Verzweiflung schwanken ließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Das auserwählte Leid</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> unterscheidet sich von den anderen Vierer-Subtypen dadurch, dass sie ihr Leiden nicht verbirgt, sondern es fast zur Schau stellt &ndash; sie versteht sich als die tragische Ausnahme innerhalb der Gruppe, die von Natur aus tiefer fühlt und tiefer leidet als andere. Poe kultivierte dieses Selbstbild bewusst: Er inszenierte sich als der von Schicksal und Gesellschaft verkannte Künstler, umgeben von Kritikern, die sein Genie nicht erkennen wollten &ndash; und tatsächlich wurde er zu Lebzeiten oft geschmäht, während sein Werk erst nach seinem Tod die volle Anerkennung fand.</p>
+          <p class="vb-intro">Diese Haltung zeigt sich auch in seinem berühmten Essay &bdquo;The Philosophy of Composition&ldquo; (1846), in dem er den &bdquo;Tod einer schönen Frau&ldquo; als das poetischste aller Themen bezeichnete &ndash; eine kühl-analytische Verteidigung dessen, was für ihn zugleich zutiefst persönlich war: der Verlust geliebter Frauen prägte sein ganzes Leben, von der leiblichen Mutter über seine Adoptivmutter bis zu seiner jungen Ehefrau Virginia, die 1847 an Tuberkulose starb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Der analytische Blick in den Abgrund</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier eine kühle, beobachtende Distanz zu den eigenen Abgründen &ndash; das Gefühl wird nicht nur durchlebt, sondern zugleich seziert, analysiert, in Sprache gefasst. Poe war nicht nur ein Meister des Schauerlichen, sondern auch ein scharfer Denker: Mit &bdquo;The Murders in the Rue Morgue&ldquo; (1841) erfand er praktisch im Alleingang die literarische Detektivgeschichte, ein Genre, das auf reiner, methodischer Ratio beruht &ndash; ausgerechnet aus der Feder eines Mannes, dessen eigenes Innenleben so wenig kontrollierbar schien.</p>
+          <p class="vb-intro">Diese Verbindung aus Abgrund und Analyse ist die Signatur der SO4w5: In Geschichten wie &bdquo;The Tell-Tale Heart&ldquo; oder &bdquo;The Fall of the House of Usher&ldquo; wird das Grauen nicht einfach behauptet, sondern mit fast klinischer Präzision aus der Ich-Perspektive seziert &ndash; der Erzähler beobachtet seinen eigenen Wahnsinn, während er ihm verfällt. Genau dieses gleichzeitige Fühlen und Beobachten macht Poes Werk bis heute so unverwechselbar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein Werk als Spiegel der eigenen Wunde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Poe schuf mit &bdquo;The Raven&ldquo; (1845) eines der bekanntesten Gedichte der amerikanischen Literaturgeschichte &ndash; ein Werk über unstillbare Trauer, verkörpert im Refrain &bdquo;Nevermore&ldquo;, der jede Hoffnung auf Trost im Keim erstickt. Der Rabe, der auf der Büste sitzt und niemals fortfliegt, ist ein Bild für genau das, was die soziale Vier fürchtet und zugleich sucht: das Gefühl, auf ewig vom eigenen Verlust gezeichnet zu sein &ndash; und darin zugleich etwas zutiefst Bedeutsames zu erkennen.</p>
+          <p class="vb-intro">Auch als Literaturkritiker war Poe gefürchtet für seine kompromisslose Schärfe &ndash; er verriss namhafte Zeitgenossen ohne Rücksicht auf deren Ruf, was ihm den Beinamen &bdquo;Tomahawk Man&ldquo; einbrachte. Diese Kompromisslosigkeit im Urteil war die Kehrseite seines eigenen Anspruchs an Authentizität: Wer selbst nichts verstellt, verzeiht auch anderen keine Verstellung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 ist die Fähigkeit, <strong>tiefes Gefühl mit analytischer Formkraft</strong> zu verbinden &ndash; Schmerz wird nicht nur ausgedrückt, sondern zu einer literarischen Form verdichtet, die andere Menschen berührt, weil sie das eigene, verborgene Leid darin wiedererkennen. Poes Erfindung des modernen Horror- und Detektivgenres verdankt sich genau dieser seltenen Kombination.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in Alkoholabhängigkeit, finanzieller Not und sozialer Isolation, die sein gesamtes Erwachsenenleben begleiteten. Poe starb 1849 unter bis heute ungeklärten Umständen in Baltimore &ndash; verwirrt, in fremder Kleidung aufgefunden, wenige Tage vor seinem Tod. Die Kehrseite der sozialen Vier: Das Gefühl, grundlegend anders und nicht zugehörig zu sein, kann sich so tief verfestigen, dass am Ende selbst die einfachsten Stützen eines geregelten Lebens &ndash; ein Zuhause, finanzielle Sicherheit, verlässliche Beziehungen &ndash; unerreichbar bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Gürteltier, dessen Panzer zur Kunstform wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Lebzeiten oft verkannt, wurde Edgar Allan Poe nach seinem Tod zu einem der einflussreichsten Schriftsteller der Weltliteratur &ndash; von Baudelaire in Frankreich verehrt und übersetzt, von Dostojewski geschätzt, bis heute Vorbild für Genres, die er im Grunde selbst erfunden hat: die Detektivgeschichte, die psychologische Horrorgeschichte, das unzuverlässige Ich als Erzählform.</p>
+          <p class="vb-intro">Das Gürteltier, das sich zu Lebzeiten in den eigenen Panzer aus Schmerz und Isolation zurückzog, ließ genau darin ein Werk entstehen, das die Panzerung nach außen trug &ndash; als Kunstform, die bis heute berührt, weil sie das Dunkle nicht verdrängt, sondern mit unerbittlicher Klarheit betrachtet.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
+        {route:"beruehmte-fiona-apple", label:"Portr\xe4t: Fiona Apple (SO4w5)"},
       ])}
     </div>
   `);
@@ -49882,6 +49951,7 @@ function render() {
     "beruehmte-helmut-kohl": helmutKohlPortraitPage,
     "beruehmte-gerhard-schroeder": gerhardSchroederPortraitPage,
     "beruehmte-konrad-adenauer": konradAdenauerPortraitPage,
+    "beruehmte-edgar-allan-poe": edgarAllanPoePortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,

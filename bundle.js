@@ -24087,6 +24087,7 @@ const registerEntries = [
   { term: "Jan Ullrich",                   route: "beruehmte-jan-ullrich",                 description: "Portrait: SX6w7 \u00b7 Sexueller Typ 6 \u00b7 Tour-de-France-Sieger" },
   { term: "Jasmin Paolini",                route: "beruehmte-jasmin-paolini",              description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Tennisprofi, Wimbledon-Finalistin" },
   { term: "John Lennon",                   route: "beruehmte-john-lennon",                 description: "Portrait: SX4w5 \u00b7 Sexueller Typ 4 \u00b7 Beatle, Friedensaktivist" },
+  { term: "Edgar Allan Poe",               route: "beruehmte-edgar-allan-poe",             description: "Portrait: SO4w5 \u00b7 Sozialer Typ 4 \u00b7 Schriftsteller, Erfinder der Detektivgeschichte" },
   { term: "Jordan Peterson",               route: "beruehmte-jordan-peterson",             description: "Portrait: SX1w2 \u00b7 Sexueller Typ 1 \u00b7 Psychologe, Bestsellerautor" },
   { term: "J\u00fcrgen Klopp",               route: "beruehmte-juergen-klopp",               description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Fu\u00dfballtrainer, Liverpool, Leidenschaft" },
   { term: "Kai Pflaume",                   route: "beruehmte-kai-pflaume",                 description: "Portrait: SO2w3 \u00b7 Sozialer Typ 2 \u00b7 TV-Moderator, Empathie & Harmonie" },
@@ -24371,6 +24372,7 @@ const registerEntriesEN = [
   { term: "Jan Ullrich", route: "beruehmte-jan-ullrich", description: "Portrait: SX6w7 \u00b7 Sexual Type 6 \u00b7 Tour de France winner" },
   { term: "Jasmin Paolini", route: "beruehmte-jasmin-paolini", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Tennis pro, Wimbledon finalist" },
   { term: "John Lennon", route: "beruehmte-john-lennon", description: "Portrait: SX4w5 \u00b7 Sexual Type 4 \u00b7 Beatle, Peace activist" },
+  { term: "Edgar Allan Poe", route: "beruehmte-edgar-allan-poe", description: "Portrait: SO4w5 \u00b7 Social Type 4 \u00b7 Writer, inventor of the detective story" },
   { term: "Jordan Peterson", route: "beruehmte-jordan-peterson", description: "Portrait: SX1w2 \u00b7 Sexual Type 1 \u00b7 Psychologist, bestselling author" },
   { term: "J\u00fcrgen Klopp", route: "beruehmte-juergen-klopp", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Football manager, Liverpool, passion" },
   { term: "Kai Pflaume", route: "beruehmte-kai-pflaume", description: "Portrait: SO2w3 \u00b7 Social Type 2 \u00b7 TV host, empathy & harmony" },
@@ -31501,6 +31503,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Fiona Apple \u2013 Sozialer Typ 4",
     teaser:"SO4w5 \u00b7 geb. 1977. Musikerin & Songwriterin. Von der MTV-Award-Rede 1997 bis zu \u203aFetch the Bolt Cutters\u2039 \u2013 das G\u00fcrteltier, das Scham in eine schonungslos ehrliche Sprache verwandelt.",
     tags:["Musik"] , gender:"f"},
+  { route:"beruehmte-edgar-allan-poe", name:"Edgar Allan Poe", added:"2026-08-09", subtyp:"SO4w5",
+    heading:"Edgar Allan Poe \u2013 Sozialer Typ 4",
+    teaser:"SO4w5 \u00b7 1809\u20131849. Amerikanischer Schriftsteller, Erfinder der Detektivgeschichte, Meister des literarischen Schauerlichen. The Raven, The Tell-Tale Heart. Das G\u00fcrteltier, dessen Panzer aus Schmerz und Isolation zur Kunstform wurde.",
+    tags:["Literatur"], gender:"m"},
   { route:"beruehmte-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3",
     heading:"Freddie Mercury \u2013 Sexueller Typ 4",
     teaser:"SX4w3 \u00b7 1946\u20131991. Rocks\u00e4nger, Songwriter, Mitbegr\u00fcnder von Queen. Bohemian Rhapsody, Live Aid 1985. Der Chihuahua, der keine Angst kannte \u2013 und der B\u00fchne eine Heimat gab.",
@@ -45561,6 +45567,70 @@ function konradAdenauerPortraitPage() {
         {route:"subtype/se1", label:"SE1 \u2013 Der Adler: Subtyp-Profil"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portr\xe4t: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-helmut-kohl", label:"Portr\xe4t: Helmut Kohl (SO8w9) \u2013 Bundeskanzler"},
+      ])}
+    </div>
+  `);
+}
+function edgarAllanPoePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-edgar-allan-poe-portrait.jpg" alt="G\u00fcrteltier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Edgar Allan Poe</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit F\u00fcnferfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Schriftsteller, 1809&ndash;1849 &ndash; Tierentsprechung: G\u00fcrteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das G\u00fcrteltier, das sich in die Nacht zur\u00fcckzog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>G\u00fcrteltier</strong> ist das Tier der sozialen Vier &ndash; ein Wesen, das sich bei Bedrohung nicht in die Flucht, sondern in den eigenen Panzer zur\u00fcckzieht, und das lieber im Verborgenen lebt, als sich der grellen \u00d6ffentlichkeit auszusetzen. Es tr\u00e4gt sein Anderssein sichtbar auf der Haut &ndash; und genau darin liegt seine stille W\u00fcrde.</p>
+          <p class="vb-intro">Edgar Allan Poe wurde 1809 in Boston geboren, verlor mit knapp drei Jahren beide leiblichen Eltern und wuchs bei der Kaufmannsfamilie Allan in Richmond auf &ndash; nie offiziell adoptiert, immer ein Fremdk\u00f6rper im eigenen Zuhause. Diese fr\u00fche Erfahrung des Verlusts und der Nichtzugeh\u00f6rigkeit durchzieht sein gesamtes Werk wie ein roter Faden. Sein Leben war von Armut, gescheiterten Anstellungen, fr\u00fchem Ruhm und ebenso fr\u00fchem Absturz gepr\u00e4gt &ndash; ein Wechselbad, das seine Pers\u00f6nlichkeit lebenslang zwischen brillanter literarischer Sch\u00e4rfe und tiefer Verzweiflung schwanken lie\u00df.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Das auserw\u00e4hlte Leid</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> unterscheidet sich von den anderen Vierer-Subtypen dadurch, dass sie ihr Leiden nicht verbirgt, sondern es fast zur Schau stellt &ndash; sie versteht sich als die tragische Ausnahme innerhalb der Gruppe, die von Natur aus tiefer f\u00fchlt und tiefer leidet als andere. Poe kultivierte dieses Selbstbild bewusst: Er inszenierte sich als der von Schicksal und Gesellschaft verkannte K\u00fcnstler, umgeben von Kritikern, die sein Genie nicht erkennen wollten &ndash; und tats\u00e4chlich wurde er zu Lebzeiten oft geschm\u00e4ht, w\u00e4hrend sein Werk erst nach seinem Tod die volle Anerkennung fand.</p>
+          <p class="vb-intro">Diese Haltung zeigt sich auch in seinem ber\u00fchmten Essay &bdquo;The Philosophy of Composition&ldquo; (1846), in dem er den &bdquo;Tod einer sch\u00f6nen Frau&ldquo; als das poetischste aller Themen bezeichnete &ndash; eine k\u00fchl-analytische Verteidigung dessen, was f\u00fcr ihn zugleich zutiefst pers\u00f6nlich war: der Verlust geliebter Frauen pr\u00e4gte sein ganzes Leben, von der leiblichen Mutter \u00fcber seine Adoptivmutter bis zu seiner jungen Ehefrau Virginia, die 1847 an Tuberkulose starb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\u00fcnferfl\u00fcgel: Der analytische Blick in den Abgrund</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> verleiht der Vier eine k\u00fchle, beobachtende Distanz zu den eigenen Abgr\u00fcnden &ndash; das Gef\u00fchl wird nicht nur durchlebt, sondern zugleich seziert, analysiert, in Sprache gefasst. Poe war nicht nur ein Meister des Schauerlichen, sondern auch ein scharfer Denker: Mit &bdquo;The Murders in the Rue Morgue&ldquo; (1841) erfand er praktisch im Alleingang die literarische Detektivgeschichte, ein Genre, das auf reiner, methodischer Ratio beruht &ndash; ausgerechnet aus der Feder eines Mannes, dessen eigenes Innenleben so wenig kontrollierbar schien.</p>
+          <p class="vb-intro">Diese Verbindung aus Abgrund und Analyse ist die Signatur der SO4w5: In Geschichten wie &bdquo;The Tell-Tale Heart&ldquo; oder &bdquo;The Fall of the House of Usher&ldquo; wird das Grauen nicht einfach behauptet, sondern mit fast klinischer Pr\u00e4zision aus der Ich-Perspektive seziert &ndash; der Erz\u00e4hler beobachtet seinen eigenen Wahnsinn, w\u00e4hrend er ihm verf\u00e4llt. Genau dieses gleichzeitige F\u00fchlen und Beobachten macht Poes Werk bis heute so unverwechselbar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein Werk als Spiegel der eigenen Wunde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Poe schuf mit &bdquo;The Raven&ldquo; (1845) eines der bekanntesten Gedichte der amerikanischen Literaturgeschichte &ndash; ein Werk \u00fcber unstillbare Trauer, verk\u00f6rpert im Refrain &bdquo;Nevermore&ldquo;, der jede Hoffnung auf Trost im Keim erstickt. Der Rabe, der auf der B\u00fcste sitzt und niemals fortfliegt, ist ein Bild f\u00fcr genau das, was die soziale Vier f\u00fcrchtet und zugleich sucht: das Gef\u00fchl, auf ewig vom eigenen Verlust gezeichnet zu sein &ndash; und darin zugleich etwas zutiefst Bedeutsames zu erkennen.</p>
+          <p class="vb-intro">Auch als Literaturkritiker war Poe gef\u00fcrchtet f\u00fcr seine kompromisslose Sch\u00e4rfe &ndash; er verriss namhafte Zeitgenossen ohne R\u00fccksicht auf deren Ruf, was ihm den Beinamen &bdquo;Tomahawk Man&ldquo; einbrachte. Diese Kompromisslosigkeit im Urteil war die Kehrseite seines eigenen Anspruchs an Authentizit\u00e4t: Wer selbst nichts verstellt, verzeiht auch anderen keine Verstellung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 ist die F\u00e4higkeit, <strong>tiefes Gef\u00fchl mit analytischer Formkraft</strong> zu verbinden &ndash; Schmerz wird nicht nur ausgedr\u00fcckt, sondern zu einer literarischen Form verdichtet, die andere Menschen ber\u00fchrt, weil sie das eigene, verborgene Leid darin wiedererkennen. Poes Erfindung des modernen Horror- und Detektivgenres verdankt sich genau dieser seltenen Kombination.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in Alkoholabh\u00e4ngigkeit, finanzieller Not und sozialer Isolation, die sein gesamtes Erwachsenenleben begleiteten. Poe starb 1849 unter bis heute ungekl\u00e4rten Umst\u00e4nden in Baltimore &ndash; verwirrt, in fremder Kleidung aufgefunden, wenige Tage vor seinem Tod. Die Kehrseite der sozialen Vier: Das Gef\u00fchl, grundlegend anders und nicht zugeh\u00f6rig zu sein, kann sich so tief verfestigen, dass am Ende selbst die einfachsten St\u00fctzen eines geregelten Lebens &ndash; ein Zuhause, finanzielle Sicherheit, verl\u00e4ssliche Beziehungen &ndash; unerreichbar bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das G\u00fcrteltier, dessen Panzer zur Kunstform wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Lebzeiten oft verkannt, wurde Edgar Allan Poe nach seinem Tod zu einem der einflussreichsten Schriftsteller der Weltliteratur &ndash; von Baudelaire in Frankreich verehrt und \u00fcbersetzt, von Dostojewski gesch\u00e4tzt, bis heute Vorbild f\u00fcr Genres, die er im Grunde selbst erfunden hat: die Detektivgeschichte, die psychologische Horrorgeschichte, das unzuverl\u00e4ssige Ich als Erz\u00e4hlform.</p>
+          <p class="vb-intro">Das G\u00fcrteltier, das sich zu Lebzeiten in den eigenen Panzer aus Schmerz und Isolation zur\u00fcckzog, lie\u00df genau darin ein Werk entstehen, das die Panzerung nach au\u00dfen trug &ndash; als Kunstform, die bis heute ber\u00fchrt, weil sie das Dunkle nicht verdr\u00e4ngt, sondern mit unerbittlicher Klarheit betrachtet.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
+        {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
+        {route:"beruehmte-fiona-apple", label:"Portr\xe4t: Fiona Apple (SO4w5)"},
       ])}
     </div>
   `);
@@ -80914,6 +80984,7 @@ function render() {
     "beruehmte-helmut-kohl": helmutKohlPortraitPage,
     "beruehmte-gerhard-schroeder": gerhardSchroederPortraitPage,
     "beruehmte-konrad-adenauer": konradAdenauerPortraitPage,
+    "beruehmte-edgar-allan-poe": edgarAllanPoePortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,
