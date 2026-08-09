@@ -4268,7 +4268,7 @@ button.primary:hover::after {
 .diag-result__typ { font-size: 1.8rem; font-weight: 700; color: var(--copper, #a5603d); }
 .diag-scores { list-style: none; padding: 0; margin: 1rem 0; }
 .diag-scores li { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.45rem; font-size: 0.83rem; }
-.diag-scores__label { width: 5rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.diag-scores__label { flex: 0 0 7.5rem; width: 7.5rem; font-weight: 600; white-space: normal; overflow: visible; text-overflow: clip; line-height: 1.25; }
 .diag-scores__bar-wrap { flex: 1; height: 7px; background: rgba(114,102,90,0.15); border-radius: 3px; }
 .diag-scores__bar { height: 7px; border-radius: 3px; background: rgba(114,102,90,0.3); }
 .diag-scores li.is-top .diag-scores__bar { background: var(--copper, #a5603d); }
