@@ -46314,7 +46314,7 @@ function laenderzuordnungenPage() {
       <h2 class="bl-region__title">${r.region}</h2>
       <div class="bl-grid">
         ${r.laender.map(l => `
-          <div class="bl-card" id="ll-${l.iso}" data-ll-region="${r.region}" data-ll-typ="${l.typ}" data-ll-name="${l.name}">
+          <div class="bl-card" id="ll-${l.iso}" data-ll-region="${r.region}" data-ll-typ="${l.typ}" data-ll-name="${l.name}" data-ll-subtyp="${l.subtyp || ''}">
             <button class="bl-card__back" onclick="llBackToFilter()" aria-label="Zurück zur Länderauswahl" title="Zurück zur Länderauswahl">&uarr;</button>
             <div class="bl-card__badge" style="background:${typenFarben[l.typ] ?? 'var(--copper)'}">${flagEmoji(l.iso)} Typ ${l.typ}</div>
             <div class="bl-card__body">
@@ -46350,12 +46350,16 @@ function laenderzuordnungenPage() {
         +' data-ll-typ-btn="'+n+'" data-kf-col="'+(col||'')+'"'
         +style+' onclick="llSet(\'typ\','+n+')">'+(n===0?"Alle":n)+'</button>';
     };
+    const instinctLabels = {ALL:"Alle", se:"SE &middot; Selbsterhaltung", so:"SO &middot; Sozial", sx:"SX &middot; Sexuell"};
+    const instinctBtn = code => '<button class="kf-btn" data-ll-instinct-btn="'+code+'" onclick="llSet(\'instinct\',\''+code+'\')">'+instinctLabels[code]+'</button>';
     const allRegions = LAENDER_REGIONEN.map(r => r.region);
     return '<div class="kf-bar" id="ll-filter-bar">'
       +'<div class="kf-row"><span class="kf-label">Region</span>'
       +regionBtn("ALL")+allRegions.map(regionBtn).join("")+'</div>'
       +'<div class="kf-row"><span class="kf-label">Typ</span>'
       +typBtn(0)+[1,2,3,4,5,6,7,8,9].map(typBtn).join("")+'</div>'
+      +'<div class="kf-row"><span class="kf-label">Instinkttendenz</span>'
+      +["ALL","se","so","sx"].map(instinctBtn).join("")+'</div>'
       +'<div class="kf-count"><span id="ll-count-num">'+llTotal+'</span> von '+llTotal+' Ländern</div>'
       +'<div class="kf-row" style="margin-top:0.4rem;"><button class="kf-btn" style="background:var(--gold);color:var(--anthracite,#2c2c2c);border-color:var(--gold-dark,#A8872D);font-weight:700;" onclick="llRandom()">&#127922; Zufälliges Land</button></div>'
       +'</div>';
@@ -46423,7 +46427,7 @@ function laenderzuordnungenPage() {
   `);
 }
 
-window.llState = { region:"ALL", typ:0 };
+window.llState = { region:"ALL", typ:0, instinct:"ALL" };
 window.llSet = function(dim, val) {
   if(window.llState[dim]===val){ window.llState[dim]= dim==="typ"?0:"ALL"; }
   else { window.llState[dim]=val; }
@@ -46489,7 +46493,8 @@ window.llApply = function() {
   let vis = 0;
   cards.forEach(function(c){
     const ok = (s.region==="ALL" || c.dataset.llRegion===s.region)
-      && (s.typ===0 || parseInt(c.dataset.llTyp)===s.typ);
+      && (s.typ===0 || parseInt(c.dataset.llTyp)===s.typ)
+      && (!s.instinct || s.instinct==="ALL" || (c.dataset.llSubtyp||"").indexOf(s.instinct)===0);
     c.style.display = ok ? "" : "none";
     if(ok) vis++;
   });
@@ -46500,6 +46505,9 @@ window.llApply = function() {
   });
   document.querySelectorAll(".kf-btn[data-ll-typ-btn]").forEach(function(b){
     b.classList.toggle("kf-btn--active", parseInt(b.dataset.llTypBtn)===(s.typ||0));
+  });
+  document.querySelectorAll(".kf-btn[data-ll-instinct-btn]").forEach(function(b){
+    b.classList.toggle("kf-btn--active", b.dataset.llInstinctBtn===(s.instinct||"ALL"));
   });
 };
 
