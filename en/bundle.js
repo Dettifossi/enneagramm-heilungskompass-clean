@@ -203,7 +203,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Politik"] },
   { route:"beruehmte-samuel-hahnemann", name:"Dr. Samuel Hahnemann", subtyp:"SO1w9",
     heading:"Dr. Samuel Hahnemann – Social Type 1",
-    teaser:"SO1w9 · 1755–1843. Physician, founder of homeopathy. From the cinchona bark self-experiment to a globally practiced healing system. The goose that rebelled against the \u201cheroic medicine\u201d of its time – and still accompanies millions today.",
+    teaser:"SO1w9 · 1755–1843. German physician, founder of homeopathy. From the cinchona bark self-experiment to a globally practiced healing system. The goose that rebelled against the \u201cheroic medicine\u201d of its time – and still accompanies millions today.",
     added:"2026-08-09", tags:["Medizin","Homöopathie"] },
   { route:"beruehmte-adam-smith", name:"Adam Smith", subtyp:"SO1w9",
     heading:"Adam Smith – Social Type 1",
@@ -17068,20 +17068,20 @@ function samuelHahnemannPortraitPage() {
         </div>
         <p class="krim-portrait-name">Dr. Samuel Hahnemann</p>
         <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
-        <p class="krim-portrait-subtitle">Physician, founder of homeopathy, 1755&ndash;1843 &ndash; Animal correspondence: Goose</p>
+        <p class="krim-portrait-subtitle">German physician, founder of homeopathy, 1755&ndash;1843 &ndash; Animal correspondence: Goose</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Goose Who Demanded a Gentler Medicine</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; watchful, incorruptible, with an unerring sense for when something is fundamentally wrong. It tolerates no half-measures once convinced that the order itself is sick. Few life stories illustrate this stance more vividly than Samuel Hahnemann&#39;s, who considered the medicine of his time so dangerous that he turned his back on it for years &ndash; only to found, in the end, a coherent medical system of his own that still accompanies millions of people worldwide today.</p>
-          <p class="vb-intro">Christian Friedrich Samuel Hahnemann was born on April 10, 1755, in Meissen, the son of a porcelain painter. Even as a child he was considered exceptionally gifted and curious; his teacher is said to have allowed him at times to help shape the lessons himself. He studied medicine in Leipzig, Vienna, and Erlangen, earning his doctorate in 1779 &ndash; a path that should have led him straight into the medical profession. But what he witnessed there as standard practice never let him rest.</p>
+          <p class="vb-intro">Christian Friedrich Samuel Hahnemann was born on April 10, 1755, in Meissen, the son of a porcelain painter. Even as a child he was considered exceptionally gifted and curious; his teacher is said to have allowed him at times to help shape the lessons himself. His talent showed early in a remarkable gift for languages: besides Latin and Greek, he came to command English, French, Italian, Arabic, Hebrew, Syriac, and Chaldean &ndash; a versatility reminiscent of polymaths of his era such as Goethe. This linguistic gift later became his economic lifeline: for years he supported his family as a sought-after translator of medical, chemical, and scientific literature from English and French. He studied medicine in Leipzig, Vienna, and Erlangen, earning his doctorate in 1779 &ndash; a path that should have led him straight into the medical profession. But what he witnessed there as standard practice never let him rest.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social One: Outrage at a Sick System</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>social One (SO1)</strong> seeks perfection not in the private sphere but on the larger social scale &ndash; it recognizes wrongs not as isolated cases but as symptoms of a flawed system it feels called to correct. The medicine of the late 18th century worked with bloodletting, high doses of mercury and antimony, purgatives and emetics &ndash; procedures that often harmed patients more than they helped. Hahnemann, himself a practicing physician, was so shaken by this &bdquo;heroic medicine&ldquo; that for several years he nearly abandoned medical practice altogether, unable to justify continuing to harm his patients.</p>
-          <p class="vb-intro">During this period he supported his growing family by translating medical and chemical literature &ndash; a withdrawn, financially difficult life that the social One accepts when the alternative means acting against its own conviction. It was precisely this stance &ndash; uncompromising honesty toward his own conscience &ndash; from which one of the most consequential medical discoveries of the modern era would emerge.</p>
+          <p class="vb-intro">This translation work carried him and his growing family for years &ndash; a withdrawn, financially difficult life that the social One accepts when the alternative means acting against its own conviction. It was precisely this stance &ndash; uncompromising honesty toward his own conscience &ndash; from which one of the most consequential medical discoveries of the modern era would emerge.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine-wing: The Patience That Let a System Mature</h2>

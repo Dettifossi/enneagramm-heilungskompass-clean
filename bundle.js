@@ -24066,7 +24066,7 @@ const registerEntries = [
     { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bundeskanzlerin 2005\u20132021, Elefant" },
   { term: "David Hume",                    route: "beruehmte-david-hume",                  description: "Portrait: SE9w8 \u00b7 Selbsterhaltender Typ 9 \u00b7 Philosoph, radikaler Skeptizismus" },
   { term: "Adam Smith",                    route: "beruehmte-adam-smith",                  description: "Portrait: SO1w9 \u00b7 Sozialer Typ 1 \u00b7 Moralphilosoph, \u00d6konom, Freund David Humes" },
-  { term: "Samuel Hahnemann",              route: "beruehmte-samuel-hahnemann",            description: "Portrait: SO1w9 \u00b7 Sozialer Typ 1 \u00b7 Arzt, Begr\u00fcnder der Hom\u00f6opathie" },
+  { term: "Samuel Hahnemann",              route: "beruehmte-samuel-hahnemann",            description: "Portrait: SO1w9 \u00b7 Sozialer Typ 1 \u00b7 Deutscher Arzt, Begr\u00fcnder der Hom\u00f6opathie" },
   { term: "Hans-Dietrich Genscher",        route: "beruehmte-hans-dietrich-genscher",      description: "Portrait: SO2w3 \u00b7 Sozialer Typ 2 \u00b7 Au\u00dfenminister, Wiedervereinigung" },
   { term: "Hans Zimmer",                   route: "beruehmte-hans-zimmer",                 description: "Portrait: SX5w4 \u00b7 Sexueller Typ 5 \u00b7 Filmkomponist, Inception" },
   { term: "Hazel Brugger",                 route: "beruehmte-hazel-brugger",               description: "Portrait: SX3w4 \u00b7 Sexueller Typ 3 \u00b7 Kabarettistin, Komikerin" },
@@ -31232,7 +31232,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Politik"] , gender:"m"},
   { route:"beruehmte-samuel-hahnemann", name:"Dr. Samuel Hahnemann", added:"2026-08-09", subtyp:"SO1w9",
     heading:"Dr. Samuel Hahnemann \u2013 Sozialer Typ 1",
-    teaser:"SO1w9 \u00b7 1755\u20131843. Arzt, Begr\u00fcnder der Hom\u00f6opathie. Vom Chinarinden-Selbstversuch zum weltweit praktizierten Heilsystem. Die Gans, die gegen die \u201eheroische Medizin\u201c ihrer Zeit aufbegehrte \u2013 und Millionen bis heute begleitet.",
+    teaser:"SO1w9 \u00b7 1755\u20131843. Deutscher Arzt, Begr\u00fcnder der Hom\u00f6opathie. Vom Chinarinden-Selbstversuch zum weltweit praktizierten Heilsystem. Die Gans, die gegen die \u201eheroische Medizin\u201c ihrer Zeit aufbegehrte \u2013 und Millionen bis heute begleitet.",
     tags:["Medizin","Hom\u00f6opathie"], gender:"m"},
   { route:"beruehmte-adam-smith", name:"Adam Smith", added:"2026-08-09", subtyp:"SO1w9",
     heading:"Adam Smith \u2013 Sozialer Typ 1",
@@ -50700,20 +50700,20 @@ function samuelHahnemannPortraitPage() {
         </div>
         <p class="krim-portrait-name">Dr. Samuel Hahnemann</p>
         <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Arzt, Begr\u00fcnder der Hom\u00f6opathie, 1755&ndash;1843 &ndash; Tierentsprechung: Gans</p>
+        <p class="krim-portrait-subtitle">Deutscher Arzt, Begr\u00fcnder der Hom\u00f6opathie, 1755&ndash;1843 &ndash; Tierentsprechung: Gans</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. Die Gans, die eine sanftere Medizin forderte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; wachsam, unbestechlich, mit einem untr\u00fcglichen Sinn daf\u00fcr, wenn etwas grundlegend falsch l\u00e4uft. Sie duldet keine halben Kompromisse, wenn sie \u00fcberzeugt ist, dass die Ordnung selbst krank ist. Kaum ein Lebenswerk zeigt diese Haltung eindr\u00fccklicher als das von Samuel Hahnemann, der die Heilkunde seiner Zeit f\u00fcr so gef\u00e4hrlich hielt, dass er ihr \u00fcber Jahre den R\u00fccken kehrte &ndash; um am Ende ein eigenes, in sich stimmiges Medizinsystem zu begr\u00fcnden, das bis heute weltweit Millionen Menschen begleitet.</p>
-          <p class="vb-intro">Christian Friedrich Samuel Hahnemann wurde am 10. April 1755 in Mei\u00dfen geboren, als Sohn eines Porzellanmalers. Schon als Kind galt er als au\u00dfergew\u00f6hnlich begabt und wissbegierig; sein Lehrer soll ihm zeitweise erlaubt haben, den Unterricht selbst mitzugestalten. Er studierte Medizin in Leipzig, Wien und Erlangen, wo er 1779 promovierte &ndash; ein Weg, der ihn schnurgerade in den \u00e4rztlichen Berufsstand h\u00e4tte f\u00fchren sollen. Doch was er dort an g\u00e4ngiger Praxis erlebte, lie\u00df ihn nicht mehr los.</p>
+          <p class="vb-intro">Christian Friedrich Samuel Hahnemann wurde am 10. April 1755 in Mei\u00dfen geboren, als Sohn eines Porzellanmalers. Schon als Kind galt er als au\u00dfergew\u00f6hnlich begabt und wissbegierig; sein Lehrer soll ihm zeitweise erlaubt haben, den Unterricht selbst mitzugestalten. Sein Talent zeigte sich fr\u00fch in einer erstaunlichen Sprachbegabung: Neben Latein und Griechisch beherrschte er im Lauf seines Lebens unter anderem Englisch, Franz\u00f6sisch, Italienisch, Arabisch, Hebr\u00e4isch, Syrisch und Chald\u00e4isch \u2013 eine Vielseitigkeit, die an Universalgelehrte seiner Epoche wie Goethe erinnert. Genau diese Sprachbegabung wurde sp\u00e4ter zu seiner wirtschaftlichen Rettung: \u00dcber Jahre finanzierte er seine Familie als gefragter \u00dcbersetzer medizinischer, chemischer und naturkundlicher Fachliteratur aus dem Englischen und Franz\u00f6sischen. Er studierte Medizin in Leipzig, Wien und Erlangen, wo er 1779 promovierte &ndash; ein Weg, der ihn schnurgerade in den \u00e4rztlichen Berufsstand h\u00e4tte f\u00fchren sollen. Doch was er dort an g\u00e4ngiger Praxis erlebte, lie\u00df ihn nicht mehr los.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Eins: Emp\u00f6rung \u00fcber ein krankes System</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> sucht Vollkommenheit nicht im privaten Rahmen, sondern im gro\u00dfen gesellschaftlichen Ma\u00dfstab &ndash; sie erkennt Missst\u00e4nde nicht als Einzelf\u00e4lle, sondern als Symptom eines fehlerhaften Systems, das sie zu korrigieren sucht. Die Medizin des ausgehenden 18. Jahrhunderts arbeitete mit Aderl\u00e4ssen, hochdosierten Gaben von Quecksilber und Antimon, Abf\u00fchrmitteln und Brechmitteln &ndash; Verfahren, die Patienten h\u00e4ufig mehr schadeten, als sie halfen. Hahnemann, selbst praktizierender Arzt, war so ersch\u00fcttert von dieser &bdquo;heroischen Medizin&ldquo;, dass er \u00fcber mehrere Jahre die \u00e4rztliche Praxis fast vollst\u00e4ndig aufgab, weil er es nicht mehr verantworten konnte, seinen Patienten zu schaden.</p>
-          <p class="vb-intro">Er ern\u00e4hrte seine wachsende Familie in dieser Zeit als \u00dcbersetzer medizinischer und chemischer Fachliteratur &ndash; ein zur\u00fcckgezogenes, entbehrungsreiches Leben, das die soziale Eins in Kauf nimmt, wenn die Alternative bedeutet, gegen die eigene \u00dcberzeugung zu handeln. Es war exakt diese Haltung, kompromisslose Redlichkeit gegen\u00fcber dem eigenen Gewissen, aus der heraus eine der folgenreichsten medizinischen Entdeckungen der Neuzeit entstand.</p>
+          <p class="vb-intro">Diese \u00dcbersetzert\u00e4tigkeit trug ihn und seine wachsende Familie \u00fcber Jahre hinweg &ndash; ein zur\u00fcckgezogenes, entbehrungsreiches Leben, das die soziale Eins in Kauf nimmt, wenn die Alternative bedeutet, gegen die eigene \u00dcberzeugung zu handeln. Es war exakt diese Haltung, kompromisslose Redlichkeit gegen\u00fcber dem eigenen Gewissen, aus der heraus eine der folgenreichsten medizinischen Entdeckungen der Neuzeit entstand.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Neunerfl\u00fcgel: Geduld, die ein neues System reifen lie\u00df</h2>

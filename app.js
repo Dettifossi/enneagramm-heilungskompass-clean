@@ -205,7 +205,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Politik"] , gender:"m"},
   { route:"beruehmte-samuel-hahnemann", name:"Dr. Samuel Hahnemann", added:"2026-08-09", subtyp:"SO1w9",
     heading:"Dr. Samuel Hahnemann – Sozialer Typ 1",
-    teaser:"SO1w9 · 1755–1843. Arzt, Begründer der Homöopathie. Vom Chinarinden-Selbstversuch zum weltweit praktizierten Heilsystem. Die Gans, die gegen die \u201eheroische Medizin\u201c ihrer Zeit aufbegehrte – und Millionen bis heute begleitet.",
+    teaser:"SO1w9 · 1755–1843. Deutscher Arzt, Begründer der Homöopathie. Vom Chinarinden-Selbstversuch zum weltweit praktizierten Heilsystem. Die Gans, die gegen die \u201eheroische Medizin\u201c ihrer Zeit aufbegehrte – und Millionen bis heute begleitet.",
     tags:["Medizin","Homöopathie"], gender:"m"},
   { route:"beruehmte-adam-smith", name:"Adam Smith", added:"2026-08-09", subtyp:"SO1w9",
     heading:"Adam Smith – Sozialer Typ 1",
@@ -19673,20 +19673,20 @@ function samuelHahnemannPortraitPage() {
         </div>
         <p class="krim-portrait-name">Dr. Samuel Hahnemann</p>
         <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
-        <p class="krim-portrait-subtitle">Arzt, Begründer der Homöopathie, 1755&ndash;1843 &ndash; Tierentsprechung: Gans</p>
+        <p class="krim-portrait-subtitle">Deutscher Arzt, Begründer der Homöopathie, 1755&ndash;1843 &ndash; Tierentsprechung: Gans</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. Die Gans, die eine sanftere Medizin forderte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; wachsam, unbestechlich, mit einem untrüglichen Sinn dafür, wenn etwas grundlegend falsch läuft. Sie duldet keine halben Kompromisse, wenn sie überzeugt ist, dass die Ordnung selbst krank ist. Kaum ein Lebenswerk zeigt diese Haltung eindrücklicher als das von Samuel Hahnemann, der die Heilkunde seiner Zeit für so gefährlich hielt, dass er ihr über Jahre den Rücken kehrte &ndash; um am Ende ein eigenes, in sich stimmiges Medizinsystem zu begründen, das bis heute weltweit Millionen Menschen begleitet.</p>
-          <p class="vb-intro">Christian Friedrich Samuel Hahnemann wurde am 10. April 1755 in Meißen geboren, als Sohn eines Porzellanmalers. Schon als Kind galt er als außergewöhnlich begabt und wissbegierig; sein Lehrer soll ihm zeitweise erlaubt haben, den Unterricht selbst mitzugestalten. Er studierte Medizin in Leipzig, Wien und Erlangen, wo er 1779 promovierte &ndash; ein Weg, der ihn schnurgerade in den ärztlichen Berufsstand hätte führen sollen. Doch was er dort an gängiger Praxis erlebte, ließ ihn nicht mehr los.</p>
+          <p class="vb-intro">Christian Friedrich Samuel Hahnemann wurde am 10. April 1755 in Meißen geboren, als Sohn eines Porzellanmalers. Schon als Kind galt er als außergewöhnlich begabt und wissbegierig; sein Lehrer soll ihm zeitweise erlaubt haben, den Unterricht selbst mitzugestalten. Sein Talent zeigte sich früh in einer erstaunlichen Sprachbegabung: Neben Latein und Griechisch beherrschte er im Lauf seines Lebens unter anderem Englisch, Französisch, Italienisch, Arabisch, Hebräisch, Syrisch und Chaldäisch &ndash; eine Vielseitigkeit, die an Universalgelehrte seiner Epoche wie Goethe erinnert. Genau diese Sprachbegabung wurde später zu seiner wirtschaftlichen Rettung: Über Jahre finanzierte er seine Familie als gefragter Übersetzer medizinischer, chemischer und naturkundlicher Fachliteratur aus dem Englischen und Französischen. Er studierte Medizin in Leipzig, Wien und Erlangen, wo er 1779 promovierte &ndash; ein Weg, der ihn schnurgerade in den ärztlichen Berufsstand hätte führen sollen. Doch was er dort an gängiger Praxis erlebte, ließ ihn nicht mehr los.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Eins: Empörung über ein krankes System</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> sucht Vollkommenheit nicht im privaten Rahmen, sondern im großen gesellschaftlichen Maßstab &ndash; sie erkennt Missstände nicht als Einzelfälle, sondern als Symptom eines fehlerhaften Systems, das sie zu korrigieren sucht. Die Medizin des ausgehenden 18. Jahrhunderts arbeitete mit Aderlässen, hochdosierten Gaben von Quecksilber und Antimon, Abführmitteln und Brechmitteln &ndash; Verfahren, die Patienten häufig mehr schadeten, als sie halfen. Hahnemann, selbst praktizierender Arzt, war so erschüttert von dieser &bdquo;heroischen Medizin&ldquo;, dass er über mehrere Jahre die ärztliche Praxis fast vollständig aufgab, weil er es nicht mehr verantworten konnte, seinen Patienten zu schaden.</p>
-          <p class="vb-intro">Er ernährte seine wachsende Familie in dieser Zeit als Übersetzer medizinischer und chemischer Fachliteratur &ndash; ein zurückgezogenes, entbehrungsreiches Leben, das die soziale Eins in Kauf nimmt, wenn die Alternative bedeutet, gegen die eigene Überzeugung zu handeln. Es war exakt diese Haltung, kompromisslose Redlichkeit gegenüber dem eigenen Gewissen, aus der heraus eine der folgenreichsten medizinischen Entdeckungen der Neuzeit entstand.</p>
+          <p class="vb-intro">Diese Übersetzertätigkeit trug ihn und seine wachsende Familie über Jahre hinweg &ndash; ein zurückgezogenes, entbehrungsreiches Leben, das die soziale Eins in Kauf nimmt, wenn die Alternative bedeutet, gegen die eigene Überzeugung zu handeln. Es war exakt diese Haltung, kompromisslose Redlichkeit gegenüber dem eigenen Gewissen, aus der heraus eine der folgenreichsten medizinischen Entdeckungen der Neuzeit entstand.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Neunerflügel: Geduld, die ein neues System reifen ließ</h2>
