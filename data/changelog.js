@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v1011", date: "2026-08-09", text: "Neues Porträt: David Hume (SE9w8, Elefant) in Berühmte Persönlichkeiten.", text_en: "New portrait: David Hume (SE9w8, Elephant) in Famous Personalities.", route: "beruehmte-david-hume" },
     { version: "v1010", date: "2026-08-09", text: "Neues Porträt: Fjodor Dostojewski (SE6w5, Kaninchen) in Berühmte Persönlichkeiten.", text_en: "New portrait: Fyodor Dostoevsky (SE6w5, Rabbit) in Famous Personalities.", route: "beruehmte-fjodor-dostojewski" },
     { version: "v1009", date: "2026-08-09", text: "Neues Porträt: Friedrich Nietzsche (SX5w4, Igel) in Berühmte Persönlichkeiten.", text_en: "New portrait: Friedrich Nietzsche (SX5w4, Hedgehog) in Famous Personalities.", route: "beruehmte-friedrich-nietzsche" },
     { version: "v1008", date: "2026-08-09", text: "Neues Porträt: Marquis de Sade (SX4w5, Chihuahua) in Berühmte Persönlichkeiten.", text_en: "New portrait: Marquis de Sade (SX4w5, Chihuahua) in Famous Personalities.", route: "beruehmte-marquis-de-sade" },

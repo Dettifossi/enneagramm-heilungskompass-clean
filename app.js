@@ -807,6 +807,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Angela Merkel – Selbsterhaltende Typ 9",
     teaser:"SE9w8 · geb. 1954. Bundeskanzlerin 2005–2021. Sechzehn Jahre Aussitzen, Entscheiden, Beharren – und ein Erbe voller Widersprüche. Der Elefant, der sich in seinem eigenen Rhythmus bewegt. Manchmal Weisheit. Manchmal Stillstand.",
     tags:["Politik"], gender:"f"},
+  { route:"beruehmte-david-hume", name:"David Hume", subtyp:"SE9w8",
+    heading:"David Hume – Selbsterhaltender Typ 9",
+    teaser:"SE9w8 · 1711–1776. Schottischer Philosoph. A Treatise of Human Nature, radikaler Skeptizismus. Der Elefant, der an allem zweifelte – an der Kausalität, am Selbst, an Gott – und dabei gelassener blieb als jeder seiner erbitterten Kritiker.",
+    tags:["Philosophie"], gender:"m"},
   { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8",
     heading:"Hans-Dietrich Genscher – Selbsterhaltender Typ 9",
     teaser:"SE9w8 · 1927–2016. Außenminister und Vizekanzler der Bundesrepublik Deutschland (1974–1992). 23 Jahre prägende außenpolitische Kraft, Architekt der deutschen Einheit, Brückenbauer zwischen Ost und West. Der Elefant, der nicht vergisst – und nie aufhört zu verhandeln. Tierentsprechung: Elefant.",
@@ -2178,7 +2182,7 @@ function inhaltsübersichtPage() {
           "Hunderassen",
         ], "Das Enneagramm im Alltag – von der Natur bis zur Kultur.")}
 
-        ${cat("Berühmte Persönlichkeiten", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "174 Porträts aus Kultur, Musik, Sport & Gesellschaft – durch die Linse des Enneagramms.")}
+        ${cat("Berühmte Persönlichkeiten", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "175 Porträts aus Kultur, Musik, Sport & Gesellschaft – durch die Linse des Enneagramms.")}
 
         ${cat("Spannende Kriminalfälle (Kriminalpsychologie)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "74 tiefenpsychologische Täterporträts – bekannte Fälle durch die Linse des Enneagramms. Lehrreich, präzise, nie reißerisch.")}
 
@@ -3051,7 +3055,7 @@ function startPage() {
               ["&#9672;","Typensystem","9 Typen · 27 Subtypen · 3 Tests"],
               ["&#128101;","Beziehungen","Kindheit, Führung, Partnerschaft"],
               ["&#127807;","Heilmittel","Höm., Öle, Bachbl., Tee, Edelsteine"],
-              ["&#127775;","Berühmte Persönlichkeiten","174 Porträts aus Kultur, Musik & Gesellschaft"],
+              ["&#127775;","Berühmte Persönlichkeiten","175 Porträts aus Kultur, Musik & Gesellschaft"],
               ["&#128444;","Schaubilder","100+ farbige Übersichten"],
               ["&#128269;","Kriminalfälle (Kriminalpsychologie)","74 psychologische Täterporträts"],
               ["&#127807;","Entwicklung","Heilungsweg, Übungen, Fragen"],
@@ -3852,7 +3856,7 @@ function kaufenPage() {
           <li>🎯 <strong>Subtypgenau</strong> — nicht „Typ 4 allgemein", sondern genau dein Subtyp mit seiner eigenen Dynamik</li>
           <li>🔄 <strong>Lebt und wächst</strong> — die App wird laufend aktualisiert und erweitert, du bekommst alle Updates automatisch</li>
           <li>⚡ <strong>Interaktiv</strong> — du erlebst dein Profil, statt es nur zu lesen</li>
-          <li>&#127775; <strong>Berühmte Persönlichkeiten</strong> — 174 Porträts aus Kultur, Musik &amp; Gesellschaft durch die Linse des Enneagramms</li>
+          <li>&#127775; <strong>Berühmte Persönlichkeiten</strong> — 175 Porträts aus Kultur, Musik &amp; Gesellschaft durch die Linse des Enneagramms</li>
           <li>&#128269; <strong>Spannende Kriminalfälle (Kriminalpsychologie)</strong> — 74 bekannte Täter durch die Linse des Enneagramms: lehrreich, tiefenpsychologisch, nie reißerisch</li>
         </ul>
         <h3>Für wen ist das gedacht?</h3>
@@ -14289,6 +14293,72 @@ function angelaMerkelPortraitPage() {
   `);
 }
 
+
+function davidHumePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-david-hume-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Hume</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schottischer Philosoph, 1711&ndash;1776 &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant, der an allem zweifelte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des selbsterhaltenden Typs 9 &ndash; geduldig, erdend, von einer Präsenz, die nicht durch Lautstärke entsteht, sondern durch Gewicht. Er lässt sich nicht aus der Ruhe bringen, selbst wenn er die Grundfesten der Welt in Frage stellt. Er trägt seine Erkenntnisse gelassen, ohne sie jemandem aufzudrängen.</p>
+          <p class="vb-intro">David Hume wurde 1711 in Edinburgh geboren, studierte kurz Jura, brach das Studium ab und widmete sich stattdessen der Philosophie &ndash; gegen den Wunsch seiner Familie. Zeitgenossen beschrieben ihn übereinstimmend als heiter, umgänglich, ohne jede Bitterkeit, obwohl er zeitlebens gegen erbitterten Widerstand der Kirche und akademischer Institutionen anschrieb. Man nannte ihn &bdquo;le bon David&ldquo; &ndash; den guten David &ndash; selbst in Kreisen, die seine Ideen für gefährlich hielten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Gelassenheit als Methode</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> ist nach Naranjo der Subtyp, den er <em>Appetit</em> nannte &ndash; die Neigung, sich in Komfort und innerem Frieden einzurichten und Konflikten durch Gelassenheit zu begegnen, statt sie zu eskalieren. Bei Hume wurde diese Gelassenheit zur philosophischen Methode selbst: Er zweifelte an der Kausalität &ndash; der Annahme, dass ein Ereignis zwangsläufig ein anderes verursacht &ndash; an der Existenz eines stabilen Selbst und an jedem rationalen Gottesbeweis, und blieb dabei erstaunlich unaufgeregt.</p>
+          <p class="vb-intro">Sein Hauptwerk <em>A Treatise of Human Nature</em> (1739&ndash;40) erschien zunächst fast unbeachtet &ndash; Hume selbst schrieb später, es sei &bdquo;tot von der Presse gefallen&ldquo;. Statt zu kämpfen, überarbeitete er die Ideen jahrzehntelang in zugänglicherer Form, etwa in den <em>Essays, Moral and Political</em> und der <em>Enquiry Concerning Human Understanding</em> (1748). Kein Wutausbruch, kein Rückzug &ndash; nur die geduldige Wiederholung derselben Wahrheit in immer neuer Gestalt, bis sie gehört wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Der Mut zum radikalen Zweifel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> verleiht der selbsterhaltenden Neun eine Kraft, die man nach außen kaum sieht, bis man ihre Konsequenzen begreift: die Bereitschaft, eine Position bis zum radikalen Ende zu denken, ohne vor der Reaktion der Umwelt zurückzuschrecken. Die reine SE9 würde vielleicht ausweichen. Die SE9w8 zieht die Konsequenz &ndash; ruhig, aber unbeirrbar.</p>
+          <p class="vb-intro">Hume vertrat einen konsequenten religiösen Skeptizismus, der ihm zeitlebens die begehrten Lehrstühle in Edinburgh und Glasgow verwehrte &ndash; kirchliche Einwände verhinderten beide Berufungen. Sein Werk <em>Dialogues Concerning Natural Religion</em>, das die klassischen Gottesbeweise systematisch demontiert, ließ er aus Vorsicht erst nach seinem Tod veröffentlichen &ndash; nicht aus Feigheit, sondern aus der kühlen Berechnung des Achterflügels: Der Kampf lohnt sich nicht, solange man ihn nicht gewinnen kann. Man wartet den richtigen Moment ab.</p>
+          <p class="vb-intro">Diese Mischung aus Nachgiebigkeit und unerschütterlicher Grundhaltung zeigte sich auch 1766 in seiner Freundschaft mit dem französischen Philosophen Jean-Jacques Rousseau, den Hume aus Frankreich nach England holte, als dieser politisch verfolgt wurde. Rousseau, zunehmend paranoid, wandte sich gegen Hume und beschuldigte ihn öffentlich der Verschwörung. Hume reagierte nicht mit Gegenangriff, sondern mit einer sachlichen, in ganz Europa verbreiteten Verteidigungsschrift &ndash; die Neun bleibt ruhig, aber der Achterflügel verteidigt seinen Ruf mit aller gebotenen Härte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Schildkrötensuppe: Genuss ohne Dogma</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hume war zeitlebens bekannt für seine Tafelfreuden &ndash; besonders für seine Vorliebe für Schildkrötensuppe, ein im 18. Jahrhundert aufwendiges Delikatessengericht, das er regelmäßig bei geselligen Diners in Edinburgh servieren ließ. Es ist eine schöne Fügung, dass ausgerechnet die Schildkröte &ndash; in manchen Enneagramm-Traditionen selbst eine mögliche Tierentsprechung des Typs 9 &ndash; zu seiner Leibspeise wurde: gemächlich, gepanzert, unerschütterlich in ihrem eigenen Tempo, ganz wie der Elefant, nur kleiner.</p>
+          <p class="vb-intro">Diese Freude am sinnlichen Genuss war kein Widerspruch zu seiner Philosophie, sondern ihre praktische Konsequenz: Wer an letzten Gewissheiten zweifelt, kann sich umso ungezwungener dem Guten im Diesseits zuwenden. Hume lehnte jede Form von Askese ab und lebte, was er dachte &ndash; ein Skeptiker, der trotz aller Zweifel ein zutiefst zufriedener, geselliger Mensch war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Freiheit und ihre Grenzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE9w8 ist die Fähigkeit, <strong>radikale Freiheit des Denkens mit innerem Frieden</strong> zu verbinden. Hume löste die Fesseln des dogmatischen Denkens seiner Zeit, ohne selbst zum Dogmatiker des Zweifels zu werden &ndash; er blieb neugierig, warmherzig, offen für Widerspruch. Adam Smith, sein enger Freund, beschrieb ihn nach seinem Tod als einen Menschen, der der Weisheit und Tugend so nahe kam, wie es die menschliche Natur wohl erlaubt.</p>
+          <p class="vb-intro">Der Schatten: Humes Schriften enthalten auch rassistische Passagen &ndash; etwa eine vielzitierte Fußnote, in der er die geistigen Fähigkeiten außereuropäischer Völker herabsetzte. Diese Haltung, unentschuldbar und im Widerspruch zu seinem eigenen skeptischen Anspruch, zeigt die Kehrseite der SE9w8: die Bequemlichkeit des Appetits kann auch bedeuten, überlieferte Vorurteile nie wirklich in Frage zu stellen, obwohl man sich rühmt, alles andere in Frage gestellt zu haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Elefant, der gelassen starb, wie er gelebt hatte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Neun führt von der Selbstvergessenheit zur <strong>wahren inneren Handlung</strong> &ndash; nicht zum Verschwinden im Komfort, sondern zur bewussten Teilnahme am eigenen Leben. Hume lebte diesen Weg bereits vor: Er wich den großen Fragen nie aus, verweigerte sich nur dem Streit um ihrer selbst willen.</p>
+          <p class="vb-intro">Als Hume 1776 im Sterben lag, besuchte ihn der Schriftsteller James Boswell, der von ihm wissen wollte, ob er angesichts des nahen Todes nicht doch an ein Leben nach dem Tod glaube. Hume antwortete ruhig und ohne jede Angst, es gebe keinen Grund zur Sorge &ndash; eine Gelassenheit, die Boswell zutiefst erschütterte, weil sie so gar nicht zum erwarteten Bild eines &bdquo;gottlosen&ldquo; Sterbenden passte. Der Elefant aus Edinburgh verließ die Welt so, wie er sie durchquert hatte: ungerührt, neugierig, ohne die Bequemlichkeit einer Illusion zu brauchen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
+      ])}
+    </div>
+  `);
+}
 
 function hansDietrichGenscherPortraitPage() {
   return shell(`
@@ -49288,6 +49358,7 @@ function render() {
     "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
           "beruehmte-eli-jaxon-bear": eliJaxonBearPortraitPage,
           "beruehmte-angela-merkel": angelaMerkelPortraitPage,
+    "beruehmte-david-hume": davidHumePortraitPage,
     "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
           "beruehmte-abida-parveen": abidaParveenPortraitPage,
           "beruehmte-kevin-costner": kevinCostnerPortraitPage,

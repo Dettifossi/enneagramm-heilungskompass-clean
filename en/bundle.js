@@ -549,6 +549,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Laozi (Lao Tzu) – Self-Preservation Type 9",
     teaser:"SE9w1 · c. 6th century BCE (legendary). Philosopher, founder of Daoism, traditionally credited as author of the Tao Te Ching. According to legend, he finally rode a black ox into the desert and vanished. The elephant that lets go of what it no longer needs to carry – wu wei as the Nine's highest expression.",
     tags:["Philosophy","Religion"]},
+  { route:"beruehmte-david-hume", name:"David Hume", subtyp:"SE9w8",
+    heading:"David Hume – Self-Preservation Type 9",
+    teaser:"SE9w8 · 1711–1776. Scottish philosopher. A Treatise of Human Nature, radical skepticism. The elephant who doubted everything – causation, the self, God – and remained calmer about it than any of his fiercest critics.",
+    tags:["Philosophy"], gender:"m"},
   { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8",
     heading:"Hans-Dietrich Genscher – Self-Preservation Type 9",
     teaser:"SP9w8 · 1927–2016. Foreign Minister and Vice Chancellor of West Germany (1974–1992). 23 years of formative foreign policy, architect of German reunification, bridge-builder between East and West. The elephant that never forgets – and never stops negotiating. Animal correspondence: Elephant.",
@@ -2642,7 +2646,7 @@ function inhaltsübersichtPage() {
           "Dog Breeds",
         ], "The Enneagram in everyday life – from nature to culture.")}
 
-        ${cat("Famous Personalities", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "174 portraits from culture, music, sports & society – through the lens of the Enneagram.")}
+        ${cat("Famous Personalities", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "175 portraits from culture, music, sports & society – through the lens of the Enneagram.")}
 
         ${cat("Fascinating Criminal Cases (Criminal Psychology)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "74 in-depth psychological perpetrator portraits – well-known cases through the lens of the Enneagram. Informative, precise, never sensationalist.")}
 
@@ -3478,7 +3482,7 @@ function startPage() {
               ["&#9672;","Type System","9 Types · 27 Subtypes · 3 Tests"],
               ["&#128101;","Relationships","Childhood, Leadership, Partnership"],
               ["&#127807;","Remedies","Hom., Oils, Bach Fl., Tea, Gemstones"],
-              ["&#127775;","Famous Personalities","174 portraits from culture, music & society"],
+              ["&#127775;","Famous Personalities","175 portraits from culture, music & society"],
               ["&#128444;","Charts","100+ colour overviews"],
               ["&#128269;","Criminal Psychology","74 psychological perpetrator portraits"],
               ["&#127807;","Development","Healing path, exercises, questions"],
@@ -4790,7 +4794,7 @@ function kaufenPage() {
           <li>🎯 <strong>Subtype-specific</strong> — not "Type 4 in general", but exactly your Subtype with its own dynamics</li>
           <li>🔄 <strong>Lives and grows</strong> — the app is continuously updated and expanded; you receive all updates automatically</li>
           <li>⚡ <strong>Interactive</strong> — you experience your profile instead of just reading it</li>
-          <li>&#127775; <strong>Famous Personalities</strong> — 174 portraits from culture, music &amp; society through the lens of the Enneagram</li>
+          <li>&#127775; <strong>Famous Personalities</strong> — 175 portraits from culture, music &amp; society through the lens of the Enneagram</li>
           <li>&#128269; <strong>Fascinating Criminal Cases (Criminal Psychology)</strong> — 74 famous perpetrators through the lens of the Enneagram: educational, psychologically deep, never sensationalist</li>
         </ul>
         <h3>Who is this for?</h3>
@@ -22591,6 +22595,72 @@ function eliJaxonBearPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
         {route:"beruehmte-genesis-p-orridge", label:"Portrait: Genesis P-Orridge (SX8w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function davidHumePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-david-hume-portrait.jpg" alt="David Hume" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Hume</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Self-Preservation Type 9 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Scottish philosopher, 1711&ndash;1776 &ndash; Animal correspondence: Elephant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant Who Doubted Everything</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>elephant</strong> is the animal of the self-preservation Nine &ndash; patient, grounding, possessing a presence that comes not from volume but from weight. It is not easily rattled, even when it questions the very foundations of the world. It carries its insights calmly, without forcing them on anyone.</p>
+          <p class="vb-intro">David Hume was born in 1711 in Edinburgh, briefly studied law, abandoned it, and devoted himself to philosophy instead &ndash; against his family&#39;s wishes. Contemporaries consistently described him as cheerful, agreeable, without a trace of bitterness, even though he spent his life writing against fierce opposition from the church and academic institutions. He was called &bdquo;le bon David&ldquo; &ndash; the good David &ndash; even by circles that considered his ideas dangerous.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Nine: Calm as Method</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Nine (SP9)</strong> is, according to Naranjo, the subtype he called <em>appetite</em> &ndash; the tendency to settle into comfort and inner peace and to meet conflict with calm rather than escalation. In Hume this calm became the philosophical method itself: he doubted causation &ndash; the assumption that one event necessarily causes another &ndash; the existence of a stable self, and every rational proof of God, and remained remarkably unruffled throughout.</p>
+          <p class="vb-intro">His major work <em>A Treatise of Human Nature</em> (1739&ndash;40) was published to near-total indifference &ndash; Hume himself later wrote that it &bdquo;fell dead-born from the press.&ldquo; Rather than fight, he spent decades reworking the ideas into more accessible form, in works like <em>Essays, Moral and Political</em> and the <em>Enquiry Concerning Human Understanding</em> (1748). No outburst, no retreat &ndash; just the patient repetition of the same truth in ever new shapes, until it was finally heard.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: The Courage of Radical Doubt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the self-preservation Nine a strength that is barely visible from outside until its consequences become clear: the willingness to think a position through to its radical end, without flinching from the world&#39;s reaction. A pure SP9 might simply avoid conflict. The SP9w8 draws the consequence &ndash; calmly, but unwaveringly.</p>
+          <p class="vb-intro">Hume held a consistent religious skepticism that cost him the coveted professorships at Edinburgh and Glasgow throughout his life &ndash; church objections blocked both appointments. His work <em>Dialogues Concerning Natural Religion</em>, which systematically dismantles the classical proofs of God, he had published only after his death out of caution &ndash; not out of cowardice, but the Eight-wing&#39;s cool calculation: the fight isn&#39;t worth having until you can win it. You wait for the right moment.</p>
+          <p class="vb-intro">This mixture of agreeableness and unshakeable conviction also showed in his 1766 friendship with the French philosopher Jean-Jacques Rousseau, whom Hume brought from France to England after Rousseau faced political persecution. Rousseau, increasingly paranoid, turned against Hume and publicly accused him of conspiracy. Hume did not respond with a counterattack, but with a measured, widely circulated written defense across Europe &ndash; the Nine stays calm, but the Eight-wing defends its reputation with all necessary force.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Turtle Soup: Pleasure Without Dogma</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hume was known throughout his life for his love of good food &ndash; especially his fondness for turtle soup, an elaborate delicacy in the 18th century that he regularly had served at social dinners in Edinburgh. There is a fitting coincidence in the fact that the turtle &ndash; in some Enneagram traditions itself a possible animal correspondence for Type 9 &ndash; became his favorite dish: unhurried, armored, unshakeable in its own pace, much like the elephant, only smaller.</p>
+          <p class="vb-intro">This love of sensory pleasure was not a contradiction of his philosophy but its practical consequence: whoever doubts ultimate certainties can turn all the more freely toward what is good in this life. Hume rejected asceticism in any form and lived what he thought &ndash; a skeptic who, despite all his doubt, was a deeply contented, sociable man.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: Freedom and Its Limits</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP9w8 is its ability to combine <strong>radical freedom of thought with inner peace</strong>. Hume loosened the bonds of dogmatic thinking of his age without himself becoming a dogmatist of doubt &ndash; he remained curious, warm, open to contradiction. Adam Smith, his close friend, described him after his death as a man who approached as near the ideal of a perfectly wise and virtuous person as the frailty of human nature would permit.</p>
+          <p class="vb-intro">The shadow: Hume&#39;s writings also contain racist passages &ndash; including a widely cited footnote in which he disparaged the intellectual capacities of non-European peoples. This stance, inexcusable and at odds with his own skeptical standards, shows the flip side of the SP9w8: the comfort of appetite can also mean never truly questioning inherited prejudice, even while priding oneself on having questioned everything else.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Elephant Who Died as Calmly as He Had Lived</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Nine leads from self-forgetting to <strong>true inner action</strong> &ndash; not disappearing into comfort, but consciously participating in one&#39;s own life. Hume lived this path already: he never avoided the great questions, only refused arguing for its own sake.</p>
+          <p class="vb-intro">As Hume lay dying in 1776, the writer James Boswell visited him, wanting to know whether, facing death, he still did not believe in an afterlife. Hume answered calmly and without any fear that there was no reason for concern &ndash; a composure that deeply unsettled Boswell, because it fit so poorly with the expected image of a &bdquo;godless&ldquo; dying man. The elephant from Edinburgh left the world the way he had crossed it: unmoved, curious, needing no illusion for comfort.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se9", label:"SE9 – The Elephant: Subtype Profile"},
+        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
       ])}
     </div>
   `);
@@ -46282,6 +46352,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-diogenes": diogenesPortraitPage,
       "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
       "beruehmte-eli-jaxon-bear": eliJaxonBearPortraitPage,
+      "beruehmte-david-hume": davidHumePortraitPage,
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
       "beruehmte-abida-parveen": abidaParveenPortraitPage,
       "beruehmte-steffi-graf": steffiGrafPortraitPage,

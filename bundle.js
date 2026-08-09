@@ -24064,6 +24064,7 @@ const registerEntries = [
   { term: "G\u00fcnther Jauch",              route: "beruehmte-guenther-jauch",              description: "Portrait: SO5w6 \u00b7 Sozialer Typ 5 \u00b7 TV-Moderator, Wer wird Million\u00e4r" },
     { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bundeskanzlerin 2005\u20132021, Elefant" },
     { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bundeskanzlerin 2005\u20132021, Elefant" },
+  { term: "David Hume",                    route: "beruehmte-david-hume",                  description: "Portrait: SE9w8 \u00b7 Selbsterhaltender Typ 9 \u00b7 Philosoph, radikaler Skeptizismus" },
   { term: "Hans-Dietrich Genscher",        route: "beruehmte-hans-dietrich-genscher",      description: "Portrait: SO2w3 \u00b7 Sozialer Typ 2 \u00b7 Au\u00dfenminister, Wiedervereinigung" },
   { term: "Hans Zimmer",                   route: "beruehmte-hans-zimmer",                 description: "Portrait: SX5w4 \u00b7 Sexueller Typ 5 \u00b7 Filmkomponist, Inception" },
   { term: "Hazel Brugger",                 route: "beruehmte-hazel-brugger",               description: "Portrait: SX3w4 \u00b7 Sexueller Typ 3 \u00b7 Kabarettistin, Komikerin" },
@@ -24344,6 +24345,7 @@ const registerEntriesEN = [
   { term: "Greta Thunberg", route: "beruehmte-greta-thunberg", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Climate activist, Fridays for Future" },
   { term: "G\u00fcnther Jauch", route: "beruehmte-guenther-jauch", description: "Portrait: SO5w6 \u00b7 Social Type 5 \u00b7 TV host, Who Wants to Be a Millionaire" },
   { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Federal Chancellor 2005\u20132021, Elephant" },
+  { term: "David Hume", route: "beruehmte-david-hume", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Philosopher, radical skepticism" },
   { term: "Hans-Dietrich Genscher", route: "beruehmte-hans-dietrich-genscher", description: "Portrait: SO2w3 \u00b7 Social Type 2 \u00b7 Foreign Minister, German reunification" },
   { term: "Hans Zimmer", route: "beruehmte-hans-zimmer", description: "Portrait: SX5w4 \u00b7 Sexual Type 5 \u00b7 Film composer, Inception" },
   { term: "Hazel Brugger", route: "beruehmte-hazel-brugger", description: "Portrait: SX3w4 \u00b7 Sexual Type 3 \u00b7 Comedian, Comedian" },
@@ -31830,6 +31832,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Angela Merkel \u2013 Selbsterhaltende Typ 9",
     teaser:"SE9w8 \u00b7 geb. 1954. Bundeskanzlerin 2005\u20132021. Sechzehn Jahre Aussitzen, Entscheiden, Beharren \u2013 und ein Erbe voller Widerspr\u00fcche. Der Elefant, der sich in seinem eigenen Rhythmus bewegt. Manchmal Weisheit. Manchmal Stillstand.",
     tags:["Politik"], gender:"f"},
+  { route:"beruehmte-david-hume", name:"David Hume", subtyp:"SE9w8",
+    heading:"David Hume \u2013 Selbsterhaltender Typ 9",
+    teaser:"SE9w8 \u00b7 1711\u20131776. Schottischer Philosoph. A Treatise of Human Nature, radikaler Skeptizismus. Der Elefant, der an allem zweifelte \u2013 an der Kausalit\u00e4t, am Selbst, an Gott \u2013 und dabei gelassener blieb als jeder seiner erbitterten Kritiker.",
+    tags:["Philosophie"], gender:"m"},
   { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8",
     heading:"Hans-Dietrich Genscher \u2013 Selbsterhaltender Typ 9",
     teaser:"SE9w8 \u00b7 1927\u20132016. Au\u00dfenminister und Vizekanzler der Bundesrepublik Deutschland (1974\u20131992). 23 Jahre pr\u00e4gende au\u00dfenpolitische Kraft, Architekt der deutschen Einheit, Br\u00fcckenbauer zwischen Ost und West. Der Elefant, der nicht vergisst \u2013 und nie aufh\u00f6rt zu verhandeln. Tierentsprechung: Elefant.",
@@ -33201,7 +33207,7 @@ function inhalts\u00fcbersichtPage() {
           "Hunderassen",
         ], "Das Enneagramm im Alltag \u2013 von der Natur bis zur Kultur.")}
 
-        ${cat("Ber\u00fchmte Pers\u00f6nlichkeiten", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "174 Portr\u00e4ts aus Kultur, Musik, Sport & Gesellschaft \u2013 durch die Linse des Enneagramms.")}
+        ${cat("Ber\u00fchmte Pers\u00f6nlichkeiten", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "175 Portr\u00e4ts aus Kultur, Musik, Sport & Gesellschaft \u2013 durch die Linse des Enneagramms.")}
 
         ${cat("Spannende Kriminalf\u00e4lle (Kriminalpsychologie)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "74 tiefenpsychologische T\u00e4terportr\u00e4ts \u2013 bekannte F\u00e4lle durch die Linse des Enneagramms. Lehrreich, pr\u00e4zise, nie rei\u00dferisch.")}
 
@@ -34074,7 +34080,7 @@ function startPage() {
               ["&#9672;","Typensystem","9 Typen \u00b7 27 Subtypen \u00b7 3 Tests"],
               ["&#128101;","Beziehungen","Kindheit, F\u00fchrung, Partnerschaft"],
               ["&#127807;","Heilmittel","H\u00f6m., \u00d6le, Bachbl., Tee, Edelsteine"],
-              ["&#127775;","Ber\u00fchmte Pers\u00f6nlichkeiten","174 Portr\u00e4ts aus Kultur, Musik & Gesellschaft"],
+              ["&#127775;","Ber\u00fchmte Pers\u00f6nlichkeiten","175 Portr\u00e4ts aus Kultur, Musik & Gesellschaft"],
               ["&#128444;","Schaubilder","100+ farbige \u00dcbersichten"],
               ["&#128269;","Kriminalf\u00e4lle (Kriminalpsychologie)","74 psychologische T\u00e4terportr\u00e4ts"],
               ["&#127807;","Entwicklung","Heilungsweg, \u00dcbungen, Fragen"],
@@ -34875,7 +34881,7 @@ function kaufenPage() {
           <li>\ud83c\udfaf <strong>Subtypgenau</strong> \u2014 nicht \u201eTyp 4 allgemein", sondern genau dein Subtyp mit seiner eigenen Dynamik</li>
           <li>\ud83d\udd04 <strong>Lebt und w\u00e4chst</strong> \u2014 die App wird laufend aktualisiert und erweitert, du bekommst alle Updates automatisch</li>
           <li>\u26a1 <strong>Interaktiv</strong> \u2014 du erlebst dein Profil, statt es nur zu lesen</li>
-          <li>&#127775; <strong>Ber\u00fchmte Pers\u00f6nlichkeiten</strong> \u2014 174 Portr\u00e4ts aus Kultur, Musik &amp; Gesellschaft durch die Linse des Enneagramms</li>
+          <li>&#127775; <strong>Ber\u00fchmte Pers\u00f6nlichkeiten</strong> \u2014 175 Portr\u00e4ts aus Kultur, Musik &amp; Gesellschaft durch die Linse des Enneagramms</li>
           <li>&#128269; <strong>Spannende Kriminalf\u00e4lle (Kriminalpsychologie)</strong> \u2014 74 bekannte T\u00e4ter durch die Linse des Enneagramms: lehrreich, tiefenpsychologisch, nie rei\u00dferisch</li>
         </ul>
         <h3>F\u00fcr wen ist das gedacht?</h3>
@@ -45312,6 +45318,72 @@ function angelaMerkelPortraitPage() {
   `);
 }
 
+
+function davidHumePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-david-hume-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Hume</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltender Typ 9 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Schottischer Philosoph, 1711&ndash;1776 &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant, der an allem zweifelte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des selbsterhaltenden Typs 9 &ndash; geduldig, erdend, von einer Pr\u00e4senz, die nicht durch Lautst\u00e4rke entsteht, sondern durch Gewicht. Er l\u00e4sst sich nicht aus der Ruhe bringen, selbst wenn er die Grundfesten der Welt in Frage stellt. Er tr\u00e4gt seine Erkenntnisse gelassen, ohne sie jemandem aufzudr\u00e4ngen.</p>
+          <p class="vb-intro">David Hume wurde 1711 in Edinburgh geboren, studierte kurz Jura, brach das Studium ab und widmete sich stattdessen der Philosophie &ndash; gegen den Wunsch seiner Familie. Zeitgenossen beschrieben ihn \u00fcbereinstimmend als heiter, umg\u00e4nglich, ohne jede Bitterkeit, obwohl er zeitlebens gegen erbitterten Widerstand der Kirche und akademischer Institutionen anschrieb. Man nannte ihn &bdquo;le bon David&ldquo; &ndash; den guten David &ndash; selbst in Kreisen, die seine Ideen f\u00fcr gef\u00e4hrlich hielten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Gelassenheit als Methode</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> ist nach Naranjo der Subtyp, den er <em>Appetit</em> nannte &ndash; die Neigung, sich in Komfort und innerem Frieden einzurichten und Konflikten durch Gelassenheit zu begegnen, statt sie zu eskalieren. Bei Hume wurde diese Gelassenheit zur philosophischen Methode selbst: Er zweifelte an der Kausalit\u00e4t &ndash; der Annahme, dass ein Ereignis zwangsl\u00e4ufig ein anderes verursacht &ndash; an der Existenz eines stabilen Selbst und an jedem rationalen Gottesbeweis, und blieb dabei erstaunlich unaufgeregt.</p>
+          <p class="vb-intro">Sein Hauptwerk <em>A Treatise of Human Nature</em> (1739&ndash;40) erschien zun\u00e4chst fast unbeachtet &ndash; Hume selbst schrieb sp\u00e4ter, es sei &bdquo;tot von der Presse gefallen&ldquo;. Statt zu k\u00e4mpfen, \u00fcberarbeitete er die Ideen jahrzehntelang in zug\u00e4nglicherer Form, etwa in den <em>Essays, Moral and Political</em> und der <em>Enquiry Concerning Human Understanding</em> (1748). Kein Wutausbruch, kein R\u00fcckzug &ndash; nur die geduldige Wiederholung derselben Wahrheit in immer neuer Gestalt, bis sie geh\u00f6rt wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Der Mut zum radikalen Zweifel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel (w8)</strong> verleiht der selbsterhaltenden Neun eine Kraft, die man nach au\u00dfen kaum sieht, bis man ihre Konsequenzen begreift: die Bereitschaft, eine Position bis zum radikalen Ende zu denken, ohne vor der Reaktion der Umwelt zur\u00fcckzuschrecken. Die reine SE9 w\u00fcrde vielleicht ausweichen. Die SE9w8 zieht die Konsequenz &ndash; ruhig, aber unbeirrbar.</p>
+          <p class="vb-intro">Hume vertrat einen konsequenten religi\u00f6sen Skeptizismus, der ihm zeitlebens die begehrten Lehrst\u00fchle in Edinburgh und Glasgow verwehrte &ndash; kirchliche Einw\u00e4nde verhinderten beide Berufungen. Sein Werk <em>Dialogues Concerning Natural Religion</em>, das die klassischen Gottesbeweise systematisch demontiert, lie\u00df er aus Vorsicht erst nach seinem Tod ver\u00f6ffentlichen &ndash; nicht aus Feigheit, sondern aus der k\u00fchlen Berechnung des Achterfl\u00fcgels: Der Kampf lohnt sich nicht, solange man ihn nicht gewinnen kann. Man wartet den richtigen Moment ab.</p>
+          <p class="vb-intro">Diese Mischung aus Nachgiebigkeit und unersch\u00fctterlicher Grundhaltung zeigte sich auch 1766 in seiner Freundschaft mit dem franz\u00f6sischen Philosophen Jean-Jacques Rousseau, den Hume aus Frankreich nach England holte, als dieser politisch verfolgt wurde. Rousseau, zunehmend paranoid, wandte sich gegen Hume und beschuldigte ihn \u00f6ffentlich der Verschw\u00f6rung. Hume reagierte nicht mit Gegenangriff, sondern mit einer sachlichen, in ganz Europa verbreiteten Verteidigungsschrift &ndash; die Neun bleibt ruhig, aber der Achterfl\u00fcgel verteidigt seinen Ruf mit aller gebotenen H\u00e4rte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Schildkr\u00f6tensuppe: Genuss ohne Dogma</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hume war zeitlebens bekannt f\u00fcr seine Tafelfreuden &ndash; besonders f\u00fcr seine Vorliebe f\u00fcr Schildkr\u00f6tensuppe, ein im 18. Jahrhundert aufwendiges Delikatessengericht, das er regelm\u00e4\u00dfig bei geselligen Diners in Edinburgh servieren lie\u00df. Es ist eine sch\u00f6ne F\u00fcgung, dass ausgerechnet die Schildkr\u00f6te &ndash; in manchen Enneagramm-Traditionen selbst eine m\u00f6gliche Tierentsprechung des Typs 9 &ndash; zu seiner Leibspeise wurde: gem\u00e4chlich, gepanzert, unersch\u00fctterlich in ihrem eigenen Tempo, ganz wie der Elefant, nur kleiner.</p>
+          <p class="vb-intro">Diese Freude am sinnlichen Genuss war kein Widerspruch zu seiner Philosophie, sondern ihre praktische Konsequenz: Wer an letzten Gewissheiten zweifelt, kann sich umso ungezwungener dem Guten im Diesseits zuwenden. Hume lehnte jede Form von Askese ab und lebte, was er dachte &ndash; ein Skeptiker, der trotz aller Zweifel ein zutiefst zufriedener, geselliger Mensch war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Freiheit und ihre Grenzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE9w8 ist die F\u00e4higkeit, <strong>radikale Freiheit des Denkens mit innerem Frieden</strong> zu verbinden. Hume l\u00f6ste die Fesseln des dogmatischen Denkens seiner Zeit, ohne selbst zum Dogmatiker des Zweifels zu werden &ndash; er blieb neugierig, warmherzig, offen f\u00fcr Widerspruch. Adam Smith, sein enger Freund, beschrieb ihn nach seinem Tod als einen Menschen, der der Weisheit und Tugend so nahe kam, wie es die menschliche Natur wohl erlaubt.</p>
+          <p class="vb-intro">Der Schatten: Humes Schriften enthalten auch rassistische Passagen &ndash; etwa eine vielzitierte Fu\u00dfnote, in der er die geistigen F\u00e4higkeiten au\u00dfereurop\u00e4ischer V\u00f6lker herabsetzte. Diese Haltung, unentschuldbar und im Widerspruch zu seinem eigenen skeptischen Anspruch, zeigt die Kehrseite der SE9w8: die Bequemlichkeit des Appetits kann auch bedeuten, \u00fcberlieferte Vorurteile nie wirklich in Frage zu stellen, obwohl man sich r\u00fchmt, alles andere in Frage gestellt zu haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Elefant, der gelassen starb, wie er gelebt hatte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Neun f\u00fchrt von der Selbstvergessenheit zur <strong>wahren inneren Handlung</strong> &ndash; nicht zum Verschwinden im Komfort, sondern zur bewussten Teilnahme am eigenen Leben. Hume lebte diesen Weg bereits vor: Er wich den gro\u00dfen Fragen nie aus, verweigerte sich nur dem Streit um ihrer selbst willen.</p>
+          <p class="vb-intro">Als Hume 1776 im Sterben lag, besuchte ihn der Schriftsteller James Boswell, der von ihm wissen wollte, ob er angesichts des nahen Todes nicht doch an ein Leben nach dem Tod glaube. Hume antwortete ruhig und ohne jede Angst, es gebe keinen Grund zur Sorge &ndash; eine Gelassenheit, die Boswell zutiefst ersch\u00fctterte, weil sie so gar nicht zum erwarteten Bild eines &bdquo;gottlosen&ldquo; Sterbenden passte. Der Elefant aus Edinburgh verlie\u00df die Welt so, wie er sie durchquert hatte: unger\u00fchrt, neugierig, ohne die Bequemlichkeit einer Illusion zu brauchen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se9", label:"SE9 \u2013 Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
+      ])}
+    </div>
+  `);
+}
 
 function hansDietrichGenscherPortraitPage() {
   return shell(`
@@ -80311,6 +80383,7 @@ function render() {
     "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
           "beruehmte-eli-jaxon-bear": eliJaxonBearPortraitPage,
           "beruehmte-angela-merkel": angelaMerkelPortraitPage,
+    "beruehmte-david-hume": davidHumePortraitPage,
     "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
           "beruehmte-abida-parveen": abidaParveenPortraitPage,
           "beruehmte-kevin-costner": kevinCostnerPortraitPage,
