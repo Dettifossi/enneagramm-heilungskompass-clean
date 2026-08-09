@@ -34,7 +34,7 @@ export const MOTIVTEST = [
   {
     nr: 3,
     thema: "Aufmerksamkeit in Beziehungen",
-    frage: "In zwischenmenschlichen Beziehungen ist meine Aufmerk- samkeit besonders auf folgende zwei Punkte gerichtet:",
+    frage: "In zwischenmenschlichen Beziehungen ist meine Aufmerksamkeit besonders auf folgende zwei Punkte gerichtet:",
     antworten: {
       E: "Die Frage: Was ist an oder in der Situation richtig oder falsch?",
       Z: "Anerkennung für die eigene Person.",
@@ -50,7 +50,7 @@ export const MOTIVTEST = [
   {
     nr: 4,
     thema: "Aufmerksamkeitsrichtungen",
-    frage: "Meine Aufmerksamkeit ist im Allgemeinen besonders auf folgen- de zwei Fragen gerichtet:",
+    frage: "Meine Aufmerksamkeit ist im Allgemeinen besonders auf folgende zwei Fragen gerichtet:",
     antworten: {
       E: "Was ist falsch und muss korrigiert werden?",
       Z: "Was wird benötigt? Welche Bedürfnisse hast du?",
@@ -114,7 +114,7 @@ export const MOTIVTEST = [
   {
     nr: 8,
     thema: "Äußerungen (verbal)",
-    frage: "In welchen beiden der folgenden verbalen Äußerungen er- kenne ich mich am besten wieder?",
+    frage: "In welchen beiden der folgenden verbalen Äußerungen erkenne ich mich am besten wieder?",
     antworten: {
       E: "nutzt wiederholt beurteilende, unbedingte Worte, z.B. „sollte“ , „müsste“ , „richtig“ , „falsch“ , „muss“ , „würde ich am besten“ etc., äußert häufig Meinungen, benutzt eine sehr präzise Sprache",
       Z: "häufige Fragen an andere, sanfte Stimme, außer wenn verärgert, macht Komplimente und schmeichelt anderen",
@@ -162,7 +162,7 @@ export const MOTIVTEST = [
   {
     nr: 11,
     thema: "Autotypen",
-    frage: "Welche beiden Autotypen-Kategorien bevorzuge ich persön- lich unabhängig von meiner aktuellen Lebenssituation?",
+    frage: "Welche beiden Autotypen-Kategorien bevorzuge ich persönlich unabhängig von meiner aktuellen Lebenssituation?",
     antworten: {
       E: "Elegante Limousine",
       Z: "Wohnmobil",
@@ -210,7 +210,7 @@ export const MOTIVTEST = [
   {
     nr: 14,
     thema: "Berufsausübung",
-    frage: "In meinem Beruf sind mir folgende zwei Aspekte von beson- derer Bedeutung:",
+    frage: "In meinem Beruf sind mir folgende zwei Aspekte von besonderer Bedeutung:",
     antworten: {
       E: "Weltverbesserung",
       Z: "Lebenshilfe für andere",
@@ -226,7 +226,7 @@ export const MOTIVTEST = [
   {
     nr: 15,
     thema: "Besondere Abneigungen",
-    frage: "In meinem Leben gibt es zwei nachfolgende Bereiche, woge- gen ich persönlich eine ganz besondere Abneigung besitze:",
+    frage: "In meinem Leben gibt es zwei nachfolgende Bereiche, wogegen ich persönlich eine ganz besondere Abneigung besitze:",
     antworten: {
       E: "sparsame Ausführung, Laxheit, Verantwortungslosigkeit",
       Z: "nicht anerkannt werden, Abweisung, unfreundliches, unaufmerksames Verhalten",
@@ -290,7 +290,7 @@ export const MOTIVTEST = [
   {
     nr: 19,
     thema: "Blindheit/blinder Fleck",
-    frage: "Manchmal kommt es bei mir zu einer eingeschränkten Wahr- nehmung der Realität, einer „Blindheit/blinder Fleck“ für:",
+    frage: "Manchmal kommt es bei mir zu einer eingeschränkten Wahrnehmung der Realität, einer „Blindheit/blinder Fleck“ für:",
     antworten: {
       E: "emotionale Zwischentöne/eigene Gereiztheit",
       Z: "die Würde anderer/die eigenen Bedürfnisse und Gefühle",
@@ -306,7 +306,7 @@ export const MOTIVTEST = [
   {
     nr: 20,
     thema: "Buchlektüre",
-    frage: "In meiner Freizeit sollte ein gutes Buch auf jeden Fall die folgen- den zwei Kriterien erfüllen:",
+    frage: "In meiner Freizeit sollte ein gutes Buch auf jeden Fall die folgenden zwei Kriterien erfüllen:",
     antworten: {
       E: "anspruchsvoll und weiterbildend",
       Z: "Lebenshilfe gebend",
@@ -434,7 +434,7 @@ export const MOTIVTEST = [
   {
     nr: 28,
     thema: "Erziehungserfahrungen",
-    frage: "In meiner Kindheit musste ich leider besonders zwei der fol- genden Erziehungserfahrungen in schmerzlicher Weise erleben:",
+    frage: "In meiner Kindheit musste ich leider besonders zwei der folgenden Erziehungserfahrungen in schmerzlicher Weise erleben:",
     antworten: {
       E: "Bestrafung – Belohnung!",
       Z: "Liebeskampf!",
@@ -466,7 +466,7 @@ export const MOTIVTEST = [
   {
     nr: 30,
     thema: "Fallen",
-    frage: "Jeder Enneatyp kann auf seiner Sinnsuche einen charakteris- tischen Irrweg einschlagen, welche zwei sind es bei mir vor allem?",
+    frage: "Jeder Enneatyp kann auf seiner Sinnsuche einen charakteristischen Irrweg einschlagen, welche zwei sind es bei mir vor allem?",
     antworten: {
       E: "Meine Pflicht erfüllen, empfindlich sein, innerlich gereizt, starr!",
       Z: "Gute Absichten, Schmeichelei, Gefälligkeit, Mitmenschen manipulieren!",
@@ -546,7 +546,7 @@ export const MOTIVTEST = [
   {
     nr: 35,
     thema: "Geschenkideen",
-    frage: "Mit welchen beiden Geschenkideen könnte man mir persön- lich eine besondere Freude bereiten?",
+    frage: "Mit welchen beiden Geschenkideen könnte man mir persönlich eine besondere Freude bereiten?",
     antworten: {
       E: "einen Tagesplaner",
       Z: "ein(en) Wellnesstag oder -wochenende",
@@ -626,7 +626,7 @@ export const MOTIVTEST = [
   {
     nr: 40,
     thema: "Grundängste",
-    frage: "Welche zwei Grundängste, sonstige Befürchtungen und Un- sicherheiten sind in mir besonders verankert?",
+    frage: "Welche zwei Grundängste, sonstige Befürchtungen und Unsicherheiten sind in mir besonders verankert?",
     antworten: {
       E: "verurteilt zu werden, nicht gut genug zu sein, einen Fehler zu begehen",
       Z: "ungeliebt zu sein, vor emotionaler Ablehnung, zurückgewiesen zu werden",
@@ -642,7 +642,7 @@ export const MOTIVTEST = [
   {
     nr: 41,
     thema: "Handlungsbereitschaft",
-    frage: "Bei den folgenden Beschreibungen in Bezug auf meine Hand- lungsbereitschaft sehe ich mich in zwei Punkten besonders:",
+    frage: "Bei den folgenden Beschreibungen in Bezug auf meine Handlungsbereitschaft sehe ich mich in zwei Punkten besonders:",
     antworten: {
       E: "Unnachsichtiger Perfektionist – perfektionsorientiert",
       Z: "Rücksichtsvoller Helfer – liebesorientiert",
@@ -722,7 +722,7 @@ export const MOTIVTEST = [
   {
     nr: 46,
     thema: "Innere Leitsätze",
-    frage: "Folgende innere Leitsätze begründen womöglich innere Wider- stände in mir und verhindern dadurch meine Entwicklung:",
+    frage: "Folgende innere Leitsätze begründen womöglich innere Widerstände in mir und verhindern dadurch meine Entwicklung:",
     antworten: {
       E: "Ich sollte das Richtige tun (Reformer).",
       Z: "Ich sollte anderen helfen (Helfer).",
@@ -786,7 +786,7 @@ export const MOTIVTEST = [
   {
     nr: 50,
     thema: "Kindheitsdefizite",
-    frage: "In meiner Kindheit herrschten zwei der nachfolgenden Kind- heitsdefizite (elterliche Ansprüche) in besonderem Maße vor:",
+    frage: "In meiner Kindheit herrschten zwei der nachfolgenden Kindheitsdefizite (elterliche Ansprüche) in besonderem Maße vor:",
     antworten: {
       E: "Du darfst keine Fehler machen.",
       Z: "Du darfst keine eigenen Bedürfnisse haben!",
@@ -882,7 +882,7 @@ export const MOTIVTEST = [
   {
     nr: 56,
     thema: "Liebe (Ausdrucksweisen)",
-    frage: "Meine Liebe drückt sich vor allem in zwei der folgenden Aus- drucksweisen aus:",
+    frage: "Meine Liebe drückt sich vor allem in zwei der folgenden Ausdrucksweisen aus:",
     antworten: {
       E: "Väterlich-fördernde Liebe (vollkommen)",
       Z: "Mütterlich-unterstützende Liebe (zwischenmenschlich)",
@@ -946,7 +946,7 @@ export const MOTIVTEST = [
   {
     nr: 60,
     thema: "Masken",
-    frage: "Welche beiden Masken setze ich gegenüber meinen Mitmen- schen nach außen hin am häufigsten auf?",
+    frage: "Welche beiden Masken setze ich gegenüber meinen Mitmenschen nach außen hin am häufigsten auf?",
     antworten: {
       E: "stets untadelig, vernünftig, gemäßigt, „gut“ , einsichtig, klug, rational, objektiv, moralisch, ethisch, über den Dingen stehend",
       Z: "stets großzügig, liebevoll, überlegt, warmherzig, mitfühlend, selbstlos, besorgt, leidenschaftlich, gutmütig, überlegt",
@@ -962,7 +962,7 @@ export const MOTIVTEST = [
   {
     nr: 61,
     thema: "Mimik",
-    frage: "Wenn ich erneut in den Spiegel schaue und meine Mimik wahr- nehme, wie beschreibe ich diese am besten auf zwei Arten:",
+    frage: "Wenn ich erneut in den Spiegel schaue und meine Mimik wahrnehme, wie beschreibe ich diese am besten auf zwei Arten:",
     antworten: {
       E: "Stirnrunzeln, vertikale Falte mittig zwischen den Augen, prüfend",
       Z: "kümmernde, zugewandte, mütterliche, besorgte, wohlwollende Mimik",
@@ -1010,7 +1010,7 @@ export const MOTIVTEST = [
   {
     nr: 64,
     thema: "Naturerscheinungen",
-    frage: "Zwei der nachfolgenden Naturerscheinungen mag ich persön- lich besonders gern:",
+    frage: "Zwei der nachfolgenden Naturerscheinungen mag ich persönlich besonders gern:",
     antworten: {
       E: "gepflegte Parks, englischer Rasen, die natürliche Ordnung der Natur",
       Z: "Heilpflanzen, Heilkräuter, Artenvielfalt der Tiere und Pflanzen",
@@ -1074,7 +1074,7 @@ export const MOTIVTEST = [
   {
     nr: 68,
     thema: "Positive Zustimmungen",
-    frage: "Wenn ich mir ganz bewusst die folgenden Zustimmungen durch- lese, welche beiden berühren mich emotional besonders?",
+    frage: "Wenn ich mir ganz bewusst die folgenden Zustimmungen durchlese, welche beiden berühren mich emotional besonders?",
     antworten: {
       E: "Du bist gut!",
       Z: "Du bist erwünscht!",
@@ -1186,7 +1186,7 @@ export const MOTIVTEST = [
   {
     nr: 75,
     thema: "Schwerpunkte im Missverhalten",
-    frage: "Welche zwei Schwerpunkte im Missverhalten sind für mich be- sonders typisch, wenn ich psychisch nicht im Gleichgewicht bin?",
+    frage: "Welche zwei Schwerpunkte im Missverhalten sind für mich besonders typisch, wenn ich psychisch nicht im Gleichgewicht bin?",
     antworten: {
       E: "Ich unterdrücke meine Impulse tendenziell durch Selbstkontrolle.",
       Z: "Ich manipuliere mitunter meine Mitmenschen, auch wenn ich es eigentlich nur gut mit ihnen meine.",
@@ -1314,7 +1314,7 @@ export const MOTIVTEST = [
   {
     nr: 83,
     thema: "Statements des Partners (positiv)",
-    frage: "Welche beiden (positiven) Statement des Partners oder womög- lich auch anderer naher Mitmenschen höre ich tendenziell öfter?",
+    frage: "Welche beiden (positiven) Statement des Partners oder womöglich auch anderer naher Mitmenschen höre ich tendenziell öfter?",
     antworten: {
       E: "Du bist humorvoll, ehrlich, treu, anspruchsvoll und oft mit Leib und Seele bei der Sache.",
       Z: "Du gibst mir das Gefühl, etwas Besonderes zu sein, bist großzügig und liebevoll.",
@@ -1330,7 +1330,7 @@ export const MOTIVTEST = [
   {
     nr: 84,
     thema: "Statements des Partners (negativ)",
-    frage: "Welche beiden (negativen) Statement des Partners oder womög- lich auch anderer naher Mitmenschen höre ich tendenziell öfter?",
+    frage: "Welche beiden (negativen) Statement des Partners oder womöglich auch anderer naher Mitmenschen höre ich tendenziell öfter?",
     antworten: {
       E: "Du kritisierst mich sehr oft, bitte akzeptiere, dass ich nicht perfekt bin!",
       Z: "Du musst mich nicht immer nur dazu bringen, dich zu lieben, zeige mir lieber, was du in Liebesdingen benötigst!",
@@ -1394,7 +1394,7 @@ export const MOTIVTEST = [
   {
     nr: 88,
     thema: "Tierentsprechungen",
-    frage: "Mit welchen beiden Aufzählungen von Tieren kann ich mich per- sönlich spontan am besten identifizieren?",
+    frage: "Mit welchen beiden Aufzählungen von Tieren kann ich mich persönlich spontan am besten identifizieren?",
     antworten: {
       E: "Ameise, Kranich, Geier, Gans, Biene, Ziegenbock, Terrier, Elch",
       Z: "Katze, Esel, Schwein, Känguru, Pandabär, Seepferdchen, Schwan, Henne",
@@ -1458,7 +1458,7 @@ export const MOTIVTEST = [
   {
     nr: 92,
     thema: "Unfallreaktionen",
-    frage: "Anlässlich eines Unfalls reagiere ich vor allem auf zwei der fol- genden Arten (Reaktionen auf einen Unfall):",
+    frage: "Anlässlich eines Unfalls reagiere ich vor allem auf zwei der folgenden Arten (Reaktionen auf einen Unfall):",
     antworten: {
       E: "Ich erkenne die ethische Dimension der Situation, frage, wer verantwortlich ist und sammle diesbezüglich Informationen.",
       Z: "Ich erkenne die menschliche Dimension der Situation und frage mich, ob den Unfallbeteiligten etwas passiert ist und wie ich helfen kann.",
@@ -1506,7 +1506,7 @@ export const MOTIVTEST = [
   {
     nr: 95,
     thema: "Vermeidungsstrategien",
-    frage: "Folgende zwei Vermeidungsstrategien sind mir persönlich be- sonders vertraut:",
+    frage: "Folgende zwei Vermeidungsstrategien sind mir persönlich besonders vertraut:",
     antworten: {
       E: "Ich vermeide Zorn/Ärger und suche nach Perfektion!",
       Z: "Ich vermeide Bedürftigkeit und suche nach Liebe und Geliebtsein!",
