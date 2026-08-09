@@ -2507,10 +2507,10 @@ function bindOnboarding() {
 // TODO Detlef: In Stripe unter "Payment Links" vier Links anlegen und die Platzhalter unten ersetzen.
 // Bei "custom" beim Anlegen des Payment Links die Option "Kunde gibt eigenen Betrag ein" aktivieren.
 const SUPPORT_LINKS = {
-  amount3:  "https://buy.stripe.com/PLATZHALTER_3EUR",
-  amount5:  "https://buy.stripe.com/PLATZHALTER_5EUR",
-  amount10: "https://buy.stripe.com/PLATZHALTER_10EUR",
-  custom:   "https://buy.stripe.com/PLATZHALTER_WUNSCHBETRAG",
+  amount3:  "https://buy.stripe.com/9B600j9sQ7Sq8dsdzB4gg3H",
+  amount5:  "https://buy.stripe.com/eVq9AT34s8WudxMeDF4gg3I",
+  amount10: "https://buy.stripe.com/eVq00j0WkfkS79obrt4gg3J",
+  custom:   "https://buy.stripe.com/eVqfZh6gE1u29hwgLN4gg3K",
 };
 
 function openSupportModal() {
