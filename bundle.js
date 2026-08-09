@@ -24057,6 +24057,7 @@ const registerEntries = [
   { term: "Friedrich Merz",                route: "beruehmte-friedrich-merz",              description: "Portrait: SO1w9 \u00b7 Sozialer Typ 1 \u00b7 CDU-Vorsitzender, Wirtschaftspolitiker" },
   { term: "Fiona Apple",                   route: "beruehmte-fiona-apple",                 description: "Portrait: SO4w5 \u00b7 Sozialer Typ 4 \u00b7 Musikerin, Songwriterin" },
     { term: "Ruth Bader Ginsburg", route: "beruehmte-ruth-bader-ginsburg", description: "Portrait: SX8w9 \u00b7 Sexueller Typ 8 \u00b7 US-Bundesrichterin, Supreme Court, RBG, Geschlechtergleichstellung, Krokodil" },
+    { term: "Gerhard Schr\u00f6der", route: "beruehmte-gerhard-schroeder", description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Bundeskanzler, Agenda 2010, Krokodil" },
     { term: "Ruth Bader Ginsburg", route: "beruehmte-ruth-bader-ginsburg", description: "Portrait: SX8w9 \u00b7 Sexueller Typ 8 \u00b7 US-Bundesrichterin, Supreme Court, RBG, Geschlechtergleichstellung, Krokodil" },
   { term: "Genesis P-Orridge",             route: "beruehmte-genesis-p-orridge",           description: "Portrait: SX4w5 \u00b7 Sexueller Typ 4 \u00b7 K\u00fcnstler, Pandrogynie, Avantgarde" },
   { term: "Gertrude Elion",                route: "beruehmte-gertrude-elion",              description: "Portrait: SE5w6 \u00b7 Selbsterhaltender Typ 5 \u00b7 Nobelpreis-Biochemikerin" },
@@ -24133,6 +24134,7 @@ const registerEntries = [
   { term: "Pharrell Williams",             route: "beruehmte-pharrell-williams",           description: "Portrait: SO3w2 \u00b7 Sozialer Typ 3 \u00b7 Musikproduzent, Musiker, Modedesigner" },
   { term: "Prof. Dr. Sucharit Bhakdi",     route: "beruehmte-sucharit-bhakdi",             description: "Portrait: SO2w1 \u00b7 Sozialer Typ 2 \u00b7 Mikrobiologe, Pandemiekritiker" },
   { term: "Queen Elizabeth II.",           route: "beruehmte-queen-elizabeth-ii",          description: "Portrait: SE1w9 \u00b7 Selbsterhaltender Typ 1 \u00b7 Monarchin, Pflicht & Tradition" },
+  { term: "Konrad Adenauer",               route: "beruehmte-konrad-adenauer",             description: "Portrait: SE1w9 \u00b7 Selbsterhaltender Typ 1 \u00b7 Erster Bundeskanzler, Wiederaufbau, Westbindung" },
   { term: "Grigori Rasputin",              route: "beruehmte-rasputin",                    description: "Portrait: SX1w9 \u00b7 Sexueller Typ 1 \u00b7 Wanderm\u00f6nch, Heiler am Zarenhof" },
   { term: "Jesus Christus",                route: "beruehmte-jesus-christus",              description: "Portrait: SO2w1 \u00b7 Sozialer Typ 2 \u00b7 Wanderprediger, Religionsstifter" },
   { term: "Friedensreich Hundertwasser",    route: "beruehmte-hundertwasser",               description: "Portrait: SX9w1 \u00b7 Sexueller Typ 9 \u00b7 Maler, Architekt, \u00d6kologe" },
@@ -24343,6 +24345,7 @@ const registerEntriesEN = [
   { term: "Ursula von der Leyen", route: "beruehmte-ursula-von-der-leyen", description: "Portrait: SP1w9 \u00b7 Social Type 1 \u00b7 EU Commission President, Pfizergate affair" },
   { term: "Friedrich Merz", route: "beruehmte-friedrich-merz", description: "Portrait: SO1w9 \u00b7 Social Type 1 \u00b7 CDU chairman, economic politician" },
   { term: "Fiona Apple", route: "beruehmte-fiona-apple", description: "Portrait: SO4w5 \u00b7 Social Type 4 \u00b7 Musician, songwriter" },
+  { term: "Gerhard Schr\u00f6der", route: "beruehmte-gerhard-schroeder", description: "Portrait: SX8w7 \u00b7 Sexual Type 8 \u00b7 Chancellor, Agenda 2010, Crocodile" },
   { term: "Ruth Bader Ginsburg", route: "beruehmte-ruth-bader-ginsburg", description: "Portrait: SX8w9 \u00b7 Sexual Type 8 \u00b7 US-Bundesrichterin, Supreme Court, RBG, Geschlechtergleichstellung, Crocodile" },
   { term: "Genesis P-Orridge", route: "beruehmte-genesis-p-orridge", description: "Portrait: SX4w5 \u00b7 Sexual Type 4 \u00b7 Artist, Pandrogyny, avant-garde" },
   { term: "Gertrude Elion", route: "beruehmte-gertrude-elion", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 Nobel Prize biochemist" },
@@ -24416,6 +24419,7 @@ const registerEntriesEN = [
   { term: "Pharrell Williams", route: "beruehmte-pharrell-williams", description: "Portrait: SO3w2 \u00b7 Social Type 3 \u00b7 Music producer, musician, fashion designer" },
   { term: "Prof. Dr. Sucharit Bhakdi", route: "beruehmte-sucharit-bhakdi", description: "Portrait: SO2w1 \u00b7 Social Type 2 \u00b7 Microbiologist, pandemic critic" },
   { term: "Queen Elizabeth II.", route: "beruehmte-queen-elizabeth-ii", description: "Portrait: SE1w9 \u00b7 Self-Preservation Type 1 \u00b7 Monarch, duty & tradition" },
+  { term: "Konrad Adenauer", route: "beruehmte-konrad-adenauer", description: "Portrait: SE1w9 \u00b7 Self-Preservation Type 1 \u00b7 First Chancellor, reconstruction, Western integration" },
   { term: "Grigori Rasputin", route: "beruehmte-rasputin", description: "Portrait: SX1w9 \u00b7 Sexual Type 1 \u00b7 Wandering monk, healer at the Tsar's court" },
   { term: "Jesus Christ", route: "beruehmte-jesus-christus", description: "Portrait: SO2w1 \u00b7 Social Type 2 \u00b7 Itinerant preacher, founder of a world religion" },
   { term: "Friedensreich Hundertwasser", route: "beruehmte-hundertwasser", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 Painter, architect, ecologist" },
@@ -31213,6 +31217,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ken Follett \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 geb. 1949. Bestseller-Autor historischer Romane, u. a. \u00fcber eine mittelalterliche Kathedrale und die Weltkriege des 20. Jahrhunderts. \u00dcber sechzig Jahre schriftstellerische Konstanz, akribische Recherche und ein ruhiger, unersch\u00fctterlicher Arbeitsrhythmus. Tierentsprechung: Adler.",
     tags:["Literatur"] , gender:"m"},
+  { route:"beruehmte-konrad-adenauer", name:"Konrad Adenauer", added:"2026-08-09", subtyp:"SE1w9",
+    heading:"Konrad Adenauer \u2013 Selbsterhaltender Typ 1",
+    teaser:"SE1w9 \u00b7 1876\u20131967. Erster Bundeskanzler der Bundesrepublik Deutschland (1949\u20131963). Wiederaufbau, Westbindung, deutsch-franz\u00f6sische Auss\u00f6hnung. Der Adler, der mit 73 Jahren noch einmal aufstieg, um ein zerbrochenes Land wieder flugf\u00e4hig zu machen.",
+    tags:["Politik","Geschichte"], gender:"m"},
   { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
     heading:"Christoph Waltz \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w2 \u00b7 \u201eDer Adler\u201c, geb. 1956. Zweifacher Oscar-Preistr\u00e4ger f\u00fcr Inglourious Basterds und Django Unchained. F\u00fcnfzig Jahre Handwerk, ein Leben lang innere Pr\u00e4zision \u2013 dann der Moment, auf den der Adler gewartet hatte. Tierentsprechung: Adler.",
@@ -31821,6 +31829,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Diogenes \u2013 Sexueller Typ 8",
     teaser:"SX8w7 \u00b7 geb. um 412 v. Chr. in Sinope, gest. 323 v. Chr. in Korinth. Philosoph, Begr\u00fcnder des Kynismus, lebte in einer Tonne. Das Krokodil, das jede gesellschaftliche Konvention \u00f6ffentlich zerbiss \u2013 schamlos, kompromisslos, frei.",
     tags:["Philosophie"], gender:"m"},
+  { route:"beruehmte-gerhard-schroeder", name:"Gerhard Schr\u00f6der", added:"2026-08-09", subtyp:"SX8w7",
+    heading:"Gerhard Schr\u00f6der \u2013 Sexueller Typ 8",
+    teaser:"SX8w7 \u00b7 geb. 1944. Deutscher Bundeskanzler (1998\u20132005). Agenda 2010, Basta-Prinzip, Medienkanzler. Das Krokodil, das den Kraftakt der Reform gegen jeden Widerstand durchsetzte \u2013 und danach seinen eigenen Weg unbeirrt weiterging.",
+    tags:["Politik"], gender:"m"},
   { route:"beruehmte-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", added:"2026-07-22", subtyp:"SX8w9",
     heading:"Ruth Bader Ginsburg \u2013 Sexueller Typ 8",
     teaser:"SX8w9 \u00b7 1933\u20132020. US-Bundesrichterin am Supreme Court, RBG. Pionierin der Geschlechtergleichstellung, legendary dissenter. Das Krokodil, das bleibt \u2013 der Abdruck ist geblieben.",
@@ -45424,6 +45436,135 @@ function helmutKohlPortraitPage() {
     </div>
   `);
 }
+function gerhardSchroederPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-gerhard-schroeder-portrait.jpg" alt="Krokodil" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gerhard Schr\u00f6der</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexueller Typ 8 mit Siebenerfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Deutscher Bundeskanzler, geb. 1944 &ndash; Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil im Anzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier der sexuellen Acht &ndash; lauernd, kraftvoll, im entscheidenden Moment blitzschnell zuschnappend. Es teilt sein Revier mit niemandem und misst seine Kraft im direkten, unmittelbaren Duell &ndash; nicht durch langsame Strategie, sondern durch den einen entscheidenden Biss zur richtigen Zeit.</p>
+          <p class="vb-intro">Gerhard Schr\u00f6der wurde 1944 in Mossenberg (Lippe) geboren, wenige Wochen vor dem Kriegstod seines Vaters, den er nie kennenlernte. Er wuchs in \u00e4rmlichen Verh\u00e4ltnissen auf, arbeitete fr\u00fch in einem Eisenwarengesch\u00e4ft, holte \u00fcber den zweiten Bildungsweg Abitur und Jurastudium nach. Der Aufstieg vom Arbeiterkind zum Bundeskanzler war f\u00fcr ihn selbst stets Teil seiner politischen Erz\u00e4hlung &ndash; ein Beweis daf\u00fcr, dass Wille und Kampfkraft Herkunft \u00fcberwinden k\u00f6nnen. Als Jusochef lie\u00df er sich 1982 vor dem Kanzleramtszaun fotografieren, die H\u00e4nde am Gitter, mit dem Satz: &bdquo;Ich will da rein.&ldquo; Ein Bild, das seine ganze Instinktausrichtung vorwegnahm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Acht: Der Kampf als Lebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong> sucht die Intensit\u00e4t im direkten Duell &ndash; sie testet ihre Kraft am Widerstand eines Gegen\u00fcbers, ob politischer Rivale oder pers\u00f6nliche Beziehung, und lebt in einem st\u00e4ndigen Wechsel aus Eroberung und Behauptung. Schr\u00f6ders politischer Stil war genau das: die direkte Konfrontation, das Basta-Prinzip, mit dem er innerparteiliche Debatten kurzerhand beendete, wenn er seine Entscheidung getroffen hatte.</p>
+          <p class="vb-intro">Auch sein Privatleben folgte diesem Muster der intensiven, wechselnden Bindungen: Schr\u00f6der war viermal verheiratet, jede Ehe von gro\u00dfer \u00f6ffentlicher Aufmerksamkeit begleitet. F\u00fcr die sexuelle Acht ist das kein Zufall &ndash; sie sucht die eine Beziehung, in der volle Intensit\u00e4t m\u00f6glich ist, und wenn diese erlischt, wird sie mit derselben Entschlossenheit beendet, mit der sie begonnen wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerfl\u00fcgel: Charisma und Risikofreude</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerfl\u00fcgel (w7)</strong> verleiht der reinen Acht Leichtigkeit, Charme und eine gewisse Lust am Risiko &ndash; die Konfrontation wird nicht nur ausgetragen, sondern regelrecht genossen. Schr\u00f6ders Auftreten &ndash; die Cohiba-Zigarre, der Brioni-Anzug, das breite Grinsen bei Wahlsiegen &ndash; war genau diese Mischung aus Kampfeslust und Lebensfreude, die ihn zum &bdquo;Medienkanzler&ldquo; machte, dem ersten deutschen Regierungschef, der Politik konsequent als mediales Ereignis inszenierte.</p>
+          <p class="vb-intro">Diese Risikofreude zeigte sich am deutlichsten im Wahlkampf 2005: Nach einer verlorenen NRW-Landtagswahl setzte Schr\u00f6der in einer spontanen, f\u00fcr viele \u00fcberraschenden Entscheidung Neuwahlen im Bund an &ndash; ein Alles-oder-nichts-Zug, typisch f\u00fcr die SX8w7, die lieber die volle Konfrontation sucht als ein langsames Vergl\u00fchen an der Macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Agenda 2010: Der gro\u00dfe Kraftakt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2003 verk\u00fcndete Schr\u00f6der die Agenda 2010 &ndash; ein tiefgreifendes Reformpaket aus Arbeitsmarkt-, Sozial- und Steuerreformen (darunter die Hartz-Gesetze), das den deutschen Sozialstaat grundlegend umbaute. Er setzte es gegen erbitterten Widerstand aus den eigenen Reihen durch, verband die Abstimmung im Bundestag sogar mit der Vertrauensfrage &ndash; ein Vabanquespiel, das seine Kanzlerschaft kosten konnte und am Ende tats\u00e4chlich zu seiner Abwahl 2005 beitrug.</p>
+          <p class="vb-intro">Dieser Wille, eine unpopul\u00e4re, aber aus seiner Sicht notwendige Entscheidung mit voller Wucht durchzusetzen, koste es, was es wolle, ist die reinste Auspr\u00e4gung der Acht: Macht wird nicht verwaltet, sondern eingesetzt, um etwas zu bewegen &ndash; selbst um den Preis des eigenen Sturzes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX8w7 ist die F\u00e4higkeit, <strong>Mut und Charisma</strong> zu verbinden &ndash; unpopul\u00e4re, aber notwendige Entscheidungen mit voller \u00dcberzeugungskraft zu vertreten, ohne sich von Widerstand einsch\u00fcchtern zu lassen. Schr\u00f6ders Reformen waren umstritten, aber sie zeigten eine F\u00fchrungskraft, die bereit war, das eigene politische Kapital f\u00fcr eine Sache aufs Spiel zu setzen.</p>
+          <p class="vb-intro">Der Schatten wurde nach seiner Kanzlerschaft sichtbar: Nur wenige Wochen nach der Abwahl trat Schr\u00f6der in den Aufsichtsrat des Nord-Stream-Konsortiums ein, dessen Genehmigung er noch als Kanzler mit vorangetrieben hatte &ndash; ein Wechsel, der massive Kritik an der Vermischung von Amt und pers\u00f6nlichem Vorteil ausl\u00f6ste. Sp\u00e4ter intensivierte er seine N\u00e4he zum russischen Staatspr\u00e4sidenten Wladimir Putin weiter, auch nach dessen Angriffskrieg gegen die Ukraine 2022, und verlor daf\u00fcr \u00c4mter, Ehrungen und weite Teile seines politischen Ansehens. Die Kehrseite der sexuellen Acht: Die Loyalit\u00e4t zu einer einmal eingegangenen, intensiven Beziehung kann so stark werden, dass sie gegen jede \u00f6ffentliche Vernunft und gegen den eigenen fr\u00fcheren Ruf verteidigt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Krokodil, das die B\u00fchne verlie\u00df, ohne zu verschwinden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gerhard Schr\u00f6der lebt bis heute als eine der umstrittensten Figuren der deutschen Nachkriegspolitik &ndash; gefeiert f\u00fcr die Agenda 2010 und den Mut zur Reform, kritisiert f\u00fcr seine N\u00e4he zu Russland und seine wirtschaftlichen Verflechtungen nach dem Amt. F\u00fcr die sexuelle Acht mit Siebenerfl\u00fcgel ist genau diese Polarit\u00e4t typisch: Sie l\u00e4sst niemanden kalt, weder im Sieg noch im Fall, und verweigert sich bis zuletzt der leisen, unauff\u00e4lligen Rolle des Elder Statesman.</p>
+          <p class="vb-intro">Das Krokodil zieht sich nicht ins Ufergeb\u00fcsch zur\u00fcck, wenn die Kraft nachl\u00e4sst &ndash; es bleibt sichtbar, k\u00e4mpft weiter um seinen Platz im Wasser, selbst wenn die anderen Tiere l\u00e4ngst Abstand halten.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx8", label:"SX8 \u2013 Das Krokodil: Subtyp-Profil"},
+        {route:"astrologie-gerhard-schroeder", label:"Astrologie-Portr\xe4t: Gerhard Schr\xf6der (SX8w7)"},
+        {route:"beruehmte-donald-trump", label:"Portr\xe4t: Donald J. Trump (SX8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function konradAdenauerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-konrad-adenauer-portrait.jpg" alt="Adler" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Konrad Adenauer</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Erster Bundeskanzler der Bundesrepublik Deutschland, 1876&ndash;1967 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler \u00fcber den Tr\u00fcmmern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; er baut sein Nest hoch \u00fcber dem Boden, fernab von Chaos und Zufall, und \u00fcberblickt von dort sein Revier mit unbestechlicher Klarheit. Er handelt selten aus dem Impuls heraus; sein Flug ist berechnet, seine Beute sorgf\u00e4ltig anvisiert, sein Territorium mit \u00e4u\u00dferster Sorgfalt verteidigt.</p>
+          <p class="vb-intro">Konrad Adenauer wurde 1876 in K\u00f6ln geboren, studierte Jura, wurde 1917 K\u00f6lner Oberb\u00fcrgermeister &ndash; ein Amt, das er mit disziplinierter Arbeitsmoral und gro\u00dfem st\u00e4dtebaulichem Weitblick ausf\u00fcllte, unter anderem mit der Anlage des K\u00f6lner Gr\u00fcng\u00fcrtels. 1933 wurde er von den Nationalsozialisten aus dem Amt gedr\u00e4ngt, mehrfach verhaftet, musste zeitweise untertauchen. Nach dem Krieg, im Alter von bereits 73 Jahren, begann seine eigentliche historische Rolle: 1949 wurde er erster Bundeskanzler der neu gegr\u00fcndeten Bundesrepublik Deutschland &ndash; und blieb es 14 Jahre lang, bis 1963.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Ordnung als \u00dcberlebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> sucht Sicherheit durch Kontrolle, Sparsamkeit und minuti\u00f6se Vorsorge &ndash; sie baut sich, oft im Stillen, ein solides Fundament, auf das sie sich in der Krise verlassen kann. Adenauer war f\u00fcr seine fast asketische Disziplin und seinen sprichw\u00f6rtlichen Flei\u00df bekannt: Er stand jeden Tag vor sechs Uhr auf, arbeitete strukturiert bis in den sp\u00e4ten Abend, kontrollierte Akten und Details pers\u00f6nlich, wo andere l\u00e4ngst delegiert h\u00e4tten.</p>
+          <p class="vb-intro">Diese Ordnungsliebe \u00fcbertrug er auf den Wiederaufbau eines v\u00f6llig zerst\u00f6rten Landes: Die Wirtschaftspolitik der sozialen Marktwirtschaft unter Ludwig Erhard, die er als Kanzler st\u00fctzte und absicherte, war genau dieses Prinzip im gro\u00dfen Ma\u00dfstab &ndash; Freiheit des Marktes, aber eingebettet in feste, verl\u00e4ssliche Regeln und soziale Sicherungen. Aus den Tr\u00fcmmern von 1945 entstand binnen weniger Jahre das &bdquo;Wirtschaftswunder&ldquo; &ndash; eine geordnete, disziplinierte Aufbauleistung, die zur Grundlage der westdeutschen Stabilit\u00e4t wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\u00fcgel: Geduld und Verl\u00e4sslichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\u00fcgel (w9)</strong> mildert die Strenge der reinen Eins zu einer bed\u00e4chtigeren, geduldigeren Haltung &ndash; Prinzipientreue wird nicht laut verk\u00fcndet, sondern still und beharrlich durchgehalten. Adenauers legend\u00e4re Langsamkeit &ndash; seine Gegner nannten ihn sp\u00f6ttisch &bdquo;den Alten&ldquo; &ndash; war in Wahrheit eine bewusste Strategie: Er lie\u00df sich nie zu \u00fcberst\u00fcrzten Entscheidungen dr\u00e4ngen, pr\u00fcfte, wartete den richtigen Moment ab und hielt dann unbeirrbar an seiner einmal gefassten Linie fest.</p>
+          <p class="vb-intro">Sein ber\u00fchmtestes Prinzip, die &bdquo;Politik der Westbindung&ldquo; &ndash; die feste, unumkehrbare Verankerung der jungen Bundesrepublik in NATO und westlichem B\u00fcndnis &ndash; verfolgte er \u00fcber Jahre hinweg gegen erhebliche innenpolitische Widerst\u00e4nde, ohne sich von Kritik beirren zu lassen. Kein spektakul\u00e4rer Coup, sondern z\u00e4he, geduldige Beharrlichkeit &ndash; die Eins mit der Gelassenheit der Neun im R\u00fccken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Vers\u00f6hnung als Prinzipiensache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1963 unterzeichnete Adenauer gemeinsam mit dem franz\u00f6sischen Pr\u00e4sidenten Charles de Gaulle den \u00c9lys\u00e9e-Vertrag &ndash; die Grundlage der deutsch-franz\u00f6sischen Auss\u00f6hnung nach drei Kriegen innerhalb von siebzig Jahren. F\u00fcr einen Mann, der die beiden Weltkriege als Erwachsener miterlebt hatte, war dies kein taktisches Man\u00f6ver, sondern die konsequente Umsetzung einer moralischen \u00dcberzeugung: dass dauerhafter Frieden nur durch feste, verbindliche Vertr\u00e4ge und nicht durch blo\u00dfe Absichtserkl\u00e4rungen gesichert werden kann.</p>
+          <p class="vb-intro">Ebenso konsequent verfolgte er die Politik der Wiedergutmachung gegen\u00fcber Israel und dem j\u00fcdischen Volk &ndash; das Luxemburger Abkommen von 1952 sicherte trotz erheblichen innenpolitischen Widerstands Entsch\u00e4digungszahlungen zu. F\u00fcr die selbsterhaltende Eins ist das typisch: Eine einmal als richtig erkannte Verpflichtung wird nicht verhandelt, sondern durchgehalten, komme, was wolle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 ist die F\u00e4higkeit, <strong>Prinzipientreue mit Geduld</strong> zu verbinden &ndash; eine Ordnung, die nicht erzwungen, sondern \u00fcber Jahre hinweg beharrlich und verl\u00e4sslich aufgebaut wird. Adenauers Verm\u00e4chtnis &ndash; eine stabile, im Westen verankerte Demokratie &ndash; verdankt sich genau dieser Mischung aus unbeirrbarer Prinzipientreue und der Bereitschaft, geduldig auf den richtigen Moment zu warten.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in seiner mitunter autorit\u00e4ren Amtsf\u00fchrung &ndash; Kritiker sprachen von einer &bdquo;Kanzlerdemokratie&ldquo;, in der Adenauer Entscheidungen zunehmend an Kabinett und Parlament vorbei traf. Auch sein Umgang mit der eigenen Nachfolge war von dieser Kontrollneigung gepr\u00e4gt: Er blieb deutlich l\u00e4nger im Amt, als es die eigene Partei f\u00fcr klug hielt, und tat sich schwer, Macht abzugeben. Die Kehrseite der selbsterhaltenden Eins mit Neunerfl\u00fcgel: Die Sorge um Stabilit\u00e4t kann in eine Unf\u00e4higkeit umschlagen, den eigenen R\u00fcckzug rechtzeitig und geordnet zu vollziehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Adler, der ein Land wieder flugf\u00e4hig machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Konrad Adenauer starb 1967 in Rh\u00f6ndorf, im Alter von 91 Jahren &ndash; bis kurz vor seinem Tod politisch interessiert und aktiv. Sein Amtsantritt als Kanzler im Alter von 73 Jahren, mitten in den Tr\u00fcmmern eines besiegten Landes, gilt bis heute als eines der ungew\u00f6hnlichsten politischen Comebacks der deutschen Geschichte.</p>
+          <p class="vb-intro">Der Adler, der sp\u00e4t noch einmal aufstieg, nachdem sein Nest zerst\u00f6rt worden war, und der von dort, in ruhiger, unbeirrbarer H\u00f6he, ein zerbrochenes Land St\u00fcck f\u00fcr St\u00fcck wieder aufbaute &ndash; das ist das bleibende Bild der selbsterhaltenden Eins mit Neunerfl\u00fcgel: Ordnung, die nicht aus H\u00e4rte entsteht, sondern aus geduldiger, prinzipientreuer Sorgfalt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se1", label:"SE1 \u2013 Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portr\xe4t: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-helmut-kohl", label:"Portr\xe4t: Helmut Kohl (SO8w9) \u2013 Bundeskanzler"},
+      ])}
+    </div>
+  `);
+}
 function davidHumePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -53804,7 +53945,8 @@ function astrologieGerhardSchroederPage() {
   return _astrologiePage(
     { slug:"gerhard-schroeder", name:"Gerhard Schr\u00f6der", subtyp:"SX8w7",
       subtypLabel:"Sexueller Typ 8 mit Siebenerfl\u00fcgel",
-      subtitle:"Bundeskanzler, geb. 1944 \u2013 Kanzler der Bundesrepublik Deutschland 1998\u20132005" },
+      subtitle:"Bundeskanzler, geb. 1944 \u2013 Kanzler der Bundesrepublik Deutschland 1998\u20132005",
+      beruehmteRoute:"beruehmte-gerhard-schroeder" },
     `<h2 class="vb-section">SX8w7 \u2013 Der Instinktpolitiker der Macht</h2>
     <blockquote class="vb-blockquote">
       <p class="vb-intro">Gerhard Schr\u00f6der verk\u00f6rpert das archetypische Profil der <strong>sexuellen Acht mit Siebenerfl\u00fcgel (SX8w7)</strong> \u2013 den Herausforderer und Pionier. Die sexuelle Acht sucht den leidenschaftlichen Schlagabtausch, will dominieren und mitrei\u00dfen. Der Siebenerfl\u00fcgel bringt Charisma, strategischen Weitblick und die Lust am Lebensspiel.</p>
@@ -80770,6 +80912,8 @@ function render() {
     "beruehmte-samuel-hahnemann": samuelHahnemannPortraitPage,
     "beruehmte-mohammed": mohammedPortraitPage,
     "beruehmte-helmut-kohl": helmutKohlPortraitPage,
+    "beruehmte-gerhard-schroeder": gerhardSchroederPortraitPage,
+    "beruehmte-konrad-adenauer": konradAdenauerPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,

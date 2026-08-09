@@ -183,6 +183,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ken Follett – Selbsterhaltender Typ 1",
     teaser:"SE1w9 · geb. 1949. Bestseller-Autor historischer Romane, u. a. über eine mittelalterliche Kathedrale und die Weltkriege des 20. Jahrhunderts. Über sechzig Jahre schriftstellerische Konstanz, akribische Recherche und ein ruhiger, unerschütterlicher Arbeitsrhythmus. Tierentsprechung: Adler.",
     tags:["Literatur"] , gender:"m"},
+  { route:"beruehmte-konrad-adenauer", name:"Konrad Adenauer", added:"2026-08-09", subtyp:"SE1w9",
+    heading:"Konrad Adenauer – Selbsterhaltender Typ 1",
+    teaser:"SE1w9 · 1876–1967. Erster Bundeskanzler der Bundesrepublik Deutschland (1949–1963). Wiederaufbau, Westbindung, deutsch-französische Aussöhnung. Der Adler, der mit 73 Jahren noch einmal aufstieg, um ein zerbrochenes Land wieder flugfähig zu machen.",
+    tags:["Politik","Geschichte"], gender:"m"},
   { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
     heading:"Christoph Waltz – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · „Der Adler“, geb. 1956. Zweifacher Oscar-Preisträger für Inglourious Basterds und Django Unchained. Fünfzig Jahre Handwerk, ein Leben lang innere Präzision – dann der Moment, auf den der Adler gewartet hatte. Tierentsprechung: Adler.",
@@ -791,6 +795,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Diogenes – Sexueller Typ 8",
     teaser:"SX8w7 · geb. um 412 v. Chr. in Sinope, gest. 323 v. Chr. in Korinth. Philosoph, Begründer des Kynismus, lebte in einer Tonne. Das Krokodil, das jede gesellschaftliche Konvention öffentlich zerbiss – schamlos, kompromisslos, frei.",
     tags:["Philosophie"], gender:"m"},
+  { route:"beruehmte-gerhard-schroeder", name:"Gerhard Schröder", added:"2026-08-09", subtyp:"SX8w7",
+    heading:"Gerhard Schröder – Sexueller Typ 8",
+    teaser:"SX8w7 · geb. 1944. Deutscher Bundeskanzler (1998–2005). Agenda 2010, Basta-Prinzip, Medienkanzler. Das Krokodil, das den Kraftakt der Reform gegen jeden Widerstand durchsetzte – und danach seinen eigenen Weg unbeirrt weiterging.",
+    tags:["Politik"], gender:"m"},
   { route:"beruehmte-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", added:"2026-07-22", subtyp:"SX8w9",
     heading:"Ruth Bader Ginsburg – Sexueller Typ 8",
     teaser:"SX8w9 · 1933–2020. US-Bundesrichterin am Supreme Court, RBG. Pionierin der Geschlechtergleichstellung, legendary dissenter. Das Krokodil, das bleibt – der Abdruck ist geblieben.",
@@ -14395,6 +14403,136 @@ function helmutKohlPortraitPage() {
   `);
 }
 
+function gerhardSchroederPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-gerhard-schroeder-portrait.jpg" alt="Krokodil" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gerhard Schröder</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexueller Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Bundeskanzler, geb. 1944 &ndash; Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil im Anzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier der sexuellen Acht &ndash; lauernd, kraftvoll, im entscheidenden Moment blitzschnell zuschnappend. Es teilt sein Revier mit niemandem und misst seine Kraft im direkten, unmittelbaren Duell &ndash; nicht durch langsame Strategie, sondern durch den einen entscheidenden Biss zur richtigen Zeit.</p>
+          <p class="vb-intro">Gerhard Schröder wurde 1944 in Mossenberg (Lippe) geboren, wenige Wochen vor dem Kriegstod seines Vaters, den er nie kennenlernte. Er wuchs in ärmlichen Verhältnissen auf, arbeitete früh in einem Eisenwarengeschäft, holte über den zweiten Bildungsweg Abitur und Jurastudium nach. Der Aufstieg vom Arbeiterkind zum Bundeskanzler war für ihn selbst stets Teil seiner politischen Erzählung &ndash; ein Beweis dafür, dass Wille und Kampfkraft Herkunft überwinden können. Als Jusochef ließ er sich 1982 vor dem Kanzleramtszaun fotografieren, die Hände am Gitter, mit dem Satz: &bdquo;Ich will da rein.&ldquo; Ein Bild, das seine ganze Instinktausrichtung vorwegnahm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Acht: Der Kampf als Lebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong> sucht die Intensität im direkten Duell &ndash; sie testet ihre Kraft am Widerstand eines Gegenübers, ob politischer Rivale oder persönliche Beziehung, und lebt in einem ständigen Wechsel aus Eroberung und Behauptung. Schröders politischer Stil war genau das: die direkte Konfrontation, das Basta-Prinzip, mit dem er innerparteiliche Debatten kurzerhand beendete, wenn er seine Entscheidung getroffen hatte.</p>
+          <p class="vb-intro">Auch sein Privatleben folgte diesem Muster der intensiven, wechselnden Bindungen: Schröder war viermal verheiratet, jede Ehe von großer öffentlicher Aufmerksamkeit begleitet. Für die sexuelle Acht ist das kein Zufall &ndash; sie sucht die eine Beziehung, in der volle Intensität möglich ist, und wenn diese erlischt, wird sie mit derselben Entschlossenheit beendet, mit der sie begonnen wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Charisma und Risikofreude</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> verleiht der reinen Acht Leichtigkeit, Charme und eine gewisse Lust am Risiko &ndash; die Konfrontation wird nicht nur ausgetragen, sondern regelrecht genossen. Schröders Auftreten &ndash; die Cohiba-Zigarre, der Brioni-Anzug, das breite Grinsen bei Wahlsiegen &ndash; war genau diese Mischung aus Kampfeslust und Lebensfreude, die ihn zum &bdquo;Medienkanzler&ldquo; machte, dem ersten deutschen Regierungschef, der Politik konsequent als mediales Ereignis inszenierte.</p>
+          <p class="vb-intro">Diese Risikofreude zeigte sich am deutlichsten im Wahlkampf 2005: Nach einer verlorenen NRW-Landtagswahl setzte Schröder in einer spontanen, für viele überraschenden Entscheidung Neuwahlen im Bund an &ndash; ein Alles-oder-nichts-Zug, typisch für die SX8w7, die lieber die volle Konfrontation sucht als ein langsames Verglühen an der Macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Agenda 2010: Der große Kraftakt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2003 verkündete Schröder die Agenda 2010 &ndash; ein tiefgreifendes Reformpaket aus Arbeitsmarkt-, Sozial- und Steuerreformen (darunter die Hartz-Gesetze), das den deutschen Sozialstaat grundlegend umbaute. Er setzte es gegen erbitterten Widerstand aus den eigenen Reihen durch, verband die Abstimmung im Bundestag sogar mit der Vertrauensfrage &ndash; ein Vabanquespiel, das seine Kanzlerschaft kosten konnte und am Ende tatsächlich zu seiner Abwahl 2005 beitrug.</p>
+          <p class="vb-intro">Dieser Wille, eine unpopuläre, aber aus seiner Sicht notwendige Entscheidung mit voller Wucht durchzusetzen, koste es, was es wolle, ist die reinste Ausprägung der Acht: Macht wird nicht verwaltet, sondern eingesetzt, um etwas zu bewegen &ndash; selbst um den Preis des eigenen Sturzes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX8w7 ist die Fähigkeit, <strong>Mut und Charisma</strong> zu verbinden &ndash; unpopuläre, aber notwendige Entscheidungen mit voller Überzeugungskraft zu vertreten, ohne sich von Widerstand einschüchtern zu lassen. Schröders Reformen waren umstritten, aber sie zeigten eine Führungskraft, die bereit war, das eigene politische Kapital für eine Sache aufs Spiel zu setzen.</p>
+          <p class="vb-intro">Der Schatten wurde nach seiner Kanzlerschaft sichtbar: Nur wenige Wochen nach der Abwahl trat Schröder in den Aufsichtsrat des Nord-Stream-Konsortiums ein, dessen Genehmigung er noch als Kanzler mit vorangetrieben hatte &ndash; ein Wechsel, der massive Kritik an der Vermischung von Amt und persönlichem Vorteil auslöste. Später intensivierte er seine Nähe zum russischen Staatspräsidenten Wladimir Putin weiter, auch nach dessen Angriffskrieg gegen die Ukraine 2022, und verlor dafür Ämter, Ehrungen und weite Teile seines politischen Ansehens. Die Kehrseite der sexuellen Acht: Die Loyalität zu einer einmal eingegangenen, intensiven Beziehung kann so stark werden, dass sie gegen jede öffentliche Vernunft und gegen den eigenen früheren Ruf verteidigt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Krokodil, das die Bühne verließ, ohne zu verschwinden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gerhard Schröder lebt bis heute als eine der umstrittensten Figuren der deutschen Nachkriegspolitik &ndash; gefeiert für die Agenda 2010 und den Mut zur Reform, kritisiert für seine Nähe zu Russland und seine wirtschaftlichen Verflechtungen nach dem Amt. Für die sexuelle Acht mit Siebenerflügel ist genau diese Polarität typisch: Sie lässt niemanden kalt, weder im Sieg noch im Fall, und verweigert sich bis zuletzt der leisen, unauffälligen Rolle des Elder Statesman.</p>
+          <p class="vb-intro">Das Krokodil zieht sich nicht ins Ufergebüsch zurück, wenn die Kraft nachlässt &ndash; es bleibt sichtbar, kämpft weiter um seinen Platz im Wasser, selbst wenn die anderen Tiere längst Abstand halten.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
+        {route:"astrologie-gerhard-schroeder", label:"Astrologie-Portr\xe4t: Gerhard Schr\xf6der (SX8w7)"},
+        {route:"beruehmte-donald-trump", label:"Portr\xe4t: Donald J. Trump (SX8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function konradAdenauerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-konrad-adenauer-portrait.jpg" alt="Adler" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Konrad Adenauer</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Erster Bundeskanzler der Bundesrepublik Deutschland, 1876&ndash;1967 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler über den Trümmern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; er baut sein Nest hoch über dem Boden, fernab von Chaos und Zufall, und überblickt von dort sein Revier mit unbestechlicher Klarheit. Er handelt selten aus dem Impuls heraus; sein Flug ist berechnet, seine Beute sorgfältig anvisiert, sein Territorium mit äußerster Sorgfalt verteidigt.</p>
+          <p class="vb-intro">Konrad Adenauer wurde 1876 in Köln geboren, studierte Jura, wurde 1917 Kölner Oberbürgermeister &ndash; ein Amt, das er mit disziplinierter Arbeitsmoral und großem städtebaulichem Weitblick ausfüllte, unter anderem mit der Anlage des Kölner Grüngürtels. 1933 wurde er von den Nationalsozialisten aus dem Amt gedrängt, mehrfach verhaftet, musste zeitweise untertauchen. Nach dem Krieg, im Alter von bereits 73 Jahren, begann seine eigentliche historische Rolle: 1949 wurde er erster Bundeskanzler der neu gegründeten Bundesrepublik Deutschland &ndash; und blieb es 14 Jahre lang, bis 1963.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Ordnung als Überlebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> sucht Sicherheit durch Kontrolle, Sparsamkeit und minutiöse Vorsorge &ndash; sie baut sich, oft im Stillen, ein solides Fundament, auf das sie sich in der Krise verlassen kann. Adenauer war für seine fast asketische Disziplin und seinen sprichwörtlichen Fleiß bekannt: Er stand jeden Tag vor sechs Uhr auf, arbeitete strukturiert bis in den späten Abend, kontrollierte Akten und Details persönlich, wo andere längst delegiert hätten.</p>
+          <p class="vb-intro">Diese Ordnungsliebe übertrug er auf den Wiederaufbau eines völlig zerstörten Landes: Die Wirtschaftspolitik der sozialen Marktwirtschaft unter Ludwig Erhard, die er als Kanzler stützte und absicherte, war genau dieses Prinzip im großen Maßstab &ndash; Freiheit des Marktes, aber eingebettet in feste, verlässliche Regeln und soziale Sicherungen. Aus den Trümmern von 1945 entstand binnen weniger Jahre das &bdquo;Wirtschaftswunder&ldquo; &ndash; eine geordnete, disziplinierte Aufbauleistung, die zur Grundlage der westdeutschen Stabilität wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Geduld und Verlässlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> mildert die Strenge der reinen Eins zu einer bedächtigeren, geduldigeren Haltung &ndash; Prinzipientreue wird nicht laut verkündet, sondern still und beharrlich durchgehalten. Adenauers legendäre Langsamkeit &ndash; seine Gegner nannten ihn spöttisch &bdquo;den Alten&ldquo; &ndash; war in Wahrheit eine bewusste Strategie: Er ließ sich nie zu überstürzten Entscheidungen drängen, prüfte, wartete den richtigen Moment ab und hielt dann unbeirrbar an seiner einmal gefassten Linie fest.</p>
+          <p class="vb-intro">Sein berühmtestes Prinzip, die &bdquo;Politik der Westbindung&ldquo; &ndash; die feste, unumkehrbare Verankerung der jungen Bundesrepublik in NATO und westlichem Bündnis &ndash; verfolgte er über Jahre hinweg gegen erhebliche innenpolitische Widerstände, ohne sich von Kritik beirren zu lassen. Kein spektakulärer Coup, sondern zähe, geduldige Beharrlichkeit &ndash; die Eins mit der Gelassenheit der Neun im Rücken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Versöhnung als Prinzipiensache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1963 unterzeichnete Adenauer gemeinsam mit dem französischen Präsidenten Charles de Gaulle den Élysée-Vertrag &ndash; die Grundlage der deutsch-französischen Aussöhnung nach drei Kriegen innerhalb von siebzig Jahren. Für einen Mann, der die beiden Weltkriege als Erwachsener miterlebt hatte, war dies kein taktisches Manöver, sondern die konsequente Umsetzung einer moralischen Überzeugung: dass dauerhafter Frieden nur durch feste, verbindliche Verträge und nicht durch bloße Absichtserklärungen gesichert werden kann.</p>
+          <p class="vb-intro">Ebenso konsequent verfolgte er die Politik der Wiedergutmachung gegenüber Israel und dem jüdischen Volk &ndash; das Luxemburger Abkommen von 1952 sicherte trotz erheblichen innenpolitischen Widerstands Entschädigungszahlungen zu. Für die selbsterhaltende Eins ist das typisch: Eine einmal als richtig erkannte Verpflichtung wird nicht verhandelt, sondern durchgehalten, komme, was wolle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 ist die Fähigkeit, <strong>Prinzipientreue mit Geduld</strong> zu verbinden &ndash; eine Ordnung, die nicht erzwungen, sondern über Jahre hinweg beharrlich und verlässlich aufgebaut wird. Adenauers Vermächtnis &ndash; eine stabile, im Westen verankerte Demokratie &ndash; verdankt sich genau dieser Mischung aus unbeirrbarer Prinzipientreue und der Bereitschaft, geduldig auf den richtigen Moment zu warten.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in seiner mitunter autoritären Amtsführung &ndash; Kritiker sprachen von einer &bdquo;Kanzlerdemokratie&ldquo;, in der Adenauer Entscheidungen zunehmend an Kabinett und Parlament vorbei traf. Auch sein Umgang mit der eigenen Nachfolge war von dieser Kontrollneigung geprägt: Er blieb deutlich länger im Amt, als es die eigene Partei für klug hielt, und tat sich schwer, Macht abzugeben. Die Kehrseite der selbsterhaltenden Eins mit Neunerflügel: Die Sorge um Stabilität kann in eine Unfähigkeit umschlagen, den eigenen Rückzug rechtzeitig und geordnet zu vollziehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Adler, der ein Land wieder flugfähig machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Konrad Adenauer starb 1967 in Rhöndorf, im Alter von 91 Jahren &ndash; bis kurz vor seinem Tod politisch interessiert und aktiv. Sein Amtsantritt als Kanzler im Alter von 73 Jahren, mitten in den Trümmern eines besiegten Landes, gilt bis heute als eines der ungewöhnlichsten politischen Comebacks der deutschen Geschichte.</p>
+          <p class="vb-intro">Der Adler, der spät noch einmal aufstieg, nachdem sein Nest zerstört worden war, und der von dort, in ruhiger, unbeirrbarer Höhe, ein zerbrochenes Land Stück für Stück wieder aufbaute &ndash; das ist das bleibende Bild der selbsterhaltenden Eins mit Neunerflügel: Ordnung, die nicht aus Härte entsteht, sondern aus geduldiger, prinzipientreuer Sorgfalt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portr\xe4t: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-helmut-kohl", label:"Portr\xe4t: Helmut Kohl (SO8w9) – Bundeskanzler"},
+      ])}
+    </div>
+  `);
+}
+
 function davidHumePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -22775,7 +22913,8 @@ function astrologieGerhardSchroederPage() {
   return _astrologiePage(
     { slug:"gerhard-schroeder", name:"Gerhard Schröder", subtyp:"SX8w7",
       subtypLabel:"Sexueller Typ 8 mit Siebenerflügel",
-      subtitle:"Bundeskanzler, geb. 1944 – Kanzler der Bundesrepublik Deutschland 1998–2005" },
+      subtitle:"Bundeskanzler, geb. 1944 – Kanzler der Bundesrepublik Deutschland 1998–2005",
+      beruehmteRoute:"beruehmte-gerhard-schroeder" },
     `<h2 class="vb-section">SX8w7 – Der Instinktpolitiker der Macht</h2>
     <blockquote class="vb-blockquote">
       <p class="vb-intro">Gerhard Schröder verkörpert das archetypische Profil der <strong>sexuellen Acht mit Siebenerflügel (SX8w7)</strong> – den Herausforderer und Pionier. Die sexuelle Acht sucht den leidenschaftlichen Schlagabtausch, will dominieren und mitreißen. Der Siebenerflügel bringt Charisma, strategischen Weitblick und die Lust am Lebensspiel.</p>
@@ -49741,6 +49880,8 @@ function render() {
     "beruehmte-samuel-hahnemann": samuelHahnemannPortraitPage,
     "beruehmte-mohammed": mohammedPortraitPage,
     "beruehmte-helmut-kohl": helmutKohlPortraitPage,
+    "beruehmte-gerhard-schroeder": gerhardSchroederPortraitPage,
+    "beruehmte-konrad-adenauer": konradAdenauerPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,

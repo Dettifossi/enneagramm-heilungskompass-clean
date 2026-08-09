@@ -181,6 +181,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ken Follett – Self-Preservation Type 1",
     teaser:"SP1w9 · born 1949. Bestselling author of historical novels, including works on a medieval cathedral and the world wars of the 20th century. Over sixty years of writing consistency, meticulous research, and a calm, unshakeable work rhythm. Animal correspondence: Eagle.",
     tags:["Literatur"] },
+  { route:"beruehmte-konrad-adenauer", name:"Konrad Adenauer", added:"2026-08-09", subtyp:"SE1w9",
+    heading:"Konrad Adenauer – Self-Preservation Type 1",
+    teaser:"SE1w9 · 1876–1967. First Chancellor of the Federal Republic of Germany (1949–1963). Reconstruction, Western integration, Franco-German reconciliation. The eagle that rose once more at 73 to make a shattered country fit to fly again.",
+    tags:["Politics","History"], gender:"m"},
   { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
     heading:"Christoph Waltz – Self-Preservation Type 1",
     teaser:"SP1w2 · “The Eagle”, born 1956. Two-time Oscar winner for Inglourious Basterds and Django Unchained. Fifty years of craft, a lifetime of inner precision – then the moment the eagle had been waiting for. Animal correspondence: Eagle.",
@@ -541,6 +545,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Diogenes – Sexual Type 8",
     teaser:"SX8w7 · born c. 412 BC in Sinope, died 323 BC in Corinth. Philosopher, founder of Cynicism, lived in a barrel. The crocodile that publicly tore apart every social convention – shameless, uncompromising, free.",
     tags:["Philosophie"]},
+  { route:"beruehmte-gerhard-schroeder", name:"Gerhard Schröder", added:"2026-08-09", subtyp:"SX8w7",
+    heading:"Gerhard Schröder – Sexual Type 8",
+    teaser:"SX8w7 · born 1944. German Chancellor (1998–2005). Agenda 2010, the \"Basta principle\", media chancellor. The crocodile that forced through the great reform effort against every resistance – then kept going its own way, unbowed.",
+    tags:["Politics"], gender:"m"},
   { route:"beruehmte-genesis-p-orridge", name:"Genesis P-Orridge", subtyp:"SX8w9",
     heading:"Genesis P-Orridge – Sexual Type 8",
     teaser:"SX8w9 · 1950–2020. Musician, performance artist, occultist, founder of Throbbing Gristle. The crocodile that crossed the boundaries of body, art and identity – and never came back. Animal correspondence: Crocodile.",
@@ -17255,6 +17263,136 @@ function albertEinsteinPortraitPage() {
   `);
 }
 
+function gerhardSchroederPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-gerhard-schroeder-portrait.jpg" alt="Crocodile" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gerhard Schröder</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">German Chancellor, born 1944 &ndash; Animal correspondence: Crocodile</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Crocodile in a Suit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>crocodile</strong> is the animal of the sexual Eight &ndash; lurking, powerful, snapping shut in a flash at the decisive moment. It shares its territory with no one and measures its strength in direct, immediate duel &ndash; not through slow strategy, but through the one decisive bite at the right time.</p>
+          <p class="vb-intro">Gerhard Schröder was born in 1944 in Mossenberg (Lippe), a few weeks before his father was killed in the war &ndash; a father he never got to know. He grew up in poor circumstances, worked early on in a hardware store, and later earned his high school diploma and law degree through the second-chance education route. His rise from a working-class child to Chancellor was always, in his own telling, part of his political narrative &ndash; proof that will and fighting spirit can overcome one's origins. As head of the Young Socialists in 1982, he had himself photographed at the fence of the Chancellery, hands gripping the railings, with the line: "I want to get in there." An image that foreshadowed his entire instinctual orientation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Eight: Struggle as a Way of Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Eight (SX8)</strong> seeks intensity in direct duel &ndash; it tests its strength against the resistance of a counterpart, whether a political rival or a personal relationship, and lives in a constant alternation of conquest and self-assertion. Schröder's political style was exactly this: direct confrontation, the "Basta principle" with which he abruptly ended internal party debates once he had made his decision.</p>
+          <p class="vb-intro">His private life followed the same pattern of intense, changing bonds: Schröder was married four times, each marriage accompanied by great public attention. For the sexual Eight this is no coincidence &ndash; it seeks the one relationship in which full intensity is possible, and when that fades, it ends the bond with the same determination with which it began.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Charisma and Appetite for Risk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the pure Eight lightness, charm, and a certain appetite for risk &ndash; confrontation is not merely endured but genuinely enjoyed. Schröder's public persona &ndash; the Cohiba cigar, the Brioni suit, the broad grin at election victories &ndash; was exactly this mix of combative drive and zest for life that made him the "media chancellor," the first German head of government to consistently stage politics as a media event.</p>
+          <p class="vb-intro">This appetite for risk showed most clearly in the 2005 election campaign: after a lost state election in North Rhine-Westphalia, Schröder, in a spontaneous decision that surprised many, called for early federal elections &ndash; an all-or-nothing move, typical of the SX8w7, which would rather seek full confrontation than a slow fade from power.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Agenda 2010: The Great Show of Force</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2003, Schröder announced Agenda 2010 &ndash; a sweeping reform package of labor market, welfare, and tax reforms (including the Hartz laws) that fundamentally restructured Germany's welfare state. He pushed it through against bitter resistance from within his own ranks, even tying the Bundestag vote to a confidence motion &ndash; a high-stakes gamble that could have cost him the chancellorship and ultimately contributed to his defeat in 2005.</p>
+          <p class="vb-intro">This willingness to enforce an unpopular but, in his view, necessary decision with full force, whatever the cost, is the purest expression of the Eight: power is not administered but deployed to move something forward &ndash; even at the price of one's own downfall.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX8w7 is the ability to combine <strong>courage and charisma</strong> &ndash; standing behind unpopular but necessary decisions with full conviction, without being intimidated by resistance. Schröder's reforms were controversial, but they showed a leader willing to stake his own political capital on a cause.</p>
+          <p class="vb-intro">The shadow became visible after his chancellorship: only weeks after his election defeat, Schröder joined the supervisory board of the Nord Stream consortium, whose approval he himself had helped push through as chancellor &ndash; a move that triggered massive criticism of blending public office and personal gain. He later deepened his ties to Russian President Vladimir Putin even further, including after Russia's war of aggression against Ukraine in 2022, losing offices, honors, and much of his political standing as a result. The flip side of the sexual Eight: loyalty to a once-forged, intense relationship can grow so strong that it is defended against all public reason and against one's own former reputation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Crocodile That Left the Stage Without Disappearing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gerhard Schröder remains to this day one of the most controversial figures in postwar German politics &ndash; celebrated for Agenda 2010 and the courage to reform, criticized for his closeness to Russia and his business ties after leaving office. For the sexual Eight with a Seven-wing, exactly this polarity is typical: it leaves no one indifferent, neither in victory nor in defeat, and refuses to the very end to play the quiet, unobtrusive role of elder statesman.</p>
+          <p class="vb-intro">The crocodile does not retreat into the reeds when its strength fades &ndash; it stays visible, keeps fighting for its place in the water, even when the other animals have long since kept their distance.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
+        {route:"astrologie-gerhard-schroeder", label:"Astrology Portrait: Gerhard Schröder (SX8w7)"},
+        {route:"beruehmte-donald-trump", label:"Portrait: Donald J. Trump (SX8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function konradAdenauerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-konrad-adenauer-portrait.jpg" alt="Eagle" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Konrad Adenauer</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">First Chancellor of the Federal Republic of Germany, 1876&ndash;1967 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle Above the Rubble</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One &ndash; it builds its nest high above the ground, far from chaos and chance, and surveys its territory from there with unerring clarity. It rarely acts on impulse; its flight is calculated, its prey carefully targeted, its territory defended with the utmost care.</p>
+          <p class="vb-intro">Konrad Adenauer was born in 1876 in Cologne, studied law, and became Cologne's mayor in 1917 &ndash; an office he filled with disciplined work ethic and great urban-planning foresight, including the creation of Cologne's green belt. In 1933 he was forced out of office by the Nazis, arrested repeatedly, and at times forced into hiding. After the war, at the age of 73, his real historical role began: in 1949 he became the first Chancellor of the newly founded Federal Republic of Germany &ndash; and remained so for 14 years, until 1963.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Order as a Principle of Survival</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> seeks security through control, thrift, and meticulous provision &ndash; it builds, often quietly, a solid foundation it can rely on in a crisis. Adenauer was known for his almost ascetic discipline and proverbial industriousness: he rose every day before six, worked in a structured way well into the evening, and personally checked files and details where others would long since have delegated.</p>
+          <p class="vb-intro">He transferred this love of order to the reconstruction of a completely destroyed country: the social market economy under Ludwig Erhard, which he supported and secured as chancellor, was exactly this principle on a grand scale &ndash; freedom of the market, but embedded in firm, reliable rules and social safeguards. Out of the rubble of 1945, the "economic miracle" arose within just a few years &ndash; an orderly, disciplined feat of reconstruction that became the foundation of West German stability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Patience and Reliability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> softens the strictness of the pure One into a more measured, more patient stance &ndash; adherence to principle is not proclaimed loudly but held to quietly and steadily. Adenauer's legendary slowness &ndash; his opponents mockingly called him "the old man" &ndash; was in truth a deliberate strategy: he never let himself be rushed into hasty decisions, examined, waited for the right moment, and then held unwaveringly to the course he had once set.</p>
+          <p class="vb-intro">His most famous principle, the "policy of Western integration" &ndash; the firm, irreversible anchoring of the young Federal Republic in NATO and the Western alliance &ndash; he pursued for years against considerable domestic resistance, without letting criticism shake him. No spectacular coup, but tenacious, patient persistence &ndash; the One with the equanimity of the Nine at its back.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Reconciliation as a Matter of Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1963, Adenauer signed the Élysée Treaty together with French President Charles de Gaulle &ndash; the foundation of Franco-German reconciliation after three wars within seventy years. For a man who had lived through both world wars as an adult, this was no tactical maneuver but the consistent implementation of a moral conviction: that lasting peace can only be secured through firm, binding treaties, not mere declarations of intent.</p>
+          <p class="vb-intro">He pursued the policy of reparations toward Israel and the Jewish people with equal consistency &ndash; the Luxembourg Agreement of 1952 secured compensation payments despite considerable domestic political resistance. This is typical of the self-preservation One: an obligation once recognized as right is not negotiated away but carried through, whatever it takes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE1w9 is the ability to combine <strong>adherence to principle with patience</strong> &ndash; an order that is not forced through but built up over years with persistence and reliability. Adenauer's legacy &ndash; a stable democracy anchored in the West &ndash; is owed precisely to this mixture of unwavering adherence to principle and the willingness to wait patiently for the right moment.</p>
+          <p class="vb-intro">The shadow showed itself in his at times authoritarian style of governing &ndash; critics spoke of a "chancellor democracy" in which Adenauer increasingly made decisions bypassing cabinet and parliament. His handling of his own succession was also marked by this need for control: he stayed in office considerably longer than his own party thought wise, and struggled to relinquish power. The flip side of the self-preservation One with a Nine-wing: concern for stability can turn into an inability to carry out one's own withdrawal in a timely and orderly way.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Eagle That Made a Country Fit to Fly Again</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Konrad Adenauer died in 1967 in Rhöndorf, at the age of 91 &ndash; politically engaged and active almost until the end. His taking office as chancellor at age 73, amid the rubble of a defeated country, is still considered one of the most unusual political comebacks in German history.</p>
+          <p class="vb-intro">The eagle that rose once more late in life, after its nest had been destroyed, and from there, in calm, unwavering altitude, rebuilt a shattered country piece by piece &ndash; that is the lasting image of the self-preservation One with a Nine-wing: order that arises not from harshness but from patient, principled care.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SO8w9) – Chancellor"},
+      ])}
+    </div>
+  `);
+}
+
 function helmutKohlPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -26820,7 +26958,8 @@ function astrologieGerhardSchroederPage() {
   return _astrologiePage(
     { slug:"gerhard-schroeder", name:"Gerhard Schröder", subtyp:"SX8w7",
       subtypLabel:"Sexueller Typ 8 mit Siebenerflügel",
-      subtitle:"Bundeskanzler, geb. 1944 – Kanzler der Bundesrepublik Deutschland 1998–2005" },
+      subtitle:"Bundeskanzler, geb. 1944 – Kanzler der Bundesrepublik Deutschland 1998–2005",
+      beruehmteRoute:"beruehmte-gerhard-schroeder" },
     `<h2 class="vb-section">SX8w7 – The Instinctive Politician of Power</h2>
     <blockquote class="vb-blockquote">
       <p class="vb-intro">Gerhard Schröder embodies the archetypal profile of the <strong>sexual Eight with Seven wing (SX8w7)</strong> – the challenger and pioneer. The sexual Eight seeks passionate verbal sparring, wants to dominate and sweep others along. The Seven wing brings charisma, strategic foresight, and the joy of the game of life.</p>
@@ -46724,6 +46863,8 @@ function subtypeSchaubilderPage() {
       "beruehmte-samuel-hahnemann": samuelHahnemannPortraitPage,
       "beruehmte-mohammed": mohammedPortraitPage,
       "beruehmte-helmut-kohl": helmutKohlPortraitPage,
+      "beruehmte-gerhard-schroeder": gerhardSchroederPortraitPage,
+      "beruehmte-konrad-adenauer": konradAdenauerPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,
