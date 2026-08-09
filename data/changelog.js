@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v1012", date: "2026-08-09", text: "Länderzuordnungen: Instinkttendenz für alle 202 Länder ergänzt (SE/SO/SX zu jedem Land) plus neuer Filter „Instinkttendenz“ – jetzt lassen sich gezielt alle 27 Subtypen-Länder durchsuchen, z. B. nur SE6-Länder.", text_en: "Country Assignments: instinctual variant added for all 202 countries (SE/SO/SX for every country) plus a new 'Instinctual Variant' filter – now you can browse all 27 subtype combinations directly, e.g. only SE6 countries.", route: "laenderzuordnungen" },
     { version: "v1011", date: "2026-08-09", text: "Neues Porträt: David Hume (SE9w8, Elefant) in Berühmte Persönlichkeiten.", text_en: "New portrait: David Hume (SE9w8, Elephant) in Famous Personalities.", route: "beruehmte-david-hume" },
     { version: "v1010", date: "2026-08-09", text: "Neues Porträt: Fjodor Dostojewski (SE6w5, Kaninchen) in Berühmte Persönlichkeiten.", text_en: "New portrait: Fyodor Dostoevsky (SE6w5, Rabbit) in Famous Personalities.", route: "beruehmte-fjodor-dostojewski" },
     { version: "v1009", date: "2026-08-09", text: "Neues Porträt: Friedrich Nietzsche (SX5w4, Igel) in Berühmte Persönlichkeiten.", text_en: "New portrait: Friedrich Nietzsche (SX5w4, Hedgehog) in Famous Personalities.", route: "beruehmte-friedrich-nietzsche" },
