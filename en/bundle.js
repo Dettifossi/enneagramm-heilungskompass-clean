@@ -197,6 +197,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dan Brown – Self-Preservation Type 1",
     teaser:"SP1w2 · born 1964. Bestselling author known for his symbology and conspiracy novels featuring Robert Langdon. Years of meticulous research, a tightly structured writing day – and the gift of making highly complex subjects accessible to millions of readers. Animal correspondence: Eagle.",
     tags:["Literatur"] },
+  { route:"beruehmte-udo-juergens", name:"Udo Jürgens", added:"2026-08-09", subtyp:"SE1w2",
+    heading:"Udo Jürgens – Self-Preservation Type 1",
+    teaser:"SE1w2 · 1934–2014. Austrian singer and composer. Griechischer Wein, Merci Chérie, over 1,000 compositions across six decades. The eagle that combined perfection with genuine warmth for its audience.",
+    tags:["Musik"], gender:"m"},
   { route:"beruehmte-ursula-von-der-leyen", name:"Ursula von der Leyen", added:"2026-07-29", subtyp:"SO1w9",
     heading:"Ursula von der Leyen – Social Type 1",
     teaser:"SO1w9 · born 1958. President of the European Commission. A crisis manager with a hard determination behind a diplomatic facade – and at the center of the controversial \"Pfizergate\" affair over withheld transparency in the vaccine contracts. Animal correspondence: Goose.",
@@ -329,6 +333,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Paul McCartney – Self-Preservation Type 4",
     teaser:"SP4w5 · born 1942. Musician, songwriter, ex-Beatle. Over 20,000 performances of his songs worldwide. The dove that carries its heaviest message the longest before turning it into a melody. Animal correspondence: Dove.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-leo-tolstoi", name:"Leo Tolstoy", added:"2026-08-09", subtyp:"SE4w5",
+    heading:"Leo Tolstoy – Self-Preservation Type 4",
+    teaser:"SE4w5 · 1828–1910. Russian writer. War and Peace, Anna Karenina. The dove that spent its life swinging between wealth and asceticism, turning its own inner conflict into timeless literature.",
+    tags:["Literatur"], gender:"m"},
   { route:"beruehmte-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
     heading:"Romy Schneider – Social Type 4",
     teaser:"SO4w3 · 1938–1982. Actress. Sissi, César et Rosalie, La Piscine. The armadillo that stood in the light – and always curled inward.",
@@ -360,6 +368,14 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-edgar-allan-poe", name:"Edgar Allan Poe", added:"2026-08-09", subtyp:"SO4w5",
     heading:"Edgar Allan Poe – Social Type 4",
     teaser:"SO4w5 · 1809–1849. American writer, inventor of the detective story, master of literary horror. The Raven, The Tell-Tale Heart. The armadillo whose shell of pain and isolation became an art form.",
+    tags:["Literature"], gender:"m"},
+  { route:"beruehmte-gustav-mahler", name:"Gustav Mahler", added:"2026-08-09", subtyp:"SO4w5",
+    heading:"Gustav Mahler – Social Type 4",
+    teaser:"SO4w5 · 1860–1911. Austrian composer and conductor, director of the Vienna Court Opera. Symphonies, Kindertotenlieder, Das Lied von der Erde. The armadillo that translated existential loss into monumental, all-encompassing soundscapes.",
+    tags:["Music"], gender:"m"},
+  { route:"beruehmte-marcel-proust", name:"Marcel Proust", added:"2026-08-09", subtyp:"SO4w5",
+    heading:"Marcel Proust – Social Type 4",
+    teaser:"SO4w5 · 1871–1922. French writer. In Search of Lost Time. The armadillo that withdrew from society in order to understand it all the more precisely, turning its own fleeting memory into an imperishable literary edifice.",
     tags:["Literature"], gender:"m"},
   { route:"beruehmte-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3",
     heading:"Freddie Mercury – Sexual Type 4",
@@ -397,6 +413,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Claudio Naranjo – Social Type 5",
     teaser:"SO5w4 · 1932–2019. Psychiatrist, author, Enneagram and meditation teacher. Founder of the 27-subtype system – the foundation upon which all modern subtype understanding rests. The octopus that mapped the human soul with eight arms. Animal correspondence: Octopus.",
     tags:["Wissenschaft"] },
+  { route:"beruehmte-leonardo-da-vinci", name:"Leonardo da Vinci", added:"2026-08-09", subtyp:"SO5w4",
+    heading:"Leonardo da Vinci – Social Type 5",
+    teaser:"SO5w4 · 1452–1519. Italian polymath, painter, inventor. Mona Lisa, Vitruvian Man, over 13,000 pages of notebooks. The octopus that explored art, science, and technology simultaneously with eight arms of thought.",
+    tags:["Art","Science"], gender:"m"},
   { route:"beruehmte-bill-gates", name:"Bill Gates", subtyp:"SO5w6",
     heading:"Bill Gates – Social Type 5",
     teaser:"SO5w6 · born 1955. Founder of Microsoft, philanthropist, billionaire. The octopus that reaches the world with eight arms – and never lets go.",
@@ -17664,6 +17684,330 @@ function nicolasCagePortraitPage() {
         {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
         {route:"beruehmte-adele", label:"Portrait: Adele (SE4w3)"},
         {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function leoTolstoiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-leo-tolstoi-portrait.jpg" alt="Dove" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leo Tolstoy</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Russian writer, 1828&ndash;1910 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove That Thought Through Its Own Suffering</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four &ndash; it does not put its deep emotional life on display but processes it in quiet, often decades-long persistence. It seeks no applause for its pain, only its own, unmistakable way through it.</p>
+          <p class="vb-intro">Lev Nikolayevich Tolstoy was born in 1828 on the family estate of Yasnaya Polyana, lost both parents early, and grew up with relatives. As a young man he already kept a meticulous diary &ndash; a lifelong ritual of unsparing self-observation in which he recorded his own moral weaknesses, his gambling addiction, his sexual transgressions, and his constant self-criticism in minute detail. This early habit of inner bookkeeping became the foundation of his entire literary work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Suffering as a Quiet Burden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SE4)</strong> does not carry its suffering out into public view but endures it stoically &ndash; telling itself: I suffer better, more quietly, more deeply than others, and precisely there lies my dignity. Tolstoy's decades-long, agonizing search for the meaning of life, documented in works like "A Confession" (1882), shows this signature clearly: an existential crisis that nearly drove him to suicide was not put on display but lived through and worked out literarily in years of quiet inner struggle.</p>
+          <p class="vb-intro">His relationship to his own wealth was also marked by this quiet inner conflict: Tolstoy, himself a count and large landowner, felt increasing shame about his prosperity, tried to live like a peasant, sewed his own boots, and worked in the fields &ndash; an inner conflict he never staged publicly but carried with himself until his death.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Life as a Systemic Question</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four an analytical distance from its own pain &ndash; the feeling is not just lived through but cast into a thought-out, often almost encyclopedic intellectual structure. Tolstoy's later works "War and Peace" (1869) and "Anna Karenina" (1877) are not just novels but vast, carefully constructed systems in which hundreds of characters, historical facts, and philosophical digressions are woven into a coherent whole &ndash; a devotion to detail only a Five-wing can muster.</p>
+          <p class="vb-intro">This love of system also showed in Tolstoy's later religious-philosophical phase: he developed his own radical interpretation of Christianity, preaching nonviolence and simple living &ndash; set down in densely reasoned treatises like "The Kingdom of God Is Within You" (1894), which later profoundly influenced Mahatma Gandhi.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Break With His Own Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In his final three decades, Tolstoy increasingly turned away from his own literary fame and aristocratic lifestyle. He renounced royalties for his later works, founded his own ethical-religious movement (Tolstoyism), and fell into ever-deeper conflicts with his wife Sofia, who had to secure the material welfare of their 13 children.</p>
+          <p class="vb-intro">This tension escalated in 1910: at the age of 82, Tolstoy secretly left his own estate at night &ndash; a final, radical attempt to bring his life into alignment with itself. Days later he died of pneumonia in a small railway station house in Astapovo, followed by journalists from around the world. Typical of the self-preservation Four: the inner conflict was carried through with himself alone, right to the last breath.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE4w5 is the ability to turn <strong>deep personal suffering into thought-out, universal truth</strong> &ndash; Tolstoy's work still moves millions of readers today because he penetrated his own inner conflict so honestly, and so systematically, that timeless literature emerged from it.</p>
+          <p class="vb-intro">The shadow showed itself in his uncompromising stance toward his own family: his radical rejection of property and his strict moral demands plunged his marriage into decades of crisis, and his sudden, secret departure in 1910 left his wife without a farewell. The flip side of the self-preservation Four: quiet, inner consistency can become so radical that it overrides the people in one's own immediate circle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Dove That Sought Its Own Way to the End</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Leo Tolstoy is considered one of the greatest writers in world literature today &ndash; not only for his narrative mastery, but because he thought through the great questions of meaning, guilt, and redemption with an honesty few other authors have matched.</p>
+          <p class="vb-intro">The dove that swung all its life between wealth and asceticism, between fame and self-denial, and only found peace in death, far from its own estate &ndash; that is the lasting image of the self-preservation Four with a Five-wing: a lifetime of quiet, thought-out struggle for one's own truth.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function gustavMahlerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-gustav-mahler-portrait.jpg" alt="Armadillo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gustav Mahler</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Austrian composer and conductor, 1860&ndash;1911 &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo at the Conductor's Podium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four &ndash; it does not hide its difference but carries it visibly into public life, into a group that both fascinates and excludes it. It seeks the stage precisely in order to be recognized there as the tragic exception.</p>
+          <p class="vb-intro">Gustav Mahler was born in 1860 in Kalischt (Bohemia), one of 14 children, more than half of whom died in childhood &ndash; an early, ever-present experience of death and loss that ran through his entire body of work. As a Jew in the Catholic-dominated Habsburg Empire and as an artist with a radically idiosyncratic musical language, he experienced the feeling of being an outsider throughout his life &ndash; even at the height of his fame as director of the Vienna Court Opera (1897&ndash;1907), the most prestigious musical post in Europe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: The Outsider in the Spotlight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> paradoxically seeks out the group in order to make its own uniqueness visible there &ndash; it does not want to suffer in hiding but to live out its tragic difference in front of an audience. Mahler's position as opera director alongside radical compositional independence was exactly that: he stood at the center of Viennese musical life and yet composed music that often unsettled and divided his audience.</p>
+          <p class="vb-intro">His conversion to Catholicism in 1897 &ndash; a formal prerequisite for the Court Opera post &ndash; remained a publicly visible sign throughout his life of his standing between worlds: never quite belonging, but always at the center of attention. His famous statement that he was "thrice homeless" &ndash; as a Bohemian in Austria, as an Austrian among Germans, as a Jew throughout the world &ndash; captures this fundamental tension of the social Four precisely.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: The Symphony as a Blueprint of the World</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four the drive not merely to express its emotional world but to cast it into a vast, thoroughly constructed system. Mahler's symphonies &ndash; often over 90 minutes long, with an enormous orchestral apparatus, chorus, and soloists &ndash; are exactly that: comprehensive, almost cosmological blueprints of the world, attempting to unite life, death, nature, and redemption in a single musical structure. His dictum that "a symphony must be like the world, it must embrace everything" is the purest formulation of this stance.</p>
+          <p class="vb-intro">This analytical drive to construct also showed in his work as a conductor: Mahler was feared for his meticulous, uncompromising rehearsal work, his photographic memory for scores, and his ability to control even the smallest detail of an orchestral sound &ndash; a precision that pushed many musicians to their limits.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Death as a Constant Companion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Death runs through Mahler's work like a red thread &ndash; from the "Kindertotenlieder" (1904), composed after the early death of several of his siblings, to "Das Lied von der Erde" (1908), which he composed after being diagnosed with a serious heart condition and after the death of his own daughter Maria in 1907. Out of superstitious fear of the "curse of the ninth" &ndash; since several great composers died after completing their ninth symphony &ndash; he deliberately did not number this work as a symphony, giving it its own title instead.</p>
+          <p class="vb-intro">In 1907 Mahler lost his daughter, his position at the Vienna Court Opera (through antisemitically motivated campaigns), and received the diagnosis of his own fatal heart disease, all within a few months &ndash; a triple blow that, typically for the social Four, he did not hide but translated directly into his compositional work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w5 is the ability to turn <strong>existential suffering into monumental, universal art</strong> &ndash; Mahler's symphonies are today regarded as among the most significant works in classical music, precisely because they combine personal pain with compositional systematics.</p>
+          <p class="vb-intro">The shadow showed itself in his uncompromising nature as a conductor and superior, which earned him a reputation as a tyrant, as well as in a deep restlessness that also burdened his marriage to Alma Mahler. The flip side of the social Four with a Five-wing: the search for perfect, all-encompassing expression can become so intense that little room remains for the people in one's immediate circle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Armadillo That Captured the World in Music</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gustav Mahler died in 1911 in Vienna, shortly before the premiere of his ninth symphony, which he would never conduct. Celebrated during his lifetime mainly as a conductor, he was only recognized decades after his death as one of the most significant composers in music history &ndash; his work is now seen as a bridge between late Romanticism and modernism.</p>
+          <p class="vb-intro">The armadillo that stood at the center of Vienna's musical world yet never quite belonged, that translated its deepest experience of loss into vast, all-encompassing sound worlds &ndash; that is the lasting image of the social Four with a Five-wing: loneliness that becomes universality.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
+        {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function marcelProustPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-marcel-proust-portrait.jpg" alt="Armadillo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marcel Proust</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">French writer, 1871&ndash;1922 &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo in the Cork-Lined Room</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four &ndash; it seeks society, salons, the social field of observation, and carries its sensitive inner life openly, even when it withdraws physically in order to write about what it has seen.</p>
+          <p class="vb-intro">Marcel Proust was born in 1871 in Auteuil near Paris, suffered from severe asthma and extraordinary physical sensitivity from early childhood, a condition that shaped his entire life. In his youth and as a young man, he was an eager habitué of Parisian upper-class salons &ndash; observing aristocracy and bourgeoisie with almost scientific precision, before withdrawing, increasingly ill, into his legendary cork-lined bedroom, where he spent nearly all of the last 13 years of his life writing his life's work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: Society as the Stage for One's Own Difference</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> needs the group in order to rub against it and recognize its own particularity &ndash; Proust spent years as a recognized, but always slightly outside, observer of Parisian high society, fascinated by its rituals and vanities without ever quite belonging to it. As a gay man in an era of strict social taboos, he lived in constant tension between public facade and hidden self &ndash; a theme that runs through his work implicitly and explicitly.</p>
+          <p class="vb-intro">His life's work "In Search of Lost Time" (1913&ndash;1927, seven volumes) is at its core the detailed dissection of exactly this society, from the perspective of an observer who is both part of it and never quite feels he belongs &ndash; the classic position of the social Four.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Memory as a Science</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four an analytical, almost scientific distance from its own experience &ndash; feeling is not just lived through but dissected down to its finest branches and put into language. Proust's most famous literary invention, the "madeleine episode," in which the taste of a piece of pastry dipped in tea calls up an entire lost childhood, is exactly that: a microscopically precise analysis of how involuntary memory ("mémoire involontaire") works.</p>
+          <p class="vb-intro">His entire, more than 4,000-page work is marked by this systematics: a single sentence can span several pages, every observation is broken down into its psychological, social, and philosophical components. This combination of the deepest feeling and seemingly endless analytical precision is the signature of the SO4w5 in its purest literary form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A Life's Work Against Time</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Proust worked on his main work until his death, correcting proofs even on his deathbed as his health rapidly deteriorated. The first volume, "Swann's Way" (part of "In Search of Lost Time"), was initially rejected by several renowned publishers before Proust published it at his own expense in 1913 &ndash; a gamble that ultimately paid off with the second volume, which won the Prix Goncourt in 1919.</p>
+          <p class="vb-intro">His entire late work was created under the awareness of his own mortality: Proust knew his lung disease would kill him young, and worked with an intensity that allowed for hardly any pauses &ndash; a race against time to fully capture the life he had found in memory, before it was too late.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w5 is the ability to turn <strong>fleeting, subjective memory into a universal, meticulously thought-out art form</strong> &ndash; Proust's work is still considered one of the greatest novels in world literature today, because it shows how the seemingly smallest thing (the taste of a pastry) can contain the greatest thing (an entire lost world).</p>
+          <p class="vb-intro">The shadow showed itself in his increasing social isolation and hypochondria &ndash; Proust withdrew ever further from direct life in order to describe it all the more precisely from a distance, until his cork-lined room literally became his entire world. The flip side of the social Four with a Five-wing: the analytical distance that makes writing possible can increasingly displace the lived life itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Armadillo That Rediscovered Lost Time</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Marcel Proust died in 1922 in Paris, shortly after completing the final pages of his life's work &ndash; the last volumes were published posthumously. What began as an observation of a transient society became one of the most profound examinations of time, memory, and identity in all of literary history.</p>
+          <p class="vb-intro">The armadillo that withdrew from society in order to understand it all the more precisely, and that turned its own fleeting memory into an imperishable literary edifice &ndash; that is the lasting image of the social Four with a Five-wing: observation that becomes eternity.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function leonardoDaVinciPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-leonardo-da-vinci-portrait.jpg" alt="Octopus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leonardo da Vinci</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Italian polymath and artist, 1452&ndash;1519 &ndash; Animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Octopus With Eight Arms of Thought</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five &ndash; a creature of extraordinary intelligence that explores the world with countless "arms" simultaneously and makes its knowledge available to the community rather than hoarding it for itself alone. No animal fits better a man who was simultaneously painter, anatomist, engineer, botanist, and inventor.</p>
+          <p class="vb-intro">Leonardo da Vinci was born out of wedlock in 1452 in Vinci, near Florence &ndash; a circumstance that denied him access to a classical university education and instead made him a self-taught observer of nature. Trained in the workshop of the sculptor Verrocchio, he developed an insatiable curiosity early on that went far beyond painting: he dissected corpses to understand anatomy, observed the flight of birds to design flying machines, and studied water currents to develop hydraulic systems.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Five: Knowledge in Service to Humanity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Five (SO5)</strong> differs from the other Five subtypes in that it does not withhold its knowledge but sees it as a contribution to a larger whole &ndash; it wants to be the most competent authority in its field and share that knowledge with the world. Leonardo's over 13,000 pages of notebooks, full of sketches, inventions, and scientific observations, were not a private diary but an attempt to systematize and expand the entire knowledge of his time.</p>
+          <p class="vb-intro">He worked at the courts of powerful patrons &ndash; the Sforza family in Milan, later the French royal court &ndash; not as a withdrawn loner, but as a sought-after polymath who designed fortifications, canal systems, and courtly festivals alike. His knowledge was publicly visible, deployed in the service of cities, princes, and posterity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: Art as the Deepest Form of Expression</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Five a deep aesthetic sensitivity and the ability not merely to document its insights soberly but to transform them into art of timeless emotional power. The "Mona Lisa" (c. 1503&ndash;1519), on which Leonardo worked until his death and never delivered to its patron, is exactly that: a scientifically precise study of light, anatomy, and perspective that also became one of the most emotionally penetrating artworks in history.</p>
+          <p class="vb-intro">His famous "Vitruvian Man" (c. 1490) likewise combines mathematical systematics with an almost spiritual vision of man as the measure of all things &ndash; the characteristic fusion of analytical Five-thinking and Four-like striving for deeper meaning. Leonardo strikingly completed few of his works &ndash; only around 20 paintings are unambiguously attributed to him &ndash; because his perfectionism and his constant search for new insights repeatedly kept him from finishing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A Life Between Disciplines</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Leonardo's invention sketches &ndash; flying machines, armored vehicles, diving equipment, robots &ndash; anticipated technological developments by centuries, even though most of them were never built during his lifetime. His anatomical drawings, based on his own dissections of over 30 human corpses, were scientifically so precise that their full significance was only appreciated by modern medicine centuries later.</p>
+          <p class="vb-intro">This abundance of interests also made Leonardo notoriously unreliable: commissions were left unfinished, projects abandoned as soon as a new, more fascinating field of inquiry beckoned. This is typical for the social Five with a Four-wing: curiosity is so boundless that completing any single work sometimes seems less important than understanding itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO5w4 is the ability to combine <strong>universal knowledge with deep artistic sensitivity</strong> &ndash; Leonardo proved that science and art are not opposites but can interpenetrate one another when curiosity and feeling work together.</p>
+          <p class="vb-intro">The shadow showed itself in his notorious inability to complete projects &ndash; numerous commissions, including several large murals and sculptures, remained unfinished or were destroyed by technical experiments, like his famous "Last Supper" (1495&ndash;1498), which began to fade during his own lifetime due to a flawed painting technique. The flip side of the social Five with a Four-wing: the desire to understand everything and execute it perfectly can lead to paralysis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Octopus That Probed the Limits of Knowledge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Leonardo da Vinci died in 1519 in Amboise, France, in the service of the French king Francis I. His legacy of notebooks, sketches, and unfinished ideas continues to inspire scientists, artists, and engineers alike today &ndash; proof that his thinking was centuries ahead of its time.</p>
+          <p class="vb-intro">The octopus that explored art, science, and technology simultaneously with countless arms, and left its knowledge to posterity even though it rarely considered a single work truly "finished" &ndash; that is the lasting image of the social Five with a Four-wing: boundless curiosity, transformed into timeless beauty.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4)"},
+        {route:"beruehmte-claudio-naranjo", label:"Portrait: Claudio Naranjo (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function udoJuergensPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-udo-juergens-portrait.jpg" alt="Eagle" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Udo Jürgens</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Austrian singer and composer, 1934&ndash;2014 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle With the Longest Breath in Schlager Music</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One &ndash; it builds its work with the utmost care, disciplined and persistent, high above the fast-moving hustle, and surveys its craft with unerring precision. Hardly any artist embodies this lifelong, disciplined persistence as much as Udo Jürgens.</p>
+          <p class="vb-intro">Udo Jürgen Bockelmann was born in 1934 in Klagenfurt, began playing piano and trumpet as a child, and composed his first schlager song at age 14. Despite years of setbacks &ndash; he took part in talent competitions and selection processes for over a decade before his breakthrough came &ndash; he held unwaveringly to his musical discipline: daily piano practice, meticulous work perfecting melodies and lyrics, an almost craftsman-like standard for his own art.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Perfection as a Life Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> seeks security through meticulous discipline and a high, often unrelenting standard for its own work &ndash; it builds its work stone by stone, with the utmost care and endurance. Jürgens was known for his almost legendary work ethic: over six decades, he composed more than 1,000 songs, many of them fully worked out at the piano himself, with an unerring sense for melody and structure.</p>
+          <p class="vb-intro">His international breakthrough came in 1966 with "Merci, Chérie," with which he won the Eurovision Song Contest for Austria &ndash; after several failed attempts in previous years. This years-long, unwavering persistence despite repeated failure is the purest expression of the self-preservation One: don't give up, keep refining, until one's own high bar is reached.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Warmth in Service of the Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the strict One a warm, engaged, almost caring quality &ndash; perfection is not displayed coldly but placed in service of an emotional connection to the audience. Jürgens's songs &ndash; from "Griechischer Wein" (1974) to "Mit 66 Jahren" (1977) &ndash; told of longing, everyday people, migration, and the dignity of aging, always with a palpable affection for the people he sang about.</p>
+          <p class="vb-intro">This caring core also showed in his social engagement: Jürgens founded the Udo Jürgens Foundation in 1989 to support children in need, and dedicated himself throughout his life to social and political causes, for example with the song "Der ganz normale Wahnsinn" (1996) about the challenges faced by single mothers. The Two-wing thus gave his disciplined One a purpose beyond pure artistic perfection: to move people and give them something.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Six Decades on Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jürgens remained on stage almost until his death &ndash; his final major tour, "Mitten im Leben," took him through sold-out arenas in 2014, at age 80. This consistency across six decades, without any notable career decline, is practically unique in the German-language schlager and chanson business and reflects the unshakeable work discipline of the self-preservation One.</p>
+          <p class="vb-intro">Telling of his high artistic standards: Jürgens never saw himself as merely a schlager singer, but also composed musicals ("Ich war noch niemals in New York," 2007) and a ballet, and he never settled for a comfortable, repetitive formula, but kept renewing his musical craft from the ground up.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE1w2 is the ability to combine <strong>the highest craftsmanly discipline with genuine human warmth</strong> &ndash; Jürgens's music was never merely technically perfect but always noticeably oriented toward connection with the audience, which secured him an unbroken popularity across generations to this day.</p>
+          <p class="vb-intro">The shadow showed itself in a high, at times uncompromising perfectionism toward himself and others, as well as in a private life marked by several failed marriages and relationships &ndash; the constant focus on his own work took its toll in his personal life. The flip side of the self-preservation One with a Two-wing: the caring impulse often flows more easily into art and the audience than into one's closest personal relationships.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Eagle That Composed Until the End</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Udo Jürgens died in 2014 at age 80, just weeks after one of his last concerts &ndash; active, disciplined, and creating right until the end. His body of work, more than 1,000 compositions, remains a fixed part of the German-language music canon, passed on from generation to generation.</p>
+          <p class="vb-intro">The eagle that, over six decades, refined its work with unwavering discipline while never losing its warmth for its audience &ndash; that is the lasting image of the self-preservation One with a Two-wing: perfection that does not stay cold, but moves people.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-dan-brown", label:"Portrait: Dan Brown (SE1w2)"},
+        {route:"beruehmte-marie-kondo", label:"Portrait: Marie Kondo (SE1w2)"},
       ])}
     </div>
   `);
@@ -47145,6 +47489,11 @@ function subtypeSchaubilderPage() {
       "beruehmte-johnny-depp": johnnyDeppPortraitPage,
       "beruehmte-morgan-freeman": morganFreemanPortraitPage,
       "beruehmte-nicolas-cage": nicolasCagePortraitPage,
+      "beruehmte-leo-tolstoi": leoTolstoiPortraitPage,
+      "beruehmte-gustav-mahler": gustavMahlerPortraitPage,
+      "beruehmte-marcel-proust": marcelProustPortraitPage,
+      "beruehmte-leonardo-da-vinci": leonardoDaVinciPortraitPage,
+      "beruehmte-udo-juergens": udoJuergensPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,

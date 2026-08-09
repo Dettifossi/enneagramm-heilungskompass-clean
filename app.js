@@ -199,6 +199,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dan Brown – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · geb. 1964. Bestseller-Autor, bekannt für seine Symbolik- und Verschwörungsromane um Robert Langdon. Jahrelange akribische Recherche, ein streng durchgetakteter Arbeitstag – und die Gabe, hochkomplexe Themen für Millionen Leser zugänglich zu machen. Tierentsprechung: Adler.",
     tags:["Literatur"] , gender:"m"},
+  { route:"beruehmte-udo-juergens", name:"Udo Jürgens", added:"2026-08-09", subtyp:"SE1w2",
+    heading:"Udo Jürgens – Selbsterhaltender Typ 1",
+    teaser:"SE1w2 · 1934–2014. Österreichischer Sänger und Komponist. Griechischer Wein, Merci Chérie, über 1.000 Kompositionen in sechs Jahrzehnten. Der Adler, der Perfektion mit echter Wärme fürs Publikum verband.",
+    tags:["Musik"], gender:"m"},
   { route:"beruehmte-ursula-von-der-leyen", name:"Ursula von der Leyen", added:"2026-07-29", subtyp:"SO1w9",
     heading:"Ursula von der Leyen – Sozialer Typ 1",
     teaser:"SO1w9 · geb. 1958. Präsidentin der Europäischen Kommission. Krisenmanagerin mit hartem Durchsetzungswillen hinter diplomatischer Fassade – und im Zentrum der umstrittenen \"Pfizergate\"-Affäre um verweigerte Transparenz bei den Impfstoff-Verträgen. Tierentsprechung: Gans.",
@@ -447,6 +451,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Paul McCartney – Selbsterhaltender Typ 4",
     teaser:"SE4w5 · geb. 1942. Musiker, Songwriter, Ex-Beatle. Über 20.000 Aufführungen seiner Songs weltweit. Die Taube, die ihre schwerste Botschaft am längsten mit sich trägt, bevor sie sie in eine Melodie verwandelt. Tierentsprechung: Taube.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-leo-tolstoi", name:"Leo Tolstoi", added:"2026-08-09", subtyp:"SE4w5",
+    heading:"Leo Tolstoi – Selbsterhaltender Typ 4",
+    teaser:"SE4w5 · 1828–1910. Russischer Schriftsteller. Krieg und Frieden, Anna Karenina. Die Taube, die ihr Leben lang zwischen Reichtum und Askese schwankte und ihre eigene Zerrissenheit in zeitlose Literatur verwandelte.",
+    tags:["Literatur"], gender:"m"},
   { route:"beruehmte-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
     heading:"Romy Schneider – Sozialer Typ 4",
     teaser:"SO4w3 · 1938–1982. Schauspielerin. Sissi, César und Rosalie, La Piscine. Das Gürteltier, das im Licht stand – und sich innerlich immer einrollte.",
@@ -478,6 +486,14 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-edgar-allan-poe", name:"Edgar Allan Poe", added:"2026-08-09", subtyp:"SO4w5",
     heading:"Edgar Allan Poe – Sozialer Typ 4",
     teaser:"SO4w5 · 1809–1849. Amerikanischer Schriftsteller, Erfinder der Detektivgeschichte, Meister des literarischen Schauerlichen. Der Rabe (The Raven), Das verräterische Herz (The Tell-Tale Heart). Das Gürteltier, dessen Panzer aus Schmerz und Isolation zur Kunstform wurde.",
+    tags:["Literatur"], gender:"m"},
+  { route:"beruehmte-gustav-mahler", name:"Gustav Mahler", added:"2026-08-09", subtyp:"SO4w5",
+    heading:"Gustav Mahler – Sozialer Typ 4",
+    teaser:"SO4w5 · 1860–1911. Österreichischer Komponist und Dirigent, Direktor der Wiener Hofoper. Sinfonien, Kindertotenlieder, Das Lied von der Erde. Das Gürteltier, das existenzielles Leid in monumentale, alles umfassende Klangwelten übersetzte.",
+    tags:["Musik"], gender:"m"},
+  { route:"beruehmte-marcel-proust", name:"Marcel Proust", added:"2026-08-09", subtyp:"SO4w5",
+    heading:"Marcel Proust – Sozialer Typ 4",
+    teaser:"SO4w5 · 1871–1922. Französischer Schriftsteller. Auf der Suche nach der verlorenen Zeit. Das Gürteltier, das sich aus der Gesellschaft zurückzog, um ihre flüchtige Erinnerung in ein unvergängliches literarisches Bauwerk zu verwandeln.",
     tags:["Literatur"], gender:"m"},
   { route:"beruehmte-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3",
     heading:"Freddie Mercury – Sexueller Typ 4",
@@ -543,6 +559,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Claudio Naranjo – Sozialer Typ 5",
     teaser:"SO5w4 · 1932–2019. Psychiater, Autor, Enneagramm- und Meditationslehrer. Begründer des Systems der 27 Subtypen – das Fundament, auf dem das gesamte moderne Subtypen-Verständnis ruht. Der Oktopus, der mit acht Armen die Seele der Menschheit kartografiert hat. Tierentsprechung: Oktopus.",
     tags:["Wissenschaft"] , gender:"m"},
+  { route:"beruehmte-leonardo-da-vinci", name:"Leonardo da Vinci", added:"2026-08-09", subtyp:"SO5w4",
+    heading:"Leonardo da Vinci – Sozialer Typ 5",
+    teaser:"SO5w4 · 1452–1519. Italienischer Universalgelehrter, Maler, Erfinder. Mona Lisa, Vitruvianischer Mensch, über 13.000 Seiten Notizbücher. Der Oktopus, der mit acht Denkarmen Kunst, Wissenschaft und Technik zugleich erforschte.",
+    tags:["Kunst","Wissenschaft"], gender:"m"},
   { route:"beruehmte-bill-gates", name:"Bill Gates", subtyp:"SO5w6",
     heading:"Bill Gates – Sozialer Typ 5",
     teaser:"SO5w6 · geb. 1955. Microsoft-Gründer, Milliardär. Investor in Industrie, Landwirtschaft und globale Gesundheitspolitik. Der Oktopus, der mit acht Armen die Welt umfasst – und nicht mehr loslässt.",
@@ -14804,6 +14824,330 @@ function nicolasCagePortraitPage() {
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-adele", label:"Portr\xe4t: Adele (SE4w3)"},
         {route:"beruehmte-lady-diana", label:"Portr\xe4t: Lady Diana (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function leoTolstoiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-leo-tolstoi-portrait.jpg" alt="Taube" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leo Tolstoi</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Russischer Schriftsteller, 1828&ndash;1910 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die ihr eigenes Leid durchdachte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier &ndash; sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus für ihren Schmerz, sondern einen eigenen, unverwechselbaren Weg hindurch.</p>
+          <p class="vb-intro">Lew Nikolajewitsch Tolstoi wurde 1828 auf dem Familiengut Jasnaja Poljana geboren, verlor beide Eltern früh und wuchs bei Verwandten auf. Schon als junger Mann führte er akribisch Tagebuch &ndash; ein lebenslanges Ritual der schonungslosen Selbstbeobachtung, in dem er seine eigenen moralischen Schwächen, seine Spielsucht, seine sexuellen Verfehlungen und seine ständige Selbstkritik minutiös festhielt. Diese frühe Gewohnheit der inneren Buchführung wurde zur Grundlage seines gesamten literarischen Werks.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Leid als stille Last</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr Leiden nicht öffentlich vor sich her, sondern erträgt es stoisch &ndash; sie sagt sich: Ich leide besser, stiller, tiefer als andere, und genau darin liegt meine Würde. Tolstois jahrzehntelange, quälende Suche nach dem Sinn des Lebens, dokumentiert in Werken wie &bdquo;Beichte&ldquo; (1882), zeigt diese Signatur deutlich: eine existenzielle Krise, die ihn fast in den Selbstmord trieb, wurde nicht ausgestellt, sondern in stillem, jahrelangem Ringen durchlebt und literarisch verarbeitet.</p>
+          <p class="vb-intro">Auch sein Verhältnis zum eigenen Reichtum war von diesem stillen inneren Kampf geprägt: Tolstoi, selbst Graf und Großgrundbesitzer, empfand zunehmend Scham über seinen Wohlstand, versuchte, wie ein Bauer zu leben, nähte seine eigenen Stiefel und arbeitete auf dem Feld &ndash; ein innerer Konflikt, den er nie öffentlich inszenierte, sondern bis zu seinem Tod mit sich selbst austrug.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Das Leben als Systemfrage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier eine analytische Distanz zu ihrem eigenen Schmerz &ndash; das Gefühl wird nicht nur durchlebt, sondern in ein durchdachtes, oft geradezu enzyklopädisches Gedankengebäude gefasst. Tolstois Spätwerk &bdquo;Krieg und Frieden&ldquo; (1869) und &bdquo;Anna Karenina&ldquo; (1877) sind nicht nur Romane, sondern riesige, sorgfältig konstruierte Systeme, in denen Hunderte Figuren, historische Fakten und philosophische Exkurse zu einem stimmigen Ganzen verwoben werden &ndash; eine Detailversessenheit, die nur ein Fünferflügel aufbringen kann.</p>
+          <p class="vb-intro">Diese Systemliebe zeigte sich auch in Tolstois später religiös-philosophischer Phase: Er entwickelte eine eigene, radikale Interpretation des Christentums, die Gewaltlosigkeit und einfaches Leben predigte &ndash; niedergeschrieben in dicht durchdachten Traktaten wie &bdquo;Das Reich Gottes ist in euch&ldquo; (1894), das später Mahatma Gandhi maßgeblich beeinflusste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Bruch mit dem eigenen Leben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In den letzten drei Lebensjahrzehnten wandte sich Tolstoi zunehmend von seinem eigenen literarischen Ruhm und seinem aristokratischen Lebensstil ab. Er verzichtete auf Tantiemen für sein Spätwerk, gründete eine eigene ethisch-religiöse Bewegung (den &bdquo;Tolstoismus&ldquo;) und geriet darüber in immer tiefere Konflikte mit seiner Frau Sofja, die die materielle Versorgung der 13 gemeinsamen Kinder sicherstellen musste.</p>
+          <p class="vb-intro">Diese Spannung eskalierte 1910: Im Alter von 82 Jahren verließ Tolstoi heimlich, nachts, sein eigenes Gut &ndash; ein letzter, radikaler Versuch, mit dem eigenen Leben in Einklang zu kommen. Wenige Tage später starb er an einer Lungenentzündung in einem kleinen Bahnhofsgebäude in Astapowo, mitverfolgt von Journalisten aus aller Welt. Für die selbsterhaltende Vier typisch: Der innere Konflikt wurde bis zum letzten Atemzug mit sich selbst ausgetragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 ist die Fähigkeit, <strong>tiefes persönliches Leid in durchdachte, universelle Wahrheit</strong> zu verwandeln &ndash; Tolstois Werk berührt bis heute Millionen Leser, weil er seine eigene Zerrissenheit so ehrlich und zugleich so systematisch durchdrungen hat, dass daraus zeitlose Literatur wurde.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in seiner Kompromisslosigkeit gegenüber der eigenen Familie: Seine radikale Ablehnung von Besitz und seine strengen moralischen Ansprüche stürzten seine Ehe in jahrzehntelange Krisen, und sein plötzlicher, heimlicher Aufbruch 1910 hinterließ seine Frau ohne Abschied. Die Kehrseite der selbsterhaltenden Vier: Die stille, innere Konsequenz kann so radikal werden, dass sie die Menschen im eigenen Umfeld übergeht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die bis zuletzt ihren eigenen Weg suchte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Leo Tolstoi gilt heute als einer der größten Schriftsteller der Weltliteratur &ndash; nicht nur wegen seiner erzählerischen Meisterschaft, sondern weil er die großen Fragen nach Sinn, Schuld und Erlösung mit einer Ehrlichkeit durchdachte, die kaum ein anderer Autor erreicht hat.</p>
+          <p class="vb-intro">Die Taube, die ihr Leben lang zwischen Reichtum und Askese, zwischen Ruhm und Selbstverleugnung schwankte und erst im Tod, fern von ihrem eigenen Gut, zur Ruhe kam &ndash; das ist das bleibende Bild der selbsterhaltenden Vier mit Fünferflügel: ein Leben lang stilles, durchdachtes Ringen um die eigene Wahrheit.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-paul-mccartney", label:"Portr\xe4t: Paul McCartney (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function gustavMahlerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-gustav-mahler-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gustav Mahler</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Österreichischer Komponist und Dirigent, 1860&ndash;1911 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier am Dirigentenpult</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier &ndash; es verbirgt sein Anderssein nicht, sondern trägt es sichtbar in die Öffentlichkeit, in eine Gruppe, die es zugleich fasziniert und ausschließt. Es sucht die Bühne, um genau dort als die tragische Ausnahme wahrgenommen zu werden.</p>
+          <p class="vb-intro">Gustav Mahler wurde 1860 in Kalischt (Böhmen) als eines von 14 Kindern geboren, von denen mehr als die Hälfte im Kindesalter starb &ndash; eine frühe, allgegenwärtige Erfahrung von Tod und Verlust, die sein gesamtes Schaffen durchzog. Als Jude im katholisch geprägten Habsburgerreich und als Künstler mit radikal eigenwilliger Musiksprache erlebte er zeitlebens das Gefühl des Außenseiters &ndash; selbst auf dem Höhepunkt seines Ruhms als Direktor der Wiener Hofoper (1897&ndash;1907), dem prestigeträchtigsten Musikposten Europas.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Der Außenseiter im Rampenlicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> sucht paradoxerweise die Gruppe, um dort ihre Einzigartigkeit sichtbar zu machen &ndash; sie will nicht im Verborgenen leiden, sondern ihre tragische Andersartigkeit vor Publikum ausleben. Mahlers Position als Operndirektor bei gleichzeitiger radikaler kompositorischer Eigenständigkeit war genau das: Er stand im Zentrum der Wiener Musikwelt und komponierte doch eine Musik, die sein Publikum oft verstörte und spaltete.</p>
+          <p class="vb-intro">Seine Konvertierung zum Katholizismus 1897 &ndash; eine formale Voraussetzung für das Hofopern-Amt &ndash; blieb zeitlebens ein öffentlich sichtbares Zeichen seines Zwischen-den-Welten-Stehens: nie ganz zugehörig, aber immer im Zentrum der Aufmerksamkeit. Sein berühmter Ausspruch, er sei &bdquo;dreifach heimatlos&ldquo; &ndash; als Böhme in Österreich, als Österreicher unter Deutschen, als Jude in der ganzen Welt &ndash; bringt diese Grundspannung der sozialen Vier auf den Punkt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Die Sinfonie als Weltentwurf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier den Drang, ihre Gefühlswelt nicht nur auszudrücken, sondern in ein gewaltiges, durchkonstruiertes System zu fassen. Mahlers Sinfonien &ndash; oft über 90 Minuten lang, mit riesigem Orchesterapparat, Chor und Solisten &ndash; sind genau das: umfassende, fast kosmologische Weltentwürfe, die Leben, Tod, Natur und Erlösung in einem einzigen musikalischen Bauwerk zu vereinen versuchen. Sein Diktum &bdquo;Eine Sinfonie muss sein wie die Welt, sie muss alles umfassen&ldquo; ist die reinste Formulierung dieser Haltung.</p>
+          <p class="vb-intro">Diese analytische Konstruktionslust zeigte sich auch in seiner Arbeit als Dirigent: Mahler war gefürchtet für seine akribische, kompromisslose Probenarbeit, sein fotografisches Gedächtnis für Partituren und seine Fähigkeit, jedes noch so kleine Detail eines Orchesterklangs zu kontrollieren &ndash; eine Präzision, die viele Musiker an ihre Grenzen brachte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Tod als ständiger Begleiter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Tod durchzieht Mahlers Werk wie ein roter Faden &ndash; von den &bdquo;Kindertotenliedern&ldquo; (1904), komponiert nach dem frühen Tod mehrerer seiner Geschwister, bis zu &bdquo;Das Lied von der Erde&ldquo; (1908), das er nach der Diagnose einer schweren Herzerkrankung und dem Tod seiner eigenen Tochter Maria im Jahr 1907 komponierte. Aus abergläubischer Furcht vor dem &bdquo;Fluch der Neunten&ldquo; &ndash; da mehrere große Komponisten nach ihrer neunten Sinfonie starben &ndash; nummerierte er dieses Werk bewusst nicht als Sinfonie, sondern gab ihm einen eigenen Titel.</p>
+          <p class="vb-intro">1907 verlor Mahler binnen weniger Monate seine Tochter, seine Position an der Wiener Hofoper (durch antisemitisch motivierte Kampagnen) und die Diagnose seiner eigenen tödlichen Herzkrankheit &ndash; ein Dreifachschlag, den er, typisch für die soziale Vier, nicht verbarg, sondern unmittelbar in sein kompositorisches Werk übersetzte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 ist die Fähigkeit, <strong>existenzielles Leid in monumentale, universelle Kunst</strong> zu verwandeln &ndash; Mahlers Sinfonien gelten heute als einige der bedeutendsten Werke der klassischen Musik, gerade weil sie persönlichen Schmerz mit kompositorischer Systematik verbinden.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in seiner Kompromisslosigkeit als Dirigent und Vorgesetzter, die ihm den Ruf eines Tyrannen einbrachte, sowie in einer tiefen Rastlosigkeit, die auch seine Ehe mit Alma Mahler belastete. Die Kehrseite der sozialen Vier mit Fünferflügel: Die Suche nach dem perfekten, alles umfassenden Ausdruck kann so intensiv werden, dass für die Menschen im direkten Umfeld kaum Raum bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Gürteltier, das die Welt in Musik fasste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gustav Mahler starb 1911 in Wien, kurz vor der Uraufführung seiner neunten Sinfonie, die er nie mehr dirigieren sollte. Zu Lebzeiten vor allem als Dirigent gefeiert, wurde er erst Jahrzehnte nach seinem Tod als einer der bedeutendsten Komponisten der Musikgeschichte erkannt &ndash; sein Werk gilt heute als Brücke zwischen Spätromantik und Moderne.</p>
+          <p class="vb-intro">Das Gürteltier, das im Zentrum der Wiener Musikwelt stand und doch nie ganz dazugehörte, das seine tiefste Verlusterfahrung in gewaltige, alles umfassende Klangwelten übersetzte &ndash; das ist das bleibende Bild der sozialen Vier mit Fünferflügel: Einsamkeit, die zur Universalität wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
+        {route:"beruehmte-edgar-allan-poe", label:"Portr\xe4t: Edgar Allan Poe (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function marcelProustPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marcel-proust-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marcel Proust</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Französischer Schriftsteller, 1871&ndash;1922 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier im korkverkleideten Zimmer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier &ndash; es sucht die Gesellschaft, die Salons, das gesellschaftliche Beobachtungsfeld, und trägt sein empfindsames Innenleben dabei offen zur Schau, selbst wenn es sich äußerlich zurückzieht, um über das Gesehene zu schreiben.</p>
+          <p class="vb-intro">Marcel Proust wurde 1871 in Auteuil bei Paris geboren, litt von früher Kindheit an unter schwerem Asthma und einer außergewöhnlichen körperlichen Empfindlichkeit, die sein gesamtes Leben prägte. In seiner Jugend und als junger Mann war er ein eifriger Salonbesucher der Pariser Oberschicht &ndash; er beobachtete Adel und Bürgertum mit geradezu wissenschaftlicher Genauigkeit, bevor er sich, zunehmend krank, in sein legendäres, mit Kork ausgekleidetes Schlafzimmer zurückzog, um die letzten 13 Jahre seines Lebens fast ausschließlich dort mit dem Schreiben seines Lebenswerks zu verbringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Die Gesellschaft als Bühne des eigenen Andersseins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> braucht die Gruppe, um sich an ihr zu reiben und ihre eigene Besonderheit zu erkennen &ndash; Proust verbrachte Jahre als anerkannter, aber stets leicht außenstehender Beobachter der Pariser High Society, fasziniert von deren Ritualen und Eitelkeiten, ohne je ganz dazuzugehören. Als homosexueller Mann in einer Zeit strenger gesellschaftlicher Tabus lebte er in ständiger Spannung zwischen öffentlicher Fassade und geheimem Selbst &ndash; ein Thema, das sein Werk implizit und explizit durchzieht.</p>
+          <p class="vb-intro">Sein Lebenswerk &bdquo;Auf der Suche nach der verlorenen Zeit&ldquo; (1913&ndash;1927, sieben Bände) ist im Kern die detaillierte Sezierung genau dieser Gesellschaft, aus der Perspektive eines Beobachters, der zugleich Teil von ihr ist und sich doch nie ganz zugehörig fühlt &ndash; die klassische Position der sozialen Vier.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Die Erinnerung als Wissenschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier eine analytische, fast wissenschaftliche Distanz zum eigenen Erleben &ndash; das Gefühl wird nicht nur durchlebt, sondern bis in die feinsten Verästelungen seziert und in Sprache gefasst. Prousts berühmteste literarische Erfindung, die &bdquo;Madeleine-Episode&ldquo;, in der der Geschmack eines in Tee getauchten Gebäckstücks eine ganze verlorene Kindheit wachruft, ist genau das: eine mikroskopisch genaue Analyse, wie unwillkürliche Erinnerung (die &bdquo;mémoire involontaire&ldquo;) funktioniert.</p>
+          <p class="vb-intro">Sein gesamtes, über 4000 Seiten umfassendes Werk ist von dieser Systematik geprägt: Ein einziger Satz kann sich über mehrere Seiten erstrecken, jede Beobachtung wird in ihre psychologischen, sozialen und philosophischen Bestandteile zerlegt. Diese Kombination aus tiefstem Gefühl und schier endloser analytischer Präzision ist die Signatur der SO4w5 in ihrer reinsten literarischen Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein Lebenswerk gegen die Zeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Proust arbeitete an seinem Hauptwerk bis zu seinem Tod, korrigierte noch auf dem Sterbebett Druckfahnen, während seine Gesundheit sich rapide verschlechterte. Der erste Band, &bdquo;Combray&ldquo; (Teil von &bdquo;Auf der Suche nach der verlorenen Zeit&ldquo;), wurde zunächst von mehreren renommierten Verlagen abgelehnt, bevor Proust ihn 1913 auf eigene Kosten veröffentlichte &ndash; ein Wagnis, das sich mit dem zweiten Band, der 1919 den Prix Goncourt gewann, endgültig auszahlte.</p>
+          <p class="vb-intro">Sein gesamtes Spätwerk entstand unter dem Bewusstsein der eigenen Sterblichkeit: Proust wusste, dass seine Lungenkrankheit ihn früh töten würde, und arbeitete mit einer Intensität, die kaum Pausen zuließ &ndash; eine Wettlauf gegen die Zeit, um das eigene, in der Erinnerung gefundene Leben vollständig festzuhalten, bevor es zu spät war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 ist die Fähigkeit, <strong>flüchtige, subjektive Erinnerung in eine universelle, minutiös durchdachte Kunstform</strong> zu verwandeln &ndash; Prousts Werk gilt bis heute als einer der bedeutendsten Romane der Weltliteratur, weil es zeigt, wie das scheinbar Kleinste (der Geschmack eines Gebäcks) das Größte (eine ganze verlorene Welt) enthalten kann.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in seiner zunehmenden sozialen Isolation und Hypochondrie &ndash; Proust zog sich immer weiter aus dem direkten Leben zurück, um es aus der Distanz umso genauer beschreiben zu können, bis sein korkverkleidetes Zimmer buchstäblich zu seiner ganzen Welt wurde. Die Kehrseite der sozialen Vier mit Fünferflügel: Die analytische Distanz, die das Schreiben ermöglicht, kann das gelebte Leben selbst zunehmend verdrängen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Gürteltier, das die verlorene Zeit wiederfand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Marcel Proust starb 1922 in Paris, kurz nachdem er die letzten Seiten seines Lebenswerks vollendet hatte &ndash; die letzten Bände wurden posthum veröffentlicht. Was als Beobachtung einer vergänglichen Gesellschaft begann, wurde zu einer der tiefgründigsten Untersuchungen von Zeit, Erinnerung und Identität in der gesamten Literaturgeschichte.</p>
+          <p class="vb-intro">Das Gürteltier, das sich aus der Gesellschaft zurückzog, um sie umso genauer zu verstehen, und das seine eigene, flüchtige Erinnerung in ein unvergängliches literarisches Bauwerk verwandelte &ndash; das ist das bleibende Bild der sozialen Vier mit Fünferflügel: Beobachtung, die zur Ewigkeit wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-gustav-mahler", label:"Portr\xe4t: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function leonardoDaVinciPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-leonardo-da-vinci-portrait.jpg" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leonardo da Vinci</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Sozialer Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Italienischer Universalgelehrter und Künstler, 1452&ndash;1519 &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus mit acht Denkarmen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen Fünf &ndash; ein Wesen mit außergewöhnlicher Intelligenz, das die Welt mit unzähligen &bdquo;Armen&ldquo; gleichzeitig erforscht und sein Wissen der Gemeinschaft zur Verfügung stellt, statt es nur für sich zu horten. Kein Tier passt besser zu einem Mann, der gleichzeitig Maler, Anatom, Ingenieur, Botaniker und Erfinder war.</p>
+          <p class="vb-intro">Leonardo da Vinci wurde 1452 unehelich in Vinci bei Florenz geboren &ndash; ein Umstand, der ihm den Zugang zu einer klassischen Universitätsausbildung verwehrte und ihn stattdessen zum autodidaktischen Beobachter der Natur machte. In der Werkstatt des Bildhauers Verrocchio ausgebildet, entwickelte er schon früh eine unstillbare Neugier, die weit über die Malerei hinausging: Er sezierte Leichen, um Anatomie zu verstehen, beobachtete den Vogelflug, um Flugmaschinen zu entwerfen, und studierte Wasserströmungen, um hydraulische Systeme zu entwickeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Fünf: Wissen als Dienst an der Menschheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Fünf (SO5)</strong> unterscheidet sich von den anderen Fünfer-Subtypen dadurch, dass sie ihr Wissen nicht zurückhält, sondern es als Beitrag zu einem größeren Ganzen versteht &ndash; sie will die &bdquo;kompetenteste&ldquo; Autorität in ihrem Feld sein und dieses Wissen mit der Welt teilen. Leonardos über 13.000 Seiten Notizbücher, voller Skizzen, Erfindungen und wissenschaftlicher Beobachtungen, waren kein privates Tagebuch, sondern der Versuch, das gesamte Wissen seiner Zeit zu systematisieren und zu erweitern.</p>
+          <p class="vb-intro">Er arbeitete an den Höfen mächtiger Auftraggeber &ndash; der Familie Sforza in Mailand, später am französischen Königshof &ndash; nicht als zurückgezogener Eigenbrötler, sondern als gefragter Universalgelehrter, der Festungsanlagen, Kanalsysteme und höfische Festspiele gleichermaßen entwarf. Sein Wissen war öffentlich sichtbar, eingesetzt im Dienst von Städten, Fürsten und der Nachwelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Kunst als tiefste Ausdrucksform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> verleiht der Fünf eine tiefe ästhetische Sensibilität und die Fähigkeit, ihre Erkenntnisse nicht nur nüchtern zu dokumentieren, sondern in Kunst von zeitloser emotionaler Kraft zu verwandeln. Die &bdquo;Mona Lisa&ldquo; (ca. 1503&ndash;1519), an der Leonardo bis zu seinem Tod arbeitete und die er nie an ihren Auftraggeber auslieferte, ist genau das: eine wissenschaftlich präzise Untersuchung von Licht, Anatomie und Perspektive, die zugleich zu einem der emotional eindringlichsten Kunstwerke der Geschichte wurde.</p>
+          <p class="vb-intro">Auch sein berühmter &bdquo;Vitruvianischer Mensch&ldquo; (ca. 1490) verbindet mathematische Systematik mit einer fast spirituellen Vision vom Menschen als Maß aller Dinge &ndash; die typische Verschmelzung von analytischem Fünfer-Denken und viererhaftem Streben nach tieferer Bedeutung. Leonardo vollendete auffällig wenige seiner Werke &ndash; nur rund 20 Gemälde sind ihm zweifelsfrei zugeschrieben &ndash; weil sein Perfektionsanspruch und seine ständige Suche nach neuen Erkenntnissen ihn immer wieder von der Fertigstellung abhielten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein Leben zwischen den Disziplinen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Leonardos Erfindungsskizzen &ndash; Fluggeräte, Panzerfahrzeuge, Tauchausrüstungen, Roboter &ndash; nahmen technologische Entwicklungen um Jahrhunderte vorweg, obwohl die meisten davon zu Lebzeiten nie gebaut wurden. Seine anatomischen Zeichnungen, basierend auf eigenhändigen Sektionen von über 30 menschlichen Leichen, waren wissenschaftlich so präzise, dass sie erst Jahrhunderte später von der modernen Medizin in ihrer vollen Bedeutung gewürdigt wurden.</p>
+          <p class="vb-intro">Diese Fülle an Interessen führte auch dazu, dass Leonardo als notorisch unzuverlässig galt: Aufträge blieben liegen, Projekte wurden abgebrochen, sobald ein neues, faszinierenderes Forschungsfeld lockte. Für die soziale Fünf mit Viererflügel ist das typisch: Die Neugier ist so grenzenlos, dass die Vollendung eines einzelnen Werks manchmal weniger wichtig erscheint als das Verstehen an sich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO5w4 ist die Fähigkeit, <strong>universelles Wissen mit tiefer künstlerischer Empfindsamkeit</strong> zu verbinden &ndash; Leonardo bewies, dass Wissenschaft und Kunst keine Gegensätze sind, sondern sich gegenseitig durchdringen können, wenn Neugier und Gefühl zusammenwirken.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in seiner notorischen Unfähigkeit, Projekte abzuschließen &ndash; zahlreiche Aufträge, darunter mehrere große Wandgemälde und Skulpturen, blieben unvollendet oder wurden durch technische Experimente zerstört, wie sein berühmtes &bdquo;Abendmahl&ldquo; (1495&ndash;1498), das durch eine fehlerhafte Maltechnik schon zu Lebzeiten zu verblassen begann. Die Kehrseite der sozialen Fünf mit Viererflügel: Der Wunsch, alles zu verstehen und perfekt umzusetzen, kann zur Lähmung führen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Oktopus, der die Grenzen des Wissens auslotete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Leonardo da Vinci starb 1519 in Amboise, Frankreich, im Dienst des französischen Königs Franz I. Sein Nachlass an Notizbüchern, Skizzen und unvollendeten Ideen inspiriert bis heute Wissenschaftler, Künstler und Ingenieure gleichermaßen &ndash; ein Beweis dafür, dass sein Denken seiner Zeit um Jahrhunderte voraus war.</p>
+          <p class="vb-intro">Der Oktopus, der mit unzähligen Armen gleichzeitig Kunst, Wissenschaft und Technik erforschte und sein Wissen der Nachwelt hinterließ, auch wenn er selbst kaum ein Werk als &bdquo;fertig&ldquo; betrachtete &ndash; das ist das bleibende Bild der sozialen Fünf mit Viererflügel: grenzenlose Neugier, verwandelt in zeitlose Schönheit.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-albert-einstein", label:"Portr\xe4t: Albert Einstein (SO5w4)"},
+        {route:"beruehmte-claudio-naranjo", label:"Portr\xe4t: Claudio Naranjo (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function udoJuergensPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-udo-juergens-portrait.jpg" alt="Adler" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Udo Jürgens</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Österreichischer Sänger und Komponist, 1934&ndash;2014 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler mit dem längsten Atem des Schlagers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; er baut sein Werk mit äußerster Sorgfalt, diszipliniert und beharrlich, hoch über dem schnelllebigen Trubel, und überblickt sein Handwerk mit unbestechlicher Genauigkeit. Kaum ein Künstler verkörpert diese lebenslange, disziplinierte Beharrlichkeit so sehr wie Udo Jürgens.</p>
+          <p class="vb-intro">Udo Jürgen Bockelmann wurde 1934 in Klagenfurt geboren, begann bereits als Kind Klavier und Trompete zu spielen und komponierte mit 14 Jahren seinen ersten Schlager. Trotz jahrelanger Rückschläge &ndash; er nahm über zehn Jahre lang an Talentwettbewerben und Auswahlverfahren teil, bevor sich sein Durchbruch einstellte &ndash; hielt er unbeirrt an seiner musikalischen Disziplin fest: tägliches Klavierüben, akribisches Feilen an Melodien und Texten, ein nahezu handwerklicher Anspruch an die eigene Kunst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Perfektion als Lebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> sucht Sicherheit durch akribische Disziplin und einen hohen, oft unerbittlichen Anspruch an die eigene Arbeit &ndash; sie baut sich ihr Werk Stein für Stein auf, mit äußerster Sorgfalt und Ausdauer. Jürgens war bekannt für seinen fast schon legendären Arbeitsethos: Über sechs Jahrzehnte hinweg komponierte er mehr als 1.000 Lieder, viele davon selbst am Klavier durchkomponiert, mit einem untrüglichen Gespür für Melodie und Struktur.</p>
+          <p class="vb-intro">Sein internationaler Durchbruch gelang 1966 mit &bdquo;Merci, Chérie&ldquo;, mit dem er für Österreich den Eurovision Song Contest gewann &ndash; nach mehreren gescheiterten Anläufen in den Jahren zuvor. Diese jahrelange, unbeirrbare Beharrlichkeit trotz wiederholten Scheiterns ist die reinste Ausprägung der selbsterhaltenden Eins: Nicht aufgeben, weiter feilen, bis die eigene hohe Messlatte erreicht ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme im Dienst des Publikums</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der strengen Eins eine warme, zugewandte, geradezu fürsorgliche Note &ndash; die Perfektion wird nicht kühl zur Schau gestellt, sondern in den Dienst einer emotionalen Verbindung zum Publikum gestellt. Jürgens' Lieder &ndash; von &bdquo;Griechischer Wein&ldquo; (1974) bis &bdquo;Mit 66 Jahren&ldquo; (1977) &ndash; erzählten von Sehnsucht, Alltagsmenschen, Migration und Alterswürde, immer mit einer spürbaren Zuneigung zu den Menschen, über die er sang.</p>
+          <p class="vb-intro">Diese fürsorgliche Grundhaltung zeigte sich auch in seinem sozialen Engagement: Jürgens gründete 1989 die Udo-Jürgens-Stiftung zur Unterstützung von Kindern in Not und setzte sich Zeit seines Lebens für soziale und politische Themen ein, etwa mit dem Lied &bdquo;Der ganz normale Wahnsinn&ldquo; (1996) über die Herausforderungen alleinerziehender Mütter. Der Zweierflügel gab seiner disziplinierten Eins damit ein Ziel jenseits der reinen künstlerischen Perfektion: Menschen berühren und ihnen etwas geben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Sechs Jahrzehnte auf der Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jürgens stand bis kurz vor seinem Tod auf der Bühne &ndash; seine letzte große Tournee &bdquo;Mitten im Leben&ldquo; führte ihn 2014 durch ausverkaufte Hallen, im Alter von 80 Jahren. Diese Konstanz über sechs Jahrzehnte hinweg, ohne nennenswerten Karriereeinbruch, ist im deutschsprachigen Schlager- und Chansongeschäft praktisch einzigartig und spiegelt die unerschütterliche Arbeitsdisziplin der selbsterhaltenden Eins wider.</p>
+          <p class="vb-intro">Bezeichnend für seinen hohen künstlerischen Anspruch: Jürgens verstand sich nie nur als Schlagersänger, sondern komponierte auch Musicals (&bdquo;Ich war noch niemals in New York&ldquo;, 2007) und ein Ballett, und er ließ sich nie auf eine bequeme, sich wiederholende Formel festlegen, sondern erneuerte sein musikalisches Handwerk immer wieder von Grund auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w2 ist die Fähigkeit, <strong>höchste handwerkliche Disziplin mit echter menschlicher Wärme</strong> zu verbinden &ndash; Jürgens' Musik war nie nur technisch perfekt, sondern immer auch spürbar auf Verbindung mit dem Publikum ausgerichtet, was ihm eine bis heute ungebrochene Popularität über Generationen hinweg sicherte.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in einem hohen, mitunter kompromisslosen Perfektionsanspruch an sich selbst und andere, sowie in einem Privatleben, das von mehreren gescheiterten Ehen und Beziehungen geprägt war &ndash; der ständige Fokus auf das eigene Werk forderte seinen Tribut im persönlichen Bereich. Die Kehrseite der selbsterhaltenden Eins mit Zweierflügel: Die Fürsorge fließt oft leichter in die Kunst und ins Publikum als in die engsten privaten Beziehungen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Adler, der bis zuletzt komponierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Udo Jürgens starb 2014 im Alter von 80 Jahren, wenige Wochen nach einem seiner letzten Konzerte &ndash; bis zuletzt aktiv, diszipliniert, schaffend. Sein Werk von mehr als 1.000 Kompositionen bleibt fester Bestandteil des deutschsprachigen Musikkanons, von Generation zu Generation weitergetragen.</p>
+          <p class="vb-intro">Der Adler, der über sechs Jahrzehnte hinweg mit unbeirrbarer Disziplin an seinem Werk feilte und dabei nie die Wärme für sein Publikum verlor &ndash; das ist das bleibende Bild der selbsterhaltenden Eins mit Zweierflügel: Perfektion, die nicht kalt bleibt, sondern Menschen berührt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-dan-brown", label:"Portr\xe4t: Dan Brown (SE1w2)"},
+        {route:"beruehmte-marie-kondo", label:"Portr\xe4t: Marie Kondo (SE1w2)"},
       ])}
     </div>
   `);
@@ -50162,6 +50506,11 @@ function render() {
     "beruehmte-johnny-depp": johnnyDeppPortraitPage,
     "beruehmte-morgan-freeman": morganFreemanPortraitPage,
     "beruehmte-nicolas-cage": nicolasCagePortraitPage,
+    "beruehmte-leo-tolstoi": leoTolstoiPortraitPage,
+    "beruehmte-gustav-mahler": gustavMahlerPortraitPage,
+    "beruehmte-marcel-proust": marcelProustPortraitPage,
+    "beruehmte-leonardo-da-vinci": leonardoDaVinciPortraitPage,
+    "beruehmte-udo-juergens": udoJuergensPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,

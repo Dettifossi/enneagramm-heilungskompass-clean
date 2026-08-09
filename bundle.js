@@ -24033,6 +24033,7 @@ const registerEntries = [
   { term: "Xu Bing",                    route: "beruehmte-xu-bing",                     description: "Portrait: SE5w4 \u00b7 Selbsterhaltender Typ 5 \u00b7 Konzeptk\u00fcnstler, Kalligraf" },
   { term: "Christoph Waltz",               route: "beruehmte-christoph-waltz",             description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Oscar-Schauspieler" },
   { term: "Claudio Naranjo",               route: "beruehmte-claudio-naranjo",             description: "Portrait: SX7w6 \u00b7 Sexueller Typ 7 \u00b7 Pionier des modernen Enneagramms" },
+  { term: "Leonardo da Vinci",             route: "beruehmte-leonardo-da-vinci",           description: "Portrait: SO5w4 \u00b7 Sozialer Typ 5 \u00b7 Universalgelehrter, Maler, Erfinder" },
   { term: "Clemens Arvay",                 route: "beruehmte-clemens-arvay",               description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Biologe, Autor \u00dcber Naturheilung" },
   { term: "Cristiano Ronaldo",             route: "beruehmte-cristiano-ronaldo",           description: "Portrait: SX3w2 \u00b7 Sexueller Typ 3 \u00b7 Fu\u00dfballstar, Selbstoptimierung" },
   { term: "David L. Rathmer",              route: "beruehmte-david-l-rathmer",             description: "Portrait: SE3w4 \u00b7 Selbsterhaltender Typ 3 \u00b7 Enneagramm-Trainer" },
@@ -24089,6 +24090,8 @@ const registerEntries = [
   { term: "Jan Ullrich",                   route: "beruehmte-jan-ullrich",                 description: "Portrait: SX6w7 \u00b7 Sexueller Typ 6 \u00b7 Tour-de-France-Sieger" },
   { term: "Jasmin Paolini",                route: "beruehmte-jasmin-paolini",              description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Tennisprofi, Wimbledon-Finalistin" },
   { term: "John Lennon",                   route: "beruehmte-john-lennon",                 description: "Portrait: SX4w5 \u00b7 Sexueller Typ 4 \u00b7 Beatle, Friedensaktivist" },
+  { term: "Gustav Mahler",                 route: "beruehmte-gustav-mahler",               description: "Portrait: SO4w5 \u00b7 Sozialer Typ 4 \u00b7 Komponist, Dirigent der Wiener Hofoper" },
+  { term: "Marcel Proust",                 route: "beruehmte-marcel-proust",               description: "Portrait: SO4w5 \u00b7 Sozialer Typ 4 \u00b7 Schriftsteller, Auf der Suche nach der verlorenen Zeit" },
   { term: "Edgar Allan Poe",               route: "beruehmte-edgar-allan-poe",             description: "Portrait: SO4w5 \u00b7 Sozialer Typ 4 \u00b7 Schriftsteller, Erfinder der Detektivgeschichte" },
   { term: "Jordan Peterson",               route: "beruehmte-jordan-peterson",             description: "Portrait: SX1w2 \u00b7 Sexueller Typ 1 \u00b7 Psychologe, Bestsellerautor" },
   { term: "J\u00fcrgen Klopp",               route: "beruehmte-juergen-klopp",               description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Fu\u00dfballtrainer, Liverpool, Leidenschaft" },
@@ -24109,6 +24112,7 @@ const registerEntries = [
   { term: "Marisa Abela",                  route: "beruehmte-marisa-abela",                description: "Portrait: SO2w1 \u00b7 Sozialer Typ 2 \u00b7 Schauspielerin, Industry, Back to Black" },
   { term: "Marie Kondo",                   route: "beruehmte-marie-kondo",                 description: "Portrait: SE1w2 \u00b7 Selbsterhaltender Typ 1 \u00b7 Ordnungsexpertin, KonMari" },
   { term: "Dan Brown",                     route: "beruehmte-dan-brown",                   description: "Portrait: SE1w2 \u00b7 Selbsterhaltender Typ 1 \u00b7 Bestseller-Autor" },
+  { term: "Udo J\u00fcrgens",                   route: "beruehmte-udo-juergens",                description: "Portrait: SE1w2 \u00b7 Selbsterhaltender Typ 1 \u00b7 S\u00e4nger, Komponist" },
   { term: "Ken Follett",                   route: "beruehmte-ken-follett",                 description: "Portrait: SE1w9 \u00b7 Selbsterhaltender Typ 1 \u00b7 Bestseller-Autor historischer Romane" },
   { term: "Marie-Agnes Strack-Zimmermann", route: "beruehmte-marie-agnes-strack-zimmermann", description: "Portrait: SX1w9 \u00b7 Sexueller Typ 1 \u00b7 FDP-Politikerin, Verteidigungsexpertin" },
   { term: "Marilyn Monroe",                route: "beruehmte-marilyn-monroe",               description: "Portrait: SX3w4 \u00b7 Sexueller Typ 3 \u00b7 Schauspielerin, Filmikone" },
@@ -24132,6 +24136,7 @@ const registerEntries = [
   { term: "Oprah Winfrey",                 route: "beruehmte-oprah-winfrey",               description: "Portrait: SE2w3 \u00b7 Selbsterhaltender Typ 2 \u00b7 Moderatorin, Unternehmerin, Philanthropin" },
   { term: "Pamela Reif",                   route: "beruehmte-pamela-reif",                 description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Fitness-Influencerin, Erfolg durch Verbindung" },
   { term: "Paul McCartney",                route: "beruehmte-paul-mccartney",              description: "Portrait: SE4w5 \u00b7 Selbsterhaltender Typ 4 \u00b7 Musiker, Songwriter, Ex-Beatle" },
+  { term: "Leo Tolstoi",                    route: "beruehmte-leo-tolstoi",                 description: "Portrait: SE4w5 \u00b7 Selbsterhaltender Typ 4 \u00b7 Schriftsteller, Krieg und Frieden" },
   { term: "Pen\u00e9lope Cruz",                 route: "beruehmte-penelope-cruz",               description: "Portrait: SE3w2 \u00b7 Selbsterhaltender Typ 3 \u00b7 Schauspielerin, Verwandlungskunst" },
   { term: "Peter Lustig",                  route: "beruehmte-peter-lustig",                description: "Portrait: SE5w4 \u00b7 Selbsterhaltender Typ 5 \u00b7 TV-Kinderfigur, Basteln & Natur" },
   { term: "Pharrell Williams",             route: "beruehmte-pharrell-williams",           description: "Portrait: SO3w2 \u00b7 Sozialer Typ 3 \u00b7 Musikproduzent, Musiker, Modedesigner" },
@@ -24326,6 +24331,7 @@ const registerEntriesEN = [
   { term: "Xu Bing", route: "beruehmte-xu-bing", description: "Portrait: SE5w4 \u00b7 Self-Preservation Type 5 \u00b7 Conceptual artist, calligrapher" },
   { term: "Christoph Waltz", route: "beruehmte-christoph-waltz", description: "Portrait: SO7w6 \u00b7 Social Type 7 \u00b7 Oscar-Actor" },
   { term: "Claudio Naranjo", route: "beruehmte-claudio-naranjo", description: "Portrait: SX7w6 \u00b7 Sexual Type 7 \u00b7 pioneer of the modern Enneagram" },
+  { term: "Leonardo da Vinci", route: "beruehmte-leonardo-da-vinci", description: "Portrait: SO5w4 \u00b7 Social Type 5 \u00b7 Polymath, painter, inventor" },
   { term: "Clemens Arvay", route: "beruehmte-clemens-arvay", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Biologist, Author On Natural Healing" },
   { term: "Cristiano Ronaldo", route: "beruehmte-cristiano-ronaldo", description: "Portrait: SX3w2 \u00b7 Sexual Type 3 \u00b7 Football star, self-optimization" },
   { term: "David L. Rathmer", route: "beruehmte-david-l-rathmer", description: "Portrait: SE3w4 \u00b7 Self-Preservation Type 3 \u00b7 Enneagram trainer" },
@@ -24377,6 +24383,8 @@ const registerEntriesEN = [
   { term: "Jan Ullrich", route: "beruehmte-jan-ullrich", description: "Portrait: SX6w7 \u00b7 Sexual Type 6 \u00b7 Tour de France winner" },
   { term: "Jasmin Paolini", route: "beruehmte-jasmin-paolini", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Tennis pro, Wimbledon finalist" },
   { term: "John Lennon", route: "beruehmte-john-lennon", description: "Portrait: SX4w5 \u00b7 Sexual Type 4 \u00b7 Beatle, Peace activist" },
+  { term: "Gustav Mahler", route: "beruehmte-gustav-mahler", description: "Portrait: SO4w5 \u00b7 Social Type 4 \u00b7 Composer, conductor of the Vienna Court Opera" },
+  { term: "Marcel Proust", route: "beruehmte-marcel-proust", description: "Portrait: SO4w5 \u00b7 Social Type 4 \u00b7 Writer, In Search of Lost Time" },
   { term: "Edgar Allan Poe", route: "beruehmte-edgar-allan-poe", description: "Portrait: SO4w5 \u00b7 Social Type 4 \u00b7 Writer, inventor of the detective story" },
   { term: "Jordan Peterson", route: "beruehmte-jordan-peterson", description: "Portrait: SX1w2 \u00b7 Sexual Type 1 \u00b7 Psychologist, bestselling author" },
   { term: "J\u00fcrgen Klopp", route: "beruehmte-juergen-klopp", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Football manager, Liverpool, passion" },
@@ -24398,6 +24406,7 @@ const registerEntriesEN = [
   { term: "Marisa Abela", route: "beruehmte-marisa-abela", description: "Portrait: SO2w1 \u00b7 Social Type 2 \u00b7 Actress, Industry, Back to Black" },
   { term: "Marie Kondo", route: "beruehmte-marie-kondo", description: "Portrait: SE1w2 \u00b7 Self-Preservation Type 1 \u00b7 tidying expert, KonMari" },
   { term: "Dan Brown", route: "beruehmte-dan-brown", description: "Portrait: SE1w2 \u00b7 Self-Preservation Type 1 \u00b7 bestselling author" },
+  { term: "Udo J\u00fcrgens", route: "beruehmte-udo-juergens", description: "Portrait: SE1w2 \u00b7 Self-Preservation Type 1 \u00b7 Singer, composer" },
   { term: "Ken Follett", route: "beruehmte-ken-follett", description: "Portrait: SE1w9 \u00b7 Self-Preservation Type 1 \u00b7 bestselling author of historical novels" },
   { term: "Marie-Agnes Strack-Zimmermann", route: "beruehmte-marie-agnes-strack-zimmermann", description: "Portrait: SX1w9 \u00b7 Sexual Type 1 \u00b7 FDP-Politician, Defense policy expert" },
   { term: "Marilyn Monroe", route: "beruehmte-marilyn-monroe", description: "Portrait: SX3w4 \u00b7 Sexual Type 3 \u00b7 Actress, film icon" },
@@ -24421,6 +24430,7 @@ const registerEntriesEN = [
   { term: "Oprah Winfrey", route: "beruehmte-oprah-winfrey", description: "Portrait: SE2w3 \u00b7 Self-Preservation Type 2 \u00b7 TV host, entrepreneur, philanthropist" },
   { term: "Pamela Reif", route: "beruehmte-pamela-reif", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Fitness influencer, success through connection" },
   { term: "Paul McCartney", route: "beruehmte-paul-mccartney", description: "Portrait: SE4w5 \u00b7 Self-Preservation Type 4 \u00b7 Musician, songwriter, ex-Beatle" },
+  { term: "Leo Tolstoy", route: "beruehmte-leo-tolstoi", description: "Portrait: SE4w5 \u00b7 Self-Preservation Type 4 \u00b7 Writer, War and Peace" },
   { term: "Pen\u00e9lope Cruz", route: "beruehmte-penelope-cruz", description: "Portrait: SE3w2 \u00b7 Self-Preservation Type 3 \u00b7 Actress, art of transformation" },
   { term: "Peter Lustig", route: "beruehmte-peter-lustig", description: "Portrait: SE5w4 \u00b7 Self-Preservation Type 5 \u00b7 TV children's personality, crafting & nature" },
   { term: "Pharrell Williams", route: "beruehmte-pharrell-williams", description: "Portrait: SO3w2 \u00b7 Social Type 3 \u00b7 Music producer, musician, fashion designer" },
@@ -31241,6 +31251,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dan Brown \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w2 \u00b7 geb. 1964. Bestseller-Autor, bekannt f\u00fcr seine Symbolik- und Verschw\u00f6rungsromane um Robert Langdon. Jahrelange akribische Recherche, ein streng durchgetakteter Arbeitstag \u2013 und die Gabe, hochkomplexe Themen f\u00fcr Millionen Leser zug\u00e4nglich zu machen. Tierentsprechung: Adler.",
     tags:["Literatur"] , gender:"m"},
+  { route:"beruehmte-udo-juergens", name:"Udo J\u00fcrgens", added:"2026-08-09", subtyp:"SE1w2",
+    heading:"Udo J\u00fcrgens \u2013 Selbsterhaltender Typ 1",
+    teaser:"SE1w2 \u00b7 1934\u20132014. \u00d6sterreichischer S\u00e4nger und Komponist. Griechischer Wein, Merci Ch\u00e9rie, \u00fcber 1.000 Kompositionen in sechs Jahrzehnten. Der Adler, der Perfektion mit echter W\u00e4rme f\u00fcrs Publikum verband.",
+    tags:["Musik"], gender:"m"},
   { route:"beruehmte-ursula-von-der-leyen", name:"Ursula von der Leyen", added:"2026-07-29", subtyp:"SO1w9",
     heading:"Ursula von der Leyen \u2013 Sozialer Typ 1",
     teaser:"SO1w9 \u00b7 geb. 1958. Pr\u00e4sidentin der Europ\u00e4ischen Kommission. Krisenmanagerin mit hartem Durchsetzungswillen hinter diplomatischer Fassade \u2013 und im Zentrum der umstrittenen \"Pfizergate\"-Aff\u00e4re um verweigerte Transparenz bei den Impfstoff-Vertr\u00e4gen. Tierentsprechung: Gans.",
@@ -31489,6 +31503,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Paul McCartney \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1942. Musiker, Songwriter, Ex-Beatle. \u00dcber 20.000 Auff\u00fchrungen seiner Songs weltweit. Die Taube, die ihre schwerste Botschaft am l\u00e4ngsten mit sich tr\u00e4gt, bevor sie sie in eine Melodie verwandelt. Tierentsprechung: Taube.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-leo-tolstoi", name:"Leo Tolstoi", added:"2026-08-09", subtyp:"SE4w5",
+    heading:"Leo Tolstoi \u2013 Selbsterhaltender Typ 4",
+    teaser:"SE4w5 \u00b7 1828\u20131910. Russischer Schriftsteller. Krieg und Frieden, Anna Karenina. Die Taube, die ihr Leben lang zwischen Reichtum und Askese schwankte und ihre eigene Zerrissenheit in zeitlose Literatur verwandelte.",
+    tags:["Literatur"], gender:"m"},
   { route:"beruehmte-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
     heading:"Romy Schneider \u2013 Sozialer Typ 4",
     teaser:"SO4w3 \u00b7 1938\u20131982. Schauspielerin. Sissi, C\u00e9sar und Rosalie, La Piscine. Das G\u00fcrteltier, das im Licht stand \u2013 und sich innerlich immer einrollte.",
@@ -31520,6 +31538,14 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-edgar-allan-poe", name:"Edgar Allan Poe", added:"2026-08-09", subtyp:"SO4w5",
     heading:"Edgar Allan Poe \u2013 Sozialer Typ 4",
     teaser:"SO4w5 \u00b7 1809\u20131849. Amerikanischer Schriftsteller, Erfinder der Detektivgeschichte, Meister des literarischen Schauerlichen. Der Rabe (The Raven), Das verr\u00e4terische Herz (The Tell-Tale Heart). Das G\u00fcrteltier, dessen Panzer aus Schmerz und Isolation zur Kunstform wurde.",
+    tags:["Literatur"], gender:"m"},
+  { route:"beruehmte-gustav-mahler", name:"Gustav Mahler", added:"2026-08-09", subtyp:"SO4w5",
+    heading:"Gustav Mahler \u2013 Sozialer Typ 4",
+    teaser:"SO4w5 \u00b7 1860\u20131911. \u00d6sterreichischer Komponist und Dirigent, Direktor der Wiener Hofoper. Sinfonien, Kindertotenlieder, Das Lied von der Erde. Das G\u00fcrteltier, das existenzielles Leid in monumentale, alles umfassende Klangwelten \u00fcbersetzte.",
+    tags:["Musik"], gender:"m"},
+  { route:"beruehmte-marcel-proust", name:"Marcel Proust", added:"2026-08-09", subtyp:"SO4w5",
+    heading:"Marcel Proust \u2013 Sozialer Typ 4",
+    teaser:"SO4w5 \u00b7 1871\u20131922. Franz\u00f6sischer Schriftsteller. Auf der Suche nach der verlorenen Zeit. Das G\u00fcrteltier, das sich aus der Gesellschaft zur\u00fcckzog, um ihre fl\u00fcchtige Erinnerung in ein unverg\u00e4ngliches literarisches Bauwerk zu verwandeln.",
     tags:["Literatur"], gender:"m"},
   { route:"beruehmte-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3",
     heading:"Freddie Mercury \u2013 Sexueller Typ 4",
@@ -31585,6 +31611,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Claudio Naranjo \u2013 Sozialer Typ 5",
     teaser:"SO5w4 \u00b7 1932\u20132019. Psychiater, Autor, Enneagramm- und Meditationslehrer. Begr\u00fcnder des Systems der 27 Subtypen \u2013 das Fundament, auf dem das gesamte moderne Subtypen-Verst\u00e4ndnis ruht. Der Oktopus, der mit acht Armen die Seele der Menschheit kartografiert hat. Tierentsprechung: Oktopus.",
     tags:["Wissenschaft"] , gender:"m"},
+  { route:"beruehmte-leonardo-da-vinci", name:"Leonardo da Vinci", added:"2026-08-09", subtyp:"SO5w4",
+    heading:"Leonardo da Vinci \u2013 Sozialer Typ 5",
+    teaser:"SO5w4 \u00b7 1452\u20131519. Italienischer Universalgelehrter, Maler, Erfinder. Mona Lisa, Vitruvianischer Mensch, \u00fcber 13.000 Seiten Notizb\u00fccher. Der Oktopus, der mit acht Denkarmen Kunst, Wissenschaft und Technik zugleich erforschte.",
+    tags:["Kunst","Wissenschaft"], gender:"m"},
   { route:"beruehmte-bill-gates", name:"Bill Gates", subtyp:"SO5w6",
     heading:"Bill Gates \u2013 Sozialer Typ 5",
     teaser:"SO5w6 \u00b7 geb. 1955. Microsoft-Gr\u00fcnder, Milliard\u00e4r. Investor in Industrie, Landwirtschaft und globale Gesundheitspolitik. Der Oktopus, der mit acht Armen die Welt umfasst \u2013 und nicht mehr losl\u00e4sst.",
@@ -45841,6 +45871,329 @@ function nicolasCagePortraitPage() {
         {route:"subtype/se4", label:"SE4 \u2013 Die Taube: Subtyp-Profil"},
         {route:"beruehmte-adele", label:"Portr\xe4t: Adele (SE4w3)"},
         {route:"beruehmte-lady-diana", label:"Portr\xe4t: Lady Diana (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+function leoTolstoiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-leo-tolstoi-portrait.jpg" alt="Taube" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leo Tolstoi</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltender Typ 4 mit F\u00fcnferfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Russischer Schriftsteller, 1828&ndash;1910 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die ihr eigenes Leid durchdachte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier &ndash; sie tr\u00e4gt ihr tiefes Gef\u00fchlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus f\u00fcr ihren Schmerz, sondern einen eigenen, unverwechselbaren Weg hindurch.</p>
+          <p class="vb-intro">Lew Nikolajewitsch Tolstoi wurde 1828 auf dem Familiengut Jasnaja Poljana geboren, verlor beide Eltern fr\u00fch und wuchs bei Verwandten auf. Schon als junger Mann f\u00fchrte er akribisch Tagebuch &ndash; ein lebenslanges Ritual der schonungslosen Selbstbeobachtung, in dem er seine eigenen moralischen Schw\u00e4chen, seine Spielsucht, seine sexuellen Verfehlungen und seine st\u00e4ndige Selbstkritik minuti\u00f6s festhielt. Diese fr\u00fche Gewohnheit der inneren Buchf\u00fchrung wurde zur Grundlage seines gesamten literarischen Werks.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Leid als stille Last</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> tr\u00e4gt ihr Leiden nicht \u00f6ffentlich vor sich her, sondern ertr\u00e4gt es stoisch &ndash; sie sagt sich: Ich leide besser, stiller, tiefer als andere, und genau darin liegt meine W\u00fcrde. Tolstois jahrzehntelange, qu\u00e4lende Suche nach dem Sinn des Lebens, dokumentiert in Werken wie &bdquo;Beichte&ldquo; (1882), zeigt diese Signatur deutlich: eine existenzielle Krise, die ihn fast in den Selbstmord trieb, wurde nicht ausgestellt, sondern in stillem, jahrelangem Ringen durchlebt und literarisch verarbeitet.</p>
+          <p class="vb-intro">Auch sein Verh\u00e4ltnis zum eigenen Reichtum war von diesem stillen inneren Kampf gepr\u00e4gt: Tolstoi, selbst Graf und Gro\u00dfgrundbesitzer, empfand zunehmend Scham \u00fcber seinen Wohlstand, versuchte, wie ein Bauer zu leben, n\u00e4hte seine eigenen Stiefel und arbeitete auf dem Feld &ndash; ein innerer Konflikt, den er nie \u00f6ffentlich inszenierte, sondern bis zu seinem Tod mit sich selbst austrug.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\u00fcnferfl\u00fcgel: Das Leben als Systemfrage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> verleiht der Vier eine analytische Distanz zu ihrem eigenen Schmerz &ndash; das Gef\u00fchl wird nicht nur durchlebt, sondern in ein durchdachtes, oft geradezu enzyklop\u00e4disches Gedankengeb\u00e4ude gefasst. Tolstois Sp\u00e4twerk &bdquo;Krieg und Frieden&ldquo; (1869) und &bdquo;Anna Karenina&ldquo; (1877) sind nicht nur Romane, sondern riesige, sorgf\u00e4ltig konstruierte Systeme, in denen Hunderte Figuren, historische Fakten und philosophische Exkurse zu einem stimmigen Ganzen verwoben werden &ndash; eine Detailversessenheit, die nur ein F\u00fcnferfl\u00fcgel aufbringen kann.</p>
+          <p class="vb-intro">Diese Systemliebe zeigte sich auch in Tolstois sp\u00e4ter religi\u00f6s-philosophischer Phase: Er entwickelte eine eigene, radikale Interpretation des Christentums, die Gewaltlosigkeit und einfaches Leben predigte &ndash; niedergeschrieben in dicht durchdachten Traktaten wie &bdquo;Das Reich Gottes ist in euch&ldquo; (1894), das sp\u00e4ter Mahatma Gandhi ma\u00dfgeblich beeinflusste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Bruch mit dem eigenen Leben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In den letzten drei Lebensjahrzehnten wandte sich Tolstoi zunehmend von seinem eigenen literarischen Ruhm und seinem aristokratischen Lebensstil ab. Er verzichtete auf Tantiemen f\u00fcr sein Sp\u00e4twerk, gr\u00fcndete eine eigene ethisch-religi\u00f6se Bewegung (den &bdquo;Tolstoismus&ldquo;) und geriet dar\u00fcber in immer tiefere Konflikte mit seiner Frau Sofja, die die materielle Versorgung der 13 gemeinsamen Kinder sicherstellen musste.</p>
+          <p class="vb-intro">Diese Spannung eskalierte 1910: Im Alter von 82 Jahren verlie\u00df Tolstoi heimlich, nachts, sein eigenes Gut &ndash; ein letzter, radikaler Versuch, mit dem eigenen Leben in Einklang zu kommen. Wenige Tage sp\u00e4ter starb er an einer Lungenentz\u00fcndung in einem kleinen Bahnhofsgeb\u00e4ude in Astapowo, mitverfolgt von Journalisten aus aller Welt. F\u00fcr die selbsterhaltende Vier typisch: Der innere Konflikt wurde bis zum letzten Atemzug mit sich selbst ausgetragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 ist die F\u00e4higkeit, <strong>tiefes pers\u00f6nliches Leid in durchdachte, universelle Wahrheit</strong> zu verwandeln &ndash; Tolstois Werk ber\u00fchrt bis heute Millionen Leser, weil er seine eigene Zerrissenheit so ehrlich und zugleich so systematisch durchdrungen hat, dass daraus zeitlose Literatur wurde.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in seiner Kompromisslosigkeit gegen\u00fcber der eigenen Familie: Seine radikale Ablehnung von Besitz und seine strengen moralischen Anspr\u00fcche st\u00fcrzten seine Ehe in jahrzehntelange Krisen, und sein pl\u00f6tzlicher, heimlicher Aufbruch 1910 hinterlie\u00df seine Frau ohne Abschied. Die Kehrseite der selbsterhaltenden Vier: Die stille, innere Konsequenz kann so radikal werden, dass sie die Menschen im eigenen Umfeld \u00fcbergeht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die bis zuletzt ihren eigenen Weg suchte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Leo Tolstoi gilt heute als einer der gr\u00f6\u00dften Schriftsteller der Weltliteratur &ndash; nicht nur wegen seiner erz\u00e4hlerischen Meisterschaft, sondern weil er die gro\u00dfen Fragen nach Sinn, Schuld und Erl\u00f6sung mit einer Ehrlichkeit durchdachte, die kaum ein anderer Autor erreicht hat.</p>
+          <p class="vb-intro">Die Taube, die ihr Leben lang zwischen Reichtum und Askese, zwischen Ruhm und Selbstverleugnung schwankte und erst im Tod, fern von ihrem eigenen Gut, zur Ruhe kam &ndash; das ist das bleibende Bild der selbsterhaltenden Vier mit F\u00fcnferfl\u00fcgel: ein Leben lang stilles, durchdachtes Ringen um die eigene Wahrheit.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se4", label:"SE4 \u2013 Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-paul-mccartney", label:"Portr\xe4t: Paul McCartney (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function gustavMahlerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-gustav-mahler-portrait.jpg" alt="G\u00fcrteltier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gustav Mahler</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit F\u00fcnferfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">\u00d6sterreichischer Komponist und Dirigent, 1860&ndash;1911 &ndash; Tierentsprechung: G\u00fcrteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das G\u00fcrteltier am Dirigentenpult</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>G\u00fcrteltier</strong> ist das Tier der sozialen Vier &ndash; es verbirgt sein Anderssein nicht, sondern tr\u00e4gt es sichtbar in die \u00d6ffentlichkeit, in eine Gruppe, die es zugleich fasziniert und ausschlie\u00dft. Es sucht die B\u00fchne, um genau dort als die tragische Ausnahme wahrgenommen zu werden.</p>
+          <p class="vb-intro">Gustav Mahler wurde 1860 in Kalischt (B\u00f6hmen) als eines von 14 Kindern geboren, von denen mehr als die H\u00e4lfte im Kindesalter starb &ndash; eine fr\u00fche, allgegenw\u00e4rtige Erfahrung von Tod und Verlust, die sein gesamtes Schaffen durchzog. Als Jude im katholisch gepr\u00e4gten Habsburgerreich und als K\u00fcnstler mit radikal eigenwilliger Musiksprache erlebte er zeitlebens das Gef\u00fchl des Au\u00dfenseiters &ndash; selbst auf dem H\u00f6hepunkt seines Ruhms als Direktor der Wiener Hofoper (1897&ndash;1907), dem prestigetr\u00e4chtigsten Musikposten Europas.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Der Au\u00dfenseiter im Rampenlicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> sucht paradoxerweise die Gruppe, um dort ihre Einzigartigkeit sichtbar zu machen &ndash; sie will nicht im Verborgenen leiden, sondern ihre tragische Andersartigkeit vor Publikum ausleben. Mahlers Position als Operndirektor bei gleichzeitiger radikaler kompositorischer Eigenst\u00e4ndigkeit war genau das: Er stand im Zentrum der Wiener Musikwelt und komponierte doch eine Musik, die sein Publikum oft verst\u00f6rte und spaltete.</p>
+          <p class="vb-intro">Seine Konvertierung zum Katholizismus 1897 &ndash; eine formale Voraussetzung f\u00fcr das Hofopern-Amt &ndash; blieb zeitlebens ein \u00f6ffentlich sichtbares Zeichen seines Zwischen-den-Welten-Stehens: nie ganz zugeh\u00f6rig, aber immer im Zentrum der Aufmerksamkeit. Sein ber\u00fchmter Ausspruch, er sei &bdquo;dreifach heimatlos&ldquo; &ndash; als B\u00f6hme in \u00d6sterreich, als \u00d6sterreicher unter Deutschen, als Jude in der ganzen Welt &ndash; bringt diese Grundspannung der sozialen Vier auf den Punkt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\u00fcnferfl\u00fcgel: Die Sinfonie als Weltentwurf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> verleiht der Vier den Drang, ihre Gef\u00fchlswelt nicht nur auszudr\u00fccken, sondern in ein gewaltiges, durchkonstruiertes System zu fassen. Mahlers Sinfonien &ndash; oft \u00fcber 90 Minuten lang, mit riesigem Orchesterapparat, Chor und Solisten &ndash; sind genau das: umfassende, fast kosmologische Weltentw\u00fcrfe, die Leben, Tod, Natur und Erl\u00f6sung in einem einzigen musikalischen Bauwerk zu vereinen versuchen. Sein Diktum &bdquo;Eine Sinfonie muss sein wie die Welt, sie muss alles umfassen&ldquo; ist die reinste Formulierung dieser Haltung.</p>
+          <p class="vb-intro">Diese analytische Konstruktionslust zeigte sich auch in seiner Arbeit als Dirigent: Mahler war gef\u00fcrchtet f\u00fcr seine akribische, kompromisslose Probenarbeit, sein fotografisches Ged\u00e4chtnis f\u00fcr Partituren und seine F\u00e4higkeit, jedes noch so kleine Detail eines Orchesterklangs zu kontrollieren &ndash; eine Pr\u00e4zision, die viele Musiker an ihre Grenzen brachte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Tod als st\u00e4ndiger Begleiter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Tod durchzieht Mahlers Werk wie ein roter Faden &ndash; von den &bdquo;Kindertotenliedern&ldquo; (1904), komponiert nach dem fr\u00fchen Tod mehrerer seiner Geschwister, bis zu &bdquo;Das Lied von der Erde&ldquo; (1908), das er nach der Diagnose einer schweren Herzerkrankung und dem Tod seiner eigenen Tochter Maria im Jahr 1907 komponierte. Aus abergl\u00e4ubischer Furcht vor dem &bdquo;Fluch der Neunten&ldquo; &ndash; da mehrere gro\u00dfe Komponisten nach ihrer neunten Sinfonie starben &ndash; nummerierte er dieses Werk bewusst nicht als Sinfonie, sondern gab ihm einen eigenen Titel.</p>
+          <p class="vb-intro">1907 verlor Mahler binnen weniger Monate seine Tochter, seine Position an der Wiener Hofoper (durch antisemitisch motivierte Kampagnen) und die Diagnose seiner eigenen t\u00f6dlichen Herzkrankheit &ndash; ein Dreifachschlag, den er, typisch f\u00fcr die soziale Vier, nicht verbarg, sondern unmittelbar in sein kompositorisches Werk \u00fcbersetzte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 ist die F\u00e4higkeit, <strong>existenzielles Leid in monumentale, universelle Kunst</strong> zu verwandeln &ndash; Mahlers Sinfonien gelten heute als einige der bedeutendsten Werke der klassischen Musik, gerade weil sie pers\u00f6nlichen Schmerz mit kompositorischer Systematik verbinden.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in seiner Kompromisslosigkeit als Dirigent und Vorgesetzter, die ihm den Ruf eines Tyrannen einbrachte, sowie in einer tiefen Rastlosigkeit, die auch seine Ehe mit Alma Mahler belastete. Die Kehrseite der sozialen Vier mit F\u00fcnferfl\u00fcgel: Die Suche nach dem perfekten, alles umfassenden Ausdruck kann so intensiv werden, dass f\u00fcr die Menschen im direkten Umfeld kaum Raum bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das G\u00fcrteltier, das die Welt in Musik fasste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gustav Mahler starb 1911 in Wien, kurz vor der Urauff\u00fchrung seiner neunten Sinfonie, die er nie mehr dirigieren sollte. Zu Lebzeiten vor allem als Dirigent gefeiert, wurde er erst Jahrzehnte nach seinem Tod als einer der bedeutendsten Komponisten der Musikgeschichte erkannt &ndash; sein Werk gilt heute als Br\u00fccke zwischen Sp\u00e4tromantik und Moderne.</p>
+          <p class="vb-intro">Das G\u00fcrteltier, das im Zentrum der Wiener Musikwelt stand und doch nie ganz dazugeh\u00f6rte, das seine tiefste Verlusterfahrung in gewaltige, alles umfassende Klangwelten \u00fcbersetzte &ndash; das ist das bleibende Bild der sozialen Vier mit F\u00fcnferfl\u00fcgel: Einsamkeit, die zur Universalit\u00e4t wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
+        {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
+        {route:"beruehmte-edgar-allan-poe", label:"Portr\xe4t: Edgar Allan Poe (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function marcelProustPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marcel-proust-portrait.jpg" alt="G\u00fcrteltier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marcel Proust</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit F\u00fcnferfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Franz\u00f6sischer Schriftsteller, 1871&ndash;1922 &ndash; Tierentsprechung: G\u00fcrteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das G\u00fcrteltier im korkverkleideten Zimmer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>G\u00fcrteltier</strong> ist das Tier der sozialen Vier &ndash; es sucht die Gesellschaft, die Salons, das gesellschaftliche Beobachtungsfeld, und tr\u00e4gt sein empfindsames Innenleben dabei offen zur Schau, selbst wenn es sich \u00e4u\u00dferlich zur\u00fcckzieht, um \u00fcber das Gesehene zu schreiben.</p>
+          <p class="vb-intro">Marcel Proust wurde 1871 in Auteuil bei Paris geboren, litt von fr\u00fcher Kindheit an unter schwerem Asthma und einer au\u00dfergew\u00f6hnlichen k\u00f6rperlichen Empfindlichkeit, die sein gesamtes Leben pr\u00e4gte. In seiner Jugend und als junger Mann war er ein eifriger Salonbesucher der Pariser Oberschicht &ndash; er beobachtete Adel und B\u00fcrgertum mit geradezu wissenschaftlicher Genauigkeit, bevor er sich, zunehmend krank, in sein legend\u00e4res, mit Kork ausgekleidetes Schlafzimmer zur\u00fcckzog, um die letzten 13 Jahre seines Lebens fast ausschlie\u00dflich dort mit dem Schreiben seines Lebenswerks zu verbringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Die Gesellschaft als B\u00fchne des eigenen Andersseins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> braucht die Gruppe, um sich an ihr zu reiben und ihre eigene Besonderheit zu erkennen &ndash; Proust verbrachte Jahre als anerkannter, aber stets leicht au\u00dfenstehender Beobachter der Pariser High Society, fasziniert von deren Ritualen und Eitelkeiten, ohne je ganz dazuzugeh\u00f6ren. Als homosexueller Mann in einer Zeit strenger gesellschaftlicher Tabus lebte er in st\u00e4ndiger Spannung zwischen \u00f6ffentlicher Fassade und geheimem Selbst &ndash; ein Thema, das sein Werk implizit und explizit durchzieht.</p>
+          <p class="vb-intro">Sein Lebenswerk &bdquo;Auf der Suche nach der verlorenen Zeit&ldquo; (1913&ndash;1927, sieben B\u00e4nde) ist im Kern die detaillierte Sezierung genau dieser Gesellschaft, aus der Perspektive eines Beobachters, der zugleich Teil von ihr ist und sich doch nie ganz zugeh\u00f6rig f\u00fchlt &ndash; die klassische Position der sozialen Vier.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\u00fcnferfl\u00fcgel: Die Erinnerung als Wissenschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> verleiht der Vier eine analytische, fast wissenschaftliche Distanz zum eigenen Erleben &ndash; das Gef\u00fchl wird nicht nur durchlebt, sondern bis in die feinsten Ver\u00e4stelungen seziert und in Sprache gefasst. Prousts ber\u00fchmteste literarische Erfindung, die &bdquo;Madeleine-Episode&ldquo;, in der der Geschmack eines in Tee getauchten Geb\u00e4ckst\u00fccks eine ganze verlorene Kindheit wachruft, ist genau das: eine mikroskopisch genaue Analyse, wie unwillk\u00fcrliche Erinnerung (die &bdquo;m\u00e9moire involontaire&ldquo;) funktioniert.</p>
+          <p class="vb-intro">Sein gesamtes, \u00fcber 4000 Seiten umfassendes Werk ist von dieser Systematik gepr\u00e4gt: Ein einziger Satz kann sich \u00fcber mehrere Seiten erstrecken, jede Beobachtung wird in ihre psychologischen, sozialen und philosophischen Bestandteile zerlegt. Diese Kombination aus tiefstem Gef\u00fchl und schier endloser analytischer Pr\u00e4zision ist die Signatur der SO4w5 in ihrer reinsten literarischen Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein Lebenswerk gegen die Zeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Proust arbeitete an seinem Hauptwerk bis zu seinem Tod, korrigierte noch auf dem Sterbebett Druckfahnen, w\u00e4hrend seine Gesundheit sich rapide verschlechterte. Der erste Band, &bdquo;Combray&ldquo; (Teil von &bdquo;Auf der Suche nach der verlorenen Zeit&ldquo;), wurde zun\u00e4chst von mehreren renommierten Verlagen abgelehnt, bevor Proust ihn 1913 auf eigene Kosten ver\u00f6ffentlichte &ndash; ein Wagnis, das sich mit dem zweiten Band, der 1919 den Prix Goncourt gewann, endg\u00fcltig auszahlte.</p>
+          <p class="vb-intro">Sein gesamtes Sp\u00e4twerk entstand unter dem Bewusstsein der eigenen Sterblichkeit: Proust wusste, dass seine Lungenkrankheit ihn fr\u00fch t\u00f6ten w\u00fcrde, und arbeitete mit einer Intensit\u00e4t, die kaum Pausen zulie\u00df &ndash; eine Wettlauf gegen die Zeit, um das eigene, in der Erinnerung gefundene Leben vollst\u00e4ndig festzuhalten, bevor es zu sp\u00e4t war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 ist die F\u00e4higkeit, <strong>fl\u00fcchtige, subjektive Erinnerung in eine universelle, minuti\u00f6s durchdachte Kunstform</strong> zu verwandeln &ndash; Prousts Werk gilt bis heute als einer der bedeutendsten Romane der Weltliteratur, weil es zeigt, wie das scheinbar Kleinste (der Geschmack eines Geb\u00e4cks) das Gr\u00f6\u00dfte (eine ganze verlorene Welt) enthalten kann.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in seiner zunehmenden sozialen Isolation und Hypochondrie &ndash; Proust zog sich immer weiter aus dem direkten Leben zur\u00fcck, um es aus der Distanz umso genauer beschreiben zu k\u00f6nnen, bis sein korkverkleidetes Zimmer buchst\u00e4blich zu seiner ganzen Welt wurde. Die Kehrseite der sozialen Vier mit F\u00fcnferfl\u00fcgel: Die analytische Distanz, die das Schreiben erm\u00f6glicht, kann das gelebte Leben selbst zunehmend verdr\u00e4ngen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das G\u00fcrteltier, das die verlorene Zeit wiederfand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Marcel Proust starb 1922 in Paris, kurz nachdem er die letzten Seiten seines Lebenswerks vollendet hatte &ndash; die letzten B\u00e4nde wurden posthum ver\u00f6ffentlicht. Was als Beobachtung einer verg\u00e4nglichen Gesellschaft begann, wurde zu einer der tiefgr\u00fcndigsten Untersuchungen von Zeit, Erinnerung und Identit\u00e4t in der gesamten Literaturgeschichte.</p>
+          <p class="vb-intro">Das G\u00fcrteltier, das sich aus der Gesellschaft zur\u00fcckzog, um sie umso genauer zu verstehen, und das seine eigene, fl\u00fcchtige Erinnerung in ein unverg\u00e4ngliches literarisches Bauwerk verwandelte &ndash; das ist das bleibende Bild der sozialen Vier mit F\u00fcnferfl\u00fcgel: Beobachtung, die zur Ewigkeit wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
+        {route:"beruehmte-gustav-mahler", label:"Portr\xe4t: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function leonardoDaVinciPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-leonardo-da-vinci-portrait.jpg" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leonardo da Vinci</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Sozialer Typ 5 mit Viererfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Italienischer Universalgelehrter und K\u00fcnstler, 1452&ndash;1519 &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus mit acht Denkarmen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen F\u00fcnf &ndash; ein Wesen mit au\u00dfergew\u00f6hnlicher Intelligenz, das die Welt mit unz\u00e4hligen &bdquo;Armen&ldquo; gleichzeitig erforscht und sein Wissen der Gemeinschaft zur Verf\u00fcgung stellt, statt es nur f\u00fcr sich zu horten. Kein Tier passt besser zu einem Mann, der gleichzeitig Maler, Anatom, Ingenieur, Botaniker und Erfinder war.</p>
+          <p class="vb-intro">Leonardo da Vinci wurde 1452 unehelich in Vinci bei Florenz geboren &ndash; ein Umstand, der ihm den Zugang zu einer klassischen Universit\u00e4tsausbildung verwehrte und ihn stattdessen zum autodidaktischen Beobachter der Natur machte. In der Werkstatt des Bildhauers Verrocchio ausgebildet, entwickelte er schon fr\u00fch eine unstillbare Neugier, die weit \u00fcber die Malerei hinausging: Er sezierte Leichen, um Anatomie zu verstehen, beobachtete den Vogelflug, um Flugmaschinen zu entwerfen, und studierte Wasserstr\u00f6mungen, um hydraulische Systeme zu entwickeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale F\u00fcnf: Wissen als Dienst an der Menschheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale F\u00fcnf (SO5)</strong> unterscheidet sich von den anderen F\u00fcnfer-Subtypen dadurch, dass sie ihr Wissen nicht zur\u00fcckh\u00e4lt, sondern es als Beitrag zu einem gr\u00f6\u00dferen Ganzen versteht &ndash; sie will die &bdquo;kompetenteste&ldquo; Autorit\u00e4t in ihrem Feld sein und dieses Wissen mit der Welt teilen. Leonardos \u00fcber 13.000 Seiten Notizb\u00fccher, voller Skizzen, Erfindungen und wissenschaftlicher Beobachtungen, waren kein privates Tagebuch, sondern der Versuch, das gesamte Wissen seiner Zeit zu systematisieren und zu erweitern.</p>
+          <p class="vb-intro">Er arbeitete an den H\u00f6fen m\u00e4chtiger Auftraggeber &ndash; der Familie Sforza in Mailand, sp\u00e4ter am franz\u00f6sischen K\u00f6nigshof &ndash; nicht als zur\u00fcckgezogener Eigenbr\u00f6tler, sondern als gefragter Universalgelehrter, der Festungsanlagen, Kanalsysteme und h\u00f6fische Festspiele gleicherma\u00dfen entwarf. Sein Wissen war \u00f6ffentlich sichtbar, eingesetzt im Dienst von St\u00e4dten, F\u00fcrsten und der Nachwelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Die Kunst als tiefste Ausdrucksform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> verleiht der F\u00fcnf eine tiefe \u00e4sthetische Sensibilit\u00e4t und die F\u00e4higkeit, ihre Erkenntnisse nicht nur n\u00fcchtern zu dokumentieren, sondern in Kunst von zeitloser emotionaler Kraft zu verwandeln. Die &bdquo;Mona Lisa&ldquo; (ca. 1503&ndash;1519), an der Leonardo bis zu seinem Tod arbeitete und die er nie an ihren Auftraggeber auslieferte, ist genau das: eine wissenschaftlich pr\u00e4zise Untersuchung von Licht, Anatomie und Perspektive, die zugleich zu einem der emotional eindringlichsten Kunstwerke der Geschichte wurde.</p>
+          <p class="vb-intro">Auch sein ber\u00fchmter &bdquo;Vitruvianischer Mensch&ldquo; (ca. 1490) verbindet mathematische Systematik mit einer fast spirituellen Vision vom Menschen als Ma\u00df aller Dinge &ndash; die typische Verschmelzung von analytischem F\u00fcnfer-Denken und viererhaftem Streben nach tieferer Bedeutung. Leonardo vollendete auff\u00e4llig wenige seiner Werke &ndash; nur rund 20 Gem\u00e4lde sind ihm zweifelsfrei zugeschrieben &ndash; weil sein Perfektionsanspruch und seine st\u00e4ndige Suche nach neuen Erkenntnissen ihn immer wieder von der Fertigstellung abhielten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein Leben zwischen den Disziplinen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Leonardos Erfindungsskizzen &ndash; Flugger\u00e4te, Panzerfahrzeuge, Tauchausr\u00fcstungen, Roboter &ndash; nahmen technologische Entwicklungen um Jahrhunderte vorweg, obwohl die meisten davon zu Lebzeiten nie gebaut wurden. Seine anatomischen Zeichnungen, basierend auf eigenh\u00e4ndigen Sektionen von \u00fcber 30 menschlichen Leichen, waren wissenschaftlich so pr\u00e4zise, dass sie erst Jahrhunderte sp\u00e4ter von der modernen Medizin in ihrer vollen Bedeutung gew\u00fcrdigt wurden.</p>
+          <p class="vb-intro">Diese F\u00fclle an Interessen f\u00fchrte auch dazu, dass Leonardo als notorisch unzuverl\u00e4ssig galt: Auftr\u00e4ge blieben liegen, Projekte wurden abgebrochen, sobald ein neues, faszinierenderes Forschungsfeld lockte. F\u00fcr die soziale F\u00fcnf mit Viererfl\u00fcgel ist das typisch: Die Neugier ist so grenzenlos, dass die Vollendung eines einzelnen Werks manchmal weniger wichtig erscheint als das Verstehen an sich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO5w4 ist die F\u00e4higkeit, <strong>universelles Wissen mit tiefer k\u00fcnstlerischer Empfindsamkeit</strong> zu verbinden &ndash; Leonardo bewies, dass Wissenschaft und Kunst keine Gegens\u00e4tze sind, sondern sich gegenseitig durchdringen k\u00f6nnen, wenn Neugier und Gef\u00fchl zusammenwirken.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in seiner notorischen Unf\u00e4higkeit, Projekte abzuschlie\u00dfen &ndash; zahlreiche Auftr\u00e4ge, darunter mehrere gro\u00dfe Wandgem\u00e4lde und Skulpturen, blieben unvollendet oder wurden durch technische Experimente zerst\u00f6rt, wie sein ber\u00fchmtes &bdquo;Abendmahl&ldquo; (1495&ndash;1498), das durch eine fehlerhafte Maltechnik schon zu Lebzeiten zu verblassen begann. Die Kehrseite der sozialen F\u00fcnf mit Viererfl\u00fcgel: Der Wunsch, alles zu verstehen und perfekt umzusetzen, kann zur L\u00e4hmung f\u00fchren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Oktopus, der die Grenzen des Wissens auslotete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Leonardo da Vinci starb 1519 in Amboise, Frankreich, im Dienst des franz\u00f6sischen K\u00f6nigs Franz I. Sein Nachlass an Notizb\u00fcchern, Skizzen und unvollendeten Ideen inspiriert bis heute Wissenschaftler, K\u00fcnstler und Ingenieure gleicherma\u00dfen &ndash; ein Beweis daf\u00fcr, dass sein Denken seiner Zeit um Jahrhunderte voraus war.</p>
+          <p class="vb-intro">Der Oktopus, der mit unz\u00e4hligen Armen gleichzeitig Kunst, Wissenschaft und Technik erforschte und sein Wissen der Nachwelt hinterlie\u00df, auch wenn er selbst kaum ein Werk als &bdquo;fertig&ldquo; betrachtete &ndash; das ist das bleibende Bild der sozialen F\u00fcnf mit Viererfl\u00fcgel: grenzenlose Neugier, verwandelt in zeitlose Sch\u00f6nheit.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so5", label:"SO5 \u2013 Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-albert-einstein", label:"Portr\xe4t: Albert Einstein (SO5w4)"},
+        {route:"beruehmte-claudio-naranjo", label:"Portr\xe4t: Claudio Naranjo (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function udoJuergensPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-udo-juergens-portrait.jpg" alt="Adler" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Udo J\u00fcrgens</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">\u00d6sterreichischer S\u00e4nger und Komponist, 1934&ndash;2014 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler mit dem l\u00e4ngsten Atem des Schlagers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; er baut sein Werk mit \u00e4u\u00dferster Sorgfalt, diszipliniert und beharrlich, hoch \u00fcber dem schnelllebigen Trubel, und \u00fcberblickt sein Handwerk mit unbestechlicher Genauigkeit. Kaum ein K\u00fcnstler verk\u00f6rpert diese lebenslange, disziplinierte Beharrlichkeit so sehr wie Udo J\u00fcrgens.</p>
+          <p class="vb-intro">Udo J\u00fcrgen Bockelmann wurde 1934 in Klagenfurt geboren, begann bereits als Kind Klavier und Trompete zu spielen und komponierte mit 14 Jahren seinen ersten Schlager. Trotz jahrelanger R\u00fcckschl\u00e4ge &ndash; er nahm \u00fcber zehn Jahre lang an Talentwettbewerben und Auswahlverfahren teil, bevor sich sein Durchbruch einstellte &ndash; hielt er unbeirrt an seiner musikalischen Disziplin fest: t\u00e4gliches Klavier\u00fcben, akribisches Feilen an Melodien und Texten, ein nahezu handwerklicher Anspruch an die eigene Kunst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Perfektion als Lebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> sucht Sicherheit durch akribische Disziplin und einen hohen, oft unerbittlichen Anspruch an die eigene Arbeit &ndash; sie baut sich ihr Werk Stein f\u00fcr Stein auf, mit \u00e4u\u00dferster Sorgfalt und Ausdauer. J\u00fcrgens war bekannt f\u00fcr seinen fast schon legend\u00e4ren Arbeitsethos: \u00dcber sechs Jahrzehnte hinweg komponierte er mehr als 1.000 Lieder, viele davon selbst am Klavier durchkomponiert, mit einem untr\u00fcglichen Gesp\u00fcr f\u00fcr Melodie und Struktur.</p>
+          <p class="vb-intro">Sein internationaler Durchbruch gelang 1966 mit &bdquo;Merci, Ch\u00e9rie&ldquo;, mit dem er f\u00fcr \u00d6sterreich den Eurovision Song Contest gewann &ndash; nach mehreren gescheiterten Anl\u00e4ufen in den Jahren zuvor. Diese jahrelange, unbeirrbare Beharrlichkeit trotz wiederholten Scheiterns ist die reinste Auspr\u00e4gung der selbsterhaltenden Eins: Nicht aufgeben, weiter feilen, bis die eigene hohe Messlatte erreicht ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierfl\u00fcgel: W\u00e4rme im Dienst des Publikums</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> verleiht der strengen Eins eine warme, zugewandte, geradezu f\u00fcrsorgliche Note &ndash; die Perfektion wird nicht k\u00fchl zur Schau gestellt, sondern in den Dienst einer emotionalen Verbindung zum Publikum gestellt. J\u00fcrgens' Lieder &ndash; von &bdquo;Griechischer Wein&ldquo; (1974) bis &bdquo;Mit 66 Jahren&ldquo; (1977) &ndash; erz\u00e4hlten von Sehnsucht, Alltagsmenschen, Migration und Altersw\u00fcrde, immer mit einer sp\u00fcrbaren Zuneigung zu den Menschen, \u00fcber die er sang.</p>
+          <p class="vb-intro">Diese f\u00fcrsorgliche Grundhaltung zeigte sich auch in seinem sozialen Engagement: J\u00fcrgens gr\u00fcndete 1989 die Udo-J\u00fcrgens-Stiftung zur Unterst\u00fctzung von Kindern in Not und setzte sich Zeit seines Lebens f\u00fcr soziale und politische Themen ein, etwa mit dem Lied &bdquo;Der ganz normale Wahnsinn&ldquo; (1996) \u00fcber die Herausforderungen alleinerziehender M\u00fctter. Der Zweierfl\u00fcgel gab seiner disziplinierten Eins damit ein Ziel jenseits der reinen k\u00fcnstlerischen Perfektion: Menschen ber\u00fchren und ihnen etwas geben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Sechs Jahrzehnte auf der B\u00fchne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">J\u00fcrgens stand bis kurz vor seinem Tod auf der B\u00fchne &ndash; seine letzte gro\u00dfe Tournee &bdquo;Mitten im Leben&ldquo; f\u00fchrte ihn 2014 durch ausverkaufte Hallen, im Alter von 80 Jahren. Diese Konstanz \u00fcber sechs Jahrzehnte hinweg, ohne nennenswerten Karriereeinbruch, ist im deutschsprachigen Schlager- und Chansongesch\u00e4ft praktisch einzigartig und spiegelt die unersch\u00fctterliche Arbeitsdisziplin der selbsterhaltenden Eins wider.</p>
+          <p class="vb-intro">Bezeichnend f\u00fcr seinen hohen k\u00fcnstlerischen Anspruch: J\u00fcrgens verstand sich nie nur als Schlagers\u00e4nger, sondern komponierte auch Musicals (&bdquo;Ich war noch niemals in New York&ldquo;, 2007) und ein Ballett, und er lie\u00df sich nie auf eine bequeme, sich wiederholende Formel festlegen, sondern erneuerte sein musikalisches Handwerk immer wieder von Grund auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w2 ist die F\u00e4higkeit, <strong>h\u00f6chste handwerkliche Disziplin mit echter menschlicher W\u00e4rme</strong> zu verbinden &ndash; J\u00fcrgens' Musik war nie nur technisch perfekt, sondern immer auch sp\u00fcrbar auf Verbindung mit dem Publikum ausgerichtet, was ihm eine bis heute ungebrochene Popularit\u00e4t \u00fcber Generationen hinweg sicherte.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in einem hohen, mitunter kompromisslosen Perfektionsanspruch an sich selbst und andere, sowie in einem Privatleben, das von mehreren gescheiterten Ehen und Beziehungen gepr\u00e4gt war &ndash; der st\u00e4ndige Fokus auf das eigene Werk forderte seinen Tribut im pers\u00f6nlichen Bereich. Die Kehrseite der selbsterhaltenden Eins mit Zweierfl\u00fcgel: Die F\u00fcrsorge flie\u00dft oft leichter in die Kunst und ins Publikum als in die engsten privaten Beziehungen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Adler, der bis zuletzt komponierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Udo J\u00fcrgens starb 2014 im Alter von 80 Jahren, wenige Wochen nach einem seiner letzten Konzerte &ndash; bis zuletzt aktiv, diszipliniert, schaffend. Sein Werk von mehr als 1.000 Kompositionen bleibt fester Bestandteil des deutschsprachigen Musikkanons, von Generation zu Generation weitergetragen.</p>
+          <p class="vb-intro">Der Adler, der \u00fcber sechs Jahrzehnte hinweg mit unbeirrbarer Disziplin an seinem Werk feilte und dabei nie die W\u00e4rme f\u00fcr sein Publikum verlor &ndash; das ist das bleibende Bild der selbsterhaltenden Eins mit Zweierfl\u00fcgel: Perfektion, die nicht kalt bleibt, sondern Menschen ber\u00fchrt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se1", label:"SE1 \u2013 Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-dan-brown", label:"Portr\xe4t: Dan Brown (SE1w2)"},
+        {route:"beruehmte-marie-kondo", label:"Portr\xe4t: Marie Kondo (SE1w2)"},
       ])}
     </div>
   `);
@@ -81198,6 +81551,11 @@ function render() {
     "beruehmte-johnny-depp": johnnyDeppPortraitPage,
     "beruehmte-morgan-freeman": morganFreemanPortraitPage,
     "beruehmte-nicolas-cage": nicolasCagePortraitPage,
+    "beruehmte-leo-tolstoi": leoTolstoiPortraitPage,
+    "beruehmte-gustav-mahler": gustavMahlerPortraitPage,
+    "beruehmte-marcel-proust": marcelProustPortraitPage,
+    "beruehmte-leonardo-da-vinci": leonardoDaVinciPortraitPage,
+    "beruehmte-udo-juergens": udoJuergensPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,
