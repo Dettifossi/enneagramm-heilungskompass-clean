@@ -2926,6 +2926,46 @@ function bindOnboarding() {
 }
 
 
+// ── Appreciation contribution (voluntary support) ────────────────────────────
+// Stripe Payment Links: 3 fixed amounts + 1 link with "customer enters amount" (custom amount).
+// Shares the same Payment Links as the German version – edit SUPPORT_LINKS in app.js and mirror here.
+const SUPPORT_LINKS = {
+  amount3:  "https://buy.stripe.com/PLATZHALTER_3EUR",
+  amount5:  "https://buy.stripe.com/PLATZHALTER_5EUR",
+  amount10: "https://buy.stripe.com/PLATZHALTER_10EUR",
+  custom:   "https://buy.stripe.com/PLATZHALTER_WUNSCHBETRAG",
+};
+
+function openSupportModal() {
+  if (document.getElementById("support-overlay")) return;
+  const overlay = document.createElement("div");
+  overlay.id = "support-overlay";
+  overlay.style.cssText = "position:fixed;inset:0;z-index:9999;background:rgba(20,14,6,0.82);display:flex;align-items:center;justify-content:center;padding:1.5rem;box-sizing:border-box;";
+  overlay.innerHTML = `
+    <div style="background:var(--surface,#faf7f2);border-radius:18px;max-width:440px;width:100%;padding:2rem 1.8rem;box-shadow:0 8px 40px rgba(0,0,0,0.35);text-align:center;">
+      <div style="font-size:2.4rem;margin-bottom:0.6rem;">🌱</div>
+      <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--ink);margin:0 0 0.6rem;">Let's grow this universe together</h2>
+      <p style="font-size:0.9rem;color:var(--muted);margin:0 0 1.6rem;line-height:1.65;">This knowledge should stay freely accessible &ndash; no subscription, no barriers. As our library grows every day, so do the costs of hosting, maintenance, and further development. If the Compass has given you insight and you'd like to support this journey, a voluntary appreciation contribution helps this project keep blossoming.</p>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.6rem;margin-bottom:0.8rem;">
+        <a href="${SUPPORT_LINKS.amount3}" target="_blank" rel="noopener" style="display:block;padding:0.7rem 0;border-radius:10px;border:1.5px solid var(--gold,#c4a456);color:var(--gold-dark,#8a6a1a);font-weight:700;font-size:0.95rem;text-decoration:none;">€3</a>
+        <a href="${SUPPORT_LINKS.amount5}" target="_blank" rel="noopener" style="display:block;padding:0.7rem 0;border-radius:10px;border:1.5px solid var(--gold,#c4a456);color:var(--gold-dark,#8a6a1a);font-weight:700;font-size:0.95rem;text-decoration:none;">€5</a>
+        <a href="${SUPPORT_LINKS.amount10}" target="_blank" rel="noopener" style="display:block;padding:0.7rem 0;border-radius:10px;border:1.5px solid var(--gold,#c4a456);color:var(--gold-dark,#8a6a1a);font-weight:700;font-size:0.95rem;text-decoration:none;">€10</a>
+      </div>
+      <a href="${SUPPORT_LINKS.custom}" target="_blank" rel="noopener" style="display:block;background:var(--gold-dark,#a8872d);color:#fff;border-radius:10px;padding:0.85rem 1.5rem;font-size:1rem;font-weight:700;text-decoration:none;margin-bottom:0.9rem;">Leave your appreciation →</a>
+      <button id="support-close" style="background:none;border:none;color:var(--muted);font-size:0.85rem;cursor:pointer;text-decoration:underline;">Maybe later</button>
+      <p style="font-size:0.72rem;color:var(--muted);opacity:0.7;margin:1.1rem 0 0;">Secure via Stripe &middot; 100% goes toward maintaining &amp; expanding the content</p>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+  overlay.addEventListener("click", (e) => { if (e.target === overlay) overlay.remove(); });
+  document.getElementById("support-close").addEventListener("click", () => overlay.remove());
+}
+
+document.addEventListener("click", (e) => {
+  if (e.target.closest(".support-trigger-btn")) openSupportModal();
+});
+
+
 const JSONBIN_KEY = '$2a$10$LNlgIJOGbl6mnMlsX.luWuOkm/0og9HUbwLyoqdb9hHh9Uk9hbt6O';
 const JSONBIN_WARTEND = '6a573182f5f4af5e299123ac';
 const JSONBIN_FREIGEGEBEN = '6a573185da38895dfe5f9c4b';
@@ -3335,6 +3375,9 @@ function startPage() {
                   font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
           🎓 Ennea Scholars <span style="font-weight:400;opacity:.75;">(David L. Rathmer's work)</span>
         </a>
+      </div>
+      <div style="text-align:center;margin-top:0.7rem;">
+        <button class="support-trigger-btn" style="background:none;border:none;color:var(--gold-dark,#8a6a1a);font-size:0.82rem;font-weight:600;cursor:pointer;text-decoration:underline;text-underline-offset:3px;padding:0.3rem;">💛 Become a Project Supporter</button>
       </div>
     </section>
 

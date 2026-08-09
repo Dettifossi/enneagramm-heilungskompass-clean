@@ -2502,6 +2502,47 @@ function bindOnboarding() {
 }
 
 
+// ── Wertschätzungs-Beitrag (freiwillige Unterstützung) ──────────────────────
+// Stripe Payment Links: 3 fixe Beträge + 1 Link mit "Kunde gibt Betrag ein" (Wunschbetrag).
+// TODO Detlef: In Stripe unter "Payment Links" vier Links anlegen und die Platzhalter unten ersetzen.
+// Bei "custom" beim Anlegen des Payment Links die Option "Kunde gibt eigenen Betrag ein" aktivieren.
+const SUPPORT_LINKS = {
+  amount3:  "https://buy.stripe.com/PLATZHALTER_3EUR",
+  amount5:  "https://buy.stripe.com/PLATZHALTER_5EUR",
+  amount10: "https://buy.stripe.com/PLATZHALTER_10EUR",
+  custom:   "https://buy.stripe.com/PLATZHALTER_WUNSCHBETRAG",
+};
+
+function openSupportModal() {
+  if (document.getElementById("support-overlay")) return;
+  const overlay = document.createElement("div");
+  overlay.id = "support-overlay";
+  overlay.style.cssText = "position:fixed;inset:0;z-index:9999;background:rgba(20,14,6,0.82);display:flex;align-items:center;justify-content:center;padding:1.5rem;box-sizing:border-box;";
+  overlay.innerHTML = `
+    <div style="background:var(--surface,#faf7f2);border-radius:18px;max-width:440px;width:100%;padding:2rem 1.8rem;box-shadow:0 8px 40px rgba(0,0,0,0.35);text-align:center;">
+      <div style="font-size:2.4rem;margin-bottom:0.6rem;">🌱</div>
+      <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--ink);margin:0 0 0.6rem;">Gemeinsam dieses Universum wachsen lassen</h2>
+      <p style="font-size:0.9rem;color:var(--muted);margin:0 0 1.6rem;line-height:1.65;">Dieses Wissen soll frei zugänglich bleiben &ndash; ohne Abo-Zwang und ohne Barrieren. Da unsere Bibliothek täglich wächst, steigen auch die Kosten für Hosting, Pflege und Weiterentwicklung. Wenn dir der Kompass Erkenntnisse geschenkt hat und du diese Reise unterstützen möchtest, kannst du mit einem freiwilligen Wertschätzungs-Beitrag direkt dazu beitragen, dass dieses Projekt weiter aufblühen kann.</p>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.6rem;margin-bottom:0.8rem;">
+        <a href="${SUPPORT_LINKS.amount3}" target="_blank" rel="noopener" style="display:block;padding:0.7rem 0;border-radius:10px;border:1.5px solid var(--gold,#c4a456);color:var(--gold-dark,#8a6a1a);font-weight:700;font-size:0.95rem;text-decoration:none;">3 €</a>
+        <a href="${SUPPORT_LINKS.amount5}" target="_blank" rel="noopener" style="display:block;padding:0.7rem 0;border-radius:10px;border:1.5px solid var(--gold,#c4a456);color:var(--gold-dark,#8a6a1a);font-weight:700;font-size:0.95rem;text-decoration:none;">5 €</a>
+        <a href="${SUPPORT_LINKS.amount10}" target="_blank" rel="noopener" style="display:block;padding:0.7rem 0;border-radius:10px;border:1.5px solid var(--gold,#c4a456);color:var(--gold-dark,#8a6a1a);font-weight:700;font-size:0.95rem;text-decoration:none;">10 €</a>
+      </div>
+      <a href="${SUPPORT_LINKS.custom}" target="_blank" rel="noopener" style="display:block;background:var(--gold-dark,#a8872d);color:#fff;border-radius:10px;padding:0.85rem 1.5rem;font-size:1rem;font-weight:700;text-decoration:none;margin-bottom:0.9rem;">Wertschätzung da lassen →</a>
+      <button id="support-close" style="background:none;border:none;color:var(--muted);font-size:0.85rem;cursor:pointer;text-decoration:underline;">Später vielleicht</button>
+      <p style="font-size:0.72rem;color:var(--muted);opacity:0.7;margin:1.1rem 0 0;">Sicher über Stripe &middot; 100&nbsp;% fließen in Erhalt &amp; Ausbau der Inhalte</p>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+  overlay.addEventListener("click", (e) => { if (e.target === overlay) overlay.remove(); });
+  document.getElementById("support-close").addEventListener("click", () => overlay.remove());
+}
+
+document.addEventListener("click", (e) => {
+  if (e.target.closest(".support-trigger-btn")) openSupportModal();
+});
+
+
 const JSONBIN_KEY = '$2a$10$LNlgIJOGbl6mnMlsX.luWuOkm/0og9HUbwLyoqdb9hHh9Uk9hbt6O';
 const JSONBIN_WARTEND = '6a573182f5f4af5e299123ac';
 const JSONBIN_FREIGEGEBEN = '6a573185da38895dfe5f9c4b';
@@ -2907,6 +2948,9 @@ function startPage() {
                   font-size:0.82rem;font-weight:600;text-decoration:none;letter-spacing:0.02em;">
           🎓 Ennea Scholars
         </a>
+      </div>
+      <div style="text-align:center;margin-top:0.7rem;">
+        <button class="support-trigger-btn" style="background:none;border:none;color:var(--gold-dark,#8a6a1a);font-size:0.82rem;font-weight:600;cursor:pointer;text-decoration:underline;text-underline-offset:3px;padding:0.3rem;">💛 Projekt-Förderer werden</button>
       </div>
     </section>
 
