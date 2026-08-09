@@ -409,6 +409,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jodie Foster – Sexual Type 5",
     teaser:"SX5w6 · born 1962. Actress, director. The Silence of the Lambs, Contact, Nell. The hedgehog that shows itself to no one who hasn't earned it – and shows itself fully to the one who has.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-fjodor-dostojewski", name:"Fjodor Dostojewski", subtyp:"SE6w5",
+    heading:"Fjodor Dostojewski – Self-Preservation Type 6",
+    teaser:"SE6w5 · 1821–1881. Russian writer. Crime and Punishment, The Brothers Karamazov, The Idiot. The rabbit who survived a mock execution, Siberia, and gambling addiction – and wrote the deepest novels about fear, guilt, and faith that world literature has ever produced.",
+    tags:["Literature","Philosophy"], gender:"m"},
   { route:"beruehmte-herbert-kickl", name:"Herbert Kickl", subtyp:"SE6w5",
     heading:"Herbert Kickl – Self-Preservation Type 6",
     teaser:"SP6w5 · born 1968. Austrian politician, FPÖ party leader. The rabbit that senses danger earlier than others – and has learned to stand upright nonetheless.",
@@ -2638,7 +2642,7 @@ function inhaltsübersichtPage() {
           "Dog Breeds",
         ], "The Enneagram in everyday life – from nature to culture.")}
 
-        ${cat("Famous Personalities", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "173 portraits from culture, music, sports & society – through the lens of the Enneagram.")}
+        ${cat("Famous Personalities", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "174 portraits from culture, music, sports & society – through the lens of the Enneagram.")}
 
         ${cat("Fascinating Criminal Cases (Criminal Psychology)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "74 in-depth psychological perpetrator portraits – well-known cases through the lens of the Enneagram. Informative, precise, never sensationalist.")}
 
@@ -3474,7 +3478,7 @@ function startPage() {
               ["&#9672;","Type System","9 Types · 27 Subtypes · 3 Tests"],
               ["&#128101;","Relationships","Childhood, Leadership, Partnership"],
               ["&#127807;","Remedies","Hom., Oils, Bach Fl., Tea, Gemstones"],
-              ["&#127775;","Famous Personalities","173 portraits from culture, music & society"],
+              ["&#127775;","Famous Personalities","174 portraits from culture, music & society"],
               ["&#128444;","Charts","100+ colour overviews"],
               ["&#128269;","Criminal Psychology","74 psychological perpetrator portraits"],
               ["&#127807;","Development","Healing path, exercises, questions"],
@@ -4786,7 +4790,7 @@ function kaufenPage() {
           <li>🎯 <strong>Subtype-specific</strong> — not "Type 4 in general", but exactly your Subtype with its own dynamics</li>
           <li>🔄 <strong>Lives and grows</strong> — the app is continuously updated and expanded; you receive all updates automatically</li>
           <li>⚡ <strong>Interactive</strong> — you experience your profile instead of just reading it</li>
-          <li>&#127775; <strong>Famous Personalities</strong> — 173 portraits from culture, music &amp; society through the lens of the Enneagram</li>
+          <li>&#127775; <strong>Famous Personalities</strong> — 174 portraits from culture, music &amp; society through the lens of the Enneagram</li>
           <li>&#128269; <strong>Fascinating Criminal Cases (Criminal Psychology)</strong> — 74 famous perpetrators through the lens of the Enneagram: educational, psychologically deep, never sensationalist</li>
         </ul>
         <h3>Who is this for?</h3>
@@ -19173,6 +19177,73 @@ function sucharitBhakdiPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
         {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function fjodorDostojewskiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-fjodor-dostojewski-portrait.jpg" alt="Fjodor Dostojewski" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fjodor Dostojewski</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Russian writer, 1821&ndash;1881 &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit Who Looked Death in the Face</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> is the animal of the self-preservation Six &ndash; watchful, endearing, adaptable. It does not run toward confrontation. It listens before it moves. It seeks security in closeness, in bonds, in what is familiar &ndash; and remains remarkably functional even in extreme situations, because it has already calculated the danger long before it arrives.</p>
+          <p class="vb-intro">Fyodor Mikhailovich Dostoevsky was born in 1821 in Moscow, the son of a military doctor who is said to have been murdered by his own serfs when Fyodor was 17 &ndash; an event that hung over him like a shadow for the rest of his life. From a young age he suffered from epilepsy, a condition that accompanied him throughout his life and which he later worked into several of his characters.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Mock Execution: Warmth as a Survival Strategy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the self-preservation Six <strong>warmth</strong> &ndash; because this subtype seeks security not through confrontation, but through human closeness and belonging. The SP6 bonds with people and communities it can trust, and responds to existential threat not with attack, but with a desperate search for something to hold onto.</p>
+          <p class="vb-intro">In 1849 Dostoevsky was arrested for membership in the left-liberal Petrashevsky Circle and sentenced to death. On December 22, 1849, he stood with other condemned men on the Semyonovsky parade ground in St. Petersburg before the firing squad &ndash; only at the very last moment did a messenger from the Tsar arrive with news that the sentence had been commuted to exile in Siberia. One of the condemned men lost his mind in that moment. Dostoevsky himself later described how, in those final seconds, everything narrowed down to the question of what a human life is worth &ndash; an experience that runs through his entire later work.</p>
+          <p class="vb-intro">Four years of forced labor followed at the Siberian penal camp of Omsk, in chains, among criminals, without books except the Bible &ndash; and afterward years as an ordinary soldier in exile. The SP6 does not flee forward in crisis, but seeks a bond that can carry it: Dostoevsky found his in that very Bible, which became the one constant of his prison-camp years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: The Depth Beneath the Fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the self-preservation Six analytical depth and the ability to bury itself in a question until the ground beneath it becomes visible. The SP6w5 seeks security not only in people, but in understanding &ndash; in thinking through every possible consequence, every moral branch, every excuse of the human conscience.</p>
+          <p class="vb-intro">This is exactly the structure of Dostoevsky&#39;s great novels: <em>Crime and Punishment</em> (1866) dissects a murderer&#39;s inner justifications across hundreds of pages before any court holds him accountable. <em>The Brothers Karamazov</em> (1880) treats faith in God, doubt, and patricide as a philosophical system, not merely a plot. The Five-wing turns the Six&#39;s fear into an instrument of understanding: whoever has thought through every possibility can no longer be surprised by any of them.</p>
+          <p class="vb-intro">This depth also arose from financial hardship: to settle gambling debts, Dostoevsky dictated the novel <em>The Gambler</em> in just 26 days in 1866 to a young stenographer, Anna Grigoryevna Snitkina, whom he married shortly afterward. The SP6w5 works most precisely under pressure &ndash; the deadline becomes the clamp that forces the chaos of fear into form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Gambling Addiction: Control Over the Uncontrollable</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">For over a decade Dostoevsky was in the grip of a roulette addiction &ndash; in Wiesbaden, Baden-Baden, and Homburg he repeatedly gambled away not only his own money but borrowed sums too, pawned his wife&#39;s jewelry, and wrote desperate begging letters to publishers and friends. Only in the early 1870s, after years of relapse, did he finally break free &ndash; largely carried by the stability Anna gave him.</p>
+          <p class="vb-intro">This is the shadow side of the SP6w5 in its purest form: the search for a system that guarantees security &ndash; and the pull of the roulette table, where exactly that illusion of control over pure chance is put to the test. In the end it was the real bond, not the imagined system, that finally brought the security he was searching for.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: Faith Against Despair</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP6w5 is its ability to draw <strong>profound truthfulness</strong> from existential fear. Dostoevsky&#39;s work remains so powerful today because he does not describe fear, doubt, and the longing for something to hold onto in the abstract &ndash; he lived through them himself, before the firing squad, in the prison camp, at the gambling table. His characters doubt because he doubted, and find faith because he fought hard to win it for himself.</p>
+          <p class="vb-intro">The shadow: the Six&#39;s passion is <strong>fear</strong>, and in the SP6w5 it can discharge as suspicion, political conservatism, and an almost paranoid worldview. Dostoevsky&#39;s later writings also contain antisemitic and nationalist undertones &ndash; the dark flip side of a man who increasingly sought security in narrowly defined belonging, in nation and Orthodox faith, rather than in the open doubt of his great novels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Rabbit Who Turned Fear Into Literature</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Six leads from paralyzing fear to <strong>courage</strong> &ndash; not the absence of fear, but the ability to act despite it. Dostoevsky never found this courage through the disappearance of his fears, but by thinking them through to the end, until they became literature that has helped generations of readers understand their own fear.</p>
+          <p class="vb-intro">He died in 1881 in St. Petersburg, celebrated as one of Russia&#39;s greatest writers, reconciled with the faith he had reclaimed for himself in Siberia. The rabbit who once stood before the firing squad had learned: security does not come from escaping fear &ndash; but from looking it so deeply in the face that it becomes a truth one can share with others.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
+        {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SE6w5)"},
       ])}
     </div>
   `);
@@ -46336,6 +46407,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-ruth-bader-ginsburg": ruthBaderGinsburgPortraitPage,
       "beruehmte-sahra-wagenknecht": sahraWagenknechtPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
+      "beruehmte-fjodor-dostojewski": fjodorDostojewskiPortraitPage,
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
       "beruehmte-tim-bendzko": timBendzkoPortraitPage,
       "beruehmte-adele": adelePortraitPage,

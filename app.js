@@ -563,6 +563,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sundar Pichai – Selbsterhaltender Typ 6",
     teaser:"SE6w5 \xb7 geb. 1972, Madurai. CEO von Google und Alphabet. Chrome, Android, Gemini. Das Kaninchen, das in einer Branche voller Egomanen durch Stille gewann – und l\xe4nger \xfcberlebt als der L\xf6we neben ihm.",
     tags:["Wirtschaft","Technik"], gender:"m"},
+  { route:"beruehmte-fjodor-dostojewski", name:"Fjodor Dostojewski", subtyp:"SE6w5",
+    heading:"Fjodor Dostojewski – Selbsterhaltender Typ 6",
+    teaser:"SE6w5 · 1821–1881. Russischer Schriftsteller. Schuld und Sühne, Die Brüder Karamasow, Der Idiot. Das Kaninchen, das eine Scheinhinrichtung, Sibirien und die Spielsucht überlebte – und daraus die tiefsten Romane über Angst, Schuld und Glauben schrieb, die die Weltliteratur kennt.",
+    tags:["Literatur","Philosophie"], gender:"m"},
   { route:"beruehmte-herbert-kickl", name:"Herbert Kickl", subtyp:"SE6w5",
     heading:"Herbert Kickl – Selbsterhaltender Typ 6",
     teaser:"SE6w5 · geb. 1968. Österreichischer Politiker, FPÖ-Parteiobmann. Das Kaninchen, das die Gefahr früher spürt als andere – und das gelernt hat, trotzdem aufrecht zu stehen.",
@@ -2174,7 +2178,7 @@ function inhaltsübersichtPage() {
           "Hunderassen",
         ], "Das Enneagramm im Alltag – von der Natur bis zur Kultur.")}
 
-        ${cat("Berühmte Persönlichkeiten", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "173 Porträts aus Kultur, Musik, Sport & Gesellschaft – durch die Linse des Enneagramms.")}
+        ${cat("Berühmte Persönlichkeiten", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "174 Porträts aus Kultur, Musik, Sport & Gesellschaft – durch die Linse des Enneagramms.")}
 
         ${cat("Spannende Kriminalfälle (Kriminalpsychologie)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "74 tiefenpsychologische Täterporträts – bekannte Fälle durch die Linse des Enneagramms. Lehrreich, präzise, nie reißerisch.")}
 
@@ -3047,7 +3051,7 @@ function startPage() {
               ["&#9672;","Typensystem","9 Typen · 27 Subtypen · 3 Tests"],
               ["&#128101;","Beziehungen","Kindheit, Führung, Partnerschaft"],
               ["&#127807;","Heilmittel","Höm., Öle, Bachbl., Tee, Edelsteine"],
-              ["&#127775;","Berühmte Persönlichkeiten","173 Porträts aus Kultur, Musik & Gesellschaft"],
+              ["&#127775;","Berühmte Persönlichkeiten","174 Porträts aus Kultur, Musik & Gesellschaft"],
               ["&#128444;","Schaubilder","100+ farbige Übersichten"],
               ["&#128269;","Kriminalfälle (Kriminalpsychologie)","74 psychologische Täterporträts"],
               ["&#127807;","Entwicklung","Heilungsweg, Übungen, Fragen"],
@@ -3848,7 +3852,7 @@ function kaufenPage() {
           <li>🎯 <strong>Subtypgenau</strong> — nicht „Typ 4 allgemein", sondern genau dein Subtyp mit seiner eigenen Dynamik</li>
           <li>🔄 <strong>Lebt und wächst</strong> — die App wird laufend aktualisiert und erweitert, du bekommst alle Updates automatisch</li>
           <li>⚡ <strong>Interaktiv</strong> — du erlebst dein Profil, statt es nur zu lesen</li>
-          <li>&#127775; <strong>Berühmte Persönlichkeiten</strong> — 173 Porträts aus Kultur, Musik &amp; Gesellschaft durch die Linse des Enneagramms</li>
+          <li>&#127775; <strong>Berühmte Persönlichkeiten</strong> — 174 Porträts aus Kultur, Musik &amp; Gesellschaft durch die Linse des Enneagramms</li>
           <li>&#128269; <strong>Spannende Kriminalfälle (Kriminalpsychologie)</strong> — 74 bekannte Täter durch die Linse des Enneagramms: lehrreich, tiefenpsychologisch, nie reißerisch</li>
         </ul>
         <h3>Für wen ist das gedacht?</h3>
@@ -16078,6 +16082,73 @@ function malaikaMihamboPortraitPage() {
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-herbert-kickl", label:"Porträt: Herbert Kickl (SE6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function fjodorDostojewskiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-fjodor-dostojewski-portrait.jpg" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fjodor Dostojewski</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Russischer Schriftsteller, 1821&ndash;1881 &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen, das dem Tod ins Gesicht sah</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 &ndash; wachsam, liebenswert, anpassungsfähig. Es läuft nicht auf Konfrontation zu. Es hört, bevor es sich bewegt. Es sucht Sicherheit in Nähe, in Bindung, in dem, was vertraut ist &ndash; und bleibt selbst in Ausnahmesituationen erstaunlich funktionsfähig, weil es die Gefahr längst kalkuliert hat, bevor sie eintraf.</p>
+          <p class="vb-intro">Fjodor Michailowitsch Dostojewski wurde 1821 in Moskau als Sohn eines Militärarztes geboren, der von seinen eigenen Leibeigenen ermordet worden sein soll, als Fjodor 17 war &ndash; ein Ereignis, das sein Leben lang wie ein Schatten über ihm lag. Schon in jungen Jahren litt er an Epilepsie, einer Krankheit, die ihn ein Leben lang begleitete und die er später in mehreren seiner Figuren verarbeitete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Scheinhinrichtung: Wärme als Überlebensstrategie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 6 die <strong>Wärme</strong> &ndash; weil dieser Subtyp Sicherheit nicht durch Konfrontation, sondern durch menschliche Nähe und Zugehörigkeit sucht. Die SE6 bindet sich an Menschen und Gemeinschaften, denen sie vertrauen kann, und reagiert auf existenzielle Bedrohung nicht mit Angriff, sondern mit dem verzweifelten Versuch, Halt zu finden.</p>
+          <p class="vb-intro">1849 wurde Dostojewski wegen der Mitgliedschaft im linksliberalen Petraschewski-Zirkel verhaftet und zum Tode verurteilt. Am 22. Dezember 1849 stand er mit anderen Verurteilten auf dem Semjonow-Exerzierplatz in St. Petersburg vor dem Erschießungskommando &ndash; erst im allerletzten Moment traf ein Bote des Zaren mit der Nachricht ein, das Urteil sei in eine Verbannung nach Sibirien umgewandelt worden. Ein Mitverurteilter verlor in diesem Moment den Verstand. Dostojewski selbst beschrieb später, wie sich in diesen letzten Sekunden alles auf die Frage zuspitzte, was ein Menschenleben wert ist &ndash; ein Erlebnis, das sein gesamtes späteres Werk durchzieht.</p>
+          <p class="vb-intro">Es folgten vier Jahre Zwangsarbeit im sibirischen Straflager Omsk, in Ketten, unter Kriminellen, ohne Bücher außer der Bibel &ndash; und anschließend Jahre als einfacher Soldat im Exil. Die SE6 sucht in der Krise nicht die Flucht nach vorn, sondern eine Bindung, die trägt: Dostojewski fand sie in genau dieser Bibel, die zur einzigen Konstante seiner Straflagerjahre wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Die Tiefe unter der Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> bringt dem selbsterhaltenden Sechser analytische Tiefe und die Fähigkeit, sich in eine Frage zu vergraben, bis der Boden unter ihr sichtbar wird. Die SE6w5 sucht Sicherheit nicht nur in Menschen, sondern auch im Verstehen &ndash; im Durchdenken jeder möglichen Konsequenz, jeder moralischen Verzweigung, jeder Ausrede des menschlichen Gewissens.</p>
+          <p class="vb-intro">Genau das ist die Struktur von Dostojewskis großen Romanen: <em>Schuld und Sühne</em> (1866) seziert über Hunderte Seiten die inneren Rechtfertigungen eines Mörders, bevor auch nur ein Gericht ihn zur Verantwortung zieht. <em>Die Brüder Karamasow</em> (1880) verhandelt Gottesglaube, Zweifel und Vatermord als philosophisches System, nicht als bloße Handlung. Der Fünferflügel verwandelt die Angst der Sechs in ein Instrument der Erkenntnis: Wer jede Möglichkeit durchdacht hat, ist vor keiner Möglichkeit mehr überrascht.</p>
+          <p class="vb-intro">Diese Tiefe entstand auch aus finanzieller Not: Um Spielschulden zu begleichen, diktierte Dostojewski 1866 den Roman <em>Der Spieler</em> in nur 26 Tagen einer jungen Stenografin, Anna Grigorjewna Snitkina, die er kurz darauf heiratete. Die SE6w5 arbeitet unter Druck am präzisesten &ndash; die Deadline wird zur Klammer, die das Chaos der Angst in Form zwingt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Spielsucht: Kontrolle über das Unkontrollierbare</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Über ein Jahrzehnt lang war Dostojewski der Roulette-Sucht verfallen &ndash; in Wiesbaden, Baden-Baden, Homburg verspielte er wiederholt nicht nur eigenes, sondern auch geliehenes Geld, verpfändete den Schmuck seiner Frau, schrieb verzweifelte Bettelbriefe an Verleger und Freunde. Erst Anfang der 1870er Jahre, nach Jahren des Rückfalls, gelang ihm der endgültige Ausstieg &ndash; maßgeblich getragen durch die Stabilität, die Anna ihm gab.</p>
+          <p class="vb-intro">Das ist die Schattenseite der SE6w5 in Reinform: die Suche nach einem System, das Sicherheit garantiert &ndash; und die Anziehungskraft des Roulette-Tisches, an dem genau diese Illusion von Kontrolle über den puren Zufall auf die Probe gestellt wird. Erst die reale Bindung, nicht die imaginierte Systematik, brachte am Ende die Sicherheit, die er suchte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Glaube gegen Verzweiflung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE6w5 ist ihre Fähigkeit, aus existenzieller Angst <strong>tiefe Wahrhaftigkeit</strong> zu gewinnen. Dostojewskis Werk ist deshalb bis heute so kraftvoll, weil er die Angst, den Zweifel und die Sehnsucht nach Halt nicht theoretisch beschreibt, sondern selbst durchlitten hat &ndash; vor dem Erschießungskommando, im Straflager, am Spieltisch. Seine Figuren zweifeln, weil er selbst gezweifelt hat, und finden Glauben, weil er ihn sich mühsam erkämpfte.</p>
+          <p class="vb-intro">Der Schatten: Die Leidenschaft der Sechs ist die <strong>Angst</strong>, und bei der SE6w5 kann sie sich in Misstrauen, politischem Konservatismus und einer fast paranoiden Weltsicht entladen. Dostojewskis spätere Schriften enthalten auch antisemitische und nationalistische Töne &ndash; die dunkle Kehrseite eines Menschen, der Sicherheit zunehmend in enger definierter Zugehörigkeit suchte, in Nation und orthodoxem Glauben, statt im offenen Zweifel seiner großen Romane.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Kaninchen, das die Angst zur Literatur machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der lähmenden Angst zur <strong>Tapferkeit</strong> &ndash; nicht zur Abwesenheit der Angst, sondern zur Fähigkeit, trotz ihrer zu handeln. Dostojewski fand diesen Mut nie durch das Verschwinden seiner Ängste, sondern dadurch, dass er sie zu Ende dachte, bis sie zu Literatur wurden, die Generationen von Lesern half, die eigene Angst zu verstehen.</p>
+          <p class="vb-intro">Er starb 1881 in St. Petersburg, gefeiert als einer der größten Schriftsteller Russlands, versöhnt mit dem Glauben, den er sich in Sibirien zurückerobert hatte. Das Kaninchen, das einst vor dem Erschießungskommando stand, hatte gelernt: Sicherheit entsteht nicht dadurch, dass man der Angst entkommt &ndash; sondern dadurch, dass man ihr so tief ins Gesicht sieht, dass sie zur Wahrheit wird, die man mit anderen teilen kann.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-sundar-pichai", label:"Portr\xe4t: Sundar Pichai (SE6w5)"},
+        {route:"beruehmte-herbert-kickl", label:"Portr\xe4t: Herbert Kickl (SE6w5)"},
       ])}
     </div>
   `);
@@ -49243,6 +49314,7 @@ function render() {
       "beruehmte-neil-armstrong": neilArmstrongPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
       "beruehmte-woody-allen": woodyAllenPortraitPage,
+      "beruehmte-fjodor-dostojewski": fjodorDostojewskiPortraitPage,
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
