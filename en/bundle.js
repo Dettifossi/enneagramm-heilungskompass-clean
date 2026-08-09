@@ -2638,7 +2638,7 @@ function inhaltsübersichtPage() {
           "Dog Breeds",
         ], "The Enneagram in everyday life – from nature to culture.")}
 
-        ${cat("Famous Personalities", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "59 portraits from culture, music, sports & society – through the lens of the Enneagram.")}
+        ${cat("Famous Personalities", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "173 portraits from culture, music, sports & society – through the lens of the Enneagram.")}
 
         ${cat("Fascinating Criminal Cases (Criminal Psychology)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "74 in-depth psychological perpetrator portraits – well-known cases through the lens of the Enneagram. Informative, precise, never sensationalist.")}
 
@@ -3474,7 +3474,7 @@ function startPage() {
               ["&#9672;","Type System","9 Types · 27 Subtypes · 3 Tests"],
               ["&#128101;","Relationships","Childhood, Leadership, Partnership"],
               ["&#127807;","Remedies","Hom., Oils, Bach Fl., Tea, Gemstones"],
-              ["&#127775;","Famous Personalities","59 portraits from culture, music & society"],
+              ["&#127775;","Famous Personalities","173 portraits from culture, music & society"],
               ["&#128444;","Charts","100+ colour overviews"],
               ["&#128269;","Criminal Psychology","74 psychological perpetrator portraits"],
               ["&#127807;","Development","Healing path, exercises, questions"],
@@ -4786,7 +4786,7 @@ function kaufenPage() {
           <li>🎯 <strong>Subtype-specific</strong> — not "Type 4 in general", but exactly your Subtype with its own dynamics</li>
           <li>🔄 <strong>Lives and grows</strong> — the app is continuously updated and expanded; you receive all updates automatically</li>
           <li>⚡ <strong>Interactive</strong> — you experience your profile instead of just reading it</li>
-          <li>&#127775; <strong>Famous Personalities</strong> — 59 portraits from culture, music &amp; society through the lens of the Enneagram</li>
+          <li>&#127775; <strong>Famous Personalities</strong> — 173 portraits from culture, music &amp; society through the lens of the Enneagram</li>
           <li>&#128269; <strong>Fascinating Criminal Cases (Criminal Psychology)</strong> — 74 famous perpetrators through the lens of the Enneagram: educational, psychologically deep, never sensationalist</li>
         </ul>
         <h3>Who is this for?</h3>

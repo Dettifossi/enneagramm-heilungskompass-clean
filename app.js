@@ -2174,7 +2174,7 @@ function inhaltsübersichtPage() {
           "Hunderassen",
         ], "Das Enneagramm im Alltag – von der Natur bis zur Kultur.")}
 
-        ${cat("Berühmte Persönlichkeiten", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "59 Porträts aus Kultur, Musik, Sport & Gesellschaft – durch die Linse des Enneagramms.")}
+        ${cat("Berühmte Persönlichkeiten", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "173 Porträts aus Kultur, Musik, Sport & Gesellschaft – durch die Linse des Enneagramms.")}
 
         ${cat("Spannende Kriminalfälle (Kriminalpsychologie)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "74 tiefenpsychologische Täterporträts – bekannte Fälle durch die Linse des Enneagramms. Lehrreich, präzise, nie reißerisch.")}
 
@@ -3047,9 +3047,9 @@ function startPage() {
               ["&#9672;","Typensystem","9 Typen · 27 Subtypen · 3 Tests"],
               ["&#128101;","Beziehungen","Kindheit, Führung, Partnerschaft"],
               ["&#127807;","Heilmittel","Höm., Öle, Bachbl., Tee, Edelsteine"],
-              ["&#127775;","Berühmte Persönlichkeiten","59 Porträts aus Kultur, Musik & Gesellschaft"],
+              ["&#127775;","Berühmte Persönlichkeiten","173 Porträts aus Kultur, Musik & Gesellschaft"],
               ["&#128444;","Schaubilder","100+ farbige Übersichten"],
-              ["&#128269;","Kriminalfälle (Kriminalpsychologie)","72 psychologische Täterporträts"],
+              ["&#128269;","Kriminalfälle (Kriminalpsychologie)","74 psychologische Täterporträts"],
               ["&#127807;","Entwicklung","Heilungsweg, Übungen, Fragen"],
               ["&#127759;","Kultur & Lifestyle","Tiere, Natur, Lifestyle der 9 Typen"],
               ["&#128065;","Psychologie","Leidenschaft, Wunde, Ego-Struktur"],
@@ -3848,8 +3848,8 @@ function kaufenPage() {
           <li>🎯 <strong>Subtypgenau</strong> — nicht „Typ 4 allgemein", sondern genau dein Subtyp mit seiner eigenen Dynamik</li>
           <li>🔄 <strong>Lebt und wächst</strong> — die App wird laufend aktualisiert und erweitert, du bekommst alle Updates automatisch</li>
           <li>⚡ <strong>Interaktiv</strong> — du erlebst dein Profil, statt es nur zu lesen</li>
-          <li>&#127775; <strong>Berühmte Persönlichkeiten</strong> — 59 Porträts aus Kultur, Musik &amp; Gesellschaft durch die Linse des Enneagramms</li>
-          <li>&#128269; <strong>Spannende Kriminalfälle (Kriminalpsychologie)</strong> — 72 bekannte Täter durch die Linse des Enneagramms: lehrreich, tiefenpsychologisch, nie reißerisch</li>
+          <li>&#127775; <strong>Berühmte Persönlichkeiten</strong> — 173 Porträts aus Kultur, Musik &amp; Gesellschaft durch die Linse des Enneagramms</li>
+          <li>&#128269; <strong>Spannende Kriminalfälle (Kriminalpsychologie)</strong> — 74 bekannte Täter durch die Linse des Enneagramms: lehrreich, tiefenpsychologisch, nie reißerisch</li>
         </ul>
         <h3>Für wen ist das gedacht?</h3>
         <p>Für alle, die ihren Enneagrammtyp bereits kennen und tiefer gehen wollen. Für Therapeuten, Berater und Coaches. Für Menschen, die sich selbst verstehen wollen — nicht oberflächlich, sondern wirklich.</p>

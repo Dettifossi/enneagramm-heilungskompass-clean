@@ -33195,7 +33195,7 @@ function inhalts\u00fcbersichtPage() {
           "Hunderassen",
         ], "Das Enneagramm im Alltag \u2013 von der Natur bis zur Kultur.")}
 
-        ${cat("Ber\u00fchmte Pers\u00f6nlichkeiten", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "59 Portr\u00e4ts aus Kultur, Musik, Sport & Gesellschaft \u2013 durch die Linse des Enneagramms.")}
+        ${cat("Ber\u00fchmte Pers\u00f6nlichkeiten", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "173 Portr\u00e4ts aus Kultur, Musik, Sport & Gesellschaft \u2013 durch die Linse des Enneagramms.")}
 
         ${cat("Spannende Kriminalf\u00e4lle (Kriminalpsychologie)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "74 tiefenpsychologische T\u00e4terportr\u00e4ts \u2013 bekannte F\u00e4lle durch die Linse des Enneagramms. Lehrreich, pr\u00e4zise, nie rei\u00dferisch.")}
 
@@ -34068,9 +34068,9 @@ function startPage() {
               ["&#9672;","Typensystem","9 Typen \u00b7 27 Subtypen \u00b7 3 Tests"],
               ["&#128101;","Beziehungen","Kindheit, F\u00fchrung, Partnerschaft"],
               ["&#127807;","Heilmittel","H\u00f6m., \u00d6le, Bachbl., Tee, Edelsteine"],
-              ["&#127775;","Ber\u00fchmte Pers\u00f6nlichkeiten","59 Portr\u00e4ts aus Kultur, Musik & Gesellschaft"],
+              ["&#127775;","Ber\u00fchmte Pers\u00f6nlichkeiten","173 Portr\u00e4ts aus Kultur, Musik & Gesellschaft"],
               ["&#128444;","Schaubilder","100+ farbige \u00dcbersichten"],
-              ["&#128269;","Kriminalf\u00e4lle (Kriminalpsychologie)","72 psychologische T\u00e4terportr\u00e4ts"],
+              ["&#128269;","Kriminalf\u00e4lle (Kriminalpsychologie)","74 psychologische T\u00e4terportr\u00e4ts"],
               ["&#127807;","Entwicklung","Heilungsweg, \u00dcbungen, Fragen"],
               ["&#127759;","Kultur & Lifestyle","Tiere, Natur, Lifestyle der 9 Typen"],
               ["&#128065;","Psychologie","Leidenschaft, Wunde, Ego-Struktur"],
@@ -34869,8 +34869,8 @@ function kaufenPage() {
           <li>\ud83c\udfaf <strong>Subtypgenau</strong> \u2014 nicht \u201eTyp 4 allgemein", sondern genau dein Subtyp mit seiner eigenen Dynamik</li>
           <li>\ud83d\udd04 <strong>Lebt und w\u00e4chst</strong> \u2014 die App wird laufend aktualisiert und erweitert, du bekommst alle Updates automatisch</li>
           <li>\u26a1 <strong>Interaktiv</strong> \u2014 du erlebst dein Profil, statt es nur zu lesen</li>
-          <li>&#127775; <strong>Ber\u00fchmte Pers\u00f6nlichkeiten</strong> \u2014 59 Portr\u00e4ts aus Kultur, Musik &amp; Gesellschaft durch die Linse des Enneagramms</li>
-          <li>&#128269; <strong>Spannende Kriminalf\u00e4lle (Kriminalpsychologie)</strong> \u2014 72 bekannte T\u00e4ter durch die Linse des Enneagramms: lehrreich, tiefenpsychologisch, nie rei\u00dferisch</li>
+          <li>&#127775; <strong>Ber\u00fchmte Pers\u00f6nlichkeiten</strong> \u2014 173 Portr\u00e4ts aus Kultur, Musik &amp; Gesellschaft durch die Linse des Enneagramms</li>
+          <li>&#128269; <strong>Spannende Kriminalf\u00e4lle (Kriminalpsychologie)</strong> \u2014 74 bekannte T\u00e4ter durch die Linse des Enneagramms: lehrreich, tiefenpsychologisch, nie rei\u00dferisch</li>
         </ul>
         <h3>F\u00fcr wen ist das gedacht?</h3>
         <p>F\u00fcr alle, die ihren Enneagrammtyp bereits kennen und tiefer gehen wollen. F\u00fcr Therapeuten, Berater und Coaches. F\u00fcr Menschen, die sich selbst verstehen wollen \u2014 nicht oberfl\u00e4chlich, sondern wirklich.</p>
