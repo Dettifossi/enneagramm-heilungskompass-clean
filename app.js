@@ -14498,7 +14498,7 @@ function konradAdenauerPortraitPage() {
         <h2 class="vb-section">3. Der Neunerflügel: Geduld und Verlässlichkeit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> mildert die Strenge der reinen Eins zu einer bedächtigeren, geduldigeren Haltung &ndash; Prinzipientreue wird nicht laut verkündet, sondern still und beharrlich durchgehalten. Adenauers legendäre Langsamkeit &ndash; seine Gegner nannten ihn spöttisch &bdquo;den Alten&ldquo; &ndash; war in Wahrheit eine bewusste Strategie: Er ließ sich nie zu überstürzten Entscheidungen drängen, prüfte, wartete den richtigen Moment ab und hielt dann unbeirrbar an seiner einmal gefassten Linie fest.</p>
-          <p class="vb-intro">Sein berühmtestes Prinzip, die &bdquo;Politik der Westbindung&ldquo; &ndash; die feste, unumkehrbare Verankerung der jungen Bundesrepublik in NATO und westlichem Bündnis &ndash; verfolgte er über Jahre hinweg gegen erhebliche innenpolitische Widerstände, ohne sich von Kritik beirren zu lassen. Kein spektakulärer Coup, sondern zähe, geduldige Beharrlichkeit &ndash; die Eins mit der Gelassenheit der Neun im Rücken.</p>
+          <p class="vb-intro">Sein berühmtestes Prinzip, die &bdquo;Politik der Westbindung&ldquo; &ndash; die feste, unumkehrbare Verankerung der jungen Bundesrepublik in der NATO und im westlichen Bündnis &ndash; verfolgte er über Jahre hinweg gegen erhebliche innenpolitische Widerstände, ohne sich von Kritik beirren zu lassen. Kein spektakulärer Coup, sondern zähe, geduldige Beharrlichkeit &ndash; die Eins mit der Gelassenheit der Neun im Rücken.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Versöhnung als Prinzipiensache</h2>
