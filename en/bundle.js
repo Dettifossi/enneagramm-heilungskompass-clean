@@ -17120,6 +17120,13 @@ function samuelHahnemannPortraitPage() {
           <p class="vb-intro">Samuel Hahnemann died in Paris on July 2, 1843, at the age of 88 &ndash; an exceptionally long life for his era, one he liked to cite himself as living proof of his method&#39;s effectiveness. He was buried in the Père Lachaise cemetery, where his tomb is still visited today by followers of homeopathy from around the world.</p>
         </blockquote>
 
+        <div style="display:flex;gap:0.6rem;flex-wrap:wrap;justify-content:center;margin:1.2rem 0 0.4rem;">
+          <img src="../assets/portraits/beruehmte-samuel-hahnemann-grab-1.jpg" alt="Hahnemann's tomb at Père Lachaise cemetery, Paris" loading="lazy" style="width:140px;height:140px;object-fit:cover;border-radius:10px;border:2px solid #8b5e3c;box-shadow:0 3px 12px rgba(0,0,0,0.22);" />
+          <img src="../assets/portraits/beruehmte-samuel-hahnemann-grab-2.jpg" alt="Hahnemann's tomb at Père Lachaise cemetery, Paris" loading="lazy" style="width:140px;height:140px;object-fit:cover;border-radius:10px;border:2px solid #8b5e3c;box-shadow:0 3px 12px rgba(0,0,0,0.22);" />
+          <img src="../assets/portraits/beruehmte-samuel-hahnemann-grab-3.jpg" alt="Hahnemann's tomb at Père Lachaise cemetery, Paris" loading="lazy" style="width:140px;height:140px;object-fit:cover;border-radius:10px;border:2px solid #8b5e3c;box-shadow:0 3px 12px rgba(0,0,0,0.22);" />
+        </div>
+        <p style="text-align:center;font-size:0.8rem;color:var(--muted);margin:0 0 1.2rem;font-style:italic;">Samuel Hahnemann's tomb, Père Lachaise cemetery, Paris &ndash; personal photographs from an on-site visit.</p>
+
         <h2 class="vb-section">9. Legacy: A Medicine That Still Accompanies Millions Today</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SO1w9 is the ability to build something fundamentally new out of deep outrage at a flawed system &ndash; not in a fit of anger, but through decades of patient, meticulous work. What Hahnemann began as a lone critic of the &bdquo;heroic medicine&ldquo; of his day is today a globally practiced healing system: according to World Health Organization estimates, several hundred million people in more than eighty countries use homeopathic remedies; in countries like India, homeopathy is a firmly established part of the official healthcare system; and in Germany, France, and many other countries it has been part of the lived health culture of countless families for generations.</p>

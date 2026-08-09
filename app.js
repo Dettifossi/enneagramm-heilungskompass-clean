@@ -19725,6 +19725,13 @@ function samuelHahnemannPortraitPage() {
           <p class="vb-intro">Am 2. Juli 1843 starb Samuel Hahnemann in Paris im Alter von 88 Jahren &ndash; ein für seine Zeit außergewöhnlich hohes Lebensalter, das er selbst gern als lebenden Beweis für die Wirksamkeit seiner Methode anführte. Er wurde auf dem Friedhof Père Lachaise beigesetzt, wo sein Grabmal bis heute von Anhängern der Homöopathie aus aller Welt besucht wird.</p>
         </blockquote>
 
+        <div style="display:flex;gap:0.6rem;flex-wrap:wrap;justify-content:center;margin:1.2rem 0 0.4rem;">
+          <img src="./assets/portraits/beruehmte-samuel-hahnemann-grab-1.jpg" alt="Hahnemanns Grabmal auf dem Friedhof Père Lachaise, Paris" loading="lazy" style="width:140px;height:140px;object-fit:cover;border-radius:10px;border:2px solid #8b5e3c;box-shadow:0 3px 12px rgba(0,0,0,0.22);" />
+          <img src="./assets/portraits/beruehmte-samuel-hahnemann-grab-2.jpg" alt="Hahnemanns Grabmal auf dem Friedhof Père Lachaise, Paris" loading="lazy" style="width:140px;height:140px;object-fit:cover;border-radius:10px;border:2px solid #8b5e3c;box-shadow:0 3px 12px rgba(0,0,0,0.22);" />
+          <img src="./assets/portraits/beruehmte-samuel-hahnemann-grab-3.jpg" alt="Hahnemanns Grabmal auf dem Friedhof Père Lachaise, Paris" loading="lazy" style="width:140px;height:140px;object-fit:cover;border-radius:10px;border:2px solid #8b5e3c;box-shadow:0 3px 12px rgba(0,0,0,0.22);" />
+        </div>
+        <p style="text-align:center;font-size:0.8rem;color:var(--muted);margin:0 0 1.2rem;font-style:italic;">Das Grabmal Samuel Hahnemanns, Friedhof Père Lachaise, Paris &ndash; eigene Aufnahmen von einem Besuch vor Ort.</p>
+
         <h2 class="vb-section">9. Vermächtnis: Eine Heilkunde, die Millionen bis heute begleitet</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO1w9 ist die Fähigkeit, aus tiefer Empörung über ein fehlerhaftes System heraus geduldig und methodisch etwas grundlegend Neues aufzubauen &ndash; nicht im Affekt, sondern in jahrzehntelanger, akribischer Kleinarbeit. Was Hahnemann als einsamer Kritiker der &bdquo;heroischen Medizin&ldquo; seiner Zeit begann, ist heute ein weltweit praktiziertes Heilsystem: Nach Schätzungen der Weltgesundheitsorganisation nutzen mehrere hundert Millionen Menschen in über achtzig Ländern homöopathische Mittel, in Ländern wie Indien ist die Homöopathie fester Bestandteil des offiziellen Gesundheitssystems, und auch in Deutschland, Frankreich und vielen weiteren Ländern gehört sie seit Generationen zur gelebten Gesundheitskultur unzähliger Familien.</p>
