@@ -17136,6 +17136,18 @@ function samuelHahnemannPortraitPage() {
         </blockquote>
 
       </div>
+      <a class="book-tip" href="https://www.verlagshausrathmer.com/homoeopathie.html" target="_blank" rel="noopener">
+        <span class="book-tip__icon">🌿</span>
+        <div class="book-tip__text">
+          <strong>For professionals: »Homöopathie &amp; Naturheilkunde«</strong>
+          <span>Professional books, repertories, and teaching materials for homeopaths and practitioners – the complete homeopathic professional literature at Verlagshaus Rathmer.</span>
+        </div>
+        <span class="book-tip__arrow">→</span>
+      </a>
+      ${bookTip("rathmer-s-repertorium-gebundene-ausgabe", "The world's most comprehensive homeopathic mind repertory – 1568 pages, 20,000 rubrics.", "Rathmer’s Repertorium")}
+      ${bookTip("der-kern-der-heilmittel-the-core-of-the-remedies-gebunden", "The spiritual essence of the 500 most important homeopathic remedies – over 8,500 single-rubrics.", "Der Kern der Remedies")}
+      ${bookTip("enneagramm-homoeopathie-band-1", "The foundation of Enneagram-Homeopathy – how personality type and remedy selection are connected.", "Enneagramm-Homöopathie – Band 1")}
+      ${bookTip("enneagramm-homoeopathie-band-2", "Deepening and expansion: The 27 Subtypes and their individual homeopathic remedies.", "Enneagramm-Homöopathie – Band 2")}
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-enneagramm-aromatherapie", "9 types, 9 core wounds, 9 soul scents – natural healing in the Enneagram.", "Die Enneagramm-Aromatherapie")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}

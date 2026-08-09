@@ -50768,6 +50768,18 @@ function samuelHahnemannPortraitPage() {
         </blockquote>
 
       </div>
+      <a class="book-tip" href="https://www.verlagshausrathmer.com/homoeopathie.html" target="_blank" rel="noopener">
+        <span class="book-tip__icon">\ud83c\udf3f</span>
+        <div class="book-tip__text">
+          <strong>F\u00fcr Fachleute: \u00bbHom\u00f6opathie &amp; Naturheilkunde\u00ab</strong>
+          <span>Fachb\u00fccher, Repertorien und Lehrmaterial f\u00fcr Hom\u00f6opathen und Heilpraktiker \u2013 die gesamte hom\u00f6opathische Fachliteratur im Verlagshaus Rathmer.</span>
+        </div>
+        <span class="book-tip__arrow">\u2192</span>
+      </a>
+      ${bookTip("rathmer-s-repertorium-gebundene-ausgabe", "Das weltweit umfangreichste hom\u00f6opathische Gem\u00fctsrepertorium \u2013 1568 Seiten, 20.000 Rubriken.", "Rathmer\u2019s Repertorium")}
+      ${bookTip("der-kern-der-heilmittel-the-core-of-the-remedies-gebunden", "Das geistige Wesen der 500 wichtigsten hom\u00f6opathischen Arzneimittel \u2013 \u00fcber 8.500 Single-Rubriken.", "Der Kern der Heilmittel")}
+      ${bookTip("enneagramm-homoeopathie-band-1", "Die Grundlage der Enneagramm-Hom\u00f6opathie \u2013 wie Pers\u00f6nlichkeitstyp und Heilmittelwahl zusammenh\u00e4ngen.", "Enneagramm-Hom\u00f6opathie \u2013 Band 1")}
+      ${bookTip("enneagramm-homoeopathie-band-2", "Vertiefung und Erweiterung: Die 27 Subtypen und ihre individuellen hom\u00f6opathischen Heilmittel.", "Enneagramm-Hom\u00f6opathie \u2013 Band 2")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-enneagramm-aromatherapie", "9 Typen, 9 Urwunden, 9 Seelend\u00fcfte \u2013 Naturheilkunde im Enneagramm.", "Die Enneagramm-Aromatherapie")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}

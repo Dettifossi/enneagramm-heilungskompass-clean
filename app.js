@@ -19741,6 +19741,18 @@ function samuelHahnemannPortraitPage() {
         </blockquote>
 
       </div>
+      <a class="book-tip" href="https://www.verlagshausrathmer.com/homoeopathie.html" target="_blank" rel="noopener">
+        <span class="book-tip__icon">🌿</span>
+        <div class="book-tip__text">
+          <strong>Für Fachleute: »Homöopathie &amp; Naturheilkunde«</strong>
+          <span>Fachbücher, Repertorien und Lehrmaterial für Homöopathen und Heilpraktiker – die gesamte homöopathische Fachliteratur im Verlagshaus Rathmer.</span>
+        </div>
+        <span class="book-tip__arrow">→</span>
+      </a>
+      ${bookTip("rathmer-s-repertorium-gebundene-ausgabe", "Das weltweit umfangreichste homöopathische Gemütsrepertorium – 1568 Seiten, 20.000 Rubriken.", "Rathmer’s Repertorium")}
+      ${bookTip("der-kern-der-heilmittel-the-core-of-the-remedies-gebunden", "Das geistige Wesen der 500 wichtigsten homöopathischen Arzneimittel – über 8.500 Single-Rubriken.", "Der Kern der Heilmittel")}
+      ${bookTip("enneagramm-homoeopathie-band-1", "Die Grundlage der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Heilmittelwahl zusammenhängen.", "Enneagramm-Homöopathie – Band 1")}
+      ${bookTip("enneagramm-homoeopathie-band-2", "Vertiefung und Erweiterung: Die 27 Subtypen und ihre individuellen homöopathischen Heilmittel.", "Enneagramm-Homöopathie – Band 2")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-enneagramm-aromatherapie", "9 Typen, 9 Urwunden, 9 Seelendüfte – Naturheilkunde im Enneagramm.", "Die Enneagramm-Aromatherapie")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
