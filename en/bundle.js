@@ -1657,10 +1657,19 @@ const state = {
   isFirstVisit: !localStorage.getItem(VISITED_KEY),
 };
 
-// Typentest-Zustand (session-only, kein localStorage)
-let testState = { phase: 0, triad: null, scores: {}, instinkt: null, qIndex: 0 };
+// Typentest-Zustand (wird zwischengespeichert, damit Fortschritt/Ergebnis einen Reload übersteht)
+let testState = (() => {
+  try {
+    const saved = localStorage.getItem("kompass:testState");
+    if (saved) return JSON.parse(saved);
+  } catch(e) {}
+  return { phase: 0, triad: null, scores: {}, instinkt: null, qIndex: 0 };
+})();
+function _saveTestState() {
+  try { localStorage.setItem("kompass:testState", JSON.stringify(testState)); } catch(e) {}
+}
 
-// Motivationaler Typentest-Zustand (session-only)
+// Motivationaler Typentest-Zustand (wird zwischengespeichert)
 let motivState = (() => {
   try {
     const saved = localStorage.getItem("kompass:motivState");
@@ -1669,8 +1678,17 @@ let motivState = (() => {
   return { phase: "intro", qIndex: 0, answers: {} };
 })();
 
-// Diagnostic Test-Zustand (session-only)
-let diagnoseState = { phase: "intro", step: 0, order: [], checks: {} };
+// Diagnostic Test-Zustand (wird zwischengespeichert)
+let diagnoseState = (() => {
+  try {
+    const saved = localStorage.getItem("kompass:diagnoseState");
+    if (saved) return JSON.parse(saved);
+  } catch(e) {}
+  return { phase: "intro", step: 0, order: [], checks: {} };
+})();
+function _saveDiagnoseState() {
+  try { localStorage.setItem("kompass:diagnoseState", JSON.stringify(diagnoseState)); } catch(e) {}
+}
 let beziehungSelected = null;
 let _quizState = null;
 let _sucheQuery = "";
@@ -3329,8 +3347,10 @@ function neuigkeitenSection() {
     <section id="neuigkeiten-banner" style="max-width:520px;margin:0 auto 1.4rem;padding:0 1rem;">
       <div style="position:relative;border-left:3px solid var(--copper,#b87830);border-radius:0 8px 8px 0;background:var(--paper-deep,#ede8dc);padding:0.9rem 1.1rem;">
         <button onclick="(function(){localStorage.setItem('kompass:changelog-seen','${latest}');document.getElementById('neuigkeiten-banner').remove();})()" style="position:absolute;top:0.5rem;right:0.6rem;background:none;border:none;font-size:1rem;color:var(--muted,#888);cursor:pointer;line-height:1;padding:0.1rem 0.3rem;" aria-label="Close">×</button>
-        <p style="font-size:0.7rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--copper,#b87830);margin:0 0 0.5rem;">New since your last visit</p>
-        <ul style="list-style:none;margin:0;padding:0;font-size:0.88rem;color:var(--ink,#2c2824);line-height:1.5;">${items}</ul>
+        <details>
+          <summary style="cursor:pointer;font-size:0.7rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--copper,#b87830);margin:0;padding-right:1.4rem;list-style:none;">New since your last visit (${neu.length})</summary>
+          <ul style="list-style:none;margin:0.6rem 0 0;padding:0;font-size:0.88rem;color:var(--ink,#2c2824);line-height:1.5;">${items}</ul>
+        </details>
       </div>
     </section>`;
 }
@@ -46967,6 +46987,8 @@ function subtypeSchaubilderPage() {
   };
   const [base, param] = state.route.split("/");
   window._currentRoute = state.route;
+  if (base === "typentest") _saveTestState();
+  if (base === "diagnosetest") _saveDiagnoseState();
   const setContent = () => {
     window.scrollTo(0, 0);
     // Freischalt-Direktroute (von Nav-Schloss oder Link)
