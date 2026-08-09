@@ -1588,7 +1588,7 @@ export const MOTIVTEST_EN = [
     thema: "Central areas of life",
     frage: "Which of the following two central areas of life have always been of great importance in my life?",
     antworten: {
-      E: "Fame & perfection — 5. Evaluation of the motivational Enneagram type test (test result). Evaluation table (Date_____________/Test result Type _________) CONGRATULATIONS – YOU DID IT! Now that the work is done, you can evaluate your Enneagram test using the table above to arrive at the desired test result. To do this, please enter, one by one, into the evaluation table the number of letters you marked in the test with 1 = very important, after counting them, in the left column (under \"count\") under the respective letters E – Z – D – V – F – X – S – A – N. Repeat the same with the number of letters you marked in the test with 2 = second most important, after you have first counted this number. Then multiply the highest result (the highest letter value) in the left column (1 = very important) by the number 6, and multiply the result from the second column (2 = second most important) by the number 3. And enter the result of your multiplication. Please add up the letters by importance: Count / 1st-place result (multiplied by 6) / 2nd-place result (multiplied by 3): How many times \"E\" (Type 1): How many times \"Z\" (Type 2): How many times \"D\" (Type 3): How many times \"V\" (Type 4): How many times \"F\" (Type 5): How many times \"X\" (Type 6): How many times \"S\" (Type 7): How many times \"A\" (Type 8): How many times \"N\" (Type 9):",
+      E: "Fame & perfection",
       Z: "Partnership & being loved",
       D: "Career & success",
       V: "Helpful friends & individuality",

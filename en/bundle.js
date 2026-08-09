@@ -2,7 +2,7 @@ import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, s
 import { TYP_IMPULSE, TYP_IMPULSE_EN, SUBTYP_IMPULSE_EN as SUBTYP_IMPULSE } from "../data/impulse.js?v=4";
 import { TAGESIMPULSE_EN } from "../data/tagesimpulse_en.js?v=1";
 import { TRIADEN_EN as TRIADEN, TYPFRAGEN_EN as TYPFRAGEN, TYPNAMEN_EN as TYPNAMEN, TYPKURZ_EN as TYPKURZ, INSTINKTE_EN as INSTINKTE } from "../data/typentest_en.js?v=1";
-import { MOTIVTEST_EN as MOTIVTEST } from "../data/motivtest_en.js?v=1";
+import { MOTIVTEST_EN as MOTIVTEST } from "../data/motivtest_en.js?v=2";
 import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
