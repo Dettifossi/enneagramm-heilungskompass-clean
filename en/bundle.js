@@ -17433,7 +17433,7 @@ function edgarAllanPoePortraitPage() {
         <h2 class="vb-section">4. A Body of Work as a Mirror of His Own Wound</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">With "The Raven" (1845), Poe created one of the most famous poems in American literary history &ndash; a work about inconsolable grief, embodied in the refrain "Nevermore," which snuffs out any hope of comfort in the bud. The raven that sits on the bust and never flies away is an image for exactly what the social Four both fears and seeks: the feeling of being permanently marked by one's own loss &ndash; and, within that, recognizing something deeply significant.</p>
-          <p class="vb-intro">As a literary critic, too, Poe was feared for his uncompromising sharpness &ndash; he tore into prominent contemporaries without regard for their reputation, earning him the nickname "Tomahawk Man." This uncompromising judgment was the flip side of his own demand for authenticity: someone who does not pretend himself forgives no pretense in others.</p>
+          <p class="vb-intro">As a literary critic, too, Poe was feared for his uncompromising sharpness &ndash; he tore into prominent contemporaries without regard for their reputation, earning him the nickname "Tomahawk Man." This uncompromising judgment was the flip side of his own demand for authenticity: someone who does not pretend himself forgives no pretense in others. It is no coincidence that the social Four is also known in the Enneagram as "the critical commentator" &ndash; its sharpened eye for what is authentic and what is not makes it one of the most unsparing, yet also most incisive, voices of criticism.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow</h2>
