@@ -710,6 +710,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Muhammad ibn Abdullah – Social Type 8",
     teaser:"SO8w9 · c. 570–632 CE. Religious founder, founder of Islam. From orphan to prophet, statesman and military leader who united the tribes of Arabia into one community. The lion who fought for justice and protection of the weak. Out of respect for the religious prohibition on depicting him, shown without a face – symbolic correspondence: calligraphy of his name.",
     tags:["Religion","History"]},
+  { route:"beruehmte-helmut-kohl", name:"Helmut Kohl", added:"2026-08-09", subtyp:"SO8w9",
+    heading:"Helmut Kohl – Social Type 8",
+    teaser:"SO8w9 · 1930–2017. German Chancellor (1982–1998), the \"Chancellor of Unity\". German reunification, the Maastricht Treaty, the introduction of the euro. The lion who waited patiently for decades - and made history the moment it mattered.",
+    tags:["Politics","History"], gender:"m"},
   { route:"beruehmte-james-levine", name:"James Levine", added:"2026-07-22", subtyp:"SE9w1",
     heading:"James Levine – Self-Preservation Type 9",
     teaser:"SE9w1 · 1943–2021. Conductor, music director of the Metropolitan Opera New York for 40 years. The elephant that inhabited the house – complete absorption, long breath, and a shadow that forever divides the image.",
@@ -17246,6 +17250,71 @@ function albertEinsteinPortraitPage() {
         {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
         {route:"astrologie-albert-einstein", label:"Astrology Portrait: Albert Einstein (SO5w6)"},
         {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function helmutKohlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-helmut-kohl-portrait.jpg" alt="Lion" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Helmut Kohl</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Social Type 8 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">German Chancellor, 1930&ndash;2017 &ndash; Animal correspondence: Lion</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Lion from the Palatinate</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>lion</strong> is the animal of the social Eight &ndash; not the lone hunter, but the head of the pride, defending territory and cohesion at once. It doesn't roar constantly; its power lies in sheer physical and mental presence, felt by everyone the moment it enters the room.</p>
+          <p class="vb-intro">Helmut Kohl was born in 1930 in Ludwigshafen am Rhein and experienced the end of the Second World War as a teenager &ndash; an experience that shaped his entire political life: never again should Germany be isolated, never again should Europe be divided. He joined the CDU at just 16, became Minister-President of Rhineland-Palatinate at 39, and Chancellor at 52 &ndash; a rise built from the start on sheer stamina, physical stature, and an unerring instinct for power. Kohl was physically imposing, often underestimated by opponents because of his measured Palatinate dialect &ndash; and that was precisely his strength: he never let himself be pushed into a pace that wasn't his own.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Eight: Power in the Service of the Group</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Eight (SO8)</strong> differs from the other two Eight subtypes in that it invests its strength not in personal advantage but in protecting and building a larger community &ndash; it wants to take responsibility for the whole, even against resistance. Kohl's entire career bore this pattern: 16 years as Federal Chancellor (1982&ndash;1998), the longest term of office in postwar German history, during which he saw himself as the one who had to hold the threads together &ndash; his own party, the Franco-German axis, European integration.</p>
+          <p class="vb-intro">His most famous instrument of power was the informal network he built and cultivated over decades &ndash; the so-called "Kohl clan" within the CDU, personal loyalties he nurtured himself, which for a long time secured him against any internal party rivalry. This is the typical power strategy of the social Eight: not the spectacular solo move, but the patient construction of a power base one can rely on in a crisis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Patience Instead of Confrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> softens the confrontational drive of the pure Eight into a more patient, more conciliatory stance &ndash; power is not constantly displayed but rather held in the background until the right moment arrives. Kohl was famous &ndash; and notorious &ndash; for his ability to simply sit out conflicts: he rarely acted rashly, let opponents wear themselves down, and then appeared, seemingly calm, with the decisive initiative. This mix of assertiveness and stoic patience was his political signature.</p>
+          <p class="vb-intro">Nowhere was this clearer than in German reunification in 1989/1990. When the Berlin Wall fell, Kohl seized the historic opportunity with his Ten-Point Plan, negotiated in parallel with the four Allied powers, with Gorbachev, with Mitterrand &ndash; and achieved reunification within less than a year, even though many international observers had expected years of negotiations. This was the lion-Eight in its purest form: dictate the tempo when the hour arrives &ndash; and until then, prepare patiently, unobtrusively, with a long breath.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Europe as a Life's Task</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kohl's deepest motivation, which he himself often emphasized, was the experience of war: he wanted a Germany so firmly anchored in Europe that a new war on the continent would become impossible. Together with French President François Mitterrand &ndash; with whom he shared a deep personal friendship &ndash; he decisively advanced European unification: the Maastricht Treaty of 1992, the foundation of the European Union, and the introduction of the euro, whose political groundwork is largely attributed to him.</p>
+          <p class="vb-intro">The image of the two statesmen spontaneously joining hands in 1984 at Verdun, the symbolic site of the First World War, became an icon of Franco-German reconciliation. This is typical of the social Eight: its own abundance of power is deployed to create a lasting, viable order for the community &ndash; not out of sentimentality, but from the firm conviction that only a united Europe can guarantee lasting peace.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO8w9 is the ability to combine <strong>leadership strength with strategic patience</strong> &ndash; power deployed not impulsively but purposefully and persistently, to create something lasting for the community. Kohl's legacy &ndash; a reunified Germany within a united Europe &ndash; is exactly that: a work that reaches beyond his own term in office.</p>
+          <p class="vb-intro">The shadow showed itself in the CDU donations scandal uncovered in 1999/2000: Kohl admitted to concealing illegal party donations for years through secret slush funds, but stubbornly refused to name the donors &ndash; even under the pressure of loss of honor and legal consequences. This is the flip side of the social Eight with its informal power network: loyalty inward is placed above transparency outward, and the system of personal ties cultivated over decades can become a trap once its hidden rules come to light. The scandal severely damaged his reputation and plunged the party he himself had shaped into a deep crisis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Lion Who Held a Continent Together</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Helmut Kohl died in 2017 in Ludwigshafen, at the age of 87. His final years were overshadowed by health setbacks, family estrangement, and a bitter dispute over his political legacy &ndash; another price the Eight often pays when control over its own story eventually slips from its hands.</p>
+          <p class="vb-intro">And yet this remains: no postwar German chancellor reshaped the map of Europe so lastingly. As the "Chancellor of Unity," Kohl stands for the rare case in which the toughness and stamina of the social Eight, paired with the patience of the Nine-wing, seized a historical window that would never open again &ndash; the lion that roared at exactly the moment all of Europe was listening, after decades of waiting and saving up the strength for it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
+        {route:"beruehmte-mohammed", label:"Portrait: Muhammad ibn Abdullah (SO8w9)"},
+        {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
       ])}
     </div>
   `);
@@ -46654,6 +46723,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-albert-einstein": albertEinsteinPortraitPage,
       "beruehmte-samuel-hahnemann": samuelHahnemannPortraitPage,
       "beruehmte-mohammed": mohammedPortraitPage,
+      "beruehmte-helmut-kohl": helmutKohlPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,

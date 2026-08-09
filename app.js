@@ -775,6 +775,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mohammed ibn Abdullah – Sozialer Typ 8",
     teaser:"SO8w9 · ca. 570–632 n. Chr. Religionsstifter, Begründer des Islam. Vom Waisenkind zum Propheten, Feldherrn und Staatsmann, der die Stämme Arabiens zu einer Gemeinschaft einte. Der Löwe, der Recht und Schutz für die Schwachen erkämpfte. Aus Respekt vor dem religiösen Bilderverbot ohne Gesichtsdarstellung – Symbolentsprechung: Kalligrafie seines Namens.",
     tags:["Religion","Geschichte"], gender:"m"},
+  { route:"beruehmte-helmut-kohl", name:"Helmut Kohl", added:"2026-08-09", subtyp:"SO8w9",
+    heading:"Helmut Kohl – Sozialer Typ 8",
+    teaser:"SO8w9 · 1930–2017. Deutscher Bundeskanzler (1982–1998), »Kanzler der Einheit«. Wiedervereinigung, Vertrag von Maastricht, Euro-Einführung. Der Löwe, der jahrzehntelang geduldig wartete – und im entscheidenden Moment Geschichte schrieb.",
+    tags:["Politik","Geschichte"], gender:"m"},
   { route:"beruehmte-adele-neuhauser", name:"Adele Neuhauser", added:"2026-07-22", subtyp:"SX8w7",
     heading:"Adele Neuhauser – Sexueller Typ 8",
     teaser:"SX8w7 · geb. 1959 in Athen. Österreichische Schauspielerin, Bibi Fellner im Tatort, mehrfache Österreichischer Filmpreis-Trägerin. Begann als Tänzerin. Das Krokodil, das tanzt – präsent bis auf den Grund.",
@@ -14325,6 +14329,71 @@ function angelaMerkelPortraitPage() {
   `);
 }
 
+
+function helmutKohlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-helmut-kohl-portrait.jpg" alt="Löwe" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Helmut Kohl</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Sozialer Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Bundeskanzler, 1930&ndash;2017 &ndash; Tierentsprechung: Löwe</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Löwe aus der Pfalz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier der sozialen Acht &ndash; nicht der einzelne Jäger, sondern das Oberhaupt des Rudels, das Territorium und Zusammenhalt zugleich verteidigt. Er brüllt nicht ständig; seine Macht liegt in der schieren physischen und mentalen Präsenz, die andere spüren, sobald er den Raum betritt.</p>
+          <p class="vb-intro">Helmut Kohl wurde 1930 in Ludwigshafen am Rhein geboren und erlebte als Jugendlicher das Ende des Zweiten Weltkriegs &ndash; eine Erfahrung, die sein ganzes politisches Leben prägte: nie wieder sollte Deutschland isoliert, nie wieder Europa gespalten sein. Schon mit 16 Jahren trat er der CDU bei, mit 39 wurde er rheinland-pfälzischer Ministerpräsident, mit 52 Bundeskanzler &ndash; ein Aufstieg, der von Anfang an auf schierer Ausdauer, Statur und einem untrüglichen Machtinstinkt beruhte. Kohl war körperlich groß, oft unterschätzt von seinen Gegnern wegen seines bedächtigen Pfälzer Dialekts &ndash; und genau darin lag seine Stärke: Er ließ sich nie in ein Tempo drängen, das nicht seines war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Macht im Dienst der Gruppe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> unterscheidet sich von den beiden anderen Achter-Subtypen dadurch, dass sie ihre Kraft nicht in den eigenen Vorteil, sondern in den Schutz und Aufbau einer größeren Gemeinschaft investiert &ndash; sie will Verantwortung für das Ganze übernehmen, notfalls gegen Widerstände. Kohls gesamte Karriere war von diesem Muster geprägt: 16 Jahre als Bundeskanzler (1982&ndash;1998), die längste Amtszeit der deutschen Nachkriegsgeschichte, in der er sich als der eine sah, der die Fäden zusammenhalten musste &ndash; die eigene Partei, die deutsch-französische Achse, die europäische Integration.</p>
+          <p class="vb-intro">Sein berühmtestes Machtinstrument war das informelle Netzwerk, das er über Jahrzehnte aufbaute und pflegte &ndash; der &bdquo;Kohl-Clan&ldquo; in der CDU, persönliche Loyalitäten, die er selbst kultivierte und die ihn lange gegen jede parteiinterne Konkurrenz absicherten. Das ist die typische Machtstrategie der sozialen Acht: nicht der spektakuläre Alleingang, sondern das geduldige Errichten einer Machtbasis, auf die man sich in der Krise verlassen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Geduld statt Konfrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> mildert die Konfrontationslust der reinen Acht zu einer geduldigeren, ausgleichenderen Haltung &ndash; die Macht wird nicht ständig demonstriert, sondern eher im Hintergrund gehalten, bis der richtige Moment kommt. Kohl war berühmt-berüchtigt für seine Fähigkeit, Konflikte auszusitzen &ndash; er handelte selten überstürzt, ließ Gegner sich abarbeiten und erschien dann, scheinbar gelassen, mit der entscheidenden Initiative. Diese Mischung aus Durchsetzungswillen und stoischer Geduld war seine politische Signatur.</p>
+          <p class="vb-intro">Nirgends zeigte sich das deutlicher als in der Deutschen Wiedervereinigung 1989/1990. Als die Berliner Mauer fiel, ergriff Kohl die historische Gelegenheit mit dem Zehn-Punkte-Plan, verhandelte parallel mit den vier Siegermächten, mit Gorbatschow, mit Mitterrand &ndash; und brachte binnen weniger als einem Jahr die Wiedervereinigung zustande, obwohl viele internationale Beobachter noch Jahre der Verhandlungen erwartet hatten. Das war die Löwen-Acht in Reinform: das Tempo diktieren, wenn die Stunde da ist &ndash; und bis dahin geduldig, unauffällig, mit langem Atem vorbereiten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Europa als Lebensaufgabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kohls tiefste Motivation, oft von ihm selbst betont, war die Erfahrung des Krieges: Er wollte ein Deutschland, das so fest in Europa verankert war, dass ein neuer Krieg auf dem Kontinent unmöglich würde. Gemeinsam mit dem französischen Präsidenten François Mitterrand &ndash; mit dem ihn eine tiefe persönliche Freundschaft verband &ndash; trieb er die europäische Einigung entscheidend voran: den Vertrag von Maastricht 1992, die Grundlage der Europäischen Union, und die Einführung des Euro, dessen politische Weichenstellung maßgeblich auf sein Konto geht.</p>
+          <p class="vb-intro">Das Bild der beiden Staatsmänner, die sich 1984 in Verdun, dem Symbolort des Ersten Weltkriegs, spontan die Hände reichten, wurde zur Ikone der deutsch-französischen Versöhnung. Für die soziale Acht ist das typisch: Die eigene Machtfülle wird eingesetzt, um eine dauerhafte, tragfähige Ordnung für die Gemeinschaft zu schaffen &ndash; nicht aus Sentimentalität, sondern aus der festen Überzeugung, dass nur ein vereintes Europa dauerhaften Frieden garantieren kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO8w9 ist die Fähigkeit, <strong>Führungsstärke mit strategischer Geduld</strong> zu verbinden &ndash; eine Macht, die nicht impulsiv, sondern zielgerichtet und ausdauernd eingesetzt wird, um etwas Bleibendes für die Gemeinschaft zu schaffen. Kohls Vermächtnis &ndash; ein wiedervereinigtes Deutschland in einem geeinten Europa &ndash; ist genau das: ein Werk, das über die eigene Amtszeit hinausreicht.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in der CDU-Spendenaffäre, die 1999/2000 aufgedeckt wurde: Kohl gestand ein, illegale Parteispenden über Jahre durch schwarze Kassen verschleiert zu haben, weigerte sich aber beharrlich, die Namen der Spender zu nennen &ndash; selbst unter dem Druck von Ehrenverlust und juristischen Konsequenzen. Das ist die Kehrseite der sozialen Acht mit ihrem informellen Machtnetzwerk: Loyalität nach innen wird über Transparenz nach außen gestellt, und das über Jahrzehnte kultivierte System der persönlichen Bindungen kann zur Falle werden, wenn seine verdeckten Regeln ans Licht kommen. Die Affäre beschädigte sein Ansehen erheblich und stürzte die von ihm selbst geprägte Partei in eine tiefe Krise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Löwe, der ein Kontinent zusammenhielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Helmut Kohl starb 2017 in Ludwigshafen, im Alter von 87 Jahren. Seine letzten Lebensjahre waren von gesundheitlichen Rückschlägen, familiären Zerwürfnissen und einem erbitterten Streit um sein politisches Erbe überschattet &ndash; auch das ein Preis, den die Acht oft zahlt, wenn die Kontrolle über die eigene Geschichte irgendwann aus der Hand gleitet.</p>
+          <p class="vb-intro">Und doch bleibt: Kein deutscher Nachkriegskanzler hat die Landkarte Europas so nachhaltig verändert. Als &bdquo;Kanzler der Einheit&ldquo; steht Kohl für den seltenen Fall, in dem die Härte und Ausdauer der sozialen Acht, gepaart mit der Geduld des Neunerflügels, ein historisches Zeitfenster nutzte, das sich nie wieder geöffnet hätte &ndash; der Löwe, der genau in dem Moment losbrüllte, in dem ganz Europa zuhörte, und der davor jahrzehntelang gewartet und die Kraft dafür aufgespart hatte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"beruehmte-mohammed", label:"Portr\xe4t: Mohammed ibn Abdullah (SO8w9)"},
+        {route:"beruehmte-karl-marx", label:"Portr\xe4t: Karl Marx (SO8w9)"},
+      ])}
+    </div>
+  `);
+}
 
 function davidHumePortraitPage() {
   return shell(`
@@ -49671,6 +49740,7 @@ function render() {
       "beruehmte-albert-einstein": albertEinsteinPortraitPage,
     "beruehmte-samuel-hahnemann": samuelHahnemannPortraitPage,
     "beruehmte-mohammed": mohammedPortraitPage,
+    "beruehmte-helmut-kohl": helmutKohlPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,

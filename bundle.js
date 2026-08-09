@@ -24000,6 +24000,7 @@ const registerEntries = [
   { term: "Indra Nooyi",                    route: "beruehmte-indra-nooyi",                 description: "Portrait: SE8w7 \u00b7 Selbsterhaltender Typ 8 \u00b7 Wirtschaftsf\u00fchrerin, ehem. CEO von PepsiCo" },
   { term: "Cynthia Lummis",                 route: "beruehmte-cynthia-lummis",              description: "Portrait: SO8w7 \u00b7 Sozialer Typ 8 \u00b7 US-Senatorin, Bitcoin-Verfechterin" },
   { term: "Karl Marx",                      route: "beruehmte-karl-marx",                   description: "Portrait: SO8w9 \u00b7 Sozialer Typ 8 \u00b7 Philosoph, \u00d6konom, Begr\u00fcnder des Marxismus" },
+  { term: "Helmut Kohl",                    route: "beruehmte-helmut-kohl",                 description: "Portrait: SO8w9 \u00b7 Sozialer Typ 8 \u00b7 Bundeskanzler, \u00bbKanzler der Einheit\u00ab" },
   { term: "Eli Jaxon-Bear",                 route: "beruehmte-eli-jaxon-bear",              description: "Portrait: SX8w9 \u00b7 Sexueller Typ 8 \u00b7 Spiritueller Lehrer, Autor" },
   { term: "Ludwig Erhard",                  route: "beruehmte-ludwig-erhard",               description: "Portrait: SE9w1 \u00b7 Selbsterhaltender Typ 9 \u00b7 Bundeswirtschaftsminister, Bundeskanzler" },
   { term: "Laotse (Laozi)",                 route: "beruehmte-laozi",                       description: "Portrait: SE9w1 \u00b7 Selbsterhaltender Typ 9 \u00b7 Philosoph, Begr\u00fcnder des Daoismus" },
@@ -24287,6 +24288,7 @@ const registerEntriesEN = [
   { term: "Indra Nooyi", route: "beruehmte-indra-nooyi", description: "Portrait: SE8w7 \u00b7 Self-Preservation Type 8 \u00b7 Business leader, former CEO of PepsiCo" },
   { term: "Cynthia Lummis", route: "beruehmte-cynthia-lummis", description: "Portrait: SO8w7 \u00b7 Social Type 8 \u00b7 US Senator, Bitcoin advocate" },
   { term: "Karl Marx", route: "beruehmte-karl-marx", description: "Portrait: SO8w9 \u00b7 Social Type 8 \u00b7 Philosopher, economist, founder of Marxism" },
+  { term: "Helmut Kohl", route: "beruehmte-helmut-kohl", description: "Portrait: SO8w9 \u00b7 Social Type 8 \u00b7 Chancellor, \"Chancellor of Unity\"" },
   { term: "Eli Jaxon-Bear", route: "beruehmte-eli-jaxon-bear", description: "Portrait: SX8w9 \u00b7 Sexual Type 8 \u00b7 Spiritual teacher, author" },
   { term: "Ludwig Erhard", route: "beruehmte-ludwig-erhard", description: "Portrait: SP9w1 \u00b7 Self-Preservation Type 9 \u00b7 Federal Minister of Economics, Chancellor" },
   { term: "Laozi (Lao Tzu)", route: "beruehmte-laozi", description: "Portrait: SE9w1 \u00b7 Self-Preservation Type 9 \u00b7 Philosopher, founder of Daoism" },
@@ -31803,6 +31805,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mohammed ibn Abdullah \u2013 Sozialer Typ 8",
     teaser:"SO8w9 \u00b7 ca. 570\u2013632 n. Chr. Religionsstifter, Begr\u00fcnder des Islam. Vom Waisenkind zum Propheten, Feldherrn und Staatsmann, der die St\u00e4mme Arabiens zu einer Gemeinschaft einte. Der L\u00f6we, der Recht und Schutz f\u00fcr die Schwachen erk\u00e4mpfte. Aus Respekt vor dem religi\u00f6sen Bilderverbot ohne Gesichtsdarstellung \u2013 Symbolentsprechung: Kalligrafie seines Namens.",
     tags:["Religion","Geschichte"], gender:"m"},
+  { route:"beruehmte-helmut-kohl", name:"Helmut Kohl", added:"2026-08-09", subtyp:"SO8w9",
+    heading:"Helmut Kohl \u2013 Sozialer Typ 8",
+    teaser:"SO8w9 \u00b7 1930\u20132017. Deutscher Bundeskanzler (1982\u20131998), \u00bbKanzler der Einheit\u00ab. Wiedervereinigung, Vertrag von Maastricht, Euro-Einf\u00fchrung. Der L\u00f6we, der jahrzehntelang geduldig wartete \u2013 und im entscheidenden Moment Geschichte schrieb.",
+    tags:["Politik","Geschichte"], gender:"m"},
   { route:"beruehmte-adele-neuhauser", name:"Adele Neuhauser", added:"2026-07-22", subtyp:"SX8w7",
     heading:"Adele Neuhauser \u2013 Sexueller Typ 8",
     teaser:"SX8w7 \u00b7 geb. 1959 in Athen. \u00d6sterreichische Schauspielerin, Bibi Fellner im Tatort, mehrfache \u00d6sterreichischer Filmpreis-Tr\u00e4gerin. Begann als T\u00e4nzerin. Das Krokodil, das tanzt \u2013 pr\u00e4sent bis auf den Grund.",
@@ -45354,6 +45360,70 @@ function angelaMerkelPortraitPage() {
 }
 
 
+function helmutKohlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-helmut-kohl-portrait.jpg" alt="L\u00f6we" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Helmut Kohl</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Sozialer Typ 8 mit Neunerfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Deutscher Bundeskanzler, 1930&ndash;2017 &ndash; Tierentsprechung: L\u00f6we</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der L\u00f6we aus der Pfalz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>L\u00f6we</strong> ist das Tier der sozialen Acht &ndash; nicht der einzelne J\u00e4ger, sondern das Oberhaupt des Rudels, das Territorium und Zusammenhalt zugleich verteidigt. Er br\u00fcllt nicht st\u00e4ndig; seine Macht liegt in der schieren physischen und mentalen Pr\u00e4senz, die andere sp\u00fcren, sobald er den Raum betritt.</p>
+          <p class="vb-intro">Helmut Kohl wurde 1930 in Ludwigshafen am Rhein geboren und erlebte als Jugendlicher das Ende des Zweiten Weltkriegs &ndash; eine Erfahrung, die sein ganzes politisches Leben pr\u00e4gte: nie wieder sollte Deutschland isoliert, nie wieder Europa gespalten sein. Schon mit 16 Jahren trat er der CDU bei, mit 39 wurde er rheinland-pf\u00e4lzischer Ministerpr\u00e4sident, mit 52 Bundeskanzler &ndash; ein Aufstieg, der von Anfang an auf schierer Ausdauer, Statur und einem untr\u00fcglichen Machtinstinkt beruhte. Kohl war k\u00f6rperlich gro\u00df, oft untersch\u00e4tzt von seinen Gegnern wegen seines bed\u00e4chtigen Pf\u00e4lzer Dialekts &ndash; und genau darin lag seine St\u00e4rke: Er lie\u00df sich nie in ein Tempo dr\u00e4ngen, das nicht seines war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Macht im Dienst der Gruppe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> unterscheidet sich von den beiden anderen Achter-Subtypen dadurch, dass sie ihre Kraft nicht in den eigenen Vorteil, sondern in den Schutz und Aufbau einer gr\u00f6\u00dferen Gemeinschaft investiert &ndash; sie will Verantwortung f\u00fcr das Ganze \u00fcbernehmen, notfalls gegen Widerst\u00e4nde. Kohls gesamte Karriere war von diesem Muster gepr\u00e4gt: 16 Jahre als Bundeskanzler (1982&ndash;1998), die l\u00e4ngste Amtszeit der deutschen Nachkriegsgeschichte, in der er sich als der eine sah, der die F\u00e4den zusammenhalten musste &ndash; die eigene Partei, die deutsch-franz\u00f6sische Achse, die europ\u00e4ische Integration.</p>
+          <p class="vb-intro">Sein ber\u00fchmtestes Machtinstrument war das informelle Netzwerk, das er \u00fcber Jahrzehnte aufbaute und pflegte &ndash; der &bdquo;Kohl-Clan&ldquo; in der CDU, pers\u00f6nliche Loyalit\u00e4ten, die er selbst kultivierte und die ihn lange gegen jede parteiinterne Konkurrenz absicherten. Das ist die typische Machtstrategie der sozialen Acht: nicht der spektakul\u00e4re Alleingang, sondern das geduldige Errichten einer Machtbasis, auf die man sich in der Krise verlassen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\u00fcgel: Geduld statt Konfrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\u00fcgel (w9)</strong> mildert die Konfrontationslust der reinen Acht zu einer geduldigeren, ausgleichenderen Haltung &ndash; die Macht wird nicht st\u00e4ndig demonstriert, sondern eher im Hintergrund gehalten, bis der richtige Moment kommt. Kohl war ber\u00fchmt-ber\u00fcchtigt f\u00fcr seine F\u00e4higkeit, Konflikte auszusitzen &ndash; er handelte selten \u00fcberst\u00fcrzt, lie\u00df Gegner sich abarbeiten und erschien dann, scheinbar gelassen, mit der entscheidenden Initiative. Diese Mischung aus Durchsetzungswillen und stoischer Geduld war seine politische Signatur.</p>
+          <p class="vb-intro">Nirgends zeigte sich das deutlicher als in der Deutschen Wiedervereinigung 1989/1990. Als die Berliner Mauer fiel, ergriff Kohl die historische Gelegenheit mit dem Zehn-Punkte-Plan, verhandelte parallel mit den vier Siegerm\u00e4chten, mit Gorbatschow, mit Mitterrand &ndash; und brachte binnen weniger als einem Jahr die Wiedervereinigung zustande, obwohl viele internationale Beobachter noch Jahre der Verhandlungen erwartet hatten. Das war die L\u00f6wen-Acht in Reinform: das Tempo diktieren, wenn die Stunde da ist &ndash; und bis dahin geduldig, unauff\u00e4llig, mit langem Atem vorbereiten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Europa als Lebensaufgabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kohls tiefste Motivation, oft von ihm selbst betont, war die Erfahrung des Krieges: Er wollte ein Deutschland, das so fest in Europa verankert war, dass ein neuer Krieg auf dem Kontinent unm\u00f6glich w\u00fcrde. Gemeinsam mit dem franz\u00f6sischen Pr\u00e4sidenten Fran\u00e7ois Mitterrand &ndash; mit dem ihn eine tiefe pers\u00f6nliche Freundschaft verband &ndash; trieb er die europ\u00e4ische Einigung entscheidend voran: den Vertrag von Maastricht 1992, die Grundlage der Europ\u00e4ischen Union, und die Einf\u00fchrung des Euro, dessen politische Weichenstellung ma\u00dfgeblich auf sein Konto geht.</p>
+          <p class="vb-intro">Das Bild der beiden Staatsm\u00e4nner, die sich 1984 in Verdun, dem Symbolort des Ersten Weltkriegs, spontan die H\u00e4nde reichten, wurde zur Ikone der deutsch-franz\u00f6sischen Vers\u00f6hnung. F\u00fcr die soziale Acht ist das typisch: Die eigene Machtf\u00fclle wird eingesetzt, um eine dauerhafte, tragf\u00e4hige Ordnung f\u00fcr die Gemeinschaft zu schaffen &ndash; nicht aus Sentimentalit\u00e4t, sondern aus der festen \u00dcberzeugung, dass nur ein vereintes Europa dauerhaften Frieden garantieren kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO8w9 ist die F\u00e4higkeit, <strong>F\u00fchrungsst\u00e4rke mit strategischer Geduld</strong> zu verbinden &ndash; eine Macht, die nicht impulsiv, sondern zielgerichtet und ausdauernd eingesetzt wird, um etwas Bleibendes f\u00fcr die Gemeinschaft zu schaffen. Kohls Verm\u00e4chtnis &ndash; ein wiedervereinigtes Deutschland in einem geeinten Europa &ndash; ist genau das: ein Werk, das \u00fcber die eigene Amtszeit hinausreicht.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in der CDU-Spendenaff\u00e4re, die 1999/2000 aufgedeckt wurde: Kohl gestand ein, illegale Parteispenden \u00fcber Jahre durch schwarze Kassen verschleiert zu haben, weigerte sich aber beharrlich, die Namen der Spender zu nennen &ndash; selbst unter dem Druck von Ehrenverlust und juristischen Konsequenzen. Das ist die Kehrseite der sozialen Acht mit ihrem informellen Machtnetzwerk: Loyalit\u00e4t nach innen wird \u00fcber Transparenz nach au\u00dfen gestellt, und das \u00fcber Jahrzehnte kultivierte System der pers\u00f6nlichen Bindungen kann zur Falle werden, wenn seine verdeckten Regeln ans Licht kommen. Die Aff\u00e4re besch\u00e4digte sein Ansehen erheblich und st\u00fcrzte die von ihm selbst gepr\u00e4gte Partei in eine tiefe Krise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der L\u00f6we, der ein Kontinent zusammenhielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Helmut Kohl starb 2017 in Ludwigshafen, im Alter von 87 Jahren. Seine letzten Lebensjahre waren von gesundheitlichen R\u00fcckschl\u00e4gen, famili\u00e4ren Zerw\u00fcrfnissen und einem erbitterten Streit um sein politisches Erbe \u00fcberschattet &ndash; auch das ein Preis, den die Acht oft zahlt, wenn die Kontrolle \u00fcber die eigene Geschichte irgendwann aus der Hand gleitet.</p>
+          <p class="vb-intro">Und doch bleibt: Kein deutscher Nachkriegskanzler hat die Landkarte Europas so nachhaltig ver\u00e4ndert. Als &bdquo;Kanzler der Einheit&ldquo; steht Kohl f\u00fcr den seltenen Fall, in dem die H\u00e4rte und Ausdauer der sozialen Acht, gepaart mit der Geduld des Neunerfl\u00fcgels, ein historisches Zeitfenster nutzte, das sich nie wieder ge\u00f6ffnet h\u00e4tte &ndash; der L\u00f6we, der genau in dem Moment losbr\u00fcllte, in dem ganz Europa zuh\u00f6rte, und der davor jahrzehntelang gewartet und die Kraft daf\u00fcr aufgespart hatte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so8", label:"SO8 \u2013 Der L\u00f6we: Subtyp-Profil"},
+        {route:"beruehmte-mohammed", label:"Portr\xe4t: Mohammed ibn Abdullah (SO8w9)"},
+        {route:"beruehmte-karl-marx", label:"Portr\xe4t: Karl Marx (SO8w9)"},
+      ])}
+    </div>
+  `);
+}
 function davidHumePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -80699,6 +80769,7 @@ function render() {
       "beruehmte-albert-einstein": albertEinsteinPortraitPage,
     "beruehmte-samuel-hahnemann": samuelHahnemannPortraitPage,
     "beruehmte-mohammed": mohammedPortraitPage,
+    "beruehmte-helmut-kohl": helmutKohlPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,
