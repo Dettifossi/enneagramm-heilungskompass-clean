@@ -539,6 +539,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Siddhartha Gautama (Buddha) – Sexueller Typ 5",
     teaser:"SX5w4 · ca. 563–483 v. Chr. Religionsstifter, Begründer des Buddhismus. Vom Palast in die radikale Suche nach der Ursache des Leidens – der Igel, der die Welt seziert, bis nur noch die Wahrheit übrig bleibt. Tierentsprechung: Igel.",
     tags:["Religion","Philosophie"], gender:"m"},
+  { route:"beruehmte-friedrich-nietzsche", name:"Friedrich Nietzsche", subtyp:"SX5w4",
+    heading:"Friedrich Nietzsche – Sexueller Typ 5",
+    teaser:"SX5w4 · 1844–1900. Philosoph. Also sprach Zarathustra, Jenseits von Gut und Böse, Ecce Homo. Der Igel, der sich in zehn Jahren völliger Zurückgezogenheit ein Werk erschrieb, das die Philosophie bis heute erschüttert.",
+    tags:["Philosophie"], gender:"m"},
   { route:"beruehmte-greta-garbo", name:"Greta Garbo", added:"2026-08-07", subtyp:"SX5w4",
     heading:"Greta Garbo – Sexueller Typ 5",
     teaser:"SX5w4 · 1905–1990. Schauspielerin, Hollywood-Ikone. Mit 36 Jahren kompletter Rückzug aus dem Filmgeschäft. „I want to be let alone.“ Der Igel, dessen Blick die Kinosäle verstummen ließ – und der sich dann fünfzig Jahre lang niemandem mehr zeigte.",
@@ -16469,6 +16473,73 @@ function fredericChopinPortraitPage() {
         {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
         {route:"beruehmte-taylor-swift", label:"Portr\xe4t: Taylor Swift (SX5w4)"},
         {route:"beruehmte-tilda-swinton", label:"Portr\xe4t: Tilda Swinton (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function friedrichNietzschePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-friedrich-nietzsche-portrait.jpg" alt="Friedrich Nietzsche" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Friedrich Nietzsche</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexueller Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Philosoph, 1844&ndash;1900 &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel, der die Welt aus der Ferne dachte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier des sexuellen Typs 5 &ndash; nachtaktiv, still, mit Stacheln aus Instinkt, nicht aus Bosheit. Er rollt sich zusammen, wenn die Welt zu laut wird, und wartet, bis nur noch das übrig bleibt, was wirklich zählt. Nur wer wirklich vertraut ist, bekommt zu sehen, was unter den Stacheln liegt.</p>
+          <p class="vb-intro">Friedrich Nietzsche wurde 1844 in Röcken bei Lützen geboren, Sohn eines lutherischen Pfarrers, der starb, als Friedrich fünf Jahre alt war. Er wuchs in einem Frauenhaushalt auf &ndash; Mutter, Schwester, Großmutter, zwei Tanten &ndash; und war schon als Kind so ernst und zurückhaltend, dass ihn Mitschüler &bdquo;der kleine Pastor&ldquo; nannten. Mit 24 Jahren, ungewöhnlich jung, wurde er Professor für klassische Philologie in Basel &ndash; ein Außenseiter, der von Anfang an lieber allein dachte als in Gesellschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Vertrauen: die eine Verbindung, die es nie gab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sexuellen Typ 5 den <strong>Kontratyp</strong> der Fünf &ndash; die sexuelle Energie durchbricht den Geiz der Fünf und sucht nach tiefer, intensiver Verbindung. Sein Schlüsselbegriff für diesen Subtyp: <em>Vertrauen</em>. Die SX5 sucht nicht Distanz, sondern die <em>eine</em> Verbindung, die alles trägt &ndash; und ist verheerend getroffen, wenn diese eine Verbindung zerbricht oder ausbleibt.</p>
+          <p class="vb-intro">1882 lernte Nietzsche in Rom die junge russische Philosophiestudentin Lou Salomé kennen. Er war fasziniert von ihrem Intellekt wie von keinem anderen Menschen zuvor und machte ihr über einen Mittelsmann einen Heiratsantrag &ndash; sie lehnte ab, schlug aber eine Art platonische Dreiergemeinschaft mit Nietzsche und seinem Freund Paul Rée vor. Ein berühmtes Foto zeigt die drei: Lou Salomé mit einer Peitsche in der Kutsche, Nietzsche und Rée davor eingespannt &ndash; eine Inszenierung, die Nietzsche selbst arrangierte. Als Lou Salomé sich schließlich Rée zuwandte und die Verbindung 1883 endgültig zerbrach, stürzte Nietzsche in eine tiefe Krise; seine Schwester Elisabeth intrigierte zusätzlich gegen die Freundschaft. Er schrieb später, diese Zeit sei die schmerzhafteste seines Lebens gewesen.</p>
+          <p class="vb-intro">Genau in dieser Krise, innerhalb weniger Wochen im Februar 1883, schrieb er den ersten Teil von <em>Also sprach Zarathustra</em> &ndash; als hätte der Bruch der einen Verbindung, die er ersehnte, sich in eine andere Form der Nähe verwandelt: die zu einer erfundenen Gestalt, die alles sagen durfte, was er selbst nie aussprechen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Schmerz als Stil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der sexuellen Fünf etwas Entscheidendes hinzu: den Schmerz des Verlusts als künstlerischen und sprachlichen Antrieb. Die reine SX5 würde sich vielleicht nur verschließen. Der Viererflügel macht aus dieser Verschlossenheit Ausdruck &ndash; verwandelt das Unausgesprochene in eine Sprache von unerhörter Intensität.</p>
+          <p class="vb-intro">Nietzsches Bruch mit Richard Wagner, seinem einstigen väterlichen Freund und Idol, folgte demselben Muster wie die Trennung von Lou Salomé: eine tiefe, fast verschmelzende Bewunderung, die zerbricht und sich in schneidende, oft persönliche Schriften verwandelt &ndash; etwa <em>Der Fall Wagner</em> (1888). Der Viererflügel verzeiht keine halben Gefühle; was einmal Nähe war, wird, wenn es zerbricht, zu radikaler Abrechnung.</p>
+          <p class="vb-intro">Auch sein Schreibstil trägt diese Handschrift: Aphorismen statt Systeme, Bekenntnis statt Lehrbuch. <em>Ecce Homo</em> (1888), seine späte Selbstdeutung mit Kapitelüberschriften wie &bdquo;Warum ich so weise bin&ldquo; und &bdquo;Warum ich so gute Bücher schreibe&ldquo;, ist radikale Selbstoffenbarung in Buchform &ndash; die Fünf, die sich normalerweise verbirgt, öffnet sich hier vollständig, aber nur auf dem Papier, nie im direkten Gespräch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Sils-Maria: Zehn Jahre Alleinsein als Werk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ab 1879 gab Nietzsche aus gesundheitlichen Gründen seine Professur auf und lebte die folgenden zehn Jahre als heimatloser Wanderer &ndash; wechselnd zwischen billigen Pensionen in Sils-Maria im Engadin, Nizza, Genua und Turin, oft mit nur einem Koffer, chronisch krank, fast erblindet, meist allein. Genau in diesen Jahren der radikalen Zurückgezogenheit entstand sein Hauptwerk: <em>Also sprach Zarathustra</em>, <em>Jenseits von Gut und Böse</em>, <em>Zur Genealogie der Moral</em>, <em>Götzen-Dämmerung</em>.</p>
+          <p class="vb-intro">Das ist die SX5w4 in ihrer reinsten Form: Der Rückzug ist kein Mangel, sondern die Voraussetzung. Nur im fast vollständigen Alleinsein, ohne akademische Anstellung, ohne feste Bindung, öffnete sich der eine Kanal, durch den alles strömte, was in ihm war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Klarheit und Zusammenbruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w4 ist die Fähigkeit zur <strong>radikalen Selbstoffenbarung im eigenen Medium</strong> &ndash; Nietzsche hat in seinen Büchern mehr von sich preisgegeben als die meisten Menschen einem einzigen Vertrauten. Seine Sprache besitzt eine Intensität, die bis heute kaum ein Philosoph erreicht hat, gerade weil sie aus einem Menschen kam, der im Alltag fast völlig allein war.</p>
+          <p class="vb-intro">Der Schatten: die Erschöpfung. Der Geiz der Fünf gilt bei der SX5 nicht dem Geld, sondern der <strong>Energie</strong> &ndash; und Nietzsche hatte kaum eine Reserve übrig. Chronische Migräne, fast völlige Erblindung, quälende Magenbeschwerden begleiteten ihn durch die produktivsten Jahre seines Lebens. Am 3. Januar 1889 brach er auf einer Turiner Straße zusammen, nachdem er &ndash; so die Überlieferung &ndash; einen misshandelten Kutschgaul umarmt hatte. Er verbrachte die letzten elf Jahre seines Lebens in geistiger Umnachtung, gepflegt zunächst von seiner Mutter, dann von seiner Schwester Elisabeth, die später seine Schriften für ihre eigenen, nationalistischen Zwecke verfälschte &ndash; eine späte, bittere Ironie für einen Denker, dessen Werk gerade der Verformung durch fremde Ideologien widersprach.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Igel, der sein Alleinsein in Sprache verwandelte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Angst, von der Welt aufgezehrt zu werden, zur Erkenntnis, dass Fülle nicht durch Rückzug allein entsteht, sondern durch die eine, wirkliche Verbindung, die man wagt. Nietzsche wagte sie selten im Leben &ndash; mit Lou Salomé, mit Wagner, in wenigen Freundschaften &ndash; und jedes Mal brach sie. Was blieb, war das Werk, das an ihre Stelle trat.</p>
+          <p class="vb-intro">Er starb 1900 in Weimar, ohne je zu erleben, wie sein Denken die Philosophie des zwanzigsten Jahrhunderts prägen würde. Der Igel aus Röcken zeigte sich nie wirklich einem Menschen vollständig &ndash; aber er zeigte sich, Seite für Seite, einem Werk, das seine Stacheln in Gedanken verwandelte, die bis heute stechen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-frederic-chopin", label:"Portr\xe4t: Fr\xe9d\xe9ric Chopin (SX5w4)"},
+        {route:"beruehmte-greta-garbo", label:"Portr\xe4t: Greta Garbo (SX5w4)"},
       ])}
     </div>
   `);
@@ -49186,6 +49257,7 @@ function render() {
       "beruehmte-jodie-foster": jodieFosterPortraitPage,
       "beruehmte-frederic-chopin": fredericChopinPortraitPage,
       "beruehmte-taylor-swift": taylorSwiftPortraitPage,
+      "beruehmte-friedrich-nietzsche": friedrichNietzschePortraitPage,
       "beruehmte-tilda-swinton": tildaSwintonPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,

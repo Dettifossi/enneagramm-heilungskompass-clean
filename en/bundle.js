@@ -385,6 +385,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Tilda Swinton – Sexual Type 5",
     teaser:"SX5w4 · born 1960. Actress. Orlando, Michael Clayton, We Need to Talk About Kevin. The hedgehog that transforms so completely into every role that no one knows where Tilda ends.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-friedrich-nietzsche", name:"Friedrich Nietzsche", subtyp:"SX5w4",
+    heading:"Friedrich Nietzsche – Sexual Type 5",
+    teaser:"SX5w4 · 1844–1900. Philosopher. Thus Spoke Zarathustra, Beyond Good and Evil, Ecce Homo. The hedgehog who wrote himself a body of work in ten years of near-total solitude that still shakes philosophy today.",
+    tags:["Philosophy"], gender:"m"},
   { route:"beruehmte-buddha", name:"Siddhartha Gautama (Buddha)", added:"2026-08-07", subtyp:"SX5w4",
     heading:"Siddhartha Gautama (Buddha) – Sexual Type 5",
     teaser:"SX5w4 · c. 563–483 BCE. Religious founder, founder of Buddhism. From the palace into a radical search for the cause of suffering – the hedgehog that dissects the world until only truth remains. Animal correspondence: Hedgehog.",
@@ -15449,6 +15453,73 @@ function donataHopfenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
         {route:"beruehmte-melanie-kreis", label:"Portrait: Melanie Kreis (SO6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function friedrichNietzschePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-friedrich-nietzsche-portrait.jpg" alt="Friedrich Nietzsche" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Friedrich Nietzsche</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexual Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Philosopher, 1844&ndash;1900 &ndash; Animal correspondence: Hedgehog</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hedgehog Who Thought the World from a Distance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hedgehog</strong> is the animal of the sexual Five &ndash; nocturnal, quiet, with quills born of instinct rather than malice. It curls up when the world grows too loud, and waits until only what truly matters remains. Only someone truly trusted gets to see what lies beneath the quills.</p>
+          <p class="vb-intro">Friedrich Nietzsche was born in 1844 in Röcken near Lützen, the son of a Lutheran pastor who died when Friedrich was five. He grew up in a household of women &ndash; mother, sister, grandmother, two aunts &ndash; and was already so serious and withdrawn as a child that classmates called him &bdquo;the little pastor.&ldquo; At 24, unusually young, he became a professor of classical philology in Basel &ndash; an outsider who preferred thinking alone to thinking in company from the very start.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Trust: the One Connection That Never Was</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the sexual Five the <strong>countertype</strong> of the Five &ndash; sexual energy breaks through the Five&#39;s stinginess and seeks deep, intense connection. His key term for this subtype: <em>trust</em>. The SX5 does not seek distance, but the <em>one</em> connection that carries everything &ndash; and is devastated when that one connection breaks or never comes.</p>
+          <p class="vb-intro">In 1882 Nietzsche met the young Russian philosophy student Lou Salomé in Rome. He was fascinated by her intellect like by no one before, and proposed marriage to her through an intermediary &ndash; she declined, but suggested a kind of platonic threesome with Nietzsche and his friend Paul Rée. A famous photograph shows the three of them: Lou Salomé holding a whip in a small cart, Nietzsche and Rée harnessed in front of it &ndash; a staging Nietzsche himself arranged. When Lou Salomé eventually turned to Rée and the connection broke for good in 1883, Nietzsche fell into a deep crisis; his sister Elisabeth also intrigued against the friendship. He later wrote that this period was the most painful of his life.</p>
+          <p class="vb-intro">In the midst of exactly this crisis, within a few weeks in February 1883, he wrote the first part of <em>Thus Spoke Zarathustra</em> &ndash; as if the breaking of the one connection he had longed for transformed into another kind of closeness: to an invented figure who was allowed to say everything he himself could never speak aloud.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: Pain as Style</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> adds something decisive to the sexual Five: the pain of loss as artistic and linguistic drive. A pure SX5 might simply close off. The Four-wing turns that closing-off into expression &ndash; transforms the unspoken into a language of unheard-of intensity.</p>
+          <p class="vb-intro">Nietzsche&#39;s break with Richard Wagner, his former father-figure and idol, followed the same pattern as the separation from Lou Salomé: a deep, almost fusional admiration that shatters and turns into cutting, often personal writings &ndash; such as <em>The Case of Wagner</em> (1888). The Four-wing forgives no half-feelings; what was once closeness becomes, once broken, radical reckoning.</p>
+          <p class="vb-intro">His writing style bears the same signature: aphorisms instead of systems, confession instead of textbook. <em>Ecce Homo</em> (1888), his late self-portrait with chapter titles like &bdquo;Why I Am So Wise&ldquo; and &bdquo;Why I Write Such Good Books,&ldquo; is radical self-revelation in book form &ndash; the Five, who normally hides, opens completely here, but only on paper, never in direct conversation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Sils-Maria: Ten Years of Solitude as a Body of Work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From 1879 Nietzsche gave up his professorship for health reasons and spent the following ten years as a homeless wanderer &ndash; moving between cheap boarding houses in Sils-Maria in the Engadin, Nice, Genoa, and Turin, often with only a single suitcase, chronically ill, nearly blind, mostly alone. It was precisely in these years of radical withdrawal that his major work emerged: <em>Thus Spoke Zarathustra</em>, <em>Beyond Good and Evil</em>, <em>On the Genealogy of Morality</em>, <em>Twilight of the Idols</em>.</p>
+          <p class="vb-intro">This is the SX5w4 in its purest form: withdrawal is not a deficiency, but the precondition. Only in near-total solitude, without academic post, without a fixed bond, did the one channel open through which everything within him could flow.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: Clarity and Collapse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX5w4 is the capacity for <strong>radical self-revelation within one&#39;s own medium</strong> &ndash; Nietzsche revealed more of himself in his books than most people reveal to a single confidant. His language possesses an intensity that scarcely any philosopher has matched since, precisely because it came from a man who was almost entirely alone in daily life.</p>
+          <p class="vb-intro">The shadow: exhaustion. The Five&#39;s stinginess in the SX5 applies not to money, but to <strong>energy</strong> &ndash; and Nietzsche had barely any reserve left. Chronic migraines, near-total blindness, and tormenting stomach ailments accompanied him through the most productive years of his life. On January 3, 1889, he collapsed on a street in Turin, reportedly after embracing a mistreated cart horse. He spent the last eleven years of his life in mental darkness, cared for first by his mother, then by his sister Elisabeth, who later falsified his writings for her own nationalist purposes &ndash; a late, bitter irony for a thinker whose work had explicitly opposed being warped by foreign ideologies.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Hedgehog Who Turned His Solitude Into Language</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Five leads from the fear of being consumed by the world to the insight that fullness does not arise from withdrawal alone, but from the one real connection one dares to risk. Nietzsche rarely dared it in life &ndash; with Lou Salomé, with Wagner, in a handful of friendships &ndash; and each time it broke. What remained was the work that took its place.</p>
+          <p class="vb-intro">He died in 1900 in Weimar, never living to see how his thought would shape twentieth-century philosophy. The hedgehog from Röcken never fully showed himself to another person &ndash; but he showed himself, page by page, to a body of work whose quills still sting today.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
+        {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
+        {route:"beruehmte-greta-garbo", label:"Portrait: Greta Garbo (SX5w4)"},
       ])}
     </div>
   `);
@@ -46169,6 +46240,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
       "beruehmte-jodie-foster": jodieFosterPortraitPage,
       "beruehmte-taylor-swift": taylorSwiftPortraitPage,
+      "beruehmte-friedrich-nietzsche": friedrichNietzschePortraitPage,
       "beruehmte-tilda-swinton": tildaSwintonPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,

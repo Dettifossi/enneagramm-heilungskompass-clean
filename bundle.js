@@ -24049,6 +24049,7 @@ const registerEntries = [
   { term: "Elvis Presley",                 route: "beruehmte-elvis-presley",               description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 King of Rock'n'Roll, S\u00e4nger, Schauspieler" },
   { term: "Freddie Mercury",               route: "beruehmte-freddie-mercury",             description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Queen-Fronts\u00e4nger, B\u00fchnenmagier" },
   { term: "Fr\u00e9d\u00e9ric Chopin",          route: "beruehmte-frederic-chopin",            description: "Portrait: SX5w4 \u00b7 Sexueller Typ 5 \u00b7 Komponist, romantische Klaviermusik" },
+  { term: "Friedrich Nietzsche",      route: "beruehmte-friedrich-nietzsche",        description: "Portrait: SX5w4 \u00b7 Sexueller Typ 5 \u00b7 Philosoph, Also sprach Zarathustra" },
   { term: "Greta Garbo",               route: "beruehmte-greta-garbo",                 description: "Portrait: SX5w4 \u00b7 Sexueller Typ 5 \u00b7 Schauspielerin, Hollywood-Ikone, radikaler R\u00fcckzug" },
   { term: "David Bowie",                   route: "beruehmte-david-bowie",                 description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Musiker, kulturelle Grenzg\u00e4ngerfigur" },
   { term: "Ursula von der Leyen",          route: "beruehmte-ursula-von-der-leyen",        description: "Portrait: SO1w9 \u00b7 Sozialer Typ 1 \u00b7 EU-Kommissionspr\u00e4sidentin, Pfizergate-Aff\u00e4re" },
@@ -24329,6 +24330,7 @@ const registerEntriesEN = [
   { term: "Enneagram Art", route: "enneagramm-kunst", description: "9 galleries of 6 artworks each \u2013 classic paintings as a mirror of the 9 Enneagram types" },
   { term: "Freddie Mercury", route: "beruehmte-freddie-mercury", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Queen-lead singer, stage magician" },
   { term: "Fr\u00e9d\u00e9ric Chopin", route: "beruehmte-frederic-chopin", description: "Portrait: SX5w4 \u00b7 Sexual Type 5 \u00b7 Composer, Romantic piano music" },
+  { term: "Friedrich Nietzsche", route: "beruehmte-friedrich-nietzsche", description: "Portrait: SX5w4 \u00b7 Sexual Type 5 \u00b7 Philosopher, Thus Spoke Zarathustra" },
   { term: "Greta Garbo", route: "beruehmte-greta-garbo", description: "Portrait: SX5w4 \u00b7 Sexual Type 5 \u00b7 Actress, Hollywood icon, radical withdrawal" },
   { term: "David Bowie", route: "beruehmte-david-bowie", description: "Portrait: SP1w2 \u00b7 Social Type 1 \u00b7 musician, cultural boundary-crosser" },
   { term: "Ursula von der Leyen", route: "beruehmte-ursula-von-der-leyen", description: "Portrait: SP1w9 \u00b7 Social Type 1 \u00b7 EU Commission President, Pfizergate affair" },
@@ -31558,6 +31560,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Siddhartha Gautama (Buddha) \u2013 Sexueller Typ 5",
     teaser:"SX5w4 \u00b7 ca. 563\u2013483 v. Chr. Religionsstifter, Begr\u00fcnder des Buddhismus. Vom Palast in die radikale Suche nach der Ursache des Leidens \u2013 der Igel, der die Welt seziert, bis nur noch die Wahrheit \u00fcbrig bleibt. Tierentsprechung: Igel.",
     tags:["Religion","Philosophie"], gender:"m"},
+  { route:"beruehmte-friedrich-nietzsche", name:"Friedrich Nietzsche", subtyp:"SX5w4",
+    heading:"Friedrich Nietzsche \u2013 Sexueller Typ 5",
+    teaser:"SX5w4 \u00b7 1844\u20131900. Philosoph. Also sprach Zarathustra, Jenseits von Gut und B\u00f6se, Ecce Homo. Der Igel, der sich in zehn Jahren v\u00f6lliger Zur\u00fcckgezogenheit ein Werk erschrieb, das die Philosophie bis heute ersch\u00fcttert.",
+    tags:["Philosophie"], gender:"m"},
   { route:"beruehmte-greta-garbo", name:"Greta Garbo", added:"2026-08-07", subtyp:"SX5w4",
     heading:"Greta Garbo \u2013 Sexueller Typ 5",
     teaser:"SX5w4 \u00b7 1905\u20131990. Schauspielerin, Hollywood-Ikone. Mit 36 Jahren kompletter R\u00fcckzug aus dem Filmgesch\u00e4ft. \u201eI want to be let alone.\u201c Der Igel, dessen Blick die Kinos\u00e4le verstummen lie\u00df \u2013 und der sich dann f\u00fcnfzig Jahre lang niemandem mehr zeigte.",
@@ -47488,6 +47494,73 @@ function fredericChopinPortraitPage() {
         {route:"subtype/sx5", label:"SX5 \u2013 Der Igel: Subtyp-Profil"},
         {route:"beruehmte-taylor-swift", label:"Portr\xe4t: Taylor Swift (SX5w4)"},
         {route:"beruehmte-tilda-swinton", label:"Portr\xe4t: Tilda Swinton (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function friedrichNietzschePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-friedrich-nietzsche-portrait.jpg" alt="Friedrich Nietzsche" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Friedrich Nietzsche</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexueller Typ 5 mit Viererfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Philosoph, 1844&ndash;1900 &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel, der die Welt aus der Ferne dachte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier des sexuellen Typs 5 &ndash; nachtaktiv, still, mit Stacheln aus Instinkt, nicht aus Bosheit. Er rollt sich zusammen, wenn die Welt zu laut wird, und wartet, bis nur noch das \u00fcbrig bleibt, was wirklich z\u00e4hlt. Nur wer wirklich vertraut ist, bekommt zu sehen, was unter den Stacheln liegt.</p>
+          <p class="vb-intro">Friedrich Nietzsche wurde 1844 in R\u00f6cken bei L\u00fctzen geboren, Sohn eines lutherischen Pfarrers, der starb, als Friedrich f\u00fcnf Jahre alt war. Er wuchs in einem Frauenhaushalt auf &ndash; Mutter, Schwester, Gro\u00dfmutter, zwei Tanten &ndash; und war schon als Kind so ernst und zur\u00fcckhaltend, dass ihn Mitsch\u00fcler &bdquo;der kleine Pastor&ldquo; nannten. Mit 24 Jahren, ungew\u00f6hnlich jung, wurde er Professor f\u00fcr klassische Philologie in Basel &ndash; ein Au\u00dfenseiter, der von Anfang an lieber allein dachte als in Gesellschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Vertrauen: die eine Verbindung, die es nie gab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sexuellen Typ 5 den <strong>Kontratyp</strong> der F\u00fcnf &ndash; die sexuelle Energie durchbricht den Geiz der F\u00fcnf und sucht nach tiefer, intensiver Verbindung. Sein Schl\u00fcsselbegriff f\u00fcr diesen Subtyp: <em>Vertrauen</em>. Die SX5 sucht nicht Distanz, sondern die <em>eine</em> Verbindung, die alles tr\u00e4gt &ndash; und ist verheerend getroffen, wenn diese eine Verbindung zerbricht oder ausbleibt.</p>
+          <p class="vb-intro">1882 lernte Nietzsche in Rom die junge russische Philosophiestudentin Lou Salom\u00e9 kennen. Er war fasziniert von ihrem Intellekt wie von keinem anderen Menschen zuvor und machte ihr \u00fcber einen Mittelsmann einen Heiratsantrag &ndash; sie lehnte ab, schlug aber eine Art platonische Dreiergemeinschaft mit Nietzsche und seinem Freund Paul R\u00e9e vor. Ein ber\u00fchmtes Foto zeigt die drei: Lou Salom\u00e9 mit einer Peitsche in der Kutsche, Nietzsche und R\u00e9e davor eingespannt &ndash; eine Inszenierung, die Nietzsche selbst arrangierte. Als Lou Salom\u00e9 sich schlie\u00dflich R\u00e9e zuwandte und die Verbindung 1883 endg\u00fcltig zerbrach, st\u00fcrzte Nietzsche in eine tiefe Krise; seine Schwester Elisabeth intrigierte zus\u00e4tzlich gegen die Freundschaft. Er schrieb sp\u00e4ter, diese Zeit sei die schmerzhafteste seines Lebens gewesen.</p>
+          <p class="vb-intro">Genau in dieser Krise, innerhalb weniger Wochen im Februar 1883, schrieb er den ersten Teil von <em>Also sprach Zarathustra</em> &ndash; als h\u00e4tte der Bruch der einen Verbindung, die er ersehnte, sich in eine andere Form der N\u00e4he verwandelt: die zu einer erfundenen Gestalt, die alles sagen durfte, was er selbst nie aussprechen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Schmerz als Stil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> bringt der sexuellen F\u00fcnf etwas Entscheidendes hinzu: den Schmerz des Verlusts als k\u00fcnstlerischen und sprachlichen Antrieb. Die reine SX5 w\u00fcrde sich vielleicht nur verschlie\u00dfen. Der Viererfl\u00fcgel macht aus dieser Verschlossenheit Ausdruck &ndash; verwandelt das Unausgesprochene in eine Sprache von unerh\u00f6rter Intensit\u00e4t.</p>
+          <p class="vb-intro">Nietzsches Bruch mit Richard Wagner, seinem einstigen v\u00e4terlichen Freund und Idol, folgte demselben Muster wie die Trennung von Lou Salom\u00e9: eine tiefe, fast verschmelzende Bewunderung, die zerbricht und sich in schneidende, oft pers\u00f6nliche Schriften verwandelt &ndash; etwa <em>Der Fall Wagner</em> (1888). Der Viererfl\u00fcgel verzeiht keine halben Gef\u00fchle; was einmal N\u00e4he war, wird, wenn es zerbricht, zu radikaler Abrechnung.</p>
+          <p class="vb-intro">Auch sein Schreibstil tr\u00e4gt diese Handschrift: Aphorismen statt Systeme, Bekenntnis statt Lehrbuch. <em>Ecce Homo</em> (1888), seine sp\u00e4te Selbstdeutung mit Kapitel\u00fcberschriften wie &bdquo;Warum ich so weise bin&ldquo; und &bdquo;Warum ich so gute B\u00fccher schreibe&ldquo;, ist radikale Selbstoffenbarung in Buchform &ndash; die F\u00fcnf, die sich normalerweise verbirgt, \u00f6ffnet sich hier vollst\u00e4ndig, aber nur auf dem Papier, nie im direkten Gespr\u00e4ch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Sils-Maria: Zehn Jahre Alleinsein als Werk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ab 1879 gab Nietzsche aus gesundheitlichen Gr\u00fcnden seine Professur auf und lebte die folgenden zehn Jahre als heimatloser Wanderer &ndash; wechselnd zwischen billigen Pensionen in Sils-Maria im Engadin, Nizza, Genua und Turin, oft mit nur einem Koffer, chronisch krank, fast erblindet, meist allein. Genau in diesen Jahren der radikalen Zur\u00fcckgezogenheit entstand sein Hauptwerk: <em>Also sprach Zarathustra</em>, <em>Jenseits von Gut und B\u00f6se</em>, <em>Zur Genealogie der Moral</em>, <em>G\u00f6tzen-D\u00e4mmerung</em>.</p>
+          <p class="vb-intro">Das ist die SX5w4 in ihrer reinsten Form: Der R\u00fcckzug ist kein Mangel, sondern die Voraussetzung. Nur im fast vollst\u00e4ndigen Alleinsein, ohne akademische Anstellung, ohne feste Bindung, \u00f6ffnete sich der eine Kanal, durch den alles str\u00f6mte, was in ihm war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Klarheit und Zusammenbruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w4 ist die F\u00e4higkeit zur <strong>radikalen Selbstoffenbarung im eigenen Medium</strong> &ndash; Nietzsche hat in seinen B\u00fcchern mehr von sich preisgegeben als die meisten Menschen einem einzigen Vertrauten. Seine Sprache besitzt eine Intensit\u00e4t, die bis heute kaum ein Philosoph erreicht hat, gerade weil sie aus einem Menschen kam, der im Alltag fast v\u00f6llig allein war.</p>
+          <p class="vb-intro">Der Schatten: die Ersch\u00f6pfung. Der Geiz der F\u00fcnf gilt bei der SX5 nicht dem Geld, sondern der <strong>Energie</strong> &ndash; und Nietzsche hatte kaum eine Reserve \u00fcbrig. Chronische Migr\u00e4ne, fast v\u00f6llige Erblindung, qu\u00e4lende Magenbeschwerden begleiteten ihn durch die produktivsten Jahre seines Lebens. Am 3. Januar 1889 brach er auf einer Turiner Stra\u00dfe zusammen, nachdem er &ndash; so die \u00dcberlieferung &ndash; einen misshandelten Kutschgaul umarmt hatte. Er verbrachte die letzten elf Jahre seines Lebens in geistiger Umnachtung, gepflegt zun\u00e4chst von seiner Mutter, dann von seiner Schwester Elisabeth, die sp\u00e4ter seine Schriften f\u00fcr ihre eigenen, nationalistischen Zwecke verf\u00e4lschte &ndash; eine sp\u00e4te, bittere Ironie f\u00fcr einen Denker, dessen Werk gerade der Verformung durch fremde Ideologien widersprach.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Igel, der sein Alleinsein in Sprache verwandelte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der F\u00fcnf f\u00fchrt von der Angst, von der Welt aufgezehrt zu werden, zur Erkenntnis, dass F\u00fclle nicht durch R\u00fcckzug allein entsteht, sondern durch die eine, wirkliche Verbindung, die man wagt. Nietzsche wagte sie selten im Leben &ndash; mit Lou Salom\u00e9, mit Wagner, in wenigen Freundschaften &ndash; und jedes Mal brach sie. Was blieb, war das Werk, das an ihre Stelle trat.</p>
+          <p class="vb-intro">Er starb 1900 in Weimar, ohne je zu erleben, wie sein Denken die Philosophie des zwanzigsten Jahrhunderts pr\u00e4gen w\u00fcrde. Der Igel aus R\u00f6cken zeigte sich nie wirklich einem Menschen vollst\u00e4ndig &ndash; aber er zeigte sich, Seite f\u00fcr Seite, einem Werk, das seine Stacheln in Gedanken verwandelte, die bis heute stechen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 \u2013 Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-frederic-chopin", label:"Portr\xe4t: Fr\xe9d\xe9ric Chopin (SX5w4)"},
+        {route:"beruehmte-greta-garbo", label:"Portr\xe4t: Greta Garbo (SX5w4)"},
       ])}
     </div>
   `);
@@ -80205,6 +80278,7 @@ function render() {
       "beruehmte-jodie-foster": jodieFosterPortraitPage,
       "beruehmte-frederic-chopin": fredericChopinPortraitPage,
       "beruehmte-taylor-swift": taylorSwiftPortraitPage,
+      "beruehmte-friedrich-nietzsche": friedrichNietzschePortraitPage,
       "beruehmte-tilda-swinton": tildaSwintonPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,
