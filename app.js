@@ -203,6 +203,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Friedrich Merz – Sozialer Typ 1",
     teaser:"SO1w9 · „Die Gans“, geb. 1955. Bundeskanzler, CDU-Vorsitzender, Jurist. Prinzip vor Pragmatismus, Ordnung als moralische Frage – und die Geduld, jahrelang zu warten, bis die Stunde kommt. Tierentsprechung: Gans.",
     tags:["Politik"] , gender:"m"},
+  { route:"beruehmte-samuel-hahnemann", name:"Dr. Samuel Hahnemann", added:"2026-08-09", subtyp:"SO1w9",
+    heading:"Dr. Samuel Hahnemann – Sozialer Typ 1",
+    teaser:"SO1w9 · 1755–1843. Arzt, Begründer der Homöopathie. Vom Chinarinden-Selbstversuch zum weltweit praktizierten Heilsystem. Die Gans, die gegen die \u201eheroische Medizin\u201c ihrer Zeit aufbegehrte – und Millionen bis heute begleitet.",
+    tags:["Medizin","Homöopathie"], gender:"m"},
   { route:"beruehmte-adam-smith", name:"Adam Smith", added:"2026-08-09", subtyp:"SO1w9",
     heading:"Adam Smith – Sozialer Typ 1",
     teaser:"SO1w9 · 1723–1790. Schottischer Moralphilosoph und Ökonom, Theorie der ethischen Gefühle, Der Wohlstand der Nationen. Die Gans, die eine gerechtere Ordnung suchte – und deren Treue zu ihrem Freund David Hume sie den eigenen guten Ruf kostete.",
@@ -19657,6 +19661,89 @@ function jesusChristusPortraitPage() {
   `);
 }
 
+
+function samuelHahnemannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-samuel-hahnemann-portrait.jpg" alt="Gans" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Samuel Hahnemann</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Arzt, Begründer der Homöopathie, 1755&ndash;1843 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die eine sanftere Medizin forderte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; wachsam, unbestechlich, mit einem untrüglichen Sinn dafür, wenn etwas grundlegend falsch läuft. Sie duldet keine halben Kompromisse, wenn sie überzeugt ist, dass die Ordnung selbst krank ist. Kaum ein Lebenswerk zeigt diese Haltung eindrücklicher als das von Samuel Hahnemann, der die Heilkunde seiner Zeit für so gefährlich hielt, dass er ihr über Jahre den Rücken kehrte &ndash; um am Ende ein eigenes, in sich stimmiges Medizinsystem zu begründen, das bis heute weltweit Millionen Menschen begleitet.</p>
+          <p class="vb-intro">Christian Friedrich Samuel Hahnemann wurde am 10. April 1755 in Meißen geboren, als Sohn eines Porzellanmalers. Schon als Kind galt er als außergewöhnlich begabt und wissbegierig; sein Lehrer soll ihm zeitweise erlaubt haben, den Unterricht selbst mitzugestalten. Er studierte Medizin in Leipzig, Wien und Erlangen, wo er 1779 promovierte &ndash; ein Weg, der ihn schnurgerade in den ärztlichen Berufsstand hätte führen sollen. Doch was er dort an gängiger Praxis erlebte, ließ ihn nicht mehr los.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Empörung über ein krankes System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> sucht Vollkommenheit nicht im privaten Rahmen, sondern im großen gesellschaftlichen Maßstab &ndash; sie erkennt Missstände nicht als Einzelfälle, sondern als Symptom eines fehlerhaften Systems, das sie zu korrigieren sucht. Die Medizin des ausgehenden 18. Jahrhunderts arbeitete mit Aderlässen, hochdosierten Gaben von Quecksilber und Antimon, Abführmitteln und Brechmitteln &ndash; Verfahren, die Patienten häufig mehr schadeten, als sie halfen. Hahnemann, selbst praktizierender Arzt, war so erschüttert von dieser &bdquo;heroischen Medizin&ldquo;, dass er über mehrere Jahre die ärztliche Praxis fast vollständig aufgab, weil er es nicht mehr verantworten konnte, seinen Patienten zu schaden.</p>
+          <p class="vb-intro">Er ernährte seine wachsende Familie in dieser Zeit als Übersetzer medizinischer und chemischer Fachliteratur &ndash; ein zurückgezogenes, entbehrungsreiches Leben, das die soziale Eins in Kauf nimmt, wenn die Alternative bedeutet, gegen die eigene Überzeugung zu handeln. Es war exakt diese Haltung, kompromisslose Redlichkeit gegenüber dem eigenen Gewissen, aus der heraus eine der folgenreichsten medizinischen Entdeckungen der Neuzeit entstand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Geduld, die ein neues System reifen ließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der reinen Eins eine ausgleichende Ruhe und Beharrlichkeit &ndash; die Fähigkeit, eine Überzeugung nicht im Sturm durchzusetzen, sondern über Jahrzehnte in aller Gründlichkeit auszuarbeiten, zu prüfen, zu verfeinern. Genau das kennzeichnet Hahnemanns Lebenswerk: Von der ersten Ahnung im Jahr 1790 bis zur sechsten und letzten, postum veröffentlichten Auflage seines Hauptwerks <em>Organon der Heilkunst</em> vergingen weit über fünfzig Jahre unablässiger Verfeinerung. Kein Dogma, das er einmal verkündete und dann verteidigte, sondern ein System, das er sein Leben lang weiterentwickelte, korrigierte, präzisierte.</p>
+          <p class="vb-intro">Diese geduldige Systematik zeigt sich auch in seiner Arbeitsweise: Hahnemann testete jedes neue Arzneimittel zunächst an sich selbst und an gesunden Mitstreitern &ndash; die sogenannten &bdquo;Arzneimittelprüfungen&ldquo; &ndash;, bevor er es je einem Patienten verabreichte. Eine methodische Sorgfalt, die seiner Zeit um Jahrzehnte voraus war und die ohne den ruhigen, gründlichen Neunerflügel kaum denkbar gewesen wäre.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Selbstversuch mit Chinarinde: Die Geburtsstunde der Homöopathie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1790, während der Übersetzung eines Arzneibuchs des schottischen Arztes William Cullen, stieß Hahnemann auf eine Erklärung zur Wirkung der Chinarinde (Cinchona) gegen Malaria, die ihn nicht überzeugte. Er tat, was seinem Charakter entsprach: Er prüfte es selbst nach. Er nahm wiederholt Chinarindenextrakt ein &ndash; und entwickelte dabei Symptome, die dem Krankheitsbild der Malaria selbst erstaunlich ähnelten: Fieber, Frösteln, Gliederschmerzen. Ein Stoff, der die Krankheit heilte, gegen die er half, konnte offenbar bei einem Gesunden ebendiese Symptome hervorrufen.</p>
+          <p class="vb-intro">Aus diesem einen, präzise dokumentierten Selbstversuch leitete Hahnemann sein Grundprinzip ab: <em>Similia similibus curentur</em> &ndash; Ähnliches werde durch Ähnliches geheilt. Ein Heilmittel, das bei einem Gesunden bestimmte Symptome auslöst, könne, in stark verdünnter Form gegeben, bei einem Kranken mit ebendiesen Symptomen Heilung fördern. Diese Beobachtung, aus akribischer Selbstbeobachtung geboren, wurde zum Fundament eines Medizinsystems, das der Menschheit bis heute erhalten geblieben ist &ndash; ein Beleg dafür, wie viel eine einzelne, ehrlich durchgeführte Prüfung bewirken kann, wenn sie von einer Eins mit unbedingtem Wahrheitsanspruch durchgeführt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Organon: Ein System von seltener Klarheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1810 veröffentlichte Hahnemann das <em>Organon der Heilkunst</em>, sein zentrales Werk, in dem er die Prinzipien der Homöopathie systematisch niederlegte: das Ähnlichkeitsprinzip, die Individualisierung jeder Behandlung auf das genaue Symptombild des einzelnen Patienten, und die Methode der Potenzierung &ndash; die schrittweise Verdünnung eines Wirkstoffs verbunden mit kräftigem Verschütteln (Succussion), wodurch nach seiner Überzeugung die Heilkraft des Mittels freigesetzt und verstärkt wird, während unerwünschte Nebenwirkungen zurücktreten. Er prägte für sein System auch den Begriff, unter dem es bis heute weltweit bekannt ist: <em>Homöopathie</em>, aus dem Griechischen für &bdquo;ähnliches Leiden&ldquo;.</p>
+          <p class="vb-intro">Das Werk ist von einer für seine Zeit ungewöhnlichen Systematik geprägt &ndash; durchnummerierte Paragrafen, klare Definitionen, ein in sich geschlossenes Regelwerk. Genau die Handschrift der sozialen Eins: Nicht ein loses Bündel von Beobachtungen, sondern ein Ordnungssystem, das jedem Nachfolger nachvollziehbar dieselben Prinzipien anwenden lässt &ndash; eine Struktur, die es der Homöopathie erlaubte, sich weit über Hahnemanns eigenes Wirken hinaus zu verbreiten und bis heute in eigenständigen Ausbildungsgängen weltweit gelehrt zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Widerstand der Apotheker: Der Preis der Überzeugung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hahnemanns Praxis, seine Arzneien selbst herzustellen und direkt an die Patienten abzugeben, statt sie über Apotheken verschreiben zu lassen, brachte ihn in direkten wirtschaftlichen Konflikt mit dem Leipziger Apothekerstand. 1820 wurde ihm per Gerichtsbeschluss das Selbstdispensieren in Leipzig untersagt &ndash; ein herber Rückschlag für einen Mann, der sein gesamtes System auf der exakten Kontrolle über Herstellung und Verabreichung seiner Mittel aufgebaut hatte.</p>
+          <p class="vb-intro">Doch die soziale Eins, verstärkt durch den Neunerflügel, gibt nicht auf, sie sucht einen neuen Weg. Herzog Ferdinand von Anhalt-Köthen, selbst von Hahnemanns Methode überzeugt, lud ihn ein, sich in Köthen niederzulassen und gewährte ihm dort das Recht zum Selbstdispensieren. Vierzehn Jahre lang, von 1821 bis 1835, praktizierte und lehrte Hahnemann in Köthen ungestört &ndash; eine Zeit, in der die Homöopathie sich über Deutschland hinaus in ganz Europa und den USA zu verbreiten begann, getragen von Ärzten, die seine Schriften gelesen hatten und seiner Methode folgten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Die Cholera-Epidemien: Bewährung in der Not</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als 1831 die Cholera große Teile Europas erfasste, veröffentlichte Hahnemann, mittlerweile über siebzig Jahre alt, umgehend Behandlungsempfehlungen mit homöopathischen Mitteln wie Camphora und Veratrum album. In mehreren zeitgenössischen Berichten aus homöopathisch geführten Cholera-Hospitälern &ndash; etwa in Wien und in verschiedenen deutschen Städten &ndash; wurden im Vergleich zu den damals üblichen schulmedizinischen Behandlungen mit Aderlass und Quecksilbergaben auffallend niedrigere Sterblichkeitsraten dokumentiert. Diese historischen Zeugnisse trugen erheblich dazu bei, der jungen Homöopathie in einer der größten Gesundheitskrisen des 19. Jahrhunderts öffentliches Vertrauen zu verschaffen.</p>
+          <p class="vb-intro">Für die soziale Eins ist das die eigentliche Bestätigung: Nicht der abstrakte Systemstreit zählt, sondern die konkrete Bewährung im Ernstfall, wenn Menschenleben auf dem Spiel stehen. Hahnemann selbst verstand seine gesamte Arbeit als Dienst an einer leidenden Menschheit &ndash; eine Haltung, die seiner soziale Eins zutiefst entsprach: Prinzipientreue, die sich nicht in der Theorie erschöpft, sondern sich an der Wirkung im Leben der Kranken misst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Später Ruhm: Paris und die zweite Ehe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1835, im Alter von achtzig Jahren, heiratete Hahnemann die deutlich jüngere französische Malerin Mélanie d'Hervilly und übersiedelte mit ihr nach Paris. Was wie ein ungewöhnlicher Lebensabschnitt für einen Mann seines Alters wirkt, wurde zu einer der erfolgreichsten Phasen seines Wirkens: In Paris behandelte er bis zu seinem Tod eine große, oft wohlhabende und einflussreiche Patientenschaft, unter ihnen Angehörige des Adels, und genoss endlich die gesellschaftliche Anerkennung, die ihm in Deutschland lange verwehrt geblieben war.</p>
+          <p class="vb-intro">Am 2. Juli 1843 starb Samuel Hahnemann in Paris im Alter von 88 Jahren &ndash; ein für seine Zeit außergewöhnlich hohes Lebensalter, das er selbst gern als lebenden Beweis für die Wirksamkeit seiner Methode anführte. Er wurde auf dem Friedhof Père Lachaise beigesetzt, wo sein Grabmal bis heute von Anhängern der Homöopathie aus aller Welt besucht wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">9. Vermächtnis: Eine Heilkunde, die Millionen bis heute begleitet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 ist die Fähigkeit, aus tiefer Empörung über ein fehlerhaftes System heraus geduldig und methodisch etwas grundlegend Neues aufzubauen &ndash; nicht im Affekt, sondern in jahrzehntelanger, akribischer Kleinarbeit. Was Hahnemann als einsamer Kritiker der &bdquo;heroischen Medizin&ldquo; seiner Zeit begann, ist heute ein weltweit praktiziertes Heilsystem: Nach Schätzungen der Weltgesundheitsorganisation nutzen mehrere hundert Millionen Menschen in über achtzig Ländern homöopathische Mittel, in Ländern wie Indien ist die Homöopathie fester Bestandteil des offiziellen Gesundheitssystems, und auch in Deutschland, Frankreich und vielen weiteren Ländern gehört sie seit Generationen zur gelebten Gesundheitskultur unzähliger Familien.</p>
+          <p class="vb-intro">Sein bleibendes Vermächtnis ist dabei mehr als die Summe seiner Arzneimittelbilder: Er stellte als einer der Ersten das Individuum mit seinem einzigartigen Symptombild in den Mittelpunkt der Behandlung, forderte eine sanfte, den Körper nicht zusätzlich schwächende Medizin zu einer Zeit, in der Aderlass und Quecksilber als Standard galten, und begründete mit der systematischen Arzneimittelprüfung am gesunden Menschen ein methodisches Vorgehen, das seiner Epoche weit voraus war. Die Gans, die einst allein gegen die etablierte Ärzteschaft ihrer Zeit aufbegehrte, hat eine Formation hinterlassen, die bis heute Millionen von Menschen auf ihrem Weg zur Gesundheit begleitet &ndash; ein Vermächtnis, dem sich auch dieser Kompass mit seinen homöopathischen Empfehlungen zu jedem der 27 Subtypen ausdrücklich verpflichtet fühlt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-enneagramm-aromatherapie", "9 Typen, 9 Urwunden, 9 Seelendüfte – Naturheilkunde im Enneagramm.", "Die Enneagramm-Aromatherapie")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-adam-smith", label:"Porträt: Adam Smith (SO1w9)"},
+        {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
 
 function mohammedPortraitPage() {
   return shell(`
@@ -49468,7 +49555,8 @@ function render() {
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
-      "beruehmte-mohammed": mohammedPortraitPage,
+      "beruehmte-samuel-hahnemann": samuelHahnemannPortraitPage,
+    "beruehmte-mohammed": mohammedPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,

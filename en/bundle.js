@@ -201,6 +201,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Friedrich Merz – Social Type 1",
     teaser:"SO1w9 · “The Goose”, born 1955. Federal Chancellor, CDU chairman, lawyer. Principle over pragmatism, order as a moral question – and the patience to wait years for the right moment. Animal correspondence: Goose.",
     tags:["Politik"] },
+  { route:"beruehmte-samuel-hahnemann", name:"Dr. Samuel Hahnemann", subtyp:"SO1w9",
+    heading:"Dr. Samuel Hahnemann – Social Type 1",
+    teaser:"SO1w9 · 1755–1843. Physician, founder of homeopathy. From the cinchona bark self-experiment to a globally practiced healing system. The goose that rebelled against the \u201cheroic medicine\u201d of its time – and still accompanies millions today.",
+    added:"2026-08-09", tags:["Medizin","Homöopathie"] },
   { route:"beruehmte-adam-smith", name:"Adam Smith", subtyp:"SO1w9",
     heading:"Adam Smith – Social Type 1",
     teaser:"SO1w9 · 1723–1790. Scottish moral philosopher and economist, Theory of Moral Sentiments, Wealth of Nations. The goose that sought a juster order – and whose loyalty to his friend David Hume cost him his own good name.",
@@ -17048,6 +17052,89 @@ function hundertwasserPortraitPage() {
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-iga-swiatek", label:"Portrait: Iga \u015awi\u0105tek (SX9w1)"},
         {route:"architektur-raumgestaltung-der-9-typen", label:"Chart: Architecture & Interior Design of the 9 Types"},
+      ])}
+    </div>
+  `);
+}
+
+function samuelHahnemannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-samuel-hahnemann-portrait.jpg" alt="Goose" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Samuel Hahnemann</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Physician, founder of homeopathy, 1755&ndash;1843 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose Who Demanded a Gentler Medicine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; watchful, incorruptible, with an unerring sense for when something is fundamentally wrong. It tolerates no half-measures once convinced that the order itself is sick. Few life stories illustrate this stance more vividly than Samuel Hahnemann&#39;s, who considered the medicine of his time so dangerous that he turned his back on it for years &ndash; only to found, in the end, a coherent medical system of his own that still accompanies millions of people worldwide today.</p>
+          <p class="vb-intro">Christian Friedrich Samuel Hahnemann was born on April 10, 1755, in Meissen, the son of a porcelain painter. Even as a child he was considered exceptionally gifted and curious; his teacher is said to have allowed him at times to help shape the lessons himself. He studied medicine in Leipzig, Vienna, and Erlangen, earning his doctorate in 1779 &ndash; a path that should have led him straight into the medical profession. But what he witnessed there as standard practice never let him rest.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Outrage at a Sick System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> seeks perfection not in the private sphere but on the larger social scale &ndash; it recognizes wrongs not as isolated cases but as symptoms of a flawed system it feels called to correct. The medicine of the late 18th century worked with bloodletting, high doses of mercury and antimony, purgatives and emetics &ndash; procedures that often harmed patients more than they helped. Hahnemann, himself a practicing physician, was so shaken by this &bdquo;heroic medicine&ldquo; that for several years he nearly abandoned medical practice altogether, unable to justify continuing to harm his patients.</p>
+          <p class="vb-intro">During this period he supported his growing family by translating medical and chemical literature &ndash; a withdrawn, financially difficult life that the social One accepts when the alternative means acting against its own conviction. It was precisely this stance &ndash; uncompromising honesty toward his own conscience &ndash; from which one of the most consequential medical discoveries of the modern era would emerge.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: The Patience That Let a System Mature</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the pure One a balancing calm and persistence &ndash; the ability not to force a conviction through in a burst, but to work it out over decades with painstaking thoroughness, testing, refining. This is exactly what characterizes Hahnemann&#39;s life work: from the first insight in 1790 to the sixth and final, posthumously published edition of his major work, the <em>Organon of the Healing Art</em>, more than fifty years of relentless refinement passed. Not a doctrine he proclaimed once and then defended, but a system he kept developing, correcting, and sharpening throughout his life.</p>
+          <p class="vb-intro">This patient systematics also shows in his working method: Hahnemann first tested every new remedy on himself and on healthy colleagues &ndash; the so-called &bdquo;drug provings&ldquo; &ndash; before ever giving it to a patient. A methodological rigor decades ahead of its time, one hardly conceivable without the calm, thorough Nine-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Cinchona Bark Self-Experiment: The Birth of Homeopathy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1790, while translating a materia medica by the Scottish physician William Cullen, Hahnemann came across an explanation for the effect of cinchona bark against malaria that failed to convince him. He did what suited his character: he tested it himself. He repeatedly took cinchona bark extract &ndash; and developed symptoms strikingly similar to malaria itself: fever, chills, aching limbs. A substance that cured the disease it was used against could apparently, in a healthy person, produce those very symptoms.</p>
+          <p class="vb-intro">From this single, precisely documented self-experiment, Hahnemann derived his founding principle: <em>Similia similibus curentur</em> &ndash; let like be cured by like. A remedy that triggers certain symptoms in a healthy person could, given in highly diluted form, promote healing in a sick person showing those same symptoms. This observation, born of meticulous self-observation, became the foundation of a medical system that has endured to this day &ndash; proof of how much a single, honestly conducted trial can achieve when carried out by a One with an unconditional commitment to truth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Organon: A System of Rare Clarity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1810 Hahnemann published the <em>Organon of the Healing Art</em>, his central work, in which he systematically laid out the principles of homeopathy: the law of similars, the individualization of every treatment to the exact symptom picture of each patient, and the method of potentization &ndash; the stepwise dilution of a substance combined with vigorous shaking (succussion), which he believed released and strengthened the remedy&#39;s healing power while reducing unwanted side effects. He also coined the term by which his system is still known worldwide today: <em>homeopathy</em>, from the Greek for &bdquo;similar suffering.&ldquo;</p>
+          <p class="vb-intro">The work is marked by a systematics unusual for its time &ndash; numbered paragraphs, clear definitions, a self-contained body of rules. Exactly the signature of the social One: not a loose bundle of observations, but an ordering system that allows every successor to apply the same principles in a traceable way &ndash; a structure that let homeopathy spread far beyond Hahnemann&#39;s own practice and be taught in dedicated training programs worldwide to this day.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Resistance from the Apothecaries: The Price of Conviction</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hahnemann&#39;s practice of preparing his own remedies and dispensing them directly to patients, rather than having them filled by pharmacies, put him in direct economic conflict with Leipzig&#39;s guild of apothecaries. In 1820, a court ruling barred him from dispensing his own remedies in Leipzig &ndash; a bitter setback for a man who had built his entire system on exact control over the preparation and administration of his medicines.</p>
+          <p class="vb-intro">But the social One, reinforced by the Nine-wing, does not give up &ndash; it looks for a new way. Duke Ferdinand of Anhalt-Köthen, himself convinced by Hahnemann&#39;s method, invited him to settle in Köthen and granted him the right to dispense his own remedies there. For fourteen years, from 1821 to 1835, Hahnemann practiced and taught undisturbed in Köthen &ndash; a period in which homeopathy began to spread beyond Germany across Europe and to the United States, carried by physicians who had read his writings and followed his method.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Cholera Epidemics: Proving Itself in Crisis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">When cholera swept through large parts of Europe in 1831, Hahnemann, by then over seventy, promptly published treatment recommendations using homeopathic remedies such as Camphora and Veratrum album. Several contemporary reports from homeopathically run cholera hospitals &ndash; in Vienna and various German cities, among others &ndash; documented notably lower mortality rates compared with the standard conventional treatments of the time, bloodletting and mercury dosing. These historical accounts contributed substantially to winning the young discipline of homeopathy public trust during one of the greatest health crises of the 19th century.</p>
+          <p class="vb-intro">For the social One, this is the real vindication: not abstract systemic debate, but concrete proof under real conditions, when human lives are at stake. Hahnemann himself understood his entire work as service to a suffering humanity &ndash; an attitude deeply consistent with his social One: principled conviction that isn&#39;t exhausted in theory, but is measured by its effect in the lives of the sick.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Late Fame: Paris and the Second Marriage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1835, at the age of eighty, Hahnemann married the much younger French painter Mélanie d&#39;Hervilly and moved with her to Paris. What might seem an unusual chapter for a man of his age became one of the most successful phases of his career: in Paris he treated a large, often wealthy and influential clientele until his death, including members of the aristocracy, and finally enjoyed the social recognition long denied him in Germany.</p>
+          <p class="vb-intro">Samuel Hahnemann died in Paris on July 2, 1843, at the age of 88 &ndash; an exceptionally long life for his era, one he liked to cite himself as living proof of his method&#39;s effectiveness. He was buried in the Père Lachaise cemetery, where his tomb is still visited today by followers of homeopathy from around the world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">9. Legacy: A Medicine That Still Accompanies Millions Today</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1w9 is the ability to build something fundamentally new out of deep outrage at a flawed system &ndash; not in a fit of anger, but through decades of patient, meticulous work. What Hahnemann began as a lone critic of the &bdquo;heroic medicine&ldquo; of his day is today a globally practiced healing system: according to World Health Organization estimates, several hundred million people in more than eighty countries use homeopathic remedies; in countries like India, homeopathy is a firmly established part of the official healthcare system; and in Germany, France, and many other countries it has been part of the lived health culture of countless families for generations.</p>
+          <p class="vb-intro">His lasting legacy is more than the sum of his remedy pictures: he was among the first to place the individual, with their unique symptom picture, at the center of treatment; he called for a gentler medicine that did not further weaken the body at a time when bloodletting and mercury were the standard; and with the systematic proving of remedies on healthy people, he founded a methodology far ahead of its time. The goose that once stood alone against the established medical profession of its day has left behind a formation that still accompanies millions of people on their path to health &ndash; a legacy to which this compass, with its homeopathic recommendations for all 27 subtypes, remains explicitly committed.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-enneagramm-aromatherapie", "9 types, 9 core wounds, 9 soul scents – natural healing in the Enneagram.", "Die Enneagramm-Aromatherapie")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"beruehmte-adam-smith", label:"Portrait: Adam Smith (SO1w9)"},
+        {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
       ])}
     </div>
   `);
@@ -46451,6 +46538,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-woody-allen": woodyAllenPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
+      "beruehmte-samuel-hahnemann": samuelHahnemannPortraitPage,
       "beruehmte-mohammed": mohammedPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
