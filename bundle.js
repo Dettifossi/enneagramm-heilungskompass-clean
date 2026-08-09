@@ -24066,6 +24066,7 @@ const registerEntries = [
     { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bundeskanzlerin 2005\u20132021, Elefant" },
   { term: "David Hume",                    route: "beruehmte-david-hume",                  description: "Portrait: SE9w8 \u00b7 Selbsterhaltender Typ 9 \u00b7 Philosoph, radikaler Skeptizismus" },
   { term: "Adam Smith",                    route: "beruehmte-adam-smith",                  description: "Portrait: SO1w9 \u00b7 Sozialer Typ 1 \u00b7 Moralphilosoph, \u00d6konom, Freund David Humes" },
+  { term: "Albert Einstein",               route: "beruehmte-albert-einstein",             description: "Portrait: SO5w4 \u00b7 Sozialer Typ 5 \u00b7 Physiker, Relativit\u00e4tstheorie" },
   { term: "Samuel Hahnemann",              route: "beruehmte-samuel-hahnemann",            description: "Portrait: SO1w9 \u00b7 Sozialer Typ 1 \u00b7 Deutscher Arzt, Begr\u00fcnder der Hom\u00f6opathie" },
   { term: "Hans-Dietrich Genscher",        route: "beruehmte-hans-dietrich-genscher",      description: "Portrait: SO2w3 \u00b7 Sozialer Typ 2 \u00b7 Au\u00dfenminister, Wiedervereinigung" },
   { term: "Hans Zimmer",                   route: "beruehmte-hans-zimmer",                 description: "Portrait: SX5w4 \u00b7 Sexueller Typ 5 \u00b7 Filmkomponist, Inception" },
@@ -31230,6 +31231,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Friedrich Merz \u2013 Sozialer Typ 1",
     teaser:"SO1w9 \u00b7 \u201eDie Gans\u201c, geb. 1955. Bundeskanzler, CDU-Vorsitzender, Jurist. Prinzip vor Pragmatismus, Ordnung als moralische Frage \u2013 und die Geduld, jahrelang zu warten, bis die Stunde kommt. Tierentsprechung: Gans.",
     tags:["Politik"] , gender:"m"},
+  { route:"beruehmte-albert-einstein", name:"Albert Einstein", added:"2026-08-09", subtyp:"SO5w4",
+    heading:"Albert Einstein \u2013 Sozialer Typ 5",
+    teaser:"SO5w4 \u00b7 1879\u20131955. Physiker, Nobelpreistr\u00e4ger, Begr\u00fcnder der Relativit\u00e4tstheorie. Der Oktopus, der im Patentamt allein die Formeln des Universums entschl\u00fcsselte \u2013 und sein Wissen der Menschheit schenkte.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-samuel-hahnemann", name:"Dr. Samuel Hahnemann", added:"2026-08-09", subtyp:"SO1w9",
     heading:"Dr. Samuel Hahnemann \u2013 Sozialer Typ 1",
     teaser:"SO1w9 \u00b7 1755\u20131843. Deutscher Arzt, Begr\u00fcnder der Hom\u00f6opathie. Vom Chinarinden-Selbstversuch zum weltweit praktizierten Heilsystem. Die Gans, die gegen die \u201eheroische Medizin\u201c ihrer Zeit aufbegehrte \u2013 und Millionen bis heute begleitet.",
@@ -50794,6 +50799,71 @@ function samuelHahnemannPortraitPage() {
   `);
 }
 
+function albertEinsteinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-albert-einstein-portrait.jpg" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Albert Einstein</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Sozialer Typ 5 mit Vierer\u00adfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Physiker, Nobelpreistr\u00e4ger, 1879&ndash;1955 &ndash; Begr\u00fcnder der Relativit\u00e4tstheorie &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus, der im Stillen die Formeln des Universums entschl\u00fcsselte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen F\u00fcnf &ndash; das intelligenteste wirbellose Tier der Erde, das in Systemen denkt, still im Verborgenen agiert und mit erstaunlicher Pr\u00e4zision auf Zusammenh\u00e4nge reagiert, die andere gar nicht wahrnehmen. Kein Zufallstier f\u00fcr einen Mann, der die grundlegendsten Gesetze des Universums entschl\u00fcsselte &ndash; nicht im Labor, nicht im lauten akademischen Getriebe, sondern zun\u00e4chst weitgehend allein, in stiller Konzentration.</p>
+          <p class="vb-intro">Albert Einstein wurde am 14. M\u00e4rz 1879 in Ulm geboren. In der Schule galt er keineswegs als \u00dcberflieger &ndash; sein Lehrer soll ihm vorausgesagt haben, aus ihm werde &bdquo;nie etwas Rechtes&ldquo;. Nach dem Studium fand er zun\u00e4chst keine akademische Anstellung und arbeitete ab 1902 als technischer Experte dritter Klasse am Schweizer Patentamt in Bern &ndash; eine Position, die ihm gerade genug Zeit und Ruhe lie\u00df, um sich abends und an Wochenenden seinen eigenen physikalischen Gedanken zu widmen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale F\u00fcnf: Wissen als Gabe an die Menschheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale F\u00fcnf (SO5)</strong> sucht nicht Wissen um seiner selbst willen, sondern will die \u00fcbergeordneten, universellen Gesetze verstehen und daraus einen bleibenden Beitrag f\u00fcr die Gemeinschaft leisten &ndash; sie wird zur Expertin, deren Erkenntnisse am Ende allen zugutekommen sollen. Genau das ist die Struktur von Einsteins &bdquo;Wunderjahr&ldquo; 1905: Als unbekannter Patentangestellter ver\u00f6ffentlichte er binnen weniger Monate vier Arbeiten &ndash; zur Lichtquantenhypothese, zur Brownschen Bewegung, zur speziellen Relativit\u00e4tstheorie und zur \u00c4quivalenz von Masse und Energie (E = mc&sup2;) &ndash; die die Physik grundlegend ver\u00e4nderten.</p>
+          <p class="vb-intro">Bezeichnend ist, dass er diese Erkenntnisse nicht zur\u00fcckhielt, sondern sofort zur Ver\u00f6ffentlichung und Diskussion in die wissenschaftliche Gemeinschaft gab &ndash; und sp\u00e4ter, ab 1914 in Berlin und ab 1933 in Princeton, aktiv lehrte, korrespondierte und Generationen von Physikern pr\u00e4gte. Die soziale F\u00fcnf will nicht im Elfenbeinturm bleiben; sie will, dass ihr Wissen wirkt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Vierer-Fl\u00fcgel: Gedankenexperimente als innere Bildwelt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Vierer-Fl\u00fcgel (w4)</strong> verleiht der sozialen F\u00fcnf eine ausgepr\u00e4gte innere Bildwelt und eine unkonventionelle, oft emotional aufgeladene Vorstellungskraft &ndash; ganz anders als das n\u00fcchterne Formeldenken, das man einem Physiker gemeinhin zuschreibt. Einstein selbst beschrieb seine wichtigsten Durchbr\u00fcche als <em>Gedankenexperimente</em>: Er stellte sich vor, neben einem Lichtstrahl herzureiten, oder in einem fensterlosen, frei fallenden Aufzug zu stehen &ndash; bildhafte, fast meditative Vorstellungen, aus denen erst sp\u00e4ter die mathematische Formulierung folgte.</p>
+          <p class="vb-intro">Auch sein \u00e4u\u00dferes Erscheinungsbild trug diese Vier-Note: das wilde, ungeb\u00e4ndigte Haar, die bewusste Ablehnung von Konventionen (Socken empfand er zeitlebens als \u00fcberfl\u00fcssig), die Liebe zur Musik &ndash; er spielte leidenschaftlich Geige und sagte, er denke oft in Musik. Kein reiner Systematiker, sondern ein F\u00fcnfer, dessen analytisches Denken sich in einer intensiven, bildreichen Innenwelt entz\u00fcndete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Weltruhm und gesellschaftliche Verantwortung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1919 best\u00e4tigte eine britische Sonnenfinsternis-Expedition unter Arthur Eddington die von Einstein 1915 vorhergesagte Lichtablenkung durch die Sonne &ndash; \u00fcber Nacht wurde der bis dahin nur Fachleuten bekannte Physiker zum weltweit gefeierten Genie. Die soziale F\u00fcnf, pl\u00f6tzlich ins grelle Licht der \u00d6ffentlichkeit ger\u00fcckt, reagierte typisch: Sie nutzte die neue Reichweite, um ihr Wissen in den Dienst gr\u00f6\u00dferer gesellschaftlicher Anliegen zu stellen. Einstein engagierte sich f\u00fcr Pazifismus, f\u00fcr die Gr\u00fcndung der Hebr\u00e4ischen Universit\u00e4t Jerusalem und warnte \u00f6ffentlich vor nationalistischer Kriegstreiberei.</p>
+          <p class="vb-intro">1939 unterschrieb er &ndash; auf Dr\u00e4ngen von Kollegen und in Sorge vor einer deutschen Atombombe &ndash; einen Brief an Pr\u00e4sident Roosevelt, der das amerikanische Atomprogramm mit anstie\u00df. Nach dem Abwurf der Bomben \u00fcber Hiroshima und Nagasaki setzte er sich bis zu seinem Tod f\u00fcr nukleare Abr\u00fcstung und internationale Kontrolle der Atomkraft ein &ndash; die soziale F\u00fcnf, die ihr Wissen einst freigegeben hatte und nun die Verantwortung f\u00fcr dessen Folgen mittrug.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO5w4 ist die F\u00e4higkeit, komplexeste, universelle Zusammenh\u00e4nge in Bilder zu fassen, die auch Laien ber\u00fchren &ndash; kaum ein Wissenschaftler ist bis heute so sehr Symbol f\u00fcr &bdquo;Genie&ldquo; schlechthin wie Einstein. Sein Wissen blieb nie abstrakt: Es floss in \u00f6ffentliche Verantwortung, in politisches Engagement, in eine Haltung, die Erkenntnis stets an ihre gesellschaftlichen Folgen zur\u00fcckband.</p>
+          <p class="vb-intro">Der Schatten zeigt sich im Privaten: Seine erste Ehe mit der Physikerin Mileva Mari\u0107, die ihn in den Jahren vor 1905 mit eigenem physikalischen Sachverstand begleitete, endete 1919 in Scheidung; sein j\u00fcngerer Sohn Eduard erkrankte an Schizophrenie und verbrachte einen Gro\u00dfteil seines Lebens in psychiatrischer Behandlung, kaum besucht vom ber\u00fchmten Vater. Die soziale F\u00fcnf, die sich ganz der gro\u00dfen, universellen Aufgabe verschreibt, kann genau daran im Nahbereich der eigenen Familie scheitern &ndash; N\u00e4he und Verf\u00fcgbarkeit fielen Einstein sp\u00fcrbar schwerer als das Verstehen kosmischer Gesetze.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verm\u00e4chtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Albert Einstein starb am 18. April 1955 in Princeton. Seine Formel E = mc&sup2; ist bis heute eine der bekanntesten wissenschaftlichen Gleichungen \u00fcberhaupt &ndash; ein Symbol daf\u00fcr, wie ein einzelner, still arbeitender Geist die Sicht der gesamten Menschheit auf Raum, Zeit und Materie ver\u00e4ndern kann.</p>
+          <p class="vb-intro">Der Oktopus, der im Patentamt begann, Systeme zu entschl\u00fcsseln, die niemand sonst sah, hinterlie\u00df eine Formation, die bis heute nachwirkt: nicht nur in der modernen Physik, sondern als Sinnbild daf\u00fcr, dass Genie sich nicht immer in geraden Bahnen zeigt &ndash; manchmal beginnt es in einem stillen B\u00fcro, mit einem Gedankenexperiment und dem festen Willen einer sozialen F\u00fcnf, das Verstandene mit der Welt zu teilen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so5", label:"SO5 \u2013 Der Oktopus: Subtyp-Profil"},
+        {route:"astrologie-albert-einstein", label:"Astrologie-Portr\u00e4t: Albert Einstein (SO5w6)"},
+        {route:"beruehmte-guenther-jauch", label:"Portr\u00e4t: G\u00fcnther Jauch (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
 function mohammedPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -53596,7 +53666,8 @@ function astrologieAlbertEinsteinPage() {
   return _astrologiePage(
     { slug:"albert-einstein", name:"Albert Einstein", subtyp:"SO5w6",
       subtypLabel:"Sozialer Typ 5 mit Sechserfl\u00fcgel",
-      subtitle:"Physiker, Nobelpreistr\u00e4ger, 1879\u20131955 \u2013 Begr\u00fcnder der Relativit\u00e4tstheorie" },
+      subtitle:"Physiker, Nobelpreistr\u00e4ger, 1879\u20131955 \u2013 Begr\u00fcnder der Relativit\u00e4tstheorie",
+      beruehmteRoute:"beruehmte-albert-einstein" },
     `<h2 class="vb-section">SO5w6 \u2013 Der Meister des Systems</h2>
     <blockquote class="vb-blockquote">
       <p class="vb-intro">Albert Einstein verk\u00f6rpert das klassische Profil der <strong>sozialen F\u00fcnf mit Sechserfl\u00fcgel (SO5w6)</strong>. Die soziale F\u00fcnf will die \u00fcbergeordneten, universellen Gesetze verstehen und einen bleibenden Beitrag f\u00fcr die Gemeinschaft leisten. Der Sechserfl\u00fcgel bringt strukturierte, analytische Gr\u00fcndlichkeit und ein starkes Systembewusstsein.</p>
@@ -80605,7 +80676,8 @@ function render() {
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
-      "beruehmte-samuel-hahnemann": samuelHahnemannPortraitPage,
+      "beruehmte-albert-einstein": albertEinsteinPortraitPage,
+    "beruehmte-samuel-hahnemann": samuelHahnemannPortraitPage,
     "beruehmte-mohammed": mohammedPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,

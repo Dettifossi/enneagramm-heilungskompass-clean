@@ -201,6 +201,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Friedrich Merz – Social Type 1",
     teaser:"SO1w9 · “The Goose”, born 1955. Federal Chancellor, CDU chairman, lawyer. Principle over pragmatism, order as a moral question – and the patience to wait years for the right moment. Animal correspondence: Goose.",
     tags:["Politik"] },
+  { route:"beruehmte-albert-einstein", name:"Albert Einstein", subtyp:"SO5w4",
+    heading:"Albert Einstein – Social Type 5",
+    teaser:"SO5w4 · 1879–1955. Physicist, Nobel laureate, father of the theory of relativity. The octopus that decoded the universe's formulas alone in a patent office – and gave its knowledge to humanity.",
+    added:"2026-08-09", tags:["Wissenschaft"] },
   { route:"beruehmte-samuel-hahnemann", name:"Dr. Samuel Hahnemann", subtyp:"SO1w9",
     heading:"Dr. Samuel Hahnemann – Social Type 1",
     teaser:"SO1w9 · 1755–1843. German physician, founder of homeopathy. From the cinchona bark self-experiment to a globally practiced healing system. The goose that rebelled against the \u201cheroic medicine\u201d of its time – and still accompanies millions today.",
@@ -17162,6 +17166,71 @@ function samuelHahnemannPortraitPage() {
   `);
 }
 
+function albertEinsteinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-albert-einstein-portrait.jpg" alt="Octopus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Albert Einstein</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Physicist, Nobel laureate, 1879&ndash;1955 &ndash; father of the theory of relativity &ndash; Animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Octopus Who Quietly Unlocked the Universe's Formulas</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five &ndash; the most intelligent invertebrate on Earth, thinking in systems, operating quietly out of sight, and reacting with astonishing precision to connections others don't even notice. No accidental animal for a man who decoded the most fundamental laws of the universe &ndash; not in a laboratory, not amid loud academic bustle, but at first largely alone, in quiet concentration.</p>
+          <p class="vb-intro">Albert Einstein was born on March 14, 1879, in Ulm. At school he was by no means considered a prodigy &ndash; his teacher is said to have predicted he would &bdquo;never amount to anything.&ldquo; After his studies he initially found no academic position and, from 1902, worked as a third-class technical expert at the Swiss patent office in Bern &ndash; a job that left him just enough time and quiet, in the evenings and on weekends, to pursue his own physical ideas.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Five: Knowledge as a Gift to Humanity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Five (SO5)</strong> doesn't seek knowledge for its own sake, but wants to understand the overarching, universal laws and turn that understanding into a lasting contribution to the community &ndash; becoming an expert whose insights are meant, in the end, to benefit everyone. That is exactly the structure of Einstein&#39;s &bdquo;miracle year&ldquo; of 1905: as an unknown patent clerk, he published four papers within a few months &ndash; on the light-quantum hypothesis, on Brownian motion, on special relativity, and on the equivalence of mass and energy (E = mc&sup2;) &ndash; that fundamentally changed physics.</p>
+          <p class="vb-intro">Tellingly, he did not hold these insights back but immediately submitted them for publication and discussion within the scientific community &ndash; and later, from 1914 in Berlin and from 1933 in Princeton, actively taught, corresponded, and shaped generations of physicists. The social Five doesn&#39;t want to stay in an ivory tower; it wants its knowledge to have an effect.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: Thought Experiments as an Inner World of Images</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the social Five a pronounced inner world of images and an unconventional, often emotionally charged imagination &ndash; quite different from the dry, formula-driven thinking one usually attributes to a physicist. Einstein himself described his most important breakthroughs as <em>thought experiments</em>: he imagined riding alongside a beam of light, or standing in a windowless, freely falling elevator &ndash; vivid, almost meditative images from which the mathematical formulation followed only later.</p>
+          <p class="vb-intro">This Four note also showed in his outward appearance: the wild, untamed hair, the deliberate rejection of convention (he considered socks unnecessary throughout his life), his love of music &ndash; he played the violin passionately and said he often thought in music. Not a pure systematizer, but a Five whose analytical thinking was ignited by an intense, image-rich inner world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. World Fame and Social Responsibility</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1919, a British solar-eclipse expedition led by Arthur Eddington confirmed the bending of starlight by the sun that Einstein had predicted in 1915 &ndash; overnight, the physicist previously known only to specialists became a globally celebrated genius. The social Five, suddenly thrust into the glare of public attention, reacted characteristically: it used its new reach to put its knowledge in service of larger social causes. Einstein became involved in pacifism, supported the founding of the Hebrew University of Jerusalem, and publicly warned against nationalist warmongering.</p>
+          <p class="vb-intro">In 1939, at the urging of colleagues and out of concern over a German atomic bomb, he signed a letter to President Roosevelt that helped spur the American atomic program. After the bombings of Hiroshima and Nagasaki, he campaigned until his death for nuclear disarmament and international control of atomic power &ndash; the social Five, who had once released its knowledge into the world, now sharing responsibility for its consequences.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO5w4 is the ability to capture the most complex, universal relationships in images that move even non-specialists &ndash; hardly any scientist remains, to this day, so much a symbol of &bdquo;genius&ldquo; as such as Einstein. His knowledge never stayed abstract: it flowed into public responsibility, political engagement, an attitude that always tied insight back to its social consequences.</p>
+          <p class="vb-intro">The shadow shows itself in his private life: his first marriage to the physicist Mileva Marić, who accompanied him with her own scientific expertise in the years before 1905, ended in divorce in 1919; his younger son Eduard developed schizophrenia and spent much of his life in psychiatric care, rarely visited by his famous father. The social Five, who devotes itself entirely to the great, universal task, can fail exactly there, in the close range of its own family &ndash; closeness and availability were noticeably harder for Einstein than understanding the laws of the cosmos.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Albert Einstein died on April 18, 1955, in Princeton. His formula E = mc&sup2; remains one of the most famous scientific equations of all time &ndash; a symbol of how a single, quietly working mind can change all of humanity&#39;s view of space, time, and matter.</p>
+          <p class="vb-intro">The octopus that began, in a patent office, decoding systems no one else saw has left behind a formation that still resonates today: not only in modern physics, but as an emblem that genius doesn&#39;t always travel a straight path &ndash; sometimes it begins in a quiet office, with a thought experiment, and the firm resolve of a social Five to share what it has understood with the world.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"astrologie-albert-einstein", label:"Astrology Portrait: Albert Einstein (SO5w6)"},
+        {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
 function mohammedPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -26614,7 +26683,8 @@ function astrologieAlbertEinsteinPage() {
   return _astrologiePage(
     { slug:"albert-einstein", name:"Albert Einstein", subtyp:"SO5w6",
       subtypLabel:"Sozialer Typ 5 mit Sechserflügel",
-      subtitle:"Physiker, Nobelpreisträger, 1879–1955 – Begründer der Relativitätstheorie" },
+      subtitle:"Physiker, Nobelpreisträger, 1879–1955 – Begründer der Relativitätstheorie",
+      beruehmteRoute:"beruehmte-albert-einstein" },
     `<h2 class="vb-section">SO5w6 – The Master of the System</h2>
     <blockquote class="vb-blockquote">
       <p class="vb-intro">Albert Einstein embodies the classic profile of the <strong>social Five with Six wing (SO5w6)</strong>. The social Five wants to understand overarching, universal laws and make a lasting contribution to the community. The Six wing brings structured, analytical thoroughness and a strong sense of systemic awareness.</p>
@@ -46561,6 +46631,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-woody-allen": woodyAllenPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
+      "beruehmte-albert-einstein": albertEinsteinPortraitPage,
       "beruehmte-samuel-hahnemann": samuelHahnemannPortraitPage,
       "beruehmte-mohammed": mohammedPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
