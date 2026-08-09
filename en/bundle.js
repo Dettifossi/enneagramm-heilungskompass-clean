@@ -870,6 +870,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Adele – Self-Preservation Type 4",
     teaser:"SE4w3 · born 1988. Singer, songwriter. 16 Grammys, an Oscar, over 120 million records sold. The dove that turns quiet heartbreak into global hits without ever putting it on public display. Animal correspondence: Dove.",
     tags:["Musik"] , gender:"f"},
+  { route:"beruehmte-nicolas-cage", name:"Nicolas Cage", added:"2026-08-09", subtyp:"SE4w3",
+    heading:"Nicolas Cage – Self-Preservation Type 4",
+    teaser:"SE4w3 · born 1964. Actor. Leaving Las Vegas, Con Air, Pig. The dove that, despite every storm and repeated fall, keeps taking flight again, following its own unmistakable path.",
+    tags:["Film"], gender:"m"},
   { route:"beruehmte-uli-hoeness", name:"Uli Hoeneß", added:"2026-07-20", subtyp:"SE2w3",
     heading:"Uli Hoeneß – Self-Preservation Type 2",
     teaser:"SE2w3 · born 1952. World Cup winner in 1974, manager and president of FC Bayern Munich. Four decades of development work, tax affair and return. The hippo defends its territory - and comes back stronger than before after the fall. Animal correspondence: Hippo.",
@@ -17595,6 +17599,71 @@ function morganFreemanPortraitPage() {
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"beruehmte-miley-cyrus", label:"Portrait: Miley Cyrus (SX7w6)"},
         {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function nicolasCagePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-nicolas-cage-portrait.jpg" alt="Dove" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nicolas Cage</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">American actor, born 1964 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove in the Lion's Skin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four &ndash; a creature that does not put its deep, often painful emotional life on public display but carries it within, finding its own unmistakable path through quiet persistence. It is tougher than it appears, and its greatest strength lies in rising again, again and again, despite inner vulnerability.</p>
+          <p class="vb-intro">Nicolas Cage was born in 1964 in Long Beach, California, as Nicolas Kim Coppola, nephew of director Francis Ford Coppola. To escape any suspicion of nepotism and to forge a completely independent name for himself, he adopted the stage name "Cage" early on &ndash; inspired by the comic hero Luke Cage and the avant-garde composer John Cage. An act of radical self-assertion, typical of a Four fighting with all its strength against the dissolution of its own identity within an overpowering family tradition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: The Quiet Struggle for One's Own Survival</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SE4)</strong> differs from the other Four subtypes in that it does not carry its suffering outward but bears it rather stoically &ndash; telling itself: "I suffer better than you, so I don't deserve to complain." This concealed intensity shows in Cage's total commitment to every role: for "Leaving Las Vegas" (1995), for which he won the Academy Award for Best Actor, he spent weeks in excessive alcohol consumption to authentically embody the physical and psychological destruction of his character, a drinking screenwriter.</p>
+          <p class="vb-intro">Privately, too, Cage mostly carried his suffering in hiding: after the death of his mother, who suffered from severe psychiatric illness throughout her life, he rarely spoke publicly about the family burden this brought with it. This quiet, almost ascetic form of suffering is the signature of the self-preservation Four &ndash; the feeling is real and deep, but it is not put on display, instead channeled into one's own work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: The Stage as a Survival Strategy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Four the ability to turn its inner intensity into effective, audience-facing performance &ndash; and this is exactly what makes Cage's career one of the most unusual in Hollywood. He moves effortlessly between serious, Oscar-winning dramas and eccentric, often deliberately over-the-top action cinema like "Con Air," "Face/Off," or "The Wicker Man" &ndash; roles in which he performs with an intensity that has long since become its own trademark, the so-called "Nic Cage acting," achieving cult status online.</p>
+          <p class="vb-intro">In 2022, with "The Unbearable Weight of Massive Talent," he pulled off a self-ironic masterstroke: he played an exaggerated version of himself, playing directly with this very eccentric image. This is typical of the SE4w3: its own difference is not hidden but confidently marketed &ndash; a balancing act between genuine artistic depth and clever self-presentation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Financial Collapse and Quiet Rebuilding</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the 2000s, Cage ran into severe financial turbulence: despite a fortune estimated at over $150 million, he had to file for bankruptcy on several of his real estate projects in 2009, including a castle in Germany and several US properties &ndash; caused by excessive collecting habits (including rare comic books, dinosaur skulls, and even an Egyptian burial tomb) and poor financial management.</p>
+          <p class="vb-intro">Instead of complaining publicly, Cage responded with quiet, genuinely remarkable work discipline: he took on dozens of film roles in a short period, many of them in smaller productions made directly for the streaming market, in order to pay down his debts. This years-long, unspectacular rebuilding work in the background, far from the big red carpets, is the purest expression of the self-preservation Four: not complaining, but persistently working until one's own existence is secure again.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE4w3 is the ability to turn <strong>deep, genuine feeling into powerful art</strong> without losing its own dignity &ndash; Cage's best roles, from "Leaving Las Vegas" to "Pig" (2021), show a vulnerability that, despite all the eccentricity, moves deeply. His persistent financial comeback also shows the toughness inherent in the dove.</p>
+          <p class="vb-intro">The shadow showed itself in exactly that financial recklessness that nearly ruined him, as well as in periods of excessive alcohol use he later spoke openly about. The flip side of the self-preservation Four: because suffering is not openly communicated, it can discharge itself in impulsive, self-damaging behavior &ndash; until the consequences grow too large to hide any longer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Dove That Keeps Taking Flight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nicolas Cage is today considered one of Hollywood's most idiosyncratic, unpredictable, and yet most consistently working actors &ndash; an artist repeatedly written off and each time reinventing himself through his own strength. His career is proof that financial collapse and artistic substance need not exclude one another.</p>
+          <p class="vb-intro">The dove that, despite every storm and repeated fall, keeps taking flight again, following its own unmistakable path &ndash; that is the lasting image of the self-preservation Four with a Three-wing: quiet toughness that, in the end, still shows itself on the big stage.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SE4w3)"},
+        {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SE4w3)"},
       ])}
     </div>
   `);
@@ -47075,6 +47144,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-edgar-allan-poe": edgarAllanPoePortraitPage,
       "beruehmte-johnny-depp": johnnyDeppPortraitPage,
       "beruehmte-morgan-freeman": morganFreemanPortraitPage,
+      "beruehmte-nicolas-cage": nicolasCagePortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,

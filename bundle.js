@@ -24038,6 +24038,7 @@ const registerEntries = [
   { term: "David L. Rathmer",              route: "beruehmte-david-l-rathmer",             description: "Portrait: SE3w4 \u00b7 Selbsterhaltender Typ 3 \u00b7 Enneagramm-Trainer" },
   { term: "Dieter Bohlen",                 route: "beruehmte-dieter-bohlen",               description: "Portrait: SX3w4 \u00b7 Sexueller Typ 3 \u00b7 Pop-Produzent, Modern Talking" },
     { term: "Adele", route: "beruehmte-adele", description: "Portrait: SE4w3 \u00b7 Selbsterhaltender Typ 4 \u00b7 S\u00e4ngerin, Songwriterin" },
+  { term: "Nicolas Cage",                   route: "beruehmte-nicolas-cage",                description: "Portrait: SE4w3 \u00b7 Selbsterhaltender Typ 4 \u00b7 Schauspieler" },
     { term: "Adele Neuhauser", route: "beruehmte-adele-neuhauser", description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Schauspielerin, Bibi Fellner, Tatort, \u00d6sterreichischer Filmpreis, Krokodil" },
     { term: "Adele Neuhauser", route: "beruehmte-adele-neuhauser", description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Schauspielerin, Bibi Fellner, Tatort, \u00d6sterreichischer Filmpreis, Krokodil" },
   { term: "Donald Trump",                  route: "beruehmte-donald-trump",                description: "Portrait: SX3w2 \u00b7 Sexueller Typ 3 \u00b7 US-Pr\u00e4sident, Medienprovokateur" },
@@ -24330,6 +24331,7 @@ const registerEntriesEN = [
   { term: "David L. Rathmer", route: "beruehmte-david-l-rathmer", description: "Portrait: SE3w4 \u00b7 Self-Preservation Type 3 \u00b7 Enneagram trainer" },
   { term: "Dieter Bohlen", route: "beruehmte-dieter-bohlen", description: "Portrait: SX3w4 \u00b7 Sexual Type 3 \u00b7 Pop producer, Modern Talking" },
   { term: "Adele", route: "beruehmte-adele", description: "Portrait: SE4w3 \u00b7 Self-Preservation Type 4 \u00b7 Singer, songwriter" },
+  { term: "Nicolas Cage", route: "beruehmte-nicolas-cage", description: "Portrait: SE4w3 \u00b7 Self-Preservation Type 4 \u00b7 Actor" },
   { term: "Adele Neuhauser", route: "beruehmte-adele-neuhauser", description: "Portrait: SX8w7 \u00b7 Sexual Type 8 \u00b7 Actress, Bibi Fellner, Tatort, Austrian Film Prize, Crocodile" },
   { term: "Donald Trump", route: "beruehmte-donald-trump", description: "Portrait: SX3w2 \u00b7 Sexual Type 3 \u00b7 US President, media provocateur" },
   { term: "Donata Hopfen", route: "beruehmte-donata-hopfen", description: "Portrait: SO6w7 \u00b7 Social Type 6 \u00b7 Former CEO Bild & DFL, b. 1976 Hamburg" },
@@ -31471,6 +31473,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Adele \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w3 \u00b7 geb. 1988. S\u00e4ngerin, Songwriterin. 16 Grammys, ein Oscar, \u00fcber 120 Millionen verkaufte Tontr\u00e4ger. Die Taube, die stillen Herzschmerz in Welthits verwandelt, ohne ihn \u00f6ffentlich auszubreiten. Tierentsprechung: Taube.",
     tags:["Musik"] , gender:"f"},
+  { route:"beruehmte-nicolas-cage", name:"Nicolas Cage", added:"2026-08-09", subtyp:"SE4w3",
+    heading:"Nicolas Cage \u2013 Selbsterhaltender Typ 4",
+    teaser:"SE4w3 \u00b7 geb. 1964. Schauspieler. Leaving Las Vegas, Con Air, Pig. Die Taube, die trotz Sturm und wiederholtem Absturz immer wieder auffliegt und ihren eigenen, unverwechselbaren Weg weiterfliegt.",
+    tags:["Film"], gender:"m"},
   { route:"beruehmte-karoline-herfurth", name:"Karoline Herfurth", added:"2026-07-21", subtyp:"SE4w5",
     heading:"Karoline Herfurth \u2013 Selbsterhaltende Typ 4",
     teaser:"SE4w5 \xb7 geb. 1984, Berlin. Schauspielerin, Regisseurin. Die Taube, die beobachtet, bevor sie landet \u2013 innere Tiefe, k\xfcnstlerische Pr\xe4zision, und eine Menschlichkeit hinter der Kamera, die das Sch\xf6ne am Verletzlichen sucht.",
@@ -45771,6 +45777,70 @@ function morganFreemanPortraitPage() {
         {route:"subtype/sx7", label:"SX7 \u2013 Der Schimpanse: Subtyp-Profil"},
         {route:"beruehmte-miley-cyrus", label:"Portr\xe4t: Miley Cyrus (SX7w6)"},
         {route:"beruehmte-thomas-gottschalk", label:"Portr\xe4t: Thomas Gottschalk (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
+function nicolasCagePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-nicolas-cage-portrait.jpg" alt="Taube" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nicolas Cage</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltender Typ 4 mit Dreierfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Schauspieler, geb. 1964 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube in der L\u00f6wenhaut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier &ndash; ein Wesen, das sein tiefes, oft schmerzhaftes Gef\u00fchlsleben nicht \u00f6ffentlich zur Schau stellt, sondern in sich tr\u00e4gt und in stiller Beharrlichkeit einen eigenen, unverwechselbaren Weg findet. Sie ist z\u00e4her, als sie wirkt, und ihre gr\u00f6\u00dfte Kraft liegt darin, sich trotz innerer Verletzlichkeit immer wieder neu aufzurichten.</p>
+          <p class="vb-intro">Nicolas Cage wurde 1964 in Long Beach, Kalifornien, als Nicolas Kim Coppola geboren, Neffe des Regisseurs Francis Ford Coppola. Um jeder Vetternwirtschafts-Vermutung zu entkommen und sich einen komplett eigenst\u00e4ndigen Namen zu erarbeiten, legte er sich fr\u00fch das Pseudonym &bdquo;Cage&ldquo; zu &ndash; angelehnt an den Comic-Helden Luke Cage und den Avantgarde-Komponisten John Cage. Ein Akt der radikalen Selbstbehauptung, typisch f\u00fcr eine Vier, die sich mit aller Kraft gegen die Aufl\u00f6sung der eigenen Identit\u00e4t in einer \u00fcberm\u00e4chtigen Familientradition wehrt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Der stille Kampf um das eigene \u00dcberleben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> unterscheidet sich von den anderen Vierer-Subtypen dadurch, dass sie ihr Leiden nicht nach au\u00dfen tr\u00e4gt, sondern eher stoisch ertr\u00e4gt &ndash; sie sagt sich selbst: &bdquo;Ich leide besser als du, also verdiene ich es nicht, zu klagen.&ldquo; Diese verdeckte Intensit\u00e4t zeigt sich bei Cage in seiner v\u00f6lligen Hingabe an jede Rolle: F\u00fcr &bdquo;Leaving Las Vegas&ldquo; (1995), f\u00fcr das er den Oscar als bester Hauptdarsteller gewann, verbrachte er Wochen mit exzessivem Alkoholkonsum, um die physische und seelische Zerst\u00f6rung seiner Figur, eines trinkenden Drehbuchautors, authentisch zu verk\u00f6rpern.</p>
+          <p class="vb-intro">Auch privat trug Cage sein Leiden meist im Verborgenen: Nach dem Tod seiner Mutter, die zeitlebens an schweren psychischen Erkrankungen litt, sprach er nur selten \u00f6ffentlich \u00fcber die damit verbundene famili\u00e4re Belastung. Diese stille, fast asketische Art des Leidens ist die Signatur der selbsterhaltenden Vier &ndash; das Gef\u00fchl ist real und tief, wird aber nicht zur Schau gestellt, sondern in die eigene Arbeit kanalisiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierfl\u00fcgel: Die B\u00fchne als \u00dcberlebensstrategie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierfl\u00fcgel (w3)</strong> verleiht der Vier die F\u00e4higkeit, ihre innere Intensit\u00e4t in wirksame, publikumswirksame Performance zu verwandeln &ndash; und genau das macht Cages Karriere zu einer der ungew\u00f6hnlichsten Hollywoods. Er bewegt sich m\u00fchelos zwischen ernsten, oscar-pr\u00e4mierten Dramen und exzentrischem, oft bewusst \u00fcberzogenem Actionkino wie &bdquo;Con Air&ldquo;, &bdquo;Face/Off&ldquo; oder &bdquo;The Wicker Man&ldquo; &ndash; Rollen, in denen er mit einer Intensit\u00e4t agiert, die l\u00e4ngst zum eigenen Markenzeichen, dem sogenannten &bdquo;Nic Cage Acting&ldquo;, geworden ist und Kultstatus im Internet erreicht hat.</p>
+          <p class="vb-intro">2022 gelang ihm mit &bdquo;The Unbearable Weight of Massive Talent&ldquo; eine selbstironische Meisterleistung: Er spielte eine \u00fcberzeichnete Version seiner selbst, die genau mit diesem exzentrischen Image spielte. F\u00fcr die SE4w3 ist das typisch: Die eigene Andersartigkeit wird nicht versteckt, sondern souver\u00e4n vermarktet &ndash; ein Balanceakt zwischen echter k\u00fcnstlerischer Tiefe und kluger Selbstinszenierung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Finanzieller Absturz und stiller Wiederaufbau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In den 2000er-Jahren geriet Cage in schwere finanzielle Turbulenzen: Trotz eines Verm\u00f6gens von gesch\u00e4tzt \u00fcber 150 Millionen Dollar musste er 2009 Insolvenz f\u00fcr mehrere seiner Immobilienprojekte anmelden, unter anderem f\u00fcr ein Schloss in Deutschland und mehrere Anwesen in den USA &ndash; verursacht durch exzessive Sammelleidenschaften (unter anderem seltene Comics, Dinosauriersch\u00e4del und sogar eine \u00e4gyptische Katakombe) und schlechtes finanzielles Management.</p>
+          <p class="vb-intro">Statt \u00f6ffentlich zu klagen, reagierte Cage mit stiller, geradezu bemerkenswerter Arbeitsdisziplin: Er nahm in kurzer Zeit dutzende Filmrollen an, viele davon in kleineren, direkt f\u00fcr den Streamingmarkt produzierten Produktionen, um seine Schulden abzutragen. Diese jahrelange, unspektakul\u00e4re Aufbauarbeit im Hintergrund, fernab gro\u00dfer roter Teppiche, ist die reinste Auspr\u00e4gung der selbsterhaltenden Vier: Nicht klagen, sondern beharrlich weiterarbeiten, bis die eigene Existenz wieder gesichert ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w3 ist die F\u00e4higkeit, <strong>tiefes, echtes Gef\u00fchl in wirkungsvolle Kunst</strong> zu verwandeln, ohne dabei die eigene W\u00fcrde zu verlieren &ndash; Cages beste Rollen, von &bdquo;Leaving Las Vegas&ldquo; bis &bdquo;Pig&ldquo; (2021), zeigen eine Verletzlichkeit, die trotz aller Exzentrik zutiefst ber\u00fchrt. Sein beharrlicher finanzieller Wiederaufstieg zeigt zudem die Z\u00e4higkeit, die der Taube innewohnt.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in genau jener finanziellen Unbeherrschtheit, die ihn fast ruinierte, sowie in Phasen exzessiven Alkoholkonsums, \u00fcber die er sp\u00e4ter offen sprach. Die Kehrseite der selbsterhaltenden Vier: Weil das Leiden nicht offen kommuniziert wird, kann es sich in impulsivem, selbstsch\u00e4digendem Verhalten entladen &ndash; bis die Konsequenzen so gro\u00df werden, dass sie sich nicht mehr verbergen lassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die immer wieder auffliegt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nicolas Cage gilt heute als einer der eigenwilligsten, unberechenbarsten und zugleich meistbesch\u00e4ftigten Schauspieler Hollywoods &ndash; ein K\u00fcnstler, der mehrfach abgeschrieben wurde und sich jedes Mal aus eigener Kraft neu erfunden hat. Seine Karriere ist ein Beweis daf\u00fcr, dass wirtschaftlicher Absturz und k\u00fcnstlerische Substanz einander nicht ausschlie\u00dfen m\u00fcssen.</p>
+          <p class="vb-intro">Die Taube, die trotz Sturm und wiederholtem Absturz immer wieder auffliegt und ihren eigenen, unverwechselbaren Weg weiterfliegt &ndash; das ist das bleibende Bild der selbsterhaltenden Vier mit Dreierfl\u00fcgel: stille Z\u00e4higkeit, die sich am Ende doch auf der gro\u00dfen B\u00fchne zeigt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se4", label:"SE4 \u2013 Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-adele", label:"Portr\xe4t: Adele (SE4w3)"},
+        {route:"beruehmte-lady-diana", label:"Portr\xe4t: Lady Diana (SE4w3)"},
       ])}
     </div>
   `);
@@ -81127,6 +81197,7 @@ function render() {
     "beruehmte-edgar-allan-poe": edgarAllanPoePortraitPage,
     "beruehmte-johnny-depp": johnnyDeppPortraitPage,
     "beruehmte-morgan-freeman": morganFreemanPortraitPage,
+    "beruehmte-nicolas-cage": nicolasCagePortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,
