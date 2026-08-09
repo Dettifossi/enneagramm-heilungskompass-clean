@@ -23994,6 +23994,7 @@ const registerEntries = [
   { term: "Jeanne-Marie Bouvier de la Motte Guyon", route: "beruehmte-jeanne-marie-guyon",   description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Mystikerin, Quietismus" },
   { term: "Drew Barrymore",                 route: "beruehmte-drew-barrymore",              description: "Portrait: SO7w8 \u00b7 Sozialer Typ 7 \u00b7 Schauspielerin, Produzentin, Talkshow-Moderatorin" },
   { term: "Miley Cyrus",                    route: "beruehmte-miley-cyrus",                 description: "Portrait: SX7w6 \u00b7 Sexueller Typ 7 \u00b7 S\u00e4ngerin, Songwriterin, Schauspielerin" },
+  { term: "Morgan Freeman",                 route: "beruehmte-morgan-freeman",              description: "Portrait: SX7w6 \u00b7 Sexueller Typ 7 \u00b7 Schauspieler, Erz\u00e4hler, Regisseur" },
   { term: "Shakira",                        route: "beruehmte-shakira",                     description: "Portrait: SX7w8 \u00b7 Sexueller Typ 7 \u00b7 S\u00e4ngerin, Songwriterin, T\u00e4nzerin, Produzentin" },
   { term: "Diogenes von Sinope",            route: "beruehmte-diogenes",                    description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Philosoph, Begr\u00fcnder des Kynismus" },
   { term: "Winston Churchill",              route: "beruehmte-winston-churchill",           description: "Portrait: SE8w9 \u00b7 Selbsterhaltender Typ 8 \u00b7 Britischer Staatsmann, Premierminister" },
@@ -24286,6 +24287,7 @@ const registerEntriesEN = [
   { term: "Jeanne-Marie Bouvier de la Motte Guyon", route: "beruehmte-jeanne-marie-guyon", description: "Portrait: SO7w6 \u00b7 Social Type 7 \u00b7 Mystic, Quietism" },
   { term: "Drew Barrymore", route: "beruehmte-drew-barrymore", description: "Portrait: SO7w8 \u00b7 Social Type 7 \u00b7 Actress, producer, talk show host" },
   { term: "Miley Cyrus", route: "beruehmte-miley-cyrus", description: "Portrait: SX7w6 \u00b7 Sexual Type 7 \u00b7 Singer, songwriter, actress" },
+  { term: "Morgan Freeman", route: "beruehmte-morgan-freeman", description: "Portrait: SX7w6 \u00b7 Sexual Type 7 \u00b7 Actor, narrator, director" },
   { term: "Shakira", route: "beruehmte-shakira", description: "Portrait: SX7w8 \u00b7 Sexual Type 7 \u00b7 Singer, songwriter, dancer, producer" },
   { term: "Diogenes of Sinope", route: "beruehmte-diogenes", description: "Portrait: SX8w7 \u00b7 Sexual Type 8 \u00b7 Philosopher, founder of Cynicism" },
   { term: "Winston Churchill", route: "beruehmte-winston-churchill", description: "Portrait: SE8w9 \u00b7 Self-Preservation Type 8 \u00b7 British statesman, Prime Minister" },
@@ -31761,6 +31763,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Miley Cyrus \u2013 Sexueller Typ 7",
     teaser:"SX7w6 \u00b7 geb. 1992 in Franklin, Tennessee. S\u00e4ngerin, Songwriterin, Schauspielerin. Kinderstar als \u201eHannah Montana\u201c, sp\u00e4tere Neuerfindungen von \u201eWrecking Ball\u201c bis \u201eFlowers\u201c. Der Schimpanse mit Sechserfl\u00fcgel: Verwandlung als Lebensform, Loyalit\u00e4t zu sich selbst als roter Faden durch jede H\u00e4utung.",
     tags:["Musik","Film"], gender:"f"},
+  { route:"beruehmte-morgan-freeman", name:"Morgan Freeman", added:"2026-08-09", subtyp:"SX7w6",
+    heading:"Morgan Freeman \u2013 Sexueller Typ 7",
+    teaser:"SX7w6 \u00b7 geb. 1937. Schauspieler, Regisseur, Erz\u00e4hler. Die Verurteilten, Sieben, Invictus. Der Schimpanse mit Sechserfl\u00fcgel: Neugier und Vielseitigkeit, getragen von jahrzehntelanger Verl\u00e4sslichkeit und der vertrautesten Stimme Hollywoods.",
+    tags:["Film"], gender:"m"},
   { route:"beruehmte-ina-mueller", name:"Ina M\u00fcller", subtyp:"SX7w8",
     heading:"Ina M\u00fcller \u2013 Sexueller Typ 7",
     teaser:"SX7w8 \u00b7 geb. 1965. S\u00e4ngerin, Musikkabarettistin, Fernsehmoderatorin (Inas Nacht). Der Schimpanse mit Achterfl\u00fcgel: lebenslustig, direkt, unerschrocken \u2013 und immer nah am Menschen. Tierentsprechung: Schimpanse.",
@@ -45701,6 +45707,70 @@ function johnnyDeppPortraitPage() {
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
         {route:"beruehmte-til-schweiger", label:"Portr\xe4t: Til Schweiger (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portr\xe4t: Romy Schneider (SO4w3)"},
+      ])}
+    </div>
+  `);
+}
+function morganFreemanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-morgan-freeman-portrait.jpg" alt="Schimpanse" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Morgan Freeman</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Schauspieler, geb. 1937 &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse mit der Stimme der Vorsehung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben &ndash; verspielt, neugierig, sozial hochintelligent, immer auf der Suche nach dem n\u00e4chsten spannenden Erlebnis, das die Gruppe in seinen Bann zieht. Er begeistert nicht durch Zur\u00fcckhaltung, sondern durch pure Pr\u00e4senz und Anziehungskraft &ndash; ein Wesen, das andere mitrei\u00dft, ohne sich selbst je in den Vordergrund dr\u00e4ngen zu m\u00fcssen.</p>
+          <p class="vb-intro">Morgan Freeman wurde 1937 in Memphis, Tennessee, geboren und wuchs zwischen dem l\u00e4ndlichen Mississippi und Chicago auf, in einer Zeit tiefer Rassentrennung im S\u00fcden der USA. Er entdeckte die Schauspielerei bereits als Kind \u00fcber ein Schultheaterst\u00fcck und trat mit 12 Jahren erstmals landesweit im Radio auf. Nach vier Jahren bei der US Air Force als Radartechniker entschied er sich endg\u00fcltig gegen eine Milit\u00e4rlaufbahn und f\u00fcr die Kunst &ndash; ein Sprung ins Ungewisse, der sich erst nach Jahrzehnten harter, oft erfolgloser Arbeit als Off-Broadway-Schauspieler und Kinderfernsehdarsteller auszahlen sollte. Der eigentliche Durchbruch kam erst mit 50 Jahren, mit dem Film &bdquo;Street Smart&ldquo; (1987) &ndash; ein sp\u00e4tes, aber nachhaltiges Aufbl\u00fchen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Intensit\u00e4t durch Vielfalt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht die Intensit\u00e4t nicht in der ruhigen \u00dcbersicht, sondern in der leidenschaftlichen Begegnung, im n\u00e4chsten faszinierenden Projekt, in immer neuen Rollen und Erfahrungen. Freemans Filmografie ist von einer bemerkenswerten Bandbreite gepr\u00e4gt: der weise Gef\u00e4ngnisinsasse Red in &bdquo;Die Verurteilten&ldquo;, Gott pers\u00f6nlich in &bdquo;Bruce Allm\u00e4chtig&ldquo;, der Butler-Geheimagent im &bdquo;Dark Knight&ldquo;, Nelson Mandela in &bdquo;Invictus&ldquo; &ndash; ein Schauspieler, der sich nie auf ein einziges Genre oder einen einzigen Charaktertyp festlegen lie\u00df.</p>
+          <p class="vb-intro">Auch au\u00dferhalb der Filmwelt lebte Freeman diese Vielseitigkeit: Er besitzt einen Jazzclub in seiner Wahlheimat Clarksdale, Mississippi, ist begeisterter Hobbypilot mit eigener Lizenz f\u00fcr mehrmotorige Flugzeuge und Jets, und produzierte mit &bdquo;Through the Wormhole&ldquo; eine popul\u00e4rwissenschaftliche Fernsehserie \u00fcber die gro\u00dfen R\u00e4tsel des Universums. F\u00fcr die sexuelle Sieben ist genau das typisch: Die Welt ist zu gro\u00df und zu spannend, um sich auf nur eine Leidenschaft zu beschr\u00e4nken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Verl\u00e4sslichkeit als Fundament der Freude</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\u00fcgel (w6)</strong> verleiht der reinen Sieben eine erdende Verl\u00e4sslichkeit &ndash; die Lust am Neuen wird nicht chaotisch ausgelebt, sondern in loyale, langj\u00e4hrige Zusammenarbeit eingebettet. Freemans Zusammenarbeit mit Regisseur Clint Eastwood (u. a. &bdquo;Million Dollar Baby&ldquo;), mit Regisseur Rob Reiner oder in wiederkehrenden Rollen zeigt eine Treue zu Arbeitsbeziehungen, die f\u00fcr die reine Sieben untypisch w\u00e4re.</p>
+          <p class="vb-intro">Am deutlichsten zeigt sich dieser Fl\u00fcgel in seiner Stimme: Freemans warmer, ruhiger, tief vertrauenerweckender Bariton wurde zu einem der meistgebuchten Erz\u00e4hler-Stimmen Hollywoods &ndash; von Dokumentarfilmen bis zu &bdquo;March of the Penguins&ldquo;. Eine Stimme, die Sicherheit vermittelt, noch bevor der Inhalt des Gesagten \u00fcberhaupt verstanden ist &ndash; die Verl\u00e4sslichkeit des Sechserfl\u00fcgels, h\u00f6rbar gemacht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein sp\u00e4ter, aber bleibender Aufstieg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Freeman gewann 2005 den Oscar als bester Nebendarsteller f\u00fcr &bdquo;Million Dollar Baby&ldquo; &ndash; nach \u00fcber 60 Filmrollen und Jahrzehnten des Wartens auf die verdiente Anerkennung. F\u00fcr die sexuelle Sieben ist dieses Warten kein Widerspruch: Die Lust am Erleben treibt sie durch R\u00fcckschl\u00e4ge hindurch, solange am Horizont immer ein neues, vielversprechendes Projekt lockt.</p>
+          <p class="vb-intro">Bemerkenswert ist auch sein soziales Engagement: Freeman setzte sich \u00f6ffentlich f\u00fcr die Aufhebung rassistischer Traditionen ein, etwa gegen die Fortf\u00fchrung des &bdquo;Black History Month&ldquo; in seiner bisherigen Form, weil er der \u00dcberzeugung war, Rassengrenzen sollten gar nicht erst als Kategorie gedacht werden. Eine Haltung, die typisch ist f\u00fcr die Sieben mit Sechserfl\u00fcgel: der Wunsch, Grenzen zu \u00fcberwinden, gepaart mit einer klaren, prinzipientreuen Position dazu, wie das gelingen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX7w6 ist die F\u00e4higkeit, <strong>Neugier und Vielfalt mit Verl\u00e4sslichkeit</strong> zu verbinden &ndash; ein Leben voller unterschiedlichster Rollen und Interessen, das dennoch von tragf\u00e4higen, langj\u00e4hrigen Beziehungen getragen wird. Freemans Karriere, die erst sp\u00e4t zur vollen Bl\u00fcte kam, zeigt, wie diese Mischung aus Neugier und Ausdauer \u00fcber Jahrzehnte tr\u00e4gt.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in seinem Privatleben: 2018 wurde er von mehreren Frauen mit Vorw\u00fcrfen unangemessenen Verhaltens konfrontiert, was seinem Ruf erheblich schadete, auch wenn keine strafrechtlichen Konsequenzen folgten. Zudem \u00fcberlebte er 2008 einen schweren Autounfall, der zu dauerhaften Nervensch\u00e4den an der linken Hand f\u00fchrte. Die Kehrseite der sexuellen Sieben mit Sechserfl\u00fcgel: Die Lust an intensiver, oft grenz\u00fcberschreitender Begegnung kann, wenn sie nicht reflektiert wird, in Verhalten m\u00fcnden, das anderen schadet &ndash; ein Punkt, der bei aller Wertsch\u00e4tzung f\u00fcr sein k\u00fcnstlerisches Werk nicht verschwiegen werden sollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Schimpanse, der die Welt erz\u00e4hlte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Morgan Freeman gilt heute als eine der vertrautesten Stimmen und Pr\u00e4senzen des amerikanischen Kinos &ndash; ein Schauspieler, dessen Karriere erst nach Jahrzehnten harter Arbeit richtig begann und der seither in einer schier endlosen Bandbreite von Rollen zu Hause ist. Sein Weg zeigt, dass die Neugier der Sieben und die Ausdauer des Sechserfl\u00fcgels gemeinsam einen langen Atem erzeugen k\u00f6nnen, der weit \u00fcber den schnellen Erfolg hinaustr\u00e4gt.</p>
+          <p class="vb-intro">Der Schimpanse, der mit seiner Stimme unz\u00e4hligen Dokumentationen, Filmen und Geschichten Vertrauen und W\u00e4rme verlieh &ndash; das ist das bleibende Bild der sexuellen Sieben mit Sechserfl\u00fcgel: Neugier, die sich nicht verzettelt, sondern in best\u00e4ndige, verl\u00e4ssliche Kunst m\u00fcndet.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 \u2013 Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-miley-cyrus", label:"Portr\xe4t: Miley Cyrus (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portr\xe4t: Thomas Gottschalk (SX7w6)"},
       ])}
     </div>
   `);
@@ -81056,6 +81126,7 @@ function render() {
     "beruehmte-konrad-adenauer": konradAdenauerPortraitPage,
     "beruehmte-edgar-allan-poe": edgarAllanPoePortraitPage,
     "beruehmte-johnny-depp": johnnyDeppPortraitPage,
+    "beruehmte-morgan-freeman": morganFreemanPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,

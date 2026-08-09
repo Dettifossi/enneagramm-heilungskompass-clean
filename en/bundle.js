@@ -521,6 +521,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Miley Cyrus – Sexual Type 7",
     teaser:"SX7w6 · born 1992 in Franklin, Tennessee. Singer, songwriter, actress. Child star as “Hannah Montana”, later reinventions from “Wrecking Ball” to “Flowers”. The chimpanzee with Six-wing: transformation as a way of life, loyalty to herself as the thread running through every shedding of skin.",
     tags:["Musik","Film"]},
+  { route:"beruehmte-morgan-freeman", name:"Morgan Freeman", added:"2026-08-09", subtyp:"SX7w6",
+    heading:"Morgan Freeman – Sexual Type 7",
+    teaser:"SX7w6 · born 1937. Actor, director, narrator. The Shawshank Redemption, Seven, Invictus. The chimpanzee with a Six-wing: curiosity and versatility, carried by decades of reliability and Hollywood's most trusted voice.",
+    tags:["Film"], gender:"m"},
   { route:"beruehmte-ina-mueller", name:"Ina Müller", subtyp:"SX7w8",
     heading:"Ina Müller – Sexual Type 7",
     teaser:"SX7w8 · born 1965. Singer, musical cabaret artist, TV presenter (Inas Nacht). The chimpanzee with Eight-wing: zestful, direct, fearless – and always close to people. Animal correspondence: Chimpanzee.",
@@ -17526,6 +17530,71 @@ function johnnyDeppPortraitPage() {
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function morganFreemanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-morgan-freeman-portrait.jpg" alt="Chimpanzee" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Morgan Freeman</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">American actor, born 1937 &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee With the Voice of Providence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the sexual Seven &ndash; playful, curious, socially highly intelligent, always on the lookout for the next exciting experience that draws the group under its spell. It doesn't captivate through restraint but through sheer presence and magnetism &ndash; a creature that sweeps others along without ever having to push itself into the foreground.</p>
+          <p class="vb-intro">Morgan Freeman was born in 1937 in Memphis, Tennessee, and grew up between rural Mississippi and Chicago, in an era of deep racial segregation in the American South. He discovered acting as a child through a school play and made his first nationwide radio appearance at age 12. After four years in the US Air Force as a radar technician, he finally decided against a military career and for art &ndash; a leap into the unknown that would only pay off after decades of hard, often unsuccessful work as an off-Broadway actor and children's TV performer. His real breakthrough came only at age 50, with the film "Street Smart" (1987) &ndash; a late but lasting flowering.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Seven: Intensity Through Variety</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Seven (SX7)</strong> seeks intensity not in calm overview but in passionate encounter, in the next fascinating project, in ever-new roles and experiences. Freeman's filmography is marked by remarkable range: the wise prison inmate Red in "The Shawshank Redemption," God himself in "Bruce Almighty," the butler-turned-secret-agent figure in "The Dark Knight," Nelson Mandela in "Invictus" &ndash; an actor who never let himself be pinned to a single genre or a single character type.</p>
+          <p class="vb-intro">Freeman lived this versatility outside the film world too: he owns a jazz club in his adopted hometown of Clarksdale, Mississippi, is an avid amateur pilot licensed for multi-engine aircraft and jets, and produced "Through the Wormhole," a popular-science television series about the great mysteries of the universe. This is exactly typical of the sexual Seven: the world is too big and too exciting to limit oneself to just one passion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Reliability as the Foundation of Joy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the pure Seven a grounding reliability &ndash; the appetite for the new is not lived out chaotically but embedded in loyal, long-term collaboration. Freeman's work with director Clint Eastwood (including "Million Dollar Baby"), with director Rob Reiner, or in recurring roles shows a faithfulness to working relationships that would be atypical for the pure Seven.</p>
+          <p class="vb-intro">This wing shows most clearly in his voice: Freeman's warm, calm, deeply trust-inspiring baritone became one of Hollywood's most sought-after narrator voices &ndash; from documentaries to "March of the Penguins." A voice that conveys security even before the content of what is being said is fully understood &ndash; the reliability of the Six-wing, made audible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A Late but Lasting Rise</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Freeman won the 2005 Academy Award for Best Supporting Actor for "Million Dollar Baby" &ndash; after more than 60 film roles and decades of waiting for the recognition he deserved. For the sexual Seven, this waiting is no contradiction: the appetite for experience carries it through setbacks, as long as a new, promising project always beckons on the horizon.</p>
+          <p class="vb-intro">His social engagement is also notable: Freeman spoke out publicly against the continuation of racist traditions, including against the ongoing format of "Black History Month," because he believed racial boundaries shouldn't be thought of as a category in the first place. A stance typical of the Seven with a Six-wing: the desire to overcome boundaries, paired with a clear, principled position on how that can succeed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX7w6 is the ability to combine <strong>curiosity and variety with reliability</strong> &ndash; a life full of the most diverse roles and interests, yet still carried by durable, long-term relationships. Freeman's career, which only came into full bloom late, shows how this mix of curiosity and endurance can carry someone through decades.</p>
+          <p class="vb-intro">The shadow showed itself in his private life: in 2018 he was confronted by several women with allegations of inappropriate behavior, which considerably damaged his reputation, even though no criminal consequences followed. He also survived a serious car accident in 2008 that left permanent nerve damage in his left hand. The flip side of the sexual Seven with a Six-wing: the appetite for intense, often boundary-crossing encounter can, if left unreflected, lead to behavior that harms others &ndash; a point that, for all appreciation of his artistic work, should not be glossed over.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Chimpanzee Who Narrated the World</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Morgan Freeman is today considered one of the most trusted voices and presences in American cinema &ndash; an actor whose career only truly began after decades of hard work and who has since felt at home in an almost endless range of roles. His path shows that the Seven's curiosity and the Six-wing's endurance can together generate a long breath that carries far beyond quick success.</p>
+          <p class="vb-intro">The chimpanzee whose voice lent trust and warmth to countless documentaries, films, and stories &ndash; that is the lasting image of the sexual Seven with a Six-wing: curiosity that does not scatter itself but flows into steady, reliable art.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"beruehmte-miley-cyrus", label:"Portrait: Miley Cyrus (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
       ])}
     </div>
   `);
@@ -47005,6 +47074,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-konrad-adenauer": konradAdenauerPortraitPage,
       "beruehmte-edgar-allan-poe": edgarAllanPoePortraitPage,
       "beruehmte-johnny-depp": johnnyDeppPortraitPage,
+      "beruehmte-morgan-freeman": morganFreemanPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,
