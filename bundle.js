@@ -31324,6 +31324,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jamie Lee Curtis \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 geb. 1958. Schauspielerin, Oscar-Gewinnerin 2023, Aktivistin. 22 Jahre Sucht, 25 Jahre N\u00fcchternheit \u2013 die Schwarze Mamba, die keine Heuchelei ertr\u00e4gt und f\u00fcr andere ebenso brennt wie f\u00fcr sich selbst. Tierentsprechung: Schwarze Mamba.",
     tags:["Schauspiel"] , gender:"f"},
+  { route:"beruehmte-udo-lindenberg", name:"Udo Lindenberg", added:"2026-08-10", subtyp:"SX1w9",
+    heading:"Udo Lindenberg \u2013 Sexueller Typ 1",
+    teaser:"SX1w9 \u00b7 geb. 1946. Panik-Rocker, Maler, Dichter. \u201eSonderzug nach Pankow\u201d als offene Kampfansage an Honecker, Hut und Sonnenbrille als R\u00fcstung, Jahrzehnte im Hotel Atlantic \u2013 kompromisslose Haltung, die niemals verhandelbar war. Tierentsprechung: Schwarze Mamba.",
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-leonardo-dicaprio", name:"Leonardo DiCaprio", subtyp:"SX1w2",
     heading:"Leonardo DiCaprio \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 geb. 1974. Schauspieler, Klimaaktivist. F\u00fcnfmal Oscar-nominiert, sechsmal angetreten \u2013 und im Moment des Triumphes sprach er \u00fcber den Klimawandel, nicht \u00fcber sich. Die Schwarze Mamba brennt nicht f\u00fcr Applaus. Tierentsprechung: Schwarze Mamba.",
@@ -52405,6 +52409,72 @@ function klausKinskiPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx1", label:"SX1 \u2013 Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portr\u00e4t: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Portr\u00e4t: Jamie Lee Curtis (SX1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function udoLindenbergPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-udo-lindenberg-portrait.jpg" alt="Udo Lindenberg" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Udo Lindenberg</p>
+        <p class="krim-portrait-typ">SX1w9 \u00b7 Sexueller Typ 1 mit Neunerfl\u00fcgel \u00b7 Kontratyp der Eins</p>
+        <p class="krim-portrait-subtitle">Musiker, Maler, Dichter, geb. 1946 \u2013 Panikorchester, "Sonderzug nach Pankow" \u2013 Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> tr\u00e4gt ihre Warnfarbe nicht offen zur Schau \u2013 sie wirkt von au\u00dfen fast unscheinbar, bis sie sich bedroht f\u00fchlt. Dann schl\u00e4gt sie mit einer Pr\u00e4zision und Geschwindigkeit zu, der nichts entkommt. Wer Udo Lindenberg je unter Hut, Sonnenbrille und Mantel hervorblitzen sah, kennt dieses Prinzip: eine R\u00fcstung, hinter der sich pure Wachheit verbirgt.</p>
+          <p class="vb-intro">Udo Lindenberg, geboren 1946 in Gronau, gilt als Erfinder des deutschsprachigen Rock \u2013 ein Genre, das es vor ihm schlicht nicht gab, weil niemand glaubte, man k\u00f6nne auf Deutsch so l\u00e4ssig, so respektlos, so poetisch singen. Mit seinem Panikorchester schrieb er sich seit den fr\u00fchen Siebzigern in ein Land, das seine eigene Sprache im Rock noch nicht ernst nahm \u2013 und blieb dabei, mit derselben Konsequenz, \u00fcber f\u00fcnfzig Jahre.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Inbrunst und der Kontratyp</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> ist der <strong>Kontratyp der Eins</strong> \u2013 der Subtyp, der am wenigsten nach Moralapostel aussieht und es doch am kompromisslosesten ist. Naranjo nannte diesen Subtyp <em>Zeal</em> \u2013 Inbrunst: ein brennendes Verlangen, das Echte vom Falschen zu trennen, ungefilterter und direkter als bei jedem anderen Einser-Subtyp. Wo die selbsterhaltende Eins an sich selbst feilt und die soziale Eins die Gemeinschaft belehrt, tr\u00e4gt die sexuelle Eins ihre Wahrheit nach au\u00dfen \u2013 laut, k\u00f6rperlich, un\u00fcberh\u00f6rbar.</p>
+          <p class="vb-intro">1983 schrieb Lindenberg mit "Sonderzug nach Pankow" einen Song, der genau das vorf\u00fchrte: eine direkte, respektlose, \u00f6ffentliche Kampfansage an Erich Honecker, verpackt in Swing und Spott, mit der Forderung, endlich in der DDR spielen zu d\u00fcrfen. Kein Umweg \u00fcber Diplomatie, kein vorsichtiges Lavieren \u2013 die sexuelle Eins sagt, was sie f\u00fcr richtig h\u00e4lt, direkt an die Adresse der Macht, mit einem Risiko, das die meisten K\u00fcnstler seiner Zeit gescheut h\u00e4tten.</p>
+          <p class="vb-intro">Auch sein Markenzeichen \u2013 die immer gleiche Kombination aus Hut, Sonnenbrille und Mantel \u2013 ist Ausdruck dieser Inbrunst: eine selbst gew\u00e4hlte, unverr\u00fcckbare Form, an der es nichts zu verhandeln gibt. Wer Lindenberg trifft, trifft immer dasselbe kompromisslose Bild \u2013 die sexuelle Eins verweigert sich der Anpassung, auch optisch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\u00fcgel: Beharrlichkeit hinter dem Feuer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\u00fcgel (w9)</strong> f\u00fcgt der Intensit\u00e4t der sexuellen Eins eine eigent\u00fcmliche Ausdauer hinzu \u2013 ein Beharren, das nicht aus Gleichg\u00fcltigkeit entsteht, sondern aus der F\u00e4higkeit, lange bei einer Sache zu bleiben, auch wenn sie gerade niemanden mehr interessiert. Lindenberg lebt seit Jahrzehnten in derselben Suite im Hotel Atlantic in Hamburg \u2013 eine Konstante, die in einem K\u00fcnstlerleben voller Wandel fast schon absurd wirkt und doch genau die Neuner-Schwerkraft zeigt, die das Feuer der Eins an seinem Ort h\u00e4lt.</p>
+          <p class="vb-intro">Diese Beharrlichkeit trug ihn auch durch die stillen Jahre, in denen sein Stern zu sinken schien, bis das Comeback-Album "Stark wie zwei" (2008) und die Ballade "Cello" ihn einer ganzen neuen Generation vorstellten. Kein Zufall, sondern die Frucht jahrzehntelangen Durchhaltens ohne Kompromiss an der eigenen Form. Auch als Maler seiner "Lik\u00f6relle" \u2013 Aquarelle, denen er Alkohol beimischt \u2013 zeigt sich dieselbe geduldige, fast meditative Konstanz neben dem lauten B\u00fchnenfeuer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn als moralisches Urteil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins hei\u00dft <strong>Zorn</strong> \u2013 und bei der SX1w9 entl\u00e4dt er sich nicht in privater Verbitterung, sondern in \u00f6ffentlicher, oft politischer Stellungnahme. Lindenberg positionierte sich Jahrzehnte lang unmissverst\u00e4ndlich gegen Atomwaffen, gegen Rechtsextremismus, gegen Krieg \u2013 nicht als gelegentliches Statement, sondern als durchg\u00e4ngige Haltung, die er nie relativierte, auch nicht, als sie ihm in der DDR ein Auftrittsverbot und in der Bundesrepublik gelegentlichen Spott einbrachte.</p>
+          <p class="vb-intro">Dieser Zorn ist kein blinder Ausbruch, sondern ein moralisches Urteil mit klarer Adresse: Ungerechtigkeit, Heuchelei und Gewalt sind die Reizpunkte, an denen die Mamba zubei\u00dft. Die Konsequenz, mit der Lindenberg an seinen Positionen festhielt \u2013 auch wenn es unbequem wurde \u2013, ist die reinste Form dieser Leidenschaft: kompromisslos, aber nie beliebig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Faszination und Polarisierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wie bei der sexuellen Eins zu erwarten, war Lindenbergs Wirkung nie halbherzig. F\u00fcr die einen war er \u00fcber Jahrzehnte der schrullige Au\u00dfenseiter am Rand des Musikgesch\u00e4fts, f\u00fcr andere von Anfang an eine moralische und musikalische Instanz. Gleichg\u00fcltigkeit war bei ihm nie eine Option \u2013 man liebte den "Panikpr\u00e4sidenten" oder konnte mit ihm nichts anfangen, dazwischen gab es wenig.</p>
+          <p class="vb-intro">Genau diese Unbeugsamkeit, gepaart mit der leisen Beharrlichkeit des Neunerfl\u00fcgels, machte ihn am Ende zur festen Institution \u2013 ein K\u00fcnstler, der nie den Kurs wechselte, um zu gefallen, und der genau dadurch, \u00fcber Generationen hinweg, immer wieder neu gefunden wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Haltung als Kunst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Udo Lindenberg hinterl\u00e4sst, ist mehr als eine Diskografie \u2013 es ist der Beweis, dass eine einmal gefundene, kompromisslose Haltung ein ganzes K\u00fcnstlerleben tragen kann, ohne zu erstarren. "Sonderzug nach Pankow" bleibt ein Lehrst\u00fcck daf\u00fcr, wie Kunst Macht direkt und ohne Angst adressieren kann. Sein Markenzeichen aus Hut und Sonnenbrille ist zum kollektiven Bild einer ganzen Epoche deutscher Popkultur geworden.</p>
+          <p class="vb-intro">Die sexuelle Eins kann inspirieren, indem sie keine R\u00fccksicht auf Anpassung nimmt \u2013 Lindenberg hat genau das getan, \u00fcber f\u00fcnfzig Jahre lang, in Musik, Malerei und politischer Stimme. Das ist das Geschenk der Schwarzen Mamba: eine Intensit\u00e4t, die sich nie verstellt hat und gerade deshalb bis heute tr\u00e4gt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 \u2013 Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-klaus-kinski", label:"Portr\u00e4t: Klaus Kinski (SX1w9)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portr\u00e4t: Jamie Lee Curtis (SX1w2)"},
       ])}
     </div>
@@ -81808,6 +81878,7 @@ function render() {
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-klaus-kinski": klausKinskiPortraitPage,
+      "beruehmte-udo-lindenberg": udoLindenbergPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,

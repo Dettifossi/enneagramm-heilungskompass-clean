@@ -766,6 +766,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jamie Lee Curtis – Sexual Type 1",
     teaser:"SX1w2 · born 1958. Actress, Oscar winner 2023, activist. 22 years of addiction, 25 years of sobriety - the Black Mamba who cannot tolerate hypocrisy and burns for others as well as for herself. Animal correspondence: Black Mamba.",
     tags:["Film/Theater"] , gender:"f"},
+  { route:"beruehmte-udo-lindenberg", name:"Udo Lindenberg", added:"2026-08-10", subtyp:"SX1w9",
+    heading:"Udo Lindenberg – Sexual Type 1",
+    teaser:"SX1w9 · born 1946. Panic rocker, painter, poet. \"Sonderzug nach Pankow\" as an open challenge to Honecker, hat and sunglasses as armor, decades at the Hotel Atlantic – an uncompromising stance that was never negotiable. Animal correspondence: Black Mamba.",
+    tags:["Music"] , gender:"m"},
   { route:"beruehmte-juergen-klopp", name:"Jürgen Klopp", added:"2026-07-20", subtyp:"SO1w2",
     heading:"Jürgen Klopp – Social Type 1",
     teaser:"SO1w2 · born 1967. Coach, champion, motivator. BVB, Liverpool, Red Bull – head coach of the German national team since August 2026. The goose that believes its formation before the formation believes itself. Animal correspondence: Goose.",
@@ -17108,6 +17112,72 @@ function klausKinskiPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function udoLindenbergPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-udo-lindenberg-portrait.jpg" alt="Udo Lindenberg" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Udo Lindenberg</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with Nine-Wing &middot; Contratype of one</p>
+        <p class="krim-portrait-subtitle">Musician, painter, poet, born 1946 – Panikorchester, "Sonderzug nach Pankow" – Animal equivalent: Black Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Black Mamba does not wear its warning color openly – from a distance it looks almost unremarkable, until it feels threatened. Then it strikes with a precision and speed that nothing can escape. Anyone who has ever glimpsed Udo Lindenberg flash out from under his hat, sunglasses, and coat knows this principle: armor behind which pure alertness hides.</p>
+          <p class="vb-intro">Udo Lindenberg, born in 1946 in Gronau, is considered the inventor of German-language rock – a genre that simply did not exist before him, because no one believed you could sing German with such nonchalance, such irreverence, such poetry. With his Panikorchester, he wrote his way, from the early seventies onward, into a country that did not yet take its own language seriously in rock – and stayed the course, with the same consistency, for more than fifty years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual One: Fervor and the Countertype</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The sexual One (SX1) is the countertype of the One – the subtype that looks least like a moral crusader and is yet the most uncompromising of all. Naranjo called this subtype Zeal: a burning desire to separate the genuine from the false, more unfiltered and direct than in any other One subtype. Where the self-preservation One works on itself and the social One instructs the community, the sexual One carries its truth outward – loud, physical, impossible to ignore.</p>
+          <p class="vb-intro">In 1983, Lindenberg wrote "Sonderzug nach Pankow" ("Special Train to Pankow"), a song that demonstrated exactly this: a direct, irreverent, public challenge to Erich Honecker, wrapped in swing and mockery, demanding he finally be allowed to perform in East Germany. No detour through diplomacy, no cautious maneuvering – the sexual One says what it believes is right, straight to the address of power, with a risk that most artists of his time would have avoided.</p>
+          <p class="vb-intro">His trademark – the ever-identical combination of hat, sunglasses, and coat – is also an expression of this fervor: a self-chosen, unshakeable form with nothing left to negotiate. Whoever meets Lindenberg meets the same uncompromising image every time – the sexual One refuses to conform, even visually.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine Wing: Persistence Behind the Fire</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Nine wing (w9) adds a peculiar endurance to the intensity of the sexual One – a persistence that arises not from indifference, but from the ability to stay with something for a long time, even when no one else is paying attention anymore. Lindenberg has lived for decades in the same suite at the Hotel Atlantic in Hamburg – a constant that seems almost absurd in an artist's life full of change, and yet shows exactly the Nine-wing gravity that holds the One's fire in place.</p>
+          <p class="vb-intro">This persistence also carried him through the quiet years, when his star seemed to be fading, until the comeback album "Stark wie zwei" (2008) and the ballad "Cello" introduced him to an entirely new generation. No coincidence, but the fruit of decades of holding out without compromising his own form. As a painter of his "Likörelle" – watercolors mixed with alcohol – the same patient, almost meditative constancy shows itself alongside the loud fire of the stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Wrath as Moral Judgment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the One is called wrath – and in the SX1w9 it discharges not as private bitterness, but as public, often political statement. For decades, Lindenberg positioned himself unmistakably against nuclear weapons, against right-wing extremism, against war – not as an occasional remark, but as a consistent stance he never softened, even when it earned him a performance ban in East Germany and occasional ridicule in West Germany.</p>
+          <p class="vb-intro">This wrath is no blind outburst but a moral judgment with a clear address: injustice, hypocrisy, and violence are the triggers at which the mamba strikes. The consistency with which Lindenberg held to his positions – even when it became uncomfortable – is the purest form of this passion: uncompromising, but never arbitrary.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Fascination and Polarization</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As one would expect from the sexual One, Lindenberg's impact was never half-hearted. For some, he was for decades the eccentric outsider at the fringe of the music business; for others, he was from the start a moral and musical authority. Indifference was never an option with him – people either loved the "Panikpräsident" or could make nothing of him, with little in between.</p>
+          <p class="vb-intro">It was precisely this unbending quality, paired with the quiet persistence of the Nine wing, that eventually made him a lasting institution – an artist who never changed course to please anyone, and who was, precisely because of that, rediscovered again and again across generations.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Stance as Art</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Udo Lindenberg leaves behind is more than a discography – it is proof that a once-found, uncompromising stance can carry an entire artist's life without hardening into rigidity. "Sonderzug nach Pankow" remains a lesson in how art can address power directly and without fear. His trademark of hat and sunglasses has become the collective image of an entire era of German pop culture.</p>
+          <p class="vb-intro">The sexual One can inspire by refusing to conform – Lindenberg did exactly that, for more than fifty years, in music, painting, and political voice. That is the gift of the Black Mamba: an intensity that never pretended to be anything else, and precisely because of that, still carries today.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
       ])}
     </div>
@@ -47759,6 +47829,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-karoline-herfurth": karolineHerfurthPortraitPage,
       "beruehmte-kevin-costner": kevinCostnerPortraitPage,
       "beruehmte-klaus-kinski": klausKinskiPortraitPage,
+      "beruehmte-udo-lindenberg": udoLindenbergPortraitPage,
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
       "beruehmte-brigitte-bardot": brigitteBardotPortraitPage,
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
