@@ -49,6 +49,9 @@ let fbSignOut = null;
 
 
 const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/";
+// R2-Migration (schrittweise, Kategorie für Kategorie): bereits umgezogene Inhalte
+// nutzen R2_CDN statt CDN. Fallback bleibt Cloudinary, bis alle Kategorien migriert sind.
+const R2_CDN = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/";
 const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "");
 const app = document.querySelector("#app");
 
@@ -9945,7 +9948,7 @@ function tierlexikonPage() {
       >
         <div style="position:relative;width:80px;height:80px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 3px ${col};${hasData ? "" : "filter:grayscale(60%);"}">
           <img
-            src="${CDN}assets/${s.code.toLowerCase()}-tier.jpg"
+            src="${R2_CDN}assets/${s.code.toLowerCase()}-tier.jpg"
             alt="${s.tier}"
             style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;"
             loading="lazy"
@@ -10146,7 +10149,7 @@ function tierlexikonDetailPage(codeRaw) {
       ">
         <div style="position:relative;width:100px;height:100px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 3px ${col};">
           <img
-            src="${CDN}assets/${code.toLowerCase()}-tier.jpg"
+            src="${R2_CDN}assets/${code.toLowerCase()}-tier.jpg"
             alt="${data.tier}"
             style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;"
           />
