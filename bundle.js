@@ -39398,7 +39398,7 @@ function _portraitTypPage(typ) {
   const bilder = Array.from({length: 8}, (_, i) => {
     const nr = String(typ.start + i).padStart(3, "0");
     return `<div class="psycho-img-wrap" style="margin-bottom:1.5rem;">
-      <img src="https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/portraits-typen/Portraits_der_9_Typen_und_27_Subtypen.${nr}.png"
+      <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/portraits-typen/Portraits_der_9_Typen_und_27_Subtypen.${nr}.png"
            alt="Portrait Typ ${typ.nr} \u2013 Seite ${i+1}" class="psycho-img" loading="lazy"/>
     </div>`;
   }).join("");
@@ -70413,39 +70413,39 @@ function dynamikBewusstseinszustandesPage() {
         <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem;">
           <div style="text-align:center;">
             <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 1</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042033/kompass/assets/bewusstseinsgrade-typ-1.jpg" alt="Bewusstseinsgrade Typ 1" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/bewusstseinsgrade-typ-1.jpg" alt="Bewusstseinsgrade Typ 1" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
           </div>
           <div style="text-align:center;">
             <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 2</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042035/kompass/assets/bewusstseinsgrade-typ-2.jpg" alt="Bewusstseinsgrade Typ 2" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/bewusstseinsgrade-typ-2.jpg" alt="Bewusstseinsgrade Typ 2" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
           </div>
           <div style="text-align:center;">
             <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 3</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042037/kompass/assets/bewusstseinsgrade-typ-3.jpg" alt="Bewusstseinsgrade Typ 3" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/bewusstseinsgrade-typ-3.jpg" alt="Bewusstseinsgrade Typ 3" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
           </div>
           <div style="text-align:center;">
             <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 4</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042039/kompass/assets/bewusstseinsgrade-typ-4.jpg" alt="Bewusstseinsgrade Typ 4" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/bewusstseinsgrade-typ-4.jpg" alt="Bewusstseinsgrade Typ 4" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
           </div>
           <div style="text-align:center;">
             <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 5</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042041/kompass/assets/bewusstseinsgrade-typ-5.jpg" alt="Bewusstseinsgrade Typ 5" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/bewusstseinsgrade-typ-5.jpg" alt="Bewusstseinsgrade Typ 5" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
           </div>
           <div style="text-align:center;">
             <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 6</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042043/kompass/assets/bewusstseinsgrade-typ-6.jpg" alt="Bewusstseinsgrade Typ 6" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/bewusstseinsgrade-typ-6.jpg" alt="Bewusstseinsgrade Typ 6" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
           </div>
           <div style="text-align:center;">
             <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 7</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042045/kompass/assets/bewusstseinsgrade-typ-7.jpg" alt="Bewusstseinsgrade Typ 7" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/bewusstseinsgrade-typ-7.jpg" alt="Bewusstseinsgrade Typ 7" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
           </div>
           <div style="text-align:center;">
             <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 8</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042047/kompass/assets/bewusstseinsgrade-typ-8.jpg" alt="Bewusstseinsgrade Typ 8" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/bewusstseinsgrade-typ-8.jpg" alt="Bewusstseinsgrade Typ 8" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
           </div>
           <div style="text-align:center;">
             <p style="font-size:.85rem;font-weight:700;color:var(--ink);margin:0 0 .4rem;">Typ 9</p>
-            <img src="https://res.cloudinary.com/ymooybdl/image/upload/v1784042049/kompass/assets/bewusstseinsgrade-typ-9.jpg" alt="Bewusstseinsgrade Typ 9" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/bewusstseinsgrade-typ-9.jpg" alt="Bewusstseinsgrade Typ 9" style="width:100%;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.15);" loading="lazy" />
           </div>
         </div>
       </div>
@@ -74423,7 +74423,7 @@ function sucheNachLiebePage() {
 }
 
 function humorDer9TypenPage() {
-  const HUMOR_IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783720175/kompass/stille-sounds/humor-elefanten-schaubild.jpg";
+  const HUMOR_IMG = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/stille-sounds/humor-elefanten-schaubild.jpg";
   const typen = [
     { nr:1, col:"#5f5f5f", titel:"Zorn: Der satirische Humor",
       art:"Satire wird oft genutzt, um Missst\u00e4nde anzuprangern und auf scheinbar \u201efalsches\u201c Verhalten hinzuweisen. Satiriker f\xfchlen sich h\xe4ufig von einem Sinn f\xfcr das \u201eRichtige\u201c oder \u201eGerechte\u201c angetrieben.",
@@ -75130,7 +75130,7 @@ function davidRathmerGrundlagenPage() {
 }
 
 function solfeggioFrequenzenPage() {
-  const IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783725116/kompass/stille-sounds/solfeggio-kreis.jpg";
+  const IMG = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/stille-sounds/solfeggio-kreis.jpg";
 
   const frequenzen = [
     { hz: 174, typ: 7, titel: "Schutz und Sicherheit",
@@ -75230,7 +75230,7 @@ function solfeggioFrequenzenPage() {
 }
 
 function zehnAnwendungenPage() {
-  const IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783721122/kompass/stille-sounds/zehn-anwendungen-schaubild.png";
+  const IMG = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/stille-sounds/zehn-anwendungen-schaubild.png";
   const anwendungen = [
     { nr:1, titel:"Pers\xf6nliches Wachstum",
       text:"Das Enneagramm als Selbsterkenntnismodell beginnt mit Selbstmanagement. Wir lernen zu erkennen, wie selektiv wir durch die Brille unseres Typs wahrnehmen und wie stark unsere Handlungsalternativen durch automatische Reaktionen und Muster eingeschr\xe4nkt werden. Wer das versteht, gewinnt dadurch einen enormen Effektivit\xe4tsgewinn &mdash; weil er nach und nach immer besser lernt, ganzheitlich und urteilsfrei wahrzunehmen: 360 Grad der Realit\xe4t statt nur einem Neuntel davon." },
@@ -75294,7 +75294,7 @@ function zehnAnwendungenPage() {
 }
 
 function haikuDer9TypenPage() {
-  const HAIKU_IMG = "https://res.cloudinary.com/ymooybdl/image/upload/v1783719838/kompass/stille-sounds/haiku-japanische-frau.jpg";
+  const HAIKU_IMG = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/stille-sounds/haiku-japanische-frau.jpg";
   const haiku = [
     { nr:1, col:"#5f5f5f", typ:"Der Perfektionist", zeilen:["Ordnung in allem,","doch das Leben ist chaotisch.","Finde Frieden dort."] },
     { nr:2, col:"#7a2fa8", typ:"Der Helfer",        zeilen:["Du gibst und gibst viel,","doch vergiss nicht: Auch du z\xe4hlst.","Liebe dich zuerst."] },
@@ -79374,7 +79374,7 @@ function _stilleInit() {
           title: KLANG_LABEL[id] || id,
           artist: "Enneagramm-Heilungskompass",
           album: "Stille & Klang",
-          artwork: [{ src: "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/assets/grundformel-rathmer-enneagramm.jpg", sizes: "512x512", type: "image/jpeg" }]
+          artwork: [{ src: "./assets/grundformel-rathmer-enneagramm.jpg", sizes: "512x512", type: "image/jpeg" }]
         });
         navigator.mediaSession.playbackState = "playing";
         navigator.mediaSession.setActionHandler("pause", () => { audio.pause(); navigator.mediaSession.playbackState = "paused"; });
@@ -82020,7 +82020,7 @@ function _solfeggioPlay(hz, btn) {
         navigator.mediaSession.metadata = new MediaMetadata({
           title: hz + " Hz Solfeggio-Frequenz",
           artist: "Enneagramm-Heilungskompass",
-          artwork: [{ src: "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/assets/grundformel-rathmer-enneagramm.jpg", sizes:"512x512", type:"image/jpeg" }]
+          artwork: [{ src: "./assets/grundformel-rathmer-enneagramm.jpg", sizes:"512x512", type:"image/jpeg" }]
         });
         navigator.mediaSession.playbackState = "playing";
         navigator.mediaSession.setActionHandler("pause", () => { audio.pause(); navigator.mediaSession.playbackState = "paused"; });
