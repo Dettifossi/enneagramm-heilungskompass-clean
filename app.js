@@ -3959,18 +3959,6 @@ function praxistippsHeilpraktikerPage() {
       <h1>Praxistipps vom Heilpraktiker</h1>
       <p class="lead-small">Konkrete Impulse aus der heilpraktischen Praxis von Detlef Rathmer – körperorientierte Übungen ebenso wie Tee-Empfehlungen, kleine Rituale und Alltagshilfen. Diese Rubrik wird laufend um neue Themen erweitert.</p>
 
-      <div style="margin:1.5rem 0;padding:1.1rem 1.3rem;background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:10px;">
-        <p style="font-size:.82rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;margin:0 0 .3rem;">Wichtiger Hinweis &amp; persönliche Anmerkung</p>
-        <p style="font-size:.82rem;color:var(--muted);margin:0 0 .7rem;">von Ihrem Heilpraktiker (über 30 Jahre Praxiserfahrung)</p>
-        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;">Liebe Nutzerinnen und Nutzer, die Tipps in dieser Rubrik sind aus meiner jahrzehntelangen Praxis entstanden. Sie eignen sich hervorragend zur schnellen Selbsthilfe im Alltag, um kleinere Akutbeschwerden sanft zu lindern und den Körper ganzheitlich zu unterstützen – besonders dann, wenn gerade kein Therapeut greifbar ist. Bitte beachten Sie jedoch:</p>
-        <ol style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;padding-left:1.2rem;">
-          <li><strong>Rechtzeitige Abklärung:</strong> Halten Beschwerden länger an, kehren sie wieder oder sind sie schwerwiegender, gilt: lieber einmal zu früh als zu spät. Suchen Sie bei anhaltenden oder unklaren Symptomen bitte zeitnah einen Arzt, Psychotherapeuten oder Heilpraktiker auf.</li>
-          <li><strong>Linderung vs. Heilung:</strong> Alltags- und Selbsthilfetipps können wunderbar unterstützen, ersetzen bei tiefer sitzenden oder chronischen Leiden aber keine Ursachenbehandlung.</li>
-          <li><strong>Die Königsdisziplin:</strong> Aus meiner langjährigen Erfahrung bleibt die klassische homöopathische Konstitutionstherapie die Königsdisziplin der ganzheitlichen Heilkunde. Als Informationstherapie setzt sie an den tiefsten Ebenen des Organismus an und regt die Selbstheilungskräfte grundlegend an.</li>
-        </ol>
-        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">Nutzen Sie diese Praxistipps gerne als wertvolle Begleiter im Alltag – und wenden Sie sich bei chronischen oder komplexen Themen vertrauensvoll an eine fundierte homöopathische Konstitutionsbehandlung.</p>
-      </div>
-
       <div class="tool-grid" style="margin-top:1.5rem;">
         ${TIPPS.map(t => `
           <button class="tool-card tool-card--link" data-route="praxistipps-heilpraktiker/${t.slug}">
@@ -3980,6 +3968,18 @@ function praxistippsHeilpraktikerPage() {
             <span class="tool-card__arrow">Ansehen →</span>
           </button>
         `).join("")}
+      </div>
+
+      <div style="margin:2rem 0 0;padding:1.1rem 1.3rem;background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:10px;">
+        <p style="font-size:.82rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;margin:0 0 .3rem;">Wichtiger Hinweis &amp; persönliche Anmerkung</p>
+        <p style="font-size:.82rem;color:var(--muted);margin:0 0 .7rem;">von Ihrem Heilpraktiker (über 30 Jahre Praxiserfahrung)</p>
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;">Liebe Nutzerinnen und Nutzer, die Tipps in dieser Rubrik sind aus meiner jahrzehntelangen Praxis entstanden. Sie eignen sich hervorragend zur schnellen Selbsthilfe im Alltag, um kleinere Akutbeschwerden sanft zu lindern und den Körper ganzheitlich zu unterstützen – besonders dann, wenn gerade kein Therapeut greifbar ist. Bitte beachten Sie jedoch:</p>
+        <ol style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;padding-left:1.2rem;">
+          <li><strong>Rechtzeitige Abklärung:</strong> Halten Beschwerden länger an, kehren sie wieder oder sind sie schwerwiegender, gilt: lieber einmal zu früh als zu spät. Suchen Sie bei anhaltenden oder unklaren Symptomen bitte zeitnah einen Arzt, Psychotherapeuten oder Heilpraktiker auf.</li>
+          <li><strong>Linderung vs. Heilung:</strong> Alltags- und Selbsthilfetipps können wunderbar unterstützen, ersetzen bei tiefer sitzenden oder chronischen Leiden aber keine Ursachenbehandlung.</li>
+          <li><strong>Die Königsdisziplin:</strong> Aus meiner langjährigen Erfahrung bleibt die klassische homöopathische Konstitutionstherapie die Königsdisziplin der ganzheitlichen Heilkunde. Als Informationstherapie setzt sie an den tiefsten Ebenen des Organismus an und regt die Selbstheilungskräfte grundlegend an.</li>
+        </ol>
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">Nutzen Sie diese Praxistipps gerne als wertvolle Begleiter im Alltag – und wenden Sie sich bei chronischen oder komplexen Themen vertrauensvoll an einen versierten Therapeuten/Homöopathen zwecks fundierter homöopathischer Konstitutionsbehandlung.</p>
       </div>
     </section>
   `);
