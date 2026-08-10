@@ -43647,7 +43647,7 @@ function beruhmtePhilosophenPage() {
       <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0 1.75rem;">Wichtiger Hinweis: Die Subtypen (Untertypen) &ndash; selbsterhaltend, sozial, sexuell &ndash; sind drei Varianten innerhalb jedes Typs, die das Grundmuster feiner differenzieren. „Subtyp" und „Untertyp" bezeichnen dasselbe: die instinktive Grundausrichtung, die die Persönlichkeit noch einmal präziser formt. Bei Typ 6 erscheinen sogar zwei Philosophen &ndash; einer phobisch, einer kontraphobisch &ndash; weil dieser Typ als einziger so deutlich in zwei Richtungen ausschlagen kann.</p>
 
       <img
-        src="./assets/beruhmte-philosophen.jpg"
+        src="./assets/beruhmte-philosophen.jpg?v=2026-08-10-se1fix"
         alt="Berühmte Philosophen im Enneagramm"
         style="width:100%;border-radius:8px;margin:0 0 2rem;"
       />

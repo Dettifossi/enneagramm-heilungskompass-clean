@@ -40415,7 +40415,7 @@ function beruhmtePhilosophenPage() {
       <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0 1.75rem;">Important Note: The subtypes (self-preservation, social, sexual) are three variants within each type that differentiate the core pattern more finely. &bdquo;Subtype&ldquo; and &bdquo;Untertyp&ldquo; designate the same thing: the instinctive primary orientation that shapes the personality once more with greater precision. For Type 6, even two philosophers appear &ndash; one phobic, one counterphobic &ndash; because this type is the only one that splits so clearly into two directions.</p>
 
       <img
-        src="../assets/beruhmte-philosophen.jpg"
+        src="../assets/beruhmte-philosophen.jpg?v=2026-08-10-se1fix"
         alt="Berühmte Philosophen im Enneagramm"
         style="width:100%;border-radius:8px;margin:0 0 2rem;"
       />
