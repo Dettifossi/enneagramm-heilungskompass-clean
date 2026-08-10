@@ -8819,7 +8819,7 @@ function homoeopathieSongsPage() {
       <p class="lead-small"><strong>Enneagramm-Homöopathie</strong> verbindet zwei Ebenen: das Persönlichkeitsmodell des Enneagramms mit der individuellen Arzneimittelwahl in der Homöopathie. Jeder Enneagrammtyp hat bestimmte emotionale Muster, Stressreaktionen und tiefere Grundängste – diese inneren Dynamiken prägen nicht nur die Psyche, sondern oft auch körperliche Beschwerden. Die Songs spiegeln diese seelischen Qualitäten und machen sie hörbar.</p>
 
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}schaubilder/enneagramm-homoeopathie-songs.png"
+        <img src="${R2_CDN}schaubilder/enneagramm-homoeopathie-songs.png"
              alt="Enneagramm-Homöopathie-Songs"
              class="psycho-img" />
       </div>
@@ -8984,7 +8984,7 @@ function portraitsWegbegleiterPage() {
 
   const bilder = BILDER.map(b => `
     <div class="psycho-img-wrap" style="margin-bottom:${b.links ? '1rem' : '2rem'};">
-      <img src="${CDN}portraits-wegbegleiter/Portraits_zweier_Wegbegleiter.${b.nr}"
+      <img src="${R2_CDN}portraits-wegbegleiter/Portraits_zweier_Wegbegleiter.${b.nr}"
            alt="${b.alt}" class="psycho-img" loading="lazy"/>
     </div>
     ${b.links ? `
