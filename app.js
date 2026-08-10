@@ -273,6 +273,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Udo Lindenberg – Sexueller Typ 1",
     teaser:"SX1w9 · geb. 1946. Panik-Rocker, Maler, Dichter. „Sonderzug nach Pankow” als offene Kampfansage an Honecker, Hut und Sonnenbrille als Rüstung, Jahrzehnte im Hotel Atlantic – kompromisslose Haltung, die niemals verhandelbar war. Tierentsprechung: Schwarze Mamba.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-sam-altman", name:"Sam Altman", added:"2026-08-10", subtyp:"SE4w5",
+    heading:"Sam Altman – Selbsterhaltender Typ 4",
+    teaser:"SE4w5 · geb. 1985. CEO von OpenAI, Ex-Präsident von Y Combinator. Stilles, methodisches Ringen um eine Zukunft, die noch niemand gebaut hat – fünf Tage Rauswurf und Rückkehr im November 2023, ohne öffentliches Drama. Tierentsprechung: Taube.",
+    tags:["Wirtschaft","Technologie"] , gender:"m"},
   { route:"beruehmte-leonardo-dicaprio", name:"Leonardo DiCaprio", subtyp:"SX1w2",
     heading:"Leonardo DiCaprio – Sexueller Typ 1",
     teaser:"SX1w2 · geb. 1974. Schauspieler, Klimaaktivist. Fünfmal Oscar-nominiert, sechsmal angetreten – und im Moment des Triumphes sprach er über den Klimawandel, nicht über sich. Die Schwarze Mamba brennt nicht für Applaus. Tierentsprechung: Schwarze Mamba.",
@@ -15013,6 +15017,71 @@ function leoTolstoiPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-paul-mccartney", label:"Portr\xe4t: Paul McCartney (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function samAltmanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sam-altman-portrait.jpg" alt="Sam Altman" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sam Altman</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">CEO von OpenAI, geb. 1985 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube im Zentrum eines Sturms</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier &ndash; sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus für ihr inneres Ringen, sondern einen eigenen, unverwechselbaren Weg hindurch &ndash; selbst dann, wenn die Welt um sie herum längst laut geworden ist.</p>
+          <p class="vb-intro">Sam Altman, geboren 1985 in Chicago, ist als CEO von OpenAI eine der einflussreichsten Personen der Technologiegeschichte &ndash; verantwortlich für ChatGPT, ein Produkt, das binnen weniger Jahre den öffentlichen Diskurs über künstliche Intelligenz neu geordnet hat. Und doch bleibt Altman öffentlich auffallend zurückhaltend: kein Bühnenauftritt im Stil anderer Tech-Gründer, keine demonstrative Selbstinszenierung, sondern ein ruhiger, fast unscheinbarer Ton, selbst wenn die Tragweite seiner Entscheidungen die ganze Menschheit betrifft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Ambition als stille Last</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr inneres Ringen nicht öffentlich vor sich her, sondern erträgt es stoisch &ndash; sie sagt sich: Ich fühle tiefer, denke weiter, arbeite länger an dem, was fehlt, als andere es tun, und genau darin liegt meine Würde. Altman selbst hat wiederholt öffentlich reflektiert, wie sehr ihn das Gefühl geprägt hat, als junger schwuler Mann im konservativen Missouri der Neunzigerjahre anders zu sein als sein Umfeld &ndash; eine frühe Erfahrung des Nicht-Dazugehörens, die bei der Vier oft zum Ausgangspunkt einer lebenslangen, stillen Suche nach dem wird, was fehlt.</p>
+          <p class="vb-intro">Statt dieses Gefühl auszustellen, kanalisierte Altman es in methodische, jahrzehntelange Aufbauarbeit: Mit neunzehn gründete er das Startup Loopt, führte mit Anfang dreißig als Präsident den einflussreichen Startup-Inkubator Y Combinator, und übernahm schließlich die Leitung von OpenAI &ndash; jedes Mal mit derselben stillen, unspektakulären Konsequenz statt lauter Selbstdarstellung. Auch sein Lebensstil bleibt bewusst unauffällig für jemanden seines Einflusses &ndash; kein demonstrativer Reichtum, keine öffentliche Rolle als Selbstdarsteller, sondern die Zurückhaltung der Taube, die lieber im Hintergrund arbeitet, als sich zur Schau zu stellen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Denken in Jahrzehnten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier eine analytische Distanz zu ihrem eigenen Antrieb &ndash; das Gefühl wird nicht nur durchlebt, sondern in langfristige, oft geradezu systemische Planung übersetzt. Altmans Investitionen jenseits von OpenAI zeigen genau diese Handschrift: Kernfusion (Helion Energy), neuartige Kernreaktoren (Oklo), Langlebigkeitsforschung (Retro Biosciences) &ndash; keine kurzfristigen Wetten, sondern Investitionen in Infrastruktur, die erst in zehn oder zwanzig Jahren Früchte tragen soll.</p>
+          <p class="vb-intro">Auch sein frühes Engagement für Grundeinkommens-Studien (finanziert über OpenResearch) trägt diese Systemliebe: die nüchterne, empirische Frage, wie eine Gesellschaft mit den ökonomischen Verwerfungen künstlicher Intelligenz umgehen könnte, Jahre bevor diese Frage öffentlich breit diskutiert wurde. Der Fünferflügel denkt nicht in Quartalen, sondern in Zeiträumen, die die meisten Menschen unbequem finden &ndash; und genau das macht ihn zum notwendigen Gegengewicht zur emotionalen Tiefe der Vier.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Fünf Tage im November</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im November 2023 wurde Altman vom Aufsichtsrat von OpenAI überraschend entlassen &ndash; ein Vorgang, der binnen Stunden weltweite Schlagzeilen produzierte. Fast das gesamte Unternehmen, über 700 Mitarbeitende, drohte geschlossen zu kündigen, sollte er nicht zurückkehren. Nach nur fünf Tagen war Altman wieder im Amt, der Aufsichtsrat weitgehend ausgetauscht.</p>
+          <p class="vb-intro">Bemerkenswert war dabei weniger der Ausgang als Altmans öffentliche Reaktion: kein dramatischer Gegenschlag, keine öffentliche Abrechnung, sondern eine auffallend ruhige, fast unterkühlte Kommunikation, während im Hintergrund intensiv verhandelt wurde. Die selbsterhaltende Vier trägt Krisen nicht auf offener Bühne aus &ndash; sie hält die Fassung, während innerlich sehr viel auf dem Spiel steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 ist die Fähigkeit, <strong>ein tiefes persönliches Gefühl des Fehlenden in langfristige, systemische Gestaltungskraft</strong> zu verwandeln &ndash; Altman hat sein frühes Anderssein nicht in Rückzug, sondern in den methodischen Aufbau von Technologien übersetzt, die er als Antwort auf grundlegende menschliche Mängel und Engpässe versteht: Energie, Krankheit, Wissen, Wohlstand.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kehrseite dieser stillen Konsequenz: eine gewisse Undurchsichtigkeit, die selbst engen Weggefährten aufgefallen ist &ndash; einige frühere OpenAI-Führungskräfte kritisierten mangelnde Offenheit gerade in sicherheitsrelevanten Fragen. Die stille Zurückhaltung der Taube kann, ins Extrem gewendet, zu einer Distanz werden, die andere als Kontrolle statt als Ruhe erleben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die im Hintergrund die Zukunft baut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sam Altman gehört zu den Menschen, deren Entscheidungen heute den Verlauf der kommenden Jahrzehnte mitprägen &ndash; und die dabei bewusst nicht die Bühne suchen, die ihre Wirkung eigentlich rechtfertigen würde. Das ist die eigentümliche Stärke der selbsterhaltenden Vier mit Fünferflügel: enorme Ambition, verpackt in beharrliche Stille.</p>
+          <p class="vb-intro">Die Taube, die als junger Mann lernte, anders zu sein als ihr Umfeld, und daraus über Jahrzehnte eine methodische, oft unbequeme Weitsicht entwickelte &ndash; das ist das bleibende Bild dieses Subtyps: kein lautes Ringen um Anerkennung, sondern ein stilles, systematisches Bauen an dem, was noch fehlt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-leo-tolstoi", label:"Portr\xe4t: Leo Tolstoi (SE4w5)"},
         {route:"beruehmte-paul-mccartney", label:"Portr\xe4t: Paul McCartney (SE4w5)"},
       ])}
     </div>
@@ -50832,6 +50901,7 @@ function render() {
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-klaus-kinski": klausKinskiPortraitPage,
       "beruehmte-udo-lindenberg": udoLindenbergPortraitPage,
+      "beruehmte-sam-altman": samAltmanPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,

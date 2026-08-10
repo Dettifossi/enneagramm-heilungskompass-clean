@@ -770,6 +770,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Udo Lindenberg – Sexual Type 1",
     teaser:"SX1w9 · born 1946. Panic rocker, painter, poet. \"Sonderzug nach Pankow\" as an open challenge to Honecker, hat and sunglasses as armor, decades at the Hotel Atlantic – an uncompromising stance that was never negotiable. Animal correspondence: Black Mamba.",
     tags:["Music"] , gender:"m"},
+  { route:"beruehmte-sam-altman", name:"Sam Altman", added:"2026-08-10", subtyp:"SE4w5",
+    heading:"Sam Altman – Self-Preservation Type 4",
+    teaser:"SE4w5 · born 1985. CEO of OpenAI, former president of Y Combinator. A quiet, methodical struggle to build a future no one has built yet – five days of ouster and return in November 2023, without public drama. Animal correspondence: Dove.",
+    tags:["Business","Technology"] , gender:"m"},
   { route:"beruehmte-juergen-klopp", name:"Jürgen Klopp", added:"2026-07-20", subtyp:"SO1w2",
     heading:"Jürgen Klopp – Social Type 1",
     teaser:"SO1w2 · born 1967. Coach, champion, motivator. BVB, Liverpool, Red Bull – head coach of the German national team since August 2026. The goose that believes its formation before the formation believes itself. Animal correspondence: Goose.",
@@ -17930,6 +17934,71 @@ function leoTolstoiPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function samAltmanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-sam-altman-portrait.jpg" alt="Sam Altman" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sam Altman</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 with Five-Wing</p>
+        <p class="krim-portrait-subtitle">CEO of OpenAI, born 1985 – Animal equivalent: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove at the Center of a Storm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Dove is the animal of the self-preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It does not seek applause for its inner struggle, but its own, unmistakable way through it – even when the world around it has long since grown loud.</p>
+          <p class="vb-intro">Sam Altman, born in 1985 in Chicago, is as CEO of OpenAI one of the most influential people in the history of technology – responsible for ChatGPT, a product that reordered public discourse about artificial intelligence within just a few years. And yet Altman remains strikingly reserved in public: no stage presence in the style of other tech founders, no demonstrative self-promotion, but a calm, almost understated tone, even when the scale of his decisions affects all of humanity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Ambition as a Quiet Burden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The self-preservation Four (SE4) does not carry its inner struggle out into the open, but endures it stoically – it tells itself: I feel more deeply, think further ahead, and work longer at what is missing than others do, and that is precisely where my dignity lies. Altman himself has repeatedly reflected publicly on how much it shaped him to feel, as a young gay man in conservative 1990s Missouri, different from those around him – an early experience of not belonging that, for the Four, often becomes the starting point of a lifelong, quiet search for what is missing.</p>
+          <p class="vb-intro">Rather than putting this feeling on display, Altman channeled it into methodical, decades-long building work: at nineteen, he founded the startup Loopt; in his early thirties, he ran the influential startup incubator Y Combinator as its president; and eventually he took the helm of OpenAI – each time with the same quiet, unspectacular consistency rather than loud self-promotion. His lifestyle, too, remains deliberately understated for someone of his influence – no ostentatious wealth, no public role as a self-promoter, but the reserve of the Dove, which would rather work in the background than put itself on display.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five Wing: Thinking in Decades</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Five wing (w5) gives the Four an analytical distance from its own drive – the feeling is not only lived through, but translated into long-term, often almost systemic planning. Altman's investments beyond OpenAI show exactly this signature: nuclear fusion (Helion Energy), novel nuclear reactors (Oklo), longevity research (Retro Biosciences) – not short-term bets, but investments in infrastructure that is meant to bear fruit only in ten or twenty years.</p>
+          <p class="vb-intro">His early engagement with basic income studies (funded through OpenResearch) carries this same love of systems: the sober, empirical question of how a society might cope with the economic disruptions of artificial intelligence, years before this question was widely discussed in public. The Five wing does not think in quarters, but in timeframes most people find uncomfortable – and that is precisely what makes it the necessary counterweight to the Four's emotional depth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Five Days in November</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In November 2023, Altman was unexpectedly fired by OpenAI's board – an event that produced worldwide headlines within hours. Nearly the entire company, more than 700 employees, threatened to resign en masse if he was not reinstated. After only five days, Altman was back in office, and the board was largely replaced.</p>
+          <p class="vb-intro">What stood out was less the outcome than Altman's public reaction: no dramatic counterstrike, no public reckoning, but a strikingly calm, almost cool communication style, while intense negotiations went on behind the scenes. The self-preservation Four does not play out its crises on an open stage – it keeps its composure while a great deal is at stake internally.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE4w5 is the ability to turn a deep personal sense of what is missing into long-term, systemic creative power – Altman translated his early sense of being different not into withdrawal, but into the methodical building of technologies he understands as answers to fundamental human deficiencies and bottlenecks: energy, disease, knowledge, prosperity.</p>
+          <p class="vb-intro">The shadow shows itself in the flip side of this quiet consistency: a certain opacity that even close colleagues have noticed – some former OpenAI executives criticized a lack of openness, particularly on safety-related questions. The Dove's quiet reserve can, taken to an extreme, turn into a distance that others experience as control rather than calm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Dove Building the Future in the Background</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sam Altman is among the people whose decisions today are helping shape the course of the coming decades – while deliberately not seeking the stage that his impact would actually justify. That is the peculiar strength of the self-preservation Four with a Five wing: enormous ambition, wrapped in persistent quiet.</p>
+          <p class="vb-intro">The Dove that, as a young man, learned to be different from those around him, and turned that over decades into a methodical, often uncomfortable foresight – that is the lasting image of this subtype: not a loud struggle for recognition, but a quiet, systematic building of what is still missing.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SE4w5)"},
         {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SE4w5)"},
       ])}
     </div>
@@ -47830,6 +47899,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-kevin-costner": kevinCostnerPortraitPage,
       "beruehmte-klaus-kinski": klausKinskiPortraitPage,
       "beruehmte-udo-lindenberg": udoLindenbergPortraitPage,
+      "beruehmte-sam-altman": samAltmanPortraitPage,
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
       "beruehmte-brigitte-bardot": brigitteBardotPortraitPage,
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,

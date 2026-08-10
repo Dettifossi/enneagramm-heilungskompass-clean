@@ -31328,6 +31328,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Udo Lindenberg \u2013 Sexueller Typ 1",
     teaser:"SX1w9 \u00b7 geb. 1946. Panik-Rocker, Maler, Dichter. \u201eSonderzug nach Pankow\u201d als offene Kampfansage an Honecker, Hut und Sonnenbrille als R\u00fcstung, Jahrzehnte im Hotel Atlantic \u2013 kompromisslose Haltung, die niemals verhandelbar war. Tierentsprechung: Schwarze Mamba.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-sam-altman", name:"Sam Altman", added:"2026-08-10", subtyp:"SE4w5",
+    heading:"Sam Altman \u2013 Selbsterhaltender Typ 4",
+    teaser:"SE4w5 \u00b7 geb. 1985. CEO von OpenAI, Ex-Pr\u00e4sident von Y Combinator. Stilles, methodisches Ringen um eine Zukunft, die noch niemand gebaut hat \u2013 f\u00fcnf Tage Rauswurf und R\u00fcckkehr im November 2023, ohne \u00f6ffentliches Drama. Tierentsprechung: Taube.",
+    tags:["Wirtschaft","Technologie"] , gender:"m"},
   { route:"beruehmte-leonardo-dicaprio", name:"Leonardo DiCaprio", subtyp:"SX1w2",
     heading:"Leonardo DiCaprio \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 geb. 1974. Schauspieler, Klimaaktivist. F\u00fcnfmal Oscar-nominiert, sechsmal angetreten \u2013 und im Moment des Triumphes sprach er \u00fcber den Klimawandel, nicht \u00fcber sich. Die Schwarze Mamba brennt nicht f\u00fcr Applaus. Tierentsprechung: Schwarze Mamba.",
@@ -46062,6 +46066,71 @@ function leoTolstoiPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se4", label:"SE4 \u2013 Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-paul-mccartney", label:"Portr\xe4t: Paul McCartney (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function samAltmanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sam-altman-portrait.jpg" alt="Sam Altman" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sam Altman</p>
+        <p class="krim-portrait-typ">SE4w5 \u00b7 Selbsterhaltender Typ 4 mit F\u00fcnferfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">CEO von OpenAI, geb. 1985 \u2013 Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube im Zentrum eines Sturms</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier \u2013 sie tr\u00e4gt ihr tiefes Gef\u00fchlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus f\u00fcr ihr inneres Ringen, sondern einen eigenen, unverwechselbaren Weg hindurch \u2013 selbst dann, wenn die Welt um sie herum l\u00e4ngst laut geworden ist.</p>
+          <p class="vb-intro">Sam Altman, geboren 1985 in Chicago, ist als CEO von OpenAI eine der einflussreichsten Personen der Technologiegeschichte \u2013 verantwortlich f\u00fcr ChatGPT, ein Produkt, das binnen weniger Jahre den \u00f6ffentlichen Diskurs \u00fcber k\u00fcnstliche Intelligenz neu geordnet hat. Und doch bleibt Altman \u00f6ffentlich auffallend zur\u00fcckhaltend: kein B\u00fchnenauftritt im Stil anderer Tech-Gr\u00fcnder, keine demonstrative Selbstinszenierung, sondern ein ruhiger, fast unscheinbarer Ton, selbst wenn die Tragweite seiner Entscheidungen die ganze Menschheit betrifft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Ambition als stille Last</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> tr\u00e4gt ihr inneres Ringen nicht \u00f6ffentlich vor sich her, sondern ertr\u00e4gt es stoisch \u2013 sie sagt sich: Ich f\u00fchle tiefer, denke weiter, arbeite l\u00e4nger an dem, was fehlt, als andere es tun, und genau darin liegt meine W\u00fcrde. Altman selbst hat wiederholt \u00f6ffentlich reflektiert, wie sehr ihn das Gef\u00fchl gepr\u00e4gt hat, als junger schwuler Mann im konservativen Missouri der Neunzigerjahre anders zu sein als sein Umfeld \u2013 eine fr\u00fche Erfahrung des Nicht-Dazugeh\u00f6rens, die bei der Vier oft zum Ausgangspunkt einer lebenslangen, stillen Suche nach dem wird, was fehlt.</p>
+          <p class="vb-intro">Statt dieses Gef\u00fchl auszustellen, kanalisierte Altman es in methodische, jahrzehntelange Aufbauarbeit: Mit neunzehn gr\u00fcndete er das Startup Loopt, f\u00fchrte mit Anfang drei\u00dfig als Pr\u00e4sident den einflussreichen Startup-Inkubator Y Combinator, und \u00fcbernahm schlie\u00dflich die Leitung von OpenAI \u2013 jedes Mal mit derselben stillen, unspektakul\u00e4ren Konsequenz statt lauter Selbstdarstellung. Auch sein Lebensstil bleibt bewusst unauff\u00e4llig f\u00fcr jemanden seines Einflusses \u2013 kein demonstrativer Reichtum, keine \u00f6ffentliche Rolle als Selbstdarsteller, sondern die Zur\u00fcckhaltung der Taube, die lieber im Hintergrund arbeitet, als sich zur Schau zu stellen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\u00fcnferfl\u00fcgel: Denken in Jahrzehnten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> verleiht der Vier eine analytische Distanz zu ihrem eigenen Antrieb \u2013 das Gef\u00fchl wird nicht nur durchlebt, sondern in langfristige, oft geradezu systemische Planung \u00fcbersetzt. Altmans Investitionen jenseits von OpenAI zeigen genau diese Handschrift: Kernfusion (Helion Energy), neuartige Kernreaktoren (Oklo), Langlebigkeitsforschung (Retro Biosciences) \u2013 keine kurzfristigen Wetten, sondern Investitionen in Infrastruktur, die erst in zehn oder zwanzig Jahren Fr\u00fcchte tragen soll.</p>
+          <p class="vb-intro">Auch sein fr\u00fches Engagement f\u00fcr Grundeinkommens-Studien (finanziert \u00fcber OpenResearch) tr\u00e4gt diese Systemliebe: die n\u00fcchterne, empirische Frage, wie eine Gesellschaft mit den \u00f6konomischen Verwerfungen k\u00fcnstlicher Intelligenz umgehen k\u00f6nnte, Jahre bevor diese Frage \u00f6ffentlich breit diskutiert wurde. Der F\u00fcnferfl\u00fcgel denkt nicht in Quartalen, sondern in Zeitr\u00e4umen, die die meisten Menschen unbequem finden \u2013 und genau das macht ihn zum notwendigen Gegengewicht zur emotionalen Tiefe der Vier.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. F\u00fcnf Tage im November</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im November 2023 wurde Altman vom Aufsichtsrat von OpenAI \u00fcberraschend entlassen \u2013 ein Vorgang, der binnen Stunden weltweite Schlagzeilen produzierte. Fast das gesamte Unternehmen, \u00fcber 700 Mitarbeitende, drohte geschlossen zu k\u00fcndigen, sollte er nicht zur\u00fcckkehren. Nach nur f\u00fcnf Tagen war Altman wieder im Amt, der Aufsichtsrat weitgehend ausgetauscht.</p>
+          <p class="vb-intro">Bemerkenswert war dabei weniger der Ausgang als Altmans \u00f6ffentliche Reaktion: kein dramatischer Gegenschlag, keine \u00f6ffentliche Abrechnung, sondern eine auffallend ruhige, fast unterk\u00fchlte Kommunikation, w\u00e4hrend im Hintergrund intensiv verhandelt wurde. Die selbsterhaltende Vier tr\u00e4gt Krisen nicht auf offener B\u00fchne aus \u2013 sie h\u00e4lt die Fassung, w\u00e4hrend innerlich sehr viel auf dem Spiel steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 ist die F\u00e4higkeit, <strong>ein tiefes pers\u00f6nliches Gef\u00fchl des Fehlenden in langfristige, systemische Gestaltungskraft</strong> zu verwandeln \u2013 Altman hat sein fr\u00fches Anderssein nicht in R\u00fcckzug, sondern in den methodischen Aufbau von Technologien \u00fcbersetzt, die er als Antwort auf grundlegende menschliche M\u00e4ngel und Engp\u00e4sse versteht: Energie, Krankheit, Wissen, Wohlstand.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kehrseite dieser stillen Konsequenz: eine gewisse Undurchsichtigkeit, die selbst engen Weggef\u00e4hrten aufgefallen ist \u2013 einige fr\u00fchere OpenAI-F\u00fchrungskr\u00e4fte kritisierten mangelnde Offenheit gerade in sicherheitsrelevanten Fragen. Die stille Zur\u00fcckhaltung der Taube kann, ins Extrem gewendet, zu einer Distanz werden, die andere als Kontrolle statt als Ruhe erleben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die im Hintergrund die Zukunft baut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sam Altman geh\u00f6rt zu den Menschen, deren Entscheidungen heute den Verlauf der kommenden Jahrzehnte mitpr\u00e4gen \u2013 und die dabei bewusst nicht die B\u00fchne suchen, die ihre Wirkung eigentlich rechtfertigen w\u00fcrde. Das ist die eigent\u00fcmliche St\u00e4rke der selbsterhaltenden Vier mit F\u00fcnferfl\u00fcgel: enorme Ambition, verpackt in beharrliche Stille.</p>
+          <p class="vb-intro">Die Taube, die als junger Mann lernte, anders zu sein als ihr Umfeld, und daraus \u00fcber Jahrzehnte eine methodische, oft unbequeme Weitsicht entwickelte \u2013 das ist das bleibende Bild dieses Subtyps: kein lautes Ringen um Anerkennung, sondern ein stilles, systematisches Bauen an dem, was noch fehlt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se4", label:"SE4 \u2013 Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-leo-tolstoi", label:"Portr\xe4t: Leo Tolstoi (SE4w5)"},
         {route:"beruehmte-paul-mccartney", label:"Portr\xe4t: Paul McCartney (SE4w5)"},
       ])}
     </div>
@@ -81879,6 +81948,7 @@ function render() {
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-klaus-kinski": klausKinskiPortraitPage,
       "beruehmte-udo-lindenberg": udoLindenbergPortraitPage,
+      "beruehmte-sam-altman": samAltmanPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
