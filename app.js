@@ -50979,7 +50979,7 @@ function _solfeggioPlay(hz, btn) {
         navigator.mediaSession.metadata = new MediaMetadata({
           title: hz + " Hz Solfeggio-Frequenz",
           artist: "Enneagramm-Heilungskompass",
-          artwork: [{ src: "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/assets/grundformel-rathmer-enneagramm.jpg", sizes:"512x512", type:"image/jpeg" }]
+          artwork: [{ src: "./assets/grundformel-rathmer-enneagramm.jpg", sizes:"512x512", type:"image/jpeg" }]
         });
         navigator.mediaSession.playbackState = "playing";
         navigator.mediaSession.setActionHandler("pause", () => { audio.pause(); navigator.mediaSession.playbackState = "paused"; });
