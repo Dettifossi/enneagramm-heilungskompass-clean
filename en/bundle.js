@@ -4886,7 +4886,20 @@ function praxistippsHeilpraktikerPage() {
     <section class="narrow">
       <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
       <h1>Practical Tips from the Naturopath</h1>
-      <p class="lead-small">Concrete, body-oriented impulses from Detlef Rathmer's naturopathic practice – complementing the Enneagram healing path. This section is continually expanded with new topics.</p>
+      <p class="lead-small">Concrete impulses from Detlef Rathmer's naturopathic practice – body-oriented exercises as well as tea recommendations, small rituals, and everyday remedies. This section is continually expanded with new topics.</p>
+
+      <div style="margin:1.5rem 0;padding:1.1rem 1.3rem;background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:10px;">
+        <p style="font-size:.82rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;margin:0 0 .3rem;">Important Note &amp; Personal Remark</p>
+        <p style="font-size:.82rem;color:var(--muted);margin:0 0 .7rem;">from your naturopath (over 30 years of practical experience)</p>
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;">Dear users, the tips in this section grew out of my decades of practical experience. They are excellent for quick everyday self-help, for gently easing minor acute complaints, and for supporting the body holistically – especially when no therapist is immediately available. Please keep in mind, however:</p>
+        <ol style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;padding-left:1.2rem;">
+          <li><strong>Timely clarification:</strong> If symptoms persist, recur, or become more severe, the rule is: better a day too early than a day too late. Please see a doctor, psychotherapist, or naturopath promptly for persistent or unclear symptoms.</li>
+          <li><strong>Relief vs. cure:</strong> Everyday and self-help tips can be wonderfully supportive, but for deeper-seated or chronic conditions they do not replace treatment of the underlying cause.</li>
+          <li><strong>The royal discipline:</strong> From my many years of experience, classical homeopathic constitutional therapy remains the royal discipline of holistic medicine. As an information-based therapy, it works at the deepest levels of the organism and fundamentally stimulates the body's self-healing powers.</li>
+        </ol>
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">Feel free to use these practical tips as valuable companions in everyday life – and for chronic or complex issues, turn with confidence to a well-founded homeopathic constitutional treatment.</p>
+      </div>
+
       <div class="tool-grid" style="margin-top:1.5rem;">
         ${TIPPS.map(t => `
           <button class="tool-card tool-card--link" data-route="praxistipps-heilpraktiker/${t.slug}">
