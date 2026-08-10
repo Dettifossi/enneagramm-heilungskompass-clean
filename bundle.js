@@ -24073,6 +24073,7 @@ const registerEntries = [
     { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bundeskanzlerin 2005\u20132021, Elefant" },
     { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bundeskanzlerin 2005\u20132021, Elefant" },
   { term: "David Hume",                    route: "beruehmte-david-hume",                  description: "Portrait: SE9w8 \u00b7 Selbsterhaltender Typ 9 \u00b7 Philosoph, radikaler Skeptizismus" },
+  { term: "Baruch de Spinoza",             route: "beruehmte-spinoza",                     description: "Portrait: SE5w6 \u00b7 Selbsterhaltender Typ 5 \u00b7 Philosoph, Rationalist, 1632\u20131677" },
   { term: "Adam Smith",                    route: "beruehmte-adam-smith",                  description: "Portrait: SO1w9 \u00b7 Sozialer Typ 1 \u00b7 Moralphilosoph, \u00d6konom, Freund David Humes" },
   { term: "Albert Einstein",               route: "beruehmte-albert-einstein",             description: "Portrait: SO5w4 \u00b7 Sozialer Typ 5 \u00b7 Physiker, Relativit\u00e4tstheorie" },
   { term: "Samuel Hahnemann",              route: "beruehmte-samuel-hahnemann",            description: "Portrait: SO1w9 \u00b7 Sozialer Typ 1 \u00b7 Deutscher Arzt, Begr\u00fcnder der Hom\u00f6opathie" },
@@ -24370,6 +24371,7 @@ const registerEntriesEN = [
   { term: "G\u00fcnther Jauch", route: "beruehmte-guenther-jauch", description: "Portrait: SO5w6 \u00b7 Social Type 5 \u00b7 TV host, Who Wants to Be a Millionaire" },
   { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Federal Chancellor 2005\u20132021, Elephant" },
   { term: "David Hume", route: "beruehmte-david-hume", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Philosopher, radical skepticism" },
+  { term: "Baruch de Spinoza", route: "beruehmte-spinoza", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 Philosopher, rationalist, 1632\u20131677" },
   { term: "Hans-Dietrich Genscher", route: "beruehmte-hans-dietrich-genscher", description: "Portrait: SO2w3 \u00b7 Social Type 2 \u00b7 Foreign Minister, German reunification" },
   { term: "Hans Zimmer", route: "beruehmte-hans-zimmer", description: "Portrait: SX5w4 \u00b7 Sexual Type 5 \u00b7 Film composer, Inception" },
   { term: "Hazel Brugger", route: "beruehmte-hazel-brugger", description: "Portrait: SX3w4 \u00b7 Sexual Type 3 \u00b7 Comedian, Comedian" },
@@ -31951,6 +31953,10 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-david-hume", name:"David Hume", subtyp:"SE9w8",
     heading:"David Hume \u2013 Selbsterhaltender Typ 9",
     teaser:"SE9w8 \u00b7 1711\u20131776. Schottischer Philosoph. Ein Traktat \u00fcber die menschliche Natur, radikaler Skeptizismus. Der Elefant, der an allem zweifelte \u2013 an der Kausalit\u00e4t, am Selbst, an Gott \u2013 und dabei gelassener blieb als jeder seiner erbitterten Kritiker.",
+    tags:["Philosophie"], gender:"m"},
+  { route:"beruehmte-spinoza", name:"Baruch de Spinoza", added:"2026-08-10", subtyp:"SE5w6",
+    heading:"Baruch de Spinoza \u2013 Selbsterhaltender Typ 5",
+    teaser:"SE5w6 \u00b7 1632\u20131677. Rationalistischer Philosoph, Verfasser der Ethica. Zur\u00fcckgezogen in Amsterdam und Den Haag lebend, schliff er Linsen zum Lebensunterhalt und dachte die radikalste Gottesvorstellung seiner Zeit zu Ende. Die Eule, die sich aus jeder Gemeinschaft zur\u00fcckzog, um klarer zu sehen.",
     tags:["Philosophie"], gender:"m"},
   { route:"beruehmte-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8",
     heading:"Hans-Dietrich Genscher \u2013 Selbsterhaltender Typ 9",
@@ -46601,6 +46607,72 @@ function davidHumePortraitPage() {
         {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
         {route:"beruehmte-adam-smith", label:"Portr\xe4t: Adam Smith (SO1w9) \u2013 sein enger Freund"},
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\xfchmte Philosophen im Enneagramm"},
+      ])}
+    </div>
+  `);
+}
+
+function spinozaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-spinoza-portrait.jpg" alt="Eule" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Baruch de Spinoza</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Rationalistischer Philosoph, 1632&ndash;1677 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule, die sich aus der Welt zur\u00fcckzog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des Typs 5 &ndash; ein Wesen, das in der D\u00e4mmerung am klarsten sieht, das sich zur\u00fcckzieht, um zu beobachten, und dessen Blick durchdringt, was anderen verborgen bleibt. Sie braucht keine Herde, kein Rudel &ndash; ihre St\u00e4rke liegt im Alleinsein, im ungest\u00f6rten Denken.</p>
+          <p class="vb-intro">Baruch (sp\u00e4ter Benedictus) de Spinoza wurde 1632 in Amsterdam als Sohn einer portugiesisch-j\u00fcdischen Kaufmannsfamilie geboren, die vor der Inquisition aus Portugal geflohen war. 1656 wurde er, gerade 23 Jahre alt, von der j\u00fcdischen Gemeinde Amsterdams mit dem <em>Cherem</em> belegt &ndash; dem sch\u00e4rfsten Bann, den die Gemeinde kannte: Kein Kontakt, kein Handel, kein gemeinsames Dach mehr mit ihm. Die genauen Gr\u00fcnde wurden nie schriftlich festgehalten, doch seine bereits damals bekannten Zweifel an der w\u00f6rtlichen Auslegung der Schrift und an einem pers\u00f6nlichen, eingreifenden Gott gelten als Ursache. Spinoza reagierte nicht mit Widerstand oder Verhandlung &ndash; er zog sich zur\u00fcck, \u00e4nderte seinen Namen zu Benedictus und lebte den Rest seines Lebens au\u00dferhalb jeder Gemeinschaft, die ihn h\u00e4tte binden k\u00f6nnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende F\u00fcnf: Die Burg des Denkens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende F\u00fcnf (SE5)</strong> ist nach Naranjo der Verst\u00e4rkungstyp der F\u00fcnf: Hier lebt die Leidenschaft des <em>Geizes</em> &ndash; das Horten von Energie, Raum und Zeit &ndash; am unverh\u00fclltesten. Naranjo nannte diesen Subtyp <em>Burg</em>: Das eigene Territorium wird zur Festung, hinter deren Mauern die Welt drau\u00dfen bleibt. Spinoza lebte diese Burg w\u00f6rtlich: Nach dem Bann zog er zun\u00e4chst aus Amsterdam fort, wohnte in Rijnsburg, sp\u00e4ter in Voorburg und schlie\u00dflich in Den Haag &ndash; stets zur\u00fcckgezogen, meist allein, in kleinen, kargen Zimmern.</p>
+          <p class="vb-intro">Seinen Lebensunterhalt verdiente er als Schleifer optischer Linsen f\u00fcr Mikroskope und Teleskope &ndash; eine stille, pr\u00e4zise Handarbeit, die kaum Kontakt mit anderen erforderte und die er meisterhaft beherrschte. Er lebte \u00e4u\u00dferst gen\u00fcgsam, lehnte gro\u00dfz\u00fcgige finanzielle Zuwendungen von Bewunderern gr\u00f6\u00dftenteils ab und beschr\u00e4nkte sich auf das N\u00f6tigste. Diese radikale Selbstgen\u00fcgsamkeit war keine Askese um ihrer selbst willen, sondern die Bedingung f\u00fcr das, was er am meisten sch\u00fctzte: die ungest\u00f6rte Zeit zum Denken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Das System, dem er die Treue hielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\u00fcgel (w6)</strong> bringt der selbsterhaltenden F\u00fcnf eine wache Sicherheitsorientierung und eine au\u00dferordentliche Systemtreue &ndash; nicht Loyalit\u00e4t gegen\u00fcber Institutionen, sondern gegen\u00fcber einem selbst durchdachten, in sich geschlossenen Prinzip. Spinozas Hauptwerk, die postum 1677 ver\u00f6ffentlichte <em>Ethica, ordine geometrico demonstrata</em> (Die Ethik, nach geometrischer Methode dargestellt), ist genau das: ein philosophisches System, aufgebaut wie ein euklidischer Lehrsatz &ndash; Definitionen, Axiome, Beweise, Schritt f\u00fcr Schritt, ohne L\u00fccke. Kein anderes philosophisches Hauptwerk der Geschichte ist so kompromisslos systematisch aufgebaut.</p>
+          <p class="vb-intro">Diese Systemtreue zeigte sich auch in seiner bekanntesten Entscheidung: 1673 bot ihm die Universit\u00e4t Heidelberg einen Lehrstuhl f\u00fcr Philosophie an &ndash; mit der Zusicherung v\u00f6lliger Lehrfreiheit, solange er die Staatsreligion nicht st\u00f6re. Spinoza lehnte ab. Er bef\u00fcrchtete, dass selbst diese Einschr\u00e4nkung sein Denken auf Dauer verbiegen w\u00fcrde, und zog die Unsicherheit des Linsenschleifers der Sicherheit eines akademischen Amtes vor &ndash; der Sechserfl\u00fcgel w\u00e4gt das Risiko genau ab, und manchmal f\u00e4llt die Antwort auf Sicherheit hin gerade zugunsten der intellektuellen Unabh\u00e4ngigkeit aus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Deus sive Natura: Der radikalste Gottesbegriff seiner Zeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Zentrum der Ethica steht Spinozas ber\u00fchmteste und folgenreichste Formel: <em>Deus sive Natura</em> &ndash; Gott, oder gleichbedeutend die Natur. F\u00fcr Spinoza gibt es nur eine einzige, unendliche Substanz, die alles umfasst, was existiert &ndash; kein Gott au\u00dferhalb der Welt, der sie erschaffen hat und lenkt, sondern Gott als die Welt selbst, in ihrer vollst\u00e4ndigen, notwendigen Gesetzm\u00e4\u00dfigkeit. Alles, was geschieht, geschieht mit derselben Notwendigkeit, mit der die Winkelsumme eines Dreiecks 180 Grad ergibt.</p>
+          <p class="vb-intro">Diese Position kostete ihn nicht nur den Bann der j\u00fcdischen Gemeinde, sondern machte ihn zeitlebens und noch lange nach seinem Tod zur Zielscheibe des Vorwurfs des Atheismus &ndash; sein bereits 1670 anonym ver\u00f6ffentlichter <em>Tractatus theologico-politicus</em>, der die historisch-kritische Bibelauslegung begr\u00fcndete und Meinungsfreiheit forderte, wurde in mehreren L\u00e4ndern verboten. Spinoza reagierte darauf, wie es der Verst\u00e4rkungstyp der F\u00fcnf tut: Er zog sich weiter zur\u00fcck, ver\u00f6ffentlichte die Ethica gar nicht mehr zu Lebzeiten und beschr\u00e4nkte den Kreis, dem er seine Gedanken anvertraute, auf eine kleine Gruppe vertrauter Korrespondenten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w6 ist die F\u00e4higkeit, <strong>radikale intellektuelle Unabh\u00e4ngigkeit mit einem tragf\u00e4higen, in sich stimmigen System</strong> zu verbinden. Spinoza dachte den freien Willen, das Verh\u00e4ltnis von Affekt und Vernunft und die Grenzen der Toleranz so konsequent zu Ende wie kaum ein Philosoph vor ihm &ndash; und legte damit einen der Grundsteine der modernen Aufkl\u00e4rung, lange bevor sie diesen Namen trug.</p>
+          <p class="vb-intro">Der Schatten: Sein R\u00fcckzug aus jeder Gemeinschaft &ndash; j\u00fcdisch wie christlich &ndash; bedeutete auch ein Leben fast ganz ohne N\u00e4he, ohne eigene Familie, ohne festen Ort der Zugeh\u00f6rigkeit. Die Burg der SE5 sch\u00fctzt das Denken, aber sie kostet Verbindung. Spinoza selbst schien diesen Preis bewusst in Kauf genommen zu haben &ndash; ob er ihn auch bedauerte, ist aus seinen erhaltenen Briefen kaum herauszulesen. Genau diese Verschlossenheit macht ihn bis heute zu einer der r\u00e4tselhaftesten Gestalten der Philosophiegeschichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Eule, die an Staublunge starb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Spinoza starb 1677 in Den Haag im Alter von nur 44 Jahren, vermutlich an einer Lungenerkrankung, die durch das jahrzehntelange Einatmen von Glasstaub beim Linsenschleifen beg\u00fcnstigt wurde &ndash; sein Handwerk, das ihm die Unabh\u00e4ngigkeit zum Denken sicherte, trug wohl auch zu seinem fr\u00fchen Tod bei. Freunde ver\u00f6ffentlichten noch im selben Jahr seine <em>Opera Posthuma</em>, darunter die Ethica &ndash; das Werk, das er selbst nie unter eigenem Namen hatte drucken lassen.</p>
+          <p class="vb-intro">Die Eule verlie\u00df die Welt so zur\u00fcckgezogen, wie sie sie durchquert hatte &ndash; ohne Amt, ohne Familie, ohne Gemeinde. Was blieb, war ein in sich geschlossenes Gedankengeb\u00e4ude, das erst Generationen sp\u00e4ter &ndash; von Leibniz bis Einstein, der sich ausdr\u00fccklich auf &bdquo;Spinozas Gott&ldquo; berief &ndash; seine volle Tragweite entfalten sollte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8)"},
+        {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4) \u2013 berief sich auf Spinozas Gottesbegriff"},
+        {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
       ])}
     </div>
   `);
@@ -81920,6 +81992,7 @@ function render() {
           "beruehmte-eli-jaxon-bear": eliJaxonBearPortraitPage,
           "beruehmte-angela-merkel": angelaMerkelPortraitPage,
     "beruehmte-david-hume": davidHumePortraitPage,
+    "beruehmte-spinoza": spinozaPortraitPage,
     "beruehmte-adam-smith": adamSmithPortraitPage,
     "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
           "beruehmte-abida-parveen": abidaParveenPortraitPage,
