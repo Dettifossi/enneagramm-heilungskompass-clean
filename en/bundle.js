@@ -2,7 +2,7 @@ import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, s
 import { TYP_IMPULSE, TYP_IMPULSE_EN, SUBTYP_IMPULSE_EN as SUBTYP_IMPULSE } from "../data/impulse.js?v=4";
 import { TAGESIMPULSE_EN } from "../data/tagesimpulse_en.js?v=1";
 import { TRIADEN_EN as TRIADEN, TYPFRAGEN_EN as TYPFRAGEN, TYPNAMEN_EN as TYPNAMEN, TYPKURZ_EN as TYPKURZ, INSTINKTE_EN as INSTINKTE } from "../data/typentest_en.js?v=1";
-import { MOTIVTEST_EN as MOTIVTEST } from "../data/motivtest_en.js?v=2";
+import { MOTIVTEST_EN as MOTIVTEST } from "../data/motivtest_en.js?v=3";
 import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
@@ -4089,6 +4089,12 @@ function toolsPage() {
         <p>Your personal TCM meridian, organ times and acupuncture recommendations for your type.</p>
         <span class="tool-card__arrow">Open →</span>
       </button>
+      <button class="tool-card tool-card--link" data-route="praxistipps-heilpraktiker">
+        <span>Body · Everyday Life · Naturopathy</span>
+        <h2>Practical Tips from the Naturopath</h2>
+        <p>Concrete, body-oriented impulses from Detlef Rathmer's naturopathic practice – complementing the Enneagram healing path.</p>
+        <span class="tool-card__arrow">View →</span>
+      </button>
     </section>
   `);
 }
@@ -4854,6 +4860,95 @@ function practicePage() {
         <h2>Relaxation &amp; Healing Music</h2>
         <p>Nine complete albums — one for each Enneagram type. Each album accompanies you for approx. 1 hr 20 min into the stillness and depth of your type.</p>
         <span class="tool-card__arrow">Listen →</span>
+      <button class="tool-card tool-card--link" data-route="praxistipps-heilpraktiker">
+        <span>Body · Everyday Life · Naturopathy</span>
+        <h2>Practical Tips from the Naturopath</h2>
+        <p>Concrete, body-oriented impulses from Detlef Rathmer's naturopathic practice – complementing the Enneagram healing path.</p>
+        <span class="tool-card__arrow">View →</span>
+      </button>
+    </section>
+  `);
+}
+
+function praxistippsHeilpraktikerPage() {
+  const TIPPS = [
+    { slug:"faszienuebungen-rumpfgesundheit", titel:"Fascia Exercises for Core Health", teaser:"Four simple exercises to counteract the effects of prolonged sitting – Dead Bug, Bird-Dog, Cat-Cow, and Cobra.", img:"../assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg" },
+  ];
+
+  const param = state.route.split("/")[1] || null;
+  if (param === "faszienuebungen-rumpfgesundheit") {
+    return faszienuebungenRumpfgesundheitPage();
+  }
+
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1>Practical Tips from the Naturopath</h1>
+      <p class="lead-small">Concrete, body-oriented impulses from Detlef Rathmer's naturopathic practice – complementing the Enneagram healing path. This section is continually expanded with new topics.</p>
+      <div class="tool-grid" style="margin-top:1.5rem;">
+        ${TIPPS.map(t => `
+          <button class="tool-card tool-card--link" data-route="praxistipps-heilpraktiker/${t.slug}">
+            <span>Practical Tip</span>
+            <h2>${t.titel}</h2>
+            <p>${t.teaser}</p>
+            <span class="tool-card__arrow">View →</span>
+          </button>
+        `).join("")}
+      </div>
+    </section>
+  `);
+}
+
+function faszienuebungenRumpfgesundheitPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1>Fascia Exercises for Core Health</h1>
+      <p class="lead-small">Four simple, effective exercises to actively counteract the effects of prolonged sitting in everyday life.</p>
+
+      <div class="vb-section" style="max-width:100%;">
+        <p class="vb-intro">Most people today spend a large part of their day sitting – at a desk, in front of a computer, in the car, or on the couch. This constant, usually hunched posture takes its toll: the core muscles shorten and weaken, and the fascia – the connective-tissue network that wraps and connects muscles, organs, and bones – become adhered and lose their elasticity. The result is often lower back pain, tension in the lower back and hips, and a noticeable loss of mobility.</p>
+        <p class="vb-intro">Fascia responds particularly well to targeted, slow stretching and tension stimuli. Unlike pure muscle training, fascia exercises aim to keep the entire myofascial network – the functional connective lines between muscles and connective tissue – supple and resilient. Performed regularly, such exercises can help improve core stability, relieve the spine, prevent tension, and noticeably increase everyday mobility. Just a few minutes a day – for example, as a brief break between two sitting periods – are enough to create a real counterbalance.</p>
+        <p class="vb-intro">The following four exercises complement each other ideally: they address both deep core stability and spinal mobility in different directions, and can be performed without equipment, on a mat, at home.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="../assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg"
+             alt="Four fascia exercises at a glance: Dead Bug, Bird-Dog, Cat-Cow, Cobra"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. Dead Bug</h2>
+        <p class="vb-intro">Lie on your back, arms extended straight up, knees raised in the air at a right angle. Now extend one arm overhead and simultaneously the opposite leg toward the floor, without the lower back leaving the ground – the tension builds diagonally across the entire core. Then return to the starting position and switch sides.</p>
+        <p class="vb-intro"><strong>Effect:</strong> Activates the deep abdominal and core muscles, trains stability of the lumbar spine, and improves coordination between arms and legs – one of the safest exercises for building core stability, since the back remains protected on the floor throughout.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">2. Bird-Dog</h2>
+        <p class="vb-intro">Start on all fours, hands under the shoulders, knees under the hips. Extend one arm forward and the opposite leg back at the same time – the back and pelvis remain calm and level, without dipping into a hollow back or swaying to the side. Hold briefly, then return in a controlled manner and switch sides.</p>
+        <p class="vb-intro"><strong>Effect:</strong> Strengthens the deep, spine-stabilizing back muscles as well as the glutes and shoulder muscles, promotes balance, and trains diagonal core stabilization – especially valuable for anyone who sits a lot and whose back muscles consequently lose activation.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">3. Cat-Cow</h2>
+        <p class="vb-intro">Also from an all-fours position: on the inhale, let the back gently sink into a slight arch, gaze upward, and open the chest forward ("Cow"). On the exhale, round the back upward, tucking the chin toward the chest ("Cat"). Repeat both positions fluidly, in rhythm with your breath, several times.</p>
+        <p class="vb-intro"><strong>Effect:</strong> Mobilizes the entire spine through its natural range of motion – segment by segment – releases tension in the lower and mid back, and is ideal for gently getting the spine moving again after prolonged sitting, before moving on to more intense exercises.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">4. Cobra / Cobra Stretch</h2>
+        <p class="vb-intro">Lie face down, hands placed under the shoulders. On the inhale, slowly lift the upper body and head, elbows staying slightly bent or fully extended depending on flexibility, while the pelvis stays on the floor. The gaze moves gently upward without overextending the neck. Hold for a few breaths, then slowly return to the starting position.</p>
+        <p class="vb-intro"><strong>Effect:</strong> Stretches the front core fascia and abdominal muscles, which are permanently shortened by frequent sitting in a hunched posture, opens the chest, and directly counteracts the typical "office posture" – a natural balance to the constant forward flexion of the upper body in daily life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Practical tip:</strong> Perform the four exercises as a short sequence – 8–10 repetitions per side, or holding for 3–5 breaths for Cat-Cow and Cobra. Even a daily repetition of 5–10 minutes, ideally as a conscious break between longer sitting periods, can noticeably contribute to core health. If you have existing back issues or uncertainties, an individual check-up beforehand is recommended.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"situationskompass", label:"Situation Compass"},
+        {route:"practice", label:"Tools"},
+        {route:"stille", label:"9 Minutes of Silence"},
+      ])}
     </section>
   `);
 }
@@ -47407,6 +47502,7 @@ function subtypeSchaubilderPage() {
     kindheit: kindheitPage,
     music: musicPage,
     practice: practicePage,
+    "praxistipps-heilpraktiker": praxistippsHeilpraktikerPage,
     library: libraryPage,
     knowledge: typesPage,
     types: typesPage,
