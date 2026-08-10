@@ -774,6 +774,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sam Altman – Self-Preservation Type 4",
     teaser:"SE4w5 · born 1985. CEO of OpenAI, former president of Y Combinator. A quiet, methodical struggle to build a future no one has built yet – five days of ouster and return in November 2023, without public drama. Animal correspondence: Dove.",
     tags:["Business","Technology"] , gender:"m"},
+  { route:"beruehmte-aristoteles", name:"Aristotle", added:"2026-08-10", subtyp:"SE1w9",
+    heading:"Aristotle – Self-Preservation Type 1",
+    teaser:"SE1w9 · 384–322 BC. Philosopher, founder of logic, tutor of Alexander the Great. The golden mean as a way of life – no crusade against the world, but the calm, decades-long ordering of all knowledge into a single system. Animal correspondence: Eagle.",
+    tags:["Philosophy","History"] , gender:"m"},
   { route:"beruehmte-juergen-klopp", name:"Jürgen Klopp", added:"2026-07-20", subtyp:"SO1w2",
     heading:"Jürgen Klopp – Social Type 1",
     teaser:"SO1w2 · born 1967. Coach, champion, motivator. BVB, Liverpool, Red Bull – head coach of the German national team since August 2026. The goose that believes its formation before the formation believes itself. Animal correspondence: Goose.",
@@ -17611,6 +17615,71 @@ function konradAdenauerPortraitPage() {
         {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SO8w9) – Chancellor"},
+      ])}
+    </div>
+  `);
+}
+
+function aristotelesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-aristoteles-portrait.jpg" alt="Aristotle" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Aristotle</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-Wing</p>
+        <p class="krim-portrait-subtitle">Greek philosopher, 384–322 BC – Animal equivalent: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle Over the Academy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Eagle flies alone, high enough to survey the whole field before it fixes on a single point. It seeks no validation in the crowd – it seeks overview, order, a clear view of the whole. No thinker of antiquity embodies this principle as completely as Aristotle.</p>
+          <p class="vb-intro">Aristotle, born in 384 BC in Stagira, arrived at Plato's Academy in Athens at seventeen and stayed for nearly twenty years – first as a student, then as an independent thinker. He later became tutor to Alexander the Great and eventually founded his own school, the Lyceum. His work spans nearly every field of knowledge of his time: logic, physics, biology, ethics, politics, poetics, metaphysics – a life's work of a systematic rigor that still shapes Western science today.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: The Golden Mean as a Way of Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The self-preservation One (SE1) does not carry its standards outward to lecture others – it directs them first at itself, with a quiet, often invisible strictness. Naranjo calls this subtype Worry: the constant, quiet question of whether one is really doing it right. In Aristotle, this shows up in one of the most influential ethical concepts in the history of philosophy: the Golden Mean (Mesotes), the principle that every virtue lies between two extremes – courage between cowardice and recklessness, generosity between stinginess and extravagance.</p>
+          <p class="vb-intro">This is pure SE1 signature: not a moral crusade against the world, but the quiet, continuous self-correction of finding and holding the right balance in one's own conduct. Unlike his teacher Plato, who sought eternal, abstract ideas beyond the visible world, Aristotle anchored his ethics in lived practice: virtue arises not from insight alone, but through habituation – through the persistent, daily practice of the right thing until it becomes second nature.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine Wing: The Whole Field in View</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Nine wing (w9) adds a rare breadth to the One's energy: the ability not just to perfectly order a single detail, but to survey and integrate an entire field at once. This is exactly what distinguishes Aristotle from a mere systematizer – he wanted not just to settle individual questions, but to bring the whole known world into one coherent order.</p>
+          <p class="vb-intro">His method was remarkably undogmatic for a One subtype: he dissected animals, observed natural phenomena, collected the political constitutions of Greek city-states – empirical observation instead of pure speculation. This calm, patient breadth of the Nine wing allowed him to write with the same equanimity about logic, biology, and poetics, without entrenching himself in a single battlefield of ideas – an eagle that surveys the entire territory before ordering it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE1w9 is the ability to create order without harshness – a system that does not force the world into rigid rules, but seeks the right mean for each situation. Aristotle's logic, his theory of categories, and his ethics remain cornerstones of Western thought to this day, precisely because they aim at balance rather than dogma.</p>
+          <p class="vb-intro">The shadow showed itself at the end of his life: after the death of Alexander the Great in 336 BC, a wave of anti-Macedonian sentiment turned against Aristotle as Alexander's former tutor. He fled Athens, saying he would not allow the city "to sin twice against philosophy" – a reference to the execution of Socrates. The self-preservation One rarely chooses open resistance in a crisis: it withdraws before the conflict escalates, even when that looks like quiet surrender.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Healing Path: From Strictness to Equanimity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the One leads from anger at one's own and others' imperfection to equanimity – the trust that the world can find its right course even without constant correction. Aristotle himself described this state in his ethics as Eudaimonia, the flourishing, self-contained life that grows out of the practice of virtue over time – not out of a single perfect moment.</p>
+          <p class="vb-intro">His final year in voluntary exile, far from Athens, shows the most mature side of the SE1w9: no bitterness, no last fight for vindication, but the calm withdrawal of an eagle that knows its work speaks for itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: An Order That Carries Millennia</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hardly any thinker has ordered Western knowledge as fundamentally as Aristotle – his logic remained the foundation of scientific reasoning for over two thousand years, his ethics still shapes debates about the good life today, and his biology laid the groundwork for systematic natural observation.</p>
+          <p class="vb-intro">The eagle that sought the golden mean and ordered the entire field of knowledge without forcing it into rigid extremes – that is the lasting image of the self-preservation One with a Nine wing: uncompromising precision, carried by the breadth to see everything in context.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
+        {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SE1w9)"},
       ])}
     </div>
   `);
@@ -47900,6 +47969,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-klaus-kinski": klausKinskiPortraitPage,
       "beruehmte-udo-lindenberg": udoLindenbergPortraitPage,
       "beruehmte-sam-altman": samAltmanPortraitPage,
+      "beruehmte-aristoteles": aristotelesPortraitPage,
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
       "beruehmte-brigitte-bardot": brigitteBardotPortraitPage,
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,

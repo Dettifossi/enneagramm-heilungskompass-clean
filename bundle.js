@@ -31332,6 +31332,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sam Altman \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1985. CEO von OpenAI, Ex-Pr\u00e4sident von Y Combinator. Stilles, methodisches Ringen um eine Zukunft, die noch niemand gebaut hat \u2013 f\u00fcnf Tage Rauswurf und R\u00fcckkehr im November 2023, ohne \u00f6ffentliches Drama. Tierentsprechung: Taube.",
     tags:["Wirtschaft","Technologie"] , gender:"m"},
+  { route:"beruehmte-aristoteles", name:"Aristoteles", added:"2026-08-10", subtyp:"SE1w9",
+    heading:"Aristoteles \u2013 Selbsterhaltender Typ 1",
+    teaser:"SE1w9 \u00b7 384\u2013322 v. Chr. Philosoph, Begr\u00fcnder der Logik, Lehrer Alexanders des Gro\u00dfen. Die goldene Mitte als Lebensprinzip \u2013 kein Kampf gegen die Welt, sondern das ruhige, jahrzehntelange Ordnen allen Wissens in ein einziges System. Tierentsprechung: Adler.",
+    tags:["Philosophie","Geschichte"] , gender:"m"},
   { route:"beruehmte-leonardo-dicaprio", name:"Leonardo DiCaprio", subtyp:"SX1w2",
     heading:"Leonardo DiCaprio \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 geb. 1974. Schauspieler, Klimaaktivist. F\u00fcnfmal Oscar-nominiert, sechsmal angetreten \u2013 und im Moment des Triumphes sprach er \u00fcber den Klimawandel, nicht \u00fcber sich. Die Schwarze Mamba brennt nicht f\u00fcr Applaus. Tierentsprechung: Schwarze Mamba.",
@@ -45752,6 +45756,72 @@ function konradAdenauerPortraitPage() {
     </div>
   `);
 }
+
+function aristotelesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-aristoteles-portrait.jpg" alt="Aristoteles" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Aristoteles</p>
+        <p class="krim-portrait-typ">SE1w9 \u00b7 Selbsterhaltender Typ 1 mit Neunerfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Griechischer Philosoph, 384\u2013322 v. Chr. \u2013 Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler \u00fcber der Akademie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> fliegt allein, hoch genug, um das ganze Feld zu \u00fcberblicken, bevor er sich auf einen einzelnen Punkt konzentriert. Er sucht keine Best\u00e4tigung im Get\u00fcmmel \u2013 er sucht \u00dcbersicht, Ordnung, den klaren Blick auf das Ganze. Kein Denker der Antike verk\u00f6rpert dieses Prinzip so vollst\u00e4ndig wie Aristoteles.</p>
+          <p class="vb-intro">Aristoteles, geboren 384 v. Chr. in Stagira, kam mit siebzehn Jahren an Platons Akademie in Athen und blieb dort fast zwanzig Jahre \u2013 erst als Sch\u00fcler, dann als eigenst\u00e4ndiger Denker. Sp\u00e4ter wurde er Lehrer Alexanders des Gro\u00dfen und gr\u00fcndete schlie\u00dflich seine eigene Schule, das Lykeion. Sein Werk umfasst nahezu jedes Wissensgebiet seiner Zeit: Logik, Physik, Biologie, Ethik, Politik, Poetik, Metaphysik \u2013 ein Lebenswerk von einer Systematik, die bis heute die westliche Wissenschaft pr\u00e4gt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Die goldene Mitte als Lebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> tr\u00e4gt ihre Ma\u00dfst\u00e4be nicht nach au\u00dfen, um andere zu belehren \u2013 sie richtet sie zuerst an sich selbst, mit einer stillen, oft unsichtbaren Strenge. Naranjo nennt diesen Subtyp <em>Worry</em> \u2013 Besorgnis: die st\u00e4ndige, leise Frage, ob man es wirklich richtig macht. Bei Aristoteles zeigt sich das in einem der einflussreichsten ethischen Konzepte der Philosophiegeschichte: der <strong>goldenen Mitte</strong> (Mesotes), dem Prinzip, dass jede Tugend zwischen zwei Extremen liegt \u2013 Mut zwischen Feigheit und Tollk\u00fchnheit, Gro\u00dfz\u00fcgigkeit zwischen Geiz und Verschwendung.</p>
+          <p class="vb-intro">Das ist reine SE1-Signatur: kein moralischer Kreuzzug gegen die Welt, sondern die stille, kontinuierliche Selbstkorrektur, die richtige Balance im eigenen Handeln zu finden und zu halten. Anders als sein Lehrer Platon, der nach ewigen, abstrakten Ideen jenseits der sichtbaren Welt suchte, verankerte Aristoteles seine Ethik in der gelebten Praxis: Tugend entsteht nicht durch Einsicht allein, sondern durch <em>Gew\u00f6hnung</em> \u2013 durch das beharrliche, t\u00e4gliche Ein\u00fcben des Richtigen, bis es zur zweiten Natur wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\u00fcgel: Das ganze Feld im Blick</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\u00fcgel (w9)</strong> f\u00fcgt der Einser-Energie eine seltene Weite hinzu: die F\u00e4higkeit, nicht nur ein Detail perfekt zu ordnen, sondern ein ganzes Feld zugleich zu \u00fcberblicken und zu integrieren. Genau das unterscheidet Aristoteles von einem blo\u00dfen Systematiker \u2013 er wollte nicht nur einzelne Fragen kl\u00e4ren, sondern die gesamte bekannte Welt in ein zusammenh\u00e4ngendes Ordnungssystem bringen.</p>
+          <p class="vb-intro">Seine Methode war dabei erstaunlich undogmatisch f\u00fcr einen Einser-Subtyp: Er sezierte Tiere, beobachtete Naturph\u00e4nomene, sammelte politische Verfassungen griechischer Stadtstaaten \u2013 empirische Beobachtung statt reiner Spekulation. Diese ruhige, geduldige Weite des Neunerfl\u00fcgels erlaubte ihm, mit derselben Gelassenheit \u00fcber Logik, Biologie und Dichtkunst zu schreiben, ohne sich in einem einzigen Kampfplatz der Ideen zu verk\u00e4mpfen \u2013 ein Adler, der das ganze Territorium vermisst, bevor er es ordnet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 ist die F\u00e4higkeit, <strong>Ordnung ohne H\u00e4rte</strong> zu schaffen \u2013 ein System, das die Welt nicht in starre Regeln zw\u00e4ngt, sondern die richtige Mitte f\u00fcr jede Situation sucht. Aristoteles' Logik, seine Kategorienlehre und seine Ethik sind bis heute Grundpfeiler des westlichen Denkens, gerade weil sie auf Ausgewogenheit statt auf Dogma zielen.</p>
+          <p class="vb-intro">Der Schatten zeigte sich am Ende seines Lebens: Nach dem Tod Alexanders des Gro\u00dfen 336 v. Chr. schlug den Athenern eine Welle antimakedonischer Stimmung entgegen, die sich gegen Aristoteles als fr\u00fcheren Lehrer des Alexander richtete. Er floh aus Athen mit den Worten, er wolle nicht zulassen, dass die Stadt sich \u201eein zweites Mal an der Philosophie vers\u00fcndige" \u2013 eine Anspielung auf die Hinrichtung des Sokrates. Die selbsterhaltende Eins w\u00e4hlt in der Krise selten den offenen Widerstand: Sie zieht sich zur\u00fcck, bevor der Konflikt eskaliert, auch wenn das wie stilles Nachgeben wirkt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Von der Strenge zur Gelassenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins f\u00fchrt vom Zorn \u00fcber das eigene und fremde Unvollkommensein zur Gelassenheit \u2013 dem Vertrauen, dass die Welt auch ohne permanente Korrektur ihren richtigen Lauf finden kann. Aristoteles selbst beschrieb diesen Zustand in seiner Ethik als <em>Eudaimonia</em>, das gelingende, in sich ruhende Leben, das aus der \u00dcbung der Tugend \u00fcber Zeit erw\u00e4chst \u2013 nicht aus einem einzelnen perfekten Moment.</p>
+          <p class="vb-intro">Sein letztes Lebensjahr in der freiwilligen Verbannung, fern von Athen, zeigt die reifste Seite der SE1w9: keine Bitterkeit, kein letzter Kampf um Rechtfertigung, sondern der ruhige R\u00fcckzug eines Adlers, der wei\u00df, dass sein Werk f\u00fcr sich selbst spricht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Verm\u00e4chtnis: Ordnung, die Jahrtausende tr\u00e4gt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kaum ein Denker hat das abendl\u00e4ndische Wissen so grundlegend geordnet wie Aristoteles \u2013 seine Logik blieb \u00fcber zwei Jahrtausende das Fundament wissenschaftlichen Schlie\u00dfens, seine Ethik pr\u00e4gt bis heute Debatten \u00fcber das gute Leben, seine Biologie legte den Grundstein f\u00fcr die systematische Naturbeobachtung.</p>
+          <p class="vb-intro">Der Adler, der die goldene Mitte suchte und das gesamte Feld des Wissens ordnete, ohne es in starre Extreme zu zwingen \u2013 das ist das bleibende Bild der selbsterhaltenden Eins mit Neunerfl\u00fcgel: kompromisslose Genauigkeit, getragen von der Weite, alles im Zusammenhang zu sehen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se1", label:"SE1 \u2013 Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-sting", label:"Portr\xe4t: Sting (SE1w9)"},
+        {route:"beruehmte-konrad-adenauer", label:"Portr\xe4t: Konrad Adenauer (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
 function edgarAllanPoePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -81949,6 +82019,7 @@ function render() {
       "beruehmte-klaus-kinski": klausKinskiPortraitPage,
       "beruehmte-udo-lindenberg": udoLindenbergPortraitPage,
       "beruehmte-sam-altman": samAltmanPortraitPage,
+      "beruehmte-aristoteles": aristotelesPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
