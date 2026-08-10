@@ -24082,6 +24082,7 @@ const registerEntries = [
   { term: "Fjodor Dostojewski",            route: "beruehmte-fjodor-dostojewski",          description: "Portrait: SE6w5 \u00b7 Selbsterhaltender Typ 6 \u00b7 Schriftsteller, Schuld und S\u00fchne" },
   { term: "Herbert Kickl",                 route: "beruehmte-herbert-kickl",               description: "Portrait: SX6w5 \u00b7 Sexueller Typ 6 \u00b7 FP\u00d6-Vorsitzender, Misstrauen & System" },
   { term: "Malaika Mihambo",               route: "beruehmte-malaika-mihambo",             description: "Portrait: SE6w5 \u00b7 Selbsterhaltender Typ 6 \u00b7 Weitspringerin, Olympiasiegerin" },
+  { term: "Mahatma Gandhi",                route: "beruehmte-mahatma-gandhi",              description: "Portrait: SE6w5 \u00b7 Selbsterhaltender Typ 6 \u00b7 Freiheitsk\u00e4mpfer, gewaltloser Widerstand" },
   { term: "Jack Black",                    route: "beruehmte-jack-black",                  description: "Portrait: SE2w1 \u00b7 Selbsterhaltender Typ 2 \u00b7 Schauspieler, Musiker, School of Rock" },
   { term: "James Corden",                  route: "beruehmte-james-corden",                description: "Portrait: SO6w7 \u00b7 Sozialer Typ 6 \u00b7 Schauspieler, Moderator, The Late Late Show" },
 { term: "Ina M\u00fcller",                 route: "beruehmte-ina-mueller",         description: "Portrait: SX7w8 \u00b7 Sexueller Typ 7 \u00b7 S\u00e4ngerin, Kabarettistin" },
@@ -24375,6 +24376,7 @@ const registerEntriesEN = [
   { term: "Fjodor Dostojewski", route: "beruehmte-fjodor-dostojewski", description: "Portrait: SE6w5 \u00b7 Self-Preservation Type 6 \u00b7 Writer, Crime and Punishment" },
   { term: "Herbert Kickl", route: "beruehmte-herbert-kickl", description: "Portrait: SX6w5 \u00b7 Sexual Type 6 \u00b7 FP\u00d6 chairman, mistrust & system" },
   { term: "Malaika Mihambo", route: "beruehmte-malaika-mihambo", description: "Portrait: SP6w5 \u00b7 Self-Preservation Type 6 \u00b7 Long jumper, Olympic champion" },
+  { term: "Mahatma Gandhi", route: "beruehmte-mahatma-gandhi", description: "Portrait: SP6w5 \u00b7 Self-Preservation Type 6 \u00b7 Freedom fighter, nonviolent resistance" },
   { term: "Jack Black", route: "beruehmte-jack-black", description: "Portrait: SE2w1 \u00b7 Self-Preservation Type 2 \u00b7 Actor, musician, School of Rock" },
   { term: "James Corden", route: "beruehmte-james-corden", description: "Portrait: SO6w7 \u00b7 Social Type 6 \u00b7 Actor, TV host, The Late Late Show" },
   { term: "Ina M\u00fcller", route: "beruehmte-ina-mueller", description: "Portrait: SX7w8 \u00b7 Sexual Type 7 \u00b7 Singer, Comedian" },
@@ -31681,6 +31683,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Malaika Mihambo \u2013 Selbsterhaltender Typ 6",
     teaser:"SE6w5 \u00b7 geb. 1994. Leichtathletin, Weitsprung. Olympiasiegerin Tokio 2021, zweifache Weltmeisterin. Das Kaninchen, das genug gepr\u00fcft hat, um im entscheidenden Moment zu springen.",
     tags:["Sport"], gender:"f"},
+  { route:"beruehmte-mahatma-gandhi", name:"Mahatma Gandhi", added:"2026-08-10", subtyp:"SE6w5",
+    heading:"Mahatma Gandhi \u2013 Selbsterhaltender Typ 6",
+    teaser:"SE6w5 \u00b7 1869\u20131948. Indischer Anwalt und Freiheitsk\u00e4mpfer. Ahimsa, Satyagraha, gewaltloser Widerstand gegen die britische Kolonialherrschaft. Das Kaninchen, das seine scheinbare Wehrlosigkeit in unangreifbare Kraft verwandelte und ein Weltreich ins Wanken brachte.",
+    tags:["Politik","Geschichte"], gender:"m"},
   { route:"beruehmte-neil-armstrong", name:"Neil Armstrong", added:"2026-07-21", subtyp:"SE6w7",
     heading:"Neil Armstrong \u2013 Selbsterhaltender Typ 6",
     teaser:"SE6w7 \xb7 1930\u20132012. Pilot, Astronaut. Erster Mensch auf dem Mond, 20. Juli 1969. Das Kaninchen, das den au\xdferordentlichsten Schritt der Menschheitsgeschichte tat \u2013 und danach nur noch nach Hause wollte.",
@@ -46200,6 +46206,77 @@ function udoJuergensPortraitPage() {
         {route:"subtype/se1", label:"SE1 \u2013 Der Adler: Subtyp-Profil"},
         {route:"beruehmte-dan-brown", label:"Portr\xe4t: Dan Brown (SE1w2)"},
         {route:"beruehmte-marie-kondo", label:"Portr\xe4t: Marie Kondo (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
+function mahatmaGandhiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mahatma-gandhi-portrait.jpg" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mahatma Gandhi</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit F\u00fcnferfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Indischer Anwalt und Freiheitsk\u00e4mpfer, 1869&ndash;1948 &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Eine der spannendsten Typisierungsfragen des Enneagramms</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mohandas Karamchand Gandhi, genannt Mahatma (&bdquo;gro\u00dfe Seele&ldquo;), wurde 1869 in Porbandar geboren, studierte Jura in London und entwickelte in S\u00fcdafrika und sp\u00e4ter in Indien die Strategie des gewaltlosen Widerstands, mit der er die indische Unabh\u00e4ngigkeitsbewegung entscheidend pr\u00e4gte. 1948 wurde er ermordet, wenige Monate nach der Unabh\u00e4ngigkeit Indiens.</p>
+          <p class="vb-intro">Kaum eine historische Pers\u00f6nlichkeit wird im Enneagramm so kontrovers diskutiert wie Gandhi. Die meisten popul\u00e4ren Zuordnungen sehen in ihm die klassische soziale Eins &ndash; den moralischen Reformer. Eine tiefere psychologische Analyse nach Claudio Naranjo kommt jedoch zu einem anderen Schluss: der selbsterhaltenden Sechs mit F\u00fcnferfl\u00fcgel. Dieses Portr\u00e4t zeichnet beide Sichtweisen nach und begr\u00fcndet, warum wir uns als App f\u00fcr die zweite entscheiden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die popul\u00e4re Sicht: Gandhi als soziale Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auf den ersten Blick liefert Gandhi das Bild eines Musterbeispiels der sozialen Eins: der unbeugsame Moralist, der gegen Unrecht und Diskriminierung k\u00e4mpft, mit einer Zivilcourage, die keine Kompromisse duldet. Seine Fixierung auf Selbstoptimierung &ndash; strenge Di\u00e4ten, jahrzehntelange sexuelle Enthaltsamkeit, akribische Selbstpr\u00fcfung in seiner Autobiografie &bdquo;Meine Experimente mit der Wahrheit&ldquo; &ndash; passt auf den ersten Blick zur Einser-Signatur von Selbstkontrolle und Perfektionsstreben.</p>
+          <p class="vb-intro">Doch diese Sicht beschreibt vor allem das \u00e4u\u00dfere Verhalten &ndash; das Was, nicht das Warum. Typ 1 handelt aus unterdr\u00fccktem, sublimiertem Zorn (Groll), der sich in st\u00e4ndiger Korrektur von sich selbst und der Welt entl\u00e4dt. Bei Gandhi war der emotionale Kern jedoch ein anderer: kein verdr\u00e4ngter Zorn, sondern ein lebenslanges Ringen mit Angst, Selbstzweifel und dem rastlosen Suchen nach einer absoluten, verl\u00e4sslichen Wahrheit, an der er sich festhalten konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die psychologische Ebene nach Naranjo: die selbsterhaltende Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo, der Begr\u00fcnder des modernen Subtypen-Systems, ordnete Gandhi der <strong>selbsterhaltenden Sechs (SE6)</strong> zu &ndash; und diese Zuordnung erkl\u00e4rt seine innere Dynamik weit treffender als die Eins. Die selbsterhaltende Sechs bew\u00e4ltigt eine als bedrohlich erlebte Welt nicht durch Kampf, sondern durch radikale Harmlosigkeit: Wenn ich niemandem gef\u00e4hrlich bin, kann mir nichts geschehen. Genau das ist die Reinform von <strong>Ahimsa</strong>, dem Prinzip der Gewaltlosigkeit, das Gandhi zu seiner Lebensphilosophie machte &ndash; keine passive Schw\u00e4che, sondern eine Strategie, radikale Verletzlichkeit in eine kaum angreifbare moralische Kraft zu verwandeln.</p>
+          <p class="vb-intro">Auch sein Konzept des <strong>Satyagraha</strong> (&bdquo;Festhalten an der Wahrheit&ldquo;) tr\u00e4gt die Handschrift der Sechs: Nicht der moralische Zorn der Eins trieb ihn an, sondern die typische Sechser-Suche nach einem unumst\u00f6\u00dflichen Ankerpunkt jenseits des eigenen Zweifels &ndash; Wahrheit, f\u00fcr Gandhi untrennbar mit Gott verbunden, wurde zur Zuflucht, an der sich alle Angst brechen konnte. Seine zahllosen selbst auferlegten Gel\u00fcbde &ndash; Armut, Keuschheit, wiederkehrendes Fasten &ndash; lassen sich als psychologische Schutzstrukturen lesen: \u00e4u\u00dfere, unverr\u00fcckbare Regeln, die dem inneren Zweifel der Sechs eine feste Form entgegensetzten.</p>
+          <p class="vb-intro">Der F\u00fcnferfl\u00fcgel und die Selbsterhaltungsvariante erkl\u00e4ren zus\u00e4tzlich, warum sich diese Angstbew\u00e4ltigung so sehr auf den eigenen K\u00f6rper und die materielle Grundversorgung richtete: Gandhis symbolisches Spinnen der eigenen Kleidung (Khadi), seine \u00f6ffentlichen Fastenaktionen und sein bewusst einfaches, k\u00e4rgliches Leben trafen exakt den Nerv der einfachen, armen Bev\u00f6lkerung Indiens &ndash; eine tiefe, gelebte Solidarit\u00e4t mit den Schwachen und Unterdr\u00fcckten, die f\u00fcr die selbsterhaltende Sechs charakteristisch ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein weiteres Kriterium: das Enneagramm-Profiling nach David L. Rathmer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">\u00dcber die psychologische Analyse nach Naranjo hinaus liefert das Enneagramm-Profiling\u00ae nach David L. Rathmer &ndash; ein System der Blick- und Antlitzdiagnose im Enneagramm &ndash; ein weiteres, erg\u00e4nzendes Diagnosekriterium f\u00fcr die Typzuordnung. Nach diesem System weisen bestimmte konstitutionelle und antlitzdiagnostische Merkmale bei Gandhi zus\u00e4tzlich auf die selbsterhaltende Sechs mit F\u00fcnferfl\u00fcgel hin.</p>
+          <p class="vb-intro">Konkret verweist das Profiling-System auf die Nasenform und die Blickqualit\u00e4t, die in diesem Ansatz dem Kopftyp (dem mentalen Zentrum) zugeordnet werden, sowie auf die Zuordnung zur m\u00e4nnlichen Seite des Enneagramms anhand der Gesichtsstruktur &ndash; Merkmale, die nach diesem Diagnosesystem auf das prim\u00e4re Verarbeitungszentrum im Kopf- beziehungsweise Angst-Zentrum hindeuten. Als eigenst\u00e4ndige, erg\u00e4nzende Diagnoseebene neben der psychologischen Analyse f\u00fcgt das Enneagramm-Profiling nach David L. Rathmer damit einen weiteren Baustein zum Gesamtbild der selbsterhaltenden Sechs hinzu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der F\u00fcnferfl\u00fcgel: R\u00fcckzug als Kraftquelle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> zeigt sich in Gandhis ausgepr\u00e4gtem Bed\u00fcrfnis nach zur\u00fcckgezogenen Phasen der Reflexion &ndash; regelm\u00e4\u00dfige Schweigetage, in denen er weder sprach noch schrieb, waren fester Bestandteil seines Lebens. Diese R\u00fcckz\u00fcge dienten nicht der Flucht, sondern der Sammlung: Bevor er in die n\u00e4chste \u00f6ffentliche Konfrontation ging, brauchte er Phasen des inneren Ordnens, des Studierens religi\u00f6ser und philosophischer Texte, des Nachdenkens.</p>
+          <p class="vb-intro">Auch seine akribische, fast wissenschaftliche Herangehensweise an den gewaltlosen Widerstand &ndash; minuti\u00f6s geplante Kampagnen, detaillierte schriftliche Anleitungen f\u00fcr seine Anh\u00e4nger, jahrelange Beobachtung dessen, was funktionierte und was nicht &ndash; tr\u00e4gt die analytische Handschrift des F\u00fcnferfl\u00fcgels: Die Angst der Sechs wird nicht nur ausgehalten, sondern durch Verstehen und Systematisierung eingehegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE6w5 ist die F\u00e4higkeit, <strong>tiefe Angst in eine gewaltlose, kaum angreifbare Kraft</strong> zu verwandeln &ndash; Gandhi bewies, dass radikale Verletzlichkeit, bewusst gew\u00e4hlt und diszipliniert durchgehalten, eine der wirkungsvollsten politischen Waffen der Geschichte werden kann. Seine Kampagnen gegen die britische Kolonialherrschaft ver\u00e4nderten nicht nur Indien, sondern inspirierten B\u00fcrgerrechtsbewegungen weltweit, von Martin Luther King bis Nelson Mandela.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in einer mitunter kompromisslosen Strenge gegen\u00fcber der eigenen Familie &ndash; seine S\u00f6hne, insbesondere sein \u00e4ltester Sohn Harilal, litten unter seinen extrem hohen moralischen Anspr\u00fcchen und dem \u00f6ffentlichen Charakter seines Privatlebens. Auch seine sp\u00e4ten, umstrittenen &bdquo;Keuschheitsexperimente&ldquo;, bei denen er im hohen Alter seine sexuelle Selbstbeherrschung testete, werfen bis heute ethische Fragen auf. Die Kehrseite der selbsterhaltenden Sechs: Die Suche nach einem unersch\u00fctterlichen inneren Anker kann sich in Formen von Selbstpr\u00fcfung entladen, die anderen wie auch einem selbst schweren Schaden zuf\u00fcgen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Fazit: Verhalten t\u00e4uscht, die Motivation entscheidet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Verhalten und \u00e4u\u00dfere Erscheinung sprechen f\u00fcr die Eins &ndash; Disziplin, Reformwille, moralische Klarheit. Doch die tiefere psychologische Motivation, wie Naranjo sie herausarbeitete, und das erg\u00e4nzende Diagnosekriterium des Enneagramm-Profilings nach David L. Rathmer weisen \u00fcbereinstimmend auf die selbsterhaltende Sechs mit F\u00fcnferfl\u00fcgel: die Transformation von Angst und Verletzlichkeit in gewaltlose Macht durch radikale Hingabe an die Wahrheit.</p>
+          <p class="vb-intro">Das Kaninchen, das sich in seiner scheinbaren Wehrlosigkeit als unangreifbar erwies und damit ein Weltreich ins Wanken brachte &ndash; das ist das bleibende Bild der selbsterhaltenden Sechs mit F\u00fcnferfl\u00fcgel: Angst, die nicht \u00fcberwunden, sondern in eine der st\u00e4rksten gewaltlosen Kr\u00e4fte der Geschichte verwandelt wurde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se6", label:"SE6 \u2013 Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-sundar-pichai", label:"Portr\xe4t: Sundar Pichai (SE6w5)"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portr\xe4t: Fjodor Dostojewski (SE6w5)"},
       ])}
     </div>
   `);
@@ -81562,6 +81639,7 @@ function render() {
     "beruehmte-marcel-proust": marcelProustPortraitPage,
     "beruehmte-leonardo-da-vinci": leonardoDaVinciPortraitPage,
     "beruehmte-udo-juergens": udoJuergensPortraitPage,
+    "beruehmte-mahatma-gandhi": mahatmaGandhiPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,

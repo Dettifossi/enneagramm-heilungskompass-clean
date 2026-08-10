@@ -465,6 +465,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Malaika Mihambo – Self-Preservation Type 6",
     teaser:"SP6w5 · born 1994. Track and field athlete, long jump. Olympic champion Tokyo 2021, two-time world champion. The rabbit that tested enough to jump at the decisive moment.",
     tags:["Sport"] },
+  { route:"beruehmte-mahatma-gandhi", name:"Mahatma Gandhi", added:"2026-08-10", subtyp:"SE6w5",
+    heading:"Mahatma Gandhi – Self-Preservation Type 6",
+    teaser:"SP6w5 · 1869–1948. Indian lawyer and freedom fighter. Ahimsa, Satyagraha, nonviolent resistance against British colonial rule. The rabbit that turned its apparent defenselessness into unassailable strength and shook an empire.",
+    tags:["Politics","History"], gender:"m"},
   { route:"beruehmte-beatrice-chebet", name:"Beatrice Chebet", subtyp:"SE6w7",
     heading:"Beatrice Chebet – Self-Preservation Type 6",
     teaser:"SP6w7 · born 2000. Kenyan long-distance runner. Double Olympic champion Paris 2024. The rabbit that does not flee the course – but finds home upon it.",
@@ -18008,6 +18012,78 @@ function udoJuergensPortraitPage() {
         {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
         {route:"beruehmte-dan-brown", label:"Portrait: Dan Brown (SE1w2)"},
         {route:"beruehmte-marie-kondo", label:"Portrait: Marie Kondo (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function mahatmaGandhiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-mahatma-gandhi-portrait.jpg" alt="Rabbit" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mahatma Gandhi</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Indian lawyer and freedom fighter, 1869&ndash;1948 &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. One of the Enneagram's Most Fascinating Typing Questions</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mohandas Karamchand Gandhi, called Mahatma ("great soul"), was born in 1869 in Porbandar, studied law in London, and developed in South Africa and later in India the strategy of nonviolent resistance with which he decisively shaped the Indian independence movement. He was assassinated in 1948, just months after India's independence.</p>
+          <p class="vb-intro">Few historical figures are as controversially discussed in the Enneagram as Gandhi. Most popular typings see in him the classic social One &ndash; the moral reformer. A deeper psychological analysis following Claudio Naranjo, however, reaches a different conclusion: the self-preservation Six with a Five-wing. This portrait traces both perspectives and explains why our app sides with the latter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Popular View: Gandhi as the Social One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At first glance, Gandhi offers a textbook picture of the social One: the unbending moralist who fights injustice and discrimination with a civic courage that tolerates no compromise. His fixation on self-optimization &ndash; strict diets, decades of sexual abstinence, meticulous self-examination in his autobiography "The Story of My Experiments with Truth" &ndash; seems at first to fit the One's signature of self-control and the drive for perfection.</p>
+          <p class="vb-intro">But this view describes mainly the outward behavior &ndash; the what, not the why. The One acts from suppressed, sublimated anger (resentment) that discharges itself in constant correction of oneself and the world. In Gandhi, however, the emotional core was different: not repressed anger, but a lifelong wrestling with fear, self-doubt, and a restless search for an absolute, reliable truth to hold onto.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Psychological Level According to Naranjo: The Self-Preservation Six</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo, the founder of the modern subtype system, assigned Gandhi to the <strong>self-preservation Six (SP6)</strong> &ndash; and this assignment explains his inner dynamic far more precisely than the One does. The self-preservation Six copes with a world experienced as threatening not through fighting, but through radical harmlessness: if I am dangerous to no one, nothing can happen to me. This is precisely the pure form of <strong>Ahimsa</strong>, the principle of nonviolence that Gandhi made his life philosophy &ndash; not passive weakness, but a strategy of turning radical vulnerability into an almost unassailable moral force.</p>
+          <p class="vb-intro">His concept of <strong>Satyagraha</strong> ("holding firmly to truth") likewise bears the signature of the Six: it was not the moral anger of the One that drove him, but the Six's typical search for an unshakeable anchor point beyond one's own doubt &ndash; truth, for Gandhi inseparable from God, became a refuge against which all fear could break. His countless self-imposed vows &ndash; poverty, chastity, recurring fasting &ndash; can be read as psychological protective structures: fixed, external rules set against the Six's inner doubt.</p>
+          <p class="vb-intro">The Five-wing and the self-preservation variant further explain why this fear-management focused so intensely on his own body and basic material provision: Gandhi's symbolic spinning of his own clothing (khadi), his public fasts, and his deliberately simple, sparse life struck exactly the nerve of India's poor and ordinary people &ndash; a deep, lived solidarity with the weak and oppressed, characteristic of the self-preservation Six.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A Further Criterion: Enneagram Profiling According to David L. Rathmer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Beyond the psychological analysis following Naranjo, Enneagram Profiling® according to David L. Rathmer &ndash; a system of gaze and facial diagnosis within the Enneagram &ndash; offers a further, complementary diagnostic criterion for the type assignment. According to this system, certain constitutional and facial-diagnostic features in Gandhi additionally point to the self-preservation Six with a Five-wing.</p>
+          <p class="vb-intro">Specifically, the profiling system points to the shape of the nose and the quality of the gaze, which in this approach are assigned to the head type (the mental center), as well as to the assignment to the male side of the Enneagram based on facial structure &ndash; features that, according to this diagnostic system, indicate the primary processing center in the head, or fear, center. As an independent, complementary diagnostic layer alongside the psychological analysis, Enneagram Profiling according to David L. Rathmer thus adds a further building block to the overall picture of the self-preservation Six.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Five-Wing: Withdrawal as a Source of Strength</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> shows itself in Gandhi's pronounced need for withdrawn periods of reflection &ndash; regular days of silence, during which he neither spoke nor wrote, were a fixed part of his life. These withdrawals did not serve as escape but as gathering: before entering the next public confrontation, he needed phases of inner ordering, of studying religious and philosophical texts, of reflection.</p>
+          <p class="vb-intro">His meticulous, almost scientific approach to nonviolent resistance &ndash; carefully planned campaigns, detailed written instructions for his followers, years of observing what worked and what didn't &ndash; likewise carries the analytical signature of the Five-wing: the Six's fear is not merely endured but contained through understanding and systematization.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP6w5 is the ability to turn <strong>deep fear into a nonviolent, nearly unassailable force</strong> &ndash; Gandhi proved that radical vulnerability, deliberately chosen and disciplined, can become one of the most effective political weapons in history. His campaigns against British colonial rule changed not only India but inspired civil rights movements worldwide, from Martin Luther King to Nelson Mandela.</p>
+          <p class="vb-intro">The shadow showed itself in an at times uncompromising strictness toward his own family &ndash; his sons, especially his eldest son Harilal, suffered under his extremely high moral demands and the public nature of his private life. His late, controversial "brahmacharya experiments," in which he tested his sexual self-control in old age, also raise ethical questions to this day. The flip side of the self-preservation Six: the search for an unshakeable inner anchor can discharge itself in forms of self-examination that inflict serious harm, both on others and on oneself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Conclusion: Behavior Deceives, Motivation Decides</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Behavior and outward appearance speak for the One &ndash; discipline, reform-mindedness, moral clarity. But the deeper psychological motivation, as Naranjo worked it out, and the complementary diagnostic criterion of Enneagram Profiling according to David L. Rathmer, together point to the self-preservation Six with a Five-wing: the transformation of fear and vulnerability into nonviolent power through radical devotion to truth.</p>
+          <p class="vb-intro">The rabbit that, in its apparent defenselessness, proved unassailable and thereby shook an empire &ndash; that is the lasting image of the self-preservation Six with a Five-wing: fear that was not overcome but transformed into one of the strongest nonviolent forces in history.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SP6w5)"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fyodor Dostoevsky (SP6w5)"},
       ])}
     </div>
   `);
@@ -47494,6 +47570,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-marcel-proust": marcelProustPortraitPage,
       "beruehmte-leonardo-da-vinci": leonardoDaVinciPortraitPage,
       "beruehmte-udo-juergens": udoJuergensPortraitPage,
+      "beruehmte-mahatma-gandhi": mahatmaGandhiPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,
