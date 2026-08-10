@@ -5546,7 +5546,7 @@ function subtypePage(code) {
       <p class="lead-small">${entry.coreSentence}</p>
       <div style="margin-top:1.25rem; border-radius:0.5rem; overflow:hidden; border:1px solid var(--line); cursor:zoom-in;"
            data-comic-open="${code.toLowerCase()}" title="Antippen zum Vergrößern">
-        <img src="${CDN}assets/comics/${code.toLowerCase()}.jpg"
+        <img src="${R2_CDN}assets/comics/${code.toLowerCase()}.jpg"
              alt="Comic: ${entry.code} &ndash; ${entry.title}"
              style="width:100%; display:block; filter:contrast(1.05); pointer-events:none;" />
       </div>
@@ -6668,7 +6668,7 @@ function bindEvents() {
       const code = el.dataset.comicOpen;
       const lb = document.createElement("div");
       lb.style.cssText = "position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.92);display:flex;align-items:center;justify-content:center;cursor:zoom-out;padding:1rem;";
-      lb.innerHTML = `<img src="${CDN}assets/comics/${code}.jpg" style="max-width:100%;max-height:100vh;border-radius:0.5rem;box-shadow:0 8px 40px rgba(0,0,0,0.6);filter:contrast(1.08);" />`;
+      lb.innerHTML = `<img src="${R2_CDN}assets/comics/${code}.jpg" style="max-width:100%;max-height:100vh;border-radius:0.5rem;box-shadow:0 8px 40px rgba(0,0,0,0.6);filter:contrast(1.08);" />`;
       lb.addEventListener("click", () => lb.remove());
       document.body.appendChild(lb);
     });
@@ -9672,7 +9672,7 @@ function beziehungenPage() {
         <div style="border-radius:0.4rem; overflow:hidden; border:1px solid var(--line); background:var(--paper); cursor:zoom-in;"
              data-comic-open="${code.toLowerCase()}"
              title="${code} &ndash; antippen zum Vergrößern">
-          <img src="${CDN}assets/comics/${code.toLowerCase()}.jpg"
+          <img src="${R2_CDN}assets/comics/${code.toLowerCase()}.jpg"
                alt="Comic ${code}"
                style="width:100%; display:block; filter:contrast(1.05); pointer-events:none;" />
           <div style="text-align:center; font-size:0.72rem; font-weight:700; color:${TYPE_COLORS[parseInt(code.slice(-1))]||'var(--copper)'}; background:color-mix(in srgb,${TYPE_COLORS[parseInt(code.slice(-1))]||'var(--copper)'} 10%,var(--paper)); padding:0.3rem 0; border-top:1px solid var(--line);">${code}</div>
@@ -45829,7 +45829,7 @@ function subtypChecklistePage() {
         <button class="ghost-link psycho-back" data-route="subtypen-checklisten/${typNr}">← Typ ${typNr} Subtypen</button>
         <h1 class="psycho-detail__title">Typ ${typNr} · ${INSTINKT_LABEL[inst]} (${INSTINKT_KURZ[inst]}${typNr})</h1>
         <div class="psycho-img-wrap">
-          <img src="${CDN}assets/schaubilder/subtypen-checklisten/${code}.jpg"
+          <img src="${R2_CDN}assets/schaubilder/subtypen-checklisten/${code}.jpg"
                alt="Checkliste ${INSTINKT_KURZ[inst]}${typNr}"
                class="psycho-img" />
         </div>
@@ -46627,7 +46627,7 @@ function psychogrammePage() {
         <h1 class="psycho-detail__title">Typ ${t.typ} &ndash; ${t.name}</h1>
         <p class="psycho-detail__kern">${t.kern}</p>
         <div class="psycho-img-wrap">
-          <img src="${CDN}assets/schaubilder/psychogramme/typ-${t.typ}.jpg" alt="Psychogramm Typ ${t.typ}" class="psycho-img" />
+          <img src="${R2_CDN}assets/schaubilder/psychogramme/typ-${t.typ}.jpg" alt="Psychogramm Typ ${t.typ}" class="psycho-img" />
         </div>
       </div>
     `);
