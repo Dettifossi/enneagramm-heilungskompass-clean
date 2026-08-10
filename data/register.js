@@ -34,6 +34,8 @@ export const registerEntries = [
   { term: "Musik",                           route: "musik",                         description: "Musikempfehlungen passend zum Enneagramm-Typ · Playlist-Zuordnungen" },
   { term: "Persönlichkeitsmodelle im Vergleich", route: "persoenlichkeitsmodelle-vergleich", description: "Schaubild: Enneagramm vs. MBTI, Big Five, DISG und andere Modelle" },
   { term: "Portraits Wegbegleiter",          route: "portraits-wegbegleiter",        description: "Enneagramm-Portraits persönlicher Wegbegleiter und Lehrfiguren" },
+  { term: "Praxistipps vom Heilpraktiker",   route: "praxistipps-heilpraktiker",     description: "Körperorientierte Praxistipps aus der Heilpraxis von Detlef Rathmer" },
+  { term: "Faszienübungen für die Rumpfgesundheit", route: "praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", description: "Schaubild: vier Faszienübungen gegen die Folgen des vielen Sitzens" },
   { term: "Stille",                          route: "stille",                        description: "Meditation & Stille: eine Übung für jeden Enneagramm-Typ" },
   { term: "Tritypen",                        route: "tritypen",                      description: "Schaubild: Die 27 Tritypen – Kombination aus einem Typ pro Triade" },
 
@@ -1283,6 +1285,8 @@ export const registerEntriesEN = [
   { term: "Portrait Type 8", route: "portrait-typ-8", description: "Personality portrait of Enneagram Type 8 · lust, power, directness" },
   { term: "Portrait Type 9", route: "portrait-typ-9", description: "Personality portrait of Enneagram Type 9 · sloth, harmony, fusion" },
   { term: "Portraits of Companions", route: "portraits-wegbegleiter", description: "Enneagram portraits of personal companions and teacher figures" },
+  { term: "Practical Tips from the Naturopath", route: "praxistipps-heilpraktiker", description: "Body-oriented practical tips from Detlef Rathmer's naturopathic practice" },
+  { term: "Fascia Exercises for Core Health", route: "praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", description: "Chart: four fascia exercises against the effects of prolonged sitting" },
   { term: "Silence", route: "stille", description: "Meditation & silence: an exercise for every Enneagram type" },
   { term: "Tritypes", route: "tritypen", description: "Chart: the 27 tritypes – combination of one type per triad" }
 ];

@@ -3387,6 +3387,12 @@ function toolsPage() {
         <p>Ihren persönlichen TCM-Meridian, Organzeiten und Akupunktur-Empfehlungen ansehen.</p>
         <span class="tool-card__arrow">Öffnen →</span>
       </button>
+      <button class="tool-card tool-card--link" data-route="praxistipps-heilpraktiker">
+        <span>Körper · Alltag · Heilpraxis</span>
+        <h2>Praxistipps vom Heilpraktiker</h2>
+        <p>Konkrete, körperorientierte Impulse aus der heilpraktischen Praxis von Detlef Rathmer – ergänzend zum Enneagramm-Heilungsweg.</p>
+        <span class="tool-card__arrow">Ansehen →</span>
+      </button>
     </section>
   `);
 }
@@ -3926,6 +3932,95 @@ function practicePage() {
         <p>Neun vollständige Alben — eines für jeden Enneagrammtyp. Jedes Album begleitet dich ca. 1 Std. 20 Min. in die Stille und Tiefe deines Typs.</p>
         <span class="tool-card__arrow">Anhören →</span>
       </button>
+      <button class="tool-card tool-card--link" data-route="praxistipps-heilpraktiker">
+        <span>Körper · Alltag · Heilpraxis</span>
+        <h2>Praxistipps vom Heilpraktiker</h2>
+        <p>Konkrete, körperorientierte Impulse aus der heilpraktischen Praxis von Detlef Rathmer – ergänzend zum Enneagramm-Heilungsweg.</p>
+        <span class="tool-card__arrow">Ansehen →</span>
+      </button>
+    </section>
+  `);
+}
+
+function praxistippsHeilpraktikerPage() {
+  const TIPPS = [
+    { slug:"faszienuebungen-rumpfgesundheit", titel:"Faszienübungen für die Rumpfgesundheit", teaser:"Vier einfache Übungen gegen die Folgen des vielen Sitzens – Dead Bug, Bird-Dog, Katze-Kuh und Kobra.", img:"./assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg" },
+  ];
+
+  const param = state.route.split("/")[1] || null;
+  if (param === "faszienuebungen-rumpfgesundheit") {
+    return faszienuebungenRumpfgesundheitPage();
+  }
+
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1>Praxistipps vom Heilpraktiker</h1>
+      <p class="lead-small">Konkrete, körperorientierte Impulse aus der heilpraktischen Praxis von Detlef Rathmer – ergänzend zum Enneagramm-Heilungsweg. Diese Rubrik wird laufend um neue Themen erweitert.</p>
+      <div class="tool-grid" style="margin-top:1.5rem;">
+        ${TIPPS.map(t => `
+          <button class="tool-card tool-card--link" data-route="praxistipps-heilpraktiker/${t.slug}">
+            <span>Praxistipp</span>
+            <h2>${t.titel}</h2>
+            <p>${t.teaser}</p>
+            <span class="tool-card__arrow">Ansehen →</span>
+          </button>
+        `).join("")}
+      </div>
+    </section>
+  `);
+}
+
+function faszienuebungenRumpfgesundheitPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1>Faszienübungen für die Rumpfgesundheit</h1>
+      <p class="lead-small">Vier einfache, wirkungsvolle Übungen, um dem vielen Sitzen im Alltag aktiv entgegenzuwirken.</p>
+
+      <div class="vb-section" style="max-width:100%;">
+        <p class="vb-intro">Die meisten Menschen verbringen heute einen großen Teil ihres Tages sitzend – am Schreibtisch, vor dem Computer, im Auto oder auf dem Sofa. Diese dauerhafte, meist gebeugte Haltung fordert ihren Preis: Die Rumpfmuskulatur verkürzt und schwächt sich, die Faszien – das bindegewebige Netz, das Muskeln, Organe und Knochen umhüllt und miteinander verbindet – verkleben und verlieren an Elastizität. Die Folge sind häufig Rückenschmerzen, Verspannungen im unteren Rücken und in der Hüfte sowie ein spürbarer Verlust an Beweglichkeit.</p>
+        <p class="vb-intro">Faszien reagieren besonders gut auf gezielte, langsame Dehn- und Spannungsreize. Anders als reines Muskeltraining zielen Faszienübungen darauf ab, das gesamte myofasziale Netzwerk – also die funktionalen Verbindungslinien zwischen Muskeln und Bindegewebe – geschmeidig und belastbar zu halten. Regelmäßig ausgeführt, können solche Übungen helfen, die Rumpfstabilität zu verbessern, die Wirbelsäule zu entlasten, Verspannungen vorzubeugen und die allgemeine Beweglichkeit im Alltag spürbar zu erhöhen. Schon wenige Minuten am Tag – etwa als kurze Unterbrechung zwischen zwei Sitzphasen – reichen aus, um einen echten Ausgleich zu schaffen.</p>
+        <p class="vb-intro">Die folgenden vier Übungen ergänzen sich ideal: Sie sprechen sowohl die tiefe Rumpfstabilität als auch die Beweglichkeit der Wirbelsäule in verschiedenen Richtungen an und lassen sich ohne Geräte, auf einer Matte, zu Hause durchführen.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg"
+             alt="Vier Faszienübungen im Überblick: Dead Bug, Bird-Dog, Katze-Kuh-Position, Kobra"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. Dead Bug (Käfer)</h2>
+        <p class="vb-intro">Rückenlage, Arme senkrecht nach oben gestreckt, Knie in der Luft im rechten Winkel angehoben. Nun wird ein Arm über den Kopf und gleichzeitig das gegenüberliegende Bein gestreckt Richtung Boden geführt, ohne dass der untere Rücken den Boden verlässt – die Spannung entsteht diagonal über den ganzen Rumpf. Anschließend die Ausgangsposition wieder einnehmen und die Seite wechseln.</p>
+        <p class="vb-intro"><strong>Wirkung:</strong> Aktiviert die tiefe Bauch- und Rumpfmuskulatur, schult die Stabilität der Lendenwirbelsäule und verbessert die Koordination zwischen Armen und Beinen – eine der sichersten Übungen zum Aufbau von Core-Stabilität, da der Rücken durchgehend geschützt am Boden bleibt.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">2. Bird-Dog (Vogel-Hund)</h2>
+        <p class="vb-intro">Vierfüßlerstand, Hände unter den Schultern, Knie unter der Hüfte. Ein Arm wird nach vorne, das gegenüberliegende Bein gleichzeitig nach hinten gestreckt – Rücken und Becken bleiben dabei ruhig und gerade, ohne ins Hohlkreuz oder zur Seite auszuweichen. Kurz halten, dann kontrolliert zurückführen und die Seite wechseln.</p>
+        <p class="vb-intro"><strong>Wirkung:</strong> Stärkt die autochthone Rückenmuskulatur (die tiefen, wirbelsäulennahen Muskeln) sowie die Gesäß- und Schultermuskulatur, fördert das Gleichgewicht und schult die diagonale Stabilisation des Rumpfes – besonders wertvoll für alle, die im Alltag viel sitzen und deren Rückenmuskulatur dadurch an Ansteuerung verliert.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">3. Katze-Kuh-Position</h2>
+        <p class="vb-intro">Ebenfalls aus dem Vierfüßlerstand: Beim Einatmen den Rücken sanft ins Hohlkreuz senken lassen, den Blick nach oben und das Brustbein nach vorne öffnen (&bdquo;Kuh&ldquo;). Beim Ausatmen den Rücken rund nach oben wölben, das Kinn zur Brust nehmen (&bdquo;Katze&ldquo;). Beide Positionen fließend, im Atemrhythmus, mehrfach wiederholen.</p>
+        <p class="vb-intro"><strong>Wirkung:</strong> Mobilisiert die gesamte Wirbelsäule in ihrer natürlichen Beweglichkeit – Segment für Segment –, löst Verspannungen im Bereich des unteren und mittleren Rückens und ist ideal, um nach längerem Sitzen die Wirbelsäule sanft wieder in Bewegung zu bringen, bevor intensivere Übungen folgen.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">4. Kobra / Kobra-Stretch</h2>
+        <p class="vb-intro">Bauchlage, Hände unter den Schultern aufgestellt. Beim Einatmen Oberkörper und Kopf langsam anheben, Ellbogen bleiben leicht gebeugt oder werden je nach Beweglichkeit vollständig gestreckt, das Becken bleibt am Boden. Der Blick geht sanft nach oben, ohne den Nacken zu überstrecken. Einige Atemzüge halten, dann langsam zurück in die Ausgangsposition.</p>
+        <p class="vb-intro"><strong>Wirkung:</strong> Dehnt die vordere Rumpffaszie und die Bauchmuskulatur, die durch häufiges Sitzen in gebeugter Haltung dauerhaft verkürzt ist, öffnet den Brustkorb und wirkt damit direkt der typischen &bdquo;Bürohaltung&ldquo; entgegen – ein natürlicher Ausgleich zur ständigen Flexion des Oberkörpers im Alltag.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Praxistipp:</strong> Führen Sie die vier Übungen als kurze Sequenz durch – jeweils 8&ndash;10 Wiederholungen pro Seite bzw. 3&ndash;5 Atemzüge Halten bei Katze-Kuh und Kobra. Schon eine tägliche Wiederholung von 5&ndash;10 Minuten, idealerweise als bewusste Pause zwischen längeren Sitzphasen, kann spürbar zur Rumpfgesundheit beitragen. Bei bestehenden Rückenbeschwerden oder Unsicherheiten empfiehlt sich vorab eine individuelle Abklärung.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"situationskompass", label:"Situationskompass"},
+        {route:"practice", label:"Werkzeuge"},
+        {route:"stille", label:"9 Minuten Stille sitzen"},
+      ])}
     </section>
   `);
 }
@@ -50401,6 +50496,7 @@ function render() {
     kindheit: kindheitPage,
     music: musicPage,
     practice: practicePage,
+    "praxistipps-heilpraktiker": praxistippsHeilpraktikerPage,
     library: libraryPage,
     knowledge: typesPage,
     types: typesPage,

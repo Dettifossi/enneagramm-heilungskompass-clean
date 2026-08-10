@@ -23633,6 +23633,8 @@ const registerEntries = [
   { term: "Musik",                           route: "musik",                         description: "Musikempfehlungen passend zum Enneagramm-Typ \u00b7 Playlist-Zuordnungen" },
   { term: "Pers\u00f6nlichkeitsmodelle im Vergleich", route: "persoenlichkeitsmodelle-vergleich", description: "Schaubild: Enneagramm vs. MBTI, Big Five, DISG und andere Modelle" },
   { term: "Portraits Wegbegleiter",          route: "portraits-wegbegleiter",        description: "Enneagramm-Portraits pers\u00f6nlicher Wegbegleiter und Lehrfiguren" },
+  { term: "Praxistipps vom Heilpraktiker",   route: "praxistipps-heilpraktiker",     description: "K\u00f6rperorientierte Praxistipps aus der Heilpraxis von Detlef Rathmer" },
+  { term: "Faszien\u00fcbungen f\u00fcr die Rumpfgesundheit", route: "praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", description: "Schaubild: vier Faszien\u00fcbungen gegen die Folgen des vielen Sitzens" },
   { term: "Stille",                          route: "stille",                        description: "Meditation & Stille: eine \u00dcbung f\u00fcr jeden Enneagramm-Typ" },
   { term: "Tritypen",                        route: "tritypen",                      description: "Schaubild: Die 27 Tritypen \u2013 Kombination aus einem Typ pro Triade" },
 
@@ -24879,6 +24881,8 @@ const registerEntriesEN = [
   { term: "Portrait Type 8", route: "portrait-typ-8", description: "Personality portrait of Enneagram Type 8 \u00b7 lust, power, directness" },
   { term: "Portrait Type 9", route: "portrait-typ-9", description: "Personality portrait of Enneagram Type 9 \u00b7 sloth, harmony, fusion" },
   { term: "Portraits of Companions", route: "portraits-wegbegleiter", description: "Enneagram portraits of personal companions and teacher figures" },
+  { term: "Practical Tips from the Naturopath", route: "praxistipps-heilpraktiker", description: "Body-oriented practical tips from Detlef Rathmer's naturopathic practice" },
+  { term: "Fascia Exercises for Core Health", route: "praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", description: "Chart: four fascia exercises against the effects of prolonged sitting" },
   { term: "Silence", route: "stille", description: "Meditation & silence: an exercise for every Enneagram type" },
   { term: "Tritypes", route: "tritypen", description: "Chart: the 27 tritypes \u2013 combination of one type per triad" }
 ];
@@ -34437,6 +34441,12 @@ function toolsPage() {
         <p>Ihren pers\u00f6nlichen TCM-Meridian, Organzeiten und Akupunktur-Empfehlungen ansehen.</p>
         <span class="tool-card__arrow">\u00d6ffnen \u2192</span>
       </button>
+      <button class="tool-card tool-card--link" data-route="praxistipps-heilpraktiker">
+        <span>K\u00f6rper \u00b7 Alltag \u00b7 Heilpraxis</span>
+        <h2>Praxistipps vom Heilpraktiker</h2>
+        <p>Konkrete, k\u00f6rperorientierte Impulse aus der heilpraktischen Praxis von Detlef Rathmer \u2013 erg\u00e4nzend zum Enneagramm-Heilungsweg.</p>
+        <span class="tool-card__arrow">Ansehen \u2192</span>
+      </button>
     </section>
   `);
 }
@@ -34976,6 +34986,95 @@ function practicePage() {
         <p>Neun vollst\u00e4ndige Alben \u2014 eines f\u00fcr jeden Enneagrammtyp. Jedes Album begleitet dich ca. 1 Std. 20 Min. in die Stille und Tiefe deines Typs.</p>
         <span class="tool-card__arrow">Anh\u00f6ren \u2192</span>
       </button>
+      <button class="tool-card tool-card--link" data-route="praxistipps-heilpraktiker">
+        <span>K\u00f6rper \u00b7 Alltag \u00b7 Heilpraxis</span>
+        <h2>Praxistipps vom Heilpraktiker</h2>
+        <p>Konkrete, k\u00f6rperorientierte Impulse aus der heilpraktischen Praxis von Detlef Rathmer \u2013 erg\u00e4nzend zum Enneagramm-Heilungsweg.</p>
+        <span class="tool-card__arrow">Ansehen \u2192</span>
+      </button>
+    </section>
+  `);
+}
+
+function praxistippsHeilpraktikerPage() {
+  const TIPPS = [
+    { slug:"faszienuebungen-rumpfgesundheit", titel:"Faszien\u00fcbungen f\u00fcr die Rumpfgesundheit", teaser:"Vier einfache \u00dcbungen gegen die Folgen des vielen Sitzens \u2013 Dead Bug, Bird-Dog, Katze-Kuh und Kobra.", img:"./assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg" },
+  ];
+
+  const param = state.route.split("/")[1] || null;
+  if (param === "faszienuebungen-rumpfgesundheit") {
+    return faszienuebungenRumpfgesundheitPage();
+  }
+
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <p class="eyebrow">Werkzeuge \u00b7 Praxistipps vom Heilpraktiker</p>
+      <h1>Praxistipps vom Heilpraktiker</h1>
+      <p class="lead-small">Konkrete, k\u00f6rperorientierte Impulse aus der heilpraktischen Praxis von Detlef Rathmer \u2013 erg\u00e4nzend zum Enneagramm-Heilungsweg. Diese Rubrik wird laufend um neue Themen erweitert.</p>
+      <div class="tool-grid" style="margin-top:1.5rem;">
+        ${TIPPS.map(t => `
+          <button class="tool-card tool-card--link" data-route="praxistipps-heilpraktiker/${t.slug}">
+            <span>Praxistipp</span>
+            <h2>${t.titel}</h2>
+            <p>${t.teaser}</p>
+            <span class="tool-card__arrow">Ansehen \u2192</span>
+          </button>
+        `).join("")}
+      </div>
+    </section>
+  `);
+}
+
+function faszienuebungenRumpfgesundheitPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">\u2190 Zur\u00fcck zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge \u00b7 Praxistipps vom Heilpraktiker</p>
+      <h1>Faszien\u00fcbungen f\u00fcr die Rumpfgesundheit</h1>
+      <p class="lead-small">Vier einfache, wirkungsvolle \u00dcbungen, um dem vielen Sitzen im Alltag aktiv entgegenzuwirken.</p>
+
+      <div class="vb-section" style="max-width:100%;">
+        <p class="vb-intro">Die meisten Menschen verbringen heute einen gro\u00dfen Teil ihres Tages sitzend \u2013 am Schreibtisch, vor dem Computer, im Auto oder auf dem Sofa. Diese dauerhafte, meist gebeugte Haltung fordert ihren Preis: Die Rumpfmuskulatur verk\u00fcrzt und schw\u00e4cht sich, die Faszien \u2013 das bindegewebige Netz, das Muskeln, Organe und Knochen umh\u00fcllt und miteinander verbindet \u2013 verkleben und verlieren an Elastizit\u00e4t. Die Folge sind h\u00e4ufig R\u00fcckenschmerzen, Verspannungen im unteren R\u00fccken und in der H\u00fcfte sowie ein sp\u00fcrbarer Verlust an Beweglichkeit.</p>
+        <p class="vb-intro">Faszien reagieren besonders gut auf gezielte, langsame Dehn- und Spannungsreize. Anders als reines Muskeltraining zielen Faszien\u00fcbungen darauf ab, das gesamte myofasziale Netzwerk \u2013 also die funktionalen Verbindungslinien zwischen Muskeln und Bindegewebe \u2013 geschmeidig und belastbar zu halten. Regelm\u00e4\u00dfig ausgef\u00fchrt, k\u00f6nnen solche \u00dcbungen helfen, die Rumpfstabilit\u00e4t zu verbessern, die Wirbels\u00e4ule zu entlasten, Verspannungen vorzubeugen und die allgemeine Beweglichkeit im Alltag sp\u00fcrbar zu erh\u00f6hen. Schon wenige Minuten am Tag \u2013 etwa als kurze Unterbrechung zwischen zwei Sitzphasen \u2013 reichen aus, um einen echten Ausgleich zu schaffen.</p>
+        <p class="vb-intro">Die folgenden vier \u00dcbungen erg\u00e4nzen sich ideal: Sie sprechen sowohl die tiefe Rumpfstabilit\u00e4t als auch die Beweglichkeit der Wirbels\u00e4ule in verschiedenen Richtungen an und lassen sich ohne Ger\u00e4te, auf einer Matte, zu Hause durchf\u00fchren.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg"
+             alt="Vier Faszien\u00fcbungen im \u00dcberblick: Dead Bug, Bird-Dog, Katze-Kuh-Position, Kobra"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. Dead Bug (K\u00e4fer)</h2>
+        <p class="vb-intro">R\u00fcckenlage, Arme senkrecht nach oben gestreckt, Knie in der Luft im rechten Winkel angehoben. Nun wird ein Arm \u00fcber den Kopf und gleichzeitig das gegen\u00fcberliegende Bein gestreckt Richtung Boden gef\u00fchrt, ohne dass der untere R\u00fccken den Boden verl\u00e4sst \u2013 die Spannung entsteht diagonal \u00fcber den ganzen Rumpf. Anschlie\u00dfend die Ausgangsposition wieder einnehmen und die Seite wechseln.</p>
+        <p class="vb-intro"><strong>Wirkung:</strong> Aktiviert die tiefe Bauch- und Rumpfmuskulatur, schult die Stabilit\u00e4t der Lendenwirbels\u00e4ule und verbessert die Koordination zwischen Armen und Beinen \u2013 eine der sichersten \u00dcbungen zum Aufbau von Core-Stabilit\u00e4t, da der R\u00fccken durchgehend gesch\u00fctzt am Boden bleibt.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">2. Bird-Dog (Vogel-Hund)</h2>
+        <p class="vb-intro">Vierf\u00fc\u00dflerstand, H\u00e4nde unter den Schultern, Knie unter der H\u00fcfte. Ein Arm wird nach vorne, das gegen\u00fcberliegende Bein gleichzeitig nach hinten gestreckt \u2013 R\u00fccken und Becken bleiben dabei ruhig und gerade, ohne ins Hohlkreuz oder zur Seite auszuweichen. Kurz halten, dann kontrolliert zur\u00fcckf\u00fchren und die Seite wechseln.</p>
+        <p class="vb-intro"><strong>Wirkung:</strong> St\u00e4rkt die autochthone R\u00fcckenmuskulatur (die tiefen, wirbels\u00e4ulennahen Muskeln) sowie die Ges\u00e4\u00df- und Schultermuskulatur, f\u00f6rdert das Gleichgewicht und schult die diagonale Stabilisation des Rumpfes \u2013 besonders wertvoll f\u00fcr alle, die im Alltag viel sitzen und deren R\u00fcckenmuskulatur dadurch an Ansteuerung verliert.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">3. Katze-Kuh-Position</h2>
+        <p class="vb-intro">Ebenfalls aus dem Vierf\u00fc\u00dflerstand: Beim Einatmen den R\u00fccken sanft ins Hohlkreuz senken lassen, den Blick nach oben und das Brustbein nach vorne \u00f6ffnen (&bdquo;Kuh&ldquo;). Beim Ausatmen den R\u00fccken rund nach oben w\u00f6lben, das Kinn zur Brust nehmen (&bdquo;Katze&ldquo;). Beide Positionen flie\u00dfend, im Atemrhythmus, mehrfach wiederholen.</p>
+        <p class="vb-intro"><strong>Wirkung:</strong> Mobilisiert die gesamte Wirbels\u00e4ule in ihrer nat\u00fcrlichen Beweglichkeit \u2013 Segment f\u00fcr Segment \u2013, l\u00f6st Verspannungen im Bereich des unteren und mittleren R\u00fcckens und ist ideal, um nach l\u00e4ngerem Sitzen die Wirbels\u00e4ule sanft wieder in Bewegung zu bringen, bevor intensivere \u00dcbungen folgen.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">4. Kobra / Kobra-Stretch</h2>
+        <p class="vb-intro">Bauchlage, H\u00e4nde unter den Schultern aufgestellt. Beim Einatmen Oberk\u00f6rper und Kopf langsam anheben, Ellbogen bleiben leicht gebeugt oder werden je nach Beweglichkeit vollst\u00e4ndig gestreckt, das Becken bleibt am Boden. Der Blick geht sanft nach oben, ohne den Nacken zu \u00fcberstrecken. Einige Atemz\u00fcge halten, dann langsam zur\u00fcck in die Ausgangsposition.</p>
+        <p class="vb-intro"><strong>Wirkung:</strong> Dehnt die vordere Rumpffaszie und die Bauchmuskulatur, die durch h\u00e4ufiges Sitzen in gebeugter Haltung dauerhaft verk\u00fcrzt ist, \u00f6ffnet den Brustkorb und wirkt damit direkt der typischen &bdquo;B\u00fcrohaltung&ldquo; entgegen \u2013 ein nat\u00fcrlicher Ausgleich zur st\u00e4ndigen Flexion des Oberk\u00f6rpers im Alltag.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Praxistipp:</strong> F\u00fchren Sie die vier \u00dcbungen als kurze Sequenz durch \u2013 jeweils 8&ndash;10 Wiederholungen pro Seite bzw. 3&ndash;5 Atemz\u00fcge Halten bei Katze-Kuh und Kobra. Schon eine t\u00e4gliche Wiederholung von 5&ndash;10 Minuten, idealerweise als bewusste Pause zwischen l\u00e4ngeren Sitzphasen, kann sp\u00fcrbar zur Rumpfgesundheit beitragen. Bei bestehenden R\u00fcckenbeschwerden oder Unsicherheiten empfiehlt sich vorab eine individuelle Abkl\u00e4rung.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"situationskompass", label:"Situationskompass"},
+        {route:"practice", label:"Werkzeuge"},
+        {route:"stille", label:"9 Minuten Stille sitzen"},
+      ])}
     </section>
   `);
 }
@@ -81443,6 +81542,7 @@ function render() {
     kindheit: kindheitPage,
     music: musicPage,
     practice: practicePage,
+    "praxistipps-heilpraktiker": praxistippsHeilpraktikerPage,
     library: libraryPage,
     knowledge: typesPage,
     types: typesPage,
