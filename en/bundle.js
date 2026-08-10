@@ -1772,6 +1772,7 @@ text.nav = [
   ]},
   { route: "praxis", label: "Practice", dropdown: [
     { route: "practice", label: "Tools" },
+    { route: "praxistipps-heilpraktiker", label: "Naturopath's Practical Tips" },
     { route: "differenzierung", label: "Differentiation" },
     { route: "beziehungen", label: "Relationship Compass" },
     { route: "situationskompass", label: "Situation Compass" },

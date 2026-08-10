@@ -5143,6 +5143,7 @@ export const uiText = {
     ]},
     { route: "praxis", label: "Praxis", dropdown: [
       { route: "practice", label: "Werkzeuge" },
+      { route: "praxistipps-heilpraktiker", label: "Praxistipps vom Heilpraktiker" },
       { route: "differenzierung", label: "Differenzierung" },
       { route: "beziehungen", label: "Beziehungskompass" },
       { route: "situationskompass", label: "Situationskompass" },
