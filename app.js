@@ -4053,7 +4053,7 @@ function werkSection() {
     const bodLink = !isPending && book.bodUrl
       ? `<a class="deepen-link deepen-link--bod" href="${book.bodUrl}" target="_blank" rel="noopener">Bei BoD kaufen →</a>`
       : "";
-    const coverImg = `<img src="${CDN}assets/covers/${book.id}.jpg" alt="" loading="lazy"
+    const coverImg = `<img src="${R2_CDN}assets/covers/${book.id}.jpg" alt="" loading="lazy"
       onerror="this.parentElement.style.display='none'"
       style="width:60px;flex-shrink:0;border-radius:4px;object-fit:cover;align-self:flex-start;box-shadow:0 1px 4px rgba(0,0,0,.18);">`;
     return `
@@ -46432,7 +46432,7 @@ function edelsteinePage() {
         <h1 class="psycho-detail__title">Typ ${e.typ} &ndash; ${e.name}</h1>
         <p style="font-size:.82rem;color:var(--muted);letter-spacing:.05em;margin:-.3rem 0 1rem;">${e.crystal}</p>
         <div class="psycho-img-wrap">
-          <img src="${CDN}assets/schaubilder/edelsteine/${e.file}"
+          <img src="${R2_CDN}assets/schaubilder/edelsteine/${e.file}"
                alt="Typ ${e.typ} &ndash; ${e.name}"
                class="psycho-img" />
         </div>
