@@ -40360,8 +40360,8 @@ function blickqualitaetPage() {
 function beruhmtePhilosophenPage() {
   const phil = [
     {
-      nr: 1, name: "Aristotle", jahre: "384–322 BC", subtyp: "Social Subtype",
-      text: "Aristotle was the systematizer par excellence. He classified plants, animals, virtues, forms of government, and poetic genres &ndash; laying the foundation of Western science in the process. Typical of Type 1's Social subtype: he did not seek personal perfection for himself alone, but right action within the social context. His Nicomachean Ethics is an attempt to define the virtue that carries a community. The drive to bring the world into order &ndash; while being precise, correct, and comprehensive &ndash; is the hallmark of this subtype."
+      nr: 1, name: "Aristotle", jahre: "384–322 BC", subtyp: "Self-Preservation Subtype",
+      text: "Aristotle was the systematizer par excellence. He classified plants, animals, virtues, forms of government, and poetic genres &ndash; laying the foundation of Western science in the process. Typical of Type 1's Self-Preservation subtype: he did not direct his standard outward at society, but first at himself &ndash; with the quiet, persistent question of whether one is really doing it right. His golden mean (Mesotes) is not a rule for others, but a principle of one's own conduct: virtue as daily habituation, not a single insight. The Nine wing shows in his calm, undogmatic breadth &ndash; he did not just order a single field, but the entire body of known knowledge into one coherent system."
     },
     {
       nr: 2, name: "Søren Kierkegaard", jahre: "1813–1855", subtyp: "Self-Preservation Subtype",

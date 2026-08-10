@@ -43592,8 +43592,8 @@ function blickqualitaetPage() {
 function beruhmtePhilosophenPage() {
   const phil = [
     {
-      nr: 1, name: "Aristoteles", jahre: "384–322 v. Chr.", subtyp: "Sozialer Subtyp (Untertyp)",
-      text: "Aristoteles war der Systematiker schlechthin. Er klassifizierte Pflanzen, Tiere, Tugenden, Staatsformen, Dichtgattungen &ndash; und schuf damit die Grundlage der westlichen Wissenschaft. Typisch für den Sozialen Subtyp des Typs 1: Er suchte nicht persönliche Perfektion für sich allein, sondern richtiges Handeln im gesellschaftlichen Kontext. Seine Nikomachische Ethik ist ein Versuch, die Tugend zu definieren, die das Gemeinwesen trägt. Der Drang, die Welt in Ordnung zu bringen &ndash; und dabei präzise, korrekt und umfassend zu sein &ndash; ist das Markenzeichen dieses Subtyps."
+      nr: 1, name: "Aristoteles", jahre: "384–322 v. Chr.", subtyp: "Selbsterhaltender Subtyp (Untertyp)",
+      text: "Aristoteles war der Systematiker schlechthin. Er klassifizierte Pflanzen, Tiere, Tugenden, Staatsformen, Dichtgattungen &ndash; und schuf damit die Grundlage der westlichen Wissenschaft. Typisch für den Selbsterhaltenden Subtyp des Typs 1: Er richtete seinen Maßstab nicht öffentlich an die Gesellschaft, sondern zuerst an sich selbst &ndash; mit der stillen, beharrlichen Frage, ob man es wirklich richtig macht. Seine goldene Mitte (Mesotes) ist keine Regel für andere, sondern ein Prinzip der eigenen Lebensführung: Tugend als tägliche Gewöhnung, nicht als einmalige Einsicht. Der Neunerflügel zeigt sich in seiner ruhigen, undogmatischen Weite &ndash; er ordnete nicht nur ein einzelnes Feld, sondern das gesamte bekannte Wissen in ein zusammenhängendes System."
     },
     {
       nr: 2, name: "Søren Kierkegaard", jahre: "1813–1855", subtyp: "Selbsterhaltender Subtyp (Untertyp)",
