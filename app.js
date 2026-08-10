@@ -52,7 +52,14 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 // R2-Migration (schrittweise, Kategorie für Kategorie): bereits umgezogene Inhalte
 // nutzen R2_CDN statt CDN. Fallback bleibt Cloudinary, bis alle Kategorien migriert sind.
 const R2_CDN = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/";
-const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "");
+// Pfad-Präfixe, die bereits zu Cloudflare R2 migriert wurden (schrittweise Migration,
+// siehe R2_CDN oben). Alles andere bleibt bis zur Migration auf Cloudinary (CDN).
+const R2_MIGRATED_PREFIXES = ["assets/knowledge/"];
+const cdnImg = src => {
+  if (!src || src.startsWith("http")) return src || "";
+  if (R2_MIGRATED_PREFIXES.some(p => src.startsWith(p))) return R2_CDN + src;
+  return CDN + src;
+};
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
@@ -5769,7 +5776,7 @@ function verstehenInner(entry, sp) {
 function spuerenInner(entry, sp) {
   const blocks = [];
   // Profilbild (Seite 1) — zeigt Prototypen, Blickqualität, Körpersignatur
-  const seite1 = `${CDN}assets/knowledge/type-${entry.code.slice(-1)}/${entry.code.toLowerCase()}/${entry.code.toLowerCase()}-page-1.jpeg`;
+  const seite1 = `${R2_CDN}assets/knowledge/type-${entry.code.slice(-1)}/${entry.code.toLowerCase()}/${entry.code.toLowerCase()}-page-1.jpeg`;
   blocks.push(`
     <figure class="vollseite-karte">
       <p class="vollseite-karte__hint">Zum Vergrößern antippen</p>
@@ -6213,7 +6220,7 @@ function heilmittelSection(h, oel, code) {
   };
   const passion = h.leidenschaft || {};
   const wound = h.wunde || {};
-  const seite4 = code ? `${CDN}assets/knowledge/type-${code.slice(-1)}/${code.toLowerCase()}/${code.toLowerCase()}-page-4.jpeg` : null;
+  const seite4 = code ? `${R2_CDN}assets/knowledge/type-${code.slice(-1)}/${code.toLowerCase()}/${code.toLowerCase()}-page-4.jpeg` : null;
   return `
     <div class="knowledge-section heilmittel-box" id="heilmittel-kompass">
       <strong>${w.title}</strong>
