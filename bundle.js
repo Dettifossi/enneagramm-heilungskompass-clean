@@ -36328,7 +36328,7 @@ function tierquizPage() {
       ${pageHeader("Welches Tier bin ich?")}
       <div class="typentest-wrap">
         <div class="typentest-card" style="text-align:center;padding:2rem 1.5rem;">
-          <img src="https://res.cloudinary.com/ymooybdl/image/upload/c_crop,g_xy_center,x_0.47,y_0.47,w_0.76,h_0.76/f_auto,q_auto,w_240,h_240,c_fill/kompass/assets/${code.toLowerCase()}-tier.jpg" alt="${tier}" style="display:block;width:120px;height:120px;border-radius:50%;object-fit:cover;border:3px solid var(--gold);margin:0 auto 0.8rem;background:transparent;padding:0;box-shadow:none;" onerror="this.outerHTML='<div style=&quot;font-size:5rem;margin-bottom:0.5rem;&quot;>${emoji}</div>'">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-240/${code.toLowerCase()}.jpg" alt="${tier}" style="display:block;width:120px;height:120px;border-radius:50%;object-fit:cover;border:3px solid var(--gold);margin:0 auto 0.8rem;background:transparent;padding:0;box-shadow:none;" onerror="this.outerHTML='<div style=&quot;font-size:5rem;margin-bottom:0.5rem;&quot;>${emoji}</div>'">
           <p class="eyebrow" style="margin-bottom:0.3rem;">Ihr Enneagramm-Tier</p>
           <h1 class="typentest-titel" style="margin-bottom:0.3rem;">${tier}</h1>
           <p style="font-size:1rem;color:var(--gold);font-weight:700;margin-bottom:1.2rem;">${s.inst === "SE" ? "Selbsterhaltender" : s.inst === "SO" ? "Sozialer" : "Sexueller"} Typ ${s.type} <span style="font-weight:400;opacity:0.7;">(${code})</span></p>
@@ -41579,7 +41579,7 @@ function beruehmtePersoenlichkeitenPage() {
     const typ  = parseInt((p.subtyp||"").replace(/[^0-9]/g,"")[0]||"0");
     const kats = (p.tags||[]).join(",");
     const tierKey = (p.subtyp||'').substring(0,3).toLowerCase();
-    const tierImg = tierKey ? 'https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_120,h_120,c_fill/kompass/assets/'+tierKey+'-tier.jpg' : '';
+    const tierImg = tierKey ? 'https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/'+tierKey+'.jpg' : '';
     return '<div class="kf-card" data-bp-inst="'+inst+'" data-bp-typ="'+typ+'" data-bp-kats="'+kats+'" data-bp-gender="'+(p.gender||'')+'" data-route="'+p.route+'"'
       +' style="cursor:pointer;max-width:100%;background:var(--ivory);border:1.5px solid var(--border);"'
       +' onmouseover="this.style.borderColor=\'var(--gold)\';this.style.boxShadow=\'0 2px 12px rgba(0,0,0,.1)\'"'
@@ -54674,7 +54674,7 @@ function kriminalpsychologiePage() {
     const typ  = parseInt((p.subtyp||"").replace(/[^0-9]/g,"")[0]||"0");
     const tags = (p.tags||[]).join(",");
     const tierKey = (p.subtyp||'').substring(0,3).toLowerCase();
-    const tierImg = tierKey ? 'https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_120,h_120,c_fill/kompass/assets/'+tierKey+'-tier.jpg' : '';
+    const tierImg = tierKey ? 'https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/'+tierKey+'.jpg' : '';
     return '<div class="kf-card" data-kf-inst="'+inst+'" data-kf-typ="'+typ+'" data-kf-tags="'+tags+'" data-kf-gender="'+(p.gender||'')+'" data-route="'+p.route+'"'
       +' style="cursor:pointer;max-width:100%;background:var(--ivory);border:1.5px solid var(--border);"'
       +' onmouseover="this.style.borderColor=\'var(--gold)\';this.style.boxShadow=\'0 2px 12px rgba(0,0,0,.1)\'"'
@@ -81902,7 +81902,7 @@ function render() {
           const wrap = document.createElement("span");
           wrap.className = "krim-tier-badge-wrap";
           const img = document.createElement("img");
-          img.src = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto,w_160,h_160,c_fill/kompass/assets/" + code + "-tier.jpg";
+          img.src = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-160/" + code + ".jpg";
           img.alt = "";
           img.loading = "lazy";
           wrap.appendChild(img);
