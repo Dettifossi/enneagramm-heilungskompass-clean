@@ -45804,7 +45804,7 @@ function aristotelesPortraitPage() {
 
         <h2 class="vb-section">6. Das Verm\u00e4chtnis: Ordnung, die Jahrtausende tr\u00e4gt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Kaum ein Denker hat das abendl\u00e4ndische Wissen so grundlegend geordnet wie Aristoteles \u2013 seine Logik blieb \u00fcber zwei Jahrtausende das Fundament wissenschaftlichen Schlie\u00dfens, seine Ethik pr\u00e4gt bis heute Debatten \u00fcber das gute Leben, seine Biologie legte den Grundstein f\u00fcr die systematische Naturbeobachtung.</p>
+          <p class="vb-intro">Kaum ein Denker hat das abendl\u00e4ndische Wissen so grundlegend geordnet wie Aristoteles \u2013 seine Logik blieb \u00fcber zwei Jahrtausende das Fundament wissenschaftlicher Schlussfolgerungen, seine Ethik pr\u00e4gt bis heute Debatten \u00fcber das gute Leben, seine Biologie legte den Grundstein f\u00fcr die systematische Naturbeobachtung.</p>
           <p class="vb-intro">Der Adler, der die goldene Mitte suchte und das gesamte Feld des Wissens ordnete, ohne es in starre Extreme zu zwingen \u2013 das ist das bleibende Bild der selbsterhaltenden Eins mit Neunerfl\u00fcgel: kompromisslose Genauigkeit, getragen von der Weite, alles im Zusammenhang zu sehen.</p>
         </blockquote>
 
@@ -45817,6 +45817,7 @@ function aristotelesPortraitPage() {
         {route:"subtype/se1", label:"SE1 \u2013 Der Adler: Subtyp-Profil"},
         {route:"beruehmte-sting", label:"Portr\xe4t: Sting (SE1w9)"},
         {route:"beruehmte-konrad-adenauer", label:"Portr\xe4t: Konrad Adenauer (SE1w9)"},
+        {route:"beruhmte-philosophen", label:"Schaubild: Ber\xfchmte Philosophen im Enneagramm"},
       ])}
     </div>
   `);
@@ -46599,6 +46600,7 @@ function davidHumePortraitPage() {
         {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
         {route:"beruehmte-adam-smith", label:"Portr\xe4t: Adam Smith (SO1w9) \u2013 sein enger Freund"},
+        {route:"beruhmte-philosophen", label:"Schaubild: Ber\xfchmte Philosophen im Enneagramm"},
       ])}
     </div>
   `);
@@ -74713,6 +74715,8 @@ function beruhmtePhilosophenPage() {
         {route:"interessante-erkenntnisse", label:"Interessante Erkenntnisse"},
         {route:"hunderassen", label:"Die Enneagrammtypen auf den Hund gekommen"},
         {route:"rumi-zitate", label:"Rumi-Zitate f\u00fcr die 9 Typen"},
+        {route:"beruehmte-aristoteles", label:"Portr\xe4t: Aristoteles (SE1w9)"},
+        {route:"beruehmte-david-hume", label:"Portr\xe4t: David Hume (SE9w8)"},
       ])}
     </div>
   `);

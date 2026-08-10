@@ -17680,6 +17680,7 @@ function aristotelesPortraitPage() {
         {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
         {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
         {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SE1w9)"},
+        {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
       ])}
     </div>
   `);
@@ -24084,6 +24085,7 @@ function davidHumePortraitPage() {
         {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
         {route:"beruehmte-adam-smith", label:"Portrait: Adam Smith (SO1w9) – his close friend"},
+        {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
       ])}
     </div>
   `);
@@ -40433,6 +40435,8 @@ function beruhmtePhilosophenPage() {
         {route:"interessante-erkenntnisse", label:"Interesting Insights"},
         {route:"hunderassen", label:"The Enneagram Types Gone to the Dogs"},
         {route:"rumi-zitate", label:"Rumi Quotes for the 9 Types"},
+        {route:"beruehmte-aristoteles", label:"Portrait: Aristotle (SE1w9)"},
+        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8)"},
       ])}
     </div>
   `);

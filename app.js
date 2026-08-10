@@ -14750,7 +14750,7 @@ function aristotelesPortraitPage() {
 
         <h2 class="vb-section">6. Das Vermächtnis: Ordnung, die Jahrtausende trägt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Kaum ein Denker hat das abendländische Wissen so grundlegend geordnet wie Aristoteles &ndash; seine Logik blieb über zwei Jahrtausende das Fundament wissenschaftlichen Schließens, seine Ethik prägt bis heute Debatten über das gute Leben, seine Biologie legte den Grundstein für die systematische Naturbeobachtung.</p>
+          <p class="vb-intro">Kaum ein Denker hat das abendländische Wissen so grundlegend geordnet wie Aristoteles &ndash; seine Logik blieb über zwei Jahrtausende das Fundament wissenschaftlicher Schlussfolgerungen, seine Ethik prägt bis heute Debatten über das gute Leben, seine Biologie legte den Grundstein für die systematische Naturbeobachtung.</p>
           <p class="vb-intro">Der Adler, der die goldene Mitte suchte und das gesamte Feld des Wissens ordnete, ohne es in starre Extreme zu zwingen &ndash; das ist das bleibende Bild der selbsterhaltenden Eins mit Neunerflügel: kompromisslose Genauigkeit, getragen von der Weite, alles im Zusammenhang zu sehen.</p>
         </blockquote>
 
@@ -14763,6 +14763,7 @@ function aristotelesPortraitPage() {
         {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
         {route:"beruehmte-sting", label:"Portr\xe4t: Sting (SE1w9)"},
         {route:"beruehmte-konrad-adenauer", label:"Portr\xe4t: Konrad Adenauer (SE1w9)"},
+        {route:"beruhmte-philosophen", label:"Schaubild: Berühmte Philosophen im Enneagramm"},
       ])}
     </div>
   `);
@@ -15551,6 +15552,7 @@ function davidHumePortraitPage() {
         {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
         {route:"beruehmte-adam-smith", label:"Portr\xe4t: Adam Smith (SO1w9) – sein enger Freund"},
+        {route:"beruhmte-philosophen", label:"Schaubild: Berühmte Philosophen im Enneagramm"},
       ])}
     </div>
   `);
@@ -43665,6 +43667,8 @@ function beruhmtePhilosophenPage() {
         {route:"interessante-erkenntnisse", label:"Interessante Erkenntnisse"},
         {route:"hunderassen", label:"Die Enneagrammtypen auf den Hund gekommen"},
         {route:"rumi-zitate", label:"Rumi-Zitate für die 9 Typen"},
+        {route:"beruehmte-aristoteles", label:"Portr\xe4t: Aristoteles (SE1w9)"},
+        {route:"beruehmte-david-hume", label:"Portr\xe4t: David Hume (SE9w8)"},
       ])}
     </div>
   `);
