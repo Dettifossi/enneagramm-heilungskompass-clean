@@ -76772,7 +76772,7 @@ function mikroimpresionenPage() {
           <span style="display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border-radius:50%;background:${col};color:#fff;font-weight:800;font-size:.9rem;flex-shrink:0;">${t.nr}</span>
           <h2 style="font-size:1.1rem;font-weight:700;color:var(--ink);margin:0;">Typ\xa0${t.nr} &ndash; ${t.name}</h2>
         </div>
-        <img src="${CDN}assets/mikroimpressionen-${t.nr}.jpg"
+        <img src="${R2_CDN}assets/mikroimpressionen-${t.nr}.jpg"
           alt="Mikroimpressionen Typ ${t.nr}"
           style="width:100%;border-radius:10px;margin-bottom:1.1rem;display:block;" />
         <div style="display:grid;gap:.7rem;">
@@ -81100,7 +81100,7 @@ function typenvergleichePage() {
   const cards = VERGLEICHE.map(v => `
     <div class="tv-card" data-gruppe="${v.a}">
       <div class="tv-card__badge">Typ ${v.a} \u00b7 Typ ${v.b}</div>
-      <img class="tv-card__img" src="${CDN}assets/vergleiche/vergleich-${v.a}-${v.b}.jpg"
+      <img class="tv-card__img" src="${R2_CDN}assets/vergleiche/vergleich-${v.a}-${v.b}.jpg"
         alt="Typenvergleich ${v.a} und ${v.b}: ${v.titel}" loading="lazy" />
       <p class="tv-card__titel">${v.titel}</p>
     </div>
