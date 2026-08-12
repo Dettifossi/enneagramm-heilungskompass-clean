@@ -5439,14 +5439,26 @@ function vitruvEnneagrammPage() {
         ${affiliateBoxHtml("vitruv", "Poster", "View poster on Amazon")}
         <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Canvas print:</strong> Vitruvian Man</p>
         ${affiliateBoxHtml("vitruv", "Leinwandbild", "View canvas print on Amazon")}
-        <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Book tip:</strong> Leonardo da Vinci – The Complete Paintings and Drawings</p>
-        ${affiliateBoxHtml("vitruv", "Buch Gemälde und Zeichnungen", "View book on Amazon")}
-        <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Book tip:</strong> Leonardo da Vinci (Walter Isaacson biography)</p>
-        ${affiliateBoxHtml("vitruv", "Buch Biographie", "View book on Amazon")}
-        <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Book tip:</strong> Journal of Inventions – Leonardo da Vinci (pop-up)</p>
-        ${affiliateBoxHtml("vitruv", "Buch Erfindungen Pop-up", "View book on Amazon")}
-        <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Book tip:</strong> Vitruvius – The Ten Books on Architecture</p>
-        ${affiliateBoxHtml("vitruv", "Buch Zehn Bücher über Architektur", "View book on Amazon")}
+
+        <details style="margin-top:1.5rem;border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;">&#9672;</span>
+            <span style="flex:1;">Book tips (4)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            <p class="vb-intro" style="margin-bottom:.8rem;"><strong>Book tip:</strong> Leonardo da Vinci – The Complete Paintings and Drawings</p>
+            ${affiliateBoxHtml("vitruv", "Buch Gemälde und Zeichnungen", "View book on Amazon")}
+            <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Book tip:</strong> Leonardo da Vinci (Walter Isaacson biography)</p>
+            ${affiliateBoxHtml("vitruv", "Buch Biographie", "View book on Amazon")}
+            <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Book tip:</strong> Journal of Inventions – Leonardo da Vinci (pop-up)</p>
+            ${affiliateBoxHtml("vitruv", "Buch Erfindungen Pop-up", "View book on Amazon")}
+            <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Book tip:</strong> Vitruvius – The Ten Books on Architecture</p>
+            ${affiliateBoxHtml("vitruv", "Buch Zehn Bücher über Architektur", "View book on Amazon")}
+          </div>
+        </details>
       </div>
 
       ${relatedLinks([
