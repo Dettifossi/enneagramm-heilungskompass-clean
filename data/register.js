@@ -39,6 +39,7 @@ export const registerEntries = [
   { term: "Fußreflexzonen-Aktivierung", route: "praxistipps-heilpraktiker/fussreflexzonen-aktivierung", description: "Schaubild: Igelball, Kork- und Holzroller zur Fußreflexzonen-Massage" },
   { term: "3-teilige Schwung-Routine", route: "praxistipps-heilpraktiker/schwung-routine", description: "Schaubild: drei Schwungübungen im Stehen für Faszien, Beweglichkeit und Ganzkörpertraining" },
   { term: "Das Energiefeld zwischen den Händen", route: "praxistipps-heilpraktiker/energiefeld-haende", description: "Grundübung zur Körperwahrnehmung: den energetischen Kraftball zwischen den Handflächen spüren" },
+  { term: "Bewegung im Element Wasser", route: "praxistipps-heilpraktiker/bewegung-wasser", description: "Achtsame, fließende Bewegung mit dem Bild des Wasserwiderstands – inspiriert von Tai Chi" },
   { term: "Stille",                          route: "stille",                        description: "Meditation & Stille: eine Übung für jeden Enneagramm-Typ" },
   { term: "Tritypen",                        route: "tritypen",                      description: "Schaubild: Die 27 Tritypen – Kombination aus einem Typ pro Triade" },
 
@@ -1301,6 +1302,7 @@ export const registerEntriesEN = [
   { term: "Foot Reflex Zone Activation", route: "praxistipps-heilpraktiker/fussreflexzonen-aktivierung", description: "Chart: hedgehog ball, cork and wooden roller for foot reflex zone massage" },
   { term: "3-Part Swing Routine", route: "praxistipps-heilpraktiker/schwung-routine", description: "Chart: three standing swing exercises for fascia, mobility, and full-body training" },
   { term: "The Energy Field Between the Hands", route: "praxistipps-heilpraktiker/energiefeld-haende", description: "Basic body-awareness exercise: sensing the energetic power ball between the palms" },
+  { term: "Movement in the Element of Water", route: "praxistipps-heilpraktiker/bewegung-wasser", description: "Mindful, flowing movement using the image of water resistance – inspired by Tai Chi" },
   { term: "Silence", route: "stille", description: "Meditation & silence: an exercise for every Enneagram type" },
   { term: "Tritypes", route: "tritypen", description: "Chart: the 27 tritypes – combination of one type per triad" }
 ];

@@ -4889,6 +4889,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"fussreflexzonen-aktivierung", titel:"Foot Reflex Zone Activation: The Energy Boost for In Between", teaser:"With a hedgehog ball, cork ball, or wooden roller, boost circulation and the autonomic nervous system in 1–2 minutes per foot.", img:"../assets/schaubilder/fussreflexzonen-aktivierung/igelball.jpg" },
     { slug:"schwung-routine", titel:"3-Part Swing Routine: Full-Body Fascia & Movement Training While Standing", teaser:"Three simple standing swing exercises for mobility, fascia, and the whole body – no equipment, doable anywhere.", img:"../assets/schaubilder/schwung-routine/schwung-routine.jpg" },
     { slug:"energiefeld-haende", titel:"The Energy Field Between the Hands", teaser:"A simple basic exercise for greater body awareness and depth – the energetic power ball between the palms.", img:"../assets/schaubilder/energiefeld-haende/energiefeld-haende.jpg" },
+    { slug:"bewegung-wasser", titel:"Movement in the Element of Water: Mindful Slowness for Everyday Life", teaser:"The imagined resistance of water as an image for flowing, mindful movement – inspired by Tai Chi.", img:"../assets/schaubilder/bewegung-wasser/bewegung-wasser.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -4903,6 +4904,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "energiefeld-haende") {
     return energiefeldHaendePage();
+  }
+  if (param === "bewegung-wasser") {
+    return bewegungWasserPage();
   }
 
   return shell(`
@@ -5166,6 +5170,56 @@ function energiefeldHaendePage() {
         {route:"praxistipps-heilpraktiker/schwung-routine", label:"3-Part Swing Routine"},
         {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Fascia Exercises for Core Health"},
         {route:"situationskompass", label:"Situation Compass"},
+        {route:"practice", label:"Tools"},
+      ])}
+    </section>
+  `);
+}
+
+function bewegungWasserPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1 class="h1--tip">Movement in the Element of Water: Mindful Slowness for Everyday Life</h1>
+      <p class="lead-small">The imagined resistance of water as an image for flowing, mindful movement – inspired by Tai Chi.</p>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">A Note on Background: The Origin of the Movement</h2>
+        <p class="vb-intro">A brief look behind the scenes may help when applying this exercise: Tai Chi (fully, Tai Chi Chuan) was originally conceived as a martial art, in which the slow, flowing movements served to deflect attacks in a controlled way and redirect an opponent's force.</p>
+        <p class="vb-intro">For today's health practice, this historical origin can wonderfully be "dusted off": the people who gather each morning in Chinese parks no longer use these techniques for fighting. Instead, they make use of the fact that the extreme slowness and flowing sequences center the mind, mobilize the joints, and bring the body into deep inner calm.</p>
+        <p class="vb-intro">There's no need to learn a martial art – only the wisdom of a centuries-old movement form is used, to arrive fully in the present within modern everyday life.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="../assets/schaubilder/bewegung-wasser/bewegung-wasser.jpg"
+             alt="Woman floating mindfully and fluidly underwater above a coral reef"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Exercise: "Movement in the Element of Water"</h2>
+        <p class="vb-intro">Finding this awareness doesn't require memorizing complicated choreography. Instead, an image helps bring this slowness into everyday life:</p>
+        <p class="vb-intro" style="margin-top:1rem;"><strong>1. The image:</strong> Imagine standing chest-deep in water – in a calm sea, for instance. With every movement, the resistance of the water can be felt on the arms, legs, and torso.</p>
+        <p class="vb-intro"><strong>2. The execution:</strong> Movement through the space happens at one's own pace – whether standing, walking, or raising the arms.</p>
+        <p class="vb-intro"><strong>3. The quality:</strong> The imagined resistance of the water automatically slows the movement down, making it flowing, soft, and intense. There's no need to think through individual steps – the body is free to decide intuitively where it wants to move.</p>
+        <p class="vb-intro"><strong>4. The focus:</strong> With every movement, notice exactly how the body feels. Where does the resistance increase? Where does the flow appear? Slowness is the key here: it keeps the mind in the here and now.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <p class="vb-intro"><strong>Why it works:</strong> Just as with free-form dance, it's not about "right" or "wrong" steps. Once the mind stops analyzing and the body begins to feel the movement, a deep connection to oneself emerges. Center becomes tangible, the mind settles, and energy can flow freely again.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Tip for today:</strong> During the next movement – whether walking across the living room or simply stretching – it's worth taking a brief "underwater moment": feel the density of the air all around, move as if gliding through a gentle element, and enjoy the calm that arises from this conscious slowness.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"The Energy Field Between the Hands"},
+        {route:"praxistipps-heilpraktiker/schwung-routine", label:"3-Part Swing Routine"},
+        {route:"tcm", label:"TCM · Meridians · Acupuncture"},
         {route:"practice", label:"Tools"},
       ])}
     </section>

@@ -35021,6 +35021,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"fussreflexzonen-aktivierung", titel:"Fu\u00dfreflexzonen-Aktivierung: Der Energie-Kick f\u00fcr zwischendurch", teaser:"Mit Igelball, Kork- oder Holzroller in 1\u20132 Minuten pro Fu\u00df Durchblutung und vegetatives Nervensystem anregen.", img:"./assets/schaubilder/fussreflexzonen-aktivierung/igelball.jpg" },
     { slug:"schwung-routine", titel:"3-teilige Schwung-Routine: Ganzheitliches Faszien- & K\u00f6rpertraining im Stehen", teaser:"Drei einfache Schwung\u00fcbungen im Stehen \u2013 f\u00fcr Beweglichkeit, Faszien und den ganzen K\u00f6rper, \u00fcberall und ohne Ger\u00e4te machbar.", img:"./assets/schaubilder/schwung-routine/schwung-routine.jpg" },
     { slug:"energiefeld-haende", titel:"Das Energiefeld zwischen den H\u00e4nden", teaser:"Eine einfache Grund\u00fcbung f\u00fcr mehr K\u00f6rperwahrnehmung und Tiefe \u2013 der energetische Kraftball zwischen den Handfl\u00e4chen.", img:"./assets/schaubilder/energiefeld-haende/energiefeld-haende.jpg" },
+    { slug:"bewegung-wasser", titel:"Bewegung im Element Wasser: Achtsame Langsamkeit f\u00fcr den Alltag", teaser:"Der imagin\u00e4re Widerstand des Wassers als Bild f\u00fcr flie\u00dfende, achtsame Bewegung \u2013 inspiriert von Tai Chi.", img:"./assets/schaubilder/bewegung-wasser/bewegung-wasser.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -35035,6 +35036,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "energiefeld-haende") {
     return energiefeldHaendePage();
+  }
+  if (param === "bewegung-wasser") {
+    return bewegungWasserPage();
   }
 
   return shell(`
@@ -35298,6 +35302,56 @@ function energiefeldHaendePage() {
         {route:"praxistipps-heilpraktiker/schwung-routine", label:"3-teilige Schwung-Routine"},
         {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Faszienübungen für die Rumpfgesundheit"},
         {route:"situationskompass", label:"Situationskompass"},
+        {route:"practice", label:"Werkzeuge"},
+      ])}
+    </section>
+  `);
+}
+
+function bewegungWasserPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1 class="h1--tip">Bewegung im Element Wasser: Achtsame Langsamkeit für den Alltag</h1>
+      <p class="lead-small">Der imaginäre Widerstand des Wassers als Bild für fließende, achtsame Bewegung – inspiriert von Tai Chi.</p>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Anmerkung zur Vertiefung: Der Ursprung der Bewegung</h2>
+        <p class="vb-intro">Ein kleiner Blick hinter die Kulissen hilft vielleicht bei der Anwendung: Ursprünglich war Tai Chi (vollständig Tai Chi Chuan) tatsächlich einmal als Kampfkunst gedacht, bei der die langsamen, fließenden Bewegungen dazu dienten, Angriffe kontrolliert abzuwehren und die Kraft des Gegenübers umzuleiten.</p>
+        <p class="vb-intro">Für die heutige Gesundheitspraxis darf dieser historische Ursprung jedoch wunderbar „entstaubt" werden: Die Menschen, die morgens in chinesischen Parks gemeinsam auf den Plätzen stehen, nutzen diese Techniken schon lange nicht mehr zum Kämpfen. Sie machen sich zunutze, dass die extreme Langsamkeit und die fließenden Abläufe den Geist zentrieren, die Gelenke mobilisieren und den Körper in eine tiefe innere Ruhe bringen.</p>
+        <p class="vb-intro">Eine Kampfkunst muss also nicht erlernt werden – genutzt wird lediglich die Weisheit einer jahrhundertealten Bewegungsform, um im modernen Alltag ganz bei sich anzukommen.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/bewegung-wasser/bewegung-wasser.jpg"
+             alt="Frau schwebt achtsam und fließend unter Wasser über einem Korallenriff"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Die Übung: „Bewegung im Element Wasser"</h2>
+        <p class="vb-intro">Um diese Bewusstheit zu finden, müssen keine komplizierten Choreografien auswendig gelernt werden. Stattdessen hilft ein Bild, die Langsamkeit in den Alltag zu bringen:</p>
+        <p class="vb-intro" style="margin-top:1rem;"><strong>1. Das Bild:</strong> Die Vorstellung, bis zur Brust im Wasser zu stehen – etwa in einem ruhigen Meer. Bei jeder Bewegung lässt sich der Widerstand des Wassers an Armen, Beinen und Rumpf spüren.</p>
+        <p class="vb-intro"><strong>2. Die Ausführung:</strong> Die Bewegung durch den Raum erfolgt im eigenen Tempo – ganz gleich, ob im Stehen, Gehen oder beim Heben der Arme.</p>
+        <p class="vb-intro"><strong>3. Die Qualität:</strong> Durch den imaginären Widerstand des Wassers wird die Bewegung automatisch langsamer, fließend, weich und intensiv. Es braucht kein Nachdenken über einzelne Schritte – der Körper darf intuitiv entscheiden, wohin er sich bewegen möchte.</p>
+        <p class="vb-intro"><strong>4. Der Fokus:</strong> Bei jeder Bewegung wird genau gespürt, wie sich der Körper anfühlt. Wo nimmt der Widerstand zu? Wo entsteht Fluss? Die Langsamkeit ist hier der Schlüssel: Sie hält den Geist im Hier und Jetzt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <p class="vb-intro"><strong>Warum das wirkt:</strong> Genau wie beim freien Tanzen geht es nicht um „richtige" oder „falsche" Schritte. Sobald der Kopf aufhört zu analysieren und der Körper beginnt, die Bewegung zu fühlen, entsteht eine tiefe Verbindung zu sich selbst. Die Mitte wird spürbar, der Geist kommt zur Ruhe, und die Energie kann wieder frei fließen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Tipp für heute:</strong> Bei der nächsten Bewegung – sei es beim Gehen durch die Wohnung oder beim einfachen Strecken – lohnt sich kurz dieser „Unter-Wasser-Moment": die Dichte der Luft rundherum spüren, sich bewegen, als würde man durch ein sanftes Element gleiten, und die Ruhe genießen, die aus dieser bewussten Langsamkeit entsteht.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"Das Energiefeld zwischen den Händen"},
+        {route:"praxistipps-heilpraktiker/schwung-routine", label:"3-teilige Schwung-Routine"},
+        {route:"tcm", label:"TCM · Meridiane · Akupunktur"},
         {route:"practice", label:"Werkzeuge"},
       ])}
     </section>
