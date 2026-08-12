@@ -31388,7 +31388,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Geschichte","Politik"] , gender:"m"},
   { route:"beruehmte-napoleon-bonaparte", name:"Napoleon Bonaparte", added:"2026-08-12", subtyp:"SO2w3",
     heading:"Napoleon Bonaparte \u2013 Sozialer Typ 2",
-    teaser:"SO2w3 \u00b7 1769\u20131821. Franz\u00f6sischer Feldherr und Kaiser, Code Napol\u00e9on. Von Naranjo als soziale Zwei typisiert \u2013 Ehrgeiz und Stolz statt reiner Macht, der Golden Retriever, der ein Kontinent umarmen wollte und an St. Helena die Verbannung aus der Beziehung erlebte. Tierentsprechung: Golden Retriever.",
+    teaser:"SO2w3 \u00b7 1769\u20131821. Franz\u00f6sischer Feldherr und Kaiser, Code Napol\u00e9on. Von Naranjo als soziale Zwei typisiert \u2013 Ehrgeiz und Stolz statt reiner Macht, der Golden Retriever, der einen Kontinent umarmen wollte und an St. Helena die Verbannung aus der Beziehung erlebte. Tierentsprechung: Golden Retriever.",
     tags:["Geschichte","Politik"] , gender:"m"},
   { route:"beruehmte-will-smith", name:"Will Smith", added:"2026-07-20", subtyp:"SO2w3",
     heading:"Will Smith \u2013 Sozialer Typ 2",
@@ -53828,7 +53828,7 @@ function napoleonBonapartePortraitPage() {
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Golden Retriever, der ein Kontinent umarmen wollte</h2>
+        <h2 class="vb-section">1. Der Golden Retriever, der einen Kontinent umarmen wollte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Claudio Naranjo, der Begründer der modernen Enneagramm-Subtypenlehre, ordnete Napoleon Bonaparte in seinen Seminaren und Schriften der <strong>sozialen Zwei</strong> zu – dem Golden Retriever, der Verbindung, Bedeutung und Bewunderung sucht. Das überrascht auf den ersten Blick: Die populäre Enneagramm-Schule würde in Napoleon intuitiv eher den Typ 8 (den Herausforderer) oder Typ 3 (den Leistungsträger) vermuten. Naranjo aber blickte tiefer, auf die Leidenschaft und Fixierung hinter dem Handeln – und die soziale Zwei ist in ihrem Kern keineswegs nur die zurückhaltende Helferin im Hintergrund. Sie strebt nach Einfluss, Bedeutung und Bewunderung auf der ganz großen Bühne, getrieben von <strong>Stolz</strong> und dem unbewussten Wunsch, unentbehrlich und mächtig zu sein.</p>
           <p class="vb-intro">Geboren 1769 auf Korsika, in eine verarmte, aber stolze Adelsfamilie, machte Napoleon seinen gesellschaftlichen Aufstieg nicht durch Rückzug und Berechnung, sondern durch schiere persönliche Wirkung: Er kannte die Namen seiner Soldaten, sprach sie direkt an, ließ sich mitten unter ihnen sehen, teilte ihre Strapazen. Wo ein reiner Machttyp Distanz und Furcht kultiviert hätte, investierte Napoleon in Beziehung – und genau diese Fähigkeit, ganze Armeen an sich zu binden, war der eigentliche Grund seines beispiellosen Aufstiegs vom korsischen Provinzoffizier zum Kaiser der Franzosen.</p>
@@ -53861,7 +53861,7 @@ function napoleonBonapartePortraitPage() {
         <h2 class="vb-section">6. Das Geschenk: Institutionen, die überdauerten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Napoleon der Welt hinterließ, lässt sich nicht auf Feldzüge reduzieren. Der Code Napoléon prägt bis heute das Zivilrecht weiter Teile Europas und Lateinamerikas. Er reformierte Bildungssystem, Verwaltung und Steuerwesen Frankreichs so grundlegend, dass viele dieser Strukturen bis in die Gegenwart fortbestehen. Die Ehrenlegion, die Verdienst statt Geburt auszeichnete, war eine zutiefst SO2-typische Geste: Zugehörigkeit über Leistung statt über Herkunft definieren, Menschen einschließen, die zuvor nie dazugehört hätten.</p>
-          <p class="vb-intro">Das ist die SO2w3 auf ihrer weitreichendsten Stufe: ein Mensch, dessen persönliches Bedürfnis nach Bedeutung und Zugehörigkeit sich in Institutionen verwandelte, die Jahrhunderte überdauerten. Der Golden Retriever mit dem Dreierflügel kann ein Kontinent neu ordnen – wenn er lernt, dass wahre Zugehörigkeit nicht erobert und nicht durch immer neue Beweise gesichert werden muss, sondern einfach ist.</p>
+          <p class="vb-intro">Das ist die SO2w3 auf ihrer weitreichendsten Stufe: ein Mensch, dessen persönliches Bedürfnis nach Bedeutung und Zugehörigkeit sich in Institutionen verwandelte, die Jahrhunderte überdauerten. Der Golden Retriever mit dem Dreierflügel kann einen Kontinent neu ordnen – wenn er lernt, dass wahre Zugehörigkeit nicht erobert und nicht durch immer neue Beweise gesichert werden muss, sondern einfach ist.</p>
         </blockquote>
 
       </div>
