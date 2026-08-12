@@ -5390,25 +5390,39 @@ function vitruvEnneagrammPage() {
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. Starting Position (The Center / Point 9)</h2>
         <p class="vb-intro"><strong>Posture:</strong> Stand upright, feet together, arms hanging loosely at the sides.</p>
         <p class="vb-intro"><strong>Focus:</strong> Briefly close the eyes and gather attention at the center, in the space between heart and solar plexus.</p>
-        <p class="vb-intro"><strong>Practice tip:</strong> This is the zero point and origin in the Enneagram. Breathe in deeply and feel the firm connection of the soles of the feet with the ground.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Practice tip:</strong> This is the zero point and origin in the Enneagram. Breathe in deeply and feel the firm connection of the soles of the feet with the ground.</p>
+      </div>
 
-        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">2. Phase One: Horizontal Expansion (The Square – The 4 Main Points)</h2>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">2. Phase One: Horizontal Expansion (The Square – The 4 Main Points)</h2>
         <p class="vb-intro"><strong>Movement:</strong> Open the arms horizontally to the sides at shoulder height. The palms face downward, while the feet stand firm and shoulder-width apart on the ground (analogous to Da Vinci's first figure within the square).</p>
         <p class="vb-intro"><strong>Geometry in the body:</strong> Points 1 & 2 – left and right foot (earthly foundation). Points 3 & 4 – left and right hand (expansion into the material world).</p>
-        <p class="vb-intro"><strong>Practice tip:</strong> Consciously take up physical space. Feel the stability between left and right, above and below.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Practice tip:</strong> Consciously take up physical space. Feel the stability between left and right, above and below.</p>
+      </div>
 
-        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">3. Phase Two: Vertical Stretch to the Sky (The Connection Above and Below)</h2>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">3. Phase Two: Vertical Stretch to the Sky (The Connection Above and Below)</h2>
         <p class="vb-intro"><strong>Movement:</strong> Breathe in, release the horizontal posture, and stretch both arms all the way up toward the sky, rising onto the toes so the heels lift off the ground.</p>
         <p class="vb-intro"><strong>Geometry:</strong> The body forms a vertical axis connecting the sky (the highest point of the hands) with the earth (the soles of the feet).</p>
-        <p class="vb-intro"><strong>Practice tip:</strong> This vertical alignment represents the sacred 3-6-9 axis of the Enneagram. Become as long as possible, to transcend the limits of everyday consciousness.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Practice tip:</strong> This vertical alignment represents the sacred 3-6-9 axis of the Enneagram. Become as long as possible, to transcend the limits of everyday consciousness.</p>
+      </div>
 
-        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">4. Phase Three: Unfolding the Enneagram Circle (The Transition Points)</h2>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">4. Phase Three: Unfolding the Enneagram Circle (The Transition Points)</h2>
         <p class="vb-intro"><strong>Movement:</strong> From the stretched sky position, slowly lower and open the arms outward and downward in a wide, circling motion (analogous to Da Vinci's second figure within the circle).</p>
         <p class="vb-intro"><strong>Structure of the 9 points in the body:</strong> Imagine the energy now flowing in pathways through the Enneagram's 9 zones – head (point 9): the clear observer and overview. Right shoulder & arm (points 1 & 2): structure and open-hearted connection. Right hand (point 3): drive and conscious manifestation. Right & left leg (points 4 & 5): emotional depth and inner withdrawal. Left hand (point 6): inner security and healthy boundaries. Left shoulder & heart (points 7 & 8): joy of life, vision, and fundamental strength.</p>
 
         <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">5. Integration and Closing</h2>
         <p class="vb-intro"><strong>Movement:</strong> After a full circular motion, slowly bring the arms back to the body.</p>
-        <p class="vb-intro"><strong>Practice tip:</strong> Sense inward. Notice how the combination of earthly foundation, heavenward stretch, and circular motion has centered the body and harmonized the nervous system.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Practice tip:</strong> Sense inward. Notice how the combination of earthly foundation, heavenward stretch, and circular motion has centered the body and harmonized the nervous system.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2.5rem;">

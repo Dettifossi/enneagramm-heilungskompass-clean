@@ -35522,25 +35522,39 @@ function vitruvEnneagrammPage() {
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. Die Ausgangsposition (Das Zentrum / Punkt 9)</h2>
         <p class="vb-intro"><strong>Haltung:</strong> Aufrecht hinstellen, die Füße geschlossen, die Arme hängen locker an den Seiten.</p>
         <p class="vb-intro"><strong>Fokus:</strong> Kurz die Augen schließen und die Aufmerksamkeit in der Mitte sammeln, im Raum zwischen Herz und Solarplexus.</p>
-        <p class="vb-intro"><strong>Praxis-Tipp:</strong> Dies ist der Nullpunkt und der Ursprung im Enneagramm. Tief einatmen und die feste Verbindung der Fußsohlen mit dem Boden spüren.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Praxis-Tipp:</strong> Dies ist der Nullpunkt und der Ursprung im Enneagramm. Tief einatmen und die feste Verbindung der Fußsohlen mit dem Boden spüren.</p>
+      </div>
 
-        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">2. Phase Eins: Die horizontale Weite (Das Quadrat – Die 4 Hauptpunkte)</h2>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">2. Phase Eins: Die horizontale Weite (Das Quadrat – Die 4 Hauptpunkte)</h2>
         <p class="vb-intro"><strong>Bewegung:</strong> Die Arme waagerecht zur Seite auf Schulterhöhe öffnen. Die Handflächen zeigen nach unten, während die Füße fest und schulterbreit am Boden stehen (analog zu Da Vincis erster Figur im Quadrat).</p>
         <p class="vb-intro"><strong>Geometrie im Körper:</strong> Punkt 1 & 2 – linker und rechter Fuß (irdisches Fundament). Punkt 3 & 4 – linke und rechte Hand (Ausdehnung in die materielle Welt).</p>
-        <p class="vb-intro"><strong>Praxis-Tipp:</strong> Den physischen Raum bewusst einnehmen. Die Stabilität zwischen Links und Rechts, Oben und Unten spüren.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Praxis-Tipp:</strong> Den physischen Raum bewusst einnehmen. Die Stabilität zwischen Links und Rechts, Oben und Unten spüren.</p>
+      </div>
 
-        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">3. Phase Zwei: Die vertikale Himmelsstreckung (Die Verbindung Oben und Unten)</h2>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">3. Phase Zwei: Die vertikale Himmelsstreckung (Die Verbindung Oben und Unten)</h2>
         <p class="vb-intro"><strong>Bewegung:</strong> Einatmen, die waagerechte Haltung lösen und beide Arme ganz nach oben in den Himmel strecken, dabei auf die Zehenspitzen steigen, sodass sich die Fersen vom Boden lösen und anheben.</p>
         <p class="vb-intro"><strong>Geometrie:</strong> Der Körper bildet eine senkrechte Achse, die den Himmel (oberster Punkt der Hände) mit der Erde (Fußsohlen) verbindet.</p>
-        <p class="vb-intro"><strong>Praxis-Tipp:</strong> Diese vertikale Ausrichtung repräsentiert die heilige 3-6-9-Achse des Enneagramms. So lang wie möglich werden, um die Begrenzung des Alltagsbewusstseins zu transzendieren.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Praxis-Tipp:</strong> Diese vertikale Ausrichtung repräsentiert die heilige 3-6-9-Achse des Enneagramms. So lang wie möglich werden, um die Begrenzung des Alltagsbewusstseins zu transzendieren.</p>
+      </div>
 
-        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">4. Phase Drei: Die Entfaltung des Enneagramm-Kreises (Die Übergangspunkte)</h2>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">4. Phase Drei: Die Entfaltung des Enneagramm-Kreises (Die Übergangspunkte)</h2>
         <p class="vb-intro"><strong>Bewegung:</strong> Aus der gestreckten Himmels-Position die Arme langsam in einer weiten, kreisenden Bewegung nach außen und unten senken und öffnen (analog zu Da Vincis zweiter Figur im Kreis).</p>
         <p class="vb-intro"><strong>Struktur der 9 Punkte im Körper:</strong> Die Vorstellung, wie die Energie nun bahnenartig durch die 9 Zonen des Enneagramms fließt – Kopf (Punkt 9): der klare Beobachter und die Übersicht. Rechte Schulter & Arm (Punkte 1 & 2): Struktur und zugewandte Herzensverbindung. Rechte Hand (Punkt 3): Tatkraft und bewusste Manifestation. Rechtes & linkes Bein (Punkte 4 & 5): emotionale Tiefe und innerer Rückzug. Linke Hand (Punkt 6): innere Sicherheit und gesunde Grenzsetzung. Linke Schulter & Herz (Punkte 7 & 8): Lebensfreude, Vision und fundamentale Stärke.</p>
 
         <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">5. Integration und Abschluss</h2>
         <p class="vb-intro"><strong>Bewegung:</strong> Nach einer vollständigen Kreisbewegung die Arme langsam wieder an den Körper zurückführen.</p>
-        <p class="vb-intro"><strong>Praxis-Tipp:</strong> Nachspüren. Wahrnehmen, wie die Kombination aus irdischem Fundament, himmlischer Streckung und der Kreisbewegung den Körper zentriert und das Nervensystem harmonisiert hat.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Praxis-Tipp:</strong> Nachspüren. Wahrnehmen, wie die Kombination aus irdischem Fundament, himmlischer Streckung und der Kreisbewegung den Körper zentriert und das Nervensystem harmonisiert hat.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2.5rem;">
