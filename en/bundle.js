@@ -5223,11 +5223,8 @@ function bewegungWasserPage() {
         <p class="vb-intro"><strong>4. The focus:</strong> With every movement, notice exactly how the body feels. Where does the resistance increase? Where does the flow appear? Slowness is the key here: it keeps the mind in the here and now.</p>
       </div>
 
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        <p class="vb-intro"><strong>Why it works:</strong> Just as with free-form dance, it's not about "right" or "wrong" steps. Once the mind stops analyzing and the body begins to feel the movement, a deep connection to oneself emerges. Center becomes tangible, the mind settles, and energy can flow freely again.</p>
-      </div>
-
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .7rem;"><strong style="color:var(--copper);">Why it works:</strong> Just as with free-form dance, it's not about "right" or "wrong" steps. Once the mind stops analyzing and the body begins to feel the movement, a deep connection to oneself emerges. Center becomes tangible, the mind settles, and energy can flow freely again.</p>
         <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Tip for today:</strong> During the next movement – whether walking across the living room or simply stretching – it's worth taking a brief "underwater moment": feel the density of the air all around, move as if gliding through a gentle element, and enjoy the calm that arises from this conscious slowness.</p>
       </div>
 

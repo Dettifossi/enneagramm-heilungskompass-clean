@@ -35355,11 +35355,8 @@ function bewegungWasserPage() {
         <p class="vb-intro"><strong>4. Der Fokus:</strong> Bei jeder Bewegung wird genau gespürt, wie sich der Körper anfühlt. Wo nimmt der Widerstand zu? Wo entsteht Fluss? Die Langsamkeit ist hier der Schlüssel: Sie hält den Geist im Hier und Jetzt.</p>
       </div>
 
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        <p class="vb-intro"><strong>Warum das wirkt:</strong> Genau wie beim freien Tanzen geht es nicht um „richtige" oder „falsche" Schritte. Sobald der Kopf aufhört zu analysieren und der Körper beginnt, die Bewegung zu fühlen, entsteht eine tiefe Verbindung zu sich selbst. Die Mitte wird spürbar, der Geist kommt zur Ruhe, und die Energie kann wieder frei fließen.</p>
-      </div>
-
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .7rem;"><strong style="color:var(--copper);">Warum das wirkt:</strong> Genau wie beim freien Tanzen geht es nicht um „richtige" oder „falsche" Schritte. Sobald der Kopf aufhört zu analysieren und der Körper beginnt, die Bewegung zu fühlen, entsteht eine tiefe Verbindung zu sich selbst. Die Mitte wird spürbar, der Geist kommt zur Ruhe, und die Energie kann wieder frei fließen.</p>
         <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Tipp für heute:</strong> Bei der nächsten Bewegung – sei es beim Gehen durch die Wohnung oder beim einfachen Strecken – lohnt sich kurz dieser „Unter-Wasser-Moment": die Dichte der Luft rundherum spüren, sich bewegen, als würde man durch ein sanftes Element gleiten, und die Ruhe genießen, die aus dieser bewussten Langsamkeit entsteht.</p>
       </div>
 
