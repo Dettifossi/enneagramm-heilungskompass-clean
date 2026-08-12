@@ -35652,7 +35652,7 @@ function bewusstesInnehaltenPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">2. Der Umgang mit dem inneren Widerstand</h2>
-        <p class="vb-intro"><strong>Die Realität der Übung:</strong> Erkennen, wie schwer dieses reine Nicht-Tun ist. Der Verstand und vor allem die intrinsische Enneagramm-Motivation (der typspezifische, unbewusste Antrieb) drängen permanent ins Handeln – und sei es nur in ein reines geistiges oder gedankliches Denken oder ein emotionales Grundrauschen ohne konkrete Handlung.</p>
+        <p class="vb-intro"><strong>Die Realität der Übung:</strong> Erkennen, wie schwer dieses reine Nicht-Tun ist. Der Verstand und vor allem die intrinsische Enneagramm-Motivation (der typspezifische, unbewusste Antrieb) drängen permanent ins Handeln – und sei es nur in ein reines geistiges und gedankliches Reflektieren oder ein emotionales Grundrauschen ohne konkrete Handlung.</p>
         <p class="vb-intro"><strong>Die Falle:</strong> Wenn der innere Kritiker flüstert: „Das ist zu schwer, das kann ich nicht", dann auch diese Stimme nur wahrnehmen.</p>
         <p class="vb-intro"><strong>Die sanfte Rückkehr:</strong> Sich nicht dafür verurteilen, wenn Ablenkung entsteht oder alte Muster wieder greifen. Stattdessen immer wieder ganz sanft und geduldig zum reinen Innehalten zurückkehren.</p>
       </div>

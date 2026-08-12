@@ -5518,7 +5518,7 @@ function bewusstesInnehaltenPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">2. Working with Inner Resistance</h2>
-        <p class="vb-intro"><strong>The reality of the exercise:</strong> Recognize how difficult this pure non-doing really is. The mind – and above all the intrinsic Enneagram motivation (the type-specific, unconscious drive) – constantly pushes toward action, even if it's only mental or thought-based activity, or an emotional undercurrent with no concrete action attached.</p>
+        <p class="vb-intro"><strong>The reality of the exercise:</strong> Recognize how difficult this pure non-doing really is. The mind – and above all the intrinsic Enneagram motivation (the type-specific, unconscious drive) – constantly pushes toward action, even if it's only purely mental and reflective activity, or an emotional undercurrent with no concrete action attached.</p>
         <p class="vb-intro"><strong>The trap:</strong> When the inner critic whispers, "This is too hard, I can't do this," simply perceive that voice too.</p>
         <p class="vb-intro"><strong>The gentle return:</strong> Don't judge yourself for getting distracted or falling back into old patterns. Instead, return again and again, gently and patiently, to pure pausing.</p>
       </div>
