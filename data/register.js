@@ -40,6 +40,9 @@ export const registerEntries = [
   { term: "3-teilige Schwung-Routine", route: "praxistipps-heilpraktiker/schwung-routine", description: "Schaubild: drei Schwungübungen im Stehen für Faszien, Beweglichkeit und Ganzkörpertraining" },
   { term: "Das Energiefeld zwischen den Händen", route: "praxistipps-heilpraktiker/energiefeld-haende", description: "Grundübung zur Körperwahrnehmung: den energetischen Kraftball zwischen den Handflächen spüren" },
   { term: "Bewegung im Element Wasser", route: "praxistipps-heilpraktiker/bewegung-wasser", description: "Achtsame, fließende Bewegung mit dem Bild des Wasserwiderstands – inspiriert von Tai Chi" },
+  { term: "Der unsichtbare Magnet", route: "praxistipps-heilpraktiker/unsichtbarer-magnet", description: "Erdungs-Übung: Magnete an den Fußsohlen als Bild für sofortige Erdung und Ruhe" },
+  { term: "Das Herz-Tor öffnen", route: "praxistipps-heilpraktiker/herz-tor-oeffnen", description: "Atem-Bewegungs-Übung zur Öffnung des Brustraums und für innere Weite" },
+  { term: "Der Atem-Wasserfall", route: "praxistipps-heilpraktiker/atem-wasserfall", description: "Energetische Reinigungsübung mit Atem und Bewegung für den Feierabend" },
   { term: "Stille",                          route: "stille",                        description: "Meditation & Stille: eine Übung für jeden Enneagramm-Typ" },
   { term: "Tritypen",                        route: "tritypen",                      description: "Schaubild: Die 27 Tritypen – Kombination aus einem Typ pro Triade" },
 
@@ -1303,6 +1306,9 @@ export const registerEntriesEN = [
   { term: "3-Part Swing Routine", route: "praxistipps-heilpraktiker/schwung-routine", description: "Chart: three standing swing exercises for fascia, mobility, and full-body training" },
   { term: "The Energy Field Between the Hands", route: "praxistipps-heilpraktiker/energiefeld-haende", description: "Basic body-awareness exercise: sensing the energetic power ball between the palms" },
   { term: "Movement in the Element of Water", route: "praxistipps-heilpraktiker/bewegung-wasser", description: "Mindful, flowing movement using the image of water resistance – inspired by Tai Chi" },
+  { term: "The Invisible Magnet", route: "praxistipps-heilpraktiker/unsichtbarer-magnet", description: "Grounding exercise: imagined magnets at the soles of the feet for instant grounding and calm" },
+  { term: "Opening the Heart Gate", route: "praxistipps-heilpraktiker/herz-tor-oeffnen", description: "Breath-and-movement exercise that opens the chest and creates inner spaciousness" },
+  { term: "The Breath Waterfall", route: "praxistipps-heilpraktiker/atem-wasserfall", description: "Energetic cleansing exercise with breath and movement, ideal for the evening" },
   { term: "Silence", route: "stille", description: "Meditation & silence: an exercise for every Enneagram type" },
   { term: "Tritypes", route: "tritypen", description: "Chart: the 27 tritypes – combination of one type per triad" }
 ];

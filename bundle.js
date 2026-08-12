@@ -35022,6 +35022,9 @@ function praxistippsHeilpraktikerPage() {
     { slug:"schwung-routine", titel:"3-teilige Schwung-Routine: Ganzheitliches Faszien- & K\u00f6rpertraining im Stehen", teaser:"Drei einfache Schwung\u00fcbungen im Stehen \u2013 f\u00fcr Beweglichkeit, Faszien und den ganzen K\u00f6rper, \u00fcberall und ohne Ger\u00e4te machbar.", img:"./assets/schaubilder/schwung-routine/schwung-routine.jpg" },
     { slug:"energiefeld-haende", titel:"Das Energiefeld zwischen den H\u00e4nden", teaser:"Eine einfache Grund\u00fcbung f\u00fcr mehr K\u00f6rperwahrnehmung und Tiefe \u2013 der energetische Kraftball zwischen den Handfl\u00e4chen.", img:"./assets/schaubilder/energiefeld-haende/energiefeld-haende.jpg" },
     { slug:"bewegung-wasser", titel:"Bewegung im Element Wasser: Achtsame Langsamkeit f\u00fcr den Alltag", teaser:"Der imagin\u00e4re Widerstand des Wassers als Bild f\u00fcr flie\u00dfende, achtsame Bewegung \u2013 inspiriert von Tai Chi.", img:"./assets/schaubilder/bewegung-wasser/bewegung-wasser.jpg" },
+    { slug:"unsichtbarer-magnet", titel:"Der unsichtbare Magnet: Die Erdungs-\u00dcbung", teaser:"Magnete an den Fu\u00dfsohlen als Bild, um in Sekunden Erdung und mentale Ruhe herzustellen.", img:"./assets/schaubilder/unsichtbarer-magnet/unsichtbarer-magnet.jpg" },
+    { slug:"herz-tor-oeffnen", titel:"Das Herz-Tor \u00f6ffnen: Weite und Verbindung sp\u00fcren", teaser:"Eine Atem-Bewegungs-\u00dcbung, die den Brustraum \u00f6ffnet und f\u00fcr innere Weite sorgt.", img:"./assets/schaubilder/herz-tor-oeffnen/herz-tor-oeffnen.jpg" },
+    { slug:"atem-wasserfall", titel:"Der Atem-Wasserfall: Energetische Reinigung und Klarheit", teaser:"Eine sanfte, energetische Dusche aus Atem und Bewegung f\u00fcr den Feierabend.", img:"./assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -35039,6 +35042,15 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "bewegung-wasser") {
     return bewegungWasserPage();
+  }
+  if (param === "unsichtbarer-magnet") {
+    return unsichtbarerMagnetPage();
+  }
+  if (param === "herz-tor-oeffnen") {
+    return herzTorOeffnenPage();
+  }
+  if (param === "atem-wasserfall") {
+    return atemWasserfallPage();
   }
 
   return shell(`
@@ -35352,6 +35364,131 @@ function bewegungWasserPage() {
         {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"Das Energiefeld zwischen den Händen"},
         {route:"praxistipps-heilpraktiker/schwung-routine", label:"3-teilige Schwung-Routine"},
         {route:"tcm", label:"TCM · Meridiane · Akupunktur"},
+        {route:"practice", label:"Werkzeuge"},
+      ])}
+    </section>
+  `);
+}
+
+function unsichtbarerMagnetPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1 class="h1--tip">Der unsichtbare Magnet: Die Erdungs-Übung</h1>
+      <p class="lead-small">Magnete an den Fußsohlen als Bild, um in Sekunden Erdung und mentale Ruhe herzustellen.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="./assets/schaubilder/unsichtbarer-magnet/unsichtbarer-magnet.jpg"
+             alt="Frau steht geerdet im Wald, energetische Wurzeln wachsen aus ihren Fußsohlen in den Boden"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Viele Menschen sind im Alltag „kopflastig" und fühlen sich unkonzentriert oder gestresst. Diese Übung nutzt die Vorstellung von Magneten an den Fußsohlen, um sofort eine tiefe Verbindung zum Boden (Erdung) herzustellen und den Geist zu zentrieren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Die Ausführung</h2>
+        <p class="vb-intro">Aufrecht hinstellen und die Augen schließen. Die Vorstellung: wie zwei Magnete an den Fußsohlen, die sanft, aber unwiderstehlich vom Erdmittelpunkt angezogen werden. Mit jedem Ausatmen sinkt das Gewicht ein Stück tiefer in den Boden, während die Wirbelsäule nach oben wächst.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Warum es wirkt:</strong> Es beruhigt das Nervensystem in Sekundenschnelle und leitet überschüssige mentale Anspannung nach unten ab.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/herz-tor-oeffnen", label:"Das Herz-Tor öffnen"},
+        {route:"praxistipps-heilpraktiker/atem-wasserfall", label:"Der Atem-Wasserfall"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"Das Energiefeld zwischen den Händen"},
+        {route:"practice", label:"Werkzeuge"},
+      ])}
+    </section>
+  `);
+}
+
+function herzTorOeffnenPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1 class="h1--tip">Das Herz-Tor öffnen: Weite und Verbindung spüren</h1>
+      <p class="lead-small">Eine Atem-Bewegungs-Übung, die den Brustraum öffnet und für innere Weite sorgt.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="./assets/schaubilder/herz-tor-oeffnen/herz-tor-oeffnen.jpg"
+             alt="Frau steht mit weit geöffneten Armen an einer Klippe über dem Meer, ein leuchtendes Herz-Zentrum strahlt auf ihrer Brust"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Viele Menschen neigen bei Stress dazu, sich körperlich und energetisch „kleinzumachen" – die Schultern ziehen nach vorne, der Brustkorb wird eng. Diese Übung wirkt dem gezielt entgegen, indem sie den Brustraum aktiviert, frische Energie einlädt und für innere Weite sorgt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Die Ausführung</h2>
+        <p class="vb-intro"><strong>1. Die Ausgangsposition:</strong> Aufrecht und entspannt hinstellen. Die Hände flach übereinander auf das Brustbein (Herz-Zentrum) legen.</p>
+        <p class="vb-intro"><strong>2. Das Öffnen (Einatmen):</strong> Tief durch die Nase einatmen. Dabei die Arme und Hände langsam in einem weiten, einladenden Bogen nach außen und leicht nach oben führen. Der Brustkorb öffnet sich maximal, der Blick geht sanft nach oben.</p>
+        <p class="vb-intro"><strong>3. Die Zentrierung (Ausatmen):</strong> Ruhig ausatmen. Die Hände langsam wieder vor dem Körper zusammenführen und flach zurück auf das Brustbein legen. Nachspüren, wie sich die gesammelte Energie in der Mitte sammelt.</p>
+        <p class="vb-intro"><strong>4. Wiederholung:</strong> Diesen fließenden Zyklus drei- bis fünfmal im eigenen Atemrhythmus wiederholen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .7rem;"><strong style="color:var(--copper);">Warum das wirkt:</strong> Die bewusste Kombination aus tiefer Öffnung und kontrollierter Atmung korrigiert sofort die Haltung, löst tief sitzende Verspannungen im Schulter- und Nackenbereich und erzeugt ein starkes Gefühl von innerer Größe, emotionaler Balance und Freiheit.</p>
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Tipp für heute:</strong> Diese Übung eignet sich immer dann, wenn ein Gefühl von Enge entsteht oder zu viel Last auf den Schultern liegt. Das „Herz-Tor" öffnet sich, und die Weite des Augenblicks kann eingeatmet werden.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/unsichtbarer-magnet", label:"Der unsichtbare Magnet"},
+        {route:"praxistipps-heilpraktiker/atem-wasserfall", label:"Der Atem-Wasserfall"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"Das Energiefeld zwischen den Händen"},
+        {route:"practice", label:"Werkzeuge"},
+      ])}
+    </section>
+  `);
+}
+
+function atemWasserfallPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1 class="h1--tip">Der Atem-Wasserfall: Energetische Reinigung und Klarheit</h1>
+      <p class="lead-small">Eine sanfte, energetische Dusche aus Atem und Bewegung für den Feierabend.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="./assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg"
+             alt="Frau im Wald hebt die Arme über den Kopf, ein Lichtschleier fließt wie ein Wasserfall an ihr herab"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Nach einem anstrengenden Tag oder vielen Kontakten fühlt man sich oft „voll" mit fremden Einflüssen oder mentalem Stress. Diese Übung funktioniert wie eine sanfte, energetische Dusche durch die bewusste Kombination von Atem und Bewegung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Die Ausführung</h2>
+        <p class="vb-intro"><strong>1. Die Ausgangsposition:</strong> Aufrecht und entspannt hinstellen. Die Arme hängen locker an den Seiten herab.</p>
+        <p class="vb-intro"><strong>2. Das Aufsteigen (Einatmen):</strong> Tief und gleichmäßig durch die Nase einatmen. Dabei die Arme und Hände langsam an den Seiten des Körpers nach oben führen, bis über den Kopf.</p>
+        <p class="vb-intro"><strong>3. Das Reinigen (Ausatmen):</strong> Durch den leicht geöffneten Mund ausatmen. Die Hände mit den Handflächen nach unten langsam vor dem Körper in einem geraden Weg nach unten führen – wie einen sanften Wasserfall aus klarem Licht oder frischer Energie, der alles abstreift, was nicht mehr gebraucht wird, bis hinunter zum Boden.</p>
+        <p class="vb-intro"><strong>4. Wiederholung:</strong> Diesen reinigenden Zyklus viermal im eigenen Rhythmus wiederholen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .7rem;"><strong style="color:var(--copper);">Warum das wirkt:</strong> Die bewusste Synchronisation von tiefer Atmung und einer abwärts gerichteten Handbewegung signalisiert dem Nervensystem sofort: Altes fließt ab, das System wird entlastet, Platz für Neues entsteht.</p>
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Tipp für heute:</strong> Der „Atem-Wasserfall" eignet sich besonders am Abend, um den Ballast des Tages symbolisch abzuwaschen und gereinigt und entspannt in den Feierabend zu starten.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/unsichtbarer-magnet", label:"Der unsichtbare Magnet"},
+        {route:"praxistipps-heilpraktiker/herz-tor-oeffnen", label:"Das Herz-Tor öffnen"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"Das Energiefeld zwischen den Händen"},
         {route:"practice", label:"Werkzeuge"},
       ])}
     </section>

@@ -4890,6 +4890,9 @@ function praxistippsHeilpraktikerPage() {
     { slug:"schwung-routine", titel:"3-Part Swing Routine: Full-Body Fascia & Movement Training While Standing", teaser:"Three simple standing swing exercises for mobility, fascia, and the whole body – no equipment, doable anywhere.", img:"../assets/schaubilder/schwung-routine/schwung-routine.jpg" },
     { slug:"energiefeld-haende", titel:"The Energy Field Between the Hands", teaser:"A simple basic exercise for greater body awareness and depth – the energetic power ball between the palms.", img:"../assets/schaubilder/energiefeld-haende/energiefeld-haende.jpg" },
     { slug:"bewegung-wasser", titel:"Movement in the Element of Water: Mindful Slowness for Everyday Life", teaser:"The imagined resistance of water as an image for flowing, mindful movement – inspired by Tai Chi.", img:"../assets/schaubilder/bewegung-wasser/bewegung-wasser.jpg" },
+    { slug:"unsichtbarer-magnet", titel:"The Invisible Magnet: The Grounding Exercise", teaser:"Imagined magnets at the soles of the feet to establish grounding and mental calm within seconds.", img:"../assets/schaubilder/unsichtbarer-magnet/unsichtbarer-magnet.jpg" },
+    { slug:"herz-tor-oeffnen", titel:"Opening the Heart Gate: Sensing Openness and Connection", teaser:"A breath-and-movement exercise that opens the chest and creates a sense of inner spaciousness.", img:"../assets/schaubilder/herz-tor-oeffnen/herz-tor-oeffnen.jpg" },
+    { slug:"atem-wasserfall", titel:"The Breath Waterfall: Energetic Cleansing and Clarity", teaser:"A gentle energetic shower of breath and movement, perfect for the evening.", img:"../assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -4907,6 +4910,15 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "bewegung-wasser") {
     return bewegungWasserPage();
+  }
+  if (param === "unsichtbarer-magnet") {
+    return unsichtbarerMagnetPage();
+  }
+  if (param === "herz-tor-oeffnen") {
+    return herzTorOeffnenPage();
+  }
+  if (param === "atem-wasserfall") {
+    return atemWasserfallPage();
   }
 
   return shell(`
@@ -5220,6 +5232,131 @@ function bewegungWasserPage() {
         {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"The Energy Field Between the Hands"},
         {route:"praxistipps-heilpraktiker/schwung-routine", label:"3-Part Swing Routine"},
         {route:"tcm", label:"TCM · Meridians · Acupuncture"},
+        {route:"practice", label:"Tools"},
+      ])}
+    </section>
+  `);
+}
+
+function unsichtbarerMagnetPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1 class="h1--tip">The Invisible Magnet: The Grounding Exercise</h1>
+      <p class="lead-small">Imagined magnets at the soles of the feet to establish grounding and mental calm within seconds.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/schaubilder/unsichtbarer-magnet/unsichtbarer-magnet.jpg"
+             alt="Woman standing grounded in a forest, energetic roots growing from her soles into the ground"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Many people feel "stuck in their heads" in everyday life and experience a lack of focus or stress. This exercise uses the image of magnets at the soles of the feet to immediately establish a deep connection to the ground (grounding) and center the mind.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Exercise</h2>
+        <p class="vb-intro">Stand upright and close the eyes. The image: like two magnets at the soles of the feet, gently but irresistibly drawn toward the center of the earth. With every exhale, the weight sinks a little deeper into the ground, while the spine grows upward.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Why it works:</strong> It calms the nervous system within seconds and channels excess mental tension downward.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"praxistipps-heilpraktiker/herz-tor-oeffnen", label:"Opening the Heart Gate"},
+        {route:"praxistipps-heilpraktiker/atem-wasserfall", label:"The Breath Waterfall"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"The Energy Field Between the Hands"},
+        {route:"practice", label:"Tools"},
+      ])}
+    </section>
+  `);
+}
+
+function herzTorOeffnenPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1 class="h1--tip">Opening the Heart Gate: Sensing Openness and Connection</h1>
+      <p class="lead-small">A breath-and-movement exercise that opens the chest and creates a sense of inner spaciousness.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/schaubilder/herz-tor-oeffnen/herz-tor-oeffnen.jpg"
+             alt="Woman standing on a cliff above the sea with arms wide open, a glowing heart center radiating on her chest"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Under stress, many people tend to make themselves physically and energetically "smaller" – the shoulders pull forward, the chest tightens. This exercise directly counteracts that by activating the chest space, inviting fresh energy, and creating inner spaciousness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Exercise</h2>
+        <p class="vb-intro"><strong>1. Starting position:</strong> Stand upright and relaxed. Place the hands flat, one over the other, on the breastbone (heart center).</p>
+        <p class="vb-intro"><strong>2. Opening (inhale):</strong> Breathe in deeply through the nose. Slowly guide the arms and hands outward and slightly upward in a wide, inviting arc. The chest opens fully, and the gaze lifts gently upward.</p>
+        <p class="vb-intro"><strong>3. Centering (exhale):</strong> Breathe out calmly. Slowly bring the hands back together in front of the body and place them flat on the breastbone again. Notice how the gathered energy settles at the center.</p>
+        <p class="vb-intro"><strong>4. Repetition:</strong> Repeat this flowing cycle three to five times, in your own breathing rhythm.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .7rem;"><strong style="color:var(--copper);">Why it works:</strong> The conscious combination of deep opening and controlled breathing immediately corrects posture, releases deep-seated tension in the shoulders and neck, and creates a strong sense of inner spaciousness, emotional balance, and freedom.</p>
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Tip for today:</strong> This exercise is ideal whenever a feeling of constriction arises, or too much weight seems to rest on the shoulders. Opening the "heart gate" allows the spaciousness of the moment to be breathed in.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"praxistipps-heilpraktiker/unsichtbarer-magnet", label:"The Invisible Magnet"},
+        {route:"praxistipps-heilpraktiker/atem-wasserfall", label:"The Breath Waterfall"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"The Energy Field Between the Hands"},
+        {route:"practice", label:"Tools"},
+      ])}
+    </section>
+  `);
+}
+
+function atemWasserfallPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1 class="h1--tip">The Breath Waterfall: Energetic Cleansing and Clarity</h1>
+      <p class="lead-small">A gentle energetic shower of breath and movement, perfect for the evening.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg"
+             alt="Woman in a forest raising her arms overhead, a veil of light flowing down around her like a waterfall"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">After an exhausting day or many social interactions, it's common to feel "full" of other people's influences or mental stress. This exercise works like a gentle energetic shower through the conscious combination of breath and movement.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Exercise</h2>
+        <p class="vb-intro"><strong>1. Starting position:</strong> Stand upright and relaxed. Let the arms hang loosely at the sides.</p>
+        <p class="vb-intro"><strong>2. Rising (inhale):</strong> Breathe in deeply and evenly through the nose. Slowly guide the arms and hands upward along the sides of the body, all the way above the head.</p>
+        <p class="vb-intro"><strong>3. Cleansing (exhale):</strong> Breathe out through the slightly open mouth. Guide the hands, palms facing down, slowly in a straight path down in front of the body – like a gentle waterfall of clear light or fresh energy, stripping away everything no longer needed, all the way down to the ground.</p>
+        <p class="vb-intro"><strong>4. Repetition:</strong> Repeat this cleansing cycle four times, at your own pace.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .7rem;"><strong style="color:var(--copper);">Why it works:</strong> The conscious synchronization of deep breathing with a downward hand movement immediately signals to the nervous system: old patterns are flowing away, the system is releasing, and space is being made for something new.</p>
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Tip for today:</strong> The "breath waterfall" works especially well in the evening, symbolically washing off the weight of the day and starting the evening cleansed and relaxed.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"praxistipps-heilpraktiker/unsichtbarer-magnet", label:"The Invisible Magnet"},
+        {route:"praxistipps-heilpraktiker/herz-tor-oeffnen", label:"Opening the Heart Gate"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"The Energy Field Between the Hands"},
         {route:"practice", label:"Tools"},
       ])}
     </section>
