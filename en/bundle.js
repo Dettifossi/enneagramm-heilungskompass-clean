@@ -5048,6 +5048,48 @@ function fussreflexzonenAktivierungPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Foot and Hand Reflex Zones at a Glance</h2>
+        <p class="vb-intro">In reflexology, the sole of the foot mirrors the entire organism – from the head and sinuses through the internal organs to the spine and pelvis. Targeted pressure on a specific zone sets a stimulus believed to affect the corresponding area of the body.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/schaubilder/fussreflexzonen-aktivierung/fussreflexzonen-chart.jpg"
+             alt="Overview chart of the foot reflex zones with all assigned organs and body areas"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">The same massage roller works just as well on the palms: simply place it on a firm surface like a table and roll the hand over it – the same motion as with the foot, just for the hand reflex zones instead. These lie a bit deeper in the tissue and are more finely detailed than on the foot, with the zones for the head and sinuses especially pronounced.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/schaubilder/fussreflexzonen-aktivierung/handreflexzonen-chart.jpg"
+             alt="Overview chart of the hand reflex zones with all assigned organs and body areas"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Massage Roller in Practice</h2>
+        <p class="vb-intro">For the feet, the roller simply stays on the floor – ideal under a desk, for example, where it can be used casually while working.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/schaubilder/fussreflexzonen-aktivierung/massageroller-fuss-praxis.jpg"
+             alt="Wooden massage roller on the floor under a desk for the foot reflex zone massage"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">For the hand reflex zones, the same roller moves onto the desk – the hand rolls loosely over it in the same motion the foot would normally use.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/schaubilder/fussreflexzonen-aktivierung/massageroller-hand-praxis.jpg"
+             alt="Wooden massage roller on a desk, hand rolling over it for the hand reflex zone massage"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">How it's done</h2>
         <p class="vb-intro"><strong>Preparation:</strong> Sit comfortably on a chair (or stand if secure footing is available). Place the chosen massage tool on the floor.</p>
         <p class="vb-intro"><strong>Execution:</strong> Place the right foot on the ball or roller with light pressure. Roll it slowly and evenly from heel to toes and back.</p>

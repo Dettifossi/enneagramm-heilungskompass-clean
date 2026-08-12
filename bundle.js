@@ -35180,6 +35180,48 @@ function fussreflexzonenAktivierungPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Fuß- und Handreflexzonen im Überblick</h2>
+        <p class="vb-intro">Die Fußsohle spiegelt in der Reflexzonenlehre den gesamten Organismus – von Kopf und Nebenhöhlen über die inneren Organe bis hin zur Wirbelsäule und zum Becken. Gezielter Druck auf eine bestimmte Zone setzt einen Reiz, der sich auf den zugeordneten Körperbereich auswirken soll.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="./assets/schaubilder/fussreflexzonen-aktivierung/fussreflexzonen-chart.jpg"
+             alt="Übersichtsgrafik der Fußreflexzonen mit allen zugeordneten Organen und Körperbereichen"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Der Massageroller lässt sich genauso gut auf den Handinnenflächen einsetzen: einfach auf eine feste Unterlage wie einen Tisch stellen und mit der Hand darüberrollen – dieselbe Bewegung wie mit dem Fuß, nur eben für die Handreflexzonen. Diese liegen etwas tiefer im Gewebe und sind kleinteiliger als am Fuß, besonders ausgeprägt sind dort die Zonen für Kopf und Nebenhöhlen.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="./assets/schaubilder/fussreflexzonen-aktivierung/handreflexzonen-chart.jpg"
+             alt="Übersichtsgrafik der Handreflexzonen mit allen zugeordneten Organen und Körperbereichen"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Der Massageroller in der Praxis</h2>
+        <p class="vb-intro">Für die Füße bleibt der Roller einfach auf dem Boden liegen – ideal etwa unter dem Schreibtisch, wo er sich beiläufig während der Arbeit nutzen lässt.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="./assets/schaubilder/fussreflexzonen-aktivierung/massageroller-fuss-praxis.jpg"
+             alt="Holz-Massageroller auf dem Boden unter dem Schreibtisch für die Fußreflexzonen-Massage"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Für die Handreflexzonen wandert derselbe Roller auf den Tisch – die Hand rollt locker in derselben Bewegung darüber, wie sonst der Fuß.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="./assets/schaubilder/fussreflexzonen-aktivierung/massageroller-hand-praxis.jpg"
+             alt="Holz-Massageroller auf dem Schreibtisch, Hand rollt für die Handreflexzonen-Massage darüber"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">So geht's</h2>
         <p class="vb-intro"><strong>Vorbereitung:</strong> Bequem auf einen Stuhl setzen (oder hinstellen, sofern sicherer Halt gegeben ist). Das gewählte Massage-Tool auf dem Boden vor sich ablegen.</p>
         <p class="vb-intro"><strong>Die Ausführung:</strong> Den rechten Fuß mit leichtem Druck auf den Ball oder den Roller setzen. Ihn nun langsam und gleichmäßig von der Ferse bis zu den Zehenballen vor und zurück bewegen.</p>
