@@ -31390,6 +31390,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Napoleon Bonaparte \u2013 Sozialer Typ 2",
     teaser:"SO2w3 \u00b7 1769\u20131821. Franz\u00f6sischer Feldherr und Kaiser, Code Napol\u00e9on. Von Naranjo als soziale Zwei typisiert \u2013 Ehrgeiz und Stolz statt reiner Macht, der Golden Retriever, der einen Kontinent umarmen wollte und an St. Helena die Verbannung aus der Beziehung erlebte. Tierentsprechung: Golden Retriever.",
     tags:["Geschichte","Politik"] , gender:"m"},
+  { route:"beruehmte-alexander-der-grosse", name:"Alexander der Gro\u00dfe", added:"2026-08-12", subtyp:"SO2w3",
+    heading:"Alexander der Gro\u00dfe \u2013 Sozialer Typ 2",
+    teaser:"SO2w3 \u00b7 356\u2013323 v. Chr. Makedonischer K\u00f6nig, Eroberer eines Weltreichs von Griechenland bis Indien. Der Golden Retriever, der seine Soldaten wie Br\u00fcder liebte, mit ihnen jede Entbehrung teilte und an der eigenen Unbesiegbarkeit zerbrach. Tierentsprechung: Golden Retriever.",
+    tags:["Geschichte","Politik"] , gender:"m"},
   { route:"beruehmte-will-smith", name:"Will Smith", added:"2026-07-20", subtyp:"SO2w3",
     heading:"Will Smith \u2013 Sozialer Typ 2",
     teaser:"SO2w3 \u00b7 geb. 1968. Schauspieler, Rapper, Oscar-Preistr\u00e4ger. Fresh Prince, Ali, Men in Black. Der Golden Retriever, der die Welt umarmen will \u2013 und manchmal bei\u00dft, weil er sch\u00fctzt. Ehrgeiz als Form der Liebe. Tierentsprechung: Golden Retriever.",
@@ -53942,6 +53946,71 @@ function napoleonBonapartePortraitPage() {
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3)"},
         {route:"beruehmte-will-smith", label:"Porträt: Will Smith (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function alexanderDerGrossePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-alexander-der-grosse-portrait.jpg" alt="Alexander der Große" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alexander der Große</p>
+        <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel · Herztyp</p>
+        <p class="krim-portrait-subtitle">356–323 v. Chr. – König von Makedonien, Eroberer eines Weltreichs – Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever, der die Welt umarmen wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei – zugewandt, großzügig, unwiderstehlich darauf aus, gebraucht und geliebt zu werden. Kaum eine historische Gestalt zeigt dieses Muster so ungebrochen wie Alexander der Große. Zeitgenössische Quellen berichten übereinstimmend von einem Mann, der seine Soldaten beim Namen kannte, ihre Wunden persönlich besuchte und der in elf Jahren ununterbrochenen Feldzugs nie fern von der vordersten Linie blieb – ein Feldherr, der Nähe suchte, wo andere Distanz zur Machtsicherung genutzt hätten.</p>
+          <p class="vb-intro">Geboren 356 v. Chr. als Sohn König Philipps II. von Makedonien, wurde Alexander von Aristoteles persönlich unterrichtet – eine Erziehung, die ihm intellektuelle Tiefe neben soldatischer Härte mitgab. Schon als Junge zähmte er das angeblich unbändige Pferd Bukephalos, indem er es einfach von seinem eigenen Schatten wegdrehte und ihm dann ruhig, zugewandt begegnete – eine frühe Miniatur seines gesamten Führungsstils: Verbindung schlägt Zwang.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SO2: Ehrgeiz als Form der Liebe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die soziale Zwei <strong>Ehrgeiz</strong> – und bei Alexander verschmilzt dieser Ehrgeiz untrennbar mit echter Fürsorge für seine Männer. Bevor er 334 v. Chr. nach Asien übersetzte, verteilte er nahezu seinen gesamten persönlichen Besitz an Freunde und Offiziere. Als einer seiner Gefährten fragte, was er sich selbst zurückbehalte, soll Alexander geantwortet haben: „Meine Hoffnungen." Kein sparsamer Stratege hätte so gehandelt – aber die soziale Zwei investiert nicht in Rücklagen, sondern in Beziehung.</p>
+          <p class="vb-intro">Diese Logik durchzieht seine gesamte Feldherrnschaft: Er teilte auf dem Marsch durch die Wüste Gedrosien freiwillig den Wassermangel seiner Truppen, statt sein eigenes Privileg als König zu nutzen, und schüttete demonstrativ einen ihm gereichten Helm voll Wasser vor den Augen seiner durstenden Armee aus. Jede dieser Gesten war zugleich Führungskunst und Liebesbeweis: <em>Ich teile eure Not. Ich sehe euch. Ihr gehört zu mir.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Inszenierung als Sohn eines Gottes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> macht aus dem verbindungssuchenden Wohltäter einen Meister der Selbstinszenierung. Alexander ließ sich als Nachfahre des Achilles und Herakles stilisieren, reiste eigens zur Oase Siwa in der ägyptischen Wüste, um sich vom Orakel des Amun als Sohn des Gottes bestätigen zu lassen, und durchtrennte in Gordion mit einem einzigen Schwerthieb den berühmten Knoten, den der Legende nach nur der künftige Herrscher Asiens lösen könnte – ein PR-Coup, der in der gesamten antiken Welt Wellen schlug.</p>
+          <p class="vb-intro">Gleichzeitig trug dieser Flügel dieselbe Gefahr wie bei jedem SO2w3er: die Verwechslung von öffentlichem Bild und innerem Kern. Je weiter Alexander nach Osten vordrang, desto mehr übernahm er persische Hofzeremonien wie die <em>Proskynesis</em>, die rituelle Kniebeuge vor dem Herrscher – eine Geste, die seine makedonischen Gefährten als Anmaßung göttlicher Ehren empfanden und die zunehmend Risse zwischen ihm und seinem engsten Kreis aufwarf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Hyphasis und Hephaistion: Als der Golden Retriever verlassen wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">326 v. Chr., am Fluss Hyphasis im heutigen Punjab, weigerten sich Alexanders Truppen nach acht Jahren ununterbrochenen Feldzugs zum ersten Mal, ihm weiter zu folgen. Für die soziale Zwei ist genau das der tiefste denkbare Bruch: Die Männer, mit denen er jede Entbehrung geteilt hatte, verweigerten ihm die Verbindung, auf die sein gesamtes Selbstverständnis aufbaute. Drei Tage zog er sich schmollend in sein Zelt zurück, bevor er dem Druck nachgab und die Umkehr befahl – ein für einen SO2w3er typischer Moment: Wird die bedingungslose Bindung infrage gestellt, folgt zunächst Rückzug, nicht Zorn.</p>
+          <p class="vb-intro">Ein noch tieferer Bruch traf ihn 324 v. Chr. mit dem plötzlichen Tod seines engsten Gefährten und vermutlich Lebensgefährten Hephaistion in Ekbatana. Antike Quellen berichten, Alexander habe sich tagelang nicht von der Leiche trennen lassen, habe Ärzte hinrichten lassen und Trauerriten von unerhörtem Ausmaß angeordnet. Unter Druck geht der Typ 2 in seinen <strong>Achter-Stresspunkt</strong> – und genau dieses Muster zeigte sich in den Monaten danach: Alexander wurde zunehmend unnachgiebiger, unternahm einen blutigen Rachefeldzug gegen einen Bergstamm und trieb sich selbst und seine Armee in immer riskantere Unternehmungen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Ein Feuer, dem alle folgten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Alexanders Wirkung auf seine Zeitgenossen war von seltener Anziehungskraft: Seine Soldaten folgten ihm über zehntausend Kilometer, durch Wüsten, über Gebirge, in Schlachten gegen zahlenmäßig weit überlegene Gegner, weil er selbst an vorderster Front kämpfte, mehrfach schwer verwundet wurde und nie den sicheren Rückzug dem gemeinsamen Risiko vorzog. Als bei der Belagerung von Multan ein Pfeil seine Lunge durchbohrte, sollen erfahrene Veteranen offen geweint haben – ein Ausmaß persönlicher Bindung, das in der Militärgeschichte seinesgleichen sucht.</p>
+          <p class="vb-intro">Und doch: Hinter diesem Feuer lag der lange Schatten der Zwei, die Leidenschaft <strong>Stolz</strong> – der Glaube, unbesiegbar und unentbehrlich sein zu müssen, und die Unfähigkeit, jemals genug erobert zu haben. Alexander hatte ein Weltreich, die bedingungslose Loyalität seiner Armee, den Ruhm eines Halbgotts zu Lebzeiten – und dennoch drängte ihn dieselbe innere Logik immer weiter nach Osten, bis seine eigenen Männer ihm die Grenze setzten, die er sich selbst nie gesetzt hätte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Eine Welt, die zusammenwuchs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Alexander der Welt hinterließ, lässt sich nicht auf Eroberungen reduzieren. Er gründete über zwanzig Städte, die meisten davon Alexandria genannt, von denen einige – allen voran Alexandria in Ägypten – zu den bedeutendsten Kulturzentren der antiken Welt wurden. Er förderte bewusst die Vermischung griechischer und orientalischer Kultur, ließ Zehntausende seiner Soldaten persische Frauen heiraten und heiratete selbst zweimal in persische und baktrische Fürstenhäuser – eine zutiefst SO2-typische Geste: Grenzen zwischen „wir" und „die anderen" auflösen, alle in ein gemeinsames Ganzes einschließen.</p>
+          <p class="vb-intro">Er starb 323 v. Chr. in Babylon im Alter von nur 32 Jahren, vermutlich an einer fieberhaften Erkrankung, ohne einen erwachsenen Erben zu hinterlassen. Sein Reich zerfiel binnen weniger Jahre unter seinen Nachfolgern. Doch die von ihm ausgelöste Verschmelzung griechischer und orientalischer Kultur, der sogenannte Hellenismus, prägte den Mittelmeerraum und den Nahen Osten für Jahrhunderte. Der Golden Retriever mit dem Dreierflügel konnte eine Welt zusammenführen – auch wenn das Reich selbst seinen Tod nicht überdauerte, überdauerte die Verbindung, die er zwischen Ost und West gestiftet hatte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3)"},
+        {route:"beruehmte-napoleon-bonaparte", label:"Porträt: Napoleon Bonaparte (SO2w3)"},
       ])}
     </div>
   `);
@@ -82909,6 +82978,7 @@ function render() {
       "beruehmte-marisa-abela": marisaAbelaPortraitPage,
       "beruehmte-julius-caesar": juliusCaesarPortraitPage,
       "beruehmte-napoleon-bonaparte": napoleonBonapartePortraitPage,
+      "beruehmte-alexander-der-grosse": alexanderDerGrossePortraitPage,
       "beruehmte-will-smith": willSmithPortraitPage,
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,

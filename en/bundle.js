@@ -946,6 +946,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Napoleon Bonaparte – Social Type 2",
     teaser:"SO2w3 · 1769–1821. French general and emperor, Code Napoléon. Typed by Naranjo as a social Two – ambition and pride rather than pure power, the Golden Retriever who wanted to embrace a continent and experienced exile from connection itself at St. Helena. Animal correspondence: Golden Retriever.",
     tags:["History","Politics"] , gender:"m"},
+  { route:"beruehmte-alexander-der-grosse", name:"Alexander the Great", added:"2026-08-12", subtyp:"SO2w3",
+    heading:"Alexander the Great – Social Type 2",
+    teaser:"SO2w3 · 356–323 BC. Macedonian king, conqueror of an empire stretching from Greece to India. The Golden Retriever who loved his soldiers like brothers, shared every hardship with them, and was undone by his own belief in his invincibility. Animal correspondence: Golden Retriever.",
+    tags:["History","Politics"] , gender:"m"},
   { route:"beruehmte-will-smith", name:"Will Smith", added:"2026-07-20", subtyp:"SO2w3",
     heading:"Will Smith – Social Type 2",
     teaser:"SO2w3 · born 1968. Actor, rapper, Oscar winner. Fresh Prince, Ali, Men in Black. The golden retriever who wants to hug the world - and sometimes bites because he protects. Ambition as a form of love. Animal correspondence: Golden Retriever.",
@@ -22141,6 +22145,71 @@ function juliusCaesarPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: subtype profile"},
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
         {route:"beruehmte-jesus-christus", label:"Portrait: Jesus Christ (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function alexanderDerGrossePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-alexander-der-grosse-portrait.jpg" alt="Alexander the Great" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alexander the Great</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with a Three-Wing &middot; Heart Type</p>
+        <p class="krim-portrait-subtitle">356&ndash;323 BC &ndash; King of Macedon, conqueror of an empire &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever Who Wanted to Embrace the World</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; warm, generous, irresistibly driven to be needed and loved. Few historical figures display this pattern as unbrokenly as Alexander the Great. Contemporary sources consistently describe a man who knew his soldiers by name, personally visited their wounds, and in eleven years of unbroken campaigning was never far from the front line &ndash; a general who sought closeness where others would have used distance to secure their power.</p>
+          <p class="vb-intro">Born in 356 BC as the son of King Philip II of Macedon, Alexander was personally tutored by Aristotle &ndash; an education that gave him intellectual depth alongside soldierly toughness. As a boy he tamed the supposedly unbreakable horse Bucephalus simply by turning it away from its own shadow and then approaching it calmly and openly &ndash; an early miniature of his entire leadership style: connection over coercion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SO2: Ambition as a Form of Love</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the social Two <strong>ambition</strong> &ndash; and in Alexander this ambition fuses inseparably with genuine care for his men. Before crossing into Asia in 334 BC, he gave away nearly all of his personal possessions to friends and officers. When one of his companions asked what he had kept for himself, Alexander is said to have answered: "My hopes." No thrifty strategist would have acted this way &ndash; but the social Two does not invest in reserves, it invests in relationship.</p>
+          <p class="vb-intro">This same logic runs through his entire generalship: on the march through the Gedrosian desert he voluntarily shared his troops' lack of water rather than using his royal privilege, and famously poured out a helmet full of water offered to him in full view of his thirsting army. Each of these gestures was simultaneously leadership craft and a proof of love: <em>I share your hardship. I see you. You belong to me.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Staging Himself as the Son of a God</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-Wing (w3)</strong> turns the connection-seeking benefactor into a master of self-presentation. Alexander had himself styled as a descendant of Achilles and Heracles, traveled specifically to the oasis of Siwa in the Egyptian desert to have the oracle of Amun confirm him as the son of the god, and famously cut the legendary Gordian Knot with a single stroke of his sword in Gordium &ndash; a knot that, according to legend, only the future ruler of Asia could untie. It was a public-relations coup that sent ripples through the entire ancient world.</p>
+          <p class="vb-intro">At the same time, this wing carried the same danger as in every SO2w3: the confusion of public image with inner core. The further east Alexander advanced, the more he adopted Persian court ceremonies such as <em>proskynesis</em>, the ritual bow before the ruler &ndash; a gesture his Macedonian companions perceived as claiming divine honors, and one that increasingly opened cracks between him and his closest circle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Hyphasis and Hephaestion: When the Golden Retriever Was Abandoned</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 326 BC, at the Hyphasis River in what is now Punjab, Alexander's troops refused for the first time to follow him further after eight years of unbroken campaigning. For the social Two, this is precisely the deepest conceivable break: the men with whom he had shared every hardship denied him the connection his entire sense of self was built on. He sulked in his tent for three days before finally giving in to the pressure and ordering the retreat &ndash; a moment typical of the SO2w3: when unconditional bonding is called into question, withdrawal comes first, not rage.</p>
+          <p class="vb-intro">An even deeper break struck him in 324 BC with the sudden death of his closest companion and likely life partner Hephaestion in Ecbatana. Ancient sources report that Alexander could not be separated from the body for days, had physicians executed, and ordered mourning rites of unprecedented scale. Under pressure, Type 2 moves into its <strong>stress point at Eight</strong> &ndash; and exactly this pattern showed itself in the months that followed: Alexander grew increasingly unforgiving, launched a bloody campaign of vengeance against a mountain tribe, and drove himself and his army into ever riskier undertakings.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetic Effect: A Fire Everyone Followed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Alexander's effect on his contemporaries carried a rare magnetism: his soldiers followed him across ten thousand kilometers, through deserts, over mountains, into battles against vastly superior numbers, because he himself fought on the front line, was wounded seriously more than once, and never chose safe retreat over shared risk. When an arrow pierced his lung during the siege of Multan, hardened veterans are said to have openly wept &ndash; a degree of personal bonding with few parallels in military history.</p>
+          <p class="vb-intro">And yet: behind this fire lay the long shadow of the Two, the passion of <strong>pride</strong> &ndash; the belief that one must be invincible and indispensable, and the inability to ever have conquered enough. Alexander had an empire, the unconditional loyalty of his army, the fame of a demigod in his own lifetime &ndash; and still that same inner logic drove him further east, until his own men set the boundary he would never have set for himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: A World That Grew Together</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Alexander left the world cannot be reduced to conquest. He founded more than twenty cities, most of them named Alexandria, some of which &ndash; above all Alexandria in Egypt &ndash; became among the most important cultural centers of the ancient world. He deliberately encouraged the blending of Greek and Eastern cultures, had tens of thousands of his soldiers marry Persian women, and himself married twice into Persian and Bactrian royal houses &ndash; a deeply SO2-typical gesture: dissolving the boundary between "us" and "them," including everyone in a shared whole.</p>
+          <p class="vb-intro">He died in Babylon in 323 BC at only 32 years of age, most likely of a feverish illness, without leaving an adult heir. His empire collapsed within a few years under his successors. But the fusion of Greek and Eastern culture he set in motion, known as the Hellenistic age, shaped the Mediterranean world and the Near East for centuries. The Golden Retriever with the Three-Wing could bring a world together &ndash; and even though the empire itself did not outlast his death, the connection he forged between East and West did.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 \u2013 The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3)"},
+        {route:"beruehmte-napoleon-bonaparte", label:"Portrait: Napoleon Bonaparte (SO2w3)"},
       ])}
     </div>
   `);
@@ -48812,6 +48881,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
       "beruehmte-julius-caesar": juliusCaesarPortraitPage,
       "beruehmte-napoleon-bonaparte": napoleonBonapartePortraitPage,
+      "beruehmte-alexander-der-grosse": alexanderDerGrossePortraitPage,
       "beruehmte-will-smith": willSmithPortraitPage,
       "beruehmte-wolodymyr-selenskyj": wolodymyrSelenskyjPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
