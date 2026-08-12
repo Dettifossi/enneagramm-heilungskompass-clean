@@ -35026,6 +35026,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"herz-tor-oeffnen", titel:"Das Herz-Tor \u00f6ffnen: Weite und Verbindung sp\u00fcren", teaser:"Eine Atem-Bewegungs-\u00dcbung, die den Brustraum \u00f6ffnet und f\u00fcr innere Weite sorgt.", img:"./assets/schaubilder/herz-tor-oeffnen/herz-tor-oeffnen.jpg" },
     { slug:"atem-wasserfall", titel:"Der Atem-Wasserfall: Energetische Reinigung und Klarheit", teaser:"Eine sanfte, energetische Dusche aus Atem und Bewegung f\u00fcr den Feierabend.", img:"./assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg" },
     { slug:"vitruv-enneagramm", titel:"Die Vitruv-Enneagramm-Bewusstseins\u00fcbung: Der Kreis der Neun", teaser:"Geometrische Harmonie des Vitruvianischen Menschen und die 9 Punkte des Enneagramms im eigenen K\u00f6rper aktivieren.", img:"./assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg" },
+    { slug:"bewusstes-innehalten", titel:"Die Praxis des bewussten Innehaltens: \u203aLet it be\u2039 im Alltag", teaser:"Kein K\u00f6rperritual, sondern reine Wahrnehmung \u2013 kurze, bewusste Stopps mitten im Alltag als Weg zur\u00fcck zur eigenen Essenz.", img:"./assets/schaubilder/bewusstes-innehalten/bewusstes-innehalten.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -35055,6 +35056,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "vitruv-enneagramm") {
     return vitruvEnneagrammPage();
+  }
+  if (param === "bewusstes-innehalten") {
+    return bewusstesInnehaltenPage();
   }
 
   return shell(`
@@ -35615,6 +35619,94 @@ function vitruvEnneagrammPage() {
         {route:"beruehmte-leonardo-da-vinci", label:"Porträt: Leonardo da Vinci (SO5w4)"},
         {route:"praxistipps-heilpraktiker/unsichtbarer-magnet", label:"Der unsichtbare Magnet"},
         {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"Das Energiefeld zwischen den Händen"},
+        {route:"practice", label:"Werkzeuge"},
+      ])}
+    </section>
+  `);
+}
+
+function bewusstesInnehaltenPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1 class="h1--tip">Die Praxis des bewussten Innehaltens: ›Let it be‹ im Alltag</h1>
+      <p class="lead-small">Kein Körperritual, sondern reine Wahrnehmung – kurze, bewusste Stopps mitten im Alltag als Weg zurück zur eigenen Essenz.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="./assets/schaubilder/bewusstes-innehalten/bewusstes-innehalten.jpg"
+             alt="Frau hält mitten in der belebten Fußgängerzone inne, Hand auf dem Herzen, während der Alltag um sie herum weiterzieht"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Diese Übung führt zurück zur wahren Essenz: der reinen Wahrnehmung. Sie ergänzt die körperlichen und energetischen Sequenzen aus dieser Rubrik perfekt, indem sie den Fokus ganz auf den Geist, die Achtsamkeit, die energetischen Mechanismen und Prinzipien sowie das Erkennen der eigenen inneren Automatismen richtet.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. Die Grundhaltung: Das bewusste Stoppen</h2>
+        <p class="vb-intro"><strong>Die Ausführung:</strong> Im Laufe des Alltags immer wieder kleine, abrupte Phasen des Stopps einbauen. Innehalten – mitten in einer Tätigkeit, beim Gehen oder vor einer Entscheidung.</p>
+        <p class="vb-intro"><strong>Das Prinzip ›Let it be‹:</strong> In diesem Moment absolut nichts tun. Weder etwas dagegen noch etwas dafür tun. Nicht eingreifen, sondern einfach nur wahrnehmen, was gerade ist – ohne Wertung, ohne Urteil, vorbehaltslos und gegenwärtig.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">2. Der Umgang mit dem inneren Widerstand</h2>
+        <p class="vb-intro"><strong>Die Realität der Übung:</strong> Erkennen, wie schwer dieses reine Nicht-Tun ist. Der Verstand und vor allem die intrinsische Enneagramm-Motivation (der typspezifische, unbewusste Antrieb) drängen permanent ins Handeln – und sei es nur in ein reines geistiges oder gedankliches Denken oder ein emotionales Grundrauschen ohne konkrete Handlung.</p>
+        <p class="vb-intro"><strong>Die Falle:</strong> Wenn der innere Kritiker flüstert: „Das ist zu schwer, das kann ich nicht", dann auch diese Stimme nur wahrnehmen.</p>
+        <p class="vb-intro"><strong>Die sanfte Rückkehr:</strong> Sich nicht dafür verurteilen, wenn Ablenkung entsteht oder alte Muster wieder greifen. Stattdessen immer wieder ganz sanft und geduldig zum reinen Innehalten zurückkehren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">3. Die Entdeckung der Essenz (Wer wir wirklich sind)</h2>
+        <p class="vb-intro"><strong>Wahrnehmung vs. Identifikation:</strong> Gedanken, Gefühle und körperliche Empfindungen während des Innehaltens unvoreingenommen wahrnehmen.</p>
+        <p class="vb-intro"><strong>Der Perspektivwechsel:</strong> Das, was diese Dinge wahrnimmt – die reine Wahrnehmung selbst –, das ist der Mensch in seiner tiefsten Tiefe (Raum). Im Alltag identifiziert man sich fälschlicherweise ständig mit dem, was man nicht ist (den wechselnden Gedanken und Emotionen in der polaren Dimension der Zeit), anstatt mit dem, der wahrnimmt.</p>
+        <p class="vb-intro"><strong>Das Ziel:</strong> Alle Praxistipps und energetischen Übungen dienen einzig dazu, zu mehr Wachsamkeit, Gegenwärtigkeit und Raumgefühl zu erwachen und ins vielbesagte, aber selten erreichte Hier und Jetzt zu führen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">4. Die Analogie des Gitarrenspielens</h2>
+        <p class="vb-intro"><strong>Die Hürde:</strong> Diese Übung ist anfangs ungewohnt und fordert heraus. Man kann die Theorie bewusster Achtsamkeit jahrelang bewundern und toll finden – so wie man eine Gitarre anschauen kann.</p>
+        <p class="vb-intro"><strong>Der erste Ton:</strong> Doch wenn man das Instrument nicht in die Hand nimmt und trotz mangelnder Vorkenntnisse den ersten, vielleicht noch holprigen Ton spielt, wird sich nichts verändern. Bewusstheit will täglich praktisch geübt werden.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Praxis-Tipp:</strong> Bei sehr unbewusstem Agieren neigt man dazu zu denken: „Das tut mir nicht gut, ich lasse es lieber und probiere etwas Neues." Doch genau hier gilt es dranzubleiben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">5. Wirkung und Longevity</h2>
+        <p class="vb-intro">Dieses Innehalten im Alltag ist von fundamentaler Wichtigkeit. Im Sinne von Longevity und ganzheitlicher Gesundheit wirkt diese Entschleunigung lebensverlängernd und führt in allen Bereichen des Lebens spürbar zu mehr Ruhe, Tiefe und Verbesserung. Das Leben bekommt dadurch Tiefe, Souveränität, stille Kraft und Resilienz gegenüber den äußeren Widrigkeiten der individuellen Lebensumstände, die zunächst bleiben, aber vollkommen anders wahrgenommen werden – ohne den ständigen Filter aus unbewussten Gedanken, Gefühlen und sonstigen Empfindungen und Sinneswahrnehmungen.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Mit der Zeit verändert sich das Raum-Zeit-Empfinden zugunsten des Raums. Während so das innere Raumbewusstsein wächst, lebt der Mensch weniger im dichten, leidvollen Zeitgefühl an der Oberfläche seiner Lebensumstände. Qualität und Tiefe des Lebensgefühls nehmen nach und nach zu, was viele Menschen als Stille oder inneren Frieden bezeichnen – die Verankerung im Seinsgefühl.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Dieser Zustand ist schwer in Worte zu fassen, weil Worte auch nur den Weg dahin weisen können. Jeder Mensch darf und muss diesen elementaren Schritt von den wegweisenden Worten zum wahren inneren Erkennen und Verstehen letztlich selbst gehen. Bekanntlich gibt es diesbezüglich keinen Weg zum Glück, denn der Weg ist das Ziel.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Buchtipp</h2>
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;">&#9672;</span>
+            <span style="flex:1;">Spirituelle Literatur von Detlef Rathmer (6)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben praxisnahe Wege, die helfen, sich selbst näherzukommen – ohne Umwege, ohne Schönrederei, direkt und klar.", "7 Wege zu Dir selbst")}
+            <div style="margin-top:.8rem;">${bookTip("nichts-und-alles", "Ein Buch über das Wesen des Bewusstseins – zwischen Leere und Fülle, zwischen dem Nichts und dem Alles des Lebens.", "Nichts und Alles")}</div>
+            <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "Eine Erkundung des Bewusstseins jenseits der Gedanken – über den stillen Raum, der hinter allem Erleben liegt.", "Der Raum hinter allem")}</div>
+            <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "Ein spirituelles Buch über die tiefste Stille in uns und die Erfahrung von Transzendenz jenseits aller Konzepte.", "Sei still und wisse – ich bin Gott!")}</div>
+            <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind – ein tiefgründiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Wie wir lernen, unsere eigenen Gedanken zu beobachten – und damit einen neuen Grad an innerer Freiheit und Klarheit gewinnen.", "Meta-Intelligenz")}</div>
+          </div>
+        </details>
+        <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">Alle Titel und weitere spirituelle Literatur von Detlef Rathmer finden sich auch auf der Homepage des Verlagshauses Rathmer unter „Persönliche Entwicklung".</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"Das Energiefeld zwischen den Händen"},
+        {route:"praxistipps-heilpraktiker/vitruv-enneagramm", label:"Die Vitruv-Enneagramm-Bewusstseinsübung"},
+        {route:"stille", label:"9 Minuten Stille sitzen"},
         {route:"practice", label:"Werkzeuge"},
       ])}
     </section>

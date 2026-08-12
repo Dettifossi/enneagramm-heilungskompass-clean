@@ -4894,6 +4894,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"herz-tor-oeffnen", titel:"Opening the Heart Gate: Sensing Openness and Connection", teaser:"A breath-and-movement exercise that opens the chest and creates a sense of inner spaciousness.", img:"../assets/schaubilder/herz-tor-oeffnen/herz-tor-oeffnen.jpg" },
     { slug:"atem-wasserfall", titel:"The Breath Waterfall: Energetic Cleansing and Clarity", teaser:"A gentle energetic shower of breath and movement, perfect for the evening.", img:"../assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg" },
     { slug:"vitruv-enneagramm", titel:"The Vitruvian-Enneagram Awareness Exercise: The Circle of Nine", teaser:"Activate the geometric harmony of the Vitruvian Man and the Enneagram's 9 points in your own body.", img:"../assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg" },
+    { slug:"bewusstes-innehalten", titel:"The Practice of Conscious Pausing: ›Let It Be‹ in Everyday Life", teaser:"No physical ritual, but pure awareness – short, conscious pauses in the middle of everyday life as a path back to one's own essence.", img:"../assets/schaubilder/bewusstes-innehalten/bewusstes-innehalten.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -4923,6 +4924,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "vitruv-enneagramm") {
     return vitruvEnneagrammPage();
+  }
+  if (param === "bewusstes-innehalten") {
+    return bewusstesInnehaltenPage();
   }
 
   return shell(`
@@ -5481,6 +5485,94 @@ function vitruvEnneagrammPage() {
         {route:"beruehmte-leonardo-da-vinci", label:"Portrait: Leonardo da Vinci (SO5w4)"},
         {route:"praxistipps-heilpraktiker/unsichtbarer-magnet", label:"The Invisible Magnet"},
         {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"The Energy Field Between the Hands"},
+        {route:"practice", label:"Tools"},
+      ])}
+    </section>
+  `);
+}
+
+function bewusstesInnehaltenPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1 class="h1--tip">The Practice of Conscious Pausing: ›Let It Be‹ in Everyday Life</h1>
+      <p class="lead-small">No physical ritual, but pure awareness – short, conscious pauses in the middle of everyday life as a path back to one's own essence.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/schaubilder/bewusstes-innehalten/bewusstes-innehalten.jpg"
+             alt="Woman pausing in the middle of a busy pedestrian street, hand on her heart, while everyday life moves on around her"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">This exercise leads back to true essence: pure awareness. It perfectly complements the physical and energetic sequences in this section by directing the focus entirely toward the mind, mindfulness, energetic mechanisms and principles, and recognizing one's own inner automatisms.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. The Basic Stance: Conscious Stopping</h2>
+        <p class="vb-intro"><strong>The execution:</strong> Build in small, abrupt pauses again and again throughout the day. Stop – in the middle of an activity, while walking, or before a decision.</p>
+        <p class="vb-intro"><strong>The ›Let it be‹ principle:</strong> Do absolutely nothing in this moment. Neither act against it nor for it. Don't intervene – simply perceive what is, right now, without judgment, without evaluation, unconditionally and present.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">2. Working with Inner Resistance</h2>
+        <p class="vb-intro"><strong>The reality of the exercise:</strong> Recognize how difficult this pure non-doing really is. The mind – and above all the intrinsic Enneagram motivation (the type-specific, unconscious drive) – constantly pushes toward action, even if it's only mental or thought-based activity, or an emotional undercurrent with no concrete action attached.</p>
+        <p class="vb-intro"><strong>The trap:</strong> When the inner critic whispers, "This is too hard, I can't do this," simply perceive that voice too.</p>
+        <p class="vb-intro"><strong>The gentle return:</strong> Don't judge yourself for getting distracted or falling back into old patterns. Instead, return again and again, gently and patiently, to pure pausing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">3. Discovering the Essence (Who We Really Are)</h2>
+        <p class="vb-intro"><strong>Awareness vs. identification:</strong> Perceive thoughts, feelings, and physical sensations during the pause without bias.</p>
+        <p class="vb-intro"><strong>The shift in perspective:</strong> That which perceives these things – pure awareness itself – is who a person is at the deepest level (space). In everyday life, one constantly and mistakenly identifies with what one is not (the changing thoughts and emotions within the polar dimension of time), instead of with the one who perceives.</p>
+        <p class="vb-intro"><strong>The goal:</strong> All the practical tips and energetic exercises in this section exist for one purpose alone: to awaken greater alertness, presence, and a sense of space, and to lead into the much-discussed but rarely reached here and now.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">4. The Guitar-Playing Analogy</h2>
+        <p class="vb-intro"><strong>The hurdle:</strong> This exercise feels unfamiliar and challenging at first. One can admire the theory of conscious mindfulness for years and think it's wonderful – just as one can look at a guitar.</p>
+        <p class="vb-intro"><strong>The first note:</strong> But if the instrument is never picked up, and the first, perhaps clumsy note is never played despite lacking experience, nothing will change. Awareness wants to be practiced daily, in practice.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Practice tip:</strong> When acting very unconsciously, there's a tendency to think, "This isn't doing me good, I'd rather leave it and try something new." But this is exactly where it's worth staying the course.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">5. Effect and Longevity</h2>
+        <p class="vb-intro">This pausing in everyday life is of fundamental importance. In terms of longevity and holistic health, this deceleration has a life-extending effect and noticeably brings more calm, depth, and improvement to every area of life. Life itself gains depth, sovereignty, quiet strength, and resilience toward the outer adversities of individual life circumstances – which initially remain, but are perceived completely differently, without the constant filter of unconscious thoughts, feelings, and other sensations and sense perceptions.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Over time, the sense of space and time shifts in favor of space. As inner spatial awareness grows, one lives less within the dense, suffering-laden sense of time on the surface of one's circumstances. The quality and depth of one's felt sense of life gradually increase – something many people describe as stillness or inner peace: an anchoring in the felt sense of being.</p>
+        <p class="vb-intro" style="margin-top:1rem;">This state is difficult to put into words, because words can only point the way there. Each person must ultimately take this essential step themselves – from the guiding words to true inner recognition and understanding. As is well known, there is no path to happiness in this regard, because the path is the goal.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Book Tip</h2>
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;">&#9672;</span>
+            <span style="flex:1;">Spiritual literature by Detlef Rathmer (6)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven practical steps toward getting closer to yourself – no detours, no sugarcoating, direct and clear.", "7 Wege zu Dir selbst")}
+            <div style="margin-top:.8rem;">${bookTip("nichts-und-alles", "A book on the nature of consciousness – between emptiness and fullness, between the nothing and the everything of life.", "Nichts und Alles")}</div>
+            <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "An exploration of consciousness beyond thought – on the silent space that lies behind all experience.", "Der Raum hinter allem")}</div>
+            <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "A spiritual book on the deepest stillness within us and the experience of transcendence beyond all concepts.", "Sei still und wisse – ich bin Gott!")}</div>
+            <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Healing not as repair, but as remembering what we truly are – a profound look at health and wholeness.", "Heilung als Erinnerung")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "How to learn to observe one's own thoughts – gaining a new degree of inner freedom and clarity.", "Meta-Intelligenz")}</div>
+          </div>
+        </details>
+        <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">All titles and further spiritual literature by Detlef Rathmer can also be found on the Verlagshaus Rathmer homepage under "Persönliche Entwicklung" (Personal Development).</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"The Energy Field Between the Hands"},
+        {route:"praxistipps-heilpraktiker/vitruv-enneagramm", label:"The Vitruvian-Enneagram Awareness Exercise"},
+        {route:"stille", label:"9 Minutes of Silence"},
         {route:"practice", label:"Tools"},
       ])}
     </section>
