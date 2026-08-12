@@ -4888,6 +4888,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"faszienuebungen-rumpfgesundheit", titel:"Fascia Exercises for Core Health", teaser:"Four simple exercises to counteract the effects of prolonged sitting – Dead Bug, Bird-Dog, Cat-Cow, and Cobra.", img:"../assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg" },
     { slug:"fussreflexzonen-aktivierung", titel:"Foot Reflex Zone Activation: The Energy Boost for In Between", teaser:"With a hedgehog ball, cork ball, or wooden roller, boost circulation and the autonomic nervous system in 1–2 minutes per foot.", img:"../assets/schaubilder/fussreflexzonen-aktivierung/igelball.jpg" },
     { slug:"schwung-routine", titel:"3-Part Swing Routine: Full-Body Fascia & Movement Training While Standing", teaser:"Three simple standing swing exercises for mobility, fascia, and the whole body – no equipment, doable anywhere.", img:"../assets/schaubilder/schwung-routine/schwung-routine.jpg" },
+    { slug:"energiefeld-haende", titel:"The Energy Field Between the Hands", teaser:"A simple basic exercise for greater body awareness and depth – the energetic power ball between the palms.", img:"../assets/schaubilder/energiefeld-haende/energiefeld-haende.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -4899,6 +4900,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "schwung-routine") {
     return schwungRoutinePage();
+  }
+  if (param === "energiefeld-haende") {
+    return energiefeldHaendePage();
   }
 
   return shell(`
@@ -4940,7 +4944,7 @@ function faszienuebungenRumpfgesundheitPage() {
     <section class="narrow">
       <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
       <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
-      <h1>Fascia Exercises for Core Health</h1>
+      <h1 class="h1--tip">Fascia Exercises for Core Health</h1>
       <p class="lead-small">Four simple, effective exercises to actively counteract the effects of prolonged sitting in everyday life.</p>
 
       <div class="vb-section" style="max-width:100%;">
@@ -4999,7 +5003,7 @@ function fussreflexzonenAktivierungPage() {
     <section class="narrow">
       <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
       <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
-      <h1>Foot Reflex Zone Activation: The Energy Boost for In Between</h1>
+      <h1 class="h1--tip">Foot Reflex Zone Activation: The Energy Boost for In Between</h1>
       <p class="lead-small">You don't need hours of hiking to get your body moving. Sometimes two minutes a day and a small helper – a massage ball – are enough.</p>
 
       <div class="vb-section" style="max-width:100%;">
@@ -5055,7 +5059,7 @@ function schwungRoutinePage() {
     <section class="narrow">
       <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
       <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
-      <h1>3-Part Swing Routine: Full-Body Fascia & Movement Training While Standing</h1>
+      <h1 class="h1--tip">3-Part Swing Routine: Full-Body Fascia & Movement Training While Standing</h1>
       <p class="lead-small">Three simple standing swing exercises that engage mobility, fascia, and the entire body evenly – no equipment needed, doable anywhere.</p>
 
       <div class="vb-section" style="max-width:100%;">
@@ -5098,6 +5102,65 @@ function schwungRoutinePage() {
         {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
         {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Fascia Exercises for Core Health"},
         {route:"praxistipps-heilpraktiker/fussreflexzonen-aktivierung", label:"Foot Reflex Zone Activation"},
+        {route:"situationskompass", label:"Situation Compass"},
+        {route:"practice", label:"Tools"},
+      ])}
+    </section>
+  `);
+}
+
+function energiefeldHaendePage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1 class="h1--tip">The Energy Field Between the Hands</h1>
+      <p class="lead-small">A simple basic exercise for greater body awareness and depth.</p>
+
+      <div class="vb-section" style="max-width:100%;">
+        <p class="vb-intro">A fascinating phenomenon: the hands are held loosely parallel to each other – and in the space between them, an almost tangible presence can suddenly be felt, a faint tingling or a gentle warmth. This is often described as "bio-energy." Even though such an energy field cannot be measured in the strictly physical sense, consciously sensing warmth, tingling, or a slight magnetism between the hands is an excellent mental and sensory exercise for deep relaxation.</p>
+        <p class="vb-intro">At the same time, this perception serves as a gateway to well-established and profound methods of energy work and directed awareness – whether Qi Gong, Prana healing, quantum healing, or classic laying-on of hands.</p>
+        <p class="vb-intro">For anyone wanting to explore and deepen this state, a simple yet effective basic exercise is a good place to start.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="../assets/schaubilder/energiefeld-haende/energiefeld-haende.jpg"
+             alt="Woman sensing the energy field between her loosely held hands"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Basic Exercise: Feeling the Energetic Power Ball</h2>
+        <p class="vb-intro"><strong>1. Grounding &amp; preparation:</strong> Sit or stand comfortably. Close the eyes, take a few deep breaths into the belly, and let the tension in the shoulders release.</p>
+        <p class="vb-intro"><strong>2. Activating the hands:</strong> Rub the palms together vigorously for a few seconds, until a noticeable warmth builds up. Then shake them out briefly and loosely to stimulate microcirculation.</p>
+        <p class="vb-intro"><strong>3. Finding the right posture:</strong> Hold the hands parallel in front of the chest, as if holding an invisible, elastic ball. The palms face each other, with the fingertips almost touching (about 5 to 10 centimeters apart).</p>
+        <p class="vb-intro"><strong>4. Directing the focus:</strong> Bring full attention to the space between the hands. Notice the sensations without judgment: Is there warmth? A pulsing or a slight electric crackle? Does it feel like an invisible cushion?</p>
+        <p class="vb-intro"><strong>5. Playing with the distance:</strong> Mindfully move the hands a little further apart (to about 15 to 20 centimeters), then slowly bring them back together (to about 3 to 5 centimeters). Repeat this gentle "pumping" and observe how the invisible resistance changes.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Looking Beyond: Where It Can Lead</h2>
+        <p class="vb-intro">This basic exercise is only the beginning. Anyone who enjoys training their inner awareness can build on the principle of energy work step by step and deepen it in fascinating directions:</p>
+        <p class="vb-intro" style="margin-top:1rem;"><strong>Traditional laying-on of hands:</strong> A thousands-of-years-old practice in which deliberately placing the hands on specific areas of the body conveys relaxation, calm, and a sense of security.</p>
+        <p class="vb-intro" style="margin-top:1.2rem;"><strong>Qi Gong &amp; Prana healing:</strong> Here one learns to direct and harmonize the subtle energy flow (Qi or Prana) within the body and to release blockages in a targeted way.</p>
+        <p class="vb-intro" style="margin-top:1.2rem;"><strong>Quantum healing &amp; the two-point method:</strong> In these modern, consciousness-based approaches, conscious perception is combined with a gentle intention to dissolve old patterns in the physical or emotional system and set transformation in motion.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Takeaway:</strong> Getting started is easy and requires nothing more than a little attention and curiosity. It's well worth trying – and discovering how much calm and fascination lies in one's own hands.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Recommended gear</h2>
+        <p class="vb-intro" style="margin-bottom:.8rem;">For grounding before the exercise, the floor works well – anyone who prefers to sit will find a non-slip, joint-friendly mat helpful for comfortable seating.</p>
+        ${affiliateBoxHtml("fitnessmatte", "Fitnessmatte", "View exercise mat on Amazon")}
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"praxistipps-heilpraktiker/schwung-routine", label:"3-Part Swing Routine"},
+        {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Fascia Exercises for Core Health"},
         {route:"situationskompass", label:"Situation Compass"},
         {route:"practice", label:"Tools"},
       ])}

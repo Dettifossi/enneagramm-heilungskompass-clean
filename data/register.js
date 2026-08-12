@@ -38,6 +38,7 @@ export const registerEntries = [
   { term: "Faszienübungen für die Rumpfgesundheit", route: "praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", description: "Schaubild: vier Faszienübungen gegen die Folgen des vielen Sitzens" },
   { term: "Fußreflexzonen-Aktivierung", route: "praxistipps-heilpraktiker/fussreflexzonen-aktivierung", description: "Schaubild: Igelball, Kork- und Holzroller zur Fußreflexzonen-Massage" },
   { term: "3-teilige Schwung-Routine", route: "praxistipps-heilpraktiker/schwung-routine", description: "Schaubild: drei Schwungübungen im Stehen für Faszien, Beweglichkeit und Ganzkörpertraining" },
+  { term: "Das Energiefeld zwischen den Händen", route: "praxistipps-heilpraktiker/energiefeld-haende", description: "Grundübung zur Körperwahrnehmung: den energetischen Kraftball zwischen den Handflächen spüren" },
   { term: "Stille",                          route: "stille",                        description: "Meditation & Stille: eine Übung für jeden Enneagramm-Typ" },
   { term: "Tritypen",                        route: "tritypen",                      description: "Schaubild: Die 27 Tritypen – Kombination aus einem Typ pro Triade" },
 
@@ -1299,6 +1300,7 @@ export const registerEntriesEN = [
   { term: "Fascia Exercises for Core Health", route: "praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", description: "Chart: four fascia exercises against the effects of prolonged sitting" },
   { term: "Foot Reflex Zone Activation", route: "praxistipps-heilpraktiker/fussreflexzonen-aktivierung", description: "Chart: hedgehog ball, cork and wooden roller for foot reflex zone massage" },
   { term: "3-Part Swing Routine", route: "praxistipps-heilpraktiker/schwung-routine", description: "Chart: three standing swing exercises for fascia, mobility, and full-body training" },
+  { term: "The Energy Field Between the Hands", route: "praxistipps-heilpraktiker/energiefeld-haende", description: "Basic body-awareness exercise: sensing the energetic power ball between the palms" },
   { term: "Silence", route: "stille", description: "Meditation & silence: an exercise for every Enneagram type" },
   { term: "Tritypes", route: "tritypen", description: "Chart: the 27 tritypes – combination of one type per triad" }
 ];

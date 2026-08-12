@@ -35020,6 +35020,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"faszienuebungen-rumpfgesundheit", titel:"Faszien\u00fcbungen f\u00fcr die Rumpfgesundheit", teaser:"Vier einfache \u00dcbungen gegen die Folgen des vielen Sitzens \u2013 Dead Bug, Bird-Dog, Katze-Kuh und Kobra.", img:"./assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg" },
     { slug:"fussreflexzonen-aktivierung", titel:"Fu\u00dfreflexzonen-Aktivierung: Der Energie-Kick f\u00fcr zwischendurch", teaser:"Mit Igelball, Kork- oder Holzroller in 1\u20132 Minuten pro Fu\u00df Durchblutung und vegetatives Nervensystem anregen.", img:"./assets/schaubilder/fussreflexzonen-aktivierung/igelball.jpg" },
     { slug:"schwung-routine", titel:"3-teilige Schwung-Routine: Ganzheitliches Faszien- & K\u00f6rpertraining im Stehen", teaser:"Drei einfache Schwung\u00fcbungen im Stehen \u2013 f\u00fcr Beweglichkeit, Faszien und den ganzen K\u00f6rper, \u00fcberall und ohne Ger\u00e4te machbar.", img:"./assets/schaubilder/schwung-routine/schwung-routine.jpg" },
+    { slug:"energiefeld-haende", titel:"Das Energiefeld zwischen den H\u00e4nden", teaser:"Eine einfache Grund\u00fcbung f\u00fcr mehr K\u00f6rperwahrnehmung und Tiefe \u2013 der energetische Kraftball zwischen den Handfl\u00e4chen.", img:"./assets/schaubilder/energiefeld-haende/energiefeld-haende.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -35031,6 +35032,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "schwung-routine") {
     return schwungRoutinePage();
+  }
+  if (param === "energiefeld-haende") {
+    return energiefeldHaendePage();
   }
 
   return shell(`
@@ -35072,7 +35076,7 @@ function faszienuebungenRumpfgesundheitPage() {
     <section class="narrow">
       <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">\u2190 Zur\u00fcck zu Praxistipps</button>
       <p class="eyebrow">Werkzeuge \u00b7 Praxistipps vom Heilpraktiker</p>
-      <h1>Faszien\u00fcbungen f\u00fcr die Rumpfgesundheit</h1>
+      <h1 class="h1--tip">Faszien\u00fcbungen f\u00fcr die Rumpfgesundheit</h1>
       <p class="lead-small">Vier einfache, wirkungsvolle \u00dcbungen, um dem vielen Sitzen im Alltag aktiv entgegenzuwirken.</p>
 
       <div class="vb-section" style="max-width:100%;">
@@ -35131,7 +35135,7 @@ function fussreflexzonenAktivierungPage() {
     <section class="narrow">
       <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
       <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
-      <h1>Fußreflexzonen-Aktivierung: Der Energie-Kick für zwischendurch</h1>
+      <h1 class="h1--tip">Fußreflexzonen-Aktivierung: Der Energie-Kick für zwischendurch</h1>
       <p class="lead-small">Man muss keine stundenlangen Wanderungen machen, um den Körper in Schwung zu bringen. Manchmal reichen schon zwei Minuten am Tag und ein kleiner Helfer – ein Massageball.</p>
 
       <div class="vb-section" style="max-width:100%;">
@@ -35187,7 +35191,7 @@ function schwungRoutinePage() {
     <section class="narrow">
       <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
       <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
-      <h1>3-teilige Schwung-Routine: Ganzheitliches Faszien- & Körpertraining im Stehen</h1>
+      <h1 class="h1--tip">3-teilige Schwung-Routine: Ganzheitliches Faszien- & Körpertraining im Stehen</h1>
       <p class="lead-small">Drei einfache Schwungübungen im Stehen, die Beweglichkeit, Faszien und den gesamten Körper gleichmäßig ansprechen – ganz ohne Geräte und überall durchführbar.</p>
 
       <div class="vb-section" style="max-width:100%;">
@@ -35230,6 +35234,65 @@ function schwungRoutinePage() {
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
         {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Faszienübungen für die Rumpfgesundheit"},
         {route:"praxistipps-heilpraktiker/fussreflexzonen-aktivierung", label:"Fußreflexzonen-Aktivierung"},
+        {route:"situationskompass", label:"Situationskompass"},
+        {route:"practice", label:"Werkzeuge"},
+      ])}
+    </section>
+  `);
+}
+
+function energiefeldHaendePage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1 class="h1--tip">Das Energiefeld zwischen den Händen</h1>
+      <p class="lead-small">Eine einfache Grundübung für mehr Körperwahrnehmung und Tiefe.</p>
+
+      <div class="vb-section" style="max-width:100%;">
+        <p class="vb-intro">Ein faszinierendes Phänomen: Die Hände werden locker parallel zueinander gehalten – und im Zwischenraum lässt sich plötzlich eine fast greifbare Präsenz spüren, ein feines Kribbeln oder eine sanfte Wärme. Oft wird in diesem Zusammenhang von „Bioenergie" gesprochen. Auch wenn ein solches Energiefeld im streng physikalischen Sinne nicht messbar ist, ist das bewusste Spüren von Wärme, Kribbeln oder einem leichten Magnetismus zwischen den Händen eine hervorragende mentale und sensorische Übung zur Tiefenentspannung.</p>
+        <p class="vb-intro">Gleichzeitig dient diese Wahrnehmung als Tor zu bewährten und tiefgreifenden Methoden der Energiearbeit und Bewusstseinslenkung – sei es Qi Gong, Prana-Heilung, Quantenheilung oder das klassische Handauflegen.</p>
+        <p class="vb-intro">Wer diesen Zustand erforschen und vertiefen möchte, kann mit einer einfachen, aber wirkungsvollen Basisübung starten.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/energiefeld-haende/energiefeld-haende.jpg"
+             alt="Frau spürt mit locker gehaltenen Händen das Energiefeld zwischen den Handflächen"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Die Grundübung: Den energetischen Kraftball spüren</h2>
+        <p class="vb-intro"><strong>1. Die Erdung &amp; Vorbereitung:</strong> Bequem hinsetzen oder hinstellen. Die Augen schließen, einige Atemzüge tief in den Bauch führen und die Anspannung in den Schultern loslassen.</p>
+        <p class="vb-intro"><strong>2. Hände aktivieren:</strong> Die Handflächen für einige Sekunden kräftig aneinanderreiben, bis eine spürbare Wärme entsteht. Danach kurz und locker ausschütteln, um die Mikrozirkulation anzuregen.</p>
+        <p class="vb-intro"><strong>3. Die richtige Haltung:</strong> Die Hände parallel vor dem Brustkorb halten – so, als würde ein unsichtbarer, elastischer Ball gehalten. Die Handflächen zeigen sich zugewandt, die Fingerspitzen berühren sich fast (etwa 5 bis 10 Zentimeter Abstand).</p>
+        <p class="vb-intro"><strong>4. Den Fokus lenken:</strong> Die Aufmerksamkeit ganz auf den Raum zwischen den Händen richten. Die Empfindungen wertfrei wahrnehmen: Wärme? Ein Pochen oder ein leichtes elektrisches Knistern? Ein Gefühl wie ein unsichtbares Kissen?</p>
+        <p class="vb-intro"><strong>5. Das Spiel mit dem Abstand:</strong> Die Hände achtsam ein Stück auseinanderbewegen (auf etwa 15 bis 20 Zentimeter) und dann langsam wieder zusammenführen (auf etwa 3 bis 5 Zentimeter). Dieses sanfte „Pumpen" wiederholen und beobachten, wie sich der unsichtbare Widerstand verändert.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Der Blick über den Tellerrand: Wie es weitergehen kann</h2>
+        <p class="vb-intro">Diese Grundübung ist erst der Anfang. Wer Freude daran hat, die innere Wahrnehmung zu schulen, kann das Prinzip der Energiearbeit Schritt für Schritt ausbauen und in faszinierende Richtungen vertiefen:</p>
+        <p class="vb-intro" style="margin-top:1rem;"><strong>Das traditionelle Handauflegen:</strong> Eine jahrtausendealte Praxis, bei der durch gezieltes Auflegen der Hände auf bestimmte Körperregionen Entspannung, Ruhe und ein Gefühl von Geborgenheit vermittelt werden.</p>
+        <p class="vb-intro" style="margin-top:1.2rem;"><strong>Qi Gong &amp; Prana-Heilung:</strong> Hier wird gelernt, den feinstofflichen Energiefluss (das Qi oder Prana) im eigenen Körper zu lenken, zu harmonisieren und gezielt Blockaden zu lösen.</p>
+        <p class="vb-intro" style="margin-top:1.2rem;"><strong>Quantenheilung &amp; die Zwei-Punkt-Methode:</strong> Bei diesen modernen, bewusstseinsbasierten Ansätzen wird die bewusste Wahrnehmung mit einer sanften Intention verbunden, um alte Muster im physischen oder emotionalen System aufzulösen und Transformation in Gang zu setzen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Fazit:</strong> Der Einstieg ist kinderleicht und erfordert nichts weiter als ein wenig Aufmerksamkeit und Neugier. Ein Ausprobieren lohnt sich – und zeigt, wie viel Ruhe und Faszination in den eigenen Händen liegt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Empfehlung zum Nachrüsten</h2>
+        <p class="vb-intro" style="margin-bottom:.8rem;">Für die Erdung vor der Übung eignet sich der Boden – wer lieber sitzt, dem hilft eine rutschfeste, gelenkschonende Unterlage beim bequemen Sitzen.</p>
+        ${affiliateBoxHtml("fitnessmatte", "Fitnessmatte", "Fitnessmatte bei Amazon ansehen")}
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/schwung-routine", label:"3-teilige Schwung-Routine"},
+        {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Faszienübungen für die Rumpfgesundheit"},
         {route:"situationskompass", label:"Situationskompass"},
         {route:"practice", label:"Werkzeuge"},
       ])}
