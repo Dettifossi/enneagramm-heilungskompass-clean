@@ -31702,6 +31702,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Fjodor Dostojewski \u2013 Selbsterhaltender Typ 6",
     teaser:"SE6w5 \u00b7 1821\u20131881. Russischer Schriftsteller. Schuld und S\u00fchne, Die Br\u00fcder Karamasow, Der Idiot. Das Kaninchen, das eine Scheinhinrichtung, Sibirien und die Spielsucht \u00fcberlebte \u2013 und daraus die tiefsten Romane \u00fcber Angst, Schuld und Glauben schrieb, die die Weltliteratur kennt.",
     tags:["Literatur","Philosophie"], gender:"m"},
+  { route:"beruehmte-franz-schubert", name:"Franz Schubert", added:"2026-08-12", subtyp:"SE6w5",
+    heading:"Franz Schubert \u2013 Selbsterhaltender Typ 6",
+    teaser:"SE6w5 \u00b7 1797\u20131828. \u00d6sterreichischer Komponist. \u00dcber 600 Lieder, Winterreise, Die Unvollendete. Das Kaninchen, das seine Angst und Sehnsucht nach Geborgenheit in Musik verwandelte \u2013 im engen Kreis der Schubertiaden zu Hause, \u00f6ffentlich fast unsichtbar, mit 31 Jahren gestorben.",
+    tags:["Musik","Geschichte"], gender:"m"},
   { route:"beruehmte-herbert-kickl", name:"Herbert Kickl", subtyp:"SE6w5",
     heading:"Herbert Kickl \u2013 Selbsterhaltender Typ 6",
     teaser:"SE6w5 \u00b7 geb. 1968. \u00d6sterreichischer Politiker, FP\u00d6-Parteiobmann. Das Kaninchen, das die Gefahr fr\u00fcher sp\u00fcrt als andere \u2013 und das gelernt hat, trotzdem aufrecht zu stehen.",
@@ -49268,6 +49272,71 @@ function fjodorDostojewskiPortraitPage() {
         {route:"subtype/se6", label:"SE6 \u2013 Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-sundar-pichai", label:"Portr\xe4t: Sundar Pichai (SE6w5)"},
         {route:"beruehmte-herbert-kickl", label:"Portr\xe4t: Herbert Kickl (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function franzSchubertPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-franz-schubert-portrait.jpg" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Franz Schubert</p>
+        <p class="krim-portrait-typ">SE6w5 · Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Österreichischer Komponist, 1797–1828 – Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen, das im Kreis der Freunde zu Hause war</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 – wachsam, liebenswert, anpassungsfähig. Es sucht Sicherheit nicht auf der großen Bühne, sondern im vertrauten Bau, im engen Kreis, in Gesichtern, die es kennt. Kaum ein Komponist der Musikgeschichte verkörpert dieses Muster so deutlich wie Franz Schubert, der zeitlebens die Öffentlichkeit des Konzertsaals mied und sein wahres Zuhause im privaten Kreis enger Freunde fand.</p>
+          <p class="vb-intro">Geboren 1797 im Wiener Vorort Himmelpfortgrund als Sohn eines Schuldirektors, eines von über zwanzig Kindern, von denen die meisten früh starben, wuchs Schubert in bescheidenen, aber musikalisch geprägten Verhältnissen auf. Seine außergewöhnliche Begabung fiel schon als Chorknabe der Wiener Hofkapelle auf – doch anders als das selbstbewusste Auftreten eines Beethoven suchte der junge Schubert nie die Konfrontation mit der musikalischen Öffentlichkeit, sondern das stille, beharrliche Komponieren im Hintergrund.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Schubertiaden: Wärme als Lebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 6 die <strong>Wärme</strong> – weil dieser Subtyp Sicherheit nicht durch Konfrontation, sondern durch menschliche Nähe und Zugehörigkeit sucht. Genau das war der Kern von Schuberts Leben: die sogenannten <em>Schubertiaden</em>, private Abende im Kreis enger Freunde, bei denen er seine neuesten Lieder und Klavierstücke vorstellte, bevor – wenn überhaupt – ein größeres Publikum sie zu hören bekam.</p>
+          <p class="vb-intro">Anders als die meisten großen Komponisten seiner Zeit strebte Schubert nie ernsthaft eine feste Anstellung bei Hof oder in der Kirche an, die ihm finanzielle Sicherheit, aber auch öffentliche Exponiertheit gebracht hätte. Stattdessen lebte er von der Unterstützung seines Freundeskreises – Dichter, Maler, Sänger, Studenten –, der ihn ernährte, beherbergte und immer wieder auffing. Für die SE6 ist ein verlässlicher, warmer Kreis vertrauter Menschen wichtiger als gesellschaftlicher Rang oder finanzielle Absicherung durch Institutionen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Die Tiefe unter der Melancholie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> bringt dem selbsterhaltenden Sechser analytische Tiefe und die Fähigkeit, sich in eine musikalische Idee zu vergraben, bis ihr letzter Winkel ausgelotet ist. Die SE6w5 sucht Sicherheit nicht nur in Menschen, sondern auch im vollständigen Durchdringen ihres Themas – und Schuberts Werk zeigt genau diese Verbindung aus emotionaler Wärme und kompositorischer Akribie.</p>
+          <p class="vb-intro">In nur etwa 15 Jahren aktiven Schaffens komponierte Schubert über 600 Lieder, neun Symphonien, unzählige Kammermusikwerke, Klaviersonaten und Messen – eine schiere Arbeitsdichte, die für einen introvertierten, öffentlichkeitsscheuen Menschen kaum vorstellbar erscheint. Der Fünferflügel verwandelte die Wachsamkeit der Sechs in stille, konzentrierte Rückzugsarbeit: Nächtelang saß er am Schreibtisch, komponierte oft mehrere Lieder an einem einzigen Tag, ohne Auftrag, ohne Aussicht auf Aufführung, allein aus dem inneren Zwang, die Musik, die in ihm war, vollständig auszuformulieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Winterreise: Die Angst wird zur Wanderschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1822 erkrankte Schubert vermutlich an Syphilis – eine Diagnose, die im Wien seiner Zeit einem Todesurteil auf Raten gleichkam. Die Krankheit, ihre schmerzhaften Behandlungen und das Wissen um die eigene Sterblichkeit prägten die letzten sechs Jahre seines Lebens tief. 1827 vertonte er Wilhelm Müllers Gedichtzyklus <em>Winterreise</em> – 24 Lieder über einen Wanderer, der einsam, frierend und ohne Ziel durch eine winterliche Landschaft zieht, verlassen von der Geliebten, verlassen fast von der Hoffnung selbst.</p>
+          <p class="vb-intro">Für die SE6 ist genau das die tiefste denkbare Bedrohung: nicht der Kampf, sondern der Verlust jeder Bindung, das Fehlen jedes sicheren Ortes. Schuberts Freund Joseph von Spaun berichtete, der Komponist sei „durch längere Zeit verstört und aufgeregt" gewesen, während er die Lieder komponierte, und habe seinen engsten Freunden gesagt: „Kommt und singt mir diese Lieder, sagt mir dann, wie es euch dabei zumute war." Der Kreis der Freunde reagierte zunächst irritiert von der Düsternis des Werks – und genau in dieser Verletzlichkeit, offen geteilt mit den Menschen, denen er vertraute, liegt die ganze SE6w5: Angst wird nicht verdrängt, sondern in Gemeinschaft artikuliert und damit erträglich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Geborgenheit gegen Isolation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE6w5 ist ihre Fähigkeit, aus Verletzlichkeit <strong>emotionale Wahrhaftigkeit</strong> zu gewinnen, die andere unmittelbar berührt. Schuberts Lieder sind bis heute so kraftvoll, weil er Sehnsucht, Angst und Trost nicht kunstvoll konstruierte, sondern aus eigenem Erleben schöpfte – die schlichte, direkte Melodik seiner Musik trifft eine emotionale Wahrheit, die keiner Verzierung bedarf.</p>
+          <p class="vb-intro">Der Schatten: Die Leidenschaft der Sechs ist die <strong>Angst</strong>, und bei der SE6w5 kann sie sich in sozialem Rückzug, Selbstzweifel und einer fast lähmenden Scheu vor öffentlicher Anerkennung entladen. Schubert erlebte zu Lebzeiten nur einen Bruchteil des Erfolgs, den sein Werk verdient hätte – viele seiner größten Kompositionen, darunter die Symphonie Nr. 9 (die „Große C-Dur-Symphonie"), wurden zu seinen Lebzeiten nie aufgeführt. Statt sich um Aufführungen und Verleger zu bemühen, vertraute er lieber auf sein enges Netz von Freunden, das seinen Ruhm nicht wirklich mehren konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Kaninchen, das die Sehnsucht zur Musik machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der lähmenden Angst zur <strong>Tapferkeit</strong> – nicht zur Abwesenheit der Angst, sondern zur Fähigkeit, trotz ihrer weiterzuschaffen. Schubert komponierte bis wenige Tage vor seinem Tod, darunter die drei letzten Klaviersonaten und das Streichquintett in C-Dur, Werke von überwältigender Reife und Tiefe, entstanden im Wissen um die eigene Sterblichkeit.</p>
+          <p class="vb-intro">Er starb 1828 in Wien im Alter von nur 31 Jahren, vermutlich an den Folgen der Syphilis-Behandlung oder an Typhus. Auf eigenen Wunsch wurde er unweit von Beethoven begraben, den er zeitlebens verehrt hatte. Erst Jahrzehnte später, als Robert Schumann 1839 die Partitur der „Großen C-Dur-Symphonie" bei Schuberts Bruder entdeckte und zur Aufführung brachte, begann die Welt zu verstehen, welchen Schatz der scheue Komponist im Verborgenen geschaffen hatte. Das Kaninchen, das nie den großen Auftritt suchte, hatte der Nachwelt ein Werk hinterlassen, das bis heute berührt, gerade weil es nie um Wirkung, sondern immer um Wahrhaftigkeit ging.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Porträt: Fjodor Dostojewski (SE6w5)"},
+        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
       ])}
     </div>
   `);
@@ -82752,6 +82821,7 @@ function render() {
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
       "beruehmte-woody-allen": woodyAllenPortraitPage,
       "beruehmte-fjodor-dostojewski": fjodorDostojewskiPortraitPage,
+      "beruehmte-franz-schubert": franzSchubertPortraitPage,
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,

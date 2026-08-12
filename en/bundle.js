@@ -461,6 +461,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Fjodor Dostojewski – Self-Preservation Type 6",
     teaser:"SE6w5 · 1821–1881. Russian writer. Crime and Punishment, The Brothers Karamazov, The Idiot. The rabbit who survived a mock execution, Siberia, and gambling addiction – and wrote the deepest novels about fear, guilt, and faith that world literature has ever produced.",
     tags:["Literature","Philosophy"], gender:"m"},
+  { route:"beruehmte-franz-schubert", name:"Franz Schubert", added:"2026-08-12", subtyp:"SE6w5",
+    heading:"Franz Schubert – Self-Preservation Type 6",
+    teaser:"SE6w5 · 1797–1828. Austrian composer. Over 600 lieder, Winterreise, the Unfinished Symphony. The rabbit who turned his fear and longing for belonging into music – at home in the intimate circle of the Schubertiades, almost invisible in public, dead at 31.",
+    tags:["Music","History"], gender:"m"},
   { route:"beruehmte-herbert-kickl", name:"Herbert Kickl", subtyp:"SE6w5",
     heading:"Herbert Kickl – Self-Preservation Type 6",
     teaser:"SP6w5 · born 1968. Austrian politician, FPÖ party leader. The rabbit that senses danger earlier than others – and has learned to stand upright nonetheless.",
@@ -21267,6 +21271,71 @@ function sucharitBhakdiPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
         {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function franzSchubertPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-franz-schubert-portrait.jpg" alt="Franz Schubert" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Franz Schubert</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with a Five-Wing</p>
+        <p class="krim-portrait-subtitle">Austrian composer, 1797&ndash;1828 &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit Who Was at Home Among Friends</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> is the animal of Self-Preservation Type 6 &ndash; watchful, endearing, adaptable. It seeks safety not on the grand stage, but in the familiar burrow, in a close circle, among faces it knows. Few composers in music history embody this pattern as clearly as Franz Schubert, who avoided the public concert hall throughout his life and found his true home in the private circle of close friends.</p>
+          <p class="vb-intro">Born in 1797 in the Viennese suburb of Himmelpfortgrund, the son of a schoolmaster, one of more than twenty children, most of whom died young, Schubert grew up in modest but musically formative circumstances. His extraordinary talent was already noticed as a choirboy at the Vienna Hofkapelle &ndash; yet unlike Beethoven's self-assured public presence, the young Schubert never sought confrontation with the musical public, preferring quiet, persistent composing in the background.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Schubertiades: Warmth as a Way of Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called Self-Preservation Type 6 <strong>warmth</strong> &ndash; because this subtype seeks safety not through confrontation, but through human closeness and belonging. This was the very core of Schubert's life: the so-called <em>Schubertiades</em>, private evenings among close friends, where he presented his newest songs and piano pieces before &ndash; if ever &ndash; a wider audience heard them.</p>
+          <p class="vb-intro">Unlike most great composers of his time, Schubert never seriously pursued a fixed position at court or in the church, which would have brought him financial security but also public exposure. Instead, he lived off the support of his circle of friends &ndash; poets, painters, singers, students &ndash; who fed him, housed him, and repeatedly caught him when he fell. For SE6, a reliable, warm circle of trusted people matters more than social rank or institutional financial security.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Depth Beneath the Melancholy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-Wing (w5)</strong> gives the Self-Preservation Six analytical depth and the ability to bury itself in a musical idea until its every corner has been explored. SE6w5 seeks safety not only in people but also in fully penetrating its subject &ndash; and Schubert's work shows exactly this combination of emotional warmth and compositional rigor.</p>
+          <p class="vb-intro">In only about 15 years of active creative work, Schubert composed over 600 songs, nine symphonies, countless chamber works, piano sonatas, and masses &ndash; a sheer density of output that seems almost unimaginable for an introverted person who shunned the public eye. The Five-Wing turned the Six's vigilance into quiet, concentrated withdrawal-work: he sat at his desk night after night, often composing several songs in a single day, with no commission, no prospect of performance, driven purely by the inner compulsion to fully give shape to the music inside him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Winterreise: Fear Becomes a Journey</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1822, Schubert most likely contracted syphilis &ndash; a diagnosis that, in the Vienna of his time, amounted to a death sentence delivered in installments. The illness, its painful treatments, and the awareness of his own mortality deeply marked the last six years of his life. In 1827 he set Wilhelm Müller's poem cycle <em>Winterreise</em> (Winter Journey) to music &ndash; 24 songs about a wanderer moving alone, freezing, and aimless through a winter landscape, abandoned by his beloved, abandoned almost by hope itself.</p>
+          <p class="vb-intro">For SE6, this is precisely the deepest conceivable threat: not battle, but the loss of every bond, the absence of any safe place. Schubert's friend Joseph von Spaun reported that the composer was "disturbed and agitated for a long time" while composing the songs, and told his closest friends: "Come and sing me these songs, then tell me how you felt while doing it." The circle of friends initially reacted with unease at the work's darkness &ndash; and it is precisely in this vulnerability, openly shared with the people he trusted, that the whole of SE6w5 lies: fear is not suppressed, but articulated in community, and thereby made bearable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: Belonging Against Isolation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SE6w5 is its capacity to draw <strong>emotional truthfulness</strong> from vulnerability, something that touches others immediately. Schubert's songs remain so powerful today because he did not artfully construct longing, fear, and comfort, but drew them from his own experience &ndash; the simple, direct melodic writing of his music strikes an emotional truth that needs no ornamentation.</p>
+          <p class="vb-intro">The shadow: the Six's passion is <strong>fear</strong>, and in SE6w5 it can discharge as social withdrawal, self-doubt, and an almost paralyzing shyness toward public recognition. In his lifetime, Schubert experienced only a fraction of the success his work deserved &ndash; many of his greatest compositions, including Symphony No. 9 (the "Great C major Symphony"), were never performed during his life. Rather than pursuing performances and publishers, he preferred to rely on his close network of friends, which could not truly increase his fame.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Rabbit Who Turned Longing into Music</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six's path of healing leads from paralyzing fear to <strong>courage</strong> &ndash; not the absence of fear, but the ability to keep creating despite it. Schubert composed until just days before his death, including his last three piano sonatas and the String Quintet in C major, works of overwhelming maturity and depth, created with full awareness of his own mortality.</p>
+          <p class="vb-intro">He died in Vienna in 1828 at only 31 years of age, most likely from the effects of syphilis treatment or from typhoid fever. At his own request, he was buried near Beethoven, whom he had revered throughout his life. Only decades later, when Robert Schumann discovered the score of the "Great C major Symphony" among Schubert's brother's papers in 1839 and brought it to performance, did the world begin to understand what treasure the shy composer had created in obscurity. The rabbit who never sought the grand stage had left posterity a body of work that still moves us today, precisely because it was never about effect, but always about truthfulness.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se6", label:"SE6 \u2013 The Rabbit: Subtype Profile"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SE6w5)"},
+        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
       ])}
     </div>
   `);
@@ -48730,6 +48799,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-sahra-wagenknecht": sahraWagenknechtPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-fjodor-dostojewski": fjodorDostojewskiPortraitPage,
+      "beruehmte-franz-schubert": franzSchubertPortraitPage,
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
       "beruehmte-tim-bendzko": timBendzkoPortraitPage,
       "beruehmte-adele": adelePortraitPage,
