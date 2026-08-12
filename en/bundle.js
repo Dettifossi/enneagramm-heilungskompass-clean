@@ -4887,6 +4887,7 @@ function praxistippsHeilpraktikerPage() {
   const TIPPS = [
     { slug:"faszienuebungen-rumpfgesundheit", titel:"Fascia Exercises for Core Health", teaser:"Four simple exercises to counteract the effects of prolonged sitting – Dead Bug, Bird-Dog, Cat-Cow, and Cobra.", img:"../assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg" },
     { slug:"fussreflexzonen-aktivierung", titel:"Foot Reflex Zone Activation: The Energy Boost for In Between", teaser:"With a hedgehog ball, cork ball, or wooden roller, boost circulation and the autonomic nervous system in 1–2 minutes per foot.", img:"../assets/schaubilder/fussreflexzonen-aktivierung/igelball.jpg" },
+    { slug:"schwung-routine", titel:"3-Part Swing Routine: Full-Body Fascia & Movement Training While Standing", teaser:"Three simple standing swing exercises for mobility, fascia, and the whole body – no equipment, doable anywhere.", img:"../assets/schaubilder/schwung-routine/schwung-routine.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -4895,6 +4896,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "fussreflexzonen-aktivierung") {
     return fussreflexzonenAktivierungPage();
+  }
+  if (param === "schwung-routine") {
+    return schwungRoutinePage();
   }
 
   return shell(`
@@ -5038,6 +5042,62 @@ function fussreflexzonenAktivierungPage() {
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
         {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Fascia Exercises for Core Health"},
+        {route:"situationskompass", label:"Situation Compass"},
+        {route:"practice", label:"Tools"},
+      ])}
+    </section>
+  `);
+}
+
+function schwungRoutinePage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1>3-Part Swing Routine: Full-Body Fascia & Movement Training While Standing</h1>
+      <p class="lead-small">Three simple standing swing exercises that engage mobility, fascia, and the entire body evenly – no equipment needed, doable anywhere.</p>
+
+      <div class="vb-section" style="max-width:100%;">
+        <p class="vb-intro">Unlike isolated strengthening exercises, this routine doesn't target individual muscle groups but the whole body at once: the dynamic swinging of the arms engages the shoulders, core, back, hips, and legs together, while the fascial chains – the myofascial connective lines running from arm to foot – are kept elastic by the flowing movement impulse. This makes the three exercises a compact full-body workout that simultaneously builds mobility, coordination, and general stabilization.</p>
+        <p class="vb-intro">The big everyday advantage: the routine needs no equipment, no change of location, and no preparation. It can be worked in anytime, anywhere – at the office, while traveling, at home between two appointments – and is noticeably effective after just five to ten minutes.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="../assets/schaubilder/schwung-routine/schwung-routine.jpg"
+             alt="Three exercises of the swing routine: alternating arm swing, double arm swing, full-body rotation"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. Alternating Arm Swing (forward/back)</h2>
+        <p class="vb-intro">Hip-width stance, one leg placed a small step forward, the back knee slightly bent ("shock absorber" principle for cushioning). The arms swing alternately forward and back as in relaxed walking – one arm swinging up and forward while the other swings back at the same time, then switching. The movement originates from the shoulder, while the upper body stays upright and stable.</p>
+        <p class="vb-intro"><strong>Effect:</strong> Releases tension in the shoulders and upper back, activates the diagonal fascial chains between the arm and the opposite hip, and, through the natural counter-swing, engages coordination and balance.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">2. Double Arm Swing (forward/back)</h2>
+        <p class="vb-intro">Same starting position as exercise 1 – one leg placed slightly forward, back knee bent as a shock absorber. This time both arms swing forward and up together, then back down and behind, in one flowing, rounded arc.</p>
+        <p class="vb-intro"><strong>Effect:</strong> Opens the chest and the front shoulder fascia, strengthens core stability through the bilateral swing, and counteracts the typical rounded posture of office life.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">3. Full-Body Rotation (Windmill/Helicopter)</h2>
+        <p class="vb-intro">Stand with feet shoulder-width to slightly wider than shoulder-width apart, feet parallel. Both arms extend out horizontally, and the upper body rotates loosely and rhythmically from side to side – the arms swing along, like a windmill or a helicopter rotor. The movement comes from core rotation, while the legs stay stable and grounded.</p>
+        <p class="vb-intro"><strong>Effect:</strong> Mobilizes the entire spine in rotation, stretches the oblique abdominal muscles and the lateral fascial chains, and, through the stable leg position, trains core and standing stability at the same time.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .7rem;"><strong style="color:var(--copper);">On leg position for exercises 1 and 2:</strong> In the illustration, the first two exercises show one foot slightly ahead of the other (staggered stance) – the classic execution with a bit more standing stability. Both exercises work just as well, however, with feet parallel and side by side, as in exercise 3. Both variants are correct – it's best to try which leg position feels more stable and comfortable.</p>
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Naturopath's everyday tip:</strong> Five to ten minutes are already enough for a noticeable effect – for example as a conscious break between two meetings, or right after getting up. Since no equipment is needed, the routine can be done anywhere without any preparation.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Recommended gear</h2>
+        <p class="vb-intro" style="margin-bottom:.8rem;">A non-slip, joint-friendly mat adds extra security for this routine too – especially for the full-body rotation on smooth flooring.</p>
+        ${affiliateBoxHtml("fitnessmatte", "Fitnessmatte", "View exercise mat on Amazon")}
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Fascia Exercises for Core Health"},
+        {route:"praxistipps-heilpraktiker/fussreflexzonen-aktivierung", label:"Foot Reflex Zone Activation"},
         {route:"situationskompass", label:"Situation Compass"},
         {route:"practice", label:"Tools"},
       ])}

@@ -35019,6 +35019,7 @@ function praxistippsHeilpraktikerPage() {
   const TIPPS = [
     { slug:"faszienuebungen-rumpfgesundheit", titel:"Faszien\u00fcbungen f\u00fcr die Rumpfgesundheit", teaser:"Vier einfache \u00dcbungen gegen die Folgen des vielen Sitzens \u2013 Dead Bug, Bird-Dog, Katze-Kuh und Kobra.", img:"./assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg" },
     { slug:"fussreflexzonen-aktivierung", titel:"Fu\u00dfreflexzonen-Aktivierung: Der Energie-Kick f\u00fcr zwischendurch", teaser:"Mit Igelball, Kork- oder Holzroller in 1\u20132 Minuten pro Fu\u00df Durchblutung und vegetatives Nervensystem anregen.", img:"./assets/schaubilder/fussreflexzonen-aktivierung/igelball.jpg" },
+    { slug:"schwung-routine", titel:"3-teilige Schwung-Routine: Ganzheitliches Faszien- & K\u00f6rpertraining im Stehen", teaser:"Drei einfache Schwung\u00fcbungen im Stehen \u2013 f\u00fcr Beweglichkeit, Faszien und den ganzen K\u00f6rper, \u00fcberall und ohne Ger\u00e4te machbar.", img:"./assets/schaubilder/schwung-routine/schwung-routine.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -35027,6 +35028,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "fussreflexzonen-aktivierung") {
     return fussreflexzonenAktivierungPage();
+  }
+  if (param === "schwung-routine") {
+    return schwungRoutinePage();
   }
 
   return shell(`
@@ -35170,6 +35174,62 @@ function fussreflexzonenAktivierungPage() {
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
         {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Faszienübungen für die Rumpfgesundheit"},
+        {route:"situationskompass", label:"Situationskompass"},
+        {route:"practice", label:"Werkzeuge"},
+      ])}
+    </section>
+  `);
+}
+
+function schwungRoutinePage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1>3-teilige Schwung-Routine: Ganzheitliches Faszien- & Körpertraining im Stehen</h1>
+      <p class="lead-small">Drei einfache Schwungübungen im Stehen, die Beweglichkeit, Faszien und den gesamten Körper gleichmäßig ansprechen – ganz ohne Geräte und überall durchführbar.</p>
+
+      <div class="vb-section" style="max-width:100%;">
+        <p class="vb-intro">Anders als isolierte Kräftigungsübungen zielt diese Routine nicht auf einzelne Muskelgruppen, sondern auf den ganzen Körper gleichzeitig: Beim dynamischen Schwingen der Arme werden Schultern, Rumpf, Rücken, Hüfte und Beine im Zusammenspiel beansprucht, während die Faszienketten – die myofaszialen Verbindungslinien vom Arm bis zum Fuß – durch den fließenden Bewegungsimpuls elastisch gehalten werden. Das macht die drei Übungen zu einem kompakten Ganzkörpertraining, das gleichzeitig Beweglichkeit, Koordination und allgemeine Stabilisierung fördert.</p>
+        <p class="vb-intro">Der große Vorteil im Alltag: Die Routine braucht kein Equipment, keinen Ortswechsel und keine Vorbereitung. Sie lässt sich jederzeit zwischendurch einbauen – im Büro, auf Reisen, zu Hause zwischen zwei Terminen – und ist bereits nach fünf bis zehn Minuten spürbar wirksam.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/schwung-routine/schwung-routine.jpg"
+             alt="Drei Übungen der Schwung-Routine: Wechselarm-Schwung, Doppelarm-Schwung, Ganzkörper-Drehung"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. Wechselarm-Schwung (vor/zurück)</h2>
+        <p class="vb-intro">Hüftbreiter Stand, ein Bein einen kleinen Schritt nach vorne gestellt, das hintere Knie leicht gebeugt („Stoßdämpfer"-Prinzip zum Abfedern). Die Arme schwingen abwechselnd vor und zurück wie beim lockeren Gehen – ein Arm nach vorne oben, der andere gleichzeitig nach hinten, dann Wechsel. Die Bewegung kommt aus der Schulter, der Oberkörper bleibt dabei aufrecht und stabil.</p>
+        <p class="vb-intro"><strong>Wirkung:</strong> Löst Verspannungen in Schulter und oberem Rücken, aktiviert die diagonalen Faszienzüge zwischen Arm und gegenüberliegender Hüfte und bringt durch den natürlichen Gegenschwung Koordination und Gleichgewicht in Schwung.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">2. Doppelarm-Schwung (vor/zurück)</h2>
+        <p class="vb-intro">Gleiche Ausgangsposition wie bei Übung 1 – ein Bein leicht vorgestellt, hinteres Knie als Stoßdämpfer gebeugt. Diesmal schwingen beide Arme gleichzeitig und gleichsinnig nach vorne oben und wieder zurück nach hinten unten, in einem fließenden, runden Bogen.</p>
+        <p class="vb-intro"><strong>Wirkung:</strong> Öffnet den Brustkorb und die vordere Schulterfaszie, kräftigt durch den beidseitigen Schwung die Rumpfstabilität und wirkt dem typischen Rundrücken der Büroalltags entgegen.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">3. Die Ganzkörper-Drehung (Windmühle/Helikopter)</h2>
+        <p class="vb-intro">Stand mit schulterbreit bis leicht mehr als schulterbreit auseinandergestellten Beinen, Füße parallel nebeneinander. Beide Arme werden waagerecht ausgestreckt und der Oberkörper dreht locker und rhythmisch von einer Seite zur anderen – die Arme schwingen dabei mit, wie bei einer Windmühle oder einem Helikopterrotor. Die Bewegung kommt aus der Rumpfrotation, die Beine bleiben stabil und geerdet.</p>
+        <p class="vb-intro"><strong>Wirkung:</strong> Mobilisiert die gesamte Wirbelsäule in der Rotation, dehnt die schrägen Bauchmuskeln und die seitlichen Faszienketten und trainiert durch die stabile Beinposition gleichzeitig die Rumpf- und Standfestigkeit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .7rem;"><strong style="color:var(--copper);">Zur Beinstellung bei Übung 1 und 2:</strong> Auf der Abbildung steht bei den ersten beiden Übungen jeweils ein Fuß leicht vor dem anderen (Schrittstellung) – das ist die klassische Ausführung mit etwas mehr Stand-Stabilität. Genauso gut lassen sich beide Übungen aber auch mit parallel nebeneinanderstehenden Beinen ausführen, wie bei Übung 3. Beide Varianten sind richtig – am besten ausprobieren, welche Beinstellung sich stabiler und angenehmer anfühlt.</p>
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Heilpraktiker-Tipp für den Alltag:</strong> Fünf bis zehn Minuten reichen bereits aus, um spürbar Wirkung zu erzielen – zum Beispiel als bewusste Pause zwischen zwei Meetings oder direkt nach dem Aufstehen. Da kein Equipment nötig ist, lässt sich die Routine überall durchführen, ganz ohne Vorbereitung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Empfehlung zum Nachrüsten</h2>
+        <p class="vb-intro" style="margin-bottom:.8rem;">Auch bei dieser Routine schafft eine rutschfeste, gelenkschonende Unterlage zusätzliche Sicherheit – vor allem bei der Ganzkörper-Drehung auf glattem Boden.</p>
+        ${affiliateBoxHtml("fitnessmatte", "Fitnessmatte", "Fitnessmatte bei Amazon ansehen")}
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Faszienübungen für die Rumpfgesundheit"},
+        {route:"praxistipps-heilpraktiker/fussreflexzonen-aktivierung", label:"Fußreflexzonen-Aktivierung"},
         {route:"situationskompass", label:"Situationskompass"},
         {route:"practice", label:"Werkzeuge"},
       ])}
