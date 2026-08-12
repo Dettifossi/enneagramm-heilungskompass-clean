@@ -4999,7 +4999,7 @@ function fussreflexzonenAktivierungPage() {
       <p class="lead-small">You don't need hours of hiking to get your body moving. Sometimes two minutes a day and a small helper – a massage ball – are enough.</p>
 
       <div class="vb-section" style="max-width:100%;">
-        <p class="vb-intro">Our soles connect us to the entire organism – over 70,000 nerve endings end here. When you roll your feet in a targeted way, you not only stimulate local circulation, but also send soothing impulses to the whole body and the autonomic nervous system. Perfect against afternoon energy slumps or as a morning wake-up ritual!</p>
+        <p class="vb-intro">The soles connect the entire organism – over 70,000 nerve endings end here. Targeted rolling of the feet not only stimulates local circulation, but also sends soothing impulses to the whole body and the autonomic nervous system. Perfect against afternoon energy slumps or as a morning wake-up ritual!</p>
       </div>
 
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
@@ -5012,20 +5012,20 @@ function fussreflexzonenAktivierungPage() {
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Which tool suits you?</h2>
         <p class="vb-intro"><strong>The classic hedgehog ball:</strong> Flexible, lightweight, with intensely noticeable spikes for a strong stimulus effect.</p>
         <p class="vb-intro" style="margin-top:1.2rem;"><strong>The cork massage ball (sustainable premium option):</strong> Cork is a wonderful natural material. It feels especially warm and pleasant on the skin, is naturally antibacterial, and offers a firm yet slightly yielding structure.</p>
-        <p class="vb-intro" style="margin-top:1.2rem;"><strong>The wooden massage roller (elegant alternative):</strong> Ergonomic rollers or balls made of solid wood with rounded knobs let you apply plenty of pressure without anything slipping away. They also look very elegant and last a lifetime.</p>
+        <p class="vb-intro" style="margin-top:1.2rem;"><strong>The wooden massage roller (elegant alternative):</strong> Ergonomic rollers or balls made of solid wood with rounded knobs allow plenty of pressure to be applied without anything slipping away. They also look very elegant and last a lifetime.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">How it's done</h2>
-        <p class="vb-intro"><strong>Preparation:</strong> Sit comfortably on a chair (or stand if you have secure footing). Place your chosen massage tool on the floor in front of you.</p>
-        <p class="vb-intro"><strong>Execution:</strong> Place your right foot on the ball or roller with light pressure. Roll it slowly and evenly from heel to toes and back.</p>
-        <p class="vb-intro"><strong>Adjust the intensity:</strong> You decide the pressure yourself: the harder you press your foot down, the more intense the stimulus.</p>
-        <p class="vb-intro"><strong>Special focus:</strong> Linger for a moment right under the ball of the foot – in reflexology, this area corresponds to the chest and breathing region. Breathe deeply into your belly while you do.</p>
+        <p class="vb-intro"><strong>Preparation:</strong> Sit comfortably on a chair (or stand if secure footing is available). Place the chosen massage tool on the floor.</p>
+        <p class="vb-intro"><strong>Execution:</strong> Place the right foot on the ball or roller with light pressure. Roll it slowly and evenly from heel to toes and back.</p>
+        <p class="vb-intro"><strong>Adjust the intensity:</strong> The pressure determines the intensity: the harder the foot presses down, the stronger the stimulus.</p>
+        <p class="vb-intro"><strong>Special focus:</strong> A moment lingering right under the ball of the foot is worthwhile – in reflexology, this area corresponds to the chest and breathing region. Breathing deeply into the belly supports the effect.</p>
         <p class="vb-intro"><strong>Duration:</strong> Work each foot for about 1 to 2 minutes before switching sides.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
-        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Naturopath's everyday tip:</strong> Place your massage tool right by your bed in the morning, or keep it handy under your desk. Just rolling it briefly while checking your first emails or drinking coffee releases unconscious foot tension and leaves you noticeably more grounded as you start the day.</p>
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Naturopath's everyday tip:</strong> Keeping the massage tool right by the bed in the morning, or handy under the desk, works well. Just a brief roll while checking the first emails or drinking coffee releases unconscious foot tension and makes for a noticeably more grounded start to the day.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">

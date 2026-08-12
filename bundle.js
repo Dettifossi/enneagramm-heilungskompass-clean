@@ -35131,7 +35131,7 @@ function fussreflexzonenAktivierungPage() {
       <p class="lead-small">Man muss keine stundenlangen Wanderungen machen, um den Körper in Schwung zu bringen. Manchmal reichen schon zwei Minuten am Tag und ein kleiner Helfer – ein Massageball.</p>
 
       <div class="vb-section" style="max-width:100%;">
-        <p class="vb-intro">Über unsere Fußsohlen sind wir mit dem gesamten Organismus verbunden – über 70.000 Nervenenden enden hier. Wenn du deine Füße gezielt rollst, regst du nicht nur die lokale Durchblutung an, sondern sendest wohltuende Impulse an den gesamten Körper und das vegetative Nervensystem. Perfekt gegen Energietiefs am Nachmittag oder als morgendliches Wachmacher-Ritual!</p>
+        <p class="vb-intro">Über die Fußsohlen ist der Mensch mit dem gesamten Organismus verbunden – über 70.000 Nervenenden enden hier. Gezieltes Rollen der Füße regt nicht nur die lokale Durchblutung an, sondern sendet wohltuende Impulse an den gesamten Körper und das vegetative Nervensystem. Perfekt gegen Energietiefs am Nachmittag oder als morgendliches Wachmacher-Ritual!</p>
       </div>
 
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
@@ -35144,20 +35144,20 @@ function fussreflexzonenAktivierungPage() {
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Welches Hilfsmittel passt zu dir?</h2>
         <p class="vb-intro"><strong>Der klassische Igelball:</strong> Flexibel, leicht und mit intensiv spürbaren Noppen für einen starken Reizeffekt.</p>
         <p class="vb-intro" style="margin-top:1.2rem;"><strong>Der Kork-Massageball (nachhaltiger Premium-Tipp):</strong> Kork ist ein wunderbares Naturmaterial. Es fühlt sich auf der Haut besonders warm und angenehm an, ist von Natur aus antibakteriell und bietet eine feste, aber leicht nachgiebige Struktur.</p>
-        <p class="vb-intro" style="margin-top:1.2rem;"><strong>Der Holz-Massageroller (edle Alternative):</strong> Ergonomische Roller oder Kugeln aus Massivholz mit abgerundeten Noppen erlauben es dir, viel Druck aufzubauen, ohne dass dir etwas wegrutscht. Sie sehen zudem sehr edel aus und halten ein Leben lang.</p>
+        <p class="vb-intro" style="margin-top:1.2rem;"><strong>Der Holz-Massageroller (edle Alternative):</strong> Ergonomische Roller oder Kugeln aus Massivholz mit abgerundeten Noppen erlauben es, viel Druck aufzubauen, ohne dass etwas wegrutscht. Sie sehen zudem sehr edel aus und halten ein Leben lang.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">So geht's</h2>
-        <p class="vb-intro"><strong>Vorbereitung:</strong> Setze dich bequem auf einen Stuhl (oder stelle dich hin, wenn du einen sicheren Halt hast). Lege dein gewähltes Massage-Tool vor dich auf den Boden.</p>
-        <p class="vb-intro"><strong>Die Ausführung:</strong> Setze den rechten Fuß mit leichtem Druck auf den Ball oder den Roller. Bewege ihn nun langsam und gleichmäßig von der Ferse bis zu den Zehenballen vor und zurück.</p>
-        <p class="vb-intro"><strong>Intensität anpassen:</strong> Bestimme den Druck selbst: Je fester du den Fuß aufdrückst, desto intensiver ist der Reizeffekt.</p>
-        <p class="vb-intro"><strong>Besonderer Fokus:</strong> Verweile einen Moment direkt unter dem Ballen – dieser Bereich korrespondiert in der Reflexzonenlehre mit der Brust- und Atemregion. Atme dabei tief in den Bauch.</p>
-        <p class="vb-intro"><strong>Dauer:</strong> Bearbeite jeden Fuß für etwa 1 bis 2 Minuten, bevor du die Seite wechselst.</p>
+        <p class="vb-intro"><strong>Vorbereitung:</strong> Bequem auf einen Stuhl setzen (oder hinstellen, sofern sicherer Halt gegeben ist). Das gewählte Massage-Tool auf dem Boden vor sich ablegen.</p>
+        <p class="vb-intro"><strong>Die Ausführung:</strong> Den rechten Fuß mit leichtem Druck auf den Ball oder den Roller setzen. Ihn nun langsam und gleichmäßig von der Ferse bis zu den Zehenballen vor und zurück bewegen.</p>
+        <p class="vb-intro"><strong>Intensität anpassen:</strong> Der Druck bestimmt die Intensität selbst: Je fester der Fuß aufgedrückt wird, desto stärker der Reizeffekt.</p>
+        <p class="vb-intro"><strong>Besonderer Fokus:</strong> Ein Moment Verweilen direkt unter dem Ballen lohnt sich – dieser Bereich korrespondiert in der Reflexzonenlehre mit der Brust- und Atemregion. Dabei tief in den Bauch atmen.</p>
+        <p class="vb-intro"><strong>Dauer:</strong> Jeden Fuß etwa 1 bis 2 Minuten bearbeiten, bevor die Seite gewechselt wird.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
-        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Heilpraktiker-Tipp für den Alltag:</strong> Platziere dein Massage-Tool direkt morgens neben das Bett oder griffbereit unter den Schreibtisch. Schon das kurze Rollen während der ersten E-Mails oder beim Kaffeetrinken löst unbewusste Fußverspannungen und lässt dich spürbar geerdeter in den Tag starten.</p>
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Heilpraktiker-Tipp für den Alltag:</strong> Das Massage-Tool direkt morgens neben das Bett stellen oder griffbereit unter den Schreibtisch legen. Schon das kurze Rollen während der ersten E-Mails oder beim Kaffeetrinken löst unbewusste Fußverspannungen und lässt den Tag spürbar geerdeter beginnen.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">

@@ -77,6 +77,7 @@ print(f'Fehlend im Register: {len(miss)}')
 
 - App-Texte auf Deutsch, mit korrekten Umlauten und deutscher Typografie.
 - Bei JS-Strings: keine deutschen Anführungszeichen `„"` wenn das schließende `"` U+0022 ist — Syntaxfehler. Stattdessen `›...‹` für Zitate innerhalb von Strings verwenden.
+- **Anrede in Praxistipps vom Heilpraktiker:** Kein direktes Sie/Du in den Übungsanleitungen — neutraler, unpersönlicher Instruktionsstil (Infinitiv/Passiv, z. B. „den Ball langsam rollen", „tief in den Bauch atmen"), analog zu Faszienübungen für die Rumpfgesundheit. Rahmentext, Einleitung und „Wichtiger Hinweis"-Box bleiben beim **Sie**. Einheitlichkeit über alle Artikel der Rubrik hinweg hat Vorrang vor einem Coaching-Ton in einzelnen Artikeln.
 
 ## graphify
 
