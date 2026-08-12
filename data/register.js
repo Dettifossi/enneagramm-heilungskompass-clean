@@ -43,6 +43,7 @@ export const registerEntries = [
   { term: "Der unsichtbare Magnet", route: "praxistipps-heilpraktiker/unsichtbarer-magnet", description: "Erdungs-Übung: Magnete an den Fußsohlen als Bild für sofortige Erdung und Ruhe" },
   { term: "Das Herz-Tor öffnen", route: "praxistipps-heilpraktiker/herz-tor-oeffnen", description: "Atem-Bewegungs-Übung zur Öffnung des Brustraums und für innere Weite" },
   { term: "Der Atem-Wasserfall", route: "praxistipps-heilpraktiker/atem-wasserfall", description: "Energetische Reinigungsübung mit Atem und Bewegung für den Feierabend" },
+  { term: "Die Vitruv-Enneagramm-Bewusstseinsübung", route: "praxistipps-heilpraktiker/vitruv-enneagramm", description: "Der Kreis der Neun: Vitruvianischer Mensch und die 9 Punkte des Enneagramms im Körper" },
   { term: "Stille",                          route: "stille",                        description: "Meditation & Stille: eine Übung für jeden Enneagramm-Typ" },
   { term: "Tritypen",                        route: "tritypen",                      description: "Schaubild: Die 27 Tritypen – Kombination aus einem Typ pro Triade" },
 
@@ -1309,6 +1310,7 @@ export const registerEntriesEN = [
   { term: "The Invisible Magnet", route: "praxistipps-heilpraktiker/unsichtbarer-magnet", description: "Grounding exercise: imagined magnets at the soles of the feet for instant grounding and calm" },
   { term: "Opening the Heart Gate", route: "praxistipps-heilpraktiker/herz-tor-oeffnen", description: "Breath-and-movement exercise that opens the chest and creates inner spaciousness" },
   { term: "The Breath Waterfall", route: "praxistipps-heilpraktiker/atem-wasserfall", description: "Energetic cleansing exercise with breath and movement, ideal for the evening" },
+  { term: "The Vitruvian-Enneagram Awareness Exercise", route: "praxistipps-heilpraktiker/vitruv-enneagramm", description: "The Circle of Nine: the Vitruvian Man and the Enneagram's 9 points in the body" },
   { term: "Silence", route: "stille", description: "Meditation & silence: an exercise for every Enneagram type" },
   { term: "Tritypes", route: "tritypen", description: "Chart: the 27 tritypes – combination of one type per triad" }
 ];

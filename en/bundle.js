@@ -4893,6 +4893,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"unsichtbarer-magnet", titel:"The Invisible Magnet: The Grounding Exercise", teaser:"Imagined magnets at the soles of the feet to establish grounding and mental calm within seconds.", img:"../assets/schaubilder/unsichtbarer-magnet/unsichtbarer-magnet.jpg" },
     { slug:"herz-tor-oeffnen", titel:"Opening the Heart Gate: Sensing Openness and Connection", teaser:"A breath-and-movement exercise that opens the chest and creates a sense of inner spaciousness.", img:"../assets/schaubilder/herz-tor-oeffnen/herz-tor-oeffnen.jpg" },
     { slug:"atem-wasserfall", titel:"The Breath Waterfall: Energetic Cleansing and Clarity", teaser:"A gentle energetic shower of breath and movement, perfect for the evening.", img:"../assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg" },
+    { slug:"vitruv-enneagramm", titel:"The Vitruvian-Enneagram Awareness Exercise: The Circle of Nine", teaser:"Activate the geometric harmony of the Vitruvian Man and the Enneagram's 9 points in your own body.", img:"../assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -4919,6 +4920,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "atem-wasserfall") {
     return atemWasserfallPage();
+  }
+  if (param === "vitruv-enneagramm") {
+    return vitruvEnneagrammPage();
   }
 
   return shell(`
@@ -5356,6 +5360,99 @@ function atemWasserfallPage() {
         {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
         {route:"praxistipps-heilpraktiker/unsichtbarer-magnet", label:"The Invisible Magnet"},
         {route:"praxistipps-heilpraktiker/herz-tor-oeffnen", label:"Opening the Heart Gate"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"The Energy Field Between the Hands"},
+        {route:"practice", label:"Tools"},
+      ])}
+    </section>
+  `);
+}
+
+function vitruvEnneagrammPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1 class="h1--tip">The Vitruvian-Enneagram Awareness Exercise: The Circle of Nine</h1>
+      <p class="lead-small">Activate the geometric harmony of the Vitruvian Man and the Enneagram's 9 points in your own body.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg"
+             alt="Three positions of the exercise: horizontal expansion in the square, vertical stretch to the sky, Enneagram circle unfolding"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">This exercise combines the geometric harmony of Leonardo da Vinci's Vitruvian Man with the structure of the Enneagram. It moves from earthly rootedness through horizontal expansion to vertical alignment toward the sky, while activating the Enneagram's 9 points in the body.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. Starting Position (The Center / Point 9)</h2>
+        <p class="vb-intro"><strong>Posture:</strong> Stand upright, feet together, arms hanging loosely at the sides.</p>
+        <p class="vb-intro"><strong>Focus:</strong> Briefly close the eyes and gather attention at the center, in the space between heart and solar plexus.</p>
+        <p class="vb-intro"><strong>Practice tip:</strong> This is the zero point and origin in the Enneagram. Breathe in deeply and feel the firm connection of the soles of the feet with the ground.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">2. Phase One: Horizontal Expansion (The Square – The 4 Main Points)</h2>
+        <p class="vb-intro"><strong>Movement:</strong> Open the arms horizontally to the sides at shoulder height. The palms face downward, while the feet stand firm and shoulder-width apart on the ground (analogous to Da Vinci's first figure within the square).</p>
+        <p class="vb-intro"><strong>Geometry in the body:</strong> Points 1 & 2 – left and right foot (earthly foundation). Points 3 & 4 – left and right hand (expansion into the material world).</p>
+        <p class="vb-intro"><strong>Practice tip:</strong> Consciously take up physical space. Feel the stability between left and right, above and below.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">3. Phase Two: Vertical Stretch to the Sky (The Connection Above and Below)</h2>
+        <p class="vb-intro"><strong>Movement:</strong> Breathe in, release the horizontal posture, and stretch both arms all the way up toward the sky, either rising onto the toes or pressing the heels firmly into the ground.</p>
+        <p class="vb-intro"><strong>Geometry:</strong> The body forms a vertical axis connecting the sky (the highest point of the hands) with the earth (the soles of the feet).</p>
+        <p class="vb-intro"><strong>Practice tip:</strong> This vertical alignment represents the sacred 3-6-9 axis of the Enneagram. Become as long as possible, to transcend the limits of everyday consciousness.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">4. Phase Three: Unfolding the Enneagram Circle (The Transition Points)</h2>
+        <p class="vb-intro"><strong>Movement:</strong> From the stretched sky position, slowly lower and open the arms outward and downward in a wide, circling motion (analogous to Da Vinci's second figure within the circle).</p>
+        <p class="vb-intro"><strong>Structure of the 9 points in the body:</strong> Imagine the energy now flowing in pathways through the Enneagram's 9 zones – head (point 9): the clear observer and overview. Right shoulder & arm (points 1 & 2): structure and open-hearted connection. Right hand (point 3): drive and conscious manifestation. Right & left leg (points 4 & 5): emotional depth and inner withdrawal. Left hand (point 6): inner security and healthy boundaries. Left shoulder & heart (points 7 & 8): joy of life, vision, and fundamental strength.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">5. Integration and Closing</h2>
+        <p class="vb-intro"><strong>Movement:</strong> After a full circular motion, slowly bring the arms back to the body.</p>
+        <p class="vb-intro"><strong>Practice tip:</strong> Sense inward. Notice how the combination of earthly foundation, heavenward stretch, and circular motion has centered the body and harmonized the nervous system.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2.5rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Vitruvian Man & Enneagram</h2>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/schaubilder/vitruv-enneagramm/vitruvianischer-mensch.jpg"
+             alt="Leonardo da Vinci's Vitruvian Man, overlaid with the Enneagram's geometric grid"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">The image shows Leonardo da Vinci's classic drawing, embedded in the overlaid structure of the square and the circle. Overlaid on it is the Enneagram's geometric grid (hexagram and circle), deliberately shown without numbers, to represent pure geometric harmony.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">A Note on History: Leonardo da Vinci's "Vitruvian Man" – a Bridge Between Macrocosm and Microcosm</h2>
+        <p class="vb-intro">Leonardo da Vinci's famous drawing, created around 1490, is far more than an anatomical study. It is a visual philosophy that places the human being at the center of the world. Based on the writings of the Roman architect Vitruvius, the image illustrates the ideal proportions of the human body as understood in the geometry of antiquity.</p>
+        <p class="vb-intro">The image shows the human figure in two overlaid positions: within the square, a symbol of the earthly, material world, the four elements, and the physical limits of the body; within the circle, a symbol of the perfect, divine cosmos, eternity, and the spiritual dimension. Leonardo da Vinci succeeded in depicting the human being as the intersection of these two worlds. By embedding one's own proportions in this geometric order, the resonance between the inner microcosm and the universal macrocosm becomes tangible.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">The Connection to the Enneagram</h2>
+        <p class="vb-intro">The overlay with the Enneagram symbol (here in its pure geometric form, without numbers) underscores this universal order. Just as the Enneagram maps the dynamics of the human psyche and development, the Vitruvian Man shows the static and dynamic harmony of physical existence. Both systems serve as maps for understanding and embodying the deeper connection between the individual, the self, and the cosmos.</p>
+        <p class="vb-intro">More on Leonardo da Vinci and his Enneagram type (SO5w4) can be found in the <button class="inline-link" data-route="beruehmte-leonardo-da-vinci" style="background:none;border:none;padding:0;color:var(--copper);text-decoration:underline;cursor:pointer;font-family:inherit;font-size:inherit;">portrait under Famous Personalities</button>.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Recommendations to Explore Further</h2>
+        <p class="vb-intro" style="margin-bottom:.8rem;"><strong>Poster (art print):</strong> Vitruvian Man</p>
+        ${affiliateBoxHtml("vitruv", "Poster", "View poster on Amazon")}
+        <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Canvas print:</strong> Vitruvian Man</p>
+        ${affiliateBoxHtml("vitruv", "Leinwandbild", "View canvas print on Amazon")}
+        <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Book tip:</strong> Leonardo da Vinci – The Complete Paintings and Drawings</p>
+        ${affiliateBoxHtml("vitruv", "Buch Gemälde und Zeichnungen", "View book on Amazon")}
+        <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Book tip:</strong> Leonardo da Vinci (Walter Isaacson biography)</p>
+        ${affiliateBoxHtml("vitruv", "Buch Biographie", "View book on Amazon")}
+        <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Book tip:</strong> Journal of Inventions – Leonardo da Vinci (pop-up)</p>
+        ${affiliateBoxHtml("vitruv", "Buch Erfindungen Pop-up", "View book on Amazon")}
+        <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Book tip:</strong> Vitruvius – The Ten Books on Architecture</p>
+        ${affiliateBoxHtml("vitruv", "Buch Zehn Bücher über Architektur", "View book on Amazon")}
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"beruehmte-leonardo-da-vinci", label:"Portrait: Leonardo da Vinci (SO5w4)"},
+        {route:"praxistipps-heilpraktiker/unsichtbarer-magnet", label:"The Invisible Magnet"},
         {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"The Energy Field Between the Hands"},
         {route:"practice", label:"Tools"},
       ])}
@@ -10589,6 +10686,14 @@ const AFFILIATE_LINKS = {
   },
   fitnessmatte: {
     "Fitnessmatte": "https://www.amazon.com/HemingWeigh-Extra-Thick-Foam-Exercise/dp/B008I4XFWU?tag=enneagramcomp-20",
+  },
+  vitruv: {
+    "Poster": "https://www.amazon.com/Vitruvian-Poster-Print-Leonardo-Vinci/dp/B000XQ6GSG?tag=enneagramcomp-20",
+    "Leinwandbild": "https://www.amazon.com/Vitruvian-Leonardo-Picture-24x36inch-Unframed/dp/B0FVXBZ1WN?tag=enneagramcomp-20",
+    "Buch Biographie": "https://www.amazon.com/Leonardo-Vinci-Walter-Isaacson/dp/1501139150?tag=enneagramcomp-20",
+    "Buch Gemälde und Zeichnungen": "https://www.amazon.com/Leonardo-Vinci-1452-1519-Paintings-Anniversary/dp/3822838276?tag=enneagramcomp-20",
+    "Buch Erfindungen Pop-up": "https://www.amazon.com/Journal-Inventions-Leonardo-Jasper-Bark/dp/1592239080?tag=enneagramcomp-20",
+    "Buch Zehn Bücher über Architektur": "https://www.amazon.com/dp/0486206459?tag=enneagramcomp-20",
   },
 };
 
@@ -18657,6 +18762,7 @@ function leonardoDaVinciPortraitPage() {
         {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
         {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4)"},
         {route:"beruehmte-claudio-naranjo", label:"Portrait: Claudio Naranjo (SO5w4)"},
+        {route:"praxistipps-heilpraktiker/vitruv-enneagramm", label:"Practical Tip: The Vitruvian-Enneagram Awareness Exercise"},
       ])}
     </div>
   `);

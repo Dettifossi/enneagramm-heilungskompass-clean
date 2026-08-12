@@ -35025,6 +35025,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"unsichtbarer-magnet", titel:"Der unsichtbare Magnet: Die Erdungs-\u00dcbung", teaser:"Magnete an den Fu\u00dfsohlen als Bild, um in Sekunden Erdung und mentale Ruhe herzustellen.", img:"./assets/schaubilder/unsichtbarer-magnet/unsichtbarer-magnet.jpg" },
     { slug:"herz-tor-oeffnen", titel:"Das Herz-Tor \u00f6ffnen: Weite und Verbindung sp\u00fcren", teaser:"Eine Atem-Bewegungs-\u00dcbung, die den Brustraum \u00f6ffnet und f\u00fcr innere Weite sorgt.", img:"./assets/schaubilder/herz-tor-oeffnen/herz-tor-oeffnen.jpg" },
     { slug:"atem-wasserfall", titel:"Der Atem-Wasserfall: Energetische Reinigung und Klarheit", teaser:"Eine sanfte, energetische Dusche aus Atem und Bewegung f\u00fcr den Feierabend.", img:"./assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg" },
+    { slug:"vitruv-enneagramm", titel:"Die Vitruv-Enneagramm-Bewusstseins\u00fcbung: Der Kreis der Neun", teaser:"Geometrische Harmonie des Vitruvianischen Menschen und die 9 Punkte des Enneagramms im eigenen K\u00f6rper aktivieren.", img:"./assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -35051,6 +35052,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "atem-wasserfall") {
     return atemWasserfallPage();
+  }
+  if (param === "vitruv-enneagramm") {
+    return vitruvEnneagrammPage();
   }
 
   return shell(`
@@ -35488,6 +35492,101 @@ function atemWasserfallPage() {
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
         {route:"praxistipps-heilpraktiker/unsichtbarer-magnet", label:"Der unsichtbare Magnet"},
         {route:"praxistipps-heilpraktiker/herz-tor-oeffnen", label:"Das Herz-Tor öffnen"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"Das Energiefeld zwischen den Händen"},
+        {route:"practice", label:"Werkzeuge"},
+      ])}
+    </section>
+  `);
+}
+
+function vitruvEnneagrammPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1 class="h1--tip">Die Vitruv-Enneagramm-Bewusstseinsübung: Der Kreis der Neun</h1>
+      <p class="lead-small">Geometrische Harmonie des Vitruvianischen Menschen und die 9 Punkte des Enneagramms im eigenen Körper aktivieren.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="./assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg"
+             alt="Drei Positionen der Übung: horizontale Ausdehnung im Quadrat, vertikale Himmelsstreckung, Enneagramm-Kreis-Entfaltung"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Diese Übung verbindet die geometrische Harmonie des Vitruvianischen Menschen von Leonardo da Vinci mit der Struktur des Enneagramms. Sie führt von der irdischen Verwurzelung über die horizontale Weite bis hin zur vertikalen Ausrichtung zum Himmel, während die 9 Punkte des Enneagramms im Körper aktiviert werden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. Die Ausgangsposition (Das Zentrum / Punkt 9)</h2>
+        <p class="vb-intro"><strong>Haltung:</strong> Aufrecht hinstellen, die Füße geschlossen, die Arme hängen locker an den Seiten.</p>
+        <p class="vb-intro"><strong>Fokus:</strong> Kurz die Augen schließen und die Aufmerksamkeit in der Mitte sammeln, im Raum zwischen Herz und Solarplexus.</p>
+        <p class="vb-intro"><strong>Praxis-Tipp:</strong> Dies ist der Nullpunkt und der Ursprung im Enneagramm. Tief einatmen und die feste Verbindung der Fußsohlen mit dem Boden spüren.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">2. Phase Eins: Die horizontale Weite (Das Quadrat – Die 4 Hauptpunkte)</h2>
+        <p class="vb-intro"><strong>Bewegung:</strong> Die Arme waagerecht zur Seite auf Schulterhöhe öffnen. Die Handflächen zeigen nach unten, während die Füße fest und schulterbreit am Boden stehen (analog zu Da Vincis erster Figur im Quadrat).</p>
+        <p class="vb-intro"><strong>Geometrie im Körper:</strong> Punkt 1 & 2 – linker und rechter Fuß (irdisches Fundament). Punkt 3 & 4 – linke und rechte Hand (Ausdehnung in die materielle Welt).</p>
+        <p class="vb-intro"><strong>Praxis-Tipp:</strong> Den physischen Raum bewusst einnehmen. Die Stabilität zwischen Links und Rechts, Oben und Unten spüren.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">3. Phase Zwei: Die vertikale Himmelsstreckung (Die Verbindung Oben und Unten)</h2>
+        <p class="vb-intro"><strong>Bewegung:</strong> Einatmen, die waagerechte Haltung lösen und beide Arme ganz nach oben in den Himmel strecken, dabei auf die Zehenspitzen heben oder die Fersen fest in den Boden drücken.</p>
+        <p class="vb-intro"><strong>Geometrie:</strong> Der Körper bildet eine senkrechte Achse, die den Himmel (oberster Punkt der Hände) mit der Erde (Fußsohlen) verbindet.</p>
+        <p class="vb-intro"><strong>Praxis-Tipp:</strong> Diese vertikale Ausrichtung repräsentiert die heilige 3-6-9-Achse des Enneagramms. So lang wie möglich werden, um die Begrenzung des Alltagsbewusstseins zu transzendieren.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">4. Phase Drei: Die Entfaltung des Enneagramm-Kreises (Die Übergangspunkte)</h2>
+        <p class="vb-intro"><strong>Bewegung:</strong> Aus der gestreckten Himmels-Position die Arme langsam in einer weiten, kreisenden Bewegung nach außen und unten senken und öffnen (analog zu Da Vincis zweiter Figur im Kreis).</p>
+        <p class="vb-intro"><strong>Struktur der 9 Punkte im Körper:</strong> Die Vorstellung, wie die Energie nun bahnenartig durch die 9 Zonen des Enneagramms fließt – Kopf (Punkt 9): der klare Beobachter und die Übersicht. Rechte Schulter & Arm (Punkte 1 & 2): Struktur und zugewandte Herzensverbindung. Rechte Hand (Punkt 3): Tatkraft und bewusste Manifestation. Rechtes & linkes Bein (Punkte 4 & 5): emotionale Tiefe und innerer Rückzug. Linke Hand (Punkt 6): innere Sicherheit und gesunde Grenzsetzung. Linke Schulter & Herz (Punkte 7 & 8): Lebensfreude, Vision und fundamentale Stärke.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">5. Integration und Abschluss</h2>
+        <p class="vb-intro"><strong>Bewegung:</strong> Nach einer vollständigen Kreisbewegung die Arme langsam wieder an den Körper zurückführen.</p>
+        <p class="vb-intro"><strong>Praxis-Tipp:</strong> Nachspüren. Wahrnehmen, wie die Kombination aus irdischem Fundament, himmlischer Streckung und der Kreisbewegung den Körper zentriert und das Nervensystem harmonisiert hat.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2.5rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Vitruvianischer Mensch & Enneagramm</h2>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="./assets/schaubilder/vitruv-enneagramm/vitruvianischer-mensch.jpg"
+             alt="Der Vitruvianische Mensch von Leonardo da Vinci, überlagert mit dem geometrischen Gitter des Enneagramms"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Das Bild zeigt die klassische Zeichnung von Leonardo da Vinci, eingebettet in die überlagerte Struktur des Quadrats und des Kreises. Darübergelegt ist das geometrische Gitter des Enneagramms (Hexagramm und Kreis), wobei bewusst auf Zahlen verzichtet wurde, um die reine geometrische Harmonie darzustellen.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">Historische Anmerkung: Leonardo da Vincis „Vitruvianischer Mensch" – eine Brücke zwischen Makrokosmos und Mikrokosmos</h2>
+        <p class="vb-intro">Die berühmte Zeichnung von Leonardo da Vinci, entstanden um 1490, ist weit mehr als eine anatomische Studie. Sie ist eine visuelle Philosophie, die den Menschen als den Mittelpunkt der Welt darstellt. Basierend auf den Schriften des römischen Architekten Vitruv, illustriert das Bild die idealen Proportionen des menschlichen Körpers, wie sie in der Geometrie der Antike verstanden wurden.</p>
+        <p class="vb-intro">Das Bild zeigt den Menschen in zwei überlagerten Positionen: im Quadrat als Symbol für die irdische, materielle Welt, die vier Elemente und die physischen Grenzen des Körpers; im Kreis als Symbol für den vollkommenen, göttlichen Kosmos, die Ewigkeit und die spirituelle Dimension. Leonardo da Vinci gelang es, den Menschen als Schnittpunkt dieser beiden Welten darzustellen. Indem die eigenen Proportionen in diese geometrische Ordnung eingebettet werden, wird die Resonanz zwischen dem inneren Mikrokosmos und dem universellen Makrokosmos erkennbar.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">Die Verbindung zum Enneagramm</h2>
+        <p class="vb-intro">Die Überlagerung mit dem Enneagramm-Symbol (hier in seiner reinen geometrischen Form ohne Zahlen) unterstreicht diese universelle Ordnung. Wie das Enneagramm die Dynamik menschlicher Psyche und Entwicklung abbildet, so zeigt der Vitruvianische Mensch die statische und dynamische Harmonie der physischen Existenz. Beide Systeme dienen als Landkarte, um die tiefere Verbindung des Menschen zu sich selbst und zum Kosmos zu verstehen und zu verkörpern.</p>
+        <p class="vb-intro">Mehr zu Leonardo da Vinci und seiner Enneagramm-Typisierung (SO5w4) gibt es im <button class="inline-link" data-route="beruehmte-leonardo-da-vinci" style="background:none;border:none;padding:0;color:var(--copper);text-decoration:underline;cursor:pointer;font-family:inherit;font-size:inherit;">Porträt bei Berühmte Persönlichkeiten</button>.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Empfehlungen zum Vertiefen</h2>
+        <p class="vb-intro" style="margin-bottom:.8rem;"><strong>Poster (Kunstdruck):</strong> Vitruvianischer Mensch</p>
+        ${affiliateBoxHtml("vitruv", "Poster", "Poster bei Amazon ansehen")}
+        <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Leinwandbild:</strong> Vitruvianischer Mensch</p>
+        ${affiliateBoxHtml("vitruv", "Leinwandbild", "Leinwandbild bei Amazon ansehen")}
+        <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Buchtipp:</strong> Leonardo – Sämtliche Gemälde und Zeichnungen</p>
+        ${affiliateBoxHtml("vitruv", "Buch Gemälde und Zeichnungen", "Buch bei Amazon ansehen")}
+        <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Buchtipp:</strong> Leonardo da Vinci: Die Biographie (Walter Isaacson)</p>
+        ${affiliateBoxHtml("vitruv", "Buch Biographie", "Buch bei Amazon ansehen")}
+        <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Buchtipp:</strong> Leonardo da Vinci: Erfindungen eines Genies (Pop-up)</p>
+        ${affiliateBoxHtml("vitruv", "Buch Erfindungen Pop-up", "Buch bei Amazon ansehen")}
+        <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Buchtipp:</strong> 100 der größten Erfindungen aller Zeiten</p>
+        ${affiliateBoxHtml("vitruv", "Buch 100 Erfindungen", "Buch bei Amazon ansehen")}
+        <p class="vb-intro" style="margin:1.2rem 0 .8rem;"><strong>Buchtipp:</strong> Vitruv – Zehn Bücher über Architektur</p>
+        ${affiliateBoxHtml("vitruv", "Buch Zehn Bücher über Architektur", "Buch bei Amazon ansehen")}
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"beruehmte-leonardo-da-vinci", label:"Porträt: Leonardo da Vinci (SO5w4)"},
+        {route:"praxistipps-heilpraktiker/unsichtbarer-magnet", label:"Der unsichtbare Magnet"},
         {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"Das Energiefeld zwischen den Händen"},
         {route:"practice", label:"Werkzeuge"},
       ])}
@@ -37774,6 +37873,15 @@ const AFFILIATE_LINKS = {
   },
   fitnessmatte: {
     "Fitnessmatte": "https://www.amazon.de/gp/aw/d/B016GKP7W8?linkCode=ll2&tag=enneagrammkom-21&linkId=cb0bdebeea512156206cc17d31aba879&ref_=as_li_ss_tl",
+  },
+  vitruv: {
+    "Poster": "https://www.amazon.de/Grupo-Erik-Vitruviano-Wandposter-Glanzpapier/dp/B0CP2NXVZ2?linkCode=ll2&tag=enneagrammkom-21&linkId=2ccfcccce149ff0a7f6761daa0de0a90&ref_=as_li_ss_tl",
+    "Leinwandbild": "https://www.amazon.de/1art1-111564-Leonardo-Vinci-Vitruvianischer/dp/B0049JM114?linkCode=ll2&tag=enneagrammkom-21&linkId=5f4ca3c06c27080f60cb64afeced402d&ref_=as_li_ss_tl",
+    "Buch Gemälde und Zeichnungen": "https://www.amazon.de/gp/aw/d/3836576260?linkCode=ll2&tag=enneagrammkom-21&linkId=c7b13ebc9dbc4540e271297a6d8c531e&ref_=as_li_ss_tl",
+    "Buch Biographie": "https://www.amazon.de/Leonardo-Vinci-Biographie-Walter-Isaacson/dp/3549076436?linkCode=ll2&tag=enneagrammkom-21&linkId=618ea3981539e91b8c273a0b79d6cfa7&ref_=as_li_ss_tl",
+    "Buch Erfindungen Pop-up": "https://www.amazon.de/Leonardo-Vinci-Erfindungen-Genies-Pop-up/dp/376074124X?linkCode=ll2&tag=enneagrammkom-21&linkId=74940e8c00666a1d9d966e41cc91dacb&ref_=as_li_ss_tl",
+    "Buch 100 Erfindungen": "https://www.amazon.de/dp/B0DGSMR4XG?linkCode=ll2&tag=enneagrammkom-21&linkId=8a2d527d7f89e23287256c775f7a492f&ref_=as_li_ss_tl",
+    "Buch Zehn Bücher über Architektur": "https://www.amazon.de/Zehn-B%C3%BCcher-%C3%BCber-Architektur-Vitruv/dp/3730608088?linkCode=ll2&tag=enneagrammkom-21&linkId=fdfed96780e21aa3f96c40c966a31a23&ref_=as_li_ss_tl",
   },
 };
 
@@ -46796,6 +46904,7 @@ function leonardoDaVinciPortraitPage() {
         {route:"subtype/so5", label:"SO5 \u2013 Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-albert-einstein", label:"Portr\xe4t: Albert Einstein (SO5w4)"},
         {route:"beruehmte-claudio-naranjo", label:"Portr\xe4t: Claudio Naranjo (SO5w4)"},
+        {route:"praxistipps-heilpraktiker/vitruv-enneagramm", label:"Praxistipp: Die Vitruv-Enneagramm-Bewusstseinsübung"},
       ])}
     </div>
   `);
