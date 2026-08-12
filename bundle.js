@@ -35018,11 +35018,15 @@ function practicePage() {
 function praxistippsHeilpraktikerPage() {
   const TIPPS = [
     { slug:"faszienuebungen-rumpfgesundheit", titel:"Faszien\u00fcbungen f\u00fcr die Rumpfgesundheit", teaser:"Vier einfache \u00dcbungen gegen die Folgen des vielen Sitzens \u2013 Dead Bug, Bird-Dog, Katze-Kuh und Kobra.", img:"./assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg" },
+    { slug:"fussreflexzonen-aktivierung", titel:"Fu\u00dfreflexzonen-Aktivierung: Der Energie-Kick f\u00fcr zwischendurch", teaser:"Mit Igelball, Kork- oder Holzroller in 1\u20132 Minuten pro Fu\u00df Durchblutung und vegetatives Nervensystem anregen.", img:"./assets/schaubilder/fussreflexzonen-aktivierung/igelball.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
   if (param === "faszienuebungen-rumpfgesundheit") {
     return faszienuebungenRumpfgesundheitPage();
+  }
+  if (param === "fussreflexzonen-aktivierung") {
+    return fussreflexzonenAktivierungPage();
   }
 
   return shell(`
@@ -35031,6 +35035,18 @@ function praxistippsHeilpraktikerPage() {
       <p class="eyebrow">Werkzeuge \u00b7 Praxistipps vom Heilpraktiker</p>
       <h1>Praxistipps vom Heilpraktiker</h1>
       <p class="lead-small">Konkrete Impulse aus der heilpraktischen Praxis von Detlef Rathmer \u2013 k\u00f6rperorientierte \u00dcbungen ebenso wie Tee-Empfehlungen, kleine Rituale und Alltagshilfen. Diese Rubrik wird laufend um neue Themen erweitert.</p>
+
+      <div style="margin:1.5rem 0 0;padding:1.1rem 1.3rem;background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:10px;">
+        <p style="font-size:.82rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;margin:0 0 .3rem;">Wichtiger Hinweis &amp; pers\u00f6nliche Anmerkung</p>
+        <p style="font-size:.82rem;color:var(--muted);margin:0 0 .7rem;">von Ihrem Heilpraktiker (\u00fcber 30 Jahre Praxiserfahrung)</p>
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;">Liebe Nutzerinnen und Nutzer, die Tipps in dieser Rubrik sind aus meiner jahrzehntelangen Praxis entstanden. Sie eignen sich hervorragend zur schnellen Selbsthilfe im Alltag, um kleinere Akutbeschwerden sanft zu lindern und den K\u00f6rper ganzheitlich zu unterst\u00fctzen \u2013 besonders dann, wenn gerade kein Therapeut greifbar ist. Bitte beachten Sie jedoch:</p>
+        <ol style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;padding-left:1.2rem;">
+          <li><strong>Rechtzeitige Abkl\u00e4rung:</strong> Halten Beschwerden l\u00e4nger an, kehren sie wieder oder sind sie schwerwiegender, gilt: lieber einmal zu fr\u00fch als zu sp\u00e4t. Suchen Sie bei anhaltenden oder unklaren Symptomen bitte zeitnah einen Arzt, Psychotherapeuten oder Heilpraktiker auf.</li>
+          <li><strong>Linderung vs. Heilung:</strong> Alltags- und Selbsthilfetipps k\u00f6nnen wunderbar unterst\u00fctzen, ersetzen bei tiefer sitzenden oder chronischen Leiden aber keine Ursachenbehandlung.</li>
+          <li><strong>Die K\u00f6nigsdisziplin:</strong> Aus meiner langj\u00e4hrigen Erfahrung bleibt die klassische hom\u00f6opathische Konstitutionstherapie die K\u00f6nigsdisziplin der ganzheitlichen Heilkunde. Als Informationstherapie setzt sie an den tiefsten Ebenen des Organismus an und regt die Selbstheilungskr\u00e4fte grundlegend an.</li>
+        </ol>
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">Nutzen Sie diese Praxistipps gerne als wertvolle Begleiter im Alltag \u2013 und wenden Sie sich bei chronischen oder komplexen Themen vertrauensvoll an einen versierten Therapeuten/Hom\u00f6opathen zwecks fundierter hom\u00f6opathischer Konstitutionsbehandlung.</p>
+      </div>
 
       <div class="tool-grid" style="margin-top:1.5rem;">
         ${TIPPS.map(t => `
@@ -35041,18 +35057,6 @@ function praxistippsHeilpraktikerPage() {
             <span class="tool-card__arrow">Ansehen \u2192</span>
           </button>
         `).join("")}
-      </div>
-
-      <div style="margin:2rem 0 0;padding:1.1rem 1.3rem;background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:10px;">
-        <p style="font-size:.82rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;margin:0 0 .3rem;">Wichtiger Hinweis &amp; pers\u00f6nliche Anmerkung</p>
-        <p style="font-size:.82rem;color:var(--muted);margin:0 0 .7rem;">von Ihrem Heilpraktiker (\u00fcber 30 Jahre Praxiserfahrung)</p>
-        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;">Liebe Nutzerinnen und Nutzer, die Tipps in dieser Rubrik sind aus meiner jahrzehntelangen Praxis entstanden. Sie eignen sich hervorragend zur schnellen Selbsthilfe im Alltag, um kleinere Akutbeschwerden sanft zu lindern und den K\u00f6rper ganzheitlich zu unterst\u00fctzen \u2013 besonders dann, wenn gerade kein Therapeut greifbar ist. Bitte beachten Sie jedoch:</p>
-        <ol style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;padding-left:1.2rem;">
-          <li><strong>Rechtzeitige Abkl\u00e4rung:</strong> Halten Beschwerden l\u00e4nger an, kehren sie wieder oder sind sie schwerwiegender, gilt: lieber einmal zu fr\u00fch als zu sp\u00e4t. Suchen Sie bei anhaltenden oder unklaren Symptomen bitte zeitnah einen Arzt, Psychotherapeuten oder Heilpraktiker auf.</li>
-          <li><strong>Linderung vs. Heilung:</strong> Alltags- und Selbsthilfetipps k\u00f6nnen wunderbar unterst\u00fctzen, ersetzen bei tiefer sitzenden oder chronischen Leiden aber keine Ursachenbehandlung.</li>
-          <li><strong>Die K\u00f6nigsdisziplin:</strong> Aus meiner langj\u00e4hrigen Erfahrung bleibt die klassische hom\u00f6opathische Konstitutionstherapie die K\u00f6nigsdisziplin der ganzheitlichen Heilkunde. Als Informationstherapie setzt sie an den tiefsten Ebenen des Organismus an und regt die Selbstheilungskr\u00e4fte grundlegend an.</li>
-        </ol>
-        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">Nutzen Sie diese Praxistipps gerne als wertvolle Begleiter im Alltag \u2013 und wenden Sie sich bei chronischen oder komplexen Themen vertrauensvoll an einen versierten Therapeuten/Hom\u00f6opathen zwecks fundierter hom\u00f6opathischer Konstitutionsbehandlung.</p>
       </div>
     </section>
   `);
@@ -35101,11 +35105,73 @@ function faszienuebungenRumpfgesundheitPage() {
         <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Praxistipp:</strong> F\u00fchren Sie die vier \u00dcbungen als kurze Sequenz durch \u2013 jeweils 8&ndash;10 Wiederholungen pro Seite bzw. 3&ndash;5 Atemz\u00fcge Halten bei Katze-Kuh und Kobra. Schon eine t\u00e4gliche Wiederholung von 5&ndash;10 Minuten, idealerweise als bewusste Pause zwischen l\u00e4ngeren Sitzphasen, kann sp\u00fcrbar zur Rumpfgesundheit beitragen. Bei bestehenden R\u00fcckenbeschwerden oder Unsicherheiten empfiehlt sich vorab eine individuelle Abkl\u00e4rung.</p>
       </div>
 
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Empfehlung zum Nachr\u00fcsten</h2>
+        <p class="vb-intro" style="margin-bottom:.8rem;">F\u00fcr alle vier \u00dcbungen ist eine rutschfeste, gelenkschonende Unterlage Gold wert \u2013 besonders auf Fliesen- oder Laminatboden.</p>
+        ${affiliateBoxHtml("fitnessmatte", "Fitnessmatte", "Fitnessmatte bei Amazon ansehen")}
+      </div>
+
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
         {route:"situationskompass", label:"Situationskompass"},
         {route:"practice", label:"Werkzeuge"},
         {route:"stille", label:"9 Minuten Stille sitzen"},
+      ])}
+    </section>
+  `);
+}
+
+function fussreflexzonenAktivierungPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1>Fußreflexzonen-Aktivierung: Der Energie-Kick für zwischendurch</h1>
+      <p class="lead-small">Man muss keine stundenlangen Wanderungen machen, um den Körper in Schwung zu bringen. Manchmal reichen schon zwei Minuten am Tag und ein kleiner Helfer – ein Massageball.</p>
+
+      <div class="vb-section" style="max-width:100%;">
+        <p class="vb-intro">Über unsere Fußsohlen sind wir mit dem gesamten Organismus verbunden – über 70.000 Nervenenden enden hier. Wenn du deine Füße gezielt rollst, regst du nicht nur die lokale Durchblutung an, sondern sendest wohltuende Impulse an den gesamten Körper und das vegetative Nervensystem. Perfekt gegen Energietiefs am Nachmittag oder als morgendliches Wachmacher-Ritual!</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/fussreflexzonen-aktivierung/igelball.jpg"
+             alt="Igelball zur Fußreflexzonen-Massage"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Welches Hilfsmittel passt zu dir?</h2>
+        <p class="vb-intro"><strong>Der klassische Igelball:</strong> Flexibel, leicht und mit intensiv spürbaren Noppen für einen starken Reizeffekt.</p>
+        <p class="vb-intro" style="margin-top:1.2rem;"><strong>Der Kork-Massageball (nachhaltiger Premium-Tipp):</strong> Kork ist ein wunderbares Naturmaterial. Es fühlt sich auf der Haut besonders warm und angenehm an, ist von Natur aus antibakteriell und bietet eine feste, aber leicht nachgiebige Struktur.</p>
+        <p class="vb-intro" style="margin-top:1.2rem;"><strong>Der Holz-Massageroller (edle Alternative):</strong> Ergonomische Roller oder Kugeln aus Massivholz mit abgerundeten Noppen erlauben es dir, viel Druck aufzubauen, ohne dass dir etwas wegrutscht. Sie sehen zudem sehr edel aus und halten ein Leben lang.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">So geht's</h2>
+        <p class="vb-intro"><strong>Vorbereitung:</strong> Setze dich bequem auf einen Stuhl (oder stelle dich hin, wenn du einen sicheren Halt hast). Lege dein gewähltes Massage-Tool vor dich auf den Boden.</p>
+        <p class="vb-intro"><strong>Die Ausführung:</strong> Setze den rechten Fuß mit leichtem Druck auf den Ball oder den Roller. Bewege ihn nun langsam und gleichmäßig von der Ferse bis zu den Zehenballen vor und zurück.</p>
+        <p class="vb-intro"><strong>Intensität anpassen:</strong> Bestimme den Druck selbst: Je fester du den Fuß aufdrückst, desto intensiver ist der Reizeffekt.</p>
+        <p class="vb-intro"><strong>Besonderer Fokus:</strong> Verweile einen Moment direkt unter dem Ballen – dieser Bereich korrespondiert in der Reflexzonenlehre mit der Brust- und Atemregion. Atme dabei tief in den Bauch.</p>
+        <p class="vb-intro"><strong>Dauer:</strong> Bearbeite jeden Fuß für etwa 1 bis 2 Minuten, bevor du die Seite wechselst.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Heilpraktiker-Tipp für den Alltag:</strong> Platziere dein Massage-Tool direkt morgens neben das Bett oder griffbereit unter den Schreibtisch. Schon das kurze Rollen während der ersten E-Mails oder beim Kaffeetrinken löst unbewusste Fußverspannungen und lässt dich spürbar geerdeter in den Tag starten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Empfehlungen zum Nachrüsten</h2>
+        ${affiliateBoxHtml("fussmassage", "Igelball", "Igelball bei Amazon ansehen")}
+        <div style="margin-top:.8rem;">${affiliateBoxHtml("fussmassage", "Kork-Massageball", "Kork-Massageball bei Amazon ansehen")}</div>
+        <div style="margin-top:.8rem;">${affiliateBoxHtml("fussmassage", "Holz-Massageroller", "Holz-Massageroller bei Amazon ansehen")}</div>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Faszienübungen für die Rumpfgesundheit"},
+        {route:"situationskompass", label:"Situationskompass"},
+        {route:"practice", label:"Werkzeuge"},
       ])}
     </section>
   `);
@@ -37382,6 +37448,14 @@ const AFFILIATE_LINKS = {
   deko: {
     "Leuchtglobus": "https://www.amazon.de/dp/B07PFCNVYR?tag=enneagrammkom-21",
     "Weltkarte": "https://www.amazon.de/dp/B00JR92Y8Q?tag=enneagrammkom-21",
+  },
+  fussmassage: {
+    "Igelball": "https://www.amazon.de/M-S-Lemberg%C2%AE-Igelball-Massage-Set-H%C3%A4rtegrade/dp/B0FQ2MG1LT?linkCode=ll2&tag=enneagrammkom-21&linkId=1cb86d75d335bb430d366467813f6d0e&ref_=as_li_ss_tl",
+    "Kork-Massageball": "https://www.amazon.de/Uttse-Kork-Yoga-Massageball-Umweltfreundliches/dp/B09JYGDGCL?linkCode=ll2&tag=enneagrammkom-21&linkId=135c76ddc6a0e523d9d4b5c2807eb0d2&ref_=as_li_ss_tl",
+    "Holz-Massageroller": "https://www.amazon.de/Fu%C3%9Fmassageger%C3%A4t-Holz-Noppen-Fussmassageger%C3%A4t-Fersensporn/dp/B083BRD3JF?linkCode=ll2&tag=enneagrammkom-21&linkId=e85f8cfa0629db187fcc4e80a4c14e63&ref_=as_li_ss_tl",
+  },
+  fitnessmatte: {
+    "Fitnessmatte": "https://www.amazon.de/gp/aw/d/B016GKP7W8?linkCode=ll2&tag=enneagrammkom-21&linkId=cb0bdebeea512156206cc17d31aba879&ref_=as_li_ss_tl",
   },
 };
 

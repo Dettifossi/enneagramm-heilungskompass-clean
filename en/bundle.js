@@ -4886,11 +4886,15 @@ function practicePage() {
 function praxistippsHeilpraktikerPage() {
   const TIPPS = [
     { slug:"faszienuebungen-rumpfgesundheit", titel:"Fascia Exercises for Core Health", teaser:"Four simple exercises to counteract the effects of prolonged sitting – Dead Bug, Bird-Dog, Cat-Cow, and Cobra.", img:"../assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg" },
+    { slug:"fussreflexzonen-aktivierung", titel:"Foot Reflex Zone Activation: The Energy Boost for In Between", teaser:"With a hedgehog ball, cork ball, or wooden roller, boost circulation and the autonomic nervous system in 1–2 minutes per foot.", img:"../assets/schaubilder/fussreflexzonen-aktivierung/igelball.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
   if (param === "faszienuebungen-rumpfgesundheit") {
     return faszienuebungenRumpfgesundheitPage();
+  }
+  if (param === "fussreflexzonen-aktivierung") {
+    return fussreflexzonenAktivierungPage();
   }
 
   return shell(`
@@ -4899,6 +4903,18 @@ function praxistippsHeilpraktikerPage() {
       <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
       <h1>Practical Tips from the Naturopath</h1>
       <p class="lead-small">Concrete impulses from Detlef Rathmer's naturopathic practice – body-oriented exercises as well as tea recommendations, small rituals, and everyday remedies. This section is continually expanded with new topics.</p>
+
+      <div style="margin:1.5rem 0 0;padding:1.1rem 1.3rem;background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:10px;">
+        <p style="font-size:.82rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;margin:0 0 .3rem;">Important Note &amp; Personal Remark</p>
+        <p style="font-size:.82rem;color:var(--muted);margin:0 0 .7rem;">from your naturopath (over 30 years of practical experience)</p>
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;">Dear users, the tips in this section grew out of my decades of practical experience. They are excellent for quick everyday self-help, for gently easing minor acute complaints, and for supporting the body holistically – especially when no therapist is immediately available. Please keep in mind, however:</p>
+        <ol style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;padding-left:1.2rem;">
+          <li><strong>Timely clarification:</strong> If symptoms persist, recur, or become more severe, the rule is: better a day too early than a day too late. Please see a doctor, psychotherapist, or naturopath promptly for persistent or unclear symptoms.</li>
+          <li><strong>Relief vs. cure:</strong> Everyday and self-help tips can be wonderfully supportive, but for deeper-seated or chronic conditions they do not replace treatment of the underlying cause.</li>
+          <li><strong>The royal discipline:</strong> From my many years of experience, classical homeopathic constitutional therapy remains the royal discipline of holistic medicine. As an information-based therapy, it works at the deepest levels of the organism and fundamentally stimulates the body's self-healing powers.</li>
+        </ol>
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">Feel free to use these practical tips as valuable companions in everyday life – and for chronic or complex issues, turn with confidence to a skilled therapist/homeopath for a well-founded homeopathic constitutional treatment.</p>
+      </div>
 
       <div class="tool-grid" style="margin-top:1.5rem;">
         ${TIPPS.map(t => `
@@ -4909,18 +4925,6 @@ function praxistippsHeilpraktikerPage() {
             <span class="tool-card__arrow">View →</span>
           </button>
         `).join("")}
-      </div>
-
-      <div style="margin:2rem 0 0;padding:1.1rem 1.3rem;background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:10px;">
-        <p style="font-size:.82rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;margin:0 0 .3rem;">Important Note &amp; Personal Remark</p>
-        <p style="font-size:.82rem;color:var(--muted);margin:0 0 .7rem;">from your naturopath (over 30 years of practical experience)</p>
-        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;">Dear users, the tips in this section grew out of my decades of practical experience. They are excellent for quick everyday self-help, for gently easing minor acute complaints, and for supporting the body holistically – especially when no therapist is immediately available. Please keep in mind, however:</p>
-        <ol style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0 0 .8rem;padding-left:1.2rem;">
-          <li><strong>Timely clarification:</strong> If symptoms persist, recur, or become more severe, the rule is: better a day too early than a day too late. Please see a doctor, psychotherapist, or naturopath promptly for persistent or unclear symptoms.</li>
-          <li><strong>Relief vs. cure:</strong> Everyday and self-help tips can be wonderfully supportive, but for deeper-seated or chronic conditions they do not replace treatment of the underlying cause.</li>
-          <li><strong>The royal discipline:</strong> From my many years of experience, classical homeopathic constitutional therapy remains the royal discipline of holistic medicine. As an information-based therapy, it works at the deepest levels of the organism and fundamentally stimulates the body's self-healing powers.</li>
-        </ol>
-        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">Feel free to use these practical tips as valuable companions in everyday life – and for chronic or complex issues, turn with confidence to a skilled therapist/homeopath for a well-founded homeopathic constitutional treatment.</p>
       </div>
     </section>
   `);
@@ -4969,11 +4973,73 @@ function faszienuebungenRumpfgesundheitPage() {
         <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Practical tip:</strong> Perform the four exercises as a short sequence – 8–10 repetitions per side, or holding for 3–5 breaths for Cat-Cow and Cobra. Even a daily repetition of 5–10 minutes, ideally as a conscious break between longer sitting periods, can noticeably contribute to core health. If you have existing back issues or uncertainties, an individual check-up beforehand is recommended.</p>
       </div>
 
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Recommended gear</h2>
+        <p class="vb-intro" style="margin-bottom:.8rem;">A non-slip, joint-friendly mat is worth its weight in gold for all four exercises – especially on tile or laminate flooring.</p>
+        ${affiliateBoxHtml("fitnessmatte", "Fitnessmatte", "View exercise mat on Amazon")}
+      </div>
+
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
         {route:"situationskompass", label:"Situation Compass"},
         {route:"practice", label:"Tools"},
         {route:"stille", label:"9 Minutes of Silence"},
+      ])}
+    </section>
+  `);
+}
+
+function fussreflexzonenAktivierungPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1>Foot Reflex Zone Activation: The Energy Boost for In Between</h1>
+      <p class="lead-small">You don't need hours of hiking to get your body moving. Sometimes two minutes a day and a small helper – a massage ball – are enough.</p>
+
+      <div class="vb-section" style="max-width:100%;">
+        <p class="vb-intro">Our soles connect us to the entire organism – over 70,000 nerve endings end here. When you roll your feet in a targeted way, you not only stimulate local circulation, but also send soothing impulses to the whole body and the autonomic nervous system. Perfect against afternoon energy slumps or as a morning wake-up ritual!</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="../assets/schaubilder/fussreflexzonen-aktivierung/igelball.jpg"
+             alt="Hedgehog ball for foot reflex zone massage"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Which tool suits you?</h2>
+        <p class="vb-intro"><strong>The classic hedgehog ball:</strong> Flexible, lightweight, with intensely noticeable spikes for a strong stimulus effect.</p>
+        <p class="vb-intro" style="margin-top:1.2rem;"><strong>The cork massage ball (sustainable premium option):</strong> Cork is a wonderful natural material. It feels especially warm and pleasant on the skin, is naturally antibacterial, and offers a firm yet slightly yielding structure.</p>
+        <p class="vb-intro" style="margin-top:1.2rem;"><strong>The wooden massage roller (elegant alternative):</strong> Ergonomic rollers or balls made of solid wood with rounded knobs let you apply plenty of pressure without anything slipping away. They also look very elegant and last a lifetime.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">How it's done</h2>
+        <p class="vb-intro"><strong>Preparation:</strong> Sit comfortably on a chair (or stand if you have secure footing). Place your chosen massage tool on the floor in front of you.</p>
+        <p class="vb-intro"><strong>Execution:</strong> Place your right foot on the ball or roller with light pressure. Roll it slowly and evenly from heel to toes and back.</p>
+        <p class="vb-intro"><strong>Adjust the intensity:</strong> You decide the pressure yourself: the harder you press your foot down, the more intense the stimulus.</p>
+        <p class="vb-intro"><strong>Special focus:</strong> Linger for a moment right under the ball of the foot – in reflexology, this area corresponds to the chest and breathing region. Breathe deeply into your belly while you do.</p>
+        <p class="vb-intro"><strong>Duration:</strong> Work each foot for about 1 to 2 minutes before switching sides.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Naturopath's everyday tip:</strong> Place your massage tool right by your bed in the morning, or keep it handy under your desk. Just rolling it briefly while checking your first emails or drinking coffee releases unconscious foot tension and leaves you noticeably more grounded as you start the day.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Recommended picks</h2>
+        ${affiliateBoxHtml("fussmassage", "Igelball", "View hedgehog ball on Amazon")}
+        <div style="margin-top:.8rem;">${affiliateBoxHtml("fussmassage", "Kork-Massageball", "View cork massage ball on Amazon")}</div>
+        <div style="margin-top:.8rem;">${affiliateBoxHtml("fussmassage", "Holz-Massageroller", "View wooden massage roller on Amazon")}</div>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Fascia Exercises for Core Health"},
+        {route:"situationskompass", label:"Situation Compass"},
+        {route:"practice", label:"Tools"},
       ])}
     </section>
   `);
@@ -10197,6 +10263,14 @@ const AFFILIATE_LINKS = {
   deko: {
     "Illuminated Globe": "https://www.amazon.com/dp/B00686HNO6?tag=enneagramcomp-20",
     "World Map": "https://www.amazon.com/dp/0792283279?tag=enneagramcomp-20",
+  },
+  fussmassage: {
+    "Igelball": "https://www.amazon.com/Navaris-Set-Spiky-Massage-Balls/dp/B07N2WGCT5?tag=enneagramcomp-20",
+    "Kork-Massageball": "https://www.amazon.com/Go4Cork-Circulation-Movement-Resistant-Sustainable/dp/B09JYGDGCL?tag=enneagramcomp-20",
+    "Holz-Massageroller": "https://www.amazon.com/TheraFlow-Massager-Relieve-Plantar-Fasciitis/dp/B00SMJIYNG?tag=enneagramcomp-20",
+  },
+  fitnessmatte: {
+    "Fitnessmatte": "https://www.amazon.com/HemingWeigh-Extra-Thick-Foam-Exercise/dp/B008I4XFWU?tag=enneagramcomp-20",
   },
 };
 
