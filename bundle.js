@@ -31386,6 +31386,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Julius Caesar \u2013 Sozialer Typ 2",
     teaser:"SO2w3 \u00b7 100\u201344 v. Chr. R\u00f6mischer Feldherr, Staatsmann, Diktator auf Lebenszeit. Freigebigkeit als Machtinstrument, Gnade gegen\u00fcber Feinden, Selbstinszenierung im Feldzugsbericht \u2013 der Golden Retriever, der ein Weltreich einte und von einem Begnadigten ermordet wurde. Tierentsprechung: Golden Retriever.",
     tags:["Geschichte","Politik"] , gender:"m"},
+  { route:"beruehmte-napoleon-bonaparte", name:"Napoleon Bonaparte", added:"2026-08-12", subtyp:"SO2w3",
+    heading:"Napoleon Bonaparte \u2013 Sozialer Typ 2",
+    teaser:"SO2w3 \u00b7 1769\u20131821. Franz\u00f6sischer Feldherr und Kaiser, Code Napol\u00e9on. Von Naranjo als soziale Zwei typisiert \u2013 Ehrgeiz und Stolz statt reiner Macht, der Golden Retriever, der ein Kontinent umarmen wollte und an St. Helena die Verbannung aus der Beziehung erlebte. Tierentsprechung: Golden Retriever.",
+    tags:["Geschichte","Politik"] , gender:"m"},
   { route:"beruehmte-will-smith", name:"Will Smith", added:"2026-07-20", subtyp:"SO2w3",
     heading:"Will Smith \u2013 Sozialer Typ 2",
     teaser:"SO2w3 \u00b7 geb. 1968. Schauspieler, Rapper, Oscar-Preistr\u00e4ger. Fresh Prince, Ali, Men in Black. Der Golden Retriever, der die Welt umarmen will \u2013 und manchmal bei\u00dft, weil er sch\u00fctzt. Ehrgeiz als Form der Liebe. Tierentsprechung: Golden Retriever.",
@@ -53804,6 +53808,71 @@ function juliusCaesarPortraitPage() {
         {route:"subtype/so2", label:"SO2 &ndash; Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-will-smith", label:"Portr\u00e4t: Will Smith (SO2w3)"},
         {route:"beruehmte-jesus-christus", label:"Portr\u00e4t: Jesus Christus (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function napoleonBonapartePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-napoleon-bonaparte-portrait.jpg" alt="Napoleon Bonaparte" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Napoleon Bonaparte</p>
+        <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel · Herztyp</p>
+        <p class="krim-portrait-subtitle">1769–1821 – Feldherr, Kaiser der Franzosen, Gesetzgeber – Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever, der ein Kontinent umarmen wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo, der Begründer der modernen Enneagramm-Subtypenlehre, ordnete Napoleon Bonaparte in seinen Seminaren und Schriften der <strong>sozialen Zwei</strong> zu – dem Golden Retriever, der Verbindung, Bedeutung und Bewunderung sucht. Das überrascht auf den ersten Blick: Die populäre Enneagramm-Schule würde in Napoleon intuitiv eher den Typ 8 (den Herausforderer) oder Typ 3 (den Leistungsträger) vermuten. Naranjo aber blickte tiefer, auf die Leidenschaft und Fixierung hinter dem Handeln – und die soziale Zwei ist in ihrem Kern keineswegs nur die zurückhaltende Helferin im Hintergrund. Sie strebt nach Einfluss, Bedeutung und Bewunderung auf der ganz großen Bühne, getrieben von <strong>Stolz</strong> und dem unbewussten Wunsch, unentbehrlich und mächtig zu sein.</p>
+          <p class="vb-intro">Geboren 1769 auf Korsika, in eine verarmte, aber stolze Adelsfamilie, machte Napoleon seinen gesellschaftlichen Aufstieg nicht durch Rückzug und Berechnung, sondern durch schiere persönliche Wirkung: Er kannte die Namen seiner Soldaten, sprach sie direkt an, ließ sich mitten unter ihnen sehen, teilte ihre Strapazen. Wo ein reiner Machttyp Distanz und Furcht kultiviert hätte, investierte Napoleon in Beziehung – und genau diese Fähigkeit, ganze Armeen an sich zu binden, war der eigentliche Grund seines beispiellosen Aufstiegs vom korsischen Provinzoffizier zum Kaiser der Franzosen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SO2: Ehrgeiz als Form der Liebe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte die soziale Zwei <strong>Ehrgeiz</strong> – und bei Napoleon verschmilzt dieser Ehrgeiz untrennbar mit dem Verlangen nach Bewunderung und Zugehörigkeit. Er wollte nicht nur Frankreich dienen: Er wollte der Unentbehrliche sein, ohne den nichts mehr ginge, der Vater der Nation, der Retter der Revolution vor sich selbst. Sein enormer Perfektionismus in der Selbstinszenierung – vom Krönungsgemälde bis zu den sorgfältig verfassten Bulletins von der Front – war weit mehr als reine Propaganda. Es war der SO2-Reflex in Reinform: Wer bewundert wird, gehört dazu. Wer unentbehrlich ist, wird nicht verlassen.</p>
+          <p class="vb-intro">Diese Logik durchzieht sein gesamtes Wirken als Herrscher: die Reform des Bildungswesens, der Aufbau eines leistungsbezogenen Beamtentums, die Gründung der Ehrenlegion als Auszeichnung für Verdienst statt Geburtsadel. Jede dieser Maßnahmen war zugleich Regierungskunst und ein Angebot an das Volk: <em>Ich sorge für euch. Ich sehe eure Leistung. Ihr gehört zu mir.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Inszenierung im Dienst der Verbindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> macht aus dem verbindungssuchenden Wohltäter einen Meister der Selbstdarstellung. Napoleons unbändiger Geltungsdrang, seine Krönung zum Kaiser in Anwesenheit des Papstes, seine bewusste Stilisierung zum Erben der römischen Cäsaren, sein Fokus auf Erfolg, Status und äußeren Glanz sowie seine enorme organisatorische Effizienz – all das trägt die Handschrift des Dreierflügels. Sein berühmtestes zivilisatorisches Erbe, der <em>Code Napoléon</em>, war zugleich juristisches Meisterwerk und Denkmal seiner selbst: ein Gesetzeswerk, das seinen Namen trägt und bis heute in Teilen Europas fortwirkt.</p>
+          <p class="vb-intro">Gleichzeitig trägt dieser Flügel dieselbe Gefahr wie bei jedem SO2w3er: die Verwechslung von öffentlichem Bild und innerem Kern. Je mehr Ehren Napoleon annahm – die Kaiserkrone, die Umgestaltung ganz Europas nach seinem Bild, die Heirat mit einer habsburgischen Erzherzogin zur dynastischen Legitimation – desto mehr verschmolz die Rolle des unentbehrlichen Wohltäters mit der eines Herrschers, der keine Gleichen mehr neben sich duldete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Waterloo und St. Helena: Als der Golden Retriever verlassen wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Jahre 1812 bis 1815 sind ein typologisches Dokument von erschütternder Klarheit. Der Russlandfeldzug, die Völkerschlacht bei Leipzig, schließlich Waterloo – jede dieser Niederlagen ging mit dem schrittweisen Rückzug von Verbündeten und Marschällen einher, die Napoleon zuvor persönlich erhoben und mit Titeln, Ländereien und Vertrauen ausgestattet hatte. Für die soziale Zwei ist genau das der tiefste denkbare Bruch: Menschen, die man förderte, um Verbindung zu sichern, wenden sich ab, wenn das Blatt sich wendet.</p>
+          <p class="vb-intro">Schon der Weg dorthin zeigt den typischen Stresspunkt der Zwei: Unter Druck geht der Typ 2 in seinen <strong>Achter-Stresspunkt</strong> – und genau dieses Muster durchzieht Napoleons letzte Regierungsjahre. Aus dem charismatischen Feldherrn, der Verbindung durch persönliche Nähe sicherte, wurde zunehmend ein Mann, der immer rücksichtsloser um Kontrolle kämpfte, Ratschläge zurückwies und Frankreichs Jugend in einem Feldzug nach dem anderen verheizte. Die endgültige Verbannung nach St. Helena, fernab jeder Bühne, jedes Publikums, jeder Möglichkeit, wieder zu wirken und geliebt zu werden, traf die soziale Zwei an ihrer verwundbarsten Stelle: der Isolation ohne jede Verbindung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Ein Magnet für Loyalität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Napoleons Wirkung auf seine Zeitgenossen war von seltener Anziehungskraft: Soldaten folgten ihm über Jahre durch Kälte, Hunger und Gefahr, weil er selbst mit ihnen marschierte, ihre Entbehrungen teilte, ihre Loyalität mit spürbarer, persönlicher Zuwendung erwiderte. Als er 1815 aus der Verbannung auf Elba zurückkehrte, genügte sein bloßes Erscheinen, um ganze Regimenter, die zu seiner Verhaftung ausgesandt worden waren, kampflos auf seine Seite zu ziehen – ein historisch fast beispielloser Beweis persönlicher Bindungskraft.</p>
+          <p class="vb-intro">Und doch: Hinter diesem Magnetismus lag der lange Schatten der Zwei, die Leidenschaft <strong>Stolz</strong> – der Glaube, gebraucht und bewundert werden zu müssen, um wertvoll zu sein, und die Schwierigkeit, jemals genug zu haben. Napoleon hatte Ruhm, Macht, die Bewunderung eines Kontinents – und dennoch drängte ihn dieselbe innere Logik immer weiter: zu einem weiteren Feldzug, einer weiteren Krone, einer weiteren Geste der Größe. Die Frage, ob er ohne all das noch geliebt worden wäre, blieb wohl auch für ihn selbst unbeantwortbar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Institutionen, die überdauerten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Napoleon der Welt hinterließ, lässt sich nicht auf Feldzüge reduzieren. Der Code Napoléon prägt bis heute das Zivilrecht weiter Teile Europas und Lateinamerikas. Er reformierte Bildungssystem, Verwaltung und Steuerwesen Frankreichs so grundlegend, dass viele dieser Strukturen bis in die Gegenwart fortbestehen. Die Ehrenlegion, die Verdienst statt Geburt auszeichnete, war eine zutiefst SO2-typische Geste: Zugehörigkeit über Leistung statt über Herkunft definieren, Menschen einschließen, die zuvor nie dazugehört hätten.</p>
+          <p class="vb-intro">Das ist die SO2w3 auf ihrer weitreichendsten Stufe: ein Mensch, dessen persönliches Bedürfnis nach Bedeutung und Zugehörigkeit sich in Institutionen verwandelte, die Jahrhunderte überdauerten. Der Golden Retriever mit dem Dreierflügel kann ein Kontinent neu ordnen – wenn er lernt, dass wahre Zugehörigkeit nicht erobert und nicht durch immer neue Beweise gesichert werden muss, sondern einfach ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3)"},
+        {route:"beruehmte-will-smith", label:"Porträt: Will Smith (SO2w3)"},
       ])}
     </div>
   `);
@@ -82769,6 +82838,7 @@ function render() {
       "beruehmte-barack-obama": barackObamaPortraitPage,
       "beruehmte-marisa-abela": marisaAbelaPortraitPage,
       "beruehmte-julius-caesar": juliusCaesarPortraitPage,
+      "beruehmte-napoleon-bonaparte": napoleonBonapartePortraitPage,
       "beruehmte-will-smith": willSmithPortraitPage,
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,

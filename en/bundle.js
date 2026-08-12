@@ -938,6 +938,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Julius Caesar – Social Type 2",
     teaser:"SO2w3 · 100–44 BC. Roman general, statesman, dictator for life. Generosity as an instrument of power, clemency toward enemies, self-staging in his own campaign account – the Golden Retriever who united an empire and was murdered by a man he had pardoned. Animal correspondence: Golden Retriever.",
     tags:["History","Politics"] , gender:"m"},
+  { route:"beruehmte-napoleon-bonaparte", name:"Napoleon Bonaparte", added:"2026-08-12", subtyp:"SO2w3",
+    heading:"Napoleon Bonaparte – Social Type 2",
+    teaser:"SO2w3 · 1769–1821. French general and emperor, Code Napoléon. Typed by Naranjo as a social Two – ambition and pride rather than pure power, the Golden Retriever who wanted to embrace a continent and experienced exile from connection itself at St. Helena. Animal correspondence: Golden Retriever.",
+    tags:["History","Politics"] , gender:"m"},
   { route:"beruehmte-will-smith", name:"Will Smith", added:"2026-07-20", subtyp:"SO2w3",
     heading:"Will Smith – Social Type 2",
     teaser:"SO2w3 · born 1968. Actor, rapper, Oscar winner. Fresh Prince, Ali, Men in Black. The golden retriever who wants to hug the world - and sometimes bites because he protects. Ambition as a form of love. Animal correspondence: Golden Retriever.",
@@ -21937,6 +21941,71 @@ function warrenBuffettPortraitPage() {
         {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
         {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SE5w6)"},
         {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function napoleonBonapartePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-napoleon-bonaparte-portrait.jpg" alt="Napoleon Bonaparte" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Napoleon Bonaparte</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with a Three-Wing &middot; Heart Type</p>
+        <p class="krim-portrait-subtitle">1769&ndash;1821 &ndash; General, Emperor of the French, lawgiver &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever Who Wanted to Embrace a Continent</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo, the founder of the modern Enneagram subtype teaching, classified Napoleon Bonaparte in his seminars and writings as belonging to the <strong>social Two</strong> &ndash; the Golden Retriever, who seeks connection, significance, and admiration. At first glance this is surprising: the popular Enneagram school would intuitively place Napoleon at Type 8 (the Challenger) or Type 3 (the Achiever). But Naranjo looked deeper, at the passion and fixation behind the action &ndash; and the social Two is, at its core, by no means only the reserved helper in the background. She strives for influence, significance, and admiration on the grandest possible stage, driven by <strong>pride</strong> and the unconscious wish to be indispensable and powerful.</p>
+          <p class="vb-intro">Born in 1769 on Corsica, into an impoverished but proud noble family, Napoleon's social rise did not come through withdrawal and calculation, but through sheer personal impact: he knew his soldiers' names, addressed them directly, let himself be seen in their midst, shared their hardships. Where a purely power-driven type would have cultivated distance and fear, Napoleon invested in relationship &ndash; and it was precisely this ability to bind entire armies to himself that was the real reason for his unparalleled rise from provincial Corsican officer to Emperor of the French.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SO2: Ambition as a Form of Love</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the social Two <strong>ambition</strong> &ndash; and in Napoleon this ambition fuses inseparably with the longing for admiration and belonging. He wanted not merely to serve France: he wanted to be the indispensable one, without whom nothing could proceed, the father of the nation, the savior of the revolution from itself. His enormous perfectionism in self-presentation &ndash; from the coronation painting to the carefully composed bulletins from the front &ndash; was far more than mere propaganda. It was the SO2 reflex in pure form: whoever is admired belongs. Whoever is indispensable will not be abandoned.</p>
+          <p class="vb-intro">This same logic runs through his entire work as ruler: the reform of the education system, theestablishment of a merit-based civil service, the founding of the Legion of Honor as recognition for merit rather than noble birth. Each of these measures was simultaneously statecraft and an offer to the people: <em>I take care of you. I see your achievement. You belong to me.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Staging in the Service of Connection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-Wing (w3)</strong> turns the connection-seeking benefactor into a master of self-presentation. Napoleon's boundless desire for recognition, his coronation as emperor in the presence of the Pope, his deliberate self-styling as heir to the Roman Caesars, his focus on success, status, and outward splendor, and his enormous organizational efficiency &ndash; all of this bears the signature of the Three-Wing. His most famous civilizational legacy, the <em>Code Napoléon</em>, was at once a legal masterpiece and a monument to himself: a body of law that bears his name and still resonates in parts of Europe today.</p>
+          <p class="vb-intro">At the same time, this wing carries the same danger as in every SO2w3: the confusion of public image with inner core. The more honors Napoleon accepted &ndash; the imperial crown, the reshaping of all Europe in his image, the marriage to a Habsburg archduchess for dynastic legitimacy &ndash; the more the role of the indispensable benefactor merged with that of a ruler who tolerated no equals beside him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Waterloo and St. Helena: When the Golden Retriever Was Abandoned</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The years 1812 to 1815 form a typological document of shattering clarity. The Russian campaign, the Battle of Leipzig, and finally Waterloo &ndash; each of these defeats came with the gradual withdrawal of allies and marshals whom Napoleon had personally elevated and endowed with titles, lands, and trust. For the social Two, this is precisely the deepest conceivable break: the people one raised up to secure connection turn away when the tide turns.</p>
+          <p class="vb-intro">Even the path there shows the Two's typical stress point: under pressure, Type 2 moves into its <strong>stress point at Eight</strong> &ndash; and precisely this pattern runs through Napoleon's final years of rule. The charismatic general who secured connection through personal closeness increasingly became a man who fought ever more ruthlessly for control, rejected advice, and burned through France's youth in one campaign after another. The final exile to St. Helena &ndash; far from any stage, any audience, any possibility of acting and being loved again &ndash; struck the social Two at its most vulnerable point: isolation without any connection at all.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetic Effect: A Magnet for Loyalty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Napoleon's effect on his contemporaries carried a rare magnetism: soldiers followed him for years through cold, hunger, and danger, because he marched with them himself, shared their deprivations, and returned their loyalty with palpable, personal attention. When he returned from exile on Elba in 1815, his mere appearance was enough to turn entire regiments &ndash; sent to arrest him &ndash; to his side without a shot fired: an almost unparalleled historical proof of personal binding power.</p>
+          <p class="vb-intro">And yet: behind this magnetism lay the long shadow of the Two, the passion of <strong>pride</strong> &ndash; the belief that one must be needed and admired to be of value, and the difficulty of ever having enough. Napoleon had fame, power, the admiration of a continent &ndash; and still that same inner logic drove him further: to one more campaign, one more crown, one more gesture of grandeur. Whether he would have been loved without all of it likely remained unanswerable even to himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Institutions That Endured</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Napoleon left the world cannot be reduced to military campaigns. The Code Napoléon still shapes civil law across large parts of Europe and Latin America today. He reformed France's education system, administration, and tax system so fundamentally that many of these structures persist into the present. The Legion of Honor, which recognized merit rather than birth, was a deeply SO2-typical gesture: defining belonging through achievement rather than origin, including people who would never have belonged before.</p>
+          <p class="vb-intro">This is the SO2w3 at its most far-reaching: a person whose personal need for significance and belonging transformed into institutions that outlasted centuries. The Golden Retriever with the Three-Wing can reorder a continent &ndash; if he learns that true belonging need not be conquered, nor secured through ever-new proof, but simply is.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 \u2013 The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3)"},
+        {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
       ])}
     </div>
   `);
@@ -48672,6 +48741,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-larry-king": larryKingPortraitPage,
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
       "beruehmte-julius-caesar": juliusCaesarPortraitPage,
+      "beruehmte-napoleon-bonaparte": napoleonBonapartePortraitPage,
       "beruehmte-will-smith": willSmithPortraitPage,
       "beruehmte-wolodymyr-selenskyj": wolodymyrSelenskyjPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
