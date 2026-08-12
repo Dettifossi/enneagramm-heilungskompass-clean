@@ -5145,6 +5145,7 @@ function energiefeldHaendePage() {
         <p class="vb-intro" style="margin-top:1rem;"><strong>Traditional laying-on of hands:</strong> A thousands-of-years-old practice in which deliberately placing the hands on specific areas of the body conveys relaxation, calm, and a sense of security.</p>
         <p class="vb-intro" style="margin-top:1.2rem;"><strong>Qi Gong &amp; Prana healing:</strong> Here one learns to direct and harmonize the subtle energy flow (Qi or Prana) within the body and to release blockages in a targeted way.</p>
         <p class="vb-intro" style="margin-top:1.2rem;"><strong>Quantum healing &amp; the two-point method:</strong> In these modern, consciousness-based approaches, conscious perception is combined with a gentle intention to dissolve old patterns in the physical or emotional system and set transformation in motion.</p>
+        <p class="vb-intro" style="margin-top:1.2rem;">The two-point method is explained in detail for each of the 27 subtypes in the <button class="inline-link" data-route="knowledge" style="background:none;border:none;padding:0;color:var(--copper);text-decoration:underline;cursor:pointer;font-family:inherit;font-size:inherit;">Knowledge Base</button> ("page 2"), with hand positions and core practice tailored to each subtype's specific theme.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
@@ -5159,6 +5160,7 @@ function energiefeldHaendePage() {
 
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"knowledge", label:"Knowledge Base: Two-Point Method per Subtype"},
         {route:"praxistipps-heilpraktiker/schwung-routine", label:"3-Part Swing Routine"},
         {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Fascia Exercises for Core Health"},
         {route:"situationskompass", label:"Situation Compass"},

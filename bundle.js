@@ -35277,6 +35277,7 @@ function energiefeldHaendePage() {
         <p class="vb-intro" style="margin-top:1rem;"><strong>Das traditionelle Handauflegen:</strong> Eine jahrtausendealte Praxis, bei der durch gezieltes Auflegen der Hände auf bestimmte Körperregionen Entspannung, Ruhe und ein Gefühl von Geborgenheit vermittelt werden.</p>
         <p class="vb-intro" style="margin-top:1.2rem;"><strong>Qi Gong &amp; Prana-Heilung:</strong> Hier wird gelernt, den feinstofflichen Energiefluss (das Qi oder Prana) im eigenen Körper zu lenken, zu harmonisieren und gezielt Blockaden zu lösen.</p>
         <p class="vb-intro" style="margin-top:1.2rem;"><strong>Quantenheilung &amp; die Zwei-Punkt-Methode:</strong> Bei diesen modernen, bewusstseinsbasierten Ansätzen wird die bewusste Wahrnehmung mit einer sanften Intention verbunden, um alte Muster im physischen oder emotionalen System aufzulösen und Transformation in Gang zu setzen.</p>
+        <p class="vb-intro" style="margin-top:1.2rem;">Die Zwei-Punkt-Methode wird in der <button class="inline-link" data-route="knowledge" style="background:none;border:none;padding:0;color:var(--copper);text-decoration:underline;cursor:pointer;font-family:inherit;font-size:inherit;">Wissensbasis</button> für jeden der 27 Subtypen einzeln auf „Seite 2" mit passenden Handpositionen und Kernpraxis erklärt – individuell zugeschnitten auf die jeweilige Subtyp-Thematik.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
@@ -35291,6 +35292,7 @@ function energiefeldHaendePage() {
 
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"knowledge", label:"Wissensbasis: Zwei-Punkt-Methode je Subtyp"},
         {route:"praxistipps-heilpraktiker/schwung-routine", label:"3-teilige Schwung-Routine"},
         {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Faszienübungen für die Rumpfgesundheit"},
         {route:"situationskompass", label:"Situationskompass"},
