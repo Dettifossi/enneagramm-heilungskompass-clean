@@ -35432,7 +35432,7 @@ function herzTorOeffnenPage() {
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Die Ausführung</h2>
         <p class="vb-intro"><strong>1. Die Ausgangsposition:</strong> Aufrecht und entspannt hinstellen. Die Hände flach übereinander auf das Brustbein (Herz-Zentrum) legen.</p>
         <p class="vb-intro"><strong>2. Das Öffnen (Einatmen):</strong> Tief durch die Nase einatmen. Dabei die Arme und Hände langsam in einem weiten, einladenden Bogen nach außen und leicht nach oben führen. Der Brustkorb öffnet sich maximal, der Blick geht sanft nach oben.</p>
-        <p class="vb-intro"><strong>3. Die Zentrierung (Ausatmen):</strong> Ruhig ausatmen. Die Hände langsam wieder vor dem Körper zusammenführen und flach zurück auf das Brustbein legen. Nachspüren, wie sich die gesammelte Energie in der Mitte sammelt.</p>
+        <p class="vb-intro"><strong>3. Die Zentrierung (Ausatmen):</strong> Ruhig durch den leicht geöffneten Mund ausatmen. Die Hände langsam wieder vor dem Körper zusammenführen und flach zurück auf das Brustbein legen. Nachspüren, wie sich die gesammelte Energie in der Mitte sammelt.</p>
         <p class="vb-intro"><strong>4. Wiederholung:</strong> Diesen fließenden Zyklus drei- bis fünfmal im eigenen Atemrhythmus wiederholen.</p>
       </div>
 

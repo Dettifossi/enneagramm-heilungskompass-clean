@@ -5300,7 +5300,7 @@ function herzTorOeffnenPage() {
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Exercise</h2>
         <p class="vb-intro"><strong>1. Starting position:</strong> Stand upright and relaxed. Place the hands flat, one over the other, on the breastbone (heart center).</p>
         <p class="vb-intro"><strong>2. Opening (inhale):</strong> Breathe in deeply through the nose. Slowly guide the arms and hands outward and slightly upward in a wide, inviting arc. The chest opens fully, and the gaze lifts gently upward.</p>
-        <p class="vb-intro"><strong>3. Centering (exhale):</strong> Breathe out calmly. Slowly bring the hands back together in front of the body and place them flat on the breastbone again. Notice how the gathered energy settles at the center.</p>
+        <p class="vb-intro"><strong>3. Centering (exhale):</strong> Breathe out calmly through the slightly open mouth. Slowly bring the hands back together in front of the body and place them flat on the breastbone again. Notice how the gathered energy settles at the center.</p>
         <p class="vb-intro"><strong>4. Repetition:</strong> Repeat this flowing cycle three to five times, in your own breathing rhythm.</p>
       </div>
 
