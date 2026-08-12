@@ -5398,7 +5398,7 @@ function vitruvEnneagrammPage() {
         <p class="vb-intro"><strong>Practice tip:</strong> Consciously take up physical space. Feel the stability between left and right, above and below.</p>
 
         <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">3. Phase Two: Vertical Stretch to the Sky (The Connection Above and Below)</h2>
-        <p class="vb-intro"><strong>Movement:</strong> Breathe in, release the horizontal posture, and stretch both arms all the way up toward the sky, either rising onto the toes or pressing the heels firmly into the ground.</p>
+        <p class="vb-intro"><strong>Movement:</strong> Breathe in, release the horizontal posture, and stretch both arms all the way up toward the sky, rising onto the toes so the heels lift off the ground.</p>
         <p class="vb-intro"><strong>Geometry:</strong> The body forms a vertical axis connecting the sky (the highest point of the hands) with the earth (the soles of the feet).</p>
         <p class="vb-intro"><strong>Practice tip:</strong> This vertical alignment represents the sacred 3-6-9 axis of the Enneagram. Become as long as possible, to transcend the limits of everyday consciousness.</p>
 

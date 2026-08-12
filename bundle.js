@@ -35530,7 +35530,7 @@ function vitruvEnneagrammPage() {
         <p class="vb-intro"><strong>Praxis-Tipp:</strong> Den physischen Raum bewusst einnehmen. Die Stabilität zwischen Links und Rechts, Oben und Unten spüren.</p>
 
         <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">3. Phase Zwei: Die vertikale Himmelsstreckung (Die Verbindung Oben und Unten)</h2>
-        <p class="vb-intro"><strong>Bewegung:</strong> Einatmen, die waagerechte Haltung lösen und beide Arme ganz nach oben in den Himmel strecken, dabei auf die Zehenspitzen heben oder die Fersen fest in den Boden drücken.</p>
+        <p class="vb-intro"><strong>Bewegung:</strong> Einatmen, die waagerechte Haltung lösen und beide Arme ganz nach oben in den Himmel strecken, dabei auf die Zehenspitzen steigen, sodass sich die Fersen vom Boden lösen und anheben.</p>
         <p class="vb-intro"><strong>Geometrie:</strong> Der Körper bildet eine senkrechte Achse, die den Himmel (oberster Punkt der Hände) mit der Erde (Fußsohlen) verbindet.</p>
         <p class="vb-intro"><strong>Praxis-Tipp:</strong> Diese vertikale Ausrichtung repräsentiert die heilige 3-6-9-Achse des Enneagramms. So lang wie möglich werden, um die Begrenzung des Alltagsbewusstseins zu transzendieren.</p>
 
