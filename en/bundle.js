@@ -5259,7 +5259,7 @@ function unsichtbarerMagnetPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Exercise</h2>
-        <p class="vb-intro">Stand upright and close the eyes. The knees stay soft and relaxed, not locked – this allows the weight to truly sink downward. The image: like two magnets at the soles of the feet, gently but irresistibly drawn toward the center of the earth. With every exhale, the weight sinks a little deeper into the ground, while the spine grows upward.</p>
+        <p class="vb-intro">Stand upright and close the eyes. The knees stay soft and relaxed, not locked – this allows the weight to truly sink downward. Breathe in calmly through the nose and out through the slightly open mouth. The image: like two magnets at the soles of the feet, gently but irresistibly drawn toward the center of the earth. With every exhale, the weight sinks a little deeper into the ground, while the spine grows upward.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">

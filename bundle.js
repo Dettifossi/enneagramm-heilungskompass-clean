@@ -35391,7 +35391,7 @@ function unsichtbarerMagnetPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Die Ausführung</h2>
-        <p class="vb-intro">Aufrecht hinstellen und die Augen schließen. Die Knie bleiben dabei weich und entspannt, nicht durchgedrückt – das erlaubt dem Gewicht, wirklich nach unten zu sinken. Die Vorstellung: wie zwei Magnete an den Fußsohlen, die sanft, aber unwiderstehlich vom Erdmittelpunkt angezogen werden. Mit jedem Ausatmen sinkt das Gewicht ein Stück tiefer in den Boden, während die Wirbelsäule nach oben wächst.</p>
+        <p class="vb-intro">Aufrecht hinstellen und die Augen schließen. Die Knie bleiben dabei weich und entspannt, nicht durchgedrückt – das erlaubt dem Gewicht, wirklich nach unten zu sinken. Ruhig durch die Nase einatmen und durch den leicht geöffneten Mund ausatmen. Die Vorstellung: wie zwei Magnete an den Fußsohlen, die sanft, aber unwiderstehlich vom Erdmittelpunkt angezogen werden. Mit jedem Ausatmen sinkt das Gewicht ein Stück tiefer in den Boden, während die Wirbelsäule nach oben wächst.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
