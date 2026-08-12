@@ -5154,8 +5154,10 @@ function energiefeldHaendePage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Recommended gear</h2>
-        <p class="vb-intro" style="margin-bottom:.8rem;">For grounding before the exercise, the floor works well – anyone who prefers to sit will find a non-slip, joint-friendly mat helpful for comfortable seating.</p>
-        ${affiliateBoxHtml("fitnessmatte", "Fitnessmatte", "View exercise mat on Amazon")}
+        <p class="vb-intro" style="margin-bottom:.8rem;">For grounding before the exercise, the floor works well – anyone who prefers to sit will find a proper seating aid helpful for grounding and an upright, relaxed back.</p>
+        ${affiliateBoxHtml("sitzhilfe", "Meditation Mat", "View meditation mat on Amazon")}
+        <div style="margin-top:.8rem;">${affiliateBoxHtml("sitzhilfe", "Meditation Cushion", "View meditation cushion on Amazon")}</div>
+        <div style="margin-top:.8rem;">${affiliateBoxHtml("sitzhilfe", "Meditation Bench", "View meditation bench on Amazon")}</div>
       </div>
 
       ${relatedLinks([

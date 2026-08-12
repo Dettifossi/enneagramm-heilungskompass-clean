@@ -35286,8 +35286,10 @@ function energiefeldHaendePage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Empfehlung zum Nachrüsten</h2>
-        <p class="vb-intro" style="margin-bottom:.8rem;">Für die Erdung vor der Übung eignet sich der Boden – wer lieber sitzt, dem hilft eine rutschfeste, gelenkschonende Unterlage beim bequemen Sitzen.</p>
-        ${affiliateBoxHtml("fitnessmatte", "Fitnessmatte", "Fitnessmatte bei Amazon ansehen")}
+        <p class="vb-intro" style="margin-bottom:.8rem;">Für die Erdung vor der Übung eignet sich der Boden – wer lieber im Sitzen übt, dem hilft eine passende Sitzunterlage für Erdung und einen aufrechten, entspannten Rücken.</p>
+        ${affiliateBoxHtml("sitzhilfe", "Meditationsmatte", "Meditationsmatte bei Amazon ansehen")}
+        <div style="margin-top:.8rem;">${affiliateBoxHtml("sitzhilfe", "Meditationskissen", "Meditationskissen bei Amazon ansehen")}</div>
+        <div style="margin-top:.8rem;">${affiliateBoxHtml("sitzhilfe", "Meditationsbank", "Meditationsbank bei Amazon ansehen")}</div>
       </div>
 
       ${relatedLinks([
