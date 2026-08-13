@@ -32027,6 +32027,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kevin Costner \u2013 Sozialer Typ 9",
     teaser:"SO9w1 \u00b7 geb. 1955. Schauspieler und Regisseur. Dances with Wolves, Field of Dreams, Yellowstone. Der B\u00fcffel, der nicht f\u00fcr sich k\u00e4mpft \u2013 sondern f\u00fcr etwas, das gr\u00f6\u00dfer ist als er selbst.",
     tags:["Film","Schauspiel"], gender:"m"},
+  { route:"beruehmte-columbo", name:"Columbo", added:"2026-08-13", subtyp:"SO9w1",
+    heading:"Columbo – Sozialer Typ 9",
+    teaser:"SO9w1 · Fiktiver LAPD-Ermittler, gespielt von Peter Falk (1927–2011), TV-Serie 1968–2003. Zerknitterter Trenchcoat, nie eine Waffe, vier Emmys. Der Büffel mit Einserflügel: gleiche Aufmerksamkeit für jeden Menschen im Raum, unerbittliche stille Gerechtigkeit. Tierentsprechung: Büffel.",
+    tags:["Film","Fernsehen"], gender:"m"},
   { route:"beruehmte-steffi-graf", name:"Steffi Graf", subtyp:"SO9w1",
     heading:"Steffi Graf \u2013 Sozialer Typ 9",
     teaser:"SO9w1 \u00b7 geb. 1969. Tennisspielerin, 22 Grand-Slam-Titel, Golden Slam 1988. Der B\u00fcffel, der einfach l\u00e4uft \u2013 beharrlich, bodennah, mit einer Stille im Inneren, die st\u00e4rker ist als jeder Siegesjubel. Tierentsprechung: B\u00fcffel.",
@@ -47971,6 +47975,71 @@ function kevinCostnerPortraitPage() {
   `);
 }
 
+
+function columboPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-columbo-portrait.jpg" alt="Büffel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Columbo</p>
+        <p class="krim-portrait-typ">SO9w1 · Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Fiktiver LAPD-Ermittler, gespielt von Peter Falk (1927–2011) in der Serie »Columbo« (1968–2003) – Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier des sozialen Typs 9 – ein Tier, das nie durch Angriffslust auffällt, sondern durch sein bloßes, unaufgeregtes Dasein Wirkung entfaltet. Er bewegt sich langsam, wirkt schwerfällig, fast harmlos – und ist doch das Tier, dem auf der Prärie am wenigsten jemand freiwillig im Weg steht. Kein Fernsehermittler verkörpert dieses Bild treffender als Columbo: der zerknitterte Trenchcoat, die halb gerauchte Zigarre, der alte Peugeot, der ständig kaputtzugehen scheint.</p>
+          <p class="vb-intro">Von 1968 bis 2003 spielte Peter Falk diesen Mann in insgesamt 69 Folgen – einen Detective, der nie brüllt, nie droht, nie mit gezogener Waffe auftritt. Sein einziges Werkzeug ist Geduld. Der Büffel wirkt, als könnte man ihn beiseiteschieben. Man irrt sich jedes Mal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Gleich unter Ungleichen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> nannte Naranjo <em>Teilnahme</em>: die Fähigkeit, sich in jede Gruppe, jedes Milieu, jede soziale Schicht einzufügen und darin Frieden zu finden, ohne die eigene Identität zu verlieren. Columbos Fälle führen ihn durch Villen, Studios, Anwaltskanzleien, Weingüter und Wissenschaftslabore – und in jedem einzelnen dieser Räume behandelt er jeden Menschen mit derselben Aufmerksamkeit: den Butler, den Chauffeur, die Haushälterin genauso wie den millionenschweren Verdächtigen selbst.</p>
+          <p class="vb-intro">Das ist keine Masche, sondern der Kern der SO9: Er fragt den Weinkellner nach dem Jahrgang, den Regisseur nach der Kameraführung, die Sekretärin nach ihrem Arbeitsalltag – mit echtem Interesse, nicht als Verhörtaktik. Genau diese Fähigkeit, sich in jede Gesellschaftsschicht einzupassen, ohne sich selbst zu verbiegen oder anzubiedern, ist die eigentliche Superkraft der Figur: Er wird nirgends als Bedrohung wahrgenommen, weil er wirklich überall ein Stück dazugehört.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Der stille Richter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Neun etwas, das die reine Neun oft vermissen lässt: einen unerschütterlichen inneren Kompass für Richtig und Falsch. Columbos Fälle richten sich fast ausnahmslos gegen wohlhabende, mächtige, gesellschaftlich unantastbar wirkende Täter – Ärzte, Regisseure, Wissenschaftler, Winzer –, die überzeugt sind, ihr Status stelle sie über das Gesetz.</p>
+          <p class="vb-intro">Columbo lässt sich davon nie beeindrucken. Er zeigt keinen Zorn, keine Herablassung – aber auch keinen Millimeter Nachgiebigkeit. „Nur noch eine Kleinigkeit …" ist der höflichste Satz der Fernsehgeschichte und zugleich einer der unerbittlichsten: Die Eins in ihm lässt so lange nicht locker, bis die Wahrheit ausgesprochen ist. Gerechtigkeit ist für ihn kein Akt der Rache, sondern eine stille, fast unpersönliche Notwendigkeit, ganz gleich, wie sympathisch oder brillant der Täter ihm gegenübersitzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Methode: Harmlosigkeit als Werkzeug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Format der Serie war für seine Zeit revolutionär: Der Zuschauer sieht den Mord bereits in den ersten Minuten – die eigentliche Spannung liegt nicht im „Wer war es", sondern im „Wie wird er überführt". Diese Konstruktion funktioniert nur, weil Columbos Methode selbst zum Schauspiel wird: Er tritt scheinbar zerstreut, vergesslich, fast tollpatschig auf, lässt Verdächtige sich in Sicherheit wiegen – und genau in diesem falschen Gefühl von Überlegenheit verstricken sie sich in die kleinen Widersprüche, die er längst bemerkt hat.</p>
+          <p class="vb-intro">Die soziale Neun mit Einserflügel konfrontiert nicht direkt – sie lässt die Wahrheit sich selbst enthüllen, während sie geduldig im Raum bleibt. Kein einziges Mal in der gesamten Serie zieht Columbo eine Waffe. Seine Überlegenheit ist rein psychologisch, rein geduldig – und gerade deshalb so schwer zu durchschauen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Peter Falk hinter Columbo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Peter Falk verlor im Alter von drei Jahren durch einen Tumor sein rechtes Auge und trug zeitlebens ein Glasauge – ein Umstand, mit dem er offen und humorvoll umging und den er in Rollen gelegentlich sogar bewusst einsetzte. Vor seiner Schauspielkarriere hatte er einen Masterabschluss in Public Administration erworben und als Effizienzprüfer für die Haushaltsbehörde des US-Bundesstaats Connecticut gearbeitet – ein Werdegang, der die methodische, detailversessene Gründlichkeit seiner späteren Paraderolle fast prophetisch vorwegnimmt.</p>
+          <p class="vb-intro">Abseits von Columbo pflegte Falk eine enge Freundschaft mit dem Independent-Regisseur John Cassavetes und wirkte in dessen kompromisslosen, unkommerziellen Filmen wie „A Woman Under the Influence" mit – derselbe Mann, der als Columbo Millionenpublikum unterhielt, suchte abseits davon bewusst das kleine, ehrliche, unglamouröse Projekt. Für seine Rolle erhielt er vier Emmys – doch die eigentliche Anerkennung bestand darin, dass Generationen von Zuschauern eine Figur liebten, deren Stärke gerade darin lag, nie stark wirken zu wollen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Büffel, der niemanden übersah</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Columbo bleibt bis heute eine der einflussreichsten Ermittlerfiguren der Fernsehgeschichte – nicht wegen spektakulärer Action, sondern wegen einer radikal anderen Vorstellung von Stärke: Aufmerksamkeit statt Aggression, Geduld statt Druck, Respekt für jeden Menschen im Raum statt Hierarchiedenken. Genau darin liegt das bleibende Bild der sozialen Neun mit Einserflügel: Sie muss niemanden kleinmachen, um am Ende recht zu behalten.</p>
+          <p class="vb-intro">Der Büffel, der sich in jede Herde einfügt und dabei nie vergisst, wofür er steht – das ist Columbo. Und es ist, den biografischen Spuren nach zu urteilen, vermutlich nicht ganz zufällig auch ein Stück von Peter Falk selbst.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"beruehmte-kevin-costner", label:"Porträt: Kevin Costner (SO9w1)"},
+        {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1)"},
+      ])}
+    </div>
+  `);
+}
 
 function igaSwiatekPortraitPage() {
   return shell(`
@@ -83930,6 +83999,7 @@ function render() {
       "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
+      "beruehmte-columbo": columboPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
