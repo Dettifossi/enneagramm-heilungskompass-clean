@@ -22167,7 +22167,7 @@ function alexanderDerGrossePortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever Who Wanted to Embrace the World</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; warm, generous, irresistibly driven to be needed and loved. Few historical figures display this pattern as unbrokenly as Alexander the Great. Contemporary sources consistently describe a man who knew his soldiers by name, personally visited their wounds, and in eleven years of unbroken campaigning was never far from the front line &ndash; a general who sought closeness where others would have used distance to secure their power.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; warm, generous, irresistibly driven to be needed and loved. Few historical figures display this pattern as unbrokenly as Alexander the Great. Contemporary sources consistently describe a man who knew his soldiers by name, personally visited the wounded, and in eleven years of unbroken campaigning was never far from the front line &ndash; a general who sought closeness where others would have used distance to secure their power.</p>
           <p class="vb-intro">Born in 356 BC as the son of King Philip II of Macedon, Alexander was personally tutored by Aristotle &ndash; an education that gave him intellectual depth alongside soldierly toughness. As a boy he tamed the supposedly unbreakable horse Bucephalus simply by turning it away from its own shadow and then approaching it calmly and openly &ndash; an early miniature of his entire leadership style: connection over coercion.</p>
         </blockquote>
 
