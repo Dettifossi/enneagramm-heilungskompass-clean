@@ -31193,6 +31193,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-pamela-smart",        name:"Pamela Smart",                        subtyp:"SX2w3",  heading:"Pamela Smart \u2013 Sexueller Typ 2",                                        teaser:"SX2w3 \u2013 Die Verf\u00fchrerin von Derry, geb. 1967. Manipulierte einen 15-j\u00e4hrigen Sch\u00fcler zur Ermordung ihres Mannes (1990). Als einzige der Beteiligten sitzt sie noch immer in Haft. Die sexuelle Zwei mit Dreierfl\u00fcgel: Liebe als Hebel, Stolz als blinder Fleck. Tierentsprechung: Kamel." , tags:["Nahbereich"], gender:"f"},
   { route:"kriminalpsychologie-michael-franzese",     name:"Michael Franzese",                    subtyp:"SE3w2",  heading:"Michael Franzese \u2013 Selbsterhaltender Typ 3",                          teaser:"SE3w2 \u2013 j\xfcngster Mafia-Capo seit Al Capone. Benzinsteuerbetrug, Milliarden-Einnahmen \u2013 und der einzige Mob-Boss, der die Mafia lebend und ohne Kronzeugenregelung verlie\xdf." , tags:["Mafia"], gender:"m"},
   { route:"kriminalpsychologie-pablo-escobar",       name:"Pablo Escobar",                       subtyp:"SE3w4",  heading:"Pablo Escobar \u2013 Selbsterhaltender Typ 3",                              teaser:"SE3w4 \u2013 Drogenbaron, 1949\u20131993. 80\xa0% des Weltmarkts, 30\xa0Mrd. Dollar Verm\xf6gen, Volksheld und Terrorist zugleich \u2013 die selbsterhaltende Drei in ihrer dunkelsten Auspr\xe4gung." , tags:["Mafia","Terror"], gender:"m"},
+  { route:"kriminalpsychologie-tom-keating",         name:"Tom Keating",                         subtyp:"SE3w4",  heading:"Tom Keating \u2013 Selbsterhaltender Typ 3",                                teaser:"SE3w4 \u2013 Einer der gr\u00f6\u00dften Kunstf\u00e4lscher des 20. Jahrhunderts, 1917\u20131984. \u00dcber 2.000 F\u00e4lschungen in den Stilen von rund 100 Meistern, gespickt mit absichtlichen \u201eZeitbomben\u201c f\u00fcr sp\u00e4tere Entlarvung \u2013 Rache am Kunstmarkt statt Bereicherung. Tierentsprechung: Waschb\u00e4r." , tags:["Betrug"], gender:"m"},
   { route:"kriminalpsychologie-samuel-bankman-fried", name:"Samuel Bankman-Fried",              subtyp:"SE3w4",  heading:"Samuel Bankman-Fried \u2013 Selbsterhaltender Typ 3",                       teaser:"SE3w4 \u2013 Gr\u00fcnder von FTX und Alameda Research, geb. 1992. Einer der gr\u00f6\u00dften Betrugsf\u00e4lle der Kryptowelt: Kundengelder in Milliardenh\u00f6he umgeleitet, 25 Jahre Haft 2023. Die selbsterhaltende Drei mit Viererfl\u00fcgel: Bescheidenheitsfassade, Effektivit\u00e4tswahn und innere Unsicherheit als Motor des Zusammenbruchs. Tierentsprechung: Waschb\u00e4r." , tags:["Betrug"], gender:"m"},
   { route:"kriminalpsychologie-ruja-ignatova",       name:"Ruja Ignatova",                       subtyp:"SE3w4",  heading:"Ruja Ignatova \u2013 Selbsterhaltender Typ 3",                              teaser:"\u201eCryptoqueen\u201c, geb. 1980. \xdcber 4\xa0Mrd. Euro Schaden, seit 2017 spurlos verschwunden \u2013 die selbsterhaltende Drei mit Viererfl\xfcgel: perfekte Inszenierung, globaler Betrug, radikales Verschwinden." , tags:["Betrug"], gender:"f"},
   { route:"kriminalpsychologie-belle-gunness",         name:"Belle Gunness",                       subtyp:"SE3w4",  heading:"Belle Gunness \u2013 Selbsterhaltender Typ 3",                               teaser:"SE3w4 \u2013 Die Schwarze Witwe von La Porte, 1859\u20131908(?). Mindestens 25\u201340 Opfer, darunter zwei Ehem\xe4nner und zahlreiche M\xe4nner, die sie per Heiratsanzeige anlockte. Der Waschb\xe4r: stille T\xe4uschung, Ressourcenkontrolle, kein Geltungsdrang \u2013 nur die n\xe4chste Mahlzeit. Tierentsprechung: Waschb\xe4r." , tags:["Serienmord","Betrug"], gender:"f"},
@@ -57386,7 +57387,208 @@ function pabloEscobarPortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy"},
+        {route:"kriminalpsychologie-tom-keating", label:"Kriminalpsychologie: Tom Keating (SE3w4) – Vergleichsportrait"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+        {route:"psychogramme", label:"Psychogramme"},
+      ])}
+    </div>
+  `);
+}
+
+function tomKeatingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Tom Keating – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/tom-keating-portrait.jpg" alt="Tom Keating – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tom Keating</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Tom Keating</strong> (1917–1984) war einer der produktivsten Kunstfälscher des 20. Jahrhunderts.
+        Über zwei Jahrzehnte hinweg schuf er mehr als 2.000 Gemälde und Zeichnungen im Stil von rund 100
+        verschiedenen Meistern – von Samuel Palmer über Rembrandt bis Degas. Was ihn von einem gewöhnlichen
+        Betrüger unterscheidet: Er baute absichtlich Fehler ein, „Zeitbomben", die seine Fälschungen für
+        kundige Augen enttarnen sollten, und verstand sein Tun als Protest gegen einen Kunstmarkt, der
+        Künstler zu Lebzeiten verarmen ließ und erst nach ihrem Tod an ihnen verdiente. Das Enneagramm macht
+        diesen Widerspruch aus Handwerksliebe und Rachefeldzug lesbar.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Tom Keating</strong> wird dem <strong>Selbsterhaltenden Typ 3 mit Viererflügel</strong> im Enneagramm zugeordnet.
+        Die Leidenschaft der Drei ist <em>Täuschung</em> (Deceit) – bei der selbsterhaltenden Drei nicht auf
+        Image und öffentliche Bewunderung gerichtet wie bei der Sozialen Drei, sondern auf handwerkliche
+        <strong>Meisterschaft und Sicherheit im Verborgenen</strong>. Der Viererflügel verleiht Keatings Fälschungen
+        eine emotionale, fast schwermütige Tiefe, die reine Kopiertechnik übersteigt – er fühlte sich in die
+        Maler, die er kopierte, tatsächlich hinein, statt sie nur zu imitieren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Verschmitzt und beobachtend:</strong>
+        Fotografien und Filmaufnahmen zeigen Keating mit einem wachen, oft amüsierten Blick – die Augen
+        eines Mannes, der genau registriert, wem er gegenübersitzt, und der eigenen Rolle als Handwerker
+        und Trickster gleichermaßen verpflichtet ist.</p>
+        <p class="vb-intro"><strong>b) Prüfend auf Technik gerichtet:</strong>
+        Sein Blick war der eines Restaurators – geschult darauf, Pinselführung, Alterung und Materialfehler
+        in Sekunden zu erfassen. Diese analytische Schärfe richtete er ebenso auf die eigenen Fälschungen wie
+        auf die Originale, die er studierte.</p>
+        <p class="vb-intro"><strong>c) Selbstironisch und wenig eitel:</strong>
+        Anders als viele selbsterhaltende Dreier zeigte Keating in Interviews kaum Geltungsdrang – sein Blick
+        wirkte eher wie der eines Handwerkers, der über eine gelungene Arbeit spricht, nicht wie der eines
+        Betrügers, der seinen Coup feiert.</p>
+        <p class="vb-intro"><strong>d) Warm in der Fernsehpräsenz:</strong>
+        In seiner späten TV-Karriere zeigte sich ein zugewandter, lehrender Blick – die selbsterhaltende Drei,
+        die Sicherheit nun nicht mehr durch Täuschung, sondern durch geteiltes Wissen suchte.</p>
+        <p class="vb-intro"><strong>e) Unerschütterlich unter Druck:</strong>
+        Auch als sein Betrug 1976 öffentlich aufflog, wirkte er in Interviews gefasst, fast erleichtert –
+        typisch für die selbsterhaltende Drei, die eine lange gehaltene Fassade lieber komplett fallen lässt,
+        als sie halbherzig zu verteidigen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Außergewöhnliche handwerkliche Meisterschaft:</strong>
+        Als Sohn eines Malers und selbst Restaurator alter Gemälde beherrschte Keating Techniken, Pigmente
+        und Alterungsprozesse vergangener Jahrhunderte wie kaum ein Zweiter seiner Zeit.</p>
+        <p class="vb-intro"><strong>b) Getarnte Rebellion:</strong>
+        Sein Betrug richtete sich nicht gegen einzelne Menschen, sondern gegen ein System – den Kunstmarkt,
+        der aus seiner Sicht die Künstler ausbeutete. Die selbsterhaltende Drei kanalisiert ihren Zorn oft
+        nicht offen, sondern über verdeckte, lang geplante Aktionen.</p>
+        <p class="vb-intro"><strong>c) Extreme Produktivität:</strong>
+        Über 2.000 Werke in rund 100 Stilen – ein Ausmaß an Output, das die selbsterhaltende Drei kennzeichnet:
+        Sicherheit entsteht nicht durch ein einzelnes Meisterwerk, sondern durch schiere Menge und stetige Arbeit.</p>
+        <p class="vb-intro"><strong>d) Eingebaute Selbstsabotage:</strong>
+        Keating mischte seinen Fälschungen bewusst Glyzerin bei, das Craquelure vorzeitig entstehen ließ, und
+        schrieb mit Bleiweiß unsichtbare Botschaften unter die Farbschicht, sichtbar erst im Röntgenbild – ein
+        Doppelspiel aus Täuschung und Selbstenttarnung, das die innere Zerrissenheit der Drei zwischen Fassade
+        und Wahrheit offenlegt.</p>
+        <p class="vb-intro"><strong>e) Bescheidener Lebensstil trotz Talent:</strong>
+        Anders als Escobar oder Madoff strebte Keating kaum nach persönlichem Reichtum – sein Motiv war nicht
+        Akkumulation, sondern Genugtuung und das Gefühl, gebraucht und anerkannt zu werden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Identifikation mit dem Vorbild:</strong>
+        Keating verehrte den romantischen Landschaftsmaler Samuel Palmer geradezu, dessen Armut zu Lebzeiten
+        ihn tief empörte. Seine Fälschungen von Palmers Werken waren zugleich Hommage und Racheakt.</p>
+        <p class="vb-intro"><strong>b) Bedürfnis nach Kontrolle über Deutung:</strong>
+        Er wollte nicht nur täuschen, sondern irgendwann auch entlarvt werden – zu seinen eigenen Bedingungen.
+        Die eingebauten „Zeitbomben" sichern der selbsterhaltenden Drei die Kontrolle über die eigene Geschichte.</p>
+        <p class="vb-intro"><strong>c) Moralische Selbstrechtfertigung:</strong>
+        Keating sah sich nicht als Krimineller, sondern als Gerechtigkeitskämpfer gegen ausbeuterische
+        Kunsthändler. Diese Umdeutung von Täuschung in moralisches Handeln ist ein Kernmuster der Drei.</p>
+        <p class="vb-intro"><strong>d) Anpassungsfähigkeit über Genres hinweg:</strong>
+        Er fälschte nicht nur einen Stil, sondern wechselte mühelos zwischen Aquarell, Ölmalerei und Grafik,
+        zwischen englischer Romantik und französischem Impressionismus – ein Waschbär, der sich in jedem
+        Milieu zurechtfindet.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Volksnah statt einschüchternd:</strong>
+        Anders als viele Täter dieser Rubrik wirkte Keating nicht bedrohlich, sondern sympathisch – ein
+        Umstand, der seine spätere Verwandlung in einen geliebten Fernsehstar erst möglich machte.</p>
+        <p class="vb-intro"><strong>b) Erschütterung eines ganzen Marktes:</strong>
+        Seine Enttarnung 1976 löste eine Vertrauenskrise im britischen Kunsthandel aus – bis heute gelten
+        zahlreiche Werke in Museen und Privatsammlungen als „vielleicht ein Keating".</p>
+        <p class="vb-intro"><strong>c) Gerichtsverfahren ohne Urteil:</strong>
+        1979 wurde Anklage wegen Betrugs erhoben, doch das Verfahren wurde aus gesundheitlichen Gründen
+        eingestellt, bevor ein Urteil fiel – die selbsterhaltende Drei, die selbst im Zusammenbruch noch
+        die Kontrolle über den Ausgang behält.</p>
+        <p class="vb-intro"><strong>d) Zweite Karriere als geachteter Lehrer:</strong>
+        Mit der Fernsehserie „Tom Keating on Painters" (1982) wandelte er sich vom Betrüger zum gefeierten
+        Vermittler alter Maltechniken – ein seltener Fall, in dem die Täuschung der Drei am Ende in
+        öffentlich anerkannte Meisterschaft überging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Ruhelose Schaffensenergie:</strong>
+        Keatings Produktivität wirkte fast besessen – Zeugen berichteten von Nächten, in denen er in
+        wenigen Stunden ein vollständiges Gemälde im Stil eines alten Meisters fertigstellte.</p>
+        <p class="vb-intro"><strong>b) Unterschwellige Wut, künstlerisch sublimiert:</strong>
+        Statt offener Konfrontation kanalisierte er seinen Zorn über den Kunstmarkt in jahrzehntelange,
+        stille Sabotage – die blockierte Herzenergie der Drei, die sich nicht in direkten Beziehungen, sondern
+        in einem Werk gegen ein System entlädt.</p>
+        <p class="vb-intro"><strong>c) Entspannung nach der Enttarnung:</strong>
+        Wer ihn nach 1976 erlebte, beschreibt einen sichtbar erleichterten Mann – als sei mit dem Ende der
+        Fassade auch eine jahrzehntelange innere Anspannung gewichen.</p>
+        <p class="vb-intro"><strong>d) Warme Energie in der Vermittlerrolle:</strong>
+        In seinen TV-Auftritten wirkte er zugänglich und großzügig mit seinem Wissen – eine Energie, die im
+        Gegensatz zur kalten Berechnung anderer selbsterhaltender Dreier dieser Rubrik steht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Der Waschbär</h3>
+        <p class="vb-intro"><strong>a) Geschickte Hände, präzises Werk:</strong>
+        Der Waschbär ist für seine feinmotorische Geschicklichkeit bekannt – Keatings malerische Virtuosität
+        über hundert verschiedene Techniken hinweg spiegelt genau diese Fingerfertigkeit.</p>
+        <p class="vb-intro"><strong>b) Nachtaktiv und im Verborgenen:</strong>
+        Wie der Waschbär operierte Keating über Jahrzehnte im Schatten des offiziellen Kunstbetriebs, unsichtbar,
+        bis seine Fälschungen längst in Galerien und Sammlungen zirkulierten.</p>
+        <p class="vb-intro"><strong>c) Anpassungsfähig an jedes Milieu:</strong>
+        Ob viktorianische Aquarellmalerei oder französischer Impressionismus – der Waschbär in Keating fand
+        sich in jedem stilistischen „Terrain" zurecht und passte sein Vorgehen der jeweiligen Umgebung an.</p>
+        <p class="vb-intro"><strong>d) Maskierter Trickster:</strong>
+        Die charakteristische „Maske" des Waschbären passt bildhaft zu einem Mann, dessen ganzes Wirken auf
+        dem Prinzip beruhte, hinter fremden Gesichtern – den Stilen anderer Maler – zu verschwinden.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Tom Keating</strong> verkörperte den Selbsterhaltenden Typ 3 in einer seiner ungewöhnlichsten
+        Spielarten: Täuschung nicht zur Bereicherung, sondern als moralischer Feldzug gegen ein System, das er
+        für ausbeuterisch hielt. Handwerkliche Meisterschaft, eingebaute Selbstenttarnung und ein Viererflügel,
+        der echte emotionale Verbindung zu den kopierten Meistern suchte – all das macht ihn zum Waschbären
+        unter den Kunstfälschern: unauffällig, anpassungsfähig, und am Ende doch enttarnt, weil er es selbst
+        so wollte. Er starb 1984, kurz nach seinem Erfolg als Fernsehlehrer, ohne je verurteilt worden zu sein.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
+        <p class="vb-intro"><strong>a) Die „Sexton Blakes":</strong>
+        Keating nannte seine Fälschungen in Cockney-Reimslang „Sexton Blakes" (reimt auf „fakes"). Dieser
+        selbstironische Spitzname zeigt, wie wenig er sein Tun als schweres Verbrechen empfand – für ihn war
+        es Handwerk mit einer Botschaft.</p>
+        <p class="vb-intro"><strong>b) Die eingebauten „Zeitbomben":</strong>
+        Bewusst platzierte er anachronistische Materialien und versteckte Hinweise in seinen Werken – etwa
+        moderne Pigmente, die bei einer Röntgenanalyse sofort auffallen mussten. Er wollte nicht ewig
+        unentdeckt bleiben, sondern der Nachwelt beweisen, wie leicht sich Experten täuschen lassen.</p>
+        <p class="vb-intro"><strong>c) Der Fall „Sepham Barn":</strong>
+        1976 identifizierte die Kunstkritikerin Geraldine Norman von der „Times" ein angebliches
+        Samuel-Palmer-Aquarell namens „Sepham Barn" als Fälschung. Die folgende Recherche brachte Keatings
+        gesamtes Lebenswerk ans Licht – ein Moment, den er später fast wie eine Befreiung beschrieb.</p>
+        <p class="vb-intro"><strong>d) Motiv Rache statt Gier:</strong>
+        In Interviews betonte Keating immer wieder, sein Ziel sei nie persönliche Bereicherung gewesen,
+        sondern ein Protest gegen Kunsthändler, die seiner Ansicht nach Künstler wie Samuel Palmer zu
+        Lebzeiten verarmen ließen, um nach deren Tod an ihrem Werk zu verdienen.</p>
+        <p class="vb-intro"><strong>e) Die zweite Karriere:</strong>
+        Statt im Gefängnis zu enden, wurde Keating durch die Fernsehserie „Tom Keating on Painters" zum
+        Publikumsliebling, der Millionen Zuschauern die Techniken von Rembrandt, Constable und Degas
+        näherbrachte – eine seltene Wendung vom Täuscher zum öffentlich geachteten Meister.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der Selbsterhaltende Typ 3 in seiner ganzen Tiefe – Meisterschaft, Täuschung und der Weg vom Funktionieren zum echten Sein.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile – wie sich die selbsterhaltende Drei von der Sozialen und Sexuellen Drei unterscheidet, pointiert und präzise.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Der Selbsterhaltende Typ 3 ausführlich porträtiert – Leidenschaft, blockierte Herzenergie und Heilungsweg.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Tom Keating hat über zwei Jahrzehnte den Kunstmarkt getäuscht und Sammler wie Museen geschädigt. Er starb 1984, ohne rechtskräftig verurteilt worden zu sein. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar (SE3w4) – Vergleichsportrait"},
+        {route:"blickqualitaet", label:"Blickqualität der 9 Typen"},
         {route:"psychogramme", label:"Psychogramme"},
       ])}
     </div>
@@ -83086,6 +83288,7 @@ function render() {
       "kriminalpsychologie-gary-ridgway": garyRidgwayPortraitPage,
       "kriminalpsychologie-ted-bundy": tedBundyPortraitPage,
       "kriminalpsychologie-pablo-escobar": pabloEscobarPortraitPage,
+      "kriminalpsychologie-tom-keating": tomKeatingPortraitPage,
       "kriminalpsychologie-harvey-weinstein": harveyWeinsteinPortraitPage,
       "kriminalpsychologie-luka-magnotta": lukaMagnottaPortraitPage,
       "kriminalpsychologie-andrew-cunanan": andrewCunananPortraitPage,
