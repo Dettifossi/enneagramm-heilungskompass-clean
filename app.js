@@ -31363,6 +31363,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Uli Hoene\u00df \u2013 Selbsterhaltender Typ 2",
     teaser:"SE2w3 \u00b7 geb. 1952. Fu\u00dfballweltmeister 1974, Manager und Pr\u00e4sident des FC Bayern M\u00fcnchen. Vier Jahrzehnte Aufbauarbeit, Steueraff\u00e4re und R\u00fcckkehr. Das Flusspferd verteidigt sein Revier \u2013 und kommt nach dem Sturz st\u00e4rker zur\u00fcck als zuvor. Tierentsprechung: Flusspferd.",
     tags:["Sport","Wirtschaft"] , gender:"m"},
+  { route:"beruehmte-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", added:"2026-08-13", subtyp:"SE2w3",
+    heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · 1756–1791. Österreichischer Komponist. Wunderkind auf Europatournee, Bruch mit dem Salzburger Fürsterzbischof, über 600 Werke in 35 Lebensjahren. Das Flusspferd mit Dreierflügel: Fürsorge, derber Humor und unermüdlicher Ehrgeiz auf der Bühne. Tierentsprechung: Flusspferd.",
+    tags:["Musik","Geschichte"], gender:"m"},
   { route:"beruehmte-jan-ullrich", name:"Jan Ullrich", subtyp:"SE2w3",
     heading:"Jan Ullrich \u2013 Selbsterhaltender Typ 2",
     teaser:"SE2w3 \u00b7 geb. 1973. Radrennfahrer, Tour-de-France-Sieger 1997, Olympiasieger 2000. F\u00fcnfmal Zweiter hinter Armstrong \u2013 nie aufgegeben. Das Flusspferd braucht sein Wasser. Tierentsprechung: Flusspferd.",
@@ -49491,6 +49495,7 @@ function franzSchubertPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – von Schubert zeitlebens verehrt"},
         {route:"beruehmte-robert-schumann", label:"Porträt: Robert Schumann (SX7w8) – entdeckte Schuberts C-Dur-Symphonie 1839"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3) – von Schubert zeitlebens verehrt"},
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-fjodor-dostojewski", label:"Porträt: Fjodor Dostojewski (SE6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
@@ -52250,6 +52255,73 @@ function uliHoenessPortraitPage() {
   `);
 }
 
+function wolfgangAmadeusMozartPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-wolfgang-amadeus-mozart-portrait.jpg" alt="Wolfgang Amadeus Mozart" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Amadeus Mozart</p>
+        <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Österreichischer Komponist, 1756–1791 – Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei – ein Wesen, das nach außen verspielt und gutmütig wirkt, sich aber mit ungeahnter Wucht behauptet, sobald sein Revier oder seine Nächsten bedroht sind. Wolfgang Amadeus Mozart passte selten in das Bild des überirdisch schwebenden Genies, das die Nachwelt aus ihm gemacht hat – er war ein Mensch von enormer Direktheit, körperlicher Lebensfreude und einem sehr konkreten Gespür dafür, was er zum Überleben brauchte.</p>
+          <p class="vb-intro">Geboren 1756 in Salzburg, wurde er von seinem Vater Leopold, selbst Komponist und ehrgeiziger Manager seines Sohnes, ab dem sechsten Lebensjahr durch die Höfe Europas gereicht – Paris, London, Den Haag, Italien. Ein Kind, das lernen musste, sich selbst und seine Familie durch die eigene Begabung abzusichern, bevor es überhaupt eine Kindheit außerhalb der Bühne kannte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge als Überlebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: die Zwei, die ihre eigenen Bedürfnisse kennt und benennt, die sich um das Überleben der eigenen Person und derer sorgt, die ihr am nächsten stehen – konkret, direkt, ohne große Umwege. Mozarts Briefe sind voll davon: Er kümmerte sich intensiv um seine Frau Constanze, um Freunde in Not, um Schüler, denen er unentgeltlich Unterricht gab, obwohl er selbst oft in finanzieller Bedrängnis steckte.</p>
+          <p class="vb-intro">Gleichzeitig war Mozart einer der ungeniertesten Briefeschreiber der Musikgeschichte: Die sogenannten "Bäsle-Briefe" an seine Cousine Maria Anna Thekla strotzen vor derbem, fäkalem Humor – eine Direktheit, die nichts mit höfischer Etikette zu tun hatte, sondern mit dem unmittelbaren, körperlichen Lebensgefühl der SE2. Fürsorge und Ausgelassenheit lagen bei ihm nah beieinander, beides Ausdruck derselben erdverbundenen Präsenz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Der Beweis auf der Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Hunger nach sichtbarem, messbarem Erfolg – die Bühne, den Applaus, den Beweis der eigenen Unentbehrlichkeit. Mozart brach 1781 öffentlichkeitswirksam mit dem Salzburger Fürsterzbischof, um sich in Wien als freischaffender Künstler zu behaupten – ein Wagnis, das nur jemand einging, der seinem eigenen Marktwert vertraute.</p>
+          <p class="vb-intro">In Wien organisierte er eigene Subskriptionskonzerte, komponierte am laufenden Band Klavierkonzerte für den eigenen Auftritt als Solist, und suchte Zeit seines Lebens nach einer möglichst prestigeträchtigen Hofanstellung. Der Dreierflügel der SE2 fragt nicht nur "Wie sichere ich das Überleben?", sondern auch "Wie beweise ich, dass ich der Beste bin?" – und Mozart bewies es, Werk für Werk, oft in schwindelerregendem Tempo. Die Ouvertüre zu "Don Giovanni" soll er in der Nacht vor der Uraufführung geschrieben haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Stolz zwischen Genie und Existenzangst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Zwei heißt <strong>Stolz</strong> – bei der SE2w3 gerichtet auf das eigene Können und dessen sichtbaren Ertrag. Mozart wusste um seinen Wert und äußerte ihn selbstbewusst, manchmal zum Verdruss seiner Zeitgenossen. Doch dieser Stolz stand in ständiger Spannung zu einer sehr realen finanziellen Unsicherheit: Trotz beachtlicher Einnahmen lebte er oft über seine Verhältnisse, verschickte in seinen letzten Lebensjahren wiederholt Bittbriefe um Kredite an seinen Logenbruder Michael Puchberg.</p>
+          <p class="vb-intro">Das ist die Kehrseite der SE2w3: Wenn der eigene Wert am sichtbaren Erfolg hängt, wird jede Durststrecke zur existenziellen Bedrohung. Mozart kompensierte das nicht mit Rückzug, sondern mit noch mehr Arbeit, noch mehr Kompositionen, noch mehr Auftritten – das Flusspferd, das sein Revier notfalls durch schiere Ausdauer verteidigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Bach, Beethoven und Schubert: Begegnungen über die Zeit hinweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anfang der 1780er Jahre entdeckte Mozart in der Wiener Bibliothek des Barons Gottfried van Swieten die Fugenkunst Johann Sebastian Bachs (SX1w9) – eine Begegnung, die sein Spätwerk grundlegend veränderte. Er arrangierte Bach-Fugen für Streichtrio, und die kontrapunktische Strenge, die er dabei studierte, mündete in Werke wie das Finale der "Jupitersinfonie" oder die c-Moll-Messe. Die Inbrunst der sexuellen Eins traf hier auf die Bühnenpräsenz der selbsterhaltenden Zwei – und beide fanden in der reinen Form der Fuge einen gemeinsamen Nenner.</p>
+          <p class="vb-intro">Der Überlieferung nach soll der junge Ludwig van Beethoven (SX6w5) 1787 in Wien vor Mozart vorgespielt haben; ob Mozarts oft zitierter Ausspruch, dieser Junge werde "der Welt noch zu reden geben", historisch verbürgt ist, bleibt umstritten – die Begegnung selbst gilt als plausibel. Beethovens 3. Klavierkonzert in c-Moll folgt jedenfalls unverkennbar dem Vorbild von Mozarts Klavierkonzert Nr. 24 in derselben Tonart, ein stiller Dialog zwischen Wolf und Flusspferd über die Zeit der Wiener Klassik hinweg. Franz Schubert (SE6w5), 1797 geboren, konnte Mozart nie persönlich begegnen – er kam sechs Jahre nach dessen Tod zur Welt. Doch seine Tagebücher zeugen von einer fast religiösen Verehrung für Mozarts Musik, die er als tröstenden Lichtblick in dunklen Zeiten beschrieb. Das Kaninchen fand im verstorbenen Flusspferd einen Trost, den die eigene Gegenwart ihm oft verweigerte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Das Requiem und die Fülle eines kurzen Lebens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mozart starb 1791 mit nur 35 Jahren, wahrscheinlich an den Folgen einer rheumatischen Fiebererkrankung, und wurde in einem Wiener Schachtgrab beigesetzt – damals übliche Praxis, keine Folge von Armut, wie der Mythos später behauptete. Sein letztes Werk, das Requiem, blieb unvollendet und wurde nach seinem Tod von seinem Schüler Franz Xaver Süßmayr abgeschlossen – in Auftrag gegeben von einem anonymen Grafen, der es unter eigenem Namen aufführen wollte. Selbst im Tod blieb Mozarts Werk Gegenstand fremder Inszenierung.</p>
+          <p class="vb-intro">In nur 35 Lebensjahren hinterließ er über 600 Werke – eine Fülle, die die Ausdauer und den Ehrgeiz der SE2w3 in ihrer reinsten, unermüdlichsten Form zeigt. Das Flusspferd mit Dreierflügel: fürsorglich bis zur eigenen Erschöpfung, stolz auf das Geschaffene, und unaufhörlich getrieben von der Frage, ob das nächste Werk den eigenen Wert erneut beweisen würde. Die Antwort der Nachwelt kam, wie so oft bei diesem Subtyp, erst nach seinem Tod – dafür umso lauter.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"beruehmte-johann-sebastian-bach", label:"Porträt: Johann Sebastian Bach (SX1w9) – dessen Fugenkunst er studierte"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – der ihm möglicherweise vorspielte"},
+        {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5) – der ihn zeitlebens verehrte"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function oprahWinfreyPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -53645,6 +53717,7 @@ function johannSebastianBachPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8) – von Bachs Formstrenge geprägt"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5)"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3) – studierte seine Fugenkunst"},
         {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-udo-lindenberg", label:"Porträt: Udo Lindenberg (SX1w9)"},
       ])}
@@ -54298,6 +54371,8 @@ function ludwigVanBeethovenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5) – der ihn zeitlebens verehrte"},
         {route:"beruehmte-robert-schumann", label:"Porträt: Robert Schumann (SX7w8)"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3) – dem er möglicherweise vorspielte"},
+        {route:"beruehmte-johann-sebastian-bach", label:"Porträt: Johann Sebastian Bach (SX1w9)"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-wladimir-putin", label:"Porträt: Wladimir Putin (SX6w5)"},
         {route:"beruehmte-alice-schwarzer", label:"Porträt: Alice Schwarzer (SX6w5)"},
@@ -83333,6 +83408,7 @@ function render() {
       "beruehmte-robert-schumann": robertSchumannPortraitPage,
       "beruehmte-johannes-brahms": johannesBrahmsPortraitPage,
       "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
+      "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
