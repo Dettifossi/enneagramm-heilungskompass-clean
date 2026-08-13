@@ -314,6 +314,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Cristiano Ronaldo – Social Type 3",
     teaser:"SO3w2 · born 1985. Five FIFA Best awards, five Champions League titles, over 900 career goals. The cheetah that never stops running – and yet always knows where he comes from.",
     tags:["Sport"] },
+  { route:"beruehmte-christiaan-barnard", name:"Dr. Christiaan Barnard", added:"2026-08-13", subtyp:"SO3w2",
+    heading:"Dr. Christiaan Barnard – Social Type 3",
+    teaser:"SO3w2 · 1922–2001. South African cardiac surgeon. First successful heart transplant in the world (1967), overnight global fame, jet-set life with film stars. The cheetah with the Two-wing: the courage for the first leap, joined with the need to be seen doing it. Animal correspondence: Cheetah.",
+    tags:["History","Medicine"], gender:"m"},
   { route:"beruehmte-pharrell-williams", name:"Pharrell Williams", added:"2026-07-31", subtyp:"SO3w2",
     heading:"Pharrell Williams – Social Type 3",
     teaser:"SO3w2 · born 1973. Music producer (The Neptunes), musician, creative director at Louis Vuitton. Over 400 hit productions, the world hit \"Happy\" – the cheetah that keeps changing direction and wins every time. Animal correspondence: Cheetah.",
@@ -28619,6 +28623,79 @@ function oshoPortraitPage() {
 }
 
 
+function christiaanBarnardPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-christiaan-barnard-portrait.jpg" alt="Christiaan Barnard" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Christiaan Barnard</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">South African cardiac surgeon, 1922&ndash;2001 &ndash; performed the world's first heart transplant &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Cheetah</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>cheetah</strong> is the animal of the social Three &ndash; the fastest animal on earth, built for the one decisive sprint that determines whether the hunt succeeds or fails. On December 3, 1967, Christiaan Barnard dared exactly that sprint: at Groote Schuur Hospital in Cape Town, he became the first person ever to transplant a human heart, taken from the deceased donor Denise Darvall, into the body of the gravely ill patient Louis Washkansky.</p>
+          <p class="vb-intro">Born in 1922 in Beaufort West as the son of a poor Dutch Reformed missionary, Barnard worked his way to the top of cardiac surgery through medical studies in Cape Town and specialized training in the United States under the renowned surgeon Owen Wangensteen. The cheetah does not hunt through strength but through speed and audacity &ndash; and Barnard used exactly that speed to dare an operation that many established surgeons of his time still shied away from.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Three: Fame Overnight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> is the counter-type of the Three: recognition is not a side effect for it, but the actual fuel. SO3 does not merely ask <em>Have I achieved something?</em> but <em>Does the world see what I have achieved?</em> Few medical breakthroughs in history answered this question as immediately as Barnard's operation: within hours, his name was on the front pages of the world press.</p>
+          <p class="vb-intro">Barnard did not accept this sudden global fame with restraint, but with visible enthusiasm. He became a sought-after talk show guest, traveled the world, had himself photographed with heads of state and film stars, and thoroughly enjoyed the role of the charismatic pioneer. Social Three seeks the stage the moment it presents itself &ndash; and Barnard was handed, in a single stroke, the largest stage that 20th-century medicine had to offer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Charm and Relationships as Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the social Three a warm, relationship-oriented note &ndash; recognition is sought not through achievement alone, but through personal charm and closeness to others. Barnard cultivated close friendships with international film stars such as Sophia Loren and Gina Lollobrigida, moved effortlessly through the jet set of his time, and was married three times &ndash; each time to significantly younger women; his second wife was only nineteen when they married.</p>
+          <p class="vb-intro">For Barnard, these relationships were not merely private pleasure but part of his public stage: the charming, worldly surgeon equally at home in the operating theater and on the red carpet. SO3w2 seeks confirmation not in isolation, but in direct, personal contact with people who themselves stand in the spotlight.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Price of the First Leap</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The celebrated breakthrough had a bitter flip side: patient Louis Washkansky died only 18 days after the operation of pneumonia, triggered by the necessary suppression of his immune system &ndash; a complication only manageable decades later, with the development of more effective immunosuppressants. Several subsequent transplant patients also survived only briefly, which at times brought Barnard sharp criticism within professional circles for having attempted the operation prematurely.</p>
+          <p class="vb-intro">Barnard held to his course and contributed decisively to legitimizing heart transplantation as an established, serious therapy rather than dismissing it as a risky experiment. The social Three with the Two-wing possesses the ability to draw not retreat but drive from setbacks &ndash; as long as its own significance in the larger picture is not thereby called into question.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO3w2 shows in Barnard's ability to lift an entire medical discipline into public awareness and thereby secure the social and financial support it needed to develop further. Without his courage to take the first step &ndash; and his talent for making that step visible to the world &ndash; heart transplantation would likely have established itself far more slowly.</p>
+          <p class="vb-intro">The shadow appeared when severe rheumatoid arthritis in his hands forced him to give up operating in the 1980s &ndash; a profound blow for a surgeon whose identity was closely bound to his own hands. Rather than withdrawing, Barnard remained present in public life, among other things as a controversial spokesperson for an anti-aging skin cream &ndash; a late expression of the same longing for visibility that had carried him since 1967, but now without the medical substance of his best years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Leap That Founded a Discipline</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Christiaan Barnard died in 2001 in Paphos, Cyprus, of an asthma attack. His brother Marius Barnard, who assisted in the historic 1967 operation, remained for the rest of his life in the shadow of that one evening that changed cardiac surgery forever.</p>
+          <p class="vb-intro">The cheetah that dared the one decisive leap while others still hesitated left behind a discipline that today saves tens of thousands of lives every year. That is the lasting image of the social Three with the Two-wing: the courage to take the first, publicly visible step &ndash; joined with the deep human need not to be alone in it, but to be seen and celebrated.</p>
+        </blockquote>
+
+      </div>
+      <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Ber%C3%BChmte-%C3%84rzte-Therapeuten-Psychologen-Enneagramm-von-DetlefRathmer/41318557/7yqg" target="_blank" rel="noopener sponsored">
+        <span class="book-tip__icon">☕</span>
+        <div class="book-tip__text">
+          <strong>"Famous Doctors, Therapists, Psychologists" Mug</strong>
+          <span>Nine significant healers of the Enneagram united on one mug – including Barnard himself – order on Redbubble.</span>
+        </div>
+        <span class="book-tip__arrow">→</span>
+      </a>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
+        {route:"beruehmte-sahra-wagenknecht", label:"Portrait: Sahra Wagenknecht (SO3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function kathrinBauerfeindPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -49636,6 +49713,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
+      "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-carsten-stahl": carstenStahlPortraitPage,
