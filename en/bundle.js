@@ -22085,6 +22085,7 @@ function napoleonBonapartePortraitPage() {
         {route:"subtype/so2", label:"SO2 \u2013 The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3)"},
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5) &ndash; to whom he was originally meant to dedicate the Eroica"},
       ])}
     </div>
   `);
@@ -23541,7 +23542,7 @@ function ludwigVanBeethovenPortraitPage() {
 
         <h2 class="vb-section">5. Energetic Effect: Music That Tore Down Walls</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Beethoven's effect on his contemporaries carried a raw, immediate force. Contemporaries described his piano playing as almost violently intense; his improvisations could move listeners to tears. When he originally intended to dedicate his Third Symphony, the <em>Eroica</em>, to Napoleon Bonaparte, and then learned that Napoleon had crowned himself emperor, legend has it he tore through the title page so violently that it left a hole in the paper, furiously striking out Napoleon's name &ndash; a wolf withdrawing its loyalty the instant the honoree revealed himself as a tyrant.</p>
+          <p class="vb-intro">Beethoven's effect on his contemporaries carried a raw, immediate force. Those around him described his piano playing as almost violently intense; his improvisations could move listeners to tears. When he originally intended to dedicate his Third Symphony, the <em>Eroica</em>, to Napoleon Bonaparte (SO2w3), and then learned that Napoleon had crowned himself emperor, legend has it he tore through the title page so violently that it left a hole in the paper, furiously striking out Napoleon's name &ndash; a wolf withdrawing its loyalty the instant the honoree revealed himself as a tyrant.</p>
           <p class="vb-intro">And yet: behind this raw power lay the same vulnerability he spent his life trying to cover. His music &ndash; from the tender slow movements to the ecstatic finales &ndash; reveals an emotional depth that, in direct contact with people, often stayed hidden behind gruffness and mistrust. SX6's strength is always also armor over a heart too afraid to be shown unprotected.</p>
         </blockquote>
 
@@ -23561,6 +23562,7 @@ function ludwigVanBeethovenPortraitPage() {
         {route:"subtype/sx6", label:"SX6 \u2013 The Wolf: Subtype Profile"},
         {route:"beruehmte-wladimir-putin", label:"Portrait: Vladimir Putin (SX6w5)"},
         {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
+        {route:"beruehmte-napoleon-bonaparte", label:"Portrait: Napoleon Bonaparte (SO2w3)"},
       ])}
     </div>
   `);
