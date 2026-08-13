@@ -31447,6 +31447,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sadhguru \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 geb. 1957. Yogi, Guru, Bestsellerautor. Gr\u00fcnder der Isha Foundation. Neun Millionen Freiwillige, 'Inner Engineering', Save Soil \u2013 der Waschb\u00e4r, der die W\u00fcste bepflanzt.",
     tags:["Sonstiges"] , gender:"m"},
+  { route:"beruehmte-joseph-haydn", name:"Joseph Haydn", added:"2026-08-13", subtyp:"SE3w2",
+    heading:"Joseph Haydn \u2013 Selbsterhaltender Typ 3",
+    teaser:"SE3w2 \u00b7 1732\u20131809. \u00d6sterreichischer Komponist. Drei Jahrzehnte im Dienst der Esterh\u00e1zys, \u203aPapa Haydn\u2039, 104 Symphonien, Mentor von Mozart und Beethoven. Der Waschb\u00e4r mit Zweierfl\u00fcgel: stille Leistung, F\u00fcrsorge und sp\u00e4te Anerkennung durch die Londoner Reisen. Tierentsprechung: Waschb\u00e4r.",
+    tags:["Musik","Geschichte"], gender:"m"},
   { route:"beruehmte-penelope-cruz", name:"Pen\u00e9lope Cruz", added:"2026-07-31", subtyp:"SE3w2",
     heading:"Pen\u00e9lope Cruz \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 geb. 1974. Oscar-pr\u00e4mierte Schauspielerin, jahrzehntelange Zusammenarbeit mit Almod\u00f3var. Handwerk statt Rampenlicht, Verwandlungskunst als Beruf \u2013 der Waschb\u00e4r, der in jeder Rolle verschwindet und doch niemals verloren geht. Tierentsprechung: Waschb\u00e4r.",
@@ -52315,6 +52319,7 @@ function wolfgangAmadeusMozartPortraitPage() {
         {route:"beruehmte-johann-sebastian-bach", label:"Porträt: Johann Sebastian Bach (SX1w9) – dessen Fugenkunst er studierte"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – der ihm möglicherweise vorspielte"},
         {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5) – der ihn zeitlebens verehrte"},
+        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2) – enger Freund und bewunderter Kollege"},
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3)"},
       ])}
@@ -54373,6 +54378,7 @@ function ludwigVanBeethovenPortraitPage() {
         {route:"beruehmte-robert-schumann", label:"Porträt: Robert Schumann (SX7w8)"},
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3) – dem er möglicherweise vorspielte"},
         {route:"beruehmte-johann-sebastian-bach", label:"Porträt: Johann Sebastian Bach (SX1w9)"},
+        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2) – sein kurzzeitiger Lehrer"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-wladimir-putin", label:"Porträt: Wladimir Putin (SX6w5)"},
         {route:"beruehmte-alice-schwarzer", label:"Porträt: Alice Schwarzer (SX6w5)"},
@@ -55438,6 +55444,72 @@ function sadhguruPortraitPage() {
   `);
 }
 
+
+function josephHaydnPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-joseph-haydn-portrait.jpg" alt="Joseph Haydn" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Joseph Haydn</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Österreichischer Komponist, 1732–1809 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das auf den ersten Blick unscheinbar wirkt, geschickt, anpassungsfähig, ohne das Bedürfnis, im grellen Licht zu stehen. Joseph Haydn war genau dieser Waschbär: kein Wunderkind wie Mozart, kein zorniger Titan wie Beethoven, sondern ein Mann, der drei Jahrzehnte lang loyal in einem einzigen Dienstverhältnis arbeitete – und daraus das umfangreichste, verlässlichste Lebenswerk der Wiener Klassik schuf.</p>
+          <p class="vb-intro">Geboren 1732 in Rohrau als Sohn eines Wagners, wurde er als Kind Chorknabe am Stephansdom in Wien, bis ihm der Stimmbruch diese Existenz nahm. Es folgten Jahre als freischaffender, oft mittelloser Musiker, bevor er 1761 in den Dienst der Fürstenfamilie Esterházy trat – eine Anstellung, die er, mit wachsender Machtfülle und wachsendem Ruhm, bis kurz vor seinem Lebensende nie wirklich verließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch stille Leistung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der am wenigsten wie eine Drei wirkt. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Statt auf der Bühne zu glänzen, richtet die SE3 ihre Energie auf Kompetenz, Aufbau, Verlässlichkeit. Kein Auftritt um seiner selbst willen, sondern Wirksamkeit im Dienst eines größeren Ganzen.</p>
+          <p class="vb-intro">Bei Haydn zeigt sich das in einer schier unfassbaren Produktivität ohne Starallüren: 104 Symphonien, 68 Streichquartette, Dutzende Klaviersonaten, Messen, Oratorien – entstanden in einem geregelten, fast handwerklichen Tagesablauf am Hof der Esterházys. Er selbst sagte später, die Abgeschiedenheit des Fürstensitzes Eszterháza habe ihn gezwungen, "originell zu werden", weil er niemanden hatte, den er nachahmen konnte. Die SE3 investiert in Wirksamkeit, nicht in Image – das Image entstand bei Haydn erst als Nebenprodukt jahrzehntelanger, unspektakulärer Beständigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge als Führungsstil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls zur Verbindung und Fürsorge. Haydns Orchestermusiker nannten ihn liebevoll "Papa Haydn" – ein Spitzname, den sich nur verdient, wer als Vorgesetzter tatsächlich für seine Leute sorgt. Als seine Musiker 1772 lange von ihren Familien getrennt waren, komponierte er statt einer direkten Beschwerde die "Abschiedssymphonie": Im letzten Satz verlassen die Musiker nacheinander die Bühne und löschen ihre Kerzen, bis nur noch zwei Violinen übrig bleiben – eine musikalische Bitte an Fürst Nikolaus Esterházy, endlich die Heimreise zu erlauben. Der Fürst verstand die Botschaft und gab nach.</p>
+          <p class="vb-intro">Auch die "Symphonie mit dem Paukenschlag" (Nr. 94), deren plötzlicher lauter Akkord dösende Zuhörer aufschreckt, zeigt denselben Zug: Humor als Beziehungsmittel, nicht als Selbstzweck. Die SE3w2 baut nicht nur auf – sie will, dass die Menschen um sie herum sich gesehen und gut behandelt fühlen. Das Geben ist bei Haydn kein Mittel zum Zweck, sondern Teil seines Führungsstils.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Eitelkeit im Gewand der Bescheidenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Drei heißt <strong>Eitelkeit</strong> – bei der SE3 nicht als lautes Geltungsbedürfnis, sondern als das feine, kaum bemerkte Bedürfnis, als kompetent und unentbehrlich wahrgenommen zu werden. Haydn trat nie als Rivale um Aufmerksamkeit auf, wie es viele seiner Zeitgenossen taten – und genau diese Zurückhaltung wurde selbst zu einem wirkungsvollen Image: der bescheidene, treue Diener, dem man vertrauen kann.</p>
+          <p class="vb-intro">Als er 1791 und 1794 nach London reiste, zeigte sich, wie sehr auch die SE3 nach Sicherheit durch sichtbaren Erfolg sucht: Die Reisen brachten ihm enormen Ruhm, eine Ehrendoktorwürde der Universität Oxford und – für den vorher vergleichsweise bescheiden entlohnten Hofkomponisten – beträchtlichen Wohlstand. Nach Jahrzehnten stiller Loyalität nahm Haydn diesen späten, öffentlichen Erfolg mit spürbarer Genugtuung an. Bescheidenheit und der Wunsch nach abgesicherter Anerkennung schlossen sich bei ihm nie aus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Mozart und Beethoven: Der Waschbär als Mentor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Haydn und Wolfgang Amadeus Mozart (SE2w3) verband eine der herzlichsten Freundschaften der Musikgeschichte, frei von der Rivalität, die man zwischen zwei derart bedeutenden Komponisten hätte erwarten können. Mozart widmete Haydn 1785 sechs Streichquartette als "die Frucht einer langen und mühevollen Arbeit", und Haydn sagte später zu Mozarts Vater Leopold, sein Sohn sei "der größte Komponist, den ich von Person oder Namen nach kenne". Zwei sehr unterschiedliche Naturen – der stürmische, in Bühnenauftritten lebende Mozart und der bedächtige, im Hintergrund wirkende Haydn – erkannten im jeweils anderen etwas, das sie selbst nicht waren.</p>
+          <p class="vb-intro">Auch dem jungen Ludwig van Beethoven (SX6w5) wurde Haydn 1792 in Wien für kurze Zeit zum Lehrer – eine Beziehung, die nie ganz spannungsfrei blieb, da Beethoven sich unzureichend unterrichtet fühlte, Haydn aber dennoch Anerkennung und Förderung nicht verweigerte. Der Waschbär mit dem Zweierflügel fand seine tiefste Erfüllung nicht im eigenen Rampenlicht, sondern darin, jüngeren, lauteren Talenten eine verlässliche Grundlage zu bieten, auf der sie ihr eigenes Feuer entfachen konnten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Vater der Symphonie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Haydn gilt bis heute als "Vater der Symphonie" und "Vater des Streichquartetts" – nicht weil er diese Formen erfand, sondern weil er sie über Jahrzehnte geduldiger, systematischer Arbeit zu dem entwickelte, was die Wiener Klassik daraus machte. Seine späten Oratorien "Die Schöpfung" und "Die Jahreszeiten" wurden zu Publikumserfolgen, wie sie nur wenige Werke seiner Zeit erreichten.</p>
+          <p class="vb-intro">Er starb 1809 in Wien, während napoleonische Truppen die Stadt beschossen – der Überlieferung nach spielte er in seinen letzten Tagen noch die von ihm komponierte Kaiserhymne, um sich selbst und seinem Haushalt Trost zu spenden, dieselbe Melodie, die später zur deutschen Nationalhymne wurde. Der Waschbär mit dem Zweierflügel: unauffällig in der eigenen Selbstdarstellung, unermüdlich fürsorglich gegenüber allen, die auf ihn angewiesen waren, und am Ende doch von einer stillen, verdienten Größe, die lauteren Zeitgenossen oft verwehrt blieb.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3) – enger Freund und bewunderter Kollege"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – sein kurzzeitiger Schüler"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
 
 function penelopeCruzPortraitPage() {
   return shell(`
@@ -83409,6 +83481,7 @@ function render() {
       "beruehmte-johannes-brahms": johannesBrahmsPortraitPage,
       "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
+      "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,

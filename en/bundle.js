@@ -290,6 +290,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sadhguru – Self-Preservation Type 3",
     teaser:"SP3w2 · born 1957. Yogi, guru, bestselling author. Founder of the Isha Foundation. Nine million volunteers, 'Inner Engineering', Save Soil – the raccoon that plants the desert.",
     tags:["Sonstiges"] },
+  { route:"beruehmte-joseph-haydn", name:"Joseph Haydn", added:"2026-08-13", subtyp:"SE3w2",
+    heading:"Joseph Haydn – Self-Preservation Type 3",
+    teaser:"SP3w2 · 1732–1809. Austrian composer. Three decades in service of the Esterházys, \"Papa Haydn\", 104 symphonies, mentor to Mozart and Beethoven. The raccoon with the Two-wing: quiet achievement, care, and late recognition through the London trips. Animal correspondence: Raccoon.",
+    tags:["Music","History"], gender:"m"},
   { route:"beruehmte-penelope-cruz", name:"Penélope Cruz", added:"2026-07-31", subtyp:"SE3w2",
     heading:"Penélope Cruz – Self-Preservation Type 3",
     teaser:"SP3w2 · born 1974. Oscar-winning actress, decades-long collaboration with Almodóvar. Craft over spotlight, transformation as a profession – the raccoon that vanishes into every role and never gets lost. Animal correspondence: Raccoon.",
@@ -21828,6 +21832,7 @@ function wolfgangAmadeusMozartPortraitPage() {
         {route:"beruehmte-johann-sebastian-bach", label:"Portrait: Johann Sebastian Bach (SX1w9) – whose fugal art he studied"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5) – who may have played for him"},
         {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5) – who revered him throughout his life"},
+        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SE3w2) – close friend and admired colleague"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
       ])}
@@ -23781,6 +23786,7 @@ function ludwigVanBeethovenPortraitPage() {
         {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8)"},
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) \u2013 whom he may have played for"},
         {route:"beruehmte-johann-sebastian-bach", label:"Portrait: Johann Sebastian Bach (SX1w9)"},
+        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SE3w2) \u2013 his brief teacher"},
         {route:"subtype/sx6", label:"SX6 \u2013 The Wolf: Subtype Profile"},
         {route:"beruehmte-wladimir-putin", label:"Portrait: Vladimir Putin (SX6w5)"},
         {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
@@ -28550,6 +28556,72 @@ function sadhguruPortraitPage() {
   `);
 }
 
+
+function josephHaydnPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-joseph-haydn-portrait.jpg" alt="Joseph Haydn" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Joseph Haydn</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Austrian composer, 1732&ndash;1809 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that at first glance seems unremarkable, skillful, adaptable, without any need to stand in the glaring light. Joseph Haydn was exactly this raccoon: no prodigy like Mozart, no wrathful titan like Beethoven, but a man who worked loyally within a single employment relationship for three decades &ndash; and out of it created the most extensive, most reliable body of work of the Viennese Classical era.</p>
+          <p class="vb-intro">Born in 1732 in Rohrau as the son of a wheelwright, he became a choirboy at St. Stephen's Cathedral in Vienna as a child, until his voice broke and took that existence from him. Years as a freelance, often penniless musician followed, before he entered the service of the princely Esterházy family in 1761 &ndash; an appointment he, amid growing influence and growing fame, never truly left until shortly before the end of his life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Three: Security Through Quiet Achievement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three &ndash; the subtype that looks least like a Three. Naranjo called this subtype <em>Security</em>: instead of shining on stage, the SP3 directs its energy toward competence, building, reliability. No performance for its own sake, but effectiveness in service of a larger whole.</p>
+          <p class="vb-intro">In Haydn this shows in an almost unfathomable productivity without any hint of vanity: 104 symphonies, 68 string quartets, dozens of piano sonatas, masses, oratorios &ndash; all produced within a regulated, almost artisanal daily routine at the Esterházy court. He himself later said that the isolation of the princely residence at Eszterháza had forced him to "become original," since he had no one to imitate. The SP3 invests in effectiveness, not image &ndash; in Haydn's case, the image only emerged as a byproduct of decades of unspectacular consistency.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Care as a Leadership Style</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the self-preservation Three a genuine impulse toward connection and care. Haydn's orchestra musicians affectionately called him "Papa Haydn" &ndash; a nickname only earned by a superior who genuinely looks after his people. When his musicians had been separated from their families for a long stretch in 1772, instead of a direct complaint he composed the "Farewell Symphony": in the final movement, the musicians leave the stage one by one, blowing out their candles, until only two violins remain &ndash; a musical request to Prince Nikolaus Esterházy to finally allow them to travel home. The prince understood the message and relented.</p>
+          <p class="vb-intro">The "Surprise Symphony" (No. 94), whose sudden loud chord startles dozing listeners, shows the same trait: humor as a means of relationship, not an end in itself. The SP3w2 does not merely build &ndash; it wants the people around it to feel seen and well cared for. Giving, for Haydn, was not a means to an end but part of his leadership style.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Vanity in the Guise of Modesty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Three is called <strong>vanity</strong> &ndash; in the SP3, not as loud attention-seeking but as the subtle, barely noticed need to be perceived as competent and indispensable. Haydn never positioned himself as a rival for attention the way many of his contemporaries did &ndash; and this very restraint itself became an effective image: the modest, loyal servant one could trust.</p>
+          <p class="vb-intro">When he traveled to London in 1791 and 1794, it became clear how much even the SP3 seeks security through visible success: the trips brought him enormous fame, an honorary doctorate from Oxford University, and &ndash; for a court composer previously paid comparatively modestly &ndash; considerable wealth. After decades of quiet loyalty, Haydn accepted this late, public success with noticeable satisfaction. Modesty and the wish for secured recognition were never mutually exclusive for him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Mozart and Beethoven: The Raccoon as Mentor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Haydn and Wolfgang Amadeus Mozart (SP2w3) shared one of the warmest friendships in music history, free of the rivalry one might expect between two composers of such stature. In 1785 Mozart dedicated six string quartets to Haydn as "the fruit of a long and laborious study," and Haydn later told Mozart's father Leopold that his son was "the greatest composer known to me, either in person or by name." Two very different natures &ndash; the stormy, stage-bound Mozart and the deliberate, background-working Haydn &ndash; recognized in each other something they themselves were not.</p>
+          <p class="vb-intro">The young Ludwig van Beethoven (SX6w5) also briefly became Haydn's student in Vienna in 1792 &ndash; a relationship that was never entirely free of tension, since Beethoven felt insufficiently taught, yet Haydn never withheld recognition or support. The raccoon with the Two-wing found its deepest fulfillment not in its own spotlight, but in offering younger, louder talents a reliable foundation on which to kindle their own fire.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Father of the Symphony</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Haydn is still known today as the "Father of the Symphony" and "Father of the String Quartet" &ndash; not because he invented these forms, but because he developed them, through decades of patient, systematic work, into what Viennese Classicism made of them. His late oratorios "The Creation" and "The Seasons" became public successes achieved by only a few works of his time.</p>
+          <p class="vb-intro">He died in 1809 in Vienna while Napoleonic troops were shelling the city &ndash; tradition holds that in his final days he still played the Kaiserhymne he had composed, to comfort himself and his household, the same melody that later became the German national anthem. The raccoon with the Two-wing: unassuming in his own self-presentation, tirelessly caring toward everyone who depended on him, and in the end possessed of a quiet, well-earned greatness that louder contemporaries were often denied.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) – close friend and admired colleague"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5) – his brief student"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
 
 function penelopeCruzPortraitPage() {
   return shell(`
@@ -49375,6 +49447,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-johannes-brahms": johannesBrahmsPortraitPage,
       "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
+      "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-carsten-stahl": carstenStahlPortraitPage,
