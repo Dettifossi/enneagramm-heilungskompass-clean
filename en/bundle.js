@@ -935,6 +935,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Uli Hoeneß – Self-Preservation Type 2",
     teaser:"SE2w3 · born 1952. World Cup winner in 1974, manager and president of FC Bayern Munich. Four decades of development work, tax affair and return. The hippo defends its territory - and comes back stronger than before after the fall. Animal correspondence: Hippo.",
     tags:["Sports","Business"] , gender:"m"},
+  { route:"beruehmte-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", added:"2026-08-13", subtyp:"SE2w3",
+    heading:"Wolfgang Amadeus Mozart – Self-Preservation Type 2",
+    teaser:"SP2w3 · 1756–1791. Austrian composer. Child prodigy on European tour, break with the Archbishop of Salzburg, over 600 works in 35 years of life. The hippopotamus with the Three-wing: caring, crude humor, and tireless ambition on stage. Animal correspondence: Hippopotamus.",
+    tags:["Music","History"], gender:"m"},
   { route:"beruehmte-vera-birkenbihl", name:"Vera Birkenbihl", added:"2026-07-21", subtyp:"SE5w6",
     heading:"Vera Birkenbihl – Self-Preservation Type 5",
     teaser:"SE5w6 \xb7 1946–2011. Trainer, author, thought leader. Over fifty books, millions of readers, one system: brain-friendly learning. The owl who knew how thinking thinks - and taught it.",
@@ -21357,6 +21361,7 @@ function johannSebastianBachPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SP9w8) – shaped by Bach's rigor of form"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) – who studied his fugal art"},
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-udo-lindenberg", label:"Portrait: Udo Lindenberg (SX1w9)"},
       ])}
@@ -21490,6 +21495,7 @@ function franzSchubertPortraitPage() {
         {route:"subtype/se6", label:"SE6 \u2013 The Rabbit: Subtype Profile"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5) – whom Schubert revered throughout his life"},
         {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8) – discovered Schubert's C major Symphony in 1839"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) – whom Schubert revered throughout his life"},
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SE6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
       ])}
@@ -21757,6 +21763,73 @@ function uliHoenessPortraitPage() {
         {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-jan-ullrich", label:"Portrait: Jan Ullrich (SE2w3)"},
         {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function wolfgangAmadeusMozartPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-wolfgang-amadeus-mozart-portrait.jpg" alt="Wolfgang Amadeus Mozart" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Amadeus Mozart</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">Austrian composer, 1756&ndash;1791 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that appears playful and good-natured from the outside, yet asserts itself with unexpected force the moment its territory or its own are threatened. Wolfgang Amadeus Mozart rarely fit the image of the otherworldly, floating genius that posterity has made of him &ndash; he was a man of enormous directness, physical zest for life, and a very concrete sense of what he needed in order to survive.</p>
+          <p class="vb-intro">Born in 1756 in Salzburg, he was paraded through the courts of Europe from age six by his father Leopold, himself a composer and ambitious manager of his son's career &ndash; Paris, London, The Hague, Italy. A child who had to learn to secure his own and his family's survival through his talent before he ever knew a childhood outside the stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Two: Care as a Survival Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: the Two who knows and names her own needs, who cares for the survival of herself and those closest to her &ndash; concretely, directly, without much detour. Mozart's letters are full of this: he cared intensely for his wife Constanze, for friends in need, for students he taught free of charge even while in financial distress himself.</p>
+          <p class="vb-intro">At the same time, Mozart was one of the most uninhibited letter writers in music history: the so-called "Bäsle letters" to his cousin Maria Anna Thekla overflow with crude, scatological humor &ndash; a directness that had nothing to do with courtly etiquette and everything to do with the immediate, physical zest for life of the SP2. Care and exuberance lay close together in him, both expressions of the same earthy presence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Proof on the Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two a hunger for visible, measurable success &ndash; the stage, the applause, the proof of one's own indispensability. In 1781 Mozart publicly broke with the Archbishop of Salzburg to establish himself as a freelance artist in Vienna &ndash; a gamble only someone confident in their own market value would take.</p>
+          <p class="vb-intro">In Vienna he organized his own subscription concerts, composed piano concertos at a relentless pace to perform as soloist himself, and sought throughout his life the most prestigious court appointment he could secure. The Three-wing of the SP2 asks not only "How do I secure survival?" but also "How do I prove I am the best?" &ndash; and Mozart proved it, work after work, often at dizzying speed. He is said to have written the overture to "Don Giovanni" the night before its premiere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Pride Between Genius and Existential Fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Two is called <strong>pride</strong> &ndash; in the SP2w3, directed at one's own ability and its visible yield. Mozart knew his worth and stated it confidently, sometimes to the irritation of his contemporaries. Yet this pride stood in constant tension with a very real financial insecurity: despite considerable income, he often lived beyond his means, repeatedly sending begging letters for loans to his fellow Freemason Michael Puchberg in his final years.</p>
+          <p class="vb-intro">This is the flip side of the SP2w3: when one's own worth hangs on visible success, every dry spell becomes an existential threat. Mozart did not compensate with withdrawal but with even more work, more compositions, more performances &ndash; the hippopotamus defending its territory, if need be, through sheer endurance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Bach, Beethoven, and Schubert: Encounters Across Time</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the early 1780s, Mozart discovered the fugal art of Johann Sebastian Bach (SX1w9) in the Vienna library of Baron Gottfried van Swieten &ndash; an encounter that fundamentally transformed his late work. He arranged Bach fugues for string trio, and the contrapuntal rigor he studied there flowed into works such as the finale of the "Jupiter Symphony" or the C minor Mass. The zeal of Sexual One met the stage presence of the self-preservation Two here &ndash; and both found common ground in the pure form of the fugue.</p>
+          <p class="vb-intro">Tradition holds that the young Ludwig van Beethoven (SX6w5) played for Mozart in Vienna in 1787; whether Mozart's often-quoted remark that this young man would "give the world something to talk about" is historically verified remains disputed &ndash; the meeting itself is considered plausible. Beethoven's Third Piano Concerto in C minor, in any case, unmistakably follows the model of Mozart's Piano Concerto No. 24 in the same key, a quiet dialogue between wolf and hippopotamus across the era of Viennese Classicism. Franz Schubert (SE6w5), born in 1797, could never meet Mozart in person &ndash; he came into the world six years after Mozart's death. Yet his diaries testify to an almost religious veneration for Mozart's music, which he described as a comforting light in dark times. The rabbit found, in the departed hippopotamus, a solace that his own present often denied him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Requiem and the Abundance of a Short Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mozart died in 1791 at only 35, likely from the effects of rheumatic fever, and was buried in a Viennese shaft grave &ndash; the common practice of the time, not a consequence of poverty as the later myth claimed. His last work, the Requiem, remained unfinished and was completed after his death by his student Franz Xaver Süssmayr &ndash; commissioned by an anonymous count who wanted to perform it under his own name. Even in death, Mozart's work remained subject to someone else's staging.</p>
+          <p class="vb-intro">In just 35 years of life, he left behind over 600 works &ndash; an abundance that shows the endurance and ambition of the SP2w3 in its purest, most tireless form. The hippopotamus with the Three-wing: caring to the point of its own exhaustion, proud of what it created, and endlessly driven by the question of whether the next work would once again prove its own worth. Posterity's answer came, as so often with this subtype, only after his death &ndash; but all the louder for it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"beruehmte-johann-sebastian-bach", label:"Portrait: Johann Sebastian Bach (SX1w9) – whose fugal art he studied"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5) – who may have played for him"},
+        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5) – who revered him throughout his life"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
       ])}
     </div>
   `);
@@ -23706,6 +23779,8 @@ function ludwigVanBeethovenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5) \u2013 who revered him throughout his life"},
         {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8)"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) \u2013 whom he may have played for"},
+        {route:"beruehmte-johann-sebastian-bach", label:"Portrait: Johann Sebastian Bach (SX1w9)"},
         {route:"subtype/sx6", label:"SX6 \u2013 The Wolf: Subtype Profile"},
         {route:"beruehmte-wladimir-putin", label:"Portrait: Vladimir Putin (SX6w5)"},
         {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
@@ -49299,6 +49374,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-robert-schumann": robertSchumannPortraitPage,
       "beruehmte-johannes-brahms": johannesBrahmsPortraitPage,
       "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
+      "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-carsten-stahl": carstenStahlPortraitPage,
