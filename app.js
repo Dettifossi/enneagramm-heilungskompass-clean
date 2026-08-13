@@ -53875,7 +53875,7 @@ function juliusCaesarPortraitPage() {
         <h2 class="vb-section">6. Das Geschenk: Ein Reich, das alle einschlie\u00dft</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Julius Caesar der Welt hinterlie\u00df, l\u00e4sst sich nicht auf Feldz\u00fcge reduzieren. Er reformierte den r\u00f6mischen Kalender zum Julianischen Kalender, der mit geringen Anpassungen bis heute in Gebrauch ist. Er weitete das r\u00f6mische B\u00fcrgerrecht auf Provinzbewohner aus, die zuvor nie dazugeh\u00f6rt hatten &ndash; eine zutiefst SO2-typische Geste: Verbindung schaffen, Menschen einschlie\u00dfen, die Grenze zwischen "wir" und "die anderen" aufl\u00f6sen. Seine \u00f6ffentlichen Bauprojekte, allen voran das Forum Caesaris, waren Geschenke an ein Volk, das er als seine gro\u00dfe, weite Familie verstand.</p>
-          <p class="vb-intro">Das ist die SO2w3 auf ihrer weitreichendsten Stufe: ein Mensch, dessen pers\u00f6nliches Bed\u00fcrfnis nach Zugeh\u00f6rigkeit sich in Strukturen verwandelte, die Jahrhunderte \u00fcberdauerten. Der Golden Retriever mit dem Dreierfl\u00fcgel kann ein Reich einen &ndash; wenn er lernt, dass wahre Zugeh\u00f6rigkeit nicht erk\u00e4mpft und nicht durch immer neue Beweise gesichert werden muss, sondern einfach ist.</p>
+          <p class="vb-intro">So zeigt sich die SO2w3 in ihrer reifsten Form: ein Mensch, dessen pers\u00f6nliches Bed\u00fcrfnis nach Zugeh\u00f6rigkeit sich in Strukturen verwandelte, die Jahrhunderte \u00fcberdauerten. Der Golden Retriever mit dem Dreierfl\u00fcgel kann ein Reich einen &ndash; wenn er lernt, dass wahre Zugeh\u00f6rigkeit nicht erk\u00e4mpft und nicht durch immer neue Beweise gesichert werden muss, sondern einfach ist.</p>
         </blockquote>
 
       </div>
@@ -53940,7 +53940,7 @@ function napoleonBonapartePortraitPage() {
         <h2 class="vb-section">6. Das Geschenk: Institutionen, die überdauerten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Napoleon der Welt hinterließ, lässt sich nicht auf Feldzüge reduzieren. Der Code Napoléon prägt bis heute das Zivilrecht weiter Teile Europas und Lateinamerikas. Er reformierte das Bildungssystem, die Verwaltung und das Steuerwesen Frankreichs so grundlegend, dass viele dieser Strukturen bis in die Gegenwart fortbestehen. Die Ehrenlegion, die Verdienst statt Geburt auszeichnete, war eine zutiefst SO2-typische Geste: Zugehörigkeit über Leistung statt über Herkunft definieren, Menschen einschließen, die zuvor nie dazugehört hätten.</p>
-          <p class="vb-intro">Das ist die SO2w3 auf ihrer weitreichendsten Stufe: ein Mensch, dessen persönliches Bedürfnis nach Bedeutung und Zugehörigkeit sich in Institutionen verwandelte, die Jahrhunderte überdauerten. Der Golden Retriever mit dem Dreierflügel kann einen Kontinent neu ordnen – wenn er lernt, dass wahre Zugehörigkeit nicht erobert und nicht durch immer neue Beweise gesichert werden muss, sondern einfach ist.</p>
+          <p class="vb-intro">Hier erreicht die SO2w3 ihre größte Tragweite: ein Mensch, dessen persönliches Bedürfnis nach Bedeutung und Zugehörigkeit sich in Institutionen verwandelte, die Jahrhunderte überdauerten. Der Golden Retriever mit dem Dreierflügel kann einen Kontinent neu ordnen – wenn er lernt, dass wahre Zugehörigkeit nicht erobert und nicht durch immer neue Beweise gesichert werden muss, sondern einfach ist.</p>
         </blockquote>
 
       </div>
@@ -54074,7 +54074,7 @@ function ludwigVanBeethovenPortraitPage() {
         <h2 class="vb-section">6. Das Vermächtnis: Die Neunte, komponiert in völliger Stille</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">1824, bei der Uraufführung seiner Neunten Symphonie mit der weltberühmten <em>Ode an die Freude</em>, war Beethoven bereits vollständig taub. Der Legende nach musste ihn eine Sängerin am Ärmel zur Seite drehen, damit er den tosenden Applaus des Publikums wenigstens sehen konnte – hören konnte er ihn nicht. Ein Mann, der die Musik nicht mehr wahrnehmen konnte, hatte gerade eines der bedeutendsten Werke der Musikgeschichte geschaffen, eine Hymne an universelle Brüderlichkeit, komponiert aus dem tiefsten Inneren eines Menschen, der selbst zeitlebens isoliert blieb.</p>
-          <p class="vb-intro">Das ist die SX6w5 auf ihrer weitreichendsten Stufe: eine Bedrohung, die jeden anderen zum Schweigen gebracht hätte, wurde zum Ausgangspunkt einer Musik, die bis heute Mauern zwischen Menschen einreißt. Der Wolf, der der Taubheit die Stirn bot, hinterließ der Nachwelt keine Kapitulation, sondern einen Trotz, der zur Freude wurde.</p>
+          <p class="vb-intro">Das ist die SX6w5 auf ihrer umfassendsten Stufe: eine Bedrohung, die jeden anderen zum Schweigen gebracht hätte, wurde zum Ausgangspunkt einer Musik, die bis heute Mauern zwischen Menschen einreißt. Der Wolf, der der Taubheit die Stirn bot, hinterließ der Nachwelt keine Kapitulation, sondern einen Trotz, der zur Freude wurde.</p>
         </blockquote>
 
       </div>
@@ -54544,7 +54544,7 @@ function teresaVonAvilaPortraitPage() {
         <h2 class="vb-section">6. Das Geschenk: Eine Sprache f\u00fcr das Innerste</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Teresa von \u00c1vila der Welt hinterlie\u00df, l\u00e4sst sich nicht auf siebzehn Klostergr\u00fcndungen reduzieren. Mit <em>Die innere Burg</em>, <em>Der Weg der Vollkommenheit</em> und ihrer Autobiografie schuf sie eine der eindr\u00fccklichsten Sprachen f\u00fcr mystische Erfahrung in der Geschichte der Weltliteratur &ndash; verfasst von einer Frau, in einer Zeit, in der Frauen theologisches Schreiben fast g\u00e4nzlich verwehrt war. 1970, fast vierhundert Jahre nach ihrem Tod, wurde sie gemeinsam mit Katharina von Siena als erste Frau \u00fcberhaupt zur <em>Kirchenlehrerin</em> erhoben &ndash; jener h\u00f6chsten Anerkennung, die die katholische Kirche f\u00fcr theologisches Wirken vergibt.</p>
-          <p class="vb-intro">Das ist die SO3w4 auf ihrer weitreichendsten Stufe: eine Frau, deren Bed\u00fcrfnis nach sichtbarer, unanfechtbarer Anerkennung sich mit einer Tiefe verband, die Jahrhunderte \u00fcberdauerte. Der Gepard mit dem Viererfl\u00fcgel kann eine ganze geistliche Tradition neu begr\u00fcnden &ndash; wenn er lernt, dass das Innerste, das er zu sch\u00fctzen versucht, gerade dann am st\u00e4rksten wirkt, wenn er es teilt.</p>
+          <p class="vb-intro">So zeigt sich die SO3w4 in ihrer weitesten Wirkung: eine Frau, deren Bed\u00fcrfnis nach sichtbarer, unanfechtbarer Anerkennung sich mit einer Tiefe verband, die Jahrhunderte \u00fcberdauerte. Der Gepard mit dem Viererfl\u00fcgel kann eine ganze geistliche Tradition neu begr\u00fcnden &ndash; wenn er lernt, dass das Innerste, das er zu sch\u00fctzen versucht, gerade dann am st\u00e4rksten wirkt, wenn er es teilt.</p>
         </blockquote>
 
       </div>
@@ -54937,7 +54937,7 @@ function madameTussaudPortraitPage() {
         <h2 class="vb-section">6. Das Geschenk: Ein Handwerk, das die Zeit \u00fcberdauert</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Madame Tussaud der Welt hinterlie\u00df, l\u00e4sst sich nicht auf ein Kuriosit\u00e4tenkabinett reduzieren. Sie schuf eine der best\u00e4ndigsten Institutionen der Popul\u00e4rkultur &ndash; ein Museum, das bis heute in London und Dutzenden weiteren St\u00e4dten Millionen Besucher j\u00e4hrlich anzieht, und eine Wachsbildnerkunst, die zugleich historisches Dokument war: Ihre Totenmasken der Franz\u00f6sischen Revolution z\u00e4hlen heute zu den wenigen unmittelbaren physischen Zeugnissen jener Epoche.</p>
-          <p class="vb-intro">Das ist die SE3w4 auf ihrer weitreichendsten Stufe: eine Frau, deren Bed\u00fcrfnis nach materieller Sicherheit sich mit einem untr\u00fcglichen Gesp\u00fcr f\u00fcr das verband, was Menschen wirklich fasziniert &ndash; Sch\u00f6nheit und Schrecken, Macht und Untergang, in Wachs gegossen und der Nachwelt \u00fcberlassen. Der Waschb\u00e4r mit dem Viererfl\u00fcgel \u00fcberlebt nicht nur &ndash; er hinterl\u00e4sst ein Werk, das seine eigene Lebenszeit weit \u00fcberdauert.</p>
+          <p class="vb-intro">Das ist die SE3w4 in ihrer eindr\u00fccklichsten Gestalt: eine Frau, deren Bed\u00fcrfnis nach materieller Sicherheit sich mit einem untr\u00fcglichen Gesp\u00fcr f\u00fcr das verband, was Menschen wirklich fasziniert &ndash; Sch\u00f6nheit und Schrecken, Macht und Untergang, in Wachs gegossen und der Nachwelt \u00fcberlassen. Der Waschb\u00e4r mit dem Viererfl\u00fcgel \u00fcberlebt nicht nur &ndash; er hinterl\u00e4sst ein Werk, das seine eigene Lebenszeit weit \u00fcberdauert.</p>
         </blockquote>
 
       </div>
