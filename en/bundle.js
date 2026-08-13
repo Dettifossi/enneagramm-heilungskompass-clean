@@ -679,6 +679,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Robert Schumann – Sexual Type 7",
     teaser:"SX7w8 · 1810–1856. German composer and music critic. Year of Song 1840, discoverer of Johannes Brahms, years-long fight for Clara Wieck. The chimpanzee with the Eight-wing: boundless enthusiasm, combative devotion – and an intensity that in the end turned against himself. Animal correspondence: Chimpanzee.",
     tags:["Music","History"], gender:"m"},
+  { route:"beruehmte-johannes-brahms", name:"Johannes Brahms", added:"2026-08-13", subtyp:"SE9w8",
+    heading:"Johannes Brahms – Self-Preservation Type 9",
+    teaser:"SP9w8 · 1833–1897. German composer. Discovered by Robert Schumann in 1853, four decades of loyalty to the Schumann family, 21 years working on his First Symphony. The elephant with the Eight-wing: blunt wit, unshakable patience, and a loyalty that never gave up. Animal correspondence: Elephant.",
+    tags:["Music","History"], gender:"m"},
   { route:"beruehmte-shakira", name:"Shakira", added:"2026-08-04", subtyp:"SX7w8",
     heading:"Shakira – Sexual Type 7",
     teaser:"SX7w8 · born 1977 in Barranquilla, Colombia. Singer, songwriter, dancer, producer. “Hips Don't Lie”, “Waka Waka”, over 80 million records sold. The chimpanzee with Eight-wing: rhythm as the language of the body, intensity without a brake, strength that turns personal pain into stage presence.",
@@ -15827,6 +15831,7 @@ function robertSchumannPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
         {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5)"},
+        {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SE9w8) – discovered by Schumann"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
       ])}
     </div>
@@ -25288,6 +25293,70 @@ function abidaParveenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function johannesBrahmsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-johannes-brahms-portrait.jpg" alt="Johannes Brahms" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johannes Brahms</p>
+        <p class="krim-portrait-typ">SP9w8 &middot; Self-Preservation Type 9 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">German composer, 1833&ndash;1897 &ndash; Animal correspondence: Elephant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>elephant</strong> is the animal of Type 9 &ndash; a being of enormous weight that nonetheless moves through the world unhurried, almost deliberate, that forgets nothing, and that never abandons anyone to whom it has once pledged loyalty. Johannes Brahms was this elephant: massive in his artistic stature, unshakable in his bonds, and possessed of a memory that carried a single friendship across four decades.</p>
+          <p class="vb-intro">Born in 1833 in Hamburg as the son of a town musician, the young Brahms earned money as a teenager playing piano in the dockside taverns of St. Pauli &ndash; a hard, spare schooling that kept him modest for the rest of his life, even after fame had made him one of the wealthiest composers in Europe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Nine: Appetite in Small Things</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Nine (SP9)</strong> <em>Appetite</em>: peace not through grand gestures, but through the reliable, often unremarkable ritual &ndash; the same tavern, the same walk, the same summer retreat. Brahms embodied this pattern down to the last detail. Every summer he withdrew to the same rural towns to compose, sat reliably in his regular Viennese haunts over beer and cigars each evening, and clung to his habits with a stubbornness that amused friends and sometimes drove them to despair.</p>
+          <p class="vb-intro">Despite his considerable wealth, he lived deliberately simply &ndash; in modest Viennese rooms, without pomp, without servants. His money flowed instead quietly and mostly anonymously to musicians in need, to the families of former companions, to the young Antonín Dvořák, whose career he decisively advanced. The self-preservation Nine seeks security not in possession but in the familiar &ndash; and Brahms found his security in being needed, without anyone finding out.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: The Blunt Edge Behind the Silence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the self-preservation Nine something the pure Nine often lacks: an edge that is not negotiable. Brahms was famous &ndash; and infamous &ndash; for his cutting wit. Leaving a gathering once, he is said to have remarked on his way out: "If there is anyone here I have not yet insulted, I apologize." This is not merely an anecdote about spite &ndash; it is the Eight-wing equipping the conflict-averse Nine with a cutting directness no one expects.</p>
+          <p class="vb-intro">This edge showed most clearly in the so-called "War of the Romantics": while Franz Liszt and Richard Wagner drove forward program music and radical harmonic innovation with the "New German School," Brahms &ndash; together with the critic Eduard Hanslick &ndash; positioned himself as an uncompromising defender of the classical forms of Bach and Beethoven. He never retreated from this dispute, nor did he actively seek it &ndash; but once he had taken a position, nothing could move him from it. That is the Nine with the Eight-wing: patient right up to the point where it no longer is.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Sloth as Persistent Refinement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Nine is called <strong>sloth</strong> &ndash; not laziness, but the persistence in the familiar, the refusal to be rushed. In Brahms this became a creative patience of almost inhuman proportions: he worked on his First Symphony for over 21 years, because he saw himself in the overwhelming shadow of Beethoven and scrutinized every bar until it could withstand comparison. The conductor Hans von Bülow later respectfully called the finished work "Beethoven's Tenth."</p>
+          <p class="vb-intro">This sloth was not a lack of ambition but its exact opposite: a persistence that would not be hurried, not even by his own talent. Brahms destroyed countless early works that did not satisfy him, and preferred to publish nothing rather than something unfinished. The Nine, who seeks security in the familiar, found that security here in classical form itself &ndash; and refused to leave it before having fully mastered it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Robert and Clara Schumann: The Shared Eight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1853 the 20-year-old, still unknown Brahms played for the Schumanns in Düsseldorf. Robert Schumann &ndash; himself a sexual Seven with an Eight-wing (SX7w8) &ndash; instantly recognized in him a coming master and proclaimed it to the world in his essay "Neue Bahnen" without any reservation. Two Eight-wing natures met here: the stormy, instantly and completely enthusiastic Schumann, and the more reserved but equally unyielding Brahms. It was as if the Eight in both of them recognized at once what lay in the other.</p>
+          <p class="vb-intro">When Schumann, only a year later, jumped into the Rhine in a state of mental collapse and had himself admitted to the asylum at Endenich, it was Brahms who stayed. He moved to Düsseldorf, supported Clara Schumann in caring for their seven children, took charge of the family's finances, and visited Robert regularly at the asylum &ndash; while Clara herself was barely permitted to see him. This is the elephant's loyalty of the self-preservation Nine in its purest form: where another might have moved on after the first burst of enthusiasm, Brahms stayed &ndash; for decades, until Clara Schumann's death in 1896. He himself died only eleven months later. The elephant who forgets nothing had, to the very end, not forgotten to whom he owed his first great beginning.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Keeper Who Never Left</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brahms left behind a body of work that did not preserve the classical tradition as a museum piece but thought it through to its final consequence &ndash; four symphonies, chamber music of unmatched density, the German Requiem, composed in memory of his mother. No composer of the 19th century took the forms of Bach and Beethoven so seriously while penetrating them so personally.</p>
+          <p class="vb-intro">Yet the true legacy of the SP9w8 lies not in the notes alone. It lies in the loyalty of a man who, seeking neither fame nor recognition, stayed with a family that had once discovered him for forty years out of quiet, unshakable devotion. The elephant with the Eight-wing: patient enough to refine a symphony for two decades &ndash; and stubborn enough never to abandon a loyalty once given.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8) – his discoverer"},
+        {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
       ])}
     </div>
   `);
@@ -49156,6 +49225,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-angela-merkel": angelaMerkelPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-robert-schumann": robertSchumannPortraitPage,
+      "beruehmte-johannes-brahms": johannesBrahmsPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-carsten-stahl": carstenStahlPortraitPage,
