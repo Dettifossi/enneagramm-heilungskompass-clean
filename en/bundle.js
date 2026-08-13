@@ -306,6 +306,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kathrin Bauerfeind – Self-Preservation Type 3",
     teaser:"SP3w4 · born 1981. Journalist, presenter, author, entertainer. Versatile, precise, unmistakable – the raccoon that turns skill into security.",
     tags:["Medien"] },
+  { route:"beruehmte-tony-shalhoub", name:"Tony Shalhoub", added:"2026-08-13", subtyp:"SE3w4",
+    heading:"Tony Shalhoub – Self-Preservation Type 3",
+    teaser:"SP3w4 · born 1953. Actor, known from \"Monk\" and \"The Marvelous Mrs. Maisel\". Three Emmys, one Golden Globe – the raccoon with the Four-wing: decades of craft over the spotlight, precision as an expression of genuine emotional depth. Animal correspondence: Raccoon.",
+    tags:["Film"], gender:"m"},
   { route:"beruehmte-madame-tussaud", name:"Madame Tussaud", added:"2026-08-08", subtyp:"SE3w4",
     heading:"Madame Tussaud – Self-Preservation Type 3",
     teaser:"SP3w4 · 1761–1850. Wax sculptor, museum founder. Death masks of guillotine victims during the French Revolution, 33 years touring Britain, the \"Chamber of Horrors\" – the raccoon that turned pure survival skill into a world enterprise. Animal correspondence: Raccoon.",
@@ -28833,6 +28837,66 @@ function kathrinBauerfeindPortraitPage() {
   `);
 }
 
+function tonyShalhoubPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-tony-shalhoub-portrait.jpg" alt="Tony Shalhoub" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tony Shalhoub</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Actor, born 1953 &ndash; known from "Monk" &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that is easy to underestimate. No loud entrance, no glamour, no red-carpet self-staging for its own sake. The raccoon works with skillful, deft hands out of sight, and only becomes visible once you look closely at everything it can actually do.</p>
+          <p class="vb-intro">Tony Shalhoub, trained at the Yale School of Drama, was exactly that for decades: an actor whose name many people learned only after learning his roles, not the other way around. Before he became a star in 2002 as the compulsively meticulous detective Adrian Monk, he had already built a craft through theater, independent films, and supporting roles that few actors of his generation mastered as precisely.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Three: Skill Over Shine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three &ndash; the subtype that does not display achievement outwardly but directs it inward: toward security, competence, craft mastery. SP3 does not ask <em>How am I seen?</em> but <em>What can I actually do?</em></p>
+          <p class="vb-intro">Shalhoub's career reads like a textbook example of this stance: roles in "Barton Fink," "Men in Black," "Wings," and the independent film "Big Night" (1996) &ndash; a quiet, critically acclaimed drama about two Italian-American brothers and a single perfect risotto &ndash; long before mainstream success arrived. He chose roles for craft substance, not visibility. That is SP3 logic in its purest form: those who truly can do something don't need to advertise it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: Depth Behind the Precision</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three a question that goes beyond mere competence: <em>What does all of this mean &ndash; beyond function and achievement?</em> That is exactly what makes Shalhoub's best-known role so remarkable: Adrian Monk is not simply an eccentric detective with quirks. Shalhoub played the character as a man whose compulsive need for order stems directly from an unprocessed trauma &ndash; the murder of his wife. Precision becomes, in his hands, a visible expression of pain, not merely a punchline.</p>
+          <p class="vb-intro">The same depth shows in the famous, almost wordless final scene of "Big Night," in which a single shared breakfast between two estranged brothers carries more emotion than any dialogue could. The Four-wing does not seek the grand gesture but the one true, unrepeatable moment. His later role as Abe Weissman in "The Marvelous Mrs. Maisel" carries the same signature: a man full of intellectual quirks whose comic surface conceals a deep, often touching vulnerability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SP3w4 is its ability to draw genuine emotional truth from pure craft. Shalhoub won three Emmys and a Golden Globe for "Monk" &ndash; not for spectacle, but because he turned a character with a clinical disorder into one of the most human figures in American television. This combination of discipline and depth is rare and has been recognized by critics for decades as one of the most consistent acting achievements of his generation.</p>
+          <p class="vb-intro">The passion of the Three is <strong>vanity / deceit</strong> &ndash; in SP3w4, subtly present as the need to be seen as unique and unrepeatable while simultaneously avoiding the spotlight itself. The Four-wing brings its own shadow: the feeling of never quite belonging, even amid great success &ndash; a quiet melancholy that runs through many of his roles and likely reflects a piece of his own inner reality as well.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Healing Path: From Perfecting to Being</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Three leads from the question <em>What have I achieved?</em> to the realization <em>I am &ndash; beyond all achievement.</em> For SP3w4, this means no longer tying one's own worth to the flawless execution of a role, but to the truthfulness with which one embodies it.</p>
+          <p class="vb-intro">Shalhoub's decades of unassuming consistency &ndash; from small theater roles to award-winning lead characters, always far from tabloid attention &ndash; reveal a raccoon who never needed his craft as proof, but as an expression of what truly mattered to him. The Four-wing, always searching for deeper meaning, may find in this very consistency exactly what it is looking for: not the one perfect role, but an entire, honestly lived career.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SE3w4)"},
+        {route:"beruehmte-madame-tussaud", label:"Portrait: Madame Tussaud (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+
 
 function sadhguruPortraitPage() {
   return shell(`
@@ -49791,6 +49855,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
       "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
+      "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-carsten-stahl": carstenStahlPortraitPage,
