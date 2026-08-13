@@ -222,7 +222,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Adam Smith – Social Type 1",
     teaser:"SO1w9 · 1723–1790. Scottish moral philosopher and economist, Theory of Moral Sentiments, Wealth of Nations. The goose that sought a juster order – and whose loyalty to his friend David Hume cost him his own good name.",
     added:"2026-08-09", tags:["Philosophie","Wirtschaft"] },
-  { route:"beruehmte-jordan-peterson", name:"Jordan Peterson", subtyp:"SO1w9",
+  { route:"beruehmte-jordan-peterson", name:"Dr. Jordan Peterson", subtyp:"SO1w9",
     heading:"Jordan Peterson – Social Type 1",
     teaser:"SO1w9 · born 1962. Psychologist, author, public speaker. The goose that preaches order – because it knows chaos from personal experience and understands the cost of missing structure.",
     added:"2026-07-15", tags:["Wissenschaft","Gesellschaft"] },
@@ -410,7 +410,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Marquis de Sade – Sexual Type 4",
     teaser:"SX4w5 · 1740–1814. French nobleman, writer, philosopher. Justine, The 120 Days of Sodom. The chihuahua who spent 32 years of his life behind bars – and whose name became a synonym for the most radical breaking of taboos.",
     tags:["Literature","Philosophy"], gender:"m"},
-  { route:"beruehmte-christian-raetsch", name:"Christian Rätsch", subtyp:"SE5w4",
+  { route:"beruehmte-christian-raetsch", name:"Dr. Christian Rätsch", subtyp:"SE5w4",
     heading:"Christian Rätsch – Self-Preservation Type 5",
     teaser:"SP5w4 · 1957–2022. Ethnologist, ethnopharmacologist. Encyclopedia of Psychoactive Plants. The owl that sees in the dark – and preserves the knowledge others do not want to see.",
     tags:["Wissenschaft"] },
@@ -422,7 +422,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Peter Lustig – Self-Preservation Type 5",
     teaser:"SP5w6 · 1937–2016. TV presenter, children’s book author. Dandelion (Löwenzahn). The caravan as a castle – the owl that shows children how to understand the world with a keen eye and little fuss.",
     tags:["Medien","Wissenschaft"] },
-  { route:"beruehmte-albert-einstein", name:"Albert Einstein", subtyp:"SO5w4",
+  { route:"beruehmte-albert-einstein", name:"Dr. Albert Einstein", subtyp:"SO5w4",
     heading:"Albert Einstein – Social Type 5",
     teaser:"SO5w4 · 1879–1955. Physicist, Nobel laureate, father of the theory of relativity. The octopus that decoded the universe's formulas alone in a patent office – and gave its knowledge to humanity.",
     added:"2026-08-09", tags:["Wissenschaft"] },
@@ -430,7 +430,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gertrude Belle Elion – Social Type 5",
     teaser:"SO5w4 · 1918–1999. Biochemist, pharmacologist. Nobel Prize 1988. The octopus that thinks with eight arms simultaneously – and saved millions of lives without most people ever knowing her name.",
     tags:["Wissenschaft"] },
-  { route:"beruehmte-claudio-naranjo", name:"Claudio Naranjo", subtyp:"SO5w4",
+  { route:"beruehmte-claudio-naranjo", name:"Dr. Claudio Naranjo", subtyp:"SO5w4",
     heading:"Claudio Naranjo – Social Type 5",
     teaser:"SO5w4 · 1932–2019. Psychiatrist, author, Enneagram and meditation teacher. Founder of the 27-subtype system – the foundation upon which all modern subtype understanding rests. The octopus that mapped the human soul with eight arms. Animal correspondence: Octopus.",
     tags:["Wissenschaft"] },
@@ -502,7 +502,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Woody Allen – Self-Preservation Type 6",
     teaser:"SP6w7 · born 1935. Director, screenwriter, comedian. Annie Hall, Manhattan, nearly fifty films. The rabbit that turned its own fear into an entire body of work.",
     tags:["Film"] },
-  { route:"beruehmte-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5",
+  { route:"beruehmte-sigmund-freud", name:"Dr. Sigmund Freud", subtyp:"SO6w5",
     heading:"Sigmund Freud – Social Type 6",
     teaser:"SO6w5 · 1856–1939. Physician, neurophysiologist, founder of psychoanalysis. The meerkat that stands watch – over what lurks in the darkness.",
     tags:["Wissenschaft"] },
@@ -582,7 +582,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ina Müller – Sexual Type 7",
     teaser:"SX7w8 · born 1965. Singer, musical cabaret artist, TV presenter (Inas Nacht). The chimpanzee with Eight-wing: zestful, direct, fearless – and always close to people. Animal correspondence: Chimpanzee.",
     tags:["Musik","Medien"] },
-  { route:"beruehmte-umberto-eco", name:"Umberto Eco", subtyp:"SE8w7",
+  { route:"beruehmte-umberto-eco", name:"Dr. Umberto Eco", subtyp:"SE8w7",
     heading:"Umberto Eco – Self-Preservation Type 8",
     teaser:"SP8w7 · 1932–2016. Writer, semiotician, philosopher, media scholar. The Name of the Rose, Foucault's Pendulum. 30,000 books. The orangutan at home in the labyrinth – who knows that all signs lie. Animal correspondence: Orangutan.",
     tags:["Literatur","Wissenschaft"] },
@@ -723,7 +723,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Cynthia Lummis – Social Type 8",
     teaser:"SO8w7 · born 1954 in Cheyenne, Wyoming. US Senator, first female Bitcoin advocate in the US Senate, former Wyoming State Treasurer. The lioness who fights for her pride – uncompromising, direct, and always at the front line.",
     tags:["Politik"], gender:"f"},
-  { route:"beruehmte-carl-rogers", name:"Carl Rogers", added:"2026-08-05", subtyp:"SX9w1",
+  { route:"beruehmte-carl-rogers", name:"Dr. Carl Rogers", added:"2026-08-05", subtyp:"SX9w1",
     heading:"Carl Rogers – Sexual Type 9",
     teaser:"SX9w1 · 1902–1987. Psychologist, founder of client-centered therapy. The sloth who created the judgment-free space in which people could find themselves again – unconditional positive regard as a therapeutic principle.",
     tags:["Psychology","Science"], gender:"m"},
@@ -16173,7 +16173,7 @@ function carlRogersPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="../assets/portraits/beruehmte-carl-rogers-portrait.jpg" alt="Sloth" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Carl Rogers</p>
+        <p class="krim-portrait-name">Dr. Carl Rogers</p>
         <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
         <p class="krim-portrait-subtitle">Psychologist, founder of client-centered therapy, 1902&ndash;1987 &ndash; Animal correspondence: Sloth</p>
       </div>
@@ -18254,7 +18254,7 @@ function albertEinsteinPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="../assets/portraits/beruehmte-albert-einstein-portrait.jpg" alt="Octopus" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Albert Einstein</p>
+        <p class="krim-portrait-name">Dr. Albert Einstein</p>
         <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with Four-wing</p>
         <p class="krim-portrait-subtitle">Physicist, Nobel laureate, 1879&ndash;1955 &ndash; father of the theory of relativity &ndash; Animal correspondence: Octopus</p>
       </div>
@@ -23673,7 +23673,7 @@ function christianRaetschPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="../assets/portraits/beruehmte-christian-raetsch-portrait.jpg" alt="Eule" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Christian Rätsch</p>
+        <p class="krim-portrait-name">Dr. Christian Rätsch</p>
         <p class="krim-portrait-typ">SP5w4 &middot; Self-Preservation Type 5 with Four-wing</p>
         <p class="krim-portrait-subtitle">Ethnologist &amp; Ethnopharmacologist, 1957&ndash;2022 &ndash; Animal correspondence: Owl</p>
       </div>
@@ -24853,7 +24853,7 @@ function umbertEcoPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="../assets/portraits/beruehmte-umberto-eco-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Umberto Eco</p>
+        <p class="krim-portrait-name">Dr. Umberto Eco</p>
         <p class="krim-portrait-typ">SP8w7 &middot; Self-Preservation Type 8 with Seven-wing</p>
         <p class="krim-portrait-subtitle">Writer, semiotician &amp; philosopher, 1932&ndash;2016 &ndash; Animal correspondence: Orangutan</p>
       </div>
@@ -26405,7 +26405,7 @@ function sigmundFreudPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="../assets/portraits/beruehmte-sigmund-freud-portrait.jpg" alt="Erdmännchen" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Sigmund Freud</p>
+        <p class="krim-portrait-name">Dr. Sigmund Freud</p>
         <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with Five-wing</p>
         <p class="krim-portrait-subtitle">Physician, Neurophysiologist &amp; Founder of Psychoanalysis, 1856&ndash;1939 &ndash; Animal correspondence: Meerkat</p>
       </div>
@@ -27121,7 +27121,7 @@ function claudioNaranjoPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="../assets/portraits/beruehmte-claudio-naranjo-portrait.jpg" alt="Claudio Naranjo" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Claudio Naranjo</p>
+        <p class="krim-portrait-name">Dr. Claudio Naranjo</p>
         <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with Four-wing</p>
         <p class="krim-portrait-subtitle">Psychiatrist, author, Enneagram &amp; meditation teacher, 1932&ndash;2019 &ndash; Animal correspondence: Octopus</p>
       </div>
@@ -27555,7 +27555,7 @@ function jordanPetersonPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="../assets/portraits/beruehmte-jordan-peterson-portrait.jpg" alt="Gans" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Jordan Peterson</p>
+        <p class="krim-portrait-name">Dr. Jordan Peterson</p>
         <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
         <p class="krim-portrait-subtitle">Psychologist, Author &amp; Speaker, born 1962 &ndash; Animal correspondence: Goose</p>
       </div>

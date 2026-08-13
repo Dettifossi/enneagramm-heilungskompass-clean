@@ -31291,7 +31291,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Adam Smith \u2013 Sozialer Typ 1",
     teaser:"SO1w9 \u00b7 1723\u20131790. Schottischer Moralphilosoph und \u00d6konom, Theorie der ethischen Gef\u00fchle, Der Wohlstand der Nationen. Die Gans, die eine gerechtere Ordnung suchte \u2013 und deren Treue zu ihrem Freund David Hume sie den eigenen guten Ruf kostete.",
     tags:["Philosophie","Wirtschaft"], gender:"m"},
-  { route:"beruehmte-jordan-peterson", name:"Jordan Peterson", subtyp:"SO1w9",
+  { route:"beruehmte-jordan-peterson", name:"Dr. Jordan Peterson", subtyp:"SO1w9",
     heading:"Jordan Peterson \u2013 Sozialer Typ 1",
     teaser:"SO1w9 \u00b7 geb. 1962. Psychologe, Autor, Vortragsredner. Die Gans, die Ordnung predigt \u2013 weil sie das Chaos aus eigener Erfahrung kennt und wei\u00df, was es kostet, wenn Struktur fehlt.",
     added:"2026-07-15", tags:["Wissenschaft","Gesellschaft"] , gender:"m"},
@@ -31635,7 +31635,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Marquis de Sade \u2013 Sexueller Typ 4",
     teaser:"SX4w5 \u00b7 1740\u20131814. Franz\u00f6sischer Adliger, Schriftsteller, Philosoph. Justine, Die 120 Tage von Sodom. Der Chihuahua, der 32 Jahre seines Lebens hinter Gittern verbrachte \u2013 und dessen Name zum Synonym f\u00fcr den radikalsten aller Tabubr\u00fcche wurde.",
     tags:["Literatur","Philosophie"], gender:"m"},
-  { route:"beruehmte-christian-raetsch", name:"Christian R\u00e4tsch", subtyp:"SE5w4",
+  { route:"beruehmte-christian-raetsch", name:"Dr. Christian R\u00e4tsch", subtyp:"SE5w4",
     heading:"Christian R\u00e4tsch \u2013 Selbsterhaltender Typ 5",
     teaser:"SE5w4 \u00b7 1957\u20132022. Ethnologe, Ethnopharmakologe. Enzyklop\u00e4die der psychoaktiven Pflanzen. Die Eule, die in der Dunkelheit sieht \u2013 und das Wissen bewahrt, das andere nicht sehen wollen.",
     tags:["Wissenschaft"] , gender:"m"},
@@ -31663,7 +31663,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Baruch de Spinoza \u2013 Selbsterhaltender Typ 5",
     teaser:"SE5w6 \xb7 1632\u20131677. Rationalistischer Philosoph, Verfasser der Ethica. Zur\u00fcckgezogen in Amsterdam und Den Haag lebend, schliff er Linsen zum Lebensunterhalt und dachte die radikalste Gottesvorstellung seiner Zeit zu Ende. Die Eule, die sich aus jeder Gemeinschaft zur\u00fcckzog, um klarer zu sehen.",
     tags:["Philosophie"], gender:"m"},
-  { route:"beruehmte-albert-einstein", name:"Albert Einstein", added:"2026-08-09", subtyp:"SO5w4",
+  { route:"beruehmte-albert-einstein", name:"Dr. Albert Einstein", added:"2026-08-09", subtyp:"SO5w4",
     heading:"Albert Einstein \u2013 Sozialer Typ 5",
     teaser:"SO5w4 \u00b7 1879\u20131955. Physiker, Nobelpreistr\u00e4ger, Begr\u00fcnder der Relativit\u00e4tstheorie. Der Oktopus, der im Patentamt allein die Formeln des Universums entschl\u00fcsselte \u2013 und sein Wissen der Menschheit schenkte.",
     tags:["Wissenschaft"], gender:"m"},
@@ -31671,7 +31671,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gertrude Belle Elion \u2013 Sozialer Typ 5",
     teaser:"SO5w4 \u00b7 1918\u20131999. Biochemikerin, Pharmakologin. Nobelpreis 1988. Der Oktopus, der mit acht Armen gleichzeitig denkt \u2013 und Millionen von Menschen das Leben gerettet hat, ohne dass die meisten je ihren Namen kannten.",
     tags:["Wissenschaft"] , gender:"f"},
-  { route:"beruehmte-claudio-naranjo", name:"Claudio Naranjo", subtyp:"SO5w4",
+  { route:"beruehmte-claudio-naranjo", name:"Dr. Claudio Naranjo", subtyp:"SO5w4",
     heading:"Claudio Naranjo \u2013 Sozialer Typ 5",
     teaser:"SO5w4 \u00b7 1932\u20132019. Psychiater, Autor, Enneagramm- und Meditationslehrer. Begr\u00fcnder des Systems der 27 Subtypen \u2013 das Fundament, auf dem das gesamte moderne Subtypen-Verst\u00e4ndnis ruht. Der Oktopus, der mit acht Armen die Seele der Menschheit kartografiert hat. Tierentsprechung: Oktopus.",
     tags:["Wissenschaft"] , gender:"m"},
@@ -31763,7 +31763,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Melanie Kreis \u2013 Sozialer Typ 6",
     teaser:"SO6w5 \xb7 geb. 1971 in Bonn. Finanzvorst\xe4ndin (CFO) der DHL Group. Physikerin, McKinsey-Beraterin, DAX-Managerin. Das Erdm\xe4nnchen, das Wache h\xe4lt \u2013 f\xfcr einen der gr\xf6\xdften Logistikkonzerne der Welt.",
     tags:["Wirtschaft","F\xfchrung"], gender:"f"},
-  { route:"beruehmte-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5",
+  { route:"beruehmte-sigmund-freud", name:"Dr. Sigmund Freud", subtyp:"SO6w5",
     heading:"Sigmund Freud \u2013 Sozialer Typ 6",
     teaser:"SO6w5 \u00b7 1856\u20131939. Arzt, Neurophysiologe, Begr\u00fcnder der Psychoanalyse. Das Erdm\u00e4nnchen, das Wache h\u00e4lt \u2013 \u00fcber das, was im Dunkeln lauert.",
     tags:["Wissenschaft"] , gender:"m"},
@@ -31895,7 +31895,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Shakira \u2013 Sexueller Typ 7",
     teaser:"SX7w8 \u00b7 geb. 1977 in Barranquilla, Kolumbien. S\u00e4ngerin, Songwriterin, T\u00e4nzerin, Produzentin. \u201eHips Don't Lie\u201c, \u201eWaka Waka\u201c, \u00fcber 80 Millionen verkaufte Tontr\u00e4ger. Der Schimpanse mit Achterfl\u00fcgel: Rhythmus als Sprache des K\u00f6rpers, Intensit\u00e4t ohne Bremse, Kraft, die aus pers\u00f6nlichem Schmerz B\u00fchnenpr\u00e4senz macht.",
     tags:["Musik"], gender:"f"},
-  { route:"beruehmte-umberto-eco", name:"Umberto Eco", subtyp:"SE8w7",
+  { route:"beruehmte-umberto-eco", name:"Dr. Umberto Eco", subtyp:"SE8w7",
     heading:"Umberto Eco \u2013 Selbsterhaltender Typ 8",
     teaser:"SE8w7 \u00b7 1932\u20132016. Schriftsteller, Semiotiker, Philosoph, Medienwissenschaftler. Der Name der Rose, Das Foucaultsche Pendel. 30.000 B\u00fccher. Der Orang-Utan, der im Labyrinth zu Hause ist \u2013 und der wei\u00df, dass alle Zeichen l\u00fcgen. Tierentsprechung: Orang-Utan.",
     tags:["Literatur","Wissenschaft"] , gender:"m"},
@@ -32055,7 +32055,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Friedensreich Hundertwasser \u2013 Sexueller Typ 9",
     teaser:"SX9w1 \u00b7 1928\u20132000. Maler, Architekt, \u00d6kologe. Vom Friedrich Stowasser zum Friedensreich Hundertwasser \u2013 ein Leben als Verschmelzung mit der Natur, gegen die gerade Linie, f\u00fcr das organische Flie\u00dfen. Tierentsprechung: Faultier.",
     tags:["Kunst","Architektur"] , gender:"m"},
-  { route:"beruehmte-carl-rogers", name:"Carl Rogers", added:"2026-08-05", subtyp:"SX9w1",
+  { route:"beruehmte-carl-rogers", name:"Dr. Carl Rogers", added:"2026-08-05", subtyp:"SX9w1",
     heading:"Carl Rogers \u2013 Sexueller Typ 9",
     teaser:"SX9w1 \u00b7 1902\u20131987. Psychologe, Begr\u00fcnder der klientenzentrierten Gespr\u00e4chstherapie. Das Faultier, das den wertfreien Raum schuf, in dem Menschen sich selbst wieder finden konnten \u2013 bedingungslose Wertsch\u00e4tzung als therapeutisches Prinzip.",
     tags:["Psychologie","Wissenschaft"], gender:"m"},
@@ -43847,7 +43847,7 @@ function christianRaetschPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="./assets/portraits/beruehmte-christian-raetsch-portrait.jpg" alt="Eule" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Christian R\u00e4tsch</p>
+        <p class="krim-portrait-name">Dr. Christian R\u00e4tsch</p>
         <p class="krim-portrait-typ">SE5w4 &middot; Selbsterhaltender Typ 5 mit Viererfl\u00fcgel</p>
         <p class="krim-portrait-subtitle">Ethnologe &amp; Ethnopharmakologe, 1957&ndash;2022 &ndash; Tierentsprechung: Eule</p>
       </div>
@@ -45339,7 +45339,7 @@ function umbertEcoPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="./assets/portraits/beruehmte-umberto-eco-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Umberto Eco</p>
+        <p class="krim-portrait-name">Dr. Umberto Eco</p>
         <p class="krim-portrait-typ">SE8w7 &middot; Selbsterhaltender Typ 8 mit Siebenerfl\u00fcgel</p>
         <p class="krim-portrait-subtitle">Schriftsteller, Semiotiker &amp; Philosoph, 1932&ndash;2016 &ndash; Tierentsprechung: Orang-Utan</p>
       </div>
@@ -48166,7 +48166,7 @@ function carlRogersPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="./assets/portraits/beruehmte-carl-rogers-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Carl Rogers</p>
+        <p class="krim-portrait-name">Dr. Carl Rogers</p>
         <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserfl\u00fcgel</p>
         <p class="krim-portrait-subtitle">Psychologe, Begr\u00fcnder der klientenzentrierten Gespr\u00e4chstherapie, 1902&ndash;1987 &ndash; Tierentsprechung: Faultier</p>
       </div>
@@ -49057,7 +49057,7 @@ function sigmundFreudPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="./assets/portraits/beruehmte-sigmund-freud-portrait.jpg" alt="Erdm\u00e4nnchen" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Sigmund Freud</p>
+        <p class="krim-portrait-name">Dr. Sigmund Freud</p>
         <p class="krim-portrait-typ">SO6w5 &middot; Sozialer Typ 6 mit F\u00fcnferfl\u00fcgel</p>
         <p class="krim-portrait-subtitle">Arzt, Neurophysiologe &amp; Begr\u00fcnder der Psychoanalyse, 1856&ndash;1939 &ndash; Tierentsprechung: Erdm\u00e4nnchen</p>
       </div>
@@ -50265,7 +50265,7 @@ function claudioNaranjoPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="./assets/portraits/beruehmte-claudio-naranjo-portrait.jpg" alt="Claudio Naranjo" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Claudio Naranjo</p>
+        <p class="krim-portrait-name">Dr. Claudio Naranjo</p>
         <p class="krim-portrait-typ">SO5w4 &middot; Sozialer Typ 5 mit Viererfl\u00fcgel</p>
         <p class="krim-portrait-subtitle">Psychiater, Autor, Enneagramm- &amp; Meditationslehrer, 1932&ndash;2019 &ndash; Tierentsprechung: Oktopus</p>
       </div>
@@ -51910,7 +51910,7 @@ function jordanPetersonPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="./assets/portraits/beruehmte-jordan-peterson-portrait.jpg" alt="Gans" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Jordan Peterson</p>
+        <p class="krim-portrait-name">Dr. Jordan Peterson</p>
         <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerfl\u00fcgel</p>
         <p class="krim-portrait-subtitle">Psychologe, Autor &amp; Vortragsredner, geb. 1962 &ndash; Tierentsprechung: Gans</p>
       </div>
@@ -53289,7 +53289,7 @@ function albertEinsteinPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="./assets/portraits/beruehmte-albert-einstein-portrait.jpg" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Albert Einstein</p>
+        <p class="krim-portrait-name">Dr. Albert Einstein</p>
         <p class="krim-portrait-typ">SO5w4 &middot; Sozialer Typ 5 mit Vierer\u00adfl\u00fcgel</p>
         <p class="krim-portrait-subtitle">Physiker, Nobelpreistr\u00e4ger, 1879&ndash;1955 &ndash; Begr\u00fcnder der Relativit\u00e4tstheorie &ndash; Tierentsprechung: Oktopus</p>
       </div>
