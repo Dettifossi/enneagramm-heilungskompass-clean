@@ -125,6 +125,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-pamela-smart",        name:"Pamela Smart",                        subtyp:"SX2w3",  heading:"Pamela Smart – Sexual Type 2",                                        teaser:"SX2w3 – The Seductress of Derry, born 1967. Manipulated a 15-year-old student into murdering her husband (1990). The only one of those involved still in prison. The sexual Two with Three-wing: love as leverage, pride as blind spot. Animal correspondence: Camel." , tags:["Nahbereich"]},
   { route:"kriminalpsychologie-michael-franzese",     name:"Michael Franzese",                    subtyp:"SE3w2",  heading:"Michael Franzese \u2013 Self-Preservation Type 3",                          teaser:"SP3w2 – Youngest Mafia capo since Al Capone. Gasoline tax fraud, billion-dollar revenues – and the only mob boss who left the Mafia alive and without a witness protection agreement." , tags:["Mafia"]},
   { route:"kriminalpsychologie-pablo-escobar",       name:"Pablo Escobar",                       subtyp:"SE3w4",  heading:"Pablo Escobar \u2013 Self-Preservation Type 3",                              teaser:"SP3w4 – Drug lord, 1949–1993. 80 % of the world market, 30 billion dollars in assets, folk hero and terrorist at once – the self-preservation Three in its darkest manifestation." , tags:["Mafia","Terror"]},
+  { route:"kriminalpsychologie-tom-keating",         name:"Tom Keating",                         subtyp:"SE3w4",  heading:"Tom Keating \u2013 Self-Preservation Type 3",                                 teaser:"SP3w4 – One of the greatest art forgers of the 20th century, 1917–1984. Over 2,000 forgeries in the styles of around 100 masters, laced with deliberate ‘time bombs’ for later exposure – revenge on the art market rather than personal enrichment." , tags:["Betrug"]},
   { route:"kriminalpsychologie-samuel-bankman-fried", name:"Samuel Bankman-Fried",              subtyp:"SE3w4",  heading:"Samuel Bankman-Fried – Self-Preservation Type 3",                       teaser:"SP3w4 – Founder of FTX and Alameda Research, born 1992. One of the biggest fraud cases in the crypto world: billions in customer funds diverted, 25 years imprisonment 2023. The self-preservation Three with Four-wing: facade of modesty, efficiency mania and inner insecurity as motor of collapse. Animal correspondence: Raccoon." , tags:["Betrug"]},
   { route:"kriminalpsychologie-ruja-ignatova",       name:"Ruja Ignatova",                       subtyp:"SE3w4",  heading:"Ruja Ignatova \u2013 Self-Preservation Type 3",                              teaser:"‘Cryptoqueen’, born 1980. Over 4 billion euros in damages, disappeared without a trace since 2017 – the self-preservation Three with Four-wing: perfect staging, global fraud, radical disappearance." , tags:["Betrug"]},
   { route:"kriminalpsychologie-belle-gunness",         name:"Belle Gunness",                       subtyp:"SE3w4",  heading:"Belle Gunness – Self-Preservation Type 3",                               teaser:"SP3w4 – The Black Widow of La Porte, 1859–1908(?). At least 25–40 victims, including two husbands and numerous men she lured via marriage advertisements. The raccoon: quiet deception, resource control, no desire for recognition – just the next meal. Animal correspondence: Raccoon." , tags:["Serienmord","Betrug"]},
@@ -30102,6 +30103,200 @@ function pabloEscobarPortraitPage() {
 
       ${relatedLinks([
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy"},
+        {route:"kriminalpsychologie-tom-keating", label:"Criminal Psychology: Tom Keating (SE3w4) – Comparison Portrait"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
+        {route:"psychogramme", label:"Psychogramme"},
+      ])}
+    </div>
+  `);
+}
+
+function tomKeatingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Tom Keating – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/tom-keating-portrait.jpg" alt="Tom Keating – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tom Keating</p>
+        <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four-wing</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Tom Keating</strong> (1917–1984) was one of the most prolific art forgers of the 20th century.
+        Over two decades he produced more than 2,000 paintings and drawings in the style of roughly 100
+        different masters – from Samuel Palmer to Rembrandt to Degas. What sets him apart from an ordinary
+        con artist: he deliberately built in errors, "time bombs" meant to expose his forgeries to a trained
+        eye, and understood his work as a protest against an art market that let artists live and die in
+        poverty while profiting from them only after their deaths. The Enneagram makes this contradiction
+        between craftsmanship and revenge campaign readable.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+        <strong>Tom Keating</strong> is assigned to the <strong>Self-Preservation Type 3 with Four-wing</strong> in the Enneagram.
+        The passion of Type Three is <em>Deceit</em> – for the self-preservation subtype, not directed toward image
+        and public admiration as with the Social Three, but toward craft <strong>mastery and security through
+        obscurity</strong>. The Four-wing gives Keating's forgeries an emotional, almost melancholic depth that
+        goes beyond mere copying technique – he genuinely identified with the painters he copied rather than
+        simply imitating them.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Mischievous and Observant:</strong>
+        Photographs and film footage show Keating with an alert, often amused gaze – the eyes of a man
+        precisely registering who sits across from him, equally committed to his role as craftsman and trickster.</p>
+        <p class="vb-intro"><strong>b) Scrutinizing Technique:</strong>
+        His gaze was that of a restorer – trained to grasp brushwork, aging, and material flaws within seconds.
+        He turned this same analytical sharpness on his own forgeries as much as on the originals he studied.</p>
+        <p class="vb-intro"><strong>c) Self-deprecating, Little Vanity:</strong>
+        Unlike many self-preservation Threes, Keating showed little hunger for recognition in interviews – his
+        gaze seemed that of a craftsman discussing a job well done, not a con man celebrating his coup.</p>
+        <p class="vb-intro"><strong>d) Warm in his Television Presence:</strong>
+        In his late TV career, an engaged, teaching gaze emerged – the self-preservation Three now seeking
+        security not through deception, but through shared knowledge.</p>
+        <p class="vb-intro"><strong>e) Unshaken under Pressure:</strong>
+        Even when his fraud became public in 1976, he appeared composed in interviews, almost relieved –
+        typical of the self-preservation Three, who would rather let a long-held facade drop completely than
+        defend it half-heartedly.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Extraordinary Craft Mastery:</strong>
+        As the son of a painter and himself a restorer of old paintings, Keating mastered the techniques,
+        pigments, and aging processes of past centuries like almost no one else of his time.</p>
+        <p class="vb-intro"><strong>b) Disguised Rebellion:</strong>
+        His fraud was not aimed at individuals but at a system – the art market, which he saw as exploiting
+        artists. The self-preservation Three often channels anger not openly, but through covert, long-planned actions.</p>
+        <p class="vb-intro"><strong>c) Extreme Productivity:</strong>
+        Over 2,000 works in around 100 styles – an output that marks the self-preservation Three: security
+        arises not from a single masterpiece but from sheer volume and steady labor.</p>
+        <p class="vb-intro"><strong>d) Built-in Self-Sabotage:</strong>
+        Keating deliberately mixed glycerine into his paint to cause premature craquelure, and wrote hidden
+        messages in lead white beneath the paint layer, visible only under X-ray – a double game of deception
+        and self-exposure that reveals the inner split of Type Three between facade and truth.</p>
+        <p class="vb-intro"><strong>e) Modest Lifestyle despite Talent:</strong>
+        Unlike Escobar or Madoff, Keating hardly pursued personal wealth – his motive was not accumulation, but
+        satisfaction and the feeling of being needed and recognized.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
+        <p class="vb-intro"><strong>a) Identification with the Model:</strong>
+        Keating deeply revered the Romantic landscape painter Samuel Palmer, whose poverty during his lifetime
+        outraged him. His forgeries of Palmer's works were at once homage and act of revenge.</p>
+        <p class="vb-intro"><strong>b) Need for Control over Interpretation:</strong>
+        He wanted not merely to deceive but eventually to be exposed – on his own terms. The built-in "time
+        bombs" secure the self-preservation Three's control over their own story.</p>
+        <p class="vb-intro"><strong>c) Moral Self-Justification:</strong>
+        Keating did not see himself as a criminal but as a fighter for justice against exploitative art
+        dealers. This reframing of deceit as moral action is a core pattern of Type Three.</p>
+        <p class="vb-intro"><strong>d) Adaptability across Genres:</strong>
+        He forged not just one style but moved effortlessly between watercolor, oil painting, and printmaking,
+        between English Romanticism and French Impressionism – a raccoon at home in any environment.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) Approachable rather than Intimidating:</strong>
+        Unlike many perpetrators in this category, Keating came across as likeable rather than threatening – a
+        trait that later made his transformation into a beloved television star possible.</p>
+        <p class="vb-intro"><strong>b) Shaking an Entire Market:</strong>
+        His exposure in 1976 triggered a crisis of confidence in the British art trade – to this day, numerous
+        works in museums and private collections are considered "possibly a Keating."</p>
+        <p class="vb-intro"><strong>c) Trial without Verdict:</strong>
+        In 1979 he was charged with fraud, but the case was dropped on health grounds before a verdict was
+        reached – the self-preservation Three retaining control over the outcome even in collapse.</p>
+        <p class="vb-intro"><strong>d) A Second Career as Respected Teacher:</strong>
+        With the television series "Tom Keating on Painters" (1982), he transformed from fraudster into
+        celebrated teacher of old master techniques – a rare case where Type Three's deceit ultimately gave
+        way to publicly recognized mastery.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Restless Creative Energy:</strong>
+        Keating's productivity seemed almost obsessive – witnesses described nights in which he completed an
+        entire painting in the style of an old master within hours.</p>
+        <p class="vb-intro"><strong>b) Suppressed Anger, Sublimated into Art:</strong>
+        Rather than open confrontation, he channeled his anger at the art market into decades of quiet
+        sabotage – the blocked heart energy of Type Three, discharged not in direct relationships but in a
+        body of work against a system.</p>
+        <p class="vb-intro"><strong>c) Relief after Exposure:</strong>
+        Those who encountered him after 1976 describe a visibly relieved man – as if decades of inner tension
+        had lifted along with the end of the facade.</p>
+        <p class="vb-intro"><strong>d) Warm Energy in the Role of Teacher:</strong>
+        In his TV appearances he seemed open and generous with his knowledge – an energy that stands in
+        contrast to the cold calculation of other self-preservation Threes in this category.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Raccoon</h3>
+        <p class="vb-intro"><strong>a) Nimble Hands, Precise Work:</strong>
+        The raccoon is known for its fine motor dexterity – Keating's painterly virtuosity across a hundred
+        different techniques mirrors exactly this dexterity.</p>
+        <p class="vb-intro"><strong>b) Nocturnal and Hidden:</strong>
+        Like the raccoon, Keating operated for decades in the shadow of the official art world, invisible,
+        until his forgeries had long since circulated through galleries and collections.</p>
+        <p class="vb-intro"><strong>c) Adaptable to any Environment:</strong>
+        Whether Victorian watercolor or French Impressionism – the raccoon in Keating found its footing in
+        every stylistic "terrain" and adapted its approach to each setting.</p>
+        <p class="vb-intro"><strong>d) The Masked Trickster:</strong>
+        The raccoon's characteristic "mask" fits a man whose entire practice rested on the principle of
+        disappearing behind other faces – the styles of other painters.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Tom Keating</strong> embodied the Self-Preservation Type 3 in one of its most unusual forms:
+        deceit not for enrichment, but as a moral campaign against a system he considered exploitative. Craft
+        mastery, built-in self-exposure, and a Four-wing seeking genuine emotional connection to the masters he
+        copied – all of this makes him the raccoon among art forgers: unassuming, adaptable, and in the end
+        exposed because he wanted it that way. He died in 1984, shortly after finding success as a television
+        teacher, without ever being convicted.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Supplementary Deep Insights</h3>
+        <p class="vb-intro"><strong>a) The "Sexton Blakes":</strong>
+        Keating called his forgeries "Sexton Blakes" in Cockney rhyming slang (rhymes with "fakes"). This
+        self-deprecating nickname shows how little he regarded his work as a serious crime – to him it was
+        craftsmanship with a message.</p>
+        <p class="vb-intro"><strong>b) The Built-in "Time Bombs":</strong>
+        He deliberately placed anachronistic materials and hidden clues in his works – for instance modern
+        pigments bound to stand out under X-ray analysis. He did not want to remain undiscovered forever, but
+        to prove to posterity how easily experts could be fooled.</p>
+        <p class="vb-intro"><strong>c) The "Sepham Barn" Case:</strong>
+        In 1976, art critic Geraldine Norman of The Times identified a supposed Samuel Palmer watercolor
+        called "Sepham Barn" as a forgery. The ensuing investigation brought Keating's entire life's work to
+        light – a moment he later described almost as a liberation.</p>
+        <p class="vb-intro"><strong>d) Motive: Revenge, Not Greed:</strong>
+        In interviews Keating repeatedly insisted his goal was never personal enrichment, but a protest against
+        art dealers who, in his view, let artists like Samuel Palmer live in poverty only to profit from their
+        work after death.</p>
+        <p class="vb-intro"><strong>e) The Second Career:</strong>
+        Rather than ending up in prison, Keating became a public favorite through the television series "Tom
+        Keating on Painters," bringing the techniques of Rembrandt, Constable, and Degas to millions of
+        viewers – a rare turn from deceiver to publicly respected master.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Self-Preservation Type 3 in all its depth – mastery, deceit, and the path from functioning to true being.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles – how the self-preservation Three differs from the social and sexual Three, pointed and precise.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "The Self-Preservation Type 3 portrayed in depth – passion, blocked heart energy, and healing path.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves the purpose of depth-psychological analysis. The typological assignment is a psychological hypothesis, not a historical judgment. Tom Keating deceived the art market for over two decades, causing harm to collectors and museums alike. He died in 1984 without ever being legally convicted. The Enneagram explains; it does not justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SE3w4) – Comparison Portrait"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
         {route:"psychogramme", label:"Psychogramme"},
       ])}
@@ -48969,6 +49164,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-gary-ridgway": garyRidgwayPortraitPage,
       "kriminalpsychologie-ted-bundy": tedBundyPortraitPage,
       "kriminalpsychologie-pablo-escobar": pabloEscobarPortraitPage,
+      "kriminalpsychologie-tom-keating": tomKeatingPortraitPage,
       "kriminalpsychologie-harvey-weinstein": harveyWeinsteinPortraitPage,
       "kriminalpsychologie-luka-magnotta": lukaMagnottaPortraitPage,
       "kriminalpsychologie-andrew-cunanan": andrewCunananPortraitPage,
