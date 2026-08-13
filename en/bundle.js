@@ -630,6 +630,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Abida Parveen – Self-Preservation Type 9",
     teaser:"SP9w8 · born 1954 in Larkana, Pakistan. Singer, “Queen of Sufi Music”, foremost living interpreter of Kalam and Qawwali. The elephant that sinks into trance and sweeps entire concert halls along with her – stillness turning into ecstasy.",
     tags:["Musik","Spiritualität"], gender:"f"},
+  { route:"beruehmte-johannes-brahms", name:"Johannes Brahms", added:"2026-08-13", subtyp:"SE9w8",
+    heading:"Johannes Brahms – Self-Preservation Type 9",
+    teaser:"SP9w8 · 1833–1897. German composer. Discovered by Robert Schumann in 1853, four decades of loyalty to the Schumann family, 21 years working on his First Symphony. The elephant with the Eight-wing: blunt wit, unshakable patience, and a loyalty that never gave up. Animal correspondence: Elephant.",
+    tags:["Music","History"], gender:"m"},
   { route:"beruehmte-steffi-graf", name:"Steffi Graf", subtyp:"SO9w1",
     heading:"Steffi Graf – Social Type 9",
     teaser:"SO9w1 · born 1969. Tennis player, 22 Grand Slam titles, Golden Slam 1988. The buffalo that simply runs – persistent, grounded, with an inner stillness stronger than any victory celebration. Animal correspondence: Buffalo.",
@@ -678,10 +682,6 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-robert-schumann", name:"Robert Schumann", added:"2026-08-13", subtyp:"SX7w8",
     heading:"Robert Schumann – Sexual Type 7",
     teaser:"SX7w8 · 1810–1856. German composer and music critic. Year of Song 1840, discoverer of Johannes Brahms, years-long fight for Clara Wieck. The chimpanzee with the Eight-wing: boundless enthusiasm, combative devotion – and an intensity that in the end turned against himself. Animal correspondence: Chimpanzee.",
-    tags:["Music","History"], gender:"m"},
-  { route:"beruehmte-johannes-brahms", name:"Johannes Brahms", added:"2026-08-13", subtyp:"SE9w8",
-    heading:"Johannes Brahms – Self-Preservation Type 9",
-    teaser:"SP9w8 · 1833–1897. German composer. Discovered by Robert Schumann in 1853, four decades of loyalty to the Schumann family, 21 years working on his First Symphony. The elephant with the Eight-wing: blunt wit, unshakable patience, and a loyalty that never gave up. Animal correspondence: Elephant.",
     tags:["Music","History"], gender:"m"},
   { route:"beruehmte-shakira", name:"Shakira", added:"2026-08-04", subtyp:"SX7w8",
     heading:"Shakira – Sexual Type 7",
@@ -25315,7 +25315,7 @@ function johannesBrahmsPortraitPage() {
 
         <h2 class="vb-section">1. The Elephant</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>elephant</strong> is the animal of Type 9 &ndash; a being of enormous weight that nonetheless moves through the world unhurried, almost deliberate, that forgets nothing, and that never abandons anyone to whom it has once pledged loyalty. Johannes Brahms was this elephant: massive in his artistic stature, unshakable in his bonds, and possessed of a memory that carried a single friendship across four decades.</p>
+          <p class="vb-intro">The <strong>elephant</strong> is the animal of the self-preservation Nine of the Enneagram &ndash; a being of enormous weight that nonetheless moves through the world unhurried, almost deliberate, that forgets nothing, and that never abandons anyone to whom it has once pledged loyalty. Johannes Brahms was this elephant: massive in his artistic stature, unshakable in his bonds, and possessed of a memory that carried a single friendship across four decades.</p>
           <p class="vb-intro">Born in 1833 in Hamburg as the son of a town musician, the young Brahms earned money as a teenager playing piano in the dockside taverns of St. Pauli &ndash; a hard, spare schooling that kept him modest for the rest of his life, even after fame had made him one of the wealthiest composers in Europe.</p>
         </blockquote>
 
@@ -25345,7 +25345,7 @@ function johannesBrahmsPortraitPage() {
 
         <h2 class="vb-section">6. The Legacy: The Keeper Who Never Left</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Brahms left behind a body of work that did not preserve the classical tradition as a museum piece but thought it through to its final consequence &ndash; four symphonies, chamber music of unmatched density, the German Requiem, composed in memory of his mother. No composer of the 19th century took the forms of Bach and Beethoven so seriously while penetrating them so personally.</p>
+          <p class="vb-intro">Brahms left behind a body of work that did not preserve the classical tradition as a museum piece but thought it through to its final consequence &ndash; four symphonies, chamber music of unmatched density, the German Requiem, composed in memory of his mother. No composer of the 19th century took the forms of Bach (SX1w9) and Beethoven (SX6w5) so seriously while penetrating them so personally.</p>
           <p class="vb-intro">Yet the true legacy of the SP9w8 lies not in the notes alone. It lies in the loyalty of a man who, seeking neither fame nor recognition, stayed with a family that had once discovered him for forty years out of quiet, unshakable devotion. The elephant with the Eight-wing: patient enough to refine a symphony for two decades &ndash; and stubborn enough never to abandon a loyalty once given.</p>
         </blockquote>
 
@@ -25356,6 +25356,7 @@ function johannesBrahmsPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8) – his discoverer"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
         {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
       ])}
     </div>
