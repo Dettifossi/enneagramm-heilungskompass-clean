@@ -598,6 +598,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Diogenes – Sexual Type 8",
     teaser:"SX8w7 · born c. 412 BC in Sinope, died 323 BC in Corinth. Philosopher, founder of Cynicism, lived in a barrel. The crocodile that publicly tore apart every social convention – shameless, uncompromising, free.",
     tags:["Philosophie"]},
+  { route:"beruehmte-giacomo-puccini", name:"Giacomo Puccini", added:"2026-08-13", subtyp:"SX8w7",
+    heading:"Giacomo Puccini – Sexual Type 8",
+    teaser:"SX8w7 · 1858–1924. Italian opera composer. \"La Bohème\", \"Tosca\", \"Madama Butterfly\", the unfinished \"Turandot\". The crocodile with the Seven-wing: uncompromising passion on stage and in life, race cars, hunting, and a scandal over jealousy. Animal correspondence: Crocodile.",
+    tags:["Music","History"], gender:"m"},
   { route:"beruehmte-gerhard-schroeder", name:"Gerhard Schröder", added:"2026-08-09", subtyp:"SX8w7",
     heading:"Gerhard Schröder – Sexual Type 8",
     teaser:"SX8w7 · born 1944. German Chancellor (1998–2005). Agenda 2010, the \"Basta principle\", media chancellor. The crocodile that forced through the great reform effort against every resistance – then kept going its own way, unbowed.",
@@ -21165,6 +21169,71 @@ function rowanAtkinsonPortraitPage() {
           {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function giacomoPucciniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-giacomo-puccini-portrait.jpg" alt="Giacomo Puccini" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Giacomo Puccini</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Italian opera composer, 1858&ndash;1924 &ndash; Animal correspondence: Crocodile</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Crocodile</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>crocodile</strong> is the animal of Sexual Type 8 &ndash; a creature that has no regard for social order, takes no notice of etiquette, and yet commands the full attention of any space it enters. Giacomo Puccini came from a family that had supplied church musicians in Lucca for generations &ndash; an inheritance of restraint and piety that he broke with his entire being.</p>
+          <p class="vb-intro">Born in 1858, he studied at the Milan Conservatory and found his calling not in the church choir but on the opera stage &ndash; where passion, betrayal, death, and desire are negotiated in their rawest form. Puccini did not write polite music. He wrote music that seizes, the way a crocodile seizes: suddenly, completely, without warning.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Eight: Possession and Surrender Without Reservation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called <strong>Sexual Eight (SX8)</strong> <em>Possession</em>: complete encounter, total connection, an influence that is not negotiable. What SX8 loves, it loves with its entire being &ndash; and that is exactly the core of Puccini's music. His great female characters &ndash; Mimì, Tosca, Cio-Cio-San &ndash; do not love, suffer, and die in moderation, but totally. Puccini never composed love and death as suggestion; always as full consummation.</p>
+          <p class="vb-intro">The same pattern shaped his private life. His relationship with Elvira Gemignani began as an open scandal &ndash; she was still married at the time, and the provincial town of Lucca reacted with outrage. Puccini paid it little mind. When in 1908 his young household maid Doria Manfredi was wrongly accused of infidelity with him by the jealous Elvira and subsequently took her own life, the autopsy proved her innocence &ndash; a tragedy that shows how much possessiveness and jealousy in Puccini's immediate circle could turn into a destructive force.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: The Hunger for Speed and Pleasure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives Sexual Eight an additional quality: a hunger for pleasure, speed, and ever-new experience. Puccini was one of the first Italians to own his own automobile &ndash; in 1903 he suffered a severe accident that kept him bedridden for months, without it dampening his passion for fast vehicles.</p>
+          <p class="vb-intro">At his estate on Lake Massaciuccoli in Torre del Lago, he spent countless hours duck hunting and piloting his motorboats &ndash; pleasure he indulged in with the same uncompromising intensity as his success on the opera stage. The Seven-wing turns the Eight's pure intensity into a search for ever-new stimulation: speed, water, game, wine, women &ndash; nothing was allowed to be missing, and nothing was enjoyed in moderation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Verismo as Uncompromising Truthfulness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Puccini belonged to the movement of <em>Verismo</em> &ndash; musical realism that freed grand operatic subject matter from mythological distance and brought it into the immediate, often brutal present. "La Bohème" (1896) portrays poverty and death without embellishment, "Tosca" (1900) shows torture, murder, and suicide with unsparing directness, "Madama Butterfly" (1904) the colonial betrayal of a woman who gives everything for her love and loses everything.</p>
+          <p class="vb-intro">At the same time, Puccini was a merciless perfectionist as a craftsman: he wore down his librettists Illica and Giacosa with endless demands for revision, discarding entire scenes when they did not satisfy him. SX8w7 demands intensity not only in expression but in process &ndash; nothing was allowed to be merely "good enough" when it could be "completely true."</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The Line Between Passion and Destruction</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SX8w7 is its ability to express feeling with an immediacy that more reserved natures shy away from. Puccini's music still touches millions today because it allows no distance &ndash; it strikes directly. No composer of his time understood better how to build an entire emotional world from a single musical motif.</p>
+          <p class="vb-intro">The shadow of this intensity showed in Puccini's dealings with the people around him: his numerous affairs permanently burdened his marriage to Elvira, and the tragedy surrounding Doria Manfredi remains a dark stain, where possessiveness and unrestrained jealousy &ndash; his own as well as his wife's &ndash; cost a human life. SX8w7, which seizes everything with full force, can in its unhealthy state also sweep away everything around it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Unfinished Final Note</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Puccini worked to the very end on "Turandot," his most ambitious opera, when in 1924 throat cancer, the result of decades of smoking, took his life in Brussels during radiation treatment. The work remained unfinished at the point where Liù, the most faithful and selfless of his female characters, dies for love.</p>
+          <p class="vb-intro">At the 1926 premiere, conductor Arturo Toscanini stopped the orchestra exactly at the point where Puccini's own music ended, turned to the audience, and said: "Here the opera ends, because at this point the Maestro died." A moment of exactly that immediate, uncompromising force that had shaped the whole of Puccini's work and life &ndash; the crocodile with the Seven-wing, who to the very last note knew no half-measures.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
+        {route:"beruehmte-diogenes", label:"Portrait: Diogenes of Sinope (SX8w7)"},
+        {route:"beruehmte-gerhard-schroeder", label:"Portrait: Gerhard Schröder (SX8w7)"},
+      ])}
     </div>
   `);
 }
@@ -49448,6 +49517,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
+      "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-carsten-stahl": carstenStahlPortraitPage,
