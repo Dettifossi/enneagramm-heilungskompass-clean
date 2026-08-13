@@ -21322,7 +21322,7 @@ function johannSebastianBachPortraitPage() {
         <h2 class="vb-section">2. Sexual One: Zeal and the Contratype</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro"><strong>Sexual One (SX1)</strong> is the <strong>contratype of the One</strong> &ndash; the subtype that looks least like a moralizer and yet is the most uncompromising of all. Naranjo called this subtype <em>Zeal</em>: a burning desire to come as close as possible to the perfect, more unfiltered and direct than in any other One subtype. Bach lived this zeal not in words but in an almost inexhaustible creative intensity &ndash; over 1,000 surviving works, often a complete cantata per week for years on end.</p>
-          <p class="vb-intro">At age 20, he walked roughly 400 kilometers to Lübeck to hear the famous organist Dieterich Buxtehude play &ndash; and stayed, instead of the approved four weeks, a full four months, willingly risking his position in Arnstadt and its consequences. That is Sexual One: when something is worthy of full commitment, there is no halfhearted measure.</p>
+          <p class="vb-intro">At age 20, he walked from Arnstadt roughly 400 kilometers to Lübeck to hear the famous organist Dieterich Buxtehude play &ndash; and stayed, instead of the approved four weeks, a full four months, willingly risking his position in Arnstadt and its consequences. That is Sexual One: when something is worthy of full commitment, there is no halfhearted measure.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine-Wing: Persistence Behind the Fire</h2>
