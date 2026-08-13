@@ -31867,6 +31867,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Robert Schumann – Sexueller Typ 7",
     teaser:"SX7w8 · 1810–1856. Deutscher Komponist und Musikkritiker. Liederjahr 1840, Entdecker von Johannes Brahms, jahrelanger Kampf um Clara Wieck. Der Schimpanse mit Achterflügel: schrankenlose Begeisterung, kämpferische Hingabe – und eine Intensität, die sich am Ende gegen ihn selbst wandte. Tierentsprechung: Schimpanse.",
     tags:["Musik","Geschichte"], gender:"m"},
+  { route:"beruehmte-johannes-brahms", name:"Johannes Brahms", added:"2026-08-13", subtyp:"SE9w8",
+    heading:"Johannes Brahms – Selbsterhaltender Typ 9",
+    teaser:"SE9w8 · 1833–1897. Deutscher Komponist. 1853 von Robert Schumann entdeckt, vier Jahrzehnte treuer Begleiter der Familie Schumann, 21 Jahre Arbeit an der 1. Symphonie. Der Elefant mit Achterflügel: schroffer Witz, unerschütterliche Geduld und eine Treue, die nie aufgab. Tierentsprechung: Elefant.",
+    tags:["Musik","Geschichte"], gender:"m"},
   { route:"beruehmte-shakira", name:"Shakira", added:"2026-08-04", subtyp:"SX7w8",
     heading:"Shakira \u2013 Sexueller Typ 7",
     teaser:"SX7w8 \u00b7 geb. 1977 in Barranquilla, Kolumbien. S\u00e4ngerin, Songwriterin, T\u00e4nzerin, Produzentin. \u201eHips Don't Lie\u201c, \u201eWaka Waka\u201c, \u00fcber 80 Millionen verkaufte Tontr\u00e4ger. Der Schimpanse mit Achterfl\u00fcgel: Rhythmus als Sprache des K\u00f6rpers, Intensit\u00e4t ohne Bremse, Kraft, die aus pers\u00f6nlichem Schmerz B\u00fchnenpr\u00e4senz macht.",
@@ -44876,6 +44880,7 @@ function robertSchumannPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5)"},
         {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5)"},
+        {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8) – von Schumann entdeckt"},
         {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
       ])}
     </div>
@@ -47609,6 +47614,71 @@ function abidaParveenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se9", label:"SE9 \u2013 Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portr\u00e4t: Hans-Dietrich Genscher (SE9w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function johannesBrahmsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-johannes-brahms-portrait.jpg" alt="Johannes Brahms" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johannes Brahms</p>
+        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Komponist, 1833–1897 – Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des Typs 9 – ein Wesen von enormem Gewicht, das sich trotzdem gemächlich, fast bedächtig durch die Welt bewegt, das nichts vergisst und niemanden verlässt, dem es einmal die Treue geschworen hat. Johannes Brahms war dieser Elefant: massig in seiner künstlerischen Statur, unerschütterlich in seinen Bindungen, und mit einem Gedächtnis, das eine einzige Freundschaft über vier Jahrzehnte trug.</p>
+          <p class="vb-intro">Geboren 1833 in Hamburg als Sohn eines Stadtmusikers, verdiente sich der junge Brahms als Teenager sein Geld am Klavier in Hafenkneipen St. Paulis – eine harte, karge Schule, die ihn Zeit seines Lebens genügsam bleiben ließ, auch als sein Ruhm ihn längst zu einem der reichsten Komponisten Europas gemacht hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit im Kleinen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nannte Naranjo <em>Appetit</em>: Frieden nicht durch große Gesten, sondern durch das verlässliche, oft unscheinbare Ritual – die immer gleiche Kneipe, der immer gleiche Spaziergang, die immer gleiche Sommerfrische. Brahms verkörperte dieses Muster bis ins Detail. Jeden Sommer zog er sich in dieselben ländlichen Orte zurück, um zu komponieren, saß abends verlässlich in seinen Wiener Stammlokalen bei Bier und Zigarre, und hielt an seinen Gewohnheiten mit einer Sturheit fest, die Freunde amüsierte und manchmal auch verzweifeln ließ.</p>
+          <p class="vb-intro">Trotz seines beträchtlichen Vermögens lebte er bewusst einfach – in bescheidenen Wiener Zimmern, ohne Prunk, ohne Dienerschaft. Sein Geld floss stattdessen still und meist anonym an bedürftige Musiker, an die Familien früherer Weggefährten, an den jungen Antonín Dvořák, dessen Karriere er entscheidend förderte. Die SE9 sucht Sicherheit nicht im Besitz, sondern im Vertrauten – und Brahms fand seine Sicherheit darin, gebraucht zu werden, ohne dass es jemand erfuhr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Der schroffe Ton hinter der Stille</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> verleiht der selbsterhaltenden Neun etwas, das die reine Neun oft vermissen lässt: eine Kante, die nicht verhandelbar ist. Brahms war berühmt-berüchtigt für seine bissige Schlagfertigkeit. Als er einmal eine Gesellschaft verließ, soll er im Hinausgehen gesagt haben: "Wenn hier jemand ist, den ich nicht beleidigt habe, so bitte ich um Entschuldigung." Das ist keine Anekdote über Bosheit – das ist der Achterflügel, der die konfliktscheue Neun mit einer schneidenden Direktheit ausstattet, die niemand erwartet.</p>
+          <p class="vb-intro">Diese Härte zeigte sich am deutlichsten im sogenannten "Streit der Romantiker": Während Franz Liszt und Richard Wagner mit der "Neudeutschen Schule" die Programmmusik und radikale harmonische Neuerungen vorantrieben, positionierte sich Brahms – gemeinsam mit dem Kritiker Eduard Hanslick – als kompromissloser Verteidiger der klassischen Formen Bachs und Beethovens. Er zog sich aus diesem Streit nie zurück, suchte ihn auch nicht aktiv – aber wenn er einmal Stellung bezogen hatte, bewegte ihn niemand mehr davon weg. Das ist die Neun mit Achterflügel: geduldig bis zu dem Punkt, an dem sie es nicht mehr ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Trägheit als beharrliches Feilen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> – nicht Faulheit, sondern das Beharren im Vertrauten, die Weigerung, sich hetzen zu lassen. Bei Brahms wurde daraus eine schöpferische Geduld von fast unmenschlichem Ausmaß: Über 21 Jahre arbeitete er an seiner 1. Symphonie, weil er sich im übermächtigen Schatten Beethovens sah und jeden Takt so lange prüfte, bis er ihm standhielt. Der Dirigent Hans von Bülow nannte das fertige Werk später respektvoll "Beethovens Zehnte".</p>
+          <p class="vb-intro">Diese Trägheit war kein Mangel an Ehrgeiz, sondern das genaue Gegenteil: ein Beharren, das sich nicht drängen ließ, auch nicht vom eigenen Talent. Brahms vernichtete unzählige frühe Werke, die ihm nicht genügten, und veröffentlichte lieber gar nichts als etwas Unfertiges. Die Neun, die im Vertrauten Sicherheit sucht, fand ihre Sicherheit hier in der klassischen Form selbst – und weigerte sich, sie zu verlassen, bevor sie sie vollständig durchdrungen hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Robert und Clara Schumann: Die geteilte Acht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1853 spielte der 20-jährige, noch unbekannte Brahms dem Ehepaar Schumann in Düsseldorf vor. Robert Schumann – selbst eine sexuelle Sieben mit Achterflügel (SX7w8) – erkannte in ihm sofort den kommenden Meister und verkündete es der Welt in seinem Essay "Neue Bahnen" ohne jede Zurückhaltung. Zwei Achterflügel-Naturen trafen hier aufeinander: der stürmische, sich sofort und vollständig begeisternde Schumann und der zurückhaltendere, aber ebenso unbeugsame Brahms. Es war, als hätte die Acht in beiden sofort erkannt, was in dem jeweils anderen steckte.</p>
+          <p class="vb-intro">Als Schumann nur ein Jahr später in geistiger Umnachtung in den Rhein sprang und sich in die Heilanstalt Endenich einweisen ließ, war es Brahms, der blieb. Er zog nach Düsseldorf, unterstützte Clara Schumann bei der Versorgung ihrer sieben Kinder, kümmerte sich um die Finanzen der Familie und besuchte Robert regelmäßig in der Anstalt – während Clara selbst ihn kaum sehen durfte. Das ist die Elefanten-Treue der selbsterhaltenden Neun in ihrer reinsten Form: Wo ein anderer nach dem ersten Enthusiasmus weitergezogen wäre, blieb Brahms – über Jahrzehnte, bis zu Clara Schumanns Tod 1896. Er selbst starb nur elf Monate später. Der Elefant, der nichts vergisst, hatte bis zuletzt nicht vergessen, wem er seinen ersten großen Anfang verdankte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Bewahrer, der niemanden verließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brahms hinterließ ein Werk, das die klassische Tradition nicht museal konservierte, sondern mit letzter Konsequenz zu Ende dachte – vier Symphonien, Kammermusik von unerreichter Dichte, das Deutsche Requiem, komponiert im Angedenken an seine Mutter. Kein Komponist des 19. Jahrhunderts hat die Formen Bachs und Beethovens so ernst genommen und zugleich so persönlich durchdrungen.</p>
+          <p class="vb-intro">Das eigentliche Vermächtnis der SE9w8 aber liegt nicht allein in den Noten. Es liegt in der Treue eines Mannes, der weder für Ruhm noch für Anerkennung, sondern aus stiller, unerschütterlicher Verbundenheit vierzig Jahre lang bei einer Familie blieb, die ihn einst entdeckt hatte. Der Elefant mit dem Achterflügel: geduldig genug, um zwei Jahrzehnte an einer Symphonie zu feilen – und stur genug, um eine einmal gegebene Treue nie wieder aufzugeben.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"beruehmte-robert-schumann", label:"Porträt: Robert Schumann (SX7w8) – sein Entdecker"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-baerbel-bas", label:"Porträt: Bärbel Bas (SE9w1)"},
       ])}
     </div>
   `);
@@ -83189,6 +83259,7 @@ function render() {
       "beruehmte-ina-mueller": inaMuellerPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-robert-schumann": robertSchumannPortraitPage,
+      "beruehmte-johannes-brahms": johannesBrahmsPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
