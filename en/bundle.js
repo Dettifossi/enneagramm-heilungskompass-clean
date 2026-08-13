@@ -675,6 +675,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Boris Becker – Sexual Type 7",
     teaser:"SX7w8 · born 1967. Tennis professional, three-time Wimbledon winner, youngest Wimbledon champion of all time (1985, at 17 years old). The chimpanzee with eight wings: limitless intensity, fame as a home, and the lifelong struggle for the image of the great Boris. Animal correspondence: Chimpanzee.",
     tags:["Sports"] , gender:"m"},
+  { route:"beruehmte-robert-schumann", name:"Robert Schumann", added:"2026-08-13", subtyp:"SX7w8",
+    heading:"Robert Schumann – Sexual Type 7",
+    teaser:"SX7w8 · 1810–1856. German composer and music critic. Year of Song 1840, discoverer of Johannes Brahms, years-long fight for Clara Wieck. The chimpanzee with the Eight-wing: boundless enthusiasm, combative devotion – and an intensity that in the end turned against himself. Animal correspondence: Chimpanzee.",
+    tags:["Music","History"], gender:"m"},
   { route:"beruehmte-shakira", name:"Shakira", added:"2026-08-04", subtyp:"SX7w8",
     heading:"Shakira – Sexual Type 7",
     teaser:"SX7w8 · born 1977 in Barranquilla, Colombia. Singer, songwriter, dancer, producer. “Hips Don't Lie”, “Waka Waka”, over 80 million records sold. The chimpanzee with Eight-wing: rhythm as the language of the body, intensity without a brake, strength that turns personal pain into stage presence.",
@@ -15764,6 +15768,71 @@ function borisBeckerPortraitPage() {
   `);
 }
 
+function robertSchumannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-robert-schumann-portrait.jpg" alt="Robert Schumann" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robert Schumann</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">German composer and music critic, 1810&ndash;1856 &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee in Two Guises</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of Sexual Type 7 &ndash; a creature that does not live in quiet distance but in immediate, often overflowing contact with the world. Few composers made this dual nature as conscious as Robert Schumann, who split his own personality into two literary figures: the stormy, impulsive <em>Florestan</em> and the dreamy, inward-turned <em>Eusebius</em>. He signed his music reviews alternately with both names &ndash; as if he himself knew that more than one voice spoke within him.</p>
+          <p class="vb-intro">Born in 1810 in Zwickau as the son of a bookseller and writer, Schumann grew up in a house full of literature. The chimpanzee's restlessness showed itself early: law studies here, piano virtuosity there, poetry in between &ndash; before he finally committed himself entirely to music. A self-inflicted hand injury, likely caused by a mechanical practice device, abruptly ended his career as a pianist and redirected all his energy toward composing and writing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Seven: Enthusiasm Without Reservation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Sexual Seven (SX7)</strong> does not seek cautious examination but complete surrender to whatever excites it. Naranjo called this subtype <em>Suggestibility</em>: the ability to draw oneself and others entirely into a state of enthusiasm. Schumann lived this pattern not only in his music but as a critic and discoverer as well.</p>
+          <p class="vb-intro">In 1853, three years before his death, he heard a completely unknown 20-year-old pianist named Johannes Brahms play &ndash; and that same evening wrote in his diary that here was someone "called to give ideal expression to the highest expression of the age." Days later he published the essay <em>Neue Bahnen</em> (New Paths), proclaiming the young Brahms, without any reservation, as a coming master &ndash; a leap into enthusiasm that a more cautious critic would never have dared. That is exactly Sexual Seven: not a measured assessment, but the full, contagious outburst of enthusiasm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: The Fight for Clara</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Sexual Seven something pure Sevens often lack: the willingness for open combat. Schumann fell in love with Clara Wieck, the highly gifted pianist daughter of his own piano teacher Friedrich Wieck &ndash; and Wieck did everything to prevent the union: smear campaigns, relocations, even a years-long court case.</p>
+          <p class="vb-intro">A pure Seven would likely have given up on this front and turned to an easier love. Schumann instead fought for years, took the matter to court, and finally forced the marriage in 1840 against his teacher's declared will. That is the Eight-wing of the Sexual Seven: where the pure Seven evades, the SX7w8 stays and prevails &ndash; not out of calculation, but because the longed-for object of enthusiasm cannot be given up at any price.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Gluttony as Creative Outburst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Seven is called <strong>gluttony</strong> or <strong>excess</strong> &ndash; the insatiable hunger for more. In Schumann this did not manifest as dispersal but as creative bursts of almost inconceivable density. In the year of his wedding, 1840, he composed over 140 songs &ndash; still known today as his "Liederjahr" (Year of Song). 1841 followed as the "Symphonic Year," 1842 as the "Chamber Music Year." Schumann did not work in an even flow but in waves of total devotion to a single genre, until the next outburst overwrote everything.</p>
+          <p class="vb-intro">This excess was both blessing and warning sign. As long as the creative energy found a channel, a body of work of enormous breadth emerged &ndash; piano works, songs, symphonies, chamber music, an opera. But the same inability to slow down that carried his creative power also carried the instability that would later overwhelm his life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Shadow: When Intensity Turns Against Oneself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schumann suffered throughout his life from severe mood swings that intensified dramatically in his final years &ndash; voices in his head, tormenting anxiety, the loss of the ability to think clearly. In February 1854, in a fit of utter despair, he left his house and jumped into the Rhine. Fishermen pulled him out, barely alive.</p>
+          <p class="vb-intro">What happened afterward has rarely been documented as openly as in Schumann's case: he himself asked to be admitted to an asylum near Bonn &ndash; an act in which a last remnant of conscious control still lay over a situation that had long since spiraled out of control. He lived there for two years, largely isolated from Clara, whom he was allowed to see again only shortly before his death in 1856. Only the young Brahms, whom he had discovered three years earlier, visited him regularly and became the family's closest support during this time. That is the flip side of SX7w8: an intensity that knows no resistance can, when turned inward against oneself, become a undertow from which even the fighter in the Eight-wing can no longer find a way out.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Discoverer Who Could Not Save Himself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Robert Schumann's legacy is twofold: as a composer he left behind a body of work in which the full range of SX7w8 is mirrored &ndash; from the tender intimacy of the "Kinderszenen" to the stormy force of his symphonies. As a critic and discoverer he gave music history one of its most consequential moments of enthusiasm: without his unconditional passion for the unknown Brahms, the latter's path would likely have been a different one.</p>
+          <p class="vb-intro">And yet the tragedy remains: the man who could so effortlessly carry others along and fight for them found, in the end, no way to save himself from his own undertow. The chimpanzee with the Eight-wing, who fought for Clara and burned for Brahms, lost the final fight against himself &ndash; and left behind a music that still makes audible, to this day, exactly this tension between intoxication and abyss.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
+        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5)"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+      ])}
+    </div>
+  `);
+}
+
 function shakiraPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -21345,6 +21414,7 @@ function franzSchubertPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se6", label:"SE6 \u2013 The Rabbit: Subtype Profile"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5) – whom Schubert revered throughout his life"},
+        {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8) – discovered Schubert's C major Symphony in 1839"},
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SE6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
       ])}
@@ -23560,6 +23630,7 @@ function ludwigVanBeethovenPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5) \u2013 who revered him throughout his life"},
+        {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8)"},
         {route:"subtype/sx6", label:"SX6 \u2013 The Wolf: Subtype Profile"},
         {route:"beruehmte-wladimir-putin", label:"Portrait: Vladimir Putin (SX6w5)"},
         {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
@@ -49084,6 +49155,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-adele-neuhauser": adeleNeuhauserPortraitPage,
       "beruehmte-angela-merkel": angelaMerkelPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
+      "beruehmte-robert-schumann": robertSchumannPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-carsten-stahl": carstenStahlPortraitPage,
