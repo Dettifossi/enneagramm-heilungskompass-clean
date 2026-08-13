@@ -31762,6 +31762,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wladimir Putin \u2013 Sexueller Typ 6",
     teaser:"SX6w5 \u00b7 geb. 1952 in Leningrad. Politiker, Pr\u00e4sident der Russischen F\u00f6deration, ehem. KGB-Offizier. Der Wolf, der Angst durch Kontrolle \u00fcber andere zu bezwingen versucht.",
     tags:["Politik"], gender:"m"},
+  { route:"beruehmte-ludwig-van-beethoven", name:"Ludwig van Beethoven", added:"2026-08-13", subtyp:"SX6w5",
+    heading:"Ludwig van Beethoven \u2013 Sexueller Typ 6",
+    teaser:"SX6w5 \u00b7 1770\u20131827. Deutscher Komponist. Neunte Symphonie, Mondscheinsonate, Eroica. Der Wolf, der seine fortschreitende Taubheit nicht besiegte, sondern der Angst mit trotziger Sch\u00f6pferkraft ins Gesicht sprang \u2013 \u201aIch will dem Schicksal in den Rachen greifen'.",
+    tags:["Musik","Geschichte"], gender:"m"},
   { route:"beruehmte-alice-schwarzer", name:"Alice Schwarzer", subtyp:"SX6w5",
     heading:"Alice Schwarzer \u2013 Sexueller Typ 6",
     teaser:"SX6w5 \u00b7 geb. 1942. Journalistin, Feministin, Emma-Gr\u00fcnderin. Der Wolf, der sich nicht duckt \u2013 und der f\u00fcr sein Rudel k\u00e4mpft, auch wenn er dabei allein steht.",
@@ -49339,6 +49343,7 @@ function franzSchubertPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – von Schubert zeitlebens verehrt"},
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-fjodor-dostojewski", label:"Porträt: Fjodor Dostojewski (SE6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
@@ -54013,6 +54018,73 @@ function alexanderDerGrossePortraitPage() {
         {route:"beruehmte-aristoteles", label:"Porträt: Aristoteles (SE1w9)"},
         {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3)"},
         {route:"beruehmte-napoleon-bonaparte", label:"Porträt: Napoleon Bonaparte (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function ludwigVanBeethovenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ludwig-van-beethoven-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig van Beethoven</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexueller Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Komponist, 1770–1827 – Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf, der der Taubheit die Stirn bot</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Rudeltier, das seine Position durch Stärke behauptet und jede Bedrohung mit Zähnen beantwortet, statt sich zurückzuziehen. Kaum ein Künstler verkörpert dieses Muster so ungebrochen wie Ludwig van Beethoven, dessen Leben ein einziger, jahrzehntelanger Kampf gegen eine Bedrohung war, die die meisten Menschen zur Aufgabe gezwungen hätte.</p>
+          <p class="vb-intro">Geboren 1770 in Bonn als Sohn eines alkoholkranken, gewalttätigen Hofsängers, wurde der junge Ludwig von seinem Vater Johann zum Klavierüben gezwungen, oft nachts, oft unter Schlägen – der Vater erhoffte sich von ihm ein zweites Mozart-Wunderkind und ließ ihn dafür Kindheit und Sicherheit opfern. Aus dieser frühen Erfahrung von Bedrohung im eigenen Zuhause entstand ein Grundmuster, das sein gesamtes Leben prägte: Wer schon als Kind lernt, dass Verletzlichkeit bestraft wird, lernt, ihr mit Härte zuvorzukommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Gegenangst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs – der Subtyp, in dem die Leidenschaft der Angst am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Die SX6 begegnet Bedrohung nicht mit Rückzug, sondern mit demonstrativer Stärke. Naranjo nannte diesen Subtyp <em>Stärke</em>: Wer sich unangreifbar macht, kann nicht mehr verletzt werden.</p>
+          <p class="vb-intro">Beethovens Ruf als unbequemer, streitbarer Charakter trägt die Handschrift dieses Musters unverkennbar. Er brach demonstrativ mit adligen Gönnern, von denen er finanziell abhängig war, weigerte sich, vor Adligen den Hut zu ziehen, und soll dem Fürsten Lichnowsky, der ihn zum Spielen für französische Offiziere drängen wollte, entgegengeschleudert haben: „Fürst, was Sie sind, sind Sie durch Zufall und Geburt; was ich bin, bin ich durch mich selbst. Fürsten hat es gegeben und wird es noch tausende geben, Beethoven gibt es nur einen." Kein devoter Künstler hätte sich das leisten können – aber die sexuelle Sechs sichert ihre Position nicht durch Unterwerfung, sondern durch demonstrierte Unbeugsamkeit.</p>
+          <p class="vb-intro">Auch seine berühmten Wutausbrüche, das Zerreißen von Partituren, der jahrelange erbitterte Sorgerechtsstreit um seinen Neffen Karl gegen dessen eigene Mutter – all das zeigt das Rudeltier, das sein Territorium mit Zähnen verteidigt, sobald es sich bedroht fühlt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug in die Struktur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sexuellen Sechs analytische Tiefe und die Fähigkeit, sich in kompositorische Strukturen zurückzuziehen, bis jede Möglichkeit durchdacht ist. Beethovens Skizzenbücher – Tausende Seiten mit endlosen Überarbeitungen einzelner Themen, oft über Jahre hinweg – zeigen einen Komponisten, der ein Motiv so lange bearbeitete, bis keine Schwachstelle mehr blieb.</p>
+          <p class="vb-intro">In seinen letzten Lebensjahren, zunehmend isoliert durch die vollständige Taubheit, vertiefte er sich in intensives Studium der Kontrapunktkunst Bachs und Händels und komponierte die späten Streichquartette – Werke von einer strukturellen Komplexität und introspektiven Tiefe, die selbst seine Zeitgenossen zunächst überforderten. Der Fünferflügel verwandelte die Wachsamkeit der Sechs in kompositorische Präzision: Wer jede Möglichkeit durchdacht hat, kann von keiner Kritik mehr überrascht werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Heiligenstädter Testament: Dem Schicksal in den Rachen greifen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ab etwa 1798 bemerkte Beethoven die ersten Anzeichen eines fortschreitenden Gehörverlusts – für einen Komponisten die denkbar existenziellste aller Bedrohungen. 1802 zog er sich in das Dorf Heiligenstadt bei Wien zurück und verfasste dort einen erschütternden, nie abgeschickten Brief an seine Brüder, das sogenannte <em>Heiligenstädter Testament</em>: ein Dokument tiefster Verzweiflung, in dem er offen über Suizidgedanken schrieb und seine Angst beschrieb, als tauber Komponist öffentlich entlarvt und verspottet zu werden.</p>
+          <p class="vb-intro">Doch genau an diesem Tiefpunkt zeigt sich die SX6 in Reinform: Statt aufzugeben, traf Beethoven eine trotzige Entscheidung weiterzuleben – für seine Kunst. „Es fehlte wenig, und ich endigte mein Leben selbst", schrieb er, „nur sie, die Kunst, sie hielt mich zurück." Wenige Jahre später, während der Arbeit an seiner Fünften Symphonie, soll er über das berühmte Anfangsmotiv gesagt haben: „So pocht das Schicksal an die Pforte." Die Gegenangst der sexuellen Sechs wurde hier zur Weltformel: dem Schicksal nicht auszuweichen, sondern ihm buchstäblich an die Gurgel zu gehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Musik, die Mauern einriss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Beethovens Wirkung auf seine Zeitgenossen war von roher, unmittelbarer Wucht. Zeitgenossen beschrieben sein Klavierspiel als geradezu gewaltsam intensiv, seine Improvisationen konnten Zuhörer zu Tränen rühren. Als er ursprünglich seine dritte Symphonie, die <em>Eroica</em>, Napoleon Bonaparte widmen wollte und dann erfuhr, dieser habe sich zum Kaiser gekrönt, riss er der Legende nach das Titelblatt so heftig durch, dass ein Loch im Papier entstand, und strich Napoleons Namen wütend durch – ein Wolf, der seine Loyalität sofort zurückzog, sobald der Geehrte sich als Tyrann entpuppte.</p>
+          <p class="vb-intro">Und doch: Hinter dieser rohen Kraft lag dieselbe Verletzlichkeit, die er zeitlebens zu überdecken versuchte. Seine Musik – von den zärtlichen langsamen Sätzen bis zu den ekstatischen Finalen – offenbart eine emotionale Tiefe, die im direkten Kontakt mit Menschen oft hinter Grobheit und Misstrauen verborgen blieb. Die Stärke der SX6 ist immer auch eine Rüstung über einem Herzen, das sich zu sehr fürchtet, ungeschützt gezeigt zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Die Neunte, komponiert in völliger Stille</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1824, bei der Uraufführung seiner Neunten Symphonie mit der weltberühmten <em>Ode an die Freude</em>, war Beethoven bereits vollständig taub. Der Legende nach musste ihn eine Sängerin am Ärmel zur Seite drehen, damit er den tosenden Applaus des Publikums wenigstens sehen konnte – hören konnte er ihn nicht. Ein Mann, der die Musik nicht mehr wahrnehmen konnte, hatte gerade eines der bedeutendsten Werke der Musikgeschichte geschaffen, eine Hymne an universelle Brüderlichkeit, komponiert aus dem tiefsten Inneren eines Menschen, der selbst zeitlebens isoliert blieb.</p>
+          <p class="vb-intro">Das ist die SX6w5 auf ihrer weitreichendsten Stufe: eine Bedrohung, die jeden anderen zum Schweigen gebracht hätte, wurde zum Ausgangspunkt einer Musik, die bis heute Mauern zwischen Menschen einreißt. Der Wolf, der der Taubheit die Stirn bot, hinterließ der Nachwelt keine Kapitulation, sondern einen Trotz, der zur Freude wurde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5) – der ihn zeitlebens verehrte"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-wladimir-putin", label:"Porträt: Wladimir Putin (SX6w5)"},
+        {route:"beruehmte-alice-schwarzer", label:"Porträt: Alice Schwarzer (SX6w5)"},
       ])}
     </div>
   `);
@@ -82827,6 +82899,7 @@ function render() {
       "beruehmte-xu-bing": xuBingPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
+      "beruehmte-ludwig-van-beethoven": ludwigVanBeethovenPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
       "beruehmte-michael-schumacher": michaelSchumacherPortraitPage,
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,

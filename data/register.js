@@ -399,6 +399,7 @@ export const registerEntries = [
 
   // Berühmte Persönlichkeiten – Portraits
   { term: "Wladimir Putin",                route: "beruehmte-wladimir-putin",              description: "Portrait: SX6w5 · Sexueller Typ 6 · Politiker, Präsident der Russischen Föderation" },
+  { term: "Ludwig van Beethoven",          route: "beruehmte-ludwig-van-beethoven",        description: "Portrait: SX6w5 · Sexueller Typ 6 · Komponist, Neunte Symphonie, Eroica" },
   { term: "Moses",                         route: "beruehmte-moses",                       description: "Portrait: SX6w5 · Sexueller Typ 6 · Prophet, Gesetzgeber, Anführer des Exodus" },
   { term: "Scarlett Johansson",             route: "beruehmte-scarlett-johansson",          description: "Portrait: SX6w7 · Sexueller Typ 6 · Schauspielerin, Produzentin" },
   { term: "Francis Bacon",                  route: "beruehmte-francis-bacon",               description: "Portrait: SE7w8 · Selbsterhaltender Typ 7 · Philosoph, Staatsmann, Lordkanzler" },
@@ -707,6 +708,7 @@ export const registerEntriesEN = [
 
   // Famous Personalities – Portraits
   { term: "Vladimir Putin", route: "beruehmte-wladimir-putin", description: "Portrait: SX6w5 · Sexual Type 6 · Politician, President of the Russian Federation" },
+  { term: "Ludwig van Beethoven", route: "beruehmte-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexual Type 6 · Composer, Ninth Symphony, Eroica" },
   { term: "Scarlett Johansson", route: "beruehmte-scarlett-johansson", description: "Portrait: SX6w7 · Sexual Type 6 · Actress, producer" },
   { term: "Francis Bacon", route: "beruehmte-francis-bacon", description: "Portrait: SE7w8 · Self-Preservation Type 7 · Philosopher, statesman, Lord Chancellor" },
   { term: "Larry King", route: "beruehmte-larry-king", description: "Portrait: SE7w6 · Self-Preservation Type 7 · Talk show host" },

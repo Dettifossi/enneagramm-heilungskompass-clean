@@ -505,6 +505,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Vladimir Putin – Sexual Type 6",
     teaser:"SX6w5 · born 1952 in Leningrad. Politician, President of the Russian Federation, former KGB officer. The Wolf that tries to overcome fear by controlling others.",
     tags:["Politics"], gender:"m"},
+  { route:"beruehmte-ludwig-van-beethoven", name:"Ludwig van Beethoven", added:"2026-08-13", subtyp:"SX6w5",
+    heading:"Ludwig van Beethoven – Sexual Type 6",
+    teaser:"SX6w5 · 1770–1827. German composer. Ninth Symphony, Moonlight Sonata, Eroica. The Wolf who didn't defeat his advancing deafness but leapt at fear's throat with defiant creative force – 'I will seize Fate by the throat.'",
+    tags:["Music","History"], gender:"m"},
   { route:"beruehmte-alice-schwarzer", name:"Alice Schwarzer", subtyp:"SX6w5",
     heading:"Alice Schwarzer – Sexual Type 6",
     teaser:"SX6w5 · born 1942. Journalist, feminist, founder of Emma magazine. The wolf that does not bow down – and fights for its pack, even when standing alone.",
@@ -21339,6 +21343,7 @@ function franzSchubertPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se6", label:"SE6 \u2013 The Rabbit: Subtype Profile"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5) – whom Schubert revered throughout his life"},
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SE6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
       ])}
@@ -23487,6 +23492,73 @@ function kollegahPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function ludwigVanBeethovenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ludwig-van-beethoven-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig van Beethoven</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">German composer, 1770&ndash;1827 &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf Who Defied His Own Deafness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of Sexual Type 6 &ndash; a pack animal that asserts its position through strength and answers every threat with teeth rather than retreat. Few artists embody this pattern as unbrokenly as Ludwig van Beethoven, whose life was one long, decades-spanning fight against a threat that would have forced most people to give up.</p>
+          <p class="vb-intro">Born in 1770 in Bonn as the son of an alcoholic, violent court singer, young Ludwig was forced by his father Johann to practice piano, often at night, often under blows &ndash; the father hoped to produce a second Mozart-like child prodigy and sacrificed his son's childhood and safety for it. Out of this early experience of threat within his own home grew a foundational pattern that shaped his entire life: someone who learns as a child that vulnerability gets punished learns to preempt it with hardness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Six: Strength as Counter-Fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Sexual Six (SX6)</strong> is, according to Naranjo, the <strong>counter-type</strong> of the Six &ndash; the subtype in which the passion of fear is least visible, because it is turned into its opposite. SX6 meets threat not with withdrawal but with demonstrated strength. Naranjo called this subtype <em>strength</em>: whoever makes themselves unassailable can no longer be hurt.</p>
+          <p class="vb-intro">Beethoven's reputation as a difficult, combative character bears the unmistakable signature of this pattern. He broke demonstratively with noble patrons on whom he depended financially, refused to remove his hat before aristocrats, and is said to have hurled at Prince Lichnowsky, who wanted to pressure him into playing for French officers: "Prince, what you are, you are by accident of birth; what I am, I am through myself. There have been and will be thousands of princes; there is only one Beethoven." No deferential artist could have afforded this &ndash; but Sexual Six secures its position not through submission, but through demonstrated unbending will.</p>
+          <p class="vb-intro">His famous outbursts of temper, the tearing up of scores, the years-long, bitter custody battle over his nephew Karl against the boy's own mother &ndash; all of this shows the pack animal defending its territory with teeth the moment it feels threatened.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Retreat into Structure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-Wing (w5)</strong> gives the Sexual Six analytical depth and the ability to retreat into compositional structure until every possibility has been thought through. Beethoven's sketchbooks &ndash; thousands of pages of endless reworkings of individual themes, often over years &ndash; show a composer who worked a motif until no weakness remained.</p>
+          <p class="vb-intro">In his final years, increasingly isolated by complete deafness, he immersed himself in intensive study of the counterpoint of Bach and Handel and composed the late string quartets &ndash; works of a structural complexity and introspective depth that initially overwhelmed even his contemporaries. The Five-Wing turned the Six's vigilance into compositional precision: whoever has thought through every possibility can no longer be surprised by any criticism.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Heiligenstadt Testament: Seizing Fate by the Throat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From around 1798, Beethoven noticed the first signs of progressive hearing loss &ndash; for a composer, the most existential threat imaginable. In 1802 he withdrew to the village of Heiligenstadt near Vienna and wrote a devastating, never-sent letter to his brothers, the so-called <em>Heiligenstadt Testament</em>: a document of the deepest despair, in which he openly wrote of suicidal thoughts and described his fear of being publicly exposed and mocked as a deaf composer.</p>
+          <p class="vb-intro">Yet it is precisely at this lowest point that SX6 shows itself in pure form: rather than giving up, Beethoven made a defiant decision to keep living &ndash; for his art. "It was only my art that held me back," he wrote, "it seemed to me impossible to leave the world before I had brought forth all that I felt was within me." Years later, while working on his Fifth Symphony, he is said to have described the famous opening motif: "Thus Fate knocks at the door." SX6's counter-fear became a world-formula here: not evading fate, but literally seizing it by the throat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetic Effect: Music That Tore Down Walls</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Beethoven's effect on his contemporaries carried a raw, immediate force. Contemporaries described his piano playing as almost violently intense; his improvisations could move listeners to tears. When he originally intended to dedicate his Third Symphony, the <em>Eroica</em>, to Napoleon Bonaparte, and then learned that Napoleon had crowned himself emperor, legend has it he tore through the title page so violently that it left a hole in the paper, furiously striking out Napoleon's name &ndash; a wolf withdrawing its loyalty the instant the honoree revealed himself as a tyrant.</p>
+          <p class="vb-intro">And yet: behind this raw power lay the same vulnerability he spent his life trying to cover. His music &ndash; from the tender slow movements to the ecstatic finales &ndash; reveals an emotional depth that, in direct contact with people, often stayed hidden behind gruffness and mistrust. SX6's strength is always also armor over a heart too afraid to be shown unprotected.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Ninth, Composed in Complete Silence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1824, at the premiere of his Ninth Symphony with its world-famous <em>Ode to Joy</em>, Beethoven was already completely deaf. Legend has it that a singer had to turn him by the sleeve so he could at least see the audience's thunderous applause &ndash; he could not hear it. A man who could no longer perceive music had just created one of the most significant works in music history, a hymn to universal brotherhood, composed from the deepest interior of a man who himself remained isolated throughout his life.</p>
+          <p class="vb-intro">This is SX6w5 at its most far-reaching: a threat that would have silenced anyone else became the starting point for music that still tears down walls between people today. The wolf who defied his own deafness left posterity not surrender, but a defiance that became joy.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5) \u2013 who revered him throughout his life"},
+        {route:"subtype/sx6", label:"SX6 \u2013 The Wolf: Subtype Profile"},
+        {route:"beruehmte-wladimir-putin", label:"Portrait: Vladimir Putin (SX6w5)"},
         {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
       ])}
     </div>
@@ -48702,6 +48774,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-xu-bing": xuBingPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
+      "beruehmte-ludwig-van-beethoven": ludwigVanBeethovenPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
       "beruehmte-scarlett-johansson": scarlettJohanssonPortraitPage,
