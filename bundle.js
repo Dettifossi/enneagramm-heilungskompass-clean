@@ -46112,7 +46112,7 @@ function giacomoPucciniPortraitPage() {
         <h2 class="vb-section">3. Der Siebenerflügel: Der Hunger nach Tempo und Genuss</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> verleiht der sexuellen Acht eine zusätzliche Qualität: den Hunger nach Genuss, Geschwindigkeit und immer neuer Erfahrung. Puccini war einer der ersten Italiener, die ein eigenes Automobil besaßen – 1903 erlitt er dabei einen schweren Unfall, der ihn monatelang ans Bett fesselte, ohne dass ihn das von seiner Leidenschaft für schnelle Fahrzeuge abbrachte.</p>
-          <p class="vb-intro">An seinem Anwesen am Lago di Massaciuccoli in Torre del Lago verbrachte er unzählige Stunden mit Entenjagd und dem Steuern seiner Motorboote – Genuss, den er sich mit derselben Kompromisslosigkeit gönnte wie den Erfolg auf der Opernbühne. Der Siebenerflügel macht aus der puren Intensität der Acht eine Suche nach immer neuer Stimulation: Geschwindigkeit, Wasser, Wild, Wein, Frauen – nichts durfte fehlen, und nichts wurde in Maßen genossen.</p>
+          <p class="vb-intro">Auf seinem Anwesen am Lago di Massaciuccoli in Torre del Lago verbrachte er unzählige Stunden mit Entenjagd und dem Steuern seiner Motorboote – Genuss, den er sich mit derselben Kompromisslosigkeit gönnte wie den Erfolg auf der Opernbühne. Der Siebenerflügel macht aus der puren Intensität der Acht eine Suche nach immer neuer Stimulation: Geschwindigkeit, Wasser, Wild, Wein, Frauen – nichts durfte fehlen, und nichts wurde in Maßen genossen.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Verismo als kompromisslose Wahrhaftigkeit</h2>
