@@ -53604,13 +53604,13 @@ function johannSebastianBachPortraitPage() {
         <h2 class="vb-section">1. Die Schwarze Mamba</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>Schwarze Mamba</strong> wirkt nach außen unauffällig, fast zurückgezogen – bis sie sich in ihrer Integrität verletzt sieht. Dann reagiert sie mit einer Präzision und Kompromisslosigkeit, die niemanden im Zweifel lässt. Johann Sebastian Bach trug genau dieses Doppelgesicht: ein Leben lang der stille, pflichtbewusste Kirchenmusiker nach außen – und ein Mann, der keine Sekunde zögerte, wenn seine musikalischen Überzeugungen infrage gestellt wurden.</p>
-          <p class="vb-intro">Früh verwaist – beide Eltern starb er vor seinem zehnten Geburtstag – wuchs Bach bei seinem älteren Bruder Johann Christoph auf, der ihm den Zugang zu einer wertvollen Notensammlung verweigerte. Der junge Bach kopierte sie heimlich, monatelang, bei Mondlicht – ein früher Beleg für die Inbrunst, mit der er sich das aneignete, was ihm rechtmäßig zustand, koste es, was es wolle, selbst die eigenen Augen.</p>
+          <p class="vb-intro">Früh verwaist – beide Eltern starben vor seinem zehnten Geburtstag – wuchs Bach bei seinem älteren Bruder Johann Christoph auf, der ihm den Zugang zu einer wertvollen Notensammlung verweigerte. Der junge Bach kopierte sie heimlich, monatelang, bei Mondlicht – ein früher Beleg für die Inbrunst, mit der er sich das aneignete, was ihm rechtmäßig zustand, koste es, was es wolle, selbst die eigenen Augen.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Eins: Inbrunst und der Kontratyp</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> ist der <strong>Kontratyp der Eins</strong> – der Subtyp, der am wenigsten nach Moralapostel aussieht und es doch am kompromisslosesten ist. Naranjo nannte diesen Subtyp <em>Zeal</em> – Inbrunst: ein brennendes Verlangen, dem Vollkommenen möglichst nahezukommen, ungefilterter und direkter als bei jedem anderen Einser-Subtyp. Bach lebte diese Inbrunst nicht in Worten, sondern in einer schier unerschöpflichen schöpferischen Intensität – über 1000 erhaltene Werke, oft eine vollständige Kantate pro Woche über Jahre hinweg.</p>
-          <p class="vb-intro">Mit 20 Jahren wanderte er rund 400 Kilometer zu Fuß nach Lübeck, um den berühmten Organisten Dieterich Buxtehude spielen zu hören – und blieb, statt der genehmigten vier Wochen, gleich vier Monate, sein Amt in Arnstadt und die Konsequenzen bereitwillig riskierend. Das ist die sexuelle Eins: Wenn etwas des vollen Einsatzes würdig ist, gibt es kein halbherziges Maß.</p>
+          <p class="vb-intro">Mit 20 Jahren wanderte er von Arnstadt aus rund 400 Kilometer zu Fuß nach Lübeck, um den berühmten Organisten Dieterich Buxtehude spielen zu hören – und blieb, statt der genehmigten vier Wochen, gleich vier Monate, sein Amt in Arnstadt und die Konsequenzen bereitwillig riskierend. Das ist die sexuelle Eins: Wenn etwas des vollen Einsatzes würdig ist, gibt es kein halbherziges Maß.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Neunerflügel: Beharrlichkeit hinter dem Feuer</h2>
@@ -53634,7 +53634,7 @@ function johannSebastianBachPortraitPage() {
         <h2 class="vb-section">6. Das Vermächtnis: Der Unbeugsame, der zu Lebzeiten kaum erkannt wurde</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Zu Lebzeiten galt Bach vor allem als hervorragender Organist, weniger als der Komponist, als den ihn die Nachwelt kennt. Erst 1829, fast 80 Jahre nach seinem Tod, brachte der junge Felix Mendelssohn Bartholdy die Matthäus-Passion wieder zur Aufführung und löste damit die Bach-Renaissance aus, die bis heute anhält. Der stille Kirchenmusiker aus Leipzig wurde postum zu dem Maßstab, an dem sich Generationen von Komponisten – darunter Beethoven (SX6w5) und Brahms (SE9w8) – maßen.</p>
-          <p class="vb-intro">Das Vermächtnis der SX1w9 liegt genau in dieser Spannung: eine Inbrunst, die keine Anerkennung brauchte, um sich vollständig zu geben, und ein Beharren, das genau wusste, dass die eigentliche Prüfung nicht der Applaus der Zeitgenossen, sondern die Musik selbst war. Die Schwarze Mamba, die niemand fürchten musste, außer wer ihre Maßstäbe verriet.</p>
+          <p class="vb-intro">Das Vermächtnis der SX1w9 liegt genau in dieser Spannung: eine Inbrunst, die keine Anerkennung brauchte, um sich vollständig zu geben, und ein Beharren, das genau wusste, dass die eigentliche Prüfung nicht der Applaus der Zeitgenossen, sondern die Musik selbst war. Die Schwarze Mamba, die niemand fürchten musste, außer derjenige, der ihre Maßstäbe verriet.</p>
         </blockquote>
 
       </div>
