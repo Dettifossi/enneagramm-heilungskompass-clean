@@ -5655,6 +5655,49 @@ function bewusstesInnehaltenPage() {
         <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">All titles and further spiritual literature by Detlef Rathmer can also be found on the Verlagshaus Rathmer homepage under "Persönliche Entwicklung" (Personal Development).</p>
       </div>
 
+      <div class="vb-section" style="max-width:100%;margin-top:1.2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Spiritual Mugs</h2>
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;">☕</span>
+            <span style="flex:1;">Spiritual mugs by Detlef Rathmer (3)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/ACCEPT-WHAT-IS-von-DetlefRathmer/41453519/7yqg" target="_blank" rel="noopener sponsored">
+              <span class="book-tip__icon">☕</span>
+              <div class="book-tip__text">
+                <strong>"Accept What Is" Mug</strong>
+                <span>The essence of conscious pausing on a mug – coffee or tea, whichever you prefer – order on Redbubble.</span>
+              </div>
+              <span class="book-tip__arrow">→</span>
+            </a>
+            <div style="margin-top:.8rem;">
+              <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/It-is-difficult-to-find-happiness-von-DetlefRathmer/41301737/7yqg" target="_blank" rel="noopener sponsored">
+                <span class="book-tip__icon">☕</span>
+                <div class="book-tip__text">
+                  <strong>"It is Difficult to Find Happiness" Mug</strong>
+                  <span>A quiet thought for everyday life – order on Redbubble.</span>
+                </div>
+                <span class="book-tip__arrow">→</span>
+              </a>
+            </div>
+            <div style="margin-top:.8rem;">
+              <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/LOOK-INSIDE-YOURSELF-von-DetlefRathmer/41458576/7yqg" target="_blank" rel="noopener sponsored">
+                <span class="book-tip__icon">☕</span>
+                <div class="book-tip__text">
+                  <strong>"Look Inside Yourself" Mug</strong>
+                  <span>An invitation to inner reflection on a mug – order on Redbubble.</span>
+                </div>
+                <span class="book-tip__arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </details>
+      </div>
+
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
         {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"The Energy Field Between the Hands"},
