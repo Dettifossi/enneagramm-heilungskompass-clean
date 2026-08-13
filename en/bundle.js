@@ -19017,14 +19017,19 @@ function hippokratesVonKosPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of SO4w5 shows in the historical significance of this differentiation: Hippocrates transformed the healing arts from a field of religious interpretation into an observing, documenting, learning discipline &ndash; the foundation of all modern medicine. His demand that the patient be regarded as an individual with their own case history, rather than as a case of divine judgment, remains a core principle of medical practice to this day.</p>
-          <p class="vb-intro">The shadow lies in the ossification of his own system: the theory of the four humors, once a step forward from religious arbitrariness, hardened over centuries into unquestioned dogma that hindered medical progress more than it advanced it, until it was disproven in the modern era. The analytical systematization of SO4w5, which once created clarity, can itself harden into a rigid order that no longer permits new observation.</p>
+          <p class="vb-intro">The shadow lies in the ossification of his own system: the theory of the four humors, once a step forward from religious arbitrariness, hardened over centuries into unquestioned dogma that hindered medical progress more than it advanced it, until it was disproven in the modern era &ndash; at least by the standards of today's conventional medicine. The analytical systematization of SO4w5, which once created clarity, can itself harden into a rigid order that no longer permits new observation.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: The Father of Medicine</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Hippocrates died around 370 BC in Larissa, far from his home island of Kos. His name remains linked to every course of medical study to this day, his oath &ndash; in modernized form &ndash; spoken by graduates worldwide or cited as an ethical touchstone.</p>
-          <p class="vb-intro">The armadillo that turned away from the religious community of temple healers to found its own, observing science left behind more than a method &ndash; it left behind the conviction that suffering wants to be understood, not merely interpreted. That is exactly the lasting image of the social Four with the Five-wing: significance born of close observation, and a legacy that has carried across two and a half millennia.</p>
+          <p class="vb-intro">The armadillo that turned away from the religious community of temple healers to found its own, observing science left behind more than a method &ndash; it left behind the conviction that suffering wants to be understood, not merely interpreted. The social Four is considered one of the most empathetic subtypes of the Enneagram: it knows from its own experience what suffering means, and can therefore relate especially deeply to the sick &ndash; out of this inner perspective grew Hippocrates' understanding of the healing art, not only as an intellectual discipline, but as a deeply emotional, compassionate turning toward the suffering human being. That is exactly the lasting image of the social Four with the Five-wing: significance born of close observation, and a legacy that has carried across two and a half millennia.</p>
         </blockquote>
+
+        <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-top:1.5rem;max-width:100%;">
+          <p style="margin:0;font-size:1.05rem;font-style:italic;color:var(--ink);">"It is more important to know what sort of person has a disease than to know what sort of disease a person has."</p>
+          <p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--muted);">&ndash; Hippocrates of Kos</p>
+        </div>
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
