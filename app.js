@@ -31951,6 +31951,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Diogenes \u2013 Sexueller Typ 8",
     teaser:"SX8w7 \u00b7 geb. um 412 v. Chr. in Sinope, gest. 323 v. Chr. in Korinth. Philosoph, Begr\u00fcnder des Kynismus, lebte in einer Tonne. Das Krokodil, das jede gesellschaftliche Konvention \u00f6ffentlich zerbiss \u2013 schamlos, kompromisslos, frei.",
     tags:["Philosophie"], gender:"m"},
+  { route:"beruehmte-giacomo-puccini", name:"Giacomo Puccini", added:"2026-08-13", subtyp:"SX8w7",
+    heading:"Giacomo Puccini \u2013 Sexueller Typ 8",
+    teaser:"SX8w7 \u00b7 1858\u20131924. Italienischer Opernkomponist. \u203aLa Boh\u00e8me\u2039, \u203aTosca\u2039, \u203aMadama Butterfly\u2039, unvollendete \u203aTurandot\u2039. Das Krokodil mit Siebenerfl\u00fcgel: kompromisslose Leidenschaft auf der B\u00fchne wie im Leben, Rennwagen, Jagd und ein Skandal um Eifersucht. Tierentsprechung: Krokodil.",
+    tags:["Musik","Geschichte"], gender:"m"},
   { route:"beruehmte-gerhard-schroeder", name:"Gerhard Schr\u00f6der", added:"2026-08-09", subtyp:"SX8w7",
     heading:"Gerhard Schr\u00f6der \u2013 Sexueller Typ 8",
     teaser:"SX8w7 \u00b7 geb. 1944. Deutscher Bundeskanzler (1998\u20132005). Agenda 2010, Basta-Prinzip, Medienkanzler. Das Krokodil, das den Kraftakt der Reform gegen jeden Widerstand durchsetzte \u2013 und danach seinen eigenen Weg unbeirrt weiterging.",
@@ -46073,6 +46077,71 @@ function diogenesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx8", label:"SX8 \u2013 Das Krokodil: Subtyp-Profil"},
         {route:"beruehmte-donald-trump", label:"Portr\u00e4t: Donald J. Trump (SX8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function giacomoPucciniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-giacomo-puccini-portrait.jpg" alt="Giacomo Puccini" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Giacomo Puccini</p>
+        <p class="krim-portrait-typ">SX8w7 · Sexueller Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Italienischer Opernkomponist, 1858–1924 – Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier des sexuellen Typs 8 – ein Wesen, das sich um keine gesellschaftliche Ordnung schert, keine Rücksicht auf Etikette nimmt und trotzdem die volle Aufmerksamkeit jedes Raums auf sich zieht, den es betritt. Giacomo Puccini stammte aus einer Familie, die seit Generationen Kirchenmusiker in Lucca stellte – ein Erbe von Zurückhaltung und Frömmigkeit, das er mit seiner ganzen Person durchbrach.</p>
+          <p class="vb-intro">Geboren 1858, studierte er am Mailänder Konservatorium und fand seine Bestimmung nicht im Kirchenchor, sondern auf der Opernbühne – dort, wo Leidenschaft, Verrat, Tod und Begehren in ihrer rohesten Form verhandelt werden. Puccini schrieb keine höfliche Musik. Er schrieb Musik, die zupackt, so wie das Krokodil zupackt: plötzlich, vollständig, ohne Vorwarnung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Acht: Besitz und Hingabe ohne Vorbehalt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong> nennt Naranjo <em>Besitz</em> – auf Englisch <em>Possession</em>: die vollständige Begegnung, die totale Verbindung, der Einfluss, der nicht verhandelbar ist. Was die SX8 liebt, liebt sie mit ihrer ganzen Person – und genau das ist der Kern von Puccinis Musik. Seine großen Frauenfiguren – Mimì, Tosca, Cio-Cio-San – lieben, leiden und sterben nicht gemäßigt, sondern total. Puccini komponierte Liebe und Tod nie als Andeutung, sondern immer als Vollzug.</p>
+          <p class="vb-intro">Dasselbe Muster prägte sein Privatleben. Seine Beziehung zu Elvira Gemignani begann als offener Skandal – sie war zu dieser Zeit noch verheiratet, und die Provinzstadt Lucca reagierte mit Empörung. Puccini kümmerte sich wenig darum. Als 1908 seine junge Hausangestellte Doria Manfredi von der eifersüchtigen Elvira zu Unrecht der Untreue mit ihm bezichtigt wurde und sich daraufhin das Leben nahm, erwies die Autopsie ihre Unschuld – eine Tragödie, die zeigt, wie sehr Besitzanspruch und Eifersucht in Puccinis unmittelbarem Umfeld zur zerstörerischen Kraft wurden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Der Hunger nach Tempo und Genuss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> verleiht der sexuellen Acht eine zusätzliche Qualität: den Hunger nach Genuss, Geschwindigkeit und immer neuer Erfahrung. Puccini war einer der ersten Italiener, die ein eigenes Automobil besaßen – 1903 erlitt er dabei einen schweren Unfall, der ihn monatelang ans Bett fesselte, ohne dass ihn das von seiner Leidenschaft für schnelle Fahrzeuge abbrachte.</p>
+          <p class="vb-intro">An seinem Anwesen am Lago di Massaciuccoli in Torre del Lago verbrachte er unzählige Stunden mit Entenjagd und dem Steuern seiner Motorboote – Genuss, den er sich mit derselben Kompromisslosigkeit gönnte wie den Erfolg auf der Opernbühne. Der Siebenerflügel macht aus der puren Intensität der Acht eine Suche nach immer neuer Stimulation: Geschwindigkeit, Wasser, Wild, Wein, Frauen – nichts durfte fehlen, und nichts wurde in Maßen genossen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Verismo als kompromisslose Wahrhaftigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Puccini gehörte zur Strömung des <em>Verismo</em> – des musikalischen Realismus, der die großen Opernstoffe von mythologischer Distanz befreite und in die unmittelbare, oft brutale Gegenwart holte. "La Bohème" (1896) zeigt Armut und Tod ohne Beschönigung, "Tosca" (1900) Folter, Mord und Selbstmord in schonungsloser Direktheit, "Madama Butterfly" (1904) den kolonialen Verrat an einer Frau, die für ihre Liebe alles gibt und alles verliert.</p>
+          <p class="vb-intro">Zugleich war Puccini als Handwerker ein gnadenloser Perfektionist: Er zermürbte seine Librettisten Illica und Giacosa mit endlosen Überarbeitungsforderungen, verwarf ganze Szenen, wenn sie ihm nicht gelangen. Die SX8w7 verlangt Intensität nicht nur im Ausdruck, sondern auch im Prozess – nichts durfte "gut genug" sein, wenn es "vollständig wahr" sein konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Die Grenze zwischen Leidenschaft und Zerstörung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX8w7 ist ihre Fähigkeit, Gefühle in einer Unmittelbarkeit auszudrücken, vor der sich zurückhaltendere Naturen scheuen. Puccinis Musik berührt bis heute Millionen Menschen, weil sie keine Distanz zulässt – sie trifft direkt. Kein Komponist seiner Zeit verstand es besser, aus einem einzigen musikalischen Motiv eine ganze emotionale Welt aufzubauen.</p>
+          <p class="vb-intro">Der Schatten dieser Intensität zeigte sich in Puccinis Umgang mit den Menschen um ihn herum: seine zahlreichen Affären belasteten seine Ehe mit Elvira dauerhaft, und die Tragödie um Doria Manfredi bleibt ein dunkler Fleck, an dem Besitzanspruch und ungebremste Eifersucht – seine eigene wie die seiner Frau – ein Menschenleben forderten. Die SX8w7, die alles mit voller Wucht ergreift, kann im ungesunden Zustand auch alles um sich herum mit sich reißen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Die unvollendete letzte Note</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Puccini arbeitete bis zuletzt an "Turandot", seiner ambitioniertesten Oper, als ihn 1924 eine Kehlkopfkrebserkrankung, Folge jahrzehntelangen Rauchens, in Brüssel während einer Strahlenbehandlung das Leben kostete. Das Werk blieb an der Stelle unvollendet, an der Liù, die treueste und selbstloseste seiner Frauenfiguren, aus Liebe stirbt.</p>
+          <p class="vb-intro">Bei der Uraufführung 1926 ließ Dirigent Arturo Toscanini das Orchester exakt an jener Stelle verstummen, an der Puccinis eigene Musik endete, wandte sich zum Publikum und sagte: "Hier endet die Oper, denn an dieser Stelle ist der Meister gestorben." Ein Moment von genau jener unmittelbaren, kompromisslosen Wucht, die Puccinis gesamtes Schaffen und Leben geprägt hatte – das Krokodil mit Siebenerflügel, das bis zur letzten Note keine halben Sachen kannte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
+        {route:"beruehmte-diogenes", label:"Porträt: Diogenes von Sinope (SX8w7)"},
+        {route:"beruehmte-gerhard-schroeder", label:"Porträt: Gerhard Schröder (SX8w7)"},
       ])}
     </div>
   `);
@@ -83482,6 +83551,7 @@ function render() {
       "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
+      "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
