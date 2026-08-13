@@ -47286,17 +47286,20 @@ function hippokratesVonKosPortraitPage() {
         </div>
 
       </div>
-      <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Ber%C3%BChmte-%C3%84rzte-Therapeuten-Psychologen-Enneagramm-von-DetlefRathmer/41318557/7yqg" target="_blank" rel="noopener sponsored">
-        <span class="book-tip__icon">☕</span>
-        <div class="book-tip__text">
-          <strong>Tasse »Berühmte Ärzte, Therapeuten, Psychologen«</strong>
-          <span>Neun bedeutende Heiler des Enneagramms auf einer Tasse vereint – darunter Hippokrates selbst – bei Redbubble bestellen.</span>
-        </div>
-        <span class="book-tip__arrow">→</span>
-      </a>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;">
+        <h3 style="font-size:0.95rem;font-weight:700;margin:0 0 .6rem;color:var(--muted);">Fanartikel</h3>
+        <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Ber%C3%BChmte-%C3%84rzte-Therapeuten-Psychologen-Enneagramm-von-DetlefRathmer/41318557/7yqg" target="_blank" rel="noopener sponsored">
+          <span class="book-tip__icon">☕</span>
+          <div class="book-tip__text">
+            <strong>Tasse »Berühmte Ärzte, Therapeuten, Psychologen«</strong>
+            <span>Neun bedeutende Heiler des Enneagramms auf einer Tasse vereint – darunter Hippokrates selbst – bei Redbubble bestellen.</span>
+          </div>
+          <span class="book-tip__arrow">→</span>
+        </a>
+      </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
@@ -49090,17 +49093,20 @@ function sigmundFreudPortraitPage() {
         </blockquote>
 
       </div>
-      <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Ber%C3%BChmte-%C3%84rzte-Therapeuten-Psychologen-Enneagramm-von-DetlefRathmer/41318557/7yqg" target="_blank" rel="noopener sponsored">
-        <span class="book-tip__icon">\u2615</span>
-        <div class="book-tip__text">
-          <strong>Tasse \u00bbBer\u00fchmte \u00c4rzte, Therapeuten, Psychologen\u00ab</strong>
-          <span>Neun bedeutende Heiler des Enneagramms auf einer Tasse vereint \u2013 darunter Freud selbst \u2013 bei Redbubble bestellen.</span>
-        </div>
-        <span class="book-tip__arrow">\u2192</span>
-      </a>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;">
+        <h3 style="font-size:0.95rem;font-weight:700;margin:0 0 .6rem;color:var(--muted);">Fanartikel</h3>
+        <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Ber%C3%BChmte-%C3%84rzte-Therapeuten-Psychologen-Enneagramm-von-DetlefRathmer/41318557/7yqg" target="_blank" rel="noopener sponsored">
+          <span class="book-tip__icon">\u2615</span>
+          <div class="book-tip__text">
+            <strong>Tasse \u00bbBer\u00fchmte \u00c4rzte, Therapeuten, Psychologen\u00ab</strong>
+            <span>Neun bedeutende Heiler des Enneagramms auf einer Tasse vereint \u2013 darunter Freud selbst \u2013 bei Redbubble bestellen.</span>
+          </div>
+          <span class="book-tip__arrow">\u2192</span>
+        </a>
+      </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so6", label:"SO6 \u2013 Das Erdm\u00e4nnchen: Subtyp-Profil"},
@@ -53233,22 +53239,6 @@ function samuelHahnemannPortraitPage() {
         </div>
         <span class="book-tip__arrow">\u2192</span>
       </a>
-      <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Samuel-Hahnemann-Begr%C3%BCnder-der-Hom%C3%B6opathie-%C3%84hnlichkeitsprinzip-von-DetlefRathmer/41189412/7yqg" target="_blank" rel="noopener sponsored">
-        <span class="book-tip__icon">\u2615</span>
-        <div class="book-tip__text">
-          <strong>Samuel-Hahnemann-Tasse \u2013 \u00bbSimilia similibus curentur\u00ab</strong>
-          <span>Das \u00c4hnlichkeitsprinzip der Hom\u00f6opathie auf einer sch\u00f6nen wei\u00dfen Tasse mit Hahnemann-Portr\u00e4t \u2013 bei Redbubble bestellen.</span>
-        </div>
-        <span class="book-tip__arrow">\u2192</span>
-      </a>
-      <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Ber%C3%BChmte-%C3%84rzte-Therapeuten-Psychologen-Enneagramm-von-DetlefRathmer/41318557/7yqg" target="_blank" rel="noopener sponsored">
-        <span class="book-tip__icon">\u2615</span>
-        <div class="book-tip__text">
-          <strong>Tasse \u00bbBer\u00fchmte \u00c4rzte, Therapeuten, Psychologen\u00ab</strong>
-          <span>Neun bedeutende Heiler des Enneagramms auf einer Tasse vereint \u2013 darunter Hahnemann selbst \u2013 bei Redbubble bestellen.</span>
-        </div>
-        <span class="book-tip__arrow">\u2192</span>
-      </a>
       ${bookTip("rathmer-s-repertorium-gebundene-ausgabe", "Das weltweit umfangreichste hom\u00f6opathische Gem\u00fctsrepertorium \u2013 1568 Seiten, 20.000 Rubriken.", "Rathmer\u2019s Repertorium")}
       ${bookTip("der-kern-der-heilmittel-the-core-of-the-remedies-gebunden", "Das geistige Wesen der 500 wichtigsten hom\u00f6opathischen Arzneimittel \u2013 \u00fcber 8.500 Single-Rubriken.", "Der Kern der Heilmittel")}
       ${bookTip("enneagramm-homoeopathie-band-1", "Die Grundlage der Enneagramm-Hom\u00f6opathie \u2013 wie Pers\u00f6nlichkeitstyp und Heilmittelwahl zusammenh\u00e4ngen.", "Enneagramm-Hom\u00f6opathie \u2013 Band 1")}
@@ -53256,6 +53246,25 @@ function samuelHahnemannPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-enneagramm-aromatherapie", "9 Typen, 9 Urwunden, 9 Seelend\u00fcfte \u2013 Naturheilkunde im Enneagramm.", "Die Enneagramm-Aromatherapie")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;">
+        <h3 style="font-size:0.95rem;font-weight:700;margin:0 0 .6rem;color:var(--muted);">Fanartikel</h3>
+        <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Samuel-Hahnemann-Begr%C3%BCnder-der-Hom%C3%B6opathie-%C3%84hnlichkeitsprinzip-von-DetlefRathmer/41189412/7yqg" target="_blank" rel="noopener sponsored">
+          <span class="book-tip__icon">\u2615</span>
+          <div class="book-tip__text">
+            <strong>Samuel-Hahnemann-Tasse \u2013 \u00bbSimilia similibus curentur\u00ab</strong>
+            <span>Das \u00c4hnlichkeitsprinzip der Hom\u00f6opathie auf einer sch\u00f6nen wei\u00dfen Tasse mit Hahnemann-Portr\u00e4t \u2013 bei Redbubble bestellen.</span>
+          </div>
+          <span class="book-tip__arrow">\u2192</span>
+        </a>
+        <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Ber%C3%BChmte-%C3%84rzte-Therapeuten-Psychologen-Enneagramm-von-DetlefRathmer/41318557/7yqg" target="_blank" rel="noopener sponsored">
+          <span class="book-tip__icon">\u2615</span>
+          <div class="book-tip__text">
+            <strong>Tasse \u00bbBer\u00fchmte \u00c4rzte, Therapeuten, Psychologen\u00ab</strong>
+            <span>Neun bedeutende Heiler des Enneagramms auf einer Tasse vereint \u2013 darunter Hahnemann selbst \u2013 bei Redbubble bestellen.</span>
+          </div>
+          <span class="book-tip__arrow">\u2192</span>
+        </a>
+      </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so1", label:"SO1 \u2013 Die Gans: Subtyp-Profil"},
@@ -55328,17 +55337,20 @@ function christiaanBarnardPortraitPage() {
         </blockquote>
 
       </div>
-      <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Ber%C3%BChmte-%C3%84rzte-Therapeuten-Psychologen-Enneagramm-von-DetlefRathmer/41318557/7yqg" target="_blank" rel="noopener sponsored">
-        <span class="book-tip__icon">☕</span>
-        <div class="book-tip__text">
-          <strong>Tasse »Berühmte Ärzte, Therapeuten, Psychologen«</strong>
-          <span>Neun bedeutende Heiler des Enneagramms auf einer Tasse vereint – darunter Barnard selbst – bei Redbubble bestellen.</span>
-        </div>
-        <span class="book-tip__arrow">→</span>
-      </a>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;">
+        <h3 style="font-size:0.95rem;font-weight:700;margin:0 0 .6rem;color:var(--muted);">Fanartikel</h3>
+        <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Ber%C3%BChmte-%C3%84rzte-Therapeuten-Psychologen-Enneagramm-von-DetlefRathmer/41318557/7yqg" target="_blank" rel="noopener sponsored">
+          <span class="book-tip__icon">☕</span>
+          <div class="book-tip__text">
+            <strong>Tasse »Berühmte Ärzte, Therapeuten, Psychologen«</strong>
+            <span>Neun bedeutende Heiler des Enneagramms auf einer Tasse vereint – darunter Barnard selbst – bei Redbubble bestellen.</span>
+          </div>
+          <span class="book-tip__arrow">→</span>
+        </a>
+      </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},

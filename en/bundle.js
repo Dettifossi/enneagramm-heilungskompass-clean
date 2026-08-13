@@ -28675,17 +28675,20 @@ function christiaanBarnardPortraitPage() {
         </blockquote>
 
       </div>
-      <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Ber%C3%BChmte-%C3%84rzte-Therapeuten-Psychologen-Enneagramm-von-DetlefRathmer/41318557/7yqg" target="_blank" rel="noopener sponsored">
-        <span class="book-tip__icon">☕</span>
-        <div class="book-tip__text">
-          <strong>"Famous Doctors, Therapists, Psychologists" Mug</strong>
-          <span>Nine significant healers of the Enneagram united on one mug – including Barnard himself – order on Redbubble.</span>
-        </div>
-        <span class="book-tip__arrow">→</span>
-      </a>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;">
+        <h3 style="font-size:0.95rem;font-weight:700;margin:0 0 .6rem;color:var(--muted);">Merchandise</h3>
+        <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Ber%C3%BChmte-%C3%84rzte-Therapeuten-Psychologen-Enneagramm-von-DetlefRathmer/41318557/7yqg" target="_blank" rel="noopener sponsored">
+          <span class="book-tip__icon">☕</span>
+          <div class="book-tip__text">
+            <strong>"Famous Doctors, Therapists, Psychologists" Mug</strong>
+            <span>Nine significant healers of the Enneagram united on one mug – including Barnard himself – order on Redbubble.</span>
+          </div>
+          <span class="book-tip__arrow">→</span>
+        </a>
+      </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
