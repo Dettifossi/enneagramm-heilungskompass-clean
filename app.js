@@ -32027,9 +32027,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kevin Costner \u2013 Sozialer Typ 9",
     teaser:"SO9w1 \u00b7 geb. 1955. Schauspieler und Regisseur. Dances with Wolves, Field of Dreams, Yellowstone. Der B\u00fcffel, der nicht f\u00fcr sich k\u00e4mpft \u2013 sondern f\u00fcr etwas, das gr\u00f6\u00dfer ist als er selbst.",
     tags:["Film","Schauspiel"], gender:"m"},
-  { route:"beruehmte-columbo", name:"Columbo", added:"2026-08-13", subtyp:"SO9w1",
-    heading:"Columbo – Sozialer Typ 9",
-    teaser:"SO9w1 · Fiktiver LAPD-Ermittler, gespielt von Peter Falk (1927–2011), TV-Serie 1968–2003. Zerknitterter Trenchcoat, nie eine Waffe, vier Emmys. Der Büffel mit Einserflügel: gleiche Aufmerksamkeit für jeden Menschen im Raum, unerbittliche stille Gerechtigkeit. Tierentsprechung: Büffel.",
+  { route:"beruehmte-peter-falk", name:"Peter Falk", added:"2026-08-13", subtyp:"SO9w1",
+    heading:"Peter Falk – Sozialer Typ 9",
+    teaser:"SO9w1 · 1927–2011. Schauspieler, weltberühmt als TV-Ermittler ›Columbo‹ (1968–2003). Zerknitterter Trenchcoat, nie eine Waffe, vier Emmys. Der Büffel mit Einserflügel: gleiche Aufmerksamkeit für jeden Menschen im Raum, unerbittliche stille Gerechtigkeit. Tierentsprechung: Büffel.",
     tags:["Film","Fernsehen"], gender:"m"},
   { route:"beruehmte-steffi-graf", name:"Steffi Graf", subtyp:"SO9w1",
     heading:"Steffi Graf \u2013 Sozialer Typ 9",
@@ -47976,31 +47976,31 @@ function kevinCostnerPortraitPage() {
 }
 
 
-function columboPortraitPage() {
+function peterFalkPortraitPage() {
   return shell(`
     <div class="page-container">
       ${pageHeader("Berühmte Persönlichkeiten")}
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-columbo-portrait.jpg" alt="Büffel" class="krim-portrait-img" loading="lazy" />
+          <img src="./assets/portraits/beruehmte-peter-falk-portrait.jpg" alt="Peter Falk" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Columbo</p>
+        <p class="krim-portrait-name">Peter Falk</p>
         <p class="krim-portrait-typ">SO9w1 · Sozialer Typ 9 mit Einserflügel</p>
-        <p class="krim-portrait-subtitle">Fiktiver LAPD-Ermittler, gespielt von Peter Falk (1927–2011) in der Serie »Columbo« (1968–2003) – Tierentsprechung: Büffel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, 1927–2011 – weltberühmt als TV-Ermittler »Columbo« – Tierentsprechung: Büffel</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. Der Büffel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier des sozialen Typs 9 – ein Tier, das nie durch Angriffslust auffällt, sondern durch sein bloßes, unaufgeregtes Dasein Wirkung entfaltet. Er bewegt sich langsam, wirkt schwerfällig, fast harmlos – und ist doch das Tier, dem auf der Prärie am wenigsten jemand freiwillig im Weg steht. Kein Fernsehermittler verkörpert dieses Bild treffender als Columbo: der zerknitterte Trenchcoat, die halb gerauchte Zigarre, der alte Peugeot, der ständig kaputtzugehen scheint.</p>
-          <p class="vb-intro">Von 1968 bis 2003 spielte Peter Falk diesen Mann in insgesamt 69 Folgen – einen Detective, der nie brüllt, nie droht, nie mit gezogener Waffe auftritt. Sein einziges Werkzeug ist Geduld. Der Büffel wirkt, als könnte man ihn beiseiteschieben. Man irrt sich jedes Mal.</p>
+          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier des sozialen Typs 9 – ein Tier, das nie durch Angriffslust auffällt, sondern durch sein bloßes, unaufgeregtes Dasein Wirkung entfaltet. Er bewegt sich langsam, wirkt schwerfällig, fast harmlos – und ist doch das Tier, dem auf der Prärie am wenigsten jemand freiwillig im Weg steht. Kaum ein Schauspieler verkörperte dieses Bild so treffend wie Peter Falk, und kaum eine Rolle machte es so sichtbar wie seine berühmteste: der Detective Columbo, im zerknitterten Trenchcoat, mit halb gerauchter Zigarre und einem alten Peugeot, der ständig kaputtzugehen scheint.</p>
+          <p class="vb-intro">Von 1968 bis 2003 spielte Falk diesen Mann in insgesamt 69 Folgen – einen Ermittler, der nie brüllt, nie droht, nie mit gezogener Waffe auftritt. Sein einziges Werkzeug ist Geduld. Der Büffel wirkt, als könnte man ihn beiseiteschieben. Man irrt sich jedes Mal – und diese Rolle passte Falk so genau, dass viele bis heute glauben, er habe darin kaum gespielt, sondern einfach sich selbst gezeigt.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Neun: Gleich unter Ungleichen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> nannte Naranjo <em>Teilnahme</em>: die Fähigkeit, sich in jede Gruppe, jedes Milieu, jede soziale Schicht einzufügen und darin Frieden zu finden, ohne die eigene Identität zu verlieren. Columbos Fälle führen ihn durch Villen, Studios, Anwaltskanzleien, Weingüter und Wissenschaftslabore – und in jedem einzelnen dieser Räume behandelt er jeden Menschen mit derselben Aufmerksamkeit: den Butler, den Chauffeur, die Haushälterin genauso wie den millionenschweren Verdächtigen selbst.</p>
-          <p class="vb-intro">Das ist keine Masche, sondern der Kern der SO9: Er fragt den Weinkellner nach dem Jahrgang, den Regisseur nach der Kameraführung, die Sekretärin nach ihrem Arbeitsalltag – mit echtem Interesse, nicht als Verhörtaktik. Genau diese Fähigkeit, sich in jede Gesellschaftsschicht einzupassen, ohne sich selbst zu verbiegen oder anzubiedern, ist die eigentliche Superkraft der Figur: Er wird nirgends als Bedrohung wahrgenommen, weil er wirklich überall ein Stück dazugehört.</p>
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> nannte Naranjo <em>Teilnahme</em>: die Fähigkeit, sich in jede Gruppe, jedes Milieu, jede soziale Schicht einzufügen und darin Frieden zu finden, ohne die eigene Identität zu verlieren. Als Columbo führten Falks Fälle ihn durch Villen, Studios, Anwaltskanzleien, Weingüter und Wissenschaftslabore – und in jedem einzelnen dieser Räume behandelte er jeden Menschen mit derselben Aufmerksamkeit: den Butler, den Chauffeur, die Haushälterin genauso wie den millionenschweren Verdächtigen selbst.</p>
+          <p class="vb-intro">Das war keine Masche, sondern der Kern der SO9, den Falk seiner Figur einschrieb: Er fragt den Weinkellner nach dem Jahrgang, den Regisseur nach der Kameraführung, die Sekretärin nach ihrem Arbeitsalltag – mit echtem Interesse, nicht als Verhörtaktik. Genau diese Fähigkeit, sich in jede Gesellschaftsschicht einzupassen, ohne sich selbst zu verbiegen oder anzubiedern, ist die eigentliche Superkraft der Figur: Columbo wird nirgends als Bedrohung wahrgenommen, weil er wirklich überall ein Stück dazugehört.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Einserflügel: Der stille Richter</h2>
@@ -48012,19 +48012,19 @@ function columboPortraitPage() {
         <h2 class="vb-section">4. Die Methode: Harmlosigkeit als Werkzeug</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Format der Serie war für seine Zeit revolutionär: Der Zuschauer sieht den Mord bereits in den ersten Minuten – die eigentliche Spannung liegt nicht im „Wer war es", sondern im „Wie wird er überführt". Diese Konstruktion funktioniert nur, weil Columbos Methode selbst zum Schauspiel wird: Er tritt scheinbar zerstreut, vergesslich, fast tollpatschig auf, lässt Verdächtige sich in Sicherheit wiegen – und genau in diesem falschen Gefühl von Überlegenheit verstricken sie sich in die kleinen Widersprüche, die er längst bemerkt hat.</p>
-          <p class="vb-intro">Die soziale Neun mit Einserflügel konfrontiert nicht direkt – sie lässt die Wahrheit sich selbst enthüllen, während sie geduldig im Raum bleibt. Kein einziges Mal in der gesamten Serie zieht Columbo eine Waffe. Seine Überlegenheit ist rein psychologisch, rein geduldig – und gerade deshalb so schwer zu durchschauen.</p>
+          <p class="vb-intro">Die soziale Neun mit Einserflügel konfrontiert nicht direkt – sie lässt die Wahrheit sich selbst enthüllen, während sie geduldig im Raum bleibt. Kein einziges Mal in der gesamten Serie zieht Columbo eine Waffe. Seine Überlegenheit ist rein psychologisch, rein geduldig – und gerade deshalb so schwer zu durchschauen. Falk selbst sagte einmal, er habe die Figur nie als „schlau spielend", sondern als tatsächlich so wahrnehmend angelegt – die Tarnung war für ihn keine Taktik, sondern echte Neugier auf Menschen.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Peter Falk hinter Columbo</h2>
+        <h2 class="vb-section">5. Der Mensch hinter Columbo</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Peter Falk verlor im Alter von drei Jahren durch einen Tumor sein rechtes Auge und trug zeitlebens ein Glasauge – ein Umstand, mit dem er offen und humorvoll umging und den er in Rollen gelegentlich sogar bewusst einsetzte. Vor seiner Schauspielkarriere hatte er einen Masterabschluss in Public Administration erworben und als Effizienzprüfer für die Haushaltsbehörde des US-Bundesstaats Connecticut gearbeitet – ein Werdegang, der die methodische, detailversessene Gründlichkeit seiner späteren Paraderolle fast prophetisch vorwegnimmt.</p>
-          <p class="vb-intro">Abseits von Columbo pflegte Falk eine enge Freundschaft mit dem Independent-Regisseur John Cassavetes und wirkte in dessen kompromisslosen, unkommerziellen Filmen wie „A Woman Under the Influence" mit – derselbe Mann, der als Columbo Millionenpublikum unterhielt, suchte abseits davon bewusst das kleine, ehrliche, unglamouröse Projekt. Für seine Rolle erhielt er vier Emmys – doch die eigentliche Anerkennung bestand darin, dass Generationen von Zuschauern eine Figur liebten, deren Stärke gerade darin lag, nie stark wirken zu wollen.</p>
+          <p class="vb-intro">Abseits von Columbo pflegte Falk eine enge Freundschaft mit dem Independent-Regisseur John Cassavetes und wirkte in dessen kompromisslosen, unkommerziellen Filmen wie „A Woman Under the Influence" mit – derselbe Mann, der als Columbo Millionenpublikum unterhielt, suchte abseits davon bewusst das kleine, ehrliche, unglamouröse Projekt. Für seine Rolle erhielt er vier Emmys – doch die eigentliche Anerkennung bestand darin, dass Generationen von Zuschauern eine Figur liebten, deren Stärke gerade darin lag, nie stark wirken zu wollen. Wer Falk abseits der Kameras erlebte, beschrieb ihn ganz ähnlich: bodenständig, neugierig auf jeden Menschen im Raum, ohne Starallüren – der Büffel blieb derselbe, ob vor oder hinter der Kamera.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Vermächtnis: Der Büffel, der niemanden übersah</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Columbo bleibt bis heute eine der einflussreichsten Ermittlerfiguren der Fernsehgeschichte – nicht wegen spektakulärer Action, sondern wegen einer radikal anderen Vorstellung von Stärke: Aufmerksamkeit statt Aggression, Geduld statt Druck, Respekt für jeden Menschen im Raum statt Hierarchiedenken. Genau darin liegt das bleibende Bild der sozialen Neun mit Einserflügel: Sie muss niemanden kleinmachen, um am Ende recht zu behalten.</p>
-          <p class="vb-intro">Der Büffel, der sich in jede Herde einfügt und dabei nie vergisst, wofür er steht – das ist Columbo. Und es ist, den biografischen Spuren nach zu urteilen, vermutlich nicht ganz zufällig auch ein Stück von Peter Falk selbst.</p>
+          <p class="vb-intro">Der Büffel, der sich in jede Herde einfügt und dabei nie vergisst, wofür er steht – das war Peter Falks Columbo. Und den biografischen Spuren nach zu urteilen, war es kein Zufall, dass gerade er diese Figur zum Leben erweckte: Die Rolle war ihm nicht übergestülpt, sie war ihm auf den Leib geschrieben.</p>
         </blockquote>
 
       </div>
@@ -83999,7 +83999,7 @@ function render() {
       "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
-      "beruehmte-columbo": columboPortraitPage,
+      "beruehmte-peter-falk": peterFalkPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
