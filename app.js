@@ -47224,14 +47224,19 @@ function hippokratesVonKosPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO4w5 zeigt sich in der historischen Tragweite dieser Abgrenzung: Hippokrates verwandelte Heilkunst von einem Feld religiöser Bedeutung in eine beobachtbare, dokumentierende, erlernbare Disziplin – die Grundlage jeder modernen Medizin. Seine Forderung, den Patienten als Individuum mit eigener Krankengeschichte zu betrachten statt als Fall eines göttlichen Urteils, bleibt bis heute Grundprinzip ärztlichen Handelns.</p>
-          <p class="vb-intro">Der Schatten liegt in der Erstarrung des eigenen Systems: Die Vier-Säfte-Lehre, einst ein Fortschritt gegenüber religiöser Willkür, wurde über Jahrhunderte zum unhinterfragten Dogma, das medizinischen Fortschritt eher bremste als förderte, bis sie in der Neuzeit widerlegt wurde. Die analytische Systematik der SO4w5, die einst Klarheit schuf, kann sich selbst zur starren Ordnung verhärten, die neue Beobachtung nicht mehr zulässt.</p>
+          <p class="vb-intro">Der Schatten liegt in der Erstarrung des eigenen Systems: Die Vier-Säfte-Lehre, einst ein Fortschritt gegenüber religiöser Willkür, wurde über Jahrhunderte zum unhinterfragten Dogma, das medizinischen Fortschritt eher bremste als förderte, bis sie in der Neuzeit – zumindest nach den heutigen Regeln der Schulmedizin – widerlegt wurde. Die analytische Systematik der SO4w5, die einst Klarheit schuf, kann sich selbst zur starren Ordnung verhärten, die neue Beobachtung nicht mehr zulässt.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Vermächtnis: Der Vater der Medizin</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Hippokrates starb um 370 v. Chr. in Larisa, weit entfernt von seiner Heimatinsel Kos. Sein Name wird bis heute mit jedem Medizinstudium verbunden, sein Eid – in modernisierter Form – von Absolventen weltweit gesprochen oder als ethischer Bezugspunkt zitiert.</p>
-          <p class="vb-intro">Das Gürteltier, das sich von der religiösen Gemeinschaft der Tempelheiler abwandte, um eine eigene, beobachtende Wissenschaft zu begründen, hinterließ mehr als eine Methode – es hinterließ die Haltung, dass Leiden verstanden, nicht nur gedeutet werden will. Genau darin liegt das bleibende Bild der sozialen Vier mit Fünferflügel: Bedeutung, die aus genauem Hinsehen entsteht, und ein Vermächtnis, das über zweieinhalb Jahrtausende trägt.</p>
+          <p class="vb-intro">Das Gürteltier, das sich von der religiösen Gemeinschaft der Tempelheiler abwandte, um eine eigene, beobachtende Wissenschaft zu begründen, hinterließ mehr als eine Methode – es hinterließ die Haltung, dass Leiden verstanden, nicht nur gedeutet werden will. Die soziale Vier gilt als einer der empathischsten Subtypen des Enneagramms überhaupt: Sie weiß aus eigenem Erleben, was Leiden bedeutet, und kann sich dadurch besonders tief in kranke Menschen hineinversetzen – aus dieser inneren Sichtweise heraus entstand Hippokrates' Verständnis für die Heilkunst nicht nur als intellektuelle Disziplin, sondern auch als zutiefst emotionale, mitfühlende Zuwendung zum leidenden Menschen. Genau darin liegt das bleibende Bild der sozialen Vier mit Fünferflügel: Bedeutung, die aus genauem Hinsehen entsteht, und ein Vermächtnis, das über zweieinhalb Jahrtausende trägt.</p>
         </blockquote>
+
+        <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-top:1.5rem;max-width:100%;">
+          <p style="margin:0;font-size:1.05rem;font-style:italic;color:var(--ink);">„Es ist wichtiger zu wissen, welche Art von Mensch eine Krankheit hat, als welche Art von Krankheit ein Mensch hat."</p>
+          <p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--muted);">– Hippokrates von Kos</p>
+        </div>
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
