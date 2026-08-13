@@ -11,6 +11,17 @@
 - Bei Anfragen zu einem bestimmten Subtyp (z. B. „SE1"): **ausschließlich** die jeweilige Einzeldatei in `data/subtypes/` bzw. `data/knowledge/` öffnen und bearbeiten. `index.js`-Dateien und andere Subtyp-Dateien nicht anfassen, außer ausdrücklich verlangt.
 - Neue Inhalte zu einem Subtyp gehören in die jeweilige Einzeldatei — **niemals** zurück in eine zentrale Sammeldatei wie `de.js`.
 
+## 1a. Cache-Busting — Pflichtschritt nach jeder Änderung an bundle.js/en/bundle.js/changelog.js
+
+**Kritisch:** `index.html` und `en/index.html` laden `bundle.js` und `data/changelog.js` mit einer Versions-Query (`?v=inhalt-vXXXX` bzw. `?v=NNN`). Diese Versionsnummer wird von Browsern (und dem GitHub-Pages-CDN) als Cache-Schlüssel benutzt — **ohne Erhöhung bleibt für wiederkehrende Besucher die alte, gecachte Version sichtbar**, obwohl der Inhalt bereits committed und deployt ist. Genau das ist bereits einmal passiert (neues Porträt unsichtbar trotz erfolgreichem Push).
+
+Nach **jeder** inhaltlichen Änderung an `bundle.js`, `en/bundle.js` oder `data/changelog.js`, bevor committed wird:
+1. In `index.html`: `bundle.js?v=inhalt-vXXXX` hochzählen, `data/changelog.js?v=NNN` hochzählen.
+2. In `en/index.html`: dieselben zwei Versionsnummern (eigener Zähler) hochzählen.
+3. In `sw.js`: `SW_VERSION` und `BUNDLE_VERSION` hochzählen (löst den iOS-Auto-Reload-Mechanismus aus).
+
+Dieser Schritt ist **nicht** Teil des automatisierten Post-Commit-Hooks (der kümmert sich nur um `app.js`-Sync und die Wegweiser-Wissensbasis) — er muss aktiv bei jedem Content-Commit mit erledigt werden.
+
 ## 2. Antwortverhalten
 
 - Knapp und konkret. Keine Wiederholungen, keine ausführlichen Zusammenfassungen, außer ausdrücklich gewünscht.
