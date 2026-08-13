@@ -35789,6 +35789,15 @@ function bewusstesInnehaltenPage() {
         <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">Alle Titel und weitere spirituelle Literatur von Detlef Rathmer finden sich auch auf der Homepage des Verlagshauses Rathmer unter „Persönliche Entwicklung".</p>
       </div>
 
+      <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/ACCEPT-WHAT-IS-von-DetlefRathmer/41453519/7yqg" target="_blank" rel="noopener sponsored">
+        <span class="book-tip__icon">☕</span>
+        <div class="book-tip__text">
+          <strong>Tasse »Accept What Is«</strong>
+          <span>Der Kern des bewussten Innehaltens auf einer Tasse – Kaffee oder Tee, ganz wie man mag – bei Redbubble bestellen.</span>
+        </div>
+        <span class="book-tip__arrow">→</span>
+      </a>
+
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
         {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"Das Energiefeld zwischen den Händen"},
