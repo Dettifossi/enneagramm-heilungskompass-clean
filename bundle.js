@@ -15830,7 +15830,7 @@ const werkRegister = [
 
 const uiText = {
   meta: {
-    appTitle: "Enneagramm-Kompass",
+    appTitle: "Enneagramm-Heilungskompass",
     modelLine: "Nach dem Modell von David L. & Detlef Rathmer",
     mainNavigation: "Hauptnavigation",
     resonanceImageAltPrefix: "Resonanzbild zum Subtyp",

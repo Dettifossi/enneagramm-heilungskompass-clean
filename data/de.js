@@ -5123,7 +5123,7 @@ export { subtypeDetails } from './subtypes/index.js?v=2026-07-17-archetype-v1';
 
 export const uiText = {
   meta: {
-    appTitle: "Enneagramm-Kompass",
+    appTitle: "Enneagramm-Heilungskompass",
     modelLine: "Nach dem Modell von David L. & Detlef Rathmer",
     mainNavigation: "Hauptnavigation",
     resonanceImageAltPrefix: "Resonanzbild zum Subtyp",
