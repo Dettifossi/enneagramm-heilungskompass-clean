@@ -35789,14 +35789,48 @@ function bewusstesInnehaltenPage() {
         <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">Alle Titel und weitere spirituelle Literatur von Detlef Rathmer finden sich auch auf der Homepage des Verlagshauses Rathmer unter „Persönliche Entwicklung".</p>
       </div>
 
-      <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/ACCEPT-WHAT-IS-von-DetlefRathmer/41453519/7yqg" target="_blank" rel="noopener sponsored">
-        <span class="book-tip__icon">☕</span>
-        <div class="book-tip__text">
-          <strong>Tasse »Accept What Is«</strong>
-          <span>Der Kern des bewussten Innehaltens auf einer Tasse – Kaffee oder Tee, ganz wie man mag – bei Redbubble bestellen.</span>
-        </div>
-        <span class="book-tip__arrow">→</span>
-      </a>
+      <div class="vb-section" style="max-width:100%;margin-top:1.2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Spirituelle Tassen</h2>
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;">☕</span>
+            <span style="flex:1;">Spirituelle Tassen von Detlef Rathmer (3)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/ACCEPT-WHAT-IS-von-DetlefRathmer/41453519/7yqg" target="_blank" rel="noopener sponsored">
+              <span class="book-tip__icon">☕</span>
+              <div class="book-tip__text">
+                <strong>Tasse »Accept What Is«</strong>
+                <span>Der Kern des bewussten Innehaltens auf einer Tasse – Kaffee oder Tee, ganz wie man mag – bei Redbubble bestellen.</span>
+              </div>
+              <span class="book-tip__arrow">→</span>
+            </a>
+            <div style="margin-top:.8rem;">
+              <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/It-is-difficult-to-find-happiness-von-DetlefRathmer/41301737/7yqg" target="_blank" rel="noopener sponsored">
+                <span class="book-tip__icon">☕</span>
+                <div class="book-tip__text">
+                  <strong>Tasse »It is difficult to find happiness«</strong>
+                  <span>Ein stiller Denkanstoß für den Alltag – bei Redbubble bestellen.</span>
+                </div>
+                <span class="book-tip__arrow">→</span>
+              </a>
+            </div>
+            <div style="margin-top:.8rem;">
+              <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/LOOK-INSIDE-YOURSELF-von-DetlefRathmer/41458576/7yqg" target="_blank" rel="noopener sponsored">
+                <span class="book-tip__icon">☕</span>
+                <div class="book-tip__text">
+                  <strong>Tasse »Look Inside Yourself«</strong>
+                  <span>Die Einladung zur inneren Einkehr auf einer Tasse – bei Redbubble bestellen.</span>
+                </div>
+                <span class="book-tip__arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </details>
+      </div>
 
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
