@@ -46496,6 +46496,7 @@ function aristotelesPortraitPage() {
         {route:"subtype/se1", label:"SE1 \u2013 Der Adler: Subtyp-Profil"},
         {route:"beruehmte-sting", label:"Portr\xe4t: Sting (SE1w9)"},
         {route:"beruehmte-konrad-adenauer", label:"Portr\xe4t: Konrad Adenauer (SE1w9)"},
+        {route:"beruehmte-alexander-der-grosse", label:"Porträt: Alexander der Große (SO2w3)"},
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\xfchmte Philosophen im Enneagramm"},
       ])}
     </div>
@@ -53969,7 +53970,7 @@ function alexanderDerGrossePortraitPage() {
         <h2 class="vb-section">1. Der Golden Retriever, der die Welt umarmen wollte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei – zugewandt, großzügig, unwiderstehlich darauf aus, gebraucht und geliebt zu werden. Kaum eine historische Gestalt zeigt dieses Muster so ungebrochen wie Alexander der Große. Zeitgenössische Quellen berichten übereinstimmend von einem Mann, der seine Soldaten beim Namen kannte, Verwundete persönlich besuchte und der in elf Jahren ununterbrochenen Feldzugs nie fern von der vordersten Linie blieb – ein Feldherr, der Nähe suchte, wo andere Distanz zur Machtsicherung genutzt hätten.</p>
-          <p class="vb-intro">Geboren 356 v. Chr. als Sohn König Philipps II. von Makedonien, wurde Alexander von Aristoteles persönlich unterrichtet – eine Erziehung, die ihm intellektuelle Tiefe neben soldatischer Härte mitgab. Schon als Junge zähmte er das angeblich unbändige Pferd Bukephalos, indem er es einfach von seinem eigenen Schatten wegdrehte und ihm dann ruhig, zugewandt begegnete – eine frühe Miniatur seines gesamten Führungsstils: Verbindung schlägt Zwang.</p>
+          <p class="vb-intro">Geboren 356 v. Chr. als Sohn König Philipps II. von Makedonien, wurde Alexander von Aristoteles (SE1w9) persönlich unterrichtet – eine Erziehung, die ihm intellektuelle Tiefe neben soldatischer Härte mitgab. Schon als Junge zähmte er das angeblich unbändige Pferd Bukephalos, indem er es einfach von seinem eigenen Schatten wegdrehte und ihm dann ruhig, zugewandt begegnete – eine frühe Miniatur seines gesamten Führungsstils: Verbindung schlägt Zwang.</p>
         </blockquote>
 
         <h2 class="vb-section">2. SO2: Ehrgeiz als Form der Liebe</h2>
@@ -53998,7 +53999,7 @@ function alexanderDerGrossePortraitPage() {
 
         <h2 class="vb-section">6. Das Geschenk: Eine Welt, die zusammenwuchs</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Alexander der Welt hinterließ, lässt sich nicht auf Eroberungen reduzieren. Er gründete über zwanzig Städte, die meisten davon Alexandria genannt, von denen einige – allen voran Alexandria in Ägypten – zu den bedeutendsten Kulturzentren der antiken Welt wurden. Er förderte bewusst die Vermischung griechischer und orientalischer Kultur, ließ Zehntausende seiner Soldaten persische Frauen heiraten und heiratete selbst zweimal in persische und baktrische Fürstenhäuser – eine zutiefst SO2-typische Geste: Grenzen zwischen „wir" und „die anderen" auflösen, alle in ein gemeinsames Ganzes einschließen.</p>
+          <p class="vb-intro">Was Alexander der Welt hinterließ, lässt sich nicht auf Eroberungen reduzieren. Er gründete über zwanzig Städte, die meisten davon Alexandria genannt, von denen einige – allen voran Alexandria in Ägypten – zu den bedeutendsten Kulturzentren der antiken Welt wurden. Er förderte bewusst die Vermischung griechischer und orientalischer Kultur, ließ Zehntausende seiner Soldaten persische Frauen heiraten und heiratete selbst zweimal in persische und baktrische Fürstenhäuser – eine zutiefst SO2-typische Geste: Grenzen zwischen dem Wir und den anderen auflösen, alle in ein gemeinsames Ganzes einschließen.</p>
           <p class="vb-intro">Er starb 323 v. Chr. in Babylon im Alter von nur 32 Jahren, vermutlich an einer fieberhaften Erkrankung, ohne einen erwachsenen Erben zu hinterlassen. Sein Reich zerfiel binnen weniger Jahre unter seinen Nachfolgern. Doch die von ihm ausgelöste Verschmelzung griechischer und orientalischer Kultur, der sogenannte Hellenismus, prägte den Mittelmeerraum und den Nahen Osten für Jahrhunderte. Der Golden Retriever mit dem Dreierflügel konnte eine Welt zusammenführen – auch wenn das Reich selbst seinen Tod nicht überdauerte, überdauerte die Verbindung, die er zwischen Ost und West gestiftet hatte.</p>
         </blockquote>
 
@@ -54009,6 +54010,7 @@ function alexanderDerGrossePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-aristoteles", label:"Porträt: Aristoteles (SE1w9)"},
         {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3)"},
         {route:"beruehmte-napoleon-bonaparte", label:"Porträt: Napoleon Bonaparte (SO2w3)"},
       ])}
