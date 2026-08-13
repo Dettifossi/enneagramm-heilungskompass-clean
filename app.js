@@ -47223,7 +47223,7 @@ function hippokratesVonKosPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO4w5 zeigt sich in der historischen Tragweite dieser Abgrenzung: Hippokrates verwandelte Heilkunst von einem Feld religiöser Deutung in eine beobachtende, dokumentierende, lernende Disziplin – die Grundlage jeder modernen Medizin. Seine Forderung, den Patienten als Individuum mit eigener Krankengeschichte zu betrachten statt als Fall eines göttlichen Urteils, bleibt bis heute Grundprinzip ärztlichen Handelns.</p>
+          <p class="vb-intro">Das Licht der SO4w5 zeigt sich in der historischen Tragweite dieser Abgrenzung: Hippokrates verwandelte Heilkunst von einem Feld religiöser Bedeutung in eine beobachtbare, dokumentierende, erlernbare Disziplin – die Grundlage jeder modernen Medizin. Seine Forderung, den Patienten als Individuum mit eigener Krankengeschichte zu betrachten statt als Fall eines göttlichen Urteils, bleibt bis heute Grundprinzip ärztlichen Handelns.</p>
           <p class="vb-intro">Der Schatten liegt in der Erstarrung des eigenen Systems: Die Vier-Säfte-Lehre, einst ein Fortschritt gegenüber religiöser Willkür, wurde über Jahrhunderte zum unhinterfragten Dogma, das medizinischen Fortschritt eher bremste als förderte, bis sie in der Neuzeit widerlegt wurde. Die analytische Systematik der SO4w5, die einst Klarheit schuf, kann sich selbst zur starren Ordnung verhärten, die neue Beobachtung nicht mehr zulässt.</p>
         </blockquote>
 
