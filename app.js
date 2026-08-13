@@ -31867,10 +31867,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Robert Schumann – Sexueller Typ 7",
     teaser:"SX7w8 · 1810–1856. Deutscher Komponist und Musikkritiker. Liederjahr 1840, Entdecker von Johannes Brahms, jahrelanger Kampf um Clara Wieck. Der Schimpanse mit Achterflügel: schrankenlose Begeisterung, kämpferische Hingabe – und eine Intensität, die sich am Ende gegen ihn selbst wandte. Tierentsprechung: Schimpanse.",
     tags:["Musik","Geschichte"], gender:"m"},
-  { route:"beruehmte-johannes-brahms", name:"Johannes Brahms", added:"2026-08-13", subtyp:"SE9w8",
-    heading:"Johannes Brahms – Selbsterhaltender Typ 9",
-    teaser:"SE9w8 · 1833–1897. Deutscher Komponist. 1853 von Robert Schumann entdeckt, vier Jahrzehnte treuer Begleiter der Familie Schumann, 21 Jahre Arbeit an der 1. Symphonie. Der Elefant mit Achterflügel: schroffer Witz, unerschütterliche Geduld und eine Treue, die nie aufgab. Tierentsprechung: Elefant.",
-    tags:["Musik","Geschichte"], gender:"m"},
   { route:"beruehmte-shakira", name:"Shakira", added:"2026-08-04", subtyp:"SX7w8",
     heading:"Shakira \u2013 Sexueller Typ 7",
     teaser:"SX7w8 \u00b7 geb. 1977 in Barranquilla, Kolumbien. S\u00e4ngerin, Songwriterin, T\u00e4nzerin, Produzentin. \u201eHips Don't Lie\u201c, \u201eWaka Waka\u201c, \u00fcber 80 Millionen verkaufte Tontr\u00e4ger. Der Schimpanse mit Achterfl\u00fcgel: Rhythmus als Sprache des K\u00f6rpers, Intensit\u00e4t ohne Bremse, Kraft, die aus pers\u00f6nlichem Schmerz B\u00fchnenpr\u00e4senz macht.",
@@ -31991,6 +31987,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Abida Parveen \u2013 Selbsterhaltender Typ 9",
     teaser:"SE9w8 \u00b7 geb. 1954 in Larkana, Pakistan. S\u00e4ngerin, \u201eK\u00f6nigin des Sufi-Gesangs\u201c, bekannteste Interpretin des Kalam und Qawwali. Der Elefant, der in Trance versinkt und dabei ganze Konzerts\u00e4le mit sich rei\u00dft \u2013 Ruhe, die zur Ekstase wird.",
     tags:["Musik","Spiritualit\u00e4t"], gender:"f"},
+  { route:"beruehmte-johannes-brahms", name:"Johannes Brahms", added:"2026-08-13", subtyp:"SE9w8",
+    heading:"Johannes Brahms \u2013 Selbsterhaltender Typ 9",
+    teaser:"SE9w8 \u00b7 1833\u20131897. Deutscher Komponist. 1853 von Robert Schumann entdeckt, vier Jahrzehnte treuer Begleiter der Familie Schumann, 21 Jahre Arbeit an der 1. Symphonie. Der Elefant mit Achterfl\u00fcgel: schroffer Witz, unersch\u00fctterliche Geduld und eine Treue, die nie aufgab. Tierentsprechung: Elefant.",
+    tags:["Musik","Geschichte"], gender:"m"},
   { route:"beruehmte-kevin-costner", name:"Kevin Costner", added:"2026-07-22", subtyp:"SO9w1",
     heading:"Kevin Costner \u2013 Sozialer Typ 9",
     teaser:"SO9w1 \u00b7 geb. 1955. Schauspieler und Regisseur. Dances with Wolves, Field of Dreams, Yellowstone. Der B\u00fcffel, der nicht f\u00fcr sich k\u00e4mpft \u2013 sondern f\u00fcr etwas, das gr\u00f6\u00dfer ist als er selbst.",
@@ -47636,7 +47636,7 @@ function johannesBrahmsPortraitPage() {
 
         <h2 class="vb-section">1. Der Elefant</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des Typs 9 – ein Wesen von enormem Gewicht, das sich trotzdem gemächlich, fast bedächtig durch die Welt bewegt, das nichts vergisst und niemanden verlässt, dem es einmal die Treue geschworen hat. Johannes Brahms war dieser Elefant: massig in seiner künstlerischen Statur, unerschütterlich in seinen Bindungen, und mit einem Gedächtnis, das eine einzige Freundschaft über vier Jahrzehnte trug.</p>
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier der selbsterhaltenden Neun des Enneagramms – ein Wesen von enormem Gewicht, das sich trotzdem gemächlich, fast bedächtig durch die Welt bewegt, das nichts vergisst und niemanden verlässt, dem es einmal die Treue geschworen hat. Johannes Brahms war dieser Elefant: massig in seiner künstlerischen Statur, unerschütterlich in seinen Bindungen, und mit einem Gedächtnis, das eine einzige Freundschaft über vier Jahrzehnte trug.</p>
           <p class="vb-intro">Geboren 1833 in Hamburg als Sohn eines Stadtmusikers, verdiente sich der junge Brahms als Teenager sein Geld am Klavier in Hafenkneipen St. Paulis – eine harte, karge Schule, die ihn Zeit seines Lebens genügsam bleiben ließ, auch als sein Ruhm ihn längst zu einem der reichsten Komponisten Europas gemacht hatte.</p>
         </blockquote>
 
@@ -47666,7 +47666,7 @@ function johannesBrahmsPortraitPage() {
 
         <h2 class="vb-section">6. Das Vermächtnis: Der Bewahrer, der niemanden verließ</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Brahms hinterließ ein Werk, das die klassische Tradition nicht museal konservierte, sondern mit letzter Konsequenz zu Ende dachte – vier Symphonien, Kammermusik von unerreichter Dichte, das Deutsche Requiem, komponiert im Angedenken an seine Mutter. Kein Komponist des 19. Jahrhunderts hat die Formen Bachs und Beethovens so ernst genommen und zugleich so persönlich durchdrungen.</p>
+          <p class="vb-intro">Brahms hinterließ ein Werk, das die klassische Tradition nicht museal konservierte, sondern mit letzter Konsequenz zu Ende dachte – vier Symphonien, Kammermusik von unerreichter Dichte, das Deutsche Requiem, komponiert im Angedenken an seine Mutter. Kein Komponist des 19. Jahrhunderts hat die Formen Bachs (SX1w9) und Beethovens (SX6w5) so ernst genommen und zugleich so persönlich durchdrungen.</p>
           <p class="vb-intro">Das eigentliche Vermächtnis der SE9w8 aber liegt nicht allein in den Noten. Es liegt in der Treue eines Mannes, der weder für Ruhm noch für Anerkennung, sondern aus stiller, unerschütterlicher Verbundenheit vierzig Jahre lang bei einer Familie blieb, die ihn einst entdeckt hatte. Der Elefant mit dem Achterflügel: geduldig genug, um zwei Jahrzehnte an einer Symphonie zu feilen – und stur genug, um eine einmal gegebene Treue nie wieder aufzugeben.</p>
         </blockquote>
 
@@ -47677,6 +47677,7 @@ function johannesBrahmsPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"beruehmte-robert-schumann", label:"Porträt: Robert Schumann (SX7w8) – sein Entdecker"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5)"},
         {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-baerbel-bas", label:"Porträt: Bärbel Bas (SE9w1)"},
       ])}
