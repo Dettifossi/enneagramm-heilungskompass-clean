@@ -22073,7 +22073,7 @@ function napoleonBonapartePortraitPage() {
         <h2 class="vb-section">6. The Gift: Institutions That Endured</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Napoleon left the world cannot be reduced to military campaigns. The Code Napoléon still shapes civil law across large parts of Europe and Latin America today. He reformed France's education system, administration, and tax system so fundamentally that many of these structures persist into the present. The Legion of Honor, which recognized merit rather than birth, was a deeply SO2-typical gesture: defining belonging through achievement rather than origin, including people who would never have belonged before.</p>
-          <p class="vb-intro">This is the SO2w3 at its most far-reaching: a person whose personal need for significance and belonging transformed into institutions that outlasted centuries. The Golden Retriever with the Three-Wing can reorder a continent &ndash; if he learns that true belonging need not be conquered, nor secured through ever-new proof, but simply is.</p>
+          <p class="vb-intro">Here the SO2w3 reaches its greatest scope: a person whose personal need for significance and belonging transformed into institutions that outlasted centuries. The Golden Retriever with the Three-Wing can reorder a continent &ndash; if he learns that true belonging need not be conquered, nor secured through ever-new proof, but simply is.</p>
         </blockquote>
 
       </div>
@@ -23549,7 +23549,7 @@ function ludwigVanBeethovenPortraitPage() {
         <h2 class="vb-section">6. The Legacy: The Ninth, Composed in Complete Silence</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In 1824, at the premiere of his Ninth Symphony with its world-famous <em>Ode to Joy</em>, Beethoven was already completely deaf. Legend has it that a singer had to turn him by the sleeve so he could at least see the audience's thunderous applause &ndash; he could not hear it. A man who could no longer perceive music had just created one of the most significant works in music history, a hymn to universal brotherhood, composed from the deepest interior of a man who himself remained isolated throughout his life.</p>
-          <p class="vb-intro">This is SX6w5 at its most far-reaching: a threat that would have silenced anyone else became the starting point for music that still tears down walls between people today. The wolf who defied his own deafness left posterity not surrender, but a defiance that became joy.</p>
+          <p class="vb-intro">This is SX6w5 at its fullest expression: a threat that would have silenced anyone else became the starting point for music that still tears down walls between people today. The wolf who defied his own deafness left posterity not surrender, but a defiance that became joy.</p>
         </blockquote>
 
       </div>
