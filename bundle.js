@@ -53170,6 +53170,14 @@ function samuelHahnemannPortraitPage() {
         </div>
         <span class="book-tip__arrow">\u2192</span>
       </a>
+      <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Samuel-Hahnemann-Begr%C3%BCnder-der-Hom%C3%B6opathie-%C3%84hnlichkeitsprinzip-von-DetlefRathmer/41189412/7yqg" target="_blank" rel="noopener sponsored">
+        <span class="book-tip__icon">\u2615</span>
+        <div class="book-tip__text">
+          <strong>Samuel-Hahnemann-Tasse \u2013 \u00bbSimilia similibus curentur\u00ab</strong>
+          <span>Das \u00c4hnlichkeitsprinzip der Hom\u00f6opathie auf einer sch\u00f6nen wei\u00dfen Tasse mit Hahnemann-Portr\u00e4t \u2013 bei Redbubble bestellen.</span>
+        </div>
+        <span class="book-tip__arrow">\u2192</span>
+      </a>
       ${bookTip("rathmer-s-repertorium-gebundene-ausgabe", "Das weltweit umfangreichste hom\u00f6opathische Gem\u00fctsrepertorium \u2013 1568 Seiten, 20.000 Rubriken.", "Rathmer\u2019s Repertorium")}
       ${bookTip("der-kern-der-heilmittel-the-core-of-the-remedies-gebunden", "Das geistige Wesen der 500 wichtigsten hom\u00f6opathischen Arzneimittel \u2013 \u00fcber 8.500 Single-Rubriken.", "Der Kern der Heilmittel")}
       ${bookTip("enneagramm-homoeopathie-band-1", "Die Grundlage der Enneagramm-Hom\u00f6opathie \u2013 wie Pers\u00f6nlichkeitstyp und Heilmittelwahl zusammenh\u00e4ngen.", "Enneagramm-Hom\u00f6opathie \u2013 Band 1")}
