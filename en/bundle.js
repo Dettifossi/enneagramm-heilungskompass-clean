@@ -378,6 +378,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Edgar Allan Poe – Social Type 4",
     teaser:"SO4w5 · 1809–1849. American writer, inventor of the detective story, master of literary horror. The Raven, The Tell-Tale Heart. The armadillo whose shell of pain and isolation became an art form.",
     tags:["Literature"], gender:"m"},
+  { route:"beruehmte-hippokrates-von-kos", name:"Hippocrates of Kos", added:"2026-08-13", subtyp:"SO4w5",
+    heading:"Hippocrates of Kos – Social Type 4",
+    teaser:"SO4w5 · c. 460–370 BC. Greek physician, \"Father of Medicine\". Hippocratic Oath, theory of the four humors, systematic case histories. The armadillo with the Five-wing: differentiation from temple medicine, significance through precise observation. Animal correspondence: Armadillo.",
+    tags:["History","Medicine"], gender:"m"},
   { route:"beruehmte-gustav-mahler", name:"Gustav Mahler", added:"2026-08-09", subtyp:"SO4w5",
     heading:"Gustav Mahler – Social Type 4",
     teaser:"SO4w5 · 1860–1911. Austrian composer and conductor, director of the Vienna Court Opera. Symphonies, Kindertotenlieder, Das Lied von der Erde. The armadillo that translated existential loss into monumental, all-encompassing soundscapes.",
@@ -18966,6 +18970,71 @@ function marcelProustPortraitPage() {
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function hippokratesVonKosPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-hippokrates-von-kos-portrait.jpg" alt="Hippocrates of Kos" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hippocrates of Kos</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Greek physician, c. 460&ndash;370 BC &ndash; "Father of Medicine" &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo That Turned Away From the Temples</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four &ndash; it seeks community in order to measure itself against it, to spot its blind spots, and to draw its own significance from exactly that difference. Hippocrates of Kos was born around 460 BC on the island of Kos into a family of physicians who traced their lineage back to Asclepius, the god of healing &ndash; an origin that placed him, at first, squarely within the religiously shaped healing arts of his time.</p>
+          <p class="vb-intro">Yet it was from exactly this tradition that he set himself apart: in a world where illness was seen as divine punishment or message, and healing was sought in the temples of Asclepius through dream interpretation and ritual sacrifice, Hippocrates positioned himself as the one who understood disease as a natural, explicable process. The armadillo remains part of the community of healers &ndash; but contradicts it at its very core.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Four: Significance Through Differentiation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> seeks its significance not in withdrawal, but in working within a community from which it simultaneously sets itself apart &ndash; through a perspective that is different, deeper, more uncomfortable. Hippocrates founded a medical school on Kos that trained physicians no longer as priests but as observers of nature. He taught a medicine grounded in cause and effect, not in divine wrath or favor.</p>
+          <p class="vb-intro">This differentiation was no quiet retreat into private practice, but a public, teaching stance: Hippocrates and his students traveled through Greece, treating patients, teaching, and thereby visibly positioning themselves against the established temple medicine of their time. SO4 needs this counterpart &ndash; its own significance arises in contrast to the existing order, not in isolation from it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Observation as Method</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the social Four an analytical, systematic sharpness &ndash; the sense of one's own distinctiveness is not merely asserted but methodically documented. The text "Epidemics," attributed to the Hippocratic Corpus, contains meticulous case histories of individual patients, in which symptoms, disease progression, and outcome were recorded over days and weeks &ndash; one of the earliest forms of systematic clinical documentation in world history.</p>
+          <p class="vb-intro">The treatise "On Airs, Waters, and Places" shows the same systematic rigor: Hippocrates examined how climate, water quality, and geography influence patterns of disease and even the character of entire peoples &ndash; an early form of environmental medicine, born of careful, repeated observation rather than speculation. This combination of a deep need for significance and unsparingly precise observation is the signature of SO4w5.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: The Oath and the Four Humors</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Hippocratic Oath, traditionally attributed to him, formulated for the first time binding ethical principles for physicians &ndash; confidentiality, the avoidance of harm, responsibility toward the patient regardless of their social standing. Whether Hippocrates himself wrote every line is disputed among historians; that the oath bears his name shows how thoroughly his name became a symbol of medical responsibility.</p>
+          <p class="vb-intro">Equally formative was the theory of the four humors (blood, phlegm, yellow bile, black bile), which explained illness as an imbalance of bodily substances &ndash; a rational, self-contained system that governed Western medicine for over a millennium and a half. For SO4w5, this was the ideal form: a theory that placed deep, individual suffering within a comprehensive, analytically constructed explanatory model.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO4w5 shows in the historical significance of this differentiation: Hippocrates transformed the healing arts from a field of religious interpretation into an observing, documenting, learning discipline &ndash; the foundation of all modern medicine. His demand that the patient be regarded as an individual with their own case history, rather than as a case of divine judgment, remains a core principle of medical practice to this day.</p>
+          <p class="vb-intro">The shadow lies in the ossification of his own system: the theory of the four humors, once a step forward from religious arbitrariness, hardened over centuries into unquestioned dogma that hindered medical progress more than it advanced it, until it was disproven in the modern era. The analytical systematization of SO4w5, which once created clarity, can itself harden into a rigid order that no longer permits new observation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Father of Medicine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hippocrates died around 370 BC in Larissa, far from his home island of Kos. His name remains linked to every course of medical study to this day, his oath &ndash; in modernized form &ndash; spoken by graduates worldwide or cited as an ethical touchstone.</p>
+          <p class="vb-intro">The armadillo that turned away from the religious community of temple healers to found its own, observing science left behind more than a method &ndash; it left behind the conviction that suffering wants to be understood, not merely interpreted. That is exactly the lasting image of the social Four with the Five-wing: significance born of close observation, and a legacy that has carried across two and a half millennia.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5)"},
+        {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
       ])}
     </div>
   `);
@@ -49518,6 +49587,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
+      "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-carsten-stahl": carstenStahlPortraitPage,

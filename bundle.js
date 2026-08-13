@@ -31587,6 +31587,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Edgar Allan Poe \u2013 Sozialer Typ 4",
     teaser:"SO4w5 \u00b7 1809\u20131849. Amerikanischer Schriftsteller, Erfinder der Detektivgeschichte, Meister des literarischen Schauerlichen. Der Rabe (The Raven), Das verr\u00e4terische Herz (The Tell-Tale Heart). Das G\u00fcrteltier, dessen Panzer aus Schmerz und Isolation zur Kunstform wurde.",
     tags:["Literatur"], gender:"m"},
+  { route:"beruehmte-hippokrates-von-kos", name:"Hippokrates von Kos", added:"2026-08-13", subtyp:"SO4w5",
+    heading:"Hippokrates von Kos – Sozialer Typ 4",
+    teaser:"SO4w5 · ca. 460–370 v. Chr. Griechischer Arzt, ›Vater der Medizin‹. Hippokratischer Eid, Vier-Säfte-Lehre, systematische Fallgeschichten. Das Gürteltier mit Fünferflügel: Abgrenzung von der Tempelmedizin, Bedeutung durch genaue Beobachtung. Tierentsprechung: Gürteltier.",
+    tags:["Geschichte","Medizin"], gender:"m"},
   { route:"beruehmte-gustav-mahler", name:"Gustav Mahler", added:"2026-08-09", subtyp:"SO4w5",
     heading:"Gustav Mahler \u2013 Sozialer Typ 4",
     teaser:"SO4w5 \u00b7 1860\u20131911. \u00d6sterreichischer Komponist und Dirigent, Direktor der Wiener Hofoper. Sinfonien, Kindertotenlieder, Das Lied von der Erde. Das G\u00fcrteltier, das existenzielles Leid in monumentale, alles umfassende Klangwelten \u00fcbersetzte.",
@@ -47173,6 +47177,71 @@ function marcelProustPortraitPage() {
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
         {route:"beruehmte-gustav-mahler", label:"Portr\xe4t: Gustav Mahler (SO4w5)"},
         {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function hippokratesVonKosPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hippokrates-von-kos-portrait.jpg" alt="Hippokrates von Kos" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hippokrates von Kos</p>
+        <p class="krim-portrait-typ">SO4w5 · Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Griechischer Arzt, ca. 460–370 v. Chr. – „Vater der Medizin" – Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier, das sich von den Tempeln abwandte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier – es sucht die Gemeinschaft, um sich an ihr zu messen, ihre blinden Flecken zu erkennen und aus genau dieser Differenz die eigene Bedeutung zu schöpfen. Hippokrates von Kos wurde um 460 v. Chr. auf der Insel Kos in eine Familie von Ärzten hineingeboren, die ihre Abstammung auf den Heilgott Asklepios zurückführte – eine Herkunft, die ihn zunächst mitten in die religiös geprägte Heilkunst seiner Zeit stellte.</p>
+          <p class="vb-intro">Doch genau von dieser Tradition grenzte er sich ab: In einer Welt, in der Krankheit als Strafe oder Botschaft der Götter galt und Heilung in Tempeln des Asklepios durch Traumdeutung und rituelle Opfer gesucht wurde, positionierte sich Hippokrates als derjenige, der Krankheit als natürliches, erklärbares Geschehen verstand. Das Gürteltier bleibt Teil der Gemeinschaft der Heiler – aber es widerspricht ihr in ihrem Kern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Bedeutung durch Abgrenzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> sucht ihre Bedeutung nicht im Rückzug, sondern im Wirken innerhalb einer Gemeinschaft, von der sie sich zugleich abhebt – durch eine Sichtweise, die anders ist, tiefer, unbequemer. Hippokrates gründete auf Kos eine eigene medizinische Schule, die Ärzte nicht mehr als Priester, sondern als Beobachter der Natur ausbildete. Er lehrte eine Medizin, die auf Ursache und Wirkung beruhte, nicht auf göttlichem Zorn oder Gunst.</p>
+          <p class="vb-intro">Diese Abgrenzung war kein stiller Rückzug in die eigene Praxis, sondern eine öffentliche, lehrende Positionierung: Hippokrates und seine Schüler reisten durch Griechenland, behandelten Patienten, unterrichteten und stellten sich damit sichtbar gegen die etablierte Tempelmedizin ihrer Zeit. Die SO4 braucht dieses Gegenüber – die eigene Bedeutung entsteht im Kontrast zur bestehenden Ordnung, nicht in Isolation von ihr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Beobachtung als Methode</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der sozialen Vier eine analytische, systematische Schärfe – das Gefühl für die eigene Besonderheit wird nicht nur behauptet, sondern methodisch belegt. Die dem Corpus Hippocraticum zugeschriebene Schrift "Epidemien" enthält minutiöse Fallgeschichten einzelner Patienten, in denen Symptome, Krankheitsverlauf und Ausgang über Tage und Wochen hinweg festgehalten wurden – eine der frühesten Formen systematischer klinischer Dokumentation der Weltgeschichte.</p>
+          <p class="vb-intro">Auch die Schrift "Über die Umwelt" (Peri aeron, hydaton, topon) zeigt diese Systematik: Hippokrates untersuchte, wie Klima, Wasserqualität und geografische Lage Krankheitsbilder und sogar den Charakter ganzer Völker beeinflussen – eine frühe Form von Umweltmedizin, entstanden aus genauer, wiederholter Beobachtung statt aus Spekulation. Diese Kombination aus tiefem Bedeutungsbedürfnis und schonungslos genauer Beobachtung ist die Signatur der SO4w5.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Der Eid und die vier Säfte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Hippokratische Eid, ihm traditionell zugeschrieben, formulierte erstmals verbindliche ethische Grundsätze für Ärzte – Verschwiegenheit, Verzicht auf Schaden, Verantwortung gegenüber dem Patienten unabhängig von dessen Stand. Ob Hippokrates selbst jede Zeile verfasste, ist unter Historikern umstritten; dass der Eid seinen Namen trägt, zeigt, wie sehr sein Name zum Sinnbild ärztlicher Verantwortung wurde.</p>
+          <p class="vb-intro">Ebenso prägend war die Vier-Säfte-Lehre (Blut, Schleim, gelbe und schwarze Galle), die Krankheit als Ungleichgewicht körperlicher Substanzen erklärte – ein rationales, in sich geschlossenes System, das über anderthalb Jahrtausende die westliche Medizin bestimmte. Für die SO4w5 war das die ideale Form: eine Theorie, die tiefes, individuelles Leiden in ein umfassendes, analytisch durchdachtes Erklärungsmodell einordnete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 zeigt sich in der historischen Tragweite dieser Abgrenzung: Hippokrates verwandelte Heilkunst von einem Feld religiöser Deutung in eine beobachtende, dokumentierende, lernende Disziplin – die Grundlage jeder modernen Medizin. Seine Forderung, den Patienten als Individuum mit eigener Krankengeschichte zu betrachten statt als Fall eines göttlichen Urteils, bleibt bis heute Grundprinzip ärztlichen Handelns.</p>
+          <p class="vb-intro">Der Schatten liegt in der Erstarrung des eigenen Systems: Die Vier-Säfte-Lehre, einst ein Fortschritt gegenüber religiöser Willkür, wurde über Jahrhunderte zum unhinterfragten Dogma, das medizinischen Fortschritt eher bremste als förderte, bis sie in der Neuzeit widerlegt wurde. Die analytische Systematik der SO4w5, die einst Klarheit schuf, kann sich selbst zur starren Ordnung verhärten, die neue Beobachtung nicht mehr zulässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Vater der Medizin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hippokrates starb um 370 v. Chr. in Larisa, weit entfernt von seiner Heimatinsel Kos. Sein Name wird bis heute mit jedem Medizinstudium verbunden, sein Eid – in modernisierter Form – von Absolventen weltweit gesprochen oder als ethischer Bezugspunkt zitiert.</p>
+          <p class="vb-intro">Das Gürteltier, das sich von der religiösen Gemeinschaft der Tempelheiler abwandte, um eine eigene, beobachtende Wissenschaft zu begründen, hinterließ mehr als eine Methode – es hinterließ die Haltung, dass Leiden verstanden, nicht nur gedeutet werden will. Genau darin liegt das bleibende Bild der sozialen Vier mit Fünferflügel: Bedeutung, die aus genauem Hinsehen entsteht, und ein Vermächtnis, das über zweieinhalb Jahrtausende trägt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5)"},
+        {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5)"},
       ])}
     </div>
   `);
@@ -83552,6 +83621,7 @@ function render() {
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
+      "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
