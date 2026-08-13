@@ -55524,7 +55524,7 @@ function tonyShalhoubPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em></p>
-          <p class="vb-intro">Shalhoubs Karriere liest sich wie ein Lehrbuch dieser Haltung: Rollen in „Barton Fink", „Men in Black", „Wings" und dem Independent-Film „Big Night" (1996) – ein leises, von Kritikern hochgelobtes Drama über zwei italienisch-amerikanische Brüder und ein einziges perfektes Risotto –, lange bevor der große Publikumserfolg kam. Er wählte Rollen nach handwerklicher Substanz, nicht nach Sichtbarkeit. Das ist SE3-Logik in Reinform: Wer wirklich kann, muss sich nicht anpreisen.</p>
+          <p class="vb-intro">Shalhoubs Karriere liest sich wie ein Lehrbuch dieser Haltung: Rollen in „Barton Fink", „Men in Black", „Wings" und dem Independent-Film „Big Night" (1996) – ein leises, von Kritikern hochgelobtes Drama über zwei italienisch-amerikanische Brüder und ein einziges perfektes Risotto –, lange bevor der große Publikumserfolg kam. Er wählte Rollen nach handwerklicher Substanz, nicht nach Sichtbarkeit. Das ist SE3-Logik in Reinform: Wer wirklich etwas kann, muss sich nicht anpreisen.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Viererflügel: Tiefe hinter der Präzision</h2>
