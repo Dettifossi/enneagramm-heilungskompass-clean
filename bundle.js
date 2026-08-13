@@ -57414,7 +57414,7 @@ function tomKeatingPortraitPage() {
         Betrüger unterscheidet: Er baute absichtlich Fehler ein, „Zeitbomben", die seine Fälschungen für
         kundige Augen enttarnen sollten, und verstand sein Tun als Protest gegen einen Kunstmarkt, der
         Künstler zu Lebzeiten verarmen ließ und erst nach ihrem Tod an ihnen verdiente. Das Enneagramm macht
-        diesen Widerspruch aus Handwerksliebe und Rachefeldzug lesbar.
+        diesen Widerspruch aus Handwerksliebe und moralischem Sendungsbewusstsein lesbar.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
@@ -57475,7 +57475,7 @@ function tomKeatingPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
         <p class="vb-intro"><strong>a) Identifikation mit dem Vorbild:</strong>
         Keating verehrte den romantischen Landschaftsmaler Samuel Palmer geradezu, dessen Armut zu Lebzeiten
-        ihn tief empörte. Seine Fälschungen von Palmers Werken waren zugleich Hommage und Racheakt.</p>
+        ihn tief empörte. Seine Fälschungen von Palmers Werken waren zugleich Hommage und ein Akt der Wiedergutmachung – so, wie die selbsterhaltende Drei ein empfundenes Unrecht am liebsten durch eigenes, sichtbares Handeln korrigiert.</p>
         <p class="vb-intro"><strong>b) Bedürfnis nach Kontrolle über Deutung:</strong>
         Er wollte nicht nur täuschen, sondern irgendwann auch entlarvt werden – zu seinen eigenen Bedingungen.
         Die eingebauten „Zeitbomben" sichern der selbsterhaltenden Drei die Kontrolle über die eigene Geschichte.</p>
@@ -57565,10 +57565,12 @@ function tomKeatingPortraitPage() {
         1976 identifizierte die Kunstkritikerin Geraldine Norman von der „Times" ein angebliches
         Samuel-Palmer-Aquarell namens „Sepham Barn" als Fälschung. Die folgende Recherche brachte Keatings
         gesamtes Lebenswerk ans Licht – ein Moment, den er später fast wie eine Befreiung beschrieb.</p>
-        <p class="vb-intro"><strong>d) Motiv Rache statt Gier:</strong>
+        <p class="vb-intro"><strong>d) Motiv moralische Korrektur statt Gier:</strong>
         In Interviews betonte Keating immer wieder, sein Ziel sei nie persönliche Bereicherung gewesen,
-        sondern ein Protest gegen Kunsthändler, die seiner Ansicht nach Künstler wie Samuel Palmer zu
-        Lebzeiten verarmen ließen, um nach deren Tod an ihrem Werk zu verdienen.</p>
+        sondern die Richtigstellung eines aus seiner Sicht eklatanten Unrechts: Kunsthändler ließen Künstler
+        wie Samuel Palmer zu Lebzeiten verarmen, um erst nach deren Tod an ihrem Werk zu verdienen. Typisch
+        für die selbsterhaltende Drei: Sie sieht sich nicht als Rächer, sondern als derjenige, der eine schiefe
+        Ordnung mit den eigenen Mitteln wieder geraderückt.</p>
         <p class="vb-intro"><strong>e) Die zweite Karriere:</strong>
         Statt im Gefängnis zu enden, wurde Keating durch die Fernsehserie „Tom Keating on Painters" zum
         Publikumsliebling, der Millionen Zuschauern die Techniken von Rembrandt, Constable und Degas

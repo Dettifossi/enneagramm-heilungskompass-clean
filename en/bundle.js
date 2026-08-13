@@ -125,7 +125,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-pamela-smart",        name:"Pamela Smart",                        subtyp:"SX2w3",  heading:"Pamela Smart – Sexual Type 2",                                        teaser:"SX2w3 – The Seductress of Derry, born 1967. Manipulated a 15-year-old student into murdering her husband (1990). The only one of those involved still in prison. The sexual Two with Three-wing: love as leverage, pride as blind spot. Animal correspondence: Camel." , tags:["Nahbereich"]},
   { route:"kriminalpsychologie-michael-franzese",     name:"Michael Franzese",                    subtyp:"SE3w2",  heading:"Michael Franzese \u2013 Self-Preservation Type 3",                          teaser:"SP3w2 – Youngest Mafia capo since Al Capone. Gasoline tax fraud, billion-dollar revenues – and the only mob boss who left the Mafia alive and without a witness protection agreement." , tags:["Mafia"]},
   { route:"kriminalpsychologie-pablo-escobar",       name:"Pablo Escobar",                       subtyp:"SE3w4",  heading:"Pablo Escobar \u2013 Self-Preservation Type 3",                              teaser:"SP3w4 – Drug lord, 1949–1993. 80 % of the world market, 30 billion dollars in assets, folk hero and terrorist at once – the self-preservation Three in its darkest manifestation." , tags:["Mafia","Terror"]},
-  { route:"kriminalpsychologie-tom-keating",         name:"Tom Keating",                         subtyp:"SE3w4",  heading:"Tom Keating \u2013 Self-Preservation Type 3",                                 teaser:"SP3w4 – One of the greatest art forgers of the 20th century, 1917–1984. Over 2,000 forgeries in the styles of around 100 masters, laced with deliberate ‘time bombs’ for later exposure – revenge on the art market rather than personal enrichment." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-tom-keating",         name:"Tom Keating",                         subtyp:"SE3w4",  heading:"Tom Keating \u2013 Self-Preservation Type 3",                                 teaser:"SP3w4 – One of the greatest art forgers of the 20th century, 1917–1984. Over 2,000 forgeries in the styles of around 100 masters, laced with deliberate ‘time bombs’ for later exposure – setting the art market straight rather than personal enrichment." , tags:["Betrug"]},
   { route:"kriminalpsychologie-samuel-bankman-fried", name:"Samuel Bankman-Fried",              subtyp:"SE3w4",  heading:"Samuel Bankman-Fried – Self-Preservation Type 3",                       teaser:"SP3w4 – Founder of FTX and Alameda Research, born 1992. One of the biggest fraud cases in the crypto world: billions in customer funds diverted, 25 years imprisonment 2023. The self-preservation Three with Four-wing: facade of modesty, efficiency mania and inner insecurity as motor of collapse. Animal correspondence: Raccoon." , tags:["Betrug"]},
   { route:"kriminalpsychologie-ruja-ignatova",       name:"Ruja Ignatova",                       subtyp:"SE3w4",  heading:"Ruja Ignatova \u2013 Self-Preservation Type 3",                              teaser:"‘Cryptoqueen’, born 1980. Over 4 billion euros in damages, disappeared without a trace since 2017 – the self-preservation Three with Four-wing: perfect staging, global fraud, radical disappearance." , tags:["Betrug"]},
   { route:"kriminalpsychologie-belle-gunness",         name:"Belle Gunness",                       subtyp:"SE3w4",  heading:"Belle Gunness – Self-Preservation Type 3",                               teaser:"SP3w4 – The Black Widow of La Porte, 1859–1908(?). At least 25–40 victims, including two husbands and numerous men she lured via marriage advertisements. The raccoon: quiet deception, resource control, no desire for recognition – just the next meal. Animal correspondence: Raccoon." , tags:["Serienmord","Betrug"]},
@@ -30130,7 +30130,7 @@ function tomKeatingPortraitPage() {
         con artist: he deliberately built in errors, "time bombs" meant to expose his forgeries to a trained
         eye, and understood his work as a protest against an art market that let artists live and die in
         poverty while profiting from them only after their deaths. The Enneagram makes this contradiction
-        between craftsmanship and revenge campaign readable.
+        between craftsmanship and moral crusade readable.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
@@ -30186,7 +30186,8 @@ function tomKeatingPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
         <p class="vb-intro"><strong>a) Identification with the Model:</strong>
         Keating deeply revered the Romantic landscape painter Samuel Palmer, whose poverty during his lifetime
-        outraged him. His forgeries of Palmer's works were at once homage and act of revenge.</p>
+        outraged him. His forgeries of Palmer's works were at once homage and an act of restitution – exactly how
+        the self-preservation Three prefers to correct a perceived wrong: through visible action of its own.</p>
         <p class="vb-intro"><strong>b) Need for Control over Interpretation:</strong>
         He wanted not merely to deceive but eventually to be exposed – on his own terms. The built-in "time
         bombs" secure the self-preservation Three's control over their own story.</p>
@@ -30274,10 +30275,11 @@ function tomKeatingPortraitPage() {
         In 1976, art critic Geraldine Norman of The Times identified a supposed Samuel Palmer watercolor
         called "Sepham Barn" as a forgery. The ensuing investigation brought Keating's entire life's work to
         light – a moment he later described almost as a liberation.</p>
-        <p class="vb-intro"><strong>d) Motive: Revenge, Not Greed:</strong>
-        In interviews Keating repeatedly insisted his goal was never personal enrichment, but a protest against
-        art dealers who, in his view, let artists like Samuel Palmer live in poverty only to profit from their
-        work after death.</p>
+        <p class="vb-intro"><strong>d) Motive: Moral Correction, Not Greed:</strong>
+        In interviews Keating repeatedly insisted his goal was never personal enrichment, but setting right what
+        he saw as a glaring wrong: art dealers let artists like Samuel Palmer live in poverty, only to profit
+        from their work after death. Typical of the self-preservation Three: it does not see itself as an
+        avenger, but as the one who straightens a crooked order through its own means.</p>
         <p class="vb-intro"><strong>e) The Second Career:</strong>
         Rather than ending up in prison, Keating became a public favorite through the television series "Tom
         Keating on Painters," bringing the techniques of Rembrandt, Constable, and Degas to millions of
