@@ -53952,6 +53952,7 @@ function napoleonBonapartePortraitPage() {
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3)"},
         {route:"beruehmte-will-smith", label:"Porträt: Will Smith (SO2w3)"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – dem er ursprünglich die Eroica widmen wollte"},
       ])}
     </div>
   `);
@@ -54066,7 +54067,7 @@ function ludwigVanBeethovenPortraitPage() {
 
         <h2 class="vb-section">5. Energetische Wirkung: Musik, die Mauern einriss</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Beethovens Wirkung auf seine Zeitgenossen war von roher, unmittelbarer Wucht. Zeitgenossen beschrieben sein Klavierspiel als geradezu gewaltsam intensiv, seine Improvisationen konnten Zuhörer zu Tränen rühren. Als er ursprünglich seine dritte Symphonie, die <em>Eroica</em>, Napoleon Bonaparte widmen wollte und dann erfuhr, dieser habe sich zum Kaiser gekrönt, riss er der Legende nach das Titelblatt so heftig durch, dass ein Loch im Papier entstand, und strich Napoleons Namen wütend durch – ein Wolf, der seine Loyalität sofort zurückzog, sobald der Geehrte sich als Tyrann entpuppte.</p>
+          <p class="vb-intro">Beethovens Wirkung auf seine Zeitgenossen war von roher, unmittelbarer Wucht. Seine Mitmenschen beschrieben sein Klavierspiel als geradezu gewaltsam intensiv, seine Improvisationen konnten Zuhörer zu Tränen rühren. Als er ursprünglich seine dritte Symphonie, die <em>Eroica</em>, Napoleon Bonaparte (SO2w3) widmen wollte und dann erfuhr, dieser habe sich zum Kaiser gekrönt, riss er der Legende nach das Titelblatt so heftig durch, dass ein Loch im Papier entstand, und strich Napoleons Namen wütend durch – ein Wolf, der seine Loyalität sofort zurückzog, sobald der Geehrte sich als Tyrann entpuppte.</p>
           <p class="vb-intro">Und doch: Hinter dieser rohen Kraft lag dieselbe Verletzlichkeit, die er zeitlebens zu überdecken versuchte. Seine Musik – von den zärtlichen langsamen Sätzen bis zu den ekstatischen Finalen – offenbart eine emotionale Tiefe, die im direkten Kontakt mit Menschen oft hinter Grobheit und Misstrauen verborgen blieb. Die Stärke der SX6 ist immer auch eine Rüstung über einem Herzen, das sich zu sehr fürchtet, ungeschützt gezeigt zu werden.</p>
         </blockquote>
 
@@ -54086,6 +54087,7 @@ function ludwigVanBeethovenPortraitPage() {
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-wladimir-putin", label:"Porträt: Wladimir Putin (SX6w5)"},
         {route:"beruehmte-alice-schwarzer", label:"Porträt: Alice Schwarzer (SX6w5)"},
+        {route:"beruehmte-napoleon-bonaparte", label:"Porträt: Napoleon Bonaparte (SO2w3)"},
       ])}
     </div>
   `);
