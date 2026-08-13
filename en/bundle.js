@@ -258,6 +258,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Barack Obama – Social Type 2",
     teaser:"SO2w1 · born 1961. 44th US President, community organizer, Nobel Peace Prize laureate. Yes We Can – not a message about Obama, but about what we can make possible together. Animal correspondence: Golden Retriever.",
     tags:["Politik"] },
+  { route:"beruehmte-albert-schweitzer", name:"Dr. Albert Schweitzer", added:"2026-08-13", subtyp:"SO2w1",
+    heading:"Dr. Albert Schweitzer – Social Type 2",
+    teaser:"SO2w1 · 1875–1965. Theologian, philosopher, organist and jungle doctor. Founded the Lambaréné hospital in 1913, Nobel Peace Prize 1952, principle of 'Reverence for Life'. The golden retriever with the One-wing: extraordinary talent placed entirely in service of humanity. Animal correspondence: Golden Retriever.",
+    tags:["History","Medicine"], gender:"m"},
   { route:"beruehmte-marisa-abela", name:"Marisa Abela", added:"2026-07-30", subtyp:"SO2w1",
     heading:"Marisa Abela – Social Type 2",
     teaser:"SO2w1 · born 1996. Actress, Industry, Back to Black. Ensemble feeling and preparation discipline – the Golden Retriever that earns connection through care. Animal correspondence: Golden Retriever.",
@@ -28034,6 +28038,75 @@ function barackObamaPortraitPage() {
 }
 
 
+function albertSchweitzerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-albert-schweitzer-portrait.jpg" alt="Albert Schweitzer" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Albert Schweitzer</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Theologian, philosopher, organist &amp; jungle doctor, 1875&ndash;1965 &ndash; Nobel Peace Prize laureate 1952 &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>golden retriever</strong> is the animal of the social Two &ndash; a being that puts its full strength into the service of others without becoming smaller in the process. By his early thirties, Albert Schweitzer was already a celebrated theologian, philosopher, and one of the foremost Bach organists of his time &ndash; a man for whom every academic and artistic door stood open. And it was exactly at this point of greatest success that he made the decision that would change his life forever.</p>
+          <p class="vb-intro">In 1905, at age 30, he began studying medicine &ndash; not to expand his career, but to go to Africa as a doctor. The golden retriever does not bark for attention. It sees where there is need, and goes there, even if it means leaving behind everything it has already achieved.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Two: Ambition in Service of Humanity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs its energy not into individual, personal relationships, but into social effectiveness. Naranjo called this subtype <em>Ambition</em>: not ambition for its own sake, but the drive to help as many people as possible through influence and ability. Schweitzer embodied this pattern to a degree that is extraordinary even for SO2.</p>
+          <p class="vb-intro">In 1913 he founded a hospital in Lambaréné, in present-day Gabon, for the poorest population of Central Africa &ndash; financed initially out of his own pocket and through organ concerts he gave on extended tours across Europe. Over five decades, until his death in 1965, he returned there again and again, treated patients with leprosy and sleeping sickness, and steadily expanded the hospital. Social Two does not merely want to help one person &ndash; it wants to build an institution that outlasts its own lifetime.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Reverence for Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis: an awareness of right and wrong, the will to think a principle through to the end and then to live by it. Schweitzer formulated this principle himself, in a moment he later described as a sudden insight during a boat trip on the Ogooué River: <em>Reverence for Life</em> &ndash; the ethical obligation to treat all life, human or not, with respect.</p>
+          <p class="vb-intro">This stance was no abstract ideal but lived discipline: Schweitzer worked daily at the hospital well into old age, held to strict ethical standards, and did not let criticism or social pressure divert him from his path. The One does not let go once a principle is at stake &ndash; and in Schweitzer, that principle became an entire life's work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO2w1 is its ability to place extraordinary personal talent entirely in service of a greater purpose. In 1952 Schweitzer received the Nobel Peace Prize, whose prize money he invested in expanding his hospital and a leprosarium. In his final years he also spoke out publicly against nuclear armament, among other things with his widely noted radio address <em>Declaration of Conscience</em> (1957).</p>
+          <p class="vb-intro">The passion of the Two is <strong>pride</strong> &ndash; the need to be indispensable. In SO2w1 this also shows as the danger of no longer questioning one's own view of what is good for others. Historians and postcolonial critics have since described Schweitzer's leadership style in Lambaréné as paternalistic: for a long time he rejected modern administrative structures and greater involvement of African physicians in running the hospital, holding instead to a patriarchal, Europe-shaped model of care that increasingly lagged behind its time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Legacy: The Retriever That Never Stopped Giving</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Albert Schweitzer died in 1965 in Lambaréné, in the very hospital he had founded more than fifty years earlier, and was buried there. His wife Helene Bresslau, a trained nurse, had carried a large part of that path at his side.</p>
+          <p class="vb-intro">The golden retriever with the One-wing did not give in order to be needed &ndash; he gave because he was convinced that reverence for life could not remain a theory. Despite all justified criticism of his leadership style, his legacy remains one of the most striking examples of how extraordinary talent and success can be fully subordinated to a humanitarian task &ndash; a life in which ambition and ethics became a single movement.</p>
+        </blockquote>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;">
+        <h3 style="font-size:0.95rem;font-weight:700;margin:0 0 .6rem;color:var(--muted);">Merchandise</h3>
+        <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Ber%C3%BChmte-%C3%84rzte-Therapeuten-Psychologen-Enneagramm-von-DetlefRathmer/41318557/7yqg" target="_blank" rel="noopener sponsored">
+          <span class="book-tip__icon">☕</span>
+          <div class="book-tip__text">
+            <strong>"Famous Doctors, Therapists, Psychologists" Mug</strong>
+            <span>Nine significant healers of the Enneagram united on one mug – including Schweitzer himself – order on Redbubble.</span>
+          </div>
+          <span class="book-tip__arrow">→</span>
+        </a>
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function marisaAbelaPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -49717,6 +49790,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
       "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
+      "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-carsten-stahl": carstenStahlPortraitPage,

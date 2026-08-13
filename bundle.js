@@ -31387,6 +31387,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Barack Obama \u2013 Sozialer Typ 2",
     teaser:"SO2w1 \u00b7 geb. 1961. 44. US-Pr\u00e4sident, Community Organizer, Friedensnobelpreistr\u00e4ger. Yes We Can \u2013 keine Botschaft \u00fcber Obama, sondern \u00fcber das, was wir gemeinsam m\u00f6glich machen. Tierentsprechung: Golden Retriever.",
     tags:["Politik"] , gender:"m"},
+  { route:"beruehmte-albert-schweitzer", name:"Dr. Albert Schweitzer", added:"2026-08-13", subtyp:"SO2w1",
+    heading:"Dr. Albert Schweitzer – Sozialer Typ 2",
+    teaser:"SO2w1 · 1875–1965. Theologe, Philosoph, Organist und Urwaldarzt. Gründete 1913 das Krankenhaus von Lambaréné, Friedensnobelpreis 1952, Prinzip der ›Ehrfurcht vor dem Leben‹. Der Golden Retriever mit Einserflügel: außergewöhnliches Talent vollständig in den Dienst der Menschheit gestellt. Tierentsprechung: Golden Retriever.",
+    tags:["Geschichte","Medizin"], gender:"m"},
   { route:"beruehmte-marisa-abela", name:"Marisa Abela", added:"2026-07-30", subtyp:"SO2w1",
     heading:"Marisa Abela \u2013 Sozialer Typ 2",
     teaser:"SO2w1 \u00b7 geb. 1996. Schauspielerin, Industry, Back to Black. Ensemblegef\u00fchl und Vorbereitungsdisziplin \u2013 der Golden Retriever, der Verbindung durch Sorgfalt verdient. Tierentsprechung: Golden Retriever.",
@@ -54149,6 +54153,75 @@ function barackObamaPortraitPage() {
   `);
 }
 
+
+function albertSchweitzerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-albert-schweitzer-portrait.jpg" alt="Albert Schweitzer" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Albert Schweitzer</p>
+        <p class="krim-portrait-typ">SO2w1 · Sozialer Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Theologe, Philosoph, Organist &amp; Urwaldarzt, 1875–1965 – Friedensnobelpreisträger 1952 – Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei – ein Wesen, das seine gesamte Kraft in den Dienst anderer stellt, ohne dabei kleiner zu werden. Albert Schweitzer war mit Anfang dreißig bereits ein gefeierter Theologe, Philosoph und einer der bedeutendsten Bach-Organisten seiner Zeit – ein Mann, dem jede akademische und künstlerische Tür offenstand. Und genau in diesem Moment des größten Erfolgs traf er die Entscheidung, die sein Leben für immer veränderte.</p>
+          <p class="vb-intro">1905 begann er, mit 30 Jahren, ein Medizinstudium – nicht um seine Karriere zu erweitern, sondern um als Arzt nach Afrika zu gehen. Der Golden Retriever bellt nicht um Aufmerksamkeit. Er sieht, wo Not ist, und geht dorthin, selbst wenn er dafür alles zurücklässt, was er sich bereits erarbeitet hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Ambition im Dienst der Menschheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> lenkt ihre Energie nicht in einzelne, persönliche Beziehungen, sondern in gesellschaftliche Wirksamkeit. Naranjo nannte diesen Subtyp <em>Ambition</em>: nicht Ehrgeiz um seiner selbst willen, sondern der Antrieb, durch Einfluss und Können möglichst vielen Menschen zu helfen. Schweitzer verkörperte dieses Muster in einem Ausmaß, das selbst für die SO2 außergewöhnlich ist.</p>
+          <p class="vb-intro">1913 gründete er in Lambaréné, im heutigen Gabun, ein Krankenhaus für die ärmste Bevölkerung Zentralafrikas – finanziert zunächst aus eigener Tasche und durch Orgelkonzerte, die er auf ausgedehnten Europareisen gab. Über fünf Jahrzehnte, bis zu seinem Tod 1965, kehrte er immer wieder dorthin zurück, behandelte Lepra- und Schlafkrankheit-Patienten und baute das Krankenhaus stetig aus. Die soziale Zwei will nicht nur einem Menschen helfen – sie will eine Institution schaffen, die über die eigene Lebenszeit hinausträgt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Ehrfurcht vor dem Leben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Zwei eine innere Achse: das Bewusstsein für Richtig und Falsch, den Willen, ein Prinzip bis zu Ende zu denken und danach zu leben. Schweitzer formulierte dieses Prinzip selbst, in einem Moment, den er später als schlagartige Eingebung beschrieb, während einer Bootsfahrt auf dem Ogooué-Fluss: <em>Ehrfurcht vor dem Leben</em> – die ethische Verpflichtung, jedes Leben, ob menschlich oder nicht, mit Respekt zu behandeln.</p>
+          <p class="vb-intro">Diese Haltung war kein abstraktes Ideal, sondern gelebte Disziplin: Schweitzer arbeitete bis ins hohe Alter täglich im Krankenhaus, hielt an strengen ethischen Maßstäben fest und ließ sich auch durch Kritik oder gesellschaftlichen Druck nicht von seinem Weg abbringen. Die Eins lässt nicht locker, wenn das Prinzip auf dem Spiel steht – und bei Schweitzer wurde aus diesem Prinzip ein ganzes Lebenswerk.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w1 ist ihre Fähigkeit, außergewöhnliches persönliches Talent vollständig in den Dienst eines größeren Zwecks zu stellen. 1952 erhielt Schweitzer den Friedensnobelpreis, dessen Preisgeld er in den Ausbau seines Krankenhauses und eines Leprosariums investierte. In seinen letzten Lebensjahren engagierte er sich zudem öffentlich gegen atomare Aufrüstung, unter anderem mit seiner vielbeachteten Rundfunkansprache <em>Appell an die Menschheit</em> (1957).</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – das Bedürfnis, unentbehrlich zu sein. Bei der SO2w1 zeigt sich das auch als Gefahr, die eigene Sicht auf das, was gut für andere ist, nicht mehr zu hinterfragen. Historiker und postkoloniale Kritiker haben Schweitzers Führungsstil in Lambaréné später als paternalistisch beschrieben: Er lehnte etwa moderne Verwaltungsstrukturen und eine stärkere Beteiligung afrikanischer Ärzte an der Leitung des Krankenhauses lange ab und hielt an einem patriarchalischen, europäisch geprägten Modell der Fürsorge fest, das seiner Zeit zunehmend hinterherhinkte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Vermächtnis: Der Retriever, der nie aufhörte zu geben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Albert Schweitzer starb 1965 in Lambaréné, im selben Krankenhaus, das er über fünfzig Jahre zuvor gegründet hatte, und wurde dort auch begraben. Seine Frau Helene Bresslau, eine ausgebildete Krankenschwester, hatte einen Großteil dieses Weges an seiner Seite mitgetragen.</p>
+          <p class="vb-intro">Der Golden Retriever mit Einserflügel gab nicht, um gebraucht zu werden – er gab, weil er überzeugt war, dass Ehrfurcht vor dem Leben keine Theorie bleiben durfte. Trotz aller berechtigten Kritik an seinem Führungsstil bleibt sein Vermächtnis eines der eindrücklichsten Beispiele dafür, wie außergewöhnliche Begabung und Erfolg vollständig einer humanitären Aufgabe untergeordnet werden können – ein Leben, in dem Ambition und Ethik zu einer einzigen Bewegung wurden.</p>
+        </blockquote>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;">
+        <h3 style="font-size:0.95rem;font-weight:700;margin:0 0 .6rem;color:var(--muted);">Fanartikel</h3>
+        <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Ber%C3%BChmte-%C3%84rzte-Therapeuten-Psychologen-Enneagramm-von-DetlefRathmer/41318557/7yqg" target="_blank" rel="noopener sponsored">
+          <span class="book-tip__icon">☕</span>
+          <div class="book-tip__text">
+            <strong>Tasse »Berühmte Ärzte, Therapeuten, Psychologen«</strong>
+            <span>Neun bedeutende Heiler des Enneagramms auf einer Tasse vereint – darunter Schweitzer selbst – bei Redbubble bestellen.</span>
+          </div>
+          <span class="book-tip__arrow">→</span>
+        </a>
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-barack-obama", label:"Porträt: Barack Obama (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
 
 function marisaAbelaPortraitPage() {
   return shell(`
@@ -83792,6 +83865,7 @@ function render() {
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
       "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
+      "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
