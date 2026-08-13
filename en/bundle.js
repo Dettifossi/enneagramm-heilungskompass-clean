@@ -143,8 +143,8 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-elliot-rodger",       name:"Elliot Rodger",                       subtyp:"SO4w5",  heading:"Elliot Rodger – Social Type 4",                                        teaser:"SO4w5 – Isla Vista massacre 2014. 6 dead, 14 injured – the social Four with Five-wing: envy as world judgment, exclusion as mandate for annihilation. Animal correspondence: Armadillo." , tags:["Terror"]},
   { route:"kriminalpsychologie-adolf-hitler",        name:"Adolf Hitler",                        subtyp:"SX4w3",  heading:"Adolf Hitler \u2013 Sexual Type 4",                                      teaser:"SX4w3 – Dictator, 1889–1945. Chief responsible for the Holocaust and World War II. The sexual Four with Three-wing in its darkest manifestation: envy as will to annihilation." , tags:["Terror"]},
   { route:"kriminalpsychologie-joachim-kroll",        name:"Joachim Kroll",                       subtyp:"SE5w6",  heading:"Joachim Kroll \u2013 Self-Preservation Type 5",                             teaser:"SP5w6 – Sewage worker and serial killer, 1933–1991. At least 8 victims in the Ruhr area between 1955 and 1976. The ‘Ruhr Cannibal’: radical withdrawal, extreme resource scarcity and the darkest manifestation of the self-preservation Five." , tags:["Serienmord"]},
-  { route:"kriminalpsychologie-ted-kaczynski",      name:"Ted Kaczynski",                        subtyp:"SO5w4",  heading:"Ted Kaczynski \u2013 Social Type 5",                                       teaser:"SO5w4 – ‘Unabomber’, 1942–2023. Bombings 1978–1995, 3 dead, 23 injured – the social Five with Four-wing: knowledge as world judgment, intellectual superiority as mission mandate. Animal correspondence: Octopus." , tags:["Terror"]},
-  { route:"kriminalpsychologie-harold-shipman",    name:"Harold Shipman",                      subtyp:"SO5w6",  heading:"Harold Shipman – Social Type 5",                                      teaser:"SO5w6 – General practitioner and serial killer, 1946–2004. At least 218 victims – the most lethal solo perpetrator in British criminal history. The octopus: knowledge as control, quiet dominance over life and death behind the facade of the trusted doctor." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-ted-kaczynski",      name:"Dr. Ted Kaczynski",                        subtyp:"SO5w4",  heading:"Ted Kaczynski \u2013 Social Type 5",                                       teaser:"SO5w4 – ‘Unabomber’, 1942–2023. Bombings 1978–1995, 3 dead, 23 injured – the social Five with Four-wing: knowledge as world judgment, intellectual superiority as mission mandate. Animal correspondence: Octopus." , tags:["Terror"]},
+  { route:"kriminalpsychologie-harold-shipman",    name:"Dr. Harold Shipman",                      subtyp:"SO5w6",  heading:"Harold Shipman – Social Type 5",                                      teaser:"SO5w6 – General practitioner and serial killer, 1946–2004. At least 218 victims – the most lethal solo perpetrator in British criminal history. The octopus: knowledge as control, quiet dominance over life and death behind the facade of the trusted doctor." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-jeffrey-dahmer",      name:"Jeffrey Dahmer",                      subtyp:"SX5w4",  heading:"Jeffrey Dahmer \u2013 Sexual Type 5",                                    teaser:"SX5w4 – Serial killer, 1960–1994. 17 victims, radical merger fantasies – the sexual Five with Four-wing in its darkest manifestation: greed as absorption." , tags:["Serienmord","Missbrauch"]},
   { route:"kriminalpsychologie-joel-rifkin",          name:"Joel Rifkin",                         subtyp:"SX5w6",  heading:"Joel Rifkin – Sexual Type 5",                                         teaser:"SX5w6 – American serial killer, born 1959. 17 murders of prostitutes in New York City 1989–1993. Suburban resident, socially invisible, active at night in search of controlled closeness. Animal correspondence: Hedgehog." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-john-list",            name:"John List",                           subtyp:"SE6w5",  heading:"John List – Self-Preservation Type 6",                                   teaser:"SP6w5 – Five-time killer, 1925–2008. Shot his entire family on November 9, 1971 in Westfield, New Jersey – and lived undetected for 17 years afterwards as accountant \'Robert Clark\'. The rabbit: fear as motive, silence as Five-wing, religion as destructive justification." , tags:["Nahbereich"]},
@@ -35057,7 +35057,7 @@ function tedKaczynskiPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="../assets/portraits/ted-kaczynski-portrait.jpg" alt="Ted Kaczynski – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Ted Kaczynski</p>
+        <p class="krim-portrait-name">Dr. Ted Kaczynski</p>
         <p class="krim-portrait-typ">SO5w4 · Social Type 5 with Four-wing</p>
         <p class="krim-portrait-sub">The Unabomber – Animal correspondence: Octopus</p>
       </div>
@@ -35157,7 +35157,7 @@ function haroldShipmanPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="../assets/portraits/harold-shipman-portrait.jpg" alt="Harold Shipman – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Harold Shipman</p>
+        <p class="krim-portrait-name">Dr. Harold Shipman</p>
         <p class="krim-portrait-typ">SO5w6 · Social Type 5 with Six-wing</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"Doctor Death" – Hyde, England 1975–1998</p>
       </div>
