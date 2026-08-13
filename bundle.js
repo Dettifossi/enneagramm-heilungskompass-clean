@@ -31335,6 +31335,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Udo Lindenberg \u2013 Sexueller Typ 1",
     teaser:"SX1w9 \u00b7 geb. 1946. Panik-Rocker, Maler, Dichter. \u201eSonderzug nach Pankow\u201d als offene Kampfansage an Honecker, Hut und Sonnenbrille als R\u00fcstung, Jahrzehnte im Hotel Atlantic \u2013 kompromisslose Haltung, die niemals verhandelbar war. Tierentsprechung: Schwarze Mamba.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-johann-sebastian-bach", name:"Johann Sebastian Bach", added:"2026-08-13", subtyp:"SX1w9",
+    heading:"Johann Sebastian Bach – Sexueller Typ 1",
+    teaser:"SX1w9 · 1685–1750. Deutscher Komponist und Organist. Fußmarsch nach Lübeck zu Buxtehude, einmonatige Haft in Weimar wegen seiner Beharrlichkeit, ›Soli Deo Gloria‹ als Lebensmotto. Die Schwarze Mamba mit Neunerflügel: unerschütterliche Inbrunst im Dienst der Vollkommenheit. Tierentsprechung: Schwarze Mamba.",
+    tags:["Musik","Geschichte"], gender:"m"},
   { route:"beruehmte-sam-altman", name:"Sam Altman", added:"2026-08-10", subtyp:"SE4w5",
     heading:"Sam Altman \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 geb. 1985. CEO von OpenAI, Ex-Pr\u00e4sident von Y Combinator. Stilles, methodisches Ringen um eine Zukunft, die noch niemand gebaut hat \u2013 f\u00fcnf Tage Rauswurf und R\u00fcckkehr im November 2023, ohne \u00f6ffentliches Drama. Tierentsprechung: Taube.",
@@ -47678,6 +47682,7 @@ function johannesBrahmsPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"beruehmte-robert-schumann", label:"Porträt: Robert Schumann (SX7w8) – sein Entdecker"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5)"},
+        {route:"beruehmte-johann-sebastian-bach", label:"Porträt: Johann Sebastian Bach (SX1w9)"},
         {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-baerbel-bas", label:"Porträt: Bärbel Bas (SE9w1)"},
       ])}
@@ -53576,6 +53581,72 @@ function udoLindenbergPortraitPage() {
         {route:"subtype/sx1", label:"SX1 \u2013 Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-klaus-kinski", label:"Portr\u00e4t: Klaus Kinski (SX1w9)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portr\u00e4t: Jamie Lee Curtis (SX1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function johannSebastianBachPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-johann-sebastian-bach-portrait.jpg" alt="Johann Sebastian Bach" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johann Sebastian Bach</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel · Kontratyp der Eins</p>
+        <p class="krim-portrait-subtitle">Deutscher Komponist und Organist, 1685–1750 – Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> wirkt nach außen unauffällig, fast zurückgezogen – bis sie sich in ihrer Integrität verletzt sieht. Dann reagiert sie mit einer Präzision und Kompromisslosigkeit, die niemanden im Zweifel lässt. Johann Sebastian Bach trug genau dieses Doppelgesicht: ein Leben lang der stille, pflichtbewusste Kirchenmusiker nach außen – und ein Mann, der keine Sekunde zögerte, wenn seine musikalischen Überzeugungen infrage gestellt wurden.</p>
+          <p class="vb-intro">Früh verwaist – beide Eltern starb er vor seinem zehnten Geburtstag – wuchs Bach bei seinem älteren Bruder Johann Christoph auf, der ihm den Zugang zu einer wertvollen Notensammlung verweigerte. Der junge Bach kopierte sie heimlich, monatelang, bei Mondlicht – ein früher Beleg für die Inbrunst, mit der er sich das aneignete, was ihm rechtmäßig zustand, koste es, was es wolle, selbst die eigenen Augen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Inbrunst und der Kontratyp</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> ist der <strong>Kontratyp der Eins</strong> – der Subtyp, der am wenigsten nach Moralapostel aussieht und es doch am kompromisslosesten ist. Naranjo nannte diesen Subtyp <em>Zeal</em> – Inbrunst: ein brennendes Verlangen, dem Vollkommenen möglichst nahezukommen, ungefilterter und direkter als bei jedem anderen Einser-Subtyp. Bach lebte diese Inbrunst nicht in Worten, sondern in einer schier unerschöpflichen schöpferischen Intensität – über 1000 erhaltene Werke, oft eine vollständige Kantate pro Woche über Jahre hinweg.</p>
+          <p class="vb-intro">Mit 20 Jahren wanderte er rund 400 Kilometer zu Fuß nach Lübeck, um den berühmten Organisten Dieterich Buxtehude spielen zu hören – und blieb, statt der genehmigten vier Wochen, gleich vier Monate, sein Amt in Arnstadt und die Konsequenzen bereitwillig riskierend. Das ist die sexuelle Eins: Wenn etwas des vollen Einsatzes würdig ist, gibt es kein halbherziges Maß.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Beharrlichkeit hinter dem Feuer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> verleiht der Intensität der sexuellen Eins eine eigentümliche Ausdauer – ein stilles, fast unauffälliges Beharren, das sich nicht durch Widerstand entmutigen lässt. 1717, in Weimar, verlangte Bach so hartnäckig seine Entlassung aus dem Dienst des Herzogs Wilhelm Ernst, um eine bessere Stelle in Köthen anzutreten, dass dieser ihn kurzerhand einen Monat lang einsperren ließ. Bach gab nicht nach – und trat nach seiner Freilassung, unehrenhaft entlassen, die neue Stelle trotzdem an.</p>
+          <p class="vb-intro">Diese Beharrlichkeit trug ihn auch durch 27 Jahre als Thomaskantor in Leipzig, ein Amt, das er trotz permanenter Reibung mit dem Stadtrat nie aufgab, sondern von innen heraus, Woche für Woche, mit neuer Musik füllte. Der Neunerflügel hält die Eins nicht zurück – er verankert ihr Feuer an einem Ort, bis die Aufgabe restlos durchdrungen ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn als moralisches Urteil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> – und bei der SX1w9 entlädt er sich dort, wo die eigenen hohen Ansprüche verletzt werden. 1705, noch in Arnstadt, beschimpfte Bach einen Fagottisten namens Geyersbach als "Zippelfagottisten" (Lumpen-Fagottisten), weil dieser seine Orgelbegleitung kritisiert hatte – der Streit eskalierte zu einer Schlägerei auf offener Straße, für die sich Bach vor dem Konsistorium rechtfertigen musste. Auch seine Chorleitung wurde gerügt: Er ließ die Choräle mit derart kunstvollen, "wunderlichen Variationen" verzieren, dass die Gemeinde nicht mehr mitsingen konnte – ein früher Beleg dafür, dass Bach künstlerische Perfektion selten dem Konsens unterordnete.</p>
+          <p class="vb-intro">In Leipzig setzte sich dieses Muster fort: Sein Beschwerdedokument "Entwurff einer wohlbestallten Kirchenmusic" (1730) listet schonungslos die Missstände auf, unter denen seine Musik nach seiner Auffassung litt – zu wenige, zu schlecht ausgebildete Musiker, mangelnde Unterstützung des Rates. Kein privater Groll, sondern ein sachliches, kompromissloses Urteil darüber, was der Sache – der Musik zur Ehre Gottes – zustand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Soli Deo Gloria: Inbrunst als geistliche Disziplin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Über viele seiner Manuskripte schrieb Bach die Kürzel "J.J." (Jesu Juva – Jesus, hilf) an den Anfang und "S.D.G." (Soli Deo Gloria – Allein Gott die Ehre) an das Ende. Das war keine fromme Floskel, sondern der Kern seiner sexuellen Eins: Musik war für ihn kein Ausdruck des eigenen Genies, sondern eine geistliche Pflicht, die es mit äußerster Genauigkeit zu erfüllen galt. Perfektion war für Bach nicht Ehrgeiz, sondern Gottesdienst.</p>
+          <p class="vb-intro">Diese Ernsthaftigkeit übertrug sich auch auf seine Familie: Mit zwei Ehefrauen hatte er 20 Kinder, von denen er mehrere selbst rigoros im Komponieren unterrichtete – Carl Philipp Emanuel, Wilhelm Friedemann und Johann Christian Bach wurden später selbst bedeutende Komponisten. Der Neunerflügel zeigt sich hier in der stillen, häuslichen Konstanz eines Familienlebens, das dem lauten öffentlichen Ringen um seine Ämter diametral entgegenstand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Unbeugsame, der zu Lebzeiten kaum erkannt wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Lebzeiten galt Bach vor allem als hervorragender Organist, weniger als der Komponist, als den ihn die Nachwelt kennt. Erst 1829, fast 80 Jahre nach seinem Tod, brachte der junge Felix Mendelssohn Bartholdy die Matthäus-Passion wieder zur Aufführung und löste damit die Bach-Renaissance aus, die bis heute anhält. Der stille Kirchenmusiker aus Leipzig wurde postum zu dem Maßstab, an dem sich Generationen von Komponisten – darunter Beethoven (SX6w5) und Brahms (SE9w8) – maßen.</p>
+          <p class="vb-intro">Das Vermächtnis der SX1w9 liegt genau in dieser Spannung: eine Inbrunst, die keine Anerkennung brauchte, um sich vollständig zu geben, und ein Beharren, das genau wusste, dass die eigentliche Prüfung nicht der Applaus der Zeitgenossen, sondern die Musik selbst war. Die Schwarze Mamba, die niemand fürchten musste, außer wer ihre Maßstäbe verriet.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8) – von Bachs Formstrenge geprägt"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5)"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-udo-lindenberg", label:"Porträt: Udo Lindenberg (SX1w9)"},
       ])}
     </div>
   `);
@@ -83261,6 +83332,7 @@ function render() {
       "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-robert-schumann": robertSchumannPortraitPage,
       "beruehmte-johannes-brahms": johannesBrahmsPortraitPage,
+      "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,

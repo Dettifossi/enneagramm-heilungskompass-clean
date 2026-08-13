@@ -791,6 +791,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Udo Lindenberg – Sexual Type 1",
     teaser:"SX1w9 · born 1946. Panic rocker, painter, poet. \"Sonderzug nach Pankow\" as an open challenge to Honecker, hat and sunglasses as armor, decades at the Hotel Atlantic – an uncompromising stance that was never negotiable. Animal correspondence: Black Mamba.",
     tags:["Music"] , gender:"m"},
+  { route:"beruehmte-johann-sebastian-bach", name:"Johann Sebastian Bach", added:"2026-08-13", subtyp:"SX1w9",
+    heading:"Johann Sebastian Bach – Sexual Type 1",
+    teaser:"SX1w9 · 1685–1750. German composer and organist. Walked to Lübeck to hear Buxtehude, one month's imprisonment in Weimar over his persistence, \"Soli Deo Gloria\" as his life's motto. The black mamba with the Nine-wing: unshakable zeal in service of perfection. Animal correspondence: Black Mamba.",
+    tags:["Music","History"], gender:"m"},
   { route:"beruehmte-sam-altman", name:"Sam Altman", added:"2026-08-10", subtyp:"SE4w5",
     heading:"Sam Altman – Self-Preservation Type 4",
     teaser:"SE4w5 · born 1985. CEO of OpenAI, former president of Y Combinator. A quiet, methodical struggle to build a future no one has built yet – five days of ouster and return in November 2023, without public drama. Animal correspondence: Dove.",
@@ -21294,6 +21298,72 @@ function sahraWagenknechtPortraitPage() {
   `);
 }
 
+function johannSebastianBachPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-johann-sebastian-bach-portrait.jpg" alt="Johann Sebastian Bach" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johann Sebastian Bach</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with Nine-Wing &middot; Contratype of One</p>
+        <p class="krim-portrait-subtitle">German composer and organist, 1685&ndash;1750 &ndash; Animal correspondence: Black Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>black mamba</strong> appears unremarkable from the outside, almost withdrawn &ndash; until it perceives its integrity to be threatened. Then it responds with a precision and uncompromising force that leaves no doubt. Johann Sebastian Bach carried exactly this double face: outwardly the quiet, dutiful church musician for a lifetime &ndash; and a man who did not hesitate for a second when his musical convictions were called into question.</p>
+          <p class="vb-intro">Orphaned early &ndash; both parents died before his tenth birthday &ndash; Bach grew up with his older brother Johann Christoph, who denied him access to a valuable collection of sheet music. The young Bach copied it in secret, for months, by moonlight &ndash; an early testament to the zeal with which he claimed what he believed rightfully his, whatever the cost, even to his own eyesight.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual One: Zeal and the Contratype</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Sexual One (SX1)</strong> is the <strong>contratype of the One</strong> &ndash; the subtype that looks least like a moralizer and yet is the most uncompromising of all. Naranjo called this subtype <em>Zeal</em>: a burning desire to come as close as possible to the perfect, more unfiltered and direct than in any other One subtype. Bach lived this zeal not in words but in an almost inexhaustible creative intensity &ndash; over 1,000 surviving works, often a complete cantata per week for years on end.</p>
+          <p class="vb-intro">At age 20, he walked roughly 400 kilometers to Lübeck to hear the famous organist Dieterich Buxtehude play &ndash; and stayed, instead of the approved four weeks, a full four months, willingly risking his position in Arnstadt and its consequences. That is Sexual One: when something is worthy of full commitment, there is no halfhearted measure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Persistence Behind the Fire</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the intensity of Sexual One a peculiar stamina &ndash; a quiet, almost unremarkable persistence that is not discouraged by resistance. In 1717, in Weimar, Bach demanded his dismissal from the service of Duke Wilhelm Ernst so persistently, wanting to take up a better position in Köthen, that the Duke simply had him imprisoned for a month. Bach did not relent &ndash; and upon his release, dishonorably discharged, took up the new position anyway.</p>
+          <p class="vb-intro">This persistence also carried him through 27 years as Thomaskantor in Leipzig, a post he never abandoned despite constant friction with the town council, filling it instead from within, week after week, with new music. The Nine-wing does not hold the One back &ndash; it anchors its fire in one place until the task has been fully mastered.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Anger as Moral Judgment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the One is called <strong>anger</strong> &ndash; and in SX1w9 it discharges wherever one's own high standards are violated. In 1705, still in Arnstadt, Bach called a bassoonist named Geyersbach a "nanny-goat bassoonist" for criticizing his organ accompaniment &ndash; the dispute escalated into a street brawl, for which Bach had to answer before the church consistory. His choir direction was also reprimanded: he ornamented the chorales with such elaborate, "strange variations" that the congregation could no longer sing along &ndash; early evidence that Bach rarely subordinated artistic perfection to consensus.</p>
+          <p class="vb-intro">In Leipzig this pattern continued: his complaint document "Entwurff einer wohlbestallten Kirchenmusic" (1730) lists, without mercy, the shortcomings he believed were undermining his music &ndash; too few, too poorly trained musicians, insufficient support from the council. Not private resentment, but a factual, uncompromising judgment on what was owed to the cause &ndash; music to the glory of God.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Soli Deo Gloria: Zeal as Spiritual Discipline</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Over many of his manuscripts, Bach wrote the abbreviation "J.J." (Jesu Juva &ndash; Jesus, help) at the beginning and "S.D.G." (Soli Deo Gloria &ndash; to God alone the glory) at the end. This was no pious formula but the core of his Sexual One: music was not for him an expression of personal genius, but a spiritual duty to be fulfilled with the utmost precision. Perfection, for Bach, was not ambition &ndash; it was worship.</p>
+          <p class="vb-intro">This same seriousness extended to his family: with two wives, he had 20 children, several of whom he personally and rigorously trained in composition &ndash; Carl Philipp Emanuel, Wilhelm Friedemann, and Johann Christian Bach all became significant composers in their own right. The Nine-wing shows itself here in the quiet, domestic constancy of a family life that stood in diametrical contrast to the loud public struggles over his official posts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Unyielding Man Barely Recognized in His Lifetime</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In his lifetime, Bach was regarded above all as an outstanding organist, far less as the composer posterity now knows. Only in 1829, nearly 80 years after his death, did the young Felix Mendelssohn Bartholdy bring the St Matthew Passion back to performance, sparking the Bach revival that continues to this day. The quiet church musician from Leipzig became, posthumously, the standard against which generations of composers measured themselves &ndash; among them Beethoven (SX6w5) and Brahms (SP9w8).</p>
+          <p class="vb-intro">The legacy of SX1w9 lies exactly in this tension: a zeal that needed no recognition to give itself fully, and a persistence that knew all along that the real test was not the applause of contemporaries, but the music itself. The black mamba that no one needed to fear &ndash; unless they betrayed its standards.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SP9w8) – shaped by Bach's rigor of form"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"beruehmte-udo-lindenberg", label:"Portrait: Udo Lindenberg (SX1w9)"},
+      ])}
+    </div>
+  `);
+}
+
 function sucharitBhakdiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -25357,6 +25427,7 @@ function johannesBrahmsPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8) – his discoverer"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
+        {route:"beruehmte-johann-sebastian-bach", label:"Portrait: Johann Sebastian Bach (SX1w9)"},
         {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
       ])}
     </div>
@@ -49227,6 +49298,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-robert-schumann": robertSchumannPortraitPage,
       "beruehmte-johannes-brahms": johannesBrahmsPortraitPage,
+      "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-carsten-stahl": carstenStahlPortraitPage,
