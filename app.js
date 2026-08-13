@@ -31863,6 +31863,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Boris Becker \u2013 Sexueller Typ 7",
     teaser:"SX7w8 \u00b7 geb. 1967. Tennisprofi, dreifacher Wimbledon-Sieger, j\u00fcngster Wimbledon-Champion aller Zeiten (1985, mit 17 Jahren). Der Schimpanse mit Achterfl\u00fcgel: grenzenlose Intensit\u00e4t, Ruhm als Heimat, und das lebenslange Ringen um das Bild des gro\u00dfen Boris. Tierentsprechung: Schimpanse.",
     tags:["Sport"] , gender:"m"},
+  { route:"beruehmte-robert-schumann", name:"Robert Schumann", added:"2026-08-13", subtyp:"SX7w8",
+    heading:"Robert Schumann – Sexueller Typ 7",
+    teaser:"SX7w8 · 1810–1856. Deutscher Komponist und Musikkritiker. Liederjahr 1840, Entdecker von Johannes Brahms, jahrelanger Kampf um Clara Wieck. Der Schimpanse mit Achterflügel: schrankenlose Begeisterung, kämpferische Hingabe – und eine Intensität, die sich am Ende gegen ihn selbst wandte. Tierentsprechung: Schimpanse.",
+    tags:["Musik","Geschichte"], gender:"m"},
   { route:"beruehmte-shakira", name:"Shakira", added:"2026-08-04", subtyp:"SX7w8",
     heading:"Shakira \u2013 Sexueller Typ 7",
     teaser:"SX7w8 \u00b7 geb. 1977 in Barranquilla, Kolumbien. S\u00e4ngerin, Songwriterin, T\u00e4nzerin, Produzentin. \u201eHips Don't Lie\u201c, \u201eWaka Waka\u201c, \u00fcber 80 Millionen verkaufte Tontr\u00e4ger. Der Schimpanse mit Achterfl\u00fcgel: Rhythmus als Sprache des K\u00f6rpers, Intensit\u00e4t ohne Bremse, Kraft, die aus pers\u00f6nlichem Schmerz B\u00fchnenpr\u00e4senz macht.",
@@ -44813,6 +44817,71 @@ function borisBeckerPortraitPage() {
   `);
 }
 
+function robertSchumannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-robert-schumann-portrait.jpg" alt="Robert Schumann" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robert Schumann</p>
+        <p class="krim-portrait-typ">SX7w8 · Sexueller Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Komponist und Musikkritiker, 1810–1856 – Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse in zwei Gestalten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 – ein Wesen, das nicht in ruhiger Distanz lebt, sondern im unmittelbaren, oft überschäumenden Kontakt mit der Welt. Kaum ein Komponist hat diese Doppelnatur so bewusst gemacht wie Robert Schumann, der seine eigene Persönlichkeit in zwei literarische Figuren aufspaltete: den stürmischen, impulsiven <em>Florestan</em> und den träumerischen, nach innen gewandten <em>Eusebius</em>. Beide unterschrieb er abwechselnd unter seine Musikkritiken – als wüsste er selbst, dass in ihm mehr als eine Stimme sprach.</p>
+          <p class="vb-intro">Geboren 1810 in Zwickau als Sohn eines Buchhändlers und Schriftstellers, wuchs Schumann in einem Haus voller Literatur auf. Schon früh zeigte sich die Rastlosigkeit des Schimpansen: mal Jurastudium, mal Klaviervirtuose, mal Dichter – bevor er sich endgültig der Musik verschrieb. Eine selbstverschuldete Handverletzung, vermutlich durch ein mechanisches Übungsgerät, beendete seine Pianistenkarriere abrupt und lenkte seine ganze Energie auf das Komponieren und Schreiben um.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Begeisterung ohne Vorbehalt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht nicht die vorsichtige Prüfung, sondern die vollständige Hingabe an das, was sie begeistert. Naranjo nannte diesen Subtyp <em>Suggestibility</em>: die Fähigkeit, sich selbst und andere restlos in einen Zustand der Begeisterung hineinzuziehen. Schumann lebte dieses Muster nicht nur in seiner Musik, sondern auch als Kritiker und Entdecker.</p>
+          <p class="vb-intro">1853, drei Jahre vor seinem Tod, hörte er einen völlig unbekannten, 20-jährigen Pianisten namens Johannes Brahms vorspielen – und schrieb noch am selben Abend in sein Tagebuch, hier komme einer, "der berufen war, den höchsten Ausdruck der Zeit in idealer Weise auszusprechen". Wenige Tage später veröffentlichte er den Essay <em>Neue Bahnen</em>, in dem er den jungen Brahms ohne jede Zurückhaltung als kommenden Meister ausrief – ein Sprung ins Enthusiastische, den ein zögerlicherer Kritiker nie gewagt hätte. Genau das ist die SX7: keine abgewogene Einschätzung, sondern der volle, ansteckende Ausbruch der Begeisterung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Der Kampf um Clara</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der sexuellen Sieben etwas, das reine Siebener oft vermissen lassen: die Bereitschaft zum offenen Kampf. Schumann verliebte sich in Clara Wieck, die hochbegabte Pianistentochter seines eigenen Klavierlehrers Friedrich Wieck – und Wieck tat alles, um die Verbindung zu verhindern: Verleumdungskampagnen, Umzüge, sogar ein jahrelanger Gerichtsprozess.</p>
+          <p class="vb-intro">Ein reiner Siebener hätte an dieser Front vermutlich resigniert und sich einer leichteren Liebe zugewandt. Schumann kämpfte stattdessen über Jahre, zog vor Gericht und erzwang schließlich 1840 die Heirat gegen den erklärten Willen seines Lehrers. Das ist der Achterflügel der sexuellen Sieben: Wo die reine Sieben ausweicht, bleibt die SX7w8 und setzt sich durch – nicht aus Berechnung, sondern weil das ersehnte Objekt der Begeisterung um keinen Preis aufgegeben werden kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Völlerei als schöpferischer Ausbruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> oder <strong>Maßlosigkeit</strong> – der unstillbare Hunger nach mehr. Bei Schumann äußerte sich das nicht in Zerstreuung, sondern in schöpferischen Schüben von kaum fassbarer Dichte. Im Jahr seiner Hochzeit, 1840, komponierte er über 140 Lieder – bis heute als sein "Liederjahr" bekannt. 1841 folgte das "Symphonische Jahr", 1842 das "Kammermusikjahr". Schumann arbeitete nicht in gleichmäßigem Fluss, sondern in Wellen totaler Hingabe an ein einziges Genre, bis der nächste Ausbruch alles überschrieb.</p>
+          <p class="vb-intro">Diese Maßlosigkeit war zugleich Segen und Vorbote. Solange die kreative Energie einen Kanal fand, entstand ein Lebenswerk von enormer Breite – Klavierwerke, Lieder, Symphonien, Kammermusik, eine Oper. Doch die gleiche Unfähigkeit zu bremsen, die seine Schaffenskraft trug, trug auch die Instabilität in sich, die sein Leben später überrollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Schatten: Wenn die Intensität sich gegen einen selbst wendet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schumann litt zeitlebens unter heftigen Stimmungsschwankungen, die sich in seinen letzten Lebensjahren dramatisch verschärften – Stimmen im Kopf, quälende Angstzustände, der Verlust der Fähigkeit, klar zu denken. Im Februar 1854 verließ er in einem Anfall völliger Verzweiflung sein Haus und sprang in den Rhein. Fischer zogen ihn heraus, kaum am Leben.</p>
+          <p class="vb-intro">Was danach geschah, ist selten so offen dokumentiert worden wie bei Schumann: Er bat selbst darum, in eine Heilanstalt bei Bonn eingewiesen zu werden – ein Akt, in dem noch ein letzter Rest bewusster Kontrolle über eine Situation lag, die längst außer Kontrolle geraten war. Zwei Jahre lang lebte er dort, weitgehend isoliert von Clara, die man ihn erst kurz vor seinem Tod 1856 wiedersehen ließ. Nur der junge Brahms, den er drei Jahre zuvor entdeckt hatte, besuchte ihn regelmäßig und wurde in dieser Zeit zur engsten Stütze der Familie. Das ist die Kehrseite der SX7w8: Eine Intensität, die keinen Widerstand kennt, kann sich, wenn sie sich gegen das eigene Innere richtet, in einen Sog verwandeln, aus dem auch der Kämpfer im Achterflügel keinen Ausweg mehr findet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Entdecker, der sich selbst nicht retten konnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Robert Schumanns Vermächtnis ist doppelt: Als Komponist hinterließ er ein Werk, in dem sich die ganze Bandbreite der SX7w8 spiegelt – von der zärtlichen Innigkeit der "Kinderszenen" bis zur stürmischen Wucht seiner Symphonien. Als Kritiker und Entdecker gab er der Musikgeschichte einen ihrer folgenreichsten Enthusiasmus-Momente: ohne seine bedingungslose Begeisterung für den unbekannten Brahms wäre dessen Weg vermutlich ein anderer gewesen.</p>
+          <p class="vb-intro">Und doch bleibt die Tragik: Der Mann, der andere so mühelos mitreißen und für sie kämpfen konnte, fand am Ende keinen Weg, sich selbst vor dem eigenen Sog zu retten. Der Schimpanse mit Achterflügel, der um Clara kämpfte und für Brahms brannte, verlor den letzten Kampf gegen sich selbst – und hinterließ eine Musik, die bis heute genau diese Spannung zwischen Rausch und Abgrund hörbar macht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5)"},
+        {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5)"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+      ])}
+    </div>
+  `);
+}
+
 function shakiraPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -49345,6 +49414,7 @@ function franzSchubertPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – von Schubert zeitlebens verehrt"},
+        {route:"beruehmte-robert-schumann", label:"Porträt: Robert Schumann (SX7w8) – entdeckte Schuberts C-Dur-Symphonie 1839"},
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-fjodor-dostojewski", label:"Porträt: Fjodor Dostojewski (SE6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
@@ -54085,6 +54155,7 @@ function ludwigVanBeethovenPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5) – der ihn zeitlebens verehrte"},
+        {route:"beruehmte-robert-schumann", label:"Porträt: Robert Schumann (SX7w8)"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-wladimir-putin", label:"Porträt: Wladimir Putin (SX6w5)"},
         {route:"beruehmte-alice-schwarzer", label:"Porträt: Alice Schwarzer (SX6w5)"},
@@ -83117,6 +83188,7 @@ function render() {
       "beruehmte-miley-cyrus": mileyCyrusPortraitPage,
       "beruehmte-ina-mueller": inaMuellerPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
+      "beruehmte-robert-schumann": robertSchumannPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
