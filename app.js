@@ -31467,6 +31467,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kathrin Bauerfeind \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w4 \u00b7 geb. 1981. Journalistin, Moderatorin, Autorin, Entertainerin. Vielseitig, pr\u00e4zise, unverwechselbar \u2013 der Waschb\u00e4r, der aus K\u00f6nnen Sicherheit macht.",
     tags:["Medien"] , gender:"f"},
+  { route:"beruehmte-tony-shalhoub", name:"Tony Shalhoub", added:"2026-08-13", subtyp:"SE3w4",
+    heading:"Tony Shalhoub – Selbsterhaltender Typ 3",
+    teaser:"SE3w4 · geb. 1953. Schauspieler, bekannt aus »Monk« und »The Marvelous Mrs. Maisel«. Drei Emmys, ein Golden Globe – der Waschbär mit Viererflügel: jahrzehntelanges Handwerk statt Rampenlicht, Präzision als Ausdruck echter emotionaler Tiefe. Tierentsprechung: Waschbär.",
+    tags:["Film"], gender:"m"},
   { route:"beruehmte-madame-tussaud", name:"Madame Tussaud", added:"2026-08-08", subtyp:"SE3w4",
     heading:"Madame Tussaud \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w4 \u00b7 1761\u20131850. Wachsbildnerin, Museumsgr\u00fcnderin. Totenmasken der Guillotine-Opfer w\u00e4hrend der Franz\u00f6sischen Revolution, 33 Jahre Wandertournee durch Gro\u00dfbritannien, das \u201eKabinett des Schreckens\u201c \u2013 der Waschb\u00e4r, der aus reiner \u00dcberlebensfertigkeit ein Weltunternehmen baute. Tierentsprechung: Waschb\u00e4r.",
@@ -55495,6 +55499,65 @@ function kathrinBauerfeindPortraitPage() {
   `);
 }
 
+
+function tonyShalhoubPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-tony-shalhoub-portrait.jpg" alt="Tony Shalhoub" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tony Shalhoub</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1953 – bekannt aus »Monk« – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das man leicht unterschätzt. Kein lauter Auftritt, kein Glamour, keine rote Teppich-Inszenierung um ihrer selbst willen. Der Waschbär arbeitet mit feinen, geschickten Händen im Verborgenen und wird erst dann sichtbar, wenn man genau hinschaut, was er eigentlich alles kann.</p>
+          <p class="vb-intro">Tony Shalhoub, ausgebildet an der Yale School of Drama, war über Jahrzehnte genau das: ein Schauspieler, dessen Namen viele erst nach seinen Rollen kennenlernten, nicht umgekehrt. Bevor er 2002 als zwanghaft-akribischer Detektiv Adrian Monk zum Star wurde, hatte er sich bereits durch Theater, Independent-Filme und Nebenrollen ein Handwerk erarbeitet, das kaum ein anderer Schauspieler seiner Generation so präzise beherrschte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em></p>
+          <p class="vb-intro">Shalhoubs Karriere liest sich wie ein Lehrbuch dieser Haltung: Rollen in „Barton Fink", „Men in Black", „Wings" und dem Independent-Film „Big Night" (1996) – ein leises, von Kritikern hochgelobtes Drama über zwei italienisch-amerikanische Brüder und ein einziges perfektes Risotto –, lange bevor der große Publikumserfolg kam. Er wählte Rollen nach handwerklicher Substanz, nicht nach Sichtbarkeit. Das ist SE3-Logik in Reinform: Wer wirklich kann, muss sich nicht anpreisen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Tiefe hinter der Präzision</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet das alles – jenseits von Funktion und Leistung?</em> Genau das macht Shalhoubs bekannteste Rolle so bemerkenswert: Adrian Monk ist nicht einfach ein exzentrischer Ermittler mit Marotten. Shalhoub spielte die Figur als einen Mann, dessen zwanghafte Ordnungsliebe direkt aus einem unverarbeiteten Trauma – dem Mord an seiner Frau – herrührt. Präzision wird bei ihm zum sichtbaren Ausdruck von Schmerz, nicht zur bloßen Pointe.</p>
+          <p class="vb-intro">Dieselbe Tiefe zeigt sich in der berühmten, fast wortlosen Schlussszene von „Big Night", in der ein einziges gemeinsames Frühstück zweier zerstrittener Brüder mehr Emotion trägt als jeder Dialog. Der Viererflügel sucht nicht die große Geste, sondern den einen wahren, unverwechselbaren Moment. Auch seine spätere Rolle als Abe Weissman in „The Marvelous Mrs. Maisel" trägt diese Handschrift: ein Mann voller intellektueller Eigenheiten, dessen komische Fassade eine tiefe, oft anrührende Verletzlichkeit verbirgt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem Handwerk echte emotionale Wahrheit zu schöpfen. Shalhoub gewann für „Monk" drei Emmys und einen Golden Globe – nicht für Effekthascherei, sondern weil er eine Figur mit klinischer Störung zu einem der menschlichsten Charaktere des amerikanischen Fernsehens machte. Diese Kombination aus Disziplin und Tiefe ist selten und wird von Kritikern seit Jahrzehnten als eine der konstantesten schauspielerischen Leistungen seiner Generation gewürdigt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> – bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unverwechselbar zu gelten, während man zugleich vermeidet, selbst im Rampenlicht zu stehen. Der Viererflügel bringt seinen eigenen Schatten mit: das Gefühl, nie ganz dazuzugehören, selbst inmitten großen Erfolgs – eine leise Melancholie, die viele seiner Rollen durchzieht und die vermutlich auch ein Stück seiner eigenen inneren Wirklichkeit widerspiegelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Perfektionieren zum Sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin – jenseits aller Leistung.</em> Für die SE3w4 bedeutet das, den eigenen Wert nicht mehr an die makellose Ausführung einer Rolle zu knüpfen, sondern an die Wahrhaftigkeit, mit der man sie verkörpert.</p>
+          <p class="vb-intro">Shalhoubs jahrzehntelange, unaufgeregte Konstanz – von kleinen Theaterrollen bis zu preisgekrönten Hauptfiguren, stets fernab des Boulevard-Rampenlichts – zeigt einen Waschbären, der sein Handwerk nie als Beweis brauchte, sondern als Ausdruck dessen, was ihm wirklich wichtig ist. Der Viererflügel, der stets nach der tieferen Bedeutung sucht, findet in dieser Beständigkeit womöglich genau das, was er sucht: nicht die eine perfekte Rolle, sondern ein ganzes, aufrichtig gelebtes Berufsleben.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Porträt: Kathrin Bauerfeind (SE3w4)"},
+        {route:"beruehmte-madame-tussaud", label:"Porträt: Madame Tussaud (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
 
 function davidLRathmerPortraitPage() {
   return shell(`
@@ -83866,6 +83929,7 @@ function render() {
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
       "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
+      "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
