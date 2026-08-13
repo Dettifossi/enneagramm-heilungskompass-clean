@@ -847,6 +847,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kevin Costner – Social Type 9",
     teaser:"SO9w1 · born 1955. Actor and director. Dances with Wolves, Field of Dreams, Yellowstone. The buffalo who doesn't fight for himself - but for something bigger than himself.",
     tags:["Film","Film/Theater"], gender:"m"},
+  { route:"beruehmte-columbo", name:"Columbo", added:"2026-08-13", subtyp:"SO9w1",
+    heading:"Columbo – Social Type 9",
+    teaser:"SO9w1 · Fictional LAPD detective, played by Peter Falk (1927–2011), TV series 1968–2003. Rumpled trench coat, never a weapon, four Emmys. The buffalo with the One-wing: equal attentiveness for everyone in the room, relentless quiet justice. Animal correspondence: Buffalo.",
+    tags:["Film","Television"], gender:"m"},
   { route:"beruehmte-klaus-kinski", name:"Klaus Kinski", added:"2026-07-20", subtyp:"SX1w9",
     heading:"Klaus Kinski – Sexual Type 1",
     teaser:"SX1w9 · 1926–1991. Actor, counterpart of the one. Aguirre, Nosferatu, Fitzcarraldo. The Black Mamba of German cinema: unpredictable, intense, inevitable. You could love him or hate him - indifference was not an option.",
@@ -17883,6 +17887,72 @@ function kevinCostnerPortraitPage() {
     </div>
   `);
 }
+
+function columboPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-columbo-portrait.jpg" alt="Buffalo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Columbo</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Fictional LAPD detective, played by Peter Falk (1927&ndash;2011) in the series "Columbo" (1968&ndash;2003) &ndash; Animal correspondence: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>buffalo</strong> is the animal of the social Nine &ndash; an animal that never stands out through aggression, but exerts its effect simply through its unhurried presence. It moves slowly, seems almost harmless &ndash; and yet is the animal on the prairie that fewest creatures willingly stand in the way of. No television detective embodies this image more precisely than Columbo: the rumpled trench coat, the half-smoked cigar, the old Peugeot that always seems on the verge of breaking down.</p>
+          <p class="vb-intro">From 1968 to 2003, Peter Falk played this man across 69 episodes &ndash; a detective who never shouts, never threatens, never draws a weapon. His only tool is patience. The buffalo seems as though it could be pushed aside. Every single time, that turns out to be a mistake.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Nine: Equal Among Unequals</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Nine (SO9)</strong> <em>Participation</em>: the ability to fit into any group, any milieu, any social class, and find peace within it without losing one's own identity. Columbo's cases take him through mansions, film studios, law firms, vineyards, and science labs &ndash; and in every one of these settings, he treats every person with the same attentiveness: the butler, the chauffeur, the housekeeper, exactly as much as the millionaire suspect himself.</p>
+          <p class="vb-intro">This is no tactic but the very core of SO9: he asks the wine steward about the vintage, the director about the camera work, the secretary about her daily routine &ndash; with genuine interest, not as an interrogation technique. This exact ability to fit into any social stratum without bending or ingratiating himself is the character's true superpower: he is never perceived as a threat anywhere, because he genuinely belongs a little everywhere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: The Quiet Judge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Nine something the pure Nine often lacks: an unshakable inner compass for right and wrong. Columbo's cases are directed almost without exception at wealthy, powerful, socially untouchable-seeming perpetrators &ndash; doctors, directors, scientists, vintners &ndash; convinced their status places them above the law.</p>
+          <p class="vb-intro">Columbo is never impressed by this. He shows no anger, no condescension &ndash; but also not an inch of leniency. "Just one more thing..." is one of the most polite phrases in television history and, at the same time, one of the most relentless: the One within him will not let go until the truth is spoken. Justice, for him, is no act of vengeance but a quiet, almost impersonal necessity, regardless of how likable or brilliant the perpetrator seated across from him may be.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Method: Harmlessness as a Tool</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The show's format was revolutionary for its time: the viewer sees the murder within the first few minutes &ndash; the real suspense lies not in "who did it" but in "how will he be caught." This construction works only because Columbo's method itself becomes the spectacle: he appears seemingly distracted, forgetful, almost clumsy, lulling suspects into a false sense of security &ndash; and it is exactly within this false feeling of superiority that they entangle themselves in the small contradictions he has already noticed.</p>
+          <p class="vb-intro">Social Nine with the One-wing does not confront directly &ndash; it lets the truth reveal itself while patiently remaining in the room. Not once across the entire series does Columbo draw a weapon. His advantage is purely psychological, purely patient &ndash; and precisely for that reason so difficult to see through.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Peter Falk Behind Columbo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Peter Falk lost his right eye to a tumor at age three and wore a glass eye for the rest of his life &ndash; a fact he handled openly and with humor, occasionally even using it deliberately in his roles. Before his acting career, he had earned a master's degree in public administration and worked as an efficiency examiner for the Connecticut state budget bureau &ndash; a background that almost prophetically anticipates the methodical, detail-obsessed thoroughness of his later signature role.</p>
+          <p class="vb-intro">Away from Columbo, Falk maintained a close friendship with independent director John Cassavetes and appeared in his uncompromising, uncommercial films such as "A Woman Under the Influence" &ndash; the same man who entertained millions as Columbo deliberately sought out the small, honest, unglamorous project on the side. He received four Emmys for the role &ndash; yet the real recognition lay in the fact that generations of viewers loved a character whose strength lay precisely in never wanting to appear strong.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Buffalo Who Overlooked No One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Columbo remains one of the most influential detective characters in television history to this day &ndash; not because of spectacular action, but because of a radically different idea of strength: attentiveness instead of aggression, patience instead of pressure, respect for every person in the room instead of hierarchical thinking. That is exactly the lasting image of the social Nine with the One-wing: it never needs to belittle anyone in order to be proven right in the end.</p>
+          <p class="vb-intro">The buffalo that fits into any herd while never forgetting what it stands for &ndash; that is Columbo. And judging by the biographical traces, it was probably not entirely by chance also a piece of Peter Falk himself.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
+        {route:"beruehmte-kevin-costner", label:"Portrait: Kevin Costner (SO9w1)"},
+        {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
+      ])}
+    </div>
+  `);
+}
+
 
 function klausKinskiPortraitPage() {
   return shell(`
@@ -49856,6 +49926,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
+      "beruehmte-columbo": columboPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-carsten-stahl": carstenStahlPortraitPage,
