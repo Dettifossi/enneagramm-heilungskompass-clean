@@ -686,6 +686,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Laozi (Lao Tzu) – Self-Preservation Type 9",
     teaser:"SE9w1 · c. 6th century BCE (legendary). Philosopher, founder of Daoism, traditionally credited as author of the Tao Te Ching. According to legend, he finally rode a black ox into the desert and vanished. The elephant that lets go of what it no longer needs to carry – wu wei as the Nine's highest expression.",
     tags:["Philosophy","Religion"]},
+  { route:"beruehmte-thomas-von-aquin", name:"Thomas Aquinas", added:"2026-08-14", subtyp:"SE9w8",
+    heading:"Thomas Aquinas – Self-Preservation Type 9",
+    teaser:"SE9w8 · c. 1225–1274. Italian theologian and philosopher, Summa Theologica, founder of Thomism. The 'dumb ox' who endured a year of captivity unmoved. The elephant with the Eight-wing: calm as daily practice, unyielding at the decisive moment. Animal correspondence: Elephant.",
+    tags:["History","Philosophy"], gender:"m"},
   { route:"beruehmte-david-hume", name:"David Hume", subtyp:"SE9w8",
     heading:"David Hume – Self-Preservation Type 9",
     teaser:"SE9w8 · 1711–1776. Scottish philosopher. A Treatise of Human Nature, radical skepticism. The elephant who doubted everything – causation, the self, God – and remained calmer about it than any of his fiercest critics.",
@@ -20549,6 +20553,7 @@ function danteAlighieriPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5)"},
         {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
+        {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SE9w8) – whose theology shaped the Divine Comedy's architecture"},
         {route:"hoellenkreise-dante", label:"Chart: The 9 Circles of Hell According to Dante's Inferno"},
       ])}
     </div>
@@ -26258,7 +26263,75 @@ function davidHumePortraitPage() {
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
         {route:"beruehmte-adam-smith", label:"Portrait: Adam Smith (SO1w9) – his close friend"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5) – whom he roused from ‘dogmatic slumber’"},
+        {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SE9w8)"},
         {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
+      ])}
+    </div>
+  `);
+}
+
+function thomasVonAquinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-thomas-von-aquin-portrait.jpg" alt="Thomas Aquinas" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Thomas Aquinas</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Self-Preservation Type 9 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Italian theologian and philosopher, c. 1225&ndash;1274 &ndash; Animal correspondence: Elephant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant They Called the "Dumb Ox"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>elephant</strong> is the animal of the self-preservation Nine &ndash; a massive, calm presence that works not through volume but through weight. Thomas Aquinas, born around 1225 near Aquino in the Kingdom of Sicily, was physically such an elephant already: large, heavy, deliberate in his movements. His fellow students at the University of Paris, because of his silent manner and massive build, gave him the nickname "the dumb ox" (bos mutus).</p>
+          <p class="vb-intro">His teacher Albertus Magnus is said to have answered prophetically: "You call him the dumb ox, but his bellowing in doctrine will one day resound throughout the world." The elephant appears slow and unremarkable &ndash; until one recognizes the weight behind its calm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Nine: Calm as a Daily Practice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Nine (SP9)</strong> <em>appetite</em>: the tendency to settle into comfort, routine, and inner calm rather than being thrown off course by outer disturbance. In Thomas this showed as an almost unimaginable work discipline that nevertheless never seemed rushed: contemporaries report that he could dictate different works to several scribes at once while pacing calmly around the room &ndash; steady, methodical, without visible strain.</p>
+          <p class="vb-intro">This calm extended to his bodily well-being as well: Thomas was known for his considerable size and his enjoyment of food &ndash; legend has it that a semicircular section was cut into the table at his usual place so he could sit comfortably. The SP9 seeks peace not through renunciation but through comfortably settling into one's own life &ndash; in Thomas this combined with one of the most productive scholarly careers in intellectual history.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: The Ox That Would Not Yield</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the self-preservation Nine a strength barely visible beneath its calm surface until a line is crossed. When the young Thomas wanted to join the mendicant Dominican order against his noble family's fierce opposition, his own brothers had him kidnapped and held captive in the family castle for over a year to make him change his mind.</p>
+          <p class="vb-intro">According to tradition, they even sent a prostitute to his chamber to tempt him into breaking his vow of chastity. Thomas is said to have driven her from the room with a burning log from the fireplace and then drawn a cross on the charred door of his chamber. For a year the family held him captive &ndash; for a year the dumb ox remained unmoved in his decision, until they finally let him go. This is the Eight-wing of the SP9: no loud rebellion, but a resistance that simply cannot be broken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Summa Theologica: Order as Life's Work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thomas's major work, the "Summa Theologica," is a structure of immense scale: organized into questions, objections, and answers, it attempts to translate the entirety of Christian doctrine, together with the logic of the rediscovered Aristotle, into a single, contradiction-free system. This synthesis of ancient reason and Christian revelation &ndash; known as Thomism &ndash; became the defining framework of Catholic theology for centuries.</p>
+          <p class="vb-intro">The same systematic force flowed, more than a century later, into one of the most important works in world literature: Dante Alighieri (SX4w5) built the theological architecture of his "Divine Comedy" substantially on Thomistic thought. The calm, methodical elephant from Aquino thus unknowingly supplied the intellectual foundation for one of the most passionate literary works of the Middle Ages.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SP9w8 shows in the ability to combine unshakeable inner calm with tremendous creative force: Thomas left behind a body of work of such magnitude that the Catholic Church canonized him in 1323 and, centuries later in 1567, named him a Doctor of the Church &ndash; one of the highest honors the Church grants for theological work.</p>
+          <p class="vb-intro">The shadow lies in the Nine's fate pattern, sloth: where order becomes an end in itself, it can also harden into rigidity &ndash; in later centuries, Thomism was at times narrowed into dogma and defended against exactly the openness to new knowledge that Thomas himself had risked by incorporating the "pagan" Aristotle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Ox That Fell Silent</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">On December 6, 1273, during Mass in Naples, Thomas experienced a mystical event after which he never again wrote a word of his "Summa Theologica." Asked by his secretary why he would not finish the immense work, he answered: "I can do no more. All that I have written seems to me like straw compared to what I have seen and what has been revealed to me."</p>
+          <p class="vb-intro">The elephant with the Eight-wing, who had spent his life building a vast structure of thought with unshakeable persistence, laid down his pen at the decisive moment &ndash; not from exhaustion, but because, thoroughly SP9, he recognized that behind all order lies a peace no system can capture. Thomas died a few months later, in March 1274, on his way to the Council of Lyon. The dumb ox had long since carried his bellowing into the world &ndash; and, in the end, fell silent of his own will before what lay beyond all words.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se9", label:"SE9 – The Elephant: Subtype Profile"},
+        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8)"},
+        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5) – whose Divine Comedy drew on his theological thought"},
+        {route:"hoellenkreise-dante", label:"Chart: The 9 Circles of Hell According to Dante's Inferno"},
       ])}
     </div>
   `);
@@ -43463,6 +43536,7 @@ function hoellenkreiseDantePage() {
       ${relatedLinks([
         {route:"schaubilder", label:"All charts"},
         {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5) – author of the Divine Comedy"},
+        {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SE9w8) – whose theology shaped Dante"},
         {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
       ])}
     </div>
@@ -50888,6 +50962,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
       "beruehmte-eli-jaxon-bear": eliJaxonBearPortraitPage,
       "beruehmte-david-hume": davidHumePortraitPage,
+      "beruehmte-thomas-von-aquin": thomasVonAquinPortraitPage,
       "beruehmte-adam-smith": adamSmithPortraitPage,
       "beruehmte-rene-descartes": reneDescartesPortraitPage,
       "beruehmte-xanthippe": xanthippePortraitPage,

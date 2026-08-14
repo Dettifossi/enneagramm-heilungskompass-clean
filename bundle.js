@@ -32064,6 +32064,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Angela Merkel \u2013 Selbsterhaltende Typ 9",
     teaser:"SE9w8 \u00b7 geb. 1954. Bundeskanzlerin 2005\u20132021. Sechzehn Jahre Aussitzen, Entscheiden, Beharren \u2013 und ein Erbe voller Widerspr\u00fcche. Der Elefant, der sich in seinem eigenen Rhythmus bewegt. Manchmal Weisheit. Manchmal Stillstand.",
     tags:["Politik"], gender:"f"},
+  { route:"beruehmte-thomas-von-aquin", name:"Thomas von Aquin", added:"2026-08-14", subtyp:"SE9w8",
+    heading:"Thomas von Aquin – Selbsterhaltender Typ 9",
+    teaser:"SE9w8 · ca. 1225–1274. Italienischer Theologe und Philosoph, Summa Theologica, Begründer des Thomismus. Der ›stumme Ochse‹, der ein Jahr Gefangenschaft unbewegt überstand. Der Elefant mit Achterflügel: Gelassenheit als tägliche Praxis, Unbeugsamkeit im entscheidenden Moment. Tierentsprechung: Elefant.",
+    tags:["Geschichte","Philosophie"], gender:"m"},
   { route:"beruehmte-david-hume", name:"David Hume", subtyp:"SE9w8",
     heading:"David Hume \u2013 Selbsterhaltender Typ 9",
     teaser:"SE9w8 \u00b7 1711\u20131776. Schottischer Philosoph. Ein Traktat \u00fcber die menschliche Natur, radikaler Skeptizismus. Der Elefant, der an allem zweifelte \u2013 an der Kausalit\u00e4t, am Selbst, an Gott \u2013 und dabei gelassener blieb als jeder seiner erbitterten Kritiker.",
@@ -43958,6 +43962,7 @@ function danteAlighieriPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-claude-debussy", label:"Porträt: Claude Debussy (SX4w5)"},
         {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3)"},
+        {route:"beruehmte-thomas-von-aquin", label:"Porträt: Thomas von Aquin (SE9w8) – dessen Theologie die Architektur der Göttlichen Komödie stützte"},
         {route:"hoellenkreise-dante", label:"Schaubild: Die 9 Kreise der Hölle nach Dantes Inferno"},
       ])}
     </div>
@@ -48117,6 +48122,74 @@ function davidHumePortraitPage() {
         {route:"beruehmte-adam-smith", label:"Portr\xe4t: Adam Smith (SO1w9) \u2013 sein enger Freund"},
         {route:"beruehmte-immanuel-kant", label:"Portr\xe4t: Immanuel Kant (SO6w5) \u2013 den er aus dem \u203adogmatischen Schlummer\u2039 riss"},
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\xfchmte Philosophen im Enneagramm"},
+        {route:"beruehmte-thomas-von-aquin", label:"Portr\xe4t: Thomas von Aquin (SE9w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function thomasVonAquinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-thomas-von-aquin-portrait.jpg" alt="Thomas von Aquin" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Thomas von Aquin</p>
+        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Italienischer Theologe und Philosoph, ca. 1225–1274 – Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant, den man den "stummen Ochsen" nannte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des selbsterhaltenden Typs 9 – von massiger, ruhiger Präsenz, die nicht durch Lautstärke wirkt, sondern durch Gewicht. Thomas von Aquin, um 1225 nahe Aquino im Königreich Sizilien geboren, war schon körperlich ein solcher Elefant: groß, schwer, bedächtig in seinen Bewegungen. Seine Kommilitonen an der Universität Paris gaben ihm wegen seines schweigsamen Wesens und seiner massigen Statur den Spitznamen "der stumme Ochse" (bos mutus).</p>
+          <p class="vb-intro">Sein Lehrer Albertus Magnus soll darauf prophetisch geantwortet haben: "Ihr nennt ihn den stummen Ochsen, aber sein Gebrüll in der Lehre wird eines Tages die ganze Welt erfüllen." Der Elefant wirkt bedächtig und unauffällig – bis man erkennt, welches Gewicht hinter seiner Ruhe steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Gelassenheit als tägliche Praxis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nennt Naranjo <em>Appetit</em>: die Neigung, sich in Komfort, Routine und innerer Ruhe einzurichten, statt sich von äußerer Unruhe aus der Bahn werfen zu lassen. Bei Thomas zeigte sich das in einer schier unfassbaren Arbeitsdisziplin, die dennoch nie gehetzt wirkte: Zeitgenossen berichten, er habe mehreren Schreibern gleichzeitig unterschiedliche Werke diktieren können, während er gemächlich im Raum auf und ab ging – ruhig, methodisch, ohne sichtbare Anstrengung.</p>
+          <p class="vb-intro">Diese Gelassenheit erstreckte sich auch auf sein leibliches Wohl: Thomas war für seine beträchtliche Statur und seine Freude am Essen bekannt – der Legende nach ließ man an seinem Platz am Esstisch eigens eine halbrunde Aussparung in die Tischplatte schneiden, damit er bequem sitzen konnte. Die SE9 sucht Frieden nicht durch Verzicht, sondern durch das behagliche Einrichten im eigenen Leben – bei Thomas verband sich das mit einer der produktivsten Gelehrtenlaufbahnen der Geistesgeschichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Der Ochse, der nicht wich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> verleiht der selbsterhaltenden Neun eine Kraft, die man ihrer ruhigen Oberfläche kaum ansieht, bis eine Grenze überschritten wird. Als der junge Thomas gegen den erbitterten Widerstand seiner adligen Familie in den Bettelorden der Dominikaner eintreten wollte, ließen ihn seine eigenen Brüder entführen und über ein Jahr lang in der Familienburg gefangen halten, um ihn umzustimmen.</p>
+          <p class="vb-intro">Der Überlieferung nach schickte man ihm sogar eine Prostituierte in sein Gemach, um ihn zum Bruch seines Keuschheitsgelübdes zu verleiten. Thomas soll sie mit einem brennenden Holzscheit aus dem Kaminfeuer aus dem Zimmer gejagt und anschließend ein Kreuz in die verkohlte Tür seiner Kammer gezeichnet haben. Ein Jahr lang hielt die Familie ihn gefangen – ein Jahr lang blieb der stumme Ochse unbewegt bei seiner Entscheidung, bis man ihn schließlich ziehen ließ. Das ist der Achterflügel der SE9: keine lautstarke Rebellion, sondern ein Widerstand, der sich einfach nicht brechen lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Summa Theologica: Ordnung als Lebenswerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thomas' Hauptwerk, die "Summa Theologica", ist ein Bauwerk von gewaltigem Ausmaß: In Fragen, Einwänden und Antworten gegliedert, versucht es, das gesamte christliche Glaubenswissen mit der Logik des wiederentdeckten Aristoteles in ein einziges, widerspruchsfreies System zu übersetzen. Diese Synthese aus antiker Vernunft und christlicher Offenbarung – der sogenannte Thomismus – wurde zur prägenden Denkform der katholischen Theologie für Jahrhunderte.</p>
+          <p class="vb-intro">Dieselbe systematische Wucht floss über ein Jahrhundert später in eines der bedeutendsten Werke der Weltliteratur ein: Dante Alighieri (SX4w5) stützte die theologische Architektur seiner "Göttlichen Komödie" maßgeblich auf thomistisches Gedankengut. Der ruhige, methodische Elefant aus Aquin lieferte damit unwissentlich das gedankliche Fundament für eines der leidenschaftlichsten literarischen Werke des Mittelalters.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE9w8 zeigt sich in der Fähigkeit, unerschütterliche innere Ruhe mit gewaltiger schöpferischer Kraft zu verbinden: Thomas hinterließ ein Lebenswerk von solcher Wucht, dass die katholische Kirche ihn 1323 heiligsprach und ihn Jahrhunderte später, 1567, zum Kirchenlehrer erhob – eine der höchsten Anerkennungen, die die Kirche für theologisches Wirken vergibt.</p>
+          <p class="vb-intro">Der Schatten liegt in der Trägheit, dem Schicksalsmuster der Neun: Wo Ordnung zum Selbstzweck wird, kann sie auch zur Erstarrung führen – der Thomismus wurde in späteren Jahrhunderten teils dogmatisch verengt und gegen genau jene Offenheit für neue Erkenntnis verteidigt, die Thomas selbst durch die Einbeziehung des "heidnischen" Aristoteles gewagt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Ochse, der verstummte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 6. Dezember 1273, während einer Messe in Neapel, erlebte Thomas eine mystische Erfahrung, nach der er nie wieder ein Wort seiner "Summa Theologica" schrieb. Auf die Frage seines Sekretärs, warum er das gewaltige Werk nicht vollende, antwortete er: "Ich kann nicht mehr. Alles, was ich geschrieben habe, erscheint mir wie Stroh im Vergleich zu dem, was ich gesehen habe und was mir offenbart wurde."</p>
+          <p class="vb-intro">Der Elefant mit Achterflügel, der sein Leben lang mit unerschütterlicher Beharrlichkeit ein gewaltiges Denkgebäude errichtet hatte, legte im entscheidenden Moment die Feder nieder – nicht aus Erschöpfung, sondern weil er, ganz SE9, erkannte, dass hinter aller Ordnung ein Frieden liegt, den kein System einfangen kann. Thomas starb wenige Monate später, im März 1274, auf dem Weg zum Konzil von Lyon. Der stumme Ochse hatte sein Gebrüll längst in die Welt getragen – und verstummte am Ende freiwillig vor dem, was jenseits aller Worte lag.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-david-hume", label:"Porträt: David Hume (SE9w8)"},
+        {route:"beruehmte-angela-merkel", label:"Porträt: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-dante-alighieri", label:"Porträt: Dante Alighieri (SX4w5) – stützte die Göttliche Komödie auf sein theologisches Denken"},
+        {route:"hoellenkreise-dante", label:"Schaubild: Die 9 Kreise der Hölle nach Dantes Inferno"},
       ])}
     </div>
   `);
@@ -77868,6 +77941,7 @@ function hoellenkreiseDantePage() {
       ${relatedLinks([
         {route:"schaubilder", label:"Alle Schaubilder"},
         {route:"beruehmte-dante-alighieri", label:"Porträt: Dante Alighieri (SX4w5) – Autor der Göttlichen Komödie"},
+        {route:"beruehmte-thomas-von-aquin", label:"Porträt: Thomas von Aquin (SE9w8) – dessen Theologie Dante prägte"},
         {route:"beruhmte-philosophen", label:"Schaubild: Berühmte Philosophen im Enneagramm"},
       ])}
     </div>
@@ -85090,6 +85164,7 @@ function render() {
           "beruehmte-eli-jaxon-bear": eliJaxonBearPortraitPage,
           "beruehmte-angela-merkel": angelaMerkelPortraitPage,
     "beruehmte-david-hume": davidHumePortraitPage,
+    "beruehmte-thomas-von-aquin": thomasVonAquinPortraitPage,
     "beruehmte-spinoza": spinozaPortraitPage,
     "beruehmte-rene-descartes": reneDescartesPortraitPage,
     "beruehmte-adam-smith": adamSmithPortraitPage,
