@@ -534,6 +534,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Vladimir Putin – Sexual Type 6",
     teaser:"SX6w5 · born 1952 in Leningrad. Politician, President of the Russian Federation, former KGB officer. The Wolf that tries to overcome fear by controlling others.",
     tags:["Politics"], gender:"m"},
+  { route:"beruehmte-platon", name:"Plato", added:"2026-08-14", subtyp:"SX6w5",
+    heading:"Plato – Sexual Type 6",
+    teaser:"SX6w5 · c. 428–348 BC. Greek philosopher, student of Socrates, founder of the Academy. Theory of Forms, Allegory of the Cave, 'Republic'. The Wolf with the Five-wing: turning the betrayal of Socrates into an unshakeable order. Animal correspondence: Wolf.",
+    tags:["History","Philosophy"], gender:"m"},
   { route:"beruehmte-ludwig-van-beethoven", name:"Ludwig van Beethoven", added:"2026-08-13", subtyp:"SX6w5",
     heading:"Ludwig van Beethoven – Sexual Type 6",
     teaser:"SX6w5 · 1770–1827. German composer. Ninth Symphony, Moonlight Sonata, Eroica. The Wolf who didn't defeat his advancing deafness but leapt at fear's throat with defiant creative force – 'I will seize Fate by the throat.'",
@@ -21787,6 +21791,75 @@ function sucharitBhakdiPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
         {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function platonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-platon-portrait.jpg" alt="Plato" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Plato</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Greek philosopher, c. 428&ndash;348 BC &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf Who Answered Betrayal With Order</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of Sexual Type 6 &ndash; a pack animal that meets threat not with retreat but by building an order strong enough to ensure it never happens again. Plato was born around 428 BC in Athens into an influential aristocratic family; his actual name is said to have been Aristocles, "Plato" &ndash; the Broad &ndash; a nickname he reportedly earned as a wrestler, whose powerful build stood out even in competition.</p>
+          <p class="vb-intro">In 399 BC, the roughly 28-year-old Plato witnessed the event that would shape all his later thinking: Athenian democracy condemned his teacher Socrates to death in a show trial on charges of impiety and corrupting the youth. A man who had done nothing but ask questions was sentenced by the majority of the people to drink hemlock. For the young Plato, this was no abstract political lesson but the loss of the very foundation of trust: if even the most just community kills its most just citizen, what can still be built upon?</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Six: Security Through the Right Order</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called <strong>Sexual Six (SX6)</strong> the counter-type of the Six: here the passion of fear shows itself not as hesitation but as its opposite &ndash; the determined grasp for an order strong enough never to be shaken again. After the death of Socrates, Plato did not withdraw in resignation but began, in his late masterwork "Politeia" (The Republic), to systematically design what a society would have to look like in order never again to permit such a judicial murder.</p>
+          <p class="vb-intro">The result is one of the most authoritarian political utopias in the history of ideas: a strictly hierarchical order of philosopher-kings, guardians, and producers, censorship of poetry, communal upbringing of children by the state, no rule of the people but the rule of those who have grasped "the truth." This is Sexual Six in its most political form: where trust has once been fundamentally broken, the response is not a program of suspicion but an order strong enough to be trusted again &ndash; if necessary, by determining for oneself who is permitted to rule.</p>
+          <p class="vb-intro">This same unyielding quality showed itself personally as well: Plato traveled three times to Sicily, to the court of Syracuse, in order to put his ideal of the "philosopher-king" into actual political practice &ndash; first under Dionysius I, later under his son Dionysius II. According to tradition, on his first journey around 388 BC he was even sold into slavery and had to be ransomed by friends. A more cautious man would never have set foot in Sicily again after such a debacle &ndash; Plato returned twice.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: The Academy as a Bulwark of Thought</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives Sexual Six the analytical depth through which mistrust becomes a closed system of thought. Around 387 BC, Plato founded his Academy in a grove near Athens dedicated to the hero Academus &ndash; the first lasting institution of higher learning in the Western world. Tradition holds that above its entrance stood the inscription: "Let no one ignorant of geometry enter here" &ndash; a threshold that could only be crossed by those who had already submitted to the strict discipline of thought.</p>
+          <p class="vb-intro">In his theory of Forms, Plato designed a reality behind reality: the visible world, he held, is only a fleeting shadow of eternal, unchanging Ideas &ndash; true security lies not in the flux of appearances but in an order that endures forever. The famous Allegory of the Cave from the "Politeia" describes prisoners who spend their whole lives seeing only shadows on a wall and who at first cannot bear the true sun outside. Here the Five-wing turns the vigilance of the Six into a complete metaphysical system: whoever knows the Ideas behind things can no longer be caught off guard by any illusion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Dialogic Struggle: Socrates as Shield and Weapon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nearly all of Plato's surviving works are written as dialogues, in which the figure of Socrates, in conversation with other Athenians, dismantles their apparent certainties piece by piece &ndash; the so-called maieutics, the "midwifery" of questioning. This form is itself already an expression of SX6w5: rather than stating his own theses directly, Plato lets his dead teacher keep fighting in the text &ndash; Socrates becomes a literary weapon with which Plato repeatedly confronts the Athenian society that killed him with its own contradictions.</p>
+          <p class="vb-intro">In dialogues such as "Gorgias" or "Meno," the literary Socrates systematically drives his interlocutors into contradiction until their supposed knowledge collapses &ndash; an intellectual close-quarters combat that is at once confrontational and structurally disciplined. Here the strength of Sexual Six shows itself not as physical force but as relentless persistence in conversation that permits no comfortable escape.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SX6w5 shows in the sheer endurance with which Plato turned a traumatic experience into a complete philosophical system that still shapes the fundamental questions of epistemology, ethics, and politics today. The British philosopher Alfred North Whitehead remarked in the 20th century that the entire European philosophical tradition consists, at bottom, of nothing but "a series of footnotes to Plato" &ndash; an exaggeration that nonetheless captures the core truth.</p>
+          <p class="vb-intro">The shadow lies in the authoritarian consequence of his need for security: the "ideal state" of the "Politeia" tolerates no dissenting opinion, no free art, no democratic voice for the broader population. Where Sexual Six builds an order strong enough never to be shaken again, that same order can itself become a threat to those unwilling to submit to it &ndash; a pattern that authoritarian thinkers have repeatedly drawn from Plato's work since antiquity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Academy That Lasted 900 Years</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Plato died around 348 BC in Athens, according to tradition during a wedding celebration. His Academy outlived him by centuries &ndash; it continued, with interruptions, until it was closed in 529 AD by the Eastern Roman emperor Justinian I, nearly 900 years after its founding. Among his students was Aristotle, who later left the Academy to develop his own, more empirical system of thought &ndash; a split that divided the history of philosophy into two great streams for millennia.</p>
+          <p class="vb-intro">The wolf who answered the betrayal of his teacher with an unshakeable order left behind not only a political utopia but a system of thought that transformed the longing for absolute, unchanging security into one of the most influential philosophical traditions in human history &ndash; a security he himself, after the loss of Socrates, never again wished to entrust to mere trust alone.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
+        {route:"beruehmte-wladimir-putin", label:"Portrait: Vladimir Putin (SX6w5)"},
+        {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
+        {route:"beruehmte-heraklit", label:"Portrait: Heraclitus (SO4w5)"},
+        {route:"beruehmte-pythagoras", label:"Portrait: Pythagoras (SO5w6)"},
       ])}
     </div>
   `);
@@ -50025,6 +50098,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
       "beruehmte-ludwig-van-beethoven": ludwigVanBeethovenPortraitPage,
+      "beruehmte-platon": platonPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
       "beruehmte-scarlett-johansson": scarlettJohanssonPortraitPage,

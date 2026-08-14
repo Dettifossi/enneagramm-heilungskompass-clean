@@ -401,6 +401,7 @@ export const registerEntries = [
 
   // Berühmte Persönlichkeiten – Portraits
   { term: "Wladimir Putin",                route: "beruehmte-wladimir-putin",              description: "Portrait: SX6w5 · Sexueller Typ 6 · Politiker, Präsident der Russischen Föderation" },
+  { term: "Platon",                        route: "beruehmte-platon",                      description: "Portrait: SX6w5 · Sexueller Typ 6 · Philosoph, Schüler des Sokrates, Gründer der Akademie" },
   { term: "Ludwig van Beethoven",          route: "beruehmte-ludwig-van-beethoven",        description: "Portrait: SX6w5 · Sexueller Typ 6 · Komponist, Neunte Symphonie, Eroica" },
   { term: "Robert Schumann",               route: "beruehmte-robert-schumann",             description: "Portrait: SX7w8 · Sexueller Typ 7 · Komponist, Liederjahr 1840, Entdecker von Johannes Brahms" },
   { term: "Johannes Brahms",               route: "beruehmte-johannes-brahms",             description: "Portrait: SE9w8 · Selbsterhaltender Typ 9 · Komponist, von Schumann entdeckt, 21 Jahre an der 1. Symphonie" },
@@ -724,6 +725,7 @@ export const registerEntriesEN = [
 
   // Famous Personalities – Portraits
   { term: "Vladimir Putin", route: "beruehmte-wladimir-putin", description: "Portrait: SX6w5 · Sexual Type 6 · Politician, President of the Russian Federation" },
+  { term: "Plato", route: "beruehmte-platon", description: "Portrait: SX6w5 · Sexual Type 6 · Philosopher, student of Socrates, founder of the Academy" },
   { term: "Ludwig van Beethoven", route: "beruehmte-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexual Type 6 · Composer, Ninth Symphony, Eroica" },
   { term: "Robert Schumann", route: "beruehmte-robert-schumann", description: "Portrait: SX7w8 · Sexual Type 7 · Composer, Year of Song 1840, discoverer of Johannes Brahms" },
   { term: "Johannes Brahms", route: "beruehmte-johannes-brahms", description: "Portrait: SP9w8 · Self-Preservation Type 9 · Composer, discovered by Schumann, 21 years on his First Symphony" },
