@@ -342,6 +342,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Bella Thorne – Social Type 3",
     teaser:"SO3w4 · born 1997. Actress, director, social media star. From Disney child star to director – the cheetah that not only sprints but also knows the darkness.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-brad-pitt", name:"Brad Pitt", added:"2026-08-14", subtyp:"SX3w2",
+    heading:"Brad Pitt – Sexual Type 3",
+    teaser:"SX3w2 · born 1963 in Shawnee, Oklahoma. Actor and producer (Plan B Entertainment), Oscar winner for 'Once Upon a Time in Hollywood' and '12 Years a Slave'. Magnetism as a life theme, champion rather than just a star. Animal correspondence: Peacock.",
+    tags:["Schauspiel","Medien"] },
   { route:"beruehmte-kai-pflaume", name:"Kai Pflaume", subtyp:"SX3w2",
     heading:"Kai Pflaume – Sexual Type 3",
     teaser:"SX3w2 · “The Radiant One”, born 1967. Germany’s most famous TV host. For over 30 years he has fascinated millions – not through grand gestures, but through genuine warmth and magnetic personal presence. Animal correspondence: Peacock.",
@@ -28584,6 +28588,72 @@ function dieterBohlenPortraitPage() {
 }
 
 
+function bradPittPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-brad-pitt-portrait.jpg" alt="Peacock" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Brad Pitt</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Actor &amp; producer, born 1963 in Shawnee, Oklahoma &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Peacock</strong> is the animal of the Sexual Three &ndash; an animal whose impact does not come from calculation but from pure, immediate presence. It doesn't need to prove anything, it only needs to be there. Whoever encounters it feels a magnetism that resists analysis &ndash; and that is exactly where its power lies.</p>
+          <p class="vb-intro">Brad Pitt became an object of collective fascination almost overnight with a small but unmistakable supporting role in <em>Thelma &amp; Louise</em> (1991) &ndash; a few minutes of screen time were enough to make an entire cinema audience sit up. No elaborately staged star entrance, just plain physical presence that resists explanation and can only be experienced. The Peacock that changes a room simply by being what it is.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Three: Magnetism as a Life Theme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Three (SX3)</strong> makes personal magnetism its life's task &ndash; not success before the broader public, as with the Social Three, but immediate, physical resonance with the person in front of it. Claudio Naranjo called this subtype <em>Masculinity/Femininity</em>: the embodiment of attractiveness in its purest, most intimate form.</p>
+          <p class="vb-intro">Pitt's career can be read as a three-decade translation of this magnetism into acting substance. Where other sex symbols get trapped by their own image, Pitt used his to venture repeatedly into new registers: the lyrical, romantic fly-fisherman in <em>Legends of the Fall</em>, the self-destructive anarchist in <em>Fight Club</em>, the easy-going con man in <em>Ocean's Eleven</em>. The SX3 attracts &ndash; and Pitt understood early that this attraction is a tool, not a destination.</p>
+          <p class="vb-intro">His private life, too, stood under permanent public scrutiny for decades &ndash; from his relationship with Gwyneth Paltrow, through his marriage to Jennifer Aniston, to his long partnership with Angelina Jolie, with whom he has six children. The SX3 lives relationship publicly and intensely; its charisma draws attention even where it wasn't sought.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Champion, Not Just Star</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Sexual Three a dimension beyond pure magnetism: a genuine need to advocate for others, to give them a stage rather than claiming all of it for oneself. The pure SX3 could get absorbed in its own effect. The Two-wing opens the gaze outward.</p>
+          <p class="vb-intro">In Pitt this shows most clearly in his second career as a producer. With his company Plan B Entertainment, he stood behind films such as <em>12 Years a Slave</em> and <em>Moonlight</em> &ndash; both winners of the Academy Award for Best Picture &ndash; works that gave a platform to Black filmmakers and stories that major studios would otherwise rarely have championed. This is no side project of a bored star, but the characteristic Two movement: using one's own visibility to create room for others.</p>
+          <p class="vb-intro">His engagement after Hurricane Katrina falls into this same pattern: in 2007 he founded the <em>Make It Right Foundation</em>, which built affordable, environmentally friendly homes in New Orleans for families who had lost their homes in the flood. The Peacock that uses its visibility to build something for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Sex Symbol to Character Actor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pitt's filmography shows a rare consistency in undercutting his own image: the nearly caricatured heartthrob of <em>Interview with the Vampire</em>, followed by the disfigured, obsessive detective of <em>Se7en</em>, followed by the charismatic anarchist of <em>Fight Club</em>. Rather than resting on a successful role, he repeatedly sought the risk of dismantling his own image.</p>
+          <p class="vb-intro">In 2020 he won the Academy Award for Best Supporting Actor for his role as a world-weary stuntman in <em>Once Upon a Time in Hollywood</em> &ndash; after nearly three decades in the business, a late but important confirmation that solid craft lies behind the magnetism. As a producer he also won an Oscar himself for <em>12 Years a Slave</em> (2014) as Best Picture.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX3w2 is its ability to have an effect through pure presence &ndash; and, matured, to put that effect to use for others rather than for itself alone. Pitt's production work and social engagement show exactly this maturation: from admired object to active champion.</p>
+          <p class="vb-intro">The Three's core fixation is <strong>deceit</strong> &ndash; confusing one's own identity with one's own image. The publicly fought, highly contentious divorce from Angelina Jolie starting in 2016, accompanied by allegations of domestic violence that Pitt denied and a years-long custody battle over their children, put exactly this facade to a hard test. Pitt has publicly acknowledged struggling with alcohol dependency during this period and has since spoken of living sober &ndash; a rare admission of loss of control from a man whose entire public identity had long rested on flawless composure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: From Image to Authenticity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Three leads from the question <em>Do I have an effect?</em> to the recognition <em>I am &ndash; even without that effect.</em> Pitt himself has spoken openly in interviews after the separation from Jolie about therapy, his sobriety, and the attempt to no longer define himself through external validation.</p>
+          <p class="vb-intro">His growing focus on producing &ndash; on stories that don't place himself at the center but make other voices visible &ndash; reads as exactly this movement: from the Peacock that wants to be admired, to the Peacock that deliberately turns its light toward others.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"beruehmte-kai-pflaume", label:"Portrait: Kai Pflaume (SX3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function kaiPflaumePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -51003,6 +51073,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-dan-brown": danBrownPortraitPage,
       "beruehmte-ken-follett": kenFollettPortraitPage,
+      "beruehmte-brad-pitt": bradPittPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,

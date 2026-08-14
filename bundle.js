@@ -31528,6 +31528,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Bella Thorne \u2013 Sozialer Typ 3",
     teaser:"SO3w4 \u00b7 geb. 1997. Schauspielerin, Regisseurin, Social-Media-Star. Vom Disney-Kind zur Regisseurin \u2013 der Gepard, der nicht nur sprintet, sondern auch die Dunkelheit kennt.",
     tags:["Schauspiel"] , gender:"f"},
+  { route:"beruehmte-brad-pitt", name:"Brad Pitt", added:"2026-08-14", subtyp:"SX3w2",
+    heading:"Brad Pitt – Sexueller Typ 3",
+    teaser:"SX3w2 · geb. 1963 in Shawnee, Oklahoma. Schauspieler und Produzent (Plan B Entertainment), Oscar-Prämierter für „Once Upon a Time in Hollywood“ und „12 Years a Slave“. Magnetismus als Lebensthema, Förderer statt nur Star. Tierentsprechung: Pfau.",
+    tags:["Schauspiel","Medien"] , gender:"m"},
   { route:"beruehmte-kai-pflaume", name:"Kai Pflaume", subtyp:"SX3w2",
     heading:"Kai Pflaume \u2013 Sexueller Typ 3",
     teaser:"SX3w2 \u00b7 \u201eDer Strahlende\u201c, geb. 1967. Deutschlands bekanntester Moderator. Seit \u00fcber 30 Jahren fasziniert er Millionen \u2013 nicht durch gro\u00dfe Gesten, sondern durch echte W\u00e4rme und magnetische pers\u00f6nliche Pr\u00e4senz. Tierentsprechung: Pfau.",
@@ -52667,6 +52671,72 @@ function dieterBohlenPortraitPage() {
   `);
 }
 
+
+function bradPittPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-brad-pitt-portrait.jpg" alt="Pfau" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Brad Pitt</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler &amp; Produzent, geb. 1963 in Shawnee, Oklahoma &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; ein Tier, dessen Wirkung nicht aus Berechnung entsteht, sondern aus reiner, unmittelbarer Präsenz. Er muss nichts beweisen, er muss nur da sein. Wer ihm begegnet, spürt eine Anziehungskraft, die sich jeder Analyse entzieht &ndash; und genau darin liegt seine Macht.</p>
+          <p class="vb-intro">Brad Pitt wurde mit einer kleinen, aber unübersehbaren Nebenrolle in <em>Thelma &amp; Louise</em> (1991) quasi über Nacht zum Objekt kollektiver Faszination &ndash; wenige Filmminuten genügten, um ein ganzes Kinopublikum aufhorchen zu lassen. Kein aufwendig konstruierter Star-Auftritt, sondern schlichte, körperliche Präsenz, die sich nicht erklären lässt, nur erleben. Der Pfau, der einen Raum verändert, allein durch das, was er ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Magnetismus als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> macht persönliche Anziehungskraft zur Lebensaufgabe &ndash; nicht Erfolg vor der breiten Öffentlichkeit wie die soziale Drei, sondern die unmittelbare, körperliche Resonanz mit dem Gegenüber. Claudio Naranjo nannte diesen Subtyp <em>Masculinity/Femininity</em>: die Verkörperung von Attraktivität in ihrer reinsten, intimsten Form.</p>
+          <p class="vb-intro">Pitts Karriere lässt sich als drei Jahrzehnte andauernde Übersetzung dieser Anziehungskraft in schauspielerische Substanz lesen. Wo andere Sexsymbole an ihrem eigenen Image scheitern, hat Pitt es genutzt, um sich in immer neue Register vorzuwagen: den lyrisch-romantischen Fliegenfischer in <em>Legends of the Fall</em>, den selbstzerstörerischen Anarchisten in <em>Fight Club</em>, den lässigen Gauner in <em>Ocean's Eleven</em>. Die SX3 zieht an &ndash; und Pitt verstand früh, dass diese Anziehung ein Werkzeug ist, keine Endstation.</p>
+          <p class="vb-intro">Auch sein Privatleben stand jahrzehntelang unter permanenter öffentlicher Beobachtung &ndash; von der Beziehung zu Gwyneth Paltrow über die Ehe mit Jennifer Aniston bis zur langjährigen Partnerschaft mit Angelina Jolie, mit der er sechs Kinder hat. Die SX3 lebt Beziehung öffentlich und intensiv; ihr Charisma zieht Aufmerksamkeit auch dort an, wo sie sie nicht gesucht hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Förderer statt nur Star</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sexuellen Drei eine Dimension, die über reinen Magnetismus hinausgeht: das echte Bedürfnis, sich für andere einzusetzen, ihnen eine Bühne zu geben, statt sie nur für sich selbst zu beanspruchen. Die reine SX3 könnte in der eigenen Wirkung aufgehen. Der Zweierflügel öffnet den Blick nach außen.</p>
+          <p class="vb-intro">Bei Pitt zeigt sich das am deutlichsten in seiner zweiten Karriere als Produzent. Mit seiner Firma Plan B Entertainment stand er hinter Filmen wie <em>12 Years a Slave</em> und <em>Moonlight</em> &ndash; beide mit dem Oscar für den besten Film ausgezeichnet &ndash;, Werken, die schwarzen Filmschaffenden und Geschichten eine Plattform gaben, für die sich große Studios sonst kaum eingesetzt hätten. Das ist kein Zufallsprojekt eines gelangweilten Stars, sondern die charakteristische Zweier-Bewegung: die eigene Strahlkraft nutzen, um anderen Raum zu verschaffen.</p>
+          <p class="vb-intro">Auch sein Engagement nach dem Hurrikan Katrina fällt in dieses Muster: 2007 gründete er die <em>Make It Right Foundation</em>, die in New Orleans bezahlbare, umweltfreundliche Häuser für Familien baute, die durch die Flut ihr Zuhause verloren hatten. Der Pfau, der seine Sichtbarkeit einsetzt, um für andere etwas aufzubauen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Sexsymbol zum Charakterdarsteller</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pitts Filmografie zeigt eine seltene Konsequenz darin, das eigene Image immer wieder zu unterlaufen: der fast zum Popanz stilisierte Frauenschwarm in <em>Interview mit einem Vampir</em>, gefolgt vom entstellten, besessenen Ermittler in <em>Seven</em>, gefolgt vom charismatischen Anarchisten in <em>Fight Club</em>. Statt sich auf einer erfolgreichen Rolle auszuruhen, suchte er wiederholt das Risiko der Selbstdemontage.</p>
+          <p class="vb-intro">2020 erhielt er den Oscar als bester Nebendarsteller für seine Rolle als abgeklärter Stuntman in <em>Once Upon a Time in Hollywood</em> &ndash; nach fast drei Jahrzehnten im Geschäft eine späte, aber wichtige Bestätigung, dass hinter der Anziehungskraft substanzielles schauspielerisches Handwerk steckt. Als Produzent gewann er zudem selbst einen Oscar für <em>12 Years a Slave</em> (2014) als bester Film.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w2 ist ihre Fähigkeit, durch reine Präsenz zu wirken &ndash; und diese Wirkung, gereift, für andere einzusetzen statt nur für sich selbst. Pitts Produktionsarbeit und sein soziales Engagement zeigen genau diese Reifung: vom bewunderten Objekt zum aktiven Förderer.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Täuschung</strong> &ndash; das Verwechseln der eigenen Identität mit der eigenen Wirkung. Die öffentlich ausgetragene, hoch konfliktreiche Scheidung von Angelina Jolie ab 2016, begleitet von Vorwürfen häuslicher Gewalt, die Pitt bestritt, und einem jahrelangen Sorgerechtsstreit um die gemeinsamen Kinder, stellte genau diese Fassade auf eine harte Probe. Pitt hat öffentlich eingeräumt, in dieser Zeit zeitweise stark alkoholabhängig gewesen zu sein und danach nüchtern zu leben &ndash; ein seltenes Eingeständnis von Kontrollverlust bei einem Mann, dessen ganze öffentliche Identität lange auf makelloser Souveränität beruhte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Wirkung zur Echtheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Wirke ich?</em> zur Erkenntnis <em>Ich bin &ndash; auch ohne diese Wirkung.</em> Pitt selbst hat in Interviews nach der Trennung von Jolie offen über Therapie, seine Nüchternheit und den Versuch gesprochen, sich nicht länger über äußere Anerkennung zu definieren.</p>
+          <p class="vb-intro">Seine zunehmende Konzentration auf das Produzieren &ndash; auf Geschichten, die nicht ihn selbst ins Zentrum stellen, sondern andere Stimmen sichtbar machen &ndash; liest sich als genau diese Bewegung: vom Pfau, der bewundert werden will, zum Pfau, der sein Licht bewusst auf andere richtet.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-kai-pflaume", label:"Porträt: Kai Pflaume (SX3w2)"},
+      ])}
+    </div>
+  `);
+}
 
 function kaiPflaumePortraitPage() {
   return shell(`
@@ -85172,6 +85242,7 @@ function render() {
       "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
       "beruehmte-brigitte-bardot": brigitteBardotPortraitPage,
+      "beruehmte-brad-pitt": bradPittPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-meg-ryan": megRyanPortraitPage,
       "beruehmte-marilyn-monroe": marilynMonroePortraitPage,
