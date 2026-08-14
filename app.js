@@ -31703,6 +31703,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo da Vinci \u2013 Sozialer Typ 5",
     teaser:"SO5w4 \u00b7 1452\u20131519. Italienischer Universalgelehrter, Maler, Erfinder. Mona Lisa, Vitruvianischer Mensch, \u00fcber 13.000 Seiten Notizb\u00fccher. Der Oktopus, der mit acht Denkarmen Kunst, Wissenschaft und Technik zugleich erforschte.",
     tags:["Kunst","Wissenschaft"], gender:"m"},
+  { route:"beruehmte-isaac-newton", name:"Isaac Newton", added:"2026-08-14", subtyp:"SO5w6",
+    heading:"Isaac Newton – Sozialer Typ 5",
+    teaser:"SO5w6 · 1642/43–1727. Englischer Physiker und Mathematiker, Principia Mathematica, Gravitationsgesetz. Jahrzehntelang verborgene Alchemie- und Theologiestudien, Prioritätsstreit mit Leibniz, Präsident der Royal Society. Der Oktopus mit Sechserflügel: Wissen als Machtinstrument, Sicherheit durch institutionelle Kontrolle. Tierentsprechung: Oktopus.",
+    tags:["Geschichte","Wissenschaft"], gender:"m"},
   { route:"beruehmte-pythagoras", name:"Pythagoras", added:"2026-08-14", subtyp:"SO5w6",
     heading:"Pythagoras – Sozialer Typ 5",
     teaser:"SO5w6 · ca. 570–495 v. Chr. Griechischer Philosoph und Mathematiker, Gründer des Bundes von Kroton. Satz des Pythagoras, Sphärenharmonie, gestuftes Geheimwissen. Der Oktopus mit Sechserflügel: Wissen als Orden, Sicherheit durch Regel und Loyalität. Tierentsprechung: Oktopus.",
@@ -44136,6 +44140,73 @@ function pythagorasPortraitPage() {
         {route:"beruehmte-bill-gates", label:"Porträt: Bill Gates (SO5w6)"},
         {route:"beruehmte-guenther-jauch", label:"Porträt: Günther Jauch (SO5w6)"},
         {route:"beruehmte-heraklit", label:"Porträt: Heraklit (SO4w5) – der ihn in seinen Fragmenten scharf kritisierte"},
+        {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function isaacNewtonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-isaac-newton-portrait.jpg" alt="Isaac Newton" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Isaac Newton</p>
+        <p class="krim-portrait-typ">SO5w6 · Sozialer Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Englischer Physiker, Mathematiker und Naturphilosoph, 1642/43–1727 – Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus, der sein Wissen jahrzehntelang verbarg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen Fünf – intelligent, vielarmig, in der Lage, Wissen zu sammeln und zu ordnen, ohne sich dabei offen zu zeigen. Kaum eine historische Gestalt verkörpert diese Verborgenheit so vollständig wie Isaac Newton: Er entwickelte in den Pestjahren 1665/66, zurückgezogen auf dem elterlichen Gut in Woolsthorpe, die Grundlagen der Infinitesimalrechnung, der Gravitationstheorie und wesentliche Teile seiner Optik – und veröffentlichte fast nichts davon für zwanzig Jahre.</p>
+          <p class="vb-intro">Erst 1687, auf beharrliches Drängen seines Freundes Edmond Halley, erschienen die "Philosophiae Naturalis Principia Mathematica" – eines der einflussreichsten wissenschaftlichen Werke der Geschichte, das Newton über zwei Jahrzehnte lang fast ausschließlich für sich behalten hatte. Der Oktopus verbirgt sich nicht aus Schwäche. Er verbirgt sich, weil er die Kontrolle darüber behalten will, wann und wie sein Wissen die Welt erreicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Fünf: Geheimes Wissen als Schutzraum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Fünf (SO5)</strong> nennt Naranjo <em>Totem</em>: Wissen wird der Gemeinschaft zugänglich gemacht – doch stets in kontrollierten, selbst bestimmten Dosen. Bei Newton ging diese Kontrolle weit über wissenschaftliche Vorsicht hinaus: Über drei Jahrzehnte verfasste er mehr als eine Million Wörter zur Alchemie – Experimente, Rezepturen, Deutungen alter Texte –, von denen zu Lebzeiten fast nichts veröffentlicht wurde. Erst im 20. Jahrhundert kamen diese Manuskripte wieder ans Licht und zeigten eine ganz andere Seite des vermeintlich reinen Rationalisten.</p>
+          <p class="vb-intro">Noch brisanter war sein verborgenes theologisches Werk: Newton kam durch jahrelanges Bibelstudium zu der Überzeugung, die Dreifaltigkeitslehre sei eine spätere Verfälschung des ursprünglichen Christentums – eine arianische, in England als Häresie geltende Position. Da eine Fellowship am Trinity College Cambridge die Ordination zum anglikanischen Priester voraussetzte, hielt er diese Überzeugung sein Leben lang geheim und sicherte sich stattdessen 1675 eine seltene königliche Ausnahmegenehmigung. Das Totem der SO5 zeigt sich hier in seiner riskantesten Form: Wissen, das öffentlich sein Leben hätte zerstören können, wurde in Zehntausenden Manuskriptseiten verborgen gehalten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Sicherheit durch Institution und Autorität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Fünf ein tiefes Bedürfnis nach Sicherheit durch verbindliche Systeme und institutionelle Macht. 1703 wurde Newton Präsident der Royal Society und blieb es bis zu seinem Tod – ein Amt, das er nutzte, um wissenschaftliche Orthodoxie durchzusetzen und Widerspruch systematisch zu unterdrücken. Nach seinem Amtsantritt verschwand ausgerechnet das einzige bekannte Porträt seines langjährigen Rivalen Robert Hooke aus den Beständen der Gesellschaft – ein bis heute ungeklärter Vorfall, der Newtons Ruf als nachtragender Institutionsherrscher untermauerte.</p>
+          <p class="vb-intro">Auch als Leiter der Royal Mint ab 1696 zeigte sich dieser Flügel: Newton verfolgte Geldfälscher mit obsessiver Systematik, verhörte Verdächtige persönlich, verkleidete sich Berichten zufolge, um in Wirtshäusern Hinweise zu sammeln, und trug maßgeblich dazu bei, dass zahlreiche Fälscher hingerichtet wurden. Sicherheit bedeutete für den Sechserflügel nicht nur eigene Kontrolle, sondern die kompromisslose Durchsetzung von Recht und Ordnung als Institution.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Geiz als Prioritätsanspruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Fünf heißt <strong>Geiz</strong> – bei der SO5w6 gerichtet auf die Hoheit über das eigene Wissen und dessen Anerkennung. Newtons jahrzehntelanger Streit mit Gottfried Wilhelm Leibniz (SO3w4) um die Erfindung der Infinitesimalrechnung zeigt dieses Muster in seiner erbittertsten Form: 1712 ließ Newton als Präsident der Royal Society eine angeblich unabhängige Untersuchungskommission einsetzen, deren Abschlussbericht er heimlich selbst mitverfasste – ein Urteil, das erwartungsgemäß zu seinen Gunsten ausfiel.</p>
+          <p class="vb-intro">Ein ganz ähnliches Muster prägte seine frühere Rivalität mit Robert Hooke über die Gesetze der Optik und der Gravitation: Newton reagierte auf Hookes Kritik mit jahrelangem beleidigtem Schweigen und verzögerte die Veröffentlichung eigener Werke, bis Hooke 1703 gestorben war. Sein berühmter Satz, er habe nur "auf den Schultern von Riesen" gestanden, wird gern als Geste der Bescheidenheit gelesen – von Zeitgenossen jedoch auch als versteckte Spitze gegen den kleinwüchsigen Hooke gedeutet. Der Geiz der SO5w6 zeigt sich nicht im Verbergen aus Not, sondern im unnachgiebigen Wachen über den eigenen Anteil am Ruhm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO5w6 zeigt sich in der schieren Tragweite von Newtons öffentlichem Werk: die drei Bewegungsgesetze, das Gravitationsgesetz, die Zerlegung des weißen Lichts in seine Spektralfarben, die Infinitesimalrechnung – ein Fundament, auf dem die gesamte klassische Physik der folgenden zwei Jahrhunderte aufbaute. Aus der Sicherheit seiner jahrelangen Zurückgezogenheit entstand ein Werk von beispielloser Geschlossenheit.</p>
+          <p class="vb-intro">Der Schatten liegt in der Unversöhnlichkeit, mit der Newton jede Bedrohung seiner intellektuellen Hoheit beantwortete: Kritiker wurden nicht diskutiert, sondern institutionell ausgeschaltet; Rivalen wurden nicht widerlegt, sondern über Jahrzehnte bekämpft. Die gleiche Kraft, die ihn befähigte, zwanzig Jahre an einem Werk zu arbeiten, ohne es preiszugeben, machte ihn auch unfähig, eine Kränkung oder einen Prioritätsanspruch je wirklich loszulassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der verborgene Grund der sichtbaren Ordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Newton starb 1727 in London, unverheiratet, kinderlos, und wurde mit einem Staatsbegräbnis in der Westminster Abbey beigesetzt – eine Ehre, die zuvor kaum einem Naturwissenschaftler zuteilgeworden war. Der französische Philosoph Voltaire, der der Beerdigung beiwohnte, zeigte sich tief beeindruckt davon, wie England einen Gelehrten wie einen König verehrte.</p>
+          <p class="vb-intro">Der Oktopus mit Sechserflügel hinterließ damit ein doppeltes Erbe: nach außen die sichtbare, unerschütterliche Ordnung der klassischen Mechanik, die die Welt drei Jahrhunderte lang erklärte – nach innen ein Leben, das den größten Teil seines eigentlichen Denkens, seiner Zweifel und seiner häretischen Überzeugungen bis zum Tod verborgen hielt. Erst die Wiederentdeckung seiner alchemistischen und theologischen Manuskripte im 20. Jahrhundert zeigte, wie viel von diesem Universalgenie tatsächlich im Verborgenen blieb.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Porträt: Gottfried Wilhelm Leibniz (SO3w4) – sein erbittertster wissenschaftlicher Rivale"},
+        {route:"beruehmte-pythagoras", label:"Porträt: Pythagoras (SO5w6)"},
+        {route:"beruehmte-bill-gates", label:"Porträt: Bill Gates (SO5w6)"},
       ])}
     </div>
   `);
@@ -55875,6 +55946,7 @@ function gottfriedWilhelmLeibnizPortraitPage() {
         {route:"beruehmte-teresa-von-avila", label:"Porträt: Teresa von Ávila (SO3w4)"},
         {route:"beruehmte-sean-connery", label:"Porträt: Sean Connery (SO3w4)"},
         {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
+        {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6) – sein erbittertster wissenschaftlicher Rivale"},
       ])}
     </div>
   `);
@@ -84742,6 +84814,7 @@ function render() {
       "beruehmte-tilda-swinton": tildaSwintonPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
       "beruehmte-pythagoras": pythagorasPortraitPage,
+      "beruehmte-isaac-newton": isaacNewtonPortraitPage,
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
       "beruehmte-peter-lustig": peterLustigPortraitPage,
