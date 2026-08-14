@@ -194,6 +194,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Aristotle – Self-Preservation Type 1",
     teaser:"SE1w9 · 384–322 BC. Philosopher, founder of logic, tutor of Alexander the Great. The golden mean as a way of life – no crusade against the world, but the calm, decades-long ordering of all knowledge into a single system. Animal correspondence: Eagle.",
     tags:["Philosophy","History"] , gender:"m"},
+  { route:"beruehmte-anthony-hopkins", name:"Anthony Hopkins", added:"2026-08-14", subtyp:"SE1w9",
+    heading:"Anthony Hopkins – Self-Preservation Type 1",
+    teaser:"SP1w9 · born 1937 in Port Talbot, Wales. Actor, two Oscars ('The Silence of the Lambs', 'The Father'). Precision as self-obligation, stillness as home – scripts read a hundred times over until fully memorized. Animal correspondence: Eagle.",
+    tags:["Schauspiel"] },
   { route:"beruehmte-pierce-brosnan", name:"Pierce Brosnan", added:"2026-08-14", subtyp:"SE1w2",
     heading:"Pierce Brosnan – Self-Preservation Type 1",
     teaser:"SP1w2 · born 1953 in Navan, Ireland. Actor and producer, James Bond 1995–2002. Discipline as craft, personal loss as the drive behind advocacy for ovarian cancer research and environmental protection. Animal correspondence: Eagle.",
@@ -23402,6 +23406,7 @@ function stingPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
+        {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
       ])}
     </div>
   `);
@@ -23468,6 +23473,7 @@ function robertDeNiroPortraitPage() {
         {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
         {route:"beruehmte-pierce-brosnan", label:"Portrait: Pierce Brosnan (SP1w2)"},
+        {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
       ])}
     </div>
   `);
@@ -23593,6 +23599,71 @@ function pierceBrosnanPortraitPage() {
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
         {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function anthonyHopkinsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-anthony-hopkins-portrait.jpg" alt="Eagle" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anthony Hopkins</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Actor, born 1937 in Port Talbot, Wales &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; an animal that wastes no movement. It observes at length from stillness before it acts, and when it strikes, it needs no second chance. Power without noise. Precision without any visible strain.</p>
+          <p class="vb-intro">Anthony Hopkins won the Academy Award for Best Actor for playing Hannibal Lecter in <em>The Silence of the Lambs</em> (1991) with barely sixteen minutes of screen time &ndash; one of the shortest performances ever honored with that award. This was no accident, but pure economy: every gesture, every glance, every pause was placed with such precision that the threat built not through volume but through complete stillness. The Eagle need not scream to be feared.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Precision as Self-Obligation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs its perfectionism not toward correcting the world, but inward: toward its own craft, its own preparation, an incorruptible precision toward itself. Naranjo called this subtype <em>Worry</em> &ndash; concern. The SP1 asks itself relentlessly: Have I truly understood this? Am I fully prepared?</p>
+          <p class="vb-intro">In Hopkins this question has become method. He is known for reading each script between a hundred and several hundred times, until the text sits completely by heart &ndash; not roughly, but word for word, inflection for inflection, long before filming even begins. For his Oscar-winning role in <em>The Father</em> (2020), he is said to have read the script over 200 times. This is not a quirk. It is the SP1 refusing to step in front of the camera with anything less than complete mastery.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Stillness as Home</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds a quality to the SP1 energy that seems at odds, at first glance, with such intense screen presence: withdrawal, silence, the need to merge with something larger rather than placing oneself in the foreground.</p>
+          <p class="vb-intro">Hopkins is known as notoriously reclusive &ndash; no friend of premiere small talk, no interest in society appearances. He prefers to spend his time painting, composing at the piano, and taking long, meditative walks. In 1975 he became sober after a severe alcohol dependency had nearly destroyed his life &ndash; since then he has lived abstinent with the same discipline he brings to preparing his roles. The Nine-wing does not seek the stage for itself. It seeks the stillness from which the actual work first becomes possible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Two Oscars, Six Decades on Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nearly thirty years separate his first Oscar for Hannibal Lecter (1992) from his second for playing a father with dementia in <em>The Father</em> (2021) &ndash; at 83, Hopkins became the oldest winner in the Best Actor category in Oscar history. In between: <em>The Remains of the Day</em>, <em>Legends of the Fall</em>, countless stage roles at the Royal National Theatre, a career that never rested on a single icon.</p>
+          <p class="vb-intro">Besides acting, Hopkins seriously composes classical music and paints &ndash; both with the same quiet discipline he brings to memorizing scripts. The Eagle circles over several territories at once, without any of them becoming a mere sideline.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1w9 is a rare combination of absolute craft precision and inner serenity &ndash; an artist who never steps improvised in front of the camera, yet never strains for attention either. Hopkins's decades of sobriety, achieved and maintained with the same discipline as his role preparation, show the mature form of this pattern.</p>
+          <p class="vb-intro">The shadow shows in the distance the Nine-wing favors. The fate pattern of the One is <strong>anger</strong>, which in the SP1 usually turns inward &ndash; yet withdrawal can also wound outwardly. Hopkins's relationship with his daughter Abigail from his first marriage was marked by deep estrangement for decades; in interviews he has himself acknowledged being a distant, difficult father in his younger years. The Eagle that tends its own territory with the greatest care can overlook who is waiting for it beyond that territory.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: From Control to Surrender</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the One leads from anger to serenity &ndash; from the question <em>Do I have everything under control?</em> to the recognition <em>I may let go, even when not everything is perfect.</em> For the SP1w9 this path shows especially in the capacity to no longer need one's own discipline as a shield, but to experience it as a calm, supporting foundation.</p>
+          <p class="vb-intro">In later interviews Hopkins speaks with increasing serenity about age, impermanence, and his own mortality &ndash; without the sharpness of self-criticism from earlier decades. The Eagle that no longer needs to prove it is the best. It has long known this, and no longer needs to show it to anyone.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
+        {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
       ])}
     </div>
   `);
@@ -51215,6 +51286,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
+      "beruehmte-anthony-hopkins": anthonyHopkinsPortraitPage,
       "beruehmte-pierce-brosnan": pierceBrosnanPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-dan-brown": danBrownPortraitPage,
