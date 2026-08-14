@@ -53703,7 +53703,7 @@ function gretaThunbergPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; und es ist ein Tier, das man untersch\u00e4tzt, bis man es nicht mehr untersch\u00e4tzen kann. Es wirkt tr\u00e4ge, beinahe harmlos. Es liegt im Wasser. Es h\u00e4lt inne. Aber das Flusspferd ist eines der gef\u00e4hrlichsten Tiere Afrikas. Es sch\u00fctzt sein Territorium mit einer Kraft, die aus dem Inneren kommt &ndash; nicht aus Aggression, sondern aus dem absoluten Wissen: Das hier ist meins. Das hier ist notwendig. Das gebe ich nicht auf.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das ein ganzes Flussbett blockieren kann, ohne einen einzigen Schritt zu tun. Es muss nicht angreifen, um Wirkung zu zeigen. Es muss nur an einer Stelle stehen bleiben und sich weigern, sie zu verlassen &ndash; und der gesamte Strom drumherum muss sich neu ordnen.</p>
           <p class="vb-intro">Greta Thunberg hat im August 2018 allein vor dem schwedischen Reichstag gesessen &ndash; ein f\u00fcnfzehnj\u00e4hriges M\u00e4dchen mit einem selbstgebastelten Schild. Sie hat nicht um Erlaubnis gefragt. Sie hat nicht auf die richtige Gelegenheit gewartet. Sie hat gehandelt, weil die Situation Handlung verlangte. Das ist die Energie des Flusspferds: nicht laut, bis sie laut sein muss &ndash; und dann unaufhaltsam.</p>
         </blockquote>
 
@@ -53766,7 +53766,7 @@ function margotFriedlaenderPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das man unterschätzt, bis man es nicht mehr unterschätzen kann. Es wirkt ruhig, beinahe reglos im Wasser. Aber es verteidigt sein Territorium mit einer Kraft, die aus dem Inneren kommt, nicht aus Aggression: dem absoluten Wissen, was schützenswert ist und was nicht aufgegeben wird.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das bis zu sechzehn Stunden am Tag fast vollständig unter Wasser verbringen kann, kaum sichtbar, kaum wahrnehmbar, und doch die ganze Zeit über wach. Es taucht nicht ab, um zu verschwinden. Es taucht ab, weil dort seine Sicherheit liegt &ndash; und es taucht auf, genau in dem Moment, in dem es gebraucht wird.</p>
           <p class="vb-intro">Margot Friedländer überlebte den Holocaust, emigrierte nach dem Krieg in die USA und lebte dort über fünfzig Jahre ein stilles, zurückgezogenes Leben. Erst nach dem Tod ihres Mannes, mit weit über siebzig Jahren, begann sie zu sprechen &ndash; und mit über achtzig kehrte sie endgültig nach Berlin zurück, um dort, bis kurz vor ihrem Tod mit 103 Jahren, unermüdlich vor Schulklassen aufzutreten. Das Flusspferd ruht lange im Wasser. Aber wenn es sich bewegt, bewegt es sich mit einer Entschlossenheit, die niemand mehr aufhält.</p>
         </blockquote>
 
@@ -53831,7 +53831,8 @@ function soerenKierkegaardPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd, das im eigenen Gew\u00e4sser verharrte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei \u2013 ein Tier, das man untersch\u00e4tzt, bis man es nicht mehr untersch\u00e4tzen kann. Es wirkt tr\u00e4ge, fast in sich gekehrt. Aber es verteidigt sein Revier mit einer Kraft, die aus dem Inneren kommt \u2013 aus dem absoluten Wissen: Das hier ist notwendig, das gebe ich nicht auf. S\u00f8ren Kierkegaard verlie\u00df Kopenhagen zeitlebens kaum, blieb fast ausschlie\u00dflich in seiner eigenen Stadt, seinem eigenen Kopf, seinem eigenen inneren Gew\u00e4sser \u2013 und verteidigte von dort aus mit unerbittlicher Konsequenz das, was er f\u00fcr die Wahrheit \u00fcber die menschliche Existenz hielt.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei \u2013 ein Tier, das sein Revier mit einer Pr\u00e4zision markiert, die Biologen erst sp\u00e4t verstanden: Es verteilt seinen Kot in exakt bestimmten Bahnen, immer wieder an denselben Stellen, als m\u00fcsse jede Grenze seines Territoriums schriftlich festgehalten werden. Kein Zufall, keine Beliebigkeit \u2013 ein System, das jeder Eindringling lesen kann, wenn er nur genau genug hinsieht.</p>
+          <p class="vb-intro">S\u00f8ren Kierkegaard verlie\u00df Kopenhagen zeitlebens kaum, blieb fast ausschlie\u00dflich in seiner eigenen Stadt, seinem eigenen Kopf, seinem eigenen inneren Gew\u00e4sser \u2013 und verteidigte von dort aus mit unerbittlicher Konsequenz das, was er f\u00fcr die Wahrheit \u00fcber die menschliche Existenz hielt.</p>
           <p class="vb-intro">Geboren 1813 als j\u00fcngstes von sieben Kindern eines wohlhabenden, aber zutiefst melancholischen Wollh\u00e4ndlers, wuchs er in einem Haus auf, das von Schuld und religi\u00f6ser Angst durchdrungen war: Sein Vater gestand ihm sp\u00e4ter, in seiner Jugend Gott verflucht und vor der Ehe mit Kierkegaards Mutter ein Verh\u00e4ltnis gehabt zu haben \u2013 eine Beichte, die den jungen S\u00f8ren \u00fcberzeugte, seine Familie stehe unter einem g\u00f6ttlichen Fluch. F\u00fcnf seiner Geschwister starben, bevor er selbst erwachsen war. Das Flusspferd lernte fr\u00fch: \u00dcberleben bedeutet, genau hinzusehen, was wirklich bedrohlich ist.</p>
         </blockquote>
 
@@ -53897,7 +53898,7 @@ function gloriaVonThurnUndTaxisPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; und kaum eine Pers\u00f6nlichkeit der deutschen Nachkriegsgeschichte verk\u00f6rpert dieses Tier so vollst\u00e4ndig wie Gloria von Thurn und Taxis. Das Flusspferd lebt in zwei Welten: Im Wasser ist es schwerelos, spielerisch, erstaunlich wendig. An Land zeigt es sein wahres Gewicht. Was die meisten nicht wissen: Das Flusspferd ist das gef\u00e4hrlichste Gro\u00dfs\u00e4ugetier Afrikas. Es wirkt harmlos &ndash; bis es sein Territorium bedroht sieht. Dann handelt es ohne Z\u00f6gern, ohne Entschuldigung, mit einer Kraft, die seine tr\u00e4ge Erscheinung vollst\u00e4ndig L\u00fcgen straft.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; und kaum eine Pers\u00f6nlichkeit der deutschen Nachkriegsgeschichte verk\u00f6rpert dieses Tier so vollst\u00e4ndig wie Gloria von Thurn und Taxis. Ein neugeborenes Flusspferd wiegt bereits an die f\u00fcnfzig Kilogramm &ndash; es kommt nicht als zerbrechliches Jungtier zur Welt, sondern von der ersten Minute an mit dem vollen Gewicht seiner Art. Wer es untersch\u00e4tzt, hat nie gesehen, was in ihm steckt, seit es geboren wurde.</p>
           <p class="vb-intro">In den 1980er Jahren war Gloria von Thurn und Taxis als &bdquo;Punk-Prinzessin&ldquo; bekannt: Irokesenschnitt, Partys, Exzesse, ein Leben, das die Boulevardpresse mit Begeisterung begleitete. Als ihr Mann Johannes 1990 starb und die Familie mit Schulden in Milliardenh\u00f6he und einer un\u00fcbersichtlichen Unternehmensstruktur zur\u00fccklie\u00df, trat das Flusspferd aus dem Wasser. Was folgte, war keine Metamorphose &ndash; es war eine Enth\u00fcllung. Wer Gloria von Thurn und Taxis wirklich war, zeigte sich erst in dem Moment, als alles auf dem Spiel stand.</p>
         </blockquote>
 
@@ -54236,7 +54237,7 @@ function yayoiKusamaPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das unterschätzt wird, bis man seine wahre Kraft erlebt. Es wirkt ruhig, fast bewegungslos im Wasser, doch es verteidigt sein Territorium mit unbändiger Entschlossenheit. Und es braucht sein Wasser, sein Element, um überhaupt zu überleben &ndash; ohne es geht es zugrunde.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, dessen Haut ohne den ständigen Kontakt mit Wasser binnen Stunden aufreißen würde. Es sondert sogar eine eigene, rötliche Flüssigkeit ab, die seine Haut vor der Sonne schützt, wenn es das Wasser kurz verlassen muss. Sein Element ist keine Vorliebe. Es ist die einzige Bedingung, unter der sein Körper überhaupt bestehen kann.</p>
           <p class="vb-intro">Yayoi Kusama malt seit ihrer Kindheit Punkte &ndash; unzählige, sich endlos wiederholende Kreise, die sich über Leinwände, Kürbisse, ganze Räume und ihren eigenen Körper ausbreiten. Für sie ist das kein künstlerisches Konzept im gewöhnlichen Sinn, sondern eine Überlebensnotwendigkeit: Ohne das Malen, sagt sie selbst, hätte sie sich längst das Leben genommen. Das Flusspferd braucht sein Wasser. Kusama braucht ihre Punkte.</p>
         </blockquote>
 
@@ -55789,7 +55790,7 @@ function janUllrichPortraitPage() {
 
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; und es ist ein Tier, das in zwei Welten lebt. Im Wasser ist es schwerelos, geschmeidig, erstaunlich schnell. An Land wirkt es massig, tr\u00e4ge, fast unbeweglich. Diesen Wechsel kennt das Flusspferd seit Millionen von Jahren. Es braucht beides: die Tiefe des Wassers und die W\u00e4rme der Sonne. Entzieht man ihm eines davon, ger\u00e4t es aus dem Gleichgewicht.</p>
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das trotz seines gewaltigen Gewichts auf dem Grund eines Flusses mit einer Leichtigkeit l\u00e4uft, die man ihm von au\u00dfen nicht zutraut, fast schwerelos abst\u00f6\u00dft und gleitet, obwohl es kaum schwimmen kann im eigentlichen Sinn. Es bewegt sich am kraftvollsten dort, wo sein Gewicht ihm eigentlich im Weg sein m\u00fcsste.</p>
           <p class="vb-intro">Jan Ullrich hat dieses Tier in sich gelebt &ndash; mit allem, was dazugeh\u00f6rt. Auf dem Rad war er das reinste Naturtalent der Radsportgeschichte: Kraftentfaltung, Rhythmus, Leidensf\u00e4higkeit auf einem Niveau, das selbst seine sch\u00e4rfsten Rivalen zur Ehrerbietung zwang. Abseits des Rads suchte er das Gleichgewicht immer wieder &ndash; und fand es nicht immer. Das Flusspferd braucht sein Wasser. F\u00fcr Ullrich war das Fahrrad dieses Wasser.</p>
         </blockquote>
 
