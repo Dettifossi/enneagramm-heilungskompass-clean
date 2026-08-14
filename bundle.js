@@ -31287,6 +31287,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Samuel Hahnemann \u2013 Sozialer Typ 1",
     teaser:"SO1w9 \u00b7 1755\u20131843. Deutscher Arzt, Begr\u00fcnder der Hom\u00f6opathie. Vom Chinarinden-Selbstversuch zum weltweit praktizierten Heilsystem. Die Gans, die gegen die \u201eheroische Medizin\u201c ihrer Zeit aufbegehrte \u2013 und Millionen bis heute begleitet.",
     tags:["Medizin","Hom\u00f6opathie"], gender:"m"},
+  { route:"beruehmte-xanthippe", name:"Xanthippe", added:"2026-08-14", subtyp:"SO1w9",
+    heading:"Xanthippe – Sozialer Typ 1",
+    teaser:"SO1w9 · ca. 5. Jh. v. Chr. Frau des Sokrates, Mutter dreier Söhne. Vom antiken Zerrbild der ›Zänkerin‹ zur Neubewertung: geduldige Sorge um die Familie unter schwierigen Bedingungen, berechtigter Zorn, tiefe Trauer. Tierentsprechung: Gans.",
+    tags:["Geschichte"], gender:"f"},
   { route:"beruehmte-adam-smith", name:"Adam Smith", added:"2026-08-09", subtyp:"SO1w9",
     heading:"Adam Smith \u2013 Sozialer Typ 1",
     teaser:"SO1w9 \u00b7 1723\u20131790. Schottischer Moralphilosoph und \u00d6konom, Theorie der ethischen Gef\u00fchle, Der Wohlstand der Nationen. Die Gans, die eine gerechtere Ordnung suchte \u2013 und deren Treue zu ihrem Freund David Hume sie den eigenen guten Ruf kostete.",
@@ -45916,6 +45920,7 @@ function sokratesPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"beruehmte-xanthippe", label:"Porträt: Xanthippe (SO1w9) – seine Frau"},
         {route:"beruehmte-platon", label:"Porträt: Platon (SX6w5) – sein bedeutendster Schüler"},
         {route:"beruehmte-michelle-obama", label:"Porträt: Michelle Obama (SO8w7)"},
         {route:"beruehmte-heraklit", label:"Porträt: Heraklit (SO4w5)"},
@@ -47944,6 +47949,72 @@ function adamSmithPortraitPage() {
         {route:"subtype/so1", label:"SO1 \u2013 Die Gans: Subtyp-Profil"},
         {route:"beruehmte-friedrich-merz", label:"Portr\xe4t: Friedrich Merz (SO1w9)"},
         {route:"beruehmte-david-hume", label:"Portr\xe4t: David Hume (SE9w8) \u2013 sein enger Freund"},
+      ])}
+    </div>
+  `);
+}
+
+function xanthippePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-xanthippe-portrait.jpg" alt="Xanthippe" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Xanthippe</p>
+        <p class="krim-portrait-typ">SO1w9 · Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Frau des Sokrates, ca. 5. Jahrhundert v. Chr. – Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, aus der man einen Schimpfnamen machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – wachsam, prinzipientreu, unbestechlich in ihrem Sinn für Recht und Unrecht. Kein Name aus der Antike ist so vollständig zum Schimpfwort geworden wie der der Xanthippe: Im Deutschen bezeichnet "eine Xanthippe" bis heute eine zänkische, herrschsüchtige Ehefrau. Über die historische Xanthippe selbst ist erstaunlich wenig gesichert – fast alles, was über sie überliefert ist, stammt aus der Feder von Männern, die über die Frau des berühmtesten Philosophen ihrer Zeit schrieben, nicht von ihr selbst.</p>
+          <p class="vb-intro">Sie war Sokrates' Ehefrau, deutlich jünger als er, und gebar ihm der Überlieferung nach drei Söhne – Lamprokles, Sophroniskos und Menexenos. Die Ehe fiel in eine Zeit, in der Sokrates bereits seinen Ruf als Straßenphilosoph begründet hatte: ein Mann, der seine Tage mit unbezahlten Gesprächen auf dem Marktplatz verbrachte, während zuhause eine Familie versorgt werden musste. Genau in dieser Konstellation liegt der Kern dessen, was die Nachwelt als "Xanthippes Zorn" karikierte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Empörung über eine unfaire Ordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> sucht Gerechtigkeit nicht im Abstrakten, sondern im ganz konkreten Zusammenleben – sie besteht darauf, dass Pflichten fair verteilt und Verantwortung ernst genommen wird. Was die antiken Quellen als "Zänkischkeit" abtun, lässt sich ebenso als berechtigte Empörung einer Frau lesen, die den Haushalt und drei Kinder weitgehend allein tragen musste, während ihr Mann sein Vermögen und seine Zeit unentgeltlich der Philosophie widmete und öffentliche Ämter oder bezahlte Arbeit konsequent mied.</p>
+          <p class="vb-intro">Xenophon berichtet in seinen "Memorabilien", Sokrates habe die Beschwerden seiner Frau mit dem Vergleich abgetan, wer mit einer schwierigen Frau leben lerne, könne danach mit jedem Menschen umgehen – wie ein Reiter, der sich absichtlich ein wildes Pferd aussucht, um das Reiten wirklich zu meistern. Diese Anekdote sagt mehr über Sokrates' Rechtfertigungsbedürfnis als über Xanthippes Charakter: Wo eine soziale Eins auf gerechter Lastenteilung besteht, wird sie von der bequemeren Gegenseite gern zur launischen Störung des Friedens erklärt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Jahrzehntelange Geduld, gelegentlicher Ausbruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> mildert die Schärfe der reinen Eins zu einer Haltung, die über lange Strecken erträgt und ausgleicht – bis die aufgestaute Spannung sich in einem einzelnen, dann aber deutlich sichtbaren Ausbruch entlädt. Genau dieses Muster zeigt die berühmteste, wenn auch erst Jahrhunderte später von Diogenes Laertios überlieferte Anekdote: Nachdem Xanthippe Sokrates lautstark zur Rede gestellt haben soll, habe sie ihm einen Eimer Wasser über den Kopf geschüttet. Sokrates habe daraufhin trocken bemerkt: "Nach solchem Donner musste ja Regen folgen."</p>
+          <p class="vb-intro">Diese Geschichte wird traditionell als Beleg für Xanthippes angebliche Unbeherrschtheit erzählt – sie lässt sich aber ebenso als Bild jahrelanger, still ertragener Belastung lesen, die sich irgendwann Bahn brechen musste. Die SO1w9 hält lange an Ordnung und Pflichterfüllung fest, bevor sie explodiert; der Ausbruch selbst ist dann kein Charakterfehler, sondern das Ventil einer Geduld, die an ihre Grenze gestoßen ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn als Reaktion auf reale Not</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> – bei der SO1w9 meist unterdrückt, geduldig zurückgehalten, bis er sich in einzelnen Momenten Bahn bricht. Die materielle Lage der Familie war der Überlieferung nach angespannt: Sokrates besaß offenbar kein nennenswertes Vermögen und nahm für seine Lehrtätigkeit anders als die Sophisten seiner Zeit grundsätzlich kein Geld. Wer unter diesen Umständen drei Kinder großzog, hatte guten Grund für Sorge und Verärgerung, keine bloße "schlechte Laune".</p>
+          <p class="vb-intro">Die Verzerrung ihres Bildes begann schon zu Lebzeiten: In der Komödie "Die Wolken" des Aristophanes und in zahlreichen späteren anekdotischen Überlieferungen wird Xanthippe zur reinen Randfigur, deren einzige Funktion darin besteht, die Gelassenheit des Philosophen durch Kontrast zu erhöhen. Ein Mann, der die athenische Gesellschaft mit unbequemen Fragen provozierte, wurde zum Helden stilisiert – die Frau, die die praktischen Folgen dieser Unbequemlichkeit täglich trug, zur Karikatur.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Tod des Sokrates: Trauer statt Karikatur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ausgerechnet die Quelle, die Xanthippe am differenziertesten zeigt, ist Platons Dialog "Phaidon", der Sokrates' letzten Tag im Gefängnis schildert. Xanthippe ist dort anwesend, hält das jüngste der drei Kinder im Arm und bricht beim Anblick des zum Tode verurteilten Ehemanns in lautes Klagen aus. Sokrates bittet Kriton, sie nach Hause bringen zu lassen, damit das philosophische Gespräch mit seinen Schülern ungestört fortgesetzt werden kann.</p>
+          <p class="vb-intro">Diese kurze Szene widerspricht dem Zerrbild der gefühllosen Zänkerin fundamental: Hier zeigt sich eine Frau, die um ihren Mann tief trauert, deren Schmerz so unmittelbar und ungefiltert ist, dass er selbst in einem philosophischen Text, der eigentlich die stoische Gelassenheit des Sokrates feiern will, seinen Platz findet. Die soziale Eins mit Neunerflügel hält lange die Ordnung aufrecht – aber wenn der Verlust real wird, bricht die zurückgehaltene Emotion ungeschminkt hervor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Vom Schimpfnamen zur Neubewertung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Über Xanthippes weiteres Leben nach Sokrates' Hinrichtung 399 v. Chr. ist nichts überliefert. Was blieb, war ausschließlich das Bild, das männliche Autoren von ihr zeichneten – ein Bild, das über Jahrhunderte zum Sprichwort für die "zänkische Ehefrau" gerinnen sollte, während der Mann, dessen Lebensentwurf ihre Existenz erheblich erschwerte, als Märtyrer der Wahrheit verehrt wurde.</p>
+          <p class="vb-intro">Feministische Forschung hat dieses Bild in den vergangenen Jahrzehnten zu Recht infrage gestellt: Was als Zänkischkeit überliefert wurde, lässt sich ebenso als das lesen, was es aus der Perspektive einer sozialen Eins mit Neunerflügel tatsächlich war – die geduldige, jahrzehntelange Sorge um eine Familie unter schwierigen Bedingungen, unterbrochen von berechtigten Ausbrüchen des Zorns, und am Ende eine Trauer, die tiefer war, als die antiken Quellen ihr zugestehen wollten. Die Gans, die ein Schimpfwort wurde, wartet bis heute auf ihre gerechtere Geschichte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-sokrates", label:"Porträt: Sokrates (SO8w7) – ihr Ehemann"},
+        {route:"beruehmte-platon", label:"Porträt: Platon (SX6w5)"},
+        {route:"beruehmte-adam-smith", label:"Porträt: Adam Smith (SO1w9)"},
       ])}
     </div>
   `);
@@ -84395,6 +84466,7 @@ function render() {
     "beruehmte-david-hume": davidHumePortraitPage,
     "beruehmte-spinoza": spinozaPortraitPage,
     "beruehmte-adam-smith": adamSmithPortraitPage,
+    "beruehmte-xanthippe": xanthippePortraitPage,
     "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
           "beruehmte-abida-parveen": abidaParveenPortraitPage,
           "beruehmte-kevin-costner": kevinCostnerPortraitPage,

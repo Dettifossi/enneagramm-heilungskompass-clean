@@ -218,6 +218,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Samuel Hahnemann – Social Type 1",
     teaser:"SO1w9 · 1755–1843. German physician, founder of homeopathy. From the cinchona bark self-experiment to a globally practiced healing system. The goose that rebelled against the \u201cheroic medicine\u201d of its time – and still accompanies millions today.",
     added:"2026-08-09", tags:["Medizin","Homöopathie"] },
+  { route:"beruehmte-xanthippe", name:"Xanthippe", added:"2026-08-14", subtyp:"SO1w9",
+    heading:"Xanthippe – Social Type 1",
+    teaser:"SO1w9 · c. 5th century BC. Wife of Socrates, mother of three sons. From the ancient caricature of the 'shrew' to a reappraisal: patient care for the family under difficult conditions, justified anger, deep grief. Animal correspondence: Goose.",
+    tags:["History"], gender:"f"},
   { route:"beruehmte-adam-smith", name:"Adam Smith", subtyp:"SO1w9",
     heading:"Adam Smith – Social Type 1",
     teaser:"SO1w9 · 1723–1790. Scottish moral philosopher and economist, Theory of Moral Sentiments, Wealth of Nations. The goose that sought a juster order – and whose loyalty to his friend David Hume cost him his own good name.",
@@ -17241,6 +17245,7 @@ function sokratesPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
+        {route:"beruehmte-xanthippe", label:"Portrait: Xanthippe (SO1w9) – his wife"},
         {route:"beruehmte-platon", label:"Portrait: Plato (SX6w5) – his most important student"},
         {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
         {route:"beruehmte-heraklit", label:"Portrait: Heraclitus (SO4w5)"},
@@ -25953,6 +25958,72 @@ function adamSmithPortraitPage() {
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
         {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8) – his close friend"},
+      ])}
+    </div>
+  `);
+}
+
+function xanthippePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-xanthippe-portrait.jpg" alt="Xanthippe" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Xanthippe</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Wife of Socrates, c. 5th century BC &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose Turned Into a Term of Abuse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> is the animal of Social Type 1 &ndash; watchful, principled, incorruptible in its sense of right and wrong. Few names from antiquity have become as thoroughly an insult as Xanthippe's: in German, "eine Xanthippe" still means a nagging, domineering wife to this day. Astonishingly little about the historical Xanthippe herself is actually established &ndash; almost everything handed down about her comes from the pens of men writing about the wife of the most famous philosopher of their time, not from her.</p>
+          <p class="vb-intro">She was the wife of Socrates, considerably younger than him, and according to tradition bore him three sons &ndash; Lamprocles, Sophroniscus, and Menexenus. The marriage fell in a period when Socrates had already established his reputation as a street philosopher: a man who spent his days in unpaid conversation in the marketplace while a family had to be provided for at home. It is exactly this constellation that lies at the root of what posterity caricatured as "Xanthippe's temper."</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social One: Indignation at an Unfair Arrangement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Social One (SO1)</strong> seeks justice not in the abstract but in very concrete shared life &ndash; it insists that duties be fairly distributed and responsibility taken seriously. What the ancient sources dismiss as "shrewishness" can equally be read as the justified indignation of a woman who had to carry the household and three children largely alone, while her husband devoted his fortune and his time to philosophy without payment and consistently avoided public office or paid work.</p>
+          <p class="vb-intro">Xenophon reports in his "Memorabilia" that Socrates dismissed his wife's complaints with a comparison: whoever learns to live with a difficult woman can afterward handle any person &ndash; like a rider who deliberately chooses a wild horse in order to truly master horsemanship. This anecdote says more about Socrates's need to justify himself than about Xanthippe's character: where a Social One insists on a fair distribution of burdens, the more comfortable party is often quick to declare her a moody disruption of the peace.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Decades of Patience, the Occasional Outburst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> softens the sharpness of the pure One into an attitude that endures and accommodates over long stretches &ndash; until the accumulated tension discharges in a single, but then clearly visible, outburst. Exactly this pattern shows in the most famous anecdote about her, handed down only centuries later by Diogenes Laertius: after Xanthippe had loudly confronted Socrates, she is said to have poured a bucket of water over his head. Socrates reportedly remarked dryly: "After such thunder, rain had to follow."</p>
+          <p class="vb-intro">This story is traditionally told as evidence of Xanthippe's supposed lack of self-control &ndash; but it can just as easily be read as an image of years of quietly endured strain that eventually had to break through. Social One with the Nine-wing holds on to order and duty for a long time before it erupts; the outburst itself is then not a character flaw but the release valve of a patience that has reached its limit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Anger as a Response to Real Hardship</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the One is called <strong>anger</strong> &ndash; in SO1w9 mostly suppressed, patiently held back, until it breaks through in isolated moments. The family's material situation was, according to tradition, strained: Socrates apparently possessed no notable fortune and, unlike the sophists of his time, fundamentally refused payment for his teaching. Whoever raised three children under these circumstances had good reason for worry and frustration &ndash; not merely a "bad mood."</p>
+          <p class="vb-intro">The distortion of her image began already in her lifetime: in Aristophanes's comedy "The Clouds" and in numerous later anecdotal accounts, Xanthippe becomes a mere supporting figure whose sole function is to heighten the philosopher's composure by contrast. A man who provoked Athenian society with uncomfortable questions was stylized into a hero &ndash; the woman who bore the practical consequences of that discomfort every day was reduced to a caricature.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Death of Socrates: Grief, Not Caricature</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Of all sources, it is precisely the one that shows Xanthippe most fully that presents the most nuanced picture: Plato's dialogue "Phaedo," which describes Socrates's last day in prison. Xanthippe is present there, holding the youngest of the three children, and breaks into loud lamentation at the sight of her husband condemned to death. Socrates asks Crito to have her taken home so that the philosophical conversation with his students can continue undisturbed.</p>
+          <p class="vb-intro">This brief scene fundamentally contradicts the caricature of the unfeeling shrew: here a woman is shown who grieves deeply for her husband, whose pain is so immediate and unfiltered that it finds a place even in a philosophical text meant to celebrate Socrates's Stoic composure. Social One with the Nine-wing upholds order for a long time &ndash; but when the loss becomes real, the held-back emotion breaks through unvarnished.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: From Term of Abuse to Reappraisal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nothing is known about Xanthippe's further life after Socrates's execution in 399 BC. What remained was solely the image male authors drew of her &ndash; an image that would harden over centuries into a byword for the "nagging wife," while the man whose life's design considerably burdened her existence was revered as a martyr for truth.</p>
+          <p class="vb-intro">Feminist scholarship has rightly challenged this image in recent decades: what was handed down as shrewishness can equally be read as what it likely actually was, from the perspective of a Social One with the Nine-wing &ndash; the patient, decades-long care for a family under difficult conditions, punctuated by justified outbursts of anger, and in the end a grief deeper than the ancient sources were willing to grant her. The goose who became a term of abuse still awaits her fairer telling.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"beruehmte-sokrates", label:"Portrait: Socrates (SO8w7) – her husband"},
+        {route:"beruehmte-platon", label:"Portrait: Plato (SX6w5)"},
+        {route:"beruehmte-adam-smith", label:"Portrait: Adam Smith (SO1w9)"},
       ])}
     </div>
   `);
@@ -50196,6 +50267,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-eli-jaxon-bear": eliJaxonBearPortraitPage,
       "beruehmte-david-hume": davidHumePortraitPage,
       "beruehmte-adam-smith": adamSmithPortraitPage,
+      "beruehmte-xanthippe": xanthippePortraitPage,
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
       "beruehmte-abida-parveen": abidaParveenPortraitPage,
       "beruehmte-steffi-graf": steffiGrafPortraitPage,
