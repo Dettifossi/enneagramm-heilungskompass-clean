@@ -518,6 +518,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Woody Allen – Self-Preservation Type 6",
     teaser:"SP6w7 · born 1935. Director, screenwriter, comedian. Annie Hall, Manhattan, nearly fifty films. The rabbit that turned its own fear into an entire body of work.",
     tags:["Film"] },
+  { route:"beruehmte-immanuel-kant", name:"Immanuel Kant", added:"2026-08-14", subtyp:"SO6w5",
+    heading:"Immanuel Kant – Social Type 6",
+    teaser:"SO6w5 · 1724–1804. German philosopher, categorical imperative, Critique of Pure Reason. The meerkat with the Five-wing: duty as external law, a watertight system as answer to Hume's skepticism. Animal correspondence: Meerkat.",
+    tags:["History","Philosophy"], gender:"m"},
   { route:"beruehmte-sigmund-freud", name:"Dr. Sigmund Freud", subtyp:"SO6w5",
     heading:"Sigmund Freud – Social Type 6",
     teaser:"SO6w5 · 1856–1939. Physician, neurophysiologist, founder of psychoanalysis. The meerkat that stands watch – over what lurks in the darkness.",
@@ -16585,6 +16589,7 @@ function friedrichNietzschePortraitPage() {
         {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
         {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
         {route:"beruehmte-greta-garbo", label:"Portrait: Greta Garbo (SX5w4)"},
+        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5) – whose duty-based ethics he sharply criticized"},
       ])}
     </div>
   `);
@@ -25892,6 +25897,7 @@ function davidHumePortraitPage() {
         {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
         {route:"beruehmte-adam-smith", label:"Portrait: Adam Smith (SO1w9) – his close friend"},
+        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5) – whom he roused from ‘dogmatic slumber’"},
         {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
       ])}
     </div>
@@ -26960,6 +26966,74 @@ function sigmundFreudPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
         {route:"beruehmte-andy-reid", label:"Portrait: Andy Reid (SO6w5)"},
+        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function immanuelKantPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-immanuel-kant-portrait.jpg" alt="Immanuel Kant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Immanuel Kant</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">German philosopher, 1724&ndash;1804 &ndash; Animal correspondence: Meerkat</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Meerkat Who Never Left Its Town</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>meerkat</strong> is the animal of Social Six &ndash; a highly social creature that lives in strictly organized colonies and secures its safety through vigilance and reliable routine. Immanuel Kant was born in 1724 in Königsberg and, in 80 years of life, practically never left the city and its immediate surroundings &ndash; not once did he travel more than about 150 kilometers from his birthplace. He found security not in departure, but in a fixed, familiar framework.</p>
+          <p class="vb-intro">According to tradition, his daily schedule was so unvaryingly timed that the residents of Königsberg supposedly set their clocks by his afternoon walk &ndash; an anecdote whose exact historical accuracy is disputed, but one that aptly describes how thoroughly Kant secured his life through fixed, recurring structures. The meerkat posts its sentries at the same spots, at the same time, every day &ndash; reliability is its protection against an unpredictable world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Six: Duty as Categorical Law</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called <strong>Social Six (SO6)</strong> <em>Duty</em>: security arises through submission to an order greater than oneself, through strict rule-following that admits no exceptions. Kant's entire moral philosophy is the purest embodiment of this pattern: the categorical imperative &ndash; "Act only according to that maxim whereby you can at the same time will that it should become a universal law" &ndash; is no personal standard of self-perfection, but a universal law, wholly independent of one's own inclination, to which one submits out of duty, regardless of what one feels in doing so.</p>
+          <p class="vb-intro">The crucial difference from the inner critic of the One, who judges from a self-generated standard of correctness, lies here: Kant's moral law is not an inner, personal voice but an external, unconditionally valid authority &ndash; reason as lawgiver, to which the individual submits, just as the meerkat submits to the order of its colony. Duty, not self-improvement, is the core.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: The Architectonic System of Reason</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives Social Six the ability to build vigilance into a complete, self-contained system of thought. Kant's three great critiques &ndash; the "Critique of Pure Reason" (1781), the "Critique of Practical Reason" (1788), and the "Critique of Judgment" (1790) &ndash; together form one of the most architectonically rigorous philosophical edifices in the history of thought: a system of categories, faculties, and limits of cognition in which every building block has its exactly defined place.</p>
+          <p class="vb-intro">This systematicity was no end in itself for Kant but a response to a concrete threat: he wanted to establish, once and for all, the limits of what human reason can reliably know &ndash; a map meant to prevent one from getting lost in the fog of metaphysical speculation. Here the Five-wing turns the vigilance of the Six into a bulwark of concepts: wherever danger lurks, it is categorized, defined, contained.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Hume and the Shock of the Dogmatic Slumber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the "Prolegomena to Any Future Metaphysics" (1783), Kant wrote the famous line that David Hume's (SE9w8) critique of causality had roused him "from dogmatic slumber." Hume's skepticism questioned whether cause and effect could be reliably known at all &ndash; a shock that was existentially threatening for Kant: without reliable foundations of knowledge, all of science threatened to sink into uncertainty.</p>
+          <p class="vb-intro">This reaction is exactly SO6w5: not retreat in the face of the threat, but the twenty-year, methodical construction of a system meant to restore the security Hume had shaken. The "Critique of Pure Reason" is at its core a response to a fear &ndash; the fear that there might ultimately be no firm ground for human knowledge &ndash; and the attempt to re-erect that ground with the utmost conceptual precision.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Typing Debate: One or Six?</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Enneagram literature, Kant is occasionally classified as Social One with a Nine-wing (SO1w9) &ndash; understandable, given his proverbial pedantry, his strict concept of duty, and his almost ascetic way of life. On closer analysis, however, this classification does not hold up: the One judges from a self-generated inner standard of correctness &ndash; her moral compass is internalized, her passion is anger at imperfection, her core question is "Is this right?"</p>
+          <p class="vb-intro">Kant's categorical imperative, however, functions fundamentally differently: it is an externally imposed, unconditional law to which one submits out of duty, independent of personal inclination or one's own judgment in the individual case &ndash; closer to the Six's question, "Which authority can I trust to act safely?" than to the One's question, "Am I acting rightly myself?" His way of life also speaks for the Six: the daily, almost ritual dependence on a fixed circle of friends at lunch &ndash; Kant never ate alone and insisted on lively, hours-long table company &ndash; his lifelong attachment to the same city, the same routines, the same familiar faces. That is not the autonomy of the One, but the collective anchoring of Social Six, which seeks security in community and reliable structure, not in individual self-perfection.</p>
+          <p class="vb-intro">Add to this the Five-wing: Kant's retreat into a highly abstract, self-contained conceptual system, his distance in personal contact outside his close circle of friends, his lifelong, obsessive refining of a single theoretical edifice &ndash; these are Five traits, not Nine equanimity. Taken together, the picture that emerges is that of a Social Six with a Five-wing: a thinker whose entire work is the attempt to gain, through a watertight system, the security the world otherwise did not guarantee him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Legacy: The Königsberger Modernity Wrestled With</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kant died in 1804 in Königsberg, having never permanently left the city. His work, however, traveled far beyond the limits of his own life: Friedrich Nietzsche (SX5w4), born nearly a century later, attacked Kant's duty-based ethics sharply &ndash; he once mockingly called him the "Chinaman" of Königsberg and accused the categorical imperative of sacrificing life to an abstract law instead of affirming it. This confrontation, though never personal, became one of the most formative philosophical clashes of modernity &ndash; the meerkat of duty against the lone fighter for the affirmation of life.</p>
+          <p class="vb-intro">The meerkat with the Five-wing thus left behind no comfortable system, but one that generations of philosophers had to wrestle with &ndash; agreeing, criticizing, developing it further. That is precisely where the most mature fruit of SO6w5 lies: an order so thoroughly thought through that even its sharpest opponents had to measure themselves against it to find their own position.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
+        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8) – whose skepticism roused him from ‘dogmatic slumber’"},
+        {route:"beruehmte-friedrich-nietzsche", label:"Portrait: Friedrich Nietzsche (SX5w4) – the sharpest critic of his duty-based ethics"},
+        {route:"beruehmte-sigmund-freud", label:"Portrait: Sigmund Freud (SO6w5)"},
       ])}
     </div>
   `);
@@ -50282,6 +50356,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-james-corden": jamesCordenPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
+      "beruehmte-immanuel-kant": immanuelKantPortraitPage,
       "beruehmte-andy-reid": andyReidPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
       "beruehmte-woody-allen": woodyAllenPortraitPage,
