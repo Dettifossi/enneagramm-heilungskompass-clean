@@ -31264,6 +31264,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Aristoteles \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 384\u2013322 v. Chr. Philosoph, Begr\u00fcnder der Logik, Lehrer Alexanders des Gro\u00dfen. Die goldene Mitte als Lebensprinzip \u2013 kein Kampf gegen die Welt, sondern das ruhige, jahrzehntelange Ordnen allen Wissens in ein einziges System. Tierentsprechung: Adler.",
     tags:["Philosophie","Geschichte"] , gender:"m"},
+  { route:"beruehmte-pierce-brosnan", name:"Pierce Brosnan", added:"2026-08-14", subtyp:"SE1w2",
+    heading:"Pierce Brosnan – Selbsterhaltender Typ 1",
+    teaser:"SE1w2 · geb. 1953 in Navan, Irland. Schauspieler und Produzent, James Bond 1995–2002. Disziplin als Handwerk, persönlicher Verlust als Antrieb für Engagement gegen Eierstockkrebs und für Umweltschutz. Tierentsprechung: Adler.",
+    tags:["Schauspiel"] , gender:"m"},
   { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
     heading:"Christoph Waltz \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w2 \u00b7 \u201eDer Adler\u201c, geb. 1956. Zweifacher Oscar-Preistr\u00e4ger f\u00fcr Inglourious Basterds und Django Unchained. F\u00fcnfzig Jahre Handwerk, ein Leben lang innere Pr\u00e4zision \u2013 dann der Moment, auf den der Adler gewartet hatte. Tierentsprechung: Adler.",
@@ -42869,6 +42873,7 @@ function robertDeNiroPortraitPage() {
         {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
         {route:"beruehmte-sting", label:"Porträt: Sting (SE1w9)"},
         {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-pierce-brosnan", label:"Porträt: Pierce Brosnan (SE1w2)"},
       ])}
     </div>
   `);
@@ -42927,7 +42932,73 @@ function christophWaltzPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se1", label:"SE1 \u2013 Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-pierce-brosnan", label:"Portr\u00e4t: Pierce Brosnan (SE1w2)"},
         {route:"kriminalpsychologie", label:"Kriminalpsychologie \u2013 Portr\u00e4ts"},
+      ])}
+    </div>
+  `);
+}
+
+function pierceBrosnanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-pierce-brosnan-portrait.jpg" alt="Adler" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Pierce Brosnan</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler &amp; Produzent, geb. 1953 in Navan, Irland &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; er kreist hoch, beobachtet genau, und wenn er handelt, dann mit einer Präzision, die keine Nachbesserung braucht. Kein Tier des Lärms, sondern der stillen, konzentrierten Beherrschung des eigenen Terrains.</p>
+          <p class="vb-intro">Pierce Brosnan verkörperte zwischen 1995 und 2002 in vier Filmen James Bond &ndash; eine Rolle, die vor allem Disziplin und Kontrolle verlangt: den perfekt sitzenden Anzug, die makellose Haltung, keine überflüssige Geste. Was viele als bloße Eleganz lasen, war bei Brosnan echte Arbeit: Er bereitete sich auf jede Actionszene selbst akribisch vor und bestand darauf, seine Stunts so weit wie möglich selbst zu übernehmen. Der Adler zeigt keine Anstrengung. Aber er hat sie geleistet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Der Anspruch an sich selbst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionismus nicht auf die Korrektur der Welt, sondern nach innen: auf die eigene Vorbereitung, das eigene Handwerk, die eigene Zuverlässigkeit. Naranjo nannte diesen Subtyp <em>Worry</em> &ndash; Besorgnis. Die SE1 fragt sich beständig: Habe ich mein Bestes gegeben? Bin ich der Aufgabe gerecht geworden?</p>
+          <p class="vb-intro">Brosnans Weg zur Schauspielerei begann als Ausbildung zum Grafikdesigner in London &ndash; Handwerk, bevor es Kunst wurde. Bevor er 1995 endlich Bond spielen durfte, hatte er die Rolle bereits einmal 1986 verloren, weil sein damaliger Serienvertrag für <em>Remington Steele</em> ihn vertraglich band. Statt zu resignieren, arbeitete er weiter, unauffällig und diszipliniert, bis die Gelegenheit ein zweites Mal kam. Die SE1 gibt nicht auf, wenn der erste Versuch scheitert &ndash; sie bereitet sich für den nächsten vor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge hinter der Fassade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> öffnet die strenge Einser-Energie nach außen: Er gibt Wärme, echtes Interesse an anderen, den Wunsch, sich für Menschen einzusetzen, denen es schlechter geht. Die reine Eins könnte kühl und distanziert wirken. Der Zweierflügel macht daraus einen Menschen, der gibt.</p>
+          <p class="vb-intro">1991 starb Brosnans erste Ehefrau Cassandra Harris an Eierstockkrebs. Statt sich zurückzuziehen, wurde Brosnan zu einem der sichtbarsten öffentlichen Fürsprecher für Aufklärung und Forschung zu dieser Krankheit &ndash; ein Engagement, das noch bitterer wurde, als 2013 auch seine Stieftochter Charlotte, Cassandras Tochter, derselben Krankheit erlag. Auch als Umweltaktivist setzt er sich seit Jahrzehnten ein, unter anderem als Fürsprecher der Vereinten Nationen für Umweltfragen. Der Zweierflügel wandelt persönlichen Verlust in beharrliches Engagement für andere um &ndash; nicht aus Pflichtgefühl, sondern aus echter Anteilnahme.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Fernsehdetektiv zum Doppelnull-Agenten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brosnan machte sich zunächst als eleganter Titelheld der Serie <em>Remington Steele</em> (1982&ndash;1987) einen Namen, bevor <em>GoldenEye</em> (1995) ihn endgültig zum internationalen Filmstar machte. Mit seiner eigenen Produktionsfirma Irish DreamTime produzierte er zudem Filme wie das Remake von <em>Thomas Crown ist nicht zu fassen</em> &ndash; ein Zeichen dafür, dass ihm die Kontrolle über die eigene Arbeit ebenso wichtig war wie das Spielen selbst.</p>
+          <p class="vb-intro">Nach seiner Bond-Zeit bewies er mit Rollen in <em>Mamma Mia!</em> und ernsteren Charakterstudien wie <em>The Ghostwriter</em>, dass sein Handwerk über die Frackjacke des Agenten hinausreicht. Die SE1w2 erträgt keine Stagnation im eigenen Können &ndash; sie sucht immer wieder den nächsten Beweis, dass die eigenen Maßstäbe noch gelten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w2 ist eine seltene Verbindung aus Disziplin und Wärme: ein Mensch, der hohe Ansprüche an sich selbst stellt und diese Energie zugleich nutzt, um sich für andere einzusetzen. Brosnans jahrzehntelanges Engagement gegen Eierstockkrebs, getragen von eigenem Verlust, zeigt genau diese reife Form der Eins.</p>
+          <p class="vb-intro">Der Schatten der SE1 ist die innere Strenge, die sich selbst nie ganz genügt. Das Schicksalsmuster der Eins ist der <strong>Zorn</strong>, der sich bei der SE1 meist nach innen richtet &ndash; als beständige Sorge, nicht gut genug vorbereitet zu sein. Brosnan selbst hat offen über Jahre des Alkoholmissbrauchs in jüngeren Jahren gesprochen, aus denen er sich mit derselben Disziplin befreite, mit der er später an seinen Rollen arbeitete. Der Adler kann sich selbst am härtesten verurteilen &ndash; und braucht ebenso viel Kraft, um sich selbst zu vergeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Anspruch zur Hingabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit &ndash; von der Frage <em>Habe ich es richtig gemacht?</em> zur Erkenntnis <em>Ich habe gegeben, was ich hatte, und das war genug.</em> Für die SE1w2 zeigt sich dieser Weg besonders deutlich, wenn die eigene Disziplin nicht mehr der Selbstbeweis ist, sondern zum Werkzeug für andere wird.</p>
+          <p class="vb-intro">Brosnans Wandlung von persönlichem Verlust zu öffentlichem Engagement für Krebsforschung und Umweltschutz liest sich als genau dieser Weg: die Strenge gegen sich selbst wird zur Sorge für die Welt. Der Adler, der nicht mehr nur sein eigenes Revier verteidigt, sondern seinen Blick auf das richtet, was größer ist als er selbst.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
       ])}
     </div>
   `);
@@ -85310,6 +85381,7 @@ function render() {
       "astrologie-angela-merkel": astrologieAngelaMerkelPage,
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
+      "beruehmte-pierce-brosnan": pierceBrosnanPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-dan-brown": danBrownPortraitPage,
