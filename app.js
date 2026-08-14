@@ -31252,6 +31252,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sting \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 \u201eDer Adler\u201d, geb. 1951. S\u00e4nger, Bassist, Komponist. The Police und eine beispiellose Solokarriere \u2013 von Jazz bis Laute, von Shakespeare bis Rainforest Foundation. Handwerk als Gewissen, Stille als zweite Natur. Tierentsprechung: Adler.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-astrid-lindgren", name:"Astrid Lindgren", added:"2026-08-14", subtyp:"SE1w9",
+    heading:"Astrid Lindgren – Selbsterhaltender Typ 1",
+    teaser:"SE1w9 · 1907–2002. Schwedische Schriftstellerin, Pippi Langstrumpf, Karlsson vom Dach, Die Brüder Löwenherz. Disziplin als tägliches Ritual, stiller Tierschutz-Kampf im hohen Alter (›Lex Lindgren‹). Tierentsprechung: Adler.",
+    tags:["Literatur"] , gender:"f"},
   { route:"beruehmte-ken-follett", name:"Ken Follett", added:"2026-07-28", subtyp:"SE1w9",
     heading:"Ken Follett \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 geb. 1949. Bestseller-Autor historischer Romane, u. a. \u00fcber eine mittelalterliche Kathedrale und die Weltkriege des 20. Jahrhunderts. \u00dcber sechzig Jahre schriftstellerische Konstanz, akribische Recherche und ein ruhiger, unersch\u00fctterlicher Arbeitsrhythmus. Tierentsprechung: Adler.",
@@ -43149,6 +43153,82 @@ function magnusCarlsenPortraitPage() {
   `);
 }
 
+function astridLindgrenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-astrid-lindgren-portrait.jpg" alt="Adler" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Astrid Lindgren</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schriftstellerin, 1907&ndash;2002 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; er kreist hoch über dem Geschehen, sieht mit ungewöhnlicher Klarheit, was unten geschieht, und greift nur ein, wenn es wirklich zählt. Kein Tier der lauten Geste, sondern der stillen, unbestechlichen Genauigkeit. Und wenn er seine Flügel ausbreitet, trägt er weiter als fast jedes andere Tier.</p>
+          <p class="vb-intro">Astrid Lindgren, geboren 1907 auf dem Bauernhof Näs bei Vimmerby in der schwedischen Provinz Småland, wurde zur meistgelesenen schwedischen Autorin aller Zeiten &ndash; über 165 Millionen verkaufte Bücher, übersetzt in mehr als 100 Sprachen. Und doch blieb sie zeitlebens erstaunlich zurückhaltend, fast unsichtbar hinter ihrem eigenen Werk. Der Adler muss nicht ständig kreisen, um gesehen zu werden. Er muss nur einmal richtig fliegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Disziplin als tägliches Ritual</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionismus nicht auf die Korrektur der Welt, sondern nach innen: auf die eigene Arbeitsdisziplin, die eigene Genauigkeit, die unbestechliche Verlässlichkeit gegenüber sich selbst. Naranjo nannte diesen Subtyp <em>Worry</em> &ndash; Besorgnis. Die SE1 fragt sich unablässig: Habe ich es wirklich richtig gemacht? Genügt das meinem eigenen Anspruch?</p>
+          <p class="vb-intro">Bei Lindgren zeigte sich das in einer fast klösterlichen Arbeitsroutine, die sie über Jahrzehnte beibehielt: Sie schrieb ihre ersten Fassungen im Bett, in Stenografie, jeden Morgen vor dem eigentlichen Arbeitstag &ndash; erst danach tippte sie den Text auf der Schreibmaschine ins Reine. Parallel dazu arbeitete sie fast vierzig Jahre lang als Cheflektorin für Kinderbücher beim Verlag Rabén &amp; Sjögren, wo sie mit derselben Genauigkeit die Manuskripte anderer prüfte, wie sie ihre eigenen Texte prüfte. Zwei parallele Karrieren, geführt mit derselben unerbittlichen Sorgfalt &ndash; nicht aus Ehrgeiz, sondern aus dem inneren Anspruch, es richtig zu machen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Zurückhaltung trotz Weltruhm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> fügt der SE1er-Energie eine Qualität hinzu, die im Rampenlicht selten überlebt: die Fähigkeit, sich zurückzunehmen, zu verschmelzen, nicht die eigene Person, sondern die Sache in den Mittelpunkt zu stellen. Während die reine Eins ihre Position verteidigt, sucht der Neunerflügel eher die stille Wirkung als den lauten Auftritt.</p>
+          <p class="vb-intro">Trotz ihres immensen weltweiten Ruhms blieb Lindgren zeitlebens auffällig bescheiden. Sie gab nur selten ausführliche Interviews über ihr Privatleben, mied die große Bühne der eigenen Berühmtheit und blieb bis ins hohe Alter in ihrer Stockholmer Wohnung in der Dalagatan wohnen, unprätentiös und erreichbar für Nachbarschaftskinder, die dort tatsächlich klingelten, um &bdquo;die echte Pippi-Autorin&ldquo; zu treffen. Der Neunerflügel zeigt sich auch in ihrer Verlagsarbeit: Sie entdeckte und förderte über Jahrzehnte zahlreiche andere schwedische Kinderbuchautoren, ohne selbst im Vordergrund zu stehen &ndash; eine stille, geduldige Form von Einfluss, die sich nicht an der eigenen Sichtbarkeit misst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Ein Jahrhundert Kindheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1941 erfand Lindgren, während sie am Bett ihrer erkrankten Tochter Karin saß, auf deren Bitte hin die Figur der <em>Pippi Langstrumpf</em> &ndash; ein Mädchen, das allein in einer Villa lebt, übermenschlich stark ist und sich um keine Erwachsenenregel schert. 1945 veröffentlicht, wurde die Figur zur literarischen Revolution: Erstmals stand ein Kind im Mittelpunkt, das keine Autorität über sich duldete, sondern souverän, gütig und völlig unabhängig sein eigenes Leben gestaltete. Manche zeitgenössische Pädagogen waren entsetzt. Millionen Kinder waren begeistert.</p>
+          <p class="vb-intro">Es folgte ein Lebenswerk von seltener Breite: <em>Karlsson vom Dach</em> (1955), <em>Michel aus Lönneberga</em> (1963), die zärtlich-melancholischen <em>Brüder Löwenherz</em> (1973), die noch heute als eines der bedeutendsten Kinderbücher über Tod und Mut gelten, und <em>Ronja Räubertochter</em> (1981), das eine ganze Generation skandinavischer Mädchen prägte. Fast alle ihre Bücher verbinden dieselbe seltene Kombination: unbedingten Respekt vor der kindlichen Autonomie und eine klare, fast strenge moralische Ordnung im Hintergrund &ndash; die SE1 und ihre kindliche Freiheit liebende Gegenspielerin in einer einzigen Autorin vereint.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die frühe Wunde: Der Sohn, den sie fortgeben musste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1926, mit achtzehn Jahren, wurde die unverheiratete Astrid schwanger &ndash; in der schwedischen Provinz jener Zeit ein gesellschaftlicher Skandal, der ihre Zukunft am Ort zunichtemachen konnte. Sie ging nach Kopenhagen, brachte ihren Sohn Lasse dort heimlich zur Welt und musste ihn, da sie ihn allein nicht ernähren konnte, für Jahre bei einer dänischen Pflegefamilie zurücklassen &ndash; ein Abschied, den sie später als den schmerzhaftesten Moment ihres Lebens beschrieb. Erst 1930, nachdem sie sich in Stockholm eine eigene Existenz aufgebaut hatte, konnte sie ihn zu sich holen.</p>
+          <p class="vb-intro">Dieses früh erlittene Trauma spricht sie in ihren Werken nie direkt aus &ndash; typisch für die zurückgezogene SE1w9, die private Schmerzen selten öffentlich verhandelt. Doch das durchgängige Motiv des allein zurechtkommenden, mutigen Kindes in ihrem gesamten Werk, von Pippi bis zu den Brüdern Löwenherz, lässt sich kaum lösen von dieser eigenen frühen Erfahrung von Trennung und dem verzweifelten Bedürfnis, dass ein Kind auch ohne schützende Erwachsene bestehen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der aufrechte Zorn: Pomperipossa und die Lex Lindgren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1976 veröffentlichte die eigentlich politisch zurückhaltende Lindgren die satirische Erzählung <em>Pomperipossa in Monismanien</em>, in der sie öffentlich machte, dass sie als Kleinunternehmerin durch eine absurde Steuerregelung über 100 Prozent ihres Einkommens versteuern musste &ndash; mehr, als sie überhaupt verdiente. Die Geschichte löste eine landesweite Debatte aus und gilt bis heute als einer der Faktoren, die zur Abwahl der seit 44 Jahren regierenden Sozialdemokraten bei der Wahl desselben Jahres beitrugen &ndash; obwohl Lindgren selbst deren langjährige Sympathisantin war. Die SE1 verteidigt nicht die eigene Partei, sondern das, was sie für richtig hält, auch wenn es die eigenen Verbündeten trifft.</p>
+          <p class="vb-intro">Noch entschiedener war ihr jahrzehntelanges Engagement für Tierschutz: In ihren letzten Lebensjahren kämpfte die über achtzigjährige Lindgren öffentlich und unermüdlich gegen die Bedingungen der industriellen Tierhaltung in Schweden. 1988, nur ein Jahr vor ihrem Rückzug aus der Öffentlichkeit, wurde als direkte Folge ihres Engagements ein neues schwedisches Tierschutzgesetz verabschiedet, das im Volksmund bis heute &bdquo;Lex Lindgren&ldquo; genannt wird. Der Adler, der sein ganzes Leben lang genau beobachtet hatte, was falsch lief &ndash; und der am Ende seiner Kraft noch einmal alles einsetzte, um es zu ändern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 ist eine seltene Verbindung aus unbestechlicher Integrität und stiller, tragender Güte. Lindgren hat mit derselben Disziplin, mit der sie Manuskripte prüfte, auch für Gerechtigkeit gekämpft &ndash; leise, aber mit enormer Wirkung. Sie hat nie versucht, größer zu wirken, als sie war, und wurde gerade dadurch zu einer der einflussreichsten moralischen Stimmen ihres Landes.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Härte, mit der die SE1 an sich selbst festhält, und in der Distanz, die der Neunerflügel begünstigt. Die frühe Trennung von ihrem Sohn Lasse blieb ein lebenslanger, kaum verarbeiteter Schmerz, über den sie öffentlich fast nie sprach &ndash; ein Beispiel dafür, wie die SE1w9 selbst tiefste Verletzungen still in sich trägt, statt sie zu teilen. Das Schicksalsmuster der Eins ist der <strong>Zorn</strong>, der bei der SE1 meist nach innen gerichtet ist &ndash; als beständige, selbst auferlegte Strenge, dass man mit weniger als vollständiger Disziplin niemandem gerecht wird, auch sich selbst nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Der Heilungsweg: Vom Richter zur Güte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit &ndash; von der Frage <em>Habe ich alles richtig gemacht?</em> zur Erkenntnis <em>Ich habe gegeben, was ich hatte, und daraus ist etwas Gutes gewachsen.</em> Bei Lindgren zeigt sich dieser Weg in der Entwicklung ihres Werks selbst: von der ungebändigten Pippi über die dunkleren, todesnahen Töne der Brüder Löwenherz bis zur reifen, versöhnten Altersweisheit ihres öffentlichen Tierschutz-Engagements.</p>
+          <p class="vb-intro">Astrid Lindgren starb 2002 im Alter von 94 Jahren in Stockholm, betrauert von einer ganzen Nation &ndash; ihr Begräbnis wurde live im schwedischen Fernsehen übertragen. Sie hinterließ kein Vermögen an Eitelkeit, sondern ein Jahrhundert voller Kinder, die durch ihre Bücher lernten, dass man mutig, eigenständig und gütig sein kann, auch wenn die Welt der Erwachsenen etwas anderes verlangt. Der Adler, der nie laut sein musste, um weit zu tragen &ndash; und dessen Flügelschlag noch heute, Generationen später, in jedem Kind nachhallt, das zum ersten Mal von Pippi Langstrumpf hört.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-ken-follett", label:"Porträt: Ken Follett (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
 function kenFollettPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -43206,6 +43286,7 @@ function kenFollettPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se1", label:"SE1 \u2013 Der Besorgte: Subtyp-Profil"},
         {route:"beruehmte-dan-brown", label:"Dan Brown \u2013 SE1w2 im Vergleich"},
+        {route:"beruehmte-astrid-lindgren", label:"Portr\u00e4t: Astrid Lindgren (SE1w9)"},
       ])}
     </div>
   `);
@@ -85533,6 +85614,7 @@ function render() {
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-dan-brown": danBrownPortraitPage,
+      "beruehmte-astrid-lindgren": astridLindgrenPortraitPage,
       "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
       "beruehmte-brigitte-bardot": brigitteBardotPortraitPage,
