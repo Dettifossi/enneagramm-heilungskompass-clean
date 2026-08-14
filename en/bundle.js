@@ -915,6 +915,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Linda Leinweber – Sexual Type 4",
     teaser:"SX4w5 \xb7 Psychologist, author, coach, founder of Poise. “Free but still connected”. The Chihuahua who has made his own pain precise - and teaches people to look before it's too late.",
     tags:["Psychologie","Coaching"], gender:"f"},
+  { route:"beruehmte-dante-alighieri", name:"Dante Alighieri", added:"2026-08-14", subtyp:"SX4w5",
+    heading:"Dante Alighieri – Sexual Type 4",
+    teaser:"SX4w5 · 1265–1321. Italian poet, Divine Comedy. Exile from Florence, unfulfilled love for Beatrice, political enemies immortalized by name in Hell. The Chihuahua with the Five-wing: personal pain transformed into an encyclopedic world tribunal. Animal correspondence: Chihuahua.",
+    tags:["History","Literature"], gender:"m"},
   { route:"beruehmte-claude-debussy", name:"Claude Debussy", added:"2026-08-01", subtyp:"SX4w5",
     heading:"Claude Debussy – Sexual Type 4",
     teaser:"SX4w5 · 1862–1918. Composer, founder of musical modernism. Clair de Lune, La Mer, Pelléas et Mélisande. The Chihuahua who rethought European music from its foundations – and never stopped rivaling against convention.",
@@ -20477,6 +20481,72 @@ function claudeDebussyPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-ana-de-armas", label:"Portrait: Ana de Armas (SX4w5)"},
         {route:"beruehmte-linda-leinweber", label:"Portrait: Linda Leinweber (SX4w5)"},
+        {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function danteAlighieriPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-dante-alighieri-portrait.jpg" alt="Dante Alighieri" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dante Alighieri</p>
+        <p class="krim-portrait-typ">SX4w5 &middot; Sexual Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Italian poet, 1265&ndash;1321 &ndash; Animal correspondence: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua Who Built a World Tribunal Out of Exile</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal of the sexual Four: small in stature, immense in inner life, incapable of half-measures in either love or anger. Dante Alighieri was born in 1265 in Florence, a city that would later cast him out &ndash; and it was precisely out of that expulsion that he created one of the most powerful literary works in world history.</p>
+          <p class="vb-intro">In 1302, amid the power struggles between the political factions of the White and Black Guelphs, Dante was banished from Florence on false charges of corruption and sentenced to death should he ever return. He would never set foot in his home city again. The Chihuahua, driven from its territory, did not turn its exile into resignation but into the raw material for a work that would secure him, posthumously, exactly the immortality the city denied him in life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Four: Beatrice and Rivalry With His Own City</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Four (SX4)</strong> carries the Four's pain outward &ndash; as intensity, as longing, as rivalry against everything that denies its own truth. Naranjo called this subtype <em>rivalry</em>: the burning conviction that something essential is being withheld, combined with the drive to stand against it. Dante's love for Beatrice Portinari, whom he first saw at age nine and encountered again at eighteen, remained largely unfulfilled his whole life &ndash; Beatrice married another man and died in 1290 at only 24. In "La Vita Nuova," Dante turned this longing into one of the most intense love poems of the Middle Ages.</p>
+          <p class="vb-intro">The same intensity turned against his political enemies: in the "Divine Comedy," Dante placed numerous real contemporaries &ndash; political rivals, corrupt popes, traitors of his own party &ndash; by name, in precisely defined circles of Hell, with precisely measured torments for their respective crimes. This is SX4 at its sharpest: the personal pain of exile is not repressed but transformed into a literary tribunal meant to outlast his own lifetime &ndash; and it has.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: The Architecture of the Afterlife</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the sexual Four the analytical hunger not merely to express its own feeling but to translate it into a fully worked-out system. The "Divine Comedy" is exactly that: a structure of mathematical precision &ndash; nine circles of Hell, seven terraces of Purgatory, nine spheres of Heaven, exactly one hundred cantos, written in terza rima whose rhyme scheme itself forms an unbroken, continuous chain.</p>
+          <p class="vb-intro">Within it, Dante processed the entire learning of his age &ndash; Aristotelian philosophy, Thomistic theology, medieval astronomy, Roman poetry, especially Virgil, whom he made his own guide through Hell and Purgatory. The Five-wing turned the SX4's burning rivalry into a work of encyclopedic precision &ndash; every punishment, every reward, every sphere follows an inner logic that Dante had worked out down to the last detail before writing a single word.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Vernacular as an Act of Rivalry</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">One of Dante's most consequential decisions was purely linguistic and, at the same time, deeply rebellious: he wrote the "Divine Comedy" not in Latin, the language of scholars and the Church, but in Tuscan vernacular &ndash; the spoken language of his home region. This was a deliberate affront to the learned elite, who considered vernacular literature inferior.</p>
+          <p class="vb-intro">This decision made his work accessible to a broad audience &ndash; and simultaneously founded the modern Italian literary language. The Chihuahua, cast out by the powerful of his time, chose a language that stripped exactly those powerful figures of their interpretive authority, unintentionally creating a national work that held Italy together linguistically centuries before its political unification.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; in the SX4 expressed as rivalry, as the feeling that one's own city, one's own love, one's own recognition has been unjustly withheld. In Dante, this fed both the creative power of the work and his uncompromising harshness toward anyone he held responsible for his misfortune &ndash; down to contemporaries he immortalized in his Hell while they were still alive.</p>
+          <p class="vb-intro">The light lies in the ability to turn personal suffering into a work that reaches far beyond one's own injury: the "Divine Comedy" is at once a revenge fantasy, a declaration of love, a theological summa, and a political manifesto &ndash; and, precisely because of this, one of the most influential works in world literature. The shadow lies in the irreconcilability: Dante died without ever making peace with Florence, and the city only formally apologized for his banishment centuries later.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Exile No One Could Banish Anymore</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dante died in 1321 in Ravenna, where his wanderings through various northern Italian courts had finally brought him &ndash; never returned to Florence, never officially pardoned. Florence would demand the return of his remains in vain for centuries afterward; Ravenna never surrendered the poet it had sheltered when his own city cast him out.</p>
+          <p class="vb-intro">The Chihuahua who, out of personal and political humiliation, built a world tribunal spanning Heaven, Hell, and Purgatory left behind more than a poem: he left behind the modern Italian language, a model of Christian cosmology that shaped the imagination from Michelangelo to today's authors, and proof that the most intense personal wound, when shaped with the utmost precision, can become a work that outlasts its age by centuries.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5)"},
+        {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
       ])}
     </div>
   `);
@@ -50902,6 +50972,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-brigitte-bardot": brigitteBardotPortraitPage,
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
       "beruehmte-claude-debussy": claudeDebussyPortraitPage,
+      "beruehmte-dante-alighieri": danteAlighieriPortraitPage,
       "beruehmte-mariah-carey": mariahCareyPortraitPage,
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
       "beruehmte-rasputin": rasputinPortraitPage,
