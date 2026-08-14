@@ -266,6 +266,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo DiCaprio – Sexual Type 1",
     teaser:"SX1w2 · born 1974. Actor, climate activist. Five Oscar nominations, six attempts – and in the moment of triumph he spoke about climate change, not himself. The Black Mamba does not burn for applause. Animal correspondence: Black Mamba.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-margot-friedlaender", name:"Margot Friedländer", added:"2026-08-14", subtyp:"SE2w1",
+    heading:"Margot Friedländer – Self-Preservation Type 2",
+    teaser:"SP2w1 · 1921–2025. Holocaust survivor and witness, 'Be human'. Fifteen months in hiding in Berlin, sixty years of silence, then tireless conversations with schoolchildren until the very end. Animal correspondence: Hippopotamus.",
+    tags:["Geschichte"] },
   { route:"beruehmte-soeren-kierkegaard", name:"Søren Kierkegaard", added:"2026-08-14", subtyp:"SE2w1",
     heading:"Søren Kierkegaard – Self-Preservation Type 2",
     teaser:"SP2w1 · 1813–1855. Danish philosopher and theologian, founder of existentialism. Break with Regine Olsen, attack on the state church, pseudonyms as indirect communication. The hippopotamus with the One-wing: uncompromising honesty toward himself to the last breath. Animal correspondence: Hippopotamus.",
@@ -29512,6 +29516,72 @@ function gretaThunbergPortraitPage() {
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
         {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SE2w1)"},
+        {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SP2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function margotFriedlaenderPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-margot-friedlaender-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Margot Friedländer</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Holocaust survivor &amp; witness, 1921&ndash;2025 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal underestimated until it can no longer be underestimated. It appears calm, almost motionless in the water. But it defends its territory with a force that comes from within, not from aggression: the absolute knowledge of what deserves protection and what will never be given up.</p>
+          <p class="vb-intro">Margot Friedländer survived the Holocaust, emigrated to the United States after the war, and lived a quiet, withdrawn life there for over fifty years. Only after her husband's death, well into her seventies, did she begin to speak &ndash; and past eighty she returned permanently to Berlin to appear, tirelessly, before school classes until shortly before her death at 103. The Hippopotamus rests long in the water. But when it moves, it moves with a determination nothing can stop.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Care as a Principle of Survival</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> directs the Two's energy first toward its own survival and that of those closest to it. Naranjo called this subtype <em>Me First</em> &ndash; not in an egotistical sense, but as a care that first operates within the innermost, existential circle before it widens outward.</p>
+          <p class="vb-intro">In 1943, when the Gestapo arrested her mother and younger brother Ralph, 21-year-old Margot went underground in Berlin &ndash; supported by a close circle of friends and acquaintances who, at mortal risk to themselves, provided hiding places, false papers, and food. Her mother, who could still have fled herself, chose to voluntarily follow her son into deportation rather than leave him alone &ndash; leaving Margot with the words: <em>Try to make your life.</em> Decades later, this sentence became the title of her memoir and the core of her entire subsequent life: the deepest form of SP2 care, passed down from a mother who sacrificed herself for her child.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: The Moral Clarity of "Be Human"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the self-preservation Two an inner set of standards that holds independent of others' reactions &ndash; a clear sense of right and wrong that knows no diplomacy when the principle itself is at stake. It transforms personal care into a moral mandate.</p>
+          <p class="vb-intro">In Friedländer this wing showed in her central message, which she carried to hundreds of German schools from 2003 onward: <em>Seid Menschen</em> &ndash; Be human. No complicated political argument, but a direct, moral imperative addressed straight to young people &ndash; paired with her urgent warning to stay vigilant against hatred, exclusion, and antisemitism, "so that what happened to me and my family never happens again." She literally looked young people in the eye while doing so &ndash; still sitting across from them, not on a podium above them, past her hundredth birthday. The One-wing gives care its incorruptible direction: not comfort for comfort's sake, but truth that obligates.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Fifteen Months in Hiding, Sixty Years of Silence, a Quarter Century of Remembrance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">For fifteen months in 1943/44, Margot Friedländer survived underground in Berlin &ndash; changing hiding places, dyeing her hair, changing her name. In April 1944 she was nonetheless discovered and arrested, taken to the collection camp on Rosenstraße, and eventually deported to the Theresienstadt concentration camp, where she survived until liberation in 1945. There she met Adolf Friedländer again, an acquaintance from her Berlin youth, whom she married in New York after the war.</p>
+          <p class="vb-intro">In the United States, the couple led a withdrawn life for over five decades; Margot worked, among other things, as a seamstress and at a travel agency, and rarely spoke of the past. Only after her husband's death in 1997 did she begin, in her mid-seventies, to write down and publicly tell her story. In 2010, at 88, she moved permanently back to Berlin &ndash; the city she once had to flee &ndash; and became one of Germany's most sought-after eyewitnesses to the Holocaust. In 2018 she founded the Margot Friedländer Foundation to carry her work forward beyond her death; among other honors, she received Germany's Grand Cross of Merit with Star and Sash and honorary citizenship of Berlin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w1 is a rare combination of personal warmth and unwavering moral firmness. Friedländer met every young person she spoke to with genuine, individual attention &ndash; not with a rehearsed lecture, but with the intention of truly being seen and truly seeing in return. This combination of closeness and clarity made her one of the country's most effective moral voices.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the deep conviction of being needed, of being indispensable to others, while one's own needs recede. In Friedländer this showed in a life dedicated almost entirely to serving others well into extreme old age: past her hundredth birthday she still kept school appointments, even as her health made this increasingly difficult. She had stayed silent for sixty years because she believed her own story would burden others too heavily &ndash; a quiet, decades-long deferral of her own processing in favor of what she believed was the well-being of those around her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: From Silence to Voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Two leads from quiet giving to deliberate, freely chosen giving &ndash; from the question <em>What do others need from me?</em> to the recognition <em>My own voice itself is the gift.</em> For the SP2w1, this path shows most clearly in the transition from sixty years of silence to the conscious, free decision to speak publicly.</p>
+          <p class="vb-intro">Margot Friedländer found this path late, but completely: a woman who kept her own story to herself for decades became a woman who made that very story the most important gift of her life &ndash; not out of duty, but from a free, mature choice. She died in May 2025 in Berlin at the age of 103. The Hippopotamus that knew all its life what needed protecting &ndash; and that, at the end of its life, passed on to millions exactly what it had once needed most urgently itself: humanity.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SP2w1)"},
+        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1)"},
       ])}
     </div>
   `);
@@ -29571,6 +29641,7 @@ function soerenKierkegaardPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1)"},
+        {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SP2w1)"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
         {route:"beruehmte-heraklit", label:"Portrait: Heraclitus (SO4w5)"},
         {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portrait: Georg Wilhelm Friedrich Hegel (SO5w6) – lifelong adversary of 'the System'"},
@@ -51561,6 +51632,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
+      "beruehmte-margot-friedlaender": margotFriedlaenderPortraitPage,
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-jan-ullrich": janUllrichPortraitPage,
       "beruehmte-barack-obama": barackObamaPortraitPage,

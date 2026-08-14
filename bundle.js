@@ -31372,6 +31372,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo DiCaprio \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 geb. 1974. Schauspieler, Klimaaktivist. F\u00fcnfmal Oscar-nominiert, sechsmal angetreten \u2013 und im Moment des Triumphes sprach er \u00fcber den Klimawandel, nicht \u00fcber sich. Die Schwarze Mamba brennt nicht f\u00fcr Applaus. Tierentsprechung: Schwarze Mamba.",
     tags:["Schauspiel"] , gender:"m"},
+  { route:"beruehmte-margot-friedlaender", name:"Margot Friedländer", added:"2026-08-14", subtyp:"SE2w1",
+    heading:"Margot Friedländer – Selbsterhaltender Typ 2",
+    teaser:"SE2w1 · 1921–2025. Holocaust-Überlebende und Zeitzeugin, ›Seid Menschen‹. Fünfzehn Monate im Berliner Untergrund, sechzig Jahre Schweigen, dann bis zuletzt unermüdlich im Gespräch mit Schulklassen. Tierentsprechung: Flusspferd.",
+    tags:["Geschichte"], gender:"f"},
   { route:"beruehmte-soeren-kierkegaard", name:"Søren Kierkegaard", added:"2026-08-14", subtyp:"SE2w1",
     heading:"Søren Kierkegaard – Selbsterhaltender Typ 2",
     teaser:"SE2w1 · 1813–1855. Dänischer Philosoph und Theologe, Begründer des Existenzialismus. Bruch mit Regine Olsen, Angriff auf die Staatskirche, Pseudonyme als indirekte Mitteilung. Das Flusspferd mit Einserflügel: kompromisslose Ehrlichkeit gegenüber sich selbst bis zum letzten Atemzug. Tierentsprechung: Flusspferd.",
@@ -53735,6 +53739,72 @@ function gretaThunbergPortraitPage() {
         {route:"subtype/se2", label:"SE2 \u2013 Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-angelina-jolie", label:"Portr\u00e4t: Angelina Jolie (SO1w2)"},
         {route:"beruehmte-soeren-kierkegaard", label:"Portr\u00e4t: S\u00f8ren Kierkegaard (SE2w1)"},
+        {route:"beruehmte-margot-friedlaender", label:"Portr\u00e4t: Margot Friedl\u00e4nder (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function margotFriedlaenderPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-margot-friedlaender-portrait.jpg" alt="Flusspferd" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Margot Friedländer</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Holocaust-Überlebende &amp; Zeitzeugin, 1921&ndash;2025 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das man unterschätzt, bis man es nicht mehr unterschätzen kann. Es wirkt ruhig, beinahe reglos im Wasser. Aber es verteidigt sein Territorium mit einer Kraft, die aus dem Inneren kommt, nicht aus Aggression: dem absoluten Wissen, was schützenswert ist und was nicht aufgegeben wird.</p>
+          <p class="vb-intro">Margot Friedländer überlebte den Holocaust, emigrierte nach dem Krieg in die USA und lebte dort über fünfzig Jahre ein stilles, zurückgezogenes Leben. Erst nach dem Tod ihres Mannes, mit weit über siebzig Jahren, begann sie zu sprechen &ndash; und mit über achtzig kehrte sie endgültig nach Berlin zurück, um dort, bis kurz vor ihrem Tod mit 103 Jahren, unermüdlich vor Schulklassen aufzutreten. Das Flusspferd ruht lange im Wasser. Aber wenn es sich bewegt, bewegt es sich mit einer Entschlossenheit, die niemand mehr aufhält.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge als Überlebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet die Energie der Zwei zuerst auf das eigene Überleben und das der ihr am nächsten Stehenden. Naranjo nannte diesen Subtyp <em>Me First</em> &ndash; nicht im egoistischen Sinn, sondern als eine Fürsorge, die zunächst im engsten, existenziellen Kreis wirkt, bevor sie sich nach außen weitet.</p>
+          <p class="vb-intro">1943, als die Gestapo ihre Mutter und ihren jüngeren Bruder Ralph verhaftete, tauchte die 21-jährige Margot in Berlin unter &ndash; unterstützt von einem engen Kreis von Freunden und Bekannten, die unter Lebensgefahr Verstecke, falsche Papiere und Nahrung besorgten. Ihre Mutter, die selbst noch hätte fliehen können, entschied sich, ihrem Sohn freiwillig in die Deportation zu folgen, statt ihn allein zu lassen &ndash; und hinterließ Margot die Worte: <em>Versuche, dein Leben zu machen.</em> Dieser Satz wurde Jahrzehnte später zum Titel ihrer Autobiografie und zum Kern ihres gesamten weiteren Lebens: die tiefste Form der SE2-Fürsorge, weitergegeben von einer Mutter, die sich selbst für ihr Kind opferte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Die moralische Klarheit von ›Seid Menschen‹</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der selbsterhaltenden Zwei ein inneres Regelwerk, das unabhängig von der Reaktion anderer trägt &ndash; ein klares Empfinden von Richtig und Falsch, das keine Diplomatie kennt, wenn das Prinzip auf dem Spiel steht. Er verwandelt persönliche Fürsorge in einen moralischen Auftrag.</p>
+          <p class="vb-intro">Bei Friedländer zeigte sich dieser Flügel in ihrem zentralen Leitsatz, mit dem sie ab 2003 hunderte Schulen in ganz Deutschland besuchte: <em>Seid Menschen.</em> Keine komplizierte politische Botschaft, sondern ein unmittelbarer, moralischer Imperativ, direkt an junge Menschen gerichtet &ndash; verbunden mit ihrer eindringlichen Warnung, wachsam zu bleiben gegenüber Hass, Ausgrenzung und Antisemitismus, &bdquo;damit das, was mir und meiner Familie widerfahren ist, nie wieder geschieht&ldquo;. Sie sah jungen Menschen dabei buchstäblich in die Augen &ndash; noch mit über hundert Jahren saß sie ihnen gegenüber, nicht auf einem Podium über ihnen. Der Einserflügel gibt der Fürsorge ihre unbestechliche Richtung: nicht Trost um des Trostes willen, sondern Wahrheit, die verpflichtet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Fünfzehn Monate im Verborgenen, sechzig Jahre Schweigen, ein Vierteljahrhundert Erinnerung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fünfzehn Monate lang überlebte Margot Friedländer 1943/44 in Berlin im Untergrund &ndash; wechselte Verstecke, färbte sich die Haare, änderte ihren Namen. Im April 1944 wurde sie dennoch entdeckt und verhaftet, ins Sammellager an der Rosenstraße gebracht und schließlich ins Konzentrationslager Theresienstadt deportiert, wo sie bis zur Befreiung 1945 überlebte. Dort traf sie auch Adolf Friedländer wieder, einen Bekannten aus ihrer Berliner Jugend, den sie nach dem Krieg in New York heiratete.</p>
+          <p class="vb-intro">In den USA führte das Ehepaar über fünf Jahrzehnte ein zurückgezogenes Leben; Margot arbeitete unter anderem als Schneiderin und in einem Reisebüro, sprach kaum über die Vergangenheit. Erst nach dem Tod ihres Mannes 1997 begann sie, mit über 75 Jahren, ihre Geschichte aufzuschreiben und öffentlich zu erzählen. 2010, im Alter von 88 Jahren, zog sie endgültig zurück nach Berlin &ndash; in die Stadt, aus der sie einst fliehen musste &ndash; und wurde zu einer der meistgehörten Zeitzeuginnen Deutschlands. 2018 gründete die Margot Friedländer Stiftung, um ihre Arbeit über ihren Tod hinaus fortzuführen; sie erhielt unter anderem das Große Bundesverdienstkreuz mit Stern und Schulterband und die Ehrenbürgerschaft Berlins.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w1 ist eine seltene Verbindung aus persönlicher Wärme und unbeirrbarer moralischer Festigkeit. Friedländer begegnete jedem einzelnen jungen Menschen, dem sie erzählte, mit echter, individueller Zuwendung &ndash; nicht mit einem einstudierten Vortrag, sondern mit dem Anspruch, wirklich gesehen zu werden und selbst zu sehen. Diese Kombination aus Nähe und Klarheit machte sie zu einer der wirkungsvollsten moralischen Stimmen des Landes.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die tiefe Überzeugung, gebraucht zu werden, für andere unentbehrlich zu sein, während die eigenen Bedürfnisse zurücktreten. Bei Friedländer zeigte sich das in einem Leben, das bis ins hohe Alter fast vollständig dem Dienst an anderen gewidmet war: Selbst über hundertjährig nahm sie noch Schultermine wahr, obwohl ihre Gesundheit das zunehmend erschwerte. Sechzig Jahre lang hatte sie geschwiegen, weil sie glaubte, ihre eigene Geschichte belaste andere zu sehr &ndash; ein stilles, jahrzehntelanges Zurückstellen der eigenen Verarbeitung zugunsten des vermeintlichen Wohls der Menschen um sie herum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Schweigen zur Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt vom stillen Geben zum bewussten, selbstgewählten Geben &ndash; von der Frage <em>Was brauchen die anderen von mir?</em> zur Erkenntnis <em>Meine eigene Stimme selbst ist die Gabe.</em> Für die SE2w1 zeigt sich dieser Weg besonders deutlich im Übergang vom sechzigjährigen Schweigen zur bewussten, freien Entscheidung, öffentlich zu sprechen.</p>
+          <p class="vb-intro">Margot Friedländer fand diesen Weg spät, aber vollständig: Aus einer Frau, die ihre eigene Geschichte jahrzehntelang für sich behielt, wurde eine Frau, die genau diese Geschichte zum wichtigsten Geschenk ihres Lebens machte &ndash; nicht aus Pflichtgefühl, sondern aus freier, reifer Entscheidung. Sie starb im Mai 2025 in Berlin im Alter von 103 Jahren. Das Flusspferd, das sein ganzes Leben lang wusste, was es zu schützen galt &ndash; und das am Ende seines Lebens genau das an Millionen weitergab, was es selbst einst am dringendsten gebraucht hatte: Menschlichkeit.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-soeren-kierkegaard", label:"Porträt: Søren Kierkegaard (SE2w1)"},
+        {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
       ])}
     </div>
   `);
@@ -53794,6 +53864,7 @@ function soerenKierkegaardPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se2", label:"SE2 \u2013 Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-greta-thunberg", label:"Portr\u00e4t: Greta Thunberg (SE2w1)"},
+        {route:"beruehmte-margot-friedlaender", label:"Portr\u00e4t: Margot Friedl\u00e4nder (SE2w1)"},
         {route:"beruehmte-immanuel-kant", label:"Portr\u00e4t: Immanuel Kant (SO6w5)"},
         {route:"beruehmte-heraklit", label:"Portr\u00e4t: Heraklit (SO4w5)"},
         {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portr\u00e4t: Georg Wilhelm Friedrich Hegel (SO5w6) \u2013 lebenslanger Gegner des \u203aSystems\u2039"},
@@ -85803,6 +85874,7 @@ function render() {
       "beruehmte-sam-altman": samAltmanPortraitPage,
       "beruehmte-aristoteles": aristotelesPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
+      "beruehmte-margot-friedlaender": margotFriedlaenderPortraitPage,
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
