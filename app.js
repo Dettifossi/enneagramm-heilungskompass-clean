@@ -31264,6 +31264,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Aristoteles \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 384\u2013322 v. Chr. Philosoph, Begr\u00fcnder der Logik, Lehrer Alexanders des Gro\u00dfen. Die goldene Mitte als Lebensprinzip \u2013 kein Kampf gegen die Welt, sondern das ruhige, jahrzehntelange Ordnen allen Wissens in ein einziges System. Tierentsprechung: Adler.",
     tags:["Philosophie","Geschichte"] , gender:"m"},
+  { route:"beruehmte-magnus-carlsen", name:"Magnus Carlsen", added:"2026-08-14", subtyp:"SE1w9",
+    heading:"Magnus Carlsen – Selbsterhaltender Typ 1",
+    teaser:"SE1w9 · geb. 1990 in Tønsberg, Norwegen. Schachgroßmeister, Weltmeister 2013–2023, höchste Elo-Zahl der Schachgeschichte. Fehlerlosigkeit als Handwerk, Loslassen als Stärke – freiwilliger Verzicht auf die Titelverteidigung. Tierentsprechung: Adler.",
+    tags:["Sport"] , gender:"m"},
   { route:"beruehmte-anthony-hopkins", name:"Anthony Hopkins", added:"2026-08-14", subtyp:"SE1w9",
     heading:"Anthony Hopkins – Selbsterhaltender Typ 1",
     teaser:"SE1w9 · geb. 1937 in Port Talbot, Wales. Schauspieler, zwei Oscars („Das Schweigen der Lämmer“, „The Father“). Genauigkeit als Selbstverpflichtung, Stille als Zuhause – Drehbücher werden hundertfach gelesen, bis sie vollständig sitzen. Tierentsprechung: Adler.",
@@ -42813,6 +42817,7 @@ function stingPortraitPage() {
         {route:"subtype/se1", label:"SE1 \u2013 Der Besorgte: Subtyp-Profil"},
         {route:"beruehmte-christoph-waltz", label:"Portr\u00e4t: Christoph Waltz (SE1w2)"},
         {route:"beruehmte-anthony-hopkins", label:"Portr\u00e4t: Anthony Hopkins (SE1w9)"},
+        {route:"beruehmte-magnus-carlsen", label:"Portr\u00e4t: Magnus Carlsen (SE1w9)"},
       ])}
     </div>
   `);
@@ -42880,6 +42885,7 @@ function robertDeNiroPortraitPage() {
         {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
         {route:"beruehmte-pierce-brosnan", label:"Porträt: Pierce Brosnan (SE1w2)"},
         {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
+        {route:"beruehmte-magnus-carlsen", label:"Porträt: Magnus Carlsen (SE1w9)"},
       ])}
     </div>
   `);
@@ -43070,7 +43076,74 @@ function anthonyHopkinsPortraitPage() {
         {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
         {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
         {route:"beruehmte-sting", label:"Porträt: Sting (SE1w9)"},
+        {route:"beruehmte-magnus-carlsen", label:"Porträt: Magnus Carlsen (SE1w9)"},
         {route:"beruehmte-jodie-foster", label:"Porträt: Jodie Foster (SX5w6) – Hauptdarstellerin in ›Das Schweigen der Lämmer‹"},
+      ])}
+    </div>
+  `);
+}
+
+function magnusCarlsenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-magnus-carlsen-portrait.jpg" alt="Adler" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Magnus Carlsen</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schachgroßmeister, geb. 1990 in Tønsberg, Norwegen &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; er jagt nicht mit Wucht, sondern mit Geduld und einem Blick, der jedes Detail erfasst. Er kreist lange über dem Spielfeld, bevor er zuschlägt, und wenn er zuschlägt, braucht es keine zweite Bewegung.</p>
+          <p class="vb-intro">Magnus Carlsen gilt seit über einem Jahrzehnt als der beste Schachspieler der Welt &ndash; nicht durch spektakuläre Kombinationen, sondern durch eine fast unmenschliche Fähigkeit, aus minimalen, kaum sichtbaren Vorteilen unaufhaltsam Gewinnstellungen zu erarbeiten. Gegner beschreiben Partien gegen ihn oft als langsames Erdrücken: kein einzelner Fehler entscheidet, sondern die Summe unzähliger, unauffälliger Ungenauigkeiten, die der Adler gnadenlos registriert und ausnutzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Fehlerlosigkeit als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionismus nicht auf die Korrektur der Welt, sondern nach innen: auf die eigene Genauigkeit, die eigene Vorbereitung, die kompromisslose Beherrschung des eigenen Handwerks. Naranjo nannte diesen Subtyp <em>Worry</em> &ndash; Besorgnis. Die SE1 fragt sich unablässig: Ist diese Stellung wirklich optimal ausgeschöpft? Habe ich auch die letzte Nuance gesehen?</p>
+          <p class="vb-intro">Carlsens Spielstil ist dieses Prinzip in Reinform. Wo andere Weltklassespieler auf riskante taktische Schlachten setzen, sucht er die technisch sauberste, fehlerfreieste Fortsetzung &ndash; selbst in scheinbar ausgeglichenen Endspielen, die andere längst remis geben würden. Seine Elo-Zahl erreichte 2014 mit 2882 Punkten den bis heute höchsten je gemessenen Wert der Schachgeschichte &ndash; ein Rekord, der aus jahrelanger, akribischer Selbstoptimierung entstand, nicht aus einzelnen Geniestreichen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Loslassen als Stärke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> fügt der SE1er-Energie eine Qualität hinzu, die im Hochleistungssport selten ist: die Fähigkeit, Status und Erwartungen loszulassen, statt sie krampfhaft zu verteidigen. Während die reine Eins an einmal erreichten Standards festhält, kann der Neunerflügel erkennen, wann ein Kampf die eigene innere Ruhe nicht mehr wert ist.</p>
+          <p class="vb-intro">2022 verzichtete Carlsen freiwillig auf die Titelverteidigung der Schachweltmeisterschaft &ndash; einer der prestigeträchtigsten Titel des gesamten Sports &ndash; und begründete dies offen damit, dass ihm die Motivation für einen weiteren Titelkampf fehle. Kein Skandal, kein Rückzug aus Erschöpfung, sondern eine ruhige, klare Entscheidung: Der Titel gab ihm nicht mehr das, was er brauchte. Ein Adler, der freiwillig einen Ast verlässt, den jeder andere um jeden Preis verteidigen würde &ndash; nicht aus Schwäche, sondern weil der Neunerflügel weiß, wann Festhalten keinen Sinn mehr ergibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Ein Jahrzehnt an der Spitze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carlsen wurde 2004, mit nur 13 Jahren, zum jüngsten Großmeister seiner Zeit und stand seit 2011 ununterbrochen auf Platz eins der Weltrangliste &ndash; eine Dominanz ohne Vergleich in der jüngeren Schachgeschichte. Von 2013 bis zu seinem freiwilligen Verzicht 2023 hielt er den Weltmeistertitel gegen mehrere Herausforderer, unter anderem Wiswanathan Anand, Sergei Karjakin, Fabiano Caruana und Ian Nepomniachtchi.</p>
+          <p class="vb-intro">Auch nach dem Rückzug vom klassischen WM-Titel blieb er in Schnellschach und Blitzschach konkurrenzlos dominant und gewann mehrfach die Weltmeisterschaften in diesen schnelleren Formaten. Der Adler musste seinen Horst nicht aufgeben, um weiterzufliegen &ndash; er wählte nur, in welchem Revier er jagen wollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 ist eine seltene Verbindung aus schonungsloser Genauigkeit und innerer Gelassenheit &ndash; ein Champion, der niemals nachlässig spielt, aber auch nie um seinen Status kämpft, wenn dieser Kampf ihn innerlich auslaugen würde. Carlsens Entscheidung von 2022 gilt heute vielen als Vorbild für einen reifen Umgang mit Erfolg.</p>
+          <p class="vb-intro">Der Schatten der SE1 zeigt sich in kompromissloser Strenge gegenüber sich selbst und, im Fall Carlsens, gegenüber vermeintlich unsauberem Spiel anderer. 2022 beschuldigte er öffentlich den jungen US-Großmeister Hans Niemann des Betrugs, ohne zunächst konkrete Beweise vorzulegen &ndash; eine Anschuldigung, die die Schachwelt monatelang spaltete. Das Schicksalsmuster der Eins ist der <strong>Zorn</strong>, der sich hier nicht nach innen, sondern in Form kompromissloser moralischer Gewissheit nach außen richtete. Der Adler, der genau sieht, kann sich in seiner eigenen Genauigkeit auch täuschen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Kontrolle zur Freiheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit &ndash; von der Frage <em>Muss ich diesen Titel um jeden Preis verteidigen?</em> zur Erkenntnis <em>Mein Wert hängt nicht von diesem einen Titel ab.</em> Für die SE1w9 zeigt sich dieser Weg besonders deutlich, wenn Loslassen nicht als Niederlage, sondern als Befreiung erlebt wird.</p>
+          <p class="vb-intro">Carlsens Verzicht auf die WM-Titelverteidigung liest sich als genau dieser Schritt: die Bereitschaft, den eigenen Wert nicht länger an einem einzigen, immer wiederkehrenden Beweis festzumachen. Der Adler, der nicht mehr beweisen muss, dass er der Beste ist &ndash; er spielt einfach weiter, aus Freude am Spiel selbst.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
+        {route:"beruehmte-sting", label:"Porträt: Sting (SE1w9)"},
       ])}
     </div>
   `);
@@ -85454,6 +85527,7 @@ function render() {
       "astrologie-angela-merkel": astrologieAngelaMerkelPage,
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
+      "beruehmte-magnus-carlsen": magnusCarlsenPortraitPage,
       "beruehmte-anthony-hopkins": anthonyHopkinsPortraitPage,
       "beruehmte-pierce-brosnan": pierceBrosnanPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
