@@ -454,6 +454,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo da Vinci – Social Type 5",
     teaser:"SO5w4 · 1452–1519. Italian polymath, painter, inventor. Mona Lisa, Vitruvian Man, over 13,000 pages of notebooks. The octopus that explored art, science, and technology simultaneously with eight arms of thought.",
     tags:["Art","Science"], gender:"m"},
+  { route:"beruehmte-isaac-newton", name:"Isaac Newton", added:"2026-08-14", subtyp:"SO5w6",
+    heading:"Isaac Newton – Social Type 5",
+    teaser:"SO5w6 · 1642/43–1727. English physicist and mathematician, Principia Mathematica, law of gravitation. Decades of hidden alchemy and theology studies, priority dispute with Leibniz, president of the Royal Society. The octopus with the Six-wing: knowledge as an instrument of power, security through institutional control. Animal correspondence: Octopus.",
+    tags:["History","Science"], gender:"m"},
   { route:"beruehmte-pythagoras", name:"Pythagoras", added:"2026-08-14", subtyp:"SO5w6",
     heading:"Pythagoras – Social Type 5",
     teaser:"SO5w6 · c. 570–495 BC. Greek philosopher and mathematician, founder of the Croton brotherhood. Pythagorean theorem, harmony of the spheres, graduated secret knowledge. The octopus with the Six-wing: knowledge as order, security through rule and loyalty. Animal correspondence: Octopus.",
@@ -17795,6 +17799,7 @@ function gottfriedWilhelmLeibnizPortraitPage() {
         {route:"beruehmte-teresa-von-avila", label:"Portrait: Teresa of Ávila (SO3w4)"},
         {route:"beruehmte-sean-connery", label:"Portrait: Sean Connery (SO3w4)"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
+        {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6) – his bitterest scientific rival"},
       ])}
     </div>
   `);
@@ -24373,6 +24378,73 @@ function pythagorasPortraitPage() {
         {route:"beruehmte-bill-gates", label:"Portrait: Bill Gates (SO5w6)"},
         {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
         {route:"beruehmte-heraklit", label:"Portrait: Heraclitus (SO4w5) – who sharply criticized him in his fragments"},
+        {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function isaacNewtonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-isaac-newton-portrait.jpg" alt="Isaac Newton" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Isaac Newton</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">English physicist, mathematician and natural philosopher, 1642/43&ndash;1727 &ndash; Animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Octopus That Hid Its Knowledge for Decades</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five &ndash; intelligent, many-armed, able to gather and organize knowledge without ever exposing itself openly. Few historical figures embody this concealment as completely as Isaac Newton: during the plague years of 1665/66, withdrawn to his family's estate at Woolsthorpe, he developed the foundations of calculus, the theory of gravitation, and essential parts of his optics &ndash; and published almost none of it for twenty years.</p>
+          <p class="vb-intro">Only in 1687, at the persistent urging of his friend Edmond Halley, did the "Philosophiae Naturalis Principia Mathematica" appear &ndash; one of the most influential scientific works in history, which Newton had kept almost entirely to himself for over two decades. The octopus does not hide out of weakness. It hides because it wants to retain control over when and how its knowledge reaches the world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Five: Secret Knowledge as a Protective Space</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Five (SO5)</strong> <em>Totem</em>: knowledge is made available to the community &ndash; but always in controlled, self-determined doses. In Newton, this control went far beyond scientific caution: over three decades he wrote more than a million words on alchemy &ndash; experiments, recipes, interpretations of ancient texts &ndash; almost none of which was published in his lifetime. Only in the 20th century did these manuscripts resurface, revealing a very different side of the supposedly pure rationalist.</p>
+          <p class="vb-intro">Even more explosive was his hidden theological work: through years of biblical study, Newton became convinced that the doctrine of the Trinity was a later corruption of original Christianity &ndash; an Arian position considered heresy in England. Since a fellowship at Trinity College, Cambridge required ordination as an Anglican priest, he kept this conviction secret his entire life, securing instead a rare royal exemption in 1675. The totem of SO5 shows itself here in its riskest form: knowledge that could have destroyed his life if made public was kept hidden across tens of thousands of manuscript pages.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Security Through Institution and Authority</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the social Five a deep need for security through binding systems and institutional power. In 1703 Newton became president of the Royal Society and remained so until his death &ndash; a post he used to enforce scientific orthodoxy and systematically suppress dissent. After he took office, the only known portrait of his longtime rival Robert Hooke vanished from the Society's collection &ndash; an incident never resolved to this day, one that only reinforced Newton's reputation as a vindictive ruler of institutions.</p>
+          <p class="vb-intro">This wing also showed itself in his role as Warden and later Master of the Royal Mint from 1696: Newton pursued counterfeiters with obsessive system, personally interrogated suspects, reportedly disguised himself to gather leads in taverns, and played a decisive role in sending numerous counterfeiters to execution. For the Six-wing, security meant not only personal control but the uncompromising enforcement of law and order as an institution.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Avarice as a Claim to Priority</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Five is called <strong>avarice</strong> &ndash; in SO5w6 directed at sovereignty over one's own knowledge and its recognition. Newton's decades-long dispute with Gottfried Wilhelm Leibniz (SO3w4) over the invention of calculus shows this pattern in its bitterest form: in 1712, as president of the Royal Society, Newton had a supposedly independent investigative committee convened, whose final report he secretly co-authored himself &ndash; a verdict that, unsurprisingly, fell in his favor.</p>
+          <p class="vb-intro">A very similar pattern marked his earlier rivalry with Robert Hooke over the laws of optics and gravitation: Newton responded to Hooke's criticism with years of offended silence and delayed publishing his own work until after Hooke's death in 1703. His famous remark that he had merely "stood on the shoulders of giants" is often read as a gesture of modesty &ndash; but contemporaries also read it as a hidden jab at the physically small Hooke. The avarice of SO5w6 shows itself not in hiding out of need, but in relentlessly guarding one's own share of glory.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO5w6 shows in the sheer reach of Newton's public work: the three laws of motion, the law of gravitation, the decomposition of white light into its spectral colors, the calculus &ndash; a foundation on which the whole of classical physics for the following two centuries was built. Out of the security of his years of withdrawal came a work of unprecedented coherence.</p>
+          <p class="vb-intro">The shadow lies in the implacability with which Newton answered any threat to his intellectual sovereignty: critics were not debated but institutionally eliminated; rivals were not refuted but fought for decades. The same force that enabled him to work on a project for twenty years without revealing it also made him incapable of ever truly letting go of a grievance or a claim to priority.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Hidden Ground Beneath the Visible Order</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Newton died in 1727 in London, unmarried and childless, and was given a state funeral in Westminster Abbey &ndash; an honor scarcely granted to any natural scientist before him. The French philosopher Voltaire, who attended the funeral, was deeply struck by how England honored a scholar as it would a king.</p>
+          <p class="vb-intro">The octopus with the Six-wing thus left a double legacy: outwardly, the visible, unshakeable order of classical mechanics, which explained the world for three centuries &ndash; inwardly, a life that kept the greater part of his actual thought, his doubts, and his heretical convictions hidden until death. Only the rediscovery of his alchemical and theological manuscripts in the 20th century revealed how much of this universal genius had, in fact, remained concealed.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Portrait: Gottfried Wilhelm Leibniz (SO3w4) – his bitterest scientific rival"},
+        {route:"beruehmte-pythagoras", label:"Portrait: Pythagoras (SO5w6)"},
+        {route:"beruehmte-bill-gates", label:"Portrait: Bill Gates (SO5w6)"},
       ])}
     </div>
   `);
@@ -50530,6 +50602,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-tilda-swinton": tildaSwintonPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
       "beruehmte-pythagoras": pythagorasPortraitPage,
+      "beruehmte-isaac-newton": isaacNewtonPortraitPage,
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
       "beruehmte-peter-lustig": peterLustigPortraitPage,
