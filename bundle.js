@@ -31868,6 +31868,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Anke Engelke \u2013 Sexueller Typ 6",
     teaser:"SX6w7 \u00b7 geb. 1965. Komikerin, Schauspielerin, Entertainerin, S\u00e4ngerin, Synchronsprecherin, Moderatorin. Mut durch Erscheinen: die SX6, die Angst in Energie und Humor verwandelt. Tierentsprechung: Wolf.",
     tags:["Medien","Kunst"] , gender:"f"},
+  { route:"beruehmte-jennifer-aniston", name:"Jennifer Aniston", added:"2026-08-14", subtyp:"SX6w7",
+    heading:"Jennifer Aniston – Sexueller Typ 6",
+    teaser:"SX6w7 · geb. 1969 in Sherman Oaks. Schauspielerin und Produzentin, Rachel Green in ›Friends‹. Stärke als Antwort auf die Angst, Solidarität mit dem Rudel statt Konkurrenz. Tierentsprechung: Wolf.",
+    tags:["Medien","Kunst"], gender:"f"},
   { route:"beruehmte-scarlett-johansson", name:"Scarlett Johansson", added:"2026-08-03", subtyp:"SX6w7",
     heading:"Scarlett Johansson \u2013 Sexueller Typ 6",
     teaser:"SX6w7 \u00b7 geb. 1984. Schauspielerin, Produzentin, meistkassierende Schauspielerin der Filmgeschichte. Der Wolf, der Verletzlichkeit hinter Intensit\u00e4t und Pr\u00e4senz verbirgt.",
@@ -44672,6 +44676,70 @@ function ankeEngelkePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-alice-schwarzer", label:"Portr\u00e4t: Alice Schwarzer (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function jenniferAnistonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jennifer-aniston-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jennifer Aniston</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Produzentin, geb. 1969 in Sherman Oaks, Kalifornien &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Tier, das seine Kraft nicht aus Einzelgängertum zieht, sondern aus dem Rudel, in dem es sich beweist. Wölfe prüfen einander ständig: durch Blickkontakt, durch körperliche Nähe, durch das Aushändigen und Zurückfordern von Status. Wer im Rudel bestehen will, muss zeigen, dass er standhält &ndash; nicht durch Größe allein, sondern durch die Bereitschaft, sich zu exponieren.</p>
+          <p class="vb-intro">Jennifer Aniston, 1969 in Sherman Oaks geboren, verkörpert genau das. Ihre Karriere begann nicht mit einem Sprung ins Rampenlicht, sondern mit Jahren kleiner Rollen und gescheiterter Serien, bevor 1994 die Rolle kam, die alles veränderte. Was sie durch die Jahrzehnte trägt, ist keine spektakuläre Einzelleistung, sondern die Fähigkeit, sich immer wieder ins Rudel zu stellen &ndash; ins Ensemble, ins Team, in die Öffentlichkeit &ndash; und dort standzuhalten, wenn es unbequem wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Antwort auf die Angst (Kontratyp)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist der Kontratyp der Sechs: Sie zeigt ihre Angst nicht, sondern überdeckt sie mit Stärke, Direktheit und einer Präsenz, die nach außen selbstsicher wirkt. Naranjo nannte diesen Subtyp <em>Strength</em>. Die SX6 begegnet der Bedrohung, statt vor ihr zurückzuweichen &ndash; und genau das erzeugt den Eindruck von Mühelosigkeit, der oft täuscht.</p>
+          <p class="vb-intro">Aniston wirkt seit drei Jahrzehnten souverän vor der Kamera. Was in dieser Souveränität nicht sichtbar ist: die Angst, die als Antrieb dahinterliegt. Sie hat wiederholt öffentlich gemacht, dass sie während der Dreharbeiten zu <em>Friends</em> unter erheblichem Lampenfieber litt und dass ihre vermeintliche Leichtigkeit hart erarbeitet war. Die Stärke der SX6 ist keine Abwesenheit von Angst &ndash; sie ist die tägliche Entscheidung, trotzdem aufzutreten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Leichtigkeit als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> gibt der sexuellen Sechs eine spielerische Seite, die die reine SX6 nicht hätte: Timing, Selbstironie, die Fähigkeit, aus Anspannung Komik zu machen. Wo die reine Sechs eher grimmig verteidigt, lächelt die SX6w7 dabei &ndash; ohne dass die Schärfe darunter verschwindet.</p>
+          <p class="vb-intro">Anistons komisches Talent, allen voran als Rachel Green in <em>Friends</em> (1994&ndash;2004), lebt genau von dieser Mischung: präzises Timing, körperliche Komik, eine Figur, die verletzlich sein durfte, ohne lächerlich zu wirken. Die Serie machte sie zu einer der bestbezahlten Fernsehschauspielerinnen ihrer Zeit &ndash; und der berühmte <em>Rachel</em>-Haarschnitt wurde weltweit kopiert. Der Siebenerfügel zeigt sich auch darin, wie sie über ihre eigene Berühmtheit sprach: mit Selbstdistanz, nie ganz ernst, immer mit einem Augenzwinkern für das Absurde daran.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Rudel: Solidarität statt Konkurrenz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein zentrales Kapitel der SX6-Geschichte Anistons ist die Gehaltsverhandlung des <em>Friends</em>-Ensembles: Statt sich gegeneinander ausspielen zu lassen, einigten sich alle sechs Hauptdarsteller darauf, gemeinsam zu verhandeln und am Ende gleich viel zu verdienen &ndash; zuletzt eine Million Dollar pro Folge und Person. Das war zu der Zeit in Hollywood außergewöhnlich. Es ist die SX6 in ihrer reifsten Form: Stärke, die nicht gegen das Rudel eingesetzt wird, sondern für es.</p>
+          <p class="vb-intro">Auch über das Ende der Serie hinaus hielt dieses Rudel: Die sechs Darsteller blieben eng verbunden, trafen sich öffentlich wieder zur Reunion-Sondersendung 2021. Loyalität über Jahrzehnte, ohne dass die individuellen Karrieren darunter litten &ndash; das ist der Wolf, der weiß, dass das Rudel ihn stärker macht, nicht kleiner.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Konfrontation: Öffentliches Leben, private Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kaum eine Prominente wurde über so viele Jahre so intensiv öffentlich verhandelt wie Aniston nach der Scheidung von Brad Pitt 2005 &ndash; Boulevardmedien machten ihr Privatleben, insbesondere ihre unerfüllt gebliebene Mutterschaft, zum jahrzehntelangen Dauerthema. Die SX6 reagiert auf solchen Druck nicht mit Rückzug, sondern mit direkter Konfrontation: 2022 sprach Aniston in einem viel beachteten Interview offen über ihre jahrelangen, erfolglosen Künstliche-Befruchtung-Versuche und darüber, wie sehr die öffentlichen Spekulationen sie verletzt hatten.</p>
+          <p class="vb-intro">Diese Offenheit ist typisch für die SX6w7: Statt die Verletzlichkeit zu verstecken, stellt sie sich ihr &ndash; öffentlich, mit Worten, nicht mit Schweigen. Es ist dieselbe Bewegung, die sie 2014 in die dramatische Rolle einer chronisch schmerzgeplagten Frau in <em>Cake</em> führte, eine Rolle, die bewusst mit ihrem Komiker-Image brach und ihr eine Golden-Globe-Nominierung einbrachte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 ist ihre <strong>verlässliche Präsenz</strong>: eine Frau, die über drei Jahrzehnte im öffentlichsten aller Berufe stand, ohne sich zu verstellen, und die Loyalität gegenüber ihrem Rudel über persönlichen Vorteil stellte. Mit ihrer Produktionsfirma und Rollen wie in <em>The Morning Show</em>, die MeToo und Machtmissbrauch in den Medien direkt thematisiert, hat sie sich zudem als Produzentin etabliert, die ernste Stoffe sucht statt sie zu meiden.</p>
+          <p class="vb-intro">Der Schatten der SX6 zeigt sich in der permanenten Angriffsbereitschaft, die auch nach innen wirken kann: Anistons öffentlich diskutierte, jahrelange Beziehung zu strengen Fitness- und Ernährungsroutinen liest sich auch als Versuch, Kontrolle über einen Körper und ein Image zu behalten, das über Jahrzehnte fremdbestimmt kommentiert wurde. Die Stärke, die nach außen souverän wirkt, verlangt nach innen einen Preis, der selten sichtbar wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
       ])}
     </div>
   `);
@@ -85126,6 +85194,7 @@ function render() {
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
       "beruehmte-michael-schumacher": michaelSchumacherPortraitPage,
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
+      "beruehmte-jennifer-aniston": jenniferAnistonPortraitPage,
       "beruehmte-scarlett-johansson": scarlettJohanssonPortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,

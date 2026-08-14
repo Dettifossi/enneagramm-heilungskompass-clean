@@ -582,6 +582,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Anke Engelke – Sexual Type 6",
     teaser:"SX6w7 · born 1965. Comedian, actress, entertainer, singer, voice actress, presenter. Courage through showing up: the SX6 that transforms fear into energy and humor. Animal correspondence: Wolf.",
     tags:["Medien","Kunst"] },
+  { route:"beruehmte-jennifer-aniston", name:"Jennifer Aniston", added:"2026-08-14", subtyp:"SX6w7",
+    heading:"Jennifer Aniston – Sexual Type 6",
+    teaser:"SX6w7 · born 1969 in Sherman Oaks. Actress and producer, Rachel Green in ›Friends‹. Strength as an answer to fear, pack solidarity over competition. Animal correspondence: Wolf.",
+    tags:["Medien","Kunst"] },
   { route:"beruehmte-scarlett-johansson", name:"Scarlett Johansson", added:"2026-08-03", subtyp:"SX6w7",
     heading:"Scarlett Johansson – Sexual Type 6",
     teaser:"SX6w7 · born 1984. Actress, producer, highest-grossing actress in film history. The Wolf that hides vulnerability behind intensity and presence.",
@@ -24989,6 +24993,70 @@ function ankeEngelkePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function jenniferAnistonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jennifer-aniston-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jennifer Aniston</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Actress &amp; producer, born 1969 in Sherman Oaks, California &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Wolf</strong> is the animal of the Sexual Type 6 &ndash; an animal that draws its strength not from solitude but from the pack in which it proves itself. Wolves constantly test one another: through eye contact, through physical closeness, through the giving and reclaiming of status. Whoever wants to hold their ground in the pack must show that they can stand firm &ndash; not through size alone, but through the willingness to expose themselves.</p>
+          <p class="vb-intro">Jennifer Aniston, born 1969 in Sherman Oaks, embodies exactly that. Her career did not begin with a leap into the spotlight but with years of small roles and cancelled shows before the role that changed everything arrived in 1994. What has carried her through the decades is not a single spectacular achievement, but the ability to keep stepping back into the pack &ndash; ensemble, team, public eye &ndash; and to hold her ground there when it gets uncomfortable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Strength as an Answer to Fear (Counter-Type)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Six (SX6)</strong> is the counter-type of the Six: it does not show its fear but covers it with strength, directness, and a presence that appears self-assured. Naranjo called this subtype <em>Strength</em>. The SX6 meets the threat instead of retreating from it &ndash; and that is exactly what creates the impression of effortlessness, which is often deceptive.</p>
+          <p class="vb-intro">Aniston has appeared composed on screen for three decades. What is not visible in this composure: the fear that lies behind it as fuel. She has repeatedly said publicly that she suffered from considerable stage fright during the filming of <em>Friends</em> and that her apparent ease was hard-won. The strength of the SX6 is not the absence of fear &ndash; it is the daily decision to show up anyway.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Lightness as Craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the Sexual Six a playful side that the pure SX6 would not have: timing, self-irony, the ability to turn tension into comedy. Where the pure Six defends more grimly, the SX6w7 smiles while doing it &ndash; without the edge underneath disappearing.</p>
+          <p class="vb-intro">Aniston's comic talent, above all as Rachel Green in <em>Friends</em> (1994&ndash;2004), lives exactly from this mixture: precise timing, physical comedy, a character allowed to be vulnerable without becoming ridiculous. The show made her one of the highest-paid television actresses of her era &ndash; and the famous <em>Rachel</em> haircut was copied worldwide. The Seven-wing also shows in how she has talked about her own fame: with self-distance, never entirely serious, always with a wink toward the absurdity of it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Pack: Solidarity Over Competition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A central chapter in Aniston's SX6 story is the salary negotiation of the <em>Friends</em> ensemble: rather than letting themselves be played off against one another, all six lead actors agreed to negotiate together and, in the end, earn the same &ndash; eventually one million dollars per episode, per person. This was extraordinary in Hollywood at the time. It is the SX6 in its most mature form: strength not deployed against the pack, but for it.</p>
+          <p class="vb-intro">This pack held together well beyond the show's end: the six cast members stayed closely connected, publicly reuniting for the 2021 reunion special. Loyalty across decades, without the individual careers suffering for it &ndash; that is the Wolf that knows the pack makes it stronger, not smaller.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Confrontation: Public Life, Private Fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Few celebrities have had their private lives negotiated so intensely, for so many years, in public as Aniston has since her divorce from Brad Pitt in 2005 &ndash; tabloids made her private life, particularly her unfulfilled motherhood, a decades-long recurring subject. The SX6 responds to such pressure not with withdrawal but with direct confrontation: in a widely noted 2022 interview, Aniston spoke openly about her years of unsuccessful IVF attempts and how deeply the public speculation had hurt her.</p>
+          <p class="vb-intro">This openness is typical of the SX6w7: rather than hiding vulnerability, it faces it &ndash; publicly, in words, not in silence. It is the same movement that led her, in 2014, into the dramatic role of a chronically pain-stricken woman in <em>Cake</em>, a role that deliberately broke with her comedic image and earned her a Golden Globe nomination.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w7 is its <strong>reliable presence</strong>: a woman who has stood in the most public of professions for three decades without pretending to be someone else, and who placed loyalty to her pack above personal advantage. With her production company and roles such as in <em>The Morning Show</em>, which directly addresses #MeToo and abuse of power in the media, she has also established herself as a producer who seeks out serious material rather than avoiding it.</p>
+          <p class="vb-intro">The shadow of the SX6 shows in a permanent readiness to fight that can also turn inward: Aniston's publicly discussed, years-long commitment to strict fitness and diet routines also reads as an attempt to retain control over a body and an image that has been commented on by others for decades. The strength that looks composed on the outside demands a price on the inside that rarely becomes visible.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
       ])}
     </div>
   `);
@@ -50949,6 +51017,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-platon": platonPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
+      "beruehmte-jennifer-aniston": jenniferAnistonPortraitPage,
       "beruehmte-scarlett-johansson": scarlettJohanssonPortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
