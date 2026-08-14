@@ -194,6 +194,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Aristotle – Self-Preservation Type 1",
     teaser:"SE1w9 · 384–322 BC. Philosopher, founder of logic, tutor of Alexander the Great. The golden mean as a way of life – no crusade against the world, but the calm, decades-long ordering of all knowledge into a single system. Animal correspondence: Eagle.",
     tags:["Philosophy","History"] , gender:"m"},
+  { route:"beruehmte-pierce-brosnan", name:"Pierce Brosnan", added:"2026-08-14", subtyp:"SE1w2",
+    heading:"Pierce Brosnan – Self-Preservation Type 1",
+    teaser:"SP1w2 · born 1953 in Navan, Ireland. Actor and producer, James Bond 1995–2002. Discipline as craft, personal loss as the drive behind advocacy for ovarian cancer research and environmental protection. Animal correspondence: Eagle.",
+    tags:["Schauspiel"] },
   { route:"beruehmte-christoph-waltz", name:"Christoph Waltz", subtyp:"SE1w2",
     heading:"Christoph Waltz – Self-Preservation Type 1",
     teaser:"SP1w2 · “The Eagle”, born 1956. Two-time Oscar winner for Inglourious Basterds and Django Unchained. Fifty years of craft, a lifetime of inner precision – then the moment the eagle had been waiting for. Animal correspondence: Eagle.",
@@ -23463,6 +23467,7 @@ function robertDeNiroPortraitPage() {
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
         {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
+        {route:"beruehmte-pierce-brosnan", label:"Portrait: Pierce Brosnan (SP1w2)"},
       ])}
     </div>
   `);
@@ -23521,7 +23526,73 @@ function christophWaltzPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+        {route:"beruehmte-pierce-brosnan", label:"Portrait: Pierce Brosnan (SP1w2)"},
         {route:"kriminalpsychologie", label:"Criminal Psychology – Portraits"},
+      ])}
+    </div>
+  `);
+}
+
+function pierceBrosnanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-pierce-brosnan-portrait.jpg" alt="Eagle" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Pierce Brosnan</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Actor &amp; producer, born 1953 in Navan, Ireland &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; it circles high, observes precisely, and when it acts, it does so with a precision that needs no correction. Not an animal of noise, but of quiet, focused mastery of its own territory.</p>
+          <p class="vb-intro">Pierce Brosnan played James Bond in four films between 1995 and 2002 &ndash; a role that demands above all discipline and control: the perfectly fitted suit, the flawless posture, no wasted gesture. What many read as mere elegance was, for Brosnan, genuine work: he prepared meticulously for every action scene himself and insisted on performing as many of his own stunts as possible. The Eagle shows no strain. But it has done the work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: The Demand on Oneself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs its perfectionism not toward correcting the world, but inward: toward its own preparation, its own craft, its own reliability. Naranjo called this subtype <em>Worry</em> &ndash; concern. The SP1 constantly asks itself: Have I given my best? Have I done justice to the task?</p>
+          <p class="vb-intro">Brosnan's path into acting began with training as a graphic designer in London &ndash; craft before art. Before he finally got to play Bond in 1995, he had already lost the role once in 1986, because his contract for the television series <em>Remington Steele</em> bound him at the time. Rather than give up, he kept working, quietly and disciplined, until the opportunity came a second time. The One does not give up when the first attempt fails &ndash; it prepares for the next one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Care Behind the Facade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> opens the strict One energy outward: it gives warmth, genuine interest in others, the desire to stand up for people who are worse off. The pure One could seem cold and distant. The Two-wing turns it into someone who gives.</p>
+          <p class="vb-intro">In 1991, Brosnan's first wife Cassandra Harris died of ovarian cancer. Rather than withdraw, Brosnan became one of the most visible public advocates for awareness and research into the disease &ndash; a commitment that became even more painful when, in 2013, his stepdaughter Charlotte, Cassandra's daughter, also succumbed to the same illness. He has also been active as an environmental advocate for decades, including as a UN Environment Programme spokesperson. The Two-wing transforms personal loss into persistent commitment to others &ndash; not out of duty, but out of genuine care.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From TV Detective to Double-Oh Agent</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brosnan first made a name for himself as the elegant lead of the series <em>Remington Steele</em> (1982&ndash;1987), before <em>GoldenEye</em> (1995) finally made him an international film star. With his own production company, Irish DreamTime, he also produced films such as the remake of <em>The Thomas Crown Affair</em> &ndash; a sign that control over his own work mattered to him as much as acting itself.</p>
+          <p class="vb-intro">After his time as Bond, he proved with roles in <em>Mamma Mia!</em> and more serious character studies such as <em>The Ghost Writer</em> that his craft extends well beyond the tuxedo of the agent. The SP1w2 cannot tolerate stagnation in its own ability &ndash; it keeps seeking the next proof that its own standards still hold.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1w2 is a rare combination of discipline and warmth: someone who holds high standards for themselves and, at the same time, channels that energy into standing up for others. Brosnan's decades-long commitment against ovarian cancer, carried by his own loss, shows exactly this mature form of the One.</p>
+          <p class="vb-intro">The shadow of the SP1 is an inner strictness that never quite feels satisfied with itself. The fate pattern of the One is <strong>anger</strong>, which in the SP1 usually turns inward &ndash; as a constant worry about not being sufficiently prepared. Brosnan himself has spoken openly about years of alcohol abuse in his younger years, from which he freed himself with the same discipline he later brought to his roles. The Eagle can judge itself most harshly &ndash; and needs just as much strength to forgive itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: From Demand to Devotion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the One leads from anger to serenity &ndash; from the question <em>Did I do it right?</em> to the recognition <em>I gave what I had, and that was enough.</em> For the SP1w2, this path shows most clearly when its own discipline is no longer proof of self-worth, but becomes a tool for others.</p>
+          <p class="vb-intro">Brosnan's transformation from personal loss into public commitment to cancer research and environmental protection reads as exactly this path: strictness toward oneself becomes care for the world. The Eagle that no longer defends only its own territory, but turns its gaze toward something greater than itself.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
       ])}
     </div>
   `);
@@ -51144,6 +51215,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
+      "beruehmte-pierce-brosnan": pierceBrosnanPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-dan-brown": danBrownPortraitPage,
       "beruehmte-ken-follett": kenFollettPortraitPage,
