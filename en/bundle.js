@@ -855,6 +855,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Karl Lagerfeld – Social Type 3",
     teaser:"SO3w4 · 1933–2019. Fashion icon, creative director of Chanel and Fendi. The cheetah who transformed himself into a symbol - and behind it lived a life of books, aesthetics and hidden depth.",
     tags:["Mode","Art"] , gender:"m"},
+  { route:"beruehmte-gottfried-wilhelm-leibniz", name:"Gottfried Wilhelm Leibniz", added:"2026-08-14", subtyp:"SO3w4",
+    heading:"Gottfried Wilhelm Leibniz – Social Type 3",
+    teaser:"SO3w4 · 1646–1716. German polymath: philosopher, mathematician, diplomat, founder of the Prussian Academy of Sciences. Monadology, priority dispute with Newton, binary number system. The cheetah with the Four-wing: visible success at Europe's courts joined with a fascination for the absolutely unique. Animal correspondence: Cheetah.",
+    tags:["History","Philosophy"], gender:"m"},
   { route:"beruehmte-teresa-von-avila", name:"Teresa of Ávila", added:"2026-08-08", subtyp:"SO3w4",
     heading:"Teresa of Ávila – Social Type 3",
     teaser:"SO3w4 · 1515–1582. Mystic, monastic reformer, Doctor of the Church. Founder of 17 reformed convents despite chronic illness, author of \"The Interior Castle\", scrutinized by the Inquisition – the cheetah whose deepest vision became the most famous artwork of her age. Animal correspondence: Cheetah.",
@@ -17720,6 +17724,73 @@ function teresaVonAvilaPortraitPage() {
         {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
         {route:"beruehmte-sean-connery", label:"Portrait: Sean Connery (SO3w4)"},
         {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
+        {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Portrait: Gottfried Wilhelm Leibniz (SO3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function gottfriedWilhelmLeibnizPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-gottfried-wilhelm-leibniz-portrait.jpg" alt="Gottfried Wilhelm Leibniz" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gottfried Wilhelm Leibniz</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Social Type 3 with a Four-Wing</p>
+        <p class="krim-portrait-subtitle">German philosopher, mathematician and polymath, 1646&ndash;1716 &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Cheetah That Ran Every Field at Once</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>cheetah</strong> is the animal of the social Three &ndash; the fastest animal on earth, built for visible, undeniable success. Few historical figures embody this image as completely as Gottfried Wilhelm Leibniz, often called the "last universal genius": he worked simultaneously as philosopher, mathematician, logician, lawyer, diplomat, historian, librarian, and engineer &ndash; not one after another, but in constant overlap, often on several major projects at once.</p>
+          <p class="vb-intro">Born in 1646 in Leipzig, the son of a professor of moral philosophy, he largely taught himself Latin and Greek as a child by gaining access to his father's library. By the age of twenty he already held a doctorate and was qualified for an academic career &ndash; yet he turned down an offered professorship at Altdorf. The cheetah does not remain in the protected territory of a single lecture hall. It seeks the open plain, where speed can truly show itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SO3: Courts, Academies, and the Stage of Recognition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> needs a work that becomes publicly visible &ndash; recognition through a larger whole, not merely private satisfaction. Leibniz's entire career follows this pattern: he served as diplomat and librarian at the court of Mainz, then for nearly forty years at the court of Hanover, officially employed as court historian and librarian, but in practice handling an enormous range of projects for his princely patrons &ndash; from water-pump technology in the Harz mining district to diplomatic memoranda.</p>
+          <p class="vb-intro">In 1700 he founded the Prussian Academy of Sciences in Berlin and became its first president &ndash; an institution meant to make his influence permanently visible, much as convent foundations did for other SO3w4 figures in history. Throughout his life he also courted the most influential princely houses of Europe: Electress Sophie of Hanover and her daughter Sophie Charlotte of Prussia carried on a decades-long correspondence with him on philosophy and politics. The cheetah does not hunt in secret &ndash; it hunts where the pack can see.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: The Monad as a Unique Universe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the social Three a depth that exceeds pure institutional achievement &ndash; a fascination with the absolutely unique. This fascination lies at the heart of Leibniz's metaphysics: in his Monadology, he described the ultimate building blocks of reality as "monads" &ndash; windowless, mind-like units, no two of which are ever identical. Each monad reflects the entire universe from its own unmistakable perspective.</p>
+          <p class="vb-intro">This idea of radical uniqueness runs through his entire work: his Theodicy, in which he argued that, despite all suffering, the existing world is the "best of all possible worlds" &ndash; an aesthetic, harmonious vision of the whole that Voltaire later mocked mercilessly in "Candide." His dream of a "Characteristica universalis," a universal symbolic language in which every thought could be expressed uniquely and unambiguously, shows the same Four-trait: the longing for a language that does justice to the innermost core of every thought, not merely its outward usefulness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Priority Dispute with Newton: Vanity's Hunger for Unimpeachable Recognition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Three is called <strong>vanity</strong> &ndash; not ostentation, but the need to prove one's own work unimpeachably successful. Nowhere is this clearer than in the decades-long dispute with Isaac Newton (SO5w6) over the invention of calculus: both had independently developed the foundations of modern analysis, yet the question of who came first escalated into one of the bitterest priority disputes in the history of science.</p>
+          <p class="vb-intro">In 1712 the Royal Society &ndash; whose president at the time was Newton himself &ndash; convened an investigative committee that accused Leibniz of plagiarism; the report, secretly co-written by Newton, turned out accordingly one-sided. Leibniz fought for his reputation until his death, without ever seeing public rehabilitation. Only the history of science in the 20th century established clearly: both men had in fact discovered the calculus independently &ndash; and it is Leibniz's notation, more compact and elegant, that has prevailed in textbooks to this day.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO3w4 shows in the sheer reach of Leibniz's work: the binary number system that underlies all modern computing, the "Stepped Reckoner" calculating machine, considered one of the earliest mechanical calculators in history, foundational contributions to formal logic that were only truly taken up in the 19th century by George Boole. Few thinkers of his era connected so many fields into such a coherent whole.</p>
+          <p class="vb-intro">The shadow lies in the fragmentation that followed from this boundless ambition: Leibniz left behind tens of thousands of unpublished manuscript pages; many projects remained fragments because he constantly began new ones before finishing the old. The cheetah that wants to run every field at once risks reaching the finish line in none of them &ndash; a pattern that, in Leibniz, showed itself not as failure but as a lifelong, restless multiplication of effort.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Lonely End: The Cheetah Left Alone at Last</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1714 Leibniz's longtime employer, Elector Georg Ludwig of Hanover, ascended the English throne as George I &ndash; and left Leibniz behind. The man who had spent decades cultivating closeness to the most powerful courts of Europe spent his final two years largely passed over, saddled with the thankless task of finishing a history of the House of Brunswick-Lüneburg that he never completed.</p>
+          <p class="vb-intro">When Leibniz died in Hanover in 1716, the court took barely any notice; his secretary is said to have been the only mourner at the funeral. A chronicler of the time remarked that he had been "buried more like a robber than what he really was: an ornament of his country." The cheetah, whose entire life had been devoted to visible, public success, vanished from the stage he himself had occupied for so long almost without a trace &ndash; and was only elevated by posterity, through the later recognition of his mathematical, logical, and philosophical achievements, to what he had claimed for himself throughout his life: one of the greatest minds of his era.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
+        {route:"beruehmte-teresa-von-avila", label:"Portrait: Teresa of Ávila (SO3w4)"},
+        {route:"beruehmte-sean-connery", label:"Portrait: Sean Connery (SO3w4)"},
+        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
       ])}
     </div>
   `);
@@ -27034,6 +27105,7 @@ function immanuelKantPortraitPage() {
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
         {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8) – whose skepticism roused him from ‘dogmatic slumber’"},
         {route:"beruehmte-friedrich-nietzsche", label:"Portrait: Friedrich Nietzsche (SX5w4) – the sharpest critic of his duty-based ethics"},
+        {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Portrait: Gottfried Wilhelm Leibniz (SO3w4) – whose rationalism shaped his early, 'dogmatic' phase of thought"},
         {route:"beruehmte-sigmund-freud", label:"Portrait: Sigmund Freud (SO6w5)"},
       ])}
     </div>
@@ -50467,6 +50539,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-juergen-klopp": juergenKloppPortraitPage,
       "beruehmte-karl-lagerfeld": karlLagerfeldPortraitPage,
       "beruehmte-teresa-von-avila": teresaVonAvilaPortraitPage,
+      "beruehmte-gottfried-wilhelm-leibniz": gottfriedWilhelmLeibnizPortraitPage,
       "beruehmte-sean-connery": seanConneryPortraitPage,
       "beruehmte-karoline-herfurth": karolineHerfurthPortraitPage,
       "beruehmte-kevin-costner": kevinCostnerPortraitPage,
