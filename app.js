@@ -31507,6 +31507,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Karl Lagerfeld \u2013 Sozialer Typ 3",
     teaser:"SO3w4 \u00b7 1933\u20132019. Mode-Ikone, Creative Director von Chanel und Fendi. Der Gepard, der sich selbst in ein Symbol verwandelt hat \u2013 und dahinter ein Leben aus B\u00fcchern, \u00c4sthetik und verborgener Tiefe f\u00fchrte.",
     tags:["Mode","Kunst"] , gender:"m"},
+  { route:"beruehmte-gottfried-wilhelm-leibniz", name:"Gottfried Wilhelm Leibniz", added:"2026-08-14", subtyp:"SO3w4",
+    heading:"Gottfried Wilhelm Leibniz \u2013 Sozialer Typ 3",
+    teaser:"SO3w4 \u00b7 1646\u20131716. Deutscher Universalgelehrter: Philosoph, Mathematiker, Diplomat, Gr\u00fcnder der Preu\u00dfischen Akademie der Wissenschaften. Monadologie, Priorit\u00e4tsstreit mit Newton, bin\u00e4res Zahlensystem. Der Gepard mit Viererfl\u00fcgel: sichtbarer Erfolg an den H\u00f6fen Europas, verbunden mit der Faszination f\u00fcr das absolut Einzigartige. Tierentsprechung: Gepard.",
+    tags:["Geschichte","Philosophie"], gender:"m"},
   { route:"beruehmte-teresa-von-avila", name:"Teresa von \u00c1vila", added:"2026-08-08", subtyp:"SO3w4",
     heading:"Teresa von \u00c1vila \u2013 Sozialer Typ 3",
     teaser:"SO3w4 \u00b7 1515\u20131582. Mystikerin, Ordensreformerin, Kirchenlehrerin. Gr\u00fcnderin von 17 reformierten Kl\u00f6stern trotz chronischer Krankheit, Autorin der \u201eInneren Burg\u201c, unter Beobachtung der Inquisition \u2013 der Gepard, dessen tiefste Vision zum ber\u00fchmtesten Kunstwerk ihrer Zeit wurde. Tierentsprechung: Gepard.",
@@ -49559,6 +49563,7 @@ function immanuelKantPortraitPage() {
         {route:"subtype/so6", label:"SO6 \u2013 Das Erdm\u00e4nnchen: Subtyp-Profil"},
         {route:"beruehmte-david-hume", label:"Portr\u00e4t: David Hume (SE9w8) \u2013 dessen Skeptizismus ihn aus dem \u203adogmatischen Schlummer\u2039 riss"},
         {route:"beruehmte-friedrich-nietzsche", label:"Portr\u00e4t: Friedrich Nietzsche (SX5w4) \u2013 sch\u00e4rfster Kritiker seiner Pflichtethik"},
+        {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Portr\u00e4t: Gottfried Wilhelm Leibniz (SO3w4) \u2013 dessen Rationalismus seine fr\u00fche, \u203adogmatische\u2039 Denkphase pr\u00e4gte"},
         {route:"beruehmte-sigmund-freud", label:"Portr\u00e4t: Sigmund Freud (SO6w5)"},
       ])}
     </div>
@@ -55737,6 +55742,73 @@ function teresaVonAvilaPortraitPage() {
         {route:"subtype/so3", label:"SO3 &ndash; Der Gepard: Subtyp-Profil"},
         {route:"beruehmte-sean-connery", label:"Portr\u00e4t: Sean Connery (SO3w4)"},
         {route:"beruehmte-karl-lagerfeld", label:"Portr\u00e4t: Karl Lagerfeld (SO3w4)"},
+        {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Porträt: Gottfried Wilhelm Leibniz (SO3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function gottfriedWilhelmLeibnizPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-gottfried-wilhelm-leibniz-portrait.jpg" alt="Gottfried Wilhelm Leibniz" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gottfried Wilhelm Leibniz</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Philosoph, Mathematiker und Universalgelehrter, 1646–1716 – Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard, der auf jedem Feld gleichzeitig lief</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – das schnellste Tier der Erde, gebaut für sichtbaren, unbestreitbaren Erfolg. Kaum eine historische Gestalt verkörpert dieses Bild so vollständig wie Gottfried Wilhelm Leibniz, oft als "letzter Universalgelehrter" bezeichnet: Er wirkte gleichzeitig als Philosoph, Mathematiker, Logiker, Jurist, Diplomat, Historiker, Bibliothekar und Ingenieur – nicht nacheinander, sondern in ständiger Überlappung, oft an mehreren Großprojekten parallel.</p>
+          <p class="vb-intro">Geboren 1646 in Leipzig als Sohn eines Moralphilosophieprofessors, brachte er sich als Kind weitgehend selbst Latein und Griechisch bei, indem er sich Zugang zur väterlichen Bibliothek verschaffte. Mit nur zwanzig Jahren war er promoviert und für eine akademische Karriere qualifiziert – doch er lehnte eine angebotene Professur in Altdorf ab. Der Gepard bleibt nicht im geschützten Revier eines einzelnen Hörsaals. Er sucht die offene Fläche, auf der sich Tempo wirklich zeigen lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SO3: Höfe, Akademien und die Bühne der Anerkennung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> braucht ein Werk, das öffentlich sichtbar wird – Anerkennung durch ein größeres Ganzes, nicht nur durch private Genugtuung. Leibniz' gesamte Laufbahn folgt diesem Muster: Er diente als Diplomat und Bibliothekar am Hof von Mainz, dann fast vierzig Jahre lang am Hof von Hannover, wo er offiziell als Hofhistoriker und Bibliothekar angestellt war, tatsächlich aber ein enormes Spektrum an Projekten für seine fürstlichen Auftraggeber bediente – von Wasserpumpentechnik im Harzer Bergbau bis zu diplomatischen Denkschriften.</p>
+          <p class="vb-intro">1700 gründete er die Preußische Akademie der Wissenschaften in Berlin und wurde ihr erster Präsident – eine Institution, die sein Wirken dauerhaft sichtbar machen sollte, ähnlich wie Klostergründungen für andere SO3w4-Persönlichkeiten der Geschichte. Zeit seines Lebens umwarb er zudem die einflussreichsten Fürstenhäuser Europas: Kurfürstin Sophie von Hannover und ihre Tochter Sophie Charlotte von Preußen führten mit ihm einen jahrzehntelangen Briefwechsel über Philosophie und Politik. Der Gepard jagt nicht heimlich – er jagt dort, wo das Rudel zusieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Monade als einzigartiges Universum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sozialen Drei eine Tiefe, die reines institutionelles Wirken übersteigt – die Faszination für das absolut Einzigartige. Genau diese Faszination bildet den Kern von Leibniz' Metaphysik: In seiner Monadologie beschrieb er die letzten Bausteine der Wirklichkeit als "Monaden" – fensterlose, geistartige Einheiten, von denen keine zwei jemals identisch sind. Jede Monade spiegelt das gesamte Universum aus ihrer eigenen, unverwechselbaren Perspektive.</p>
+          <p class="vb-intro">Diese Idee der radikalen Einzigartigkeit durchzieht sein gesamtes Werk: seine Theodizee, in der er argumentierte, die bestehende Welt sei trotz allen Leids die "beste aller möglichen Welten" – eine ästhetisch-harmonische Gesamtschau, die Voltaire später in "Candide" beißend verspottete. Auch sein Traum einer "Characteristica universalis", einer universellen Symbolsprache, mit der sich jeder Gedanke eindeutig und einzigartig ausdrücken ließe, zeigt denselben Viererzug: die Sehnsucht nach einer Sprache, die dem Innersten jedes Gedankens gerecht wird, nicht nur seiner äußeren Nützlichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Prioritätsstreit mit Newton: Wollust nach unanfechtbarer Anerkennung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Drei heißt <strong>Eitelkeit</strong> – nicht Prunksucht, sondern die Notwendigkeit, das eigene Werk als unanfechtbar erfolgreich zu erweisen. Nirgends zeigt sich das deutlicher als im jahrzehntelangen Streit mit Isaac Newton (SO5w6) um die Erfindung der Infinitesimalrechnung: Beide hatten unabhängig voneinander die Grundlagen der modernen Analysis entwickelt, doch die Frage, wer zuerst war, eskalierte zu einem der erbittertsten Prioritätsstreite der Wissenschaftsgeschichte.</p>
+          <p class="vb-intro">1712 setzte die Royal Society – deren Präsident zu diesem Zeitpunkt Newton selbst war – eine Untersuchungskommission ein, die Leibniz des Plagiats bezichtigte; das Gutachten, heimlich von Newton mitverfasst, fiel entsprechend einseitig aus. Leibniz kämpfte bis zu seinem Tod um seinen Ruf, ohne öffentliche Rehabilitierung zu erleben. Erst die Wissenschaftsgeschichte des 20. Jahrhunderts stellte klar: Beide hatten die Rechnung tatsächlich unabhängig voneinander entdeckt – Leibniz' Notation, kompakter und eleganter, ist es, die sich bis heute in Lehrbüchern durchgesetzt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3w4 zeigt sich in der schieren Reichweite von Leibniz' Werk: das binäre Zahlensystem, das die Grundlage jeder heutigen Computertechnik bildet, die Rechenmaschine "Stepped Reckoner", die als eine der ersten mechanischen Rechner der Geschichte gilt, grundlegende Beiträge zur formalen Logik, die erst im 19. Jahrhundert von George Boole wirklich aufgegriffen wurden. Kaum ein Denker seiner Zeit verband so viele Felder zu einem derart kohärenten Ganzen.</p>
+          <p class="vb-intro">Der Schatten liegt in der Zersplitterung, die aus diesem grenzenlosen Ehrgeiz folgte: Leibniz hinterließ Zehntausende unveröffentlichter Manuskriptseiten, viele Projekte blieben Fragment, weil er ständig neue begann, bevor die alten abgeschlossen waren. Der Gepard, der auf allen Feldern gleichzeitig laufen will, riskiert, auf keinem einzigen die Ziellinie zu erreichen – ein Muster, das sich bei Leibniz nicht als Scheitern, sondern als lebenslange, rastlose Vervielfachung zeigte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das einsame Ende: Der Gepard, der zuletzt allein blieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1714 bestieg Leibniz' langjähriger Dienstherr, Kurfürst Georg Ludwig von Hannover, als Georg I. den englischen Thron – und ließ Leibniz zurück. Der Mann, der jahrzehntelang die Nähe der mächtigsten Höfe Europas gesucht hatte, verbrachte seine letzten beiden Lebensjahre weitgehend übergangen, mit der undankbaren Aufgabe betraut, eine Geschichte des Hauses Braunschweig-Lüneburg fertigzustellen, die er nie vollendete.</p>
+          <p class="vb-intro">Als Leibniz 1716 in Hannover starb, nahm der Hof kaum Notiz davon; sein Sekretär soll der einzige Trauergast bei der Beerdigung gewesen sein. Ein Chronist der Zeit bemerkte, er sei "eher wie ein Räuber begraben worden als wie das, was er wirklich war: eine Zierde seines Landes". Der Gepard, dessen ganzes Leben dem sichtbaren, öffentlichen Erfolg galt, verschwand im Moment seines Todes fast spurlos von der Bühne, die er selbst so lange bespielt hatte – und wurde erst durch die Nachwelt, durch die spätere Würdigung seiner mathematischen, logischen und philosophischen Leistungen, zu dem erhoben, was er zeitlebens für sich beansprucht hatte: einer der größten Geister seiner Epoche.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-teresa-von-avila", label:"Porträt: Teresa von Ávila (SO3w4)"},
+        {route:"beruehmte-sean-connery", label:"Porträt: Sean Connery (SO3w4)"},
+        {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
       ])}
     </div>
   `);
@@ -84677,6 +84749,7 @@ function render() {
       "beruehmte-osho": oshoPortraitPage,
       "beruehmte-karl-lagerfeld": karlLagerfeldPortraitPage,
       "beruehmte-teresa-von-avila": teresaVonAvilaPortraitPage,
+      "beruehmte-gottfried-wilhelm-leibniz": gottfriedWilhelmLeibnizPortraitPage,
       "beruehmte-sean-connery": seanConneryPortraitPage,
       "beruehmte-sahra-wagenknecht": sahraWagenknechtPortraitPage,
       "beruehmte-cristiano-ronaldo": cristianoRonaldoPortraitPage,
