@@ -31351,6 +31351,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo DiCaprio \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 geb. 1974. Schauspieler, Klimaaktivist. F\u00fcnfmal Oscar-nominiert, sechsmal angetreten \u2013 und im Moment des Triumphes sprach er \u00fcber den Klimawandel, nicht \u00fcber sich. Die Schwarze Mamba brennt nicht f\u00fcr Applaus. Tierentsprechung: Schwarze Mamba.",
     tags:["Schauspiel"] , gender:"m"},
+  { route:"beruehmte-soeren-kierkegaard", name:"Søren Kierkegaard", added:"2026-08-14", subtyp:"SE2w1",
+    heading:"Søren Kierkegaard – Selbsterhaltender Typ 2",
+    teaser:"SE2w1 · 1813–1855. Dänischer Philosoph und Theologe, Begründer des Existenzialismus. Bruch mit Regine Olsen, Angriff auf die Staatskirche, Pseudonyme als indirekte Mitteilung. Das Flusspferd mit Einserflügel: kompromisslose Ehrlichkeit gegenüber sich selbst bis zum letzten Atemzug. Tierentsprechung: Flusspferd.",
+    tags:["Geschichte","Philosophie"], gender:"m"},
   { route:"beruehmte-greta-thunberg", name:"Greta Thunberg", subtyp:"SE2w1",
     heading:"Greta Thunberg \u2013 Selbsterhaltender Typ 2",
     teaser:"SE2w1 \u00b7 geb. 2003. Klimaaktivistin, Gr\u00fcnderin von Fridays for Future. Mit 15 Jahren allein vor dem schwedischen Reichstag \u2013 und einem selbstgebastelten Schild. Das Flusspferd weicht nicht. Tierentsprechung: Flusspferd.",
@@ -52785,6 +52789,67 @@ function gretaThunbergPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se2", label:"SE2 \u2013 Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-angelina-jolie", label:"Portr\u00e4t: Angelina Jolie (SO1w2)"},
+        {route:"beruehmte-soeren-kierkegaard", label:"Portr\u00e4t: S\u00f8ren Kierkegaard (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function soerenKierkegaardPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-soeren-kierkegaard-portrait.jpg" alt="S\u00f8ren Kierkegaard" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">S\u00f8ren Kierkegaard</p>
+        <p class="krim-portrait-typ">SE2w1 \u00b7 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">D\u00e4nischer Philosoph und Theologe, 1813\u20131855 \u2013 Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd, das im eigenen Gew\u00e4sser verharrte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei \u2013 ein Tier, das man untersch\u00e4tzt, bis man es nicht mehr untersch\u00e4tzen kann. Es wirkt tr\u00e4ge, fast in sich gekehrt. Aber es verteidigt sein Revier mit einer Kraft, die aus dem Inneren kommt \u2013 aus dem absoluten Wissen: Das hier ist notwendig, das gebe ich nicht auf. S\u00f8ren Kierkegaard verlie\u00df Kopenhagen zeitlebens kaum, blieb fast ausschlie\u00dflich in seiner eigenen Stadt, seinem eigenen Kopf, seinem eigenen inneren Gew\u00e4sser \u2013 und verteidigte von dort aus mit unerbittlicher Konsequenz das, was er f\u00fcr die Wahrheit \u00fcber die menschliche Existenz hielt.</p>
+          <p class="vb-intro">Geboren 1813 als j\u00fcngstes von sieben Kindern eines wohlhabenden, aber zutiefst melancholischen Wollh\u00e4ndlers, wuchs er in einem Haus auf, das von Schuld und religi\u00f6ser Angst durchdrungen war: Sein Vater gestand ihm sp\u00e4ter, in seiner Jugend Gott verflucht und vor der Ehe mit Kierkegaards Mutter ein Verh\u00e4ltnis gehabt zu haben \u2013 eine Beichte, die den jungen S\u00f8ren \u00fcberzeugte, seine Familie stehe unter einem g\u00f6ttlichen Fluch. F\u00fcnf seiner Geschwister starben, bevor er selbst erwachsen war. Das Flusspferd lernte fr\u00fch: \u00dcberleben bedeutet, genau hinzusehen, was wirklich bedrohlich ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Die eigene Existenz als Pr\u00fcfstand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet die Energie der Zwei zuerst auf die eigene Existenzgrundlage \u2013 Naranjo nannte diesen Subtyp <em>Me First</em>, nicht im egoistischen, sondern im existenziellen Sinn: Bevor ich f\u00fcr andere sorgen kann, muss ich wissen, wie ich selbst \u00fcberlebe. Kierkegaards gesamtes philosophisches Projekt l\u00e4sst sich als genau diese Frage lesen, radikal zu Ende gedacht: Wie lebt ein einzelner Mensch wirklich, angesichts von Angst, Schuld und der Notwendigkeit, sich selbst zu w\u00e4hlen?</p>
+          <p class="vb-intro">Sein Zentralbegriff, "der Einzelne" (den danske: den Enkelte), stellt die eigene, unvertretbare Existenz radikal ins Zentrum \u2013 gegen die Anonymit\u00e4t der Masse, gegen das abstrakte System Hegels, das f\u00fcr Kierkegaard alles erkl\u00e4rte, au\u00dfer dem, was am wichtigsten war: wie ein konkreter Mensch sein eigenes Leben tats\u00e4chlich zu f\u00fchren hat. Seine akribischen, oft t\u00e4glich gef\u00fchrten Tageb\u00fccher \u2013 Zehntausende Seiten \u2013 sind das Protokoll einer SE2, die ihre eigene innere Realit\u00e4t so genau wie m\u00f6glich benennen musste, um darin \u00fcberhaupt bestehen zu k\u00f6nnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Der Angriff auf die Christenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\u00fcgel (w1)</strong> gibt der selbsterhaltenden Zwei ein inneres Regelwerk, das unabh\u00e4ngig von der Zustimmung anderer tr\u00e4gt: Es gibt ein Richtig und ein Falsch, und die Zwei wei\u00df, auf welcher Seite sie steht. Bei Kierkegaard erreichte dieser Fl\u00fcgel seine radikalste Form in den letzten Monaten seines Lebens: In der Streitschrift-Reihe "Der Augenblick" griff er 1854/55 offen die d\u00e4nische Staatskirche an, nannte die etablierte Christenheit eine Verf\u00e4lschung des urspr\u00fcnglichen Christentums und beschuldigte ihre Bisch\u00f6fe, allen voran den k\u00fcrzlich verstorbenen Bischof Mynster, der Heuchelei.</p>
+          <p class="vb-intro">Dieser Angriff kostete ihn fast seine gesamte gesellschaftliche Stellung \u2013 doch die SE2w1 fragt nicht zuerst, was sie kostet, sondern ob es richtig ist. Schon Jahre zuvor hatte sich derselbe Fl\u00fcgel gezeigt: Als er 1846 die Satirezeitschrift "Der Corsar" \u00f6ffentlich der publizistischen Verantwortungslosigkeit bezichtigte, provozierte er monatelangen, gnadenlosen \u00f6ffentlichen Spott \u2013 Karikaturen seiner Beinkleider, seines leicht schiefen R\u00fcckens, seines Gangs auf den Stra\u00dfen Kopenhagens. Er h\u00e4tte schweigen k\u00f6nnen. Der Einserfl\u00fcgel lie\u00df das nicht zu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten: Regine Olsen und die Kunst der indirekten Mitteilung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w1 zeigt sich in Kierkegaards kompromissloser Ehrlichkeit sich selbst gegen\u00fcber \u2013 und in der literarischen Kunstfertigkeit, mit der er diese Ehrlichkeit f\u00fcr andere zug\u00e4nglich machte. 1840 verlobte er sich mit der siebzehnj\u00e4hrigen Regine Olsen, l\u00f6ste die Verlobung jedoch ein Jahr sp\u00e4ter, \u00fcberzeugt, seine tiefe Melancholie und sein Gef\u00fchl einer religi\u00f6sen Bestimmung seien mit einem gew\u00f6hnlichen Eheleben nicht vereinbar. Diese Entscheidung, die er selbst als eine der schmerzhaftesten seines Lebens beschrieb, wurde zum verborgenen Motiv fast seines gesamten Fr\u00fchwerks.</p>
+          <p class="vb-intro">Statt seine Position direkt zu behaupten, schrieb Kierkegaard unter einer Vielzahl von Pseudonymen \u2013 Johannes de Silentio, Victor Eremita, Johannes Climacus \u2013 und lie\u00df verschiedene "Existenzstadien" (das \u00c4sthetische, das Ethische, das Religi\u00f6se) durch fiktive Stimmen gegeneinander antreten, ohne selbst Partei zu ergreifen. Der Schatten dieser Methode: Ein Mann, der eigentlich zutiefst direkt war, verbarg sich hinter Masken, weil die volle Wahrheit \u00fcber sich selbst zu schmerzhaft war, um sie ohne Umweg zu sagen. Das Flusspferd verteidigte sein Innerstes, indem es sich selten ganz zeigte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Verm\u00e4chtnis: Bis zum letzten Atemzug konsequent</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Oktober 1855, mitten in seiner Kampagne gegen die Staatskirche, brach Kierkegaard auf offener Stra\u00dfe zusammen und wurde ins Frederiks Hospital eingeliefert. Er starb wenige Wochen sp\u00e4ter, im Alter von 42 Jahren \u2013 sein gesamtes ererbtes Verm\u00f6gen hatte er zu diesem Zeitpunkt in die Selbstver\u00f6ffentlichung seiner Werke gesteckt und war nahezu mittellos. Bis zuletzt lehnte er es ab, das Abendmahl von einem offiziellen Geistlichen der Kirche zu empfangen, die er \u00f6ffentlich der Verlogenheit bezichtigt hatte \u2013 ein letzter, radikaler Akt der \u00dcbereinstimmung zwischen \u00dcberzeugung und Handlung.</p>
+          <p class="vb-intro">Das Flusspferd mit Einserfl\u00fcgel hinterlie\u00df damit kein bequemes System, sondern eine Methode des radikal ehrlichen Existierens, die erst Jahrzehnte sp\u00e4ter ihre volle Wirkung entfaltete: Kierkegaard gilt heute als einer der Begr\u00fcnder des Existenzialismus, sein Denken pr\u00e4gte Philosophen wie Heidegger, Sartre und Camus. Ein Mensch, der sein eigenes \u00dcberleben nie vom Applaus der Welt abh\u00e4ngig machte, wurde so \u2013 gegen seinen eigenen, oft verzweifelten Widerstand \u2013 zu einer der einflussreichsten Stimmen der modernen Philosophie.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se2", label:"SE2 \u2013 Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-greta-thunberg", label:"Portr\u00e4t: Greta Thunberg (SE2w1)"},
+        {route:"beruehmte-immanuel-kant", label:"Portr\u00e4t: Immanuel Kant (SO6w5)"},
+        {route:"beruehmte-heraklit", label:"Portr\u00e4t: Heraklit (SO4w5)"},
       ])}
     </div>
   `);
@@ -84721,6 +84786,7 @@ function render() {
       "beruehmte-sam-altman": samAltmanPortraitPage,
       "beruehmte-aristoteles": aristotelesPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
+      "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
       "beruehmte-jack-black": jackBlackPortraitPage,

@@ -246,6 +246,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo DiCaprio – Sexual Type 1",
     teaser:"SX1w2 · born 1974. Actor, climate activist. Five Oscar nominations, six attempts – and in the moment of triumph he spoke about climate change, not himself. The Black Mamba does not burn for applause. Animal correspondence: Black Mamba.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-soeren-kierkegaard", name:"Søren Kierkegaard", added:"2026-08-14", subtyp:"SE2w1",
+    heading:"Søren Kierkegaard – Self-Preservation Type 2",
+    teaser:"SP2w1 · 1813–1855. Danish philosopher and theologian, founder of existentialism. Break with Regine Olsen, attack on the state church, pseudonyms as indirect communication. The hippopotamus with the One-wing: uncompromising honesty toward himself to the last breath. Animal correspondence: Hippopotamus.",
+    tags:["History","Philosophy"], gender:"m"},
   { route:"beruehmte-greta-thunberg", name:"Greta Thunberg", subtyp:"SE2w1",
     heading:"Greta Thunberg – Self-Preservation Type 2",
     teaser:"SP2w1 · born 2003. Climate activist, founder of Fridays for Future. At 15 years old, alone in front of the Swedish parliament – with a homemade sign. The hippopotamus does not yield. Animal correspondence: Hippopotamus.",
@@ -28564,6 +28568,67 @@ function gretaThunbergPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
+        {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function soerenKierkegaardPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-soeren-kierkegaard-portrait.jpg" alt="Søren Kierkegaard" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Søren Kierkegaard</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Danish philosopher and theologian, 1813&ndash;1855 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus That Stayed in Its Own Waters</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature one underestimates until one can no longer do so. It appears sluggish, almost withdrawn. But it defends its territory with a force that comes from within &ndash; from the absolute knowledge: this is necessary, I will not give it up. Søren Kierkegaard barely left Copenhagen his entire life, remaining almost exclusively within his own city, his own mind, his own inner waters &ndash; and from there defended, with unrelenting consistency, what he held to be the truth about human existence.</p>
+          <p class="vb-intro">Born in 1813, the youngest of seven children of a wealthy but deeply melancholic wool merchant, he grew up in a household steeped in guilt and religious dread: his father later confessed to him that in his youth he had cursed God, and that he had had an affair before marrying Kierkegaard's mother &ndash; a confession that convinced the young Søren his family lived under a divine curse. Five of his siblings died before he reached adulthood himself. The hippopotamus learned early: survival means looking closely at what is truly threatening.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Two: One's Own Existence as the Testing Ground</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> directs the Two's energy first toward its own foundation of existence &ndash; Naranjo called this subtype <em>Me First</em>, not in the egotistical but in the existential sense: before I can care for others, I must know how I myself survive. Kierkegaard's entire philosophical project can be read as exactly this question, thought through radically: how does a single human being actually live, in the face of anxiety, guilt, and the necessity of choosing oneself?</p>
+          <p class="vb-intro">His central concept, "the single individual" (den Enkelte), places one's own, irreplaceable existence radically at the center &ndash; against the anonymity of the crowd, against Hegel's abstract system, which for Kierkegaard explained everything except what mattered most: how a concrete person actually has to live their own life. His meticulous, often daily journals &ndash; tens of thousands of pages &ndash; are the record of an SP2 who had to name her own inner reality as precisely as possible in order to endure it at all.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: The Attack Upon Christendom</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the self-preservation Two an inner code that carries independently of others' approval: there is a right and a wrong, and the Two knows which side it stands on. In Kierkegaard, this wing reached its most radical form in the final months of his life: in the pamphlet series "The Moment," he openly attacked the Danish state church in 1854/55, calling established Christendom a falsification of original Christianity and accusing its bishops, above all the recently deceased Bishop Mynster, of hypocrisy.</p>
+          <p class="vb-intro">This attack cost him nearly his entire social standing &ndash; but the SP2w1 does not first ask what something costs, but whether it is right. The same wing had shown itself years earlier: when in 1846 he publicly accused the satirical paper "The Corsair" of journalistic irresponsibility, he provoked months of merciless public mockery &ndash; caricatures of his trousers, his slightly crooked back, his gait on the streets of Copenhagen. He could have stayed silent. The One-wing would not allow it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow: Regine Olsen and the Art of Indirect Communication</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SP2w1 shows in Kierkegaard's uncompromising honesty toward himself &ndash; and in the literary skill with which he made that honesty accessible to others. In 1840 he became engaged to seventeen-year-old Regine Olsen, but broke off the engagement a year later, convinced that his deep melancholy and his sense of religious vocation could not be reconciled with ordinary married life. This decision, which he himself described as one of the most painful of his life, became the hidden motive behind nearly all of his early work.</p>
+          <p class="vb-intro">Rather than asserting his position directly, Kierkegaard wrote under a multitude of pseudonyms &ndash; Johannes de Silentio, Victor Eremita, Johannes Climacus &ndash; letting different "stages of existence" (the aesthetic, the ethical, the religious) argue against one another through fictional voices, without taking sides himself. The shadow of this method: a man who was in fact deeply direct hid behind masks, because the full truth about himself was too painful to say without detour. The hippopotamus defended its innermost self by rarely showing it whole.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Legacy: Consistent to the Last Breath</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In October 1855, in the midst of his campaign against the state church, Kierkegaard collapsed in the street and was taken to Frederiks Hospital. He died a few weeks later, at the age of 42 &ndash; by then he had spent his entire inherited fortune on self-publishing his works and was nearly penniless. To the last, he refused to receive communion from an official clergyman of the church he had publicly accused of dishonesty &ndash; a final, radical act of alignment between conviction and action.</p>
+          <p class="vb-intro">The hippopotamus with the One-wing thus left behind no comfortable system, but a method of radically honest existing that only unfolded its full impact decades later: Kierkegaard is regarded today as one of the founders of existentialism, his thought shaping philosophers such as Heidegger, Sartre, and Camus. A man who never made his own survival dependent on the world's applause became, against his own often desperate resistance, one of the most influential voices in modern philosophy.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1)"},
+        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
+        {route:"beruehmte-heraklit", label:"Portrait: Heraclitus (SO4w5)"},
       ])}
     </div>
   `);
@@ -50483,6 +50548,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
+      "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-jan-ullrich": janUllrichPortraitPage,
       "beruehmte-barack-obama": barackObamaPortraitPage,
       "beruehmte-marisa-abela": marisaAbelaPortraitPage,
