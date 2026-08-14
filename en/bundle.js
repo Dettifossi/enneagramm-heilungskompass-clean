@@ -1055,6 +1055,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ai Weiwei – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1957. Chinese artist and activist, Sunflower Seeds, Human Flow, 81 days detained in 2011. The hippopotamus defends its territory – publicly, fearlessly, with an eye on reaching as many people as possible. Animal correspondence: Hippopotamus.",
     tags:["Art","Activism"], gender:"m"},
+  { route:"beruehmte-yayoi-kusama", name:"Yayoi Kusama", added:"2026-08-14", subtyp:"SE2w3",
+    heading:"Yayoi Kusama – Self-Preservation Type 2",
+    teaser:"SP2w3 · b. 1929 in Matsumoto, Japan. Artist, Infinity Mirror Rooms, dot patterns as life-saving self-obliteration. Voluntarily living in a Tokyo psychiatric hospital since 1977, working daily in her studio. Animal correspondence: Hippopotamus.",
+    tags:["Art"], gender:"f"},
   { route:"beruehmte-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", added:"2026-08-13", subtyp:"SE2w3",
     heading:"Wolfgang Amadeus Mozart – Self-Preservation Type 2",
     teaser:"SP2w3 · 1756–1791. Austrian composer. Child prodigy on European tour, break with the Archbishop of Salzburg, over 600 works in 35 years of life. The hippopotamus with the Three-wing: caring, crude humor, and tireless ambition on stage. Animal correspondence: Hippopotamus.",
@@ -22553,6 +22557,7 @@ function wolfgangAmadeusMozartPortraitPage() {
         {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SE3w2) – close friend and admired colleague"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
+        {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
       ])}
     </div>
   `);
@@ -22619,6 +22624,72 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
         {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SE2w3)"},
         {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
+        {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function yayoiKusamaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-yayoi-kusama-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Yayoi Kusama</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Artist, born 1929 in Matsumoto, Japan &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal underestimated until one experiences its true power. It appears calm, almost motionless in the water, yet it defends its territory with unyielding determination. And it needs its water, its element, simply to survive &ndash; without it, it perishes.</p>
+          <p class="vb-intro">Yayoi Kusama has painted dots since her childhood &ndash; countless, endlessly repeating circles that spread across canvases, pumpkins, entire rooms, and her own body. For her this is no artistic concept in the ordinary sense, but a matter of survival: without painting, she herself has said, she would long ago have taken her own life. The Hippopotamus needs its water. Kusama needs her dots.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Art as a Means of Survival</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> directs the Two's energy first toward its own survival. Naranjo called this subtype <em>Me First</em> &ndash; not out of selfishness, but because the SP2 must care for itself before it can turn to others. In the SP2, care is often inseparable from an existential threat it is defending against.</p>
+          <p class="vb-intro">Since early childhood, Kusama has suffered from visual and auditory hallucinations &ndash; flower patterns that began to speak, endless nets of dots that spread across her field of vision and threatened to dissolve her and the entire world. Rather than being destroyed by this, she began as a child to draw these visions &ndash; an act she called <em>self-obliteration</em>: dissolving herself into the infinite pattern in order not to be destroyed by it. Art became her only, life-saving strategy against an inner reality that would otherwise have overwhelmed her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: The Unconditional Will to Be Seen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two an additional drive: the unconditional will to be seen, to achieve something, to earn recognition. Where the pure Two might exhaust itself in quiet care, the Three-wing lends ambition, self-presentation, and the ability to turn one's own hardship into a public stage.</p>
+          <p class="vb-intro">In 1958, penniless and without English, Kusama moved alone to New York because she was convinced her art would find recognition there. In the 1960s she staged spectacular "happenings": painting nude participants with dots, organizing anti-Vietnam War protests, and deliberately courting media attention while living in bitter poverty. The Three-wing turned a deeply introverted artist plagued by inner visions into a public figure who knew exactly how to reach an audience &ndash; not out of vanity, but because visibility is, for the SP2w3, equivalent to survival.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Infinity as Invitation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kusama's most famous works, the walk-in <em>Infinity Mirror Rooms</em>, invite visitors to immerse themselves for a few minutes in exactly the experience of dissolution that has accompanied Kusama her entire life &ndash; mirrored, endless points of light that blur the boundary between one's own body and the space around it. Millions of people worldwide have visited these installations; she is today among the most-visited living artists in the world.</p>
+          <p class="vb-intro">Success came late: only from the 1990s onward, after decades of relative invisibility in the art world, was her work rediscovered and celebrated internationally &ndash; with retrospectives at the world's most important museums and collaborations such as with Louis Vuitton. The Hippopotamus, underestimated for decades, until no one could doubt its power any longer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 is its ability to create, out of existential hardship, something that not only saves itself but touches millions of others. Kusama's art gives shape to her own inner chaos &ndash; and turns that shape into a gift that invites other people into the very state of awe and dissolution she herself has lived through.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable, necessary, needed, through one's own achievement. In 1973 Kusama returned from New York to Japan, physically and psychologically exhausted, after several suicide attempts. In 1977 she voluntarily admitted herself to a psychiatric hospital in Tokyo &ndash; where she still lives today, well into her nineties, while walking daily to her nearby studio to work. This is the SP2w3 in its most radical form: a woman who never denies her own fragility, but who has deliberately placed herself within a protective structure &ndash; and who, within that structure, keeps creating tirelessly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: From Dissolution to Connection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Two leads from the question <em>Am I needed?</em> to the recognition <em>I am already connected, even without dissolving myself.</em> For the SP2w3, this path shows in the fact that what was once a private, survival-necessary self-obliteration becomes a deliberately shared, public experience &ndash; no longer a flight from her own fragility, but a gift born out of it.</p>
+          <p class="vb-intro">To this day, in extreme old age, Kusama creates new works daily &ndash; no longer only to save herself from dissolution, but because she has learned to translate her deepest vulnerability into a universal language that people around the world understand. The Hippopotamus that never left its water &ndash; and that, precisely through this, became one of the most influential voices in contemporary art.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
       ])}
     </div>
   `);
@@ -51658,6 +51729,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
       "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
+      "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
