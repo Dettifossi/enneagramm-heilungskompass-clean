@@ -390,6 +390,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Edgar Allan Poe – Social Type 4",
     teaser:"SO4w5 · 1809–1849. American writer, inventor of the detective story, master of literary horror. The Raven, The Tell-Tale Heart. The armadillo whose shell of pain and isolation became an art form.",
     tags:["Literature"], gender:"m"},
+  { route:"beruehmte-heraklit", name:"Heraclitus", added:"2026-08-14", subtyp:"SO4w5",
+    heading:"Heraclitus – Social Type 4",
+    teaser:"SO4w5 · c. 535–475 BC. Greek philosopher of Ephesus, \"the Obscure\". Panta rhei, Logos, unity of opposites. The armadillo with the Five-wing: differentiation from the crowd, significance through cryptic, deep insight. Animal correspondence: Armadillo.",
+    tags:["History","Philosophy"], gender:"m"},
   { route:"beruehmte-hippokrates-von-kos", name:"Hippocrates of Kos", added:"2026-08-13", subtyp:"SO4w5",
     heading:"Hippocrates of Kos – Social Type 4",
     teaser:"SO4w5 · c. 460–370 BC. Greek physician, \"Father of Medicine\". Hippocratic Oath, theory of the four humors, systematic case histories. The armadillo with the Five-wing: differentiation from temple medicine, significance through precise observation. Animal correspondence: Armadillo.",
@@ -19167,6 +19171,78 @@ function hippokratesVonKosPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-heraklit", label:"Portrait: Heraclitus (SO4w5)"},
+        {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5)"},
+        {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function heraklitPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-heraklit-portrait.jpg" alt="Heraclitus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heraclitus</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Greek philosopher, c. 535&ndash;475 BC &ndash; "the Obscure" of Ephesus &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo That Turned Its Back on the Crowd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four &ndash; it stays within reach of community, measures itself against it, and draws its own significance precisely from the contrast to it. Heraclitus was born around 535 BC in Ephesus, into a family with a claim to the city's hereditary kingship &ndash; a dignity that, according to tradition, he ceded to his younger brother in order to devote himself entirely to thought.</p>
+          <p class="vb-intro">This turning-away was no quiet retreat into private life. Heraclitus remained oriented toward Ephesus, criticizing his fellow citizens and their politics openly and sharply, while refusing active participation in a public life he considered superficial. Legend has it that he withdrew for a time into the mountains and lived on herbs &ndash; a life at the edge of the community he never fully left, because it remained the resonance chamber against which his thinking sharpened itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Four: Significance Through Differentiation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> seeks its significance not in belonging, but in a position within the community that stands clearly apart from its majority. Heraclitus expressed this stance with unusual bluntness: he declared that the Ephesians all deserved to hang themselves, since they had banished their most deserving citizen, his friend Hermodorus, on the grounds that no one among them should be the best.</p>
+          <p class="vb-intro">He was equally scornful toward acknowledged intellectual authorities of his time: Homer and Archilochus deserved, in his view, a beating; Pythagoras, Xenophanes, and Hecataeus he accused of "much learning" that taught no understanding. This systematic differentiation from everything already accepted is typical of SO4 &ndash; it defines itself not through agreement but through the sharp contour of its own, unmistakable standpoint.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Thought as Its Own Territory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the social Four a withdrawn, analytical depth &ndash; the need for significance is not performed outwardly but worked out in quiet, often cryptic labor of thought. When asked, according to tradition, why he kept silent and did not teach publicly like other philosophers, Heraclitus is said to have answered that his silence allowed the Ephesians to go on occupying themselves with their own poor state.</p>
+          <p class="vb-intro">His single work, later usually titled "On Nature," was, according to tradition, deposited by him in the temple of Artemis at Ephesus &ndash; not to circulate it, but to shield it from unworthy readers. Only a few hundred fragments survive, in a style so compressed and riddling that antiquity itself gave him the epithet "ho skoteinos" &ndash; the Obscure. The Five-wing turns the search for significance into withholding: those who wish to understand must do the work themselves.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Melancholy and the Flow of Things</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Four is called <strong>envy</strong>, or melancholy &ndash; the painful sense that one's own life or one's own time lacks something that seems to be present elsewhere. In Heraclitus this appeared as a world-weariness directed at permanence itself: his most famous teaching, that one cannot step into the same river twice (panta rhei &ndash; everything flows), describes a reality in which nothing holds still, in which every moment dissolves irretrievably.</p>
+          <p class="vb-intro">Posterity therefore called him "the weeping philosopher" &ndash; in contrast to the "laughing" Democritus. Whether this attribution is historically verified remains disputed, but it captures the fundamental tone of his thought: a deep, almost painful awareness of impermanence that became, at the same time, the starting point for his greatest insight &ndash; that it is precisely in the strife of opposites, in constant becoming, that the real order of the world lies.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: Logos and the Unity of Opposites</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heraclitus's central concept is the <strong>Logos</strong> &ndash; the rational law underlying all things, to which, in his view, most people remain blind even though it constantly operates around them. "Even when they hear it, they do not understand it, like the deaf," he is said to have remarked of his fellow human beings &ndash; a distance that fits SO4w5 exactly: it sees clearly what remains hidden to others, and carries that clarity as both burden and distinction.</p>
+          <p class="vb-intro">From the flow of things he developed the doctrine of the unity of opposites: war is the father of all things, the way up and the way down are one and the same, life and death, waking and sleeping are the same, only in different form. He chose fire as the primal substance and image &ndash; constantly in motion, consuming and creating at once. This figure of thought, that opposites do not exclude but condition one another, became one of the most consequential ideas in Western philosophy, from Hegel to modern dialectics.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Obscure One Who Brought Light</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heraclitus died around 475 BC, according to tradition of dropsy &ndash; one legend has it that he tried to heal himself by having himself covered in dung, and died from it, unrecognized by his own countrymen. Whether this story is to be taken literally is doubtful; as an image for a man who followed his own, unconventional path to the end and remained alone in doing so, it captures the core of his character.</p>
+          <p class="vb-intro">His fragments reverberated far beyond antiquity: Plato, the Stoics, and later Nietzsche, Hegel, and Heidegger wrestled with his thought. The armadillo that turned away from the Ephesian community in order to write in deliberate obscurity paradoxically left behind one of the brightest guiding stars in the history of philosophy &ndash; a thought that transformed melancholy over impermanence into the deepest of all insights: that change itself is the only constant.</p>
+        </blockquote>
+
+        <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-top:1.5rem;max-width:100%;">
+          <p style="margin:0;font-size:1.05rem;font-style:italic;color:var(--ink);">"You cannot step into the same river twice."</p>
+          <p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--muted);">&ndash; Heraclitus</p>
+        </div>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-hippokrates-von-kos", label:"Portrait: Hippocrates of Kos (SO4w5)"},
         {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5)"},
         {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
       ])}
@@ -49994,6 +50070,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
+      "beruehmte-heraklit": heraklitPortraitPage,
       "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
