@@ -31655,6 +31655,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Linda Leinweber \u2013 Sexueller Typ 4",
     teaser:"SX4w5 \xb7 Psychologin, Autorin, Coach, Gr\xfcnderin von Poise. \u201eFrei und trotzdem verbunden\u201c. Der Chihuahua, der den eigenen Schmerz zur Pr\xe4zision gemacht hat \u2013 und Menschen lehrt, hinzuschauen, bevor es zu sp\xe4t ist.",
     tags:["Psychologie","Coaching"], gender:"f"},
+  { route:"beruehmte-dante-alighieri", name:"Dante Alighieri", added:"2026-08-14", subtyp:"SX4w5",
+    heading:"Dante Alighieri – Sexueller Typ 4",
+    teaser:"SX4w5 · 1265–1321. Italienischer Dichter, Göttliche Komödie. Verbannung aus Florenz, unerfüllte Liebe zu Beatrice, politische Feinde namentlich in der Hölle verewigt. Der Chihuahua mit Fünferflügel: persönlicher Schmerz, verwandelt in ein enzyklopädisches Weltgericht. Tierentsprechung: Chihuahua.",
+    tags:["Geschichte","Literatur"], gender:"m"},
   { route:"beruehmte-claude-debussy", name:"Claude Debussy", added:"2026-08-01", subtyp:"SX4w5",
     heading:"Claude Debussy \u2013 Sexueller Typ 4",
     teaser:"SX4w5 \u00b7 1862\u20131918. Komponist, Begr\u00fcnder der musikalischen Moderne. Clair de Lune, La Mer, Pell\u00e9as et M\u00e9lisande. Der Chihuahua, der die europ\u00e4ische Musik von den Fundamenten her neu dachte \u2013 und dabei nie aufh\u00f6rte, gegen die Konvention zu rivalisieren.",
@@ -43885,6 +43889,72 @@ function claudeDebussyPortraitPage() {
         {route:"subtype/sx4", label:"SX4 \u2013 Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-ana-de-armas", label:"Portr\xe4t: Ana de Armas (SX4w5)"},
         {route:"beruehmte-linda-leinweber", label:"Portr\xe4t: Linda Leinweber (SX4w5)"},
+        {route:"beruehmte-dante-alighieri", label:"Porträt: Dante Alighieri (SX4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function danteAlighieriPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dante-alighieri-portrait.jpg" alt="Dante Alighieri" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dante Alighieri</p>
+        <p class="krim-portrait-typ">SX4w5 · Sexueller Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Italienischer Dichter, 1265–1321 – Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua, der aus der Verbannung ein Weltgericht baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier: klein von Gestalt, gewaltig im Innenleben, unfähig zu Halbheiten in Liebe wie in Zorn. Dante Alighieri wurde 1265 in Florenz geboren, in eine Stadt, die ihn später verstoßen sollte – und aus genau dieser Verstoßung heraus schuf er eines der gewaltigsten literarischen Werke der Weltgeschichte.</p>
+          <p class="vb-intro">1302 wurde Dante, mitten in den Machtkämpfen zwischen den politischen Fraktionen der Weißen und Schwarzen Guelfen, unter falschen Korruptionsvorwürfen aus Florenz verbannt und bei Nichtrückkehr zum Tode verurteilt. Er sollte seine Heimatstadt nie wieder betreten. Der Chihuahua, aus seinem Revier vertrieben, verwandelte die Verbannung nicht in Resignation, sondern in das Material für ein Werk, das ihm posthum genau jene Unsterblichkeit sicherte, die ihm die Stadt zu Lebzeiten verweigerte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Beatrice und die Rivalität mit der eigenen Stadt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> trägt den Schmerz der Vier nach außen – als Intensität, als Sehnsucht, als Rivalität gegen alles, was die eigene Wahrheit verweigert. Naranjo nannte diesen Subtyp <em>Rivalität</em>: die brennende Überzeugung, dass einem etwas Wesentliches vorenthalten wird, verbunden mit dem Antrieb, dagegen anzutreten. Dantes Liebe zu Beatrice Portinari, die er als Neunjähriger zum ersten Mal sah und mit 18 Jahren wiederbegegnete, blieb zeitlebens weitgehend unerfüllt – Beatrice heiratete einen anderen und starb 1290 mit nur 24 Jahren. In "La Vita Nuova" verarbeitete Dante diese Sehnsucht zu einer der intensivsten Liebesdichtungen des Mittelalters.</p>
+          <p class="vb-intro">Dieselbe Intensität richtete sich gegen seine politischen Feinde: In der "Göttlichen Komödie" platzierte Dante zahlreiche reale Zeitgenossen – politische Rivalen, korrupte Päpste, Verräter seiner eigenen Partei – namentlich in genau bestimmten Kreisen der Hölle, mit genau bemessenen Qualen für ihre jeweiligen Vergehen. Das ist die SX4 in ihrer schärfsten Form: Der persönliche Schmerz der Verbannung wird nicht verdrängt, sondern in ein literarisches Gericht verwandelt, das über die eigene Lebenszeit hinaus Bestand haben sollte – und bis heute hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Die Architektur des Jenseits</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sexuellen Vier den analytischen Hunger, das eigene Gefühl nicht nur auszudrücken, sondern in ein vollständig durchdachtes System zu übersetzen. Die "Göttliche Komödie" ist genau das: ein Bauwerk von mathematischer Präzision – neun Höllenkreise, sieben Terrassen des Läuterungsbergs, neun Himmelssphären, exakt einhundert Gesänge, in Terzinen verfasst, deren Reimschema selbst eine fortlaufende, nie abreißende Kette bildet.</p>
+          <p class="vb-intro">Dante verarbeitete darin die gesamte Gelehrsamkeit seiner Zeit – aristotelische Philosophie, thomistische Theologie, mittelalterliche Astronomie, römische Dichtung, insbesondere Vergil, den er sich selbst als Führer durch Hölle und Fegefeuer zur Seite stellte. Der Fünferflügel verwandelte die glühende Rivalität der SX4 in ein Werk von enzyklopädischer Genauigkeit – jede Strafe, jede Belohnung, jede Sphäre folgt einer inneren Logik, die Dante bis ins letzte Detail durchdacht hatte, bevor er ein einziges Wort niederschrieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Volkssprache als Akt der Rivalität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine der folgenreichsten Entscheidungen Dantes war rein sprachlicher Natur und zugleich zutiefst rebellisch: Er schrieb die "Göttliche Komödie" nicht in Latein, der Sprache der Gelehrten und der Kirche, sondern im toskanischen Volgare – der gesprochenen Sprache seiner Heimatregion. Das war ein bewusster Affront gegen die gelehrte Elite, die Literatur in der Volkssprache für minderwertig hielt.</p>
+          <p class="vb-intro">Diese Entscheidung machte sein Werk einem breiten Publikum zugänglich – und begründete gleichzeitig die moderne italienische Schriftsprache. Der Chihuahua, der von den Mächtigen seiner Zeit verstoßen wurde, wählte eine Sprache, die genau diesen Mächtigen die Deutungshoheit entzog, und schuf damit unbeabsichtigt ein Nationalwerk, das Italien Jahrhunderte vor seiner politischen Einigung sprachlich zusammenhielt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> – bei der SX4 als Rivalität, als das Gefühl, dass einem die eigene Stadt, die eigene Liebe, die eigene Anerkennung zu Unrecht vorenthalten wurde. Bei Dante speiste sich daraus sowohl die schöpferische Kraft des Werks als auch seine kompromisslose Härte gegenüber jedem, den er für sein Unglück verantwortlich hielt – bis hin zu Zeitgenossen, die er noch zu deren Lebzeiten in seiner Hölle verewigte.</p>
+          <p class="vb-intro">Das Licht liegt in der Fähigkeit, aus persönlichem Leid ein Werk zu schaffen, das weit über die eigene Verletzung hinausreicht: Die "Göttliche Komödie" ist zugleich Rachefantasie, Liebeserklärung, theologische Summe und politisches Manifest – und dennoch, oder gerade deshalb, eines der einflussreichsten Werke der Weltliteratur. Der Schatten liegt in der Unversöhnlichkeit: Dante starb, ohne sich je mit Florenz auszusöhnen, und die Stadt bat erst Jahrhunderte später offiziell um Verzeihung für seine Verbannung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Verbannte, den niemand mehr verbannen konnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dante starb 1321 in Ravenna, wohin ihn seine Wanderschaft durch verschiedene oberitalienische Höfe zuletzt geführt hatte – nie nach Florenz zurückgekehrt, nie offiziell begnadigt. Florenz forderte noch Jahrhunderte später vergeblich die Rückführung seiner sterblichen Überreste; Ravenna gab den Dichter nie heraus, den es aufgenommen hatte, als seine eigene Stadt ihn verstieß.</p>
+          <p class="vb-intro">Der Chihuahua, der aus einer persönlichen und politischen Kränkung heraus ein Weltgericht über Himmel, Hölle und Fegefeuer errichtete, hinterließ mehr als ein Gedicht: Er hinterließ die moderne italienische Sprache, ein Modell christlicher Kosmologie, das die Vorstellungskraft von Michelangelo bis zu heutigen Autoren prägte, und den Beweis, dass die intensivste persönliche Verletzung, wenn sie mit äußerster Präzision geformt wird, zu einem Werk werden kann, das seine Zeit um Jahrhunderte überdauert.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-claude-debussy", label:"Porträt: Claude Debussy (SX4w5)"},
+        {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3)"},
       ])}
     </div>
   `);
@@ -84903,6 +84973,7 @@ function render() {
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
       "beruehmte-claude-debussy": claudeDebussyPortraitPage,
+      "beruehmte-dante-alighieri": danteAlighieriPortraitPage,
       "beruehmte-marquis-de-sade": marquisDeSadePortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-xu-bing": xuBingPortraitPage,
