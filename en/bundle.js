@@ -43416,7 +43416,7 @@ function beruhmtePhilosophenPage() {
 
 function hoellenkreiseDantePage() {
   const kreise = [
-    { typ: 1, kreis: 1, farbe: "#c98a8a", titel: "1st Circle", text: "Here dwell the wise, poets, and heroes of antiquity – Dante himself was a poet and placed himself here, at Type 1." },
+    { typ: 1, kreis: 1, farbe: "#c98a8a", titel: "1st Circle", text: "Here dwell the wise, poets, and heroes of antiquity. In an early version of this chart, Dante mistakenly placed himself at Type 1 – on closer analysis, as his portrait shows, he was clearly a sexual Four with a Five-wing (SX4w5)." },
     { typ: 2, kreis: 2, farbe: "#9b3fa0", titel: "2nd Circle", text: "In the hell of lust, the sinners of love are whipped by terrible storms – driven restlessly onward, never coming to rest." },
     { typ: 3, kreis: 9, farbe: "#8fd6cf", titel: "9th Circle", text: "In the ice, traitors, fratricides, and patricides are frozen in place and suffer bitter cold – the opposite of the warmth they themselves denied others." },
     { typ: 4, kreis: 7, farbe: "#3fae3f", titel: "7th Circle", text: "(Self-)murderers are tormented in the desert under a rain of fire – violence once directed at oneself or others returns as an eternal burning." },
