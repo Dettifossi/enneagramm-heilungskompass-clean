@@ -31803,6 +31803,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wladimir Putin \u2013 Sexueller Typ 6",
     teaser:"SX6w5 \u00b7 geb. 1952 in Leningrad. Politiker, Pr\u00e4sident der Russischen F\u00f6deration, ehem. KGB-Offizier. Der Wolf, der Angst durch Kontrolle \u00fcber andere zu bezwingen versucht.",
     tags:["Politik"], gender:"m"},
+  { route:"beruehmte-platon", name:"Platon", added:"2026-08-14", subtyp:"SX6w5",
+    heading:"Platon – Sexueller Typ 6",
+    teaser:"SX6w5 · ca. 428–348 v. Chr. Griechischer Philosoph, Schüler des Sokrates, Gründer der Akademie. Ideenlehre, Höhlengleichnis, ›Politeia‹. Der Wolf mit Fünferflügel: aus dem Verrat an Sokrates eine unerschütterliche Ordnung geschaffen. Tierentsprechung: Wolf.",
+    tags:["Geschichte","Philosophie"], gender:"m"},
   { route:"beruehmte-ludwig-van-beethoven", name:"Ludwig van Beethoven", added:"2026-08-13", subtyp:"SX6w5",
     heading:"Ludwig van Beethoven \u2013 Sexueller Typ 6",
     teaser:"SX6w5 \u00b7 1770\u20131827. Deutscher Komponist. Neunte Symphonie, Mondscheinsonate, Eroica. Der Wolf, der seine fortschreitende Taubheit nicht besiegte, sondern der Angst mit trotziger Sch\u00f6pferkraft ins Gesicht sprang \u2013 \u201aIch will dem Schicksal in den Rachen greifen'.",
@@ -49876,6 +49880,75 @@ function fjodorDostojewskiPortraitPage() {
         {route:"subtype/se6", label:"SE6 \u2013 Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-sundar-pichai", label:"Portr\xe4t: Sundar Pichai (SE6w5)"},
         {route:"beruehmte-herbert-kickl", label:"Portr\xe4t: Herbert Kickl (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function platonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-platon-portrait.jpg" alt="Platon" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Platon</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexueller Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Griechischer Philosoph, ca. 428–348 v. Chr. – Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf, der dem Verrat eine Ordnung entgegensetzte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Rudeltier, das Bedrohung nicht mit Rückzug beantwortet, sondern mit der Errichtung einer Ordnung, die stark genug ist, sie nie wieder zuzulassen. Platon wurde um 428 v. Chr. in Athen in eine einflussreiche aristokratische Familie geboren; sein eigentlicher Name soll Aristokles gewesen sein, "Platon" – der Breite – ein Beiname, den er der Überlieferung nach als Ringer erhielt, dessen kräftiger Körperbau selbst im Wettkampf auffiel.</p>
+          <p class="vb-intro">399 v. Chr. erlebte der etwa 28-jährige Platon das Ereignis, das sein gesamtes weiteres Denken prägen sollte: die athenische Demokratie verurteilte seinen Lehrer Sokrates in einem Schauprozess wegen angeblicher Gottlosigkeit und Verderbung der Jugend zum Tode. Ein Mann, der nichts als Fragen gestellt hatte, wurde von der Mehrheit des Volkes zum Schierlingsbecher verurteilt. Für den jungen Platon war das keine abstrakte politische Lektion, sondern der Verlust der Vertrauensgrundlage schlechthin: Wenn selbst die gerechteste Gemeinschaft ihren gerechtesten Bürger tötet, worauf lässt sich dann noch bauen?</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Sicherheit durch die richtige Ordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der Kontratyp der Sechs: Die Leidenschaft der Angst zeigt sich hier nicht als Zögern, sondern als das Gegenteil – als der entschlossene Griff nach einer Ordnung, die stark genug ist, um nie wieder erschüttert zu werden. Nach dem Tod des Sokrates zog sich Platon nicht resigniert zurück, sondern begann, in seinem Alterswerk "Politeia" (Der Staat) systematisch zu entwerfen, wie eine Gesellschaft aussehen müsste, die einen solchen Justizmord nie wieder zuließe.</p>
+          <p class="vb-intro">Das Ergebnis ist eine der autoritärsten politischen Utopien der Ideengeschichte: eine strikt hierarchische Ordnung aus Philosophenkönigen, Wächtern und Produzenten, Zensur der Dichtung, gemeinsame Erziehung der Kinder durch den Staat, keine Volksherrschaft, sondern die Herrschaft derer, die "die Wahrheit" erkannt haben. Das ist die sexuelle Sechs in ihrer politischsten Form: Wo Vertrauen einmal fundamental zerbrochen ist, wird nicht Misstrauen zum Programm, sondern eine Ordnung, die stark genug ist, dass man ihr wieder vertrauen kann – notfalls, indem man selbst darüber bestimmt, wer regieren darf.</p>
+          <p class="vb-intro">Auch persönlich zeigte sich diese Unbeugsamkeit: Platon reiste dreimal nach Sizilien an den Hof von Syrakus, um dort – zunächst unter Dionysios I., später unter dessen Sohn Dionysios II. – sein Ideal des "Philosophenkönigs" tatsächlich in die politische Praxis umzusetzen. Der Überlieferung nach wurde er bei der ersten Reise um 388 v. Chr. sogar in die Sklaverei verkauft und musste von Freunden freigekauft werden. Ein vorsichtigerer Mensch hätte nach diesem Debakel nie wieder einen Fuß nach Sizilien gesetzt – Platon reiste zweimal zurück.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Die Akademie als Bollwerk des Denkens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sexuellen Sechs die analytische Tiefe, mit der aus Misstrauen ein geschlossenes Denksystem wird. Um 387 v. Chr. gründete Platon in einem Hain nahe Athen, der dem Heros Akademos geweiht war, seine Akademie – die erste dauerhafte Institution höherer Bildung des Abendlandes. Der Legende nach stand über ihrem Eingang die Inschrift: "Wer der Geometrie unkundig ist, trete hier nicht ein" – eine Schwelle, die nur betreten durfte, wer sich der strengen Disziplin des Denkens bereits unterworfen hatte.</p>
+          <p class="vb-intro">In seiner Ideenlehre entwarf Platon eine Wirklichkeit hinter der Wirklichkeit: Die sichtbare Welt sei nur ein flüchtiger Schatten ewiger, unveränderlicher Ideen – die wahre Sicherheit liege nicht im Wandel der Erscheinungen, sondern in einer Ordnung, die für immer Bestand hat. Das berühmte Höhlengleichnis aus der "Politeia" beschreibt Gefangene, die ihr Leben lang nur Schatten an einer Wand sehen und die wahre Sonne draußen zunächst nicht ertragen können. Der Fünferflügel verwandelt hier die Wachsamkeit der Sechs in ein vollständiges metaphysisches System: Wer die Ideen hinter den Dingen kennt, kann von keiner Täuschung mehr überrascht werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der dialogische Kampf: Sokrates als Schutzschild und Waffe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fast alle erhaltenen Werke Platons sind als Dialoge verfasst, in denen die Figur des Sokrates im Gespräch mit anderen Athenern deren scheinbare Gewissheiten Stück für Stück zerlegt – die sogenannte Mäeutik, die "Hebammenkunst" des Fragens. Diese Form ist selbst schon ein Ausdruck der SX6w5: Statt eigene Thesen direkt zu behaupten, lässt Platon seinen verstorbenen Lehrer im Text weiterkämpfen – Sokrates wird zur literarischen Waffe, mit der Platon die athenische Gesellschaft, die ihn getötet hat, immer wieder aufs Neue mit ihren eigenen Widersprüchen konfrontiert.</p>
+          <p class="vb-intro">In Dialogen wie "Gorgias" oder "Menon" treibt der literarische Sokrates seine Gesprächspartner systematisch in Widersprüche, bis deren vermeintliches Wissen kollabiert – ein intellektueller Nahkampf, der ebenso konfrontativ ist wie er strukturell diszipliniert bleibt. Die Stärke der sexuellen Sechs zeigt sich hier nicht als körperliche Kraft, sondern als unerbittliche Beharrlichkeit im Gespräch, die keine bequeme Ausflucht zulässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 zeigt sich in der schieren Ausdauer, mit der Platon aus einer traumatischen Erfahrung ein vollständiges philosophisches System schuf, das bis heute die Grundfragen von Erkenntnistheorie, Ethik und Politik prägt. Der britische Philosoph Alfred North Whitehead bemerkte im 20. Jahrhundert, die gesamte europäische Philosophietradition bestehe im Grunde nur aus "einer Reihe von Fußnoten zu Platon" – eine Übertreibung, die dennoch den Kern trifft.</p>
+          <p class="vb-intro">Der Schatten liegt in der autoritären Konsequenz seines Sicherheitsbedürfnisses: Der "ideale Staat" der "Politeia" duldet keine abweichende Meinung, keine freie Kunst, keine demokratische Mitsprache der breiten Bevölkerung. Wo die sexuelle Sechs eine Ordnung baut, die stark genug ist, nie wieder erschüttert zu werden, kann diese Ordnung selbst zur Bedrohung für jene werden, die sich ihr nicht fügen wollen – ein Muster, das autoritäre Denker seit der Antike immer wieder aus Platons Werk herausgelesen haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Die Akademie, die 900 Jahre bestand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Platon starb um 348 v. Chr. in Athen, der Überlieferung nach während einer Hochzeitsfeier. Seine Akademie überdauerte ihn um Jahrhunderte – sie bestand, mit Unterbrechungen, bis sie 529 n. Chr. vom oströmischen Kaiser Justinian I. geschlossen wurde, fast 900 Jahre nach ihrer Gründung. Unter seinen Schülern befand sich Aristoteles, der die Akademie später verließ, um ein eigenes, empirischeres Denksystem zu entwickeln – eine Trennung, die die Philosophiegeschichte für Jahrtausende in zwei große Strömungen teilte.</p>
+          <p class="vb-intro">Der Wolf, der dem Verrat an seinem Lehrer eine unerschütterliche Ordnung entgegensetzte, hinterließ damit nicht nur eine politische Utopie, sondern ein Denkgebäude, das den Wunsch nach absoluter, unveränderlicher Sicherheit in eine der einflussreichsten philosophischen Traditionen der Menschheitsgeschichte verwandelte – eine Sicherheit, die er selbst, nach dem Verlust des Sokrates, nie wieder dem bloßen Vertrauen überlassen wollte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5)"},
+        {route:"beruehmte-wladimir-putin", label:"Porträt: Wladimir Putin (SX6w5)"},
+        {route:"beruehmte-alice-schwarzer", label:"Porträt: Alice Schwarzer (SX6w5)"},
+        {route:"beruehmte-heraklit", label:"Porträt: Heraklit (SO4w5)"},
+        {route:"beruehmte-pythagoras", label:"Porträt: Pythagoras (SO5w6)"},
       ])}
     </div>
   `);
@@ -84197,6 +84270,7 @@ function render() {
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
       "beruehmte-ludwig-van-beethoven": ludwigVanBeethovenPortraitPage,
+      "beruehmte-platon": platonPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
       "beruehmte-michael-schumacher": michaelSchumacherPortraitPage,
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
