@@ -16755,7 +16755,7 @@ function gloriaVonThurnUndTaxisPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The hippopotamus is the animal of the self-preservation Two, and hardly any personality in post-war German history embodies this animal as fully as Gloria von Thurn und Taxis. The hippopotamus lives in two worlds: In the water it is weightless, playful, surprisingly agile. On land it shows its true weight. What most do not know: The hippopotamus is the most dangerous large mammal in Africa. It seems harmless until it sees its territory threatened. Then it acts without hesitation, without apology, with a force that completely belies its sluggish appearance.</p>
+          <p class="vb-intro">The hippopotamus is the animal of the self-preservation Two, and hardly any personality in post-war German history embodies this animal as fully as Gloria von Thurn und Taxis. A newborn hippopotamus already weighs around fifty kilograms &ndash; it does not enter the world as a fragile infant, but from its very first minute carries the full weight of its species. Whoever underestimates it has never seen what it has carried within itself since birth.</p>
           <p class="vb-intro">In the 1980s, Gloria von Thurn und Taxis was known as the punk princess: mohawk, parties, excesses, a life followed with enthusiasm by the tabloid press. When her husband Johannes died in 1990, leaving the family with debt in the billions and a chaotic corporate structure, the hippopotamus stepped out of the water. What followed was not a metamorphosis it was a revelation. Who Gloria von Thurn und Taxis really was only showed itself at the moment when everything was on the line.</p>
         </blockquote>
 
@@ -22647,7 +22647,7 @@ function yayoiKusamaPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal underestimated until one experiences its true power. It appears calm, almost motionless in the water, yet it defends its territory with unyielding determination. And it needs its water, its element, simply to survive &ndash; without it, it perishes.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal whose skin would crack within hours without constant contact with water. It even secretes a reddish fluid of its own that shields its skin from the sun on the rare occasions it must leave the water. Its element is not a preference. It is the one condition under which its body can exist at all.</p>
           <p class="vb-intro">Yayoi Kusama has painted dots since her childhood &ndash; countless, endlessly repeating circles that spread across canvases, pumpkins, entire rooms, and her own body. For her this is no artistic concept in the ordinary sense, but a matter of survival: without painting, she herself has said, she would long ago have taken her own life. The Hippopotamus needs its water. Kusama needs her dots.</p>
         </blockquote>
 
@@ -29547,7 +29547,7 @@ function gretaThunbergPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; and it is a creature that one underestimates until one can no longer do so. It seems sluggish, almost harmless. It lies in the water. It pauses. But the hippopotamus is one of Africa&#39;s most dangerous animals. It defends its territory with a force that comes from within &ndash; not from aggression, but from absolute knowledge: This is mine. This is necessary. I will not give this up.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that can block an entire riverbed without taking a single step. It does not need to attack to have an effect. It only needs to stand in one place and refuse to move &ndash; and the whole current around it has to find a new way.</p>
           <p class="vb-intro">Greta Thunberg sat alone in front of the Swedish Riksdag in August 2018 &ndash; a fifteen-year-old girl with a hand-made sign. She did not ask for permission. She did not wait for the right moment. She acted, because the situation demanded action. That is the energy of the hippopotamus: not loud, until it must be loud &ndash; and then unstoppable.</p>
         </blockquote>
 
@@ -29610,7 +29610,7 @@ function margotFriedlaenderPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal underestimated until it can no longer be underestimated. It appears calm, almost motionless in the water. But it defends its territory with a force that comes from within, not from aggression: the absolute knowledge of what deserves protection and what will never be given up.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that can spend up to sixteen hours a day almost entirely submerged, barely visible, barely noticeable, and yet awake the whole time. It does not submerge to disappear. It submerges because that is where its safety lies &ndash; and it surfaces exactly in the moment it is needed.</p>
           <p class="vb-intro">Margot Friedländer survived the Holocaust, emigrated to the United States after the war, and lived a quiet, withdrawn life there for over fifty years. Only after her husband's death, well into her seventies, did she begin to speak &ndash; and past eighty she returned permanently to Berlin to appear, tirelessly, before school classes until shortly before her death at 103. The Hippopotamus rests long in the water. But when it moves, it moves with a determination nothing can stop.</p>
         </blockquote>
 
@@ -29675,7 +29675,8 @@ function soerenKierkegaardPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus That Stayed in Its Own Waters</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature one underestimates until one can no longer do so. It appears sluggish, almost withdrawn. But it defends its territory with a force that comes from within &ndash; from the absolute knowledge: this is necessary, I will not give it up. Søren Kierkegaard barely left Copenhagen his entire life, remaining almost exclusively within his own city, his own mind, his own inner waters &ndash; and from there defended, with unrelenting consistency, what he held to be the truth about human existence.</p>
+          <p class="vb-intro">The <strong>hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that marks its territory with a precision biologists only came to understand late: it scatters its dung along exact, repeated paths, always in the same places, as if every boundary of its territory had to be recorded in writing. No accident, no randomness &ndash; a system any intruder can read, if it looks closely enough.</p>
+          <p class="vb-intro">Søren Kierkegaard barely left Copenhagen his entire life, remaining almost exclusively within his own city, his own mind, his own inner waters &ndash; and from there defended, with unrelenting consistency, what he held to be the truth about human existence.</p>
           <p class="vb-intro">Born in 1813, the youngest of seven children of a wealthy but deeply melancholic wool merchant, he grew up in a household steeped in guilt and religious dread: his father later confessed to him that in his youth he had cursed God, and that he had had an affair before marrying Kierkegaard's mother &ndash; a confession that convinced the young Søren his family lived under a divine curse. Five of his siblings died before he reached adulthood himself. The hippopotamus learned early: survival means looking closely at what is truly threatening.</p>
         </blockquote>
 
@@ -29739,7 +29740,7 @@ function janUllrichPortraitPage() {
 
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; and it is a creature that lives in two worlds. In water it is weightless, supple, astonishingly fast. On land it appears massive, sluggish, almost immovable. The hippopotamus has known this change for millions of years. It needs both: the depth of the water and the warmth of the sun. Deprive it of either and it loses its balance.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that, despite its enormous weight, walks along a riverbed with a lightness no one would credit it with, pushing off and gliding almost weightlessly, even though it can barely swim in the ordinary sense. It moves most powerfully exactly where its own weight should be working against it.</p>
           <p class="vb-intro">Jan Ullrich lived this animal within himself &ndash; with everything that entails. On the bike he was the purest natural talent in cycling history: power output, rhythm, capacity to suffer at a level that compelled even his sharpest rivals to reverence. Away from the bike he searched again and again for balance &ndash; and did not always find it. The hippopotamus needs its water. For Ullrich, the bicycle was that water.</p>
         </blockquote>
 
