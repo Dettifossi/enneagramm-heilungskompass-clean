@@ -31363,6 +31363,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Uli Hoene\u00df \u2013 Selbsterhaltender Typ 2",
     teaser:"SE2w3 \u00b7 geb. 1952. Fu\u00dfballweltmeister 1974, Manager und Pr\u00e4sident des FC Bayern M\u00fcnchen. Vier Jahrzehnte Aufbauarbeit, Steueraff\u00e4re und R\u00fcckkehr. Das Flusspferd verteidigt sein Revier \u2013 und kommt nach dem Sturz st\u00e4rker zur\u00fcck als zuvor. Tierentsprechung: Flusspferd.",
     tags:["Sport","Wirtschaft"] , gender:"m"},
+  { route:"beruehmte-ai-weiwei", name:"Ai Weiwei", added:"2026-08-14", subtyp:"SE2w3",
+    heading:"Ai Weiwei – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 1957. Chinesischer Künstler und Aktivist, Sunflower Seeds, Human Flow, 81 Tage Haft 2011. Das Flusspferd verteidigt sein Revier – öffentlich, unerschrocken, mit dem Blick auf möglichst viele Menschen. Tierentsprechung: Flusspferd.",
+    tags:["Kunst","Aktivismus"], gender:"m"},
   { route:"beruehmte-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", added:"2026-08-13", subtyp:"SE2w3",
     heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · 1756–1791. Österreichischer Komponist. Wunderkind auf Europatournee, Bruch mit dem Salzburger Fürsterzbischof, über 600 Werke in 35 Lebensjahren. Das Flusspferd mit Dreierflügel: Fürsorge, derber Humor und unermüdlicher Ehrgeiz auf der Bühne. Tierentsprechung: Flusspferd.",
@@ -52610,6 +52614,72 @@ function wolfgangAmadeusMozartPortraitPage() {
         {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5) – der ihn zeitlebens verehrte"},
         {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2) – enger Freund und bewunderter Kollege"},
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function aiWeiweiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ai-weiwei-portrait.jpg" alt="Ai Weiwei" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ai Weiwei</p>
+        <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Chinesischer Künstler und Aktivist, geb. 1957 – Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei – ein Wesen, das gutmütig und rund wirkt und dennoch zu den gefährlichsten Tieren seines Lebensraums zählt, sobald sein Revier bedroht wird. Ai Weiwei trägt diese Doppelnatur unübersehbar: ein Künstler mit warmem, oft ironischem Blick auf Menschen, der zugleich zu den unerschrockensten Kritikern der chinesischen Regierung wurde – ein Mann, der sein Terrain nicht kampflos räumt.</p>
+          <p class="vb-intro">Geboren 1957 als Sohn des Dichters Ai Qing, verbrachte er einen Großteil seiner Kindheit in der Verbannung: Sein Vater wurde während der Kulturrevolution als "Rechtsabweichler" gebrandmarkt und mit der Familie in ein Arbeitslager in Xinjiang geschickt. Ai Weiwei wuchs also mit der sehr konkreten, körperlich erfahrenen Erkenntnis auf, dass Sicherheit und Existenz keine Selbstverständlichkeit sind – eine Prägung, die die Instinktenergie der Selbsterhaltung von früh an schärfte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge als konkrete Handlung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Sie sorgt sich um andere nicht abstrakt, sondern direkt, körperlich, mit den eigenen Händen – und sie sorgt zuerst für die eigene Handlungsfähigkeit, damit sie überhaupt tragen kann. Nach dem verheerenden Erdbeben in Sichuan 2008, bei dem tausende Kinder in mangelhaft gebauten Schulen starben, begann Ai Weiwei mit einem eigenen Bürgerermittlungsteam, die Namen aller toten Kinder zusammenzutragen – am Ende 5.196 Namen, die der offiziellen Vertuschung entrissen wurden.</p>
+          <p class="vb-intro">Diese Fürsorge blieb nie bei der Geste stehen. Er verarbeitete die Namen in der Installation "Remembering" am Haus der Kunst München – neuntausend Kinderrucksäcke, die an der Fassade den Satz einer trauernden Mutter buchstabierten: "Sie lebte glücklich sieben Jahre lang auf dieser Welt." Für die SE2 ist Trauer kein Anlass zum Rückzug, sondern ein Auftrag zum Handeln, sichtbar und unübersehbar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Kunst der Reichweite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Hunger nach Wirkung, nach Sichtbarkeit, nach dem größtmöglichen Publikum für die eigene Botschaft. Ai Weiwei ist einer der medienbewusstesten Künstler seiner Generation: Er baute in den 2000er-Jahren einen der meistgelesenen chinesischen Blogs auf, bevor er 2009 zensiert wurde, wechselte dann konsequent zu Twitter und postete oft mehrmals täglich – Kunst, Kritik, das eigene Leben, alles öffentlich und ungefiltert.</p>
+          <p class="vb-intro">2008 half er als künstlerischer Berater beim Design des Olympiastadions "Vogelnest" in Peking mit – um sich wenige Monate später öffentlich davon zu distanzieren und die Spiele als Propaganda-Inszenierung zu kritisieren. Für die Documenta 2007 ließ er 1.001 chinesische Bürgerinnen und Bürger, viele davon nie zuvor im Ausland gewesen, gemeinsam nach Kassel reisen – ein Kunstwerk namens "Fairytale", das Reichweite nicht als Metapher, sondern als reale, logistische Großtat verstand. Der Dreierflügel fragt nicht nur "Wie helfe ich?", sondern auch "Wie erreiche ich möglichst viele damit?"</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Stolz im Angesicht der Macht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Zwei heißt <strong>Stolz</strong> – bei der SE2w3 gerichtet auf die eigene Unentbehrlichkeit und die sichtbare Wirkung des eigenen Handelns. 2011 wurde Ai Weiwei am Pekinger Flughafen festgenommen und 81 Tage ohne Anklage festgehalten, offiziell wegen Steuerhinterziehung, von Beobachtern weithin als politische Vergeltung für seine Kritik gewertet. Statt sich einzuschüchtern zu lassen, installierte er nach seiner Freilassung Überwachungskameras aus Marmor und Jade in seinem eigenen Atelier – eine ironische Antwort auf die permanente staatliche Beobachtung, der er ausgesetzt war.</p>
+          <p class="vb-intro">Das ist die Kehrseite der SE2w3 unter Druck: Der Stolz, der sich nicht beugen lässt, kann selbst zur Konfrontation werden, die eigene Sicherheit und die der Menschen im eigenen Umfeld gefährdet. Sein Fahrer und sein Assistent wurden während der Ermittlungen ebenfalls festgehalten – ein Preis, den die Selbsterhaltungszwei, deren Fürsorge zuerst dem eigenen Kreis gilt, besonders schmerzhaft trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Exil: Fürsorge über Grenzen hinweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach der Rückgabe seines Reisepasses 2015 verließ Ai Weiwei China und lebte seither in Berlin, Cambridge und Portugal. Auch im Exil blieb die Fürsorge der SE2 konkret: Mit dem Dokumentarfilm "Human Flow" (2017) reiste er durch 23 Länder, um die globale Flüchtlingskrise aus unmittelbarer Nähe zu zeigen – kein abstrakter Appell, sondern das Bedürfnis, selbst vor Ort zu sein, mit Betroffenen zu sprechen, ihre Gesichter sichtbar zu machen.</p>
+          <p class="vb-intro">Gleichzeitig blieb er seiner betagten Mutter und seinem Sohn Ai Lao eng verbunden – die Sorge um die eigene Familie, das Kernprinzip der SE2, wich nie von der öffentlichen Rolle des Aktivisten. Beides lief bei ihm stets parallel: das große politische Statement und die sehr persönliche, direkte Nähe zu den Menschen, die ihm am nächsten stehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Kunst als Handlung, nicht als Rückzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Werke wie "Sunflower Seeds" – hundert Millionen handbemalte Porzellansamen, ausgebreitet in der Turbinenhalle der Tate Modern – zeigen die typische SE2w3-Verbindung von immensem kollektivem Arbeitsaufwand (über 1.600 Kunsthandwerker in Jingdezhen beteiligt) und öffentlichkeitswirksamer Geste. Jedes Korn ist einzeln, jedes Korn ist Teil einer riesigen Masse – ein Bild für Individuum und Kollektiv, das seine eigene Biografie zwischen Verfolgung und Sichtbarkeit spiegelt.</p>
+          <p class="vb-intro">Ai Weiwei hat gezeigt, dass Kunst für die selbsterhaltende Zwei mit Dreierflügel nie l'art pour l'art sein kann – sie ist Werkzeug, Beweis, Schutzschild und Megafon zugleich. Das Flusspferd verteidigt sein Revier nicht durch Rückzug, sondern durch beständige, oft provokante Präsenz – und macht dabei sichtbar, wofür und für wen es kämpft.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3)"},
+        {route:"beruehmte-oprah-winfrey", label:"Porträt: Oprah Winfrey (SE2w3)"},
         {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3)"},
       ])}
     </div>
@@ -83993,6 +84063,7 @@ function render() {
       "beruehmte-johannes-brahms": johannesBrahmsPortraitPage,
       "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
+      "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,

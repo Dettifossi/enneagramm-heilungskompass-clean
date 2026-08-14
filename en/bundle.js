@@ -963,6 +963,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Uli Hoeneß – Self-Preservation Type 2",
     teaser:"SE2w3 · born 1952. World Cup winner in 1974, manager and president of FC Bayern Munich. Four decades of development work, tax affair and return. The hippo defends its territory - and comes back stronger than before after the fall. Animal correspondence: Hippo.",
     tags:["Sports","Business"] , gender:"m"},
+  { route:"beruehmte-ai-weiwei", name:"Ai Weiwei", added:"2026-08-14", subtyp:"SE2w3",
+    heading:"Ai Weiwei – Self-Preservation Type 2",
+    teaser:"SP2w3 · b. 1957. Chinese artist and activist, Sunflower Seeds, Human Flow, 81 days detained in 2011. The hippopotamus defends its territory – publicly, fearlessly, with an eye on reaching as many people as possible. Animal correspondence: Hippopotamus.",
+    tags:["Art","Activism"], gender:"m"},
   { route:"beruehmte-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", added:"2026-08-13", subtyp:"SE2w3",
     heading:"Wolfgang Amadeus Mozart – Self-Preservation Type 2",
     teaser:"SP2w3 · 1756–1791. Austrian composer. Child prodigy on European tour, break with the Archbishop of Salzburg, over 600 works in 35 years of life. The hippopotamus with the Three-wing: caring, crude humor, and tireless ambition on stage. Animal correspondence: Hippopotamus.",
@@ -22102,6 +22106,72 @@ function wolfgangAmadeusMozartPortraitPage() {
         {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5) – who revered him throughout his life"},
         {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SE3w2) – close friend and admired colleague"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function aiWeiweiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ai-weiwei-portrait.jpg" alt="Ai Weiwei" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ai Weiwei</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">Chinese artist and activist, b. 1957 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that looks good-natured and round, yet ranks among the most dangerous animals of its habitat the moment its territory is threatened. Ai Weiwei carries this dual nature unmistakably: an artist with a warm, often ironic eye for people, who at the same time became one of the most fearless critics of the Chinese government &ndash; a man who does not surrender his ground without a fight.</p>
+          <p class="vb-intro">Born in 1957 as the son of the poet Ai Qing, he spent much of his childhood in exile: his father was branded a "rightist" during the Cultural Revolution and sent with the family to a labor camp in Xinjiang. Ai Weiwei grew up, then, with the very concrete, physically felt knowledge that safety and existence are never a given &ndash; a formation that sharpened his self-preservation instinct from an early age.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Two: Care as Concrete Action</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: she cares for others not abstractly but directly, physically, with her own hands &ndash; and she cares first for her own capacity to act, so that she can carry others at all. After the devastating 2008 Sichuan earthquake, in which thousands of children died in shoddily built schools, Ai Weiwei began, with his own citizen investigation team, to compile the names of every dead child &ndash; in the end, 5,196 names wrested from official cover-up.</p>
+          <p class="vb-intro">This care never stopped at gesture. He worked the names into the installation "Remembering" at Haus der Kunst in Munich &ndash; nine thousand children's backpacks spelling out, across the façade, the words of a grieving mother: "She lived happily on this earth for seven years." For the SP2, grief is not an occasion for withdrawal but a mandate to act, visibly and unmissably.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: The Art of Reach</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two a hunger for impact, visibility, and the widest possible audience for its message. Ai Weiwei is one of the most media-savvy artists of his generation: in the 2000s he built one of the most-read Chinese blogs before it was censored in 2009, then moved decisively to Twitter, often posting several times a day &ndash; art, criticism, his own life, all public and unfiltered.</p>
+          <p class="vb-intro">In 2008 he served as an artistic consultant on the design of Beijing's "Bird's Nest" Olympic stadium &ndash; only to publicly distance himself from it a few months later, criticizing the Games as a propaganda spectacle. For Documenta 2007, he had 1,001 Chinese citizens, many of whom had never been abroad, travel together to Kassel &ndash; an artwork titled "Fairytale" that understood reach not as metaphor but as a real, logistical feat. The Three-wing asks not only "How do I help?" but also "How do I reach as many people as possible with it?"</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Pride in the Face of Power</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Two is called <strong>pride</strong> &ndash; in the SP2w3, directed at one's own indispensability and the visible impact of one's actions. In 2011, Ai Weiwei was arrested at Beijing airport and held for 81 days without charge, officially for tax evasion, widely seen by observers as political retaliation for his criticism. Rather than being intimidated, he installed surveillance cameras carved from marble and jade in his own studio after his release &ndash; an ironic response to the permanent state surveillance he lived under.</p>
+          <p class="vb-intro">This is the flip side of the SP2w3 under pressure: pride that refuses to bend can itself become confrontation, endangering one's own safety and that of the people closest to one. His driver and his assistant were also detained during the investigation &ndash; a price the self-preservation Two, whose care belongs first to her own circle, carries especially painfully.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Exile: Care Across Borders</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After his passport was returned in 2015, Ai Weiwei left China and has since lived in Berlin, Cambridge, and Portugal. Even in exile, the SP2's care remained concrete: with the documentary "Human Flow" (2017), he traveled through 23 countries to show the global refugee crisis up close &ndash; not an abstract appeal, but the need to be there himself, to speak with those affected, to make their faces visible.</p>
+          <p class="vb-intro">At the same time, he remained closely bound to his elderly mother and his son Ai Lao &ndash; the SP2's core principle, care for one's own family, never gave way to his public role as an activist. Both ran in parallel throughout: the grand political statement and the very personal, direct closeness to those nearest to him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Art as Action, Not Retreat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Works such as "Sunflower Seeds" &ndash; a hundred million hand-painted porcelain seeds spread across the Turbine Hall of Tate Modern &ndash; show the typical SP2w3 combination of immense collective labor (over 1,600 craftspeople in Jingdezhen involved) and a public, attention-grabbing gesture. Each seed is individual, each seed is part of an immense mass &ndash; an image of the individual and the collective that mirrors his own biography between persecution and visibility.</p>
+          <p class="vb-intro">Ai Weiwei has shown that for the self-preservation Two with Three-wing, art can never be art for art's sake &ndash; it is tool, evidence, shield, and megaphone at once. The hippopotamus does not defend its territory by retreating, but through steady, often provocative presence &ndash; making visible, in the process, what and whom it fights for.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
+        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SE2w3)"},
         {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
       ])}
     </div>
@@ -49920,6 +49990,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-johannes-brahms": johannesBrahmsPortraitPage,
       "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
+      "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
