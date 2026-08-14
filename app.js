@@ -31264,6 +31264,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Aristoteles \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 384\u2013322 v. Chr. Philosoph, Begr\u00fcnder der Logik, Lehrer Alexanders des Gro\u00dfen. Die goldene Mitte als Lebensprinzip \u2013 kein Kampf gegen die Welt, sondern das ruhige, jahrzehntelange Ordnen allen Wissens in ein einziges System. Tierentsprechung: Adler.",
     tags:["Philosophie","Geschichte"] , gender:"m"},
+  { route:"beruehmte-anthony-hopkins", name:"Anthony Hopkins", added:"2026-08-14", subtyp:"SE1w9",
+    heading:"Anthony Hopkins – Selbsterhaltender Typ 1",
+    teaser:"SE1w9 · geb. 1937 in Port Talbot, Wales. Schauspieler, zwei Oscars („Das Schweigen der Lämmer“, „The Father“). Genauigkeit als Selbstverpflichtung, Stille als Zuhause – Drehbücher werden hundertfach gelesen, bis sie vollständig sitzen. Tierentsprechung: Adler.",
+    tags:["Schauspiel"] , gender:"m"},
   { route:"beruehmte-pierce-brosnan", name:"Pierce Brosnan", added:"2026-08-14", subtyp:"SE1w2",
     heading:"Pierce Brosnan – Selbsterhaltender Typ 1",
     teaser:"SE1w2 · geb. 1953 in Navan, Irland. Schauspieler und Produzent, James Bond 1995–2002. Disziplin als Handwerk, persönlicher Verlust als Antrieb für Engagement gegen Eierstockkrebs und für Umweltschutz. Tierentsprechung: Adler.",
@@ -42808,6 +42812,7 @@ function stingPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se1", label:"SE1 \u2013 Der Besorgte: Subtyp-Profil"},
         {route:"beruehmte-christoph-waltz", label:"Portr\u00e4t: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-anthony-hopkins", label:"Portr\u00e4t: Anthony Hopkins (SE1w9)"},
       ])}
     </div>
   `);
@@ -42874,6 +42879,7 @@ function robertDeNiroPortraitPage() {
         {route:"beruehmte-sting", label:"Porträt: Sting (SE1w9)"},
         {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
         {route:"beruehmte-pierce-brosnan", label:"Porträt: Pierce Brosnan (SE1w2)"},
+        {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
       ])}
     </div>
   `);
@@ -42999,6 +43005,71 @@ function pierceBrosnanPortraitPage() {
         {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
         {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
         {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function anthonyHopkinsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-anthony-hopkins-portrait.jpg" alt="Adler" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anthony Hopkins</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1937 in Port Talbot, Wales &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; ein Tier, das keine Bewegung verschwendet. Er beobachtet lange aus der Stille, bevor er handelt, und wenn er zuschlägt, braucht er dafür keine zweite Chance. Kraft ohne Lärm. Präzision ohne Anstrengung, die man sehen könnte.</p>
+          <p class="vb-intro">Anthony Hopkins ist als Hannibal Lecter in <em>Das Schweigen der Lämmer</em> (1991) mit gerade einmal rund sechzehn Minuten Screentime zum Oscar-Preisträger als bester Hauptdarsteller geworden &ndash; einer der kürzesten Auftritte, die je mit diesem Preis geehrt wurden. Kein Zufall, sondern reine Ökonomie: Jede Geste, jeder Blick, jede Pause war so genau gesetzt, dass sich die Bedrohung nicht durch Lautstärke, sondern durch vollkommene Stille aufbaute. Der Adler muss nicht schreien, um gefürchtet zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Genauigkeit als Selbstverpflichtung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionismus nicht auf die Korrektur der Welt, sondern nach innen: auf das eigene Handwerk, die eigene Vorbereitung, die unbestechliche Genauigkeit gegenüber sich selbst. Naranjo nannte diesen Subtyp <em>Worry</em> &ndash; Besorgnis. Die SE1 fragt sich unablässig: Habe ich es wirklich verstanden? Bin ich vollständig vorbereitet?</p>
+          <p class="vb-intro">Bei Hopkins ist diese Frage zur Methode geworden. Er ist bekannt dafür, jedes Drehbuch zwischen hundert und mehreren hundert Mal zu lesen, bis der Text vollständig auswendig sitzt &ndash; nicht ungefähr, sondern Wort für Wort, Betonung für Betonung, lange bevor am Set überhaupt gedreht wird. Für seine Oscar-prämierte Rolle in <em>The Father</em> (2020) soll er das Drehbuch über 200 Mal gelesen haben. Das ist keine Marotte. Das ist die SE1, die sich weigert, mit weniger als vollständiger Beherrschung vor die Kamera zu treten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die Stille als Zuhause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> fügt der SE1er-Energie eine Qualität hinzu, die auf den ersten Blick im Widerspruch zur intensiven Leinwandpräsenz steht: Rückzug, Stille, das Bedürfnis, sich mit etwas Größerem zu verschmelzen, statt sich selbst in den Vordergrund zu stellen.</p>
+          <p class="vb-intro">Hopkins gilt als notorisch zurückgezogen &ndash; kein Freund von Filmpremieren-Small-Talk, kein Interesse an Society-Auftritten. Er verbringt seine Zeit lieber mit Malen, Komponieren am Klavier und ausgedehnten, meditativen Spaziergängen. 1975 wurde er nüchtern, nachdem eine schwere Alkoholabhängigkeit sein Leben fast zerstört hatte &ndash; seither lebt er mit derselben Disziplin abstinent, mit der er seine Rollen vorbereitet. Der Neunerflügel sucht nicht die Bühne für sich selbst. Er sucht die Ruhe, aus der heraus die eigentliche Arbeit erst möglich wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Zwei Oscars, sechs Jahrzehnte Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zwischen dem ersten Oscar für Hannibal Lecter (1992) und dem zweiten für seine Rolle als an Demenz erkrankter Vater in <em>The Father</em> (2021) liegen fast dreißig Jahre &ndash; mit 83 Jahren wurde Hopkins damit zum ältesten Gewinner in der Kategorie bester Hauptdarsteller der Oscar-Geschichte. Dazwischen: <em>Wolfsstunde</em>, <em>Legends of the Fall</em>, unzählige Bühnenrollen am Royal National Theatre, eine Karriere, die nie auf einer einzigen Ikone stehen blieb.</p>
+          <p class="vb-intro">Neben der Schauspielerei komponiert Hopkins ernsthaft klassische Musik und malt &ndash; beides mit derselben stillen Disziplin, mit der er Drehbücher auswendig lernt. Der Adler kreist über mehrere Reviere zugleich, ohne dass eines davon zur bloßen Nebenbeschäftigung würde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 ist eine seltene Verbindung aus absoluter Handwerksgenauigkeit und innerer Gelassenheit &ndash; ein Künstler, der niemals improvisiert vor die Kamera tritt, aber auch niemals um Aufmerksamkeit ringt. Hopkins' jahrzehntelange Nüchternheit, erreicht und gehalten mit derselben Disziplin wie seine Rollenvorbereitung, zeigt die reife Form dieses Musters.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Distanz, die der Neunerflügel begünstigt. Das Schicksalsmuster der Eins ist der <strong>Zorn</strong>, der sich bei der SE1 meist nach innen wendet &ndash; doch der Rückzug kann auch nach außen verletzen. Hopkins' Verhältnis zu seiner Tochter Abigail aus erster Ehe war über Jahrzehnte von tiefer Entfremdung geprägt; in Interviews hat er selbst eingeräumt, in jüngeren Jahren ein distanzierter, schwieriger Vater gewesen zu sein. Der Adler, der sein eigenes Revier mit größter Sorgfalt pflegt, kann dabei übersehen, wer außerhalb dieses Reviers auf ihn wartet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Kontrolle zur Hingabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit &ndash; von der Frage <em>Habe ich alles unter Kontrolle?</em> zur Erkenntnis <em>Ich darf loslassen, auch wenn nicht alles perfekt ist.</em> Für die SE1w9 zeigt sich dieser Weg besonders in der Fähigkeit, die eigene Disziplin nicht mehr als Schutzwall zu brauchen, sondern als ruhige, tragende Grundlage.</p>
+          <p class="vb-intro">Hopkins selbst spricht in späteren Interviews zunehmend gelassen über Alter, Vergänglichkeit und die eigene Sterblichkeit &ndash; ohne die Schärfe der Selbstkritik früherer Jahrzehnte. Der Adler, der nicht mehr beweisen muss, dass er der Beste ist. Er weiß es längst, und braucht es niemandem mehr zu zeigen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
+        {route:"beruehmte-sting", label:"Porträt: Sting (SE1w9)"},
       ])}
     </div>
   `);
@@ -85381,6 +85452,7 @@ function render() {
       "astrologie-angela-merkel": astrologieAngelaMerkelPage,
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
+      "beruehmte-anthony-hopkins": anthonyHopkinsPortraitPage,
       "beruehmte-pierce-brosnan": pierceBrosnanPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
