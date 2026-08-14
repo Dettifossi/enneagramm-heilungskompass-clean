@@ -31939,6 +31939,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Winston Churchill \u2013 Selbsterhaltender Typ 8",
     teaser:"SE8w9 \u00b7 1874\u20131965. Britischer Staatsmann, Premierminister 1940\u20131945 und 1951\u20131955, Literaturnobelpreistr\u00e4ger 1953. Der Orang-Utan, der in der dunkelsten Stunde Gro\u00dfbritanniens nicht wich \u2013 geerdet, stur, unersch\u00fctterlich.",
     tags:["Politik"], gender:"m"},
+  { route:"beruehmte-sokrates", name:"Sokrates", added:"2026-08-14", subtyp:"SO8w7",
+    heading:"Sokrates – Sozialer Typ 8",
+    teaser:"SO8w7 · ca. 470–399 v. Chr. Griechischer Philosoph, Lehrer Platons. Mäeutik, Prozess wegen Gottlosigkeit, gelassener Tod durch den Schierlingsbecher. Der Löwe mit Siebenerflügel: unermüdliches Fragen, Loyalität zur Polis bis in den Tod. Tierentsprechung: Löwe.",
+    tags:["Geschichte","Philosophie"], gender:"m"},
   { route:"beruehmte-michelle-obama", name:"Michelle Obama", subtyp:"SO8w7",
     heading:"Michelle Obama \u2013 Sozialer Typ 8",
     teaser:"SO8w7 \u00b7 geb. 1964. Anw\u00e4ltin, Autorin, ehemalige First Lady der USA (2009\u20132017). Bestseller-Autorin (Becoming). Der L\u00f6we, der f\u00fcr sein Rudel k\u00e4mpft \u2013 und der wei\u00df, dass man hochgeht, wenn andere runtergehen. Tierentsprechung: L\u00f6we.",
@@ -45854,6 +45858,73 @@ function michelleObamaPortraitPage() {
   `);
 }
 
+function sokratesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sokrates-portrait.jpg" alt="Sokrates" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sokrates</p>
+        <p class="krim-portrait-typ">SO8w7 · Sozialer Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Griechischer Philosoph, ca. 470–399 v. Chr. – Tierentsprechung: Löwe</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Löwe, der Athen wachrüttelte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 – ein Raubtier, das seine Kraft nicht für sich selbst einsetzt, sondern im Dienst des Rudels. Sokrates wurde um 470 v. Chr. in Athen als Sohn eines Steinmetzen geboren und diente als erwachsener Mann mehrfach als schwer bewaffneter Hoplit im Peloponnesischen Krieg – bei Potidaia, Delion und Amphipolis. Der Überlieferung nach rettete er dort seinem jüngeren Kameraden Alkibiades das Leben, indem er ihn verwundet vom Schlachtfeld trug, und stand bei einer anderen Gelegenheit einen ganzen Tag und eine Nacht bewegungslos in Gedanken versunken im Feldlager, ohne sich von Spott oder Kälte beirren zu lassen.</p>
+          <p class="vb-intro">Diese körperliche und geistige Unerschütterlichkeit blieb sein Leben lang sein Markenzeichen: barfuß im Winter unterwegs, gleichgültig gegenüber Komfort, unbestechlich in seinen Überzeugungen. Der Löwe zieht sich nicht zurück, wenn es unbequem wird – er hält stand, für sich und für die, die ihm anvertraut sind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Solidarität mit der Polis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> nennt Naranjo <em>Solidarität</em>: Sie setzt ihre Kraft in den Dienst der Gemeinschaft, nicht in den Dienst der eigenen Sicherheit oder einer einzelnen Beziehung. Bei Sokrates zeigt sich das am deutlichsten im Dialog "Kriton": Nachdem er 399 v. Chr. zum Tode verurteilt worden war, bot ihm sein wohlhabender Freund Kriton die Flucht aus dem Gefängnis an, mit fertigen Plänen und bestochenen Wachen. Sokrates lehnte ab.</p>
+          <p class="vb-intro">Seine Begründung war keine Resignation, sondern eine radikale Loyalität zur Ordnung, die ihn selbst großgezogen hatte: Wer sein Leben lang von den Gesetzen Athens profitiert habe – Erziehung, Schutz, Bürgerrecht –, dürfe sich ihnen nicht entziehen, sobald sie ihm ungünstig ausfielen, selbst wenn das Urteil ungerecht war. Das ist die soziale Acht in ihrer kompromisslosesten Form: Solidarität nicht nur mit den Menschen, die man liebt, sondern mit dem Gemeinwesen selbst, koste es, was es wolle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Appetit auf das volle Leben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der sozialen Acht eine rastlose, appetitive Energie – den Hunger, das Leben in seiner ganzen Fülle auszukosten, statt sich zurückzuziehen. Sokrates verbrachte seine Tage nicht in stiller Studierstube, sondern auf dem Marktplatz, in den Gymnasien, an belebten Straßenecken Athens, wo er Handwerker, Politiker und junge Männer gleichermaßen in Gespräche verwickelte – nie um zu belehren, sondern um zu stacheln.</p>
+          <p class="vb-intro">In seiner Verteidigungsrede, der "Apologie", verglich er sich selbst mit einer Bremse, die einem trägen, aber edlen Pferd aufsitzt und es wachhält: Athen sei dieses große, aber schläfrige Tier, und er selbst die Bremse, die es Tag für Tag sticht, damit es nicht in Selbstzufriedenheit einschläft. Auch sein Auftreten bei geselligen Zusammenkünften war legendär: Im platonischen "Symposion" berichtet Alkibiades, Sokrates habe bei Trinkgelagen jeden unter den Tisch trinken können, ohne selbst betrunken zu wirken, und sei am nächsten Morgen als Einziger nüchtern und aufrecht nach Hause gegangen. Genuss, Geselligkeit und geistige Wachheit gingen bei ihm Hand in Hand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Wollust als unerbittliches Fragen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Acht heißt <strong>Wollust</strong> – kein sexueller, sondern ein existenzieller Hunger nach ungefiltertem, vollem Leben. Bei der SO8w7 richtet sich dieser Hunger auf das Gespräch selbst: Sokrates konnte offenbar nicht aufhören zu fragen. Sein daimonion, eine innere göttliche Stimme, warnte ihn der Überlieferung nach nur davor, etwas Falsches zu tun – sie hielt ihn nie davon ab, unbequeme Fragen zu stellen.</p>
+          <p class="vb-intro">Diese Unermüdlichkeit hatte einen Preis: Sokrates entlarvte systematisch die vermeintliche Weisheit angesehener Politiker, Dichter und Handwerker, indem er sie in Widersprüche verstrickte – und machte sich damit mächtige Feinde. Als ihm 399 v. Chr. der Prozess wegen Gottlosigkeit und Verderbung der Jugend gemacht wurde, schlug er den Geschworenen als Gegenstrafe demonstrativ provokant vor, ihn stattdessen mit freier Verköstigung im Prytaneion zu ehren – wie einen Olympiasieger. Das Gericht verurteilte ihn daraufhin mit noch größerer Mehrheit zum Tode, als es ihn zuvor schuldig gesprochen hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Tod: Standhaftigkeit als letzte Lehre</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Gefängnis, umgeben von trauernden Freunden, verbrachte Sokrates seine letzten Stunden nicht mit Klagen, sondern mit einem Gespräch über die Unsterblichkeit der Seele – überliefert in Platons Dialog "Phaidon". Als der Schierlingsbecher gereicht wurde, trank er ihn ruhig aus, ging im Raum umher, bis seine Beine schwer wurden, und legte sich nieder. Seine letzten Worte sollen einer alltäglichen Bitte gegolten haben: Man möge dem Heilgott Asklepios einen Hahn opfern, den er ihm schulde.</p>
+          <p class="vb-intro">Diese Gelassenheit im Angesicht des Todes ist keine Widerlegung des Löwen, sondern seine reifste Form: Die soziale Acht mit Siebenerflügel fürchtet nicht das Ende, wenn sie weiß, dass sie ihrer Gemeinschaft und ihren Überzeugungen treu geblieben ist. Standhaftigkeit bis zuletzt, ohne Bitterkeit und ohne Fluchtversuch – ein letzter Beweis der Solidarität mit den Gesetzen, denen er sein Leben lang gedient hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Die Bremse, die nie verstummte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sokrates selbst schrieb nichts nieder – alles, was von ihm überliefert ist, stammt aus den Werken seiner Schüler, vor allem Platons und Xenophons, sowie den Spottkomödien des Aristophanes. Gerade diese Weigerung, sein Denken in feste Texte zu gießen, passt zur SO8w7: Wahrheit war für ihn kein Besitz, den man archiviert, sondern ein lebendiges Geschehen im Gespräch, im direkten Kontakt zwischen Menschen.</p>
+          <p class="vb-intro">Der Löwe mit Siebenerflügel hinterließ damit keine geschlossene Lehre, sondern eine Methode und eine Haltung: das unermüdliche Infragestellen bequemer Gewissheiten, verbunden mit einer Loyalität zur Gemeinschaft, die selbst das eigene Todesurteil nicht aufkündigte. Von seinem Schüler Platon über Aristoteles bis in die gesamte westliche Philosophie hinein blieb Sokrates die Bremse, die Generationen von Denkern wachhielt, ohne sie je zur Ruhe kommen zu lassen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"beruehmte-platon", label:"Porträt: Platon (SX6w5) – sein bedeutendster Schüler"},
+        {route:"beruehmte-michelle-obama", label:"Porträt: Michelle Obama (SO8w7)"},
+        {route:"beruehmte-heraklit", label:"Porträt: Heraklit (SO4w5)"},
+        {route:"beruehmte-pythagoras", label:"Porträt: Pythagoras (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
 function jamaicaKincaidPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -49944,6 +50015,7 @@ function platonPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-sokrates", label:"Porträt: Sokrates (SO8w7) – sein Lehrer"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5)"},
         {route:"beruehmte-wladimir-putin", label:"Porträt: Wladimir Putin (SX6w5)"},
         {route:"beruehmte-alice-schwarzer", label:"Porträt: Alice Schwarzer (SX6w5)"},
@@ -84309,6 +84381,7 @@ function render() {
           "beruehmte-carsten-stahl": carstenStahlPortraitPage,
           "beruehmte-cynthia-lummis": cynthiaLummisPortraitPage,
     "beruehmte-michelle-obama": michelleObamaPortraitPage,
+    "beruehmte-sokrates": sokratesPortraitPage,
           "beruehmte-jamaica-kincaid": jamaicaKincaidPortraitPage,
     "beruehmte-bud-spencer": budSpencerPortraitPage,
     "beruehmte-karl-marx": karlMarxPortraitPage,

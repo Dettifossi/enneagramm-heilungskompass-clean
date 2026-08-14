@@ -606,6 +606,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Toni Morrison – Self-Preservation Type 8",
     teaser:"SP8w9 · 1931–2019. Writer, Nobel Prize in Literature 1993. Beloved, Sula, The Bluest Eye. The orangutan woman who broke the silence of history – grounded, unshakeable, of lasting force. Animal correspondence: Orangutan.",
     tags:["Literatur"] },
+  { route:"beruehmte-sokrates", name:"Socrates", added:"2026-08-14", subtyp:"SO8w7",
+    heading:"Socrates – Social Type 8",
+    teaser:"SO8w7 · c. 470–399 BC. Greek philosopher, teacher of Plato. Maieutics, trial for impiety, calm death by hemlock. The lion with the Seven-wing: relentless questioning, loyalty to the polis unto death. Animal correspondence: Lion.",
+    tags:["History","Philosophy"], gender:"m"},
   { route:"beruehmte-michelle-obama", name:"Michelle Obama", subtyp:"SO8w7",
     heading:"Michelle Obama – Social Type 8",
     teaser:"SO8w7 · born 1964. Lawyer, author, former First Lady of the USA (2009–2017). Bestselling author (Becoming). The lion that fights for its pride – and knows to rise when others go low. Animal correspondence: Lion.",
@@ -17179,6 +17183,73 @@ function indraNooyiPortraitPage() {
   `);
 }
 
+function sokratesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-sokrates-portrait.jpg" alt="Socrates" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Socrates</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Social Type 8 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Greek philosopher, c. 470&ndash;399 BC &ndash; Animal correspondence: Lion</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Lion Who Roused Athens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>lion</strong> is the animal of Social Type 8 &ndash; a predator that does not deploy its strength for itself but in service of the pride. Socrates was born around 470 BC in Athens, the son of a stonemason, and as an adult served several times as a heavily armed hoplite in the Peloponnesian War &ndash; at Potidaea, Delium, and Amphipolis. Tradition holds that he saved the life of his younger comrade Alcibiades there, carrying him wounded from the battlefield, and on another occasion stood motionless in thought for a full day and night in the army camp, undeterred by ridicule or cold.</p>
+          <p class="vb-intro">This physical and mental unshakeability remained his trademark throughout his life: walking barefoot in winter, indifferent to comfort, incorruptible in his convictions. The lion does not withdraw when things grow uncomfortable &ndash; it holds its ground, for itself and for those entrusted to it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Eight: Solidarity With the Polis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called <strong>Social Eight (SO8)</strong> <em>Solidarity</em>: it places its strength in the service of the community, not in the service of its own safety or a single relationship. In Socrates this shows most clearly in the dialogue "Crito": after he was sentenced to death in 399 BC, his wealthy friend Crito offered him escape from prison, complete with ready plans and bribed guards. Socrates refused.</p>
+          <p class="vb-intro">His reasoning was no resignation but a radical loyalty to the order that had raised him: whoever has profited their whole life from the laws of Athens &ndash; education, protection, citizenship &ndash; may not evade them the moment they turn unfavorable, even if the verdict was unjust. This is Social Eight in its most uncompromising form: solidarity not only with the people one loves, but with the community itself, whatever the cost.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Appetite for the Full Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives Social Eight a restless, appetitive energy &ndash; the hunger to savor life in its full abundance rather than withdraw from it. Socrates spent his days not in a quiet study but in the marketplace, in the gymnasiums, on the busy street corners of Athens, drawing craftsmen, politicians, and young men alike into conversation &ndash; never to lecture, but to provoke.</p>
+          <p class="vb-intro">In his defense speech, the "Apology," he compared himself to a gadfly perched on a large but sluggish, noble horse, keeping it awake: Athens was that great but drowsy animal, and he himself the gadfly stinging it day after day so it would not fall asleep in self-satisfaction. His conduct at social gatherings was equally legendary: in Plato's "Symposium," Alcibiades reports that Socrates could drink everyone under the table without appearing drunk himself, and was the only one who walked home sober and upright the next morning. Pleasure, sociability, and mental alertness went hand in hand in him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Lust as Relentless Questioning</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Eight is called <strong>lust</strong> &ndash; not a sexual but an existential hunger for unfiltered, full life. In SO8w7, this hunger is directed at conversation itself: Socrates apparently could not stop asking questions. His daimonion, an inner divine voice, according to tradition only ever warned him against doing something wrong &ndash; it never once stopped him from asking uncomfortable questions.</p>
+          <p class="vb-intro">This relentlessness came at a price: Socrates systematically exposed the supposed wisdom of respected politicians, poets, and craftsmen by entangling them in contradictions &ndash; and made powerful enemies in the process. When he was put on trial in 399 BC for impiety and corrupting the youth, he provocatively proposed to the jury, as his counter-penalty, that he be honored instead with free meals in the Prytaneum &ndash; like an Olympic champion. The court then sentenced him to death by an even larger majority than the one that had found him guilty.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Death: Steadfastness as a Final Lesson</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In prison, surrounded by grieving friends, Socrates spent his final hours not in lament but in a conversation about the immortality of the soul &ndash; recorded in Plato's dialogue "Phaedo." When the cup of hemlock was handed to him, he drank it calmly, walked about the room until his legs grew heavy, and lay down. His last words, it is said, concerned an everyday request: that a rooster be sacrificed to the healing god Asclepius on his behalf, a debt he owed.</p>
+          <p class="vb-intro">This composure in the face of death is not a refutation of the lion but its most mature form: Social Eight with the Seven-wing does not fear the end when it knows it has remained true to its community and its convictions. Steadfast to the last, without bitterness and without attempting escape &ndash; a final proof of solidarity with the laws he had served his whole life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Gadfly That Never Fell Silent</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Socrates himself wrote nothing down &ndash; everything passed down about him comes from the works of his students, above all Plato and Xenophon, as well as the mocking comedies of Aristophanes. This very refusal to cast his thinking into fixed texts fits SO8w7: truth for him was not a possession to be archived, but a living event within conversation, in direct contact between people.</p>
+          <p class="vb-intro">The lion with the Seven-wing thus left behind no closed doctrine, but a method and a stance: the tireless questioning of comfortable certainties, joined to a loyalty to community that did not waver even in the face of his own death sentence. From his student Plato through Aristotle and into the whole of Western philosophy, Socrates remained the gadfly that kept generations of thinkers awake, never letting them settle into rest.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
+        {route:"beruehmte-platon", label:"Portrait: Plato (SX6w5) – his most important student"},
+        {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+        {route:"beruehmte-heraklit", label:"Portrait: Heraclitus (SO4w5)"},
+        {route:"beruehmte-pythagoras", label:"Portrait: Pythagoras (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
 function jamaicaKincaidPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -21855,6 +21926,7 @@ function platonPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-sokrates", label:"Portrait: Socrates (SO8w7) – his teacher"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
         {route:"beruehmte-wladimir-putin", label:"Portrait: Vladimir Putin (SX6w5)"},
         {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
@@ -50115,6 +50187,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
       "beruehmte-toni-morrison": toniMorrisonPortraitPage,
       "beruehmte-michelle-obama": michelleObamaPortraitPage,
+      "beruehmte-sokrates": sokratesPortraitPage,
       "beruehmte-bud-spencer": budSpencerPortraitPage,
       "beruehmte-karl-marx": karlMarxPortraitPage,
       "beruehmte-donald-trump": donaldTrumpPortraitPage,
