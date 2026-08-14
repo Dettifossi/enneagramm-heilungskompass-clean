@@ -77894,7 +77894,7 @@ function beruhmtePhilosophenPage() {
 
 function hoellenkreiseDantePage() {
   const kreise = [
-    { typ: 1, kreis: 1, farbe: "#c98a8a", titel: "1. Höllenkreis", text: "Hier weilen die Weisen, Dichter und Helden des Altertums. Dante ordnete sich in einer frühen Fassung dieses Schaubilds selbst fälschlicherweise dem Typ 1 zu – bei genauerer Analyse war er, wie sein Porträt zeigt, eindeutig eine sexuelle Vier mit Fünferflügel (SX4w5)." },
+    { typ: 1, kreis: 1, farbe: "#c98a8a", titel: "1. Höllenkreis", text: "Hier weilen die Weisen, Dichter und Helden des Altertums. Dante ordnete sich als Dichter seinem eigenen Selbstverständnis nach diesem ersten Höllenkreis zu – vermutlich, weil sich die sexuelle Vier in ihrem Entspannungspunkt zur Eins hin entwickelt und dort, integrierter und bewusster, mit großer sprachlicher Präzision formulieren und dichten kann. In besseren Phasen seines Lebens mag er sich daher diesem universellen Prinzip des Typs 1 zugehörig gefühlt haben – tatsächlich war er, wie sein Porträt zeigt, eindeutig eine sexuelle Vier mit Fünferflügel (SX4w5)." },
     { typ: 2, kreis: 2, farbe: "#9b3fa0", titel: "2. Höllenkreis", text: "In der Liebeshölle werden Liebessünder von furchtbaren Orkanen gepeitscht – rastlos umhergetrieben, ohne je zur Ruhe zu kommen." },
     { typ: 3, kreis: 9, farbe: "#8fd6cf", titel: "9. Höllenkreis", text: "In der Eishölle sind Verräter, Brüder- und Vatermörder eingeschlossen und erleiden bittere Kälte – das Gegenteil jeder Wärme, die sie selbst verweigert haben." },
     { typ: 4, kreis: 7, farbe: "#3fae3f", titel: "7. Höllenkreis", text: "(Selbst-)Mörder werden in der Wüste mit Feuerregen gequält – Gewalt, die auf einen selbst oder andere gerichtet war, kehrt als ewiger Brand zurück." },
