@@ -174,6 +174,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Queen Elizabeth II. – Self-Preservation Type 1",
     teaser:"SP1w9 · 1926–2022. Queen of the United Kingdom, 70 years on the throne. Duty as her life's purpose, silence as strength, never complain, never explain. The eagle who never left its post. Animal correspondence: Eagle.",
     tags:["Politics","Nobility"] },
+  { route:"beruehmte-robert-de-niro", name:"Robert De Niro", added:"2026-08-14", subtyp:"SE1w9",
+    heading:"Robert De Niro – Self-Preservation Type 1",
+    teaser:"SP1w9 · born 1943 in New York City. Actor and producer, two Oscars ('The Godfather Part II', 'Raging Bull'), longtime collaborator of Martin Scorsese. Truth as craft, stillness as second nature. Animal correspondence: Eagle.",
+    tags:["Schauspiel"] },
   { route:"beruehmte-sting", name:"Sting", subtyp:"SE1w9",
     heading:"Sting – Self-Preservation Type 1",
     teaser:"SP1w9 · “The Eagle”, born 1951. Singer, bassist, composer. The Police and an unparalleled solo career – from jazz to lute, from Shakespeare to the Rainforest Foundation. Craft as conscience, stillness as second nature. Animal correspondence: Eagle.",
@@ -23393,6 +23397,71 @@ function stingPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function robertDeNiroPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-robert-de-niro-portrait.jpg" alt="Eagle" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robert De Niro</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Actor &amp; producer, born 1943 in New York City &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; an animal that impresses not through volume but through precision. It observes for a long time before it acts. It wastes no movement. And when it finally strikes, it does so with an accuracy that needs no repetition.</p>
+          <p class="vb-intro">Robert De Niro has been considered one of the most exacting observers in his field for decades. No interview in which he explains himself. No talk-show presence that distracts from his work. The Eagle does not appear in order to be seen. It appears when the role demands it &ndash; and vanishes again into silence afterward.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Truth as Craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> turns its striving for perfection not outward, toward correcting the world, but inward: toward its own craft, its own preparation, its own integrity. Naranjo called this subtype <em>Worry</em> &ndash; concern. The SP1 asks itself relentlessly: Is this really right? Do I live up to my own standard of truthfulness?</p>
+          <p class="vb-intro">In De Niro this question has become a trademark. For <em>Raging Bull</em> (1980) he gained over 25 kilograms to credibly portray Jake LaMotta's physical decline after his boxing career ended &ndash; after having trained for months as an amateur boxer to fight the bouts himself. For <em>Taxi Driver</em> (1976) he actually drove a taxi through New York for weeks, to experience Travis Bickle's isolation firsthand. This is not a marketing strategy. It is the SP1 refusing to portray something it has not truly understood.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: The Silence Behind the Intensity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds a quality to the SP1 energy that seems paradoxical at first glance: restraint. While the pure One energy is tense and correction-conscious, the Nine-wing brings a capacity for merging, for fully dissolving into something larger than the self.</p>
+          <p class="vb-intro">This explains De Niro's famous reticence off camera &ndash; a man who plays explosive, often violent characters on screen, and who in real life is notoriously taciturn, almost shy. Journalists regularly describe interviews with him as a tough struggle for more than one-word answers. The Nine-wing withdraws as soon as the task is done &ndash; it seeks no stage for itself, only for the role. The decades-long, deep artistic partnership with director Martin Scorsese, from <em>Mean Streets</em> (1973) to <em>The Irishman</em> (2019), shows the same quality: loyal, patient merging with a shared vision, without the need to push oneself into the foreground.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Two Oscars, Half a Century of Craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">De Niro won the Academy Award for Best Supporting Actor for his role as the young Vito Corleone in <em>The Godfather Part II</em> (1975) &ndash; a role almost entirely without English dialogue, played in Sicilian Italian which he learned specifically for the part &ndash; and the Academy Award for Best Actor for <em>Raging Bull</em> (1981). In between and after: <em>Once Upon a Time in America</em>, <em>GoodFellas</em>, <em>Heat</em>, <em>Casino</em> &ndash; a body of work that over decades preferred deep accuracy to quick fame.</p>
+          <p class="vb-intro">After the attacks of September 11, 2001, De Niro co-founded the Tribeca Film Festival to give economic and cultural momentum to the devastated Lower Manhattan &ndash; not an act of self-promotion, but the quiet, practical rebuilding of a wounded neighborhood. The Eagle circles over its own territory, even when no one is watching.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1w9 is a rare combination: extreme precision of craft, paired with the ability to set one's own ego entirely aside in the process. De Niro's method-acting extremes were never an end in themselves &ndash; they served only the truthfulness of the character.</p>
+          <p class="vb-intro">The shadow shows in the rigidity with which the SP1 holds to its own standards, and in the isolation the Nine-wing favors. The fate pattern of the One is <strong>anger</strong>, which in the SP1 typically turns inward &ndash; as chronic dissatisfaction with one's own work. De Niro himself has repeatedly stated that he rarely watches his finished films again; the completed work interests him less than the next unresolved demand. Critics have also noted a certain arbitrariness in his role choices in later years &ndash; a possible sign that even the strictest One is not immune to fatigue.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: From the Judge to Surrender</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the One leads from anger to serenity &ndash; from the question <em>Is it perfect?</em> to the recognition <em>I have given my best, and that is enough.</em> For the SP1w9 this means no longer needing devotion to craft as proof of one's own righteousness, but experiencing it for what it is at its core: service to something greater.</p>
+          <p class="vb-intro">De Niro's decades-long fidelity to his craft, independent of fame or criticism, reads as exactly this path: not the pursuit of recognition, but the quiet, persistent devotion to the truthfulness of the work itself. The Eagle needs to prove to no one that it can fly. It simply flies.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+        {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
       ])}
     </div>
@@ -51074,6 +51143,7 @@ function subtypeSchaubilderPage() {
       "astrologie-angela-merkel": astrologieAngelaMerkelPage,
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
       "beruehmte-sting": stingPortraitPage,
+      "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-dan-brown": danBrownPortraitPage,
       "beruehmte-ken-follett": kenFollettPortraitPage,

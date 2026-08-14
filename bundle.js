@@ -31244,6 +31244,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Queen Elizabeth II. \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 1926\u20132022. K\u00f6nigin des Vereinigten K\u00f6nigreichs, 70 Jahre auf dem Thron. Pflicht als Lebensinhalt, Stille als St\u00e4rke, niemals klagen, niemals erkl\u00e4ren. Der Adler, der seinen Posten nie verlie\u00df. Tierentsprechung: Adler.",
     tags:["Politik","Adel"] , gender:"f"},
+  { route:"beruehmte-robert-de-niro", name:"Robert De Niro", added:"2026-08-14", subtyp:"SE1w9",
+    heading:"Robert De Niro – Selbsterhaltender Typ 1",
+    teaser:"SE1w9 · geb. 1943 in New York City. Schauspieler und Produzent, zwei Oscars („Der Pate II“, „Wie ein wilder Stier“), langjähriger Weggefährte Martin Scorseses. Wahrheit als Handwerk, Stille als zweite Natur. Tierentsprechung: Adler.",
+    tags:["Schauspiel"] , gender:"m"},
   { route:"beruehmte-sting", name:"Sting", subtyp:"SE1w9",
     heading:"Sting \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 \u201eDer Adler\u201d, geb. 1951. S\u00e4nger, Bassist, Komponist. The Police und eine beispiellose Solokarriere \u2013 von Jazz bis Laute, von Shakespeare bis Rainforest Foundation. Handwerk als Gewissen, Stille als zweite Natur. Tierentsprechung: Adler.",
@@ -42800,6 +42804,71 @@ function stingPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se1", label:"SE1 \u2013 Der Besorgte: Subtyp-Profil"},
         {route:"beruehmte-christoph-waltz", label:"Portr\u00e4t: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function robertDeNiroPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-robert-de-niro-portrait.jpg" alt="Adler" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robert De Niro</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler &amp; Produzent, geb. 1943 in New York City &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; ein Tier, das nicht durch Lautstärke beeindruckt, sondern durch Präzision. Er beobachtet lange, bevor er handelt. Er verschwendet keine Bewegung. Und wenn er schließlich zuschlägt, dann mit einer Genauigkeit, die keine Wiederholung braucht.</p>
+          <p class="vb-intro">Robert De Niro gilt seit Jahrzehnten als einer der genauesten Beobachter seines Fachs. Kein Interview, in dem er sich selbst erklärt. Keine Talkshow-Präsenz, die von seiner Arbeit ablenkt. Der Adler zeigt sich nicht, um gesehen zu werden. Er zeigt sich, wenn die Rolle es verlangt &ndash; und verschwindet danach wieder in die Stille.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Wahrheit als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> wendet ihr Perfektionsstreben nicht nach außen, auf die Korrektur der Welt, sondern nach innen: auf das eigene Handwerk, die eigene Vorbereitung, die eigene Integrität. Naranjo nannte diesen Subtyp <em>Worry</em> &ndash; Besorgnis. Die SE1 fragt sich unablässig: Ist das wirklich richtig? Genüge ich meinem eigenen Anspruch an Wahrhaftigkeit?</p>
+          <p class="vb-intro">Bei De Niro ist diese Frage zum Markenzeichen geworden. Für <em>Wie ein wilder Stier</em> (1980) nahm er über 25 Kilogramm zu, um Jake LaMottas physischen Verfall nach dessen Karriereende glaubwürdig zu verkörpern &ndash; nachdem er zuvor monatelang als Amateurboxer trainiert hatte, um die Kämpfe selbst zu bestreiten. Für <em>Taxi Driver</em> (1976) fuhr er wochenlang tatsächlich Taxi durch New York, um Travis Bickles Isolation am eigenen Leib zu erfahren. Das ist keine Marketingstrategie. Das ist die SE1, die sich weigert, etwas darzustellen, das sie nicht wirklich verstanden hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die Stille hinter der Intensität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> fügt der SE1er-Energie eine Qualität hinzu, die auf den ersten Blick paradox wirkt: Zurückhaltung. Während die reine Einser-Energie angespannt und korrekturbewusst ist, bringt der Neunerflügel eine Fähigkeit zum Verschmelzen mit, zum vollständigen Aufgehen in etwas Größerem als das eigene Ich.</p>
+          <p class="vb-intro">Das erklärt De Niros berühmte Zurückhaltung außerhalb der Kamera &ndash; ein Mann, der auf der Leinwand explosive, oft gewalttätige Figuren spielt, und im echten Leben als notorisch wortkarg, fast schüchtern gilt. Journalisten beschreiben Interviews mit ihm regelmäßig als zähes Ringen um mehr als einsilbige Antworten. Der Neunerflügel zieht sich zurück, sobald die Aufgabe erledigt ist &ndash; er sucht keine Bühne für sich selbst, nur für die Rolle. Die jahrzehntelange, tiefe künstlerische Partnerschaft mit Regisseur Martin Scorsese, von <em>Hexenkessel</em> (1973) bis <em>The Irishman</em> (2019), zeigt dieselbe Qualität: loyale, geduldige Verschmelzung mit einer gemeinsamen Vision, ohne das Bedürfnis, sich in den Vordergrund zu drängen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Zwei Oscars, ein halbes Jahrhundert Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">De Niro gewann den Oscar als bester Nebendarsteller für seine Rolle als junger Vito Corleone in <em>Der Pate II</em> (1975) &ndash; eine Rolle fast ohne englischen Dialog, gespielt in sizilianischem Italienisch, das er eigens dafür lernte &ndash; und den Oscar als bester Hauptdarsteller für <em>Wie ein wilder Stier</em> (1981). Dazwischen und danach: <em>Es war einmal in Amerika</em>, <em>GoodFellas</em>, <em>Heat</em>, <em>Casino</em> &ndash; ein Werk, das über Jahrzehnte lieber tiefe Genauigkeit suchte als schnellen Ruhm.</p>
+          <p class="vb-intro">Nach den Anschlägen vom 11. September 2001 gründete De Niro gemeinsam mit anderen das Tribeca Film Festival, um dem verwüsteten Lower Manhattan wirtschaftliche und kulturelle Impulse zu geben &ndash; kein Akt der Selbstdarstellung, sondern der stille, praktische Wiederaufbau einer verletzten Nachbarschaft. Der Adler kreist über seinem eigenen Revier, auch wenn niemand hinsieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 ist eine seltene Kombination: äußerste Genauigkeit im Handwerk, gepaart mit der Fähigkeit, das eigene Ego dabei vollständig zurückzustellen. De Niros Method-Acting-Exzesse waren nie Selbstzweck &ndash; sie dienten einzig der Wahrhaftigkeit der Figur.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Rigidität, mit der die SE1 an ihren eigenen Maßstäben festhält, und in der Isolation, die der Neunerflügel begünstigt. Das Schicksalsmuster der Eins ist der <strong>Zorn</strong>, der sich bei der SE1 typischerweise nach innen wendet &ndash; als chronische Unzufriedenheit mit dem eigenen Werk. De Niro selbst hat wiederholt erklärt, seine fertigen Filme kaum je erneut anzusehen; die vollendete Arbeit interessiert ihn weniger als der nächste ungelöste Anspruch. Kritiker bemängelten zudem in späteren Jahren eine gewisse Beliebigkeit in der Rollenauswahl &ndash; ein möglicher Hinweis darauf, dass selbst die strengste Eins nicht vor Ermüdung gefeit ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Richter zur Hingabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit &ndash; von der Frage <em>Ist es perfekt?</em> zur Erkenntnis <em>Ich habe mein Bestes gegeben, und das genügt.</em> Für die SE1w9 bedeutet das, die eigene Hingabe an das Handwerk nicht länger als Beweis der eigenen Rechtschaffenheit zu brauchen, sondern als das zu erleben, was sie im Kern ist: ein Dienst an etwas Größerem.</p>
+          <p class="vb-intro">De Niros jahrzehntelange Treue zu seinem Handwerk, unabhängig von Ruhm oder Kritik, liest sich als genau dieser Weg: nicht die Suche nach Anerkennung, sondern die stille, beharrliche Hingabe an die Wahrhaftigkeit der Arbeit selbst. Der Adler muss niemandem beweisen, dass er fliegen kann. Er fliegt einfach.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-sting", label:"Porträt: Sting (SE1w9)"},
+        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
       ])}
     </div>
   `);
@@ -85240,6 +85309,7 @@ function render() {
       "astrologie-gerhard-schroeder": astrologieGerhardSchroederPage,
       "astrologie-angela-merkel": astrologieAngelaMerkelPage,
       "beruehmte-sting": stingPortraitPage,
+      "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-dan-brown": danBrownPortraitPage,
