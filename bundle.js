@@ -31703,6 +31703,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo da Vinci \u2013 Sozialer Typ 5",
     teaser:"SO5w4 \u00b7 1452\u20131519. Italienischer Universalgelehrter, Maler, Erfinder. Mona Lisa, Vitruvianischer Mensch, \u00fcber 13.000 Seiten Notizb\u00fccher. Der Oktopus, der mit acht Denkarmen Kunst, Wissenschaft und Technik zugleich erforschte.",
     tags:["Kunst","Wissenschaft"], gender:"m"},
+  { route:"beruehmte-georg-wilhelm-friedrich-hegel", name:"Georg Wilhelm Friedrich Hegel", added:"2026-08-14", subtyp:"SO5w6",
+    heading:"Georg Wilhelm Friedrich Hegel – Sozialer Typ 5",
+    teaser:"SO5w6 · 1770–1831. Deutscher Philosoph, Begründer des Deutschen Idealismus in seiner Vollendung. Phänomenologie des Geistes, Dialektik, Rechtsphilosophie. Der Oktopus mit Sechserflügel: ein alles umfassendes System, Sicherheit durch Staat und Lehrautorität. Tierentsprechung: Oktopus.",
+    tags:["Geschichte","Philosophie"], gender:"m"},
   { route:"beruehmte-isaac-newton", name:"Isaac Newton", added:"2026-08-14", subtyp:"SO5w6",
     heading:"Isaac Newton – Sozialer Typ 5",
     teaser:"SO5w6 · 1642/43–1727. Englischer Physiker und Mathematiker, Principia Mathematica, Gravitationsgesetz. Jahrzehntelang verborgene Alchemie- und Theologiestudien, Prioritätsstreit mit Leibniz, Präsident der Royal Society. Der Oktopus mit Sechserflügel: Wissen als Machtinstrument, Sicherheit durch institutionelle Kontrolle. Tierentsprechung: Oktopus.",
@@ -44212,6 +44216,73 @@ function isaacNewtonPortraitPage() {
   `);
 }
 
+function georgWilhelmFriedrichHegelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-georg-wilhelm-friedrich-hegel-portrait.jpg" alt="Georg Wilhelm Friedrich Hegel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Georg Wilhelm Friedrich Hegel</p>
+        <p class="krim-portrait-typ">SO5w6 · Sozialer Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Philosoph, 1770–1831 – Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus, der die ganze Wirklichkeit umfassen wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen Fünf – intelligent, vielarmig, in der Lage, alles um sich herum zu erfassen und in ein einziges, geordnetes Ganzes zu übersetzen. Hegel brauchte ungewöhnlich lange, bis er dieses Ganze öffentlich ausbreiten konnte: Nach dem Studium am Tübinger Stift arbeitete er jahrelang als Hauslehrer und Zeitungsredakteur, bevor er erst 1816, mit 46 Jahren, seine erste ordentliche Professur in Heidelberg erhielt – ein für seine Zeit spätes akademisches Debüt, dem eine lange Phase des stillen, zurückgezogenen Systemschreibens vorausging.</p>
+          <p class="vb-intro">Sein erstes Hauptwerk, die "Phänomenologie des Geistes", vollendete er 1806 in Jena – der Überlieferung nach in der Nacht vor der Schlacht bei Jena, während napoleonische Truppen bereits die Stadt besetzten. Als er Napoleon selbst durch die Straßen reiten sah, beschrieb er ihn in einem Brief als "die Weltseele zu Pferde". Der Oktopus arbeitet im Verborgenen an seinem System, auch wenn die Welt draußen in Flammen steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Fünf: Das System als Totem</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Fünf (SO5)</strong> nennt Naranjo <em>Totem</em>: Wissen wird der Gemeinschaft zugänglich gemacht, doch nur als Teil eines größeren, selbst konstruierten Ganzen, das der Fünf Bedeutung und Sicherheit verleiht. Hegels gesamtes Werk ist genau dieser Impuls, radikal zu Ende gedacht: Er wollte nicht einzelne Erkenntnisse liefern, sondern ein einziges System, das Logik, Naturphilosophie, Geschichte, Kunst, Religion und Staat lückenlos ineinander einbettet – die "Wissenschaft der Logik" (1812–1816) und die "Enzyklopädie der philosophischen Wissenschaften" (1817) sollten buchstäblich alles erklären, was erklärbar ist.</p>
+          <p class="vb-intro">Zentral war dabei sein dialektisches Verfahren: Jeder Gedanke, jede geschichtliche Epoche, jede Gesellschaftsform trägt für Hegel einen inneren Widerspruch in sich, der sie über sich selbst hinaustreibt, bis sie in einer höheren, umfassenderen Einheit aufgehoben wird. Das Totem der SO5 zeigt sich hier in seiner ehrgeizigsten Form: Nichts soll außerhalb des Systems stehen bleiben – jeder Widerspruch wird eingemeindet, verarbeitet, integriert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Sicherheit durch Staat und Lehrautorität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Fünf ein tiefes Bedürfnis nach Sicherheit durch Institution und anerkannte Autorität. Ab 1818 lehrte Hegel an der Universität Berlin, wo er rasch zur beherrschenden philosophischen Instanz Preußens aufstieg – seine Vorlesungen zogen Hunderte Studenten an, seine Schüler bildeten eine regelrechte Schule, den "Hegelianismus", der jahrzehntelang das deutsche Geistesleben prägte.</p>
+          <p class="vb-intro">In seiner "Rechtsphilosophie" (1820) formulierte er den bis heute umstrittenen Satz: "Was vernünftig ist, das ist wirklich; und was wirklich ist, das ist vernünftig" – ein Satz, der von Zeitgenossen wie Nachwelt oft als Rechtfertigung der bestehenden preußischen Staatsordnung gelesen wurde. Hegel avancierte damit faktisch zum inoffiziellen Staatsphilosophen Preußens. Der Sechserflügel sucht Sicherheit nicht in individueller Abweichung, sondern im Einklang zwischen dem eigenen System und der bestehenden, verlässlichen Ordnung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Geiz als Systemvollständigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Fünf heißt <strong>Geiz</strong> – bei der SO5w6 gerichtet nicht auf materiellen Besitz, sondern auf die vollständige Kontrolle über das eigene gedankliche Territorium. Hegels notorisch schwer zugängliche, oft bewusst kryptische Prosa war für viele Zeitgenossen ein Ärgernis – Schopenhauer etwa nannte ihn einen "geistlosen, abgeschmackten, widerlich-eckelhaften Scharlatan". Doch diese Schwerverständlichkeit lässt sich auch als Schutzmechanismus lesen: Wer den vollen Zugang zum System will, muss sich die Mühe seiner Sprache und Methode aneignen – ein gestufter Zugang zum Wissen, nicht unähnlich dem geheimen Bund des Pythagoras.</p>
+          <p class="vb-intro">Auch sein Umgang mit philosophischen Konkurrenten zeigte diesen Zug: Sein einstiger Studienfreund Schelling, mit dem er sich das Zimmer im Tübinger Stift geteilt hatte, wurde in Hegels reifem System kaum noch gewürdigt, seine früheren Positionen implizit als überwundene Vorstufe der eigenen Philosophie behandelt. Der Geiz der SO5w6 hortet nicht nur Wissen – er beansprucht, die einzig gültige, abschließende Form dieses Wissens zu besitzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO5w6 zeigt sich in der schieren intellektuellen Reichweite von Hegels System: die Idee, dass Geschichte einen erkennbaren, vernünftigen Verlauf hat, dass Freiheit sich schrittweise im Weltgeschehen entfaltet, dass Widerspruch nicht bloß Störung, sondern Motor der Erkenntnis ist – diese Gedanken prägten die gesamte Philosophie des 19. und 20. Jahrhunderts, weit über seine unmittelbaren Anhänger hinaus.</p>
+          <p class="vb-intro">Der Schatten liegt in der Geschlossenheit des Anspruchs: Ein System, das behauptet, alles erklären zu können, lässt wenig Raum für das, was sich wirklich nicht einfügen lässt. Schon kurz nach Hegels Tod zerbrach seine Schule in Linkshegelianer (Feuerbach, später Marx), die das System radikal gegen Religion und Staat wendeten, und Rechtshegelianer, die es konservativ-religiös lasen – ein Riss, der zeigte, wie sehr die vermeintliche Geschlossenheit des Systems selbst zum Streitobjekt werden konnte, sobald die ordnende Autorität seines Urhebers fehlte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Widerspruch, der ihn überlebte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hegel starb 1831 in Berlin während einer Cholera-Epidemie, auf dem Höhepunkt seines Ansehens als führender Philosoph Preußens. Kaum ein Jahrzehnt später begann sein einstiger Schüler Karl Marx (SO8w9), Hegels dialektische Methode radikal umzudeuten: Er übernahm die Dialektik, stellte sie aber, wie er es selbst formulierte, "vom Kopf auf die Füße" – nicht der Geist, sondern die materiellen Produktionsverhältnisse trieben für Marx die Geschichte voran.</p>
+          <p class="vb-intro">Auch Søren Kierkegaard (SE2w1) machte sich "das System" – wie er es meist nur nannte – zum lebenslangen Gegner: Gegen Hegels Anspruch, das Individuum restlos in eine übergeordnete, weltgeschichtliche Vernunft einzubetten, setzte er die unauflösbare, gerade nicht systematisierbare Existenz des Einzelnen. Der Oktopus mit Sechserflügel hinterließ damit kein stilles Denkmal, sondern ein System, das noch im Widerspruch – durch seine schärfsten Kritiker – lebendig blieb: Kaum ein Philosoph des 19. Jahrhunderts wurde so gründlich bekämpft und blieb dabei so unübergehbar.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-karl-marx", label:"Porträt: Karl Marx (SO8w9) – sein Schüler, der die Dialektik ›vom Kopf auf die Füße‹ stellte"},
+        {route:"beruehmte-soeren-kierkegaard", label:"Porträt: Søren Kierkegaard (SE2w1) – lebenslanger Gegner des ›Systems‹"},
+        {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6)"},
+        {route:"beruehmte-pythagoras", label:"Porträt: Pythagoras (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
 function kollegahPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -46195,6 +46266,7 @@ function karlMarxPortraitPage() {
         {route:"subtype/so8", label:"SO8 \u2013 Der L\u00f6we: Subtyp-Profil"},
         {route:"beruehmte-bud-spencer", label:"Portr\u00e4t: Bud Spencer (SO8w9)"},
         {route:"beruehmte-jamaica-kincaid", label:"Portr\u00e4t: Jamaica Kincaid (SO8w9)"},
+        {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portr\u00e4t: Georg Wilhelm Friedrich Hegel (SO5w6) \u2013 dessen Dialektik er \u203avom Kopf auf die F\u00fc\u00dfe\u2039 stellte"},
       ])}
     </div>
   `);
@@ -52922,6 +52994,7 @@ function soerenKierkegaardPortraitPage() {
         {route:"beruehmte-greta-thunberg", label:"Portr\u00e4t: Greta Thunberg (SE2w1)"},
         {route:"beruehmte-immanuel-kant", label:"Portr\u00e4t: Immanuel Kant (SO6w5)"},
         {route:"beruehmte-heraklit", label:"Portr\u00e4t: Heraklit (SO4w5)"},
+        {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portr\u00e4t: Georg Wilhelm Friedrich Hegel (SO5w6) \u2013 lebenslanger Gegner des \u203aSystems\u2039"},
       ])}
     </div>
   `);
@@ -84815,6 +84888,7 @@ function render() {
       "beruehmte-bill-gates": billGatesPortraitPage,
       "beruehmte-pythagoras": pythagorasPortraitPage,
       "beruehmte-isaac-newton": isaacNewtonPortraitPage,
+      "beruehmte-georg-wilhelm-friedrich-hegel": georgWilhelmFriedrichHegelPortraitPage,
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
       "beruehmte-peter-lustig": peterLustigPortraitPage,

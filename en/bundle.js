@@ -454,6 +454,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo da Vinci – Social Type 5",
     teaser:"SO5w4 · 1452–1519. Italian polymath, painter, inventor. Mona Lisa, Vitruvian Man, over 13,000 pages of notebooks. The octopus that explored art, science, and technology simultaneously with eight arms of thought.",
     tags:["Art","Science"], gender:"m"},
+  { route:"beruehmte-georg-wilhelm-friedrich-hegel", name:"Georg Wilhelm Friedrich Hegel", added:"2026-08-14", subtyp:"SO5w6",
+    heading:"Georg Wilhelm Friedrich Hegel – Social Type 5",
+    teaser:"SO5w6 · 1770–1831. German philosopher, the culmination of German Idealism. Phenomenology of Spirit, dialectics, Philosophy of Right. The octopus with the Six-wing: an all-encompassing system, security through state and teaching authority. Animal correspondence: Octopus.",
+    tags:["History","Philosophy"], gender:"m"},
   { route:"beruehmte-isaac-newton", name:"Isaac Newton", added:"2026-08-14", subtyp:"SO5w6",
     heading:"Isaac Newton – Social Type 5",
     teaser:"SO5w6 · 1642/43–1727. English physicist and mathematician, Principia Mathematica, law of gravitation. Decades of hidden alchemy and theology studies, priority dispute with Leibniz, president of the Royal Society. The octopus with the Six-wing: knowledge as an instrument of power, security through institutional control. Animal correspondence: Octopus.",
@@ -24450,6 +24454,73 @@ function isaacNewtonPortraitPage() {
   `);
 }
 
+function georgWilhelmFriedrichHegelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-georg-wilhelm-friedrich-hegel-portrait.jpg" alt="Georg Wilhelm Friedrich Hegel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Georg Wilhelm Friedrich Hegel</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">German philosopher, 1770&ndash;1831 &ndash; Animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Octopus That Wanted to Encompass All of Reality</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five &ndash; intelligent, many-armed, able to grasp everything around it and translate it into a single, ordered whole. Hegel needed an unusually long time before he could unfold this whole in public: after studying at the Tübingen Stift, he worked for years as a private tutor and newspaper editor before finally receiving his first regular professorship in Heidelberg in 1816, at the age of 46 &ndash; a late academic debut for his era, preceded by a long phase of quiet, withdrawn system-building.</p>
+          <p class="vb-intro">He completed his first major work, the "Phenomenology of Spirit," in 1806 in Jena &ndash; according to tradition, on the night before the Battle of Jena, while Napoleon's troops were already occupying the city. Having seen Napoleon himself riding through the streets, he described him in a letter as "the world-soul on horseback." The octopus works on its system in seclusion, even as the world outside is in flames.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Five: The System as Totem</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Five (SO5)</strong> <em>Totem</em>: knowledge is made available to the community, but only as part of a larger, self-constructed whole that gives the Five meaning and security. Hegel's entire body of work is exactly this impulse, thought through radically: he did not want to deliver isolated insights but a single system that seamlessly embeds logic, philosophy of nature, history, art, religion, and the state into one another &ndash; the "Science of Logic" (1812&ndash;1816) and the "Encyclopedia of the Philosophical Sciences" (1817) were meant to explain, literally, everything explicable.</p>
+          <p class="vb-intro">Central to this was his dialectical method: for Hegel, every thought, every historical epoch, every form of society carries within it an inner contradiction that drives it beyond itself, until it is sublated into a higher, more comprehensive unity. The totem of SO5 shows itself here in its most ambitious form: nothing is meant to remain outside the system &ndash; every contradiction is absorbed, processed, integrated.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Security Through State and Teaching Authority</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the social Five a deep need for security through institution and recognized authority. From 1818 Hegel taught at the University of Berlin, where he quickly rose to become the dominant philosophical authority in Prussia &ndash; his lectures drew hundreds of students, and his students formed a veritable school, "Hegelianism," which shaped German intellectual life for decades.</p>
+          <p class="vb-intro">In his "Philosophy of Right" (1820) he formulated the line still debated today: "What is rational is actual; and what is actual is rational" &ndash; a line that contemporaries and posterity alike have often read as a justification of the existing Prussian state order. Hegel thereby effectively became the unofficial state philosopher of Prussia. The Six-wing seeks security not in individual deviation but in alignment between one's own system and the existing, reliable order.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Avarice as Systemic Completeness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Five is called <strong>avarice</strong> &ndash; in SO5w6 directed not at material possessions but at complete control over one's own intellectual territory. Hegel's notoriously difficult, often deliberately cryptic prose was an irritant to many contemporaries &ndash; Schopenhauer, for instance, called him a "spiritless, tasteless, revolting charlatan." Yet this difficulty can also be read as a protective mechanism: whoever wants full access to the system must first earn the effort of its language and method &ndash; a graduated access to knowledge, not unlike Pythagoras's secret brotherhood.</p>
+          <p class="vb-intro">His handling of philosophical rivals showed the same trait: his onetime fellow student Schelling, with whom he had shared a room at the Tübingen Stift, was scarcely acknowledged in Hegel's mature system, his earlier positions implicitly treated as a superseded preliminary stage of Hegel's own philosophy. The avarice of SO5w6 does not merely hoard knowledge &ndash; it claims to possess the one valid, final form of that knowledge.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO5w6 shows in the sheer intellectual reach of Hegel's system: the idea that history has a discernible, rational course, that freedom unfolds step by step through world events, that contradiction is not mere disruption but the engine of knowledge &ndash; these ideas shaped the whole of 19th- and 20th-century philosophy, far beyond his immediate followers.</p>
+          <p class="vb-intro">The shadow lies in the closure of the claim itself: a system that asserts it can explain everything leaves little room for what genuinely does not fit. Shortly after Hegel's death, his school split into Left Hegelians (Feuerbach, later Marx), who turned the system radically against religion and state, and Right Hegelians, who read it in a conservative, religious light &ndash; a rift that showed how much the system's supposed closure could itself become a battleground once the ordering authority of its author was gone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Contradiction That Outlived Him</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hegel died in 1831 in Berlin during a cholera epidemic, at the height of his standing as Prussia's leading philosopher. Barely a decade later his onetime student Karl Marx (SO8w9) began radically reinterpreting Hegel's dialectical method: he took over the dialectic but, as he himself put it, turned it "right side up again" &ndash; for Marx it was not spirit but material relations of production that drove history forward.</p>
+          <p class="vb-intro">Søren Kierkegaard (SE2w1) also made "the System," as he usually just called it, a lifelong adversary: against Hegel's claim to embed the individual entirely within a higher, world-historical reason, he set the irreducible, precisely unsystematizable existence of the single person. The octopus with the Six-wing thus left behind no quiet monument, but a system that remained alive even in contradiction, through its sharpest critics: scarcely any 19th-century philosopher was fought so thoroughly and remained, all the same, so impossible to bypass.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9) – his student, who turned the dialectic 'right side up again'"},
+        {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SE2w1) – lifelong adversary of 'the System'"},
+        {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
+        {route:"beruehmte-pythagoras", label:"Portrait: Pythagoras (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
 function kollegahPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -25731,6 +25802,7 @@ function karlMarxPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
         {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
+        {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portrait: Georg Wilhelm Friedrich Hegel (SO5w6) – whose dialectic he turned 'right side up again'"},
       ])}
     </div>
   `);
@@ -28702,6 +28774,7 @@ function soerenKierkegaardPortraitPage() {
         {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1)"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
         {route:"beruehmte-heraklit", label:"Portrait: Heraclitus (SO4w5)"},
+        {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portrait: Georg Wilhelm Friedrich Hegel (SO5w6) – lifelong adversary of 'the System'"},
       ])}
     </div>
   `);
@@ -50603,6 +50676,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-bill-gates": billGatesPortraitPage,
       "beruehmte-pythagoras": pythagorasPortraitPage,
       "beruehmte-isaac-newton": isaacNewtonPortraitPage,
+      "beruehmte-georg-wilhelm-friedrich-hegel": georgWilhelmFriedrichHegelPortraitPage,
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
       "beruehmte-peter-lustig": peterLustigPortraitPage,
