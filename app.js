@@ -31603,6 +31603,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Edgar Allan Poe \u2013 Sozialer Typ 4",
     teaser:"SO4w5 \u00b7 1809\u20131849. Amerikanischer Schriftsteller, Erfinder der Detektivgeschichte, Meister des literarischen Schauerlichen. Der Rabe (The Raven), Das verr\u00e4terische Herz (The Tell-Tale Heart). Das G\u00fcrteltier, dessen Panzer aus Schmerz und Isolation zur Kunstform wurde.",
     tags:["Literatur"], gender:"m"},
+  { route:"beruehmte-heraklit", name:"Heraklit", added:"2026-08-14", subtyp:"SO4w5",
+    heading:"Heraklit – Sozialer Typ 4",
+    teaser:"SO4w5 · ca. 535–475 v. Chr. Griechischer Philosoph aus Ephesos, ›der Dunkle‹. Panta rhei, Logos, Einheit der Gegensätze. Das Gürteltier mit Fünferflügel: Abgrenzung von der Menge, Bedeutung durch kryptische, tiefe Einsicht. Tierentsprechung: Gürteltier.",
+    tags:["Geschichte","Philosophie"], gender:"m"},
   { route:"beruehmte-hippokrates-von-kos", name:"Hippokrates von Kos", added:"2026-08-13", subtyp:"SO4w5",
     heading:"Hippokrates von Kos – Sozialer Typ 4",
     teaser:"SO4w5 · ca. 460–370 v. Chr. Griechischer Arzt, ›Vater der Medizin‹. Hippokratischer Eid, Vier-Säfte-Lehre, systematische Fallgeschichten. Das Gürteltier mit Fünferflügel: Abgrenzung von der Tempelmedizin, Bedeutung durch genaue Beobachtung. Tierentsprechung: Gürteltier.",
@@ -47319,6 +47323,78 @@ function hippokratesVonKosPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-heraklit", label:"Porträt: Heraklit (SO4w5)"},
+        {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5)"},
+        {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function heraklitPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-heraklit-portrait.jpg" alt="Heraklit" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heraklit</p>
+        <p class="krim-portrait-typ">SO4w5 · Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Griechischer Philosoph, ca. 535–475 v. Chr. – „der Dunkle" von Ephesos – Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier, das der Menge den Rücken kehrte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier – es bleibt im Umfeld der Gemeinschaft, misst sich an ihr und gewinnt seine Bedeutung gerade aus dem Kontrast zu ihr. Heraklit wurde um 535 v. Chr. in Ephesos geboren, in eine Familie mit Anspruch auf das erbliche Königsamt der Stadt – eine Würde, die er der Überlieferung nach seinem jüngeren Bruder überließ, um sich ganz dem Nachdenken zu widmen.</p>
+          <p class="vb-intro">Diese Abwendung war kein stiller Rückzug ins Private. Heraklit blieb Ephesos zugewandt, kritisierte seine Mitbürger und ihre Politik offen und scharf, verweigerte sich aber der aktiven Teilnahme am öffentlichen Leben, das er für oberflächlich hielt. Der Legende nach zog er sich zeitweise in die Berge zurück und ernährte sich von Kräutern – ein Leben am Rand der Gemeinschaft, die er nie ganz verließ, weil sie der Resonanzraum blieb, an dem sich sein Denken schärfte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Bedeutung durch Abgrenzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> sucht ihre Bedeutung nicht in Zugehörigkeit, sondern in einer Position innerhalb der Gemeinschaft, die sich klar von deren Mehrheit abhebt. Heraklit äußerte diese Haltung ungewöhnlich unverblümt: Er nannte die Ephesier wert, sich allesamt zu erhängen, weil sie den verdienstvollsten Bürger, seinen Freund Hermodoros, aus der Stadt vertrieben hatten mit der Begründung, unter ihnen solle niemand der Beste sein.</p>
+          <p class="vb-intro">Auch gegenüber anerkannten Geistesgrößen seiner Zeit sparte er nicht mit Verachtung: Homer und Archilochos verdienten seiner Meinung nach Prügel, Pythagoras, Xenophanes und Hekataios warf er "Vielwisserei" vor, die keinen Verstand lehre. Diese systematische Abgrenzung von allem Anerkannten ist typisch für die SO4 – sie definiert sich nicht durch Zustimmung, sondern durch die klare Kontur des eigenen, unverwechselbaren Standpunkts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Das Denken als eigenes Territorium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Vier eine zurückgezogene, analytische Tiefe – das Bedürfnis nach Bedeutung wird nicht performativ ausgestellt, sondern in stiller, oft kryptischer Denkarbeit erarbeitet. Heraklit soll auf die Frage, warum er schweige und nicht öffentlich lehre wie andere Philosophen, geantwortet haben, dass gerade das Schweigen es den Ephesiern erlaube, sich weiter mit ihrer eigenen schlechten Verfassung zu beschäftigen.</p>
+          <p class="vb-intro">Sein einziges Werk, meist unter dem späteren Titel "Über die Natur" überliefert, hinterlegte er der Überlieferung zufolge im Artemistempel von Ephesos – nicht um es zu verbreiten, sondern um es vor unwürdigen Lesern zu schützen. Nur wenige hundert Fragmente sind erhalten, in einem so verdichteten, rätselhaften Stil, dass ihm schon die Antike den Beinamen "ho skoteinos" gab – der Dunkle. Der Fünferflügel verwandelt Bedeutungssuche in Zurückhaltung: Wer verstehen will, muss selbst arbeiten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Melancholie und der Fluss der Dinge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Vier heißt <strong>Neid</strong> beziehungsweise Melancholie – das schmerzliche Empfinden, dass dem eigenen Leben oder der eigenen Zeit etwas fehlt, das anderswo vorhanden zu sein scheint. Bei Heraklit äußerte sich das als Weltschmerz gegenüber der Beständigkeit selbst: Seine berühmteste Lehre, dass man nicht zweimal in denselben Fluss steigen könne (panta rhei – alles fließt), beschreibt eine Wirklichkeit, in der nichts Halt bietet, in der jeder Moment sich unwiederbringlich auflöst.</p>
+          <p class="vb-intro">Die Nachwelt nannte ihn deshalb "den weinenden Philosophen" – im Kontrast zum "lachenden" Demokrit. Ob diese Zuschreibung historisch verbürgt ist, bleibt umstritten, doch sie trifft den Grundton seines Denkens: eine tiefe, fast schmerzhafte Wahrnehmung der Vergänglichkeit, die zugleich der Ausgangspunkt seiner größten Einsicht wurde – dass gerade im Widerstreit der Gegensätze, im ständigen Werden, die eigentliche Ordnung der Welt liegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Logos und die Einheit der Gegensätze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heraklits Zentralbegriff ist der <strong>Logos</strong> – das allem zugrunde liegende, vernünftige Weltgesetz, dem die meisten Menschen nach seiner Überzeugung blind gegenüberstehen, obwohl es beständig um sie herum wirkt. "Auch wenn sie es hören, verstehen sie es nicht wie Taube", soll er über seine Mitmenschen gesagt haben – eine Distanz, die genau der SO4w5 entspricht: Sie sieht klar, was anderen verborgen bleibt, und trägt diese Klarheit als Last wie als Auszeichnung zugleich.</p>
+          <p class="vb-intro">Aus dem Fluss der Dinge entwickelte er die Lehre von der Einheit der Gegensätze: Krieg sei der Vater aller Dinge, Auf- und Abstieg derselbe Weg, Leben und Tod, Wachen und Schlafen dasselbe, nur in verschiedener Gestalt. Das Feuer wählte er als Urstoff und Sinnbild – ständig in Bewegung, verzehrend und erschaffend zugleich. Diese Denkfigur, dass Gegensätze einander nicht ausschließen, sondern bedingen, wurde zu einem der folgenreichsten Gedanken der abendländischen Philosophie, von Hegel bis in die moderne Dialektik hinein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Dunkle, der Licht brachte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heraklit starb um 475 v. Chr., der Überlieferung nach an Wassersucht – eine Legende berichtet, er habe versucht, sich selbst zu heilen, indem er sich mit Mist bedecken ließ, und sei daran gestorben, unerkannt von den eigenen Landsleuten. Ob diese Geschichte wörtlich zu nehmen ist, bleibt zweifelhaft; als Bild für einen Mann, der bis zuletzt eigene, unkonventionelle Wege ging und dabei allein blieb, trifft sie den Kern seines Charakters.</p>
+          <p class="vb-intro">Seine Fragmente wirkten weit über die Antike hinaus: Platon, die Stoiker und später Nietzsche, Hegel und Heidegger rangen mit seinem Denken. Das Gürteltier, das sich von der ephesischen Gemeinschaft abwandte, um in gewollter Dunkelheit zu schreiben, hinterließ paradoxerweise einen der hellsten Leitsterne der Philosophiegeschichte – ein Denken, das die Melancholie über die Vergänglichkeit in die tiefste aller Einsichten verwandelte: dass Wandel selbst das einzig Beständige ist.</p>
+        </blockquote>
+
+        <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-top:1.5rem;max-width:100%;">
+          <p style="margin:0;font-size:1.05rem;font-style:italic;color:var(--ink);">„Man kann nicht zweimal in denselben Fluss steigen."</p>
+          <p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--muted);">– Heraklit</p>
+        </div>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-hippokrates-von-kos", label:"Porträt: Hippokrates von Kos (SO4w5)"},
         {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5)"},
         {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5)"},
       ])}
@@ -84067,6 +84143,7 @@ function render() {
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
+      "beruehmte-heraklit": heraklitPortraitPage,
       "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
