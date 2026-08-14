@@ -31631,6 +31631,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Marcel Proust \u2013 Sozialer Typ 4",
     teaser:"SO4w5 \u00b7 1871\u20131922. Franz\u00f6sischer Schriftsteller. Auf der Suche nach der verlorenen Zeit. Das G\u00fcrteltier, das sich aus der Gesellschaft zur\u00fcckzog, um ihre fl\u00fcchtige Erinnerung in ein unverg\u00e4ngliches literarisches Bauwerk zu verwandeln.",
     tags:["Literatur"], gender:"m"},
+  { route:"beruehmte-voltaire", name:"Voltaire", added:"2026-08-14", subtyp:"SX4w3",
+    heading:"Voltaire – Sexueller Typ 4",
+    teaser:"SX4w3 · 1694–1778. Französischer Schriftsteller und Philosoph der Aufklärung. Bastille-Haft, Fall Calas, ›Candide‹, Fehde mit Rousseau. Der Chihuahua mit Dreierflügel: gekränkter Stolz als Antrieb für lebenslangen Kampf gegen Ungerechtigkeit. Tierentsprechung: Chihuahua.",
+    tags:["Geschichte","Philosophie"], gender:"m"},
   { route:"beruehmte-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3",
     heading:"Freddie Mercury \u2013 Sexueller Typ 4",
     teaser:"SX4w3 \u00b7 1946\u20131991. Rocks\u00e4nger, Songwriter, Mitbegr\u00fcnder von Queen. Bohemian Rhapsody, Live Aid 1985. Der Chihuahua, der keine Angst kannte \u2013 und der B\u00fchne eine Heimat gab.",
@@ -43479,6 +43483,67 @@ function freddieMercuryPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx4", label:"SX4 \u2013 Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-john-lennon", label:"Portr\u00e4t: John Lennon (SO4w5)"},
+        {route:"beruehmte-voltaire", label:"Portr\u00e4t: Voltaire (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function voltairePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-voltaire-portrait.jpg" alt="Voltaire" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Voltaire</p>
+        <p class="krim-portrait-typ">SX4w3 \u00b7 Sexueller Typ 4 mit Dreierfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Franz\u00f6sischer Schriftsteller und Philosoph der Aufkl\u00e4rung, 1694\u20131778 \u2013 Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua, der aus der Bastille sch\u00e4rfer zur\u00fcckbiss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist die kleinste Hunderasse der Welt \u2013 und verh\u00e4lt sich wie die gr\u00f6\u00dfte. Er f\u00fcrchtet nichts, bellt, wenn es n\u00f6tig ist, und zeigt keine Scheu vor dem, was ihm \u00fcberlegen scheint. Fran\u00e7ois-Marie Arouet, der sich ab etwa 1718 Voltaire nannte, wurde 1694 in Paris geboren und verbrachte insgesamt fast ein Jahr seines Lebens in der Bastille eingesperrt \u2013 zuerst 1717 wegen satirischer Verse gegen den Regenten, dann erneut 1726, nachdem ihn die Bediensteten des Adligen Chevalier de Rohan auf dessen Gehei\u00df hin \u00f6ffentlich verpr\u00fcgelt hatten, weil er es gewagt hatte, dem Adelstitel des Chevalier eine sp\u00f6ttische Bemerkung entgegenzusetzen.</p>
+          <p class="vb-intro">Statt Rache zu nehmen, wie es sein aufbrausendes Temperament nahegelegt h\u00e4tte, lie\u00df man ihm die Wahl zwischen weiterer Haft und Exil \u2013 er w\u00e4hlte England. Der Chihuahua, klein und angreifbar gegen\u00fcber der Macht des Adels, verwandelte diese erzwungene Verbannung in den fruchtbarsten Abschnitt seines Lebens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Gekr\u00e4nkter Stolz als Antrieb zur Gerechtigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> tr\u00e4gt den Schmerz der Vier in unmittelbare, pers\u00f6nliche Intensit\u00e4t \u2013 Naranjo nannte diesen Subtyp <em>Rivalit\u00e4t</em>: die brennende \u00dcberzeugung, dass Unrecht geschehen ist, verbunden mit dem Impuls, es nicht hinzunehmen, sondern zur\u00fcckzuschlagen. Voltaires Dem\u00fctigung durch den Chevalier de Rohan verlie\u00df ihn nie ganz \u2013 sie wurde zum Treibstoff eines lebenslangen Kampfes gegen jede Form von willk\u00fcrlicher Macht und Ungerechtigkeit, die sich \u00fcber den Einzelnen erhob.</p>
+          <p class="vb-intro">Am deutlichsten zeigt sich das im Fall Calas: 1762 wurde der protestantische Kaufmann Jean Calas in Toulouse hingerichtet, f\u00e4lschlich beschuldigt, seinen eigenen Sohn ermordet zu haben, um dessen \u00dcbertritt zum Katholizismus zu verhindern. Voltaire, der den Fall nie pers\u00f6nlich erlebt hatte, k\u00e4mpfte drei Jahre lang mit einer Verbissenheit, als sei es seine eigene Sache \u2013 Petitionen, Schriften, ein europaweites Netzwerk an F\u00fcrsprechern \u2013, bis Calas 1765 posthum rehabilitiert wurde. Die SX4 k\u00e4mpft nicht abstrakt f\u00fcr Prinzipien; sie k\u00e4mpft, weil Unrecht sich anf\u00fchlt wie eine pers\u00f6nliche Wunde.</p>
+          <p class="vb-intro">Auch seine ber\u00fchmte, jahrzehntelange Fehde mit Jean-Jacques Rousseau trug diese Handschrift: Was als philosophische Meinungsverschiedenheit \u00fcber Fortschritt und Zivilisation begann, eskalierte zu gegenseitigen \u00f6ffentlichen Verunglimpfungen, die beide M\u00e4nner bis zu ihrem Tod \u2013 beide starben 1778, im selben Jahr \u2013 nicht beilegten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierfl\u00fcgel: Der Ruhm als B\u00fchne der Aufkl\u00e4rung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierfl\u00fcgel (w3)</strong> gibt der sexuellen Vier die F\u00e4higkeit, das Innere nach au\u00dfen zu wenden und in Wirkung zu verwandeln. Voltaire war einer der ersten Schriftsteller der Geschichte, der von seiner Feder allein finanziell unabh\u00e4ngig wurde \u2013 durch schlaue Investitionen, unter anderem in ein cleveres Lotteriesystem, sicherte er sich ein Verm\u00f6gen, das ihn von f\u00fcrstlichen G\u00f6nnern unabh\u00e4ngig machte und ihm erlaubte, ungeniert die M\u00e4chtigen seiner Zeit anzugreifen.</p>
+          <p class="vb-intro">Er pflegte gleichzeitig engste Kontakte zu den einflussreichsten H\u00f6fen Europas: Friedrich der Gro\u00dfe von Preu\u00dfen holte ihn 1750 an seinen Hof nach Potsdam, wo Voltaire zun\u00e4chst gefeiert wurde, bevor die Freundschaft in bitterem Streit zerbrach. Am Hof von Versailles ebenso wie am Hof von Sanssouci verstand er es, seine Stimme so zu inszenieren, dass sie geh\u00f6rt wurde. Sein Werk "Candide" (1759), eine bei\u00dfende Satire auf Leibniz' Optimismus-Philosophie, wurde ein europaweiter Bestseller \u2013 der Dreierfl\u00fcgel wei\u00df: Ein Gedanke, der nicht gelesen wird, ver\u00e4ndert nichts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4w3 zeigt sich in Voltaires Kampfruf "\u00c9crasez l'inf\u00e2me" \u2013 "Zermalmt das Niedertr\u00e4chtige" \u2013, gerichtet gegen religi\u00f6sen Fanatismus und die Machtmissbr\u00e4uche der Kirche. Seine "Lettres philosophiques" (1733), die England als Vorbild religi\u00f6ser Toleranz und politischer Freiheit gegen\u00fcber dem absolutistischen Frankreich pries, wurden \u00f6ffentlich verbrannt \u2013 ein Verbot, das ihn erneut ins Exil zwang, diesmal auf das Landgut seiner Gef\u00e4hrtin \u00c9milie du Ch\u00e2telet, wo beide gemeinsam ein Jahrzehnt lang Wissenschaft und Philosophie betrieben.</p>
+          <p class="vb-intro">Der Schatten: Dieselbe Intensit\u00e4t, die ihn zum unerm\u00fcdlichen K\u00e4mpfer f\u00fcr Gerechtigkeit machte, trieb ihn auch in pers\u00f6nliche Fehden, die er nie beilegen konnte, und in einen bissigen Witz, der Freunde ebenso verletzte wie Feinde. Die SX4 unterscheidet nicht immer scharf zwischen dem Kampf f\u00fcr ein Prinzip und dem Kampf f\u00fcr die eigene verletzte Ehre \u2013 bei Voltaire verschmolzen beide oft zu ein und demselben Feuer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Verm\u00e4chtnis: Der Chihuahua, der die Aufkl\u00e4rung verk\u00f6rperte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Voltaire starb 1778 in Paris, kurz nachdem er nach 28 Jahren Exil endlich in seine Heimatstadt zur\u00fcckgekehrt war und dort als lebende Legende gefeiert wurde. Die katholische Kirche verweigerte ihm zun\u00e4chst ein christliches Begr\u00e4bnis; erst Jahrzehnte sp\u00e4ter, 1791, wurden seine sterblichen \u00dcberreste unter dem Jubel der Revolution ins Panth\u00e9on in Paris \u00fcberf\u00fchrt \u2013 posthume Anerkennung als einer der geistigen V\u00e4ter der Franz\u00f6sischen Revolution.</p>
+          <p class="vb-intro">Der Chihuahua, der aus einer pers\u00f6nlichen Kr\u00e4nkung heraus zum unerm\u00fcdlichen K\u00e4mpfer gegen religi\u00f6se und politische Willk\u00fcr wurde, hinterlie\u00df mehr als scharfe Satiren: Er hinterlie\u00df die Vorstellung, dass ein Einzelner \u2013 bewaffnet mit nichts als Feder und Witz \u2013 F\u00fcrsten, Kirchen und ganze Rechtssysteme herausfordern kann. Kaum ein anderer Denker des 18. Jahrhunderts verband pers\u00f6nliche Verletzlichkeit so wirkungsvoll mit \u00f6ffentlicher Wirkmacht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 \u2013 Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-freddie-mercury", label:"Portr\u00e4t: Freddie Mercury (SX4w3)"},
+        {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
       ])}
     </div>
   `);
@@ -84832,6 +84897,7 @@ function render() {
       "beruehmte-marilyn-monroe": marilynMonroePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
+      "beruehmte-voltaire": voltairePortraitPage,
       "beruehmte-rihanna": rihannaPortraitPage,
       "beruehmte-billie-eilish": billieEilishPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,

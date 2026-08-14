@@ -414,6 +414,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Marcel Proust – Social Type 4",
     teaser:"SO4w5 · 1871–1922. French writer. In Search of Lost Time. The armadillo that withdrew from society in order to understand it all the more precisely, turning its own fleeting memory into an imperishable literary edifice.",
     tags:["Literature"], gender:"m"},
+  { route:"beruehmte-voltaire", name:"Voltaire", added:"2026-08-14", subtyp:"SX4w3",
+    heading:"Voltaire – Sexual Type 4",
+    teaser:"SX4w3 · 1694–1778. French Enlightenment writer and philosopher. Bastille imprisonment, the Calas affair, 'Candide', feud with Rousseau. The chihuahua with the Three-wing: wounded pride as the drive behind a lifelong fight against injustice. Animal correspondence: Chihuahua.",
+    tags:["History","Philosophy"], gender:"m"},
   { route:"beruehmte-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3",
     heading:"Freddie Mercury – Sexual Type 4",
     teaser:"SX4w3 · 1946–1991. Rock singer, songwriter, co-founder of Queen. Bohemian Rhapsody, Live Aid 1985. The chihuahua that knew no fear – and made the stage a home.",
@@ -24065,6 +24069,66 @@ function freddieMercuryPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
+        {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function voltairePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-voltaire-portrait.jpg" alt="Voltaire" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Voltaire</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">French Enlightenment writer and philosopher, 1694&ndash;1778 &ndash; Animal correspondence: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua That Bit Back Harder From the Bastille</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the smallest dog breed in the world &ndash; and behaves like the largest. It fears nothing, barks when necessary, and shows no hesitation before what seems its superior. François-Marie Arouet, who began calling himself Voltaire around 1718, was born in 1694 in Paris and spent nearly a year of his life imprisoned in the Bastille altogether &ndash; first in 1717 for satirical verses against the regent, then again in 1726, after the servants of the aristocrat Chevalier de Rohan publicly beat him on their master's orders for daring to answer the Chevalier's noble title with a witty remark.</p>
+          <p class="vb-intro">Rather than take revenge, as his fiery temperament might have suggested, he was given the choice between further imprisonment and exile &ndash; he chose England. The Chihuahua, small and vulnerable against the power of the nobility, turned this forced banishment into the most productive period of his life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Four: Wounded Pride as a Drive Toward Justice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Four (SX4)</strong> carries the Four's pain into immediate, personal intensity &ndash; Naranjo called this subtype <em>Rivalry</em>: the burning conviction that an injustice has occurred, joined with the impulse not to accept it but to strike back. Voltaire's humiliation at the hands of the Chevalier de Rohan never fully left him &ndash; it became fuel for a lifelong fight against every form of arbitrary power that raised itself above the individual.</p>
+          <p class="vb-intro">This shows most clearly in the Calas affair: in 1762 the Protestant merchant Jean Calas was executed in Toulouse, falsely accused of murdering his own son to prevent his conversion to Catholicism. Voltaire, who had never experienced the case personally, fought for three years with a tenacity as if it were his own cause &ndash; petitions, writings, a Europe-wide network of advocates &ndash; until Calas was posthumously rehabilitated in 1765. The SX4 does not fight for principles in the abstract; it fights because injustice feels like a personal wound.</p>
+          <p class="vb-intro">His famous, decades-long feud with Jean-Jacques Rousseau bore the same signature: what began as a philosophical disagreement over progress and civilization escalated into mutual public vilification that neither man resolved before his death &ndash; both died in 1778, the same year.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Fame as the Stage of the Enlightenment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the sexual Four the ability to turn its interior outward and transform it into effect. Voltaire was one of the first writers in history to become financially independent through his pen alone &ndash; through shrewd investments, including a clever lottery scheme, he secured a fortune that freed him from princely patronage and allowed him to attack the powerful of his era without restraint.</p>
+          <p class="vb-intro">At the same time, he cultivated the closest ties to the most influential courts of Europe: Frederick the Great of Prussia brought him to his court in Potsdam in 1750, where Voltaire was celebrated at first, before the friendship broke apart in bitter dispute. At the court of Versailles as much as at Sanssouci, he knew how to stage his voice so it would be heard. His work "Candide" (1759), a biting satire of Leibniz's philosophy of optimism, became a Europe-wide bestseller &ndash; the Three-wing knows: an idea that is not read changes nothing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SX4w3 shows in Voltaire's battle cry "Écrasez l'infâme" &ndash; "Crush the infamous thing" &ndash; directed against religious fanaticism and the abuses of power of the Church. His "Lettres philosophiques" (1733), which praised England as a model of religious tolerance and political freedom against absolutist France, were publicly burned &ndash; a ban that forced him into exile once again, this time to the estate of his companion Émilie du Châtelet, where the two pursued science and philosophy together for a decade.</p>
+          <p class="vb-intro">The shadow: the same intensity that made him a tireless fighter for justice also drove him into personal feuds he could never resolve, and into a biting wit that wounded friends as readily as enemies. The SX4 does not always draw a sharp line between fighting for a principle and fighting for one's own wounded honor &ndash; in Voltaire, the two often fused into a single fire.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Legacy: The Chihuahua Who Embodied the Enlightenment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Voltaire died in 1778 in Paris, shortly after finally returning to his home city after 28 years of exile and being celebrated there as a living legend. The Catholic Church initially refused him a Christian burial; only decades later, in 1791, were his remains transferred to the Panthéon in Paris amid the acclaim of the Revolution &ndash; posthumous recognition as one of the intellectual fathers of the French Revolution.</p>
+          <p class="vb-intro">The Chihuahua who turned a personal humiliation into a tireless fight against religious and political arbitrariness left behind more than sharp satires: he left behind the idea that a single individual &ndash; armed with nothing but a pen and wit &ndash; can challenge princes, churches, and entire legal systems. Scarcely any other 18th-century thinker combined personal vulnerability with public impact so effectively.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
       ])}
     </div>
   `);
@@ -50663,6 +50727,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
+      "beruehmte-voltaire": voltairePortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-marquis-de-sade": marquisDeSadePortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
