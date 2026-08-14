@@ -194,6 +194,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Aristotle – Self-Preservation Type 1",
     teaser:"SE1w9 · 384–322 BC. Philosopher, founder of logic, tutor of Alexander the Great. The golden mean as a way of life – no crusade against the world, but the calm, decades-long ordering of all knowledge into a single system. Animal correspondence: Eagle.",
     tags:["Philosophy","History"] , gender:"m"},
+  { route:"beruehmte-magnus-carlsen", name:"Magnus Carlsen", added:"2026-08-14", subtyp:"SE1w9",
+    heading:"Magnus Carlsen – Self-Preservation Type 1",
+    teaser:"SP1w9 · born 1990 in Tønsberg, Norway. Chess grandmaster, World Champion 2013–2023, highest Elo rating in chess history. Flawlessness as craft, letting go as strength – voluntarily relinquished his title defense. Animal correspondence: Eagle.",
+    tags:["Sport"] },
   { route:"beruehmte-anthony-hopkins", name:"Anthony Hopkins", added:"2026-08-14", subtyp:"SE1w9",
     heading:"Anthony Hopkins – Self-Preservation Type 1",
     teaser:"SP1w9 · born 1937 in Port Talbot, Wales. Actor, two Oscars ('The Silence of the Lambs', 'The Father'). Precision as self-obligation, stillness as home – scripts read a hundred times over until fully memorized. Animal correspondence: Eagle.",
@@ -23407,6 +23411,7 @@ function stingPortraitPage() {
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
         {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
+        {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
       ])}
     </div>
   `);
@@ -23474,6 +23479,7 @@ function robertDeNiroPortraitPage() {
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
         {route:"beruehmte-pierce-brosnan", label:"Portrait: Pierce Brosnan (SP1w2)"},
         {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
+        {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
       ])}
     </div>
   `);
@@ -23664,7 +23670,74 @@ function anthonyHopkinsPortraitPage() {
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
         {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
         {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
+        {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
         {route:"beruehmte-jodie-foster", label:"Portrait: Jodie Foster (SX5w6) – co-star in 'The Silence of the Lambs'"},
+      ])}
+    </div>
+  `);
+}
+
+function magnusCarlsenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-magnus-carlsen-portrait.jpg" alt="Eagle" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Magnus Carlsen</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Chess grandmaster, born 1990 in Tønsberg, Norway &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; it hunts not with force but with patience and a gaze that catches every detail. It circles for a long time over the field before it strikes, and when it strikes, no second movement is needed.</p>
+          <p class="vb-intro">Magnus Carlsen has been considered the best chess player in the world for over a decade &ndash; not through spectacular combinations, but through an almost inhuman ability to relentlessly convert minimal, barely visible advantages into winning positions. Opponents often describe games against him as a slow crushing: no single mistake decides the game, but the sum of countless subtle imprecisions that the Eagle registers mercilessly and exploits.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Flawlessness as Craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs its perfectionism not toward correcting the world, but inward: toward its own precision, its own preparation, uncompromising mastery of its own craft. Naranjo called this subtype <em>Worry</em> &ndash; concern. The SP1 constantly asks itself: Is this position truly exploited to the fullest? Have I seen even the last nuance?</p>
+          <p class="vb-intro">Carlsen's playing style is this principle in its purest form. Where other world-class players rely on risky tactical battles, he seeks the technically cleanest, most error-free continuation &ndash; even in seemingly balanced endgames that others would long since have conceded as a draw. His Elo rating reached 2882 points in 2014, still the highest ever recorded in chess history &ndash; a record built from years of meticulous self-optimization, not isolated flashes of brilliance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Letting Go as Strength</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds a quality to the SP1 energy that is rare in elite sport: the ability to let go of status and expectations rather than defending them at all costs. While the pure One clings to standards once achieved, the Nine-wing can recognize when a fight is no longer worth one's own inner peace.</p>
+          <p class="vb-intro">In 2022, Carlsen voluntarily gave up defending his World Chess Championship title &ndash; one of the most prestigious titles in all of sport &ndash; openly explaining that he lacked the motivation for another title match. No scandal, no exhausted retreat, but a calm, clear decision: the title no longer gave him what he needed. An Eagle that voluntarily leaves a branch that everyone else would defend at any cost &ndash; not out of weakness, but because the Nine-wing knows when holding on no longer makes sense.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: A Decade at the Top</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carlsen became the youngest grandmaster of his era in 2004, at just 13, and held the world's number-one ranking continuously from 2011 onward &ndash; a dominance without parallel in recent chess history. From 2013 until his voluntary relinquishment in 2023, he held the World Championship title against multiple challengers, including Viswanathan Anand, Sergey Karjakin, Fabiano Caruana, and Ian Nepomniachtchi.</p>
+          <p class="vb-intro">Even after stepping back from the classical World Championship title, he remained dominant and unrivaled in rapid and blitz chess, repeatedly winning world titles in these faster formats. The Eagle did not have to abandon its aerie to keep flying &ndash; it simply chose which territory to hunt in.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1w9 is a rare combination of relentless precision and inner serenity &ndash; a champion who never plays carelessly, yet never fights for his status when that fight would drain him inwardly. Carlsen's 2022 decision is widely regarded today as a model for a mature relationship with success.</p>
+          <p class="vb-intro">The shadow of the SP1 shows in uncompromising strictness toward oneself and, in Carlsen's case, toward the perceived misconduct of others. In 2022, he publicly accused young American grandmaster Hans Niemann of cheating without initially presenting concrete evidence &ndash; an accusation that divided the chess world for months. The fate pattern of the One is <strong>anger</strong>, which here turned not inward but outward, in the form of uncompromising moral certainty. The Eagle that sees clearly can also be deceived by its own precision.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: From Control to Freedom</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the One leads from anger to serenity &ndash; from the question <em>Must I defend this title at any cost?</em> to the recognition <em>My worth does not depend on this one title.</em> For the SP1w9, this path shows most clearly when letting go is experienced not as defeat, but as liberation.</p>
+          <p class="vb-intro">Carlsen's relinquishment of his World Championship defense reads as exactly this step: the willingness to no longer tie one's own worth to a single, ever-recurring proof. The Eagle that no longer needs to prove it is the best &ndash; it simply keeps playing, for the joy of the game itself.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
+        {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
       ])}
     </div>
   `);
@@ -51288,6 +51361,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
+      "beruehmte-magnus-carlsen": magnusCarlsenPortraitPage,
       "beruehmte-anthony-hopkins": anthonyHopkinsPortraitPage,
       "beruehmte-pierce-brosnan": pierceBrosnanPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
