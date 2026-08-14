@@ -25061,6 +25061,7 @@ function jenniferAnistonPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2) – former husband"},
       ])}
     </div>
   `);
@@ -28606,14 +28607,14 @@ function bradPittPortraitPage() {
         <h2 class="vb-section">1. The Peacock</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Peacock</strong> is the animal of the Sexual Three &ndash; an animal whose impact does not come from calculation but from pure, immediate presence. It doesn't need to prove anything, it only needs to be there. Whoever encounters it feels a magnetism that resists analysis &ndash; and that is exactly where its power lies.</p>
-          <p class="vb-intro">Brad Pitt became an object of collective fascination almost overnight with a small but unmistakable supporting role in <em>Thelma &amp; Louise</em> (1991) &ndash; a few minutes of screen time were enough to make an entire cinema audience sit up. No elaborately staged star entrance, just plain physical presence that resists explanation and can only be experienced. The Peacock that changes a room simply by being what it is.</p>
+          <p class="vb-intro">Brad Pitt became an object of collective fascination almost overnight with a small but unmistakable supporting role in <em>Thelma &amp; Louise</em> (1991) &ndash; a few minutes of screen time were enough to make an entire cinema audience sit up. No elaborately staged star entrance, just plain physical presence that resists explanation and can only be experienced. The Peacock that changes a room simply by what it portrays.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Three: Magnetism as a Life Theme</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Sexual Three (SX3)</strong> makes personal magnetism its life's task &ndash; not success before the broader public, as with the Social Three, but immediate, physical resonance with the person in front of it. Claudio Naranjo called this subtype <em>Masculinity/Femininity</em>: the embodiment of attractiveness in its purest, most intimate form.</p>
           <p class="vb-intro">Pitt's career can be read as a three-decade translation of this magnetism into acting substance. Where other sex symbols get trapped by their own image, Pitt used his to venture repeatedly into new registers: the lyrical, romantic fly-fisherman in <em>Legends of the Fall</em>, the self-destructive anarchist in <em>Fight Club</em>, the easy-going con man in <em>Ocean's Eleven</em>. The SX3 attracts &ndash; and Pitt understood early that this attraction is a tool, not a destination.</p>
-          <p class="vb-intro">His private life, too, stood under permanent public scrutiny for decades &ndash; from his relationship with Gwyneth Paltrow, through his marriage to Jennifer Aniston, to his long partnership with Angelina Jolie, with whom he has six children. The SX3 lives relationship publicly and intensely; its charisma draws attention even where it wasn't sought.</p>
+          <p class="vb-intro">His private life, too, stood under permanent public scrutiny for decades &ndash; from his relationship with Gwyneth Paltrow, through his marriage to Jennifer Aniston (SX6w7), to his long partnership with Angelina Jolie (SO1w2), with whom he has six children. The SX3 lives relationship publicly and intensely; its charisma draws attention even where it wasn't sought.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-Wing: Champion, Not Just Star</h2>
@@ -28649,6 +28650,8 @@ function bradPittPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
         {route:"beruehmte-kai-pflaume", label:"Portrait: Kai Pflaume (SX3w2)"},
+        {route:"beruehmte-jennifer-aniston", label:"Portrait: Jennifer Aniston (SX6w7) – former wife"},
+        {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2) – longtime partner, six children together"},
       ])}
     </div>
   `);
@@ -28771,6 +28774,7 @@ function angelinaJoliePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
+        {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2) – longtime partner, six children together"},
       ])}
     </div>
   `);
