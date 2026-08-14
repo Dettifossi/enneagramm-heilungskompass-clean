@@ -458,6 +458,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Georg Wilhelm Friedrich Hegel – Social Type 5",
     teaser:"SO5w6 · 1770–1831. German philosopher, the culmination of German Idealism. Phenomenology of Spirit, dialectics, Philosophy of Right. The octopus with the Six-wing: an all-encompassing system, security through state and teaching authority. Animal correspondence: Octopus.",
     tags:["History","Philosophy"], gender:"m"},
+  { route:"beruehmte-rene-descartes", name:"René Descartes", added:"2026-08-14", subtyp:"SE5w6",
+    heading:"René Descartes – Self-Preservation Type 5",
+    teaser:"SP5w6 · 1596–1650. French philosopher and mathematician, founder of rationalism. Cogito ergo sum, methodical doubt, more than twenty moves in the Netherlands. The owl with the Six-wing: radical caution in the search for absolute certainty. Animal correspondence: Owl.",
+    tags:["History","Philosophy"], gender:"m"},
   { route:"beruehmte-isaac-newton", name:"Isaac Newton", added:"2026-08-14", subtyp:"SO5w6",
     heading:"Isaac Newton – Social Type 5",
     teaser:"SO5w6 · 1642/43–1727. English physicist and mathematician, Principia Mathematica, law of gravitation. Decades of hidden alchemy and theology studies, priority dispute with Leibniz, president of the Royal Society. The octopus with the Six-wing: knowledge as an instrument of power, security through institutional control. Animal correspondence: Octopus.",
@@ -26123,6 +26127,72 @@ function davidHumePortraitPage() {
   `);
 }
 
+function reneDescartesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-rene-descartes-portrait.jpg" alt="René Descartes" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">René Descartes</p>
+        <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">French philosopher and mathematician, 1596&ndash;1650 &ndash; Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Owl Who Philosophized in Bed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>owl</strong> is the animal of Type 5 &ndash; a creature that withdraws in order to see clearly, that guards its energy like a precious reserve. Few habits embody this as literally as René Descartes's famous morning routine: already as a pupil at the Jesuit college of La Flèche, he was permitted, for health reasons, to stay in bed until late morning &ndash; an exception he kept for the rest of his life. His most important thoughts, he himself said, came to him in these undisturbed morning hours, when no one had access to him.</p>
+          <p class="vb-intro">Born in 1596 in La Haye en Touraine, he served briefly as an officer in various European armies &ndash; less for combat than for the chance to travel and observe the world from a safe distance. On November 10, 1619, in a heated room in southern Germany, he had, according to tradition, the series of dreams that convinced him to devote his life to the search for a secure, unshakeable method of knowledge.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Five: The Castle in Exile</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Five (SP5)</strong> <em>Castle</em>: one's own territory becomes a fortress that limits the world's access as much as possible. In 1628 Descartes left France and moved to the Netherlands &ndash; a country that offered him the intellectual freedom and anonymity he sought. Over the following twenty-odd years, he reportedly changed his address more than twenty times, often without telling even close correspondents where he lived.</p>
+          <p class="vb-intro">He conducted most of his extensive correspondence through the priest and scholar Marin Mersenne in Paris, who acted as a kind of filter: Mersenne collected questions and comments from other thinkers before forwarding them to Descartes. Here the castle of the SP5 protects not through walls but through distance and mediation &ndash; contact happens, but only on one's own terms, in one's own time, filtered through trusted intermediaries.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Caution as a Survival Strategy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the self-preservation Five a watchful, often anxious caution toward external threats. In 1633 Descartes was on the verge of publishing his physical treatise "Le Monde" (The World), which, like Galileo, argued for a heliocentric universe. When he learned that the Inquisition in Rome had condemned Galileo for exactly this, he immediately withdrew the finished manuscript and never published it in his lifetime. "I would not want," he wrote to a friend, "anything of mine to be published that contains a single word the Church might disapprove of."</p>
+          <p class="vb-intro">The same caution shaped his entire method: in the "Meditationes de prima philosophia" (1641) he began with radical, methodical doubt about everything that could be doubted in the slightest &ndash; in order to arrive, in the end, at a single, absolutely certain fixed point: <em>Cogito, ergo sum</em> &ndash; I think, therefore I am. This is the Six-wing in its purest philosophical form: security is not assumed but earned step by step, through systematic distrust of every possibility of error.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Foundation: A Knowledge Nothing Could Shake</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Descartes wanted not merely to offer a new theory but to place the whole of philosophy on a foundation as secure as geometry &ndash; hence his preference for mathematical clarity, which he also expressed in the analytic geometry he helped found (the Cartesian coordinate system). Doubt was for him no end in itself but a tool: one clears away every uncertain ground until only what cannot possibly be doubted remains.</p>
+          <p class="vb-intro">This methodical rigor also showed in how he treated his own body: Descartes drew a radical distinction between res cogitans (the thinking mind) and res extensa (the extended, material world, including one's own body) &ndash; a dualism that let him regard thought as the only truly secure territory, independent of the uncertainties of physical existence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SP5w6 shows in the sheer clarity of Descartes's method: Cartesian doubt became the starting point of all modern philosophy, his rationalism the counterpart to British empiricism, his analytic geometry the bridge between algebra and space. Scarcely any thinker has placed the self-awareness of the subject &ndash; "I think" &ndash; so influentially at the center of philosophy.</p>
+          <p class="vb-intro">The shadow lies in the price of this certainty: his mind-body dualism left behind a problem still unresolved today &ndash; how can mind and body, if they are such radically separate substances, interact at all? Descartes himself attempted an answer via the pineal gland, a solution scarcely any of his successors found convincing. The castle meant to protect absolute certainty thereby created a new, deep rift between inner and outer, thought and world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Owl Who Left Its Routine &ndash; and Died</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1649, Queen Christina of Sweden invited Descartes to her court in Stockholm to instruct her in philosophy. The queen insisted that lessons begin at five in the morning &ndash; in the middle of the Swedish winter, for a man who had spent his entire life working until late morning in bed. Descartes gave up his protected routine to comply with the queen's request.</p>
+          <p class="vb-intro">A few months later, in February 1650, he died in Stockholm of pneumonia &ndash; likely aggravated, at least in part, by the icy northern cold he exposed himself to in the early morning hours. The owl who had spent a lifetime thinking in the protected stillness of his own time abandoned that protection exactly once &ndash; and paid for it with his life. What remained was a methodical system of thought that still shapes the fundamental questions of Western philosophy today: what can I truly know? And on what can that knowledge be securely grounded?</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
+        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
+        {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
+      ])}
+    </div>
+  `);
+}
+
 function adamSmithPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -50625,6 +50695,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-eli-jaxon-bear": eliJaxonBearPortraitPage,
       "beruehmte-david-hume": davidHumePortraitPage,
       "beruehmte-adam-smith": adamSmithPortraitPage,
+      "beruehmte-rene-descartes": reneDescartesPortraitPage,
       "beruehmte-xanthippe": xanthippePortraitPage,
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
       "beruehmte-abida-parveen": abidaParveenPortraitPage,

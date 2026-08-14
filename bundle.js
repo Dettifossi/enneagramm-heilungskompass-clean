@@ -31683,6 +31683,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Charles Darwin \u2013 Selbsterhaltender Typ 5",
     teaser:"SE5w6 \xb7 1809\u20131882. Naturforscher, Begr\u00fcnder der Evolutionstheorie. On the Origin of Species. Die Eule, die zwanzig Jahre wartete, bevor sie ihre Erkenntnis in die Welt trug.",
     tags:["Wissenschaft"], gender:"m"},
+  { route:"beruehmte-rene-descartes", name:"René Descartes", added:"2026-08-14", subtyp:"SE5w6",
+    heading:"René Descartes – Selbsterhaltender Typ 5",
+    teaser:"SE5w6 · 1596–1650. Französischer Philosoph und Mathematiker, Begründer des Rationalismus. Cogito ergo sum, methodischer Zweifel, über zwanzig Umzüge in den Niederlanden. Die Eule mit Sechserflügel: radikale Vorsicht auf der Suche nach absoluter Gewissheit. Tierentsprechung: Eule.",
+    tags:["Geschichte","Philosophie"], gender:"m"},
   { route:"beruehmte-spinoza", name:"Baruch de Spinoza", added:"2026-08-10", subtyp:"SE5w6",
     heading:"Baruch de Spinoza \u2013 Selbsterhaltender Typ 5",
     teaser:"SE5w6 \xb7 1632\u20131677. Rationalistischer Philosoph, Verfasser der Ethica. Zur\u00fcckgezogen in Amsterdam und Den Haag lebend, schliff er Linsen zum Lebensunterhalt und dachte die radikalste Gottesvorstellung seiner Zeit zu Ende. Die Eule, die sich aus jeder Gemeinschaft zur\u00fcckzog, um klarer zu sehen.",
@@ -48039,6 +48043,73 @@ function spinozaPortraitPage() {
         {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
         {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8)"},
         {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4) \u2013 berief sich auf Spinozas Gottesbegriff"},
+        {route:"beruehmte-rene-descartes", label:"Portr\u00e4t: Ren\u00e9 Descartes (SE5w6) \u2013 dessen Philosophie er in seinem einzigen zu Lebzeiten unter eigenem Namen ver\u00f6ffentlichten Werk kommentierte"},
+        {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
+      ])}
+    </div>
+  `);
+}
+
+function reneDescartesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-rene-descartes-portrait.jpg" alt="Ren\u00e9 Descartes" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ren\u00e9 Descartes</p>
+        <p class="krim-portrait-typ">SE5w6 \u00b7 Selbsterhaltender Typ 5 mit Sechserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Franz\u00f6sischer Philosoph und Mathematiker, 1596\u20131650 \u2013 Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule, die im Bett philosophierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des Typs 5 \u2013 ein Wesen, das sich zur\u00fcckzieht, um klar zu sehen, das seine Energie h\u00fctet wie einen kostbaren Vorrat. Kaum eine Gewohnheit verk\u00f6rpert das so w\u00f6rtlich wie die ber\u00fchmte Morgenroutine Ren\u00e9 Descartes': Schon als Sch\u00fcler am Jesuitenkolleg La Fl\u00e8che erlaubte man ihm aus gesundheitlichen Gr\u00fcnden, bis in den sp\u00e4ten Vormittag im Bett zu bleiben \u2013 eine Ausnahme, die er sein ganzes Leben lang beibehielt. Seine bedeutendsten Gedanken, sagte er selbst, k\u00e4men ihm in diesen ungest\u00f6rten Morgenstunden, in denen niemand Zugriff auf ihn hatte.</p>
+          <p class="vb-intro">Geboren 1596 in La Haye en Touraine, diente er kurze Zeit als Offizier in verschiedenen europ\u00e4ischen Armeen \u2013 doch weniger f\u00fcr den Kampf als f\u00fcr die Gelegenheit zu reisen und die Welt aus sicherer Distanz zu beobachten. Am 10. November 1619, in einer beheizten Stube in S\u00fcddeutschland, hatte er der \u00dcberlieferung nach jene Serie von Tr\u00e4umen, die ihn zur \u00dcberzeugung brachte, sein Leben der Suche nach einer sicheren, unersch\u00fctterlichen Methode des Wissens zu widmen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende F\u00fcnf: Die Burg im Exil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende F\u00fcnf (SE5)</strong> nennt Naranjo <em>Burg</em>: Das eigene Territorium wird zur Festung, die den Zugriff der Welt so weit wie m\u00f6glich beschr\u00e4nkt. 1628 verlie\u00df Descartes Frankreich und zog in die Niederlande \u2013 ein Land, das ihm die intellektuelle Freiheit und die Anonymit\u00e4t bot, die er suchte. In den folgenden gut zwanzig Jahren wechselte er der \u00dcberlieferung nach mehr als zwanzigmal seinen Wohnort, oft ohne seine Adresse auch nur engen Korrespondenten mitzuteilen.</p>
+          <p class="vb-intro">Seinen umfangreichen Briefwechsel wickelte er meist \u00fcber den Priester und Gelehrten Marin Mersenne in Paris ab, der als eine Art Filter fungierte: Mersenne sammelte Fragen und Kommentare anderer Denker, bevor er sie an Descartes weiterleitete. Die Burg der SE5 sch\u00fctzt hier nicht durch Mauern, sondern durch Distanz und Vermittlung \u2013 Kontakt findet statt, aber nur nach den eigenen Bedingungen, in der eigenen Zeit, gefiltert durch Vertraute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Vorsicht als \u00dcberlebensstrategie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\u00fcgel (w6)</strong> gibt der selbsterhaltenden F\u00fcnf eine wache, oft \u00e4ngstliche Vorsicht gegen\u00fcber \u00e4u\u00dferen Bedrohungen. 1633 war Descartes kurz davor, sein physikalisches Werk "Le Monde" (Die Welt) zu ver\u00f6ffentlichen, das \u2013 wie Galileo \u2013 ein heliozentrisches Weltbild vertrat. Als er erfuhr, dass die Inquisition in Rom Galileo genau deswegen verurteilt hatte, zog er das fertige Manuskript sofort zur\u00fcck und ver\u00f6ffentlichte es zu Lebzeiten nie. "Ich m\u00f6chte nicht", schrieb er einem Freund, "dass irgendetwas von mir ver\u00f6ffentlicht wird, das ein einziges Wort enth\u00e4lt, das die Kirche missbilligen k\u00f6nnte."</p>
+          <p class="vb-intro">Dieselbe Vorsicht pr\u00e4gte seine gesamte Methode: In den "Meditationes de prima philosophia" (1641) begann er mit dem radikalen, methodischen Zweifel an allem, was sich auch nur im Geringsten anzweifeln lie\u00df \u2013 um am Ende einen einzigen, absolut sicheren Fixpunkt zu finden: <em>Cogito, ergo sum</em> \u2013 ich denke, also bin ich. Das ist der Sechserfl\u00fcgel in seiner reinsten philosophischen Form: Sicherheit wird nicht vorausgesetzt, sondern durch systematisches Misstrauen gegen\u00fcber jeder M\u00f6glichkeit des Irrtums Schritt f\u00fcr Schritt erarbeitet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Fundament: Ein Wissen, das nichts mehr ersch\u00fcttern kann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Descartes wollte nicht nur eine neue Theorie liefern, sondern die Philosophie insgesamt auf ein Fundament stellen, das so sicher war wie die Geometrie \u2013 daher r\u00fchrt seine Vorliebe f\u00fcr mathematische Klarheit, die er auch in der von ihm mitbegr\u00fcndeten analytischen Geometrie (dem kartesischen Koordinatensystem) auslebte. Zweifel war f\u00fcr ihn kein Selbstzweck, sondern Werkzeug: Man r\u00e4umt jeden unsicheren Grund beiseite, bis nur noch das \u00fcbrig bleibt, was sich unm\u00f6glich bezweifeln l\u00e4sst.</p>
+          <p class="vb-intro">Diese methodische Strenge zeigte sich auch im Umgang mit dem eigenen K\u00f6rper: Descartes unterschied radikal zwischen res cogitans (dem denkenden Geist) und res extensa (der ausgedehnten, materiellen Welt einschlie\u00dflich des eigenen K\u00f6rpers) \u2013 ein Dualismus, der es ihm erlaubte, das Denken als das einzig wirklich sichere Territorium zu betrachten, unabh\u00e4ngig von den Unw\u00e4gbarkeiten der physischen Existenz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w6 zeigt sich in der schieren Klarheit von Descartes' Methode: Der cartesische Zweifel wurde zum Ausgangspunkt der gesamten neuzeitlichen Philosophie, sein Rationalismus zum Gegenpol des britischen Empirismus, seine analytische Geometrie zur Br\u00fccke zwischen Algebra und Raum. Kaum ein Denker hat das Selbstbewusstsein des Subjekts \u2013 "ich denke" \u2013 so wirkungsm\u00e4chtig ins Zentrum der Philosophie ger\u00fcckt.</p>
+          <p class="vb-intro">Der Schatten liegt im Preis dieser Sicherheit: Sein Leib-Seele-Dualismus hinterlie\u00df ein bis heute ungel\u00f6stes Problem \u2013 wie k\u00f6nnen Geist und K\u00f6rper, wenn sie derart radikal getrennte Substanzen sind, \u00fcberhaupt miteinander wechselwirken? Descartes selbst versuchte eine Antwort \u00fcber die Zirbeldr\u00fcse, die kaum jemand seiner Nachfolger \u00fcberzeugend fand. Die Burg, die absolute Gewissheit sch\u00fctzen sollte, erzeugte damit eine neue, tiefe Kluft zwischen Innen und Au\u00dfen, Denken und Welt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Eule, die ihre Routine verlie\u00df \u2013 und starb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1649 lud K\u00f6nigin Christina von Schweden Descartes an ihren Hof nach Stockholm ein, um sie in Philosophie zu unterrichten. Die K\u00f6nigin bestand darauf, ihren Unterricht um f\u00fcnf Uhr morgens zu beginnen \u2013 mitten im schwedischen Winter, f\u00fcr einen Mann, der sein ganzes Leben lang bis in den sp\u00e4ten Vormittag im Bett gearbeitet hatte. Descartes gab seine gesch\u00fctzte Routine auf, um der Bitte der K\u00f6nigin nachzukommen.</p>
+          <p class="vb-intro">Wenige Monate sp\u00e4ter, im Februar 1650, starb er in Stockholm an einer Lungenentz\u00fcndung \u2013 vermutlich zumindest beg\u00fcnstigt durch die eisige nordische K\u00e4lte, der er sich in den fr\u00fchen Morgenstunden aussetzte. Die Eule, die ihr Leben lang in der gesch\u00fctzten Stille ihrer eigenen Zeit gedacht hatte, verlie\u00df genau diesen Schutz ein einziges Mal \u2013 und bezahlte daf\u00fcr mit dem Leben. Was blieb, war ein methodisches Denkgeb\u00e4ude, das bis heute die Grundfragen der westlichen Philosophie pr\u00e4gt: Was kann ich wirklich wissen? Und worauf l\u00e4sst sich dieses Wissen sicher gr\u00fcnden?</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-spinoza", label:"Portr\u00e4t: Baruch de Spinoza (SE5w6) \u2013 kommentierte seine Philosophie in seinem einzigen zu Lebzeiten ver\u00f6ffentlichten Werk"},
+        {route:"beruehmte-isaac-newton", label:"Portr\u00e4t: Isaac Newton (SO5w6)"},
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
       ])}
     </div>
@@ -84823,6 +84894,7 @@ function render() {
           "beruehmte-angela-merkel": angelaMerkelPortraitPage,
     "beruehmte-david-hume": davidHumePortraitPage,
     "beruehmte-spinoza": spinozaPortraitPage,
+    "beruehmte-rene-descartes": reneDescartesPortraitPage,
     "beruehmte-adam-smith": adamSmithPortraitPage,
     "beruehmte-xanthippe": xanthippePortraitPage,
     "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
