@@ -31400,6 +31400,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ai Weiwei – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1957. Chinesischer Künstler und Aktivist, Sunflower Seeds, Human Flow, 81 Tage Haft 2011. Das Flusspferd verteidigt sein Revier – öffentlich, unerschrocken, mit dem Blick auf möglichst viele Menschen. Tierentsprechung: Flusspferd.",
     tags:["Kunst","Aktivismus"], gender:"m"},
+  { route:"beruehmte-yayoi-kusama", name:"Yayoi Kusama", added:"2026-08-14", subtyp:"SE2w3",
+    heading:"Yayoi Kusama – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 1929 in Matsumoto, Japan. Künstlerin, Infinity Mirror Rooms, Punktmuster als lebensrettende Selbstauslöschung. Seit 1977 freiwillig in einer psychiatrischen Klinik in Tokio lebend, täglich im Atelier arbeitend. Tierentsprechung: Flusspferd.",
+    tags:["Kunst"], gender:"f"},
   { route:"beruehmte-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", added:"2026-08-13", subtyp:"SE2w3",
     heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · 1756–1791. Österreichischer Komponist. Wunderkind auf Europatournee, Bruch mit dem Salzburger Fürsterzbischof, über 600 Werke in 35 Lebensjahren. Das Flusspferd mit Dreierflügel: Fürsorge, derber Humor und unermüdlicher Ehrgeiz auf der Bühne. Tierentsprechung: Flusspferd.",
@@ -54142,6 +54146,7 @@ function wolfgangAmadeusMozartPortraitPage() {
         {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2) – enger Freund und bewunderter Kollege"},
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3)"},
+        {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3)"},
       ])}
     </div>
   `);
@@ -54208,6 +54213,72 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3)"},
         {route:"beruehmte-oprah-winfrey", label:"Porträt: Oprah Winfrey (SE2w3)"},
         {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3)"},
+        {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function yayoiKusamaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-yayoi-kusama-portrait.jpg" alt="Flusspferd" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Yayoi Kusama</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Künstlerin, geb. 1929 in Matsumoto, Japan &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das unterschätzt wird, bis man seine wahre Kraft erlebt. Es wirkt ruhig, fast bewegungslos im Wasser, doch es verteidigt sein Territorium mit unbändiger Entschlossenheit. Und es braucht sein Wasser, sein Element, um überhaupt zu überleben &ndash; ohne es geht es zugrunde.</p>
+          <p class="vb-intro">Yayoi Kusama malt seit ihrer Kindheit Punkte &ndash; unzählige, sich endlos wiederholende Kreise, die sich über Leinwände, Kürbisse, ganze Räume und ihren eigenen Körper ausbreiten. Für sie ist das kein künstlerisches Konzept im gewöhnlichen Sinn, sondern eine Überlebensnotwendigkeit: Ohne das Malen, sagt sie selbst, hätte sie sich längst das Leben genommen. Das Flusspferd braucht sein Wasser. Kusama braucht ihre Punkte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Kunst als Überlebensmittel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet die Energie der Zwei zuerst auf das eigene Überleben. Naranjo nannte diesen Subtyp <em>Me First</em> &ndash; nicht aus Egoismus, sondern weil die SE2 zuerst für sich selbst sorgen muss, bevor sie sich anderen zuwenden kann. Bei der SE2 ist Fürsorge oft untrennbar mit einer existenziellen Bedrohung verbunden, gegen die sie sich wehrt.</p>
+          <p class="vb-intro">Kusama leidet seit ihrer frühen Kindheit an visuellen und akustischen Halluzinationen &ndash; Blumenmuster, die zu sprechen begannen, endlose Netze aus Punkten, die sich über ihr Blickfeld legten und drohten, sie und die ganze Welt aufzulösen. Anstatt daran zu zerbrechen, begann sie schon als Kind, diese Visionen zu zeichnen &ndash; ein Akt, den sie <em>Selbstauslöschung</em> nannte: sich selbst in das unendliche Muster aufzulösen, um nicht von ihm zerstört zu werden. Kunst wurde zu ihrer einzigen, lebensrettenden Strategie gegen eine innere Realität, die sie sonst überwältigt hätte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Der unbedingte Wille zur Sichtbarkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei einen zusätzlichen Antrieb: den unbedingten Willen, gesehen zu werden, etwas zu erreichen, sich Anerkennung zu erarbeiten. Wo die reine Zwei sich in stiller Fürsorge erschöpfen könnte, verleiht der Dreierflügel Ehrgeiz, Selbstinszenierung und die Fähigkeit, aus der eigenen Not eine öffentliche Bühne zu machen.</p>
+          <p class="vb-intro">1958 zog Kusama, mittellos und ohne Englischkenntnisse, allein nach New York, weil sie überzeugt war, dass ihre Kunst dort Anerkennung finden würde. In den 1960er Jahren inszenierte sie spektakuläre &bdquo;Happenings&ldquo;: Sie bemalte nackte Teilnehmer mit Punkten, organisierte Anti-Vietnamkrieg-Proteste und suchte bewusst die mediale Aufmerksamkeit, während sie zugleich in bitterer Armut lebte. Der Dreierflügel machte aus einer zutiefst introvertierten, von inneren Bildern geplagten Künstlerin eine öffentliche Figur, die genau wusste, wie man ein Publikum erreicht &ndash; nicht aus Eitelkeit, sondern weil Sichtbarkeit für die SE2w3 gleichbedeutend mit Überleben ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Unendlichkeit als Einladung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kusamas berühmteste Werke, die begehbaren <em>Infinity Mirror Rooms</em>, laden Besucher ein, für wenige Minuten in genau jene Erfahrung der Auflösung einzutauchen, die Kusama selbst ihr Leben lang begleitet &ndash; gespiegelte, endlose Lichtpunkte, die die Grenze zwischen dem eigenen Körper und dem Raum verschwimmen lassen. Millionen Menschen weltweit haben diese Installationen besucht; sie zählt heute zu den meistbesuchten lebenden Künstlerinnen der Welt.</p>
+          <p class="vb-intro">Der Erfolg kam spät: Erst ab den 1990er Jahren, nach Jahrzehnten relativer Unsichtbarkeit in der Kunstwelt, wurde ihr Werk international neu entdeckt und gefeiert &ndash; mit Retrospektiven in den bedeutendsten Museen der Welt und Kooperationen etwa mit Louis Vuitton. Das Flusspferd, das jahrzehntelang unterschätzt wurde, bis niemand mehr an seiner Kraft zweifeln konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist ihre Fähigkeit, aus existenzieller Not etwas zu schaffen, das nicht nur sie selbst rettet, sondern Millionen anderer Menschen berührt. Kusamas Kunst gibt ihrem eigenen inneren Chaos eine Form &ndash; und macht diese Form zu einem Geschenk, das andere Menschen in denselben Zustand des Staunens und der Auflösung einlädt, den sie selbst durchlebt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Leistung unentbehrlich, notwendig, gebraucht zu sein. 1973 kehrte Kusama nach New York zurück nach Japan zurück, körperlich und psychisch erschöpft, nach mehreren Suizidversuchen. 1977 ließ sie sich freiwillig in eine psychiatrische Klinik in Tokio einweisen &ndash; und lebt dort bis heute, mit weit über neunzig Jahren, während sie täglich in ihr nahegelegenes Atelier geht, um zu arbeiten. Das ist die SE2w3 in ihrer radikalsten Form: eine Frau, die ihre eigene Fragilität nie verleugnet, sondern sich bewusst in einen schützenden Rahmen begeben hat &ndash; und innerhalb dieses Rahmens unermüdlich weiterschafft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Auflösung zur Verbindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt von der Frage <em>Werde ich gebraucht?</em> zur Erkenntnis <em>Ich bin bereits verbunden, auch ohne mich aufzulösen.</em> Für die SE2w3 zeigt sich dieser Weg darin, dass die einst private, überlebensnotwendige Selbstauslöschung zu einer bewusst geteilten, öffentlichen Erfahrung wird &ndash; nicht mehr Flucht vor der eigenen Zerbrechlichkeit, sondern ein Geschenk aus ihr heraus.</p>
+          <p class="vb-intro">Kusama schafft bis heute, im hohen Alter, täglich neue Werke &ndash; nicht mehr nur, um sich selbst vor der Auflösung zu retten, sondern weil sie gelernt hat, ihre tiefste Verletzlichkeit in eine universelle Sprache zu übersetzen, die Menschen auf der ganzen Welt versteht. Das Flusspferd, das sein Wasser nie verlassen hat &ndash; und das gerade darin zu einer der einflussreichsten Stimmen der zeitgenössischen Kunst wurde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-ai-weiwei", label:"Porträt: Ai Weiwei (SE2w3)"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3)"},
       ])}
     </div>
   `);
@@ -85725,6 +85796,7 @@ function render() {
       "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
       "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
+      "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
