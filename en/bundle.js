@@ -18773,6 +18773,7 @@ function aristotelesPortraitPage() {
         {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
         {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SE1w9)"},
         {route:"beruehmte-alexander-der-grosse", label:"Portrait: Alexander the Great (SO2w3)"},
+        {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SE9w8) – fused his logic with Christian theology"},
         {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
       ])}
     </div>
@@ -26305,7 +26306,7 @@ function thomasVonAquinPortraitPage() {
 
         <h2 class="vb-section">4. The Summa Theologica: Order as Life's Work</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Thomas's major work, the "Summa Theologica," is a structure of immense scale: organized into questions, objections, and answers, it attempts to translate the entirety of Christian doctrine, together with the logic of the rediscovered Aristotle, into a single, contradiction-free system. This synthesis of ancient reason and Christian revelation &ndash; known as Thomism &ndash; became the defining framework of Catholic theology for centuries.</p>
+          <p class="vb-intro">Thomas's major work, the "Summa Theologica," is a structure of immense scale: organized into questions, objections, and answers, it attempts to translate the entirety of Christian doctrine, together with the logic of the rediscovered Aristotle (SE1w9), into a single, contradiction-free system. This synthesis of ancient reason and Christian revelation &ndash; known as Thomism &ndash; became the defining framework of Catholic theology for centuries.</p>
           <p class="vb-intro">The same systematic force flowed, more than a century later, into one of the most important works in world literature: Dante Alighieri (SX4w5) built the theological architecture of his "Divine Comedy" substantially on Thomistic thought. The calm, methodical elephant from Aquino thus unknowingly supplied the intellectual foundation for one of the most passionate literary works of the Middle Ages.</p>
         </blockquote>
 
@@ -26330,6 +26331,7 @@ function thomasVonAquinPortraitPage() {
         {route:"subtype/se9", label:"SE9 – The Elephant: Subtype Profile"},
         {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8)"},
         {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-aristoteles", label:"Portrait: Aristotle (SE1w9) – whose logic he fused with Christian theology"},
         {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5) – whose Divine Comedy drew on his theological thought"},
         {route:"hoellenkreise-dante", label:"Chart: The 9 Circles of Hell According to Dante's Inferno"},
       ])}
