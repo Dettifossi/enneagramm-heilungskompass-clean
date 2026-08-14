@@ -1820,7 +1820,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "schildkroetenarten-der-9-typen",
     "fischarten-der-9-typen",
     "walarten-der-9-typen",
-    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "dynamik-der-typen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-impulse", "david-rathmer-kriminalfaelle", "david-rathmer-grundlagen", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "homoeopathie-songs", "detlef-rathmer-jazz", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
+    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "dynamik-der-typen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-impulse", "david-rathmer-kriminalfaelle", "david-rathmer-grundlagen", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "hoellenkreise-dante", "beruhmte-komponisten", "homoeopathie-songs", "detlef-rathmer-jazz", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -1934,6 +1934,7 @@ text.nav = [
     { route: "beruhmte-komponisten", label: "Famous Composers" },
     { route: "homoeopathie-songs", label: "Enneagram, Homeopathy & Songs" },
     { route: "beruhmte-philosophen", label: "Famous Philosophers" },
+    { route: "hoellenkreise-dante", label: "Circles of Hell According to Dante's Inferno" },
     { route: "bedeutung-27-subtypen", label: "Meaning of the 27 Subtypes" },
     { route: "dynamik-der-typen", label: "Inner Dynamics of the Enneagram Types" },
     { route: "beziehungen-schaubild", label: "Relationships" },
@@ -20547,6 +20548,7 @@ function danteAlighieriPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5)"},
         {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
+        {route:"hoellenkreise-dante", label:"Chart: The 9 Circles of Hell According to Dante's Inferno"},
       ])}
     </div>
   `);
@@ -43411,6 +43413,54 @@ function beruhmtePhilosophenPage() {
   `);
 }
 
+function hoellenkreiseDantePage() {
+  const kreise = [
+    { typ: 1, kreis: 1, farbe: "#c98a8a", titel: "1st Circle", text: "Here dwell the wise, poets, and heroes of antiquity – Dante himself was a poet and placed himself here, at Type 1." },
+    { typ: 2, kreis: 2, farbe: "#9b3fa0", titel: "2nd Circle", text: "In the hell of lust, the sinners of love are whipped by terrible storms – driven restlessly onward, never coming to rest." },
+    { typ: 3, kreis: 9, farbe: "#8fd6cf", titel: "9th Circle", text: "In the ice, traitors, fratricides, and patricides are frozen in place and suffer bitter cold – the opposite of the warmth they themselves denied others." },
+    { typ: 4, kreis: 7, farbe: "#3fae3f", titel: "7th Circle", text: "(Self-)murderers are tormented in the desert under a rain of fire – violence once directed at oneself or others returns as an eternal burning." },
+    { typ: 5, kreis: 4, farbe: "#e79a9a", titel: "4th Circle", text: "The greedy and the wasteful roll stone burdens against each other, wailing – two forms of the same unhealthy relationship to possession and resources." },
+    { typ: 6, kreis: 8, farbe: "#f2c6cf", titel: "8th Circle", text: "Corrupt officials, priests, hypocrites, and evil counselors suffer elaborately devised cruelties – broken trust answered with calculated harshness." },
+    { typ: 7, kreis: 3, farbe: "#e8c93f", titel: "3rd Circle", text: "Beaten down by cold rain, the gluttonous drag themselves through filth – the former pursuit of pleasure turned into bleak repetition." },
+    { typ: 8, kreis: 5, farbe: "#8a1f1f", titel: "5th Circle", text: "In the foul swamp, the wrathful tear at one another – unchecked force that, in the end, turns only against its own fellow sufferers." },
+    { typ: 9, kreis: 6, farbe: "#f0e14a", titel: "6th Circle", text: "Sinners of weakness and passivity lie in burning tombs – the inertia that meant standstill in life becomes burning idleness." },
+  ];
+
+  return shell(`
+    ${pageHeader("hoellenkreise-dante")}
+    <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
+      <p class="eyebrow">Charts &middot; Circles of Hell &middot; Literature</p>
+      <h1 class="section-title">The 9 Circles of Hell According to Dante's Inferno</h1>
+      <p class="psycho-intro">Dante Alighieri (SX4w5) designed a Hell of nine concentric circles in his "Divine Comedy" – a structure of encyclopedic precision that transformed his personal exile from Florence into a literary world tribunal. Each circle punishes a specific human failing, and a striking number of these failings map onto the nine passions of the Enneagram.</p>
+
+      <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1.25rem 0;">Dante conceived of Hell as a funnel-shaped pit divided into nine concentric circles, at whose center sits Satan, evil personified. Descending from circle to circle means encountering an ever more radical form of the same failing – from the comparatively mild circle of the unbaptized to the icy center reserved for betrayal. The overview below matches each of the Enneagram's nine universal principles to the circle of Hell that corresponds to it most closely.</p>
+
+      <img
+        src="../assets/schaubilder/hoellenkreise-dante/hoellenkreise-dante.jpg"
+        alt="The 9 Circles of Hell According to Dante's Inferno"
+        style="width:100%;border-radius:8px;margin:0 0 2rem;"
+      />
+
+      ${kreise.map(k => `
+        <div style="background:var(--cream);border-left:3px solid ${k.farbe};border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;margin-bottom:1.5rem;">
+          <p style="font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold-dark);margin:0 0 0.2rem;">Type ${k.typ} &middot; ${k.titel}</p>
+          <p style="font-size:0.88rem;line-height:1.7;color:var(--anthracite);margin:0;">${k.text}</p>
+        </div>
+      `).join("")}
+
+      <p style="font-size:0.82rem;line-height:1.7;color:var(--gray-mid);margin:1.5rem 0 2rem;">The Italian poet and philosopher Dante Alighieri (1265–1321) designed nine circles of Hell in his work "The Divine Comedy." Hell is thereby a pit arranged into nine concentric circles, at whose center sits Satan, evil personified. The individual themes of the circles of Hell correspond to the nine universal principles of the Enneagram.</p>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"schaubilder", label:"All charts"},
+        {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5) – author of the Divine Comedy"},
+        {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
+      ])}
+    </div>
+  `);
+}
+
 function dreiLebenskraeftePage() {
   return shell(`
     ${pageHeader("drei-lebenskraefte")}
@@ -51170,6 +51220,7 @@ function subtypeSchaubilderPage() {
     "suche-nach-liebe": sucheNachLiebePage,
     "drei-lebenskraefte": dreiLebenskraeftePage,
     "beruhmte-philosophen": beruhmtePhilosophenPage,
+    "hoellenkreise-dante": hoellenkreiseDantePage,
     "homoeopathie-songs": homoeopathieSongsPage,
     "detlef-rathmer-jazz": detlefRathmerJazzPage,
     "beruhmte-komponisten": berühmteKomponistenPage,

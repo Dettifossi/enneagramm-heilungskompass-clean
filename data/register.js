@@ -106,6 +106,7 @@ export const registerEntries = [
   { term: "Dialektische Struktur",   route: "dialektische-struktur",    description: "Schaubild: innere Gegensatzspannung jedes Typs" },
   { term: "Drei Lebenskräfte",       route: "drei-lebenskraefte",       description: "Schaubild: aktiv, ausgleichend, passiv &ndash; die drei Grundenergien der 9 Typen" },
   { term: "Berühmte Philosophen",    route: "beruhmte-philosophen",     description: "Aristoteles, Kant, Sokrates & Co.: Welcher Enneagrammtyp steckt hinter den großen Denkern?" },
+  { term: "Höllenkreise nach Dantes Inferno", route: "hoellenkreise-dante", description: "Schaubild: Die 9 Kreise der Hölle aus Dantes Göttlicher Komödie, zugeordnet zu den 9 Enneagrammtypen" },
   { term: "Differenzierung",         route: "differenzierung",          description: "Lookalikes & Abgrenzung zwischen ähnlichen Typen" },
   { term: "Drei Zentren",            route: "drei-zentren",             description: "Schaubild: Kopf-, Herz- und Bauchzentrum" },
 
@@ -992,6 +993,7 @@ export const registerEntriesEN = [
   { term: "Dialectical Structure", route: "dialektische-struktur", description: "Diagram: inner tension of opposites of each type" },
   { term: "Three Life Forces", route: "drei-lebenskraefte", description: "Diagram: active, balancing, passive – the three basic energies of the 9 types" },
   { term: "Famous Philosophers", route: "beruhmte-philosophen", description: "Aristotle, Kant, Socrates & Co.: Which Enneagram type is behind the great thinkers?" },
+  { term: "Circles of Hell According to Dante's Inferno", route: "hoellenkreise-dante", description: "Chart: the 9 circles of Hell from Dante's Divine Comedy, matched to the 9 Enneagram types" },
   { term: "Differentiation", route: "differenzierung", description: "Lookalikes & distinction between similar types" },
   { term: "Three Centers", route: "drei-zentren", description: "Diagram: head, heart, and belly center" },
   { term: "Gemstones", route: "edelsteine", description: "Diagram: gemstone assignments for all types" },
