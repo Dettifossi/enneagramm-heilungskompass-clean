@@ -182,6 +182,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sting – Self-Preservation Type 1",
     teaser:"SP1w9 · “The Eagle”, born 1951. Singer, bassist, composer. The Police and an unparalleled solo career – from jazz to lute, from Shakespeare to the Rainforest Foundation. Craft as conscience, stillness as second nature. Animal correspondence: Eagle.",
     tags:["Musik"] },
+  { route:"beruehmte-astrid-lindgren", name:"Astrid Lindgren", added:"2026-08-14", subtyp:"SE1w9",
+    heading:"Astrid Lindgren – Self-Preservation Type 1",
+    teaser:"SP1w9 · 1907–2002. Swedish author, Pippi Longstocking, Karlsson on the Roof, The Brothers Lionheart. Discipline as daily ritual, a quiet late-life fight for animal welfare (the 'Lex Lindgren'). Animal correspondence: Eagle.",
+    tags:["Literatur"] },
   { route:"beruehmte-ken-follett", name:"Ken Follett", added:"2026-07-28", subtyp:"SE1w9",
     heading:"Ken Follett – Self-Preservation Type 1",
     teaser:"SP1w9 · born 1949. Bestselling author of historical novels, including works on a medieval cathedral and the world wars of the 20th century. Over sixty years of writing consistency, meticulous research, and a calm, unshakeable work rhythm. Animal correspondence: Eagle.",
@@ -23743,6 +23747,82 @@ function magnusCarlsenPortraitPage() {
   `);
 }
 
+function astridLindgrenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-astrid-lindgren-portrait.jpg" alt="Eagle" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Astrid Lindgren</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Author, 1907&ndash;2002 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; it circles high above the fray, sees with unusual clarity what unfolds below, and intervenes only when it truly matters. Not an animal of loud gestures, but of quiet, incorruptible precision. And when it spreads its wings, it carries further than almost any other creature.</p>
+          <p class="vb-intro">Astrid Lindgren, born in 1907 on the Näs farm near Vimmerby in the Swedish province of Småland, became the most-read Swedish author of all time &ndash; over 165 million books sold, translated into more than 100 languages. And yet she remained remarkably reserved throughout her life, almost invisible behind her own work. The Eagle need not circle constantly to be seen. It need only fly correctly once.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Discipline as Daily Ritual</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs its perfectionism not toward correcting the world, but inward: toward its own work discipline, its own precision, an incorruptible reliability toward itself. Naranjo called this subtype <em>Worry</em> &ndash; concern. The SP1 asks itself relentlessly: Did I truly do this right? Does it meet my own standard?</p>
+          <p class="vb-intro">In Lindgren this showed in an almost monastic work routine she maintained for decades: she wrote her first drafts in bed, in shorthand, every morning before the actual working day began &ndash; only afterward did she type the text fair on her typewriter. Alongside this, she worked for almost forty years as chief editor for children's books at the publisher Rabén &amp; Sjögren, examining others' manuscripts with the same precision she applied to her own texts. Two parallel careers, conducted with the same relentless care &ndash; not out of ambition, but from the inner demand to do it right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Restraint Despite World Fame</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds a quality to the SP1 energy that rarely survives the spotlight: the ability to step back, to merge, to put the cause rather than one's own person at the center. Where the pure One defends its position, the Nine-wing seeks quiet impact over loud performance.</p>
+          <p class="vb-intro">Despite her immense worldwide fame, Lindgren remained conspicuously modest throughout her life. She rarely gave detailed interviews about her private life, avoided the grand stage of her own celebrity, and lived into old age in her unpretentious Stockholm apartment on Dalagatan, reachable for neighborhood children who actually rang her doorbell to meet "the real Pippi author." The Nine-wing also shows in her publishing work: over decades she discovered and nurtured numerous other Swedish children's authors without placing herself in the foreground &ndash; a quiet, patient form of influence that is not measured by its own visibility.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: A Century of Childhood</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1941, while sitting at the bedside of her ailing daughter Karin, Lindgren invented, at her daughter's request, the character of <em>Pippi Longstocking</em> &ndash; a girl who lives alone in a villa, is superhumanly strong, and cares nothing for adult rules. Published in 1945, the character became a literary revolution: for the first time, a child stood at the center who tolerated no authority over herself, but shaped her own life with sovereignty, kindness, and complete independence. Some contemporary educators were horrified. Millions of children were delighted.</p>
+          <p class="vb-intro">A body of work of rare breadth followed: <em>Karlsson on the Roof</em> (1955), <em>Emil of Lönneberga</em> (1963), the tender, melancholic <em>The Brothers Lionheart</em> (1973), still considered one of the most important children's books about death and courage, and <em>Ronia, the Robber's Daughter</em> (1981), which shaped an entire generation of Scandinavian girls. Nearly all her books combine the same rare quality: unconditional respect for childhood autonomy alongside a clear, almost strict moral order in the background &ndash; the One and her freedom-loving counterpart united in a single author.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Early Wound: The Son She Had to Give Up</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1926, at eighteen, the unmarried Astrid became pregnant &ndash; a social scandal in the Swedish provinces of that era that could have destroyed her future there. She went to Copenhagen, secretly gave birth to her son Lasse, and, unable to support him alone, had to leave him with a Danish foster family for years &ndash; a parting she later described as the most painful moment of her life. Only in 1930, after building an independent existence for herself in Stockholm, could she bring him to live with her.</p>
+          <p class="vb-intro">This early trauma is never directly addressed in her works &ndash; typical of the reserved SP1w9, who rarely negotiates private pain in public. Yet the recurring motif of the courageous child managing alone throughout her entire body of work, from Pippi to the Brothers Lionheart, is hardly separable from this early experience of separation and the desperate need to believe that a child can endure even without protective adults.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Righteous Anger: Pomperipossa and the Lex Lindgren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1976, the otherwise politically reserved Lindgren published the satirical tale <em>Pomperipossa in Monismania</em>, publicly revealing that as a small business owner she was required to pay over 100 percent of her income in taxes under an absurd regulation &ndash; more than she even earned. The story sparked a nationwide debate and is still considered one of the factors that contributed to the Social Democrats, who had governed for 44 years, losing power in that year's election &ndash; even though Lindgren herself had long been sympathetic to them. The One does not defend her own party, but what she believes to be right, even when it harms her own allies.</p>
+          <p class="vb-intro">Even more decisive was her decades-long commitment to animal welfare: in her final years, the octogenarian Lindgren fought publicly and tirelessly against the conditions of industrial animal farming in Sweden. In 1988, just a year before she withdrew from public life, a new Swedish animal welfare law was passed as a direct result of her advocacy &ndash; still popularly known as the "Lex Lindgren" today. The Eagle that had spent its whole life observing precisely what was wrong &ndash; and that, at the very end of its strength, gave everything once more to change it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Light and Shadow of the Self-Preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1w9 is a rare combination of incorruptible integrity and quiet, sustaining kindness. Lindgren fought for justice with the same discipline she applied to reviewing manuscripts &ndash; quietly, but with enormous impact. She never tried to appear greater than she was, and precisely because of that became one of the most influential moral voices of her country.</p>
+          <p class="vb-intro">The shadow shows in the harshness with which the SP1 holds to its own standards, and in the distance the Nine-wing favors. The early separation from her son Lasse remained a lifelong, barely processed pain that she almost never spoke about publicly &ndash; an example of how the SP1w9 carries even the deepest wounds silently within, rather than sharing them. The fate pattern of the One is <strong>anger</strong>, which in the SP1 usually turns inward &ndash; as a constant, self-imposed strictness that anything less than complete discipline does justice to no one, including oneself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. The Path of Healing: From the Judge to Kindness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the One leads from anger to serenity &ndash; from the question <em>Did I do everything right?</em> to the recognition <em>I gave what I had, and something good grew from it.</em> In Lindgren this path shows in the development of her own work: from the untamed Pippi through the darker, death-facing tones of the Brothers Lionheart to the mature, reconciled wisdom of her public animal-welfare advocacy in old age.</p>
+          <p class="vb-intro">Astrid Lindgren died in 2002 at the age of 94 in Stockholm, mourned by an entire nation &ndash; her funeral was broadcast live on Swedish television. She left behind no legacy of vanity, but a century's worth of children who learned through her books that one can be brave, independent, and kind, even when the adult world demands otherwise. The Eagle that never needed to be loud to carry far &ndash; and whose wingbeat still echoes today, generations later, in every child who hears of Pippi Longstocking for the first time.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+        {route:"beruehmte-ken-follett", label:"Portrait: Ken Follett (SP1w9)"},
+      ])}
+    </div>
+  `);
+}
+
 function kenFollettPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -23800,6 +23880,7 @@ function kenFollettPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
         {route:"beruehmte-dan-brown", label:"Dan Brown – SP1w2 compared"},
+        {route:"beruehmte-astrid-lindgren", label:"Portrait: Astrid Lindgren (SP1w9)"},
       ])}
     </div>
   `);
@@ -51366,6 +51447,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-pierce-brosnan": pierceBrosnanPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-dan-brown": danBrownPortraitPage,
+      "beruehmte-astrid-lindgren": astridLindgrenPortraitPage,
       "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-brad-pitt": bradPittPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
