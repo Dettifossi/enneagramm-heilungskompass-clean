@@ -47994,7 +47994,7 @@ function peterFalkPortraitPage() {
         <h2 class="vb-section">1. Der Büffel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier des sozialen Typs 9 – ein Tier, das nie durch Angriffslust auffällt, sondern durch sein bloßes, unaufgeregtes Dasein Wirkung entfaltet. Er bewegt sich langsam, wirkt schwerfällig, fast harmlos – und ist doch das Tier, dem auf der Prärie am wenigsten jemand freiwillig im Weg steht. Kaum ein Schauspieler verkörperte dieses Bild so treffend wie Peter Falk, und kaum eine Rolle machte es so sichtbar wie seine berühmteste: der Detective Columbo, im zerknitterten Trenchcoat, mit halb gerauchter Zigarre und einem alten Peugeot, der ständig kaputtzugehen scheint.</p>
-          <p class="vb-intro">Von 1968 bis 2003 spielte Falk diesen Mann in insgesamt 69 Folgen – einen Ermittler, der nie brüllt, nie droht, nie mit gezogener Waffe auftritt. Sein einziges Werkzeug ist Geduld. Der Büffel wirkt, als könnte man ihn beiseiteschieben. Man irrt sich jedes Mal – und diese Rolle passte Falk so genau, dass viele bis heute glauben, er habe darin kaum gespielt, sondern einfach sich selbst gezeigt.</p>
+          <p class="vb-intro">Von 1968 bis 2003 spielte Falk diesen Mann in insgesamt 69 Folgen – einen Ermittler, der nie brüllt, nie droht, nie mit gezogener Waffe auftritt. Sein einziges Werkzeug ist Geduld. Der Büffel wirkt, als könnte man ihn beiseiteschieben. Man irrt sich jedes Mal – und diese Rolle passte auf Falk so genau, dass viele bis heute glauben, er habe darin kaum gespielt, sondern einfach sich selbst gezeigt.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Neun: Gleich unter Ungleichen</h2>
