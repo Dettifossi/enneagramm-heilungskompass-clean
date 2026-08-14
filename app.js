@@ -31783,6 +31783,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Melanie Kreis \u2013 Sozialer Typ 6",
     teaser:"SO6w5 \xb7 geb. 1971 in Bonn. Finanzvorst\xe4ndin (CFO) der DHL Group. Physikerin, McKinsey-Beraterin, DAX-Managerin. Das Erdm\xe4nnchen, das Wache h\xe4lt \u2013 f\xfcr einen der gr\xf6\xdften Logistikkonzerne der Welt.",
     tags:["Wirtschaft","F\xfchrung"], gender:"f"},
+  { route:"beruehmte-immanuel-kant", name:"Immanuel Kant", added:"2026-08-14", subtyp:"SO6w5",
+    heading:"Immanuel Kant – Sozialer Typ 6",
+    teaser:"SO6w5 · 1724–1804. Deutscher Philosoph, kategorischer Imperativ, Kritik der reinen Vernunft. Das Erdmännchen mit Fünferflügel: Pflicht als äußeres Gesetz, ein wasserdichtes System als Antwort auf Humes Skeptizismus. Tierentsprechung: Erdmännchen.",
+    tags:["Geschichte","Philosophie"], gender:"m"},
   { route:"beruehmte-sigmund-freud", name:"Dr. Sigmund Freud", subtyp:"SO6w5",
     heading:"Sigmund Freud \u2013 Sozialer Typ 6",
     teaser:"SO6w5 \u00b7 1856\u20131939. Arzt, Neurophysiologe, Begr\u00fcnder der Psychoanalyse. Das Erdm\u00e4nnchen, das Wache h\u00e4lt \u2013 \u00fcber das, was im Dunkeln lauert.",
@@ -47817,6 +47821,7 @@ function davidHumePortraitPage() {
         {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
         {route:"beruehmte-adam-smith", label:"Portr\xe4t: Adam Smith (SO1w9) \u2013 sein enger Freund"},
+        {route:"beruehmte-immanuel-kant", label:"Portr\xe4t: Immanuel Kant (SO6w5) \u2013 den er aus dem \u203adogmatischen Schlummer\u2039 riss"},
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\xfchmte Philosophen im Enneagramm"},
       ])}
     </div>
@@ -49486,6 +49491,74 @@ function sigmundFreudPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so6", label:"SO6 \u2013 Das Erdm\u00e4nnchen: Subtyp-Profil"},
         {route:"beruehmte-andy-reid", label:"Portr\u00e4t: Andy Reid (SO6w5)"},
+        {route:"beruehmte-immanuel-kant", label:"Portr\u00e4t: Immanuel Kant (SO6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function immanuelKantPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-immanuel-kant-portrait.jpg" alt="Immanuel Kant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Immanuel Kant</p>
+        <p class="krim-portrait-typ">SO6w5 \u00b7 Sozialer Typ 6 mit F\u00fcnferfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Deutscher Philosoph, 1724\u20131804 \u2013 Tierentsprechung: Erdm\u00e4nnchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdm\u00e4nnchen, das seine Stadt nie verlie\u00df</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdm\u00e4nnchen</strong> ist das Tier der sozialen Sechs \u2013 ein hochsoziales Wesen, das in streng organisierten Kolonien lebt und seine Sicherheit durch Wachsamkeit und verl\u00e4ssliche Routine gewinnt. Immanuel Kant wurde 1724 in K\u00f6nigsberg geboren und verlie\u00df die Stadt und ihre n\u00e4here Umgebung in 80 Lebensjahren praktisch nie \u2013 kein einziges Mal reiste er weiter als etwa 150 Kilometer von seinem Geburtsort weg. Sicherheit fand er nicht im Aufbruch, sondern im festen, vertrauten Rahmen.</p>
+          <p class="vb-intro">Sein Tagesablauf war der \u00dcberlieferung nach so unver\u00e4nderlich getaktet, dass die Bewohner K\u00f6nigsbergs angeblich ihre Uhren nach seinem allnachmitt\u00e4glichen Spaziergang stellen konnten \u2013 eine Anekdote, deren genaue historische Exaktheit umstritten ist, die aber treffend beschreibt, wie sehr Kant sein Leben durch feste, wiederkehrende Strukturen absicherte. Das Erdm\u00e4nnchen postiert seine Wachen an denselben Stellen, zur selben Zeit, jeden Tag \u2013 Verl\u00e4sslichkeit ist sein Schutz vor einer unberechenbaren Welt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sechs: Pflicht als kategorisches Gesetz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sechs (SO6)</strong> nennt Naranjo <em>Pflicht</em>: Sicherheit entsteht durch Unterordnung unter eine Ordnung, die gr\u00f6\u00dfer ist als man selbst, durch strikte Regelbefolgung, die keine Ausnahmen kennt. Kants gesamte Moralphilosophie ist die reinste Verk\u00f6rperung dieses Musters: Der kategorische Imperativ \u2013 "Handle nur nach derjenigen Maxime, durch die du zugleich wollen kannst, dass sie ein allgemeines Gesetz werde" \u2013 ist kein pers\u00f6nlicher Perfektionsanspruch, sondern ein universelles, von der eigenen Neigung v\u00f6llig unabh\u00e4ngiges Gesetz, dem man sich aus Pflicht unterwirft, ganz gleich, was man dabei empfindet.</p>
+          <p class="vb-intro">Entscheidend ist hier der Unterschied zur inneren Kritikerin der Eins, die aus einem selbst erzeugten Ma\u00dfstab von Richtigkeit heraus urteilt: Kants Moralgesetz ist keine innere, pers\u00f6nliche Stimme, sondern eine \u00e4u\u00dfere, unbedingt g\u00fcltige Autorit\u00e4t \u2013 die Vernunft als Gesetzgeberin, der sich das Individuum unterordnet, wie sich das Erdm\u00e4nnchen der Ordnung seiner Kolonie unterordnet. Pflicht, nicht Selbstverbesserung, ist der Kern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\u00fcnferfl\u00fcgel: Das architektonische System der Vernunft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> gibt der sozialen Sechs die F\u00e4higkeit, aus Wachsamkeit ein vollst\u00e4ndiges, in sich geschlossenes Denksystem zu bauen. Kants drei gro\u00dfe Kritiken \u2013 "Kritik der reinen Vernunft" (1781), "Kritik der praktischen Vernunft" (1788) und "Kritik der Urteilskraft" (1790) \u2013 bilden zusammen eines der architektonisch durchdachtesten philosophischen Geb\u00e4ude der Geistesgeschichte: eine Systematik aus Kategorien, Verm\u00f6gen und Grenzen des Erkennens, in der jeder Baustein seinen exakt definierten Platz hat.</p>
+          <p class="vb-intro">Diese Systematik war f\u00fcr Kant kein Selbstzweck, sondern eine Antwort auf eine konkrete Bedrohung: Er wollte ein f\u00fcr alle Mal die Grenzen dessen festlegen, was menschliche Vernunft sicher erkennen kann \u2013 eine Landkarte, die verhindern sollte, dass man sich im Nebel metaphysischer Spekulation verirrt. Der F\u00fcnferfl\u00fcgel verwandelt hier die Wachsamkeit der Sechs in ein Bollwerk aus Begriffen: Wo Gefahr lauert, wird sie kategorisiert, definiert, eingehegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Hume und der Schock der dogmatischen Schlummer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In den "Prolegomena zu einer jeden k\u00fcnftigen Metaphysik" (1783) schrieb Kant den ber\u00fchmten Satz, David Humes (SE9w8) Kritik am Kausalit\u00e4tsbegriff habe ihn "aus dem dogmatischen Schlummer" gerissen. Humes Skeptizismus stellte infrage, ob sich Ursache und Wirkung \u00fcberhaupt zuverl\u00e4ssig erkennen lassen \u2013 eine Ersch\u00fctterung, die f\u00fcr Kant existenziell bedrohlich war: Ohne verl\u00e4ssliche Erkenntnisgrundlagen drohte die gesamte Wissenschaft im Ungewissen zu versinken.</p>
+          <p class="vb-intro">Genau diese Reaktion ist typisch SO6w5: Nicht R\u00fcckzug vor der Bedrohung, sondern der zwanzigj\u00e4hrige, methodische Bau eines Systems, das die Sicherheit wiederherstellen sollte, die Hume ersch\u00fcttert hatte. Die "Kritik der reinen Vernunft" ist im Kern eine Antwort auf eine Angst \u2013 die Angst, dass es am Ende keinen festen Boden f\u00fcr menschliches Wissen gibt \u2013 und der Versuch, diesen Boden mit \u00e4u\u00dferster begrifflicher Pr\u00e4zision neu zu errichten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Typenstreit: Eins oder Sechs?</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Literatur wird Kant gelegentlich als soziale Eins mit Neunerfl\u00fcgel (SO1w9) eingeordnet \u2013 naheliegend, wegen seiner sprichw\u00f6rtlichen Pedanterie, seines strengen Pflichtbegriffs und seiner geradezu asketischen Lebensf\u00fchrung. Bei genauerer Analyse tr\u00e4gt diese Zuordnung jedoch nicht: Die Eins urteilt aus einem selbst erzeugten inneren Ma\u00dfstab von Richtigkeit heraus \u2013 ihr moralischer Kompass ist internalisiert, ihre Leidenschaft ist Zorn \u00fcber Unvollkommenheit, ihre Grundfrage lautet "Ist das richtig?"</p>
+          <p class="vb-intro">Kants kategorischer Imperativ funktioniert jedoch fundamental anders: Er ist ein von au\u00dfen gesetztes, unbedingtes Gesetz, dem man sich aus Pflicht unterwirft, unabh\u00e4ngig von pers\u00f6nlicher Neigung oder eigenem Urteil im Einzelfall \u2013 n\u00e4her an der Sechs-Frage "Welcher Autorit\u00e4t kann ich vertrauen, um sicher zu handeln?" als an der Eins-Frage "Handle ich selbst richtig?" Auch sein Lebensmuster spricht f\u00fcr die Sechs: die t\u00e4gliche, geradezu rituelle Abh\u00e4ngigkeit von einem festen Freundeskreis beim Mittagessen \u2013 Kant a\u00df nie allein und bestand auf angeregter, mehrst\u00fcndiger Tischgesellschaft \u2013, seine lebenslange Bindung an dieselbe Stadt, dieselben Routinen, dieselben vertrauten Gesichter. Das ist nicht die Autonomie der Eins, sondern die kollektive Verankerung der sozialen Sechs, die Sicherheit in Gemeinschaft und verl\u00e4sslicher Struktur sucht, nicht in individueller Selbstvervollkommnung.</p>
+          <p class="vb-intro">Hinzu kommt der F\u00fcnferfl\u00fcgel: Kants R\u00fcckzug in ein hochabstraktes, in sich geschlossenes Begriffssystem, seine Distanz im pers\u00f6nlichen Kontakt au\u00dferhalb des engen Freundeskreises, sein lebenslanges, obsessives Feilen an einem einzigen theoretischen Geb\u00e4ude \u2013 das sind F\u00fcnfer-Z\u00fcge, keine Neuner-Gelassenheit. In der Summe ergibt sich das Bild einer sozialen Sechs mit F\u00fcnferfl\u00fcgel: ein Denker, dessen gesamtes Werk der Versuch ist, durch ein wasserdichtes System die Sicherheit zu gewinnen, die ihm die Welt sonst nicht garantierte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verm\u00e4chtnis: Der K\u00f6nigsberger, an dem sich die Moderne rieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kant starb 1804 in K\u00f6nigsberg, ohne die Stadt je auf Dauer verlassen zu haben. Sein Werk aber reiste weit \u00fcber seine eigenen Lebensgrenzen hinaus: Friedrich Nietzsche (SX5w4), fast ein Jahrhundert sp\u00e4ter geboren, griff Kants Pflichtethik scharf an \u2013 er nannte ihn einmal sp\u00f6ttisch den "chinesischen" Denker von K\u00f6nigsberg und warf dem kategorischen Imperativ vor, das Leben einem abstrakten Gesetz zu opfern, statt es zu bejahen. Diese Auseinandersetzung, obwohl nie pers\u00f6nlich, wurde zu einer der pr\u00e4gendsten philosophischen Konfrontationen der Moderne \u2013 das Erdm\u00e4nnchen der Pflicht gegen den einsamen K\u00e4mpfer der Lebensbejahung.</p>
+          <p class="vb-intro">Das Erdm\u00e4nnchen mit F\u00fcnferfl\u00fcgel hinterlie\u00df damit kein bequemes System, sondern eines, an dem sich Generationen von Philosophen abarbeiten mussten \u2013 zustimmend, kritisierend, weiterentwickelnd. Genau darin liegt die reifste Frucht der SO6w5: eine Ordnung so gr\u00fcndlich durchdacht, dass selbst ihre sch\u00e4rfsten Gegner sich an ihr messen mussten, um ihre eigene Position zu finden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so6", label:"SO6 \u2013 Das Erdm\u00e4nnchen: Subtyp-Profil"},
+        {route:"beruehmte-david-hume", label:"Portr\u00e4t: David Hume (SE9w8) \u2013 dessen Skeptizismus ihn aus dem \u203adogmatischen Schlummer\u2039 riss"},
+        {route:"beruehmte-friedrich-nietzsche", label:"Portr\u00e4t: Friedrich Nietzsche (SX5w4) \u2013 sch\u00e4rfster Kritiker seiner Pflichtethik"},
+        {route:"beruehmte-sigmund-freud", label:"Portr\u00e4t: Sigmund Freud (SO6w5)"},
       ])}
     </div>
   `);
@@ -50622,6 +50695,7 @@ function friedrichNietzschePortraitPage() {
         {route:"subtype/sx5", label:"SX5 \u2013 Der Igel: Subtyp-Profil"},
         {route:"beruehmte-frederic-chopin", label:"Portr\xe4t: Fr\xe9d\xe9ric Chopin (SX5w4)"},
         {route:"beruehmte-greta-garbo", label:"Portr\xe4t: Greta Garbo (SX5w4)"},
+        {route:"beruehmte-immanuel-kant", label:"Portr\xe4t: Immanuel Kant (SO6w5) – dessen Pflichtethik er scharf kritisierte"},
       ])}
     </div>
   `);
@@ -84489,6 +84563,7 @@ function render() {
       "beruehmte-james-corden": jamesCordenPortraitPage,
       "beruehmte-melanie-kreis": melanieKreisPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
+      "beruehmte-immanuel-kant": immanuelKantPortraitPage,
       "beruehmte-andy-reid": andyReidPortraitPage,
       "beruehmte-neil-armstrong": neilArmstrongPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
