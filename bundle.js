@@ -43070,6 +43070,7 @@ function anthonyHopkinsPortraitPage() {
         {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
         {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
         {route:"beruehmte-sting", label:"Porträt: Sting (SE1w9)"},
+        {route:"beruehmte-jodie-foster", label:"Porträt: Jodie Foster (SX5w6) – Hauptdarstellerin in ›Das Schweigen der Lämmer‹"},
       ])}
     </div>
   `);
@@ -51225,6 +51226,7 @@ function jodieFosterPortraitPage() {
         {route:"subtype/sx5", label:"SX5 \u2013 Der Igel: Subtyp-Profil"},
         {route:"beruehmte-edward-snowden", label:"Portr\u00e4t: Edward Snowden (SX5w6)"},
         {route:"beruehmte-tilda-swinton", label:"Portr\u00e4t: Tilda Swinton (SX5w4)"},
+        {route:"beruehmte-anthony-hopkins", label:"Portr\u00e4t: Anthony Hopkins (SE1w9) \u2013 Co-Hauptdarsteller in \u203aDas Schweigen der L\u00e4mmer\u2039"},
       ])}
     </div>
   `);
