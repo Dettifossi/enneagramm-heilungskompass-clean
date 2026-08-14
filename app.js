@@ -47182,6 +47182,7 @@ function aristotelesPortraitPage() {
         {route:"beruehmte-sting", label:"Portr\xe4t: Sting (SE1w9)"},
         {route:"beruehmte-konrad-adenauer", label:"Portr\xe4t: Konrad Adenauer (SE1w9)"},
         {route:"beruehmte-alexander-der-grosse", label:"Porträt: Alexander der Große (SO2w3)"},
+        {route:"beruehmte-thomas-von-aquin", label:"Porträt: Thomas von Aquin (SE9w8) – verschmolz seine Logik mit der christlichen Theologie"},
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\xfchmte Philosophen im Enneagramm"},
       ])}
     </div>
@@ -48163,7 +48164,7 @@ function thomasVonAquinPortraitPage() {
 
         <h2 class="vb-section">4. Die Summa Theologica: Ordnung als Lebenswerk</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Thomas' Hauptwerk, die "Summa Theologica", ist ein Bauwerk von gewaltigem Ausmaß: In Fragen, Einwänden und Antworten gegliedert, versucht es, das gesamte christliche Glaubenswissen mit der Logik des wiederentdeckten Aristoteles in ein einziges, widerspruchsfreies System zu übersetzen. Diese Synthese aus antiker Vernunft und christlicher Offenbarung – der sogenannte Thomismus – wurde zur prägenden Denkform der katholischen Theologie für Jahrhunderte.</p>
+          <p class="vb-intro">Thomas' Hauptwerk, die "Summa Theologica", ist ein Bauwerk von gewaltigem Ausmaß: In Fragen, Einwänden und Antworten gegliedert, versucht es, das gesamte christliche Glaubenswissen mit der Logik des wiederentdeckten Aristoteles (SE1w9) in ein einziges, widerspruchsfreies System zu übersetzen. Diese Synthese aus antiker Vernunft und christlicher Offenbarung – der sogenannte Thomismus – wurde zur prägenden Denkform der katholischen Theologie für Jahrhunderte.</p>
           <p class="vb-intro">Dieselbe systematische Wucht floss über ein Jahrhundert später in eines der bedeutendsten Werke der Weltliteratur ein: Dante Alighieri (SX4w5) stützte die theologische Architektur seiner "Göttlichen Komödie" maßgeblich auf thomistisches Gedankengut. Der ruhige, methodische Elefant aus Aquin lieferte damit unwissentlich das gedankliche Fundament für eines der leidenschaftlichsten literarischen Werke des Mittelalters.</p>
         </blockquote>
 
@@ -48188,6 +48189,7 @@ function thomasVonAquinPortraitPage() {
         {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-david-hume", label:"Porträt: David Hume (SE9w8)"},
         {route:"beruehmte-angela-merkel", label:"Porträt: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-aristoteles", label:"Porträt: Aristoteles (SE1w9) – dessen Logik er mit der christlichen Theologie verschmolz"},
         {route:"beruehmte-dante-alighieri", label:"Porträt: Dante Alighieri (SX4w5) – stützte die Göttliche Komödie auf sein theologisches Denken"},
         {route:"hoellenkreise-dante", label:"Schaubild: Die 9 Kreise der Hölle nach Dantes Inferno"},
       ])}
