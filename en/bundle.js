@@ -446,6 +446,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo da Vinci – Social Type 5",
     teaser:"SO5w4 · 1452–1519. Italian polymath, painter, inventor. Mona Lisa, Vitruvian Man, over 13,000 pages of notebooks. The octopus that explored art, science, and technology simultaneously with eight arms of thought.",
     tags:["Art","Science"], gender:"m"},
+  { route:"beruehmte-pythagoras", name:"Pythagoras", added:"2026-08-14", subtyp:"SO5w6",
+    heading:"Pythagoras – Social Type 5",
+    teaser:"SO5w6 · c. 570–495 BC. Greek philosopher and mathematician, founder of the Croton brotherhood. Pythagorean theorem, harmony of the spheres, graduated secret knowledge. The octopus with the Six-wing: knowledge as order, security through rule and loyalty. Animal correspondence: Octopus.",
+    tags:["History","Philosophy"], gender:"m"},
   { route:"beruehmte-bill-gates", name:"Bill Gates", subtyp:"SO5w6",
     heading:"Bill Gates – Social Type 5",
     teaser:"SO5w6 · born 1955. Founder of Microsoft, philanthropist, billionaire. The octopus that reaches the world with eight arms – and never lets go.",
@@ -19245,6 +19249,7 @@ function heraklitPortraitPage() {
         {route:"beruehmte-hippokrates-von-kos", label:"Portrait: Hippocrates of Kos (SO4w5)"},
         {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5)"},
         {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-pythagoras", label:"Portrait: Pythagoras (SO5w6) – whom he sharply criticized in his fragments"},
       ])}
     </div>
   `);
@@ -24071,6 +24076,73 @@ function billGatesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
         {route:"beruehmte-gertrude-elion", label:"Portrait: Gertrude Belle Elion (SO5w4)"},
+        {route:"beruehmte-pythagoras", label:"Portrait: Pythagoras (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function pythagorasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-pythagoras-portrait.jpg" alt="Pythagoras" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Pythagoras</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Greek philosopher and mathematician, c. 570&ndash;495 BC &ndash; Animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Octopus That Poured Its Knowledge Into an Order</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the Social Five &ndash; intelligent, many-armed, able to grasp and organize several things at once without exposing itself openly. Pythagoras was born around 570 BC on the island of Samos and, as a young man, traveled to Egypt and probably also Babylon, where he familiarized himself with the geometry, astronomy, and number lore of older cultures &ndash; knowledge he gathered before beginning to translate it into a system of his own.</p>
+          <p class="vb-intro">Around 530 BC he settled in Croton in southern Italy and founded a community there that was at once a research circle, a religious order, and a political alliance. The octopus does not hide through isolation &ndash; it builds itself a shell, a structure, within which it controls the knowledge it releases outward only in carefully measured doses.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Five: Totem as Shared but Guarded Knowledge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>Social Five (SO5)</strong> <em>Totem</em>: knowledge is not hoarded privately but made available to the community &ndash; yet the Five remains the one who determines who gains access and to what extent. Exactly this pattern shaped the Pythagorean school: it distinguished between the <em>akousmatikoi</em>, who had only to follow doctrines by rote without learning their justification, and the <em>mathematikoi</em>, the inner circle alone granted access to the actual proofs and reasoning behind them.</p>
+          <p class="vb-intro">Newcomers, according to tradition, had to spend several years in silence before they were even permitted to speak and ask questions. Knowledge was thus shared &ndash; but in graduated form, controlled, tied to loyalty and proven commitment. The totem of SO5 shows itself here in its purest form: belonging through knowledge, but knowledge only in exchange for proof of belonging.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Security Through Rule and Loyalty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Social Five a deep need for security through binding systems, hierarchy, and loyalty to doctrine. The Pythagorean brotherhood was strictly regulated: shared property, a vegetarian diet, a prohibition on eating beans, fixed rituals upon rising and before sleep, a clear ranking of members. Whoever was admitted submitted to a body of rules that pervaded every area of life.</p>
+          <p class="vb-intro">Central to it all was the unconditional appeal to the authority of the master: if anyone contradicted a teaching, the answer sufficed &ndash; "autós épha," "he himself said it." No independent examination of the claim was provided for; the founder's own word was the security the community held onto. The Six-wing does not seek the individual illumination of the Four but the reliability of a system whose rules apply equally to everyone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Avarice as Sovereignty Over Knowledge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Five is called <strong>avarice</strong> &ndash; in SO5w6 directed not at material possessions but at sovereignty over knowledge and its transmission. The order's famous rule of secrecy demanded that mathematical and philosophical discoveries remain within the community. According to legend, a member, Hippasus of Metapontum, was punished or even killed for having supposedly carried outside the secret of irrational numbers &ndash; discovered via the diagonal of the square.</p>
+          <p class="vb-intro">Whether this story is historically verified remains disputed, but it illustrates how seriously the order took control over its knowledge: a discovery that contradicted its own worldview &ndash; the harmony of all things in whole-number ratios &ndash; could not be allowed to leave the community unfiltered. The avarice of SO5w6 shows itself not in withholding out of need, but in guarding an order that uncontrolled knowledge might destabilize.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO5w6 shows in the enormous intellectual achievement that emerged from this structured community: the theorem named after Pythagoras concerning the sides of a right triangle, the discovery that musical harmonies rest on simple numerical ratios, the vision of a cosmos ordered by mathematical principles &ndash; the "harmony of the spheres." Out of the security of the community arose a way of thinking that, for the first time, understood mathematics as an independent, provable science.</p>
+          <p class="vb-intro">The shadow lies in the order's political closure: the Pythagoreans gained considerable political influence in Croton, which stirred mistrust and resistance among the population. Around 500 BC, violent uprisings broke out against the brotherhood; meeting houses were burned down, numerous members killed. A system that sought security through boundary and hierarchy was in the end attacked by the very community from which it had drawn its legitimacy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Number as World Order</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pythagoras himself, according to the accounts, fled Croton after the unrest and died around 495 BC in Metapontum, without any certain record of the exact circumstances of his death. His name nonetheless remained inseparable from the principle "all is number" &ndash; the conviction that behind the visible world lies a mathematically ordered, knowable structure.</p>
+          <p class="vb-intro">The octopus with the Six-wing thus left behind more than a theorem: it left behind the conviction that knowledge is most safely kept within a community held together by clear rules, shared commitment, and the authority of a reliable doctrine &ndash; a way of thinking that reached beyond antiquity into mathematics, into Plato's philosophy, and into modern natural science itself.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"beruehmte-bill-gates", label:"Portrait: Bill Gates (SO5w6)"},
+        {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
+        {route:"beruehmte-heraklit", label:"Portrait: Heraclitus (SO4w5) – who sharply criticized him in his fragments"},
       ])}
     </div>
   `);
@@ -50024,6 +50096,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-friedrich-nietzsche": friedrichNietzschePortraitPage,
       "beruehmte-tilda-swinton": tildaSwintonPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
+      "beruehmte-pythagoras": pythagorasPortraitPage,
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
       "beruehmte-peter-lustig": peterLustigPortraitPage,
