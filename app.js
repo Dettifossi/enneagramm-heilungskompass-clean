@@ -15888,6 +15888,7 @@ const uiText = {
       { route: "beruhmte-komponisten", label: "Ber\u00fchmte Komponisten" },
       { route: "homoeopathie-songs", label: "Enneagramm, Hom\u00f6opathie & Songs" },
       { route: "beruhmte-philosophen", label: "Ber\u00fchmte Philosophen" },
+      { route: "hoellenkreise-dante", label: "H\u00f6llenkreise nach Dantes Inferno" },
       { route: "bedeutung-27-subtypen", label: "Bedeutung der 27 Subtypen" },
       { route: "dynamik-der-typen", label: "Die innere Dynamik der Enneagrammtypen" },
       { route: "beziehungen-schaubild", label: "Beziehungen" },
@@ -32902,6 +32903,7 @@ const SCHAUBILDER_NEU = {
   "enneagramm-emotionalitaet": "2026-08-08",
   "enneagramm-instinkt": "2026-08-08",
   "enneagramm-intellekt": "2026-08-08",
+  "hoellenkreise-dante": "2026-08-14",
 };
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -32945,7 +32947,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "schildkroetenarten-der-9-typen",
     "fischarten-der-9-typen",
     "walarten-der-9-typen",
-    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "dynamik-der-typen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-impulse", "david-rathmer-kriminalfaelle", "david-rathmer-grundlagen", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "beruhmte-komponisten", "homoeopathie-songs", "detlef-rathmer-jazz", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon", "tritypen", "enneagramm-homoeopathie", "homoeopathie-fall-1", "homoeopathie-fall-2", "homoeopathie-fall-3", "homoeopathie-fall-4", "homoeopathie-fall-5", "homoeopathie-fall-6", "homoeopathie-fall-7", "homoeopathie-fall-8", "homoeopathie-fall-9"]);
+    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "dynamik-der-typen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-impulse", "david-rathmer-kriminalfaelle", "david-rathmer-grundlagen", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "hoellenkreise-dante", "beruhmte-komponisten", "homoeopathie-songs", "detlef-rathmer-jazz", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon", "tritypen", "enneagramm-homoeopathie", "homoeopathie-fall-1", "homoeopathie-fall-2", "homoeopathie-fall-3", "homoeopathie-fall-4", "homoeopathie-fall-5", "homoeopathie-fall-6", "homoeopathie-fall-7", "homoeopathie-fall-8", "homoeopathie-fall-9"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -43913,7 +43915,7 @@ function danteAlighieriPortraitPage() {
         <h2 class="vb-section">1. Der Chihuahua, der aus der Verbannung ein Weltgericht baute</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier: klein von Gestalt, gewaltig im Innenleben, unfähig zu Halbheiten in Liebe wie in Zorn. Dante Alighieri wurde 1265 in Florenz geboren, in eine Stadt, die ihn später verstoßen sollte – und aus genau dieser Verstoßung heraus schuf er eines der gewaltigsten literarischen Werke der Weltgeschichte.</p>
-          <p class="vb-intro">1302 wurde Dante, mitten in den Machtkämpfen zwischen den politischen Fraktionen der Weißen und Schwarzen Guelfen, unter falschen Korruptionsvorwürfen aus Florenz verbannt und bei Nichtrückkehr zum Tode verurteilt. Er sollte seine Heimatstadt nie wieder betreten. Der Chihuahua, aus seinem Revier vertrieben, verwandelte die Verbannung nicht in Resignation, sondern in das Material für ein Werk, das ihm posthum genau jene Unsterblichkeit sicherte, die ihm die Stadt zu Lebzeiten verweigerte.</p>
+          <p class="vb-intro">1302 wurde Dante, mitten in den Machtkämpfen zwischen den politischen Fraktionen der Weißen und Schwarzen Guelfen, unter falschen Korruptionsvorwürfen aus Florenz verbannt. Für den Fall seiner Rückkehr wurde ihm die Todesstrafe angedroht – er sollte seine Heimatstadt deshalb nie wieder betreten. Der Chihuahua, aus seinem Revier vertrieben, verwandelte die Verbannung nicht in Resignation, sondern in das Material für ein Werk, das ihm posthum genau jene Unsterblichkeit sicherte, die ihm die Stadt zu Lebzeiten verweigerte.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Vier: Beatrice und die Rivalität mit der eigenen Stadt</h2>
@@ -43955,6 +43957,7 @@ function danteAlighieriPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-claude-debussy", label:"Porträt: Claude Debussy (SX4w5)"},
         {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3)"},
+        {route:"hoellenkreise-dante", label:"Schaubild: Die 9 Kreise der Hölle nach Dantes Inferno"},
       ])}
     </div>
   `);
@@ -77815,6 +77818,54 @@ function beruhmtePhilosophenPage() {
   `);
 }
 
+function hoellenkreiseDantePage() {
+  const kreise = [
+    { typ: 1, kreis: 1, farbe: "#c98a8a", titel: "1. Höllenkreis", text: "Hier weilen die Weisen, Dichter und Helden des Altertums – Dante selbst war Dichter und ordnete sich hier dem Typ 1 zu." },
+    { typ: 2, kreis: 2, farbe: "#9b3fa0", titel: "2. Höllenkreis", text: "In der Liebeshölle werden Liebessünder von furchtbaren Orkanen gepeitscht – rastlos umhergetrieben, ohne je zur Ruhe zu kommen." },
+    { typ: 3, kreis: 9, farbe: "#8fd6cf", titel: "9. Höllenkreis", text: "In der Eishölle sind Verräter, Brüder- und Vatermörder eingeschlossen und erleiden bittere Kälte – das Gegenteil jeder Wärme, die sie selbst verweigert haben." },
+    { typ: 4, kreis: 7, farbe: "#3fae3f", titel: "7. Höllenkreis", text: "(Selbst-)Mörder werden in der Wüste mit Feuerregen gequält – Gewalt, die auf einen selbst oder andere gerichtet war, kehrt als ewiger Brand zurück." },
+    { typ: 5, kreis: 4, farbe: "#e79a9a", titel: "4. Höllenkreis", text: "Geizige und Verschwender wälzen heulend Steinlasten gegeneinander – zwei Formen desselben ungesunden Verhältnisses zu Besitz und Ressourcen." },
+    { typ: 6, kreis: 8, farbe: "#f2c6cf", titel: "8. Höllenkreis", text: "Bestechliche Beamte, Priester, Heuchler und böse Ratgeber erleiden raffinierte Grausamkeiten – Vertrauensbruch wird mit ausgeklügelter Härte beantwortet." },
+    { typ: 7, kreis: 3, farbe: "#e8c93f", titel: "3. Höllenkreis", text: "Vom kalten Regen überschauert, schleppen sich die Gefräßigen durch Kot – die einstige Jagd nach Genuss verkehrt sich in trostlose Wiederholung." },
+    { typ: 8, kreis: 5, farbe: "#8a1f1f", titel: "5. Höllenkreis", text: "Im stinkigen Sumpf zerfleischen die Zornigen einander – ungebremste Wucht, die sich am Ende nur noch gegen die eigenen Leidensgenossen richtet." },
+    { typ: 9, kreis: 6, farbe: "#f0e14a", titel: "6. Höllenkreis", text: "Sünder aus Schwachheit und Passivität liegen in feurigen Grüften – die Trägheit, die im Leben Stillstand bedeutete, wird zur brennenden Untätigkeit." },
+  ];
+
+  return shell(`
+    ${pageHeader("hoellenkreise-dante")}
+    <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
+      <p class="eyebrow">Schaubilder &middot; Höllenkreise &middot; Literatur</p>
+      <h1 class="section-title">Die 9 Kreise der Hölle nach Dantes Inferno</h1>
+      <p class="psycho-intro">Dante Alighieri (SX4w5) entwarf in seiner "Göttlichen Komödie" eine Hölle mit neun konzentrischen Kreisen – ein Bauwerk von enzyklopädischer Genauigkeit, das seine persönliche Verbannung aus Florenz in ein literarisches Weltgericht verwandelte. Jeder Kreis straft eine bestimmte menschliche Verfehlung, und erstaunlich viele dieser Verfehlungen lassen sich den neun Leidenschaften des Enneagramms zuordnen.</p>
+
+      <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1.25rem 0;">Die Hölle ist bei Dante als ein trichterförmiges, in neun konzentrische Kreise gegliedertes Loch gedacht, in dessen Mittelpunkt sich Satan, das personifizierte Böse, befindet. Wer sich von Kreis zu Kreis tiefer hinabbewegt, begegnet einer immer radikaleren Form derselben Verfehlung – vom vergleichsweise milden Kreis der Ungetauften bis zum eisigen Zentrum des Verrats. Die folgende Übersicht ordnet jedem der neun universellen Prinzipien des Enneagramms den Höllenkreis zu, der ihm inhaltlich am nächsten steht.</p>
+
+      <img
+        src="./assets/schaubilder/hoellenkreise-dante/hoellenkreise-dante.jpg"
+        alt="Die 9 Kreise der Hölle nach Dantes Inferno"
+        style="width:100%;border-radius:8px;margin:0 0 2rem;"
+      />
+
+      ${kreise.map(k => `
+        <div style="background:var(--cream);border-left:3px solid ${k.farbe};border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;margin-bottom:1.5rem;">
+          <p style="font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold-dark);margin:0 0 0.2rem;">Typ ${k.typ} &middot; ${k.titel}</p>
+          <p style="font-size:0.88rem;line-height:1.7;color:var(--anthracite);margin:0;">${k.text}</p>
+        </div>
+      `).join("")}
+
+      <p style="font-size:0.82rem;line-height:1.7;color:var(--gray-mid);margin:1.5rem 0 2rem;">Der italienische Dichter und Philosoph Dante Alighieri (1265–1321) entwarf in seinem Werk "Die Göttliche Komödie" neun Höllenkreise. Die Hölle ist danach ein in neun konzentrische Kreise angeordnetes Loch, in dessen Mittelpunkt sich Satan, das personifizierte Böse, befindet. Die einzelnen Themen der Höllenkreise entsprechen den neun universellen Prinzipien des Enneagramms.</p>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"schaubilder", label:"Alle Schaubilder"},
+        {route:"beruehmte-dante-alighieri", label:"Porträt: Dante Alighieri (SX4w5) – Autor der Göttlichen Komödie"},
+        {route:"beruhmte-philosophen", label:"Schaubild: Berühmte Philosophen im Enneagramm"},
+      ])}
+    </div>
+  `);
+}
+
 function dreiLebenskraeftePage() {
   return shell(`
     ${pageHeader("drei-lebenskraefte")}
@@ -85336,6 +85387,7 @@ function render() {
     "suche-nach-liebe": sucheNachLiebePage,
     "drei-lebenskraefte": dreiLebenskraeftePage,
     "beruhmte-philosophen": beruhmtePhilosophenPage,
+    "hoellenkreise-dante": hoellenkreiseDantePage,
     "homoeopathie-songs": homoeopathieSongsPage,
     "detlef-rathmer-jazz": detlefRathmerJazzPage,
     "beruhmte-komponisten": ber\u00fchmteKomponistenPage,
