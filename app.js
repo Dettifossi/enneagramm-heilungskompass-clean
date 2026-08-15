@@ -31373,6 +31373,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo DiCaprio \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 geb. 1974. Schauspieler, Klimaaktivist. F\u00fcnfmal Oscar-nominiert, sechsmal angetreten \u2013 und im Moment des Triumphes sprach er \u00fcber den Klimawandel, nicht \u00fcber sich. Die Schwarze Mamba brennt nicht f\u00fcr Applaus. Tierentsprechung: Schwarze Mamba.",
     tags:["Schauspiel"] , gender:"m"},
+  { route:"beruehmte-franka-potente", name:"Franka Potente", added:"2026-08-15", subtyp:"SE2w1",
+    heading:"Franka Potente – Selbsterhaltender Typ 2",
+    teaser:"SE2w1 · geb. 1974 in Dülmen. Schauspielerin, Regisseurin und Musikerin, ›Lola rennt‹, Bourne-Reihe. Fürsorge im vertrauten Kreis, kompromisslose künstlerische Integrität statt Hollywood-Logik. Tierentsprechung: Flusspferd.",
+    tags:["Schauspiel","Musik"], gender:"f"},
   { route:"beruehmte-margot-friedlaender", name:"Margot Friedländer", added:"2026-08-14", subtyp:"SE2w1",
     heading:"Margot Friedländer – Selbsterhaltender Typ 2",
     teaser:"SE2w1 · 1921–2025. Holocaust-Überlebende und Zeitzeugin, ›Seid Menschen‹. Fünfzehn Monate im Berliner Untergrund, sechzig Jahre Schweigen, dann bis zuletzt unermüdlich im Gespräch mit Schulklassen. Tierentsprechung: Flusspferd.",
@@ -53766,6 +53770,65 @@ function gretaThunbergPortraitPage() {
   `);
 }
 
+function frankaPotentePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-franka-potente-portrait.jpg" alt="Flusspferd" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Franka Potente</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, Regisseurin &amp; Musikerin, geb. 1974 in Dülmen &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das nicht rennt, weil es gejagt wird, sondern weil es weiß, was auf dem Spiel steht. Wenn es sich bewegt, bewegt es sich mit vollem Körpereinsatz, ohne Umweg, ohne Zögern &ndash; und kehrt danach in sein angestammtes Gewässer zurück, statt sich dauerhaft in fremdem Terrain aufzuhalten.</p>
+          <p class="vb-intro">Franka Potente wurde 1998 mit <em>Lola rennt</em> zur Verkörperung genau dieser Energie: In drei durchgespielten Varianten läuft sie fast den gesamten Film über durch Berlin, um eine Beziehung, ein Leben zu retten &ndash; keine ziellose Flucht, sondern ein Wettlauf gegen die Zeit im Dienst eines anderen Menschen. Diese Rolle wurde zum Sinnbild ihrer Karriere: hohe Intensität, voller körperlicher Einsatz, immer im Dienst einer Sache, die größer ist als die eigene Sichtbarkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge im vertrauten Kreis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet ihre Fürsorge zuerst auf den nahen, vertrauten Kreis &ndash; auf konkrete Menschen und Projekte, denen sie sich verbunden fühlt, statt auf die breite Öffentlichkeit. Naranjo nannte diesen Subtyp <em>Me First</em>: nicht aus Egoismus, sondern weil die SE2 aus einer gesicherten, persönlich bedeutsamen Basis heraus wirkt, statt sich an ein anonymes Publikum zu verausgaben.</p>
+          <p class="vb-intro">Bei Potente zeigt sich das in der Konsequenz, mit der sie nach ihrem internationalen Durchbruch immer wieder zu kleineren, persönlich bedeutsamen deutschen und europäischen Produktionen zurückkehrte, statt den naheliegenden Hollywood-Weg vollständig auszureizen. Sie wählte Projekte nach inhaltlicher Nähe, nicht nach Reichweite &ndash; ein klares SE2-Muster: Bindung vor Breitenwirkung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Kompromisslose künstlerische Integrität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der selbsterhaltenden Zwei ein inneres Regelwerk, das unabhängig von äußerer Anerkennung trägt &ndash; ein klares Gespür für Richtig und Falsch, das auch unbequeme Entscheidungen erzwingt, wenn das Prinzip es verlangt. Er verwandelt Fürsorge in Haltung.</p>
+          <p class="vb-intro">Potente hat sich wiederholt unverblümt zu Sexismus und unfairen Produktionsbedingungen in der Filmbranche geäußert &ndash; öffentlich, direkt, ohne diplomatische Abfederung. Auch ihr Weg jenseits der Schauspielerei, als Autorin, Regisseurin und Musikerin unter eigenem Namen, wirkt nie wie strategischer Imageaufbau, sondern wie das Bedürfnis, unterschiedliche Wahrheiten in der jeweils passenden Form auszudrücken. Der Einserflügel verlangt, dass die eigene Arbeit stimmt &ndash; nicht, dass sie gefällt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Zwischen Weltkino und eigener Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><em>Lola rennt</em> (1998) machte Potente über Nacht international bekannt und öffnete ihr den Weg nach Hollywood, unter anderem in die Bourne-Reihe als Marie Kreutz, eine der wenigen emotional komplexen weiblichen Figuren des Actiongenres jener Jahre. Parallel dazu blieb sie dem deutschen und europäischen Autorenkino treu und übernahm zunehmend auch das Schreiben und Regieführen selbst in die Hand.</p>
+          <p class="vb-intro">Als Musikerin veröffentlichte sie unter eigenem Namen Alben, die persönliche, unaufgeregte Songs abseits jeder Star-Inszenierung enthalten. Diese Vielseitigkeit ist kein Statussymbol, sondern Ausdruck derselben Grundhaltung: verschiedene Formen für verschiedene Wahrheiten zu finden, statt sich auf eine erfolgreiche Formel festzulegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w1 ist die Fähigkeit, Fürsorge und Integrität zu verbinden &ndash; sich für Menschen und Projekte einzusetzen, ohne dabei die eigenen Prinzipien zu verraten. Potentes Weigerung, sich vollständig dem Hollywood-System unterzuordnen, und ihre klare öffentliche Haltung zu Missständen der Branche zeigen diese reife Form der SE2-Energie.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Haltung und Fürsorge unentbehrlich zu sein. Der Einserflügel kann diesen Stolz in moralische Strenge verwandeln: die Gefahr, die eigene Integrität zum Maßstab für andere zu machen und wenig Nachsicht mit Kompromissen zu zeigen, die im Filmgeschäft oft unausweichlich sind. Potentes Ruf als anspruchsvolle, manchmal unbequeme Kollegin lässt sich als genau diese Kehrseite lesen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-margot-friedlaender", label:"Porträt: Margot Friedländer (SE2w1)"},
+        {route:"beruehmte-soeren-kierkegaard", label:"Porträt: Søren Kierkegaard (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function margotFriedlaenderPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -53826,6 +53889,7 @@ function margotFriedlaenderPortraitPage() {
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-soeren-kierkegaard", label:"Porträt: Søren Kierkegaard (SE2w1)"},
         {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
+        {route:"beruehmte-franka-potente", label:"Porträt: Franka Potente (SE2w1)"},
       ])}
     </div>
   `);
@@ -53887,6 +53951,7 @@ function soerenKierkegaardPortraitPage() {
         {route:"subtype/se2", label:"SE2 \u2013 Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-greta-thunberg", label:"Portr\u00e4t: Greta Thunberg (SE2w1)"},
         {route:"beruehmte-margot-friedlaender", label:"Portr\u00e4t: Margot Friedl\u00e4nder (SE2w1)"},
+        {route:"beruehmte-franka-potente", label:"Portr\u00e4t: Franka Potente (SE2w1)"},
         {route:"beruehmte-immanuel-kant", label:"Portr\u00e4t: Immanuel Kant (SO6w5)"},
         {route:"beruehmte-heraklit", label:"Portr\u00e4t: Heraklit (SO4w5)"},
         {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portr\u00e4t: Georg Wilhelm Friedrich Hegel (SO5w6) \u2013 lebenslanger Gegner des \u203aSystems\u2039"},
@@ -86454,6 +86519,7 @@ function render() {
       "beruehmte-sam-altman": samAltmanPortraitPage,
       "beruehmte-aristoteles": aristotelesPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
+      "beruehmte-franka-potente": frankaPotentePortraitPage,
       "beruehmte-margot-friedlaender": margotFriedlaenderPortraitPage,
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
