@@ -24036,6 +24036,7 @@ const registerEntries = [
   { term: "Bud Spencer",                   route: "beruehmte-bud-spencer",                 description: "Portrait: SO8w9 \u00b7 Sozialer Typ 8 \u00b7 Schauspieler, Kult-Duett" },
   { term: "Christian R\u00e4tsch",           route: "beruehmte-christian-raetsch",           description: "Portrait: SE5w4 \u00b7 Selbsterhaltender Typ 5 \u00b7 Ethnobotaniker" },
   { term: "Xu Bing",                    route: "beruehmte-xu-bing",                     description: "Portrait: SE5w4 \u00b7 Selbsterhaltender Typ 5 \u00b7 Konzeptk\u00fcnstler, Kalligraf" },
+  { term: "Franz Kafka",                route: "beruehmte-franz-kafka",                 description: "Portrait: SE5w4 · Selbsterhaltender Typ 5 · Schriftsteller" },
   { term: "Christoph Waltz",               route: "beruehmte-christoph-waltz",             description: "Portrait: SE1w2 \u00b7 Selbsterhaltender Typ 1 \u00b7 Oscar-Schauspieler" },
   { term: "Claudio Naranjo",               route: "beruehmte-claudio-naranjo",             description: "Portrait: SO5w4 \u00b7 Sozialer Typ 5 \u00b7 Pionier des modernen Enneagramms" },
   { term: "Leonardo da Vinci",             route: "beruehmte-leonardo-da-vinci",           description: "Portrait: SO5w4 \u00b7 Sozialer Typ 5 \u00b7 Universalgelehrter, Maler, Erfinder" },
@@ -24341,6 +24342,7 @@ const registerEntriesEN = [
   { term: "Bud Spencer", route: "beruehmte-bud-spencer", description: "Portrait: SO8w9 \u00b7 Social Type 8 \u00b7 Actor, cult duo" },
   { term: "Christian R\u00e4tsch", route: "beruehmte-christian-raetsch", description: "Portrait: SE5w4 \u00b7 Self-Preservation Type 5 \u00b7 Ethnobotanist" },
   { term: "Xu Bing", route: "beruehmte-xu-bing", description: "Portrait: SE5w4 \u00b7 Self-Preservation Type 5 \u00b7 Conceptual artist, calligrapher" },
+  { term: "Franz Kafka", route: "beruehmte-franz-kafka", description: "Portrait: SE5w4 · Self-Preservation Type 5 · Writer" },
   { term: "Christoph Waltz", route: "beruehmte-christoph-waltz", description: "Portrait: SE1w2 \u00b7 Self-Preservation Type 1 \u00b7 Oscar-Actor" },
   { term: "Claudio Naranjo", route: "beruehmte-claudio-naranjo", description: "Portrait: SO5w4 \u00b7 Social Type 5 \u00b7 pioneer of the modern Enneagram" },
   { term: "Leonardo da Vinci", route: "beruehmte-leonardo-da-vinci", description: "Portrait: SO5w4 \u00b7 Social Type 5 \u00b7 Polymath, painter, inventor" },
@@ -31751,6 +31753,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Xu Bing \u2013 Selbsterhaltender Typ 5",
     teaser:"SE5w4 \u00b7 geb. 1955. Konzeptk\u00fcnstler, Kalligraf. Vier Jahre f\u00fcr viertausend erfundene Schriftzeichen: \u2039Book from the Sky\u203a. Die Eule, die die Sprache selbst zur Burg macht.",
     tags:["Kunst"], gender:"m"},
+  { route:"beruehmte-franz-kafka", name:"Franz Kafka", added:"2026-08-15", subtyp:"SE5w4",
+    heading:"Franz Kafka – Selbsterhaltender Typ 5",
+    teaser:"SE5w4 · 1883–1924. Schriftsteller. Der Process, Das Schloss, Die Verwandlung. Die Eule, die nachts an ihren Albträumen schrieb und ihr Werk am liebsten verbrannt hätte. Tierentsprechung: Eule.",
+    tags:["Literatur"], gender:"m"},
   { route:"beruehmte-peter-lustig", name:"Peter Lustig", subtyp:"SE5w6",
     heading:"Peter Lustig \u2013 Selbsterhaltender Typ 5",
     teaser:"SE5w6 \u00b7 1937\u20132016. Fernsehmoderator, Kinderbuchautor. L\u00f6wenzahn. Der Wohnwagen als Burg \u2013 die Eule, die Kindern zeigt, wie man mit wachem Blick und wenig Aufwand die Welt versteht.",
@@ -44601,6 +44607,72 @@ function xuBingPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
         {route:"beruehmte-christian-raetsch", label:"Portr\xe4t: Christian R\xe4tsch (SE5w4)"},
+        {route:"beruehmte-franz-kafka", label:"Porträt: Franz Kafka (SE5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function franzKafkaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-franz-kafka-portrait.jpg" alt="Franz Kafka" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Franz Kafka</p>
+        <p class="krim-portrait-typ">SE5w4 &middot; Selbsterhaltender Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schriftsteller, 1883&ndash;1924 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule, die nachts an ihren Albträumen schrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des selbsterhaltenden Typs 5 &ndash; ein Wesen, das die Dunkelheit nicht fürchtet, sondern braucht, um klar zu sehen. Kaum ein Schriftsteller hat diese nächtliche Existenz so wörtlich gelebt wie Franz Kafka: Tagsüber arbeitete er pflichtbewusst als Jurist bei der Arbeiter-Unfall-Versicherungsanstalt in Prag, doch sein eigentliches Leben begann erst nach Mitternacht, wenn das Elternhaus schlief und er sich allein in sein Zimmer zurückzog, um bis in die frühen Morgenstunden zu schreiben.</p>
+          <p class="vb-intro">Franz Kafka wurde 1883 in Prag als Sohn eines dominanten, geschäftstüchtigen Kaufmanns geboren, in eine deutschsprachige jüdische Familie inmitten der tschechischsprachigen Stadt &ndash; von früh an ein Mensch zwischen mehreren Welten, keiner davon wirklich zugehörig. "Die Verwandlung" (1915) entstand in genau einer solchen Nacht: Gregor Samsa erwacht als riesiges Ungeziefer, unfähig, sich seiner Familie verständlich zu machen &ndash; ein Bild, das Kafkas eigenes Gefühl radikaler Fremdheit im eigenen Elternhaus in Literatur verwandelte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Fünf: Die Burg aus Pflicht und Rückzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Fünf (SE5)</strong> nennt Naranjo <em>Burg</em>: Das eigene Territorium wird zur Festung, die den Zugriff der Welt so weit wie möglich beschränkt. Kafka lebte bis kurz vor seinem Tod im Haus seiner Eltern, mit einem eigenen, streng abgeschirmten Zimmer als letztem Rückzugsort &ndash; ein äußerlich abhängiges, innerlich aber genau kontrolliertes Arrangement. Seine Bürotätigkeit erledigte er mit auffälliger Sorgfalt und Gründlichkeit, obwohl er sie zeitlebens als Diebstahl an seiner eigentlichen, literarischen Existenz empfand.</p>
+          <p class="vb-intro">Die Leidenschaft der Fünf ist der <strong>Geiz</strong> &ndash; das Horten von Energie und Zeit, damit nichts verloren geht, bevor es vollständig durchdacht ist. Kafka veröffentlichte zu Lebzeiten nur einen Bruchteil seines Werks und äußerte immer wieder, seine Texte seien nicht fertig, nicht gut genug, nicht bereit für die Öffentlichkeit. Kurz vor seinem Tod bat er seinen Freund Max Brod, sämtliche unveröffentlichten Manuskripte &ndash; darunter "Der Process" und "Das Schloss" &ndash; ungelesen zu verbrennen. Brod widersetzte sich dieser letzten Anweisung und veröffentlichte die Werke stattdessen. Die Burg der SE5 zeigt sich hier in ihrer radikalsten Form: lieber das eigene Lebenswerk vernichten, als es der Welt in unvollendetem Zustand auszusetzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Einzigartigkeit des eigenen Leidens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Fünf ein Gespür für das Einzigartige, das Unverwechselbare am eigenen inneren Erleben &ndash; das Gefühl, grundlegend anders zu sein als andere Menschen. Kafkas berühmter, nie abgeschickter "Brief an den Vater" (1919) ist eines der eindrücklichsten Selbstzeugnisse der Weltliteratur: über hundert Seiten, in denen er versucht, dem übermächtigen Vater die eigene, tief verletzte Existenz verständlich zu machen &ndash; ein Dokument, das weniger Anklage als verzweifelte Selbstdeutung ist.</p>
+          <p class="vb-intro">Diese Intensität prägte auch seine Liebesbeziehungen: Zweimal verlobte er sich mit Felice Bauer, löste die Verlobung beide Male wieder, weil ihm die Ehe wie eine Bedrohung seiner literarischen Existenz erschien. In seinen Briefen an sie und später an Milena Jesenská entfaltete er eine Intensität, die weit über bloße Zuneigung hinausging &ndash; ein fast obsessives Ausloten der eigenen Unzulänglichkeit, des eigenen Ungenügens. Der Viererflügel macht aus persönlichem Leiden nicht nur eine Last, sondern ein Erkenntnisinstrument: Kafka schrieb einmal, ein Buch müsse "die Axt sein für das gefrorene Meer in uns" &ndash; eine Formel, die nur aus dem Zusammenspiel von rückzügiger Klarheit und viererhafter emotionaler Tiefe entstehen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Labyrinthe ohne Ausgang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kafkas literarisches Universum &ndash; von "Der Process" über "Das Schloss" bis zu Erzählungen wie "In der Strafkolonie" &ndash; kreist immer wieder um dasselbe Grundmuster: einen Einzelnen, der einem undurchschaubaren, übermächtigen System gegenübersteht, dessen Regeln er nie ganz versteht und dem er nie ganz entkommen kann. Josef K. wird in "Der Process" verhaftet, ohne je zu erfahren, wessen er eigentlich beschuldigt wird &ndash; ein Bild, das zum Inbegriff moderner Entfremdung wurde und dem Adjektiv "kafkaesk" seinen Namen gab.</p>
+          <p class="vb-intro">Diese Werke entstanden fast ausschließlich in nächtlicher Einsamkeit, oft in einem einzigen, fiebrigen Schreibanfall, dem tagelange Erschöpfung folgte. Kafka beschrieb das Schreiben selbst als eine Form von Gebet, als den einzigen Ort, an dem er sich seiner selbst sicher sein konnte &ndash; und zugleich als etwas, das ihn von jeder gewöhnlichen bürgerlichen Existenz, von Ehe, Familie und Öffentlichkeit, endgültig ausschloss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w4 zeigt sich in der schonungslosen Genauigkeit, mit der Kafka das moderne Gefühl der Entfremdung erfasste, lange bevor es zum kollektiven Lebensgefühl des zwanzigsten Jahrhunderts wurde. Kaum ein Schriftsteller hat das Ausgeliefertsein an anonyme Systeme &ndash; Bürokratie, Familie, Schuld &ndash; so genau beschrieben, ohne es zu verklären oder aufzulösen.</p>
+          <p class="vb-intro">Der Schatten liegt im Preis dieser Genauigkeit: Kafkas Leben war geprägt von chronischen Selbstzweifeln, wiederholten Verlobungslösungen, einem quälenden Verhältnis zum eigenen Körper und, ab 1917, einer Tuberkulose-Diagnose, die er auch als Ausdruck seiner inneren Zerrissenheit deutete. Die Burg, die vor Überwältigung schützen sollte, wurde zugleich zum Gefängnis, das echte Nähe fast unmöglich machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Eule, deren Werk gegen ihren Willen überlebte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Franz Kafka starb 1924 im Alter von nur 40 Jahren an den Folgen seiner Tuberkulose, in einem Sanatorium bei Wien, weitgehend unbekannt als Schriftsteller. Erst durch Max Brods Weigerung, seinen letzten Willen zu erfüllen, gelangten "Der Process", "Das Schloss" und "Amerika" an die Öffentlichkeit &ndash; und machten Kafka posthum zu einem der einflussreichsten Autoren des zwanzigsten Jahrhunderts.</p>
+          <p class="vb-intro">Es ist eine der größten Ironien der Literaturgeschichte, dass ausgerechnet ein Mensch, dessen tiefster Instinkt der Rückzug und die Vernichtung des eigenen Werks war, zum Sinnbild einer ganzen Epoche wurde. Die Eule, die im Dunkel schrieb, um von niemandem gesehen zu werden, wurde am Ende zu der Stimme, in der Millionen Leser ihre eigene Fremdheit in der Welt wiedererkannten.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-xu-bing", label:"Porträt: Xu Bing (SE5w4)"},
+        {route:"beruehmte-christian-raetsch", label:"Porträt: Christian Rätsch (SE5w4)"},
       ])}
     </div>
   `);
@@ -86759,6 +86831,7 @@ function render() {
       "beruehmte-marquis-de-sade": marquisDeSadePortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-xu-bing": xuBingPortraitPage,
+      "beruehmte-franz-kafka": franzKafkaPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
       "beruehmte-ludwig-van-beethoven": ludwigVanBeethovenPortraitPage,

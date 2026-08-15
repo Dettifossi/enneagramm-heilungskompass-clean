@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=38";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=39";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=9";
@@ -487,6 +487,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Xu Bing – Self-Preservation Type 5",
     teaser:"SP5w4 · born 1955. Conceptual artist, calligrapher. Four years for four thousand invented characters: 'Book from the Sky'. The owl that turned language itself into a castle.",
     tags:["Kunst"] },
+  { route:"beruehmte-franz-kafka", name:"Franz Kafka", added:"2026-08-15", subtyp:"SE5w4",
+    heading:"Franz Kafka – Self-Preservation Type 5",
+    teaser:"SP5w4 · 1883–1924. Writer. The Trial, The Castle, The Metamorphosis. The owl that wrote its nightmares at night and wanted its work burned. Animal correspondence: Owl.",
+    tags:["Literature"] },
   { route:"beruehmte-peter-lustig", name:"Peter Lustig", subtyp:"SE5w6",
     heading:"Peter Lustig – Self-Preservation Type 5",
     teaser:"SP5w6 · 1937–2016. TV presenter, children’s book author. Dandelion (Löwenzahn). The caravan as a castle – the owl that shows children how to understand the world with a keen eye and little fuss.",
@@ -25218,6 +25222,72 @@ function xuBingPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SP5w4)"},
+        {route:"beruehmte-franz-kafka", label:"Portrait: Franz Kafka (SP5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function franzKafkaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-franz-kafka-portrait.jpg" alt="Franz Kafka" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Franz Kafka</p>
+        <p class="krim-portrait-typ">SP5w4 &middot; Self-Preservation Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Writer, 1883&ndash;1924 &ndash; Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Owl Who Wrote Its Nightmares at Night</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Owl</strong> is the animal of the Self-Preservation Type 5 &ndash; a creature that does not fear darkness but needs it in order to see clearly. Few writers lived this nocturnal existence as literally as Franz Kafka: by day he worked dutifully as a lawyer at the Worker's Accident Insurance Institute in Prague, but his real life did not begin until after midnight, once his parents' household had gone to sleep and he could withdraw alone to his room to write until the early hours.</p>
+          <p class="vb-intro">Franz Kafka was born in 1883 in Prague, the son of a dominant, business-minded merchant, into a German-speaking Jewish family surrounded by a Czech-speaking city &ndash; from early on a person between several worlds, never fully belonging to any of them. "The Metamorphosis" (1915) emerged from exactly such a night: Gregor Samsa wakes up as a giant vermin, unable to make himself understood to his family &ndash; an image that transformed Kafka's own sense of radical foreignness within his parents' house into literature.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Five: The Castle of Duty and Retreat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Five (SP5)</strong> <em>Castle</em>: one's own territory becomes a fortress that limits the world's access as much as possible. Kafka lived in his parents' house until shortly before his death, with his own strictly guarded room as his final retreat &ndash; an arrangement outwardly dependent, but inwardly precisely controlled. He carried out his office duties with conspicuous diligence and thoroughness, even though he experienced this work throughout his life as theft from his real, literary existence.</p>
+          <p class="vb-intro">The passion of the Five is <strong>avarice</strong> &ndash; hoarding energy and time so nothing is lost before it has been fully thought through. Kafka published only a fraction of his work during his lifetime and repeatedly said his texts were unfinished, not good enough, not ready for the public. Shortly before his death, he asked his friend Max Brod to burn all his unpublished manuscripts &ndash; including "The Trial" and "The Castle" &ndash; unread. Brod defied this final instruction and published the works instead. The SP5's castle shows itself here in its most radical form: destroying one's own life's work rather than exposing it to the world unfinished.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: The Uniqueness of One's Own Suffering</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Five a sense for the unique, the unmistakable in one's own inner experience &ndash; the feeling of being fundamentally different from other people. Kafka's famous, never-sent "Letter to His Father" (1919) is one of the most striking self-testimonies in world literature: over a hundred pages in which he tries to make his own, deeply wounded existence comprehensible to his overpowering father &ndash; a document that is less an accusation than a desperate act of self-interpretation.</p>
+          <p class="vb-intro">This intensity also shaped his romantic relationships: he became engaged to Felice Bauer twice, breaking off the engagement both times because marriage felt to him like a threat to his literary existence. In his letters to her, and later to Milena Jesenská, he unfolded an intensity that went far beyond mere affection &ndash; an almost obsessive probing of his own inadequacy, his own insufficiency. The Four-wing turns personal suffering into more than a burden &ndash; it becomes an instrument of insight: Kafka once wrote that a book must be "the axe for the frozen sea within us," a formula that could only emerge from the interplay of withdrawn clarity and Four-like emotional depth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Labyrinths Without Exit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kafka's literary universe &ndash; from "The Trial" to "The Castle" to stories like "In the Penal Colony" &ndash; circles again and again around the same basic pattern: an individual confronted with an impenetrable, overpowering system whose rules he never fully understands and which he can never fully escape. In "The Trial," Josef K. is arrested without ever learning what he is actually accused of &ndash; an image that became the epitome of modern alienation and gave the adjective "Kafkaesque" its name.</p>
+          <p class="vb-intro">These works arose almost entirely in nocturnal solitude, often in a single, feverish burst of writing followed by days of exhaustion. Kafka described writing itself as a form of prayer, as the one place where he could be certain of himself &ndash; and at the same time as something that excluded him permanently from any ordinary bourgeois existence, from marriage, family, and public life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SP5w4 shows in the unsparing precision with which Kafka captured the modern feeling of alienation, long before it became the collective mood of the twentieth century. Scarcely any writer has described the state of being at the mercy of anonymous systems &ndash; bureaucracy, family, guilt &ndash; so precisely, without romanticizing or resolving it.</p>
+          <p class="vb-intro">The shadow lies in the price of this precision: Kafka's life was marked by chronic self-doubt, repeated broken engagements, a tormented relationship to his own body, and, from 1917 on, a tuberculosis diagnosis he also interpreted as an expression of his inner turmoil. The castle meant to protect against being overwhelmed also became a prison that made genuine closeness nearly impossible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Owl Whose Work Survived Against Its Own Will</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Franz Kafka died in 1924 at only 40 years old from the effects of tuberculosis, in a sanatorium near Vienna, largely unknown as a writer. Only through Max Brod's refusal to carry out his final wish did "The Trial," "The Castle," and "Amerika" reach the public &ndash; posthumously making Kafka one of the most influential authors of the twentieth century.</p>
+          <p class="vb-intro">It is one of the greatest ironies in literary history that a person whose deepest instinct was retreat and the destruction of his own work became the emblematic voice of an entire era. The Owl who wrote in the dark so as to be seen by no one ended up becoming the voice in which millions of readers recognized their own foreignness in the world.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-xu-bing", label:"Portrait: Xu Bing (SP5w4)"},
         {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SP5w4)"},
       ])}
     </div>
@@ -52437,6 +52507,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-marquis-de-sade": marquisDeSadePortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-xu-bing": xuBingPortraitPage,
+      "beruehmte-franz-kafka": franzKafkaPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
       "beruehmte-ludwig-van-beethoven": ludwigVanBeethovenPortraitPage,
