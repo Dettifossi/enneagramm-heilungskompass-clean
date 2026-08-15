@@ -102,6 +102,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-paul-ogorzow",         name:"Paul Ogorzow",                        subtyp:"SE1w9",  heading:"Paul Ogorzow \u2013 Self-Preservation Type 1",                              teaser:"SP1w9 – The ‘S-Bahn Murderer’, 1912–1946. Eight murders in Berlin 1939–41. Broad camouflage through petty-bourgeois correctness, ice-cold double life, moral guilt always shifted outward." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-ted-bundy",           name:"Ted Bundy",                           subtyp:"SO1w9",  heading:"Ted Bundy \u2013 Social Type 1",                                           teaser:"SO1w9 – Serial killer, 1946–1989. Bourgeois facade, repressed rage, resentment. The social One with Nine-wing: self-righteousness as delusion, anger as cold driving force. Animal correspondence: Goose." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-heinrich-pommerenke",  name:"Heinrich Pommerenke",                 subtyp:"SO1w9",  heading:"Heinrich Pommerenke \u2013 Social Type 1",                                teaser:"SO1w9 – Serial killer, 1937–2008. At least 10 victims in southern Germany 1959–60. The ‘Monster of the Black Forest’: delusional divine mandate for punishment, emotional dissociation and a life under the sign of compulsive atonement." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-otto-muehl",           name:"Otto Mühl",                          subtyp:"SX1w2",  heading:"Otto Mühl – Sexual Type 1",                                          teaser:"SX1w2 – Viennese action artist and commune founder, 1925–2013. Founder of the Friedrichshof commune (AAO), sentenced in 1991 to 7 years for sexually abusing minors. Moral reformer with a double standard: rules for everyone, self-exemption for himself. Animal correspondence: Black Mamba." , tags:["Missbrauch","Nahbereich"]},
   { route:"kriminalpsychologie-alex-murdaugh",        name:"Alex Murdaugh",                    subtyp:"SX1w2",  heading:"Alex Murdaugh – Sexual Type 1",                                      teaser:"SX1w2 – Lawyer and double murderer, born 1968. 87 years of legal dynasty, million-dollar fraud, double murder of wife and son 2021. The Two-wing as charm facade, the One as merciless judge over its own image. Animal correspondence: Black Mamba." , tags:["Nahbereich"]},
   { route:"kriminalpsychologie-gary-ridgway",         name:"Gary Ridgway",                        subtyp:"SX1w2",  heading:"Gary Ridgway \u2013 Sexual Type 1",                                       teaser:"SX1w2 – The 'Green River Killer', born 1949. At least 49 confirmed murders in Washington State (1982–2001), probably over 70. Churchgoer, family man, inconspicuous truck painter – and the man who destroyed women in his most intimate sphere, because control meant love to him." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-paul-bernardo",         name:"Paul Bernardo",                       subtyp:"SX1w2",  heading:"Paul Bernardo \u2013 Sexual Type 1",                                      teaser:"SX1w2 – 'Ken' of the Ken-and-Barbie Killers, born 1964. Scarborough Rapist, serial killer, sentenced to life imprisonment in 1994. Black Mamba: total control over the most intimate sphere, Two-wing as charm facade, purity fixation as logic of annihilation." , tags:["Serienmord","Missbrauch"]},
@@ -2901,7 +2902,7 @@ function inhaltsübersichtPage() {
 
         ${cat("Famous Personalities", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "175 portraits from culture, music, sports & society – through the lens of the Enneagram.")}
 
-        ${cat("Fascinating Criminal Cases (Criminal Psychology)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "74 in-depth psychological perpetrator portraits – well-known cases through the lens of the Enneagram. Informative, precise, never sensationalist.")}
+        ${cat("Fascinating Criminal Cases (Criminal Psychology)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "76 in-depth psychological perpetrator portraits – well-known cases through the lens of the Enneagram. Informative, precise, never sensationalist.")}
 
         ${cat("Philosophy & Spirituality", "&#129812;", [
           "Schopenhauer & Enneagramm",
@@ -39202,6 +39203,107 @@ function josefFritzlPortraitPage() {
   `);
 }
 
+function ottoMuehlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Otto Mühl – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/kriminalpsychologie-otto-muehl-portrait.jpg" alt="Otto Mühl – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Otto Mühl</p>
+        <p class="krim-portrait-typ">SX1w2 · Sexual Type 1 with Two-wing</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Austrian action artist and commune founder · Animal correspondence: Black Mamba</p>
+      </div>
+
+      <p class="psycho-intro">
+        Otto Mühl, born March 16, 1925 in Grodnau, Burgenland, was one of the founders of Viennese Actionism—a radical art movement that broke bourgeois taboos through bloody, excessive "material actions." In 1970 he founded the Friedrichshof commune near Vienna, later known as the Aktionsanalytische Organisation (AAO), which at its peak comprised several hundred members across sites in Austria and Germany. Publicly, Mühl preached radical self-realization: abolition of private property, collective child-rearing, forced and constantly rotating sexual partnerships, and public "self-portrayal" sessions in which members were exposed before the group to destroy their "bourgeois ego." Mühl exempted himself from his own rules: as the unchallenged leader, he claimed sexual access to countless women and girls in the commune, many of them minors. In 1991 he was sentenced to seven years in prison for sexually abusing minors and drug offenses. After his release in 1997 he continued his painting career without substantially addressing his crimes in public. He died in 2013 on Mallorca. The commune, its collapse, and the decades-long reckoning of former members are today considered one of the largest systems of abuse in recent Austrian history.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+Otto Mühl is assigned to the Sexual Type One with a Two-wing in the Enneagram. The passion of the One is Anger—a deep resentment against anything considered impure, dishonest, or "bourgeois and repressed." The Sexual Subtype (SX1) is the countertype of the One: rather than directing One-energy toward quiet, patient correction, it channels it into passionate, almost missionary enforcement of its own truth in direct, intense contact. Mühl did not present himself as a pedantic rule-keeper, but as a charismatic prophet of a new sexual order—yet the underlying structure remained deeply One-like: there is a right (his teaching) and a wrong (the dishonest outside world), and only he decided where the line ran. The Two-wing supplied the charisma that made people follow him voluntarily: care, warmth, the promise of liberation and community—as a facade over a system of total control.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Penetrating and Demanding:</strong>
+Witnesses describe Mühl's gaze as intense, probing, almost unbearable—a gaze that instantly judged whether one was "genuine" or still trapped in "bourgeois repression." This is SX1 intensity: not the distanced scrutiny of other One subtypes, but an immediate, almost physical demand for authenticity—measured by his own standards.</p>
+        <p class="vb-intro"><strong>b) Charismatically Inviting:</strong>
+Newcomers to the commune first experienced warmth, interest, the feeling of finally being seen. The Two-wing of the One produces exactly this first impression: attentiveness as a door-opener, before the control becomes visible. Many former members later described how convincing this initial warmth had been.</p>
+        <p class="vb-intro"><strong>c) Inescapable in the Group Setting:</strong>
+In the "self-portrayal" sessions, Mühl's gaze fell publicly on individuals to expose them before the entire group. This form of gaze-power—public, inescapable, morally charged—is SX1 intensity in its most destructive social form.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The Reformer as Self-Empowerment:</strong>
+Mühl positioned himself as a liberator from bourgeois sexual morality and repression—a mission he pursued with missionary zeal. This is the One in its socio-ideological form: one's own conviction is elevated to universal truth, and its enforcement justifies any means.</p>
+        <p class="vb-intro"><strong>b) Care as an Instrument of Dominance:</strong>
+Mühl portrayed himself as the paternal caretaker of the commune, providing for everyone's well-being—collective child-rearing, shared property, a promise of security. The Two-wing produces exactly this pattern: giving as a bonding strategy that creates dependency rather than fostering genuine autonomy.</p>
+        <p class="vb-intro"><strong>c) Double Standard as System Principle:</strong>
+While Mühl demanded radical openness, propertylessness, and sexual availability from the commune, he claimed unrestricted access for himself. This pattern—rules for everyone except oneself—is the darkest expression of One's double standard: whoever defines the rules appears to stand above them.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Public Humiliation as a Tool of Control:</strong>
+The forced "self-portrayal" sessions were, at their core, moral tribunals: members had to expose themselves before the group, confess, justify themselves. This is One's logic of correction, organized collectively and turned into a weapon of psychological submission.</p>
+        <p class="vb-intro"><strong>b) Ideology as Cover for Abuse:</strong>
+Mühl framed sexual access to minors and young women as part of "liberation from bourgeois taboos." This fusion of moral justification and personal gratification is the most dangerous expression of the SX1: the inner judge declares one's own act righteous because it serves the "higher truth."</p>
+        <p class="vb-intro"><strong>c) Absolute Authority Without Dissent:</strong>
+Within the commune, Mühl tolerated no contradiction of his teaching. This intolerance of dissenting opinion is typical of the One in ideological extremity: doubt is not treated as a legitimate position, but as a sign of insufficient maturity.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) The Prophet as a Point of Attraction:</strong>
+Over decades, Mühl attracted hundreds of people willing to give up property, family, and autonomy for his project. This magnetism is the SX1w2 pattern at its most effective: intensity and charm that lead people voluntarily into a system of submission.</p>
+        <p class="vb-intro"><strong>b) The Artist as Legitimation:</strong>
+Mühl's reputation as a significant action artist provided him with social cover for years, delaying critical questions about his commune. Here the Two-wing pattern used not personal charm but cultural status as a shield.</p>
+        <p class="vb-intro"><strong>c) The Facade That Broke Late:</strong>
+Only in 1991, after decades of the commune's existence, did testimony from former members lead to criminal conviction. As in other SX1w2 cases, the facade of charisma and ideological justification held unusually long before publicly collapsing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Intense, All-Pervading Presence:</strong>
+The SX instinct produces a form of presence that others can hardly ignore. Mühl filled every room he entered—an intensity that generated admiration and submission at once.</p>
+        <p class="vb-intro"><strong>b) Uncompromising Conviction:</strong>
+Mühl never spoke in qualifications. His teaching was presented as absolute truth, leaving no room for doubt. This unshakeability is typical One behavior under the cover of revolutionary freedom.</p>
+        <p class="vb-intro"><strong>c) Exhausting Control Behind the Scenes:</strong>
+Former members reported a climate of constant surveillance and mutual informing within the commune. The larger the system grew, the more energy flowed into maintaining control—until testimony from outside broke through it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Black Mamba</h3>
+        <p class="vb-intro"><strong>a) Fascination as the First Impression:</strong>
+The Black Mamba first impresses through elegance and presence, not obvious threat. Mühl had the same effect on new commune members: charismatic, visionary, attractive. The danger became visible only after one had already committed.</p>
+        <p class="vb-intro"><strong>b) Fast and Unpredictable at the Decisive Moment:</strong>
+The self-portrayal sessions could target any member at any time, without warning. This unpredictability created constant tension, matching the Mamba's attack logic: not open combat, but a sudden, barely foreseeable strike at the moment of vulnerability.</p>
+        <p class="vb-intro"><strong>c) The Venom Works Invisibly for a Long Time:</strong>
+The abuse within the commune remained largely invisible to the outside world for decades. Like the Mamba's neurotoxin, the system paralyzed its victims psychologically long before the effect became publicly recognizable—the reckoning continues for many survivors to this day.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Otto Mühl embodies the Sexual Type One with a Two-wing in a form that fuses ideological mission with systematic abuse of power. SX1 energy supplied the missionary conviction of possessing "true liberation." The Two-wing supplied the charisma that led hundreds of people voluntarily into his commune. The One provided the certainty that his own teaching stood above all doubt and, ultimately, above the well-being of those entrusted to him. Mühl is not a case of uncontrolled impulsiveness. He is a case of ideologically dressed-up self-empowerment: a man who fused his own gratification so completely with his teaching that he could no longer, or would no longer, distinguish between the two—and in doing so destroyed the trust and childhood of many people over decades.
+        </p>
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${relatedLinks([
+        {route:"kriminalpsychologie", label:"All Criminal Psychology Portraits"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"kriminalpsychologie-alex-murdaugh", label:"Criminal Psychology: Alex Murdaugh (SX1w2)"},
+        {route:"kriminalpsychologie-paul-bernardo", label:"Criminal Psychology: Paul Bernardo (SX1w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function alexMurdaughPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -39322,6 +39424,7 @@ In his 2023 trial, Murdaugh denied the murders to the end. Prosecutors and the c
         {route:"kriminalpsychologie-buster-murdaugh", label:"Criminal Psychology: Buster Murdaugh"},
         {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SP1w9)"},
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy (SO1w9)"},
+        {route:"kriminalpsychologie-otto-muehl", label:"Criminal Psychology: Otto Mühl (SX1w2)"},
       ])}
     </div>
   `);
@@ -39634,6 +39737,7 @@ function paulBernardoPortraitPage() {
         {route:"kriminalpsychologie-karla-homolka", label:"Criminal Psychology: Karla Homolka (SP3w4) – Partner"},
         {route:"kriminalpsychologie-gary-ridgway", label:"Criminal Psychology: Gary Ridgway (SX1w2)"},
         {route:"kriminalpsychologie-fritz-haarmann", label:"Criminal Psychology: Fritz Haarmann (SX1w9)"},
+        {route:"kriminalpsychologie-otto-muehl", label:"Criminal Psychology: Otto Mühl (SX1w2)"},
       ])}
     </div>
   `);
@@ -51820,6 +51924,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
+      "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
       "kriminalpsychologie-alex-murdaugh": alexMurdaughPortraitPage,
       "kriminalpsychologie-gary-ridgway": garyRidgwayPortraitPage,
       "kriminalpsychologie-ted-bundy": tedBundyPortraitPage,

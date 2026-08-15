@@ -642,6 +642,7 @@ export const registerEntries = [
 
   // Kriminalpsychologie – fehlende Porträts
   { term: "Aileen Wuornos",            route: "kriminalpsychologie-aileen-wuornos",       description: "Kriminalpsychologisches Porträt: SX7w8 – erste bekannte Serienmörderin der USA, Straßenprostituierte, 7 Morde 1989–90" },
+  { term: "Otto Mühl",                 route: "kriminalpsychologie-otto-muehl",           description: "Kriminalpsychologisches Porträt: SX1w2 – Wiener Aktionist, Kommunengründer, 1991 wegen sexuellen Missbrauchs Minderjähriger verurteilt" },
   { term: "Alex Murdaugh",             route: "kriminalpsychologie-alex-murdaugh",        description: "Kriminalpsychologisches Porträt: SX1w2 – US-amerikanischer Anwalt, ermordete Frau und Sohn, Versicherungsbetrug und Doppelleben" },
   { term: "Anders Breivik",            route: "kriminalpsychologie-anders-breivik",       description: "Kriminalpsychologisches Porträt: SX6w5 – norwegischer Massenmörder, 77 Tote 2011, ideologische Paranoia und Selbstüberhöhung" },
   { term: "Armin Meiwes",              route: "kriminalpsychologie-armin-meiwes",         description: "Kriminalpsychologisches Porträt: SX6w5 – 'Der Kannibale von Rotenburg', geb. 1961. Freiwilliger Kannibalismusfall 2001, lebenslange Freiheitsstrafe. Tierentsprechung: Wolf." },
@@ -1258,6 +1259,7 @@ export const registerEntriesEN = [
   { term: "Bird Species of the 9 Types", route: "vogelarten-der-9-typen", description: "Archetypal bird equivalents for each Enneagram type" },
   { term: "Whale Species of the 9 Types", route: "walarten-der-9-typen", description: "Archetypal whale equivalents for each Enneagram type" },
   { term: "Aileen Wuornos", route: "kriminalpsychologie-aileen-wuornos", description: "Criminal psychological portrait: SX7w8 – first known female serial killer in the USA, street prostitute, 7 murders 1989–90" },
+  { term: "Otto Mühl", route: "kriminalpsychologie-otto-muehl", description: "Criminal psychological portrait: SX1w2 – Viennese action artist, commune founder, convicted in 1991 of sexually abusing minors" },
   { term: "Alex Murdaugh", route: "kriminalpsychologie-alex-murdaugh", description: "Criminal psychological portrait: SX1w2 – US attorney, murdered wife and son, insurance fraud and a double life" },
   { term: "Anders Breivik", route: "kriminalpsychologie-anders-breivik", description: "Criminal psychological portrait: SX6w5 – Norwegian mass murderer, 77 dead in 2011, ideological paranoia and self-aggrandizement" },
   { term: "Armin Meiwes", route: "kriminalpsychologie-armin-meiwes", description: "Criminal psychological portrait: SX6w5 – 'The Cannibal of Rotenburg', b. 1961. Voluntary cannibalism case in 2001, life imprisonment. Animal equivalent: Wolf." },

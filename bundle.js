@@ -31171,6 +31171,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-paul-ogorzow",         name:"Paul Ogorzow",                        subtyp:"SE1w9",  heading:"Paul Ogorzow \u2013 Selbsterhaltender Typ 1",                              teaser:"SE1w9 \u2013 Der \u201eS-Bahn-M\xf6rder\u201c, 1912\u20131946. Acht Morde in Berlin 1939\u201341. Fl\xe4chentarnung durch spie\xdfb\xfcrgerliche Korrektheit, eiskaltes Doppelleben, moralische Schuld stets nach au\xdfen verlagert." , tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-ted-bundy",           name:"Ted Bundy",                           subtyp:"SO1w9",  heading:"Ted Bundy \u2013 Sozialer Typ 1",                                           teaser:"SO1w9 \u2013 Serienm\u00f6rder, 1946\u20131989. B\u00fcrgerliche Fassade, unterdr\u00fcckte Wut, Resentiment. Die soziale Eins mit Neunerfl\u00fcgel: Selbstgerechtigkeit als Verblendung, Zorn als kalte Triebkraft. Tierentsprechung: Gans." , tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-heinrich-pommerenke",  name:"Heinrich Pommerenke",                 subtyp:"SO1w9",  heading:"Heinrich Pommerenke \u2013 Sozialer Typ 1",                                teaser:"SO1w9 \u2013 Serienm\xf6rder, 1937\u20132008. Mindestens 10 Opfer in S\xfcddeutschland 1959\u201360. Das \u201eUngeheuer vom Schwarzwald\u201c: wahnhafter g\xf6ttlicher Strafauftrag, emotionale Dissoziation und ein Leben im Zeichen krampfhafter S\xfchne." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-otto-muehl",           name:"Otto M\u00fchl",                          subtyp:"SX1w2",  heading:"Otto M\u00fchl \u2013 Sexueller Typ 1",                                          teaser:"SX1w2 \u2013 Wiener Aktionist und Kommunengr\u00fcnder, 1925\u20132013. Gr\u00fcnder der Friedrichshof-Kommune (AAO), 1991 wegen sexuellen Missbrauchs Minderj\u00e4hriger zu 7 Jahren Haft verurteilt. Moralischer Reformer mit Doppelstandard: Regeln f\u00fcr alle, Selbstausnahme f\u00fcr sich. Tierentsprechung: Schwarze Mamba." , tags:["Missbrauch","Nahbereich"], gender:"m"},
   { route:"kriminalpsychologie-alex-murdaugh",        name:"Alex Murdaugh",                    subtyp:"SX1w2",  heading:"Alex Murdaugh \u2013 Sexueller Typ 1",                                      teaser:"SX1w2 \u2013 Anwalt und Doppelm\u00f6rder, geb. 1968. 87 Jahre Rechtsdynastie, Millionenbetrug, Doppelmord an Frau und Sohn 2021. Der Zweierfl\u00fcgel als Charme-Fassade, die Eins als gnadenloser Richter \u00fcber das eigene Bild. Tierentsprechung: Schwarze Mamba." , tags:["Nahbereich"], gender:"m"},
   { route:"kriminalpsychologie-gary-ridgway",         name:"Gary Ridgway",                        subtyp:"SX1w2",  heading:"Gary Ridgway \u2013 Sexueller Typ 1",                                       teaser:"SX1w2 \u2013 Der \u201eGreen-River-Killer\u201c, geb. 1949. Mindestens 49 best\xe4tigte Morde in Washington State (1982\u20132001), wahrscheinlich \xfcber 70. Kirchg\xe4nger, Familienvater, unscheinbarer Lkw-Lackierer \u2013 und der Mann, der Frauen in seiner intimsten Sph\xe4re vernichtete, weil Kontrolle f\xfcr ihn Liebe bedeutete." , tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-paul-bernardo",         name:"Paul Bernardo",                       subtyp:"SX1w2",  heading:"Paul Bernardo \u2013 Sexueller Typ 1",                                      teaser:"SX1w2 \u2013 \u201eKen\u201c der Ken-und-Barbie-Killer, geb. 1964. Scarborough Rapist, Serienm\u00f6rder, 1994 zu lebenslanger Haft verurteilt. Schwarze Mamba: totale Kontrolle \xfcber die intimste Sph\xe4re, Zweierfl\xfcgel als Charme-Fassade, Reinheitsfixierung als Vernichtungslogik." , tags:["Serienmord","Missbrauch"], gender:"m"},
@@ -33508,7 +33509,7 @@ function inhalts\u00fcbersichtPage() {
 
         ${cat("Ber\u00fchmte Pers\u00f6nlichkeiten", "&#127775;", BERUEHMT_PORTRAITS.map(p => p.name), "175 Portr\u00e4ts aus Kultur, Musik, Sport & Gesellschaft \u2013 durch die Linse des Enneagramms.")}
 
-        ${cat("Spannende Kriminalf\u00e4lle (Kriminalpsychologie)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "74 tiefenpsychologische T\u00e4terportr\u00e4ts \u2013 bekannte F\u00e4lle durch die Linse des Enneagramms. Lehrreich, pr\u00e4zise, nie rei\u00dferisch.")}
+        ${cat("Spannende Kriminalf\u00e4lle (Kriminalpsychologie)", "&#128269;", KRIMINAL_PORTRAITS.map(p => p.name), "76 tiefenpsychologische T\u00e4terportr\u00e4ts \u2013 bekannte F\u00e4lle durch die Linse des Enneagramms. Lehrreich, pr\u00e4zise, nie rei\u00dferisch.")}
 
         ${cat("Philosophie & Spiritualit\xe4t", "&#129812;", [
           "Schopenhauer & Enneagramm",
@@ -73086,6 +73087,241 @@ function josefFritzlPortraitPage() {
   `);
 }
 
+function ottoMuehlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Otto Mühl – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/kriminalpsychologie-otto-muehl-portrait.jpg" alt="Otto Mühl – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Otto Mühl</p>
+        <p class="krim-portrait-typ">SX1w2 · Sexueller Typ 1 mit Zweierflügel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Österreichischer Aktionskünstler und Kommunengründer · Tierentsprechung: Schwarze Mamba</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Otto Mühl</strong>, geboren am 16. März 1925 in Grodnau im Burgenland,
+        war einer der Begründer des Wiener Aktionismus – einer radikalen
+        Kunstbewegung, die mit blutigen, exzessiven „Materialaktionen"
+        bürgerliche Tabus brach. 1970 gründete er nahe Wien die
+        Kommune Friedrichshof, später Aktionsanalytische Organisation (AAO)
+        genannt, die zu ihrer Hochzeit mehrere hundert Mitglieder
+        an Standorten in Österreich und Deutschland umfasste.
+        Nach außen propagierte Mühl radikale Selbstverwirklichung:
+        Auflösung des Privateigentums, kollektive Kindererziehung,
+        erzwungene, ständig wechselnde Sexualpartnerschaften
+        und öffentliche „Selbstdarstellungs"-Sitzungen, in denen
+        Mitglieder vor der Gruppe bloßgestellt wurden, um ihr
+        „bürgerliches Ich" zu zerstören. Mühl selbst nahm sich
+        von seinen eigenen Regeln aus: Als unangefochtener
+        Anführer beanspruchte er sexuellen Zugriff auf zahllose
+        Frauen und Mädchen der Kommune, viele davon minderjährig.
+        1991 wurde er wegen sexuellen Missbrauchs Minderjähriger
+        und Drogendelikten zu sieben Jahren Haft verurteilt.
+        Nach seiner Entlassung 1997 setzte er seine Malerkarriere fort,
+        ohne sich öffentlich substanziell mit den Taten
+        auseinanderzusetzen. Er starb 2013 in Mallorca.
+        Die Kommune, ihr Zusammenbruch und die jahrzehntelangen
+        Aufarbeitungsprozesse ehemaliger Mitglieder gelten bis heute
+        als eines der größten Missbrauchssysteme der jüngeren
+        österreichischen Geschichte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Otto Mühl</strong> wird dem <strong>Sexuellen Typ 1 mit Zweierflügel</strong>
+        im Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> –
+        ein tiefer Groll gegen alles, was als unrein, verlogen oder
+        „bürgerlich verklemmt" gilt. Der Sexuelle Subtyp (SX1) ist
+        der Kontratyp der Eins: Er richtet die Einser-Energie nicht
+        auf stille, geduldige Korrektur, sondern auf leidenschaftliche,
+        fast missionarische Durchsetzung der eigenen Wahrheit
+        im direkten, intensiven Kontakt. Mühl trat nicht als
+        pedantischer Regelhüter auf, sondern als charismatischer
+        Prophet einer neuen sexuellen Ordnung – doch die Struktur
+        dahinter blieb zutiefst einserhaft: Es gibt ein Richtig
+        (seine Lehre) und ein Falsch (die verlogene Außenwelt),
+        und er allein entschied, wo die Grenze verlief.
+        Der Zweierflügel lieferte das Charisma, das Menschen
+        freiwillig folgen ließ: Fürsorge, Zuwendung, das Versprechen
+        von Befreiung und Gemeinschaft – als Fassade über einem
+        System totaler Kontrolle.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Durchdringend und fordernd:</strong>
+        Zeitzeugen beschreiben Mühls Blick als intensiv, prüfend,
+        kaum auszuhalten – einen Blick, der sofort bewertete,
+        ob man „echt" war oder noch in „bürgerlicher Verklemmung"
+        gefangen. Das ist die SX1-Intensität: kein distanziertes
+        Prüfen wie bei anderen Einser-Subtypen, sondern ein
+        unmittelbares, fast körperliches Einfordern von Wahrhaftigkeit –
+        nach seinen eigenen Maßstäben.</p>
+        <p class="vb-intro"><strong>b) Charismatisch einladend:</strong>
+        Wer neu zur Kommune stieß, erlebte zunächst Wärme,
+        Interesse, das Gefühl, endlich gesehen zu werden.
+        Der Zweierflügel der Eins erzeugt genau diese erste
+        Wirkung: Zuwendung als Türöffner, bevor die Kontrolle
+        sichtbar wird. Viele ehemalige Mitglieder berichteten
+        später, wie überzeugend diese anfängliche Zugewandtheit war.</p>
+        <p class="vb-intro"><strong>c) Unentrinnbar in der Gruppensituation:</strong>
+        In den „Selbstdarstellungs"-Sitzungen richtete sich
+        Mühls Blick öffentlich auf Einzelne, um sie vor der
+        gesamten Gruppe bloßzustellen. Diese Form von Blickmacht –
+        öffentlich, unentrinnbar, moralisch aufgeladen – ist
+        die SX1-Intensität in ihrer zerstörerischsten sozialen Form.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Reformer als Selbstermächtigung:</strong>
+        Mühl positionierte sich als Befreier von bürgerlicher
+        Sexualmoral und Verklemmtheit – eine Mission, die er
+        mit missionarischem Eifer verfolgte. Das ist die Eins
+        in ihrer sozial-ideologischen Form: Die eigene Überzeugung
+        wird zur universellen Wahrheit erhoben, deren Durchsetzung
+        jedes Mittel rechtfertigt.</p>
+        <p class="vb-intro"><strong>b) Fürsorge als Herrschaftsinstrument:</strong>
+        Mühl inszenierte sich als väterlicher Kümmerer der Kommune,
+        der für das Wohl aller sorgte – kollektive Erziehung,
+        gemeinsames Eigentum, ein Versprechen von Geborgenheit.
+        Der Zweierflügel liefert genau dieses Muster: Geben
+        als Bindungsstrategie, die Abhängigkeit erzeugt,
+        statt echte Autonomie zu fördern.</p>
+        <p class="vb-intro"><strong>c) Doppelstandard als Systemprinzip:</strong>
+        Während Mühl von der Kommune radikale Offenheit,
+        Besitzlosigkeit und sexuelle Verfügbarkeit verlangte,
+        nahm er sich selbst uneingeschränkten Zugriff heraus.
+        Dieses Muster – Regeln für alle außer sich selbst –
+        ist die dunkelste Ausprägung der Einser-Doppelmoral:
+        Wer die Regeln definiert, steht scheinbar über ihnen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Öffentliche Beschämung als Kontrollinstrument:</strong>
+        Die erzwungenen „Selbstdarstellungs"-Sitzungen waren im Kern
+        moralische Tribunale: Mitglieder mussten sich vor der Gruppe
+        entblößen, gestehen, sich rechtfertigen. Das ist die
+        Einser-Logik der Korrektur, kollektiv organisiert und
+        zur Waffe der psychologischen Unterwerfung gemacht.</p>
+        <p class="vb-intro"><strong>b) Ideologie als Deckmantel für Missbrauch:</strong>
+        Mühl rahmte den sexuellen Zugriff auf Minderjährige
+        und junge Frauen als Teil der „Befreiung von bürgerlichen
+        Tabus". Diese Verschmelzung von moralischer Rechtfertigung
+        und persönlicher Bedürfnisbefriedigung ist die gefährlichste
+        Ausprägung der SX1: Der innere Richter erklärt die eigene
+        Tat für richtig, weil sie im Dienst der „höheren Wahrheit" steht.</p>
+        <p class="vb-intro"><strong>c) Absolute Autorität ohne Gegenrede:</strong>
+        Innerhalb der Kommune duldete Mühl keinen Widerspruch
+        gegen seine Lehre. Diese Unerbittlichkeit gegenüber
+        abweichenden Meinungen ist typisch für die Eins im
+        ideologischen Extrem: Zweifel gilt nicht als legitime
+        Position, sondern als Zeichen mangelnder Reife.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Der Prophet als Anziehungspunkt:</strong>
+        Über Jahrzehnte zog Mühl hunderte Menschen an, die
+        bereit waren, Eigentum, Familie und Autonomie für
+        sein Projekt aufzugeben. Diese Anziehungskraft ist
+        das SX1w2-Muster in seiner wirkmächtigsten Form:
+        Intensität und Charme, die Menschen freiwillig
+        in ein System der Unterwerfung führen.</p>
+        <p class="vb-intro"><strong>b) Der Künstler als Legitimation:</strong>
+        Mühls Ruf als bedeutender Aktionskünstler verschaffte
+        ihm über Jahre eine gesellschaftliche Deckung, die
+        kritische Fragen an seine Kommune verzögerte. Das
+        Zweierflügel-Muster nutzte hier nicht persönlichen Charme,
+        sondern kulturellen Status als Schutzschild.</p>
+        <p class="vb-intro"><strong>c) Die Fassade, die erst spät zerbrach:</strong>
+        Erst 1991, nach jahrzehntelangem Bestehen der Kommune,
+        führten Aussagen ehemaliger Mitglieder zur strafrechtlichen
+        Verurteilung. Wie bei anderen SX1w2-Fällen hielt die
+        Fassade aus Charisma und ideologischer Rechtfertigung
+        außergewöhnlich lange, bevor sie öffentlich einstürzte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Intensive, alles durchdringende Präsenz:</strong>
+        Der SX-Instinkt erzeugt eine Form von Anwesenheit,
+        die andere kaum ignorieren können. Mühl füllte jeden
+        Raum, den er betrat – eine Intensität, die Bewunderung
+        und Unterwerfung zugleich erzeugte.</p>
+        <p class="vb-intro"><strong>b) Kompromisslose Überzeugungskraft:</strong>
+        Mühl sprach nie im Konjunktiv. Seine Lehre wurde
+        als absolute Wahrheit vorgetragen, ohne Raum für Zweifel.
+        Diese Unerschütterlichkeit ist typisches Einser-Verhalten
+        unter dem Deckmantel revolutionärer Freiheit.</p>
+        <p class="vb-intro"><strong>c) Erschöpfende Kontrolle im Verborgenen:</strong>
+        Ehemalige Mitglieder berichteten von einem Klima
+        ständiger Überwachung und gegenseitiger Bespitzelung
+        innerhalb der Kommune. Je größer das System wurde,
+        desto mehr Energie floss in die Aufrechterhaltung
+        der Kontrolle – bis Aussagen von außen sie durchbrachen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tierentsprechung: Die Schwarze Mamba</h3>
+        <p class="vb-intro"><strong>a) Faszination als erste Wirkung:</strong>
+        Die Schwarze Mamba beeindruckt zunächst durch Eleganz
+        und Präsenz, nicht durch offensichtliche Bedrohung.
+        Mühl wirkte auf neue Kommunemitglieder ebenso:
+        charismatisch, visionär, anziehend. Die Gefahr
+        zeigte sich erst, nachdem man sich bereits eingelassen hatte.</p>
+        <p class="vb-intro"><strong>b) Schnell und unvorhersehbar im entscheidenden Moment:</strong>
+        Die Selbstdarstellungs-Sitzungen konnten jederzeit,
+        ohne Vorwarnung, jedes Mitglied treffen. Diese
+        Unvorhersehbarkeit erzeugte eine Dauerspannung,
+        die der Angriffslogik der Mamba entspricht: kein
+        offener Kampf, sondern der plötzliche, kaum
+        vorhersehbare Zugriff im Moment der Verwundbarkeit.</p>
+        <p class="vb-intro"><strong>c) Das Gift wirkt lange im Verborgenen:</strong>
+        Der Missbrauch innerhalb der Kommune blieb über
+        Jahrzehnte weitgehend unsichtbar für die Außenwelt.
+        Wie das Neurotoxin der Mamba lähmte das System
+        seine Opfer psychologisch lange, bevor die Wirkung
+        öffentlich erkennbar wurde – die Aufarbeitung dauert
+        bei vielen Betroffenen bis heute an.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Otto Mühl</strong> verkörpert den Sexuellen Typ 1 mit Zweierflügel
+        in einer Ausprägung, die ideologische Mission mit
+        systematischem Machtmissbrauch verschmilzt. Die SX1-Energie
+        lieferte die missionarische Überzeugung, im Besitz der
+        „wahren Befreiung" zu sein. Der Zweierflügel lieferte
+        das Charisma, das Hunderte Menschen freiwillig in seine
+        Kommune führte. Die Eins stellte die Gewissheit bereit,
+        dass die eigene Lehre über jedem Zweifel und letztlich
+        über dem Wohl der ihm Anvertrauten stand. Mühl ist kein
+        Fall unkontrollierter Triebhaftigkeit. Er ist ein Fall
+        ideologisch verbrämter Selbstermächtigung: Ein Mann, der
+        seine eigene Bedürfnisbefriedigung so vollständig mit
+        seiner Lehre verschmolz, dass er beides nicht mehr
+        unterscheiden konnte oder wollte – und dabei über Jahrzehnte
+        das Vertrauen und die Kindheit vieler Menschen zerstörte.
+        </p>
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"kriminalpsychologie", label:"Alle kriminalpsychologischen Porträts"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"kriminalpsychologie-alex-murdaugh", label:"Kriminalpsychologie: Alex Murdaugh (SX1w2)"},
+        {route:"kriminalpsychologie-paul-bernardo", label:"Kriminalpsychologie: Paul Bernardo (SX1w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function alexMurdaughPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -73444,6 +73680,7 @@ function alexMurdaughPortraitPage() {
         {route:"kriminalpsychologie-buster-murdaugh", label:"Kriminalpsychologie: Buster Murdaugh"},
         {route:"kriminalpsychologie-dennis-rader", label:"Kriminalpsychologie: Dennis Rader (SE1w9)"},
         {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9)"},
+        {route:"kriminalpsychologie-otto-muehl", label:"Kriminalpsychologie: Otto Mühl (SX1w2)"},
       ])}
     </div>
   `);
@@ -74038,6 +74275,7 @@ function paulBernardoPortraitPage() {
         {route:"kriminalpsychologie-karla-homolka", label:"Kriminalpsychologie: Karla Homolka (SE3w4) \u2013 Partnerin"},
         {route:"kriminalpsychologie-gary-ridgway", label:"Kriminalpsychologie: Gary Ridgway (SX1w2)"},
         {route:"kriminalpsychologie-fritz-haarmann", label:"Kriminalpsychologie: Fritz Haarmann (SX1w9)"},
+        {route:"kriminalpsychologie-otto-muehl", label:"Kriminalpsychologie: Otto M\u00fchl (SX1w2)"},
       ])}
     </div>
   `);
@@ -85987,6 +86225,7 @@ function render() {
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
+      "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
       "kriminalpsychologie-alex-murdaugh": alexMurdaughPortraitPage,
       "kriminalpsychologie-gary-ridgway": garyRidgwayPortraitPage,
       "kriminalpsychologie-ted-bundy": tedBundyPortraitPage,
