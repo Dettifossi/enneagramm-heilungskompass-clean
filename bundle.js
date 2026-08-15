@@ -31755,7 +31755,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Kunst"], gender:"m"},
   { route:"beruehmte-franz-kafka", name:"Franz Kafka", added:"2026-08-15", subtyp:"SE5w4",
     heading:"Franz Kafka – Selbsterhaltender Typ 5",
-    teaser:"SE5w4 · 1883–1924. Schriftsteller. Der Process, Das Schloss, Die Verwandlung. Die Eule, die nachts an ihren Albträumen schrieb und ihr Werk am liebsten verbrannt hätte. Tierentsprechung: Eule.",
+    teaser:"SE5w4 · 1883–1924. Schriftsteller. Der Prozess, Das Schloss, Die Verwandlung. Die Eule, die nachts an ihren Albträumen schrieb und ihr Werk am liebsten verbrannt hätte. Tierentsprechung: Eule.",
     tags:["Literatur"], gender:"m"},
   { route:"beruehmte-peter-lustig", name:"Peter Lustig", subtyp:"SE5w6",
     heading:"Peter Lustig \u2013 Selbsterhaltender Typ 5",
@@ -44637,7 +44637,7 @@ function franzKafkaPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Fünf: Die Burg aus Pflicht und Rückzug</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Fünf (SE5)</strong> nennt Naranjo <em>Burg</em>: Das eigene Territorium wird zur Festung, die den Zugriff der Welt so weit wie möglich beschränkt. Kafka lebte bis kurz vor seinem Tod im Haus seiner Eltern, mit einem eigenen, streng abgeschirmten Zimmer als letztem Rückzugsort &ndash; ein äußerlich abhängiges, innerlich aber genau kontrolliertes Arrangement. Seine Bürotätigkeit erledigte er mit auffälliger Sorgfalt und Gründlichkeit, obwohl er sie zeitlebens als Diebstahl an seiner eigentlichen, literarischen Existenz empfand.</p>
-          <p class="vb-intro">Die Leidenschaft der Fünf ist der <strong>Geiz</strong> &ndash; das Horten von Energie und Zeit, damit nichts verloren geht, bevor es vollständig durchdacht ist. Kafka veröffentlichte zu Lebzeiten nur einen Bruchteil seines Werks und äußerte immer wieder, seine Texte seien nicht fertig, nicht gut genug, nicht bereit für die Öffentlichkeit. Kurz vor seinem Tod bat er seinen Freund Max Brod, sämtliche unveröffentlichten Manuskripte &ndash; darunter "Der Process" und "Das Schloss" &ndash; ungelesen zu verbrennen. Brod widersetzte sich dieser letzten Anweisung und veröffentlichte die Werke stattdessen. Die Burg der SE5 zeigt sich hier in ihrer radikalsten Form: lieber das eigene Lebenswerk vernichten, als es der Welt in unvollendetem Zustand auszusetzen.</p>
+          <p class="vb-intro">Die Leidenschaft der Fünf ist der <strong>Geiz</strong> &ndash; das Horten von Energie und Zeit, damit nichts verloren geht, bevor es vollständig durchdacht ist. Kafka veröffentlichte zu Lebzeiten nur einen Bruchteil seines Werks und äußerte immer wieder, seine Texte seien nicht fertig, nicht gut genug, nicht bereit für die Öffentlichkeit. Kurz vor seinem Tod bat er seinen Freund Max Brod, sämtliche unveröffentlichten Manuskripte &ndash; darunter "Der Prozess" und "Das Schloss" &ndash; ungelesen zu verbrennen. Brod widersetzte sich dieser letzten Anweisung und veröffentlichte die Werke stattdessen. Die Burg der SE5 zeigt sich hier in ihrer radikalsten Form: lieber das eigene Lebenswerk vernichten, als es der Welt in unvollendetem Zustand auszusetzen.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Viererflügel: Die Einzigartigkeit des eigenen Leidens</h2>
@@ -44648,7 +44648,7 @@ function franzKafkaPortraitPage() {
 
         <h2 class="vb-section">4. Das Werk: Labyrinthe ohne Ausgang</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Kafkas literarisches Universum &ndash; von "Der Process" über "Das Schloss" bis zu Erzählungen wie "In der Strafkolonie" &ndash; kreist immer wieder um dasselbe Grundmuster: einen Einzelnen, der einem undurchschaubaren, übermächtigen System gegenübersteht, dessen Regeln er nie ganz versteht und dem er nie ganz entkommen kann. Josef K. wird in "Der Process" verhaftet, ohne je zu erfahren, wessen er eigentlich beschuldigt wird &ndash; ein Bild, das zum Inbegriff moderner Entfremdung wurde und dem Adjektiv "kafkaesk" seinen Namen gab.</p>
+          <p class="vb-intro">Kafkas literarisches Universum &ndash; von "Der Prozess" über "Das Schloss" bis zu Erzählungen wie "In der Strafkolonie" &ndash; kreist immer wieder um dasselbe Grundmuster: einen Einzelnen, der einem undurchschaubaren, übermächtigen System gegenübersteht, dessen Regeln er nie ganz versteht und dem er nie ganz entkommen kann. Josef K. wird in "Der Prozess" verhaftet, ohne je zu erfahren, wessen er eigentlich beschuldigt wird &ndash; ein Bild, das zum Inbegriff moderner Entfremdung wurde und dem Adjektiv "kafkaesk" seinen Namen gab.</p>
           <p class="vb-intro">Diese Werke entstanden fast ausschließlich in nächtlicher Einsamkeit, oft in einem einzigen, fiebrigen Schreibanfall, dem tagelange Erschöpfung folgte. Kafka beschrieb das Schreiben selbst als eine Form von Gebet, als den einzigen Ort, an dem er sich seiner selbst sicher sein konnte &ndash; und zugleich als etwas, das ihn von jeder gewöhnlichen bürgerlichen Existenz, von Ehe, Familie und Öffentlichkeit, endgültig ausschloss.</p>
         </blockquote>
 
@@ -44660,8 +44660,8 @@ function franzKafkaPortraitPage() {
 
         <h2 class="vb-section">6. Die Eule, deren Werk gegen ihren Willen überlebte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Franz Kafka starb 1924 im Alter von nur 40 Jahren an den Folgen seiner Tuberkulose, in einem Sanatorium bei Wien, weitgehend unbekannt als Schriftsteller. Erst durch Max Brods Weigerung, seinen letzten Willen zu erfüllen, gelangten "Der Process", "Das Schloss" und "Amerika" an die Öffentlichkeit &ndash; und machten Kafka posthum zu einem der einflussreichsten Autoren des zwanzigsten Jahrhunderts.</p>
-          <p class="vb-intro">Es ist eine der größten Ironien der Literaturgeschichte, dass ausgerechnet ein Mensch, dessen tiefster Instinkt der Rückzug und die Vernichtung des eigenen Werks war, zum Sinnbild einer ganzen Epoche wurde. Die Eule, die im Dunkel schrieb, um von niemandem gesehen zu werden, wurde am Ende zu der Stimme, in der Millionen Leser ihre eigene Fremdheit in der Welt wiedererkannten.</p>
+          <p class="vb-intro">Franz Kafka starb 1924 im Alter von nur 40 Jahren an den Folgen seiner Tuberkulose, in einem Sanatorium bei Wien, weitgehend unbekannt als Schriftsteller. Erst durch Max Brods Weigerung, seinen letzten Willen zu erfüllen, gelangten "Der Prozess", "Das Schloss" und "Amerika" an die Öffentlichkeit &ndash; und machten Kafka posthum zu einem der einflussreichsten Autoren des zwanzigsten Jahrhunderts.</p>
+          <p class="vb-intro">Es ist eine der größten Ironien der Literaturgeschichte, dass ausgerechnet ein Mensch, dessen tiefster Instinkt der Rückzug und die Vernichtung des eigenen Werks war, zum Sinnbild einer ganzen Epoche wurde. Die Eule, die im Dunkeln schrieb, um von niemandem gesehen zu werden, wurde am Ende zu der Stimme, in der Millionen Leser ihre eigene Fremdheit in der Welt wiedererkannten.</p>
         </blockquote>
 
       </div>
