@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=44";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=45";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=9";
@@ -839,6 +839,10 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-robert-schumann", name:"Robert Schumann", added:"2026-08-13", subtyp:"SX7w8",
     heading:"Robert Schumann – Sexual Type 7",
     teaser:"SX7w8 · 1810–1856. German composer and music critic. Year of Song 1840, discoverer of Johannes Brahms, years-long fight for Clara Wieck. The chimpanzee with the Eight-wing: boundless enthusiasm, combative devotion – and an intensity that in the end turned against himself. Animal correspondence: Chimpanzee.",
+    tags:["Music","History"], gender:"m"},
+  { route:"beruehmte-franz-liszt", name:"Franz Liszt", added:"2026-08-15", subtyp:"SX7w8",
+    heading:"Franz Liszt – Sexual Type 7",
+    teaser:"SX7w8 · 1811–1886. Composer and pianist. Lisztomania, inventor of the symphonic poem, New German School, later Abbé Liszt. The chimpanzee with the Eight-wing: entire halls in ecstasy, open combat for new music. Animal correspondence: Chimpanzee.",
     tags:["Music","History"], gender:"m"},
   { route:"beruehmte-shakira", name:"Shakira", added:"2026-08-04", subtyp:"SX7w8",
     heading:"Shakira – Sexual Type 7",
@@ -16077,7 +16081,72 @@ function robertSchumannPortraitPage() {
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
         {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5)"},
         {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SE9w8) – discovered by Schumann"},
+        {route:"beruehmte-franz-liszt", label:"Portrait: Franz Liszt (SX7w8)"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+      ])}
+    </div>
+  `);
+}
+
+function franzLisztPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-franz-liszt-portrait.jpg" alt="Franz Liszt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Franz Liszt</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Composer and pianist, 1811&ndash;1886 &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee Who Sent Whole Halls Into Ecstasy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of Sexual Type 7 &ndash; a creature that does not live in quiet distance but in immediate, often overflowing contact with the world, infecting entire crowds with its energy. Few musicians in history experienced this as literally as Franz Liszt: the poet Heinrich Heine coined the term "Lisztomania" in 1844 specifically for the collective hysteria his concerts triggered &ndash; women fainting, fighting over his broken piano strings and discarded gloves to keep as relics.</p>
+          <p class="vb-intro">Born in 1811 in Raiding, Hungary, the son of an estate manager in the service of the Esterházy princes, Liszt showed extraordinary talent even as a child, which soon led him to lessons with Carl Czerny and later to Paris. His physical playing style was so powerful that he regularly broke piano strings &ndash; a piano maker had to supply specially reinforced instruments for his concerts. The chimpanzee does not play for itself &ndash; it sweeps the entire hall along with it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Seven: Enthusiasm Without Reservation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Sexual Seven (SX7)</strong> does not seek cautious examination but complete surrender to whatever excites it. Naranjo called this subtype <em>Suggestibility</em>: the ability to draw oneself and others entirely into a state of enthusiasm. Between 1839 and 1847, Liszt toured all of Europe as a traveling virtuoso, often giving several concerts a week in different cities &ndash; a pace of life that would have meant sheer exhaustion for most musicians of his time, but for Liszt was simply the natural expression of his inexhaustible capacity for enthusiasm.</p>
+          <p class="vb-intro">This suggestive power also showed as a mentor: in his later years in Weimar and Rome, Liszt taught hundreds of students for free, opened his house to any seriously talented person who came to him, and championed with fiery zeal composers whose music he considered forward-looking &ndash; among them Richard Wagner, Edvard Grieg, and Bedřich Smetana. That is exactly Sexual Seven: not measured support based on criteria, but the full, contagious outburst of enthusiasm for whatever fascinated him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: The Open Fight for New Music</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Sexual Seven something pure Sevens often lack: the willingness for open combat rather than avoiding conflict. From 1848, Liszt settled in Weimar as court Kapellmeister and became the leading figure of the "New German School" &ndash; a movement that set programmatic, literarily inspired music against the conservative Leipzig school oriented toward Beethoven and pure instrumental form. In doing so, he single-handedly invented the genre of the symphonic poem.</p>
+          <p class="vb-intro">In 1860, Johannes Brahms, Clara Schumann, and the violinist Joseph Joachim signed a public manifesto against the "New German School" &ndash; an open attack that moved Liszt not to retreat but to sharpen his position further. A pure Seven would likely have avoided the conflict. Liszt sought it out: he publicly stood by his aesthetic convictions, even against the established musical world of Leipzig, and pushed through his vision with unshakeable persistence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Gluttony in Work and Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Seven is called <strong>gluttony</strong> or <strong>excess</strong> &ndash; the insatiable hunger for more. In Liszt this showed in an oeuvre of over 700 works spanning nearly every musical genre of his time &ndash; piano music, symphonic poems, sacred choral works, songs, transcriptions of other composers' works for piano. He never rested long on a success but plunged immediately into the next project, the next premiere, the next student.</p>
+          <p class="vb-intro">He lived this excess privately as well: a years-long relationship with the married Countess Marie d'Agoult, with whom he had three children, including Cosima, who later married first Hans von Bülow and then Richard Wagner &ndash; a union Liszt himself watched with mixed feelings. Afterward came an equally intense, decades-long relationship with the Polish Princess Carolyne von Sayn-Wittgenstein. The chimpanzee cannot be pinned to a single track &ndash; it seeks the maximum intensity wherever it can be found.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Turn: From World Star to Abbé</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1865, at the age of 53, Liszt surprisingly took minor orders in the Catholic Church and lived for a time at the Vatican &ndash; a step that stunned many of his contemporaries, as it hardly seemed to fit the image of the fiery stage lion. Yet the religious devotion followed the same pattern as everything else in his life: not half-hearted, but with the same unrestrained intensity with which he had previously conquered concert halls.</p>
+          <p class="vb-intro">As "Abbé Liszt," he composed increasingly stark, almost modern-sounding sacred music in his final years &ndash; works far less popular than his earlier virtuoso pieces, but often more radical in their composition. The Eight-wing of the Seven shows itself here too: even the retreat from the world stage became a decisive, uncompromising reorientation, not a gentle fading away.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Inventor of the Modern Piano Recital</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Liszt is still regarded today as the inventor of the solo piano recital in its modern form &ndash; before him, pianists usually performed in mixed programs with other artists; he made the evening his own, alone at the instrument, with the audience's attention entirely on him. This assumption of the right to claim the entire room for one's own art shapes piano recitals to this day.</p>
+          <p class="vb-intro">He died in 1886 in Bayreuth, during the festival founded by his son-in-law Richard Wagner &ndash; to the last at the center of the musical world he had helped shape for decades. The chimpanzee with the Eight-wing: an artist who sent entire halls into ecstasy, openly took on the established musical world, and lost none of his unbridled intensity even in religious retreat.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8)"},
       ])}
     </div>
   `);
@@ -52981,6 +53050,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-angela-merkel": angelaMerkelPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-robert-schumann": robertSchumannPortraitPage,
+      "beruehmte-franz-liszt": franzLisztPortraitPage,
       "beruehmte-johannes-brahms": johannesBrahmsPortraitPage,
       "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,

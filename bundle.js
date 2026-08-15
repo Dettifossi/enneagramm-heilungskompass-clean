@@ -24000,6 +24000,7 @@ const registerEntries = [
   { term: "Miley Cyrus",                    route: "beruehmte-miley-cyrus",                 description: "Portrait: SX7w6 \u00b7 Sexueller Typ 7 \u00b7 S\u00e4ngerin, Songwriterin, Schauspielerin" },
   { term: "Morgan Freeman",                 route: "beruehmte-morgan-freeman",              description: "Portrait: SX7w6 \u00b7 Sexueller Typ 7 \u00b7 Schauspieler, Erz\u00e4hler, Regisseur" },
   { term: "Shakira",                        route: "beruehmte-shakira",                     description: "Portrait: SX7w8 \u00b7 Sexueller Typ 7 \u00b7 S\u00e4ngerin, Songwriterin, T\u00e4nzerin, Produzentin" },
+  { term: "Franz Liszt",                   route: "beruehmte-franz-liszt",                 description: "Portrait: SX7w8 · Sexueller Typ 7 · Komponist und Pianist, Lisztomania" },
   { term: "Diogenes von Sinope",            route: "beruehmte-diogenes",                    description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Philosoph, Begr\u00fcnder des Kynismus" },
   { term: "Winston Churchill",              route: "beruehmte-winston-churchill",           description: "Portrait: SE8w9 \u00b7 Selbsterhaltender Typ 8 \u00b7 Britischer Staatsmann, Premierminister" },
   { term: "Indra Nooyi",                    route: "beruehmte-indra-nooyi",                 description: "Portrait: SE8w7 \u00b7 Selbsterhaltender Typ 8 \u00b7 Wirtschaftsf\u00fchrerin, ehem. CEO von PepsiCo" },
@@ -24312,6 +24313,7 @@ const registerEntriesEN = [
   { term: "Miley Cyrus", route: "beruehmte-miley-cyrus", description: "Portrait: SX7w6 \u00b7 Sexual Type 7 \u00b7 Singer, songwriter, actress" },
   { term: "Morgan Freeman", route: "beruehmte-morgan-freeman", description: "Portrait: SX7w6 \u00b7 Sexual Type 7 \u00b7 Actor, narrator, director" },
   { term: "Shakira", route: "beruehmte-shakira", description: "Portrait: SX7w8 \u00b7 Sexual Type 7 \u00b7 Singer, songwriter, dancer, producer" },
+  { term: "Franz Liszt", route: "beruehmte-franz-liszt", description: "Portrait: SX7w8 · Sexual Type 7 · Composer and pianist, Lisztomania" },
   { term: "Diogenes of Sinope", route: "beruehmte-diogenes", description: "Portrait: SX8w7 \u00b7 Sexual Type 8 \u00b7 Philosopher, founder of Cynicism" },
   { term: "Winston Churchill", route: "beruehmte-winston-churchill", description: "Portrait: SE8w9 \u00b7 Self-Preservation Type 8 \u00b7 British statesman, Prime Minister" },
   { term: "Indra Nooyi", route: "beruehmte-indra-nooyi", description: "Portrait: SE8w7 \u00b7 Self-Preservation Type 8 \u00b7 Business leader, former CEO of PepsiCo" },
@@ -32070,6 +32072,10 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-robert-schumann", name:"Robert Schumann", added:"2026-08-13", subtyp:"SX7w8",
     heading:"Robert Schumann – Sexueller Typ 7",
     teaser:"SX7w8 · 1810–1856. Deutscher Komponist und Musikkritiker. Liederjahr 1840, Entdecker von Johannes Brahms, jahrelanger Kampf um Clara Wieck. Der Schimpanse mit Achterflügel: schrankenlose Begeisterung, kämpferische Hingabe – und eine Intensität, die sich am Ende gegen ihn selbst wandte. Tierentsprechung: Schimpanse.",
+    tags:["Musik","Geschichte"], gender:"m"},
+  { route:"beruehmte-franz-liszt", name:"Franz Liszt", added:"2026-08-15", subtyp:"SX7w8",
+    heading:"Franz Liszt – Sexueller Typ 7",
+    teaser:"SX7w8 · 1811–1886. Komponist und Pianist. Lisztomania, Erfinder der symphonischen Dichtung, Neudeutsche Schule, später Abbé Liszt. Der Schimpanse mit Achterflügel: ganze Säle in Ekstase, offener Kampf um die neue Musik. Tierentsprechung: Schimpanse.",
     tags:["Musik","Geschichte"], gender:"m"},
   { route:"beruehmte-shakira", name:"Shakira", added:"2026-08-04", subtyp:"SX7w8",
     heading:"Shakira \u2013 Sexueller Typ 7",
@@ -45898,6 +45904,70 @@ function borisBeckerPortraitPage() {
   `);
 }
 
+function franzLisztPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-franz-liszt-portrait.jpg" alt="Franz Liszt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Franz Liszt</p>
+        <p class="krim-portrait-typ">SX7w8 · Sexueller Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Komponist und Pianist, 1811–1886 – Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse, der ganze Säle in Ekstase versetzte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 – ein Wesen, das nicht in ruhiger Distanz lebt, sondern im unmittelbaren, oft überschäumenden Kontakt mit der Welt, das ganze Gruppen mit seiner Energie ansteckt. Kaum ein Musiker der Geschichte hat das so buchstäblich erlebt wie Franz Liszt: Der Dichter Heinrich Heine prägte 1844 eigens den Begriff "Lisztomania" für die kollektive Hysterie, die seine Konzerte auslösten – ohnmächtige Zuhörerinnen, Frauen, die um seine zerbrochenen Klaviersaiten und weggeworfenen Handschuhe rangen, um sie als Reliquien zu behalten.</p>
+          <p class="vb-intro">Geboren 1811 im ungarischen Raiding als Sohn eines Verwalters im Dienst der Fürsten Esterházy, zeigte Liszt schon als Kind ein außergewöhnliches Talent, das ihn bald zum Unterricht bei Carl Czerny und später nach Paris führte. Seine physische Spielweise war so kraftvoll, dass er regelmäßig Klaviersaiten riss – ein Klavierbauer musste eigens verstärkte Instrumente für seine Konzerte bereitstellen. Der Schimpanse spielt nicht für sich – er reißt den ganzen Saal mit sich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Begeisterung ohne Vorbehalt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht nicht die vorsichtige Prüfung, sondern die vollständige Hingabe an das, was sie begeistert. Naranjo nannte diesen Subtyp <em>Suggestibility</em>: die Fähigkeit, sich selbst und andere restlos in einen Zustand der Begeisterung hineinzuziehen. Zwischen 1839 und 1847 tourte Liszt als reisender Virtuose durch ganz Europa, gab oft mehrere Konzerte pro Woche in verschiedenen Städten – ein Lebenstempo, das reine Erschöpfung für die meisten Musiker seiner Zeit bedeutet hätte, für Liszt aber der natürliche Ausdruck seiner unerschöpflichen Begeisterungsfähigkeit war.</p>
+          <p class="vb-intro">Diese Suggestivkraft zeigte sich auch als Förderer: Liszt unterrichtete in seinen späteren Jahren in Weimar und Rom Hunderte Schüler kostenlos, öffnete sein Haus für jeden ernsthaft Talentierten, der zu ihm kam, und setzte sich mit Feuereifer für Komponisten ein, deren Musik er für zukunftsweisend hielt – darunter Richard Wagner, Edvard Grieg und Bedřich Smetana. Genau das ist die SX7: keine abgewogene Förderung nach Kriterien, sondern der volle, ansteckende Ausbruch der Begeisterung für das, was ihn faszinierte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Der offene Kampf um die neue Musik</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der sexuellen Sieben etwas, das reine Siebener oft vermissen lassen: die Bereitschaft zum offenen Kampf, statt Konflikten auszuweichen. Ab 1848 ließ sich Liszt in Weimar als Hofkapellmeister nieder und wurde zur Leitfigur der "Neudeutschen Schule" – einer Bewegung, die programmatische, literarisch inspirierte Musik gegen die konservative, an Beethoven und der reinen Instrumentalform orientierte Leipziger Schule stellte. Er erfand dabei praktisch im Alleingang die Gattung der symphonischen Dichtung.</p>
+          <p class="vb-intro">1860 unterzeichneten Johannes Brahms, Clara Schumann und der Geiger Joseph Joachim ein öffentliches Manifest gegen die "Neudeutsche Schule" – ein offener Angriff, der Liszt nicht zum Rückzug, sondern zur weiteren Zuspitzung seiner Position bewegte. Ein reiner Siebener hätte den Konflikt vermutlich gemieden. Liszt suchte ihn: Er stand öffentlich zu seinen ästhetischen Überzeugungen, auch gegen die etablierte Musikwelt Leipzigs, und setzte seine Vision mit unerschütterlicher Beharrlichkeit durch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Völlerei in Werk und Leben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> oder <strong>Maßlosigkeit</strong> – der unstillbare Hunger nach mehr. Bei Liszt zeigte sich das in einem Œuvre von über 700 Werken, das nahezu jede musikalische Gattung seiner Zeit umfasste – Klaviermusik, Symphonische Dichtungen, geistliche Chorwerke, Lieder, Transkriptionen fremder Werke für Klavier. Er ruhte sich nie lange auf einem Erfolg aus, sondern stürzte sich sofort in das nächste Projekt, die nächste Uraufführung, den nächsten Schüler.</p>
+          <p class="vb-intro">Auch privat lebte er diese Maßlosigkeit: eine langjährige Beziehung mit der verheirateten Gräfin Marie d'Agoult, mit der er drei Kinder hatte, darunter Cosima, die später erst Hans von Bülow und dann Richard Wagner heiratete – eine Verbindung, die Liszt selbst mit gemischten Gefühlen begleitete. Danach eine ebenso intensive, jahrzehntelange Beziehung mit der polnischen Fürstin Carolyne von Sayn-Wittgenstein. Der Schimpanse lässt sich nicht auf eine einzige Bahn festlegen – er sucht das Maximum an Intensität, wo immer es sich findet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Wende: Vom Weltstar zum Abbé</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1865 nahm Liszt, mittlerweile 53 Jahre alt, überraschend die niederen Weihen der katholischen Kirche an und lebte fortan zeitweise im Vatikan – ein Schritt, der viele Zeitgenossen verblüffte, da er kaum zu dem Bild des feurigen Bühnenlöwen zu passen schien. Doch die religiöse Hingabe folgte demselben Muster wie alles andere in seinem Leben: nicht halbherzig, sondern mit derselben rückhaltlosen Intensität, mit der er zuvor Klaviersäle erobert hatte.</p>
+          <p class="vb-intro">Als "Abbé Liszt" komponierte er in seinen letzten Lebensjahren zunehmend geistliche Musik von schroffer, fast modern anmutender Harmonik – Werke, die weit weniger populär wurden als seine früheren Virtuosenstücke, aber kompositorisch oft radikaler waren. Der Achterflügel der Sieben zeigt sich auch hier: Selbst der Rückzug aus der Weltbühne wurde zu einer entschiedenen, kompromisslosen Neuausrichtung, nicht zu einem sanften Verblassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Erfinder des modernen Klavierrezitals</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Liszt gilt bis heute als Erfinder des Solo-Klavierrezitals in seiner modernen Form – vor ihm traten Pianisten meist in gemischten Programmen mit anderen Künstlern auf; er machte den Abend zu seinem, allein am Instrument, das Publikum ganz auf sich konzentriert. Diese Selbstverständlichkeit, den gesamten Raum für die eigene Kunst zu beanspruchen, prägt Klavierabende bis in die Gegenwart.</p>
+          <p class="vb-intro">Er starb 1886 in Bayreuth, während der von seinem Schwiegersohn Richard Wagner begründeten Festspiele – bis zuletzt im Zentrum jener musikalischen Welt, die er über Jahrzehnte mitgeprägt hatte. Der Schimpanse mit Achterflügel: ein Künstler, der ganze Säle in Ekstase versetzte, sich offen mit der etablierten Musikwelt anlegte und selbst im geistlichen Rückzug nichts von seiner unbändigen Intensität verlor.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-robert-schumann", label:"Porträt: Robert Schumann (SX7w8)"},
+      ])}
+    </div>
+  `);
+}
+
 function robertSchumannPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -45958,6 +46028,7 @@ function robertSchumannPortraitPage() {
         {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5)"},
         {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5)"},
         {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8) – von Schumann entdeckt"},
+        {route:"beruehmte-franz-liszt", label:"Porträt: Franz Liszt (SX7w8)"},
         {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
       ])}
     </div>
@@ -87200,6 +87271,7 @@ function render() {
       "beruehmte-ina-mueller": inaMuellerPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-robert-schumann": robertSchumannPortraitPage,
+      "beruehmte-franz-liszt": franzLisztPortraitPage,
       "beruehmte-johannes-brahms": johannesBrahmsPortraitPage,
       "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
