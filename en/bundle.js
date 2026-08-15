@@ -287,6 +287,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Oprah Winfrey – Self-Preservation Type 2",
     teaser:"SE2w3 · born 1954. TV host, entrepreneur, philanthropist. From trauma to media empire – care at scale, entrepreneurial will without compromise. Animal correspondence: Hippopotamus.",
     tags:["Medien","Business"] , gender:"f"},
+  { route:"beruehmte-armin-rohde", name:"Armin Rohde", added:"2026-08-15", subtyp:"SE2w3",
+    heading:"Armin Rohde – Self-Preservation Type 2",
+    teaser:"SP2w3 · born 1955 in Herne, Germany. Actor, 'Manta, Manta', 'Der Bulle von Tölz'. Groundedness as a principle of care, from the Ruhr region to the big screen without betraying his roots. Animal correspondence: Hippopotamus.",
+    tags:["Schauspiel"], gender:"m"},
   { route:"beruehmte-barack-obama", name:"Barack Obama", subtyp:"SO2w1",
     heading:"Barack Obama – Social Type 2",
     teaser:"SO2w1 · born 1961. 44th US President, community organizer, Nobel Peace Prize laureate. Yes We Can – not a message about Obama, but about what we can make possible together. Animal correspondence: Golden Retriever.",
@@ -22162,6 +22166,64 @@ function isabellaBriggsPortraitPage() {
   `);
 }
 
+function arminRohdePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-armin-rohde-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Armin Rohde</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Actor, born 1955 in Herne, Germany &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that does not leave its territory because it is rooted there, not because it is trapped there. It knows every stone on the bank, every current, every neighbor in the same water &ndash; and it draws its strength from exactly this deep familiarity with its own origin, not from distance or unfamiliar ground.</p>
+          <p class="vb-intro">Armin Rohde, born in 1955 in Herne in Germany's Ruhr region, has stayed true to this origin his entire life and throughout his entire career. Even after decades as one of Germany's best-known actors, he still describes himself unchanged as a child of the Ruhrpott, speaks openly in his native dialect, and has never treated his origins as something to shed once fame arrived. The Hippopotamus stays in its water &ndash; and becomes unmistakable precisely because of it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Groundedness as a Principle of Care</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> directs its care first toward its own close circle &ndash; family, origin, the familiar community &ndash; before turning to the wider public. Naranjo called this subtype <em>Me First</em>: not out of selfishness, but because the SP2 can only truly be there for others once it stands on a secure, familiar foundation.</p>
+          <p class="vb-intro">In Rohde this shows in his publicly lived connection to the Ruhr region, his unfiltered dialect, and his well-known passion for the football club FC Schalke 04 &ndash; not a marketing pose, but a consistent, decades-long commitment to the milieu he comes from. Colleagues and companions repeatedly describe him as warm-hearted, direct, and free of star airs &ndash; someone who seeks closeness rather than maintaining distance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From the Ruhr Region to the Big Screen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the ambition to build something visibly larger out of its own familiar foundation. Where the pure SP2 might be content with its familiar circle, the Three-wing drives it to make its own story accessible to a wider audience &ndash; without betraying it in the process.</p>
+          <p class="vb-intro">Rohde began his career in theater before a small role in Wolfgang Petersen's <em>Das Boot</em> (1985) brought him his first international visibility. His definitive breakthrough with the broader public came in 1991 with the Ruhr-region comedy <em>Manta, Manta</em>, in which he brought the Ruhrpott milieu he himself came from to a mass audience &ndash; not as an outsider's caricature, but as a world he knew from the inside. The Three-wing turns one's own origin into a stage, without denying it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Supporting Actor to Audience Favorite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Over the decades Rohde built a broad range of roles: comedic leads such as in <em>Manta, Manta</em> and <em>Der bewegte Mann</em>, sustained television roles such as in the long-running crime series <em>Der Bulle von Tölz</em>, alongside serious character roles in film and television productions. His trademark throughout remained the same unmistakable presence: the rough, warm voice, the direct, unpretentious manner, the ability to make even difficult characters feel human and approachable.</p>
+          <p class="vb-intro">This consistency across decades, without fundamentally reinventing his range of roles or disguising his origins, is typical of the SP2w3: growth occurs, but not at the expense of one's own roots.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 is the ability to hold success and groundedness together &ndash; to become famous without losing oneself or one's own origins in the process. Rohde's public image as an approachable, reliable actor who has remained accessible and direct even after decades in the business shows this mature form of SP2 energy.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own reliability and familiarity. In the SP2w3, this can also show as resistance to change: attachment to a particular image, a particular origin story, can become a trap when it leaves no room for new facets. Rohde himself has countered this risk by deliberately expanding his acting range beyond the pure Ruhrpott role.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function mutterMeeraPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -22959,6 +23021,7 @@ function oprahWinfreyPortraitPage() {
         {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
         {route:"beruehmte-jack-black", label:"Portrait: Jack Black (SE2w1)"},
+        {route:"beruehmte-armin-rohde", label:"Portrait: Armin Rohde (SP2w3)"},
       ])}
     </div>
   `);
@@ -52106,6 +52169,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-sahra-wagenknecht": sahraWagenknechtPortraitPage,
       "beruehmte-frida-kahlo": fridaKahloPortraitPage,
       "beruehmte-isabella-briggs": isabellaBriggsPortraitPage,
+      "beruehmte-armin-rohde": arminRohdePortraitPage,
       "beruehmte-mutter-meera": mutterMeeraPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-fjodor-dostojewski": fjodorDostojewskiPortraitPage,

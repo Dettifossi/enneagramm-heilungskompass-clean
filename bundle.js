@@ -31425,6 +31425,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Oprah Winfrey \u2013 Selbsterhaltender Typ 2",
     teaser:"SE2w3 \u00b7 geb. 1954. Moderatorin, Unternehmerin, Philanthropin. Vom Trauma zum Medienimperium \u2013 F\u00fcrsorge im gro\u00dfen Ma\u00dfstab, unternehmerischer Wille ohne Kompromiss. Tierentsprechung: Flusspferd.",
     tags:["Medien","Wirtschaft"] , gender:"f"},
+  { route:"beruehmte-armin-rohde", name:"Armin Rohde", added:"2026-08-15", subtyp:"SE2w3",
+    heading:"Armin Rohde – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 1955 in Herne. Schauspieler, ›Manta, Manta‹, ›Der Bulle von Tölz‹. Bodenständigkeit als Fürsorgeprinzip, vom Ruhrpott auf die große Leinwand, ohne die eigenen Wurzeln zu verraten. Tierentsprechung: Flusspferd.",
+    tags:["Schauspiel"], gender:"m"},
   { route:"beruehmte-jesus-christus", name:"Jesus Christus", added:"2026-07-31", subtyp:"SO2w1",
     heading:"Jesus Christus \u2013 Sozialer Typ 2",
     teaser:"SO2w1 \u00b7 ca. 4 v. Chr.\u201330/33 n. Chr. Wanderprediger, Religionsstifter. Bedingungslose Liebe als Gebot f\u00fcr alle, unerbittlicher Anspruch an das eigene Selbstopfer \u2013 der Golden Retriever, dessen Hingabe zum Fundament einer Weltreligion wurde. Tierentsprechung: Golden Retriever.",
@@ -54361,6 +54365,7 @@ function oprahWinfreyPortraitPage() {
         {route:"subtype/se2", label:"SE2 \u2013 Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-uli-hoeness", label:"Portr\u00e4t: Uli Hoene\u00df (SE2w3)"},
         {route:"beruehmte-jack-black", label:"Portr\u00e4t: Jack Black (SE2w1)"},
+        {route:"beruehmte-armin-rohde", label:"Portr\u00e4t: Armin Rohde (SE2w3)"},
       ])}
     </div>
   `);
@@ -55840,6 +55845,64 @@ function isabellaBriggsPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-frida-kahlo", label:"Porträt: Frida Kahlo (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function arminRohdePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-armin-rohde-portrait.jpg" alt="Flusspferd" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Armin Rohde</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1955 in Herne &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das sein Revier nicht verlässt, weil es dort verwurzelt ist, nicht weil es dort gefangen wäre. Es kennt jeden Stein am Ufer, jede Strömung, jeden Nachbarn im selben Gewässer &ndash; und genau aus dieser tiefen Vertrautheit mit dem eigenen Ursprung zieht es seine Kraft, nicht aus Fremde oder Distanz.</p>
+          <p class="vb-intro">Armin Rohde, geboren 1955 in Herne im Ruhrgebiet, ist diesem Ursprung sein ganzes Leben und seine gesamte Karriere über treu geblieben. Auch nach Jahrzehnten als einer der bekanntesten deutschen Schauspieler bezeichnet er sich unverändert als Kind des Ruhrpotts, spricht offen im heimischen Dialekt und hat seine Herkunft nie als etwas behandelt, das man ablegt, sobald man berühmt wird. Das Flusspferd bleibt in seinem Wasser &ndash; und wird gerade dadurch unverwechselbar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Bodenständigkeit als Fürsorgeprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet ihre Fürsorge zuerst auf das eigene, nahe Umfeld &ndash; auf Familie, Herkunft, den vertrauten Kreis, bevor sie sich der weiten Öffentlichkeit zuwendet. Naranjo nannte diesen Subtyp <em>Me First</em>: nicht aus Egoismus, sondern weil die SE2 aus einer gesicherten, vertrauten Basis heraus erst wirklich für andere da sein kann.</p>
+          <p class="vb-intro">Bei Rohde zeigt sich das in seiner öffentlich gelebten Verbundenheit mit dem Ruhrgebiet, seiner unverstellten Sprache und seiner bekannten Leidenschaft für den FC Schalke 04 &ndash; keine Marketingpose, sondern ein durchgängiges, jahrzehntelanges Bekenntnis zu dem Milieu, aus dem er kommt. Kollegen und Weggefährten beschreiben ihn immer wieder als warmherzig, direkt und ohne Star-Allüren &ndash; jemanden, der Nähe sucht, statt Distanz zu wahren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Ruhrpott auf die große Leinwand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Ehrgeiz, aus der eigenen, vertrauten Basis heraus etwas sichtbar Größeres aufzubauen. Wo die reine SE2 sich mit dem vertrauten Kreis zufriedengeben könnte, treibt der Dreierflügel dazu, die eigene Geschichte einem größeren Publikum zugänglich zu machen &ndash; ohne sie dabei zu verraten.</p>
+          <p class="vb-intro">Rohde begann seine Karriere am Theater, bevor ihm 1985 eine kleine Rolle in Wolfgang Petersens <em>Das Boot</em> erste internationale Sichtbarkeit verschaffte. Den endgültigen Durchbruch beim breiten Publikum brachte 1991 die Ruhrgebiets-Komödie <em>Manta, Manta</em>, in der er das Ruhrpott-Milieu, aus dem er selbst stammt, einem Millionenpublikum nahebrachte &ndash; nicht als Karikatur von außen, sondern als eine Welt, die er von innen kannte. Der Dreierflügel macht aus der eigenen Herkunft eine Bühne, ohne sie zu verleugnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Nebendarsteller zum Publikumsliebling</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Über Jahrzehnte baute sich Rohde ein breites Rollenspektrum auf: komödiantische Hauptrollen wie in <em>Manta, Manta</em> und <em>Der bewegte Mann</em>, tragende Fernsehrollen wie in der langjährigen Krimiserie <em>Der Bulle von Tölz</em>, dazu ernste Charakterrollen in Kino- und Fernsehproduktionen. Sein Markenzeichen blieb dabei stets dieselbe, unverwechselbare Präsenz: die raue, warme Stimme, das direkte, unprätentiöse Auftreten, die Fähigkeit, auch schwierige Figuren menschlich und nahbar wirken zu lassen.</p>
+          <p class="vb-intro">Diese Konstanz über Jahrzehnte hinweg, ohne sein Rollenprofil grundlegend zu verändern oder seine Herkunft zu kaschieren, ist typisch für die SE2w3: Wachstum findet statt, aber nicht auf Kosten der eigenen Wurzeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, Erfolg und Bodenständigkeit zusammenzuhalten &ndash; berühmt zu werden, ohne sich selbst oder die eigene Herkunft dabei zu verlieren. Rohdes öffentliches Bild als volksnaher, verlässlicher Schauspieler, der auch nach Jahrzehnten im Geschäft ansprechbar und direkt geblieben ist, zeigt diese reife Form der SE2-Energie.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Verlässlichkeit und Vertrautheit unentbehrlich zu sein. Bei der SE2w3 kann sich das auch als Widerstand gegen Veränderung zeigen: Die Bindung an ein bestimmtes Image, eine bestimmte Herkunftsgeschichte, kann zur Falle werden, wenn sie keinen Raum mehr für neue Facetten lässt. Rohde selbst hat diesem Risiko durch die bewusste Erweiterung seines schauspielerischen Repertoires über die reine Ruhrpott-Rolle hinaus entgegengewirkt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-oprah-winfrey", label:"Porträt: Oprah Winfrey (SE2w3)"},
       ])}
     </div>
   `);
@@ -86383,6 +86446,7 @@ function render() {
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-frida-kahlo": fridaKahloPortraitPage,
       "beruehmte-isabella-briggs": isabellaBriggsPortraitPage,
+      "beruehmte-armin-rohde": arminRohdePortraitPage,
       "beruehmte-mutter-meera": mutterMeeraPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-klaus-kinski": klausKinskiPortraitPage,
