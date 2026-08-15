@@ -24057,6 +24057,7 @@ const registerEntries = [
   { term: "Rowan Atkinson",                 route: "beruehmte-rowan-atkinson",              description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Mr. Bean, Blackadder, Johnny English, Biber" },
   { term: "Elon Musk",                     route: "beruehmte-elon-musk",                   description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Tesla, SpaceX, Vision\u00e4r" },
   { term: "Nikola Tesla",                  route: "beruehmte-nikola-tesla",                description: "Portrait: SO7w6 · Sozialer Typ 7 · Erfinder, Ingenieur, Wechselstrompionier" },
+  { term: "Jules Verne",                   route: "beruehmte-jules-verne",                 description: "Portrait: SO7w6 · Sozialer Typ 7 · Schriftsteller, Visionär" },
   { term: "Elvis Presley",                 route: "beruehmte-elvis-presley",               description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 King of Rock'n'Roll, S\u00e4nger, Schauspieler" },
   { term: "Freddie Mercury",               route: "beruehmte-freddie-mercury",             description: "Portrait: SX4w3 \u00b7 Sexueller Typ 4 \u00b7 Queen-Fronts\u00e4nger, B\u00fchnenmagier" },
   { term: "Fr\u00e9d\u00e9ric Chopin",          route: "beruehmte-frederic-chopin",            description: "Portrait: SX5w4 \u00b7 Sexueller Typ 5 \u00b7 Komponist, romantische Klaviermusik" },
@@ -24362,6 +24363,7 @@ const registerEntriesEN = [
   { term: "Rowan Atkinson", route: "beruehmte-rowan-atkinson", description: "Portrait: SO7w6 \u00b7 Social Type 7 \u00b7 Mr. Bean, Blackadder, Johnny English, Beaver" },
   { term: "Elon Musk", route: "beruehmte-elon-musk", description: "Portrait: SO7w6 \u00b7 Social Type 7 \u00b7 Tesla, SpaceX, Visionary" },
   { term: "Nikola Tesla", route: "beruehmte-nikola-tesla", description: "Portrait: SO7w6 · Social Type 7 · Inventor, engineer, AC power pioneer" },
+  { term: "Jules Verne", route: "beruehmte-jules-verne", description: "Portrait: SO7w6 · Social Type 7 · Writer, visionary" },
   { term: "Elvis Presley", route: "beruehmte-elvis-presley", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 King of Rock'n'Roll, singer, actor" },
   { term: "Enneagram Art", route: "enneagramm-kunst", description: "9 galleries of 6 artworks each \u2013 classic paintings as a mirror of the 9 Enneagram types" },
   { term: "Freddie Mercury", route: "beruehmte-freddie-mercury", description: "Portrait: SX4w3 \u00b7 Sexual Type 4 \u00b7 Queen-lead singer, stage magician" },
@@ -31997,6 +31999,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nikola Tesla – Sozialer Typ 7",
     teaser:"SO7w6 · 1856–1943. Erfinder, Ingenieur. Wechselstrom, Wardenclyffe Tower, Stromkrieg mit Edison. Der Biber, der die Welt elektrifizierte und einsam in einem Hotelzimmer starb. Tierentsprechung: Biber.",
     tags:["Wissenschaft","Geschichte"], gender:"m"},
+  { route:"beruehmte-jules-verne", name:"Jules Verne", added:"2026-08-15", subtyp:"SO7w6",
+    heading:"Jules Verne – Sozialer Typ 7",
+    teaser:"SO7w6 · 1828–1905. Schriftsteller, Visionär. Voyages extraordinaires, 20.000 Meilen unter dem Meer, Von der Erde zum Mond. Der Biber, der die Zukunft vorausschrieb, gebunden an einen kontrollierenden Verleger. Tierentsprechung: Biber.",
+    tags:["Literatur","Wissenschaft"], gender:"m"},
   { route:"beruehmte-jeanne-marie-guyon", name:"Jeanne-Marie Bouvier de la Motte Guyon", added:"2026-08-03", subtyp:"SO7w6",
     heading:"Madame Guyon \u2013 Sozialer Typ 7",
     teaser:"SO7w6 \u00b7 geb. 1648, gest. 1717. Mystikerin, bedeutendste Vertreterin des Quietismus. Verfolgt als H\u00e4retikerin, jahrelang inhaftiert, u. a. in der Bastille. Der Biber, der sich ganz der Hingabe an Gott verschrieb \u2013 und Verfolgung mit stiller Standhaftigkeit ertrug.",
@@ -46109,6 +46115,7 @@ function elonMuskPortraitPage() {
         {route:"subtype/so7", label:"SO7 \u2013 Der Biber: Subtyp-Profil"},
         {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6) – Namensgeber seiner Firma Tesla"},
+        {route:"beruehmte-jules-verne", label:"Porträt: Jules Verne (SO7w6)"},
       ])}
     </div>
   `);
@@ -46167,6 +46174,66 @@ function nikolaTeslaPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
         {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6) – dessen Firma Tesla nach ihm benannt ist"},
+        {route:"beruehmte-jules-verne", label:"Porträt: Jules Verne (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function julesVernePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jules-verne-portrait.jpg" alt="Jules Verne" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jules Verne</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Schriftsteller, Visionär, 1828&ndash;1905 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der die Zukunft vorausschrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 &ndash; er baut nicht für sich selbst, sondern schafft Strukturen, die eine ganze Landschaft verändern, und ist nie wirklich fertig. Kaum ein Schriftsteller hat dieses rastlose Bauen so umfassend gelebt wie Jules Verne: In über vierzig Jahren schrieb er mehr als sechzig Romane und Erzählungen für seine Reihe "Voyages extraordinaires" &ndash; ein literarisches Universum, das die gesamte damals bekannte Welt und weit darüber hinaus umspannte, vom Erdmittelpunkt bis zum Mond.</p>
+          <p class="vb-intro">Verne wurde 1828 in Nantes geboren, als Sohn eines Anwalts. Als Junge versuchte er angeblich, sich heimlich als Schiffsjunge auf einem Segelschiff nach Indien einzuschmuggeln &ndash; sein Vater holte ihn im letzten Moment zurück. Dieser früh gebrochene Fluchtversuch aufs offene Meer verwandelte sich später in ein lebenslanges literarisches Bauprojekt: Wo der reale Aufbruch verwehrt blieb, wurde die Vorstellungskraft zum Schiff, das keine Grenze kannte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Wissen als Geschenk an die Menschheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> nennt Naranjo <em>Sacrifice</em>: Sie opfert die eigene, unmittelbare Freude für eine größere Idee &ndash; und findet gerade darin ihre tiefste Erfüllung. Verne verstand seine Romane nicht nur als Abenteuergeschichten, sondern als populärwissenschaftliche Bildungsreise: Jedes Buch war vollgepackt mit exaktem geografischem, astronomischem und technischem Wissen, das er sich in stundenlanger Recherche in Pariser Bibliotheken angeeignet hatte, oft bevor die beschriebene Technik überhaupt existierte.</p>
+          <p class="vb-intro">Er wurde Mitglied der Société de Géographie und pflegte einen umfangreichen Briefwechsel mit Wissenschaftlern, um seine Erfindungen &ndash; U-Boote, Raumfahrt, Unterwasserwelten &ndash; so plausibel wie möglich zu gestalten. Der Biber baut nicht, um zu beeindrucken, sondern weil er glaubt, dass die Welt dieses Wissen braucht: Kapitän Nemos "Nautilus" und die Mondrakete aus "Von der Erde zum Mond" waren für Verne keine bloßen Fantasien, sondern plausible Vorboten einer kommenden Wirklichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Loyalität unter Kontrolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> gibt der sozialen Sieben eine Qualität, die im Kontrast zu ihrer grenzenlosen Vision steht: Vorsicht, Loyalität gegenüber Autoritäten, das Bedürfnis nach einem sicheren Rahmen. Bevor sein Schreiben sich finanziell trug, arbeitete Verne jahrelang als Börsenmakler in Paris &ndash; ein ungewöhnlicher Brotberuf für einen Visionär, aber typisch für den Sechserflügel, der Sicherheit dem Risiko vorzieht, solange nicht klar ist, ob der große Sprung trägt.</p>
+          <p class="vb-intro">Noch deutlicher zeigt sich dieser Flügel in seiner jahrzehntelangen Beziehung zu seinem Verleger Pierre-Jules Hetzel, der Vernes Manuskripte massiv redigierte, Enden umschrieb und politisch heikle Inhalte strich. Vernes Roman "Paris im 20. Jahrhundert", der eine düstere technokratische Zukunft entwarf, wurde von Hetzel als zu pessimistisch abgelehnt und blieb bis 1994 unveröffentlicht &ndash; Verne fügte sich, ohne ernsthaft zu rebellieren. Diese Unterordnung unter eine bewährte, sicherheitsspendende Autorität, statt sie herauszufordern, ist reine Sechserenergie: Der Biber baut lieber innerhalb der Grenzen, die ihm gesetzt werden, als das schützende Ufer ganz zu verlassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Maßlosigkeit als Weltenbau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> oder <strong>Maßlosigkeit</strong>: der unstillbare Appetit auf immer neue Möglichkeiten. Bei Verne richtete sich das vollständig auf das Erschaffen neuer Welten: Von der Zentralafrika-Expedition über die Reise zum Mittelpunkt der Erde bis zur Weltumrundung in achtzig Tagen &ndash; kein geografischer oder technischer Rahmen war ihm zu groß, um ihn literarisch zu erobern.</p>
+          <p class="vb-intro">Gleichzeitig lebte er diese Maßlosigkeit auch praktisch aus: Er besaß nacheinander drei eigene Segelyachten, alle "Saint-Michel" genannt, mit denen er durch Europa und ans Mittelmeer segelte &ndash; eine private Fortsetzung der literarischen Reisen, die er seinen Lesern schenkte. Der Biber baut und baut, ohne innezuhalten. Doch die vorsichtige Sechser-Note zeigt sich auch hier: Seine Reisen blieben kalkulierbare, geplante Unternehmungen, keine spontanen Wagnisse ohne Rückversicherung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: eine Welt, die er vorwegnahm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1886 wurde Verne von seinem geistig verwirrten Neffen Gaston durch zwei Pistolenschüsse verletzt und blieb für den Rest seines Lebens hinkend. Er zog sich zunehmend nach Amiens zurück, wo er als Stadtrat wirkte, und seine späteren Werke wurden spürbar düsterer und skeptischer gegenüber dem technischen Fortschritt, den er einst so blauäugig gefeiert hatte &ndash; die Sechser-Angst vor den Schattenseiten des eigenen Bauwerks holte den alternden Biber ein.</p>
+          <p class="vb-intro">Was Jules Verne der Welt gegeben hat, ist ein literarisches Werk, das erstaunlich viele spätere Erfindungen vorwegnahm: U-Boote, Weltraumraketen, Videotelefonie, elektrische Unterwasserbeleuchtung. Er starb 1905 in Amiens, weitgehend als Nationalheld gefeiert. Das ist das Geschenk der SO7w6: eine Energie, die Zukunft entwirft, ohne die Vorsicht zu verlieren &ndash; ein Damm, gebaut nicht aus blindem Übermut, sondern aus akribisch recherchierter Vision.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
       ])}
     </div>
   `);
@@ -86867,6 +86934,7 @@ function render() {
       "beruehmte-drew-barrymore": drewBarrymorePortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
+      "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
           "beruehmte-indra-nooyi": indraNooyiPortraitPage,

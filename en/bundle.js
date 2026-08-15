@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=39";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=40";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=9";
@@ -667,6 +667,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nikola Tesla – Social Type 7",
     teaser:"SO7w6 · 1856–1943. Inventor, engineer. Alternating current, Wardenclyffe Tower, War of the Currents with Edison. The beaver that electrified the world and died alone in a hotel room. Animal correspondence: Beaver.",
     tags:["Wissenschaft","Geschichte"] },
+  { route:"beruehmte-jules-verne", name:"Jules Verne", added:"2026-08-15", subtyp:"SO7w6",
+    heading:"Jules Verne – Social Type 7",
+    teaser:"SO7w6 · 1828–1905. Writer, visionary. Voyages extraordinaires, 20,000 Leagues Under the Sea, From the Earth to the Moon. The beaver that wrote the future in advance, bound to a controlling publisher. Animal correspondence: Beaver.",
+    tags:["Literature","Wissenschaft"] },
   { route:"beruehmte-jeanne-marie-guyon", name:"Jeanne-Marie Bouvier de la Motte Guyon", added:"2026-08-03", subtyp:"SO7w6",
     heading:"Madame Guyon – Social Type 7",
     teaser:"SO7w6 · born 1648, died 1717. Mystic, the leading exponent of Quietism. Persecuted as a heretic, imprisoned for years, including in the Bastille. The beaver that devoted itself entirely to surrender to God – and endured persecution with quiet steadfastness.",
@@ -26605,6 +26609,7 @@ function elonMuskPortraitPage() {
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6) – namesake of his company Tesla"},
+        {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
       ])}
     </div>
   `);
@@ -26663,6 +26668,66 @@ function nikolaTeslaPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6) – whose company Tesla is named after him"},
+        {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function julesVernePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jules-verne-portrait.jpg" alt="Jules Verne" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jules Verne</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Writer, visionary, 1828&ndash;1905 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver Who Wrote the Future in Advance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Beaver</strong> is the animal of the Social Type 7 &ndash; it does not build for itself, but creates structures that transform an entire landscape, and is never truly finished. Few writers lived this restless building as thoroughly as Jules Verne: over more than forty years he wrote more than sixty novels and stories for his series "Voyages extraordinaires" &ndash; a literary universe spanning the entire known world of his time and far beyond, from the center of the earth to the moon.</p>
+          <p class="vb-intro">Verne was born in 1828 in Nantes, the son of a lawyer. As a boy, he reportedly tried to smuggle himself aboard a sailing ship bound for India as a cabin boy &ndash; his father retrieved him at the last moment. This early, thwarted attempt to escape to the open sea later transformed into a lifelong literary building project: where real departure was denied him, imagination became the ship that knew no boundary.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Seven: Knowledge as a Gift to Humanity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called <strong>Social Seven (SO7)</strong> <em>Sacrifice</em>: it sacrifices its own immediate joy for a larger idea &ndash; and finds its deepest fulfillment precisely there. Verne understood his novels not merely as adventure stories but as journeys of popular scientific education: every book was packed with exact geographic, astronomical, and technical knowledge that he acquired through hours of research in Parisian libraries, often before the technology he described even existed.</p>
+          <p class="vb-intro">He became a member of the Société de Géographie and maintained an extensive correspondence with scientists to make his inventions &ndash; submarines, space travel, undersea worlds &ndash; as plausible as possible. The Beaver does not build to impress but because it believes the world needs this knowledge: Captain Nemo's "Nautilus" and the moon rocket in "From the Earth to the Moon" were, for Verne, not mere fantasies but plausible harbingers of a coming reality.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Loyalty Under Control</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the Social Seven a quality that stands in contrast to its boundless vision: caution, loyalty to authority, the need for a secure framework. Before his writing supported him financially, Verne worked for years as a stockbroker in Paris &ndash; an unusual day job for a visionary, but typical of the Six-wing, which prefers security to risk until it is clear the great leap will hold.</p>
+          <p class="vb-intro">This wing shows even more clearly in his decades-long relationship with his publisher Pierre-Jules Hetzel, who heavily edited Verne's manuscripts, rewrote endings, and cut politically sensitive content. Verne's novel "Paris in the Twentieth Century," which depicted a bleak technocratic future, was rejected by Hetzel as too pessimistic and remained unpublished until 1994 &ndash; Verne complied without any serious rebellion. This submission to a proven, security-providing authority, rather than challenging it, is pure Six energy: the Beaver would rather build within the boundaries set for it than leave the protective shore entirely.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Excess as World-Building</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Seven is called <strong>gluttony</strong> or <strong>excess</strong>: the insatiable appetite for ever new possibilities. In Verne this was directed entirely at creating new worlds: from an expedition across central Africa to a journey to the center of the earth to a trip around the world in eighty days &ndash; no geographic or technical frame was too large for him to conquer in fiction.</p>
+          <p class="vb-intro">At the same time, he lived this excess practically as well: he owned three sailing yachts in succession, all named "Saint-Michel," on which he sailed across Europe and the Mediterranean &ndash; a private continuation of the literary journeys he gave his readers. The Beaver builds and builds without pausing. Yet the cautious Six note shows here too: his voyages remained calculable, planned undertakings, not spontaneous risks without a safety net.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Gift: A World He Anticipated</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1886, Verne was shot and wounded by his mentally disturbed nephew Gaston and remained lame for the rest of his life. He withdrew increasingly to Amiens, where he served on the city council, and his later works grew noticeably darker and more skeptical of the technological progress he had once celebrated so naively &ndash; the Six's fear of the shadow side of his own creation caught up with the aging Beaver.</p>
+          <p class="vb-intro">What Jules Verne gave the world is a body of work that astonishingly anticipated many later inventions: submarines, space rockets, video telephony, electric underwater lighting. He died in 1905 in Amiens, celebrated largely as a national hero. That is the gift of SO7w6: an energy that designs the future without losing caution &ndash; a dam built not from blind daring, but from meticulously researched vision.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
       ])}
     </div>
   `);
@@ -52526,6 +52591,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-drew-barrymore": drewBarrymorePortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
+      "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
       "beruehmte-toni-morrison": toniMorrisonPortraitPage,
