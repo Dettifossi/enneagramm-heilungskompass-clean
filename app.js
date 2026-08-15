@@ -31421,6 +31421,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jesus Christus \u2013 Sozialer Typ 2",
     teaser:"SO2w1 \u00b7 ca. 4 v. Chr.\u201330/33 n. Chr. Wanderprediger, Religionsstifter. Bedingungslose Liebe als Gebot f\u00fcr alle, unerbittlicher Anspruch an das eigene Selbstopfer \u2013 der Golden Retriever, dessen Hingabe zum Fundament einer Weltreligion wurde. Tierentsprechung: Golden Retriever.",
     tags:["Religion","Geschichte"] , gender:"m"},
+  { route:"beruehmte-mutter-meera", name:"Mutter Meera", added:"2026-08-15", subtyp:"SO2w1",
+    heading:"Mutter Meera – Sozialer Typ 2",
+    teaser:"SO2w1 · 1960–2023. Spirituelle Lehrerin aus Indien, jahrzehntelang wortlose Darshan-Audienzen in Thalheim, Deutschland. Fürsorge als universaler Auftrag, stille Disziplin statt lautes Predigen. Tierentsprechung: Golden Retriever.",
+    tags:["Religion"], gender:"f"},
   { route:"beruehmte-sucharit-bhakdi", name:"Prof. Dr. Sucharit Bhakdi", added:"2026-07-20", subtyp:"SO2w1",
     heading:"Prof. Dr. Sucharit Bhakdi \u2013 Sozialer Typ 2",
     teaser:"SO2w1 \u00b7 geb. 1946. Mikrobiologe, Hochschullehrer, Wissenschaftler und unerm\u00fcdlicher Mahner. Der Golden Retriever, der Alarm schl\u00e4gt \u2013 weil er die Gesellschaft liebt. Tierentsprechung: Golden Retriever.",
@@ -54893,6 +54897,7 @@ function jesusChristusPortraitPage() {
         {route:"subtype/so2", label:"SO2 \u2013 Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-sucharit-bhakdi", label:"Portr\u00e4t: Prof. Dr. Sucharit Bhakdi (SO2w1)"},
         {route:"beruehmte-barack-obama", label:"Portr\u00e4t: Barack Obama (SO2w1)"},
+        {route:"beruehmte-mutter-meera", label:"Portr\u00e4t: Mutter Meera (SO2w1)"},
       ])}
     </div>
   `);
@@ -55703,6 +55708,70 @@ function johannSebastianBachPortraitPage() {
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3) – studierte seine Fugenkunst"},
         {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-udo-lindenberg", label:"Porträt: Udo Lindenberg (SX1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function mutterMeeraPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mutter-meera-portrait.jpg" alt="Golden Retriever" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mutter Meera</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Sozialer Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Spirituelle Lehrerin, 1960&ndash;2023 &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, dessen ganzes Wesen darauf ausgerichtet ist, sich um viele zugleich zu kümmern, ohne Berechnung, ohne Auswahl, aus einem inneren Bedürfnis heraus, gebraucht zu werden und bedingungslos zu geben. Kein Zufallstier für eine Frau, die über Jahrzehnte täglich hunderte fremde Menschen empfing, jedem Einzelnen wortlos in die Augen sah und ihm für Sekunden ihre volle, ungeteilte Zuwendung schenkte.</p>
+          <p class="vb-intro">Mutter Meera, geboren 1960 als Kamala Reddy im südindischen Andhra Pradesh, wurde von ihren Anhängern als spirituelle Meisterin und Verkörperung des Göttlich-Weiblichen verehrt. Ab den 1980er Jahren lebte sie überwiegend in Deutschland, zunächst in Thalheim bei Balduinstein, wo sie über Jahrzehnte regelmäßig sogenannte Darshans gab &ndash; stille Audienzen, bei denen Besucher aus aller Welt nacheinander vor ihr knieten, um ihren Blick zu empfangen. Der Golden Retriever, dessen Zuwendung sich nicht auf eine einzelne Beziehung beschränkt, sondern jedem gilt, der zu ihm kommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Fürsorge als universaler Auftrag</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> sucht Zugehörigkeit nicht über die eine besondere Beziehung, sondern über die Rolle innerhalb einer größeren Gemeinschaft &ndash; über das Gebrauchtwerden für viele zugleich. Naranjo beschreibt diesen Subtyp als denjenigen mit dem stärksten missionarischen Zug aller Zweier-Subtypen: Er will nicht nur einzelnen Menschen nahe sein, er will einer ganzen Gruppe, einer Bewegung, einer Sache dienen.</p>
+          <p class="vb-intro">Mutter Meeras gesamtes öffentliches Wirken folgte dieser Logik. Sie empfing über Jahrzehnte hinweg Woche für Woche hunderte Besucher aus aller Welt zum Darshan &ndash; nicht als exklusive Zuwendung an wenige Auserwählte, sondern als offenes Angebot an jeden, der kam. Kein Eintrittsgeld, keine formale Mitgliedschaft, keine Vorbedingung. Die soziale Zwei erkennt ihre Aufgabe darin, möglichst vielen Menschen dieselbe bedingungslose Zuwendung zukommen zu lassen, die andere nur wenigen Nahestehenden schenken würden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Stille Disziplin statt lautes Predigen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Zwei eine innere Disziplin und Reinheit, die sich von der impulsiveren, geselligeren Zwei mit Dreierflügel deutlich unterscheidet. Statt sich durch Charisma und Ausstrahlung in den Vordergrund zu spielen, wirkt die SO2w1 durch Zurückhaltung, Konsequenz und ein fast asketisches Festhalten an der eigenen Form des Dienens.</p>
+          <p class="vb-intro">Mutter Meera sprach in ihren Darshans kein einziges Wort. Über Jahrzehnte hinweg wiederholte sich dasselbe stille Ritual, unverändert, ohne Showeffekte, ohne Ansprache, ohne Predigt. Diese Beharrlichkeit in der immer gleichen, reduzierten Form ist der Einserflügel: Nicht die Vielfalt der Mittel zählt, sondern die Reinheit und Konsequenz der einen gewählten Praxis. Auch ihre wenigen Bücher, allen voran „Antworten", sind nüchtern, klar, ohne rhetorischen Schmuck &ndash; die Eins verlangt Genauigkeit auch von der eigenen Botschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Der Blick als Gabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Zentrum von Mutter Meeras Wirken war der Darshan selbst: Besucher knieten nacheinander vor ihr, sie legte kurz die Hände auf ihren Kopf und blickte ihnen für einige Sekunden direkt in die Augen. Anhänger beschrieben diesen Moment als tief berührend, manche als transformierend. Ob man diese Erfahrung religiös deutet oder nicht &ndash; die schiere Konstanz und Hingabe, mit der sie diese Praxis über Jahrzehnte für hunderttausende Menschen aufrechterhielt, ist ein außergewöhnliches Beispiel gelebter SO2w1-Energie.</p>
+          <p class="vb-intro">Nach Jahren in Deutschland verlegte sie ihren Wohnsitz später zurück nach Indien, wo sie bis zu ihrem Tod 2023 weiterhin Besucher empfing, wenn auch in reduzierterem Umfang. Ihre Bücher und die von Anhängern weltweit gegründeten Zentren tragen ihr Wirken bis heute fort.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w1 ist eine seltene Verbindung aus universaler Güte und diszipliniertem Dienst: Zuwendung, die sich nicht auf wenige Bevorzugte beschränkt, sondern konsequent allen offensteht, die kommen. Mutter Meeras jahrzehntelange, unveränderte Praxis zeigt eine Beständigkeit, die selten ist &ndash; keine Skandale, kein Ausnutzen der eigenen Position, keine öffentliche Selbstinszenierung über das notwendige Maß hinaus.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die tiefe Überzeugung, für andere unentbehrlich zu sein, ihnen etwas geben zu können, das sie selbst nicht haben. Bei spirituellen Lehrerfiguren wie Mutter Meera trägt dieses Muster ein besonderes Risiko: Die Rolle der Verkörperung des Göttlichen kann die Grenze zwischen eigener Person und übertragener Projektion der Anhänger verwischen. Der Einserflügel mildert diese Gefahr durch Zurückhaltung und Formstrenge, ganz aufgelöst wird sie dadurch aber nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Geben zum Sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt vom Geben zum Empfangen &ndash; von der Frage <em>Werde ich gebraucht?</em> zur Erkenntnis <em>Ich bin bereits wertvoll, auch ohne etwas zu geben.</em> Für die SO2w1 zeigt sich dieser Weg in der Fähigkeit, den eigenen Dienst nicht als ständige Bewährung zu leben, sondern als freie, aus innerer Fülle geschenkte Gabe.</p>
+          <p class="vb-intro">Mutter Meeras wortloser Darshan lässt sich als genau dieser Ausdruck lesen: keine Rede, kein Argument, kein Versuch zu überzeugen &ndash; nur die stille Anwesenheit, die dem Gegenüber Raum gibt, sich selbst zu begegnen. Der Golden Retriever, der nicht bellt, um Aufmerksamkeit zu fordern, sondern einfach da ist, treu, beständig, für jeden, der kommt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-jesus-christus", label:"Porträt: Jesus Christus (SO2w1)"},
       ])}
     </div>
   `);
@@ -86180,6 +86249,7 @@ function render() {
       "beruehmte-jesus-christus": jesusChristusPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
+      "beruehmte-mutter-meera": mutterMeeraPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-klaus-kinski": klausKinskiPortraitPage,
       "beruehmte-udo-lindenberg": udoLindenbergPortraitPage,
