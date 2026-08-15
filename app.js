@@ -58279,6 +58279,7 @@ function enneagrammAstrologiePage() {
         {route:"beruehmte-persoenlichkeiten", label:"Ber\u00fchmte Pers\u00f6nlichkeiten \u2013 Portr\u00e4ts"},
         {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
         {route:"psychogramme", label:"Psychogramme"},
+        {route:"planetenzuordnungen", label:"Schaubild: Planeten & Trabanten des Sonnensystems"},
       ])}
     </div>
   `);
