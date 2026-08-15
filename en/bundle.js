@@ -315,6 +315,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nina Chuba – Social Type 2",
     teaser:"SO2w3 · born 2000. Singer, songwriter. With Wildberry Lillet she captured a feeling millions recognize. Closeness instead of performance – music as a space where no one is alone. Animal correspondence: Golden Retriever.",
     tags:["Musik"] },
+  { route:"beruehmte-zoe-saldana", name:"Zoe Saldaña", added:"2026-08-15", subtyp:"SO2w3",
+    heading:"Zoe Saldaña – Social Type 2",
+    teaser:"SO2w3 · born 1978 in Passaic, New Jersey. Actress and producer, Avatar, Marvel, Star Trek. Belonging as a life principle, presence that has to carry – central figure in three billion-dollar franchises at once. Animal correspondence: Golden Retriever.",
+    tags:["Schauspiel"], gender:"f"},
   { route:"beruehmte-kamala-harris", name:"Kamala Harris", added:"2026-07-30", subtyp:"SO2w3",
     heading:"Kamala Harris – Social Type 2",
     teaser:"SO2w3 · born 1964. Politician, former US Vice President. Prosecutor, Senator, Vice President – service as political calling, several historic firsts. Animal correspondence: Golden Retriever.",
@@ -23637,6 +23641,7 @@ function willSmithPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-sucharit-bhakdi", label:"Portrait: Prof. Dr. Sucharit Bhakdi (SO2w1)"},
         {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+        {route:"beruehmte-zoe-saldana", label:"Portrait: Zoe Saldaña (SO2w3)"},
       ])}
     </div>
   `);
@@ -30431,11 +30436,71 @@ function ninaChubaPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+        {route:"beruehmte-zoe-saldana", label:"Portrait: Zoe Saldaña (SO2w3)"},
       ])}
     </div>
   `);
 }
 
+
+function zoeSaldanaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-zoe-saldana-portrait.jpg" alt="Golden Retriever" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Zoe Saldaña</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Actress &amp; producer, born 1978 in Passaic, New Jersey &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that does not limit its warmth to one person, but extends it to everyone in the pack. It seeks community rather than exclusive attachment, and feels most at ease when it can be part of something larger that it serves.</p>
+          <p class="vb-intro">Zoe Saldaña is the only actress to hold lead roles in several of the highest-grossing film franchises in cinema history &ndash; as Neytiri in <em>Avatar</em>, as Gamora in the Marvel films, as Uhura in the rebooted <em>Star Trek</em> series. In all three cases she is part of an ensemble larger than herself, and carries that ensemble along rather than standing apart from it. The Golden Retriever seeks the pack, not the solitary hunt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Belonging as a Life Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> seeks its worth not through the one special relationship, but through its role within a community &ndash; through being needed for something larger than itself. Naranjo describes this subtype as the one with the strongest need to feel it belongs to a group and is valuable to it.</p>
+          <p class="vb-intro">Saldaña grew up partly with her grandmother in the Dominican Republic and has repeatedly described family and community as the center of her life. In 2016 she co-founded, together with her sisters, the company BESE, a media platform for Latin American voices &ndash; a project explicitly aimed at giving visibility to an entire community, not just herself. This movement, using one's own success to make a larger group visible, is at the core of the SO2.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Presence That Has to Carry</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two an additional effectiveness: warmth alone is not enough, it must also visibly land, carry, function. It turns the need for belonging into professional presence.</p>
+          <p class="vb-intro">Saldaña's roles demand extreme physical and technical precision &ndash; months of movement training for the computer-animated characters in <em>Avatar</em>, elaborate prosthetic makeup as Gamora, exact choreography in action sequences. She delivers not just emotional presence but the technical reliability that billion-dollar franchise productions require. This is the Three-wing: belonging that also proves itself through performance, so that it truly counts within the machinery of a vast system.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Carrying Three Billion-Dollar Franchises</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Saldaña's filmography is statistically extraordinary: she ranks among the highest-grossing actresses in film history because she embodies central, recurring characters across several franchises simultaneously, rather than confining herself to a single successful role. Alongside Avatar, Marvel, and Star Trek, she has also emerged as a producer and received numerous awards, including the Academy Award for Best Supporting Actress, for her role in <em>Emilia Pérez</em> (2024).</p>
+          <p class="vb-intro">This breadth across several major communities and production worlds &ndash; science fiction, superhero cinema, musical drama &ndash; shows the SO2w3 ability to make herself useful and belonging within entirely different ensembles, without losing her own effectiveness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 is the ability to combine warmth and effectiveness &ndash; to commit to a community and actually make a difference, rather than merely showing good intentions. Saldaña's commitment to BESE and her public connection to her Dominican heritage show this mature form of SO2 energy.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the community through one's own care and achievement. In the SO2w3, this can show as constant pressure to visibly deliver in every ensemble, every production, without allowing oneself pauses. Moving between several simultaneously running billion-dollar franchises demands exactly this kind of tireless availability.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-nina-chuba", label:"Portrait: Nina Chuba (SO2w3)"},
+        {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
 
 function kamalaHarrisPortraitPage() {
   return shell(`
@@ -52209,6 +52274,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-barack-obama": barackObamaPortraitPage,
       "beruehmte-marisa-abela": marisaAbelaPortraitPage,
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
+      "beruehmte-zoe-saldana": zoeSaldanaPortraitPage,
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
       "beruehmte-milow": milowPortraitPage,
