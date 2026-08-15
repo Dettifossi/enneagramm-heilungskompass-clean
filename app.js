@@ -48209,7 +48209,7 @@ function leonardBernsteinPortraitPage() {
 
         <h2 class="vb-section">1. Der Schimpanse am Dirigentenpult</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben – verspielt, sozial hochintelligent, immer auf der Suche nach dem nächsten intensiven Moment, der die Gruppe in seinen Bann zieht. Kaum ein Dirigent hat diese ansteckende Begeisterung so körperlich verkörpert wie Leonard Bernstein: Er sprang am Pult, warf sich in die Musik hinein, riss das Orchester mit einer Ekstase mit sich, die man auf Aufnahmen bis heute förmlich spüren kann.</p>
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben – verspielt, sozial hochintelligent, immer auf der Suche nach dem nächsten intensiven Moment, der die Gruppe in seinen Bann zieht. Kaum ein Dirigent hat diese ansteckende Begeisterung so körperlich manifestiert wie Leonard Bernstein: Er sprang am Pult, warf sich in die Musik hinein, riss das Orchester mit einer Ekstase mit sich, die man auf Aufnahmen bis heute förmlich spüren kann.</p>
           <p class="vb-intro">Sein Durchbruch kam am 14. November 1943, praktisch über Nacht: Als der erkrankte Dirigent Bruno Walter kurzfristig ausfiel, sprang der 25-jährige, bis dahin unbekannte Assistenzdirigent Bernstein für ihn beim New York Philharmonic ein – ohne Probe, live landesweit im Radio übertragen. Der Auftritt wurde zur Sensation und machte ihn über Nacht bekannt. Der Schimpanse wartet nicht auf die perfekte Gelegenheit – er ergreift den Moment, sobald er sich zeigt.</p>
         </blockquote>
 
@@ -48239,7 +48239,7 @@ function leonardBernsteinPortraitPage() {
 
         <h2 class="vb-section">6. Der Schimpanse, der die Musik demokratisierte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Leonard Bernstein starb 1990 in New York an Herzversagen, wenige Wochen nach seinem letzten Konzert, das die Ärzte ihm aufgrund seiner fortgeschrittenen Lungenkrankheit dringend widerraten hatten – er dirigierte bis fast zum letzten Atemzug. Sein Werk umfasst bis heute eines der vielseitigsten Vermächtnisse der amerikanischen Musikgeschichte: einer der bedeutendsten Dirigenten des 20. Jahrhunderts, Schöpfer eines der langlebigsten Broadway-Musicals aller Zeiten und ein Pädagoge, der klassische Musik einem Massenpublikum öffnete, wie es vor ihm niemand geschafft hatte.</p>
+          <p class="vb-intro">Leonard Bernstein starb 1990 in New York an Herzversagen, wenige Wochen nach seinem letzten Konzert, von dem die Ärzte ihm aufgrund seiner fortgeschrittenen Lungenkrankheit dringend abgeraten hatten – er dirigierte bis fast zum letzten Atemzug. Sein Werk umfasst bis heute eines der vielseitigsten Vermächtnisse der amerikanischen Musikgeschichte: einer der bedeutendsten Dirigenten des 20. Jahrhunderts, Schöpfer eines der langlebigsten Broadway-Musicals aller Zeiten und ein Pädagoge, der klassische Musik einem Massenpublikum öffnete, wie es vor ihm niemand geschafft hatte.</p>
           <p class="vb-intro">Der Schimpanse mit Sechserflügel: eine Begeisterung, die niemals nachließ, verbunden mit der tiefen Sorge, wirklich alles gegeben zu haben – und die genau aus diesem Spannungsfeld ein Lebenswerk schuf, das weit über die eigene Unsicherheit hinausreicht.</p>
         </blockquote>
 
