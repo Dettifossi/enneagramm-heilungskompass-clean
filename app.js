@@ -24076,6 +24076,7 @@ const registerEntries = [
     { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bundeskanzlerin 2005\u20132021, Elefant" },
   { term: "David Hume",                    route: "beruehmte-david-hume",                  description: "Portrait: SE9w8 \u00b7 Selbsterhaltender Typ 9 \u00b7 Philosoph, radikaler Skeptizismus" },
   { term: "Baruch de Spinoza",             route: "beruehmte-spinoza",                     description: "Portrait: SE5w6 \u00b7 Selbsterhaltender Typ 5 \u00b7 Philosoph, Rationalist, 1632\u20131677" },
+  { term: "Hermann Hesse",                 route: "beruehmte-hermann-hesse",               description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Schriftsteller, Nobelpreisträger" },
   { term: "Adam Smith",                    route: "beruehmte-adam-smith",                  description: "Portrait: SO1w9 \u00b7 Sozialer Typ 1 \u00b7 Moralphilosoph, \u00d6konom, Freund David Humes" },
   { term: "Albert Einstein",               route: "beruehmte-albert-einstein",             description: "Portrait: SO5w4 \u00b7 Sozialer Typ 5 \u00b7 Physiker, Relativit\u00e4tstheorie" },
   { term: "Samuel Hahnemann",              route: "beruehmte-samuel-hahnemann",            description: "Portrait: SO1w9 \u00b7 Sozialer Typ 1 \u00b7 Deutscher Arzt, Begr\u00fcnder der Hom\u00f6opathie" },
@@ -24376,6 +24377,7 @@ const registerEntriesEN = [
   { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Federal Chancellor 2005\u20132021, Elephant" },
   { term: "David Hume", route: "beruehmte-david-hume", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Philosopher, radical skepticism" },
   { term: "Baruch de Spinoza", route: "beruehmte-spinoza", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 Philosopher, rationalist, 1632\u20131677" },
+  { term: "Hermann Hesse", route: "beruehmte-hermann-hesse", description: "Portrait: SE5w6 · Self-Preservation Type 5 · Writer, Nobel laureate" },
   { term: "Hans-Dietrich Genscher", route: "beruehmte-hans-dietrich-genscher", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Foreign Minister, German reunification" },
   { term: "Hans Zimmer", route: "beruehmte-hans-zimmer", description: "Portrait: SE7w8 \u00b7 Self-Preservation Type 7 \u00b7 Film composer, Inception" },
   { term: "Hazel Brugger", route: "beruehmte-hazel-brugger", description: "Portrait: SO7w8 \u00b7 Social Type 7 \u00b7 Comedian, Comedian" },
@@ -31765,6 +31767,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"René Descartes – Selbsterhaltender Typ 5",
     teaser:"SE5w6 · 1596–1650. Französischer Philosoph und Mathematiker, Begründer des Rationalismus. Cogito ergo sum, methodischer Zweifel, über zwanzig Umzüge in den Niederlanden. Die Eule mit Sechserflügel: radikale Vorsicht auf der Suche nach absoluter Gewissheit. Tierentsprechung: Eule.",
     tags:["Geschichte","Philosophie"], gender:"m"},
+  { route:"beruehmte-hermann-hesse", name:"Hermann Hesse", added:"2026-08-15", subtyp:"SE5w6",
+    heading:"Hermann Hesse – Selbsterhaltender Typ 5",
+    teaser:"SE5w6 · 1877–1962. Schriftsteller, Nobelpreisträger. Vierzig Jahre zurückgezogen in Montagnola – Siddhartha, Der Steppenwolf, Das Glasperlenspiel. Die Eule, die den Rückzug zur Kunstform machte. Tierentsprechung: Eule.",
+    tags:["Literatur"], gender:"m"},
   { route:"beruehmte-spinoza", name:"Baruch de Spinoza", added:"2026-08-10", subtyp:"SE5w6",
     heading:"Baruch de Spinoza \u2013 Selbsterhaltender Typ 5",
     teaser:"SE5w6 \xb7 1632\u20131677. Rationalistischer Philosoph, Verfasser der Ethica. Zur\u00fcckgezogen in Amsterdam und Den Haag lebend, schliff er Linsen zum Lebensunterhalt und dachte die radikalste Gottesvorstellung seiner Zeit zu Ende. Die Eule, die sich aus jeder Gemeinschaft zur\u00fcckzog, um klarer zu sehen.",
@@ -48749,6 +48755,7 @@ function spinozaPortraitPage() {
         {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8)"},
         {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4) \u2013 berief sich auf Spinozas Gottesbegriff"},
         {route:"beruehmte-rene-descartes", label:"Portr\u00e4t: Ren\u00e9 Descartes (SE5w6) \u2013 dessen Philosophie er in seinem einzigen zu Lebzeiten unter eigenem Namen ver\u00f6ffentlichten Werk kommentierte"},
+        {route:"beruehmte-hermann-hesse", label:"Porträt: Hermann Hesse (SE5w6)"},
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
       ])}
     </div>
@@ -48815,8 +48822,75 @@ function reneDescartesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
         {route:"beruehmte-spinoza", label:"Portr\u00e4t: Baruch de Spinoza (SE5w6) \u2013 kommentierte seine Philosophie in seinem einzigen zu Lebzeiten ver\u00f6ffentlichten Werk"},
+        {route:"beruehmte-hermann-hesse", label:"Porträt: Hermann Hesse (SE5w6)"},
         {route:"beruehmte-isaac-newton", label:"Portr\u00e4t: Isaac Newton (SO5w6)"},
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
+      ])}
+    </div>
+  `);
+}
+
+function hermannHessePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hermann-hesse-portrait.jpg" alt="Hermann Hesse" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hermann Hesse</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Schriftsteller, Nobelpreisträger, 1877&ndash;1962 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule im Tessiner Garten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des Typs 5 &ndash; ein Wesen, das sich zurückzieht, um klar zu sehen, das seinen Lebensraum eng hält und darin bis in die letzte Ecke vertraut ist. Kaum ein Schriftsteller hat diese Rückzugslogik so konsequent gelebt wie Hermann Hesse: 1919, mitten in der Nachkriegskrise, verließ er Deutschland und seine erste Familie und zog allein nach Montagnola im Tessin, in ein kleines Haus namens Casa Camuzzi. Dort lebte er die folgenden vierzig Jahre &ndash; zurückgezogen, mit Garten, Aquarellfarben und einem streng gehüteten Tagesablauf, den kaum jemand von außen durchbrechen durfte.</p>
+          <p class="vb-intro">Hermann Hesse wurde 1877 in Calw geboren, als Sohn eines Missionars in einem streng pietistischen Elternhaus, das ihm früh das Gefühl vermittelte, anders zu sein als von ihm erwartet. Mit fünfzehn brach er aus dem Klosterseminar Maulbronn aus, erlitt eine schwere Krise und wurde zeitweise in eine Nervenheilanstalt eingewiesen. Diese frühe Erfahrung, dass die Welt der Institutionen und Erwartungen nicht sein Ort war, prägte eine lebenslange Bewegung nach innen &ndash; weg von Gemeinschaften, hin zu einem selbst gebauten, genau kontrollierten inneren Raum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Fünf: Die Burg im Tessin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Fünf (SE5)</strong> nennt Naranjo <em>Burg</em>: Das eigene Territorium wird zur Festung, die den Zugriff der Welt so weit wie möglich beschränkt. Hesses Leben in Montagnola folgte genau diesem Muster. Er baute sich einen streng geregelten Tagesrhythmus aus Schreiben, Gärtnern und Malen, empfing Besucher nur nach vorheriger Absprache und zog sich, wenn die Kräfte nicht reichten, wochenlang völlig zurück. Zeitschriften, Manuskripte und Briefe stapelten sich in seinem Arbeitszimmer &ndash; ein Territorium, in dem jedes Ding seinen Platz hatte und das er niemandem überließ.</p>
+          <p class="vb-intro">Gleichzeitig unterhielt Hesse einen der umfangreichsten Briefwechsel der deutschen Literaturgeschichte &ndash; über 35.000 Briefe sind überliefert. Das ist die typische Lösung der SE5 für das Näheproblem: Kontakt findet statt, aber gefiltert, auf Distanz, in der eigenen Zeit und im eigenen Tempo. Der Brief erlaubt Verbindung, ohne die Burg öffnen zu müssen. Nach seinem Nervenzusammenbruch 1916 unterzog er sich zudem einer Psychoanalyse bei einem Schüler C. G. Jungs, Josef Bernhard Lang &ndash; auch das eine sehr fünferhafte Strategie: die eigene innere Unordnung nicht in Beziehungen, sondern in einem klar umrissenen, therapeutischen Rahmen zu untersuchen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Die wache Sorge um die Welt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der selbsterhaltenden Fünf eine wache, oft ängstliche Aufmerksamkeit für Bedrohungen &ndash; und ein waches Misstrauen gegenüber jeder Form von Massenbewegung. Als 1914 der Erste Weltkrieg ausbrach, äußerte sich Hesse in dem Essay "O Freunde, nicht diese Töne!" scharf gegen den grassierenden Kriegsjubel unter deutschen Intellektuellen &ndash; eine Position, die ihm in der Heimat den Ruf des Vaterlandsverräters einbrachte und ihn endgültig zum Außenseiter machte. Er zog sich daraufhin noch weiter zurück, half zwar praktisch bei der Betreuung deutscher Kriegsgefangener in der Schweiz, mied aber jede politische Vereinnahmung.</p>
+          <p class="vb-intro">Dieselbe wache Vorsicht zeigte sich in den 1930er-Jahren: Aus sicherer Schweizer Distanz beobachtete Hesse den Aufstieg des Nationalsozialismus mit wachsender Beunruhigung, unterstützte verfolgte und emigrierte Kollegen wie Thomas Mann und Peter Weiss mit Briefen, Rezensionen und Kontakten &ndash; blieb aber selbst im geschützten Rückzugsort. Der Sechserflügel sorgt sich um die Welt, ohne sich ihr auszusetzen: Wachsamkeit als Schutzhaltung, nicht als Aufruf zum Handeln. Als Verstärkungstyp der Fünf treibt die selbsterhaltende Fünf ihre Wissens- und Erkenntnissuche nicht gemäßigt, sondern intensiviert aus &ndash; bei Hesse äußerte sich das in einer lebenslangen, fast obsessiven Beschäftigung mit östlicher Philosophie, Psychoanalyse und der eigenen inneren Entwicklung, die er in immer neuen Anläufen literarisch verarbeitete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Der Einzelne zwischen zwei Welten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hesses zentrales literarisches Thema ist genau das Grunddilemma der SE5: der Konflikt zwischen dem Rückzug in die eigene innere Welt und der Sehnsucht, dennoch Teil von etwas Größerem zu sein. In "Siddhartha" (1922) sucht ein Einzelner abseits aller Lehrmeinungen und Gemeinschaften seinen eigenen Weg zur Erkenntnis. In "Der Steppenwolf" (1927) zerreißt sich ein Mann zwischen bürgerlicher Sehnsucht nach Zugehörigkeit und der Gewissheit, für die Gesellschaft nicht gemacht zu sein &ndash; ein Bild, in dem sich Generationen von Außenseitern wiedererkannten.</p>
+          <p class="vb-intro">"Das Glasperlenspiel" (1943), sein letztes großes Werk, verlegt diesen Konflikt in eine ferne Zukunft: eine Gelehrtenprovinz, völlig von der Welt abgeschottet, in der reines Wissen zum Selbstzweck wird &ndash; bis der Protagonist erkennt, dass auch diese vollkommene Burg der Wirklichkeit standhalten muss. 1946 erhielt Hesse für dieses Werk den Nobelpreis für Literatur, den er, seiner Rückzugslogik treu, nicht persönlich in Stockholm entgegennahm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w6 zeigt sich in der Klarheit und Redlichkeit von Hesses Selbstbeobachtung: Kaum ein Schriftsteller hat die innere Zerrissenheit des modernen Menschen so genau und ohne Beschönigung beschrieben. Seine Bücher wurden gerade deshalb zu Kultwerken ganzer Generationen &ndash; von der deutschen Jugendbewegung der 1920er bis zur amerikanischen Gegenkultur der 1960er &ndash;, weil sie dem Gefühl des Nicht-Dazugehörens eine Sprache gaben, ohne es zu verklären.</p>
+          <p class="vb-intro">Der Schatten liegt im Preis dieses Rückzugs: Hesses erste Ehe mit Maria Bernoulli zerbrach unter anderem an seiner Unfähigkeit, dauerhafte Nähe auszuhalten; seine Beziehung zu seinen drei Söhnen blieb zeitlebens distanziert. Migräneanfälle, Augenleiden und wiederkehrende depressive Krisen begleiteten ihn durch sein ganzes Leben &ndash; die Burg schützte ihn vor der Welt, aber sie konnte die eigene innere Unruhe nicht auflösen, sondern nur einen Rahmen geben, in dem er sie literarisch bearbeiten konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Eule, die bis zuletzt im Garten blieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch im Alter änderte Hesse sein Leben kaum: Er blieb in Montagnola, pflegte seinen Garten, malte Aquarelle der Tessiner Landschaft und schrieb weiterhin Briefe an Leser aus aller Welt, die in seinen Büchern etwas von sich selbst wiedererkannt hatten. Am 9. August 1962 starb er dort im Schlaf, im Alter von 85 Jahren &ndash; an dem Ort, den er sich selbst als sicheren Rückzugsraum gebaut hatte, und den er, anders als Descartes am Ende seines Lebens, nie mehr verließ.</p>
+          <p class="vb-intro">Was blieb, ist ein Werk, das Millionen Menschen begleitet hat, die sich selbst als Außenseiter empfanden &ndash; und das zeigt, dass aus dem radikalen Rückzug der Eule nicht nur Isolation, sondern auch eine Sprache für das entstehen kann, was Gemeinschaft allein nicht auszudrücken vermag: der Weg des Einzelnen zu sich selbst.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-rene-descartes", label:"Porträt: René Descartes (SE5w6)"},
+        {route:"beruehmte-spinoza", label:"Porträt: Baruch de Spinoza (SE5w6)"},
+        {route:"beruhmte-philosophen", label:"Schaubild: Berühmte Philosophen im Enneagramm"},
       ])}
     </div>
   `);
@@ -86607,6 +86681,7 @@ function render() {
     "beruehmte-thomas-von-aquin": thomasVonAquinPortraitPage,
     "beruehmte-spinoza": spinozaPortraitPage,
     "beruehmte-rene-descartes": reneDescartesPortraitPage,
+    "beruehmte-hermann-hesse": hermannHessePortraitPage,
     "beruehmte-adam-smith": adamSmithPortraitPage,
     "beruehmte-xanthippe": xanthippePortraitPage,
     "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
