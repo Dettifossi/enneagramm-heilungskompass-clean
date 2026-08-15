@@ -31421,6 +31421,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jesus Christus \u2013 Sozialer Typ 2",
     teaser:"SO2w1 \u00b7 ca. 4 v. Chr.\u201330/33 n. Chr. Wanderprediger, Religionsstifter. Bedingungslose Liebe als Gebot f\u00fcr alle, unerbittlicher Anspruch an das eigene Selbstopfer \u2013 der Golden Retriever, dessen Hingabe zum Fundament einer Weltreligion wurde. Tierentsprechung: Golden Retriever.",
     tags:["Religion","Geschichte"] , gender:"m"},
+  { route:"beruehmte-frida-kahlo", name:"Frida Kahlo", added:"2026-08-15", subtyp:"SE2w3",
+    heading:"Frida Kahlo – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · 1907–1954. Mexikanische Malerin, rund 200 Gemälde, 55 Selbstporträts. Der eigene Körper als erstes Terrain der Fürsorge, Schmerz, der zum unverwechselbaren Bild wird. Tierentsprechung: Flusspferd.",
+    tags:["Kunst"], gender:"f"},
   { route:"beruehmte-mutter-meera", name:"Mutter Meera", added:"2026-08-15", subtyp:"SO2w1",
     heading:"Mutter Meera – Sozialer Typ 2",
     teaser:"SO2w1 · 1960–2023. Spirituelle Lehrerin aus Indien, jahrzehntelang wortlose Darshan-Audienzen in Thalheim, Deutschland. Fürsorge als universaler Auftrag, stille Disziplin statt lautes Predigen. Tierentsprechung: Golden Retriever.",
@@ -54285,6 +54289,7 @@ function yayoiKusamaPortraitPage() {
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-ai-weiwei", label:"Porträt: Ai Weiwei (SE2w3)"},
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3)"},
+        {route:"beruehmte-frida-kahlo", label:"Porträt: Frida Kahlo (SE2w3)"},
       ])}
     </div>
   `);
@@ -55708,6 +55713,70 @@ function johannSebastianBachPortraitPage() {
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3) – studierte seine Fugenkunst"},
         {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-udo-lindenberg", label:"Porträt: Udo Lindenberg (SX1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function fridaKahloPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-frida-kahlo-portrait.jpg" alt="Flusspferd" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Frida Kahlo</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Malerin, 1907&ndash;1954 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, dessen Haut ohne den ständigen Kontakt mit Wasser binnen Stunden aufreißen würde. Es sondert sogar eine eigene, rötliche Flüssigkeit ab, die seine Haut schützt und heilt, wenn es das Wasser kurz verlassen muss. Sein Element ist keine Vorliebe. Es ist die Bedingung, unter der sein Körper überhaupt bestehen kann.</p>
+          <p class="vb-intro">Frida Kahlo lebte diese Bedingung am eigenen Leib: Mit sechs Jahren erkrankte sie an Polio, mit achtzehn erlitt sie einen Busunfall, der ihre Wirbelsäule, ihr Becken und ihr rechtes Bein zertrümmerte &ndash; über dreißig Operationen und lebenslange Schmerzen waren die Folge. Malen wurde für sie das, was Wasser für das Flusspferd ist: keine künstlerische Wahl unter mehreren, sondern die einzige Bedingung, unter der ihr Körper und ihre Existenz überhaupt weiterbestehen konnten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Der eigene Körper als erstes Terrain der Fürsorge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet die Energie der Zwei zuerst auf das eigene Überleben, bevor sie sich nach außen wenden kann. Naranjo nannte diesen Subtyp <em>Me First</em> &ndash; nicht aus Egoismus, sondern weil die SE2 sich selbst zuerst versorgen muss, um überhaupt für andere da sein zu können. Bei Kahlo war dieser Überlebenskampf keine Metapher: Monatelange Bettlägerigkeit nach dem Unfall, ein Korsett aus Gips, das sie am ganzen Körper einschnürte, eine Staffelei über ihrem Bett und ein an der Decke montierter Spiegel &ndash; ihr erstes Motiv wurde zwangsläufig sie selbst.</p>
+          <p class="vb-intro">Aus dieser erzwungenen Selbstversorgung entstand ein Lebenswerk: Von rund 200 Gemälden sind etwa 55 Selbstporträts &ndash; keine Eitelkeit, sondern die direkteste Form der SE2-Fürsorge, die sich zuerst an das eigene, verletzte Selbst richtet, bevor sie sich mitteilen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Das Leiden, das zum Bild wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei einen zusätzlichen Antrieb: den Willen, gesehen zu werden, das eigene Leiden nicht nur zu ertragen, sondern zu gestalten und zu zeigen. Wo die reine SE2 sich in stiller, unsichtbarer Selbstfürsorge erschöpfen könnte, verleiht der Dreierflügel die Fähigkeit, aus privatem Schmerz ein öffentliches, unverwechselbares Bild zu formen.</p>
+          <p class="vb-intro">Kahlos Selbstporträts sind nie larmoyant, sondern von einer fast theatralischen Präzision: die durchgehende Augenbraue, der Schmuck, die Trachten aus Tehuantepec, die offen gezeigten Operationsnarben und medizinischen Korsetts in Werken wie <em>Die zerbrochene Säule</em>. Sie inszenierte ihren Schmerz, statt ihn zu verstecken &ndash; eine Entscheidung, die sie zu einer der unverwechselbarsten Bildmarken der Kunstgeschichte machte, lange bevor der Begriff dafür existierte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Zwischen Diego, Politik und dem eigenen Schmerz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1929 heiratete Kahlo den bereits berühmten Muralisten Diego Rivera &ndash; eine Beziehung von tiefer gegenseitiger Bewunderung, wiederholten Affären auf beiden Seiten und großer wechselseitiger Abhängigkeit, die sie selbst als &bdquo;zweiten schweren Unfall&ldquo; ihres Lebens bezeichnete. Mehrere Fehlgeburten, bedingt durch die Unfallverletzungen, verarbeitete sie in schonungslos direkten Werken wie <em>Henry Ford Hospital</em>. Politisch engagierte sie sich zeitlebens für den Kommunismus, beherbergte zeitweise Leo Trotzki im gemeinsamen Haushalt.</p>
+          <p class="vb-intro">Zu Lebzeiten blieb sie weitgehend im Schatten Riveras; erst Jahrzehnte nach ihrem Tod 1954 wurde sie zu einer der einflussreichsten Künstlerinnen des 20. Jahrhunderts und zu einer weltweiten Ikone für Selbstbestimmung, Schmerz und unverstellte Identität.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus existenzieller Not ein Werk zu schaffen, das nicht nur der eigenen Verarbeitung dient, sondern Millionen anderer Menschen berührt. Kahlos radikale Ehrlichkeit über Körper, Schmerz und Weiblichkeit hat Generationen von Künstlerinnen und Betroffenen ermutigt, das eigene Leiden nicht zu verstecken.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, sich selbst und anderen unentbehrlich zu sein, auch unter größter Belastung. Kahlo malte weiter, hielt öffentliche Auftritte aufrecht &ndash; darunter ihre einzige Einzelausstellung in Mexiko 1953, zu der sie im Krankenbett liegend erschien &ndash; selbst als ihr Körper längst an seine Grenzen gestoßen war. Diese Weigerung, sich zurückzuziehen, ist zugleich Stärke und Selbstüberforderung: die SE2w3, die sich zeigt, gerade weil Rückzug für sie keine Option ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Überleben zur Gestaltung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt von der Frage <em>Wie überlebe ich das?</em> zur Erkenntnis <em>Ich darf zeigen, was ich durchlebt habe, und daraus etwas Eigenes machen.</em> Für die SE2w3 zeigt sich dieser Weg darin, dass die anfangs erzwungene Selbstbeobachtung im Krankenbett zu einer bewussten, souveränen künstlerischen Sprache wird.</p>
+          <p class="vb-intro">Kahlos letztes Tagebucheintrag, kurz vor ihrem Tod verfasst, lautete: &bdquo;Ich hoffe, der Abgang ist fröhlich &ndash; und ich hoffe, nie wiederzukommen.&ldquo; Kein Satz der Resignation, sondern einer, der Schmerz und Lebenswillen bis zuletzt in Balance hält. Das Flusspferd, das sein Wasser nie verlassen konnte &ndash; und das gerade darin lernte, in ihm zu leben, statt nur zu überleben.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3)"},
       ])}
     </div>
   `);
@@ -86249,6 +86318,7 @@ function render() {
       "beruehmte-jesus-christus": jesusChristusPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
+      "beruehmte-frida-kahlo": fridaKahloPortraitPage,
       "beruehmte-mutter-meera": mutterMeeraPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-klaus-kinski": klausKinskiPortraitPage,
