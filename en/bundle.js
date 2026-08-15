@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=34";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=35";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=9";
@@ -331,6 +331,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Milow – Sexual Type 2",
     teaser:"SX2w1 · born 1982. Singer, songwriter. Ayo Technology, Little in the Middle. Quiet, honest closeness instead of loud performance – the camel that carries its load with care. Animal correspondence: Camel.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-anastasiia-metelkina", name:"Anastasiia Metelkina", added:"2026-08-15", subtyp:"SX2w3",
+    heading:"Anastasiia Metelkina – Sexual Type 2",
+    teaser:"SX2w3 · b. 2005. Figure skater (pairs). Olympic silver 2026 for Georgia – the first Georgian medal in history. Carries her partner through every lift. Animal equivalent: Camel.",
+    tags:["Sport"] , gender:"f"},
   { route:"beruehmte-braco", name:"Braco", subtyp:"SX2w3",
     heading:"Braco – Sexual Type 2",
     teaser:"SX2w3 · born 1967. Healer, The Gazer. He does not speak, he does not touch – he looks. In silent group events worldwide, his gaze creates what many words cannot: the feeling of being truly seen. Animal correspondence: Camel.",
@@ -21379,6 +21383,7 @@ function elvisPresleyPortraitPage() {
         {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
         {route:"beruehmte-pamela-reif", label:"Portrait: Pamela Reif (SX2w3)"},
         {route:"beruehmte-braco", label:"Portrait: Braco (SX2w3)"},
+        {route:"beruehmte-anastasiia-metelkina", label:"Portrait: Anastasiia Metelkina (SX2w3)"},
       ])}
     </div>
   `);
@@ -21445,6 +21450,7 @@ function pamelaReifPortraitPage() {
         {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
         {route:"beruehmte-monika-gruber", label:"Portrait: Monika Gruber (SX2w1)"},
         {route:"beruehmte-matthias-schweighoefer", label:"Portrait: Matthias Schweighöfer (SX2w1)"},
+        {route:"beruehmte-anastasiia-metelkina", label:"Portrait: Anastasiia Metelkina (SX2w3)"},
       ])}
     </div>
   `);
@@ -31355,6 +31361,71 @@ function penelopeCruzPortraitPage() {
   `);
 }
 
+
+function anastasiiaMetelkinaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-anastasiia-metelkina-portrait.jpg" alt="Anastasiia Metelkina" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anastasiia Metelkina</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexual Type 2 with Three-Wing &middot; Herztyp</p>
+        <p class="krim-portrait-subtitle">Figure skater (pairs), b. 2005 – Olympic medalist for Georgia – Animal equivalent: Camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Camel on the Ice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>camel</strong> is the animal of the sexual Two – enduring, load-bearing, built for the long, demanding journey rather than the brief performance. In pair skating this image becomes literal: two bodies must carry each other, through lifts, death spirals and throw jumps, where a single break in trust means a fall. Anastasiia Metelkina, born on March 10, 2005 in Vladimir, Russia, has made exactly this capacity to carry into her life's work – not as a solo competitor, but as one half of a pair that can only succeed together.</p>
+          <p class="vb-intro">Her path was not a straight one. After earlier partnerships, including with Daniil Parkman, and a difficult transition at a Berlin training center in 2022, she found a new partner in spring 2023 in Georgian figure skater Luka Berulawa – and has competed internationally for Georgia ever since. The camel knows when the caravan changes course. It adapts to the new route without losing the load it carries.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SX2: Seduction as a Partnership on a Knife's Edge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the sexual Two <strong>seduction</strong> – the ability to create connection through intense, immediate presence that allows no distance. In pair skating this seductive power is no metaphor but a technical necessity: two people must trust each other blindly, in a fraction of a second. Anastasiia Metelkina's expressiveness on the ice – often praised in scores and commentary – is precisely this SX2 gift: the ability to make an arena full of spectators and judges feel they are witnessing a genuine, intimate encounter, not merely an athletic display.</p>
+          <p class="vb-intro">This quality of connection is not born in the spotlight but in countless hours of training beforehand – in the constant fine-tuning with a partner, in trust that only repetition can build. The SX2 invests itself completely in the one relationship that matters. For Metelkina that is the partnership with Berulawa – a bond that is athletically existential: if she falls, he falls with her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three Wing: Perfection as Proof of Love</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>three wing (w3)</strong> adds a second dimension to the SX2's longing for connection: performance, precision, measurable success. Metelkina's athletic record reads like a textbook of driven Three energy: two-time Junior World Champion (2024 and 2025), winner of the Junior Grand Prix Final, European Champion in 2026 in Sheffield after silver in 2024 and bronze in 2025, silver at the 2026 World Championships in Prague – and finally silver at the 2026 Winter Olympics in Milan-Cortina, the first Olympic medal in Georgian figure skating history.</p>
+          <p class="vb-intro">This ladder of achievement from junior to senior success within just a few years is no accident but the signature of the Three: it wants not only to feel, but to win, to visibly improve, to have a result to show. That Metelkina also pursues her studies alongside elite sport underscores this versatility – the Three organizes time and energy so that several goals can progress at once.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Overall Impact: Expressiveness That Carries</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anyone who watches Metelkina and Berulawa on the ice quickly understands why their programs stand out internationally: it is not just technical cleanliness but an emotional narrative carried through the choreography. Her interest in dance, which she names as one of her hobbies, flows directly into this expressiveness – movement becomes language, and the connection between the two skaters becomes the program's true message.</p>
+          <p class="vb-intro">The camel does not only carry itself but carries its load with visible dignity. Metelkina appears the same way in competition: focused, ambitious, but never overdone – a quiet intensity that reaches the audience just as it reaches the judges.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetic Impact: The Caravan That Moves On</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The move from Russia to Georgia, the change of training partners, the upheaval in Berlin in 2022 – Metelkina's career is marked by breaks that would have discouraged others. Yet this is exactly where the tenacity of the SX2w3 shows itself: the longing for genuine connection is strong enough to find a new partner, a new country, a new sense of belonging again and again, without losing her own identity.</p>
+          <p class="vb-intro">With Luka Berulawa and coaches Pawel Sljussarenko and Egor Zakroev, she found an environment where this energy could bear weight – and within a few years led from a fresh start to a historic Olympic medal. The camel does not collapse when the route changes. It finds the next oasis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: History for a Small Country</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Anastasiia Metelkina and Luka Berulawa have given Georgian sport is more than a medal – it is proof that origin and new beginnings are not mutually exclusive. As the first Georgian figure skaters ever to win an Olympic medal, they have opened a new chapter in winter sports for an entire country.</p>
+          <p class="vb-intro">The camel knows the desert and knows that the longest journey often leads somewhere entirely new. That is Anastasiia Metelkina: ambitious, enduring, connecting – the SX2w3 that carries what is entrusted to it, and in doing so makes history.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
+        {route:"beruehmte-pamela-reif", label:"Portrait: Pamela Reif (SX2w3)"},
+        {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SX2w3)"},
+      ])}
+    </div>
+  `);
+}
 
 function bracoPortraitPage() {
   return shell(`
@@ -52278,6 +52349,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
       "beruehmte-milow": milowPortraitPage,
+      "beruehmte-anastasiia-metelkina": anastasiiaMetelkinaPortraitPage,
       "beruehmte-braco": bracoPortraitPage,
       "beruehmte-sadhguru": sadhguruPortraitPage,
       "beruehmte-penelope-cruz": penelopeCruzPortraitPage,

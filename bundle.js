@@ -24030,6 +24030,7 @@ const registerEntries = [
   { term: "Bill Gates",                    route: "beruehmte-bill-gates",                  description: "Portrait: SO5w6 \u00b7 Sozialer Typ 5 \u00b7 Microsoft-Gr\u00fcnder, Philanthrop" },
   { term: "Boris Becker",                  route: "beruehmte-boris-becker",                description: "Portrait: SX7w8 \u00b7 Sexueller Typ 7 \u00b7 Tennislegende, 6 Grand-Slam-Titel" },
   { term: "Brigitte Bardot",               route: "beruehmte-brigitte-bardot",             description: "Portrait: SX3w2 \u00b7 Sexueller Typ 3 \u00b7 Filmikone, Tierrechtsaktivistin" },
+  { term: "Anastasiia Metelkina",           route: "beruehmte-anastasiia-metelkina",        description: "Portrait: SX2w3 · Sexueller Typ 2 · Eiskunstläuferin, olympische Medaillengewinnerin für Georgien" },
   { term: "Braco",                         route: "beruehmte-braco",                       description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 stiller Heiler aus Kroatien" },
     { term: "Jamaica Kincaid", route: "beruehmte-jamaica-kincaid", description: "Portrait: SO8w9 \u00b7 Sozialer Typ 8 \u00b7 Schriftstellerin, Annie John, A Small Place, Antigua, L\u00f6we" },
   { term: "Bud Spencer",                   route: "beruehmte-bud-spencer",                 description: "Portrait: SO8w9 \u00b7 Sozialer Typ 8 \u00b7 Schauspieler, Kult-Duett" },
@@ -24331,6 +24332,7 @@ const registerEntriesEN = [
   { term: "Bill Gates", route: "beruehmte-bill-gates", description: "Portrait: SO5w6 \u00b7 Social Type 5 \u00b7 Microsoft founder, Philanthropist" },
   { term: "Boris Becker", route: "beruehmte-boris-becker", description: "Portrait: SX7w8 \u00b7 Sexual Type 7 \u00b7 Tennis legend, 6 Grand Slam titles" },
   { term: "Brigitte Bardot", route: "beruehmte-brigitte-bardot", description: "Portrait: SX3w2 \u00b7 Sexual Type 3 \u00b7 Film icon, animal rights activist" },
+  { term: "Anastasiia Metelkina", route: "beruehmte-anastasiia-metelkina", description: "Portrait: SX2w3 · Sexual Type 2 · figure skater, Olympic medalist for Georgia" },
   { term: "Braco", route: "beruehmte-braco", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 silent healer from Croatia" },
   { term: "Jamaica Kincaid", route: "beruehmte-jamaica-kincaid", description: "Portrait: SO8w9 \u00b7 Social Type 8 \u00b7 Author, Annie John, A Small Place, Antigua, Lion" },
   { term: "Bud Spencer", route: "beruehmte-bud-spencer", description: "Portrait: SO8w9 \u00b7 Social Type 8 \u00b7 Actor, cult duo" },
@@ -31507,6 +31509,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Pamela Reif \u2013 Sexueller Typ 2",
     teaser:"SX2w3 \u00b7 geb. 1996. Fitness-Influencerin, Unternehmerin. Millionen Verbindungen durch einen Bildschirm \u2013 Verf\u00fchrung als Verbindungskunst, Perfektion als Liebesbeweis. Tierentsprechung: Kamel.",
     tags:["Sport","Lifestyle"] , gender:"f"},
+  { route:"beruehmte-anastasiia-metelkina", name:"Anastasiia Metelkina", added:"2026-08-15", subtyp:"SX2w3",
+    heading:"Anastasiia Metelkina – Sexueller Typ 2",
+    teaser:"SX2w3 · geb. 2005. Eiskunstläuferin (Paarlauf). Olympia-Silber 2026 für Georgien – erste georgische Medaille der Geschichte. Trägt ihren Partner durch jede Hebung. Tierentsprechung: Kamel.",
+    tags:["Sport"] , gender:"f"},
   { route:"beruehmte-braco", name:"Braco", subtyp:"SX2w3",
     heading:"Braco \u2013 Sexueller Typ 2",
     teaser:"SX2w3 \u00b7 geb. 1967. Heiler, The Gazer. Er spricht nicht, er ber\u00fchrt nicht \u2013 er schaut. In schweigsamen Gruppenveranstaltungen weltweit erzeugt sein Blick, was viele Worte nicht k\u00f6nnen: das Gef\u00fchl, gesehen zu werden. Tierentsprechung: Kamel.",
@@ -58415,6 +58421,7 @@ function pamelaReifPortraitPage() {
         {route:"subtype/sx2", label:"SX2 &ndash; Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-monika-gruber", label:"Portr\u00e4t: Monika Gruber (SX2w1)"},
         {route:"beruehmte-matthias-schweighoefer", label:"Portr\u00e4t: Matthias Schweigh\u00f6fer (SX2w1)"},
+        {route:"beruehmte-anastasiia-metelkina", label:"Portr\u00e4t: Anastasiia Metelkina (SX2w3)"},
       ])}
     </div>
   `);
@@ -58481,6 +58488,72 @@ function elvisPresleyPortraitPage() {
         {route:"subtype/sx2", label:"SX2 \u2013 Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-pamela-reif", label:"Portr\u00e4t: Pamela Reif (SX2w3)"},
         {route:"beruehmte-braco", label:"Portr\u00e4t: Braco (SX2w3)"},
+        {route:"beruehmte-anastasiia-metelkina", label:"Porträt: Anastasiia Metelkina (SX2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function anastasiiaMetelkinaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-anastasiia-metelkina-portrait.jpg" alt="Anastasiia Metelkina" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anastasiia Metelkina</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexueller Typ 2 mit Dreierflügel &middot; Herztyp</p>
+        <p class="krim-portrait-subtitle">Eiskunstläuferin (Paarlauf), geb. 2005 &ndash; olympische Medaillengewinnerin für Georgien &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel auf dem Eis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; ausdauernd, tragfähig, gebaut für die lange, entbehrungsreiche Strecke, nicht für den kurzen Auftritt. Im Paarlauf wird dieses Bild wörtlich: Zwei Körper müssen sich gegenseitig tragen, wörtlich und im übertragenen Sinn, durch Hebungen, Todesspiralen und Wurfsprünge, bei denen ein einziger Vertrauensbruch den Sturz bedeutet. Anastasiia Metelkina, geboren am 10. März 2005 in Wladimir, Russland, hat genau diese Tragfähigkeit zu ihrem Lebensinhalt gemacht &ndash; nicht als Einzelkämpferin, sondern als Teil eines Paares, das nur gemeinsam bestehen kann.</p>
+          <p class="vb-intro">Ihr Weg war kein gerader. Nach früheren Partnerschaften, unter anderem mit Daniil Parkman, und einem einschneidenden Umbruch im Berliner Trainingszentrum 2022 fand sie im Frühjahr 2023 mit dem georgischen Eiskunstläufer Luka Berulawa einen neuen Partner &ndash; und startet seither international für Georgien. Das Kamel kennt den Wechsel der Karawane. Es passt sich der neuen Route an, ohne die Last zu verlieren, die es trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SX2: Verführung als Partnerschaft auf Messers Schneide</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die sexuelle Zwei <strong>Verführung</strong> &ndash; die Fähigkeit, durch intensive, unmittelbare Präsenz eine Verbindung herzustellen, die keine Distanz zulässt. Im Paarlauf ist diese Verführungskraft keine Metapher, sondern technische Notwendigkeit: Zwei Menschen müssen sich blicklos, im Bruchteil einer Sekunde, aufeinander verlassen können. Anastasiia Metelkinas Ausdrucksstärke auf dem Eis &ndash; oft hervorgehoben in Wertungen und Kommentaren &ndash; ist genau diese SX2-Gabe: die Fähigkeit, eine Halle voller Zuschauer und Punktrichter das Gefühl geben zu lassen, einer echten, intimen Begegnung beizuwohnen, nicht nur einer sportlichen Vorführung.</p>
+          <p class="vb-intro">Diese Verbindungsqualität entsteht nicht im Rampenlicht, sondern in unzähligen Trainingsstunden davor &ndash; im ständigen Feinabstimmen mit dem Partner, im Vertrauen, das erst durch Wiederholung entsteht. Die SX2 investiert sich vollständig in die eine Beziehung, die zählt. Bei Metelkina ist das die Partnerschaft mit Berulawa &ndash; eine Bindung, die sportlich existenziell ist: Fällt sie, fällt er mit ihr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Perfektion als Liebesbeweis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> bringt der Verbindungssehnsucht der SX2 eine zweite Dimension: Leistung, Präzision, messbaren Erfolg. Metelkinas sportliche Bilanz liest sich wie ein Lehrbuch für zielstrebige Dreier-Energie: zweimalige Junioren-Weltmeisterin (2024 und 2025), Siegerin des Junior-Grand-Prix-Finales, Europameisterin 2026 in Sheffield nach Silber 2024 und Bronze 2025, Silber bei der Weltmeisterschaft 2026 in Prag &ndash; und schließlich Silber bei den Olympischen Winterspielen 2026 in Mailand-Cortina, die erste olympische Medaille der georgischen Eiskunstlauf-Geschichte überhaupt.</p>
+          <p class="vb-intro">Diese Stufenleiter aus Junioren- zu Seniorenerfolgen innerhalb weniger Jahre ist kein Zufall, sondern die Handschrift der Drei: Sie will nicht nur fühlen, sie will auch gewinnen, sichtbar besser werden, das Ergebnis vorweisen können. Dass Metelkina neben dem Leistungssport ein Studium verfolgt, unterstreicht diese Vielseitigkeit &ndash; die Drei organisiert Zeit und Energie so, dass mehrere Ziele gleichzeitig Fortschritt machen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Gesamtwirkung: Ausdruckskraft, die trägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wer Metelkina und Berulawa auf dem Eis sieht, erkennt schnell, warum ihre Küren international auffallen: Es ist nicht nur technische Sauberkeit, sondern eine emotionale Erzählung, die durch die Choreografie trägt. Ihr Interesse am Tanzen, das sie als eines ihrer Hobbys nennt, fließt direkt in diese Ausdrucksstärke ein &ndash; Bewegung wird zur Sprache, die Verbindung zwischen den beiden Läufern zur eigentlichen Botschaft der Kür.</p>
+          <p class="vb-intro">Das Kamel trägt nicht nur sich selbst, sondern seine Last mit sichtbarer Würde. Genauso wirkt Metelkina in Wettkämpfen: konzentriert, ehrgeizig, aber nie überzogen &ndash; eine ruhige Intensität, die das Publikum genauso erreicht wie die Punktrichter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Die Karawane, die weiterzieht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Wechsel von Russland nach Georgien, der Wechsel der Trainingspartner, der Umbruch in Berlin 2022 &ndash; Metelkinas Karriere ist von Brüchen geprägt, die andere entmutigt hätten. Doch genau hier zeigt sich die Zähigkeit der SX2w3: Die Sehnsucht nach echter Verbindung ist groß genug, um immer wieder einen neuen Partner, ein neues Land, eine neue Zugehörigkeit zu finden, ohne die eigene Identität zu verlieren.</p>
+          <p class="vb-intro">Mit Luka Berulawa und den Trainern Pawel Sljussarenko und Egor Zakroev hat sie ein Umfeld gefunden, in dem diese Energie tragfähig wurde &ndash; und innerhalb weniger Jahre vom Neuanfang zur historischen olympischen Medaille führte. Das Kamel bricht nicht zusammen, wenn sich die Route ändert. Es findet die nächste Oase.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Geschichte für ein kleines Land</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Anastasiia Metelkina und Luka Berulawa dem georgischen Sport gegeben haben, ist mehr als eine Medaille &ndash; es ist der Beweis, dass Herkunft und Neuanfang sich nicht ausschließen. Als erste georgische Eiskunstläufer überhaupt mit einer olympischen Medaille haben sie einem ganzen Land ein neues Kapitel im Wintersport eröffnet.</p>
+          <p class="vb-intro">Das Kamel kennt die Wüste und weiß, dass die längste Reise oft die ist, die zu etwas ganz Neuem führt. Das ist Anastasiia Metelkina: ehrgeizig, ausdauernd, verbindend &ndash; die SX2w3, die trägt, was ihr anvertraut wird, und damit Geschichte schreibt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-pamela-reif", label:"Porträt: Pamela Reif (SX2w3)"},
+        {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3)"},
       ])}
     </div>
   `);
@@ -86672,6 +86745,7 @@ function render() {
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
       "beruehmte-milow": milowPortraitPage,
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
+      "beruehmte-anastasiia-metelkina": anastasiiaMetelkinaPortraitPage,
       "beruehmte-braco": bracoPortraitPage,
       "beruehmte-wolodymyr-selenskyj": wolodymyrSelenskyjPortraitPage,
       "beruehmte-david-l-rathmer": davidLRathmerPortraitPage,
