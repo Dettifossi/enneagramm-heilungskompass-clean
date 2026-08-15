@@ -1028,6 +1028,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jesus Christ – Social Type 2",
     teaser:"SO2w1 · c. 4 BCE–30/33 CE. Itinerant preacher, founder of a world religion. Unconditional love as a commandment for all, an uncompromising demand for one's own self-sacrifice – the Golden Retriever whose devotion became the foundation of a world religion. Animal correspondence: Golden Retriever.",
     tags:["Religion","History"] , gender:"m"},
+  { route:"beruehmte-mutter-meera", name:"Mother Meera", added:"2026-08-15", subtyp:"SO2w1",
+    heading:"Mother Meera – Social Type 2",
+    teaser:"SO2w1 · 1960–2023. Spiritual teacher from India, decades of wordless darshan audiences in Thalheim, Germany. Care as a universal calling, quiet discipline rather than loud preaching. Animal correspondence: Golden Retriever.",
+    tags:["Religion"], gender:"f"},
   { route:"beruehmte-sucharit-bhakdi", name:"Prof. Dr. Sucharit Bhakdi", added:"2026-07-20", subtyp:"SO2w1",
     heading:"Prof. Dr. Sucharit Bhakdi – Social Type 2",
     teaser:"SO2w1 · born 1946. Microbiologist, university lecturer, scientist and tireless admonisher. The Golden Retriever who sounds the alarm – because he loves company. Animal correspondence: Golden Retriever.",
@@ -20253,6 +20257,7 @@ function jesusChristusPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-sucharit-bhakdi", label:"Portrait: Prof. Dr. Sucharit Bhakdi (SO2w1)"},
         {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+        {route:"beruehmte-mutter-meera", label:"Portrait: Mother Meera (SO2w1)"},
       ])}
     </div>
   `);
@@ -22021,6 +22026,70 @@ function johannSebastianBachPortraitPage() {
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) – who studied his fugal art"},
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-udo-lindenberg", label:"Portrait: Udo Lindenberg (SX1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function mutterMeeraPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-mutter-meera-portrait.jpg" alt="Golden Retriever" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mother Meera</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Spiritual teacher, 1960&ndash;2023 &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal whose entire being is oriented toward caring for many at once, without calculation, without selection, out of an inner need to be needed and to give unconditionally. No accidental animal for a woman who, for decades, received hundreds of strangers each day, silently met every single one's eyes, and gave each of them, for a few seconds, her full, undivided attention.</p>
+          <p class="vb-intro">Mother Meera, born Kamala Reddy in 1960 in the south Indian state of Andhra Pradesh, was revered by her followers as a spiritual master and embodiment of the Divine Feminine. From the 1980s onward she lived mostly in Germany, first in Thalheim near Balduinstein, where for decades she regularly gave so-called darshans &ndash; silent audiences in which visitors from around the world knelt before her one by one to receive her gaze. The Golden Retriever, whose attention is not confined to a single relationship but extends to everyone who comes to it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Care as a Universal Calling</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> seeks belonging not through the one special relationship, but through its role within a larger community &ndash; through being needed by many at once. Naranjo describes this subtype as the one with the strongest missionary streak of all Two subtypes: it wants not only to be close to individual people, but to serve a whole group, a movement, a cause.</p>
+          <p class="vb-intro">Mother Meera's entire public work followed this logic. For decades, week after week, she received hundreds of visitors from around the world for darshan &ndash; not as exclusive attention for a chosen few, but as an open offering to anyone who came. No admission fee, no formal membership, no precondition. The social Two recognizes its purpose in offering as many people as possible the same unconditional attention that others would reserve only for their closest circle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Quiet Discipline Rather Than Loud Preaching</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner discipline and purity that clearly distinguishes it from the more impulsive, more sociable Two with a Three-wing. Rather than pushing itself into the foreground through charisma and radiance, the SO2w1 has its effect through restraint, consistency, and an almost ascetic adherence to its own chosen form of service.</p>
+          <p class="vb-intro">Mother Meera spoke not a single word during her darshans. For decades the same silent ritual repeated itself, unchanged, without theatrics, without speeches, without sermons. This persistence in the same, reduced form is the One-wing at work: what matters is not the variety of means, but the purity and consistency of the one chosen practice. Her few books, above all "Answers," are sober, clear, without rhetorical ornament &ndash; the One demands precision even from its own message.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: The Gaze as a Gift</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The center of Mother Meera's work was the darshan itself: visitors knelt before her one after another, she briefly placed her hands on their heads and looked directly into their eyes for a few seconds. Followers described this moment as deeply moving, some as transformative. Whether one interprets this experience religiously or not, the sheer constancy and devotion with which she maintained this practice for hundreds of thousands of people over decades is an extraordinary example of lived SO2w1 energy.</p>
+          <p class="vb-intro">After years in Germany she later moved her residence back to India, where she continued to receive visitors, though on a reduced scale, until her death in 2023. Her books and the centers founded by followers around the world continue to carry her work forward.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 is a rare combination of universal kindness and disciplined service: attention that is not reserved for a favored few, but consistently open to everyone who comes. Mother Meera's decades-long, unchanged practice shows a constancy that is rare &ndash; no scandals, no exploitation of her position, no self-promotion beyond what the role required.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the deep conviction of being indispensable to others, of being able to give them something they lack themselves. For spiritual teacher figures like Mother Meera, this pattern carries a particular risk: the role of embodying the divine can blur the line between one's own person and the projections followers place upon it. The One-wing softens this danger through restraint and formal discipline, but it does not resolve it entirely.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: From Giving to Being</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Two leads from giving to receiving &ndash; from the question <em>Am I needed?</em> to the recognition <em>I am already worthy, even without giving anything.</em> For the SO2w1, this path shows in the ability to live one's own service not as constant proof of worth, but as a free gift offered from inner abundance.</p>
+          <p class="vb-intro">Mother Meera's wordless darshan can be read as exactly this expression: no speech, no argument, no attempt to persuade &ndash; only a quiet presence that gives the other person room to meet themselves. The Golden Retriever that does not bark to demand attention, but simply is there, loyal, constant, for whoever comes.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-jesus-christus", label:"Portrait: Jesus Christ (SO2w1)"},
       ])}
     </div>
   `);
@@ -51903,6 +51972,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,
       "beruehmte-ruth-bader-ginsburg": ruthBaderGinsburgPortraitPage,
       "beruehmte-sahra-wagenknecht": sahraWagenknechtPortraitPage,
+      "beruehmte-mutter-meera": mutterMeeraPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-fjodor-dostojewski": fjodorDostojewskiPortraitPage,
       "beruehmte-franz-schubert": franzSchubertPortraitPage,
