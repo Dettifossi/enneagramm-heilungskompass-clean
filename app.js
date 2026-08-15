@@ -55746,7 +55746,7 @@ function fridaKahloPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Zwei: Der eigene Körper als erstes Terrain der Fürsorge</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet die Energie der Zwei zuerst auf das eigene Überleben, bevor sie sich nach außen wenden kann. Naranjo nannte diesen Subtyp <em>Me First</em> &ndash; nicht aus Egoismus, sondern weil die SE2 sich selbst zuerst versorgen muss, um überhaupt für andere da sein zu können. Bei Kahlo war dieser Überlebenskampf keine Metapher: Monatelange Bettlägerigkeit nach dem Unfall, ein Korsett aus Gips, das sie am ganzen Körper einschnürte, eine Staffelei über ihrem Bett und ein an der Decke montierter Spiegel &ndash; ihr erstes Motiv wurde zwangsläufig sie selbst.</p>
-          <p class="vb-intro">Aus dieser erzwungenen Selbstversorgung entstand ein Lebenswerk: Von rund 200 Gemälden sind etwa 55 Selbstporträts &ndash; keine Eitelkeit, sondern die direkteste Form der SE2-Fürsorge, die sich zuerst an das eigene, verletzte Selbst richtet, bevor sie sich mitteilen kann.</p>
+          <p class="vb-intro">Aus dieser erzwungenen Selbstversorgung entstand ein Lebenswerk: Von rund 200 Gemälden sind etwa 55 Selbstporträts &ndash; keine Eitelkeit im engeren Sinne, sondern die direkteste Form der SE2-Fürsorge, die sich zuerst an das eigene, verletzte Selbst richtet, bevor sie sich mitteilen kann.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Dreierflügel: Das Leiden, das zum Bild wird</h2>
@@ -55757,7 +55757,7 @@ function fridaKahloPortraitPage() {
 
         <h2 class="vb-section">4. Das Werk: Zwischen Diego, Politik und dem eigenen Schmerz</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">1929 heiratete Kahlo den bereits berühmten Muralisten Diego Rivera &ndash; eine Beziehung von tiefer gegenseitiger Bewunderung, wiederholten Affären auf beiden Seiten und großer wechselseitiger Abhängigkeit, die sie selbst als &bdquo;zweiten schweren Unfall&ldquo; ihres Lebens bezeichnete. Mehrere Fehlgeburten, bedingt durch die Unfallverletzungen, verarbeitete sie in schonungslos direkten Werken wie <em>Henry Ford Hospital</em>. Politisch engagierte sie sich zeitlebens für den Kommunismus, beherbergte zeitweise Leo Trotzki im gemeinsamen Haushalt.</p>
+          <p class="vb-intro">1929 heiratete Kahlo den bereits berühmten Muralisten (Wandmaler, Fassadenkünstler) Diego Rivera &ndash; eine Beziehung von tiefer gegenseitiger Bewunderung, wiederholten Affären auf beiden Seiten und großer wechselseitiger Abhängigkeit, die sie selbst als &bdquo;zweiten schweren Unfall&ldquo; ihres Lebens bezeichnete. Mehrere Fehlgeburten, bedingt durch die Unfallverletzungen, verarbeitete sie in schonungslos direkten Werken wie <em>Henry Ford Hospital</em>. Politisch engagierte sie sich zeitlebens für den Kommunismus, beherbergte zeitweise Leo Trotzki im gemeinsamen Haushalt.</p>
           <p class="vb-intro">Zu Lebzeiten blieb sie weitgehend im Schatten Riveras; erst Jahrzehnte nach ihrem Tod 1954 wurde sie zu einer der einflussreichsten Künstlerinnen des 20. Jahrhunderts und zu einer weltweiten Ikone für Selbstbestimmung, Schmerz und unverstellte Identität.</p>
         </blockquote>
 
@@ -55770,7 +55770,7 @@ function fridaKahloPortraitPage() {
         <h2 class="vb-section">6. Der Heilungsweg: Vom Überleben zur Gestaltung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Zwei führt von der Frage <em>Wie überlebe ich das?</em> zur Erkenntnis <em>Ich darf zeigen, was ich durchlebt habe, und daraus etwas Eigenes machen.</em> Für die SE2w3 zeigt sich dieser Weg darin, dass die anfangs erzwungene Selbstbeobachtung im Krankenbett zu einer bewussten, souveränen künstlerischen Sprache wird.</p>
-          <p class="vb-intro">Kahlos letztes Tagebucheintrag, kurz vor ihrem Tod verfasst, lautete: &bdquo;Ich hoffe, der Abgang ist fröhlich &ndash; und ich hoffe, nie wiederzukommen.&ldquo; Kein Satz der Resignation, sondern einer, der Schmerz und Lebenswillen bis zuletzt in Balance hält. Das Flusspferd, das sein Wasser nie verlassen konnte &ndash; und das gerade darin lernte, in ihm zu leben, statt nur zu überleben.</p>
+          <p class="vb-intro">Kahlos letzter Tagebucheintrag, kurz vor ihrem Tod verfasst, lautete: &bdquo;Ich hoffe, der Abgang ist fröhlich &ndash; und ich hoffe, nie wiederzukommen.&ldquo; Kein Satz der Resignation, sondern einer, der Schmerz und Lebenswillen bis zuletzt in Balance hält. Das Flusspferd, das sein Wasser nie verlassen konnte &ndash; und das gerade darin lernte, in ihm zu leben, statt nur zu überleben.</p>
         </blockquote>
 
       </div>
