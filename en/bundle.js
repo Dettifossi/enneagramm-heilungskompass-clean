@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=45";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=46";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=9";
@@ -703,6 +703,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Morgan Freeman – Sexual Type 7",
     teaser:"SX7w6 · born 1937. Actor, director, narrator. The Shawshank Redemption, Seven, Invictus. The chimpanzee with a Six-wing: curiosity and versatility, carried by decades of reliability and Hollywood's most trusted voice.",
     tags:["Film"], gender:"m"},
+  { route:"beruehmte-leonard-bernstein", name:"Leonard Bernstein", added:"2026-08-15", subtyp:"SX7w6",
+    heading:"Leonard Bernstein – Sexual Type 7",
+    teaser:"SX7w6 · 1918–1990. Conductor, composer, pianist. West Side Story, Young People's Concerts, New York Philharmonic. The chimpanzee with a Six-wing: boundless enthusiasm paired with an educational mission and never-quite-settled doubt. Animal correspondence: Chimpanzee.",
+    tags:["Music"], gender:"m"},
   { route:"beruehmte-ina-mueller", name:"Ina Müller", subtyp:"SX7w8",
     heading:"Ina Müller – Sexual Type 7",
     teaser:"SX7w8 · born 1965. Singer, musical cabaret artist, TV presenter (Inas Nacht). The chimpanzee with Eight-wing: zestful, direct, fearless – and always close to people. Animal correspondence: Chimpanzee.",
@@ -19217,6 +19221,72 @@ function morganFreemanPortraitPage() {
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"beruehmte-miley-cyrus", label:"Portrait: Miley Cyrus (SX7w6)"},
         {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-leonard-bernstein", label:"Portrait: Leonard Bernstein (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function leonardBernsteinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-leonard-bernstein-portrait.jpg" alt="Leonard Bernstein" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leonard Bernstein</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Conductor, composer, pianist, 1918&ndash;1990 &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee at the Podium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the sexual Seven &ndash; playful, socially highly intelligent, always on the lookout for the next intense moment that draws the group under its spell. Few conductors embodied this contagious enthusiasm as physically as Leonard Bernstein: he leapt at the podium, threw himself into the music, and swept the orchestra along in an ecstasy still palpable on recordings today.</p>
+          <p class="vb-intro">His breakthrough came almost overnight, on November 14, 1943: when the ailing conductor Bruno Walter fell ill at short notice, the 25-year-old, until then unknown assistant conductor Bernstein stepped in for the New York Philharmonic &ndash; without rehearsal, broadcast live nationwide on radio. The performance became a sensation and made him famous overnight. The chimpanzee does not wait for the perfect opportunity &ndash; it seizes the moment the instant it appears.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Seven: Intensity Through Variety</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Seven (SX7)</strong> seeks intensity not in calm overview but in passionate encounter with ever-new projects. Bernstein refused throughout his life to be pinned to a single artistic role: he was simultaneously the celebrated music director of the New York Philharmonic (1958&ndash;1969, the first American-born conductor to lead a major American orchestra), composer of Broadway musicals such as "West Side Story" and "Candide," symphonist with works such as the "Jeremiah" and "Kaddish" symphonies, sought-after concert pianist, and television host.</p>
+          <p class="vb-intro">This variety was not dispersal for him but the natural expression of his capacity for enthusiasm: serious music and popular culture, the concert hall and the Broadway stage did not exist in separate worlds for Bernstein. This is exactly Sexual Seven: not mastering the one passion perfectly, but fully living through as many intense experiences as possible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Education as a Proof of Love</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the pure Seven a relationship-oriented, often almost missionary sense of care. From 1958 to 1972, Bernstein hosted the "Young People's Concerts" &ndash; nationally televised concerts in which he introduced children and teenagers to the fundamentals of classical music with tireless patience. Over decades, he invested a substantial portion of his energy in this educational project, even though it cost him time he could also have used for composing.</p>
+          <p class="vb-intro">The same loyal capacity for bonding showed in his close, decades-long relationship with his mentor Serge Koussevitzky and in his faithfulness to institutions such as the Tanglewood Music Center, where he taught young conductors almost until his death. Even during the McCarthy era, when leftist political contacts landed him on blacklists and he had to sign a sworn affidavit to keep his passport, the watchful, anxious caution of the Six-wing toward outside threats showed itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Gluttony Between the Stage and Doubt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Seven is called <strong>gluttony</strong> or <strong>excess</strong> &ndash; the insatiable hunger for more. In Bernstein this showed in an almost limitless workload: conducting, composing, teaching, public political engagement &ndash; often all at once, accompanied by excessive smoking (four packs of cigarettes a day) and heavy drinking. In 1970 he hosted a now-notorious fundraiser for the Black Panther movement at his New York apartment &ndash; an event the journalist Tom Wolfe satirized as "radical chic" and that exposed Bernstein to massive public criticism.</p>
+          <p class="vb-intro">Behind this excess, however, lay a deep, never fully settled insecurity: Bernstein doubted throughout his life whether he had achieved enough as a serious composer, because his time as a conductor took up so much space. This worry about missing one's own "true" calling is typical of the Six-wing: never quite certain whether one's own effort is enough to be truly recognized.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SX7w6 shows in Bernstein's ability to combine curiosity and the capacity for bonding: his "West Side Story" fused classical compositional technique with jazz, Latin American rhythms, and Broadway drama into something entirely new, and his "Young People's Concerts" shaped generations of music lovers.</p>
+          <p class="vb-intro">The shadow showed in his private life: in 1951 he married the Chilean actress Felicia Montealegre, with whom he had three children &ndash; yet his relationships with men continued throughout the marriage. In 1976 he openly separated to live with a male partner, but returned to Felicia to care for her until her death from cancer in 1978. The flip side of SX7w6: an intensity torn between genuine, deep bonds and an insatiable desire for new experience, often at the cost of great personal pain for everyone involved.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Chimpanzee Who Democratized Music</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Leonard Bernstein died in 1990 in New York of heart failure, just weeks after his final concert, which doctors had urgently advised against given his advanced lung disease &ndash; he conducted almost to his last breath. His body of work remains one of the most versatile legacies in American music history: one of the most significant conductors of the 20th century, creator of one of the longest-lasting Broadway musicals of all time, and an educator who opened classical music to a mass audience as no one before him had managed to do.</p>
+          <p class="vb-intro">The chimpanzee with the Six-wing: an enthusiasm that never faded, joined with a deep worry about having truly given everything &ndash; and it was exactly out of this tension that he created a life's work reaching far beyond his own insecurity.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
+        {route:"beruehmte-miley-cyrus", label:"Portrait: Miley Cyrus (SX7w6)"},
       ])}
     </div>
   `);
@@ -52983,6 +53053,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-edgar-allan-poe": edgarAllanPoePortraitPage,
       "beruehmte-johnny-depp": johnnyDeppPortraitPage,
       "beruehmte-morgan-freeman": morganFreemanPortraitPage,
+      "beruehmte-leonard-bernstein": leonardBernsteinPortraitPage,
       "beruehmte-nicolas-cage": nicolasCagePortraitPage,
       "beruehmte-leo-tolstoi": leoTolstoiPortraitPage,
       "beruehmte-gustav-mahler": gustavMahlerPortraitPage,

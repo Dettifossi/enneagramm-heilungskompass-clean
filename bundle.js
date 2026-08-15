@@ -23999,6 +23999,7 @@ const registerEntries = [
   { term: "Drew Barrymore",                 route: "beruehmte-drew-barrymore",              description: "Portrait: SO7w8 \u00b7 Sozialer Typ 7 \u00b7 Schauspielerin, Produzentin, Talkshow-Moderatorin" },
   { term: "Miley Cyrus",                    route: "beruehmte-miley-cyrus",                 description: "Portrait: SX7w6 \u00b7 Sexueller Typ 7 \u00b7 S\u00e4ngerin, Songwriterin, Schauspielerin" },
   { term: "Morgan Freeman",                 route: "beruehmte-morgan-freeman",              description: "Portrait: SX7w6 \u00b7 Sexueller Typ 7 \u00b7 Schauspieler, Erz\u00e4hler, Regisseur" },
+  { term: "Leonard Bernstein",              route: "beruehmte-leonard-bernstein",           description: "Portrait: SX7w6 · Sexueller Typ 7 · Dirigent, Komponist, Pianist" },
   { term: "Shakira",                        route: "beruehmte-shakira",                     description: "Portrait: SX7w8 \u00b7 Sexueller Typ 7 \u00b7 S\u00e4ngerin, Songwriterin, T\u00e4nzerin, Produzentin" },
   { term: "Franz Liszt",                   route: "beruehmte-franz-liszt",                 description: "Portrait: SX7w8 · Sexueller Typ 7 · Komponist und Pianist, Lisztomania" },
   { term: "Diogenes von Sinope",            route: "beruehmte-diogenes",                    description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Philosoph, Begr\u00fcnder des Kynismus" },
@@ -24312,6 +24313,7 @@ const registerEntriesEN = [
   { term: "Drew Barrymore", route: "beruehmte-drew-barrymore", description: "Portrait: SO7w8 \u00b7 Social Type 7 \u00b7 Actress, producer, talk show host" },
   { term: "Miley Cyrus", route: "beruehmte-miley-cyrus", description: "Portrait: SX7w6 \u00b7 Sexual Type 7 \u00b7 Singer, songwriter, actress" },
   { term: "Morgan Freeman", route: "beruehmte-morgan-freeman", description: "Portrait: SX7w6 \u00b7 Sexual Type 7 \u00b7 Actor, narrator, director" },
+  { term: "Leonard Bernstein", route: "beruehmte-leonard-bernstein", description: "Portrait: SX7w6 · Sexual Type 7 · Conductor, composer, pianist" },
   { term: "Shakira", route: "beruehmte-shakira", description: "Portrait: SX7w8 \u00b7 Sexual Type 7 \u00b7 Singer, songwriter, dancer, producer" },
   { term: "Franz Liszt", route: "beruehmte-franz-liszt", description: "Portrait: SX7w8 · Sexual Type 7 · Composer and pianist, Lisztomania" },
   { term: "Diogenes of Sinope", route: "beruehmte-diogenes", description: "Portrait: SX8w7 \u00b7 Sexual Type 8 \u00b7 Philosopher, founder of Cynicism" },
@@ -32061,6 +32063,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Morgan Freeman \u2013 Sexueller Typ 7",
     teaser:"SX7w6 \u00b7 geb. 1937. Schauspieler, Regisseur, Erz\u00e4hler. Die Verurteilten, Sieben, Invictus. Der Schimpanse mit Sechserfl\u00fcgel: Neugier und Vielseitigkeit, getragen von jahrzehntelanger Verl\u00e4sslichkeit und der vertrautesten Stimme Hollywoods.",
     tags:["Film"], gender:"m"},
+  { route:"beruehmte-leonard-bernstein", name:"Leonard Bernstein", added:"2026-08-15", subtyp:"SX7w6",
+    heading:"Leonard Bernstein \u2013 Sexueller Typ 7",
+    teaser:"SX7w6 \u00b7 1918\u20131990. Dirigent, Komponist, Pianist. West Side Story, Young People's Concerts, New York Philharmonic. Der Schimpanse mit Sechserfl\u00fcgel: grenzenlose Begeisterung, gepaart mit p\u00e4dagogischer Mission und nie ganz beruhigtem Zweifel. Tierentsprechung: Schimpanse.",
+    tags:["Musik"], gender:"m"},
   { route:"beruehmte-ina-mueller", name:"Ina M\u00fcller", subtyp:"SX7w8",
     heading:"Ina M\u00fcller \u2013 Sexueller Typ 7",
     teaser:"SX7w8 \u00b7 geb. 1965. S\u00e4ngerin, Musikkabarettistin, Fernsehmoderatorin (Inas Nacht). Der Schimpanse mit Achterfl\u00fcgel: lebenslustig, direkt, unerschrocken \u2013 und immer nah am Menschen. Tierentsprechung: Schimpanse.",
@@ -48186,6 +48192,71 @@ function johnnyDeppPortraitPage() {
     </div>
   `);
 }
+function leonardBernsteinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-leonard-bernstein-portrait.jpg" alt="Leonard Bernstein" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leonard Bernstein</p>
+        <p class="krim-portrait-typ">SX7w6 · Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Dirigent, Komponist, Pianist, 1918–1990 – Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse am Dirigentenpult</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben – verspielt, sozial hochintelligent, immer auf der Suche nach dem nächsten intensiven Moment, der die Gruppe in seinen Bann zieht. Kaum ein Dirigent hat diese ansteckende Begeisterung so körperlich verkörpert wie Leonard Bernstein: Er sprang am Pult, warf sich in die Musik hinein, riss das Orchester mit einer Ekstase mit sich, die man auf Aufnahmen bis heute förmlich spüren kann.</p>
+          <p class="vb-intro">Sein Durchbruch kam am 14. November 1943, praktisch über Nacht: Als der erkrankte Dirigent Bruno Walter kurzfristig ausfiel, sprang der 25-jährige, bis dahin unbekannte Assistenzdirigent Bernstein für ihn beim New York Philharmonic ein – ohne Probe, live landesweit im Radio übertragen. Der Auftritt wurde zur Sensation und machte ihn über Nacht bekannt. Der Schimpanse wartet nicht auf die perfekte Gelegenheit – er ergreift den Moment, sobald er sich zeigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Intensität durch Vielfalt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht die Intensität nicht in der ruhigen Übersicht, sondern in der leidenschaftlichen Begegnung mit immer neuen Projekten. Bernstein verweigerte sich zeitlebens der Festlegung auf eine einzige künstlerische Rolle: Er war gleichzeitig gefeierter Chefdirigent der New York Philharmonic (1958–1969, als erster in den USA geborener Leiter eines großen amerikanischen Orchesters), Komponist von Broadway-Musicals wie "West Side Story" und "Candide", Sinfoniker mit Werken wie der "Jeremiah"- und "Kaddish"-Symphonie, gefragter Konzertpianist und Fernsehmoderator.</p>
+          <p class="vb-intro">Diese Vielfalt war für ihn kein Zerstreuen, sondern der natürliche Ausdruck seiner Begeisterungsfähigkeit: Ernste Musik und Populärkultur, Konzertsaal und Broadway-Bühne existierten für Bernstein nicht in getrennten Welten. Genau das ist die SX7: nicht die eine Leidenschaft perfekt beherrschen, sondern so viele intensive Erfahrungen wie möglich vollständig durchleben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Bildung als Liebesbeweis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> verleiht der reinen Sieben eine bindungsorientierte, oft fast missionarische Fürsorge. Von 1958 bis 1972 moderierte Bernstein die "Young People's Concerts" – landesweit im Fernsehen übertragene Konzerte, in denen er Kindern und Jugendlichen mit unermüdlicher Geduld die Grundlagen klassischer Musik nahebrachte. Über Jahrzehnte investierte er einen erheblichen Teil seiner Energie in dieses pädagogische Projekt, obwohl es ihn Zeit kostete, die er auch fürs Komponieren hätte nutzen können.</p>
+          <p class="vb-intro">Dieselbe loyale Bindungsfähigkeit zeigte sich in seiner engen, jahrzehntelangen Beziehung zu seinem Mentor Sergei Kussewitzki und in seiner Treue zu Institutionen wie dem Tanglewood Music Center, wo er bis kurz vor seinem Tod junge Dirigenten unterrichtete. Auch in der McCarthy-Ära, als er wegen linker politischer Kontakte auf schwarze Listen geriet und eine eidesstattliche Erklärung unterschreiben musste, um weiterhin einen Reisepass zu erhalten, zeigte sich die wache, ängstliche Vorsicht des Sechserflügels gegenüber Bedrohung von außen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Völlerei zwischen Bühne und Zweifel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> oder <strong>Maßlosigkeit</strong> – der unstillbare Hunger nach mehr. Bei Bernstein zeigte sich das in einem nahezu grenzenlosen Arbeitspensum: Dirigieren, Komponieren, Unterrichten, öffentliches politisches Engagement – oft alles gleichzeitig, begleitet von exzessivem Rauchen (vier Packungen Zigaretten täglich) und intensivem Alkoholkonsum. 1970 lud er zu einer inzwischen berüchtigten Spendengala für die Black-Panther-Bewegung in seine New Yorker Wohnung – ein Ereignis, das der Journalist Tom Wolfe satirisch als "Radical Chic" verewigte und das Bernstein massiver öffentlicher Kritik aussetzte.</p>
+          <p class="vb-intro">Hinter dieser Maßlosigkeit stand jedoch eine tiefe, nie ganz beruhigte Unsicherheit: Bernstein zweifelte zeitlebens daran, ob er als ernsthafter Komponist genug geleistet hatte, weil seine Zeit als Dirigent so viel Raum einnahm. Diese Sorge, die eigene "wahre" Berufung zu verfehlen, ist typisch für den Sechserflügel: nie ganz sicher, ob die eigene Anstrengung genug ist, um wirklich anerkannt zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX7w6 zeigt sich in Bernsteins Fähigkeit, Neugier und Bindungskraft zu verbinden: Sein "West Side Story" verschmolz klassische Kompositionstechnik mit Jazz, lateinamerikanischen Rhythmen und Broadway-Drama zu etwas völlig Neuem, seine "Young People's Concerts" prägten Generationen von Musikliebhabern.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in seinem Privatleben: 1951 heiratete er die chilenische Schauspielerin Felicia Montealegre, mit der er drei Kinder hatte – doch seine Beziehungen zu Männern setzten sich während der gesamten Ehe fort. 1976 trennte er sich offen, um mit einem männlichen Partner zusammenzuleben, kehrte aber zu Felicia zurück, um sie bis zu ihrem Krebstod 1978 zu pflegen. Die Kehrseite der SX7w6: eine Intensität, die zwischen echten, tiefen Bindungen und dem unstillbaren Verlangen nach neuer Erfahrung hin- und hergerissen war, oft zum Preis großen persönlichen Schmerzes für alle Beteiligten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Schimpanse, der die Musik demokratisierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Leonard Bernstein starb 1990 in New York an Herzversagen, wenige Wochen nach seinem letzten Konzert, das die Ärzte ihm aufgrund seiner fortgeschrittenen Lungenkrankheit dringend widerraten hatten – er dirigierte bis fast zum letzten Atemzug. Sein Werk umfasst bis heute eines der vielseitigsten Vermächtnisse der amerikanischen Musikgeschichte: einer der bedeutendsten Dirigenten des 20. Jahrhunderts, Schöpfer eines der langlebigsten Broadway-Musicals aller Zeiten und ein Pädagoge, der klassische Musik einem Massenpublikum öffnete, wie es vor ihm niemand geschafft hatte.</p>
+          <p class="vb-intro">Der Schimpanse mit Sechserflügel: eine Begeisterung, die niemals nachließ, verbunden mit der tiefen Sorge, wirklich alles gegeben zu haben – und die genau aus diesem Spannungsfeld ein Lebenswerk schuf, das weit über die eigene Unsicherheit hinausreicht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-morgan-freeman", label:"Porträt: Morgan Freeman (SX7w6)"},
+        {route:"beruehmte-miley-cyrus", label:"Porträt: Miley Cyrus (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
+
 function morganFreemanPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -48246,6 +48317,7 @@ function morganFreemanPortraitPage() {
         {route:"subtype/sx7", label:"SX7 \u2013 Der Schimpanse: Subtyp-Profil"},
         {route:"beruehmte-miley-cyrus", label:"Portr\xe4t: Miley Cyrus (SX7w6)"},
         {route:"beruehmte-thomas-gottschalk", label:"Portr\xe4t: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-leonard-bernstein", label:"Porträt: Leonard Bernstein (SX7w6)"},
       ])}
     </div>
   `);
@@ -87365,6 +87437,7 @@ function render() {
     "beruehmte-edgar-allan-poe": edgarAllanPoePortraitPage,
     "beruehmte-johnny-depp": johnnyDeppPortraitPage,
     "beruehmte-morgan-freeman": morganFreemanPortraitPage,
+    "beruehmte-leonard-bernstein": leonardBernsteinPortraitPage,
     "beruehmte-nicolas-cage": nicolasCagePortraitPage,
     "beruehmte-leo-tolstoi": leoTolstoiPortraitPage,
     "beruehmte-gustav-mahler": gustavMahlerPortraitPage,
