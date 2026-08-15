@@ -267,6 +267,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo DiCaprio – Sexual Type 1",
     teaser:"SX1w2 · born 1974. Actor, climate activist. Five Oscar nominations, six attempts – and in the moment of triumph he spoke about climate change, not himself. The Black Mamba does not burn for applause. Animal correspondence: Black Mamba.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-franka-potente", name:"Franka Potente", added:"2026-08-15", subtyp:"SE2w1",
+    heading:"Franka Potente – Self-Preservation Type 2",
+    teaser:"SP2w1 · born 1974 in Dülmen, Germany. Actress, director, and musician, 'Run Lola Run', the Bourne series. Care within the familiar circle, uncompromising artistic integrity over Hollywood logic. Animal correspondence: Hippopotamus.",
+    tags:["Schauspiel","Musik"], gender:"f"},
   { route:"beruehmte-margot-friedlaender", name:"Margot Friedländer", added:"2026-08-14", subtyp:"SE2w1",
     heading:"Margot Friedländer – Self-Preservation Type 2",
     teaser:"SP2w1 · 1921–2025. Holocaust survivor and witness, 'Be human'. Fifteen months in hiding in Berlin, sixty years of silence, then tireless conversations with schoolchildren until the very end. Animal correspondence: Hippopotamus.",
@@ -29858,6 +29862,65 @@ function gretaThunbergPortraitPage() {
   `);
 }
 
+function frankaPotentePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-franka-potente-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Franka Potente</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Actress, director &amp; musician, born 1974 in Dülmen, Germany &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that does not run because it is being hunted, but because it knows what is at stake. When it moves, it moves with its full body, without detour, without hesitation &ndash; and afterward returns to its own waters, rather than lingering permanently on foreign ground.</p>
+          <p class="vb-intro">Franka Potente became the embodiment of exactly this energy in 1998 with <em>Run Lola Run</em>: across three replayed scenarios, she runs through Berlin for almost the entire film to save a relationship, a life &ndash; not an aimless flight, but a race against time in service of another person. This role became emblematic of her career: high intensity, full physical commitment, always in service of something larger than her own visibility.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Care Within the Familiar Circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> directs its care first toward the close, familiar circle &ndash; toward specific people and projects it feels connected to, rather than toward the wider public. Naranjo called this subtype <em>Me First</em>: not out of selfishness, but because the SP2 operates from a secure, personally meaningful foundation, rather than expending itself on an anonymous audience.</p>
+          <p class="vb-intro">In Potente this shows in her consistent return, after her international breakthrough, to smaller, personally meaningful German and European productions, rather than fully pursuing the obvious Hollywood path. She chose projects based on personal relevance rather than reach &ndash; a clear SP2 pattern: connection over broad impact.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Uncompromising Artistic Integrity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the self-preservation Two an inner set of standards that holds independent of external validation &ndash; a clear sense of right and wrong that forces uncomfortable decisions when principle demands it. It turns care into a stance.</p>
+          <p class="vb-intro">Potente has repeatedly spoken bluntly about sexism and unfair working conditions in the film industry &ndash; publicly, directly, without diplomatic softening. Her path beyond acting, as a writer, director, and musician under her own name, never reads as strategic image-building, but as the need to express different truths in whichever form fits them. The One-wing demands that the work be right &ndash; not that it pleases.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Between World Cinema and Her Own Voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><em>Run Lola Run</em> (1998) made Potente internationally known overnight and opened her path to Hollywood, including the Bourne series as Marie Kreutz, one of the few emotionally complex female characters in the action genre of that era. Alongside this, she remained loyal to German and European auteur cinema and increasingly took on writing and directing herself.</p>
+          <p class="vb-intro">As a musician she has released albums under her own name containing personal, unpretentious songs far from any star staging. This versatility is not a status symbol, but an expression of the same underlying stance: finding different forms for different truths, rather than settling on one successful formula.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w1 is the ability to combine care and integrity &ndash; to commit to people and projects without betraying one's own principles in the process. Potente's refusal to fully submit to the Hollywood system, and her clear public stance on the industry's failings, show this mature form of SP2 energy.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own stance and care. The One-wing can turn this pride into moral strictness: the risk of making one's own integrity the standard for others, with little patience for the compromises that are often unavoidable in the film business. Potente's reputation as a demanding, sometimes difficult colleague can be read as exactly this other side of the same pattern.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SP2w1)"},
+        {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SP2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function margotFriedlaenderPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -29918,6 +29981,7 @@ function margotFriedlaenderPortraitPage() {
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SP2w1)"},
         {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1)"},
+        {route:"beruehmte-franka-potente", label:"Portrait: Franka Potente (SP2w1)"},
       ])}
     </div>
   `);
@@ -29979,6 +30043,7 @@ function soerenKierkegaardPortraitPage() {
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1)"},
         {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SP2w1)"},
+        {route:"beruehmte-franka-potente", label:"Portrait: Franka Potente (SP2w1)"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
         {route:"beruehmte-heraklit", label:"Portrait: Heraclitus (SO4w5)"},
         {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portrait: Georg Wilhelm Friedrich Hegel (SO5w6) – lifelong adversary of 'the System'"},
@@ -52073,6 +52138,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
+      "beruehmte-franka-potente": frankaPotentePortraitPage,
       "beruehmte-margot-friedlaender": margotFriedlaenderPortraitPage,
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-jan-ullrich": janUllrichPortraitPage,
