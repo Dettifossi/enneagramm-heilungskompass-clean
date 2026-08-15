@@ -31149,6 +31149,7 @@ function enneagrammAstrologiePage() {
         {route:"beruehmte-persoenlichkeiten", label:"Famous Personalities – Portraits"},
         {route:"kriminalpsychologie", label:"Criminal Psychology"},
         {route:"psychogramme", label:"Psychograms"},
+        {route:"planetenzuordnungen", label:"Chart: Planets & Moons of the Solar System"},
       ])}
     </div>
   `);
