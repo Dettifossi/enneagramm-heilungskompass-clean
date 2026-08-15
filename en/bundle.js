@@ -31814,7 +31814,7 @@ function langLangPortraitPage() {
         <h2 class="vb-section">5. The Injury and the Return</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In 2017, a severe tendon inflammation in his left arm, caused by decades of intense practice and public performance, forced Lang Lang into a break of more than a year &ndash; an existential threat to a musician whose entire identity rested on demonstrable, physical mastery. Rather than despairing, he used the time to focus more on music education and teaching, and returned to the stage in 2018 with new maturity.</p>
-          <p class="vb-intro">In 2019 he married the German pianist Gina Alice Redlinger, with whom he has since performed and taught together. The raccoon, whose security once rested solely on his own playing ability, found in the crisis a new, more sustainable foundation: not just to be able to do something, but to pass that ability on.</p>
+          <p class="vb-intro">In 2019 he married the German pianist Gina Alice Redlinger (SE2w3), with whom he has since performed and taught together. The raccoon, whose security once rested solely on his own playing ability, found in the crisis a new, more sustainable foundation: not just to be able to do something, but to pass that ability on.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: The Raccoon That Inspired a Generation to Play Piano</h2>
