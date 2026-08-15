@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=41";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=42";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=9";
@@ -363,6 +363,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Tony Shalhoub – Self-Preservation Type 3",
     teaser:"SP3w4 · born 1953. Actor, known from \"Monk\" and \"The Marvelous Mrs. Maisel\". Three Emmys, one Golden Globe – the raccoon with the Four-wing: decades of craft over the spotlight, precision as an expression of genuine emotional depth. Animal correspondence: Raccoon.",
     tags:["Film"], gender:"m"},
+  { route:"beruehmte-judit-polgar", name:"Judit Polgár", added:"2026-08-15", subtyp:"SE3w4",
+    heading:"Judit Polgár – Self-Preservation Type 3",
+    teaser:"SP3w4 · born 1976. Chess grandmaster, strongest female chess player in history. Youngest grandmaster in history in 1991, 8th in the open world ranking in 2005. The raccoon that sought out the hardest stage, not the most comfortable one. Animal correspondence: Raccoon.",
+    tags:["Sport"], gender:"f"},
   { route:"beruehmte-madame-tussaud", name:"Madame Tussaud", added:"2026-08-08", subtyp:"SE3w4",
     heading:"Madame Tussaud – Self-Preservation Type 3",
     teaser:"SP3w4 · 1761–1850. Wax sculptor, museum founder. Death masks of guillotine victims during the French Revolution, 33 years touring Britain, the \"Chamber of Horrors\" – the raccoon that turned pure survival skill into a world enterprise. Animal correspondence: Raccoon.",
@@ -31567,12 +31571,70 @@ function tonyShalhoubPortraitPage() {
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SE3w4)"},
         {route:"beruehmte-madame-tussaud", label:"Portrait: Madame Tussaud (SE3w4)"},
+        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SE3w4)"},
       ])}
     </div>
   `);
 }
 
+function juditPolgarPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-judit-polgar-portrait.jpg" alt="Judit Polgár" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Judit Polgár</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Chess grandmaster, born 1976 &ndash; strongest female chess player in history &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
 
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that is easy to underestimate. No loud entrance, no glamour, no self-staging for its own sake. The raccoon works with skillful, deft hands out of sight, and only becomes visible once you look closely at everything it can actually do.</p>
+          <p class="vb-intro">Judit Polgár, born in 1976 in Budapest as the youngest of the three Polgár sisters, grew up in an educational experiment devised by her father László Polgár, who was convinced that genius could be trained if practice began early enough and intensively enough. The three daughters were homeschooled with chess as the core subject of their curriculum &ndash; no accident, but the result of thousands of hours of training at the board, long before the public ever heard of her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Three: Skill Over Shine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three &ndash; the subtype that does not display achievement outwardly but directs it inward: toward security, competence, craft mastery. SP3 does not ask <em>How am I seen?</em> but <em>What can I actually do?</em></p>
+          <p class="vb-intro">In 1991, at fifteen years and four months old, Polgár became the youngest grandmaster in chess history &ndash; at the time, younger than any male player before her, including Bobby Fischer's legendary record. Rather than establishing herself in women's chess, where a secure top position would have been guaranteed immediately, she chose to compete exclusively in open tournaments against the strongest players in the world, regardless of her opponents' gender. That is SP3 logic in its purest form: those who truly can do something seek out the hardest stage, not the most comfortable one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: A Path of One's Own, Apart From the Norm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three a question that goes beyond mere competence: <em>What does my path mean &ndash; beyond what is expected of me?</em> Polgár refused throughout her career to compete in the Women's World Championship, even though she likely could have won it with ease. Instead, in 2005 she climbed to eighth place in the open world ranking of all players &ndash; to this day the only woman ever to break into the top ten of the open world ranking, a record no one has come close to matching since.</p>
+          <p class="vb-intro">This independence also showed in her playing style: Polgár was known for an aggressive, high-risk, tactically driven approach shaped far more by her own intuition than by pure theory. Over the course of her career she defeated numerous reigning and former world champions &ndash; including Garry Kasparov, Anatoly Karpov, Boris Spassky, Viswanathan Anand, and Magnus Carlsen &ndash; not by conforming to the established system, but through an unmistakable, headstrong approach to the game that made her signature recognizable on every board.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SP3w4 is its ability to draw genuine uniqueness from pure craft. Over two decades, Polgár proved that competence is not a matter of gender &ndash; not through public rhetoric, but through the sober, irrefutable result on the board. She did this without staging herself as a symbolic figure; her statement was the game itself.</p>
+          <p class="vb-intro">The passion of the Three is <strong>vanity / deceit</strong> &ndash; in SP3w4, subtly present as the need to be seen as unique and unrepeatable while simultaneously avoiding putting oneself as a person in the foreground. The Four-wing brings its own shadow: the constant need to set herself apart from every expectation &ndash; even the expectation of being "the best female chess player" &ndash; and to establish an entirely own standard instead, which over time can become isolating.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Healing Path: From Proving to Passing On</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Three leads from the question <em>What have I achieved?</em> to the realization <em>I am &ndash; beyond all achievement.</em> For SP3w4, this shows in no longer tying one's own worth to the next tournament result, but to the truthfulness of one's own path.</p>
+          <p class="vb-intro">In 2014, Polgár ended her active tournament career and founded the Judit Polgár Chess Foundation, which uses chess as an educational tool in schools &ndash; a raccoon who no longer needs her craft as proof of her own exceptional standing, but passes it on as a gift to the next generation. The Four-wing, always searching for deeper meaning, may find in this exactly what it is looking for: not the next record, but a trace that points beyond one's own life.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SE3w4)"},
+        {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
 
 function sadhguruPortraitPage() {
   return shell(`
@@ -52788,6 +52850,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
+      "beruehmte-judit-polgar": juditPolgarPortraitPage,
       "beruehmte-peter-falk": peterFalkPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,

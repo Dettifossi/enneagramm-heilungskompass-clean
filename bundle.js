@@ -24112,6 +24112,7 @@ const registerEntries = [
   { term: "Karl Lagerfeld",                route: "beruehmte-karl-lagerfeld",              description: "Portrait: SO3w4 \u00b7 Sozialer Typ 3 \u00b7 Modedesigner, Chanel-Ikone" },
   { term: "Karoline Herfurth",             route: "beruehmte-karoline-herfurth",           description: "Portrait: SE4w5 \u00b7 Selbsterhaltender Typ 4 \u00b7 Schauspielerin, Regisseurin" },
   { term: "Kathrin Bauerfeind",            route: "beruehmte-kathrin-bauerfeind",          description: "Portrait: SE3w4 \u00b7 Selbsterhaltender Typ 3 \u00b7 Journalistin, Moderatorin, Essayistin" },
+  { term: "Judit Polgár",                  route: "beruehmte-judit-polgar",                description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Schach-Großmeisterin" },
   { term: "Keanu Reeves",                  route: "beruehmte-keanu-reeves",                description: "Portrait: SX9w1 \u00b7 Sexueller Typ 9 \u00b7 Schauspieler, The Matrix, stille Pr\u00e4senz" },
   { term: "Klaus Kinski",                  route: "beruehmte-klaus-kinski",                description: "Portrait: SX1w9 \u00b7 Sexueller Typ 1 \u00b7 Schauspieler, Intensit\u00e4t & Exzess" },
   { term: "Kollegah",                      route: "beruehmte-kollegah",                    description: "Portrait: SX6w5 \u00b7 Sexueller Typ 6 \u00b7 Rapper, Fitness-Ikone, Marke & Maske" },
@@ -24415,6 +24416,7 @@ const registerEntriesEN = [
   { term: "Karl Lagerfeld", route: "beruehmte-karl-lagerfeld", description: "Portrait: SO3w4 \u00b7 Social Type 3 \u00b7 Fashion designer, Chanel icon" },
   { term: "Karoline Herfurth", route: "beruehmte-karoline-herfurth", description: "Portrait: SE4w5 \u00b7 Self-Preservation Type 4 \u00b7 Actress, Director" },
   { term: "Kathrin Bauerfeind", route: "beruehmte-kathrin-bauerfeind", description: "Portrait: SE3w4 \u00b7 Self-Preservation Type 3 \u00b7 Journalist, TV host, Essayistin" },
+  { term: "Judit Polgár", route: "beruehmte-judit-polgar", description: "Portrait: SP3w4 · Self-Preservation Type 3 · Chess grandmaster" },
   { term: "Keanu Reeves", route: "beruehmte-keanu-reeves", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 Actor, The Matrix, quiet presence" },
   { term: "Klaus Kinski", route: "beruehmte-klaus-kinski", description: "Portrait: SX1w9 \u00b7 Sexual Type 1 \u00b7 Actor, intensity & excess" },
   { term: "Kollegah", route: "beruehmte-kollegah", description: "Portrait: SX6w5 \u00b7 Sexual Type 6 \u00b7 Rapper, fitness icon, brand & mask" },
@@ -31565,6 +31567,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Tony Shalhoub – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · geb. 1953. Schauspieler, bekannt aus »Monk« und »The Marvelous Mrs. Maisel«. Drei Emmys, ein Golden Globe – der Waschbär mit Viererflügel: jahrzehntelanges Handwerk statt Rampenlicht, Präzision als Ausdruck echter emotionaler Tiefe. Tierentsprechung: Waschbär.",
     tags:["Film"], gender:"m"},
+  { route:"beruehmte-judit-polgar", name:"Judit Polgár", added:"2026-08-15", subtyp:"SE3w4",
+    heading:"Judit Polgár – Selbsterhaltender Typ 3",
+    teaser:"SE3w4 · geb. 1976. Schach-Großmeisterin, spielstärkste Frau der Schachgeschichte. Jüngste Großmeisterin der Geschichte 1991, Platz 8 der Weltrangliste 2005. Der Waschbär, der sich die härteste statt die bequemste Bühne suchte. Tierentsprechung: Waschbär.",
+    tags:["Sport"], gender:"f"},
   { route:"beruehmte-madame-tussaud", name:"Madame Tussaud", added:"2026-08-08", subtyp:"SE3w4",
     heading:"Madame Tussaud \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w4 \u00b7 1761\u20131850. Wachsbildnerin, Museumsgr\u00fcnderin. Totenmasken der Guillotine-Opfer w\u00e4hrend der Franz\u00f6sischen Revolution, 33 Jahre Wandertournee durch Gro\u00dfbritannien, das \u201eKabinett des Schreckens\u201c \u2013 der Waschb\u00e4r, der aus reiner \u00dcberlebensfertigkeit ein Weltunternehmen baute. Tierentsprechung: Waschb\u00e4r.",
@@ -58248,6 +58254,66 @@ function tonyShalhoubPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-kathrin-bauerfeind", label:"Porträt: Kathrin Bauerfeind (SE3w4)"},
         {route:"beruehmte-madame-tussaud", label:"Porträt: Madame Tussaud (SE3w4)"},
+        {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function juditPolgarPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-judit-polgar-portrait.jpg" alt="Judit Polgár" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Judit Polgár</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schach-Großmeisterin, geb. 1976 – spielstärkste Frau der Schachgeschichte – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das man leicht unterschätzt. Kein lauter Auftritt, kein Glamour, keine Inszenierung um ihrer selbst willen. Der Waschbär arbeitet mit feinen, geschickten Händen im Verborgenen und wird erst dann sichtbar, wenn man genau hinschaut, was er eigentlich alles kann.</p>
+          <p class="vb-intro">Judit Polgár, geboren 1976 in Budapest als jüngste der drei Polgár-Schwestern, wuchs in einem pädagogischen Experiment ihres Vaters László Polgár auf, der überzeugt war, dass Genie erlernbar sei, wenn man früh genug und intensiv genug übt. Die drei Töchter wurden zu Hause unterrichtet, mit Schach als Kernfach des Curriculums – kein Zufallsprodukt, sondern das Ergebnis Tausender Trainingsstunden am Brett, lange bevor die Öffentlichkeit von ihr wusste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em></p>
+          <p class="vb-intro">1991 wurde Polgár im Alter von fünfzehn Jahren und viertausendneunundsiebzig Tagen die jüngste Großmeisterin der Schachgeschichte – zu diesem Zeitpunkt jünger als jeder männliche Spieler zuvor, einschließlich Bobby Fischers legendärem Rekord. Statt sich in der Frauenschachwelt zu etablieren, in der ihr sofort ein sicherer Spitzenplatz gewiss gewesen wäre, entschied sie sich, ausschließlich in offenen Turnieren gegen die stärksten Spieler der Welt anzutreten – unabhängig vom Geschlecht der Gegner. Das ist SE3-Logik in Reinform: Wer wirklich etwas kann, sucht sich die härteste, nicht die bequemste Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Der eigene Weg abseits der Norm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet mein Weg – jenseits dessen, was von mir erwartet wird?</em> Polgár lehnte es zeitlebens ab, an der Frauenweltmeisterschaft teilzunehmen, obwohl sie diese vermutlich mühelos hätte gewinnen können. Stattdessen kletterte sie 2005 auf Platz acht der Weltrangliste aller Spieler – bis heute die einzige Frau, die je in die Top Ten der offenen Weltrangliste vordrang, ein Rekord, den niemand seither auch nur annähernd erreicht hat.</p>
+          <p class="vb-intro">Diese Eigenständigkeit zeigte sich auch in ihrem Spielstil: Polgár war bekannt für einen aggressiven, hochriskanten, taktisch geprägten Stil, der stark von ihrer eigenen Intuition statt von reiner Theorie geprägt war. Sie besiegte im Laufe ihrer Karriere zahlreiche amtierende und ehemalige Weltmeister – darunter Garri Kasparow, Anatoli Karpow, Boris Spasski, Wiswanathan Anand und Magnus Carlsen – nicht durch Anpassung an das etablierte System, sondern durch einen unverwechselbaren, eigenwilligen Zugang zum Spiel, der ihre Handschrift auf jedem Brett erkennbar machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem Handwerk echte Einzigartigkeit zu schöpfen. Polgár bewies über zwei Jahrzehnte hinweg, dass Kompetenz keine Frage des Geschlechts ist – nicht durch öffentliche Rhetorik, sondern durch das nüchterne, unwiderlegbare Ergebnis am Brett. Sie tat dies, ohne sich als Symbolfigur zu inszenieren; ihr Statement war das Spiel selbst.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> – bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unverwechselbar zu gelten, während man zugleich vermeidet, sich selbst als Person in den Vordergrund zu stellen. Der Viererflügel bringt seinen eigenen Schatten mit: die ständige Notwendigkeit, sich von jeder Erwartung – auch der Erwartung, die "beste Schachspielerin" zu sein – abzugrenzen und stattdessen einen völlig eigenen Maßstab zu setzen, was auf Dauer isolierend wirken kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Beweisen zum Weitergeben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin – jenseits aller Leistung.</em> Für die SE3w4 zeigt sich das darin, dass der eigene Wert nicht mehr an das nächste Turnierergebnis geknüpft bleibt, sondern an die Wahrhaftigkeit des eigenen Weges.</p>
+          <p class="vb-intro">2014 beendete Polgár ihre aktive Turnierkarriere und gründete die Judit Polgár Chess Foundation, die Schach als pädagogisches Werkzeug in Schulen einsetzt – ein Waschbär, der sein Handwerk nicht mehr als Beweis der eigenen Ausnahmestellung braucht, sondern als Geschenk an die nächste Generation weitergibt. Der Viererflügel, der stets nach der tieferen Bedeutung sucht, findet darin womöglich genau das, was er sucht: nicht den nächsten Rekord, sondern eine Spur, die über das eigene Leben hinausweist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Porträt: Kathrin Bauerfeind (SE3w4)"},
+        {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
       ])}
     </div>
   `);
@@ -86999,6 +87065,7 @@ function render() {
       "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
+      "beruehmte-judit-polgar": juditPolgarPortraitPage,
       "beruehmte-peter-falk": peterFalkPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
