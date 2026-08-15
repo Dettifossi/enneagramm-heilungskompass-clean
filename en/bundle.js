@@ -1028,6 +1028,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jesus Christ – Social Type 2",
     teaser:"SO2w1 · c. 4 BCE–30/33 CE. Itinerant preacher, founder of a world religion. Unconditional love as a commandment for all, an uncompromising demand for one's own self-sacrifice – the Golden Retriever whose devotion became the foundation of a world religion. Animal correspondence: Golden Retriever.",
     tags:["Religion","History"] , gender:"m"},
+  { route:"beruehmte-frida-kahlo", name:"Frida Kahlo", added:"2026-08-15", subtyp:"SE2w3",
+    heading:"Frida Kahlo – Self-Preservation Type 2",
+    teaser:"SP2w3 · 1907–1954. Mexican painter, roughly 200 paintings, 55 self-portraits. The own body as the first terrain of care, pain turned into an unmistakable image. Animal correspondence: Hippopotamus.",
+    tags:["Kunst"] },
   { route:"beruehmte-mutter-meera", name:"Mother Meera", added:"2026-08-15", subtyp:"SO2w1",
     heading:"Mother Meera – Social Type 2",
     teaser:"SO2w1 · 1960–2023. Spiritual teacher from India, decades of wordless darshan audiences in Thalheim, Germany. Care as a universal calling, quiet discipline rather than loud preaching. Animal correspondence: Golden Retriever.",
@@ -22031,6 +22035,70 @@ function johannSebastianBachPortraitPage() {
   `);
 }
 
+function fridaKahloPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-frida-kahlo-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Frida Kahlo</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Painter, 1907&ndash;1954 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal whose skin would crack within hours without constant contact with water. It even secretes a reddish fluid of its own that protects and heals its skin whenever it must briefly leave the water. Its element is not a preference. It is the condition under which its body can exist at all.</p>
+          <p class="vb-intro">Frida Kahlo lived this condition in her own body: at six she contracted polio, at eighteen she survived a bus accident that shattered her spine, pelvis, and right leg &ndash; over thirty operations and lifelong pain followed. Painting became for her what water is for the hippopotamus: not one artistic choice among several, but the single condition under which her body and her existence could continue at all.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: The Own Body as the First Terrain of Care</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> directs the Two's energy first toward its own survival, before it can turn outward. Naranjo called this subtype <em>Me First</em> &ndash; not out of selfishness, but because the SP2 must care for itself first in order to be able to be there for others at all. For Kahlo this survival struggle was no metaphor: months of confinement to bed after the accident, a plaster corset that bound her entire body, an easel above her bed and a mirror mounted on the ceiling &ndash; her first subject was, inevitably, herself.</p>
+          <p class="vb-intro">Out of this forced self-care grew a life's work: of roughly 200 paintings, about 55 are self-portraits &ndash; not vanity, but the most direct form of SP2 care, which addresses itself first to one's own wounded self before it can be communicated to anyone else.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Suffering That Becomes an Image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two an additional drive: the will to be seen, to not merely endure one's own suffering but to shape and display it. Where the pure SP2 might exhaust itself in quiet, invisible self-care, the Three-wing lends the ability to turn private pain into a public, unmistakable image.</p>
+          <p class="vb-intro">Kahlo's self-portraits are never self-pitying, but rendered with an almost theatrical precision: the unbroken eyebrow, the jewelry, the Tehuantepec dress, the openly displayed surgical scars and medical corsets in works such as <em>The Broken Column</em>. She staged her pain rather than hiding it &ndash; a decision that made her one of art history's most unmistakable visual brands long before the term existed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Between Diego, Politics, and Her Own Pain</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1929 Kahlo married the already famous muralist Diego Rivera &ndash; a relationship of deep mutual admiration, repeated affairs on both sides, and great mutual dependency, which she herself called the "second grave accident" of her life. Several miscarriages, caused by her accident injuries, she processed in unsparingly direct works such as <em>Henry Ford Hospital</em>. Politically she was committed to communism throughout her life, at one point sheltering Leon Trotsky in the shared household.</p>
+          <p class="vb-intro">During her lifetime she remained largely in Rivera's shadow; only decades after her death in 1954 did she become one of the most influential artists of the 20th century and a worldwide icon for self-determination, pain, and unguarded identity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 is its ability to create, out of existential hardship, a body of work that not only serves its own processing but touches millions of other people. Kahlo's radical honesty about the body, pain, and womanhood has encouraged generations of artists and sufferers not to hide their own suffering.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to oneself and others, even under the greatest strain. Kahlo kept painting, kept making public appearances &ndash; including her only solo exhibition in Mexico in 1953, to which she arrived lying in her hospital bed &ndash; even when her body had long since reached its limits. This refusal to withdraw is both strength and self-overextension: the SP2w3 that shows itself precisely because withdrawal is not an option for it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: From Survival to Creation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Two leads from the question <em>How do I survive this?</em> to the recognition <em>I may show what I have lived through, and make something of my own from it.</em> For the SP2w3, this path shows in how the initially forced self-observation from her sickbed became a deliberate, sovereign artistic language.</p>
+          <p class="vb-intro">Kahlo's last diary entry, written shortly before her death, read: "I hope the exit is joyful &ndash; and I hope never to return." Not a sentence of resignation, but one that holds pain and the will to live in balance to the very end. The Hippopotamus that could never leave its water &ndash; and that, precisely through this, learned to live in it, rather than merely survive.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function mutterMeeraPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -22760,6 +22828,7 @@ function yayoiKusamaPortraitPage() {
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
+        {route:"beruehmte-frida-kahlo", label:"Portrait: Frida Kahlo (SP2w3)"},
       ])}
     </div>
   `);
@@ -51972,6 +52041,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,
       "beruehmte-ruth-bader-ginsburg": ruthBaderGinsburgPortraitPage,
       "beruehmte-sahra-wagenknecht": sahraWagenknechtPortraitPage,
+      "beruehmte-frida-kahlo": fridaKahloPortraitPage,
       "beruehmte-mutter-meera": mutterMeeraPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-fjodor-dostojewski": fjodorDostojewskiPortraitPage,
