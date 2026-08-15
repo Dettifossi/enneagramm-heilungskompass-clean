@@ -73122,7 +73122,7 @@ function ottoMuehlPortraitPage() {
         und Drogendelikten zu sieben Jahren Haft verurteilt.
         Nach seiner Entlassung 1997 setzte er seine Malerkarriere fort,
         ohne sich öffentlich substanziell mit den Taten
-        auseinanderzusetzen. Er starb 2013 in Mallorca.
+        auseinanderzusetzen. Er starb 2013 in Moncarapacho bei Faro, Portugal.
         Die Kommune, ihr Zusammenbruch und die jahrzehntelangen
         Aufarbeitungsprozesse ehemaliger Mitglieder gelten bis heute
         als eines der größten Missbrauchssysteme der jüngeren
