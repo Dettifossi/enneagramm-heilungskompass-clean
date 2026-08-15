@@ -1068,6 +1068,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Frida Kahlo – Self-Preservation Type 2",
     teaser:"SP2w3 · 1907–1954. Mexican painter, roughly 200 paintings, 55 self-portraits. The own body as the first terrain of care, pain turned into an unmistakable image. Animal correspondence: Hippopotamus.",
     tags:["Kunst"] },
+  { route:"beruehmte-isabella-briggs", name:"Isabella Briggs", added:"2026-08-15", subtyp:"SE2w3",
+    heading:"Isabella Briggs – Self-Preservation Type 2",
+    teaser:"SP2w3 · born 2000 in Los Angeles. Actress and producer, known from 'The Summer I Turned Pretty'. Craft as the foundation of existence, from ensemble to own company (Dartboard Productions). Animal correspondence: Hippopotamus.",
+    tags:["Schauspiel"] },
   { route:"beruehmte-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", added:"2026-08-13", subtyp:"SE2w3",
     heading:"Wolfgang Amadeus Mozart – Self-Preservation Type 2",
     teaser:"SP2w3 · 1756–1791. Austrian composer. Child prodigy on European tour, break with the Archbishop of Salzburg, over 600 works in 35 years of life. The hippopotamus with the Three-wing: caring, crude humor, and tireless ambition on stage. Animal correspondence: Hippopotamus.",
@@ -22094,6 +22098,65 @@ function fridaKahloPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
+        {route:"beruehmte-isabella-briggs", label:"Portrait: Isabella Briggs (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function isabellaBriggsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-isabel-briggs-myers-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Isabella Briggs</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Actress &amp; producer, born 2000 in Los Angeles &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that does not assert its territory through volume, but through the sheer consistency with which it learns early where it belongs, and then steadily expands that place. Not an animal of the quick entrance, but one that enters the water at six years old and knows from then on where it belongs.</p>
+          <p class="vb-intro">Isabella Briggs began acting lessons in early childhood and first appeared professionally on camera at age seven, initially for commercials and print ads. This early, continuous devotion to a single craft, year after year, without a fast breakthrough, is the basic movement of the self-preservation Two: settling where one can be needed and seen, and steadily growing from there.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Craft as the Foundation of Existence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> directs its care first toward securing its own existence, before turning outward. Naranjo called this subtype <em>Me First</em> &ndash; not out of selfishness, but because the SP2 must build a solid foundation for itself before it can be there for others. Briggs completed a bachelor's degree at the renowned Carnegie Mellon School of Drama &ndash; one of the most rigorous and demanding acting programs in the United States, one that places formal discipline and technical precision above all else.</p>
+          <p class="vb-intro">This choice of an intensive, structured education over a fast, unprepared path in front of the camera shows the SP2 logic: first secure one's own ability, then build on it. Smaller roles in series such as <em>Evil</em> and <em>Sugar</em> followed, before she gained wider international recognition with the third season of <em>The Summer I Turned Pretty</em> &ndash; a path earned step by step, not made overnight.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Ensemble to Own Company</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two an additional drive: the will not only to contribute, but to build something visible, something growing. Where the pure SP2 might exhaust itself in the role of the reliable ensemble member, the Three-wing lends the ambition to become a creator in her own right.</p>
+          <p class="vb-intro">Alongside her acting work, Briggs is co-founder of Dartboard Productions, a nonprofit production company in New York that she founded together with former classmates. This is the typical SP2w3 movement: rather than pursuing only her own career out of the community she trained in, creating a structure that also gives others from that circle a platform &ndash; care for the group, combined with the entrepreneurial will to build something of her own.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Commercial to Series Lead</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Briggs's filmography shows a steady widening of her own range: from early appearances such as <em>After School</em> (2014), through supporting roles in <em>Fatal Attraction</em>, <em>Evil</em>, and <em>Sugar</em>, to the recurring role of Denise Russo in <em>The Summer I Turned Pretty</em> (2025), through which she reached a significantly broader audience.</p>
+          <p class="vb-intro">Alongside acting, she also works as a writer and producer &ndash; a sign that SP2w3 energy does not confine itself to a single form of expression, but expands wherever room for creation opens up.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 is the ability to build, out of steady, craft-grounded work, something that reaches beyond one's own career &ndash; visible in the founding of Dartboard Productions, which gives other young talents a platform rather than pursuing only her own path.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of having to earn one's own position through achievement and care for others. In a career still this young, this shows above all as steady, disciplined building: many small steps, no shortcuts, combined with the need to create something of her own early on, rather than merely collecting roles.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-frida-kahlo", label:"Portrait: Frida Kahlo (SP2w3)"},
       ])}
     </div>
   `);
@@ -52042,6 +52105,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-ruth-bader-ginsburg": ruthBaderGinsburgPortraitPage,
       "beruehmte-sahra-wagenknecht": sahraWagenknechtPortraitPage,
       "beruehmte-frida-kahlo": fridaKahloPortraitPage,
+      "beruehmte-isabella-briggs": isabellaBriggsPortraitPage,
       "beruehmte-mutter-meera": mutterMeeraPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-fjodor-dostojewski": fjodorDostojewskiPortraitPage,

@@ -31409,6 +31409,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Frida Kahlo – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · 1907–1954. Mexikanische Malerin, rund 200 Gemälde, 55 Selbstporträts. Der eigene Körper als erstes Terrain der Fürsorge, Schmerz, der zum unverwechselbaren Bild wird. Tierentsprechung: Flusspferd.",
     tags:["Kunst"], gender:"f"},
+  { route:"beruehmte-isabella-briggs", name:"Isabella Briggs", added:"2026-08-15", subtyp:"SE2w3",
+    heading:"Isabella Briggs – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 2000 in Los Angeles. Schauspielerin und Produzentin, bekannt aus ›Der Sommer, als ich schön wurde‹. Das Handwerk als Existenzgrundlage, vom Ensemble zum eigenen Unternehmen (Dartboard Productions). Tierentsprechung: Flusspferd.",
+    tags:["Schauspiel"], gender:"f"},
   { route:"beruehmte-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", added:"2026-08-13", subtyp:"SE2w3",
     heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · 1756–1791. Österreichischer Komponist. Wunderkind auf Europatournee, Bruch mit dem Salzburger Fürsterzbischof, über 600 Werke in 35 Lebensjahren. Das Flusspferd mit Dreierflügel: Fürsorge, derber Humor und unermüdlicher Ehrgeiz auf der Bühne. Tierentsprechung: Flusspferd.",
@@ -55777,6 +55781,65 @@ function fridaKahloPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3)"},
+        {route:"beruehmte-isabella-briggs", label:"Porträt: Isabella Briggs (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function isabellaBriggsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-isabel-briggs-myers-portrait.jpg" alt="Flusspferd" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Isabella Briggs</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Produzentin, geb. 2000 in Los Angeles &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das sein Revier nicht durch Lautstärke behauptet, sondern durch die schiere Konsequenz, mit der es früh lernt, wo sein Platz ist, und diesen Platz beharrlich ausbaut. Kein Tier des schnellen Auftritts, sondern eines, das mit sechs Jahren ins Wasser geht und von da an weiß, wo es hingehört.</p>
+          <p class="vb-intro">Isabella Briggs begann bereits im Kindesalter mit Schauspielunterricht und stand mit sieben Jahren erstmals professionell vor der Kamera, zunächst für Werbespots und Printanzeigen. Diese frühe, kontinuierliche Hinwendung zu einem einzigen Handwerk, Jahr für Jahr, ohne den schnellen Durchbruch, ist die Grundbewegung der selbsterhaltenden Zwei: sich dort einzurichten, wo man gebraucht und gesehen werden kann, und von dort aus beständig zu wachsen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Das Handwerk als Existenzgrundlage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet ihre Fürsorge zuerst auf die eigene Existenzsicherung, bevor sie sich nach außen wendet. Naranjo nannte diesen Subtyp <em>Me First</em> &ndash; nicht aus Egoismus, sondern weil die SE2 sich selbst eine tragfähige Grundlage schaffen muss, um später für andere da sein zu können. Briggs absolvierte ein Bachelorstudium an der renommierten Carnegie Mellon School of Drama &ndash; eine der striktesten und anspruchsvollsten Schauspielausbildungen der USA, die formale Disziplin und handwerkliche Genauigkeit über alles stellt.</p>
+          <p class="vb-intro">Diese Wahl einer intensiven, strukturierten Ausbildung statt eines schnellen, unvorbereiteten Wegs vor die Kamera zeigt die SE2-Logik: Erst die eigene Fähigkeit absichern, dann darauf aufbauen. Kleinere Rollen in Serien wie <em>Evil</em> und <em>Sugar</em> folgten, bevor sie mit der dritten Staffel von <em>Der Sommer, als ich schön wurde</em> größere internationale Bekanntheit erlangte &ndash; ein Weg, der Stufe für Stufe erarbeitet wurde, nicht über Nacht entstand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Ensemble zum eigenen Unternehmen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei einen zusätzlichen Antrieb: den Willen, nicht nur zu wirken, sondern etwas Sichtbares, Wachsendes aufzubauen. Wo die reine SE2 sich in der Rolle der verlässlichen Mitwirkenden erschöpfen könnte, verleiht der Dreierflügel den Ehrgeiz, selbst zur Gestalterin zu werden.</p>
+          <p class="vb-intro">Neben ihrer Schauspielarbeit ist Briggs Mitbegründerin von Dartboard Productions, einer gemeinnützigen Produktionsgesellschaft in New York, die sie gemeinsam mit ehemaligen Kommilitonen ins Leben rief. Das ist die typische SE2w3-Bewegung: Aus der eigenen Ausbildungsgemeinschaft heraus nicht nur die eigene Karriere zu verfolgen, sondern eine Struktur zu schaffen, die auch anderen aus diesem Kreis eine Plattform gibt &ndash; Fürsorge für die Gruppe, verbunden mit dem unternehmerischen Willen, etwas Eigenständiges aufzubauen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Werbespot zur Serienhauptrolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Briggs' Filmografie zeigt eine stetige Erweiterung des eigenen Radius: von frühen Auftritten wie <em>After School</em> (2014) über Nebenrollen in <em>Eine verhängnisvolle Affäre</em>, <em>Evil</em> und <em>Sugar</em> bis zur wiederkehrenden Rolle der Denise Russo in <em>Der Sommer, als ich schön wurde</em> (2025), mit der sie ein deutlich breiteres Publikum erreichte.</p>
+          <p class="vb-intro">Parallel zur Schauspielerei arbeitet sie auch als Autorin und Produzentin &ndash; ein Zeichen dafür, dass sich die SE2w3-Energie nicht auf eine einzige Ausdrucksform beschränkt, sondern sich dort ausweitet, wo Gestaltungsspielraum entsteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus stetiger, handwerklich fundierter Arbeit heraus etwas aufzubauen, das über die eigene Karriere hinausreicht &ndash; sichtbar an der Gründung von Dartboard Productions, die anderen jungen Talenten eine Plattform gibt, statt allein den eigenen Weg zu verfolgen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, sich die eigene Position durch Leistung und Fürsorge für andere verdienen zu müssen. Bei einer noch jungen Karriere wie dieser zeigt sich das vor allem als beständiger, disziplinierter Aufbau: viele kleine Schritte, keine Abkürzungen, verbunden mit dem Bedürfnis, früh schon nicht nur Rollen zu sammeln, sondern selbst etwas zu schaffen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-frida-kahlo", label:"Porträt: Frida Kahlo (SE2w3)"},
       ])}
     </div>
   `);
@@ -86319,6 +86382,7 @@ function render() {
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-frida-kahlo": fridaKahloPortraitPage,
+      "beruehmte-isabella-briggs": isabellaBriggsPortraitPage,
       "beruehmte-mutter-meera": mutterMeeraPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-klaus-kinski": klausKinskiPortraitPage,
