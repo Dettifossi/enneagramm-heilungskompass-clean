@@ -24261,6 +24261,7 @@ function magnusCarlsenPortraitPage() {
         {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
         {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
         {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
+        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SE3w4) – defeated him in chess"},
       ])}
     </div>
   `);
@@ -31601,13 +31602,14 @@ function juditPolgarPortraitPage() {
         <h2 class="vb-section">2. Self-Preservation Three: Skill Over Shine</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three &ndash; the subtype that does not display achievement outwardly but directs it inward: toward security, competence, craft mastery. SP3 does not ask <em>How am I seen?</em> but <em>What can I actually do?</em></p>
-          <p class="vb-intro">In 1991, at fifteen years and four months old, Polgár became the youngest grandmaster in chess history &ndash; at the time, younger than any male player before her, including Bobby Fischer's legendary record. Rather than establishing herself in women's chess, where a secure top position would have been guaranteed immediately, she chose to compete exclusively in open tournaments against the strongest players in the world, regardless of her opponents' gender. That is SP3 logic in its purest form: those who truly can do something seek out the hardest stage, not the most comfortable one.</p>
+          <p class="vb-intro">In 1991, at the age of fifteen years, or 4,079 days, Polgár became the youngest grandmaster in chess history &ndash; at the time, younger than any male player before her, including Bobby Fischer's legendary record. Rather than establishing herself in women's chess, where a secure top position would have been guaranteed immediately, she chose to compete exclusively in open tournaments against the strongest players in the world, regardless of her opponents' gender. That is SP3 logic in its purest form: those who truly can do something seek out the hardest stage, not the most comfortable one.</p>
+          <p class="vb-intro">SP3w4 is also known as the "professional" &ndash; someone who genuinely can do more than they let on, in contrast to the counter-type twin SP3w2, who often cultivates a friendly, engaging surface that doesn't always match its substance on closer inspection. The Four-wing gives SP3 a particular authenticity: no facade, but real, often quiet skill that only reveals its full depth on close examination.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Four-Wing: A Path of One's Own, Apart From the Norm</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three a question that goes beyond mere competence: <em>What does my path mean &ndash; beyond what is expected of me?</em> Polgár refused throughout her career to compete in the Women's World Championship, even though she likely could have won it with ease. Instead, in 2005 she climbed to eighth place in the open world ranking of all players &ndash; to this day the only woman ever to break into the top ten of the open world ranking, a record no one has come close to matching since.</p>
-          <p class="vb-intro">This independence also showed in her playing style: Polgár was known for an aggressive, high-risk, tactically driven approach shaped far more by her own intuition than by pure theory. Over the course of her career she defeated numerous reigning and former world champions &ndash; including Garry Kasparov, Anatoly Karpov, Boris Spassky, Viswanathan Anand, and Magnus Carlsen &ndash; not by conforming to the established system, but through an unmistakable, headstrong approach to the game that made her signature recognizable on every board.</p>
+          <p class="vb-intro">This independence also showed in her playing style: Polgár was known for an aggressive, high-risk, tactically driven approach shaped far more by her own intuition than by pure theory. Over the course of her career she defeated numerous reigning and former world champions &ndash; including Garry Kasparov, Anatoly Karpov, Boris Spassky, Viswanathan Anand, and Magnus Carlsen (SE1w9, also profiled among the Famous Personalities in this app) &ndash; not by conforming to the established system, but through an unmistakable, headstrong approach to the game that made her signature recognizable on every board.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and Shadow of Self-Preservation Three</h2>
@@ -31631,6 +31633,7 @@ function juditPolgarPortraitPage() {
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SE3w4)"},
         {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SE3w4)"},
+        {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SE1w9) – a world champion she defeated"},
       ])}
     </div>
   `);

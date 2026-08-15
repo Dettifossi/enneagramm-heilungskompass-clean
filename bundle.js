@@ -43235,6 +43235,7 @@ function magnusCarlsenPortraitPage() {
         {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
         {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
         {route:"beruehmte-sting", label:"Porträt: Sting (SE1w9)"},
+        {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4) – schlug ihn im Schach"},
       ])}
     </div>
   `);
@@ -58284,13 +58285,14 @@ function juditPolgarPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em></p>
-          <p class="vb-intro">1991 wurde Polgár im Alter von fünfzehn Jahren und viertausendneunundsiebzig Tagen die jüngste Großmeisterin der Schachgeschichte – zu diesem Zeitpunkt jünger als jeder männliche Spieler zuvor, einschließlich Bobby Fischers legendärem Rekord. Statt sich in der Frauenschachwelt zu etablieren, in der ihr sofort ein sicherer Spitzenplatz gewiss gewesen wäre, entschied sie sich, ausschließlich in offenen Turnieren gegen die stärksten Spieler der Welt anzutreten – unabhängig vom Geschlecht der Gegner. Das ist SE3-Logik in Reinform: Wer wirklich etwas kann, sucht sich die härteste, nicht die bequemste Bühne.</p>
+          <p class="vb-intro">1991 wurde Polgár im Alter von fünfzehn Jahren oder viertausendneunundsiebzig Tagen die jüngste Großmeisterin der Schachgeschichte – zu diesem Zeitpunkt jünger als jeder männliche Spieler zuvor, einschließlich Bobby Fischers legendärem Rekord. Statt sich in der Frauenschachwelt zu etablieren, in der ihr sofort ein sicherer Spitzenplatz gewiss gewesen wäre, entschied sie sich, ausschließlich in offenen Turnieren gegen die stärksten Spieler der Welt anzutreten – unabhängig vom Geschlecht der Gegner. Das ist SE3-Logik in Reinform: Wer wirklich etwas kann, sucht sich die härteste, nicht die bequemste Bühne.</p>
+          <p class="vb-intro">Man nennt die SE3w4 auch die "Profis": Menschen, die tatsächlich mehr können, als sie nach außen zeigen – im Unterschied zum Kontratyp-Zwilling SE3w2, der oft ein freundliches, einnehmendes Auftreten pflegt, dessen Substanz aber nicht immer mit dem ersten Eindruck mithält. Der Viererflügel verleiht der SE3 eine besondere Authentizität: keine Fassade, sondern echtes, oft stilles Können, das erst beim genauen Hinsehen seine volle Tiefe zeigt.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Viererflügel: Der eigene Weg abseits der Norm</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet mein Weg – jenseits dessen, was von mir erwartet wird?</em> Polgár lehnte es zeitlebens ab, an der Frauenweltmeisterschaft teilzunehmen, obwohl sie diese vermutlich mühelos hätte gewinnen können. Stattdessen kletterte sie 2005 auf Platz acht der Weltrangliste aller Spieler – bis heute die einzige Frau, die je in die Top Ten der offenen Weltrangliste vordrang, ein Rekord, den niemand seither auch nur annähernd erreicht hat.</p>
-          <p class="vb-intro">Diese Eigenständigkeit zeigte sich auch in ihrem Spielstil: Polgár war bekannt für einen aggressiven, hochriskanten, taktisch geprägten Stil, der stark von ihrer eigenen Intuition statt von reiner Theorie geprägt war. Sie besiegte im Laufe ihrer Karriere zahlreiche amtierende und ehemalige Weltmeister – darunter Garri Kasparow, Anatoli Karpow, Boris Spasski, Wiswanathan Anand und Magnus Carlsen – nicht durch Anpassung an das etablierte System, sondern durch einen unverwechselbaren, eigenwilligen Zugang zum Spiel, der ihre Handschrift auf jedem Brett erkennbar machte.</p>
+          <p class="vb-intro">Diese Eigenständigkeit zeigte sich auch in ihrem Spielstil: Polgár war bekannt für einen aggressiven, hochriskanten, taktisch geprägten Stil, der stark von ihrer eigenen Intuition statt von reiner Theorie geprägt war. Sie besiegte im Laufe ihrer Karriere zahlreiche amtierende und ehemalige Weltmeister – darunter Garri Kasparow, Anatoli Karpow, Boris Spasski, Wiswanathan Anand und Magnus Carlsen (SE1w9, ebenfalls unter den Berühmten Persönlichkeiten dieser App porträtiert) – nicht durch Anpassung an das etablierte System, sondern durch einen unverwechselbaren, eigenwilligen Zugang zum Spiel, der ihre Handschrift auf jedem Brett erkennbar machte.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
@@ -58314,6 +58316,7 @@ function juditPolgarPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-kathrin-bauerfeind", label:"Porträt: Kathrin Bauerfeind (SE3w4)"},
         {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
+        {route:"beruehmte-magnus-carlsen", label:"Porträt: Magnus Carlsen (SE1w9) – von ihr besiegter Weltmeister"},
       ])}
     </div>
   `);
