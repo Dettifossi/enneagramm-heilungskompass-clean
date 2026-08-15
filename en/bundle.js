@@ -22063,7 +22063,7 @@ function fridaKahloPortraitPage() {
         <h2 class="vb-section">2. The Self-Preservation Two: The Own Body as the First Terrain of Care</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> directs the Two's energy first toward its own survival, before it can turn outward. Naranjo called this subtype <em>Me First</em> &ndash; not out of selfishness, but because the SP2 must care for itself first in order to be able to be there for others at all. For Kahlo this survival struggle was no metaphor: months of confinement to bed after the accident, a plaster corset that bound her entire body, an easel above her bed and a mirror mounted on the ceiling &ndash; her first subject was, inevitably, herself.</p>
-          <p class="vb-intro">Out of this forced self-care grew a life's work: of roughly 200 paintings, about 55 are self-portraits &ndash; not vanity, but the most direct form of SP2 care, which addresses itself first to one's own wounded self before it can be communicated to anyone else.</p>
+          <p class="vb-intro">Out of this forced self-care grew a life's work: of roughly 200 paintings, about 55 are self-portraits &ndash; not vanity in the narrow sense, but the most direct form of SP2 care, which addresses itself first to one's own wounded self before it can be communicated to anyone else.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three-Wing: Suffering That Becomes an Image</h2>
@@ -22074,7 +22074,7 @@ function fridaKahloPortraitPage() {
 
         <h2 class="vb-section">4. The Work: Between Diego, Politics, and Her Own Pain</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In 1929 Kahlo married the already famous muralist Diego Rivera &ndash; a relationship of deep mutual admiration, repeated affairs on both sides, and great mutual dependency, which she herself called the "second grave accident" of her life. Several miscarriages, caused by her accident injuries, she processed in unsparingly direct works such as <em>Henry Ford Hospital</em>. Politically she was committed to communism throughout her life, at one point sheltering Leon Trotsky in the shared household.</p>
+          <p class="vb-intro">In 1929 Kahlo married the already famous muralist (mural and fresco painter) Diego Rivera &ndash; a relationship of deep mutual admiration, repeated affairs on both sides, and great mutual dependency, which she herself called the "second grave accident" of her life. Several miscarriages, caused by her accident injuries, she processed in unsparingly direct works such as <em>Henry Ford Hospital</em>. Politically she was committed to communism throughout her life, at one point sheltering Leon Trotsky in the shared household.</p>
           <p class="vb-intro">During her lifetime she remained largely in Rivera's shadow; only decades after her death in 1954 did she become one of the most influential artists of the 20th century and a worldwide icon for self-determination, pain, and unguarded identity.</p>
         </blockquote>
 
