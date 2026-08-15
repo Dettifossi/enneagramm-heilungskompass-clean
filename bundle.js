@@ -24166,6 +24166,7 @@ const registerEntries = [
   { term: "Robbie Williams",               route: "beruehmte-robbie-williams",             description: "Portrait: SX1w2 \u00b7 Sexueller Typ 1 \u00b7 S\u00e4nger, Entertainer, radikale Offenheit" },
   { term: "Romy Schneider",                route: "beruehmte-romy-schneider",              description: "Portrait: SO4w3 \u00b7 Sozialer Typ 4 \u00b7 Filmikone, Traum & Tragik" },
   { term: "Sadhguru",                      route: "beruehmte-sadhguru",                    description: "Portrait: SE3w2 \u00b7 Selbsterhaltender Typ 3 \u00b7 Yogi, spiritueller Lehrer, Isha Foundation" },
+  { term: "Lang Lang",                     route: "beruehmte-lang-lang",                   description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Pianist" },
   { term: "Sahra Wagenknecht",             route: "beruehmte-sahra-wagenknecht",           description: "Portrait: SO3w2 \u00b7 Sozialer Typ 3 \u00b7 Politikerin, BSW-Gr\u00fcnderin" },
   { term: "Teresa von \u00c1vila",               route: "beruehmte-teresa-von-avila",             description: "Portrait: SO3w4 \u00b7 Sozialer Typ 3 \u00b7 Mystikerin, Ordensreformerin, Kirchenlehrerin" },
   { term: "Sean Connery",                  route: "beruehmte-sean-connery",                description: "Portrait: SO3w4 \u00b7 Sozialer Typ 3 \u00b7 Schauspieler, James Bond" },
@@ -24471,6 +24472,7 @@ const registerEntriesEN = [
   { term: "Robbie Williams", route: "beruehmte-robbie-williams", description: "Portrait: SX1w2 \u00b7 Sexual Type 1 \u00b7 Singer, entertainer, radical honesty" },
   { term: "Romy Schneider", route: "beruehmte-romy-schneider", description: "Portrait: SO4w3 \u00b7 Social Type 4 \u00b7 Film icon, dream & tragedy" },
   { term: "Sadhguru", route: "beruehmte-sadhguru", description: "Portrait: SE3w2 \u00b7 Self-Preservation Type 3 \u00b7 Yogi, spiritual teacher, Isha Foundation" },
+  { term: "Lang Lang", route: "beruehmte-lang-lang", description: "Portrait: SP3w2 · Self-Preservation Type 3 · Pianist" },
   { term: "Sahra Wagenknecht", route: "beruehmte-sahra-wagenknecht", description: "Portrait: SO3w2 \u00b7 Social Type 3 \u00b7 Politician, BSW founder" },
   { term: "Teresa of \u00c1vila", route: "beruehmte-teresa-von-avila", description: "Portrait: SO3w4 \u00b7 Social Type 3 \u00b7 Mystic, monastic reformer, Doctor of the Church" },
   { term: "Sean Connery", route: "beruehmte-sean-connery", description: "Portrait: SO3w4 \u00b7 Social Type 3 \u00b7 Actor, James Bond" },
@@ -31551,6 +31553,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Joseph Haydn \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 1732\u20131809. \u00d6sterreichischer Komponist. Drei Jahrzehnte im Dienst der Esterh\u00e1zys, \u203aPapa Haydn\u2039, 104 Symphonien, Mentor von Mozart und Beethoven. Der Waschb\u00e4r mit Zweierfl\u00fcgel: stille Leistung, F\u00fcrsorge und sp\u00e4te Anerkennung durch die Londoner Reisen. Tierentsprechung: Waschb\u00e4r.",
     tags:["Musik","Geschichte"], gender:"m"},
+  { route:"beruehmte-lang-lang", name:"Lang Lang", added:"2026-08-15", subtyp:"SE3w2",
+    heading:"Lang Lang \u2013 Selbsterhaltender Typ 3",
+    teaser:"SE3w2 \u00b7 geb. 1982. Pianist. Durchbruch 1999 beim Ravinia Festival, Olympia-Er\u00f6ffnungsfeier Peking 2008, Lang Lang International Music Foundation. Der Waschb\u00e4r mit Zweierfl\u00fcgel: jahrelange stille Meisterschaft, die zur Br\u00fccke f\u00fcr andere wird. Tierentsprechung: Waschb\u00e4r.",
+    tags:["Musik"], gender:"m"},
   { route:"beruehmte-penelope-cruz", name:"Pen\u00e9lope Cruz", added:"2026-07-31", subtyp:"SE3w2",
     heading:"Pen\u00e9lope Cruz \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 geb. 1974. Oscar-pr\u00e4mierte Schauspielerin, jahrzehntelange Zusammenarbeit mit Almod\u00f3var. Handwerk statt Rampenlicht, Verwandlungskunst als Beruf \u2013 der Waschb\u00e4r, der in jeder Rolle verschwindet und doch niemals verloren geht. Tierentsprechung: Waschb\u00e4r.",
@@ -58711,6 +58717,72 @@ function josephHaydnPortraitPage() {
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3) – enger Freund und bewunderter Kollege"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – sein kurzzeitiger Schüler"},
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+        {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function langLangPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-lang-lang-portrait.jpg" alt="Lang Lang" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lang Lang</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Pianist, geb. 1982 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das mit unermüdlichem Fleiß im Verborgenen arbeitet, bevor es sich zeigt, und das erst durch jahrelanges, geduldiges Üben zu jener Geschicklichkeit findet, die andere für angeboren halten. Lang Lang, geboren 1982 in Shenyang im Nordosten Chinas, begann bereits mit drei Jahren Klavier zu spielen, nachdem ihn ein Zeichentrickfilm mit Klaviermusik zutiefst berührt hatte.</p>
+          <p class="vb-intro">Sein Vater Lang Guoren gab seine eigene Stelle bei der Polizei auf, um sich vollständig der musikalischen Ausbildung seines Sohnes zu widmen, und zog mit dem neunjährigen Lang Lang nach Peking, während die Mutter in Shenyang zurückblieb, um Geld zu verdienen. Die Trainingsjahre waren von extremer Disziplin und Härte geprägt – Stunden täglichen Übens, hohe Erwartungen, wenig Raum für eine gewöhnliche Kindheit. Der Waschbär lernte früh: Können entsteht nicht durch Talent allein, sondern durch endlose, oft schmerzhafte Wiederholung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch nachweisbare Meisterschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Sicherheit nicht durch Image, sondern durch nachweisbare, überprüfbare Kompetenz sucht. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Man wird nicht bewundert, weil man sich gut verkauft, sondern weil man tatsächlich liefert, was man verspricht.</p>
+          <p class="vb-intro">1999, im Alter von siebzehn Jahren, erhielt Lang Lang seinen Durchbruch als kurzfristiger Einspringer beim Ravinia Festival in Chicago, wo er mit dem Chicago Symphony Orchestra Tschaikowskys erstes Klavierkonzert spielte – ein Auftritt, der ihn über Nacht bekannt machte. Doch dieser scheinbare Zufallserfolg war das Ergebnis von vierzehn Jahren täglicher, disziplinierter Vorbereitung. Die SE3 investiert unsichtbar, jahrelang, bevor der sichtbare Moment kommt – und ist dann bereit, wenn die Gelegenheit sich bietet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Musik als Verbindung zur Welt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls zur Verbindung und Fürsorge. Lang Langs Bühnenpräsenz ist geprägt von überschwänglicher, körperlicher Ausdruckskraft – er lächelt während des Spielens, blickt ins Publikum, lässt seine Emotionen sichtbar werden, statt sich hinter kühler Virtuosität zu verschanzen. Kritiker nannten diesen Stil mitunter zu theatralisch, doch für Millionen neuer Klassikhörer wurde genau diese Zugänglichkeit zur Eintrittstür in eine Musikwelt, die ihnen zuvor fremd geblieben war.</p>
+          <p class="vb-intro">2008 gründete er die Lang Lang International Music Foundation, die Musikunterricht für Kinder aus einkommensschwachen Verhältnissen weltweit fördert, und wirkte maßgeblich am sogenannten "Lang-Lang-Effekt" mit: In China begannen nach seinem Erfolg schätzungsweise Millionen zusätzlicher Kinder, Klavier zu lernen. Der Waschbär mit dem Zweierflügel baut nicht nur die eigene Meisterschaft auf – er öffnet Türen für andere, damit sie denselben Weg finden können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Eitelkeit im Dienst der Zugänglichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Drei heißt <strong>Eitelkeit</strong> – bei der SE3 nicht als lautes Geltungsbedürfnis, sondern als das feine Bedürfnis, durch nachweisbare Leistung als unentbehrlich zu gelten. Bei Lang Lang zeigt sich das in seiner Bereitschaft, klassische Musik bewusst zu populärer Kultur zu öffnen: Kollaborationen mit Popstars wie Pharrell Williams und Metallica, ein Auftritt bei der Eröffnungsfeier der Olympischen Spiele 2008 in Peking vor einem Milliardenpublikum, Werbekampagnen für internationale Marken.</p>
+          <p class="vb-intro">Diese Grenzüberschreitungen brachten ihm Kritik aus konservativeren Kreisen der klassischen Musikwelt ein, die seinen Stil als zu kommerziell empfanden. Doch für die SE3w2 ist Reichweite kein Widerspruch zu Substanz, sondern deren logische Konsequenz: Wer wirklich etwas zu geben hat, will es möglichst vielen Menschen zugänglich machen, nicht nur einem exklusiven Kreis von Kennern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Verletzung und die Rückkehr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2017 zwang eine schwere Sehnenentzündung im linken Arm, verursacht durch Jahrzehnte intensiven Übens und öffentlicher Auftritte, Lang Lang zu einer über einjährigen Spielpause – eine existenzielle Bedrohung für einen Musiker, dessen gesamte Identität auf nachweisbarer, körperlicher Meisterschaft beruhte. Statt zu verzweifeln, nutzte er die Zeit, um sich verstärkt der Musikvermittlung und dem Unterrichten zu widmen, und kehrte 2018 mit neuer Reife an die Bühne zurück.</p>
+          <p class="vb-intro">2019 heiratete er die deutsche Pianistin Gina Alice Redlinger, mit der er seither auch gemeinsam auftritt und unterrichtet. Der Waschbär, dessen Sicherheit einst allein auf der eigenen Spielfähigkeit ruhte, fand in der Krise eine neue, tragfähigere Grundlage: nicht nur zu können, sondern das eigene Können weiterzugeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der eine Generation für das Klavier begeisterte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lang Lang gilt heute als einer der einflussreichsten klassischen Musiker seiner Generation – nicht nur wegen seiner technischen Virtuosität, sondern weil er es wie kaum ein anderer schaffte, klassische Musik aus dem Konzertsaal-Elfenbeinturm zu holen und einem globalen, jungen Publikum zugänglich zu machen.</p>
+          <p class="vb-intro">Vom disziplinierten Übungskind in Shenyang zum Weltstar, der vor Milliardenpublikum spielt und gleichzeitig Kindern in einkommensschwachen Regionen den Zugang zur Musik ermöglicht: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Meisterschaft, die sich nicht selbst genügt, sondern zur Brücke für andere wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
       ])}
     </div>
@@ -87062,6 +87134,7 @@ function render() {
       "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
+      "beruehmte-lang-lang": langLangPortraitPage,
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
       "beruehmte-heraklit": heraklitPortraitPage,

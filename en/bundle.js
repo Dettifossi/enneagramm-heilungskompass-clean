@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=42";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=43";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=9";
@@ -351,6 +351,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Joseph Haydn – Self-Preservation Type 3",
     teaser:"SP3w2 · 1732–1809. Austrian composer. Three decades in service of the Esterházys, \"Papa Haydn\", 104 symphonies, mentor to Mozart and Beethoven. The raccoon with the Two-wing: quiet achievement, care, and late recognition through the London trips. Animal correspondence: Raccoon.",
     tags:["Music","History"], gender:"m"},
+  { route:"beruehmte-lang-lang", name:"Lang Lang", added:"2026-08-15", subtyp:"SE3w2",
+    heading:"Lang Lang – Self-Preservation Type 3",
+    teaser:"SP3w2 · born 1982. Pianist. Breakthrough in 1999 at the Ravinia Festival, 2008 Beijing Olympics opening ceremony, Lang Lang International Music Foundation. The raccoon with the Two-wing: years of quiet mastery that becomes a bridge for others. Animal correspondence: Raccoon.",
+    tags:["Music"], gender:"m"},
   { route:"beruehmte-penelope-cruz", name:"Penélope Cruz", added:"2026-07-31", subtyp:"SE3w2",
     heading:"Penélope Cruz – Self-Preservation Type 3",
     teaser:"SP3w2 · born 1974. Oscar-winning actress, decades-long collaboration with Almodóvar. Craft over spotlight, transformation as a profession – the raccoon that vanishes into every role and never gets lost. Animal correspondence: Raccoon.",
@@ -31762,6 +31766,72 @@ function josephHaydnPortraitPage() {
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5) – his brief student"},
         {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
+        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function langLangPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-lang-lang-portrait.jpg" alt="Lang Lang" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lang Lang</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Pianist, born 1982 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that works tirelessly out of sight before it shows itself, arriving at a skill others assume is innate only through years of patient practice. Lang Lang, born in 1982 in Shenyang in northeastern China, began playing piano at age three, after being deeply moved by piano music in a cartoon.</p>
+          <p class="vb-intro">His father, Lang Guoren, gave up his own job with the police to devote himself entirely to his son's musical education, and moved with the nine-year-old Lang Lang to Beijing while his mother stayed behind in Shenyang to earn money. The years of training were marked by extreme discipline and severity &ndash; hours of daily practice, high expectations, little room for an ordinary childhood. The raccoon learned early: skill does not come from talent alone, but from endless, often painful repetition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Three: Security Through Demonstrable Mastery</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three &ndash; the subtype that seeks security not through image but through demonstrable, verifiable competence. Naranjo called this subtype <em>Security</em>: one is admired not because one sells oneself well, but because one actually delivers what one promises.</p>
+          <p class="vb-intro">In 1999, at seventeen, Lang Lang got his breakthrough as a last-minute substitute at the Ravinia Festival in Chicago, where he performed Tchaikovsky's First Piano Concerto with the Chicago Symphony Orchestra &ndash; a performance that made him famous overnight. But this seemingly lucky break was the result of fourteen years of daily, disciplined preparation. The SP3 invests invisibly, for years, before the visible moment arrives &ndash; and is ready when the opportunity presents itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Music as Connection to the World</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the self-preservation Three a genuine impulse toward connection and care. Lang Lang's stage presence is marked by exuberant, physical expressiveness &ndash; he smiles while playing, looks out at the audience, lets his emotions become visible rather than hiding behind cool virtuosity. Critics have sometimes called this style overly theatrical, but for millions of new classical listeners, exactly this accessibility became the entry point into a musical world that had previously remained foreign to them.</p>
+          <p class="vb-intro">In 2008 he founded the Lang Lang International Music Foundation, which supports music education for children from low-income backgrounds worldwide, and played a decisive role in the so-called "Lang Lang effect": following his success, an estimated millions of additional children in China began learning piano. The raccoon with the Two-wing does not only build its own mastery &ndash; it opens doors for others so they can find the same path.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Vanity in the Service of Accessibility</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Three is called <strong>vanity</strong> &ndash; in the SP3, not as loud attention-seeking but as the subtle need to be seen as indispensable through demonstrable achievement. In Lang Lang this shows in his willingness to deliberately open classical music to popular culture: collaborations with pop stars such as Pharrell Williams and Metallica, a performance at the opening ceremony of the 2008 Beijing Olympics before a global audience of billions, advertising campaigns for international brands.</p>
+          <p class="vb-intro">These border crossings brought him criticism from more conservative corners of the classical music world, who found his style too commercial. But for SP3w2, reach is not a contradiction to substance but its logical consequence: those who truly have something to give want to make it accessible to as many people as possible, not just to an exclusive circle of connoisseurs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Injury and the Return</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2017, a severe tendon inflammation in his left arm, caused by decades of intense practice and public performance, forced Lang Lang into a break of more than a year &ndash; an existential threat to a musician whose entire identity rested on demonstrable, physical mastery. Rather than despairing, he used the time to focus more on music education and teaching, and returned to the stage in 2018 with new maturity.</p>
+          <p class="vb-intro">In 2019 he married the German pianist Gina Alice Redlinger, with whom he has since performed and taught together. The raccoon, whose security once rested solely on his own playing ability, found in the crisis a new, more sustainable foundation: not just to be able to do something, but to pass that ability on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Raccoon That Inspired a Generation to Play Piano</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lang Lang is regarded today as one of the most influential classical musicians of his generation &ndash; not only because of his technical virtuosity, but because he managed, like few others, to bring classical music out of the concert-hall ivory tower and make it accessible to a global, young audience.</p>
+          <p class="vb-intro">From a disciplined practice child in Shenyang to a global star performing before billions while simultaneously giving children in low-income regions access to music: that is the self-preservation Three with the Two-wing at its most mature &ndash; mastery that is not self-sufficient, but becomes a bridge for others.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SE3w2)"},
+        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
       ])}
     </div>
   `);
@@ -52847,6 +52917,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
+      "beruehmte-lang-lang": langLangPortraitPage,
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
       "beruehmte-heraklit": heraklitPortraitPage,
