@@ -31373,6 +31373,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo DiCaprio \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 geb. 1974. Schauspieler, Klimaaktivist. F\u00fcnfmal Oscar-nominiert, sechsmal angetreten \u2013 und im Moment des Triumphes sprach er \u00fcber den Klimawandel, nicht \u00fcber sich. Die Schwarze Mamba brennt nicht f\u00fcr Applaus. Tierentsprechung: Schwarze Mamba.",
     tags:["Schauspiel"] , gender:"m"},
+  { route:"beruehmte-jj-liu", name:"J. J. Liu", added:"2026-08-15", subtyp:"SE2w1",
+    heading:"J. J. Liu – Selbsterhaltender Typ 2",
+    teaser:"SE2w1 · geb. 1965 in Taipeh, Taiwan. Profi-Pokerspielerin, über 4 Mio. US-Dollar Turniergewinne, Women in Poker Hall of Fame. Strategie als innere Ordnung, Ausdauer trotz körperlicher Schmerzen bis zum längsten TV-Finaltisch der WPT-Geschichte. Tierentsprechung: Flusspferd.",
+    tags:["Sport"], gender:"f"},
   { route:"beruehmte-franka-potente", name:"Franka Potente", added:"2026-08-15", subtyp:"SE2w1",
     heading:"Franka Potente – Selbsterhaltender Typ 2",
     teaser:"SE2w1 · geb. 1974 in Dülmen. Schauspielerin, Regisseurin und Musikerin, ›Lola rennt‹, Bourne-Reihe. Fürsorge im vertrauten Kreis, kompromisslose künstlerische Integrität statt Hollywood-Logik. Tierentsprechung: Flusspferd.",
@@ -53770,6 +53774,64 @@ function gretaThunbergPortraitPage() {
   `);
 }
 
+function jjLiuPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jj-liu-portrait.jpg" alt="Flusspferd" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">J. J. Liu</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Profi-Pokerspielerin, geb. 1965 in Taipeh, Taiwan &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das nicht durch Tempo oder Lautstärke beeindruckt, sondern durch die schiere Ausdauer, mit der es an seinem Platz bleibt, auch wenn die Umstände unangenehm werden. Es zieht sich nicht zurück, sobald es unbequem wird. Es bleibt, weil Bleiben seine Stärke ist.</p>
+          <p class="vb-intro">J. J. Liu bewies diese Ausdauer 2007 beim WPT Bay 101 Shooting Star Championship auf eindrückliche Weise: Sie spielte stundenlang unter erheblichen körperlichen Schmerzen bis zum Ende des damals längsten TV-Finaltischs der WPT-Geschichte &ndash; und erreichte mit Platz zwei die bis dahin beste Platzierung, die je eine Frau bei einem WPT-Championship-Event erzielt hatte. Das Flusspferd verlässt sein Wasser nicht, wenn es schwierig wird. Es bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Sicherung der eigenen Position</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet ihre Energie zuerst auf die eigene, konkrete Existenzsicherung, bevor sie sich nach außen wendet. Naranjo nannte diesen Subtyp <em>Me First</em>: nicht aus Egoismus, sondern weil die SE2 erst eine tragfähige eigene Basis braucht, um langfristig bestehen zu können.</p>
+          <p class="vb-intro">Liu vollzog 2004 einen radikalen Schnitt: Nach Jahren als erfolgreiche Teilzeitspielerin gab sie ihre gesicherte Karriere als Softwareingenieurin im Silicon Valley vollständig auf, um sich dem Pokersport zu widmen &ndash; ein Schritt, der erst nach jahrelanger, sorgfältiger Prüfung der eigenen Fähigkeiten erfolgte, nicht aus spontanem Enthusiasmus. Diese besonnene, aber konsequente Absicherung der eigenen Existenzgrundlage, bevor der große Schritt gewagt wird, ist der Kern der SE2-Bewegung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Strategie als innere Ordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der selbsterhaltenden Zwei ein inneres Regelwerk, ein System, an dem sie sich unabhängig vom unmittelbaren Ergebnis orientieren kann. Er verwandelt Intuition in Methode und macht aus Fürsorge für die eigene Position eine diszipliniert verfolgte Strategie.</p>
+          <p class="vb-intro">Liu selbst führt ihren analytischen Erfolg am Pokertisch auf die bewusste Anwendung strategischer Prinzipien aus Sun Tzus <em>Die Kunst des Krieges</em> zurück &ndash; ein philosophisches, in sich geschlossenes Regelwerk, das sie auf ihr Spiel überträgt. Auch ihr Weg vom Ingenieursberuf zum Pokerprofi zeigt diese Denkweise: Sie erkannte früh, dass ihr logischer und mathematischer Verstand ihr am Tisch einen strukturellen Vorteil verschaffen konnte, und baute darauf systematisch auf, statt auf Glück oder Instinkt allein zu vertrauen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von Taipeh ins Silicon Valley zum Final Table</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Liu zog aus Taiwan in die USA, um an der Bradley University in Illinois einen Master-Abschluss in Computertechnik zu erwerben, und arbeitete anschließend als Softwareingenieurin. Erst ein Besuch im Bay 101 Casino in San Jose führte sie zum Poker &ndash; ein Umweg über eine völlig andere Karriere, bevor sie ihre eigentliche Stärke fand.</p>
+          <p class="vb-intro">Neben ihrem legendären zweiten Platz beim WPT Bay 101 2007 gewann sie 2006 die WPT Ladies Night IV im Heads-up gegen Kelli Griggs und erreichte 2005 Platz vier beim WPT Five Diamond World Poker Classic. Mit kumulierten Turniergewinnen von über vier Millionen US-Dollar zählt sie zu den erfolgreichsten Pokerspielerinnen der Geschichte; 2012 wurde sie in die Women in Poker Hall of Fame aufgenommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w1 ist die Verbindung aus Zähigkeit und innerer Ordnung: die Fähigkeit, unter Druck und selbst unter körperlichem Schmerz an der eigenen Strategie festzuhalten, statt sich von der Situation überwältigen zu lassen. Lius Auftreten am Tisch &ndash; elegant, kultiviert, unaufgeregt &ndash; zeigt diese reife Form der SE2-Energie: Stärke, die keine Show braucht.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, sich die eigene Position durch Können und Beharrlichkeit verdient zu haben. Der Einserflügel kann diesen Stolz in strenge Selbstkontrolle verwandeln: die Gefahr, jede Entscheidung am eigenen inneren Regelwerk zu messen und wenig Raum für Spontaneität oder Fehler zuzulassen. Bei einem Spiel, das auch Variabilität und Anpassungsfähigkeit erfordert, kann diese Strenge ebenso Stärke wie Einschränkung sein.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-franka-potente", label:"Porträt: Franka Potente (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function frankaPotentePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -53824,6 +53886,7 @@ function frankaPotentePortraitPage() {
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-margot-friedlaender", label:"Porträt: Margot Friedländer (SE2w1)"},
         {route:"beruehmte-soeren-kierkegaard", label:"Porträt: Søren Kierkegaard (SE2w1)"},
+        {route:"beruehmte-jj-liu", label:"Porträt: J. J. Liu (SE2w1)"},
       ])}
     </div>
   `);
@@ -86519,6 +86582,7 @@ function render() {
       "beruehmte-sam-altman": samAltmanPortraitPage,
       "beruehmte-aristoteles": aristotelesPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
+      "beruehmte-jj-liu": jjLiuPortraitPage,
       "beruehmte-franka-potente": frankaPotentePortraitPage,
       "beruehmte-margot-friedlaender": margotFriedlaenderPortraitPage,
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,

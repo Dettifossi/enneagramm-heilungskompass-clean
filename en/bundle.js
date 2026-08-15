@@ -267,6 +267,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo DiCaprio – Sexual Type 1",
     teaser:"SX1w2 · born 1974. Actor, climate activist. Five Oscar nominations, six attempts – and in the moment of triumph he spoke about climate change, not himself. The Black Mamba does not burn for applause. Animal correspondence: Black Mamba.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-jj-liu", name:"J. J. Liu", added:"2026-08-15", subtyp:"SE2w1",
+    heading:"J. J. Liu – Self-Preservation Type 2",
+    teaser:"SP2w1 · born 1965 in Taipei, Taiwan. Professional poker player, over $4 million in tournament earnings, Women in Poker Hall of Fame. Strategy as inner order, endurance through physical pain to the longest televised final table in WPT history. Animal correspondence: Hippopotamus.",
+    tags:["Sport"], gender:"f"},
   { route:"beruehmte-franka-potente", name:"Franka Potente", added:"2026-08-15", subtyp:"SE2w1",
     heading:"Franka Potente – Self-Preservation Type 2",
     teaser:"SP2w1 · born 1974 in Dülmen, Germany. Actress, director, and musician, 'Run Lola Run', the Bourne series. Care within the familiar circle, uncompromising artistic integrity over Hollywood logic. Animal correspondence: Hippopotamus.",
@@ -29862,6 +29866,64 @@ function gretaThunbergPortraitPage() {
   `);
 }
 
+function jjLiuPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jj-liu-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">J. J. Liu</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Professional poker player, born 1965 in Taipei, Taiwan &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that does not impress through speed or volume, but through the sheer endurance with which it stays in place even when conditions turn uncomfortable. It does not withdraw once things get difficult. It stays, because staying is its strength.</p>
+          <p class="vb-intro">J. J. Liu demonstrated exactly this endurance in striking fashion at the 2007 WPT Bay 101 Shooting Star Championship: she played for hours through considerable physical pain, through to the end of what was then the longest televised final table in WPT history &ndash; finishing runner-up, at the time the best result any woman had ever achieved at a WPT Championship event. The Hippopotamus does not leave its water when things get hard. It stays.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Securing One's Own Position</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> directs its energy first toward securing its own concrete existence, before turning outward. Naranjo called this subtype <em>Me First</em>: not out of selfishness, but because the SP2 needs a viable foundation of its own before it can endure over the long term.</p>
+          <p class="vb-intro">In 2004 Liu made a radical cut: after years as a successful part-time player, she gave up her secure career as a software engineer in Silicon Valley entirely to devote herself to poker &ndash; a step taken only after years of careful assessment of her own abilities, not out of spontaneous enthusiasm. This measured but decisive securing of one's own foundation before taking the big step is at the core of the SP2 movement.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Strategy as Inner Order</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the self-preservation Two an inner set of standards, a system it can orient itself by regardless of immediate outcome. It turns intuition into method and transforms care for one's own position into a disciplined, consistently pursued strategy.</p>
+          <p class="vb-intro">Liu herself attributes her analytical success at the table to the deliberate application of strategic principles from Sun Tzu's <em>The Art of War</em> &ndash; a self-contained philosophical framework she applies to her game. Her path from engineer to poker professional shows the same mindset: she recognized early that her logical, mathematical mind gave her a structural edge at the table, and built on it systematically rather than relying on luck or instinct alone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Taipei to Silicon Valley to the Final Table</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Liu moved from Taiwan to the United States to earn a master's degree in computer engineering at Bradley University in Illinois, and then worked as a software engineer. Only a visit to the Bay 101 Casino in San Jose led her to poker &ndash; a detour through an entirely different career before she found her true strength.</p>
+          <p class="vb-intro">Alongside her legendary runner-up finish at the 2007 WPT Bay 101, she won the WPT Ladies Night IV heads-up against Kelli Griggs in 2006 and finished fourth at the WPT Five Diamond World Poker Classic in 2005. With career tournament earnings exceeding four million US dollars, she ranks among the most successful female poker players in history; in 2012 she was inducted into the Women in Poker Hall of Fame.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w1 is the combination of toughness and inner order: the ability to hold to one's own strategy under pressure and even physical pain, rather than being overwhelmed by the situation. Liu's presence at the table &ndash; elegant, cultivated, unruffled &ndash; shows this mature form of SP2 energy: strength that needs no show.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of having earned one's own position through skill and persistence. The One-wing can turn this pride into strict self-control: the risk of measuring every decision against one's own inner rulebook, leaving little room for spontaneity or error. In a game that also demands variability and adaptability, this strictness can be both strength and limitation.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-franka-potente", label:"Portrait: Franka Potente (SP2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function frankaPotentePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -29916,6 +29978,7 @@ function frankaPotentePortraitPage() {
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SP2w1)"},
         {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SP2w1)"},
+        {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SP2w1)"},
       ])}
     </div>
   `);
@@ -52138,6 +52201,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
+      "beruehmte-jj-liu": jjLiuPortraitPage,
       "beruehmte-franka-potente": frankaPotentePortraitPage,
       "beruehmte-margot-friedlaender": margotFriedlaenderPortraitPage,
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
