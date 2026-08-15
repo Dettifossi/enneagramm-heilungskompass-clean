@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=35";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=36";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=9";
@@ -515,6 +515,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"René Descartes – Self-Preservation Type 5",
     teaser:"SP5w6 · 1596–1650. French philosopher and mathematician, founder of rationalism. Cogito ergo sum, methodical doubt, more than twenty moves in the Netherlands. The owl with the Six-wing: radical caution in the search for absolute certainty. Animal correspondence: Owl.",
     tags:["History","Philosophy"], gender:"m"},
+  { route:"beruehmte-hermann-hesse", name:"Hermann Hesse", added:"2026-08-15", subtyp:"SE5w6",
+    heading:"Hermann Hesse – Self-Preservation Type 5",
+    teaser:"SP5w6 · 1877–1962. Writer, Nobel laureate. Forty years withdrawn in Montagnola – Siddhartha, Steppenwolf, The Glass Bead Game. The owl that made retreat an art form. Animal correspondence: Owl.",
+    tags:["Literature"], gender:"m"},
   { route:"beruehmte-isaac-newton", name:"Isaac Newton", added:"2026-08-14", subtyp:"SO5w6",
     heading:"Isaac Newton – Social Type 5",
     teaser:"SO5w6 · 1642/43–1727. English physicist and mathematician, Principia Mathematica, law of gravitation. Decades of hidden alchemy and theology studies, priority dispute with Leibniz, president of the Royal Society. The octopus with the Six-wing: knowledge as an instrument of power, security through institutional control. Animal correspondence: Octopus.",
@@ -27205,6 +27209,72 @@ function reneDescartesPortraitPage() {
         {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
+        {route:"beruehmte-hermann-hesse", label:"Portrait: Hermann Hesse (SP5w6)"},
+        {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
+      ])}
+    </div>
+  `);
+}
+
+function hermannHessePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-hermann-hesse-portrait.jpg" alt="Hermann Hesse" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hermann Hesse</p>
+        <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Writer, Nobel laureate, 1877&ndash;1962 &ndash; Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Owl in the Ticino Garden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>owl</strong> is the animal of Type 5 &ndash; a creature that withdraws in order to see clearly, that keeps its habitat narrow and knows every corner of it by heart. Few writers lived this logic of retreat as consistently as Hermann Hesse: in 1919, in the middle of the post-war crisis, he left Germany and his first family and moved alone to Montagnola in Ticino, into a small house called Casa Camuzzi. He lived there for the following forty years &ndash; withdrawn, with a garden, watercolors, and a strictly guarded daily routine that hardly anyone from outside was allowed to disrupt.</p>
+          <p class="vb-intro">Hermann Hesse was born in 1877 in Calw, the son of a missionary in a strictly pietist household that early on gave him the feeling of being different from what was expected of him. At fifteen he broke out of the Maulbronn seminary, suffered a severe crisis, and was temporarily admitted to a psychiatric institution. This early experience &ndash; that the world of institutions and expectations was not his place &ndash; shaped a lifelong movement inward, away from communities and toward a self-built, carefully controlled inner space.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Five: The Castle in Ticino</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Five (SP5)</strong> <em>Castle</em>: one's own territory becomes a fortress that limits the world's access as much as possible. Hesse's life in Montagnola followed exactly this pattern. He built himself a strictly regulated daily rhythm of writing, gardening, and painting, received visitors only by prior arrangement, and, when his strength ran low, withdrew completely for weeks at a time. Magazines, manuscripts, and letters piled up in his study &ndash; a territory in which everything had its place and which he ceded to no one.</p>
+          <p class="vb-intro">At the same time, Hesse maintained one of the most extensive correspondences in German literary history &ndash; more than 35,000 letters survive. This is the SP5's typical solution to the problem of closeness: contact happens, but filtered, at a distance, on one's own time and at one's own pace. The letter allows connection without having to open the castle. After his nervous breakdown in 1916, he also underwent psychoanalysis with a student of C. G. Jung, Josef Bernhard Lang &ndash; another very Five-like strategy: examining one's own inner disorder not through relationships, but within a clearly defined, therapeutic frame.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Watchful Concern for the World</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the self-preservation Five a watchful, often anxious alertness to threats &ndash; and a wary distrust of any form of mass movement. When the First World War broke out in 1914, Hesse spoke out sharply in the essay "O Friends, Not These Tones!" against the war euphoria rampant among German intellectuals &ndash; a position that earned him the label of traitor to the fatherland back home and made him a permanent outsider. He withdrew even further afterward, though he did practical work caring for German prisoners of war in Switzerland, while avoiding any political co-optation.</p>
+          <p class="vb-intro">The same watchful caution showed again in the 1930s: from the safe distance of Switzerland, Hesse observed the rise of National Socialism with growing unease, supported persecuted and emigrated colleagues such as Thomas Mann and Peter Weiss with letters, reviews, and contacts &ndash; but remained himself in his protected retreat. The Six-wing worries about the world without exposing itself to it: vigilance as a protective stance, not a call to action. As the reinforcement type of the Five, the self-preservation Five pursues its search for knowledge and understanding not in moderation but intensified &ndash; in Hesse this showed in a lifelong, almost obsessive engagement with Eastern philosophy, psychoanalysis, and his own inner development, which he worked through again and again in literary form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: The Individual Between Two Worlds</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hesse's central literary theme is exactly the SP5's core dilemma: the conflict between retreat into one's own inner world and the longing to still be part of something larger. In "Siddhartha" (1922), an individual seeks his own path to insight apart from all doctrines and communities. In "Steppenwolf" (1927), a man is torn between a bourgeois longing to belong and the certainty that he was not made for society &ndash; an image in which generations of outsiders recognized themselves.</p>
+          <p class="vb-intro">"The Glass Bead Game" (1943), his last major work, transposes this conflict into a distant future: a province of scholars, entirely sealed off from the world, where pure knowledge becomes an end in itself &ndash; until the protagonist realizes that even this perfect castle must withstand reality. In 1946, Hesse received the Nobel Prize in Literature for this work, which, true to his logic of retreat, he did not accept in person in Stockholm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SP5w6 shows in the clarity and honesty of Hesse's self-observation: scarcely any writer has described the inner conflict of the modern person so precisely and without embellishment. His books became cult works for entire generations &ndash; from the German youth movement of the 1920s to the American counterculture of the 1960s &ndash; precisely because they gave a language to the feeling of not belonging, without romanticizing it.</p>
+          <p class="vb-intro">The shadow lies in the price of this retreat: Hesse's first marriage to Maria Bernoulli broke apart in part because of his inability to bear lasting closeness; his relationship with his three sons remained distant throughout his life. Migraines, eye ailments, and recurring depressive crises accompanied him his whole life &ndash; the castle protected him from the world, but it could not dissolve his own inner unrest, only provide a frame within which he could work through it in writing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Owl Who Stayed in the Garden to the End</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Even in old age, Hesse barely changed his life: he stayed in Montagnola, tended his garden, painted watercolors of the Ticino landscape, and continued writing letters to readers from all over the world who had recognized something of themselves in his books. On August 9, 1962, he died there in his sleep, at the age of 85 &ndash; in the place he had built for himself as a safe retreat, and which, unlike Descartes at the end of his life, he never left again.</p>
+          <p class="vb-intro">What remained is a body of work that has accompanied millions of people who saw themselves as outsiders &ndash; and that shows that the owl's radical retreat can produce not only isolation, but also a language for what community alone cannot express: the individual's path to themselves.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
         {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
       ])}
     </div>
@@ -52266,6 +52336,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-thomas-von-aquin": thomasVonAquinPortraitPage,
       "beruehmte-adam-smith": adamSmithPortraitPage,
       "beruehmte-rene-descartes": reneDescartesPortraitPage,
+      "beruehmte-hermann-hesse": hermannHessePortraitPage,
       "beruehmte-xanthippe": xanthippePortraitPage,
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
       "beruehmte-abida-parveen": abidaParveenPortraitPage,
