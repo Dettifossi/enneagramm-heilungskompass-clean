@@ -24147,6 +24147,7 @@ const registerEntries = [
   { term: "Madame Tussaud",                route: "beruehmte-madame-tussaud",               description: "Portrait: SE3w4 \u00b7 Selbsterhaltender Typ 3 \u00b7 Wachsbildnerin, Museumsgr\u00fcnderin" },
   { term: "Osho",                          route: "beruehmte-osho",                        description: "Portrait: SE3w4 \u00b7 Selbsterhaltender Typ 3 \u00b7 Mystiker, Kommune-Gr\u00fcnder, Autor" },
   { term: "Oprah Winfrey",                 route: "beruehmte-oprah-winfrey",               description: "Portrait: SE2w3 \u00b7 Selbsterhaltender Typ 2 \u00b7 Moderatorin, Unternehmerin, Philanthropin" },
+  { term: "Marie Antoinette",              route: "beruehmte-marie-antoinette",            description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Königin von Frankreich" },
   { term: "Pamela Reif",                   route: "beruehmte-pamela-reif",                 description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Fitness-Influencerin, Erfolg durch Verbindung" },
   { term: "Paul McCartney",                route: "beruehmte-paul-mccartney",              description: "Portrait: SE4w5 \u00b7 Selbsterhaltender Typ 4 \u00b7 Musiker, Songwriter, Ex-Beatle" },
   { term: "Leo Tolstoi",                    route: "beruehmte-leo-tolstoi",                 description: "Portrait: SE4w5 \u00b7 Selbsterhaltender Typ 4 \u00b7 Schriftsteller, Krieg und Frieden" },
@@ -24450,6 +24451,7 @@ const registerEntriesEN = [
   { term: "Madame Tussaud", route: "beruehmte-madame-tussaud", description: "Portrait: SP3w4 \u00b7 Self-Preservation Type 3 \u00b7 Wax sculptor, museum founder" },
   { term: "Osho", route: "beruehmte-osho", description: "Portrait: SE3w4 \u00b7 Self-Preservation Type 3 \u00b7 Mystic, commune founder, author" },
   { term: "Oprah Winfrey", route: "beruehmte-oprah-winfrey", description: "Portrait: SE2w3 \u00b7 Self-Preservation Type 2 \u00b7 TV host, entrepreneur, philanthropist" },
+  { term: "Marie Antoinette", route: "beruehmte-marie-antoinette", description: "Portrait: SE2w3 · Self-Preservation Type 2 · Queen of France" },
   { term: "Pamela Reif", route: "beruehmte-pamela-reif", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Fitness influencer, success through connection" },
   { term: "Paul McCartney", route: "beruehmte-paul-mccartney", description: "Portrait: SE4w5 \u00b7 Self-Preservation Type 4 \u00b7 Musician, songwriter, ex-Beatle" },
   { term: "Leo Tolstoy", route: "beruehmte-leo-tolstoi", description: "Portrait: SE4w5 \u00b7 Self-Preservation Type 4 \u00b7 Writer, War and Peace" },
@@ -31431,6 +31433,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Frida Kahlo – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · 1907–1954. Mexikanische Malerin, rund 200 Gemälde, 55 Selbstporträts. Der eigene Körper als erstes Terrain der Fürsorge, Schmerz, der zum unverwechselbaren Bild wird. Tierentsprechung: Flusspferd.",
     tags:["Kunst"], gender:"f"},
+  { route:"beruehmte-marie-antoinette", name:"Marie Antoinette", added:"2026-08-15", subtyp:"SE2w3",
+    heading:"Marie Antoinette – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · 1755–1793. Königin von Frankreich. Pouf-Frisuren, Hameau de la Reine, Halsbandaffäre. Das Flusspferd, dessen glänzende Oberfläche schützte und am Ende zur Bürde wurde. Tierentsprechung: Flusspferd.",
+    tags:["Geschichte"], gender:"f"},
   { route:"beruehmte-isabella-briggs", name:"Isabella Briggs", added:"2026-08-15", subtyp:"SE2w3",
     heading:"Isabella Briggs – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 2000 in Los Angeles. Schauspielerin und Produzentin, bekannt aus ›Der Sommer, als ich schön wurde‹. Das Handwerk als Existenzgrundlage, vom Ensemble zum eigenen Unternehmen (Dartboard Productions). Tierentsprechung: Flusspferd.",
@@ -56277,6 +56283,72 @@ function fridaKahloPortraitPage() {
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3)"},
         {route:"beruehmte-isabella-briggs", label:"Porträt: Isabella Briggs (SE2w3)"},
+        {route:"beruehmte-marie-antoinette", label:"Porträt: Marie Antoinette (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function marieAntoinettePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marie-antoinette-portrait.jpg" alt="Marie Antoinette" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marie Antoinette</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Königin von Frankreich, 1755&ndash;1793 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, dessen Haut eine eigene, rötliche Absonderung produziert, die wie ein natürlicher Schutzfilm wirkt: Sie hält die empfindliche Oberfläche geschmeidig, schützt vor Sonne und Verletzung und macht das Tier auf den ersten Blick unverwechselbar. Was von außen wie Verletzlichkeit aussieht &ndash; die glänzende, ungewöhnlich gefärbte Haut &ndash;, ist in Wahrheit ein sorgfältig gepflegtes Schutzsystem.</p>
+          <p class="vb-intro">Marie Antoinette, geboren 1755 als Erzherzogin von Österreich, wurde mit vierzehn Jahren mit dem französischen Thronfolger verheiratet und in einen Hof geschickt, der ihr von Anfang an feindselig begegnete &ndash; misstrauisch gegenüber der "Österreicherin", unerbittlich in seiner Beobachtung jedes Details ihrer Erscheinung. Ihre kunstvollen Frisuren, die aufwendigen Roben, der makellose Teint wurden zu genau jenem Schutzfilm: eine glänzende, unangreifbare Oberfläche, hinter der sich eine junge Frau verbarg, die in einer fremden Sprache, an einem fremden Hof, in einer Ehe ohne eigene Wahl zurechtkommen musste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge im goldenen Käfig</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet die Energie der Zwei zuerst auf das eigene Überleben, bevor sie sich nach außen wenden kann. Naranjo nannte diesen Subtyp <em>Me First</em> &ndash; nicht aus Egoismus, sondern weil die SE2 sich selbst zuerst versorgen muss, um überhaupt für andere da sein zu können. Am Hof von Versailles, wo jede Mahlzeit, jedes Ankleiden und jeder Schritt öffentliches Ritual war, wurde für Marie Antoinette der Rückzug ins Petit Trianon, ein kleines Lustschloss auf dem Gelände von Versailles, zu genau diesem überlebensnotwendigen Freiraum &ndash; einem Ort, an dem sie erstmals selbst bestimmen durfte, wer eingelassen wurde und wer nicht.</p>
+          <p class="vb-intro">Diese SE2-Fürsorge zeigte sich auch gegenüber den Menschen, die ihr am nächsten standen: Zu ihrer engen Vertrauten, der Duchesse de Polignac, entwickelte sie eine Zuneigung, die ihr am Hof den Ruf einträgt, ihre Günstlinge mit Pensionen, Titeln und Privilegien zu überhäufen. Und als Mutter zeigte sie eine Hingabe, die selbst Kritiker anerkannten: Sie pflegte ihre kranken Kinder persönlich, blieb an ihren Betten, verweigerte den sonst üblichen höfischen Abstand zwischen Königsmutter und Nachwuchs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Mode als Weltsprache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei einen zusätzlichen Antrieb: den Willen, gesehen zu werden, das eigene Erscheinungsbild bewusst zu gestalten und als Ausdrucksmittel einzusetzen. Marie Antoinette arbeitete eng mit der Modistin Rose Bertin zusammen, die als "Ministerin der Mode" bekannt wurde, und prägte mit ihren meterhohen "Pouf"-Frisuren &ndash; mit Federn, Schiffsmodellen oder Gartenszenen dekoriert &ndash; den europäischen Modegeschmack ihrer gesamten Epoche.</p>
+          <p class="vb-intro">Im Hameau de la Reine, einem eigens für sie erbauten Bauerndorf im Park von Versailles, inszenierte sie mit ihrem Hofstaat das einfache Landleben &ndash; als Schäferin und Melkerin verkleidet, in einer Kulisse aus echten Kühen und makellos sauberen Strohhütten. Das war kein asketischer Rückzug, sondern reine Bild-Regie: die Sehnsucht nach Einfachheit selbst wieder in ein aufwendig choreografiertes Schauspiel verwandelt. Sie liebte zudem das Theater, spielte selbst in Liebhaberaufführungen am Hof und genoss Bälle und Maskeraden als Bühne, auf der sie sich zeigen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Bild und die Wirklichkeit: Zwischen Legende und Königin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kaum ein Satz ist so eng mit ihr verbunden wie "Sollen sie doch Kuchen essen" &ndash; ein Zitat, das ihr die Nachwelt zuschrieb, das aber nie belegt ist und älteren französischen Anekdoten entstammt, die schon Jahrzehnte vor ihrer Ankunft in Frankreich kursierten. Die Halsbandaffäre von 1785, bei der Betrüger unter Vorspiegelung ihres Namens ein wertvolles Diamantcollier ergaunerten, beschädigte ihren Ruf zusätzlich, obwohl sie selbst nachweislich nichts damit zu tun hatte &ndash; das öffentliche Bild der verschwenderischen "Madame Déficit" hatte sich längst verselbstständigt.</p>
+          <p class="vb-intro">Die reale Marie Antoinette engagierte sich für wohltätige Zwecke, adoptierte mehrere Waisenkinder und ließ nach harten Wintern Brot an notleidende Bauern verteilen. Doch gegen das einmal etablierte Bild kam sie nicht mehr an: Die Dreierflügel-Wirkung, einst ihr größtes Kapital, wurde zur tödlichen Falle, als das Volk in ihr nur noch die Verkörperung höfischer Verschwendung sah.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 liegt in der Fähigkeit, aus einer erzwungenen, fremdbestimmten Existenz einen eigenen, unverwechselbaren Stil zu formen &ndash; Marie Antoinettes Einfluss auf Mode, Innenarchitektur und höfische Ästhetik wirkt bis heute nach. Ihre Fürsorge für ihre Kinder und engsten Vertrauten war echt und tief, kein bloßes Blendwerk.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für das eigene Umfeld unentbehrlich und über Kritik erhaben zu sein. Marie Antoinette unterschätzte über Jahre hinweg, wie sehr ihr aufwendiges Erscheinungsbild in einer Zeit wachsender Armut und Staatsverschuldung als Provokation wahrgenommen wurde. Der Dreierflügel, der ihr half, sich am Hof zu behaupten, isolierte sie zugleich von der Realität außerhalb der glänzenden Oberfläche, die sie sich geschaffen hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Flusspferd, das seinen Schutzfilm verlor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Ausbruch der Französischen Revolution 1789 wurde genau jenes Bild, das Marie Antoinette einst schützte, zu ihrem größten Verhängnis. Als sie 1793, nach dem Tod ihres Mannes Ludwig XVI. und dem Verlust ihrer Kinder, selbst vor Gericht gestellt und zum Tode verurteilt wurde, zeigte sie eine Fassung, die selbst ihre Gegner überraschte: Sie ging aufrecht zum Schafott, ohne Klage, mit einer Würde, die dem einstigen Bild der leichtfertigen Königin widersprach.</p>
+          <p class="vb-intro">Das Flusspferd, dessen glänzende Oberfläche ein Leben lang schützte und zugleich täuschte, verlor am Ende jeden schützenden Film &ndash; und offenbarte in den letzten Stunden eine Standhaftigkeit, die weder Mode noch Legende je zeigen konnten. Was blieb, ist ein Bild, das bis heute zwischen Frivolität und Tragödie schwankt: eine Frau, deren größte Stärke &ndash; die Kunst der glänzenden Oberfläche &ndash; am Ende zu ihrer größten Bürde wurde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-frida-kahlo", label:"Porträt: Frida Kahlo (SE2w3)"},
+        {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3)"},
       ])}
     </div>
   `);
@@ -87068,6 +87140,7 @@ function render() {
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-frida-kahlo": fridaKahloPortraitPage,
+      "beruehmte-marie-antoinette": marieAntoinettePortraitPage,
       "beruehmte-isabella-briggs": isabellaBriggsPortraitPage,
       "beruehmte-armin-rohde": arminRohdePortraitPage,
       "beruehmte-mutter-meera": mutterMeeraPortraitPage,

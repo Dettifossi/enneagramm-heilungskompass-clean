@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=40";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=41";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=9";
@@ -1108,6 +1108,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Frida Kahlo – Self-Preservation Type 2",
     teaser:"SP2w3 · 1907–1954. Mexican painter, roughly 200 paintings, 55 self-portraits. The own body as the first terrain of care, pain turned into an unmistakable image. Animal correspondence: Hippopotamus.",
     tags:["Kunst"] },
+  { route:"beruehmte-marie-antoinette", name:"Marie Antoinette", added:"2026-08-15", subtyp:"SE2w3",
+    heading:"Marie Antoinette – Self-Preservation Type 2",
+    teaser:"SP2w3 · 1755–1793. Queen of France. Pouf hairstyles, the Hameau de la Reine, the Affair of the Diamond Necklace. The hippopotamus whose glossy surface protected her and, in the end, became her burden. Animal correspondence: Hippopotamus.",
+    tags:["History"] },
   { route:"beruehmte-isabella-briggs", name:"Isabella Briggs", added:"2026-08-15", subtyp:"SE2w3",
     heading:"Isabella Briggs – Self-Preservation Type 2",
     teaser:"SP2w3 · born 2000 in Los Angeles. Actress and producer, known from 'The Summer I Turned Pretty'. Craft as the foundation of existence, from ensemble to own company (Dartboard Productions). Animal correspondence: Hippopotamus.",
@@ -22207,6 +22211,72 @@ function fridaKahloPortraitPage() {
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
         {route:"beruehmte-isabella-briggs", label:"Portrait: Isabella Briggs (SP2w3)"},
+        {route:"beruehmte-marie-antoinette", label:"Portrait: Marie Antoinette (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function marieAntoinettePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-marie-antoinette-portrait.jpg" alt="Marie Antoinette" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marie Antoinette</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Queen of France, 1755&ndash;1793 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal whose skin produces its own reddish secretion that acts as a natural protective film: it keeps the sensitive surface supple, shields it from sun and injury, and makes the animal instantly unmistakable. What looks from the outside like vulnerability &ndash; the glistening, unusually colored skin &ndash; is in truth a carefully maintained protective system.</p>
+          <p class="vb-intro">Marie Antoinette, born in 1755 as Archduchess of Austria, was married to the heir to the French throne at fourteen and sent to a court that met her with hostility from the very start &ndash; suspicious of the "Austrian," relentless in scrutinizing every detail of her appearance. Her elaborate hairstyles, extravagant gowns, and flawless complexion became exactly that protective film: a glossy, unassailable surface behind which a young woman hid who had to find her footing in a foreign language, at a foreign court, in a marriage she had never chosen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Two: Care Inside a Golden Cage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> directs the Two's energy first toward its own survival, before it can turn outward. Naranjo called this subtype <em>Me First</em> &ndash; not out of selfishness, but because the SP2 must care for itself first in order to be able to be there for others at all. At the court of Versailles, where every meal, every act of dressing, and every step was public ritual, the Petit Trianon &ndash; a small pleasure palace on the Versailles grounds &ndash; became for Marie Antoinette exactly this vital breathing space: the first place where she alone decided who was let in and who was not.</p>
+          <p class="vb-intro">This SP2 care also showed toward those closest to her: with her intimate confidante, the Duchesse de Polignac, she developed an affection that earned her a reputation at court for showering her favorites with pensions, titles, and privileges. And as a mother she showed a devotion even her critics acknowledged: she personally nursed her sick children, stayed at their bedsides, and refused the usual courtly distance between a queen-mother and her offspring.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Fashion as a Universal Language</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two an additional drive: the will to be seen, to consciously shape one's own appearance and use it as a means of expression. Marie Antoinette worked closely with the milliner Rose Bertin, who became known as the "Minister of Fashion," and with her towering "pouf" hairstyles &ndash; decorated with feathers, ship models, or garden scenes &ndash; shaped European fashion taste for her entire era.</p>
+          <p class="vb-intro">At the Hameau de la Reine, a mock peasant village built especially for her in the Versailles park, she and her court staged simple rural life &ndash; dressed as shepherdesses and milkmaids, amid real cows and immaculately clean thatched cottages. This was no ascetic retreat but pure image direction: the longing for simplicity itself turned back into an elaborately choreographed performance. She also loved theater, performed herself in amateur plays at court, and enjoyed balls and masquerades as a stage on which to be seen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Image and Reality: Between Legend and Queen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Scarcely any sentence is as closely tied to her as "Let them eat cake" &ndash; a line posterity attributed to her, but one that is never documented and stems from older French anecdotes already circulating decades before her arrival in France. The Affair of the Diamond Necklace in 1785, in which fraudsters swindled a valuable necklace by falsely invoking her name, further damaged her reputation even though she herself provably had nothing to do with it &ndash; the public image of the wasteful "Madame Déficit" had long since taken on a life of its own.</p>
+          <p class="vb-intro">The real Marie Antoinette supported charitable causes, adopted several orphaned children, and had bread distributed to struggling farmers after harsh winters. But she could no longer overcome the image once it had taken hold: the Three-wing's effect, once her greatest asset, became a fatal trap once the people saw in her nothing but the embodiment of courtly extravagance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SP2w3 lies in the ability to shape a distinctive, unmistakable style out of a forced, externally determined existence &ndash; Marie Antoinette's influence on fashion, interior design, and courtly aesthetics still resonates today. Her care for her children and closest confidantes was genuine and deep, not mere show.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to one's circle and above criticism. For years, Marie Antoinette underestimated how much her elaborate appearance was perceived as a provocation in a time of growing poverty and state debt. The Three-wing that helped her assert herself at court also isolated her from the reality beyond the glossy surface she had built for herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Hippopotamus That Lost Its Protective Film</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After the outbreak of the French Revolution in 1789, the very image that had once protected Marie Antoinette became her greatest undoing. When, in 1793, after the death of her husband Louis XVI and the loss of her children, she herself was put on trial and sentenced to death, she showed a composure that surprised even her opponents: she walked to the scaffold upright, without complaint, with a dignity that contradicted the old image of the frivolous queen.</p>
+          <p class="vb-intro">The Hippopotamus, whose glistening surface had protected and deceived in equal measure throughout her life, lost every protective film at the end &ndash; and revealed, in her final hours, a steadfastness that neither fashion nor legend had ever shown. What remains is an image that still oscillates between frivolity and tragedy: a woman whose greatest strength &ndash; the art of the glossy surface &ndash; became, in the end, her greatest burden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-frida-kahlo", label:"Portrait: Frida Kahlo (SP2w3)"},
+        {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
       ])}
     </div>
   `);
@@ -52779,6 +52849,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-ruth-bader-ginsburg": ruthBaderGinsburgPortraitPage,
       "beruehmte-sahra-wagenknecht": sahraWagenknechtPortraitPage,
       "beruehmte-frida-kahlo": fridaKahloPortraitPage,
+      "beruehmte-marie-antoinette": marieAntoinettePortraitPage,
       "beruehmte-isabella-briggs": isabellaBriggsPortraitPage,
       "beruehmte-armin-rohde": arminRohdePortraitPage,
       "beruehmte-mutter-meera": mutterMeeraPortraitPage,
