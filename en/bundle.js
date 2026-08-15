@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=43";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=44";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=9";
@@ -387,6 +387,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Christiaan Barnard – Social Type 3",
     teaser:"SO3w2 · 1922–2001. South African cardiac surgeon. First successful heart transplant in the world (1967), overnight global fame, jet-set life with film stars. The cheetah with the Two-wing: the courage for the first leap, joined with the need to be seen doing it. Animal correspondence: Cheetah.",
     tags:["History","Medicine"], gender:"m"},
+  { route:"beruehmte-ludwig-xiv", name:"Louis XIV", added:"2026-08-15", subtyp:"SO3w2",
+    heading:"Louis XIV – Social Type 3",
+    teaser:"SO3w2 · 1638–1715. King of France, the Sun King. Versailles, the Ballet de la Nuit as Apollo, 72 years on the throne. The cheetah with the Two-wing: an image that became the program of an entire kingdom. Animal correspondence: Cheetah.",
+    tags:["History"], gender:"m"},
   { route:"beruehmte-pharrell-williams", name:"Pharrell Williams", added:"2026-07-31", subtyp:"SO3w2",
     heading:"Pharrell Williams – Social Type 3",
     teaser:"SO3w2 · born 1973. Music producer (The Neptunes), musician, creative director at Louis Vuitton. Over 400 hit productions, the world hit \"Happy\" – the cheetah that keeps changing direction and wins every time. Animal correspondence: Cheetah.",
@@ -31456,6 +31460,72 @@ function christiaanBarnardPortraitPage() {
         {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
         {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-sahra-wagenknecht", label:"Portrait: Sahra Wagenknecht (SO3w2)"},
+        {route:"beruehmte-ludwig-xiv", label:"Portrait: Louis XIV (SO3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function ludwigXIVPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ludwig-xiv-portrait.jpg" alt="Louis XIV" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Louis XIV &ndash; the Sun King</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">King of France, 1638&ndash;1715 &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Cheetah</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>cheetah</strong> is the animal of the social Three &ndash; fast, striking, built for the one decisive moment when every eye turns toward it. In 1653, at fourteen, Louis XIV personally danced the role of the sun god Apollo in the "Ballet de la Nuit" &ndash; a performance that earned him the epithet "Sun King" and became the program of his entire reign. No coincidence, no one-off youthful appearance, but the first deliberate staging of an image he would spend his life perfecting.</p>
+          <p class="vb-intro">Born in 1638, the son of Louis XIII, he ascended the throne at the age of four, ruling initially under the regency of his mother, Anne of Austria, and Cardinal Mazarin. Only after Mazarin's death in 1661 did he, at just twenty-two, take up personal rule &ndash; and immediately began staging himself as the radiant center of his realm. The cheetah does not wait for permission to shine. It seizes the moment the instant the opportunity appears.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Three: The State as Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> is the counter-type of the Three: recognition is not a side effect for it, but the actual fuel. SO3 does not merely ask <em>Have I achieved something?</em> but <em>Do I embody the ideal the community expects of me?</em> Louis answered this question with the entire apparatus of the state: the phrase attributed to him, "L'État, c'est moi" &ndash; "I am the state" &ndash; may be legendary in its transmission, but it captures the essence of his self-presentation precisely.</p>
+          <p class="vb-intro">In 1682 he moved the entire court to Versailles, a palace he had expanded over decades into a building of unprecedented splendor &ndash; not primarily out of architectural passion, but as a political instrument: anyone wanting to advance at court had to be present at Versailles, visible, and turned toward the king. Social Three builds itself the stage on which its achievement must be seen by everyone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Favor as an Instrument of Rule</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the social Three a warm, relationship-oriented note &ndash; recognition is secured not through distance and authority alone, but through personal closeness, favor, and targeted attention. The daily "lever" and "coucher," the public dressing and undressing of the king, were not mere ritual but a finely calibrated instrument of power: whoever was permitted to assist the king while dressing was somebody. Whoever was not, was nobody.</p>
+          <p class="vb-intro">Louis bound his courtiers not only through fear but through genuine attention: he supported artists such as Molière, Lully, and the garden architect Le Nôtre with generous pensions, maintained close, personal relationships over decades with his mistresses &ndash; among them Louise de La Vallière and Madame de Montespan &ndash; and after the death of his first wife secretly married his longtime confidante, Madame de Maintenon. SO3w2 seeks confirmation not in cool distance, but in the direct, personal bond with those it gathers around itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Price of Centralization</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Louis's pursuit of absolute, visible order had a dark side: in 1685 he revoked the Edict of Nantes, which had guaranteed religious freedom to French Protestants since 1598 &ndash; hundreds of thousands of Huguenots fled abroad as a result, many of them highly skilled craftsmen and merchants whose loss lastingly weakened the French economy. Numerous costly wars fought to extend and secure his glory left the country deeply in debt by the end of his reign.</p>
+          <p class="vb-intro">The social Three with the Two-wing not infrequently sacrifices long-term stability for short-term, visible splendor: Versailles, the wars, the religious unification &ndash; all served the same goal of cementing the one, indivisible image of the Sun King, even when the full cost was only felt by the generations that followed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO3w2 shows in the cultural flowering that Louis's reign made possible: the Académie française, the Paris Opera, French classical theater, and the garden art of Versailles shaped European taste for centuries. His seventy-two-year reign, the longest of any European monarch, brought France long stretches of political stability and cultural dominance.</p>
+          <p class="vb-intro">The shadow shows in the exhaustion this permanent self-presentation left behind: a state crushed by war debt, a craft economy weakened by the expulsion of the Huguenots, a court system that stripped the nobility of power by binding it in gilded but ultimately powerless dependence on royal favor. The stage Louis built demanded constant feeding &ndash; with money, with wars, with people.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Cheetah That Became the Sun</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Louis XIV died in 1715 at Versailles of gangrene, aged 76, after 72 years on the throne &ndash; longer than any other monarch in European history. His last words to his great-grandson and successor are said to have contained a rare, almost self-critical warning: not to follow his example in excessive building and warfare.</p>
+          <p class="vb-intro">The cheetah who, at fourteen, danced the sun turned that image into the reality of an entire kingdom for six decades. That is the lasting image of the social Three with the Two-wing: the ability to turn a single radiant performance into a life's work &ndash; joined with the deep need to always be seen, admired, and personally bound to others in the process.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"beruehmte-christiaan-barnard", label:"Portrait: Christiaan Barnard (SO3w2)"},
+        {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
       ])}
     </div>
   `);
@@ -52922,6 +52992,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
       "beruehmte-heraklit": heraklitPortraitPage,
       "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
+      "beruehmte-ludwig-xiv": ludwigXIVPortraitPage,
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
       "beruehmte-judit-polgar": juditPolgarPortraitPage,

@@ -24168,6 +24168,7 @@ const registerEntries = [
   { term: "Sadhguru",                      route: "beruehmte-sadhguru",                    description: "Portrait: SE3w2 \u00b7 Selbsterhaltender Typ 3 \u00b7 Yogi, spiritueller Lehrer, Isha Foundation" },
   { term: "Lang Lang",                     route: "beruehmte-lang-lang",                   description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Pianist" },
   { term: "Sahra Wagenknecht",             route: "beruehmte-sahra-wagenknecht",           description: "Portrait: SO3w2 \u00b7 Sozialer Typ 3 \u00b7 Politikerin, BSW-Gr\u00fcnderin" },
+  { term: "Ludwig XIV.",                   route: "beruehmte-ludwig-xiv",                  description: "Portrait: SO3w2 · Sozialer Typ 3 · König von Frankreich, der Sonnenkönig" },
   { term: "Teresa von \u00c1vila",               route: "beruehmte-teresa-von-avila",             description: "Portrait: SO3w4 \u00b7 Sozialer Typ 3 \u00b7 Mystikerin, Ordensreformerin, Kirchenlehrerin" },
   { term: "Sean Connery",                  route: "beruehmte-sean-connery",                description: "Portrait: SO3w4 \u00b7 Sozialer Typ 3 \u00b7 Schauspieler, James Bond" },
   { term: "Sigmund Freud",                 route: "beruehmte-sigmund-freud",               description: "Portrait: SO6w5 \u00b7 Sozialer Typ 6 \u00b7 Psychoanalyse-Gr\u00fcnder" },
@@ -24474,6 +24475,7 @@ const registerEntriesEN = [
   { term: "Sadhguru", route: "beruehmte-sadhguru", description: "Portrait: SE3w2 \u00b7 Self-Preservation Type 3 \u00b7 Yogi, spiritual teacher, Isha Foundation" },
   { term: "Lang Lang", route: "beruehmte-lang-lang", description: "Portrait: SP3w2 · Self-Preservation Type 3 · Pianist" },
   { term: "Sahra Wagenknecht", route: "beruehmte-sahra-wagenknecht", description: "Portrait: SO3w2 \u00b7 Social Type 3 \u00b7 Politician, BSW founder" },
+  { term: "Louis XIV", route: "beruehmte-ludwig-xiv", description: "Portrait: SO3w2 · Social Type 3 · King of France, the Sun King" },
   { term: "Teresa of \u00c1vila", route: "beruehmte-teresa-von-avila", description: "Portrait: SO3w4 \u00b7 Social Type 3 \u00b7 Mystic, monastic reformer, Doctor of the Church" },
   { term: "Sean Connery", route: "beruehmte-sean-connery", description: "Portrait: SO3w4 \u00b7 Social Type 3 \u00b7 Actor, James Bond" },
   { term: "Sigmund Freud", route: "beruehmte-sigmund-freud", description: "Portrait: SO6w5 \u00b7 Social Type 6 \u00b7 founder of psychoanalysis" },
@@ -31597,6 +31599,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Christiaan Barnard – Sozialer Typ 3",
     teaser:"SO3w2 · 1922–2001. Südafrikanischer Herzchirurg. Erste erfolgreiche Herztransplantation der Welt (1967), Weltruhm über Nacht, Jetset-Leben mit Filmstars. Der Gepard mit Zweierflügel: der Mut zum ersten Sprung, verbunden mit dem Bedürfnis, dabei gesehen zu werden. Tierentsprechung: Gepard.",
     tags:["Geschichte","Medizin"], gender:"m"},
+  { route:"beruehmte-ludwig-xiv", name:"Ludwig XIV.", added:"2026-08-15", subtyp:"SO3w2",
+    heading:"Ludwig XIV. – Sozialer Typ 3",
+    teaser:"SO3w2 · 1638–1715. König von Frankreich, der Sonnenkönig. Versailles, Ballet de la Nuit als Apoll, 72 Regierungsjahre. Der Gepard mit Zweierflügel: ein Bild, das zum Programm eines ganzen Königreichs wurde. Tierentsprechung: Gepard.",
+    tags:["Geschichte"], gender:"m"},
   { route:"beruehmte-pharrell-williams", name:"Pharrell Williams", added:"2026-07-31", subtyp:"SO3w2",
     heading:"Pharrell Williams \u2013 Sozialer Typ 3",
     teaser:"SO3w2 \u00b7 geb. 1973. Musikproduzent (The Neptunes), Musiker, Kreativdirektor bei Louis Vuitton. \u00dcber 400 Hit-Produktionen, Weltsingle \u201eHappy\u201c \u2013 der Gepard, der st\u00e4ndig die Richtung wechselt und in jeder gewinnt. Tierentsprechung: Gepard.",
@@ -58069,6 +58075,71 @@ function pharrellWilliamsPortraitPage() {
 }
 
 
+function ludwigXIVPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ludwig-xiv-portrait.jpg" alt="Ludwig XIV." class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig XIV. – der Sonnenkönig</p>
+        <p class="krim-portrait-typ">SO3w2 · Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">König von Frankreich, 1638–1715 – Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – schnell, auffällig, gebaut für den einen entscheidenden Moment, in dem alle Augen auf ihn gerichtet sind. 1653, mit vierzehn Jahren, tanzte Ludwig XIV. im "Ballet de la Nuit" höchstpersönlich die Rolle des Sonnengottes Apoll – ein Auftritt, der ihm den Beinamen "Sonnenkönig" einbrachte und zum Programm seiner gesamten Herrschaft wurde. Kein Zufall, kein einmaliger Jugendauftritt, sondern die erste bewusste Inszenierung eines Bildes, das er sein Leben lang perfektionierte.</p>
+          <p class="vb-intro">Geboren 1638 als Sohn Ludwigs XIII., bestieg er bereits mit vier Jahren den Thron, regierte zunächst unter der Vormundschaft seiner Mutter Anna von Österreich und des Kardinals Mazarin. Erst nach Mazarins Tod 1661 übernahm er, gerade zweiundzwanzig Jahre alt, die persönliche Regierung – und begann sofort, sich als das strahlende Zentrum seines Reiches zu inszenieren. Der Gepard wartet nicht auf die Erlaubnis, zu glänzen. Er ergreift den Moment, sobald sich die Gelegenheit bietet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Der Staat als Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> ist der Verstärkungstyp der Drei: Anerkennung ist kein Nebeneffekt, sondern der eigentliche Treibstoff. Die SO3 fragt nicht nur <em>Habe ich etwas erreicht?</em>, sondern <em>Verkörpere ich das Ideal, das die Gemeinschaft von mir erwartet?</em> Ludwig beantwortete diese Frage mit dem gesamten Staatsapparat: Der ihm zugeschriebene Satz "L'État, c'est moi" – "Der Staat bin ich" – mag legendenhaft überliefert sein, doch er trifft den Kern seiner Selbstinszenierung präzise.</p>
+          <p class="vb-intro">1682 verlegte er den gesamten Hof nach Versailles, in ein Schloss, das er über Jahrzehnte zu einem Bauwerk von beispielloser Pracht ausbauen ließ – nicht primär aus architektonischer Leidenschaft, sondern als politisches Instrument: Wer am Hof Karriere machen wollte, musste in Versailles präsent, sichtbar und dem König zugewandt sein. Die soziale Drei baut sich die Bühne, auf der ihre Leistung von allen gesehen werden muss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Gunst als Herrschaftsinstrument</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sozialen Drei eine warme, beziehungsorientierte Note – Anerkennung wird nicht allein durch Distanz und Autorität gesichert, sondern durch persönliche Nähe, Gunst und gezielte Zuwendung. Der tägliche "Lever" und "Coucher", das öffentliche An- und Auskleiden des Königs, war kein bloßes Ritual, sondern ein fein austariertes Machtinstrument: Wer dem König beim Ankleiden assistieren durfte, war jemand. Wer nicht, war niemand.</p>
+          <p class="vb-intro">Ludwig band seine Höflinge nicht nur durch Angst, sondern durch echte Zuwendung: Er förderte Künstler wie Molière, Lully und den Gartenarchitekten Le Nôtre mit großzügigen Pensionen, pflegte über Jahrzehnte enge, persönliche Beziehungen zu seinen Mätressen – darunter Louise de La Vallière und Madame de Montespan – und heiratete nach dem Tod seiner ersten Frau heimlich seine langjährige Vertraute Madame de Maintenon. Die SO3w2 sucht Bestätigung nicht in kühler Distanz, sondern im direkten, persönlichen Band zu jenen, die sie um sich versammelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Preis der Zentralisierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ludwigs Streben nach absoluter, sichtbarer Ordnung hatte eine dunkle Kehrseite: 1685 widerrief er das Edikt von Nantes, das den französischen Protestanten seit 1598 Religionsfreiheit garantiert hatte – Hunderttausende Hugenotten flohen daraufhin ins Ausland, viele davon hochqualifizierte Handwerker und Kaufleute, deren Verlust die französische Wirtschaft nachhaltig schwächte. Zahlreiche kostspielige Kriege zur Ausdehnung und Sicherung seines Ruhms hinterließen das Land am Ende seiner Herrschaft hoch verschuldet.</p>
+          <p class="vb-intro">Die soziale Drei mit Zweierflügel opfert langfristige Stabilität nicht selten für kurzfristig sichtbaren Glanz: Versailles, die Kriege, die religiöse Vereinheitlichung – alles diente demselben Ziel, das eine, unteilbare Bild des Sonnenkönigs zu festigen, selbst wenn der Preis dafür erst die nachfolgenden Generationen voll zu spüren bekamen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3w2 zeigt sich in der kulturellen Blüte, die Ludwigs Herrschaft ermöglichte: Die Académie française, die Pariser Oper, das klassische französische Theater und die Gartenkunst von Versailles prägten den europäischen Geschmack für Jahrhunderte. Seine mit 72 Jahren längste Regierungszeit eines europäischen Monarchen brachte Frankreich über weite Strecken politische Stabilität und kulturelle Vorherrschaft.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Erschöpfung, die diese permanente Selbstinszenierung hinterließ: ein von Kriegsschulden erdrücktes Staatswesen, ein durch die Vertreibung der Hugenotten geschwächtes Handwerk, ein Hofsystem, das den Adel entmachtete, indem es ihn in goldene, aber letztlich machtlose Abhängigkeit von der königlichen Gunst zwang. Die Bühne, die Ludwig baute, verlangte permanente Fütterung – mit Geld, mit Kriegen, mit Menschen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Gepard, der zur Sonne wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ludwig XIV. starb 1715 in Versailles an Wundbrand, im Alter von 76 Jahren, nach 72 Regierungsjahren – länger als jeder andere Monarch der europäischen Geschichte. Seine letzten Worte an seinen Urenkel und Nachfolger sollen eine seltene, fast selbstkritische Warnung enthalten haben: nicht seinem Beispiel im übertriebenen Bauen und Kriegführen zu folgen.</p>
+          <p class="vb-intro">Der Gepard, der als Vierzehnjähriger die Sonne tanzte, machte dieses Bild sechs Jahrzehnte lang zur Realität eines ganzen Königreichs. Das ist das bleibende Bild der sozialen Drei mit Zweierflügel: die Fähigkeit, aus einem einzigen strahlenden Auftritt ein Lebenswerk zu formen – verbunden mit der tiefen Notwendigkeit, dabei stets von anderen gesehen, bewundert und persönlich an sich gebunden zu sein.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-christiaan-barnard", label:"Porträt: Christiaan Barnard (SO3w2)"},
+        {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function christiaanBarnardPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -58140,6 +58211,7 @@ function christiaanBarnardPortraitPage() {
         {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
         {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-sahra-wagenknecht", label:"Porträt: Sahra Wagenknecht (SO3w2)"},
+        {route:"beruehmte-ludwig-xiv", label:"Porträt: Ludwig XIV. (SO3w2)"},
       ])}
     </div>
   `);
@@ -87139,6 +87211,7 @@ function render() {
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
       "beruehmte-heraklit": heraklitPortraitPage,
       "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
+      "beruehmte-ludwig-xiv": ludwigXIVPortraitPage,
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
       "beruehmte-judit-polgar": juditPolgarPortraitPage,
