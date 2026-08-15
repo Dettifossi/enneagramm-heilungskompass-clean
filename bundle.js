@@ -24055,6 +24055,7 @@ const registerEntries = [
   { term: "Dieter Nuhr",                    route: "beruehmte-dieter-nuhr",                 description: "Portrait: SO7w8 \u00b7 Sozialer Typ 7 \u00b7 Kabarettist, Nuhr im Ersten, Comedian, Maler, Biber" },
   { term: "Rowan Atkinson",                 route: "beruehmte-rowan-atkinson",              description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Mr. Bean, Blackadder, Johnny English, Biber" },
   { term: "Elon Musk",                     route: "beruehmte-elon-musk",                   description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Tesla, SpaceX, Vision\u00e4r" },
+  { term: "Nikola Tesla",                  route: "beruehmte-nikola-tesla",                description: "Portrait: SO7w6 · Sozialer Typ 7 · Erfinder, Ingenieur, Wechselstrompionier" },
   { term: "Elvis Presley",                 route: "beruehmte-elvis-presley",               description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 King of Rock'n'Roll, S\u00e4nger, Schauspieler" },
   { term: "Freddie Mercury",               route: "beruehmte-freddie-mercury",             description: "Portrait: SX4w3 \u00b7 Sexueller Typ 4 \u00b7 Queen-Fronts\u00e4nger, B\u00fchnenmagier" },
   { term: "Fr\u00e9d\u00e9ric Chopin",          route: "beruehmte-frederic-chopin",            description: "Portrait: SX5w4 \u00b7 Sexueller Typ 5 \u00b7 Komponist, romantische Klaviermusik" },
@@ -24358,6 +24359,7 @@ const registerEntriesEN = [
   { term: "Dieter Nuhr", route: "beruehmte-dieter-nuhr", description: "Portrait: SO7w8 \u00b7 Social Type 7 \u00b7 Comedian, Nuhr im Ersten, Comedian, painter, Beaver" },
   { term: "Rowan Atkinson", route: "beruehmte-rowan-atkinson", description: "Portrait: SO7w6 \u00b7 Social Type 7 \u00b7 Mr. Bean, Blackadder, Johnny English, Beaver" },
   { term: "Elon Musk", route: "beruehmte-elon-musk", description: "Portrait: SO7w6 \u00b7 Social Type 7 \u00b7 Tesla, SpaceX, Visionary" },
+  { term: "Nikola Tesla", route: "beruehmte-nikola-tesla", description: "Portrait: SO7w6 · Social Type 7 · Inventor, engineer, AC power pioneer" },
   { term: "Elvis Presley", route: "beruehmte-elvis-presley", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 King of Rock'n'Roll, singer, actor" },
   { term: "Enneagram Art", route: "enneagramm-kunst", description: "9 galleries of 6 artworks each \u2013 classic paintings as a mirror of the 9 Enneagram types" },
   { term: "Freddie Mercury", route: "beruehmte-freddie-mercury", description: "Portrait: SX4w3 \u00b7 Sexual Type 4 \u00b7 Queen-lead singer, stage magician" },
@@ -31985,6 +31987,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Elon Musk \u2013 Sozialer Typ 7",
     teaser:"SO7w6 \u00b7 geb. 1971. Unternehmer, Gr\u00fcnder von PayPal, SpaceX, X (ehem. Twitter), Mitinhaber von Tesla. Reichster Mensch der Welt (Stand 2026). Der Biber, der Welten baut \u2013 und dabei nie fertig wird. Tierentsprechung: Biber.",
     tags:["Wirtschaft","Wissenschaft"] , gender:"m"},
+  { route:"beruehmte-nikola-tesla", name:"Nikola Tesla", added:"2026-08-15", subtyp:"SO7w6",
+    heading:"Nikola Tesla – Sozialer Typ 7",
+    teaser:"SO7w6 · 1856–1943. Erfinder, Ingenieur. Wechselstrom, Wardenclyffe Tower, Stromkrieg mit Edison. Der Biber, der die Welt elektrifizierte und einsam in einem Hotelzimmer starb. Tierentsprechung: Biber.",
+    tags:["Wissenschaft","Geschichte"], gender:"m"},
   { route:"beruehmte-jeanne-marie-guyon", name:"Jeanne-Marie Bouvier de la Motte Guyon", added:"2026-08-03", subtyp:"SO7w6",
     heading:"Madame Guyon \u2013 Sozialer Typ 7",
     teaser:"SO7w6 \u00b7 geb. 1648, gest. 1717. Mystikerin, bedeutendste Vertreterin des Quietismus. Verfolgt als H\u00e4retikerin, jahrelang inhaftiert, u. a. in der Bastille. Der Biber, der sich ganz der Hingabe an Gott verschrieb \u2013 und Verfolgung mit stiller Standhaftigkeit ertrug.",
@@ -46030,6 +46036,65 @@ function elonMuskPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so7", label:"SO7 \u2013 Der Biber: Subtyp-Profil"},
         {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6) – Namensgeber seiner Firma Tesla"},
+      ])}
+    </div>
+  `);
+}
+
+function nikolaTeslaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Nikola Tesla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nikola Tesla</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Erfinder, Ingenieur, 1856&ndash;1943 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der die Welt elektrifizierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 &ndash; er baut nicht, um zu besitzen, sondern weil Bauen sein Wesen ist. Er staut Flüsse, verändert Landschaften, und kaum ist ein Damm fertig, sucht er sich das nächste Hindernis. Kaum jemand verkörpert das so buchstäblich wie Nikola Tesla: Wechselstrommotor, Transformator, Funktechnik, Radar-Grundlagen, Fernsteuerung &ndash; er hinterließ über 300 Patente und veränderte die technische Infrastruktur der gesamten Menschheit, ohne je bei einer einzigen Erfindung stehen zu bleiben.</p>
+          <p class="vb-intro">Tesla wurde 1856 in Smiljan, im heutigen Kroatien, als Sohn eines serbisch-orthodoxen Priesters geboren. Schon als Kind sah er, wie er später berichtete, spontane, blitzartige innere Bilder von Maschinen, die er bis ins letzte Detail vor seinem geistigen Auge konstruieren konnte, bevor er je ein Werkzeug in die Hand nahm. Der Biber plant den Damm vollständig im Kopf, bevor der erste Ast fällt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Strom für die ganze Menschheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> nennt Naranjo <em>Sacrifice</em>: Sie opfert die eigene, unmittelbare Freude für eine größere Idee &ndash; und findet gerade darin ihre tiefste Erfüllung. Tesla sprach nie über seinen Wechselstrommotor als bloßes technisches Bauteil. Er sprach davon, der Menschheit unbegrenzte, saubere Energie zu schenken. Sein größtes Projekt, der Wardenclyffe Tower auf Long Island, sollte nicht nur Nachrichten, sondern kostenlose, drahtlose Energie um den gesamten Erdball übertragen &ndash; ein Geschenk an die gesamte Menschheit, nicht an zahlende Kunden.</p>
+          <p class="vb-intro">Als J.P. Morgan, der Hauptfinanzier des Projekts, erfuhr, dass Tesla plante, Energie kostenlos zu verteilen statt sie abzurechnen, zog er seine Unterstützung zurück &ndash; und der Turm wurde nie fertiggestellt. Tesla verlor damit sein Lebenswerk, blieb aber bis zuletzt überzeugt, dass die Idee richtig war. Der Biber baut nicht für sich selbst. Er baut, weil er glaubt, die Welt braucht genau diesen Damm &ndash; selbst wenn niemand dafür bezahlen will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Genie zwischen Vision und Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> gibt der sozialen Sieben eine Qualität, die im Kontrast zur ihrer strahlenden Vision steht: Misstrauen, Wachsamkeit, Furcht vor Bedrohung. Bei Tesla zeigte sich das in ausgeprägten Zwangshandlungen: Er zählte seine Schritte beim Gehen, berechnete das Volumen seiner Suppe, bevor er sie aß, und arbeitete fast ausschließlich mit Zahlen, die durch drei teilbar waren &ndash; Abweichungen davon lösten bei ihm massives Unbehagen aus. Extreme Angst vor Keimen ließ ihn Türklinken und Handschläge meiden und stundenlang die Hände waschen.</p>
+          <p class="vb-intro">Diese wache Vorsicht galt auch seinen eigenen Erfindungen: Tesla war notorisch misstrauisch gegenüber Investoren und Konkurrenten &ndash; allen voran Thomas Edison, mit dem er sich im "Stromkrieg" um Gleich- versus Wechselstrom einen erbitterten öffentlichen Kampf lieferte. Er hielt viele seiner Entwürfe geheim, aus Angst, sie könnten gestohlen werden &ndash; eine Angst, die sich bei Wardenclyffe und anderen Projekten tatsächlich bewahrheitete. Der Sechserflügel sieht die Gefahr so klar, dass er niemandem außer sich selbst vertraut, sie abzuwenden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Maßlosigkeit als Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> oder <strong>Maßlosigkeit</strong>: der unstillbare Appetit auf immer neue Möglichkeiten. Bei Tesla richtete sich das nicht auf persönlichen Genuss &ndash; er lebte zeitlebens asketisch, blieb unverheiratet und beschrieb intime Nähe als Störung seiner Konzentration &ndash; sondern vollständig auf das Erfinden selbst. Er schlief nach eigenen Angaben nur wenige Stunden pro Nacht und arbeitete gleichzeitig an drahtloser Energieübertragung, Radartechnik, Röntgenstrahlen, ferngesteuerten Booten und Ideen zu künstlichem Regen.</p>
+          <p class="vb-intro">In seinem Labor in Colorado Springs erzeugte er 1899 künstliche Blitze von über 40 Metern Länge und ließ dabei zeitweise das gesamte örtliche Stromnetz zusammenbrechen &ndash; ein Experiment, das selbst für seine Zeitgenossen an Wahnsinn grenzte, für ihn selbst aber nur der nächste logische Schritt war. Der Biber schläft nicht lange. Er hat immer noch einen Damm, der fertig werden will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: eine Welt unter Strom</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Tesla der Welt gegeben hat, ist buchstäblich das Rückgrat der modernen Zivilisation: Sein Wechselstromsystem versorgt bis heute Milliarden Haushalte weltweit mit Elektrizität, seine Arbeiten legten den Grundstein für Radio, Radar und drahtlose Kommunikation. Trotzdem starb er 1943 verarmt und weitgehend vergessen in einem New Yorker Hotelzimmer, mit seiner einzigen Gesellschaft &ndash; verletzten Tauben, die er über Jahre gefüttert und gepflegt hatte.</p>
+          <p class="vb-intro">Das ist das Geschenk und der Preis der SO7w6: eine Energie, die die Welt tatsächlich elektrifizierte, kombiniert mit einer Angst, die den Erfinder selbst am Ende isolierte. Der Biber fragt nicht, ob der Fluss einverstanden ist &ndash; er baut, solange er kann. Ob Tesla die Anerkennung erhielt, die sein Werk verdient hätte, ist eine offene Frage. Dass er die Welt für immer veränderte, ist keine.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6) – dessen Firma Tesla nach ihm benannt ist"},
       ])}
     </div>
   `);
@@ -86728,6 +86793,7 @@ function render() {
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
       "beruehmte-drew-barrymore": drewBarrymorePortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
+      "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
           "beruehmte-indra-nooyi": indraNooyiPortraitPage,

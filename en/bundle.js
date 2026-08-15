@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=37";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=38";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=9";
@@ -659,6 +659,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Elon Musk – Social Type 7",
     teaser:"SO7w6 · born 1971. Entrepreneur, founder of PayPal, SpaceX, X (formerly Twitter), co-owner of Tesla. The beaver that builds worlds – and never finishes. Animal correspondence: Beaver.",
     tags:["Wirtschaft","Wissenschaft"] },
+  { route:"beruehmte-nikola-tesla", name:"Nikola Tesla", added:"2026-08-15", subtyp:"SO7w6",
+    heading:"Nikola Tesla – Social Type 7",
+    teaser:"SO7w6 · 1856–1943. Inventor, engineer. Alternating current, Wardenclyffe Tower, War of the Currents with Edison. The beaver that electrified the world and died alone in a hotel room. Animal correspondence: Beaver.",
+    tags:["Wissenschaft","Geschichte"] },
   { route:"beruehmte-jeanne-marie-guyon", name:"Jeanne-Marie Bouvier de la Motte Guyon", added:"2026-08-03", subtyp:"SO7w6",
     heading:"Madame Guyon – Social Type 7",
     teaser:"SO7w6 · born 1648, died 1717. Mystic, the leading exponent of Quietism. Persecuted as a heretic, imprisoned for years, including in the Bastille. The beaver that devoted itself entirely to surrender to God – and endured persecution with quiet steadfastness.",
@@ -26530,6 +26534,65 @@ function elonMuskPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6) – namesake of his company Tesla"},
+      ])}
+    </div>
+  `);
+}
+
+function nikolaTeslaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Nikola Tesla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nikola Tesla</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Inventor, engineer, 1856&ndash;1943 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver Who Electrified the World</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Beaver</strong> is the animal of the Social Type 7 &ndash; it does not build to possess, but because building is its nature. It dams rivers, transforms landscapes, and no sooner is one dam finished than it seeks the next obstacle. Few people embody this as literally as Nikola Tesla: the AC induction motor, the transformer, radio technology, the foundations of radar, remote control &ndash; he left behind more than 300 patents and reshaped the technical infrastructure of all humanity, never once resting on a single invention.</p>
+          <p class="vb-intro">Tesla was born in 1856 in Smiljan, in present-day Croatia, the son of a Serbian Orthodox priest. Even as a child, he later reported, he had spontaneous, flash-like inner images of machines that he could construct in complete detail in his mind's eye before ever picking up a tool. The Beaver plans the entire dam in its head before the first branch falls.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Seven: Electricity for All Humanity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called <strong>Social Seven (SO7)</strong> <em>Sacrifice</em>: it sacrifices its own immediate joy for a larger idea &ndash; and finds its deepest fulfillment precisely there. Tesla never spoke of his AC motor as a mere technical component. He spoke of giving humanity unlimited, clean energy. His greatest project, the Wardenclyffe Tower on Long Island, was meant to transmit not only messages but free, wireless energy around the entire globe &ndash; a gift to all of humanity, not to paying customers.</p>
+          <p class="vb-intro">When J.P. Morgan, the project's main financier, learned that Tesla planned to distribute energy for free rather than bill for it, he withdrew his support &ndash; and the tower was never completed. Tesla lost his life's work as a result, yet remained convinced to the end that the idea had been right. The Beaver does not build for itself. It builds because it believes the world needs exactly this dam &ndash; even if no one wants to pay for it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Genius Between Vision and Fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the Social Seven a quality that stands in contrast to its radiant vision: mistrust, vigilance, fear of threat. In Tesla this showed in pronounced compulsive behaviors: he counted his steps while walking, calculated the volume of his soup before eating it, and worked almost exclusively with numbers divisible by three &ndash; deviations from this caused him massive discomfort. An extreme fear of germs made him avoid doorknobs and handshakes and wash his hands for hours at a time.</p>
+          <p class="vb-intro">This watchful caution also applied to his own inventions: Tesla was notoriously suspicious of investors and competitors &ndash; above all Thomas Edison, with whom he fought a bitter public battle in the "War of the Currents" over direct versus alternating current. He kept many of his designs secret, fearing they would be stolen &ndash; a fear that proved justified with Wardenclyffe and other projects. The Six-wing sees danger so clearly that it trusts no one but itself to avert it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Excess as Engine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Seven is called <strong>gluttony</strong> or <strong>excess</strong>: the insatiable appetite for ever new possibilities. In Tesla this was not directed at personal enjoyment &ndash; he lived ascetically throughout his life, remained unmarried, and described intimate closeness as a disruption of his concentration &ndash; but entirely at inventing itself. By his own account he slept only a few hours a night, working simultaneously on wireless energy transmission, radar technology, X-rays, remote-controlled boats, and ideas for artificial rain.</p>
+          <p class="vb-intro">In his laboratory in Colorado Springs in 1899, he generated artificial lightning bolts over 40 meters long, at times knocking out the entire local power grid &ndash; an experiment that bordered on madness even to his contemporaries, but to him was simply the next logical step. The Beaver does not sleep long. It always has one more dam that wants to be finished.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Gift: A World Under Power</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Tesla gave the world is literally the backbone of modern civilization: his AC system still powers billions of households worldwide today, and his work laid the foundation for radio, radar, and wireless communication. Yet he died in 1943, impoverished and largely forgotten, in a New York hotel room, his only company the injured pigeons he had fed and nursed for years.</p>
+          <p class="vb-intro">That is the gift and the price of SO7w6: an energy that truly electrified the world, paired with a fear that ultimately isolated the inventor himself. The Beaver does not ask whether the river agrees &ndash; it builds for as long as it can. Whether Tesla received the recognition his work deserved is an open question. That he changed the world forever is not.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6) – whose company Tesla is named after him"},
       ])}
     </div>
   `);
@@ -52391,6 +52454,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
       "beruehmte-drew-barrymore": drewBarrymorePortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
+      "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
       "beruehmte-toni-morrison": toniMorrisonPortraitPage,
