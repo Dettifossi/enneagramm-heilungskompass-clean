@@ -24163,6 +24163,7 @@ const registerEntries = [
   { term: "Grigori Rasputin",              route: "beruehmte-rasputin",                    description: "Portrait: SX1w9 \u00b7 Sexueller Typ 1 \u00b7 Wanderm\u00f6nch, Heiler am Zarenhof" },
   { term: "Jesus Christus",                route: "beruehmte-jesus-christus",              description: "Portrait: SO2w1 \u00b7 Sozialer Typ 2 \u00b7 Wanderprediger, Religionsstifter" },
   { term: "Friedensreich Hundertwasser",    route: "beruehmte-hundertwasser",               description: "Portrait: SX9w1 \u00b7 Sexueller Typ 9 \u00b7 Maler, Architekt, \u00d6kologe" },
+  { term: "Diego Velázquez",                route: "beruehmte-diego-velazquez",             description: "Portrait: SX9w1 · Sexueller Typ 9 · Maler" },
   { term: "Rihanna",                       route: "beruehmte-rihanna",                     description: "Portrait: SX4w3 \u00b7 Sexueller Typ 4 \u00b7 Pop-Superstar, Unternehmerin" },
   { term: "Billie Eilish",                 route: "beruehmte-billie-eilish",                description: "Portrait: SX4w3 \u00b7 Sexueller Typ 4 \u00b7 S\u00e4ngerin, Songwriterin" },
   { term: "Robbie Williams",               route: "beruehmte-robbie-williams",             description: "Portrait: SX1w2 \u00b7 Sexueller Typ 1 \u00b7 S\u00e4nger, Entertainer, radikale Offenheit" },
@@ -24472,6 +24473,7 @@ const registerEntriesEN = [
   { term: "Grigori Rasputin", route: "beruehmte-rasputin", description: "Portrait: SX1w9 \u00b7 Sexual Type 1 \u00b7 Wandering monk, healer at the Tsar's court" },
   { term: "Jesus Christ", route: "beruehmte-jesus-christus", description: "Portrait: SO2w1 \u00b7 Social Type 2 \u00b7 Itinerant preacher, founder of a world religion" },
   { term: "Friedensreich Hundertwasser", route: "beruehmte-hundertwasser", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 Painter, architect, ecologist" },
+  { term: "Diego Velázquez", route: "beruehmte-diego-velazquez", description: "Portrait: SX9w1 · Sexual Type 9 · Painter" },
   { term: "Rihanna", route: "beruehmte-rihanna", description: "Portrait: SX4w3 \u00b7 Sexual Type 4 \u00b7 Pop-Superstar, Entrepreneur" },
   { term: "Billie Eilish", route: "beruehmte-billie-eilish", description: "Portrait: SX4w3 \u00b7 Sexual Type 4 \u00b7 Singer, songwriter" },
   { term: "Robbie Williams", route: "beruehmte-robbie-williams", description: "Portrait: SX1w2 \u00b7 Sexual Type 1 \u00b7 Singer, entertainer, radical honesty" },
@@ -32263,6 +32265,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Friedensreich Hundertwasser \u2013 Sexueller Typ 9",
     teaser:"SX9w1 \u00b7 1928\u20132000. Maler, Architekt, \u00d6kologe. Vom Friedrich Stowasser zum Friedensreich Hundertwasser \u2013 ein Leben als Verschmelzung mit der Natur, gegen die gerade Linie, f\u00fcr das organische Flie\u00dfen. Tierentsprechung: Faultier.",
     tags:["Kunst","Architektur"] , gender:"m"},
+  { route:"beruehmte-diego-velazquez", name:"Diego Velázquez", added:"2026-08-15", subtyp:"SX9w1",
+    heading:"Diego Velázquez – Sexueller Typ 9",
+    teaser:"SX9w1 · 1599–1660. Maler. Las Meninas, Hofmaler Philipps IV., Kampf um den Santiago-Orden. Das Faultier mit Einserflügel: Verschmelzung von Maler, Motiv und Betrachter, gepaart mit unnachgiebigem Standesanspruch. Tierentsprechung: Faultier.",
+    tags:["Kunst"], gender:"m"},
   { route:"beruehmte-carl-rogers", name:"Dr. Carl Rogers", added:"2026-08-05", subtyp:"SX9w1",
     heading:"Carl Rogers \u2013 Sexueller Typ 9",
     teaser:"SX9w1 \u00b7 1902\u20131987. Psychologe, Begr\u00fcnder der klientenzentrierten Gespr\u00e4chstherapie. Das Faultier, das den wertfreien Raum schuf, in dem Menschen sich selbst wieder finden konnten \u2013 bedingungslose Wertsch\u00e4tzung als therapeutisches Prinzip.",
@@ -55425,6 +55431,71 @@ function rasputinPortraitPage() {
   `);
 }
 
+function diegoVelazquezPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-diego-velazquez-portrait.jpg" alt="Diego Velázquez" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Diego Velázquez</p>
+        <p class="krim-portrait-typ">SX9w1 · Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Maler, 1599–1660 – Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun – kein Symbol für Trägheit, sondern für eine Existenzweise, die sich der Umgebung so vollständig anverwandelt, dass die Grenze zwischen Betrachter und Betrachtetem verschwimmt. Kaum ein Gemälde der Kunstgeschichte macht dieses Verschwimmen so bewusst wie Diego Velázquez' Meisterwerk "Las Meninas" (1656): Der Maler selbst steht im Bild, vor einer riesigen Leinwand, deren Motiv man nicht sieht – ein Spiegel im Hintergrund zeigt das Königspaar, das offenbar genau dort steht, wo der Betrachter des Gemäldes steht. Wer schaut hier eigentlich wen an?</p>
+          <p class="vb-intro">Velázquez wurde 1599 in Sevilla geboren und trat mit elf Jahren in die Werkstatt des Malers Francisco Pacheco ein, dessen Tochter er später heiratete. Schon in seinen frühen sevillanischen Bodegones – Alltagsszenen mit Küchengeräten und einfachen Menschen – zeigte sich eine Fähigkeit, die ihn sein Leben lang auszeichnete: sich so vollständig in das Gemalte zu versenken, dass Maler, Motiv und Betrachter kaum noch voneinander zu trennen sind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Der Verstärkungstyp der Verschmelzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> gilt in der Subtypenlehre als <em>Verstärkungstyp</em> der Neun: Sie sucht die Verschmelzung in ihrer intensivsten, unmittelbarsten Form – mit einem einzigen Menschen, einem Ideal oder, wie bei Velázquez, mit dem gemalten Gegenstand selbst. Aus der Nähe betrachtet lösen sich seine späten Pinselstriche fast in reine Farbflecken auf – erst mit Distanz fügen sie sich zu Stoff, Haut, Licht. Diese Technik, Jahrhunderte vor dem Impressionismus, verlangte vom Maler, seine eigene Präsenz fast völlig hinter dem Objekt verschwinden zu lassen, während er es zugleich mit äußerster Aufmerksamkeit erfasste.</p>
+          <p class="vb-intro">1623 wurde Velázquez, gerade 24 Jahre alt, zum Hofmaler König Philipps IV. berufen – ein Amt, das er bis zu seinem Tod 37 Jahre lang innehatte, ohne je in die Dienste eines anderen Herrschers zu wechseln. Diese lebenslange, fast bedingungslose Bindung an einen einzigen Menschen ist typisch für die SX9: keine Vielzahl wechselnder Auftraggeber, sondern die tiefe, dauerhafte Verschmelzung mit einer einzigen Beziehung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Malerei als Standesfrage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sexuellen Neun etwas, das die reine Neun selten zeigt: einen moralischen und gesellschaftlichen Anspruch, für den es sich zu kämpfen lohnt. Velázquez verbrachte Jahre damit, seine Aufnahme in den ritterlichen Santiago-Orden zu erwirken – eine Auszeichnung, die im Spanien seiner Zeit reinen Adligen ohne "unreines" Handwerk in der Familiengeschichte vorbehalten war. Malerei galt als Handwerk, nicht als freie Kunst, und genau das wollte Velázquez ändern: Er kämpfte nicht nur um seine eigene Erhebung, sondern um die Anerkennung der Malerei als einer den Wissenschaften ebenbürtigen, edlen Beschäftigung.</p>
+          <p class="vb-intro">1659, ein Jahr vor seinem Tod, erreichte er sein Ziel durch päpstliche Dispens und königliche Fürsprache. Der Überlieferung nach fügte er dem eigenen Selbstporträt in "Las Meninas" das rote Kreuz des Santiago-Ordens erst nachträglich hinzu – manche Quellen schreiben diese letzte Pinselführung sogar König Philipp IV. selbst zu. Das ist der Einserflügel in Reinform: Die Verschmelzungssehnsucht der Neun wird zum unnachgiebigen Prinzip erhoben, für das man jahrzehntelang beharrlich kämpft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Würde für die Übersehenen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am spanischen Hof lebten neben Königsfamilie und Adel auch Hofzwerge und Menschen mit Behinderungen, die zur Unterhaltung der Königsfamilie dienten – in der Kunst ihrer Zeit meist als groteske Randfiguren dargestellt. Velázquez malte sie stattdessen in eigenständigen, ernsthaften Porträts von erstaunlicher Würde: "Sebastián de Morra" oder "El Primo" zeigen Menschen mit direktem, selbstbewusstem Blick, ohne jede Karikatur oder Herabsetzung.</p>
+          <p class="vb-intro">Diese Fähigkeit, sich vollständig in das Gegenüber hineinzuversetzen, bis dessen Würde ungeschminkt sichtbar wird, ist die reifste Form der sexuellen Neun: Verschmelzung nicht als Auslöschung des Anderen, sondern als radikales Sehen, das dem Gesehenen seine volle Menschlichkeit zurückgibt. Das Faultier, das sich seiner Umgebung so vollständig anverwandelt, dass es auch die Übersehenen der Gesellschaft in ihrer vollen Gegenwart erfasst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 zeigt sich in der außergewöhnlichen Verbindung aus meditativer Versenkung und unerbittlichem Qualitätsanspruch: Velázquez hinterließ, verglichen mit anderen Hofmalern seiner Zeit, ein relativ kleines Werk – vermutlich weniger als 130 erhaltene Gemälde in fast vier Jahrzehnten –, doch jedes einzelne von außergewöhnlicher, oft jahrelang gereifter Vollendung. Die Neun mit Einserflügel arbeitet nicht schnell, sondern gründlich, bis das Ergebnis dem eigenen hohen Maßstab entspricht.</p>
+          <p class="vb-intro">Der Schatten zeigt sich im Preis dieser Hingabe: Als Kammerherr des Königs übernahm Velázquez in seinen letzten Lebensjahren zunehmend organisatorische Aufgaben am Hof, bis hin zur logistischen Ausrichtung der prunkvollen Hochzeitsfeierlichkeiten der Infantin Maria Theresia mit dem französischen König 1660. Diese Überlastung, in der sich der Künstler fast vollständig in seine höfische Rolle auflöste, gilt als Mitursache seines plötzlichen Todes wenige Wochen später. Die Selbstvergessenheit der Neun, verstärkt durch die pflichtbewusste Härte des Einserflügels, kann sich selbst dann noch erschöpfen, wenn der eigentliche Kampf längst gewonnen ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Maler, der die Grenze zwischen Betrachter und Bild auflöste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Diego Velázquez starb 1660 in Madrid, kurz nach seinem letzten großen Auftrag für die Krone. "Las Meninas" wurde später von Malern wie Francisco Goya und Pablo Picasso als eines der bedeutendsten Gemälde der westlichen Kunstgeschichte gewürdigt – Picasso schuf allein 58 eigene Interpretationen des Werks, so sehr faszinierte ihn dessen offene, sich selbst hinterfragende Struktur.</p>
+          <p class="vb-intro">Das Faultier mit Einserflügel: ein Maler, der sich so vollständig mit dem Gemalten verschmolz, dass die Grenzen zwischen Künstler, Modell und Betrachter bis heute in der Schwebe bleiben – und der genau in dieser Auflösung des Abstands die vielleicht radikalste künstlerische Errungenschaft seiner Epoche fand.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-hundertwasser", label:"Porträt: Friedensreich Hundertwasser (SX9w1)"},
+        {route:"beruehmte-keanu-reeves", label:"Porträt: Keanu Reeves (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function hundertwasserPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -55485,6 +55556,7 @@ function hundertwasserPortraitPage() {
         {route:"subtype/sx9", label:"SX9 \u2013 Das Faultier: Subtyp-Profil"},
         {route:"beruehmte-keanu-reeves", label:"Portr\u00e4t: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-iga-swiatek", label:"Portr\u00e4t: Iga \u015awi\u0105tek (SX9w1)"},
+        {route:"beruehmte-diego-velazquez", label:"Portr\u00e4t: Diego Vel\u00e1zquez (SX9w1)"},
         {route:"architektur-raumgestaltung-der-9-typen", label:"Schaubild: Architektur & Raumgestaltung der 9 Typen"},
       ])}
     </div>
@@ -87497,6 +87569,7 @@ function render() {
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
       "beruehmte-rasputin": rasputinPortraitPage,
       "beruehmte-hundertwasser": hundertwasserPortraitPage,
+      "beruehmte-diego-velazquez": diegoVelazquezPortraitPage,
       "beruehmte-jesus-christus": jesusChristusPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,

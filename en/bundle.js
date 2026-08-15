@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=46";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=47";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=9";
@@ -819,6 +819,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Friedensreich Hundertwasser – Sexual Type 9",
     teaser:"SX9w1 · 1928–2000. Painter, architect, ecologist. From Friedrich Stowasser to Friedensreich Hundertwasser – a life as fusion with nature, against the straight line, for organic flow. Animal correspondence: Sloth.",
     tags:["Art","Architecture"], gender:"m"},
+  { route:"beruehmte-diego-velazquez", name:"Diego Velázquez", added:"2026-08-15", subtyp:"SX9w1",
+    heading:"Diego Velázquez – Sexual Type 9",
+    teaser:"SX9w1 · 1599–1660. Painter. Las Meninas, court painter to Philip IV, the fight for the Order of Santiago. The sloth with a One-wing: fusion of painter, subject, and viewer, paired with unyielding social ambition. Animal correspondence: Sloth.",
+    tags:["Art"], gender:"m"},
   { route:"beruehmte-heike-makatsch", name:"Heike Makatsch", added:"2026-07-15", subtyp:"SX9w8",
     heading:"Heike Makatsch – Sexual Type 9",
     teaser:"SX9w8 · born 1971. Actress, known from 'Aimée & Jaguar', 'Love Actually' and more. The sexual Nine as amplification type: complete devotion to the role, with the strength of the Eight-wing at her back. Animal correspondence: Sloth.",
@@ -18657,7 +18661,73 @@ function hundertwasserPortraitPage() {
         {route:"subtype/sx9", label:"SX9 \u2013 The Sloth: Subtype Profile"},
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-iga-swiatek", label:"Portrait: Iga \u015awi\u0105tek (SX9w1)"},
+        {route:"beruehmte-diego-velazquez", label:"Portrait: Diego Vel\u00e1zquez (SX9w1)"},
         {route:"architektur-raumgestaltung-der-9-typen", label:"Chart: Architecture & Interior Design of the 9 Types"},
+      ])}
+    </div>
+  `);
+}
+
+function diegoVelazquezPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-diego-velazquez-portrait.jpg" alt="Diego Velázquez" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Diego Velázquez</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Painter, 1599&ndash;1660 &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sloth</strong> is the animal of the sexual Nine &ndash; not a symbol of laziness, but of a mode of existence that merges so completely with its surroundings that the boundary between observer and observed dissolves. Few paintings in art history make this dissolution as conscious as Diego Velázquez's masterpiece "Las Meninas" (1656): the painter himself stands in the picture, before an enormous canvas whose subject we cannot see &ndash; a mirror in the background shows the royal couple, apparently standing exactly where the viewer of the painting stands. Who, exactly, is looking at whom here?</p>
+          <p class="vb-intro">Velázquez was born in 1599 in Seville and, at eleven, entered the workshop of the painter Francisco Pacheco, whose daughter he later married. Even in his early Sevillian bodegones &ndash; everyday scenes with kitchen utensils and ordinary people &ndash; a capacity showed itself that would mark him for life: the ability to sink so completely into what he painted that painter, subject, and viewer become nearly impossible to tell apart.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Nine: The Intensifying Type of Fusion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In subtype theory, the <strong>sexual Nine (SX9)</strong> is considered the Nine's intensifying (counter-type) subtype: it seeks fusion in its most intense, most immediate form &ndash; with a single person, an ideal, or, as with Velázquez, with the painted object itself. Seen up close, his late brushstrokes dissolve into almost pure patches of color &ndash; only from a distance do they resolve into fabric, skin, light. This technique, centuries before Impressionism, required the painter to let his own presence nearly vanish behind the object, even as he captured it with the utmost attention.</p>
+          <p class="vb-intro">In 1623, at only 24, Velázquez was appointed court painter to King Philip IV &ndash; a post he held for 37 years, until his death, without ever entering the service of another ruler. This lifelong, almost unconditional bond to a single person is typical of the SX9: not a succession of changing patrons, but the deep, lasting fusion with one single relationship.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Painting as a Matter of Status</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Nine something the pure Nine rarely shows: a moral and social claim worth fighting for. Velázquez spent years working to secure his admission into the knightly Order of Santiago &ndash; an honor reserved, in the Spain of his time, for pure nobles with no "impure" trade in their family history. Painting was considered a craft, not a liberal art, and that was exactly what Velázquez wanted to change: he fought not only for his own elevation, but for the recognition of painting as a noble pursuit equal to the sciences.</p>
+          <p class="vb-intro">In 1659, a year before his death, he achieved his goal through papal dispensation and royal intervention. According to tradition, he added the red cross of the Order of Santiago to his own self-portrait in "Las Meninas" only afterward &ndash; some sources even attribute this final brushstroke to King Philip IV himself. This is the One-wing in its purest form: the Nine's longing for fusion raised to an unyielding principle, fought for with persistence over decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Dignity for the Overlooked</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At the Spanish court, alongside the royal family and nobility, lived court dwarfs and people with disabilities who served to entertain the royal household &ndash; in the art of the time usually depicted as grotesque, marginal figures. Velázquez instead painted them in independent, serious portraits of astonishing dignity: "Sebastián de Morra" or "El Primo" show people with a direct, self-possessed gaze, without any caricature or diminishment.</p>
+          <p class="vb-intro">This ability to enter so completely into the other that their dignity becomes visible, unvarnished, is the sexual Nine at its most mature: fusion not as the erasure of the other, but as a radical way of seeing that returns to the seen their full humanity. The Sloth that merges so completely with its surroundings that it also grasps society's overlooked in their full presence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SX9w1 shows in the extraordinary combination of meditative absorption and unyielding standard of quality: compared to other court painters of his time, Velázquez left behind a relatively small body of work &ndash; likely fewer than 130 surviving paintings across nearly four decades &ndash; yet each one of extraordinary, often years-in-the-making completion. The Nine with the One-wing does not work quickly, but thoroughly, until the result meets its own high standard.</p>
+          <p class="vb-intro">The shadow shows in the price of this devotion: as chamberlain to the king, Velázquez took on increasingly demanding organizational duties at court in his final years, culminating in the logistical arrangement of the lavish wedding festivities of the Infanta Maria Theresa to the French king in 1660. This overwork, in which the artist dissolved almost entirely into his courtly role, is considered a contributing cause of his sudden death only weeks later. The Nine's self-forgetting, intensified by the One-wing's dutiful rigor, can exhaust itself even after the real battle has long been won.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Painter Who Dissolved the Boundary Between Viewer and Image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Diego Velázquez died in 1660 in Madrid, shortly after his last great commission for the crown. "Las Meninas" was later celebrated by painters such as Francisco Goya and Pablo Picasso as one of the most significant paintings in Western art history &ndash; Picasso alone created 58 of his own interpretations of the work, so fascinated was he by its open, self-questioning structure.</p>
+          <p class="vb-intro">The Sloth with the One-wing: a painter who merged so completely with what he painted that the boundaries between artist, subject, and viewer remain suspended to this day &ndash; and who found, precisely in this dissolution of distance, perhaps the most radical artistic achievement of his era.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w1)"},
+        {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
       ])}
     </div>
   `);
@@ -53179,6 +53249,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
       "beruehmte-rasputin": rasputinPortraitPage,
       "beruehmte-hundertwasser": hundertwasserPortraitPage,
+      "beruehmte-diego-velazquez": diegoVelazquezPortraitPage,
       "beruehmte-jesus-christus": jesusChristusPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
