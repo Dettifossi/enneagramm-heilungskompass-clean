@@ -24136,6 +24136,7 @@ const registerEntries = [
   { term: "Milow",                         route: "beruehmte-milow",                      description: "Portrait: SX2w1 \u00b7 Sexueller Typ 2 \u00b7 S\u00e4nger, Songwriter, Ayo Technology" },
   { term: "Wallace Shawn",                 route: "beruehmte-wallace-shawn",               description: "Portrait: SE7w6 \u00b7 Selbsterhaltender Typ 7 \u00b7 Schauspieler, Autor, Vizzini in Die Prinzessin Braut, Rex in Toy Story" },
     { term: "Carsten Stahl", route: "beruehmte-carsten-stahl", description: "Portrait: SO8w7 \u00b7 Sozialer Typ 8 \u00b7 Antimobbingaktivist, Kampfsportler, Buchautor, L\u00f6we" },
+  { term: "Fritz Perls",                   route: "beruehmte-fritz-perls",                 description: "Portrait: SO8w7 · Sozialer Typ 8 · Psychiater, Mitbegründer der Gestalttherapie" },
   { term: "Michelle Obama",                route: "beruehmte-michelle-obama",              description: "Portrait: SO8w7 \u00b7 Sozialer Typ 8 \u00b7 Ex-First-Lady, Autorin, Bildungsaktivistin" },
   { term: "Monika Gruber",                 route: "beruehmte-monika-gruber",               description: "Portrait: SX2w1 \u00b7 Sexueller Typ 2 \u00b7 Kabarettistin, Herzw\u00e4rme & Leidenschaft" },
   { term: "Neil Armstrong",                route: "beruehmte-neil-armstrong",              description: "Portrait: SE6w7 \u00b7 Selbsterhaltender Typ 6 \u00b7 erster Mensch auf dem Mond, 1969" },
@@ -24435,6 +24436,7 @@ const registerEntriesEN = [
   { term: "Milow", route: "beruehmte-milow", description: "Portrait: SX2w1 \u00b7 Sexual Type 2 \u00b7 Singer, songwriter, Ayo Technology" },
   { term: "Wallace Shawn", route: "beruehmte-wallace-shawn", description: "Portrait: SE7w6 \u00b7 Self-Preservation Type 7 \u00b7 Actor, Author, Vizzini in Die Prinzessin Braut, Rex in Toy Story" },
   { term: "Carsten Stahl", route: "beruehmte-carsten-stahl", description: "Portrait: SO8w7 \u00b7 Social Type 8 \u00b7 Anti-bullying activist, Martial artist, Author, Lion" },
+  { term: "Fritz Perls", route: "beruehmte-fritz-perls", description: "Portrait: SO8w7 · Social Type 8 · Psychiatrist, co-founder of Gestalt therapy" },
   { term: "Michelle Obama", route: "beruehmte-michelle-obama", description: "Portrait: SO8w7 \u00b7 Social Type 8 \u00b7 Former First Lady, Author, Education activist" },
   { term: "Monika Gruber", route: "beruehmte-monika-gruber", description: "Portrait: SX2w1 \u00b7 Sexual Type 2 \u00b7 Comedian, warmth of heart & passion" },
   { term: "Neil Armstrong", route: "beruehmte-neil-armstrong", description: "Portrait: SE6w7 \u00b7 Self-Preservation Type 6 \u00b7 first human on the Moon, 1969" },
@@ -32059,6 +32061,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sokrates – Sozialer Typ 8",
     teaser:"SO8w7 · ca. 470–399 v. Chr. Griechischer Philosoph, Lehrer Platons. Mäeutik, Prozess wegen Gottlosigkeit, gelassener Tod durch den Schierlingsbecher. Der Löwe mit Siebenerflügel: unermüdliches Fragen, Loyalität zur Polis bis in den Tod. Tierentsprechung: Löwe.",
     tags:["Geschichte","Philosophie"], gender:"m"},
+  { route:"beruehmte-fritz-perls", name:"Fritz Perls", added:"2026-08-15", subtyp:"SO8w7",
+    heading:"Fritz Perls – Sozialer Typ 8",
+    teaser:"SO8w7 · 1893–1970. Psychiater, Mitbegründer der Gestalttherapie. Hot Seat, LSD-Experimente, Esalen-Institut. Der Löwe mit Siebenerflügel: kompromisslose Konfrontation, ungefiltertes Erleben im Hier und Jetzt. Tierentsprechung: Löwe.",
+    tags:["Psychologie"], gender:"m"},
   { route:"beruehmte-michelle-obama", name:"Michelle Obama", subtyp:"SO8w7",
     heading:"Michelle Obama \u2013 Sozialer Typ 8",
     teaser:"SO8w7 \u00b7 geb. 1964. Anw\u00e4ltin, Autorin, ehemalige First Lady der USA (2009\u20132017). Bestseller-Autorin (Becoming). Der L\u00f6we, der f\u00fcr sein Rudel k\u00e4mpft \u2013 und der wei\u00df, dass man hochgeht, wenn andere runtergehen. Tierentsprechung: L\u00f6we.",
@@ -46722,8 +46728,74 @@ function sokratesPortraitPage() {
         {route:"beruehmte-xanthippe", label:"Porträt: Xanthippe (SO1w9) – seine Frau"},
         {route:"beruehmte-platon", label:"Porträt: Platon (SX6w5) – sein bedeutendster Schüler"},
         {route:"beruehmte-michelle-obama", label:"Porträt: Michelle Obama (SO8w7)"},
+        {route:"beruehmte-fritz-perls", label:"Porträt: Fritz Perls (SO8w7)"},
         {route:"beruehmte-heraklit", label:"Porträt: Heraklit (SO4w5)"},
         {route:"beruehmte-pythagoras", label:"Porträt: Pythagoras (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function fritzPerlsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-fritz-perls-portrait.jpg" alt="Fritz Perls" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fritz Perls</p>
+        <p class="krim-portrait-typ">SO8w7 · Sozialer Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Psychiater, Mitbegründer der Gestalttherapie, 1893&ndash;1970 &ndash; Tierentsprechung: Löwe</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Löwe, der auf dem heißen Stuhl provozierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 &ndash; ein Raubtier, das seine Kraft nicht versteckt, sondern offen zeigt, um eine Gruppe wachzurütteln. Kaum jemand verkörperte das so kompromisslos wie Fritz Perls: In seinen legendären Gruppen-Workshops setzte er Teilnehmer auf den berüchtigten "Hot Seat" und konfrontierte sie direkt, oft schonungslos, mit ihren Vermeidungsstrategien &ndash; vor den Augen aller Anwesenden. Wer eine Ausrede vorbrachte, wurde nicht sanft begleitet, sondern unmittelbar mit der eigenen Abwehr konfrontiert.</p>
+          <p class="vb-intro">Friedrich Salomon Perls wurde 1893 in Berlin geboren, studierte Medizin und Psychiatrie, arbeitete zeitweise mit Kurt Goldstein und wurde in der Psychoanalyse bei Wilhelm Reich und Karen Horney ausgebildet. 1933, nach der nationalsozialistischen Machtübernahme, floh er als Jude aus Deutschland, zunächst in die Niederlande, dann nach Südafrika und schließlich in die USA. Der Löwe verlässt sein Territorium nicht kampflos &ndash; aber wenn die Gefahr real wird, verteidigt er nicht die alte Ordnung, sondern baut sich eine neue auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Eine neue Therapie-Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> nennt Naranjo <em>Solidarität</em>: Kraft, die nicht der eigenen Sicherheit dient, sondern dem Aufbau und Schutz einer Gemeinschaft. 1951 veröffentlichte Perls gemeinsam mit Ralph Hefferline und Paul Goodman "Gestalt Therapy" und gründete kurz darauf das erste Gestalt-Institut in New York &ndash; eine bewusste Kampfansage an die etablierte, aus seiner Sicht zu passive und zu theorielastige Freud'sche Psychoanalyse.</p>
+          <p class="vb-intro">Perls verstand sich nicht als einsamer Theoretiker, sondern als Anführer einer Bewegung: Er versammelte um sich einen Kreis von Mitstreitern, prägte eine eigene therapeutische Sprache (Kontaktgrenze, Awareness, "Hier und Jetzt") und trug diese Bewegung später ans Esalen Institute in Big Sur, Kalifornien, wo er von 1964 bis 1969 zur Leitfigur der gesamten Human-Potential-Bewegung wurde. Die soziale Acht kämpft nicht für sich allein &ndash; sie baut die Institution, die Schule, die Gemeinschaft, die andere tragen soll.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Hunger nach Erfahrung und Grenzüberschreitung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der sozialen Acht eine rastlose, appetitive Energie &ndash; den Hunger, das Leben in seiner vollen Intensität auszukosten, statt sich zurückzuziehen. Bei Perls zeigte sich das in einem Lebensstil, der jede bürgerliche Konvention hinter sich ließ: offen gelebte Sexualität, Experimente mit LSD, freizügiges Auftreten in Workshops, ständiges Reisen zwischen Kontinenten und Kliniken. In Esalen lebte er zeitweise buchstäblich in einem Wohnwagen am Rand des Klippenpfads &ndash; ungebunden, verfügbar für jede neue Begegnung, jedes neue Experiment.</p>
+          <p class="vb-intro">Auch sein Auftritt war Theater: Perls trug gern einen ausladenden weißen Bart, provozierte mit bissigem Witz und einer fast schauspielerischen Selbstinszenierung, filmte seine Sitzungen für ein breites Publikum und wurde selbst zur Marke. Sein bekanntestes Zitat &ndash; das "Gestalt-Gebet" ("Ich tue mein Ding, und du tust dein Ding...") &ndash; ist ebenso Ausdruck einer therapeutischen Haltung wie einer siebenerhaften Lebensphilosophie: Genuss, Autonomie, keine Rechtfertigung gegenüber fremden Erwartungen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Wollust als Konfrontation mit der Abwehr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Acht heißt <strong>Wollust</strong> &ndash; kein sexueller, sondern ein existenzieller Hunger nach ungefiltertem, vollem Erleben. Bei der SO8w7 richtet sich dieser Hunger auf den unmittelbaren Kontakt: Perls konnte es nicht ertragen, wenn Menschen sich hinter Erklärungen, Interpretationen oder intellektuellen Ausflüchten versteckten. Seine berühmteste Formel &ndash; "Verliere deinen Verstand und komm zu deinen Sinnen" &ndash; war eine direkte Kampfansage an jede Form von Vermeidung.</p>
+          <p class="vb-intro">Diese Kompromisslosigkeit hatte einen Preis: Kollegen und ehemalige Weggefährten beschrieben ihn als egozentrisch, ungeduldig mit Schwäche und mitunter grob im Umgang mit Teilnehmern, die seiner direkten Konfrontation nicht gewachsen waren. Auch sein privates Leben war von Brüchen geprägt &ndash; mehrere Scheidungen, distanzierte Beziehungen zu seinen Kindern Renate und Stephen, ein Leben in ständiger Bewegung, das kaum Raum für dauerhafte Nähe ließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO8w7 zeigt sich in der befreienden Wirkung, die von Perls' Methode ausging: Die Gestalttherapie brach mit der distanzierten, jahrelang dauernden Freud'schen Analyse und setzte auf unmittelbares Erleben im Hier und Jetzt &ndash; ein Ansatz, der Tausenden half, verdrängte Gefühle direkt zu spüren statt nur über sie zu sprechen. Perls' Mut zur Konfrontation öffnete Räume, in denen echte, oft schmerzhafte Durchbrüche möglich wurden.</p>
+          <p class="vb-intro">Der Schatten liegt in der Härte dieser Konfrontation: Kritiker warfen ihm vor, seine Technik habe manchmal mehr der eigenen Show als dem Wohl der Klienten gedient, und nicht jeder Teilnehmer war der öffentlichen Bloßstellung auf dem Hot Seat gewachsen. Der Löwe mit Siebenerflügel weckt auf &ndash; aber er fragt nicht immer, ob die Aufweckung sanft geschehen soll.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Awareness statt Erklärung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fritz Perls starb 1970 in Chicago, kurz nachdem er ein Gestalt-Kibbutz-Projekt in Kanada gegründet hatte &ndash; bis zuletzt in Bewegung, bis zuletzt auf der Suche nach der nächsten Gemeinschaft, dem nächsten Experiment. Seine letzten Worte sollen, der Legende nach, eine typisch direkte Zurechtweisung gewesen sein &ndash; er ließ sich selbst im Sterben nicht die Bereitschaft nehmen, unmittelbar zu reagieren, statt höflich zu schweigen.</p>
+          <p class="vb-intro">Die Gestalttherapie, die er mitbegründete, prägt bis heute Beratung, Coaching und Psychotherapie weit über ihre ursprüngliche Schule hinaus &ndash; ihr Kernprinzip, dass Bewusstheit (Awareness) im gegenwärtigen Moment mehr heilt als jede nachträgliche Erklärung, trägt deutlich die Handschrift des Löwen mit Siebenerflügel: kein geduldiges Abwarten, sondern die volle, ungefilterte Konfrontation mit dem, was gerade lebendig ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"beruehmte-sokrates", label:"Porträt: Sokrates (SO8w7)"},
+        {route:"beruehmte-michelle-obama", label:"Porträt: Michelle Obama (SO8w7)"},
       ])}
     </div>
   `);
@@ -86667,6 +86739,7 @@ function render() {
           "beruehmte-cynthia-lummis": cynthiaLummisPortraitPage,
     "beruehmte-michelle-obama": michelleObamaPortraitPage,
     "beruehmte-sokrates": sokratesPortraitPage,
+    "beruehmte-fritz-perls": fritzPerlsPortraitPage,
           "beruehmte-jamaica-kincaid": jamaicaKincaidPortraitPage,
     "beruehmte-bud-spencer": budSpencerPortraitPage,
     "beruehmte-karl-marx": karlMarxPortraitPage,

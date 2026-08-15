@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=36";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=37";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=9";
@@ -695,6 +695,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Socrates – Social Type 8",
     teaser:"SO8w7 · c. 470–399 BC. Greek philosopher, teacher of Plato. Maieutics, trial for impiety, calm death by hemlock. The lion with the Seven-wing: relentless questioning, loyalty to the polis unto death. Animal correspondence: Lion.",
     tags:["History","Philosophy"], gender:"m"},
+  { route:"beruehmte-fritz-perls", name:"Fritz Perls", added:"2026-08-15", subtyp:"SO8w7",
+    heading:"Fritz Perls – Social Type 8",
+    teaser:"SO8w7 · 1893–1970. Psychiatrist, co-founder of Gestalt therapy. Hot seat, LSD experiments, Esalen Institute. The lion with the Seven-wing: uncompromising confrontation, unfiltered experience in the here and now. Animal correspondence: Lion.",
+    tags:["Psychology"], gender:"m"},
   { route:"beruehmte-michelle-obama", name:"Michelle Obama", subtyp:"SO8w7",
     heading:"Michelle Obama – Social Type 8",
     teaser:"SO8w7 · born 1964. Lawyer, author, former First Lady of the USA (2009–2017). Bestselling author (Becoming). The lion that fights for its pride – and knows to rise when others go low. Animal correspondence: Lion.",
@@ -17366,8 +17370,74 @@ function sokratesPortraitPage() {
         {route:"beruehmte-xanthippe", label:"Portrait: Xanthippe (SO1w9) – his wife"},
         {route:"beruehmte-platon", label:"Portrait: Plato (SX6w5) – his most important student"},
         {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+        {route:"beruehmte-fritz-perls", label:"Portrait: Fritz Perls (SO8w7)"},
         {route:"beruehmte-heraklit", label:"Portrait: Heraclitus (SO4w5)"},
         {route:"beruehmte-pythagoras", label:"Portrait: Pythagoras (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function fritzPerlsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-fritz-perls-portrait.jpg" alt="Fritz Perls" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fritz Perls</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Social Type 8 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Psychiatrist, co-founder of Gestalt therapy, 1893&ndash;1970 &ndash; Animal correspondence: Lion</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Lion Who Provoked From the Hot Seat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>lion</strong> is the animal of Social Type 8 &ndash; a predator that does not hide its strength but displays it openly to shake a group awake. Few people embodied this as uncompromisingly as Fritz Perls: in his legendary group workshops, he placed participants in the notorious "hot seat" and confronted them directly, often bluntly, with their own avoidance strategies &ndash; in front of everyone present. Anyone who offered an excuse was not gently guided along but met immediately with their own defense mechanism.</p>
+          <p class="vb-intro">Friedrich Salomon Perls was born in 1893 in Berlin, studied medicine and psychiatry, worked for a time with Kurt Goldstein, and trained in psychoanalysis under Wilhelm Reich and Karen Horney. In 1933, after the Nazi seizure of power, he fled Germany as a Jew, first to the Netherlands, then to South Africa, and finally to the United States. The lion does not abandon its territory without a fight &ndash; but once the danger becomes real, it does not defend the old order, it builds a new one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Eight: A New Therapeutic Community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called <strong>Social Eight (SO8)</strong> <em>Solidarity</em>: strength placed not in the service of one's own safety, but in building and protecting a community. In 1951, Perls published "Gestalt Therapy" together with Ralph Hefferline and Paul Goodman and shortly afterward founded the first Gestalt Institute in New York &ndash; a deliberate challenge to the established, and in his view too passive and too theory-heavy, Freudian psychoanalysis.</p>
+          <p class="vb-intro">Perls did not see himself as a solitary theorist but as the leader of a movement: he gathered a circle of collaborators around him, coined his own therapeutic vocabulary (contact boundary, awareness, "here and now"), and later carried this movement to the Esalen Institute in Big Sur, California, where from 1964 to 1969 he became the figurehead of the entire human potential movement. Social Eight does not fight for itself alone &ndash; it builds the institution, the school, the community that others will carry forward.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: A Hunger for Experience and Transgression</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives Social Eight a restless, appetitive energy &ndash; the hunger to savor life at full intensity rather than withdraw from it. In Perls this showed in a lifestyle that left every bourgeois convention behind: openly lived sexuality, experiments with LSD, uninhibited conduct in workshops, constant travel between continents and clinics. At Esalen he lived for a time literally in a trailer at the edge of the cliff path &ndash; unattached, available for every new encounter, every new experiment.</p>
+          <p class="vb-intro">His public persona, too, was theater: Perls favored a sweeping white beard, provoked with biting wit and an almost actorly self-presentation, filmed his sessions for a wide audience, and became a brand in his own right. His best-known line &ndash; the "Gestalt Prayer" ("I do my thing, and you do your thing...") &ndash; expresses both a therapeutic stance and a Seven-like life philosophy: enjoyment, autonomy, no justification owed to outside expectations.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Lust as Confrontation With Avoidance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Eight is called <strong>lust</strong> &ndash; not a sexual but an existential hunger for unfiltered, full experience. In SO8w7, this hunger is directed at immediate contact: Perls could not tolerate people hiding behind explanations, interpretations, or intellectual evasions. His most famous formula &ndash; "lose your mind and come to your senses" &ndash; was a direct challenge to every form of avoidance.</p>
+          <p class="vb-intro">This uncompromising stance came at a price: colleagues and former associates described him as egocentric, impatient with weakness, and at times harsh toward participants who could not withstand his direct confrontation. His private life, too, was marked by rupture &ndash; several divorces, a distant relationship with his children Renate and Stephen, a life in constant motion that left little room for lasting closeness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO8w7 shows in the liberating effect of Perls's method: Gestalt therapy broke with the distant, years-long Freudian analysis and staked everything on immediate experience in the here and now &ndash; an approach that helped thousands feel repressed emotions directly rather than merely talk about them. Perls's willingness to confront opened spaces in which genuine, often painful breakthroughs became possible.</p>
+          <p class="vb-intro">The shadow lies in the harshness of that confrontation: critics accused him of sometimes serving his own show more than his clients' welfare, and not every participant was equipped to withstand public exposure on the hot seat. The lion with the Seven-wing wakes people up &ndash; but it does not always ask whether the waking should be gentle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Awareness Over Explanation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fritz Perls died in 1970 in Chicago, shortly after founding a Gestalt kibbutz project in Canada &ndash; in motion to the last, still searching for the next community, the next experiment. His last words, legend has it, were a characteristically direct rebuke &ndash; even in dying he did not let go of the readiness to react immediately rather than fall politely silent.</p>
+          <p class="vb-intro">The Gestalt therapy he co-founded still shapes counseling, coaching, and psychotherapy today, far beyond its original school &ndash; its core principle, that awareness in the present moment heals more than any retrospective explanation, clearly bears the signature of the lion with the Seven-wing: no patient waiting, but full, unfiltered confrontation with what is alive right now.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
+        {route:"beruehmte-sokrates", label:"Portrait: Socrates (SO8w7)"},
+        {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
       ])}
     </div>
   `);
@@ -52326,6 +52396,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-toni-morrison": toniMorrisonPortraitPage,
       "beruehmte-michelle-obama": michelleObamaPortraitPage,
       "beruehmte-sokrates": sokratesPortraitPage,
+      "beruehmte-fritz-perls": fritzPerlsPortraitPage,
       "beruehmte-bud-spencer": budSpencerPortraitPage,
       "beruehmte-karl-marx": karlMarxPortraitPage,
       "beruehmte-donald-trump": donaldTrumpPortraitPage,
