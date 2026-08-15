@@ -58766,7 +58766,7 @@ function langLangPortraitPage() {
         <h2 class="vb-section">5. Die Verletzung und die Rückkehr</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">2017 zwang eine schwere Sehnenentzündung im linken Arm, verursacht durch Jahrzehnte intensiven Übens und öffentlicher Auftritte, Lang Lang zu einer über einjährigen Spielpause – eine existenzielle Bedrohung für einen Musiker, dessen gesamte Identität auf nachweisbarer, körperlicher Meisterschaft beruhte. Statt zu verzweifeln, nutzte er die Zeit, um sich verstärkt der Musikvermittlung und dem Unterrichten zu widmen, und kehrte 2018 mit neuer Reife an die Bühne zurück.</p>
-          <p class="vb-intro">2019 heiratete er die deutsche Pianistin Gina Alice Redlinger, mit der er seither auch gemeinsam auftritt und unterrichtet. Der Waschbär, dessen Sicherheit einst allein auf der eigenen Spielfähigkeit ruhte, fand in der Krise eine neue, tragfähigere Grundlage: nicht nur zu können, sondern das eigene Können weiterzugeben.</p>
+          <p class="vb-intro">2019 heiratete er die deutsche Pianistin Gina Alice Redlinger (SE2w3), mit der er seither auch gemeinsam auftritt und unterrichtet. Der Waschbär, dessen Sicherheit einst allein auf der eigenen Spielfähigkeit ruhte, fand in der Krise eine neue, tragfähigere Grundlage: nicht nur zu können, sondern das eigene Können weiterzugeben.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der eine Generation für das Klavier begeisterte</h2>
