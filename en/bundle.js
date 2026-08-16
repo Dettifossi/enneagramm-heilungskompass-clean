@@ -26337,13 +26337,13 @@ function katjaRiemannPortraitPage() {
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Type 6 &ndash; an animal that does not avoid threat, but looks it straight in the eye. It tests, holds eye contact, bares its teeth when it must. Hardly any German actress embodies this directness as consistently as Katja Riemann: known not only for her roles, but for interviews in which she holds nothing back.</p>
-          <p class="vb-intro">Born in 1963 in Bad Kreuznach and trained at the Folkwang drama school in Essen, Riemann became a star of German cinema overnight with <em>Der bewegte Mann</em> (1994), alongside Til Schweiger. But unlike many who follow their first major success with something similar, she has since shifted consistently between comedy, musical film, and historical drama &ndash; with a willingness to take risks that has become rare.</p>
+          <p class="vb-intro">Born in 1963 in Bad Kreuznach and trained at the Folkwang drama school in Essen, Riemann became a star of German cinema overnight with <em>Der bewegte Mann</em> (1994), alongside Til Schweiger (SO4w3). But unlike many who follow their first major success with something similar, she has since shifted consistently between comedy, musical film, and historical drama &ndash; with a willingness to take risks that has become rare.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Six: Plain Speech Over Diplomacy (Countertype)</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>sexual Six (SX6)</strong> is the countertype of the Six: it does not show its fear through withdrawal, but meets it with strength, directness, and a presence that shies away from no confrontation. Naranjo called this subtype <em>Strength</em>. Rather than avoiding conflict, the SX6 tends to seek it out &ndash; because clarity gives it more security than diplomatic silence.</p>
-          <p class="vb-intro">For decades, Riemann has been known for exactly this stance: in interviews, she speaks bluntly on political and social issues &ndash; war, the causes of displacement, social inequality &ndash; often with a sharpness that has drawn public disagreement and criticism. She does not shy away from it. Whoever attacks her publicly gets an answer, not a retreat. This is the SX6 in its purest form: taking a stand, even when it becomes uncomfortable.</p>
+          <p class="vb-intro">For decades, Riemann has been known for exactly this stance: in interviews, she speaks bluntly on political and social issues &ndash; war, the causes of displacement, social inequality &ndash; often with a sharpness that has drawn public disagreement and criticism. She does not shy away from it. Whoever attacks her publicly gets an answer, not a retreat. This is exactly what defines the sexual Six: taking a stand, even when it becomes uncomfortable.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Seven-Wing: Versatility as Appetite</h2>
