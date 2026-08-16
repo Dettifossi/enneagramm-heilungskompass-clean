@@ -370,6 +370,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Tony Shalhoub – Self-Preservation Type 3",
     teaser:"SP3w4 · born 1953. Actor, known from \"Monk\" and \"The Marvelous Mrs. Maisel\". Three Emmys, one Golden Globe – the raccoon with the Four-wing: decades of craft over the spotlight, precision as an expression of genuine emotional depth. Animal correspondence: Raccoon.",
     tags:["Film"], gender:"m"},
+  { route:"beruehmte-anna-anderson", name:"Anna Anderson", added:"2026-08-16", subtyp:"SE3w4",
+    heading:"Anna Anderson – Self-Preservation Type 3",
+    teaser:"SE3w4 · 1896–1984. History's most famous impostor, claimed for decades to be the surviving Grand Duchess Anastasia. Security through a tragic identity, never criminally convicted. The raccoon that built itself a crown. Animal correspondence: Raccoon.",
+    tags:["History"], gender:"f"},
   { route:"beruehmte-judit-polgar", name:"Judit Polgár", added:"2026-08-15", subtyp:"SE3w4",
     heading:"Judit Polgár – Self-Preservation Type 3",
     teaser:"SP3w4 · born 1976. Chess grandmaster, strongest female chess player in history. Youngest grandmaster in history in 1991, 8th in the open world ranking in 2005. The raccoon that sought out the hardest stage, not the most comfortable one. Animal correspondence: Raccoon.",
@@ -32624,6 +32628,69 @@ function tonyShalhoubPortraitPage() {
   `);
 }
 
+function annaAndersonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-anna-anderson-portrait.jpg" alt="Raccoon" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anna Anderson</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">History's most famous impostor, 1896–1984 – Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The raccoon is the animal of the self-preservation Three – an animal easy to underestimate. No loud entrance, no stage, just clever hands, a watchful eye for what's needed, and the ability to build a livelihood out of almost nothing. Anna Anderson did exactly that – except the "nothing" she built an existence out of was someone else's identity.</p>
+          <p class="vb-intro">In 1920, a young woman was pulled from a Berlin canal after a suicide attempt and admitted to a psychiatric asylum. Shortly afterward she began claiming to be Anastasia Romanov, the youngest daughter of the last Russian tsar – supposedly the sole survivor of the 1918 murder of the imperial family. Under the name Anna Anderson, she lived for decades off the support of wealthy believers convinced by her story.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Three: Security as a life's project</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the self-preservation Three (SE3) is the subtype he called "Security" – not a Three seeking the big stage, but one tirelessly working on the material foundation, often in the background, often underestimated. In Anna Anderson this pattern surfaced in an extreme, tragic form: her real goal was never public fame for its own sake, but lasting provision by others – housing, food, medical care, a life free of the poverty she likely came from.</p>
+          <p class="vb-intro">The identity as Anastasia was not the purpose but the means. For decades she moved from one benefactor's household to the next, always wherever belief and sympathy still meant support. In 1968, shortly before her US visa expired, she married historian John Manahan – a pragmatic arrangement that secured her permanent residence in the United States. That very sobriety at the core of an apparently romantic story is the SE3's signature.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four wing: Tragic uniqueness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SE3 with a more muted Four wing would likely have chosen a less dramatic legend. In Anderson's case, a pronounced pull toward the dramatic, the singular, the irreproducibly tragic came through instead: not just any survivor, but the last daughter of an extinguished imperial house – marked by a trauma no one else had ever lived through. This narrative offered an identity that went far beyond ordinary suffering.</p>
+          <p class="vb-intro">Her actual life supported this role in unsettling ways: multiple psychiatric hospitalizations, suicide attempts, extreme mood swings, a life lived in constant emotional crisis. Whether genuine trauma, a learned role, or both interwoven, the Four wing supplied the inner depth that turned a bare claim into a credibly lived, tragic identity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The longest civil trial in German history</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Starting in 1938, Anderson sought legal recognition of her identity as Anastasia in order to pursue claims to the Romanov inheritance. The trial dragged on for 32 years and became the longest-running civil case in German legal history. In 1970 the Karlsruhe appeals court upheld the lower court's ruling: her identity could neither be proven nor disproven.</p>
+          <p class="vb-intro">Important for how she is classified here: this was a civil case over inheritance claims, not a criminal trial. Anna Anderson was never criminally charged or convicted of fraud or any other offense – which is exactly why she appears here under "Famous Personalities" rather than "Criminal Psychology". Her case remains a borderline figure: a woman whose claim was never judicially established as fraud, even though it later proved to be false.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The DNA resolution: Franziska Schanzkowska</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Only in 1994, ten years after Anderson's death, did a DNA test on preserved tissue samples bring clarity: her mitochondrial DNA matched neither the Romanov remains nor living relatives of the tsar's family – but it did match a great-nephew of Franziska Schanzkowska, a Polish factory worker who had vanished without a trace in 1920, at the very time Anna Anderson appeared.</p>
+          <p class="vb-intro">The SE3 invests enormous energy in securing an identity that holds – to the very end, even beyond death. Even as science contradicted her, Anderson had lived the role so long and so consistently that legend and person could hardly be separated anymore.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Raccoon that built itself a crown</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anna Anderson's story shows the SE3w4 in its most extreme, most ambivalent form: the pragmatic, tireless work of securing herself, combined with an identity of such tragic depth that millions of people believed her – or wanted to – for eight decades. Whether she herself came to believe her own story at some point remains an open question. Perhaps that was exactly the point: the line between survival strategy and lived truth blurs when a role is played long enough.</p>
+          <p class="vb-intro">The raccoon builds a working livelihood out of whatever is available – clever, unobtrusive, able to survive under the harshest conditions. Anna Anderson built, out of a trauma, a vanished name, and a fallen dynasty, an existence that held for over six decades. That is not an admirable achievement. But it shows what the self-preservation Three with a Four wing is capable of under extreme pressure.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SP3w4)"},
+          {route:"kriminalpsychologie-frank-abagnale-jr", label:"Criminal Psychology: Frank Abagnale Jr. (SO7w6) – The Impostor"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function juditPolgarPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -54220,6 +54287,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
       "beruehmte-judit-polgar": juditPolgarPortraitPage,
+      "beruehmte-anna-anderson": annaAndersonPortraitPage,
       "beruehmte-peter-falk": peterFalkPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,

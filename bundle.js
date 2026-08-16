@@ -24122,6 +24122,7 @@ const registerEntries = [
   { term: "Karl Lagerfeld",                route: "beruehmte-karl-lagerfeld",              description: "Portrait: SO3w4 \u00b7 Sozialer Typ 3 \u00b7 Modedesigner, Chanel-Ikone" },
   { term: "Karoline Herfurth",             route: "beruehmte-karoline-herfurth",           description: "Portrait: SE4w5 \u00b7 Selbsterhaltender Typ 4 \u00b7 Schauspielerin, Regisseurin" },
   { term: "Kathrin Bauerfeind",            route: "beruehmte-kathrin-bauerfeind",          description: "Portrait: SE3w4 \u00b7 Selbsterhaltender Typ 3 \u00b7 Journalistin, Moderatorin, Essayistin" },
+  { term: "Anna Anderson", route: "beruehmte-anna-anderson", description: "Portrait: SE3w4 · Selbsterhaltende Typ 3 · berühmteste Hochstaplerin der Geschichte" },
   { term: "Judit Polgár",                  route: "beruehmte-judit-polgar",                description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Schach-Großmeisterin" },
   { term: "Keanu Reeves",                  route: "beruehmte-keanu-reeves",                description: "Portrait: SX9w1 \u00b7 Sexueller Typ 9 \u00b7 Schauspieler, The Matrix, stille Pr\u00e4senz" },
   { term: "Klaus Kinski",                  route: "beruehmte-klaus-kinski",                description: "Portrait: SX1w9 \u00b7 Sexueller Typ 1 \u00b7 Schauspieler, Intensit\u00e4t & Exzess" },
@@ -24442,6 +24443,7 @@ const registerEntriesEN = [
   { term: "Karl Lagerfeld", route: "beruehmte-karl-lagerfeld", description: "Portrait: SO3w4 \u00b7 Social Type 3 \u00b7 Fashion designer, Chanel icon" },
   { term: "Karoline Herfurth", route: "beruehmte-karoline-herfurth", description: "Portrait: SE4w5 \u00b7 Self-Preservation Type 4 \u00b7 Actress, Director" },
   { term: "Kathrin Bauerfeind", route: "beruehmte-kathrin-bauerfeind", description: "Portrait: SE3w4 \u00b7 Self-Preservation Type 3 \u00b7 Journalist, TV host, Essayistin" },
+  { term: "Anna Anderson", route: "beruehmte-anna-anderson", description: "Portrait: SP3w4 · Self-Preservation Type 3 · history's most famous impostor" },
   { term: "Judit Polgár", route: "beruehmte-judit-polgar", description: "Portrait: SP3w4 · Self-Preservation Type 3 · Chess grandmaster" },
   { term: "Keanu Reeves", route: "beruehmte-keanu-reeves", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 Actor, The Matrix, quiet presence" },
   { term: "Klaus Kinski", route: "beruehmte-klaus-kinski", description: "Portrait: SX1w9 \u00b7 Sexual Type 1 \u00b7 Actor, intensity & excess" },
@@ -31612,6 +31614,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Tony Shalhoub – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · geb. 1953. Schauspieler, bekannt aus »Monk« und »The Marvelous Mrs. Maisel«. Drei Emmys, ein Golden Globe – der Waschbär mit Viererflügel: jahrzehntelanges Handwerk statt Rampenlicht, Präzision als Ausdruck echter emotionaler Tiefe. Tierentsprechung: Waschbär.",
     tags:["Film"], gender:"m"},
+  { route:"beruehmte-anna-anderson", name:"Anna Anderson", added:"2026-08-16", subtyp:"SE3w4",
+    heading:"Anna Anderson – Selbsterhaltende Typ 3",
+    teaser:"SE3w4 · 1896–1984. Berühmteste Hochstaplerin der Geschichte, behauptete jahrzehntelang, die überlebende Zarentochter Anastasia zu sein. Absicherung durch eine tragische Identität, nie strafrechtlich verurteilt. Der Waschbär, der sich eine Krone baute. Tierentsprechung: Waschbär.",
+    tags:["Geschichte"], gender:"f"},
   { route:"beruehmte-judit-polgar", name:"Judit Polgár", added:"2026-08-15", subtyp:"SE3w4",
     heading:"Judit Polgár – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · geb. 1976. Schach-Großmeisterin, spielstärkste Frau der Schachgeschichte. Jüngste Großmeisterin der Geschichte 1991, Platz 8 der Weltrangliste 2005. Der Waschbär, der sich die härteste statt die bequemste Bühne suchte. Tierentsprechung: Waschbär.",
@@ -48593,6 +48599,70 @@ function nataschaKampuschPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-marie-antoinette", label:"Portr\xe4t: Marie Antoinette (SE2w3)"},
           {route:"kriminalpsychologie-ulrike-meinhof", label:"Portr\xe4t: Ulrike Meinhof (SE2w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
+function annaAndersonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-anna-anderson-portrait.jpg" alt="Waschb\xe4r" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anna Anderson</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltende Typ 3 mit Viererfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Ber\xfchmteste Hochstaplerin der Geschichte, 1896&ndash;1984 &ndash; Tierentsprechung: Waschb\xe4r</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschb\xe4r</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschb\xe4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das man leicht untersch\xe4tzt. Kein lauter Auftritt, keine B\xfchne, sondern findige H\xe4nde, ein wacher Blick f\xfcr das, was gebraucht wird, und die F\xe4higkeit, sich aus fast nichts eine Existenz zu bauen. Anna Anderson hat genau das getan &ndash; nur dass das &bdquo;Nichts&ldquo;, aus dem sie sich eine Existenz baute, eine fremde Identit\xe4t war.</p>
+          <p class="vb-intro">1920 wurde eine junge Frau nach einem Selbstmordversuch aus einem Berliner Kanal gerettet und in eine Nervenheilanstalt eingeliefert. Wenig sp\xe4ter begann sie zu behaupten, sie sei Anastasia Romanowa, die j\xfcngste Tochter des letzten russischen Zaren &ndash; angeblich die einzige \xdcberlebende der Ermordung der Zarenfamilie 1918. Unter dem Namen Anna Anderson lebte sie fortan Jahrzehnte von der Unterst\xfctzung wohlhabender Gl\xe4ubiger, die von ihrer Geschichte \xfcberzeugt waren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Absicherung als Lebensprojekt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist nach Naranjo der Subtyp, den er &bdquo;Sicherheit&ldquo; nannte &ndash; keine Drei, die auf der gro\xdfen B\xfchne gl\xe4nzen will, sondern eine, die unerm\xfcdlich am materiellen Fundament arbeitet, oft im Hintergrund, oft unterschätzt. Bei Anna Anderson trat dieses Muster in einer extremen, tragischen Form hervor: Ihr eigentliches Ziel war nie \xf6ffentlicher Ruhm um seiner selbst willen, sondern die dauerhafte Versorgung durch andere &ndash; Wohnung, Nahrung, medizinische Betreuung, ein Leben ohne die Armut, aus der sie vermutlich kam.</p>
+          <p class="vb-intro">Die Identit\xe4t als Anastasia war dabei nicht der Zweck, sondern das Mittel. Jahrzehntelang zog sie von einem G\xf6nnerhaushalt zum n\xe4chsten, immer dort, wo Glaube und Mitgef\xfchl noch Unterst\xfctzung bedeuteten. 1968, kurz bevor ihr US-Visum ablief, heiratete sie den Historiker John Manahan &ndash; eine pragmatische Verbindung, die ihr den dauerhaften Aufenthalt in den USA sicherte. Genau diese N\xfcchternheit im Kern einer scheinbar romantischen Geschichte ist die Handschrift der SE3.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\xfcgel: Die tragische Einzigartigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SE3 mit schw\xe4cher ausgepr\xe4gtem Viererfl\xfcgel h\xe4tte vermutlich eine unauff\xe4lligere Legende gew\xe4hlt. Bei Anderson trat stattdessen eine ausgepr\xe4gte Anziehung zum Dramatischen, zum Einzigartigen, zum unwiederholbar Tragischen hervor: nicht irgendeine \xdcberlebende, sondern die letzte Tochter eines ausgel\xf6schten Kaiserhauses &ndash; gezeichnet von einem Trauma, das niemand sonst je erlebt hatte. Diese Erz\xe4hlung bot eine Identit\xe4t, die weit \xfcber gew\xf6hnliches Leid hinausging.</p>
+          <p class="vb-intro">Ihr tats\xe4chliches Leben st\xfctzte diese Rolle auf erschreckende Weise: mehrere psychiatrische Klinikaufenthalte, Suizidversuche, extreme Stimmungsschwankungen, ein Leben in st\xe4ndiger emotionaler Ausnahmesituation. Ob echtes Trauma, erlernte Rolle oder beides ineinander verwoben &ndash; der Viererfl\xfcgel lieferte die innere Tiefe, die aus einer blo\xdfen Behauptung eine glaubw\xfcrdig gelebte, tragische Identit\xe4t machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der l\xe4ngste Zivilprozess der deutschen Geschichte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ab 1938 versuchte Anderson vor Gericht, ihre Identit\xe4t als Anastasia rechtlich anerkennen zu lassen, um Anspr\xfcche auf das Romanow-Erbe geltend zu machen. Der Prozess zog sich \xfcber 32 Jahre hin und wurde zum l\xe4ngsten Zivilverfahren der deutschen Rechtsgeschichte. 1970 best\xe4tigte das Oberlandesgericht Karlsruhe das Urteil der Vorinstanz: Ihre Identit\xe4t konnte weder bewiesen noch widerlegt werden.</p>
+          <p class="vb-intro">Wichtig f\xfcr die Einordnung: Es handelte sich um ein Zivilverfahren um Erbanspr\xfcche, nicht um einen Strafprozess. Anna Anderson wurde nie wegen Betrugs oder eines anderen Delikts strafrechtlich angeklagt oder verurteilt &ndash; genau deshalb steht sie hier unter &bdquo;Ber\xfchmte Pers\xf6nlichkeiten&ldquo; und nicht unter &bdquo;Kriminalpsychologie&ldquo;. Ihr Fall bleibt eine Grenzfigur: eine Frau, deren Anspruch nie gerichtlich als Betrug festgestellt wurde, obwohl er sich sp\xe4ter als falsch erwies.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die DNA-Aufl\xf6sung: Franziska Schanzkowska</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Erst 1994, zehn Jahre nach Andersons Tod, brachte ein DNA-Test aus erhaltenem Gewebematerial Klarheit: Ihre mitochondriale DNA stimmte weder mit den Romanow-Überresten noch mit lebenden Verwandten der Zarenfamilie überein &ndash; wohl aber mit einem Großneffen der polnischen Fabrikarbeiterin Franziska Schanzkowska, die 1920 spurlos verschwunden war, zur selben Zeit, als Anna Anderson auftauchte.</p>
+          <p class="vb-intro">Die SE3 investiert enorme Energie darin, eine Identit\xe4t abzusichern, die tr\xe4gt &ndash; bis zuletzt, \xfcber den eigenen Tod hinaus. Selbst als die Wissenschaft ihr widersprach, hatte Anderson die Rolle so lange und so konsequent gelebt, dass sich Legende und Person kaum noch trennen lie\xdfen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Waschb\xe4r, der sich eine Krone baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anna Andersons Geschichte zeigt die SE3w4 in ihrer extremsten, ambivalentesten Form: die pragmatische, unerm\xfcdliche Arbeit an der eigenen Absicherung, verbunden mit einer Identit\xe4t von solcher tragischer Tiefe, dass Millionen Menschen ihr acht Jahrzehnte lang glauben schenkten &ndash; oder glauben wollten. Ob sie selbst irgendwann an ihre eigene Geschichte glaubte, bleibt offen. Vielleicht war genau das der Punkt: Die Grenze zwischen \xdcberlebensstrategie und gelebter Wahrheit verschwimmt, wenn man eine Rolle lange genug spielt.</p>
+          <p class="vb-intro">Der Waschb\xe4r baut sich aus dem, was vorhanden ist, ein funktionierendes Auskommen &ndash; geschickt, unauff\xe4llig, \xfcberlebensf\xe4hig unter widrigsten Bedingungen. Anna Anderson baute sich aus einem Trauma, einem verschwundenen Namen und einer untergegangenen Dynastie eine Existenz, die \xfcber sechs Jahrzehnte trug. Das ist keine bewundernswerte Leistung. Aber es ist eine, die zeigt, wozu die selbsterhaltende Drei mit Viererfl\xfcgel unter extremem Druck f\xe4hig ist.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-judit-polgar", label:"Portr\xe4t: Judit Polg\xe1r (SE3w4)"},
+          {route:"kriminalpsychologie-frank-abagnale-jr", label:"Kriminalpsychologie: Frank Abagnale Jr. (SO7w6) – Der Hochstapler"},
         ])}
       </div>
     </div>
@@ -88468,6 +88538,7 @@ function render() {
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
       "beruehmte-judit-polgar": juditPolgarPortraitPage,
+      "beruehmte-anna-anderson": annaAndersonPortraitPage,
       "beruehmte-peter-falk": peterFalkPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
