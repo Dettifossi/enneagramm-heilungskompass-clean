@@ -24262,6 +24262,7 @@ const registerEntries = [
   { term: "Paul Ogorzow",              route: "kriminalpsychologie-paul-ogorzow",         description: "Kriminalpsychologisches Portr\u00e4t: SE1w9 \u2013 \u201eS-Bahn-M\u00f6rder\u201d, 8 Morde Berlin 1939\u201341, NSDAP-Mitglied und Triebt\u00e4ter" },
   { term: "Pedro Alonso L\u00f3pez",        route: "kriminalpsychologie-pedro-alonso-lopez",  description: "Kriminalpsychologisches Portr\u00e4t: SO3w2 \u2013 \u201eMonster der Anden\u201d, 300+ gestandene Morde in S\u00fcdamerika, freigelassen 1998" },
   { term: "Peter Sutcliffe",           route: "kriminalpsychologie-peter-sutcliffe",      description: "Kriminalpsychologisches Portr\u00e4t: SE2w1 \u2013 \u201eYorkshire Ripper\u201d, 13 Morde England 1975\u201380, religi\u00f6ser Wahn und Frauenhass" },
+  { term: "Jeanne Weber", route: "kriminalpsychologie-jeanne-weber", description: "Kriminalpsychologisches Portrait: SE2w1 \u2013 erw\u00fcrgte mehrere Kinder aus dem eigenen und verwandtschaftlichen Umfeld, 1905\u20131908" },
   { term: "Richard Ram\u00edrez",           route: "kriminalpsychologie-richard-ramirez",     description: "Kriminalpsychologisches Portr\u00e4t: SX3w4 \u2013 \u201eNight Stalker\u201d, 13 Morde Kalifornien 1984\u201385, satanische Selbstmythologisierung. Tierentsprechung: Pfau." },
   { term: "Rudolf Pleil",              route: "kriminalpsychologie-rudolf-pleil",         description: "Kriminalpsychologisches Portr\u00e4t: SE2w3 \u2013 \u201eder totmacher\u201d, mind. 10 Morde Nachkriegsdeutschland, SE2-Analyse" },
   { term: "Ruja Ignatova",             route: "kriminalpsychologie-ruja-ignatova",        description: "Kriminalpsychologisches Portr\u00e4t: SE3w4 \u2013 \u201eCrypto Queen\u201d, OneCoin-Betr\u00fcgerin, 4 Mrd. Euro Schaden, untergetaucht seit 2017" },
@@ -24858,6 +24859,7 @@ const registerEntriesEN = [
   { term: "Paul Ogorzow", route: "kriminalpsychologie-paul-ogorzow", description: "Criminal psychological portrait: SE1w9 \u2013 \"S-Bahn Murderer\", 8 murders Berlin 1939\u201341, NSDAP member and sex offender" },
   { term: "Pedro Alonso L\u00f3pez", route: "kriminalpsychologie-pedro-alonso-lopez", description: "Criminal psychological portrait: SO3w2 \u2013 \"Monster of the Andes\", 300+ confessed murders in South America, released 1998" },
   { term: "Peter Sutcliffe", route: "kriminalpsychologie-peter-sutcliffe", description: "Criminal psychological portrait: SE2w1 \u2013 \"Yorkshire Ripper\", 13 murders England 1975\u201380, religious delusion and misogyny" },
+  { term: "Jeanne Weber", route: "kriminalpsychologie-jeanne-weber", description: "Criminal psychological portrait: SE2w1 \u2013 strangled several children in her own and extended family, 1905\u20131908" },
   { term: "Richard Ram\u00edrez", route: "kriminalpsychologie-richard-ramirez", description: "Criminal psychological portrait: SX3w4 \u2013 \"Night Stalker\", 13 murders California 1984\u201385, satanic self-mythologization. Animal equivalent: Peacock." },
   { term: "Rudolf Pleil", route: "kriminalpsychologie-rudolf-pleil", description: "Criminal psychological portrait: SE2w3 \u2013 \"the deathmaker\", at least 10 murders post-war Germany, SE2 analysis" },
   { term: "Ruja Ignatova", route: "kriminalpsychologie-ruja-ignatova", description: "Criminal psychological portrait: SE3w4 \u2013 \"Crypto Queen\", OneCoin fraudster, 4 billion euros in damages, missing since 2017" },
@@ -31245,6 +31247,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-jonathan-meijer",     name:"Jonathan Meijer",                     subtyp:"SE2w1",  heading:"Jonathan Meijer \u2013 Selbsterhaltender Typ 2",                              teaser:"SE2w1 \u2013 Samenspender, der \xfcber 550 Kinder zeugte. Helfen als Identit\xe4t, Stolz als blinder Fleck: der Typ 2 im Fall Jonathan Meijer." , tags:["Betrug","Missbrauch"], gender:"m"},
   { route:"kriminalpsychologie-angel-resendez",      name:"\u00c1ngel Res\u00e9ndez",                     subtyp:"SE2w1",  heading:"\u00c1ngel Res\u00e9ndez \u2013 Selbsterhaltender Typ 2",                          teaser:"SE2w1 \u2013 \u2018Der Eisenbahn-Killer\u2019, 1960\u20132006. 9 best\u00e4tigte Morde in den USA (1997\u20131999), 6 weitere zugeschrieben. Als illegaler Einwanderer entlang von G\u00fcterz\u00fcgen durch die USA reisend \u2013 Einbruch und Gewalt als \u00dcberlebensstrategie. Tierentsprechung: Flusspferd." , tags:["Sonstiges"], gender:"m"},
   { route:"kriminalpsychologie-tommy-lynn-sells",    name:"Tommy Lynn Sells",                    subtyp:"SE2w1",  heading:"Tommy Lynn Sells \u2013 Selbsterhaltender Typ 2",                           teaser:"SE2w1 \u2013 \u2018Der Coast-to-Coast-Killer\u2019, 1964\u20132014. Zwischen 13 und 70 Morde in zahlreichen US-Bundesstaaten \u00fcber zwei Jahrzehnte. Wanderarbeiter, Drifter, scheinbar harmloser Fremder \u2013 F\u00fcrsorge als K\u00f6der, moralische Selbstgerechtigkeit als Rechtfertigung. Tierentsprechung: Kojote." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-jeanne-weber",         name:"Jeanne Weber",                        subtyp:"SE2w1",  heading:"Jeanne Weber – Selbsterhaltende Typ 2",                                teaser:"SE2w1 – „Die Menschenfresserin von der Goutte d'Or\", 1874–1918. Erwürgte mehrere Kinder aus dem eigenen und dem verwandtschaftlichen Umfeld (1905–1908). Fürsorge als Tarnung, Einserflügel als zwanghafte Wiederholung trotz wachsendem Entdeckungsrisiko. Tierentsprechung: Flusspferd." , tags:["Serienmord","Nahbereich"], gender:"f"},
   { route:"kriminalpsychologie-peter-sutcliffe",     name:"Peter Sutcliffe",                     subtyp:"SE2w1",  heading:"Peter Sutcliffe \u2013 Selbsterhaltender Typ 2",                             teaser:"SE2w1 \u2013 'Der Yorkshire Ripper', 1946\u20132020. 13 Morde an Frauen in Nordengland 1975\u20131980, 7 weitere \u00dcberlebende. LKW-Fahrer, Familienvater, hilfsbereiter Nachbar \u2013 F\u00fcrsorge als Tarnung, moralisches Urteil als M\u00f6rdermotiv. Tierentsprechung: Flusspferd." , tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-anna-delvey",         name:"Anna Delvey",                         subtyp:"SE2w3",  heading:"Anna Delvey \u2013 Selbsterhaltender Typ 2",                                  teaser:"SE2w3 \u2013 Fake-Erbin der New Yorker Hochgesellschaft. Stolz als Inszenierung: wie der Dreierfl\xfcgel der Zwei eine vollst\xe4ndige Lebensfiktion erm\xf6glicht." , tags:["Betrug"], gender:"f"},
   { route:"kriminalpsychologie-buster-murdaugh",     name:"Buster Murdaugh",                     subtyp:"SE2w3",  heading:"Buster Murdaugh \u2013 Selbsterhaltender Typ 2",                              teaser:"SE2w3 \u2013 Sohn der Murdaugh-Dynastie. Erbliches Zweier-Privileg: wie ein \xfcbernommenes Machtsystem das Enneagramm Typ 2 pr\xe4gt." , tags:["Nahbereich"], gender:"m"},
@@ -67598,6 +67601,87 @@ function tommyLynnSellsPortraitPage() {
   `);
 }
 
+function jeanneWeberPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Jeanne Weber – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/jeanne-weber-portrait.jpg" alt="Jeanne Weber – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jeanne Weber</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltende Typ 2 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-sub">&bdquo;Die Menschenfresserin von der Goutte d'Or&ldquo; &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Das Flusspferd</h3>
+        <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das nach au\xdfen sanft und schwerf\xe4llig wirkt, aber unter der Wasseroberfl\xe4che eine ganz andere Realit\xe4t verbirgt. Jeanne Weber, 1874 in einem westfranz\xf6sischen Fischerdorf geboren, arbeitete ab ihrem vierzehnten Lebensjahr in Paris in einfachen Haushalten, bevor sie 1893 heiratete. Zwischen 1905 und 1908 t\xf6tete sie mutma\xdflich mindestens acht Kinder &ndash; darunter ihre eigenen und die ihrer Verwandtschaft &ndash; durch Erw\xfcrgen, jeweils in Momenten, in denen sie kurz allein mit dem Kind war.</p>
+        <p class="vb-intro">Nach au\xdfen war sie eine F\xfcrsorgerin: Mutter, Tante, Betreuerin, die Frau, die sich um die Kinder k\xfcmmerte, w\xe4hrend die \xfcbrige Familie arbeitete. Genau in dieser Rolle, im engsten, vertrautesten Kreis, geschahen die Taten &ndash; unsichtbar f\xfcr alle, die sie f\xfcr eine F\xfcrsorgeperson hielten.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Zwei: Privileg durch Unentbehrlichkeit</h3>
+        <p class="vb-intro">Naranjo nannte die <strong>selbsterhaltende Zwei (SE2)</strong> den Subtyp des <em>Privilegs</em>: das tief verankerte Gef\xfchl, sich einen besonderen Platz im Leben eines geliebten Menschen durch Unentbehrlichkeit zu sichern &ndash; und daraus einen stillschweigenden Anspruch abzuleiten. Weber \xfcbernahm immer wieder freiwillig die Betreuung von Kindern, auch nachdem der Verdacht gegen sie l\xe4ngst gewachsen war &ndash; sie zog sogar unter falschem Namen weiter, um erneut eine Betreuungsrolle bei einem fremden Kind zu \xfcbernehmen.</p>
+        <p class="vb-intro">Diese Unf\xe4higkeit, von der Rolle der Betreuenden zu lassen, selbst im Angesicht wachsender Verd\xe4chtigungen, ist die SE2 in ihrer zerst\xf6rerischsten Form: Die N\xe4he zum Kind, die Position als unverzichtbare Bezugsperson, wird zum zwanghaften Zentrum des eigenen Selbstverst\xe4ndnisses &ndash; und zur Gelegenheit f\xfcr eine Gewalt, die sich in genau diesem intimen Rahmen wiederholt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Einserfl\xfcgel: Der innere Zwang</h3>
+        <p class="vb-intro">Eine SE2 mit schw\xe4cher ausgepr\xe4gtem Einserfl\xfcgel h\xe4tte m\xf6glicherweise nach der ersten Tat innegehalten oder w\xe4re zumindest vorsichtiger geworden. Bei Weber trat stattdessen eine rigide, fast zwanghafte Wiederholung hervor: Dieselbe Konstellation &ndash; ein Kind, kurz allein mit ihr &ndash; wiederholte sich \xfcber Jahre hinweg an verschiedenen Orten, mit unterschiedlichen Kindern, trotz wachsender Ermittlungen und \xf6ffentlicher Aufmerksamkeit.</p>
+        <p class="vb-intro">Diese Unf\xe4higkeit, vom einmal etablierten Muster abzuweichen, selbst als das Risiko der Entdeckung offensichtlich stieg, ist der Einserfl\xfcgel in seiner dunkelsten Auspr\xe4gung: kein kalkuliertes \xdcberlegen, sondern ein innerer Zwang, der st\xe4rker war als jede Vorsicht. Anders als bei einem Zweierfl\xfcgel-Muster mit Inszenierung oder Status ging es hier um keine \xf6ffentliche B\xfchne &ndash; Weber suchte keine Aufmerksamkeit, keinen sozialen Aufstieg. Sie leugnete jedes Mal beharrlich und still.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Freispruch, Weiterziehen, R\xfcckfall</h3>
+        <p class="vb-intro">1905 starb Webers Nichte Georgette unter verd\xe4chtigen Umst\xe4nden in ihrer Obhut, kurz darauf ein weiteres Kind aus der Verwandtschaft. Als ihr Neffe Maurice im April 1905 mit W\xfcrgemalen am Hals gefunden wurde, w\xe4hrend Weber \xfcber ihm stand, schien der Fall klar &ndash; dennoch wurde sie im Februar 1906 trotz erdr\xfcckender Indizien freigesprochen. Statt sich zur\xfcckzuziehen, zog sie weiter, nahm einen falschen Namen an und \xfcbernahm erneut die Betreuung eines Kindes.</p>
+        <p class="vb-intro">1908 wurde sie dabei beobachtet, wie sie den zehnj\xe4hrigen Marcel Poirot mit einem blutigen Taschentuch zu erw\xfcrgen versuchte. Dieses Mal folgte die Verurteilung &ndash; zugleich wurde sie f\xfcr unzurechnungsf\xe4hig erkl\xe4rt und in die Anstalt von Mareville eingewiesen. Formal handelte es sich damit nicht um eine klassische Strafverurteilung, sondern um eine Unterbringung wegen festgestellter Unzurechnungsf\xe4higkeit.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Zehn Jahre Anstalt, ungekl\xe4rtes Ende</h3>
+        <p class="vb-intro">Weber verbrachte die letzten zehn Jahre ihres Lebens in der Anstalt Mareville, bevor sie 1918 starb. Die genauen Todesumst\xe4nde sind bis heute nicht eindeutig gekl\xe4rt: W\xe4hrend manche \xe4ltere Quellen von einer Selbststrangulation in der Anstalt berichten, verweisen neuere Auswertungen franz\xf6sischer Prim\xe4rquellen auf Nierenversagen als Todesursache, ohne Hinweise auf Fremdeinwirkung. Diese Unsicherheit passt auf beunruhigende Weise zum gesamten Fall: Selbst am Ende bleibt vieles im Ungewissen.</p>
+        <p class="vb-intro">Was bleibt, ist das Muster: eine Frau, deren Rolle als F\xfcrsorgerin zur Tarnung f\xfcr wiederholte Gewalt wurde, ohne dass \xf6ffentliches Ansehen, Status oder Inszenierung je eine Rolle spielten. Reines, kompulsives Wiederholen im Verborgenen.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro"><strong>a) F\xfcrsorge als Tarnung:</strong> Anders als bei der SE2w3, die Status und \xf6ffentliches Bild sucht, agierte Weber ausschlie\xdflich im privaten, familiären Nahbereich. Die Rolle der F\xfcrsorgerin war nicht Fassade f\xfcr Prestige, sondern der einzige Ort, an dem sich die Taten ereignen konnten.</p>
+        <p class="vb-intro"><strong>b) Der Einserfl\xfcgel als Wiederholungszwang:</strong> Eine SE2 mit schw\xe4cher ausgepr\xe4gtem Einserfl\xfcgel h\xe4tte m\xf6glicherweise nach der ersten Entdeckung aufgeh\xf6rt. Der stark ausgepr\xe4gte Einserfl\xfcgel bei Weber zeigte sich als rigide innere Notwendigkeit, dasselbe Muster immer wieder zu wiederholen &ndash; trotz wachsenden Risikos.</p>
+        <p class="vb-intro"><strong>c) Kein \xf6ffentliches Motiv:</strong> Anders als bei Peter Sutcliffe, dessen Taten von einer Art moralischem Feldzug begleitet waren, gibt es bei Weber keine Hinweise auf eine \xe4hnliche \xf6ffentliche Rechtfertigungserz\xe4hlung. Ihr Muster blieb rein privat, verdeckt, ohne jede Selbstinszenierung.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Jeanne Weber</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SE2w1 &ndash; Selbsterhaltende Zwei mit Einserfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Stolz (als Privileg der Unentbehrlichkeit im engsten familiären Kreis)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Flusspferd</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 7. Oktober 1874 &ndash; 5. Juli 1918</span>
+          <span style="display:block;"><strong>Bekannt f\xfcr:</strong> Erw\xfcrgen mehrerer Kinder aus dem eigenen und dem verwandtschaftlichen Umfeld (1905&ndash;1908), 1906 zun\xe4chst freigesprochen, 1908 f\xfcr schuldig und zugleich unzurechnungsf\xe4hig erkl\xe4rt, Unterbringung in der Anstalt Mareville bis zu ihrem Tod 1918</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie das Privileg der Unentbehrlichkeit zur zwanghaften Wiederholungsfalle wird – und warum der Einserflügel keine Rücksicht auf Entdeckungsrisiko kennt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Stolz als Grundmotiv der Zwei: Wie das Schutzsystem der Zwei entsteht und wie es sich in Heilung aufl\xf6st.", "Wer du wirklich bist (Band 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Jeanne Weber wurde 1908 f\xfcr schuldig und zugleich unzurechnungsf\xe4hig erkl\xe4rt und in eine Anstalt eingewiesen, wo sie 1918 starb. Das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-peter-sutcliffe", label:"Kriminalpsychologie: Peter Sutcliffe (SE2w1)"},
+          {route:"kriminalpsychologie-ulrike-meinhof", label:"Kriminalpsychologie: Ulrike Meinhof (SE2w1)"},
+          {route:"kriminalpsychologie-henri-landru", label:"Kriminalpsychologie: Henri D\xe9sir\xe9 Landru (SE3w4)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function peterSutcliffePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -89139,6 +89223,7 @@ function render() {
       "kriminalpsychologie-angel-resendez": angelResendezPortraitPage,
       "kriminalpsychologie-tommy-lynn-sells": tommyLynnSellsPortraitPage,
       "kriminalpsychologie-peter-sutcliffe": peterSutcliffePortraitPage,
+      "kriminalpsychologie-jeanne-weber": jeanneWeberPortraitPage,
       "kriminalpsychologie-dorothea-puente": dorotheaPuentePortraitPage,
       "kriminalpsychologie-aileen-wuornos": aileenWuornosPortraitPage,
       "kriminalpsychologie-boris-becker": borisBeckerKriminalPage,

@@ -114,6 +114,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-jonathan-meijer",     name:"Jonathan Meijer",                     subtyp:"SE2w1",  heading:"Jonathan Meijer \u2013 Self-Preservation Type 2",                              teaser:"SP2w1 – Sperm donor who fathered over 550 children. Helping as identity, pride as blind spot: Type 2 in the Jonathan Meijer case." , tags:["Betrug","Missbrauch"]},
   { route:"kriminalpsychologie-angel-resendez",      name:"Ángel Reséndez",                     subtyp:"SE2w1",  heading:"Ángel Reséndez – Self-Preservation Type 2",                          teaser:"SP2w1 – 'The Railroad Killer', 1960–2006. 9 confirmed murders in the USA (1997–1999), 6 more attributed. Traveling the USA as an illegal immigrant along freight train routes – break-in and violence as survival strategy. Animal correspondence: Hippopotamus." , tags:["Sonstiges"]},
   { route:"kriminalpsychologie-tommy-lynn-sells",    name:"Tommy Lynn Sells",                    subtyp:"SE2w1",  heading:"Tommy Lynn Sells – Self-Preservation Type 2",                           teaser:"SP2w1 – 'The Coast-to-Coast Killer', 1964–2014. Between 13 and 70 murders in numerous US states over two decades. Itinerant laborer, drifter, seemingly harmless stranger – care as bait, moral self-righteousness as justification. Animal correspondence: Coyote." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-jeanne-weber",         name:"Jeanne Weber",                        subtyp:"SE2w1",  heading:"Jeanne Weber – Self-Preservation Type 2",                                teaser:"SE2w1 – \"The Ogress of the Goutte d'Or\", 1874–1918. Strangled several children from her own and extended family (1905–1908). Caregiving as cover, the One wing as compulsive repetition despite mounting risk of discovery. Animal correspondence: Hippopotamus." , tags:["Serienmord","Nahbereich"], gender:"f"},
   { route:"kriminalpsychologie-peter-sutcliffe",     name:"Peter Sutcliffe",                     subtyp:"SE2w1",  heading:"Peter Sutcliffe – Self-Preservation Type 2",                             teaser:"SP2w1 – 'The Yorkshire Ripper', 1946–2020. 13 murders of women in northern England 1975–1980, 7 further survivors. Truck driver, family man, helpful neighbor – care as camouflage, moral judgment as murder motive. Animal correspondence: Hippopotamus." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-anna-delvey",         name:"Anna Delvey",                         subtyp:"SE2w3",  heading:"Anna Delvey \u2013 Self-Preservation Type 2",                                  teaser:"SP2w3 – Fake heiress of New York high society. Pride as performance: how the Three-wing of the Two enables a complete life fiction." , tags:["Betrug"]},
   { route:"kriminalpsychologie-buster-murdaugh",     name:"Buster Murdaugh",                     subtyp:"SE2w3",  heading:"Buster Murdaugh \u2013 Self-Preservation Type 2",                              teaser:"SP2w3 – Son of the Murdaugh dynasty. Inherited Two privilege: how an adopted power system shapes Enneagram Type 2." , tags:["Nahbereich"]},
@@ -37477,6 +37478,87 @@ function tommyLynnSellsPortraitPage() {
   `);
 }
 
+function jeanneWeberPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Jeanne Weber – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/jeanne-weber-portrait.jpg" alt="Jeanne Weber – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jeanne Weber</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-sub">"The Ogress of the Goutte d'Or" &middot; Animal Correspondence: Hippopotamus</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Hippopotamus</h3>
+        <p class="vb-intro">The <strong>hippopotamus</strong> is the animal of the self-preservation Two – an animal that appears gentle and slow-moving on the surface, while hiding an entirely different reality beneath the water. Jeanne Weber, born in 1874 in a fishing village in western France, worked in Paris households from the age of fourteen before marrying in 1893. Between 1905 and 1908 she allegedly killed at least eight children – including her own and those of her extended family – by strangulation, each time in moments when she was briefly alone with the child.</p>
+        <p class="vb-intro">To the outside world she was a caregiver: mother, aunt, minder, the woman who looked after the children while the rest of the family worked. It was exactly in this role, in the closest, most trusted circle, that the acts took place – invisible to everyone who saw her as a caring figure.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The self-preservation Two: Privilege through indispensability</h3>
+        <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SE2)</strong> the subtype of <em>Privilege</em>: a deeply rooted sense of securing a special place in a loved one's life through being indispensable – and deriving a quiet entitlement from it. Weber repeatedly took on the care of children of her own accord, even after suspicion against her had already grown – she even moved on under a false name to take up a caretaking role with a child unrelated to her.</p>
+        <p class="vb-intro">This inability to let go of the caretaker role, even in the face of mounting suspicion, is the SE2 in its most destructive form: closeness to the child, the position of indispensable caregiver, becomes the compulsive center of her own self-understanding – and the occasion for violence that repeats itself within exactly this intimate frame.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The One wing: The inner compulsion</h3>
+        <p class="vb-intro">An SE2 with a more muted One wing might have stopped after the first act, or at least grown more careful. In Weber's case, a rigid, almost compulsive repetition emerged instead: the same constellation – a child briefly alone with her – repeated itself over years in different places, with different children, despite mounting investigations and public attention.</p>
+        <p class="vb-intro">This inability to deviate from an established pattern, even as the risk of discovery became obvious, is the One wing at its darkest: not calculated deliberation, but an inner compulsion stronger than any caution. Unlike a Two-wing pattern built on display or status, there was no public stage here – Weber sought no attention, no social advancement. Each time, she simply and persistently denied everything.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Acquittal, relocation, relapse</h3>
+        <p class="vb-intro">In 1905, Weber's niece Georgette died under suspicious circumstances in her care, followed shortly after by another child from the extended family. When her nephew Maurice was found in April 1905 with strangulation marks on his throat, Weber standing over him, the case seemed clear – yet in February 1906, despite overwhelming evidence, she was acquitted. Instead of withdrawing, she moved on, took a false name, and once again took on the care of a child.</p>
+        <p class="vb-intro">In 1908 she was observed trying to strangle ten-year-old Marcel Poirot with a bloodied handkerchief. This time a conviction followed – and at the same time she was declared legally insane and committed to the asylum at Mareville. Formally, this was therefore not a conventional criminal conviction, but a committal on grounds of established insanity.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Ten years in the asylum, an unresolved end</h3>
+        <p class="vb-intro">Weber spent the last ten years of her life at the Mareville asylum before dying in 1918. The exact circumstances of her death remain unresolved to this day: while some older sources report self-strangulation inside the asylum, more recent examinations of French primary records point to kidney failure as the cause of death, with no evidence of foul play. This uncertainty fits the whole case in an unsettling way: even at the end, much remains unknown.</p>
+        <p class="vb-intro">What remains is the pattern: a woman whose role as caregiver became a cover for repeated violence, without public reputation, status, or self-display ever playing any part. Pure, compulsive repetition, hidden from view.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram reveals</h3>
+        <p class="vb-intro"><strong>a) Caregiving as cover:</strong> Unlike the SE2w3, who seeks status and public image, Weber operated exclusively within the private, familial sphere. The caregiver role was not a facade for prestige, but the only place where the acts could occur at all.</p>
+        <p class="vb-intro"><strong>b) The One wing as compulsive repetition:</strong> An SE2 with a more muted One wing might have stopped after the first discovery. Weber's strongly developed One wing showed itself as a rigid inner necessity to repeat the same pattern again and again – despite mounting risk.</p>
+        <p class="vb-intro"><strong>c) No public motive:</strong> Unlike Peter Sutcliffe, whose acts were accompanied by a kind of moral crusade, there is no evidence in Weber's case of a similar public justification narrative. Her pattern stayed purely private, hidden, without any self-display.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Jeanne Weber</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SE2w1 – Self-Preservation Two with One-wing</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Passion:</strong> Pride (as privilege of indispensability within the closest family circle)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Animal Correspondence:</strong> Hippopotamus</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Life dates:</strong> October 7, 1874 – July 5, 1918</span>
+          <span style="display:block;"><strong>Known for:</strong> Strangling several children from her own and extended family (1905–1908), acquitted in 1906, convicted and declared legally insane in 1908, committed to the Mareville asylum until her death in 1918</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The self-preservation Two compared: how the privilege of indispensability becomes a compulsive trap of repetition – and why the One wing pays no heed to the risk of discovery.", "The Hidden Dynamics of the 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Pride as the core motive of the Two: how the Two's protective system forms – and how it dissolves through healing.", "Who You Really Are (Volume 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type assignment is a psychological hypothesis, not a historical verdict. Jeanne Weber was convicted and simultaneously declared legally insane in 1908, and committed to an asylum where she died in 1918. The Enneagram explains, it does not justify.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-peter-sutcliffe", label:"Criminal Psychology: Peter Sutcliffe (SE2w1)"},
+          {route:"kriminalpsychologie-ulrike-meinhof", label:"Criminal Psychology: Ulrike Meinhof (SE2w1)"},
+          {route:"kriminalpsychologie-henri-landru", label:"Criminal Psychology: Henri Désiré Landru (SE3w4)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function peterSutcliffePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -54767,6 +54849,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-angel-resendez": angelResendezPortraitPage,
       "kriminalpsychologie-tommy-lynn-sells": tommyLynnSellsPortraitPage,
       "kriminalpsychologie-peter-sutcliffe": peterSutcliffePortraitPage,
+      "kriminalpsychologie-jeanne-weber": jeanneWeberPortraitPage,
       "kriminalpsychologie-dorothea-puente": dorotheaPuentePortraitPage,
       "kriminalpsychologie-aileen-wuornos": aileenWuornosPortraitPage,
       "kriminalpsychologie-richard-ramirez": richardRamirezPortraitPage,
