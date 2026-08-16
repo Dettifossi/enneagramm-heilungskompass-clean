@@ -24247,7 +24247,6 @@ const registerEntries = [
   { term: "Niels H\u00f6gel",               route: "kriminalpsychologie-niels-hoegel",        description: "Kriminalpsychologisches Portr\u00e4t: SE7w8 \u2013 deutscherkrankenpfleger, mind. 85 Morde an Patienten, Sucht nach Reanimations-Spannung" },
   { term: "Andreas Baader",            route: "kriminalpsychologie-andreas-baader",      description: "Kriminalpsychologisches Portr\u00e4t: SE7w8 \u2013 Mitbegr\u00fcnder der RAF, 1943\u20131977, Freiheitsdrang und Naranjos \u201everdeckte Acht\u201c, Gorilla" },
   { term: "Ulrike Meinhof",            route: "kriminalpsychologie-ulrike-meinhof",      description: "Kriminalpsychologisches Portr\u00e4t: SE2w1 \u2013 Journalistin, Mitbegr\u00fcnderin der RAF, 1934\u20131976, Flusspferd" },
-  { term: "Gudrun Ensslin",           route: "kriminalpsychologie-gudrun-ensslin",      description: "Kriminalpsychologisches Portr\u00e4t: SX7w8 \u2013 Mitbegr\u00fcnderin der RAF, 1940\u20131977, Schimpanse" },
   { term: "Paul Bernardo",             route: "kriminalpsychologie-paul-bernardo",        description: "Kriminalpsychologisches Portr\u00e4t: SX1w2 \u2013 kanadischer Serienm\u00f6rder und Vergewaltiger, \u201eScharlach-Vergewaltiger\u201d, Doppelverbrechen mit Homolka" },
   { term: "Paul Ogorzow",              route: "kriminalpsychologie-paul-ogorzow",         description: "Kriminalpsychologisches Portr\u00e4t: SE1w9 \u2013 \u201eS-Bahn-M\u00f6rder\u201d, 8 Morde Berlin 1939\u201341, NSDAP-Mitglied und Triebt\u00e4ter" },
   { term: "Pedro Alonso L\u00f3pez",        route: "kriminalpsychologie-pedro-alonso-lopez",  description: "Kriminalpsychologisches Portr\u00e4t: SO3w2 \u2013 \u201eMonster der Anden\u201d, 300+ gestandene Morde in S\u00fcdamerika, freigelassen 1998" },
@@ -24833,7 +24832,6 @@ const registerEntriesEN = [
   { term: "Niels H\u00f6gel", route: "kriminalpsychologie-niels-hoegel", description: "Criminal psychological portrait: SE7w8 \u2013 German nurse, at least 85 murders of patients, addiction to resuscitation excitement" },
   { term: "Andreas Baader", route: "kriminalpsychologie-andreas-baader", description: "Criminal psychological portrait: SE7w8 \u2013 co-founder of the RAF, 1943\u20131977, drive for freedom and Naranjo's 'hidden Eight', Gorilla" },
   { term: "Ulrike Meinhof", route: "kriminalpsychologie-ulrike-meinhof", description: "Criminal psychological portrait: SE2w1 \u2013 journalist, co-founder of the RAF, 1934\u20131976, Hippopotamus" },
-  { term: "Gudrun Ensslin", route: "kriminalpsychologie-gudrun-ensslin", description: "Criminal psychological portrait: SX7w8 \u2013 co-founder of the RAF, 1940\u20131977, Chimpanzee" },
   { term: "Paul Bernardo", route: "kriminalpsychologie-paul-bernardo", description: "Criminal psychological portrait: SX1w2 \u2013 Canadian serial killer and rapist, \"Scarborough Rapist\", double crimes with Homolka" },
   { term: "Paul Ogorzow", route: "kriminalpsychologie-paul-ogorzow", description: "Criminal psychological portrait: SE1w9 \u2013 \"S-Bahn Murderer\", 8 murders Berlin 1939\u201341, NSDAP member and sex offender" },
   { term: "Pedro Alonso L\u00f3pez", route: "kriminalpsychologie-pedro-alonso-lopez", description: "Criminal psychological portrait: SO3w2 \u2013 \"Monster of the Andes\", 300+ confessed murders in South America, released 1998" },
@@ -31265,7 +31263,6 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-niels-hoegel",        name:"Niels H\xf6gel",                     subtyp:"SE7w8",  heading:"Niels H\xf6gel \u2013 Selbsterhaltender Typ 7",                            teaser:"SE7w8 \u2013 Krankenpfleger und Serienm\xf6rder, geb. 1976. Mindestens 85 Tote \u2013 die selbsterhaltende Sieben mit Achterfl\xfcgel in ihrer dunkelsten Auspr\xe4gung: Gier als Kontrollsucht." , tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-andreas-baader",      name:"Andreas Baader",                    subtyp:"SE7w8",  heading:"Andreas Baader \u2013 Selbsterhaltender Typ 7",                          teaser:"SE7w8 \u2013 Mitbegr\xfcnder der Rote Armee Fraktion (RAF), 1943\u20131977. Freiheitsdrang statt Theorie, schnelle Autos statt Marx-Lekt\xfcre \u2013 die selbsterhaltende Sieben mit Achterfl\xfcgel als Naranjos \u201everdeckte Acht\u201c. Tierentsprechung: Gorilla." , tags:["Terror"], gender:"m"},
   { route:"kriminalpsychologie-ulrike-meinhof",      name:"Ulrike Meinhof",                    subtyp:"SE2w1",  heading:"Ulrike Meinhof \u2013 Selbsterhaltender Typ 2",                          teaser:"SE2w1 \u2013 Journalistin und Mitbegr\xfcnderin der Rote Armee Fraktion (RAF), 1934\u20131976. F\xfcrsorge f\xfcr die Unterdr\xfcckten, radikalisiert durch moralische Unbeirrbarkeit \u2013 die selbsterhaltende Zwei mit Einserfl\xfcgel, die Baader 1970 aus der Haft befreite. Tierentsprechung: Flusspferd." , tags:["Terror"], gender:"f"},
-  { route:"kriminalpsychologie-gudrun-ensslin",      name:"Gudrun Ensslin",                    subtyp:"SX7w8",  heading:"Gudrun Ensslin \u2013 Sexueller Typ 7",                          teaser:"SX7w8 \u2013 Mitbegr\u00fcnderin der Rote Armee Fraktion (RAF), 1940\u20131977. Pfarrerstochter und Musterstudentin, radikalisiert nach dem Tod Benno Ohnesorgs \u2013 die sexuelle Sieben mit Achterfl\u00fcgel als totale, kompromisslose Verschmelzung mit einer Idee. Tierentsprechung: Schimpanse." , tags:["Terror"], gender:"f"},
       { route:"kriminalpsychologie-chris-watts",         name:"Chris Watts",                      subtyp:"SO7w6",  heading:"Chris Watts \u2013 Sozialer Typ 7",                                  teaser:"SO7w6 \u2013 US-amerikanischer Familienm\u00f6rder, geb. 1985. Ermordete seine schwangere Frau und zwei T\u00f6chter, um mit seiner Geliebten ein neues Leben zu beginnen. Verhaftet 2018, f\u00fcnfmal lebensl\u00e4nglich. Tierentsprechung: Biber." , tags:["Nahbereich"], gender:"m"},
       { route:"kriminalpsychologie-frank-abagnale-jr", name:"Frank Abagnale Jr.", subtyp:"SO7w6", heading:"Frank Abagnale Jr. \u2013 Sozialer Typ 7", teaser:"SO7w6 \u2013 Ber\u00fchmtester Hochstapler der Geschichte, geb. 1948. Pilot, Arzt, Anwalt \u2013 ohne je einer gewesen zu sein. Die soziale Sieben mit Sechserfl\u00fcgel: rastlose Suche nach neuen Systemen, Zugeh\u00f6rigkeit als Antrieb, Vertrauen als letztes Ziel. Tierentsprechung: Biber.", tags:["Betrug"], gender:"m"},
   { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              added:"2026-07-15",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs \u2013 Sexueller Typ 7",                              teaser:"SX7w8 \u2013 Musikproduzent, Unternehmer, Verurteilter. Geb. 1969 in New York. Jahrzehntelang einer der m\u00e4chtigsten M\u00e4nner der Musikindustrie \u2013 und ein System sexueller Gewalt, das hinter Glamour und Kontrolle verborgen blieb. Verurteilt 2025 wegen Sex-Trafficking und N\u00f6tigung. Die sexuelle Sieben mit Achterfl\u00fcgel: Vergn\u00fcgen als Recht, Kontrolle als Liebe, Macht als Schutzschild. Tierentsprechung: Schimpanse." , tags:["Missbrauch","Musikindustrie"], gender:"m"},
@@ -73086,7 +73083,6 @@ function andreasBaaderPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-moritz-bleibtreu", label:"Portr\xe4t: Moritz Bleibtreu (SE7w8) – verk\xf6rperte Baader im Film"},
           {route:"kriminalpsychologie-ulrike-meinhof", label:"Kriminalpsychologie: Ulrike Meinhof (SE2w1) – befreite Baader 1970"},
-          {route:"kriminalpsychologie-gudrun-ensslin", label:"Kriminalpsychologie: Gudrun Ensslin (SX7w8) – Lebensgef\u00e4hrtin und RAF-Mitgr\u00fcnderin"},
           {route:"kriminalpsychologie-charles-manson", label:"Kriminalpsychologie: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-adolf-eichmann", label:"Kriminalpsychologie: Adolf Eichmann (SO6w5)"},
         ])}
@@ -73167,88 +73163,8 @@ function ulrikeMeinhofPortraitPage() {
 
         ${relatedLinks([
           {route:"kriminalpsychologie-andreas-baader", label:"Kriminalpsychologie: Andreas Baader (SE7w8) – befreit von Meinhof 1970"},
-          {route:"kriminalpsychologie-gudrun-ensslin", label:"Kriminalpsychologie: Gudrun Ensslin (SX7w8) – RAF-Mitgr\u00fcnderin"},
           {route:"kriminalpsychologie-charles-manson", label:"Kriminalpsychologie: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-adolf-eichmann", label:"Kriminalpsychologie: Adolf Eichmann (SO6w5)"},
-        ])}
-      </div>
-    </div>
-  `);
-}
-
-function gudrunEnsslinPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Gudrun Ensslin – Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/gudrun-ensslin-portrait.jpg" alt="Gudrun Ensslin – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Gudrun Ensslin</p>
-        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterfl\xfcgel</p>
-        <p class="krim-portrait-sub">Mitbegr\xfcnderin der Rote Armee Fraktion (RAF) &ndash; Tierentsprechung: Schimpanse</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Schimpanse</h3>
-        <p class="vb-intro">Der <strong>Schimpanse</strong> ist die Tierentsprechung der sexuellen Sieben &ndash; ein Tier von hoher Intelligenz, sozialer Wendigkeit und einer Intensit\xe4t, die sich vollst\xe4ndig auf das Zentrum seiner Aufmerksamkeit richten kann. Gudrun Ensslin verk\xf6rperte genau diese Totalit\xe4t: Was immer sie tat, tat sie mit ganzem Einsatz &ndash; das Studium, den Glauben, die Liebe, die Politik, den bewaffneten Kampf. Zwischentöne kannte sie kaum.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Sieben: Suggestibilit\xe4t &ndash; die totale Umkehr</h3>
-        <p class="vb-intro">Naranjo nannte die <strong>sexuelle Sieben (SX7)</strong> den Subtyp der <em>Suggestibilit\xe4t</em>: Sie verschmilzt vollst\xe4ndig mit einer Idee, einem Menschen, einer Vision &ndash; und wird von dieser Verschmelzung buchst\xe4blich fortgerissen. Anders als die selbsterhaltende oder soziale Sieben, die ihre Begeisterung streut, b\xfcndelt die SX7 sie auf einen einzigen Punkt, mit einer Intensit\xe4t, die keine halben Sachen kennt.</p>
-        <p class="vb-intro">Gudrun Ensslin, 1940 im schw\xe4bischen Bartholom\xe4 als Pfarrerstochter geboren, war eine glänzende Sch\xfclerin und Studentin: Fulbright-Stipendiatin in den USA, Studium der Erziehungswissenschaft, Germanistik und Anglistik in T\xfcbingen und Berlin. Sie lebte mit dem Schriftsteller Bernward Vesper zusammen und bekam mit ihm 1967 einen Sohn, Felix. Die Erschie\xdfung des Studenten Benno Ohnesorg durch einen Polizisten bei einer Demonstration gegen den Schah von Persien im selben Jahr traf sie wie ein Erdbeben &ndash; Zeitzeugen berichten von einem Ausbruch fassungsloser Wut, der ihr gesamtes Weltbild kippte. Wenige Monate sp\xe4ter verlie\xdf sie Vesper und den gemeinsamen Sohn, um mit Andreas Baader (SE7w8) zusammenzuleben. Die Suggestibilit\xe4t der SX7 kennt keinen Umweg: Wenn die neue \xdcberzeugung da ist, wird das alte Leben vollst\xe4ndig abgeworfen.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Achterfl\xfcgel: Die eiserne Disziplin</h3>
-        <p class="vb-intro">Der <strong>Achterfl\xfcgel</strong> gibt der sexuellen Sieben eine H\xe4rte, die die reine Sieben nicht h\xe4tte: Durchsetzungswillen, Kompromisslosigkeit, die F\xe4higkeit, eine einmal getroffene Entscheidung ohne Z\xf6gern durchzuziehen. Zeitzeugen und Mitangeklagte beschrieben Ensslin \xfcbereinstimmend als die disziplinierteste, ideologisch kompromissloseste Figur der fr\xfchen RAF &ndash; h\xe4rter und konsequenter als Baader selbst, wenn es um die Rechtfertigung von Gewalt ging.</p>
-        <p class="vb-intro">Im April 1968 z\xfcndete sie gemeinsam mit Baader, Thorwald Proll und Horst S\xf6hnlein zwei Kaufh\xe4user in Frankfurt an. Vor Gericht rechtfertigte sie die Tat mit kompromissloser Klarheit als notwendigen Weckruf gegen eine gleichg\xfcltige Gesellschaft. Der Achterfl\xfcgel lieferte die Entschlossenheit, aus \xdcberzeugung Konsequenzen zu ziehen, die die reine Sieben gescheut h\xe4tte.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Von der Studentin zur Ideologin: Der Bruch</h3>
-        <p class="vb-intro">Nach der Verurteilung wegen der Kaufhausbrandstiftung und einer sp\xe4teren Flucht aus der Haft ging Ensslin gemeinsam mit Baader und Meinhof in den bewaffneten Untergrund. Innerhalb der Gruppe galt sie als eine der f\xfchrenden Stimmen &ndash; diszipliniert, wortgewandt, unnachgiebig in Diskussionen. 1972 wurde sie gemeinsam mit Baader verhaftet.</p>
-        <p class="vb-intro">Es folgte der gemeinsame Stammheim-Prozess mit Baader, Meinhof und Jan-Carl Raspe, einer der aufwendigsten Strafprozesse der deutschen Nachkriegsgeschichte. Ensslin trat im Gerichtssaal weiterhin selbstbewusst und ideologisch gefestigt auf &ndash; keine Spur von Zweifel an der Richtigkeit des eigenen Weges.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Stammheim und die Todesnacht</h3>
-        <p class="vb-intro">Im Herbst 1977 eskalierte der Deutsche Herbst: die Entf\xfchrung Hanns Martin Schleyers, die Entf\xfchrung der Lufthansa-Maschine „Landshut" nach Mogadischu und deren St\xfcrmung durch die GSG 9. In der Nacht auf den 18. Oktober 1977 starb Gudrun Ensslin gemeinsam mit Andreas Baader und Jan-Carl Raspe in ihrer Zelle in Stammheim &ndash; offiziell durch Suizid, sie erh\xe4ngte sich nach den Ermittlungsergebnissen an ihrem Zellenfenster. Auch hier bleiben die genauen Umst\xe4nde bis heute Gegenstand kontroverser Debatte; ein staatliches Fremdverschulden konnte nie nachgewiesen werden.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Suggestibilit\xe4t als Alles-oder-nichts-Prinzip:</strong> Die SX7 kennt keine halbe Hingabe. Ensslins Weg von der glaubensfesten Pfarrerstochter zur kompromisslosen Untergrundk\xe4mpferin zeigt dasselbe Muster zweimal &ndash; nur mit vertauschten Vorzeichen. Die Intensit\xe4t blieb identisch, nur ihr Gegenstand wechselte vollst\xe4ndig.</p>
-        <p class="vb-intro"><strong>b) Der Achterfl\xfcgel als Vollstrecker der \xdcberzeugung:</strong> Wo eine reine SX7 begeistert, aber vielleicht z\xf6gerlich bliebe, lieferte der Achterfl\xfcgel bei Ensslin die H\xe4rte, aus \xdcberzeugung tats\xe4chlich zu handeln &ndash; und dabei kaum Selbstzweifel zuzulassen.</p>
-        <p class="vb-intro"><strong>c) Die Beziehung als Tr\xe4ger der Idee:</strong> Typisch f\xfcr die SX7 ist, dass die gro\xdfe Verschmelzung oft an einem Menschen ansetzt, bevor sie sich zur Ideologie ausweitet. Die Bindung an Baader war nicht nur romantisch, sondern der emotionale Ankerpunkt, an dem sich Ensslins gesamte politische Konversion festmachte.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
-        <p class="vb-intro" style="margin-bottom:1.2rem;">
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Gudrun Ensslin</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SX7w8 &ndash; Sexuelle Sieben mit Achterfl\xfcgel</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> V\xf6llerei (als totale, suggestible Verschmelzung mit einer Idee)</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Schimpanse</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 15. August 1940 &ndash; 18. Oktober 1977</span>
-          <span style="display:block;"><strong>Bekannt f\xfcr:</strong> Mitbegr\xfcnderin der Rote Armee Fraktion (RAF), Kaufhausbrandstiftung 1968, Stammheim-Prozess</span>
-        </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sieben im Vergleich: Wie Suggestibilit\xe4t zur totalen Hingabe wird – und warum der Achterfl\xfcgel aus Begeisterung Handlung macht.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE7, SO7, SX7 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "V\xf6llerei als Grundmotiv der Sieben: Wie das Schutzsystem der Sieben entsteht und wie es sich in Heilung aufl\xf6st.", "Wer du wirklich bist (Band 1)")}
-
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Gudrun Ensslin war Mitbegr\xfcnderin der RAF und starb 1977 in Haft. Das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-        ${relatedLinks([
-          {route:"kriminalpsychologie-andreas-baader", label:"Kriminalpsychologie: Andreas Baader (SE7w8) – Lebensgef\xe4hrte und RAF-Mitgr\xfcnder"},
-          {route:"kriminalpsychologie-ulrike-meinhof", label:"Kriminalpsychologie: Ulrike Meinhof (SE2w1) – RAF-Mitgr\xfcnderin"},
-          {route:"kriminalpsychologie-charles-manson", label:"Kriminalpsychologie: Charles Manson (SX6w7)"},
         ])}
       </div>
     </div>
@@ -88281,7 +88197,6 @@ function render() {
       "kriminalpsychologie-niels-hoegel": nielsHoegelPortraitPage,
       "kriminalpsychologie-andreas-baader": andreasBaaderPortraitPage,
       "kriminalpsychologie-ulrike-meinhof": ulrikeMeinhofPortraitPage,
-      "kriminalpsychologie-gudrun-ensslin": gudrunEnsslinPortraitPage,
       "kriminalpsychologie-chris-watts": chrisWattsPortraitPage,
       "kriminalpsychologie-john-gotti": johnGottiPortraitPage,
       "kriminalpsychologie-nick-leeson": nickLeesonPortraitPage,
