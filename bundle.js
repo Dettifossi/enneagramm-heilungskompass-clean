@@ -24085,6 +24085,7 @@ const registerEntries = [
     { term: "Carmen Goglin", route: "beruehmte-carmen-goglin", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Lachtrainerin, Coachin, Gr\u00fcnderin der Reutlinger Lachschule" },
     { term: "Gina Rinehart", route: "beruehmte-gina-rinehart", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bergbau-Unternehmerin, reichste Frau Australiens" },
     { term: "Sandra H\u00fcller", route: "beruehmte-sandra-hueller", description: "Portrait: SO9w1 \u00b7 Soziale Typ 9 \u00b7 Schauspielerin, Toni Erdmann, Anatomie eines Falls" },
+    { term: "Sophie Marceau", route: "beruehmte-sophie-marceau", description: "Portrait: SX9w1 \u00b7 Sexuelle Typ 9 \u00b7 Schauspielerin und Regisseurin, La Boum, Braveheart" },
   { term: "David Hume",                    route: "beruehmte-david-hume",                  description: "Portrait: SE9w8 \u00b7 Selbsterhaltender Typ 9 \u00b7 Philosoph, radikaler Skeptizismus" },
   { term: "Baruch de Spinoza",             route: "beruehmte-spinoza",                     description: "Portrait: SE5w6 \u00b7 Selbsterhaltender Typ 5 \u00b7 Philosoph, Rationalist, 1632\u20131677" },
   { term: "Hermann Hesse",                 route: "beruehmte-hermann-hesse",               description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Schriftsteller, Nobelpreisträger" },
@@ -24406,6 +24407,7 @@ const registerEntriesEN = [
   { term: "Carmen Goglin", route: "beruehmte-carmen-goglin", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 laughter-yoga trainer, coach, founder of the Reutlingen Laughter School" },
   { term: "Gina Rinehart", route: "beruehmte-gina-rinehart", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 mining magnate, Australia's richest woman" },
   { term: "Sandra H\u00fcller", route: "beruehmte-sandra-hueller", description: "Portrait: SO9w1 \u00b7 Social Type 9 \u00b7 actress, Toni Erdmann, Anatomy of a Fall" },
+  { term: "Sophie Marceau", route: "beruehmte-sophie-marceau", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 actress and director, La Boum, Braveheart" },
   { term: "David Hume", route: "beruehmte-david-hume", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Philosopher, radical skepticism" },
   { term: "Baruch de Spinoza", route: "beruehmte-spinoza", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 Philosopher, rationalist, 1632\u20131677" },
   { term: "Hermann Hesse", route: "beruehmte-hermann-hesse", description: "Portrait: SE5w6 · Self-Preservation Type 5 · Writer, Nobel laureate" },
@@ -32312,6 +32314,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Willy Brandt \u2013 Sozialer Typ 9",
     teaser:"SO9w8 \u00b7 1913\u20131992. Bundeskanzler, Friedensnobelpreis 1971, Architekt der Ostpolitik. Der Kniefall von Warschau \u2013 ein Schweigen, das Geschichte schrieb. Tierentsprechung: B\u00fcffel.",
     tags:["Politik"], gender:"m" },
+  { route:"beruehmte-sophie-marceau", name:"Sophie Marceau", added:"2026-08-16", subtyp:"SX9w1",
+    heading:"Sophie Marceau \u2013 Sexuelle Typ 9",
+    teaser:"SX9w1 \u00b7 geb. 1966. Schauspielerin und Regisseurin, La Boum, Braveheart, James Bond. Siebzehn Jahre Verschmelzung mit Andrzej Zulawski, dann ein klares Ultimatum. Das Faultier, das seinen eigenen Ast h\u00e4lt. Tierentsprechung: Faultier.",
+    tags:["Film","Schauspiel"], gender:"f"},
   { route:"beruehmte-iga-swiatek", name:"Iga \u015awi\u0105tek", added:"2026-07-22", subtyp:"SX9w1",
     heading:"Iga \u015awi\u0105tek \u2013 Sexueller Typ 9",
     teaser:"SX9w1 \u00b7 geb. 2001. Tennisprofi. Roland Garros 2020, 2022, 2023, 2024, US Open 2022. Die dominanteste Spielerin ihrer \u00c4ra \u2013 und das Faultier, das im Flow fliegt.",
@@ -48453,6 +48459,70 @@ function sandraHuellerPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-steffi-graf", label:"Portr\xe4t: Steffi Graf (SO9w1)"},
           {route:"beruehmte-peter-falk", label:"Portr\xe4t: Peter Falk (SO9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
+function sophieMarceauPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sophie-marceau-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sophie Marceau</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexuelle Typ 9 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin und Regisseurin, geb. 1966 &ndash; La Boum, Braveheart, James Bond &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; ein Tier, das nicht k\xe4mpft, nicht dr\xe4ngt, sondern die Dinge zu sich kommen l\xe4sst, vollkommen pr\xe4sent in seinem eigenen Tempo. Sophie Marceau, 1966 in Paris geboren, verk\xf6rpert genau diese Qualit\xe4t auf der Leinwand: eine Pr\xe4senz, die nie um Aufmerksamkeit wirbt und trotzdem den ganzen Raum f\xfcllt.</p>
+          <p class="vb-intro">Mit vierzehn Jahren wurde sie durch &bdquo;La Boum &ndash; Die Fete&ldquo; (1980) \xfcber Nacht zum Star Frankreichs. Was folgte, war keine hektische Verwertung dieses Ruhms, sondern ein langsames, fast beil\xe4ufiges Sich-Ausdehnen \xfcber Jahrzehnte &ndash; vom Teenie-Idol zum internationalen Filmstar, ohne dass sie dabei je den Eindruck erweckte, etwas zu erzwingen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung als Grundzustand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> ist nach Naranjo die Variante der Tr\xe4gheits-Leidenschaft, die sich in vollst\xe4ndiger Verschmelzung mit einem geliebten Menschen ausdr\xfcckt &ndash; das eigene Selbst tritt zur\xfcck, um vollst\xe4ndig im Anderen aufzugehen. Marceaus siebzehnj\xe4hrige Beziehung zum polnischen Regisseur Andrzej Zulawski, den sie mit siebzehn Jahren am Set kennenlernte, folgt genau diesem Muster: eine Verschmelzung aus Kreativit\xe4t, Intimit\xe4t und gegenseitiger pr\xe4gender Wirkung, die fast zwei Jahrzehnte andauerte.</p>
+          <p class="vb-intro">Die SX9 verliert sich leicht in einer solchen Verbindung &ndash; und genau das geschah zeitweise auch bei Marceau, deren fr\xfche Karriere untrennbar mit Zulawskis Filmen und seiner k\xfcnstlerischen Vision verwoben war. Das ist keine Schw\xe4che, sondern die Grundbewegung des Subtyps: Intensit\xe4t wird nicht gesucht, sondern durch v\xf6lliges Verschmelzen erlebt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\xfcgel: Die Grenze, die irgendwann gezogen wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine reine Neun w\xfcrde sich vermutlich immer weiter verschmelzen. Der <strong>Einserfl\xfcgel</strong> bringt bei Marceau etwas anderes mit: einen inneren Ma\xdfstab, der irgendwann nicht mehr verhandelbar ist. 2001 beendete sie die Beziehung zu Zulawski nach siebzehn Jahren &ndash; mit einem klaren Ultimatum wegen seines Alkoholkonsums. Keine lange Aussprache, kein z\xf6gerliches Hin und Her: Die Grenze war erreicht, und die Konsequenz folgte.</p>
+          <p class="vb-intro">Dasselbe Muster zeigte sich schon fr\xfcher, k\xfcnstlerisch: Als ihr damaliges Studio gegen eine Prostituierten-Rolle protestierte, die Zulawski ihr anbot, setzte sich die noch sehr junge Marceau durch und kaufte sich die Rechte an ihrem eigenen Image zur\xfcck. Die Neun l\xe4sst sich weit tragen &ndash; aber der Einserfl\xfcgel wei\xdf genau, wo die eigene Integrit\xe4t beginnt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Braveheart und James Bond: Internationale Pr\xe4senz ohne \xdcberanpassung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mitte der Neunzigerjahre startete Marceau mit &bdquo;Braveheart&ldquo; (1995) an der Seite von Mel Gibson und &bdquo;Anna Karenina&ldquo; (1997) ihre englischsprachige Karriere, 1999 folgte die Bond-Rolle der Elektra King in &bdquo;Die Welt ist nicht genug&ldquo;. Anders als viele europ\xe4ische Schauspielerinnen, die sich f\xfcr Hollywood komplett neu erfinden, blieb Marceau in Frankreich verwurzelt und drehte weiter franz\xf6sische Filme parallel zu den internationalen Produktionen.</p>
+          <p class="vb-intro">Das ist die sexuelle Neun mit Einserfl\xfcgel: offen genug, um sich auf gro\xdfe, fremde Welten einzulassen &ndash; aber mit einem inneren Kompass, der verhindert, dass sie sich darin aufl\xf6st. Sie passte sich Hollywood an, ohne sich Hollywood zu unterwerfen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Regisseurin: Vom Verschmelzen zum eigenen Blick</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2002 f\xfchrte Marceau erstmals selbst Regie, bei &bdquo;Parlez-moi d'amour&ldquo;, ausgezeichnet als beste Regiearbeit beim Filmfestival von Montr\xe9al. 2001 ver\xf6ffentlichte sie zudem die halbautobiografische Erz\xe4hlung &bdquo;Telling Lies&ldquo;. Nach Jahrzehnten, in denen sie vor allem durch die visuelle Sprache anderer Regisseure &ndash; allen voran Zulawski &ndash; gepr\xe4gt wurde, begann sie, ihre eigene Perspektive zu formulieren.</p>
+          <p class="vb-intro">Dieser Wechsel vom Vor-die-Kamera-Treten zum Selbst-Erz\xe4hlen f\xe4llt zeitlich fast exakt mit dem Ende der Beziehung zu Zulawski zusammen. Es ist, als h\xe4tte die SX9 nach Jahrzehnten der Verschmelzung mit einer fremden Vision endlich begonnen, ihre eigene zu artikulieren &ndash; nicht durch Bruch, sondern durch eine langsame, unaufgeregte Verschiebung des Fokus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Faultier, das seinen eigenen Ast h\xe4lt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sophie Marceau zeigt die sexuelle Neun mit Einserfl\xfcgel in ihrer reifsten Form: F\xe4higkeit zur v\xf6lligen Hingabe, gepaart mit einer stillen, unumst\xf6\xdflichen Grenze, sobald diese Hingabe zur Selbstaufgabe wird. \xd6ffentlich bleibt sie zur\xfcckhaltend, gibt selten intime Interviews, l\xe4sst ihre Filme und ihre Entscheidungen f\xfcr sich sprechen.</p>
+          <p class="vb-intro">Das Faultier h\xe4ngt scheinbar bewegungslos in seinem Ast &ndash; doch der Ast, an dem es h\xe4ngt, hat es sich sehr genau ausgesucht. Marceaus Karriere \xfcber mehr als vier Jahrzehnte ist genau das: kein lauter Aufstieg, sondern ein beharrliches Halten der eigenen Position, mit einer Pr\xe4zision, die man erst erkennt, wenn man genau hinschaut.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
+          {route:"beruehmte-diego-velazquez", label:"Portr\xe4t: Diego Vel\xe1zquez (SX9w1)"},
         ])}
       </div>
     </div>
@@ -88363,6 +88433,7 @@ function render() {
           "beruehmte-carmen-goglin": carmenGoglinPortraitPage,
           "beruehmte-gina-rinehart": ginaRinehartPortraitPage,
           "beruehmte-sandra-hueller": sandraHuellerPortraitPage,
+          "beruehmte-sophie-marceau": sophieMarceauPortraitPage,
     "beruehmte-david-hume": davidHumePortraitPage,
     "beruehmte-thomas-von-aquin": thomasVonAquinPortraitPage,
     "beruehmte-spinoza": spinozaPortraitPage,

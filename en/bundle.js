@@ -959,6 +959,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"G\xfcnther Jauch – Social Type 5",
     teaser:"SO5w6 \xb7 born 1956, M\xfcnster. Presenter, journalist, producer. Who will be a millionaire?, stern TV, ARD-Sonntagstalk. The octopus that moderated the nation's knowledge for decades - and never really became visible itself.",
     tags:["Medien","Fernsehen"], gender:"m"},
+  { route:"beruehmte-sophie-marceau", name:"Sophie Marceau", added:"2026-08-16", subtyp:"SX9w1",
+    heading:"Sophie Marceau – Sexual Type 9",
+    teaser:"SX9w1 · born 1966. Actress and director, La Boum, Braveheart, James Bond. Seventeen years merged with Andrzej Zulawski, then a clear ultimatum. The sloth that holds its own branch. Animal correspondence: Sloth.",
+    tags:["Film","Film/Theater"], gender:"f"},
   { route:"beruehmte-iga-swiatek", name:"Iga Świątek", added:"2026-07-22", subtyp:"SX9w1",
     heading:"Iga Świątek – Sexual Type 9",
     teaser:"SX9w1 · born 2001. Tennis professional. Roland Garros 2020, 2022, 2023, 2024, US Open 2022. The most dominant player of her era - and the sloth who flies in the flow.",
@@ -29098,6 +29102,69 @@ function keanuReevesPortraitPage() {
   `);
 }
 
+function sophieMarceauPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-sophie-marceau-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sophie Marceau</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Actress and director, b. 1966 – La Boum, Braveheart, James Bond – Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The sloth is the animal of the sexual Nine – an animal that does not fight, does not push, but lets things come to it, fully present at its own pace. Sophie Marceau, born in 1966 in Paris, embodies exactly this quality on screen: a presence that never courts attention and yet fills the entire room.</p>
+          <p class="vb-intro">At fourteen she became France's star overnight through "La Boum" (1980). What followed was no frantic exploitation of that fame, but a slow, almost incidental expansion over decades – from teen idol to international film star, without ever giving the impression of forcing anything.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: Merging as a basic state</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the sexual Nine (SX9) is the variant of the passion of sloth expressed through complete merging with a loved person – the self steps back to fully dissolve into the other. Marceau's seventeen-year relationship with Polish director Andrzej Zulawski, whom she met on set at seventeen, follows exactly this pattern: a merging of creativity, intimacy, and mutual formative influence that lasted nearly two decades.</p>
+          <p class="vb-intro">The SX9 loses herself easily in such a bond – and that happened for a time with Marceau too, whose early career was inseparably interwoven with Zulawski's films and his artistic vision. This is not weakness, but the basic movement of the subtype: intensity is not sought, but experienced through complete merging.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One wing: The boundary drawn eventually</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A pure Nine would probably keep merging indefinitely. In Marceau's case, the One wing brings something else: an inner standard that eventually becomes non-negotiable. In 2001 she ended the relationship with Zulawski after seventeen years – with a clear ultimatum over his drinking. No long discussion, no hesitant back-and-forth: the limit had been reached, and the consequence followed.</p>
+          <p class="vb-intro">The same pattern had shown itself earlier, artistically: when her studio protested a prostitute role Zulawski proposed for her, the still very young Marceau held her ground and bought back the rights to her own image. The Nine lets herself be carried far – but the One wing knows exactly where her own integrity begins.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Braveheart and James Bond: International presence without over-adapting</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the mid-1990s Marceau launched her English-language career with "Braveheart" (1995) opposite Mel Gibson and "Anna Karenina" (1997), followed in 1999 by the Bond role of Elektra King in "The World Is Not Enough". Unlike many European actresses who reinvent themselves entirely for Hollywood, Marceau stayed rooted in France and kept making French films alongside the international productions.</p>
+          <p class="vb-intro">This is the sexual Nine with a One wing: open enough to engage with large, foreign worlds – but with an inner compass that keeps her from dissolving into them. She adapted to Hollywood without submitting to it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The director: From merging to her own gaze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2002 Marceau directed for the first time, "Parlez-moi d'amour", awarded Best Direction at the Montreal Film Festival. In 2001 she also published the semi-autobiographical novel "Telling Lies". After decades shaped mainly by the visual language of other directors – above all Zulawski – she began to articulate her own perspective.</p>
+          <p class="vb-intro">This shift from stepping in front of the camera to telling her own story falls almost exactly at the same time as the end of the relationship with Zulawski. It is as if the SX9, after decades of merging with someone else's vision, had finally begun to articulate her own – not through rupture, but through a slow, unhurried shift of focus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Sloth that holds its own branch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sophie Marceau shows the sexual Nine with a One wing in its most mature form: the capacity for total devotion, paired with a quiet, unshakeable limit once that devotion turns into self-abandonment. Publicly she remains reserved, rarely gives intimate interviews, and lets her films and her choices speak for her.</p>
+          <p class="vb-intro">The sloth hangs seemingly motionless on its branch – but the branch it hangs from was chosen with great precision. Marceau's career across more than four decades is exactly that: no loud rise, but a persistent holding of her own position, with a precision only visible on close inspection.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
+          {route:"beruehmte-diego-velazquez", label:"Portrait: Diego Velázquez (SX9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function willyBrandtPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -54067,6 +54134,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-carmen-goglin": carmenGoglinPortraitPage,
       "beruehmte-gina-rinehart": ginaRinehartPortraitPage,
       "beruehmte-sandra-hueller": sandraHuellerPortraitPage,
+      "beruehmte-sophie-marceau": sophieMarceauPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-robert-schumann": robertSchumannPortraitPage,
       "beruehmte-franz-liszt": franzLisztPortraitPage,
