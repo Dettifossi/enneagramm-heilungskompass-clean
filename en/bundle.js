@@ -863,6 +863,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Angela Merkel – Self-Preservation Type 9",
     teaser:"SE9w8 · born 1954. Federal Chancellor 2005–2021. Sixteen years of sitting out, deciding, insisting – and a legacy full of contradictions. The elephant that moves to its own rhythm. Sometimes wisdom. Sometimes standstill.",
     tags:["Politics"], gender:"f"},
+  { route:"beruehmte-carmen-goglin", name:"Carmen Goglin", added:"2026-08-16", subtyp:"SE9w8",
+    heading:"Carmen Goglin – Self-Preservation Type 9",
+    teaser:"SE9w8 · Laughter-yoga trainer, coach, and author, founder of the Reutlingen Laughter School. From human resources to viral laughter-yoga phenomenon after the Finch parody in 2020/21. The elephant that can trumpet. Animal correspondence: Elephant.",
+    tags:["Society"], gender:"f"},
   { route:"beruehmte-boris-becker", name:"Boris Becker", added:"2026-07-19", subtyp:"SX7w8",
     heading:"Boris Becker – Sexual Type 7",
     teaser:"SX7w8 · born 1967. Tennis professional, three-time Wimbledon winner, youngest Wimbledon champion of all time (1985, at 17 years old). The chimpanzee with eight wings: limitless intensity, fame as a home, and the lifelong struggle for the image of the great Boris. Animal correspondence: Chimpanzee.",
@@ -15990,6 +15994,69 @@ function angelaMerkelPortraitPage() {
           {route:"astrologie-angela-merkel", label:"Enneagramm meets Astrologie: Angela Merkel (SE9w8)"},
           {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
           {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function carmenGoglinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-carmen-goglin-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carmen Goglin</p>
+        <p class="krim-portrait-typ">SP9w8 &middot; Self-Preservation Type 9 with aft wing</p>
+        <p class="krim-portrait-subtitle">Laughter-yoga trainer, coach, author – founder of the Reutlingen Laughter School – Animal equivalent: Elephant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The elephant is the animal of the self-preservation Nine – large, calm, unshakeable in its presence. Carmen Goglin brings exactly this quality to the stage, with one ingredient you would not expect from an elephant: noise. Her laughter is unfiltered, loud, contagious – and that is precisely where the connection lies. An elephant that has decided calm can also be thunderous.</p>
+          <p class="vb-intro">Goglin worked in human resources for more than twenty years before discovering laughter yoga in 2012 and training directly under its founder, Dr. Madan Kataria. She founded the Reutlingen Laughter School – a step that looks unspectacular but is typically self-preservation: not a loud new beginning, but the patient building of her own stable base.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Nine: Comfort as a mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the self-preservation Nine (SE9) is the subtype he called Appetite – the focus on physical comfort, coziness, and small rituals of pleasure as a way to calm oneself and stay centered. In Goglin's case, this "appetite" became a profession: she gives others exactly what the SE9 seeks for itself – bodily relaxation, lightness, the feeling that nothing is urgent right now.</p>
+          <p class="vb-intro">Laughter yoga itself is, at its core, an SE9 method: no analyzing, no talking about problems, just a physical practice that dissolves tension directly. You do not need to understand why you are laughing – the body simply does it, and the mind follows. That is the Nine in its purest expression: reaching calm not through thinking, but through doing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight wing: Why a trainer became a brand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A pure Nine would probably have kept her laughter school small and local. The Eight wing brings something else: assertiveness, a certain fearlessness, the willingness to put herself out there even when it gets uncomfortable. In late 2020/early 2021, German rapper Finch ("Finch Asozial") picked up videos of Goglin's unfiltered laughter and parodied them – and instead of retreating, Goglin used the sudden attention. Appearances on SAT.1's Frühstücksfernsehen, SWR1 Leute, and World Wide Wohnzimmer followed, along with an advertising campaign for Aldi.</p>
+          <p class="vb-intro">This is the SE9w8 movement in miniature: The Nine might have sat out the viral moment until it passed on its own. The Eight wing instead said: this is the opportunity, and you take it. Goglin remained recognizably herself throughout – no reinvention, no image change – simply more stage for what she was already doing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. From human resources to laughter trainer: A shift without a break</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">More than twenty years in human resources, then a new beginning with laughter yoga – at first glance a radical cut. Looking closer, it is more of a shift in focus, typical of the self-preservation Nine: in HR work, it was about people, about balancing tensions within an organization, about restoring functionality. In laughter yoga, it is the same underlying theme – just more direct and physical.</p>
+          <p class="vb-intro">The Nine rarely changes fields abruptly. She lets something mature for a long time until the next step follows almost by itself. Goglin's path from the office to the laughter school reads exactly like that: not a turnaround, but a consistent continuation of the same concern with different means.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. "Oma geht viral": Turning her own story into material</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2024, Goglin published her book "Oma geht viral" ("Grandma Goes Viral") – a title that processes her own experience with self-irony instead of hiding it. That a woman outside the usual influencer target audience suddenly went viral and then told the story herself fits the SE9w8 pattern: you accept a situation you did not seek – and, without much drama, make something useful out of it.</p>
+          <p class="vb-intro">Today Goglin works as a keynote speaker and business coach, offering laughter trainings for companies. The combination of HR experience and laughter-yoga expertise gives her a credibility a pure entertainer would lack: she knows both sides – the sober world of business and the physical solution to its tension.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Elephant that gets loud</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carmen Goglin shows a side of the self-preservation Nine often missing from the public image of this subtype: that calm does not have to be quiet. The elephant with an Eight wing can trumpet – and when it does, the whole room hears it. This paradox, calm in nature yet loud in expression, is the core of her public persona.</p>
+          <p class="vb-intro">What remains is a career built from comfort, persistence, and a single viral moment – without Goglin ever stopping being herself. That is the quiet confirmation of the Eight wing: you do not need to reinvent yourself to be seen. You just need to laugh loud enough.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
+          {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
         ])}
       </div>
     </div>
@@ -53863,6 +53930,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-adele-neuhauser": adeleNeuhauserPortraitPage,
       "beruehmte-pablo-picasso": pabloPicassoPortraitPage,
       "beruehmte-angela-merkel": angelaMerkelPortraitPage,
+      "beruehmte-carmen-goglin": carmenGoglinPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-robert-schumann": robertSchumannPortraitPage,
       "beruehmte-franz-liszt": franzLisztPortraitPage,
