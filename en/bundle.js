@@ -26593,8 +26593,8 @@ function moritzBleibtreuPortraitPage() {
 
         <h2 class="vb-section">2. The Self-Preservation Seven: Joy as Craft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Seven (SP7)</strong> finds its joy not in spectacle, but in the warmth of the making itself &ndash; in the process, in collaboration, in craft. Naranjo called this subtype <em>Family</em>: the SP7 builds its own nest, a space where creativity and belonging come together.</p>
-          <p class="vb-intro">Bleibtreu's international breakthrough came in 1998 with <em>Run Lola Run</em>, directed by Tom Tykwer &ndash; a film that redefined German cinema of its era. Rather than translating that success into a single repeatable formula, he has kept shifting terrain ever since: comedy (<em>Soul Kitchen</em>, 2009), psychological thriller (<em>The Experiment</em>, 2001), historical drama (<em>The Baader Meinhof Complex</em>, 2008), international cinema (<em>Munich</em>, 2005, directed by Steven Spielberg; <em>Speed Racer</em>, 2008). The SP7 does not seek the one great role &ndash; it seeks the next experience.</p>
+          <p class="vb-intro">The <strong>self-preservation Seven (SP7)</strong> finds its joy not in spectacle, but in the warmth of the making itself &ndash; in the process, in collaboration, in craft. Naranjo called this subtype <em>Family</em>: the SP7 builds its own nest, a space where creativity and belonging come together. Interestingly, Naranjo also occasionally referred to the self-preservation Seven in his seminars as the <em>hidden Eight</em>: of all three Seven variants, the SP7 can assert itself most uncompromisingly when it truly has to. If it feels its freedom or independence threatened, its friendly, family-oriented nature can shift abruptly into a hardness that leaves little room for consideration &ndash; the gorilla that moves peacefully through the forest, but becomes an unrelenting defender the moment its territory is touched.</p>
+          <p class="vb-intro">Bleibtreu's international breakthrough came in 1998 with <em>Run Lola Run</em>, directed by Tom Tykwer, alongside Franka Potente (SP2w1) &ndash; a film that redefined German cinema of its era. Rather than translating that success into a single repeatable formula, he has kept shifting terrain ever since: comedy (<em>Soul Kitchen</em>, 2009), psychological thriller (<em>The Experiment</em>, 2001), historical drama (<em>The Baader Meinhof Complex</em>, 2008), international cinema (<em>Munich</em>, 2005, directed by Steven Spielberg; <em>Speed Racer</em>, 2008). The SP7 does not seek the one great role &ndash; it seeks the next experience.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Eight-Wing: Strength That Carries</h2>
@@ -26622,6 +26622,7 @@ function moritzBleibtreuPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
+        {route:"beruehmte-franka-potente", label:"Portrait: Franka Potente (SP2w1) – co-star in ‘Run Lola Run’"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
         {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
       ])}
@@ -30970,6 +30971,7 @@ function frankaPotentePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-moritz-bleibtreu", label:"Portrait: Moritz Bleibtreu (SP7w8) – co-star in ‘Run Lola Run’"},
         {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SP2w1)"},
         {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SP2w1)"},
         {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SP2w1)"},

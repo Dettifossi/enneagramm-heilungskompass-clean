@@ -45730,8 +45730,8 @@ function moritzBleibtreuPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude als Handwerk</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> findet ihre Freude nicht im Spektakel, sondern in der Wärme des Schaffens selbst – im Prozess, in der Zusammenarbeit, im Handwerk. Naranjo nannte diesen Subtyp <em>Familie</em>: Die SE7 schafft sich ihr eigenes Nest, einen Raum, in dem Kreativität und Geborgenheit zusammenkommen.</p>
-          <p class="vb-intro">Bleibtreus internationaler Durchbruch gelang 1998 mit <em>Lola rennt</em> von Tom Tykwer – ein Film, der das deutsche Kino jener Jahre neu definierte. Statt diesen Erfolg in eine einzige Rollenformel zu übersetzen, wechselte er seither ständig das Terrain: Komödie (<em>Soul Kitchen</em>, 2009), Psychothriller (<em>Das Experiment</em>, 2001), historisches Drama (<em>Der Baader Meinhof Komplex</em>, 2008), internationales Kino (<em>München</em>, 2005, Regie: Steven Spielberg; <em>Speed Racer</em>, 2008). Die SE7 sucht nicht die eine große Rolle – sie sucht die nächste Erfahrung.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> findet ihre Freude nicht im Spektakel, sondern in der Wärme des Schaffens selbst – im Prozess, in der Zusammenarbeit, im Handwerk. Naranjo nannte diesen Subtyp <em>Familie</em>: Die SE7 schafft sich ihr eigenes Nest, einen Raum, in dem Kreativität und Geborgenheit zusammenkommen. Interessanterweise bezeichnete Naranjo in seinen Seminaren die selbsterhaltende Sieben gelegentlich auch als die <em>versteckte Acht</em>: Von allen drei Siebener-Varianten kann sich die SE7 im Ernstfall am kompromisslosesten durchsetzen. Fühlt sie ihre Freiheit oder Unabhängigkeit bedroht, kann aus dem freundlichen, familienorientierten Wesen abrupt eine Härte werden, die kaum noch Rücksicht kennt – der Gorilla, der sich friedlich durch den Wald bewegt, aber zum unerbittlichen Verteidiger wird, sobald sein Revier angetastet wird.</p>
+          <p class="vb-intro">Bleibtreus internationaler Durchbruch gelang 1998 mit <em>Lola rennt</em> von Tom Tykwer, an der Seite von Franka Potente (SE2w1) – ein Film, der das deutsche Kino jener Jahre neu definierte. Statt diesen Erfolg in eine einzige Rollenformel zu übersetzen, wechselte er seither ständig das Terrain: Komödie (<em>Soul Kitchen</em>, 2009), Psychothriller (<em>Das Experiment</em>, 2001), historisches Drama (<em>Der Baader Meinhof Komplex</em>, 2008), internationales Kino (<em>München</em>, 2005, Regie: Steven Spielberg; <em>Speed Racer</em>, 2008). Die SE7 sucht nicht die eine große Rolle – sie sucht die nächste Erfahrung.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Achterflügel: Kraft, die trägt</h2>
@@ -45759,6 +45759,7 @@ function moritzBleibtreuPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-franka-potente", label:"Porträt: Franka Potente (SE2w1) – Partnerin in ›Lola rennt‹"},
         {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
         {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3)"},
       ])}
@@ -54780,6 +54781,7 @@ function frankaPotentePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-moritz-bleibtreu", label:"Porträt: Moritz Bleibtreu (SE7w8) – Partner in ›Lola rennt‹"},
         {route:"beruehmte-margot-friedlaender", label:"Porträt: Margot Friedländer (SE2w1)"},
         {route:"beruehmte-soeren-kierkegaard", label:"Porträt: Søren Kierkegaard (SE2w1)"},
         {route:"beruehmte-jj-liu", label:"Porträt: J. J. Liu (SE2w1)"},
