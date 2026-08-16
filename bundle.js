@@ -48441,7 +48441,7 @@ function sandraHuellerPortraitPage() {
           <p class="vb-intro">Der Durchbruch ver\xe4nderte ihren Alltag kaum sichtbar. Sie blieb in Leipzig und Bochum, spielte weiter Theater, statt sofort nach Hollywood zu wechseln. Das ist die soziale Neun in Reinform: Erfolg wird integriert, nicht als Ausbruch aus der eigenen Struktur genutzt.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Toni Erdmann und Anatomie eines Falls: Zwei Frauen im Druck</h2>
+        <h2 class="vb-section">5. Toni Erdmann und Anatomie eines Falls: Zwei Frauen unter Druck</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In Maren Ades &bdquo;Toni Erdmann&ldquo; (2016) spielte H\xfcller eine erfolgsorientierte Unternehmensberaterin, deren Fassade von ihrem exzentrischen Vater systematisch demontiert wird &ndash; ein internationaler Erfolg, der ihr den Europ\xe4ischen Filmpreis einbrachte. In &bdquo;Anatomie eines Falls&ldquo; (2023) spielte sie eine erfolgreiche Autorin, die nach dem Tod ihres Mannes selbst zur Angeklagten wird &ndash; daf\xfcr erhielt sie 2024 den C\xe9sar als beste Darstellerin.</p>
           <p class="vb-intro">Beide Figuren stehen unter \xf6ffentlicher Beobachtung, m\xfcssen sich rechtfertigen, werden von au\xdfen beurteilt. H\xfcller spielt diesen Druck nie laut &ndash; sie l\xe4sst ihn sich in der K\xf6rperhaltung, im Zaudern, in kleinen Verz\xf6gerungen zeigen. Das ist die SO9: Konflikt wird nicht ausgetragen, sondern getragen, bis er sich in der Figur selbst entl\xe4dt.</p>
