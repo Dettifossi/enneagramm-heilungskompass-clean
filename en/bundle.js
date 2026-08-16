@@ -538,6 +538,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Georg Wilhelm Friedrich Hegel – Social Type 5",
     teaser:"SO5w6 · 1770–1831. German philosopher, the culmination of German Idealism. Phenomenology of Spirit, dialectics, Philosophy of Right. The octopus with the Six-wing: an all-encompassing system, security through state and teaching authority. Animal correspondence: Octopus.",
     tags:["History","Philosophy"], gender:"m"},
+  { route:"beruehmte-carl-tanzler", name:"Carl Tanzler", added:"2026-08-16", subtyp:"SE5w6",
+    heading:"Carl Tanzler – Self-Preservation Type 5",
+    teaser:"SE5w6 · 1877–1952. Radiologist who kept the body of patient Elena de Hoyos in his home for seven years. Never convicted, as the statute of limitations had expired. The owl that stayed in the dark.",
+    tags:["History"], gender:"m"},
   { route:"beruehmte-rene-descartes", name:"René Descartes", added:"2026-08-14", subtyp:"SE5w6",
     heading:"René Descartes – Self-Preservation Type 5",
     teaser:"SP5w6 · 1596–1650. French philosopher and mathematician, founder of rationalism. Cogito ergo sum, methodical doubt, more than twenty moves in the Netherlands. The owl with the Six-wing: radical caution in the search for absolute certainty. Animal correspondence: Owl.",
@@ -28411,6 +28415,69 @@ function thomasVonAquinPortraitPage() {
   `);
 }
 
+function carlTanzlerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-carl-tanzler-portrait.jpg" alt="Owl" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carl Tanzler</p>
+        <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Radiologist, 1877–1952 – kept a dead woman's body for seven years – Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Owl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The owl is the animal of the self-preservation Five – an animal of stillness and depth that sees what others don't, and builds its territory not through noise but through precision. Carl Tanzler, born Georg Karl Tänzler in Dresden in 1877, was a man who declared himself the "Count von Cosel", claimed nine university degrees, and worked as a radiologist at the Marine Hospital in Key West. Behind this constructed facade lay an isolation that, over decades, condensed into something extreme.</p>
+          <p class="vb-intro">In 1930, at age 53, Tanzler X-rayed a 20-year-old patient named Elena Milagro de Hoyos, who had tuberculosis. He developed an immediate, obsessive fascination with her – and began treating her even though her disease was already far advanced. The owl watches from a distance and hoards what fascinates it, with an intensity invisible from the outside until it turns into something irreversible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Five: Withdrawal as a way of life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the self-preservation Five (SE5) is the subtype he called "Refuge" – a retreat into a sealed-off, self-controlled space the outside world cannot reach. Tanzler's life shows this pattern in extreme form: he lived largely isolated, constructed an identity out of invented titles and achievements, and withdrew increasingly into an inner world he alone controlled.</p>
+          <p class="vb-intro">When Elena died of her illness on October 25, 1931, Tanzler could not accept the loss as a loss. He financed her mausoleum, visited it daily – and in 1933 secretly removed her body. For seven years he kept it in his home, spoke to it, danced with it, shared his bed with it. This is the SE5 in its darkest possible expression: a withdrawal so complete that even the death of the beloved did not reopen the boundary to the outside world, but was instead translated into a private, sealed-off reality.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six wing: Loyalty beyond death</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SE5 with a more muted Six wing might have withdrawn into pure knowledge or technical work. In Tanzler's case, something else emerged instead: a bonding intensity that went far beyond the rational – an almost religious adherence to a promise he had made to himself, to stay loyal to Elena, to preserve her, never to let her go. He built technical devices to preserve the body, experimented with chemicals and materials, with the same systematic care he had learned as a radiologist.</p>
+          <p class="vb-intro">The Six wing seeks anchoring in bond, loyalty, a stabilizer against its own insecurity – and becomes dangerous once that anchor detaches from reality. Tanzler's loyalty no longer belonged to a living person, but to a relationship he had constructed himself and maintained with the same precision a healthy SE5w6 applies to knowledge or skill.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Discovery and legal proceedings</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1940, Elena's family and the authorities discovered what had happened. Tanzler was arrested, the body seized. A psychiatric evaluation found him fit to stand trial, and he was charged with willfully and maliciously destroying a grave and removing a body without authorization. At the preliminary hearing on October 9, 1940, in Key West, it emerged that the two-year statute of limitations for grave robbing had already expired – Tanzler had removed the body in 1933, more than seven years before the hearing.</p>
+          <p class="vb-intro">The case was dropped, and Tanzler was released without conviction. That is exactly why this portrait appears under "Famous Personalities" rather than "Criminal Psychology": there was never a court verdict establishing his acts as a crime – only a proceeding that failed on a statute-of-limitations technicality, not on a lack of evidence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Public fascination instead of public condemnation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Remarkably, the public's reaction was not one of uniform outrage: alongside condemnation there was also morbid fascination and, at times, sympathy for Tanzler, who presented himself as a tragic lover who had simply gone too far. Thousands came to view the mummified body before its burial. This public response shows how effective Tanzler's constructed narrative was – a narrative he maintained until his death in 1952.</p>
+          <p class="vb-intro">He spent his final years living reclusively with a life-size replica of Elena, which he had made from a death mask and her hair – a last testament to how deep the self-preservation Five's withdrawal can go once it fully cuts itself off from correcting reality.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Owl that stayed in the dark</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carl Tanzler's story is not a romantic legend, even though it has sometimes been told as one. It is a warning about where the self-preservation Five's withdrawal can lead when it lacks any corrective connection to the outside world: a person who retreats so completely into a self-constructed, private reality that even death can no longer restore the boundary between inside and outside.</p>
+          <p class="vb-intro">The owl sees what others don't – but it can also lose itself in a darkness no one else enters. Tanzler's case shows the self-preservation Five with a Six wing at its most extreme, most tragic limit: bonding that turns into obsession once reality-testing and human contact are entirely absent.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
+          {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SP3w4)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function reneDescartesPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -54166,6 +54233,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-thomas-von-aquin": thomasVonAquinPortraitPage,
       "beruehmte-adam-smith": adamSmithPortraitPage,
       "beruehmte-rene-descartes": reneDescartesPortraitPage,
+      "beruehmte-carl-tanzler": carlTanzlerPortraitPage,
       "beruehmte-hermann-hesse": hermannHessePortraitPage,
       "beruehmte-xanthippe": xanthippePortraitPage,
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
