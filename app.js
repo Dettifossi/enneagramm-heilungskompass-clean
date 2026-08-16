@@ -24083,6 +24083,7 @@ const registerEntries = [
     { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bundeskanzlerin 2005\u20132021, Elefant" },
     { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bundeskanzlerin 2005\u20132021, Elefant" },
     { term: "Carmen Goglin", route: "beruehmte-carmen-goglin", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Lachtrainerin, Coachin, Gr\u00fcnderin der Reutlinger Lachschule" },
+    { term: "Gina Rinehart", route: "beruehmte-gina-rinehart", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bergbau-Unternehmerin, reichste Frau Australiens" },
   { term: "David Hume",                    route: "beruehmte-david-hume",                  description: "Portrait: SE9w8 \u00b7 Selbsterhaltender Typ 9 \u00b7 Philosoph, radikaler Skeptizismus" },
   { term: "Baruch de Spinoza",             route: "beruehmte-spinoza",                     description: "Portrait: SE5w6 \u00b7 Selbsterhaltender Typ 5 \u00b7 Philosoph, Rationalist, 1632\u20131677" },
   { term: "Hermann Hesse",                 route: "beruehmte-hermann-hesse",               description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Schriftsteller, Nobelpreisträger" },
@@ -24402,6 +24403,7 @@ const registerEntriesEN = [
   { term: "G\u00fcnther Jauch", route: "beruehmte-guenther-jauch", description: "Portrait: SO5w6 \u00b7 Social Type 5 \u00b7 TV host, Who Wants to Be a Millionaire" },
   { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Federal Chancellor 2005\u20132021, Elephant" },
   { term: "Carmen Goglin", route: "beruehmte-carmen-goglin", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 laughter-yoga trainer, coach, founder of the Reutlingen Laughter School" },
+  { term: "Gina Rinehart", route: "beruehmte-gina-rinehart", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 mining magnate, Australia's richest woman" },
   { term: "David Hume", route: "beruehmte-david-hume", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Philosopher, radical skepticism" },
   { term: "Baruch de Spinoza", route: "beruehmte-spinoza", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 Philosopher, rationalist, 1632\u20131677" },
   { term: "Hermann Hesse", route: "beruehmte-hermann-hesse", description: "Portrait: SE5w6 · Self-Preservation Type 5 · Writer, Nobel laureate" },
@@ -32252,6 +32254,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Carmen Goglin – Selbsterhaltende Typ 9",
     teaser:"SE9w8 · Lachtrainerin, Coachin und Autorin, Gründerin der Reutlinger Lachschule. Vom Personalwesen zum viralen Lachyoga-Phänomen nach der Finch-Parodie 2020/21. Der Elefant, der trompeten kann. Tierentsprechung: Elefant.",
     tags:["Gesellschaft"], gender:"f"},
+  { route:"beruehmte-gina-rinehart", name:"Gina Rinehart", added:"2026-08-16", subtyp:"SE9w8",
+    heading:"Gina Rinehart – Selbsterhaltende Typ 9",
+    teaser:"SE9w8 · geb. 1954. Bergbau-Unternehmerin, reichste Frau Australiens, Chefin von Hancock Prospecting. Jahrelanger Rechtsstreit mit den eigenen Kindern um den Familientrust. Der Elefant, der sein Territorium nie aufgibt. Tierentsprechung: Elefant.",
+    tags:["Wirtschaft"], gender:"f"},
   { route:"beruehmte-thomas-von-aquin", name:"Thomas von Aquin", added:"2026-08-14", subtyp:"SE9w8",
     heading:"Thomas von Aquin – Selbsterhaltender Typ 9",
     teaser:"SE9w8 · ca. 1225–1274. Italienischer Theologe und Philosoph, Summa Theologica, Begründer des Thomismus. Der ›stumme Ochse‹, der ein Jahr Gefangenschaft unbewegt überstand. Der Elefant mit Achterflügel: Gelassenheit als tägliche Praxis, Unbeugsamkeit im entscheidenden Moment. Tierentsprechung: Elefant.",
@@ -48313,6 +48319,70 @@ function carmenGoglinPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
           {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
+function ginaRinehartPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-gina-rinehart-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gina Rinehart</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltende Typ 9 mit Achterfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Bergbau-Unternehmerin, geb. 1954 &ndash; reichste Frau Australiens &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier der selbsterhaltenden Neun &ndash; ein Tier von enormer Masse, das sich nicht beeilt, aber auch nichts aufhalten kann, sobald es sich in Bewegung gesetzt hat. Gina Rinehart, geboren 1954 in Perth, ist wortw\xf6rtlich mit dieser Masse verbunden: Ihr Verm\xf6gen liegt im Boden, in Eisenerz, das seit Jahrmillionen dort liegt und einfach nur gehoben werden muss. Sie ist Australiens reichste Person &ndash; ein Status, der weniger auf spektakul\xe4ren Einzelentscheidungen beruht als auf jahrzehntelangem, geduldigem Ausbau eines ererbten Fundaments.</p>
+          <p class="vb-intro">1993 \xfcbernahm sie Hancock Prospecting, das Unternehmen ihres Vaters Lang Hancock, der 1952 eines der gr\xf6\xdften Eisenerzvorkommen der Welt entdeckt hatte. Statt das Ererbte zu verwalten, baute sie es systematisch aus &ndash; Hope Downs, Roy Hill, sp\xe4ter Lithium, Seltene Erden, Kupfer, Kali, Erdgas. Der Elefant bewegt sich langsam. Aber er bewegt sich in eine Richtung, und diese Richtung \xe4ndert sich nicht mehr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Stabilit\xe4t als Lebenswerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> ist nach Naranjo der Subtyp, den er <em>Appetit</em> nannte &ndash; die Neigung, sich in materieller Sicherheit und Komfort einzurichten und alles zu tun, um diesen Zustand zu erhalten. Bei Rinehart zeigt sich das nicht als pers\xf6nlicher Luxus im Vordergrund, sondern als beharrliches Sichern und Vergr\xf6\xdfern der wirtschaftlichen Basis &ndash; ein Lebensprojekt, das nie als abgeschlossen gilt.</p>
+          <p class="vb-intro">Wo andere Milliard\xe4re mit \xf6ffentlichkeitswirksamen Auftritten ihr Image pflegen, agiert Rinehart auffallend zur\xfcckhaltend in der \xf6ffentlichen Selbstdarstellung &ndash; und dennoch mit gro\xdfem Nachdruck, wenn es um die Sache selbst geht: Steuern, Bergbaurechte, das eigene Unternehmen. Die Neun muss nicht im Rampenlicht stehen. Sie muss nur sicherstellen, dass das Fundament h\xe4lt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\xfcgel: Wenn Beharren zu K\xe4mpfen wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine reine Neun w\xfcrde Konflikten ausweichen. Der <strong>Achterfl\xfcgel</strong> bringt bei Rinehart etwas anderes mit: die Bereitschaft, jahrelang und mit voller H\xe4rte zu k\xe4mpfen, wenn ihre Kontrolle \xfcber das Unternehmen infrage gestellt wird. 2011 verklagten drei ihrer vier Kinder &ndash; John Hancock, Bianca Rinehart und zeitweise Hope Welker &ndash; sie wegen des Hope Margaret Hancock Trust, eines von ihrem Vater 1988 errichteten Familientrusts, der ihnen mit 25 Jahren ausgezahlt werden sollte. Rinehart versuchte, die Aussch\xfcttung bis 2068 zu verschieben, mit Verweis auf steuerliche Nachteile.</p>
+          <p class="vb-intro">Der Rechtsstreit zog sich \xfcber Jahre, wurde \xf6ffentlich in aller Bitterkeit ausgetragen und endete erst 2015 mit einem Vergleich. Das ist die SE9w8 unter Druck: Die Neun h\xe4tte den Konflikt vielleicht vermieden oder ausgesessen. Der Achterfl\xfcgel setzte stattdessen auf Kontrolle bis zum Letzten &ndash; selbst gegen die eigenen Kinder, selbst um den Preis jahrelanger \xf6ffentlicher Bl\xf6\xdfstellung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. \xd6ffentliche Konfrontationen: Das Portr\xe4t und die Netballerinnen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2024 verlangte Rinehart von der National Gallery of Australia, ein Portr\xe4t von ihr des indigenen K\xfcnstlers Vincent Namatjira zu entfernen &ndash; sie fand die Darstellung unvorteilhaft. Die Galerie lehnte ab, und die Forderung erzeugte genau jene \xf6ffentliche Aufmerksamkeit, die Rinehart eigentlich vermeiden wollte. Der typische Streisand-Effekt &ndash; und ein Beispiel daf\xfcr, wie die Neun mit Achterfl\xfcgel auf eine wahrgenommene Bedrohung reagiert: nicht mit Ignorieren, sondern mit direkter, unnachgiebiger Einflussnahme.</p>
+          <p class="vb-intro">2022 zog Hancock Prospecting eine Sponsoring-Zahlung von 15 Millionen australischen Dollar von Netball Australia zur\xfcck, nachdem die Nationalmannschaft die indigene Spielerin Donnell Wallam unterst\xfctzt hatte, die sich geweigert hatte, ein Trikot mit dem Firmenlogo zu tragen &ndash; aus Sorge \xfcber rassistische \xc4u\xdferungen, die Rineharts verstorbener Vater Lang Hancock get\xe4tigt hatte. Rinehart selbst \xe4u\xdferte sich dazu \xf6ffentlich kaum. Auch das ist Neun: Nicht rechtfertigen, nicht diskutieren &ndash; einfach das Geld abziehen und die Sache beenden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Gedicht &bdquo;Our Future&ldquo;: Wenn die Neun schreibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2012 lie\xdf Rinehart ein selbst verfasstes Gedicht namens &bdquo;Our Future&ldquo; auf eine 30-Tonnen-Eisenerzplatte gravieren und in Morley, Western Australia, aufstellen &ndash; ein Aufruf, Bergbau mit m\xf6glichst geringer Besteuerung zu betreiben. Das Gedicht wurde landesweit verspottet, von Journalisten, Komikern und Professoren gleicherma\xdfen. Rinehart selbst reagierte auf die Kritik nicht mit R\xfcckzug, sondern lie\xdf die Platte einfach stehen.</p>
+          <p class="vb-intro">Diese Episode zeigt eine wenig bekannte Seite der selbsterhaltenden Neun: Sie kann durchaus \xf6ffentlich Position beziehen &ndash; nur selten in einer Form, die auf Zustimmung ausgelegt ist. Es ging nicht darum, gemocht zu werden. Es ging darum, eine \xdcberzeugung in Stein zu mei\xdfeln, buchst\xe4blich, und sie dort stehen zu lassen, egal wer sich dar\xfcber \xe4u\xdfert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Elefant, der nicht weicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gina Rinehart zeigt die selbsterhaltende Neun mit Achterfl\xfcgel in ihrer h\xe4rtesten Form: Gelassenheit nach au\xdfen, aber ein Fundament aus Granit darunter. Sie muss niemanden \xfcberzeugen, niemandem gefallen &ndash; sie muss nur sicherstellen, dass das, was sie aufgebaut hat, ihr geh\xf6rt und ihr geh\xf6ren bleibt. Kritik, Spott, sogar der eigene Familienstreit \xe4ndern daran wenig.</p>
+          <p class="vb-intro">Der Elefant ist ged\xe4chtnisstark, territorial und im Kern unbeweglich, wenn er einmal seinen Platz gefunden hat. Rinehart hat ihren Platz vor \xfcber drei\xdfig Jahren gefunden und ihn seither nicht nur gehalten, sondern kontinuierlich erweitert. Das ist keine laute Macht. Es ist die Macht, die einfach bleibt, wo sie ist &ndash; und von dort aus w\xe4chst.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+          {route:"beruehmte-carmen-goglin", label:"Portr\xe4t: Carmen Goglin (SE9w8)"},
         ])}
       </div>
     </div>
@@ -88221,6 +88291,7 @@ function render() {
           "beruehmte-eli-jaxon-bear": eliJaxonBearPortraitPage,
           "beruehmte-angela-merkel": angelaMerkelPortraitPage,
           "beruehmte-carmen-goglin": carmenGoglinPortraitPage,
+          "beruehmte-gina-rinehart": ginaRinehartPortraitPage,
     "beruehmte-david-hume": davidHumePortraitPage,
     "beruehmte-thomas-von-aquin": thomasVonAquinPortraitPage,
     "beruehmte-spinoza": spinozaPortraitPage,
