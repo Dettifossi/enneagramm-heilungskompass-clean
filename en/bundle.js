@@ -102,6 +102,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-paul-ogorzow",         name:"Paul Ogorzow",                        subtyp:"SE1w9",  heading:"Paul Ogorzow \u2013 Self-Preservation Type 1",                              teaser:"SP1w9 – The ‘S-Bahn Murderer’, 1912–1946. Eight murders in Berlin 1939–41. Broad camouflage through petty-bourgeois correctness, ice-cold double life, moral guilt always shifted outward." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-ted-bundy",           name:"Ted Bundy",                           subtyp:"SO1w9",  heading:"Ted Bundy \u2013 Social Type 1",                                           teaser:"SO1w9 – Serial killer, 1946–1989. Bourgeois facade, repressed rage, resentment. The social One with Nine-wing: self-righteousness as delusion, anger as cold driving force. Animal correspondence: Goose." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-heinrich-pommerenke",  name:"Heinrich Pommerenke",                 subtyp:"SO1w9",  heading:"Heinrich Pommerenke \u2013 Social Type 1",                                teaser:"SO1w9 – Serial killer, 1937–2008. At least 10 victims in southern Germany 1959–60. The ‘Monster of the Black Forest’: delusional divine mandate for punishment, emotional dissociation and a life under the sign of compulsive atonement." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-mary-ann-cotton",      name:"Mary Ann Cotton",                     subtyp:"SX1w2",  heading:"Mary Ann Cotton – Sexual Type 1",                                     teaser:"SX1w2 – Britain's first known serial killer, 1832–1873. Nurse, four-time widow, likely up to 21 poisoning victims with arsenic – husbands, children, relatives. Two wing as caretaking facade, the One as unrelenting judge over her own relationship. Animal correspondence: Black Mamba." , tags:["Serienmord","Nahbereich"], gender:"f"},
   { route:"kriminalpsychologie-otto-muehl",           name:"Otto Mühl",                          subtyp:"SX1w2",  heading:"Otto Mühl – Sexual Type 1",                                          teaser:"SX1w2 – Viennese action artist and commune founder, 1925–2013. Founder of the Friedrichshof commune (AAO), sentenced in 1991 to 7 years for sexually abusing minors. Moral reformer with a double standard: rules for everyone, self-exemption for himself. Animal correspondence: Black Mamba." , tags:["Missbrauch","Nahbereich"]},
   { route:"kriminalpsychologie-alex-murdaugh",        name:"Alex Murdaugh",                    subtyp:"SX1w2",  heading:"Alex Murdaugh – Sexual Type 1",                                      teaser:"SX1w2 – Lawyer and double murderer, born 1968. 87 years of legal dynasty, million-dollar fraud, double murder of wife and son 2021. The Two-wing as charm facade, the One as merciless judge over its own image. Animal correspondence: Black Mamba." , tags:["Nahbereich"]},
   { route:"kriminalpsychologie-gary-ridgway",         name:"Gary Ridgway",                        subtyp:"SX1w2",  heading:"Gary Ridgway \u2013 Sexual Type 1",                                       teaser:"SX1w2 – The 'Green River Killer', born 1949. At least 49 confirmed murders in Washington State (1982–2001), probably over 70. Churchgoer, family man, inconspicuous truck painter – and the man who destroyed women in his most intimate sphere, because control meant love to him." , tags:["Serienmord"]},
@@ -40876,6 +40877,87 @@ function gudrunEnsslinPortraitPage() {
   `);
 }
 
+function maryAnnCottonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Mary Ann Cotton – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/mary-ann-cotton-portrait.jpg" alt="Mary Ann Cotton – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mary Ann Cotton</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with Two-wing</p>
+        <p class="krim-portrait-sub">Britain's first known serial killer &middot; Animal Correspondence: Black Mamba</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Black Mamba</h3>
+        <p class="vb-intro">The <strong>black mamba</strong> is the animal of the sexual One – precise, fast, uncompromising, and lethal not out of brutality but out of an inner law that tolerates no contradiction. Mary Ann Cotton, born in County Durham in 1832, worked as a nurse and dressmaker before marrying her first husband in 1852. Over two decades, she likely killed as many as 21 people – four husbands, several of her own and step-children, a mother and lovers – with arsenic, quietly stirred into tea.</p>
+        <p class="vb-intro">In 1873 she was convicted and hanged for poisoning her seven-year-old stepson, Charles Edward Cotton. She was suspected in far more deaths, but convicted of only this one – enough to make her Britain's first documented serial killer.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The sexual One: Control in the closest circle</h3>
+        <p class="vb-intro">Naranjo called the <strong>sexual One (SX1)</strong> the subtype of <em>Jealousy</em> or <em>Zeal</em>: an intensity directed not at the world in general but at the one, closest relationship – with an unrelenting demand that this relationship stay pure, perfect, and unchallenged. Where the social One wants to reform a collective, the SX1 focuses on the intimate sphere: the partner, the family, the home.</p>
+        <p class="vb-intro">Cotton's entire pattern of action unfolded exactly within this intimate sphere. Her victims were not strangers, but the people standing in the way of a new relationship, a new husband, or a financially unburdened future. Children from earlier marriages, sick or inconvenient husbands, a mother who had become a burden – each death literally cleared the path for the next relationship. This is the SX1 in its most destructive form: an unrelenting inner standard for what and who belongs in one's own, ideally imagined relationship – and what must be ruthlessly removed when it doesn't fit.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Two wing: The caretaking facade</h3>
+        <p class="vb-intro">The <strong>Two wing</strong> gives the sexual One something that would be missing with a more muted Two wing: charm, a caretaking manner, the ability to present oneself as loving and indispensable. Cotton worked as a nurse – a profession built on trust and care – and cared for exactly the people she would later poison. According to contemporaries, she came across as unremarkable rather than threatening: neat, tidy, well-kept. Her Sunday school superintendent described her as "a most exemplary and regular attender" with "a particularly clean and tidy appearance".</p>
+        <p class="vb-intro">This facade allowed her to keep winning new men's trust, even as people around her kept dying. The Two wing supplies the charming, caretaking face behind which the hard, uncompromising core of the One hides – a pattern repeated across other SX1w2 cases: control disguised as love, destruction masked as care.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Four marriages, one recurring pattern</h3>
+        <p class="vb-intro">Cotton's biography reads like a disturbingly regular sequence: marriage, births, deaths in the immediate household, life-insurance payouts, relocation, next relationship. Each new bond seemed to trigger a desire for a "clean" fresh start – and whatever remained of the old bond consequently became an obstacle.</p>
+        <p class="vb-intro">The pattern repeated with unsettling precision: almost always the same diagnosis ("gastric fever"), almost always the same poison, almost always the same interval between marriage and the first deaths in the household. This repeatability is typical of the SX1: once established, the pattern becomes an inner order that is followed without doubt breaking through it.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Arrest and trial</h3>
+        <p class="vb-intro">In 1872, Cotton was arrested in West Auckland, County Durham, after her stepson Charles Edward Cotton died under suspicious circumstances and a doctor found arsenic in his remains. In court she consistently maintained her innocence, presenting herself as a grieving mother and widow victimized by malicious rumor.</p>
+        <p class="vb-intro">Contemporary newspaper reports describe a woman who followed the trial closely, smiled occasionally, and yet seemed fearful – outwardly unremarkable, dressed in black, head bowed. Nothing about her appearance matched the image of a woman who had found four husbands and allegedly killed dozens of people. This gap between outward unremarkableness and inner uncompromisingness is exactly what makes the SX1's Two wing so dangerously inconspicuous.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram reveals</h3>
+        <p class="vb-intro"><strong>a) The intimate sphere as the stage:</strong> Unlike offenders who attack strangers, Cotton's control was directed exclusively at her closest circle – partners, children, family. This is the SX1 in its purest, most dangerous orientation: the most intimate relationship becomes the field on which her own demand for purity and rightness is ruthlessly enforced.</p>
+        <p class="vb-intro"><strong>b) The Two wing as a charm instrument:</strong> An SX1 with a more muted Two wing might have come across as cooler, more distant – and would have been noticed sooner. In Cotton's case, the strongly developed Two wing ensured she was perceived as caring, likeable, and trustworthy, even as she killed systematically.</p>
+        <p class="vb-intro"><strong>c) Repetition as an organizing principle:</strong> The nearly identical sequence of marriage, deaths, and fresh starts across two decades shows how, for the SX1, an established pattern can solidify into an unquestioned inner rule – especially when no outside authority intervenes early enough.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Mary Ann Cotton</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SX1w2 – Sexual One with Two-wing</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Passion:</strong> Anger (as zeal, directed at the purity of the closest relationship)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Animal Correspondence:</strong> Black mamba</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Life dates:</strong> October 1832 – March 24, 1873</span>
+          <span style="display:block;"><strong>Known for:</strong> Poisoning several husbands, children, and relatives with arsenic; convicted of one murder, suspected in up to 21 deaths</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual One compared: how zeal becomes unrelenting control of the closest relationship – and why the Two wing supplies the facade.", "The Hidden Dynamics of the 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Anger as the core motive of the One: how the One's protective system forms – and how it dissolves through healing.", "Who You Really Are (Volume 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type assignment is a psychological hypothesis, not a historical verdict. Mary Ann Cotton was convicted of murder and executed in 1873. The Enneagram explains, it does not justify.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-gary-ridgway", label:"Criminal Psychology: Gary Ridgway (SX1w2) – Green River Killer"},
+          {route:"kriminalpsychologie-paul-bernardo", label:"Criminal Psychology: Paul Bernardo (SX1w2)"},
+          {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SP3w4)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function johnListPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -54456,6 +54538,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
       "kriminalpsychologie-alex-murdaugh": alexMurdaughPortraitPage,
       "kriminalpsychologie-gary-ridgway": garyRidgwayPortraitPage,
+      "kriminalpsychologie-mary-ann-cotton": maryAnnCottonPortraitPage,
       "kriminalpsychologie-ted-bundy": tedBundyPortraitPage,
       "kriminalpsychologie-pablo-escobar": pabloEscobarPortraitPage,
       "kriminalpsychologie-tom-keating": tomKeatingPortraitPage,

@@ -24235,6 +24235,7 @@ const registerEntries = [
   { term: "Dorothea Puente",           route: "kriminalpsychologie-dorothea-puente",      description: "Kriminalpsychologisches Portr\u00e4t: SE1w2 \u2013 US-amerikanische Serienm\u00f6rderin, vergiftete Boardinghouse-Bewohner, \u201eGrandma Killer\u201d" },
   { term: "Fritz Haarmann",            route: "kriminalpsychologie-fritz-haarmann",       description: "Kriminalpsychologisches Portr\u00e4t: SX1w9 \u2013 \u201eWolf von Hannover\u201d, mindestens 24 Morde 1918\u201324, Kontrollzwang und Vernichtungslust" },
   { term: "Gary Ridgway",              route: "kriminalpsychologie-gary-ridgway",         description: "Kriminalpsychologisches Portr\u00e4t: SX1w2 \u2013 \u201eGreen River Killer\u201d, mindestens 49 Morde, einer der produktivsten Serienm\u00f6rder der USA" },
+  { term: "Mary Ann Cotton", route: "kriminalpsychologie-mary-ann-cotton", description: "Kriminalpsychologisches Portrait: SX1w2 \u2013 Britanniens erste Serienm\u00f6rderin, Giftmord an bis zu 21 Menschen" },
   { term: "Gennadi Mikhasevich",       route: "kriminalpsychologie-gennadi-mikhasevich",  description: "Kriminalpsychologisches Portr\u00e4t: SX1w2 \u2013 sowjetischer Serienm\u00f6rder, 36 Morde 1971\u201385, vorbestrafte Unschuldige durch sein Schweigen" },
   { term: "Ted Kaczynski",              route: "kriminalpsychologie-ted-kaczynski",        description: "Kriminalpsychologisches Portr\u00e4t: SO5w4 \u2013 'Unabomber', Bombenanschl\u00e4ge 1978\u20131995, 3 Tote, 23 Verletzte, sozialer Typ 5 mit Viererfl\u00fcgel, Tierentsprechung: Oktopus" },
   { term: "Harold Shipman",            route: "kriminalpsychologie-harold-shipman",       description: "Kriminalpsychologisches Portr\u00e4t: SO5w6 \u2013 britischer Arzt und Massenm\u00f6rder, mind. 215 Patienten get\u00f6tet, Macht \u00fcber Leben und Tod" },
@@ -24829,6 +24830,7 @@ const registerEntriesEN = [
   { term: "Dorothea Puente", route: "kriminalpsychologie-dorothea-puente", description: "Criminal psychological portrait: SE1w2 \u2013 US serial killer, poisoned boardinghouse residents, \"Grandma Killer\"" },
   { term: "Fritz Haarmann", route: "kriminalpsychologie-fritz-haarmann", description: "Criminal psychological portrait: SX1w9 \u2013 \"Wolf of Hanover\", at least 24 murders 1918\u201324, compulsive control and lust for destruction" },
   { term: "Gary Ridgway", route: "kriminalpsychologie-gary-ridgway", description: "Criminal psychological portrait: SX1w2 \u2013 \"Green River Killer\", at least 49 murders, one of the most prolific serial killers in the USA" },
+  { term: "Mary Ann Cotton", route: "kriminalpsychologie-mary-ann-cotton", description: "Criminal psychological portrait: SX1w2 \u2013 Britain's first serial killer, poisoned up to 21 people" },
   { term: "Gennady Mikhasevich", route: "kriminalpsychologie-gennadi-mikhasevich", description: "Criminal psychological portrait: SX1w2 \u2013 Soviet serial killer, 36 murders 1971\u201385, framed innocent people through his silence" },
   { term: "Ted Kaczynski", route: "kriminalpsychologie-ted-kaczynski", description: "Criminal psychological portrait: SO5w4 \u2013 'Unabomber', bomb attacks 1978\u20131995, 3 dead, 23 injured, Social Type 5 with Four wing, animal equivalent: Octopus" },
   { term: "Harold Shipman", route: "kriminalpsychologie-harold-shipman", description: "Criminal psychological portrait: SO5w6 \u2013 British doctor and mass murderer, at least 215 patients killed, power over life and death" },
@@ -31227,6 +31229,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-paul-ogorzow",         name:"Paul Ogorzow",                        subtyp:"SE1w9",  heading:"Paul Ogorzow \u2013 Selbsterhaltender Typ 1",                              teaser:"SE1w9 \u2013 Der \u201eS-Bahn-M\xf6rder\u201c, 1912\u20131946. Acht Morde in Berlin 1939\u201341. Fl\xe4chentarnung durch spie\xdfb\xfcrgerliche Korrektheit, eiskaltes Doppelleben, moralische Schuld stets nach au\xdfen verlagert." , tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-ted-bundy",           name:"Ted Bundy",                           subtyp:"SO1w9",  heading:"Ted Bundy \u2013 Sozialer Typ 1",                                           teaser:"SO1w9 \u2013 Serienm\u00f6rder, 1946\u20131989. B\u00fcrgerliche Fassade, unterdr\u00fcckte Wut, Resentiment. Die soziale Eins mit Neunerfl\u00fcgel: Selbstgerechtigkeit als Verblendung, Zorn als kalte Triebkraft. Tierentsprechung: Gans." , tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-heinrich-pommerenke",  name:"Heinrich Pommerenke",                 subtyp:"SO1w9",  heading:"Heinrich Pommerenke \u2013 Sozialer Typ 1",                                teaser:"SO1w9 \u2013 Serienm\xf6rder, 1937\u20132008. Mindestens 10 Opfer in S\xfcddeutschland 1959\u201360. Das \u201eUngeheuer vom Schwarzwald\u201c: wahnhafter g\xf6ttlicher Strafauftrag, emotionale Dissoziation und ein Leben im Zeichen krampfhafter S\xfchne." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-mary-ann-cotton",      name:"Mary Ann Cotton",                     subtyp:"SX1w2",  heading:"Mary Ann Cotton \u2013 Sexuelle Typ 1",                                     teaser:"SX1w2 \u2013 Britanniens erste bekannte Serienm\u00f6rderin, 1832\u20131873. Krankenschwester, vierfache Witwe, vermutlich bis zu 21 Vergiftungsopfer mit Arsen \u2013 Ehem\u00e4nner, Kinder, Angeh\u00f6rige. Zweierfl\u00fcgel als F\u00fcrsorge-Fassade, Eins als unerbittlicher Richter \u00fcber die eigene Beziehung. Tierentsprechung: Schwarze Mamba." , tags:["Serienmord","Nahbereich"], gender:"f"},
   { route:"kriminalpsychologie-otto-muehl",           name:"Otto M\u00fchl",                          subtyp:"SX1w2",  heading:"Otto M\u00fchl \u2013 Sexueller Typ 1",                                          teaser:"SX1w2 \u2013 Wiener Aktionist und Kommunengr\u00fcnder, 1925\u20132013. Gr\u00fcnder der Friedrichshof-Kommune (AAO), 1991 wegen sexuellen Missbrauchs Minderj\u00e4hriger zu 7 Jahren Haft verurteilt. Moralischer Reformer mit Doppelstandard: Regeln f\u00fcr alle, Selbstausnahme f\u00fcr sich. Tierentsprechung: Schwarze Mamba." , tags:["Missbrauch","Nahbereich"], gender:"m"},
   { route:"kriminalpsychologie-alex-murdaugh",        name:"Alex Murdaugh",                    subtyp:"SX1w2",  heading:"Alex Murdaugh \u2013 Sexueller Typ 1",                                      teaser:"SX1w2 \u2013 Anwalt und Doppelm\u00f6rder, geb. 1968. 87 Jahre Rechtsdynastie, Millionenbetrug, Doppelmord an Frau und Sohn 2021. Der Zweierfl\u00fcgel als Charme-Fassade, die Eins als gnadenloser Richter \u00fcber das eigene Bild. Tierentsprechung: Schwarze Mamba." , tags:["Nahbereich"], gender:"m"},
   { route:"kriminalpsychologie-gary-ridgway",         name:"Gary Ridgway",                        subtyp:"SX1w2",  heading:"Gary Ridgway \u2013 Sexueller Typ 1",                                       teaser:"SX1w2 \u2013 Der \u201eGreen-River-Killer\u201c, geb. 1949. Mindestens 49 best\xe4tigte Morde in Washington State (1982\u20132001), wahrscheinlich \xfcber 70. Kirchg\xe4nger, Familienvater, unscheinbarer Lkw-Lackierer \u2013 und der Mann, der Frauen in seiner intimsten Sph\xe4re vernichtete, weil Kontrolle f\xfcr ihn Liebe bedeutete." , tags:["Serienmord"], gender:"m"},
@@ -73823,6 +73826,87 @@ function gudrunEnsslinPortraitPage() {
   `);
 }
 
+function maryAnnCottonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Mary Ann Cotton – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/mary-ann-cotton-portrait.jpg" alt="Mary Ann Cotton – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mary Ann Cotton</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierfl\xfcgel</p>
+        <p class="krim-portrait-sub">Britanniens erste bekannte Serienm\xf6rderin, 1832&ndash;1873 &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Die Schwarze Mamba</h3>
+        <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; pr\xe4zise, schnell, kompromisslos, und t\xf6dlich nicht aus Brutalit\xe4t, sondern aus einem inneren Gesetz heraus, das keinen Widerspruch duldet. Mary Ann Cotton, 1832 in der Grafschaft Durham geboren, arbeitete als Krankenschwester und Schneiderin, bevor sie 1852 ihren ersten Ehemann heiratete. \xdcber zwei Jahrzehnte hinweg t\xf6tete sie vermutlich bis zu 21 Menschen &ndash; vier Ehem\xe4nner, mehrere ihrer eigenen und Stiefkinder, eine Mutter und Liebhaber &ndash; mit Arsen, das sie unauff\xe4llig in Tee einr\xfchrte.</p>
+        <p class="vb-intro">1873 wurde sie f\xfcr die Vergiftung ihres siebenj\xe4hrigen Stiefsohns Charles Edward Cotton verurteilt und geh\xe4ngt. Man verdächtigte sie an weit mehr Todesfällen, doch verurteilt wurde sie nur für diesen einen &ndash; genug, um sie als Gro\xdfbritanniens erste dokumentierte Serienm\xf6rderin in die Geschichte eingehen zu lassen.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Eins: Kontrolle im engsten Kreis</h3>
+        <p class="vb-intro">Naranjo nannte die <strong>sexuelle Eins (SX1)</strong> den Subtyp der <em>Eifersucht</em> oder des <em>Eifers</em>: eine Intensit\xe4t, die sich nicht auf die Welt im Allgemeinen richtet, sondern auf die eine, engste Beziehung &ndash; mit dem unerbittlichen Anspruch, dass diese Beziehung perfekt, rein und unangefochten bleibt. Wo die soziale Eins ein Kollektiv reformieren will, konzentriert sich die SX1 auf den Nahbereich: den Partner, die Familie, das eigene Zuhause.</p>
+        <p class="vb-intro">Cottons gesamtes Handeln spielte sich in genau diesem Nahbereich ab. Ihre Opfer waren keine Fremden, sondern jene Menschen, die einer neuen Beziehung, einem neuen Ehemann oder einer finanziell entlasteten Zukunft im Weg standen. Kinder aus fr\xfcheren Ehen, kranke oder l\xe4stig gewordene Ehem\xe4nner, eine Mutter, die ihr zur Last fiel &ndash; jeder Todesfall r\xe4umte buchst\xe4blich den Weg f\xfcr die n\xe4chste Beziehung frei. Das ist die SX1 in ihrer zerst\xf6rerischsten Form: ein unerbittlicher innerer Ma\xdfstab, was und wer in die eigene, ideal gedachte Beziehung passt &ndash; und was rigoros entfernt werden muss, wenn es nicht passt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Zweierfl\xfcgel: Die F\xfcrsorge-Fassade</h3>
+        <p class="vb-intro">Der <strong>Zweierfl\xfcgel</strong> gibt der sexuellen Eins etwas, das bei schw\xe4cher ausgepr\xe4gtem Zweierfl\xfcgel fehlen w\xfcrde: Charme, F\xfcrsorglichkeit, die F\xe4higkeit, sich als liebevoll und unentbehrlich darzustellen. Cotton arbeitete als Krankenschwester &ndash; ein Beruf, der Vertrauen und Fürsorge verk\xf6rpert &ndash; und pflegte genau jene Menschen, die sie sp\xe4ter vergiftete. Sie wirkte, laut Zeitgenossen, nicht auff\xe4llig oder bedrohlich, sondern unscheinbar, adrett, gepflegt: Ihr Sonntagsschullehrer beschrieb sie als &bdquo;vorbildliche, regelm\xe4\xdfige Teilnehmerin&ldquo; mit &bdquo;besonders sauberer und ordentlicher Erscheinung&ldquo;.</p>
+        <p class="vb-intro">Diese Fassade erm\xf6glichte ihr, immer wieder neue M\xe4nner zu gewinnen und ihr Vertrauen zu erschleichen, obwohl an ihrem Umfeld reihenweise Menschen starben. Der Zweierfl\xfcgel liefert das charmante, f\xfcrsorgliche Gesicht, hinter dem sich der harte, kompromisslose Kern der Eins verbirgt &ndash; ein Muster, das sich bei anderen SX1w2-F\xe4llen wiederholt: Kontrolle wird als Liebe getarnt, Vernichtung als F\xfcrsorge maskiert.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Vier Ehen, ein wiederkehrendes Muster</h3>
+        <p class="vb-intro">Cottons Biografie liest sich wie eine erschreckend regelm\xe4\xdfige Abfolge: Heirat, Geburten, Todesf\xe4lle im n\xe4chsten Umfeld, Auszahlung von Sterbegeld-Versicherungen, Umzug, n\xe4chste Beziehung. Jede neue Verbindung schien den Wunsch nach einem &bdquo;reinen&ldquo; Neuanfang zu wecken &ndash; und alles, was aus der alten Verbindung noch \xfcbrig war, wurde in der Konsequenz zum Hindernis.</p>
+        <p class="vb-intro">Die Muster wiederholten sich mit erschreckender Pr\xe4zision: fast immer dieselbe Diagnose (&bdquo;Magenfieber&ldquo;), fast immer dasselbe Gift, fast immer derselbe zeitliche Abstand zwischen Eheschlie\xdfung und den ersten Todesf\xe4llen im Haushalt. Diese Wiederholbarkeit ist typisch f\xfcr die SX1: Einmal etabliert, wird das Muster zur inneren Ordnung, der gefolgt wird, ohne dass Zweifel es durchbrechen.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Verhaftung und Prozess</h3>
+        <p class="vb-intro">1872 wurde Cotton in West Auckland, County Durham, verhaftet, nachdem ihr Stiefsohn Charles Edward Cotton unter verd\xe4chtigen Umst\xe4nden gestorben war und ein Arzt Arsen in seinen \xdcberresten nachwies. Vor Gericht beteuerte sie durchgehend ihre Unschuld und stilisierte sich als trauernde Mutter und Witwe, die Opfer b\xf6swilliger Ger\xfcchte geworden sei.</p>
+        <p class="vb-intro">Zeitgen\xf6ssische Zeitungsberichte beschreiben eine Frau, die dem Prozess aufmerksam folgte, gelegentlich l\xe4chelte und gleichzeitig \xe4ngstlich wirkte &ndash; \xe4u\xdferlich unscheinbar, in Schwarz gekleidet, mit gesenktem Kopf. Nichts an ihrem Auftreten entsprach dem Bild einer Frau, die vier Ehem\xe4nner gefunden und mutma\xdflich Dutzende Menschen get\xf6tet hatte. Diese Diskrepanz zwischen \xe4u\xdferer Unscheinbarkeit und innerer Kompromisslosigkeit ist genau das, was den Zweierfl\xfcgel der SX1 so gef\xe4hrlich unauff\xe4llig macht.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro"><strong>a) Der Nahbereich als Schauplatz:</strong> Anders als T\xe4ter, die Fremde angreifen, richtete sich Cottons Kontrolle ausschlie\xdflich auf den engsten Kreis &ndash; Partner, Kinder, Familie. Das ist die SX1 in ihrer reinsten, gef\xe4hrlichsten Ausrichtung: Die intimste Beziehung wird zum Feld, auf dem der eigene Anspruch an Reinheit und Richtigkeit r\xfccksichtslos durchgesetzt wird.</p>
+        <p class="vb-intro"><strong>b) Der Zweierfl\xfcgel als Charme-Instrument:</strong> Eine SX1 mit schw\xe4cher ausgepr\xe4gtem Zweierfl\xfcgel h\xe4tte m\xf6glicherweise k\xfchler, distanzierter gewirkt &ndash; und w\xe4re fr\xfcher aufgefallen. Bei Cotton sorgte der stark ausgepr\xe4gte Zweierfl\xfcgel daf\xfcr, dass sie als f\xfcrsorglich, liebensw\xfcrdig und vertrauensw\xfcrdig wahrgenommen wurde, w\xe4hrend sie systematisch t\xf6tete.</p>
+        <p class="vb-intro"><strong>c) Wiederholung als Ordnungsprinzip:</strong> Die fast identische Abfolge von Heirat, Todesf\xe4llen und Neubeginn \xfcber zwei Jahrzehnte zeigt, wie sich bei der SX1 ein einmal etabliertes Muster zur unhinterfragten inneren Regel verfestigen kann &ndash; besonders dann, wenn keine \xe4u\xdfere Instanz fr\xfch genug eingreift.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Mary Ann Cotton</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SX1w2 &ndash; Sexuelle Eins mit Zweierfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Zorn (als Eifer, gerichtet auf die Reinheit der engsten Beziehung)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Schwarze Mamba</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> Oktober 1832 &ndash; 24. M\xe4rz 1873</span>
+          <span style="display:block;"><strong>Bekannt f\xfcr:</strong> Vergiftung mehrerer Ehem\xe4nner, Kinder und Angeh\xf6riger mit Arsen; verurteilt wegen eines Mordes, verd\xe4chtigt bei bis zu 21 Todesf\xe4llen</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Eins im Vergleich: Wie Eifer zur unerbittlichen Kontrolle der engsten Beziehung wird – und warum der Zweierflügel die Fassade liefert.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Zorn als Grundmotiv der Eins: Wie das Schutzsystem der Eins entsteht und wie es sich in Heilung aufl\xf6st.", "Wer du wirklich bist (Band 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Mary Ann Cotton wurde 1873 wegen Mordes verurteilt und hingerichtet. Das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-gary-ridgway", label:"Kriminalpsychologie: Gary Ridgway (SX1w2) – Green River Killer"},
+          {route:"kriminalpsychologie-paul-bernardo", label:"Kriminalpsychologie: Paul Bernardo (SX1w2)"},
+          {route:"beruehmte-anna-anderson", label:"Portr\xe4t: Anna Anderson (SE3w4)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function johnListPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -88825,6 +88909,7 @@ function render() {
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
       "kriminalpsychologie-alex-murdaugh": alexMurdaughPortraitPage,
       "kriminalpsychologie-gary-ridgway": garyRidgwayPortraitPage,
+      "kriminalpsychologie-mary-ann-cotton": maryAnnCottonPortraitPage,
       "kriminalpsychologie-ted-bundy": tedBundyPortraitPage,
       "kriminalpsychologie-pablo-escobar": pabloEscobarPortraitPage,
       "kriminalpsychologie-tom-keating": tomKeatingPortraitPage,
