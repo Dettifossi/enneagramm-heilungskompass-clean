@@ -156,6 +156,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-niels-hoegel",        name:"Niels H\xf6gel",                     subtyp:"SE7w8",  heading:"Niels H\xf6gel \u2013 Self-Preservation Type 7",                            teaser:"SP7w8 – Nurse and serial killer, born 1976. At least 85 dead – the self-preservation Seven with Eight-wing in its darkest manifestation: greed as compulsion for control." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-andreas-baader",      name:"Andreas Baader",                    subtyp:"SE7w8",  heading:"Andreas Baader \u2013 Self-Preservation Type 7",                          teaser:"SP7w8 – Co-founder of the Red Army Faction (RAF), 1943–1977. Drive for freedom over theory, fast cars over reading Marx – the self-preservation Seven with Eight-wing as Naranjo’s “hidden Eight.” Animal correspondence: Gorilla." , tags:["Terror"]},
   { route:"kriminalpsychologie-ulrike-meinhof",      name:"Ulrike Meinhof",                    subtyp:"SE2w1",  heading:"Ulrike Meinhof \u2013 Self-Preservation Type 2",                          teaser:"SP2w1 – Journalist and co-founder of the Red Army Faction (RAF), 1934–1976. Care for the oppressed, radicalized through moral certainty – the self-preservation Two with One-wing who freed Baader from custody in 1970. Animal correspondence: Hippopotamus." , tags:["Terror"]},
+  { route:"kriminalpsychologie-gudrun-ensslin",      name:"Gudrun Ensslin",                    subtyp:"SX7w8",  heading:"Gudrun Ensslin \u2013 Sexual Type 7",                          teaser:"SX7w8 – Co-founder of the Red Army Faction (RAF), 1940–1977. Pastor\u2019s daughter and model student, radicalized after the death of Benno Ohnesorg – the sexual Seven with Eight-wing as total, uncompromising fusion with an idea. Animal correspondence: Chimpanzee." , tags:["Terror"]},
       { route:"kriminalpsychologie-chris-watts",         name:"Chris Watts",                      subtyp:"SO7w6",  heading:"Chris Watts – Social Type 7",                                  teaser:"SO7w6 – American family murderer, born 1985. Murdered his pregnant wife and two daughters to start a new life with his mistress. Arrested 2018, five consecutive life sentences. Animal correspondence: Beaver." , tags:["Nahbereich"]},
       { route:"kriminalpsychologie-frank-abagnale-jr", name:"Frank Abagnale Jr.", subtyp:"SO7w6", heading:"Frank Abagnale Jr. – Social Type 7", teaser:"SO7w6 – Most famous impostor in history, born 1948. Pilot, doctor, lawyer – without ever having been one. The social Seven with Six-wing: restless search for new systems, belonging as the driving force, trust as the ultimate goal. Animal correspondence: Beaver.", tags:["Betrug"]},
   { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              added:"2026-07-15",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs – Sexual Type 7",                              teaser:"SX7w8 – Music producer, entrepreneur, convicted offender. Born 1969 in New York. For decades one of the most powerful men in the music industry – and a system of sexual violence hidden behind glamour and control. Convicted 2025 for sex trafficking and coercion. The sexual Seven with Eight-wing: pleasure as a right, control as love, power as shield. Animal correspondence: Chimpanzee." , tags:["Missbrauch","Musikindustrie"]},
@@ -40160,6 +40161,7 @@ function andreasBaaderPortraitPage() {
 
         ${relatedLinks([
           {route:"kriminalpsychologie-ulrike-meinhof", label:"Criminal Psychology: Ulrike Meinhof (SP2w1) – freed Baader in 1970"},
+          {route:"kriminalpsychologie-gudrun-ensslin", label:"Criminal Psychology: Gudrun Ensslin (SX7w8) – RAF co-founder"},
           {route:"beruehmte-moritz-bleibtreu", label:"Portrait: Moritz Bleibtreu (SP7w8) – portrayed Baader on screen"},
           {route:"kriminalpsychologie-charles-manson", label:"Criminal Psychology: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-adolf-eichmann", label:"Criminal Psychology: Adolf Eichmann (SO6w5)"},
@@ -40241,8 +40243,88 @@ function ulrikeMeinhofPortraitPage() {
 
         ${relatedLinks([
           {route:"kriminalpsychologie-andreas-baader", label:"Criminal Psychology: Andreas Baader (SP7w8) – freed by Meinhof in 1970"},
+          {route:"kriminalpsychologie-gudrun-ensslin", label:"Criminal Psychology: Gudrun Ensslin (SX7w8) – partner and RAF co-founder"},
           {route:"kriminalpsychologie-charles-manson", label:"Criminal Psychology: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-adolf-eichmann", label:"Criminal Psychology: Adolf Eichmann (SO6w5)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function gudrunEnsslinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Gudrun Ensslin – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/gudrun-ensslin-portrait.jpg" alt="Gudrun Ensslin – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gudrun Ensslin</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight-wing</p>
+        <p class="krim-portrait-sub">Co-founder of the Red Army Faction (RAF) &middot; Animal Correspondence: Chimpanzee</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Chimpanzee</h3>
+        <p class="vb-intro">The <strong>chimpanzee</strong> is the animal correspondence of the sexual Seven &ndash; an animal of high intelligence, social agility, and an intensity that can focus completely on the center of its attention. Gudrun Ensslin embodied exactly this totality: whatever she did, she did with her whole being &ndash; her studies, her faith, her love, her politics, the armed struggle. She scarcely knew half-measures.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Sexual Seven: Suggestibility &ndash; The Total Reversal</h3>
+        <p class="vb-intro">Naranjo called the <strong>sexual Seven (SX7)</strong> the subtype of <em>suggestibility</em>: it fuses completely with an idea, a person, a vision &ndash; and is literally swept along by that fusion. Unlike the self-preservation or social Seven, which spreads its enthusiasm, the SX7 concentrates it on a single point, with an intensity that knows no half-measures.</p>
+        <p class="vb-intro">Gudrun Ensslin, born in 1940 in the Swabian village of Bartholom\xe4 as a pastor's daughter, was a brilliant pupil and student: a Fulbright scholarship recipient in the United States, studying education, German, and English at T\xfcbingen and Berlin. She lived with the writer Bernward Vesper and had a son with him, Felix, in 1967. The fatal shooting of student Benno Ohnesorg by a police officer at a demonstration against the Shah of Persia that same year hit her like an earthquake &ndash; contemporaries describe an outburst of stunned rage that overturned her entire worldview. A few months later, she left Vesper and their son to live with Andreas Baader (SP7w8). The suggestibility of the SX7 knows no detour: once the new conviction is there, the old life is dropped entirely.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Eight-Wing: Iron Discipline</h3>
+        <p class="vb-intro">The <strong>Eight-wing</strong> gives the sexual Seven a hardness the pure Seven would not have: assertiveness, uncompromising resolve, the ability to carry through a decision once made without hesitation. Contemporaries and co-defendants consistently described Ensslin as the most disciplined, most ideologically uncompromising figure of the early RAF &ndash; harder and more consistent than Baader himself when it came to justifying violence.</p>
+        <p class="vb-intro">In April 1968, together with Baader, Thorwald Proll, and Horst S\xf6hnlein, she set fire to two department stores in Frankfurt. In court, she justified the act with uncompromising clarity as a necessary wake-up call against an indifferent society. The Eight-wing supplied the resolve to draw consequences from conviction that a pure Seven would have shied away from.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. From Student to Ideologue: The Break</h3>
+        <p class="vb-intro">After being convicted of the department store arson and a later escape from custody, Ensslin went underground together with Baader and Meinhof. Within the group, she was regarded as one of its leading voices &ndash; disciplined, articulate, unyielding in discussion. In 1972, she was arrested together with Baader.</p>
+        <p class="vb-intro">What followed was the joint Stammheim trial together with Baader, Meinhof, and Jan-Carl Raspe, one of the most extensive criminal trials in postwar German history. In the courtroom, Ensslin continued to appear self-assured and ideologically unshaken &ndash; no trace of doubt about the rightness of her own path.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Stammheim and the Night of Death</h3>
+        <p class="vb-intro">In the autumn of 1977, the German Autumn escalated: the kidnapping of Hanns Martin Schleyer, the hijacking of the Lufthansa aircraft "Landshut" to Mogadishu, and its storming by the GSG 9. On the night of October 18, 1977, Gudrun Ensslin died together with Andreas Baader and Jan-Carl Raspe in her cell in Stammheim &ndash; officially by suicide; according to the investigation's findings, she hanged herself at her cell window. Here too, the exact circumstances remain a matter of controversial debate to this day; no state involvement has ever been proven.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram Reveals</h3>
+        <p class="vb-intro"><strong>a) Suggestibility as an All-or-Nothing Principle:</strong> The SX7 knows no half-devotion. Ensslin's path from devout pastor's daughter to uncompromising underground fighter shows the same pattern twice &ndash; only with reversed signs. The intensity remained identical; only its object changed completely.</p>
+        <p class="vb-intro"><strong>b) The Eight-Wing as Enforcer of Conviction:</strong> Where a pure SX7 might remain enthusiastic yet hesitant, the Eight-wing gave Ensslin the hardness to actually act on conviction &ndash; and to allow herself hardly any self-doubt in the process.</p>
+        <p class="vb-intro"><strong>c) The Relationship as Carrier of the Idea:</strong> It is typical of the SX7 that the great fusion often begins with a person before it expands into an ideology. The bond with Baader was not merely romantic &ndash; it was the emotional anchor point on which Ensslin's entire political conversion took hold.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification Summary</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <strong>Name:</strong> Gudrun Ensslin<br>
+        Subtype: SX7w8 – Sexual Seven with Eight-wing<br>
+        Passion: Gluttony (as total, suggestible fusion with an idea)<br>
+        Animal Correspondence: Chimpanzee<br>
+        Lifespan: August 15, 1940 – October 18, 1977<br>
+        Known for: Co-founder of the Red Army Faction (RAF), 1968 department store arson, Stammheim trial
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual Seven in comparison: how suggestibility becomes total devotion – and why the Eight-wing turns enthusiasm into action.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP7, SO7, SX7 – 27 character profiles in comparison.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Gluttony as the core motivation of Type Seven: how the Seven's defense system forms and how it dissolves in healing.", "Wer du wirklich bist (Band 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Gudrun Ensslin was a co-founder of the RAF and died in custody in 1977. The Enneagram explains; it does not justify.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-andreas-baader", label:"Criminal Psychology: Andreas Baader (SP7w8) – partner and RAF co-founder"},
+          {route:"kriminalpsychologie-ulrike-meinhof", label:"Criminal Psychology: Ulrike Meinhof (SP2w1) – RAF co-founder"},
+          {route:"kriminalpsychologie-charles-manson", label:"Criminal Psychology: Charles Manson (SX6w7)"},
         ])}
       </div>
     </div>
@@ -53853,6 +53935,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-niels-hoegel": nielsHoegelPortraitPage,
       "kriminalpsychologie-andreas-baader": andreasBaaderPortraitPage,
       "kriminalpsychologie-ulrike-meinhof": ulrikeMeinhofPortraitPage,
+      "kriminalpsychologie-gudrun-ensslin": gudrunEnsslinPortraitPage,
       "kriminalpsychologie-chris-watts": chrisWattsPortraitPage,
       "kriminalpsychologie-john-gotti": johnGottiPortraitPage,
       "kriminalpsychologie-nick-leeson": nickLeesonPortraitPage,
