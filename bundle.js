@@ -24089,6 +24089,7 @@ const registerEntries = [
   { term: "Albert Einstein",               route: "beruehmte-albert-einstein",             description: "Portrait: SO5w4 \u00b7 Sozialer Typ 5 \u00b7 Physiker, Relativit\u00e4tstheorie" },
   { term: "Samuel Hahnemann",              route: "beruehmte-samuel-hahnemann",            description: "Portrait: SO1w9 \u00b7 Sozialer Typ 1 \u00b7 Deutscher Arzt, Begr\u00fcnder der Hom\u00f6opathie" },
   { term: "Hans-Dietrich Genscher",        route: "beruehmte-hans-dietrich-genscher",      description: "Portrait: SE9w8 \u00b7 Selbsterhaltender Typ 9 \u00b7 Au\u00dfenminister, Wiedervereinigung" },
+  { term: "Moritz Bleibtreu",              route: "beruehmte-moritz-bleibtreu",             description: "Portrait: SE7w8 \u00b7 Selbsterhaltender Typ 7 \u00b7 Schauspieler, Regisseur, Lola rennt, Gorilla" },
   { term: "Hans Zimmer",                   route: "beruehmte-hans-zimmer",                 description: "Portrait: SE7w8 \u00b7 Selbsterhaltender Typ 7 \u00b7 Filmkomponist, Inception" },
   { term: "Hazel Brugger",                 route: "beruehmte-hazel-brugger",               description: "Portrait: SO7w8 \u00b7 Sozialer Typ 7 \u00b7 Kabarettistin, Komikerin" },
     { term: "Dakota Johnson", route: "beruehmte-dakota-johnson", description: "Portrait: SX9w8 \u00b7 Sexueller Typ 9 \u00b7 Schauspielerin, Fifty Shades, Suspiria, Faultier" },
@@ -24399,6 +24400,7 @@ const registerEntriesEN = [
   { term: "Baruch de Spinoza", route: "beruehmte-spinoza", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 Philosopher, rationalist, 1632\u20131677" },
   { term: "Hermann Hesse", route: "beruehmte-hermann-hesse", description: "Portrait: SE5w6 · Self-Preservation Type 5 · Writer, Nobel laureate" },
   { term: "Hans-Dietrich Genscher", route: "beruehmte-hans-dietrich-genscher", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Foreign Minister, German reunification" },
+  { term: "Moritz Bleibtreu", route: "beruehmte-moritz-bleibtreu", description: "Portrait: SE7w8 \u00b7 Self-Preservation Type 7 \u00b7 Actor, director, Run Lola Run, Gorilla" },
   { term: "Hans Zimmer", route: "beruehmte-hans-zimmer", description: "Portrait: SE7w8 \u00b7 Self-Preservation Type 7 \u00b7 Film composer, Inception" },
   { term: "Hazel Brugger", route: "beruehmte-hazel-brugger", description: "Portrait: SO7w8 \u00b7 Social Type 7 \u00b7 Comedian, Comedian" },
   { term: "Dakota Johnson", route: "beruehmte-dakota-johnson", description: "Portrait: SX9w8 \u00b7 Sexual Type 9 \u00b7 Actress, Fifty Shades, Suspiria, Sloth" },
@@ -32025,6 +32027,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mariah Carey \u2013 Selbsterhaltender Typ 7",
     teaser:"SE7w8 \u00b7 geb. 1969 in Huntington, New York. S\u00e4ngerin, Songwriterin, Produzentin. 18 Nummer-1-Singles, f\u00fcnf Oktaven, ein Weihnachtslied f\u00fcr die Ewigkeit. Der Gorilla mit Achterfl\u00fcgel: Freude als Recht, \u00dcberfluss als Heimat, Macht als Schutzschild.",
     tags:["Musik"], gender:"f"},
+  { route:"beruehmte-moritz-bleibtreu", name:"Moritz Bleibtreu", added:"2026-08-16", subtyp:"SE7w8",
+    heading:"Moritz Bleibtreu \u2013 Selbsterhaltender Typ 7",
+    teaser:"SE7w8 \u00b7 geb. 1971 in M\u00fcnchen. Schauspieler und Regisseur, \u203aLola rennt\u2039, \u203aDas Experiment\u2039, \u203aDer Baader Meinhof Komplex\u2039. Der Gorilla, der zwischen Kom\u00f6die und schwerster Konfrontation wechselt, ohne an Glaubw\u00fcrdigkeit zu verlieren. Tierentsprechung: Gorilla.",
+    tags:["Schauspiel"], gender:"m"},
   { route:"beruehmte-hans-zimmer", name:"Hans Zimmer", subtyp:"SE7w8",
     heading:"Hans Zimmer \u2013 Selbsterhaltender Typ 7",
     teaser:"SE7w8 \u00b7 geb. 1957. Filmkomponist, Arrangeur, Musikproduzent. The Lion King, Gladiator, Inception, Interstellar. Der Gorilla, der Klang zu Emotion macht \u2013 und eine ganze Familie von Komponisten um sich versammelt hat. Tierentsprechung: Gorilla.",
@@ -45696,6 +45702,65 @@ function jasminPaoliniPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function moritzBleibtreuPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-moritz-bleibtreu-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Moritz Bleibtreu</p>
+        <p class="krim-portrait-typ">SE7w8 · Selbsterhaltender Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler &amp; Regisseur, geb. 1971 in München – Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 – und er überrascht, weil man ihn beim ersten Hinsehen nicht mit Leichtigkeit verbindet. Der Gorilla ist mächtig, ruhig und zutiefst familienorientiert. Er lebt im engen Verband, pflegt Bindungen, schützt sein Rudel. Er sucht keine Konfrontation – aber weicht ihr auch nicht aus, wenn es darauf ankommt.</p>
+          <p class="vb-intro">Moritz Bleibtreu, 1971 in München geboren, Sohn des Schauspielers Hans-Peter Bleibtreu, ist seit über drei Jahrzehnten eines der beweglichsten Gesichter des deutschen Films. Kaum ein Kollege seiner Generation hat ein derart dichtes, ungewöhnlich vielseitiges Werk vorzuweisen – von der Komödie bis zum psychologischen Thriller, von der historischen Rolle bis zur internationalen Großproduktion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> findet ihre Freude nicht im Spektakel, sondern in der Wärme des Schaffens selbst – im Prozess, in der Zusammenarbeit, im Handwerk. Naranjo nannte diesen Subtyp <em>Familie</em>: Die SE7 schafft sich ihr eigenes Nest, einen Raum, in dem Kreativität und Geborgenheit zusammenkommen.</p>
+          <p class="vb-intro">Bleibtreus internationaler Durchbruch gelang 1998 mit <em>Lola rennt</em> von Tom Tykwer – ein Film, der das deutsche Kino jener Jahre neu definierte. Statt diesen Erfolg in eine einzige Rollenformel zu übersetzen, wechselte er seither ständig das Terrain: Komödie (<em>Soul Kitchen</em>, 2009), Psychothriller (<em>Das Experiment</em>, 2001), historisches Drama (<em>Der Baader Meinhof Komplex</em>, 2008), internationales Kino (<em>München</em>, 2005, Regie: Steven Spielberg; <em>Speed Racer</em>, 2008). Die SE7 sucht nicht die eine große Rolle – sie sucht die nächste Erfahrung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Kraft, die trägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der selbsterhaltenden Sieben etwas, das nicht jeder Sieben zur Verfügung steht: Durchsetzungskraft und die Fähigkeit, auch in die dunkelsten, konfrontativsten Rollen vollständig einzutauchen, ohne sich vor der eigenen Intensität zurückzuziehen.</p>
+          <p class="vb-intro">2008 verkörperte Bleibtreu in <em>Der Baader Meinhof Komplex</em> den RAF-Terroristen Andreas Baader – eine Rolle von schonungsloser Härte, die international Anerkennung fand und ihm eine Nominierung für den Europäischen Filmpreis einbrachte. Es ist eine Darstellung ohne jede Distanzierung: kein Kommentar, keine Milderung, volle Konfrontation mit einer zutiefst verstörenden historischen Figur. Das ist der Achterflügel: die Bereitschaft, sich der schwersten Energie eines Stoffes auszusetzen, statt ihr auszuweichen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Völlerei als Schöpfungsdrang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> – der unstillbare Hunger nach Erfahrung, nach dem nächsten Projekt, nach neuen Facetten des eigenen Könnens. In der selbsterhaltenden Sieben richtet sich dieser Hunger nicht auf Exzess, sondern auf Fülle: mehr Rollen, mehr Genres, mehr Handwerk.</p>
+          <p class="vb-intro">Bleibtreus Filmografie umfasst weit über hundert Produktionen – Kino, Fernsehen, internationale Koproduktionen. In Interviews ist er bekannt für sein schnelles, sprunghaftes, oft komisches Erzähltempo – Gedanken, die sich überschlagen, Themenwechsel mitten im Satz. Das ist kein Mangel an Fokus. Es ist der Gorilla in seinem Element: ein Geist, der ständig in Bewegung bleibt, weil Stillstand sich für die SE7 wie Verlust anfühlt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Vielseitigkeit ohne Verwässerung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Moritz Bleibtreu dem deutschen Film gegeben hat, ist der Beweis, dass Vielseitigkeit keine Verwässerung sein muss. Wer zwischen Manni in <em>Lola rennt</em>, dem gequälten Versuchsteilnehmer in <em>Das Experiment</em> und dem RAF-Anführer Baader wechseln kann, ohne dabei an Glaubwürdigkeit zu verlieren, hat verstanden, dass echte Wandlungsfähigkeit kein Widerspruch zur Tiefe ist – sondern ihre Voraussetzung.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE7w8: Freude am Handwerk, gepaart mit der Kraft, auch dorthin zu gehen, wo es unbequem wird. Der Gorilla, der sein Rudel – das Ensemble, das Publikum, das Genre – nie verlässt, aber auch nie stehen bleibt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
+        {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3)"},
       ])}
     </div>
   `);
@@ -87707,6 +87772,7 @@ function render() {
       "beruehmte-scarlett-johansson": scarlettJohanssonPortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
+      "beruehmte-moritz-bleibtreu": moritzBleibtreuPortraitPage,
       "beruehmte-francis-bacon": francisBaconPortraitPage,
       "beruehmte-miley-cyrus": mileyCyrusPortraitPage,
       "beruehmte-ina-mueller": inaMuellerPortraitPage,

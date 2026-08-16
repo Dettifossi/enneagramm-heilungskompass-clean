@@ -675,6 +675,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jasmine Paolini – Self-Preservation Type 7",
     teaser:"SP7w6 · born 1996. Italian tennis player, world number four 2024. Finalist Roland Garros & Wimbledon, WTA Finals winner. The gorilla: joy as foundation, warmth as weapon, fighting spirit as gift. Animal correspondence: Gorilla.",
     tags:["Sport"] },
+  { route:"beruehmte-moritz-bleibtreu", name:"Moritz Bleibtreu", added:"2026-08-16", subtyp:"SE7w8",
+    heading:"Moritz Bleibtreu – Self-Preservation Type 7",
+    teaser:"SP7w8 · born 1971 in Munich. Actor and director, ‘Run Lola Run’, ‘The Experiment’, ‘The Baader Meinhof Complex’. The gorilla who moves between comedy and the heaviest confrontation without losing credibility. Animal correspondence: Gorilla.",
+    tags:["Schauspiel"] },
   { route:"beruehmte-hans-zimmer", name:"Hans Zimmer", subtyp:"SE7w8",
     heading:"Hans Zimmer – Self-Preservation Type 7",
     teaser:"SP7w8 · born 1957. Film composer, arranger, music producer. The Lion King, Gladiator, Inception, Interstellar. The gorilla that turns sound into emotion – and has gathered an entire family of composers around itself. Animal correspondence: Gorilla.",
@@ -26561,6 +26565,65 @@ function jasminPaoliniPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function moritzBleibtreuPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-moritz-bleibtreu-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Moritz Bleibtreu</p>
+        <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Actor &amp; director, born 1971 in Munich &ndash; Animal correspondence: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>gorilla</strong> is the animal of the Self-Preservation Type 7 &ndash; and it surprises, because at a glance one does not associate it with lightness. The gorilla is powerful, calm, and deeply family-oriented. It lives in a close-knit group, tends its bonds, protects its troop. It does not seek confrontation &ndash; but does not avoid it either, when it matters.</p>
+          <p class="vb-intro">Moritz Bleibtreu, born in 1971 in Munich, son of actor Hans-Peter Bleibtreu, has for over three decades been one of the most versatile faces of German cinema. Few of his generation can point to such a dense, unusually varied body of work &ndash; from comedy to psychological thriller, from historical roles to major international productions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Seven: Joy as Craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Seven (SP7)</strong> finds its joy not in spectacle, but in the warmth of the making itself &ndash; in the process, in collaboration, in craft. Naranjo called this subtype <em>Family</em>: the SP7 builds its own nest, a space where creativity and belonging come together.</p>
+          <p class="vb-intro">Bleibtreu's international breakthrough came in 1998 with <em>Run Lola Run</em>, directed by Tom Tykwer &ndash; a film that redefined German cinema of its era. Rather than translating that success into a single repeatable formula, he has kept shifting terrain ever since: comedy (<em>Soul Kitchen</em>, 2009), psychological thriller (<em>The Experiment</em>, 2001), historical drama (<em>The Baader Meinhof Complex</em>, 2008), international cinema (<em>Munich</em>, 2005, directed by Steven Spielberg; <em>Speed Racer</em>, 2008). The SP7 does not seek the one great role &ndash; it seeks the next experience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: Strength That Carries</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the self-preservation Seven something not every Seven has access to: assertiveness, and the ability to immerse fully in the darkest, most confrontational roles without retreating from one's own intensity.</p>
+          <p class="vb-intro">In 2008, Bleibtreu portrayed RAF terrorist Andreas Baader in <em>The Baader Meinhof Complex</em> &ndash; a role of unflinching harshness that earned international acclaim and a nomination for the European Film Award. It is a portrayal with no distancing whatsoever: no commentary, no softening, full confrontation with a deeply disturbing historical figure. This is the Eight-wing: the willingness to expose oneself to the heaviest energy of a subject, rather than avoid it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Gluttony as Creative Drive</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Seven is <strong>gluttony</strong> &ndash; an insatiable hunger for experience, for the next project, for new facets of one's own craft. In the self-preservation Seven, this hunger is directed not at excess, but at abundance: more roles, more genres, more craft.</p>
+          <p class="vb-intro">Bleibtreu's filmography spans well over a hundred productions &ndash; film, television, international co-productions. In interviews he is known for his fast, jumpy, often comedic pace of speech &ndash; thoughts tumbling over each other, subject changes mid-sentence. This is not a lack of focus. It is the gorilla in its element: a mind that stays constantly in motion, because for the SP7, standing still feels like loss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Gift: Versatility Without Dilution</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Moritz Bleibtreu has given German film is proof that versatility need not mean dilution. Anyone who can move between Manni in <em>Run Lola Run</em>, the tormented test subject in <em>The Experiment</em>, and RAF leader Baader without losing credibility has understood that true range is not the opposite of depth &ndash; it is its precondition.</p>
+          <p class="vb-intro">This is the gift of the SP7w8: joy in craft, paired with the strength to go where it gets uncomfortable. The gorilla that never leaves its troop &ndash; the ensemble, the audience, the genre &ndash; but never stands still either.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
+        {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
+        {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
       ])}
     </div>
   `);
@@ -53359,6 +53422,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-scarlett-johansson": scarlettJohanssonPortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
+      "beruehmte-moritz-bleibtreu": moritzBleibtreuPortraitPage,
       "beruehmte-francis-bacon": francisBaconPortraitPage,
       "beruehmte-miley-cyrus": mileyCyrusPortraitPage,
       "beruehmte-ina-mueller": inaMuellerPortraitPage,
