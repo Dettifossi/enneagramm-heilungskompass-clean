@@ -737,7 +737,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Schauspiel"] },
   { route:"beruehmte-karl-marx", name:"Karl Marx", added:"2026-08-04", subtyp:"SO8w9",
     heading:"Karl Marx – Social Type 8",
-    teaser:"SO8w9 · born 1818 in Trier, died 1883 in London. Philosopher, economist, founder of Marxism. Das Kapital, the Communist Manifesto. The lion that fought his whole life for the exploited – from the shadows, with a force that the world has not settled since.",
+    teaser:"SO8w9 · born 1818 in Trier, died 1883 in London. Philosopher, economist, founder of Marxism. Das Kapital, the Communist Manifesto. The lion that fought throughout his life for the exploited – from the shadows, with a force that the world has not settled since.",
     tags:["Philosophie","Politik"], gender:"m"},
   { route:"beruehmte-donald-trump", name:"Donald J. Trump", subtyp:"SX8w7",
     heading:"Donald J. Trump – Sexual Type 8",
@@ -4895,7 +4895,7 @@ const KINDHEIT_EN = {
   8: {
     wunde: "The Trauma of the Unprotected Child Who Had to Become Strong Too Soon",
     zombie: "EIGHT had become a zombie – an energetic, unstoppable, unapproachable zombie, but a zombie nonetheless.",
-    text: "Once upon a time there was a person named EIGHT. He came into the world as a sensitive, alert child – curious, full of energy and naturally open to others. Like all children, he was at first completely innocent and vulnerable.\n\nBut early on he had to experience that no one was there when he needed protection. When older children hurt him, no one looked. When he needed help, he was left to cope alone. So he learned the hard way: I have to look after myself. No one comes. I have to be strong – and quickly.\n\nEIGHT developed his natural energy into strength. Anger became his tool: it made him seem bigger than he was. Over time he hardened. He lost access to his original softness. Innocence felt dangerous – it reminded him of how defenceless he had once been.\n\nAt some point he could no longer stop being strong. He had worn the mask of strength for so long that he had forgotten what lay beneath. Occasionally he sensed behind it a quiet loneliness and hidden sadness. But outwardly nothing could reach him – he had proved that again and again throughout his life.",
+    text: "Once upon a time there was a person named EIGHT. He came into the world as a sensitive, alert child – curious, full of energy and naturally open to others. Like all children, he was at first completely innocent and vulnerable.\n\nBut early on he had to experience that no one was there when he needed protection. When older children hurt him, no one looked. When he needed help, he was left to cope alone. So he learned the hard way: I have to look after myself. No one comes. I have to be strong – and quickly.\n\nEIGHT developed his natural energy into strength. Anger became his tool: it made him seem bigger than he was. Over time he hardened. He lost access to his original softness. Innocence felt dangerous – it reminded him of how defenceless he had once been.\n\nAt some point he could no longer stop being strong. He had worn the mask of strength for so long that he had forgotten what lay beneath. Occasionally he sensed behind it a quiet loneliness and hidden sadness. But outwardly nothing could reach him – he had proved that again and again his entire life.",
   },
   9: {
     wunde: "The Trauma of Invisibility and Lost Personal Will",
@@ -16070,7 +16070,7 @@ function robertSchumannPortraitPage() {
 
         <h2 class="vb-section">5. The Shadow: When Intensity Turns Against Oneself</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Schumann suffered throughout his life from severe mood swings that intensified dramatically in his final years &ndash; voices in his head, tormenting anxiety, the loss of the ability to think clearly. In February 1854, in a fit of utter despair, he left his house and jumped into the Rhine. Fishermen pulled him out, barely alive.</p>
+          <p class="vb-intro">Schumann suffered his whole life from severe mood swings that intensified dramatically in his final years &ndash; voices in his head, tormenting anxiety, the loss of the ability to think clearly. In February 1854, in a fit of utter despair, he left his house and jumped into the Rhine. Fishermen pulled him out, barely alive.</p>
           <p class="vb-intro">What happened afterward has rarely been documented as openly as in Schumann's case: he himself asked to be admitted to an asylum near Bonn &ndash; an act in which a last remnant of conscious control still lay over a situation that had long since spiraled out of control. He lived there for two years, largely isolated from Clara, whom he was allowed to see again only shortly before his death in 1856. Only the young Brahms, whom he had discovered three years earlier, visited him regularly and became the family's closest support during this time. That is the flip side of SX7w8: an intensity that knows no resistance can, when turned inward against oneself, become a undertow from which even the fighter in the Eight-wing can no longer find a way out.</p>
         </blockquote>
 
@@ -16208,7 +16208,7 @@ function shakiraPortraitPage() {
         <h2 class="vb-section">6. The Path of Healing: The Pain That Becomes a Dance</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Seven leads from scattering to sobriety &ndash; from the constant flight into the next intensity to the ability to stay present even in pain, without numbing it. For the SX7w8 this means using her own assertiveness not merely for self-defense, but transforming it into genuine creative expression.</p>
-          <p class="vb-intro">After separating from Piqué, Shakira did not process her pain through withdrawal, but through one of the most open albums of her career, “Las Mujeres Ya No Lloran” (2024) &ndash; a title that translates to “Women No Longer Cry.” The Chimpanzee, who spent her whole life seeking intensity, finds here the most mature expression of that gift: she turns what could break her, right before everyone's eyes, into rhythm, into movement, into strength that sweeps others along.</p>
+          <p class="vb-intro">After separating from Piqué, Shakira did not process her pain through withdrawal, but through one of the most open albums of her career, “Las Mujeres Ya No Lloran” (2024) &ndash; a title that translates to “Women No Longer Cry.” The Chimpanzee, who spent her entire life seeking intensity, finds here the most mature expression of that gift: she turns what could break her, right before everyone's eyes, into rhythm, into movement, into strength that sweeps others along.</p>
         </blockquote>
 
       </div>
@@ -17432,13 +17432,13 @@ function sokratesPortraitPage() {
         <h2 class="vb-section">1. The Lion Who Roused Athens</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>lion</strong> is the animal of Social Type 8 &ndash; a predator that does not deploy its strength for itself but in service of the pride. Socrates was born around 470 BC in Athens, the son of a stonemason, and as an adult served several times as a heavily armed hoplite in the Peloponnesian War &ndash; at Potidaea, Delium, and Amphipolis. Tradition holds that he saved the life of his younger comrade Alcibiades there, carrying him wounded from the battlefield, and on another occasion stood motionless in thought for a full day and night in the army camp, undeterred by ridicule or cold.</p>
-          <p class="vb-intro">This physical and mental unshakeability remained his trademark throughout his life: walking barefoot in winter, indifferent to comfort, incorruptible in his convictions. The lion does not withdraw when things grow uncomfortable &ndash; it holds its ground, for itself and for those entrusted to it.</p>
+          <p class="vb-intro">This physical and mental unshakeability remained his trademark his entire life: walking barefoot in winter, indifferent to comfort, incorruptible in his convictions. The lion does not withdraw when things grow uncomfortable &ndash; it holds its ground, for itself and for those entrusted to it.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Social Eight: Solidarity With the Polis</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Naranjo called <strong>Social Eight (SO8)</strong> <em>Solidarity</em>: it places its strength in the service of the community, not in the service of its own safety or a single relationship. In Socrates this shows most clearly in the dialogue "Crito": after he was sentenced to death in 399 BC, his wealthy friend Crito offered him escape from prison, complete with ready plans and bribed guards. Socrates refused.</p>
-          <p class="vb-intro">His reasoning was no resignation but a radical loyalty to the order that had raised him: whoever has profited their whole life from the laws of Athens &ndash; education, protection, citizenship &ndash; may not evade them the moment they turn unfavorable, even if the verdict was unjust. This is Social Eight in its most uncompromising form: solidarity not only with the people one loves, but with the community itself, whatever the cost.</p>
+          <p class="vb-intro">His reasoning was no resignation but a radical loyalty to the order that had raised him: whoever has profited throughout their life from the laws of Athens &ndash; education, protection, citizenship &ndash; may not evade them the moment they turn unfavorable, even if the verdict was unjust. This is Social Eight in its most uncompromising form: solidarity not only with the people one loves, but with the community itself, whatever the cost.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Seven-Wing: Appetite for the Full Life</h2>
@@ -17990,7 +17990,7 @@ function teresaVonAvilaPortraitPage() {
         <h2 class="vb-section">5. Energetic Effect: Speed in the Service of Renewal</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Teresa's effect on her contemporaries was marked by nearly unstoppable momentum: she founded, negotiated, wrote letters to kings and bishops, and kept traveling even when feverish and exhausted. Contemporaries described a woman of sharp intellect, practical organizational talent, and a dry, often self-deprecating humor &ndash; no distant saint, but an energetic reformer who overcame resistance with the same determination she applied to physical obstacles.</p>
-          <p class="vb-intro">And yet: behind this momentum lay the long shadow of the Three, the passion of <strong>vanity</strong> &ndash; not in the sense of ostentation, but as the constant need to prove one's own work orthodox, successful, unimpeachable. Teresa had to prove, her whole life long, that she was no fraud, no heretic, none of the numerous <em>alumbradas</em> the Inquisition pursued in those decades. Whether she would have found the same clarity about her own inner world without this constant pressure to justify herself remains an open question.</p>
+          <p class="vb-intro">And yet: behind this momentum lay the long shadow of the Three, the passion of <strong>vanity</strong> &ndash; not in the sense of ostentation, but as the constant need to prove one's own work orthodox, successful, unimpeachable. Teresa had to prove, her entire life, that she was no fraud, no heretic, none of the numerous <em>alumbradas</em> the Inquisition pursued in those decades. Whether she would have found the same clarity about her own inner world without this constant pressure to justify herself remains an open question.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gift: A Language for the Innermost Self</h2>
@@ -18113,7 +18113,7 @@ function seanConneryPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the social Three a depth that goes beyond pure image &ndash; the desire to be perceived as a distinct, unmistakable individual, not only as a role. This tension defined Connery&#39;s entire career: he played Bond with a precision that turned the character into an icon &ndash; and simultaneously fought throughout his life not to be reduced to it.</p>
           <p class="vb-intro">Publicly, Connery remained remarkably closed off. Hardly any home stories, hardly any revelations about his private life, a notoriously brief relationship with the press. The Four-wing demands authenticity &ndash; but not at the cost of control over one&#39;s own image. What he did reveal was carefully chosen: his passionate Scottish identity, his commitment to the Scottish National Party, his love of golf. Everything else stayed hidden behind the same unwavering, calm authority.</p>
-          <p class="vb-intro">This Scottish identity was no side matter for Connery, but the authentic core beneath the international image: despite world fame and residences in Spain and the Bahamas, he remained throughout his life a declared Scottish nationalist who donated millions to the independence movement. The Four-wing preserved this one place where the image and the person remained identical.</p>
+          <p class="vb-intro">This Scottish identity was no side matter for Connery, but the authentic core beneath the international image: despite world fame and residences in Spain and the Bahamas, he remained his entire life a declared Scottish nationalist who donated millions to the independence movement. The Four-wing preserved this one place where the image and the person remained identical.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Break with Bond: Reinvention as Necessity</h2>
@@ -18762,7 +18762,7 @@ function samuelHahnemannPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-wing: The Patience That Let a System Mature</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the pure One a balancing calm and persistence &ndash; the ability not to force a conviction through in a burst, but to work it out over decades with painstaking thoroughness, testing, refining. This is exactly what characterizes Hahnemann&#39;s life work: from the first insight in 1790 to the sixth and final, posthumously published edition of his major work, the <em>Organon of the Healing Art</em>, more than fifty years of relentless refinement passed. Not a doctrine he proclaimed once and then defended, but a system he kept developing, correcting, and sharpening throughout his life.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the pure One a balancing calm and persistence &ndash; the ability not to force a conviction through in a burst, but to work it out over decades with painstaking thoroughness, testing, refining. This is exactly what characterizes Hahnemann&#39;s life work: from the first insight in 1790 to the sixth and final, posthumously published edition of his major work, the <em>Organon of the Healing Art</em>, more than fifty years of relentless refinement passed. Not a doctrine he proclaimed once and then defended, but a system he kept developing, correcting, and sharpening his whole life.</p>
           <p class="vb-intro">This patient systematics also shows in his working method: Hahnemann first tested every new remedy on himself and on healthy colleagues &ndash; the so-called &bdquo;drug provings&ldquo; &ndash; before ever giving it to a patient. A methodological rigor decades ahead of its time, one hardly conceivable without the calm, thorough Nine-wing.</p>
         </blockquote>
 
@@ -19320,7 +19320,7 @@ function leonardBernsteinPortraitPage() {
 
         <h2 class="vb-section">2. Sexual Seven: Intensity Through Variety</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sexual Seven (SX7)</strong> seeks intensity not in calm overview but in passionate encounter with ever-new projects. Bernstein refused throughout his life to be pinned to a single artistic role: he was simultaneously the celebrated music director of the New York Philharmonic (1958&ndash;1969, the first American-born conductor to lead a major American orchestra), composer of Broadway musicals such as "West Side Story" and "Candide," symphonist with works such as the "Jeremiah" and "Kaddish" symphonies, sought-after concert pianist, and television host.</p>
+          <p class="vb-intro">The <strong>sexual Seven (SX7)</strong> seeks intensity not in calm overview but in passionate encounter with ever-new projects. Bernstein refused his entire life to be pinned to a single artistic role: he was simultaneously the celebrated music director of the New York Philharmonic (1958&ndash;1969, the first American-born conductor to lead a major American orchestra), composer of Broadway musicals such as "West Side Story" and "Candide," symphonist with works such as the "Jeremiah" and "Kaddish" symphonies, sought-after concert pianist, and television host.</p>
           <p class="vb-intro">This variety was not dispersal for him but the natural expression of his capacity for enthusiasm: serious music and popular culture, the concert hall and the Broadway stage did not exist in separate worlds for Bernstein. This is exactly Sexual Seven: not mastering the one passion perfectly, but fully living through as many intense experiences as possible.</p>
         </blockquote>
 
@@ -19333,7 +19333,7 @@ function leonardBernsteinPortraitPage() {
         <h2 class="vb-section">4. The Passion: Gluttony Between the Stage and Doubt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The passion of the Seven is called <strong>gluttony</strong> or <strong>excess</strong> &ndash; the insatiable hunger for more. In Bernstein this showed in an almost limitless workload: conducting, composing, teaching, public political engagement &ndash; often all at once, accompanied by excessive smoking (four packs of cigarettes a day) and heavy drinking. In 1970 he hosted a now-notorious fundraiser for the Black Panther movement at his New York apartment &ndash; an event the journalist Tom Wolfe satirized as "radical chic" and that exposed Bernstein to massive public criticism.</p>
-          <p class="vb-intro">Behind this excess, however, lay a deep, never fully settled insecurity: Bernstein doubted throughout his life whether he had achieved enough as a serious composer, because his time as a conductor took up so much space. This worry about missing one's own "true" calling is typical of the Six-wing: never quite certain whether one's own effort is enough to be truly recognized.</p>
+          <p class="vb-intro">Behind this excess, however, lay a deep, never fully settled insecurity: Bernstein doubted his whole life whether he had achieved enough as a serious composer, because his time as a conductor took up so much space. This worry about missing one's own "true" calling is typical of the Six-wing: never quite certain whether one's own effort is enough to be truly recognized.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow</h2>
@@ -19386,7 +19386,7 @@ function nicolasCagePortraitPage() {
         <h2 class="vb-section">2. The Self-Preservation Four: The Quiet Struggle for One's Own Survival</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation Four (SE4)</strong> differs from the other Four subtypes in that it does not carry its suffering outward but bears it rather stoically &ndash; telling itself: "I suffer better than you, so I don't deserve to complain." This concealed intensity shows in Cage's total commitment to every role: for "Leaving Las Vegas" (1995), for which he won the Academy Award for Best Actor, he spent weeks in excessive alcohol consumption to authentically embody the physical and psychological destruction of his character, a drinking screenwriter.</p>
-          <p class="vb-intro">Privately, too, Cage mostly carried his suffering in hiding: after the death of his mother, who suffered from severe psychiatric illness throughout her life, he rarely spoke publicly about the family burden this brought with it. This quiet, almost ascetic form of suffering is the signature of the self-preservation Four &ndash; the feeling is real and deep, but it is not put on display, instead channeled into one's own work.</p>
+          <p class="vb-intro">Privately, too, Cage mostly carried his suffering in hiding: after the death of his mother, who suffered from severe psychiatric illness her whole life, he rarely spoke publicly about the family burden this brought with it. This quiet, almost ascetic form of suffering is the signature of the self-preservation Four &ndash; the feeling is real and deep, but it is not put on display, instead channeled into one's own work.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three-Wing: The Stage as a Survival Strategy</h2>
@@ -19925,7 +19925,7 @@ function udoJuergensPortraitPage() {
         <h2 class="vb-section">3. The Two-Wing: Warmth in Service of the Audience</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the strict One a warm, engaged, almost caring quality &ndash; perfection is not displayed coldly but placed in service of an emotional connection to the audience. Jürgens's songs &ndash; from "Griechischer Wein" (1974) to "Mit 66 Jahren" (1977) &ndash; told of longing, everyday people, migration, and the dignity of aging, always with a palpable affection for the people he sang about.</p>
-          <p class="vb-intro">This caring core also showed in his social engagement: Jürgens founded the Udo Jürgens Foundation in 1989 to support children in need, and dedicated himself throughout his life to social and political causes, for example with the song "Der ganz normale Wahnsinn" (1996) about the challenges faced by single mothers. The Two-wing thus gave his disciplined One a purpose beyond pure artistic perfection: to move people and give them something.</p>
+          <p class="vb-intro">This caring core also showed in his social engagement: Jürgens founded the Udo Jürgens Foundation in 1989 to support children in need, and dedicated himself his whole life to social and political causes, for example with the song "Der ganz normale Wahnsinn" (1996) about the challenges faced by single mothers. The Two-wing thus gave his disciplined One a purpose beyond pure artistic perfection: to move people and give them something.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Six Decades on Stage</h2>
@@ -20501,7 +20501,7 @@ function buddhaPortraitPage() {
         <h2 class="vb-section">9. Legacy: 2,500 Years of Impact from a Withdrawal</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">For 45 years, from his enlightenment at 35 to his death at 80, Buddha wanders through northern India, teaches in countless one-to-one and small-group encounters, and lets a community emerge that still shapes over 500 million people today. Not a mass project from the outset &ndash; but the organic spread of what people sensed in him as depth and truthfulness, and wanted to connect with.</p>
-          <p class="vb-intro">His death, probably from food poisoning, occurs among his closest monks &ndash; no grand ending, but the final consequence of a life that was never oriented toward outward effect, but always toward the one unshakeable truth. The hedgehog that appeared spiny and unapproachable throughout his life &ndash; and whose innermost warmth, once opened, has not faded to this day.</p>
+          <p class="vb-intro">His death, probably from food poisoning, occurs among his closest monks &ndash; no grand ending, but the final consequence of a life that was never oriented toward outward effect, but always toward the one unshakeable truth. The hedgehog that appeared spiny and unapproachable his whole life &ndash; and whose innermost warmth, once opened, has not faded to this day.</p>
         </blockquote>
 
       </div>
@@ -20904,7 +20904,7 @@ function danteAlighieriPortraitPage() {
 
         <h2 class="vb-section">2. Sexual Four: Beatrice and Rivalry With His Own City</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sexual Four (SX4)</strong> carries the Four's pain outward &ndash; as intensity, as longing, as rivalry against everything that denies its own truth. Naranjo called this subtype <em>rivalry</em>: the burning conviction that something essential is being withheld, combined with the drive to stand against it. Dante's love for Beatrice Portinari, whom he first saw at age nine and encountered again at eighteen, remained largely unfulfilled his whole life &ndash; Beatrice married another man and died in 1290 at only 24. In "La Vita Nuova," Dante turned this longing into one of the most intense love poems of the Middle Ages.</p>
+          <p class="vb-intro">The <strong>sexual Four (SX4)</strong> carries the Four's pain outward &ndash; as intensity, as longing, as rivalry against everything that denies its own truth. Naranjo called this subtype <em>rivalry</em>: the burning conviction that something essential is being withheld, combined with the drive to stand against it. Dante's love for Beatrice Portinari, whom he first saw at age nine and encountered again at eighteen, remained largely unfulfilled throughout his life &ndash; Beatrice married another man and died in 1290 at only 24. In "La Vita Nuova," Dante turned this longing into one of the most intense love poems of the Middle Ages.</p>
           <p class="vb-intro">The same intensity turned against his political enemies: in the "Divine Comedy," Dante placed numerous real contemporaries &ndash; political rivals, corrupt popes, traitors of his own party &ndash; by name, in precisely defined circles of Hell, with precisely measured torments for their respective crimes. This is SX4 at its sharpest: the personal pain of exile is not repressed but transformed into a literary tribunal meant to outlast his own lifetime &ndash; and it has.</p>
         </blockquote>
 
@@ -21000,7 +21000,7 @@ function marquisDeSadePortraitPage() {
 
         <h2 class="vb-section">6. The Chihuahua Who Gave Posterity His Name</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Four leads from the question <em>Why am I not like the others, why am I withheld what is mine?</em> to the insight that one&#39;s own intensity need not be turned against others to be real. In Sade, this path remained unfinished throughout his life &ndash; his rivalry against convention barely knew a more mature, integrated form.</p>
+          <p class="vb-intro">The healing path of the Four leads from the question <em>Why am I not like the others, why am I withheld what is mine?</em> to the insight that one&#39;s own intensity need not be turned against others to be real. In Sade, this path remained unfinished his entire life &ndash; his rivalry against convention barely knew a more mature, integrated form.</p>
           <p class="vb-intro">Sade died in 1814 at the Charenton asylum, where he spent his final years and even staged plays with fellow patients &ndash; to the end unable and unwilling to fit into a role imposed on him. His name became the generic term &bdquo;sadism&ldquo; &ndash; a word that still exists today because one chihuahua refused to ever make his desire, his thinking, and his rage smaller than they were.</p>
         </blockquote>
 
@@ -21592,7 +21592,7 @@ function neilArmstrongPortraitPage() {
 
         <h2 class="vb-section">3. The Seven Wing: The Courage of the Adventurer</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The small word "a" before "man" had been lost in the radio static—and Armstrong later insisted he had said it. Without the "a," the sentence lacks a logical contrast: "man" is then synonymous with "mankind." With the "a," however, he meant the individual human being—and precisely that was Armstrong: an individual human being who went for everyone. He clarified this distinction his entire life. That is the SE6: precision in language, correctness as a value.</p>
+          <p class="vb-intro">The small word "a" before "man" had been lost in the radio static—and Armstrong later insisted he had said it. Without the "a," the sentence lacks a logical contrast: "man" is then synonymous with "mankind." With the "a," however, he meant the individual human being—and precisely that was Armstrong: an individual human being who went for everyone. He clarified this distinction his whole life. That is the SE6: precision in language, correctness as a value.</p>
           <p class="vb-intro">Upon his return, he was showered with parades and receptions. Afterward, he taught aerospace engineering at the University of Cincinnati—for eight years, quietly, reliably, without a fuss. Then he returned to his farm in Ohio.</p>
           <p class="vb-intro">The shadow: The SE6 can freeze in its tendency toward retreat. After the moon landing, Armstrong became so quiet that some wondered if he was depressed. He spoke scarcely about the experience—not because it had not touched him, but because he found no words for it that did justice to reality. A single time, in an interview shortly before his death, he confessed: "It was the greatest experience of my life. And to the present day I cannot truly explain it." That is the SE6: what is too big for words remains within.</p>
         </blockquote>
@@ -22579,7 +22579,7 @@ function arminRohdePortraitPage() {
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that does not leave its territory because it is rooted there, not because it is trapped there. It knows every stone on the bank, every current, every neighbor in the same water &ndash; and it draws its strength from exactly this deep familiarity with its own origin, not from distance or unfamiliar ground.</p>
-          <p class="vb-intro">Armin Rohde, born in 1955 in Herne in Germany's Ruhr region, has stayed true to this origin his entire life and throughout his entire career. Even after decades as one of Germany's best-known actors, he still describes himself unchanged as a child of the Ruhrpott, speaks openly in his native dialect, and has never treated his origins as something to shed once fame arrived. The Hippopotamus stays in its water &ndash; and becomes unmistakable precisely because of it.</p>
+          <p class="vb-intro">Armin Rohde, born in 1955 in Herne in Germany's Ruhr region, has stayed true to this origin throughout his life and throughout his entire career. Even after decades as one of Germany's best-known actors, he still describes himself unchanged as a child of the Ruhrpott, speaks openly in his native dialect, and has never treated his origins as something to shed once fame arrived. The Hippopotamus stays in its water &ndash; and becomes unmistakable precisely because of it.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Two: Groundedness as a Principle of Care</h2>
@@ -22836,7 +22836,7 @@ function franzSchubertPortraitPage() {
 
         <h2 class="vb-section">1. The Rabbit Who Was at Home Among Friends</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>rabbit</strong> is the animal of Self-Preservation Type 6 &ndash; watchful, endearing, adaptable. It seeks safety not on the grand stage, but in the familiar burrow, in a close circle, among faces it knows. Few composers in music history embody this pattern as clearly as Franz Schubert, who avoided the public concert hall throughout his life and found his true home in the private circle of close friends.</p>
+          <p class="vb-intro">The <strong>rabbit</strong> is the animal of Self-Preservation Type 6 &ndash; watchful, endearing, adaptable. It seeks safety not on the grand stage, but in the familiar burrow, in a close circle, among faces it knows. Few composers in music history embody this pattern as clearly as Franz Schubert, who avoided the public concert hall his entire life and found his true home in the private circle of close friends.</p>
           <p class="vb-intro">Born in 1797 in the Viennese suburb of Himmelpfortgrund, the son of a schoolmaster, one of more than twenty children, most of whom died young, Schubert grew up in modest but musically formative circumstances. His extraordinary talent was already noticed as a choirboy at the Vienna Hofkapelle &ndash; yet unlike Beethoven's (SX6w5) self-assured public presence, the young Schubert never sought confrontation with the musical public, preferring quiet, persistent composing in the background.</p>
         </blockquote>
 
@@ -22867,7 +22867,7 @@ function franzSchubertPortraitPage() {
         <h2 class="vb-section">6. The Rabbit Who Turned Longing into Music</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Six's path of healing leads from paralyzing fear to <strong>courage</strong> &ndash; not the absence of fear, but the ability to keep creating despite it. Schubert composed until just days before his death, including his last three piano sonatas and the String Quintet in C major, works of overwhelming maturity and depth, created with full awareness of his own mortality.</p>
-          <p class="vb-intro">He died in Vienna in 1828 at only 31 years of age, most likely from the effects of syphilis treatment or from typhoid fever. At his own request, he was buried near Beethoven, whom he had revered throughout his life. Only decades later, when Robert Schumann (SX7w8) discovered the score of the "Great C major Symphony" among Schubert's brother's papers in 1839 and brought it to performance, did the world begin to understand what treasure the shy composer had created in obscurity. The rabbit who never sought the grand stage had left posterity a body of work that still moves us today, precisely because it was never about effect, but always about truthfulness.</p>
+          <p class="vb-intro">He died in Vienna in 1828 at only 31 years of age, most likely from the effects of syphilis treatment or from typhoid fever. At his own request, he was buried near Beethoven, whom he had revered his whole life. Only decades later, when Robert Schumann (SX7w8) discovered the score of the "Great C major Symphony" among Schubert's brother's papers in 1839 and brought it to performance, did the world begin to understand what treasure the shy composer had created in obscurity. The rabbit who never sought the grand stage had left posterity a body of work that still moves us today, precisely because it was never about effect, but always about truthfulness.</p>
         </blockquote>
 
       </div>
@@ -22905,7 +22905,7 @@ function fjodorDostojewskiPortraitPage() {
         <h2 class="vb-section">1. The Rabbit Who Looked Death in the Face</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>rabbit</strong> is the animal of the self-preservation Six &ndash; watchful, endearing, adaptable. It does not run toward confrontation. It listens before it moves. It seeks security in closeness, in bonds, in what is familiar &ndash; and remains remarkably functional even in extreme situations, because it has already calculated the danger long before it arrives.</p>
-          <p class="vb-intro">Fyodor Mikhailovich Dostoevsky was born in 1821 in Moscow, the son of a military doctor who is said to have been murdered by his own serfs when Fyodor was 17 &ndash; an event that hung over him like a shadow for the rest of his life. From a young age he suffered from epilepsy, a condition that accompanied him throughout his life and which he later worked into several of his characters.</p>
+          <p class="vb-intro">Fyodor Mikhailovich Dostoevsky was born in 1821 in Moscow, the son of a military doctor who is said to have been murdered by his own serfs when Fyodor was 17 &ndash; an event that hung over him like a shadow for the rest of his life. From a young age he suffered from epilepsy, a condition that accompanied him his entire life and which he later worked into several of his characters.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Mock Execution: Warmth as a Survival Strategy</h2>
@@ -23182,7 +23182,7 @@ function wolfgangAmadeusMozartPortraitPage() {
         <h2 class="vb-section">3. The Three-Wing: Proof on the Stage</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two a hunger for visible, measurable success &ndash; the stage, the applause, the proof of one's own indispensability. In 1781 Mozart publicly broke with the Archbishop of Salzburg to establish himself as a freelance artist in Vienna &ndash; a gamble only someone confident in their own market value would take.</p>
-          <p class="vb-intro">In Vienna he organized his own subscription concerts, composed piano concertos at a relentless pace to perform as soloist himself, and sought throughout his life the most prestigious court appointment he could secure. The Three-wing of the SP2 asks not only "How do I secure survival?" but also "How do I prove I am the best?" &ndash; and Mozart proved it, work after work, often at dizzying speed. He is said to have written the overture to "Don Giovanni" the night before its premiere.</p>
+          <p class="vb-intro">In Vienna he organized his own subscription concerts, composed piano concertos at a relentless pace to perform as soloist himself, and sought his whole life the most prestigious court appointment he could secure. The Three-wing of the SP2 asks not only "How do I secure survival?" but also "How do I prove I am the best?" &ndash; and Mozart proved it, work after work, often at dizzying speed. He is said to have written the overture to "Don Giovanni" the night before its premiere.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Pride Between Genius and Existential Fear</h2>
@@ -24502,7 +24502,7 @@ function astridLindgrenPortraitPage() {
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; it circles high above the fray, sees with unusual clarity what unfolds below, and intervenes only when it truly matters. Not an animal of loud gestures, but of quiet, incorruptible precision. And when it spreads its wings, it carries further than almost any other creature.</p>
-          <p class="vb-intro">Astrid Lindgren, born in 1907 on the Näs farm near Vimmerby in the Swedish province of Småland, became the most-read Swedish author of all time &ndash; over 165 million books sold, translated into more than 100 languages. And yet she remained remarkably reserved throughout her life, almost invisible behind her own work. The Eagle need not circle constantly to be seen. It need only fly correctly once.</p>
+          <p class="vb-intro">Astrid Lindgren, born in 1907 on the Näs farm near Vimmerby in the Swedish province of Småland, became the most-read Swedish author of all time &ndash; over 165 million books sold, translated into more than 100 languages. And yet she remained remarkably reserved her whole life, almost invisible behind her own work. The Eagle need not circle constantly to be seen. It need only fly correctly once.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation One: Discipline as Daily Ritual</h2>
@@ -24772,7 +24772,7 @@ function javierParisiPortraitPage() {
         <h2 class="vb-section">2. The Social Four: Comparison as a Way of Life</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>social Four (SO4)</strong> carries the pain of the Four into the social dimension. Naranjo called this subtype <em>shame</em>: the deep feeling of not quite belonging &ndash; combined with an incessant comparing of oneself to others, in the hope of finally finding confirmation there. No other subtype lives the Four&#39;s passion &ndash; envy, measuring oneself against others &ndash; as directly as the SO4.</p>
-          <p class="vb-intro">In Parisi this comparison takes on an almost literal, hard-to-surpass form: he has oriented his entire life toward coming as close as possible to another person &ndash; in appearance, in voice, in gesture, in musical phrasing. As a child he discovered the Beatles at his parents&#39; house, began learning guitar at age eight and practicing English in order to understand the songs of his idols. What remains a passion for other fans became, for Parisi, a life&#39;s work: placing his own self beside a foreign one and standing his ground within that comparison.</p>
+          <p class="vb-intro">In Parisi this comparison takes on an almost literal, hard-to-surpass form: he has oriented his whole life toward coming as close as possible to another person &ndash; in appearance, in voice, in gesture, in musical phrasing. As a child he discovered the Beatles at his parents&#39; house, began learning guitar at age eight and practicing English in order to understand the songs of his idols. What remains a passion for other fans became, for Parisi, a life&#39;s work: placing his own self beside a foreign one and standing his ground within that comparison.</p>
           <p class="vb-intro">At twenty he founded his first Beatles tribute band with friends from his hometown &ndash; and made a decision that is characteristically SO4: it would not be enough to sound like the Beatles. One also had to look like them. The social Four seeks confirmation in the gaze of others &ndash; and Parisi found it by comparing and refining himself for so long that the comparison became indistinguishability.</p>
         </blockquote>
 
@@ -25248,7 +25248,7 @@ function freddieMercuryPortraitPage() {
         <h2 class="vb-section">4. Light and Shadow of the Sexual Four</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SX4 is its capacity for complete surrender &ndash; to art, to the person, to the moment. Freddie Mercury showed on stage something that most people will never experience: the state of complete presence. When he sang, he was not Farrokh Bulsara, not the boy from Zanzibar, not the outsider &ndash; he was simply there. Completely. That is the gift of the SX4: it gives everything, in every moment.</p>
-          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; the feeling that others were given something that one oneself lacks. In the SX4 this manifests as personal injury: <em>You have something I do not have. And that hurts.</em> Freddie Mercury carried this wound his whole life &ndash; the question of origin, belonging, sexual identity, of a place that truly felt like home. The stage was his home. What came behind it was often loneliness.</p>
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; the feeling that others were given something that one oneself lacks. In the SX4 this manifests as personal injury: <em>You have something I do not have. And that hurts.</em> Freddie Mercury carried this wound throughout his life &ndash; the question of origin, belonging, sexual identity, of a place that truly felt like home. The stage was his home. What came behind it was often loneliness.</p>
           <p class="vb-intro">The Three-wing brings the danger of self-dissolution in the role: when the stage is the only home, where is one when the stage is empty? Freddie Mercury never quite answered this question &ndash; and the excesses of the late 1970s speak of a person who, away from the spotlight, did not always know where he was.</p>
         </blockquote>
 
@@ -25548,7 +25548,7 @@ function franzKafkaPortraitPage() {
 
         <h2 class="vb-section">2. Self-Preservation Five: The Castle of Duty and Retreat</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo called the <strong>self-preservation Five (SP5)</strong> <em>Castle</em>: one's own territory becomes a fortress that limits the world's access as much as possible. Kafka lived in his parents' house until shortly before his death, with his own strictly guarded room as his final retreat &ndash; an arrangement outwardly dependent, but inwardly precisely controlled. He carried out his office duties with conspicuous diligence and thoroughness, even though he experienced this work throughout his life as theft from his real, literary existence.</p>
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Five (SP5)</strong> <em>Castle</em>: one's own territory becomes a fortress that limits the world's access as much as possible. Kafka lived in his parents' house until shortly before his death, with his own strictly guarded room as his final retreat &ndash; an arrangement outwardly dependent, but inwardly precisely controlled. He carried out his office duties with conspicuous diligence and thoroughness, even though he experienced this work his entire life as theft from his real, literary existence.</p>
           <p class="vb-intro">The passion of the Five is <strong>avarice</strong> &ndash; hoarding energy and time so nothing is lost before it has been fully thought through. Kafka published only a fraction of his work during his lifetime and repeatedly said his texts were unfinished, not good enough, not ready for the public. Shortly before his death, he asked his friend Max Brod to burn all his unpublished manuscripts &ndash; including "The Trial" and "The Castle" &ndash; unread. Brod defied this final instruction and published the works instead. The SP5's castle shows itself here in its most radical form: destroying one's own life's work rather than exposing it to the world unfinished.</p>
         </blockquote>
 
@@ -25608,7 +25608,7 @@ function billGatesPortraitPage() {
         <h2 class="vb-section">1. The Octopus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Octopus</strong> is the animal of the Social Type 5 &ndash; intelligent, adaptable, reaching simultaneously in all directions with eight arms. It is not an animal of open confrontation. It camouflages itself. It waits. It encircles its target before the target has noticed that it is being encircled. And when it grips, it does so with a force that could not have been guessed from the outside.</p>
-          <p class="vb-intro">Bill Gates is this Octopus &ndash; and that is not a compliment. It is a description. One of the wealthiest people in the world, founder of Microsoft, today known as a philanthropist. But behind the friendly sweater and the modest manner lies a pattern that runs through his entire life: the systematic control over what others need. And the unshakeable belief that he should be the one who decides how it is used.</p>
+          <p class="vb-intro">Bill Gates is this Octopus &ndash; and that is not a compliment. It is a description. One of the wealthiest people in the world, founder of Microsoft, today known as a philanthropist. But behind the friendly sweater and the modest manner lies a pattern that runs through his whole life: the systematic control over what others need. And the unshakeable belief that he should be the one who decides how it is used.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Five: The Totem as Instrument of Power</h2>
@@ -25962,7 +25962,7 @@ function ludwigVanBeethovenPortraitPage() {
 
         <h2 class="vb-section">6. The Legacy: The Ninth, Composed in Complete Silence</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In 1824, at the premiere of his Ninth Symphony with its world-famous <em>Ode to Joy</em>, Beethoven was already completely deaf. Legend has it that a singer had to turn him by the sleeve so he could at least see the audience's thunderous applause &ndash; he could not hear it. A man who could no longer perceive music had just created one of the most significant works in music history, a hymn to universal brotherhood, composed from the deepest interior of a man who himself remained isolated throughout his life.</p>
+          <p class="vb-intro">In 1824, at the premiere of his Ninth Symphony with its world-famous <em>Ode to Joy</em>, Beethoven was already completely deaf. Legend has it that a singer had to turn him by the sleeve so he could at least see the audience's thunderous applause &ndash; he could not hear it. A man who could no longer perceive music had just created one of the most significant works in music history, a hymn to universal brotherhood, composed from the deepest interior of a man who himself remained isolated his entire life.</p>
           <p class="vb-intro">This is SX6w5 at its fullest expression: a threat that would have silenced anyone else became the starting point for music that still tears down walls between people today. The wolf who defied his own deafness left posterity not surrender, but a defiance that became joy.</p>
         </blockquote>
 
@@ -25972,7 +25972,7 @@ function ludwigVanBeethovenPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5) \u2013 who revered him throughout his life"},
+        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5) \u2013 who revered him his whole life"},
         {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8)"},
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) \u2013 whom he may have played for"},
         {route:"beruehmte-johann-sebastian-bach", label:"Portrait: Johann Sebastian Bach (SX1w9)"},
@@ -27600,13 +27600,13 @@ function davidHumePortraitPage() {
         <h2 class="vb-section">3. The Eight-wing: The Courage of Radical Doubt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the self-preservation Nine a strength that is barely visible from outside until its consequences become clear: the willingness to think a position through to its radical end, without flinching from the world&#39;s reaction. A pure SP9 might simply avoid conflict. The SP9w8 draws the consequence &ndash; calmly, but unwaveringly.</p>
-          <p class="vb-intro">Hume held a consistent religious skepticism that cost him the coveted professorships at Edinburgh and Glasgow throughout his life &ndash; church objections blocked both appointments. His work <em>Dialogues Concerning Natural Religion</em>, which systematically dismantles the classical proofs of God, he had published only after his death out of caution &ndash; not out of cowardice, but the Eight-wing&#39;s cool calculation: the fight isn&#39;t worth having until you can win it. You wait for the right moment.</p>
+          <p class="vb-intro">Hume held a consistent religious skepticism that cost him the coveted professorships at Edinburgh and Glasgow his entire life &ndash; church objections blocked both appointments. His work <em>Dialogues Concerning Natural Religion</em>, which systematically dismantles the classical proofs of God, he had published only after his death out of caution &ndash; not out of cowardice, but the Eight-wing&#39;s cool calculation: the fight isn&#39;t worth having until you can win it. You wait for the right moment.</p>
           <p class="vb-intro">This mixture of agreeableness and unshakeable conviction also showed in his 1766 friendship with the French philosopher Jean-Jacques Rousseau, whom Hume brought from France to England after Rousseau faced political persecution. Rousseau, increasingly paranoid, turned against Hume and publicly accused him of conspiracy. Hume did not respond with a counterattack, but with a measured, widely circulated written defense across Europe &ndash; the Nine stays calm, but the Eight-wing defends its reputation with all necessary force.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Turtle Soup: Pleasure Without Dogma</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Hume was known throughout his life for his love of good food &ndash; especially his fondness for turtle soup, an elaborate delicacy in the 18th century that he regularly had served at social dinners in Edinburgh. There is a fitting coincidence in the fact that the turtle &ndash; in some Enneagram traditions itself a possible animal correspondence for Type 9 &ndash; became his favorite dish: unhurried, armored, unshakeable in its own pace, much like the elephant, only smaller.</p>
+          <p class="vb-intro">Hume was known his whole life for his love of good food &ndash; especially his fondness for turtle soup, an elaborate delicacy in the 18th century that he regularly had served at social dinners in Edinburgh. There is a fitting coincidence in the fact that the turtle &ndash; in some Enneagram traditions itself a possible animal correspondence for Type 9 &ndash; became his favorite dish: unhurried, armored, unshakeable in its own pace, much like the elephant, only smaller.</p>
           <p class="vb-intro">This love of sensory pleasure was not a contradiction of his philosophy but its practical consequence: whoever doubts ultimate certainties can turn all the more freely toward what is good in this life. Hume rejected asceticism in any form and lived what he thought &ndash; a skeptic who, despite all his doubt, was a deeply contented, sociable man.</p>
         </blockquote>
 
@@ -27818,7 +27818,7 @@ function hermannHessePortraitPage() {
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of SP5w6 shows in the clarity and honesty of Hesse's self-observation: scarcely any writer has described the inner conflict of the modern person so precisely and without embellishment. His books became cult works for entire generations &ndash; from the German youth movement of the 1920s to the American counterculture of the 1960s &ndash; precisely because they gave a language to the feeling of not belonging, without romanticizing it.</p>
-          <p class="vb-intro">The shadow lies in the price of this retreat: Hesse's first marriage to Maria Bernoulli broke apart in part because of his inability to bear lasting closeness; his relationship with his three sons remained distant throughout his life. Migraines, eye ailments, and recurring depressive crises accompanied him his whole life &ndash; the castle protected him from the world, but it could not dissolve his own inner unrest, only provide a frame within which he could work through it in writing.</p>
+          <p class="vb-intro">The shadow lies in the price of this retreat: Hesse's first marriage to Maria Bernoulli broke apart in part because of his inability to bear lasting closeness; his relationship with his three sons remained distant throughout his life. Migraines, eye ailments, and recurring depressive crises accompanied him his entire life &ndash; the castle protected him from the world, but it could not dissolve his own inner unrest, only provide a frame within which he could work through it in writing.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Owl Who Stayed in the Garden to the End</h2>
@@ -27859,7 +27859,7 @@ function adamSmithPortraitPage() {
         <h2 class="vb-section">1. The Goose Who Designed a Moral Order</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; watchful, principled, incorruptible in its sense of right and wrong. It doesn&#39;t fly for itself alone: it holds the formation together and watches over the rules that keep the common good intact.</p>
-          <p class="vb-intro">Adam Smith was born in 1723 in Kirkcaldy, Scotland, a few months after his father&#39;s death. He was raised by his mother, to whom he remained closely bound throughout his life, studied at Glasgow and Oxford, and became a professor of logic in 1751 and of moral philosophy the following year, in Glasgow. Contemporaries described him as absent-minded, modest, almost shy in person &ndash; and at the same time as one of the sharpest observers of human behavior of his age.</p>
+          <p class="vb-intro">Adam Smith was born in 1723 in Kirkcaldy, Scotland, a few months after his father&#39;s death. He was raised by his mother, to whom he remained closely bound his whole life, studied at Glasgow and Oxford, and became a professor of logic in 1751 and of moral philosophy the following year, in Glasgow. Contemporaries described him as absent-minded, modest, almost shy in person &ndash; and at the same time as one of the sharpest observers of human behavior of his age.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social One: Justice as a Principle of Order</h2>
@@ -30717,7 +30717,7 @@ function soerenKierkegaardPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> directs the Two's energy first toward its own foundation of existence &ndash; Naranjo called this subtype <em>Me First</em>, not in the egotistical but in the existential sense: before I can care for others, I must know how I myself survive. Kierkegaard's entire philosophical project can be read as exactly this question, thought through radically: how does a single human being actually live, in the face of anxiety, guilt, and the necessity of choosing oneself?</p>
           <p class="vb-intro">His central concept, "the single individual" (den Enkelte), places one's own, irreplaceable existence radically at the center &ndash; against the anonymity of the crowd, against Hegel's abstract system, which for Kierkegaard explained everything except what mattered most: how a concrete person actually has to live their own life. His meticulous, often daily journals &ndash; tens of thousands of pages &ndash; are the record of an SP2 who had to name her own inner reality as precisely as possible in order to endure it at all.</p>
-          <p class="vb-intro">The SP2 has also been described as the "child in adult's clothing" &ndash; an image that fits Kierkegaard with striking precision. Behind the stern, often gloomy-seeming thinker lay a man who remained shaped throughout his life by the fear and vulnerability of his childhood: readers of his journals repeatedly meet a wounded self searching for footing beneath the philosophical armor &ndash; the child who had learned, in a household steeped in guilt and dread, to appear grown-up early, without ever quite becoming so on the inside.</p>
+          <p class="vb-intro">The SP2 has also been described as the "child in adult's clothing" &ndash; an image that fits Kierkegaard with striking precision. Behind the stern, often gloomy-seeming thinker lay a man who remained shaped his whole life by the fear and vulnerability of his childhood: readers of his journals repeatedly meet a wounded self searching for footing beneath the philosophical armor &ndash; the child who had learned, in a household steeped in guilt and dread, to appear grown-up early, without ever quite becoming so on the inside.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One-Wing: The Attack Upon Christendom</h2>
@@ -32754,7 +32754,7 @@ function astrologieRomySchneiderPage() {
       <p class="vb-intro"><strong>Aquarius MC:</strong> The life goal called upon her to stage her personal power as a visionary leading figure on a wide stage.</p>
     </div>
     <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Conclusion:</strong> Libra Sun and Moon in the 4th House, in combination with the social Four, made her a vulnerable seismograph who had to emancipate herself from familial bonds throughout her life. The Scorpio Venus in the 5th House and the Three wing provided the fuel to transform inner pain into legendary film roles.</p>
+      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Conclusion:</strong> Libra Sun and Moon in the 4th House, in combination with the social Four, made her a vulnerable seismograph who had to emancipate herself from familial bonds her entire life. The Scorpio Venus in the 5th House and the Three wing provided the fuel to transform inner pain into legendary film roles.</p>
     </div>`
   );
 }
@@ -33245,7 +33245,7 @@ function ronnieBiggsPortraitPage() {
         the sheer boldness of the leap. But what remains once the legend has
         finally been told to its end? Biggs' voluntary return in 2001 and
         his quiet death in 2013 answer that question only partly – the last
-        great appearance of a man who spent his whole life seeking the stage.</p>
+        great appearance of a man who spent his entire life seeking the stage.</p>
       </div>
 
       ${relatedLinks([
@@ -35701,7 +35701,7 @@ function samuelBankmanFriedPortraitPage() {
         <p class="vb-intro"><strong>c) Disintegration into Nine:</strong> The stress point of the Three is Nine: withdrawal, numbing, inaction. Bankman-Fried showed during the trial and in interviews a peculiar composure that unsettled observers — no dramatic remorse, no breakdown, an almost passive acceptance. This is the Three in disintegration: when success is no longer possible, it shuts down.</p>
         <p class="vb-intro"><strong>d) Comparison with Ruja Ignatova (SP3w4):</strong> Both are Self-Preservation Threes with a Four-wing, both active in the crypto space, both with a narrative wrapper around their misdeeds: Ignatova as the "Cryptoqueen," Bankman-Fried as the altruist. The crucial difference lies in the response to the collapse: Ignatova disappeared — consistent flight, radical withdrawal. Bankman-Fried stayed, gave interviews, explained himself — to the last, remaining within the Three pattern of self-management through self-presentation.</p>
         <p class="vb-intro"><strong>e) Effective Altruism as a Three Strategy:</strong> The EA (Effective Altruism) movement offers a rational, measurable ethics — exactly what appeals to the Three: not an unstructured morality, but efficiency as the standard. Bankman-Fried used this framing not only as outward legitimation, but possibly also as an internal calming system: the end justifies the means — provided the end is large enough and calculated precisely enough.</p>
-        <p class="vb-intro"><strong>f) The Verdict and the Three:</strong> 25 years in prison means the end of the stage — of the market, the startup, the conferences, the interviews. For a Three, the fading of external resonance is a punishment deeper than the deprivation of liberty itself. What Bankman-Fried is after this, who he is without an audience and without a record of achievement, is the real question — the question from which the Three flees all their life.</p>
+        <p class="vb-intro"><strong>f) The Verdict and the Three:</strong> 25 years in prison means the end of the stage — of the market, the startup, the conferences, the interviews. For a Three, the fading of external resonance is a punishment deeper than the deprivation of liberty itself. What Bankman-Fried is after this, who he is without an audience and without a record of achievement, is the real question — the question from which the Three flees their entire life.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -37083,7 +37083,7 @@ function andrewCunananPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Versace and the Stage</h3>
         <p class="vb-intro">The choice of Gianni Versace as the final victim is psychologically revealing. Versace was everything Cunanan pretended to be: rich, world-famous, celebrated in the right circles, a person whose face was known worldwide. Whether Cunanan knew him personally is disputed — there are hints of brief encounters in clubs, but no documented relationship. What Cunanan chose was not a personal enemy. It was a symbol.</p>
-        <p class="vb-intro">An SO3w4 in freefall does not seek silence. He seeks a stage — even if it is his last. The fatal shot fired at the most brilliant person he knew: that was Cunanan's final production. In doing so, he achieved the very thing he had strived for his entire life — getting the world to talk about him. In the wrong way, but inescapably.</p>
+        <p class="vb-intro">An SO3w4 in freefall does not seek silence. He seeks a stage — even if it is his last. The fatal shot fired at the most brilliant person he knew: that was Cunanan's final production. In doing so, he achieved the very thing he had strived for his whole life — getting the world to talk about him. In the wrong way, but inescapably.</p>
       </div>
 
       <div class="vb-section">
@@ -37200,7 +37200,7 @@ function ojSimpsonPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Conclusion: The Cheetah in the White Bronco</h3>
         <p class="vb-intro">O.J. Simpson's case is one of the most psychologically rich in this collection—because it has so many layers. It is a case about sports, fame, domestic violence, racism in the justice system, media spectacle, and—enneagrammatically—about a human being whose entire existence was built on public image. When that image threatened to collapse, it was defended with everything he had.</p>
-        <p class="vb-intro">The cheetah doesn't run because it takes joy in running. It runs because standing still means the end. O.J. Simpson never stood still his whole life. The Bronco chase was the most visible symbol of that: no escape attempt, no real plan—just a white car on a freeway, live on television, watched by 95 million people. Even the end had to be a stage.</p>
+        <p class="vb-intro">The cheetah doesn't run because it takes joy in running. It runs because standing still means the end. O.J. Simpson never stood still throughout his life. The Bronco chase was the most visible symbol of that: no escape attempt, no real plan—just a white car on a freeway, live on television, watched by 95 million people. Even the end had to be a stage.</p>
       </div>
 
       <div class="vb-section">
@@ -37771,7 +37771,7 @@ function leslieVanHoutenPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Buffalo</h3>
-        <p class="vb-intro">The <strong>buffalo</strong> is the animal correspondence of the Social Nine — and it describes Leslie Van Houten's inner nature in a way that only becomes clear in hindsight when looking at her entire life. The buffalo is a herd animal. It needs the group not as a backdrop, but as its habitat. It moves calmly, reliably, almost silently — but always with the herd. When it moves in a direction, it does so completely. That is precisely how Leslie Van Houten moved through her life: as part of a community to whose direction she surrendered completely — first to the Manson Family, later to prison life, and ultimately to the service of others.</p>
+        <p class="vb-intro">The <strong>buffalo</strong> is the animal correspondence of the Social Nine — and it describes Leslie Van Houten's inner nature in a way that only becomes clear in hindsight when looking at her whole life. The buffalo is a herd animal. It needs the group not as a backdrop, but as its habitat. It moves calmly, reliably, almost silently — but always with the herd. When it moves in a direction, it does so completely. That is precisely how Leslie Van Houten moved through her life: as part of a community to whose direction she surrendered completely — first to the Manson Family, later to prison life, and ultimately to the service of others.</p>
       </div>
 
       <div class="vb-section">
