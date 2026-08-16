@@ -48725,6 +48725,14 @@ function carlTanzlerPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Carl Tanzlers Geschichte ist keine romantische Legende, auch wenn sie mitunter so erz\xe4hlt wurde. Sie ist eine Warnung dar\xfcber, wozu der R\xfcckzug der selbsterhaltenden F\xfcnf f\xfchren kann, wenn ihm jede korrigierende Verbindung zur Au\xdfenwelt fehlt: Ein Mensch, der sich so vollst\xe4ndig in eine selbst konstruierte, private Realit\xe4t zur\xfcckzieht, dass selbst der Tod die Grenze zwischen Innen und Au\xdfen nicht mehr wiederherstellen kann.</p>
           <p class="vb-intro">Die Eule sieht, was andere nicht sehen &ndash; aber sie kann sich auch in einer Dunkelheit verlieren, die niemand sonst betritt. Tanzlers Fall zeigt die selbsterhaltende F\xfcnf mit Sechserfl\xfcgel an ihrer \xe4u\xdfersten, tragischsten Grenze: Bindung, die zur Besessenheit wird, wenn Realit\xe4tspr\xfcfung und menschlicher Kontakt vollst\xe4ndig fehlen.</p>
+        </blockquote>
+
+        <div style="margin:1.5rem 0;">
+          <img src="./assets/portraits/beruehmte-carl-tanzler-doku.jpg" alt="Carl Tanzler, Elena de Hoyos zu Lebzeiten und ihr konservierter Leichnam" loading="lazy" style="width:100%;display:block;border-radius:8px;" />
+          <p style="font-size:0.85rem;color:var(--muted);margin-top:0.5rem;line-height:1.5;">Dokumentarische Gegenüberstellung: Carl Tanzler in späteren Jahren (links), Elena de Hoyos zu Lebzeiten, kurz vor ihrem Tod an Tuberkulose (Mitte), und ihr von Tanzler über Jahre konserviertes und rekonstruiertes Antlitz (rechts) &ndash; mit Wachsmaske, Glasaugen und einer Perücke aus ihrem eigenen, geretteten Haar. Der Kontrast zwischen dem lebendigen Gesicht und der starren, puppenhaften Rekonstruktion macht sichtbar, wie weit sich Tanzlers Rückzug von der Realität entfernt hatte.</p>
+        </div>
+
+        <blockquote class="vb-blockquote">
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}

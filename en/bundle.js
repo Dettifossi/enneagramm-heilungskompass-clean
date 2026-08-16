@@ -28464,6 +28464,14 @@ function carlTanzlerPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Carl Tanzler's story is not a romantic legend, even though it has sometimes been told as one. It is a warning about where the self-preservation Five's withdrawal can lead when it lacks any corrective connection to the outside world: a person who retreats so completely into a self-constructed, private reality that even death can no longer restore the boundary between inside and outside.</p>
           <p class="vb-intro">The owl sees what others don't – but it can also lose itself in a darkness no one else enters. Tanzler's case shows the self-preservation Five with a Six wing at its most extreme, most tragic limit: bonding that turns into obsession once reality-testing and human contact are entirely absent.</p>
+        </blockquote>
+
+        <div style="margin:1.5rem 0;">
+          <img src="../assets/portraits/beruehmte-carl-tanzler-doku.jpg" alt="Carl Tanzler, Elena de Hoyos in life, and her preserved body" loading="lazy" style="width:100%;display:block;border-radius:8px;" />
+          <p style="font-size:0.85rem;color:var(--muted);margin-top:0.5rem;line-height:1.5;">Documentary comparison: Carl Tanzler in later years (left), Elena de Hoyos in life, shortly before her death from tuberculosis (center), and her face as preserved and reconstructed by Tanzler over the years (right) – with a wax mask, glass eyes, and a wig made from her own preserved hair. The contrast between the living face and the rigid, doll-like reconstruction shows just how far Tanzler's withdrawal from reality had gone.</p>
+        </div>
+
+        <blockquote class="vb-blockquote">
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
