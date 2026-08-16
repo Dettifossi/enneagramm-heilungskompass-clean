@@ -24246,6 +24246,7 @@ const registerEntries = [
   { term: "Michail Popkow",            route: "kriminalpsychologie-michail-popkow",       description: "Kriminalpsychologisches Portr\u00e4t: SE1w9 \u2013 russischer Serienm\u00f6rder, 86 Morde, \u201eWerwolf von Angarsk\u201d, Polizist als T\u00e4ter" },
   { term: "Niels H\u00f6gel",               route: "kriminalpsychologie-niels-hoegel",        description: "Kriminalpsychologisches Portr\u00e4t: SE7w8 \u2013 deutscherkrankenpfleger, mind. 85 Morde an Patienten, Sucht nach Reanimations-Spannung" },
   { term: "Andreas Baader",            route: "kriminalpsychologie-andreas-baader",      description: "Kriminalpsychologisches Portr\u00e4t: SE7w8 \u2013 Mitbegr\u00fcnder der RAF, 1943\u20131977, Freiheitsdrang und Naranjos \u201everdeckte Acht\u201c, Gorilla" },
+  { term: "Ulrike Meinhof",            route: "kriminalpsychologie-ulrike-meinhof",      description: "Kriminalpsychologisches Portr\u00e4t: SE2w1 \u2013 Journalistin, Mitbegr\u00fcnderin der RAF, 1934\u20131976, Flusspferd" },
   { term: "Paul Bernardo",             route: "kriminalpsychologie-paul-bernardo",        description: "Kriminalpsychologisches Portr\u00e4t: SX1w2 \u2013 kanadischer Serienm\u00f6rder und Vergewaltiger, \u201eScharlach-Vergewaltiger\u201d, Doppelverbrechen mit Homolka" },
   { term: "Paul Ogorzow",              route: "kriminalpsychologie-paul-ogorzow",         description: "Kriminalpsychologisches Portr\u00e4t: SE1w9 \u2013 \u201eS-Bahn-M\u00f6rder\u201d, 8 Morde Berlin 1939\u201341, NSDAP-Mitglied und Triebt\u00e4ter" },
   { term: "Pedro Alonso L\u00f3pez",        route: "kriminalpsychologie-pedro-alonso-lopez",  description: "Kriminalpsychologisches Portr\u00e4t: SO3w2 \u2013 \u201eMonster der Anden\u201d, 300+ gestandene Morde in S\u00fcdamerika, freigelassen 1998" },
@@ -24830,6 +24831,7 @@ const registerEntriesEN = [
   { term: "Mikhail Popkov", route: "kriminalpsychologie-michail-popkow", description: "Criminal psychological portrait: SE1w9 \u2013 Russian serial killer, 86 murders, \"Werewolf of Angarsk\", police officer as perpetrator" },
   { term: "Niels H\u00f6gel", route: "kriminalpsychologie-niels-hoegel", description: "Criminal psychological portrait: SE7w8 \u2013 German nurse, at least 85 murders of patients, addiction to resuscitation excitement" },
   { term: "Andreas Baader", route: "kriminalpsychologie-andreas-baader", description: "Criminal psychological portrait: SE7w8 \u2013 co-founder of the RAF, 1943\u20131977, drive for freedom and Naranjo's 'hidden Eight', Gorilla" },
+  { term: "Ulrike Meinhof", route: "kriminalpsychologie-ulrike-meinhof", description: "Criminal psychological portrait: SE2w1 \u2013 journalist, co-founder of the RAF, 1934\u20131976, Hippopotamus" },
   { term: "Paul Bernardo", route: "kriminalpsychologie-paul-bernardo", description: "Criminal psychological portrait: SX1w2 \u2013 Canadian serial killer and rapist, \"Scarborough Rapist\", double crimes with Homolka" },
   { term: "Paul Ogorzow", route: "kriminalpsychologie-paul-ogorzow", description: "Criminal psychological portrait: SE1w9 \u2013 \"S-Bahn Murderer\", 8 murders Berlin 1939\u201341, NSDAP member and sex offender" },
   { term: "Pedro Alonso L\u00f3pez", route: "kriminalpsychologie-pedro-alonso-lopez", description: "Criminal psychological portrait: SO3w2 \u2013 \"Monster of the Andes\", 300+ confessed murders in South America, released 1998" },
@@ -31260,6 +31262,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-charles-manson",      name:"Charles Manson",                       subtyp:"SX6w7",  heading:"Charles Manson \u2013 Sexueller Typ 6",                                     teaser:"SX6w7 \u2013 Sektengr\xfcnder und Drahtzieher, 1934\u20132017. Tate-LaBianca-Morde 1969 \u2013 die sexuelle Sechs mit Siebenerfl\xfcgel: Angst als Charisma, Kontrolle durch Hingabe. Tierentsprechung: Wolf." , tags:["Terror","Missbrauch"], gender:"m"},
   { route:"kriminalpsychologie-niels-hoegel",        name:"Niels H\xf6gel",                     subtyp:"SE7w8",  heading:"Niels H\xf6gel \u2013 Selbsterhaltender Typ 7",                            teaser:"SE7w8 \u2013 Krankenpfleger und Serienm\xf6rder, geb. 1976. Mindestens 85 Tote \u2013 die selbsterhaltende Sieben mit Achterfl\xfcgel in ihrer dunkelsten Auspr\xe4gung: Gier als Kontrollsucht." , tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-andreas-baader",      name:"Andreas Baader",                    subtyp:"SE7w8",  heading:"Andreas Baader \u2013 Selbsterhaltender Typ 7",                          teaser:"SE7w8 \u2013 Mitbegr\xfcnder der Rote Armee Fraktion (RAF), 1943\u20131977. Freiheitsdrang statt Theorie, schnelle Autos statt Marx-Lekt\xfcre \u2013 die selbsterhaltende Sieben mit Achterfl\xfcgel als Naranjos \u201everdeckte Acht\u201c. Tierentsprechung: Gorilla." , tags:["Terror"], gender:"m"},
+  { route:"kriminalpsychologie-ulrike-meinhof",      name:"Ulrike Meinhof",                    subtyp:"SE2w1",  heading:"Ulrike Meinhof \u2013 Selbsterhaltender Typ 2",                          teaser:"SE2w1 \u2013 Journalistin und Mitbegr\xfcnderin der Rote Armee Fraktion (RAF), 1934\u20131976. F\xfcrsorge f\xfcr die Unterdr\xfcckten, radikalisiert durch moralische Unbeirrbarkeit \u2013 die selbsterhaltende Zwei mit Einserfl\xfcgel, die Baader 1970 aus der Haft befreite. Tierentsprechung: Flusspferd." , tags:["Terror"], gender:"f"},
       { route:"kriminalpsychologie-chris-watts",         name:"Chris Watts",                      subtyp:"SO7w6",  heading:"Chris Watts \u2013 Sozialer Typ 7",                                  teaser:"SO7w6 \u2013 US-amerikanischer Familienm\u00f6rder, geb. 1985. Ermordete seine schwangere Frau und zwei T\u00f6chter, um mit seiner Geliebten ein neues Leben zu beginnen. Verhaftet 2018, f\u00fcnfmal lebensl\u00e4nglich. Tierentsprechung: Biber." , tags:["Nahbereich"], gender:"m"},
       { route:"kriminalpsychologie-frank-abagnale-jr", name:"Frank Abagnale Jr.", subtyp:"SO7w6", heading:"Frank Abagnale Jr. \u2013 Sozialer Typ 7", teaser:"SO7w6 \u2013 Ber\u00fchmtester Hochstapler der Geschichte, geb. 1948. Pilot, Arzt, Anwalt \u2013 ohne je einer gewesen zu sein. Die soziale Sieben mit Sechserfl\u00fcgel: rastlose Suche nach neuen Systemen, Zugeh\u00f6rigkeit als Antrieb, Vertrauen als letztes Ziel. Tierentsprechung: Biber.", tags:["Betrug"], gender:"m"},
   { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              added:"2026-07-15",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs \u2013 Sexueller Typ 7",                              teaser:"SX7w8 \u2013 Musikproduzent, Unternehmer, Verurteilter. Geb. 1969 in New York. Jahrzehntelang einer der m\u00e4chtigsten M\u00e4nner der Musikindustrie \u2013 und ein System sexueller Gewalt, das hinter Glamour und Kontrolle verborgen blieb. Verurteilt 2025 wegen Sex-Trafficking und N\u00f6tigung. Die sexuelle Sieben mit Achterfl\u00fcgel: Vergn\u00fcgen als Recht, Kontrolle als Liebe, Macht als Schutzschild. Tierentsprechung: Schimpanse." , tags:["Missbrauch","Musikindustrie"], gender:"m"},
@@ -73079,6 +73082,87 @@ function andreasBaaderPortraitPage() {
 
         ${relatedLinks([
           {route:"beruehmte-moritz-bleibtreu", label:"Portr\xe4t: Moritz Bleibtreu (SE7w8) – verk\xf6rperte Baader im Film"},
+          {route:"kriminalpsychologie-ulrike-meinhof", label:"Kriminalpsychologie: Ulrike Meinhof (SE2w1) – befreite Baader 1970"},
+          {route:"kriminalpsychologie-charles-manson", label:"Kriminalpsychologie: Charles Manson (SX6w7)"},
+          {route:"kriminalpsychologie-adolf-eichmann", label:"Kriminalpsychologie: Adolf Eichmann (SO6w5)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function ulrikeMeinhofPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ulrike Meinhof – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/ulrike-meinhof-portrait.jpg" alt="Ulrike Meinhof – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ulrike Meinhof</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-sub">Journalistin und Mitbegr\xfcnderin der Rote Armee Fraktion (RAF) &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Das Flusspferd</h3>
+        <p class="vb-intro">Das <strong>Flusspferd</strong> ist die Tierentsprechung der selbsterhaltenden Zwei &ndash; ein Tier, das im eigenen Revier F\xfcrsorge und Schutz gleicherma\xdfen verk\xf6rpert, sich aber, einmal aus dem sicheren Wasser gelockt, mit einer Wucht bewegen kann, die niemand ihm zugetraut h\xe4tte. Ulrike Meinhof war genau das: eine Frau, die \xfcber Jahre als F\xfcrsorgerin des linken Diskurses in der Bundesrepublik galt &ndash; scharfsinnig, wortgewaltig, moralisch kompromisslos &ndash; und die dieselbe Kompromisslosigkeit irgendwann in bewaffnete Gewalt \xfcbersetzte.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Zwei: F\xfcrsorge als Fundament</h3>
+        <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> sichert sich Zugeh\xf6rigkeit, indem sie sich unentbehrlich macht &ndash; durch F\xfcrsorge, durch Einsatz, durch die stille \xdcberzeugung, gebraucht zu werden. Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere k\xfcmmert, um auf Umwegen die eigene Bed\xfcrftigkeit zu stillen.</p>
+        <p class="vb-intro">Ulrike Meinhof, 1934 in Oldenburg geboren, war Anfang der 1960er-Jahre eine der bekanntesten politischen Journalistinnen der Bundesrepublik &ndash; Chefredakteurin der linken Zeitschrift <em>konkret</em>, verheiratet mit deren Herausgeber Klaus Rainer R\xf6hl, Mutter der 1962 geborenen Zwillingst\xf6chter Bettina und Regine. Ihre Kolumnen waren scharf, klug, moralisch unbestechlich &ndash; sie positionierte sich konsequent als Stimme der Unterdr\xfcckten, der Ausgebeuteten, derer, die im politischen System keine Stimme hatten. Diese F\xfcrsorge f\xfcr die vermeintlich Schwachen war echt &ndash; und sie war zugleich der Kern ihrer Identit\xe4t.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Einserfl\xfcgel: Moralische Gewissheit</h3>
+        <p class="vb-intro">Der <strong>Einserfl\xfcgel</strong> gibt der selbsterhaltenden Zwei etwas, das ihre F\xfcrsorge unangreifbar macht: die \xdcberzeugung, moralisch im Recht zu sein. Wo die reine Zwei um Zuneigung wirbt, verlangt die SE2w1 nach Gerechtigkeit &ndash; und wird zunehmend unduldsam gegen\xfcber allem, was ihr wie Kompromiss oder Halbherzigkeit erscheint.</p>
+        <p class="vb-intro">1968 trennte sich Meinhof von R\xf6hl und zog mit ihren T\xf6chtern nach Berlin. In dieser Zeit radikalisierte sich ihr politisches Denken zusehends: Die Studentenbewegung, der Vietnamkrieg, die Notstandsgesetze &ndash; f\xfcr Meinhof wurde publizistische Kritik zunehmend unzureichend angesichts dessen, was sie als strukturelle Gewalt des Staates empfand. Der Einserfl\xfcgel lieferte die moralische Rechtfertigung f\xfcr einen Schritt, den die reine F\xfcrsorge der Zwei allein nie gegangen w\xe4re: von der Feder zur Waffe.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die Befreiung Baaders: Der Bruch mit dem alten Leben</h3>
+        <p class="vb-intro">Am 14. Mai 1970 begleitete Meinhof den inhaftierten Andreas Baader in eine Bibliothek in West-Berlin &ndash; offiziell, um dort gemeinsam an einem Buch \xfcber gef\xe4hrdete Jugendliche zu recherchieren. Tats\xe4chlich diente die Aktion seiner gewaltsamen Befreiung: Bewaffnete st\xfcrmten den Raum, ein Bibliotheksangestellter wurde angeschossen, Meinhof sprang gemeinsam mit Baader aus dem Fenster in die Illegalit\xe4t. Dieser Moment gilt als Gr\xfcndung der RAF &ndash; und als der Punkt, an dem Meinhof ihr bisheriges Leben vollst\xe4ndig hinter sich lie\xdf.</p>
+        <p class="vb-intro">Ihre Zwillingst\xf6chter blieben zur\xfcck. Es gab sp\xe4ter Berichte, die RAF habe erwogen, die Kinder in ein palästinensisches Ausbildungslager zu bringen &ndash; ein Plan, der durch das Eingreifen des Journalisten Stefan Aust verhindert wurde. Aus Sicht der selbsterhaltenden Zwei mit Einserfl\xfcgel ist das eine der bittersten Paradoxien: eine Frau, deren gesamte fr\xfchere Identit\xe4t auf F\xfcrsorge beruhte, opferte die F\xfcrsorge f\xfcr die eigenen Kinder einer h\xf6her gestellten, abstrakteren Vorstellung von Gerechtigkeit.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Stammheim und der 9. Mai 1976</h3>
+        <p class="vb-intro">1972 wurde Meinhof verhaftet und zun\xe4chst in Isolationshaft in K\xf6ln-Ossendorf untergebracht &ndash; unter Bedingungen weitgehender sensorischer Reizarmut, die international als Foltervorwurf diskutiert wurden. Es folgte der gemeinsame Stammheim-Prozess mit Baader, Ensslin und Raspe, einer der aufwendigsten Strafprozesse der deutschen Nachkriegsgeschichte.</p>
+        <p class="vb-intro">Am 9. Mai 1976 wurde Meinhof erhängt in ihrer Zelle aufgefunden, ein Strick aus einem Handtuch geflochten. Die offizielle Untersuchung stufte den Tod als Suizid ein. Anh\xe4nger und Teile der \xf6ffentlichen Diskussion bezweifelten diese Version bis heute; ein Fremdverschulden konnte nie belegt werden.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro"><strong>a) F\xfcrsorge, die sich selbst nicht mehr erkennt:</strong> Die gesunde SE2w1 setzt sich f\xfcr andere ein, ohne sich selbst und die eigenen N\xe4chsten zu verlieren. Bei Meinhof kippte dieses Muster: Die Sorge um abstrakte, weit entfernte Opfer verdr\xe4ngte zunehmend die Sorge um die eigenen Kinder &ndash; ein Muster, das Naranjo als \xdcberschie\xdfen der Zwei ins Ideologische beschreibt.</p>
+        <p class="vb-intro"><strong>b) Der Einserfl\xfcgel als Radikalisierungsmotor:</strong> Was als journalistische Gerechtigkeitssuche begann, wurde durch die moralische Unbeirrbarkeit des Einserfl\xfcgels zunehmend kompromissloser. Der Zweifel, der eine gesunde Eins ausbalanciert, fehlte je l\xe4nger, je mehr.</p>
+        <p class="vb-intro"><strong>c) Von der F\xfcrsorgerin zur Symbolfigur:</strong> Innerhalb der RAF war Meinhof nicht die Kopf des bewaffneten Kampfes, sondern dessen intellektuelle Legitimation &ndash; sie lieferte die Sprache, die Texte, die moralische Begr\xfcndung. Das ist die SE2w1 in ihrer radikalsten Form: sich selbst unentbehrlich machen, indem man der Sache gibt, was sie am dringendsten braucht.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Ulrike Marie Meinhof</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SE2w1 &ndash; Selbsterhaltende Zwei mit Einserfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Stolz (verkleidet als moralische F\xfcrsorge f\xfcr die Unterdr\xfcckten)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Flusspferd</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 7. Oktober 1934 &ndash; 9. Mai 1976</span>
+          <span style="display:block;"><strong>Bekannt f\xfcr:</strong> Journalistin (<em>konkret</em>), Mitbegr\xfcnderin der Rote Armee Fraktion (RAF), Befreiung Andreas Baaders 1970</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie F\xfcrsorge zur Ideologie werden kann – und warum der Einserfl\xfcgel den Zweifel zum Schweigen bringt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Stolz als Grundmotiv der Zwei: Wie das Schutzsystem der Zwei entsteht und wie es sich in Heilung aufl\xf6st.", "Wer du wirklich bist (Band 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Ulrike Meinhof war Mitbegr\xfcnderin der RAF und starb 1976 in Haft. Das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-andreas-baader", label:"Kriminalpsychologie: Andreas Baader (SE7w8) – befreit von Meinhof 1970"},
           {route:"kriminalpsychologie-charles-manson", label:"Kriminalpsychologie: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-adolf-eichmann", label:"Kriminalpsychologie: Adolf Eichmann (SO6w5)"},
         ])}
@@ -88112,6 +88196,7 @@ function render() {
       "kriminalpsychologie-armin-meiwes": arminMeiwesPortraitPage,
       "kriminalpsychologie-niels-hoegel": nielsHoegelPortraitPage,
       "kriminalpsychologie-andreas-baader": andreasBaaderPortraitPage,
+      "kriminalpsychologie-ulrike-meinhof": ulrikeMeinhofPortraitPage,
       "kriminalpsychologie-chris-watts": chrisWattsPortraitPage,
       "kriminalpsychologie-john-gotti": johnGottiPortraitPage,
       "kriminalpsychologie-nick-leeson": nickLeesonPortraitPage,

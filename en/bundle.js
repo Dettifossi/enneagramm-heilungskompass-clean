@@ -155,6 +155,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-charles-manson",      name:"Charles Manson",                       subtyp:"SX6w7",  heading:"Charles Manson \u2013 Sexual Type 6",                                     teaser:"SX6w7 – Cult founder and mastermind, 1934–2017. Tate-LaBianca murders 1969 – the sexual Six with Seven-wing: fear as charisma, control through surrender. Animal correspondence: Wolf." , tags:["Terror","Missbrauch"]},
   { route:"kriminalpsychologie-niels-hoegel",        name:"Niels H\xf6gel",                     subtyp:"SE7w8",  heading:"Niels H\xf6gel \u2013 Self-Preservation Type 7",                            teaser:"SP7w8 – Nurse and serial killer, born 1976. At least 85 dead – the self-preservation Seven with Eight-wing in its darkest manifestation: greed as compulsion for control." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-andreas-baader",      name:"Andreas Baader",                    subtyp:"SE7w8",  heading:"Andreas Baader \u2013 Self-Preservation Type 7",                          teaser:"SP7w8 – Co-founder of the Red Army Faction (RAF), 1943–1977. Drive for freedom over theory, fast cars over reading Marx – the self-preservation Seven with Eight-wing as Naranjo’s “hidden Eight.” Animal correspondence: Gorilla." , tags:["Terror"]},
+  { route:"kriminalpsychologie-ulrike-meinhof",      name:"Ulrike Meinhof",                    subtyp:"SE2w1",  heading:"Ulrike Meinhof \u2013 Self-Preservation Type 2",                          teaser:"SP2w1 – Journalist and co-founder of the Red Army Faction (RAF), 1934–1976. Care for the oppressed, radicalized through moral certainty – the self-preservation Two with One-wing who freed Baader from custody in 1970. Animal correspondence: Hippopotamus." , tags:["Terror"]},
       { route:"kriminalpsychologie-chris-watts",         name:"Chris Watts",                      subtyp:"SO7w6",  heading:"Chris Watts – Social Type 7",                                  teaser:"SO7w6 – American family murderer, born 1985. Murdered his pregnant wife and two daughters to start a new life with his mistress. Arrested 2018, five consecutive life sentences. Animal correspondence: Beaver." , tags:["Nahbereich"]},
       { route:"kriminalpsychologie-frank-abagnale-jr", name:"Frank Abagnale Jr.", subtyp:"SO7w6", heading:"Frank Abagnale Jr. – Social Type 7", teaser:"SO7w6 – Most famous impostor in history, born 1948. Pilot, doctor, lawyer – without ever having been one. The social Seven with Six-wing: restless search for new systems, belonging as the driving force, trust as the ultimate goal. Animal correspondence: Beaver.", tags:["Betrug"]},
   { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              added:"2026-07-15",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs – Sexual Type 7",                              teaser:"SX7w8 – Music producer, entrepreneur, convicted offender. Born 1969 in New York. For decades one of the most powerful men in the music industry – and a system of sexual violence hidden behind glamour and control. Convicted 2025 for sex trafficking and coercion. The sexual Seven with Eight-wing: pleasure as a right, control as love, power as shield. Animal correspondence: Chimpanzee." , tags:["Missbrauch","Musikindustrie"]},
@@ -40158,7 +40159,88 @@ function andreasBaaderPortraitPage() {
       </div>
 
         ${relatedLinks([
+          {route:"kriminalpsychologie-ulrike-meinhof", label:"Criminal Psychology: Ulrike Meinhof (SP2w1) – freed Baader in 1970"},
           {route:"beruehmte-moritz-bleibtreu", label:"Portrait: Moritz Bleibtreu (SP7w8) – portrayed Baader on screen"},
+          {route:"kriminalpsychologie-charles-manson", label:"Criminal Psychology: Charles Manson (SX6w7)"},
+          {route:"kriminalpsychologie-adolf-eichmann", label:"Criminal Psychology: Adolf Eichmann (SO6w5)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function ulrikeMeinhofPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ulrike Meinhof – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/ulrike-meinhof-portrait.jpg" alt="Ulrike Meinhof – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ulrike Meinhof</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-sub">Journalist and co-founder of the Red Army Faction (RAF) &middot; Animal Correspondence: Hippopotamus</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Hippopotamus</h3>
+        <p class="vb-intro">The <strong>hippopotamus</strong> is the animal correspondence of the self-preservation Two &ndash; an animal that embodies care and protection in equal measure within its own territory, but that, once lured out of the safe water, can move with a force no one thought it capable of. Ulrike Meinhof was exactly that: a woman regarded for years as a caretaker of the West German left's public discourse &ndash; sharp-witted, eloquent, morally uncompromising &ndash; who eventually translated that same uncompromising stance into armed violence.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Self-Preservation Two: Care as Foundation</h3>
+        <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> secures its sense of belonging by making itself indispensable &ndash; through care, through effort, through the quiet conviction of being needed. Naranjo described this subtype as one that tends to others first, using that very care as an indirect way of meeting its own unmet needs.</p>
+        <p class="vb-intro">Ulrike Meinhof, born in 1934 in Oldenburg, was, by the early 1960s, one of West Germany's best-known political journalists &ndash; editor-in-chief of the left-wing magazine <em>konkret</em>, married to its publisher Klaus Rainer R\xf6hl, and mother to twin daughters Bettina and Regine, born in 1962. Her columns were sharp, incisive, morally uncompromising &ndash; she consistently positioned herself as a voice for the oppressed, the exploited, those without a voice in the political system. This care for the supposedly powerless was genuine &ndash; and, at the same time, the very core of her identity.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The One-Wing: Moral Certainty</h3>
+        <p class="vb-intro">The <strong>One-wing</strong> gives the self-preservation Two something that makes its care unassailable: the conviction of being morally in the right. Where a pure Two seeks affection, the SP2w1 demands justice &ndash; and grows increasingly intolerant of anything that looks like compromise or half-measures.</p>
+        <p class="vb-intro">In 1968, Meinhof separated from R\xf6hl and moved to Berlin with her daughters. During this period, her political thinking radicalized steadily: the student movement, the Vietnam War, the emergency laws &ndash; for Meinhof, journalistic criticism increasingly felt inadequate in the face of what she perceived as the structural violence of the state. The One-wing supplied the moral justification for a step the Two's care alone would never have taken on its own: from the pen to the weapon.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Freeing Baader: The Break With Her Old Life</h3>
+        <p class="vb-intro">On May 14, 1970, Meinhof accompanied the imprisoned Andreas Baader to a library in West Berlin &ndash; officially to research a book together about at-risk youth. In reality, the operation served his violent liberation: armed accomplices stormed the room, a library employee was shot, and Meinhof jumped out the window together with Baader into a life underground. This moment is regarded as the founding of the RAF &ndash; and as the point at which Meinhof left her entire previous life behind.</p>
+        <p class="vb-intro">Her twin daughters were left behind. Reports later surfaced that the RAF had considered sending the children to a Palestinian training camp &ndash; a plan that was prevented by the intervention of journalist Stefan Aust. From the perspective of the self-preservation Two with a One-wing, this is one of the bitterest paradoxes: a woman whose entire prior identity rested on care sacrificed the care of her own children for a more elevated, more abstract idea of justice.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Stammheim and May 9, 1976</h3>
+        <p class="vb-intro">In 1972, Meinhof was arrested and initially held in isolation at Cologne-Ossendorf prison &ndash; under conditions of extensive sensory deprivation that were discussed internationally as amounting to torture. What followed was the joint Stammheim trial together with Baader, Ensslin, and Raspe, one of the most extensive criminal trials in postwar German history.</p>
+        <p class="vb-intro">On May 9, 1976, Meinhof was found hanged in her cell, with a rope fashioned from a towel. The official investigation ruled the death a suicide. Supporters and parts of the public debate have questioned this account ever since; no third-party involvement has ever been proven.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram Reveals</h3>
+        <p class="vb-intro"><strong>a) Care That No Longer Recognizes Itself:</strong> A healthy SP2w1 advocates for others without losing sight of itself and those closest to it. In Meinhof's case, this pattern tipped over: concern for distant, abstract victims increasingly crowded out concern for her own children &ndash; a pattern Naranjo describes as the Two's care overshooting into ideology.</p>
+        <p class="vb-intro"><strong>b) The One-Wing as an Engine of Radicalization:</strong> What began as a journalistic search for justice grew increasingly uncompromising through the One-wing's moral unwavering certainty. The doubt that balances a healthy One was, as time went on, increasingly absent.</p>
+        <p class="vb-intro"><strong>c) From Caretaker to Symbolic Figure:</strong> Within the RAF, Meinhof was not the head of the armed struggle but its intellectual legitimation &ndash; she supplied the language, the texts, the moral justification. This is the SP2w1 in its most radical form: making oneself indispensable by giving the cause exactly what it most urgently needs.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification Summary</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <strong>Name:</strong> Ulrike Marie Meinhof<br>
+        Subtype: SP2w1 – Self-Preservation Two with One-wing<br>
+        Passion: Pride (disguised as moral care for the oppressed)<br>
+        Animal Correspondence: Hippopotamus<br>
+        Lifespan: October 7, 1934 – May 9, 1976<br>
+        Known for: Journalist (<em>konkret</em>), co-founder of the Red Army Faction (RAF), freeing Andreas Baader in 1970
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The self-preservation Two in comparison: how care can turn into ideology – and why the One-wing silences doubt.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 character profiles in comparison.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Pride as the core motivation of Type Two: how the Two's defense system forms and how it dissolves in healing.", "Wer du wirklich bist (Band 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Ulrike Meinhof was a co-founder of the RAF and died in custody in 1976. The Enneagram explains; it does not justify.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-andreas-baader", label:"Criminal Psychology: Andreas Baader (SP7w8) – freed by Meinhof in 1970"},
           {route:"kriminalpsychologie-charles-manson", label:"Criminal Psychology: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-adolf-eichmann", label:"Criminal Psychology: Adolf Eichmann (SO6w5)"},
         ])}
@@ -53770,6 +53852,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-armin-meiwes": arminMeiwesPortraitPage,
       "kriminalpsychologie-niels-hoegel": nielsHoegelPortraitPage,
       "kriminalpsychologie-andreas-baader": andreasBaaderPortraitPage,
+      "kriminalpsychologie-ulrike-meinhof": ulrikeMeinhofPortraitPage,
       "kriminalpsychologie-chris-watts": chrisWattsPortraitPage,
       "kriminalpsychologie-john-gotti": johnGottiPortraitPage,
       "kriminalpsychologie-nick-leeson": nickLeesonPortraitPage,
