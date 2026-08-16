@@ -867,6 +867,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Carmen Goglin – Self-Preservation Type 9",
     teaser:"SE9w8 · Laughter-yoga trainer, coach, and author, founder of the Reutlingen Laughter School. From human resources to viral laughter-yoga phenomenon after the Finch parody in 2020/21. The elephant that can trumpet. Animal correspondence: Elephant.",
     tags:["Society"], gender:"f"},
+  { route:"beruehmte-gina-rinehart", name:"Gina Rinehart", added:"2026-08-16", subtyp:"SE9w8",
+    heading:"Gina Rinehart – Self-Preservation Type 9",
+    teaser:"SE9w8 · born 1954. Mining entrepreneur, Australia's richest woman, chair of Hancock Prospecting. Years-long legal battle with her own children over the family trust. The elephant that never gives up its territory. Animal correspondence: Elephant.",
+    tags:["Business"], gender:"f"},
   { route:"beruehmte-boris-becker", name:"Boris Becker", added:"2026-07-19", subtyp:"SX7w8",
     heading:"Boris Becker – Sexual Type 7",
     teaser:"SX7w8 · born 1967. Tennis professional, three-time Wimbledon winner, youngest Wimbledon champion of all time (1985, at 17 years old). The chimpanzee with eight wings: limitless intensity, fame as a home, and the lifelong struggle for the image of the great Boris. Animal correspondence: Chimpanzee.",
@@ -16057,6 +16061,69 @@ function carmenGoglinPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
           {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function ginaRinehartPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-gina-rinehart-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gina Rinehart</p>
+        <p class="krim-portrait-typ">SP9w8 &middot; Self-Preservation Type 9 with aft wing</p>
+        <p class="krim-portrait-subtitle">Mining entrepreneur, b. 1954 – Australia's richest woman – Animal equivalent: Elephant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The elephant is the animal of the self-preservation Nine – an animal of enormous mass that never hurries, yet nothing can stop it once it is in motion. Gina Rinehart, born in 1954 in Perth, is literally tied to that mass: her fortune sits in the ground, in iron ore that has been there for millions of years and simply needs to be lifted out. She is Australia's richest person – a status resting less on spectacular single decisions than on decades of patient expansion of an inherited foundation.</p>
+          <p class="vb-intro">In 1993 she took over Hancock Prospecting, the company founded by her father Lang Hancock, who discovered one of the world's largest iron ore deposits in 1952. Instead of merely managing what she inherited, she expanded it systematically – Hope Downs, Roy Hill, later lithium, rare earths, copper, potash, natural gas. The elephant moves slowly. But it moves in one direction, and that direction does not change again.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Nine: Stability as a life's work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the self-preservation Nine (SE9) is the subtype he called Appetite – the tendency to settle into material security and comfort and to do whatever it takes to preserve that state. In Rinehart's case this does not show as personal luxury on display, but as a persistent securing and enlarging of the economic base – a life project that is never considered finished.</p>
+          <p class="vb-intro">Where other billionaires cultivate their image through media-savvy appearances, Rinehart is notably reserved in public self-presentation – and yet forceful when it comes to substance: taxes, mining rights, her own company. The Nine does not need the spotlight. She only needs to make sure the foundation holds.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight wing: When persistence becomes a fight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A pure Nine would avoid conflict. In Rinehart's case, the Eight wing brings something else: the willingness to fight for years, at full intensity, whenever control over the company is questioned. In 2011, three of her four children – John Hancock, Bianca Rinehart, and for a time Hope Welker – sued her over the Hope Margaret Hancock Trust, a family trust set up by her father in 1988 that was meant to pay out to them at age 25. Rinehart sought to delay the payout until 2068, citing tax disadvantages.</p>
+          <p class="vb-intro">The legal battle dragged on for years, was fought out publicly in full bitterness, and only ended with a settlement in 2015. This is the SE9w8 under pressure: the Nine might have avoided or sat out the conflict. The Eight wing instead pushed for control to the very end – even against her own children, even at the cost of years of public exposure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Public confrontations: The portrait and the netball players</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2024, Rinehart demanded that the National Gallery of Australia remove a portrait of her by Indigenous artist Vincent Namatjira – she considered the depiction unflattering. The gallery refused, and the demand generated exactly the public attention Rinehart had actually wanted to avoid. A classic Streisand effect – and an example of how the Nine with an Eight wing responds to a perceived threat: not by ignoring it, but through direct, uncompromising pressure.</p>
+          <p class="vb-intro">In 2022, Hancock Prospecting withdrew A$15 million in sponsorship from Netball Australia after the national team backed Indigenous player Donnell Wallam, who had refused to wear a uniform bearing the company's logo – over concerns about racist remarks made by Rinehart's late father, Lang Hancock. Rinehart herself said almost nothing publicly about it. That, too, is the Nine: not justify, not debate – simply withdraw the money and end the matter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The poem "Our Future": When the Nine writes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2012, Rinehart had a self-written poem titled "Our Future" engraved on a 30-tonne iron ore slab and installed in Morley, Western Australia – a call for mining to be pursued with as little taxation as possible. The poem was ridiculed nationwide, by journalists, comedians, and academics alike. Rinehart did not respond to the criticism by withdrawing – she simply left the slab standing.</p>
+          <p class="vb-intro">This episode reveals a lesser-known side of the self-preservation Nine: she can absolutely take a public stand – just rarely in a form designed for approval. It was not about being liked. It was about carving a conviction into stone, literally, and letting it stand, no matter who commented on it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Elephant that does not budge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gina Rinehart shows the self-preservation Nine with an Eight wing in its hardest form: calm on the surface, but a foundation of granite underneath. She does not need to convince anyone, does not need to be liked – she only needs to make sure that what she has built belongs to her and stays hers. Criticism, ridicule, even her own family dispute change little about that.</p>
+          <p class="vb-intro">The elephant has a strong memory, is territorial, and at its core immovable once it has found its place. Rinehart found her place more than thirty years ago and has not only held it since but continually expanded it. This is not loud power. It is the power that simply stays where it is – and grows from there.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
+          {route:"beruehmte-carmen-goglin", label:"Portrait: Carmen Goglin (SE9w8)"},
         ])}
       </div>
     </div>
@@ -53931,6 +53998,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-pablo-picasso": pabloPicassoPortraitPage,
       "beruehmte-angela-merkel": angelaMerkelPortraitPage,
       "beruehmte-carmen-goglin": carmenGoglinPortraitPage,
+      "beruehmte-gina-rinehart": ginaRinehartPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-robert-schumann": robertSchumannPortraitPage,
       "beruehmte-franz-liszt": franzLisztPortraitPage,
