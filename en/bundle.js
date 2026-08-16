@@ -1175,6 +1175,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Frida Kahlo – Self-Preservation Type 2",
     teaser:"SP2w3 · 1907–1954. Mexican painter, roughly 200 paintings, 55 self-portraits. The own body as the first terrain of care, pain turned into an unmistakable image. Animal correspondence: Hippopotamus.",
     tags:["Kunst"] },
+  { route:"beruehmte-natascha-kampusch", name:"Natascha Kampusch", added:"2026-08-16", subtyp:"SE2w1",
+    heading:"Natascha Kampusch – Self-Preservation Type 2",
+    teaser:"SE2w1 · born 1988. Author and activist, 3096 days in captivity, memoir '3,096 Days'. Survived through relational regulation, held herself together through self-discipline. The hippopotamus that surfaces on its own terms. Animal correspondence: Hippopotamus.",
+    tags:["Society"], gender:"f"},
   { route:"beruehmte-marie-antoinette", name:"Marie Antoinette", added:"2026-08-15", subtyp:"SE2w3",
     heading:"Marie Antoinette – Self-Preservation Type 2",
     teaser:"SP2w3 · 1755–1793. Queen of France. Pouf hairstyles, the Hameau de la Reine, the Affair of the Diamond Necklace. The hippopotamus whose glossy surface protected her and, in the end, became her burden. Animal correspondence: Hippopotamus.",
@@ -22730,6 +22734,69 @@ function fridaKahloPortraitPage() {
         {route:"beruehmte-isabella-briggs", label:"Portrait: Isabella Briggs (SP2w3)"},
         {route:"beruehmte-marie-antoinette", label:"Portrait: Marie Antoinette (SP2w3)"},
       ])}
+    </div>
+  `);
+}
+
+function nataschaKampuschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-natascha-kampusch-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Natascha Kampusch</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Author and activist, b. 1988 – 3096 days in captivity – Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The hippopotamus is the animal of the self-preservation Two – an animal whose skin produces its own reddish secretion that acts as a natural protective film: it keeps the sensitive surface supple and makes the animal instantly unmistakable. What looks vulnerable from the outside – the glossy, unusually colored skin – is in truth a carefully functioning survival system, one capable of asserting itself with enormous force when needed.</p>
+          <p class="vb-intro">Natascha Kampusch was abducted in 1998 at age ten on her way to school and held for eight years in a five-square-meter, nearly airtight cellar, before escaping in 2006. That she survived those years – physically and psychologically – is exactly what the hippopotamus embodies: a creature that builds its own protective space under extreme pressure and remains functional inside it, where others would break.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Two: Survival through relationship</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the self-preservation Two (SE2) is the subtype he called "Seductive Child" – an early-developed ability to secure the goodwill of important attachment figures by making oneself indispensable, pleasant, or useful. In Kampusch's case, this strategy became a literal survival technique: she later reported that she comforted her kidnapper, Wolfgang Přiklopil, during his depressive episodes, reassured him, kept him stable – not out of affection, but because her own survival was directly tied to his stability.</p>
+          <p class="vb-intro">This adaptive performance was often publicly labeled "Stockholm syndrome" – a term Kampusch herself rejects as disrespectful. From an Enneagram perspective, it is more precise to say: under extreme threat, the SE2 secures her survival by regulating the emotional state of the more powerful person – a highly functional, if deeply painful, adaptation to a situation with no other available course of action.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One wing: Structure as a lifeline</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SE2 with a more muted One wing might have focused entirely on the relationship with her captor. In Kampusch's case, something else came through as well: discipline, order, an inner standard for herself that did not disappear even under impossible conditions. During her captivity she taught herself reading, writing, and general knowledge, listened to the radio, kept up with world events, and maintained a self-imposed daily structure.</p>
+          <p class="vb-intro">That is the One wing: the need to maintain a degree of order and self-discipline even in a state of emergency – not imposed from outside, but as an inner anchor of her own. Where the Two's relational adaptation kept her physically alive, the One wing kept her mind and identity intact.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The escape and the house</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">On August 23, 2006, Kampusch managed to escape; her kidnapper took his own life the same day. In the years that followed, she made a decision that drew massive public criticism: she bought the house where she had been held captive for eight years and lives there at times. To many observers this seemed incomprehensible, almost further proof of an unresolved bond to her captor.</p>
+          <p class="vb-intro">From the SE2w1 perspective, the step makes sense: it was not about longing for the perpetrator, but about control over her own protective space. Kampusch herself explained the purchase as an attempt to prevent the house from becoming a site of morbid curiosity or "horror tourism". The self-preservation Two with a One wing actively manages the conditions of her own safety – and does not let anyone else dictate what healing has to look like.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. 3,096 Days: Her own story as a tool</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2010 Kampusch published her autobiography "3,096 Days", adapted into a film in 2013; a second book, "10 Years of Freedom", followed in 2016. Instead of withdrawing from public view, she took control over the interpretation of her own story herself – as an author, later also as a talk show host and activist advocating for victims of violent crime.</p>
+          <p class="vb-intro">This is the SE2w1 after the crisis: the Two still seeks connection – but now with a broader audience, no longer with a single powerful person. The One wing ensures that this public role does not stay arbitrary, but follows a clear, self-imposed standard: accuracy about what happened, no minimizing, no overdramatizing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Hippopotamus that surfaced</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Natascha Kampusch still refuses to define herself exclusively as a victim – a stance that unsettles some, but that fits the SE2w1 exactly: even in the role of survivor, control over her own narrative, over her own image, remains a central concern. She refuses to be fully placed into a category others have created for her.</p>
+          <p class="vb-intro">The hippopotamus spends most of its life below the water's surface, unseen, protected – and then, when it needs to, surfaces with surprising force. Kampusch's path from captive to public voice for survivors is exactly this movement: out of hiding, controlled, on her own terms, in her own time.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-marie-antoinette", label:"Portrait: Marie Antoinette (SP2w3)"},
+          {route:"kriminalpsychologie-ulrike-meinhof", label:"Criminal Psychology: Ulrike Meinhof (SP2w1)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -54217,6 +54284,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-sahra-wagenknecht": sahraWagenknechtPortraitPage,
       "beruehmte-frida-kahlo": fridaKahloPortraitPage,
       "beruehmte-marie-antoinette": marieAntoinettePortraitPage,
+      "beruehmte-natascha-kampusch": nataschaKampuschPortraitPage,
       "beruehmte-isabella-briggs": isabellaBriggsPortraitPage,
       "beruehmte-armin-rohde": arminRohdePortraitPage,
       "beruehmte-mutter-meera": mutterMeeraPortraitPage,

@@ -24158,6 +24158,7 @@ const registerEntries = [
   { term: "Madame Tussaud",                route: "beruehmte-madame-tussaud",               description: "Portrait: SE3w4 \u00b7 Selbsterhaltender Typ 3 \u00b7 Wachsbildnerin, Museumsgr\u00fcnderin" },
   { term: "Osho",                          route: "beruehmte-osho",                        description: "Portrait: SE3w4 \u00b7 Selbsterhaltender Typ 3 \u00b7 Mystiker, Kommune-Gr\u00fcnder, Autor" },
   { term: "Oprah Winfrey",                 route: "beruehmte-oprah-winfrey",               description: "Portrait: SE2w3 \u00b7 Selbsterhaltender Typ 2 \u00b7 Moderatorin, Unternehmerin, Philanthropin" },
+  { term: "Natascha Kampusch", route: "beruehmte-natascha-kampusch", description: "Portrait: SE2w1 · Selbsterhaltende Typ 2 · Autorin und Aktivistin, 3096 Tage" },
   { term: "Marie Antoinette",              route: "beruehmte-marie-antoinette",            description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Königin von Frankreich" },
   { term: "Pamela Reif",                   route: "beruehmte-pamela-reif",                 description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 Fitness-Influencerin, Erfolg durch Verbindung" },
   { term: "Paul McCartney",                route: "beruehmte-paul-mccartney",              description: "Portrait: SE4w5 \u00b7 Selbsterhaltender Typ 4 \u00b7 Musiker, Songwriter, Ex-Beatle" },
@@ -24478,6 +24479,7 @@ const registerEntriesEN = [
   { term: "Madame Tussaud", route: "beruehmte-madame-tussaud", description: "Portrait: SP3w4 \u00b7 Self-Preservation Type 3 \u00b7 Wax sculptor, museum founder" },
   { term: "Osho", route: "beruehmte-osho", description: "Portrait: SE3w4 \u00b7 Self-Preservation Type 3 \u00b7 Mystic, commune founder, author" },
   { term: "Oprah Winfrey", route: "beruehmte-oprah-winfrey", description: "Portrait: SE2w3 \u00b7 Self-Preservation Type 2 \u00b7 TV host, entrepreneur, philanthropist" },
+  { term: "Natascha Kampusch", route: "beruehmte-natascha-kampusch", description: "Portrait: SE2w1 · Self-Preservation Type 2 · author and activist, 3096 Days" },
   { term: "Marie Antoinette", route: "beruehmte-marie-antoinette", description: "Portrait: SE2w3 · Self-Preservation Type 2 · Queen of France" },
   { term: "Pamela Reif", route: "beruehmte-pamela-reif", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 Fitness influencer, success through connection" },
   { term: "Paul McCartney", route: "beruehmte-paul-mccartney", description: "Portrait: SE4w5 \u00b7 Self-Preservation Type 4 \u00b7 Musician, songwriter, ex-Beatle" },
@@ -31470,6 +31472,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Frida Kahlo – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · 1907–1954. Mexikanische Malerin, rund 200 Gemälde, 55 Selbstporträts. Der eigene Körper als erstes Terrain der Fürsorge, Schmerz, der zum unverwechselbaren Bild wird. Tierentsprechung: Flusspferd.",
     tags:["Kunst"], gender:"f"},
+  { route:"beruehmte-natascha-kampusch", name:"Natascha Kampusch", added:"2026-08-16", subtyp:"SE2w1",
+    heading:"Natascha Kampusch – Selbsterhaltende Typ 2",
+    teaser:"SE2w1 · geb. 1988. Autorin und Aktivistin, 3096 Tage in Gefangenschaft, Buch '3096 Tage'. Überlebte durch Beziehungsregulation, hielt sich durch Selbstdisziplin. Das Flusspferd, das kontrolliert an die Oberfläche kommt. Tierentsprechung: Flusspferd.",
+    tags:["Gesellschaft"], gender:"f"},
   { route:"beruehmte-marie-antoinette", name:"Marie Antoinette", added:"2026-08-15", subtyp:"SE2w3",
     heading:"Marie Antoinette – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · 1755–1793. Königin von Frankreich. Pouf-Frisuren, Hameau de la Reine, Halsbandaffäre. Das Flusspferd, dessen glänzende Oberfläche schützte und am Ende zur Bürde wurde. Tierentsprechung: Flusspferd.",
@@ -48523,6 +48529,70 @@ function sophieMarceauPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-diego-velazquez", label:"Portr\xe4t: Diego Vel\xe1zquez (SX9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
+function nataschaKampuschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-natascha-kampusch-portrait.jpg" alt="Flusspferd" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Natascha Kampusch</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltende Typ 2 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Autorin und Aktivistin, geb. 1988 &ndash; 3096 Tage in Gefangenschaft &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, dessen Haut eine eigene, r\xf6tliche Absonderung produziert, die wie ein nat\xfcrlicher Schutzfilm wirkt: Sie h\xe4lt die empfindliche Oberfl\xe4che geschmeidig und macht das Tier auf Anhieb unverwechselbar. Was von au\xdfen verletzlich wirkt, ist in Wahrheit ein sorgf\xe4ltig funktionierendes \xdcberlebenssystem &ndash; unter Wasser, geschützt, kaum sichtbar, und doch fähig, sich bei Bedarf mit enormer Kraft zu behaupten.</p>
+          <p class="vb-intro">Natascha Kampusch wurde 1998, im Alter von zehn Jahren, auf dem Schulweg entf\xfchrt und acht Jahre lang in einem f\xfcnf Quadratmeter kleinen, fast luftdichten Kellerverlies gefangen gehalten, bevor ihr 2006 die Flucht gelang. Dass sie diese Jahre \xfcberlebte &ndash; k\xf6rperlich und psychisch &ndash;, ist genau das, was das Flusspferd verk\xf6rpert: ein Wesen, das unter extremem Druck einen eigenen Schutzraum aufbaut und darin funktionsf\xe4hig bleibt, wo andere zerbrechen w\xfcrden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: \xdcberleben durch Beziehung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> ist nach Naranjo der Subtyp, den er &bdquo;Verf\xfchrerisches Kind&ldquo; nannte &ndash; eine fr\xfch entwickelte F\xe4higkeit, sich das Wohlwollen wichtiger Bezugspersonen zu sichern, indem man sich unentbehrlich, angenehm oder n\xfctzlich macht. In Kampuschs Fall wurde diese Strategie zur buchst\xe4blichen \xdcberlebenstechnik: Sie berichtete sp\xe4ter, dass sie ihren Entf\xfchrer Wolfgang Priklopil in dessen depressiven Phasen tr\xf6stete, ihm zuredete, ihn stabil hielt &ndash; nicht aus Zuneigung, sondern weil ihr eigenes \xdcberleben direkt an seine Stabilit\xe4t gekoppelt war.</p>
+          <p class="vb-intro">Diese Anpassungsleistung wurde \xf6ffentlich oft als &bdquo;Stockholm-Syndrom&ldquo; etikettiert &ndash; ein Begriff, den Kampusch selbst als respektlos zur\xfcckweist. Aus enneagrammatischer Sicht ist es pr\xe4ziser zu sagen: Die SE2 sichert unter extremer Bedrohung ihr \xdcberleben, indem sie die emotionale Verfassung der m\xe4chtigeren Person reguliert &ndash; eine hochfunktionale, wenn auch zutiefst schmerzhafte Anpassung an eine Situation ohne andere Handlungsoption.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\xfcgel: Struktur als Rettungsanker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SE2 mit schw\xe4cher ausgepr\xe4gtem Einserfl\xfcgel h\xe4tte sich in der Gefangenschaft m\xf6glicherweise ganz auf die Beziehung zum T\xe4ter konzentriert. Bei Kampusch trat zus\xe4tzlich etwas anderes hervor: Disziplin, Ordnung, ein innerer Anspruch an sich selbst, der auch unter unm\xf6glichen Bedingungen nicht verschwand. Sie brachte sich w\xe4hrend der Gefangenschaft selbst Lesen, Schreiben und Wissen bei, h\xf6rte Radio, verfolgte das Weltgeschehen und hielt an einer selbst auferlegten Tagesstruktur fest.</p>
+          <p class="vb-intro">Das ist der Einserfl\xfcgel: das Bed\xfcrfnis, auch im Ausnahmezustand ein Ma\xdf an Ordnung und Selbstdisziplin aufrechtzuerhalten &ndash; nicht aus Zwang von au\xdfen, sondern als eigener, innerer Halt. Wo die Beziehungsanpassung der Zwei sie physisch am Leben hielt, hielt der Einserfl\xfcgel ihren Verstand und ihre Identit\xe4t intakt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Flucht und das Haus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 23. August 2006 gelang Kampusch die Flucht; ihr Entf\xfchrer nahm sich noch am selben Tag das Leben. In den Jahren danach traf sie eine Entscheidung, die \xf6ffentlich massive Kritik ausl\xf6ste: Sie kaufte das Haus, in dem sie acht Jahre gefangen gehalten worden war, und lebt zeitweise dort. F\xfcr viele Beobachter wirkte das unverst\xe4ndlich, fast wie ein weiterer Beleg f\xfcr eine ungel\xf6ste Bindung an den T\xe4ter.</p>
+          <p class="vb-intro">Aus der Perspektive der SE2w1 ergibt der Schritt Sinn: Es ging nicht um Sehnsucht nach dem T\xe4ter, sondern um Kontrolle \xfcber den eigenen Schutzraum. Kampusch selbst begr\xfcndete den Kauf damit, verhindern zu wollen, dass das Haus zu einem Ort morbider Neugier oder eines &bdquo;Horror-Tourismus&ldquo; wird. Die selbsterhaltende Zwei mit Einserfl\xfcgel regelt aktiv die Bedingungen ihrer eigenen Sicherheit &ndash; und l\xe4sst sich dabei von niemandem vorschreiben, was Heilung bedeuten muss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. 3096 Tage: Die eigene Geschichte als Werkzeug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2010 ver\xf6ffentlichte Kampusch ihre Autobiografie &bdquo;3096 Tage&ldquo;, 2013 verfilmt, 2016 folgte mit &bdquo;10 Jahre Freiheit&ldquo; ein zweites Buch. Statt sich aus der \xf6ffentlichen Wahrnehmung zur\xfcckzuziehen, nahm sie die Deutungshoheit \xfcber die eigene Geschichte selbst in die Hand &ndash; als Autorin, sp\xe4ter auch als Talkshow-Moderatorin und Aktivistin, die sich f\xfcr Opfer von Gewaltverbrechen einsetzt.</p>
+          <p class="vb-intro">Das ist die SE2w1 nach der Krise: Die Zwei sucht weiterhin Verbindung &ndash; jetzt aber zu einem breiteren Publikum, nicht mehr zu einer einzelnen m\xe4chtigen Person. Der Einserfl\xfcgel sorgt daf\xfcr, dass diese \xf6ffentliche Rolle nicht beliebig bleibt, sondern einem klaren, selbst gesetzten Ma\xdfstab folgt: Genauigkeit \xfcber das Geschehene, keine Verharmlosung, keine \xdcberdramatisierung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Flusspferd, das an die Oberfl\xe4che kam</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Natascha Kampusch weigert sich bis heute, sich selbst ausschlie\xdflich als Opfer zu definieren &ndash; eine Haltung, die manche irritiert, die aber genau der SE2w1 entspricht: Selbst in der Rolle der \xdcberlebenden bleibt die Kontrolle \xfcber die eigene Erz\xe4hlung, \xfcber das eigene Bild, ein zentrales Anliegen. Sie l\xe4sst sich nicht vollst\xe4ndig in eine Kategorie einordnen, die andere f\xfcr sie geschaffen haben.</p>
+          <p class="vb-intro">Das Flusspferd verbringt einen Gro\xdfteil seines Lebens unter der Wasseroberfl\xe4che, unsichtbar, gesch\xfctzt &ndash; und kommt dann, wenn es n\xf6tig ist, mit \xfcberraschender Kraft an die Oberfl\xe4che. Kampuschs Weg von der Gefangenen zur \xf6ffentlichen Stimme f\xfcr Betroffene ist genau diese Bewegung: aus dem Verborgenen heraus, kontrolliert, auf eigenen Bedingungen, in eigener Zeit.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-marie-antoinette", label:"Portr\xe4t: Marie Antoinette (SE2w3)"},
+          {route:"kriminalpsychologie-ulrike-meinhof", label:"Portr\xe4t: Ulrike Meinhof (SE2w1)"},
         ])}
       </div>
     </div>
@@ -88549,6 +88619,7 @@ function render() {
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-frida-kahlo": fridaKahloPortraitPage,
       "beruehmte-marie-antoinette": marieAntoinettePortraitPage,
+      "beruehmte-natascha-kampusch": nataschaKampuschPortraitPage,
       "beruehmte-isabella-briggs": isabellaBriggsPortraitPage,
       "beruehmte-armin-rohde": arminRohdePortraitPage,
       "beruehmte-mutter-meera": mutterMeeraPortraitPage,
