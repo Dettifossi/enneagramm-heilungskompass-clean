@@ -24051,6 +24051,7 @@ const registerEntries = [
     { term: "Adele Neuhauser", route: "beruehmte-adele-neuhauser", description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Schauspielerin, Bibi Fellner, Tatort, \u00d6sterreichischer Filmpreis, Krokodil" },
     { term: "Adele Neuhauser", route: "beruehmte-adele-neuhauser", description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Schauspielerin, Bibi Fellner, Tatort, \u00d6sterreichischer Filmpreis, Krokodil" },
     { term: "Pablo Picasso", route: "beruehmte-pablo-picasso", description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Maler, Bildhauer, Kubismus, Guernica, Krokodil" },
+    { term: "Byron Katie", route: "beruehmte-byron-katie", description: "Portrait: SX6w7 \u00b7 Sexueller Typ 6 \u00b7 Autorin, Begr\u00fcnderin von The Work, Wolf" },
   { term: "Donald Trump",                  route: "beruehmte-donald-trump",                description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 US-Pr\u00e4sident, Medienprovokateur" },
   { term: "Donata Hopfen",                 route: "beruehmte-donata-hopfen",               description: "Portrait: SO6w7 \u00b7 Sozialer Typ 6 \u00b7 Ex-CEO Bild & DFL, geb. 1976 Hamburg" },
   { term: "Edward Snowden",                route: "beruehmte-edward-snowden",              description: "Portrait: SX5w6 \u00b7 Sexueller Typ 5 \u00b7 NSA-Whistleblower" },
@@ -31991,6 +31992,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Anke Engelke \u2013 Sexueller Typ 6",
     teaser:"SX6w7 \u00b7 geb. 1965. Komikerin, Schauspielerin, Entertainerin, S\u00e4ngerin, Synchronsprecherin, Moderatorin. Mut durch Erscheinen: die SX6, die Angst in Energie und Humor verwandelt. Tierentsprechung: Wolf.",
     tags:["Medien","Kunst"] , gender:"f"},
+  { route:"beruehmte-byron-katie", name:"Byron Katie", added:"2026-08-16", subtyp:"SX6w7",
+    heading:"Byron Katie – Sexueller Typ 6",
+    teaser:"SX6w7 · geb. 1942 in Barstow, Kalifornien. Autorin, Begründerin von ›The Work‹. Ein Jahrzehnt Depression und Agoraphobie, dann 1986 die radikale Umkehr: der eigenen Angst mit vier Fragen direkt ins Gesicht sehen. Tierentsprechung: Wolf.",
+    tags:["Psychologie"], gender:"f"},
   { route:"beruehmte-jennifer-aniston", name:"Jennifer Aniston", added:"2026-08-14", subtyp:"SX6w7",
     heading:"Jennifer Aniston – Sexueller Typ 6",
     teaser:"SX6w7 · geb. 1969 in Sherman Oaks. Schauspielerin und Produzentin, Rachel Green in ›Friends‹. Stärke als Antwort auf die Angst, Solidarität mit dem Rudel statt Konkurrenz. Tierentsprechung: Wolf.",
@@ -45372,6 +45377,71 @@ function jenniferAnistonPortraitPage() {
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
         {route:"beruehmte-brad-pitt", label:"Porträt: Brad Pitt (SX3w2) – ehemaliger Ehemann"},
+      ])}
+    </div>
+  `);
+}
+
+function byronKatiePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-byron-katie-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Byron Katie</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Autorin &amp; Begründerin von „The Work", geb. 1942 in Barstow, Kalifornien – Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Tier, das der Bedrohung nicht ausweicht, sondern sie direkt ansieht. Wölfe testen sich gegenseitig durch Blickkontakt und Nähe, nicht durch Rückzug. Wer im Rudel bestehen will, muss standhalten können, wenn es unbequem wird – genau das ist die Bewegung, die Byron Katie zu ihrem Lebenswerk gemacht hat: der eigenen Angst nicht auszuweichen, sondern sie direkt anzuschauen, Frage für Frage.</p>
+          <p class="vb-intro">Byron Kathleen Reid, 1942 in der Wüstenstadt Barstow, Kalifornien, geboren, war in den 1970er-Jahren eine erfolgreiche Geschäftsfrau in der Immobilienbranche, verheiratet, Mutter dreier Kinder. Nichts an diesem Leben deutete auf das hin, was folgte: ein fast vollständiger innerer Zusammenbruch – und daraus geboren eine der einflussreichsten Selbsterkenntnismethoden der Gegenwart.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Der Abgrund vor der Wende (Kontratyp)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist der Kontratyp der Sechs: Sie zeigt ihre Angst nicht durch Rückzug, sondern begegnet ihr mit Stärke und direkter Konfrontation. Naranjo nannte diesen Subtyp <em>Strength</em>. Doch bevor diese Stärke sichtbar wird, durchlebt die SX6 oft die Angst in ihrer rohesten Form – ungefiltert, überwältigend, kaum zu ertragen.</p>
+          <p class="vb-intro">Über etwa zehn Jahre hinweg versank Byron Katie in einer immer tieferen Depression: Wutausbrüche, Paranoia, Agoraphobie – sie konnte irgendwann das Haus nicht mehr verlassen –, Suizidgedanken, Medikamenten- und Alkoholmissbrauch. Am Ende dieser Abwärtsspirale nahm sie eine Einrichtung für Frauen mit Essstörungen auf, weil keine andere Einrichtung sie noch behandeln wollte. Das ist die Angst der Sechs in ihrer reinsten, unbearbeiteten Form – bevor der Kontratyp sich zu ihr umdreht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Februar 1986: Die Umkehr auf dem Boden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1986, auf dem Boden dieser Einrichtung liegend, erlebte Byron Katie einen Moment, den sie selbst als vollständige, unvermittelte Erkenntnis beschreibt: <em>Wenn ich meinen Gedanken glaubte, litt ich. Wenn ich ihnen nicht glaubte, litt ich nicht.</em> Kein allmählicher Prozess, keine Therapiesitzung, kein Auslöser, den sie benennen könnte – sondern ein Umschlagpunkt, nach dem sie sich selbst als grundlegend verändert erlebte: durchgehend heiter, ohne die Wut und Verzweiflung, die sie ein Jahrzehnt begleitet hatten.</p>
+          <p class="vb-intro">Als sie nach Hause zurückkehrte, reagierte ihre Familie zunächst mit Verwirrung und Sorge – die Veränderung war so abrupt und so vollständig, dass manche sie für einen weiteren psychischen Ausnahmezustand hielten, nicht für eine Heilung. Für die sexuelle Sechs ist das die radikalste Form der Konfrontation: nicht die Angst zu bekämpfen, sondern die Gedanken zu hinterfragen, die sie erzeugen – so lange, bis nichts mehr übrig bleibt, dem man ausweichen müsste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Vier Fragen als Waffe gegen die Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Aus dieser Erfahrung entwickelte Byron Katie eine Methode, die sie <em>The Work</em> nannte: vier Fragen, die auf jeden belastenden Gedanken angewendet werden können – <em>Ist das wahr? Kannst du absolut sicher wissen, dass es wahr ist? Wie reagierst du, wenn du diesen Gedanken glaubst? Wer wärst du ohne diesen Gedanken?</em> – gefolgt von der <em>Umkehrung</em>, bei der der Gedanke ins Gegenteil oder auf einen selbst gewendet wird.</p>
+          <p class="vb-intro">Das Buch <em>Loving What Is</em> (2002), gemeinsam mit ihrem Ehemann, dem renommierten Übersetzer Stephen Mitchell verfasst, wurde zum internationalen Bestseller. Was diese Methode von vielen anderen Selbsthilfeansätzen unterscheidet, ist ihre Direktheit: Byron Katie weicht keiner Frage aus, keinem Schmerz, keiner Konfrontation. In öffentlichen Sitzungen – bekannt als <em>Workings</em> – führt sie Teilnehmer live und ungeschönt vor Publikum durch ihre schmerzhaftesten Überzeugungen. Das ist reine SX6-Energie: sich der Sache stellen, nicht um sie herumgehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Siebenerflügel: Freude als Methode</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> gibt der sexuellen Sechs eine Leichtigkeit, die die reine SX6 nicht hätte: Humor, Spielfreude, eine Fähigkeit, selbst die schwersten Themen mit einem Lächeln zu berühren, ohne sie zu verharmlosen. Byron Katies öffentlicher Stil ist bekannt für genau diese Mischung – sie lacht oft, mitten in den intensivsten Gesprächen, nicht aus Distanz, sondern aus einer tiefen, fast kindlichen Freude an dem, was gerade geschieht.</p>
+          <p class="vb-intro">Ihr Buch <em>A Thousand Names for Joy</em> (2007) trägt diese Qualität schon im Titel. Die SX6w7 sucht nicht nur die Konfrontation mit der Angst – sie sucht danach die Freude, die entsteht, wenn der Kampf gegen die Realität endet. Das ist der Unterschied zur reinen SX6: Wo diese in der Konfrontation verharren könnte, führt der Siebenerflügel weiter, zu etwas Leichterem dahinter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 ist ihre kompromisslose Bereitschaft, sich selbst und andere mit dem zu konfrontieren, was am meisten schmerzt – nicht aus Härte, sondern aus der Überzeugung, dass genau dort die Freiheit liegt. Millionen Menschen weltweit haben an Byron Katies Seminaren, dem <em>School for The Work</em>, teilgenommen oder ihre Bücher gelesen, viele mit dem Gefühl, zum ersten Mal wirklich gehört worden zu sein.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kritik, die ihrer Methode seit Jahren begegnet: Manche werfen ihr vor, komplexe seelische Notlagen – Trauma, Missbrauch, klinische Depression – zu stark auf die Frage nach der Wahrheit eines Gedankens zu reduzieren, als könne jedes Leid allein durch Selbstbefragung aufgelöst werden. Für die SX6 ist die direkte Konfrontation die eigene Rettung gewesen – doch nicht jeder Schmerz lässt sich mit derselben Methode auflösen, mit der sie den ihren überwand. Die reife SX6w7 weiß: Mut zur Wahrheit ersetzt nicht immer die Notwendigkeit von Zeit, Begleitung und Geduld.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-jennifer-aniston", label:"Porträt: Jennifer Aniston (SX6w7)"},
+        {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
       ])}
     </div>
   `);
@@ -87568,6 +87638,7 @@ function render() {
       "beruehmte-michael-schumacher": michaelSchumacherPortraitPage,
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
       "beruehmte-jennifer-aniston": jenniferAnistonPortraitPage,
+      "beruehmte-byron-katie": byronKatiePortraitPage,
       "beruehmte-scarlett-johansson": scarlettJohanssonPortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
