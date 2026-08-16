@@ -655,6 +655,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Anke Engelke – Sexual Type 6",
     teaser:"SX6w7 · born 1965. Comedian, actress, entertainer, singer, voice actress, presenter. Courage through showing up: the SX6 that transforms fear into energy and humor. Animal correspondence: Wolf.",
     tags:["Medien","Kunst"] },
+  { route:"beruehmte-katja-riemann", name:"Katja Riemann", added:"2026-08-16", subtyp:"SX6w7",
+    heading:"Katja Riemann – Sexual Type 6",
+    teaser:"SX6w7 · born 1963 in Bad Kreuznach. Actress and musician, ‘Maybe… Maybe Not’, ‘Nowhere in Africa’, ‘Rosenstrasse’. The wolf who meets every conflict with plain speech and keeps venturing into new artistic territory. Animal correspondence: Wolf.",
+    tags:["Schauspiel","Musik"] },
   { route:"beruehmte-byron-katie", name:"Byron Katie", added:"2026-08-16", subtyp:"SX6w7",
     heading:"Byron Katie – Sexual Type 6",
     teaser:"SX6w7 · born 1942 in Barstow, California. Author, founder of ‘The Work’. A decade of depression and agoraphobia, then in 1986 the radical turn: facing her own fear head-on with four questions. Animal correspondence: Wolf.",
@@ -26310,6 +26314,65 @@ function byronKatiePortraitPage() {
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-jennifer-aniston", label:"Portrait: Jennifer Aniston (SX6w7)"},
         {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function katjaRiemannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-katja-riemann-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Katja Riemann</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Actress &amp; musician, born 1963 in Bad Kreuznach &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Type 6 &ndash; an animal that does not avoid threat, but looks it straight in the eye. It tests, holds eye contact, bares its teeth when it must. Hardly any German actress embodies this directness as consistently as Katja Riemann: known not only for her roles, but for interviews in which she holds nothing back.</p>
+          <p class="vb-intro">Born in 1963 in Bad Kreuznach and trained at the Folkwang drama school in Essen, Riemann became a star of German cinema overnight with <em>Der bewegte Mann</em> (1994), alongside Til Schweiger. But unlike many who follow their first major success with something similar, she has since shifted consistently between comedy, musical film, and historical drama &ndash; with a willingness to take risks that has become rare.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Plain Speech Over Diplomacy (Countertype)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Six (SX6)</strong> is the countertype of the Six: it does not show its fear through withdrawal, but meets it with strength, directness, and a presence that shies away from no confrontation. Naranjo called this subtype <em>Strength</em>. Rather than avoiding conflict, the SX6 tends to seek it out &ndash; because clarity gives it more security than diplomatic silence.</p>
+          <p class="vb-intro">For decades, Riemann has been known for exactly this stance: in interviews, she speaks bluntly on political and social issues &ndash; war, the causes of displacement, social inequality &ndash; often with a sharpness that has drawn public disagreement and criticism. She does not shy away from it. Whoever attacks her publicly gets an answer, not a retreat. This is the SX6 in its purest form: taking a stand, even when it becomes uncomfortable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Versatility as Appetite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the sexual Six a quality the pure SX6 would not have: an appetite for the new, playfulness, the pleasure of venturing again and again into unfamiliar territory. Where the pure Six might feel safe in a proven role, the SX6w7 seeks out the next risk &ndash; not out of restlessness, but out of genuine curiosity.</p>
+          <p class="vb-intro">Riemann's filmography shows exactly this range: the screwball comedy <em>Der bewegte Mann</em> (1994), the musical drama <em>Bandits</em> (1997), in which she played drums and sang herself as part of a fictional all-female band, the serious historical drama <em>Nowhere in Africa</em> (2001, Academy Award for Best Foreign Language Film), and <em>Rosenstrasse</em> (2003), about German women protesting the deportation of their Jewish husbands. No genre in which she settled permanently. The Seven-wing keeps pushing her further.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Music: A Second Foothold</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">That Riemann recorded her own vocal and instrumental parts for <em>Bandits</em> was no one-time exercise: she later released her own music projects and performed as a singer outside of film as well. For an established actress of her stature, this is an unusual step &ndash; one that carries the risk of being judged in an unfamiliar field, where she had no established reputation to lose, but also none to gain.</p>
+          <p class="vb-intro">This is typical for the SX6w7: security arises not from clinging to what is proven, but from the repeated experience of holding one's own even in uncertainty. Each new territory successfully entered confirms that inner certainty anew.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w7 is her courage to take a public stand where others prefer to stay silent, while remaining artistically mobile instead of relying on a once-successful formula. Over three decades, Riemann has established herself as one of the most versatile German actresses &ndash; honored, among other awards, with multiple Bambis, the Bavarian Film Award, and the Golden Camera.</p>
+          <p class="vb-intro">The shadow of the SX6 shows in the uncompromising way she defends her positions: what begins as courage to take a clear stance can also, in public debate, be perceived as a taste for confrontation that leaves little room for nuance. For the sexual Six, this is the price of its own strength &ndash; whoever never withdraws inevitably also collides where a retreat would have been wiser.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3) – co-star in ‘Der bewegte Mann’"},
+        {route:"beruehmte-byron-katie", label:"Portrait: Byron Katie (SX6w7)"},
       ])}
     </div>
   `);
@@ -53292,6 +53355,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
       "beruehmte-jennifer-aniston": jenniferAnistonPortraitPage,
       "beruehmte-byron-katie": byronKatiePortraitPage,
+      "beruehmte-katja-riemann": katjaRiemannPortraitPage,
       "beruehmte-scarlett-johansson": scarlettJohanssonPortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
