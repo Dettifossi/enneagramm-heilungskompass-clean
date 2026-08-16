@@ -24082,6 +24082,7 @@ const registerEntries = [
   { term: "G\u00fcnther Jauch",              route: "beruehmte-guenther-jauch",              description: "Portrait: SO5w6 \u00b7 Sozialer Typ 5 \u00b7 TV-Moderator, Wer wird Million\u00e4r" },
     { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bundeskanzlerin 2005\u20132021, Elefant" },
     { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bundeskanzlerin 2005\u20132021, Elefant" },
+    { term: "Carmen Goglin", route: "beruehmte-carmen-goglin", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Lachtrainerin, Coachin, Gr\u00fcnderin der Reutlinger Lachschule" },
   { term: "David Hume",                    route: "beruehmte-david-hume",                  description: "Portrait: SE9w8 \u00b7 Selbsterhaltender Typ 9 \u00b7 Philosoph, radikaler Skeptizismus" },
   { term: "Baruch de Spinoza",             route: "beruehmte-spinoza",                     description: "Portrait: SE5w6 \u00b7 Selbsterhaltender Typ 5 \u00b7 Philosoph, Rationalist, 1632\u20131677" },
   { term: "Hermann Hesse",                 route: "beruehmte-hermann-hesse",               description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Schriftsteller, Nobelpreisträger" },
@@ -24400,6 +24401,7 @@ const registerEntriesEN = [
   { term: "Greta Thunberg", route: "beruehmte-greta-thunberg", description: "Portrait: SE2w1 \u00b7 Self-Preservation Type 2 \u00b7 Climate activist, Fridays for Future" },
   { term: "G\u00fcnther Jauch", route: "beruehmte-guenther-jauch", description: "Portrait: SO5w6 \u00b7 Social Type 5 \u00b7 TV host, Who Wants to Be a Millionaire" },
   { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Federal Chancellor 2005\u20132021, Elephant" },
+  { term: "Carmen Goglin", route: "beruehmte-carmen-goglin", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 laughter-yoga trainer, coach, founder of the Reutlingen Laughter School" },
   { term: "David Hume", route: "beruehmte-david-hume", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Philosopher, radical skepticism" },
   { term: "Baruch de Spinoza", route: "beruehmte-spinoza", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 Philosopher, rationalist, 1632\u20131677" },
   { term: "Hermann Hesse", route: "beruehmte-hermann-hesse", description: "Portrait: SE5w6 · Self-Preservation Type 5 · Writer, Nobel laureate" },
@@ -32246,6 +32248,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Angela Merkel \u2013 Selbsterhaltende Typ 9",
     teaser:"SE9w8 \u00b7 geb. 1954. Bundeskanzlerin 2005\u20132021. Sechzehn Jahre Aussitzen, Entscheiden, Beharren \u2013 und ein Erbe voller Widerspr\u00fcche. Der Elefant, der sich in seinem eigenen Rhythmus bewegt. Manchmal Weisheit. Manchmal Stillstand.",
     tags:["Politik"], gender:"f"},
+  { route:"beruehmte-carmen-goglin", name:"Carmen Goglin", added:"2026-08-16", subtyp:"SE9w8",
+    heading:"Carmen Goglin – Selbsterhaltende Typ 9",
+    teaser:"SE9w8 · Lachtrainerin, Coachin und Autorin, Gründerin der Reutlinger Lachschule. Vom Personalwesen zum viralen Lachyoga-Phänomen nach der Finch-Parodie 2020/21. Der Elefant, der trompeten kann. Tierentsprechung: Elefant.",
+    tags:["Gesellschaft"], gender:"f"},
   { route:"beruehmte-thomas-von-aquin", name:"Thomas von Aquin", added:"2026-08-14", subtyp:"SE9w8",
     heading:"Thomas von Aquin – Selbsterhaltender Typ 9",
     teaser:"SE9w8 · ca. 1225–1274. Italienischer Theologe und Philosoph, Summa Theologica, Begründer des Thomismus. Der ›stumme Ochse‹, der ein Jahr Gefangenschaft unbewegt überstand. Der Elefant mit Achterflügel: Gelassenheit als tägliche Praxis, Unbeugsamkeit im entscheidenden Moment. Tierentsprechung: Elefant.",
@@ -48243,6 +48249,70 @@ function angelaMerkelPortraitPage() {
           {route:"astrologie-angela-merkel", label:"Enneagramm meets Astrologie: Angela Merkel (SE9w8)"},
           {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
           {route:"beruehmte-james-levine", label:"Portr\xe4t: James Levine (SE9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
+function carmenGoglinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-carmen-goglin-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carmen Goglin</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltende Typ 9 mit Achterfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Lachtrainerin, Coachin, Autorin &ndash; Gr\xfcnderin der Reutlinger Lachschule &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier der selbsterhaltenden Neun &ndash; gro\xdf, gelassen, unersch\xfctterlich in seiner Pr\xe4senz. Carmen Goglin bringt genau diese Qualit\xe4t auf die B\xfchne, nur mit einer Zutat, die man beim Elefanten nicht erwartet: L\xe4rm. Ihr Lachen ist unverstellt, laut, ansteckend &ndash; und genau darin liegt die Verbindung. Ein Elefant, der beschlossen hat, dass Gelassenheit auch tosend sein kann.</p>
+          <p class="vb-intro">Goglin arbeitete \xfcber zwanzig Jahre im Personalwesen, bevor sie 2012 das Lachyoga entdeckte und direkt bei dessen Begr\xfcnder, Dr. Madan Kataria, ausgebildet wurde. Sie gr\xfcndete die Reutlinger Lachschule &ndash; ein Schritt, der wenig spektakul\xe4r aussieht, aber typisch selbsterhaltend ist: kein lauter Neuanfang, sondern der geduldige Aufbau einer eigenen, stabilen Basis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Komfort als Auftrag</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> ist nach Naranjo der Subtyp, den er <em>Appetit</em> nannte &ndash; die Fokussierung auf k\xf6rperlichen Komfort, Gem\xfctlichkeit und kleine Genussrituale als Weg, sich selbst zu beruhigen und im eigenen Zentrum zu bleiben. Bei Goglin ist dieser &bdquo;Appetit&ldquo; zum Beruf geworden: Sie vermittelt anderen genau das, was die SE9 f\xfcr sich selbst sucht &ndash; K\xf6rperentspannung, Leichtigkeit, das Gef\xfchl, dass gerade nichts dringend ist.</p>
+          <p class="vb-intro">Lachyoga selbst ist im Kern eine SE9-Methode: kein Analysieren, kein Reden \xfcber Probleme, sondern eine k\xf6rperliche Praxis, die Anspannung direkt aufl\xf6st. Man muss nicht verstehen, warum man lacht &ndash; der K\xf6rper macht es einfach, und der Kopf folgt. Das ist die Neun in Reinkultur: nicht durch Nachdenken zur Ruhe kommen, sondern durch Tun.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\xfcgel: Warum aus einer Trainerin eine Marke wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine reine Neun h\xe4tte ihre Lachschule vermutlich klein und lokal gehalten. Der <strong>Achterfl\xfcgel</strong> bringt etwas anderes mit: Durchsetzungskraft, eine gewisse Unerschrockenheit, die Bereitschaft, sich zu zeigen, auch wenn es unbequem wird. Ende 2020/Anfang 2021 griff der Rapper Finch (&bdquo;Finch Asozial&ldquo;) Videos von Goglins ungefiltertem Lachen auf und parodierte sie &ndash; und statt sich zur\xfcckzuziehen, nutzte Goglin die pl\xf6tzliche Aufmerksamkeit. Auftritte im SAT.1 Fr\xfchst\xfccksfernsehen, bei SWR1 Leute und im World Wide Wohnzimmer folgten, dazu eine Werbekampagne f\xfcr Aldi.</p>
+          <p class="vb-intro">Das ist die SE9w8-Bewegung im Kleinen: Die Neun h\xe4tte den viralen Moment vielleicht ausgesessen, bis er von selbst vor\xfcbergeht. Der Achterfl\xfcgel sagte stattdessen: Jetzt ist die Gelegenheit, und man ergreift sie. Goglin blieb dabei erkennbar dieselbe Person &ndash; keine Neuerfindung, kein Imagewechsel &ndash; sondern schlicht mehr B\xfchne f\xfcr das, was sie ohnehin tat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Vom Personalwesen zur Lachtrainerin: Ein Wechsel ohne Bruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mehr als zwanzig Jahre im Personalwesen, dann ein Neuanfang mit dem Lachyoga &ndash; auf den ersten Blick ein radikaler Schnitt. Bei n\xe4herem Hinsehen ist es eher eine Verschiebung des Fokus, wie sie f\xfcr die selbsterhaltende Neun typisch ist: In der Personalarbeit ging es um Menschen, um das Ausgleichen von Spannungen im Betrieb, um das Herstellen von Funktionsf\xe4higkeit. Beim Lachyoga geht es um dasselbe Grundthema &ndash; nur direkter und k\xf6rperlicher.</p>
+          <p class="vb-intro">Die Neun wechselt selten abrupt das Fach. Sie l\xe4sst eine Sache lange reifen, bis der n\xe4chste Schritt fast von selbst folgt. Goglins Weg vom B\xfcro in die Lachschule liest sich genau so: keine Kehrtwende, sondern eine konsequente Fortsetzung desselben Anliegens mit anderen Mitteln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. &bdquo;Oma geht viral&ldquo;: Die eigene Geschichte als Material</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2024 ver\xf6ffentlichte Goglin ihr Buch &bdquo;Oma geht viral&ldquo; &ndash; ein Titel, der die eigene Erfahrung selbstironisch verarbeitet, statt sie zu verstecken. Dass eine Frau jenseits der \xfcblichen Influencer-Zielgruppe pl\xf6tzlich viral geht und dann selbst erz\xe4hlt, wie das war, passt zur SE9w8: Man nimmt eine Situation, die man nicht gesucht hat, an &ndash; und macht ohne gro\xdfe Dramatik etwas Brauchbares daraus.</p>
+          <p class="vb-intro">Heute arbeitet Goglin als Keynote-Speakerin und Business-Coach und bietet Lachtrainings f\xfcr Unternehmen an. Die Verbindung aus Personalwesen-Erfahrung und Lachyoga-Expertise gibt ihr dabei eine Glaubw\xfcrdigkeit, die eine reine Entertainerin nicht h\xe4tte: Sie kennt beide Seiten &ndash; die n\xfcchterne Betriebswelt und die k\xf6rperliche L\xf6sung f\xfcr deren Anspannung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Elefant, der laut wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carmen Goglin zeigt eine Seite der selbsterhaltenden Neun, die im \xf6ffentlichen Bild dieses Subtyps oft fehlt: dass Gelassenheit nicht leise sein muss. Der Elefant mit Achterfl\xfcgel kann trompeten &ndash; und wenn er es tut, h\xf6rt man es im ganzen Raum. Genau dieses Paradox, ruhig im Wesen und laut im Ausdruck zu sein, ist der Kern ihrer \xf6ffentlichen Figur.</p>
+          <p class="vb-intro">Was bleibt, ist eine Karriere, die aus Komfort, Beharrlichkeit und einem einzigen viralen Moment gebaut wurde &ndash; ohne dass Goglin dabei aufh\xf6rte, sie selbst zu sein. Das ist die stille Best\xe4tigung des Achterfl\xfcgels: Man muss sich nicht neu erfinden, um gesehen zu werden. Man muss nur laut genug lachen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+          {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
         ])}
       </div>
     </div>
@@ -88150,6 +88220,7 @@ function render() {
     "beruehmte-genesis-p-orridge": genesisPOrridgePortraitPage,
           "beruehmte-eli-jaxon-bear": eliJaxonBearPortraitPage,
           "beruehmte-angela-merkel": angelaMerkelPortraitPage,
+          "beruehmte-carmen-goglin": carmenGoglinPortraitPage,
     "beruehmte-david-hume": davidHumePortraitPage,
     "beruehmte-thomas-von-aquin": thomasVonAquinPortraitPage,
     "beruehmte-spinoza": spinozaPortraitPage,
