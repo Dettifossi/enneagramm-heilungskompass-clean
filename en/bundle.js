@@ -154,6 +154,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-armin-meiwes",       name:"Armin Meiwes",                         subtyp:"SX6w5",  heading:"Armin Meiwes \u2013 Sexual Type 6",                                      teaser:"SX6w5 – ‘The Cannibal of Rotenburg’, born 1961. Voluntary cannibalism case 2001 – the sexual Six with Five-wing: fear of being alone as absolute, deadly longing for merger. Animal correspondence: Wolf." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-charles-manson",      name:"Charles Manson",                       subtyp:"SX6w7",  heading:"Charles Manson \u2013 Sexual Type 6",                                     teaser:"SX6w7 – Cult founder and mastermind, 1934–2017. Tate-LaBianca murders 1969 – the sexual Six with Seven-wing: fear as charisma, control through surrender. Animal correspondence: Wolf." , tags:["Terror","Missbrauch"]},
   { route:"kriminalpsychologie-niels-hoegel",        name:"Niels H\xf6gel",                     subtyp:"SE7w8",  heading:"Niels H\xf6gel \u2013 Self-Preservation Type 7",                            teaser:"SP7w8 – Nurse and serial killer, born 1976. At least 85 dead – the self-preservation Seven with Eight-wing in its darkest manifestation: greed as compulsion for control." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-andreas-baader",      name:"Andreas Baader",                    subtyp:"SE7w8",  heading:"Andreas Baader \u2013 Self-Preservation Type 7",                          teaser:"SP7w8 – Co-founder of the Red Army Faction (RAF), 1943–1977. Drive for freedom over theory, fast cars over reading Marx – the self-preservation Seven with Eight-wing as Naranjo’s “hidden Eight.” Animal correspondence: Gorilla." , tags:["Terror"]},
       { route:"kriminalpsychologie-chris-watts",         name:"Chris Watts",                      subtyp:"SO7w6",  heading:"Chris Watts – Social Type 7",                                  teaser:"SO7w6 – American family murderer, born 1985. Murdered his pregnant wife and two daughters to start a new life with his mistress. Arrested 2018, five consecutive life sentences. Animal correspondence: Beaver." , tags:["Nahbereich"]},
       { route:"kriminalpsychologie-frank-abagnale-jr", name:"Frank Abagnale Jr.", subtyp:"SO7w6", heading:"Frank Abagnale Jr. – Social Type 7", teaser:"SO7w6 – Most famous impostor in history, born 1948. Pilot, doctor, lawyer – without ever having been one. The social Seven with Six-wing: restless search for new systems, belonging as the driving force, trust as the ultimate goal. Animal correspondence: Beaver.", tags:["Betrug"]},
   { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              added:"2026-07-15",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs – Sexual Type 7",                              teaser:"SX7w8 – Music producer, entrepreneur, convicted offender. Born 1969 in New York. For decades one of the most powerful men in the music industry – and a system of sexual violence hidden behind glamour and control. Convicted 2025 for sex trafficking and coercion. The sexual Seven with Eight-wing: pleasure as a right, control as love, power as shield. Animal correspondence: Chimpanzee." , tags:["Missbrauch","Musikindustrie"]},
@@ -26624,6 +26625,7 @@ function moritzBleibtreuPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
         {route:"beruehmte-franka-potente", label:"Portrait: Franka Potente (SP2w1) – co-star in ‘Run Lola Run’"},
+        {route:"kriminalpsychologie-andreas-baader", label:"Criminal Psychology: Andreas Baader (SP7w8) – portrayed by Bleibtreu"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
         {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
       ])}
@@ -40080,6 +40082,85 @@ function charlesMansonPortraitPage() {
           {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik (SX6w5)"},
           {route:"kriminalpsychologie-armin-meiwes", label:"Criminal Psychology: Armin Meiwes (SX6w5)"},
           {route:"kriminalpsychologie-leslie-van-houten", label:"Criminal Psychology: Leslie Van Houten (SO9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function andreasBaaderPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Andreas Baader – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/andreas-baader-portrait.jpg" alt="Andreas Baader – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Andreas Baader</p>
+        <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
+        <p class="krim-portrait-sub">Co-founder of the Red Army Faction (RAF) &middot; Animal Correspondence: Gorilla</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Gorilla</h3>
+        <p class="vb-intro">The <strong>gorilla</strong> is the animal correspondence of the self-preservation Seven &ndash; an animal that appears peaceful, family-oriented, and free of any need for aggression, as long as no one touches its freedom or its territory. The very same gorilla can become the most uncompromising defender imaginable the moment that changes. Andreas Baader embodied this double face perfectly: charming, witty, loved by his closest circle &ndash; and at the same time the most unyielding, most violence-ready mind of the early RAF.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Self-Preservation Seven: Freedom as the Highest Good</h3>
+        <p class="vb-intro">Naranjo called the <strong>self-preservation Seven (SP7)</strong> <em>Family</em>: it secures its freedom and its enjoyment by building a closed, familiar circle in which it can do as it pleases. Unlike the social or sexual Seven, its hunger is directed not primarily at an audience or at one great fusion, but at personal independence &ndash; a life that answers to no one.</p>
+        <p class="vb-intro">Andreas Baader, born in 1943 in Munich, grew up without a father, was expelled from several schools, and ran into conflict with the law early &ndash; car theft, minor offenses, a restless life between bohemia and the underworld. According to consistent accounts from contemporaries, political theory interested him considerably less than it did his fellow campaigners Gudrun Ensslin and Ulrike Meinhof, who wrote the group's ideological texts. Baader hardly read Marx &ndash; he wanted to act, to drive, to experience. Fast cars, good clothes, the feeling of never having to submit to anyone: that was his real language, long before it turned into armed struggle.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Eight-Wing: From Provocation to Violence</h3>
+        <p class="vb-intro">The <strong>Eight-wing</strong> gives the self-preservation Seven something that sets it apart from other Sevens: the willingness not to avoid confrontation but to seek it out, the moment its own freedom is called into question. Where a pure Seven would sidestep, the SP7w8 holds its ground &ndash; and, if it comes to that, can turn to violence itself.</p>
+        <p class="vb-intro">In April 1968, Baader, Ensslin, Thorwald Proll, and Horst S\xf6hnlein set fire to two department stores in Frankfurt &ndash; a protest against the Vietnam War and consumer society. In 1970, Baader was violently freed in a spectacular operation co-organized by Ulrike Meinhof, from a library where he had been brought for research purposes while in custody &ndash; an event generally regarded as the founding moment of the RAF. From then on, the group escalated steadily: bank robberies to fund life underground, bombings, armed resistance against any attempt at arrest. The Eight-wing no longer tolerated retreat.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The RAF: The Pack as a Power Base</h3>
+        <p class="vb-intro">Within the RAF, Baader was, according to consistent accounts, the dominant, often choleric mind &ndash; not the theorist, but the one who enforced decisions and tolerated little dissent. This is the flip side of SP7w8 freedom: whoever sets their own independence so absolutely often demands unconditional loyalty from others. The group financed its life underground through bank robberies &ndash; not out of ideological conviction alone, but also because money meant freedom of movement: cars, apartments, a life outside any control.</p>
+        <p class="vb-intro">In 1972, Baader was arrested together with Gudrun Ensslin, Holger Meins, and Jan-Carl Raspe. What followed was the trial in Stuttgart-Stammheim, one of the most extensive and closely watched criminal trials in postwar German history.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Stammheim and October 18, 1977</h3>
+        <p class="vb-intro">In the autumn of 1977, the conflict between the state and the RAF escalated in what became known as the German Autumn: the kidnapping of employers' association president Hanns Martin Schleyer, the hijacking of the Lufthansa aircraft "Landshut" to Mogadishu, and its storming by the GSG 9 special forces unit. On the night of October 18, 1977, Baader, Ensslin, and Raspe died in their cells in Stammheim &ndash; officially ruled a suicide, with Baader, according to the investigation's findings, shooting himself. The exact circumstances of that night remain a matter of controversy to this day; no state involvement has ever been proven.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram Reveals</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SP7 &ndash; the "hidden Eight":</strong> Of all three Seven variants, the self-preservation Seven can assert itself most uncompromisingly when it truly has to. If it feels its freedom threatened, its sociable, pleasure-oriented nature can shift abruptly into a hardness that leaves little room for consideration. In Baader's case, this shift was not the exception but the consistent pattern of his entire adult life.</p>
+        <p class="vb-intro"><strong>b) Action Over Theory:</strong> The passion of the Seven, gluttony, is directed in the SP7 not at intellectual abundance but at experience and freedom of movement. Baader's disinterest in Marxist theory, paired with his fascination for weapons, cars, and action, fits this picture exactly: the Seven does not want to understand &ndash; it wants to experience.</p>
+        <p class="vb-intro"><strong>c) Leadership Through Dominance, Not Conviction:</strong> The Eight-wing gave Baader a position of leadership within the group that rested less on ideological authority than on personal assertiveness. This is the shadow side of the SP7w8: freedom for oneself, allegiance from everyone else.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification Summary</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <strong>Name:</strong> Andreas Baader<br>
+        Subtype: SP7w8 – Self-Preservation Seven with Eight-wing<br>
+        Passion: Gluttony (directed at freedom and experience, intensified by Eight-energy)<br>
+        Animal Correspondence: Gorilla<br>
+        Lifespan: May 6, 1943 – October 18, 1977<br>
+        Known for: Co-founder of the Red Army Faction (RAF), 1968 department store arson, Stammheim trial
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The self-preservation Seven in comparison: how Naranjo's 'hidden Eight' emerges – and why freedom can become an absolute limit for the SP7w8.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP7, SO7, SX7 – 27 character profiles in comparison.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Gluttony as the core motivation of Type Seven: how the Seven's defense system forms and how it dissolves in healing.", "Wer du wirklich bist (Band 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Andreas Baader was a co-founder of the RAF and died in custody in 1977. The Enneagram explains; it does not justify.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"beruehmte-moritz-bleibtreu", label:"Portrait: Moritz Bleibtreu (SP7w8) – portrayed Baader on screen"},
+          {route:"kriminalpsychologie-charles-manson", label:"Criminal Psychology: Charles Manson (SX6w7)"},
+          {route:"kriminalpsychologie-adolf-eichmann", label:"Criminal Psychology: Adolf Eichmann (SO6w5)"},
         ])}
       </div>
     </div>
@@ -53688,6 +53769,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-anders-breivik": andersBreivikPortraitPage,
       "kriminalpsychologie-armin-meiwes": arminMeiwesPortraitPage,
       "kriminalpsychologie-niels-hoegel": nielsHoegelPortraitPage,
+      "kriminalpsychologie-andreas-baader": andreasBaaderPortraitPage,
       "kriminalpsychologie-chris-watts": chrisWattsPortraitPage,
       "kriminalpsychologie-john-gotti": johnGottiPortraitPage,
       "kriminalpsychologie-nick-leeson": nickLeesonPortraitPage,
