@@ -45429,7 +45429,7 @@ function byronKatiePortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w7 ist ihre kompromisslose Bereitschaft, sich selbst und andere mit dem zu konfrontieren, was am meisten schmerzt – nicht aus Härte, sondern aus der Überzeugung, dass genau dort die Freiheit liegt. Millionen Menschen weltweit haben an Byron Katies Seminaren, dem <em>School for The Work</em>, teilgenommen oder ihre Bücher gelesen, viele mit dem Gefühl, zum ersten Mal wirklich gehört worden zu sein.</p>
+          <p class="vb-intro">Das Licht der SX6w7 ist ihre kompromisslose Bereitschaft, sich selbst und andere mit dem zu konfrontieren, was am meisten schmerzt – nicht aus Härte, sondern aus der Überzeugung, dass genau dort die Freiheit liegt. Millionen Menschen weltweit haben an Byron Katies Seminaren, den <em>School for The Work</em>, teilgenommen oder ihre Bücher gelesen, viele mit dem Gefühl, zum ersten Mal wirklich gehört worden zu sein.</p>
           <p class="vb-intro">Der Schatten zeigt sich in der Kritik, die ihrer Methode seit Jahren begegnet: Manche werfen ihr vor, komplexe seelische Notlagen – Trauma, Missbrauch, klinische Depression – zu stark auf die Frage nach der Wahrheit eines Gedankens zu reduzieren, als könne jedes Leid allein durch Selbstbefragung aufgelöst werden. Für die SX6 ist die direkte Konfrontation die eigene Rettung gewesen – doch nicht jeder Schmerz lässt sich mit derselben Methode auflösen, mit der sie den ihren überwand. Die reife SX6w7 weiß: Mut zur Wahrheit ersetzt nicht immer die Notwendigkeit von Zeit, Begleitung und Geduld.</p>
         </blockquote>
 
