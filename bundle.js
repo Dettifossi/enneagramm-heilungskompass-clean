@@ -23655,6 +23655,7 @@ const registerEntries = [
   { term: "Alfons Schuhbeck",               route: "kriminalpsychologie-alfons-schuhbeck", description: "Kriminalpsychologisches Portrait: Starkoch, Steuerhinterziehung, \u00f6ffentliche Fassade & Kontrollverlust" },
   { term: "Boris Becker (Kriminalpsychologie)", route: "kriminalpsychologie-boris-becker", description: "Kriminalpsychologisches Portrait: Tennislegende, Insolvenz, SX7w8-Analyse" },
   { term: "Frank Abagnale Jr.",             route: "kriminalpsychologie-frank-abagnale-jr", description: "Kriminalpsychologisches Portrait: Meisterf\u00e4lscher & Betr\u00fcger, Catch Me If You Can" },
+  { term: "Victor Lustig", route: "kriminalpsychologie-victor-lustig", description: "Kriminalpsychologisches Portrait: SX7w8 \u2013 verkaufte den Eiffelturm zweimal, betrog Al Capone" },
   { term: "Osama bin Laden",                route: "kriminalpsychologie-osama-bin-laden",  description: "Kriminalpsychologisches Portrait: Al-Qaida-Gr\u00fcnder, 11. September, ideologische Zerst\u00f6rung" },
   { term: "P. Diddy",                       route: "kriminalpsychologie-p-diddy",           description: "Kriminalpsychologisches Portrait: Hip-Hop-Mogul, Machtmissbrauch, #MeToo-Kontext" },
   { term: "Vincenzo Peruggia",              route: "kriminalpsychologie-vincenzo-peruggia", description: "Kriminalpsychologisches Portrait: Diebstahl der Mona Lisa 1911, Nationalstolz & Obsession" },
@@ -24907,6 +24908,7 @@ const registerEntriesEN = [
   { term: "Alfons Schuhbeck", route: "kriminalpsychologie-alfons-schuhbeck", description: "Criminal psychological portrait: celebrity chef, tax evasion, public facade & loss of control" },
   { term: "Boris Becker (Criminal Psychology)", route: "kriminalpsychologie-boris-becker", description: "Criminal psychological portrait: tennis legend, insolvency, SX7w8 analysis" },
   { term: "Frank Abagnale Jr.", route: "kriminalpsychologie-frank-abagnale-jr", description: "Criminal psychological portrait: master forger & con artist, Catch Me If You Can" },
+  { term: "Victor Lustig", route: "kriminalpsychologie-victor-lustig", description: "Criminal psychological portrait: SX7w8 – sold the Eiffel Tower twice, conned Al Capone" },
   { term: "Osama bin Laden", route: "kriminalpsychologie-osama-bin-laden", description: "Criminal psychological portrait: Al-Qaeda founder, September 11, ideological destruction" },
   { term: "P. Diddy", route: "kriminalpsychologie-p-diddy", description: "Criminal psychological portrait: hip-hop mogul, abuse of power, #MeToo context" },
   { term: "Vincenzo Peruggia", route: "kriminalpsychologie-vincenzo-peruggia", description: "Criminal psychological portrait: theft of the Mona Lisa 1911, national pride & obsession" },
@@ -31290,6 +31292,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              added:"2026-07-15",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs \u2013 Sexueller Typ 7",                              teaser:"SX7w8 \u2013 Musikproduzent, Unternehmer, Verurteilter. Geb. 1969 in New York. Jahrzehntelang einer der m\u00e4chtigsten M\u00e4nner der Musikindustrie \u2013 und ein System sexueller Gewalt, das hinter Glamour und Kontrolle verborgen blieb. Verurteilt 2025 wegen Sex-Trafficking und N\u00f6tigung. Die sexuelle Sieben mit Achterfl\u00fcgel: Vergn\u00fcgen als Recht, Kontrolle als Liebe, Macht als Schutzschild. Tierentsprechung: Schimpanse." , tags:["Missbrauch","Musikindustrie"], gender:"m"},
   { route:"kriminalpsychologie-aileen-wuornos",      name:"Aileen Wuornos",                      subtyp:"SX7w8",  heading:"Aileen Wuornos \u2013 Sexueller Typ 7",                                       teaser:"SX7w8 \u2013 US-amerikanische Serienm\u00f6rderin, 1956\u20132002. Sieben Morde an M\u00e4nnern in Florida, November 1989 bis November 1990. Die sexuelle Sieben mit Achterfl\u00fcgel: idealisierte Liebe als \u00dcberlebensprojekt, Beziehung als einziges Fundament, Wut als letzte Grenze. Tierentsprechung: Schimpanse." , tags:["Serienmord"], gender:"f"},
   { route:"kriminalpsychologie-boris-becker",         name:"Boris Becker",                         added:"2026-07-19",  subtyp:"SX7w8",  heading:"Boris Becker \u2013 Sexueller Typ 7",                              teaser:"SX7w8 \u2013 Tennisprofi, geb. 1967 in Leimen. Dreifacher Wimbledon-Sieger, j\u00fcngster Champion der Geschichte \u2013 und 2022 in Gro\u00dfbritannien verurteilt wegen Insolvenzvergehen. Die sexuelle Sieben mit Achterfl\u00fcgel: Ruhm als \u00dcberlebensfundament, Verleugnung der Grenzen, Vergangenheit als unaufgebbares Selbstbild. Tierentsprechung: Schimpanse." , tags:["Betrug"], gender:"m"},
+  { route:"kriminalpsychologie-victor-lustig",        name:"Victor Lustig",                       subtyp:"SX7w8",  heading:"Victor Lustig – Sexueller Typ 7",                                      teaser:"SX7w8 – Berühmtester Hochstapler des 20. Jahrhunderts, um 1890–1947. Verkaufte den Eiffelturm zweimal, betrog Al Capone, verkaufte die „Rumänische Geldkiste“. Suggestibilität als Werkzeug, Achterflügel als Wiederholungszwang unter höchstem Risiko. Tierentsprechung: Schimpanse." , tags:["Betrug"], gender:"m"},
   { route:"kriminalpsychologie-ronnie-biggs",          name:"Ronnie Biggs",                          added:"2026-08-05",  subtyp:"SX7w8",  heading:"Ronnie Biggs \u2013 Sexueller Typ 7",                              teaser:"SX7w8 \u2013 Britischer Zugr\u00e4uber, 1929\u20132013. Beteiligt am Gro\u00dfen Postraub 1963, spektakul\u00e4rer Gef\u00e4ngnisausbruch 1965, jahrzehntelang \u00f6ffentlich unbehelligt in Rio de Janeiro. Die sexuelle Sieben mit Achterfl\u00fcgel: Beeinflussbarkeit als Einstieg, Legendenbildung als Lebensinhalt, Trotz statt Reue. Tierentsprechung: Schimpanse." , tags:["Raub"], gender:"m"},
   { route:"kriminalpsychologie-griselda-blanco",    name:"Griselda Blanco",                     subtyp:"SE8w9",  heading:"Griselda Blanco \u2013 Selbsterhaltender Typ 8",                        teaser:"SE8w9 \u2013 Die Patin von Medell\u00edn, 1943\u20132012. Wegbereiterin des Kokainhandels und Lehrmeisterin Escobars \u2013 die selbsterhaltende Acht mit Neunerfl\u00fcgel: Macht als \u00dcberlebensgarantie, stille Kontrolle, absolute Konsequenz. Tierentsprechung: Orang-Utan." , tags:["Mafia"], gender:"f"},
   { route:"kriminalpsychologie-salvatore-riina",     name:"Salvatore Riina",                     subtyp:"SE8w9",  heading:"Salvatore Riina \u2013 Selbsterhaltender Typ 8",                           teaser:"Mafia-Boss, 1930\u20132017. 23 Jahre untergetaucht, Hunderte Morde verantwortet \u2013 die selbsterhaltende Acht mit Neunerfl\xfcgel: territoriale Macht, stille Gef\xe4hrlichkeit, absolute Loyalit\xe4t." , tags:["Mafia"], gender:"m"},
@@ -64876,6 +64879,87 @@ function borisBeckerKriminalPage() {
   `);
 }
 
+function victorLustigPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Victor Lustig – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/victor-lustig-portrait.jpg" alt="Victor Lustig – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Victor Lustig</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterfl\xfcgel</p>
+        <p class="krim-portrait-sub">&bdquo;Der Mann, der den Eiffelturm zweimal verkaufte&ldquo; &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Schimpanse</h3>
+        <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben &ndash; hochintelligent, sozial wendig, mit einer F\xe4higkeit, sich in jede Gruppe, jede Situation, jede Beziehung sofort einzupassen und sie f\xfcr sich zu nutzen. Victor Lustig, geboren um 1890 in B\xf6hmen, war genau dieses Tier in Menschenform: Er sprach f\xfcnf Sprachen flie\xdfend, f\xfchrte \xfcber vierzig verschiedene Aliasnamen und Identit\xe4ten, und schaffte es, sich in jede Umgebung &ndash; vom Passagierschiff-Salon bis zum Chicagoer Gangstermilieu &ndash; als vollkommen glaubw\xfcrdig zu inszenieren.</p>
+        <p class="vb-intro">1925 las er in einer Pariser Zeitung eine Randnotiz: Die Instandhaltung des Eiffelturms sei so teuer geworden, dass ein Abriss g\xfcnstiger sein k\xf6nnte. Aus diesem einzigen Satz konstruierte Lustig einen der k\xfchnsten Betr\xfcge der Geschichte &ndash; und verkaufte den Turm nicht nur einmal, sondern zweimal an ahnungslose Schrotth\xe4ndler.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Sieben: Suggestibilit\xe4t als Werkzeug</h3>
+        <p class="vb-intro">Naranjo nannte die <strong>sexuelle Sieben (SX7)</strong> den Subtyp der <em>Suggestibilit\xe4t</em>: eine F\xe4higkeit, sich vollst\xe4ndig in eine Idee, eine Person, einen Moment hineinzuversetzen &ndash; und dabei so \xfcberzeugend zu wirken, dass die eigene Begeisterung ansteckend wird. Anders als die soziale Sieben, die sich \xfcber Systeme und Zugeh\xf6rigkeit definiert, wirkt die SX7 im intensiven Eins-zu-eins: ein Blick, ein Gespr\xe4ch, ein einziger \xfcberzeugender Moment gen\xfcgen.</p>
+        <p class="vb-intro">Lustig lud jeweils nur f\xfcnf ausgew\xe4hlte Schrotth\xe4ndler zu einem geheimen Treffen im Hotel Crillon ein, gab sich als hoher Regierungsbeamter aus und pr\xe4sentierte den Turmverkauf als vertrauliche, dringende Staatsangelegenheit. Er w\xe4hlte gezielt den Bieter aus, der am ehesten korrupt und deshalb am wenigsten geneigt war, die Sache \xf6ffentlich zu machen &ndash; ein psychologisches Meisterst\xfcck der SX7: Die Suggestion wirkt am st\xe4rksten, wenn der Andere selbst etwas zu verbergen hat.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Achterfl\xfcgel: Kaltbl\xfctigkeit unter h\xf6chstem Risiko</h3>
+        <p class="vb-intro">Eine SX7 mit schw\xe4cher ausgepr\xe4gtem Achterfl\xfcgel h\xe4tte den Coup vermutlich einmal durchgef\xfchrt und sich dann zur\xfcckgezogen. Bei Lustig trat stattdessen eine Kompromisslosigkeit hervor, die weit \xfcber gew\xf6hnlichen Wagemut hinausging: Nachdem der erste K\xe4ufer die Polizei alarmiert hatte &ndash; aus Scham \xfcber den eigenen Betrug jedoch nie \xf6ffentlich Anzeige erstattete &ndash;, kehrte Lustig wenige Monate sp\xe4ter nach Paris zur\xfcck und verkaufte den Eiffelturm ein zweites Mal.</p>
+        <p class="vb-intro">Diese Bereitschaft, ein bereits einmal riskiertes Spiel unter noch h\xf6herem Entdeckungsrisiko zu wiederholen, ist der Achterfl\xfcgel in Reinform: keine Angst vor Konfrontation, keine R\xfccksicht auf die eigene Verwundbarkeit, sondern die \xdcberzeugung, dass Kontrolle \xfcber die Situation wichtiger ist als Vorsicht. Sp\xe4ter in den USA ging Lustig sogar so weit, den Gangsterboss Al Capone selbst in ein Gesch\xe4ft zu verwickeln &ndash; und ihm sein Geld unversehrt zur\xfcckzugeben, um dessen Vertrauen fest zu gewinnen, bevor der eigentliche gro\xdfe Betrug folgte.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die &bdquo;Geldkiste&ldquo;: Gier als Angriffsfl\xe4che</h3>
+        <p class="vb-intro">Eines von Lustigs bekanntesten Betrugsinstrumenten war die sogenannte &bdquo;Rumänische Geldkiste&ldquo; &ndash; ein Kasten, der angeblich Geldscheine kopieren konnte. Lustig f\xfchrte K\xe4ufern vor, wie die Maschine \xfcber mehrere Stunden echte Geldscheine &bdquo;druckte&ldquo; (tats\xe4chlich hatte er zuvor Scheine im Ger\xe4t versteckt) und verkaufte die Kiste anschlie\xdfend f\xfcr hohe Summen &ndash; wohl wissend, dass die K\xe4ufer, sobald die Kiste nur noch Blankopapier produzierte, aus Scham nie zur Polizei gehen w\xfcrden.</p>
+        <p class="vb-intro">Das ist die SX7w8-Logik in ihrer kalkuliertesten Form: Lustig baute seine Betr\xfcgereien systematisch so, dass die Gier oder Korruptheit seiner Opfer selbst zum Schutzschild wurde. Die Suggestion \xfcberzeugte nicht durch Vertrauen allein, sondern durch das gezielte Ausnutzen der Schwachstellen des Gegen\xfcbers.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Verhaftung und Ende in Alcatraz</h3>
+        <p class="vb-intro">1935 wurde Lustig schlie\xdflich wegen Falschgelddelikten verhaftet, nachdem eine seiner ehemaligen Geliebten ihn bei den Beh\xf6rden verriet. Selbst aus dem Gef\xe4ngnis in New York gelang ihm noch die Flucht &ndash; mithilfe eines aus Bettlaken geknoteten Seils, das er als Fensterputzer getarnt am helllichten Tag benutzte, bevor er nach vier Wochen erneut gefasst wurde. 1936 wurde er zu 20 Jahren Haft verurteilt und in das Bundesgef\xe4ngnis Alcatraz \xfcberstellt.</p>
+        <p class="vb-intro">Dort starb Lustig 1947 an einer Lungenentz\xfcndung. Bis zuletzt hinterlie\xdf er kaum verl\xe4ssliche Spuren \xfcber sein tats\xe4chliches Leben &ndash; selbst sein Geburtsdatum und seine wahre Identit\xe4t bleiben bis heute nicht vollst\xe4ndig gekl\xe4rt. Die SX7 hinterl\xe4sst selten ein klares Bild von sich selbst; sie hinterl\xe4sst Geschichten.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro"><strong>a) Suggestibilit\xe4t als Berufswerkzeug:</strong> Lustigs gesamte Karriere beruhte auf der F\xe4higkeit, sich selbst und andere in einem einzigen \xfcberzeugenden Moment vollst\xe4ndig zu verwandeln. Das ist die SX7 in ihrer reinsten Form: keine langfristige Systemplanung, sondern die geniale Improvisation im entscheidenden Augenblick.</p>
+        <p class="vb-intro"><strong>b) Der Achterfl\xfcgel als Wiederholungszwang unter Risiko:</strong> Eine SX7 mit schw\xe4cher ausgepr\xe4gtem Achterfl\xfcgel h\xe4tte sich nach dem ersten Eiffelturm-Verkauf zur\xfcckgezogen. Der stark ausgepr\xe4gte Achterfl\xfcgel bei Lustig verlangte danach, das Risiko zu wiederholen, zu steigern, zu beweisen, dass die Kontrolle vollst\xe4ndig bei ihm lag.</p>
+        <p class="vb-intro"><strong>c) Identit\xe4t als flie\xdfendes Material:</strong> \xdcber vierzig Aliasnamen zeigen, wie sehr die SX7 die eigene Identit\xe4t nicht als feste Gr\xf6\xdfe, sondern als Werkzeug begreift &ndash; formbar, austauschbar, immer dem jeweiligen Moment angepasst.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Victor Lustig</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SX7w8 &ndash; Sexuelle Sieben mit Achterfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> V\xf6llerei (als Suggestibilit\xe4t im intensiven Eins-zu-eins-Kontakt)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Schimpanse</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> um 1890 &ndash; 9. M\xe4rz 1947</span>
+          <span style="display:block;"><strong>Bekannt f\xfcr:</strong> Verkaufte den Eiffelturm zweimal an Schrotth\xe4ndler, betrog Al Capone, verkaufte die &bdquo;Rum\xe4nische Geldkiste&ldquo;, 1936 wegen Falschgelddelikten zu 20 Jahren Haft verurteilt</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sieben im Vergleich: Wie Suggestibilit\xe4t zum genialen Improvisationswerkzeug wird – und warum der Achterflügel aus Wagemut Wiederholungszwang macht.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE7, SO7, SX7 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "V\xf6llerei als Grundmotiv der Sieben: Wie das Schutzsystem der Sieben entsteht und wie es sich in Heilung aufl\xf6st.", "Wer du wirklich bist (Band 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Victor Lustig wurde 1936 wegen Falschgelddelikten verurteilt und starb 1947 in Haft. Das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-ronnie-biggs", label:"Kriminalpsychologie: Ronnie Biggs (SX7w8)"},
+          {route:"kriminalpsychologie-frank-abagnale-jr", label:"Kriminalpsychologie: Frank Abagnale Jr. (SO7w6) – Der Hochstapler"},
+          {route:"beruehmte-anna-anderson", label:"Portr\xe4t: Anna Anderson (SE3w4)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function ronnieBiggsPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -88975,6 +89059,7 @@ function render() {
       "kriminalpsychologie-aileen-wuornos": aileenWuornosPortraitPage,
       "kriminalpsychologie-boris-becker": borisBeckerKriminalPage,
       "kriminalpsychologie-ronnie-biggs": ronnieBiggsPortraitPage,
+      "kriminalpsychologie-victor-lustig": victorLustigPortraitPage,
       "kriminalpsychologie-richard-ramirez": richardRamirezPortraitPage,
       "kriminalpsychologie-dennis-nilsen": dennisNilsenPortraitPage,
       "kriminalpsychologie-gennadi-mikhasevich": gennadiMikhasevichPortraitPage,

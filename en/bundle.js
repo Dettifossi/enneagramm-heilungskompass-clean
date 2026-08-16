@@ -162,6 +162,7 @@ const KRIMINAL_PORTRAITS = [
       { route:"kriminalpsychologie-frank-abagnale-jr", name:"Frank Abagnale Jr.", subtyp:"SO7w6", heading:"Frank Abagnale Jr. – Social Type 7", teaser:"SO7w6 – Most famous impostor in history, born 1948. Pilot, doctor, lawyer – without ever having been one. The social Seven with Six-wing: restless search for new systems, belonging as the driving force, trust as the ultimate goal. Animal correspondence: Beaver.", tags:["Betrug"]},
   { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              added:"2026-07-15",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs – Sexual Type 7",                              teaser:"SX7w8 – Music producer, entrepreneur, convicted offender. Born 1969 in New York. For decades one of the most powerful men in the music industry – and a system of sexual violence hidden behind glamour and control. Convicted 2025 for sex trafficking and coercion. The sexual Seven with Eight-wing: pleasure as a right, control as love, power as shield. Animal correspondence: Chimpanzee." , tags:["Missbrauch","Musikindustrie"]},
   { route:"kriminalpsychologie-aileen-wuornos",      name:"Aileen Wuornos",                      subtyp:"SX7w8",  heading:"Aileen Wuornos – Sexual Type 7",                                       teaser:"SX7w8 – American serial killer, 1956–2002. Seven murders of men in Florida, November 1989 to November 1990. The sexual Seven with Eight-wing: idealized love as survival project, relationship as the only foundation, rage as the final boundary. Animal correspondence: Chimpanzee." , tags:["Serienmord"]},
+  { route:"kriminalpsychologie-victor-lustig",        name:"Victor Lustig",                       subtyp:"SX7w8",  heading:"Victor Lustig – Sexual Type 7",                                      teaser:"SX7w8 – The 20th century's most famous con artist, c. 1890–1947. Sold the Eiffel Tower twice, conned Al Capone, sold the \"Romanian money box\". Suggestibility as a tool, the Eight wing as compulsive repetition under maximum risk. Animal correspondence: Chimpanzee." , tags:["Betrug"], gender:"m"},
   { route:"kriminalpsychologie-ronnie-biggs",          name:"Ronnie Biggs",                          added:"2026-08-05",  subtyp:"SX7w8",  heading:"Ronnie Biggs – Sexual Type 7",                              teaser:"SX7w8 – British train robber, 1929–2013. Involved in the Great Train Robbery of 1963, spectacular prison escape in 1965, decades living openly in Rio de Janeiro. The sexual Seven with Eight-wing: suggestibility as entry point, legend-building as life's work, defiance instead of remorse. Animal correspondence: Chimpanzee." , tags:["Raub"]},
   { route:"kriminalpsychologie-griselda-blanco",    name:"Griselda Blanco",                     subtyp:"SE8w9",  heading:"Griselda Blanco – Self-Preservation Type 8",                        teaser:"SP8w9 – The Godmother of Medellín, 1943–2012. Pioneer of the cocaine trade and mentor of Escobar – the self-preservation Eight with Nine-wing: power as survival guarantee, quiet control, absolute consequence. Animal correspondence: Orangutan." , tags:["Mafia"]},
   { route:"kriminalpsychologie-salvatore-riina",     name:"Salvatore Riina",                     subtyp:"SE8w9",  heading:"Salvatore Riina \u2013 Self-Preservation Type 8",                           teaser:"Mafia boss, 1930–2017. 23 years underground, hundreds of murders attributed – the self-preservation Eight with Nine-wing: territorial power, quiet danger, absolute loyalty." , tags:["Mafia"]},
@@ -33956,6 +33957,87 @@ function borisBeckerKriminalPage() {
   `);
 }
 
+function victorLustigPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Victor Lustig – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/victor-lustig-portrait.jpg" alt="Victor Lustig – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Victor Lustig</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight-wing</p>
+        <p class="krim-portrait-sub">"The Man Who Sold the Eiffel Tower Twice" &middot; Animal Correspondence: Chimpanzee</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Chimpanzee</h3>
+        <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the sexual Seven – highly intelligent, socially agile, able to fit itself instantly into any group, any situation, any relationship, and turn it to its advantage. Victor Lustig, born around 1890 in Bohemia, was exactly this animal in human form: he spoke five languages fluently, used more than forty different aliases and identities, and managed to make himself completely credible in any setting – from the ocean-liner salon to the Chicago underworld.</p>
+        <p class="vb-intro">In 1925 he read a short item in a Paris newspaper: the upkeep of the Eiffel Tower had become so expensive that demolition might be cheaper. From that single sentence, Lustig constructed one of the boldest cons in history – and sold the tower not once, but twice, to unsuspecting scrap dealers.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The sexual Seven: Suggestibility as a tool</h3>
+        <p class="vb-intro">Naranjo called the <strong>sexual Seven (SX7)</strong> the subtype of <em>Suggestibility</em>: the ability to merge completely with an idea, a person, a moment – and to be so convincing in doing so that one's own enthusiasm becomes contagious. Unlike the social Seven, who defines herself through systems and belonging, the SX7 operates in intense one-on-one contact: a look, a conversation, a single persuasive moment is enough.</p>
+        <p class="vb-intro">Lustig invited only five carefully chosen scrap dealers to a secret meeting at the Hôtel de Crillon, posed as a senior government official, and presented the sale of the tower as a confidential, urgent matter of state. He deliberately selected the bidder most likely to be corrupt, and therefore least likely to make the matter public – a masterstroke of SX7 psychology: the suggestion works best when the other person already has something to hide.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Eight wing: Coolness under maximum risk</h3>
+        <p class="vb-intro">An SX7 with a more muted Eight wing would likely have run the con once and disappeared. In Lustig's case, an uncompromising streak emerged that went far beyond ordinary boldness: after the first buyer alerted the police – but, out of shame at having been conned, never filed a public complaint – Lustig returned to Paris a few months later and sold the Eiffel Tower a second time.</p>
+        <p class="vb-intro">This willingness to repeat an already-risked game under even higher exposure is the Eight wing in its purest form: no fear of confrontation, no regard for one's own vulnerability, but the conviction that controlling the situation matters more than caution. Later, in the United States, Lustig went so far as to draw mob boss Al Capone himself into a deal – returning his money intact to secure his trust completely, before the real, larger con followed.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The "money box": Greed as the attack surface</h3>
+        <p class="vb-intro">One of Lustig's best-known scams was the so-called "Romanian money box" – a device that supposedly copied banknotes. Lustig demonstrated to buyers how the machine "printed" genuine bills over several hours (he had actually hidden real bills inside beforehand) and then sold the box for large sums – fully aware that once it produced only blank paper, the buyers would never go to the police out of shame.</p>
+        <p class="vb-intro">This is SX7w8 logic at its most calculated: Lustig systematically built his cons so that his victims' own greed or corruption became a shield protecting him. The suggestion did not rely on trust alone, but on deliberately exploiting the other person's weak point.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Arrest and end at Alcatraz</h3>
+        <p class="vb-intro">In 1935, Lustig was finally arrested on counterfeiting charges after a former lover betrayed him to the authorities. He even managed to escape from a New York jail – using a rope of knotted bedsheets, disguised as a window washer, in broad daylight – before being recaptured four weeks later. In 1936 he was sentenced to 20 years and transferred to the federal penitentiary at Alcatraz.</p>
+        <p class="vb-intro">He died there in 1947 of pneumonia. To the end, he left behind few reliable traces of his actual life – even his birth date and true identity remain not fully established to this day. The SX7 rarely leaves behind a clear picture of itself; it leaves behind stories.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram reveals</h3>
+        <p class="vb-intro"><strong>a) Suggestibility as a professional tool:</strong> Lustig's entire career rested on the ability to transform himself and others completely in a single persuasive moment. This is the SX7 in its purest form: not long-term systemic planning, but brilliant improvisation at the decisive moment.</p>
+        <p class="vb-intro"><strong>b) The Eight wing as compulsion to repeat under risk:</strong> An SX7 with a more muted Eight wing would have withdrawn after the first Eiffel Tower sale. Lustig's strongly developed Eight wing demanded that the risk be repeated, escalated, proven – that control remained entirely his.</p>
+        <p class="vb-intro"><strong>c) Identity as fluid material:</strong> More than forty aliases show how much the SX7 treats identity not as a fixed quantity but as a tool – malleable, interchangeable, always adapted to the moment at hand.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Victor Lustig</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SX7w8 – Sexual Seven with Eight-wing</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Passion:</strong> Gluttony (as suggestibility in intense one-on-one contact)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Animal Correspondence:</strong> Chimpanzee</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Life dates:</strong> c. 1890 – March 9, 1947</span>
+          <span style="display:block;"><strong>Known for:</strong> Sold the Eiffel Tower twice to scrap dealers, conned Al Capone, sold the "Romanian money box", sentenced to 20 years in 1936 for counterfeiting</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual Seven compared: how suggestibility becomes a brilliant tool of improvisation – and why the Eight wing turns boldness into compulsive repetition.", "The Hidden Dynamics of the 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE7, SO7, SX7 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Gluttony as the core motive of the Seven: how the Seven's protective system forms – and how it dissolves through healing.", "Who You Really Are (Volume 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type assignment is a psychological hypothesis, not a historical verdict. Victor Lustig was convicted of counterfeiting in 1936 and died in prison in 1947. The Enneagram explains, it does not justify.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-ronnie-biggs", label:"Criminal Psychology: Ronnie Biggs (SX7w8)"},
+          {route:"kriminalpsychologie-frank-abagnale-jr", label:"Criminal Psychology: Frank Abagnale Jr. (SO7w6) – The Impostor"},
+          {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SP3w4)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function ronnieBiggsPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -54596,6 +54678,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-michael-franzese": michaelFranzesePortraitPage,
       "kriminalpsychologie-boris-becker": borisBeckerKriminalPage,
       "kriminalpsychologie-ronnie-biggs": ronnieBiggsPortraitPage,
+      "kriminalpsychologie-victor-lustig": victorLustigPortraitPage,
       "kriminalpsychologie-david-berkowitz": davidBerkowitzPortraitPage,
       "kriminalpsychologie-john-mcafee": johnMcAfeePortraitPage,
       "kriminalpsychologie-pedro-alonso-lopez": pedroAlonsoLopezPortraitPage,
