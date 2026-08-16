@@ -739,6 +739,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Karl Marx – Social Type 8",
     teaser:"SO8w9 · born 1818 in Trier, died 1883 in London. Philosopher, economist, founder of Marxism. Das Kapital, the Communist Manifesto. The lion that fought throughout his life for the exploited – from the shadows, with a force that the world has not settled since.",
     tags:["Philosophie","Politik"], gender:"m"},
+  { route:"beruehmte-pablo-picasso", name:"Pablo Picasso", added:"2026-08-16", subtyp:"SX8w7",
+    heading:"Pablo Picasso – Sexual Type 8",
+    teaser:"SX8w7 · 1881–1973. Spanish painter and sculptor, co-founder of Cubism, ‘Guernica’. The crocodile who surpassed his own father in painting at age 13 – and never stopped conquering afterward. Animal correspondence: Crocodile.",
+    tags:["Kunst","Geschichte"] },
   { route:"beruehmte-donald-trump", name:"Donald J. Trump", subtyp:"SX8w7",
     heading:"Donald J. Trump – Sexual Type 8",
     teaser:"SX8w7 · born 1946. Entrepreneur, media personality, 45th & 47th President of the USA. The crocodile that dominates the stage – loud, unpredictable, passionate and always on the attack. Animal correspondence: Crocodile.",
@@ -27324,6 +27328,89 @@ function karlMarxPortraitPage() {
   `);
 }
 
+function pabloPicassoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-pablo-picasso-portrait.jpg" alt="Crocodile" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Pablo Picasso</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Spanish painter and sculptor, 1881–1973 &ndash; Animal correspondence: Crocodile</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Crocodile</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>crocodile</strong> is the animal of the sexual Type 8 &ndash; and hardly any artist's biography shows it as plainly as Pablo Picasso's. The crocodile does not wait to see whether a territory belongs to it. It takes it. It does not divide the world into rules and exceptions, but into what it seizes and what it leaves unnoticed. For 91 years, Picasso lived exactly this way: tireless, insatiable, unswayed by any expectation that was not his own.</p>
+          <p class="vb-intro">He left behind over 20,000 works &ndash; paintings, sculptures, ceramics, prints, stage designs &ndash; more than any other artist of the modern era. No withdrawal, no pause, no creative block born of self-doubt. The crocodile feeds as long as it is hungry. And Picasso's hunger &ndash; for expression, for recognition, for women, for the next picture &ndash; never went out.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Málaga: The Dove and the Father</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pablo Ruiz Picasso was born in 1881 in Málaga, the son of the drawing teacher and painter José Ruiz Blasco (SE4w5), who had specialized in a single, recurring motif: doves. The father taught at the local art school and was a respected, though not outstanding, artist in Málaga &ndash; orderly, academic, without the ambition to reinvent painting. In precisely this household, shaped by paternal discipline and paternal craft, a child grew up who would leave both behind within a few years.</p>
+          <p class="vb-intro">According to tradition, at the age of thirteen young Pablo painted a dove with a precision and vitality his father had never achieved himself. José Ruiz Blasco is said to have then taken his brush and palette and handed them to his son &ndash; promising never to paint again himself. How much of this scene was later embellished into legend can no longer be reconstructed with certainty; what is documented is that José Ruiz Blasco scaled back his own artistic activity in precisely these years, while publicly acknowledging his son's extraordinary progress. For the sexual Eight, this is no mere awakening of talent. It is a transfer of power: the son does not merely take over the craft, but the father's territory &ndash; and the father steps back.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Barcelona, Madrid: The School That Was Too Small</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1895 the family moved to Barcelona, where José Ruiz Blasco found a position at the La Llotja art school. For the entrance exam &ndash; normally designed to take several weeks &ndash; Pablo, just fourteen years old, is said to have needed only a single day. The examining committee was so impressed that they placed him directly in the advanced class, far ahead of his peers. In 1897 he transferred to the Royal Academy of San Fernando in Madrid &ndash; Spain's most prestigious art school.</p>
+          <p class="vb-intro">He did not stay long. The formal instruction, copying classical models, the academic rules &ndash; all of it bored him within months. He skipped classes, spending his time instead at the Prado in front of the works of Velázquez (SX9w1) and Goya, and eventually returned to Barcelona without completing his degree. The sexual Eight with a Seven-wing cannot be fitted into a system that moves slower than it does. What it wants to learn, it teaches itself &ndash; faster, more directly, more impatiently than any institution allows for.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Sexual Eight: Possession</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Eight (SX8)</strong> is, according to Naranjo, the subtype he called <em>Possession</em>. It wants no distanced connection, but complete fusion &ndash; with a person, with a work, with an idea. What it touches, it wants entirely. What it loves, it nearly consumes. And when the intensity fades, it lets go &ndash; often abruptly, often without regard for whoever is left behind.</p>
+          <p class="vb-intro">Picasso's own line captures this stance exactly: <em>"Je ne cherche pas, je trouve"</em> &ndash; I do not seek, I find. No doubt, no hesitation, no need for outside confirmation. When Picasso claimed a motif, a form, a person as his own, he did so with a certainty that admitted no contradiction. His famous dictum that every act of creation is first an act of destruction describes exactly the principle of the SX8: to fully possess something new, the old must first fall.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Seven-Wing: Restless Reinvention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the sexual Eight a quality that complements the pure intensity of the Eight core: appetite, curiosity, the pleasure of the next experiment. The SX8w7 does not linger in a form once it has found it &ndash; it seeks the next one as soon as the previous one is exhausted. Hardly any artist's life shows this more clearly than Picasso's endless chain of stylistic periods: the Blue Period (1901&ndash;1904), shaped by poverty, loneliness, and the suicide of his friend Carlos Casagemas; the Rose Period (1904&ndash;1906) with circus figures and warmer tones; the 1907 break of <em>Les Demoiselles d'Avignon</em>, which redefined twentieth-century painting; the development of Cubism together with Georges Braque; later Neoclassicism, Surrealist influences, ceramics, stage design.</p>
+          <p class="vb-intro">A sexual Type 8 with a Nine-wing would likely have settled into a form once found and deepened it. Picasso did the opposite: as soon as a style reached its full maturity, he left it &ndash; not out of dissatisfaction, but out of appetite for what came next. The Seven-wing turns the Eight's possession not into stagnation, but into an endless chain of new conquests.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Women: Muses and Attrition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Picasso's relationships followed the same pattern as his work: total intensity, then an abrupt shift. Fernande Olivier, Eva Gouel, Olga Khokhlova &ndash; his first wife, from whom he never officially divorced &ndash;, Marie-Thérèse Walter, whom he met when she was seventeen while still married to Olga, the photographer Dora Maar, Françoise Gilot, the only one of his partners to leave him by her own decision, and finally Jacqueline Roque, who remained at his side for the last two decades of his life. Each of these women became, for a time, the complete center of his art &ndash; painted, transformed, immortalized &ndash; and each eventually experienced this intensity turning toward the next.</p>
+          <p class="vb-intro">Françoise Gilot later described in her memoirs how Picasso treated people like colors: used up completely, until nothing was left of them. The shadow of the SX8 shows itself here without embellishment: Marie-Thérèse Walter took her own life in 1977, four years after Picasso's death. Jacqueline Roque shot herself in 1986. His grandson Pablito poisoned himself after being denied entry to Picasso's funeral in 1973. Possession that never truly ends &ndash; not even with the death of the one who possessed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Guernica and the Century</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1937 the German Condor Legion, acting for Franco, bombed the Basque town of Guernica &ndash; history's first systematic air attack on a civilian population. Picasso, who at the time had a mural commission for the Paris World's Fair, turned this horror within weeks into one of the most significant political artworks of the twentieth century: <em>Guernica</em>, monumental, rendered in black, white, and gray, a single scream made of horses, people, and broken forms.</p>
+          <p class="vb-intro">During the German occupation of Paris, Picasso remained in the city, even though his art, branded "degenerate," made him a target. According to legend, a Gestapo officer once showed him a postcard of Guernica and asked: "Did you do this?" Picasso is said to have replied: "No &ndash; you did." Whether this exchange took place exactly as told is not historically confirmed, but it captures the stance precisely: the sexual Eight does not avoid confrontation, even when it is dangerous.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Light and Shadow: Genius and Devastation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX8w7 is its uncompromising creative power: the ability to single-handedly reinvent an entire art form &ndash; or several at once &ndash; without ever asking permission. Picasso did not merely influence twentieth-century painting. He re-founded it repeatedly, every time he left a form he had found behind in order to conquer the next.</p>
+          <p class="vb-intro">The shadow is the same trait, only without art as an outlet: a possessiveness that makes no distinction between a canvas and a human being. Whoever stood close to Picasso became part of his work &ndash; and had to accept that this belonging ended the moment his intensity shifted elsewhere. The mature SX8w7 learns that true greatness needs no attrition to prove itself. As far as the sources show, Picasso never fully learned this lesson. Power and love, as is well known, exclude one another.</p>
+        </blockquote>
+
+        <h2 class="vb-section">9. Death and Legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pablo Picasso died in 1973 in Mougins, France, at the age of 91 &ndash; working almost until the end. No retreat into privacy, no falling silent with age: even in his final decades his productivity remained unbroken, his curiosity for new techniques &ndash; ceramics, linocut, sculpture made from found objects &ndash; unexhausted. The crocodile stays at the surface until the end: visible, active, never in retirement.</p>
+          <p class="vb-intro">What remains is a body of work that rewrote art history more than once &ndash; and a biography that shows what the same force is capable of: the greatest creative explosion of the modern era, and the ruthless exhaustion of those who came too close to it. Both were Picasso. The sexual Eight with a Seven-wing knows no half measures &ndash; neither in creating nor in possessing.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-donald-trump", label:"Portrait: Donald J. Trump (SX8w7)"},
+          {route:"beruehmte-giacomo-puccini", label:"Portrait: Giacomo Puccini (SX8w7)"},
+          {route:"beruehmte-adele-neuhauser", label:"Portrait: Adele Neuhauser (SX8w7)"},
+          {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function donaldTrumpPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -53188,6 +53275,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-pharrell-williams": pharrellWilliamsPortraitPage,
       "beruehmte-bella-thorne": bellaThornePage,
       "beruehmte-adele-neuhauser": adeleNeuhauserPortraitPage,
+      "beruehmte-pablo-picasso": pabloPicassoPortraitPage,
       "beruehmte-angela-merkel": angelaMerkelPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-robert-schumann": robertSchumannPortraitPage,
