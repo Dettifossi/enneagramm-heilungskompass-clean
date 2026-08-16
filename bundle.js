@@ -24181,6 +24181,7 @@ const registerEntries = [
   { term: "Steffi Graf",                   route: "beruehmte-steffi-graf",                 description: "Portrait: SO9w1 \u00b7 Sozialer Typ 9 \u00b7 Tennislegende, Golden Slam 1988" },
   { term: "Sting",                         route: "beruehmte-sting",                       description: "Portrait: SE1w9 \u00b7 Selbsterhaltender Typ 1 \u00b7 Musiker, The Police, spirituelle Tiefe" },
   { term: "Sundar Pichai",                 route: "beruehmte-sundar-pichai",               description: "Portrait: SE6w5 \u00b7 Selbsterhaltender Typ 6 \u00b7 Google-CEO, stille F\u00fchrungsst\u00e4rke" },
+  { term: "Michael Jackson",               route: "beruehmte-michael-jackson",             description: "Portrait: SO4w3 \u00b7 Sozialer Typ 4 \u00b7 S\u00e4nger, T\u00e4nzer, King of Pop, G\u00fcrteltier" },
   { term: "Taddl",                         route: "beruehmte-taddl",                       description: "Portrait: SO4w3 \u00b7 Sozialer Typ 4 \u00b7 YouTuber, Gen-Z-Identit\u00e4t" },
   { term: "Taylor Swift",                  route: "beruehmte-taylor-swift",                description: "Portrait: SX5w4 \u00b7 Sexueller Typ 5 \u00b7 Popstar, Songwriterin, Transformation" },
   { term: "Tilda Swinton",                 route: "beruehmte-tilda-swinton",               description: "Portrait: SX5w4 \u00b7 Sexueller Typ 5 \u00b7 Schauspielerin" },
@@ -31698,6 +31699,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Romy Schneider \u2013 Sozialer Typ 4",
     teaser:"SO4w3 \u00b7 1938\u20131982. Schauspielerin. Sissi, C\u00e9sar und Rosalie, La Piscine. Das G\u00fcrteltier, das im Licht stand \u2013 und sich innerlich immer einrollte.",
     tags:["Schauspiel"] , gender:"f"},
+  { route:"beruehmte-michael-jackson", name:"Michael Jackson", added:"2026-08-16", subtyp:"SO4w3",
+    heading:"Michael Jackson – Sozialer Typ 4",
+    teaser:"SO4w3 · 1958–2009. Sänger, Tänzer & Komponist, ›Thriller‹, King of Pop. Das Gürteltier, das eine gestohlene Kindheit nie ganz nachholen konnte – gepanzert von Perfektion, verletzlich im Innersten. Tierentsprechung: Gürteltier.",
+    tags:["Musik"], gender:"m"},
   { route:"beruehmte-taddl", name:"Taddl (Daniel Tjarks)", subtyp:"SO4w3",
     heading:"Taddl \u2013 Sozialer Typ 4",
     teaser:"SO4w3 \u00b7 geb. 1996. YouTuber, K\u00fcnstler & Musiker. Das G\u00fcrteltier, das sich jahrelang hinter einer Maske aus Humor verbarg \u2013 und irgendwann begann, das Echte zu zeigen.",
@@ -43744,6 +43749,73 @@ function tilSchweigerPortraitPage() {
         {route:"beruehmte-taddl", label:"Portr\u00e4t: Taddl (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portr\u00e4t: Romy Schneider (SO4w3)"},
       ])}
+    </div>
+  `);
+}
+
+function michaelJacksonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-michael-jackson-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Jackson</p>
+        <p class="krim-portrait-typ">SO4w3 · Sozialer Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Sänger, Tänzer &amp; Komponist, 1958–2009 – Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typs 4 – gepanzert nach außen, weich im Inneren. Kaum ein Bild trifft Michael Jackson genauer: ein Künstler, der auf der Bühne unangreifbar wirkte – makellos choreografiert, in glitzernde Kostüme gehüllt, hinter einer Maske aus Perfektion – und der zugleich in Interviews immer wieder von tiefer Einsamkeit sprach.</p>
+          <p class="vb-intro">Kein Musiker des 20. Jahrhunderts hat die Popkultur so vollständig neu definiert. Und kaum ein Musiker hat gleichzeitig so offen davon gesprochen, sich fremd zu fühlen – in der eigenen Familie, im eigenen Ruhm, in der eigenen Haut. Das Gürteltier zeigt der Welt seine Rüstung. Was darunter liegt, zeigt es fast niemandem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Scham als stille Triebkraft: Die gestohlene Kindheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>soziale Typ 4 (SO4)</strong> ist der Verstärkungstyp der Vier: Er trägt seine Leidenschaft des Neids nach innen – als <strong>Scham</strong>. Das Lebensgefühl der SO4 ist ein tiefes Mangelbewusstsein: Die anderen haben etwas Selbstverständliches, das mir fehlt. Bei Michael Jackson lässt sich dieses Gefühl bis in die früheste Kindheit zurückverfolgen.</p>
+          <p class="vb-intro">Geboren 1958 in Gary, Indiana, als siebtes von neun Kindern, stand er mit fünf Jahren bereits auf der Bühne – zunächst mit seinen Brüdern in den Jackson 5, unter dem strengen, oft gewaltsamen Regime seines Vaters Joseph Jackson. Michael selbst beschrieb später wiederholt, wie er als Kind geschlagen und beschimpft wurde, wenn eine Choreografie nicht saß. Es gab kaum Raum für Spiel, für Freundschaften, für eine gewöhnliche Kindheit. Was andere Kinder selbstverständlich hatten, hatte er nie: <em>Ich habe nie wirklich Kind sein dürfen</em>, sagte er in mehreren Interviews. Genau das ist die Wunde der SO4 – nicht der Mangel an Erfolg, sondern der Mangel an etwas, das für alle anderen normal zu sein scheint.</p>
+          <p class="vb-intro">Neverland, die Ranch, die er sich später als Erwachsener baute – mit Karussell, Zoo, Kino und Achterbahn –, lässt sich aus dieser Perspektive lesen als der Versuch, das nachzuholen, was in der eigenen Kindheit fehlte. Die SO4 sucht nicht Reichtum um seiner selbst willen. Sie sucht das, was sie nie hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Perfektion der Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> verleiht der sozialen Vier etwas, das sie allein nicht hätte: Bühnenpräsenz, Ehrgeiz, die Fähigkeit, aus innerem Schmerz makellose Leistung zu formen. Die SO4w3 fühlt die Scham – und tritt trotzdem auf, mit einer Präzision, die keinen Fehler duldet.</p>
+          <p class="vb-intro">Michael Jacksons Karriere ist diese Verbindung in Reinform. <em>Thriller</em> (1982) wurde mit über 70 Millionen verkauften Exemplaren zum meistverkauften Album der Geschichte. Der Moonwalk, erstmals 1983 bei der Motown-25-Jubiläumsshow gezeigt, wurde zur Ikone. Jede Choreografie, jedes Musikvideo, jeder Bühnenauftritt war bis ins letzte Detail durchdacht – Proben von zehn, zwölf Stunden waren für ihn normal. Der Dreierflügel liefert die Disziplin und den Ehrgeiz, die Vier darunter liefert die Tiefe, die aus reiner Perfektion echte Kunst macht.</p>
+          <p class="vb-intro">Doch die Bühne war für Jackson mehr als Beruf. Sie war der einzige Ort, an dem er sich sicher fühlte. <em>Wenn ich auf der Bühne bin, ist das der einzige Ort, an dem ich wirklich glücklich bin</em>, sagte er einmal. Für die SO4w3 ist der Applaus nicht Eitelkeit – er ist die kurzzeitige Linderung eines Gefühls, das sonst nie ganz verschwindet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Preis der Sichtbarkeit: Bild und Verwandlung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Über die Jahrzehnte veränderte sich Jacksons äußeres Erscheinungsbild so grundlegend, dass es selbst zum Gesprächsthema wurde – mehrere Operationen an Nase und Kinn, eine zunehmend hellere Hautfarbe, die er später auf die Hautkrankheit <em>Vitiligo</em> zurückführte, eine Pigmentstörung, die er 1993 gegenüber Oprah Winfrey öffentlich machte. Die Öffentlichkeit reagierte über Jahre mit Spott statt mit Verständnis.</p>
+          <p class="vb-intro">Für die soziale Vier ist das äußere Bild nie neutral. Es ist die sichtbare Oberfläche eines inneren Gefühls von Unzulänglichkeit – und der Versuch, genau dieses Gefühl von außen zu korrigieren. Je tiefer die Scham, desto größer der Drang, am eigenen Erscheinungsbild zu arbeiten, bis es endlich stimmt. Bei Jackson traf dieser Mechanismus auf eine beispiellose öffentliche Beobachtung: Jede Veränderung wurde fotografiert, kommentiert, verspottet – und verstärkte damit genau das Gefühl, nie richtig zu sein, das die Veränderung eigentlich lindern sollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w3 ist ihre Fähigkeit, aus tiefstem persönlichem Schmerz etwas zu schaffen, das Millionen Menschen berührt – und ihn zugleich in ein Anliegen zu verwandeln, das über die eigene Person hinausweist. Jackson gründete die Stiftung <em>Heal the World</em>, spendete nach Schätzungen mehrerer Quellen über seine Karriere hinweg hunderte Millionen Dollar an wohltätige Zwecke und setzte sich öffentlich für Kinder in Not ein. Für die SO4 ist das kein Widerspruch zur eigenen Bedürftigkeit, sondern ihre direkteste Ausdrucksform: das zu geben, was man selbst am meisten vermisst hat.</p>
+          <p class="vb-intro">Der Schatten seines Lebens lässt sich nicht ausblenden: 1993 wurde erstmals der Vorwurf des sexuellen Missbrauchs eines Kindes gegen ihn erhoben, der Fall wurde außergerichtlich beigelegt, ohne dass eine Schuld festgestellt wurde. 2005 stand Jackson wegen ähnlicher Vorwürfe vor Gericht und wurde in allen Anklagepunkten freigesprochen. Nach seinem Tod erhoben zwei Männer in der Dokumentation <em>Leaving Neverland</em> (2019) erneut schwere Vorwürfe aus ihrer Kindheit. Die Wahrheit hinter diesen widersprüchlichen Darstellungen lässt sich im Rahmen dieses Porträts nicht klären – sie bleibt Gegenstand öffentlicher Auseinandersetzung. Was sich enneagrammatisch beschreiben lässt, ist lediglich das Muster: ein Mann, der sein Leben lang versuchte, die eigene verlorene Kindheit in der Nähe von Kindern nachzuholen – auf eine Weise, die für manche anrührend und für andere zutiefst beunruhigend war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Tod und Vermächtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Michael Jackson starb am 25. Juni 2009 in Los Angeles im Alter von 50 Jahren an akutem Herzstillstand, ausgelöst durch eine Überdosis des Narkosemittels Propofol, das ihm sein Leibarzt Conrad Murray zur Behandlung seiner Schlaflosigkeit verabreicht hatte – wenige Wochen vor Beginn seiner geplanten Comeback-Konzertreihe <em>This Is It</em> in London. Murray wurde 2011 wegen fahrlässiger Tötung verurteilt.</p>
+          <p class="vb-intro">Was bleibt, ist ein musikalisches Erbe, das die Popkultur bis heute prägt, und eine Biografie, die zeigt, wie eng bei der sozialen Vier mit Dreierflügel Genie und Schmerz miteinander verwoben sein können. Das Gürteltier trug seine Rüstung bis zuletzt – glänzend, unangreifbar, bewundert von Millionen. Was darunter lag, blieb bis zum Schluss weitgehend verborgen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+          {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
+          {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -87644,6 +87716,7 @@ function render() {
       "beruehmte-fiona-apple": fionaApplePortraitPage,
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
       "beruehmte-taddl": taddlPortraitPage,
+      "beruehmte-michael-jackson": michaelJacksonPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,
       "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,

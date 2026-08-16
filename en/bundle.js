@@ -431,6 +431,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Romy Schneider – Social Type 4",
     teaser:"SO4w3 · 1938–1982. Actress. Sissi, César et Rosalie, La Piscine. The armadillo that stood in the light – and always curled inward.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-michael-jackson", name:"Michael Jackson", added:"2026-08-16", subtyp:"SO4w3",
+    heading:"Michael Jackson – Social Type 4",
+    teaser:"SO4w3 · 1958–2009. Singer, dancer & composer, ‘Thriller’, King of Pop. The armadillo who could never fully reclaim a stolen childhood – armored by perfection, vulnerable at the core. Animal correspondence: Armadillo.",
+    tags:["Musik"] },
   { route:"beruehmte-taddl", name:"Taddl (Daniel Tjarks)", subtyp:"SO4w3",
     heading:"Taddl – Social Type 4",
     teaser:"SO4w3 · born 1996. YouTuber, artist & musician. The armadillo that hid for years behind a mask of humor – and eventually began to show the real self.",
@@ -24955,6 +24959,73 @@ function tilSchweigerPortraitPage() {
         {route:"beruehmte-taddl", label:"Portrait: Taddl (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
       ])}
+    </div>
+  `);
+}
+
+function michaelJacksonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-michael-jackson-portrait.jpg" alt="Armadillo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Jackson</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Singer, dancer &amp; composer, 1958–2009 &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Type 4 &ndash; armored on the outside, soft within. Hardly any image fits Michael Jackson more precisely: an artist who appeared untouchable on stage &ndash; flawlessly choreographed, wrapped in glittering costumes, hidden behind a mask of perfection &ndash; and who, in interviews, repeatedly spoke of profound loneliness.</p>
+          <p class="vb-intro">No musician of the twentieth century redefined pop culture as completely. And hardly any musician spoke as openly, at the same time, about feeling like an outsider &ndash; within his own family, within his own fame, within his own skin. The armadillo shows the world its armor. What lies beneath it, it shows almost no one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Shame as Quiet Driving Force: The Stolen Childhood</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Type 4 (SO4)</strong> is the reinforcing type of the Four: it carries the passion of envy inward &ndash; as <strong>shame</strong>. The SO4's core feeling is a deep sense of lack: others have something taken for granted that I do not. In Michael Jackson, this feeling can be traced back to his earliest childhood.</p>
+          <p class="vb-intro">Born in 1958 in Gary, Indiana, the seventh of nine children, he was already performing on stage at age five &ndash; first with his brothers in the Jackson 5, under the strict, often violent regime of his father, Joseph Jackson. Michael himself later repeatedly described being struck and berated as a child whenever a routine was not perfect. There was almost no room for play, for friendships, for an ordinary childhood. What other children took for granted, he never had: <em>I never really got the chance to be a child</em>, he said in several interviews. That is exactly the wound of the SO4 &ndash; not a lack of success, but a lack of something that seems normal for everyone else.</p>
+          <p class="vb-intro">Neverland, the ranch he built as an adult &ndash; with a carousel, a zoo, a cinema, and a roller coaster &ndash; can be read from this perspective as an attempt to reclaim what was missing from his own childhood. The SO4 does not seek wealth for its own sake. It seeks what it never had.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: The Perfection of the Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Four something it would not have alone: stage presence, ambition, the ability to shape inner pain into flawless performance. The SO4w3 feels the shame &ndash; and performs anyway, with a precision that tolerates no error.</p>
+          <p class="vb-intro">Michael Jackson's career is this combination in its purest form. <em>Thriller</em> (1982) became the best-selling album in history, with over 70 million copies sold. The moonwalk, first shown in 1983 at the Motown 25th Anniversary special, became an icon. Every routine, every music video, every stage performance was worked out to the smallest detail &ndash; rehearsals of ten or twelve hours were normal for him. The Three-wing supplies the discipline and ambition; the Four beneath it supplies the depth that turns pure perfection into genuine art.</p>
+          <p class="vb-intro">But the stage was more than a profession for Jackson. It was the one place he felt safe. <em>When I'm on stage, that's the only place I'm truly happy</em>, he once said. For the SO4w3, applause is not vanity &ndash; it is the brief relief of a feeling that otherwise never fully disappears.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Price of Visibility: Image and Transformation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Over the decades, Jackson's outward appearance changed so fundamentally that it became a subject of discussion in itself &ndash; several surgeries on his nose and chin, an increasingly lighter skin tone that he later attributed to the skin condition <em>vitiligo</em>, a pigmentation disorder he made public in a 1993 interview with Oprah Winfrey. For years, the public responded with mockery rather than understanding.</p>
+          <p class="vb-intro">For the social Four, outward appearance is never neutral. It is the visible surface of an inner feeling of inadequacy &ndash; and an attempt to correct that very feeling from the outside. The deeper the shame, the greater the urge to keep working on one's own appearance until it finally feels right. In Jackson's case, this mechanism collided with unprecedented public scrutiny: every change was photographed, commented on, ridiculed &ndash; reinforcing exactly the feeling of never being quite right that the change was meant to soothe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w3 is its ability to turn the deepest personal pain into something that touches millions &ndash; and to transform it into a cause that reaches beyond the self. Jackson founded the <em>Heal the World Foundation</em>, and according to several estimates donated hundreds of millions of dollars to charitable causes over the course of his career, publicly advocating for children in need. For the SO4, this is no contradiction to its own neediness, but its most direct expression: giving what one missed the most.</p>
+          <p class="vb-intro">The shadow of his life cannot be set aside: in 1993, he was first accused of sexually abusing a child; the case was settled out of court without any finding of guilt. In 2005, Jackson stood trial on similar charges and was acquitted on all counts. After his death, two men raised renewed, serious allegations from their childhoods in the documentary <em>Leaving Neverland</em> (2019). The truth behind these conflicting accounts cannot be resolved within the scope of this portrait &ndash; it remains a matter of public dispute. What can be described from an Enneagram perspective is only the pattern: a man who, throughout his life, tried to reclaim his own lost childhood in the company of children &ndash; in a way that some found touching and others found deeply troubling.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Death and Legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Michael Jackson died on June 25, 2009, in Los Angeles at the age of 50 from acute cardiac arrest, caused by an overdose of the anesthetic propofol administered by his personal physician, Conrad Murray, to treat his insomnia &ndash; just weeks before the planned start of his comeback concert series <em>This Is It</em> in London. Murray was convicted of involuntary manslaughter in 2011.</p>
+          <p class="vb-intro">What remains is a musical legacy that still shapes pop culture today, and a biography that shows how closely genius and pain can be intertwined in the social Four with a Three-wing. The armadillo wore its armor until the very end &ndash; gleaming, untouchable, admired by millions. What lay beneath it remained, for the most part, hidden to the last.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+          {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
+          {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -53244,6 +53315,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-fiona-apple": fionaApplePortraitPage,
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
       "beruehmte-taddl": taddlPortraitPage,
+      "beruehmte-michael-jackson": michaelJacksonPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-jordan-peterson": jordanPetersonPortraitPage,
