@@ -24245,6 +24245,7 @@ const registerEntries = [
   { term: "Michael Franzese",          route: "kriminalpsychologie-michael-franzese",     description: "Kriminalpsychologisches Portr\u00e4t: SE3w2 \u2013 ehemaliger New Yorker Mafia-Capo, 100-Mio.-Benzinbetrug, Ausstieg und Wandel" },
   { term: "Michail Popkow",            route: "kriminalpsychologie-michail-popkow",       description: "Kriminalpsychologisches Portr\u00e4t: SE1w9 \u2013 russischer Serienm\u00f6rder, 86 Morde, \u201eWerwolf von Angarsk\u201d, Polizist als T\u00e4ter" },
   { term: "Niels H\u00f6gel",               route: "kriminalpsychologie-niels-hoegel",        description: "Kriminalpsychologisches Portr\u00e4t: SE7w8 \u2013 deutscherkrankenpfleger, mind. 85 Morde an Patienten, Sucht nach Reanimations-Spannung" },
+  { term: "Andreas Baader",            route: "kriminalpsychologie-andreas-baader",      description: "Kriminalpsychologisches Portr\u00e4t: SE7w8 \u2013 Mitbegr\u00fcnder der RAF, 1943\u20131977, Freiheitsdrang und Naranjos \u201everdeckte Acht\u201c, Gorilla" },
   { term: "Paul Bernardo",             route: "kriminalpsychologie-paul-bernardo",        description: "Kriminalpsychologisches Portr\u00e4t: SX1w2 \u2013 kanadischer Serienm\u00f6rder und Vergewaltiger, \u201eScharlach-Vergewaltiger\u201d, Doppelverbrechen mit Homolka" },
   { term: "Paul Ogorzow",              route: "kriminalpsychologie-paul-ogorzow",         description: "Kriminalpsychologisches Portr\u00e4t: SE1w9 \u2013 \u201eS-Bahn-M\u00f6rder\u201d, 8 Morde Berlin 1939\u201341, NSDAP-Mitglied und Triebt\u00e4ter" },
   { term: "Pedro Alonso L\u00f3pez",        route: "kriminalpsychologie-pedro-alonso-lopez",  description: "Kriminalpsychologisches Portr\u00e4t: SO3w2 \u2013 \u201eMonster der Anden\u201d, 300+ gestandene Morde in S\u00fcdamerika, freigelassen 1998" },
@@ -24828,6 +24829,7 @@ const registerEntriesEN = [
   { term: "Michael Franzese", route: "kriminalpsychologie-michael-franzese", description: "Criminal psychological portrait: SE3w2 \u2013 former New York Mafia capo, 100 million gas fraud, exit and transformation" },
   { term: "Mikhail Popkov", route: "kriminalpsychologie-michail-popkow", description: "Criminal psychological portrait: SE1w9 \u2013 Russian serial killer, 86 murders, \"Werewolf of Angarsk\", police officer as perpetrator" },
   { term: "Niels H\u00f6gel", route: "kriminalpsychologie-niels-hoegel", description: "Criminal psychological portrait: SE7w8 \u2013 German nurse, at least 85 murders of patients, addiction to resuscitation excitement" },
+  { term: "Andreas Baader", route: "kriminalpsychologie-andreas-baader", description: "Criminal psychological portrait: SE7w8 \u2013 co-founder of the RAF, 1943\u20131977, drive for freedom and Naranjo's 'hidden Eight', Gorilla" },
   { term: "Paul Bernardo", route: "kriminalpsychologie-paul-bernardo", description: "Criminal psychological portrait: SX1w2 \u2013 Canadian serial killer and rapist, \"Scarborough Rapist\", double crimes with Homolka" },
   { term: "Paul Ogorzow", route: "kriminalpsychologie-paul-ogorzow", description: "Criminal psychological portrait: SE1w9 \u2013 \"S-Bahn Murderer\", 8 murders Berlin 1939\u201341, NSDAP member and sex offender" },
   { term: "Pedro Alonso L\u00f3pez", route: "kriminalpsychologie-pedro-alonso-lopez", description: "Criminal psychological portrait: SO3w2 \u2013 \"Monster of the Andes\", 300+ confessed murders in South America, released 1998" },
@@ -31257,6 +31259,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-armin-meiwes",       name:"Armin Meiwes",                         subtyp:"SX6w5",  heading:"Armin Meiwes \u2013 Sexueller Typ 6",                                      teaser:"SX6w5 \u2013 'Der Kannibale von Rotenburg', geb. 1961. Freiwilliger Kannibalismusfall 2001 \u2013 die sexuelle Sechs mit F\xfcnferfl\xfcgel: Angst vor dem Alleinsein als absolute, t\xf6dliche Verschmelzungssehnsucht. Tierentsprechung: Wolf." , tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-charles-manson",      name:"Charles Manson",                       subtyp:"SX6w7",  heading:"Charles Manson \u2013 Sexueller Typ 6",                                     teaser:"SX6w7 \u2013 Sektengr\xfcnder und Drahtzieher, 1934\u20132017. Tate-LaBianca-Morde 1969 \u2013 die sexuelle Sechs mit Siebenerfl\xfcgel: Angst als Charisma, Kontrolle durch Hingabe. Tierentsprechung: Wolf." , tags:["Terror","Missbrauch"], gender:"m"},
   { route:"kriminalpsychologie-niels-hoegel",        name:"Niels H\xf6gel",                     subtyp:"SE7w8",  heading:"Niels H\xf6gel \u2013 Selbsterhaltender Typ 7",                            teaser:"SE7w8 \u2013 Krankenpfleger und Serienm\xf6rder, geb. 1976. Mindestens 85 Tote \u2013 die selbsterhaltende Sieben mit Achterfl\xfcgel in ihrer dunkelsten Auspr\xe4gung: Gier als Kontrollsucht." , tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-andreas-baader",      name:"Andreas Baader",                    subtyp:"SE7w8",  heading:"Andreas Baader \u2013 Selbsterhaltender Typ 7",                          teaser:"SE7w8 \u2013 Mitbegr\xfcnder der Rote Armee Fraktion (RAF), 1943\u20131977. Freiheitsdrang statt Theorie, schnelle Autos statt Marx-Lekt\xfcre \u2013 die selbsterhaltende Sieben mit Achterfl\xfcgel als Naranjos \u201everdeckte Acht\u201c. Tierentsprechung: Gorilla." , tags:["Terror"], gender:"m"},
       { route:"kriminalpsychologie-chris-watts",         name:"Chris Watts",                      subtyp:"SO7w6",  heading:"Chris Watts \u2013 Sozialer Typ 7",                                  teaser:"SO7w6 \u2013 US-amerikanischer Familienm\u00f6rder, geb. 1985. Ermordete seine schwangere Frau und zwei T\u00f6chter, um mit seiner Geliebten ein neues Leben zu beginnen. Verhaftet 2018, f\u00fcnfmal lebensl\u00e4nglich. Tierentsprechung: Biber." , tags:["Nahbereich"], gender:"m"},
       { route:"kriminalpsychologie-frank-abagnale-jr", name:"Frank Abagnale Jr.", subtyp:"SO7w6", heading:"Frank Abagnale Jr. \u2013 Sozialer Typ 7", teaser:"SO7w6 \u2013 Ber\u00fchmtester Hochstapler der Geschichte, geb. 1948. Pilot, Arzt, Anwalt \u2013 ohne je einer gewesen zu sein. Die soziale Sieben mit Sechserfl\u00fcgel: rastlose Suche nach neuen Systemen, Zugeh\u00f6rigkeit als Antrieb, Vertrauen als letztes Ziel. Tierentsprechung: Biber.", tags:["Betrug"], gender:"m"},
   { route:"kriminalpsychologie-p-diddy",          name:"Sean 'P. Diddy' Combs",              added:"2026-07-15",              subtyp:"SX7w8",  heading:"Sean 'P. Diddy' Combs \u2013 Sexueller Typ 7",                              teaser:"SX7w8 \u2013 Musikproduzent, Unternehmer, Verurteilter. Geb. 1969 in New York. Jahrzehntelang einer der m\u00e4chtigsten M\u00e4nner der Musikindustrie \u2013 und ein System sexueller Gewalt, das hinter Glamour und Kontrolle verborgen blieb. Verurteilt 2025 wegen Sex-Trafficking und N\u00f6tigung. Die sexuelle Sieben mit Achterfl\u00fcgel: Vergn\u00fcgen als Recht, Kontrolle als Liebe, Macht als Schutzschild. Tierentsprechung: Schimpanse." , tags:["Missbrauch","Musikindustrie"], gender:"m"},
@@ -45761,6 +45764,7 @@ function moritzBleibtreuPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-franka-potente", label:"Porträt: Franka Potente (SE2w1) – Partnerin in ›Lola rennt‹"},
+        {route:"kriminalpsychologie-andreas-baader", label:"Kriminalpsychologie: Andreas Baader (SE7w8) – von Bleibtreu verkörpert"},
         {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
         {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3)"},
       ])}
@@ -73004,6 +73008,85 @@ function charlesMansonPortraitPage() {
   `);
 }
 
+function andreasBaaderPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Andreas Baader – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/andreas-baader-portrait.jpg" alt="Andreas Baader – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Andreas Baader</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterfl\xfcgel</p>
+        <p class="krim-portrait-sub">Mitbegr\xfcnder der Rote Armee Fraktion (RAF) &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Gorilla</h3>
+        <p class="vb-intro">Der <strong>Gorilla</strong> ist die Tierentsprechung der selbsterhaltenden Sieben &ndash; ein Tier, das nach au\xdfen friedlich, familienorientiert und ohne Aggressionsbedarf wirkt, solange niemand seine Freiheit oder sein Revier antastet. Genau dann kann derselbe Gorilla zum kompromisslosesten Verteidiger werden, den man sich vorstellen kann. Andreas Baader war dieses Doppelgesicht in Reinkultur: charmant, witzig, geliebt von seinem engsten Kreis &ndash; und zugleich der unnachgiebigste, gewaltbereiteste Kopf der fr\xfchen RAF.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Sieben: Freiheit als h\xf6chstes Gut</h3>
+        <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> nannte Naranjo <em>Familie</em>: Sie sichert sich ihre Freiheit und ihren Genuss ab, indem sie sich einen geschlossenen, vertrauten Kreis schafft, in dem sie tun und lassen kann, was sie will. Anders als die soziale oder sexuelle Sieben richtet sich ihr Hunger nicht in erster Linie auf Publikum oder auf die eine gro\xdfe Verschmelzung, sondern auf pers\xf6nliche Unabh\xe4ngigkeit &ndash; auf ein Leben, das sich niemandem erkl\xe4ren muss.</p>
+        <p class="vb-intro">Andreas Baader, 1943 in M\xfcnchen geboren, wuchs vaterlos auf, flog von mehreren Schulen, geriet fr\xfch mit dem Gesetz in Konflikt &ndash; Autodiebstahl, kleine Delikte, ein rastloses Leben zwischen Boheme und Halbwelt. Politische Theorie interessierte ihn nach \xfcbereinstimmenden Zeitzeugenberichten deutlich weniger als seine Mitstreiterinnen Gudrun Ensslin und Ulrike Meinhof, die die ideologischen Texte der Gruppe verfassten. Baader las kaum Marx &ndash; er wollte handeln, fahren, erleben. Schnelle Autos, gute Kleidung, das Gef\xfchl, sich niemandem unterordnen zu m\xfcssen: Das war seine eigentliche Sprache, lange bevor daraus bewaffneter Kampf wurde.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Achterfl\xfcgel: Von Provokation zu Gewalt</h3>
+        <p class="vb-intro">Der <strong>Achterfl\xfcgel</strong> gibt der selbsterhaltenden Sieben etwas, das sie von anderen Siebenern unterscheidet: die Bereitschaft, Konfrontation nicht zu scheuen, sondern zu suchen, sobald die eigene Freiheit infrage gestellt wird. Wo die reine Sieben ausweicht, hält die SE7w8 stand &ndash; und kann, wenn es so weit kommt, selbst zur Gewalt greifen.</p>
+        <p class="vb-intro">Im April 1968 z\xfcndeten Baader, Ensslin, Thorwald Proll und Horst S\xf6hnlein zwei Kaufh\xe4user in Frankfurt an &ndash; ein Protest gegen den Vietnamkrieg und die Konsumgesellschaft. 1970 wurde Baader in einer spektakul\xe4ren, von Ulrike Meinhof mitorganisierten Aktion gewaltsam aus einer Bibliothek befreit, in der er f\xfcr Recherchezwecke vorf\xfchrt worden war &ndash; ein Ereignis, das gemeinhin als Gr\xfcndungsmoment der RAF gilt. Von da an eskalierte die Gruppe konsequent: Bank\xfcberf\xe4lle zur Finanzierung des Untergrunds, Bombenanschl\xe4ge, bewaffneter Widerstand gegen jede Festnahme. Der Achterfl\xfcgel duldete keinen R\xfcckzug mehr.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die RAF: Das Rudel als Machtbasis</h3>
+        <p class="vb-intro">Innerhalb der RAF war Baader nach \xfcbereinstimmenden Berichten der dominante, oft cholerische Kopf &ndash; nicht der Theoretiker, sondern derjenige, der Entscheidungen durchsetzte und Widerspruch kaum duldete. Das ist die Kehrseite der SE7w8-Freiheit: Wer die eigene Unabh\xe4ngigkeit so absolut setzt, verlangt von anderen oft bedingungslose Gefolgschaft. Die Gruppe finanzierte ihren Untergrund \xfcber Bank\xfcberf\xe4lle &ndash; nicht aus ideologischer \xdcberzeugung allein, sondern auch, weil Geld Bewegungsfreiheit bedeutete: Autos, Wohnungen, ein Leben au\xdferhalb jeder Kontrolle.</p>
+        <p class="vb-intro">1972 wurde Baader gemeinsam mit Gudrun Ensslin, Holger Meins und Jan-Carl Raspe verhaftet. Es folgte der Prozess in Stuttgart-Stammheim, einer der aufwendigsten und meistbeachteten Strafprozesse der deutschen Nachkriegsgeschichte.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Stammheim und der 18. Oktober 1977</h3>
+        <p class="vb-intro">Im Herbst 1977 eskalierte der Konflikt zwischen Staat und RAF im sogenannten Deutschen Herbst: die Entf\xfchrung des Arbeitgeberpr\xe4sidenten Hanns Martin Schleyer, die Entf\xfchrung der Lufthansa-Maschine „Landshut“ nach Mogadischu und deren St\xfcrmung durch die GSG 9. In der Nacht auf den 18. Oktober 1977 starben Baader, Ensslin und Raspe in ihren Zellen in Stammheim &ndash; offiziell durch Suizid, wobei Baader sich nach den Ermittlungsergebnissen selbst erschoss. Die genauen Umst\xe4nde dieser Nacht werden bis heute kontrovers diskutiert; ein staatliches Fremdverschulden konnte nie nachgewiesen werden.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro"><strong>a) Naranjos SE7 &ndash; die „verdeckte Acht“:</strong> Von allen drei Siebener-Varianten kann sich die selbsterhaltende Sieben im Ernstfall am kompromisslosesten durchsetzen. F\xfchlt sie ihre Freiheit bedroht, kann aus dem geselligen, genussorientierten Wesen abrupt eine H\xe4rte werden, die kaum noch R\xfccksicht kennt. Bei Baader war diese Wendung nicht die Ausnahme, sondern das durchg\xe4ngige Muster seines erwachsenen Lebens.</p>
+        <p class="vb-intro"><strong>b) Handlung statt Theorie:</strong> Die Leidenschaft der Sieben, V\xf6llerei, richtet sich bei der SE7 nicht auf intellektuellen \xdcberfluss, sondern auf Erfahrung und Bewegungsfreiheit. Baaders Desinteresse an marxistischer Theorie bei gleichzeitiger Faszination f\xfcr Waffen, Autos und Aktion passt exakt in dieses Bild: Die Sieben will nicht verstehen, sie will erleben.</p>
+        <p class="vb-intro"><strong>c) F\xfchrung durch Dominanz, nicht durch \xdcberzeugung:</strong> Der Achterfl\xfcgel verschaffte Baader innerhalb der Gruppe eine F\xfchrungsposition, die weniger auf ideologischer Autorit\xe4t beruhte als auf pers\xf6nlicher Durchsetzungskraft. Das ist die Schattenseite der SE7w8: Freiheit f\xfcr sich selbst, Gefolgschaft von den anderen.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Andreas Baader</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SE7w8 &ndash; Selbsterhaltende Sieben mit Achterfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> V\xf6llerei (gerichtet auf Freiheit und Erfahrung, verst\xe4rkt durch Achter-Intensit\xe4t)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Gorilla</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 6. Mai 1943 &ndash; 18. Oktober 1977</span>
+          <span style="display:block;"><strong>Bekannt f\xfcr:</strong> Mitbegr\xfcnder der Rote Armee Fraktion (RAF), Kaufhausbrandstiftung 1968, Stammheim-Prozess</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Sieben im Vergleich: Wie Naranjos „verdeckte Acht“ entsteht – und warum Freiheit f\xfcr die SE7w8 zur absoluten Grenze werden kann.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE7, SO7, SX7 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "V\xf6llerei als Grundmotiv der Sieben: Wie das Schutzsystem der Sieben entsteht und wie es sich in Heilung aufl\xf6st.", "Wer du wirklich bist (Band 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Andreas Baader war Mitbegr\xfcnder der RAF und starb 1977 in Haft. Das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"beruehmte-moritz-bleibtreu", label:"Portr\xe4t: Moritz Bleibtreu (SE7w8) – verk\xf6rperte Baader im Film"},
+          {route:"kriminalpsychologie-charles-manson", label:"Kriminalpsychologie: Charles Manson (SX6w7)"},
+          {route:"kriminalpsychologie-adolf-eichmann", label:"Kriminalpsychologie: Adolf Eichmann (SO6w5)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function johnListPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -88028,6 +88111,7 @@ function render() {
       "kriminalpsychologie-anders-breivik": andersBreivikPortraitPage,
       "kriminalpsychologie-armin-meiwes": arminMeiwesPortraitPage,
       "kriminalpsychologie-niels-hoegel": nielsHoegelPortraitPage,
+      "kriminalpsychologie-andreas-baader": andreasBaaderPortraitPage,
       "kriminalpsychologie-chris-watts": chrisWattsPortraitPage,
       "kriminalpsychologie-john-gotti": johnGottiPortraitPage,
       "kriminalpsychologie-nick-leeson": nickLeesonPortraitPage,
