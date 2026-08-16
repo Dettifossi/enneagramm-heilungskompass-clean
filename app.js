@@ -24052,6 +24052,7 @@ const registerEntries = [
     { term: "Adele Neuhauser", route: "beruehmte-adele-neuhauser", description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Schauspielerin, Bibi Fellner, Tatort, \u00d6sterreichischer Filmpreis, Krokodil" },
     { term: "Pablo Picasso", route: "beruehmte-pablo-picasso", description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Maler, Bildhauer, Kubismus, Guernica, Krokodil" },
     { term: "Byron Katie", route: "beruehmte-byron-katie", description: "Portrait: SX6w7 \u00b7 Sexueller Typ 6 \u00b7 Autorin, Begr\u00fcnderin von The Work, Wolf" },
+    { term: "Katja Riemann", route: "beruehmte-katja-riemann", description: "Portrait: SX6w7 \u00b7 Sexueller Typ 6 \u00b7 Schauspielerin, Musikerin, Wolf" },
   { term: "Donald Trump",                  route: "beruehmte-donald-trump",                description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 US-Pr\u00e4sident, Medienprovokateur" },
   { term: "Donata Hopfen",                 route: "beruehmte-donata-hopfen",               description: "Portrait: SO6w7 \u00b7 Sozialer Typ 6 \u00b7 Ex-CEO Bild & DFL, geb. 1976 Hamburg" },
   { term: "Edward Snowden",                route: "beruehmte-edward-snowden",              description: "Portrait: SX5w6 \u00b7 Sexueller Typ 5 \u00b7 NSA-Whistleblower" },
@@ -31992,6 +31993,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Anke Engelke \u2013 Sexueller Typ 6",
     teaser:"SX6w7 \u00b7 geb. 1965. Komikerin, Schauspielerin, Entertainerin, S\u00e4ngerin, Synchronsprecherin, Moderatorin. Mut durch Erscheinen: die SX6, die Angst in Energie und Humor verwandelt. Tierentsprechung: Wolf.",
     tags:["Medien","Kunst"] , gender:"f"},
+  { route:"beruehmte-katja-riemann", name:"Katja Riemann", added:"2026-08-16", subtyp:"SX6w7",
+    heading:"Katja Riemann – Sexueller Typ 6",
+    teaser:"SX6w7 · geb. 1963 in Bad Kreuznach. Schauspielerin und Musikerin, ›Der bewegte Mann‹, ›Nirgendwo in Afrika‹, ›Rosenstraße‹. Der Wolf, der jedem Konflikt mit Klartext begegnet und sich in immer neue künstlerische Terrains wagt. Tierentsprechung: Wolf.",
+    tags:["Schauspiel","Musik"], gender:"f"},
   { route:"beruehmte-byron-katie", name:"Byron Katie", added:"2026-08-16", subtyp:"SX6w7",
     heading:"Byron Katie – Sexueller Typ 6",
     teaser:"SX6w7 · geb. 1942 in Barstow, Kalifornien. Autorin, Begründerin von ›The Work‹. Ein Jahrzehnt Depression und Agoraphobie, dann 1986 die radikale Umkehr: der eigenen Angst mit vier Fragen direkt ins Gesicht sehen. Tierentsprechung: Wolf.",
@@ -45442,6 +45447,65 @@ function byronKatiePortraitPage() {
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-jennifer-aniston", label:"Porträt: Jennifer Aniston (SX6w7)"},
         {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function katjaRiemannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-katja-riemann-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Katja Riemann</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Musikerin, geb. 1963 in Bad Kreuznach – Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Tier, das der Bedrohung nicht ausweicht, sondern sie direkt ansieht. Es prüft, hält Blickkontakt, zeigt Zähne, wenn es sein muss. Kaum eine deutsche Schauspielerin verkörpert diese Direktheit so konsequent wie Katja Riemann: bekannt nicht nur für ihre Rollen, sondern für Interviews, in denen sie kein Blatt vor den Mund nimmt.</p>
+          <p class="vb-intro">Geboren 1963 in Bad Kreuznach, ausgebildet an der Folkwang-Schauspielschule Essen, wurde Riemann 1994 mit <em>Der bewegte Mann</em> an der Seite von Til Schweiger über Nacht zum Star des deutschen Kinos. Doch anders als viele, die auf ihren ersten großen Erfolg eine ähnliche Rolle folgen lassen, wechselte sie seither konsequent zwischen Komödie, Musikfilm und historischem Drama – mit einer Risikobereitschaft, die selten geworden ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Klartext statt Diplomatie (Kontratyp)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist der Kontratyp der Sechs: Sie zeigt ihre Angst nicht durch Rückzug, sondern begegnet ihr mit Stärke, Direktheit und einer Präsenz, die keinen Widerspruch scheut. Naranjo nannte diesen Subtyp <em>Strength</em>. Statt Konflikten auszuweichen, sucht die SX6 sie geradezu – weil Klarheit ihr mehr Sicherheit gibt als diplomatisches Schweigen.</p>
+          <p class="vb-intro">Riemann ist seit Jahrzehnten bekannt für genau diese Haltung: In Interviews äußert sie sich unverblümt zu politischen und gesellschaftlichen Themen – zu Krieg, zu Fluchtursachen, zu sozialer Ungleichheit –, oft in einer Schärfe, die ihr öffentlichen Widerspruch und Kritik einbrachte. Sie weicht dem nicht aus. Wer sie öffentlich angreift, bekommt eine Antwort, keine Rückzugsgeste. Das ist die SX6 in Reinform: Position beziehen, auch wenn es unbequem wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Vielseitigkeit als Appetit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> gibt der sexuellen Sechs eine Qualität, die die reine SX6 nicht hätte: Appetit auf das Neue, Spielfreude, die Lust, sich immer wieder in unbekanntes Terrain zu wagen. Wo die reine Sechs sich in einer bewährten Rolle sicher fühlen könnte, sucht die SX6w7 das nächste Risiko – nicht aus Unruhe, sondern aus echter Neugier.</p>
+          <p class="vb-intro">Riemanns Filmografie zeigt genau diese Breite: die Screwball-Komödie <em>Der bewegte Mann</em> (1994), das musikalische Drama <em>Bandits</em> (1997), in dem sie als Teil einer fiktiven Frauenband selbst Schlagzeug spielte und sang, das ernste Historiendrama <em>Nirgendwo in Afrika</em> (2001, Oscar für den besten fremdsprachigen Film) und <em>Rosenstraße</em> (2003) über den Protest deutscher Frauen gegen die Deportation ihrer jüdischen Ehemänner. Kein Genre, in dem sie sich dauerhaft eingerichtet hätte. Der Siebenerflügel treibt sie immer weiter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Musik: Ein zweites Standbein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dass Riemann für <em>Bandits</em> ihre eigenen Gesangs- und Instrumentalparts einspielte, war keine einmalige Fingerübung: Sie veröffentlichte später eigene Musikprojekte und trat auch abseits des Films als Sängerin auf. Für eine etablierte Schauspielerin ihres Kalibers ist das ein ungewöhnlicher Schritt – verbunden mit dem Risiko, in einem fremden Metier bewertet zu werden, in dem sie keinen etablierten Ruf zu verlieren hatte, aber auch keinen zu gewinnen brauchte.</p>
+          <p class="vb-intro">Für die SX6w7 ist das typisch: Sicherheit entsteht nicht durch das Festhalten am Bewährten, sondern durch die wiederholte Erfahrung, dass man auch im Ungewissen bestehen kann. Jedes neue Terrain, das erfolgreich betreten wird, bestätigt diese innere Gewissheit von Neuem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 ist ihr Mut, öffentlich Position zu beziehen, wo andere lieber schweigen, und dabei künstlerisch beweglich zu bleiben, statt sich auf ein einmal gefundenes Erfolgsrezept zu verlassen. Riemann hat sich über drei Jahrzehnte hinweg als eine der wandlungsfähigsten deutschen Schauspielerinnen etabliert – ausgezeichnet unter anderem mehrfach mit dem Bambi, dem Bayerischen Filmpreis und der Goldenen Kamera.</p>
+          <p class="vb-intro">Der Schatten der SX6 zeigt sich in der Kompromisslosigkeit, mit der sie ihre Positionen vertritt: Was als Mut zur klaren Haltung beginnt, kann in der öffentlichen Debatte auch als Konfrontationslust wahrgenommen werden, die wenig Raum für Zwischentöne lässt. Für die sexuelle Sechs ist das der Preis der eigenen Stärke – wer sich nie zurückzieht, eckt zwangsläufig auch dort an, wo ein Rückzug klüger gewesen wäre.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3) – Partner in ›Der bewegte Mann‹"},
+        {route:"beruehmte-byron-katie", label:"Porträt: Byron Katie (SX6w7)"},
       ])}
     </div>
   `);
@@ -87639,6 +87703,7 @@ function render() {
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
       "beruehmte-jennifer-aniston": jenniferAnistonPortraitPage,
       "beruehmte-byron-katie": byronKatiePortraitPage,
+      "beruehmte-katja-riemann": katjaRiemannPortraitPage,
       "beruehmte-scarlett-johansson": scarlettJohanssonPortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
