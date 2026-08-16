@@ -130,6 +130,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-tom-keating",         name:"Tom Keating",                         subtyp:"SE3w4",  heading:"Tom Keating \u2013 Self-Preservation Type 3",                                 teaser:"SP3w4 – One of the greatest art forgers of the 20th century, 1917–1984. Over 2,000 forgeries in the styles of around 100 masters, laced with deliberate ‘time bombs’ for later exposure – setting the art market straight rather than personal enrichment." , tags:["Betrug"]},
   { route:"kriminalpsychologie-samuel-bankman-fried", name:"Samuel Bankman-Fried",              subtyp:"SE3w4",  heading:"Samuel Bankman-Fried – Self-Preservation Type 3",                       teaser:"SP3w4 – Founder of FTX and Alameda Research, born 1992. One of the biggest fraud cases in the crypto world: billions in customer funds diverted, 25 years imprisonment 2023. The self-preservation Three with Four-wing: facade of modesty, efficiency mania and inner insecurity as motor of collapse. Animal correspondence: Raccoon." , tags:["Betrug"]},
   { route:"kriminalpsychologie-ruja-ignatova",       name:"Ruja Ignatova",                       subtyp:"SE3w4",  heading:"Ruja Ignatova \u2013 Self-Preservation Type 3",                              teaser:"‘Cryptoqueen’, born 1980. Over 4 billion euros in damages, disappeared without a trace since 2017 – the self-preservation Three with Four-wing: perfect staging, global fraud, radical disappearance." , tags:["Betrug"]},
+  { route:"kriminalpsychologie-henri-landru",         name:"Henri Désiré Landru",                 subtyp:"SE3w4",  heading:"Henri Désiré Landru – Self-Preservation Type 3",                        teaser:"SE3w4 – The \"Bluebeard of Paris\", 1869–1922. Murdered at least ten women via lonely-hearts ads (1914–1919), burned the bodies in his own kitchen stove. Meticulous bookkeeping, cynical courtroom humor – the self-preservation Three with a Four wing. Animal correspondence: Raccoon." , tags:["Serienmord","Betrug"], gender:"m"},
   { route:"kriminalpsychologie-belle-gunness",         name:"Belle Gunness",                       subtyp:"SE3w4",  heading:"Belle Gunness – Self-Preservation Type 3",                               teaser:"SP3w4 – The Black Widow of La Porte, 1859–1908(?). At least 25–40 victims, including two husbands and numerous men she lured via marriage advertisements. The raccoon: quiet deception, resource control, no desire for recognition – just the next meal. Animal correspondence: Raccoon." , tags:["Serienmord","Betrug"]},
   { route:"kriminalpsychologie-karla-homolka",        name:"Karla Homolka",                       subtyp:"SE3w4",  heading:"Karla Homolka \u2013 Self-Preservation Type 3",                           teaser:"SP3w4 – ‘Barbie’ of the Ken-and-Barbie Killers, born 1970. Three murders together with Paul Bernardo 1990–93, including her own sister. Raccoon energy: perfect adaptation, double face, the deal with justice as a final act of staging." , tags:["Serienmord","Missbrauch"]},
   { route:"kriminalpsychologie-bernie-madoff",         name:"Bernie Madoff",                    subtyp:"SE3w4",  heading:"Bernie Madoff – Self-Preservation Type 3",                              teaser:"SP3w4 – Largest investment fraud in history, 1938–2021. 65 billion dollars in falsified account statements, at least 20 years of Ponzi scheme – the self-preservation Three with Four-wing: quiet staging, trust as weapon, raccoon energy until the last day. Animal correspondence: Raccoon." , tags:["Betrug"]},
@@ -36937,6 +36938,87 @@ function johnWayneGacyPortraitPage() {
   `);
 }
 
+function henriLandruPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Henri Désiré Landru – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/henri-landru-portrait.jpg" alt="Henri Désiré Landru – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Henri Désiré Landru</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-sub">The "Bluebeard of Paris" &middot; Animal Correspondence: Raccoon</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Raccoon</h3>
+        <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three – an animal that does not hunt in the open, but in hiding, with clever hands, no wasted movement, no audience. Henri Désiré Landru, born in Paris in 1869, embodied exactly this quality: an unremarkable, small, bald man with a neatly groomed black beard, who during the First World War lured wealthy widows to his country house in Gambais through lonely-hearts advertisements, murdered them, seized their fortunes, and burned their remains in his own kitchen stove.</p>
+        <p class="vb-intro">Between 1914 and 1919 he killed at least ten women and the son of one of his victims. No public spectacle, no staging – just the quiet, systematic work of a man who knew exactly what he needed and was prepared to do whatever it took to obtain it.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The self-preservation Three: Security through bookkeeping</h3>
+        <p class="vb-intro">Naranjo called the <strong>self-preservation Three (SE3)</strong> the subtype of <em>Security</em>: not a Three seeking the big stage, but one tirelessly and often unobtrusively working on her own material foundation. Landru kept a meticulous little notebook for years, recording every expense, every train ticket, every franc he collected from his victims – an obsessive, private bookkeeping that let no cent go unaccounted for.</p>
+        <p class="vb-intro">This exact accountant's mentality is the core of the SE3 in its darkest form: it was not the desire for public fame that drove Landru, but the sober, systematic securing of his own material existence – with a ruthlessness that stopped at nothing. For him, murder was not a dramatic act but a necessary step in a cost-benefit calculation.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Four wing: Morbid irony</h3>
+        <p class="vb-intro">An SE3 with a more muted Four wing would likely have carried out her crimes as emotionlessly and colorlessly as possible. In Landru's case, a dark, almost artistic humor emerged instead, one that stayed with him to the end. In court in 1921, he remained cynical and sharp-witted at once: to the charges he responded mockingly, demanding "Show me the bodies!" – fully aware that only ash remained of his victims. His only indirect confession was a drawing he made himself of his kitchen stove.</p>
+        <p class="vb-intro">This morbid, self-assured irony is the Four wing at its darkest: a tragedy turned into a deliberate pose, a sense of one's own uniqueness that does not disappear even facing the guillotine. The courtroom audience was fascinated by this small, bald man who, with his long black beard and eerie calm, seemed like a figure out of a dark fairy tale.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Lonely-hearts ads as a system</h3>
+        <p class="vb-intro">Landru used false identities and the "matters of the heart" columns of Paris newspapers to target lonely, mostly widowed or single women with their own fortunes – a system he refined systematically over the years. The war provided him with the perfect setting: as millions of men died at the front, countless women were left alone, vulnerable, and open to the prospect of a new, secure bond.</p>
+        <p class="vb-intro">This is the SE3 at its most calculating: Landru identified a structural gap – a pool of vulnerable, wealthy women – and built a repeatable procedure that he applied routinely for five years, with the same systematic care he brought to recording his expenses.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Arrest, trial, and execution</h3>
+        <p class="vb-intro">In 1919, Landru was arrested after relatives of several missing women alerted the police. The 1921 trial lasted three weeks and became a public spectacle – not because Landru wanted it that way, but because his cold precision and dry wit captured the public imagination. He was found guilty on all eleven counts and sentenced to death.</p>
+        <p class="vb-intro">Three months later he was guillotined at Versailles. To the end he confessed to nothing – not a single word of remorse, no admission beyond the drawing of the stove. The SE3 holds to her version of reality even when the evidence is overwhelming.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram reveals</h3>
+        <p class="vb-intro"><strong>a) Bookkeeping instead of a stage:</strong> Unlike the social Three, who seeks public prestige, Landru operated as privately as possible – in his own house, in his own stove, in his own notebook. This is the SE3 in its purest form: security is built in hiding, not on a stage.</p>
+        <p class="vb-intro"><strong>b) The Four wing as a dark signature:</strong> An SE3 with a more muted Four wing would likely have behaved more inconspicuously, more colorlessly. Landru's cynical wit in court, his sense of his own morbid uniqueness, show a strongly developed Four wing that gave even his own downfall an unmistakable signature.</p>
+        <p class="vb-intro"><strong>c) A system, not an isolated act:</strong> Like Belle Gunness, another SE3w4 with an almost identical pattern, Landru shows the same structure: lonely-hearts ads as a tool, a repeatable procedure, not a single impulse but a methodical routine refined over years.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Henri Désiré Landru</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SE3w4 – Self-Preservation Three with Four-wing</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Passion:</strong> Deceit (as calculated, systematic securing of one's own material existence)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Animal Correspondence:</strong> Raccoon</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Life dates:</strong> April 12, 1869 – February 25, 1922</span>
+          <span style="display:block;"><strong>Known for:</strong> Murdering at least ten women and one teenager via lonely-hearts ads (1914–1919), burning the bodies in his own kitchen stove, sentenced to death and guillotined in 1921/22</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The self-preservation Three compared: how security becomes calculated destruction – and why the Four wing gives the crime a dark signature.", "The Hidden Dynamics of the 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Deceit as the core motive of the Three: how the Three's protective system forms – and how it dissolves through healing.", "Who You Really Are (Volume 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type assignment is a psychological hypothesis, not a historical verdict. Henri Désiré Landru was convicted of eleven murders in 1921 and executed in 1922. The Enneagram explains, it does not justify.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-belle-gunness", label:"Criminal Psychology: Belle Gunness (SE3w4) – The Black Widow of La Porte"},
+          {route:"kriminalpsychologie-bernie-madoff", label:"Criminal Psychology: Bernie Madoff (SE3w4)"},
+          {route:"kriminalpsychologie-mary-ann-cotton", label:"Criminal Psychology: Mary Ann Cotton (SX1w2)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function belleGunnessPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -54693,6 +54775,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-ted-kaczynski": tedKaczynskiPortraitPage,
       "kriminalpsychologie-harold-shipman": haroldShipmanPortraitPage,
       "kriminalpsychologie-belle-gunness": belleGunnessPortraitPage,
+      "kriminalpsychologie-henri-landru": henriLandruPortraitPage,
       "kriminalpsychologie-karla-homolka": karlaHomolkaPortraitPage,
       "kriminalpsychologie-paul-bernardo": paulBernardoPortraitPage,
       "kriminalpsychologie-osama-bin-laden": osamaBinLadenPortraitPage,
