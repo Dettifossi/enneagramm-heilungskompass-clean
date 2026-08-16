@@ -24312,6 +24312,7 @@ const registerEntries = [
   { term: "O.J. Simpson",              route: "kriminalpsychologie-oj-simpson",           description: "Kriminalpsychologisches Portr\u00e4t: SO3w4 \u2013 NFL-Legende und Protagonist des Prozesses des Jahrhunderts. Freigesprochen 1995, zivilrechtlich schuldig 1997. Tierentsprechung: Gepard." },
   { term: "Pamela Smart",              route: "kriminalpsychologie-pamela-smart",         description: "Kriminalpsychologisches Portr\u00e4t: SX2w3 \u2013 Die Verf\u00fchrerin von Derry. Manipulierte einen 15-j\u00e4hrigen Sch\u00fcler zur Ermordung ihres Mannes (1990). Als einzige noch in Haft. Tierentsprechung: Kamel." },
   { term: "Belle Gunness",             route: "kriminalpsychologie-belle-gunness",        description: "Kriminalpsychologisches Portr\u00e4t: SE3w4 \u2013 Die Schwarze Witwe von La Porte. Mindestens 25\u201340 Opfer, per Heiratsanzeige gelockt und ermordet, ca. 1900\u20131908. Tierentsprechung: Waschb\u00e4r." },
+  { term: "Henri D\u00e9sir\u00e9 Landru", route: "kriminalpsychologie-henri-landru", description: "Kriminalpsychologisches Portrait: SE3w4 \u2013 der \"Blaubart von Paris\", mindestens zehn Frauen \u00fcber Kontaktanzeigen ermordet" },
   { term: "John List",                 route: "kriminalpsychologie-john-list",            description: "Kriminalpsychologisches Portr\u00e4t: SE6w5 \u2013 F\u00fcnffachm\u00f6rder (1971, New Jersey). Erschoss seine Familie aus Angst vor finanziellem Absturz, lebte 17 Jahre als 'Robert Clark'. Tierentsprechung: Kaninchen." },
   { term: "John Gotti",               route: "kriminalpsychologie-john-gotti",           description: "Kriminalpsychologisches Portr\u00e4t: SO8w7 \u2013 Der Teflon Don. Boss der Gambino-Familie, dreimal freigesprochen, 1992 verurteilt. Gestorben 2002 in Haft. Tierentsprechung: L\u00f6we." },
   { term: "Nick Leeson",             route: "kriminalpsychologie-nick-leeson",          description: "Kriminalpsychologisches Portr\u00e4t: SO9w8 \u2013 Der Rogue Trader von Barings Bank. Verbarg 1992\u20131995 Handelsverluste auf Konto 88888, brachte die \u00e4lteste Merchant Bank Englands zum Einsturz (827 Mio. Pfund). Tierentsprechung: B\u00fcffel." },
@@ -24901,6 +24902,7 @@ const registerEntriesEN = [
   { term: "O.J. Simpson", route: "kriminalpsychologie-oj-simpson", description: "Criminal psychological portrait: SO3w4 \u2013 NFL legend and protagonist of the trial of the century. Acquitted in 1995, civilly liable in 1997. Animal equivalent: Cheetah." },
   { term: "Pamela Smart", route: "kriminalpsychologie-pamela-smart", description: "Criminal psychological portrait: SX2w3 \u2013 The Temptress of Derry. Manipulated a 15-year-old student into murdering her husband (1990). The only one still imprisoned. Animal equivalent: Camel." },
   { term: "Belle Gunness", route: "kriminalpsychologie-belle-gunness", description: "Criminal psychological portrait: SE3w4 \u2013 The Black Widow of La Porte. At least 25\u201340 victims, lured via matrimonial advertisement and murdered, approx. 1900\u20131908. Animal equivalent: Raccoon." },
+  { term: "Henri D\u00e9sir\u00e9 Landru", route: "kriminalpsychologie-henri-landru", description: "Criminal psychological portrait: SE3w4 \u2013 the \"Bluebeard of Paris\", murdered at least ten women via lonely-hearts ads" },
   { term: "John List", route: "kriminalpsychologie-john-list", description: "Criminal psychological portrait: SE6w5 \u2013 five-time murderer (1971, New Jersey). Shot his family out of fear of financial ruin, lived for 17 years as 'Robert Clark'. Animal equivalent: Rabbit." },
   { term: "John Gotti", route: "kriminalpsychologie-john-gotti", description: "Criminal psychological portrait: SO8w7 \u2013 The Teflon Don. Boss of the Gambino family, acquitted three times, convicted in 1992. Died in 2002 in custody. Animal equivalent: Lion." },
   { term: "Nick Leeson", route: "kriminalpsychologie-nick-leeson", description: "Criminal psychological portrait: SO9w8 \u2013 The Rogue Trader of Barings Bank. Concealed trading losses in account 88888 from 1992\u20131995, brought down England's oldest merchant bank (827 million pounds). Animal equivalent: Buffalo." },
@@ -31259,6 +31261,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-tom-keating",         name:"Tom Keating",                         subtyp:"SE3w4",  heading:"Tom Keating \u2013 Selbsterhaltender Typ 3",                                teaser:"SE3w4 \u2013 Einer der gr\u00f6\u00dften Kunstf\u00e4lscher des 20. Jahrhunderts, 1917\u20131984. \u00dcber 2.000 F\u00e4lschungen in den Stilen von rund 100 Meistern, gespickt mit absichtlichen \u201eZeitbomben\u201c f\u00fcr sp\u00e4tere Entlarvung \u2013 Rache am Kunstmarkt statt Bereicherung. Tierentsprechung: Waschb\u00e4r." , tags:["Betrug"], gender:"m"},
   { route:"kriminalpsychologie-samuel-bankman-fried", name:"Samuel Bankman-Fried",              subtyp:"SE3w4",  heading:"Samuel Bankman-Fried \u2013 Selbsterhaltender Typ 3",                       teaser:"SE3w4 \u2013 Gr\u00fcnder von FTX und Alameda Research, geb. 1992. Einer der gr\u00f6\u00dften Betrugsf\u00e4lle der Kryptowelt: Kundengelder in Milliardenh\u00f6he umgeleitet, 25 Jahre Haft 2023. Die selbsterhaltende Drei mit Viererfl\u00fcgel: Bescheidenheitsfassade, Effektivit\u00e4tswahn und innere Unsicherheit als Motor des Zusammenbruchs. Tierentsprechung: Waschb\u00e4r." , tags:["Betrug"], gender:"m"},
   { route:"kriminalpsychologie-ruja-ignatova",       name:"Ruja Ignatova",                       subtyp:"SE3w4",  heading:"Ruja Ignatova \u2013 Selbsterhaltender Typ 3",                              teaser:"\u201eCryptoqueen\u201c, geb. 1980. \xdcber 4\xa0Mrd. Euro Schaden, seit 2017 spurlos verschwunden \u2013 die selbsterhaltende Drei mit Viererfl\xfcgel: perfekte Inszenierung, globaler Betrug, radikales Verschwinden." , tags:["Betrug"], gender:"f"},
+  { route:"kriminalpsychologie-henri-landru",         name:"Henri Désiré Landru",                 subtyp:"SE3w4",  heading:"Henri Désiré Landru – Selbsterhaltender Typ 3",                        teaser:"SE3w4 – Der „Blaubart von Paris“, 1869–1922. Ermordete mindestens zehn Frauen über Kontaktanzeigen (1914–1919), verbrannte die Leichen im eigenen Küchenofen. Akribische Buchführung, zynischer Humor vor Gericht – die selbsterhaltende Drei mit Viererflügel. Tierentsprechung: Waschbär." , tags:["Serienmord","Betrug"], gender:"m"},
   { route:"kriminalpsychologie-belle-gunness",         name:"Belle Gunness",                       subtyp:"SE3w4",  heading:"Belle Gunness \u2013 Selbsterhaltender Typ 3",                               teaser:"SE3w4 \u2013 Die Schwarze Witwe von La Porte, 1859\u20131908(?). Mindestens 25\u201340 Opfer, darunter zwei Ehem\xe4nner und zahlreiche M\xe4nner, die sie per Heiratsanzeige anlockte. Der Waschb\xe4r: stille T\xe4uschung, Ressourcenkontrolle, kein Geltungsdrang \u2013 nur die n\xe4chste Mahlzeit. Tierentsprechung: Waschb\xe4r." , tags:["Serienmord","Betrug"], gender:"f"},
   { route:"kriminalpsychologie-karla-homolka",        name:"Karla Homolka",                       subtyp:"SE3w4",  heading:"Karla Homolka \u2013 Selbsterhaltender Typ 3",                           teaser:"SE3w4 \u2013 \u201eBarbie\u201c der Ken-und-Barbie-Killer, geb. 1970. Drei Morde gemeinsam mit Paul Bernardo 1990\u201393, darunter ihre eigene Schwester. Waschb\xe4r-Energie: perfekte Anpassung, doppeltes Gesicht, der Deal mit der Justiz als letzter Inszenierungsakt." , tags:["Serienmord","Missbrauch"], gender:"f"},
   { route:"kriminalpsychologie-bernie-madoff",         name:"Bernie Madoff",                    subtyp:"SE3w4",  heading:"Bernie Madoff \u2013 Selbsterhaltender Typ 3",                              teaser:"SE3w4 \u2013 Gr\u00f6\u00dfter Anlagebetrug der Geschichte, 1938\u20132021. 65 Milliarden Dollar gef\u00e4lschte Kontoausz\u00fcge, mindestens 20 Jahre Ponzi-System \u2013 der selbsterhaltende Dreier mit Viererfl\u00fcgel: stille Inszenierung, Vertrauen als Waffe, Waschb\u00e4r-Energie bis zum letzten Tag. Tierentsprechung: Waschb\u00e4r." , tags:["Betrug"], gender:"m"},
@@ -66583,6 +66586,87 @@ function johnWayneGacyPortraitPage() {
   `);
 }
 
+function henriLandruPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Henri D\xe9sir\xe9 Landru – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/henri-landru-portrait.jpg" alt="Henri D\xe9sir\xe9 Landru – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Henri D\xe9sir\xe9 Landru</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererfl\xfcgel</p>
+        <p class="krim-portrait-sub">Der &bdquo;Blaubart von Paris&ldquo; &ndash; Tierentsprechung: Waschb\xe4r</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Waschb\xe4r</h3>
+        <p class="vb-intro">Der <strong>Waschb\xe4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das nicht auf offener Fl\xe4che jagt, sondern im Verborgenen, mit geschickten H\xe4nden, ohne \xfcberfl\xfcssige Bewegung, ohne Publikum. Henri D\xe9sir\xe9 Landru, 1869 in Paris geboren, verk\xf6rperte genau diese Qualit\xe4t: Ein unscheinbarer, kleiner, kahlk\xf6pfiger Mann mit gepflegtem schwarzem Bart, der w\xe4hrend des Ersten Weltkriegs \xfcber Kontaktanzeigen wohlhabende Witwen in sein Landhaus in Gambais lockte, sie ermordete, ihre Verm\xf6gen einzog und ihre \xdcberreste im eigenen K\xfcchenofen verbrannte.</p>
+        <p class="vb-intro">Zwischen 1914 und 1919 t\xf6tete er mindestens zehn Frauen und den Sohn einer seiner Opfer. Keine \xf6ffentliche Inszenierung, kein Spektakel &ndash; nur die stille, systematische Arbeit eines Mannes, der genau wusste, was er brauchte, und der bereit war, alles Notwendige zu tun, um es sich zu beschaffen.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Drei: Sicherheit durch Buchf\xfchrung</h3>
+        <p class="vb-intro">Naranjo nannte die <strong>selbsterhaltende Drei (SE3)</strong> den Subtyp der <em>Sicherheit</em>: keine Drei, die auf der gro\xdfen B\xfchne gl\xe4nzen will, sondern eine, die unerm\xfcdlich und oft unauff\xe4llig am eigenen materiellen Fundament arbeitet. Landru f\xfchrte \xfcber Jahre ein akribisches kleines Notizbuch, in dem er jede Ausgabe, jede Zugfahrkarte, jeden Franc verzeichnete, den er von seinen Opfern einzog &ndash; eine besessene, private Buchhaltung, die keinen Cent unbeachtet lie\xdf.</p>
+        <p class="vb-intro">Genau diese Buchhaltermentalit\xe4t ist der Kern der SE3 in ihrer d\xfcstersten Form: Nicht der Wunsch nach \xf6ffentlichem Ruhm trieb Landru an, sondern die n\xfcchterne, systematische Sicherung der eigenen materiellen Existenz &ndash; mit einer Konsequenz, die vor nichts zur\xfcckschreckte. Der Mord war f\xfcr ihn kein dramatischer Akt, sondern ein notwendiger Schritt in einer Kosten-Nutzen-Rechnung.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Viererfl\xfcgel: Die morbide Ironie</h3>
+        <p class="vb-intro">Eine SE3 mit schw\xe4cher ausgepr\xe4gtem Viererfl\xfcgel h\xe4tte ihre Taten vermutlich m\xf6glichst emotionslos und farblos durchgezogen. Bei Landru trat stattdessen ein d\xfcsterer, fast k\xfcnstlerischer Humor hervor, der ihn bis zum Schluss begleitete. Vor Gericht, 1921, blieb er zynisch und geistreich zugleich: Auf die Anklage antwortete er h\xf6hnisch mit der Forderung &bdquo;Zeigen Sie mir die Leichen!&ldquo; &ndash; wohl wissend, dass von seinen Opfern nur Asche \xfcbrig war. Sein einziges indirektes Gest\xe4ndnis war eine selbst angefertigte Zeichnung seines K\xfcchenofens.</p>
+        <p class="vb-intro">Diese morbide, selbstbewusste Ironie ist der Viererfl\xfcgel in seiner dunkelsten Auspr\xe4gung: eine Tragik, die zur bewussten Pose wird, ein Gef\xfchl der eigenen Einzigartigkeit, das selbst im Angesicht der Guillotine nicht verschwindet. Das Gerichtssaal-Publikum war fasziniert von diesem kleinen, kahlen Mann, der mit seinem langen schwarzen Bart und seiner unheimlichen Ruhe wie eine Figur aus einer d\xfcsteren M\xe4rchenerz\xe4hlung wirkte.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Kontaktanzeigen als System</h3>
+        <p class="vb-intro">Landru nutzte falsche Identit\xe4ten und die &bdquo;Herzensangelegenheiten&ldquo;-Rubriken Pariser Zeitungen, um gezielt einsame, meist verwitwete oder alleinstehende Frauen mit eigenem Verm\xf6gen anzusprechen &ndash; ein System, das er \xfcber Jahre systematisch verfeinerte. Der Krieg lieferte ihm dabei den perfekten Rahmen: W\xe4hrend Millionen M\xe4nner an der Front starben, blieben zahllose Frauen allein zur\xfcck, verwundbar und offen f\xfcr die Aussicht auf eine neue, sichere Verbindung.</p>
+        <p class="vb-intro">Das ist die SE3 in ihrer kalkuliertesten Form: Landru identifizierte eine strukturelle L\xfccke &ndash; einen Markt aus verwundbaren, verm\xf6genden Frauen &ndash; und baute ein wiederholbares Verfahren, das er \xfcber f\xfcnf Jahre routiniert anwendete, mit derselben systematischen Sorgfalt, mit der er auch seine Ausgaben notierte.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Verhaftung, Prozess und Hinrichtung</h3>
+        <p class="vb-intro">1919 wurde Landru verhaftet, nachdem Angeh\xf6rige mehrerer vermisster Frauen die Polizei alarmiert hatten. Der Prozess 1921 dauerte drei Wochen und wurde zu einem \xf6ffentlichen Spektakel &ndash; nicht, weil Landru es so wollte, sondern weil seine kalte Pr\xe4zision und sein trockener Humor die \xf6ffentliche Fantasie fesselten. Er wurde in allen elf F\xe4llen f\xfcr schuldig befunden und zum Tode verurteilt.</p>
+        <p class="vb-intro">Drei Monate sp\xe4ter wurde er in Versailles guillotiniert. Bis zuletzt gestand er nichts &ndash; kein einziges Wort der Reue, kein Gest\xe4ndnis, das \xfcber die Zeichnung des Ofens hinausging. Die SE3 h\xe4lt an ihrer Version der Realit\xe4t fest, selbst wenn die Beweislast erdr\xfcckend ist.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro"><strong>a) Buchf\xfchrung statt B\xfchne:</strong> Anders als die soziale Drei, die \xf6ffentliches Prestige sucht, agierte Landru maximal privat &ndash; im eigenen Haus, im eigenen Ofen, in einem eigenen Notizbuch. Das ist die SE3 in ihrer reinsten Form: Sicherheit wird im Verborgenen aufgebaut, nicht auf einer Bühne.</p>
+        <p class="vb-intro"><strong>b) Der Viererfl\xfcgel als d\xfcstere Signatur:</strong> Eine SE3 mit schw\xe4cher ausgepr\xe4gtem Viererfl\xfcgel h\xe4tte sich vermutlich unauff\xe4lliger, farbloser verhalten. Landrus zynischer Witz vor Gericht, sein Gef\xfchl f\xfcr die eigene morbide Einzigartigkeit, zeigen einen stark ausgepr\xe4gten Viererfl\xfcgel, der selbst dem eigenen Untergang eine unverwechselbare Note verlieh.</p>
+        <p class="vb-intro"><strong>c) Ein System statt eines Einzelfalls:</strong> Wie bei Belle Gunness, einer weiteren SE3w4 mit fast identischem Muster, zeigt sich bei Landru dieselbe Struktur: Heiratsanzeigen als Werkzeug, ein wiederholbares Verfahren, kein Einzelimpuls, sondern eine methodische, \xfcber Jahre verfeinerte Routine.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Henri D\xe9sir\xe9 Landru</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SE3w4 &ndash; Selbsterhaltende Drei mit Viererfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> T\xe4uschung (als kalkulierte, systematische Sicherung der eigenen materiellen Existenz)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Waschb\xe4r</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 12. April 1869 &ndash; 25. Februar 1922</span>
+          <span style="display:block;"><strong>Bekannt f\xfcr:</strong> Mord an mindestens zehn Frauen und einem Jugendlichen \xfcber Kontaktanzeigen (1914&ndash;1919), Verbrennung der Leichen im eigenen K\xfcchenofen, 1921 zum Tode verurteilt und guillotiniert</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Drei im Vergleich: Wie Sicherheit zur kalkulierten Vernichtung wird – und warum der Viererflügel dem Verbrechen eine dunkle Signatur gibt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Selbstt\xe4uschung als Grundmotiv der Drei: Wie das Schutzsystem der Drei entsteht und wie es sich in Heilung aufl\xf6st.", "Wer du wirklich bist (Band 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Henri D\xe9sir\xe9 Landru wurde 1921 wegen elffachen Mordes verurteilt und 1922 hingerichtet. Das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-belle-gunness", label:"Kriminalpsychologie: Belle Gunness (SE3w4) – Die Schwarze Witwe von La Porte"},
+          {route:"kriminalpsychologie-bernie-madoff", label:"Kriminalpsychologie: Bernie Madoff (SE3w4)"},
+          {route:"kriminalpsychologie-mary-ann-cotton", label:"Kriminalpsychologie: Mary Ann Cotton (SX1w2)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function belleGunnessPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -89066,6 +89150,7 @@ function render() {
       "kriminalpsychologie-ted-kaczynski": tedKaczynskiPortraitPage,
       "kriminalpsychologie-harold-shipman": haroldShipmanPortraitPage,
       "kriminalpsychologie-belle-gunness": belleGunnessPortraitPage,
+      "kriminalpsychologie-henri-landru": henriLandruPortraitPage,
       "kriminalpsychologie-karla-homolka": karlaHomolkaPortraitPage,
       "kriminalpsychologie-paul-bernardo": paulBernardoPortraitPage,
       "kriminalpsychologie-osama-bin-laden": osamaBinLadenPortraitPage,
