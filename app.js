@@ -64896,7 +64896,7 @@ function victorLustigPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Schimpanse</h3>
         <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben &ndash; hochintelligent, sozial wendig, mit einer F\xe4higkeit, sich in jede Gruppe, jede Situation, jede Beziehung sofort einzupassen und sie f\xfcr sich zu nutzen. Victor Lustig, geboren um 1890 in B\xf6hmen, war genau dieses Tier in Menschenform: Er sprach f\xfcnf Sprachen flie\xdfend, f\xfchrte \xfcber vierzig verschiedene Aliasnamen und Identit\xe4ten, und schaffte es, sich in jede Umgebung &ndash; vom Passagierschiff-Salon bis zum Chicagoer Gangstermilieu &ndash; als vollkommen glaubw\xfcrdig zu inszenieren.</p>
-        <p class="vb-intro">1925 las er in einer Pariser Zeitung eine Randnotiz: Die Instandhaltung des Eiffelturms sei so teuer geworden, dass ein Abriss g\xfcnstiger sein k\xf6nnte. Aus diesem einzigen Satz konstruierte Lustig einen der k\xfchnsten Betr\xfcge der Geschichte &ndash; und verkaufte den Turm nicht nur einmal, sondern zweimal an ahnungslose Schrotth\xe4ndler.</p>
+        <p class="vb-intro">1925 las er in einer Pariser Zeitung eine Randnotiz: Die Instandhaltung des Eiffelturms sei so teuer geworden, dass ein Abriss g\xfcnstiger sein k\xf6nnte. Aus diesem einzigen Satz konstruierte Lustig einen der k\xfchnsten Betrugsf\xe4lle der Geschichte &ndash; und verkaufte den Turm nicht nur einmal, sondern zweimal an ahnungslose Schrotth\xe4ndler.</p>
       </div>
 
       <div class="vb-section">
