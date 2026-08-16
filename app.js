@@ -73855,7 +73855,7 @@ function maryAnnCottonPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Zweierfl\xfcgel: Die F\xfcrsorge-Fassade</h3>
         <p class="vb-intro">Der <strong>Zweierfl\xfcgel</strong> gibt der sexuellen Eins etwas, das bei schw\xe4cher ausgepr\xe4gtem Zweierfl\xfcgel fehlen w\xfcrde: Charme, F\xfcrsorglichkeit, die F\xe4higkeit, sich als liebevoll und unentbehrlich darzustellen. Cotton arbeitete als Krankenschwester &ndash; ein Beruf, der Vertrauen und Fürsorge verk\xf6rpert &ndash; und pflegte genau jene Menschen, die sie sp\xe4ter vergiftete. Sie wirkte, laut Zeitgenossen, nicht auff\xe4llig oder bedrohlich, sondern unscheinbar, adrett, gepflegt: Ihr Sonntagsschullehrer beschrieb sie als &bdquo;vorbildliche, regelm\xe4\xdfige Teilnehmerin&ldquo; mit &bdquo;besonders sauberer und ordentlicher Erscheinung&ldquo;.</p>
-        <p class="vb-intro">Diese Fassade erm\xf6glichte ihr, immer wieder neue M\xe4nner zu gewinnen und ihr Vertrauen zu erschleichen, obwohl an ihrem Umfeld reihenweise Menschen starben. Der Zweierfl\xfcgel liefert das charmante, f\xfcrsorgliche Gesicht, hinter dem sich der harte, kompromisslose Kern der Eins verbirgt &ndash; ein Muster, das sich bei anderen SX1w2-F\xe4llen wiederholt: Kontrolle wird als Liebe getarnt, Vernichtung als F\xfcrsorge maskiert.</p>
+        <p class="vb-intro">Diese Fassade erm\xf6glichte ihr, immer wieder neue M\xe4nner zu gewinnen und ihr Vertrauen zu erschleichen, obwohl in ihrem Umfeld reihenweise Menschen starben. Der Zweierfl\xfcgel liefert das charmante, f\xfcrsorgliche Gesicht, hinter dem sich der harte, kompromisslose Kern der Eins verbirgt &ndash; ein Muster, das sich bei anderen SX1w2-F\xe4llen wiederholt: Kontrolle wird als Liebe getarnt, Vernichtung als F\xfcrsorge maskiert.</p>
       </div>
 
       <div class="vb-section">
@@ -73885,7 +73885,7 @@ function maryAnnCottonPortraitPage() {
           <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Zorn (als Eifer, gerichtet auf die Reinheit der engsten Beziehung)</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Schwarze Mamba</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> Oktober 1832 &ndash; 24. M\xe4rz 1873</span>
-          <span style="display:block;"><strong>Bekannt f\xfcr:</strong> Vergiftung mehrerer Ehem\xe4nner, Kinder und Angeh\xf6riger mit Arsen; verurteilt wegen eines Mordes, verd\xe4chtigt bei bis zu 21 Todesf\xe4llen</span>
+          <span style="display:block;"><strong>Bekannt f\xfcr:</strong> Vergiftung mehrerer Ehem\xe4nner, Kinder und Angeh\xf6riger mit Arsen; verurteilt wegen eines Mordes, verd\xe4chtigt in bis zu 21 Todesf\xe4llen</span>
         </p>
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Eins im Vergleich: Wie Eifer zur unerbittlichen Kontrolle der engsten Beziehung wird – und warum der Zweierflügel die Fassade liefert.", "Die verborgene Dynamik der 27 Subtypen")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
