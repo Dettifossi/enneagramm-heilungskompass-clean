@@ -24084,6 +24084,7 @@ const registerEntries = [
     { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bundeskanzlerin 2005\u20132021, Elefant" },
     { term: "Carmen Goglin", route: "beruehmte-carmen-goglin", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Lachtrainerin, Coachin, Gr\u00fcnderin der Reutlinger Lachschule" },
     { term: "Gina Rinehart", route: "beruehmte-gina-rinehart", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bergbau-Unternehmerin, reichste Frau Australiens" },
+    { term: "Sandra H\u00fcller", route: "beruehmte-sandra-hueller", description: "Portrait: SO9w1 \u00b7 Soziale Typ 9 \u00b7 Schauspielerin, Toni Erdmann, Anatomie eines Falls" },
   { term: "David Hume",                    route: "beruehmte-david-hume",                  description: "Portrait: SE9w8 \u00b7 Selbsterhaltender Typ 9 \u00b7 Philosoph, radikaler Skeptizismus" },
   { term: "Baruch de Spinoza",             route: "beruehmte-spinoza",                     description: "Portrait: SE5w6 \u00b7 Selbsterhaltender Typ 5 \u00b7 Philosoph, Rationalist, 1632\u20131677" },
   { term: "Hermann Hesse",                 route: "beruehmte-hermann-hesse",               description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Schriftsteller, Nobelpreisträger" },
@@ -24404,6 +24405,7 @@ const registerEntriesEN = [
   { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Federal Chancellor 2005\u20132021, Elephant" },
   { term: "Carmen Goglin", route: "beruehmte-carmen-goglin", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 laughter-yoga trainer, coach, founder of the Reutlingen Laughter School" },
   { term: "Gina Rinehart", route: "beruehmte-gina-rinehart", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 mining magnate, Australia's richest woman" },
+  { term: "Sandra H\u00fcller", route: "beruehmte-sandra-hueller", description: "Portrait: SO9w1 \u00b7 Social Type 9 \u00b7 actress, Toni Erdmann, Anatomy of a Fall" },
   { term: "David Hume", route: "beruehmte-david-hume", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Philosopher, radical skepticism" },
   { term: "Baruch de Spinoza", route: "beruehmte-spinoza", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 Philosopher, rationalist, 1632\u20131677" },
   { term: "Hermann Hesse", route: "beruehmte-hermann-hesse", description: "Portrait: SE5w6 · Self-Preservation Type 5 · Writer, Nobel laureate" },
@@ -32278,6 +32280,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Johannes Brahms \u2013 Selbsterhaltender Typ 9",
     teaser:"SE9w8 \u00b7 1833\u20131897. Deutscher Komponist. 1853 von Robert Schumann entdeckt, vier Jahrzehnte treuer Begleiter der Familie Schumann, 21 Jahre Arbeit an der 1. Symphonie. Der Elefant mit Achterfl\u00fcgel: schroffer Witz, unersch\u00fctterliche Geduld und eine Treue, die nie aufgab. Tierentsprechung: Elefant.",
     tags:["Musik","Geschichte"], gender:"m"},
+  { route:"beruehmte-sandra-hueller", name:"Sandra Hüller", added:"2026-08-16", subtyp:"SO9w1",
+    heading:"Sandra Hüller – Soziale Typ 9",
+    teaser:"SO9w1 · geb. 1978. Schauspielerin, Toni Erdmann, Anatomie eines Falls, The Zone of Interest. Zwei Oscar-Nominierungen 2024, treu geblieben dem Theater in Leipzig. Der Büffel, der trägt, statt zu glänzen. Tierentsprechung: Büffel.",
+    tags:["Film","Schauspiel"], gender:"f"},
   { route:"beruehmte-kevin-costner", name:"Kevin Costner", added:"2026-07-22", subtyp:"SO9w1",
     heading:"Kevin Costner \u2013 Sozialer Typ 9",
     teaser:"SO9w1 \u00b7 geb. 1955. Schauspieler und Regisseur. Dances with Wolves, Field of Dreams, Yellowstone. Der B\u00fcffel, der nicht f\u00fcr sich k\u00e4mpft \u2013 sondern f\u00fcr etwas, das gr\u00f6\u00dfer ist als er selbst.",
@@ -48383,6 +48389,70 @@ function ginaRinehartPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
           {route:"beruehmte-carmen-goglin", label:"Portr\xe4t: Carmen Goglin (SE9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
+function sandraHuellerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sandra-hueller-portrait.jpg" alt="B\xfcffel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sandra H\xfcller</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Soziale Typ 9 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1978 &ndash; Toni Erdmann, Anatomie eines Falls, The Zone of Interest &ndash; Tierentsprechung: B\xfcffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der B\xfcffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>B\xfcffel</strong> ist das Tier des sozialen Typs 9 &ndash; ein Tier, das nicht durch Auffallen wirkt, sondern durch schiere Pr\xe4senz im Kollektiv. Sandra H\xfcller ist in genau diesem Sinn ein B\xfcffel des internationalen Kinos: Sie steht selten im Rampenlicht der eigenen Person, sondern tr\xe4gt eine Rolle nach der anderen durch das Ensemble &ndash; unaufgeregt, tragf\xe4hig, ohne die Herde je zu verlassen, der sie sich zugeh\xf6rig f\xfchlt: dem Theater in Leipzig, wo sie bis heute regelm\xe4\xdfig auf der B\xfchne steht.</p>
+          <p class="vb-intro">Geboren 1978 in Suhl, Th\xfcringen, ausgebildet an der Ernst-Busch-Schauspielschule Berlin, blieb H\xfcller trotz Oscar-Nominierungen und internationalem Ruhm ihrem Stammhaus treu. Diese Best\xe4ndigkeit ist kein Zufall, sondern die Grundhaltung des Tieres: Der B\xfcffel wechselt die Herde nicht, nur weil andere Weiden gr\xfcner erscheinen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Zugeh\xf6rigkeit statt Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> ist nach Naranjo eine Variante der Tr\xe4gheits-Leidenschaft, die sich nicht in pers\xf6nlichem Komfort erschöpft, sondern in der Verschmelzung mit einer Gruppe, einem Kollektiv, einer gemeinsamen Sache. H\xfcller spricht in Interviews auffallend selten \xfcber sich selbst als Star &ndash; fast immer \xfcber das Ensemble, das Team, die Regie, die anderen Schauspieler. Der eigene Ruhm wird konsequent relativiert.</p>
+          <p class="vb-intro">Diese Zur\xfcckhaltung ist keine Koketterie. Es ist die Grundbewegung der SO9: sich selbst im Gr\xf6\xdferen aufzul\xf6sen, um darin Sinn zu finden, statt Anerkennung als Einzelperson zu suchen. Genau das erm\xf6glicht ihr auch, in Rollen v\xf6llig zu verschwinden &ndash; von der Toni-Erdmann-Managerin bis zur Auschwitz-Kommandantengattin H\xf6\xdf ist keine Handschrift, kein wiederkehrendes &bdquo;Ich&ldquo; erkennbar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\xfcgel: Pr\xe4zision ohne Kompromiss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine reine Neun w\xfcrde sich treiben lassen. Der <strong>Einserfl\xfcgel</strong> bringt bei H\xfcller etwas anderes mit: hohe Anspr\xfcche an die eigene Arbeit, ein feines Gesp\xfcr f\xfcr das, was moralisch tragbar ist, und die Bereitschaft, Rollen abzulehnen, die diesem Ma\xdfstab nicht gen\xfcgen. In &bdquo;The Zone of Interest&ldquo; (2023) spielte sie Hedwig H\xf6\xdf, die Frau des Auschwitz-Kommandanten Rudolf H\xf6\xdf &ndash; eine Rolle, die absolute Genauigkeit verlangte, ohne die Figur je zu entlasten oder zu verharmlosen.</p>
+          <p class="vb-intro">Die SO9w1 wirkt nach au\xdfen weich und anpassungsf\xe4hig. Innerlich folgt sie einem strengen, oft unsichtbaren Ma\xdfstab von Richtig und Falsch. H\xfcller w\xe4hlt ihre Rollen entlang dieser Linie &ndash; nicht nach Erfolgsaussicht, sondern danach, ob sie der Sache gerecht werden kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Requiem: Der fr\xfche Durchbruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2006 spielte H\xfcller in Hans-Christian Schmids &bdquo;Requiem&ldquo; die an Epilepsie erkrankte Michaela Klingler, die von ihrer Kirchengemeinde f\xfcr besessen gehalten wird &ndash; eine Rolle, die auf dem realen Fall Anneliese Michel beruht. F\xfcr diese Leistung erhielt sie den Silbernen B\xe4ren der Berlinale, den Deutschen Filmpreis und den Bayerischen Filmpreis.</p>
+          <p class="vb-intro">Der Durchbruch ver\xe4nderte ihren Alltag kaum sichtbar. Sie blieb in Leipzig und Bochum, spielte weiter Theater, statt sofort nach Hollywood zu wechseln. Das ist die soziale Neun in Reinform: Erfolg wird integriert, nicht als Ausbruch aus der eigenen Struktur genutzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Toni Erdmann und Anatomie eines Falls: Zwei Frauen im Druck</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In Maren Ades &bdquo;Toni Erdmann&ldquo; (2016) spielte H\xfcller eine erfolgsorientierte Unternehmensberaterin, deren Fassade von ihrem exzentrischen Vater systematisch demontiert wird &ndash; ein internationaler Erfolg, der ihr den Europ\xe4ischen Filmpreis einbrachte. In &bdquo;Anatomie eines Falls&ldquo; (2023) spielte sie eine erfolgreiche Autorin, die nach dem Tod ihres Mannes selbst zur Angeklagten wird &ndash; daf\xfcr erhielt sie 2024 den C\xe9sar als beste Darstellerin.</p>
+          <p class="vb-intro">Beide Figuren stehen unter \xf6ffentlicher Beobachtung, m\xfcssen sich rechtfertigen, werden von au\xdfen beurteilt. H\xfcller spielt diesen Druck nie laut &ndash; sie l\xe4sst ihn sich in der K\xf6rperhaltung, im Zaudern, in kleinen Verz\xf6gerungen zeigen. Das ist die SO9: Konflikt wird nicht ausgetragen, sondern getragen, bis er sich in der Figur selbst entl\xe4dt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der B\xfcffel im Rampenlicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2024 war H\xfcller mit zwei Filmen &ndash; &bdquo;Anatomie eines Falls&ldquo; und &bdquo;The Zone of Interest&ldquo; &ndash; gleichzeitig f\xfcr den Oscar als beste Hauptdarstellerin nominiert, eine seltene Konstellation. In Interviews reagierte sie darauf mit spürbarer Zur\xfcckhaltung &ndash; kein Triumphgestus, eher eine leise Ratlosigkeit dar\xfcber, was der Rummel eigentlich bedeuten soll.</p>
+          <p class="vb-intro">Der B\xfcffel mit Einserfl\xfcgel bewegt sich durch die gr\xf6\xdften B\xfchnen der Filmwelt, ohne die eigene Bodenst\xe4ndigkeit aufzugeben. Kein Drama, kein Posieren &ndash; nur die stille, hartn\xe4ckige Ausdauer, mit der die soziale Neun Rolle f\xfcr Rolle, Spielzeit f\xfcr Spielzeit durchtr\xe4gt. Das ist keine spektakul\xe4re Karriere. Es ist eine, die einfach nicht aufh\xf6rt zu tragen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-steffi-graf", label:"Portr\xe4t: Steffi Graf (SO9w1)"},
+          {route:"beruehmte-peter-falk", label:"Portr\xe4t: Peter Falk (SO9w1)"},
         ])}
       </div>
     </div>
@@ -88292,6 +88362,7 @@ function render() {
           "beruehmte-angela-merkel": angelaMerkelPortraitPage,
           "beruehmte-carmen-goglin": carmenGoglinPortraitPage,
           "beruehmte-gina-rinehart": ginaRinehartPortraitPage,
+          "beruehmte-sandra-hueller": sandraHuellerPortraitPage,
     "beruehmte-david-hume": davidHumePortraitPage,
     "beruehmte-thomas-von-aquin": thomasVonAquinPortraitPage,
     "beruehmte-spinoza": spinozaPortraitPage,

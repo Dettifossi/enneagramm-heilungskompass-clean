@@ -1027,6 +1027,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Karoline Herfurth – Self-Preservation Type 4",
     teaser:"SE4w5 \xb7 born 1984, Berlin. Actress, director. The dove that observes before it lands - inner depth, artistic precision, and a humanity behind the camera that looks for the beauty in the vulnerable.",
     tags:["Film"], gender:"f"},
+  { route:"beruehmte-sandra-hueller", name:"Sandra Hüller", added:"2026-08-16", subtyp:"SO9w1",
+    heading:"Sandra Hüller – Social Type 9",
+    teaser:"SO9w1 · born 1978. Actress, Toni Erdmann, Anatomy of a Fall, The Zone of Interest. Two Oscar nominations in 2024, stayed loyal to her theater in Leipzig. The buffalo that carries instead of shining. Animal correspondence: Buffalo.",
+    tags:["Film","Film/Theater"], gender:"f"},
   { route:"beruehmte-kevin-costner", name:"Kevin Costner", added:"2026-07-22", subtyp:"SO9w1",
     heading:"Kevin Costner – Social Type 9",
     teaser:"SO9w1 · born 1955. Actor and director. Dances with Wolves, Field of Dreams, Yellowstone. The buffalo who doesn't fight for himself - but for something bigger than himself.",
@@ -18560,6 +18564,69 @@ function kevinCostnerPortraitPage() {
           {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
           {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
           {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function sandraHuellerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-sandra-hueller-portrait.jpg" alt="B\xfcffel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sandra H\xfcller</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Actress, b. 1978 – Toni Erdmann, Anatomy of a Fall, The Zone of Interest – Animal equivalent: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The buffalo is the animal of the social Nine – an animal whose impact comes not from standing out, but from sheer presence within the collective. Sandra Hüller is, in exactly this sense, a buffalo of international cinema: she rarely stands in the spotlight as herself, instead carrying one role after another through the ensemble – unhurried, load-bearing, never leaving the herd she considers her own: the theater in Leipzig, where she still performs regularly.</p>
+          <p class="vb-intro">Born in 1978 in Suhl, Thuringia, trained at the Ernst Busch Academy of Dramatic Arts in Berlin, Hüller has stayed loyal to her home stage despite Oscar nominations and international fame. This constancy is no coincidence but the animal's basic stance: the buffalo does not switch herds just because other pastures look greener.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Nine: Belonging instead of the spotlight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the social Nine (SO9) is a variant of the passion of sloth that does not exhaust itself in personal comfort but in merging with a group, a collective, a shared cause. Hüller talks strikingly rarely in interviews about herself as a star – almost always about the ensemble, the team, the director, the other actors. Her own fame is consistently played down.</p>
+          <p class="vb-intro">This restraint is not coyness. It is the basic movement of the SO9: dissolving oneself into something larger to find meaning there, rather than seeking recognition as an individual. This is exactly what allows her to disappear completely into roles – from the Toni Erdmann executive to the Auschwitz commandant's wife Höss, no recurring signature, no consistent "I" is recognizable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One wing: Precision without compromise</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A pure Nine would drift along. In Hüller's case, the Einserflügel brings something else: high standards for her own work, a fine sense for what is morally sustainable, and the willingness to turn down roles that do not meet that standard. In "The Zone of Interest" (2023) she played Hedwig Höss, the wife of Auschwitz commandant Rudolf Höss – a role demanding absolute precision, without ever softening or normalizing the character.</p>
+          <p class="vb-intro">The SO9w1 appears soft and adaptable on the outside. Internally, she follows a strict, often invisible standard of right and wrong. Hüller chooses her roles along this line – not by prospects of success, but by whether she can do justice to the material.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Requiem: The early breakthrough</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2006, Hüller played Michaela Klingler in Hans-Christian Schmid's "Requiem" – a woman with epilepsy believed by her church congregation to be possessed, a role based on the real case of Anneliese Michel. For this performance she received the Silver Bear at the Berlinale, the German Film Award, and the Bavarian Film Award.</p>
+          <p class="vb-intro">The breakthrough barely changed her everyday life visibly. She stayed in Leipzig and Bochum, kept doing theater instead of moving straight to Hollywood. That is the social Nine in its purest form: success gets integrated, not used as a break from one's own structure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Toni Erdmann and Anatomy of a Fall: Two women under pressure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In Maren Ade's "Toni Erdmann" (2016), Hüller played a success-driven management consultant whose facade is systematically dismantled by her eccentric father – an international success that earned her the European Film Award. In "Anatomy of a Fall" (2023), she played a successful novelist who becomes the accused herself after her husband's death – for which she received the 2024 César for Best Actress.</p>
+          <p class="vb-intro">Both characters stand under public scrutiny, have to justify themselves, are judged from the outside. Hüller never plays this pressure loudly – she lets it show in posture, in hesitation, in small delays. This is the SO9: conflict is not fought out, but carried, until it discharges within the character itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Buffalo in the spotlight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2024, Hüller was simultaneously nominated for the Best Actress Oscar for two films – "Anatomy of a Fall" and "The Zone of Interest" – a rare constellation. In interviews she responded with noticeable reserve – no triumphant gesture, more a quiet puzzlement about what all the fuss was supposed to mean.</p>
+          <p class="vb-intro">The buffalo with an Einserflügel moves through the biggest stages of the film world without giving up its groundedness. No drama, no posing – just the quiet, stubborn endurance with which the social Nine carries role after role, season after season. This is not a spectacular career. It is one that simply never stops carrying.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
+          {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1)"},
         ])}
       </div>
     </div>
@@ -53999,6 +54066,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-angela-merkel": angelaMerkelPortraitPage,
       "beruehmte-carmen-goglin": carmenGoglinPortraitPage,
       "beruehmte-gina-rinehart": ginaRinehartPortraitPage,
+      "beruehmte-sandra-hueller": sandraHuellerPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-robert-schumann": robertSchumannPortraitPage,
       "beruehmte-franz-liszt": franzLisztPortraitPage,
