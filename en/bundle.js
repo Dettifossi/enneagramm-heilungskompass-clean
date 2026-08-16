@@ -927,6 +927,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jack Black – Self-Preservation Type 2",
     teaser:"SE2w1 · born 1969. Actor & musician, School of Rock, Tenacious D. Full-body, unrestrained devotion to joy, wrapped in craft and standards. Animal correspondence: Hippo.",
     tags:["Film/Theater","Music"] , gender:"m"},
+  { route:"beruehmte-dhapanbal-yunupingu", name:"Dhapanbal Yunupingu", added:"2026-08-16", subtyp:"SE8w9",
+    heading:"Dhapanbal Yunupingu – Self-Preservation Type 8",
+    teaser:"SP8w9 · Singer, songwriter, and artist from Arnhem Land, Australia. Daughter of Dr. M. Yunupingu (Yothu Yindi). The orangutan who quietly and steadily carries a cultural legacy forward rather than marketing it. Animal correspondence: Orangutan.",
+    tags:["Musik","Kunst"], gender:"f"},
   { route:"beruehmte-golda-meir", name:"Golda Meir", added:"2026-07-22", subtyp:"SE8w9",
     heading:"Golda Meir – Self-Preservation Type 8",
     teaser:"SE8w9 · 1898–1978. Politician, stateswoman, fourth prime minister of Israel (1969–1974). One of the signatories of Israel's Declaration of Independence. The orangutan that climbs slowly and ends up sitting higher than everyone who was louder.",
@@ -17367,6 +17371,70 @@ function jacquelineMarsPortraitPage() {
           {route:"beruehmte-umberto-eco", label:"Portrait: Umberto Eco (SE8w7)"},
           {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
           {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function dhapanbalYunupinguPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-dhapanbal-yunupingu-portrait.jpg" alt="Orangutan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dhapanbal Yunupingu</p>
+        <p class="krim-portrait-typ">SP8w9 &middot; Self-Preservation Type 8 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Singer, songwriter &amp; artist – Animal correspondence: Orangutan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Orangutan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>orangutan</strong> is the animal of the self-preservation Type 8 &ndash; an animal that needs no troop, no stage, no outside confirmation. It lives in its own territory, grounded, patient, with a strength that needs no proving. Dhapanbal Yunupingu embodies exactly this quiet groundedness: an artist who remains rooted in her own land, in her own community, while her music carries far beyond it.</p>
+          <p class="vb-intro">Dhapanbal Yunupingu is a singer, songwriter, and visual artist from North East Arnhem Land, Australia &ndash; the third of six daughters of Dr. M. Yunupingu, frontman of the legendary band Yothu Yindi and one of the most defining figures in modern Indigenous Australian music and civil rights history. She lives and works at the Buku-Larrŋgay Mulka Art Centre in Yirrkala &ndash; the cultural center of her community.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Eight: The Right to Carry What One Has Inherited</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Eight (SP8)</strong> expresses the Eight's passion &ndash; <em>lust</em> &ndash; through self-assertion, securing resources, and the unconditional right to one's own territory. Naranjo called this subtype <em>Satisfaction</em>: fulfillment as a life principle. The SP8 does not build itself a stage &ndash; it builds itself a ground on which it can carry what has been entrusted to it.</p>
+          <p class="vb-intro">As the daughter of a man whose voice and whose fight for the rights of Indigenous Australians shaped a nation, Dhapanbal Yunupingu carries a legacy that could easily overwhelm. The SP8 does not meet such a legacy with withdrawal but with calm self-assertion: claiming her own artistic territory without having to defend it loudly. She remains in the place where this legacy was born &ndash; Yirrkala, Arnhem Land &ndash; rather than marketing it elsewhere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Quiet Continuity Over the Spotlight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> gives the self-preservation Eight something the pure Eight often finds difficult: patience, fusion with community, and the ability to work in the background rather than fight in the foreground. The SP8w9 secures its territory not through confrontation but through persistent, quiet presence.</p>
+          <p class="vb-intro">Alongside her music, Yunupingu is also active as a visual artist &ndash; as part of the <em>Seven Sisters</em> project, she coordinated etching processes among other work, a practice that demands patience, precision, and craft continuity rather than spectacular self-display. This is the Nine-wing: art as a shared, communal practice, not merely as an expression of the individual alone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Deadly Hearts to Bidiwidi</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dhapanbal Yunupingu became known, among other things, through her participation in the <em>Deadly Hearts</em> project (2017, ABC Music), which reinterpreted traditional and iconic songs together with young Indigenous artists &ndash; she sang the track <em>Maralitja</em>. In 2019, she released her own EP <em>Bidiwidi</em>, featuring songs such as <em>Gurtha</em> (together with Shellie Morris) and <em>The Crying Song</em>.</p>
+          <p class="vb-intro">Together with other artists, including Djakapurra Munyarryun, she performed live at the Sydney Opera House, among other venues. Each of these steps &ndash; the shared project, the solo EP, the joint performance &ndash; carries the same signature: success that does not detach itself from community, but folds community in.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP8w9 is its ability to secure continuity without imposing itself. Carrying forward a cultural and family legacy of this weight without diluting it and without losing oneself in it demands exactly the mix of steadfastness and patience that defines the SP8w9.</p>
+          <p class="vb-intro">The shadow lies in the flip side of this groundedness: whoever holds their territory this persistently can be overlooked &ndash; precisely because they seek no stage. The SP8w9 risks disappearing into quietness where louder self-promotion might bring more international attention. This is not a deficiency but a deliberate priority: one's own territory over one's own visibility.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Orangutan That Carries Its Territory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dhapanbal Yunupingu stands in a lineage that reaches far beyond herself &ndash; and carries it forward in her own, unhurried way. No troop, no stage she would need in order to exist. The orangutan stays in its forest, grounded, patient &ndash; and right there, exactly where it is, it carries what was entrusted to it into the next generation.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
+          {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SP8w9)"},
+          {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SP8w9)"},
         ])}
       </div>
     </div>
@@ -53827,6 +53895,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
       "beruehmte-jack-black": jackBlackPortraitPage,
       "beruehmte-golda-meir": goldaMeirPortraitPage,
+      "beruehmte-dhapanbal-yunupingu": dhapanbalYunupinguPortraitPage,
       "beruehmte-winston-churchill": winstonChurchillPortraitPage,
       "beruehmte-guenther-jauch": guentherJauchPortraitPage,
       "beruehmte-iga-swiatek": igaSwiatekPortraitPage,

@@ -24192,6 +24192,7 @@ const registerEntries = [
   { term: "Til Schweiger",                 route: "beruehmte-til-schweiger",               description: "Portrait: SO4w3 \u00b7 Sozialer Typ 4 \u00b7 Schauspieler, Regisseur, Direktheit" },
   { term: "Johnny Depp",                   route: "beruehmte-johnny-depp",                 description: "Portrait: SO4w3 \u00b7 Sozialer Typ 4 \u00b7 Schauspieler, Musiker, Captain Jack Sparrow" },
   { term: "Tim Bendzko",                   route: "beruehmte-tim-bendzko",                 description: "Portrait: SE4w3 \u00b7 Selbsterhaltender Typ 4 \u00b7 S\u00e4nger, Melancholie & Aufbruch" },
+    { term: "Dhapanbal Yunupingu", route: "beruehmte-dhapanbal-yunupingu", description: "Portrait: SE8w9 \u00b7 Selbsterhaltender Typ 8 \u00b7 S\u00e4ngerin, K\u00fcnstlerin, Arnhem Land, Orang-Utan" },
     { term: "Golda Meir", route: "beruehmte-golda-meir", description: "Portrait: SE8w9 \u00b7 Selbsterhaltender Typ 8 \u00b7 Premierministerin Israels, Staatsfrau, Orang-Utan" },
   { term: "Toni Morrison",                 route: "beruehmte-toni-morrison",               description: "Portrait: SE8w9 \u00b7 Selbsterhaltender Typ 8 \u00b7 Nobelpreis-Literatur, Ged\u00e4chtnis & Gemeinschaft" },
   { term: "Uli Hoene\u00df",                 route: "beruehmte-uli-hoeness",                 description: "Portrait: SE2w3 \u00b7 Selbsterhaltender Typ 2 \u00b7 Bayern-M\u00fcnchen-Macher" },
@@ -24506,6 +24507,7 @@ const registerEntriesEN = [
   { term: "Til Schweiger", route: "beruehmte-til-schweiger", description: "Portrait: SO4w3 \u00b7 Social Type 4 \u00b7 Actor, Director, directness" },
   { term: "Johnny Depp", route: "beruehmte-johnny-depp", description: "Portrait: SO4w3 \u00b7 Social Type 4 \u00b7 Actor, musician, Captain Jack Sparrow" },
   { term: "Tim Bendzko", route: "beruehmte-tim-bendzko", description: "Portrait: SE4w3 \u00b7 Self-Preservation Type 4 \u00b7 Singer, melancholy & new beginnings" },
+  { term: "Dhapanbal Yunupingu", route: "beruehmte-dhapanbal-yunupingu", description: "Portrait: SE8w9 \u00b7 Self-Preservation Type 8 \u00b7 Singer, artist, Arnhem Land, Orang-utan" },
   { term: "Golda Meir", route: "beruehmte-golda-meir", description: "Portrait: SE8w9 \u00b7 Self-Preservation Type 8 \u00b7 Prime Minister of Israel, Stateswoman, Orang-utan" },
   { term: "Toni Morrison", route: "beruehmte-toni-morrison", description: "Portrait: SE8w9 \u00b7 Self-Preservation Type 8 \u00b7 Nobel Prize in Literature, memory & community" },
   { term: "Uli Hoene\u00df", route: "beruehmte-uli-hoeness", description: "Portrait: SE2w3 \u00b7 Self-Preservation Type 2 \u00b7 FC Bayern architect" },
@@ -32136,6 +32138,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Toni Morrison \u2013 Selbsterhaltende Typ 8",
     teaser:"SE8w9 \u00b7 1931\u20132019. Schriftstellerin, Literaturnobelpreistr\u00e4gerin 1993. Beloved, Sula, The Bluest Eye. Die Orang-Utan-Frau, die das Schweigen der Geschichte gebrochen hat \u2013 geerdet, unersch\u00fctterlich, von bleibender Wucht. Tierentsprechung: Orang-Utan.",
     tags:["Literatur"] , gender:"f"},
+  { route:"beruehmte-dhapanbal-yunupingu", name:"Dhapanbal Yunupingu", added:"2026-08-16", subtyp:"SE8w9",
+    heading:"Dhapanbal Yunupingu – Selbsterhaltender Typ 8",
+    teaser:"SE8w9 · Sängerin, Songwriterin und Künstlerin aus Arnhem Land, Australien. Tochter von Dr. M. Yunupingu (Yothu Yindi). Der Orang-Utan, der ein kulturelles Erbe still und geerdet weiterträgt, statt es zu vermarkten. Tierentsprechung: Orang-Utan.",
+    tags:["Musik","Kunst"], gender:"f"},
   { route:"beruehmte-golda-meir", name:"Golda Meir", added:"2026-07-22", subtyp:"SE8w9",
     heading:"Golda Meir \u2013 Selbsterhaltender Typ 8",
     teaser:"SE8w9 \u00b7 1898\u20131978. Politikerin, Staatsfrau, vierte Premierministerin Israels (1969\u20131974). Eine der Unterzeichnerinnen der israelischen Unabh\u00e4ngigkeitserkl\u00e4rung. Der Orang-Utan, der langsam klettert und am Ende h\u00f6her sitzt als alle, die lauter waren.",
@@ -46762,6 +46768,70 @@ function jacquelineMarsPortraitPage() {
   `);
 }
 
+
+function dhapanbalYunupinguPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dhapanbal-yunupingu-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dhapanbal Yunupingu</p>
+        <p class="krim-portrait-typ">SE8w9 · Selbsterhaltender Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin, Songwriterin &amp; Künstlerin – Tierentsprechung: Orang-Utan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Orang-Utan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier des selbsterhaltenden Typs 8 – ein Tier, das kein Rudel braucht, keine Bühne, keine Bestätigung von außen. Er lebt in seinem eigenen Territorium, geerdet, geduldig, mit einer Kraft, die sich nicht beweisen muss. Dhapanbal Yunupingu verkörpert genau diese stille Bodenständigkeit: eine Künstlerin, die im eigenen Land, in der eigenen Gemeinschaft verwurzelt bleibt, während ihre Musik weit darüber hinausträgt.</p>
+          <p class="vb-intro">Dhapanbal Yunupingu ist eine Sängerin, Songwriterin und bildende Künstlerin aus dem Nordosten von Arnhem Land in Australien – die dritte von sechs Töchtern von Dr. M. Yunupingu, dem Frontmann der legendären Band Yothu Yindi und einer der prägendsten Figuren der modernen indigenen australischen Musik- und Bürgerrechtsgeschichte. Sie lebt und arbeitet am Buku-Larrŋgay Mulka Art Centre in Yirrkala – dem kulturellen Zentrum ihrer Gemeinschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Acht: Das Recht, zu tragen, was man geerbt hat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> drückt die Leidenschaft der Acht – die <em>Wollust</em> – durch Selbstbehauptung, Ressourcensicherung und das unbedingte Recht auf das eigene Territorium aus. Naranjo nannte diesen Subtyp <em>Satisfacción</em>: Befriedigung als Lebensprinzip. Die SE8 baut sich keine Bühne – sie baut sich einen Boden, auf dem sie tragen kann, was ihr anvertraut wurde.</p>
+          <p class="vb-intro">Als Tochter eines Mannes, dessen Stimme und dessen Kampf für die Rechte der indigenen Bevölkerung Australiens geprägt haben, trägt Dhapanbal Yunupingu ein Erbe, das leicht überwältigen könnte. Die SE8 begegnet einem solchen Erbe nicht mit Rückzug, sondern mit ruhiger Selbstbehauptung: das eigene künstlerische Territorium beanspruchen, ohne es lautstark zu verteidigen. Sie bleibt am Ort, an dem dieses Erbe entstanden ist – Yirrkala, Arnhem Land –, statt es woanders zu vermarkten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Stille Kontinuität statt Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> verleiht der selbsterhaltenden Acht etwas, das der reinen Acht oft schwerfällt: Geduld, Verschmelzung mit der Gemeinschaft und die Fähigkeit, im Hintergrund zu wirken, statt im Vordergrund zu kämpfen. Die SE8w9 sichert ihr Territorium nicht durch Konfrontation, sondern durch beharrliche, stille Präsenz.</p>
+          <p class="vb-intro">Neben ihrer Musik ist Yunupingu auch als bildende Künstlerin tätig – im Rahmen des <em>Seven Sisters</em>-Projekts koordinierte sie unter anderem Radierprozesse, eine Arbeit, die Geduld, Präzision und handwerkliche Kontinuität verlangt statt spektakulärer Selbstdarstellung. Das ist der Neunerflügel: Kunst als geteilte, gemeinschaftliche Praxis, nicht als Ausdruck des Einzelnen allein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von Deadly Hearts bis Bidiwidi</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bekannt wurde Dhapanbal Yunupingu unter anderem durch ihre Teilnahme am Musikprojekt <em>Deadly Hearts</em> (2017, ABC Music), das traditionelle und ikonische Lieder gemeinsam mit jungen indigenen Künstlerinnen und Künstlern neu interpretierte – sie sang den Titel <em>Maralitja</em>. 2019 veröffentlichte sie ihre eigene EP <em>Bidiwidi</em>, mit Songs wie <em>Gurtha</em> (gemeinsam mit Shellie Morris) und <em>The Crying Song</em>.</p>
+          <p class="vb-intro">Gemeinsam mit anderen Künstlern, darunter Djakapurra Munyarryun, trat sie unter anderem im Sydney Opera House auf. Jeder dieser Schritte – die Beteiligung an einem Gemeinschaftsprojekt, die eigene EP, der gemeinsame Auftritt – trägt dieselbe Handschrift: Erfolg, der sich nicht von der Gemeinschaft löst, sondern sie einbindet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE8w9 ist ihre Fähigkeit, Kontinuität zu sichern, ohne sich aufzudrängen. Ein kulturelles und familiäres Erbe von diesem Gewicht weiterzutragen, ohne es zu verwässern und ohne sich selbst darin zu verlieren, verlangt genau jene Mischung aus Standfestigkeit und Geduld, die die SE8w9 auszeichnet.</p>
+          <p class="vb-intro">Der Schatten liegt in der Kehrseite dieser Bodenständigkeit: Wer sein Territorium so beharrlich hält, kann übersehen werden – gerade weil er keine Bühne sucht. Die SE8w9 riskiert, in der Stille zu verschwinden, wo eine lautere Selbstvermarktung mehr internationale Aufmerksamkeit einbrächte. Das ist kein Mangel, sondern eine bewusste Priorität: das eigene Territorium vor der eigenen Sichtbarkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Orang-Utan, der sein Territorium trägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dhapanbal Yunupingu steht in einer Linie, die weit über sie selbst hinausreicht – und trägt sie doch auf ihre eigene, unaufgeregte Weise weiter. Kein Rudel, keine Bühne, die sie bräuchte, um zu bestehen. Der Orang-Utan bleibt in seinem Wald, geerdet, geduldig – und genau dort, wo er ist, trägt er das, was ihm anvertraut wurde, in die nächste Generation.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+          {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
+          {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
 
 function indraNooyiPortraitPage() {
   return shell(`
@@ -88061,6 +88131,7 @@ function render() {
           "beruehmte-indra-nooyi": indraNooyiPortraitPage,
     "beruehmte-umberto-eco": umbertEcoPortraitPage,
           "beruehmte-golda-meir": goldaMeirPortraitPage,
+          "beruehmte-dhapanbal-yunupingu": dhapanbalYunupinguPortraitPage,
           "beruehmte-winston-churchill": winstonChurchillPortraitPage,
     "beruehmte-toni-morrison": toniMorrisonPortraitPage,
           "beruehmte-carsten-stahl": carstenStahlPortraitPage,
