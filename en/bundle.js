@@ -6386,7 +6386,7 @@ function frankAbagnalePortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Facial & Gaze Expression Quality</h3>
         <p class="vb-intro"><strong>a) Charming, Quick-Tongued, Instantly Likeable:</strong> Abagnale never came across as a showman triggering suspicion, but as someone you warmed to immediately — engaging, talkative, carrying an optimistic ease that never let skepticism take hold. This is the social Seven in its rawest form: charm as a passport into any system.</p>
         <p class="vb-intro"><strong>b) Always Another Option Up His Sleeve:</strong> Contemporaries described him as quick-thinking and never at a loss for an excuse or an exit. Whenever an identity grew too tight or too risky, the next one was already prepared. This ability never to feel cornered mentally is a core trait of the Seven — in the social variant paired with the conviction that the next step should also serve the larger whole, not just personal pleasure.</p>
-        <p class="vb-intro"><strong>c) The Six-Wing: Testing Authority, Seeking Safety:</strong> Unlike a pure Seven who simply drifts, Abagnale carefully studied the systems he infiltrated for their rules, weak points, and trust mechanisms — a typical Six-like vigilance. And that very vigilance eventually led him exactly where he never wanted to go and yet needed most: into a system he could genuinely trust.</p>
+        <p class="vb-intro"><strong>c) The Six-Wing: Testing Authority, Seeking Safety:</strong> Unlike a Seven with a weaker Six wing, who tends to simply drift, Abagnale carefully studied the systems he infiltrated for their rules, weak points, and trust mechanisms — a typical Six-like vigilance. And that very vigilance eventually led him exactly where he never wanted to go and yet needed most: into a system he could genuinely trust.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -15913,7 +15913,7 @@ function adeleNeuhauserPortraitPage() {
         <h2 class="vb-section">3. The Seven wing: Fire and Wit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Seven wing gives the sexual Eight a quality that complements the intensity of the Eight core: lightness, humor, joy of playing, and a certain willingness to take risks that is not impulsivity, but appetite. The SX8w9 seeks depth. The SX8w7 seeks depth – and enjoys the spectacle in the process.</p>
-          <p class="vb-intro">Neuhauser possesses this dual quality. Bibi Fellner can be deeply vulnerable in one scene and deliver a one-liner in the next that makes the audience burst out laughing – and both sound true because it is not a change of personality, but two sides of the same intensity. The Seven wing gives the sexual Eight the ability to handle itself more lightly than the pure Eight core allows.</p>
+          <p class="vb-intro">Neuhauser possesses this dual quality. Bibi Fellner can be deeply vulnerable in one scene and deliver a one-liner in the next that makes the audience burst out laughing – and both sound true because it is not a change of personality, but two sides of the same intensity. The Seven wing gives the sexual Eight the ability to handle itself more lightly than a weaker Seven wing would allow.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Work: Stage, Camera, Bibi Fellner</h2>
@@ -16041,7 +16041,7 @@ function carmenGoglinPortraitPage() {
 
         <h2 class="vb-section">3. The Eight wing: Why a trainer became a brand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">A pure Nine would probably have kept her laughter school small and local. The Eight wing brings something else: assertiveness, a certain fearlessness, the willingness to put herself out there even when it gets uncomfortable. In late 2020/early 2021, German rapper Finch ("Finch Asozial") picked up videos of Goglin's unfiltered laughter and parodied them – and instead of retreating, Goglin used the sudden attention. Appearances on SAT.1's Frühstücksfernsehen, SWR1 Leute, and World Wide Wohnzimmer followed, along with an advertising campaign for Aldi.</p>
+          <p class="vb-intro">A Nine with a more muted Eight wing would probably have kept her laughter school small and local. Goglin's strongly developed Eight wing brings something else: assertiveness, a certain fearlessness, the willingness to put herself out there even when it gets uncomfortable. In late 2020/early 2021, German rapper Finch ("Finch Asozial") picked up videos of Goglin's unfiltered laughter and parodied them – and instead of retreating, Goglin used the sudden attention. Appearances on SAT.1's Frühstücksfernsehen, SWR1 Leute, and World Wide Wohnzimmer followed, along with an advertising campaign for Aldi.</p>
           <p class="vb-intro">This is the SE9w8 movement in miniature: The Nine might have sat out the viral moment until it passed on its own. The Eight wing instead said: this is the opportunity, and you take it. Goglin remained recognizably herself throughout – no reinvention, no image change – simply more stage for what she was already doing.</p>
         </blockquote>
 
@@ -16104,7 +16104,7 @@ function ginaRinehartPortraitPage() {
 
         <h2 class="vb-section">3. The Eight wing: When persistence becomes a fight</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">A pure Nine would avoid conflict. In Rinehart's case, the Eight wing brings something else: the willingness to fight for years, at full intensity, whenever control over the company is questioned. In 2011, three of her four children – John Hancock, Bianca Rinehart, and for a time Hope Welker – sued her over the Hope Margaret Hancock Trust, a family trust set up by her father in 1988 that was meant to pay out to them at age 25. Rinehart sought to delay the payout until 2068, citing tax disadvantages.</p>
+          <p class="vb-intro">A Nine with a weaker Eight wing would tend to avoid conflict. In Rinehart's case, the strongly developed Eight wing brings something else: the willingness to fight for years, at full intensity, whenever control over the company is questioned. In 2011, three of her four children – John Hancock, Bianca Rinehart, and for a time Hope Welker – sued her over the Hope Margaret Hancock Trust, a family trust set up by her father in 1988 that was meant to pay out to them at age 25. Rinehart sought to delay the payout until 2068, citing tax disadvantages.</p>
           <p class="vb-intro">The legal battle dragged on for years, was fought out publicly in full bitterness, and only ended with a settlement in 2015. This is the SE9w8 under pressure: the Nine might have avoided or sat out the conflict. The Eight wing instead pushed for control to the very end – even against her own children, even at the cost of years of public exposure.</p>
         </blockquote>
 
@@ -16167,8 +16167,8 @@ function borisBeckerPortraitPage() {
 
         <h2 class="vb-section">3. The Eight wing: The Fighter in the Chimpanzee</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Eight wing gives the sexual Seven something crucial: toughness. The pure Seven can dodge, negotiate, charm. The Eight wing fights. He does not yield. He bites his way through. Boris Becker won matches he normally would have lost – because he refused to acknowledge that reality. That is the Eight wing of the sexual Seven: the refusal to lose the game before the last point is played.</p>
-          <p class="vb-intro">This wing was his greatest gift on the court. It gave Becker something pure Sevens rarely possess: steadfastness under pressure. While other players tactically maneuvered or backed away in difficult moments, Becker escalated. He increased the risk when he actually should have played conservatively. He served aces when his opponents played it safe. That ability not to grow smaller in the decisive moment, but larger – that is the Eight wing in its rawest form.</p>
+          <p class="vb-intro">The Eight wing gives the sexual Seven something crucial: toughness. A Seven with a weaker Eight wing can dodge, negotiate, charm. A strongly developed Eight wing fights. He does not yield. He bites his way through. Boris Becker won matches he normally would have lost – because he refused to acknowledge that reality. That is the Eight wing of the sexual Seven: the refusal to lose the game before the last point is played.</p>
+          <p class="vb-intro">This wing was his greatest gift on the court. It gave Becker something Sevens with a weaker Eight wing rarely possess: steadfastness under pressure. While other players tactically maneuvered or backed away in difficult moments, Becker escalated. He increased the risk when he actually should have played conservatively. He served aces when his opponents played it safe. That ability not to grow smaller in the decisive moment, but larger – that is the Eight wing in its rawest form.</p>
           <p class="vb-intro">Off the court, this wing became a trap. The Eight wing of the Seven believes that rules apply to others. That consequences are canceled if you are only determined enough. In tennis, that works: willpower can avert a match point. In life and in court, it does not. This conviction carried Becker through his entire career – and completely abandoned him in crisis.</p>
         </blockquote>
 
@@ -16227,8 +16227,8 @@ function robertSchumannPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: The Fight for Clara</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Sexual Seven something pure Sevens often lack: the willingness for open combat. Schumann fell in love with Clara Wieck, the highly gifted pianist daughter of his own piano teacher Friedrich Wieck &ndash; and Wieck did everything to prevent the union: smear campaigns, relocations, even a years-long court case.</p>
-          <p class="vb-intro">A pure Seven would likely have given up on this front and turned to an easier love. Schumann instead fought for years, took the matter to court, and finally forced the marriage in 1840 against his teacher's declared will. That is the Eight-wing of the Sexual Seven: where the pure Seven evades, the SX7w8 stays and prevails &ndash; not out of calculation, but because the longed-for object of enthusiasm cannot be given up at any price.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Sexual Seven something Sevens with a less developed Eight wing often lack: the willingness for open combat. Schumann fell in love with Clara Wieck, the highly gifted pianist daughter of his own piano teacher Friedrich Wieck &ndash; and Wieck did everything to prevent the union: smear campaigns, relocations, even a years-long court case.</p>
+          <p class="vb-intro">A Seven with a weaker Eight wing would likely have given up on this front and turned to an easier love. Schumann instead fought for years, took the matter to court, and finally forced the marriage in 1840 against his teacher's declared will. That is the Eight-wing of the Sexual Seven: where a more muted Eight wing evades, the SX7w8 stays and prevails &ndash; not out of calculation, but because the longed-for object of enthusiasm cannot be given up at any price.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Gluttony as Creative Outburst</h2>
@@ -16294,8 +16294,8 @@ function franzLisztPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: The Open Fight for New Music</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Sexual Seven something pure Sevens often lack: the willingness for open combat rather than avoiding conflict. From 1848, Liszt settled in Weimar as court Kapellmeister and became the leading figure of the "New German School" &ndash; a movement that set programmatic, literarily inspired music against the conservative Leipzig school oriented toward Beethoven and pure instrumental form. In doing so, he single-handedly invented the genre of the symphonic poem.</p>
-          <p class="vb-intro">In 1860, Johannes Brahms (SE9w8), Clara Schumann, and the violinist Joseph Joachim signed a public manifesto against the "New German School" &ndash; an open attack that moved Liszt not to retreat but to sharpen his position further. A pure Seven would likely have avoided the conflict. Liszt sought it out: he publicly stood by his aesthetic convictions, even against the established musical world of Leipzig, and pushed through his vision with unshakeable persistence.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Sexual Seven something Sevens with a less developed Eight wing often lack: the willingness for open combat rather than avoiding conflict. From 1848, Liszt settled in Weimar as court Kapellmeister and became the leading figure of the "New German School" &ndash; a movement that set programmatic, literarily inspired music against the conservative Leipzig school oriented toward Beethoven and pure instrumental form. In doing so, he single-handedly invented the genre of the symphonic poem.</p>
+          <p class="vb-intro">In 1860, Johannes Brahms (SE9w8), Clara Schumann, and the violinist Joseph Joachim signed a public manifesto against the "New German School" &ndash; an open attack that moved Liszt not to retreat but to sharpen his position further. A Seven with a weaker Eight wing would likely have avoided the conflict. Liszt sought it out: he publicly stood by his aesthetic convictions, even against the established musical world of Leipzig, and pushed through his vision with unshakeable persistence.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Gluttony in Work and Life</h2>
@@ -16358,7 +16358,7 @@ function shakiraPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: Control Over Her Own Work</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Sexual Seven something pure Sevens often lack: the will to not leave one's own intensity to chance, but to shape and defend it deliberately. Where the pure SX7 might simply drift, the SX7w8 seizes control &ndash; over her own career, her image, her art.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Sexual Seven something Sevens with a less developed Eight wing often lack: the will to not leave one's own intensity to chance, but to shape and defend it deliberately. Where a more muted Eight wing might simply drift, the SX7w8 seizes control &ndash; over her own career, her image, her art.</p>
           <p class="vb-intro">Shakira has written and composed most of her songs herself since her teenage years, when her first albums flopped commercially &ndash; and she refused to give up or let the record label impose a foreign image on her. She later produced her own albums, fought publicly and successfully against Spanish tax authorities in a years-long legal battle over alleged tax evasion, and established herself as one of the most powerful producers in the male-dominated Latin American music industry. The Eight-wing shows here not as hardness for its own sake, but as determined self-determination: no one else would ever again decide over her work.</p>
         </blockquote>
 
@@ -16422,8 +16422,8 @@ function carolinePetersPortraitPage() {
 
         <h2 class="vb-section">3. The Six wing: The Conscience of Adventure</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Six wing gives the sexual Seven a quality that grounds the pure SX7: loyalty, warmth, and a quiet sense for what holds up. Where the pure SX7 jumps from fascination to fascination, the Six wing asks: Do I belong? Am I really good enough for what I am doing?</p>
-          <p class="vb-intro">Peters has been a permanent ensemble member of the Burgtheater Vienna for years – one of the most respected German-language theaters in the world. That is no pure SX7 decision; that is the Six wing taking root. At the same time, she returned multiple times to Mord mit Aussicht – a role she could have long left behind. Loyalty to characters, theater houses, and colleagues: that is the w6 at work.</p>
+          <p class="vb-intro">The Six wing gives the sexual Seven a quality that grounds an SX7 with a weaker Six wing: loyalty, warmth, and a quiet sense for what holds up. Where an SX7 with a more muted Six wing jumps from fascination to fascination, a strongly developed Six wing asks: Do I belong? Am I really good enough for what I am doing?</p>
+          <p class="vb-intro">Peters has been a permanent ensemble member of the Burgtheater Vienna for years – one of the most respected German-language theaters in the world. That is not typical for a weaker Six wing; that is the Six wing taking root. At the same time, she returned multiple times to Mord mit Aussicht – a role she could have long left behind. Loyalty to characters, theater houses, and colleagues: that is the w6 at work.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Work: From Sophie Haas to the Burgtheater</h2>
@@ -16485,7 +16485,7 @@ function carstenStahlPortraitPage() {
 
         <h2 class="vb-section">3. The Seven wing: Fire in the Message</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Seven wing gives the social Eight a quality that complements the pure SO8: agility, capacity for enthusiasm, a talent for sweeping people along. The SO8w9 protects out of silence. The SO8w7 protects with fire.</p>
+          <p class="vb-intro">The Seven wing gives the social Eight a quality that complements an SO8 with a weaker Seven wing: agility, capacity for enthusiasm, a talent for sweeping people along. The SO8w9 protects out of silence. The SO8w7 protects with fire.</p>
           <p class="vb-intro">Stahl is no quiet protector. He is direct, loud, present – he uses his body, his voice, his social media channels to convey a message that knows no shades of gray: Bullying is wrong. Period. The Seven wing gives him the energy to say this again and again – in front of first-graders and vocational students, in book interviews and video clips – and never appearing tired while doing so.</p>
         </blockquote>
 
@@ -16548,7 +16548,7 @@ function cynthiaLummisPortraitPage() {
 
         <h2 class="vb-section">3. The Seven-Wing: Pioneering Spirit and Appetite for Risk</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing</strong> gives the Social Eight a quality that complements the pure SO8: openness to the new, willingness to take risks, a readiness to stand against the current when convinced of something. The SO8w9 protects out of silence. The <strong>SO8w7</strong> protects with pioneering spirit, often long before the mainstream follows.</p>
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the Social Eight a quality that complements an SO8 with a weaker Seven-wing: openness to the new, willingness to take risks, a readiness to stand against the current when convinced of something. The SO8w9 protects out of silence. The <strong>SO8w7</strong> protects with pioneering spirit, often long before the mainstream follows.</p>
           <p class="vb-intro">Lummis was one of the first politicians in Washington to publicly advocate for Bitcoin and cryptocurrencies &ndash; at a time when the topic was still met with ridicule in the Senate. In 2021, together with Kirsten Gillibrand, she introduced the “Responsible Financial Innovation Act,” one of the first serious attempts to create a regulatory framework for digital assets. The Seven-wing shows here as a willingness to explore new terrain before it seems safe &ndash; and then defend it with determination.</p>
         </blockquote>
 
@@ -16677,7 +16677,7 @@ function dakotaJohnsonPortraitPage() {
 
         <h2 class="vb-section">3. The Eight wing: The Claws of the Sloth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Eight wing gives the sexual Nine something that remains beneath the surface in the pure SX9 type: a readiness for confrontation, a directness that becomes unexpectedly sharp at the right moment. The SX9w8 seems soft until it no longer seems soft.</p>
+          <p class="vb-intro">The Eight wing gives the sexual Nine something that remains beneath the surface in an SX9 with a weaker Eight wing: a readiness for confrontation, a directness that becomes unexpectedly sharp at the right moment. The SX9w8 seems soft until it no longer seems soft.</p>
           <p class="vb-intro">In 2016, Johnson's appearance on the Ellen DeGeneres Show became a viral moment. When Ellen mentioned that she had of course been at Dakota's last birthday party, Johnson answered completely unmoved: You were not invited. No apology. No rowing back. Just the fact. The audience laughed in confusion, Ellen filled the silence, and Dakota sat there as if nothing had happened. That is the Eight wing: not aggressive, not dramatic simply fearless in what is true.</p>
         </blockquote>
 
@@ -16689,7 +16689,7 @@ function dakotaJohnsonPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow: The Heritage and One's Own Voice</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX9w8 is its ability for complete presence. Johnson brings an inner density to every scene that refuses conventional Hollywood shine. She does not play characters she becomes these characters. The Eight wing gives her a grounding that the pure Nine sometimes lacks: a refusal to dissolve, a boundary that remains visible even in the deepest fusion.</p>
+          <p class="vb-intro">The light of the SX9w8 is its ability for complete presence. Johnson brings an inner density to every scene that refuses conventional Hollywood shine. She does not play characters she becomes these characters. The Eight wing gives her a grounding that a Nine with a more muted Eight wing sometimes lacks: a refusal to dissolve, a boundary that remains visible even in the deepest fusion.</p>
           <p class="vb-intro">The shadow: The Nine loses itself in the other and when the other is the heritage of three generations of actors, the question of one's own voice is particularly complex. Johnson has spoken publicly about the pressure of growing up in an industry that has known her family for decades. Depression and anxiety were themes of her early career. The SX9 finds itself in the other and must learn to stay with itself even when the other is very loud.</p>
         </blockquote>
 
@@ -16757,7 +16757,7 @@ function davidLRathmerPortraitPage() {
         <h2 class="vb-section">5. Energetic Effect: Silent Clarity</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Anyone who experiences David L. Rathmer in his work encounters an energy that is calm yet fully present. No overwhelming energy, no fireworks of charisma but the concentrated clarity of a person who knows what he sees and why. The gaze of the SE3w4 is targeted and simultaneously open: He observes without judging analyzes without distancing.</p>
-          <p class="vb-intro">The Four wing brings a warmth with it that pure Threes often lack: David is interested in the person behind the type. For him, typing is not an end, but a beginning the start of a conversation about what someone needs to truly be themselves. That is the raccoon in the light: skillful, precise, and with the dignity of genuine contact.</p>
+          <p class="vb-intro">The Four wing brings a warmth with it that Threes with a less developed Four wing often lack: David is interested in the person behind the type. For him, typing is not an end, but a beginning the start of a conversation about what someone needs to truly be themselves. That is the raccoon in the light: skillful, precise, and with the dignity of genuine contact.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gift: A Legacy That Continues to Be Built</h2>
@@ -16809,7 +16809,7 @@ function dieterNuhrPortraitPage() {
 
         <h2 class="vb-section">3. The Eight Wing: The Beaver Who Bites Back</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Eight wing gives the social Seven something that pure SO7 energy does not always show: readiness for confrontation, assertiveness, and the ability to clearly name and defend boundaries. Where the pure SO7 yields and mediates, the Eight wing says: This far and no further.</p>
+          <p class="vb-intro">The Eight wing gives the social Seven something that an SO7 with a weaker Eight wing does not always show: readiness for confrontation, assertiveness, and the ability to clearly name and defend boundaries. Where an SO7 with a more muted Eight wing yields and mediates, a strongly developed Eight wing says: This far and no further.</p>
           <p class="vb-intro">In recent years, Nuhr has repeatedly engaged in public disputes that are unusually direct for a comedian: with climate activists, with media critics, with Deutschlandfunk, which deleted a tweet by him after public pressure and later apologized for it. He does not retreat when it gets uncomfortable; he stands firm and strikes back. That is the Eight wing: strength not as a threat, but as an attitude.</p>
         </blockquote>
 
@@ -16873,7 +16873,7 @@ function donataHopfenPortraitPage() {
 
         <h2 class="vb-section">3. The Seven Wing: Speed as Home</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Seven wing (w7) brings something to the social Six that the pure SO6 would not develop on its own: enthusiasm, willingness to take risks, and the conviction that setting out is better than staying put. Where the SO6 naturally leans toward caution and hedging, the Seven wing opens the door to vastness. The result is a person who seeks belonging and creates it through charisma and the energy of departure rather than through quietness.</p>
+          <p class="vb-intro">The Seven wing (w7) brings something to the social Six that an SO6 with a weaker Seven wing would not develop on its own: enthusiasm, willingness to take risks, and the conviction that setting out is better than staying put. Where the SO6 naturally leans toward caution and hedging, the Seven wing opens the door to vastness. The result is a person who seeks belonging and creates it through charisma and the energy of departure rather than through quietness.</p>
           <p class="vb-intro">Hopfen is considered a thought leader in digital transformation. She speaks publicly, gets involved, takes positions. Her style is not that of Melanie Kreis, who convinces in the background through quality Hopfen is visible, articulate, present. That is the SO6w7 as a leadership type: Security is not gained by retreating into depth, but through outward connection, through moving people, through the feeling that the group stays in motion.</p>
           <p class="vb-intro">Where the Five wing directs energy inward analysis, understanding, knowledge as a foundation the Seven wing directs it outward: networking, ideas, the next step. The meerkat of the SO6w7 does not keep watch alone. It organizes the whole group to look out together.</p>
         </blockquote>
@@ -16941,7 +16941,7 @@ function friedrichNietzschePortraitPage() {
 
         <h2 class="vb-section">3. The Four-wing: Pain as Style</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four-wing (w4)</strong> adds something decisive to the sexual Five: the pain of loss as artistic and linguistic drive. A pure SX5 might simply close off. The Four-wing turns that closing-off into expression &ndash; transforms the unspoken into a language of unheard-of intensity.</p>
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> adds something decisive to the sexual Five: the pain of loss as artistic and linguistic drive. An SX5 with a weaker Four-wing might simply close off. The Four-wing turns that closing-off into expression &ndash; transforms the unspoken into a language of unheard-of intensity.</p>
           <p class="vb-intro">Nietzsche&#39;s break with Richard Wagner, his former father-figure and idol, followed the same pattern as the separation from Lou Salomé: a deep, almost fusional admiration that shatters and turns into cutting, often personal writings &ndash; such as <em>The Case of Wagner</em> (1888). The Four-wing forgives no half-feelings; what was once closeness becomes, once broken, radical reckoning.</p>
           <p class="vb-intro">His writing style bears the same signature: aphorisms instead of systems, confession instead of textbook. <em>Ecce Homo</em> (1888), his late self-portrait with chapter titles like &bdquo;Why I Am So Wise&ldquo; and &bdquo;Why I Write Such Good Books,&ldquo; is radical self-revelation in book form &ndash; the Five, who normally hides, opens completely here, but only on paper, never in direct conversation.</p>
         </blockquote>
@@ -17009,7 +17009,7 @@ function fredericChopinPortraitPage() {
 
         <h2 class="vb-section">3. The Four Wing: Homesickness as Composition</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Four wing (w4) brings something crucial to the sexual Five: the pain of loss as an artistic drive. The pure SX5 might close up completely. The Four wing turns this closedness into art it transforms the unspoken into form, the pain into sound.</p>
+          <p class="vb-intro">The Four wing (w4) brings something crucial to the sexual Five: the pain of loss as an artistic drive. An SX5 with a more muted Four wing might close up completely. The Four wing turns this closedness into art it transforms the unspoken into form, the pain into sound.</p>
           <p class="vb-intro">Chopin left Poland in 1830, shortly before the November Uprising against Russian occupation failed. He never returned. Warsaw, the Vistula, the birch forests of his childhood all of that stayed behind him, and after the failure of the uprising, he knew there was no going back. This longing runs through his entire work: The Mazurkas ninety-eight in number are not folkloric costumes. They are an exile's attempt to hold fast to home in sound.</p>
           <p class="vb-intro">The Four wing also explains his artistic uniqueness: Chopin wrote no symphonies, no operas, hardly any chamber music. He composed almost exclusively for solo piano. The piano was his intimate realm his hedgehog burrow. In this space, he opened himself completely. Outside: quills.</p>
         </blockquote>
@@ -17083,7 +17083,7 @@ function gloriaVonThurnUndTaxisPortraitPage() {
 
         <h2 class="vb-section">3. The One Wing: Morality as Backbone</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The One wing (w1) brings something to the self-preservation Two that the pure Two does not possess on its own: an inner set of rules that sustains independently of external recognition. The One knows a right and a wrong. It tolerates no half-measures. It judges and first of all, itself. Combined with the SE2, it creates someone who not only knows what they want, but also knows how it ought to be.</p>
+          <p class="vb-intro">The One wing (w1) brings something to the self-preservation Two that a Two with a weaker One wing does not possess on its own: an inner set of rules that sustains independently of external recognition. The One knows a right and a wrong. It tolerates no half-measures. It judges and first of all, itself. Combined with the SE2, it creates someone who not only knows what they want, but also knows how it ought to be.</p>
           <p class="vb-intro">In Gloria von Thurn und Taxis, this wing shows itself primarily in her deeply rooted religious convictions. After her husband's death, she turned to the Catholic faith with great intensity, which in her biography represents no mere refuge but an inner consequence. The One wing needs a reference point beyond pragmatic survival. It seeks order, principle, something that is true, regardless of whether it is currently convenient.</p>
           <p class="vb-intro">That she takes clear often uncomfortable positions in public on marriage, family, and life issues is not populism. It is the SE2w1 in its natural posture: I say what I consider right. Whether that goes down well or not is a secondary question. The hippopotamus does not back down when it considers its standpoint to be correct.</p>
         </blockquote>
@@ -17151,7 +17151,7 @@ function jackBlackPortraitPage() {
 
         <h2 class="vb-section">3. The One Wing: Craft and Standards</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The One wing (w1) gives the self-preservation Two something that gives its fire a direction: an inner standard for quality and seriousness. Where the pure Two might exhaust itself in pure affection, the One demands craft, discipline, a standard to be measured against.</p>
+          <p class="vb-intro">The One wing (w1) gives the self-preservation Two something that gives its fire a direction: an inner standard for quality and seriousness. Where a Two with a more muted One wing might exhaust itself in pure affection, the One demands craft, discipline, a standard to be measured against.</p>
           <p class="vb-intro">In Jack Black this shows most clearly in his music. With Tenacious D he does not merely run a comedy band—he takes the music itself seriously: technically demanding guitar work, carefully composed songs, a deep, unironic love for rock as an art form, wrapped in absurd humor. The One wing demands that the joke rest on real skill—otherwise it is just noise.</p>
           <p class="vb-intro">His way of choosing film projects carries the same signature: Jack Black has repeatedly said he turns down roles he considers dishonest or of poor quality. The One in the background says: not every opportunity for applause is worth taking. It has to be right.</p>
         </blockquote>
@@ -17218,8 +17218,8 @@ function goldaMeirPortraitPage() {
 
         <h2 class="vb-section">3. The Nine Wing: Patience as Statesmanship</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Nine wing grants the self-preservation Eight something that the pure Eight often struggles with: patience and the ability to hold many perspectives simultaneously. The SE8w7 is impulsive, risk-taking, direct—it wants things immediately. The SE8w9 can wait. It builds. It sees the big picture, even when the situation is unclear.</p>
-          <p class="vb-intro">Meir was Israel's Foreign Minister for ten years (1956–1966)—a term that speaks to the tenacity of an SE8, but also to the diplomatic patience of the Nine wing. She built relationships with African states when Israel threatened to become increasingly isolated on the international stage; she negotiated where others confronted; she let things mature where the pure Eight would have forced them. David Ben-Gurion, who knew her like few others, called her simply: the best man in the cabinet.</p>
+          <p class="vb-intro">The Nine wing grants the self-preservation Eight something that an Eight with a less developed Nine wing often struggles with: patience and the ability to hold many perspectives simultaneously. The SE8w7 is impulsive, risk-taking, direct—it wants things immediately. The SE8w9 can wait. It builds. It sees the big picture, even when the situation is unclear.</p>
+          <p class="vb-intro">Meir was Israel's Foreign Minister for ten years (1956–1966)—a term that speaks to the tenacity of an SE8, but also to the diplomatic patience of the Nine wing. She built relationships with African states when Israel threatened to become increasingly isolated on the international stage; she negotiated where others confronted; she let things mature where a more muted Nine wing would have forced them. David Ben-Gurion, who knew her like few others, called her simply: the best man in the cabinet.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Work: From Milwaukee to Jerusalem</h2>
@@ -17281,7 +17281,7 @@ function winstonChurchillPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: The Capacity to Wait</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing</strong> gives the Self-Preservation Eight something the pure Eight lacks: endurance across years, the ability to hold an unpopular position without needing to triumph or resign immediately. The SE8w9 does not fight in a single battle &ndash; it holds the line for as long as necessary.</p>
+          <p class="vb-intro">The <strong>Nine-wing</strong> gives the Self-Preservation Eight something an Eight with a less developed Nine wing lacks: endurance across years, the ability to hold an unpopular position without needing to triumph or resign immediately. The SE8w9 does not fight in a single battle &ndash; it holds the line for as long as necessary.</p>
           <p class="vb-intro">Throughout the 1930s, Churchill warned, largely isolated and mocked by his own party, about the rearmament of Nazi Germany &ndash; a years-long voice in the wilderness that almost no one wanted to hear. When Neville Chamberlain's policy of appeasement collapsed in 1938/39, it was this Nine-wing, patience paired with stubbornness, that enabled Churchill to be ready in exactly that moment &ndash; not spent too early, not arriving too late.</p>
         </blockquote>
 
@@ -17421,7 +17421,7 @@ function igaSwiatekPortraitPage() {
 
         <h2 class="vb-section">3. The One Wing: The Inner Judge</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The One wing gives the sexual Nine something that the pure SX9 type lacks: a precise inner standard, a readiness for self-criticism, the ability to evaluate one's own performance coolly. The SX9w1 does not merely seek absorption—it seeks an absorption that is excellent. The flow alone is not enough. It must also be right.</p>
+          <p class="vb-intro">The One wing gives the sexual Nine something that an SX9 with a weaker One wing lacks: a precise inner standard, a readiness for self-criticism, the ability to evaluate one's own performance coolly. The SX9w1 does not merely seek absorption—it seeks an absorption that is excellent. The flow alone is not enough. It must also be right.</p>
           <p class="vb-intro">Świątek works with sports psychologist Daria Abramowicz—an unusually open decision in a sport where psychological support is often taboo. Her handling of errors is striking: she does not react with anger or despair, but with quiet concentration. An error is information. It tells her where her alignment slipped. The One wing does not turn the Nine into a perfectionist in a neurotic sense, but into a player who knows exactly when she is not centered.</p>
         </blockquote>
 
@@ -17485,7 +17485,7 @@ function jacquelineMarsPortraitPage() {
 
         <h2 class="vb-section">3. The Seven Wing: The Joy of Life</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Seven wing gives the self-preservation Eight a quality that the pure SE8 does not always show: lightness, curiosity, and a willingness to enjoy life to the fullest. The SE8w7 does not just hoard; it savors. Travel, enjoyment, variety, an appetite for the sensory in all its breadth: this is the Seven wing filling the Eight's territory with color.</p>
+          <p class="vb-intro">The Seven wing gives the self-preservation Eight a quality that an SE8 with a weaker Seven wing does not always show: lightness, curiosity, and a willingness to enjoy life to the fullest. The SE8w7 does not just hoard; it savors. Travel, enjoyment, variety, an appetite for the sensory in all its breadth: this is the Seven wing filling the Eight's territory with color.</p>
           <p class="vb-intro">Jacqueline Mars is an avid equestrian and lives on an estate in The Plains, Virginia—the heart of American horse breeding country. The horse world is a world unto itself: tradition-conscious, exclusive, far from the spotlight. She served for years on the Smithsonian Institution Board of Regents—again, expertise over self-dramatization. The Seven wing does not seek the stage; it seeks quality.</p>
         </blockquote>
 
@@ -17548,7 +17548,7 @@ function dhapanbalYunupinguPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: Quiet Continuity Over the Spotlight</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing</strong> gives the self-preservation Eight something the pure Eight often finds difficult: patience, fusion with community, and the ability to work in the background rather than fight in the foreground. The SP8w9 secures its territory not through confrontation but through persistent, quiet presence.</p>
+          <p class="vb-intro">The <strong>Nine-wing</strong> gives the self-preservation Eight something an Eight with a more muted Nine wing often finds difficult: patience, fusion with community, and the ability to work in the background rather than fight in the foreground. The SP8w9 secures its territory not through confrontation but through persistent, quiet presence.</p>
           <p class="vb-intro">Alongside her music, Yunupingu is also active as a visual artist &ndash; as part of the <em>Seven Sisters</em> project, she coordinated etching processes among other work, a practice that demands patience, precision, and craft continuity rather than spectacular self-display. This is the Nine-wing: art as a shared, communal practice, not merely as an expression of the individual alone.</p>
         </blockquote>
 
@@ -17612,7 +17612,7 @@ function indraNooyiPortraitPage() {
 
         <h2 class="vb-section">3. The Seven-Wing: Foresight and the Drive to Expand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing</strong> gives the Self-Preservation Eight a quality the pure SE8 does not automatically carry: the forward-looking gaze, the appetite for the new, the willingness to rethink entire business lines rather than merely defend what already exists. The SE8w7 does not just manage its territory &ndash; it expands it, with an energy that feels almost youthfully entrepreneurial.</p>
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the Self-Preservation Eight a quality an SE8 with a more muted Seven-wing does not automatically carry: the forward-looking gaze, the appetite for the new, the willingness to rethink entire business lines rather than merely defend what already exists. The SE8w7 does not just manage its territory &ndash; it expands it, with an energy that feels almost youthfully entrepreneurial.</p>
           <p class="vb-intro">At PepsiCo, Nooyi shaped the strategy known as “Performance with Purpose” &ndash; the deliberate shift of the portfolio away from purely sugar- and fat-heavy products toward healthier alternatives, paired with sustainability goals around water, packaging, and nutrition. This was not a marketing gimmick, but the strategic realignment of an entire global corporation over the course of a decade &ndash; a vision that looked far beyond the next quarterly report. That is exactly the Seven-wing: not just holding the territory, but remapping it.</p>
         </blockquote>
 
@@ -17873,7 +17873,7 @@ function jamesLevinePortraitPage() {
 
         <h2 class="vb-section">3. The One Wing: The Inner Rigor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The One wing gives the self-preservation Nine a quality that complements the pure SE9: precision, rigor, and an inner standard that accepts no shortcuts. The SE9w8 seeks power. The SE9w1 seeks correctness in detail, in sound, in purity of expression.</p>
+          <p class="vb-intro">The One wing gives the self-preservation Nine a quality that complements an SE9 with a weaker One wing: precision, rigor, and an inner standard that accepts no shortcuts. The SE9w8 seeks power. The SE9w1 seeks correctness in detail, in sound, in purity of expression.</p>
           <p class="vb-intro">Levine was famous for his enormous musical accuracy. He rehearsed with a patience and depth that astonished even veteran singers and orchestral musicians. The One wing provided the drive toward perfection; the Nine provided the tranquility that kept this perfection from ever feeling driven. The result was a conducting style that felt grand without ever needing to act grand.</p>
         </blockquote>
 
@@ -17937,7 +17937,7 @@ function robbieWilliamsPortraitPage() {
 
         <h2 class="vb-section">3. The Two Wing: Vulnerability as Connection</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Two wing (w2) gives the sexual One a decisive second note: the need to be loved, and the ability to open up for it. The pure SX1 can seem isolating in its intensity. The Two wing makes this intensity capable of relationship—turns confrontation into closeness, when the audience is willing to come along.</p>
+          <p class="vb-intro">The Two wing (w2) gives the sexual One a decisive second note: the need to be loved, and the ability to open up for it. An SX1 with a weaker Two wing can seem isolating in its intensity. The Two wing makes this intensity capable of relationship—turns confrontation into closeness, when the audience is willing to come along.</p>
           <p class="vb-intro">Robbie Williams' entire stage persona lives from this Two wing: the constant eye contact with the audience, the need to be loved and needed at once, the self-deprecating asides, the vulnerability he never hides. He doesn't just sing for an audience—he seeks, in every concert, confirmation that he, exactly as he really is, is accepted. That is no weakness, but the second force of the mamba: it bites, but it also wants to be held.</p>
           <p class="vb-intro">His public admissions about his own vanity, his fear of aging, his longing for recognition from his father—all of it shows a man who does not hide his neediness, but makes it part of his art.</p>
         </blockquote>
@@ -18139,7 +18139,7 @@ function karlLagerfeldPortraitPage() {
 
         <h2 class="vb-section">3. The Four Wing: Aesthetics as a Worldview, Uniqueness as a Duty</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Four wing (w4) was impossible to overlook in Lagerfeld—it was the reason why he became not only successful, but unmistakable. While the pure SO3 achieves success through adaptation—through delivering what is in demand—the Four wing demands something special, something distinct, something no one else has.</p>
+          <p class="vb-intro">The Four wing (w4) was impossible to overlook in Lagerfeld—it was the reason why he became not only successful, but unmistakable. While an SO3 with a more muted Four wing achieves success through adaptation—through delivering what is in demand—the Four wing demands something special, something distinct, something no one else has.</p>
           <p class="vb-intro">Lagerfeld was not a designer who served trends. He was one who created them while always standing above the trend. His erudition was legendary: tens of thousands of books in his Paris library, read, not used as decoration. His knowledge was not a status symbol—it was a staple diet. The SO3w4 needs intellectual depth to set himself apart from the mere surface of success.</p>
           <p class="vb-intro">At the same time, the Four wing brought melancholy: Lagerfeld lost his closest friend, Jacques de Bascher, to AIDS in 1989. He rarely spoke about it—never publicly. The SO3w4 protects his pain with perfection.</p>
         </blockquote>
@@ -18352,7 +18352,7 @@ function seanConneryPortraitPage() {
         <h2 class="vb-section">4. The Break with Bond: Reinvention as Necessity</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In 1971 Connery left the Bond role that had made him a global star &ndash; he did not want to be identified forever with a single figure. Years of varied, often difficult role choices followed, before he re-established himself in the 1980s as a serious character actor: as an Irish cop in <em>The Untouchables</em> (1987, Oscar for Best Supporting Actor), as an immortal warrior in <em>Highlander</em>, as the father of Indiana Jones.</p>
-          <p class="vb-intro">This reinvention is SO3w4 logic in its clearest expression: the social Three needs continuous public affirmation &ndash; but the Four-wing refuses repetition for its own sake. A pure SO3 might have clung to the lucrative Bond brand. Connery took the risk of leaving it behind in order to be taken seriously as an independent artist &ndash; and thereby proved that his success was not tied to a single role.</p>
+          <p class="vb-intro">This reinvention is SO3w4 logic in its clearest expression: the social Three needs continuous public affirmation &ndash; but the Four-wing refuses repetition for its own sake. An SO3 with a weaker Four-wing might have clung to the lucrative Bond brand. Connery took the risk of leaving it behind in order to be taken seriously as an independent artist &ndash; and thereby proved that his success was not tied to a single role.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow of the Social Three</h2>
@@ -18539,7 +18539,7 @@ function kevinCostnerPortraitPage() {
 
         <h2 class="vb-section">3. The One Wing: The Moral Compass</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The One wing gives the social Nine a quality lacking in the pure SO9: an inner compass, a sense of rightness, a readiness for discomfort when something goes wrong. The SO9w1 does not merely seek belonging—it seeks a belonging that is right.</p>
+          <p class="vb-intro">The One wing gives the social Nine a quality lacking in an SO9 with a weaker One wing: an inner compass, a sense of rightness, a readiness for discomfort when something goes wrong. The SO9w1 does not merely seek belonging—it seeks a belonging that is right.</p>
           <p class="vb-intro">Costner never chose his roles according to market logic. Dances with Wolves was considered unsellable in Hollywood: three hours long, no star ensemble, a Native American epic without a heroic rescue. He produced it himself, risked his personal fortune, and won the Oscar for Best Picture and Best Director. The SO9w1 asserts itself not through sharp elbows, but through persistence in what it considers right. The One wing gives it the courage for quietness.</p>
         </blockquote>
 
@@ -18603,7 +18603,7 @@ function sandraHuellerPortraitPage() {
 
         <h2 class="vb-section">3. The One wing: Precision without compromise</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">A pure Nine would drift along. In Hüller's case, the Einserflügel brings something else: high standards for her own work, a fine sense for what is morally sustainable, and the willingness to turn down roles that do not meet that standard. In "The Zone of Interest" (2023) she played Hedwig Höss, the wife of Auschwitz commandant Rudolf Höss – a role demanding absolute precision, without ever softening or normalizing the character.</p>
+          <p class="vb-intro">A Nine with a more muted One wing would tend to drift along. In Hüller's case, the strongly developed Einserflügel brings something else: high standards for her own work, a fine sense for what is morally sustainable, and the willingness to turn down roles that do not meet that standard. In "The Zone of Interest" (2023) she played Hedwig Höss, the wife of Auschwitz commandant Rudolf Höss – a role demanding absolute precision, without ever softening or normalizing the character.</p>
           <p class="vb-intro">The SO9w1 appears soft and adaptable on the outside. Internally, she follows a strict, often invisible standard of right and wrong. Hüller chooses her roles along this line – not by prospects of success, but by whether she can do justice to the material.</p>
         </blockquote>
 
@@ -18666,7 +18666,7 @@ function peterFalkPortraitPage() {
 
         <h2 class="vb-section">3. The One-Wing: The Quiet Judge</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Nine something the pure Nine often lacks: an unshakable inner compass for right and wrong. Columbo's cases are directed almost without exception at wealthy, powerful, socially untouchable-seeming perpetrators &ndash; doctors, directors, scientists, vintners &ndash; convinced their status places them above the law.</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Nine something a Nine with a less developed One wing often lacks: an unshakable inner compass for right and wrong. Columbo's cases are directed almost without exception at wealthy, powerful, socially untouchable-seeming perpetrators &ndash; doctors, directors, scientists, vintners &ndash; convinced their status places them above the law.</p>
           <p class="vb-intro">Columbo is never impressed by this. He shows no anger, no condescension &ndash; but also not an inch of leniency. "Just one more thing..." is one of the most polite phrases in television history and, at the same time, one of the most relentless: the One within him will not let go until the truth is spoken. Justice, for him, is no act of vengeance but a quiet, almost impersonal necessity, regardless of how likable or brilliant the perpetrator seated across from him may be.</p>
         </blockquote>
 
@@ -18865,7 +18865,7 @@ function rasputinPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: Calm at the Center of the Storm</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> changes the sexual One in a decisive way. The pure SX1 can seem demanding, hot-tempered, almost impossible to contain. The Nine-wing brings a countervailing calm into play &ndash; a spaciousness, an apparent serenity that softens the One's fire on the outside without ever extinguishing it. Outwardly: peace. Inwardly: the same relentless drive.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> changes the sexual One in a decisive way. An SX1 with a weaker Nine-wing can seem demanding, hot-tempered, almost impossible to contain. The Nine-wing brings a countervailing calm into play &ndash; a spaciousness, an apparent serenity that softens the One's fire on the outside without ever extinguishing it. Outwardly: peace. Inwardly: the same relentless drive.</p>
           <p class="vb-intro">This combination explains why Rasputin appeared so differently to so many people. At court he seemed like a rock of calm &ndash; simple, earthy, unmoved by courtly ceremony, radiating a presence that soothed others even as they panicked. At the same time he lived a double life of excess and penance that knew no rest: drinking bouts, extramarital affairs, religious ecstasy in constant alternation. The Nine-wing conceals the One's intensity &ndash; makes it accessible, warm, almost sleepy &ndash; while the actual fire burns on unchanged.</p>
           <p class="vb-intro">His teaching bore the same signature. Rasputin preached that one should not avoid sin but surrender to it calmly, without inner struggle, in order to find grace by passing through it. Not the typical severity of the One, but a Nine-like ease toward one's own wrongdoing &ndash; combined with the unshakeable SX1 conviction of being in the right.</p>
         </blockquote>
@@ -18926,7 +18926,7 @@ function hundertwasserPortraitPage() {
 
         <h2 class="vb-section">3. The One-Wing: The Manifesto as Principle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Nine something the pure Nine rarely shows: a moral claim, a principle worth fighting for. Hundertwasser was no quiet artist &ndash; he wrote manifestos. The most famous, the <em>Mould Manifesto Against Rationalism in Architecture</em> (1958), is an angry, uncompromising text against the straight line, which he called "godless and immoral." Unusual for a Nine &ndash; but exactly the signature of the One-wing: harmony is not just lived, but raised to an ethical demand.</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Nine something a Nine with a weaker One wing rarely shows: a moral claim, a principle worth fighting for. Hundertwasser was no quiet artist &ndash; he wrote manifestos. The most famous, the <em>Mould Manifesto Against Rationalism in Architecture</em> (1958), is an angry, uncompromising text against the straight line, which he called "godless and immoral." Unusual for a Nine &ndash; but exactly the signature of the One-wing: harmony is not just lived, but raised to an ethical demand.</p>
           <p class="vb-intro">His architectural program followed clear, almost dogmatic rules: the "window right" (every resident may design their own window as they wish), the "tree duty" (any tree blocking a building must be allowed to grow through the house), no flat, even floors. Principles he defended unyieldingly &ndash; the Nine who transforms its ideal of harmony into an uncompromising set of rules. The One-wing gives the longing for fusion a moral edge that turns a dream into a program.</p>
         </blockquote>
 
@@ -18993,7 +18993,7 @@ function diegoVelazquezPortraitPage() {
 
         <h2 class="vb-section">3. The One-Wing: Painting as a Matter of Status</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Nine something the pure Nine rarely shows: a moral and social claim worth fighting for. Velázquez spent years working to secure his admission into the knightly Order of Santiago &ndash; an honor reserved, in the Spain of his time, for pure nobles with no "impure" trade in their family history. Painting was considered a craft, not a liberal art, and that was exactly what Velázquez wanted to change: he fought not only for his own elevation, but for the recognition of painting as a noble pursuit equal to the sciences.</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Nine something a Nine with a weaker One wing rarely shows: a moral and social claim worth fighting for. Velázquez spent years working to secure his admission into the knightly Order of Santiago &ndash; an honor reserved, in the Spain of his time, for pure nobles with no "impure" trade in their family history. Painting was considered a craft, not a liberal art, and that was exactly what Velázquez wanted to change: he fought not only for his own elevation, but for the recognition of painting as a noble pursuit equal to the sciences.</p>
           <p class="vb-intro">In 1659, a year before his death, he achieved his goal through papal dispensation and royal intervention. According to tradition, he added the red cross of the Order of Santiago to his own self-portrait in "Las Meninas" only afterward &ndash; some sources even attribute this final brushstroke to King Philip IV himself. This is the One-wing in its rawest form: the Nine's longing for fusion raised to an unyielding principle, fought for with persistence over decades.</p>
         </blockquote>
 
@@ -19058,7 +19058,7 @@ function samuelHahnemannPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-wing: The Patience That Let a System Mature</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the pure One a balancing calm and persistence &ndash; the ability not to force a conviction through in a burst, but to work it out over decades with painstaking thoroughness, testing, refining. This is exactly what characterizes Hahnemann&#39;s life work: from the first insight in 1790 to the sixth and final, posthumously published edition of his major work, the <em>Organon of the Healing Art</em>, more than fifty years of relentless refinement passed. Not a doctrine he proclaimed once and then defended, but a system he kept developing, correcting, and sharpening his whole life.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the One, where more strongly developed, a balancing calm and persistence &ndash; the ability not to force a conviction through in a burst, but to work it out over decades with painstaking thoroughness, testing, refining. This is exactly what characterizes Hahnemann&#39;s life work: from the first insight in 1790 to the sixth and final, posthumously published edition of his major work, the <em>Organon of the Healing Art</em>, more than fifty years of relentless refinement passed. Not a doctrine he proclaimed once and then defended, but a system he kept developing, correcting, and sharpening his whole life.</p>
           <p class="vb-intro">This patient systematics also shows in his working method: Hahnemann first tested every new remedy on himself and on healthy colleagues &ndash; the so-called &bdquo;drug provings&ldquo; &ndash; before ever giving it to a patient. A methodological rigor decades ahead of its time, one hardly conceivable without the calm, thorough Nine-wing.</p>
         </blockquote>
 
@@ -19228,7 +19228,7 @@ function gerhardSchroederPortraitPage() {
 
         <h2 class="vb-section">3. The Seven-Wing: Charisma and Appetite for Risk</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the pure Eight lightness, charm, and a certain appetite for risk &ndash; confrontation is not merely endured but genuinely enjoyed. Schröder's public persona &ndash; the Cohiba cigar, the Brioni suit, the broad grin at election victories &ndash; was exactly this mix of combative drive and zest for life that made him the "media chancellor," the first German head of government to consistently stage politics as a media event.</p>
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Eight, where strongly developed, lightness, charm, and a certain appetite for risk &ndash; confrontation is not merely endured but genuinely enjoyed. Schröder's public persona &ndash; the Cohiba cigar, the Brioni suit, the broad grin at election victories &ndash; was exactly this mix of combative drive and zest for life that made him the "media chancellor," the first German head of government to consistently stage politics as a media event.</p>
           <p class="vb-intro">This appetite for risk showed most clearly in the 2005 election campaign: after a lost state election in North Rhine-Westphalia, Schröder, in a spontaneous decision that surprised many, called for early federal elections &ndash; an all-or-nothing move, typical of the SX8w7, which would rather seek full confrontation than a slow fade from power.</p>
         </blockquote>
 
@@ -19293,7 +19293,7 @@ function konradAdenauerPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: Patience and Reliability</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> softens the strictness of the pure One into a more measured, more patient stance &ndash; adherence to principle is not proclaimed loudly but held to quietly and steadily. Adenauer's legendary slowness &ndash; his opponents mockingly called him "the old man" &ndash; was in truth a deliberate strategy: he never let himself be rushed into hasty decisions, examined, waited for the right moment, and then held unwaveringly to the course he had once set.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong>, where strongly developed, softens the strictness of the One into a more measured, more patient stance &ndash; adherence to principle is not proclaimed loudly but held to quietly and steadily. Adenauer's legendary slowness &ndash; his opponents mockingly called him "the old man" &ndash; was in truth a deliberate strategy: he never let himself be rushed into hasty decisions, examined, waited for the right moment, and then held unwaveringly to the course he had once set.</p>
           <p class="vb-intro">His most famous principle, the "policy of Western integration" &ndash; the firm, irreversible anchoring of the young Federal Republic in NATO and the Western alliance &ndash; he pursued for years against considerable domestic resistance, without letting criticism shake him. No spectacular coup, but tenacious, patient persistence &ndash; the One with the equanimity of the Nine at its back.</p>
         </blockquote>
 
@@ -19556,7 +19556,7 @@ function morganFreemanPortraitPage() {
 
         <h2 class="vb-section">3. The Six-Wing: Reliability as the Foundation of Joy</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the pure Seven a grounding reliability &ndash; the appetite for the new is not lived out chaotically but embedded in loyal, long-term collaboration. Freeman's work with director Clint Eastwood (including "Million Dollar Baby"), with director Rob Reiner, or in recurring roles shows a faithfulness to working relationships that would be atypical for the pure Seven.</p>
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong>, where strongly developed, gives the Seven a grounding reliability &ndash; the appetite for the new is not lived out chaotically but embedded in loyal, long-term collaboration. Freeman's work with director Clint Eastwood (including "Million Dollar Baby"), with director Rob Reiner, or in recurring roles shows a faithfulness to working relationships that would be atypical for a Seven with a weaker Six wing.</p>
           <p class="vb-intro">This wing shows most clearly in his voice: Freeman's warm, calm, deeply trust-inspiring baritone became one of Hollywood's most sought-after narrator voices &ndash; from documentaries to "March of the Penguins." A voice that conveys security even before the content of what is being said is fully understood &ndash; the reliability of the Six-wing, made audible.</p>
         </blockquote>
 
@@ -19622,7 +19622,7 @@ function leonardBernsteinPortraitPage() {
 
         <h2 class="vb-section">3. The Six-Wing: Education as a Proof of Love</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the pure Seven a relationship-oriented, often almost missionary sense of care. From 1958 to 1972, Bernstein hosted the "Young People's Concerts" &ndash; nationally televised concerts in which he introduced children and teenagers to the fundamentals of classical music with tireless patience. Over decades, he invested a substantial portion of his energy in this educational project, even though it cost him time he could also have used for composing.</p>
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong>, where strongly developed, gives the Seven a relationship-oriented, often almost missionary sense of care. From 1958 to 1972, Bernstein hosted the "Young People's Concerts" &ndash; nationally televised concerts in which he introduced children and teenagers to the fundamentals of classical music with tireless patience. Over decades, he invested a substantial portion of his energy in this educational project, even though it cost him time he could also have used for composing.</p>
           <p class="vb-intro">The same loyal capacity for bonding showed in his close, decades-long relationship with his mentor Serge Koussevitzky and in his faithfulness to institutions such as the Tanglewood Music Center, where he taught young conductors almost until his death. Even during the McCarthy era, when leftist political contacts landed him on blacklists and he had to sign a sworn affidavit to keep his passport, the watchful, anxious caution of the Six-wing toward outside threats showed itself.</p>
         </blockquote>
 
@@ -20357,7 +20357,7 @@ function helmutKohlPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: Patience Instead of Confrontation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> softens the confrontational drive of the pure Eight into a more patient, more conciliatory stance &ndash; power is not constantly displayed but rather held in the background until the right moment arrives. Kohl was famous &ndash; and notorious &ndash; for his ability to simply sit out conflicts: he rarely acted rashly, let opponents wear themselves down, and then appeared, seemingly calm, with the decisive initiative. This mix of assertiveness and stoic patience was his political signature.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong>, where strongly developed, softens the confrontational drive of the Eight into a more patient, more conciliatory stance &ndash; power is not constantly displayed but rather held in the background until the right moment arrives. Kohl was famous &ndash; and notorious &ndash; for his ability to simply sit out conflicts: he rarely acted rashly, let opponents wear themselves down, and then appeared, seemingly calm, with the decisive initiative. This mix of assertiveness and stoic patience was his political signature.</p>
           <p class="vb-intro">Nowhere was this clearer than in German reunification in 1989/1990. When the Berlin Wall fell, Kohl seized the historic opportunity with his Ten-Point Plan, negotiated in parallel with the four Allied powers, with Gorbachev, with Mitterrand &ndash; and achieved reunification within less than a year, even though many international observers had expected years of negotiations. This was the lion-Eight in its purest form: dictate the tempo when the hour arrives &ndash; and until then, prepare patiently, unobtrusively, with a long breath.</p>
         </blockquote>
 
@@ -20423,7 +20423,7 @@ function mohammedPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: Patience Instead of Escalation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the social Eight a strategic patience that a pure Eight rarely shows. This becomes clear in the Treaty of Hudaybiyyah (628 CE): Muhammad concluded a truce with the Meccans that, to many of his own followers, looked like a concession &ndash; he gave up the immediate pilgrimage to Mecca and accepted terms that seemed disadvantageous in the short term. In hindsight, this very concession proved to be a wise move: the truce created a framework in which Islam spread far more over the following two years than it could have through military confrontation.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the social Eight a strategic patience that an Eight with a weaker Nine wing rarely shows. This becomes clear in the Treaty of Hudaybiyyah (628 CE): Muhammad concluded a truce with the Meccans that, to many of his own followers, looked like a concession &ndash; he gave up the immediate pilgrimage to Mecca and accepted terms that seemed disadvantageous in the short term. In hindsight, this very concession proved to be a wise move: the truce created a framework in which Islam spread far more over the following two years than it could have through military confrontation.</p>
           <p class="vb-intro">This ability to accept a short-term disadvantage for a longer-term, more stable peace is typical of the Nine-wing: it grounds the Eight's assertiveness, making it enduring rather than impulsive. After the ultimately bloodless conquest of Mecca in 630 CE, Muhammad declared a general amnesty for his former opponents &ndash; not revenge, but consolidation. This too is the signature of the SO8w9: victory used to establish peace, not to settle old scores. This renunciation of revenge is telling: in the Eight's ego lies the temptation to seek retaliation as proof of one's own strength. That the social Eight, as the counter-type of the Eight, consciously decides against this impulse and subordinates its own satisfaction to the community is itself an expression of the counter-type principle: it fights inwardly against the very Eight-principle that would otherwise dominate, rather than giving in to it.</p>
         </blockquote>
 
@@ -20636,7 +20636,7 @@ function laoziPortraitPage() {
 
         <h2 class="vb-section">4. The One-Wing: Quiet Moral Clarity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Nine something pure inertia would not have: a clear, almost incorruptible inner orientation. Laozi criticized the artificial harshness, the bloated bureaucracy, and the moral over-regulation of his time &ndash; not through struggle or counter-reform, as an Eight or a pure One might have, but through a call to return to natural simplicity, referred to in the Tao Te Ching as <em>pu</em> (the "uncarved block").</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Nine something a more muted One wing would not have: a clear, almost incorruptible inner orientation. Laozi criticized the artificial harshness, the bloated bureaucracy, and the moral over-regulation of his time &ndash; not through struggle or counter-reform, as an Eight or a strongly One-winged personality might have, but through a call to return to natural simplicity, referred to in the Tao Te Ching as <em>pu</em> (the "uncarved block").</p>
           <p class="vb-intro">"The more laws and regulations, the more thieves and robbers," the Tao Te Ching states &ndash; a critique of excessive regulation that simultaneously formulates a clear moral position. The One-wing gives the Nine a direction without driving it into active resistance: not a fighter against the system, but a quiet admonisher who trusts nature's own wisdom.</p>
         </blockquote>
 
@@ -20843,7 +20843,7 @@ function jesusChristusPortraitPage() {
 
         <h2 class="vb-section">3. The One-Wing: Fulfilling the Law, Not Abolishing It</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two something the pure Two rarely shows with this sharpness: an unconditional moral standard. Jesus explicitly states: "I have not come to abolish the Law, but to fulfill it" (Matthew 5:17) &ndash; and at the same time radically deepens it, for instance condemning not only murder but already anger in the heart, not only adultery but already the lustful gaze. Not the abolition of principles, but their intensification down into inner disposition &ndash; the characteristic signature of the One-wing: love becomes an ethical demand, not merely a feeling.</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two something a Two with a weaker One wing rarely shows with this sharpness: an unconditional moral standard. Jesus explicitly states: "I have not come to abolish the Law, but to fulfill it" (Matthew 5:17) &ndash; and at the same time radically deepens it, for instance condemning not only murder but already anger in the heart, not only adultery but already the lustful gaze. Not the abolition of principles, but their intensification down into inner disposition &ndash; the characteristic signature of the One-wing: love becomes an ethical demand, not merely a feeling.</p>
           <p class="vb-intro">This combination also explains the apparent contradictions in Jesus's conduct: the gentle turning toward the woman caught in adultery ("Let him who is without sin cast the first stone," John 8:7) alongside the sharp cleansing of the Temple, where he drives out the merchants with a whip of cords (John 2:15). Care and principled rigor in the same figure &ndash; the social Two who loves, but does not tolerate what harms the person and the community.</p>
         </blockquote>
 
@@ -20928,7 +20928,7 @@ function brigitteBardotPortraitPage() {
 
         <h2 class="vb-section">3. The Two-wing: Care Instead of Facade</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the sexual Three a dimension that goes beyond pure magnetism: the genuine need to care for others, to give care rather than only receive admiration. The pure SX3 could become absorbed in its own impact. The Two-wing opens the gaze outward &ndash; toward those who have no voice.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the sexual Three a dimension that goes beyond pure magnetism: the genuine need to care for others, to give care rather than only receive admiration. An SX3 with a weaker Two-wing could become absorbed in its own impact. The Two-wing opens the gaze outward &ndash; toward those who have no voice.</p>
           <p class="vb-intro">In Bardot this shows most clearly in her relationship to animals, which began already during her film career and increasingly occupied her. Her affection was never abstract or representative &ndash; she personally cared for injured and abandoned animals on her estate in Saint-Tropez, tending to them herself, not merely symbolically. The SX3w2 does not give from a distance. It gives with its own hands.</p>
           <p class="vb-intro">This care often stood in contrast to her public image as an unapproachable seductress &ndash; a contradiction that marks many SX3w2s: radiant and desired on the outside, while inwardly carrying a deep need to stand up for something or someone who needs protection.</p>
         </blockquote>
@@ -21344,7 +21344,7 @@ function mariahCareyPortraitPage() {
 
         <h2 class="vb-section">3. The Eight Wing: Power as a Shield</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Eight wing gives the self-preservation Seven a quality the pure SE7 does not always show: the will to power, readiness for confrontation, and a keen radar for control and its loss. Where the SE7 seeks joy and avoids discomfort, the Eight wing adds: "And if someone threatens my joy, I will let them know."</p>
+          <p class="vb-intro">The Eight wing gives the self-preservation Seven a quality an SE7 with a weaker Eight wing does not always show: the will to power, readiness for confrontation, and a keen radar for control and its loss. Where the SE7 seeks joy and avoids discomfort, the Eight wing adds: "And if someone threatens my joy, I will let them know."</p>
           <p class="vb-intro">The defining experience of Carey's life was her marriage to music executive Tommy Mottola (1993–1998), the then-head of Sony Music. Mottola had discovered her, built her up, and then controlled her: her home was guarded, her phone calls monitored, her circle subject to approval. Carey later described it as a kind of golden cage. When she freed herself, she wrote Fantasy, Emotions, and ultimately the album Butterfly (1997)—an R&B pivot Mottola would never have approved. The Eight wing taught her: loss of control is more dangerous than the big performance. And: whoever has once lost control never surrenders it voluntarily again.</p>
           <p class="vb-intro">The diva legends that have developed since then—the butterflies in the room, the specific drinking water, the famous line "I don't know her" when asked about Jennifer Lopez—are no slip-up. They are a protective wall. "Whoever doesn't respect me doesn't exist for me." That is the Eight wing of the gorilla: clear boundaries.</p>
         </blockquote>
@@ -21617,7 +21617,7 @@ function megRyanPortraitPage() {
 
         <h2 class="vb-section">3. The Four Wing: The Depth Behind the Laughter</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Four wing (w4) brings into the SX3 energy something that the pure Three often suppresses: the need for depth, for authenticity, for an expression that goes beyond the surface. The SX3w4 does not just want to enchant—she wants to be meaningful.</p>
+          <p class="vb-intro">The Four wing (w4) brings into the SX3 energy something that a Three with a more muted Four wing often suppresses: the need for depth, for authenticity, for an expression that goes beyond the surface. The SX3w4 does not just want to enchant—she wants to be meaningful.</p>
           <p class="vb-intro">In Meg Ryan, this shows in the break in her career in the 2000s. The retreat from romantic comedies, the choice of Proof of Life (2000)—a darker, more complex film for which she consciously chose against her type. The Four wing insists on authenticity, even if the price is high.</p>
           <p class="vb-intro">And then the publicly discussed changes in her appearance: they show the paradox of the SX3w4—the Three need for image control fighting against the Four realization that the image is not the person. Two forces harnessed inside the same shell.</p>
         </blockquote>
@@ -21688,7 +21688,7 @@ function melanieKreisPortraitPage() {
 
         <h2 class="vb-section">3. The Five Wing: Analysis as a Foundation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Five wing (w5) brings something decisive to the social Six: analytical depth, precision, and trust in knowledge as the foundation of every decision. Where the pure SO6 seeks security through belonging, the Five wing adds another layer—the conviction that one can only be reliable for others if one truly understands things. The SO6w5 checks before trusting. And it trusts when the analysis is right.</p>
+          <p class="vb-intro">The Five wing (w5) brings something decisive to the social Six: analytical depth, precision, and trust in knowledge as the foundation of every decision. Where an SO6 with a weaker Five wing seeks security through belonging, the Five wing adds another layer—the conviction that one can only be reliable for others if one truly understands things. The SO6w5 checks before trusting. And it trusts when the analysis is right.</p>
           <p class="vb-intro">Kreis studied physics—first at the Westfälische Wilhelms-Universität Münster, then with a Master of Science at the State University of New York at Stony Brook. Physics is the subject of precision: no assumption without proof, no model without verification. Afterward, she expanded her horizon with an MBA at INSEAD in France. Two worlds: the exact thinking of natural sciences and the strategic thinking of business. This combination has a clear logic—it is the SO6w5 in training: First understand. Then act. Then be reliable.</p>
           <p class="vb-intro">In annual reports, analyst conferences, and investor meetings, Kreis is known for a language that remains clear and matter-of-fact. No exaggerations, no empty promises. That is the Five wing as a communication principle: Say what you know. And say it precisely.</p>
         </blockquote>
@@ -21755,7 +21755,7 @@ function michaelSchumacherPortraitPage() {
 
         <h2 class="vb-section">3. The Seven Wing: Joy in Speed</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Seven wing (w7) brings something to the sexual Six that the pure SX6 alone would not develop: capacity for enthusiasm, joy in play, and the ability to make an enjoyment out of what others experience as a threat. Where the SX6 fights, the SX6w7 celebrates fighting. The result is a human being who not only wants to win, but who enjoys winning.</p>
+          <p class="vb-intro">The Seven wing (w7) brings something to the sexual Six that an SX6 with a weaker Seven wing would not develop on its own: capacity for enthusiasm, joy in play, and the ability to make an enjoyment out of what others experience as a threat. Where the SX6 fights, the SX6w7 celebrates fighting. The result is a human being who not only wants to win, but who enjoys winning.</p>
           <p class="vb-intro">Schumacher loved driving. That sounds self-evident, but it is not. Many racing drivers love winning. Schumacher loved the corner, the grip, the limit of the doable. His famous qualifying feel—the ability to pull everything out of himself and the car in a single lap attempt—was not just technology. It was passion. The Seven wing gives the SX6 the joy that fear does not give: when I drive so fast that no one can catch me, I feel no risk anymore. I feel freedom.</p>
           <p class="vb-intro">The Seven wing also explains his urge to return. In 2010, at forty-one years old, he got back into a Formula 1 car at Mercedes. Not out of greed for money, not out of vanity—but because driving itself called him. The Seven wing holds open the door to joy, even when reason has long said no.</p>
         </blockquote>
@@ -22162,7 +22162,7 @@ function rihannaPortraitPage() {
 
         <h2 class="vb-section">3. The Three Wing: Feeling Becomes a Brand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Three wing (w3) grants the Sexual Four something crucial: the ability not merely to feel one's own experience, but to shape it—and turn it into impact. Where the pure SX4 might drown in the fire of its own emotions, the Three wing introduces ambition, craft, and a fine instinct for what works. This combination turns intense experience into a career—and a career into an empire.</p>
+          <p class="vb-intro">The Three wing (w3) grants the Sexual Four something crucial: the ability not merely to feel one's own experience, but to shape it—and turn it into impact. Where an SX4 with a weaker Three wing might drown in the fire of its own emotions, the Three wing introduces ambition, craft, and a fine instinct for what works. This combination turns intense experience into a career—and a career into an empire.</p>
           <p class="vb-intro">The w3 is evident throughout Rihanna's aesthetic evolution: the precise calculation of an image that morphed with every album. From the sweet Caribbean pop newcomer, to the agitated, dark energy of "Rated R," to the carefree sensuality of "Loud," and ultimately to the mature, uncompromising mastery of "Anti"—every era was a conscious reinvention. The SX4 feels genuine. The w3 ensures that what is genuine lands effectively.</p>
           <p class="vb-intro">This becomes particularly clear in "Anti" (2016), Rihanna's seventh and to date last studio album. It is the first to carry her vision entirely: no radio-format compromises, no predictable single structures. "Anti" sounds like someone who has stopped asking for permission. That is the finest gift the Three wing can offer the SX4: the tools to forge one's innermost self into a form no one can ignore.</p>
         </blockquote>
@@ -22232,7 +22232,7 @@ function billieEilishPortraitPage() {
 
         <h2 class="vb-section">3. The Three-wing: Feeling Becomes a Global Career</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Sexual Four the ability not just to feel her own experience, but to translate it into impact. Where the pure SX4 might burn out in her own fire, the Three-wing adds ambition, an instinct for stage and image, and the discipline to turn a SoundCloud upload into a global career.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Sexual Four the ability not just to feel her own experience, but to translate it into impact. Where an SX4 with a more muted Three-wing might burn out in her own fire, the Three-wing adds ambition, an instinct for stage and image, and the discipline to turn a SoundCloud upload into a global career.</p>
           <p class="vb-intro">In Eilish this shows in the precision with which image, sound, and performance are aligned &ndash; from the green-and-black hair to the vast, aesthetically composed music videos to the deliberate reinvention of her look on the 2021 Vogue cover. The w3 ensures that the SX4&#39;s raw honesty doesn&#39;t fade into the private, but reaches an entire generation.</p>
           <p class="vb-intro">In 2020, Eilish won all four major Grammy categories &ndash; Album, Song, and Record of the Year plus Best New Artist &ndash; in the same year, at eighteen, the youngest artist ever to do so. That is the Three-wing at its purest: the SX4&#39;s fire is not merely felt, but translated into a success no one can ignore.</p>
         </blockquote>
@@ -22299,7 +22299,7 @@ function ronaldReaganPortraitPage() {
 
         <h2 class="vb-section">3. The Eight Wing: The Voice That Fills the Room</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Eight wing imparts a quality to the Social Nine that the pure SO9 lacks: directness, territoriality, and a willingness for blunt confrontation when it matters. The SO9w8 combines the warmth of the Nine with the courage of the Eight—a combination that is lethally effective in politics.</p>
+          <p class="vb-intro">The Eight wing imparts a quality to the Social Nine that an SO9 with a weaker Eight wing lacks: directness, territoriality, and a willingness for blunt confrontation when it matters. The SO9w8 combines the warmth of the Nine with the courage of the Eight—a combination that is lethally effective in politics.</p>
           <p class="vb-intro">Reagan's most famous declarations were not compromises. "Mr. Gorbachev, tear down this wall!"—Berlin, 1987. "The Soviet Union is an evil empire."—1983. The Eight wing enabled him to speak without hesitation in decisive moments—directly, without diplomatic cushioning, with a clarity that sometimes alarmed his advisors. The Nine waited; the Eight struck at the right moment. That was Reagan's political grammar.</p>
         </blockquote>
 
@@ -22363,7 +22363,7 @@ function rowanAtkinsonPortraitPage() {
 
         <h2 class="vb-section">3. The Six Wing: The Conscience of the Clown</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Six wing imparts a quality to the Social Seven that shapes it from within: a sense of duty, self-doubt, and a deep fear of failure. Where the pure SO7 hides behind generosity, the Six wing adds: "Am I truly good enough? Do I deserve my place?"</p>
+          <p class="vb-intro">The Six wing imparts a quality to the Social Seven that shapes it from within: a sense of duty, self-doubt, and a deep fear of failure. Where an SO7 with a weaker Six wing hides behind generosity, the Six wing adds: "Am I truly good enough? Do I deserve my place?"</p>
           <p class="vb-intro">From childhood, Atkinson suffered from a speech impediment (stuttering)—a fluency disorder that made him an outsider in social situations, which he overcome only through years of training and his path to the stage. The stutter disappears when he steps into a character: Mr. Bean barely speaks; Blackadder speaks in impeccably crafted sentences. The mask protects—and the Six wing is the one that insists the mask fits perfectly.</p>
           <p class="vb-intro">His preparation is legendary: he is said to have developed and refined individual sketch ideas over years before presenting them publicly. Perfection for the SO7w6 is no luxury—it is an inner insurance policy against the onset of failure.</p>
         </blockquote>
@@ -22493,7 +22493,7 @@ function ruthBaderGinsburgPortraitPage() {
 
         <h2 class="vb-section">3. The Nine Wing: The Calm Before the Strike</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Nine wing imparts a quality to the Sexual Eight that the pure Eight often lacks: patience, perspective, and a quietude that is not passivity, but gathered strength. The SX8w7 strikes immediately. The SX8w9 waits until the moment is so complete that no doubt remains.</p>
+          <p class="vb-intro">The Nine wing imparts a quality to the Sexual Eight that an Eight with a more muted Nine wing often lacks: patience, perspective, and a quietude that is not passivity, but gathered strength. The SX8w7 strikes immediately. The SX8w9 waits until the moment is so complete that no doubt remains.</p>
           <p class="vb-intro">Ginsburg waited decades for the right cases, the right courts, and the right political windows. Her path toward equal rights was no sprint—it was a strategic campaign spanning thirty years. The Nine wing also granted her the capacity for endurance: eight cancer surgeries, the death of her husband in 2010, and years of pressure to step down—yet she remained. The crocodile does not retreat as long as water remains.</p>
         </blockquote>
 
@@ -23613,7 +23613,7 @@ function yayoiKusamaPortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: The Unconditional Will to Be Seen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two an additional drive: the unconditional will to be seen, to achieve something, to earn recognition. Where the pure Two might exhaust itself in quiet care, the Three-wing lends ambition, self-presentation, and the ability to turn one's own hardship into a public stage.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two an additional drive: the unconditional will to be seen, to achieve something, to earn recognition. Where a Two with a weaker Three wing might exhaust itself in quiet care, the Three-wing lends ambition, self-presentation, and the ability to turn one's own hardship into a public stage.</p>
           <p class="vb-intro">In 1958, penniless and without English, Kusama moved alone to New York because she was convinced her art would find recognition there. In the 1960s she staged spectacular "happenings": painting nude participants with dots, organizing anti-Vietnam War protests, and deliberately courting media attention while living in bitter poverty. The Three-wing turned a deeply introverted artist plagued by inner visions into a public figure who knew exactly how to reach an audience &ndash; not out of vanity, but because visibility is, for the SP2w3, equivalent to survival.</p>
         </blockquote>
 
@@ -23680,7 +23680,7 @@ function oprahWinfreyPortraitPage() {
 
         <h2 class="vb-section">3. The Three Wing: The Will to Build an Empire</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Three wing (w3) gives the Self-Preservation Two something the pure Two does not bring on its own: the hunger for measurable success, for growth, for proof that one's own work carries weight. The Three thinks in reach, in numbers, in results. Combined with the SP2, it creates someone who is simultaneously deeply compassionate and strategically relentless.</p>
+          <p class="vb-intro">The Three wing (w3) gives the Self-Preservation Two something a Two with a less developed Three wing does not bring on its own: the hunger for measurable success, for growth, for proof that one's own work carries weight. The Three thinks in reach, in numbers, in results. Combined with the SP2, it creates someone who is simultaneously deeply compassionate and strategically relentless.</p>
           <p class="vb-intro">Oprah Winfrey built a single talk show into a media empire: Harpo Productions, her own network OWN, a magazine, a book club that shaped entire bestseller lists. She became the first Black billionaire in North America, not through inheritance, but through her own entrepreneurial force. The Three wing permits no half-measures. It asks: how much further can this grow? How many more people can this reach?</p>
           <p class="vb-intro">This wing also has its price. The Three wing of the SP2 tends to equate worth with impact: I am what I achieve, how many I reach. Oprah Winfrey has spoken openly about the pressure to always achieve more, a hippopotamus that keeps expanding its territory instead of simply inhabiting it.</p>
         </blockquote>
@@ -24421,7 +24421,7 @@ function stingPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: The Silence Behind the Standard</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds something to the SP1 energy that rarely belongs together: silence. While the pure One energy is tense, alert, and correction-conscious, the Nine-wing brings a quality of calm, of letting go, of connectedness with something greater.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds something to the SP1 energy that rarely belongs together: silence. While a One energy with a weaker Nine wing is tense, alert, and correction-conscious, a strongly developed Nine-wing brings a quality of calm, of letting go, of connectedness with something greater.</p>
           <p class="vb-intro">This explains Sting's decades-long yoga practice, his engagement with Buddhism and Tantra, his retreat to his Tuscan estate. The SP1w9 does not only seek the right thing &ndash; he also seeks peace. The Nine energy gives the One the capacity to pause, to breathe, to release perfection. Sting's music has exactly this quality: precise and spacious at the same time, demanding and meditative. The eagle circles &ndash; but he also enjoys the heights.</p>
         </blockquote>
 
@@ -24482,7 +24482,7 @@ function robertDeNiroPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: The Silence Behind the Intensity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds a quality to the SP1 energy that seems paradoxical on the surface: restraint. While the pure One energy is tense and correction-conscious, the Nine-wing brings a capacity for merging, for fully dissolving into something larger than the self.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds a quality to the SP1 energy that seems paradoxical on the surface: restraint. While a One energy with a weaker Nine wing is tense and correction-conscious, a strongly developed Nine-wing brings a capacity for merging, for fully dissolving into something larger than the self.</p>
           <p class="vb-intro">This explains De Niro's famous reticence off camera &ndash; a man who plays explosive, often violent characters on screen, and who in real life is notoriously taciturn, almost shy. Journalists regularly describe interviews with him as a tough struggle for more than one-word answers. The Nine-wing withdraws as soon as the task is done &ndash; it seeks no stage for itself, only for the role. The decades-long, deep artistic partnership with director Martin Scorsese, from <em>Mean Streets</em> (1973) to <em>The Irishman</em> (2019), shows the same quality: loyal, patient merging with a shared vision, without the need to push oneself into the foreground.</p>
         </blockquote>
 
@@ -24550,7 +24550,7 @@ function christophWaltzPortraitPage() {
 
         <h2 class="vb-section">3. The Two-Wing: Warmth Behind the Precision</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> adds something decisive to the SP1 energy: the capacity for warmth, generosity, giving. The pure One can appear cool, rigid, and unrelenting. The Two-wing opens this energy outward &ndash; it transforms the inner controller into a person who gives, who carries, who cares.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> adds something decisive to the SP1 energy: the capacity for warmth, generosity, giving. A One with a weaker Two wing can appear cool, rigid, and unrelenting. A strongly developed Two-wing opens this energy outward &ndash; it transforms the inner controller into a person who gives, who carries, who cares.</p>
           <p class="vb-intro">This explains why Christoph Waltz never seems cold, even in his darkest roles. Hans Landa in <em>Inglourious Basterds</em> is a monster &ndash; and yet one cannot look away from him. Dr. King Schultz in <em>Django Unchained</em> is a bounty hunter &ndash; and yet he warms every room he enters. The SP1w2 carries its severity within and its warmth without. That is precisely what makes his roles so magnetic.</p>
         </blockquote>
 
@@ -24610,7 +24610,7 @@ function pierceBrosnanPortraitPage() {
 
         <h2 class="vb-section">3. The Two-Wing: Care Behind the Facade</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> opens the strict One energy outward: it gives warmth, genuine interest in others, the desire to stand up for people who are worse off. The pure One could seem cold and distant. The Two-wing turns it into someone who gives.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> opens the strict One energy outward: it gives warmth, genuine interest in others, the desire to stand up for people who are worse off. A One with a weaker Two wing could seem cold and distant. A strongly developed Two-wing turns it into someone who gives.</p>
           <p class="vb-intro">In 1991, Brosnan's first wife Cassandra Harris died of ovarian cancer. Rather than withdraw, Brosnan became one of the most visible public advocates for awareness and research into the disease &ndash; a commitment that became even more painful when, in 2013, his stepdaughter Charlotte, Cassandra's daughter, also succumbed to the same illness. He has also been active as an environmental advocate for decades, including as a UN Environment Programme spokesperson. The Two-wing transforms personal loss into persistent commitment to others &ndash; not out of duty, but out of genuine care.</p>
         </blockquote>
 
@@ -24742,7 +24742,7 @@ function magnusCarlsenPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: Letting Go as Strength</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds a quality to the SP1 energy that is rare in elite sport: the ability to let go of status and expectations rather than defending them at all costs. While the pure One clings to standards once achieved, the Nine-wing can recognize when a fight is no longer worth one's own inner peace.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds a quality to the SP1 energy that is rare in elite sport: the ability to let go of status and expectations rather than defending them at all costs. While a One with a weaker Nine wing clings to standards once achieved, a strongly developed Nine-wing can recognize when a fight is no longer worth one's own inner peace.</p>
           <p class="vb-intro">In 2022, Carlsen voluntarily gave up defending his World Chess Championship title &ndash; one of the most prestigious titles in all of sport &ndash; openly explaining that he lacked the motivation for another title match. No scandal, no exhausted retreat, but a calm, clear decision: the title no longer gave him what he needed. An Eagle that voluntarily leaves a branch that everyone else would defend at any cost &ndash; not out of weakness, but because the Nine-wing knows when holding on no longer makes sense.</p>
         </blockquote>
 
@@ -24809,7 +24809,7 @@ function astridLindgrenPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: Restraint Despite World Fame</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds a quality to the SP1 energy that rarely survives the spotlight: the ability to step back, to merge, to put the cause rather than one's own person at the center. Where the pure One defends its position, the Nine-wing seeks quiet impact over loud performance.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds a quality to the SP1 energy that rarely survives the spotlight: the ability to step back, to merge, to put the cause rather than one's own person at the center. Where a One with a weaker Nine wing defends its position, a strongly developed Nine-wing seeks quiet impact over loud performance.</p>
           <p class="vb-intro">Despite her immense worldwide fame, Lindgren remained conspicuously modest throughout her life. She rarely gave detailed interviews about her private life, avoided the grand stage of her own celebrity, and lived into old age in her unpretentious Stockholm apartment on Dalagatan, reachable for neighborhood children who actually rang her doorbell to meet "the real Pippi author." The Nine-wing also shows in her publishing work: over decades she discovered and nurtured numerous other Swedish children's authors without placing herself in the foreground &ndash; a quiet, patient form of influence that is not measured by its own visibility.</p>
         </blockquote>
 
@@ -24948,7 +24948,7 @@ function danBrownPortraitPage() {
 
         <h2 class="vb-section">3. The Two-Wing: Accessibility as a Gift to the Reader</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> opens the strict, inwardly-directed One outward: it grants the capacity to give, to make accessible, to bring others along. The pure One could keep its expertise to itself, remaining academic and unapproachable. The Two-wing pushes it to share &ndash; understandably, excitingly, compellingly.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> opens the strict, inwardly-directed One outward: it grants the capacity to give, to make accessible, to bring others along. A One with a weaker Two wing could keep its expertise to itself, remaining academic and unapproachable. A strongly developed Two-wing pushes it to share &ndash; understandably, excitingly, compellingly.</p>
           <p class="vb-intro">This is precisely the key to Brown's literary success: highly complex subjects from art history, symbolism, and theology are packaged into short, breathless chapters that pull in even readers unfamiliar with the field. The SP1w2 does not just want to be right &ndash; it wants others to be able to share in it. The eagle's precision, given away to a readership of millions.</p>
         </blockquote>
 
@@ -25008,7 +25008,7 @@ function johnLennonPortraitPage() {
 
         <h2 class="vb-section">3. The Five-Wing: Knowledge, Withdrawal, and the Power of Silence</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> brings the social Four a characteristic imprint: the need for withdrawal, for depth, for the intellectual penetration of the world. The pure SO4 seeks connection &ndash; it wants to be seen, wants to touch. The Five-wing pulls it back into silence: <em>It thinks first. It understands first. Only then does it speak.</em></p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> brings the social Four a characteristic imprint: the need for withdrawal, for depth, for the intellectual penetration of the world. An SO4 with a weaker Five-wing seeks connection &ndash; it wants to be seen, wants to touch. The Five-wing pulls it back into silence: <em>It thinks first. It understands first. Only then does it speak.</em></p>
           <p class="vb-intro">In John Lennon, the Five-wing manifests in his philosophical curiosity that reached far beyond music. He read, he thought, he questioned &ndash; institutions, religions, the war, his own role. <em>Imagine</em> is not the song of an entertainer. It is the song of a person who asked himself: <em>What if we were to really think?</em> The Five-wing gives the SO4 distance &ndash; the ability to lift the personal into the universal while remaining clear.</p>
           <p class="vb-intro">The Five-wing also explains Lennon's willingness to withdraw &ndash; the years after the Beatles, in which he lived in the Dakota in New York, was a father, baked bread, was quiet. The SO4w5 knows: sometimes silence is louder than any song. The five years in which he stepped back from the spotlight and returned shortly before his death &ndash; that is the Five-wing in its purest form.</p>
         </blockquote>
@@ -25074,7 +25074,7 @@ function javierParisiPortraitPage() {
 
         <h2 class="vb-section">3. The Five-wing: Perfection Through Study</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the social Four the capacity for concentrated, almost scientific depth. Where the pure SO4 mostly feels and compares, the Five-wing adds patient study: the willingness to penetrate a subject until one has fully mastered it.</p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the social Four the capacity for concentrated, almost scientific depth. Where an SO4 with a more muted Five-wing mostly feels and compares, the Five-wing adds patient study: the willingness to penetrate a subject until one has fully mastered it.</p>
           <p class="vb-intro">In Parisi this shows in the sheer precision of his embodiment: not only the round glasses and the haircut, but the tone of voice, the stage movements, the Liverpudlian accent in his English, the exact chronology of Lennon&#39;s wardrobe across the various creative phases of the Beatles. This is no superficial imitation, but decades of meticulous research into a single biography. The Five-wing turns the SO4&#39;s admiration into craft.</p>
           <p class="vb-intro">This precision is what sets Parisi apart from ordinary tribute artists. His audiences repeatedly report the same moment: for seconds, the difference between original and embodiment disappears. That is the Five-wing in its most complete form &ndash; knowledge so deeply internalized that it no longer feels like knowledge, but like being.</p>
         </blockquote>
@@ -25145,7 +25145,7 @@ function fionaApplePortraitPage() {
 
         <h2 class="vb-section">3. The Five-wing: Withdrawal as Workshop</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the social Four the capacity to withdraw from the field of judgment in order to work in silence. Where the pure SO4 mostly feels and compares, the Five-wing adds withdrawal into one&#39;s own study &ndash; the willingness to stay silent for years when there is nothing essential to say.</p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the social Four the capacity to withdraw from the field of judgment in order to work in silence. Where an SO4 with a weaker Five-wing mostly feels and compares, the Five-wing adds withdrawal into one&#39;s own study &ndash; the willingness to stay silent for years when there is nothing essential to say.</p>
           <p class="vb-intro">In Apple this withdrawal has become a trademark: her albums are often separated by six, seven, eight years of silence. She retreated from New York to a house in Venice Beach, avoided interviews and public life almost entirely for long stretches. The Five-wing does not turn the SO4&#39;s social shame into constant self-display, but into its opposite: an almost monastic seclusion, out of which she speaks again only once the work is finished.</p>
           <p class="vb-intro">This reticence is not weakness but method. Apple produces her albums with extreme attention to detail, often self-produced, using unconventional sound sources &ndash; from kitchen implements to the bones of her deceased dog used as percussion. The Five-wing turns withdrawal into a laboratory.</p>
         </blockquote>
@@ -25409,7 +25409,7 @@ function romySchneiderPortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: The Stage as Vital Necessity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the social Four a decisive tension: the need for achievement, for effectiveness, for the public recognition that the Three requires. The pure SO4 could lose itself in the depths of its own feeling &ndash; too sensitive, too vulnerable for the demands of the industry. The Three-wing drives it outward: <em>If you are going to suffer anyway, at least let something great come of it.</em></p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the social Four a decisive tension: the need for achievement, for effectiveness, for the public recognition that the Three requires. An SO4 with a more muted Three-wing could lose itself in the depths of its own feeling &ndash; too sensitive, too vulnerable for the demands of the industry. The Three-wing drives it outward: <em>If you are going to suffer anyway, at least let something great come of it.</em></p>
           <p class="vb-intro">In Romy Schneider, the Three-wing manifests in her extraordinary discipline and professionalism on set &ndash; as all contemporaries describe. She was often torn, often at the edge, but she delivered. The SO4w3 does not separate the private from the professional through coldness, but through a kind of transformative power: the stage becomes the place where the interior takes form &ndash; and for that moment the pain lies not within her, but in the role.</p>
           <p class="vb-intro">The Three-wing also explains Romy's ambivalent relationship with the public: she needed the attention &ndash; and suffered under it. That is the SO4w3 in its core conflict: the Three-wing drives it into the light, the Four pulls it back into silence. Life between these poles exhausted her.</p>
         </blockquote>
@@ -25603,7 +25603,7 @@ function freddieMercuryPortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: The Stage as Home</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the sexual Four something decisive: the ability to turn the interior outward and transform it into effect. The pure SX4 could sink into the intensity of its own experience &ndash; deep, dark, inaccessible. The Three-wing gives it a stage: <em>What you feel can be shaped. And what is shaped can change the world.</em></p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the sexual Four something decisive: the ability to turn the interior outward and transform it into effect. An SX4 with a weaker Three-wing could sink into the intensity of its own experience &ndash; deep, dark, inaccessible. The Three-wing gives it a stage: <em>What you feel can be shaped. And what is shaped can change the world.</em></p>
           <p class="vb-intro">In Freddie Mercury, the Three-wing is perceptible in every second of his stage presence. He did not perform &ndash; he reigned. The Live Aid concert of 1985, often cited as the greatest stage performance in rock history, shows this energy in its clearest expression: a person who knows what he is capable of and deploys that knowledge without hesitation. The SX4w3 does not separate the private from the public through coldness, but through transformation: the interior becomes art, art becomes connection.</p>
           <p class="vb-intro">The Three-wing also explains Freddie Mercury's extraordinary professionalism in the studio. He was not a chaotic artist &ndash; he was precise, persistent, demanding. The SX4w3 knows: feeling alone is not enough. It must take form. And this form must be so close to the truth that no room for compromise remains.</p>
         </blockquote>
@@ -25724,7 +25724,7 @@ function anaDeArmasPortraitPage() {
 
         <h2 class="vb-section">3. The Five-Wing: Depth over Glamour</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Sexual Four a characteristic imprint: the need to understand, to penetrate, to grasp the inner truth of a character &ndash; before stepping outward. The pure SX4 might be consumed by intensity &ndash; expressive, fiery, impulsive. The Five-wing draws her back into stillness: <em>Think first. Understand first. Only then speak.</em> In the SX4w5 this becomes preparation: she observes, studies, gathers &ndash; and then steps onto the stage with a precision that surprises.</p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Sexual Four a characteristic imprint: the need to understand, to penetrate, to grasp the inner truth of a character &ndash; before stepping outward. An SX4 with a more muted Five-wing might be consumed by intensity &ndash; expressive, fiery, impulsive. The Five-wing draws her back into stillness: <em>Think first. Understand first. Only then speak.</em> In the SX4w5 this becomes preparation: she observes, studies, gathers &ndash; and then steps onto the stage with a precision that surprises.</p>
           <p class="vb-intro">In Ana de Armas the Five-wing is unmistakable in her working method. She is known for her intensive preparation: for <em>Blonde</em> she spent over a year on the role, studying Marilyn Monroe archival material, training with dialect coaches. The SX4w5 is not satisfied with the surface &ndash; she wants to understand the structure beneath. What drives this character? What does she conceal? What has she never said?</p>
           <p class="vb-intro">The Five-wing also explains Ana de Armas's ability for stillness on screen &ndash; the moments in which she says nothing and yet communicates everything. The SX4w5 knows: sometimes the most powerful expression is no expression. It is what lies beneath &ndash; and the audience feels it, even if they cannot name it.</p>
         </blockquote>
@@ -26505,7 +26505,7 @@ function ankeEngelkePortraitPage() {
 
         <h2 class="vb-section">3. The Seven-Wing: Humour as Home</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing</strong> lends the Sexual Six a lightness it would lack without it. The pure Six tends toward heaviness: brooding, mistrust, the constant weighing of risks. The Seven-wing brightens that &ndash; it brings curiosity, playfulness, the ability to make connections that others do not notice.</p>
+          <p class="vb-intro">The <strong>Seven-wing</strong> lends the Sexual Six a lightness it would lack without it. A Six with a more muted Seven wing tends toward heaviness: brooding, mistrust, the constant weighing of risks. The Seven-wing brightens that &ndash; it brings curiosity, playfulness, the ability to make connections that others do not notice.</p>
           <p class="vb-intro">In Anke Engelke this is visible from the very start of her career. At 14 she presents the <em>ZDF Ferienprogramm</em> and the weekly children's sports show <em>Pfiff</em> &ndash; as a teenager bringing summer and sport closer to other children. This early ease on stage has a clear source: it is the Seven-wing that plays over the fear before it can take hold. From this beginning grows a career of constant change &ndash; television, radio, comedy, acting, voice-over, singing. No format too many, no direction too narrow. Her humour is rarely bitter &ndash; it is warm, absurd, at times childlike. That is the Seven-wing: turning fear into play, and doing so from the age of fourteen.</p>
         </blockquote>
 
@@ -26575,8 +26575,8 @@ function byronKatiePortraitPage() {
 
         <h2 class="vb-section">5. The Seven-Wing: Joy as Method</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing</strong> gives the sexual Six a lightness the pure SX6 would not have: humor, playfulness, an ability to touch even the heaviest subjects with a smile, without trivializing them. Byron Katie's public style is known for exactly this mixture &ndash; she laughs often, in the middle of the most intense conversations, not out of distance but out of a deep, almost childlike delight in what is happening.</p>
-          <p class="vb-intro">Her book <em>A Thousand Names for Joy</em> (2007) carries this quality in its very title. The SX6w7 does not just seek confrontation with fear &ndash; it seeks the joy that follows once the struggle against reality ends. That is the difference from the pure SX6: where the pure type might remain in confrontation, the Seven-wing carries it further, toward something lighter beyond it.</p>
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the sexual Six a lightness an SX6 with a weaker Seven-wing would not have: humor, playfulness, an ability to touch even the heaviest subjects with a smile, without trivializing them. Byron Katie's public style is known for exactly this mixture &ndash; she laughs often, in the middle of the most intense conversations, not out of distance but out of a deep, almost childlike delight in what is happening.</p>
+          <p class="vb-intro">Her book <em>A Thousand Names for Joy</em> (2007) carries this quality in its very title. The SX6w7 does not just seek confrontation with fear &ndash; it seeks the joy that follows once the struggle against reality ends. That is the difference from an SX6 with a more muted Seven-wing: where a weaker Seven-wing might remain in confrontation, a strongly developed Seven-wing carries it further, toward something lighter beyond it.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Light and Shadow</h2>
@@ -26628,7 +26628,7 @@ function katjaRiemannPortraitPage() {
 
         <h2 class="vb-section">3. The Seven-Wing: Versatility as Appetite</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing</strong> gives the sexual Six a quality the pure SX6 would not have: an appetite for the new, playfulness, the pleasure of venturing again and again into unfamiliar territory. Where the pure Six might feel safe in a proven role, the SX6w7 seeks out the next risk &ndash; not out of restlessness, but out of genuine curiosity.</p>
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the sexual Six a quality an SX6 with a weaker Seven wing would not have: an appetite for the new, playfulness, the pleasure of venturing again and again into unfamiliar territory. Where a more muted Seven wing might feel safe in a proven role, the SX6w7 seeks out the next risk &ndash; not out of restlessness, but out of genuine curiosity.</p>
           <p class="vb-intro">Riemann's filmography shows exactly this range: the screwball comedy <em>Der bewegte Mann</em> (1994), the musical drama <em>Bandits</em> (1997), in which she played drums and sang herself as part of a fictional all-female band, the serious historical drama <em>Nowhere in Africa</em> (2001, Academy Award for Best Foreign Language Film), and <em>Rosenstrasse</em> (2003), about German women protesting the deportation of their Jewish husbands. No genre in which she settled permanently. The Seven-wing keeps pushing her further.</p>
         </blockquote>
 
@@ -26687,7 +26687,7 @@ function jenniferAnistonPortraitPage() {
 
         <h2 class="vb-section">3. The Seven-Wing: Lightness as Craft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing</strong> gives the Sexual Six a playful side that the pure SX6 would not have: timing, self-irony, the ability to turn tension into comedy. Where the pure Six defends more grimly, the SX6w7 smiles while doing it &ndash; without the edge underneath disappearing.</p>
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the Sexual Six a playful side that an SX6 with a weaker Seven wing would not have: timing, self-irony, the ability to turn tension into comedy. Where a more muted Seven wing defends more grimly, the SX6w7 smiles while doing it &ndash; without the edge underneath disappearing.</p>
           <p class="vb-intro">Aniston's comic talent, above all as Rachel Green in <em>Friends</em> (1994&ndash;2004), lives exactly from this mixture: precise timing, physical comedy, a character allowed to be vulnerable without becoming ridiculous. The show made her one of the highest-paid television actresses of her era &ndash; and the famous <em>Rachel</em> haircut was copied worldwide. The Seven-wing also shows in how she has talked about her own fame: with self-distance, never entirely serious, always with a wink toward the absurdity of it.</p>
         </blockquote>
 
@@ -26753,7 +26753,7 @@ function scarlettJohanssonPortraitPage() {
 
         <h2 class="vb-section">3. The Seven-Wing: Versatility and Pace</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Sexual Six a lightness and versatility the pure Six would not develop on its own. The SX6w7 does not only fight &ndash; it also seeks variety, the next project, the next challenge, before the previous one is exhausted. <em>Standing still is more dangerous than moving.</em></p>
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Sexual Six a lightness and versatility a Six with a weaker Seven wing would not develop on its own. The SX6w7 does not only fight &ndash; it also seeks variety, the next project, the next challenge, before the previous one is exhausted. <em>Standing still is more dangerous than moving.</em></p>
           <p class="vb-intro">Johansson's filmography is a textbook example of this wing: arthouse cinema (<em>Lost in Translation</em>, <em>Under the Skin</em>), blockbuster action (<em>Black Widow</em>, <em>Lucy</em>), voice work (<em>Her</em>), serious drama (<em>Marriage Story</em>, which earned her two Oscar nominations in 2020), satire (<em>Jojo Rabbit</em>) &ndash; hardly a genre she has left untouched. Add to that her work as a producer and her foray into music with the album <em>Anywhere I Lay My Head</em> (2008). The Seven-wing turns the Six's vigilance into curiosity: someone who keeps moving forward gives fear no time to settle.</p>
         </blockquote>
 
@@ -26817,7 +26817,7 @@ function jasminPaoliniPortraitPage() {
 
         <h2 class="vb-section">3. The Six-Wing: Loyalty as Foundation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing</strong> gives the Self-Preservation Seven something it might lack without it: perseverance. The pure Seven leaps from experience to experience, shies away from heaviness, seeks the next departure. The Six-wing anchors it &ndash; bringing loyalty, a sense of responsibility, the willingness to keep fighting even when joy is hard to find.</p>
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the Self-Preservation Seven something it might lack without it: perseverance. A Seven with a more muted Six wing leaps from experience to experience, shies away from heaviness, seeks the next departure. The Six-wing anchors it &ndash; bringing loyalty, a sense of responsibility, the willingness to keep fighting even when joy is hard to find.</p>
           <p class="vb-intro">Paolini's career is not a straight path upward. For years she played in the middle ranks of the world ranking, working on every detail with her coach Renzo Furlan. No changes, no impatience &ndash; commitment. The Six-wing keeps her grounded when the Seven threatens to take off, and gives her the stamina for the long matches in which joy alone is not enough.</p>
         </blockquote>
 
@@ -26937,7 +26937,7 @@ function hansZimmerPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: Strength That Carries</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Self-Preservation Seven something not every Seven has access to: assertiveness. The pure Seven can lose itself in possibilities, can evade, can redirect when something becomes difficult. The Eight-wing holds firm &ndash; it brings decisiveness, directness, the willingness to endure conflict.</p>
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Self-Preservation Seven something not every Seven has access to: assertiveness. A Seven with a weaker Eight wing can lose itself in possibilities, can evade, can redirect when something becomes difficult. The Eight-wing holds firm &ndash; it brings decisiveness, directness, the willingness to endure conflict.</p>
           <p class="vb-intro">Zimmer's music is not delicate. It is massive, archaic, physical &ndash; sound that one feels before one understands it. The brass thunder in <em>Gladiator</em>, the heartbeat of <em>Inception</em>, the waves in <em>Dunkirk</em>. That is the Eight-wing: joy that is not afraid of volume, of weight, of the moment when music overwhelms someone.</p>
         </blockquote>
 
@@ -26995,7 +26995,7 @@ function francisBaconPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: Power and Assertion</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Self-Preservation Seven an assertiveness the pure Seven lacks. Based on decades of experience with this subtype, Naranjo called the Self-Preservation Seven <em>the hidden Eight</em> &ndash; a Seven that carries the Eight's decisiveness and directness within it, without displaying it openly. Where the Seven evades when resistance arises, the SP7w8 seeks confrontation &ndash; and the climb into positions from which it can actually shape things.</p>
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Self-Preservation Seven an assertiveness a Seven with a weaker Eight wing lacks. Based on decades of experience with this subtype, Naranjo called the Self-Preservation Seven <em>the hidden Eight</em> &ndash; a Seven that carries the Eight's decisiveness and directness within it, without displaying it openly. Where the Seven evades when resistance arises, the SP7w8 seeks confrontation &ndash; and the climb into positions from which it can actually shape things.</p>
           <p class="vb-intro">Bacon's political career shows this assertiveness in its purest form: member of the House of Commons, Solicitor General, Attorney General, Lord Keeper and finally, in 1618, Lord Chancellor of England under King James I &ndash; an unprecedented rise through legal precision, political calculation and persistent courting of favour. But the Eight-wing also has a painful side: in 1601, it was Bacon who, as Crown counsel, played a decisive role in prosecuting his former patron and friend, the Earl of Essex, for treason &ndash; a betrayal of a personal bond in favour of his own career that many contemporaries never forgave him. Power and loyalty were often in competition in Bacon, and power mostly won.</p>
         </blockquote>
 
@@ -27059,7 +27059,7 @@ function drewBarrymorePortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: Control Over One's Own Life</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Social Seven an assertiveness and directness the pure SO7 lacks. Where the SO7 alone might tend toward scattering, the Eight-wing turns this energy into active shaping &ndash; into the will to take one's own circumstances into one's own hands, rather than being at their mercy.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Social Seven an assertiveness and directness an SO7 with a weaker Eight-wing lacks. Where the SO7 alone might tend toward scattering, the Eight-wing turns this energy into active shaping &ndash; into the will to take one's own circumstances into one's own hands, rather than being at their mercy.</p>
           <p class="vb-intro">At just 14, after years of alcohol and drug use, two stints in rehab and a failed suicide attempt, Barrymore had herself legally emancipated from her parents &ndash; a radical step, unusual in this form for a minor. In 1995, at just 20, she founded her own production company, Flower Films, so that she would never again be dependent on other people's decisions about her career. Through this company she went on to produce, among other things, the successful <em>Charlie's Angels</em> series. The Eight-wing shows here not as aggression, but as determined self-empowerment: no one else would ever again decide her life for her.</p>
         </blockquote>
 
@@ -27123,7 +27123,7 @@ function hazelBruggerPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: Edge Behind the Laughter</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Social Seven a quality not every Seven has access to: striking power. The pure Seven can evade, minimise, dissolve the uncomfortable in humour before it really lands. The Eight-wing holds firm. It says: no, this is also allowed to hit. Humour does not always need to be cosy.</p>
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Social Seven a quality not every Seven has access to: striking power. A Seven with a weaker Eight wing can evade, minimise, dissolve the uncomfortable in humour before it really lands. The Eight-wing holds firm. It says: no, this is also allowed to hit. Humour does not always need to be cosy.</p>
           <p class="vb-intro">Hazel Brugger is not only funny &ndash; she is precise. Her punchlines have teeth. She dissects social self-evident truths with a directness that reveals the Eight-wing: no topic is too hot, no observation too uncomfortable to be spoken on stage. The Beaver with Eight-wing does not fell the tree hesitantly. It fells it exactly where it is needed &ndash; and is not surprised when the impact is felt.</p>
         </blockquote>
 
@@ -27181,7 +27181,7 @@ function mileyCyrusPortraitPage() {
 
         <h2 class="vb-section">3. The Six-Wing: Loyalty as the Common Thread</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Sexual Seven something that seems to contradict it at a glance: the need for bonding, for a reliable core to anchor every transformation to. Where the pure SX7 might simply drift, the SX7w6 looks for people and values it can stay loyal to &ndash; even in the middle of permanent change.</p>
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Sexual Seven something that seems to contradict it at a glance: the need for bonding, for a reliable core to anchor every transformation to. Where an SX7 with a more muted Six-wing might simply drift, the SX7w6 looks for people and values it can stay loyal to &ndash; even in the middle of permanent change.</p>
           <p class="vb-intro">In Miley Cyrus this shows in the close, lifelong bond with her family, especially with her godmother Dolly Parton, and in her outspoken, unwavering support for the LGBTQ+ community throughout the years &ndash; a loyalty that has never changed while almost everything else around her has. The Six-wing is the dam the Chimpanzee needs so that transformation does not become dissolution.</p>
         </blockquote>
 
@@ -27245,7 +27245,7 @@ function inaMuellerPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: Directness without Detours</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Sexual Seven something one senses in her immediately: fearlessness. The pure Seven evades when things become uncomfortable. The Eight-wing holds firm. It says what it thinks. It does not shy from confrontation &ndash; not from aggression but from the deep trust that truth connects more than politeness.</p>
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Sexual Seven something one senses in her immediately: fearlessness. A Seven with a weaker Eight wing evades when things become uncomfortable. The Eight-wing holds firm. It says what it thinks. It does not shy from confrontation &ndash; not from aggression but from the deep trust that truth connects more than politeness.</p>
           <p class="vb-intro">Ina Müller asks uncomfortable questions &ndash; and does so in a way that makes the guest feel not pressured but seen. That is the artistry of the Eight-wing in the Seven: directness that does not wound because it comes from genuine curiosity. The Chimpanzee with Eight-wing reaches for the other not to tear but to hold.</p>
         </blockquote>
 
@@ -27603,7 +27603,7 @@ function umbertEcoPortraitPage() {
 
         <h2 class="vb-section">3. The Seven-Wing: Wit as a Weapon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing</strong> lends the Self-Preservation Eight something the pure Eight sometimes lacks: lightness. The pure Eight can become heavy, demanding, uncompromising. The Seven-wing opens a window &ndash; it brings playfulness, irony, the willingness to use one's own knowledge not as a club but as an invitation.</p>
+          <p class="vb-intro">The <strong>Seven-wing</strong> lends the Self-Preservation Eight something an Eight with a weaker Seven wing sometimes lacks: lightness. Such an Eight can become heavy, demanding, uncompromising. A strongly developed Seven-wing opens a window &ndash; it brings playfulness, irony, the willingness to use one's own knowledge not as a club but as an invitation.</p>
           <p class="vb-intro">Eco was a brilliant humorist. His <em>The Name of the Rose</em> is a crime novel that is simultaneously a treatise on medieval semiotics &ndash; and yet captivated 50 million readers worldwide. His columns for <em>L'Espresso</em> were witty, sharp, never self-satisfied. He could write about popular culture as he wrote about Aristotle &ndash; with the same curiosity, the same pleasure. That is the Seven-wing: insight as enjoyment, not as duty.</p>
         </blockquote>
 
@@ -27837,7 +27837,7 @@ function karlMarxPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: The Patience of the Systematist</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing</strong> gives the Social Eight a quality the pure Eight often lacks: patience, endurance, and the ability to think through a vast, complex system over decades rather than act impulsively. The SO8w7 fights with fire and speed. The <strong>SO8w9</strong> fights with quiet, relentless persistence.</p>
+          <p class="vb-intro">The <strong>Nine-wing</strong> gives the Social Eight a quality an Eight with a weaker Nine wing often lacks: patience, endurance, and the ability to think through a vast, complex system over decades rather than act impulsively. The SO8w7 fights with fire and speed. The <strong>SO8w9</strong> fights with quiet, relentless persistence.</p>
           <p class="vb-intro">Marx worked on <em>Das Kapital</em> for over 30 years &ndash; the first volume appeared in 1867, while the later volumes remained unfinished at his death in 1883 and were completed from his notes by Friedrich Engels. This decades-long work of building a system, often overshadowed by illness, poverty, and family tragedy, is the signature of the Nine-wing: not the fast strike, but the slow, unstoppable digging of a foundation beneath an entire world system.</p>
         </blockquote>
 
@@ -28044,7 +28044,7 @@ function diogenesPortraitPage() {
 
         <h2 class="vb-section">3. The Seven-Wing: Wit as a Weapon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Sexual Eight a lightness that does not soften the seriousness of the Eight core, but sharpens it. Where the pure SX8 works through raw confrontation, the SX8w7 works through wit, irony and mockery &ndash; weapons that land deeper because they force laughter before the sting is even noticed.</p>
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Sexual Eight a lightness that does not soften the seriousness of the Eight core, but sharpens it. Where an SX8 with a weaker Seven-wing works through raw confrontation, the SX8w7 works through wit, irony and mockery &ndash; weapons that land deeper because they force laughter before the sting is even noticed.</p>
           <p class="vb-intro">When Alexander the Great, the most powerful man of the age, visited Diogenes and offered to grant him any wish, the philosopher replied only: “Get out of my sunlight.” Asked whether he was not afraid of thieves stealing from his meagre home, he laughed &ndash; he owned nothing worth stealing. The Seven-wing turns every confrontation into a punchline, every humiliation of the other into a laugh that is still remembered millennia later.</p>
         </blockquote>
 
@@ -28502,7 +28502,7 @@ function adamSmithPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-wing: Reconciliation Instead of Accusation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> softens the sharp edges of the pure One into a more conciliatory, more patient stance. Where a pure One accuses with a raised moral finger, the SO1w9 seeks balance &ndash; it wants to persuade, not punish. Smith&#39;s most famous image, the &bdquo;invisible hand,&ldquo; is exactly that: not a call to the battle of interests, but a trust that self-interest, properly framed by rules, will find its own way to a greater good.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong>, where strongly developed, softens the sharp edges of the One into a more conciliatory, more patient stance. Where a One with a weaker Nine wing accuses with a raised moral finger, the SO1w9 seeks balance &ndash; it wants to persuade, not punish. Smith&#39;s most famous image, the &bdquo;invisible hand,&ldquo; is exactly that: not a call to the battle of interests, but a trust that self-interest, properly framed by rules, will find its own way to a greater good.</p>
           <p class="vb-intro">His teaching style carried the same gentleness: Smith was so beloved as a professor in Glasgow that students, years after his resignation, still asked him to keep teaching. No thundering moralist, but a patient orderer of thought &ndash; the One with the Nine&#39;s calm at its back.</p>
         </blockquote>
 
@@ -28567,7 +28567,7 @@ function xanthippePortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: Decades of Patience, the Occasional Outburst</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> softens the sharpness of the pure One into an attitude that endures and accommodates over long stretches &ndash; until the accumulated tension discharges in a single, but then clearly visible, outburst. Exactly this pattern shows in the most famous anecdote about her, handed down only centuries later by Diogenes Laertius: after Xanthippe had loudly confronted Socrates, she is said to have poured a bucket of water over his head. Socrates reportedly remarked dryly: "After such thunder, rain had to follow."</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong>, where strongly developed, softens the sharpness of the One into an attitude that endures and accommodates over long stretches &ndash; until the accumulated tension discharges in a single, but then clearly visible, outburst. Exactly this pattern shows in the most famous anecdote about her, handed down only centuries later by Diogenes Laertius: after Xanthippe had loudly confronted Socrates, she is said to have poured a bucket of water over his head. Socrates reportedly remarked dryly: "After such thunder, rain had to follow."</p>
           <p class="vb-intro">This story is traditionally told as evidence of Xanthippe's supposed lack of self-control &ndash; but it can just as easily be read as an image of years of quietly endured strain that eventually had to break through. Social One with the Nine-wing holds on to order and duty for a long time before it erupts; the outburst itself is then not a character flaw but the release valve of a patience that has reached its limit.</p>
         </blockquote>
 
@@ -28691,7 +28691,7 @@ function abidaParveenPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: The Force in Surrender</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Self-Preservation Nine an intensity the pure Nine lacks: a physical, almost overwhelming force that breaks through once the moment is ripe. The <strong>SP9w8</strong> is no reserved Nine &ndash; when she opens herself, she can appear with a force no one would have expected.</p>
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Self-Preservation Nine an intensity a Nine with a weaker Eight wing lacks: a physical, almost overwhelming force that breaks through once the moment is ripe. The <strong>SP9w8</strong> is no reserved Nine &ndash; when she opens herself, she can appear with a force no one would have expected.</p>
           <p class="vb-intro">This is exactly what happens at Parveen's performances: what begins as a calm, meditative invocation builds unstoppably into an ecstatic, physically palpable intensity &ndash; her voice can swell from a whispered prayer into a piercing cry that sets entire concert halls in motion. The Eight-wing is the force that turns the Nine's surrender into a force of nature.</p>
         </blockquote>
 
@@ -28755,7 +28755,7 @@ function johannesBrahmsPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: The Blunt Edge Behind the Silence</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing</strong> gives the self-preservation Nine something the pure Nine often lacks: an edge that is not negotiable. Brahms was famous &ndash; and infamous &ndash; for his cutting wit. Leaving a gathering once, he is said to have remarked on his way out: "If there is anyone here I have not yet insulted, I apologize." This is not merely an anecdote about spite &ndash; it is the Eight-wing equipping the conflict-averse Nine with a cutting directness no one expects.</p>
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the self-preservation Nine something a Nine with a weaker Eight wing often lacks: an edge that is not negotiable. Brahms was famous &ndash; and infamous &ndash; for his cutting wit. Leaving a gathering once, he is said to have remarked on his way out: "If there is anyone here I have not yet insulted, I apologize." This is not merely an anecdote about spite &ndash; it is the Eight-wing equipping the conflict-averse Nine with a cutting directness no one expects.</p>
           <p class="vb-intro">This edge showed most clearly in the so-called "War of the Romantics": while Franz Liszt and Richard Wagner drove forward program music and radical harmonic innovation with the "New German School," Brahms &ndash; together with the critic Eduard Hanslick &ndash; positioned himself as an uncompromising defender of the classical forms of Bach and Beethoven. He never retreated from this dispute, nor did he actively seek it &ndash; but once he had taken a position, nothing could move him from it. That is the Nine with the Eight-wing: patient right up to the point where it no longer is.</p>
         </blockquote>
 
@@ -29005,7 +29005,7 @@ function marioBarthPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: Force Behind a Relaxed Presence</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Sexual Nine a force the pure SX9 lacks: assertiveness, directness, a certain entrepreneurial toughness. The <strong>SX9w8</strong> appears relaxed and easygoing &ndash; and is at the same time capable of fighting with full force for its own cause.</p>
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Sexual Nine a force an SX9 with a weaker Eight-wing lacks: assertiveness, directness, a certain entrepreneurial toughness. The <strong>SX9w8</strong> appears relaxed and easygoing &ndash; and is at the same time capable of fighting with full force for its own cause.</p>
           <p class="vb-intro">On 12 July 2008, Barth set a world record at Berlin's Olympic Stadium with 70,000 spectators for the largest live comedy show &ndash; in 2014 he outdid himself with 116,498 spectators within 24 hours. Scale like that doesn't come from mere easygoingness alone: it took the Eight-wing to turn a relaxed stage persona into a business with its own publishing arm, its own foundation, and multi-million-euro tours. The sloth hangs in the tree &ndash; but it's the tree of an entire forest it has conquered.</p>
         </blockquote>
 
@@ -29131,7 +29131,7 @@ function sophieMarceauPortraitPage() {
 
         <h2 class="vb-section">3. The One wing: The boundary drawn eventually</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">A pure Nine would probably keep merging indefinitely. In Marceau's case, the One wing brings something else: an inner standard that eventually becomes non-negotiable. In 2001 she ended the relationship with Zulawski after seventeen years – with a clear ultimatum over his drinking. No long discussion, no hesitant back-and-forth: the limit had been reached, and the consequence followed.</p>
+          <p class="vb-intro">A Nine with a more muted One wing would probably keep merging indefinitely. In Marceau's case, the strongly developed One wing brings something else: an inner standard that eventually becomes non-negotiable. In 2001 she ended the relationship with Zulawski after seventeen years – with a clear ultimatum over his drinking. No long discussion, no hesitant back-and-forth: the limit had been reached, and the consequence followed.</p>
           <p class="vb-intro">The same pattern had shown itself earlier, artistically: when her studio protested a prostitute role Zulawski proposed for her, the still very young Marceau held her ground and bought back the rights to her own image. The Nine lets herself be carried far – but the One wing knows exactly where her own integrity begins.</p>
         </blockquote>
 
@@ -29195,7 +29195,7 @@ function willyBrandtPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-wing: Backbone and Resolve</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Social Nine something the pure Nine often lacks: backbone. The will to assert. The ability to speak uncomfortable truths and not duck away from resistance. The <strong>SO9w8</strong> is no pushover: when she is convinced of something, she sees it through &ndash; calmly, firmly, with the force of the buffalo.</p>
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Social Nine something a Nine with a weaker Eight wing often lacks: backbone. The will to assert. The ability to speak uncomfortable truths and not duck away from resistance. The <strong>SO9w8</strong> is no pushover: when she is convinced of something, she sees it through &ndash; calmly, firmly, with the force of the buffalo.</p>
           <p class="vb-intro">Brandt's <em>Neue Ostpolitik</em> &ndash; the normalisation of relations with East Germany, Poland, and the Soviet Union &ndash; was not a popular step. A large part of the West German public rejected it. The CDU/CSU spoke of betrayal. The Eight-wing let him stand firm. He negotiated, he travelled, he signed &ndash; the Warsaw Treaty (1970), the Moscow Treaty (1970), the Basic Treaty with the GDR (1972). Not because it was easy, but because he considered it right and had the strength to remain faithful to these convictions.</p>
           <p class="vb-intro">In 1972 the SPD under Brandt won the Bundestag election with the highest vote share in its history to that point: 45.8 percent. The buffalo nature of the Eight-wing had proved itself: those who remain clear earn trust &ndash; even when they initially encounter resistance.</p>
         </blockquote>
@@ -29257,7 +29257,7 @@ function wilmaMankillerPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-wing: Fighting Strength for the Community</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Social Nine a quality the pure SO9 lacks: directness, assertiveness, and the willingness to confront resistance openly. The <strong>SO9w8</strong> merges with the community &ndash; and fights unflinchingly for it whenever necessary.</p>
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Social Nine a quality an SO9 with a more muted Eight-wing lacks: directness, assertiveness, and the willingness to confront resistance openly. The <strong>SO9w8</strong> merges with the community &ndash; and fights unflinchingly for it whenever necessary.</p>
           <p class="vb-intro">In 1983 Mankiller ran for Deputy Chief of the Cherokee Nation &ndash; against considerable resistance, including from within her own ranks, since a woman in this role was unthinkable to many at the time. She won, and in 1985, after the sitting chief's resignation, she assumed the nation's highest office. The Eight-wing gave her the resolve to withstand open hostility, anonymous threats, and deep-seated distrust &ndash; not out of vanity, but because she was convinced the cause demanded it.</p>
         </blockquote>
 
@@ -29503,7 +29503,7 @@ function jamesCordenPortraitPage() {
 
         <h2 class="vb-section">3. The Seven-wing: Enthusiasm as an Invitation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings the Social Six speed, lightness, and the ability to turn any situation into a celebration. Where the pure SO6 would mainly serve reliably, the Seven-wing adds a love of variety and show: the SO6w7 does not serve quietly in the background &ndash; it serves by sharing the stage with everyone while shining itself.</p>
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings the Social Six speed, lightness, and the ability to turn any situation into a celebration. Where an SO6 with a weaker Seven-wing would mainly serve reliably, the Seven-wing adds a love of variety and show: the SO6w7 does not serve quietly in the background &ndash; it serves by sharing the stage with everyone while shining itself.</p>
           <p class="vb-intro">Corden's energy is explosive, contagious, constantly in motion: he sings, dances, performs sketches, hosts the Grammys and the Tony Awards, produces shows, writes scripts. This range is the Seven-wing in its clearest expression &ndash; not the quiet depth of the Five-wing, but the breadth that constantly seeks new forms, new formats, new connections. ‹Carpool Karaoke› itself is the Seven-wing as a concept: an improvised, spontaneous, joyful format that turns a simple idea into an inexhaustible source of shared experience.</p>
           <p class="vb-intro">Where Herbert Grönemeyer (SO6w7) uses his Seven-wing to rise again after losses and keep going, Corden uses his to permanently create opportunities for connection. Both are meerkats with forward drive &ndash; only Corden's energy is directed less at his own healing than at the constant bringing-together of others.</p>
         </blockquote>
@@ -29703,7 +29703,7 @@ function andyReidPortraitPage() {
 
         <h2 class="vb-section">3. The Five-wing: The System in His Head</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> brings the Social Six analytical depth and the conviction that preparation is the best protection against fear. Where the pure SO6 seeks security through belonging, the Five-wing adds a second layer: understanding as the foundation of trust. One can only be reliably present for the group if one has penetrated the system down to its last detail.</p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> brings the Social Six analytical depth and the conviction that preparation is the best protection against fear. Where an SO6 with a more muted Five-wing seeks security through belonging, the Five-wing adds a second layer: understanding as the foundation of trust. One can only be reliably present for the group if one has penetrated the system down to its last detail.</p>
           <p class="vb-intro">Reid is considered one of the greatest offensive strategists in NFL history. His playbook counts among the most extensive in the league, fed by decades of studying the ‹West Coast Offense› and countless developments of his own. Assistant coaches report sessions that run deep into the night, handwritten notes on every opposing defensive scheme, a memory for plays that is legendary. That is the Five-wing: not letting gut feeling decide, but building knowledge so deep that the decision sits securely in the decisive moment.</p>
           <p class="vb-intro">Reid's halftime adjustments are considered one of his trademarks &ndash; teams under his leadership notably perform better after the break than before it. That is not inspiration, that is analysis under time pressure: fifteen minutes in which the Five-wing recalibrates the entire system.</p>
         </blockquote>
@@ -30289,7 +30289,7 @@ function tildaSwintonPortraitPage() {
 
         <h2 class="vb-section">3. The Four-wing: Art as Transformation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Four-wing (w4) brings the sexual Five a need for the unique, the unmistakable, for what lies beyond convention. The pure SX5 might tend her few connections and otherwise withdraw. The Four-wing adds: I don't just want to observe – I want to find the form that expresses exactly what no one else sees.</p>
+          <p class="vb-intro">The Four-wing (w4) brings the sexual Five a need for the unique, the unmistakable, for what lies beyond convention. An SX5 with a weaker Four-wing might tend her few connections and otherwise withdraw. The Four-wing adds: I don't just want to observe – I want to find the form that expresses exactly what no one else sees.</p>
           <p class="vb-intro">Swinton's choice of roles follows this principle consistently: she played in Orlando (1992) a character who lives for over four hundred years and changes sex midway through the film – a work that emerged long before the broader societal debate on gender identity. She played in Michael Clayton (2007) a ruthless corporate lawyer, for which she received the Academy Award for Best Supporting Actress. She played in We Need to Talk About Kevin (2011) a mother confronted with her son's cruelty – one of the most unsettling studies of maternal ambivalence in modern cinema. Each of these roles is its own self-contained universe. The Four-wing demands: no repetition, no brand, no comfortable image.</p>
           <p class="vb-intro">This search for the unique also shows outside of film: Swinton was a muse for fashion designers such as Haider Ackermann, curated exhibitions, once lay eight hours a day as a living artwork inside a glass vitrine at the Museum of Modern Art in New York (The Maybe, 1995 and again 2013). That is the SX5w4 in its most radical form: making one's own body, one's own presence itself into art – while remaining completely untouchable.</p>
         </blockquote>
@@ -30608,7 +30608,7 @@ function dieterBohlenPortraitPage() {
 
         <h2 class="vb-section">3. The Four-wing: The Wound Beneath the Gloss</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four-wing (w4)</strong> brings the sexual Three something one does not initially expect: depth. The pure SX3 could be absorbed in seduction &ndash; always gleaming, always convincing, always in pursuit of the next moment of connection. The Four-wing poses a different question beneath it: <em>But who am I really? What remains when the gloss fades?</em></p>
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> brings the sexual Three something one does not initially expect: depth. An SX3 with a more muted Four-wing could be absorbed in seduction &ndash; always gleaming, always convincing, always in pursuit of the next moment of connection. The Four-wing poses a different question beneath it: <em>But who am I really? What remains when the gloss fades?</em></p>
           <p class="vb-intro">In Dieter Bohlen the Four-wing shows in his autobiography and in the moments when he speaks about his origins &ndash; about the modest circumstances in Oldenburg, about the early hunger for more. The SX3w4 knows that beneath the peacock&apos;s fan lies something that does not gleam. And sometimes it breaks through: in the pointedness that goes too far, in the willingness to wound oneself publicly, in the need not only to be successful but also <em>significant</em>.</p>
           <p class="vb-intro">The Four-wing also explains the continuity in Bohlen&apos;s output: he did not stop when success was secured. He kept going &ndash; new projects, new controversies, new books. This is not only vanity. This is the Four asking: <em>Is this enough? Am I truly seen &ndash; not just as a producer but as a person?</em></p>
         </blockquote>
@@ -30670,7 +30670,7 @@ function bradPittPortraitPage() {
 
         <h2 class="vb-section">3. The Two-Wing: Champion, Not Just Star</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Sexual Three a dimension beyond pure magnetism: a genuine need to advocate for others, to give them a stage rather than claiming all of it for oneself. The pure SX3 could get absorbed in its own effect. The Two-wing opens the gaze outward.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Sexual Three a dimension beyond pure magnetism: a genuine need to advocate for others, to give them a stage rather than claiming all of it for oneself. An SX3 with a weaker Two-wing could get absorbed in its own effect. The Two-wing opens the gaze outward.</p>
           <p class="vb-intro">In Pitt this shows most clearly in his second career as a producer. With his company Plan B Entertainment, he stood behind films such as <em>12 Years a Slave</em> and <em>Moonlight</em> &ndash; both winners of the Academy Award for Best Picture &ndash; works that gave a platform to Black filmmakers and stories that major studios would otherwise rarely have championed. This is no side project of a bored star, but the characteristic Two movement: using one's own visibility to create room for others.</p>
           <p class="vb-intro">His engagement after Hurricane Katrina falls into this same pattern: in 2007 he founded the <em>Make It Right Foundation</em>, which built affordable, environmentally friendly homes in New Orleans for families who had lost their homes in the flood. The Peacock that uses its visibility to build something for others.</p>
         </blockquote>
@@ -30738,7 +30738,7 @@ function kaiPflaumePortraitPage() {
 
         <h2 class="vb-section">3. The Two-wing: Warmth as Second Nature</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> adds something decisive to the Three energy: genuine care. While the pure Three scores with charisma and performance, the SX3w2 gains a second force &ndash; sincere interest in others, the joy of doing something good for someone. The Two gives, not in order to expect something in return, but because giving is its nature.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> adds something decisive to the Three energy: genuine care. While a Three with a weaker Two wing scores with charisma and performance, the SX3w2 gains a second force &ndash; sincere interest in others, the joy of doing something good for someone. The Two gives, not in order to expect something in return, but because giving is its nature.</p>
           <p class="vb-intro">In Kai Pflaume this shows in the way he treats contestants &ndash; patient, encouraging, never at others&apos; expense. In &bdquo;Klein gegen Groß&ldquo; children stand alongside world champions. Pflaume moderates this encounter so that the person always stands at the center, not the ratings. This is not a concept, it is character.</p>
           <p class="vb-intro">The SX3w2 does not only radiate &ndash; he also warms. He does not only attract &ndash; he also cares. This difference explains why Pflaume has won trust over decades that burns out quickly with other presenters.</p>
         </blockquote>
@@ -30799,7 +30799,7 @@ function angelinaJoliePortraitPage() {
 
         <h2 class="vb-section">3. The Two-wing: Heart Behind the Stance</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> adds something essential to the social One: direct, personal compassion. The pure One can seem cold in its straightforwardness &ndash; relentless, demanding, hard to reach. The Two-wing opens this energy: it turns the system critic into someone who also extends a hand.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> adds something essential to the social One: direct, personal compassion. A One with a weaker Two wing can seem cold in its straightforwardness &ndash; relentless, demanding, hard to reach. A strongly developed Two-wing opens this energy: it turns the system critic into someone who also extends a hand.</p>
           <p class="vb-intro">In Angelina Jolie this shows in an unusual combination: she can address the UN and at the same time hold a traumatized child in Cambodia. She can cite legislation and at the same time weep. The SO1w2 combines the sharpness of the One with the warmth of the Two &ndash; stance with heart. That is no contradiction. That is strength.</p>
           <p class="vb-intro">Her six children &ndash; three biological, three adopted &ndash; are not a publicity project. They are the expression of an SO1w2 conviction: if the world is unjust, the answer begins at home. In the small, the direct, the personal.</p>
         </blockquote>
@@ -31046,8 +31046,8 @@ function friedrichMerzPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-wing: Calm Within, Clarity Without</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> changes the social One in a subtle but decisive way. The pure SO1 can seem heated, accusatory, moralizing &ndash; the anger lies close to the surface. The Nine-wing cools this energy. It brings a certain equanimity, an ability for calm that makes the One&#39;s message more stable and less vulnerable to attack.</p>
-          <p class="vb-intro">The Nine-wing also adds a quality frequently observed in Merz: the ability to wait for a long time. The Nine is patient &ndash; almost too patient sometimes. Merz waited years for his political moment, worked in the background after the Merkel era, refused to bend. That is not the energy of a pure One fighter. That is the patient persistence of the SO1w9.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> changes the social One in a subtle but decisive way. An SO1 with a weaker Nine-wing can seem heated, accusatory, moralizing &ndash; the anger lies close to the surface. The Nine-wing cools this energy. It brings a certain equanimity, an ability for calm that makes the One&#39;s message more stable and less vulnerable to attack.</p>
+          <p class="vb-intro">The Nine-wing also adds a quality frequently observed in Merz: the ability to wait for a long time. The Nine is patient &ndash; almost too patient sometimes. Merz waited years for his political moment, worked in the background after the Merkel era, refused to bend. That is not the energy of a One with a weaker Nine wing. That is the patient persistence of the SO1w9.</p>
           <p class="vb-intro">At the same time the Nine-wing can bring the shadows of the Nine: stubbornness, shielding against differing perspectives, a tendency to suppress inner resistance &ndash; until it suddenly discharges. Those who know Friedrich Merz recognize this too.</p>
         </blockquote>
 
@@ -31108,7 +31108,7 @@ function leonardoDiCaprioPortraitPage() {
 
         <h2 class="vb-section">3. The Two-wing: Warmth Behind the Fire</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> changes the sexual One in a decisive way. The pure SX1 can seem consuming &ndash; heated, demanding, hard to reach in its intensity. The Two-wing brings a natural warmth into play: genuine interest in others, joy in giving, the ability to invite others into one&#39;s world instead of keeping them at a distance.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> changes the sexual One in a decisive way. An SX1 with a more muted Two-wing can seem consuming &ndash; heated, demanding, hard to reach in its intensity. The Two-wing brings a natural warmth into play: genuine interest in others, joy in giving, the ability to invite others into one&#39;s world instead of keeping them at a distance.</p>
           <p class="vb-intro">In DiCaprio the Two-wing shows in the way he works with directors and colleagues. His long collaboration with Martin Scorsese &ndash; five films, a genuine creative friendship &ndash; is not a strategic alliance. It is affection. The SX1w2 builds deep, loyal bonds with the people it trusts. And it defends these bonds with the same intensity with which it pursues everything else.</p>
           <p class="vb-intro">The Two-wing also comes through in his relationships within the environmental movement: DiCaprio does not only speak &ndash; he connects. He brings together scientists, activists, and politicians. The SX1w2 does not just want to be right. It wants the right people to find each other.</p>
         </blockquote>
@@ -31169,7 +31169,7 @@ function gretaThunbergPortraitPage() {
 
         <h2 class="vb-section">3. The One-wing: Moral Clarity as Backbone</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> brings the self-preservation Two something essential: an inner code that carries independently of others&#39; reactions. The pure Two seeks confirmation, affection, recognition &ndash; the One-wing makes it more independent of these. It says: <em>There is a right and a wrong. And I know which side I am on.</em></p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> brings the self-preservation Two something essential: an inner code that carries independently of others&#39; reactions. A Two with a weaker One wing seeks confirmation, affection, recognition &ndash; a strongly developed One-wing makes it more independent of these. It says: <em>There is a right and a wrong. And I know which side I am on.</em></p>
           <p class="vb-intro">In Greta Thunberg this wing cannot be overlooked. She has said to heads of state and government, to their faces, what they are doing wrong. She opened the UN summit with <em>How dare you!</em> &ndash; an indictment that knew no diplomatic formulation, because the SP2w1 needs no diplomatic formulation when the principle is clear. The One-wing gives the Two permission to be uncomfortable.</p>
           <p class="vb-intro">This also shows in her political development: Thunberg has become clearer and more radical over the years &ndash; not because she has changed, but because the One-wing has come to bear more strongly with time. The Two wants to be loved. The One has no interest in being loved for something that is wrong.</p>
         </blockquote>
@@ -31544,7 +31544,7 @@ function barackObamaPortraitPage() {
 
         <h2 class="vb-section">3. The One-wing: Stance as Inner Duty</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> changes the social Two in a decisive way. The pure SO2 can lose itself in the whirlpool of others&#39; expectations &ndash; always there for everyone, always ready, always agreeable. The One-wing brings an inner axis: the awareness of right and wrong, the willingness to take a stand even when it is uncomfortable.</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> changes the social Two in a decisive way. An SO2 with a weaker One-wing can lose itself in the whirlpool of others&#39; expectations &ndash; always there for everyone, always ready, always agreeable. The One-wing brings an inner axis: the awareness of right and wrong, the willingness to take a stand even when it is uncomfortable.</p>
           <p class="vb-intro">In Barack Obama this shows in his ability to maintain moral clarity without descending into moralizing. He names injustice &ndash; calmly, precisely, without losing connection to his counterpart. That is the SO2w1 combination in its strongest form: the warmth of the Two with the inner straightforwardness of the One. He says the uncomfortable &ndash; but says it so that the other person still feels invited.</p>
           <p class="vb-intro">The One-wing also explains his discipline: the precise speeches, the careful choice of words, the persistence in detail. The One does not let go when the principle is at stake. Obama&#39;s sentence <em>We are the ones we have been waiting for</em> carries both energies: the Two that connects, and the One that insists on what is right.</p>
         </blockquote>
@@ -31675,7 +31675,7 @@ function marisaAbelaPortraitPage() {
 
         <h2 class="vb-section">3. The One-wing: Discipline as an Expression of Respect</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis the pure Two does not have on its own: the wish to do it right, not merely to be agreeable. Where the pure SO2 might lose itself in approval, the One demands care, preparation, seriousness toward the task itself.</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis a Two with a weaker One wing does not have on its own: the wish to do it right, not merely to be agreeable. Where a more muted One wing might lose itself in approval, the One demands care, preparation, seriousness toward the task itself.</p>
           <p class="vb-intro">In Marisa Abela this wing shows in her remarkable work discipline: months of training for the Winehouse role, meticulous preparation of technical jargon for <em>Industry</em>, the standard of not merely playing a role but doing it justice. That is not vanity, it is the conviction that one owes something to the people one portrays and to the audience watching.</p>
           <p class="vb-intro">Even in the controversy over her casting as Amy Winehouse, criticism that the resemblance was not close enough, Abela responded not with withdrawal or defiance, but with a calm, factual defense of her work. That is the SO2w1: the warmth of the Two combined with the inner straightforwardness of the One, who knows what she has accomplished.</p>
         </blockquote>
@@ -31742,7 +31742,7 @@ function ninaChubaPortraitPage() {
 
         <h2 class="vb-section">3. The Three-wing: Radiance with Substance</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the social Two something decisive: the drive toward effectiveness, visible performance, the success that amplifies the good. The pure SO2 could lose itself in giving &ndash; always there for others, always reachable, without asking where that leads. The Three-wing sets goals. It says: <em>If you really want to move something, you must also arrive. You must also shine.</em></p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the social Two something decisive: the drive toward effectiveness, visible performance, the success that amplifies the good. An SO2 with a more muted Three-wing could lose itself in giving &ndash; always there for others, always reachable, without asking where that leads. The Three-wing sets goals. It says: <em>If you really want to move something, you must also arrive. You must also shine.</em></p>
           <p class="vb-intro">In Nina Chuba this wing is perceptible in her stage presence and her professionalism. She is not only warm-hearted &ndash; she is effective. The songs are produced, the appearances precise, the brand coherent. That is no contradiction to the authenticity of the Two. That is the Three-wing ensuring the warmth actually arrives &ndash; and does not disappear in the noise.</p>
           <p class="vb-intro">The SO2w3 carries within it the rare combination of genuine empathy and strategic clarity. It wants to connect &ndash; and it knows how to shape that so it truly holds. That is not calculation. That is the natural synergy of these two energies.</p>
         </blockquote>
@@ -31864,7 +31864,7 @@ function kamalaHarrisPortraitPage() {
 
         <h2 class="vb-section">3. The Three-wing: Effectiveness as Proof</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two something decisive: the drive toward visible achievement, measurable success, proof that one's own work is effective. The pure SO2 could lose itself in service to others. The Three-wing sets goals, demands results, wants to arrive rather than merely be on the way.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two something decisive: the drive toward visible achievement, measurable success, proof that one's own work is effective. An SO2 with a weaker Three-wing could lose itself in service to others. The Three-wing sets goals, demands results, wants to arrive rather than merely be on the way.</p>
           <p class="vb-intro">In Kamala Harris this shows in a series of historic firsts: first woman, first Black person, and first person of South Asian descent as Attorney General of California, as a US Senator from California in that combination, as Vice President of the United States. The Three-wing does not settle for second place, it asks: how much further can this go? Who else can benefit from it?</p>
           <p class="vb-intro">This wing also has its price. Critics accused Harris during her time as a prosecutor of relying too heavily on tough statistics, conviction rates, harshness on parole violations, issues she later reflected on critically herself. The Three-wing of the SO2 can mistake success for effectiveness, even in places where care would have called for more leniency.</p>
         </blockquote>
@@ -31932,7 +31932,7 @@ function matthiasSchweighoeferPortraitPage() {
 
         <h2 class="vb-section">3. The One-wing: Stance Behind the Warmth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> brings the sexual Two an important inner axis: the awareness of quality, of what is right, of responsibility. The pure SX2 could lose itself in the intensity of contact &ndash; always in search of the next moment of connection, without a stable inner compass. The One-wing gives it substance. It says: <em>It is not enough to be loved. What matters too is how.</em></p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> brings the sexual Two an important inner axis: the awareness of quality, of what is right, of responsibility. An SX2 with a weaker One-wing could lose itself in the intensity of contact &ndash; always in search of the next moment of connection, without a stable inner compass. The One-wing gives it substance. It says: <em>It is not enough to be loved. What matters too is how.</em></p>
           <p class="vb-intro">In Matthias Schweigh&ouml;fer the One-wing shows in his demand of himself. He is not only a performer, but a director, producer, entrepreneur &ndash; and takes these roles seriously. The quality of his work matters to him, not just the result. He has spoken publicly several times about exhaustion and the limits of his resilience &ndash; that too is One energy: the duty to do well what one does, even when it costs.</p>
           <p class="vb-intro">The One-wing turns the SX2 into someone who not only connects, but also takes responsibility. Schweigh&ouml;fer is a person in German cinema whom many trust &ndash; colleagues, crew, audiences. That trust doesn't come out of nowhere. It is the One-wing that ensures reliability follows the warmth.</p>
         </blockquote>
@@ -31994,7 +31994,7 @@ function milowPortraitPage() {
 
         <h2 class="vb-section">3. The One-wing: Care as an Expression of Love</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Two an inner axis the pure Two does not have on its own: the awareness of quality, of what is right, of responsibility toward what one does. The pure SX2 could lose itself in the intensity of connection. The One-wing says: <em>It is not enough to want closeness. What matters is how carefully you handle it.</em></p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Two an inner axis a Two with a weaker One wing does not have on its own: the awareness of quality, of what is right, of responsibility toward what one does. An SX2 with a more muted One wing could lose itself in the intensity of connection. The One-wing says: <em>It is not enough to want closeness. What matters is how carefully you handle it.</em></p>
           <p class="vb-intro">In Milow this wing shows in his musical precision: the reduced, carefully arranged productions, years of refining songs before releasing them, the standard of meaning every line of a lyric honestly rather than letting it merely sound pleasant. He has repeatedly said that a song's authenticity matters more to him than its commercial potential, a typical One stance within the SX2: better truthful than convenient.</p>
           <p class="vb-intro">His reserved, undramatic relationship to fame belongs here too. Despite international success, Milow remained grounded, almost introverted in his public manner, no pop-star posturing, but the quiet discipline of a musician who wants to stay true to his work regardless of the noise around it.</p>
         </blockquote>
@@ -32061,7 +32061,7 @@ function cristianoRonaldoPortraitPage() {
 
         <h2 class="vb-section">3. The Two-wing: The Star Who Is Also a Brother</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings the social Three a decisive human dimension: the genuine impulse toward connection, toward care, toward loyalty. The pure SO3 could seem cold &ndash; a success machine that subordinates everything to the result. The Two-wing warms this image from within: here is someone for whom others genuinely matter.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings the social Three a decisive human dimension: the genuine impulse toward connection, toward care, toward loyalty. An SO3 with a more muted Two-wing could seem cold &ndash; a success machine that subordinates everything to the result. The Two-wing warms this image from within: here is someone for whom others genuinely matter.</p>
           <p class="vb-intro">Ronaldo&#39;s relationship with his family is the clearest sign of this. He lifted his mother out of poverty, openly integrated his son Cristiano Jr. into his life, speaks regularly in interviews about his origins from Madeira, about the difficult years of childhood, about the father who died young. The SO3 alone might use these stories strategically. The Two-wing makes them real: these are not PR moments &ndash; this is a human being who knows where he comes from and does not forget those who loved him.</p>
           <p class="vb-intro">The Two-wing also explains Ronaldo&#39;s relationship with his teams. He is not a lone wolf &ndash; he wants everyone to win together. He celebrates with his teammates, wears jerseys with their names, praises publicly. The cheetah&#39;s speed remains &ndash; but the Two-wing ensures the finish line is celebrated together.</p>
         </blockquote>
@@ -32123,7 +32123,7 @@ function pharrellWilliamsPortraitPage() {
 
         <h2 class="vb-section">3. The Two-wing: Success as a Team Sport</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the social Three a collaborative warmth that goes beyond pure self-staging. Where the pure SO3 might put its own name at the center, the SO3w2 seeks success together with others &ndash; and feels affirmed through advancing other people&#39;s careers.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the social Three a collaborative warmth that goes beyond pure self-staging. Where an SO3 with a weaker Two-wing might put its own name at the center, the SO3w2 seeks success together with others &ndash; and feels affirmed through advancing other people&#39;s careers.</p>
           <p class="vb-intro">Pharrell&#39;s entire career is hardly conceivable without this Two-wing: The Neptunes were never a solo project, but a partnership with Chad Hugo grown over more than twenty years. As a producer he has shaped or outright enabled countless careers &ndash; from early beats for Kelis and Snoop Dogg to the rediscovery of Daft Punk with &bdquo;Get Lucky.&ldquo; He rarely appears as the sole star, but always as someone who brings others into the spotlight with him.</p>
           <p class="vb-intro">His social engagement carries the same signature: with the foundation &bdquo;From One Hand to AnOTHER&ldquo; and the Yellow school in his hometown of Virginia Beach, he invests specifically in disadvantaged children &ndash; education, art, self-worth. The SO3w2 does not only want to be admired. It wants others to genuinely grow through its own platform.</p>
         </blockquote>
@@ -32842,7 +32842,7 @@ function penelopeCruzPortraitPage() {
 
         <h2 class="vb-section">3. The Two-wing: Loyalty and Warmth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the self-preservation Three a warmth that the pure SP3 rarely shows this clearly. Where the pure Three could exhaust itself in functionality, the Two-wing brings the desire for genuine connection, for belonging to people one trusts &ndash; and the willingness to stand up for them.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the self-preservation Three a warmth that an SP3 with a weaker Two wing rarely shows this clearly. Where a more muted Two wing could exhaust itself in functionality, the Two-wing brings the desire for genuine connection, for belonging to people one trusts &ndash; and the willingness to stand up for them.</p>
           <p class="vb-intro">This loyalty shows most clearly in Cruz&#39;s collaboration with Pedro Almodóvar: across six feature films, beginning with a supporting role in <em>Tie Me Up! Tie Me Down!</em> in 1990 through to <em>Parallel Mothers</em>, for which she received her second Oscar nomination, she has repeatedly entrusted herself to the same director &ndash; not out of calculation, but out of an almost familial bond grown over decades. Almodóvar himself describes her as someone who gives herself completely once trust exists.</p>
           <p class="vb-intro">Her humanitarian engagement carries the same signature: longstanding support for UNHCR, for education projects in India and Uganda, for aid programmes in crisis regions &ndash; mostly without much media staging. The SP3w2 does not only want to function. It wants the people it stands up for to actually benefit.</p>
         </blockquote>
@@ -32975,7 +32975,7 @@ function bracoPortraitPage() {
 
         <h2 class="vb-section">3. The Three-wing: Radiance as Gift</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the sexual Two a second dimension: the awareness of effectiveness, of the power of one&#39;s own radiance, of what the other sees in one. The pure SX2 could exhaust itself in the intensity of contact &ndash; always giving, always present, always for the other. The Three-wing brings a quality of self-presentation &ndash; not in the egotistical sense, but as the knowledge: <em>How I appear is part of what I give.</em></p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the sexual Two a second dimension: the awareness of effectiveness, of the power of one&#39;s own radiance, of what the other sees in one. An SX2 with a more muted Three-wing could exhaust itself in the intensity of contact &ndash; always giving, always present, always for the other. The Three-wing brings a quality of self-presentation &ndash; not in the egotistical sense, but as the knowledge: <em>How I appear is part of what I give.</em></p>
           <p class="vb-intro">In Braco the Three-wing shows in the care with which his events are shaped. The silence, the atmosphere, the music, the way he enters the room &ndash; none of that is accidental. It is the SX2w3 in action: the connection is staged so that it can have the greatest effect. That is no contradiction to authenticity. It is the Three-wing that ensures the authentic also arrives.</p>
           <p class="vb-intro">The Three-wing also explains Braco&#39;s worldwide reach. Dozens of countries, millions of people who have experienced his videos or live sessions. The SX2 alone might be deeper &ndash; but less far-reaching. The Three-wing widens the circle.</p>
         </blockquote>
@@ -33813,7 +33813,7 @@ function ronnieBiggsPortraitPage() {
         most wants to experience herself as a legend, an event, an
         experience that others are eager to share.</p>
         <p class="vb-intro"><strong>c) The Eight wing: defiance instead of remorse:</strong>
-        Unlike a pure Seven, who tends to sidestep confrontation, Biggs met
+        Unlike a Seven with a more muted Eight wing, who tends to sidestep confrontation, Biggs met
         authorities, judges, and reporters with an almost gleeful
         unyieldingness. He rarely apologized, instead negotiating his terms
         publicly – a directness typical of the Eight wing: power is not
@@ -38562,7 +38562,7 @@ function nickLeesonPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing as a Motor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Eight-wing adds an extra layer to the Social Nine: assertiveness, stubbornness, and the ability to keep going under pressure. Where a pure SO9 might have given up earlier, the Eight-wing gave Leeson the energy to keep pushing the game further. He was not aggressive in a confrontational sense—but he didn't give up. He doubled down. He tripled down. He pressed on when a position ran against him, because surrendering was not an option.</p>
+          <p class="vb-intro">The Eight-wing adds an extra layer to the Social Nine: assertiveness, stubbornness, and the ability to keep going under pressure. Where an SO9 with a weaker Eight-wing might have given up earlier, the Eight-wing gave Leeson the energy to keep pushing the game further. He was not aggressive in a confrontational sense—but he didn't give up. He doubled down. He tripled down. He pressed on when a position ran against him, because surrendering was not an option.</p>
           <p class="vb-intro">Account 88888 did not grow because Leeson was greedy. It grew because the Eight-wing gave him the stamina to keep going—and the SO9 provided the motivation: don't let the system down. A fatally coherent combination.</p>
         </blockquote>
 
@@ -40366,7 +40366,7 @@ function charlesMansonPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The Seven-Wing: Charisma, Vision, Immoderation</h3>
-        <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Six something it would not possess on its own: a spirit of adventure, seductiveness, and enthusiasm. Where a pure Six controls and secures, the Seven-wing turns the Six into a magnet. Manson sang, played guitar, wrote songs, and associated with musicians like Dennis Wilson of The Beach Boys. He genuinely believed he was going to become a rock star.</p>
+        <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Six something it would not possess on its own: a spirit of adventure, seductiveness, and enthusiasm. Where a Six with a weaker Seven wing controls and secures, a strongly developed Seven-wing turns the Six into a magnet. Manson sang, played guitar, wrote songs, and associated with musicians like Dennis Wilson of The Beach Boys. He genuinely believed he was going to become a rock star.</p>
         <p class="vb-intro">When this vision collapsed — his record deal with Terry Melcher failed to materialize — the Seven-wing flipped into something destructive. The <em>immoderation</em> of the Seven combined with the <em>fear</em> of the Six: rage, grandiosity, and paranoia merged into an ideological spiral. Manson developed his "Helter Skelter" narrative: an impending race war that his Family would survive and ultimately rule over. The murders were intended to trigger this war.</p>
       </div>
 
@@ -40453,7 +40453,7 @@ function andreasBaaderPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Eight-Wing: From Provocation to Violence</h3>
-        <p class="vb-intro">The <strong>Eight-wing</strong> gives the self-preservation Seven something that sets it apart from other Sevens: the willingness not to avoid confrontation but to seek it out, the moment its own freedom is called into question. Where a pure Seven would sidestep, the SP7w8 holds its ground &ndash; and, if it comes to that, can turn to violence itself.</p>
+        <p class="vb-intro">The <strong>Eight-wing</strong> gives the self-preservation Seven something that sets it apart from other Sevens: the willingness not to avoid confrontation but to seek it out, the moment its own freedom is called into question. Where a Seven with a weaker Eight wing would sidestep, the SP7w8 holds its ground &ndash; and, if it comes to that, can turn to violence itself.</p>
         <p class="vb-intro">In April 1968, Baader, Ensslin, Thorwald Proll, and Horst S\xf6hnlein set fire to two department stores in Frankfurt &ndash; a protest against the Vietnam War and consumer society. In 1970, while in pre-trial detention, Baader was taken under guard to a library in West Berlin &ndash; officially to research, together with journalist Ulrike Meinhof, a planned book about the situation of at-risk juvenile offenders. There, he was violently freed in an armed operation co-organized by Ulrike Meinhof &ndash; a library employee was shot in the process. This event is generally regarded as the founding moment of the RAF. From then on, the group escalated steadily: bank robberies to fund life underground, bombings, armed resistance against any attempt at arrest. The Eight-wing no longer tolerated retreat.</p>
       </div>
 
@@ -40534,7 +40534,7 @@ function ulrikeMeinhofPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The One-Wing: Moral Certainty</h3>
-        <p class="vb-intro">The <strong>One-wing</strong> gives the self-preservation Two something that makes its care unassailable: the conviction of being morally in the right. Where a pure Two seeks affection, the SP2w1 demands justice &ndash; and grows increasingly intolerant of anything that looks like compromise or half-measures.</p>
+        <p class="vb-intro">The <strong>One-wing</strong> gives the self-preservation Two something that makes its care unassailable: the conviction of being morally in the right. Where a Two with a weaker One wing seeks affection, the SP2w1 demands justice &ndash; and grows increasingly intolerant of anything that looks like compromise or half-measures.</p>
         <p class="vb-intro">In 1968, Meinhof separated from R\xf6hl and moved to Berlin with her daughters. During this period, her political thinking radicalized steadily: the student movement, the Vietnam War, the emergency laws &ndash; for Meinhof, journalistic criticism increasingly felt inadequate in the face of what she perceived as the structural violence of the state. The One-wing supplied the moral justification for a step the Two's care alone would never have taken on its own: from the pen to the weapon.</p>
       </div>
 
@@ -40615,8 +40615,8 @@ function gudrunEnsslinPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Eight-Wing: Iron Discipline</h3>
-        <p class="vb-intro">The <strong>Eight-wing</strong> gives the sexual Seven a hardness the pure Seven would not have: assertiveness, uncompromising resolve, the ability to carry through a decision once made without hesitation. Contemporaries and co-defendants consistently described Ensslin as the most disciplined, most ideologically uncompromising figure of the early RAF &ndash; harder and more consistent than Baader himself when it came to justifying violence.</p>
-        <p class="vb-intro">In April 1968, together with Baader, Thorwald Proll, and Horst S\xf6hnlein, she set fire to two department stores in Frankfurt. In court, she justified the act with uncompromising clarity as a necessary wake-up call against an indifferent society. The Eight-wing supplied the resolve to draw consequences from conviction that a pure Seven would have shied away from.</p>
+        <p class="vb-intro">The <strong>Eight-wing</strong> gives the sexual Seven a hardness a Seven with a weaker Eight wing would not have: assertiveness, uncompromising resolve, the ability to carry through a decision once made without hesitation. Contemporaries and co-defendants consistently described Ensslin as the most disciplined, most ideologically uncompromising figure of the early RAF &ndash; harder and more consistent than Baader himself when it came to justifying violence.</p>
+        <p class="vb-intro">In April 1968, together with Baader, Thorwald Proll, and Horst S\xf6hnlein, she set fire to two department stores in Frankfurt. In court, she justified the act with uncompromising clarity as a necessary wake-up call against an indifferent society. The Eight-wing supplied the resolve to draw consequences from conviction that a Seven with a weaker Eight wing would have shied away from.</p>
       </div>
 
       <div class="vb-section">
@@ -40633,7 +40633,7 @@ function gudrunEnsslinPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram Reveals</h3>
         <p class="vb-intro"><strong>a) Suggestibility as an All-or-Nothing Principle:</strong> The SX7 knows no half-devotion. Ensslin's path from devout pastor's daughter to uncompromising underground fighter shows the same pattern twice &ndash; only with reversed signs. The intensity remained identical; only its object changed completely.</p>
-        <p class="vb-intro"><strong>b) The Eight-Wing as Enforcer of Conviction:</strong> Where a pure SX7 might remain enthusiastic yet hesitant, the Eight-wing gave Ensslin the hardness to actually act on conviction &ndash; and to allow herself hardly any self-doubt in the process.</p>
+        <p class="vb-intro"><strong>b) The Eight-Wing as Enforcer of Conviction:</strong> Where an SX7 with a weaker Eight-wing might remain enthusiastic yet hesitant, the Eight-wing gave Ensslin the hardness to actually act on conviction &ndash; and to allow herself hardly any self-doubt in the process.</p>
         <p class="vb-intro"><strong>c) The Relationship as Carrier of the Idea:</strong> It is typical of the SX7 that the great fusion often begins with a person before it expands into an ideology. The bond with Baader was not merely romantic &ndash; it was the emotional anchor point on which Ensslin's entire political conversion took hold.</p>
       </div>
 
@@ -42059,7 +42059,7 @@ function tedBundyPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing as a Mask</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing</strong> lends the Social One a softness on the surface: diplomacy, adaptability, the ability to appear charming and relaxed. Where the pure One can seem harsh, opinionated, and unforgiving, the One with a Nine-wing appears friendly, calm, engaging. The anger is still there — it is just buried deeper. This wing makes it possible to completely conceal the internal rage.</p>
+          <p class="vb-intro">The <strong>Nine-wing</strong> lends the Social One a softness on the surface: diplomacy, adaptability, the ability to appear charming and relaxed. Where a One with a weaker Nine wing can seem harsh, opinionated, and unforgiving, a One with a strongly developed Nine-wing appears friendly, calm, engaging. The anger is still there — it is just buried deeper. This wing makes it possible to completely conceal the internal rage.</p>
           <p class="vb-intro">This explains what Bundy's contemporaries, his therapists, and even experienced investigators described again and again: they believed him. Not because he lied like a Three — but because he was calm like a Nine. The Nine-wing was Bundy's invisibility cloak. The One underneath was raging.</p>
         </blockquote>
 
@@ -42099,7 +42099,7 @@ function tedBundyPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro"><strong>a) Naranjo's SO1 – Rigidity as a Life Principle:</strong> The Social One in Naranjo's work is characterized by a rigid internal rulebook: what is right is right. Whoever violates this order is wrong. Bundy had this rulebook — and always saw himself on the right side. Those around him — professors, colleagues, later journalists — confirmed this image. He was convincing because he himself was convinced.</p>
           <p class="vb-intro"><strong>b) The Difference from Type Three:</strong> A Three would have needed success — visible, confirmed success. Bundy did not need recognition. He needed to be right. That is the crucial difference: the Three fears failure. The One fears injustice. Bundy's story is not a story of failing in the spotlight — it is a story of pent-up retribution.</p>
-          <p class="vb-intro"><strong>c) The Nine-wing as an Amplifier of the Split:</strong> A pure One might have attracted attention earlier: too rigid, too confrontational, too openly angry. The Nine-wing softened the edges. It made Bundy socially acceptable, likable, trustworthy — and thereby reinforced the split. Bundy's repressed rage remained hidden for years because of it — without this wing, it likely would have broken through sooner.</p>
+          <p class="vb-intro"><strong>c) The Nine-wing as an Amplifier of the Split:</strong> A One with a more muted Nine wing might have attracted attention earlier: too rigid, too confrontational, too openly angry. Bundy's strongly developed Nine-wing softened the edges. It made Bundy socially acceptable, likable, trustworthy — and thereby reinforced the split. Bundy's repressed rage remained hidden for years because of it — without this wing, it likely would have broken through sooner.</p>
         </blockquote>
 
         <h2 class="vb-section">10. What Remains</h2>
@@ -53584,7 +53584,7 @@ function bellaThornePage() {
 
         <h2 class="vb-section">3. The Four Wing: Depth Beneath the Surface</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Four Wing (w4)</strong> brings something unexpected to the Social Three: an awareness of pain, of the incomplete, and of one's own inner world beyond success. A pure SO3 might appear polished &ndash; always glamorous, always optimized, always presenting the right image. The Four Wing breaks that open: here is someone who also knows the darkness &ndash; and is willing to show it.</p>
+          <p class="vb-intro">The <strong>Four Wing (w4)</strong> brings something unexpected to the Social Three: an awareness of pain, of the incomplete, and of one's own inner world beyond success. An SO3 with a weaker Four Wing might appear polished &ndash; always glamorous, always optimized, always presenting the right image. The Four Wing breaks that open: here is someone who also knows the darkness &ndash; and is willing to show it.</p>
           <p class="vb-intro">In Bella Thorne, the Four Wing is visible in her unusual openness. She has spoken publicly about her childhood &ndash; about the early loss of her father, about sexual abuse, about dyslexia, and the challenges of her school years. This openness is not mere calculation &ndash; it is the sign of a personality that understands herself not just as an achievement machine, but as a human being with a history. The Four Wing does not just want to shine. It wants to be real.</p>
           <p class="vb-intro">The Four Wing also explains Thorne's artistic choices: she has taken on roles and directed projects that go far beyond what would benefit her brand. The SO3w4 seeks not just safe success &ndash; it seeks expression. This makes her more complex and contradictory than many of her peers in show business.</p>
         </blockquote>
