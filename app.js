@@ -24207,6 +24207,7 @@ const registerEntries = [
   { term: "Vera Birkenbihl",               route: "beruehmte-vera-birkenbihl",             description: "Portrait: SE5w6 \u00b7 Selbsterhaltender Typ 5 \u00b7 Trainerin, Gehirnforscherin" },
   { term: "Charles Darwin",                route: "beruehmte-charles-darwin",              description: "Portrait: SE5w6 \u00b7 Selbsterhaltender Typ 5 \u00b7 Naturforscher, Evolutionstheorie" },
   { term: "Warren Buffett",                route: "beruehmte-warren-buffett",              description: "Portrait: SE5w6 \u00b7 Selbsterhaltender Typ 5 \u00b7 Investmentlegende, Geduld & Weitsicht" },
+  { term: "Carl Tanzler", route: "beruehmte-carl-tanzler", description: "Portrait: SE5w6 \u00b7 Selbsterhaltender Typ 5 \u00b7 Radiologe, bewahrte den Leichnam einer Toten sieben Jahre lang" },
   { term: "Julius Caesar",                 route: "beruehmte-julius-caesar",               description: "Portrait: SO2w3 \u00b7 Sozialer Typ 2 \u00b7 Feldherr, Staatsmann, Diktator auf Lebenszeit" },
   { term: "Will Smith",                    route: "beruehmte-will-smith",                  description: "Portrait: SO2w3 \u00b7 Sozialer Typ 2 \u00b7 Schauspieler, Produzent" },
     { term: "Ronald Reagan", route: "beruehmte-ronald-reagan", description: "Portrait: SO9w8 \u00b7 Sozialer Typ 9 \u00b7 40. US-Pr\u00e4sident, Gro\u00dfer Kommunikator, Morning in America, B\u00fcffel" },
@@ -24528,6 +24529,7 @@ const registerEntriesEN = [
   { term: "Vera Birkenbihl", route: "beruehmte-vera-birkenbihl", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 Trainer, brain researcher" },
   { term: "Charles Darwin", route: "beruehmte-charles-darwin", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 Naturalist, theory of evolution" },
   { term: "Warren Buffett", route: "beruehmte-warren-buffett", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 Investment legend, patience & foresight" },
+  { term: "Carl Tanzler", route: "beruehmte-carl-tanzler", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 radiologist, kept a corpse for seven years" },
   { term: "Julius Caesar", route: "beruehmte-julius-caesar", description: "Portrait: SO2w3 \u00b7 Social Type 2 \u00b7 General, statesman, dictator for life" },
   { term: "Will Smith", route: "beruehmte-will-smith", description: "Portrait: SO2w3 \u00b7 Social Type 2 \u00b7 Actor, producer" },
   { term: "Ronald Reagan", route: "beruehmte-ronald-reagan", description: "Portrait: SO9w8 \u00b7 Social Type 9 \u00b7 40th US President, Great Communicator, Morning in America, Buffalo" },
@@ -31846,6 +31848,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Charles Darwin \u2013 Selbsterhaltender Typ 5",
     teaser:"SE5w6 \xb7 1809\u20131882. Naturforscher, Begr\u00fcnder der Evolutionstheorie. On the Origin of Species. Die Eule, die zwanzig Jahre wartete, bevor sie ihre Erkenntnis in die Welt trug.",
     tags:["Wissenschaft"], gender:"m"},
+  { route:"beruehmte-carl-tanzler", name:"Carl Tanzler", added:"2026-08-16", subtyp:"SE5w6",
+    heading:"Carl Tanzler – Selbsterhaltender Typ 5",
+    teaser:"SE5w6 · 1877–1952. Radiologe, bewahrte den Leichnam der Patientin Elena de Hoyos sieben Jahre lang in seinem Haus auf. Nie verurteilt, da die Verjährungsfrist ablief. Die Eule, die im Dunkeln blieb.",
+    tags:["Geschichte"], gender:"m"},
   { route:"beruehmte-rene-descartes", name:"René Descartes", added:"2026-08-14", subtyp:"SE5w6",
     heading:"René Descartes – Selbsterhaltender Typ 5",
     teaser:"SE5w6 · 1596–1650. Französischer Philosoph und Mathematiker, Begründer des Rationalismus. Cogito ergo sum, methodischer Zweifel, über zwanzig Umzüge in den Niederlanden. Die Eule mit Sechserflügel: radikale Vorsicht auf der Suche nach absoluter Gewissheit. Tierentsprechung: Eule.",
@@ -48663,6 +48669,70 @@ function annaAndersonPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-judit-polgar", label:"Portr\xe4t: Judit Polg\xe1r (SE3w4)"},
           {route:"kriminalpsychologie-frank-abagnale-jr", label:"Kriminalpsychologie: Frank Abagnale Jr. (SO7w6) – Der Hochstapler"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
+function carlTanzlerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-carl-tanzler-portrait.jpg" alt="Eule" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carl Tanzler</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Radiologe, 1877&ndash;1952 &ndash; bewahrte den Leichnam einer Toten sieben Jahre lang auf &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des selbsterhaltenden Typs 5 &ndash; ein Tier der Stille und der Tiefe, das sieht, was andere nicht sehen, und sich sein Revier nicht aus L\xe4rm, sondern aus Genauigkeit baut. Carl Tanzler, geboren 1877 als Georg Karl T\xe4nzler in Dresden, war ein Mann, der sich selbst zum &bdquo;Grafen von Cosel&ldquo; erkl\xe4rte, neun Universit\xe4tsabschl\xfcsse behauptete und als Radiologe im Marine-Krankenhaus von Key West arbeitete. Hinter dieser konstruierten Fassade stand eine Isolation, die sich \xfcber Jahrzehnte zu etwas Extremem verdichtete.</p>
+          <p class="vb-intro">1930, im Alter von 53 Jahren, r\xf6ntgte Tanzler eine 20-j\xe4hrige Patientin namens Elena Milagro de Hoyos, die an Tuberkulose erkrankt war. Er entwickelte eine sofortige, obsessive Faszination f\xfcr sie &ndash; und begann, sie zu behandeln, obwohl ihre Krankheit bereits weit fortgeschritten war. Die Eule beobachtet aus der Distanz und hortet, was sie fesselt, mit einer Intensit\xe4t, die von au\xdfen unsichtbar bleibt, bis sie sich in etwas Unumkehrbares verwandelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende F\xfcnf: R\xfcckzug als Existenzform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende F\xfcnf (SE5)</strong> ist nach Naranjo der Subtyp, den er &bdquo;Refugium&ldquo; nannte &ndash; ein R\xfcckzug in einen abgeschotteten, selbst kontrollierten Raum, in dem die Au\xdfenwelt keinen Zugriff hat. Tanzlers Leben zeigt dieses Muster in extremer Form: Er lebte weitgehend isoliert, konstruierte sich eine Identit\xe4t aus erfundenen Titeln und Leistungen, und zog sich zunehmend in eine innere Welt zur\xfcck, die er selbst vollst\xe4ndig kontrollierte.</p>
+          <p class="vb-intro">Als Elena am 25. Oktober 1931 an ihrer Krankheit starb, konnte Tanzler diesen Verlust nicht als Verlust akzeptieren. Er finanzierte ihr Mausoleum, besuchte es t\xe4glich &ndash; und entwendete 1933 heimlich ihren Leichnam. Sieben Jahre lang bewahrte er ihn in seinem Haus auf, sprach mit ihr, tanzte mit ihr, teilte sein Bett mit ihr. Das ist die SE5 in ihrer d\xfcstersten m\xf6glichen Auspr\xe4gung: ein R\xfcckzug so vollst\xe4ndig, dass selbst der Tod des geliebten Menschen die Grenze zur Au\xdfenwelt nicht wieder \xf6ffnete, sondern in eine private, abgeschottete Realit\xe4t \xfcbersetzt wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\xfcgel: Loyalit\xe4t \xfcber den Tod hinaus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SE5 mit schw\xe4cher ausgepr\xe4gtem Sechserfl\xfcgel h\xe4tte sich m\xf6glicherweise in reines Wissen oder Technik zur\xfcckgezogen. Bei Tanzler trat stattdessen eine Bindungsintensit\xe4t hervor, die weit \xfcber das Rationale hinausging: ein fast religi\xf6ses Festhalten an einem Versprechen, das er sich selbst gegeben hatte &ndash; Elena treu zu bleiben, sie zu bewahren, sie nicht loszulassen. Er baute technische Konstruktionen, um den Leichnam zu erhalten, experimentierte mit Chemikalien und Materialien, mit derselben systematischen Sorgfalt, die er als Radiologe gelernt hatte.</p>
+          <p class="vb-intro">Der Sechserfl\xfcgel sucht Halt in Bindung, Treue, einem Anker gegen die eigene Unsicherheit &ndash; und wird gef\xe4hrlich, wenn dieser Anker sich von der Realit\xe4t l\xf6st. Tanzlers Treue galt nicht mehr einem lebenden Menschen, sondern einer selbst konstruierten Beziehung, die er mit derselben Genauigkeit aufrechterhielt, mit der eine gesunde SE5w6 Wissen oder Fertigkeiten pflegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Entdeckung und Ermittlungsverfahren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1940 entdeckten Elenas Familie und die Beh\xf6rden, was geschehen war. Tanzler wurde festgenommen, der Leichnam beschlagnahmt. Eine psychiatrische Untersuchung stufte ihn als verhandlungsf\xe4hig ein, und die Anklage lautete auf mutwillige Grabsch\xe4ndung und unbefugte Entfernung eines Leichnams. Bei der Voruntersuchung am 9. Oktober 1940 in Key West stellte sich jedoch heraus, dass die zweij\xe4hrige Verj\xe4hrungsfrist f\xfcr Grabsch\xe4ndung bereits abgelaufen war &ndash; Tanzler hatte den Leichnam 1933 entwendet, mehr als sieben Jahre vor der Verhandlung.</p>
+          <p class="vb-intro">Das Verfahren wurde eingestellt, Tanzler ohne Verurteilung entlassen. Genau deshalb steht dieses Portr\xe4t unter &bdquo;Ber\xfchmte Pers\xf6nlichkeiten&ldquo; und nicht unter &bdquo;Kriminalpsychologie&ldquo;: Es gab nie ein Gerichtsurteil, das seine Taten strafrechtlich festgestellt h\xe4tte &ndash; nur ein Verfahren, das an einer Fristfrage scheiterte, nicht an fehlender Beweislage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. \xd6ffentliches Interesse statt \xf6ffentlicher \xc4chtung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bemerkenswert ist, wie die \xd6ffentlichkeit auf den Fall reagierte: Statt einheitlicher Emp\xf6rung gab es auch morbide Faszination und teils sogar Sympathie f\xfcr Tanzler, der sich selbst als tragischen Liebenden darstellte, der lediglich zu weit gegangen sei. Tausende besuchten die Ausstellung des mumifizierten K\xf6rpers vor der Bestattung. Diese \xf6ffentliche Reaktion zeigt, wie wirkungsvoll die von Tanzler konstruierte Erz\xe4hlung war &ndash; eine Erz\xe4hlung, die er bis zu seinem Tod 1952 aufrechterhielt.</p>
+          <p class="vb-intro">Er verbrachte seine letzten Jahre zur\xfcckgezogen mit einer lebensgro\xdfen Nachbildung Elenas, die er aus einer Totenmaske und ihrem Haar angefertigt hatte &ndash; ein letztes Zeugnis daf\xfcr, wie tief die R\xfcckzugsbewegung der SE5 gehen kann, wenn sie sich vollst\xe4ndig von korrigierender Realit\xe4t abschneidet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Eule, die im Dunkeln blieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carl Tanzlers Geschichte ist keine romantische Legende, auch wenn sie mitunter so erz\xe4hlt wurde. Sie ist eine Warnung dar\xfcber, wozu der R\xfcckzug der selbsterhaltenden F\xfcnf f\xfchren kann, wenn ihm jede korrigierende Verbindung zur Au\xdfenwelt fehlt: Ein Mensch, der sich so vollst\xe4ndig in eine selbst konstruierte, private Realit\xe4t zur\xfcckzieht, dass selbst der Tod die Grenze zwischen Innen und Au\xdfen nicht mehr wiederherstellen kann.</p>
+          <p class="vb-intro">Die Eule sieht, was andere nicht sehen &ndash; aber sie kann sich auch in einer Dunkelheit verlieren, die niemand sonst betritt. Tanzlers Fall zeigt die selbsterhaltende F\xfcnf mit Sechserfl\xfcgel an ihrer \xe4u\xdfersten, tragischsten Grenze: Bindung, die zur Besessenheit wird, wenn Realit\xe4tspr\xfcfung und menschlicher Kontakt vollst\xe4ndig fehlen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-rene-descartes", label:"Portr\xe4t: Ren\xe9 Descartes (SE5w6)"},
+          {route:"beruehmte-anna-anderson", label:"Portr\xe4t: Anna Anderson (SE3w4)"},
         ])}
       </div>
     </div>
@@ -88579,6 +88649,7 @@ function render() {
     "beruehmte-thomas-von-aquin": thomasVonAquinPortraitPage,
     "beruehmte-spinoza": spinozaPortraitPage,
     "beruehmte-rene-descartes": reneDescartesPortraitPage,
+    "beruehmte-carl-tanzler": carlTanzlerPortraitPage,
     "beruehmte-hermann-hesse": hermannHessePortraitPage,
     "beruehmte-adam-smith": adamSmithPortraitPage,
     "beruehmte-xanthippe": xanthippePortraitPage,
