@@ -40202,7 +40202,7 @@ function ulrikeMeinhofPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Freeing Baader: The Break With Her Old Life</h3>
-        <p class="vb-intro">On May 14, 1970, Meinhof accompanied the imprisoned Andreas Baader to a library in West Berlin &ndash; officially to research a book together about at-risk youth. In reality, the operation served his violent liberation: armed accomplices stormed the room, a library employee was shot, and Meinhof jumped out the window together with Baader into a life underground. This moment is regarded as the founding of the RAF &ndash; and as the point at which Meinhof left her entire previous life behind.</p>
+        <p class="vb-intro">On May 14, 1970, Meinhof accompanied the imprisoned Andreas Baader (SP7w8) to a library in West Berlin &ndash; officially to research a book together about at-risk youth. In reality, the operation served his violent liberation: armed accomplices stormed the room, a library employee was shot, and Meinhof jumped out the window together with Baader into a life underground. This moment is regarded as the founding of the RAF &ndash; and as the point at which Meinhof left her entire previous life behind.</p>
         <p class="vb-intro">Her twin daughters were left behind. Reports later surfaced that the RAF had considered sending the children to a Palestinian training camp &ndash; a plan that was prevented by the intervention of journalist Stefan Aust. From the perspective of the self-preservation Two with a One-wing, this is one of the bitterest paradoxes: a woman whose entire prior identity rested on care sacrificed the care of her own children for a more elevated, more abstract idea of justice.</p>
       </div>
 
@@ -40215,7 +40215,7 @@ function ulrikeMeinhofPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram Reveals</h3>
         <p class="vb-intro"><strong>a) Care That No Longer Recognizes Itself:</strong> A healthy SP2w1 advocates for others without losing sight of itself and those closest to it. In Meinhof's case, this pattern tipped over: concern for distant, abstract victims increasingly crowded out concern for her own children &ndash; a pattern Naranjo describes as the Two's care overshooting into ideology.</p>
-        <p class="vb-intro"><strong>b) The One-Wing as an Engine of Radicalization:</strong> What began as a journalistic search for justice grew increasingly uncompromising through the One-wing's moral unwavering certainty. The doubt that balances a healthy One was, as time went on, increasingly absent.</p>
+        <p class="vb-intro"><strong>b) The One-Wing as an Engine of Radicalization:</strong> What began as a journalistic search for justice grew increasingly uncompromising through the One-wing's moral unwavering certainty. The self-critical restraint a healthy One normally has grew weaker and weaker in Meinhof over time.</p>
         <p class="vb-intro"><strong>c) From Caretaker to Symbolic Figure:</strong> Within the RAF, Meinhof was not the head of the armed struggle but its intellectual legitimation &ndash; she supplied the language, the texts, the moral justification. This is the SP2w1 in its most radical form: making oneself indispensable by giving the cause exactly what it most urgently needs.</p>
       </div>
 
