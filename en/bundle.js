@@ -548,6 +548,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Carl Tanzler – Self-Preservation Type 5",
     teaser:"SE5w6 · 1877–1952. Radiologist who kept the body of patient Elena de Hoyos in his home for seven years. Never convicted, as the statute of limitations had expired. The owl that stayed in the dark.",
     tags:["History"], gender:"m"},
+  { route:"beruehmte-marie-curie", name:"Marie Curie", added:"2026-08-17", subtyp:"SE5w6",
+    heading:"Marie Curie – Self-Preservation Type 5",
+    teaser:"SE5w6 · 1867–1934. Only person with Nobel Prizes in two sciences (Physics 1903, Chemistry 1911). Discoverer of polonium and radium, died from decades of radiation exposure. Security through knowledge, loyalty beyond death. Animal correspondence: Owl.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-rene-descartes", name:"René Descartes", added:"2026-08-14", subtyp:"SE5w6",
     heading:"René Descartes – Self-Preservation Type 5",
     teaser:"SP5w6 · 1596–1650. French philosopher and mathematician, founder of rationalism. Cogito ergo sum, methodical doubt, more than twenty moves in the Netherlands. The owl with the Six-wing: radical caution in the search for absolute certainty. Animal correspondence: Owl.",
@@ -28635,6 +28639,69 @@ function carlTanzlerPortraitPage() {
   `);
 }
 
+function marieCuriePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-marie-curie-portrait.jpg" alt="Owl" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marie Curie</p>
+        <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Physicist and chemist, 1867–1934 – the only person with Nobel Prizes in two different sciences – Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Owl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The owl is the animal of the self-preservation type 5 – an animal of stillness and depth that sees what others don't, and builds its territory not through noise but through precision. Marie Curie, born Maria Salomea Skłodowska in Warsaw in 1867, embodied exactly this quality: she left her homeland because women were not allowed to study there, lived at times in Paris on bread and tea to afford her studies – and became the only person in history to receive Nobel Prizes in two different natural sciences (Physics 1903, Chemistry 1911).</p>
+          <p class="vb-intro">Together with her husband Pierre, she discovered the elements polonium and radium, working for years under hazardous conditions in a makeshift shed – and eventually died from the effects of decades of radiation exposure, a danger she herself had helped to research.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Five: Security through knowledge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the self-preservation Five (SE5) is the subtype he called "Refuge" – a retreat into a sealed-off, self-controlled space in which knowledge becomes the actual foundation of existence. Curie lived this stance radically: her Paris student room was so sparsely heated that water froze in the basin, and she reduced her diet to the bare minimum – not out of poverty alone, but out of an almost ascetic prioritizing of study above everything else.</p>
+          <p class="vb-intro">The same stance shaped her entire research career: years of laborious manual work on tons of pitchblende to isolate a few milligrams of radium – no spectacular flash of insight, but a methodical, almost stubborn endurance that drew its sense of security solely from her own expertise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six wing: Bonding as a foundation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SE5 with a more muted Six wing might have pursued her research entirely alone and isolated. In Curie's case, a deep, loyal capacity for bonding emerged instead: her marriage to Pierre Curie was at the same time a scientific partnership of equals – shared lab work, shared publications, a shared Nobel Prize in 1903.</p>
+          <p class="vb-intro">When Pierre died in a traffic accident in 1906, Marie not only took over his professorship at the Sorbonne – becoming the first woman ever to hold it – but continued their shared research with the same persistence that had already distinguished her. The Six wing shows itself here as the ability to turn loss not into withdrawal, but into continuation of the shared cause – loyalty beyond death.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Science in service of humanity: The mobile X-ray units</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">During the First World War, Curie developed mobile X-ray units – later nicknamed "Petites Curies" – and drove to the front herself to help diagnose wounded soldiers. She also trained around 150 women as X-ray assistants. This is the SE5w6 at its most practical: knowledge is not merely accumulated, but deliberately translated into concrete, reliable benefit for others.</p>
+          <p class="vb-intro">Despite two Nobel Prizes and worldwide recognition, Curie remained publicly reserved, almost shy – she avoided large public appearances wherever possible and returned to the lab as quickly as she could after every honor. Fame was never her goal, only a tiresome side effect of the actual work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The invisible risk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Curie and her contemporaries only partially understood the dangers of radioactive radiation during her lifetime. Her notebooks remain so radioactively contaminated to this day that they are stored in lead-lined boxes and can only be viewed while wearing protective clothing. She died in 1934 of aplastic anemia, a direct consequence of decades of radiation exposure.</p>
+          <p class="vb-intro">That she did not stop researching despite mounting health warnings reveals the flip side of the SE5: devotion to one's own field of knowledge can become so complete that even physical safety recedes behind it – a contradiction of the SE5's need for security that dissolves once "security" is understood not physically, but intellectually.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Owl that found the glow in the dark</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Marie Curie's life shows the self-preservation Five with a Six wing at its highest, most effective form: radical devotion to knowledge, carried by loyal bonds – first to Pierre, then to the cause itself, then to training an entire generation of women researchers (her daughter Irène Joliot-Curie also received the Nobel Prize in Chemistry in 1935). No need for a public stage, only quiet, tireless endurance in the lab.</p>
+          <p class="vb-intro">The owl sees in the dark what others overlook – and that is exactly what Curie did with invisible radiation, which she was the first to make visible and usable. Her legacy still glows today: in cancer therapy, in nuclear physics, and in every woman who has since stood in a laboratory because a Polish woman from Warsaw proved it was possible.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
+          {route:"beruehmte-amelia-earhart", label:"Portrait: Amelia Earhart (SP9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function reneDescartesPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -54873,6 +54940,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-david-hume": davidHumePortraitPage,
       "beruehmte-thomas-von-aquin": thomasVonAquinPortraitPage,
       "beruehmte-adam-smith": adamSmithPortraitPage,
+      "beruehmte-marie-curie": marieCuriePortraitPage,
       "beruehmte-rene-descartes": reneDescartesPortraitPage,
       "beruehmte-carl-tanzler": carlTanzlerPortraitPage,
       "beruehmte-hermann-hesse": hermannHessePortraitPage,
