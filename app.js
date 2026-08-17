@@ -57252,14 +57252,14 @@ function romulusWhitakerPortraitPage() {
 
         <h2 class="vb-section">4. Sichtbarkeit statt Rückzug</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Whitaker dokumentierte seine Arbeit \xfcber Jahrzehnte in B\xfcchern und Filmen und wurde so zu einer \xf6ffentlich sichtbaren Figur der indischen Naturschutzbewegung &ndash; ein deutlicher Kontrast zu Haasts zur\xfcckgezogenem, fast klösterlichem Stil. Er selbst beschreibt sich mit trockenem Humor: &bdquo;People often mistake me for a rabid hippie conservationist.&ldquo; Ausgezeichnet wurde er unter anderem mit dem Whitley Award, dem Rolex Award, dem Order of Golden Ark und dem Salim Ali Award.</p>
+          <p class="vb-intro">Whitaker dokumentierte seine Arbeit \xfcber Jahrzehnte in B\xfcchern und Filmen und wurde so zu einer \xf6ffentlich sichtbaren Figur der indischen Naturschutzbewegung &ndash; ein deutlicher Kontrast zu Haasts zur\xfcckgezogenem, fast klösterlichem Stil. Er selbst beschreibt sich mit trockenem Humor: &bdquo;People often mistake me for a rabid hippie conservationist.&ldquo; (dt. &bdquo;Die Leute halten mich oft f\xfcr einen fanatischen Hippie-Naturschützer.&ldquo;) Ausgezeichnet wurde er unter anderem mit dem Whitley Award, dem Rolex Award, dem Order of Golden Ark und dem Salim Ali Award.</p>
           <p class="vb-intro">Diese Kombination aus unbeirrbarer, jahrzehntelanger Hingabe an eine gef\xe4hrliche Sache (der Eins) und dem konsequenten Aufbau von Gemeinschaften, Partnerschaften und \xf6ffentlicher Sichtbarkeit (dem Zweierfl\xfcgel) ist die SX1w2 in ihrer wirkungsvollsten Form.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Die Schlange, die eine ganze Gemeinschaft ver\xe4nderte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Romulus Whitakers Lebenswerk zeigt die sexuelle Eins mit Zweierfl\xfcgel in ihrer weitreichendsten Form: eine \xfcber f\xfcnfzig Jahre andauernde, unerbittliche Hingabe an ein einziges Prinzip &ndash; \xfcbersetzt jedoch nicht in Einzelg\xe4ngertum, sondern in Institutionen, Partnerschaften und eine ganze transformierte Gemeinschaft.</p>
-          <p class="vb-intro">Die Schlange folgt einem inneren Gesetz ohne Ausnahme. Whitakers Gesetz lautete: Schlangen verdienen Verst\xe4ndnis statt Angst &ndash; und dieses Gesetz gab er nicht allein weiter, sondern gemeinsam mit jedem, den er daf\xfcr gewinnen konnte.</p>
+          <p class="vb-intro">Die Schlange folgt einem inneren Gesetz ohne Ausnahme. Whitakers Gesetz lautete: Schlangen verdienen Verst\xe4ndnis statt Angst &ndash; und dieses Gesetz gab er nicht allein weiter, sondern gemeinsam mit jedem Einzelnen, den er daf\xfcr gewinnen konnte.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
