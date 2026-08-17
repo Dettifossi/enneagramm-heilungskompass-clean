@@ -284,6 +284,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo DiCaprio – Sexual Type 1",
     teaser:"SX1w2 · born 1974. Actor, climate activist. Five Oscar nominations, six attempts – and in the moment of triumph he spoke about climate change, not himself. The Black Mamba does not burn for applause. Animal correspondence: Black Mamba.",
     tags:["Schauspiel"] },
+  { route:"beruehmte-camille-fritsch", name:"Dr. Camille Fritsch", added:"2026-08-17", subtyp:"SE2w1",
+    heading:"Dr. Camille Fritsch – Self-Preservation Type 2",
+    teaser:"SP2w1 · Wildlife biologist, leading hippopotamus researcher, member of the IUCN Hippo Specialist Group. Founder of Imvubu Safaris – personal field guiding over lone expertise, networked research over solo achievement. Animal correspondence: Hippopotamus.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-jj-liu", name:"J. J. Liu", added:"2026-08-15", subtyp:"SE2w1",
     heading:"J. J. Liu – Self-Preservation Type 2",
     teaser:"SP2w1 · born 1965 in Taipei, Taiwan. Professional poker player, over $4 million in tournament earnings, Women in Poker Hall of Fame. Strategy as inner order, endurance through physical pain to the longest televised final table in WPT history. Animal correspondence: Hippopotamus.",
@@ -4699,6 +4703,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-birute-galdikas", name:"Dr. Biruté Galdikas", subtyp:"SE8w9", tier:"Orangutan"},
   {route:"beruehmte-peter-sharpe", name:"Dr. Peter Sharpe", subtyp:"SE1w9", tier:"Eagle"},
   {route:"beruehmte-konrad-lorenz", name:"Konrad Lorenz", subtyp:"SO1w9", tier:"Goose"},
+  {route:"beruehmte-camille-fritsch", name:"Dr. Camille Fritsch", subtyp:"SE2w1", tier:"Hippopotamus"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -32199,6 +32204,65 @@ function gretaThunbergPortraitPage() {
   `);
 }
 
+function camilleFritschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-camille-fritsch-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Camille Fritsch</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Wildlife biologist &ndash; leading hippopotamus researcher, IUCN Hippo Specialist Group &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; not a solitary creature like the golden eagle, but an animal that lives within a pod, tends to its immediate surroundings, and unfolds its strength not through dominance but through reliable closeness and practical presence. Dr. Camille Fritsch is among the best-known hippopotamus researchers in the world &ndash; a still-young field in which he made his name with a doctoral study on hippo behavior at the University of KwaZulu-Natal, South Africa.</p>
+          <p class="vb-intro">As with several other animal-researcher portraits in this compass, a striking pattern confirms itself here too: a person devotes their life to exactly the animal that matches their own subtype &ndash; long before anyone knew of their work, the Enneagram's animal correspondence was already fixed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Closeness Through Practical Help</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>self-preservation Two (SE2)</strong> secures closeness and belonging not through seduction (as the sexual Two does) or through social recognition (as the social Two does), but through what Naranjo called <em>Privilege</em>: making oneself indispensable through very practical helping, providing, enabling &ndash; and thereby securing a privileged place in others' lives. Fritsch, raised in California with a childhood dream of becoming a wildlife biologist in South Africa, spent more than a decade on research and conservation projects on hippos, crocodiles, and crowned eagles in KwaZulu-Natal and Kruger National Park.</p>
+          <p class="vb-intro">Rather than positioning himself as a distant lone expert, he founded <em>Imvubu Safaris</em> &ndash; named after the Zulu word for hippopotamus &ndash; offering personal, exclusive field guiding where guests get direct access to his research and to the animals themselves. This is SE2 in its purest form: not the distance of pure science, but personal, immediate service to the other &ndash; a privileged, very direct access that is earned through closeness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Scientific Rigor as Foundation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SE2 with a more pronounced Three-wing would likely have staged its helpfulness more visibly, with a focus on public recognition and success. In Fritsch, a serious methodological rigor shows instead: he is an active member of the <em>IUCN SSC Hippo Specialist Group</em>, uses drone technology and radio tracking to gather precise ecological and behavioral data, and studies the role of hippos as ecosystem engineers both in water and on land.</p>
+          <p class="vb-intro">This combination of warm, personal closeness and scientific precision is the SE2w1 in its characteristic form: the Two supplies the motivation to serve others &ndash; people and animals alike; the One-wing ensures that this help is methodically grounded rather than merely well-intentioned.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Relationship Over Solo Achievement: The Network as Research Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hippo research, unlike Galdikas's decades-long solo study of orangutans, is inherently networked: Fritsch explicitly emphasizes that he is not the sole expert, but draws on an extensive network of regional specialists to get researchers and film crews from around the world the best possible results. He works internationally, is bilingual (English/French), and regularly appears in documentaries and podcasts as an accessible, collaborative connector &ndash; not as a distant authority.</p>
+          <p class="vb-intro">That is exactly the Two in its element: value arises not through sole command of a field, but through the web of relationships one builds around oneself &ndash; with colleagues, with guests, with the animals themselves.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Hippopotamus That Stays</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Camille Fritsch's life's work so far shows the self-preservation Two with a One-wing at its most productive: practical, personal help &ndash; as researcher, as guide, as connector between science and the public &ndash; grounded in scientific care and carried by a network rather than by solo achievement.</p>
+          <p class="vb-intro">The hippopotamus does not leave its water when things get uncomfortable &ndash; it stays, tends to its immediate surroundings, and draws its strength from closeness rather than distance. That is exactly what describes Fritsch's path so far: patient, reliable staying with an animal and a place he has devoted himself to.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+          {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SE2w1)"},
+        ])}
+        ${animalResearcherMatchBlock("beruehmte-camille-fritsch")}
+      </div>
+    </div>
+  `);
+}
+
 function jjLiuPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -55722,6 +55786,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
+      "beruehmte-camille-fritsch": camilleFritschPortraitPage,
       "beruehmte-jj-liu": jjLiuPortraitPage,
       "beruehmte-franka-potente": frankaPotentePortraitPage,
       "beruehmte-margot-friedlaender": margotFriedlaenderPortraitPage,
