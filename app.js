@@ -27365,7 +27365,7 @@ const TIERLEXIKON = {
     tier: "Adler",
     lateinisch: "Aquila chrysaetos",
     emoji: "\ud83e\udd85",
-    intro: "Der Steinadler ist einer der pr\u00e4zisesten Raubv\u00f6gel der Welt. Was er jagt, trifft er. Was er baut, h\u00e4lt Jahrzehnte. Was er beobachtet, entgeht ihm nicht. Er steht f\u00fcr Perfektion im Dienst des \u00dcberlebens \u2013 und daf\u00fcr, dass Genauigkeit keine K\u00e4lte ist, sondern eine Form von Verl\u00e4sslichkeit.",
+    intro: "Der Steinadler ist einer der pr\u00e4zisesten Raubv\u00f6gel der Welt. Was er jagt, trifft er. Was er baut, h\u00e4lt Jahrzehnte. Was er beobachtet, entgeht ihm nicht. Er steht f\u00fcr Perfektion im Dienst des \u00dcberlebens \u2013 und daf\u00fcr, dass Genauigkeit keine K\u00e4lte ist, sondern eine Form von Verl\u00e4sslichkeit. Die folgenden Fakten beziehen sich exemplarisch auf den Steinadler \u2013 das archetypische Prinzip gilt jedoch f\u00fcr Adler jeder Art gleicherma\u00dfen, ob Steinadler, Wei\u00dfkopfseeadler oder eine der \u00fcbrigen rund 60 Adlerarten weltweit.",
     fakten: [
       "Steinadler k\u00f6nnen aus 1,5 Kilometern H\u00f6he eine Maus auf einer Wiese erkennen \u2013 ihre Sehsch\u00e4rfe ist f\u00fcnfmal besser als die des Menschen. *Die SE1 sieht, was andere \u00fcbersehen \u2013 Fehler, Ungenauigkeiten, Verbesserungspotenzial. Dieser Blick ist Gabe und Last zugleich.*",
       "Ihr Sehfeld betr\u00e4gt fast 340 Grad \u2013 nahezu rundum. Blind sind sie nur im kleinen Bereich direkt hinter dem Kopf. *Der innere Richter der SE1 arbeitet genauso: fast alles wird bewertet, fast nichts entgeht ihr \u2013 nur der Blick auf die eigene Ersch\u00f6pfung fehlt manchmal.*",
