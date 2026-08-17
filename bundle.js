@@ -24137,6 +24137,7 @@ const registerEntries = [
   { term: "Judit Polgár",                  route: "beruehmte-judit-polgar",                description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Schach-Großmeisterin" },
   { term: "Jane Goodall", route: "beruehmte-jane-goodall", description: "Portrait: SX9w1 \u00b7 Sexuelle Typ 9 \u00b7 Primatologin, Begr\u00fcnderin der modernen Schimpansenforschung" },
   { term: "Craig Foster", route: "beruehmte-craig-foster", description: "Portrait: SX9w1 \u00b7 Sexuelle Typ 9 \u00b7 Naturfilmer, Regisseur von \u201eMy Octopus Teacher\u201c" },
+  { term: "Ana Salceda", route: "beruehmte-ana-salceda", description: "Portrait: SX9w1 \u00b7 Sexuelle Typ 9 \u00b7 Journalistin, Regisseurin von \u201eA Sloth Named Velcro\u201c" },
   { term: "Laurie Marker", route: "beruehmte-laurie-marker", description: "Portrait: SO3w4 \u00b7 Sozialer Typ 3 \u00b7 Verhaltensforscherin, Gr\u00fcnderin des Cheetah Conservation Fund" },
   { term: "Keanu Reeves",                  route: "beruehmte-keanu-reeves",                description: "Portrait: SX9w1 \u00b7 Sexueller Typ 9 \u00b7 Schauspieler, The Matrix, stille Pr\u00e4senz" },
   { term: "Klaus Kinski",                  route: "beruehmte-klaus-kinski",                description: "Portrait: SX1w9 \u00b7 Sexueller Typ 1 \u00b7 Schauspieler, Intensit\u00e4t & Exzess" },
@@ -24476,6 +24477,7 @@ const registerEntriesEN = [
   { term: "Judit Polgár", route: "beruehmte-judit-polgar", description: "Portrait: SP3w4 · Self-Preservation Type 3 · Chess grandmaster" },
   { term: "Jane Goodall", route: "beruehmte-jane-goodall", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 primatologist, founder of modern chimpanzee research" },
   { term: "Craig Foster", route: "beruehmte-craig-foster", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 nature filmmaker, director of \"My Octopus Teacher\"" },
+  { term: "Ana Salceda", route: "beruehmte-ana-salceda", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 journalist, director of \"A Sloth Named Velcro\"" },
   { term: "Laurie Marker", route: "beruehmte-laurie-marker", description: "Portrait: SO3w4 \u00b7 Social Type 3 \u00b7 behavioral scientist, founder of the Cheetah Conservation Fund" },
   { term: "Keanu Reeves", route: "beruehmte-keanu-reeves", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 Actor, The Matrix, quiet presence" },
   { term: "Klaus Kinski", route: "beruehmte-klaus-kinski", description: "Portrait: SX1w9 \u00b7 Sexual Type 1 \u00b7 Actor, intensity & excess" },
@@ -32442,6 +32444,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Craig Foster – Sexuelle Typ 9",
     teaser:"SX9w1 · geb. 1962. Südafrikanischer Naturfilmer, Regisseur von „My Octopus Teacher“ (Oscar 2021), Mitgründer des Sea Change Project. Verschmelzung mit einem wilden Oktopus als Weg aus Burnout und Depression. Tierentsprechung: Faultier.",
     tags:["Wissenschaft","Film"], gender:"m"},
+  { route:"beruehmte-ana-salceda", name:"Ana Salceda", added:"2026-08-17", subtyp:"SX9w1",
+    heading:"Ana Salceda – Sexuelle Typ 9",
+    teaser:"SX9w1 · Spanische Journalistin und Filmemacherin, Regisseurin von „A Sloth Named Velcro“ (PBS Nature, 2014). Wurde durch eine zufällige, tief persönliche Verschmelzung mit einem verwaisten Faultier-Jungtier zur Faultier-Erzählerin. Tierentsprechung: Faultier.",
+    tags:["Film"], gender:"f"},
   { route:"beruehmte-keanu-reeves", name:"Keanu Reeves", subtyp:"SX9w1",
     heading:"Keanu Reeves \u2013 Sexueller Typ 9",
     teaser:"SX9w1 \u00b7 geb. 1964. Schauspieler (The Matrix, John Wick). Der stille Mann, der sich in jede Rolle aufl\u00f6st \u2013 und im wirklichen Leben noch bescheidener ist als auf der Leinwand. Tierentsprechung: Faultier.",
@@ -51870,6 +51876,65 @@ function craigFosterPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-jane-goodall", label:"Portr\xe4t: Jane Goodall (SX9w1)"},
           {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function anaSalcedaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ana-salceda-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ana Salceda</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexuelle Typ 9 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Journalistin &amp; Filmemacherin &ndash; Regisseurin von &bdquo;A Sloth Named Velcro&ldquo; (PBS Nature, 2014) &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun &ndash; ein Tier, das sich nicht durch Aktivit\xe4t, sondern durch v\xf6llige Hingabe an das eine Wesen auszeichnet, an das es sich klammert. Ana Salceda, spanische Print- und Fernsehjournalistin, zog im Jahr 2000 nach Panama &ndash; und wurde dort ohne jede Absicht zur Pflegemutter eines verwaisten Zwergfaultier-Jungtiers, das sie &bdquo;Velcro&ldquo; nannte, weil es sich wie ein Klettverschluss an sie klammerte.</p>
+          <p class="vb-intro">Anders als die \xfcbrigen Tierforscher-Portr\xe4ts dieses Kompasses ist Salceda keine Wissenschaftlerin und beansprucht auch nicht, eine Forschungsautorit\xe4t zu sein. Ihr Fall steht hier bewusst au\xdferhalb jener Reihe &ndash; als ein eigenst\xe4ndiges, bemerkenswertes Beispiel daf\xfcr, wie sich dasselbe archetypische Prinzip auch au\xdferhalb der Wissenschaft zeigt: Eine Frau, die rein pers\xf6nlich, ohne jede fachliche Absicht, in eine Verschmelzungsbeziehung mit einem einzelnen Faultier geriet &ndash; und daraus einen preisgekr\xf6nten Film machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung als Lebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo nicht Zugeh\xf6rigkeit zu einer Gruppe, sondern die vollst\xe4ndige Verschmelzung mit einem einzelnen geliebten Gegen\xfcber. Fast zwei Jahre lang trug Salceda Velcro buchst\xe4blich ununterbrochen am K\xf6rper &ndash; zur W\xe4rmeregulierung des Jungtiers, aber auch als t\xe4gliche, k\xf6rperliche N\xe4he, die weit \xfcber gew\xf6hnliche Pflegearbeit hinausging. Sie beschrieb diese Verbindung sp\xe4ter mit Worten, die die SX9 in Reinform zeigen: &bdquo;Velcro brachte mir bei, die Stille zu sch\xe4tzen, die Natur von innen heraus zu sehen.&ldquo; Und: &bdquo;Es war eines der besten Dinge, die mir je passiert sind.&ldquo;</p>
+          <p class="vb-intro">Diese Sprache &ndash; Stille, Verschmelzung, das Eintauchen ins Innere statt distanzierte Beobachtung &ndash; ist fast wortgleich mit dem, was auch Craig Foster \xfcber seinen Oktopus oder Jane Goodall \xfcber ihren ersten vertrauten Schimpansen David Greybeard sagten. Nicht die Art, sondern das eine, individuelle Wesen steht im Zentrum &ndash; das ist die sexuelle, nicht die soziale oder selbsterhaltende Instinktvariante.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\xfcgel: Aus pers\xf6nlicher Erfahrung wird Verantwortung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SX9 mit schw\xe4cher ausgepr\xe4gtem Einserfl\xfcgel h\xe4tte die Erfahrung mit Velcro vermutlich als pers\xf6nliche, private Episode belassen. Bei Salceda wurde daraus stattdessen ein Auftrag: Als die Zeit kam, Velcro in die Wildnis zu entlassen, blieb Salceda dem Thema treu und kehrte Jahre sp\xe4ter nach Mittelamerika zur\xfcck, um zu dokumentieren, wie sich die Situation der Faultiere seit Velcro ver\xe4ndert hatte &ndash; und wer sich inzwischen um ihren Schutz k\xfcmmerte.</p>
+          <p class="vb-intro">Daraus entstand 2014 die PBS-Nature-Dokumentation &bdquo;A Sloth Named Velcro&ldquo; &ndash; gedreht in Panama, Costa Rica und Kolumbien, mit einer IMDb-Bewertung von 8,5. Der Film erz\xe4hlt nicht nur ihre eigene Geschichte, sondern auch die eines ganzen Netzwerks von Menschen, die sich dem Schutz der Faultiere verschrieben haben. Diese Übersetzung einer zutiefst pers\xf6nlichen Bindung in eine \xf6ffentliche, sorgf\xe4ltig recherchierte Erz\xe4hlung ist die Handschrift des Einserfl\xfcgels: aus dem privaten Erleben wird eine Verpflichtung, die man ernsthaft und genau zu Ende f\xfchrt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein Fall abseits der Wissenschaft &ndash; und trotzdem stimmig</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Salcedas Beispiel zeigt, dass die Übereinstimmung zwischen Tierentsprechung und Lebenswerk nicht auf akademische Forschungskarrieren beschr\xe4nkt ist. Sie wurde nicht Faultierexpertin, weil sie es plante oder studierte &ndash; sie wurde es, weil sie sich, ihrem eigenen archetypischen Muster folgend, vollst\xe4ndig auf ein einzelnes Wesen einlie\xdf und diese Erfahrung anschlie\xdfend mit derselben inneren Ernsthaftigkeit weiterverfolgte, die den Einserfl\xfcgel auszeichnet.</p>
+          <p class="vb-intro">Dieser Fall wird hier bewusst nicht mit den Tierforscher-Wissenschaftsportr\xe4ts dieses Kompasses vermischt, sondern als eigenst\xe4ndiges, freudiges Beispiel gew\xfcrdigt: eine weitere, unabh\xe4ngige Best\xe4tigung desselben archetypischen Prinzips, dieses Mal au\xdferhalb der Wissenschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Faultier, das sich an einen Menschen klammerte &ndash; und umgekehrt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ana Salcedas Geschichte zeigt die sexuelle Neun mit Einserfl\xfcgel in ihrer pers\xf6nlichsten Form: keine geplante Karriere, sondern eine zuf\xe4llige, tief pers\xf6nliche Verschmelzung mit einem einzelnen Tier, die sich \xfcber Jahre in eine ernsthafte, verantwortungsvolle Erz\xe4hlung verwandelte.</p>
+          <p class="vb-intro">Das Faultier klammert sich an das, was ihm nahe ist, und bewegt sich langsam, aber mit vollkommener Hingabe. Genau das tat Salceda &ndash; und wurde dabei selbst zu einem Faultier im übertragenen Sinn: langsam, hingebungsvoll, unerschütterlich treu zu dem einen Wesen, das ihr Leben ver\xe4ndert hatte.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+          {route:"beruehmte-jane-goodall", label:"Porträt: Jane Goodall (SX9w1)"},
+          {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1)"},
         ])}
       </div>
     </div>
@@ -90181,6 +90246,7 @@ function render() {
       "beruehmte-jane-goodall": janeGoodallPortraitPage,
       "beruehmte-laurie-marker": laurieMarkerPortraitPage,
       "beruehmte-craig-foster": craigFosterPortraitPage,
+      "beruehmte-ana-salceda": anaSalcedaPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
           "beruehmte-carl-rogers": carlRogersPortraitPage,
     "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,

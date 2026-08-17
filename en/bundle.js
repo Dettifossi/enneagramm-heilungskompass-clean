@@ -880,6 +880,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Craig Foster – Sexual Type 9",
     teaser:"SX9w1 · born 1962. South African nature filmmaker, director of \"My Octopus Teacher\" (Oscar 2021), co-founder of the Sea Change Project. Merging with a wild octopus as a path out of burnout and depression. Animal correspondence: Sloth.",
     tags:["Wissenschaft","Film"], gender:"m"},
+  { route:"beruehmte-ana-salceda", name:"Ana Salceda", added:"2026-08-17", subtyp:"SX9w1",
+    heading:"Ana Salceda – Sexual Type 9",
+    teaser:"SX9w1 · Spanish journalist and filmmaker, director of \"A Sloth Named Velcro\" (PBS Nature, 2014). Became a sloth storyteller through a chance, deeply personal merging with an orphaned baby sloth. Animal correspondence: Sloth.",
+    tags:["Film"], gender:"f"},
   { route:"beruehmte-keanu-reeves", name:"Keanu Reeves", subtyp:"SX9w1",
     heading:"Keanu Reeves – Sexual Type 9",
     teaser:"SX9w1 · born 1964. Actor (The Matrix, John Wick). The quiet man who dissolves into every role – and in real life is even more humble than on screen. Animal correspondence: Sloth.",
@@ -29979,6 +29983,65 @@ function craigFosterPortraitPage() {
   `);
 }
 
+function anaSalcedaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ana-salceda-portrait.jpg" alt="Sloth" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ana Salceda</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Journalist &amp; filmmaker &ndash; director of "A Sloth Named Velcro" (PBS Nature, 2014) &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sloth</strong> is the animal of the sexual Nine &ndash; an animal defined not by activity, but by complete devotion to the one being it clings to. Ana Salceda, a Spanish print and television journalist, moved to Panama in 2000 &ndash; and, with no intention of doing so, became the caregiver of an orphaned baby pygmy sloth she named "Velcro," because it clung to her the way velcro sticks together.</p>
+          <p class="vb-intro">Unlike the other animal-researcher portraits in this compass, Salceda is not a scientist and does not claim to be a research authority. Her case is placed deliberately outside that series &ndash; as a standalone, remarkable example of the same archetypal principle showing up outside of science entirely: a woman who, purely personally and with no professional intention, fell into a merging relationship with a single sloth &ndash; and turned it into an award-winning film.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Nine: Merging as a Way of Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>sexual Nine (SX9)</strong> does not seek belonging to a group, but complete merging with a single beloved counterpart. For nearly two years, Salceda literally carried Velcro on her body without interruption &ndash; for the young animal's thermoregulation, but also as a daily, physical closeness that went far beyond ordinary caregiving. She later described the bond in words that show the SX9 in its purest form: "Velcro taught me to appreciate silence, to see nature from the inside out." And: "It was one of the best things that ever happened to me."</p>
+          <p class="vb-intro">This language &ndash; silence, merging, immersion into the inner rather than distant observation &ndash; almost exactly echoes what Craig Foster said about his octopus, or Jane Goodall about her first trusted chimpanzee, David Greybeard. Not the species, but the one individual being stands at the center &ndash; that is the sexual, not the social or self-preservation, instinctual variant.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Personal Experience Becomes Responsibility</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SX9 with a more muted One-wing would likely have left the experience with Velcro as a private, personal episode. In Salceda, it instead became a mission: when the time came to release Velcro back into the wild, Salceda stayed committed to the subject, returning years later to Central America to document how the situation for sloths had changed since Velcro entered her life &ndash; and who was now working to protect them.</p>
+          <p class="vb-intro">The result, in 2014, was the PBS Nature documentary "A Sloth Named Velcro" &ndash; filmed in Panama, Costa Rica, and Colombia, with an IMDb rating of 8.5. The film tells not only her own story but that of an entire network of people devoted to protecting sloths. This translation of a deeply personal bond into a careful, publicly researched narrative is the signature of the One-wing: private experience becomes an obligation one sees through with seriousness and precision.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A Case Outside Science &ndash; and Still Consistent</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Salceda's example shows that the match between animal correspondence and life's work is not limited to academic research careers. She did not become a sloth expert because she planned or studied it &ndash; she became one because, following her own archetypal pattern, she gave herself completely to a single being, and then pursued that experience with the same inner seriousness that characterizes the One-wing.</p>
+          <p class="vb-intro">This case is deliberately not mixed in with this compass's scientist animal-researcher portraits, but honored as a standalone, joyful example: another, independent confirmation of the same archetypal principle, this time outside of science.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Sloth That Clung to a Human &ndash; and Vice Versa</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ana Salceda's story shows the sexual Nine with a One-wing in its most personal form: not a planned career, but a chance, deeply personal merging with a single animal that, over the years, turned into a serious, responsible narrative.</p>
+          <p class="vb-intro">The sloth clings to what is close to it, and moves slowly, but with complete devotion. That is exactly what Salceda did &ndash; and in doing so, became something of a sloth herself, in a figurative sense: slow, devoted, unshakeably loyal to the one being that changed her life.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+          {route:"beruehmte-jane-goodall", label:"Portrait: Jane Goodall (SX9w1)"},
+          {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function keanuReevesPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -55718,6 +55781,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jane-goodall": janeGoodallPortraitPage,
       "beruehmte-laurie-marker": laurieMarkerPortraitPage,
       "beruehmte-craig-foster": craigFosterPortraitPage,
+      "beruehmte-ana-salceda": anaSalcedaPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
       "beruehmte-mario-barth": marioBarthPortraitPage,
