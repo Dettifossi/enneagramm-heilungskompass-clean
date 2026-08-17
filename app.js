@@ -24193,6 +24193,7 @@ const registerEntries = [
   { term: "Diego Velázquez",                route: "beruehmte-diego-velazquez",             description: "Portrait: SX9w1 · Sexueller Typ 9 · Maler" },
   { term: "Rihanna",                       route: "beruehmte-rihanna",                     description: "Portrait: SX4w3 \u00b7 Sexueller Typ 4 \u00b7 Pop-Superstar, Unternehmerin" },
   { term: "Billie Eilish",                 route: "beruehmte-billie-eilish",                description: "Portrait: SX4w3 \u00b7 Sexueller Typ 4 \u00b7 S\u00e4ngerin, Songwriterin" },
+  { term: "Thea Litschka-Koen",            route: "beruehmte-thea-litschka-koen",          description: "Portrait: SX1w2 \u00b7 Sexueller Typ 1 \u00b7 Schlangenexpertin, Gr\u00fcnderin der Eswatini Antivenom Foundation" },
   { term: "Robbie Williams",               route: "beruehmte-robbie-williams",             description: "Portrait: SX1w2 \u00b7 Sexueller Typ 1 \u00b7 S\u00e4nger, Entertainer, radikale Offenheit" },
   { term: "Romy Schneider",                route: "beruehmte-romy-schneider",              description: "Portrait: SO4w3 \u00b7 Sozialer Typ 4 \u00b7 Filmikone, Traum & Tragik" },
   { term: "Sadhguru",                      route: "beruehmte-sadhguru",                    description: "Portrait: SE3w2 \u00b7 Selbsterhaltender Typ 3 \u00b7 Yogi, spiritueller Lehrer, Isha Foundation" },
@@ -24534,6 +24535,7 @@ const registerEntriesEN = [
   { term: "Diego Velázquez", route: "beruehmte-diego-velazquez", description: "Portrait: SX9w1 · Sexual Type 9 · Painter" },
   { term: "Rihanna", route: "beruehmte-rihanna", description: "Portrait: SX4w3 \u00b7 Sexual Type 4 \u00b7 Pop-Superstar, Entrepreneur" },
   { term: "Billie Eilish", route: "beruehmte-billie-eilish", description: "Portrait: SX4w3 \u00b7 Sexual Type 4 \u00b7 Singer, songwriter" },
+  { term: "Thea Litschka-Koen", route: "beruehmte-thea-litschka-koen", description: "Portrait: SX1w2 \u00b7 Sexual Type 1 \u00b7 snake expert, founder of the Eswatini Antivenom Foundation" },
   { term: "Robbie Williams", route: "beruehmte-robbie-williams", description: "Portrait: SX1w2 \u00b7 Sexual Type 1 \u00b7 Singer, entertainer, radical honesty" },
   { term: "Romy Schneider", route: "beruehmte-romy-schneider", description: "Portrait: SO4w3 \u00b7 Social Type 4 \u00b7 Film icon, dream & tragedy" },
   { term: "Sadhguru", route: "beruehmte-sadhguru", description: "Portrait: SE3w2 \u00b7 Self-Preservation Type 3 \u00b7 Yogi, spiritual teacher, Isha Foundation" },
@@ -31464,6 +31466,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Grigori Rasputin \u2013 Sexueller Typ 1",
     teaser:"SX1w9 \u00b7 1869\u20131916. Wanderm\u00f6nch, Heiler, Vertrauter der Zarenfamilie. Ein Mann, der Petersburgs Salons mit brennenden Augen verst\u00f6rte und einen kranken Zarewitsch heilte, wo \u00c4rzte scheiterten \u2013 Reinheit und Rausch in derselben Gestalt. Tierentsprechung: Schwarze Mamba.",
     tags:["Geschichte"] , gender:"m"},
+  { route:"beruehmte-thea-litschka-koen", name:"Thea Litschka-Koen", added:"2026-08-17", subtyp:"SX1w2",
+    heading:"Thea Litschka-Koen \u2013 Sexueller Typ 1",
+    teaser:"SX1w2 \u00b7 Gr\u00fcnderin der Eswatini Antivenom Foundation, f\u00fchrende Expertin f\u00fcr Schwarze Mambas. Fast keine Todesf\u00e4lle mehr durch Schlangenbisse im Land dank ihres Antivenom-Bank-Systems. Tierentsprechung: Schwarze Mamba.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-robbie-williams", name:"Robbie Williams", added:"2026-07-30", subtyp:"SX1w2",
     heading:"Robbie Williams \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 geb. 1974. S\u00e4nger, Entertainer, ehemals Take That. Radikale Offenheit \u00fcber Sucht, Depression und Selbstzweifel \u2013 die Schwarze Mamba, die keine L\u00fcge ertr\u00e4gt, auch nicht die eigene. Tierentsprechung: Schwarze Mamba.",
@@ -35162,6 +35168,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-peter-sharpe", name:"Dr. Peter Sharpe", subtyp:"SE1w9", tier:"Adler"},
   {route:"beruehmte-konrad-lorenz", name:"Konrad Lorenz", subtyp:"SO1w9", tier:"Gans"},
   {route:"beruehmte-camille-fritsch", name:"Dr. Camille Fritsch", subtyp:"SE2w1", tier:"Flusspferd"},
+  {route:"beruehmte-thea-litschka-koen", name:"Thea Litschka-Koen", subtyp:"SX1w2", tier:"Schwarze Mamba"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -57192,6 +57199,65 @@ function jamieleecurtisPortraitPage() {
         {route:"beruehmte-leonardo-dicaprio", label:"Portr\u00e4t: Leonardo DiCaprio (SX1w2)"},
         {route:"beruehmte-christoph-waltz", label:"Portr\u00e4t: Christoph Waltz (SE1w2)"},
       ])}
+    </div>
+  `);
+}
+
+function theaLitschkaKoenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-thea-litschka-koen-portrait.jpg" alt="Schwarze Mamba" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Thea Litschka-Koen</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexuelle Typ 1 mit Zweierfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Gr\xfcnderin der Eswatini Antivenom Foundation &ndash; f\xfchrende Expertin f\xfcr Schwarze Mambas &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; blitzschnell, pr\xe4zise, kompromisslos, ohne Bosheit, aber auch ohne Verhandlungsspielraum. Thea Litschka-Koen gilt als eine der weltweit f\xfchrenden Expertinnen f\xfcr Schwarze Mambas &ndash; nicht durch ein Biologiestudium, sondern durch \xfcber f\xfcnfzehn Jahre praktische, akribisch aufgebaute Expertise im direkten Umgang mit genau dieser Schlangenart.</p>
+          <p class="vb-intro">Sie ist Mitglied im WHO Snakebite Panel of Experts und in der African Snakebite Advisory Group &ndash; eine von Fachkolleginnen und -kollegen anerkannte Autorit\xe4t, obwohl ihr beruflicher Hintergrund urspr\xfcnglich im Hotelmanagement lag. Genau das ist bemerkenswert: Wie bei Prof. Grahame Webb und dem Krokodil zeigt sich auch hier, dass wissenschaftliche Autorit\xe4t nicht zwingend \xfcber den akademischen Werdegang entsteht, sondern \xfcber jahrelange, unerbittlich genaue praktische Auseinandersetzung mit einem einzigen Gegenstand &ndash; eine Form von Wissenschaft, die sich in ihrer Genauigkeit von keiner Universit\xe4tskarriere unterscheidet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Unerbittliche Hingabe an die eine Sache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> nannte Naranjo <em>Eifersucht</em> oder <em>Zeal</em> &ndash; eine Leidenschaft, die sich nicht auf viele Dinge verteilt, sondern sich mit fast missionarischer Intensit\xe4t auf eine einzige Sache oder Beziehung konzentriert und dort keine Kompromisse duldet. Litschka-Koen, dritte Generation ihrer Familie in Eswatini (Swasiland), kam \xfcber ein Schulprojekt eines ihrer S\xf6hne zu Schlangen &ndash; und absolvierte daraufhin Mamba-Handling- und Bestimmungskurse, bis aus einer elterlichen Nebens\xe4chlichkeit eine Lebensaufgabe wurde.</p>
+          <p class="vb-intro">Sie gr\xfcndete die <em>Eswatini Antivenom Foundation</em> und baute ein landesweites System von &bdquo;Antivenom Banks&ldquo; auf &ndash; mit dem Ergebnis, dass Eswatini heute eine nahezu verschwindende Todesrate bei Schlangenbissen aufweist, ein zuvor unvorstellbares Ergebnis f\xfcr das Land. Ihr Zitat bringt die SX1-Haltung auf den Punkt: &bdquo;Wenn wir jedes Tier vernichten m\xfcssten, das uns schaden k\xf6nnte, bliebe nur wenig \xfcbrig.&ldquo; Das ist kein sentimentaler Tierschutz-Slogan, sondern eine feste moralische \xdcberzeugung, aus der eine unbeirrbare Lebenspraxis folgt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierfl\xfcgel: Die Partnerschaft als Fundament der Mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SX1 mit schw\xe4cher ausgepr\xe4gtem Neunerfl\xfcgel h\xe4tte ihre Mission vermutlich einsamer, distanzierter verfolgt. Bei Litschka-Koen zeigt sich stattdessen eine ausgepr\xe4gte Beziehungs- und F\xfcrsorgekomponente, die typisch f\xfcr den Zweierfl\xfcgel ist: Sie arbeitet gemeinsam mit ihrem Ehemann Clifton als festem Rettungsteam, r\xfcckt zu Notf\xe4llen aus und h\xe4lt Aufkl\xe4rungsveranstaltungen in l\xe4ndlichen Gemeinden ab. Sie bildet zudem freiwillige &bdquo;Community Snake Rescue Volunteers&ldquo; aus, die in entlegenen Regionen Konflikte zwischen Mensch und Schlange entsch\xe4rfen.</p>
+          <p class="vb-intro">Diese F\xfcrsorge hat einen realen emotionalen Preis: Litschka-Koen berichtet offen davon, wie belastend es ist, wenn sie eine Schlange retten muss, die zuvor ein Kind get\xf6tet hat &ndash; und trauernde Familien Rache statt Verst\xe4ndnis fordern. Genau in diesem Spannungsfeld zwischen unerbittlicher Sachüberzeugung (der Eins) und mitf\xfchlender N\xe4he zu Mensch und Tier gleicherma\xdfen (dem Zweierfl\xfcgel) zeigt sich die SX1w2 in ihrer reifsten Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ergebnisse, die f\xfcr sich sprechen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ihre Arbeit wurde 2009 in einer einst\xfcndigen BBC-Dokumentation mit dem Titel &bdquo;Black Mamba and Witch&ldquo; portr\xe4tiert. Sie ber\xe4t heute international an der Entwicklung einer globalen &bdquo;Snakebite Prevention and Treatment Roadmap&ldquo; mit &ndash; ohne durchg\xe4ngige staatliche Unterst\xfctzung, allein getragen von der Beharrlichkeit einer Frau, die sich einmal entschieden hat und seither nicht mehr abweicht.</p>
+          <p class="vb-intro">Diese Kombination aus messbarem, dokumentiertem Erfolg (die na­hezu verschwundene Sterblichkeitsrate) und pers\xf6nlicher, oft schmerzhafter N\xe4he zu den Betroffenen &ndash; Mensch wie Tier &ndash; ist die SX1w2 im Licht: Ergebnisse, die nicht aus kalter Berechnung entstehen, sondern aus einer Hingabe, die keine halben Sachen kennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Schlange, die Leben rettet, statt sie zu nehmen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thea Litschka-Koens Lebenswerk zeigt die sexuelle Eins mit Zweierfl\xfcgel in ihrer wirkungsvollsten Form: eine Frau, die sich einer einzigen, gef\xe4hrlichen Sache mit absoluter Konsequenz verschrieben hat &ndash; und die diese Konsequenz nicht zur Waffe, sondern zum Rettungsinstrument machte. Wie bei mehreren anderen Tierforscher-Portr\xe4ts dieses Kompasses steht auch hier die eigene Tierentsprechung exakt f\xfcr das Tier, dem ein ganzes Leben gewidmet wurde.</p>
+          <p class="vb-intro">Die Schwarze Mamba t\xf6tet nicht aus Bosheit, sondern folgt einem inneren Gesetz ohne Ausnahme. Litschka-Koen tut dasselbe &ndash; nur dass ihr Gesetz lautet: Kein Mensch soll an einem Schlangenbiss sterben m\xfcssen, den man h\xe4tte verhindern k\xf6nnen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+          {route:"beruehmte-robbie-williams", label:"Porträt: Robbie Williams (SX1w2)"},
+        ])}
+        ${animalResearcherMatchBlock("beruehmte-thea-litschka-koen")}
+      </div>
     </div>
   `);
 }
@@ -90347,6 +90413,7 @@ function render() {
       "beruehmte-diego-velazquez": diegoVelazquezPortraitPage,
       "beruehmte-jesus-christus": jesusChristusPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
+      "beruehmte-thea-litschka-koen": theaLitschkaKoenPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-frida-kahlo": fridaKahloPortraitPage,
       "beruehmte-marie-antoinette": marieAntoinettePortraitPage,
