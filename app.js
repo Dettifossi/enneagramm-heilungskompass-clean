@@ -24153,6 +24153,7 @@ const registerEntries = [
   { term: "Meg Ryan",                      route: "beruehmte-meg-ryan",                    description: "Portrait: SX3w4 \u00b7 Sexueller Typ 3 \u00b7 Schauspielerin, Romantik-Ikone" },
   { term: "Melanie Kreis",                 route: "beruehmte-melanie-kreis",               description: "Portrait: SO6w5 \u00b7 Sozialer Typ 6 \u00b7 CFO DHL Group, geb. 1971 Bonn" },
   { term: "Michael Schumacher",            route: "beruehmte-michael-schumacher",          description: "Portrait: SX6w7 \u00b7 Sexueller Typ 6 \u00b7 Formel-1-Legende, 7 Weltmeistertitel, geb. 1969 H\u00fcrth" },
+  { term: "Dian Fossey", route: "beruehmte-dian-fossey", description: "Portrait: SE7w8 · Selbsterhaltende Typ 7 · Primatologin, Gorillaforscherin, ermordet 1985" },
   { term: "Mariah Carey",                  route: "beruehmte-mariah-carey",               description: "Portrait: SE7w8 \xb7 Selbsterhaltender Typ 7 \xb7 S\xe4ngerin, 18 Nummer-1-Singles, All I Want for Christmas Is You" },
   { term: "Milow",                         route: "beruehmte-milow",                      description: "Portrait: SX2w1 \u00b7 Sexueller Typ 2 \u00b7 S\u00e4nger, Songwriter, Ayo Technology" },
   { term: "Wallace Shawn",                 route: "beruehmte-wallace-shawn",               description: "Portrait: SE7w6 \u00b7 Selbsterhaltender Typ 7 \u00b7 Schauspieler, Autor, Vizzini in Die Prinzessin Braut, Rex in Toy Story" },
@@ -24483,6 +24484,7 @@ const registerEntriesEN = [
   { term: "Meg Ryan", route: "beruehmte-meg-ryan", description: "Portrait: SX3w4 \u00b7 Sexual Type 3 \u00b7 Actress, Romantic icon" },
   { term: "Melanie Kreis", route: "beruehmte-melanie-kreis", description: "Portrait: SO6w5 \u00b7 Social Type 6 \u00b7 CFO DHL Group, b. 1971 Bonn" },
   { term: "Michael Schumacher", route: "beruehmte-michael-schumacher", description: "Portrait: SX6w7 \u00b7 Sexual Type 6 \u00b7 Formula 1 legend, 7 World Championships, b. 1969 H\u00fcrth" },
+  { term: "Dian Fossey", route: "beruehmte-dian-fossey", description: "Portrait: SE7w8 · Self-Preservation Type 7 · primatologist, gorilla researcher, murdered 1985" },
   { term: "Mariah Carey", route: "beruehmte-mariah-carey", description: "Portrait: SE7w8 \xb7 Self-Preservation Type 7 \xb7 S\xe4ngerin, 18 Nummer-1-Singles, All I Want for Christmas Is You" },
   { term: "Milow", route: "beruehmte-milow", description: "Portrait: SX2w1 \u00b7 Sexual Type 2 \u00b7 Singer, songwriter, Ayo Technology" },
   { term: "Wallace Shawn", route: "beruehmte-wallace-shawn", description: "Portrait: SE7w6 \u00b7 Self-Preservation Type 7 \u00b7 Actor, Author, Vizzini in Die Prinzessin Braut, Rex in Toy Story" },
@@ -32098,6 +32100,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Larry King \u2013 Selbsterhaltender Typ 7",
     teaser:"SE7w6 \u00b7 geb. 1933 in Brooklyn, gest. 2021. Talkshow-Moderator, \u201eLarry King Live\u201c auf CNN \u00fcber 25 Jahre, mehr als 50.000 Interviews. Der Gorilla, der jedes Gespr\u00e4ch zu einem sicheren Ort machte \u2013 und selbst am wenigsten preisgab.",
     tags:["Medien"], gender:"m"},
+  { route:"beruehmte-dian-fossey", name:"Dian Fossey", added:"2026-08-17", subtyp:"SE7w8",
+    heading:"Dian Fossey – Selbsterhaltende Typ 7",
+    teaser:"SE7w8 · 1932–1985 (ermordet). Primatologin, fast 18 Jahre Feldforschung an Berggorillas in Ruanda, gründete die Forschungsstation Karisoke. Sicherheit im selbst gewählten Revier, kompromisslose Verteidigung gegen Wilderer. Tierentsprechung: Gorilla.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-mariah-carey", name:"Mariah Carey", added:"2026-07-21", subtyp:"SE7w8",
     heading:"Mariah Carey \u2013 Selbsterhaltender Typ 7",
     teaser:"SE7w8 \u00b7 geb. 1969 in Huntington, New York. S\u00e4ngerin, Songwriterin, Produzentin. 18 Nummer-1-Singles, f\u00fcnf Oktaven, ein Weihnachtslied f\u00fcr die Ewigkeit. Der Gorilla mit Achterfl\u00fcgel: Freude als Recht, \u00dcberfluss als Heimat, Macht als Schutzschild.",
@@ -74209,6 +74215,69 @@ function charlesMansonPortraitPage() {
   `);
 }
 
+function dianFosseyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dian-fossey-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dian Fossey</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltende Typ 7 mit Achterfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Primatologin, 1932&ndash;1985 (ermordet) &ndash; Gorillaforscherin und Artenschützerin &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier der selbsterhaltenden Sieben &ndash; kr\xe4ftig, bodenst\xe4ndig, in sich ruhend, solange sein Revier nicht bedroht wird. Dian Fossey, 1932 in San Francisco geboren, verbrachte fast achtzehn Jahre nahezu ununterbrochen in derselben abgelegenen Berghütte in Ruanda, um Berggorillas zu erforschen &ndash; eine der l\xe4ngsten kontinuierlichen Feldstudien der Verhaltensforschung. 1985 wurde sie in genau dieser Hütte mit einer Machete erschlagen; der Fall gilt bis heute als ungel\xf6st.</p>
+          <p class="vb-intro">Kein Mensch verk\xf6rperte die Tierentsprechung der selbsterhaltenden Sieben so w\xf6rtlich wie Fossey: Sie lebte inmitten der Tiere, deren Verhalten sie erforschte, teilte deren Territorium, und wurde von ihnen zunehmend als Teil der eigenen Gruppe akzeptiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Sicherheit im selbst gewählten Revier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> ist nach Naranjo die bodenst\xe4ndigste der drei Siebener-Subtypen &ndash; keine rastlose Reiselust, keine B\xfchnenpr\xe4senz, sondern das Bed\xfcrfnis, sich einen eigenen, verl\xe4sslichen Mikrokosmos zu schaffen, in dem man vollst\xe4ndig zuhause ist. Fossey w\xe4hlte bewusst extreme Abgeschiedenheit: Sie baute die Forschungsstation Karisoke in den ruandischen Virunga-Bergen auf, weit entfernt von jeder Zivilisation, und blieb dort \xfcber fast zwei Jahrzehnte hinweg mit nur minimalem menschlichen Kontakt.</p>
+          <p class="vb-intro">Innerhalb dieses selbst geschaffenen Rahmens baute sie eine feste, familien\xe4hnliche Struktur auf &ndash; ein Team loyaler Fährtenleser und Assistenten, eine über Jahre gewachsene Vertrautheit mit einzelnen Gorillafamilien, allen voran mit dem jungen Gorillam\xe4nnchen Digit, zu dem sie eine au\xdfergew\xf6hnlich enge Bindung entwickelte. Das ist die SE7 in Reinform: Sicherheit nicht durch \xf6ffentliche Anerkennung, sondern durch ein selbst kontrolliertes, vertrautes Territorium samt eigener &bdquo;Familie&ldquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\xfcgel: Wenn Verteidigung zur Vergeltung wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SE7 mit schw\xe4cher ausgepr\xe4gtem Achterfl\xfcgel h\xe4tte auf die Bedrohung ihres Reviers durch Wilderer vermutlich mit Ausweichen oder Verhandeln reagiert. Bei Fossey trat stattdessen eine kompromisslose H\xe4rte hervor, sobald ihr Territorium oder ihre Gorillas angegriffen wurden: Als Wilderer 1977 Digit t\xf6teten, begann sie eine zunehmend erbitterte Kampagne gegen Wilderei &ndash; sie lie\xdf Hütten von Wilderern niederbrennen, setzte Kopfgelder aus und griff zu Methoden, die selbst unter Naturschützern als radikal galten.</p>
+          <p class="vb-intro">Wichtig f\xfcr die richtige Einordnung: Das war keine Machtausübung um ihrer selbst willen, wie man es bei einer reinen Acht erwarten w\xfcrde, sondern reine Verteidigung des eigenen Reviers und der eigenen &bdquo;Familie&ldquo;. Zeitzeugen beschrieben sie als warmherzig gegen\xfcber ihren Vertrauten, aber erbarmungslos gegen\xfcber allem, was ihre Gorillas bedrohte &ndash; genau das Muster, das wir bei Andreas Baaders &bdquo;verdeckter Acht&ldquo; schon gesehen haben: Die Sieben zieht sich in ihr sicheres Revier zur\xfcck, doch wenn dieses Revier angegriffen wird, schl\xe4gt sie ohne Z\xf6gern zur\xfcck.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die zunehmende Isolation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Je l\xe4nger Fossey in den Bergen lebte, desto misstrauischer und zur\xfcckgezogener wurde sie gegen\xfcber Menschen, einschlie\xdflich Kollegen und der lokalen Bev\xf6lkerung. Ihr Verh\xe4ltnis zu den umliegenden Gemeinden verschlechterte sich zusehends, je entschiedener sie gegen Wilderei vorging. Diese wachsende Isolation ist eine typische Kehrseite der SE7 unter Druck: Das eigene Sicherheitsrevier wird immer enger definiert, bis fast niemand mehr hineinpasst au\xdfer den engsten Vertrauten und den Tieren selbst.</p>
+          <p class="vb-intro">1985 wurde sie in ihrer Hütte in Karisoke mit einer Machete get\xf6tet. Der Mord wird bis heute meist in Zusammenhang mit ihrem erbitterten Kampf gegen Wilderer gesehen, wurde jedoch nie offiziell aufgekl\xe4rt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Ein Erbe, das \xfcberlebte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fosseys Buch &bdquo;Gorillas im Nebel&ldquo; (1983) und die gleichnamige Verfilmung machten die Bedrohung der Berggorillas weltweit bekannt. Die von ihr gegr\xfcndete Forschungsstation Karisoke besteht bis heute, ebenso wie der internationale Naturschutz f\xfcr Berggorillas, der ma\xdfgeblich auf ihrer Pionierarbeit aufbaut. Die Population der Berggorillas, die zu ihren Lebzeiten kurz vor dem Aussterben stand, hat sich seither langsam erholt.</p>
+          <p class="vb-intro">Das ist die SE7w8 in ihrer wirkungsvollsten Form: Aus einem pers\xf6nlichen, fast obsessiven Bed\xfcrfnis nach einem eigenen, sicheren Revier entstand ein Verm\xe4chtnis, das weit \xfcber die eigene Lebensspanne hinausreicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Gorilla, der sein Revier bis zuletzt verteidigte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dian Fosseys Leben zeigt die selbsterhaltende Sieben mit Achterfl\xfcgel in ihrer extremsten, konsequentesten Form: die Wahl eines selbst gestalteten, abgeschiedenen Lebensraums, die tiefe Bindung an eine familien\xe4hnliche Gruppe &ndash; und die kompromisslose Bereitschaft, dieses Revier notfalls mit Gewalt zu verteidigen. Anders als bei Junko Tabei, deren Sechserfl\xfcgel Gemeinschaft und Zugeh\xf6rigkeit betonte, zeigte sich bei Fossey der Achterfl\xfcgel als H\xe4rte gegen alles, was von au\xdfen bedrohte.</p>
+          <p class="vb-intro">Der Gorilla bleibt in seinem Revier, geduldig und gelassen &ndash; bis zu dem Moment, in dem die Familie bedroht wird. Dann verteidigt er sie ohne R\xfccksicht auf die eigene Sicherheit. Genau das tat Fossey, bis zu ihrem eigenen gewaltsamen Tod in genau jenem Revier, das sie sich geschaffen hatte, um sicher zu sein.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-junko-tabei", label:"Portr\xe4t: Junko Tabei (SE7w6)"},
+          {route:"kriminalpsychologie-andreas-baader", label:"Kriminalpsychologie: Andreas Baader (SE7w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function andreasBaaderPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -89649,6 +89718,7 @@ function render() {
       "kriminalpsychologie-anders-breivik": andersBreivikPortraitPage,
       "kriminalpsychologie-armin-meiwes": arminMeiwesPortraitPage,
       "kriminalpsychologie-niels-hoegel": nielsHoegelPortraitPage,
+      "beruehmte-dian-fossey": dianFosseyPortraitPage,
       "kriminalpsychologie-andreas-baader": andreasBaaderPortraitPage,
       "kriminalpsychologie-ulrike-meinhof": ulrikeMeinhofPortraitPage,
       "kriminalpsychologie-clyde-barrow": clydeBarrowPortraitPage,
