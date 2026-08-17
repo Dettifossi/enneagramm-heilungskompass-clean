@@ -366,6 +366,7 @@ export const registerEntries = [
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
   { term: "Sexuelle Drei (dunkle Seite)", route: "kriminalpsychologie-luka-magnotta", description: "Die destruktive Auspr\xe4gung der Sexuellen Drei: Charisma, Identit\xe4tsleere und pathologische Aufmerksamkeitssuche" },
   { term: "Adolf Hitler", route: "kriminalpsychologie-adolf-hitler", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 4 mit Fl\xfcgel 3, Neid als Vernichtungswille, SX4w3-Analyse" },
+  { term: "Bonnie Parker", route: "kriminalpsychologie-bonnie-parker", description: "Kriminalpsychologisches Portrait: SX4w3 – Hälfte von \"Bonnie and Clyde\", getötet 1934 im Polizeihinterhalt" },
   { term: "Sexuelle Vier (dunkle Seite)", route: "kriminalpsychologie-adolf-hitler", description: "Die destruktive Auspr\xe4gung der Sexuellen Vier: Rivalit\xe4t, Grandiosit\xe4t und Vernichtungswille" },
   { term: "Soziale Eins (dunkle Seite)", route: "kriminalpsychologie-ted-bundy", description: "Die destruktive Ausprägung der sozialen Eins: Selbstt\xe4uschung, Perfektionismus und Doppelleben" },
   // Heilmittel-Unterseiten
@@ -1308,6 +1309,7 @@ export const registerEntriesEN = [
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Criminal psychological portrait: Sexual Type 3, murder as self-staging, SX3 analysis" },
   { term: "Sexual Three (Dark Side)", route: "kriminalpsychologie-luka-magnotta", description: "The destructive manifestation of the Sexual Three: charisma, emptiness of identity, and pathological attention-seeking" },
   { term: "Adolf Hitler", route: "kriminalpsychologie-adolf-hitler", description: "Criminal psychological portrait: Sexual Type 4 with 3 wing, envy as a will to destroy, SX4w3 analysis" },
+  { term: "Bonnie Parker", route: "kriminalpsychologie-bonnie-parker", description: "Criminal psychological portrait: SX4w3 – half of \"Bonnie and Clyde\", killed 1934 in a police ambush" },
   { term: "Sexual Four (Dark Side)", route: "kriminalpsychologie-adolf-hitler", description: "The destructive manifestation of the Sexual Four: rivalry, grandiosity, and a will to destroy" },
   { term: "Social One (Dark Side)", route: "kriminalpsychologie-ted-bundy", description: "The destructive manifestation of the Social One: self-deception, perfectionism, and a double life" },
   { term: "Essential Oils (Subtype Page)", route: "aetherische-oele", description: "Essential oils for all 27 subtypes – specific scent recommendations and mode of action" },

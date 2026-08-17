@@ -145,6 +145,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-richard-ramirez",     name:"Richard Ramírez",                     subtyp:"SX3w4",  heading:"Richard Ramírez – Sexual Type 3",                                     teaser:"SX3w4 – 'The Night Stalker', born 1960, died 2013. 13 murders, rapes, burglaries in Southern California 1984–1985. Satanic iconography, staging of evil, groupies in the courtroom – the sexual Three with Four-wing: self-mythologization as lethal weapon. Animal correspondence: Peacock." , tags:["Sonstiges"]},
   { route:"kriminalpsychologie-david-berkowitz",      name:"David Berkowitz",                     subtyp:"SE4w3",  heading:"David Berkowitz – Self-Preservation Type 4",                          teaser:"SP4w3 – 'Son of Sam', New York 1976–77. Six murders, confessional letters, deep loneliness pain – the self-preservation Four with Three-wing: envy as destruction of the desired." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-elliot-rodger",       name:"Elliot Rodger",                       subtyp:"SO4w5",  heading:"Elliot Rodger – Social Type 4",                                        teaser:"SO4w5 – Isla Vista massacre 2014. 6 dead, 14 injured – the social Four with Five-wing: envy as world judgment, exclusion as mandate for annihilation. Animal correspondence: Armadillo." , tags:["Terror"]},
+  { route:"kriminalpsychologie-bonnie-parker",        name:"Bonnie Parker",                       subtyp:"SX4w3",  heading:"Bonnie Parker – Sexual Type 4",                                       teaser:"SX4w3 – Half of \"Bonnie and Clyde\", 1910–1934. 21-month crime spree across the American Midwest, self-mythologizing poems, killed in a police ambush. The relationship as a tragic work of art, the Three wing as a public stage. Animal correspondence: Chihuahua." , tags:["Serienmord","Raub"], gender:"f"},
   { route:"kriminalpsychologie-adolf-hitler",        name:"Adolf Hitler",                        subtyp:"SX4w3",  heading:"Adolf Hitler \u2013 Sexual Type 4",                                      teaser:"SX4w3 – Dictator, 1889–1945. Chief responsible for the Holocaust and World War II. The sexual Four with Three-wing in its darkest manifestation: envy as will to annihilation." , tags:["Terror"]},
   { route:"kriminalpsychologie-joachim-kroll",        name:"Joachim Kroll",                       subtyp:"SE5w6",  heading:"Joachim Kroll \u2013 Self-Preservation Type 5",                             teaser:"SP5w6 – Sewage worker and serial killer, 1933–1991. At least 8 victims in the Ruhr area between 1955 and 1976. The ‘Ruhr Cannibal’: radical withdrawal, extreme resource scarcity and the darkest manifestation of the self-preservation Five." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-ted-kaczynski",      name:"Dr. Ted Kaczynski",                        subtyp:"SO5w4",  heading:"Ted Kaczynski \u2013 Social Type 5",                                       teaser:"SO5w4 – ‘Unabomber’, 1942–2023. Bombings 1978–1995, 3 dead, 23 injured – the social Five with Four-wing: knowledge as world judgment, intellectual superiority as mission mandate. Animal correspondence: Octopus." , tags:["Terror"]},
@@ -34499,6 +34500,86 @@ function elliotRodgerPortraitPage() {
     </div>
   `);
 }
+function bonnieParkerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Bonnie Parker – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bonnie-parker-portrait.jpg" alt="Bonnie Parker – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bonnie Parker</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with Three-wing</p>
+        <p class="krim-portrait-sub">Half of "Bonnie and Clyde" &middot; Animal Correspondence: Chihuahua</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Chihuahua</h3>
+        <p class="vb-intro">The <strong>chihuahua</strong> is the animal of the sexual Four – small, but carrying an intensity wildly out of proportion to its size. It does not seek attention in general, but total, exclusive closeness to a single person – and is willing to take any risk for it. Bonnie Parker, born in Texas in 1910, a gifted student with a strong interest in poetry and literature, embodied exactly this quality: small, energetic, unshakeably devoted to one man, all the way to their shared death.</p>
+        <p class="vb-intro">In 1930, at nineteen, she met Clyde Barrow. What followed was a 21-month crime spree across the American Midwest, allegedly responsible for at least 13 killings, numerous robberies and kidnappings – until both were shot dead in a police ambush in Louisiana on May 23, 1934. Bonnie was 23 years old.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The sexual Four: Tragic love as a work of art</h3>
+        <p class="vb-intro">Naranjo called the <strong>sexual Four (SX4)</strong> the subtype of <em>Competition/Envy</em> – an intensity focused entirely on one extraordinary relationship, often carried by a dark premonition of one's own downfall that does not diminish the love, but completes it. Throughout the flight, Bonnie wrote poems chronicling her relationship with Clyde – among them "The Story of Suicide Sal" and "The Trail's End", which almost prophetically anticipated her own violent death.</p>
+        <p class="vb-intro">This is the SX4 in its purest form: the relationship is not simply lived, but simultaneously shaped as a narrative – a love that understands itself as tragic, unique, and unrepeatable, and that draws its intensity precisely from that tragedy. Bonnie knew the likely ending and kept writing toward it anyway – or precisely because of it.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Three wing: The deliberate performance</h3>
+        <p class="vb-intro">An SX4 with a more muted Three wing would likely have processed her feelings privately, without any drive to display them to an audience. In Bonnie's case, a pronounced awareness of her own public image emerged instead: she deliberately sent her poems to newspapers. The now-iconic photographs of her posing with a cigar and a pistol were consciously staged – calculated images that substantially fed the legend of "Bonnie and Clyde".</p>
+        <p class="vb-intro">This is the Three wing on the Four: her own tragedy did not stay private experience, but was deliberately carried outward, shaped, published. Bonnie did not just want to feel what she felt – she wanted the world to see it, and the story that emerged from it to stay exactly as she herself had told it.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The legend as a shared project</h3>
+        <p class="vb-intro">Bonnie and Clyde could have split up and gone into hiding separately several times over – their individual chances of survival would have been higher. Instead they stayed together to the end, even though both knew the risk was growing. From the SX4 perspective this makes sense: the relationship itself was the actual work of art, and one does not dismantle a work of art for the sake of safety.</p>
+        <p class="vb-intro">The press, the public fascination, their own myth-making – all of it kept feeding the story rather than ending it. Bonnie seemed to understand that, in her version of the story, fame and downfall were inseparable.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The end in Louisiana</h3>
+        <p class="vb-intro">On May 23, 1934, Bonnie and Clyde were killed in an ambush by a six-man posse on a rural road in Bienville Parish, Louisiana. Their car was riddled with over 130 rounds. Bonnie's last poem, "The Trail's End", closed with lines that anticipated exactly this death: a wish to die together, to be buried together – a wish their families ultimately did not honor.</p>
+        <p class="vb-intro">The SX4 seeks intensity to the very end, even when that intensity means one's own death. Bonnie had already anticipated this outcome in writing, long before it happened.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram reveals</h3>
+        <p class="vb-intro"><strong>a) The relationship as a work of art:</strong> Bonnie's entire pattern of behavior can be read as an attempt to turn a real, dangerous relationship into a deliberately shaped narrative – the SX4 in its purest form.</p>
+        <p class="vb-intro"><strong>b) The Three wing as a public stage:</strong> An SX4 with a more muted Three wing would likely have kept her poems to herself. Bonnie's active mailing of them to newspapers, and the staged photographs, show a strongly developed Three wing that turned private tragedy into public legend.</p>
+        <p class="vb-intro"><strong>c) Anticipation instead of surprise:</strong> That Bonnie anticipated her own death in writing shows the characteristic SX4 ability to already experience one's own fate as a story before it happens.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Bonnie Parker</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SX4w3 – Sexual Four with Three-wing</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Passion:</strong> Envy (as the dark, dramatized uniqueness of the one great relationship)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Animal Correspondence:</strong> Chihuahua</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Life dates:</strong> October 1, 1910 – May 23, 1934</span>
+          <span style="display:block;"><strong>Known for:</strong> Half of the outlaw couple "Bonnie and Clyde", 21-month crime spree across the American Midwest (1932–1934), author of self-mythologizing poems, killed in a police ambush</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual Four compared: how envy becomes the tragic, dramatized uniqueness of a relationship – and why the Three wing turns quiet suffering into public legend.", "The Hidden Dynamics of the 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE4, SO4, SX4 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Envy as the core motive of the Four: how the Four's protective system forms – and how it dissolves through healing.", "Who You Really Are (Volume 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type assignment is a psychological hypothesis, not a historical verdict. Bonnie Parker was held jointly responsible for at least 13 killings and died in 1934 in a police operation. The Enneagram explains, it does not justify.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-adolf-hitler", label:"Criminal Psychology: Adolf Hitler (SX4w3)"},
+          {route:"kriminalpsychologie-gudrun-ensslin", label:"Criminal Psychology: Gudrun Ensslin (SX7w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function adolfHitlerPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -37507,7 +37588,7 @@ function jeanneWeberPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The One wing: The inner compulsion</h3>
         <p class="vb-intro">An SE2 with a more muted One wing might have stopped after the first act, or at least grown more careful. In Weber's case, a rigid, almost compulsive repetition emerged instead: the same constellation – a child briefly alone with her – repeated itself over years in different places, with different children, despite mounting investigations and public attention.</p>
-        <p class="vb-intro">This inability to deviate from an established pattern, even as the risk of discovery became obvious, is the One wing at its darkest: not calculated deliberation, but an inner compulsion stronger than any caution. Unlike a Two-wing pattern built on display or status, there was no public stage here – Weber sought no attention, no social advancement. Each time, she simply and persistently denied everything.</p>
+        <p class="vb-intro">This inability to deviate from an established pattern, even as the risk of discovery became obvious, is the One wing at its darkest: not calculated deliberation, but an inner compulsion stronger than any caution. Unlike a Three-wing pattern built on display or status, there was no public stage here – Weber sought no attention, no social advancement. Each time, she simply and persistently denied everything.</p>
       </div>
 
       <div class="vb-section">
@@ -54796,6 +54877,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-wade-wilson": wadeWilsonPortraitPage,
             "kriminalpsychologie-elliot-rodger": elliotRodgerPortraitPage,
       "kriminalpsychologie-adolf-hitler": adolfHitlerPortraitPage,
+      "kriminalpsychologie-bonnie-parker": bonnieParkerPortraitPage,
       "kriminalpsychologie-paul-ogorzow": paulOgorzowPortraitPage,
       "kriminalpsychologie-frank-abagnale-jr": frankAbagnalePortraitPage,
     "favoriten": favoritenPage,

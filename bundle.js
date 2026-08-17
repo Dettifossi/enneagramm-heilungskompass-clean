@@ -23955,6 +23955,7 @@ const registerEntries = [
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
   { term: "Sexuelle Drei (dunkle Seite)", route: "kriminalpsychologie-luka-magnotta", description: "Die destruktive Auspr\xe4gung der Sexuellen Drei: Charisma, Identit\xe4tsleere und pathologische Aufmerksamkeitssuche" },
   { term: "Adolf Hitler", route: "kriminalpsychologie-adolf-hitler", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 4 mit Fl\xfcgel 3, Neid als Vernichtungswille, SX4w3-Analyse" },
+  { term: "Bonnie Parker", route: "kriminalpsychologie-bonnie-parker", description: "Kriminalpsychologisches Portrait: SX4w3 – Hälfte von \"Bonnie and Clyde\", getötet 1934 im Polizeihinterhalt" },
   { term: "Sexuelle Vier (dunkle Seite)", route: "kriminalpsychologie-adolf-hitler", description: "Die destruktive Auspr\xe4gung der Sexuellen Vier: Rivalit\xe4t, Grandiosit\xe4t und Vernichtungswille" },
   { term: "Soziale Eins (dunkle Seite)", route: "kriminalpsychologie-ted-bundy", description: "Die destruktive Auspr\u00e4gung der sozialen Eins: Selbstt\xe4uschung, Perfektionismus und Doppelleben" },
   // Heilmittel-Unterseiten
@@ -24790,6 +24791,7 @@ const registerEntriesEN = [
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Criminal psychological portrait: Sexual Type 3, murder as self-staging, SX3 analysis" },
   { term: "Sexual Three (Dark Side)", route: "kriminalpsychologie-luka-magnotta", description: "The destructive manifestation of the Sexual Three: charisma, emptiness of identity, and pathological attention-seeking" },
   { term: "Adolf Hitler", route: "kriminalpsychologie-adolf-hitler", description: "Criminal psychological portrait: Sexual Type 4 with 3 wing, envy as a will to destroy, SX4w3 analysis" },
+  { term: "Bonnie Parker", route: "kriminalpsychologie-bonnie-parker", description: "Criminal psychological portrait: SX4w3 – half of \"Bonnie and Clyde\", killed 1934 in a police ambush" },
   { term: "Sexual Four (Dark Side)", route: "kriminalpsychologie-adolf-hitler", description: "The destructive manifestation of the Sexual Four: rivalry, grandiosity, and a will to destroy" },
   { term: "Social One (Dark Side)", route: "kriminalpsychologie-ted-bundy", description: "The destructive manifestation of the Social One: self-deception, perfectionism, and a double life" },
   { term: "Essential Oils (Subtype Page)", route: "aetherische-oele", description: "Essential oils for all 27 subtypes \u2013 specific scent recommendations and mode of action" },
@@ -31278,6 +31280,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-richard-ramirez",     name:"Richard Ram\u00edrez",                     subtyp:"SX3w4",  heading:"Richard Ram\u00edrez \u2013 Sexueller Typ 3",                                     teaser:"SX3w4 \u2013 'Der Night Stalker', geb. 1960, gest. 2013. 13 Morde, Vergewaltigungen, Einbr\u00fcche in S\u00fcdkalifornien 1984\u20131985. Satanische Ikonografie, Inszenierung des B\u00f6sen, Groupies im Gerichtssaal \u2013 die sexuelle Drei mit Viererfl\u00fcgel: Selbstmythologisierung als Todeswaffe. Tierentsprechung: Pfau." , tags:["Sonstiges"], gender:"m"},
   { route:"kriminalpsychologie-david-berkowitz",      name:"David Berkowitz",                     subtyp:"SE4w3",  heading:"David Berkowitz \u2013 Selbsterhaltender Typ 4",                          teaser:"SE4w3 \u2013 \u201eSon of Sam\u201c, New York 1976\u201377. Sechs Morde, Bekennerbriefe, tiefer Einsamkeitsschmerz \u2013 die selbsterhaltende Vier mit Dreierfl\u00fcgel: Neid als Vernichtung des Begehrten." , tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-elliot-rodger",       name:"Elliot Rodger",                       subtyp:"SO4w5",  heading:"Elliot Rodger \u2013 Sozialer Typ 4",                                        teaser:"SO4w5 \u2013 Isla-Vista-Massaker 2014. 6 Tote, 14 Verletzte \u2013 die soziale Vier mit F\xfcnferfl\xfcgel: Neid als Weltgericht, Ausgeschlossenheit als Vernichtungsauftrag. Tierentsprechung: G\xfcrteltier." , tags:["Terror"], gender:"m"},
+  { route:"kriminalpsychologie-bonnie-parker",        name:"Bonnie Parker",                       subtyp:"SX4w3",  heading:"Bonnie Parker – Sexuelle Typ 4",                                       teaser:"SX4w3 – Hälfte von „Bonnie and Clyde\", 1910–1934. 21 Monate Verbrecherjagd durch den mittleren Westen der USA, selbstmythologisierende Gedichte, getötet in einem Polizeihinterhalt. Die Beziehung als tragisches Kunstwerk, der Dreierflügel als öffentliche Bühne. Tierentsprechung: Chihuahua." , tags:["Serienmord","Raub"], gender:"f"},
   { route:"kriminalpsychologie-adolf-hitler",        name:"Adolf Hitler",                        subtyp:"SX4w3",  heading:"Adolf Hitler \u2013 Sexueller Typ 4",                                      teaser:"SX4w3 \u2013 Diktator, 1889\u20131945. Hauptverantwortlicher f\xfcr Holocaust und Weltkrieg. Die sexuelle Vier mit Dreierfl\xfcgel in ihrer dunkelsten Auspr\xe4gung: Neid als Vernichtungswille." , tags:["Terror"], gender:"m"},
   { route:"kriminalpsychologie-joachim-kroll",        name:"Joachim Kroll",                       subtyp:"SE5w6",  heading:"Joachim Kroll \u2013 Selbsterhaltender Typ 5",                             teaser:"SE5w6 \u2013 Kanalarbeiter und Serienm\xf6rder, 1933\u20131991. Mindestens 8 Opfer im Ruhrgebiet zwischen 1955 und 1976. Der \u201eRuhrkannibale\u201c: radikaler R\xfcckzug, extreme Ressourcenknappheit und die dunkelste Auspr\xe4gung der selbsterhaltenden F\xfcnf." , tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-ted-kaczynski",      name:"Dr. Ted Kaczynski",                        subtyp:"SO5w4",  heading:"Ted Kaczynski \u2013 Sozialer Typ 5",                                       teaser:"SO5w4 \u2013 'Unabomber', 1942\u20132023. Bombenanschl\xe4ge 1978\u20131995, 3 Tote, 23 Verletzte \u2013 die soziale F\xfcnf mit Viererfl\xfcgel: Wissen als Weltgericht, intellektuelle \xdcberlegenheit als Sendungsauftrag. Tierentsprechung: Oktopus." , tags:["Terror"], gender:"m"},
@@ -61258,6 +61261,86 @@ function elliotRodgerPortraitPage() {
     </div>
   `);
 }
+function bonnieParkerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Bonnie Parker – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bonnie-parker-portrait.jpg" alt="Bonnie Parker – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bonnie Parker</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexuelle Typ 4 mit Dreierfl\xfcgel</p>
+        <p class="krim-portrait-sub">H\xe4lfte von &bdquo;Bonnie and Clyde&ldquo; &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Chihuahua</h3>
+        <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier &ndash; klein, aber von einer Intensit\xe4t, die in keinem Verh\xe4ltnis zur eigenen Gr\xf6\xdfe steht. Er verlangt nicht nach Aufmerksamkeit im Allgemeinen, sondern nach der totalen, ausschlie\xdflichen N\xe4he zu einem einzigen Menschen &ndash; und ist bereit, daf\xfcr jedes Risiko einzugehen. Bonnie Parker, 1910 in Texas geboren, eine begabte Sch\xfclerin mit ausgepr\xe4gtem Interesse an Lyrik und Literatur, verk\xf6rperte genau diese Qualit\xe4t: klein, energiegeladen, unbeirrbar an der Seite eines einzigen Mannes, bis in den gemeinsamen Tod.</p>
+        <p class="vb-intro">1930 lernte sie Clyde Barrow kennen, mit neunzehn Jahren. Was folgte, war eine 21 Monate dauernde Verbrecherjagd durch den mittleren Westen der USA, mutma\xdflich verantwortlich f\xfcr mindestens 13 T\xf6tungen, zahlreiche \xdcberf\xe4lle und Entf\xfchrungen &ndash; bis beide am 23. Mai 1934 in einem Polizeihinterhalt in Louisiana erschossen wurden. Bonnie war 23 Jahre alt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Vier: Die tragische Liebe als Kunstwerk</h3>
+        <p class="vb-intro">Naranjo nannte die <strong>sexuelle Vier (SX4)</strong> den Subtyp des <em>Konkurrenzneids</em> &ndash; eine Intensit\xe4t, die sich ganz auf die eine, au\xdfergew\xf6hnliche Beziehung richtet, oft getragen von einer d\xfcsteren Vorahnung des eigenen Untergangs, die die Liebe nicht schm\xe4lert, sondern erst vollst\xe4ndig macht. W\xe4hrend der gesamten Flucht schrieb Bonnie Gedichte, die ihre Beziehung zu Clyde chronisierten &ndash; darunter &bdquo;The Story of Suicide Sal&ldquo; und &bdquo;The Trail's End&ldquo;, das ihren eigenen gewaltsamen Tod fast prophetisch vorwegnahm.</p>
+        <p class="vb-intro">Das ist die SX4 in Reinform: Die Beziehung wird nicht einfach gelebt, sondern zugleich als Erz\xe4hlung gestaltet &ndash; eine Liebe, die sich selbst als tragisch, einzigartig und unwiederholbar begreift, und die genau aus dieser Tragik ihre Intensit\xe4t bezieht. Bonnie wusste um das wahrscheinliche Ende und schrieb trotzdem &ndash; oder gerade deswegen &ndash; weiter daran, es literarisch zu gestalten.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Dreierfl\xfcgel: Die bewusste Inszenierung</h3>
+        <p class="vb-intro">Eine SX4 mit schw\xe4cher ausgepr\xe4gtem Dreierfl\xfcgel h\xe4tte ihre Gef\xfchle vermutlich privat verarbeitet, ohne den Drang, sie einem Publikum zu zeigen. Bei Bonnie trat stattdessen ein ausgepr\xe4gtes Bewusstsein f\xfcr die eigene \xf6ffentliche Wirkung hervor: Sie schickte ihre Gedichte gezielt an Zeitungen. Die inzwischen ikonischen Fotos, auf denen sie mit Zigarre und Pistole posiert, waren bewusst inszeniert &ndash; kalkulierte Bilder, die zur Legende von &bdquo;Bonnie and Clyde&ldquo; wesentlich beitrugen.</p>
+        <p class="vb-intro">Das ist der Dreierfl\xfcgel bei der Vier: Die eigene Tragik bleibt nicht privates Erleben, sondern wird bewusst nach au\xdfen getragen, gestaltet, ver\xf6ffentlicht. Bonnie wollte nicht nur f\xfchlen, was sie f\xfchlte &ndash; sie wollte, dass die Welt sah, was sie f\xfchlte, und dass die Geschichte, die daraus wurde, so blieb, wie sie sie selbst erz\xe4hlt hatte.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die Legende als gemeinsames Projekt</h3>
+        <p class="vb-intro">Bonnie und Clyde h\xe4tten sich mehrfach trennen und einzeln untertauchen k\xf6nnen &ndash; ihre \xdcberlebenschancen w\xe4ren einzeln h\xf6her gewesen. Stattdessen blieben sie zusammen, bis zuletzt, obwohl beide um das wachsende Risiko wussten. Aus der Perspektive der SX4 ergibt das Sinn: Die Beziehung selbst war das eigentliche Kunstwerk, und ein Kunstwerk zerst\xf6rt man nicht aus Sicherheitsgr\xfcnden.</p>
+        <p class="vb-intro">Die Presse, die \xf6ffentliche Faszination, die eigene Legendenbildung &ndash; all das n\xe4hrte die Geschichte weiter, anstatt sie zu beenden. Bonnie schien zu verstehen, dass Ber\xfchmtheit und Untergang in ihrer Version der Geschichte untrennbar miteinander verbunden waren.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Das Ende in Louisiana</h3>
+        <p class="vb-intro">Am 23. Mai 1934 wurden Bonnie und Clyde auf einer Landstra\xdfe in Bienville Parish, Louisiana, von einem sechsk\xf6pfigen Polizeikommando in einem Hinterhalt get\xf6tet. Das Fahrzeug wurde von \xfcber 130 Gewehrsch\xfcssen durchsiebt. Bonnies letztes Gedicht, &bdquo;The Trail's End&ldquo;, endete mit Zeilen, die genau diesen Tod vorwegnahmen: gemeinsam sterben, gemeinsam begraben werden wollen &ndash; ein Wunsch, dem die Familien am Ende jedoch nicht folgten.</p>
+        <p class="vb-intro">Die SX4 sucht die Intensit\xe4t bis zum Letzten, selbst wenn diese Intensit\xe4t den eigenen Tod bedeutet. Bonnie hatte diesen Ausgang literarisch bereits vorweggenommen, lange bevor er eintrat.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro"><strong>a) Die Beziehung als Kunstwerk:</strong> Bonnies gesamtes Handeln l\xe4sst sich als der Versuch lesen, aus einer realen, gef\xe4hrlichen Beziehung eine bewusst gestaltete Erz\xe4hlung zu machen &ndash; die SX4 in ihrer reinsten Form.</p>
+        <p class="vb-intro"><strong>b) Der Dreierfl\xfcgel als \xf6ffentliche B\xfchne:</strong> Eine SX4 mit schw\xe4cher ausgepr\xe4gtem Dreierfl\xfcgel h\xe4tte ihre Gedichte vermutlich f\xfcr sich behalten. Bonnies aktives Verschicken an Zeitungen und die inszenierten Fotos zeigen einen stark ausgepr\xe4gten Dreierfl\xfcgel, der die private Tragik zur \xf6ffentlichen Legende machte.</p>
+        <p class="vb-intro"><strong>c) Vorwegnahme statt \xdcberraschung:</strong> Dass Bonnie ihren eigenen Tod literarisch vorwegnahm, zeigt die charakteristische SX4-F\xe4higkeit, das eigene Schicksal bereits als Geschichte zu erleben, bevor es geschieht.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Bonnie Parker</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SX4w3 &ndash; Sexuelle Vier mit Dreierfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Neid (als d\xfcstere, dramatisierte Einzigartigkeit der einen gro\xdfen Beziehung)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Chihuahua</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 1. Oktober 1910 &ndash; 23. Mai 1934</span>
+          <span style="display:block;"><strong>Bekannt f\xfcr:</strong> H\xe4lfte des Gangsterpaars &bdquo;Bonnie and Clyde&ldquo;, 21 Monate Verbrecherjagd durch den mittleren Westen der USA (1932&ndash;1934), Autorin selbstmythologisierender Gedichte, get\xf6tet in einem Polizeihinterhalt</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Vier im Vergleich: Wie Neid zur tragischen, dramatisierten Einzigartigkeit einer Beziehung wird – und warum der Dreierflügel aus stillem Leid eine öffentliche Legende macht.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE4, SO4, SX4 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Neid als Grundmotiv der Vier: Wie das Schutzsystem der Vier entsteht und wie es sich in Heilung aufl\xf6st.", "Wer du wirklich bist (Band 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Bonnie Parker wurde mitverantwortlich gemacht f\xfcr mindestens 13 T\xf6tungen und starb 1934 bei einem Polizeieinsatz. Das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-adolf-hitler", label:"Kriminalpsychologie: Adolf Hitler (SX4w3)"},
+          {route:"kriminalpsychologie-gudrun-ensslin", label:"Kriminalpsychologie: Gudrun Ensslin (SX7w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function adolfHitlerPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -67630,7 +67713,7 @@ function jeanneWeberPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Einserfl\xfcgel: Der innere Zwang</h3>
         <p class="vb-intro">Eine SE2 mit schw\xe4cher ausgepr\xe4gtem Einserfl\xfcgel h\xe4tte m\xf6glicherweise nach der ersten Tat innegehalten oder w\xe4re zumindest vorsichtiger geworden. Bei Weber trat stattdessen eine rigide, fast zwanghafte Wiederholung hervor: Dieselbe Konstellation &ndash; ein Kind, kurz allein mit ihr &ndash; wiederholte sich \xfcber Jahre hinweg an verschiedenen Orten, mit unterschiedlichen Kindern, trotz wachsender Ermittlungen und \xf6ffentlicher Aufmerksamkeit.</p>
-        <p class="vb-intro">Diese Unf\xe4higkeit, vom einmal etablierten Muster abzuweichen, selbst als das Risiko der Entdeckung offensichtlich stieg, ist der Einserfl\xfcgel in seiner dunkelsten Auspr\xe4gung: kein kalkuliertes \xdcberlegen, sondern ein innerer Zwang, der st\xe4rker war als jede Vorsicht. Anders als bei einem Zweierfl\xfcgel-Muster mit Inszenierung oder Status ging es hier um keine \xf6ffentliche B\xfchne &ndash; Weber suchte keine Aufmerksamkeit, keinen sozialen Aufstieg. Sie leugnete jedes Mal beharrlich und still.</p>
+        <p class="vb-intro">Diese Unf\xe4higkeit, vom einmal etablierten Muster abzuweichen, selbst als das Risiko der Entdeckung offensichtlich stieg, ist der Einserfl\xfcgel in seiner dunkelsten Auspr\xe4gung: kein kalkuliertes \xdcberlegen, sondern ein innerer Zwang, der st\xe4rker war als jede Vorsicht. Anders als bei einem Dreierfl\xfcgel-Muster mit Inszenierung oder Status ging es hier um keine \xf6ffentliche B\xfchne &ndash; Weber suchte keine Aufmerksamkeit, keinen sozialen Aufstieg. Sie leugnete jedes Mal beharrlich und still.</p>
       </div>
 
       <div class="vb-section">
@@ -89173,6 +89256,7 @@ function render() {
       "kriminalpsychologie-wade-wilson": wadeWilsonPortraitPage,
             "kriminalpsychologie-elliot-rodger": elliotRodgerPortraitPage,
       "kriminalpsychologie-adolf-hitler": adolfHitlerPortraitPage,
+      "kriminalpsychologie-bonnie-parker": bonnieParkerPortraitPage,
       "kriminalpsychologie-paul-ogorzow": paulOgorzowPortraitPage,
       "kriminalpsychologie-frank-abagnale-jr": frankAbagnalePortraitPage,
     "favoriten": favoritenPage,
