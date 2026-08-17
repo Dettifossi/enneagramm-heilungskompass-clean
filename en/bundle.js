@@ -260,6 +260,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Adam Smith – Social Type 1",
     teaser:"SO1w9 · 1723–1790. Scottish moral philosopher and economist, Theory of Moral Sentiments, Wealth of Nations. The goose that sought a juster order – and whose loyalty to his friend David Hume cost him his own good name.",
     added:"2026-08-09", tags:["Philosophie","Wirtschaft"] },
+  { route:"beruehmte-konrad-lorenz", name:"Konrad Lorenz", added:"2026-08-17", subtyp:"SO1w9",
+    heading:"Konrad Lorenz – Social Type 1",
+    teaser:"SO1w9 · 1903–1989. Austrian zoologist, founder of ethology, Nobel Prize in Physiology or Medicine 1973. Famous for imprinting research on greylag geese. Called \"Einstein of the animal soul\" by Der Spiegel – burdened by Nazi party membership and involvement in Nazi population policy. Animal correspondence: Goose.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-jordan-peterson", name:"Dr. Jordan Peterson", subtyp:"SO1w9",
     heading:"Jordan Peterson – Social Type 1",
     teaser:"SO1w9 · born 1962. Psychologist, author, public speaker. The goose that preaches order – because it knows chaos from personal experience and understands the cost of missing structure.",
@@ -4694,6 +4698,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-grahame-webb", name:"Prof. Grahame Webb", subtyp:"SX8w7", tier:"Crocodile"},
   {route:"beruehmte-birute-galdikas", name:"Dr. Biruté Galdikas", subtyp:"SE8w9", tier:"Orangutan"},
   {route:"beruehmte-peter-sharpe", name:"Dr. Peter Sharpe", subtyp:"SE1w9", tier:"Eagle"},
+  {route:"beruehmte-konrad-lorenz", name:"Konrad Lorenz", subtyp:"SO1w9", tier:"Goose"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -31760,6 +31765,70 @@ function angelinaJoliePortraitPage() {
 }
 
 
+function konradLorenzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-konrad-lorenz-portrait.jpg" alt="Goose" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Konrad Lorenz</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Ethologist, 1903&ndash;1989 &ndash; founder of ethology, Nobel Prize 1973 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Goose</strong> is the animal of the social One &ndash; an animal that lives within a flock, orients itself by clear rules and rank order, and passes its knowledge on to the group rather than keeping it to itself. Konrad Lorenz, the Austrian zoologist and founder of modern ethology, became world-famous for his research on exactly this animal: the greylag goose. In 1989, the German magazine Der Spiegel called him the "Einstein of the animal soul."</p>
+          <p class="vb-intro">As with several other animal-researcher portraits in this compass, a striking pattern confirms itself here too: the Enneagram's animal correspondences were fixed long before anyone knew of Lorenz's life's work. That the world's most famous greylag goose researcher was himself a social One &ndash; the type whose animal in this compass exactly matches his own research subject &ndash; is one of the most striking matches in this series.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Guardian of the Right Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>social One (SO1)</strong> seeks not personal perfection but the perfection of the community &ndash; appearing as teacher, reformer, or moral authority who knows how things ought to be done, and conveys that knowledge with conviction. Lorenz, born in Vienna in 1903, began raising greylag geese as a young man and, in 1935, discovered the phenomenon of imprinting: chicks that see no parent shortly after hatching instead follow the first moving object they encounter &ndash; in Lorenz's famous photographs, himself, trailed by a line of waddling goslings.</p>
+          <p class="vb-intro">From this single observation, Lorenz systematically built an entire scientific discipline: ethology, the biological study of innate behavior. Together with Niko Tinbergen and Karl von Frisch, he received the 1973 Nobel Prize in Physiology or Medicine for it &ndash; the first such award for purely behavioral-biological research. His book "King Solomon's Ring" (1949) brought him to a wide audience and established him as a moral voice on questions of animal welfare and, later, the environment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Patience as Research Method</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SO1 with a more pronounced Two-wing would likely have pursued its reform work more directly, personally, and confrontationally. In Lorenz, a patient, almost meditative disposition shows instead: he spent decades at Altenberg near Vienna simply observing greylag geese, jackdaws, and other animals over long periods without intervening &ndash; a quiet, unhurried endurance characteristic of the Nine-wing. His popular science books were not polemical but narrative, warm, and carried by an almost childlike wonder at nature.</p>
+          <p class="vb-intro">At the same time, the One's core remained palpable: Lorenz advanced his scientific theses &ndash; for instance in his controversial book "On Aggression" (1963), on the evolution of aggression &ndash; with an unshakeable conviction that he had correctly identified the underlying principles. This combination of gentle patience and firm inner certainty is the SO1w9 in its characteristic form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow: Science and Nazi Entanglement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A complete picture of Konrad Lorenz cannot omit his entanglement with National Socialism. In 1938, shortly after Austria's annexation by Nazi Germany, Lorenz joined the Nazi party. In his membership application, he described himself as "always a National Socialist" and wrote that his entire scientific work served National Socialist ideas. In 1942, he took part as a psychologist in studies in occupied Posen that contributed to the scientific underpinning of Nazi population policy. In publications of that period, he also advanced ideas of "racial hygiene," dressed in the pseudoscientific language of behavioral biology.</p>
+          <p class="vb-intro">After the war, Lorenz long obscured the true extent of this entanglement. Only in 2015 &ndash; 26 years after his death &ndash; did the University of Salzburg posthumously revoke his honorary doctorate, explicitly citing his Nazi past and its later concealment. This is the dark underside of the SO1: the unshakeable certainty of possessing the "right principle" can turn catastrophic in the wrong historical context &ndash; when the supposedly right thing is itself borrowed from a dehumanizing ideology. A serious appraisal of his scientific work does not exclude this responsibility, but includes it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Late Activism: From Ethologist to Conservationist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the final phase of his life, Lorenz turned increasingly to nature conservation. In 1984, he became a prominent figure in the "Konrad Lorenz Volksbegehren" (people's petition), opposing a planned power plant in the Hainburg wetlands near Vienna &ndash; one of Austria's first major environmental movements, which significantly contributed to the founding of the Donau-Auen National Park. Until his death in 1989, he kept returning to his greylag geese at Altenberg, whose behavior he documented over decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Goose That Explained the Animal to Humanity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Konrad Lorenz's life's work shows the social One with a Nine-wing at its most effective &ndash; and, at once, most cautionary: a patient, decades-long devotion to a single field of research that founded an entire scientific discipline, combined with an unshakeable certainty that led to groundbreaking insight in the right context &ndash; and to complicity in one of history's darkest chapters in the wrong one.</p>
+          <p class="vb-intro">The goose lives within the flock, follows clear imprinting, and passes its knowledge on to the next generation &ndash; exactly what Lorenz did for the science of ethology. But history serves as a warning: even the firmest inner certainty does not replace the moral scrutiny of whom, and what cause, one places it in service of.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+          {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
+        ])}
+        ${animalResearcherMatchBlock("beruehmte-konrad-lorenz")}
+      </div>
+    </div>
+  `);
+}
+
 function jordanPetersonPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -55646,6 +55715,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-michael-jackson": michaelJacksonPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
+      "beruehmte-konrad-lorenz": konradLorenzPortraitPage,
       "beruehmte-jordan-peterson": jordanPetersonPortraitPage,
       "beruehmte-david-bowie": davidBowiePortraitPage,
       "beruehmte-ursula-von-der-leyen": ursulaVonDerLeyenPortraitPage,

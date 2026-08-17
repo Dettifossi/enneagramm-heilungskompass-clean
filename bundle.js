@@ -24123,6 +24123,7 @@ const registerEntries = [
   { term: "Gustav Mahler",                 route: "beruehmte-gustav-mahler",               description: "Portrait: SO4w5 \u00b7 Sozialer Typ 4 \u00b7 Komponist, Dirigent der Wiener Hofoper" },
   { term: "Marcel Proust",                 route: "beruehmte-marcel-proust",               description: "Portrait: SO4w5 \u00b7 Sozialer Typ 4 \u00b7 Schriftsteller, Auf der Suche nach der verlorenen Zeit" },
   { term: "Edgar Allan Poe",               route: "beruehmte-edgar-allan-poe",             description: "Portrait: SO4w5 \u00b7 Sozialer Typ 4 \u00b7 Schriftsteller, Erfinder der Detektivgeschichte" },
+  { term: "Konrad Lorenz",                 route: "beruehmte-konrad-lorenz",               description: "Portrait: SO1w9 \u00b7 Sozialer Typ 1 \u00b7 Zoologe, Begr\u00fcnder der Ethologie, Nobelpreistr\u00e4ger" },
   { term: "Jordan Peterson",               route: "beruehmte-jordan-peterson",             description: "Portrait: SO1w9 \u00b7 Sozialer Typ 1 \u00b7 Psychologe, Bestsellerautor" },
   { term: "J\u00fcrgen Klopp",               route: "beruehmte-juergen-klopp",               description: "Portrait: SO1w2 \u00b7 Sozialer Typ 1 \u00b7 Fu\u00dfballtrainer, Liverpool, Leidenschaft" },
   { term: "Kai Pflaume",                   route: "beruehmte-kai-pflaume",                 description: "Portrait: SX3w2 \u00b7 Sexueller Typ 3 \u00b7 TV-Moderator, Empathie & Harmonie" },
@@ -24460,6 +24461,7 @@ const registerEntriesEN = [
   { term: "Gustav Mahler", route: "beruehmte-gustav-mahler", description: "Portrait: SO4w5 \u00b7 Social Type 4 \u00b7 Composer, conductor of the Vienna Court Opera" },
   { term: "Marcel Proust", route: "beruehmte-marcel-proust", description: "Portrait: SO4w5 \u00b7 Social Type 4 \u00b7 Writer, In Search of Lost Time" },
   { term: "Edgar Allan Poe", route: "beruehmte-edgar-allan-poe", description: "Portrait: SO4w5 \u00b7 Social Type 4 \u00b7 Writer, inventor of the detective story" },
+  { term: "Konrad Lorenz", route: "beruehmte-konrad-lorenz", description: "Portrait: SO1w9 \u00b7 Social Type 1 \u00b7 zoologist, founder of ethology, Nobel laureate" },
   { term: "Jordan Peterson", route: "beruehmte-jordan-peterson", description: "Portrait: SO1w9 \u00b7 Social Type 1 \u00b7 Psychologist, bestselling author" },
   { term: "J\u00fcrgen Klopp", route: "beruehmte-juergen-klopp", description: "Portrait: SO1w2 \u00b7 Social Type 1 \u00b7 Football manager, Liverpool, passion" },
   { term: "Kai Pflaume", route: "beruehmte-kai-pflaume", description: "Portrait: SX3w2 \u00b7 Sexual Type 3 \u00b7 TV host, empathy & harmony" },
@@ -31422,6 +31424,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Adam Smith \u2013 Sozialer Typ 1",
     teaser:"SO1w9 \u00b7 1723\u20131790. Schottischer Moralphilosoph und \u00d6konom, Theorie der ethischen Gef\u00fchle, Der Wohlstand der Nationen. Die Gans, die eine gerechtere Ordnung suchte \u2013 und deren Treue zu ihrem Freund David Hume sie den eigenen guten Ruf kostete.",
     tags:["Philosophie","Wirtschaft"], gender:"m"},
+  { route:"beruehmte-konrad-lorenz", name:"Konrad Lorenz", added:"2026-08-17", subtyp:"SO1w9",
+    heading:"Konrad Lorenz \u2013 Sozialer Typ 1",
+    teaser:"SO1w9 \u00b7 1903\u20131989. \u00d6sterreichischer Zoologe, Begr\u00fcnder der Ethologie, Nobelpreis f\u00fcr Physiologie oder Medizin 1973. Ber\u00fchmt f\u00fcr die Pr\u00e4gungsforschung an Graug\u00e4nsen. Vom Spiegel \u201eEinstein der Tierseele\u201c genannt \u2013 belastet durch NSDAP-Mitgliedschaft und Beteiligung an NS-Bev\u00f6lkerungspolitik. Tierentsprechung: Gans.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-jordan-peterson", name:"Dr. Jordan Peterson", subtyp:"SO1w9",
     heading:"Jordan Peterson \u2013 Sozialer Typ 1",
     teaser:"SO1w9 \u00b7 geb. 1962. Psychologe, Autor, Vortragsredner. Die Gans, die Ordnung predigt \u2013 weil sie das Chaos aus eigener Erfahrung kennt und wei\u00df, was es kostet, wenn Struktur fehlt.",
@@ -35142,6 +35148,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-grahame-webb", name:"Prof. Grahame Webb", subtyp:"SX8w7", tier:"Krokodil"},
   {route:"beruehmte-birute-galdikas", name:"Dr. Birut\xe9 Galdikas", subtyp:"SE8w9", tier:"Orang-Utan"},
   {route:"beruehmte-peter-sharpe", name:"Dr. Peter Sharpe", subtyp:"SE1w9", tier:"Adler"},
+  {route:"beruehmte-konrad-lorenz", name:"Konrad Lorenz", subtyp:"SO1w9", tier:"Gans"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -55697,6 +55704,70 @@ function angelinaJoliePortraitPage() {
   `);
 }
 
+
+function konradLorenzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-konrad-lorenz-portrait.jpg" alt="Gans" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Konrad Lorenz</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Verhaltensforscher, 1903&ndash;1989 &ndash; Begr\xfcnder der Ethologie, Nobelpreis 1973 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; ein Tier, das im Verband lebt, sich an klaren Regeln und Ranghierarchien orientiert und sein Wissen an die Gruppe weitergibt, statt es allein zu verwalten. Konrad Lorenz, \xf6sterreichischer Zoologe und Begr\xfcnder der modernen Verhaltensforschung, wurde weltbekannt durch seine Forschung an genau diesem Tier: der Graugans. Der Spiegel nannte ihn 1989 den &bdquo;Einstein der Tierseele&ldquo;.</p>
+          <p class="vb-intro">Wie schon bei mehreren anderen Tierforscher-Porträts dieses Kompasses zu sehen war, bestätigt sich auch hier ein verblüffendes Muster: Die Tierentsprechungen des Enneagramms standen lange fest, bevor irgendjemand von Lorenz' Lebenswerk wusste. Dass ausgerechnet der berühmteste Graugansforscher der Welt selbst eine soziale Eins war &ndash; das Tier, das im Kompass exakt seiner eigenen Forschungsgans entspricht &ndash; ist eine der frappierendsten Übereinstimmungen in dieser Reihe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Der Hüter des richtigen Prinzips</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> sucht nach Naranjo nicht die eigene Perfektion, sondern die Perfektionierung der Gemeinschaft &ndash; sie tritt als Lehrerin, Reformerin oder moralische Autorität auf, die weiß, wie es &bdquo;richtig&ldquo; geht, und dieses Wissen mit Nachdruck vermittelt. Lorenz, 1903 in Wien geboren, begann als junger Mann Graugänse aufzuziehen und entdeckte dabei 1935 das Prägungsphänomen: Küken, die kurz nach dem Schlüpfen kein Elterntier sehen, folgen stattdessen dem ersten sich bewegenden Objekt &ndash; in Lorenz' berühmten Fotografien er selbst, gefolgt von einer Schar watschelnder Gössel.</p>
+          <p class="vb-intro">Aus dieser Einzelbeobachtung baute Lorenz systematisch eine ganze wissenschaftliche Disziplin auf: die Ethologie, die biologische Erforschung angeborenen Verhaltens. Gemeinsam mit Niko Tinbergen und Karl von Frisch erhielt er dafür 1973 den Nobelpreis für Physiologie oder Medizin &ndash; die erste Auszeichnung dieser Art für rein verhaltensbiologische Forschung. Sein Buch &bdquo;Er redete mit dem Vieh, den Vögeln und den Fischen&ldquo; (1949) machte ihn einem breiten Publikum bekannt und etablierte ihn als moralische Instanz in Fragen des Tier- und später auch des Umweltschutzes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Geduld als Forschungsmethode</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SO1 mit stärker ausgeprägtem Zweierflügel hätte ihre Reformarbeit vermutlich direkter, persönlicher und konfrontativer betrieben. Bei Lorenz zeigt sich stattdessen eine geduldige, fast meditative Grundhaltung: Er verbrachte Jahrzehnte in Altenberg bei Wien damit, Graugänse, Dohlen und andere Tiere über lange Zeiträume einfach zu beobachten, ohne einzugreifen &ndash; eine stille, unaufgeregte Ausdauer, die dem Neunerflügel entspricht. Seine populärwissenschaftlichen Bücher waren nicht polemisch, sondern erzählerisch, warmherzig und von einem fast kindlichen Staunen über die Natur getragen.</p>
+          <p class="vb-intro">Gleichzeitig blieb der Einser-Kern spürbar: Lorenz vertrat seine wissenschaftlichen Thesen &ndash; etwa in seinem umstrittenen Buch &bdquo;Das sogenannte Böse&ldquo; (1963) über die Evolution der Aggression &ndash; mit unerschütterlicher Überzeugung, dass er die zugrunde liegenden Prinzipien correct erkannt hatte. Diese Kombination aus sanfter Geduld und fester innerer Gewissheit ist die SO1w9 in ihrer charakteristischen Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten: Wissenschaft und NS-Verstrickung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein vollständiges Bild von Konrad Lorenz darf seine Verstrickung in den Nationalsozialismus nicht ausblenden. 1938, kurz nach dem &bdquo;Anschluss&ldquo; Österreichs, trat Lorenz der NSDAP bei. In seinem Aufnahmeantrag bezeichnete er sich selbst als &bdquo;von jeher Nationalsozialist&ldquo; und schrieb, seine gesamte wissenschaftliche Arbeit stehe im Dienst nationalsozialistischer Ideen. 1942 nahm er als Psychologe an Untersuchungen im besetzten Posen teil, die zur wissenschaftlichen Untermauerung der NS-Bevölkerungspolitik beitrugen. In Publikationen jener Zeit vertrat er zudem Ideen der &bdquo;Rassenhygiene&ldquo;, verpackt in pseudowissenschaftliche Begriffe aus der Verhaltensbiologie.</p>
+          <p class="vb-intro">Nach dem Krieg verschleierte Lorenz lange Zeit das tatsächliche Ausmaß dieser Verstrickung. Erst 2015 &ndash; 26 Jahre nach seinem Tod &ndash; erkannte ihm die Universität Salzburg posthum die Ehrendoktorwürde ab, ausdrücklich mit Verweis auf seine NS-Vergangenheit und deren spätere Verschleierung. Dies ist die dunkle Kehrseite der SO1: Die unerschütterliche Gewissheit, im Besitz des &bdquo;richtigen Prinzips&ldquo; zu sein, kann sich in den falschen historischen Kontext hinein katastrophal wenden &ndash; wenn das vermeintlich Richtige selbst menschenverachtenden Ideologien entlehnt ist. Eine seriöse Würdigung seines wissenschaftlichen Werks schließt diese Verantwortung nicht aus, sondern ein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Sp\xe4tes Engagement: Vom Verhaltensforscher zum Umweltschützer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im letzten Lebensabschnitt wandte sich Lorenz verstärkt dem Naturschutz zu. 1984 engagierte er sich prominent im &bdquo;Konrad-Lorenz-Volksbegehren&ldquo; gegen den geplanten Kraftwerksbau in der Hainburger Au bei Wien &ndash; eine der ersten großen Umweltbewegungen Österreichs, die maßgeblich zur Gründung des Nationalparks Donau-Auen beitrug. Bis zu seinem Tod 1989 kehrte er immer wieder zu seinen Graugänsen in Altenberg zurück, deren Verhalten er über Jahrzehnte hinweg dokumentierte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Gans, die dem Menschen das Tier erklärte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Konrad Lorenz' Lebenswerk zeigt die soziale Eins mit Neunerflügel in ihrer wirkungsvollsten &ndash; und zugleich mahnendsten &ndash; Form: eine geduldige, jahrzehntelange Hingabe an ein einziges Forschungsfeld, die eine ganze wissenschaftliche Disziplin begründete, kombiniert mit einer unerschütterlichen Gewissheit, die im richtigen Kontext zu bahnbrechender Erkenntnis führte &ndash; und im falschen Kontext zu Mitverantwortung an einem der dunkelsten Kapitel der Geschichte.</p>
+          <p class="vb-intro">Die Gans lebt im Verband, folgt klaren Prägungen und gibt ihr Wissen an die nächste Generation weiter &ndash; genau das tat Lorenz mit der Wissenschaft der Ethologie. Doch die Geschichte mahnt: Auch die festeste innere Gewissheit ersetzt nicht die moralische Prüfung dessen, wem und welcher Sache man sie zur Verfügung stellt.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+          {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9)"},
+        ])}
+        ${animalResearcherMatchBlock("beruehmte-konrad-lorenz")}
+      </div>
+    </div>
+  `);
+}
 
 function jordanPetersonPortraitPage() {
   return shell(`
@@ -90131,6 +90202,7 @@ function render() {
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-juergen-klopp": juergenKloppPortraitPage,
+      "beruehmte-konrad-lorenz": konradLorenzPortraitPage,
       "beruehmte-jordan-peterson": jordanPetersonPortraitPage,
       "beruehmte-david-bowie": davidBowiePortraitPage,
       "beruehmte-ursula-von-der-leyen": ursulaVonDerLeyenPortraitPage,
