@@ -53566,12 +53566,11 @@ function jeanneCalmentPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Jeanne Calments Leben zeigt die selbsterhaltende Sieben mit Sechserflügel in ihrer gesündesten, reifsten Form: Genussfähigkeit ohne Exzess, Beständigkeit ohne Enge, Humor ohne Bitterkeit &ndash; selbst angesichts des Verlusts von Ehemann, Tochter und Enkel. Sie musste nicht reisen, um ein volles Leben zu führen. Sie musste nicht im Rampenlicht stehen, um bemerkenswert zu sein.</p>
           <p class="vb-intro">Der Gorilla bleibt in seinem Revier &ndash; und genau dort, zwischen Schokolade, Portwein und dem Fahrrad, entfaltete sich eines der bemerkenswertesten Leben der Neuzeit. Kein lauter Rekord, sondern die stille, jahrzehntelange Kunst, an einem einzigen Ort tief und lange zu leben.</p>
-          <div style="display:flex;gap:0.6rem;flex-wrap:wrap;margin:1.5rem 0;justify-content:center;">
-            <img src="./assets/portraits/beruehmte-jeanne-calment-ergaenzung-1.jpg" alt="Jeanne Calment im Lebensverlauf: 1895, 1945, 1989 und mit 120 Jahren" loading="lazy" style="width:31%;min-width:150px;border-radius:6px;object-fit:cover;" />
-            <img src="./assets/portraits/beruehmte-jeanne-calment-ergaenzung-2.jpg" alt="Jeanne Calment an ihrem 100. Geburtstag, rauchend" loading="lazy" style="width:31%;min-width:150px;border-radius:6px;object-fit:cover;" />
-            <img src="./assets/portraits/beruehmte-jeanne-calment-ergaenzung-3.jpg" alt="Jeanne Calment im hohen Alter, l\xe4chelnd mit Zigarette" loading="lazy" style="width:31%;min-width:150px;border-radius:6px;object-fit:cover;" />
+          <div style="display:flex;gap:0.8rem;flex-wrap:wrap;margin:1.5rem 0;justify-content:center;">
+            <img src="./assets/portraits/beruehmte-jeanne-calment-1895.jpg" alt="Jeanne Calment um 1895, mit etwa 20 Jahren" loading="lazy" style="width:45%;min-width:150px;border-radius:6px;object-fit:cover;" />
+            <img src="./assets/portraits/beruehmte-jeanne-calment-1900er.jpg" alt="Jeanne Calment um 1900–1910, mit etwa 40 Jahren" loading="lazy" style="width:45%;min-width:150px;border-radius:6px;object-fit:cover;" />
           </div>
-          <p style="font-size:0.85rem;color:var(--muted);text-align:center;margin-top:-0.8rem;">Ihr Leben in Bildern: von der jungen Frau um 1895 bis zur ältesten verifizierten Frau der Geschichte.</p>
+          <p style="font-size:0.85rem;color:var(--muted);text-align:center;margin-top:-0.8rem;">Jeanne Calment als junge Frau, um 1895 und um 1900&ndash;1910 (Fotograf: Gustave Ouvi\xe8re, gemeinfrei).</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
