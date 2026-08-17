@@ -1045,6 +1045,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Karoline Herfurth – Self-Preservation Type 4",
     teaser:"SE4w5 \xb7 born 1984, Berlin. Actress, director. The dove that observes before it lands - inner depth, artistic precision, and a humanity behind the camera that looks for the beauty in the vulnerable.",
     tags:["Film"], gender:"f"},
+  { route:"beruehmte-amelia-earhart", name:"Amelia Earhart", added:"2026-08-17", subtyp:"SO9w1",
+    heading:"Amelia Earhart – Social Type 9",
+    teaser:"SO9w1 · 1897–1937. First woman to fly solo across the Atlantic, founder of the Ninety-Nines, disappeared attempting a round-the-world flight. Merging with the cause instead of personal thrill, principle without self-display. Animal correspondence: Buffalo.",
+    tags:["History","Astronaut"], gender:"f"},
   { route:"beruehmte-sandra-hueller", name:"Sandra Hüller", added:"2026-08-16", subtyp:"SO9w1",
     heading:"Sandra Hüller – Social Type 9",
     teaser:"SO9w1 · born 1978. Actress, Toni Erdmann, Anatomy of a Fall, The Zone of Interest. Two Oscar nominations in 2024, stayed loyal to her theater in Leipzig. The buffalo that carries instead of shining. Animal correspondence: Buffalo.",
@@ -18590,6 +18594,69 @@ function kevinCostnerPortraitPage() {
           {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
           {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
           {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function ameliaEarhartPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-amelia-earhart-portrait.jpg" alt="Buffalo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Amelia Earhart</p>
+        <p class="krim-portrait-typ">SP9w1 &middot; Social Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Aviation pioneer, 1897–1937 (disappeared) – Animal correspondence: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The buffalo is the animal of the social Nine – an animal that stands out not through individual flamboyance, but through its belonging to the herd and its calm, unhurried presence within it. Amelia Earhart, born in Kansas in 1897, became famous in 1932 as the first woman to fly solo across the Atlantic – and yet her real project was never personal thrill, but proving that women could fly just as men could.</p>
+          <p class="vb-intro">In 1937 she disappeared over the Pacific while attempting to circle the globe along the equator – her plane was never found. To this day her disappearance remains one of the most famous unsolved mysteries in aviation history.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Nine: Merging with a cause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the social Nine (SO9) is the subtype that does not settle into personal comfort, but dissolves into belonging to a group, a movement, a shared cause – the self steps back so the cause can grow. Earhart founded the "Ninety-Nines", an organization for women pilots, turning her own flying success into a collective project for every woman who followed her.</p>
+          <p class="vb-intro">This is the crucial difference from the often-repeated "Seven" attribution: it was not personal thrill that drove her, but merging with a cause bigger than herself. Where a Seven seeks variety of experience for herself, the social Nine disappears in service of the shared cause – visible as a figurehead, but never internally fixated on herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One wing: Principle without self-display</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SO9 with a more muted One wing might have drifted without a clear inner compass. In Earhart's case, a quiet, principled seriousness emerged instead: she insisted on keeping her own name, refused to be called "Mrs. Putnam", and in a letter to her husband-to-be George Putnam before their 1931 wedding laid out clear terms – not a dramatic gesture, but a calm, unambiguous setting of boundaries.</p>
+          <p class="vb-intro">Her husband Putnam ran an intense publicity machine around her – interviews, lecture tours, book deals. Earhart let it happen, yet remained noticeably reserved and unhurried in her own manner. The One wing supplies exactly this sobriety: no need for self-display, but an inner standard everything else aligns to.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. "Adventure is worthwhile in itself": Distance instead of enthusiasm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Earhart's best-known line – "Adventure is worthwhile in itself" – sounds at first like Seven enthusiasm. But the tone in which she spoke about her flights was rarely euphoric or eager to tell a story in the Seven sense. Contemporaries described her as calm, almost philosophically detached – a woman who spoke about enormous risks with the same equanimity as everyday matters.</p>
+          <p class="vb-intro">This same sobriety extended to her relationship: in her letter to Putnam she wrote that she would not hold him to a "medieval code of faithfulness", any more than she would consider herself bound to him in the same way – a remarkably clear, unruffled stance on marriage that sought neither drama nor rebellion, but simply named reality without illusion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Merging with the unknown</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1937, Earhart set out with navigator Fred Noonan on her final major project: circling the globe along the equator, the longest flight of its kind attempted up to that point. Over the central Pacific, en route to the tiny Howland Island, radio contact broke off. Neither the aircraft nor the crew were ever found.</p>
+          <p class="vb-intro">This final chapter, too, fits the social Nine's pattern: not a spectacular solo stunt, but the consistent continuation of a cause bigger than her own safety. She disappeared not in a reckless stunt, but in the middle of a carefully planned project serving something larger than herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Buffalo that disappeared into the herd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Amelia Earhart shows the social Nine with a One wing in its most impressive form: world-famous, without ever seeming self-promoting; adventurous, without personal thrill being the actual driver; principled, without being loud. Her androgynous, hard-to-categorize appearance fits the same picture – no pronounced, unmistakable self-presentation, but a deliberate stepping back of her own outline in favor of the cause.</p>
+          <p class="vb-intro">The buffalo does not seek independence away from the herd – it finds its strength in belonging. Earhart's legacy lies not in a loud personal myth, but in the quiet fact that after her, thousands of women sat in cockpits who otherwise never would have.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-sandra-hueller", label:"Portrait: Sandra Hüller (SO9w1)"},
+          {route:"beruehmte-julian-assange", label:"Portrait: Julian Assange (SO9w1)"},
         ])}
       </div>
     </div>
@@ -54909,6 +54976,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-angela-merkel": angelaMerkelPortraitPage,
       "beruehmte-carmen-goglin": carmenGoglinPortraitPage,
       "beruehmte-gina-rinehart": ginaRinehartPortraitPage,
+      "beruehmte-amelia-earhart": ameliaEarhartPortraitPage,
       "beruehmte-sandra-hueller": sandraHuellerPortraitPage,
       "beruehmte-sophie-marceau": sophieMarceauPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,

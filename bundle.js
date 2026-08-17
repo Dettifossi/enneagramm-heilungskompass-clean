@@ -24088,6 +24088,7 @@ const registerEntries = [
     { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bundeskanzlerin 2005\u20132021, Elefant" },
     { term: "Carmen Goglin", route: "beruehmte-carmen-goglin", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Lachtrainerin, Coachin, Gr\u00fcnderin der Reutlinger Lachschule" },
     { term: "Gina Rinehart", route: "beruehmte-gina-rinehart", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bergbau-Unternehmerin, reichste Frau Australiens" },
+    { term: "Amelia Earhart", route: "beruehmte-amelia-earhart", description: "Portrait: SO9w1 \u00b7 Soziale Typ 9 \u00b7 Luftfahrtpionierin, erste Alleinflug-Atlantik\u00fcberquerung einer Frau" },
     { term: "Sandra H\u00fcller", route: "beruehmte-sandra-hueller", description: "Portrait: SO9w1 \u00b7 Soziale Typ 9 \u00b7 Schauspielerin, Toni Erdmann, Anatomie eines Falls" },
     { term: "Sophie Marceau", route: "beruehmte-sophie-marceau", description: "Portrait: SX9w1 \u00b7 Sexuelle Typ 9 \u00b7 Schauspielerin und Regisseurin, La Boum, Braveheart" },
   { term: "David Hume",                    route: "beruehmte-david-hume",                  description: "Portrait: SE9w8 \u00b7 Selbsterhaltender Typ 9 \u00b7 Philosoph, radikaler Skeptizismus" },
@@ -24417,6 +24418,7 @@ const registerEntriesEN = [
   { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Federal Chancellor 2005\u20132021, Elephant" },
   { term: "Carmen Goglin", route: "beruehmte-carmen-goglin", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 laughter-yoga trainer, coach, founder of the Reutlingen Laughter School" },
   { term: "Gina Rinehart", route: "beruehmte-gina-rinehart", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 mining magnate, Australia's richest woman" },
+  { term: "Amelia Earhart", route: "beruehmte-amelia-earhart", description: "Portrait: SO9w1 \u00b7 Social Type 9 \u00b7 aviation pioneer, first woman to fly solo across the Atlantic" },
   { term: "Sandra H\u00fcller", route: "beruehmte-sandra-hueller", description: "Portrait: SO9w1 \u00b7 Social Type 9 \u00b7 actress, Toni Erdmann, Anatomy of a Fall" },
   { term: "Sophie Marceau", route: "beruehmte-sophie-marceau", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 actress and director, La Boum, Braveheart" },
   { term: "David Hume", route: "beruehmte-david-hume", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Philosopher, radical skepticism" },
@@ -32324,6 +32326,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Johannes Brahms \u2013 Selbsterhaltender Typ 9",
     teaser:"SE9w8 \u00b7 1833\u20131897. Deutscher Komponist. 1853 von Robert Schumann entdeckt, vier Jahrzehnte treuer Begleiter der Familie Schumann, 21 Jahre Arbeit an der 1. Symphonie. Der Elefant mit Achterfl\u00fcgel: schroffer Witz, unersch\u00fctterliche Geduld und eine Treue, die nie aufgab. Tierentsprechung: Elefant.",
     tags:["Musik","Geschichte"], gender:"m"},
+  { route:"beruehmte-amelia-earhart", name:"Amelia Earhart", added:"2026-08-17", subtyp:"SO9w1",
+    heading:"Amelia Earhart – Soziale Typ 9",
+    teaser:"SO9w1 · 1897–1937. Erste Frau mit Alleinflug über den Atlantik, Gründerin der Ninety-Nines, verschollen bei Weltumrundungsversuch. Verschmelzung mit der Sache statt persönlichem Nervenkitzel, Prinzipientreue ohne Selbstinszenierung. Tierentsprechung: Büffel.",
+    tags:["Geschichte","Astronaut"], gender:"f"},
   { route:"beruehmte-sandra-hueller", name:"Sandra Hüller", added:"2026-08-16", subtyp:"SO9w1",
     heading:"Sandra Hüller – Soziale Typ 9",
     teaser:"SO9w1 · geb. 1978. Schauspielerin, Toni Erdmann, Anatomie eines Falls, The Zone of Interest. Zwei Oscar-Nominierungen 2024, treu geblieben dem Theater in Leipzig. Der Büffel, der trägt, statt zu glänzen. Tierentsprechung: Büffel.",
@@ -48443,6 +48449,69 @@ function ginaRinehartPortraitPage() {
   `);
 }
 
+
+function ameliaEarhartPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-amelia-earhart-portrait.jpg" alt="B\xfcffel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Amelia Earhart</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Soziale Typ 9 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Luftfahrtpionierin, 1897&ndash;1937 (verschollen) &ndash; Tierentsprechung: B\xfcffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der B\xfcffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>B\xfcffel</strong> ist das Tier der sozialen Neun &ndash; ein Tier, das nicht durch individuelle Auffälligkeit wirkt, sondern durch seine Zugehörigkeit zur Herde und seine ruhige, unaufgeregte Präsenz darin. Amelia Earhart, 1897 in Kansas geboren, wurde 1932 als erste Frau bekannt, die den Atlantik im Alleinflug überquerte &ndash; und doch war ihr eigentliches Projekt nie der pers\xf6nliche Nervenkitzel, sondern der Beweis, dass Frauen fliegen k\xf6nnen wie M\xe4nner.</p>
+          <p class="vb-intro">1937 verschwand sie w\xe4hrend eines Versuchs, die Erde entlang des \xc4quators zu umrunden, über dem Pazifik &ndash; ihr Flugzeug wurde nie gefunden. Bis heute bleibt ihr Verschwinden eines der bekanntesten ungel\xf6sten R\xe4tsel der Luftfahrtgeschichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Verschmelzung mit einer Sache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> ist nach Naranjo der Subtyp, der sich nicht in pers\xf6nlicher Bequemlichkeit einrichtet, sondern in der Zugehörigkeit zu einer Gruppe, einer Bewegung, einer gemeinsamen Sache aufgeht &ndash; das eigene Ich tritt zurück, damit das Anliegen wachsen kann. Earhart gründete die &bdquo;Ninety-Nines&ldquo;, eine Organisation für Pilotinnen, und machte aus ihrem eigenen fliegerischen Erfolg ein kollektives Projekt für alle Frauen, die ihr folgten.</p>
+          <p class="vb-intro">Das ist der entscheidende Unterschied zur oft kolportierten &bdquo;Sieben&ldquo;-Zuschreibung: Nicht der pers\xf6nliche Nervenkitzel trieb sie an, sondern die Verschmelzung mit einer Sache, die größer war als sie selbst. Wo eine Sieben Erlebnisvielfalt für sich sucht, verschwindet die soziale Neun im Dienst am gemeinsamen Anliegen &ndash; sichtbar als Symbolfigur, aber innerlich nie auf die eigene Person fixiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\xfcgel: Prinzipientreue ohne Selbstinszenierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SO9 mit schw\xe4cher ausgepr\xe4gtem Einserfl\xfcgel h\xe4tte sich m\xf6glicherweise treiben lassen, ohne klare innere Richtlinie. Bei Earhart trat stattdessen eine stille, prinzipientreue Ernsthaftigkeit hervor: Sie bestand darauf, ihren eigenen Namen zu behalten, weigerte sich, &bdquo;Mrs. Putnam&ldquo; genannt zu werden, und formulierte in einem Brief an ihren zuk\xfcnftigen Ehemann George Putnam vor der Hochzeit 1931 klare Bedingungen &ndash; keine dramatische Geste, sondern eine ruhige, unmissverst\xe4ndliche Grenzziehung.</p>
+          <p class="vb-intro">Ihr Ehemann Putnam betrieb eine intensive \xf6ffentliche Vermarktung um sie herum &ndash; Interviews, Vortragsreisen, Buchver\xf6ffentlichungen. Earhart lie\xdf das geschehen, blieb dabei aber auffallend zur\xfcckhaltend und unaufgeregt in ihrem eigenen Auftreten. Der Einserfl\xfcgel liefert genau diese Nüchternheit: kein Bed\xfcrfnis nach Selbstinszenierung, sondern ein innerer Ma\xdfstab, an dem sich alles \xfcbrige ausrichtet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. &bdquo;Adventure is worthwhile in itself&ldquo;: Distanz statt Enthusiasmus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Earharts bekanntester Ausspruch &ndash; &bdquo;Abenteuer ist an sich schon lohnenswert&ldquo; &ndash; klingt auf den ersten Blick nach Sieben-Enthusiasmus. Doch der Ton, in dem sie \xfcber ihre Fl\xfcge sprach, war selten euphorisch oder erz\xe4hlfreudig im Sinne einer Sieben. Zeitgenossen beschrieben sie als ruhig, fast philosophisch distanziert &ndash; eine Frau, die \xfcber gewaltige Risiken mit derselben Gelassenheit sprach wie \xfcber Alltägliches.</p>
+          <p class="vb-intro">Diese Nüchternheit erstreckte sich auch auf ihre Beziehung: In ihrem Brief an Putnam schrieb sie, sie wolle ihn nicht an einen &bdquo;mittelalterlichen Treuekodex&ldquo; binden, ebenso wenig wie sie sich selbst binden wolle &ndash; eine bemerkenswert klare, unaufgeregte Haltung zur Ehe, die weder Drama noch Rebellion suchte, sondern schlicht Realit\xe4t ohne Illusion benannte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Verschmelzung mit dem Unbekannten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1937 startete Earhart gemeinsam mit Navigator Fred Noonan zu ihrem letzten gro\xdfen Projekt: der Umrundung der Erde entlang des \xc4quators, dem l\xe4ngsten bis dahin versuchten Flug dieser Art. \xdcber dem zentralen Pazifik, auf dem Weg zur winzigen Howland-Insel, brach der Funkkontakt ab. Weder Flugzeug noch Besatzung wurden je gefunden.</p>
+          <p class="vb-intro">Auch dieses letzte Kapitel passt zum Muster der sozialen Neun: kein spektakul\xe4rer Einzelakt, sondern die konsequente Fortsetzung eines Anliegens, das gr\xf6\xdfer war als die eigene Sicherheit. Sie verschwand nicht bei einem waghalsigen Stunt, sondern mitten in einem sorgf\xe4ltig geplanten, der Sache dienenden Projekt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der B\xfcffel, der in der Herde verschwand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Amelia Earhart zeigt die soziale Neun mit Einserfl\xfcgel in ihrer eindrucksvollsten Form: weltber\xfchmt, ohne je selbstinszenierend zu wirken; abenteuerlich, ohne dass der pers\xf6nliche Nervenkitzel der eigentliche Antrieb gewesen w\xe4re; prinzipientreu, ohne laut zu sein. Ihre androgyne, schwer einzuordnende Erscheinung passt in dasselbe Bild &ndash; keine betonte, unverwechselbare Selbstdarstellung, sondern ein bewusstes Zur\xfccktreten der eigenen Kontur zugunsten der Sache.</p>
+          <p class="vb-intro">Der B\xfcffel sucht keine Eigenst\xe4ndigkeit fern der Herde &ndash; er findet seine St\xe4rke in der Zugeh\xf6rigkeit. Earharts Verm\xe4chtnis liegt nicht in einem lauten pers\xf6nlichen Mythos, sondern in der stillen Tatsache, dass nach ihr Tausende Frauen in Cockpits sa\xdfen, die es vorher nicht getan h\xe4tten.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-sandra-hueller", label:"Portr\xe4t: Sandra H\xfcller (SO9w1)"},
+          {route:"beruehmte-julian-assange", label:"Portr\xe4t: Julian Assange (SO9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
 
 function sandraHuellerPortraitPage() {
   return shell(`
@@ -89231,6 +89300,7 @@ function render() {
           "beruehmte-angela-merkel": angelaMerkelPortraitPage,
           "beruehmte-carmen-goglin": carmenGoglinPortraitPage,
           "beruehmte-gina-rinehart": ginaRinehartPortraitPage,
+          "beruehmte-amelia-earhart": ameliaEarhartPortraitPage,
           "beruehmte-sandra-hueller": sandraHuellerPortraitPage,
           "beruehmte-sophie-marceau": sophieMarceauPortraitPage,
     "beruehmte-david-hume": davidHumePortraitPage,
