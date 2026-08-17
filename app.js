@@ -24212,6 +24212,7 @@ const registerEntries = [
   { term: "Vera Birkenbihl",               route: "beruehmte-vera-birkenbihl",             description: "Portrait: SE5w6 \u00b7 Selbsterhaltender Typ 5 \u00b7 Trainerin, Gehirnforscherin" },
   { term: "Charles Darwin",                route: "beruehmte-charles-darwin",              description: "Portrait: SE5w6 \u00b7 Selbsterhaltender Typ 5 \u00b7 Naturforscher, Evolutionstheorie" },
   { term: "Warren Buffett",                route: "beruehmte-warren-buffett",              description: "Portrait: SE5w6 \u00b7 Selbsterhaltender Typ 5 \u00b7 Investmentlegende, Geduld & Weitsicht" },
+  { term: "Marie Curie", route: "beruehmte-marie-curie", description: "Portrait: SE5w6 \u00b7 Selbsterhaltende Typ 5 \u00b7 Physikerin, Nobelpreise in Physik und Chemie" },
   { term: "Carl Tanzler", route: "beruehmte-carl-tanzler", description: "Portrait: SE5w6 \u00b7 Selbsterhaltender Typ 5 \u00b7 Radiologe, bewahrte den Leichnam einer Toten sieben Jahre lang" },
   { term: "Julius Caesar",                 route: "beruehmte-julius-caesar",               description: "Portrait: SO2w3 \u00b7 Sozialer Typ 2 \u00b7 Feldherr, Staatsmann, Diktator auf Lebenszeit" },
   { term: "Will Smith",                    route: "beruehmte-will-smith",                  description: "Portrait: SO2w3 \u00b7 Sozialer Typ 2 \u00b7 Schauspieler, Produzent" },
@@ -24539,6 +24540,7 @@ const registerEntriesEN = [
   { term: "Vera Birkenbihl", route: "beruehmte-vera-birkenbihl", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 Trainer, brain researcher" },
   { term: "Charles Darwin", route: "beruehmte-charles-darwin", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 Naturalist, theory of evolution" },
   { term: "Warren Buffett", route: "beruehmte-warren-buffett", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 Investment legend, patience & foresight" },
+  { term: "Marie Curie", route: "beruehmte-marie-curie", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 physicist, Nobel Prizes in Physics and Chemistry" },
   { term: "Carl Tanzler", route: "beruehmte-carl-tanzler", description: "Portrait: SE5w6 \u00b7 Self-Preservation Type 5 \u00b7 radiologist, kept a corpse for seven years" },
   { term: "Julius Caesar", route: "beruehmte-julius-caesar", description: "Portrait: SO2w3 \u00b7 Social Type 2 \u00b7 General, statesman, dictator for life" },
   { term: "Will Smith", route: "beruehmte-will-smith", description: "Portrait: SO2w3 \u00b7 Social Type 2 \u00b7 Actor, producer" },
@@ -31874,6 +31876,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Carl Tanzler – Selbsterhaltender Typ 5",
     teaser:"SE5w6 · 1877–1952. Radiologe, bewahrte den Leichnam der Patientin Elena de Hoyos sieben Jahre lang in seinem Haus auf. Nie verurteilt, da die Verjährungsfrist ablief. Die Eule, die im Dunkeln blieb.",
     tags:["Geschichte"], gender:"m"},
+  { route:"beruehmte-marie-curie", name:"Marie Curie", added:"2026-08-17", subtyp:"SE5w6",
+    heading:"Marie Curie – Selbsterhaltende Typ 5",
+    teaser:"SE5w6 · 1867–1934. Einzige Person mit Nobelpreisen in zwei Naturwissenschaften (Physik 1903, Chemie 1911). Entdeckerin von Polonium und Radium, starb an den Folgen jahrzehntelanger Strahlenexposition. Sicherheit durch Wissen, Loyalität über den Tod hinaus. Tierentsprechung: Eule.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-rene-descartes", name:"René Descartes", added:"2026-08-14", subtyp:"SE5w6",
     heading:"René Descartes – Selbsterhaltender Typ 5",
     teaser:"SE5w6 · 1596–1650. Französischer Philosoph und Mathematiker, Begründer des Rationalismus. Cogito ergo sum, methodischer Zweifel, über zwanzig Umzüge in den Niederlanden. Die Eule mit Sechserflügel: radikale Vorsicht auf der Suche nach absoluter Gewissheit. Tierentsprechung: Eule.",
@@ -50241,6 +50247,69 @@ function spinozaPortraitPage() {
         {route:"beruehmte-hermann-hesse", label:"Porträt: Hermann Hesse (SE5w6)"},
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
       ])}
+    </div>
+  `);
+}
+
+function marieCuriePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marie-curie-portrait.jpg" alt="Eule" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marie Curie</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltende Typ 5 mit Sechserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Physikerin und Chemikerin, 1867&ndash;1934 &ndash; einzige Person mit Nobelpreisen in zwei verschiedenen Naturwissenschaften &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des selbsterhaltenden Typs 5 &ndash; ein Tier der Stille und der Tiefe, das sieht, was andere nicht sehen, und sich sein Revier nicht aus L\xe4rm, sondern aus Genauigkeit baut. Marie Curie, geboren 1867 als Maria Salomea Skłodowska in Warschau, verk\xf6rperte genau diese Qualit\xe4t: Sie verlie\xdf ihre Heimat, weil Frauen dort nicht studieren durften, lebte in Paris zeitweise von Brot und Tee, um sich das Studium leisten zu k\xf6nnen &ndash; und wurde die einzige Person der Geschichte, die Nobelpreise in zwei unterschiedlichen Naturwissenschaften erhielt (Physik 1903, Chemie 1911).</p>
+          <p class="vb-intro">Sie entdeckte gemeinsam mit ihrem Mann Pierre die Elemente Polonium und Radium, arbeitete jahrelang unter gesundheitsgef\xe4hrdenden Bedingungen in einem notd\xfcrftig eingerichteten Schuppen &ndash; und starb schlie\xdflich an den Folgen der jahrzehntelangen Strahlenbelastung, deren Gefahr sie selbst mit erforscht hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende F\xfcnf: Sicherheit durch Wissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende F\xfcnf (SE5)</strong> ist nach Naranjo der Subtyp, den er &bdquo;Refugium&ldquo; nannte &ndash; ein R\xfcckzug in einen abgeschotteten, selbst kontrollierten Raum, in dem Wissen zur eigentlichen Existenzgrundlage wird. Curie lebte diese Haltung radikal: Ihr Pariser Studentenzimmer war so sp\xe4rlich beheizt, dass Wasser im Waschbecken gefror, ihre Ern\xe4hrung reduzierte sie auf das Notwendigste &ndash; nicht aus Armut allein, sondern aus einer fast asketischen Priorisierung des Studiums \xfcber alles andere.</p>
+          <p class="vb-intro">Dieselbe Haltung pr\xe4gte ihre gesamte Forscherlaufbahn: jahrelange, m\xfchsame Handarbeit an tonnenweise Pechblende, um wenige Milligramm Radium zu isolieren &ndash; keine spektakul\xe4re Eingebung, sondern eine methodische, fast st\xf6rrische Ausdauer, die Sicherheit einzig aus der eigenen fachlichen Kompetenz bezog.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\xfcgel: Die Bindung als Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SE5 mit schw\xe4cher ausgepr\xe4gtem Sechserfl\xfcgel h\xe4tte ihre Forschung m\xf6glicherweise vollst\xe4ndig allein und isoliert betrieben. Bei Curie trat stattdessen eine tiefe, loyale Bindungsf\xe4higkeit hervor: Ihre Ehe mit Pierre Curie war zugleich eine wissenschaftliche Partnerschaft auf Augenh\xf6he &ndash; gemeinsame Laborarbeit, gemeinsame Ver\xf6ffentlichungen, ein gemeinsamer Nobelpreis 1903.</p>
+          <p class="vb-intro">Als Pierre 1906 bei einem Verkehrsunfall starb, \xfcbernahm Marie nicht nur seine Professur an der Sorbonne &ndash; als erste Frau \xfcberhaupt &ndash;, sondern setzte die gemeinsame Forschung mit derselben Beharrlichkeit fort, die sie schon zuvor ausgezeichnet hatte. Der Sechserfl\xfcgel zeigt sich hier als F\xe4higkeit, Verlust nicht zum R\xfcckzug, sondern zur Fortsetzung der gemeinsamen Sache zu machen &ndash; Loyalit\xe4t \xfcber den Tod hinaus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Wissenschaft im Dienst der Menschheit: Die mobilen R\xf6ntgeneinheiten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">W\xe4hrend des Ersten Weltkriegs entwickelte Curie mobile R\xf6ntgeneinheiten &ndash; sp\xe4ter &bdquo;Petites Curies&ldquo; genannt &ndash; und fuhr selbst an die Front, um verwundeten Soldaten bei der Diagnose zu helfen. Sie bildete au\xdferdem rund 150 Frauen als R\xf6ntgenassistentinnen aus. Das ist die SE5w6 in ihrer praktischsten Form: Wissen wird nicht nur angeh\xe4uft, sondern gezielt in konkreten, verl\xe4sslichen Nutzen f\xfcr andere \xfcbersetzt.</p>
+          <p class="vb-intro">Trotz zweier Nobelpreise und weltweiter Anerkennung blieb Curie \xf6ffentlich zur\xfcckhaltend, fast scheu &ndash; sie mied gro\xdfe Auftritte, wo immer m\xf6glich, und kehrte nach jeder Ehrung so schnell wie m\xf6glich ins Labor zur\xfcck. Ruhm war f\xfcr sie kein Ziel, sondern eine l\xe4stige Begleiterscheinung der eigentlichen Arbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das unsichtbare Risiko</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Curie und ihre Zeitgenossen verstanden die Gefahren radioaktiver Strahlung zu ihren Lebzeiten nur unvollst\xe4ndig. Ihre Notizb\xfccher sind bis heute so radioaktiv kontaminiert, dass sie in bleiausgekleideten K\xe4sten aufbewahrt werden und nur mit Schutzkleidung eingesehen werden d\xfcrfen. Sie starb 1934 an aplastischer An\xe4mie, einer direkten Folge der jahrzehntelangen Strahlenexposition.</p>
+          <p class="vb-intro">Dass sie trotz fortschreitender gesundheitlicher Warnsignale nicht aufh\xf6rte weiterzuforschen, zeigt die Kehrseite der SE5: Die Hingabe an das eigene Wissensgebiet kann so vollst\xe4ndig werden, dass selbst die eigene k\xf6rperliche Sicherheit dahinter zur\xfccktritt &ndash; ein Widerspruch zum Sicherheitsbed\xfcrfnis der SE5, der sich aufl\xf6st, sobald &bdquo;Sicherheit&ldquo; nicht mehr k\xf6rperlich, sondern intellektuell verstanden wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Eule, die im Dunkeln das Leuchten fand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Marie Curies Leben zeigt die selbsterhaltende F\xfcnf mit Sechserfl\xfcgel in ihrer h\xf6chsten, wirkungsvollsten Form: radikale Hingabe an Wissen, getragen von loyaler Bindung &ndash; erst an Pierre, dann an die Sache selbst, dann an die Ausbildung einer ganzen Generation von Forscherinnen (ihre Tochter Ir\xe8ne Joliot-Curie erhielt 1935 ebenfalls den Chemie-Nobelpreis). Kein Bed\xfcrfnis nach \xf6ffentlicher B\xfchne, sondern eine stille, unerm\xfcdliche Ausdauer im Labor.</p>
+          <p class="vb-intro">Die Eule sieht im Dunkeln, was andere \xfcbersehen &ndash; und genau das tat Curie mit unsichtbarer Strahlung, die sie als Erste sichtbar und nutzbar machte. Ihr Verm\xe4chtnis leuchtet bis heute: in der Krebstherapie, in der Kernphysik, und in jeder Frau, die seither in einem Labor stand, weil eine Polin aus Warschau bewies, dass es m\xf6glich war.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-rene-descartes", label:"Portr\xe4t: Ren\xe9 Descartes (SE5w6)"},
+          {route:"beruehmte-amelia-earhart", label:"Portr\xe4t: Amelia Earhart (SO9w1)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -89306,6 +89375,7 @@ function render() {
     "beruehmte-david-hume": davidHumePortraitPage,
     "beruehmte-thomas-von-aquin": thomasVonAquinPortraitPage,
     "beruehmte-spinoza": spinozaPortraitPage,
+    "beruehmte-marie-curie": marieCuriePortraitPage,
     "beruehmte-rene-descartes": reneDescartesPortraitPage,
     "beruehmte-carl-tanzler": carlTanzlerPortraitPage,
     "beruehmte-hermann-hesse": hermannHessePortraitPage,
