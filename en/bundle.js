@@ -348,6 +348,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kamala Harris – Social Type 2",
     teaser:"SO2w3 · born 1964. Politician, former US Vice President. Prosecutor, Senator, Vice President – service as political calling, several historic firsts. Animal correspondence: Golden Retriever.",
     tags:["Politik"] , gender:"f"},
+  { route:"beruehmte-bernard-faye", name:"Dr. Bernard Faye", added:"2026-08-17", subtyp:"SX2w1",
+    heading:"Dr. Bernard Faye – Sexual Type 2",
+    teaser:"SX2w1 · French veterinarian, world-leading camel expert, co-founder of ISOCARD. Over 400 scientific publications, decades of research in Ethiopia, Niger, and Saudi Arabia. Animal correspondence: Camel.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-matthias-schweighoefer", name:"Matthias Schweighöfer", subtyp:"SX2w1",
     heading:"Matthias Schweighöfer – Sexual Type 2",
     teaser:"SX2w1 · born 1981. Actor, director, producer. Closeness instead of distance – whether as performer or director, he carries his ensemble like the camel carries its path. Animal correspondence: Camel.",
@@ -4728,6 +4732,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-romulus-whitaker", name:"Romulus Whitaker", subtyp:"SX1w2", tier:"Black Mamba"},
   {route:"beruehmte-bill-haast", name:"Bill Haast", subtyp:"SX1w9", tier:"Black Mamba"},
   {route:"beruehmte-winifred-charlesworth", name:"Mrs. Winifred Charlesworth", subtyp:"SO2w1", tier:"Golden Retriever"},
+  {route:"beruehmte-bernard-faye", name:"Dr. Bernard Faye", subtyp:"SX2w1", tier:"Camel"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -33283,6 +33288,65 @@ function kamalaHarrisPortraitPage() {
   `);
 }
 
+function bernardFayePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-bernard-faye-portrait.jpg" alt="Camel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Bernard Faye</p>
+        <p class="krim-portrait-typ">SX2w1 &middot; Sexual Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Veterinarian &amp; researcher, co-founder of ISOCARD &ndash; world-leading camel expert &ndash; Animal correspondence: Camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Camel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Camel</strong> is the animal of the sexual Two &ndash; tough, enduring, headstrong, storing energy and water over long distances only to release them fully, all at once, when the moment comes: up to 150 liters in a single go. Dr. Bernard Faye is considered one of the world's absolute authorities on camel research &ndash; a French veterinarian who, over decades, including for the French agricultural research institute CIRAD, studied camel physiology, milk production, and disease.</p>
+          <p class="vb-intro">As with several other animal-researcher portraits in this compass, the same striking pattern shows itself here: Faye is the man people ask when it comes to the global role of camels in agriculture and desert ecology &ndash; and he himself carries the camel principle within him: store, store, store &ndash; and then, when it counts, give everything at once.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Two: Complete Devotion Instead of Divided Attention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the <strong>sexual Two</strong> <em>Seduction</em> &ndash; not in the sense of manipulation, but as the capacity for complete, unfiltered devotion to a single cause or person. Faye's scientific record reads like a literal translation of this principle into professional life: over 400 scientific publications, 320 presentations, 45 books and book chapters, 210 technical reports, 12 scientific editions. Not scattered interest across many topics, but a concentrated, decades-long focus on a single animal.</p>
+          <p class="vb-intro">His interest in camels began in 1975 in Ethiopia, studying mineral metabolism &ndash; and never let up since. He lived and worked in Ethiopia, Niger, and later Saudi Arabia, right in the desert regions that are also the habitat of his research animal. That is the SX2: not observing from a distance, but placing oneself in the same harsh conditions the beloved subject itself is exposed to.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Precision Instead of Popularization</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SX2 with a more muted One-wing would likely have lived its passion in a more narrative, popular-science way. In Faye, an unyielding methodological rigor shows instead: standard works such as "Camel Clinical Biochemistry and Hematology" are specialist literature in the strictest sense &ndash; precise, systematic, with no concessions to a broad audience. He also founded the <em>International Society for Research and Development on Camelids (ISOCARD)</em>, building an international network of camel scientists across North, West, and East Africa, the Middle East, India, Central Asia, and Latin America.</p>
+          <p class="vb-intro">This combination of complete, concentrated devotion (the Two) and unyielding scientific precision (the One-wing) is the SX2w1 at its most productive: passion that does not dissipate into scattered interests, but unfolds its full effect precisely through discipline.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A Life's Achievement with Global Impact</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From 2010 to 2015, Faye worked as an FAO consultant at the Camel Research Center in Saudi Arabia. Since retiring from CIRAD in 2016, he has continued to work as an independent international camel expert for the FAO, the World Organisation for Animal Health (OIE), and the WHO &ndash; a retirement that is, in truth, no retirement at all. The camel does not stop giving just because the official career has ended.</p>
+          <p class="vb-intro">His research has a direct impact on food security in desert regions, on veterinary care for camel herds, and on the global understanding of the role camels play in the survival of millions of people in arid zones. A quiet but far-reaching impact &ndash; carried not by public visibility, but by decades of concentrated expert authority.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Camel That Stores in Order to Give Everything</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bernard Faye's life's work shows the sexual Two with a One-wing at its most concentrated: a more than fifty-year, undivided devotion to a single animal, combined with a scientific precision that turned this devotion into robust, globally used knowledge.</p>
+          <p class="vb-intro">The camel stores water and energy over long distances &ndash; not out of stinginess, but so that it can give completely at the decisive moment. That is exactly what Faye did: an entire career, concentrated, tireless, without dispersion &ndash; and with a body of scientific work that today benefits millions of people in the world's deserts.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
+          {route:"beruehmte-monika-gruber", label:"Portrait: Monika Gruber (SX2w1)"},
+        ])}
+        ${animalResearcherMatchBlock("beruehmte-bernard-faye")}
+      </div>
+    </div>
+  `);
+}
+
 function matthiasSchweighoeferPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -56119,6 +56183,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "beruehmte-zoe-saldana": zoeSaldanaPortraitPage,
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,
+      "beruehmte-bernard-faye": bernardFayePortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
       "beruehmte-milow": milowPortraitPage,
       "beruehmte-anastasiia-metelkina": anastasiiaMetelkinaPortraitPage,

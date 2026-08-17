@@ -24159,6 +24159,7 @@ const registerEntries = [
   { term: "Buddha",                        route: "beruehmte-buddha",                      description: "Portrait: SX5w4 \u00b7 Sexueller Typ 5 \u00b7 Religionsstifter, Begr\u00fcnder des Buddhismus" },
   { term: "Mohammed",                      route: "beruehmte-mohammed",                    description: "Portrait: SO8w9 \u00b7 Sozialer Typ 8 \u00b7 Religionsstifter, Begr\u00fcnder des Islam" },
   { term: "Mark Zuckerberg",               route: "beruehmte-mark-zuckerberg",             description: "Portrait: SX5w6 \u00b7 Sexueller Typ 5 \u00b7 Meta-Gr\u00fcnder, Wissen als Macht" },
+  { term: "Bernard Faye",               route: "beruehmte-bernard-faye",                description: "Portrait: SX2w1 \u00b7 Sexueller Typ 2 \u00b7 Veterin\u00e4rmediziner, weltweit f\u00fchrender Kamelexperte" },
   { term: "Matthias Schweigh\u00f6fer",      route: "beruehmte-matthias-schweighoefer",      description: "Portrait: SX2w1 \u00b7 Sexueller Typ 2 \u00b7 Schauspieler, Regisseur" },
   { term: "Meg Ryan",                      route: "beruehmte-meg-ryan",                    description: "Portrait: SX3w4 \u00b7 Sexueller Typ 3 \u00b7 Schauspielerin, Romantik-Ikone" },
   { term: "Melanie Kreis",                 route: "beruehmte-melanie-kreis",               description: "Portrait: SO6w5 \u00b7 Sozialer Typ 6 \u00b7 CFO DHL Group, geb. 1971 Bonn" },
@@ -24504,6 +24505,7 @@ const registerEntriesEN = [
   { term: "Buddha", route: "beruehmte-buddha", description: "Portrait: SX5w4 \u00b7 Sexual Type 5 \u00b7 Religious founder, founder of Buddhism" },
   { term: "Muhammad", route: "beruehmte-mohammed", description: "Portrait: SO8w9 \u00b7 Social Type 8 \u00b7 Religious founder, founder of Islam" },
   { term: "Mark Zuckerberg", route: "beruehmte-mark-zuckerberg", description: "Portrait: SX5w6 \u00b7 Sexual Type 5 \u00b7 Meta founder, knowledge as power" },
+  { term: "Bernard Faye", route: "beruehmte-bernard-faye", description: "Portrait: SX2w1 \u00b7 Sexual Type 2 \u00b7 veterinarian, world-leading camel expert" },
   { term: "Matthias Schweigh\u00f6fer", route: "beruehmte-matthias-schweighoefer", description: "Portrait: SX2w1 \u00b7 Sexual Type 2 \u00b7 Actor, Director" },
   { term: "Meg Ryan", route: "beruehmte-meg-ryan", description: "Portrait: SX3w4 \u00b7 Sexual Type 3 \u00b7 Actress, Romantic icon" },
   { term: "Melanie Kreis", route: "beruehmte-melanie-kreis", description: "Portrait: SO6w5 \u00b7 Social Type 6 \u00b7 CFO DHL Group, b. 1971 Bonn" },
@@ -31644,6 +31646,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Monika Gruber \u2013 Sexueller Typ 2",
     teaser:"SX2w1 \u00b7 geb. 1970. Kabarettistin, Schauspielerin. Bayerns sch\u00e4rfste Verf\u00fchrerin zur Wahrheit \u2013 Humor als Heimat, Haltung als zweite Natur. Das Kamel, das tausend Menschen gleichzeitig anschaut. Tierentsprechung: Kamel.",
     tags:["Kabarett","Schauspiel"] , gender:"f"},
+  { route:"beruehmte-bernard-faye", name:"Dr. Bernard Faye", added:"2026-08-17", subtyp:"SX2w1",
+    heading:"Dr. Bernard Faye \u2013 Sexueller Typ 2",
+    teaser:"SX2w1 \u00b7 Franz\u00f6sischer Veterin\u00e4rmediziner, weltweit f\u00fchrender Kamelexperte, Mitbegr\u00fcnder der ISOCARD. \u00dcber 400 wissenschaftliche Publikationen, jahrzehntelange Forschung in \u00c4thiopien, Niger und Saudi-Arabien. Tierentsprechung: Kamel.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-matthias-schweighoefer", name:"Matthias Schweigh\u00f6fer", subtyp:"SX2w1",
     heading:"Matthias Schweigh\u00f6fer \u2013 Sexueller Typ 2",
     teaser:"SX2w1 \u00b7 geb. 1981. Schauspieler, Regisseur, Produzent. N\u00e4he statt Distanz \u2013 ob als Darsteller oder als Regisseur tr\u00e4gt er sein Ensemble wie das Kamel seinen Weg. Tierentsprechung: Kamel.",
@@ -35190,6 +35196,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-bill-haast", name:"Bill Haast", subtyp:"SX1w9", tier:"Schwarze Mamba"},
   {route:"beruehmte-romulus-whitaker", name:"Romulus Whitaker", subtyp:"SX1w2", tier:"Schwarze Mamba"},
   {route:"beruehmte-winifred-charlesworth", name:"Mrs. Winifred Charlesworth", subtyp:"SO2w1", tier:"Golden Retriever"},
+  {route:"beruehmte-bernard-faye", name:"Dr. Bernard Faye", subtyp:"SX2w1", tier:"Kamel"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -59845,6 +59852,65 @@ function willSmithPortraitPage() {
         {route:"beruehmte-barack-obama", label:"Portr\u00e4t: Barack Obama (SO2w1)"},
         {route:"beruehmte-zoe-saldana", label:"Portr\u00e4t: Zoe Saldaña (SO2w3)"},
       ])}
+    </div>
+  `);
+}
+
+function bernardFayePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-bernard-faye-portrait.jpg" alt="Kamel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Bernard Faye</p>
+        <p class="krim-portrait-typ">SX2w1 &middot; Sexuelle Typ 2 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Veterin\xe4rmediziner &amp; Forscher, Mitbegr\xfcnder der ISOCARD &ndash; weltweit f\xfchrender Kamelexperte &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; z\xe4h, ausdauernd, eigensinnig, es speichert Energie und Wasser \xfcber lange Strecken, um sie dann, wenn der Moment kommt, vollst\xe4ndig auf einmal freizusetzen: bis zu 150 Liter in einem Zug. Dr. Bernard Faye gilt weltweit als eine der absoluten Koryph\xe4en der Kamelforschung &ndash; ein franz\xf6sischer Veterin\xe4rmediziner, der jahrzehntelang, unter anderem f\xfcr das franz\xf6sische Forschungsinstitut CIRAD, zur Physiologie, Milchproduktion und den Krankheiten von Kamelen forschte.</p>
+          <p class="vb-intro">Wie bei mehreren anderen Tierforscher-Portr\xe4ts dieses Kompasses zeigt sich auch hier das verbl\xfcffende Muster: Faye ist der Mann, den man fragt, wenn es um die globale Rolle von Kamelen in Landwirtschaft und W\xfcsten\xf6kologie geht &ndash; und ausgerechnet er tr\xe4gt das Kamelprinzip selbst in sich: Speichern, speichern, speichern &ndash; und dann, wenn es darauf ankommt, alles auf einmal geben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Vollst\xe4ndige Hingabe statt verteilter Aufmerksamkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die <strong>sexuelle Zwei</strong> <em>Verf\xfchrung</em> &ndash; nicht im Sinne von Manipulation, sondern als F\xe4higkeit zu vollst\xe4ndiger, ungefilterter Hingabe an eine einzige Sache oder Person. Fayes wissenschaftliche Bilanz liest sich wie eine w\xf6rtliche \xdcbersetzung dieses Prinzips ins Berufsleben: \xfcber 400 wissenschaftliche Publikationen, 320 Vortr\xe4ge, 45 B\xfccher und Buchkapitel, 210 technische Berichte, 12 wissenschaftliche Editionen. Kein zerstreutes Interesse an vielen Themen, sondern eine geballte, jahrzehntelange Konzentration auf ein einziges Tier.</p>
+          <p class="vb-intro">Sein Interesse an Kamelen begann 1975 in \xc4thiopien mit Studien zum Mineralstoffwechsel &ndash; und h\xf6rte seither nicht mehr auf. Er lebte und forschte in \xc4thiopien, Niger und sp\xe4ter Saudi-Arabien, mitten in den W\xfcstenregionen, die auch der Lebensraum seines Forschungstiers sind. Das ist die SX2: nicht aus der Distanz beobachten, sondern sich selbst in dieselben harten Bedingungen begeben, denen auch das geliebte Gegen\xfcber ausgesetzt ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\xfcgel: Pr\xe4zision statt Popularisierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SX2 mit schw\xe4cher ausgepr\xe4gtem Einserfl\xfcgel h\xe4tte ihre Leidenschaft vermutlich eher erz\xe4hlerisch, popul\xe4rwissenschaftlich ausgelebt. Bei Faye zeigt sich stattdessen eine unerbittliche methodische Strenge: Standardwerke wie &bdquo;Camel Clinical Biochemistry and Hematology&ldquo; sind Fachliteratur im striktesten Sinne &ndash; pr\xe4zise, systematisch, ohne Konzessionen an ein breites Publikum. Er gr\xfcndete zudem die <em>International Society for Research and Development on Camelids (ISOCARD)</em> und baute damit ein internationales Netzwerk aus Kamelwissenschaftlerinnen und -wissenschaftlern in Nord-, West- und Ostafrika, dem Nahen Osten, Indien, Zentralasien und Lateinamerika auf.</p>
+          <p class="vb-intro">Diese Kombination aus vollst\xe4ndiger, konzentrierter Hingabe (der Zwei) und unerbittlicher wissenschaftlicher Genauigkeit (dem Einserfl\xfcgel) ist die SX2w1 in ihrer produktivsten Form: Leidenschaft, die sich nicht in Zerstreuung verliert, sondern sich durch Disziplin erst zu ihrer vollen Wirkung entfaltet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Eine Lebensleistung mit globaler Wirkung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von 2010 bis 2015 arbeitete Faye als FAO-Berater am Camel Research Center in Saudi-Arabien. Seit seiner Emeritierung bei CIRAD im Jahr 2016 ist er weiterhin als unabh\xe4ngiger internationaler Kamelexperte f\xfcr FAO, die Weltorganisation f\xfcr Tiergesundheit (OIE) und die WHO t\xe4tig &ndash; ein Ruhestand, der in Wahrheit keiner ist. Das Kamel h\xf6rt nicht auf zu geben, nur weil die offizielle Karriere endet.</p>
+          <p class="vb-intro">Seine Forschung hat direkten Einfluss auf die Ern\xe4hrungssicherheit in W\xfcstenregionen, auf die tier\xe4rztliche Versorgung von Kamelherden und auf das globale Verst\xe4ndnis, welche Rolle Kamele f\xfcr das \xdcberleben von Millionen Menschen in ariden Zonen spielen. Eine stille, aber weitreichende Wirkung &ndash; getragen nicht von \xf6ffentlicher Sichtbarkeit, sondern von jahrzehntelanger, konzentrierter Fachautorit\xe4t.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Kamel, das speichert, um alles zu geben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bernard Fayes Lebenswerk zeigt die sexuelle Zwei mit Einserfl\xfcgel in ihrer konzentriertesten Form: eine \xfcber f\xfcnfzig Jahre andauernde, ungeteilte Hingabe an ein einziges Tier, verbunden mit einer wissenschaftlichen Genauigkeit, die aus dieser Hingabe belastbares, weltweit genutztes Wissen machte.</p>
+          <p class="vb-intro">Das Kamel speichert Wasser und Energie \xfcber lange Distanzen &ndash; nicht aus Geiz, sondern damit es im entscheidenden Moment vollst\xe4ndig geben kann. Genau das tat Faye: eine ganze Karriere lang konzentriert, unerm\xfcdlich, ohne Zerstreuung &ndash; und mit einem wissenschaftlichen Werk, von dem heute Millionen Menschen in den W\xfcsten dieser Welt profitieren.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+          {route:"beruehmte-monika-gruber", label:"Porträt: Monika Gruber (SX2w1)"},
+        ])}
+        ${animalResearcherMatchBlock("beruehmte-bernard-faye")}
+      </div>
     </div>
   `);
 }
@@ -90650,6 +90716,7 @@ function render() {
       "beruehmte-zoe-saldana": zoeSaldanaPortraitPage,
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,
       "beruehmte-monika-gruber": monikaGruberPortraitPage,
+      "beruehmte-bernard-faye": bernardFayePortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
       "beruehmte-milow": milowPortraitPage,
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
