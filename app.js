@@ -23956,6 +23956,7 @@ const registerEntries = [
   { term: "Sexuelle Drei (dunkle Seite)", route: "kriminalpsychologie-luka-magnotta", description: "Die destruktive Auspr\xe4gung der Sexuellen Drei: Charisma, Identit\xe4tsleere und pathologische Aufmerksamkeitssuche" },
   { term: "Adolf Hitler", route: "kriminalpsychologie-adolf-hitler", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 4 mit Fl\xfcgel 3, Neid als Vernichtungswille, SX4w3-Analyse" },
   { term: "Bonnie Parker", route: "kriminalpsychologie-bonnie-parker", description: "Kriminalpsychologisches Portrait: SX4w3 – Hälfte von \"Bonnie and Clyde\", getötet 1934 im Polizeihinterhalt" },
+  { term: "Clyde Barrow", route: "kriminalpsychologie-clyde-barrow", description: "Kriminalpsychologisches Portrait: SX7w8 – Hälfte von \"Bonnie and Clyde\", getötet 1934 im Polizeihinterhalt" },
   { term: "Sexuelle Vier (dunkle Seite)", route: "kriminalpsychologie-adolf-hitler", description: "Die destruktive Auspr\xe4gung der Sexuellen Vier: Rivalit\xe4t, Grandiosit\xe4t und Vernichtungswille" },
   { term: "Soziale Eins (dunkle Seite)", route: "kriminalpsychologie-ted-bundy", description: "Die destruktive Auspr\u00e4gung der sozialen Eins: Selbstt\xe4uschung, Perfektionismus und Doppelleben" },
   // Heilmittel-Unterseiten
@@ -24792,6 +24793,7 @@ const registerEntriesEN = [
   { term: "Sexual Three (Dark Side)", route: "kriminalpsychologie-luka-magnotta", description: "The destructive manifestation of the Sexual Three: charisma, emptiness of identity, and pathological attention-seeking" },
   { term: "Adolf Hitler", route: "kriminalpsychologie-adolf-hitler", description: "Criminal psychological portrait: Sexual Type 4 with 3 wing, envy as a will to destroy, SX4w3 analysis" },
   { term: "Bonnie Parker", route: "kriminalpsychologie-bonnie-parker", description: "Criminal psychological portrait: SX4w3 – half of \"Bonnie and Clyde\", killed 1934 in a police ambush" },
+  { term: "Clyde Barrow", route: "kriminalpsychologie-clyde-barrow", description: "Criminal psychological portrait: SX7w8 – half of \"Bonnie and Clyde\", killed 1934 in a police ambush" },
   { term: "Sexual Four (Dark Side)", route: "kriminalpsychologie-adolf-hitler", description: "The destructive manifestation of the Sexual Four: rivalry, grandiosity, and a will to destroy" },
   { term: "Social One (Dark Side)", route: "kriminalpsychologie-ted-bundy", description: "The destructive manifestation of the Social One: self-deception, perfectionism, and a double life" },
   { term: "Essential Oils (Subtype Page)", route: "aetherische-oele", description: "Essential oils for all 27 subtypes \u2013 specific scent recommendations and mode of action" },
@@ -31281,6 +31283,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-david-berkowitz",      name:"David Berkowitz",                     subtyp:"SE4w3",  heading:"David Berkowitz \u2013 Selbsterhaltender Typ 4",                          teaser:"SE4w3 \u2013 \u201eSon of Sam\u201c, New York 1976\u201377. Sechs Morde, Bekennerbriefe, tiefer Einsamkeitsschmerz \u2013 die selbsterhaltende Vier mit Dreierfl\u00fcgel: Neid als Vernichtung des Begehrten." , tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-elliot-rodger",       name:"Elliot Rodger",                       subtyp:"SO4w5",  heading:"Elliot Rodger \u2013 Sozialer Typ 4",                                        teaser:"SO4w5 \u2013 Isla-Vista-Massaker 2014. 6 Tote, 14 Verletzte \u2013 die soziale Vier mit F\xfcnferfl\xfcgel: Neid als Weltgericht, Ausgeschlossenheit als Vernichtungsauftrag. Tierentsprechung: G\xfcrteltier." , tags:["Terror"], gender:"m"},
   { route:"kriminalpsychologie-bonnie-parker",        name:"Bonnie Parker",                       subtyp:"SX4w3",  heading:"Bonnie Parker – Sexuelle Typ 4",                                       teaser:"SX4w3 – Hälfte von „Bonnie and Clyde\", 1910–1934. 21 Monate Verbrecherjagd durch den mittleren Westen der USA, selbstmythologisierende Gedichte, getötet in einem Polizeihinterhalt. Die Beziehung als tragisches Kunstwerk, der Dreierflügel als öffentliche Bühne. Tierentsprechung: Chihuahua." , tags:["Serienmord","Raub"], gender:"f"},
+  { route:"kriminalpsychologie-clyde-barrow",         name:"Clyde Barrow",                        subtyp:"SX7w8",  heading:"Clyde Barrow – Sexuelle Typ 7",                                        teaser:"SX7w8 – Hälfte von „Bonnie and Clyde\", 1909–1934. 21 Monate Verbrecherjagd durch den mittleren Westen der USA, mindestens 13 Tötungen, getötet in einem Polizeihinterhalt. Rastlose Flucht vor dem Eingesperrtsein, der Achterflügel als letzte Verteidigungslinie. Tierentsprechung: Schimpanse." , tags:["Serienmord","Raub"], gender:"m"},
   { route:"kriminalpsychologie-adolf-hitler",        name:"Adolf Hitler",                        subtyp:"SX4w3",  heading:"Adolf Hitler \u2013 Sexueller Typ 4",                                      teaser:"SX4w3 \u2013 Diktator, 1889\u20131945. Hauptverantwortlicher f\xfcr Holocaust und Weltkrieg. Die sexuelle Vier mit Dreierfl\xfcgel in ihrer dunkelsten Auspr\xe4gung: Neid als Vernichtungswille." , tags:["Terror"], gender:"m"},
   { route:"kriminalpsychologie-joachim-kroll",        name:"Joachim Kroll",                       subtyp:"SE5w6",  heading:"Joachim Kroll \u2013 Selbsterhaltender Typ 5",                             teaser:"SE5w6 \u2013 Kanalarbeiter und Serienm\xf6rder, 1933\u20131991. Mindestens 8 Opfer im Ruhrgebiet zwischen 1955 und 1976. Der \u201eRuhrkannibale\u201c: radikaler R\xfcckzug, extreme Ressourcenknappheit und die dunkelste Auspr\xe4gung der selbsterhaltenden F\xfcnf." , tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-ted-kaczynski",      name:"Dr. Ted Kaczynski",                        subtyp:"SO5w4",  heading:"Ted Kaczynski \u2013 Sozialer Typ 5",                                       teaser:"SO5w4 \u2013 'Unabomber', 1942\u20132023. Bombenanschl\xe4ge 1978\u20131995, 3 Tote, 23 Verletzte \u2013 die soziale F\xfcnf mit Viererfl\xfcgel: Wissen als Weltgericht, intellektuelle \xdcberlegenheit als Sendungsauftrag. Tierentsprechung: Oktopus." , tags:["Terror"], gender:"m"},
@@ -61333,8 +61336,8 @@ function bonnieParkerPortraitPage() {
       </div>
 
         ${relatedLinks([
+          {route:"kriminalpsychologie-clyde-barrow", label:"Kriminalpsychologie: Clyde Barrow (SX7w8) – ihr Partner"},
           {route:"kriminalpsychologie-adolf-hitler", label:"Kriminalpsychologie: Adolf Hitler (SX4w3)"},
-          {route:"kriminalpsychologie-gudrun-ensslin", label:"Kriminalpsychologie: Gudrun Ensslin (SX7w8)"},
         ])}
       </div>
     </div>
@@ -74076,6 +74079,86 @@ function ulrikeMeinhofPortraitPage() {
           {route:"kriminalpsychologie-gudrun-ensslin", label:"Kriminalpsychologie: Gudrun Ensslin (SX7w8) – RAF-Mitgr\u00fcnderin"},
           {route:"kriminalpsychologie-charles-manson", label:"Kriminalpsychologie: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-adolf-eichmann", label:"Kriminalpsychologie: Adolf Eichmann (SO6w5)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function clydeBarrowPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Clyde Barrow – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/clyde-barrow-portrait.jpg" alt="Clyde Barrow – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Clyde Barrow</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexuelle Typ 7 mit Achterfl\xfcgel</p>
+        <p class="krim-portrait-sub">H\xe4lfte von &bdquo;Bonnie and Clyde&ldquo; &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Schimpanse</h3>
+        <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben &ndash; ein Tier voller Bewegungsdrang, Wendigkeit und einer Intensit\xe4t, die keine Ruhe kennt, solange es einen Ausweg, ein n\xe4chstes Abenteuer, eine offene Fluchtroute gibt. Clyde Barrow, 1909 in Texas als Sohn armer Farmpächter geboren, verbrachte Teile seiner Jugend mit Kleinkriminalität, bevor er 1930 wegen bewaffneten Raubes ins Gef\xe4ngnis kam. Dort erlitt er wiederholte sexuelle Gewalt durch Mith\xe4ftlinge &ndash; ein Trauma, aus dem ein Schwur entstand: nie wieder eingesperrt, nie wieder wehrlos.</p>
+        <p class="vb-intro">Nach seiner Entlassung 1932 traf er auf Bonnie Parker, und gemeinsam begannen sie eine 21 Monate dauernde Flucht durch den mittleren Westen der USA &ndash; \xfcber Bundesstaatsgrenzen hinweg, von einem \xdcberfall zum n\xe4chsten, immer in Bewegung, immer auf der Flucht vor der n\xe4chsten Festnahme. Am 23. Mai 1934 wurde er gemeinsam mit Bonnie in einem Polizeihinterhalt in Louisiana erschossen. Er war 25 Jahre alt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Sieben: Freiheit als Fluchtbewegung</h3>
+        <p class="vb-intro">Naranjo nannte die <strong>sexuelle Sieben (SX7)</strong> den Subtyp der <em>Suggestibilit\xe4t</em>: eine Intensit\xe4t, die sich vollst\xe4ndig auf den n\xe4chsten Reiz, das n\xe4chste Erlebnis, die n\xe4chste M\xf6glichkeit richtet &ndash; getrieben von der tief sitzenden Angst, in Schmerz oder Enge gefangen zu sein. Clydes gesamtes Leben nach dem Gef\xe4ngnis war von genau diesem Muster gepr\xe4gt: st\xe4ndige Bewegung, schnelle Autos, immer neue Fluchtwege, nie l\xe4nger als n\xf6tig an einem Ort.</p>
+        <p class="vb-intro">Er schrieb sogar einen bewundernden Brief an Henry Ford, in dem er den V8-Motor f\xfcr seine Zuverl\xe4ssigkeit bei Fluchtfahrten lobte &ndash; ein Detail, das die SX7-Faszination f\xfcr Geschwindigkeit, Optionen und Bewegungsfreiheit auf den Punkt bringt. Unter der oberfl\xe4chlichen Unbeschwertheit, den riskanten \xdcberf\xe4llen, dem rastlosen Freiheitsdrang lag jedoch eine tiefe, panische Angst vor dem Eingesperrtsein &ndash; die eigentliche Wunde, aus der die gesamte Fluchtbewegung entstand.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Achterfl\xfcgel: Wenn die Flucht zur Konfrontation wird</h3>
+        <p class="vb-intro">Eine SX7 mit schw\xe4cher ausgepr\xe4gtem Achterfl\xfcgel h\xe4tte auf drohende Gefahr vermutlich mit reiner Flucht reagiert &ndash; ausweichen, verschwinden, die Situation verlassen. Bei Clyde trat stattdessen eine H\xe4rte hervor, die \xfcber blo\xdfes Entkommen hinausging: Wenn die Flucht an ihre Grenze stie\xdf, schoss er, ohne zu z\xf6gern. &bdquo;Lieber sterben als zur\xfcck ins Gef\xe4ngnis&ldquo; war f\xfcr ihn keine Floskel, sondern eine gelebte innere Notwendigkeit.</p>
+        <p class="vb-intro">Das ist der Achterfl\xfcgel bei der Sieben: Die Flucht bleibt die Grundbewegung, aber wenn kein Ausweg mehr bleibt, verwandelt sich die Leichtigkeit in kompromisslose Konfrontation. Nicht Kontrolle als Ziel wie bei der reinen Acht, sondern Kontrolle als letztes Mittel, um die Freiheit zu verteidigen, die die Sieben \xfcber alles stellt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die Bindung an Bonnie: Kein Fluchtweg allein</h3>
+        <p class="vb-intro">Clyde h\xe4tte mehrfach allein untertauchen k\xf6nnen &ndash; ohne Bonnie w\xe4ren seine \xdcberlebenschancen h\xf6her gewesen. Stattdessen blieb er bei ihr, bis zuletzt, selbst als das gemeinsame Risiko offensichtlich stieg. Bei einer reinen Sieben w\xe4re das ungew\xf6hnlich &ndash; die Sieben h\xe4lt sich Optionen offen, auch die Option des Alleingangs. Doch die sexuelle Sieben bindet sich mit einer Intensit\xe4t an eine einzelne, au\xdfergew\xf6hnliche Beziehung, die ihre sonstige Rastlosigkeit \xfcbersteigt.</p>
+        <p class="vb-intro">Bonnie war f\xfcr Clyde nicht nur Partnerin, sondern Teil der Fluchtbewegung selbst geworden &ndash; die Beziehung als letzte, unaufgebbare Konstante in einem Leben, das sonst aus permanenter Bewegung bestand. Der Achterfl\xfcgel sorgte daf\xfcr, dass diese Bindung nicht aufgegeben wurde, selbst als Vernunft daf\xfcr gesprochen h\xe4tte.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Das Ende in Louisiana</h3>
+        <p class="vb-intro">Am 23. Mai 1934 wurden Clyde und Bonnie auf einer Landstra\xdfe in Bienville Parish, Louisiana, von einem sechsk\xf6pfigen Polizeikommando in einem sorgf\xe4ltig geplanten Hinterhalt get\xf6tet. Das Fahrzeug wurde von \xfcber 130 Gewehrsch\xfcssen durchsiebt &ndash; keine Warnung, kein Versuch der Festnahme. Die Beh\xf6rden hatten aus fr\xfcheren, gescheiterten Verhaftungsversuchen gelernt, dass Clyde niemals kampflos aufgeben w\xfcrde.</p>
+        <p class="vb-intro">Genau diese Gewissheit &ndash; dass er bis zuletzt schie\xdfen w\xfcrde, statt sich zu ergeben &ndash; war die letzte Konsequenz seines fr\xfchen Schwurs im Gef\xe4ngnis. Die Flucht, die mit dem Wunsch nach Freiheit begonnen hatte, endete in genau der Konfrontation, die der Achterfl\xfcgel immer als letzte Option bereithielt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro"><strong>a) Flucht vor der Enge, nicht Lust an der Gewalt:</strong> Clydes Ausgangspunkt war nicht Kontrollsucht, sondern panische Angst vor dem Eingesperrtsein. Das ist die SX7-Grundleidenschaft: Schmerz durch Bewegung, Geschwindigkeit und immer neue Optionen vermeiden.</p>
+        <p class="vb-intro"><strong>b) Der Achterfl\xfcgel als letzte Verteidigungslinie:</strong> Eine SX7 mit schw\xe4cher ausgepr\xe4gtem Achterfl\xfcgel h\xe4tte sich bei drohender Festnahme vermutlich ergeben. Clydes stark ausgepr\xe4gter Achterfl\xfcgel machte aus der Flucht eine Bereitschaft zur t\xf6dlichen Konfrontation, sobald kein Ausweg mehr blieb.</p>
+        <p class="vb-intro"><strong>c) Die eine Bindung inmitten der Rastlosigkeit:</strong> Die bedingungslose Treue zu Bonnie, trotz wachsendem Risiko, zeigt, wie die sexuelle Sieben ihre sonstige Vielfalt an M\xf6glichkeiten auf eine einzige, unaufgebbare Beziehung fokussieren kann.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Clyde Barrow</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SX7w8 &ndash; Sexuelle Sieben mit Achterfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> V\xf6llerei (als rastlose Flucht vor Enge und Wehrlosigkeit)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Schimpanse</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 24. M\xe4rz 1909 &ndash; 23. Mai 1934</span>
+          <span style="display:block;"><strong>Bekannt f\xfcr:</strong> H\xe4lfte des Gangsterpaars &bdquo;Bonnie and Clyde&ldquo;, 21 Monate Verbrecherjagd durch den mittleren Westen der USA (1932&ndash;1934), mindestens 13 T\xf6tungen, get\xf6tet in einem Polizeihinterhalt</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Sieben im Vergleich: Wie die Flucht vor Enge zur rastlosen Lebensform wird – und warum der Achterflügel aus Leichtigkeit tödliche Konfrontation macht.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE7, SO7, SX7 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "V\xf6llerei als Grundmotiv der Sieben: Wie das Schutzsystem der Sieben entsteht und wie es sich in Heilung aufl\xf6st.", "Wer du wirklich bist (Band 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Clyde Barrow wurde mitverantwortlich gemacht f\xfcr mindestens 13 T\xf6tungen und starb 1934 bei einem Polizeieinsatz. Das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-bonnie-parker", label:"Kriminalpsychologie: Bonnie Parker (SX4w3) – seine Partnerin"},
+          {route:"kriminalpsychologie-ronnie-biggs", label:"Kriminalpsychologie: Ronnie Biggs (SX7w8)"},
         ])}
       </div>
     </div>
@@ -89278,6 +89361,7 @@ function render() {
       "kriminalpsychologie-niels-hoegel": nielsHoegelPortraitPage,
       "kriminalpsychologie-andreas-baader": andreasBaaderPortraitPage,
       "kriminalpsychologie-ulrike-meinhof": ulrikeMeinhofPortraitPage,
+      "kriminalpsychologie-clyde-barrow": clydeBarrowPortraitPage,
       "kriminalpsychologie-gudrun-ensslin": gudrunEnsslinPortraitPage,
       "kriminalpsychologie-chris-watts": chrisWattsPortraitPage,
       "kriminalpsychologie-john-gotti": johnGottiPortraitPage,
