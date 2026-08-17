@@ -24035,6 +24035,7 @@ const registerEntries = [
   { term: "Woody Allen",                   route: "beruehmte-woody-allen",                 description: "Portrait: SE6w7 \u00b7 Selbsterhaltender Typ 6 \u00b7 Regisseur, Drehbuchautor, Komiker" },
   { term: "Bella Thorne",                  route: "beruehmte-bella-thorne",                description: "Portrait: SO3w4 \u00b7 Sozialer Typ 3 \u00b7 Schauspielerin, Selbstausdruck & Grenzen" },
   { term: "Bill Gates",                    route: "beruehmte-bill-gates",                  description: "Portrait: SO5w6 \u00b7 Sozialer Typ 5 \u00b7 Microsoft-Gr\u00fcnder, Philanthrop" },
+  { term: "Jennifer Mather",               route: "beruehmte-jennifer-mather",             description: "Portrait: SO5w6 \u00b7 Sozialer Typ 5 \u00b7 Verhaltensforscherin, Oktopus-Kognitionsforschung" },
   { term: "Boris Becker",                  route: "beruehmte-boris-becker",                description: "Portrait: SX7w8 \u00b7 Sexueller Typ 7 \u00b7 Tennislegende, 6 Grand-Slam-Titel" },
   { term: "Brigitte Bardot",               route: "beruehmte-brigitte-bardot",             description: "Portrait: SX3w2 \u00b7 Sexueller Typ 3 \u00b7 Filmikone, Tierrechtsaktivistin" },
   { term: "Anastasiia Metelkina",           route: "beruehmte-anastasiia-metelkina",        description: "Portrait: SX2w3 · Sexueller Typ 2 · Eiskunstläuferin, olympische Medaillengewinnerin für Georgien" },
@@ -24374,6 +24375,7 @@ const registerEntriesEN = [
   { term: "Woody Allen", route: "beruehmte-woody-allen", description: "Portrait: SP6w7 \u00b7 Self-Preservation Type 6 \u00b7 Director, screenwriter, comedian" },
   { term: "Bella Thorne", route: "beruehmte-bella-thorne", description: "Portrait: SO3w4 \u00b7 Social Type 3 \u00b7 Actress, self-expression & boundaries" },
   { term: "Bill Gates", route: "beruehmte-bill-gates", description: "Portrait: SO5w6 \u00b7 Social Type 5 \u00b7 Microsoft founder, Philanthropist" },
+  { term: "Jennifer Mather", route: "beruehmte-jennifer-mather", description: "Portrait: SO5w6 \u00b7 Social Type 5 \u00b7 Behavioral scientist, octopus cognition research" },
   { term: "Boris Becker", route: "beruehmte-boris-becker", description: "Portrait: SX7w8 \u00b7 Sexual Type 7 \u00b7 Tennis legend, 6 Grand Slam titles" },
   { term: "Brigitte Bardot", route: "beruehmte-brigitte-bardot", description: "Portrait: SX3w2 \u00b7 Sexual Type 3 \u00b7 Film icon, animal rights activist" },
   { term: "Anastasiia Metelkina", route: "beruehmte-anastasiia-metelkina", description: "Portrait: SX2w3 · Sexual Type 2 · figure skater, Olympic medalist for Georgia" },
@@ -31926,6 +31928,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Pythagoras – Sozialer Typ 5",
     teaser:"SO5w6 · ca. 570–495 v. Chr. Griechischer Philosoph und Mathematiker, Gründer des Bundes von Kroton. Satz des Pythagoras, Sphärenharmonie, gestuftes Geheimwissen. Der Oktopus mit Sechserflügel: Wissen als Orden, Sicherheit durch Regel und Loyalität. Tierentsprechung: Oktopus.",
     tags:["Geschichte","Philosophie"], gender:"m"},
+  { route:"beruehmte-jennifer-mather", name:"Jennifer Mather", added:"2026-08-17", subtyp:"SO5w6",
+    heading:"Jennifer Mather – Sozialer Typ 5",
+    teaser:"SO5w6 · geb. 1943. Verhaltensforscherin, weltweit führende Oktopus-Kognitionsforscherin, wissenschaftliche Beraterin von „My Octopus Teacher“. Der Oktopus, der ein Leben lang den Oktopus erforschte – Tierentsprechung und Lebenswerk in seltener Übereinstimmung.",
+    tags:["Wissenschaft"], gender:"w"},
   { route:"beruehmte-bill-gates", name:"Bill Gates", subtyp:"SO5w6",
     heading:"Bill Gates \u2013 Sozialer Typ 5",
     teaser:"SO5w6 \u00b7 geb. 1955. Microsoft-Gr\u00fcnder, Milliard\u00e4r. Investor in Industrie, Landwirtschaft und globale Gesundheitspolitik. Der Oktopus, der mit acht Armen die Welt umfasst \u2013 und nicht mehr losl\u00e4sst.",
@@ -44927,6 +44933,65 @@ function franzKafkaPortraitPage() {
         {route:"beruehmte-xu-bing", label:"Porträt: Xu Bing (SE5w4)"},
         {route:"beruehmte-christian-raetsch", label:"Porträt: Christian Rätsch (SE5w4)"},
       ])}
+    </div>
+  `);
+}
+
+function jenniferMatherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jennifer-mather-portrait.jpg" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jennifer Mather</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Sozialer Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Verhaltensforscherin, geb. 1943 &ndash; Pionierin der Oktopus-Kognitionsforschung &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 &ndash; und Jennifer Mather ist, weltweit, die wohl renommierteste Oktopus-Verhaltensforscherin überhaupt. Seit 1978 veröffentlicht sie Arbeiten zur Kognition und Persönlichkeit von Kopffüßern, gilt als Pionierin der Erforschung von Oktopus-Verhalten und -Intelligenz und als eine der führenden ethischen Stimmen zum Wohl wirbelloser Tiere.</p>
+          <p class="vb-intro">Das ist kein Zufall, und genau das macht diesen Fall so bemerkenswert: Die Tierentsprechungen des Enneagramms wurden lange bevor irgendjemand etwas von Jennifer Mathers Lebenswerk wusste festgelegt &ndash; unabhängig von ihr, aus der reinen Beobachtung menschlicher Charakterstrukturen heraus. Dass ausgerechnet die weltweit bekannteste Erforscherin des Oktopus selbst eine soziale Fünf ist, ist damit kein nachträglich hineininterpretiertes Detail, sondern eine verblüffende Bestätigung: Wer sein Leben der Erforschung eines bestimmten Tieres widmet, nähert sich diesem Tier oft auch deshalb an, weil es dem eigenen inneren Archetyp am nächsten steht. Ähnlich war es bei Dian Fossey und den Gorillas &ndash; auch dort deckten sich Forscherin und erforschtes Tier in ihrer Tierentsprechung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Fünf: Wissen als Beitrag zur Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Fünf (SO5)</strong> ist nach Naranjo der Subtyp, der sein Wissen nicht privat hortet, sondern es der Gemeinschaft zur Verfügung stellt &ndash; <em>Totem</em>: Wissen als Identität, als Beitrag, als Platz innerhalb eines Kollektivs von Fachleuten. Mather, aufgewachsen in Victoria, British Columbia, entdeckte ihre Faszination für das Meer schon als Kind in den Gezeitentümpeln der kanadischen Küste &ndash; zunächst als systematische Muschelsammlerin, bevor sie begann, die Tiere in den Schalen selbst zu erkennen. Dieses frühe, geduldige Kategorisieren ist reine Fünfer-Signatur.</p>
+          <p class="vb-intro">Ihr Weg war ungewöhnlich: Bachelor in Biologie an der University of British Columbia (1964), Master an der Florida State University (1972), schließlich Promotion in Psychologie an der Brandeis University &ndash; ein bewusster Wechsel des Fachs, den sie selbst als Bereicherung beschreibt: &bdquo;Ich wollte immer meinen eigenen intellektuellen Weg gehen.&ldquo; Seit 1972 forscht sie ununterbrochen an wild lebenden Oktopussen &ndash; in Bermuda, Hawaii, Bonaire und, 2013, bei einer mona­telangen Expedition nach Moorea in Französisch-Polynesien, aus der ihr Buch &bdquo;The Octopus Scientists&ldquo; entstand. Fast ihr gesamtes Berufsleben verbrachte sie an derselben Universität &ndash; Lethbridge in Alberta &ndash;, wo sie Tausende Studierende unterrichtete und zugleich ihr Forschungsprogramm aufrechterhielt: &bdquo;Mir liegt sehr viel an den Studierenden &ndash; und ich bin gleichzeitig verrückt nach Kopffüßern.&ldquo;</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Loyalität zur Institution, Schutz der Übersehenen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> bringt der sozialen Fünf ein tiefes Bedürfnis nach verlässlicher Zugehörigkeit und nach dem Schutz dessen, was von der Gemeinschaft übersehen wird. Bei Mather zeigt sich das doppelt: in der jahrzehntelangen Treue zu ein und derselben akademischen Institution, und in ihrem entschiedenen Einsatz für das Wohl wirbelloser Tiere &ndash; einer Tiergruppe, die 99 Prozent der Fauna der Erde ausmacht, aber in der Ethikforschung fast völlig unbeachtet blieb. Gemeinsam mit Kolleginnen und Kollegen gab sie den Sammelband &bdquo;The Welfare of Invertebrate Animals&ldquo; heraus und formulierte unmissverständlich: &bdquo;Wir müssen aufhören, Tiere auszubeuten. Punkt.&ldquo;</p>
+          <p class="vb-intro">Das ist die soziale Fünf mit Sechserflügel im Licht: nicht der einsame Entdecker, der sein Wissen für sich behält, sondern die Forscherin, die eine ganze Disziplin dazu bewegen will, ihre ethischen Standards zu ändern &ndash; und die dafür systematisch Allianzen mit anderen Fachleuten sucht, statt allein zu kämpfen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Forschung: Geduld statt Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mathers wissenschaftlicher Beitrag beruht auf jahrzehntelanger, unspektakulärer Feldbeobachtung. Sie war eine der ersten, die belegten, dass Oktopusse individuelle Persönlichkeiten besitzen &ndash; zu einer Zeit, als &bdquo;Tierpersönlichkeit&ldquo; in der Wissenschaft noch als Kategoriefehler galt. Sie identifizierte drei Persönlichkeitsdimensionen bei Oktopussen: aktiv, reaktiv, zurückhaltend. Gemeinsam mit Roland Anderson dokumentierte sie erstmals Spielverhalten bei Oktopussen &ndash; das marine Äquivalent zum Ballspielen mit dem eigenen Wasserstrahl. Sie belegte Werkzeuggebrauch und die Fähigkeit von Oktopussen, einzelne Menschen wiederzuerkennen.</p>
+          <p class="vb-intro">Sie selbst räumt offen ein, dass ihre geduldige, beobachtende Methode ihr weniger öffentliche Aufmerksamkeit eingebracht habe als lautstarker auftretenden Kolleginnen und Kollegen. Das ist typisch für die soziale Fünf im Licht: Der Wert liegt im Beitrag zum gemeinsamen Wissensbestand des Fachs, nicht in der eigenen Sichtbarkeit &ndash; auch wenn genau diese Zurückhaltung später durch öffentliche Würdigung eingeholt wurde: 2009 hielt sie einen TED-Talk, 2021 wirkte sie als wissenschaftliche Beraterin am Oscar-prämierten Netflix-Dokumentarfilm &bdquo;My Octopus Teacher&ldquo; mit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Oktopus, der den Oktopus erforschte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jennifer Mathers Lebenswerk zeigt die soziale Fünf mit Sechserflügel in ihrer produktivsten Form: eine ein ganzes Berufsleben währende, geduldige Vertiefung in ein einziges Forschungsfeld, verbunden mit dem beständigen Bedürfnis, dieses Wissen mit der wissenschaftlichen Gemeinschaft und mit Studierenden zu teilen, statt es privat zu horten. Wo eine selbsterhaltende Fünf sich in ein persönliches Refugium zurückgezogen hätte, baute Mather über Jahrzehnte ein Netzwerk aus Lehre, Forschung und Fachöffentlichkeit auf &ndash; und stellte sich, mit dem Sechserflügel im Rücken, konsequent auf die Seite der übersehenen, wirbellosen Tiere.</p>
+          <p class="vb-intro">Dass ausgerechnet sie zur weltweit bekanntesten Stimme der Oktopus-Forschung wurde, liest sich im Licht des Enneagramms fast wie eine Bestätigung von außen: Der Mensch, dessen eigener Archetyp der Oktopus ist, wurde zu der Person, die der Menschheit den Geist des Oktopus näher brachte als jede andere.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8)"},
+          {route:"beruehmte-pythagoras", label:"Porträt: Pythagoras (SO5w6)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -89652,6 +89717,7 @@ function render() {
       "beruehmte-friedrich-nietzsche": friedrichNietzschePortraitPage,
       "beruehmte-tilda-swinton": tildaSwintonPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
+      "beruehmte-jennifer-mather": jenniferMatherPortraitPage,
       "beruehmte-pythagoras": pythagorasPortraitPage,
       "beruehmte-isaac-newton": isaacNewtonPortraitPage,
       "beruehmte-georg-wilhelm-friedrich-hegel": georgWilhelmFriedrichHegelPortraitPage,

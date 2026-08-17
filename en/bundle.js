@@ -568,6 +568,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Pythagoras – Social Type 5",
     teaser:"SO5w6 · c. 570–495 BC. Greek philosopher and mathematician, founder of the Croton brotherhood. Pythagorean theorem, harmony of the spheres, graduated secret knowledge. The octopus with the Six-wing: knowledge as order, security through rule and loyalty. Animal correspondence: Octopus.",
     tags:["History","Philosophy"], gender:"m"},
+  { route:"beruehmte-jennifer-mather", name:"Jennifer Mather", added:"2026-08-17", subtyp:"SO5w6",
+    heading:"Jennifer Mather – Social Type 5",
+    teaser:"SO5w6 · born 1943. Behavioral scientist, world-leading octopus cognition researcher, scientific advisor on “My Octopus Teacher.” The octopus who spent a lifetime studying the octopus – animal correspondence and life's work in rare alignment.",
+    tags:["Wissenschaft"] },
   { route:"beruehmte-bill-gates", name:"Bill Gates", subtyp:"SO5w6",
     heading:"Bill Gates – Social Type 5",
     teaser:"SO5w6 · born 1955. Founder of Microsoft, philanthropist, billionaire. The octopus that reaches the world with eight arms – and never lets go.",
@@ -26253,6 +26257,65 @@ function franzKafkaPortraitPage() {
         {route:"beruehmte-xu-bing", label:"Portrait: Xu Bing (SP5w4)"},
         {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SP5w4)"},
       ])}
+    </div>
+  `);
+}
+
+function jenniferMatherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jennifer-mather-portrait.jpg" alt="Octopus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jennifer Mather</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Behavioral scientist, born 1943 &ndash; pioneer of octopus cognition research &ndash; Animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Octopus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Octopus</strong> is the animal of the Social Five &ndash; and Jennifer Mather is, worldwide, arguably the most renowned octopus behavior researcher alive. She has published on cephalopod cognition and personality since 1978, is regarded as a pioneer in the study of octopus behavior and intelligence, and is one of the leading ethical voices on invertebrate animal welfare.</p>
+          <p class="vb-intro">That is no coincidence, and it is exactly what makes this case so remarkable: the Enneagram's animal correspondences were fixed long before anyone knew anything about Jennifer Mather's life's work &ndash; independently of her, derived purely from observing human character structures. That the world's best-known researcher of the octopus should herself be a Social Five is therefore not a detail read in after the fact, but a striking confirmation from outside: someone who devotes their life to studying a particular animal often does so precisely because that animal sits closest to their own inner archetype. The same was true of Dian Fossey and the gorillas &ndash; there, too, researcher and researched animal shared the same animal correspondence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Five: Knowledge as a Contribution to the Community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Five (SO5)</strong> is, according to Naranjo, the subtype that does not hoard knowledge privately but places it at the community's disposal &ndash; <em>Totem</em>: knowledge as identity, as contribution, as a place within a collective of specialists. Mather, who grew up in Victoria, British Columbia, discovered her fascination with the sea as a child in the tide pools of the Canadian coast &ndash; first as a systematic shell collector, before she began to recognize the animals inside the shells themselves. This early, patient categorizing is pure Five signature.</p>
+          <p class="vb-intro">Her path was unconventional: a bachelor's degree in biology from the University of British Columbia (1964), a master's from Florida State University (1972), and finally a PhD in psychology from Brandeis University &ndash; a deliberate change of field that she herself describes as an enrichment: "I have always wanted to go my own way intellectually." Since 1972 she has studied wild octopuses without interruption &ndash; in Bermuda, Hawaii, Bonaire, and, in 2013, on a month-long expedition to Moorea in French Polynesia that produced her book "The Octopus Scientists." She spent nearly her entire career at the same university &ndash; Lethbridge, in Alberta &ndash; where she taught thousands of undergraduates while sustaining her research program: "I really care about the students &ndash; and I'm also nuts about cephs."</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Loyalty to Institution, Protection of the Overlooked</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the Social Five a deep need for reliable belonging and for protecting what the community overlooks. In Mather this shows in two ways: in decades of loyalty to a single academic institution, and in her committed advocacy for the welfare of invertebrate animals &ndash; a group that makes up 99 percent of all animal life on Earth yet received almost no ethical consideration in research. Together with colleagues she co-edited the volume "The Welfare of Invertebrate Animals" and stated plainly: "We have to stop exploiting animals, period."</p>
+          <p class="vb-intro">That is the Social Five with Six-wing at its best: not the lone discoverer who keeps knowledge to herself, but the researcher who wants to move an entire discipline to change its ethical standards &ndash; and who systematically builds alliances with other specialists to do it, rather than fighting alone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Research: Patience Instead of the Spotlight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mather's scientific contribution rests on decades of unspectacular field observation. She was among the first to demonstrate that octopuses possess individual personalities &ndash; at a time when "animal personality" was still considered a category error in science. She identified three personality dimensions in octopuses: active, reactive, avoidant. Together with Roland Anderson she documented play behavior in octopuses for the first time &ndash; the marine equivalent of bouncing a ball, using their own jet of water. She demonstrated tool use and the ability of octopuses to recognize individual humans.</p>
+          <p class="vb-intro">She herself openly acknowledges that her patient, observational method brought her less public attention than more assertive colleagues received. That is typical of the Social Five in the light: the value lies in the contribution to the field's shared body of knowledge, not in one's own visibility &ndash; even though this very restraint was later caught up by public recognition: in 2009 she gave a TED talk, and in 2021 she served as scientific advisor on the Oscar-winning Netflix documentary "My Octopus Teacher."</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Octopus Who Studied the Octopus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jennifer Mather's life's work shows the Social Five with Six-wing at its most productive: a career-long, patient deepening into a single field of research, joined with a persistent need to share that knowledge with the scientific community and with students, rather than hoarding it privately. Where a Self-Preservation Five might have withdrawn into a private refuge, Mather spent decades building a network of teaching, research, and public scholarship &ndash; and, with the Six-wing at her back, consistently sided with the overlooked, invertebrate animals.</p>
+          <p class="vb-intro">That she of all people became the world's best-known voice of octopus research reads, in the light of the Enneagram, almost like a confirmation from outside: the person whose own archetype is the Octopus became the one who brought the mind of the Octopus closer to humanity than anyone else.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+          {route:"beruehmte-dian-fossey", label:"Portrait: Dian Fossey (SE7w8)"},
+          {route:"beruehmte-pythagoras", label:"Portrait: Pythagoras (SO5w6)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -55196,6 +55259,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-taylor-swift": taylorSwiftPortraitPage,
       "beruehmte-friedrich-nietzsche": friedrichNietzschePortraitPage,
       "beruehmte-tilda-swinton": tildaSwintonPortraitPage,
+      "beruehmte-jennifer-mather": jenniferMatherPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
       "beruehmte-pythagoras": pythagorasPortraitPage,
       "beruehmte-isaac-newton": isaacNewtonPortraitPage,
