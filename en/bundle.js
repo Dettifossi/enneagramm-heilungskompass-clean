@@ -146,6 +146,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-david-berkowitz",      name:"David Berkowitz",                     subtyp:"SE4w3",  heading:"David Berkowitz – Self-Preservation Type 4",                          teaser:"SP4w3 – 'Son of Sam', New York 1976–77. Six murders, confessional letters, deep loneliness pain – the self-preservation Four with Three-wing: envy as destruction of the desired." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-elliot-rodger",       name:"Elliot Rodger",                       subtyp:"SO4w5",  heading:"Elliot Rodger – Social Type 4",                                        teaser:"SO4w5 – Isla Vista massacre 2014. 6 dead, 14 injured – the social Four with Five-wing: envy as world judgment, exclusion as mandate for annihilation. Animal correspondence: Armadillo." , tags:["Terror"]},
   { route:"kriminalpsychologie-bonnie-parker",        name:"Bonnie Parker",                       subtyp:"SX4w3",  heading:"Bonnie Parker – Sexual Type 4",                                       teaser:"SX4w3 – Half of \"Bonnie and Clyde\", 1910–1934. 21-month crime spree across the American Midwest, self-mythologizing poems, killed in a police ambush. The relationship as a tragic work of art, the Three wing as a public stage. Animal correspondence: Chihuahua." , tags:["Serienmord","Raub"], gender:"f"},
+  { route:"kriminalpsychologie-clyde-barrow",         name:"Clyde Barrow",                        subtyp:"SX7w8",  heading:"Clyde Barrow – Sexual Type 7",                                        teaser:"SX7w8 – Half of \"Bonnie and Clyde\", 1909–1934. 21-month crime spree across the American Midwest, at least 13 killings, killed in a police ambush. Restless flight from confinement, the Eight wing as a last line of defense. Animal correspondence: Chimpanzee." , tags:["Serienmord","Raub"], gender:"m"},
   { route:"kriminalpsychologie-adolf-hitler",        name:"Adolf Hitler",                        subtyp:"SX4w3",  heading:"Adolf Hitler \u2013 Sexual Type 4",                                      teaser:"SX4w3 – Dictator, 1889–1945. Chief responsible for the Holocaust and World War II. The sexual Four with Three-wing in its darkest manifestation: envy as will to annihilation." , tags:["Terror"]},
   { route:"kriminalpsychologie-joachim-kroll",        name:"Joachim Kroll",                       subtyp:"SE5w6",  heading:"Joachim Kroll \u2013 Self-Preservation Type 5",                             teaser:"SP5w6 – Sewage worker and serial killer, 1933–1991. At least 8 victims in the Ruhr area between 1955 and 1976. The ‘Ruhr Cannibal’: radical withdrawal, extreme resource scarcity and the darkest manifestation of the self-preservation Five." , tags:["Serienmord"]},
   { route:"kriminalpsychologie-ted-kaczynski",      name:"Dr. Ted Kaczynski",                        subtyp:"SO5w4",  heading:"Ted Kaczynski \u2013 Social Type 5",                                       teaser:"SO5w4 – ‘Unabomber’, 1942–2023. Bombings 1978–1995, 3 dead, 23 injured – the social Five with Four-wing: knowledge as world judgment, intellectual superiority as mission mandate. Animal correspondence: Octopus." , tags:["Terror"]},
@@ -34572,8 +34573,8 @@ function bonnieParkerPortraitPage() {
       </div>
 
         ${relatedLinks([
+          {route:"kriminalpsychologie-clyde-barrow", label:"Criminal Psychology: Clyde Barrow (SX7w8) – her partner"},
           {route:"kriminalpsychologie-adolf-hitler", label:"Criminal Psychology: Adolf Hitler (SX4w3)"},
-          {route:"kriminalpsychologie-gudrun-ensslin", label:"Criminal Psychology: Gudrun Ensslin (SX7w8)"},
         ])}
       </div>
     </div>
@@ -41119,6 +41120,86 @@ function ulrikeMeinhofPortraitPage() {
           {route:"kriminalpsychologie-gudrun-ensslin", label:"Criminal Psychology: Gudrun Ensslin (SX7w8) – partner and RAF co-founder"},
           {route:"kriminalpsychologie-charles-manson", label:"Criminal Psychology: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-adolf-eichmann", label:"Criminal Psychology: Adolf Eichmann (SO6w5)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function clydeBarrowPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Clyde Barrow – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/clyde-barrow-portrait.jpg" alt="Clyde Barrow – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Clyde Barrow</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight-wing</p>
+        <p class="krim-portrait-sub">Half of "Bonnie and Clyde" &middot; Animal Correspondence: Chimpanzee</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Chimpanzee</h3>
+        <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the sexual Seven – an animal full of restless motion, agility, and an intensity that knows no rest as long as there is a way out, a next adventure, an open escape route. Clyde Barrow, born in Texas in 1909 to poor tenant farmers, spent part of his youth in petty crime before being imprisoned in 1930 for armed robbery. There he suffered repeated sexual violence from fellow inmates – a trauma from which a vow emerged: never be caged again, never be defenseless again.</p>
+        <p class="vb-intro">After his release in 1932 he met Bonnie Parker, and together they began a 21-month flight across the American Midwest – crossing state lines, from one robbery to the next, always moving, always fleeing the next arrest. On May 23, 1934, he was shot dead together with Bonnie in a police ambush in Louisiana. He was 25 years old.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The sexual Seven: Freedom as a fleeing motion</h3>
+        <p class="vb-intro">Naranjo called the <strong>sexual Seven (SX7)</strong> the subtype of <em>Suggestibility</em>: an intensity focused entirely on the next stimulus, the next experience, the next possibility – driven by a deep-seated fear of being trapped in pain or confinement. Clyde's entire life after prison was shaped by exactly this pattern: constant motion, fast cars, ever-new escape routes, never staying in one place longer than necessary.</p>
+        <p class="vb-intro">He even wrote an admiring letter to Henry Ford, praising the V8 engine for its reliability on getaway drives – a detail that captures the SX7's fascination with speed, options, and freedom of movement perfectly. Beneath the surface lightness, the risky robberies, the restless drive for freedom, however, lay a deep, panicked fear of being caged – the actual wound from which the entire fleeing motion arose.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Eight wing: When flight turns into confrontation</h3>
+        <p class="vb-intro">An SX7 with a more muted Eight wing would likely have responded to imminent danger with pure flight – evading, disappearing, leaving the situation. In Clyde's case, a hardness emerged instead that went beyond mere escape: when flight reached its limit, he shot without hesitation. "Die rather than go back to prison" was, for him, not a figure of speech but a lived inner necessity.</p>
+        <p class="vb-intro">This is the Eight wing on the Seven: flight remains the basic movement, but once no way out remains, lightness turns into uncompromising confrontation. Not control as a goal in itself, as with a pure Eight, but control as a last resort to defend the freedom the Seven prizes above all else.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The bond with Bonnie: No escape route alone</h3>
+        <p class="vb-intro">Clyde could have gone into hiding alone several times over – his chances of survival would have been higher without Bonnie. Instead he stayed with her to the end, even as their shared risk clearly grew. For a pure Seven this would be unusual – the Seven keeps her options open, including the option of going it alone. But the sexual Seven binds herself with an intensity to a single, extraordinary relationship that outstrips her usual restlessness.</p>
+        <p class="vb-intro">For Clyde, Bonnie had become not just a partner, but part of the fleeing motion itself – the relationship as the last, non-negotiable constant in a life otherwise made of permanent movement. The Eight wing ensured this bond was never given up, even when reason would have argued for it.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The end in Louisiana</h3>
+        <p class="vb-intro">On May 23, 1934, Clyde and Bonnie were killed on a rural road in Bienville Parish, Louisiana, by a six-man posse in a carefully planned ambush. Their car was riddled with over 130 rounds – no warning, no attempt at arrest. The authorities had learned from earlier, failed attempts that Clyde would never surrender without a fight.</p>
+        <p class="vb-intro">This certainty – that he would keep shooting to the end rather than give himself up – was the final consequence of his early vow in prison. The flight that had begun with a desire for freedom ended in exactly the confrontation the Eight wing had always held in reserve as a last option.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram reveals</h3>
+        <p class="vb-intro"><strong>a) Fleeing confinement, not craving violence:</strong> Clyde's starting point was not a lust for control, but a panicked fear of being caged. This is the SX7's core passion: avoiding pain through movement, speed, and ever-new options.</p>
+        <p class="vb-intro"><strong>b) The Eight wing as a last line of defense:</strong> An SX7 with a more muted Eight wing would likely have surrendered when arrest loomed. Clyde's strongly developed Eight wing turned flight into a readiness for lethal confrontation once no way out remained.</p>
+        <p class="vb-intro"><strong>c) The one bond amid the restlessness:</strong> His unconditional loyalty to Bonnie, despite mounting risk, shows how the sexual Seven can focus her otherwise wide array of possibilities onto a single, non-negotiable relationship.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Clyde Barrow</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SX7w8 – Sexual Seven with Eight-wing</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Passion:</strong> Gluttony (as restless flight from confinement and defenselessness)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Animal Correspondence:</strong> Chimpanzee</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Life dates:</strong> March 24, 1909 – May 23, 1934</span>
+          <span style="display:block;"><strong>Known for:</strong> Half of the outlaw couple "Bonnie and Clyde", 21-month crime spree across the American Midwest (1932–1934), at least 13 killings, killed in a police ambush</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual Seven compared: how fleeing confinement becomes a restless way of life – and why the Eight wing turns lightness into lethal confrontation.", "The Hidden Dynamics of the 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE7, SO7, SX7 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Gluttony as the core motive of the Seven: how the Seven's protective system forms – and how it dissolves through healing.", "Who You Really Are (Volume 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type assignment is a psychological hypothesis, not a historical verdict. Clyde Barrow was held jointly responsible for at least 13 killings and died in 1934 in a police operation. The Enneagram explains, it does not justify.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-bonnie-parker", label:"Criminal Psychology: Bonnie Parker (SX4w3) – his partner"},
+          {route:"kriminalpsychologie-ronnie-biggs", label:"Criminal Psychology: Ronnie Biggs (SX7w8)"},
         ])}
       </div>
     </div>
@@ -54899,6 +54980,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-niels-hoegel": nielsHoegelPortraitPage,
       "kriminalpsychologie-andreas-baader": andreasBaaderPortraitPage,
       "kriminalpsychologie-ulrike-meinhof": ulrikeMeinhofPortraitPage,
+      "kriminalpsychologie-clyde-barrow": clydeBarrowPortraitPage,
       "kriminalpsychologie-gudrun-ensslin": gudrunEnsslinPortraitPage,
       "kriminalpsychologie-chris-watts": chrisWattsPortraitPage,
       "kriminalpsychologie-john-gotti": johnGottiPortraitPage,
