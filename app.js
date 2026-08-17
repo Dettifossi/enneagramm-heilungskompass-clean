@@ -24187,6 +24187,7 @@ const registerEntries = [
   { term: "Queen Elizabeth II.",           route: "beruehmte-queen-elizabeth-ii",          description: "Portrait: SE1w9 \u00b7 Selbsterhaltender Typ 1 \u00b7 Monarchin, Pflicht & Tradition" },
   { term: "Peter Sharpe",                  route: "beruehmte-peter-sharpe",                description: "Portrait: SE1w9 \u00b7 Selbsterhaltender Typ 1 \u00b7 Wildbiologe, Wei\u00dfkopfseeadler-Wiederansiedlung" },
   { term: "Konrad Adenauer",               route: "beruehmte-konrad-adenauer",             description: "Portrait: SE1w9 \u00b7 Selbsterhaltender Typ 1 \u00b7 Erster Bundeskanzler, Wiederaufbau, Westbindung" },
+  { term: "Bill Haast",                    route: "beruehmte-bill-haast",                  description: "Portrait: SX1w9 \u00b7 Sexueller Typ 1 \u00b7 Herpetologe, Gr\u00fcnder des Miami Serpentarium" },
   { term: "Grigori Rasputin",              route: "beruehmte-rasputin",                    description: "Portrait: SX1w9 \u00b7 Sexueller Typ 1 \u00b7 Wanderm\u00f6nch, Heiler am Zarenhof" },
   { term: "Jesus Christus",                route: "beruehmte-jesus-christus",              description: "Portrait: SO2w1 \u00b7 Sozialer Typ 2 \u00b7 Wanderprediger, Religionsstifter" },
   { term: "Friedensreich Hundertwasser",    route: "beruehmte-hundertwasser",               description: "Portrait: SX9w1 \u00b7 Sexueller Typ 9 \u00b7 Maler, Architekt, \u00d6kologe" },
@@ -24529,6 +24530,7 @@ const registerEntriesEN = [
   { term: "Queen Elizabeth II.", route: "beruehmte-queen-elizabeth-ii", description: "Portrait: SE1w9 \u00b7 Self-Preservation Type 1 \u00b7 Monarch, duty & tradition" },
   { term: "Peter Sharpe", route: "beruehmte-peter-sharpe", description: "Portrait: SE1w9 \u00b7 Self-Preservation Type 1 \u00b7 wildlife biologist, bald eagle reintroduction" },
   { term: "Konrad Adenauer", route: "beruehmte-konrad-adenauer", description: "Portrait: SE1w9 \u00b7 Self-Preservation Type 1 \u00b7 First Chancellor, reconstruction, Western integration" },
+  { term: "Bill Haast", route: "beruehmte-bill-haast", description: "Portrait: SX1w9 \u00b7 Sexual Type 1 \u00b7 herpetologist, founder of the Miami Serpentarium" },
   { term: "Grigori Rasputin", route: "beruehmte-rasputin", description: "Portrait: SX1w9 \u00b7 Sexual Type 1 \u00b7 Wandering monk, healer at the Tsar's court" },
   { term: "Jesus Christ", route: "beruehmte-jesus-christus", description: "Portrait: SO2w1 \u00b7 Social Type 2 \u00b7 Itinerant preacher, founder of a world religion" },
   { term: "Friedensreich Hundertwasser", route: "beruehmte-hundertwasser", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 Painter, architect, ecologist" },
@@ -31462,6 +31464,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Marie-Agnes Strack-Zimmermann \u2013 Sexueller Typ 1",
     teaser:"SX1w9 \u00b7 geb. 1958. FDP-Politikerin, Vorsitzende des Verteidigungsausschusses, EU-Parlamentarierin. Die Schwarze Mamba der deutschen Politik: scharf, beharrlich, prinzipientreu. Feuer und Ausdauer in einem. Tierentsprechung: Schwarze Mamba.",
     tags:["Politik"] , gender:"f"},
+  { route:"beruehmte-bill-haast", name:"Bill Haast", added:"2026-08-17", subtyp:"SX1w9",
+    heading:"Bill Haast \u2013 Sexueller Typ 1",
+    teaser:"SX1w9 \u00b7 1910\u20132011. Herpetologe, Gr\u00fcnder des Miami Serpentarium. \u00dcberlebte 172 Giftschlangenbisse, jahrzehntelange w\u00f6chentliche Selbstinjektionen mit Schlangengift, half bei der Entwicklung des ersten Korallenschlangen-Gegengifts. Tierentsprechung: Schwarze Mamba.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-rasputin", name:"Grigori Rasputin", added:"2026-07-29", subtyp:"SX1w9",
     heading:"Grigori Rasputin \u2013 Sexueller Typ 1",
     teaser:"SX1w9 \u00b7 1869\u20131916. Wanderm\u00f6nch, Heiler, Vertrauter der Zarenfamilie. Ein Mann, der Petersburgs Salons mit brennenden Augen verst\u00f6rte und einen kranken Zarewitsch heilte, wo \u00c4rzte scheiterten \u2013 Reinheit und Rausch in derselben Gestalt. Tierentsprechung: Schwarze Mamba.",
@@ -35169,6 +35175,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-konrad-lorenz", name:"Konrad Lorenz", subtyp:"SO1w9", tier:"Gans"},
   {route:"beruehmte-camille-fritsch", name:"Dr. Camille Fritsch", subtyp:"SE2w1", tier:"Flusspferd"},
   {route:"beruehmte-thea-litschka-koen", name:"Thea Litschka-Koen", subtyp:"SX1w2", tier:"Schwarze Mamba"},
+  {route:"beruehmte-bill-haast", name:"Bill Haast", subtyp:"SX1w9", tier:"Schwarze Mamba"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -57392,6 +57399,65 @@ function marieAgnesStrackZimmermannPortraitPage() {
         {route:"beruehmte-queen-elizabeth-ii", label:"Portr\u00e4t: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portr\u00e4t: Jamie Lee Curtis (SX1w2)"},
       ])}
+    </div>
+  `);
+}
+
+function billHaastPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-bill-haast-portrait.jpg" alt="Schwarze Mamba" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bill Haast</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexuelle Typ 1 mit Neunerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Herpetologe, 1910&ndash;2011 &ndash; Gr\xfcnder des Miami Serpentarium &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; blitzschnell, pr\xe4zise, kompromisslos, ganz auf ein einziges Gesetz konzentriert, das keine Ausnahme kennt. Bill Haast war eine lebende Legende der Schlangenforschung: 1947 gr\xfcndete er das <em>Miami Serpentarium</em>, das zeitweise \xfcber f\xfcnfhundert Giftschlangen beherbergte, und wurde zu einem der einflussreichsten Giftsammler der Wissenschaftsgeschichte.</p>
+          <p class="vb-intro">Wie bei Thea Litschka-Koen (SX1w2) und der Schwarzen Mamba zeigt sich auch hier dieselbe verbl\xfcffende \xdcbereinstimmung zwischen Tierentsprechung und Lebenswerk &ndash; nur mit einem anderen Fl\xfcgel und einer anderen Grundfarbe: Wo Litschka-Koen ihre Hingabe an die Schlange in Partnerschaft und Gemeinschaftsarbeit lebte, lebte Haast sie in radikaler Einsamkeit und Selbstversuch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Ein Gesetz ohne Ausnahme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> nannte Naranjo <em>Eifersucht</em> oder <em>Zeal</em> &ndash; eine Leidenschaft, die sich mit missionarischer Intensit\xe4t auf eine einzige Sache konzentriert und dort keine Kompromisse duldet. Ab September 1948 begann Haast, sich selbst wöchentlich mit steigenden Dosen von Schlangengift aus \xfcber drei\xdfig Arten zu injizieren &ndash; ein Selbstversuch, den er \xfcber Jahrzehnte hinweg ohne Unterbrechung fortsetzte, um Immunit\xe4t aufzubauen.</p>
+          <p class="vb-intro">Er extrahierte au\xdferdem systematisch Gift von seinen Schlangen f\xfcr die medizinische Forschung und die Herstellung von Gegengiften &ndash; in den 1960er Jahren belieferte er rund f\xfcnfzig Forschungskunden, darunter Wyeth, den f\xfchrenden US-Hersteller von Gegengiften, dem er half, das weltweit erste Gegengift gegen den Biss der Korallenschlange zu entwickeln. Sein eigenes, antik\xf6rperreiches Blut wurde in mindestens einundzwanzig F\xe4llen genutzt, um Schlangenbissopfer zu retten, f\xfcr die kein passendes Gegengift verf\xfcgbar war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\xfcgel: Stille Ausdauer statt \xf6ffentlicher Inszenierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SX1 mit st\xe4rker ausgepr\xe4gtem Zweierfl\xfcgel h\xe4tte ihre Mission vermutlich als gemeinsames, beziehungsgetragenes Projekt gelebt &ndash; so wie Thea Litschka-Koen mit ihrem Mann Clifton. Bei Haast zeigt sich stattdessen ein ganz anderes Muster: \xfcber drei\xdfig Jahre lang lie\xdf er jeden Sonntag eine K\xf6nigskobra allein auf seinem Rasen frei, um mit ihr zu &bdquo;fechten&ldquo; &ndash; ein einsames, fast meditatives Ritual, keine gemeinschaftliche Handlung.</p>
+          <p class="vb-intro">Bezeichnend f\xfcr den Neunerfl\xfcgel ist auch seine Reaktion auf den Ruhm: Haast lehnte die Auszeichnung ab, f\xfcr die meisten \xfcberlebten Schlangenbisse bekannt zu sein &ndash; er hielt es nicht f\xfcr ein erstrebenswertes oder bewundernswertes Ziel, gebissen zu werden. Kolleginnen und Kollegen beschrieben ihn als hingebungsvoll, aber zur\xfcckhaltend und in sich gekehrt: &bdquo;Ich kenne niemanden, der das Verhalten von Schlangen besser verstand als er&ldquo;, sagte der Miami-Zoologe Ron Magill \xfcber ihn. Genau diese stille, unaufgeregte Beharrlichkeit &ndash; ohne Bedürfnis nach Anerkennung, ohne \xf6ffentliche Inszenierung &ndash; ist der Neunerfl\xfcgel in seiner charakteristischen Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Hundertzweiundsiebzig Bisse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Laufe seines Lebens \xfcberlebte Haast mindestens hundertzweiundsiebzig dokumentierte Schlangenbisse &ndash; eine Zahl, die seine Frau Nancy bestätigte. Kratzer, Streifbisse oder Ein-Fang-Injektionen ohne nennenswerte Giftmenge z\xe4hlte er dabei bewusst nicht mit; nur echte, signifikante Envenomationen erf\xfcllten f\xfcr ihn die Definition eines &bdquo;Bisses&ldquo;. Diese Genauigkeit selbst in der eigenen Statistik &ndash; keine \xdcbertreibung, keine Dramatisierung &ndash; ist wiederum typisch f\xfcr die innere Strenge der Eins.</p>
+          <p class="vb-intro">Er starb 2011 im Alter von hundert Jahren in Punta Gorda, Florida &ndash; nach einem Leben, das fast vollst\xe4ndig einem einzigen Gegenstand gewidmet war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Schlange, die zum Gesetz des eigenen Lebens wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bill Haasts Lebenswerk zeigt die sexuelle Eins mit Neunerfl\xfcgel in ihrer eindr\xfccklichsten Form: eine fast klösterliche, jahrzehntelange Hingabe an ein einziges, gef\xe4hrliches Prinzip, getragen nicht von \xf6ffentlicher Anerkennung, sondern von stiller, unerschütterlicher innerer Notwendigkeit.</p>
+          <p class="vb-intro">Die Schwarze Mamba folgt einem inneren Gesetz ohne Ausnahme, ohne Show, ohne Bed\xfcrfnis nach Publikum. Genau das war Haasts Leben: hundertzweiundsiebzig Bisse, Jahrzehnte der Selbstinjektion, ein sonnt\xe4gliches Ritual mit einer K\xf6nigskobra &ndash; und all das, ohne je den Ruhm zu suchen, den es ihm eingebracht hat.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+          {route:"beruehmte-thea-litschka-koen", label:"Porträt: Thea Litschka-Koen (SX1w2)"},
+        ])}
+        ${animalResearcherMatchBlock("beruehmte-bill-haast")}
+      </div>
     </div>
   `);
 }
@@ -90408,6 +90474,7 @@ function render() {
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-jamie-lee-curtis": jamieleecurtisPortraitPage,
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
+      "beruehmte-bill-haast": billHaastPortraitPage,
       "beruehmte-rasputin": rasputinPortraitPage,
       "beruehmte-hundertwasser": hundertwasserPortraitPage,
       "beruehmte-diego-velazquez": diegoVelazquezPortraitPage,
