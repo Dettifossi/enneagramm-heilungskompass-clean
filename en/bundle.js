@@ -1225,6 +1225,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wallace Shawn – Self-Preservation Type 7",
     teaser:"SE7w6 · born 1943 in New York. Actor, playwright, essayist. Vizzini in “The Princess Bride”, Rex in “Toy Story”, André in “My Dinner with André”. The gorilla who thinks about capitalism and death over lunch - and makes everyone laugh.",
     tags:["Film/Theater","Literature"], gender:"m"},
+  { route:"beruehmte-junko-tabei", name:"Junko Tabei", added:"2026-08-17", subtyp:"SE7w6",
+    heading:"Junko Tabei – Self-Preservation Type 7",
+    teaser:"SE7w6 · 1939–2016. First woman to summit Mount Everest (1975), first woman to complete the Seven Summits (1992), founder of Japan's first women's mountaineering club. Pragmatic endurance instead of thrill-seeking, community as foundation. Animal correspondence: Gorilla.",
+    tags:["Sport"], gender:"f"},
   { route:"beruehmte-jeanne-calment", name:"Jeanne Calment", added:"2026-08-17", subtyp:"SE7w6",
     heading:"Jeanne Calment – Self-Preservation Type 7",
     teaser:"SE7w6 · 1875–1997. Oldest verified woman in human history, 122 years. Lifelong in Arles, chocolate, port wine, a legendary viager deal at 90. Capacity for pleasure without excess, constancy without confinement. Animal correspondence: Gorilla.",
@@ -24010,6 +24014,69 @@ function charlesDarwinPortraitPage() {
         {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SE5w6)"},
         {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5w6)"},
       ])}
+    </div>
+  `);
+}
+
+function junkoTabeiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-junko-tabei-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Junko Tabei</p>
+        <p class="krim-portrait-typ">SP7w6 &middot; Self-Preservation Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Mountaineer, 1939–2016 – first woman to summit Mount Everest – Animal correspondence: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The gorilla is the animal of the self-preservation Seven – strong, grounded, at ease within itself, with an endurance that does not depend on spectacular gestures. Junko Tabei, born in Japan in 1939, became famous in 1975 as the first woman to reach the summit of Mount Everest – and in 1992 as the first woman to complete the "Seven Summits", the highest mountain on each of the seven continents.</p>
+          <p class="vb-intro">Her Everest ascent began with a near-disaster: an avalanche buried her camp at 6,300 meters, and Tabei was dug out unconscious – yet climbed on to the summit just days later. She died of cancer in 2016, having continued climbing mountains almost until the end.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Seven: Abundance through persistent doing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the self-preservation Seven (SE7) is the most grounded of the three Seven subtypes – no restless wanderlust like the sexual Seven, no need for a public stage like the social Seven, but a pragmatic endurance directed at concrete goals. Tabei came from modest circumstances and was a sickly, frail child – and found in mountaineering exactly the physical and emotional stability that had otherwise eluded her.</p>
+          <p class="vb-intro">In 1960s Japan, it was unheard of for women to take mountaineering seriously – Tabei was turned away by men's climbing clubs and told she should look after children instead of mountains. In 1969 she founded the "Ladies Climbing Club" instead, Japan's first women's mountaineering association, under the motto: "Let's go on an overseas expedition by ourselves."</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six wing: Community instead of the lone climber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SE7 with a more muted Six wing might have pursued her climbs as a lone operator. In Tabei's case, a pronounced bond to community and team emerged instead: the 1975 Everest expedition was an all-Japanese women's expedition that she helped organize – funded partly through sponsorship from newspapers and a beer company, since traditional backers did not take a women's expedition seriously.</p>
+          <p class="vb-intro">Even as a mother of two, she stayed devoted to mountaineering, arranging childcare with other mothers from the climbing club, normalizing early on that motherhood and elite sport need not be mutually exclusive. The Six wing shows itself here as the ability to reliably embed oneself in a network rather than operate alone – loyalty to the group as the foundation of one's own achievement.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. After Everest: The quiet second act</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unlike what one might expect from a "record chaser", Tabei did not fall into constant self-promotion after her worldwide fame. She continued systematically climbing the highest peaks on every continent without seeking media attention, and increasingly devoted herself to environmental protection – particularly the litter accumulating on Everest's trails due to growing tourism.</p>
+          <p class="vb-intro">Late in life she even studied environmental science and advocated for protecting the mountain world that had given her so much. This is the SE7w6 at its most mature: initial personal endurance transforms into responsibility for a cause larger than one's own achievement.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Climbing to the end</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2012, Tabei was diagnosed with peritoneal cancer. Instead of withdrawing, she continued organizing mountain trips for young people affected by the 2011 earthquake and tsunami, and kept climbing herself for as long as her condition allowed – most recently Mount Fuji, three months before her death in 2016.</p>
+          <p class="vb-intro">This persistence to the very last moment is typical of the SE7: joy and meaning lie not in a single grand event, but in the continued, reliable practice of what nourishes one's own vitality – to the end.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gorilla that paved the way to the summit for women</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Junko Tabei's life shows the self-preservation Seven with a Six wing at its most impressive: pragmatic endurance instead of spectacular gesture, community instead of the lone climber, persistent continuation instead of a one-time triumph. She did not become famous because she sought thrill, but because she consistently lived a cause that gave her stability, right to the end.</p>
+          <p class="vb-intro">The gorilla stays within its territory and defends it persistently, without being loud – exactly what Tabei did for women in mountaineering: she did not open a single spectacular path, but built a lasting foundation on which generations of women climbers after her could build.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-jeanne-calment", label:"Portrait: Jeanne Calment (SE7w6)"},
+          {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -55145,6 +55212,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,
       "beruehmte-charles-darwin": charlesDarwinPortraitPage,
       "beruehmte-wallace-shawn": wallaceShawnPortraitPage,
+      "beruehmte-junko-tabei": junkoTabeiPortraitPage,
       "beruehmte-jeanne-calment": jeanneCalmentPortraitPage,
       "beruehmte-larry-king": larryKingPortraitPage,
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
