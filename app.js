@@ -23997,6 +23997,7 @@ const registerEntries = [
   { term: "Moses",                         route: "beruehmte-moses",                       description: "Portrait: SX6w5 \u00b7 Sexueller Typ 6 \u00b7 Prophet, Gesetzgeber, Anf\u00fchrer des Exodus" },
   { term: "Scarlett Johansson",             route: "beruehmte-scarlett-johansson",          description: "Portrait: SX6w7 \u00b7 Sexueller Typ 6 \u00b7 Schauspielerin, Produzentin" },
   { term: "Francis Bacon",                  route: "beruehmte-francis-bacon",               description: "Portrait: SE7w8 \u00b7 Selbsterhaltender Typ 7 \u00b7 Philosoph, Staatsmann, Lordkanzler" },
+  { term: "Jeanne Calment", route: "beruehmte-jeanne-calment", description: "Portrait: SE7w6 \u00b7 Selbsterhaltende Typ 7 \u00b7 \u00e4lteste verifizierte Frau der Geschichte, 122 Jahre" },
   { term: "Larry King",                     route: "beruehmte-larry-king",                  description: "Portrait: SE7w6 \u00b7 Selbsterhaltender Typ 7 \u00b7 Talkshow-Moderator" },
   { term: "Jeanne-Marie Bouvier de la Motte Guyon", route: "beruehmte-jeanne-marie-guyon",   description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Mystikerin, Quietismus" },
   { term: "Drew Barrymore",                 route: "beruehmte-drew-barrymore",              description: "Portrait: SO7w8 \u00b7 Sozialer Typ 7 \u00b7 Schauspielerin, Produzentin, Talkshow-Moderatorin" },
@@ -24331,6 +24332,7 @@ const registerEntriesEN = [
   { term: "Vladimir Putin", route: "beruehmte-wladimir-putin", description: "Portrait: SX6w5 \u00b7 Sexual Type 6 \u00b7 Politician, President of the Russian Federation" },
   { term: "Scarlett Johansson", route: "beruehmte-scarlett-johansson", description: "Portrait: SX6w7 \u00b7 Sexual Type 6 \u00b7 Actress, producer" },
   { term: "Francis Bacon", route: "beruehmte-francis-bacon", description: "Portrait: SE7w8 \u00b7 Self-Preservation Type 7 \u00b7 Philosopher, statesman, Lord Chancellor" },
+  { term: "Jeanne Calment", route: "beruehmte-jeanne-calment", description: "Portrait: SE7w6 \u00b7 Self-Preservation Type 7 \u00b7 oldest verified woman in history, 122 years" },
   { term: "Larry King", route: "beruehmte-larry-king", description: "Portrait: SE7w6 \u00b7 Self-Preservation Type 7 \u00b7 Talk show host" },
   { term: "Jeanne-Marie Bouvier de la Motte Guyon", route: "beruehmte-jeanne-marie-guyon", description: "Portrait: SO7w6 \u00b7 Social Type 7 \u00b7 Mystic, Quietism" },
   { term: "Drew Barrymore", route: "beruehmte-drew-barrymore", description: "Portrait: SO7w8 \u00b7 Social Type 7 \u00b7 Actress, producer, talk show host" },
@@ -32074,6 +32076,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wallace Shawn \u2013 Selbsterhaltender Typ 7",
     teaser:"SE7w6 \u00b7 geb. 1943 in New York. Schauspieler, B\u00fchnenautor, Essayist. Vizzini in \u201eDie Prinzessin Braut\u201c, Rex in \u201eToy Story\u201c, Andr\u00e9 in \u201eMein Abendessen mit Andr\u00e9\u201c. Der Gorilla, der beim Mittagessen \u00fcber Kapitalismus und Tod nachdenkt \u2013 und dabei jeden zum Lachen bringt.",
     tags:["Schauspiel","Literatur"], gender:"m"},
+  { route:"beruehmte-jeanne-calment", name:"Jeanne Calment", added:"2026-08-17", subtyp:"SE7w6",
+    heading:"Jeanne Calment – Selbsterhaltende Typ 7",
+    teaser:"SE7w6 · 1875–1997. Älteste verifizierte Frau der Menschheitsgeschichte, 122 Jahre. Ihr Leben lang in Arles, Schokolade, Portwein, ein legendärer Viager-Deal mit 90. Genussfähigkeit ohne Exzess, Beständigkeit ohne Enge. Tierentsprechung: Gorilla.",
+    tags:["Gesellschaft"], gender:"f"},
   { route:"beruehmte-larry-king", name:"Larry King", added:"2026-08-03", subtyp:"SE7w6",
     heading:"Larry King \u2013 Selbsterhaltender Typ 7",
     teaser:"SE7w6 \u00b7 geb. 1933 in Brooklyn, gest. 2021. Talkshow-Moderator, \u201eLarry King Live\u201c auf CNN \u00fcber 25 Jahre, mehr als 50.000 Interviews. Der Gorilla, der jedes Gespr\u00e4ch zu einem sicheren Ort machte \u2013 und selbst am wenigsten preisgab.",
@@ -53507,6 +53513,75 @@ function charlesDarwinPortraitPage() {
         {route:"beruehmte-vera-birkenbihl", label:"Portr\xe4t: Vera Birkenbihl (SE5w6)"},
         {route:"beruehmte-warren-buffett", label:"Portr\xe4t: Warren Buffett (SE5w6)"},
       ])}
+    </div>
+  `);
+}
+
+function jeanneCalmentPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jeanne-calment-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jeanne Calment</p>
+        <p class="krim-portrait-typ">SE7w6 &middot; Selbsterhaltende Typ 7 mit Sechserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">\xc4lteste verifizierte Frau der Menschheitsgeschichte, 1875&ndash;1997 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier der selbsterhaltenden Sieben &ndash; ein Tier, das kein rastloser Wanderer ist, sondern sein Revier kennt, dort bleibt und genau dort sein Leben in vollen Zügen genießt. Kein Tier der weiten Reise, sondern eines der tiefen Verwurzelung &ndash; kräftig, gelassen, in sich ruhend. Jeanne Calment, 1875 in Arles geboren, verbrachte praktisch ihr gesamtes Leben genau dort &ndash; und erreichte mit 122 Jahren und 164 Tagen die am gründlichsten dokumentierte Lebensspanne der Menschheitsgeschichte.</p>
+          <p class="vb-intro">Sie fuhr bis ins hohe Alter Fahrrad, focht noch mit 85, rauchte von 21 bis 117, aß fast ein Kilo Schokolade pro Woche und trank gerne Portwein. Kein asketisches, sondern ein ausgesprochen genussvolles langes Leben &ndash; getragen von einer Gelassenheit, die selbst schwere Verluste überstand, ohne bitter zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Fülle an einem einzigen Ort</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> ist nach Naranjo die bodenständigste der drei Siebener-Subtypen &ndash; keine rastlose Reiselust wie die sexuelle Sieben, keine Bühnenpräsenz wie die soziale Sieben, sondern eine pragmatische Genussfähigkeit, die Sicherheit in einem Netz kleiner, verlässlicher Freuden findet. Calment blieb ihr gesamtes Leben in Arles, obwohl finanzielle Mittel und familiäre Verbindungen ihr Reisen problemlos ermöglicht hätten.</p>
+          <p class="vb-intro">Das ist die SE7 in ihrer gesündesten Form: Nicht die Welt muss groß sein, sondern das eigene Leben an einem vertrauten Ort. Schokolade, Portwein, Olivenöl, das Fahrrad, das Fechten &ndash; eine Fülle kleiner, wiederkehrender Freuden, aus denen sich über mehr als ein Jahrhundert ein außergewöhnlich stabiles, zufriedenes Leben speiste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\xfcgel: Treue zum Vertrauten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SE7 mit schw\xe4cher ausgepr\xe4gtem Sechserfl\xfcgel h\xe4tte vermutlich ohne größere Bindung an einen bestimmten Ort gelebt. Bei Calment trat stattdessen eine ausgeprägte Ortstreue und familiäre Verwurzelung hervor: Sie blieb ihrer Heimatstadt, ihrer Familie und ihren Gewohnheiten über mehr als ein Jahrhundert treu, auch als Ehemann, Tochter und Enkel nacheinander starben.</p>
+          <p class="vb-intro">Der Sechserflügel bringt dabei nicht Ängstlichkeit, sondern Beständigkeit und eine warme, anekdotische Erzählweise mit sich &ndash; keine Konfrontationslust wie beim Achterflügel, sondern eine schlagfertige, liebenswürdige Art, mit der Calment bis ins hohe Alter Journalisten und Besucher unterhielt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Van Gogh und der Viager-Deal: Schlagfertigkeit als Lebenshaltung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Teenagerin traf Calment angeblich Vincent van Gogh im Laden ihres Vaters, der Farben und Zeichenmaterial verkaufte. Ihre Erinnerung an ihn war wenig schmeichelhaft: „hässlich wie die Sünde, übellaunig, roch nach Alkohol" &ndash; wobei sie ihm seine schlechten Manieren im Rückblick verzieh. Diese unverblümte, humorvolle Direktheit blieb ihr Leben lang ihr Markenzeichen.</p>
+          <p class="vb-intro">Mit 90 Jahren schloss sie einen „Viager"-Vertrag: Ein 47-jähriger Anwalt zahlte ihr eine monatliche Rente gegen das Versprechen, nach ihrem Tod ihre Wohnung zu erben. Er ging davon aus, in wenigen Jahren zum Zug zu kommen &ndash; stattdessen zahlte er 30 Jahre lang, starb selbst mit 77, und seine Witwe musste die Zahlungen bis zu Calments Tod fortsetzen. Ihr Kommentar dazu: „Man ist nie zu alt für ein gutes Geschäft." Genau das ist die SE7 mit Sechserfl\xfcgel: kein kaltes Kalkül, sondern eine warmherzige, humorvolle Chuzpe, die das Leben als eine Reihe angenehmer Gelegenheiten begreift.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Zweifel an ihrem Alter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2018 stellten der russische Gerontologe Valery Novoselov und der Statistiker Nikolay Zak eine Theorie auf, die international Aufsehen erregte: Die eigentliche Jeanne Calment sei bereits 1934 gestorben, und ihre Tochter Yvonne habe anschließend deren Identität angenommen &ndash; um Erbschaftssteuer zu vermeiden. Die 1997 verstorbene Frau wäre demnach tatsächlich Yvonne gewesen, mit einem realen Alter von etwa 99 statt 122 Jahren. Als Belege führten die Forscher unter anderem Ungereimtheiten in Personaldokumenten an.</p>
+          <p class="vb-intro">Ein internationales Team um den Demografen Jean-Marie Robine sowie französische Genealogen und Lokalhistoriker aus Arles untersuchten die Vorwürfe gründlich und hielten einen solchen Identitätstausch für höchst unwahrscheinlich &ndash; in einer Stadt, in der die Familie Calment bekannt war, hätte ein solcher Schwindel kaum sechzig Jahre unentdeckt bleiben können. Die Mehrheit der Fachwelt und die französischen Behörden betrachten ihr Alter weiterhin als gut dokumentiert. Dieser Punkt bleibt an dieser Stelle transparent erw\xe4hnt, ohne ihn als erwiesen darzustellen &ndash; die im Portrait beschriebene Pers\xf6nlichkeit bezieht sich auf die Frau, deren gut belegtes Leben bis 1997 \xf6ffentlich dokumentiert ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Gorilla, der an einem Ort ein ganzes Jahrhundert lebte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jeanne Calments Leben zeigt die selbsterhaltende Sieben mit Sechserflügel in ihrer gesündesten, reifsten Form: Genussfähigkeit ohne Exzess, Beständigkeit ohne Enge, Humor ohne Bitterkeit &ndash; selbst angesichts des Verlusts von Ehemann, Tochter und Enkel. Sie musste nicht reisen, um ein volles Leben zu führen. Sie musste nicht im Rampenlicht stehen, um bemerkenswert zu sein.</p>
+          <p class="vb-intro">Der Gorilla bleibt in seinem Revier &ndash; und genau dort, zwischen Schokolade, Portwein und dem Fahrrad, entfaltete sich eines der bemerkenswertesten Leben der Neuzeit. Kein lauter Rekord, sondern die stille, jahrzehntelange Kunst, an einem einzigen Ort tief und lange zu leben.</p>
+          <div style="display:flex;gap:0.6rem;flex-wrap:wrap;margin:1.5rem 0;justify-content:center;">
+            <img src="./assets/portraits/beruehmte-jeanne-calment-ergaenzung-1.jpg" alt="Jeanne Calment im Lebensverlauf: 1895, 1945, 1989 und mit 120 Jahren" loading="lazy" style="width:31%;min-width:150px;border-radius:6px;object-fit:cover;" />
+            <img src="./assets/portraits/beruehmte-jeanne-calment-ergaenzung-2.jpg" alt="Jeanne Calment an ihrem 100. Geburtstag, rauchend" loading="lazy" style="width:31%;min-width:150px;border-radius:6px;object-fit:cover;" />
+            <img src="./assets/portraits/beruehmte-jeanne-calment-ergaenzung-3.jpg" alt="Jeanne Calment im hohen Alter, l\xe4chelnd mit Zigarette" loading="lazy" style="width:31%;min-width:150px;border-radius:6px;object-fit:cover;" />
+          </div>
+          <p style="font-size:0.85rem;color:var(--muted);text-align:center;margin-top:-0.8rem;">Ihr Leben in Bildern: von der jungen Frau um 1895 bis zur ältesten verifizierten Frau der Geschichte.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-larry-king", label:"Portr\xe4t: Larry King (SE7w6)"},
+          {route:"beruehmte-jasmin-paolini", label:"Portr\xe4t: Jasmine Paolini (SE7w6)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -89234,6 +89309,7 @@ function render() {
       "beruehmte-mariah-carey": mariahCareyPortraitPage,
       "beruehmte-wallace-shawn": wallaceShawnPortraitPage,
       "beruehmte-larry-king": larryKingPortraitPage,
+      "beruehmte-jeanne-calment": jeanneCalmentPortraitPage,
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
       "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,
       "beruehmte-charles-darwin": charlesDarwinPortraitPage,
