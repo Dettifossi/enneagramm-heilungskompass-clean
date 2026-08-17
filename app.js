@@ -24086,6 +24086,7 @@ const registerEntries = [
   { term: "Genesis P-Orridge",             route: "beruehmte-genesis-p-orridge",           description: "Portrait: SX8w9 \u00b7 Sexueller Typ 8 \u00b7 K\u00fcnstler, Pandrogynie, Avantgarde" },
   { term: "Gertrude Elion",                route: "beruehmte-gertrude-elion",              description: "Portrait: SO5w4 \u00b7 Sozialer Typ 5 \u00b7 Nobelpreis-Biochemikerin" },
   { term: "Gloria von Thurn und Taxis",    route: "beruehmte-gloria-von-thurn-und-taxis",  description: "Portrait: SE2w1 \u00b7 Selbsterhaltender Typ 2 \u00b7 F\u00fcrstin, Unternehmerin" },
+  { term: "Camille Fritsch",               route: "beruehmte-camille-fritsch",             description: "Portrait: SE2w1 \u00b7 Selbsterhaltender Typ 2 \u00b7 Wildbiologe, f\u00fchrender Flusspferdforscher" },
   { term: "Greta Thunberg",                route: "beruehmte-greta-thunberg",              description: "Portrait: SE2w1 \u00b7 Selbsterhaltender Typ 2 \u00b7 Klimaaktivistin, Fridays for Future" },
   { term: "G\u00fcnther Jauch",              route: "beruehmte-guenther-jauch",              description: "Portrait: SO5w6 \u00b7 Sozialer Typ 5 \u00b7 TV-Moderator, Wer wird Million\u00e4r" },
     { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Selbsterhaltende Typ 9 \u00b7 Bundeskanzlerin 2005\u20132021, Elefant" },
@@ -24428,6 +24429,7 @@ const registerEntriesEN = [
   { term: "Genesis P-Orridge", route: "beruehmte-genesis-p-orridge", description: "Portrait: SX8w9 \u00b7 Sexual Type 8 \u00b7 Artist, Pandrogyny, avant-garde" },
   { term: "Gertrude Elion", route: "beruehmte-gertrude-elion", description: "Portrait: SO5w4 \u00b7 Social Type 5 \u00b7 Nobel Prize biochemist" },
   { term: "Gloria von Thurn und Taxis", route: "beruehmte-gloria-von-thurn-und-taxis", description: "Portrait: SE2w1 \u00b7 Self-Preservation Type 2 \u00b7 Princess, Entrepreneur" },
+  { term: "Camille Fritsch", route: "beruehmte-camille-fritsch", description: "Portrait: SE2w1 \u00b7 Self-Preservation Type 2 \u00b7 wildlife biologist, leading hippo researcher" },
   { term: "Greta Thunberg", route: "beruehmte-greta-thunberg", description: "Portrait: SE2w1 \u00b7 Self-Preservation Type 2 \u00b7 Climate activist, Fridays for Future" },
   { term: "G\u00fcnther Jauch", route: "beruehmte-guenther-jauch", description: "Portrait: SO5w6 \u00b7 Social Type 5 \u00b7 TV host, Who Wants to Be a Millionaire" },
   { term: "Angela Merkel", route: "beruehmte-angela-merkel", description: "Portrait: SE9w8 \u00b7 Self-Preservation Type 9 \u00b7 Federal Chancellor 2005\u20132021, Elephant" },
@@ -31484,6 +31486,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo DiCaprio \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 geb. 1974. Schauspieler, Klimaaktivist. F\u00fcnfmal Oscar-nominiert, sechsmal angetreten \u2013 und im Moment des Triumphes sprach er \u00fcber den Klimawandel, nicht \u00fcber sich. Die Schwarze Mamba brennt nicht f\u00fcr Applaus. Tierentsprechung: Schwarze Mamba.",
     tags:["Schauspiel"] , gender:"m"},
+  { route:"beruehmte-camille-fritsch", name:"Dr. Camille Fritsch", added:"2026-08-17", subtyp:"SE2w1",
+    heading:"Dr. Camille Fritsch – Selbsterhaltender Typ 2",
+    teaser:"SE2w1 · Wildbiologe, führender Flusspferdforscher, Mitglied der IUCN Hippo Specialist Group. Gründer von Imvubu Safaris – persönliche Feldführungen statt einsamer Fachautorität, vernetzte Forschung statt Alleingang. Tierentsprechung: Flusspferd.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-jj-liu", name:"J. J. Liu", added:"2026-08-15", subtyp:"SE2w1",
     heading:"J. J. Liu – Selbsterhaltender Typ 2",
     teaser:"SE2w1 · geb. 1965 in Taipeh, Taiwan. Profi-Pokerspielerin, über 4 Mio. US-Dollar Turniergewinne, Women in Poker Hall of Fame. Strategie als innere Ordnung, Ausdauer trotz körperlicher Schmerzen bis zum längsten TV-Finaltisch der WPT-Geschichte. Tierentsprechung: Flusspferd.",
@@ -35149,6 +35155,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-birute-galdikas", name:"Dr. Birut\xe9 Galdikas", subtyp:"SE8w9", tier:"Orang-Utan"},
   {route:"beruehmte-peter-sharpe", name:"Dr. Peter Sharpe", subtyp:"SE1w9", tier:"Adler"},
   {route:"beruehmte-konrad-lorenz", name:"Konrad Lorenz", subtyp:"SO1w9", tier:"Gans"},
+  {route:"beruehmte-camille-fritsch", name:"Dr. Camille Fritsch", subtyp:"SE2w1", tier:"Flusspferd"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -56135,6 +56142,65 @@ function gretaThunbergPortraitPage() {
         {route:"beruehmte-soeren-kierkegaard", label:"Portr\u00e4t: S\u00f8ren Kierkegaard (SE2w1)"},
         {route:"beruehmte-margot-friedlaender", label:"Portr\u00e4t: Margot Friedl\u00e4nder (SE2w1)"},
       ])}
+    </div>
+  `);
+}
+
+function camilleFritschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-camille-fritsch-portrait.jpg" alt="Flusspferd" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Camille Fritsch</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Wildbiologe &ndash; f\xfchrender Flusspferdforscher, IUCN Hippo Specialist Group &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; kein Einzelg\xe4nger wie der Steinadler, sondern ein Tier, das im Pod lebt, sich um sein unmittelbares Umfeld k\xfcmmert und seine Kraft nicht durch Dominanz, sondern durch verl\xe4ssliche N\xe4he und praktische Pr\xe4senz entfaltet. Dr. Camille Fritsch geh\xf6rt zu den bekanntesten Flusspferdforschern der Welt &ndash; ein noch junges Fachgebiet, in dem er sich mit einer Doktorarbeit \xfcber das Verhalten von Flusspferden an der University of KwaZulu-Natal, S\xfcdafrika, einen Namen gemacht hat.</p>
+          <p class="vb-intro">Wie bei mehreren anderen Tierforscher-Portr\xe4ts dieses Kompasses zeigt sich auch hier das verbl\xfcffende Muster: Ein Mensch widmet sein Leben genau dem Tier, das seinem eigenen Subtyp entspricht &ndash; lange bevor irgendjemand von seinem Werk wusste, stand die Tierentsprechung im Enneagramm bereits fest.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: N\xe4he durch praktische Hilfe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> sichert sich nach Naranjo N\xe4he und Zugeh\xf6rigkeit nicht durch Verf\xfchrung (wie die sexuelle Zwei) oder durch soziale Anerkennung (wie die soziale Zwei), sondern durch das, was Naranjo <em>Privileg</em> nannte: Man macht sich unentbehrlich, indem man ganz praktisch hilft, versorgt, erm\xf6glicht &ndash; und sichert sich so einen privilegierten Platz im Leben der anderen. Fritsch, in Kalifornien aufgewachsen mit dem Kindheitstraum, Wildbiologe in S\xfcdafrika zu werden, verbrachte \xfcber ein Jahrzehnt mit Forschungs- und Schutzprojekten zu Flusspferden, Krokodilen und Kronenadlern in KwaZulu-Natal und dem Kruger-Nationalpark.</p>
+          <p class="vb-intro">Statt sich als einsamer Fachexperte zu inszenieren, gr\xfcndete er <em>Imvubu Safaris</em> &ndash; benannt nach dem Zulu-Wort f\xfcr Flusspferd &ndash; und bietet dort pers\xf6nliche, exklusive Feldf\xfchrungen an, bei denen G\xe4ste unmittelbaren Zugang zu seiner Forschung und den Tieren selbst bekommen. Das ist SE2 in Reinform: Nicht die Distanz der reinen Wissenschaft, sondern der pers\xf6nliche, unmittelbare Dienst am Gegen\xfcber &ndash; ein privilegierter, sehr direkter Zugang, den man sich als N\xe4he verdient.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\xfcgel: Wissenschaftliche Genauigkeit als Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SE2 mit st\xe4rker ausgepr\xe4gtem Dreierfl\xfcgel h\xe4tte ihre Hilfsbereitschaft vermutlich st\xe4rker inszeniert, mit Fokus auf \xf6ffentliche Sichtbarkeit und Erfolg. Bei Fritsch zeigt sich stattdessen eine ernsthafte methodische Strenge: Er ist aktives Mitglied der <em>IUCN SSC Hippo Specialist Group</em>, arbeitet mit Drohnentechnologie und Radiotracking, um pr\xe4zise \xf6kologische und Verhaltensdaten zu erheben, und untersucht die Rolle von Flusspferden als \xd6kosystem-Ingenieure sowohl im Wasser als auch an Land.</p>
+          <p class="vb-intro">Diese Kombination aus w\xe4rmender, pers\xf6nlicher N\xe4he und wissenschaftlicher Pr\xe4zision ist die SE2w1 in ihrer charakteristischen Form: Die Zwei gibt die Motivation, sich f\xfcr andere &ndash; Menschen wie Tiere &ndash; einzusetzen; der Einserfl\xfcgel sorgt daf\xfcr, dass diese Hilfe methodisch fundiert und nicht bloß gut gemeint ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Beziehung statt Alleingang: Das Netzwerk als Forschungsprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Flusspferdforschung ist, anders als etwa Galdikas' jahrzehntelange Einzelstudie an Orang-Utans, von Natur aus vernetzt: Fritsch betont ausdr\xfccklich, dass er nicht der alleinige Experte ist, sondern auf ein umfangreiches Netzwerk regionaler Spezialisten zur\xfcckgreift, um Forschenden und Filmteams aus aller Welt die bestm\xf6glichen Ergebnisse zu verschaffen. Er arbeitet international, zweisprachig (Englisch/Franz\xf6sisch), und tritt regelm\xe4\xdfig in Dokumentationen und Podcasts als zug\xe4nglicher, kollaborativer Vermittler auf &ndash; nicht als distanzierte Autorit\xe4t.</p>
+          <p class="vb-intro">Genau das ist die Zwei in ihrem Element: Wert entsteht nicht durch Alleinherrschaft \xfcber ein Fachgebiet, sondern durch das Gewebe von Beziehungen, das man um sich herum aufbaut &ndash; zu Kolleginnen, zu G\xe4sten, zu den Tieren selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Flusspferd, das bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Camille Fritschs bisheriges Lebenswerk zeigt die selbsterhaltende Zwei mit Einserfl\xfcgel in ihrer produktivsten Form: praktische, pers\xf6nliche Hilfe &ndash; als Forscher, als F\xfchrer, als Vermittler zwischen Wissenschaft und \xd6ffentlichkeit &ndash; fundiert durch wissenschaftliche Sorgfalt und getragen von einem Netzwerk statt von Einzelk\xe4mpfertum.</p>
+          <p class="vb-intro">Das Flusspferd verl\xe4sst sein Gew\xe4sser nicht, wenn es unbequem wird &ndash; es bleibt, versorgt sein unmittelbares Umfeld und gewinnt seine Kraft aus N\xe4he, nicht aus Distanz. Genau das beschreibt Fritschs bisherigen Weg: geduldiges, verl\xe4ssliches Bleiben bei einem Tier und einem Ort, dem er sich verschrieben hat.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+          {route:"beruehmte-jj-liu", label:"Porträt: J. J. Liu (SE2w1)"},
+        ])}
+        ${animalResearcherMatchBlock("beruehmte-camille-fritsch")}
+      </div>
     </div>
   `);
 }
@@ -90228,6 +90294,7 @@ function render() {
       "beruehmte-sam-altman": samAltmanPortraitPage,
       "beruehmte-aristoteles": aristotelesPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
+      "beruehmte-camille-fritsch": camilleFritschPortraitPage,
       "beruehmte-jj-liu": jjLiuPortraitPage,
       "beruehmte-franka-potente": frankaPotentePortraitPage,
       "beruehmte-margot-friedlaender": margotFriedlaenderPortraitPage,
