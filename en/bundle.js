@@ -1001,6 +1001,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Winston Churchill – Self-Preservation Type 8",
     teaser:"SE8w9 · 1874–1965. British statesman, Prime Minister 1940–1945 and 1951–1955, Nobel Laureate in Literature 1953. The orangutan that did not budge in Britain's darkest hour – grounded, stubborn, unshakeable.",
     tags:["Politics"], gender:"m"},
+  { route:"beruehmte-bill-haast", name:"Bill Haast", added:"2026-08-17", subtyp:"SX1w9",
+    heading:"Bill Haast \u2013 Sexual Type 1",
+    teaser:"SX1w9 \u00b7 1910\u20132011. Herpetologist, founder of the Miami Serpentarium. Survived 172 venomous snakebites, decades of weekly self-injections with snake venom, helped develop the first coral snake antivenom. Animal correspondence: Black Mamba.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-rasputin", name:"Grigori Rasputin", added:"2026-07-29", subtyp:"SX1w9",
     heading:"Grigori Rasputin \u2013 Sexual Type 1",
     teaser:"SX1w9 \u00b7 1869\u20131916. Wandering monk, healer, confidant of the Tsar's family. A man whose burning gaze unsettled St. Petersburg's salons and who healed a sick Tsarevich where doctors had failed \u2013 purity and intoxication in a single figure. Animal correspondence: Black Mamba.",
@@ -4713,6 +4717,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-konrad-lorenz", name:"Konrad Lorenz", subtyp:"SO1w9", tier:"Goose"},
   {route:"beruehmte-camille-fritsch", name:"Dr. Camille Fritsch", subtyp:"SE2w1", tier:"Hippopotamus"},
   {route:"beruehmte-thea-litschka-koen", name:"Thea Litschka-Koen", subtyp:"SX1w2", tier:"Black Mamba"},
+  {route:"beruehmte-bill-haast", name:"Bill Haast", subtyp:"SX1w9", tier:"Black Mamba"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -19125,6 +19130,65 @@ function udoLindenbergPortraitPage() {
         {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
       ])}
+    </div>
+  `);
+}
+
+function billHaastPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-bill-haast-portrait.jpg" alt="Black Mamba" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bill Haast</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Herpetologist, 1910&ndash;2011 &ndash; founder of the Miami Serpentarium &ndash; Animal correspondence: Black Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Black Mamba</strong> is the animal of the sexual One &ndash; lightning-fast, precise, uncompromising, entirely focused on a single law that admits no exception. Bill Haast was a living legend of snake research: in 1947 he founded the <em>Miami Serpentarium</em>, which at times housed more than five hundred venomous snakes, and became one of the most influential venom collectors in the history of science.</p>
+          <p class="vb-intro">As with Thea Litschka-Koen (SX1w2) and the black mamba, the same striking match between animal correspondence and life's work shows up here too &ndash; only with a different wing and a different underlying tone: where Litschka-Koen lived her devotion to the snake through partnership and community work, Haast lived his through radical solitude and self-experimentation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual One: A Law Without Exception</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>sexual One (SX1)</strong> <em>Jealousy</em> or <em>Zeal</em> &ndash; a passion that concentrates with missionary intensity on a single cause, tolerating no compromise there. Starting in September 1948, Haast began injecting himself weekly with increasing doses of venom from more than thirty species &ndash; a self-experiment he continued without interruption for decades in order to build immunity.</p>
+          <p class="vb-intro">He also systematically extracted venom from his snakes for medical research and antivenom production &ndash; by the 1960s he supplied roughly fifty research clients, including Wyeth, the leading U.S. antivenom manufacturer, whom he helped develop the world's first antivenom for coral snake bites. His own antibody-rich blood was used in at least twenty-one cases to save snakebite victims for whom no matching antivenom was available.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Quiet Endurance Instead of Public Display</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SX1 with a more pronounced Two-wing would likely have lived out its mission as a shared, relationship-carried project &ndash; as Thea Litschka-Koen did with her husband Clifton. In Haast, an entirely different pattern shows instead: for more than thirty years, every Sunday, he released a king cobra alone on his lawn to "fence" with it &ndash; a solitary, almost meditative ritual, not a communal act.</p>
+          <p class="vb-intro">His reaction to fame is equally telling of the Nine-wing: Haast rejected the distinction of being known for surviving the most snakebites &ndash; he did not consider being bitten a goal worth achieving or admiring. Colleagues described him as devoted but reserved and inward: "I know of no one who understood the behavior of snakes better than he did," said Miami zoologist Ron Magill of him. This exact quiet, unhurried persistence &ndash; without any need for recognition, without public performance &ndash; is the Nine-wing in its characteristic form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. One Hundred Seventy-Two Bites</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Over his lifetime, Haast survived at least one hundred seventy-two documented venomous snakebites &ndash; a number confirmed by his wife Nancy. He deliberately did not count scratches, glancing bites, or single-fang injections without significant venom; only genuine, significant envenomations met his own definition of a "bite." This precision, even applied to his own personal record &ndash; no exaggeration, no dramatization &ndash; is itself typical of the One's inner rigor.</p>
+          <p class="vb-intro">He died in 2011 at the age of one hundred in Punta Gorda, Florida &ndash; after a life devoted almost entirely to a single subject.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Snake That Became the Law of His Own Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bill Haast's life's work shows the sexual One with a Nine-wing at its most striking: an almost monastic, decades-long devotion to a single, dangerous principle, carried not by public recognition but by quiet, unshakeable inner necessity.</p>
+          <p class="vb-intro">The black mamba follows an inner law without exception, without spectacle, without any need for an audience. That was exactly Haast's life: one hundred seventy-two bites, decades of self-injection, a Sunday ritual with a king cobra &ndash; and all of it without ever seeking the fame it eventually brought him.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+          {route:"beruehmte-thea-litschka-koen", label:"Portrait: Thea Litschka-Koen (SX1w2)"},
+        ])}
+        ${animalResearcherMatchBlock("beruehmte-bill-haast")}
+      </div>
     </div>
   `);
 }
@@ -56007,6 +56071,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-dante-alighieri": danteAlighieriPortraitPage,
       "beruehmte-mariah-carey": mariahCareyPortraitPage,
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
+      "beruehmte-bill-haast": billHaastPortraitPage,
       "beruehmte-rasputin": rasputinPortraitPage,
       "beruehmte-hundertwasser": hundertwasserPortraitPage,
       "beruehmte-diego-velazquez": diegoVelazquezPortraitPage,
