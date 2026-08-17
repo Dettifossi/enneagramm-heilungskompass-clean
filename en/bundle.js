@@ -30007,7 +30007,7 @@ function anaSalcedaPortraitPage() {
         <h2 class="vb-section">2. The Sexual Nine: Merging as a Way of Life</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">According to Naranjo, the <strong>sexual Nine (SX9)</strong> does not seek belonging to a group, but complete merging with a single beloved counterpart. For nearly two years, Salceda literally carried Velcro on her body without interruption &ndash; for the young animal's thermoregulation, but also as a daily, physical closeness that went far beyond ordinary caregiving. She later described the bond in words that show the SX9 in its purest form: "Velcro taught me to appreciate silence, to see nature from the inside out." And: "It was one of the best things that ever happened to me."</p>
-          <p class="vb-intro">This language &ndash; silence, merging, immersion into the inner rather than distant observation &ndash; almost exactly echoes what Craig Foster said about his octopus, or Jane Goodall about her first trusted chimpanzee, David Greybeard. Not the species, but the one individual being stands at the center &ndash; that is the sexual, not the social or self-preservation, instinctual variant.</p>
+          <p class="vb-intro">This language &ndash; silence, merging, immersion into the inner rather than distant observation &ndash; almost exactly echoes what Craig Foster (SX9w1) said about his octopus, or Jane Goodall (SX9w1) about her first trusted chimpanzee, David Greybeard. Not the species, but the one individual being stands at the center &ndash; that is the sexual, not the social or self-preservation, instinctual variant.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One-Wing: Personal Experience Becomes Responsibility</h2>
