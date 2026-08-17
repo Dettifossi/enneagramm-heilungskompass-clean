@@ -1009,6 +1009,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Grigori Rasputin \u2013 Sexual Type 1",
     teaser:"SX1w9 \u00b7 1869\u20131916. Wandering monk, healer, confidant of the Tsar's family. A man whose burning gaze unsettled St. Petersburg's salons and who healed a sick Tsarevich where doctors had failed \u2013 purity and intoxication in a single figure. Animal correspondence: Black Mamba.",
     tags:["History"], gender:"m"},
+  { route:"beruehmte-romulus-whitaker", name:"Romulus Whitaker", added:"2026-08-17", subtyp:"SX1w2",
+    heading:"Romulus Whitaker \u2013 Sexual Type 1",
+    teaser:"SX1w2 \u00b7 born 1943. Herpetologist, \"The Snakeman of India,\" Padma Shri laureate. Founder of the Madras Snake Park, the Madras Crocodile Bank, and the Agumbe Rainforest Research Station. Transformed the Irula from snake hunters into snake protectors. Animal correspondence: Black Mamba.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-thea-litschka-koen", name:"Thea Litschka-Koen", added:"2026-08-17", subtyp:"SX1w2",
     heading:"Thea Litschka-Koen \u2013 Sexual Type 1",
     teaser:"SX1w2 \u00b7 Founder of the Eswatini Antivenom Foundation, leading black mamba expert. Nearly eliminated snakebite fatalities in her country through her antivenom bank system. Animal correspondence: Black Mamba.",
@@ -4717,6 +4721,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-konrad-lorenz", name:"Konrad Lorenz", subtyp:"SO1w9", tier:"Goose"},
   {route:"beruehmte-camille-fritsch", name:"Dr. Camille Fritsch", subtyp:"SE2w1", tier:"Hippopotamus"},
   {route:"beruehmte-thea-litschka-koen", name:"Thea Litschka-Koen", subtyp:"SX1w2", tier:"Black Mamba"},
+  {route:"beruehmte-romulus-whitaker", name:"Romulus Whitaker", subtyp:"SX1w2", tier:"Black Mamba"},
   {route:"beruehmte-bill-haast", name:"Bill Haast", subtyp:"SX1w9", tier:"Black Mamba"},
 ];
 
@@ -18079,6 +18084,66 @@ function jamesLevinePortraitPage() {
           {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
           {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
         ])}
+      </div>
+    </div>
+  `);
+}
+
+function romulusWhitakerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-romulus-whitaker-portrait.jpg" alt="Black Mamba" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Romulus Whitaker</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Herpetologist, born 1943 &ndash; "The Snakeman of India," Padma Shri laureate &ndash; Animal correspondence: Black Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Black Mamba</strong> is the animal of the sexual One &ndash; lightning-fast, precise, uncompromising, entirely focused on a single law. Romulus Whitaker, born in the United States and raised in India from the age of eight, is known as "The Snakeman of India" and was honored with the Padma Shri, one of India's highest civilian awards.</p>
+          <p class="vb-intro">An honest note up front, similar to Dr. Peter Sharpe (SE1w9) and the golden eagle versus the bald eagle: Whitaker's actual life's work centers primarily on the king cobra &ndash; the Agumbe Rainforest Research Station, which he founded in 2005, is today the world's leading center for king cobra research. The exact species therefore differs from his animal correspondence, the black mamba. But as with the eagle, the same holds for snakes: the Enneagram does not distinguish here by species, but by the archetypal principle of the snake itself &ndash; lightning-fast, precise, incorruptible in its own law. And Whitaker embodies exactly this principle across his entire life's work, regardless of the individual species.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual One: Fifty Years, One Mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>sexual One (SX1)</strong> <em>Jealousy</em> or <em>Zeal</em> &ndash; a passion that concentrates with missionary intensity on a single cause. Over five decades, Whitaker founded one institution after another, always circling the same core theme: in 1969, the Madras Snake Park, India's first of its kind, with a 25-paise admission fee; in 1976, together with his then-wife Zai Whitaker, the Madras Crocodile Bank Trust; and finally, in 2005, the Agumbe Rainforest Research Station.</p>
+          <p class="vb-intro">His own creed captures the SX1 stance exactly: "Follow your dream. Unwavering passion and dedication are key." And as with Thea Litschka-Koen (SX1w2), his mission is directed not against dangerous animals but toward education and coexistence &ndash; instead of eradication, he advocates scientific understanding. A firm moral conviction from which an unwavering way of life follows.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Community Instead of Solitude</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SX1 with a more muted Two-wing would likely have pursued its mission more solitarily &ndash; similar to Bill Haast (SX1w9), who spent his life in radical solitude and self-experimentation. In Whitaker, a distinctly outward-facing, community-building pattern shows instead: he built the Crocodile Bank together with his wife as a partnership project, much like Litschka-Koen with her husband Clifton.</p>
+          <p class="vb-intro">Perhaps his most striking achievement, however, is social in nature: he transformed the Irula, an indigenous community of traditional snake hunters, into a cooperative of snake protectors who earned a dignified livelihood through venom extraction for medical research. That is the Two-wing at its most mature: not working alone, but empowering others, bringing an entire community along.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Visibility Instead of Retreat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Whitaker documented his work in books and films over decades and became a publicly visible figure in India's conservation movement &ndash; a clear contrast to Haast's withdrawn, almost monastic style. He describes himself with dry humor: "People often mistake me for a rabid hippie conservationist." His honors include the Whitley Award, the Rolex Award, the Order of the Golden Ark, and the Salim Ali Award.</p>
+          <p class="vb-intro">This combination of unwavering, decades-long devotion to a dangerous cause (the One) and the consistent building of communities, partnerships, and public visibility (the Two-wing) is the SX1w2 at its most effective.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Snake That Changed an Entire Community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Romulus Whitaker's life's work shows the sexual One with a Two-wing at its farthest-reaching: a relentless devotion to a single principle sustained for more than fifty years &ndash; translated not into solitary pursuit, but into institutions, partnerships, and an entire transformed community.</p>
+          <p class="vb-intro">The snake follows an inner law without exception. Whitaker's law was: snakes deserve understanding rather than fear &ndash; and he did not pass that law on alone, but together with everyone he could win over to it.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+          {route:"beruehmte-thea-litschka-koen", label:"Portrait: Thea Litschka-Koen (SX1w2)"},
+          {route:"beruehmte-bill-haast", label:"Portrait: Bill Haast (SX1w9)"},
+        ])}
+        ${animalResearcherMatchBlock("beruehmte-romulus-whitaker")}
       </div>
     </div>
   `);
@@ -56077,6 +56142,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-diego-velazquez": diegoVelazquezPortraitPage,
       "beruehmte-jesus-christus": jesusChristusPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
+      "beruehmte-romulus-whitaker": romulusWhitakerPortraitPage,
       "beruehmte-thea-litschka-koen": theaLitschkaKoenPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
