@@ -860,6 +860,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Jane Goodall – Sexual Type 9",
     teaser:"SX9w1 · 1934–2025. Primatologist, founder of modern chimpanzee research, discovered tool use in animals. Merging as a research method, later founder of Roots & Shoots. Animal correspondence: Sloth.",
     tags:["Wissenschaft"], gender:"f"},
+  { route:"beruehmte-laurie-marker", name:"Dr. Laurie Marker", added:"2026-08-17", subtyp:"SO3w4",
+    heading:"Dr. Laurie Marker – Social Type 3",
+    teaser:"SO3w4 · born 1954. Behavioral scientist, founder of the Cheetah Conservation Fund. Became a farmer herself in Namibia to win farmers over to cheetah conservation – TIME's \"Hero for the Planet.\" Animal correspondence: Cheetah.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-craig-foster", name:"Craig Foster", added:"2026-08-17", subtyp:"SX9w1",
     heading:"Craig Foster – Sexual Type 9",
     teaser:"SX9w1 · born 1962. South African nature filmmaker, director of \"My Octopus Teacher\" (Oscar 2021), co-founder of the Sea Change Project. Merging with a wild octopus as a path out of burnout and depression. Animal correspondence: Sloth.",
@@ -29610,6 +29614,71 @@ function janeGoodallPortraitPage() {
   `);
 }
 
+function laurieMarkerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-laurie-marker-portrait.jpg" alt="Cheetah" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Laurie Marker</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Social Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Behavioral scientist, born 1954 &ndash; founder of the Cheetah Conservation Fund &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Cheetah</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the Social Three &ndash; not an animal of raw power like the lion, but one of precision, speed, and flawless, visible success. It does not hunt secretly from ambush, but in the open field, visible to anyone watching &ndash; and wins through timing, elegance, and speed. Dr. Laurie Marker is, worldwide, the leading voice of cheetah conservation and is widely regarded as the most renowned cheetah researcher alive.</p>
+          <p class="vb-intro">Here too, the pattern already seen with Dian Fossey and Jennifer Mather holds: the Enneagram's animal correspondences were fixed long before anyone knew of Marker's life's work. That the world's best-known cheetah researcher should herself carry the cheetah's traits &ndash; speed, visibility, flawless precision &ndash; in her own personality fits a pattern that runs through several of this compass's animal-researcher portraits.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Three: Success as a Visible Currency</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>Social Three (SO3)</strong> seeks prestige and success that is recognized and confirmed by the community &ndash; not quiet, private accomplishment, but success that has impact, that is visible, that sets a movement in motion. Laura Lee Bushey, born in Detroit in 1954 and raised in California, moved early and quickly from one field to the next: agriculture, viticulture, her own goat farm, a vineyard in Oregon &ndash; before encountering cheetah breeding at the Wildlife Safari park in Winston, Oregon, in 1974. Over sixteen years there, she built the most successful cheetah breeding program in North America.</p>
+          <p class="vb-intro">In 1977 she traveled to South West Africa with Khayam, a cheetah cub she had raised from birth &ndash; and discovered that farmers were killing wild cheetahs by the hundreds to protect their livestock. Rather than research and publish, as a more introverted researcher might have done, Marker chose the path typical of the SO3: she became a farmer herself in order to win farmers over &ndash; selling all her possessions to found the <em>Cheetah Conservation Fund (CCF)</em> in Namibia in 1990. Her own creed captures the SO3 stance precisely: "We always think there is someone else who will do something, that 'they' will take care of it. I realized early in my work that there is no 'they,' and so I decided that I would take action to save the cheetah from extinction."</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: The Personal Bond Behind the Public Mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SO3 with a more muted Four-wing would likely have run cheetah conservation as a pure management task &ndash; metrics, programs, publicly visible wins. In Marker, a deeply personal, almost intimate bond with a single animal shows through as well: Khayam, the cheetah she raised from birth and traveled the world with, became the species' first "ambassador animal" and later inspired International Cheetah Day. This individual, emotional connection alongside the public success story is the Four-wing's signature: behind the Three's smooth, achievement-oriented facade lies a real, unmistakably personal story.</p>
+          <p class="vb-intro">The Four's influence also shows methodologically: Marker combined hard science &ndash; genetic diversity research with the Smithsonian Institution and the National Cancer Institute &ndash; with a deeply personal, relationship-based approach toward Namibian farmers. She did not become a distant authority, but a neighbor people knew and trusted.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Cheetah Conservation Fund: Success That Can Be Measured</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the 1980s, more than 7,000 wild cheetahs were killed in Namibia &ndash; the population was cut in half. Marker built the CCF systematically into a success story: two state-of-the-art research centers in Namibia and Somaliland, an internationally recognized studbook registry, programs to rescue confiscated cheetahs from illegal wildlife trafficking, and &ndash; her best-known contribution &ndash; the introduction of livestock guarding dogs among Namibian farmers, which drastically reduced livestock losses without killing cheetahs.</p>
+          <p class="vb-intro">These measurable, presentable achievements &ndash; the 2010 Tyler Prize for Environmental Achievement, TIME magazine's "Hero for the Planet" (2000), the IUCN Order of the California Condor (2025) &ndash; are not a side effect but an expression of the SO3's core motivation: value arises through visible, recognized accomplishment in service of a cause larger than oneself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO3w4 shows in how consistently Marker put success in service of a cause bigger than herself &ndash; she sold her private possessions to found an organization rather than optimize an existing career. Unlike the criminal SO3 cases this compass also documents &ndash; where prestige becomes a facade without substance &ndash; Marker's public success story stayed tied to real, measurable impact: a population that stabilized instead of continuing to collapse.</p>
+          <p class="vb-intro">The shadow of the SO3 is the risk of tying one's entire sense of worth to external success. The Four-wing acts as a corrective here: the personal, almost painfully intimate bond with a single animal &ndash; Khayam &ndash; kept the mission grounded in genuine affection, not just statistics and public recognition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Cheetah That Saved Its Own Kind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Laurie Marker's life's work shows the Social Three with a Four-wing at its most effective: success not as an end in itself, but as a tool to save an entire species from extinction &ndash; combined with a genuine, individual bond that charged the public mission with personal meaning. From vineyard farming in Oregon to becoming a globally recognized authority on an entire species: a career that follows exactly what the SO3 does best &ndash; shaping visible, effective change.</p>
+          <p class="vb-intro">The cheetah hunts in the open field, visible to everyone &ndash; and wins through precision, not raw power. That is exactly how Marker saved her species: not through quiet withdrawal into research, but through publicly visible, precisely targeted action that reached farmers, science, and the world's public alike.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+          {route:"beruehmte-dian-fossey", label:"Portrait: Dian Fossey (SE7w8)"},
+          {route:"beruehmte-jennifer-mather", label:"Portrait: Jennifer Mather (SO5w6)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function craigFosterPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -55286,6 +55355,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-wilma-mankiller": wilmaMankillerPortraitPage,
       "beruehmte-jane-goodall": janeGoodallPortraitPage,
+      "beruehmte-laurie-marker": laurieMarkerPortraitPage,
       "beruehmte-craig-foster": craigFosterPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
