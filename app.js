@@ -24133,6 +24133,7 @@ const registerEntries = [
   { term: "Judit Polgár",                  route: "beruehmte-judit-polgar",                description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Schach-Großmeisterin" },
   { term: "Jane Goodall", route: "beruehmte-jane-goodall", description: "Portrait: SX9w1 \u00b7 Sexuelle Typ 9 \u00b7 Primatologin, Begr\u00fcnderin der modernen Schimpansenforschung" },
   { term: "Craig Foster", route: "beruehmte-craig-foster", description: "Portrait: SX9w1 \u00b7 Sexuelle Typ 9 \u00b7 Naturfilmer, Regisseur von \u201eMy Octopus Teacher\u201c" },
+  { term: "Laurie Marker", route: "beruehmte-laurie-marker", description: "Portrait: SO3w4 \u00b7 Sozialer Typ 3 \u00b7 Verhaltensforscherin, Gr\u00fcnderin des Cheetah Conservation Fund" },
   { term: "Keanu Reeves",                  route: "beruehmte-keanu-reeves",                description: "Portrait: SX9w1 \u00b7 Sexueller Typ 9 \u00b7 Schauspieler, The Matrix, stille Pr\u00e4senz" },
   { term: "Klaus Kinski",                  route: "beruehmte-klaus-kinski",                description: "Portrait: SX1w9 \u00b7 Sexueller Typ 1 \u00b7 Schauspieler, Intensit\u00e4t & Exzess" },
   { term: "Kollegah",                      route: "beruehmte-kollegah",                    description: "Portrait: SX6w5 \u00b7 Sexueller Typ 6 \u00b7 Rapper, Fitness-Ikone, Marke & Maske" },
@@ -24466,6 +24467,7 @@ const registerEntriesEN = [
   { term: "Judit Polgár", route: "beruehmte-judit-polgar", description: "Portrait: SP3w4 · Self-Preservation Type 3 · Chess grandmaster" },
   { term: "Jane Goodall", route: "beruehmte-jane-goodall", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 primatologist, founder of modern chimpanzee research" },
   { term: "Craig Foster", route: "beruehmte-craig-foster", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 nature filmmaker, director of \"My Octopus Teacher\"" },
+  { term: "Laurie Marker", route: "beruehmte-laurie-marker", description: "Portrait: SO3w4 \u00b7 Social Type 3 \u00b7 behavioral scientist, founder of the Cheetah Conservation Fund" },
   { term: "Keanu Reeves", route: "beruehmte-keanu-reeves", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 Actor, The Matrix, quiet presence" },
   { term: "Klaus Kinski", route: "beruehmte-klaus-kinski", description: "Portrait: SX1w9 \u00b7 Sexual Type 1 \u00b7 Actor, intensity & excess" },
   { term: "Kollegah", route: "beruehmte-kollegah", description: "Portrait: SX6w5 \u00b7 Sexual Type 6 \u00b7 Rapper, fitness icon, brand & mask" },
@@ -32401,6 +32403,10 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-jane-goodall", name:"Dr. Jane Goodall", added:"2026-08-17", subtyp:"SX9w1",
     heading:"Dr. Jane Goodall – Sexuelle Typ 9",
     teaser:"SX9w1 · 1934–2025. Primatologin, Begründerin der modernen Schimpansenforschung, entdeckte Werkzeuggebrauch bei Tieren. Verschmelzung als Forschungsmethode, später Gründerin von Roots & Shoots. Tierentsprechung: Faultier.",
+    tags:["Wissenschaft"], gender:"f"},
+  { route:"beruehmte-laurie-marker", name:"Dr. Laurie Marker", added:"2026-08-17", subtyp:"SO3w4",
+    heading:"Dr. Laurie Marker – Soziale Typ 3",
+    teaser:"SO3w4 · geb. 1954. Verhaltensforscherin, Gründerin des Cheetah Conservation Fund. Wurde selbst Farmerin in Namibia, um Farmer vom Gepardenschutz zu überzeugen – TIME „Hero for the Planet“. Tierentsprechung: Gepard.",
     tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-craig-foster", name:"Craig Foster", added:"2026-08-17", subtyp:"SX9w1",
     heading:"Craig Foster – Sexuelle Typ 9",
@@ -51489,6 +51495,71 @@ function janeGoodallPortraitPage() {
           {route:"beruehmte-craig-foster", label:"Portr\xe4t: Craig Foster (SX9w1)"},
           {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-dian-fossey", label:"Portr\xe4t: Dian Fossey (SE7w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function laurieMarkerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-laurie-marker-portrait.jpg" alt="Gepard" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Laurie Marker</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Verhaltensforscherin, geb. 1954 &ndash; Gr\xfcnderin des Cheetah Conservation Fund &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; kein Tier der rohen Kraft wie der L\xf6we, sondern eines der Pr\xe4zision, der Geschwindigkeit und des makellosen, sichtbaren Erfolgs. Er jagt nicht heimlich aus dem Hinterhalt, sondern im offenen Feld, sichtbar f\xfcr jeden, der zusieht &ndash; und gewinnt durch Timing, Eleganz und Tempo. Dr. Laurie Marker ist weltweit die f\xfchrende Stimme des Gepardenschutzes und gilt als die renommierteste Gepardenforscherin \xfcberhaupt.</p>
+          <p class="vb-intro">Auch hier gilt, was schon bei Dian Fossey und Jennifer Mather auffiel: Die Tierentsprechungen des Enneagramms standen lange fest, bevor irgendjemand von Markers Lebenswerk wusste. Dass ausgerechnet die bekannteste Gepardenforscherin der Welt selbst die Eigenschaften des Geparden &ndash; Tempo, Sichtbarkeit, makellose Zielgenauigkeit &ndash; in ihrer eigenen Persönlichkeit tr\xe4gt, f\xfcgt sich in ein Muster, das sich durch mehrere Tierforscher-Porträts dieses Kompasses zieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Erfolg als sichtbare W\xe4hrung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> sucht nach Naranjo Ansehen und Erfolg, der von der Gemeinschaft anerkannt und best\xe4tigt wird &ndash; nicht Erfolg im stillen Kämmerlein, sondern Erfolg, der wirkt, der sichtbar ist, der eine Bewegung in Gang setzt. Laura Lee Bushey, 1954 in Detroit geboren und in Kalifornien aufgewachsen, sprang fr\xfch von einer Ausbildungsstation zur n\xe4chsten: Landwirtschaft, Weinbau, eine eigene Ziegenfarm, ein Weingut in Oregon &ndash; bevor sie 1974 im Wildlife Safari-Park in Winston, Oregon, mit Gepardenzucht in Ber\xfchrung kam. Sechzehn Jahre lang baute sie dort das erfolgreichste Gepardenzuchtprogramm Nordamerikas auf.</p>
+          <p class="vb-intro">1977 reiste sie mit dem Gepardenjungen Khayam, den sie von Geburt an aufgezogen hatte, nach S\xfcdwestafrika &ndash; und entdeckte dort, dass Farmer wilde Geparden zu Hunderten t\xf6teten, um ihr Vieh zu sch\xfctzen. Statt zu forschen und zu publizieren, wie es eine introvertiertere Forscherpers\xf6nlichkeit getan h\xe4tte, w\xe4hlte Marker den Weg, der f\xfcr die SO3 typisch ist: Sie wurde selbst Farmerin, um die Farmer zu \xfcberzeugen &ndash; verkaufte ihren gesamten Besitz, um 1990 den <em>Cheetah Conservation Fund (CCF)</em> in Namibia zu gr\xfcnden. Ihr eigenes Credo bringt die SO3-Haltung auf den Punkt: &bdquo;Wir denken immer, es gibt jemand anderen, der etwas tut &ndash; dass 'die' sich schon darum k\xfcmmern werden. Ich habe fr\xfch begriffen: Es gibt kein 'die'. Also habe ich beschlossen, selbst zu handeln.&ldquo;</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\xfcgel: Die pers\xf6nliche Bindung hinter der \xf6ffentlichen Mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SO3 mit schw\xe4cher ausgepr\xe4gtem Viererfl\xfcgel h\xe4tte den Gepardenschutz vermutlich rein als Management-Aufgabe betrieben &ndash; Kennzahlen, Programme, \xf6ffentlichkeitswirksame Erfolge. Bei Marker zeigt sich zus\xe4tzlich eine tief pers\xf6nliche, fast intime Bindung an ein einzelnes Tier: Khayam, der Gepard, den sie von Geburt an aufzog und mit dem sie um die Welt reiste, wurde zum ersten &bdquo;Botschaftstier&ldquo; seiner Art und inspirierte sp\xe4ter den internationalen &bdquo;World Cheetah Day&ldquo;. Diese individuelle, emotionale Verbindung neben der \xf6ffentlichen Erfolgsgeschichte ist die Handschrift des Viererfl\xfcgels: Hinter der glatten, erfolgsorientierten Fassade der Drei steckt eine echte, unverwechselbare pers\xf6nliche Geschichte.</p>
+          <p class="vb-intro">Auch methodisch zeigt sich der Vierer-Einschlag: Marker kombinierte harte Wissenschaft (genetische Vielfaltsforschung mit der Smithsonian Institution und dem National Cancer Institute) mit einem sehr pers\xf6nlichen, beziehungsorientierten Ansatz gegen\xfcber den namibischen Farmern &ndash; sie wurde nicht zur distanzierten Autorit\xe4t, sondern zur Nachbarin, die man kannte und der man vertraute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Cheetah Conservation Fund: Erfolg, der sich messen l\xe4sst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In den 1980er Jahren wurden \xfcber 7.000 wilde Geparden in Namibia get\xf6tet &ndash; die Population halbierte sich. Marker baute den CCF systematisch als Erfolgsgeschichte auf: zwei hochmoderne Forschungszentren in Namibia und Somaliland, ein international anerkanntes Zuchtb\xfcrger-Register, Programme zur Rettung beschlagnahmter Geparden aus dem illegalen Wildtierhandel, und &ndash; ihr bekanntester Beitrag &ndash; die Einf\xfchrung von Herdenschutzhunden bei namibischen Farmern, die Nutztierverluste drastisch senkten, ohne dass Geparden get\xf6tet werden mussten.</p>
+          <p class="vb-intro">Diese messbaren, vorzeigbaren Erfolge &ndash; Auszeichnungen wie der Tyler-Preis f\xfcr Umweltleistungen (2010), TIME-Magazins &bdquo;Hero for the Planet&ldquo; (2000), der IUCN-Orden des Kalifornischen Kondors (2025) &ndash; sind kein Nebeneffekt, sondern Ausdruck der SO3-Grundmotivation: Wert entsteht durch sichtbare, anerkannte Leistung, die einer gr\xf6\xdferen Sache dient.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3w4 zeigt sich darin, dass Marker Erfolg konsequent in den Dienst einer Sache stellte, die gr\xf6\xdfer ist als sie selbst &ndash; sie verkaufte ihren Privatbesitz, um eine Organisation zu gr\xfcnden, statt eine bereits bestehende Karriere zu optimieren. Anders als bei den kriminellen SO3-F\xe4llen, die dieser Kompass ebenfalls dokumentiert &ndash; wo Ansehen zur Fassade ohne Substanz wird &ndash; blieb bei Marker die \xf6ffentliche Erfolgsgeschichte an eine reale, messbare Wirkung gekoppelt: eine Population, die sich stabilisierte, statt weiter zu kollabieren.</p>
+          <p class="vb-intro">Der Schatten der SO3 ist die Gefahr, den eigenen Wert vollst\xe4ndig an \xe4u\xdferen Erfolg zu kn\xfcpfen. Der Viererfl\xfcgel wirkt hier als Korrektiv: Die pers\xf6nliche, fast schmerzhaft intime Bindung an ein einzelnes Tier &ndash; Khayam &ndash; hielt die Mission geerdet in echter Zuneigung, nicht nur in Statistik und \xf6ffentlicher Anerkennung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Gepard, der seine eigene Art rettete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Laurie Markers Lebenswerk zeigt die soziale Drei mit Viererfl\xfcgel in ihrer wirkungsvollsten Form: Erfolg nicht als Selbstzweck, sondern als Werkzeug, um eine ganze Art vor dem Aussterben zu bewahren &ndash; kombiniert mit einer echten, individuellen Bindung, die die \xf6ffentliche Mission mit pers\xf6nlicher Bedeutung auflud. Vom Weinbauern-Dasein in Oregon zur weltweit anerkannten Autorit\xe4t f\xfcr eine ganze Tierart: eine Karriere, die genau dem folgt, was die SO3 am besten kann &ndash; sichtbaren, wirksamen Wandel gestalten.</p>
+          <p class="vb-intro">Der Gepard jagt im offenen Feld, sichtbar f\xfcr jeden &ndash; und gewinnt durch Pr\xe4zision, nicht durch rohe Kraft. Genau so rettete Marker ihre Art: nicht durch stillen R\xfcckzug in die Forschung, sondern durch \xf6ffentlich sichtbares, pr\xe4zise gezieltes Handeln, das Farmer, Wissenschaft und Weltöffentlichkeit gleichermaßen erreichte.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8)"},
+          {route:"beruehmte-jennifer-mather", label:"Porträt: Jennifer Mather (SO5w6)"},
         ])}
       </div>
     </div>
@@ -89735,6 +89806,7 @@ function render() {
     "beruehmte-wilma-mankiller": wilmaMankillerPortraitPage,
     "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-jane-goodall": janeGoodallPortraitPage,
+      "beruehmte-laurie-marker": laurieMarkerPortraitPage,
       "beruehmte-craig-foster": craigFosterPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
           "beruehmte-carl-rogers": carlRogersPortraitPage,
