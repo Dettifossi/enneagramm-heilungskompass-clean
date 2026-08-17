@@ -24148,6 +24148,7 @@ const registerEntries = [
   { term: "Linda Leinweber",               route: "beruehmte-linda-leinweber",             description: "Portrait: SX4w5 \u00b7 Sexueller Typ 4 \u00b7 Enneagramm-Trainerin" },
   { term: "Claude Debussy",                route: "beruehmte-claude-debussy",              description: "Portrait: SX4w5 \u00b7 Sexueller Typ 4 \u00b7 Komponist, Begr\u00fcnder der musikalischen Moderne" },
   { term: "Marquis de Sade",               route: "beruehmte-marquis-de-sade",             description: "Portrait: SX4w5 \u00b7 Sexueller Typ 4 \u00b7 Schriftsteller, Philosoph, Justine" },
+  { term: "Winifred Charlesworth",         route: "beruehmte-winifred-charlesworth",       description: "Portrait: SO2w1 \u00b7 Sozialer Typ 2 \u00b7 Z\u00fcchterin, Gr\u00fcndungsfigur der Rasse Golden Retriever" },
   { term: "Marisa Abela",                  route: "beruehmte-marisa-abela",                description: "Portrait: SO2w1 \u00b7 Sozialer Typ 2 \u00b7 Schauspielerin, Industry, Back to Black" },
   { term: "Marie Kondo",                   route: "beruehmte-marie-kondo",                 description: "Portrait: SE1w2 \u00b7 Selbsterhaltender Typ 1 \u00b7 Ordnungsexpertin, KonMari" },
   { term: "Dan Brown",                     route: "beruehmte-dan-brown",                   description: "Portrait: SE1w2 \u00b7 Selbsterhaltender Typ 1 \u00b7 Bestseller-Autor" },
@@ -24492,6 +24493,7 @@ const registerEntriesEN = [
   { term: "Linda Leinweber", route: "beruehmte-linda-leinweber", description: "Portrait: SX4w5 \u00b7 Sexual Type 4 \u00b7 Enneagram trainer" },
   { term: "Claude Debussy", route: "beruehmte-claude-debussy", description: "Portrait: SX4w5 \u00b7 Sexual Type 4 \u00b7 Composer, founder of musical modernism" },
   { term: "Marquis de Sade", route: "beruehmte-marquis-de-sade", description: "Portrait: SX4w5 \u00b7 Sexual Type 4 \u00b7 Writer, philosopher, Justine" },
+  { term: "Winifred Charlesworth", route: "beruehmte-winifred-charlesworth", description: "Portrait: SO2w1 \u00b7 Social Type 2 \u00b7 breeder, founding figure of the Golden Retriever breed" },
   { term: "Marisa Abela", route: "beruehmte-marisa-abela", description: "Portrait: SO2w1 \u00b7 Social Type 2 \u00b7 Actress, Industry, Back to Black" },
   { term: "Marie Kondo", route: "beruehmte-marie-kondo", description: "Portrait: SE1w2 \u00b7 Self-Preservation Type 1 \u00b7 tidying expert, KonMari" },
   { term: "Dan Brown", route: "beruehmte-dan-brown", description: "Portrait: SE1w2 \u00b7 Self-Preservation Type 1 \u00b7 bestselling author" },
@@ -31602,6 +31604,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Albert Schweitzer – Sozialer Typ 2",
     teaser:"SO2w1 · 1875–1965. Theologe, Philosoph, Organist und Urwaldarzt. Gründete 1913 das Krankenhaus von Lambaréné, Friedensnobelpreis 1952, Prinzip der ›Ehrfurcht vor dem Leben‹. Der Golden Retriever mit Einserflügel: außergewöhnliches Talent vollständig in den Dienst der Menschheit gestellt. Tierentsprechung: Golden Retriever.",
     tags:["Geschichte","Medizin"], gender:"m"},
+  { route:"beruehmte-winifred-charlesworth", name:"Mrs. Winifred Charlesworth", added:"2026-08-17", subtyp:"SO2w1",
+    heading:"Mrs. Winifred Charlesworth \u2013 Sozialer Typ 2",
+    teaser:"SO2w1 \u00b7 Britische Z\u00fcchterin, Gr\u00fcndungsfigur der Rasse Golden Retriever. Erwarb 1906 ihre erste Golden-H\u00fcndin, gr\u00fcndete 1911 den Golden Retriever Club mit, verfasste den ersten offiziellen Rassestandard. Tierentsprechung: Golden Retriever.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-marisa-abela", name:"Marisa Abela", added:"2026-07-30", subtyp:"SO2w1",
     heading:"Marisa Abela \u2013 Sozialer Typ 2",
     teaser:"SO2w1 \u00b7 geb. 1996. Schauspielerin, Industry, Back to Black. Ensemblegef\u00fchl und Vorbereitungsdisziplin \u2013 der Golden Retriever, der Verbindung durch Sorgfalt verdient. Tierentsprechung: Golden Retriever.",
@@ -35183,6 +35189,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-thea-litschka-koen", name:"Thea Litschka-Koen", subtyp:"SX1w2", tier:"Schwarze Mamba"},
   {route:"beruehmte-bill-haast", name:"Bill Haast", subtyp:"SX1w9", tier:"Schwarze Mamba"},
   {route:"beruehmte-romulus-whitaker", name:"Romulus Whitaker", subtyp:"SX1w2", tier:"Schwarze Mamba"},
+  {route:"beruehmte-winifred-charlesworth", name:"Mrs. Winifred Charlesworth", subtyp:"SO2w1", tier:"Golden Retriever"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -59182,6 +59189,65 @@ function albertSchweitzerPortraitPage() {
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-barack-obama", label:"Porträt: Barack Obama (SO2w1)"},
       ])}
+    </div>
+  `);
+}
+
+function winifredCharlesworthPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-winifred-charlesworth-portrait.jpg" alt="Golden Retriever" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mrs. Winifred Charlesworth</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Sozialer Typ 2 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Z\xfcchterin &amp; Gr\xfcndungsfigur des Golden Retriever &ndash; Verfasserin des ersten Rassestandards &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; freundlich, verl\xe4sslich, ganz auf das Wohl der Gemeinschaft ausgerichtet, ohne je aufdringlich zu wirken. Mrs. Winifred Charlesworth gilt neben Lord Tweedmouth als bedeutendste Gr\xfcndungsfigur der Rasse: Sie erwarb 1906 ihre erste Golden-H\xfcndin, Noranby Beauty, gr\xfcndete 1911 den Golden Retriever Club in Gro\xdfbritannien mit und verfasste den ersten offiziellen Rassestandard &ndash; ein Dokument, das bis heute weitgehend unver\xe4ndert gilt.</p>
+          <p class="vb-intro">Auch hier zeigt sich das Muster, das sich durch mehrere Tierforscher-Porträts dieses Kompasses zieht: Eine Wissenschaft im engeren Sinne gibt es beim Golden Retriever nicht, doch \xfcber Jahrzehnte akribischer, systematischer Zuchtarbeit entstand eine Form von Fachautorität, die sich in ihrer Genauigkeit kaum von einer Forschungskarriere unterscheidet &ndash; \xe4hnlich wie bei Prof. Grahame Webb oder Thea Litschka-Koen. Und wieder tr\xe4gt ausgerechnet die Person, die einer ganzen Rasse ihre Gestalt gab, selbst genau die Eigenschaften, f\xfcr die diese Rasse bis heute steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Unentbehrlich f\xfcr eine ganze Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> nannte Naranjo <em>Ambition</em> &ndash; nicht Ehrgeiz im Sinne pers\xf6nlicher Karriere, sondern das Bed\xfcrfnis, sich innerhalb einer Gemeinschaft unentbehrlich zu machen und dort eine zentrale, verbindende Position einzunehmen. Charlesworth tat genau das: Sie gr\xfcndete keine private Zuchtst\xe4tte im stillen Kämmerlein, sondern baute eine Institution auf, die bis heute die gesamte Rasse weltweit organisiert &ndash; den Golden Retriever Club. Sie verfasste den Standard, an dem sich seither jede Z\xfcchterin und jeder Z\xfcchter orientiert, und wurde, wie es Fachquellen formulieren, zur &bdquo;Ikone der Rasse&ldquo;.</p>
+          <p class="vb-intro">44 Jahre lang, so berichten Quellen, widmete sie sich durchgehend dieser einen Aufgabe. Sie schrieb 1932 das &bdquo;Book of the Golden Retriever&ldquo;, das zum Standardwerk wurde. Genau das ist die SO2 in ihrer produktivsten Form: Der eigene Wert entsteht nicht durch Distanz oder private Perfektion, sondern dadurch, dass man sich selbst zum unverzichtbaren Mittelpunkt einer Gemeinschaft macht &ndash; hier: der gesamten Golden-Retriever-Welt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\xfcgel: Strenge statt lockerer Begeisterung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SO2 mit schw\xe4cher ausgepr\xe4gtem Einserfl\xfcgel h\xe4tte ihre Begeisterung f\xfcr die Rasse vermutlich lockerer, geselliger gelebt. Bei Charlesworth zeigt sich stattdessen eine unnachgiebige, fast pedantische Sorgfalt: Fachquellen beschreiben, wie sie ihre Mitz\xfcchterinnen und Mitz\xfcchter \xfcber Jahre hinweg beharrlich &ndash; das englische Original spricht w\xf6rtlich von &bdquo;nagged&ldquo;, also gedr\xe4ngt oder gemahnt &ndash; dazu anhielt, die Rasse als echten &bdquo;Dual-Purpose-Hund&ldquo; zu erhalten, der sowohl arbeitsf\xe4hig als auch typgerecht bleiben sollte.</p>
+          <p class="vb-intro">Systematisch z\xfcchtete sie in den 1920er Jahren \xfcbersch\xfcssige Knochenmasse und plumpen K\xf6rperbau aus ihrer Zuchtlinie heraus, hin zu leichteren, dunkleren Tieren mit klarer Ausrichtung. Diese Kombination aus Gemeinschaftsverbundenheit (der Zwei) und unerbittlicher Standardtreue (dem Einserfl\xfcgel) ist die SO2w1 in ihrer reifsten Form &ndash; F\xfcrsorge, die sich nicht in Verw\xf6hnung ersch\xf6pft, sondern in strenger, langfristiger Qualit\xe4tssicherung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein Erbe, das bis heute Leben rettet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ohne Charlesworths akribische Zuchtarbeit h\xe4tte der Golden Retriever vermutlich nicht den einheitlichen Charakter und das ausgeglichene Wesen entwickelt, f\xfcr das die Rasse heute weltweit gesch\xe4tzt wird. Genau diese Eigenschaften &ndash; Gelehrigkeit, Sanftm\xfct, unerschütterliche Verl\xe4sslichkeit &ndash; machten den Golden Retriever zu einer der wichtigsten Hunderassen \xfcberhaupt f\xfcr soziale und assistive Aufgaben: als Blindenf\xfchrhund, als Therapiehund in Kliniken und Pflegeeinrichtungen, als Assistenzhund f\xfcr Menschen mit Behinderung und als einer der beliebtesten Familienhunde der Welt.</p>
+          <p class="vb-intro">Damit hat Charlesworths Lebenswerk eine Wirkung entfaltet, die weit \xfcber die Zuchtstube hinausreicht: Der Hund, dessen Wesen sie \xfcber Jahrzehnte formte, dient heute t\xe4glich Menschen in Not &ndash; eine stille, aber messbare Best\xe4tigung der SO2-Grundmotivation, sich in den Dienst einer gr\xf6\xdferen Gemeinschaft zu stellen. Es ist bezeichnend, dass gerade Menschen mit sozialer Zweier-Pr\xe4gung sich bis heute h\xe4ufig bewusst f\xfcr einen Golden Retriever als Familienhund entscheiden &ndash; als w\xfcrde die Rasse selbst dieselbe Energie ausstrahlen, die auch Charlesworth ihr Leben lang antrieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Golden Retriever, den sie selbst verk\xf6rperte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Winifred Charlesworths Lebenswerk zeigt die soziale Zwei mit Einserfl\xfcgel in ihrer wirkungsvollsten Form: fast f\xfcnfzig Jahre unerm\xfcdlicher, akribischer Einsatz f\xfcr eine ganze Gemeinschaft &ndash; nicht aus privater Liebhaberei, sondern aus dem tiefen Bed\xfcrfnis, sich f\xfcr etwas unentbehrlich zu machen, das gr\xf6\xdfer ist als man selbst.</p>
+          <p class="vb-intro">Der Golden Retriever tr\xf6stet, unterst\xfctzt, begleitet &ndash; ohne je etwas daf\xfcr zu verlangen. Genau das war Charlesworths eigene Handschrift: eine Frau, die eine ganze Rasse so formte, dass sie bis heute Menschen dient, und die dabei selbst zur lebenden Verk\xf6rperung des Tieres wurde, dem sie ihr Leben widmete.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+          {route:"beruehmte-albert-schweitzer", label:"Porträt: Dr. Albert Schweitzer (SO2w1)"},
+        ])}
+        ${animalResearcherMatchBlock("beruehmte-winifred-charlesworth")}
+      </div>
     </div>
   `);
 }
@@ -90574,6 +90640,7 @@ function render() {
       "beruehmte-jan-ullrich": janUllrichPortraitPage,
       "beruehmte-oprah-winfrey": oprahWinfreyPortraitPage,
       "beruehmte-barack-obama": barackObamaPortraitPage,
+      "beruehmte-winifred-charlesworth": winifredCharlesworthPortraitPage,
       "beruehmte-marisa-abela": marisaAbelaPortraitPage,
       "beruehmte-julius-caesar": juliusCaesarPortraitPage,
       "beruehmte-napoleon-bonaparte": napoleonBonapartePortraitPage,
