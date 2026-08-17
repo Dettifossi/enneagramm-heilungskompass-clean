@@ -1089,6 +1089,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Claude Debussy – Sexual Type 4",
     teaser:"SX4w5 · 1862–1918. Composer, founder of musical modernism. Clair de Lune, La Mer, Pelléas et Mélisande. The Chihuahua who rethought European music from its foundations – and never stopped rivaling against convention.",
     tags:["Music"], gender:"m"},
+  { route:"beruehmte-dian-fossey", name:"Dian Fossey", added:"2026-08-17", subtyp:"SE7w8",
+    heading:"Dian Fossey – Self-Preservation Type 7",
+    teaser:"SE7w8 · 1932–1985 (murdered). Primatologist, nearly 18 years of field research on mountain gorillas in Rwanda, founded the Karisoke Research Center. Security in a self-chosen territory, uncompromising defense against poachers. Animal correspondence: Gorilla.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-mariah-carey", name:"Mariah Carey", added:"2026-07-21", subtyp:"SE7w8",
     heading:"Mariah Carey – Self-Preservation Type 7",
     teaser:"SE7w8 · born 1969 in Huntington, New York. Singer, songwriter, producer. 18 number 1 singles, five octaves, a Christmas song for eternity. The gorilla with eight wings: joy as a right, abundance as a home, power as a protective shield.",
@@ -41242,6 +41246,69 @@ function charlesMansonPortraitPage() {
   `);
 }
 
+function dianFosseyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-dian-fossey-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dian Fossey</p>
+        <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Primatologist, 1932–1985 (murdered) – gorilla researcher and conservationist – Animal correspondence: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The gorilla is the animal of the self-preservation Seven – strong, grounded, at ease within itself, as long as its territory is not threatened. Dian Fossey, born in San Francisco in 1932, spent almost eighteen years nearly continuously in the same remote mountain cabin in Rwanda studying mountain gorillas – one of the longest continuous field studies in behavioral science. In 1985 she was killed with a machete in that very cabin; the case remains officially unsolved to this day.</p>
+          <p class="vb-intro">No one embodied the self-preservation Seven's animal correspondence as literally as Fossey: she lived among the very animals whose behavior she studied, shared their territory, and was increasingly accepted by them as part of their own group.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Seven: Security in a self-chosen territory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the self-preservation Seven (SE7) is the most grounded of the three Seven subtypes – no restless wanderlust, no need for a public stage, but the need to create a reliable microcosm of one's own in which one is completely at home. Fossey deliberately chose extreme seclusion: she built the Karisoke Research Center in the Rwandan Virunga Mountains, far from any civilization, and stayed there for nearly two decades with only minimal human contact.</p>
+          <p class="vb-intro">Within this self-created framework, she built a firm, family-like structure – a team of loyal trackers and assistants, a familiarity with individual gorilla families grown over years, above all with the young male gorilla Digit, to whom she developed an extraordinarily close bond. This is the SE7 in its purest form: security not through public recognition, but through a self-controlled, familiar territory complete with its own "family".</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight wing: When defense becomes retribution</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SE7 with a more muted Eight wing would likely have responded to poachers threatening her territory with avoidance or negotiation. In Fossey's case, an uncompromising hardness emerged instead whenever her territory or her gorillas were attacked: when poachers killed Digit in 1977, she launched an increasingly fierce anti-poaching campaign – having poachers' huts burned down, placing bounties on their heads, and resorting to methods considered radical even among conservationists.</p>
+          <p class="vb-intro">Important for the correct classification: this was not the exercise of power for its own sake, as one might expect from a pure Eight, but pure defense of her own territory and her own "family". Contemporaries described her as warm toward those she trusted, but merciless toward anything that threatened her gorillas – exactly the pattern already seen in Andreas Baader's "hidden Eight": the Seven withdraws into her secure territory, but when that territory is attacked, she strikes back without hesitation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The growing isolation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The longer Fossey lived in the mountains, the more suspicious and withdrawn she became toward people, including colleagues and the local population. Her relationship with the surrounding communities deteriorated increasingly as she pursued anti-poaching efforts more decisively. This growing isolation is a typical downside of the SE7 under pressure: her own zone of security is defined ever more narrowly, until almost no one fits inside it except her closest confidants and the animals themselves.</p>
+          <p class="vb-intro">In 1985 she was killed with a machete in her cabin at Karisoke. Her murder is still usually linked to her fierce fight against poachers, but it has never been officially solved.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. A legacy that survived</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fossey's book "Gorillas in the Mist" (1983) and the film adaptation of the same name made the threat to mountain gorillas known worldwide. The Karisoke Research Center she founded still exists today, as does the international conservation effort for mountain gorillas, built substantially on her pioneering work. The mountain gorilla population, which was close to extinction during her lifetime, has since slowly recovered.</p>
+          <p class="vb-intro">This is the SE7w8 at its most effective: out of a personal, almost obsessive need for a territory of her own, a legacy emerged that reaches far beyond her own lifetime.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gorilla that defended its territory to the end</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dian Fossey's life shows the self-preservation Seven with an Eight wing at its most extreme, most consistent form: the choice of a self-shaped, secluded habitat, deep attachment to a family-like group – and the uncompromising readiness to defend that territory by force if necessary. Unlike Junko Tabei, whose Six wing emphasized community and belonging, Fossey's Eight wing showed itself as hardness toward anything threatening from outside.</p>
+          <p class="vb-intro">The gorilla stays within its territory, patient and calm – until the moment its family is threatened. Then it defends them without regard for its own safety. That is exactly what Fossey did, up to her own violent death in the very territory she had created to feel safe.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-junko-tabei", label:"Portrait: Junko Tabei (SP7w6)"},
+          {route:"kriminalpsychologie-andreas-baader", label:"Criminal Psychology: Andreas Baader (SP7w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function andreasBaaderPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -55260,6 +55327,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-anders-breivik": andersBreivikPortraitPage,
       "kriminalpsychologie-armin-meiwes": arminMeiwesPortraitPage,
       "kriminalpsychologie-niels-hoegel": nielsHoegelPortraitPage,
+      "beruehmte-dian-fossey": dianFosseyPortraitPage,
       "kriminalpsychologie-andreas-baader": andreasBaaderPortraitPage,
       "kriminalpsychologie-ulrike-meinhof": ulrikeMeinhofPortraitPage,
       "kriminalpsychologie-clyde-barrow": clydeBarrowPortraitPage,
