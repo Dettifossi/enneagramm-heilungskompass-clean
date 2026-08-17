@@ -24194,6 +24194,7 @@ const registerEntries = [
   { term: "Diego Velázquez",                route: "beruehmte-diego-velazquez",             description: "Portrait: SX9w1 · Sexueller Typ 9 · Maler" },
   { term: "Rihanna",                       route: "beruehmte-rihanna",                     description: "Portrait: SX4w3 \u00b7 Sexueller Typ 4 \u00b7 Pop-Superstar, Unternehmerin" },
   { term: "Billie Eilish",                 route: "beruehmte-billie-eilish",                description: "Portrait: SX4w3 \u00b7 Sexueller Typ 4 \u00b7 S\u00e4ngerin, Songwriterin" },
+  { term: "Romulus Whitaker",              route: "beruehmte-romulus-whitaker",            description: "Portrait: SX1w2 \u00b7 Sexueller Typ 1 \u00b7 Herpetologe, \u201eThe Snakeman of India\u201c" },
   { term: "Thea Litschka-Koen",            route: "beruehmte-thea-litschka-koen",          description: "Portrait: SX1w2 \u00b7 Sexueller Typ 1 \u00b7 Schlangenexpertin, Gr\u00fcnderin der Eswatini Antivenom Foundation" },
   { term: "Robbie Williams",               route: "beruehmte-robbie-williams",             description: "Portrait: SX1w2 \u00b7 Sexueller Typ 1 \u00b7 S\u00e4nger, Entertainer, radikale Offenheit" },
   { term: "Romy Schneider",                route: "beruehmte-romy-schneider",              description: "Portrait: SO4w3 \u00b7 Sozialer Typ 4 \u00b7 Filmikone, Traum & Tragik" },
@@ -24537,6 +24538,7 @@ const registerEntriesEN = [
   { term: "Diego Velázquez", route: "beruehmte-diego-velazquez", description: "Portrait: SX9w1 · Sexual Type 9 · Painter" },
   { term: "Rihanna", route: "beruehmte-rihanna", description: "Portrait: SX4w3 \u00b7 Sexual Type 4 \u00b7 Pop-Superstar, Entrepreneur" },
   { term: "Billie Eilish", route: "beruehmte-billie-eilish", description: "Portrait: SX4w3 \u00b7 Sexual Type 4 \u00b7 Singer, songwriter" },
+  { term: "Romulus Whitaker", route: "beruehmte-romulus-whitaker", description: "Portrait: SX1w2 \u00b7 Sexual Type 1 \u00b7 herpetologist, \"The Snakeman of India\"" },
   { term: "Thea Litschka-Koen", route: "beruehmte-thea-litschka-koen", description: "Portrait: SX1w2 \u00b7 Sexual Type 1 \u00b7 snake expert, founder of the Eswatini Antivenom Foundation" },
   { term: "Robbie Williams", route: "beruehmte-robbie-williams", description: "Portrait: SX1w2 \u00b7 Sexual Type 1 \u00b7 Singer, entertainer, radical honesty" },
   { term: "Romy Schneider", route: "beruehmte-romy-schneider", description: "Portrait: SO4w3 \u00b7 Social Type 4 \u00b7 Film icon, dream & tragedy" },
@@ -31472,6 +31474,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Grigori Rasputin \u2013 Sexueller Typ 1",
     teaser:"SX1w9 \u00b7 1869\u20131916. Wanderm\u00f6nch, Heiler, Vertrauter der Zarenfamilie. Ein Mann, der Petersburgs Salons mit brennenden Augen verst\u00f6rte und einen kranken Zarewitsch heilte, wo \u00c4rzte scheiterten \u2013 Reinheit und Rausch in derselben Gestalt. Tierentsprechung: Schwarze Mamba.",
     tags:["Geschichte"] , gender:"m"},
+  { route:"beruehmte-romulus-whitaker", name:"Romulus Whitaker", added:"2026-08-17", subtyp:"SX1w2",
+    heading:"Romulus Whitaker \u2013 Sexueller Typ 1",
+    teaser:"SX1w2 \u00b7 geb. 1943. Herpetologe, \u201eThe Snakeman of India\u201c, Padma-Shri-Preistr\u00e4ger. Gr\u00fcnder des Madras Snake Park, der Madras Crocodile Bank und der Agumbe Rainforest Research Station. Verwandelte die Irula von Schlangenj\u00e4gern zu Schlangensch\u00fctzern. Tierentsprechung: Schwarze Mamba.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-thea-litschka-koen", name:"Thea Litschka-Koen", added:"2026-08-17", subtyp:"SX1w2",
     heading:"Thea Litschka-Koen \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 Gr\u00fcnderin der Eswatini Antivenom Foundation, f\u00fchrende Expertin f\u00fcr Schwarze Mambas. Fast keine Todesf\u00e4lle mehr durch Schlangenbisse im Land dank ihres Antivenom-Bank-Systems. Tierentsprechung: Schwarze Mamba.",
@@ -35176,6 +35182,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-camille-fritsch", name:"Dr. Camille Fritsch", subtyp:"SE2w1", tier:"Flusspferd"},
   {route:"beruehmte-thea-litschka-koen", name:"Thea Litschka-Koen", subtyp:"SX1w2", tier:"Schwarze Mamba"},
   {route:"beruehmte-bill-haast", name:"Bill Haast", subtyp:"SX1w9", tier:"Schwarze Mamba"},
+  {route:"beruehmte-romulus-whitaker", name:"Romulus Whitaker", subtyp:"SX1w2", tier:"Schwarze Mamba"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -57206,6 +57213,66 @@ function jamieleecurtisPortraitPage() {
         {route:"beruehmte-leonardo-dicaprio", label:"Portr\u00e4t: Leonardo DiCaprio (SX1w2)"},
         {route:"beruehmte-christoph-waltz", label:"Portr\u00e4t: Christoph Waltz (SE1w2)"},
       ])}
+    </div>
+  `);
+}
+
+function romulusWhitakerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-romulus-whitaker-portrait.jpg" alt="Schwarze Mamba" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Romulus Whitaker</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexuelle Typ 1 mit Zweierfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Herpetologe, geb. 1943 &ndash; &bdquo;The Snakeman of India&ldquo;, Padma-Shri-Preistr\xe4ger &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; blitzschnell, pr\xe4zise, kompromisslos, ganz auf ein einziges Gesetz konzentriert. Romulus Whitaker, in den USA geboren und seit seinem achten Lebensjahr in Indien aufgewachsen, gilt als &bdquo;The Snakeman of India&ldquo; und wurde mit dem Padma Shri geehrt, einem der h\xf6chsten zivilen Orden Indiens.</p>
+          <p class="vb-intro">Eine ehrliche Anmerkung vorab, \xe4hnlich wie schon bei Dr. Peter Sharpe (SE1w9) und dem Steinadler versus Wei\xdfkopfseeadler: Whitakers eigentliches Lebenswerk kreist vor allem um die K\xf6nigskobra &ndash; die Agumbe Rainforest Research Station, die er 2005 gr\xfcndete, ist heute weltweit f\xfchrend in der K\xf6nigskobra-Forschung. Die exakte Art unterscheidet sich damit von seiner Tierentsprechung Schwarze Mamba. Doch wie beim Adler gilt auch bei Schlangen: Das Enneagramm unterscheidet hier nicht nach Spezies, sondern nach dem archetypischen Prinzip der Schlange selbst &ndash; blitzschnell, pr\xe4zise, unbestechlich in ihrem eigenen Gesetz. Und genau dieses Prinzip verk\xf6rpert Whitaker \xfcber sein gesamtes Lebenswerk hinweg, unabh\xe4ngig von der einzelnen Art.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: F\xfcnfzig Jahre eine Mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> nannte Naranjo <em>Eifersucht</em> oder <em>Zeal</em> &ndash; eine Leidenschaft, die sich mit missionarischer Intensit\xe4t auf eine einzige Sache konzentriert. Whitaker gr\xfcndete \xfcber f\xfcnf Jahrzehnte hinweg eine Institution nach der anderen, immer um dasselbe Grundthema: 1969 den Madras Snake Park, Indiens ersten seiner Art, mit einem Eintrittspreis von 25 Paise; 1976 gemeinsam mit seiner damaligen Frau Zai Whitaker die Madras Crocodile Bank Trust; 2005 schlie\xdflich die Agumbe Rainforest Research Station.</p>
+          <p class="vb-intro">Sein eigenes Credo bringt die SX1-Haltung auf den Punkt: &bdquo;Follow your dream. Unwavering passion and dedication are key.&ldquo; Und wie bei Thea Litschka-Koen (SX1w2) richtet sich seine Mission nicht gegen die gef\xe4hrlichen Tiere, sondern f\xfcr Aufkl\xe4rung und Koexistenz &ndash; statt Ausrottung propagiert er wissenschaftliches Verst\xe4ndnis. Eine feste moralische \xdcberzeugung, aus der eine unbeirrbare Lebenspraxis folgt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierfl\xfcgel: Gemeinschaft statt Einzelg\xe4ngertum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SX1 mit schw\xe4cher ausgepr\xe4gtem Zweierfl\xfcgel h\xe4tte ihre Mission vermutlich einsamer verfolgt &ndash; \xe4hnlich wie Bill Haast (SX1w9), der sein Leben in radikaler Einsamkeit und Selbstversuchen verbrachte. Bei Whitaker zeigt sich stattdessen ein ausgesprochen nach au\xdfen gerichtetes, gemeinschaftsbildendes Muster: Er baute die Crocodile Bank gemeinsam mit seiner Frau als Partnerschaftsprojekt auf, ganz \xe4hnlich wie Litschka-Koen mit ihrem Mann Clifton.</p>
+          <p class="vb-intro">Sein vielleicht eindr\xfccklichstes Werk ist jedoch sozialer Natur: Er verwandelte die Irula, eine ind\xed­gene Gemeinschaft traditioneller Schlangenj\xe4ger, in eine Kooperative von Schlangensch\xfctzerinnen und -sch\xfctzern, die durch die Giftgewinnung f\xfcr die medizinische Forschung ein w\xfcrdevolles Auskommen erhielten. Das ist der Zweierfl\xfcgel in seiner reifsten Form: nicht allein arbeiten, sondern andere bef\xe4higen, einbinden, eine ganze Gemeinschaft mitnehmen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Sichtbarkeit statt Rückzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Whitaker dokumentierte seine Arbeit \xfcber Jahrzehnte in B\xfcchern und Filmen und wurde so zu einer \xf6ffentlich sichtbaren Figur der indischen Naturschutzbewegung &ndash; ein deutlicher Kontrast zu Haasts zur\xfcckgezogenem, fast klösterlichem Stil. Er selbst beschreibt sich mit trockenem Humor: &bdquo;People often mistake me for a rabid hippie conservationist.&ldquo; Ausgezeichnet wurde er unter anderem mit dem Whitley Award, dem Rolex Award, dem Order of Golden Ark und dem Salim Ali Award.</p>
+          <p class="vb-intro">Diese Kombination aus unbeirrbarer, jahrzehntelanger Hingabe an eine gef\xe4hrliche Sache (der Eins) und dem konsequenten Aufbau von Gemeinschaften, Partnerschaften und \xf6ffentlicher Sichtbarkeit (dem Zweierfl\xfcgel) ist die SX1w2 in ihrer wirkungsvollsten Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Schlange, die eine ganze Gemeinschaft ver\xe4nderte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Romulus Whitakers Lebenswerk zeigt die sexuelle Eins mit Zweierfl\xfcgel in ihrer weitreichendsten Form: eine \xfcber f\xfcnfzig Jahre andauernde, unerbittliche Hingabe an ein einziges Prinzip &ndash; \xfcbersetzt jedoch nicht in Einzelg\xe4ngertum, sondern in Institutionen, Partnerschaften und eine ganze transformierte Gemeinschaft.</p>
+          <p class="vb-intro">Die Schlange folgt einem inneren Gesetz ohne Ausnahme. Whitakers Gesetz lautete: Schlangen verdienen Verst\xe4ndnis statt Angst &ndash; und dieses Gesetz gab er nicht allein weiter, sondern gemeinsam mit jedem, den er daf\xfcr gewinnen konnte.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+          {route:"beruehmte-thea-litschka-koen", label:"Porträt: Thea Litschka-Koen (SX1w2)"},
+          {route:"beruehmte-bill-haast", label:"Porträt: Bill Haast (SX1w9)"},
+        ])}
+        ${animalResearcherMatchBlock("beruehmte-romulus-whitaker")}
+      </div>
     </div>
   `);
 }
@@ -90480,6 +90547,7 @@ function render() {
       "beruehmte-diego-velazquez": diegoVelazquezPortraitPage,
       "beruehmte-jesus-christus": jesusChristusPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
+      "beruehmte-romulus-whitaker": romulusWhitakerPortraitPage,
       "beruehmte-thea-litschka-koen": theaLitschkaKoenPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-frida-kahlo": fridaKahloPortraitPage,
