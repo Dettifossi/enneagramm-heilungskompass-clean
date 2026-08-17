@@ -53535,7 +53535,7 @@ function jeanneCalmentPortraitPage() {
         <h2 class="vb-section">1. Der Gorilla</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier der selbsterhaltenden Sieben &ndash; ein Tier, das kein rastloser Wanderer ist, sondern sein Revier kennt, dort bleibt und genau dort sein Leben in vollen Zügen genießt. Kein Tier der weiten Reise, sondern eines der tiefen Verwurzelung &ndash; kräftig, gelassen, in sich ruhend. Jeanne Calment, 1875 in Arles geboren, verbrachte praktisch ihr gesamtes Leben genau dort &ndash; und erreichte mit 122 Jahren und 164 Tagen die am gründlichsten dokumentierte Lebensspanne der Menschheitsgeschichte.</p>
-          <p class="vb-intro">Sie fuhr bis ins hohe Alter Fahrrad, focht noch mit 85, rauchte von 21 bis 117, aß fast ein Kilo Schokolade pro Woche und trank gerne Portwein. Kein asketisches, sondern ein ausgesprochen genussvolles langes Leben &ndash; getragen von einer Gelassenheit, die selbst schwere Verluste überstand, ohne bitter zu werden.</p>
+          <p class="vb-intro">Sie fuhr bis ins hohe Alter Fahrrad, übte das Fechten noch mit 85 Jahren aus, rauchte von 21 bis 117, aß fast ein Kilo Schokolade pro Woche und trank gerne Portwein. Kein asketisches, sondern ein ausgesprochen genussvolles langes Leben &ndash; getragen von einer Gelassenheit, die selbst schwere Verluste überstand, ohne bitter zu werden.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Sieben: Fülle an einem einzigen Ort</h2>
