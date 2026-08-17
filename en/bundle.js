@@ -41160,7 +41160,7 @@ function clydeBarrowPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The bond with Bonnie: No escape route alone</h3>
-        <p class="vb-intro">Clyde could have gone into hiding alone several times over – his chances of survival would have been higher without Bonnie. Instead he stayed with her to the end, even as their shared risk clearly grew. For a pure Seven this would be unusual – the Seven keeps her options open, including the option of going it alone. But the sexual Seven binds herself with an intensity to a single, extraordinary relationship that outstrips her usual restlessness.</p>
+        <p class="vb-intro">Clyde could have gone into hiding alone several times over – his chances of survival would have been higher without Bonnie. Instead he stayed with her to the end, even as their shared risk clearly grew. For the self-preservation or social Seven this would be harder to imagine – there, strategic calculation would likely have favored going it alone. The sexual Seven, by contrast, binds herself with an intensity to a single, extraordinary relationship that outstrips her usual restlessness.</p>
         <p class="vb-intro">For Clyde, Bonnie had become not just a partner, but part of the fleeing motion itself – the relationship as the last, non-negotiable constant in a life otherwise made of permanent movement. The Eight wing ensured this bond was never given up, even when reason would have argued for it.</p>
       </div>
 

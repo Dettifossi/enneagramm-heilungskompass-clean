@@ -74119,7 +74119,7 @@ function clydeBarrowPortraitPage() {
 
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die Bindung an Bonnie: Kein Fluchtweg allein</h3>
-        <p class="vb-intro">Clyde h\xe4tte mehrfach allein untertauchen k\xf6nnen &ndash; ohne Bonnie w\xe4ren seine \xdcberlebenschancen h\xf6her gewesen. Stattdessen blieb er bei ihr, bis zuletzt, selbst als das gemeinsame Risiko offensichtlich stieg. Bei einer reinen Sieben w\xe4re das ungew\xf6hnlich &ndash; die Sieben h\xe4lt sich Optionen offen, auch die Option des Alleingangs. Doch die sexuelle Sieben bindet sich mit einer Intensit\xe4t an eine einzelne, au\xdfergew\xf6hnliche Beziehung, die ihre sonstige Rastlosigkeit \xfcbersteigt.</p>
+        <p class="vb-intro">Clyde h\xe4tte mehrfach allein untertauchen k\xf6nnen &ndash; ohne Bonnie w\xe4ren seine \xdcberlebenschancen h\xf6her gewesen. Stattdessen blieb er bei ihr, bis zuletzt, selbst als das gemeinsame Risiko offensichtlich stieg. Bei der selbsterhaltenden oder sozialen Sieben w\xe4re das schwerer vorstellbar &ndash; dort h\xe4tte vermutlich strategisches Kalk\xfcl f\xfcr den Alleingang gesprochen. Die sexuelle Sieben dagegen bindet sich mit einer Intensit\xe4t an eine einzelne, au\xdfergew\xf6hnliche Beziehung, die ihre sonstige Rastlosigkeit \xfcbersteigt.</p>
         <p class="vb-intro">Bonnie war f\xfcr Clyde nicht nur Partnerin, sondern Teil der Fluchtbewegung selbst geworden &ndash; die Beziehung als letzte, unaufgebbare Konstante in einem Leben, das sonst aus permanenter Bewegung bestand. Der Achterfl\xfcgel sorgte daf\xfcr, dass diese Bindung nicht aufgegeben wurde, selbst als Vernunft daf\xfcr gesprochen h\xe4tte.</p>
       </div>
 
