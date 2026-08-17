@@ -1005,6 +1005,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Grigori Rasputin \u2013 Sexual Type 1",
     teaser:"SX1w9 \u00b7 1869\u20131916. Wandering monk, healer, confidant of the Tsar's family. A man whose burning gaze unsettled St. Petersburg's salons and who healed a sick Tsarevich where doctors had failed \u2013 purity and intoxication in a single figure. Animal correspondence: Black Mamba.",
     tags:["History"], gender:"m"},
+  { route:"beruehmte-thea-litschka-koen", name:"Thea Litschka-Koen", added:"2026-08-17", subtyp:"SX1w2",
+    heading:"Thea Litschka-Koen \u2013 Sexual Type 1",
+    teaser:"SX1w2 \u00b7 Founder of the Eswatini Antivenom Foundation, leading black mamba expert. Nearly eliminated snakebite fatalities in her country through her antivenom bank system. Animal correspondence: Black Mamba.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-robbie-williams", name:"Robbie Williams", added:"2026-07-30", subtyp:"SX1w2",
     heading:"Robbie Williams \u2013 Sexual Type 1",
     teaser:"SX1w2 \u00b7 born 1974. Singer, entertainer, formerly of Take That. Radical honesty about addiction, depression and self-doubt \u2013 the Black Mamba that cannot tolerate a lie, not even its own. Animal correspondence: Black Mamba.",
@@ -4708,6 +4712,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-peter-sharpe", name:"Dr. Peter Sharpe", subtyp:"SE1w9", tier:"Eagle"},
   {route:"beruehmte-konrad-lorenz", name:"Konrad Lorenz", subtyp:"SO1w9", tier:"Goose"},
   {route:"beruehmte-camille-fritsch", name:"Dr. Camille Fritsch", subtyp:"SE2w1", tier:"Hippopotamus"},
+  {route:"beruehmte-thea-litschka-koen", name:"Thea Litschka-Koen", subtyp:"SX1w2", tier:"Black Mamba"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -18069,6 +18074,65 @@ function jamesLevinePortraitPage() {
           {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
           {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
         ])}
+      </div>
+    </div>
+  `);
+}
+
+function theaLitschkaKoenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-thea-litschka-koen-portrait.jpg" alt="Black Mamba" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Thea Litschka-Koen</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Founder of the Eswatini Antivenom Foundation &ndash; leading black mamba expert &ndash; Animal correspondence: Black Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Black Mamba</strong> is the animal of the sexual One &ndash; lightning-fast, precise, uncompromising, without malice but also without room for negotiation. Thea Litschka-Koen is considered one of the world's leading experts on black mambas &ndash; not through a biology degree, but through more than fifteen years of practical, meticulously built expertise handling this exact species.</p>
+          <p class="vb-intro">She is a member of the WHO Snakebite Panel of Experts and the African Snakebite Advisory Group &ndash; an authority recognized by her professional peers, even though her career originally began in hotel management. This is precisely what makes it remarkable: as with Prof. Grahame Webb and the crocodile, scientific authority does not necessarily arise through an academic path, but through years of relentlessly precise, hands-on engagement with a single subject &ndash; a form of science whose rigor differs from no university career.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual One: Relentless Devotion to a Single Cause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>sexual One (SX1)</strong> <em>Jealousy</em> or <em>Zeal</em> &ndash; a passion that does not spread across many things, but concentrates with almost missionary intensity on a single cause or relationship, tolerating no compromise there. Litschka-Koen, the third generation of her family in Eswatini, came to snakes through one of her sons' school project &ndash; and subsequently completed mamba handling and identification courses, until a parental side note became a life's calling.</p>
+          <p class="vb-intro">She founded the <em>Eswatini Antivenom Foundation</em> and built a nationwide system of "antivenom banks" &ndash; with the result that Eswatini today has a nearly vanishing death rate from snakebites, a previously unimaginable outcome for the country. Her own words capture the SX1 stance exactly: "If we had to destroy every animal that could cause us harm, there would be precious little left." That is not a sentimental conservation slogan, but a firm moral conviction from which an unwavering way of life follows.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Partnership as the Foundation of the Mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SX1 with a more muted Nine-wing would likely have pursued its mission more solitarily, at more of a distance. In Litschka-Koen, a pronounced relational, caregiving component shows instead, typical of the Two-wing: she works together with her husband Clifton as a fixed rescue team, responds to emergency call-outs, and holds educational events in rural communities. She also trains volunteer "Community Snake Rescue Volunteers" who defuse conflicts between humans and snakes in remote regions.</p>
+          <p class="vb-intro">This caregiving carries a real emotional cost: Litschka-Koen speaks openly about how distressing it is to have to rescue a snake that has previously killed a child &ndash; while grieving families demand revenge rather than understanding. It is precisely in this tension between unwavering conviction (the One) and compassionate closeness to both people and animals alike (the Two-wing) that the SX1w2 shows itself at its most mature.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Results That Speak for Themselves</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Her work was featured in a 2009 hour-long BBC documentary titled "Black Mamba and Witch." She now advises internationally on the development of a global "Snakebite Prevention and Treatment Roadmap" &ndash; without consistent government support, carried solely by the persistence of a woman who made a decision once and has not wavered from it since.</p>
+          <p class="vb-intro">This combination of measurable, documented success (the nearly eliminated fatality rate) and personal, often painful closeness to those affected &ndash; human and animal alike &ndash; is the SX1w2 in the light: results that arise not from cold calculation, but from a devotion that knows no half measures.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Snake That Saves Lives Instead of Taking Them</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thea Litschka-Koen's life's work shows the sexual One with a Two-wing at its most effective: a woman who devoted herself to a single, dangerous cause with absolute consistency &ndash; and turned that consistency not into a weapon, but into an instrument of rescue. As with several other animal-researcher portraits in this compass, her own animal correspondence stands for exactly the animal to which an entire life has been devoted.</p>
+          <p class="vb-intro">The black mamba does not kill out of malice; it follows an inner law without exception. Litschka-Koen does the same &ndash; only her law reads: no one should have to die from a snakebite that could have been prevented.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+          {route:"beruehmte-robbie-williams", label:"Portrait: Robbie Williams (SX1w2)"},
+        ])}
+        ${animalResearcherMatchBlock("beruehmte-thea-litschka-koen")}
       </div>
     </div>
   `);
@@ -55948,6 +56012,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-diego-velazquez": diegoVelazquezPortraitPage,
       "beruehmte-jesus-christus": jesusChristusPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
+      "beruehmte-thea-litschka-koen": theaLitschkaKoenPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-meg-ryan": megRyanPortraitPage,
