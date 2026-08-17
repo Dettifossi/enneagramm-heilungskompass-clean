@@ -23992,9 +23992,13 @@ function jeanneCalmentPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Jeanne Calment's life shows the self-preservation Seven with a Six wing at its healthiest, most mature: capacity for pleasure without excess, constancy without confinement, humor without bitterness – even in the face of losing a husband, a daughter, and a grandson. She did not need to travel to live a full life. She did not need to be in the spotlight to be remarkable.</p>
           <p class="vb-intro">The gorilla stays within its territory – and it was exactly there, among chocolate, port wine, and the bicycle, that one of the most remarkable lives of the modern era unfolded. Not a loud record, but the quiet, decades-long art of living deeply and long in a single place.</p>
-          <div style="display:flex;gap:0.8rem;flex-wrap:wrap;margin:1.5rem 0;justify-content:center;">
-            <img src="../assets/portraits/beruehmte-jeanne-calment-1895.jpg" alt="Jeanne Calment around 1895, at about age 20" loading="lazy" style="width:45%;min-width:150px;border-radius:6px;object-fit:cover;" />
-            <img src="../assets/portraits/beruehmte-jeanne-calment-1900er.jpg" alt="Jeanne Calment around 1900–1910, at about age 40" loading="lazy" style="width:45%;min-width:150px;border-radius:6px;object-fit:cover;" />
+          <div style="display:flex;gap:0.8rem;flex-wrap:wrap;margin:1.5rem 0;justify-content:center;align-items:flex-start;">
+            <div style="width:45%;min-width:150px;aspect-ratio:3/4;overflow:hidden;border-radius:6px;">
+              <img src="../assets/portraits/beruehmte-jeanne-calment-1895.jpg" alt="Jeanne Calment around 1895, at about age 20" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center 25%;display:block;" />
+            </div>
+            <div style="width:45%;min-width:150px;aspect-ratio:3/4;overflow:hidden;border-radius:6px;">
+              <img src="../assets/portraits/beruehmte-jeanne-calment-1900er.jpg" alt="Jeanne Calment around 1900–1910, at about age 40" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center 15%;display:block;" />
+            </div>
           </div>
           <p style="font-size:0.85rem;color:var(--muted);text-align:center;margin-top:-0.8rem;">Jeanne Calment as a young woman, around 1895 and around 1900–1910 (photographer: Gustave Ouvière, public domain).</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
