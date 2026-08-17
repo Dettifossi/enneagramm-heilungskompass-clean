@@ -24130,6 +24130,7 @@ const registerEntries = [
   { term: "Kathrin Bauerfeind",            route: "beruehmte-kathrin-bauerfeind",          description: "Portrait: SE3w4 \u00b7 Selbsterhaltender Typ 3 \u00b7 Journalistin, Moderatorin, Essayistin" },
   { term: "Anna Anderson", route: "beruehmte-anna-anderson", description: "Portrait: SE3w4 · Selbsterhaltende Typ 3 · berühmteste Hochstaplerin der Geschichte" },
   { term: "Judit Polgár",                  route: "beruehmte-judit-polgar",                description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Schach-Großmeisterin" },
+  { term: "Jane Goodall", route: "beruehmte-jane-goodall", description: "Portrait: SX9w1 \u00b7 Sexuelle Typ 9 \u00b7 Primatologin, Begr\u00fcnderin der modernen Schimpansenforschung" },
   { term: "Keanu Reeves",                  route: "beruehmte-keanu-reeves",                description: "Portrait: SX9w1 \u00b7 Sexueller Typ 9 \u00b7 Schauspieler, The Matrix, stille Pr\u00e4senz" },
   { term: "Klaus Kinski",                  route: "beruehmte-klaus-kinski",                description: "Portrait: SX1w9 \u00b7 Sexueller Typ 1 \u00b7 Schauspieler, Intensit\u00e4t & Exzess" },
   { term: "Kollegah",                      route: "beruehmte-kollegah",                    description: "Portrait: SX6w5 \u00b7 Sexueller Typ 6 \u00b7 Rapper, Fitness-Ikone, Marke & Maske" },
@@ -24460,6 +24461,7 @@ const registerEntriesEN = [
   { term: "Kathrin Bauerfeind", route: "beruehmte-kathrin-bauerfeind", description: "Portrait: SE3w4 \u00b7 Self-Preservation Type 3 \u00b7 Journalist, TV host, Essayistin" },
   { term: "Anna Anderson", route: "beruehmte-anna-anderson", description: "Portrait: SP3w4 · Self-Preservation Type 3 · history's most famous impostor" },
   { term: "Judit Polgár", route: "beruehmte-judit-polgar", description: "Portrait: SP3w4 · Self-Preservation Type 3 · Chess grandmaster" },
+  { term: "Jane Goodall", route: "beruehmte-jane-goodall", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 primatologist, founder of modern chimpanzee research" },
   { term: "Keanu Reeves", route: "beruehmte-keanu-reeves", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 Actor, The Matrix, quiet presence" },
   { term: "Klaus Kinski", route: "beruehmte-klaus-kinski", description: "Portrait: SX1w9 \u00b7 Sexual Type 1 \u00b7 Actor, intensity & excess" },
   { term: "Kollegah", route: "beruehmte-kollegah", description: "Portrait: SX6w5 \u00b7 Sexual Type 6 \u00b7 Rapper, fitness icon, brand & mask" },
@@ -32388,6 +32390,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Iga \u015awi\u0105tek \u2013 Sexueller Typ 9",
     teaser:"SX9w1 \u00b7 geb. 2001. Tennisprofi. Roland Garros 2020, 2022, 2023, 2024, US Open 2022. Die dominanteste Spielerin ihrer \u00c4ra \u2013 und das Faultier, das im Flow fliegt.",
     tags:["Sport","Tennis"], gender:"f"},
+  { route:"beruehmte-jane-goodall", name:"Dr. Jane Goodall", added:"2026-08-17", subtyp:"SX9w1",
+    heading:"Dr. Jane Goodall – Sexuelle Typ 9",
+    teaser:"SX9w1 · 1934–2025. Primatologin, Begründerin der modernen Schimpansenforschung, entdeckte Werkzeuggebrauch bei Tieren. Verschmelzung als Forschungsmethode, später Gründerin von Roots & Shoots. Tierentsprechung: Faultier.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-keanu-reeves", name:"Keanu Reeves", subtyp:"SX9w1",
     heading:"Keanu Reeves \u2013 Sexueller Typ 9",
     teaser:"SX9w1 \u00b7 geb. 1964. Schauspieler (The Matrix, John Wick). Der stille Mann, der sich in jede Rolle aufl\u00f6st \u2013 und im wirklichen Leben noch bescheidener ist als auf der Leinwand. Tierentsprechung: Faultier.",
@@ -51348,6 +51354,69 @@ function marioBarthPortraitPage() {
           {route:"subtype/sx9", label:"SX9 \u2013 Das Faultier: Subtyp-Profil"},
           {route:"beruehmte-heike-makatsch", label:"Portr\u00e4t: Heike Makatsch (SX9w8)"},
           {route:"beruehmte-dakota-johnson", label:"Portr\u00e4t: Dakota Johnson (SX9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function janeGoodallPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jane-goodall-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Jane Goodall</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexuelle Typ 9 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Primatologin, 1934&ndash;2025 &ndash; Begr\xfcnderin der modernen Schimpansenforschung &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun &ndash; ein Tier, das nicht kämpft, nicht drängt, sondern die Dinge zu sich kommen lässt, vollkommen präsent in seinem eigenen Tempo. Jane Goodall, 1934 in London geboren, verkörperte genau diese Qualität, als sie 1960, mit 26 Jahren, an den Gombe-Stream-See in Tansania reiste, um wilde Schimpansen zu erforschen &ndash; ohne akademische Vorbildung, nur mit einem Notizbuch und der Bereitschaft zu warten.</p>
+          <p class="vb-intro">Die ersten drei Monate verbrachte sie damit, den Schimpansen einfach nur aus der Distanz zuzusehen, bis sie sich an ihre Anwesenheit gewöhnten. Kein forscher Zugriff, kein hastiges Sammeln von Daten &ndash; sondern geduldiges Warten, bis Vertrauen entstand. Diese Studie wurde zur längsten kontinuierlichen Feldforschung an einer Tiergruppe der Geschichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung als Methode</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> ist nach Naranjo die Variante der Trägheits-Leidenschaft, die sich in vollständiger Verschmelzung mit einem geliebten Gegenüber ausdrückt &ndash; das eigene Selbst tritt zurück, um vollständig im Anderen aufzugehen. Goodall gab den Schimpansen Namen statt Nummern &ndash; David Greybeard, Flo, Fifi &ndash; und beschrieb ihre Persönlichkeiten und Emotionen, was dem wissenschaftlichen Establishment ihrer Zeit als unwissenschaftlich, weil zu anthropomorph, galt.</p>
+          <p class="vb-intro">Genau das ist die SX9 in ihrer produktivsten Form: keine distanzierte Analyse von au\xdfen, sondern ein empathisches Aufgehen in der Beziehung zu einem einzelnen Wesen. David Greybeard, der erste Schimpanse, der ihr vertraute, wurde zur zentralen Figur ihrer frühen Forschung &ndash; eine Bindung, die tiefer war als jede rein wissenschaftliche Beobachtung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\xfcgel: Vom Werkzeuggebrauch zur Prinzipientreue</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SX9 mit schw\xe4cher ausgepr\xe4gtem Einserfl\xfcgel h\xe4tte ihre Beobachtungen vermutlich für sich behalten, ohne den Anspruch, damit etwas Grundlegendes zu korrigieren. Bei Goodall trat stattdessen früh eine stille, unbeirrbare Ernsthaftigkeit hervor: Am 4. November 1960 beobachtete sie, wie der Schimpanse David Greybeard einen Grashalm entblätterte, um damit Termiten aus einem Hügel zu angeln &ndash; ein Werkzeuggebrauch, der bis dahin als exklusiv menschliche F\xe4higkeit galt.</p>
+          <p class="vb-intro">Diese Entdeckung stellte etablierte wissenschaftliche Grundannahmen infrage, und Goodall hielt trotz erheblichen Widerstands an ihren Beobachtungen fest. 1966 erhielt sie, obwohl sie nie einen grundständigen Studienabschluss erworben hatte, einen regulären Doktortitel in Verhaltensforschung von der Universit\xe4t Cambridge &ndash; eine der wenigen Ausnahmen in der Geschichte der Universit\xe4t.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. &bdquo;Ich kam als Wissenschaftlerin, ich ging als Aktivistin&ldquo;</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1986 nahm Goodall an einer Konferenz \xfcber die Zerst\xf6rung von Lebensr\xe4umen und die brutale Wilderei an Schimpansen teil &ndash; ein Wendepunkt, den sie später selbst so zusammenfasste: &bdquo;Ich kam als Wissenschaftlerin, ich ging als Aktivistin.&ldquo; Von da an bereiste sie bis zu 300 Tage im Jahr die Welt, sprach vor Parlamenten, Universit\xe4ten und Konferenzen &ndash; stets in ihrer charakteristisch leisen, nie konfrontativen Art. Ihr eigenes Credo: &bdquo;Wenn du willst, dass sich jemand ändert, musst du zuerst das Herz erreichen.&ldquo;</p>
+          <p class="vb-intro">1991 gründete sie &bdquo;Roots &amp; Shoots&ldquo;, eine globale Jugendbewegung in über 100 Ländern, getragen von einem klaren moralischen Grundsatz: &bdquo;Jeder Tag, den du lebst, hinterlässt eine Wirkung.&ldquo; Das ist der Einserflügel in seiner reifsten Form &ndash; kein lautes Predigen, sondern eine ruhige, aber unerschütterliche Überzeugung, die zur Handlung dr\xe4ngt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Empathie und Objektivit\xe4t: Kein Widerspruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Goodall bestand ihr Leben lang darauf, dass Einfühlungsvermögen und wissenschaftliche Genauigkeit sich nicht ausschlie\xdfen &ndash; eine Haltung, die ihr anfangs erhebliche Kritik einbrachte, sich aber letztlich als wegweisend erwies. Sie zeigte, dass die vollständige, gefühlsbetonte Verschmelzung mit dem Forschungsgegenstand nicht die wissenschaftliche Erkenntnis verf\xe4lscht, sondern sie oft erst erm\xf6glicht.</p>
+          <p class="vb-intro">Diese Synthese aus Hingabe und Genauigkeit ist die SX9w1 auf ihrem H\xf6hepunkt: die Verschmelzungsf\xe4higkeit der Neun, verankert und diszipliniert durch den inneren Ma\xdfstab des Einserfl\xfcgels &ndash; eine Kombination, die weder rein gef\xfchlsbetont noch rein distanziert-analytisch war, sondern beides zugleich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Faultier, das die Welt ver\xe4nderte, ohne laut zu werden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jane Goodall zeigt die sexuelle Neun mit Einserfl\xfcgel in ihrer wirkungsvollsten Form: eine Frau, die durch geduldiges, verschmelzendes Dasein bei den Schimpansen von Gombe das moderne Verst\xe4ndnis von Tieren, Empathie und Wissenschaft grundlegend ver\xe4nderte &ndash; und die diese stille Haltung sp\xe4ter in einen weltweiten, aber nie lauten Aktivismus \xfcbersetzte. Sie starb am 1. Oktober 2025.</p>
+          <p class="vb-intro">Das Faultier h\xe4ngt scheinbar bewegungslos in seinem Ast, vollkommen pr\xe4sent &ndash; und genau aus dieser Ruhe heraus entfaltete Goodall eine Wirkung, die lauter Aktivismus selten erreicht. Kein Kampf, keine Konfrontation, sondern die stille Gewissheit, dass echte Ver\xe4nderung dort beginnt, wo man zuerst wirklich hinschaut und f\xfchlt.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
+          {route:"beruehmte-dian-fossey", label:"Portr\xe4t: Dian Fossey (SE7w8)"},
         ])}
       </div>
     </div>
@@ -89529,6 +89598,7 @@ function render() {
           "beruehmte-ronald-reagan": ronaldReaganPortraitPage,
     "beruehmte-wilma-mankiller": wilmaMankillerPortraitPage,
     "beruehmte-willy-brandt": willyBrandtPortraitPage,
+      "beruehmte-jane-goodall": janeGoodallPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
           "beruehmte-carl-rogers": carlRogersPortraitPage,
     "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,

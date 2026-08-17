@@ -852,6 +852,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wilma Mankiller – Social Type 9",
     teaser:"SO9w8 · 1945–2010. First woman to serve as Principal Chief of the Cherokee Nation (1985–1995). The buffalo who carried an entire nation – against illness, resistance and doubt, with unwavering strength for the community.",
     tags:["Politics","Activism"], gender:"f"},
+  { route:"beruehmte-jane-goodall", name:"Dr. Jane Goodall", added:"2026-08-17", subtyp:"SX9w1",
+    heading:"Dr. Jane Goodall – Sexual Type 9",
+    teaser:"SX9w1 · 1934–2025. Primatologist, founder of modern chimpanzee research, discovered tool use in animals. Merging as a research method, later founder of Roots & Shoots. Animal correspondence: Sloth.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-keanu-reeves", name:"Keanu Reeves", subtyp:"SX9w1",
     heading:"Keanu Reeves – Sexual Type 9",
     teaser:"SX9w1 · born 1964. Actor (The Matrix, John Wick). The quiet man who dissolves into every role – and in real life is even more humble than on screen. Animal correspondence: Sloth.",
@@ -29475,6 +29479,69 @@ function marioBarthPortraitPage() {
   `);
 }
 
+function janeGoodallPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jane-goodall-portrait.jpg" alt="Sloth" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Jane Goodall</p>
+        <p class="krim-portrait-typ">SP9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Primatologist, 1934–2025 – founder of modern chimpanzee research – Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The sloth is the animal of the sexual Nine – an animal that does not fight, does not push, but lets things come to it, fully present at its own pace. Jane Goodall, born in London in 1934, embodied exactly this quality when in 1960, at 26, she traveled to the Gombe Stream in Tanzania to study wild chimpanzees – with no academic training, only a notebook and a willingness to wait.</p>
+          <p class="vb-intro">She spent her first three months simply watching the chimpanzees from a distance until they grew accustomed to her presence. No brisk data-gathering, no rush – but patient waiting until trust emerged. This study became the longest continuous field study of an animal group in history.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: Merging as a method</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the sexual Nine (SX9) is the variant of the passion of sloth expressed through complete merging with a beloved counterpart – the self steps back to fully dissolve into the other. Goodall gave the chimpanzees names instead of numbers – David Greybeard, Flo, Fifi – and described their personalities and emotions, which the scientific establishment of her time considered unscientific, too anthropomorphic.</p>
+          <p class="vb-intro">This is exactly the SX9 at its most productive: not detached analysis from outside, but an empathetic dissolving into the relationship with a single being. David Greybeard, the first chimpanzee to trust her, became the central figure of her early research – a bond deeper than any purely scientific observation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One wing: From tool use to principled conviction</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SX9 with a more muted One wing would likely have kept her observations to herself, without the drive to correct something fundamental with them. In Goodall's case, a quiet, unshakeable seriousness emerged early instead: on November 4, 1960, she observed the chimpanzee David Greybeard stripping leaves off a stalk to fish termites from a mound – tool use previously believed exclusive to humans.</p>
+          <p class="vb-intro">This discovery challenged established scientific assumptions, and Goodall held to her observations despite considerable resistance. In 1966, although she had never earned an undergraduate degree, she received a genuine PhD in animal behavior from Cambridge University – one of the rare exceptions in the university's history.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. "I went as a scientist. I left as an activist."</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1986, Goodall attended a conference on habitat destruction and brutal poaching of chimpanzees – a turning point she later summed up herself: "I went to that conference as a scientist. I left as an activist." From then on she crisscrossed the globe up to 300 days a year, speaking before parliaments, universities, and conferences – always in her characteristically quiet, never confrontational manner. Her own creed: "If you want someone to change, you've got to reach the heart first."</p>
+          <p class="vb-intro">In 1991 she founded "Roots & Shoots", a global youth movement spanning more than 100 countries, carried by a clear moral principle: "Every day you live, you make some kind of impact." This is the One wing at its most mature – not loud preaching, but a calm, unshakeable conviction that drives action.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Empathy and objectivity: No contradiction</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Goodall insisted throughout her life that empathy and scientific rigor were not mutually exclusive – a stance that initially brought her significant criticism but ultimately proved groundbreaking. She showed that complete, feeling-based merging with the subject of research does not distort scientific insight, but often makes it possible in the first place.</p>
+          <p class="vb-intro">This synthesis of devotion and precision is the SX9w1 at its peak: the Nine's capacity for merging, anchored and disciplined by the One wing's inner standard – a combination that was neither purely emotional nor purely detached-analytical, but both at once.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Sloth that changed the world without raising its voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jane Goodall shows the sexual Nine with a One wing at its most effective: a woman who, through patient, merging presence among the chimpanzees of Gombe, fundamentally changed the modern understanding of animals, empathy, and science – and who later translated this quiet stance into a worldwide, yet never loud, activism. She died on October 1, 2025.</p>
+          <p class="vb-intro">The sloth hangs seemingly motionless on its branch, fully present – and it was exactly from this stillness that Goodall unfolded an impact rarely matched by loud activism. No fight, no confrontation, but the quiet certainty that real change begins where one first truly looks and feels.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SP9w1)"},
+          {route:"beruehmte-dian-fossey", label:"Portrait: Dian Fossey (SP7w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function keanuReevesPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -55086,6 +55153,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-julian-assange": julianAssangePortraitPage,
       "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-wilma-mankiller": wilmaMankillerPortraitPage,
+      "beruehmte-jane-goodall": janeGoodallPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
       "beruehmte-mario-barth": marioBarthPortraitPage,
