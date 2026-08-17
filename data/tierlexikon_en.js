@@ -6,7 +6,7 @@ export const TIERLEXIKON_EN = {
     tier: "Eagle",
     lateinisch: "Aquila chrysaetos",
     emoji: "🦅",
-    intro: "The golden eagle is one of the most precise birds of prey in the world. What it hunts, it hits. What it builds, lasts for decades. What it observes, does not escape it. It stands for perfection in the service of survival – and for the fact that precision is not coldness, but a form of reliability.",
+    intro: "The golden eagle is one of the most precise birds of prey in the world. What it hunts, it hits. What it builds, lasts for decades. What it observes, does not escape it. It stands for perfection in the service of survival – and for the fact that precision is not coldness, but a form of reliability. The facts below use the golden eagle as an example – but the archetypal principle applies equally to eagles of any species, whether golden eagle, bald eagle, or any of the roughly 60 other eagle species worldwide.",
     fakten: [
       "Golden eagles can spot a mouse in a meadow from 1.5 kilometers up – their visual acuity is five times better than a human's. *The SE1 sees what others overlook – errors, inaccuracies, room for improvement. This gaze is both a gift and a burden.*",
       "Their field of vision spans nearly 340 degrees – almost all around. They are blind only in a small area directly behind the head. *The SE1's inner judge works the same way: almost everything gets evaluated, almost nothing escapes it – only the view of its own exhaustion is sometimes missing.*",
