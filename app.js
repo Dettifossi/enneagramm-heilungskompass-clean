@@ -23997,6 +23997,7 @@ const registerEntries = [
   { term: "Moses",                         route: "beruehmte-moses",                       description: "Portrait: SX6w5 \u00b7 Sexueller Typ 6 \u00b7 Prophet, Gesetzgeber, Anf\u00fchrer des Exodus" },
   { term: "Scarlett Johansson",             route: "beruehmte-scarlett-johansson",          description: "Portrait: SX6w7 \u00b7 Sexueller Typ 6 \u00b7 Schauspielerin, Produzentin" },
   { term: "Francis Bacon",                  route: "beruehmte-francis-bacon",               description: "Portrait: SE7w8 \u00b7 Selbsterhaltender Typ 7 \u00b7 Philosoph, Staatsmann, Lordkanzler" },
+  { term: "Junko Tabei", route: "beruehmte-junko-tabei", description: "Portrait: SE7w6 \u00b7 Selbsterhaltende Typ 7 \u00b7 erste Frau auf dem Mount Everest" },
   { term: "Jeanne Calment", route: "beruehmte-jeanne-calment", description: "Portrait: SE7w6 \u00b7 Selbsterhaltende Typ 7 \u00b7 \u00e4lteste verifizierte Frau der Geschichte, 122 Jahre" },
   { term: "Larry King",                     route: "beruehmte-larry-king",                  description: "Portrait: SE7w6 \u00b7 Selbsterhaltender Typ 7 \u00b7 Talkshow-Moderator" },
   { term: "Jeanne-Marie Bouvier de la Motte Guyon", route: "beruehmte-jeanne-marie-guyon",   description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Mystikerin, Quietismus" },
@@ -24334,6 +24335,7 @@ const registerEntriesEN = [
   { term: "Vladimir Putin", route: "beruehmte-wladimir-putin", description: "Portrait: SX6w5 \u00b7 Sexual Type 6 \u00b7 Politician, President of the Russian Federation" },
   { term: "Scarlett Johansson", route: "beruehmte-scarlett-johansson", description: "Portrait: SX6w7 \u00b7 Sexual Type 6 \u00b7 Actress, producer" },
   { term: "Francis Bacon", route: "beruehmte-francis-bacon", description: "Portrait: SE7w8 \u00b7 Self-Preservation Type 7 \u00b7 Philosopher, statesman, Lord Chancellor" },
+  { term: "Junko Tabei", route: "beruehmte-junko-tabei", description: "Portrait: SE7w6 \u00b7 Self-Preservation Type 7 \u00b7 first woman to summit Mount Everest" },
   { term: "Jeanne Calment", route: "beruehmte-jeanne-calment", description: "Portrait: SE7w6 \u00b7 Self-Preservation Type 7 \u00b7 oldest verified woman in history, 122 years" },
   { term: "Larry King", route: "beruehmte-larry-king", description: "Portrait: SE7w6 \u00b7 Self-Preservation Type 7 \u00b7 Talk show host" },
   { term: "Jeanne-Marie Bouvier de la Motte Guyon", route: "beruehmte-jeanne-marie-guyon", description: "Portrait: SO7w6 \u00b7 Social Type 7 \u00b7 Mystic, Quietism" },
@@ -32084,6 +32086,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wallace Shawn \u2013 Selbsterhaltender Typ 7",
     teaser:"SE7w6 \u00b7 geb. 1943 in New York. Schauspieler, B\u00fchnenautor, Essayist. Vizzini in \u201eDie Prinzessin Braut\u201c, Rex in \u201eToy Story\u201c, Andr\u00e9 in \u201eMein Abendessen mit Andr\u00e9\u201c. Der Gorilla, der beim Mittagessen \u00fcber Kapitalismus und Tod nachdenkt \u2013 und dabei jeden zum Lachen bringt.",
     tags:["Schauspiel","Literatur"], gender:"m"},
+  { route:"beruehmte-junko-tabei", name:"Junko Tabei", added:"2026-08-17", subtyp:"SE7w6",
+    heading:"Junko Tabei – Selbsterhaltende Typ 7",
+    teaser:"SE7w6 · 1939–2016. Erste Frau auf dem Mount Everest (1975), erste Frau mit den Seven Summits (1992), Gründerin von Japans erstem Frauen-Bergsteigerverein. Pragmatische Ausdauer statt Nervenkitzel, Gemeinschaft als Fundament. Tierentsprechung: Gorilla.",
+    tags:["Sport"], gender:"f"},
   { route:"beruehmte-jeanne-calment", name:"Jeanne Calment", added:"2026-08-17", subtyp:"SE7w6",
     heading:"Jeanne Calment – Selbsterhaltende Typ 7",
     teaser:"SE7w6 · 1875–1997. Älteste verifizierte Frau der Menschheitsgeschichte, 122 Jahre. Ihr Leben lang in Arles, Schokolade, Portwein, ein legendärer Viager-Deal mit 90. Genussfähigkeit ohne Exzess, Beständigkeit ohne Enge. Tierentsprechung: Gorilla.",
@@ -53651,6 +53657,69 @@ function charlesDarwinPortraitPage() {
         {route:"beruehmte-vera-birkenbihl", label:"Portr\xe4t: Vera Birkenbihl (SE5w6)"},
         {route:"beruehmte-warren-buffett", label:"Portr\xe4t: Warren Buffett (SE5w6)"},
       ])}
+    </div>
+  `);
+}
+
+function junkoTabeiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-junko-tabei-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Junko Tabei</p>
+        <p class="krim-portrait-typ">SE7w6 &middot; Selbsterhaltende Typ 7 mit Sechserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Bergsteigerin, 1939&ndash;2016 &ndash; erste Frau auf dem Mount Everest &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier der selbsterhaltenden Sieben &ndash; kr\xe4ftig, bodenst\xe4ndig, in sich ruhend, mit einer Ausdauer, die nicht auf spektakul\xe4re Gesten angewiesen ist. Junko Tabei, 1939 in Japan geboren, wurde 1975 als erste Frau bekannt, die den Gipfel des Mount Everest erreichte &ndash; und 1992 als erste Frau, die die &bdquo;Seven Summits&ldquo;, die h\xf6chsten Berge aller sieben Kontinente, bestieg.</p>
+          <p class="vb-intro">Ihr Everest-Aufstieg begann mit einer Beinahe-Katastrophe: Eine Lawine verschüttete ihr Lager auf 6.300 Metern, Tabei wurde bewusstlos ausgegraben &ndash; und bestieg wenige Tage sp\xe4ter trotzdem weiter bis zum Gipfel. Sie starb 2016 an Krebs, nachdem sie bis kurz vor ihrem Tod weiter Berge bestiegen hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Fülle durch beharrliches Tun</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> ist nach Naranjo die bodenst\xe4ndigste der drei Siebener-Subtypen &ndash; keine rastlose Reiselust wie die sexuelle Sieben, keine B\xfchnenpr\xe4senz wie die soziale Sieben, sondern eine pragmatische, auf konkrete Ziele gerichtete Ausdauer. Tabei kam aus einfachen Verh\xe4ltnissen, war als Kind kr\xe4nklich und schw\xe4chlich &ndash; und fand im Bergsteigen eine Praxis, die ihr genau jene k\xf6rperliche und seelische Stabilit\xe4t gab, die ihr sonst fehlte.</p>
+          <p class="vb-intro">In Japan der 1960er-Jahre war es f\xfcr Frauen unerh\xf6rt, ernsthaft Bergsteigen zu betreiben &ndash; Tabei wurde von M\xe4nnern in Kletterclubs abgewiesen und h\xf6rte, sie solle sich lieber um Kinder k\xfcmmern statt um Berge. 1969 gr\xfcndete sie stattdessen den &bdquo;Ladies Climbing Club&ldquo;, Japans ersten Frauen-Bergsteigerverein, unter dem Motto: &bdquo;Lasst uns gemeinsam ins Ausland gehen, aus eigener Kraft.&ldquo;</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\xfcgel: Gemeinschaft statt Einzelg\xe4ngertum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SE7 mit schw\xe4cher ausgepr\xe4gtem Sechserfl\xfcgel h\xe4tte ihre Bergtouren m\xf6glicherweise als Einzelg\xe4ngerin bestritten. Bei Tabei trat stattdessen eine ausgepr\xe4gte Bindung an Gemeinschaft und Team hervor: Die Everest-Expedition 1975 war eine rein japanische Frauenexpedition, die sie mitorganisierte &ndash; finanziert unter anderem durch Sponsoring von Zeitungen und einem Bierhersteller, weil traditionelle Geldgeber eine Frauenexpedition nicht ernst nahmen.</p>
+          <p class="vb-intro">Auch als Mutter zweier Kinder blieb sie dem Bergsteigen treu, organisierte Kinderbetreuung mit anderen M\xfcttern aus dem Kletterclub und normalisierte damit fr\xfch, dass Mutterschaft und Hochleistungssport sich nicht ausschlie\xdfen m\xfcssen. Der Sechserfl\xfcgel zeigt sich hier als F\xe4higkeit, sich verl\xe4sslich in ein Netzwerk einzubinden, statt allein zu operieren &ndash; Loyalit\xe4t zur Gruppe als Fundament der eigenen Leistung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Nach dem Everest: Der stille zweite Teil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anders als man es von einer &bdquo;Rekordjägerin&ldquo; erwarten w\xfcrde, geriet Tabei nach ihrem Weltruhm nicht in st\xe4ndige Selbstinszenierung. Sie bestieg weiterhin systematisch die h\xf6chsten Berge aller Kontinente, ohne dabei den medialen Trubel zu suchen, und widmete sich zunehmend dem Umweltschutz &ndash; insbesondere der Vermüllung der Bergpfade am Everest, die durch den wachsenden Tourismus entstand.</p>
+          <p class="vb-intro">Sie studierte im hohen Alter noch Umweltwissenschaften und setzte sich f\xfcr den Schutz der Bergwelt ein, die ihr so viel gegeben hatte. Das ist die SE7w6 in ihrer reifsten Form: Die anf\xe4ngliche pers\xf6nliche Ausdauer wandelt sich in Verantwortung f\xfcr die Sache, die gr\xf6\xdfer ist als die eigene Leistung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Bergsteigen bis zum Schluss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2012 wurde bei Tabei Bauchfellkrebs diagnostiziert. Statt sich zur\xfcckzuziehen, organisierte sie weiterhin Bergtouren f\xfcr junge Menschen, die vom Erdbeben und Tsunami 2011 betroffen waren, und bestieg selbst weiter Berge, so lange es ihr Zustand erlaubte &ndash; zuletzt den Fuji, drei Monate vor ihrem Tod 2016.</p>
+          <p class="vb-intro">Diese Beharrlichkeit bis zum letzten Moment ist typisch f\xfcr die SE7: Freude und Sinn liegen nicht in einem einzelnen gro\xdfen Ereignis, sondern in der fortgesetzten, verl\xe4sslichen Aus\xfcbung dessen, was N\xe4hrstoff f\xfcr die eigene Vitalit\xe4t ist &ndash; bis zuletzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Gorilla, der Frauen den Weg auf den Gipfel bahnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Junko Tabeis Leben zeigt die selbsterhaltende Sieben mit Sechserfl\xfcgel in ihrer eindrucksvollsten Form: pragmatische Ausdauer statt spektakul\xe4rer Geste, Gemeinschaft statt Einzelg\xe4ngertum, beharrliches Weitermachen statt einmaligem Triumph. Sie wurde nicht ber\xfchmt, weil sie den Nervenkitzel suchte, sondern weil sie eine Sache, die ihr Halt gab, konsequent bis zum Ende lebte.</p>
+          <p class="vb-intro">Der Gorilla bleibt in seinem Revier und verteidigt es beharrlich, ohne laut zu sein &ndash; genau das tat Tabei f\xfcr Frauen im Bergsport: Sie er\xf6ffnete keinen einzelnen spektakul\xe4ren Weg, sondern baute ein dauerhaftes Fundament, auf dem Generationen von Bergsteigerinnen nach ihr aufbauen konnten.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-jeanne-calment", label:"Portr\xe4t: Jeanne Calment (SE7w6)"},
+          {route:"beruehmte-larry-king", label:"Portr\xe4t: Larry King (SE7w6)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -89452,6 +89521,7 @@ function render() {
       "beruehmte-mariah-carey": mariahCareyPortraitPage,
       "beruehmte-wallace-shawn": wallaceShawnPortraitPage,
       "beruehmte-larry-king": larryKingPortraitPage,
+      "beruehmte-junko-tabei": junkoTabeiPortraitPage,
       "beruehmte-jeanne-calment": jeanneCalmentPortraitPage,
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
       "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,
