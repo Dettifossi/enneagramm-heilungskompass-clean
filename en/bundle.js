@@ -212,6 +212,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Magnus Carlsen – Self-Preservation Type 1",
     teaser:"SP1w9 · born 1990 in Tønsberg, Norway. Chess grandmaster, World Champion 2013–2023, highest Elo rating in chess history. Flawlessness as craft, letting go as strength – voluntarily relinquished his title defense. Animal correspondence: Eagle.",
     tags:["Sport"] },
+  { route:"beruehmte-peter-sharpe", name:"Dr. Peter Sharpe", added:"2026-08-17", subtyp:"SE1w9",
+    heading:"Dr. Peter Sharpe – Self-Preservation Type 1",
+    teaser:"SP1w9 · Wildlife biologist. Has directed the reintroduction and monitoring of bald eagles on California's Channel Islands since 1997. Nearly thirty years of meticulous fieldwork that brought a species back from local extinction. Animal correspondence: Eagle.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-anthony-hopkins", name:"Anthony Hopkins", added:"2026-08-14", subtyp:"SE1w9",
     heading:"Anthony Hopkins – Self-Preservation Type 1",
     teaser:"SP1w9 · born 1937 in Port Talbot, Wales. Actor, two Oscars ('The Silence of the Lambs', 'The Father'). Precision as self-obligation, stillness as home – scripts read a hundred times over until fully memorized. Animal correspondence: Eagle.",
@@ -17376,6 +17380,7 @@ function biruteGaldikasPortraitPage() {
           {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1) – animal-researcher match"},
           {route:"beruehmte-laurie-marker", label:"Portrait: Dr. Laurie Marker (SO3w4) – animal-researcher match"},
           {route:"beruehmte-grahame-webb", label:"Portrait: Prof. Grahame Webb (SX8w7) – animal-researcher match"},
+          {route:"beruehmte-peter-sharpe", label:"Portrait: Dr. Peter Sharpe (SE1w9) – animal-researcher match"},
         ])}
       </div>
     </div>
@@ -25038,6 +25043,76 @@ function pierceBrosnanPortraitPage() {
   `);
 }
 
+function peterSharpePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-peter-sharpe-portrait.jpg" alt="Eagle" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Peter Sharpe</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Wildlife biologist &ndash; director of bald eagle reintroduction on California's Channel Islands &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; in this compass's animal lexicon specifically described as the Golden Eagle: precise, territorial, marked by quiet, tireless accuracy. Dr. Peter Sharpe, however, does not research and rescue the Golden Eagle, but its North American relative, the <strong>Bald Eagle</strong> (<em>Haliaeetus leucocephalus</em>) &ndash; a different species, but the same archetype: the eagle as a symbol of precision, territorial loyalty, and incorruptible diligence.</p>
+          <p class="vb-intro">This distinction should be named openly rather than blurred: the match here does not sit at the exact-species level, as with Dian Fossey and the gorilla or Jennifer Mather and the octopus, but at the level of the genus &ndash; the eagle as such. And that is exactly where the real confirmation lies: since 1997, for nearly thirty years, Sharpe has directed the reintroduction and monitoring of bald eagles on California's Channel Islands for the Institute for Wildlife Studies, above all on Santa Catalina Island. An eagle researcher whose own animal correspondence is the eagle &ndash; even if, in detail, it is a different eagle species, the archetypal principle remains the same.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Diligence as a Life's Task</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> directs its perfectionism not outward, but toward its own preparation, its own accuracy, an incorruptible diligence in its own craft. Naranjo called this subtype <em>Worry</em>: the constant, mostly unspoken question of whether one has really done everything right. Sharpe, who holds a PhD in zoology from Colorado State University (1998), has worked since 1997 as a Wildlife Ecologist at the Institute for Wildlife Studies in Avalon, California &ndash; and has, almost single-handedly, directed the bald eagle reintroduction program on Santa Catalina Island (since 1997) and Santa Cruz Island (since 2002) ever since.</p>
+          <p class="vb-intro">The starting point was an ecological catastrophe: the pesticide DDT had thinned bald eagle eggshells along the California coast so severely that they broke under the weight of incubating adults &ndash; the species was effectively wiped out on the Channel Islands. For decades, Sharpe's work has consisted of meticulous detail work: monitoring nests, swapping eggs by hand or arranging artificial incubation when necessary, banding and individually documenting every single chick &ndash; generation after generation, breeding pair after breeding pair.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Patience Instead of Urgency</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> gives the SE1's diligence a calm, unhurried baseline that favors endurance over urgency. Where an SE1 with a stronger Two-wing might have engaged in more public advocacy, Sharpe has worked largely in the background for almost thirty years &ndash; no media-driven crusade, but patient, systematic fieldwork, year after year. He accepts the limits of what is feasible realistically instead of forcing them: when fieldwork on the remote San Miguel Island became impossible after 2017, he simply documented it as a data gap rather than risking an unrealistic expedition.</p>
+          <p class="vb-intro">This exact combination of precision and calm shows physically as well: even in advanced age, Sharpe personally climbs into nests on cliff edges to band chicks &ndash; not a spectacular gesture for the camera, but the quiet self-evidence that this work simply has to be done, by someone who can do it precisely enough.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. From Near-Extinction to a Stable Population</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2006, a bald eagle chick hatched on the Channel Islands for the first time in decades without human hand-rearing &ndash; a quiet but decisive turning point. Today, Sharpe's program counts several dozen established breeding pairs across the northern and southern Channel Islands, each one individually known, with its own lineage that Sharpe has meticulously documented over decades. He appears regularly in documentaries and live nest-cam broadcasts &ndash; the calm, competent face of practical eagle recovery in the United States, without ever seeking to be the center of attention himself.</p>
+          <p class="vb-intro">Alongside the bald eagles, he has also monitored peregrine falcons, ospreys, golden eagles, and the endemic island fox on the Channel Islands &ndash; always with the same method: patient, long-term field observation instead of quick symbolic gestures.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Eagle as a Bridge to Enneagram Homeopathy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">That people like Sharpe devote decades to exactly the animal that corresponds to their own subtype is no coincidence, but a confirmation: the Enneagram's 27 animal correspondences are not arbitrary labels, but archetypal principles that can be traced through behavior, profession, and calling &ndash; as already seen with Dian Fossey, Jennifer Mather, Craig Foster, Dr. Laurie Marker, Prof. Grahame Webb, and Dr. Biruté Galdikas. What's notable is that these same archetypal energies find a further correspondence in Enneagram homeopathy: each of the 27 subtypes is assigned a homeopathic remedy that reflects the same underlying vibration on a material level. For the SE1, this is traditionally Platinum metallicum &ndash; a remedy for high principles, perfectionism, and the quiet, relentless diligence that also characterizes Sharpe's life's work.</p>
+          <p class="vb-intro">Readers who want to explore this connection further can find the complete assignment of homeopathic remedies to all 27 subtypes in the <a href="#enneagramm-homoeopathie">Enneagram &amp; Homeopathy</a> section.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Eagle That Kept Watch for Decades</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Peter Sharpe's life's work shows the self-preservation One with a Nine-wing at its most steadfast: no spectacular rescue operation, but nearly thirty years of patient, meticulous detail work that literally brought a species back from the brink of local extinction &ndash; breeding pair by breeding pair, egg by egg, chick by chick.</p>
+          <p class="vb-intro">The eagle watches long in silence before it acts &ndash; and when it acts, it needs no second chance. That was exactly Sharpe's method: no loud crusade, but the quiet, tireless accuracy of someone who knew that real restoration takes time, care, and a long breath.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+          {route:"enneagramm-homoeopathie", label:"Enneagram & Homeopathy – Remedy Assignments for All 27 Subtypes"},
+          {route:"beruehmte-dian-fossey", label:"Portrait: Dian Fossey (SE7w8) – animal-researcher match"},
+          {route:"beruehmte-jennifer-mather", label:"Portrait: Jennifer Mather (SO5w6) – animal-researcher match"},
+          {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1) – animal-researcher match"},
+          {route:"beruehmte-laurie-marker", label:"Portrait: Dr. Laurie Marker (SO3w4) – animal-researcher match"},
+          {route:"beruehmte-grahame-webb", label:"Portrait: Prof. Grahame Webb (SX8w7) – animal-researcher match"},
+          {route:"beruehmte-birute-galdikas", label:"Portrait: Dr. Biruté Galdikas (SE8w9) – animal-researcher match"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function anthonyHopkinsPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -26402,6 +26477,7 @@ function jenniferMatherPortraitPage() {
           {route:"beruehmte-laurie-marker", label:"Portrait: Dr. Laurie Marker (SO3w4) – animal-researcher match"},
           {route:"beruehmte-grahame-webb", label:"Portrait: Prof. Grahame Webb (SX8w7) – animal-researcher match"},
           {route:"beruehmte-birute-galdikas", label:"Portrait: Dr. Biruté Galdikas (SE8w9) – animal-researcher match"},
+          {route:"beruehmte-peter-sharpe", label:"Portrait: Dr. Peter Sharpe (SE1w9) – animal-researcher match"},
         ])}
       </div>
     </div>
@@ -28473,6 +28549,7 @@ function grahameWebbPortraitPage() {
           {route:"beruehmte-jennifer-mather", label:"Portrait: Jennifer Mather (SO5w6) – animal-researcher match"},
           {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1) – animal-researcher match"},
           {route:"beruehmte-birute-galdikas", label:"Portrait: Dr. Biruté Galdikas (SE8w9) – animal-researcher match"},
+          {route:"beruehmte-peter-sharpe", label:"Portrait: Dr. Peter Sharpe (SE1w9) – animal-researcher match"},
         ])}
       </div>
     </div>
@@ -29824,6 +29901,7 @@ function laurieMarkerPortraitPage() {
           {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1) – animal-researcher match"},
           {route:"beruehmte-grahame-webb", label:"Portrait: Prof. Grahame Webb (SX8w7) – animal-researcher match"},
           {route:"beruehmte-birute-galdikas", label:"Portrait: Dr. Biruté Galdikas (SE8w9) – animal-researcher match"},
+          {route:"beruehmte-peter-sharpe", label:"Portrait: Dr. Peter Sharpe (SE1w9) – animal-researcher match"},
         ])}
       </div>
     </div>
@@ -29892,6 +29970,7 @@ function craigFosterPortraitPage() {
           {route:"beruehmte-laurie-marker", label:"Portrait: Dr. Laurie Marker (SO3w4) – animal-researcher match"},
           {route:"beruehmte-grahame-webb", label:"Portrait: Prof. Grahame Webb (SX8w7) – animal-researcher match"},
           {route:"beruehmte-birute-galdikas", label:"Portrait: Dr. Biruté Galdikas (SE8w9) – animal-researcher match"},
+          {route:"beruehmte-peter-sharpe", label:"Portrait: Dr. Peter Sharpe (SE1w9) – animal-researcher match"},
         ])}
       </div>
     </div>
@@ -41731,6 +41810,7 @@ function dianFosseyPortraitPage() {
           {route:"beruehmte-laurie-marker", label:"Portrait: Dr. Laurie Marker (SO3w4) – animal-researcher match"},
           {route:"beruehmte-grahame-webb", label:"Portrait: Prof. Grahame Webb (SX8w7) – animal-researcher match"},
           {route:"beruehmte-birute-galdikas", label:"Portrait: Dr. Biruté Galdikas (SE8w9) – animal-researcher match"},
+          {route:"beruehmte-peter-sharpe", label:"Portrait: Dr. Peter Sharpe (SE1w9) – animal-researcher match"},
         ])}
       </div>
     </div>
@@ -55450,6 +55530,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
       "beruehmte-magnus-carlsen": magnusCarlsenPortraitPage,
+      "beruehmte-peter-sharpe": peterSharpePortraitPage,
       "beruehmte-anthony-hopkins": anthonyHopkinsPortraitPage,
       "beruehmte-pierce-brosnan": pierceBrosnanPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,

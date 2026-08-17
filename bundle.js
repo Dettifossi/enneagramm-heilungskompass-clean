@@ -24182,6 +24182,7 @@ const registerEntries = [
   { term: "Pharrell Williams",             route: "beruehmte-pharrell-williams",           description: "Portrait: SO3w2 \u00b7 Sozialer Typ 3 \u00b7 Musikproduzent, Musiker, Modedesigner" },
   { term: "Prof. Dr. Sucharit Bhakdi",     route: "beruehmte-sucharit-bhakdi",             description: "Portrait: SO2w1 \u00b7 Sozialer Typ 2 \u00b7 Mikrobiologe, Pandemiekritiker" },
   { term: "Queen Elizabeth II.",           route: "beruehmte-queen-elizabeth-ii",          description: "Portrait: SE1w9 \u00b7 Selbsterhaltender Typ 1 \u00b7 Monarchin, Pflicht & Tradition" },
+  { term: "Peter Sharpe",                  route: "beruehmte-peter-sharpe",                description: "Portrait: SE1w9 \u00b7 Selbsterhaltender Typ 1 \u00b7 Wildbiologe, Wei\u00dfkopfseeadler-Wiederansiedlung" },
   { term: "Konrad Adenauer",               route: "beruehmte-konrad-adenauer",             description: "Portrait: SE1w9 \u00b7 Selbsterhaltender Typ 1 \u00b7 Erster Bundeskanzler, Wiederaufbau, Westbindung" },
   { term: "Grigori Rasputin",              route: "beruehmte-rasputin",                    description: "Portrait: SX1w9 \u00b7 Sexueller Typ 1 \u00b7 Wanderm\u00f6nch, Heiler am Zarenhof" },
   { term: "Jesus Christus",                route: "beruehmte-jesus-christus",              description: "Portrait: SO2w1 \u00b7 Sozialer Typ 2 \u00b7 Wanderprediger, Religionsstifter" },
@@ -24519,6 +24520,7 @@ const registerEntriesEN = [
   { term: "Pharrell Williams", route: "beruehmte-pharrell-williams", description: "Portrait: SO3w2 \u00b7 Social Type 3 \u00b7 Music producer, musician, fashion designer" },
   { term: "Prof. Dr. Sucharit Bhakdi", route: "beruehmte-sucharit-bhakdi", description: "Portrait: SO2w1 \u00b7 Social Type 2 \u00b7 Microbiologist, pandemic critic" },
   { term: "Queen Elizabeth II.", route: "beruehmte-queen-elizabeth-ii", description: "Portrait: SE1w9 \u00b7 Self-Preservation Type 1 \u00b7 Monarch, duty & tradition" },
+  { term: "Peter Sharpe", route: "beruehmte-peter-sharpe", description: "Portrait: SE1w9 \u00b7 Self-Preservation Type 1 \u00b7 wildlife biologist, bald eagle reintroduction" },
   { term: "Konrad Adenauer", route: "beruehmte-konrad-adenauer", description: "Portrait: SE1w9 \u00b7 Self-Preservation Type 1 \u00b7 First Chancellor, reconstruction, Western integration" },
   { term: "Grigori Rasputin", route: "beruehmte-rasputin", description: "Portrait: SX1w9 \u00b7 Sexual Type 1 \u00b7 Wandering monk, healer at the Tsar's court" },
   { term: "Jesus Christ", route: "beruehmte-jesus-christus", description: "Portrait: SO2w1 \u00b7 Social Type 2 \u00b7 Itinerant preacher, founder of a world religion" },
@@ -31372,6 +31374,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Magnus Carlsen – Selbsterhaltender Typ 1",
     teaser:"SE1w9 · geb. 1990 in Tønsberg, Norwegen. Schachgroßmeister, Weltmeister 2013–2023, höchste Elo-Zahl der Schachgeschichte. Fehlerlosigkeit als Handwerk, Loslassen als Stärke – freiwilliger Verzicht auf die Titelverteidigung. Tierentsprechung: Adler.",
     tags:["Sport"] , gender:"m"},
+  { route:"beruehmte-peter-sharpe", name:"Dr. Peter Sharpe", added:"2026-08-17", subtyp:"SE1w9",
+    heading:"Dr. Peter Sharpe – Selbsterhaltender Typ 1",
+    teaser:"SE1w9 · Wildbiologe. Leitet seit 1997 die Wiederansiedlung und Überwachung der Weißkopfseeadler auf den kalifornischen Kanalinseln. Fast dreißig Jahre akribischer Feldarbeit, die eine Art vom lokalen Aussterben zurückholte. Tierentsprechung: Adler.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-anthony-hopkins", name:"Anthony Hopkins", added:"2026-08-14", subtyp:"SE1w9",
     heading:"Anthony Hopkins – Selbsterhaltender Typ 1",
     teaser:"SE1w9 · geb. 1937 in Port Talbot, Wales. Schauspieler, zwei Oscars („Das Schweigen der Lämmer“, „The Father“). Genauigkeit als Selbstverpflichtung, Stille als Zuhause – Drehbücher werden hundertfach gelesen, bis sie vollständig sitzen. Tierentsprechung: Adler.",
@@ -43304,6 +43310,76 @@ function pierceBrosnanPortraitPage() {
   `);
 }
 
+function peterSharpePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-peter-sharpe-portrait.jpg" alt="Adler" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Peter Sharpe</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Wildbiologe, geb. um 1965 &ndash; Leiter der Weißkopfseeadler-Wiederansiedlung auf den kalifornischen Kanalinseln &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; im Tierlexikon dieses Kompasses konkret als Steinadler beschrieben: pr\xe4zise, revierbewusst, von stiller, unerm\xfcdlicher Genauigkeit. Dr. Peter Sharpe erforscht und rettet allerdings nicht den Steinadler, sondern dessen nordamerikanischen Verwandten, den <strong>Wei\xdfkopfseeadler</strong> (<em>Haliaeetus leucocephalus</em>) &ndash; eine andere Art, aber derselbe Archetyp: der Adler als Sinnbild f\xfcr Pr\xe4zision, Reviertreue und unbestechliche Sorgfalt.</p>
+          <p class="vb-intro">Diese Unterscheidung soll hier offen benannt werden, statt sie zu verwischen: Die \xdcbereinstimmung liegt nicht auf der Ebene der exakten Art wie bei Dian Fossey und dem Gorilla oder Jennifer Mather und dem Oktopus, sondern auf der Ebene der Gattung &ndash; des Adlers als solchem. Und genau darin liegt die eigentliche Best\xe4tigung: Seit 1997, seit fast dreißig Jahren, leitet Sharpe für das Institute for Wildlife Studies die Wiederansiedlung und \xdcberwachung der Wei\xdfkopfseeadler auf den kalifornischen Kanalinseln, allen voran Santa Catalina Island. Ein Adlerforscher mit dem Adler als eigener Tierentsprechung &ndash; auch wenn es im Detail eine andere Adlerart ist, bleibt das archetypische Prinzip dasselbe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Sorgfalt als Lebensaufgabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionismus nicht nach außen, sondern auf die eigene Vorbereitung, die eigene Genauigkeit, die unbestechliche Sorgfalt im eigenen Handwerk. Naranjo nannte diesen Subtyp <em>Worry</em> &ndash; Besorgnis: die ständige, meist unauffällige Frage, ob man wirklich alles richtig gemacht hat. Sharpe, promovierter Zoologe (Colorado State University, 1998), arbeitet seit 1997 als Wildlife Ecologist beim Institute for Wildlife Studies in Avalon, Kalifornien &ndash; und leitet seither, fast im Alleingang, das Wiederansiedlungsprogramm für Wei\xdfkopfseeadler auf Santa Catalina Island (seit 1997) und Santa Cruz Island (seit 2002).</p>
+          <p class="vb-intro">Die Ausgangslage war eine ökologische Katastrophe: Das Pestizid DDT hatte die Eierschalen der Wei\xdfkopfseeadler entlang der kalifornischen K\xfcste so d\xfcnn werden lassen, dass sie unter dem Gewicht der brütenden Altvögel zerbrachen &ndash; die Art war auf den Kanalinseln praktisch ausgel\xf6scht. Sharpes Arbeit bestand seit Jahrzehnten aus akribischer Detailarbeit: Horste beobachten, Eier notfalls per Hand austauschen oder k\xfcnstlich ausbr\xfcten lassen, jeden einzelnen Jungvogel beringen und individuell dokumentieren &ndash; Generation um Generation, Brutpaar um Brutpaar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\xfcgel: Geduld statt Dringlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\xfcgel</strong> gibt der SE1-Sorgfalt eine ruhige, unaufgeregte Grundhaltung, die auf Ausdauer statt auf Dringlichkeit setzt. Wo eine SE1 mit st\xe4rkerem Zweierfl\xfcgel vermutlich mehr \xf6ffentliche \xdcberzeugungsarbeit geleistet h\xe4tte, arbeitet Sharpe seit fast drei\xdfig Jahren weitgehend im Hintergrund &ndash; kein mediengetriebener Kreuzzug, sondern eine geduldige, systematische Feldarbeit, Jahr für Jahr. Er nimmt Grenzen der Machbarkeit realistisch hin, statt sie zu erzwingen: Als die Feldarbeit auf der abgelegenen San-Miguel-Insel ab 2017 nicht mehr durchführbar war, dokumentierte er das schlicht als Datenl\xfccke, statt eine unrealistische Expedition zu riskieren.</p>
+          <p class="vb-intro">Genau diese Kombination aus Genauigkeit und Gelassenheit zeigt sich auch körperlich: Noch im fortgeschrittenen Alter klettert Sharpe pers\xf6nlich in die Horste an Klippenkanten, um Jungv\xf6gel zu beringen &ndash; keine spektakul\xe4re Geste f\xfcr die Kamera, sondern die stille Selbstverst\xe4ndlichkeit, dass diese Arbeit eben getan werden muss, von jemandem, der es genau genug kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Vom Beinahe-Aussterben zur stabilen Population</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2006 schl\xfcpfte auf den Kanalinseln zum ersten Mal seit Jahrzehnten wieder ein Wei\xdfkopfseeadler-K\xfcken ohne menschliche Handaufzucht &ndash; ein stiller, aber entscheidender Wendepunkt. Heute z\xe4hlt Sharpes Programm mehrere Dutzend etablierte Brutpaare auf den n\xf6rdlichen und s\xfcdlichen Kanalinseln, jedes einzelne individuell bekannt, mit eigener Abstammungslinie, die Sharpe über Jahrzehnte hinweg akribisch dokumentiert hat. Er ist regelm\xe4\xdfig in Dokumentationen und Live-Kamera-\xdcbertragungen zu sehen &ndash; das ruhige, kompetente Gesicht der praktischen Adlerrettung in den USA, ohne je selbst im Mittelpunkt stehen zu wollen.</p>
+          <p class="vb-intro">Neben den Wei\xdfkopfseeadlern betreute er auch Wanderfalken, Fischadler, Goldadler und den endemischen Inselfuchs auf den Kanalinseln &ndash; stets mit derselben Methode: geduldige, langfristige Feldbeobachtung statt schneller Symbolpolitik.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Adler als Br\xfccke zur Enneagramm-Hom\xf6opathie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dass sich Menschen wie Sharpe über Jahrzehnte hinweg genau dem Tier widmen, das ihrem eigenen Subtyp entspricht, ist kein Zufall, sondern eine Bestätigung: Die 27 Tierentsprechungen des Enneagramms sind keine willkürlichen Etiketten, sondern archetypische Prinzipien, die sich in Verhalten, Beruf und Berufung wiederfinden lassen &ndash; wie schon bei Dian Fossey, Jennifer Mather, Craig Foster, Dr. Laurie Marker, Prof. Grahame Webb und Dr. Biruté Galdikas zu sehen war. Interessant ist, dass genau diese archetypischen Energien in der Enneagramm-Homöopathie eine weitere Entsprechung finden: Jedem der 27 Subtypen ist ein homöopathisches Mittel zugeordnet, das dieselbe Grundschwingung auf stofflicher Ebene widerspiegelt. Für die SE1 ist dies traditionell Platinum metallicum &ndash; ein Mittel für hohe Prinzipien, Perfektionismus und die stille, unerbittliche Sorgfalt, die auch Sharpes Lebenswerk kennzeichnet.</p>
+          <p class="vb-intro">Wer diese Verbindung vertiefen möchte, findet in der Rubrik <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a> die vollständige Zuordnung der homöopathischen Mittel zu allen 27 Subtypen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Adler, der über Jahrzehnte wachte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Peter Sharpes Lebenswerk zeigt die selbsterhaltende Eins mit Neunerfl\xfcgel in ihrer beständigsten Form: keine spektakul\xe4re Rettungsaktion, sondern fast drei\xdfig Jahre geduldiger, akribischer Detailarbeit, die eine Art buchstäblich vom Rand des lokalen Aussterbens zurückholte &ndash; Brutpaar für Brutpaar, Ei für Ei, Jungvogel für Jungvogel.</p>
+          <p class="vb-intro">Der Adler beobachtet lange aus der Stille, bevor er handelt &ndash; und wenn er handelt, braucht er dafür keine zweite Chance. Genau das war Sharpes Methode: kein lauter Kreuzzug, sondern die stille, unermüdliche Genauigkeit eines Menschen, der wusste, dass echte Wiederherstellung Zeit, Sorgfalt und einen langen Atem braucht.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+          {route:"enneagramm-homoeopathie", label:"Enneagramm & Homöopathie – Mittelzuordnung für alle 27 Subtypen"},
+          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-jennifer-mather", label:"Porträt: Jennifer Mather (SO5w6) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-laurie-marker", label:"Porträt: Dr. Laurie Marker (SO3w4) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-grahame-webb", label:"Porträt: Prof. Grahame Webb (SX8w7) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-birute-galdikas", label:"Porträt: Dr. Biruté Galdikas (SE8w9) – Tierforscher-Übereinstimmung"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function anthonyHopkinsPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -45018,6 +45094,7 @@ function jenniferMatherPortraitPage() {
           {route:"beruehmte-laurie-marker", label:"Porträt: Dr. Laurie Marker (SO3w4) – Tierforscher-Übereinstimmung"},
           {route:"beruehmte-grahame-webb", label:"Porträt: Prof. Grahame Webb (SX8w7) – Tierforscher-Übereinstimmung"},
           {route:"beruehmte-birute-galdikas", label:"Porträt: Dr. Biruté Galdikas (SE8w9) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-peter-sharpe", label:"Porträt: Dr. Peter Sharpe (SE1w9) – Tierforscher-Übereinstimmung"},
         ])}
       </div>
     </div>
@@ -47271,6 +47348,7 @@ function biruteGaldikasPortraitPage() {
           {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1) – Tierforscher-Übereinstimmung"},
           {route:"beruehmte-laurie-marker", label:"Porträt: Dr. Laurie Marker (SO3w4) – Tierforscher-Übereinstimmung"},
           {route:"beruehmte-grahame-webb", label:"Porträt: Prof. Grahame Webb (SX8w7) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-peter-sharpe", label:"Porträt: Dr. Peter Sharpe (SE1w9) – Tierforscher-Übereinstimmung"},
         ])}
       </div>
     </div>
@@ -48249,6 +48327,7 @@ function grahameWebbPortraitPage() {
           {route:"beruehmte-jennifer-mather", label:"Porträt: Jennifer Mather (SO5w6) – Tierforscher-Übereinstimmung"},
           {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1) – Tierforscher-Übereinstimmung"},
           {route:"beruehmte-birute-galdikas", label:"Porträt: Dr. Biruté Galdikas (SE8w9) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-peter-sharpe", label:"Porträt: Dr. Peter Sharpe (SE1w9) – Tierforscher-Übereinstimmung"},
         ])}
       </div>
     </div>
@@ -51715,6 +51794,7 @@ function laurieMarkerPortraitPage() {
           {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1) – Tierforscher-Übereinstimmung"},
           {route:"beruehmte-grahame-webb", label:"Porträt: Prof. Grahame Webb (SX8w7) – Tierforscher-Übereinstimmung"},
           {route:"beruehmte-birute-galdikas", label:"Porträt: Dr. Biruté Galdikas (SE8w9) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-peter-sharpe", label:"Porträt: Dr. Peter Sharpe (SE1w9) – Tierforscher-Übereinstimmung"},
         ])}
       </div>
     </div>
@@ -51783,6 +51863,7 @@ function craigFosterPortraitPage() {
           {route:"beruehmte-laurie-marker", label:"Portr\xe4t: Dr. Laurie Marker (SO3w4) – Tierforscher-\xdcbereinstimmung"},
           {route:"beruehmte-grahame-webb", label:"Portr\xe4t: Prof. Grahame Webb (SX8w7) – Tierforscher-\xdcbereinstimmung"},
           {route:"beruehmte-birute-galdikas", label:"Portr\xe4t: Dr. Birut\xe9 Galdikas (SE8w9) – Tierforscher-\xdcbereinstimmung"},
+          {route:"beruehmte-peter-sharpe", label:"Portr\xe4t: Dr. Peter Sharpe (SE1w9) – Tierforscher-\xdcbereinstimmung"},
         ])}
       </div>
     </div>
@@ -74712,6 +74793,7 @@ function dianFosseyPortraitPage() {
           {route:"beruehmte-laurie-marker", label:"Portr\xe4t: Dr. Laurie Marker (SO3w4) – Tierforscher-\xdcbereinstimmung"},
           {route:"beruehmte-grahame-webb", label:"Portr\xe4t: Prof. Grahame Webb (SX8w7) – Tierforscher-\xdcbereinstimmung"},
           {route:"beruehmte-birute-galdikas", label:"Portr\xe4t: Dr. Birut\xe9 Galdikas (SE8w9) – Tierforscher-\xdcbereinstimmung"},
+          {route:"beruehmte-peter-sharpe", label:"Portr\xe4t: Dr. Peter Sharpe (SE1w9) – Tierforscher-\xdcbereinstimmung"},
         ])}
       </div>
     </div>
@@ -89852,6 +89934,7 @@ function render() {
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
       "beruehmte-magnus-carlsen": magnusCarlsenPortraitPage,
+      "beruehmte-peter-sharpe": peterSharpePortraitPage,
       "beruehmte-anthony-hopkins": anthonyHopkinsPortraitPage,
       "beruehmte-pierce-brosnan": pierceBrosnanPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
