@@ -41143,7 +41143,7 @@ function clydeBarrowPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Chimpanzee</h3>
         <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the sexual Seven – an animal full of restless motion, agility, and an intensity that knows no rest as long as there is a way out, a next adventure, an open escape route. Clyde Barrow, born in Texas in 1909 to poor tenant farmers, spent part of his youth in petty crime before being imprisoned in 1930 for armed robbery. There he suffered repeated sexual violence from fellow inmates – a trauma from which a vow emerged: never be caged again, never be defenseless again.</p>
-        <p class="vb-intro">After his release in 1932 he met Bonnie Parker, and together they began a 21-month flight across the American Midwest – crossing state lines, from one robbery to the next, always moving, always fleeing the next arrest. On May 23, 1934, he was shot dead together with Bonnie in a police ambush in Louisiana. He was 25 years old.</p>
+        <p class="vb-intro">He had already met Bonnie Parker in 1930, shortly before he was imprisoned for armed robbery; she even smuggled a gun into the prison, allowing him a brief escape before he was recaptured. After his regular release in 1932, the two found their way back to each other, and together they began a 21-month flight across the American Midwest – crossing state lines, from one robbery to the next, always moving, always fleeing the next arrest. On May 23, 1934, he was shot dead together with Bonnie in a police ambush in Louisiana. He was 25 years old.</p>
       </div>
 
       <div class="vb-section">
