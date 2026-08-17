@@ -784,6 +784,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Pablo Picasso – Sexual Type 8",
     teaser:"SX8w7 · 1881–1973. Spanish painter and sculptor, co-founder of Cubism, ‘Guernica’. The crocodile who surpassed his own father in painting at age 13 – and never stopped conquering afterward. Animal correspondence: Crocodile.",
     tags:["Kunst","Geschichte"] },
+  { route:"beruehmte-grahame-webb", name:"Prof. Grahame Webb", added:"2026-08-17", subtyp:"SX8w7",
+    heading:"Prof. Grahame Webb – Sexual Type 8",
+    teaser:"SX8w7 · born 1947. Zoologist, world-leading authority on crocodile research, founder of Crocodylus Park. Left academia to build his own research empire – science, farming, tourism, and education at once. Animal correspondence: Crocodile.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-donald-trump", name:"Donald J. Trump", subtyp:"SX8w7",
     heading:"Donald J. Trump – Sexual Type 8",
     teaser:"SX8w7 · born 1946. Entrepreneur, media personality, 45th & 47th President of the USA. The crocodile that dominates the stage – loud, unpredictable, passionate and always on the attack. Animal correspondence: Crocodile.",
@@ -28331,6 +28335,71 @@ function pabloPicassoPortraitPage() {
   `);
 }
 
+function grahameWebbPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-grahame-webb-portrait.jpg" alt="Crocodile" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Grahame Webb</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Zoologist, born 1947 &ndash; leading authority on crocodile research &ndash; Animal correspondence: Crocodile</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Crocodile</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Crocodile</strong> is the animal of the sexual Eight &ndash; an animal that does not hunt to impress, but because it must, with raw, unadorned power and a bite nothing escapes. Grahame Webb is widely regarded as one of the world's leading authorities on crocodile research and management &ndash; since 1970 he has studied the saltwater crocodile in northern Australia, working with his bare hands in the field, often alongside Aboriginal trackers.</p>
+          <p class="vb-intro">Here too, the pattern that runs through several of this compass's animal-researcher portraits holds: the animal correspondences were fixed long before anyone knew of Webb's life's work. That the world's best-known crocodile researcher should himself carry the crocodile's traits &ndash; territoriality, raw directness, relentless grip &ndash; fits seamlessly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Eight: No Territory One Shares</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>sexual Eight (SX8)</strong> seeks complete control over its own territory and tolerates no outside authority over it. Webb, born in 1947, began his crocodile research in 1970 as an employee of the University of Sydney &ndash; but the constraints of institutional life did not sit well with him. In 1978 he founded his own company instead, <em>Wildlife Management International</em>, to research independently of academic structures. No outside institution would dictate how he worked.</p>
+          <p class="vb-intro">He carried this independence into his ideas as well: Webb positioned himself against the prevailing conservation doctrine of his time, which favored pure protection without economic use. His principle: "To save an animal, you must give it a value." Farmers should be allowed to profit from crocodiles &ndash; only then, he argued, would they become allies rather than enemies of the species. A position long considered heresy in conservation circles, which he held to unwaveringly until it prevailed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: An Empire Instead of a Single Territory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SX8 with a more muted Seven-wing would likely have concentrated on a single domain &ndash; crocodile research, and nothing else. In Webb, a pronounced appetite for expansion shows instead: before specializing in crocodiles, he researched kangaroos, sharks, sea turtles, monkeys, tuna, and whales. And even after specializing, it did not stop at one thing: in 1994 he opened <em>Crocodylus Park</em> in Darwin &ndash; simultaneously a research station, a crocodile farm, and a tourist attraction. He also founded Essington School in Darwin and, in 1980, wrote the novel "Numunwari" about a giant rogue crocodile, later adapted into a film.</p>
+          <p class="vb-intro">This is the Seven-wing in action: rather than narrowing to a single territory, Webb built an entire portfolio of parallel ventures &ndash; science, commerce, tourism, education, even literature. The Eight supplies the assertiveness and the uncompromising defense of territory; the Seven supplies the breadth and the appetite for always opening new fronts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Leadership by Authority, Not by Consensus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From 2004 to 2023 &ndash; nearly two decades &ndash; Webb chaired the <em>IUCN-SSC Crocodile Specialist Group</em>, the international expert body for crocodile conservation. Such a long, uninterrupted stretch of leadership over a global specialist body is rare &ndash; it requires exactly the blend of unshakeable assertiveness and broad strategic vision that characterizes the SX8w7. In 2001 he received the Clunies Ross National Science and Technology Award, and in 2003 the Australian Centenary Medal.</p>
+          <p class="vb-intro">His professorial title &ndash; he is consistently referred to as "Professor Grahame Webb" &ndash; was not earned through a regular tenured appointment, but as an Adjunct Professor at Charles Darwin University: an unofficial but academically legitimate recognition of his life's work. It is characteristic of the SX8w7 that Webb earned this recognition not through a conventional academic career, but through the sheer force of the work he built entirely on his own.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX8w7 shows in how Webb's uncompromising assertiveness served a cause larger than himself: crocodile populations that faced extinction in Australia in the 1970s recovered under his "sustainable use" model &ndash; a pragmatic, economically grounded approach that succeeded where pure prohibition had failed.</p>
+          <p class="vb-intro">The shadow of the SX8 lies in the risk of defending territory for its own sake, regardless of whether it still serves the cause. Here the Seven-wing acts more as amplifier than corrective &ndash; it keeps Webb moving from one project to the next, but the underlying motivation stays the same: placing one's own judgment above any outside authority.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Crocodile That Built Its Own Territory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Grahame Webb's life's work shows the sexual Eight with a Seven-wing at its most effective: unshakeable assertiveness that does not confine itself to a narrow territory, but produces an entire empire of research, commerce, education, and public persuasion &ndash; while remaining willing to stand against the prevailing opinion of its own field when convinced it is right.</p>
+          <p class="vb-intro">The crocodile does not wait for permission. It claims its territory and defends it with full force &ndash; and that is exactly what Webb did for five decades, for a species that owes its survival today, in no small part, to him.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
+          {route:"beruehmte-laurie-marker", label:"Portrait: Dr. Laurie Marker (SO3w4)"},
+          {route:"beruehmte-dian-fossey", label:"Portrait: Dian Fossey (SE7w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function donaldTrumpPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -55448,6 +55517,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-bella-thorne": bellaThornePage,
       "beruehmte-adele-neuhauser": adeleNeuhauserPortraitPage,
       "beruehmte-pablo-picasso": pabloPicassoPortraitPage,
+      "beruehmte-grahame-webb": grahameWebbPortraitPage,
       "beruehmte-angela-merkel": angelaMerkelPortraitPage,
       "beruehmte-carmen-goglin": carmenGoglinPortraitPage,
       "beruehmte-gina-rinehart": ginaRinehartPortraitPage,

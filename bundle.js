@@ -24057,6 +24057,7 @@ const registerEntries = [
     { term: "Adele Neuhauser", route: "beruehmte-adele-neuhauser", description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Schauspielerin, Bibi Fellner, Tatort, \u00d6sterreichischer Filmpreis, Krokodil" },
     { term: "Adele Neuhauser", route: "beruehmte-adele-neuhauser", description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Schauspielerin, Bibi Fellner, Tatort, \u00d6sterreichischer Filmpreis, Krokodil" },
     { term: "Pablo Picasso", route: "beruehmte-pablo-picasso", description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Maler, Bildhauer, Kubismus, Guernica, Krokodil" },
+    { term: "Grahame Webb", route: "beruehmte-grahame-webb", description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Zoologe, f\u00fchrende Autorit\u00e4t f\u00fcr Krokodilforschung" },
     { term: "Byron Katie", route: "beruehmte-byron-katie", description: "Portrait: SX6w7 \u00b7 Sexueller Typ 6 \u00b7 Autorin, Begr\u00fcnderin von The Work, Wolf" },
     { term: "Katja Riemann", route: "beruehmte-katja-riemann", description: "Portrait: SX6w7 \u00b7 Sexueller Typ 6 \u00b7 Schauspielerin, Musikerin, Wolf" },
   { term: "Donald Trump",                  route: "beruehmte-donald-trump",                description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 US-Pr\u00e4sident, Medienprovokateur" },
@@ -24351,6 +24352,7 @@ const registerEntriesEN = [
   { term: "Shakira", route: "beruehmte-shakira", description: "Portrait: SX7w8 \u00b7 Sexual Type 7 \u00b7 Singer, songwriter, dancer, producer" },
   { term: "Franz Liszt", route: "beruehmte-franz-liszt", description: "Portrait: SX7w8 · Sexual Type 7 · Composer and pianist, Lisztomania" },
   { term: "Diogenes of Sinope", route: "beruehmte-diogenes", description: "Portrait: SX8w7 \u00b7 Sexual Type 8 \u00b7 Philosopher, founder of Cynicism" },
+  { term: "Grahame Webb", route: "beruehmte-grahame-webb", description: "Portrait: SX8w7 \u00b7 Sexual Type 8 \u00b7 zoologist, leading authority on crocodile research" },
   { term: "Winston Churchill", route: "beruehmte-winston-churchill", description: "Portrait: SE8w9 \u00b7 Self-Preservation Type 8 \u00b7 British statesman, Prime Minister" },
   { term: "Indra Nooyi", route: "beruehmte-indra-nooyi", description: "Portrait: SE8w7 \u00b7 Self-Preservation Type 8 \u00b7 Business leader, former CEO of PepsiCo" },
   { term: "Cynthia Lummis", route: "beruehmte-cynthia-lummis", description: "Portrait: SO8w7 \u00b7 Social Type 8 \u00b7 US Senator, Bitcoin advocate" },
@@ -32284,6 +32286,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Pablo Picasso \u2013 Sexueller Typ 8",
     teaser:"SX8w7 \u00b7 1881\u20131973. Spanischer Maler und Bildhauer, Mitbegr\u00fcnder des Kubismus, \u203aGuernica\u2039. Das Krokodil, das mit 13 Jahren den eigenen Vater in der Malerei \u00fcbertraf \u2013 und danach nie wieder aufh\u00f6rte zu erobern. Tierentsprechung: Krokodil.",
     tags:["Kunst","Geschichte"], gender:"m"},
+  { route:"beruehmte-grahame-webb", name:"Prof. Grahame Webb", added:"2026-08-17", subtyp:"SX8w7",
+    heading:"Prof. Grahame Webb \u2013 Sexueller Typ 8",
+    teaser:"SX8w7 \u00b7 geb. 1947. Zoologe, weltweit f\u00fchrende Autorit\u00e4t f\u00fcr Krokodilforschung, Gr\u00fcnder von Crocodylus Park. Verlie\u00df die Universit\u00e4t, um sein eigenes Forschungsimperium aufzubauen \u2013 Wissenschaft, Farming, Tourismus und Bildung zugleich. Tierentsprechung: Krokodil.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-donald-trump", name:"Donald J. Trump", subtyp:"SX8w7",
     heading:"Donald J. Trump \u2013 Sexueller Typ 8",
     teaser:"SX8w7 \u00b7 geb. 1946. Unternehmer, Medienpers\u00f6nlichkeit, 45. & 47. Pr\u00e4sident der USA. Das Krokodil, das die B\u00fchne beherrscht \u2013 laut, unberechenbar, leidenschaftlich und stets im Angriff. Tierentsprechung: Krokodil.",
@@ -48099,6 +48105,71 @@ function diogenesPortraitPage() {
         {route:"subtype/sx8", label:"SX8 \u2013 Das Krokodil: Subtyp-Profil"},
         {route:"beruehmte-donald-trump", label:"Portr\u00e4t: Donald J. Trump (SX8w7)"},
       ])}
+    </div>
+  `);
+}
+
+function grahameWebbPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-grahame-webb-portrait.jpg" alt="Krokodil" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Grahame Webb</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexuelle Typ 8 mit Siebenerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Zoologe, geb. 1947 &ndash; f\xfchrende Autorit\xe4t f\xfcr Krokodilforschung &ndash; Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier der sexuellen Acht &ndash; ein Tier, das nicht jagt, um zu beeindrucken, sondern weil es muss, mit roher, unverstellter Kraft und einem Biss, dem nichts entkommt. Grahame Webb gilt weltweit als eine der f\xfchrenden Autorit\xe4ten f\xfcr Krokodilforschung und -management &ndash; seit 1970 erforscht er das Salzwasserkrokodil im Norden Australiens, mit blo\xdfen H\xe4nden im Feld, oft gemeinsam mit Fährtenlesern der Aborigines.</p>
+          <p class="vb-intro">Auch hier best\xe4tigt sich das Muster, das sich durch mehrere Tierforscher-Portr\xe4ts dieses Kompasses zieht: Die Tierentsprechungen standen lange fest, bevor irgendjemand von Webbs Lebenswerk wusste. Dass ausgerechnet der weltweit bekannteste Krokodilforscher selbst die Eigenschaften des Krokodils &ndash; Territorialit\xe4t, rohe Direktheit, unerbittlicher Zugriff &ndash; in seiner Pers\xf6nlichkeit tr\xe4gt, f\xfcgt sich nahtlos ein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Acht: Kein Territorium, das man teilt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong> sucht nach Naranjo vollst\xe4ndige Kontrolle \xfcber das eigene Territorium und duldet keine fremde Autorit\xe4t dar\xfcber. Webb, 1947 geboren, begann seine Krokodilforschung 1970 als Angestellter der University of Sydney &ndash; doch die Zw\xe4nge des institutionellen Betriebs waren ihm zuwider. 1978 gr\xfcndete er stattdessen seine eigene Firma, <em>Wildlife Management International</em>, um unabh\xe4ngig von akademischen Strukturen forschen zu k\xf6nnen. Keine fremde Institution sollte bestimmen, wie er arbeitet.</p>
+          <p class="vb-intro">Diese Unabh\xe4ngigkeit setzte er auch inhaltlich durch: Webb stellte sich gegen die vorherrschende Naturschutz-Doktrin seiner Zeit, die auf reinen Schutz ohne wirtschaftliche Nutzung setzte. Sein Prinzip: &bdquo;Um ein Tier zu retten, muss man ihm einen Wert geben.&ldquo; Farmer sollten mit Krokodilen Geld verdienen d\xfcrfen &ndash; nur so, argumentierte er, w\xfcrden sie zu Verb\xfcndeten statt zu Feinden der Art. Eine Position, die in Naturschutzkreisen lange als Ketzerei galt, die er aber unbeirrt vertrat, bis sie sich durchsetzte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerfl\xfcgel: Ein Imperium statt eines Reviers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SX8 mit schw\xe4cher ausgepr\xe4gtem Siebenerfl\xfcgel h\xe4tte sich vermutlich auf ein einziges Herrschaftsgebiet konzentriert &ndash; Krokodilforschung, und sonst nichts. Bei Webb zeigt sich stattdessen eine ausgepr\xe4gte Expansionslust: Bevor er sich auf Krokodile spezialisierte, forschte er an K\xe4ngurus, Haien, Meeresschildkr\xf6ten, Affen, Thunfischen und Walen. Und auch nach der Spezialisierung blieb es nicht bei einer Sache: 1994 er\xf6ffnete er den <em>Crocodylus Park</em> in Darwin &ndash; gleichzeitig Forschungsstation, Krokodilfarm und Touristenattraktion. Er gr\xfcndete zus\xe4tzlich die Essington School in Darwin und schrieb 1980 den Roman &bdquo;Numunwari&ldquo; \xfcber ein Riesenkrokodil, der sp\xe4ter verfilmt wurde.</p>
+          <p class="vb-intro">Das ist der Siebenerfl\xfcgel in Aktion: Statt sich auf ein einziges Revier zu verengen, baute Webb ein ganzes Portfolio paralleler Unternehmungen auf &ndash; Wissenschaft, Kommerz, Tourismus, Bildung, sogar Literatur. Die Acht liefert die Durchsetzungskraft und die kompromisslose Territorialverteidigung, die Sieben die Weite und den Appetit, immer neue Fronten zu er\xf6ffnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. F\xfchrung durch Autorit\xe4t, nicht durch Konsens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von 2004 bis 2023 &ndash; fast zwei Jahrzehnte &ndash; leitete Webb die <em>IUCN-SSC Crocodile Specialist Group</em>, das internationale Fachgremium f\xfcr Krokodilschutz. Eine derart lange, ununterbrochene F\xfchrungsdominanz \xfcber ein globales Fachgremium ist selten &ndash; sie verlangt genau die Mischung aus unerschütterlicher Durchsetzungskraft und breitem strategischem Blick, die die SX8w7 auszeichnet. 2001 wurde er mit dem Clunies-Ross-Preis f\xfcr Wissenschaft und Technologie ausgezeichnet, 2003 mit der australischen Centenary Medal.</p>
+          <p class="vb-intro">Seinen Professorentitel &ndash; er wird durchg\xe4ngig als &bdquo;Professor Grahame Webb&ldquo; gef\xfchrt &ndash; erwarb er nicht \xfcber eine reguläre Berufung auf einen Lehrstuhl, sondern als Adjunct Professor der Charles Darwin University: eine au\xdferplanm\xe4\xdfige, aber akademisch legitime Wertsch\xe4tzung seines Lebenswerks. Bezeichnend f\xfcr die SX8w7 ist, dass Webb sich diese Anerkennung nicht durch klassische akademische Laufbahn, sondern durch die schiere Wucht seines eigenst\xe4ndig aufgebauten Werks erarbeitete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX8w7 zeigt sich darin, dass Webbs kompromisslose Durchsetzungskraft einer Sache diente, die \xfcber ihn selbst hinausreicht: Krokodilpopulationen, die in den 1970er Jahren in Australien vor der Ausrottung standen, haben sich unter seinem &bdquo;Sustainable Use&ldquo;-Modell erholt &ndash; ein pragmatischer, wirtschaftlich fundierter Ansatz, der Bestand hatte, wo reine Verbotspolitik gescheitert war.</p>
+          <p class="vb-intro">Der Schatten der SX8 liegt in der Gefahr, Territorium um seiner selbst willen zu verteidigen, unabh\xe4ngig davon, ob es der Sache noch dient. Der Siebenerfl\xfcgel wirkt hier eher als Verst\xe4rker als als Korrektiv &ndash; er h\xe4lt Webb in Bewegung, von einem Projekt zum n\xe4chsten, aber die Grundmotivation bleibt dieselbe: das eigene Urteil \xfcber jede fremde Autorit\xe4t zu stellen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Krokodil, das sein eigenes Revier schuf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Grahame Webbs Lebenswerk zeigt die sexuelle Acht mit Siebenerfl\xfcgel in ihrer wirkungsvollsten Form: unerschütterliche Durchsetzungskraft, die sich nicht auf ein enges Revier beschr\xe4nkt, sondern ein ganzes Imperium aus Forschung, Wirtschaft, Bildung und \xf6ffentlicher \xdcberzeugungsarbeit hervorbringt &ndash; und die dabei bereit ist, sich gegen die herrschende Meinung ihres eigenen Fachs zu stellen, wenn sie \xfcberzeugt ist, recht zu haben.</p>
+          <p class="vb-intro">Das Krokodil wartet nicht auf Erlaubnis. Es beansprucht sein Revier, verteidigt es mit aller Kraft &ndash; und genau das tat Webb f\xfcnf Jahrzehnte lang f\xfcr eine Tierart, die ihm heute ihr \xdcberleben mit verdankt.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
+          {route:"beruehmte-laurie-marker", label:"Porträt: Dr. Laurie Marker (SO3w4)"},
+          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8)"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -89741,6 +89812,7 @@ function render() {
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,
+      "beruehmte-grahame-webb": grahameWebbPortraitPage,
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
       "beruehmte-heraklit": heraklitPortraitPage,
