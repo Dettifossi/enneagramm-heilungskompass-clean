@@ -35135,6 +35135,29 @@ function bookTip(buchId, teaser, title) {
   `;
 }
 
+const ANIMAL_RESEARCHER_MATCHES = [
+  {route:"beruehmte-dian-fossey", name:"Dian Fossey", subtyp:"SE7w8", tier:"Gorilla"},
+  {route:"beruehmte-jennifer-mather", name:"Jennifer Mather", subtyp:"SO5w6", tier:"Oktopus"},
+  {route:"beruehmte-laurie-marker", name:"Dr. Laurie Marker", subtyp:"SO3w4", tier:"Gepard"},
+  {route:"beruehmte-grahame-webb", name:"Prof. Grahame Webb", subtyp:"SX8w7", tier:"Krokodil"},
+  {route:"beruehmte-birute-galdikas", name:"Dr. Birut\xe9 Galdikas", subtyp:"SE8w9", tier:"Orang-Utan"},
+  {route:"beruehmte-peter-sharpe", name:"Dr. Peter Sharpe", subtyp:"SE1w9", tier:"Adler"},
+];
+
+function animalResearcherMatchBlock(currentRoute) {
+  const others = ANIMAL_RESEARCHER_MATCHES.filter(m => m.route !== currentRoute);
+  if (!others.length) return "";
+  const items = others.map(m =>
+    `<button class="related-link-btn" data-route="${m.route}" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:20px;padding:.35rem .95rem;font-size:0.82rem;font-family:'EB Garamond',serif;cursor:pointer;white-space:nowrap;">${m.name} (${m.subtyp}) – ${m.tier} &#8594;</button>`
+  ).join("");
+  return `
+    <details style="margin-top:1.5rem;padding-top:1rem;border-top:1px solid var(--border);">
+      <summary style="cursor:pointer;font-size:0.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);">&#10022;&nbsp;Tierforscher-\xdcbereinstimmung: weitere Beispiele</summary>
+      <div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.75rem;">${items}</div>
+    </details>
+  `;
+}
+
 function relatedLinks(links) {
   if (!links || !links.length) return "";
   const ALBUM_KEYS = ["jazz", "musik", "stille", "songs", "lieder", "alben", "homoeopathie-songs"];
@@ -43351,7 +43374,7 @@ function peterSharpePortraitPage() {
 
         <h2 class="vb-section">5. Der Adler als Br\xfccke zur Enneagramm-Hom\xf6opathie</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dass sich Menschen wie Sharpe über Jahrzehnte hinweg genau dem Tier widmen, das ihrem eigenen Subtyp entspricht, ist kein Zufall, sondern eine Bestätigung: Die 27 Tierentsprechungen des Enneagramms sind keine willkürlichen Etiketten, sondern archetypische Prinzipien, die sich in Verhalten, Beruf und Berufung wiederfinden lassen &ndash; wie schon bei Dian Fossey, Jennifer Mather, Craig Foster, Dr. Laurie Marker, Prof. Grahame Webb und Dr. Biruté Galdikas zu sehen war. Interessant ist, dass genau diese archetypischen Energien in der Enneagramm-Homöopathie eine weitere Entsprechung finden: Jedem der 27 Subtypen ist ein homöopathisches Mittel zugeordnet, das dieselbe Grundschwingung auf stofflicher Ebene widerspiegelt. Für die SE1 ist dies traditionell Platinum metallicum &ndash; ein Mittel für hohe Prinzipien, Perfektionismus und die stille, unerbittliche Sorgfalt, die auch Sharpes Lebenswerk kennzeichnet.</p>
+          <p class="vb-intro">Dass sich Menschen wie Sharpe über Jahrzehnte hinweg genau dem Tier widmen, das ihrem eigenen Subtyp entspricht, ist kein Zufall, sondern eine Bestätigung: Die 27 Tierentsprechungen des Enneagramms sind keine willkürlichen Etiketten, sondern archetypische Prinzipien, die sich in Verhalten, Beruf und Berufung wiederfinden lassen &ndash; wie schon bei Dian Fossey, Jennifer Mather, Dr. Laurie Marker, Prof. Grahame Webb, Dr. Biruté Galdikas und vielen weiteren zu sehen war. Interessant ist, dass genau diese archetypischen Energien in der Enneagramm-Homöopathie eine weitere Entsprechung finden: Jedem der 27 Subtypen ist ein homöopathisches Mittel zugeordnet, das dieselbe Grundschwingung auf stofflicher Ebene widerspiegelt. Für die SE1 ist dies traditionell Platinum metallicum &ndash; ein Mittel für hohe Prinzipien, Perfektionismus und die stille, unerbittliche Sorgfalt, die auch Sharpes Lebenswerk kennzeichnet.</p>
           <p class="vb-intro">Wer diese Verbindung vertiefen möchte, findet in der Rubrik <a href="#enneagramm-homoeopathie">Enneagramm &amp; Homöopathie</a> die vollständige Zuordnung der homöopathischen Mittel zu allen 27 Subtypen.</p>
         </blockquote>
 
@@ -43368,13 +43391,8 @@ function peterSharpePortraitPage() {
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
           {route:"enneagramm-homoeopathie", label:"Enneagramm & Homöopathie – Mittelzuordnung für alle 27 Subtypen"},
-          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-jennifer-mather", label:"Porträt: Jennifer Mather (SO5w6) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-laurie-marker", label:"Porträt: Dr. Laurie Marker (SO3w4) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-grahame-webb", label:"Porträt: Prof. Grahame Webb (SX8w7) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-birute-galdikas", label:"Porträt: Dr. Biruté Galdikas (SE8w9) – Tierforscher-Übereinstimmung"},
         ])}
+        ${animalResearcherMatchBlock("beruehmte-peter-sharpe")}
       </div>
     </div>
   `);
@@ -45089,13 +45107,8 @@ function jenniferMatherPortraitPage() {
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
           {route:"beruehmte-pythagoras", label:"Porträt: Pythagoras (SO5w6)"},
-          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-laurie-marker", label:"Porträt: Dr. Laurie Marker (SO3w4) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-grahame-webb", label:"Porträt: Prof. Grahame Webb (SX8w7) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-birute-galdikas", label:"Porträt: Dr. Biruté Galdikas (SE8w9) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-peter-sharpe", label:"Porträt: Dr. Peter Sharpe (SE1w9) – Tierforscher-Übereinstimmung"},
         ])}
+        ${animalResearcherMatchBlock("beruehmte-jennifer-mather")}
       </div>
     </div>
   `);
@@ -47343,13 +47356,8 @@ function biruteGaldikasPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
-          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-jennifer-mather", label:"Porträt: Jennifer Mather (SO5w6) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-laurie-marker", label:"Porträt: Dr. Laurie Marker (SO3w4) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-grahame-webb", label:"Porträt: Prof. Grahame Webb (SX8w7) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-peter-sharpe", label:"Porträt: Dr. Peter Sharpe (SE1w9) – Tierforscher-Übereinstimmung"},
         ])}
+        ${animalResearcherMatchBlock("beruehmte-birute-galdikas")}
       </div>
     </div>
   `);
@@ -48322,13 +48330,8 @@ function grahameWebbPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
-          {route:"beruehmte-laurie-marker", label:"Porträt: Dr. Laurie Marker (SO3w4) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-jennifer-mather", label:"Porträt: Jennifer Mather (SO5w6) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-birute-galdikas", label:"Porträt: Dr. Biruté Galdikas (SE8w9) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-peter-sharpe", label:"Porträt: Dr. Peter Sharpe (SE1w9) – Tierforscher-Übereinstimmung"},
         ])}
+        ${animalResearcherMatchBlock("beruehmte-grahame-webb")}
       </div>
     </div>
   `);
@@ -51789,13 +51792,8 @@ function laurieMarkerPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
-          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-jennifer-mather", label:"Porträt: Jennifer Mather (SO5w6) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-grahame-webb", label:"Porträt: Prof. Grahame Webb (SX8w7) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-birute-galdikas", label:"Porträt: Dr. Biruté Galdikas (SE8w9) – Tierforscher-Übereinstimmung"},
-          {route:"beruehmte-peter-sharpe", label:"Porträt: Dr. Peter Sharpe (SE1w9) – Tierforscher-Übereinstimmung"},
         ])}
+        ${animalResearcherMatchBlock("beruehmte-laurie-marker")}
       </div>
     </div>
   `);
@@ -51858,12 +51856,6 @@ function craigFosterPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-jane-goodall", label:"Portr\xe4t: Jane Goodall (SX9w1)"},
           {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
-          {route:"beruehmte-jennifer-mather", label:"Portr\xe4t: Jennifer Mather (SO5w6) – Tierforscher-\xdcbereinstimmung"},
-          {route:"beruehmte-dian-fossey", label:"Portr\xe4t: Dian Fossey (SE7w8) – Tierforscher-\xdcbereinstimmung"},
-          {route:"beruehmte-laurie-marker", label:"Portr\xe4t: Dr. Laurie Marker (SO3w4) – Tierforscher-\xdcbereinstimmung"},
-          {route:"beruehmte-grahame-webb", label:"Portr\xe4t: Prof. Grahame Webb (SX8w7) – Tierforscher-\xdcbereinstimmung"},
-          {route:"beruehmte-birute-galdikas", label:"Portr\xe4t: Dr. Birut\xe9 Galdikas (SE8w9) – Tierforscher-\xdcbereinstimmung"},
-          {route:"beruehmte-peter-sharpe", label:"Portr\xe4t: Dr. Peter Sharpe (SE1w9) – Tierforscher-\xdcbereinstimmung"},
         ])}
       </div>
     </div>
@@ -74788,13 +74780,8 @@ function dianFosseyPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-junko-tabei", label:"Portr\xe4t: Junko Tabei (SE7w6)"},
           {route:"kriminalpsychologie-andreas-baader", label:"Kriminalpsychologie: Andreas Baader (SE7w8)"},
-          {route:"beruehmte-jennifer-mather", label:"Portr\xe4t: Jennifer Mather (SO5w6) – Tierforscher-\xdcbereinstimmung"},
-          {route:"beruehmte-craig-foster", label:"Portr\xe4t: Craig Foster (SX9w1) – Tierforscher-\xdcbereinstimmung"},
-          {route:"beruehmte-laurie-marker", label:"Portr\xe4t: Dr. Laurie Marker (SO3w4) – Tierforscher-\xdcbereinstimmung"},
-          {route:"beruehmte-grahame-webb", label:"Portr\xe4t: Prof. Grahame Webb (SX8w7) – Tierforscher-\xdcbereinstimmung"},
-          {route:"beruehmte-birute-galdikas", label:"Portr\xe4t: Dr. Birut\xe9 Galdikas (SE8w9) – Tierforscher-\xdcbereinstimmung"},
-          {route:"beruehmte-peter-sharpe", label:"Portr\xe4t: Dr. Peter Sharpe (SE1w9) – Tierforscher-\xdcbereinstimmung"},
         ])}
+        ${animalResearcherMatchBlock("beruehmte-dian-fossey")}
       </div>
     </div>
   `);
