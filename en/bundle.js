@@ -328,6 +328,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Albert Schweitzer – Social Type 2",
     teaser:"SO2w1 · 1875–1965. Theologian, philosopher, organist and jungle doctor. Founded the Lambaréné hospital in 1913, Nobel Peace Prize 1952, principle of 'Reverence for Life'. The golden retriever with the One-wing: extraordinary talent placed entirely in service of humanity. Animal correspondence: Golden Retriever.",
     tags:["History","Medicine"], gender:"m"},
+  { route:"beruehmte-winifred-charlesworth", name:"Mrs. Winifred Charlesworth", added:"2026-08-17", subtyp:"SO2w1",
+    heading:"Mrs. Winifred Charlesworth – Social Type 2",
+    teaser:"SO2w1 · British breeder, founding figure of the Golden Retriever breed. Acquired her first golden bitch in 1906, co-founded the Golden Retriever Club in 1911, wrote the first official breed standard. Animal correspondence: Golden Retriever.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-marisa-abela", name:"Marisa Abela", added:"2026-07-30", subtyp:"SO2w1",
     heading:"Marisa Abela – Social Type 2",
     teaser:"SO2w1 · born 1996. Actress, Industry, Back to Black. Ensemble feeling and preparation discipline – the Golden Retriever that earns connection through care. Animal correspondence: Golden Retriever.",
@@ -4723,6 +4727,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-thea-litschka-koen", name:"Thea Litschka-Koen", subtyp:"SX1w2", tier:"Black Mamba"},
   {route:"beruehmte-romulus-whitaker", name:"Romulus Whitaker", subtyp:"SX1w2", tier:"Black Mamba"},
   {route:"beruehmte-bill-haast", name:"Bill Haast", subtyp:"SX1w9", tier:"Black Mamba"},
+  {route:"beruehmte-winifred-charlesworth", name:"Mrs. Winifred Charlesworth", subtyp:"SO2w1", tier:"Golden Retriever"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -32962,6 +32967,65 @@ function albertSchweitzerPortraitPage() {
   `);
 }
 
+function winifredCharlesworthPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-winifred-charlesworth-portrait.jpg" alt="Golden Retriever" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mrs. Winifred Charlesworth</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Breeder &amp; founding figure of the Golden Retriever &ndash; author of the first breed standard &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; friendly, reliable, entirely oriented toward the wellbeing of the community, without ever seeming pushy. Alongside Lord Tweedmouth, Mrs. Winifred Charlesworth is considered the breed's most important founding figure: she acquired her first golden bitch, Noranby Beauty, in 1906, co-founded the Golden Retriever Club in Britain in 1911, and wrote the first official breed standard &ndash; a document that remains largely unchanged to this day.</p>
+          <p class="vb-intro">Here too, the pattern that runs through several of this compass's animal-researcher portraits shows itself: there is no science in the strict sense when it comes to the Golden Retriever, yet decades of meticulous, systematic breeding work produced a form of expert authority whose rigor differs little from a research career &ndash; much like Prof. Grahame Webb or Thea Litschka-Koen. And once again, the very person who shaped an entire breed herself carries exactly the qualities that breed is known for to this day.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Indispensable to an Entire Community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Two (SO2)</strong> <em>Ambition</em> &ndash; not ambition in the sense of personal career, but the need to make oneself indispensable within a community and to occupy a central, connecting position there. Charlesworth did exactly that: she did not found a private breeding operation in quiet obscurity, but built an institution that still organizes the entire breed worldwide today &ndash; the Golden Retriever Club. She wrote the standard every breeder has followed ever since, and became, as specialist sources put it, an "icon of the breed."</p>
+          <p class="vb-intro">For 44 years, sources report, she devoted herself continuously to this one task. In 1932 she wrote "The Book of the Golden Retriever," which became the standard work. This is exactly the SO2 at its most productive: one's own worth arises not through distance or private perfection, but by making oneself the indispensable center of a community &ndash; here, the entire Golden Retriever world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Rigor Instead of Casual Enthusiasm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SO2 with a more muted One-wing would likely have lived her enthusiasm for the breed more casually, more sociably. In Charlesworth, an unyielding, almost pedantic care shows instead: specialist sources describe how she persistently &ndash; the English original literally says she "nagged" &ndash; pressed her fellow breeders over the years to keep the breed a true "dual-purpose dog," one that remained both capable of work and true to type.</p>
+          <p class="vb-intro">In the 1920s she systematically bred out excess bone and heavy build from her line, moving toward lighter, darker animals with a clearer focus. This combination of community bond (the Two) and unwavering fidelity to a standard (the One-wing) is the SO2w1 at its most mature &ndash; care that does not exhaust itself in indulgence, but in strict, long-term quality assurance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A Legacy That Still Saves Lives Today</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Without Charlesworth's meticulous breeding work, the Golden Retriever would likely never have developed the consistent character and even temperament for which the breed is prized worldwide today. It is exactly these qualities &ndash; trainability, gentleness, unshakeable reliability &ndash; that made the Golden Retriever one of the most important dog breeds for social and assistive roles: as a guide dog for the blind, as a therapy dog in hospitals and care facilities, as an assistance dog for people with disabilities, and as one of the world's most beloved family dogs.</p>
+          <p class="vb-intro">Charlesworth's life's work has thus had an impact reaching far beyond the breeding kennel: the dog whose temperament she shaped over decades now serves people in need every day &ndash; a quiet but measurable confirmation of the SO2's core motivation, to place oneself in service of a larger community. It is telling that people with a social Two imprint often still deliberately choose a Golden Retriever as a family dog today &ndash; as if the breed itself radiated the very same energy that drove Charlesworth her entire life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Golden Retriever She Herself Embodied</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Winifred Charlesworth's life's work shows the social Two with a One-wing at its most effective: nearly fifty years of tireless, meticulous dedication to an entire community &ndash; not out of private hobbyism, but from a deep need to make herself indispensable to something larger than herself.</p>
+          <p class="vb-intro">The Golden Retriever comforts, supports, accompanies &ndash; without ever asking anything in return. That was exactly Charlesworth's own signature: a woman who shaped an entire breed so that it still serves people today, and who in doing so became the living embodiment of the very animal she devoted her life to.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+          {route:"beruehmte-albert-schweitzer", label:"Portrait: Dr. Albert Schweitzer (SO2w1)"},
+        ])}
+        ${animalResearcherMatchBlock("beruehmte-winifred-charlesworth")}
+      </div>
+    </div>
+  `);
+}
+
 function marisaAbelaPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -56050,6 +56114,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-jan-ullrich": janUllrichPortraitPage,
       "beruehmte-barack-obama": barackObamaPortraitPage,
+      "beruehmte-winifred-charlesworth": winifredCharlesworthPortraitPage,
       "beruehmte-marisa-abela": marisaAbelaPortraitPage,
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "beruehmte-zoe-saldana": zoeSaldanaPortraitPage,
