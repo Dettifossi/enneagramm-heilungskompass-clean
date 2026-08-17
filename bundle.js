@@ -24132,6 +24132,7 @@ const registerEntries = [
   { term: "Anna Anderson", route: "beruehmte-anna-anderson", description: "Portrait: SE3w4 · Selbsterhaltende Typ 3 · berühmteste Hochstaplerin der Geschichte" },
   { term: "Judit Polgár",                  route: "beruehmte-judit-polgar",                description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Schach-Großmeisterin" },
   { term: "Jane Goodall", route: "beruehmte-jane-goodall", description: "Portrait: SX9w1 \u00b7 Sexuelle Typ 9 \u00b7 Primatologin, Begr\u00fcnderin der modernen Schimpansenforschung" },
+  { term: "Craig Foster", route: "beruehmte-craig-foster", description: "Portrait: SX9w1 \u00b7 Sexuelle Typ 9 \u00b7 Naturfilmer, Regisseur von \u201eMy Octopus Teacher\u201c" },
   { term: "Keanu Reeves",                  route: "beruehmte-keanu-reeves",                description: "Portrait: SX9w1 \u00b7 Sexueller Typ 9 \u00b7 Schauspieler, The Matrix, stille Pr\u00e4senz" },
   { term: "Klaus Kinski",                  route: "beruehmte-klaus-kinski",                description: "Portrait: SX1w9 \u00b7 Sexueller Typ 1 \u00b7 Schauspieler, Intensit\u00e4t & Exzess" },
   { term: "Kollegah",                      route: "beruehmte-kollegah",                    description: "Portrait: SX6w5 \u00b7 Sexueller Typ 6 \u00b7 Rapper, Fitness-Ikone, Marke & Maske" },
@@ -24464,6 +24465,7 @@ const registerEntriesEN = [
   { term: "Anna Anderson", route: "beruehmte-anna-anderson", description: "Portrait: SP3w4 · Self-Preservation Type 3 · history's most famous impostor" },
   { term: "Judit Polgár", route: "beruehmte-judit-polgar", description: "Portrait: SP3w4 · Self-Preservation Type 3 · Chess grandmaster" },
   { term: "Jane Goodall", route: "beruehmte-jane-goodall", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 primatologist, founder of modern chimpanzee research" },
+  { term: "Craig Foster", route: "beruehmte-craig-foster", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 nature filmmaker, director of \"My Octopus Teacher\"" },
   { term: "Keanu Reeves", route: "beruehmte-keanu-reeves", description: "Portrait: SX9w1 \u00b7 Sexual Type 9 \u00b7 Actor, The Matrix, quiet presence" },
   { term: "Klaus Kinski", route: "beruehmte-klaus-kinski", description: "Portrait: SX1w9 \u00b7 Sexual Type 1 \u00b7 Actor, intensity & excess" },
   { term: "Kollegah", route: "beruehmte-kollegah", description: "Portrait: SX6w5 \u00b7 Sexual Type 6 \u00b7 Rapper, fitness icon, brand & mask" },
@@ -32400,6 +32402,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Jane Goodall – Sexuelle Typ 9",
     teaser:"SX9w1 · 1934–2025. Primatologin, Begründerin der modernen Schimpansenforschung, entdeckte Werkzeuggebrauch bei Tieren. Verschmelzung als Forschungsmethode, später Gründerin von Roots & Shoots. Tierentsprechung: Faultier.",
     tags:["Wissenschaft"], gender:"f"},
+  { route:"beruehmte-craig-foster", name:"Craig Foster", added:"2026-08-17", subtyp:"SX9w1",
+    heading:"Craig Foster – Sexuelle Typ 9",
+    teaser:"SX9w1 · geb. 1962. Südafrikanischer Naturfilmer, Regisseur von „My Octopus Teacher“ (Oscar 2021), Mitgründer des Sea Change Project. Verschmelzung mit einem wilden Oktopus als Weg aus Burnout und Depression. Tierentsprechung: Faultier.",
+    tags:["Wissenschaft","Film"], gender:"m"},
   { route:"beruehmte-keanu-reeves", name:"Keanu Reeves", subtyp:"SX9w1",
     heading:"Keanu Reeves \u2013 Sexueller Typ 9",
     teaser:"SX9w1 \u00b7 geb. 1964. Schauspieler (The Matrix, John Wick). Der stille Mann, der sich in jede Rolle aufl\u00f6st \u2013 und im wirklichen Leben noch bescheidener ist als auf der Leinwand. Tierentsprechung: Faultier.",
@@ -51480,8 +51486,73 @@ function janeGoodallPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
+          {route:"beruehmte-craig-foster", label:"Portr\xe4t: Craig Foster (SX9w1)"},
           {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-dian-fossey", label:"Portr\xe4t: Dian Fossey (SE7w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function craigFosterPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-craig-foster-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Craig Foster</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexuelle Typ 9 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Naturfilmer, geb. 1962 &ndash; Regisseur von &bdquo;My Octopus Teacher&ldquo; (Oscar 2021) &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun &ndash; ein Tier, das nichts erzwingt, sondern wartet, bis die Welt sich ihm von selbst zeigt. Craig Foster, aufgewachsen in einem Bungalow wenige Schritte vom Meer entfernt am Kap der Guten Hoffnung, verbrachte seine Kindheit damit, Gezeitentümpel nach Krebsen, Fischen und alten Artefakten zu durchsuchen &ndash; sein erster Tauchgang fand im Alter von drei Jahren statt. Er nannte diesen Küstenstreifen später seinen &bdquo;magischen Kindheitswald&ldquo;.</p>
+          <p class="vb-intro">Weltbekannt wurde er als Regisseur und Hauptfigur des Dokumentarfilms &bdquo;My Octopus Teacher&ldquo; (2020), der ein Jahr seiner täglichen Begegnungen mit einem wilden Oktopus in einem südafrikanischen Tangwald zeigt &ndash; und 2021 den Oscar als bester Dokumentarfilm gewann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung als Heilung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo nicht Zugehörigkeit zu einer Gruppe, sondern die vollständige Verschmelzung mit einem einzelnen geliebten Gegenüber &ndash; das eigene Selbst tritt zurück, um ganz im Anderen aufzugehen. Bevor Foster den Oktopus traf, hatte er Jahre als Naturfilmer hinter sich, die ihn erschöpft und depressiv zurückließen &ndash; ein klassisches Bild der Neun unter Druck: Selbstvergessenheit bis zum Verlust der eigenen Lebendigkeit, weil man sich in der Arbeit für andere verausgabt, statt bei sich selbst zu bleiben.</p>
+          <p class="vb-intro">Seine Heilung bestand nicht in Rückzug, sondern in einer neuen, radikaleren Form der Verschmelzung: Er begann, jeden Tag ohne Neoprenanzug und Sauerstoffgerät in den eiskalten Tangwald vor Kapstadt zu tauchen &ndash; ein Ritual, das er über zehn Jahre lang durchhielt. Als er begann, denselben Oktopus fast täglich über ein Jahr hinweg zu beobachten, beschrieb er die entstandene Bindung mit Worten, die weit über wissenschaftliche Beobachtung hinausgehen: &bdquo;Es fühlt sich an wie Familie, wie Verwandtschaft im Wasser &ndash; nach einer Weile empfindet man diese ungeheure Liebe für diese Wesen.&ldquo; Er selbst fragte sich, ob man in solchen Momenten überhaupt noch &bdquo;außerhalb oder innerhalb der Natur&ldquo; ist &ndash; eine bewusste Auflösung der Grenze zwischen sich und dem Anderen, die die SX9 in Reinform kennzeichnet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Von persönlicher Heilung zu Sendungsauftrag</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SX9 mit schwächer ausgeprägtem Einserflügel hätte diese Verschmelzungserfahrung vermutlich für sich behalten, als rein private Heilung. Bei Foster trat stattdessen eine stille, unbeirrbare Ernsthaftigkeit hervor, die sein Erleben in Verantwortung übersetzte: 2012 gründete er gemeinsam mit Mitstreiterinnen und Mitstreitern das <em>Sea Change Project</em>, eine Naturschutzorganisation zum langfristigen Schutz des Great African Seaforest, des einzigartigen Tangwald-Ökosystems vor der südafrikanischen Küste. Seine Ausbildung in den uralten Fährtenlese-Techniken der San, der indigenen Ureinwohner der Kalahari, die er über Jahre respektvoll erlernte, prägte dabei seine gesamte Methode: Naturbeobachtung als Disziplin, nicht als Zufall.</p>
+          <p class="vb-intro">Der tägliche, jahrzehntelang durchgehaltene Tauchritus &ndash; bei jedem Wetter, ohne Ausrüstung, ohne Ausnahme &ndash; ist der Einserflügel in seiner reinsten Form: keine lockere Gewohnheit, sondern ein fast klösterliches Gelübde an sich selbst, das er in seinem Buch &bdquo;Amphibious Soul&ldquo; (2021) beschrieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Zwei Faultiere, zwei Kontinente: Foster und Jane Goodall</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Craig Fosters Muster gleicht auf verblüffende Weise dem von <a href="#beruehmte-jane-goodall">Jane Goodall</a>, der ebenfalls das Faultier als Tierentsprechung zugeordnet ist. Beide kamen ohne klassische akademische Vorbildung zu ihrem Forschungsgegenstand &ndash; Goodall ohne Studienabschluss nach Gombe, Foster als Filmemacher ohne marinbiologische Ausbildung in den Tangwald. Beide bauten ihr Verständnis nicht auf Distanz, sondern auf einer tiefen, persönlichen Bindung an ein einzelnes Tier auf &ndash; Goodalls Schimpanse David Greybeard, Fosters namenloser Oktopus. Und beide übersetzten diese individuelle Verschmelzungserfahrung später in eine globale Naturschutzmission &ndash; Goodall mit &bdquo;Roots &amp; Shoots&ldquo;, Foster mit dem Sea Change Project.</p>
+          <p class="vb-intro">Der Unterschied liegt im Flügel-Ausdruck derselben Verschmelzungsfähigkeit: Goodalls Einserflügel zeigte sich vor allem in unerschütterlicher wissenschaftlicher Prinzipientreue gegen den Widerstand des Establishments. Fosters Einserflügel zeigt sich eher als selbst auferlegte, fast asketische Disziplin &ndash; das tägliche, kompromisslose Tauchritual als moralische Verpflichtung sich selbst und der Natur gegenüber. Beide eint jedoch dieselbe Grundüberzeugung der SX9w1: Echte Erkenntnis entsteht nicht durch Distanz, sondern durch das Wagnis, sich einem einzelnen Wesen so weit zu öffnen, dass die Grenze zwischen Beobachter und Beobachtetem sich auflöst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Vom Filmemacher zum Naturschützer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">&bdquo;My Octopus Teacher&ldquo; erzielte 2021 den Oscar als bester Dokumentarfilm &ndash; ein Erfolg, den Foster selbst mit auffallender Distanz kommentierte. Nach einem Rückschlag, der ihn nach eigenen Worten &bdquo;zutiefst demütig&ldquo; machte, erklärte er, Preise und öffentliche Anerkennung hätten &bdquo;wirklich gar nichts&ldquo; bedeutet, verglichen mit der eigentlichen Erfahrung. Das ist die Neun im Licht: kein Interesse an Status um seiner selbst willen, sondern an der Sache, die größer ist als die eigene Person.</p>
+          <p class="vb-intro">Seine zentrale Botschaft, oft wiederholt: Jede Investition, jedes Vermögen, jede Zukunftsplanung sei wertlos, &bdquo;wenn die Biodiversität kollabiert&ldquo;. Aus einer persönlichen Heilungsgeschichte wurde so eine öffentliche Mission &ndash; getragen nicht von lautem Aktivismus, sondern von der stillen Überzeugung des Einserflügels, dass man tut, was richtig ist, auch wenn niemand zusieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Faultier, das durch Stillstand heilte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Craig Fosters Geschichte zeigt die sexuelle Neun mit Einserflügel in ihrer heilsamsten Form: ein Mann, der sich selbst durch jahrelange Überarbeitung verlor und den Weg zurück zu sich nicht durch mehr Anstrengung fand, sondern durch tägliche, disziplinierte Verschmelzung mit der Natur &ndash; und der diese sehr persönliche Erfahrung in eine Mission übersetzte, die weit über ihn selbst hinausreicht.</p>
+          <p class="vb-intro">Das Faultier hängt bewegungslos im Geäst, ganz eins mit seiner Umgebung &ndash; und genau aus dieser Bewegungslosigkeit heraus schuf Foster ein Werk, das Millionen Menschen weltweit dazu brachte, ihre eigene Beziehung zur Natur zu überdenken.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-jane-goodall", label:"Portr\xe4t: Jane Goodall (SX9w1)"},
+          {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
+          {route:"beruehmte-jennifer-mather", label:"Portr\xe4t: Jennifer Mather (SO5w6)"},
         ])}
       </div>
     </div>
@@ -89664,6 +89735,7 @@ function render() {
     "beruehmte-wilma-mankiller": wilmaMankillerPortraitPage,
     "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-jane-goodall": janeGoodallPortraitPage,
+      "beruehmte-craig-foster": craigFosterPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
           "beruehmte-carl-rogers": carlRogersPortraitPage,
     "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,

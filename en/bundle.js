@@ -860,6 +860,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Jane Goodall – Sexual Type 9",
     teaser:"SX9w1 · 1934–2025. Primatologist, founder of modern chimpanzee research, discovered tool use in animals. Merging as a research method, later founder of Roots & Shoots. Animal correspondence: Sloth.",
     tags:["Wissenschaft"], gender:"f"},
+  { route:"beruehmte-craig-foster", name:"Craig Foster", added:"2026-08-17", subtyp:"SX9w1",
+    heading:"Craig Foster – Sexual Type 9",
+    teaser:"SX9w1 · born 1962. South African nature filmmaker, director of \"My Octopus Teacher\" (Oscar 2021), co-founder of the Sea Change Project. Merging with a wild octopus as a path out of burnout and depression. Animal correspondence: Sloth.",
+    tags:["Wissenschaft","Film"], gender:"m"},
   { route:"beruehmte-keanu-reeves", name:"Keanu Reeves", subtyp:"SX9w1",
     heading:"Keanu Reeves – Sexual Type 9",
     teaser:"SX9w1 · born 1964. Actor (The Matrix, John Wick). The quiet man who dissolves into every role – and in real life is even more humble than on screen. Animal correspondence: Sloth.",
@@ -29597,8 +29601,73 @@ function janeGoodallPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SP9w1)"},
-          {route:"beruehmte-dian-fossey", label:"Portrait: Dian Fossey (SP7w8)"},
+          {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1)"},
+          {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
+          {route:"beruehmte-dian-fossey", label:"Portrait: Dian Fossey (SE7w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function craigFosterPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-craig-foster-portrait.jpg" alt="Sloth" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Craig Foster</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Nature filmmaker, born 1962 &ndash; director of "My Octopus Teacher" (Oscar 2021) &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sloth</strong> is the animal of the sexual Nine &ndash; an animal that forces nothing, but waits until the world shows itself. Craig Foster, who grew up in a bungalow a few steps from the ocean at the Cape of Good Hope, spent his childhood combing tide pools for crabs, fish, and old artifacts &ndash; his first dive took place at the age of three. He later called this stretch of coastline his "magical childhood forest."</p>
+          <p class="vb-intro">He became world-famous as director and central figure of the documentary "My Octopus Teacher" (2020), which follows a year of his daily encounters with a wild octopus in a South African kelp forest &ndash; and won the 2021 Academy Award for Best Documentary Feature.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Nine: Merging as Healing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>Sexual Nine (SX9)</strong> does not seek belonging to a group, but complete merging with a single beloved counterpart &ndash; the self steps back to dissolve fully into the other. Before Foster met the octopus, he had spent years as a nature filmmaker that left him exhausted and depressed &ndash; a classic pattern of the Nine under pressure: self-forgetting to the point of losing one's own vitality, from expending oneself in work for others rather than staying with oneself.</p>
+          <p class="vb-intro">His healing did not come through withdrawal, but through a more radical form of merging: he began diving every day, without a wetsuit or oxygen tank, into the freezing kelp forest off Cape Town &ndash; a ritual he sustained for over ten years. When he began observing the same octopus almost daily for a year, he described the resulting bond in words that go far beyond scientific observation: "It feels like family, like kin in the water &ndash; after a while you just feel this tremendous love for these creatures." He himself questioned whether, in such moments, one is even "outside or inside of nature" &ndash; a deliberate dissolving of the boundary between self and other that marks the SX9 in its purest form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: From Personal Healing to Mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SX9 with a more muted One-wing would likely have kept this merging experience to herself, as purely private healing. In Foster, instead, a quiet, unshakeable seriousness emerged that translated his experience into responsibility: in 2012 he co-founded the <em>Sea Change Project</em>, a conservation organization dedicated to the long-term protection of the Great African Seaforest, the unique kelp-forest ecosystem off South Africa's coast. His years of respectful training in the ancient tracking techniques of the San, the indigenous people of the Kalahari, shaped his entire method: nature observation as discipline, not coincidence.</p>
+          <p class="vb-intro">The daily diving ritual, sustained for over a decade &ndash; in any weather, without equipment, without exception &ndash; is the One-wing in its purest form: not a casual habit, but an almost monastic vow to himself, which he described in his book "Amphibious Soul" (2021).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Two Sloths, Two Continents: Foster and Jane Goodall</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Craig Foster's pattern strikingly resembles that of <a href="#beruehmte-jane-goodall">Jane Goodall</a>, who shares the same animal correspondence, the Sloth. Both arrived at their subject without classical academic training &ndash; Goodall without a degree, traveling to Gombe; Foster as a filmmaker with no formal training in marine biology, entering the kelp forest. Both built their understanding not on distance, but on a deep, personal bond with a single animal &ndash; Goodall's chimpanzee David Greybeard, Foster's nameless octopus. And both later translated this individual merging experience into a global conservation mission &ndash; Goodall with "Roots & Shoots," Foster with the Sea Change Project.</p>
+          <p class="vb-intro">The difference lies in how the same capacity for merging expresses itself through the wing: Goodall's One-wing showed itself mainly as unshakeable scientific conviction against the resistance of the establishment. Foster's One-wing shows itself more as self-imposed, almost ascetic discipline &ndash; the daily, uncompromising diving ritual as a moral obligation to himself and to nature. Both, however, share the same underlying SX9w1 conviction: genuine insight does not come through distance, but through the risk of opening oneself so fully to a single being that the boundary between observer and observed dissolves.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. From Filmmaker to Conservationist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">"My Octopus Teacher" won the 2021 Academy Award for Best Documentary Feature &ndash; a success Foster himself commented on with striking distance. After a setback that, in his own words, "crushed" him and made him "deeply humble," he stated that awards and public recognition "really didn't matter at all" compared to the experience itself. That is the Nine in the light: no interest in status for its own sake, but in a cause larger than oneself.</p>
+          <p class="vb-intro">His central, often-repeated message: every investment, every asset, every plan for the future is worthless "if biodiversity collapses." A personal healing story thus became a public mission &ndash; carried not by loud activism, but by the One-wing's quiet conviction that one does what is right, even when no one is watching.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Sloth That Healed Through Stillness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Craig Foster's story shows the Sexual Nine with a One-wing at its most healing: a man who lost himself through years of overwork, and who found his way back not through more effort, but through daily, disciplined merging with nature &ndash; and who translated this deeply personal experience into a mission reaching far beyond himself.</p>
+          <p class="vb-intro">The sloth hangs motionless in the branches, entirely one with its surroundings &ndash; and it was exactly out of this stillness that Foster created a work that moved millions of people worldwide to reconsider their own relationship to nature.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-jane-goodall", label:"Portrait: Jane Goodall (SX9w1)"},
+          {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
+          {route:"beruehmte-jennifer-mather", label:"Portrait: Jennifer Mather (SO5w6)"},
         ])}
       </div>
     </div>
@@ -55217,6 +55286,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-wilma-mankiller": wilmaMankillerPortraitPage,
       "beruehmte-jane-goodall": janeGoodallPortraitPage,
+      "beruehmte-craig-foster": craigFosterPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
       "beruehmte-mario-barth": marioBarthPortraitPage,
