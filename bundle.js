@@ -24009,6 +24009,7 @@ const registerEntries = [
   { term: "Franz Liszt",                   route: "beruehmte-franz-liszt",                 description: "Portrait: SX7w8 · Sexueller Typ 7 · Komponist und Pianist, Lisztomania" },
   { term: "Diogenes von Sinope",            route: "beruehmte-diogenes",                    description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Philosoph, Begr\u00fcnder des Kynismus" },
   { term: "Winston Churchill",              route: "beruehmte-winston-churchill",           description: "Portrait: SE8w9 \u00b7 Selbsterhaltender Typ 8 \u00b7 Britischer Staatsmann, Premierminister" },
+  { term: "Birut\u00e9 Galdikas",                route: "beruehmte-birute-galdikas",              description: "Portrait: SE8w9 \u00b7 Selbsterhaltender Typ 8 \u00b7 Primatologin, f\u00fchrende Orang-Utan-Forscherin" },
   { term: "Indra Nooyi",                    route: "beruehmte-indra-nooyi",                 description: "Portrait: SE8w7 \u00b7 Selbsterhaltender Typ 8 \u00b7 Wirtschaftsf\u00fchrerin, ehem. CEO von PepsiCo" },
   { term: "Cynthia Lummis",                 route: "beruehmte-cynthia-lummis",              description: "Portrait: SO8w7 \u00b7 Sozialer Typ 8 \u00b7 US-Senatorin, Bitcoin-Verfechterin" },
   { term: "Karl Marx",                      route: "beruehmte-karl-marx",                   description: "Portrait: SO8w9 \u00b7 Sozialer Typ 8 \u00b7 Philosoph, \u00d6konom, Begr\u00fcnder des Marxismus" },
@@ -24354,6 +24355,7 @@ const registerEntriesEN = [
   { term: "Diogenes of Sinope", route: "beruehmte-diogenes", description: "Portrait: SX8w7 \u00b7 Sexual Type 8 \u00b7 Philosopher, founder of Cynicism" },
   { term: "Grahame Webb", route: "beruehmte-grahame-webb", description: "Portrait: SX8w7 \u00b7 Sexual Type 8 \u00b7 zoologist, leading authority on crocodile research" },
   { term: "Winston Churchill", route: "beruehmte-winston-churchill", description: "Portrait: SE8w9 \u00b7 Self-Preservation Type 8 \u00b7 British statesman, Prime Minister" },
+  { term: "Birut\u00e9 Galdikas", route: "beruehmte-birute-galdikas", description: "Portrait: SE8w9 \u00b7 Self-Preservation Type 8 \u00b7 primatologist, leading orangutan researcher" },
   { term: "Indra Nooyi", route: "beruehmte-indra-nooyi", description: "Portrait: SE8w7 \u00b7 Self-Preservation Type 8 \u00b7 Business leader, former CEO of PepsiCo" },
   { term: "Cynthia Lummis", route: "beruehmte-cynthia-lummis", description: "Portrait: SO8w7 \u00b7 Social Type 8 \u00b7 US Senator, Bitcoin advocate" },
   { term: "Karl Marx", route: "beruehmte-karl-marx", description: "Portrait: SO8w9 \u00b7 Social Type 8 \u00b7 Philosopher, economist, founder of Marxism" },
@@ -32234,6 +32236,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Golda Meir \u2013 Selbsterhaltender Typ 8",
     teaser:"SE8w9 \u00b7 1898\u20131978. Politikerin, Staatsfrau, vierte Premierministerin Israels (1969\u20131974). Eine der Unterzeichnerinnen der israelischen Unabh\u00e4ngigkeitserkl\u00e4rung. Der Orang-Utan, der langsam klettert und am Ende h\u00f6her sitzt als alle, die lauter waren.",
     tags:["Politik"], gender:"f"},
+  { route:"beruehmte-birute-galdikas", name:"Dr. Birut\u00e9 Galdikas", added:"2026-08-17", subtyp:"SE8w9",
+    heading:"Dr. Birut\u00e9 Galdikas \u2013 Selbsterhaltender Typ 8",
+    teaser:"SE8w9 \u00b7 1946\u20132026. Weltweit f\u00fchrende Orang-Utan-Forscherin, l\u00e4ngste durchgehende Feldstudie eines einzelnen Wildtiers, gr\u00fcndete Camp Leakey auf Borneo. \u201eIch wurde geboren, um Orang-Utans zu erforschen.\u201c Tierentsprechung: Orang-Utan.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-winston-churchill", name:"Winston Churchill", added:"2026-08-04", subtyp:"SE8w9",
     heading:"Winston Churchill \u2013 Selbsterhaltender Typ 8",
     teaser:"SE8w9 \u00b7 1874\u20131965. Britischer Staatsmann, Premierminister 1940\u20131945 und 1951\u20131955, Literaturnobelpreistr\u00e4ger 1953. Der Orang-Utan, der in der dunkelsten Stunde Gro\u00dfbritanniens nicht wich \u2013 geerdet, stur, unersch\u00fctterlich.",
@@ -45006,8 +45012,12 @@ function jenniferMatherPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
-          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8)"},
           {route:"beruehmte-pythagoras", label:"Porträt: Pythagoras (SO5w6)"},
+          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-laurie-marker", label:"Porträt: Dr. Laurie Marker (SO3w4) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-grahame-webb", label:"Porträt: Prof. Grahame Webb (SX8w7) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-birute-galdikas", label:"Porträt: Dr. Biruté Galdikas (SE8w9) – Tierforscher-Übereinstimmung"},
         ])}
       </div>
     </div>
@@ -47199,6 +47209,74 @@ function goldaMeirPortraitPage() {
 }
 
 
+function biruteGaldikasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-birute-galdikas-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Birut\xe9 Galdikas</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Selbsterhaltende Typ 8 mit Neunerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Primatologin, 1946&ndash;2026 &ndash; weltweit f\xfchrende Orang-Utan-Forscherin &ndash; Tierentsprechung: Orang-Utan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Orang-Utan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier der selbsterhaltenden Acht &ndash; kein Tier des Rudels wie der L\xf6we, sondern ein Einzelg\xe4nger, der sein eigenes Revier im dichten Regenwald beansprucht und mit stiller, z\xe4her Kraft verteidigt. Dr. Birut\xe9 Galdikas war weltweit die f\xfchrende Autorit\xe4t f\xfcr Orang-Utans und f\xfchrte die l\xe4ngste durchgehende Feldstudie an einem Wildtier, die je von einer einzigen Forscherin geleitet wurde &ndash; \xfcber f\xfcnfzig Jahre lang, von 1971 bis zu ihrem Tod 2026.</p>
+          <p class="vb-intro">Auch hier best\xe4tigt sich das Muster, das sich durch mehrere Tierforscher-Portr\xe4ts dieses Kompasses zieht: Die Tierentsprechungen standen l\xe4ngst fest, bevor irgendjemand von Galdikas' Lebenswerk wusste. Sie selbst brachte es einmal auf den Punkt: &bdquo;Ich habe immer gef\xfchlt, dass ich geboren wurde, um Orang-Utans zu erforschen.&ldquo; Genau das ist die selbsterhaltende Acht in Reinform &ndash; ein unerschütterliches, fast instinktives Wissen um das eigene Revier, lange bevor der Verstand es erkl\xe4ren kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Acht: Ein Revier f\xfcr's Leben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> sucht nach Naranjo Sicherheit durch die vollst\xe4ndige Kontrolle \xfcber das eigene Territorium und die eigene \xdcberlebensbasis &ndash; still, z\xe4h, ohne \xf6ffentliche Inszenierung. Galdikas, 1946 in Wiesbaden als Tochter litauischer Fl\xfcchtlinge geboren und in Kanada aufgewachsen, entschied bereits in der zweiten Klasse, dass sie Entdeckerin werden wollte. 1971, mit 25 Jahren, reiste sie mit ihrem damaligen Mann in das Tanjung-Puting-Reservat auf Borneo und gr\xfcndete dort Camp Leakey &ndash; benannt nach ihrem Mentor Louis Leakey, der sie als dritte der sp\xe4ter &bdquo;Trimates&ldquo; genannten Forscherinnen neben Jane Goodall und Dian Fossey f\xf6rderte.</p>
+          <p class="vb-intro">Was folgte, war kein Ausflug, sondern eine lebenslange Ansiedlung: Sie blieb \xfcber vierzig Jahre in Borneo, ging t\xe4glich bis zu zwanzig Kilometer durch sumpfiges Terrain, umgeben von malariaverseuchten M\xfccken, K\xf6nigskobras und Blutegeln, um die scheuen Orang-Utans zu beobachten. Sie heiratete in zweiter Ehe Pak Bohap, einen Dayak-Reisbauern und Stammespr\xe4sidenten &ndash; keine kurze Feldstudie, sondern eine vollst\xe4ndige, lebenslange Verwurzelung in genau dem Revier, das sie sich gew\xe4hlt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\xfcgel: Verschmelzung statt Eroberung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SE8 mit st\xe4rker ausgepr\xe4gtem Siebenerfl\xfcgel h\xe4tte aus ihrer Autorit\xe4t vermutlich ein Portfolio paralleler Unternehmungen gemacht &ndash; Farmen, Tourismus, mehrere Standbeine zugleich. Bei Galdikas zeigt sich stattdessen das Gegenteil: eine stille, geduldige Verschmelzung mit einem einzigen Ort und einer einzigen Aufgabe, \xfcber f\xfcnf Jahrzehnte hinweg ohne Ablenkung. Sie gr\xfcndete zwar 1986 die Orangutan Foundation International, doch das blieb im Kern eine einzige, fokussierte Mission &ndash; keine Expansion in neue Fronten, sondern die Vertiefung derselben einen Sache.</p>
+          <p class="vb-intro">Das ist der Neunerfl\xfcgel in seiner reifsten Form: Die Acht liefert die z\xe4he, unerschütterliche Durchsetzungskraft, das eigene Revier gegen Bedrohungen zu verteidigen &ndash; die Neun liefert die F\xe4higkeit, sich vollst\xe4ndig in dieses eine Revier hineinzuverschmelzen, statt es nur zu beherrschen. Anders als Grahame Webb, dessen Siebenerfl\xfcgel ihn von Projekt zu Projekt trieb, blieb Galdikas ihr ganzes Leben an einem Ort, bei einer Art, in einer Ehe mit einem einheimischen Mann &ndash; Wurzeln statt Wachstum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Verteidigung des Reviers: Wilderer, Holzf\xe4ller, Beh\xf6rden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die stille Verschmelzung der SE8w9 bedeutet nicht Konfliktscheu, wenn das eigene Revier tats\xe4chlich bedroht wird. Galdikas wurde zu einer kompromisslosen Gegnerin von Holzf\xe4llern, Palm\xf6l-Plantagen und Goldsuchern, die den Lebensraum der Orang-Utans zerst\xf6rten. In den 1990er Jahren geriet sie in einen offenen Konflikt mit dem indonesischen Forstministerium, das ihr vorwarf, Orang-Utans unter schlechten Bedingungen zu halten &ndash; Vorw\xfcrfe, die sie als &bdquo;schlicht falsch&ldquo; und als &bdquo;einseitige Kampagne&ldquo; zur\xfcckwies.</p>
+          <p class="vb-intro">Sie baute au\xdferdem ein umfangreiches Rehabilitationsprogramm f\xfcr verwaiste Orang-Utans auf, die zuvor illegal als Haustiere gehalten worden waren. Genau hier zeigt sich die Acht: Angriff auf das eigene Revier wird nicht diplomatisch verhandelt, sondern direkt und unnachgiebig zur\xfcckgewiesen &ndash; auch gegen\xfcber staatlichen Beh\xf6rden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Anerkennung und Vermächtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Galdikas dokumentierte den mit Abstand langsamsten Fortpflanzungszyklus aller Landsäugetiere &ndash; Orang-Utan-Weibchen bekommen im Schnitt nur alle acht Jahre Nachwuchs &ndash; und wies über 400 verschiedene Nahrungsquellen der Tiere nach. Sie wurde mit dem Order of Canada (1995), dem Tyler-Preis für Umweltleistungen (1997, gemeinsam mit Jane Goodall und George Schaller) und zahlreichen weiteren internationalen Auszeichnungen geehrt. Zweimal zierte sie das Cover des National Geographic Magazine.</p>
+          <p class="vb-intro">Sie starb am 24. März 2026 in Los Angeles an Lungenkrebs, im Alter von 79 Jahren &ndash; nach mehr als fünf Jahrzehnten, die sie fast ausschließlich derselben Aufgabe gewidmet hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Orang-Utan, der sein Revier bis zuletzt verteidigte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Birut\xe9 Galdikas' Lebenswerk zeigt die selbsterhaltende Acht mit Neunerfl\xfcgel in ihrer tiefsten Form: keine laute Eroberung, sondern eine über fünf Jahrzehnte gewachsene, fast vollst\xe4ndige Verschmelzung mit einem Ort, einer Art und einer Kultur &ndash; kombiniert mit der kompromisslosen Bereitschaft, dieses Revier zu verteidigen, sobald es tats\xe4chlich bedroht wurde.</p>
+          <p class="vb-intro">Der Orang-Utan lebt allein in seinem Baumrevier, gelassen und in sich ruhend &ndash; bis jemand versucht, es ihm zu nehmen. Genau das war Galdikas' Leben: eine stille, tiefe Verwurzelung, die sich in offenen Widerstand verwandelte, sobald der Wald, der ihr zur Heimat geworden war, in Gefahr geriet.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-jennifer-mather", label:"Porträt: Jennifer Mather (SO5w6) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-laurie-marker", label:"Porträt: Dr. Laurie Marker (SO3w4) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-grahame-webb", label:"Porträt: Prof. Grahame Webb (SX8w7) – Tierforscher-Übereinstimmung"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function winstonChurchillPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -48166,8 +48244,11 @@ function grahameWebbPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
-          {route:"beruehmte-laurie-marker", label:"Porträt: Dr. Laurie Marker (SO3w4)"},
-          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8)"},
+          {route:"beruehmte-laurie-marker", label:"Porträt: Dr. Laurie Marker (SO3w4) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-jennifer-mather", label:"Porträt: Jennifer Mather (SO5w6) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-birute-galdikas", label:"Porträt: Dr. Biruté Galdikas (SE8w9) – Tierforscher-Übereinstimmung"},
         ])}
       </div>
     </div>
@@ -51629,8 +51710,11 @@ function laurieMarkerPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
-          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8)"},
-          {route:"beruehmte-jennifer-mather", label:"Porträt: Jennifer Mather (SO5w6)"},
+          {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-jennifer-mather", label:"Porträt: Jennifer Mather (SO5w6) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-grahame-webb", label:"Porträt: Prof. Grahame Webb (SX8w7) – Tierforscher-Übereinstimmung"},
+          {route:"beruehmte-birute-galdikas", label:"Porträt: Dr. Biruté Galdikas (SE8w9) – Tierforscher-Übereinstimmung"},
         ])}
       </div>
     </div>
@@ -51694,7 +51778,11 @@ function craigFosterPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-jane-goodall", label:"Portr\xe4t: Jane Goodall (SX9w1)"},
           {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
-          {route:"beruehmte-jennifer-mather", label:"Portr\xe4t: Jennifer Mather (SO5w6)"},
+          {route:"beruehmte-jennifer-mather", label:"Portr\xe4t: Jennifer Mather (SO5w6) – Tierforscher-\xdcbereinstimmung"},
+          {route:"beruehmte-dian-fossey", label:"Portr\xe4t: Dian Fossey (SE7w8) – Tierforscher-\xdcbereinstimmung"},
+          {route:"beruehmte-laurie-marker", label:"Portr\xe4t: Dr. Laurie Marker (SO3w4) – Tierforscher-\xdcbereinstimmung"},
+          {route:"beruehmte-grahame-webb", label:"Portr\xe4t: Prof. Grahame Webb (SX8w7) – Tierforscher-\xdcbereinstimmung"},
+          {route:"beruehmte-birute-galdikas", label:"Portr\xe4t: Dr. Birut\xe9 Galdikas (SE8w9) – Tierforscher-\xdcbereinstimmung"},
         ])}
       </div>
     </div>
@@ -74619,6 +74707,11 @@ function dianFosseyPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-junko-tabei", label:"Portr\xe4t: Junko Tabei (SE7w6)"},
           {route:"kriminalpsychologie-andreas-baader", label:"Kriminalpsychologie: Andreas Baader (SE7w8)"},
+          {route:"beruehmte-jennifer-mather", label:"Portr\xe4t: Jennifer Mather (SO5w6) – Tierforscher-\xdcbereinstimmung"},
+          {route:"beruehmte-craig-foster", label:"Portr\xe4t: Craig Foster (SX9w1) – Tierforscher-\xdcbereinstimmung"},
+          {route:"beruehmte-laurie-marker", label:"Portr\xe4t: Dr. Laurie Marker (SO3w4) – Tierforscher-\xdcbereinstimmung"},
+          {route:"beruehmte-grahame-webb", label:"Portr\xe4t: Prof. Grahame Webb (SX8w7) – Tierforscher-\xdcbereinstimmung"},
+          {route:"beruehmte-birute-galdikas", label:"Portr\xe4t: Dr. Birut\xe9 Galdikas (SE8w9) – Tierforscher-\xdcbereinstimmung"},
         ])}
       </div>
     </div>
@@ -89836,6 +89929,7 @@ function render() {
     "beruehmte-umberto-eco": umbertEcoPortraitPage,
           "beruehmte-golda-meir": goldaMeirPortraitPage,
           "beruehmte-dhapanbal-yunupingu": dhapanbalYunupinguPortraitPage,
+          "beruehmte-birute-galdikas": biruteGaldikasPortraitPage,
           "beruehmte-winston-churchill": winstonChurchillPortraitPage,
     "beruehmte-toni-morrison": toniMorrisonPortraitPage,
           "beruehmte-carsten-stahl": carstenStahlPortraitPage,
