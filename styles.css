@@ -4336,10 +4336,10 @@ button.primary:hover::after {
 }
 .krim-tier-badge-wrap img {
   position: absolute;
-  inset: 0;
+  top: -20%;
+  left: -8%; /* Standard-Fallback; wird pro Subtyp per Inline-Style (tierAvatarLeft) überschrieben */
   width: 140%;
   height: 140%;
-  margin: -20%;
   object-fit: cover;
 }
 .psycho-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.75rem; }
