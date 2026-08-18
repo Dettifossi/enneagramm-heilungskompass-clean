@@ -28810,7 +28810,7 @@ function hughWarwickPortraitPage() {
         <h2 class="vb-section">4. Light and shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SX5w4 is its ability to turn <strong>a private, almost obsessive passion into a publicly effective protection movement</strong> &ndash; Warwick's campaign for legally mandated "hedgehog highways" in British new-build developments gathered a petition with nearly a million signatures and international attention for an animal that is easily overlooked without such advocates.</p>
-          <p class="vb-intro">The shadow of the Sexual Five with a Four-wing shows in how tightly one's own identity can become bound to a single, highly specific subject &ndash; his own social media handle "hedgehoghugh" makes clear how completely the hedgehog defines his public persona. Such an exclusive bond carries far, but leaves little room for a self beyond this one passion.</p>
+          <p class="vb-intro">The shadow of the Sexual Five with a Four-wing shows in how tightly one's own identity can become bound to a single, highly specific subject &ndash; his own social media handle "Hedgehog Hugh" makes clear how completely the hedgehog defines his public persona. Such an exclusive bond carries far, but leaves little room for a self beyond this one passion.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The hedgehog that travels the world for the hedgehog</h2>
