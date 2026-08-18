@@ -50235,7 +50235,7 @@ function sterlingNorthPortraitPage() {
               ["sterling-north-31-vierzehn-jahre-b.jpg", "Sterling North im Alter von vierzehn Jahren", "Im Alter von 14 Jahren"],
               ["sterling-north-25-sechzehn-jahre.jpg", "Sterling North im Alter von sechzehn Jahren", "Im Alter von 16 Jahren"],
               ["sterling-north-30-achtzehn-jahre-schreibend.jpg", "Sterling North im Alter von achtzehn Jahren, schreibend", "Mit 18 Jahren, introvertiert schreibend im Arbeitszimmer der Familie – schon hier schriftstellerisch tätig"],
-              ["sterling-north-01-familie.jpg", "Sterling North mit seiner Frau Gladys und ihren beiden Kindern, Fotostreifen", "Familienfoto (Fotostreifen, von oben nach unten): Sterling North im Alter von etwa 55 Jahren, seine Frau Gladys und ihre beiden Kinder"],
+              ["sterling-north-01-familie.jpg", "Sterling North mit seiner Frau Gladys und ihren beiden Kindern, Fotostreifen", "Familienfoto (Fotostreifen, von oben nach unten): Sterling North im Alter von etwa 30 Jahren, seine Frau Gladys und ihre beiden Kinder"],
             ])}
 
             ${galleryGroup("Familie und Alltag", [
