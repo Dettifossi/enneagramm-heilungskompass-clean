@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SE6: {
+    tier: "Kaninchen",
+    kernthema: "Ständige Wachheit gegenüber Gefahr, Sicherheit gesucht im Vertrauten (Naranjo: Wärme)",
+    beispiele: ["Sundar Pichai", "Fjodor Dostojewski", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List"],
+    fingerabdruecke: [
+      {
+        titel: "Gefahr früher wahrnehmen als andere – ständige, aktive Wachheit",
+        beschreibung: "Die Sinne sind fortlaufend auf mögliche Bedrohung ausgerichtet. Das erlaubt oft, Entwicklungen vorherzusehen, bevor sie für andere sichtbar werden – nicht aus Ängstlichkeit im negativen Sinn, sondern als ständig aktive Risikoeinschätzung.",
+        beleg: "Herbert Kickl: ›Es hört früher, riecht früher, spürt früher als andere, wenn etwas nicht stimmt‹; Sundar Pichai: ›Es hört, bevor es sich bewegt … bleibt genau dann ruhig, wenn andere in Panik geraten, weil es die Lage längst analysiert hat, bevor sie eskalierte‹; Malaika Mihambo, deren Weitsprung ›kontrollierte Explosion‹ ist: ›Wenn es doch springt, dann erst, nachdem es den Boden, die Distanz, die Gefahr genau abgewogen hat.‹"
+      },
+      {
+        titel: "Sicherheit im Vertrauten statt auf der großen Bühne",
+        beschreibung: "Die eigentliche Heimat ist nicht die Öffentlichkeit oder das Rampenlicht, sondern der enge, vertraute Kreis – Freunde, Familie, ein bekannter Ort –, aus dem heraus auch außergewöhnliche Leistung entstehen kann.",
+        beleg: "Franz Schubert, der ›zeitlebens die Öffentlichkeit des Konzertsaals mied und sein wahres Zuhause im privaten Kreis enger Freunde fand‹ – die Schubertiaden; Woody Allen, der ›praktisch sein ganzes Leben in Manhattan verbracht hat‹ und ›am liebsten auf bekannten Wegen, zu bekannten Zeiten‹ unterwegs ist; Neil Armstrong, der nach der Mondlandung ›nichts sehnlicher wollte als Normalität‹ und auf seinen Bauernhof in Ohio zurückkehrte; Beatrice Chebet: ›Das Kaninchen rennt nicht weg. Es rennt nach Hause.‹"
+      },
+      {
+        titel: "Ruhige Funktionsfähigkeit unter extremem Druck, weil die Gefahr längst kalkuliert wurde",
+        beschreibung: "Auch in Ausnahmesituationen bleibt eine erstaunliche Handlungsfähigkeit erhalten – nicht durch spontanen Mut, sondern weil mögliche Bedrohungen bereits im Vorfeld gedanklich durchgespielt wurden.",
+        beleg: "Fjodor Dostojewski, der eine Scheinhinrichtung überlebte und dessen Kaninchen-Natur ›selbst in Ausnahmesituationen erstaunlich funktionsfähig‹ blieb, ›weil es die Gefahr längst kalkuliert hat, bevor sie eintraf‹; Sundar Pichai, der eines der mächtigsten Technologieunternehmen der Welt führt, ›ohne je laut zu werden … kein Schritt, der nicht abgesichert ist.‹"
+      },
+      {
+        titel: "Wenn die jahrelang verdrängte Angst unerwartet in Gewalt umschlägt (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung bleibt die Angst über Jahre unsichtbar nach außen kontrolliert – bis eine Situation ohne wahrgenommenen Ausweg entsteht und sich die aufgestaute Anspannung abrupt und unvorhersehbar entlädt.",
+        beleg: "John List: ›Das Kaninchen flieht, wenn es kann. Aber in die Enge getrieben – ohne Ausweg, ohne Fluchtmöglichkeit – schlägt es um sich. Hart, plötzlich, überraschend … Jahrelang hielt er die Ohren oben, registrierte jedes Anzeichen von Gefahr, schwieg, duckte sich, funktionierte. Und dann … schlug er um sich.‹ Wichtig: Dies ist der einzige bekannte Fall dieser Art unter den SE6-Porträts dieses Kompasses, keine typische Ausprägung."
+      }
+    ]
+  },
   SX5: {
     tier: "Igel",
     kernthema: "Stacheln nach außen, Weichheit innen – Vertrauen als exklusiver, geschützter Raum",
