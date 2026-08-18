@@ -42564,7 +42564,7 @@ function lebensmusterkompassPage() {
       <div class="page-content">
         <p class="eyebrow">Wissen &middot; Lebensmusterkompass</p>
         <h1 class="section-title">Lebensmusterkompass</h1>
-        <img src="assets/lebensmusterkompass-hero.jpg" alt="Lebensmusterkompass – biografische Fingerabdr\xfccke" style="width:100%;height:auto;border-radius:12px;margin:0.8rem 0 1.4rem;display:block;" loading="lazy" />
+        <img src="assets/lebensmusterkompass-hero.jpg?v=2" alt="Lebensmusterkompass – biografische Fingerabdr\xfccke" style="width:100%;height:auto;border-radius:12px;margin:0.8rem 0 1.4rem;display:block;" loading="lazy" />
         <p class="psycho-intro">Biografische Fingerabdr\xfccke der 27 Subtypen &ndash; wiederkehrende Erkennungsmerkmale, herausgearbeitet aus der internen Analyse s\xe4mtlicher Fallportr\xe4ts dieses Kompasses (Ber\xfchmte Pers\xf6nlichkeiten, spannende Kriminalf\xe4lle sowie weitere Portr\xe4ts, z. B. aus Astrologie meets Enneagramm).</p>
 
         <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
