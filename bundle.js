@@ -38345,7 +38345,7 @@ function typeColorFromCode(code) { return typeColor(code ? code.slice(-1) : 0); 
 // deren Tier auf dem Quellbild anders positioniert ist, können hier gezielt überschrieben
 // werden, ohne die anderen zu beeinflussen.
 const TIER_AVATAR_LEFT_OVERRIDES = {
-  SE1: -14, SX1: -11, SO2: -14, SX2: -12, SE3: -6, SE4: -15, SX4: -7, SO4: -20, SE5: -11,
+  SE1: -14, SX1: -11, SO2: -14, SX2: -12, SE3: -6, SE4: -30, SX4: -7, SO4: -20, SE5: -11,
   SO5: -11, SE6: -12, SX6: -12, SE7: -11, SO7: -11, SX7: -6, SE8: -15, SO8: -11, SE9: -15, SO9: -14, SX9: -13,
 };
 function tierAvatarLeft(code) {
