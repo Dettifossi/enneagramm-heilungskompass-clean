@@ -42487,6 +42487,38 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SE2: {
+    tier: "Flusspferd",
+    kernthema: "Unentbehrlichkeit als Zugang zu Nähe – ruhige, verwurzelte Kraft statt lauter Selbstdarstellung",
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    fingerabdruecke: [
+      {
+        titel: "Unentbehrlichkeit als Zugang zu Nähe und Bedeutung (Naranjo: ›Privileg‹)",
+        beschreibung: "Zugehörigkeit und Bedeutung werden nicht eingefordert, sondern durch Fürsorge, Einsatz und das stille Gefühl, gebraucht zu werden, gesichert. Naranjo nannte diesen Subtyp den des ›Privilegs‹: einen besonderen Platz im Leben anderer durch Unentbehrlichkeit zu gewinnen.",
+        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist."
+      },
+      {
+        titel: "Gutmütig-plumpe Fassade, die bei Bedrohung des eigenen Reviers in unbändige Kraft umschlägt",
+        beschreibung: "Von außen wirkt die Erscheinung warm, rund, zugänglich, manchmal sogar tollpatschig. Wird jedoch das eigene Territorium – im wörtlichen wie im übertragenen Sinn – bedroht, zeigt sich eine Wucht, die niemand für möglich gehalten hätte.",
+        beleg: "Jack Black: ›Es wirkt plump, laut, tollpatschig – und ist zugleich eines der gefährlichsten Tiere Afrikas, sobald sein Territorium bedroht scheint‹; Uli Hoeneß, der den FC Bayern ›als sein Revier begriffen und mit jedem Gramm seines Körpers markiert und verteidigt‹ hat; Oprah Winfrey: ›Wer glaubt, Wärme und Macht schließen sich aus, hat das Flusspferd nicht verstanden‹; Gloria von Thurn und Taxis, bei der ›das Flusspferd aus dem Wasser trat‹, als die Familie vor dem finanziellen Kollaps stand."
+      },
+      {
+        titel: "Tiefe Verwurzelung im eigenen Terrain statt Flucht – Bleiben als Stärke",
+        beschreibung: "Statt bei Widerstand das Feld zu räumen, zieht die Kraft sich gerade aus dem Verbleiben am eigenen Platz, aus Vertrautheit mit dem eigenen Ursprung und aus beharrlicher Ausdauer, auch wenn es unbequem wird.",
+        beleg: "Armin Rohde, der sich nach Jahrzehnten als Star ›unverändert als Kind des Ruhrpotts‹ bezeichnet: ›Das Flusspferd bleibt in seinem Wasser – und wird gerade dadurch unverwechselbar‹; J. J. Liu, die stundenlang unter Schmerzen am Pokertisch ausharrte: ›Das Flusspferd verlässt sein Wasser nicht, wenn es schwierig wird. Es bleibt‹; Isabella Briggs, die früh ›lernt, wo ihr Platz ist, und diesen Platz beharrlich ausbaut‹; Franka Potentes Lola, die nach jedem Lauf ›in ihr angestammtes Gewässer zurückkehrt‹."
+      },
+      {
+        titel: "Schutzschicht und Verborgenheit als Überlebenssystem, nicht als Schwäche",
+        beschreibung: "Was von außen wie Rückzug, Verletzlichkeit oder Verbergen wirkt, ist häufig ein sorgfältig funktionierendes Schutzsystem, das erst im entscheidenden Moment sichtbare Kraft freisetzt.",
+        beleg: "Frida Kahlo, deren Körper ›über weite Strecken ihres Lebens unter Gips, Verbänden und Stützkonstruktionen verborgen‹ blieb – ›sichtbar blieb nur, was sie selbst zeigen wollte‹; Marie Antoinettes kunstvolle Erscheinung als ›glänzende, unangreifbare Oberfläche, hinter der sich eine junge Frau verbarg‹; Natascha Kampusch, deren acht Jahre Gefangenschaft zeigen, ›wie ein Wesen unter extremem Druck einen eigenen Schutzraum aufbaut und darin funktionsfähig bleibt‹; Margot Friedländer, die ›nicht abtaucht, um zu verschwinden‹, sondern ›weil dort ihre Sicherheit liegt‹ – und auftaucht, ›genau in dem Moment, in dem sie gebraucht wird‹."
+      },
+      {
+        titel: "Untadelige Fürsorge-Fassade als Tarnung für Kontrolle oder Ausbeutung (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird genau dieselbe Fürsorge- oder Vertrauensrolle zur perfekten Tarnung: Wer sich unentbehrlich macht, gerät nicht in Verdacht – und kann diese Position über Jahre für Kontrolle, Ausbeutung oder Gewalt im engsten Kreis missbrauchen.",
+        beleg: "Jeanne Weber, die als Betreuerin ›im engsten, vertrautesten Kreis‹ mordete und selbst nach wachsendem Verdacht ›freiwillig die Betreuung von Kindern‹ übernahm; John Wayne Gacy, Unternehmer und Bezirkspolitiker, der zugleich als Clown auftrat; Peter Sutcliffe, der ›als freundlicher, ruhiger Nachbar‹ galt; Harvey Weinstein, dessen Machtposition als Förderer über Jahrzehnte den Missbrauch verdeckte. Wichtig: Die überwiegende Mehrheit der SE2 in diesem Kompass zeigt dieses Muster nicht – es handelt sich um eine seltene Extremform derselben Grundenergie, keine typische Ausprägung."
+      }
+    ]
+  },
   SX1: {
     tier: "Schwarze Mamba",
     kernthema: "Kompromisslose Intensität im engsten Kreis statt Reformanspruch an die ganze Welt",
