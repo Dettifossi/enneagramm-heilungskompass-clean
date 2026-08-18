@@ -872,6 +872,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Greta Garbo – Sexual Type 5",
     teaser:"SX5w4 · 1905–1990. Actress, Hollywood icon. Complete withdrawal from film at age 36. \"I want to be let alone.\" The hedgehog whose gaze silenced entire movie theaters – and who then showed herself to no one for fifty years.",
     tags:["Film"]},
+{ route:"beruehmte-hugh-warwick", name:"Hugh Warwick", added:"2026-08-18", subtyp:"SX5w4",
+    heading:"Hugh Warwick – Sexual Type 5",
+    teaser:"SX5w4 · British ecologist, author, and spokesperson for the British Hedgehog Preservation Society. Devoted almost exclusively to the hedgehog for over 30 years, known as \"the hedgehog whisperer.\" No detached lab observation, but an almost intimate, lifelong relationship with a single animal. Animal correspondence: Hedgehog.",
+    tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-mark-zuckerberg", name:"Mark Zuckerberg", added:"2026-07-15", subtyp:"SX5w6",
     heading:"Mark Zuckerberg – Sexual Type 5",
     teaser:"SX5w6 · born 1984. CEO of Meta (Facebook, Instagram, WhatsApp). The hedgehog that built the world’s largest social network – and is barely visible within it.",
@@ -4768,6 +4772,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-derek-goodwin", name:"Derek Goodwin", subtyp:"SE4w5", tier:"Dove"},
   {route:"beruehmte-mariella-superina", name:"Dr. Mariella Superina", subtyp:"SO4w5", tier:"Armadillo"},
   {route:"beruehmte-ingo-zimmermann", name:"Prof. Dr. Ingo Zimmermann", subtyp:"SE5w4", tier:"Owl"},
+  {route:"beruehmte-hugh-warwick", name:"Hugh Warwick", subtyp:"SX5w4", tier:"Hedgehog"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -28764,6 +28769,67 @@ function ingoZimmermannPortraitPage() {
   `);
 }
 
+function hughWarwickPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-hugh-warwick-portrait.jpg" alt="Hedgehog" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hugh Warwick</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexual Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Ecologist, author, "the hedgehog whisperer" &ndash; Animal correspondence: Hedgehog</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The hedgehog carrying on a lifelong love affair with the hedgehog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hedgehog</strong> is the animal of the Sexual Five &ndash; spiky on the outside, vulnerable at the core, and capable of a bonding intensity that concentrates not on many things but on one deeply explored subject. Few lives show this pattern as literally as that of Hugh Warwick, British ecologist, author, and spokesperson for the British Hedgehog Preservation Society, whom decades of devotion have earned the simple nickname "the hedgehog whisperer."</p>
+          <p class="vb-intro">Warwick has studied hedgehogs since the mid-1980s, spent months radio-tracking the animals across southwest England and Scotland, and has devoted practically his entire professional life to them for over three decades. One of his best-known books carries the telling title "A Prickly Affair" &ndash; a title that describes his relationship to the hedgehog for exactly what it is: an affair, not merely a field of study.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Five: intensity instead of detached observation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Five (SX5)</strong> differs from the other Five subtypes through its capacity for an almost merging intensity &ndash; it does not observe from safe distance as if from an ivory tower, but seeks the deepest possible closeness to a single, carefully chosen object of its passion. In Warwick this shows in the fact that he did not stop at sober field research, but dug into the entire cultural history of spiny mammals &ndash; from biology to mythology to the iconography of the hedgehog in art and folklore.</p>
+          <p class="vb-intro">Rather than remaining an anonymous recluse, he travels the world to research "people a bit like himself" &ndash; hedgehog lovers everywhere, with whom he can share what would otherwise be an unusual passion. This almost feverish intellectual and emotional devotion to a single life theme, pursued with a consistency far beyond ordinary professional interest, is pure Sexual Five energy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: spines as protection, longing as engine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Five a romantic, often melancholic depth &ndash; pure analytical distance is complemented by an emotional, almost poetic note that turns the subject matter into a personal story. Warwick's books accordingly read not like dry non-fiction, but like personal narratives of a search &ndash; for his own connection to an animal the world mostly overlooks.</p>
+          <p class="vb-intro">Like the hedgehog itself, Warwick protects his own vulnerability with a kind of coat of spines: humor and pointed, often wittily barbed writing, behind which lies the deepest emotional resonance with this one particular animal. In a figurative sense, he carries on an almost exclusive, passionate two-person relationship with the hedgehog as a species &ndash; not a detached professional connection, but something he himself calls a love affair.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX5w4 is its ability to turn <strong>a private, almost obsessive passion into a publicly effective protection movement</strong> &ndash; Warwick's campaign for legally mandated "hedgehog highways" in British new-build developments gathered a petition with nearly a million signatures and international attention for an animal that is easily overlooked without such advocates.</p>
+          <p class="vb-intro">The shadow of the Sexual Five with a Four-wing shows in how tightly one's own identity can become bound to a single, highly specific subject &ndash; his own social media handle "hedgehoghugh" makes clear how completely the hedgehog defines his public persona. Such an exclusive bond carries far, but leaves little room for a self beyond this one passion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The hedgehog that travels the world for the hedgehog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Warwick gives the world is far more than expertise: he has given a quiet, largely overlooked animal a voice that reaches into British legislation. Eleven books, decades of fieldwork, an international movement &ndash; all grown from a single, never-fading fascination.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly stand more fittingly for the Sexual Five with a Four-wing: a man whose archetypal animal is the hedgehog, who has held a passionate, almost loving fidelity to that one animal his entire life &ndash; spiky on the outside, deeply devoted at the core.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
+        {route:"lebensmusterkompass/sx5", label:"Life Pattern Compass: SX5 – Hedgehog"},
+        {route:"beruehmte-greta-garbo", label:"Portrait: Greta Garbo (SX5w4)"},
+        {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-hugh-warwick")}
+    </div>
+  `);
+}
+
 function julesVernePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -35954,17 +36020,17 @@ const LEBENSMUSTERKOMPASS = {
   SX5: {
     tier: "Hedgehog",
     kernthema: "Spikes on the outside, softness within – trust as an exclusive, protected space",
-    beispiele: ["Frédéric Chopin", "Taylor Swift", "Tilda Swinton", "Siddhartha Gautama (Buddha)", "Friedrich Nietzsche", "Greta Garbo", "Mark Zuckerberg", "Edward Snowden", "Jodie Foster", "Jeffrey Dahmer", "Joel Rifkin"],
+    beispiele: ["Frédéric Chopin", "Taylor Swift", "Tilda Swinton", "Siddhartha Gautama (Buddha)", "Friedrich Nietzsche", "Greta Garbo", "Mark Zuckerberg", "Edward Snowden", "Jodie Foster", "Jeffrey Dahmer", "Joel Rifkin", "Hugh Warwick"],
     fingerabdruecke: [
       {
         titel: "Spikes on the outside, extraordinary softness underneath – accessible only to very few",
         beschreibung: "The defensive, unapproachable exterior is not coldness, but protection for a particularly intense, sensitive interior that only shows itself once trust has been built.",
-        beleg: "Taylor Swift: 'Whoever knows him knows: underneath is something extraordinarily soft. But you have to have built trust to touch it'; Mark Zuckerberg: 'The spikes are made of code. The inside is seen only by those he truly trusts'; Edward Snowden: 'Whoever wants to touch it must earn its trust. And whoever forces it will get stung.'"
+        beleg: "Taylor Swift: 'Whoever knows him knows: underneath is something extraordinarily soft. But you have to have built trust to touch it'; Mark Zuckerberg: 'The spikes are made of code. The inside is seen only by those he truly trusts'; Edward Snowden: 'Whoever wants to touch it must earn its trust. And whoever forces it will get stung'; Hugh Warwick, who protects his own vulnerability behind humor and pointedly spiky writing, while underneath lies the deepest emotional resonance with his one life theme."
       },
       {
         titel: "Retreat as a deliberate reserving of intimacy for a few exclusive connections",
         beschreibung: "Withdrawal from the public eye doesn't mean indifference to closeness, but exactly the opposite: energy and intimacy are consciously saved for very few, but very deep, relationships.",
-        beleg: "Jodie Foster: 'The retreat happens not out of indifference, but to save one's own intimacy and energy for very few, exclusive connections'; Greta Garbo, who at 36 withdrew from public life for almost fifty years: 'Total immersion in the one intense encounter ... and just as radical a retreat before and after' – 'I want to be let alone,' not alone, but left in peace."
+        beleg: "Jodie Foster: 'The retreat happens not out of indifference, but to save one's own intimacy and energy for very few, exclusive connections'; Greta Garbo, who at 36 withdrew from public life for almost fifty years: 'Total immersion in the one intense encounter ... and just as radical a retreat before and after' – 'I want to be let alone,' not alone, but left in peace; Hugh Warwick, whose decades of almost loving devotion concentrate exclusively on a single animal instead of spreading across many subjects – 'A Prickly Affair,' as he himself calls his life's work."
       },
       {
         titel: "Radical breakthrough to the core instead of attachment to system, status, or possessions",
@@ -57609,6 +57675,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-carl-friedrich-gauss": carlFriedrichGaussPortraitPage,
       "beruehmte-paris-hilton": parisHiltonPortraitPage,
       "beruehmte-ingo-zimmermann": ingoZimmermannPortraitPage,
+      "beruehmte-hugh-warwick": hughWarwickPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,

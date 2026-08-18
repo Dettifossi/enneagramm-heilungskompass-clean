@@ -32065,6 +32065,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Greta Garbo \u2013 Sexueller Typ 5",
     teaser:"SX5w4 \u00b7 1905\u20131990. Schauspielerin, Hollywood-Ikone. Mit 36 Jahren kompletter R\u00fcckzug aus dem Filmgesch\u00e4ft. \u201eI want to be let alone.\u201c Der Igel, dessen Blick die Kinos\u00e4le verstummen lie\u00df \u2013 und der sich dann f\u00fcnfzig Jahre lang niemandem mehr zeigte.",
     tags:["Film"], gender:"f"},
+  { route:"beruehmte-hugh-warwick", name:"Hugh Warwick", added:"2026-08-18", subtyp:"SX5w4",
+    heading:"Hugh Warwick \u2013 Sexueller Typ 5",
+    teaser:"SX5w4 \u00b7 Britischer \u00d6kologe, Autor und Sprecher der British Hedgehog Preservation Society. \u00dcber 30 Jahre fast ausschlie\u00dflich dem Igel gewidmet, genannt der \u201eIgelfl\u00fcsterer\u201c. Keine distanzierte Laborbeobachtung, sondern eine fast intime, lebenslange Beziehung zu einem einzigen Tier. Tierentsprechung: Igel.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-mark-zuckerberg", name:"Mark Zuckerberg", added:"2026-07-15", subtyp:"SX5w6",
     heading:"Mark Zuckerberg \u2013 Sexueller Typ 5",
     teaser:"SX5w6 \u00b7 geb. 1984. CEO von Meta (Facebook, Instagram, WhatsApp). Der Igel, der das gr\u00f6\u00dfte soziale Netzwerk der Welt baute \u2013 und selbst darin kaum sichtbar ist.",
@@ -35244,6 +35248,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-derek-goodwin", name:"Derek Goodwin", subtyp:"SE4w5", tier:"Taube"},
   {route:"beruehmte-mariella-superina", name:"Dr. Mariella Superina", subtyp:"SO4w5", tier:"Gürteltier"},
   {route:"beruehmte-ingo-zimmermann", name:"Prof. Dr. Ingo Zimmermann", subtyp:"SE5w4", tier:"Eule"},
+  {route:"beruehmte-hugh-warwick", name:"Hugh Warwick", subtyp:"SX5w4", tier:"Igel"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42797,17 +42802,17 @@ const LEBENSMUSTERKOMPASS = {
   SX5: {
     tier: "Igel",
     kernthema: "Stacheln nach außen, Weichheit innen – Vertrauen als exklusiver, geschützter Raum",
-    beispiele: ["Frédéric Chopin", "Taylor Swift", "Tilda Swinton", "Siddhartha Gautama (Buddha)", "Friedrich Nietzsche", "Greta Garbo", "Mark Zuckerberg", "Edward Snowden", "Jodie Foster", "Jeffrey Dahmer", "Joel Rifkin"],
+    beispiele: ["Frédéric Chopin", "Taylor Swift", "Tilda Swinton", "Siddhartha Gautama (Buddha)", "Friedrich Nietzsche", "Greta Garbo", "Mark Zuckerberg", "Edward Snowden", "Jodie Foster", "Jeffrey Dahmer", "Joel Rifkin", "Hugh Warwick"],
     fingerabdruecke: [
       {
         titel: "Stacheln nach außen, außergewöhnliche Weichheit darunter – nur für sehr wenige zugänglich",
         beschreibung: "Die abwehrende, unnahbare Außenseite ist keine Kälte, sondern Schutz für ein besonders intensives, empfindsames Inneres, das sich erst nach aufgebautem Vertrauen zeigt.",
-        beleg: "Taylor Swift: ›Wer ihn kennt, weiß: Darunter ist etwas außerordentlich Weiches. Aber man muss Vertrauen aufgebaut haben, um es zu berühren‹; Mark Zuckerberg: ›Die Stacheln sind aus Code. Das Innere sieht nur, wem er wirklich vertraut‹; Edward Snowden: ›Wer ihn berühren will, muss sein Vertrauen gewinnen. Und wer ihn zwingt, wird sich stechen.‹"
+        beleg: "Taylor Swift: ›Wer ihn kennt, weiß: Darunter ist etwas außerordentlich Weiches. Aber man muss Vertrauen aufgebaut haben, um es zu berühren‹; Mark Zuckerberg: ›Die Stacheln sind aus Code. Das Innere sieht nur, wem er wirklich vertraut‹; Edward Snowden: ›Wer ihn berühren will, muss sein Vertrauen gewinnen. Und wer ihn zwingt, wird sich stechen‹; Hugh Warwick, der seine eigene Verletzlichkeit hinter Humor und stachelig-pointierter publizistischer Arbeit schützt, während darunter die tiefste emotionale Resonanz zu seinem einen Lebensthema liegt."
       },
       {
         titel: "Rückzug als gezielte Reservierung von Intimität für wenige exklusive Verbindungen",
         beschreibung: "Der Rückzug aus der Öffentlichkeit bedeutet nicht Gleichgültigkeit gegenüber Nähe, sondern das genaue Gegenteil: Energie und Intimität werden bewusst für ganz wenige, dafür sehr tiefe Beziehungen aufgespart.",
-        beleg: "Jodie Foster: ›Der Rückzug geschieht nicht aus Gleichgültigkeit, sondern um die eigene Intimität und Energie für ganz wenige, exklusive Verbindungen aufzusparen‹; Greta Garbo, die sich mit 36 Jahren fast fünfzig Jahre aus der Öffentlichkeit zurückzog: ›Das restlose Eintauchen in die eine, intensive Begegnung … und der ebenso radikale Rückzug davor und danach‹ – ›I want to be let alone‹, nicht allein, sondern in Ruhe gelassen."
+        beleg: "Jodie Foster: ›Der Rückzug geschieht nicht aus Gleichgültigkeit, sondern um die eigene Intimität und Energie für ganz wenige, exklusive Verbindungen aufzusparen‹; Greta Garbo, die sich mit 36 Jahren fast fünfzig Jahre aus der Öffentlichkeit zurückzog: ›Das restlose Eintauchen in die eine, intensive Begegnung … und der ebenso radikale Rückzug davor und danach‹ – ›I want to be let alone‹, nicht allein, sondern in Ruhe gelassen; Hugh Warwick, dessen jahrzehntelange, fast liebende Hingabe sich exklusiv auf ein einziges Tier konzentriert, statt sich auf viele Themen zu verteilen – ›A Prickly Affair‹, eine stachelige Liebesaffäre, wie er sein Lebenswerk selbst nennt."
       },
       {
         titel: "Radikaler Durchbruch zum Kern statt Anhaftung an System, Status oder Besitz",
@@ -48181,6 +48186,67 @@ function ingoZimmermannPortraitPage() {
         {route:"beruehmte-franz-kafka", label:"Porträt: Franz Kafka (SE5w4)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-ingo-zimmermann")}
+    </div>
+  `);
+}
+
+function hughWarwickPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hugh-warwick-portrait.jpg" alt="Igel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hugh Warwick</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexueller Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Ökologe, Autor, "der Igelflüsterer" &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel, der eine lebenslange Liebesaffäre mit dem Igel führt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier der sexuellen Fünf &ndash; stachelig nach außen, verletzlich im Kern, und fähig zu einer Intensität der Bindung, die sich nicht auf viele, sondern auf eine einzige, tief erforschte Sache konzentriert. Kaum ein Leben zeigt dieses Muster so wörtlich wie das von Hugh Warwick, britischer Ökologe, Autor und Sprecher der British Hedgehog Preservation Society, den man wegen seiner jahrzehntelangen Hingabe schlicht "den Igelflüsterer" nennt.</p>
+          <p class="vb-intro">Warwick studierte Igel seit Mitte der 1980er-Jahre, verbrachte Monate mit Radiotelemetrie-Verfolgung der Tiere in Südwestengland und Schottland und widmet ihnen seit über drei Jahrzehnten praktisch sein gesamtes berufliches Leben. Eines seiner bekanntesten Bücher trägt den bezeichnenden Titel "A Prickly Affair" &ndash; eine "stachelige Liebesaffäre" &ndash; ein Titel, der seine Beziehung zum Igel selbst als das beschreibt, was sie ist: eine Affäre, keine bloße Fachstudie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Intensität statt distanzierter Beobachtung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Fünf (SX5)</strong> unterscheidet sich von den anderen Fünfer-Subtypen durch ihre Fähigkeit zu einer fast schon verschmelzenden Intensität &ndash; sie beobachtet nicht aus sicherer Distanz wie aus einem Elfenbeinturm, sondern sucht die tiefste mögliche Nähe zu einem einzigen, sorgfältig gewählten Gegenstand ihrer Leidenschaft. Bei Warwick zeigt sich das darin, dass er nicht bei nüchterner Feldforschung stehen blieb, sondern sich in die gesamte Kulturgeschichte der Stacheltiere eingegraben hat &ndash; von der Biologie über die Mythologie bis zur Ikonografie des Igels in Kunst und Volksglauben.</p>
+          <p class="vb-intro">Statt anonymer Stubenhocker zu bleiben, reist er um die Welt, um "Menschen ein bisschen wie ihn selbst" zu erforschen &ndash; Igelliebhaber überall, mit denen er die eigene, sonst so ungewöhnliche Leidenschaft teilen kann. Diese fast fieberhafte intellektuelle und emotionale Hingabe an ein einziges Lebensthema, verfolgt mit einer Konsequenz, die weit über normales Fachinteresse hinausgeht, ist reine sexuelle Fünfer-Energie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Stacheln als Schutz, Sehnsucht als Motor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> verleiht der Fünf eine romantische, oft melancholische Tiefe &ndash; die reine analytische Distanz wird durch eine emotionale, fast poetische Note ergänzt, die das Fachliche zur persönlichen Geschichte macht. Warwicks Bücher lesen sich entsprechend nicht wie trockene Sachliteratur, sondern wie persönliche Erzählungen einer Suche &ndash; nach der eigenen Verbindung zu einem Tier, das die Welt meist übersieht.</p>
+          <p class="vb-intro">Wie der Igel selbst schützt auch Warwick seine eigene Verletzlichkeit mit einer Art Stachelkleid: Humor und pointierte, oft bissig-witzige publizistische Arbeit, hinter der sich die tiefste emotionale Resonanz zu genau diesem einen Tier verbirgt. Er führt, im übertragenen Sinne, eine fast exklusive, leidenschaftliche Zweierbeziehung mit dem Igel als Spezies &ndash; keine distanzierte Fachbeziehung, sondern etwas, das er selbst als Liebesaffäre bezeichnet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w4 ist die Fähigkeit, <strong>eine private, fast obsessive Leidenschaft in eine öffentlich wirksame Schutzbewegung</strong> zu verwandeln &ndash; Warwicks Kampagne für gesetzlich verpflichtende "Igelautobahnen" in britischen Neubaugebieten sammelte eine Petition mit fast einer Million Unterschriften und internationale Aufmerksamkeit für ein Tier, das ohne solche Fürsprecher leicht übersehen wird.</p>
+          <p class="vb-intro">Der Schatten der sexuellen Fünf mit Viererflügel zeigt sich darin, wie eng die eigene Identität an ein einziges, sehr spezielles Thema gebunden werden kann &ndash; sein eigener Social-Media-Name "hedgehoghugh" macht deutlich, wie vollständig der Igel seine öffentliche Person definiert. Eine derart exklusive Bindung trägt weit, aber sie lässt wenig Raum für ein Selbst jenseits dieser einen Leidenschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Igel, der die Welt für den Igel bereist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Warwick der Welt gibt, ist weit mehr als Fachwissen: Er hat einem stillen, meist unbeachteten Tier eine Stimme gegeben, die bis in die britische Gesetzgebung hineinreicht. Elf Bücher, Jahrzehnte Feldforschung, eine internationale Bewegung &ndash; alles entstanden aus einer einzigen, nie erloschenen Faszination.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das kaum treffender für die sexuelle Fünf mit Viererflügel stehen könnte: ein Mann, dessen archetypisches Tier der Igel ist, der sein ganzes Leben lang genau diesem einen Tier eine leidenschaftliche, fast liebende Treue hält &ndash; stachelig nach außen, zutiefst hingegeben im Kern.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx5", label:"Lebensmusterkompass: SX5 – Igel"},
+        {route:"beruehmte-greta-garbo", label:"Porträt: Greta Garbo (SX5w4)"},
+        {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-hugh-warwick")}
     </div>
   `);
 }
@@ -92085,6 +92151,7 @@ function render() {
       "beruehmte-carl-friedrich-gauss": carlFriedrichGaussPortraitPage,
       "beruehmte-paris-hilton": parisHiltonPortraitPage,
       "beruehmte-ingo-zimmermann": ingoZimmermannPortraitPage,
+      "beruehmte-hugh-warwick": hughWarwickPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
