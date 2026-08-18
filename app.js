@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SX3: {
+    tier: "Pfau",
+    kernthema: "Unmittelbare Präsenz und Magnetismus – ohne Berechnung, aber mit ganzer Wirkung",
+    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Diane Downs", "Luka Magnotta", "Richard Ramírez"],
+    fingerabdruecke: [
+      {
+        titel: "Unmittelbare, magnetische Präsenz statt berechneter Inszenierung",
+        beschreibung: "Die Wirkung entsteht nicht durch geplante Strategie, sondern durch eine Präsenz, die sich der Analyse entzieht – man kann sich ihr kaum entziehen, ohne dass erkennbar wäre, wie genau sie entsteht.",
+        beleg: "Brad Pitt: ›Der Pfau, dessen Wirkung nicht aus Berechnung entsteht, sondern aus reiner, unmittelbarer Präsenz. Er muss nichts beweisen, er muss nur da sein‹; Brigitte Bardot: ›Ein Tier, das sein Gefieder nicht zur Berechnung entfaltet, sondern weil Pracht sein Wesen ist‹; Marilyn Monroe: ›Ihr Auftritt war nicht Technik, sondern eine Präsenz, der sich niemand entziehen konnte.‹"
+      },
+      {
+        titel: "Strahlt, ohne es selbst bewusst einzusetzen",
+        beschreibung: "Bei einem Teil der Fälle geschieht die Wirkung fast unbewusst – die Person selbst ist sich der eigenen Anziehungskraft kaum bewusst, was den Effekt oft noch verstärkt.",
+        beleg: "Kai Pflaume: ›Er strahlt nicht, weil er strahlen muss. Er strahlt, weil sein Licht von innen kommt‹; Lena Meyer-Landrut: ›Der Pfau entfaltet sein Rad nicht auf Befehl. Er tut es, weil es sein Wesen ist. Was ihn bisweilen auszeichnet: Er weiß es selbst nicht immer‹ – ›Sie zieht an, ohne zu verführen. Sie strahlt, ohne zu inszenieren.‹"
+      },
+      {
+        titel: "Die bewusste, vollständige Darbietung als Kunstform für andere",
+        beschreibung: "Am anderen Ende desselben Spektrums steht die ganz bewusst eingesetzte, vollständig ausgespielte Selbstdarstellung – kein privates Vergnügen, sondern eine gezielte Vorstellung, die genau weiß, welche Wirkung sie erzielen will.",
+        beleg: "Dieter Bohlen: ›Der Pfau ist das einzige Tier, das seinen schönsten Moment vollständig für andere entfaltet. Das Rad des Pfaus ist kein privates Vergnügen. Es ist eine Vorstellung … Der Pfau weiß genau, was er ist – und er versteckt es nicht.‹"
+      },
+      {
+        titel: "Das perfekte Ideal oder die perfekte Inszenierung wird zur mörderischen Fixierung (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird derselbe Drang nach vollständiger, überwältigender Selbstdarstellung zu etwas Zerstörerischem: ein Bild von sich selbst wird um jeden Preis verteidigt oder inszeniert – auch gegen das eigene Gewissen oder mit tödlicher Konsequenz.",
+        beleg: "Diane Downs, die ihre eigenen Kinder tötete, ›um für einen Mann das perfekte, ungebundene Ideal zu sein‹; Luka Magnotta, dessen Taten als ›extreme Selbstinszenierung des Schreckens‹ beschrieben werden – Video-Veröffentlichung inklusive; Richard Ramírez, dessen Auftreten im Gerichtssaal – ›das Victory-Zeichen, das Pentagramm auf der Handfläche, der Blick für die Kameras‹ – die Performance bis in den eigenen Prozess hinein fortsetzte. Wichtig: Diese drei Fälle sind seltene Extremformen, keine typische Ausprägung der SX3 in diesem Kompass."
+      }
+    ]
+  },
   SE3: {
     tier: "Waschbär",
     kernthema: "Können statt Glänzen – die natürliche Maske, die aus Wenigem ein funktionierendes System baut (Naranjo: der Kontratyp der Drei)",
