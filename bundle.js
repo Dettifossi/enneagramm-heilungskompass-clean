@@ -42454,23 +42454,23 @@ const LEBENSMUSTERKOMPASS = {
     fingerabdruecke: [
       {
         titel: "Die eine Bindung statt der vielen Kontakte",
-        beschreibung: "Immer wieder zentriert sich das Leben nicht um ein Netzwerk, eine Institution oder ein Publikum, sondern um eine einzelne, oft nicht-menschliche oder sehr private Beziehung bzw. ein einzelnes Werk: ein bestimmtes Tier, eine bestimmte Rolle, ein bestimmter Stil. Diese eine Verschmelzung wird zum Dreh- und Angelpunkt der gesamten weiteren Biografie – bis hin zur Auflösung der Grenze zwischen dem eigenen Ich und dem Gegenüber.",
-        beleg: "Foster und sein namenloser Oktopus, Goodall und der Schimpanse David Greybeard, Salceda und das Faultier Velcro; Velázquez in ›Las Meninas‹, wo ›die Grenze zwischen Betrachter und Betrachtetem verschwimmt‹; Beltracchi, dessen Kunstfälschungen als ›Verschmelzung mit dem Geist toter Meister‹ beschrieben werden; Carl Rogers' bedingungslos annehmende therapeutische Präsenz für sein Gegenüber."
+        beschreibung: "Immer wieder zentriert sich das Leben nicht um ein Netzwerk, eine Institution oder ein Publikum, sondern um eine einzelne, oft nicht-menschliche oder sehr private Beziehung bzw. ein einzelnes Werk oder eine einzelne Rolle. Diese eine Verschmelzung wird zum Dreh- und Angelpunkt der gesamten weiteren Biografie – bis hin zur Auflösung der Grenze zwischen dem eigenen Ich und dem Gegenüber.",
+        beleg: "Foster und sein namenloser Oktopus, Goodall und der Schimpanse David Greybeard, Salceda und das Faultier Velcro; Velázquez in ›Las Meninas‹, wo ›die Grenze zwischen Betrachter und Betrachtetem verschwimmt‹; Beltracchi, dessen Kunstfälschungen als ›Verschmelzung mit dem Geist toter Meister‹ beschrieben werden; Carl Rogers' bedingungslos annehmende therapeutische Präsenz für sein Gegenüber; Mario Barth, der seit seinem Bühnendebüt 2001 ›von da an mit einer Bühnenfigur verschmolz, die zum Millionenpublikum sprach‹ – dem Berliner Kumpeltyp; Keanu Reeves' Verschmelzung mit einzelnen ikonischen Rollen (Neo, John Wick), ohne die dazugehörige Star-Fassade je mitzuleben."
       },
       {
         titel: "Scheinbare Trägheit, die sich bei Bedarf in volle, präzise Intensität verwandelt",
         beschreibung: "Von außen wirkt die Grundhaltung zurückhaltend, mühelos, fast unbeteiligt. Doch sobald der richtige Moment oder eine Grenzüberschreitung eintritt, zeigt sich eine überraschend vollständige, hochpräzise Reaktion – kein abgestuftes Engagement, sondern ein Umschlagen von Null auf Hundert.",
-        beleg: "›Das Faultier hängt still, bis es sich bewegt. Wenn es sich bewegt, gibt es alles‹ (Makatsch); Dakota Johnsons ›Krallen, die man erst sieht, wenn man zu nahe kommt‹; Iga Świątek, die ›mühelos‹ wirkt, aber ›wenn sie zuschnappt, mit einer Präzision, die verblüfft‹."
+        beleg: "›Das Faultier hängt still, bis es sich bewegt. Wenn es sich bewegt, gibt es alles‹ (Makatsch); Dakota Johnsons ›Krallen, die man erst sieht, wenn man zu nahe kommt‹; Iga Świątek, die ›mühelos‹ wirkt, aber ›wenn sie zuschnappt, mit einer Präzision, die verblüfft‹; Keanu Reeves' Faultiere sind ›nicht faul – sie sind äußerst energiesparend, sie machen genau das, was nötig ist, mit einem Minimum an Aufwand und einem Maximum an Wirkung‹, sichtbar im Kontrast zwischen der ruhigen Privatperson und der körperlich vollständig ausgereizten John-Wick-Rolle."
       },
       {
         titel: "Langsame, unforcierte Ausdehnung über Jahrzehnte statt geplanter Karriereplanung",
-        beschreibung: "Statt einen Erfolg strategisch zu forcieren oder auszubauen, entfaltet sich das Lebenswerk in einem beiläufigen, fast selbstvergessenen Tempo – über viele Jahre, ohne den Eindruck von Zwang oder Kalkül.",
-        beleg: "Sophie Marceau: ›ein langsames, fast beiläufiges Sich-Ausdehnen über Jahrzehnte … ohne dass sie dabei je den Eindruck erweckte, etwas zu erzwingen‹; Hundertwassers lebenslanges Werk, Architektur mit Natur verschmelzen zu lassen, statt einzelne abgeschlossene Projekte abzuliefern."
+        beschreibung: "Statt einen Erfolg strategisch zu forcieren oder auszubauen, entfaltet sich das Lebenswerk in einem beiläufigen, fast selbstvergessenen Tempo – über viele Jahre, ohne den Eindruck von Zwang, Inszenierung oder Entourage.",
+        beleg: "Sophie Marceau: ›ein langsames, fast beiläufiges Sich-Ausdehnen über Jahrzehnte … ohne dass sie dabei je den Eindruck erweckte, etwas zu erzwingen‹; Hundertwassers lebenslanges Werk, Architektur mit Natur verschmelzen zu lassen, statt einzelne abgeschlossene Projekte abzuliefern; Keanu Reeves, der trotz Weltruhm ›allein auf einer Parkbank sitzt und ein Sandwich isst – kein Bodyguard, keine Entourage‹: ›Der Faultier-Mensch braucht keine Bühne. Er ist einfach da.‹"
       },
       {
         titel: "Häufig geht der eigentlichen Hingabe eine biografische Zäsur voraus",
         beschreibung: "Bei einem Teil der Fälle (nicht bei allen) steht am Anfang nicht ein geplanter Weg, sondern eine Krise, ein Bruch oder ein Zufall – aus dem heraus sich die spätere, oft lebenslange Verschmelzungserfahrung erst entwickelt.",
-        beleg: "Craig Fosters Burnout vor der Begegnung mit dem Oktopus; Ana Salcedas zufällige, ungeplante Pflegemutterschaft für ein verwaistes Jungtier. Gegenbeispiele wie Świątek oder Marceau zeigen: Dieses Muster ist häufig, aber kein zwingendes Kriterium."
+        beleg: "Craig Fosters Burnout vor der Begegnung mit dem Oktopus; Ana Salcedas zufällige, ungeplante Pflegemutterschaft für ein verwaistes Jungtier. Gegenbeispiele wie Świątek, Marceau oder Barth (planmäßiger Wechsel vom Fernmeldeelektroniker zur Bühnenfigur) zeigen: Dieses Muster ist häufig, aber kein zwingendes Kriterium."
       }
     ]
   },
@@ -42509,22 +42509,22 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Der kontrollierte Blick als Machtinstrument",
         beschreibung: "Auffällig häufig wird der eigene Blick – ob durch Verbergen oder durch gezielten Einsatz – zu einem bewussten Steuerungsinstrument: Wer sieht, wird gesehen; wer sich entzieht, wird zum Rätsel, das Aufmerksamkeit bindet.",
-        beleg: "Karl Lagerfelds permanente Sonnenbrille als ›Instrument der Kontrolle‹; Sahra Wagenknechts ›ruhiger, präziser, leicht überblickender‹ Blick, der ›das Publikum sucht, die Wirkung misst, die Resonanz berechnet‹. Wichtig: Dies ist ein sichtbares Verhaltensmuster, kein zuverlässiges Diagnosekriterium für sich allein."
+        beleg: "Karl Lagerfelds permanente Sonnenbrille als ›Instrument der Kontrolle‹; Sahra Wagenknechts ›ruhiger, präziser, leicht überblickender‹ Blick, der ›das Publikum sucht, die Wirkung misst, die Resonanz berechnet‹; Dr. Laurie Markers Auftreten, das ›Tempo, Sichtbarkeit, makellose Zielgenauigkeit‹ trägt – dieselben Eigenschaften, die sie beim Geparden erforscht. Wichtig: Dies ist ein sichtbares Verhaltensmuster, kein zuverlässiges Diagnosekriterium für sich allein."
       },
       {
         titel: "Der eine gewagte, öffentlich sichtbare Sprung statt schrittweiser Annäherung",
         beschreibung: "Der entscheidende Erfolg entsteht oft nicht durch allmähliche Annäherung, sondern durch einen einzelnen, riskanten, öffentlich sichtbaren Schritt im genau richtigen Moment – verbunden mit überprüfbaren Rekordzahlen als Beleg der Spitzenposition.",
-        beleg: "Christiaan Barnard wagte 1967 die weltweit erste Herztransplantation, ›der Gepard jagt nicht aus Kraft, sondern aus Tempo und Wagemut‹; Ludwig XIV. inszenierte sich bereits mit 14 Jahren als ›Sonnenkönig‹ – ein Programm, das er zeitlebens fortführte; Cristiano Ronaldo: fünf Weltfußballer-Titel, über 900 Karrieretore – ›nicht einer der Besten. Der Beste.‹"
+        beleg: "Christiaan Barnard wagte 1967 die weltweit erste Herztransplantation, ›der Gepard jagt nicht aus Kraft, sondern aus Tempo und Wagemut‹; Ludwig XIV. inszenierte sich bereits mit 14 Jahren als ›Sonnenkönig‹ – ein Programm, das er zeitlebens fortführte; Cristiano Ronaldo: fünf Weltfußballer-Titel, über 900 Karrieretore – ›nicht einer der Besten. Der Beste.‹; Teresa von Ávila, die mit chronisch schwacher Gesundheit binnen zwei Jahrzehnten siebzehn reformierte Klöster gründete: ›Der Gepard bleibt nicht im Rudel zurück. Er sprintet voraus, während andere im gewohnten Tempo weitergehen.‹"
       },
       {
         titel: "Parallele Erfolgsfelder statt eines einzigen Fachgebiets",
         beschreibung: "Erfolg wird nicht auf ein Gebiet begrenzt, sondern gleichzeitig oder nacheinander in mehreren, oft branchenfremden Bereichen gesucht und erreicht.",
-        beleg: "Pharrell Williams zwischen Musikproduktion, eigener Band und Mode-Kreativdirektion; Bella Thorne als ›Schauspielerin, Sängerin, Regisseurin, Autorin, Unternehmerin, Social-Media-Star‹; Leibniz gleichzeitig als ›Philosoph, Mathematiker, Logiker, Jurist, Diplomat, Historiker, Bibliothekar und Ingenieur‹ – ›nicht nacheinander, sondern in ständiger Überlappung‹."
+        beleg: "Pharrell Williams zwischen Musikproduktion, eigener Band und Mode-Kreativdirektion; Bella Thorne als ›Schauspielerin, Sängerin, Regisseurin, Autorin, Unternehmerin, Social-Media-Star‹; Leibniz gleichzeitig als ›Philosoph, Mathematiker, Logiker, Jurist, Diplomat, Historiker, Bibliothekar und Ingenieur‹ – ›nicht nacheinander, sondern in ständiger Überlappung‹; Dr. Laurie Marker, die neben der Feldforschung ein weltweites Schutz-, Bildungs- und Zuchtprogramm (Cheetah Conservation Fund) parallel aufbaute, statt bei reiner Wissenschaft zu bleiben."
       },
       {
         titel: "Verwandlung in ein wiedererkennbares Symbol – oder bewusste Ablehnung des sicheren Reviers dafür",
         beschreibung: "Am Ende der Entwicklung steht häufig ein sofort identifizierbares, ikonisches Erscheinungsbild. Der Weg dorthin führt oft über die bewusste Ablehnung einer sicheren, aber begrenzenden Option zugunsten der offenen, sichtbaren Fläche.",
-        beleg: "Lagerfeld: ›Er hatte sich in ein Symbol verwandelt … weltweit, zeitlos‹; Leibniz lehnte eine sichere Professur ab, weil ›der Gepard nicht im geschützten Revier eines einzelnen Hörsaals bleibt‹; Sean Connerys radikale Distanzüberwindung vom Milchmann zu James Bond."
+        beleg: "Lagerfeld: ›Er hatte sich in ein Symbol verwandelt … weltweit, zeitlos‹; Leibniz lehnte eine sichere Professur ab, weil ›der Gepard nicht im geschützten Revier eines einzelnen Hörsaals bleibt‹; Sean Connerys radikale Distanzüberwindung vom Milchmann zu James Bond; Teresa von Ávila, der der reguläre Klosteralltag nicht genügte: ›Sie wollte nicht einfach Nonne sein – sie wollte den Orden erneuern, sichtbar, spürbar, unwiderlegbar.‹"
       }
     ]
   }

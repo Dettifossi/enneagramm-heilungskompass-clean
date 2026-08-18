@@ -46,6 +46,14 @@ Dieser Schritt ist **nicht** Teil des automatisierten Post-Commit-Hooks (der kü
 - CSS-Variablen: `--copper`, `--paper`, `--ink`, `--muted`, `--line`.
 - Neue Inhalte in `data/subtypes/` oder `data/knowledge/`, NIE zurück in `de.js`.
 
+## Lebensmusterkompass — Pflichtschritt bei jedem neuen Porträt zu SE7, SX9, SO3 (und künftig weiteren Subtypen)
+
+Die Rubrik „Lebensmusterkompass" (`LEBENSMUSTERKOMPASS`-Objekt in `bundle.js`, vor `function tritypenPage()`) enthält je bearbeitetem Subtyp 3–5 „biografische Fingerabdrücke" mit `beschreibung` (abstraktes Muster) und `beleg` (konkrete Zitate/Fakten aus den Porträts).
+
+**Die Beispielporträts-Liste auf der Detailseite aktualisiert sich automatisch** (`lebensmusterkompassPortraitsForCode()` zieht live aus `BERUEHMT_PORTRAITS`/`KRIMINAL_PORTRAITS`) — hier ist nichts weiter zu tun.
+
+**Die `beleg`-Felder aktualisieren sich NICHT automatisch** — das ist Prosa, die inhaltlich passend ausgewählt werden muss. Deshalb: Sobald ein neues Porträt zu einem Subtyp entsteht, der bereits im `LEBENSMUSTERKOMPASS`-Objekt enthalten ist (aktuell SE7, SX9, SO3), als zusätzlichen Schritt vor dem Commit prüfen, ob das neue Porträt zu einem der bestehenden Fingerabdrücke passt, und ein passendes Zitat/Fakt aus dem neuen Porträt in das jeweilige `beleg`-Feld einfügen (Vorbild: SE7, alle 12 Porträts eingearbeitet, August 2026). Ziel: Belege sollen möglichst aus **allen** vorliegenden Porträts des Subtyps gespeist sein, nicht nur aus einer Auswahl.
+
 ## Register & Suchfunktion — Pflichtschritt bei jedem neuen Inhalt
 
 **Suche = Register.** Beide greifen auf `data/register.js` zurück (`registerEntries`-Array).
