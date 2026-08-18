@@ -31853,6 +31853,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Mariella Superina \u2013 Sozialer Typ 4",
     teaser:"SO4w5 \u00b7 Schweizer Tier\u00e4rztin und Wissenschaftlerin, seit \u00fcber 20 Jahren die weltweit f\u00fchrende G\u00fcrteltierforscherin, Vorsitzende der IUCN-Spezialistengruppe f\u00fcr G\u00fcrteltiere. Weltweit anerkannte Autorit\u00e4t f\u00fcr ausgerechnet das eigene archetypische Tier. Tierentsprechung: G\u00fcrteltier.",
     tags:["Wissenschaft"], gender:"f"},
+  { route:"beruehmte-carl-friedrich-gauss", name:"Carl Friedrich Gau\u00df", added:"2026-08-18", subtyp:"SE5w6",
+    heading:"Carl Friedrich Gau\u00df \u2013 Selbsterhaltender Typ 5",
+    teaser:"SE5w6 \u00b7 1777\u20131855. Mathematiker, Astronom, Physiker. Normalverteilung, Gau\u00df'sches Eliminationsverfahren, Grundlagenarbeit f\u00fcr fast jede moderne Naturwissenschaft. Ver\u00f6ffentlichte nur, was vollkommen ausgereift war \u2013 \u203apauca sed matura\u2039, wenig, aber reif. Tierentsprechung: Eule.",
+    tags:["Wissenschaft","Geschichte"], gender:"m"},
   { route:"beruehmte-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
     heading:"Romy Schneider \u2013 Sozialer Typ 4",
     teaser:"SO4w3 \u00b7 1938\u20131982. Schauspielerin. Sissi, C\u00e9sar und Rosalie, La Piscine. Das G\u00fcrteltier, das im Licht stand \u2013 und sich innerlich immer einrollte.",
@@ -42838,17 +42842,17 @@ const LEBENSMUSTERKOMPASS = {
   SE5: {
     tier: "Eule",
     kernthema: "Der Rückzug als bewusst gebaute Burg – stille Beobachtung statt Flucht",
-    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch de Spinoza", "Carl Tanzler", "Joachim Kroll"],
+    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch de Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauß"],
     fingerabdruecke: [
       {
         titel: "Der Rückzug als bewusst gebaute ›Burg‹ statt bloße Flucht",
         beschreibung: "Der Rückzugsraum ist kein Zeichen von Schwäche, sondern eine aktiv errichtete, geschützte Basis, von der aus beobachtet, gedacht und gearbeitet wird – klein, überschaubar, aber vollständig unter eigener Kontrolle.",
-        beleg: "Xu Bing: ›Die Eule, die in der Zeit der größten Öffentlichkeit lernte, sich in die Stille des Zeichens zurückzuziehen‹ – ›Die Burg aus Zeichen‹; Peter Lustig, dessen Wohnwagen zur ›Burg‹ wurde; Warren Buffett, der seit 1958 im selben Haus in Omaha lebt: ›Die Burg in Omaha‹; Hermann Hesse, der vierzig Jahre in seinem Tessiner Haus verbrachte: ›Die Burg im Tessin‹; Spinoza: ›Die Burg des Denkens.‹"
+        beleg: "Xu Bing: ›Die Eule, die in der Zeit der größten Öffentlichkeit lernte, sich in die Stille des Zeichens zurückzuziehen‹ – ›Die Burg aus Zeichen‹; Peter Lustig, dessen Wohnwagen zur ›Burg‹ wurde; Warren Buffett, der seit 1958 im selben Haus in Omaha lebt: ›Die Burg in Omaha‹; Hermann Hesse, der vierzig Jahre in seinem Tessiner Haus verbrachte: ›Die Burg im Tessin‹; Spinoza: ›Die Burg des Denkens‹; Carl Friedrich Gauß, der Göttingen praktisch nie verließ und Jahrzehnte als Sternwarten-Direktor in einer sicheren, geordneten Alltagsstruktur forschte."
       },
       {
         titel: "Geduldiges Warten, bis das Wissen oder der Moment unangreifbar ist",
         beschreibung: "Handeln oder Veröffentlichen geschieht nicht impulsiv, sondern erst, wenn jeder Einwand vorweggenommen und jedes Detail gesichert ist – ein Vorgehen, das von außen wie Zögern wirken kann, aber Ausdruck äußerster Sorgfalt ist.",
-        beleg: "Charles Darwin, der seine Evolutionstheorie ›zwanzig Jahre lang zurückhielt, bevor er sie veröffentlichte … bis das Beobachtete unangreifbar war‹; Warren Buffett: ›Sie handelt erst, wenn sie wirklich verstanden hat, was sie sieht. Und wenn sie handelt, dann mit einer Präzision, die andere für Glück halten, die aber Jahrzehnte geduldiger Beobachtung voraussetzt.‹"
+        beleg: "Charles Darwin, der seine Evolutionstheorie ›zwanzig Jahre lang zurückhielt, bevor er sie veröffentlichte … bis das Beobachtete unangreifbar war‹; Warren Buffett: ›Sie handelt erst, wenn sie wirklich verstanden hat, was sie sieht. Und wenn sie handelt, dann mit einer Präzision, die andere für Glück halten, die aber Jahrzehnte geduldiger Beobachtung voraussetzt‹; Carl Friedrich Gauß, dessen Lebensmotto ›pauca sed matura‹ – wenig, aber reif – lautete und der ganze mathematische Entdeckungen jahrzehntelang zurückhielt, aus Furcht vor dem ›Geschrei der Böotier‹, bevor er sie für vollkommen ausgereift hielt."
       },
       {
         titel: "Verstoßung oder Krise wird zur Methode des Rückzugs, statt zum offenen Bruch zu führen",
@@ -47988,6 +47992,65 @@ function mariellaSuperinaPortraitPage() {
         {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-mariella-superina")}
+    </div>
+  `);
+}
+
+function carlFriedrichGaussPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-carl-friedrich-gauss-portrait.jpg" alt="Eule" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carl Friedrich Gauß</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Mathematiker, Astronom, Physiker, 1777&ndash;1855 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule, die still im Nest arbeitete, bis das Ei vollkommen war</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier der selbsterhaltenden Fünf &ndash; sie hortet ihre Energie und ihr Wissen, zeigt sich selten, und tritt erst dann hervor, wenn etwas wirklich fertig durchdacht ist. Kaum ein Leben verkörpert dieses Prinzip so konsequent wie das von Carl Friedrich Gauß: Der "Princeps mathematicorum", der Fürst der Mathematiker, legte mit der Normalverteilung, dem Gauß'schen Eliminationsverfahren, der Gaußschen Krümmung und grundlegenden Arbeiten zu Zahlentheorie, Magnetismus und Astronomie das Fundament für weite Teile der modernen Naturwissenschaft &ndash; und veröffentlichte davon nur einen Bruchteil dessen, was er tatsächlich entdeckt hatte.</p>
+          <p class="vb-intro">Gauß wurde 1777 in Braunschweig als Sohn einfacher Handwerker geboren und zeigte schon als Kind eine außergewöhnliche Rechenbegabung &ndash; der Legende nach summierte er als Schuljunge blitzschnell die Zahlen von 1 bis 100, indem er sie paarweise zu jeweils 101 kombinierte, statt sie mühsam einzeln zu addieren. Sein persönliches Motto, das er zeitlebens beherzigte, lautete "pauca sed matura" &ndash; wenig, aber reif.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Fünf: Wissen horten, bis es reif ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Fünf (SE5)</strong> zieht sich zurück, um ihre begrenzten inneren Ressourcen zu schützen &ndash; sie gibt nichts preis, das nicht restlos durchdacht ist, und empfindet Störung, Publikum oder öffentliches Auftreten als Bedrohung ihrer kostbaren inneren Ordnung. Gauß lehrte nur widerwillig, mied Ablenkungen und Unterbrechungen und arbeitete am liebsten allein, ohne mit jüngeren Mathematikern zusammenzuarbeiten oder sie in seine Gedankenwelt einzuweihen.</p>
+          <p class="vb-intro">Sein Perfektionismus war radikal: Viele seiner bedeutendsten Entdeckungen &ndash; darunter Teile der nichteuklidischen Geometrie &ndash; hielt er jahrzehntelang komplett zurück, aus Furcht vor dem "Geschrei der Böotier", also vor öffentlicher Kritik von Menschen, die seine Gedanken nicht verstehen würden. Die selbsterhaltende Fünf gibt lieber gar nichts preis, als etwas Unfertiges der Welt auszusetzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Vorsicht vor jedem Kontroversen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> verstärkt bei der Fünf das Bedürfnis nach Absicherung und Vorsicht &ndash; nicht aus Ängstlichkeit im Alltäglichen, sondern aus einem tiefen Misstrauen gegenüber Situationen, in denen die eigene Position angreifbar würde. Genau dieses Muster zeigte sich in Gauß' jahrzehntelangem Zurückhalten kontroverser Ergebnisse: Lieber verzichtete er auf Priorität und Anerkennung, als sich einer öffentlichen Auseinandersetzung auszusetzen, deren Ausgang er nicht vollständig kontrollieren konnte.</p>
+          <p class="vb-intro">Auch sein bürgerliches Leben zeigte diese Sechser-Note: Er verließ Göttingen praktisch nie, hielt an einer geordneten, berechenbaren Alltagsstruktur fest und wirkte über Jahrzehnte als Direktor der Göttinger Sternwarte &ndash; eine sichere, institutionell abgesicherte Position, von der aus er in Ruhe forschen konnte, statt sich dem Risiko einer ungebundenen Gelehrtenexistenz auszusetzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w6 ist die Fähigkeit, <strong>durch radikale Zurückgezogenheit zu Erkenntnissen von jahrhundertelanger Tragweite</strong> vorzudringen &ndash; die Gaußsche Normalverteilung ist bis heute eines der zentralen Werkzeuge der gesamten Statistik, von der Naturwissenschaft bis zur Sozialforschung, und sein Eliminationsverfahren gehört zum mathematischen Grundwerkzeug jeder Ingenieurin und jedes Ingenieurs weltweit.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in verpasster Anerkennung und verlorener Priorität: Weil Gauß so vieles zurückhielt, wurden manche seiner Entdeckungen später unabhängig von anderen Forschern gemacht und veröffentlicht, die dafür die Lorbeeren erhielten. Die Kehrseite der selbsterhaltenden Fünf mit Sechserflügel: Absolute Sicherheit vor Kritik zu suchen, kann bedeuten, der Welt Erkenntnisse vorzuenthalten, die sie dringend gebraucht hätte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Eule, die die Glockenkurve prägte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gauß starb 1855 in Göttingen, hochgeehrt, aber bis zuletzt zurückhaltend gegenüber öffentlichem Auftreten. In Deutschland blieb sein Bild bis zur Euro-Einführung sogar im ganz alltäglichen Umlauf präsent &ndash; sein Porträt und die von ihm geprägte Glockenkurve zierten jahrzehntelang den Zehn-D-Mark-Schein, den Millionen Menschen täglich in der Tasche trugen, ohne unbedingt zu wissen, wessen zurückgezogenes Genie da abgebildet war.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das kaum treffender für die selbsterhaltende Fünf mit Sechserflügel stehen könnte: eine Eule, die im Verborgenen arbeitete, aus Vorsicht vieles zurückhielt &ndash; und deren stillste, reifste Frucht, die Normalverteilungskurve, heute weltweit beschreibt, wie sich fast alles in der Natur um einen ruhigen Mittelwert verteilt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se5", label:"Lebensmusterkompass: SE5 – Eule"},
+        {route:"bewusstseinsgrad-normalverteilung", label:"Bewusstseinsgrad & Gaußsche Normalverteilungskurve"},
+      ])}
     </div>
   `);
 }
@@ -80303,6 +80366,7 @@ function bewusstseinsgradNormalverteilungPage() {
           {route:"dynamik-des-bewusstseinszustandes", label:"Dynamik des Bewusstseinszustandes"},
           {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
           {route:"beruehmte-persoenlichkeiten", label:"Berühmte Persönlichkeiten"},
+          {route:"beruehmte-carl-friedrich-gauss", label:"Porträt: Carl Friedrich Gauß (SE5w6) – Namensgeber der Kurve"},
           {route:"knowledge", label:"Wissensbasis"},
         ])}
       </div>
@@ -91888,6 +91952,7 @@ function render() {
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
+      "beruehmte-carl-friedrich-gauss": carlFriedrichGaussPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
