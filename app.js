@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SX2: {
+    tier: "Kamel",
+    kernthema: "Ein ganzes Publikum in eine einzige, persönliche Begegnung verwandeln",
+    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart"],
+    fingerabdruecke: [
+      {
+        titel: "Intimität im Großen – aus vielen wird ein Einzelner",
+        beschreibung: "Die Fähigkeit, sich auch vor einem riesigen Publikum so zu geben, dass jeder Einzelne das Gefühl bekommt, persönlich gemeint zu sein – Verführung nicht als Masche, sondern als natürliche Frequenz.",
+        beleg: "Monika Gruber, deren Programme ›Hallen mit tausenden Menschen füllen‹ und die dennoch ›Intimität im Großen schafft: Sie macht aus einem Publikum eine einzige persönliche Begegnung‹; Elvis Presley, der ›nicht für ein Publikum sang, er sang für jeden Einzelnen darin‹; Braco, ›The Gazer‹, dessen bloßer Blick vor Tausenden ›das Gefühl, gesehen zu werden‹ erzeugt; Pamela Reif, die millionenfach auf Bildschirmen vermittelt: ›Ich begleite dich.‹"
+      },
+      {
+        titel: "Trägt und gibt sich vollständig, ohne sich aufzudrängen",
+        beschreibung: "Hingabe zeigt sich nicht als lautes Werben, sondern als beständiges, geduldiges Mittragen – im Dienst einer Verbindung, eines Weges, eines Partners, ohne dabei viel zurückzuverlangen.",
+        beleg: "Matthias Schweighöfer, der als Regisseur ›seine Crew mitnimmt, als wäre jedes Set eine Gemeinschaft‹: ›Das Kamel zieht nicht einfach durch die Wüste. Es sorgt dafür, dass alle ankommen‹; Milow, der einen harten Song ›sanft weitertrug, bis er ankam‹; Anastasiia Metelkina, deren Paarlauf-Karriere buchstäblich auf gegenseitigem Tragen beruht: ›Zwei Körper müssen sich gegenseitig tragen … ein einziger Vertrauensbruch bedeutet den Sturz.‹"
+      },
+      {
+        titel: "Speichert Energie, um sie dann in einem einzigen, vollständigen Ausbruch zu geben",
+        beschreibung: "Zurückhaltung ist kein Mangel an Gefühl, sondern Vorbereitung: Die Intensität wird gesammelt und dann, wenn sie gebraucht wird, ohne jede Zurückhaltung vollständig freigesetzt.",
+        beleg: "Monika Gruber: ›Das Kamel speichert: Energie, Wasser, Geduld – und wenn es schließlich trinkt, trinkt es auf einmal bis zu 150 Liter. Was sie fühlt, fühlt sie vollständig. Was sie gibt, gibt sie ganz‹; Elvis: ›Das Kamel kennt die Wüste der Anfänge. Und es gibt trotzdem alles, sobald es gebraucht wird‹; Dr. Bernard Faye, dessen jahrzehntelange, akribische Forschungsarbeit zum weltweit führenden Kamelexperten machte – dasselbe Muster wie bei mehreren anderen Tierforscher-Porträts dieses Kompasses: Wer diese Energie erforscht, trägt sie oft selbst in sich."
+      },
+      {
+        titel: "Verführung als Machtinstrument, das sich abrupt gegen das Objekt der Zuwendung wenden kann (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird dieselbe vollständige, intensive Hingabe zum Druckmittel: Bleibt die erwartete Gegenleistung – Nähe, Anerkennung, Bindung – aus, kann aus derselben Zuwendung eine ebenso vollständige, kompromisslose Kehrtwende werden.",
+        beleg: "Pamela Smart: ›Das Kamel gibt alles … Aber es ist kein zahmes Tier. Wer es unterschätzt, wer glaubt, es dauerhaft ausnutzen zu können, erlebt eine andere Seite: das Kamel beißt, spuckt, bricht aus.‹ Sie gab einem 15-Jährigen ›das Gefühl, das Wichtigste auf der Welt zu sein‹ – ›und als sie bekam, was sie brauchte, war ihre Gabe zugleich das giftigste Mittel, das sie einsetzen konnte.‹ Wichtig: Dies ist die einzige Extremform unter den neun SX2-Porträts dieses Kompasses, keine typische Ausprägung."
+      }
+    ]
+  },
   SO2: {
     tier: "Golden Retriever",
     kernthema: "Zuwendung, die nicht dem Einzelnen, sondern der ganzen Gemeinschaft gilt",
