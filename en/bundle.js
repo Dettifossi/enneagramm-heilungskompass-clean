@@ -2361,6 +2361,7 @@ text.nav = [
     { route: "wolkenformationen-der-9-typen", label: "Cloud Formations of the 9 Types" },
     { route: "zentrale-fragen", label: "Key Questions" },
     { route: "zornverhalten", label: "Anger Behavior of the 9 Types" },
+    { route: "9-jahreszyklen", label: "The 9 Nine-Year Cycles of Life" },
   ]},
   { route: "stille", label: "⏱ Silence" },
   { route: "musik",  label: "🎵 Relaxation & Healing Music" },
@@ -48463,6 +48464,13 @@ function neunJahreszyklenPage() {
       <p class="psycho-intro">A human life can be divided into nine sections of nine years each – from birth to fulfillment in old age. Each of these nine cycles brings its own developmental tasks, its own challenges, and its own inner movement. And each cycle can be assigned to one of the nine Enneagram principles: what does each life phase reveal about the principle it embodies in its rawest form?</p>
       <img src="../assets/9-jahreszyklen-des-lebens.jpg" alt="The 9 Nine-Year Cycles of Human Life – diagram"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">The Process Model of the Enneagram</h3>
+        <p class="vb-intro">Alongside its well-known use as a personality system – nine character types, each with its own passion, fixation, and animal correspondence – the Enneagram contains a second, far less well-known layer: the <strong>process model</strong>. This reading goes back to the original meaning of the symbol as handed down by G. I. Gurdjieff, long before Oscar Ichazo and Claudio Naranjo developed the nine personality types as we know them today. In this older tradition, the Enneagram describes not a fixed identity, but the <strong>sequence of a complete process</strong>: any process – whether baking a cake, carrying out a project, or an entire human life – passes, according to this model, through nine consecutive stages before it can complete itself and a new cycle can begin.</p>
+        <p class="vb-intro">Applied to a person's biography, this means: it is not only one's own Enneagram type that shapes a life, but also a <strong>temporal sequence</strong> that every person moves through regardless of their own type – from the pure possibility of birth (Principle 1) through growth, expansion, and maturity to fulfillment in old age (Principle 9). This perspective should be understood as a complementary, internal interpretive model, not as an exact scientific timetable – yet it helps explain why certain life themes, such as confronting one's own mortality or the late-life search for inner wisdom, tend to surface in comparable decades across very different people, regardless of which of the nine personality types they themselves belong to.</p>
+      </div>
+
       <div class="vb-section" style="max-width:100%;">
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Type 1 – First Cycle, Years 0–9: Phase of New Beginnings (Birth + Childhood)</h3>

@@ -16040,6 +16040,7 @@ const uiText = {
       { route: "wissensverhalten", label: "Wissensverhalten der 9 Typen" },
       { route: "zentrale-fragen", label: "Zentrale Fragen" },
       { route: "zornverhalten", label: "Zornverhalten der 9 Typen" },
+      { route: "9-jahreszyklen", label: "Die 9 Jahreszyklen des Lebens" },
     ]},
     { route: "stille", label: "\u23f1 Stille" },
     { route: "musik",  label: "\ud83c\udfb5 Entspannungs- und Heilungsmusik" },
@@ -83146,6 +83147,12 @@ function neunJahreszyklenPage() {
       <p class="psycho-intro">Ein menschliches Leben l\u00e4sst sich in neun Abschnitte \u00e0 neun Jahre gliedern \u2013 von der Geburt bis zur Vollendung im hohen Alter. Jeder dieser neun Zyklen stellt eigene Entwicklungsaufgaben, eigene Herausforderungen und eine eigene innere Bewegung bereit. Und jeder Zyklus l\u00e4sst sich einem der neun Enneagrammprinzipien zuordnen: Was verr\u00e4t uns die jeweilige Lebensphase \u00fcber das Prinzip, das sie ungefiltert verk\u00f6rpert?</p>
       <img src="./assets/9-jahreszyklen-des-lebens.jpg" alt="Die 9 Neun-Jahres-Zyklen des menschlichen Lebens \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Das Prozessmodell des Enneagramms</h3>
+        <p class="vb-intro">Neben der bekannten Verwendung als Pers\u00f6nlichkeitssystem \u2013 neun Charaktertypen mit je eigener Leidenschaft, Fixierung und Tierentsprechung \u2013 enth\u00e4lt das Enneagramm eine zweite, deutlich weniger bekannte Ebene: das <strong>Prozessmodell</strong>. Diese Lesart geht auf die urspr\u00fcngliche, von G. I. Gurdjieff \u00fcberlieferte Bedeutung des Symbols zur\u00fcck, lange bevor Oscar Ichazo und Claudio Naranjo daraus die neun Pers\u00f6nlichkeitstypen entwickelten, wie wir sie heute kennen. In dieser \u00e4lteren Tradition beschreibt das Enneagramm keine feste Identit\u00e4t, sondern die <strong>Abfolge eines vollst\u00e4ndigen Vorgangs</strong>: Jeder Prozess \u2013 ob das Backen eines Kuchens, die Umsetzung eines Projekts oder eben ein ganzes Menschenleben \u2013 durchl\u00e4uft, folgt man diesem Modell, notwendigerweise neun aufeinanderfolgende Phasen, bevor er sich vollendet und ein neuer Zyklus beginnen kann.</p>
+        <p class="vb-intro">\u00dcbertragen auf die Biografie eines Menschen bedeutet das: Nicht nur der eigene Enneagrammtyp pr\u00e4gt das Leben, sondern zus\u00e4tzlich eine <strong>zeitliche Abfolge</strong>, die jeder Mensch unabh\u00e4ngig vom eigenen Typ durchl\u00e4uft \u2013 von der reinen M\u00f6glichkeit der Geburt (Prinzip 1) \u00fcber Wachstum, Expansion und Reife bis hin zur Vollendung im hohen Alter (Prinzip 9). Diese Betrachtung ist als erg\u00e4nzendes, internes Deutungsmodell zu verstehen, nicht als exakte wissenschaftliche Zeittafel: Sie macht jedoch verst\u00e4ndlich, warum bestimmte Lebensthemen \u2013 etwa die Konfrontation mit der eigenen Sterblichkeit oder die sp\u00e4te Suche nach innerer Weisheit \u2013 in vergleichbaren Lebensjahrzehnten bei sehr unterschiedlichen Menschen auftauchen, unabh\u00e4ngig davon, welchem der neun Pers\u00f6nlichkeitstypen sie selbst angeh\u00f6ren.</p>
+      </div>
       <div class="vb-section" style="max-width:100%;">
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Erster Zyklus, 0.\u20139. Lebensjahr: Phase des Neubeginns (Geburt + Kindheit)</h3>
