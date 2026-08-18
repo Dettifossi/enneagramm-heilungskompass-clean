@@ -24074,7 +24074,7 @@ const registerEntries = [
   { term: "Dieter Nuhr",                    route: "beruehmte-dieter-nuhr",                 description: "Portrait: SO7w8 \u00b7 Sozialer Typ 7 \u00b7 Kabarettist, Nuhr im Ersten, Comedian, Maler, Biber" },
   { term: "Rowan Atkinson",                 route: "beruehmte-rowan-atkinson",              description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Mr. Bean, Blackadder, Johnny English, Biber" },
   { term: "Elon Musk",                     route: "beruehmte-elon-musk",                   description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Tesla, SpaceX, Vision\u00e4r" },
-  { term: "Nikola Tesla",                  route: "beruehmte-nikola-tesla",                description: "Portrait: SO7w6 · Sozialer Typ 7 · Erfinder, Ingenieur, Wechselstrompionier" },
+  { term: "Nikola Tesla",                  route: "beruehmte-nikola-tesla",                description: "Portrait: SE4w5 · Selbsterhaltender Typ 4 · Erfinder, Ingenieur, Wechselstrompionier" },
   { term: "Jules Verne",                   route: "beruehmte-jules-verne",                 description: "Portrait: SO7w6 · Sozialer Typ 7 · Schriftsteller, Visionär" },
   { term: "Elvis Presley",                 route: "beruehmte-elvis-presley",               description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 King of Rock'n'Roll, S\u00e4nger, Schauspieler" },
   { term: "Freddie Mercury",               route: "beruehmte-freddie-mercury",             description: "Portrait: SX4w3 \u00b7 Sexueller Typ 4 \u00b7 Queen-Fronts\u00e4nger, B\u00fchnenmagier" },
@@ -24424,7 +24424,7 @@ const registerEntriesEN = [
   { term: "Dieter Nuhr", route: "beruehmte-dieter-nuhr", description: "Portrait: SO7w8 \u00b7 Social Type 7 \u00b7 Comedian, Nuhr im Ersten, Comedian, painter, Beaver" },
   { term: "Rowan Atkinson", route: "beruehmte-rowan-atkinson", description: "Portrait: SO7w6 \u00b7 Social Type 7 \u00b7 Mr. Bean, Blackadder, Johnny English, Beaver" },
   { term: "Elon Musk", route: "beruehmte-elon-musk", description: "Portrait: SO7w6 \u00b7 Social Type 7 \u00b7 Tesla, SpaceX, Visionary" },
-  { term: "Nikola Tesla", route: "beruehmte-nikola-tesla", description: "Portrait: SO7w6 · Social Type 7 · Inventor, engineer, AC power pioneer" },
+  { term: "Nikola Tesla", route: "beruehmte-nikola-tesla", description: "Portrait: SE4w5 · Self-Preservation Type 4 · Inventor, engineer, AC power pioneer" },
   { term: "Jules Verne", route: "beruehmte-jules-verne", description: "Portrait: SO7w6 · Social Type 7 · Writer, visionary" },
   { term: "Elvis Presley", route: "beruehmte-elvis-presley", description: "Portrait: SX2w3 \u00b7 Sexual Type 2 \u00b7 King of Rock'n'Roll, singer, actor" },
   { term: "Enneagram Art", route: "enneagramm-kunst", description: "9 galleries of 6 artworks each \u2013 classic paintings as a mirror of the 9 Enneagram types" },
@@ -31840,6 +31840,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leo Tolstoi \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 1828\u20131910. Russischer Schriftsteller. Krieg und Frieden, Anna Karenina. Die Taube, die zeitlebens zwischen Reichtum und Askese schwankte und ihre eigene Zerrissenheit in zeitlose Literatur verwandelte.",
     tags:["Literatur"], gender:"m"},
+  { route:"beruehmte-nikola-tesla", name:"Nikola Tesla", added:"2026-08-18", subtyp:"SE4w5",
+    heading:"Nikola Tesla \u2013 Selbsterhaltender Typ 4",
+    teaser:"SE4w5 \u00b7 1856\u20131943. Erfinder, Ingenieur. Wechselstrom, Wardenclyffe Tower, Stromkrieg mit Edison. Die Taube, die f\u00fcr die ganze Menschheit erfand und am Ende nur noch eine einzelne wei\u00dfe Taube liebte. Tierentsprechung: Taube.",
+    tags:["Wissenschaft","Geschichte"], gender:"m"},
   { route:"beruehmte-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
     heading:"Romy Schneider \u2013 Sozialer Typ 4",
     teaser:"SO4w3 \u00b7 1938\u20131982. Schauspielerin. Sissi, C\u00e9sar und Rosalie, La Piscine. Das G\u00fcrteltier, das im Licht stand \u2013 und sich innerlich immer einrollte.",
@@ -32212,10 +32216,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Elon Musk \u2013 Sozialer Typ 7",
     teaser:"SO7w6 \u00b7 geb. 1971. Unternehmer, Gr\u00fcnder von PayPal, SpaceX, X (ehem. Twitter), Mitinhaber von Tesla. Reichster Mensch der Welt (Stand 2026). Der Biber, der Welten baut \u2013 und dabei nie fertig wird. Tierentsprechung: Biber.",
     tags:["Wirtschaft","Wissenschaft"] , gender:"m"},
-  { route:"beruehmte-nikola-tesla", name:"Nikola Tesla", added:"2026-08-15", subtyp:"SO7w6",
-    heading:"Nikola Tesla – Sozialer Typ 7",
-    teaser:"SO7w6 · 1856–1943. Erfinder, Ingenieur. Wechselstrom, Wardenclyffe Tower, Stromkrieg mit Edison. Der Biber, der die Welt elektrifizierte und einsam in einem Hotelzimmer starb. Tierentsprechung: Biber.",
-    tags:["Wissenschaft","Geschichte"], gender:"m"},
   { route:"beruehmte-jules-verne", name:"Jules Verne", added:"2026-08-15", subtyp:"SO7w6",
     heading:"Jules Verne – Sozialer Typ 7",
     teaser:"SO7w6 · 1828–1905. Schriftsteller, Visionär. Voyages extraordinaires, 20.000 Meilen unter dem Meer, Von der Erde zum Mond. Der Biber, der die Zukunft vorausschrieb, gebunden an einen kontrollierenden Verleger. Tierentsprechung: Biber.",
@@ -42665,17 +42665,17 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Biber",
     kernthema: "Rastloses Bauen im Dienst der Gemeinschaft – nie wirklich fertig (Naranjo: Kontratyp der Sieben)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Nikola Tesla", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr."],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr."],
     fingerabdruecke: [
       {
         titel: "Rastloses, nie abgeschlossenes Bauen im Dienst eines größeren Systems",
         beschreibung: "Statt für sich selbst zu genießen, wird kontinuierlich etwas errichtet, das über die eigene Person hinaus wirkt – kaum ist ein Projekt fertig, beginnt bereits das nächste, ohne wirkliche Pause.",
-        beleg: "Elon Musk: ›Der Biber macht keine halben Sachen. Er baut und baut – und sucht sich das nächste Hindernis, das es zu stauen gilt‹; Nikola Tesla, der ›über 300 Patente hinterließ und die technische Infrastruktur der gesamten Menschheit veränderte, ohne je bei einer einzigen Erfindung stehen zu bleiben‹; Hazel Brugger: ›Der Biber hat immer ein neues Projekt‹; Drew Barrymore: ›Fällt ein Damm ein, beginnt der Biber sofort von Neuem, ohne lange innezuhalten.‹"
+        beleg: "Elon Musk: ›Der Biber macht keine halben Sachen. Er baut und baut – und sucht sich das nächste Hindernis, das es zu stauen gilt‹; Hazel Brugger: ›Der Biber hat immer ein neues Projekt‹; Drew Barrymore: ›Fällt ein Damm ein, beginnt der Biber sofort von Neuem, ohne lange innezuhalten.‹"
       },
       {
         titel: "Vollständige innere Planung, bevor überhaupt der erste Handgriff erfolgt",
         beschreibung: "Bevor sichtbar gebaut wird, entsteht das ganze Werk zunächst vollständig im Inneren – als klare Vorstellung, die dann Schritt für Schritt in die Wirklichkeit übersetzt wird.",
-        beleg: "Nikola Tesla, der ›spontane, blitzartige innere Bilder von Maschinen sah, die er bis ins letzte Detail vor seinem geistigen Auge konstruieren konnte, bevor er je ein Werkzeug in die Hand nahm‹: ›Der Biber plant den Damm vollständig im Kopf, bevor der erste Ast fällt‹; Dieter Nuhr: ›Der Biber, der jeden Stein genau prüft, bevor er ihn einsetzt.‹"
+        beleg: "Dieter Nuhr: ›Der Biber, der jeden Stein genau prüft, bevor er ihn einsetzt‹; Jules Verne, der seine technischen Erfindungen oft bis ins Detail durchdacht hatte, lange bevor die beschriebene Technik überhaupt existierte."
       },
       {
         titel: "Dienst an etwas Größerem als sich selbst, statt persönlichem Ruhm",
@@ -42908,7 +42908,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Taube",
     kernthema: "Tiefes Gefühlsleben, das nicht zur Schau gestellt, sondern still, zäh und beharrlich getragen wird",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "David Berkowitz"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz"],
     fingerabdruecke: [
       {
         titel: "Tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still verarbeitet wird",
@@ -42918,7 +42918,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Zähigkeit trotz Verletzlichkeit – trägt weiter, kehrt zurück, wo andere aufgeben würden",
         beschreibung: "Die zarte, empfindsame Erscheinung täuscht über eine erhebliche innere Ausdauer hinweg: Der Weg wird auch durch Sturm und Rückschläge fortgesetzt, nicht weil Angst fehlt, sondern weil eine tiefe Kenntnis der eigenen Richtung trägt.",
-        beleg: "Lady Diana: ›Die Taube ist zäh: Sie findet ihren Weg auch über weite Strecken, auch durch Sturm‹; Tim Bendzko: ›Sie kehrt zurück. Nicht weil sie keine Angst kennt, sondern weil sie weiß, wohin sie gehört … Das ist die Taube: Sie trägt das Gewicht – und sie singt trotzdem‹; Nicolas Cage: ›Zäher, als sie wirkt, ihre größte Kraft liegt darin, sich trotz innerer Verletzlichkeit immer wieder neu aufzurichten.‹"
+        beleg: "Lady Diana: ›Die Taube ist zäh: Sie findet ihren Weg auch über weite Strecken, auch durch Sturm‹; Tim Bendzko: ›Sie kehrt zurück. Nicht weil sie keine Angst kennt, sondern weil sie weiß, wohin sie gehört … Das ist die Taube: Sie trägt das Gewicht – und sie singt trotzdem‹; Nicolas Cage: ›Zäher, als sie wirkt, ihre größte Kraft liegt darin, sich trotz innerer Verletzlichkeit immer wieder neu aufzurichten‹; Nikola Tesla, der sein Lebenswerk am Wardenclyffe Tower verlor und dennoch bis zuletzt an dessen Richtigkeit festhielt – bis zuletzt fand er, fernab jeder menschlichen Nähe, seine tiefste Bindung an eine einzelne weiße Taube."
       },
       {
         titel: "Vollständiges inneres Durchleben, bevor nach außen getreten wird",
@@ -47785,7 +47785,7 @@ function elonMuskPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so7", label:"SO7 \u2013 Der Biber: Subtyp-Profil"},
         {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6) – Namensgeber seiner Firma Tesla"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5) – Namensgeber seiner Firma Tesla"},
         {route:"beruehmte-jules-verne", label:"Porträt: Jules Verne (SO7w6)"},
       ])}
     </div>
@@ -47799,42 +47799,48 @@ function nikolaTeslaPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Nikola Tesla" class="krim-portrait-img" loading="lazy" />
+          <img src="./assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Taube" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nikola Tesla</p>
-        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
-        <p class="krim-portrait-subtitle">Erfinder, Ingenieur, 1856&ndash;1943 &ndash; Tierentsprechung: Biber</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Erfinder, Ingenieur, 1856&ndash;1943 &ndash; Tierentsprechung: Taube</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Biber, der die Welt elektrifizierte</h2>
+        <h2 class="vb-section">1. Die Taube, die für die ganze Menschheit erfand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 &ndash; er baut nicht, um zu besitzen, sondern weil Bauen sein Wesen ist. Er staut Flüsse, verändert Landschaften, und kaum ist ein Damm fertig, sucht er sich das nächste Hindernis. Kaum jemand verkörpert das so buchstäblich wie Nikola Tesla: Wechselstrommotor, Transformator, Funktechnik, Radar-Grundlagen, Fernsteuerung &ndash; er hinterließ über 300 Patente und veränderte die technische Infrastruktur der gesamten Menschheit, ohne je bei einer einzigen Erfindung stehen zu bleiben.</p>
-          <p class="vb-intro">Tesla wurde 1856 in Smiljan, im heutigen Kroatien, als Sohn eines serbisch-orthodoxen Priesters geboren. Schon als Kind sah er, wie er später berichtete, spontane, blitzartige innere Bilder von Maschinen, die er bis ins letzte Detail vor seinem geistigen Auge konstruieren konnte, bevor er je ein Werkzeug in die Hand nahm. Der Biber plant den Damm vollständig im Kopf, bevor der erste Ast fällt.</p>
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier &ndash; sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit, und sucht ihre Einzigartigkeit nicht im Applaus, sondern in einem ganz eigenen, unverwechselbaren Weg. Nikola Tesla verkörperte dieses Prinzip auf eine fast schon buchstäbliche Weise: Wechselstrommotor, Transformator, Funktechnik, Radar-Grundlagen, Fernsteuerung &ndash; er hinterließ über 300 Patente und veränderte die technische Infrastruktur der gesamten Menschheit. Und doch war er zeitlebens kein Mann des Rampenlichts, sondern ein zutiefst einsamer, introvertierter Sonderling, der seine intensivste, dauerhafteste emotionale Bindung am Ende nicht zu einem Menschen, sondern zu einer einzelnen weißen Taube fand.</p>
+          <p class="vb-intro">Tesla wurde 1856 in Smiljan, im heutigen Kroatien, als Sohn eines serbisch-orthodoxen Priesters geboren. Schon als Kind sah er, wie er später berichtete, spontane, blitzartige innere Bilder von Maschinen, die er bis ins letzte Detail vor seinem geistigen Auge konstruieren konnte, bevor er je ein Werkzeug in die Hand nahm &ndash; eine innere Bilderwelt von solcher Intensität, dass sie ihn zeitweise von der äußeren Realität kaum noch unterscheidbar erschien.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die soziale Sieben: Strom für die ganze Menschheit</h2>
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Einzigartigkeit statt Anpassung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> nennt Naranjo <em>Sacrifice</em>: Sie opfert die eigene, unmittelbare Freude für eine größere Idee &ndash; und findet gerade darin ihre tiefste Erfüllung. Tesla sprach nie über seinen Wechselstrommotor als bloßes technisches Bauteil. Er sprach davon, der Menschheit unbegrenzte, saubere Energie zu schenken. Sein größtes Projekt, der Wardenclyffe Tower auf Long Island, sollte nicht nur Nachrichten, sondern kostenlose, drahtlose Energie um den gesamten Erdball übertragen &ndash; ein Geschenk an die gesamte Menschheit, nicht an zahlende Kunden.</p>
-          <p class="vb-intro">Als J.P. Morgan, der Hauptfinanzier des Projekts, erfuhr, dass Tesla plante, Energie kostenlos zu verteilen statt sie abzurechnen, zog er seine Unterstützung zurück &ndash; und der Turm wurde nie fertiggestellt. Tesla verlor damit sein Lebenswerk, blieb aber bis zuletzt überzeugt, dass die Idee richtig war. Der Biber baut nicht für sich selbst. Er baut, weil er glaubt, die Welt braucht genau diesen Damm &ndash; selbst wenn niemand dafür bezahlen will.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr Anderssein nicht öffentlich vor sich her, sondern lebt es in stiller, oft schmerzhafter Konsequenz &ndash; sie sagt sich: Ich bin anders als alle anderen, und genau darin liegt meine Würde, auch wenn es mich meine Verbindung zu den Menschen kostet. Tesla lebte zeitlebens asketisch, blieb unverheiratet und beschrieb intime Nähe explizit als Störung seiner Konzentration und seiner Erfindungskraft &ndash; eine radikale, selbst gewählte Einzigartigkeit, die ihn von jeder gewöhnlichen bürgerlichen Existenz fernhielt.</p>
+          <p class="vb-intro">Auch sein Verhältnis zu Anerkennung und Geld war von dieser inneren Unbedingtheit geprägt: Als J.P. Morgan, der Hauptfinanzier seines größten Projekts, des Wardenclyffe Tower auf Long Island, erfuhr, dass Tesla plante, drahtlose Energie kostenlos an die gesamte Menschheit zu verteilen statt sie abzurechnen, zog er seine Unterstützung zurück &ndash; der Turm wurde nie fertiggestellt, und Tesla verlor damit sein Lebenswerk. Er blieb dennoch bis zuletzt überzeugt, dass seine Idee richtig gewesen war. Das ist die selbsterhaltende Vier in Reinform: lieber das eigene, unverwechselbare Ideal verlieren, als es dem gewöhnlichen Maßstab der anderen anzupassen.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Sechserflügel: Genie zwischen Vision und Angst</h2>
+        <h2 class="vb-section">3. Der Fünferflügel: Das Genie als Schutzraum</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel</strong> gibt der sozialen Sieben eine Qualität, die im Kontrast zur ihrer strahlenden Vision steht: Misstrauen, Wachsamkeit, Furcht vor Bedrohung. Bei Tesla zeigte sich das in ausgeprägten Zwangshandlungen: Er zählte seine Schritte beim Gehen, berechnete das Volumen seiner Suppe, bevor er sie aß, und arbeitete fast ausschließlich mit Zahlen, die durch drei teilbar waren &ndash; Abweichungen davon lösten bei ihm massives Unbehagen aus. Extreme Angst vor Keimen ließ ihn Türklinken und Handschläge meiden und stundenlang die Hände waschen.</p>
-          <p class="vb-intro">Diese wache Vorsicht galt auch seinen eigenen Erfindungen: Tesla war notorisch misstrauisch gegenüber Investoren und Konkurrenten &ndash; allen voran Thomas Edison, mit dem er sich im "Stromkrieg" um Gleich- versus Wechselstrom einen erbitterten öffentlichen Kampf lieferte. Er hielt viele seiner Entwürfe geheim, aus Angst, sie könnten gestohlen werden &ndash; eine Angst, die sich bei Wardenclyffe und anderen Projekten tatsächlich bewahrheitete. Der Sechserflügel sieht die Gefahr so klar, dass er niemandem außer sich selbst vertraut, sie abzuwenden.</p>
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier eine analytische Distanz und einen enormen Wissensdurst &ndash; das eigene Gefühl wird nicht nur durchlebt, sondern in ein durchdachtes, oft geradezu enzyklopädisches Systemdenken übersetzt, das zugleich als Schutzwall gegen eine überfordernde Außenwelt dient. Bei Tesla zeigte sich das in ausgeprägten Zwangshandlungen: Er zählte seine Schritte beim Gehen, berechnete das Volumen seiner Suppe, bevor er sie aß, und arbeitete fast ausschließlich mit Zahlen, die durch drei teilbar waren &ndash; Abweichungen davon lösten bei ihm massives Unbehagen aus. Extreme Angst vor Keimen ließ ihn Türklinken und Handschläge meiden und stundenlang die Hände waschen.</p>
+          <p class="vb-intro">Diese Systemliebe und dieser Rückzug ins eigene, kontrollierte Denken zeigten sich auch in seinem Arbeitsstil: Tesla war notorisch misstrauisch gegenüber Investoren und Konkurrenten &ndash; allen voran Thomas Edison, mit dem er sich im »Stromkrieg« um Gleich- versus Wechselstrom einen erbitterten öffentlichen Kampf lieferte &ndash; und hielt viele seiner Entwürfe geheim, aus Angst, sie könnten gestohlen werden. Er schlief nach eigenen Angaben nur wenige Stunden pro Nacht und arbeitete parallel an drahtloser Energieübertragung, Radartechnik, Röntgenstrahlen, ferngesteuerten Booten und Ideen zu künstlichem Regen &ndash; ein Fünferflügel, der Wissen nicht nur sammelte, sondern in ihm lebte, weil es der einzige Raum war, in dem sich Tesla wirklich sicher fühlte.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Die Leidenschaft: Maßlosigkeit als Antrieb</h2>
+        <h2 class="vb-section">4. Der Rückzug und die weiße Taube</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> oder <strong>Maßlosigkeit</strong>: der unstillbare Appetit auf immer neue Möglichkeiten. Bei Tesla richtete sich das nicht auf persönlichen Genuss &ndash; er lebte zeitlebens asketisch, blieb unverheiratet und beschrieb intime Nähe als Störung seiner Konzentration &ndash; sondern vollständig auf das Erfinden selbst. Er schlief nach eigenen Angaben nur wenige Stunden pro Nacht und arbeitete gleichzeitig an drahtloser Energieübertragung, Radartechnik, Röntgenstrahlen, ferngesteuerten Booten und Ideen zu künstlichem Regen.</p>
-          <p class="vb-intro">In seinem Labor in Colorado Springs erzeugte er 1899 künstliche Blitze von über 40 Metern Länge und ließ dabei zeitweise das gesamte örtliche Stromnetz zusammenbrechen &ndash; ein Experiment, das selbst für seine Zeitgenossen an Wahnsinn grenzte, für ihn selbst aber nur der nächste logische Schritt war. Der Biber schläft nicht lange. Er hat immer noch einen Damm, der fertig werden will.</p>
+          <p class="vb-intro">In seiner späteren Lebensphase zog sich Tesla völlig aus der Gesellschaft zurück und lebte isoliert in New Yorker Hotelzimmern. Seine einzigen verbliebenen emotionalen Bindungen galten Tauben: Er fütterte sie täglich im Park, fing verletzte oder kranke Tiere ein, um sie in seinem Zimmer gesund zu pflegen, und gab dafür astronomische Summen aus. Unter all diesen Tauben gab es eine ganz besondere, weiße &ndash; die Liebe seines Lebens, wie er es selbst nannte. Er behauptete zeitlebens, diese eine Taube geliebt zu haben wie einen Menschen, und als sie starb, sei &bdquo;das Licht aus seinen Augen gewichen&ldquo;.</p>
+          <p class="vb-intro">In der Enneagrammforschung gilt Tesla fast einhellig als Musterbeispiel einer selbsterhaltenden Vier mit starkem Fünferflügel: seine radikale Askese, sein tiefes, stilles Leiden, sein Verlangen nach absoluter Einzigartigkeit und seine melancholische Isolation spiegeln exakt dieses Muster wider &ndash; gekrönt von einer fast schmerzhaft exklusiven Hingabe an ein einziges geliebtes Wesen, das ihm menschliche Nähe ersetzte. Die Tierentsprechung passt hier buchstäblich: Ausgerechnet der Mann, dessen archetypisches Tier die Taube ist, fand am Ende seines Lebens seine tiefste, einzige emotionale Bindung zu einer echten Taube.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Das Geschenk: eine Welt unter Strom</h2>
+        <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Tesla der Welt gegeben hat, ist buchstäblich das Rückgrat der modernen Zivilisation: Sein Wechselstromsystem versorgt noch heute Milliarden Haushalte weltweit mit Elektrizität, seine Arbeiten legten den Grundstein für Radio, Radar und drahtlose Kommunikation. Trotzdem starb er 1943 verarmt und weitgehend vergessen in einem New Yorker Hotelzimmer, mit seiner einzigen Gesellschaft &ndash; verletzten Tauben, die er über Jahre gefüttert und gepflegt hatte.</p>
-          <p class="vb-intro">Das ist das Geschenk und der Preis der SO7w6: eine Energie, die die Welt tatsächlich elektrifizierte, kombiniert mit einer Angst, die den Erfinder selbst am Ende isolierte. Der Biber fragt nicht, ob der Fluss einverstanden ist &ndash; er baut, solange er kann. Ob Tesla die Anerkennung erhielt, die sein Werk verdient hätte, ist eine offene Frage. Dass er die Welt für immer veränderte, ist keine.</p>
+          <p class="vb-intro">Das Licht der SE4w5 ist die Fähigkeit, <strong>radikale innere Einzigartigkeit in bahnbrechendes, universelles Wissen</strong> zu verwandeln &ndash; Teslas Wechselstromsystem versorgt noch heute Milliarden Haushalte weltweit mit Elektrizität, seine Arbeiten legten den Grundstein für Radio, Radar und drahtlose Kommunikation. Sein tiefes Bedürfnis, anders und einzigartig zu sein, war der Motor eines der folgenreichsten Erfinderlebens der Geschichte.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in seiner völligen Isolation: Trotzdem starb er 1943 verarmt und weitgehend vergessen in einem New Yorker Hotelzimmer, mit seiner einzigen Gesellschaft &ndash; verletzten Tauben, die er über Jahre gefüttert und gepflegt hatte. Die Kehrseite der selbsterhaltenden Vier mit Fünferflügel: Das Festhalten an der eigenen, unverwechselbaren Wahrheit kann so vollständig werden, dass am Ende kein Mensch mehr nah genug herankommt &ndash; und ein einzelner Vogel zur letzten verbliebenen Liebe wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die zuletzt nur noch eine Taube liebte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Tesla der Welt gegeben hat, ist buchstäblich das Rückgrat der modernen Zivilisation. Ob er die Anerkennung erhielt, die sein Werk verdient hätte, ist eine offene Frage. Dass er die Welt für immer veränderte, ist keine.</p>
+          <p class="vb-intro">Und doch bleibt am Ende dieses Lebens ein Bild, das kaum eindrücklicher für die selbsterhaltende Vier mit Fünferflügel stehen könnte: ein Genie, das der gesamten Menschheit unbegrenzte Energie schenken wollte &ndash; und dessen eigenes Herz zuletzt nur noch an einer einzigen, weißen Taube hing.</p>
         </blockquote>
 
       </div>
@@ -47843,9 +47849,10 @@ function nikolaTeslaPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
-        {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6) – dessen Firma Tesla nach ihm benannt ist"},
-        {route:"beruehmte-jules-verne", label:"Porträt: Jules Verne (SO7w6)"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
+        {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
+        {route:"beruehmte-sam-altman", label:"Porträt: Sam Altman (SE4w5)"},
       ])}
     </div>
   `);
@@ -47903,7 +47910,7 @@ function julesVernePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
         {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
       ])}
     </div>

@@ -468,6 +468,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leo Tolstoy – Self-Preservation Type 4",
     teaser:"SE4w5 · 1828–1910. Russian writer. War and Peace, Anna Karenina. The dove that spent its life swinging between wealth and asceticism, turning its own inner conflict into timeless literature.",
     tags:["Literatur"], gender:"m"},
+  { route:"beruehmte-nikola-tesla", name:"Nikola Tesla", added:"2026-08-18", subtyp:"SE4w5",
+    heading:"Nikola Tesla – Self-Preservation Type 4",
+    teaser:"SE4w5 · 1856–1943. Inventor, engineer. Alternating current, Wardenclyffe Tower, War of the Currents with Edison. The dove that invented for all humanity and, in the end, loved only a single white dove. Animal correspondence: Dove.",
+    tags:["Wissenschaft","Geschichte"], gender:"m"},
   { route:"beruehmte-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
     heading:"Romy Schneider – Social Type 4",
     teaser:"SO4w3 · 1938–1982. Actress. Sissi, César et Rosalie, La Piscine. The armadillo that stood in the light – and always curled inward.",
@@ -744,10 +748,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Elon Musk – Social Type 7",
     teaser:"SO7w6 · born 1971. Entrepreneur, founder of PayPal, SpaceX, X (formerly Twitter), co-owner of Tesla. The beaver that builds worlds – and never finishes. Animal correspondence: Beaver.",
     tags:["Wirtschaft","Wissenschaft"] },
-  { route:"beruehmte-nikola-tesla", name:"Nikola Tesla", added:"2026-08-15", subtyp:"SO7w6",
-    heading:"Nikola Tesla – Social Type 7",
-    teaser:"SO7w6 · 1856–1943. Inventor, engineer. Alternating current, Wardenclyffe Tower, War of the Currents with Edison. The beaver that electrified the world and died alone in a hotel room. Animal correspondence: Beaver.",
-    tags:["Wissenschaft","Geschichte"] },
   { route:"beruehmte-jules-verne", name:"Jules Verne", added:"2026-08-15", subtyp:"SO7w6",
     heading:"Jules Verne – Social Type 7",
     teaser:"SO7w6 · 1828–1905. Writer, visionary. Voyages extraordinaires, 20,000 Leagues Under the Sea, From the Earth to the Moon. The beaver that wrote the future in advance, bound to a controlling publisher. Animal correspondence: Beaver.",
@@ -28364,7 +28364,7 @@ function elonMuskPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6) – namesake of his company Tesla"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SE4w5) – namesake of his company Tesla"},
         {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
       ])}
     </div>
@@ -28378,42 +28378,48 @@ function nikolaTeslaPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Nikola Tesla" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Dove" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nikola Tesla</p>
-        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
-        <p class="krim-portrait-subtitle">Inventor, engineer, 1856&ndash;1943 &ndash; Animal correspondence: Beaver</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Inventor, engineer, 1856&ndash;1943 &ndash; Animal correspondence: Dove</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Beaver Who Electrified the World</h2>
+        <h2 class="vb-section">1. The dove that invented for all humanity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Beaver</strong> is the animal of the Social Type 7 &ndash; it does not build to possess, but because building is its nature. It dams rivers, transforms landscapes, and no sooner is one dam finished than it seeks the next obstacle. Few people embody this as literally as Nikola Tesla: the AC induction motor, the transformer, radio technology, the foundations of radar, remote control &ndash; he left behind more than 300 patents and reshaped the technical infrastructure of all humanity, never once resting on a single invention.</p>
-          <p class="vb-intro">Tesla was born in 1856 in Smiljan, in present-day Croatia, the son of a Serbian Orthodox priest. Even as a child, he later reported, he had spontaneous, flash-like inner images of machines that he could construct in complete detail in his mind's eye before ever picking up a tool. The Beaver plans the entire dam in its head before the first branch falls.</p>
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four &ndash; it does not put its deep emotional life on display, but processes it in quiet, often decades-long persistence, seeking its uniqueness not in applause but in an entirely own, unmistakable path. Nikola Tesla embodied this principle in an almost literal way: the AC induction motor, the transformer, radio technology, the foundations of radar, remote control &ndash; he left behind more than 300 patents and reshaped the technical infrastructure of all humanity. And yet he was, throughout his life, no man of the spotlight, but a deeply lonely, introverted outsider who, in the end, found his most intense and lasting emotional bond not with a human being, but with a single white dove.</p>
+          <p class="vb-intro">Tesla was born in 1856 in Smiljan, in present-day Croatia, the son of a Serbian Orthodox priest. Even as a child, he later reported, he had spontaneous, flash-like inner images of machines that he could construct in complete detail in his mind's eye before ever picking up a tool &ndash; an inner world of images so intense that, at times, it became almost indistinguishable from outer reality.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Social Seven: Electricity for All Humanity</h2>
+        <h2 class="vb-section">2. The Self-Preservation Four: uniqueness over conformity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo called <strong>Social Seven (SO7)</strong> <em>Sacrifice</em>: it sacrifices its own immediate joy for a larger idea &ndash; and finds its deepest fulfillment precisely there. Tesla never spoke of his AC motor as a mere technical component. He spoke of giving humanity unlimited, clean energy. His greatest project, the Wardenclyffe Tower on Long Island, was meant to transmit not only messages but free, wireless energy around the entire globe &ndash; a gift to all of humanity, not to paying customers.</p>
-          <p class="vb-intro">When J.P. Morgan, the project's main financier, learned that Tesla planned to distribute energy for free rather than bill for it, he withdrew his support &ndash; and the tower was never completed. Tesla lost his life's work as a result, yet remained convinced to the end that the idea had been right. The Beaver does not build for itself. It builds because it believes the world needs exactly this dam &ndash; even if no one wants to pay for it.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Four (SE4)</strong> does not carry its otherness out into the open, but lives it out in quiet, often painful consistency &ndash; telling itself: I am different from everyone else, and precisely in that lies my dignity, even if it costs me my connection to other people. Tesla lived ascetically throughout his life, remained unmarried, and explicitly described intimate closeness as a disruption to his concentration and his inventive power &ndash; a radical, self-chosen uniqueness that kept him apart from any ordinary bourgeois existence.</p>
+          <p class="vb-intro">His relationship to recognition and money was shaped by this same inner unconditionality: when J.P. Morgan, the main financier of his greatest project, the Wardenclyffe Tower on Long Island, learned that Tesla planned to distribute wireless energy to all of humanity for free rather than bill for it, he withdrew his support &ndash; the tower was never completed, and Tesla lost his life's work as a result. He nonetheless remained convinced to the end that his idea had been right. This is the Self-Preservation Four in its purest form: sooner lose one's own, unmistakable ideal than adapt it to the ordinary standard of others.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Six-Wing: Genius Between Vision and Fear</h2>
+        <h2 class="vb-section">3. The Five-wing: genius as a refuge</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Six-wing</strong> gives the Social Seven a quality that stands in contrast to its radiant vision: mistrust, vigilance, fear of threat. In Tesla this showed in pronounced compulsive behaviors: he counted his steps while walking, calculated the volume of his soup before eating it, and worked almost exclusively with numbers divisible by three &ndash; deviations from this caused him massive discomfort. An extreme fear of germs made him avoid doorknobs and handshakes and wash his hands for hours at a time.</p>
-          <p class="vb-intro">This watchful caution also applied to his own inventions: Tesla was notoriously suspicious of investors and competitors &ndash; above all Thomas Edison, with whom he fought a bitter public battle in the "War of the Currents" over direct versus alternating current. He kept many of his designs secret, fearing they would be stolen &ndash; a fear that proved justified with Wardenclyffe and other projects. The Six-wing sees danger so clearly that it trusts no one but itself to avert it.</p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four an analytical distance and an enormous thirst for knowledge &ndash; one's own feeling is not merely lived through, but translated into a carefully constructed, almost encyclopedic system of thought, which at the same time serves as a shield against an overwhelming outer world. In Tesla this showed in pronounced compulsive behaviors: he counted his steps while walking, calculated the volume of his soup before eating it, and worked almost exclusively with numbers divisible by three &ndash; deviations from this caused him massive discomfort. An extreme fear of germs made him avoid doorknobs and handshakes and wash his hands for hours at a time.</p>
+          <p class="vb-intro">This same love of systems and this same retreat into his own, controlled thinking also showed in his working style: Tesla was notoriously suspicious of investors and competitors &ndash; above all Thomas Edison, with whom he fought a bitter public battle in the "War of the Currents" over direct versus alternating current &ndash; and kept many of his designs secret, fearing they would be stolen. By his own account he slept only a few hours a night, working simultaneously on wireless energy transmission, radar technology, X-rays, remote-controlled boats, and ideas for artificial rain &ndash; a Five-wing that did not merely gather knowledge, but lived inside it, because it was the one space in which Tesla truly felt safe.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The Passion: Excess as Engine</h2>
+        <h2 class="vb-section">4. The retreat and the white dove</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of the Seven is called <strong>gluttony</strong> or <strong>excess</strong>: the insatiable appetite for ever new possibilities. In Tesla this was not directed at personal enjoyment &ndash; he lived ascetically throughout his life, remained unmarried, and described intimate closeness as a disruption of his concentration &ndash; but entirely at inventing itself. By his own account he slept only a few hours a night, working simultaneously on wireless energy transmission, radar technology, X-rays, remote-controlled boats, and ideas for artificial rain.</p>
-          <p class="vb-intro">In his laboratory in Colorado Springs in 1899, he generated artificial lightning bolts over 40 meters long, at times knocking out the entire local power grid &ndash; an experiment that bordered on madness even to his contemporaries, but to him was simply the next logical step. The Beaver does not sleep long. It always has one more dam that wants to be finished.</p>
+          <p class="vb-intro">In his later years, Tesla withdrew completely from society and lived isolated in New York hotel rooms. His only remaining emotional bonds were to pigeons: he fed them daily in the park, caught injured or sick birds to nurse them back to health in his room, and spent astronomical sums on their care. Among all these pigeons there was one especially dear to him, a white one &ndash; the love of his life, as he himself called her. He claimed for the rest of his life to have loved this one dove as one loves a human being, and that when she died, "a light went out of his eyes."</p>
+          <p class="vb-intro">In Enneagram research, Tesla is almost unanimously regarded as a textbook example of a Self-Preservation Four with a strong Five-wing: his radical asceticism, his deep, quiet suffering, his longing for absolute uniqueness, and his melancholic isolation mirror this pattern precisely &ndash; crowned by an almost painfully exclusive devotion to a single beloved creature that came to replace human closeness for him. The animal correspondence fits here almost literally: of all people, the man whose archetypal animal is the dove found, at the end of his life, his deepest and only emotional bond with an actual dove.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. The Gift: A World Under Power</h2>
+        <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What Tesla gave the world is literally the backbone of modern civilization: his AC system still powers billions of households worldwide today, and his work laid the foundation for radio, radar, and wireless communication. Yet he died in 1943, impoverished and largely forgotten, in a New York hotel room, his only company the injured pigeons he had fed and nursed for years.</p>
-          <p class="vb-intro">That is the gift and the price of SO7w6: an energy that truly electrified the world, paired with a fear that ultimately isolated the inventor himself. The Beaver does not ask whether the river agrees &ndash; it builds for as long as it can. Whether Tesla received the recognition his work deserved is an open question. That he changed the world forever is not.</p>
+          <p class="vb-intro">The light of the SE4w5 is its ability to turn <strong>radical inner uniqueness into groundbreaking, universal knowledge</strong> &ndash; Tesla's AC system still powers billions of households worldwide today, and his work laid the foundation for radio, radar, and wireless communication. His deep need to be different and unique was the engine behind one of the most consequential inventive lives in history.</p>
+          <p class="vb-intro">The shadow showed in his complete isolation: he died in 1943, impoverished and largely forgotten, in a New York hotel room, his only company the injured pigeons he had fed and nursed for years. The reverse side of the Self-Preservation Four with a Five-wing: holding on to one's own, unmistakable truth can become so complete that, in the end, no human being can get close enough anymore &ndash; and a single bird becomes the last remaining love.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The dove that, in the end, loved only a dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Tesla gave the world is literally the backbone of modern civilization. Whether he received the recognition his work deserved is an open question. That he changed the world forever is not.</p>
+          <p class="vb-intro">And yet, at the end of this life, one image remains that could hardly stand more vividly for the Self-Preservation Four with a Five-wing: a genius who wanted to give all of humanity unlimited energy &ndash; and whose own heart, in the end, belonged only to a single white dove.</p>
         </blockquote>
 
       </div>
@@ -28422,9 +28428,10 @@ function nikolaTeslaPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
-        {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6) – whose company Tesla is named after him"},
-        {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
+        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SE4 – Dove"},
+        {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoi (SE4w5)"},
+        {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SE4w5)"},
       ])}
     </div>
   `);
@@ -28482,7 +28489,7 @@ function julesVernePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SE4w5)"},
         {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
       ])}
     </div>
@@ -35512,17 +35519,17 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Beaver",
     kernthema: "Restless building in service of the community – never really finished (Naranjo: countertype of the Seven)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Nikola Tesla", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr."],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr."],
     fingerabdruecke: [
       {
         titel: "Restless, never-finished building in service of a larger system",
         beschreibung: "Instead of enjoying things for oneself, something is continuously built that has an effect beyond one's own person – as soon as one project is finished, the next already begins, with no real pause.",
-        beleg: "Elon Musk: 'The beaver doesn't do half measures. It builds and builds – and looks for the next obstacle to dam'; Nikola Tesla, who 'left behind over 300 patents and changed the technical infrastructure of all humanity, without ever pausing on a single invention'; Hazel Brugger: 'The beaver always has a new project'; Drew Barrymore: 'If a dam collapses, the beaver starts over immediately, without dwelling on it.'"
+        beleg: "Elon Musk: 'The beaver doesn't do half measures. It builds and builds – and looks for the next obstacle to dam'; Hazel Brugger: 'The beaver always has a new project'; Drew Barrymore: 'If a dam collapses, the beaver starts over immediately, without dwelling on it.'"
       },
       {
         titel: "Complete inner planning before the first move is even made",
         beschreibung: "Before anything is visibly built, the whole work first arises completely on the inside – as a clear vision that is then translated into reality step by step.",
-        beleg: "Nikola Tesla, who 'saw spontaneous, flashing inner images of machines that he could construct down to the last detail in his mind's eye before he ever picked up a tool': 'The beaver plans the dam completely in its head before the first branch falls'; Dieter Nuhr: 'The beaver, who examines every stone carefully before placing it.'"
+        beleg: "Dieter Nuhr: 'The beaver, who examines every stone carefully before placing it'; Jules Verne, who often thought through his technical inventions in complete detail long before the technology he described actually existed."
       },
       {
         titel: "Service to something bigger than oneself, instead of personal fame",
@@ -35755,7 +35762,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Dove",
     kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "David Berkowitz"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz"],
     fingerabdruecke: [
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
@@ -35765,7 +35772,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Toughness despite vulnerability – keeps carrying on, returns where others would give up",
         beschreibung: "The delicate, sensitive appearance is deceptive about considerable inner endurance: the path continues even through storms and setbacks, not because fear is absent, but because a deep knowledge of one's own direction carries it.",
-        beleg: "Lady Diana: 'The dove is tough: it finds its way even over great distances, even through storms'; Tim Bendzko: 'It returns. Not because it knows no fear, but because it knows where it belongs ... That's the dove: it carries the weight – and sings anyway'; Nicolas Cage: 'Tougher than it looks, its greatest strength lies in righting itself again and again despite inner vulnerability.'"
+        beleg: "Lady Diana: 'The dove is tough: it finds its way even over great distances, even through storms'; Tim Bendzko: 'It returns. Not because it knows no fear, but because it knows where it belongs ... That's the dove: it carries the weight – and sings anyway'; Nicolas Cage: 'Tougher than it looks, its greatest strength lies in righting itself again and again despite inner vulnerability'; Nikola Tesla, who lost his life's work at the Wardenclyffe Tower and nonetheless held to its rightness to the end – and who, far from any human closeness, found his deepest bond in a single white dove."
       },
       {
         titel: "Complete inner processing before stepping outward",
