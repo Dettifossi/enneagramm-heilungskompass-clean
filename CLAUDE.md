@@ -46,13 +46,15 @@ Dieser Schritt ist **nicht** Teil des automatisierten Post-Commit-Hooks (der kü
 - CSS-Variablen: `--copper`, `--paper`, `--ink`, `--muted`, `--line`.
 - Neue Inhalte in `data/subtypes/` oder `data/knowledge/`, NIE zurück in `de.js`.
 
-## Lebensmusterkompass — Pflichtschritt bei jedem neuen Porträt zu SE7, SX9, SO3 (und künftig weiteren Subtypen)
+## Lebensmusterkompass — Pflichtschritt bei jedem neuen Porträt zu einem bereits bearbeiteten Subtyp
 
-Die Rubrik „Lebensmusterkompass" (`LEBENSMUSTERKOMPASS`-Objekt in `bundle.js`, vor `function tritypenPage()`) enthält je bearbeitetem Subtyp 3–5 „biografische Fingerabdrücke" mit `beschreibung` (abstraktes Muster) und `beleg` (konkrete Zitate/Fakten aus den Porträts).
+Die Rubrik „Lebensmusterkompass" (`LEBENSMUSTERKOMPASS`-Objekt in `bundle.js`, vor `function tritypenPage()`) enthält je bearbeitetem Subtyp 3–5 „biografische Fingerabdrücke" mit `beschreibung` (abstraktes Muster) und `beleg` (konkrete Zitate/Fakten aus den Porträts). Stand August 2026 bereits ausgearbeitet: SE1, SO1, SX1, SE2, SO2, SX2, SE3, SX3, SE4, SO4, SX4, SE5, SO5, SX5, SE7, SX9, SO3 — wird laufend um weitere Subtypen ergänzt.
 
 **Die Beispielporträts-Liste auf der Detailseite aktualisiert sich automatisch** (`lebensmusterkompassPortraitsForCode()` zieht live aus `BERUEHMT_PORTRAITS`/`KRIMINAL_PORTRAITS`) — hier ist nichts weiter zu tun.
 
-**Die `beleg`-Felder aktualisieren sich NICHT automatisch** — das ist Prosa, die inhaltlich passend ausgewählt werden muss. Deshalb: Sobald ein neues Porträt zu einem Subtyp entsteht, der bereits im `LEBENSMUSTERKOMPASS`-Objekt enthalten ist (aktuell SE7, SX9, SO3), als zusätzlichen Schritt vor dem Commit prüfen, ob das neue Porträt zu einem der bestehenden Fingerabdrücke passt, und ein passendes Zitat/Fakt aus dem neuen Porträt in das jeweilige `beleg`-Feld einfügen (Vorbild: SE7, alle 12 Porträts eingearbeitet, August 2026). Ziel: Belege sollen möglichst aus **allen** vorliegenden Porträts des Subtyps gespeist sein, nicht nur aus einer Auswahl.
+**Die `beleg`-Felder aktualisieren sich NICHT automatisch** — das ist Prosa, die inhaltlich passend ausgewählt werden muss. Deshalb: Sobald ein neues Porträt zu einem bereits bearbeiteten Subtyp entsteht, als zusätzlichen Schritt vor dem Commit prüfen, ob das neue Porträt zu einem der bestehenden Fingerabdrücke passt, und ein passendes Zitat/Fakt aus dem neuen Porträt in das jeweilige `beleg`-Feld einfügen. Ziel: Belege sollen möglichst aus **allen** vorliegenden Porträts des Subtyps gespeist sein, nicht nur aus einer Auswahl.
+
+**Keine exakten Porträt-Zahlen in `beleg`/`beschreibung` verwenden** (z. B. nicht „einziger Fall unter den 14 SO4-Porträts"), da diese bei jedem neuen Porträt veralten würden und nicht automatisch mitgezählt werden. Stattdessen zahlenfreie, zeitlose Formulierungen wie „der einzige bekannte Fall dieser Art unter den SO4-Porträts dieses Kompasses" oder „die überwiegende Mehrheit der SX4 in diesem Kompass zeigt dieses Muster nicht". Trifft ein neues Porträt eine bestehende „einziger/einzige"-Aussage nicht mehr zu (z. B. weil ein zweiter vergleichbarer Fall dazukommt), muss die Formulierung entsprechend angepasst werden (z. B. zu „einer von zwei bekannten Fällen").
 
 ## Register & Suchfunktion — Pflichtschritt bei jedem neuen Inhalt
 
