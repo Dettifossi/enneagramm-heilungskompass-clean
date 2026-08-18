@@ -42397,7 +42397,7 @@ function tierlexikonPage() {
           <img
             src="${R2_CDN}assets/${s.code.toLowerCase()}-tier.jpg"
             alt="${s.tier}"
-            style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;"
+            style="position:absolute;top:-20%;left:${tierAvatarLeft(s.code)};width:140%;height:140%;object-fit:cover;"
             loading="lazy"
           />
         </div>
@@ -42852,7 +42852,7 @@ function tierlexikonDetailPage(codeRaw) {
           <img
             src="${R2_CDN}assets/${code.toLowerCase()}-tier.jpg"
             alt="${data.tier}"
-            style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;"
+            style="position:absolute;top:-20%;left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;"
           />
         </div>
         <div>
@@ -91296,6 +91296,7 @@ function render() {
           img.src = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-160/" + code + ".jpg";
           img.alt = "";
           img.loading = "lazy";
+          img.style.left = tierAvatarLeft(code);
           wrap.appendChild(img);
           typEl.appendChild(wrap);
         }
