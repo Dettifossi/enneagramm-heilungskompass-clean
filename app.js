@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SO6: {
+    tier: "Erdmännchen",
+    kernthema: "Wache halten für die Gruppe, nicht für sich selbst – Sicherheit durch Zugehörigkeit und Pflicht",
+    beispiele: ["Melanie Kreis", "Immanuel Kant", "Dr. Sigmund Freud", "Andy Reid", "Donata Hopfen", "Herbert Grönemeyer", "James Corden", "Adolf Eichmann"],
+    fingerabdruecke: [
+      {
+        titel: "Wache halten für die Gruppe, nicht für sich selbst",
+        beschreibung: "Die eigene Rolle wird konsequent dem Kollektiv untergeordnet: Sichtbarkeit oder persönlicher Auftritt sind nachrangig gegenüber der zuverlässigen Erfüllung der eigenen Funktion im System.",
+        beleg: "Melanie Kreis: ›Sie wird beschrieben als zuverlässig, präzise, analytisch – und als jemand, der für den Konzern arbeitet, nicht für den eigenen Auftritt. Das ist das Erdmännchen: Es hält Wache. Nicht für sich. Für die Gruppe‹; Andy Reid: ›Nicht das lauteste Tier im Rudel, sondern dasjenige, das am längsten und zuverlässigsten Wache hält – für ein System, das größer ist als es selbst‹; James Corden: ›Es ist selten das größte Tier im Rudel, aber immer das, das am meisten dafür tut, dass alle zusammenbleiben.‹"
+      },
+      {
+        titel: "Sicherheit durch feste, verlässliche Routine statt Aufbruch",
+        beschreibung: "Verlässlichkeit entsteht durch wiederkehrende, feste Strukturen im Alltag – dieselben Wege, dieselben Zeiten, dasselbe Vorgehen –, die Schutz vor einer unberechenbaren Welt bieten.",
+        beleg: "Immanuel Kant, der Königsberg in 80 Lebensjahren praktisch nie verließ und dessen Tagesablauf so unveränderlich getaktet war, ›dass die Bewohner Königsbergs angeblich ihre Uhren nach seinem allnachmittäglichen Spaziergang stellen konnten‹: ›Das Erdmännchen postiert seine Wachen an denselben Stellen, zur selben Zeit, jeden Tag‹; Andy Reid, seit über dreißig Jahren ›im selben karierten Kurzarmhemd, mit demselben Cheeseburger-Lächeln.‹"
+      },
+      {
+        titel: "Die w7-Variante: nicht abwarten, sondern der Gruppe vorauslaufen",
+        beschreibung: "Statt methodisch den Horizont zu beobachten, bringt diese Ausprägung aktiv Bewegung ins System – mobilisiert die Gruppe, bevor eine Bedrohung überhaupt sichtbar wird, oder holt Menschen aktiv zusammen.",
+        beleg: "Donata Hopfen: ›Andere rennen los, mobilisieren die Gruppe, bringen Bewegung ins Revier, bevor die Bedrohung überhaupt sichtbar ist … Das Erdmännchen der SO6w7 rennt nicht weg – es rennt voraus‹; James Corden, der in ›Carpool Karaoke‹ buchstäblich Menschen ins eigene Auto und damit zusammenholt: ›Komm rein, sing mit, sei Teil davon.‹"
+      },
+      {
+        titel: "Wenn Einbindung in ein System das eigene Gewissen vollständig ersetzt (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird die Zugehörigkeit zu einer Autoritätsstruktur nicht zum Mittel der Sicherheit, sondern zum vollständigen Ersatz für eigenständiges moralisches Urteil – Befehle werden ausgeführt, ohne sie infrage zu stellen.",
+        beleg: "Adolf Eichmann: ›Das Erdmännchen vertraut dem System der Kolonie vollständig – es zweifelt nicht, es hinterfragt nicht, es führt aus … Der Beitritt zur NSDAP und zur SS war für ihn kein ideologischer Akt – es war ein Akt der Einbindung. Er stieg auf, weil er zuverlässig war, gehorsam war, Aufgaben sauber erledigte. Das ist die SO6-Karriere: nicht durch Brillanz, sondern durch Konformität.‹ Wichtig: Dies ist der einzige bekannte Fall dieser Art unter den SO6-Porträts dieses Kompasses, keine typische Ausprägung."
+      }
+    ]
+  },
   SE6: {
     tier: "Kaninchen",
     kernthema: "Ständige Wachheit gegenüber Gefahr, Sicherheit gesucht im Vertrauten (Naranjo: Wärme)",
