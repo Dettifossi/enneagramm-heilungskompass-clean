@@ -32105,6 +32105,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mahatma Gandhi \u2013 Selbsterhaltender Typ 6",
     teaser:"SE6w5 \u00b7 1869\u20131948. Indischer Anwalt und Freiheitsk\u00e4mpfer. Ahimsa, Satyagraha, gewaltloser Widerstand gegen die britische Kolonialherrschaft. Das Kaninchen, das seine scheinbare Wehrlosigkeit in unangreifbare Kraft verwandelte und ein Weltreich ins Wanken brachte.",
     tags:["Politik","Geschichte"], gender:"m"},
+  { route:"beruehmte-anne-mcbride", name:"Dr. Anne McBride", added:"2026-08-19", subtyp:"SE6w5",
+    heading:"Dr. Anne McBride \u2013 Selbsterhaltender Typ 6",
+    teaser:"SE6w5 \u00b7 Britische Verhaltensforscherin, Senior Lecturer in Southampton, Vorsitzende der International Society for Anthrozoology. Promovierte \u00fcber das Sozial- und Elternverhalten des Europ\u00e4ischen Wildkaninchens und \u00fcbersetzt seither Angst- und Sicherheitsbed\u00fcrfnisse von Tieren in klare Verhaltensregeln. Tierentsprechung: Kaninchen.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-neil-armstrong", name:"Neil Armstrong", added:"2026-07-21", subtyp:"SE6w7",
     heading:"Neil Armstrong \u2013 Selbsterhaltender Typ 6",
     teaser:"SE6w7 \xb7 1930\u20132012. Pilot, Astronaut. Erster Mensch auf dem Mond, 20. Juli 1969. Das Kaninchen, das den au\xdferordentlichsten Schritt der Menschheitsgeschichte tat \u2013 und danach nur noch nach Hause wollte.",
@@ -35249,6 +35253,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-mariella-superina", name:"Dr. Mariella Superina", subtyp:"SO4w5", tier:"Gürteltier"},
   {route:"beruehmte-ingo-zimmermann", name:"Prof. Dr. Ingo Zimmermann", subtyp:"SE5w4", tier:"Eule"},
   {route:"beruehmte-hugh-warwick", name:"Hugh Warwick", subtyp:"SX5w4", tier:"Igel"},
+  {route:"beruehmte-anne-mcbride", name:"Dr. Anne McBride", subtyp:"SE6w5", tier:"Kaninchen"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42775,12 +42780,12 @@ const LEBENSMUSTERKOMPASS = {
   SE6: {
     tier: "Kaninchen",
     kernthema: "Ständige Wachheit gegenüber Gefahr, Sicherheit gesucht im Vertrauten (Naranjo: Wärme)",
-    beispiele: ["Sundar Pichai", "Fjodor Dostojewski", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List"],
+    beispiele: ["Sundar Pichai", "Fjodor Dostojewski", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride"],
     fingerabdruecke: [
       {
         titel: "Gefahr früher wahrnehmen als andere – ständige, aktive Wachheit",
         beschreibung: "Die Sinne sind fortlaufend auf mögliche Bedrohung ausgerichtet. Das erlaubt oft, Entwicklungen vorherzusehen, bevor sie für andere sichtbar werden – nicht aus Ängstlichkeit im negativen Sinn, sondern als ständig aktive Risikoeinschätzung.",
-        beleg: "Herbert Kickl: ›Es hört früher, riecht früher, spürt früher als andere, wenn etwas nicht stimmt‹; Sundar Pichai: ›Es hört, bevor es sich bewegt … bleibt genau dann ruhig, wenn andere in Panik geraten, weil es die Lage längst analysiert hat, bevor sie eskalierte‹; Malaika Mihambo, deren Weitsprung ›kontrollierte Explosion‹ ist: ›Wenn es doch springt, dann erst, nachdem es den Boden, die Distanz, die Gefahr genau abgewogen hat.‹"
+        beleg: "Herbert Kickl: ›Es hört früher, riecht früher, spürt früher als andere, wenn etwas nicht stimmt‹; Sundar Pichai: ›Es hört, bevor es sich bewegt … bleibt genau dann ruhig, wenn andere in Panik geraten, weil es die Lage längst analysiert hat, bevor sie eskalierte‹; Malaika Mihambo, deren Weitsprung ›kontrollierte Explosion‹ ist: ›Wenn es doch springt, dann erst, nachdem es den Boden, die Distanz, die Gefahr genau abgewogen hat‹; Dr. Anne McBride, deren gesamte Forschung der Frage gilt, wie Angst und Sicherheitsbedürfnisse bei Tieren entstehen – und die diese Erkenntnisse in klare, anwendbare Verhaltensregeln übersetzt."
       },
       {
         titel: "Sicherheit im Vertrauten statt auf der großen Bühne",
@@ -48247,6 +48252,67 @@ function hughWarwickPortraitPage() {
         {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-hugh-warwick")}
+    </div>
+  `);
+}
+
+function anneMcBridePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-anne-mcbride-portrait.jpg" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Anne McBride</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Verhaltensforscherin &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen, das ein Leben lang die Angst des Kaninchens erforschte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier der selbsterhaltenden Sechs &ndash; wachsam, sicherheitsbedacht, immer bereit, eine Bedrohung frühzeitig zu erkennen, bevor sie zur Gefahr wird. Kaum ein akademisches Werk zeigt dieses Prinzip so unmittelbar wie das von Dr. Anne McBride: Ihre gesamte Promotion an der University College London widmete sie dem Sozial- und Elternverhalten des Europäischen Wildkaninchens &ndash; und machte damit ausgerechnet ihr eigenes archetypisches Tier zum Gegenstand jahrelanger wissenschaftlicher Hingabe.</p>
+          <p class="vb-intro">Seit 1987 praktiziert sie als Verhaltenstherapeutin, leitete von 1999 bis 2009 die Animal Behaviour Clinic der University of Southampton und ist seit 1991 Vorsitzende der International Society for Anthrozoology. Über hundert wissenschaftliche Publikationen tragen ihren Namen &ndash; ein Lebenswerk, gebaut auf methodischer Gründlichkeit statt auf spektakulären Einzelentdeckungen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit durch verankertes Fachwissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sechs (SE6)</strong> sucht Sicherheit nicht durch eine einzelne, riskante große Geste, sondern durch ein dichtes Netz verlässlicher, mehrfach abgesicherter Strukturen &ndash; Wissen, Institutionen, Zugehörigkeiten, die zusammen ein tragfähiges Fundament bilden. McBrides Karriere liest sich wie ein Lehrbuchbeispiel dieses Musters: gleichzeitige Ehrenprofessuren in Nottingham und Bristol, ein jahrzehntelanger Vorsitz einer internationalen Fachgesellschaft, Mitgliedschaften in mehreren Berufsverbänden &ndash; Sicherheit, mehrfach verankert statt an einem einzigen Ort riskiert.</p>
+          <p class="vb-intro">Auch inhaltlich kreist ihr gesamtes Forschungsprogramm um genau dieses Thema: Sie untersucht, wie Angst und Sicherheitsbedürfnisse bei Tieren &ndash; Kaninchen, Meerschweinchen, Hunde von obdachlosen Menschen &ndash; entstehen, und übersetzt diese Erkenntnisse in klare, anwendbare Verhaltensregeln für Halterinnen und Halter. Die selbsterhaltende Sechs macht damit buchstäblich ihr eigenes Kernthema zum Beruf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Sachlichkeit statt Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Sechs eine analytische Zurückhaltung &ndash; Sicherheit entsteht hier nicht durch Wärme und Beziehungsaufbau zum Publikum, sondern durch nüchterne, fundierte Sachlichkeit. In Vortragsaufnahmen wirkt McBride entsprechend zurückhaltend und sehr auf die Fakten konzentriert: Statt Anekdoten oder Humor einzusetzen, referiert sie minutenlang präzise über die verschiedenen Unterarten des neben ihr sitzenden Kaninchens.</p>
+          <p class="vb-intro">Das unterscheidet sie deutlich vom wärmeren, verbindungssuchenden Siebenerflügel derselben Sechs: Ihr Zugang zur Sicherheit führt nicht über Sympathie und Gruppenzugehörigkeit im Publikum, sondern über die unangreifbare Verlässlichkeit des geprüften Fachwissens selbst. Eine zurückgezogene, beobachtende Grundhaltung, die dem Fach dient, nicht der eigenen Bühnenwirkung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE6w5 ist die Fähigkeit, <strong>die eigene Angst systematisch zu erforschen und daraus verlässliches, praktisch anwendbares Wissen zu destillieren</strong> &ndash; McBrides Arbeit hat das Verständnis von Tierwohl und artgerechter Haltung kleiner Heimtiere maßgeblich geprägt und schützt bis heute unzählige Tiere vor vermeidbarem Leid durch falsch verstandene Haltungsbedingungen.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Sechs mit Fünferflügel zeigt sich in einer gewissen emotionalen Distanz nach außen: Wo andere Wissenschaftskommunikatorinnen bewusst auf Nähe und Unterhaltung setzen, bleibt McBride ganz beim Faktischen &ndash; Sicherheit durch Genauigkeit, nicht durch Verbindung. Das mag im Vortrag weniger mitreißend wirken, ist aber genau die Konsequenz derselben Gründlichkeit, die ihre Forschung so verlässlich macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Kaninchen, das der Angst des Kaninchens eine Stimme gab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was McBride der Welt gibt, ist kein spektakuläres Einzelwerk, sondern ein über Jahrzehnte gewachsenes, breit abgesichertes Fundament an Wissen über Tierverhalten und Tierwohl &ndash; genau die Art von Sicherheit, die eine selbsterhaltende Sechs von Grund auf versteht, weil sie sie selbst braucht.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: eine Frau, deren archetypisches Tier das Kaninchen ist, die ihre gesamte akademische Laufbahn genau diesem einen wachsamen, sicherheitsbedachten Tier gewidmet hat &ndash; und dabei, offenbar unbewusst, ihr eigenes tiefstes Thema erforscht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se6", label:"Lebensmusterkompass: SE6 – Kaninchen"},
+        {route:"beruehmte-mahatma-gandhi", label:"Porträt: Mahatma Gandhi (SE6w5)"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Porträt: Fjodor Dostojewski (SE6w5)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-anne-mcbride")}
     </div>
   `);
 }
@@ -92152,6 +92218,7 @@ function render() {
       "beruehmte-paris-hilton": parisHiltonPortraitPage,
       "beruehmte-ingo-zimmermann": ingoZimmermannPortraitPage,
       "beruehmte-hugh-warwick": hughWarwickPortraitPage,
+      "beruehmte-anne-mcbride": anneMcBridePortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
