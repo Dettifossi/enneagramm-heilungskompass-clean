@@ -412,6 +412,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Osho – Self-Preservation Type 3",
     teaser:"SP3w4 · 1931–1990. Mystic, commune founder, author of over 600 books. From the Poona ashram to the utopian city of Rajneeshpuram – the raccoon that builds systems while the Four questions every convention. Animal correspondence: Raccoon.",
     tags:["Sonstiges"] },
+  { route:"beruehmte-sterling-north", name:"Sterling North", added:"2026-08-18", subtyp:"SE3w4",
+    heading:"Sterling North – Self-Preservation Type 3",
+    teaser:"SE3w4 · 1906–1974. Writer and literary editor. Made the raccoon world-famous with his book »Rascal« (1963, Newbery Honor, adapted by Disney) – and stayed connected to the real animal for the rest of his life.",
+    tags:["Literature"], gender:"m"},
   { route:"beruehmte-cristiano-ronaldo", name:"Cristiano Ronaldo", subtyp:"SO3w2",
     heading:"Cristiano Ronaldo – Social Type 3",
     teaser:"SO3w2 · born 1985. Five FIFA Best awards, five Champions League titles, over 900 career goals. The cheetah that never stops running – and yet always knows where he comes from.",
@@ -16069,6 +16073,145 @@ function adeleNeuhauserPortraitPage() {
           {route:"beruehmte-donald-trump", label:"Portrait: Donald J. Trump (SX8w7)"},
           {route:"beruehmte-genesis-p-orridge", label:"Portrait: Genesis P-Orridge (SX8w9)"},
           {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function sterlingNorthPortraitPage() {
+  const galleryItem = (src, alt, caption) => `
+    <figure style="margin:0 0 0.9rem;break-inside:avoid;-webkit-column-break-inside:avoid;display:inline-block;width:100%;">
+      <img src="../assets/portraits/sterling-north-gallery/${src}" alt="${alt}" loading="lazy" style="width:100%;height:auto;border-radius:8px;display:block;border:1px solid var(--border);" />
+      <figcaption style="font-size:0.72rem;color:var(--muted);margin-top:0.3rem;line-height:1.4;">${caption}</figcaption>
+    </figure>
+  `;
+  const galleryGroup = (title, items) => `
+    <div style="margin-bottom:1.4rem;">
+      <p style="font-size:0.78rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--copper);margin:0 0 0.6rem;">${title}</p>
+      <div style="columns:150px;column-gap:0.9rem;">
+        ${items.map(([src, alt, caption]) => galleryItem(src, alt, caption)).join("")}
+      </div>
+    </div>
+  `;
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-sterling-north-portrait.jpg" alt="Raccoon" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sterling North</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Writer and literary critic, 1906&ndash;1974 &ndash; made the raccoon world-famous with »Rascal« &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The raccoon that became a book</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hardly any other portrait in this compass connects animal correspondence and life story as literally as this one: Sterling North, born in 1906 on a farm near Edgerton, Wisconsin, wrote the book in 1963 that made the <strong>raccoon</strong> world-famous as a literary figure: »Rascal – A Memoir of a Better Era«. It tells how, as an eleven-year-old boy in 1918, he raised an orphaned baby raccoon, named it Rascal, and roamed rural Wisconsin with it for a year, before releasing it back into the wild at the end of the book.</p>
+          <p class="vb-intro">»Rascal« was awarded a Newbery Honor in 1964, was a finalist for the National Book Award, was translated into dozens of languages, adapted as an anime series in Japan, and made into a film by Walt Disney Pictures in 1969. To this day, the »Sterling North Society« keeps his memory alive in his hometown of Edgerton – with a raccoon head as its emblem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Competence over glamour</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Three (SE3)</strong> is, according to Naranjo, the countertype of the Three: instead of self-staging and the spotlight, it shows modesty, groundedness, a deliberate avoidance of the limelight – while the energy and ambition of the Three underneath remain unchanged. Sterling North lived this pattern for decades: alongside his work as a book author, he worked for decades as a literary editor, among others at the Chicago Daily News and later at the New York Post – a position that had real influence on the American literary scene of his time, without his own name ever standing in the spotlight.</p>
+          <p class="vb-intro">His photos show this pattern too: the man at the desk with the Royal typewriter, surrounded by shelves full of books, doesn't look like a public figure, but like a quiet, hard-working craftsman of language. That is exactly where the quiet effectiveness of the SE3 lies – a system of discipline, competence, and steady work that carries for decades without ever advertising itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: The longing for the "better era"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A Self-Preservation Three with a weaker Four-wing would probably have turned the same childhood memory into a sober, factual account. In Sterling North, a deep emotional and aesthetic sensitivity emerged instead, visible already in the subtitle of his best-known work: »A Memoir of a Better Era« – the memory of a better, irretrievable time. In it, North also processed the early death of his mother and growing up in a family that never quite found its way back together after that loss – a wistfulness that gives the book its literary depth and lifts it far beyond a mere animal story.</p>
+          <p class="vb-intro">The Four-wing also shows in how North shapes the farewell to Rascal at the end of the book: not as a triumph, but as a painful, consciously accepted loss – letting go of something loved because it is the right thing to do. This ability to transform melancholy into something lasting, artistically shaped, is the typical gift of the Four-wing in the otherwise so pragmatic, down-to-earth SE3.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A lifetime accompanied by raccoons</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What makes this portrait special: Sterling North remained connected to the raccoon not only in literature, but genuinely, for his entire life. Numerous private photos show him as an adult, later an old man, with real raccoons on his arm, on his shoulder, or on his head – fed, held, with evident real affection. This is no mere literary invention, but a person who maintained the bond from his childhood throughout his whole life.</p>
+          <p class="vb-intro">This constancy – the same passion across more than sixty years, from farm boy to old writer – is itself an SE3 pattern: an identity once found and proven does not get discarded again, but is tended and built upon over an entire lifetime, until an entire society (the »Sterling North Society«) grows out of it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The raccoon that shaped a whole generation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sterling North died in 1974 in Morristown, New Jersey. His gravestone bears, next to his name, a quote from »Rascal« itself: »We are such stuff as dreams are made on and our little life is rounded with a sleep.« His wife Gladys Buchanan North, to whom he was married for decades, is honored on the same stone as »beloved wife, companion and helpmeet«.</p>
+          <p class="vb-intro">The raccoon, as the animal of the Self-Preservation Three, stands for unassuming competence that builds something lasting out of sight. In Sterling North's case, this quiet steadiness – one year with a young raccoon, carefully put into words with Four-wing depth – became a book that, more than sixty years later, still inspires millions of readers worldwide for this clever, curious animal.</p>
+        </blockquote>
+
+        <details style="margin-top:1.8rem;border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;">&#128247;</span>
+            <span style="flex:1;">Photo Gallery: Sterling North and Rascal (32 photos)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.4rem;">
+            <p style="font-size:0.85rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.55;">A documentary collection from various stages of Sterling North's life, editions and adaptations of »Rascal«, and the still-active legacy of the Sterling North Society in Edgerton, Wisconsin.</p>
+
+            ${galleryGroup("Childhood and youth", [
+              ["sterling-north-24-vierzehn-jahre.jpg", "Sterling North at age ten", "At age 10"],
+              ["sterling-north-23-elf-jahre.jpg", "Sterling North at age eleven", "At age 11 – the age at which the Rascal story takes place"],
+              ["sterling-north-31-vierzehn-jahre-b.jpg", "Sterling North at age fourteen", "At age 14"],
+              ["sterling-north-25-sechzehn-jahre.jpg", "Sterling North at age sixteen", "At age 16"],
+              ["sterling-north-30-achtzehn-jahre-schreibend.jpg", "Sterling North at age eighteen, writing", "At 18, writing introspectively in the family study – already active as a writer at this age"],
+              ["sterling-north-01-familie.jpg", "Sterling North with his wife Gladys and their two children, photo strip", "Family photo (photo strip, top to bottom): Sterling North at about age 55, his wife Gladys, and their two children"],
+            ])}
+
+            ${galleryGroup("Family and everyday life", [
+              ["sterling-north-26-mit-vater.jpg", "Sterling North with his father", "With his father"],
+              ["sterling-north-04-angeln.jpg", "Sterling North fishing", "Fishing – his favorite pastime in rural surroundings: growing completely still, waiting for the big catch"],
+              ["sterling-north-27-mit-bruder.jpg", "Sterling North with his older brother", "With his older brother"],
+              ["sterling-north-28-mit-onkel.jpg", "Sterling North with a paternal uncle", "With a paternal uncle"],
+              ["sterling-north-02-schreibtisch.jpg", "Sterling North at the typewriter", "At his desk, with his Royal typewriter"],
+              ["sterling-north-03-ehefrau.jpg", "Sterling North with his wife Gladys", "With his wife Gladys Buchanan North"],
+              ["sterling-north-29-ehefrau-portraet.jpg", "Gladys Buchanan North, portrait", "His wife Gladys Buchanan North (SO2w1)"],
+              ["sterling-north-32-mit-ehefrau-schreibmaschine.jpg", "Sterling North with his wife at the typewriter", "At age 43, together with his wife at the typewriter – his Self-Preservation raccoon figure clearly visible"],
+              ["sterling-north-05-portraet.jpg", "Portrait photo of Sterling North", "Portrait photo"],
+            ])}
+
+            ${galleryGroup("Sterling North with real raccoons", [
+              ["sterling-north-07-fuetterung.jpg", "Sterling North feeding baby raccoons", "Feeding two baby raccoons"],
+              ["sterling-north-08-waschbaeren-kopf.jpg", "Sterling North with two raccoons on his head", "Two raccoons on his head – bound to them for a lifetime"],
+              ["sterling-north-09-fuetterung-nah.jpg", "Sterling North hand-feeding a raccoon", "Hand-feeding, close-up"],
+              ["sterling-north-10-mit-zwei-waschbaeren.jpg", "Sterling North with two raccoons in his arms", "With two young raccoons in his arms"],
+            ])}
+
+            ${galleryGroup("Rascal – book editions and illustrations", [
+              ["sterling-north-11-buchillustration.jpg", "Illustration of a boy with a raccoon", "Illustration of the boy with Rascal on his shoulder"],
+              ["sterling-north-12-cover-puffin.jpg", "Rascal, Puffin edition", "Book cover, Puffin edition"],
+              ["sterling-north-13-cover-scholastic.jpg", "Rascal, Scholastic edition", "Book cover, Scholastic edition"],
+              ["sterling-north-14-cover-memoir.jpg", "Rascal, memoir edition", "Book cover, first-edition design of »A Memoir of a Better Era«"],
+              ["sterling-north-15-cover-fahrrad.jpg", "Rascal, bicycle-motif edition", "Book cover, boy with Rascal on a bicycle"],
+              ["sterling-north-18-cover-newbery.jpg", "Rascal, Newbery Honor edition", "Book cover, Newbery Honor edition"],
+              ["sterling-north-19-cover-blau.jpg", "Rascal, blue edition", "Book cover, historicizing photo montage"],
+            ])}
+
+            ${galleryGroup("Film adaptations, legacy, and the Sterling North Society", [
+              ["sterling-north-17-anime.jpg", "Anime adaptation of Rascal", "Anime adaptation (Nippon Animation, Japan)"],
+              ["sterling-north-33-film-standbild.jpg", "Film still from the Disney adaptation of Rascal", "Film still from the Disney adaptation: the actor who plays young Sterling North"],
+              ["sterling-north-22-disney-dvd.jpg", "Disney adaptation of Rascal, DVD cover", "DVD cover of the 1969 Disney adaptation"],
+              ["sterling-north-20-emblem.jpg", "Emblem of the Sterling North Society", "Emblem of the Sterling North Society, Edgerton WI"],
+              ["sterling-north-16-grabstein.jpg", "Gravestone of the North family", "Gravestone of the North family"],
+              ["sterling-north-21-society-collage.jpg", "Photo collage of the Sterling North Society", "Recent meetings and activities of the Sterling North Society – the society still exists today"],
+            ])}
+          </div>
+        </details>
+
+        <blockquote class="vb-blockquote" style="margin-top:1.5rem;">
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+          {route:"subtype/se3", label:"SE3 – The Raccoon: subtype profile"},
+          {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SE3 – Raccoon"},
+          {route:"tierlexikon/se3", label:"Animal Lexicon: Raccoon"},
+          {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SE3w4)"},
+          {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SE3w4)"},
         ])}
       </div>
     </div>
@@ -57099,6 +57242,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-pharrell-williams": pharrellWilliamsPortraitPage,
       "beruehmte-bella-thorne": bellaThornePage,
       "beruehmte-adele-neuhauser": adeleNeuhauserPortraitPage,
+      "beruehmte-sterling-north": sterlingNorthPortraitPage,
       "beruehmte-pablo-picasso": pabloPicassoPortraitPage,
       "beruehmte-grahame-webb": grahameWebbPortraitPage,
       "beruehmte-angela-merkel": angelaMerkelPortraitPage,

@@ -986,6 +986,7 @@ export const registerEntriesEN = [
   { term: "Karl Lagerfeld", route: "beruehmte-karl-lagerfeld", description: "Portrait: SO3w4 · Social Type 3 · Fashion designer, Chanel icon" },
   { term: "Karoline Herfurth", route: "beruehmte-karoline-herfurth", description: "Portrait: SE4w5 · Self-Preservation Type 4 · Actress, Director" },
   { term: "Kathrin Bauerfeind", route: "beruehmte-kathrin-bauerfeind", description: "Portrait: SE3w4 · Self-Preservation Type 3 · Journalist, TV host, Essayistin" },
+  { term: "Sterling North", route: "beruehmte-sterling-north", description: "Portrait: SE3w4 · Self-Preservation Type 3 · writer, made the raccoon world-famous with »Rascal«" },
   { term: "Jane Goodall", route: "beruehmte-jane-goodall", description: "Portrait: SX9w1 · Sexual Type 9 · primatologist, founder of modern chimpanzee research" },
   { term: "Craig Foster", route: "beruehmte-craig-foster", description: "Portrait: SX9w1 · Sexual Type 9 · nature filmmaker, director of \"My Octopus Teacher\"" },
   { term: "Ana Salceda", route: "beruehmte-ana-salceda", description: "Portrait: SX9w1 · Sexual Type 9 · journalist, director of \"A Sloth Named Velcro\"" },
