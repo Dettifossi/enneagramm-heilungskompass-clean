@@ -648,6 +648,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Mariella Superina – Social Type 4",
     teaser:"SO4w5 · Swiss veterinarian and scientist, for over 20 years the world's leading armadillo researcher, chair of the IUCN Armadillo Specialist Group. A globally recognized authority on her own archetypal animal. Animal correspondence: Armadillo.",
     tags:["Wissenschaft"], gender:"f"},
+{ route:"beruehmte-carl-friedrich-gauss", name:"Carl Friedrich Gauss", added:"2026-08-18", subtyp:"SE5w6",
+    heading:"Carl Friedrich Gauss – Self-Preservation Type 5",
+    teaser:"SE5w6 · 1777–1855. Mathematician, astronomer, physicist. Normal distribution, Gaussian elimination, foundational work for nearly every modern natural science. Published only what was fully mature – 'pauca sed matura,' few but ripe. Animal correspondence: Owl.",
+    tags:["Wissenschaft","Geschichte"], gender:"m"},
 { route:"beruehmte-sam-altman", name:"Sam Altman", added:"2026-08-10", subtyp:"SE4w5",
     heading:"Sam Altman – Self-Preservation Type 4",
     teaser:"SE4w5 · born 1985. CEO of OpenAI, former president of Y Combinator. A quiet, methodical struggle to build a future no one has built yet – five days of ouster and return in November 2023, without public drama. Animal correspondence: Dove.",
@@ -28571,6 +28575,65 @@ function mariellaSuperinaPortraitPage() {
   `);
 }
 
+function carlFriedrichGaussPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-carl-friedrich-gauss-portrait.jpg" alt="Owl" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carl Friedrich Gauss</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Mathematician, astronomer, physicist, 1777&ndash;1855 &ndash; Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The owl that worked quietly in the nest until the egg was perfect</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>owl</strong> is the animal of the Self-Preservation Five &ndash; it hoards its energy and its knowledge, shows itself rarely, and comes forward only once something has been thought through completely. Few lives embody this principle as consistently as that of Carl Friedrich Gauss: the "Princeps mathematicorum," the Prince of Mathematicians, laid the foundation for wide swaths of modern natural science with the normal distribution, Gaussian elimination, Gaussian curvature, and foundational work in number theory, magnetism, and astronomy &ndash; and published only a fraction of what he had actually discovered.</p>
+          <p class="vb-intro">Gauss was born in 1777 in Braunschweig, the son of simple tradespeople, and showed an extraordinary talent for calculation even as a child &ndash; according to legend, as a schoolboy he instantly summed the numbers 1 to 100 by pairing them into sums of 101, rather than laboriously adding them one by one. His personal motto, which he kept his whole life, was "pauca sed matura" &ndash; few, but ripe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Five: hoarding knowledge until it is ripe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Five (SE5)</strong> withdraws to protect its limited inner resources &ndash; it reveals nothing that has not been thought through to the last detail, and experiences disturbance, an audience, or public appearance as a threat to its precious inner order. Gauss taught only reluctantly, avoided distraction and interruption, and preferred to work alone, without collaborating with younger mathematicians or letting them into his world of thought.</p>
+          <p class="vb-intro">His perfectionism was radical: many of his most significant discoveries &ndash; including parts of non-Euclidean geometry &ndash; he withheld completely for decades, out of fear of the "outcry of the Boeotians," meaning public criticism from people who would not understand his thinking. The Self-Preservation Five would rather reveal nothing at all than expose something unfinished to the world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: caution against anything controversial</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> heightens the Five's need for security and caution &ndash; not out of everyday anxiety, but out of a deep distrust of situations in which one's own position could become vulnerable. Exactly this pattern showed in Gauss's decades-long withholding of controversial results: he preferred to forgo priority and recognition rather than expose himself to a public dispute whose outcome he could not fully control.</p>
+          <p class="vb-intro">His everyday life showed this same Six note: he practically never left Göttingen, held to an orderly, predictable daily structure, and served for decades as director of the Göttingen Observatory &ndash; a secure, institutionally protected position from which he could research in peace, rather than exposing himself to the risk of an unaffiliated scholarly existence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE5w6 is its ability to reach, <strong>through radical withdrawal, insights of centuries-long significance</strong> &ndash; the Gaussian normal distribution remains, to this day, one of the central tools of all of statistics, from the natural sciences to social research, and his elimination method belongs to the basic mathematical toolkit of every engineer worldwide.</p>
+          <p class="vb-intro">The shadow showed in missed recognition and lost priority: because Gauss withheld so much, some of his discoveries were later made and published independently by other researchers, who received the credit for them. The flip side of the Self-Preservation Five with a Six-wing: seeking absolute safety from criticism can mean withholding from the world insights it urgently needed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The owl that shaped the bell curve</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gauss died in 1855 in Göttingen, highly honored but reserved about public appearance to the end. In Germany, his image remained present in everyday circulation until the introduction of the euro &ndash; his portrait and the bell curve he shaped adorned the ten-Deutschmark note for decades, carried daily by millions of people in their pockets, without necessarily knowing whose reclusive genius was depicted there.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly stand more fittingly for the Self-Preservation Five with a Six-wing: an owl that worked in seclusion, withheld much out of caution &ndash; and whose quietest, ripest fruit, the normal distribution curve, today describes worldwide how almost everything in nature distributes around a calm mean.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
+        {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SE5 – Owl"},
+        {route:"bewusstseinsgrad-normalverteilung", label:"Levels of Consciousness & the Gaussian Normal Distribution"},
+      ])}
+    </div>
+  `);
+}
+
 function julesVernePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -35815,17 +35878,17 @@ const LEBENSMUSTERKOMPASS = {
   SE5: {
     tier: "Owl",
     kernthema: "Retreat as a deliberately built fortress – quiet observation instead of flight",
-    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch Spinoza", "Carl Tanzler", "Joachim Kroll"],
+    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauss"],
     fingerabdruecke: [
       {
         titel: "Retreat as a deliberately built 'fortress' instead of mere flight",
         beschreibung: "The retreat space is not a sign of weakness, but an actively built, protected base from which to observe, think, and work – small, manageable, but entirely under one's own control.",
-        beleg: "Xu Bing: 'The owl who, in a time of the greatest publicity, learned to withdraw into the silence of the character' – 'the fortress of characters'; Peter Lustig, whose camper became a 'fortress'; Warren Buffett, who has lived in the same house in Omaha since 1958: 'the fortress in Omaha'; Hermann Hesse, who spent forty years in his house in Ticino: 'the fortress in Ticino'; Spinoza: 'the fortress of thought.'"
+        beleg: "Xu Bing: 'The owl who, in a time of the greatest publicity, learned to withdraw into the silence of the character' – 'the fortress of characters'; Peter Lustig, whose camper became a 'fortress'; Warren Buffett, who has lived in the same house in Omaha since 1958: 'the fortress in Omaha'; Hermann Hesse, who spent forty years in his house in Ticino: 'the fortress in Ticino'; Spinoza: 'the fortress of thought'; Carl Friedrich Gauss, who practically never left Göttingen and researched for decades as observatory director within a secure, orderly daily structure."
       },
       {
         titel: "Patient waiting until the knowledge or the moment is unassailable",
         beschreibung: "Acting or publishing happens not impulsively, but only once every objection has been anticipated and every detail secured – a process that may look like hesitation from outside but is an expression of extreme care.",
-        beleg: "Charles Darwin, who 'held back his theory of evolution for twenty years before publishing it ... until what he'd observed was unassailable'; Warren Buffett: 'She only acts once she has truly understood what she sees. And when she acts, she does so with a precision others mistake for luck, but which presupposes decades of patient observation.'"
+        beleg: "Charles Darwin, who 'held back his theory of evolution for twenty years before publishing it ... until what he'd observed was unassailable'; Warren Buffett: 'She only acts once she has truly understood what she sees. And when she acts, she does so with a precision others mistake for luck, but which presupposes decades of patient observation'; Carl Friedrich Gauss, whose lifelong motto was 'pauca sed matura' – few but ripe – and who withheld mathematical discoveries for decades, fearing the 'outcry of the Boeotians,' until he considered them fully mature."
       },
       {
         titel: "Rejection or crisis becomes a method of retreat, rather than leading to open rupture",
@@ -45621,6 +45684,7 @@ function bewusstseinsgradNormalverteilungPage() {
           {route:"dynamik-des-bewusstseinszustandes", label:"Dynamics of the State of Consciousness"},
           {route:"kriminalpsychologie", label:"Criminal Psychology"},
           {route:"beruehmte-persoenlichkeiten", label:"Famous Personalities"},
+          {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauss (SE5w6) – namesake of the curve"},
           {route:"knowledge", label:"Knowledge Base"},
         ])}
       </div>
@@ -57412,6 +57476,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
+      "beruehmte-carl-friedrich-gauss": carlFriedrichGaussPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
