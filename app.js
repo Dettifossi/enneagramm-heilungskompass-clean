@@ -15873,6 +15873,7 @@ const uiText = {
       { route: "laenderzuordnungen", label: "L\xe4nderzuordnungen" },
       { route: "planetenzuordnungen", label: "Planeten & Trabanten des Sonnensystems" },
       { route: "tierlexikon", label: "Tierlexikon" },
+      { route: "lebensmusterkompass", label: "Lebensmusterkompass (Biografische Fingerabdrücke)" },
       { route: "tritypen", label: "Die 27 Tritypen des Enneagramms (f\xfcr Fortgeschrittene)" },
     ]},
     { route: "schaubilder", label: "Schaubilder", dropdown: [
@@ -23975,6 +23976,7 @@ const registerEntries = [
 
   // Tierlexikon
   { term: "Tierlexikon",               route: "tierlexikon",            description: "Das vollst\u00e4ndige Tierlexikon: alle 27 Tierarchetypn mit Bedeutung, Qualit\u00e4ten und Instinktzuordnung" },
+  { term: "Lebensmusterkompass",       route: "lebensmusterkompass",    description: "Biografische Fingerabdr\u00fccke der 27 Subtypen \u2013 wiederkehrende Muster aus 350+ Fallportr\u00e4ts" },
 
   { term: "Wetter- und Naturph\u00e4nomene der 9 Typen", route: "wetter-naturphaenomene-der-9-typen", description: "Archetypische Wetter- und Naturph\u00e4nomen-Entsprechungen f\u00fcr jeden Enneagrammtyp" },
   { term: "Architektur & Raumgestaltung der 9 Typen", route: "architektur-raumgestaltung-der-9-typen", description: "Archetypische Baustile und Raumgestaltungen f\u00fcr jeden Enneagrammtyp" },
@@ -42425,6 +42427,207 @@ const TIER_DOKU = {
   SO9: { ytId: "r46Ztn1T3sU",  start: 0, titel: "Wasserb\u00fcffel \u2013 Kraft der Stille",                kanal: "Tierdoku" },
   SX9: { ytId: "5qsH7xRe3J8",  start: 0, titel: "Sind Faultiere faul?",                           kanal: "WDR Die Maus" },
 };
+
+// Lebensmusterkompass – wiederkehrende biografische Fingerabdrücke je Subtyp,
+// herausgearbeitet aus der internen Analyse von 350+ Fallporträts dieses Kompasses
+// (Berühmte Persönlichkeiten + Kriminalpsychologie). Kein externer wissenschaftlicher
+// Beleg, sondern ein internes, kohärentes Beobachtungsinstrument – siehe Hinweis-Box
+// auf der Übersichtsseite.
+const LEBENSMUSTERKOMPASS = {
+  SX9: {
+    tier: "Faultier",
+    kernthema: "Verschmelzung mit einem einzelnen Wesen statt Zugehörigkeit zu einer Gruppe",
+    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch"],
+    fingerabdruecke: [
+      {
+        titel: "Die eine Bindung statt der vielen Kontakte",
+        beschreibung: "Immer wieder zentriert sich das Leben nicht um ein Netzwerk, eine Institution oder ein Publikum, sondern um eine einzelne, oft nicht-menschliche oder sehr private Beziehung: ein bestimmtes Tier, eine bestimmte Rolle, ein bestimmter Mensch. Diese eine Bindung wird zum Dreh- und Angelpunkt der gesamten weiteren Biografie.",
+        beleg: "Foster und sein namenloser Oktopus, Goodall und der Schimpanse David Greybeard, Salceda und das Faultier Velcro – in jedem Fall beginnt die eigentliche Geschichte erst mit der Begegnung mit einem einzigen Individuum, nicht mit einer Art oder einem Fachgebiet im Allgemeinen."
+      },
+      {
+        titel: "Scheinbare Passivität, die sich bei Berührung in volle Intensität verwandelt",
+        beschreibung: "Von außen wirkt die Grundhaltung zurückhaltend, wartend, fast unbeteiligt. Doch sobald der richtige Moment oder eine Grenzüberschreitung eintritt, zeigt sich eine überraschend vollständige, ungeteilte Reaktion – kein abgestuftes Engagement, sondern ein Umschlagen von Null auf Hundert.",
+        beleg: "›Das Faultier hängt still, bis es sich bewegt. Wenn es sich bewegt, gibt es alles‹ (Makatsch-Porträt); Dakota Johnsons ›Krallen, die man erst sieht, wenn man zu nahe kommt‹."
+      },
+      {
+        titel: "Eine biografische Zäsur geht der eigentlichen Hingabe voraus",
+        beschreibung: "Häufig steht am Anfang nicht ein geplanter Karriereweg, sondern eine Krise, ein Bruch, ein Erschöpfungszustand – aus dem heraus sich die spätere, oft lebenslange Verschmelzungserfahrung erst entwickelt.",
+        beleg: "Craig Fosters Burnout vor der Begegnung mit dem Oktopus; Ana Salcedas zufällige, ungeplante Pflegemutterschaft für ein verwaistes Jungtier."
+      },
+      {
+        titel: "Der Rückzug aus dem erwarteten, lauteren Weg",
+        beschreibung: "Ein vorgezeichneter, öffentlichkeitswirksamer oder dynastischer Weg wird bewusst nicht fortgesetzt zugunsten einer leiseren, unaufdringlicheren Form der Präsenz.",
+        beleg: "Dakota Johnson, die die Hollywood-Dynastie ihrer Familie hätte bequem fortschreiben können, wählt stattdessen eine ›Anwesenheit, die sich nicht aufdrängt‹."
+      }
+    ]
+  },
+  SE7: {
+    tier: "Gorilla",
+    kernthema: "Aufbau eines geschützten, familienähnlichen Systems statt Einzelkämpfertum",
+    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader"],
+    fingerabdruecke: [
+      {
+        titel: "Ein selbst geschaffenes Territorium statt einer fremden Karriereleiter",
+        beschreibung: "Statt in bestehenden Institutionen aufzusteigen, wird ein eigener, geschützter Mikrokosmos aufgebaut – ein Studio, eine Forschungsstation, ein Wissensgebäude –, in dem eigene Regeln gelten und den man selbst kontrolliert.",
+        beleg: "Hans Zimmers Remote Control Productions in Santa Monica; Dian Fosseys Forschungsstation Karisoke in den Virunga-Bergen; Francis Bacons ›Instauratio Magna‹, die ›Große Erneuerung‹ des gesamten Wissens als sein eigenes Territorium."
+      },
+      {
+        titel: "Raumfüllende Ruhe statt Kampf um Aufmerksamkeit",
+        beschreibung: "Die Wirkung entsteht nicht durch Show oder Konfrontation, sondern durch eine bloße, beruhigende Präsenz, die Vertrauen erzeugt, ohne sich aufzudrängen.",
+        beleg: "›Larry Kings bloße Anwesenheit in einem Fernsehstudio hatte etwas Beruhigendes‹ – über sechs Jahrzehnte, mehr als 50.000 Interviews, ohne aggressive Gesprächsführung."
+      },
+      {
+        titel: "Mentoring: Das selbst gebaute Rudel wird weitergegeben",
+        beschreibung: "Wer sich ein eigenes Territorium geschaffen hat, öffnet es typischerweise für andere – als Ausbildungsstätte, als Familienersatz, als Ort, an dem die nächste Generation lernt.",
+        beleg: "Zimmer bildete in seinem Studio Dutzende Komponisten aus (Junkie XL, Ramin Djawadi u. a.); ›Der Gorilla baut kein Territorium. Er baut ein Rudel.‹"
+      },
+      {
+        titel: "Kompromisslose Härte, sobald das Revier bedroht wird (v. a. bei w8)",
+        beschreibung: "Solange niemand das aufgebaute System angreift, bleibt die Grundhaltung friedlich und zugewandt. Wird das eigene Revier jedoch bedroht, kann diese Ruhe abrupt in kompromisslose, harte Verteidigung umschlagen – ohne Zwischenstufen.",
+        beleg: "Dian Fossey nach der Tötung des Gorillas Digit durch Wilderer; Andreas Baaders Wendung von geselligem Auftreten zu unnachgiebiger Gewaltbereitschaft, sobald seine Freiheit infrage stand."
+      }
+    ]
+  },
+  SO3: {
+    tier: "Gepard",
+    kernthema: "Kontrolle über das eigene Bild als bewusst eingesetztes Instrument",
+    beispiele: ["Karl Lagerfeld", "Cristiano Ronaldo", "Sahra Wagenknecht", "Pharrell Williams"],
+    fingerabdruecke: [
+      {
+        titel: "Der kontrollierte Blick als Machtinstrument",
+        beschreibung: "Auffällig häufig wird der eigene Blick – ob durch Verbergen oder durch gezielten Einsatz – zu einem bewussten Steuerungsinstrument: Wer sieht, wird gesehen; wer sich entzieht, wird zum Rätsel, das Aufmerksamkeit bindet.",
+        beleg: "Karl Lagerfelds permanente Sonnenbrille als ›Instrument der Kontrolle‹; Sahra Wagenknechts ›ruhiger, präziser, leicht überblickender‹ Blick, der ›das Publikum sucht, die Wirkung misst, die Resonanz berechnet‹. Wichtig: Dies ist ein sichtbares Verhaltensmuster, kein zuverlässiges Diagnosekriterium für sich allein."
+      },
+      {
+        titel: "Leistung, die sich in überprüfbaren Rekordzahlen ausdrückt",
+        beschreibung: "Der Erfolg wird nicht nur behauptet, sondern in objektiv nachprüfbaren, oft superlativischen Zahlen sichtbar gemacht – Titel, Rekorde, Auszeichnungen –, die als Beleg für die Spitzenposition dienen.",
+        beleg: "Cristiano Ronaldo: fünf Weltfußballer-Titel, fünf Champions-League-Siege, über 900 Karrieretore – ›nicht einer der Besten. Der Beste.‹"
+      },
+      {
+        titel: "Parallele Erfolgsfelder statt eines einzigen Fachgebiets",
+        beschreibung: "Erfolg wird nicht auf ein Gebiet begrenzt, sondern gleichzeitig oder nacheinander in mehreren, oft branchenfremden Bereichen gesucht und erreicht – ein Zeichen von Anpassungsgeschwindigkeit statt Spezialisierung.",
+        beleg: "Pharrell Williams: Musikproduktion (Neptunes), eigene Band (N.E.R.D.), Kreativdirektor für Herrenmode bei Louis Vuitton – ›kein anderer Künstler seiner Generation ist so vielen Spuren gleichzeitig nachgejagt.‹"
+      },
+      {
+        titel: "Verwandlung in ein wiedererkennbares, ikonisches Symbol",
+        beschreibung: "Am Ende der Entwicklung steht häufig nicht mehr nur eine Person, sondern ein sofort identifizierbares, plakatives Erscheinungsbild, das unabhängig vom Kontext funktioniert.",
+        beleg: "Lagerfeld: ›Er hatte sich in ein Symbol verwandelt, das auf Anhieb identifizierbar war, weltweit, zeitlos.‹"
+      }
+    ]
+  }
+};
+
+function lebensmusterkompassPage() {
+  const subtypes = [
+    { code: "SE1", tier: "Adler" }, { code: "SO1", tier: "Gans" }, { code: "SX1", tier: "Schwarze Mamba" },
+    { code: "SE2", tier: "Flusspferd" }, { code: "SO2", tier: "Golden Retriever" }, { code: "SX2", tier: "Kamel" },
+    { code: "SE3", tier: "Waschbär" }, { code: "SO3", tier: "Gepard" }, { code: "SX3", tier: "Pfau" },
+    { code: "SE4", tier: "Taube" }, { code: "SO4", tier: "Gürteltier" }, { code: "SX4", tier: "Chihuahua" },
+    { code: "SE5", tier: "Eule" }, { code: "SO5", tier: "Oktopus" }, { code: "SX5", tier: "Igel" },
+    { code: "SE6", tier: "Kaninchen" }, { code: "SO6", tier: "Erdmännchen" }, { code: "SX6", tier: "Wolf" },
+    { code: "SE7", tier: "Gorilla" }, { code: "SO7", tier: "Biber" }, { code: "SX7", tier: "Schimpanse" },
+    { code: "SE8", tier: "Orang-Utan" }, { code: "SO8", tier: "Löwe" }, { code: "SX8", tier: "Krokodil" },
+    { code: "SE9", tier: "Elefant" }, { code: "SO9", tier: "Büffel" }, { code: "SX9", tier: "Faultier" },
+  ];
+  const buttons = subtypes.map(s => {
+    const hasData = !!LEBENSMUSTERKOMPASS[s.code];
+    const col = typeColorFromCode(s.code);
+    return `
+      <button
+        data-route="lebensmusterkompass/${s.code.toLowerCase()}"
+        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:none;border:2px solid ${hasData ? col : "var(--border)"};border-radius:10px;cursor:${hasData ? "pointer" : "default"};padding:.7rem .4rem;${hasData ? "" : "opacity:.5;"}"
+        ${hasData ? "" : "disabled"}
+        title="${s.tier} (${s.code})${hasData ? "" : " – in Arbeit"}"
+      >
+        <span style="font-size:.75rem;font-weight:700;color:${col};letter-spacing:.04em;">${s.code}</span>
+        <span style="font-size:.68rem;color:var(--muted);text-align:center;line-height:1.2;">${s.tier}${hasData ? "" : "<br><span style='font-size:.6rem;'>in Arbeit</span>"}</span>
+      </button>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Lebensmusterkompass</p>
+        <h1 class="section-title">Lebensmusterkompass</h1>
+        <p class="psycho-intro">Biografische Fingerabdr\xfccke der 27 Subtypen &ndash; wiederkehrende Erkennungsmerkmale, herausgearbeitet aus der internen Analyse von \xfcber 350 Fallportr\xe4ts dieses Kompasses.</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Diese Rubrik verfolgt ein einfaches Ziel: Statt nur allgemeine Charakterbeschreibungen zu liefern, sucht sie nach <strong>konkreten, wiederkehrenden Mustern im Lebenslauf</strong> &ndash; Handlungen, Entscheidungen, biografische Wendepunkte &ndash;, die sich bei mehreren, unabh\xe4ngig voneinander typisierten Personen desselben Subtyps \xe4hnlich zeigen. Diese &bdquo;biografischen Fingerabdr\xfccke&ldquo; sollen helfen, eine Typisierung nicht nur \xfcber Blickqualit\xe4t oder Bauchgef\xfchl, sondern \xfcber konkrete Lebenslauf-Kriterien zu \xfcberpr\xfcfen.</p>
+          <p class="vb-intro"><strong>Wichtiger Hinweis zur Methode:</strong> Diese Muster sind keine au\xdfenstehend verifizierte, wissenschaftliche Beweisf\xfchrung. Sie wurden aus der internen Analyse der eigenen Fallportr\xe4ts dieses Kompasses gewonnen &ndash; und diese Portr\xe4ts wurden bereits mit einem bestimmten Blick auf den jeweiligen Subtyp geschrieben. Es besteht daher ein methodisches Zirkularit\xe4tsrisiko: Die Muster k\xf6nnten die eigenen Vorannahmen widerspiegeln, statt sie unabh\xe4ngig zu best\xe4tigen. Verstehen Sie diese Rubrik als ein internes, kontinuierlich wachsendes Beobachtungsinstrument &ndash; nicht als objektiven Beweis. Aktuell im Aufbau, wird laufend um weitere Subtypen erg\xe4nzt.</p>
+        </blockquote>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:0.8rem;margin:2rem 0;">
+          ${buttons}
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
+          {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+          {route:"knowledge", label:"Wissensbasis"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function lebensmusterkompassDetailPage(codeRaw) {
+  const code = (codeRaw || "").toUpperCase();
+  const data = LEBENSMUSTERKOMPASS[code];
+  if (!data) {
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("wissen")}
+        <div class="page-content">
+          <h1 class="section-title">Noch nicht verf\xfcgbar</h1>
+          <p class="psycho-intro">Der Lebensmusterkompass f\xfcr ${code} ist noch in Arbeit.</p>
+          ${relatedLinks([{route:"lebensmusterkompass", label:"Zur\xfcck zum Lebensmusterkompass"}])}
+        </div>
+      </div>
+    `);
+  }
+  const col = typeColorFromCode(code);
+  const beispiele = data.beispiele.join(", ");
+  const cards = data.fingerabdruecke.map((f, i) => `
+    <div class="vb-blockquote" style="margin-bottom:1.2rem;">
+      <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:0.7rem;">
+        <span style="background:${col};color:#1a1208;font-size:0.72rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.06em;white-space:nowrap;">Fingerabdruck ${i + 1}</span>
+        <strong style="font-size:1.02rem;color:var(--ink);">${f.titel}</strong>
+      </div>
+      <p style="margin:0 0 0.7rem;font-size:0.9rem;line-height:1.6;">${f.beschreibung}</p>
+      <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:var(--copper);text-transform:uppercase;">Belege aus den Portr\xe4ts</span><p style="margin:0.2rem 0 0;font-size:0.87rem;line-height:1.55;font-style:italic;color:var(--muted);">${f.beleg}</p></div>
+    </div>
+  `).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Lebensmusterkompass</p>
+        <h1 class="section-title">${code} &middot; ${data.tier}: Biografische Fingerabdr\xfccke</h1>
+        <p class="psycho-intro">${data.kernthema}</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Herangezogene Beispielportr\xe4ts (Auswahl): ${beispiele}. Alle Muster sind aus der internen Portr\xe4t-Sammlung dieses Kompasses herausgearbeitet &ndash; siehe methodischer Hinweis auf der \xdcbersichtsseite.</p>
+        </blockquote>
+
+        ${cards}
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"lebensmusterkompass", label:"Zurück zum Lebensmusterkompass"},
+          {route:`subtype/${code.toLowerCase()}`, label:`${code} – ${data.tier}: Subtyp-Profil`},
+          {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
 
 function tritypenPage() {
   const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/";
@@ -90400,6 +90603,7 @@ function render() {
     "beziehungen": beziehungenPage,
     "tierentsprechungen": tierentsprechungenPage,
     "tierlexikon": tierlexikonPage,
+    "lebensmusterkompass": lebensmusterkompassPage,
     "tritypen": tritypenPage,
     "triadendefizite": triadendefizitePage,
     "differenzierung": differenzierungPage,
@@ -90990,6 +91194,8 @@ function render() {
       app.innerHTML = toolDetailPage(param);
     } else if (base === "tierlexikon" && param) {
       app.innerHTML = tierlexikonDetailPage(param);
+    } else if (base === "lebensmusterkompass" && param) {
+      app.innerHTML = lebensmusterkompassDetailPage(param);
     } else {
       app.innerHTML = (routes[base] || routes.start)();
     const isBadgePage = (base.startsWith("kriminalpsychologie-") && base !== "kriminalpsychologie")
