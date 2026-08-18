@@ -24055,6 +24055,7 @@ const registerEntries = [
   { term: "Cristiano Ronaldo",             route: "beruehmte-cristiano-ronaldo",           description: "Portrait: SO3w2 \u00b7 Sozialer Typ 3 \u00b7 Fu\u00dfballstar, Selbstoptimierung" },
   { term: "David L. Rathmer",              route: "beruehmte-david-l-rathmer",             description: "Portrait: SE3w4 \u00b7 Selbsterhaltender Typ 3 \u00b7 Enneagramm-Trainer" },
   { term: "Dieter Bohlen",                 route: "beruehmte-dieter-bohlen",               description: "Portrait: SX3w4 \u00b7 Sexueller Typ 3 \u00b7 Pop-Produzent, Modern Talking" },
+  { term: "Marlene Zuk", route: "beruehmte-marlene-zuk", description: "Portrait: SX3w4 \u00b7 Sexueller Typ 3 \u00b7 Evolutionsbiologin, Hamilton-Zuk-Hypothese" },
     { term: "Adele", route: "beruehmte-adele", description: "Portrait: SE4w3 \u00b7 Selbsterhaltender Typ 4 \u00b7 S\u00e4ngerin, Songwriterin" },
   { term: "Nicolas Cage",                   route: "beruehmte-nicolas-cage",                description: "Portrait: SE4w3 \u00b7 Selbsterhaltender Typ 4 \u00b7 Schauspieler" },
     { term: "Adele Neuhauser", route: "beruehmte-adele-neuhauser", description: "Portrait: SX8w7 \u00b7 Sexueller Typ 8 \u00b7 Schauspielerin, Bibi Fellner, Tatort, \u00d6sterreichischer Filmpreis, Krokodil" },
@@ -31801,6 +31802,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dieter Bohlen \u2013 Sexueller Typ 3",
     teaser:"SX3w4 \u00b7 geb. 1954. Musikproduzent, Komponist, DSDS-Juror. \u00dcber 500 Millionen verkaufte Tontr\u00e4ger. Der Pfau, der das Rad schl\u00e4gt \u2013 und der wissen will, was dahinter liegt.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-marlene-zuk", name:"Prof. Dr. Marlene Zuk", added:"2026-08-18", subtyp:"SX3w4",
+    heading:"Marlene Zuk \u2013 Sexueller Typ 3",
+    teaser:"SX3w4 \u00b7 geb. 1956. Evolutionsbiologin, Professorin. Hamilton-Zuk-Hypothese: Prachtsignale wie das Pfauenrad als ehrliche Beweise f\u00fcr Gesundheit und Parasitenresistenz. Der Pfau, der erforscht, statt nur zu gl\u00e4nzen. Tierentsprechung: Pfau.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-lady-diana", name:"Lady Diana", subtyp:"SE4w3",
     heading:"Lady Diana \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w3 \u00b7 1961\u20131997. Princess of Wales. Die Taube, die Botschaften tr\u00e4gt \u2013 Empathie als Kraft, innerer Schmerz als stille Last, und eine Zugewandtheit, die Millionen ber\u00fchrte.",
@@ -42927,7 +42932,7 @@ const LEBENSMUSTERKOMPASS = {
   SX3: {
     tier: "Pfau",
     kernthema: "Unmittelbare Präsenz und Magnetismus – ohne Berechnung, aber mit ganzer Wirkung",
-    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Diane Downs", "Luka Magnotta", "Richard Ramírez"],
+    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Diane Downs", "Luka Magnotta", "Richard Ramírez"],
     fingerabdruecke: [
       {
         titel: "Unmittelbare, magnetische Präsenz statt berechneter Inszenierung",
@@ -56555,6 +56560,66 @@ function dieterBohlenPortraitPage() {
   `);
 }
 
+
+function marleneZukPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marlene-zuk-portrait.jpg" alt="Pfau" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Marlene Zuk</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexueller Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Evolutionsbiologin &amp; Verhaltensökologin, geb. 1956 &ndash; erforschte, warum das Pfauenrad ehrlich ist &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Wissenschaftlerin, die das Pfauenrad erklärte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kaum ein Porträt in diesem Kompass verbindet Tierentsprechung und Lebenswerk so direkt wie dieses: Marlene Zuk hat ihr gesamtes wissenschaftliches Leben der Frage gewidmet, warum die Natur ausgerechnet das Pfauenrad hervorbringt &ndash; jenes auffällige, scheinbar unpraktische Prachtsignal, das Raubtiere anlockt, Energie kostet und auf den ersten Blick keinen Überlebensvorteil bietet. Als Evolutionsbiologin und Professorin, unter anderem an der University of Minnesota, hat sie sich tiefgehend mit sexueller Selektion, Parasiten und der Entstehung solcher extremen Schmuckmerkmale beschäftigt &ndash; und dabei, ohne es zu wissen, ihr eigenes archetypisches Prinzip zum Lebensthema gemacht.</p>
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; das einzige Tier, das seinen schönsten Moment vollständig für andere entfaltet, als Botschaft, als Beweis, als Einladung: <em>Schau mich an. Ich bin echt.</em> Marlene Zuk hat dieses Prinzip nicht gelebt wie eine Schauspielerin oder ein Popstar &ndash; sie hat es seziert, gemessen, in Laboren und im Freiland über Jahrzehnte belegt. Die sexuelle Drei zeigt sich hier nicht als Selbstdarstellung, sondern als Forschungsleidenschaft: Sie wollte genau verstehen, was Anziehung, Schönheit und Werbung um einen Partner biologisch wirklich bedeuten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Hamilton-Zuk-Hypothese: Mehr sein als Schein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Weltberühmt wurde Marlene Zuk unter anderem durch die gemeinsam mit W. D. Hamilton aufgestellte <strong>Hamilton-Zuk-Hypothese</strong>. Vor ihrer Forschung galt Prachtschmuck in der Natur &ndash; das Rad des Pfaus, laute Vogelgesänge, leuchtende Farben &ndash; oft als bloße evolutionäre Verzierung, ein Zufallsprodukt ohne tieferen Sinn. Zuk bewies das Gegenteil: Solche optischen und akustischen Signale sind ehrliche Indikatoren für echte biologische Fitness und Parasitenresistenz. Wer prachtvoll auftreten kann, muss im Inneren tatsächlich gesund und widerstandsfähig sein &ndash; alles andere wäre biologisch nicht finanzierbar.</p>
+          <p class="vb-intro">Das ist die sexuelle Drei mit Viererflügel in ihrer reinsten wissenschaftlichen Form: Leistung und Präsentation dürfen keine hohle Fassade sein. Sie müssen durch innere Substanz, durch echten Wert, untermauert sein &ndash; ›mehr sein als Schein‹. Was die SX3w4 als Lebensgefühl in sich trägt (die Sehnsucht, nicht nur zu glänzen, sondern auch wirklich bedeutsam zu sein), hat Zuk als Naturgesetz nachgewiesen: Der Pfau täuscht nicht. Sein Rad ist ein ehrliches Signal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Von der Literatur zur harten Wissenschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine sexuelle Drei mit schwächer ausgeprägtem Viererflügel hätte diese Themen vielleicht eher populär, unterhaltsam, auf schnelle Wirkung ausgerichtet bearbeitet. Marlene Zuks Weg zeigt stattdessen die typische Vierer-Tiefe: Sie begann ihr Studium an der University of California in Santa Barbara zunächst mit dem Hauptfach Englische Literatur &ndash; also mit Sprache, Ausdruck, Bedeutung &ndash; und wechselte dann entschlossen zur Biologie. Statt sich nur theoretisch oder ästhetisch mit Geschichten über Schönheit und Werbung zu beschäftigen, grub sie sich tief in empirische Labor- und Freilandforschung ein, promovierte an der University of Michigan und stieg bis zur Professorin auf. Sie wollte die Mechanismen von Attraktivität und Fortpflanzung exakt messbar machen &ndash; nicht nur beschreiben, sondern beweisen.</p>
+          <p class="vb-intro">Dieser Richtungswechsel &ndash; von der Literatur zur knallharten empirischen Wissenschaft &ndash; ist die Signatur des Viererflügels bei der sonst so auf Wirkung bedachten Drei: das Bedürfnis, hinter die Oberfläche zu blicken, bis der letzte Zweifel ausgeräumt ist. Auch in ihren späteren populärwissenschaftlichen Büchern wie <em>»Sexual Selections: What We Can and Can't Learn About Sex From Animals«</em> oder <em>»Paleofantasy«</em> zeigt sich dieselbe Haltung: Zuk räumt darin gezielt mit romantischen Verklärungen auf &ndash; etwa mit populären Mythen über die Steinzeit-Diät oder einen vermeintlich perfekten, ›natürlichen‹ Urzustand des Menschen. Dieser analytische, schonungslose Blick für die Realität hinter der Illusion ist typisch für Menschen, die Leistung mit intellektueller Tiefe verbinden, statt blind jedem Trend zu folgen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w4 ist ihre Fähigkeit, Anziehung und Wirkung nicht nur zu erzeugen, sondern zu verstehen &ndash; und dieses Verständnis klar und für ein breites Publikum verständlich weiterzugeben. Marlene Zuk ist dafür bekannt, komplexe biologische Verhaltensweisen glasklar und analytisch auf den Punkt zu bringen, ohne sie zu vereinfachen oder zu romantisieren. Das ist die reife Form des Pfaus: nicht nur schön sein wollen, sondern verstehen, warum Schönheit überhaupt existiert.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; das tiefe Bedürfnis, als erfolgreich und bewundernswert wahrgenommen zu werden. Bei einer Forscherin wie Zuk zeigt sich dieses Muster nicht destruktiv, sondern sublimiert: Es treibt sie an, immer wieder neue Belege, neue Facetten, neue Bücher zu liefern &ndash; als müsste die eigene wissenschaftliche Substanz stets aufs Neue unter Beweis gestellt werden. Der Viererflügel bringt dabei die Gefahr mit sich, dass reine Anerkennung nie genug ist &ndash; dass hinter jeder neuen Erkenntnis schon die nächste Frage lauert, ob man wirklich tief genug gegraben hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Pfau, der das Rad erforschte, statt es nur zu schlagen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Wie werde ich gesehen?</em> zur Erkenntnis <em>Ich bin &ndash; auch wenn niemand schaut.</em> Marlene Zuks Lebenswerk zeigt eine besondere, sublimierte Form dieses Weges: Sie hat die Frage nach Schönheit, Anziehung und Werbung um Anerkennung nicht an sich selbst gestellt, sondern an die Natur &ndash; und dabei etwas gefunden, das über reine Selbstdarstellung hinausweist: dass wahre Pracht nur dann besteht, wenn echte Substanz dahintersteckt.</p>
+          <p class="vb-intro">Damit steht Marlene Zuk für eine seltene, besonders integre Ausprägung der sexuellen Drei mit Viererflügel: eine, die ihr eigenes archetypisches Prinzip nicht auslebt, sondern erforscht &ndash; und der Welt damit ein Geschenk macht, das weit über ihre eigene Person hinausreicht. Der Pfau, der irgendwann nicht mehr nur das Rad schlägt, sondern genau erklären kann, warum es das überhaupt tut.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"tierlexikon/sx3", label:"Tierlexikon: Pfau"},
+        {route:"beruehmte-dieter-bohlen", label:"Porträt: Dieter Bohlen (SX3w4)"},
+        {route:"beruehmte-marilyn-monroe", label:"Porträt: Marilyn Monroe (SX3w4)"},
+      ])}
+    </div>
+  `);
+}
 
 function bradPittPortraitPage() {
   return shell(`
@@ -91545,6 +91610,7 @@ function render() {
       "beruehmte-meg-ryan": megRyanPortraitPage,
       "beruehmte-marilyn-monroe": marilynMonroePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
+      "beruehmte-marlene-zuk": marleneZukPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-voltaire": voltairePortraitPage,
       "beruehmte-rihanna": rihannaPortraitPage,
