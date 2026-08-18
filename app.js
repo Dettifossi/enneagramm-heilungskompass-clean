@@ -37681,7 +37681,7 @@ function tierquizPage() {
       ${pageHeader("Welches Tier bin ich?")}
       <div class="typentest-wrap">
         <div class="typentest-card" style="text-align:center;padding:2rem 1.5rem;">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-240/${code.toLowerCase()}.jpg" alt="${tier}" style="display:block;width:120px;height:120px;border-radius:50%;object-fit:cover;object-position:26% center;border:3px solid var(--gold);margin:0 auto 0.8rem;background:transparent;padding:0;box-shadow:none;" onerror="this.outerHTML='<div style=&quot;font-size:5rem;margin-bottom:0.5rem;&quot;>${emoji}</div>'">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-240/${code.toLowerCase()}.jpg" alt="${tier}" style="display:block;width:120px;height:120px;border-radius:50%;object-fit:cover;object-position:15% center;border:3px solid var(--gold);margin:0 auto 0.8rem;background:transparent;padding:0;box-shadow:none;" onerror="this.outerHTML='<div style=&quot;font-size:5rem;margin-bottom:0.5rem;&quot;>${emoji}</div>'">
           <p class="eyebrow" style="margin-bottom:0.3rem;">Ihr Enneagramm-Tier</p>
           <h1 class="typentest-titel" style="margin-bottom:0.3rem;">${tier}</h1>
           <p style="font-size:1rem;color:var(--gold);font-weight:700;margin-bottom:1.2rem;">${s.inst === "SE" ? "Selbsterhaltender" : s.inst === "SO" ? "Sozialer" : "Sexueller"} Typ ${s.type} <span style="font-weight:400;opacity:0.7;">(${code})</span></p>
@@ -42595,7 +42595,7 @@ function lebensmusterkompassPage() {
         title="${s.tier} (${s.code})${hasData ? "" : " – in Arbeit"}"
       >
         <div style="position:relative;width:40px;height:40px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${hasData ? col : "var(--border)"};${hasData ? "" : "filter:grayscale(1);"}">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${s.code.toLowerCase()}.jpg" alt="${s.tier}" loading="lazy" style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;object-position:26% center;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${s.code.toLowerCase()}.jpg" alt="${s.tier}" loading="lazy" style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;object-position:15% center;border-radius:0;" onerror="this.parentElement.style.display='none'" />
         </div>
         <span style="font-size:.75rem;font-weight:700;color:${col};letter-spacing:.04em;">${s.code}</span>
         <span style="font-size:.68rem;color:var(--muted);text-align:center;line-height:1.2;">${s.tier}${hasData ? "" : "<br><span style='font-size:.6rem;'>in Arbeit</span>"}</span>
@@ -42672,7 +42672,7 @@ function lebensmusterkompassDetailPage(codeRaw) {
         <p class="eyebrow">Wissen &middot; Lebensmusterkompass</p>
         <h1 class="section-title" style="display:flex;align-items:center;gap:0.7rem;flex-wrap:wrap;">
           <div style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${col};">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="${data.tier}" loading="lazy" style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;object-position:26% center;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="${data.tier}" loading="lazy" style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;object-position:15% center;border-radius:0;" onerror="this.parentElement.style.display='none'" />
           </div>
           <span>${code} &middot; ${data.tier}: Biografische Fingerabdr\xfccke</span>
         </h1>
@@ -43226,7 +43226,7 @@ function beruehmtePersoenlichkeitenPage() {
       +'</div>'
       +'<span style="font-size:0.82rem;color:var(--copper);font-weight:600;">Zum Portr\xe4t &rarr;</span></div>'
       +'<div style="display:flex;flex-direction:column;align-items:center;gap:0.4rem;flex-shrink:0;">'
-      +(tierImg ? '<img src="'+tierImg+'" alt="'+tierKey.toUpperCase()+'" loading="lazy" style="width:48px;height:48px;border-radius:50%;object-fit:cover;object-position:26% center;border:2px solid var(--gold);" />' : '')
+      +(tierImg ? '<img src="'+tierImg+'" alt="'+tierKey.toUpperCase()+'" loading="lazy" style="width:48px;height:48px;border-radius:50%;object-fit:cover;object-position:15% center;border:2px solid var(--gold);" />' : '')
       +'<span style="font-size:1.4rem;color:var(--gold);">&#9655;</span>'
       +'</div>'
       +'</div></div>';
@@ -62663,7 +62663,7 @@ function kriminalpsychologiePage() {
       +'</div>'
       +'<span style="font-size:0.82rem;color:var(--copper);font-weight:600;">Zum Portr\xe4t &rarr;</span></div>'
       +'<div style="display:flex;flex-direction:column;align-items:center;gap:0.4rem;flex-shrink:0;">'
-      +(tierImg ? '<img src="'+tierImg+'" alt="'+tierKey.toUpperCase()+'" loading="lazy" style="width:48px;height:48px;border-radius:50%;object-fit:cover;object-position:26% center;border:2px solid var(--gold);" />' : '')
+      +(tierImg ? '<img src="'+tierImg+'" alt="'+tierKey.toUpperCase()+'" loading="lazy" style="width:48px;height:48px;border-radius:50%;object-fit:cover;object-position:15% center;border:2px solid var(--gold);" />' : '')
       +'<span style="font-size:1.4rem;color:var(--gold);">&#9655;</span>'
       +'</div>'
       +'</div></div>';
