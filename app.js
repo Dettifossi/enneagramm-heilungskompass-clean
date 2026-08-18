@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SO2: {
+    tier: "Golden Retriever",
+    kernthema: "Zuwendung, die nicht dem Einzelnen, sondern der ganzen Gemeinschaft gilt",
+    beispiele: ["Jesus Christus", "Mutter Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander der Große", "Will Smith", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
+    fingerabdruecke: [
+      {
+        titel: "Zuwendung, die sich nicht auf Einzelne beschränkt, sondern der ganzen Gemeinschaft gilt",
+        beschreibung: "Anders als bei den anderen Zweier-Subtypen richtet sich die Fürsorge nicht auf die eine Beziehung oder die eigene Familie, sondern auf ein Kollektiv – eine Gemeinde, ein Publikum, eine Nation, alle, die gerade in Reichweite sind.",
+        beleg: "Jesus Christus: ›Wo die sexuelle Zwei die eine Person verführt und die selbsterhaltende Zwei die eigene Familie versorgt, richtet sich die soziale Zwei an die Gemeinschaft insgesamt‹; Mutter Meera, die ›über Jahrzehnte täglich hunderte fremde Menschen empfing‹; Zoe Saldaña: ›Ein Tier, das seine Wärme nicht auf eine Person beschränkt, sondern jedem im Rudel gilt‹; Nina Chuba, deren Nähe zu ihrem Publikum ›echt‹ wirkt, ›weil Wärme ihr Wesen ist‹."
+      },
+      {
+        titel: "Persönliche Nähe als Führungsinstrument – Verbindung statt Distanz zur Machtsicherung",
+        beschreibung: "Führung entsteht nicht durch Einschüchterung oder Distanz, sondern durch das gezielte Investieren in unzählige einzelne Beziehungen, die sich am Ende zu enormer kollektiver Bindung summieren.",
+        beleg: "Julius Caesar: ›Wo ein sparsamer Stratege Rücklagen gebildet hätte, investierte die soziale Zwei in Beziehung. Das Kapital, das er aufbaute, war kein Geld – es war Zuneigung, Loyalität‹; Napoleon, der ›die Namen seiner Soldaten kannte, sie direkt ansprach‹; Alexander der Große, der ›Verwundete persönlich besuchte‹ – ›Verbindung schlägt Zwang‹; Barack Obama: ›Er tritt in einen Raum und lässt ihn größer werden.‹"
+      },
+      {
+        titel: "Hinter der Warmherzigkeit steckt erhebliche innere Kraft, die sich zeigt, wenn es darauf ankommt",
+        beschreibung: "Die zugewandte, weiche Erscheinung ist kein Mangel an Stärke, sondern die Oberfläche einer erheblichen Ausdauer und Entschlossenheit, die sichtbar wird, sobald echter Einsatz gefordert ist.",
+        beleg: "Barack Obama: ›Er ist kein Schoßhund. Hinter der Wärme steckt eine erhebliche innere Kraft‹; Kamala Harris: ›Wenn es hart auf hart kommt, zeigt sich, dass hinter der Warmherzigkeit ein zäher Wille steckt‹; Marisa Abela, die ›den Raum liest, bevor sie ihn betritt‹; Albert Schweitzer, der auf dem Höhepunkt seines akademischen Erfolgs ein Medizinstudium begann, um als Arzt nach Afrika zu gehen: ›Er sieht, wo Not ist, und geht dorthin, selbst wenn er dafür alles zurücklässt.‹"
+      },
+      {
+        titel: "Kollektiver Stolz, der zur Vernichtungsinstanz kippt, wenn die eigene Bedeutung für die Gruppe bedroht wird (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird derselbe Wunsch, für ein Kollektiv unentbehrlich zu sein, zu einer gefährlichen Dynamik: Wird die eigene Rolle als Beschützer oder Erlöser der Gruppe infrage gestellt, kann aus derselben Fürsorge kompromisslose, kollektive Zerstörung werden.",
+        beleg: "Jim Jones, der Krankenhäuser und Suppenküchen aufbaute, bevor über 900 seiner Anhänger starben: ›Das Enneagramm erklärt, wie beides zusammengehört: die Güte und die Vernichtung‹; Osama bin Laden, dessen ›Stolz kein persönlicher war, sondern ein kollektiver: der Stolz als Beschützer und Retter der muslimischen Welt‹ – ›der Golden Retriever: loyal, warmherzig, zur Aufopferung für das Rudel bereit – und gefährlich, wenn er glaubt, seine Familie zu verteidigen‹; Jack Unterweger, der im Gefängnis zum gefeierten Literaten wurde und nach seiner Freilassung erneut mordete. Wichtig: Die überwiegende Mehrheit der SO2 in diesem Kompass zeigt dieses Muster nicht – es handelt sich um eine seltene Extremform, keine typische Ausprägung."
+      }
+    ]
+  },
   SE2: {
     tier: "Flusspferd",
     kernthema: "Unentbehrlichkeit als Zugang zu Nähe – ruhige, verwurzelte Kraft statt lauter Selbstdarstellung",
