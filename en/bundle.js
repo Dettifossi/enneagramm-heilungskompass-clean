@@ -4087,7 +4087,7 @@ function dashboardPage() {
       <div class="profile-visual" style="box-shadow:0 0 0 3px ${typeColorFromCode(p.code)};position:relative;">
         ${getUserPhoto()
           ? `<img id="user-photo-img" src="${getUserPhoto()}" alt="My photo" style="position:absolute;inset:0;width:100%;height:100%;margin:0;object-fit:cover;border-radius:inherit;" />`
-          : (p.image ? `<img src="${p.image}" alt="${text.meta.resonanceImageAltPrefix} ${p.code}" />` : `<div class="profile-badge profile-badge--large">${p.emoji || enCode(p.code)}</div>`)
+          : (p.image ? `<img src="${p.image}" alt="${text.meta.resonanceImageAltPrefix} ${p.code}" style="position:absolute;top:${tierAvatarTop(p.code)};left:${tierAvatarLeft(p.code)};width:140%;height:140%;margin:0;object-fit:cover;" />` : `<div class="profile-badge profile-badge--large">${p.emoji || enCode(p.code)}</div>`)
         }
       </div>
       <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;gap:0.4rem;">
