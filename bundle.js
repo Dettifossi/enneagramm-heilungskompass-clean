@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SX4: {
+    tier: "Chihuahua",
+    kernthema: "Klein von Gestalt, riesig im Innenleben – Intensität, die keine Halbheiten kennt (Naranjo: Konkurrenzneid)",
+    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler"],
+    fingerabdruecke: [
+      {
+        titel: "Klein von Gestalt oder Herkunft, riesig im Innenleben – Intensität ohne Halbheiten",
+        beschreibung: "Naranjo nannte diesen Subtyp den des ›Konkurrenzneids‹: eine Intensität, die in keinem Verhältnis zur äußeren Erscheinung oder zu den Startbedingungen steht. Kein halbes Fühlen, kein gemäßigtes Auftreten – was gefühlt wird, wird vollständig gefühlt.",
+        beleg: "Freddie Mercury: ›Der Chihuahua, der sich in einen Löwen verwandelt – und dabei nie aufhört, ein Chihuahua zu sein‹; Rihanna, vom ›Kind aus der Karibik zur globalsten Entertainerin ihrer Generation‹: ›Klein, woher er kommt. Unaufhaltsam, wohin er geht‹; Billie Eilish: ›Er zittert nicht aus Schwäche, sondern aus Wachheit: jede Faser seines kleinen Körpers ist auf Intensität ausgerichtet‹; Dante, Debussy und Marquis de Sade werden fast wortgleich beschrieben: ›Klein von Gestalt, gewaltig im Innenleben, unfähig zu Halbheiten.‹"
+      },
+      {
+        titel: "Zurückweisung oder Verbannung wird zu schöpferischer Kraft, statt in Rache oder Resignation zu münden",
+        beschreibung: "Verletzung, Ablehnung oder erzwungene Distanz führen nicht zum Rückzug, sondern werden zum fruchtbarsten Material für ein eigenständiges Werk oder einen eigenständigen Weg.",
+        beleg: "Voltaire, der nach Verbannung aus Frankreich das Exil ›in den fruchtbarsten Abschnitt seines Lebens‹ verwandelte; Dante, der aus seiner Verbannung aus Florenz ›eines der gewaltigsten literarischen Werke der Weltgeschichte‹ schuf: ›Er verwandelte die Verbannung nicht in Resignation, sondern in das Material für ein Werk, das ihm posthum genau jene Unsterblichkeit sicherte, die ihm die Stadt zu Lebzeiten verweigerte‹; Ana de Armas, die sich ohne Netz und Kontakte in Hollywood durchkämpfte."
+      },
+      {
+        titel: "Kompromisslose Intensität, die sich keiner fremden Konvention fügt",
+        beschreibung: "Anpassung an Erwartungen, Regeln oder gesellschaftliche Normen wird als Einengung erlebt, der man sich mit aller Kraft widersetzt – auch wenn das offenen Konflikt mit der eigenen Zeit bedeutet.",
+        beleg: "Claude Debussy, der als Schüler ›die Lehrer regelmäßig mit Akkordfolgen provozierte, die als »falsch« galten‹: ›Der Chihuahua, der von Anfang an spürte: Die Regeln, die man mir beibringt, sind nicht die Wahrheit, die ich suche‹; Linda Leinweber: ›Tiefe, die sich nicht schämt. Erkenntnis, die sich nicht versteckt‹; Voltaire, der nach seiner Bastille-Haft ›schärfer zurückbiss‹, statt zu schweigen."
+      },
+      {
+        titel: "Wenn dieselbe grenzenlose Intensität sich gegen andere statt gegen Konventionen richtet (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird die kompromisslose Intensität nicht produktiv, sondern zerstörerisch: gekränkter Stolz, absolute Rivalität oder eine tragisch mit Gewalt verschmolzene Liebe kippen in Verletzung oder Vernichtung anderer.",
+        beleg: "Marquis de Sade, dessen radikale Ablehnung jeder Ordnung sich in nachweisbaren Gewalttaten gegen andere entlud; Bonnie Parker, die während einer 21-monatigen Verbrecherjagd Gedichte über ihre Beziehung zu Clyde Barrow schrieb, die ›ihren eigenen gewaltsamen Tod fast prophetisch vorwegnahmen‹ – ›eine düstere Vorahnung des eigenen Untergangs, die die Liebe nicht schmälert, sondern erst vollständig macht‹; Adolf Hitler als die extremste, folgenschwerste Ausprägung. Wichtig: Diese Fälle sind seltene, gefährliche Extremformen – die überwiegende Mehrheit der SX4 in diesem Kompass zeigt dieses Muster nicht."
+      }
+    ]
+  },
   SO4: {
     tier: "Gürteltier",
     kernthema: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter (Naranjo: Scham)",
