@@ -772,6 +772,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Franz Kafka – Self-Preservation Type 5",
     teaser:"SP5w4 · 1883–1924. Writer. The Trial, The Castle, The Metamorphosis. The owl that wrote its nightmares at night and wanted its work burned. Animal correspondence: Owl.",
     tags:["Literature"] },
+{ route:"beruehmte-ingo-zimmermann", name:"Prof. Dr. Ingo Zimmermann", added:"2026-08-18", subtyp:"SE5w4",
+    heading:"Prof. Dr. Ingo Zimmermann – Self-Preservation Type 5",
+    teaser:"SE5w4 · Professor of Social Work, psychotherapist, forest mindfulness trainer. Brings his hand-raised tawny owl Hugo into the lecture hall – a man who evidently, unconsciously, recognized his own animal correspondence and has carried it at his side for years. Animal correspondence: Owl.",
+    tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-peter-lustig", name:"Peter Lustig", subtyp:"SE5w6",
     heading:"Peter Lustig – Self-Preservation Type 5",
     teaser:"SP5w6 · 1937–2016. TV presenter, children’s book author. Dandelion (Löwenzahn). The caravan as a castle – the owl that shows children how to understand the world with a keen eye and little fuss.",
@@ -4763,6 +4767,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-marlene-zuk", name:"Prof. Dr. Marlene Zuk", subtyp:"SX3w4", tier:"Peacock"},
   {route:"beruehmte-derek-goodwin", name:"Derek Goodwin", subtyp:"SE4w5", tier:"Dove"},
   {route:"beruehmte-mariella-superina", name:"Dr. Mariella Superina", subtyp:"SO4w5", tier:"Armadillo"},
+  {route:"beruehmte-ingo-zimmermann", name:"Prof. Dr. Ingo Zimmermann", subtyp:"SE5w4", tier:"Owl"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -28698,6 +28703,67 @@ function parisHiltonPortraitPage() {
   `);
 }
 
+function ingoZimmermannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ingo-zimmermann-portrait.jpg" alt="Owl" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Ingo Zimmermann</p>
+        <p class="krim-portrait-typ">SE5w4 &middot; Self-Preservation Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Professor, psychotherapist &ndash; Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The owl that carries its own archetype on its shoulder</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>owl</strong> is the animal of the Self-Preservation Five &ndash; it hoards its energy, regulates closeness and distance with great care, and shows itself to the world only where it truly feels safe. Few living examples make this principle as immediately visible as Prof. Dr. Ingo Zimmermann: the professor of Social Work and licensed psychotherapist regularly brings a tawny owl named Hugo into the lecture hall &ndash; a man whose archetypal animal is the owl, who has evidently, unconsciously, recognized it in himself, and has literally carried it at his side for years.</p>
+          <p class="vb-intro">Hugo was abandoned by his parent birds and hand-raised by Zimmermann from the tenth day of his life &ndash; years of patient bonding work that produced an extraordinarily close trust between a human and a naturally shy animal. This persistence, working for years on a single, deep connection rather than dissolving into many superficial contacts, is itself already a Five pattern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Five: closeness and distance as a field of expertise</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Five (SE5)</strong> lives its whole life with the question of how much closeness it can afford without losing its own inner order &ndash; it withdraws to protect its limited resources, but precisely because of this seeks forms of connection that remain controllable and safe. Zimmermann has made exactly this question his field of expertise: he explicitly justifies the therapeutic use of owls by their suitability for people with closeness issues, such as autistic or traumatized individuals.</p>
+          <p class="vb-intro">His teaching method shows the same pattern: rather than banning distraction in the lecture hall, he deliberately redirects it &ndash; "the students are distracted by the owl and, at the same time, more centered," he says himself. Not loud intervention, but quiet, indirect guidance through a carefully chosen means: pure Five energy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: the mysterious, nature-connected, idiosyncratic</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Five a note of individuality, depth, and an affinity for the soulful and mysterious beyond pure factual analysis. Zimmermann combines rigorous academic social work with systemic therapy, forest mindfulness, and a pronounced connection to nature &ndash; a mixture that goes far beyond the sober subject-matter expert and instead carries an almost artistic, unmistakable signature.</p>
+          <p class="vb-intro">This is exactly where he differs from the more security- and system-oriented Six-wing: bringing a living, highly individual owl into the lecture hall is not managing existing structures, but a personal, almost poetic expression of who he is. The combination of a withdrawn Five core and this idiosyncratic, deep expression is simply unique within academia.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE5w4 is its ability to turn <strong>its own, often unconscious self-recognition into a method that genuinely helps other people</strong> &ndash; Zimmermann's students demonstrably show more concentration and presence when Hugo is in the room, and his therapeutic work with owls specifically reaches people for whom conventional closeness is hard to bear.</p>
+          <p class="vb-intro">The shadow of the Self-Preservation Five shows where controlled distance becomes the only access to real connection &ndash; where a person places their deepest trust in a single, carefully raised animal rather than in unfiltered closeness to other people. This is not a criticism, but the consistent flip side of the very same pattern that also makes him an unusually effective teacher and therapist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The owl that recognized itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What makes Zimmermann remarkable is not simply that he keeps an owl &ndash; it is how persistently and how naturally he has woven it into his work over the years, almost as if he himself needs this calm, distanced presence as much as his students and clients do. This very persistence suggests that something deeper is at work here than an original teaching method.</p>
+          <p class="vb-intro">In the end, one image remains that, for this compass, feels almost like living proof: a man whose archetypal animal is the owl, who &ndash; apparently unconsciously, but with great consistency &ndash; chose it as a faithful companion, and clearly feels at ease in its presence.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
+        {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SE5 – Owl"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauss (SE5w6)"},
+        {route:"beruehmte-franz-kafka", label:"Portrait: Franz Kafka (SE5w4)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-ingo-zimmermann")}
+    </div>
+  `);
+}
+
 function julesVernePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -35942,12 +36008,12 @@ const LEBENSMUSTERKOMPASS = {
   SE5: {
     tier: "Owl",
     kernthema: "Retreat as a deliberately built fortress – quiet observation instead of flight",
-    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauss"],
+    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauss", "Prof. Dr. Ingo Zimmermann"],
     fingerabdruecke: [
       {
         titel: "Retreat as a deliberately built 'fortress' instead of mere flight",
         beschreibung: "The retreat space is not a sign of weakness, but an actively built, protected base from which to observe, think, and work – small, manageable, but entirely under one's own control.",
-        beleg: "Xu Bing: 'The owl who, in a time of the greatest publicity, learned to withdraw into the silence of the character' – 'the fortress of characters'; Peter Lustig, whose camper became a 'fortress'; Warren Buffett, who has lived in the same house in Omaha since 1958: 'the fortress in Omaha'; Hermann Hesse, who spent forty years in his house in Ticino: 'the fortress in Ticino'; Spinoza: 'the fortress of thought'; Carl Friedrich Gauss, who practically never left Göttingen and researched for decades as observatory director within a secure, orderly daily structure."
+        beleg: "Xu Bing: 'The owl who, in a time of the greatest publicity, learned to withdraw into the silence of the character' – 'the fortress of characters'; Peter Lustig, whose camper became a 'fortress'; Warren Buffett, who has lived in the same house in Omaha since 1958: 'the fortress in Omaha'; Hermann Hesse, who spent forty years in his house in Ticino: 'the fortress in Ticino'; Spinoza: 'the fortress of thought'; Carl Friedrich Gauss, who practically never left Göttingen and researched for decades as observatory director within a secure, orderly daily structure; Prof. Dr. Ingo Zimmermann, who lives on a farm and carries his hand-raised tawny owl Hugo at his side as a controlled, carefully measured form of closeness – his own animal correspondence, apparently recognized and lived unconsciously."
       },
       {
         titel: "Patient waiting until the knowledge or the moment is unassailable",
@@ -57542,6 +57608,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
       "beruehmte-carl-friedrich-gauss": carlFriedrichGaussPortraitPage,
       "beruehmte-paris-hilton": parisHiltonPortraitPage,
+      "beruehmte-ingo-zimmermann": ingoZimmermannPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,

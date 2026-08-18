@@ -31957,6 +31957,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Franz Kafka – Selbsterhaltender Typ 5",
     teaser:"SE5w4 · 1883–1924. Schriftsteller. Der Prozess, Das Schloss, Die Verwandlung. Die Eule, die nachts an ihren Albträumen schrieb und ihr Werk am liebsten verbrannt hätte. Tierentsprechung: Eule.",
     tags:["Literatur"], gender:"m"},
+  { route:"beruehmte-ingo-zimmermann", name:"Prof. Dr. Ingo Zimmermann", added:"2026-08-18", subtyp:"SE5w4",
+    heading:"Prof. Dr. Ingo Zimmermann – Selbsterhaltender Typ 5",
+    teaser:"SE5w4 · Professor für Soziale Arbeit, Psychotherapeut, Waldachtsamkeits-Trainer. Zieht mit seinem von Hand aufgezogenen Waldkauz Hugo in die Vorlesung – ein Mann, der seine eigene Tierentsprechung offenbar unbewusst erkannt hat und sie seit Jahren an seiner Seite trägt. Tierentsprechung: Eule.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-peter-lustig", name:"Peter Lustig", subtyp:"SE5w6",
     heading:"Peter Lustig \u2013 Selbsterhaltender Typ 5",
     teaser:"SE5w6 \u00b7 1937\u20132016. Fernsehmoderator, Kinderbuchautor. L\u00f6wenzahn. Der Wohnwagen als Burg \u2013 die Eule, die Kindern zeigt, wie man mit wachem Blick und wenig Aufwand die Welt versteht.",
@@ -35239,6 +35243,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-marlene-zuk", name:"Prof. Dr. Marlene Zuk", subtyp:"SX3w4", tier:"Pfau"},
   {route:"beruehmte-derek-goodwin", name:"Derek Goodwin", subtyp:"SE4w5", tier:"Taube"},
   {route:"beruehmte-mariella-superina", name:"Dr. Mariella Superina", subtyp:"SO4w5", tier:"Gürteltier"},
+  {route:"beruehmte-ingo-zimmermann", name:"Prof. Dr. Ingo Zimmermann", subtyp:"SE5w4", tier:"Eule"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42846,12 +42851,12 @@ const LEBENSMUSTERKOMPASS = {
   SE5: {
     tier: "Eule",
     kernthema: "Der Rückzug als bewusst gebaute Burg – stille Beobachtung statt Flucht",
-    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch de Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauß"],
+    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch de Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauß", "Prof. Dr. Ingo Zimmermann"],
     fingerabdruecke: [
       {
         titel: "Der Rückzug als bewusst gebaute ›Burg‹ statt bloße Flucht",
         beschreibung: "Der Rückzugsraum ist kein Zeichen von Schwäche, sondern eine aktiv errichtete, geschützte Basis, von der aus beobachtet, gedacht und gearbeitet wird – klein, überschaubar, aber vollständig unter eigener Kontrolle.",
-        beleg: "Xu Bing: ›Die Eule, die in der Zeit der größten Öffentlichkeit lernte, sich in die Stille des Zeichens zurückzuziehen‹ – ›Die Burg aus Zeichen‹; Peter Lustig, dessen Wohnwagen zur ›Burg‹ wurde; Warren Buffett, der seit 1958 im selben Haus in Omaha lebt: ›Die Burg in Omaha‹; Hermann Hesse, der vierzig Jahre in seinem Tessiner Haus verbrachte: ›Die Burg im Tessin‹; Spinoza: ›Die Burg des Denkens‹; Carl Friedrich Gauß, der Göttingen praktisch nie verließ und Jahrzehnte als Sternwarten-Direktor in einer sicheren, geordneten Alltagsstruktur forschte."
+        beleg: "Xu Bing: ›Die Eule, die in der Zeit der größten Öffentlichkeit lernte, sich in die Stille des Zeichens zurückzuziehen‹ – ›Die Burg aus Zeichen‹; Peter Lustig, dessen Wohnwagen zur ›Burg‹ wurde; Warren Buffett, der seit 1958 im selben Haus in Omaha lebt: ›Die Burg in Omaha‹; Hermann Hesse, der vierzig Jahre in seinem Tessiner Haus verbrachte: ›Die Burg im Tessin‹; Spinoza: ›Die Burg des Denkens‹; Carl Friedrich Gauß, der Göttingen praktisch nie verließ und Jahrzehnte als Sternwarten-Direktor in einer sicheren, geordneten Alltagsstruktur forschte; Prof. Dr. Ingo Zimmermann, der auf einem Hof lebt und seinen von Hand aufgezogenen Waldkauz Hugo als kontrollierte, sorgfältig dosierte Form von Nähe an seiner Seite trägt – die eigene Tierentsprechung, offenbar unbewusst erkannt und gelebt."
       },
       {
         titel: "Geduldiges Warten, bis das Wissen oder der Moment unangreifbar ist",
@@ -48115,6 +48120,67 @@ function parisHiltonPortraitPage() {
         {route:"beruehmte-billie-eilish", label:"Porträt: Billie Eilish (SX4w3)"},
         {route:"beruehmte-rihanna", label:"Porträt: Rihanna (SX4w3)"},
       ])}
+    </div>
+  `);
+}
+
+function ingoZimmermannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ingo-zimmermann-portrait.jpg" alt="Eule" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Ingo Zimmermann</p>
+        <p class="krim-portrait-typ">SE5w4 &middot; Selbsterhaltender Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Professor, Psychotherapeut &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule, die ihre eigene Tierentsprechung auf der Schulter trägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier der selbsterhaltenden Fünf &ndash; sie hortet ihre Energie, reguliert Nähe und Distanz mit großer Sorgfalt, und zeigt sich der Welt nur dort, wo sie sich wirklich sicher fühlt. Kaum ein lebendes Beispiel macht dieses Prinzip so unmittelbar sichtbar wie Prof. Dr. Ingo Zimmermann: Der Professor für Soziale Arbeit und psychologische Psychotherapeut bringt regelmäßig einen Waldkauz namens Hugo mit in den Hörsaal &ndash; ein Mann, dessen archetypisches Tier die Eule ist, der sie ganz offensichtlich unbewusst in sich selbst erkannt hat und sie seit Jahren buchstäblich an seiner Seite trägt.</p>
+          <p class="vb-intro">Hugo wurde von seinen Elterntieren verlassen und von Zimmermann ab dem zehnten Lebenstag von Hand aufgezogen &ndash; eine jahrelange, geduldige Bindungsarbeit, aus der eine außergewöhnlich enge Vertrautheit zwischen Mensch und einem von Natur aus scheuen Tier entstand. Diese Beharrlichkeit, über Jahre an einer einzigen, tiefen Verbindung zu arbeiten, statt sich in vielen oberflächlichen Kontakten zu verlieren, ist selbst schon ein Fünfer-Muster.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Fünf: Nähe und Distanz als Fachgebiet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Fünf (SE5)</strong> lebt ihr Leben lang mit der Frage, wie viel Nähe sie sich leisten kann, ohne die eigene innere Ordnung zu verlieren &ndash; sie zieht sich zurück, um ihre begrenzten Ressourcen zu schützen, sucht aber gerade deshalb nach Formen der Verbindung, die kontrollierbar und sicher bleiben. Zimmermann hat aus genau dieser Frage sein Fachgebiet gemacht: Er begründet den therapeutischen Einsatz von Eulen ausdrücklich damit, dass sie sich besonders für Menschen mit Nähe-Problematik eignen, etwa autistische oder traumatisierte Personen.</p>
+          <p class="vb-intro">Auch seine Lehrmethode zeigt dieses Muster: Statt Ablenkung im Hörsaal zu verbieten, lenkt er sie gezielt um &ndash; "Die Studierenden sind durch die Eule abgelenkt und gleichzeitig zentrierter", sagt er selbst. Kein lautes Durchgreifen, sondern eine stille, indirekte Steuerung über ein sorgfältig gewähltes Mittel: reine Fünfer-Energie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Vierer-Flügel: Das Geheimnisvolle, Naturverbundene, Eigenwillige</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Vierer-Flügel (w4)</strong> verleiht der Fünf eine Note von Individualität, Tiefe und einem Faible für das Seelisch-Geheimnisvolle jenseits der reinen Sachanalyse. Zimmermann verbindet strenge akademische Soziale Arbeit mit systemischer Therapie, Waldachtsamkeit und einer ausgeprägten Naturverbundenheit &ndash; eine Mischung, die weit über den nüchternen Fachexperten hinausgeht und stattdessen eine fast künstlerische, unverwechselbare Handschrift trägt.</p>
+          <p class="vb-intro">Genau darin unterscheidet er sich vom stärker sicherheits- und systemorientierten Sechserflügel: Eine Eule als lebendiges, hochgradig individuelles Statement mit in den Hörsaal zu nehmen, ist kein Verwalten bestehender Strukturen, sondern ein persönlicher, fast poetischer Ausdruck dessen, wer er ist. Die Kombination aus zurückgezogenem Fünfer-Kern und diesem eigenwillig-tiefgründigen Ausdruck ist im akademischen Betrieb schlicht einzigartig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w4 ist die Fähigkeit, <strong>die eigene, oft unbewusste Selbsterkenntnis in eine Methode zu verwandeln, die anderen Menschen tatsächlich hilft</strong> &ndash; Zimmermanns Studierende zeigen nachweislich mehr Konzentration und Präsenz, wenn Hugo im Raum ist, und seine therapeutische Arbeit mit Eulen erreicht gezielt Menschen, für die klassische Nähe schwer erträglich ist.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Fünf zeigt sich dort, wo die kontrollierte Distanz zum einzigen Zugang zu echter Verbindung wird &ndash; wo ein Mensch sein tiefstes Vertrauen eher einem einzelnen, sorgfältig aufgezogenen Tier schenkt als der ungefilterten Nähe zu anderen Menschen. Das ist keine Kritik, sondern die konsequente Kehrseite desselben Musters, das ihn zugleich zu einem außergewöhnlich wirksamen Lehrer und Therapeuten macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Eule, die sich selbst erkannt hat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Zimmermann besonders macht, ist nicht nur, dass er eine Eule hält &ndash; es ist, wie beharrlich und wie selbstverständlich er sie über Jahre hinweg in seine Arbeit einbindet, fast als bräuchte er selbst diese ruhige, distanzierte Präsenz ebenso sehr wie seine Studierenden und Klientinnen und Klienten. Genau diese Beharrlichkeit spricht dafür, dass hier etwas Tieferes am Werk ist als eine originelle Lehrmethode.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass beinahe wie ein lebender Beweis wirkt: ein Mann, dessen archetypisches Tier die Eule ist, der sie &ndash; offenbar unbewusst, aber mit großer Konsequenz &ndash; als treue Begleiterin gewählt hat und sich in ihrer Nähe erkennbar wohlfühlt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se5", label:"Lebensmusterkompass: SE5 – Eule"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Porträt: Carl Friedrich Gauß (SE5w6)"},
+        {route:"beruehmte-franz-kafka", label:"Porträt: Franz Kafka (SE5w4)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-ingo-zimmermann")}
     </div>
   `);
 }
@@ -92018,6 +92084,7 @@ function render() {
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
       "beruehmte-carl-friedrich-gauss": carlFriedrichGaussPortraitPage,
       "beruehmte-paris-hilton": parisHiltonPortraitPage,
+      "beruehmte-ingo-zimmermann": ingoZimmermannPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
