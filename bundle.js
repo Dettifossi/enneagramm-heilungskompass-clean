@@ -27943,7 +27943,7 @@ const TIERLEXIKON = {
       "Sie erkennen menschliche Gesichter und merken sich, wer sie gef\u00fcttert oder verscheucht hat. *Die SE4 vergisst nicht, wie man sie behandelt hat. Sie merkt sich Freundlichkeit und Ablehnung gleicherma\u00dfen.*",
       "Tauben trinken durch Saugen, nicht durch Sch\u00f6pfen \u2013 eine Seltenheit unter V\u00f6geln. *Die SE4 hat ihre eigene Art zu empfangen. Sie nimmt auf ihre Weise \u2013 anders als die meisten.*",
       "Sie erzeugen eine Art Echolot \u00fcber Infraschallwellen, die f\u00fcr Menschen unh\u00f6rbar sind. *Die SE4 nimmt Schwingungen wahr, die andere nicht sp\u00fcren. Sie reagiert auf das Unausgesprochene.*",
-      "Tauben k\u00f6nnen Buchstaben, Zahlen und menschliche Gesichter in Fotos unterscheiden. *Die SE4 hat feine Wahrnehmung. Sie liest mehr in einem Gesicht als andere f\u00fcr m\u00f6glich halten.*",
+      "Tauben k\u00f6nnen Buchstaben, Zahlen und menschliche Gesichter in Fotos unterscheiden. *Die SE4 hat eine feine Wahrnehmung. Sie liest mehr in einem Gesicht als andere f\u00fcr m\u00f6glich halten.*",
       "Die Friedenstaube ist ein weltweites Symbol \u2013 geformt von Picassos Zeichnung nach dem Zweiten Weltkrieg. *Die SE4 tr\u00e4gt Symbolkraft. Sie wird zum Spiegel kollektiver Sehnsucht.*",
       "Tauben fressen bis zu 50 g t\u00e4glich \u2013 gleichm\u00e4\u00dfig, best\u00e4ndig, methodisch. *Die SE4 versorgt sich verl\u00e4sslich. Aber Essen bleibt Mittel \u2013 nicht Trost.*",
       "Sie haben keine \u00e4u\u00dferen Ohren, nehmen aber Klang hochpr\u00e4zise wahr. *Die SE4 h\u00f6rt ohne sichtbare Antenne. Ihre Empfindsamkeit liegt innen.*",
