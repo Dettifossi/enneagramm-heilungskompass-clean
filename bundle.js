@@ -50160,15 +50160,15 @@ function carlTanzlerPortraitPage() {
 
 function sterlingNorthPortraitPage() {
   const galleryItem = (src, alt, caption) => `
-    <figure style="margin:0;">
-      <img src="./assets/portraits/sterling-north-gallery/${src}" alt="${alt}" loading="lazy" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:8px;display:block;border:1px solid var(--border);" />
+    <figure style="margin:0 0 0.9rem;break-inside:avoid;-webkit-column-break-inside:avoid;display:inline-block;width:100%;">
+      <img src="./assets/portraits/sterling-north-gallery/${src}" alt="${alt}" loading="lazy" style="width:100%;height:auto;border-radius:8px;display:block;border:1px solid var(--border);" />
       <figcaption style="font-size:0.72rem;color:var(--muted);margin-top:0.3rem;line-height:1.4;">${caption}</figcaption>
     </figure>
   `;
   const galleryGroup = (title, items) => `
     <div style="margin-bottom:1.4rem;">
       <p style="font-size:0.78rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--copper);margin:0 0 0.6rem;">${title}</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:0.7rem;">
+      <div style="columns:150px;column-gap:0.9rem;">
         ${items.map(([src, alt, caption]) => galleryItem(src, alt, caption)).join("")}
       </div>
     </div>
@@ -50223,7 +50223,7 @@ function sterlingNorthPortraitPage() {
                           background:var(--paper);list-style:none;user-select:none;font-weight:700;
                           font-size:0.95rem;color:var(--ink);">
             <span style="font-size:1.2rem;">&#128247;</span>
-            <span style="flex:1;">Bildergalerie: Sterling North und Rascal (28 Fotos)</span>
+            <span style="flex:1;">Bildergalerie: Sterling North und Rascal (32 Fotos)</span>
             <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
           </summary>
           <div style="padding:1rem 1.2rem 1.4rem;">
@@ -50232,7 +50232,9 @@ function sterlingNorthPortraitPage() {
             ${galleryGroup("Kindheit und Jugend", [
               ["sterling-north-23-elf-jahre.jpg", "Sterling North im Alter von elf Jahren", "Im Alter von 11 Jahren – dem Alter, in dem die Rascal-Geschichte spielt"],
               ["sterling-north-24-vierzehn-jahre.jpg", "Sterling North im Alter von vierzehn Jahren", "Im Alter von 14 Jahren"],
+              ["sterling-north-31-vierzehn-jahre-b.jpg", "Sterling North im Alter von vierzehn Jahren, zweites Foto", "Ebenfalls im Alter von 14 Jahren"],
               ["sterling-north-25-sechzehn-jahre.jpg", "Sterling North im Alter von sechzehn Jahren", "Im Alter von 16 Jahren"],
+              ["sterling-north-30-achtzehn-jahre-schreibend.jpg", "Sterling North im Alter von achtzehn Jahren, schreibend", "Mit 18 Jahren, introvertiert schreibend im Arbeitszimmer der Familie – schon hier schriftstellerisch tätig"],
               ["sterling-north-01-familie.jpg", "Familienfotos Sterling North", "Familienfotos aus verschiedenen Lebensabschnitten"],
             ])}
 
@@ -50243,6 +50245,7 @@ function sterlingNorthPortraitPage() {
               ["sterling-north-02-schreibtisch.jpg", "Sterling North an der Schreibmaschine", "Am Schreibtisch, mit seiner Royal-Schreibmaschine"],
               ["sterling-north-03-ehefrau.jpg", "Sterling North mit seiner Frau Gladys", "Mit seiner Frau Gladys Buchanan North"],
               ["sterling-north-29-ehefrau-portraet.jpg", "Gladys Buchanan North, Porträt", "Seine Frau Gladys Buchanan North (SO2w1)"],
+              ["sterling-north-32-mit-ehefrau-schreibmaschine.jpg", "Sterling North mit seiner Frau an der Schreibmaschine", "Mit 43 Jahren, gemeinsam mit seiner Frau an der Schreibmaschine – die selbsterhaltende Waschbärfigur gut erkennbar"],
               ["sterling-north-04-angeln.jpg", "Sterling North beim Angeln", "Beim Angeln – ein Leben in ländlicher Umgebung"],
               ["sterling-north-05-portraet.jpg", "Porträtfoto Sterling North", "Porträtaufnahme"],
             ])}
@@ -50266,6 +50269,7 @@ function sterlingNorthPortraitPage() {
 
             ${galleryGroup("Verfilmung, Vermächtnis und die Sterling North Society", [
               ["sterling-north-17-anime.jpg", "Anime-Adaption von Rascal", "Anime-Adaption (Nippon Animation, Japan)"],
+              ["sterling-north-33-film-standbild.jpg", "Filmstandbild aus der Disney-Verfilmung von Rascal", "Standbild aus der Disney-Verfilmung: der Schauspieler, der den jungen Sterling North spielt"],
               ["sterling-north-22-disney-dvd.jpg", "Disney-Verfilmung Rascal, DVD-Cover", "DVD-Cover der Disney-Verfilmung von 1969"],
               ["sterling-north-20-emblem.jpg", "Emblem der Sterling North Society", "Emblem der Sterling North Society, Edgerton WI"],
               ["sterling-north-16-grabstein.jpg", "Grabstein der Familie North", "Grabstein der Familie North"],
