@@ -35901,7 +35901,7 @@ function lebensmusterkompassPage() {
       <div class="page-content">
         <p class="eyebrow">Knowledge &middot; Life Pattern Compass</p>
         <h1 class="section-title">Life Pattern Compass</h1>
-        <img src="../assets/lebensmusterkompass-hero.jpg?v=2" alt="Life Pattern Compass – biographical fingerprints" style="width:100%;height:auto;border-radius:12px;margin:0.8rem 0 1.4rem;display:block;" loading="lazy" />
+        <img src="../assets/lebensmusterkompass-hero-en.jpg?v=1" alt="Life Pattern Compass – biographical fingerprints" style="width:100%;height:auto;border-radius:12px;margin:0.8rem 0 1.4rem;display:block;" loading="lazy" />
         <p class="psycho-intro">Biographical fingerprints of the 27 subtypes &ndash; recurring identifying traits worked out from the internal analysis of every case portrait in this compass (Famous Personalities, gripping criminal-psychology cases, and further portraits, e.g. from Astrology meets Enneagram).</p>
 
         <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
