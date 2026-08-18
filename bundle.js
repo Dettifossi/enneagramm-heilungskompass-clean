@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SO1: {
+    tier: "Gans",
+    kernthema: "Wachsame Verantwortung für die Ordnung der Gemeinschaft statt für sich allein",
+    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Konfuzius (Kong Fuzi)", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke"],
+    fingerabdruecke: [
+      {
+        titel: "Wachsame, unbestechliche Ordnungshüter-Haltung, die bei Verletzung abrupt hart reagiert",
+        beschreibung: "Nach außen wirkt die Haltung diszipliniert, bürgerlich, unauffällig kontrolliert. Doch sobald die eigene Ordnung oder ein als gerecht empfundenes Prinzip verletzt wird, folgt eine entschiedene, oft überraschend harte Reaktion – ohne Drama, aber ohne Kompromiss.",
+        beleg: "›Die Gans ist tief territorial. Sie zögert nicht. Sie greift entschieden an, wenn sie das Gefühl hat, dass ihre Ordnung verletzt wird‹ (Ted Bundy); Friedrich Merz: ›Er sagt, was er denkt … Die Gans weicht nicht aus, wenn sie überzeugt ist, das Richtige zu tun‹; Xanthippe und Adam Smith werden beide fast wortgleich als ›wachsam, prinzipientreu, unbestechlich in ihrem Sinn für Recht und Unrecht‹ beschrieben; Ursula von der Leyen ›steht Wache, meldet jede Störung laut, verteidigt ihr Territorium notfalls mit Bissen‹."
+      },
+      {
+        titel: "Verantwortung für das Kollektiv statt Einzelkämpfertum – Formation statt Solo",
+        beschreibung: "Die eigene Leistung wird konsequent in den Dienst einer Gruppe, einer Mannschaft oder einer Gesellschaft gestellt. Führung bedeutet hier, die Formation zusammenzuhalten und Räume für andere zu öffnen, nicht das eigene Vorankommen.",
+        beleg: "Jürgen Klopp: ›Die Gans fliegt nicht allein. Sie fliegt im V-Formationsverband … Wenn eine Gans erschöpft ist, übernimmt eine andere die Spitze‹; David Bowie, dessen Verwandlungen ›einen Raum öffneten, den vorher niemand betreten hatte, und den danach viele betreten durften‹ – ›Die Gans fliegt nicht für sich allein. Sie ruft, damit die anderen die Formation finden‹; Konrad Lorenz, der sein Wissen ›an die Gruppe weitergibt, statt es allein zu verwalten‹."
+      },
+      {
+        titel: "Bruch mit dem etablierten System aus moralischer Überzeugung – ein eigenes Ordnungssystem wird gegründet",
+        beschreibung: "Wird das bestehende System als grundlegend falsch oder ungerecht empfunden, genügt Kritik von innen nicht. Stattdessen entsteht häufig ein eigenes, in sich stimmiges Gegen-System, das über Jahrzehnte oder Jahrhunderte trägt.",
+        beleg: "Samuel Hahnemann, der die Heilkunde seiner Zeit ›für so gefährlich hielt, dass er ihr über Jahre den Rücken kehrte – um am Ende ein eigenes, in sich stimmiges Medizinsystem zu begründen‹; Konfuzius, der sein ›ganzes Leben der Frage widmete, wie eine zerfallende Gesellschaft durch Vorbild, Sitte und Selbstkultivierung wieder in eine tragfähige Form gebracht werden kann‹; Jordan Peterson, dessen ›12 Rules for Life‹ sich über fünf Millionen Mal verkauften – ›er predigt Verantwortung, Ordnung, Struktur, weil er weiß, was das Chaos kostet‹."
+      },
+      {
+        titel: "Untadelige öffentliche Fassade, hinter der sich – in der Schattenform – präzise, unangekündigte Vergeltung verbirgt",
+        beschreibung: "In der destruktiven Ausprägung wird derselbe unbestechliche Ordnungssinn zur Rechtfertigung für kalkulierte Gewalt: eine als gerecht empfundene Schuld wird eingetrieben, methodisch und ohne Vorwarnung, während nach außen weiterhin das Bild des Musterbürgers gewahrt bleibt.",
+        beleg: "Ted Bundy: ›Nach außen: Student, Freiwilliger, Parteiaktivist, ein Mann, der anderen half. Innen: ein Mensch, dessen innere Ordnung durch eine Zurückweisung zerstört worden war – und der sich das Recht nahm, diese Schuld einzutreiben. Still, methodisch, präzise‹; Heinrich Pommerenke, dessen fast 48-jährige Haft die längste Einzelhaft in der Geschichte der Bundesrepublik war. Wichtig: Die überwiegende Mehrheit der SO1 in diesem Kompass (von der Leyen, Merz, Klopp, Bowie, Hahnemann, Konfuzius u. a.) zeigt dieses Muster nicht – es handelt sich um eine seltene Extremform, keine typische Ausprägung."
+      }
+    ]
+  },
   SE1: {
     tier: "Adler",
     kernthema: "Perfektionismus, der sich nicht an der Welt, sondern an der eigenen Vorbereitung und Integrität abarbeitet",

@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v1179", date: "2026-08-18", text: "Lebensmusterkompass: neuer Subtyp SO1 (Gans) hinzugefügt – vier biografische Fingerabdrücke, ausgearbeitet aus allen 13 vorliegenden SO1-Porträts.", text_en: "Lebensmusterkompass: new subtype SO1 (Goose) added – four biographical fingerprints, developed from all 13 available SO1 portraits.", route: "lebensmusterkompass/so1" },
     { version: "v1178", date: "2026-08-18", text: "Tierbilder: allerletzter Feinschliff (SE3 minimal höher, SE7 und SO7 links, SE8 rechts, SO8 links). Ausrichtung app-weit final abgeschlossen.", text_en: "Animal images: very final touches (SE3 slightly higher, SE7 and SO7 left, SE8 right, SO8 left). App-wide alignment finalized.", route: "tierlexikon" },
     { version: "v1177", date: "2026-08-18", text: "Tierbilder: letzter Feinschliff (SE3 nach oben, SX4 rechts, SO5 links, SE6 links, SX6 weiter links). Ausrichtung app-weit abgeschlossen.", text_en: "Animal images: final touches (SE3 up, SX4 right, SO5 left, SE6 left, SX6 further left). App-wide alignment complete.", route: "tierlexikon" },
     { version: "v1176", date: "2026-08-18", text: "Tierbilder: letzte Feinjustierungen (SX1, SO4, SX6 links, SE3 nach oben, SO8, SE9, SO9, SX9).", text_en: "Animal images: final fine-tuning (SX1, SO4, SX6 horizontal, SE3 vertical, SO8, SE9, SO9, SX9).", route: "tierlexikon" },
