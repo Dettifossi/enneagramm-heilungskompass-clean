@@ -37682,7 +37682,7 @@ function tierquizPage() {
       <div class="typentest-wrap">
         <div class="typentest-card" style="text-align:center;padding:2rem 1.5rem;">
           <div style="position:relative;width:120px;height:120px;border-radius:50%;overflow:hidden;border:3px solid var(--gold);margin:0 auto 0.8rem;background:transparent;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-240/${code.toLowerCase()}.jpg" alt="${tier}" style="position:absolute;top:-20%;left:-30%;width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.outerHTML='<div style=&quot;font-size:5rem;margin-bottom:0.5rem;&quot;>${emoji}</div>'">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-240/${code.toLowerCase()}.jpg" alt="${tier}" style="position:absolute;top:-20%;left:-8%;width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.outerHTML='<div style=&quot;font-size:5rem;margin-bottom:0.5rem;&quot;>${emoji}</div>'">
           </div>
           <p class="eyebrow" style="margin-bottom:0.3rem;">Ihr Enneagramm-Tier</p>
           <h1 class="typentest-titel" style="margin-bottom:0.3rem;">${tier}</h1>
@@ -42597,7 +42597,7 @@ function lebensmusterkompassPage() {
         title="${s.tier} (${s.code})${hasData ? "" : " – in Arbeit"}"
       >
         <div style="position:relative;width:40px;height:40px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${hasData ? col : "var(--border)"};${hasData ? "" : "filter:grayscale(1);"}">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${s.code.toLowerCase()}.jpg" alt="${s.tier}" loading="lazy" style="position:absolute;top:-20%;left:-30%;width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${s.code.toLowerCase()}.jpg" alt="${s.tier}" loading="lazy" style="position:absolute;top:-20%;left:-8%;width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
         </div>
         <span style="font-size:.75rem;font-weight:700;color:${col};letter-spacing:.04em;">${s.code}</span>
         <span style="font-size:.68rem;color:var(--muted);text-align:center;line-height:1.2;">${s.tier}${hasData ? "" : "<br><span style='font-size:.6rem;'>in Arbeit</span>"}</span>
@@ -42674,7 +42674,7 @@ function lebensmusterkompassDetailPage(codeRaw) {
         <p class="eyebrow">Wissen &middot; Lebensmusterkompass</p>
         <h1 class="section-title" style="display:flex;align-items:center;gap:0.7rem;flex-wrap:wrap;">
           <div style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${col};">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="${data.tier}" loading="lazy" style="position:absolute;top:-20%;left:-30%;width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="${data.tier}" loading="lazy" style="position:absolute;top:-20%;left:-8%;width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
           </div>
           <span>${code} &middot; ${data.tier}: Biografische Fingerabdr\xfccke</span>
         </h1>
@@ -43228,7 +43228,7 @@ function beruehmtePersoenlichkeitenPage() {
       +'</div>'
       +'<span style="font-size:0.82rem;color:var(--copper);font-weight:600;">Zum Portr\xe4t &rarr;</span></div>'
       +'<div style="display:flex;flex-direction:column;align-items:center;gap:0.4rem;flex-shrink:0;">'
-      +(tierImg ? '<div style="position:relative;width:48px;height:48px;border-radius:50%;overflow:hidden;border:2px solid var(--gold);"><img src="'+tierImg+'" alt="'+tierKey.toUpperCase()+'" loading="lazy" style="position:absolute;top:-20%;left:-30%;width:140%;height:140%;object-fit:cover;" /></div>' : '')
+      +(tierImg ? '<div style="position:relative;width:48px;height:48px;border-radius:50%;overflow:hidden;border:2px solid var(--gold);"><img src="'+tierImg+'" alt="'+tierKey.toUpperCase()+'" loading="lazy" style="position:absolute;top:-20%;left:-8%;width:140%;height:140%;object-fit:cover;" /></div>' : '')
       +'<span style="font-size:1.4rem;color:var(--gold);">&#9655;</span>'
       +'</div>'
       +'</div></div>';
@@ -62665,7 +62665,7 @@ function kriminalpsychologiePage() {
       +'</div>'
       +'<span style="font-size:0.82rem;color:var(--copper);font-weight:600;">Zum Portr\xe4t &rarr;</span></div>'
       +'<div style="display:flex;flex-direction:column;align-items:center;gap:0.4rem;flex-shrink:0;">'
-      +(tierImg ? '<div style="position:relative;width:48px;height:48px;border-radius:50%;overflow:hidden;border:2px solid var(--gold);"><img src="'+tierImg+'" alt="'+tierKey.toUpperCase()+'" loading="lazy" style="position:absolute;top:-20%;left:-30%;width:140%;height:140%;object-fit:cover;" /></div>' : '')
+      +(tierImg ? '<div style="position:relative;width:48px;height:48px;border-radius:50%;overflow:hidden;border:2px solid var(--gold);"><img src="'+tierImg+'" alt="'+tierKey.toUpperCase()+'" loading="lazy" style="position:absolute;top:-20%;left:-8%;width:140%;height:140%;object-fit:cover;" /></div>' : '')
       +'<span style="font-size:1.4rem;color:var(--gold);">&#9655;</span>'
       +'</div>'
       +'</div></div>';
