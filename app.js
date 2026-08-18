@@ -42807,7 +42807,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Wenn dasselbe Muster zum Machtinstrument statt zum Dienst wird (Schattenform)",
         beschreibung: "In der destruktiven Ausprägung wird das gesammelte Wissen oder die kontrollierte Struktur nicht zum Geschenk an die Gemeinschaft, sondern zum Mittel der Kontrolle über andere oder gegen sie eingesetzt.",
-        beleg: "Bill Gates: ›Hinter dem freundlichen Pullover … liegt ein Muster, das sich durch sein gesamtes Leben zieht: die systematische Kontrolle über das, was andere brauchen … Das Totem als Machtinstrument‹; Dr. Harold Shipman, der als vertrauenswürdiger Hausarzt sein medizinisches Wissen nutzte, um über zwei Jahrzehnte mindestens 218 Patienten zu töten; Dr. Ted Kaczynski, der Universalgelehrsamkeit gegen die Gesellschaft richtete, die er zu retten glaubte. Wichtig: Gates' Fall ist kritisch, nicht kriminell, und keinesfalls mit Shipman oder Kaczynski gleichzusetzen – alle drei zeigen jedoch dieselbe Grundstruktur in ganz unterschiedlicher Schärfe."
+        beleg: "Bill Gates: ›Hinter dem freundlichen Pullover … liegt ein Muster, das sich durch sein gesamtes Leben zieht: die systematische Kontrolle über das, was andere brauchen … Das Totem als Machtinstrument‹; Dr. Harold Shipman, der als vertrauenswürdiger Hausarzt sein medizinisches Wissen nutzte, um über zwei Jahrzehnte mindestens 218 Patienten zu töten; Dr. Ted Kaczynski, der Universalgelehrsamkeit gegen die Gesellschaft richtete, die er zu retten glaubte. Wichtig: Gates' Fall liegt in einer völlig anderen Größenordnung als Shipman oder Kaczynski und ist mit diesen keinesfalls gleichzusetzen – alle drei zeigen jedoch dieselbe Grundstruktur in ganz unterschiedlicher Schärfe."
       }
     ]
   },
