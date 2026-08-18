@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SX1: {
+    tier: "Schwarze Mamba",
+    kernthema: "Kompromisslose Intensität im engsten Kreis statt Reformanspruch an die ganze Welt",
+    beispiele: ["Klaus Kinski", "Marie-Agnes Strack-Zimmermann", "Grigori Rasputin", "Robbie Williams", "Jamie Lee Curtis", "Udo Lindenberg", "Johann Sebastian Bach", "Leonardo DiCaprio", "Thea Litschka-Koen", "Bill Haast", "Romulus Whitaker", "Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl"],
+    fingerabdruecke: [
+      {
+        titel: "Durchdringende, unausweichliche Präsenz statt schmeichelndes Charisma",
+        beschreibung: "Die Wirkung entsteht nicht durch Sympathiewerben, sondern durch eine Intensität, der man sich in unmittelbarer Nähe kaum entziehen kann – ein Blick, eine Bühnenpräsenz, eine Konzentration, die vollständige Wachheit beim Gegenüber erzwingt.",
+        beleg: "›In ihrer Nähe zu sein, bedeutet, vollständig wach zu sein‹ (Klaus Kinski); Rasputins Blick, unter dem sich Petersburger Salondamen ›vollständig gesehen, ausgezogen bis auf den Grund‹ fühlten – ›kein Charisma, das schmeichelt, sondern eines, das durchdringt‹; Leonardo DiCaprios Rollenvorbereitung ›ohne Halbheiten‹ – ›der Biss der Mamba: vollständig, präzise‹."
+      },
+      {
+        titel: "Unscheinbare, zurückgezogene Fassade, die bei verletzter Integrität abrupt in kompromisslose Härte umschlägt",
+        beschreibung: "Nach außen wirkt die Erscheinung oft zurückhaltend, pflichtbewusst, fast unauffällig. Doch sobald die eigene Integrität, Überzeugung oder Reinheit infrage gestellt wird, folgt eine sofortige, präzise, unnachgiebige Reaktion – ohne Übergangsstufen.",
+        beleg: "Udo Lindenberg: ›Sie wirkt von außen fast unscheinbar, bis sie sich bedroht fühlt. Dann schlägt sie mit einer Präzision und Geschwindigkeit zu, der nichts entkommt‹; Johann Sebastian Bach, ›ein ganzes Leben lang der stille, pflichtbewusste Kirchenmusiker nach außen – und ein Mann, der keine Sekunde zögerte, wenn seine musikalischen Überzeugungen infrage gestellt wurden‹, der als Kind heimlich bei Mondlicht verbotene Notenblätter kopierte, ›koste es, was es wolle, selbst die eigenen Augen‹."
+      },
+      {
+        titel: "Radikale Ehrlichkeit, die sich nicht verstellen lässt – auch gegen das eigene Image",
+        beschreibung: "Anpassung an Erwartungen, Image-Pflege oder diplomatisches Schweigen sind kaum möglich, wenn etwas als falsch oder unecht empfunden wird – auch wenn das Aussprechen der eigenen Karriere oder dem eigenen Ansehen schadet.",
+        beleg: "Robbie Williams: ›Was falsch ist, wird benannt, auch wenn es das eigene Selbst betrifft … Die Mamba lässt sich nicht dauerhaft in eine Choreografie zwingen‹; Marie-Agnes Strack-Zimmermann: ›Die Mamba wartet nicht, bis alle einverstanden sind‹; Jamie Lee Curtis, die früh ›einen inneren Widerstand‹ gegen die Schein-Welt ihrer Hollywood-Familie entwickelte."
+      },
+      {
+        titel: "Tödliche Kontrolle im privatesten Kreis – hinter einer untadeligen bürgerlichen Fassade (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung richtet sich dieselbe Kompromisslosigkeit nicht auf die Verteidigung von Wahrheit, sondern auf die totale Kontrolle über die engste, intimste Beziehung – Partner, Familie, das eigene Zuhause –, oft über Jahre unentdeckt hinter einem Bild bürgerlicher Unauffälligkeit.",
+        beleg: "Gary Ridgway: ›Kirchgänger. Dreimal verheiratet. Vater eines Sohnes … Kein Vorstrafen-Register‹ – über zwei Jahrzehnte unentdeckt; Josef Fritzl: ›Nach außen war er ein geachteter Bürger … ein unauffälliger Mann in einer unauffälligen Kleinstadt‹; Gennadi Mikhasevich, der als Volksmiliz-Mitglied selbst an der Fahndung nach dem Täter teilnahm, der er war; Mary Ann Cotton und Paul Bernardo als weitere Beispiele derselben Logik: Kontrolle über den engsten Kreis, verkleidet als Fürsorge oder Makellosigkeit."
+      }
+    ]
+  },
   SO1: {
     tier: "Gans",
     kernthema: "Wachsame Verantwortung für die Ordnung der Gemeinschaft statt für sich allein",
