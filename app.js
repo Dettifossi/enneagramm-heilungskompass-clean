@@ -31849,6 +31849,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Derek Goodwin \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 1920\u20132008. Britischer Ornithologe am Natural History Museum London, Standardwerke \u00fcber Tauben, Kr\u00e4hen und Prachtfinken. Ein Leben im Hintergrund, gewidmet ausgerechnet dem eigenen archetypischen Tier. Tierentsprechung: Taube.",
     tags:["Wissenschaft"], gender:"m"},
+  { route:"beruehmte-mariella-superina", name:"Dr. Mariella Superina", added:"2026-08-18", subtyp:"SO4w5",
+    heading:"Dr. Mariella Superina \u2013 Sozialer Typ 4",
+    teaser:"SO4w5 \u00b7 Schweizer Tier\u00e4rztin und Wissenschaftlerin, seit \u00fcber 20 Jahren die weltweit f\u00fchrende G\u00fcrteltierforscherin, Vorsitzende der IUCN-Spezialistengruppe f\u00fcr G\u00fcrteltiere. Weltweit anerkannte Autorit\u00e4t f\u00fcr ausgerechnet das eigene archetypische Tier. Tierentsprechung: G\u00fcrteltier.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
     heading:"Romy Schneider \u2013 Sozialer Typ 4",
     teaser:"SO4w3 \u00b7 1938\u20131982. Schauspielerin. Sissi, C\u00e9sar und Rosalie, La Piscine. Das G\u00fcrteltier, das im Licht stand \u2013 und sich innerlich immer einrollte.",
@@ -35226,6 +35230,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-bernard-faye", name:"Dr. Bernard Faye", subtyp:"SX2w1", tier:"Kamel"},
   {route:"beruehmte-marlene-zuk", name:"Prof. Dr. Marlene Zuk", subtyp:"SX3w4", tier:"Pfau"},
   {route:"beruehmte-derek-goodwin", name:"Derek Goodwin", subtyp:"SE4w5", tier:"Taube"},
+  {route:"beruehmte-mariella-superina", name:"Dr. Mariella Superina", subtyp:"SO4w5", tier:"Gürteltier"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42887,7 +42892,7 @@ const LEBENSMUSTERKOMPASS = {
   SO4: {
     tier: "Gürteltier",
     kernthema: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter (Naranjo: Scham)",
-    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraklit", "Hippokrates von Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger"],
+    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraklit", "Hippokrates von Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina"],
     fingerabdruecke: [
       {
         titel: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter",
@@ -47922,6 +47927,67 @@ function derekGoodwinPortraitPage() {
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-derek-goodwin")}
+    </div>
+  `);
+}
+
+function mariellaSuperinaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mariella-superina-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Mariella Superina</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Tierärztin, Gürteltierforscherin &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier, das zum Gürteltier wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier &ndash; es sucht seine Zugehörigkeit nicht durch Anpassung an die Masse, sondern durch eine ganz eigene, unverwechselbare Rolle innerhalb einer Gemeinschaft, die es erst dadurch wirklich sichtbar macht. Kaum ein Leben zeigt dieses Muster so wörtlich wie das von Dr. Mariella Superina: Die Schweizer Tierärztin ist heute die weltweit anerkannte oberste Autorität für Gürteltiere &ndash; eine Frau, deren archetypisches Tier das Gürteltier ist und die genau darin zur international gefeierten Instanz wurde.</p>
+          <p class="vb-intro">Aufgewachsen in der Schweiz, wo es naturgemäß keine Gürteltiere gibt, begegnete Superina dem Tier eher zufällig auf einer Farm in Brasilien &ndash; fasziniert davon, wie wenig über diese Tiere überhaupt bekannt war. Aus dieser Begegnung wurde eine Dissertation an der Universität Zürich über Biologie und Haltung von Gürteltieren, gefolgt von einer zweiten Promotion in Conservation Biology an der University of New Orleans über den Pichi, eine kleine Gürteltierart in Argentinien.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Bedeutung durch eine unverwechselbare Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> sucht ihren Wert nicht in Rückzug, sondern in einer besonderen, unersetzbaren Stellung innerhalb einer Gemeinschaft &ndash; sie will nicht irgendein Mitglied sein, sondern dasjenige, ohne das etwas Wesentliches fehlen würde. Superina wurde genau das: Seit 2009 leitet sie als Vorsitzende die IUCN SSC Anteater, Sloth and Armadillo Specialist Group, das weltweite Expertennetzwerk der Weltnaturschutzunion für diese Tiergruppe &ndash; eine Position, die sie über Jahrzehnte zur zentralen, unbestrittenen Instanz für Gürteltierschutz weltweit gemacht hat.</p>
+          <p class="vb-intro">Bezeichnend ist dabei, wie sie selbst über ihre Arbeit spricht: Forschung sei "immer Teamarbeit", betont sie ausdrücklich &ndash; kein Ich-Projekt, sondern ein gemeinsames Anliegen, das sie mit internationalen Kolleginnen, Kollegen und Behörden trägt. Genau darin zeigt sich die soziale Vier: Die eigene Einzigartigkeit entsteht nicht gegen die Gemeinschaft, sondern durch die besondere Rolle innerhalb von ihr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Jahrzehnte im Dienst eines einzigen Wissensgebiets</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier eine analytische Tiefe und einen enormen Wissensdurst &ndash; das eigene Interesse an einem Thema wird nicht nur gefühlt, sondern in systematisches, akribisches Fachwissen übersetzt. Über zwei Jahrzehnte Feldforschung hinweg untersuchte Superina Verhalten, Winterschlaf und Biologie verschiedenster Gürteltierarten quer durch Südamerika &ndash; von der Verfolgung der Tiere im hohen Gras bis zur Erforschung ihrer Torpor- und Überwinterungsmechanismen, mit weit über hundert wissenschaftlichen Veröffentlichungen und tausenden Zitationen.</p>
+          <p class="vb-intro">Ihr eigener Satz &ndash; sinngemäß: "Trage sie im Herzen, aber lass sie in der Wildnis" &ndash; zeigt diese Fünfer-Distanz in ihrer reifsten Form: Nähe und tiefe Zuneigung zum Forschungsobjekt, aber ohne Vereinnahmung, ohne das Tier aus seinem natürlichen Kontext zu reißen. Wissen wird hier nicht angehäuft, um zu besitzen, sondern um zu schützen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 ist die Fähigkeit, <strong>die eigene Einzigartigkeit in eine unersetzbare gesellschaftliche Rolle</strong> zu verwandeln &ndash; Superinas jahrzehntelange Forschung und ihr internationaler Vorsitz haben eine ganze, zuvor kaum beachtete Tierfamilie ins Zentrum des globalen Artenschutzes gerückt. Ohne sie wäre das Wissen über Gürteltiere heute nachweislich ärmer.</p>
+          <p class="vb-intro">Der Schatten der sozialen Vier zeigt sich, wo die eigene Bedeutung zu sehr an eine einzige, hoch spezialisierte Nische gebunden bleibt &ndash; ein Gebiet, das für die meisten Menschen exotisch und schwer zugänglich bleibt, so bedeutsam es fachlich auch ist. Die Kehrseite der besonderen Rolle: Je einzigartiger die eigene Nische, desto einsamer kann der Weg darin sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Gürteltier, das für das Gürteltier steht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Superina der Welt gibt, ist nicht nur wissenschaftliches Detailwissen, sondern eine ganze Gattung, die ohne ihre jahrzehntelange Beharrlichkeit heute weit weniger geschützt wäre. Die soziale Vier mit Fünferflügel fragt nicht: Wie falle ich auf? Sondern: Welche Rolle fehlt noch, die nur ich ausfüllen kann?</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das kaum treffender für dieses Muster stehen könnte: eine Frau, deren archetypisches Tier das Gürteltier ist, die zur weltweit anerkannten Stimme genau dieses Tieres wurde &ndash; nicht durch Rückzug, sondern durch eine Rolle in der internationalen Gemeinschaft, die niemand sonst so ausfüllen konnte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so4", label:"Lebensmusterkompass: SO4 – Gürteltier"},
+        {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
+        {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-mariella-superina")}
     </div>
   `);
 }
@@ -91821,6 +91887,7 @@ function render() {
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
+      "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
