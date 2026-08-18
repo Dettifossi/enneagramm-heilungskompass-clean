@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SE5: {
+    tier: "Eule",
+    kernthema: "Der Rückzug als bewusst gebaute Burg – stille Beobachtung statt Flucht",
+    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch de Spinoza", "Carl Tanzler", "Joachim Kroll"],
+    fingerabdruecke: [
+      {
+        titel: "Der Rückzug als bewusst gebaute ›Burg‹ statt bloße Flucht",
+        beschreibung: "Der Rückzugsraum ist kein Zeichen von Schwäche, sondern eine aktiv errichtete, geschützte Basis, von der aus beobachtet, gedacht und gearbeitet wird – klein, überschaubar, aber vollständig unter eigener Kontrolle.",
+        beleg: "Xu Bing: ›Die Eule, die in der Zeit der größten Öffentlichkeit lernte, sich in die Stille des Zeichens zurückzuziehen‹ – ›Die Burg aus Zeichen‹; Peter Lustig, dessen Wohnwagen zur ›Burg‹ wurde; Warren Buffett, der seit 1958 im selben Haus in Omaha lebt: ›Die Burg in Omaha‹; Hermann Hesse, der vierzig Jahre in seinem Tessiner Haus verbrachte: ›Die Burg im Tessin‹; Spinoza: ›Die Burg des Denkens.‹"
+      },
+      {
+        titel: "Geduldiges Warten, bis das Wissen oder der Moment unangreifbar ist",
+        beschreibung: "Handeln oder Veröffentlichen geschieht nicht impulsiv, sondern erst, wenn jeder Einwand vorweggenommen und jedes Detail gesichert ist – ein Vorgehen, das von außen wie Zögern wirken kann, aber Ausdruck äußerster Sorgfalt ist.",
+        beleg: "Charles Darwin, der seine Evolutionstheorie ›zwanzig Jahre lang zurückhielt, bevor er sie veröffentlichte … bis das Beobachtete unangreifbar war‹; Warren Buffett: ›Sie handelt erst, wenn sie wirklich verstanden hat, was sie sieht. Und wenn sie handelt, dann mit einer Präzision, die andere für Glück halten, die aber Jahrzehnte geduldiger Beobachtung voraussetzt.‹"
+      },
+      {
+        titel: "Verstoßung oder Krise wird zur Methode des Rückzugs, statt zum offenen Bruch zu führen",
+        beschreibung: "Auf Ablehnung, Verbannung oder eine tiefe Lebenskrise folgt kein Widerstand und keine Konfrontation, sondern ein ruhiger, methodischer Rückzug in eine selbst gewählte, kontrollierte Existenz.",
+        beleg: "Spinoza, mit 23 Jahren aus seiner Gemeinde verbannt: ›Er reagierte nicht mit Widerstand oder Verhandlung – er zog sich zurück … und lebte den Rest seines Lebens außerhalb jeder Gemeinschaft, die ihn hätte binden können‹; Xu Bing, dessen Familie durch die Kulturrevolution zerstört wurde: ›Aus dieser Erfahrung wurde kein Bruch, sondern eine Methode‹; Hermann Hesse, dessen Krise nach dem Klosterausbruch ›eine lebenslange Bewegung nach innen‹ prägte; Marie Curie, die ihre Heimat verließ, weil Frauen dort nicht studieren durften."
+      },
+      {
+        titel: "Wenn sich die unsichtbare Intensität der Isolation zu etwas Unumkehrbarem verdichtet (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird dieselbe stille, von außen kaum sichtbare Intensität nicht zur Erkenntnis, sondern zu einer obsessiven Fixierung, die sich über Jahre unbemerkt aufbaut, bis sie in etwas Extremes und Unumkehrbares kippt.",
+        beleg: "Carl Tanzler: ›Die Eule beobachtet aus der Distanz und hortet, was sie fesselt, mit einer Intensität, die von außen unsichtbar bleibt, bis sie sich in etwas Unumkehrbares verwandelt‹ – er bewahrte den Leichnam einer Toten sieben Jahre lang auf; Joachim Kroll, der seinen Nachbarn als ›stiller, unauffälliger, fast kindlicher Mann‹ auffiel, während er über zwei Jahrzehnte unentdeckt mordete. Wichtig: Diese beiden Fälle sind seltene, extreme Ausnahmen unter den 13 SE5-Porträts dieses Kompasses, keine typische Ausprägung."
+      }
+    ]
+  },
   SX4: {
     tier: "Chihuahua",
     kernthema: "Klein von Gestalt, riesig im Innenleben – Intensität, die keine Halbheiten kennt (Naranjo: Konkurrenzneid)",
