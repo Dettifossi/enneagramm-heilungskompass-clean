@@ -24135,6 +24135,7 @@ const registerEntries = [
   { term: "Karl Lagerfeld",                route: "beruehmte-karl-lagerfeld",              description: "Portrait: SO3w4 \u00b7 Sozialer Typ 3 \u00b7 Modedesigner, Chanel-Ikone" },
   { term: "Karoline Herfurth",             route: "beruehmte-karoline-herfurth",           description: "Portrait: SE4w5 \u00b7 Selbsterhaltender Typ 4 \u00b7 Schauspielerin, Regisseurin" },
   { term: "Kathrin Bauerfeind",            route: "beruehmte-kathrin-bauerfeind",          description: "Portrait: SE3w4 \u00b7 Selbsterhaltender Typ 3 \u00b7 Journalistin, Moderatorin, Essayistin" },
+  { term: "Sterling North", route: "beruehmte-sterling-north", description: "Portrait: SE3w4 \u00b7 Selbsterhaltender Typ 3 \u00b7 Schriftsteller, machte den Waschb\u00e4ren mit \u00bbRascal\u00ab weltber\u00fchmt" },
   { term: "Anna Anderson", route: "beruehmte-anna-anderson", description: "Portrait: SE3w4 · Selbsterhaltende Typ 3 · berühmteste Hochstaplerin der Geschichte" },
   { term: "Judit Polgár",                  route: "beruehmte-judit-polgar",                description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Schach-Großmeisterin" },
   { term: "Jane Goodall", route: "beruehmte-jane-goodall", description: "Portrait: SX9w1 \u00b7 Sexuelle Typ 9 \u00b7 Primatologin, Begr\u00fcnderin der modernen Schimpansenforschung" },
@@ -32508,6 +32509,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mario Barth \u2013 Sexueller Typ 9",
     teaser:"SX9w8 \u00b7 geb. 1972. Comedian, Rekordhalter f\u00fcr die gr\u00f6\u00dfte Comedy-Show der Welt (Olympiastadion Berlin). Das Faultier, das sich mit dem Lachen der Masse verschmilzt \u2013 und mit Wucht zubei\u00dft, wenn Kritik kommt.",
     tags:["Comedy"], gender:"m"},
+  { route:"beruehmte-sterling-north", name:"Sterling North", added:"2026-08-18", subtyp:"SE3w4",
+    heading:"Sterling North \u2013 Selbsterhaltender Typ 3",
+    teaser:"SE3w4 \u00b7 1906\u20131974. Schriftsteller und Literaturredakteur. Machte mit seinem Buch \u00bbRascal\u00ab (1963, Newbery Honor, verfilmt von Disney) den Waschb\u00e4ren weltber\u00fchmt \u2013 und blieb dem echten Tier sein ganzes Leben lang verbunden.",
+    tags:["Literatur"], gender:"m"},
 ];
 
 const ASTROLOGIE_PORTRAITS = [
@@ -42949,12 +42954,12 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Waschbär",
     kernthema: "Können statt Glänzen – die natürliche Maske, die aus Wenigem ein funktionierendes System baut (Naranjo: der Kontratyp der Drei)",
-    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff"],
+    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff"],
     fingerabdruecke: [
       {
         titel: "Unscheinbare Fassade statt Rampenlicht – Können statt Glänzen (Naranjo: Kontratyp)",
         beschreibung: "Anders als die sozialen und sexuellen Dreier sucht dieser Subtyp keine Bühne. Naranjo nannte ihn den ›Kontratyp‹ der Drei: Statt Selbstinszenierung zeigt sich Bescheidenheit, Bodenständigkeit, ein bewusstes Vermeiden des Rampenlichts – während die Energie darunter dieselbe bleibt.",
-        beleg: "Kathrin Bauerfeind: ›Kein lauter Auftritt, kein Glanz, keine Bühne … Der Waschbär wühlt nicht im Rampenlicht – er schafft sich sein eigenes Territorium‹; Tony Shalhoub und Judit Polgár werden fast wortgleich beschrieben: ›Ein Tier, das man leicht unterschätzt … arbeitet mit feinen, geschickten Händen im Verborgenen‹; Joseph Haydn: ›kein Wunderkind wie Mozart, kein zorniger Titan wie Beethoven‹, sondern drei Jahrzehnte loyaler Dienst. Als Warnung dient Wolodymyr Selenskyj: ›Ein Schauspieler, der eine Rolle spielt, bis er selbst nicht mehr weiß, wo die Rolle endet und er anfängt – das ist die Falle der selbsterhaltenden Drei.‹"
+        beleg: "Kathrin Bauerfeind: ›Kein lauter Auftritt, kein Glanz, keine Bühne … Der Waschbär wühlt nicht im Rampenlicht – er schafft sich sein eigenes Territorium‹; Tony Shalhoub und Judit Polgár werden fast wortgleich beschrieben: ›Ein Tier, das man leicht unterschätzt … arbeitet mit feinen, geschickten Händen im Verborgenen‹; Joseph Haydn: ›kein Wunderkind wie Mozart, kein zorniger Titan wie Beethoven‹, sondern drei Jahrzehnte loyaler Dienst. Sterling North, jahrzehntelang Literaturredakteur im Hintergrund großer Zeitungen, während sein eigenes Buch ›Rascal‹ im Stillen zum Welterfolg wurde: ›Der Mann am Schreibtisch mit der Schreibmaschine wirkt nicht wie eine öffentliche Figur, sondern wie ein stiller, arbeitsamer Handwerker der Sprache.‹ Als Warnung dient Wolodymyr Selenskyj: ›Ein Schauspieler, der eine Rolle spielt, bis er selbst nicht mehr weiß, wo die Rolle endet und er anfängt – das ist die Falle der selbsterhaltenden Drei.‹"
       },
       {
         titel: "Aus wenig oder aus dem Nichts ein funktionierendes System bauen",
@@ -50152,6 +50157,132 @@ function carlTanzlerPortraitPage() {
   `);
 }
 
+
+function sterlingNorthPortraitPage() {
+  const galleryItem = (src, alt, caption) => `
+    <figure style="margin:0;">
+      <img src="./assets/portraits/sterling-north-gallery/${src}" alt="${alt}" loading="lazy" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:8px;display:block;border:1px solid var(--border);" />
+      <figcaption style="font-size:0.72rem;color:var(--muted);margin-top:0.3rem;line-height:1.4;">${caption}</figcaption>
+    </figure>
+  `;
+  const galleryGroup = (title, items) => `
+    <div style="margin-bottom:1.4rem;">
+      <p style="font-size:0.78rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--copper);margin:0 0 0.6rem;">${title}</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:0.7rem;">
+        ${items.map(([src, alt, caption]) => galleryItem(src, alt, caption)).join("")}
+      </div>
+    </div>
+  `;
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sterling-north-portrait.jpg" alt="Waschbär" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sterling North</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schriftsteller und Literaturkritiker, 1906&ndash;1974 &ndash; machte den Waschbären mit »Rascal« weltberühmt &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der zum Buch wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kaum ein anderes Porträt in diesem Kompass verbindet Tierentsprechung und Lebensgeschichte so buchstäblich wie dieses: Sterling North, geboren 1906 auf einer Farm bei Edgerton, Wisconsin, schrieb 1963 mit »Rascal – A Memoir of a Better Era« das Buch, das den <strong>Waschbären</strong> als literarische Figur weltweit bekannt machte. Es erzählt, wie er als elfjähriger Junge im Jahr 1918 einen verwaisten Waschbärenjungen aufzog, ihn Rascal nannte und ein Jahr lang mit ihm durch ein ländliches Wisconsin streifte, bevor er ihn – am Ende des Buches – wieder in die Wildnis entließ.</p>
+          <p class="vb-intro">»Rascal« wurde 1964 als Newbery-Honor-Buch ausgezeichnet, war Finalist des National Book Award, wurde in Dutzende Sprachen übersetzt, in Japan als Anime-Serie adaptiert und 1969 von Walt Disney Pictures verfilmt. Bis heute pflegt die »Sterling North Society« in seiner Heimatstadt Edgerton sein Andenken – mit einem Waschbärenkopf als Emblem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist nach Naranjo der Kontratyp der Drei: Statt Selbstinszenierung und Bühne zeigt sich Bescheidenheit, Bodenständigkeit, ein bewusstes Vermeiden des Rampenlichts – während die Energie und der Ehrgeiz der Drei darunter unverändert bleiben. Sterling North lebte dieses Muster über Jahrzehnte: Parallel zu seiner Arbeit als Buchautor war er jahrzehntelang als Literaturredakteur tätig, unter anderem beim Chicago Daily News und später bei der New York Post – eine Position, die Einfluss auf die amerikanische Literaturszene seiner Zeit hatte, ohne dass sein eigener Name im Rampenlicht stand.</p>
+          <p class="vb-intro">Auch seine Fotos zeigen dieses Muster: Der Mann am Schreibtisch mit der Royal-Schreibmaschine, umgeben von Regalen voller Bücher, wirkt nicht wie eine öffentliche Figur, sondern wie ein stiller, arbeitsamer Handwerker der Sprache. Genau darin liegt die stille Wirksamkeit der SE3 – ein System aus Disziplin, Kompetenz und beständiger Arbeit, das über Jahrzehnte trägt, ohne sich selbst zu bewerben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Sehnsucht nach der »besseren Zeit«</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine selbsterhaltende Drei mit schwächer ausgeprägtem Viererflügel hätte aus derselben Kindheitserinnerung vermutlich einen nüchternen, sachlichen Erinnerungsbericht gemacht. Bei Sterling North trat stattdessen eine tiefe emotionale und ästhetische Sensibilität hervor, die sich schon im Untertitel seines bekanntesten Werks zeigt: »A Memoir of a Better Era« – die Erinnerung an eine bessere, unwiederbringliche Zeit. North verarbeitete darin auch den frühen Tod seiner Mutter und das Aufwachsen in einer Familie, die nach diesem Verlust nie wieder ganz zueinanderfand – eine Wehmut, die dem Buch seine literarische Tiefe gibt und es weit über eine bloße Tiergeschichte hinaushebt.</p>
+          <p class="vb-intro">Der Viererflügel zeigt sich auch darin, wie North den Abschied von Rascal am Ende des Buches gestaltet: nicht als Triumph, sondern als schmerzhaften, bewusst angenommenen Verlust – das Loslassen von etwas Geliebtem, weil es so richtig ist. Diese Fähigkeit, Melancholie in etwas Bleibendes, künstlerisch Geformtes zu verwandeln, ist die typische Gabe des Viererflügels bei der sonst so pragmatischen, bodenständigen SE3.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein Leben lang von Waschbären begleitet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was dieses Porträt besonders macht: Sterling North blieb dem Waschbären nicht nur literarisch, sondern auch tatsächlich sein Leben lang verbunden. Zahlreiche private Fotos zeigen ihn als erwachsenen, später alten Mann mit echten Waschbären auf dem Arm, auf der Schulter oder auf dem Kopf – gefüttert, gehalten, offensichtlich mit echter Zuneigung. Das ist keine reine Kunstfigur, sondern ein Mensch, der die Verbindung aus seiner Kindheit zeitlebens aufrechterhielt.</p>
+          <p class="vb-intro">Diese Konstanz – dieselbe Passion über sechzig Jahre hinweg, vom Farmjungen bis zum alten Schriftsteller – ist selbst ein SE3-Muster: eine einmal gefundene, tragfähige Identität wird nicht wieder verworfen, sondern über ein ganzes Leben hinweg gepflegt und ausgebaut, bis eine ganze Gesellschaft (die »Sterling North Society«) daraus entsteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Waschbär, der eine ganze Generation prägte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sterling North starb 1974 in Morristown, New Jersey. Sein Grabstein trägt neben seinem Namen ein Zitat aus »Rascal« selbst: »We are such stuff as dreams are made on and our little life is rounded with a sleep.« Seine Frau Gladys Buchanan North, mit der er jahrzehntelang verheiratet war, ist auf demselben Stein als »beloved wife, companion and helpmeet« verewigt.</p>
+          <p class="vb-intro">Der Waschbär als Tier der selbsterhaltenden Drei steht für unauffällige Kompetenz, die im Verborgenen etwas Tragfähiges aufbaut. Bei Sterling North wurde aus dieser stillen Beständigkeit – einem Jahr mit einem jungen Waschbären, sorgfältig und mit Viererflügel-Tiefe in Worte gefasst – ein Buch, das bis heute, mehr als sechzig Jahre später, Millionen Leser weltweit für dieses kluge, neugierige Tier begeistert.</p>
+        </blockquote>
+
+        <details style="margin-top:1.8rem;border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;">&#128247;</span>
+            <span style="flex:1;">Bildergalerie: Sterling North und Rascal (22 Fotos)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.4rem;">
+            <p style="font-size:0.85rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.55;">Eine dokumentarische Sammlung aus verschiedenen Lebensphasen Sterling Norths, Ausgaben und Adaptionen von »Rascal« sowie dem bis heute bestehenden Andenken der Sterling North Society in Edgerton, Wisconsin.</p>
+
+            ${galleryGroup("Familie, Schreibtisch und Alltag", [
+              ["sterling-north-01-familie.jpg", "Familienfotos Sterling North", "Familienfotos aus verschiedenen Lebensabschnitten"],
+              ["sterling-north-02-schreibtisch.jpg", "Sterling North an der Schreibmaschine", "Am Schreibtisch, mit seiner Royal-Schreibmaschine"],
+              ["sterling-north-03-ehefrau.jpg", "Sterling North mit seiner Frau Gladys", "Mit seiner Frau Gladys Buchanan North"],
+              ["sterling-north-04-angeln.jpg", "Sterling North beim Angeln", "Beim Angeln – ein Leben in ländlicher Umgebung"],
+              ["sterling-north-05-portraet.jpg", "Porträtfoto Sterling North", "Porträtaufnahme"],
+            ])}
+
+            ${galleryGroup("Sterling North mit echten Waschbären", [
+              ["sterling-north-06-mit-waschbaer.jpg", "Sterling North mit Waschbär auf der Schulter", "Mit einem Waschbären auf der Schulter"],
+              ["sterling-north-07-fuetterung.jpg", "Sterling North füttert Waschbärenjunge", "Beim Füttern zweier Waschbärenjungen"],
+              ["sterling-north-08-waschbaeren-kopf.jpg", "Sterling North mit zwei Waschbären auf dem Kopf", "Zwei Waschbären auf dem Kopf – ein Leben lang verbunden"],
+              ["sterling-north-09-fuetterung-nah.jpg", "Sterling North füttert einen Waschbären aus der Hand", "Handfütterung, Nahaufnahme"],
+              ["sterling-north-10-mit-zwei-waschbaeren.jpg", "Sterling North mit zwei Waschbären im Arm", "Mit zwei jungen Waschbären im Arm"],
+            ])}
+
+            ${galleryGroup("Rascal – Buchausgaben und Illustrationen", [
+              ["sterling-north-11-buchillustration.jpg", "Illustration Junge mit Waschbär", "Illustration des Jungen mit Rascal auf der Schulter"],
+              ["sterling-north-12-cover-puffin.jpg", "Rascal, Puffin-Ausgabe", "Buchcover, Puffin-Ausgabe"],
+              ["sterling-north-13-cover-scholastic.jpg", "Rascal, Scholastic-Ausgabe", "Buchcover, Scholastic-Ausgabe"],
+              ["sterling-north-14-cover-memoir.jpg", "Rascal, Memoir-Ausgabe", "Buchcover, Erstausgaben-Gestaltung »A Memoir of a Better Era«"],
+              ["sterling-north-15-cover-fahrrad.jpg", "Rascal, Ausgabe mit Fahrrad-Motiv", "Buchcover, Junge mit Rascal auf dem Fahrrad"],
+              ["sterling-north-18-cover-newbery.jpg", "Rascal, Newbery-Honor-Ausgabe", "Buchcover, Newbery-Honor-Ausgabe"],
+              ["sterling-north-19-cover-blau.jpg", "Rascal, Ausgabe in Blau", "Buchcover, historisierende Fotomontage"],
+            ])}
+
+            ${galleryGroup("Verfilmung, Vermächtnis und die Sterling North Society", [
+              ["sterling-north-16-grabstein.jpg", "Grabstein der Familie North", "Grabstein der Familie North"],
+              ["sterling-north-17-anime.jpg", "Anime-Adaption von Rascal", "Anime-Adaption (Nippon Animation, Japan)"],
+              ["sterling-north-20-emblem.jpg", "Emblem der Sterling North Society", "Emblem der Sterling North Society, Edgerton WI"],
+              ["sterling-north-21-society-collage.jpg", "Fotocollage der Sterling North Society", "Aktuelle Treffen und Aktivitäten der Sterling North Society"],
+              ["sterling-north-22-disney-dvd.jpg", "Disney-Verfilmung Rascal, DVD-Cover", "DVD-Cover der Disney-Verfilmung von 1969"],
+            ])}
+          </div>
+        </details>
+
+        <blockquote class="vb-blockquote" style="margin-top:1.5rem;">
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+          {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+          {route:"tierlexikon/se3", label:"Tierlexikon: Waschbär"},
+          {route:"beruehmte-kathrin-bauerfeind", label:"Porträt: Kathrin Bauerfeind (SE3w4)"},
+          {route:"beruehmte-anna-anderson", label:"Porträt: Anna Anderson (SE3w4)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
 
 function helmutKohlPortraitPage() {
   return shell(`
@@ -91485,6 +91616,7 @@ function render() {
     "beruehmte-marie-curie": marieCuriePortraitPage,
     "beruehmte-rene-descartes": reneDescartesPortraitPage,
     "beruehmte-carl-tanzler": carlTanzlerPortraitPage,
+    "beruehmte-sterling-north": sterlingNorthPortraitPage,
     "beruehmte-hermann-hesse": hermannHessePortraitPage,
     "beruehmte-adam-smith": adamSmithPortraitPage,
     "beruehmte-xanthippe": xanthippePortraitPage,
