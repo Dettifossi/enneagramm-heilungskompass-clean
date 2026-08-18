@@ -42510,7 +42510,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Wenn das Verlangen nach exklusiver Nähe zum Besitzanspruch über den anderen kippt (Schattenform)",
         beschreibung: "In der destruktiven Ausprägung wird aus dem Wunsch nach der einen, tiefen Verbindung ein Anspruch, den anderen vollständig für sich zu besitzen und zu kontrollieren – bis zur völligen Auslöschung von dessen eigenständiger Existenz.",
-        beleg: "Jeffrey Dahmer: ›Er wollte seine Opfer nicht vernichten – er wollte sie besitzen‹; Joel Rifkin, der äußerlich als unauffälliger Bewohner eines stillen Vororts lebte, während er über Jahre in völliger Verborgenheit mordete. Wichtig: Diese beiden Fälle sind seltene, extreme Ausnahmen unter den 11 SX5-Porträts dieses Kompasses, keine typische Ausprägung."
+        beleg: "Jeffrey Dahmer: ›Er wollte seine Opfer nicht vernichten – er wollte sie besitzen‹; Joel Rifkin, der äußerlich als unauffälliger Bewohner eines stillen Vororts lebte, während er über Jahre in völliger Verborgenheit mordete. Wichtig: Diese beiden Fälle sind seltene, extreme Ausnahmen unter den SX5-Porträts dieses Kompasses, keine typische Ausprägung."
       }
     ]
   },
@@ -42564,7 +42564,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Wenn sich die unsichtbare Intensität der Isolation zu etwas Unumkehrbarem verdichtet (Schattenform)",
         beschreibung: "In der destruktiven Ausprägung wird dieselbe stille, von außen kaum sichtbare Intensität nicht zur Erkenntnis, sondern zu einer obsessiven Fixierung, die sich über Jahre unbemerkt aufbaut, bis sie in etwas Extremes und Unumkehrbares kippt.",
-        beleg: "Carl Tanzler: ›Die Eule beobachtet aus der Distanz und hortet, was sie fesselt, mit einer Intensität, die von außen unsichtbar bleibt, bis sie sich in etwas Unumkehrbares verwandelt‹ – er bewahrte den Leichnam einer Toten sieben Jahre lang auf; Joachim Kroll, der seinen Nachbarn als ›stiller, unauffälliger, fast kindlicher Mann‹ auffiel, während er über zwei Jahrzehnte unentdeckt mordete. Wichtig: Diese beiden Fälle sind seltene, extreme Ausnahmen unter den 13 SE5-Porträts dieses Kompasses, keine typische Ausprägung."
+        beleg: "Carl Tanzler: ›Die Eule beobachtet aus der Distanz und hortet, was sie fesselt, mit einer Intensität, die von außen unsichtbar bleibt, bis sie sich in etwas Unumkehrbares verwandelt‹ – er bewahrte den Leichnam einer Toten sieben Jahre lang auf; Joachim Kroll, der seinen Nachbarn als ›stiller, unauffälliger, fast kindlicher Mann‹ auffiel, während er über zwei Jahrzehnte unentdeckt mordete. Wichtig: Diese beiden Fälle sind seltene, extreme Ausnahmen unter den SE5-Porträts dieses Kompasses, keine typische Ausprägung."
       }
     ]
   },
@@ -42618,7 +42618,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Wenn die Sehnsucht nach Zugehörigkeit auf ganzer Linie scheitert (Schattenform)",
         beschreibung: "In der destruktivsten Ausprägung führt das lebenslange Gefühl des Ausgeschlossenseins nicht zu Kunst oder produktiver Abgrenzung, sondern zu einer Verzweiflung, die sich nach außen in zerstörerischer Wut entlädt.",
-        beleg: "Elliot Rodger: ›Ein Panzer aus Stolz, tief innen eine unerträgliche Sehnsucht nach Zugehörigkeit, und kein Weg, diese beiden Pole zu versöhnen … Er beobachtete andere Jugendliche beim Dazugehören und verstand nicht, warum er keinen Zugang fand.‹ Wichtig: Dies ist der einzige Fall dieser Art unter den 14 SO4-Porträts dieses Kompasses – eine seltene, tragische Extremform, keine typische Ausprägung."
+        beleg: "Elliot Rodger: ›Ein Panzer aus Stolz, tief innen eine unerträgliche Sehnsucht nach Zugehörigkeit, und kein Weg, diese beiden Pole zu versöhnen … Er beobachtete andere Jugendliche beim Dazugehören und verstand nicht, warum er keinen Zugang fand.‹ Wichtig: Dies ist der einzige bekannte Fall dieser Art unter den SO4-Porträts dieses Kompasses – eine seltene, tragische Extremform, keine typische Ausprägung."
       }
     ]
   },
@@ -42726,7 +42726,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Verführung als Machtinstrument, das sich abrupt gegen das Objekt der Zuwendung wenden kann (Schattenform)",
         beschreibung: "In der destruktiven Ausprägung wird dieselbe vollständige, intensive Hingabe zum Druckmittel: Bleibt die erwartete Gegenleistung – Nähe, Anerkennung, Bindung – aus, kann aus derselben Zuwendung eine ebenso vollständige, kompromisslose Kehrtwende werden.",
-        beleg: "Pamela Smart: ›Das Kamel gibt alles … Aber es ist kein zahmes Tier. Wer es unterschätzt, wer glaubt, es dauerhaft ausnutzen zu können, erlebt eine andere Seite: das Kamel beißt, spuckt, bricht aus.‹ Sie gab einem 15-Jährigen ›das Gefühl, das Wichtigste auf der Welt zu sein‹ – ›und als sie bekam, was sie brauchte, war ihre Gabe zugleich das giftigste Mittel, das sie einsetzen konnte.‹ Wichtig: Dies ist die einzige Extremform unter den neun SX2-Porträts dieses Kompasses, keine typische Ausprägung."
+        beleg: "Pamela Smart: ›Das Kamel gibt alles … Aber es ist kein zahmes Tier. Wer es unterschätzt, wer glaubt, es dauerhaft ausnutzen zu können, erlebt eine andere Seite: das Kamel beißt, spuckt, bricht aus.‹ Sie gab einem 15-Jährigen ›das Gefühl, das Wichtigste auf der Welt zu sein‹ – ›und als sie bekam, was sie brauchte, war ihre Gabe zugleich das giftigste Mittel, das sie einsetzen konnte.‹ Wichtig: Dies ist die einzige bekannte Extremform unter den SX2-Porträts dieses Kompasses, keine typische Ausprägung."
       }
     ]
   },
