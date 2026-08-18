@@ -50190,7 +50190,7 @@ function sterlingNorthPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär, der zum Buch wurde</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Kaum ein anderes Porträt in diesem Kompass verbindet Tierentsprechung und Lebensgeschichte so buchstäblich wie dieses: Sterling North, geboren 1906 auf einer Farm bei Edgerton, Wisconsin, schrieb 1963 mit »Rascal – A Memoir of a Better Era« das Buch, das den <strong>Waschbären</strong> als literarische Figur weltweit bekannt machte. Es erzählt, wie er als elfjähriger Junge im Jahr 1918 einen verwaisten Waschbärenjungen aufzog, ihn Rascal nannte und ein Jahr lang mit ihm durch ein ländliches Wisconsin streifte, bevor er ihn – am Ende des Buches – wieder in die Wildnis entließ.</p>
+          <p class="vb-intro">Kaum ein anderes Porträt in diesem Kompass verbindet Tierentsprechung und Lebensgeschichte so buchstäblich wie dieses: Sterling North, geboren 1906 auf einer Farm bei Edgerton, Wisconsin, schrieb 1963 mit »Rascal – A Memoir of a Better Era« das Buch, das den <strong>Waschbären</strong> als literarische Figur weltweit bekannt machte. Es erzählt, wie er als elfjähriger Junge im Jahr 1918 ein verwaistes Waschbärenjunges aufzog, es Rascal nannte und ein Jahr lang mit ihm durch ein ländliches Wisconsin streifte, bevor er es – am Ende des Buches – wieder in die Wildnis entließ.</p>
           <p class="vb-intro">»Rascal« wurde 1964 als Newbery-Honor-Buch ausgezeichnet, war Finalist des National Book Award, wurde in Dutzende Sprachen übersetzt, in Japan als Anime-Serie adaptiert und 1969 von Walt Disney Pictures verfilmt. Bis heute pflegt die »Sterling North Society« in seiner Heimatstadt Edgerton sein Andenken – mit einem Waschbärenkopf als Emblem.</p>
         </blockquote>
 
@@ -50214,7 +50214,7 @@ function sterlingNorthPortraitPage() {
 
         <h2 class="vb-section">5. Der Waschbär, der eine ganze Generation prägte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Sterling North starb 1974 in Morristown, New Jersey. Sein Grabstein trägt neben seinem Namen ein Zitat aus »Rascal« selbst: »We are such stuff as dreams are made on and our little life is rounded with a sleep.« Seine Frau Gladys Buchanan North, mit der er jahrzehntelang verheiratet war, ist auf demselben Stein als »beloved wife, companion and helpmeet« verewigt.</p>
+          <p class="vb-intro">Sterling North starb 1974 in Morristown, New Jersey. Sein Grabstein trägt neben seinem Namen ein Zitat aus »Rascal« selbst: »We are such stuff as dreams are made on and our little life is rounded with a sleep.« (deutsch: »Wir sind aus dem Stoff, aus dem Träume sind, und unser kurzes Leben ist von einem Schlaf umschlossen.«). Seine Frau Gladys Buchanan North, mit der er jahrzehntelang verheiratet war, ist auf demselben Stein als »beloved wife, companion and helpmeet« verewigt (deutsch: »geliebte Ehefrau, Gefährtin und treue Stütze«).</p>
           <p class="vb-intro">Der Waschbär als Tier der selbsterhaltenden Drei steht für unauffällige Kompetenz, die im Verborgenen etwas Tragfähiges aufbaut. Bei Sterling North wurde aus dieser stillen Beständigkeit – einem Jahr mit einem jungen Waschbären, sorgfältig und mit Viererflügel-Tiefe in Worte gefasst – ein Buch, das bis heute, mehr als sechzig Jahre später, Millionen Leser weltweit für dieses kluge, neugierige Tier begeistert.</p>
         </blockquote>
 
@@ -50223,7 +50223,7 @@ function sterlingNorthPortraitPage() {
                           background:var(--paper);list-style:none;user-select:none;font-weight:700;
                           font-size:0.95rem;color:var(--ink);">
             <span style="font-size:1.2rem;">&#128247;</span>
-            <span style="flex:1;">Bildergalerie: Sterling North und Rascal (22 Fotos)</span>
+            <span style="flex:1;">Bildergalerie: Sterling North und Rascal (21 Fotos)</span>
             <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
           </summary>
           <div style="padding:1rem 1.2rem 1.4rem;">
@@ -50238,7 +50238,6 @@ function sterlingNorthPortraitPage() {
             ])}
 
             ${galleryGroup("Sterling North mit echten Waschbären", [
-              ["sterling-north-06-mit-waschbaer.jpg", "Sterling North mit Waschbär auf der Schulter", "Mit einem Waschbären auf der Schulter"],
               ["sterling-north-07-fuetterung.jpg", "Sterling North füttert Waschbärenjunge", "Beim Füttern zweier Waschbärenjungen"],
               ["sterling-north-08-waschbaeren-kopf.jpg", "Sterling North mit zwei Waschbären auf dem Kopf", "Zwei Waschbären auf dem Kopf – ein Leben lang verbunden"],
               ["sterling-north-09-fuetterung-nah.jpg", "Sterling North füttert einen Waschbären aus der Hand", "Handfütterung, Nahaufnahme"],
@@ -50256,11 +50255,11 @@ function sterlingNorthPortraitPage() {
             ])}
 
             ${galleryGroup("Verfilmung, Vermächtnis und die Sterling North Society", [
-              ["sterling-north-16-grabstein.jpg", "Grabstein der Familie North", "Grabstein der Familie North"],
               ["sterling-north-17-anime.jpg", "Anime-Adaption von Rascal", "Anime-Adaption (Nippon Animation, Japan)"],
-              ["sterling-north-20-emblem.jpg", "Emblem der Sterling North Society", "Emblem der Sterling North Society, Edgerton WI"],
-              ["sterling-north-21-society-collage.jpg", "Fotocollage der Sterling North Society", "Aktuelle Treffen und Aktivitäten der Sterling North Society"],
               ["sterling-north-22-disney-dvd.jpg", "Disney-Verfilmung Rascal, DVD-Cover", "DVD-Cover der Disney-Verfilmung von 1969"],
+              ["sterling-north-20-emblem.jpg", "Emblem der Sterling North Society", "Emblem der Sterling North Society, Edgerton WI"],
+              ["sterling-north-16-grabstein.jpg", "Grabstein der Familie North", "Grabstein der Familie North"],
+              ["sterling-north-21-society-collage.jpg", "Fotocollage der Sterling North Society", "Aktuelle Treffen und Aktivitäten der Sterling North Society – die Gesellschaft besteht bis heute"],
             ])}
           </div>
         </details>
