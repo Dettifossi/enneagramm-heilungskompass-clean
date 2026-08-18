@@ -129,7 +129,7 @@
     <script src="data/quiz.js?v=1"></script>
     <script src="data/zitate.js?v=1"></script>
     <script src="data/changelog.js?v=265"></script>
-    <script type="module" src="bundle.js?v=inhalt-v1343"></script>
+    <script type="module" src="bundle.js?v=inhalt-v1344"></script>
     <script>
       if ("serviceWorker" in navigator) {
         // Nur neu laden wenn vorher schon ein SW aktiv war (nicht beim ersten Start nach Cache-Leerung)
@@ -144,6 +144,14 @@
         // SW registrieren und sofort auf Update prüfen
         navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })
           .then(reg => reg.update());
+        // iOS-Homescreen-Apps: Beim Zurückkehren aus dem Hintergrund wird die Seite oft nur
+        // aus dem bfcache reaktiviert (kein echter Reload) – dadurch prüft der obige Code nie
+        // erneut auf Updates. pageshow mit persisted=true erkennt genau diesen Fall und erzwingt
+        // dann einen echten Reload, damit neue Inhalte zuverlässig ankommen.
+        window.addEventListener('pageshow', e => {
+          if (e.persisted) { window.location.reload(); return; }
+          navigator.serviceWorker.getRegistration().then(reg => reg && reg.update());
+        });
       }
     </script>
   </body>
