@@ -1160,6 +1160,7 @@ export const registerEntriesEN = [
   { term: "Poisons of the Mind", route: "gifte-des-geistes", description: "Diagram: overview of the 9 main passions" },
   { term: "Main Focus of Consciousness", route: "hauptfokus-des-bewusstseins-der-9-typen", description: "What the inner camera of each type automatically aims at: the characteristic focuses of consciousness of the 9 types." },
   { term: "Dynamics of the State of Consciousness", route: "dynamik-des-bewusstseinszustandes", description: "The 9 levels of consciousness (degrees of consciousness) of all 9 Enneagram types — from completely unconscious to completely conscious." },
+  { term: "Levels of Consciousness & the Gaussian Normal Distribution", route: "bewusstseinsgrad-normalverteilung", description: "Why consciousness distributes like a bell curve – healthy middle range, rare extremes, lifelong movement." },
   { term: "Psychological Defensive Behavior", route: "psychologisches-abwehrverhalten-der-9-typen", description: "Repression, projection, introjection & Co.: the 9 defense mechanisms of the Enneagram types explained in detail." },
   { term: "Therapeutic Fasting of the 9 Types", route: "heilfasten-der-9-typen", description: "9 fasting days as a journey through the 9 Enneagram principles: states of mind, thoughts, feelings, body." },
   { term: "Psychological Behavioral Patterns", route: "psychologische-verhaltensmuster-der-9-typen", description: "Deep personality patterns of the 9 types: compulsive, narcissistic, passive-aggressive and many more — with triad assignment." },
