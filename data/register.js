@@ -386,6 +386,7 @@ export const registerEntries = [
 
   // Tierlexikon
   { term: "Tierlexikon",               route: "tierlexikon",            description: "Das vollständige Tierlexikon: alle 27 Tierarchetypn mit Bedeutung, Qualitäten und Instinktzuordnung" },
+  { term: "Lebensmusterkompass",       route: "lebensmusterkompass",    description: "Biografische Fingerabdrücke der 27 Subtypen – wiederkehrende Muster aus 350+ Fallporträts" },
 
   { term: "Wetter- und Naturphänomene der 9 Typen", route: "wetter-naturphaenomene-der-9-typen", description: "Archetypische Wetter- und Naturphänomen-Entsprechungen für jeden Enneagrammtyp" },
   { term: "Architektur & Raumgestaltung der 9 Typen", route: "architektur-raumgestaltung-der-9-typen", description: "Archetypische Baustile und Raumgestaltungen für jeden Enneagrammtyp" },
