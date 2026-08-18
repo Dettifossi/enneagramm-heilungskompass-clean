@@ -35448,7 +35448,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "When the same pattern becomes an instrument of power instead of service (shadow form)",
         beschreibung: "In its destructive expression, gathered knowledge or a controlled structure becomes not a gift to the community, but a means of control used over others or against them.",
-        beleg: "Bill Gates: 'Behind the friendly sweater ... lies a pattern that runs through his whole life: systematic control over what others need ... The totem as an instrument of power'; Dr. Harold Shipman, who as a trusted family doctor used his medical knowledge to kill at least 218 patients over two decades; Dr. Ted Kaczynski, who directed universal erudition against the society he believed he was saving. Important: Gates' case is critical, not criminal, and by no means to be equated with Shipman or Kaczynski – yet all three show the same underlying structure at very different degrees of severity."
+        beleg: "Bill Gates: 'Behind the friendly sweater ... lies a pattern that runs through his whole life: systematic control over what others need ... The totem as an instrument of power'; Dr. Harold Shipman, who as a trusted family doctor used his medical knowledge to kill at least 218 patients over two decades; Dr. Ted Kaczynski, who directed universal erudition against the society he believed he was saving. Important: Gates' case sits on a completely different scale than Shipman or Kaczynski and is by no means to be equated with them – yet all three show the same underlying structure at very different degrees of severity."
       }
     ]
   },
@@ -35901,7 +35901,7 @@ function lebensmusterkompassPage() {
       <div class="page-content">
         <p class="eyebrow">Knowledge &middot; Life Pattern Compass</p>
         <h1 class="section-title">Life Pattern Compass</h1>
-        <img src="assets/lebensmusterkompass-hero.jpg?v=2" alt="Life Pattern Compass – biographical fingerprints" style="width:100%;height:auto;border-radius:12px;margin:0.8rem 0 1.4rem;display:block;" loading="lazy" />
+        <img src="../assets/lebensmusterkompass-hero.jpg?v=2" alt="Life Pattern Compass – biographical fingerprints" style="width:100%;height:auto;border-radius:12px;margin:0.8rem 0 1.4rem;display:block;" loading="lazy" />
         <p class="psycho-intro">Biographical fingerprints of the 27 subtypes &ndash; recurring identifying traits worked out from the internal analysis of every case portrait in this compass (Famous Personalities, gripping criminal-psychology cases, and further portraits, e.g. from Astrology meets Enneagram).</p>
 
         <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
