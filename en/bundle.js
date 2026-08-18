@@ -912,6 +912,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mahatma Gandhi – Self-Preservation Type 6",
     teaser:"SP6w5 · 1869–1948. Indian lawyer and freedom fighter. Ahimsa, Satyagraha, nonviolent resistance against British colonial rule. The rabbit that turned its apparent defenselessness into unassailable strength and shook an empire.",
     tags:["Politics","History"], gender:"m"},
+{ route:"beruehmte-anne-mcbride", name:"Dr. Anne McBride", added:"2026-08-19", subtyp:"SE6w5",
+    heading:"Dr. Anne McBride – Self-Preservation Type 6",
+    teaser:"SE6w5 · British behavioural scientist, Senior Lecturer in Southampton, chair of the International Society for Anthrozoology. Earned her doctorate on the social and parental behaviour of the European wild rabbit, and has since translated animals' fear and safety needs into clear behavioural guidelines. Animal correspondence: Rabbit.",
+    tags:["Wissenschaft"], gender:"f"},
 { route:"beruehmte-beatrice-chebet", name:"Beatrice Chebet", subtyp:"SE6w7",
     heading:"Beatrice Chebet – Self-Preservation Type 6",
     teaser:"SP6w7 · born 2000. Kenyan long-distance runner. Double Olympic champion Paris 2024. The rabbit that does not flee the course – but finds home upon it.",
@@ -4773,6 +4777,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-mariella-superina", name:"Dr. Mariella Superina", subtyp:"SO4w5", tier:"Armadillo"},
   {route:"beruehmte-ingo-zimmermann", name:"Prof. Dr. Ingo Zimmermann", subtyp:"SE5w4", tier:"Owl"},
   {route:"beruehmte-hugh-warwick", name:"Hugh Warwick", subtyp:"SX5w4", tier:"Hedgehog"},
+  {route:"beruehmte-anne-mcbride", name:"Dr. Anne McBride", subtyp:"SE6w5", tier:"Rabbit"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -28830,6 +28835,67 @@ function hughWarwickPortraitPage() {
   `);
 }
 
+function anneMcBridePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-anne-mcbride-portrait.jpg" alt="Rabbit" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Anne McBride</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Behavioural scientist &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The rabbit who spent a lifetime researching the rabbit's fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> is the animal of the Self-Preservation Six &ndash; vigilant, safety-conscious, always ready to spot a threat early, before it becomes a danger. Few academic bodies of work show this principle as directly as that of Dr. Anne McBride: she devoted her entire doctorate at University College London to the social and parental behaviour of the European wild rabbit &ndash; making her own archetypal animal, of all things, the subject of years of scholarly devotion.</p>
+          <p class="vb-intro">She has practiced as a behavioural therapist since 1987, led the University of Southampton's Animal Behaviour Clinic from 1999 to 2009, and has chaired the International Society for Anthrozoology since 1991. Over a hundred scientific publications carry her name &ndash; a life's work built on methodical thoroughness rather than spectacular single discoveries.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Six: security through anchored expertise</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Six (SE6)</strong> seeks security not through a single, risky grand gesture, but through a dense web of reliable, multiply-secured structures &ndash; knowledge, institutions, affiliations that together form a sturdy foundation. McBride's career reads like a textbook example of this pattern: simultaneous honorary professorships in Nottingham and Bristol, decades chairing an international academic society, memberships in multiple professional bodies &ndash; security anchored in many places rather than risked in one.</p>
+          <p class="vb-intro">Her entire research program circles around this very theme in content, too: she investigates how fear and safety needs arise in animals &ndash; rabbits, guinea pigs, the dogs of homeless people &ndash; and translates these findings into clear, applicable behavioural guidelines for owners. The Self-Preservation Six has, quite literally, made its own core theme its profession.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: matter-of-factness instead of a stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Six an analytical reserve &ndash; security here arises not through warmth and building rapport with an audience, but through sober, well-grounded factuality. In recorded lectures, McBride accordingly comes across as reserved and highly focused on the facts: instead of anecdotes or humor, she spends minutes precisely detailing the various subspecies of the rabbit sitting beside her.</p>
+          <p class="vb-intro">This clearly distinguishes her from the warmer, connection-seeking Seven-wing of the same Six: her path to security runs not through likability and audience belonging, but through the unassailable reliability of verified expertise itself &ndash; a withdrawn, observant stance in service of the subject, not of her own stage presence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE6w5 is its ability to <strong>systematically research its own fear and distill it into reliable, practically applicable knowledge</strong> &ndash; McBride's work has substantially shaped the understanding of animal welfare and species-appropriate care of small companion animals, and continues to protect countless animals from avoidable suffering caused by misunderstood housing conditions.</p>
+          <p class="vb-intro">The shadow of the Self-Preservation Six with a Five-wing shows in a certain emotional distance outward: where other science communicators deliberately cultivate closeness and entertainment, McBride stays entirely with the factual &ndash; security through precision, not through connection. This may come across as less engaging on stage, but it is precisely the consequence of the same thoroughness that makes her research so reliable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The rabbit that gave the rabbit's fear a voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What McBride gives the world is not a single spectacular work, but a broadly secured foundation of knowledge about animal behaviour and welfare, built over decades &ndash; exactly the kind of security a Self-Preservation Six understands from the ground up, because it needs it itself.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a woman whose archetypal animal is the rabbit, who devoted her entire academic career to that one watchful, safety-conscious animal &ndash; and, apparently unconsciously, researched her own deepest theme along the way.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
+        {route:"beruehmte-mahatma-gandhi", label:"Portrait: Mahatma Gandhi (SE6w5)"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fyodor Dostoevsky (SE6w5)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-anne-mcbride")}
+    </div>
+  `);
+}
+
 function julesVernePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -35993,12 +36059,12 @@ const LEBENSMUSTERKOMPASS = {
   SE6: {
     tier: "Rabbit",
     kernthema: "Constant alertness to danger, security sought in the familiar (Naranjo: Warmth)",
-    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List"],
+    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride"],
     fingerabdruecke: [
       {
         titel: "Perceiving danger earlier than others – constant, active alertness",
         beschreibung: "The senses are continuously oriented toward possible threats. This often makes it possible to foresee developments before they become visible to others – not out of anxiety in the negative sense, but as constantly active risk assessment.",
-        beleg: "Herbert Kickl: 'It hears earlier, smells earlier, senses earlier than others when something is wrong'; Sundar Pichai: 'It listens before it moves ... stays calm exactly when others panic, because it analyzed the situation long before it escalated'; Malaika Mihambo, whose long jump is a 'controlled explosion': 'When it does jump, it's only after carefully weighing the ground, the distance, the danger.'"
+        beleg: "Herbert Kickl: 'It hears earlier, smells earlier, senses earlier than others when something is wrong'; Sundar Pichai: 'It listens before it moves ... stays calm exactly when others panic, because it analyzed the situation long before it escalated'; Malaika Mihambo, whose long jump is a 'controlled explosion': 'When it does jump, it's only after carefully weighing the ground, the distance, the danger'; Dr. Anne McBride, whose entire research asks how fear and safety needs arise in animals – and who translates these findings into clear, applicable behavioural guidelines."
       },
       {
         titel: "Security in the familiar rather than on the big stage",
@@ -57676,6 +57742,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-paris-hilton": parisHiltonPortraitPage,
       "beruehmte-ingo-zimmermann": ingoZimmermannPortraitPage,
       "beruehmte-hugh-warwick": hughWarwickPortraitPage,
+      "beruehmte-anne-mcbride": anneMcBridePortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
