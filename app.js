@@ -48231,7 +48231,7 @@ function hughWarwickPortraitPage() {
         <h2 class="vb-section">4. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SX5w4 ist die Fähigkeit, <strong>eine private, fast obsessive Leidenschaft in eine öffentlich wirksame Schutzbewegung</strong> zu verwandeln &ndash; Warwicks Kampagne für gesetzlich verpflichtende "Igelautobahnen" in britischen Neubaugebieten sammelte eine Petition mit fast einer Million Unterschriften und internationale Aufmerksamkeit für ein Tier, das ohne solche Fürsprecher leicht übersehen wird.</p>
-          <p class="vb-intro">Der Schatten der sexuellen Fünf mit Viererflügel zeigt sich darin, wie eng die eigene Identität an ein einziges, sehr spezielles Thema gebunden werden kann &ndash; sein eigener Social-Media-Name "hedgehoghugh" macht deutlich, wie vollständig der Igel seine öffentliche Person definiert. Eine derart exklusive Bindung trägt weit, aber sie lässt wenig Raum für ein Selbst jenseits dieser einen Leidenschaft.</p>
+          <p class="vb-intro">Der Schatten der sexuellen Fünf mit Viererflügel zeigt sich darin, wie eng die eigene Identität an ein einziges, sehr spezielles Thema gebunden werden kann &ndash; sein eigener Social-Media-Name "Hedgehog-Hugh" macht deutlich, wie vollständig der Igel seine öffentliche Person definiert. Eine derart exklusive Bindung trägt weit, aber sie lässt wenig Raum für ein Selbst jenseits dieser einen Leidenschaft.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Der Igel, der die Welt für den Igel bereist</h2>
