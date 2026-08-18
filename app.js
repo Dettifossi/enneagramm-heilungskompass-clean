@@ -31845,6 +31845,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nikola Tesla \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 1856\u20131943. Erfinder, Ingenieur. Wechselstrom, Wardenclyffe Tower, Stromkrieg mit Edison. Die Taube, die f\u00fcr die ganze Menschheit erfand und am Ende nur noch eine einzelne wei\u00dfe Taube liebte. Tierentsprechung: Taube.",
     tags:["Wissenschaft","Geschichte"], gender:"m"},
+  { route:"beruehmte-derek-goodwin", name:"Derek Goodwin", added:"2026-08-18", subtyp:"SE4w5",
+    heading:"Derek Goodwin \u2013 Selbsterhaltender Typ 4",
+    teaser:"SE4w5 \u00b7 1920\u20132008. Britischer Ornithologe am Natural History Museum London, Standardwerke \u00fcber Tauben, Kr\u00e4hen und Prachtfinken. Ein Leben im Hintergrund, gewidmet ausgerechnet dem eigenen archetypischen Tier. Tierentsprechung: Taube.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
     heading:"Romy Schneider \u2013 Sozialer Typ 4",
     teaser:"SO4w3 \u00b7 1938\u20131982. Schauspielerin. Sissi, C\u00e9sar und Rosalie, La Piscine. Das G\u00fcrteltier, das im Licht stand \u2013 und sich innerlich immer einrollte.",
@@ -35221,6 +35225,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-winifred-charlesworth", name:"Mrs. Winifred Charlesworth", subtyp:"SO2w1", tier:"Golden Retriever"},
   {route:"beruehmte-bernard-faye", name:"Dr. Bernard Faye", subtyp:"SX2w1", tier:"Kamel"},
   {route:"beruehmte-marlene-zuk", name:"Prof. Dr. Marlene Zuk", subtyp:"SX3w4", tier:"Pfau"},
+  {route:"beruehmte-derek-goodwin", name:"Derek Goodwin", subtyp:"SE4w5", tier:"Taube"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42909,12 +42914,12 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Taube",
     kernthema: "Tiefes Gefühlsleben, das nicht zur Schau gestellt, sondern still, zäh und beharrlich getragen wird",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin"],
     fingerabdruecke: [
       {
         titel: "Tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still verarbeitet wird",
         beschreibung: "Anders als bei den lauteren Vierer-Subtypen zeigt sich der innere Schmerz oder die innere Tiefe kaum nach außen. Die Verarbeitung geschieht in stiller, oft jahrzehntelanger Beharrlichkeit – ohne Applaus für das eigene Ringen zu suchen.",
-        beleg: "Sam Altman und Leo Tolstoi werden fast wortgleich beschrieben: ›Sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus für ihr inneres Ringen‹; Paul McCartney, über dessen ›tiefstes Inneres man erstaunlich wenig weiß‹, obwohl er über sechzig Jahre öffentlich wirkte; Clemens G. Arvay, dessen Werk ›kein Drama, keine Selbstinszenierung, aber eine Botschaft, die trägt und bleibt‹ war."
+        beleg: "Sam Altman und Leo Tolstoi werden fast wortgleich beschrieben: ›Sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus für ihr inneres Ringen‹; Paul McCartney, über dessen ›tiefstes Inneres man erstaunlich wenig weiß‹, obwohl er über sechzig Jahre öffentlich wirkte; Clemens G. Arvay, dessen Werk ›kein Drama, keine Selbstinszenierung, aber eine Botschaft, die trägt und bleibt‹ war; Derek Goodwin, dessen Standardwerke über Tauben, Krähen und Prachtfinken Generationen von Ornithologen prägten, während er selbst als ›stiller Experte im Hintergrund‹ so unsichtbar blieb, dass sich von ihm kaum ein Foto findet."
       },
       {
         titel: "Zähigkeit trotz Verletzlichkeit – trägt weiter, kehrt zurück, wo andere aufgeben würden",
@@ -47854,7 +47859,69 @@ function nikolaTeslaPortraitPage() {
         {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
         {route:"beruehmte-sam-altman", label:"Porträt: Sam Altman (SE4w5)"},
+        {route:"beruehmte-derek-goodwin", label:"Porträt: Derek Goodwin (SE4w5)"},
       ])}
+    </div>
+  `);
+}
+
+function derekGoodwinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-derek-goodwin-portrait.jpg" alt="Taube" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Derek Goodwin</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Ornithologe, 1920&ndash;2008 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die ihr Leben der Taube widmete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier &ndash; sie zieht sich zurück ins Stille, Beharrliche, verarbeitet ihr inneres Erleben nicht öffentlich, sondern in jahrzehntelanger, unauffälliger Hingabe an eine ganz eigene Sache. Kaum ein Leben zeigt dieses Muster so buchstäblich wie das von Derek Goodwin: Als leitender wissenschaftlicher Kurator im Vogelressort des Natural History Museum in London verfasste er über Jahrzehnte die bis heute als Standardwerke geltenden Bücher über Tauben, Krähen und Prachtfinken &ndash; ein Mann, dessen archetypisches Tier die Taube ist und der sein gesamtes Berufsleben ausgerechnet diesem einen Vogel widmete.</p>
+          <p class="vb-intro">Goodwin wurde 1920 als Richard Patrick Goodwin in Woking geboren, wurde aber von seinen Eltern zeitlebens Derek genannt &ndash; aus Gründen, die er selbst nie ganz verstand. Nach dem Kriegsdienst in der Royal Artillery, unter anderem während der Belagerung von Tobruk, führte ihn 1945 ein Zufall &ndash; der Kauf gebrauchter Ausgaben des Avicultural Magazine &ndash; zu einer Anstellung im Vogelressort des Natural History Museum, ganz ohne formale ornithologische Ausbildung. Aus diesem Zufallseinstieg wurde ein Lebenswerk.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Bedeutung im Verborgenen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> sucht ihre Einzigartigkeit nicht im Rampenlicht, sondern in einer stillen, oft nur Fachkollegen sichtbaren Meisterschaft &ndash; sie muss niemandem beweisen, wie besonders sie ist, solange die eigene Arbeit tief genug und wahr genug ist. Goodwin war ein zurückgezogener, stiller Wissenschaftler im Hintergrund, kein öffentlicher Vermittler wie mancher seiner berühmteren Schüler. Wer heute nach ihm sucht, findet vor allem Fachbiografien, Nachrufe und seine Bücher &ndash; kaum private Fotos, kaum persönliche Auftritte.</p>
+          <p class="vb-intro">Und doch strahlte diese im Verborgenen geleistete Arbeit weit über ihn hinaus: Goodwin unterrichtete und prägte spätere bekannte Ornithologen und Verhaltensforscher wie Aubrey Manning, Rob Hume und Desmond Morris &ndash; er selbst blieb dabei im Schatten, während seine Schüler Bekanntheit erlangten. Genau darin zeigt sich die selbsterhaltende Vier: Bedeutung entsteht nicht durch Sichtbarkeit, sondern durch die stille Qualität dessen, was weitergegeben wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Das enzyklopädische Werk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier eine analytische Tiefe und einen enormen Wissensdurst &ndash; das eigene Gefühl für ein Thema wird nicht nur erlebt, sondern in akribisches, systematisches Fachwissen übersetzt. Goodwins über Jahrzehnte entstandene Bücher über Prachtfinken, Krähen und Tauben gelten bis heute als die maßgeblichen Standardwerke ihres jeweiligen Gebiets &ndash; ein Fünferflügel, der sich nicht mit oberflächlichem Interesse begnügte, sondern jedes Detail des Verhaltens dieser Vögel über ein ganzes Berufsleben hinweg dokumentierte.</p>
+          <p class="vb-intro">Auch sein Engagement für die vom Aussterben bedrohten Goldfasane und Lady-Amherst-Fasane trug diese Handschrift: Er verfasste zahlreiche Briefe und Artikel zu ihrem Schutz und trat sogar aus der Royal Society for the Protection of Birds aus, weil er deren Einsatz für diese Arten für unzureichend hielt &ndash; eine kompromisslose, fachlich fundierte Haltung, die er konsequent gegen den Mainstream der eigenen Fachwelt vertrat, etwa auch in seiner Skepsis gegenüber der Wiederansiedlung von Greifvögeln wie dem Seeadler.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 ist die Fähigkeit, <strong>eine tiefe, oft schmerzhaft unauffällige innere Hingabe in bleibendes Fachwissen</strong> zu verwandeln &ndash; Goodwins Werke über Tauben, Krähen und Prachtfinken werden bis heute von Ornithologen als Referenz herangezogen, weit über sein eigenes Leben hinaus. Als korrespondierendes Mitglied der Deutschen Ornithologen-Gesellschaft gewürdigt, obwohl er nie Deutsch gelernt hatte, zeigt sich: Fachliche Tiefe kann sprachliche und geografische Grenzen überwinden.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der fast vollständigen Unsichtbarkeit des Menschen hinter dem Werk: Wo andere Wissenschaftler ihre Erkenntnisse öffentlich vermarkteten, blieb Goodwin bis zuletzt der stille Experte im Hintergrund &ndash; sein Bild ist im Internet bis heute nur mit Mühe zu finden. Die Kehrseite der selbsterhaltenden Vier mit Fünferflügel: Die eigene Einzigartigkeit so vollständig in die Sache zu legen, dass die Person selbst dahinter verschwindet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Taube, die der Taube diente</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Goodwin starb 2008 im Alter von 88 Jahren. Was er der Welt hinterließ, ist kein öffentliches Vermächtnis wie bei einem Nikola Tesla, sondern ein stilles, fachlich unangefochtenes Fundament &ndash; Bücher, aus denen Generationen von Vogelkundlern lernten, ohne den Namen ihres Autors je in den Schlagzeilen gesehen zu haben.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das die selbsterhaltende Vier mit Fünferflügel in seiner reinsten Form zeigt: ein Mann, dessen archetypisches Tier die Taube ist, der sein gesamtes Leben lang genau dieser Taube diente &ndash; nicht im Rampenlicht, sondern in der stillen, jahrzehntelangen Genauigkeit eines Werks, das ihn selbst überdauert.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
+        {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-derek-goodwin")}
     </div>
   `);
 }
@@ -91753,6 +91820,7 @@ function render() {
       "beruehmte-drew-barrymore": drewBarrymorePortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
+      "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
