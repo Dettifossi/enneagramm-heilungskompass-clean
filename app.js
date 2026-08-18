@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SO7: {
+    tier: "Biber",
+    kernthema: "Rastloses Bauen im Dienst der Gemeinschaft – nie wirklich fertig (Naranjo: Kontratyp der Sieben)",
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Nikola Tesla", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr."],
+    fingerabdruecke: [
+      {
+        titel: "Rastloses, nie abgeschlossenes Bauen im Dienst eines größeren Systems",
+        beschreibung: "Statt für sich selbst zu genießen, wird kontinuierlich etwas errichtet, das über die eigene Person hinaus wirkt – kaum ist ein Projekt fertig, beginnt bereits das nächste, ohne wirkliche Pause.",
+        beleg: "Elon Musk: ›Der Biber macht keine halben Sachen. Er baut und baut – und sucht sich das nächste Hindernis, das es zu stauen gilt‹; Nikola Tesla, der ›über 300 Patente hinterließ und die technische Infrastruktur der gesamten Menschheit veränderte, ohne je bei einer einzigen Erfindung stehen zu bleiben‹; Hazel Brugger: ›Der Biber hat immer ein neues Projekt‹; Drew Barrymore: ›Fällt ein Damm ein, beginnt der Biber sofort von Neuem, ohne lange innezuhalten.‹"
+      },
+      {
+        titel: "Vollständige innere Planung, bevor überhaupt der erste Handgriff erfolgt",
+        beschreibung: "Bevor sichtbar gebaut wird, entsteht das ganze Werk zunächst vollständig im Inneren – als klare Vorstellung, die dann Schritt für Schritt in die Wirklichkeit übersetzt wird.",
+        beleg: "Nikola Tesla, der ›spontane, blitzartige innere Bilder von Maschinen sah, die er bis ins letzte Detail vor seinem geistigen Auge konstruieren konnte, bevor er je ein Werkzeug in die Hand nahm‹: ›Der Biber plant den Damm vollständig im Kopf, bevor der erste Ast fällt‹; Dieter Nuhr: ›Der Biber, der jeden Stein genau prüft, bevor er ihn einsetzt.‹"
+      },
+      {
+        titel: "Dienst an etwas Größerem als sich selbst, statt persönlichem Ruhm",
+        beschreibung: "Das eigene Werk wird nicht als Selbstdarstellung verstanden, sondern als Beitrag zu einer Gemeinschaft, einer Idee oder einem System, das größer ist als die eigene Person.",
+        beleg: "Jeanne-Marie Guyon, die ›ihr gesamtes Leben einem einzigen Bauwerk‹ widmete – ›kein Territorium, keine Macht, kein persönlicher Ruhm, sondern der Dienst an einer geistigen Idee‹; Jules Verne, dessen literarisches Universum ›die gesamte damals bekannte Welt und weit darüber hinaus umspannte‹; Rowan Atkinson: ›Sein Bau ist nicht Versteck, sondern Werk – eine komplexe Konstruktion, die dem Schutz aller dient.‹"
+      },
+      {
+        titel: "Wenn die perfekte, dienende Fassade eine maßlose, zerstörerische Realität verbirgt (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird genau die Anpassungsleistung, die den Kontratyp der Sieben auszeichnet – Pflichterfüllung, freundliches Auftreten, scheinbare Aufopferung –, zur perfekten Tarnung für eine ganz andere, oft maßlose innere Realität, die sich irgendwann gewaltsam Bahn bricht.",
+        beleg: "Chris Watts: ›Ein sozialer Typ 7 – der Kontratyp der Sieben – unter dem Deckmantel von Pflicht und Aufopferung seine eigentliche Maßlosigkeit so lange versteckt, bis sie alles auslöscht, was ihn zu halten droht‹ – ›unauffällig, höflich, fügsam‹ nach außen, bis zum Mord an seiner Familie; Frank Abagnale Jr., der als Hochstapler ›geschickt‹ ganze falsche Identitäten und Karrieren baute, statt tatsächliche. Wichtig: Diese beiden Fälle sind seltene, extreme Ausnahmen unter den SO7-Porträts dieses Kompasses, keine typische Ausprägung."
+      }
+    ]
+  },
   SX6: {
     tier: "Wolf",
     kernthema: "Angst wird nicht vermieden, sondern frontal angegriffen – Stärke als Gegenangst (Naranjo: Kontratyp der Sechs)",
