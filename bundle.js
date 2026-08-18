@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SE9: {
+    tier: "Elefant",
+    kernthema: "Ruhige, gewichtige Präsenz statt Lautstärke – wer einmal in Bewegung ist, ist nicht mehr aufzuhalten (Naranjo: Appetit)",
+    beispiele: ["James Levine", "Bärbel Bas", "Ludwig Erhard", "Laotse (Laozi)", "Angela Merkel", "Carmen Goglin", "Gina Rinehart", "Thomas von Aquin", "David Hume", "Hans-Dietrich Genscher", "Abida Parveen", "Johannes Brahms", "Alfons Schuhbeck"],
+    fingerabdruecke: [
+      {
+        titel: "Ruhige, gewichtige Präsenz statt Lautstärke",
+        beschreibung: "Wirkung entsteht nicht durch Reden oder Auftreten, sondern durch bloße, gewichtige Anwesenheit – der Raum verändert sich, ohne dass ein Wort nötig wäre.",
+        beleg: "James Levine: ›Er braucht keine Aktion, um zu wirken. Es genügt, dass er da ist‹; Angela Merkel: ›Eine Präsenz, die nicht durch Lautstärke entsteht, sondern durch Gewicht … Sie sprach selten laut. Sie machte keine großen Gesten‹; Thomas von Aquin, genannt ›der stumme Ochse‹, über den sein Lehrer sagte: ›Sein Gebrüll in der Lehre wird eines Tages die ganze Welt erfüllen.‹"
+      },
+      {
+        titel: "Einmal in Bewegung, ist nichts mehr aufzuhalten",
+        beschreibung: "Fortschritt geschieht nicht eilig, sondern in einem eigenen, unbeirrbaren Tempo – sobald eine Richtung eingeschlagen ist, hält kaum ein Hindernis diese Bewegung noch auf.",
+        beleg: "Ludwig Erhard: ›Wenn er einmal in Bewegung ist, hält ihn kaum etwas auf‹ – ›ein Mann, der beharrlich an einer Idee festhielt, bis sie Wirklichkeit wurde‹; Gina Rinehart: ›Der Elefant bewegt sich langsam. Aber er bewegt sich in eine Richtung, und diese Richtung ändert sich nicht mehr‹; Angela Merkel: ›Aussitzen als Methode.‹"
+      },
+      {
+        titel: "Appetit und Genuss als Ausdruck von Lebensfreude, die die innere Leere dämpft",
+        beschreibung: "Naranjo nannte diesen Subtyp den des ›Appetits‹: Körperlicher Genuss, Gewohnheit und Komfort dienen dazu, eine tiefer liegende innere Leere zu dämpfen – nicht als Schwäche, sondern als tief verwurzeltes Lebensprinzip.",
+        beleg: "Alfons Schuhbeck: ›Der selbsterhaltende Subtyp der Neun nennt sich »Appetit«: Die innere Leere, die jede Neun mit sich trägt, wird durch körperlichen Genuss, Essen, Gewohnheit und Komfort gedämpft‹; Johannes Brahms, der ›genügsam blieb, auch als sein Ruhm ihn längst zu einem der reichsten Komponisten Europas gemacht hatte‹; Abida Parveen: ›Appetit auf Verschmelzung‹, deren ruhiger, eileloser Gesang ganze Konzertsäle in Trance versetzt."
+      },
+      {
+        titel: "Wenn der stille Appetit zur stillen Selbstbedienung ohne Schuldgefühl wird (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird derselbe Appetit, der sonst Komfort und Genuss sucht, zur beharrlichen, kaum bemerkten Regelumgehung – begleitet vom stillen Gefühl, ein wohlverdientes Recht wahrzunehmen.",
+        beleg: "Alfons Schuhbeck, der ›still und beharrlich das Gesetz umging – ohne inneren Aufruhr, ohne Schuldgefühl, fast ohne es selbst wirklich zu bemerken‹, und über Jahre Kassenaufzeichnungen manipulierte: ›Ich arbeite so hart, ich leiste so viel – das, was ich mir nehme, ist mein gutes Recht.‹ Wichtig: Dies ist der einzige bekannte Fall dieser Art unter den SE9-Porträts dieses Kompasses, keine typische Ausprägung."
+      }
+    ]
+  },
   SX8: {
     tier: "Krokodil",
     kernthema: "Geduldiges Warten, dann vollständiger, blitzschneller Zugriff (Naranjo: Besitz/Besitzergreifung)",
