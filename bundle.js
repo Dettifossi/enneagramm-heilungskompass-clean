@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SX6: {
+    tier: "Wolf",
+    kernthema: "Angst wird nicht vermieden, sondern frontal angegriffen – Stärke als Gegenangst (Naranjo: Kontratyp der Sechs)",
+    beispiele: ["Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson"],
+    fingerabdruecke: [
+      {
+        titel: "Angst wird nicht vermieden, sondern frontal angegriffen",
+        beschreibung: "Anders als die anderen Sechser-Subtypen sucht diese Ausprägung Sicherheit nicht durch Anpassung oder Rückzug, sondern durch das direkte Konfrontieren der eigenen Angst – Stärke wird zur Gegenreaktion auf eine tief sitzende Unsicherheit.",
+        beleg: "Beethoven: ›Wer schon als Kind lernt, dass Verletzlichkeit bestraft wird, lernt, ihr mit Härte zuvorzukommen‹; Michael Schumacher: ›Der Wolf duckt sich nicht vor der Bedrohung. Er dreht sich um und läuft ihr entgegen. Das ist die sexuelle Sechs in ihrer tiefsten Ausprägung: Angst nicht als Lähmung, sondern als Treibstoff‹; Kollegah: ›Der Wolf hat Angst – und er verwandelt diese Angst in Kraft‹; Putins Kindheitserinnerung an eine in die Enge getriebene Ratte, die ihm ins Gesicht sprang: ›Wer in die Enge getrieben ist, darf sich niemals zurückziehen.‹"
+      },
+      {
+        titel: "Direkter Blickkontakt und Klartext statt Rückzug oder Diplomatie",
+        beschreibung: "Konflikten wird nicht ausgewichen, sondern sie werden gesucht und offen ausgetragen – mit einer Direktheit, die viele überrascht oder verunsichert, aber selten unehrlich ist.",
+        beleg: "Katja Riemann: ›Der Wolf weicht der Bedrohung nicht aus, sondern sieht sie direkt an … Klartext statt Diplomatie‹; Byron Katie: ›Wölfe testen sich gegenseitig durch Blickkontakt und Nähe, nicht durch Rückzug‹ – ihre Methode ›The Work‹ als Prinzip, der eigenen Angst nicht auszuweichen; Alice Schwarzer: ›Sie hat Debatten angestoßen, die niemand führen wollte … Der Wolf, der nicht aufhört zu heulen.‹"
+      },
+      {
+        titel: "Kraft aus dem Rudel statt aus Einzelgängertum",
+        beschreibung: "Die eigene Stärke entsteht nicht in Isolation, sondern in Verbindung mit einer Gruppe, einem Ensemble oder einer Gemeinschaft, für die man sich exponiert und in der man sich immer wieder beweist.",
+        beleg: "Anke Engelke: ›Ihre Stärke kommt nicht aus Isolation, sondern aus Verbindung‹; Jennifer Aniston: ›Die Fähigkeit, sich immer wieder ins Rudel zu stellen … und dort standzuhalten, wenn es unbequem wird‹; Alice Schwarzer: ›Der Wolf lebt im Rudel, kämpft für das Rudel – und zeigt die Zähne, wenn das Rudel bedroht wird.‹"
+      },
+      {
+        titel: "Wenn die Angst-Gegenangst-Dynamik zu fanatischer Ideologie oder Gewalt kippt (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird aus der frontalen Konfrontation der eigenen Angst eine gewaltsame, oft ideologisch aufgeladene Kontrolle über andere – oder ein Rudel wird durch Angst und Faszination missbraucht statt geschützt.",
+        beleg: "Charles Manson: ›Der Wolf braucht das Rudel, er erschafft es, er führt es durch Angst und Faszination zugleich … ein Rudelchef, der nie selbst zur Waffe griff – und doch der gefährlichste im Rudel war‹; Anders Breivik, dessen Ideologie sich ›über Jahre hinweg entwickelte und in einer mörderischen Manifestation von Hass und Entfremdung kulminierte‹; Armin Meiwes, der eine über Jahrzehnte gepflegte Fantasie schließlich umsetzte. Wichtig: Diese drei Fälle sind seltene, extreme Ausnahmen unter den SX6-Porträts dieses Kompasses, keine typische Ausprägung."
+      }
+    ]
+  },
   SO6: {
     tier: "Erdmännchen",
     kernthema: "Wache halten für die Gruppe, nicht für sich selbst – Sicherheit durch Zugehörigkeit und Pflicht",
