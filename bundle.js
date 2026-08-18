@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SO5: {
+    tier: "Oktopus",
+    kernthema: "Vielarmiges, paralleles Wissen, das der Gemeinschaft dient (Naranjo: Totem) – oder als Machtinstrument kontrolliert wird",
+    beispiele: ["Dr. Albert Einstein", "Gertrude Belle Elion", "Dr. Claudio Naranjo", "Leonardo da Vinci", "Georg Wilhelm Friedrich Hegel", "Isaac Newton", "Pythagoras", "Jennifer Mather", "Bill Gates", "Günther Jauch", "Dr. Ted Kaczynski", "Dr. Harold Shipman"],
+    fingerabdruecke: [
+      {
+        titel: "Vielarmiges, paralleles Denken, das der Gemeinschaft zur Verfügung gestellt wird",
+        beschreibung: "Naranjo nannte diesen Subtyp den des ›Totems‹: gesammeltes Wissen wird nicht für sich behalten, sondern der Gruppe als Beitrag angeboten. Charakteristisch ist dabei, gleichzeitig in mehreren Bereichen oder Richtungen zu denken, ohne sich in einem einzigen zu erschöpfen.",
+        beleg: "Leonardo da Vinci: ›Ein Wesen mit außergewöhnlicher Intelligenz, das die Welt mit unzähligen Armen gleichzeitig erforscht und sein Wissen der Gemeinschaft zur Verfügung stellt, statt es nur für sich zu horten‹ – Maler, Anatom, Ingenieur, Botaniker zugleich; Gertrude Belle Elion, ›die gleichzeitig in mehreren Richtungen dachte‹ und ›mit ihrer Arbeit Millionen von Menschenleben gerettet hat, ohne dass die meisten Menschen heute ihren Namen kennen‹; Jennifer Mather: ›Wissen als Beitrag zur Gemeinschaft.‹"
+      },
+      {
+        titel: "Wissen wird über Jahre im Verborgenen entwickelt, bevor es kontrolliert freigegeben wird",
+        beschreibung: "Anders als spontane Mitteilung erfolgt die Weitergabe von Wissen erst nach langer, oft jahrzehntelanger Vorbereitung im Stillen – und dann bewusst dosiert, zum selbst gewählten Zeitpunkt.",
+        beleg: "Isaac Newton, der die Grundlagen seiner Physik ›über zwei Jahrzehnte lang fast ausschließlich für sich behalten hatte‹: ›Der Oktopus verbirgt sich nicht aus Schwäche. Er verbirgt sich, weil er die Kontrolle darüber behalten will, wann und wie sein Wissen die Welt erreicht‹; Hegel, der erst mit 46 Jahren seine erste Professur erhielt, nach ›einer langen Phase des stillen, zurückgezogenen Systemschreibens‹; Pythagoras, der sein Wissen ›nach außen nur in genau bemessenen Dosen‹ weitergab."
+      },
+      {
+        titel: "Eine eigene Struktur oder ein eigener Orden als Rahmen für geteiltes, aber gehütetes Wissen",
+        beschreibung: "Statt Wissen einzeln oder ungeordnet zu verbreiten, entsteht häufig eine eigene Institution, ein Kreis oder ein System, innerhalb dessen das Wissen kontrolliert weitergegeben und gepflegt wird.",
+        beleg: "Pythagoras, der in Kroton eine Gemeinschaft gründete, die ›zugleich Forschungszirkel, religiöser Orden und politischer Bund war‹: ›Der Oktopus baut sich ein Gehäuse, eine Struktur, innerhalb derer er das Wissen kontrolliert‹; Hegels lebenslanges philosophisches System, ›das System als Totem‹; Claudio Naranjo, dessen eigene Enneagramm-Schule als geordnetes Weitergabesystem seines Lebenswerks diente."
+      },
+      {
+        titel: "Wenn dasselbe Muster zum Machtinstrument statt zum Dienst wird (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird das gesammelte Wissen oder die kontrollierte Struktur nicht zum Geschenk an die Gemeinschaft, sondern zum Mittel der Kontrolle über andere oder gegen sie eingesetzt.",
+        beleg: "Bill Gates: ›Hinter dem freundlichen Pullover … liegt ein Muster, das sich durch sein gesamtes Leben zieht: die systematische Kontrolle über das, was andere brauchen … Das Totem als Machtinstrument‹; Dr. Harold Shipman, der als vertrauenswürdiger Hausarzt sein medizinisches Wissen nutzte, um über zwei Jahrzehnte mindestens 218 Patienten zu töten; Dr. Ted Kaczynski, der Universalgelehrsamkeit gegen die Gesellschaft richtete, die er zu retten glaubte. Wichtig: Gates' Fall ist kritisch, nicht kriminell, und keinesfalls mit Shipman oder Kaczynski gleichzusetzen – alle drei zeigen jedoch dieselbe Grundstruktur in ganz unterschiedlicher Schärfe."
+      }
+    ]
+  },
   SE5: {
     tier: "Eule",
     kernthema: "Der Rückzug als bewusst gebaute Burg – stille Beobachtung statt Flucht",
