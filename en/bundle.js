@@ -16139,6 +16139,15 @@ function sterlingNorthPortraitPage() {
           <p class="vb-intro">The raccoon, as the animal of the Self-Preservation Three, stands for unassuming competence that builds something lasting out of sight. In Sterling North's case, this quiet steadiness – one year with a young raccoon, carefully put into words with Four-wing depth – became a book that, more than sixty years later, still inspires millions of readers worldwide for this clever, curious animal.</p>
         </blockquote>
 
+        <div style="max-width:100%;margin-top:1.8rem;margin-bottom:1.8rem;">
+          <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Video: Rascal – Sterling North</p>
+          <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+            <iframe width="100%" height="100%" style="border:none;display:block;"
+              src="https://www.youtube.com/embed/_GcRdMGZtC4?rel=0"
+              allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+
         <details style="margin-top:1.8rem;border:1px solid var(--line);border-radius:12px;overflow:hidden;">
           <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
                           background:var(--paper);list-style:none;user-select:none;font-weight:700;
