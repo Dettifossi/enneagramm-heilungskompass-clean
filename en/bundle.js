@@ -644,6 +644,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Derek Goodwin – Self-Preservation Type 4",
     teaser:"SE4w5 · 1920–2008. British ornithologist at the Natural History Museum London, definitive works on doves, crows and estrildid finches. A life spent in the background, devoted to its own archetypal animal. Animal correspondence: Dove.",
     tags:["Wissenschaft"], gender:"m"},
+{ route:"beruehmte-mariella-superina", name:"Dr. Mariella Superina", added:"2026-08-18", subtyp:"SO4w5",
+    heading:"Dr. Mariella Superina – Social Type 4",
+    teaser:"SO4w5 · Swiss veterinarian and scientist, for over 20 years the world's leading armadillo researcher, chair of the IUCN Armadillo Specialist Group. A globally recognized authority on her own archetypal animal. Animal correspondence: Armadillo.",
+    tags:["Wissenschaft"], gender:"f"},
 { route:"beruehmte-sam-altman", name:"Sam Altman", added:"2026-08-10", subtyp:"SE4w5",
     heading:"Sam Altman – Self-Preservation Type 4",
     teaser:"SE4w5 · born 1985. CEO of OpenAI, former president of Y Combinator. A quiet, methodical struggle to build a future no one has built yet – five days of ouster and return in November 2023, without public drama. Animal correspondence: Dove.",
@@ -4750,6 +4754,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-bernard-faye", name:"Dr. Bernard Faye", subtyp:"SX2w1", tier:"Camel"},
   {route:"beruehmte-marlene-zuk", name:"Prof. Dr. Marlene Zuk", subtyp:"SX3w4", tier:"Peacock"},
   {route:"beruehmte-derek-goodwin", name:"Derek Goodwin", subtyp:"SE4w5", tier:"Dove"},
+  {route:"beruehmte-mariella-superina", name:"Dr. Mariella Superina", subtyp:"SO4w5", tier:"Armadillo"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -28505,6 +28510,67 @@ function derekGoodwinPortraitPage() {
   `);
 }
 
+function mariellaSuperinaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-mariella-superina-portrait.jpg" alt="Armadillo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Mariella Superina</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Veterinarian, armadillo researcher &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The armadillo that became the armadillo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the Social Four &ndash; it does not seek belonging by blending into the crowd, but through an entirely its own, unmistakable role within a community, a role that is what makes it visible in the first place. Few lives illustrate this pattern as literally as that of Dr. Mariella Superina: the Swiss veterinarian is today the world's recognized foremost authority on armadillos &ndash; a woman whose archetypal animal is the armadillo, and who became exactly that: the internationally celebrated authority on it.</p>
+          <p class="vb-intro">Raised in Switzerland, where armadillos naturally do not exist, Superina encountered the animal almost by chance on a farm in Brazil &ndash; fascinated by how little was known about them at all. That encounter grew into a doctoral thesis at the University of Zurich on the biology and husbandry of armadillos, followed by a second doctorate in Conservation Biology at the University of New Orleans on the pichi, a small armadillo species in Argentina.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: significance through an irreplaceable role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Four (SO4)</strong> seeks its worth not in withdrawal, but in a special, irreplaceable standing within a community &ndash; it does not want to be just any member, but the one whose absence would leave something essential missing. Superina became exactly that: since 2009 she has chaired the IUCN SSC Anteater, Sloth and Armadillo Specialist Group, the World Conservation Union's global expert network for this group of animals &ndash; a position that made her, over decades, the central, uncontested authority on armadillo conservation worldwide.</p>
+          <p class="vb-intro">It is telling how she speaks about her own work: research, she stresses explicitly, is "always teamwork" &ndash; not a solo project, but a shared cause she carries together with international colleagues and authorities. This is the Social Four exactly: one's own uniqueness arises not against the community, but through a special role within it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: decades in service of a single field of knowledge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four an analytical depth and an enormous thirst for knowledge &ndash; one's own interest in a subject is not merely felt but translated into systematic, meticulous expertise. Over more than two decades of fieldwork, Superina studied the behavior, torpor, and biology of numerous armadillo species across South America &ndash; from chasing animals through tall grass to researching their torpor and overwintering mechanisms, with well over a hundred scientific publications and thousands of citations.</p>
+          <p class="vb-intro">Her own guiding line &ndash; roughly: "Keep them in your heart, but leave them in the wild" &ndash; shows this Five-wing distance at its most mature: deep affection for the research subject, but without possessiveness, without tearing the animal from its natural context. Knowledge here is not accumulated to possess, but to protect.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w5 is its ability to turn <strong>its own uniqueness into an irreplaceable role within society</strong> &ndash; Superina's decades of research and her international chairmanship have moved a whole, previously overlooked family of animals into the center of global species conservation. Without her, verifiably, the world's knowledge of armadillos would be poorer today.</p>
+          <p class="vb-intro">The shadow of the Social Four shows where one's own significance stays too tightly bound to a single, highly specialized niche &ndash; a field that remains exotic and hard to access for most people, however significant it is professionally. The flip side of the special role: the more unique one's own niche, the lonelier the path within it can become.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The armadillo that stands for the armadillo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Superina gives the world is not merely scientific detail, but an entire genus that, without her decades of persistence, would be far less protected today. The Social Four with a Five-wing does not ask: how do I stand out? It asks: which role is still missing that only I can fill?</p>
+          <p class="vb-intro">In the end, one image remains that could hardly stand more fittingly for this pattern: a woman whose archetypal animal is the armadillo, who became the world's recognized voice for exactly that animal &ndash; not through withdrawal, but through a role within the international community that no one else could fill quite the same way.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"lebensmusterkompass/so4", label:"Life Pattern Compass: SO4 – Armadillo"},
+        {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+        {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-mariella-superina")}
+    </div>
+  `);
+}
+
 function julesVernePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -35803,7 +35869,7 @@ const LEBENSMUSTERKOMPASS = {
   SO4: {
     tier: "Armadillo",
     kernthema: "A hard shell on the outside, an extraordinarily sensitive inside underneath (Naranjo: Shame)",
-    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraclitus", "Hippocrates of Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger"],
+    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraclitus", "Hippocrates of Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina"],
     fingerabdruecke: [
       {
         titel: "A hard shell on the outside, an extraordinarily sensitive inside underneath",
@@ -57345,6 +57411,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
+      "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
