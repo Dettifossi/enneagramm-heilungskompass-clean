@@ -42667,7 +42667,10 @@ function lebensmusterkompassDetailPage(codeRaw) {
       ${pageHeader("wissen")}
       <div class="page-content">
         <p class="eyebrow">Wissen &middot; Lebensmusterkompass</p>
-        <h1 class="section-title">${code} &middot; ${data.tier}: Biografische Fingerabdr\xfccke</h1>
+        <h1 class="section-title" style="display:flex;align-items:center;gap:0.7rem;flex-wrap:wrap;">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="${data.tier}" loading="lazy" style="width:44px;height:44px;border-radius:50%;object-fit:cover;border:2px solid ${col};flex-shrink:0;" onerror="this.style.display='none'" />
+          <span>${code} &middot; ${data.tier}: Biografische Fingerabdr\xfccke</span>
+        </h1>
         <p class="psycho-intro">${data.kernthema}</p>
 
         <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
