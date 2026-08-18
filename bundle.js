@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SO8: {
+    tier: "Löwe",
+    kernthema: "Kraft, die nicht für sich selbst, sondern für das Rudel eingesetzt wird (Naranjo: Freundschaft und Bruderschaft)",
+    beispiele: ["Sokrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Mohammed ibn Abdullah", "Helmut Kohl", "John Gotti"],
+    fingerabdruecke: [
+      {
+        titel: "Kraft, die nicht für sich selbst, sondern für das Rudel eingesetzt wird",
+        beschreibung: "Naranjo beschrieb diesen Subtyp als den Typus der ›Freundschaft und Bruderschaft‹: Stärke dient nicht der persönlichen Selbstbehauptung, sondern dem Schutz und Zusammenhalt einer Gemeinschaft, für die man sich verantwortlich fühlt.",
+        beleg: "Michelle Obama: ›Stärke ist hier kein Selbstzweck – sie ist im Dienst des Wir. Der Löwe schützt sein Rudel. Michelle Obama schützt ihr Volk‹; Carsten Stahl: ›Seine Kraft ist nicht für sich selbst – sie ist für die, die neben ihm stehen. Wenn Schwache bedroht werden, steht der Löwe auf‹; Karl Marx: ›Er kämpfte nicht für sich. Er kämpfte für ein Rudel, das er nie persönlich kannte: die Arbeiterklasse der ganzen Welt.‹"
+      },
+      {
+        titel: "Bloße Präsenz genügt – kein ständiges Brüllen nötig",
+        beschreibung: "Autorität und Wirkung entstehen nicht durch permanente Demonstration von Macht, sondern durch eine körperliche und mentale Präsenz, die man spürt, sobald sie einen Raum betritt.",
+        beleg: "Bud Spencer: ›Der Löwe muss nicht brüllen, um zu wirken. Seine Präsenz allein ist genug … Wenn das Rudel in Gefahr ist, steht er auf. Bis dahin ist er einfach da‹; Helmut Kohl: ›Er brüllt nicht ständig; seine Macht liegt in der schieren physischen und mentalen Präsenz, die andere spüren, sobald er den Raum betritt.‹"
+      },
+      {
+        titel: "Präzises, gewähltes Eingreifen statt wahlloser Konfrontation",
+        beschreibung: "Kraft wird nicht wahllos eingesetzt, sondern erst nach genauer Beobachtung, im richtigen Moment und mit klarer Zielrichtung – ohne unnötige Energie zu verschwenden.",
+        beleg: "Jamaica Kincaid: ›Der Löwe kämpft nicht wahllos. Er wartet, beobachtet, wählt den Moment. Und wenn er angreift, dann mit einer Präzision, die keine Energie verschwendet‹; Sokrates, der ›barfuß im Winter unterwegs, gleichgültig gegenüber Komfort, unbestechlich in seinen Überzeugungen‹ blieb: ›Der Löwe zieht sich nicht zurück, wenn es unbequem wird – er hält stand.‹"
+      },
+      {
+        titel: "Wenn Rudel-Loyalität zur öffentlich zur Schau gestellten kriminellen Bruderschaft wird (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird derselbe Beschützerinstinkt und dieselbe Rudel-Loyalität zur Grundlage einer kriminellen Organisation – Macht wird dabei nicht verborgen, sondern demonstrativ zur Schau gestellt.",
+        beleg: "John Gotti, der den Gambino-Clan ›nicht aus dem Verborgenen, sondern im Rampenlicht‹ regierte: ›Er trug Brioni-Anzüge für Tausende von Dollar. Er winkte Kameras zu … Er war ihr König – und er wusste es.‹ Wichtig: Dies ist der einzige bekannte Fall dieser Art unter den SO8-Porträts dieses Kompasses, keine typische Ausprägung."
+      }
+    ]
+  },
   SE8: {
     tier: "Orang-Utan",
     kernthema: "Solitäres, stilles Territorium ohne Publikumsbedürfnis (Naranjo: Satisfaktion)",
