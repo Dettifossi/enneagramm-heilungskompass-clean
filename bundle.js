@@ -50230,9 +50230,9 @@ function sterlingNorthPortraitPage() {
             <p style="font-size:0.85rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.55;">Eine dokumentarische Sammlung aus verschiedenen Lebensphasen Sterling Norths, Ausgaben und Adaptionen von »Rascal« sowie dem bis heute bestehenden Andenken der Sterling North Society in Edgerton, Wisconsin.</p>
 
             ${galleryGroup("Kindheit und Jugend", [
+              ["sterling-north-24-vierzehn-jahre.jpg", "Sterling North im Alter von zehn Jahren", "Im Alter von 10 Jahren"],
               ["sterling-north-23-elf-jahre.jpg", "Sterling North im Alter von elf Jahren", "Im Alter von 11 Jahren – dem Alter, in dem die Rascal-Geschichte spielt"],
-              ["sterling-north-24-vierzehn-jahre.jpg", "Sterling North im Alter von vierzehn Jahren", "Im Alter von 14 Jahren"],
-              ["sterling-north-31-vierzehn-jahre-b.jpg", "Sterling North im Alter von vierzehn Jahren, zweites Foto", "Ebenfalls im Alter von 14 Jahren"],
+              ["sterling-north-31-vierzehn-jahre-b.jpg", "Sterling North im Alter von vierzehn Jahren", "Im Alter von 14 Jahren"],
               ["sterling-north-25-sechzehn-jahre.jpg", "Sterling North im Alter von sechzehn Jahren", "Im Alter von 16 Jahren"],
               ["sterling-north-30-achtzehn-jahre-schreibend.jpg", "Sterling North im Alter von achtzehn Jahren, schreibend", "Mit 18 Jahren, introvertiert schreibend im Arbeitszimmer der Familie – schon hier schriftstellerisch tätig"],
               ["sterling-north-01-familie.jpg", "Sterling North mit seiner Frau Gladys und ihren beiden Kindern, Fotostreifen", "Familienfoto (Fotostreifen, von oben nach unten): Sterling North im Alter von etwa 55 Jahren, seine Frau Gladys und ihre beiden Kinder"],
