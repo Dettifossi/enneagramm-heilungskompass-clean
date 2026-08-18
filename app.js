@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SX8: {
+    tier: "Krokodil",
+    kernthema: "Geduldiges Warten, dann vollständiger, blitzschneller Zugriff (Naranjo: Besitz/Besitzergreifung)",
+    beispiele: ["Adele Neuhauser", "Pablo Picasso", "Prof. Grahame Webb", "Donald J. Trump", "Diogenes von Sinope", "Giacomo Puccini", "Gerhard Schröder", "Ruth Bader Ginsburg", "Genesis P-Orridge", "Eli Jaxon-Bear", "John McAfee", "Jeffrey Epstein"],
+    fingerabdruecke: [
+      {
+        titel: "Geduldiges Warten, dann vollständiger, blitzschneller Zugriff",
+        beschreibung: "Naranjo nannte diesen Subtyp den der ›Besitzergreifung‹: Kraft zeigt sich nicht in ständiger Aktivität, sondern in fast reglosem Warten, gefolgt von einem einzigen, vollständigen und unwiderruflichen Zupacken im richtigen Moment.",
+        beleg: "Adele Neuhauser: ›Das Krokodil ist still, bis es handelt … Keine Warnung. Keine verschwendete Energie. Nur der Zugriff, der sitzt‹; Ruth Bader Ginsburg: ›Geduldig im Warten, präzise im Zugriff, unbeeindruckt von Gegenwehr‹ – ›Das Krokodil braucht kein Imponiergehabe. Sein Zugriff reicht‹; Genesis P-Orridge: ›Wenn es zuschnappt, gibt es kein Zurück mehr.‹"
+      },
+      {
+        titel: "Radikale, ungeschützte Öffentlichkeit statt Rückzug",
+        beschreibung: "Statt sich zu verbergen, wird das eigene Leben oder die eigene Überzeugung demonstrativ öffentlich gelebt – ohne Rücksicht auf gesellschaftliche Erwartungen oder Etikette, und gerade dadurch schwer zu ignorieren.",
+        beleg: "Diogenes von Sinope, der ›ohne Haus, ohne Besitz, ohne Scham‹ auf dem Marktplatz von Athen lebte: ›Das Krokodil verbirgt sich nicht – es liegt sichtbar am Ufer, und wer vorbeikommt, muss sich mit ihm auseinandersetzen‹; Donald Trump: ›Er dominiert Räume, zieht Kameras an, ist nie neutral‹; Giacomo Puccini, der ›keine Rücksicht auf Etikette‹ nahm und ›trotzdem die volle Aufmerksamkeit jedes Raums‹ auf sich zog."
+      },
+      {
+        titel: "Unermüdlicher, über ein ganzes Leben nie erlöschender Antrieb",
+        beschreibung: "Der eigene Hunger nach Ausdruck, Erfahrung oder Wirkung lässt über Jahrzehnte nicht nach – ohne Rückzug, ohne Schaffenspause, ohne dass die Intensität mit dem Alter spürbar abnimmt.",
+        beleg: "Pablo Picasso, der 91 Jahre lang ›unermüdlich, unersättlich, unbeirrbar von jeder Erwartung, die nicht seine eigene war‹ arbeitete und über 20.000 Werke hinterließ: ›Das Krokodil frisst, solange es Hunger hat. Und Picassos Hunger … erlosch nie‹; Gerhard Schröder, dessen ›ganze Instinktausrichtung‹ bereits als Jusochef am Kanzleramtszaun sichtbar wurde: ›Ich will da rein.‹"
+      },
+      {
+        titel: "Wenn Besitzergreifung sich in ein Netzwerk der Kontrolle über Menschen verwandelt (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird dieselbe Fähigkeit zur vollständigen Besitzergreifung nicht auf Ideen oder Werke gerichtet, sondern auf Menschen – durch ein System aus Abhängigkeit, Verführung und stiller Einbindung, das Macht über andere sichert.",
+        beleg: "Jeffrey Epstein, dessen ›System nicht auf offenem Zwang, sondern auf Verführung, Einbindung und dem stillen Bewusstsein basierte: Wer einmal Teil dieses Netzwerks ist‹, blieb gebunden; John McAfee, der auf seinem Anwesen in Belize ›umgeben von bewaffneten Leibwächtern‹ lebte, das er ›sein Königreich‹ nannte. Wichtig: Diese beiden Fälle sind seltene, extreme Ausnahmen unter den SX8-Porträts dieses Kompasses, keine typische Ausprägung – bemerkenswert zeigt umgekehrt Eli Jaxon-Bear, wie sich dasselbe Besitzergreifungs-Muster auch vollständig loslassen lässt."
+      }
+    ]
+  },
   SO8: {
     tier: "Löwe",
     kernthema: "Kraft, die nicht für sich selbst, sondern für das Rudel eingesetzt wird (Naranjo: Freundschaft und Bruderschaft)",
