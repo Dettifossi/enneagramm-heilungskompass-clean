@@ -4742,6 +4742,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-bill-haast", name:"Bill Haast", subtyp:"SX1w9", tier:"Black Mamba"},
   {route:"beruehmte-winifred-charlesworth", name:"Mrs. Winifred Charlesworth", subtyp:"SO2w1", tier:"Golden Retriever"},
   {route:"beruehmte-bernard-faye", name:"Dr. Bernard Faye", subtyp:"SX2w1", tier:"Camel"},
+  {route:"beruehmte-marlene-zuk", name:"Prof. Dr. Marlene Zuk", subtyp:"SX3w4", tier:"Peacock"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -32057,6 +32058,7 @@ function marleneZukPortraitPage() {
         {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
         {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
       ])}
+      ${animalResearcherMatchBlock("beruehmte-marlene-zuk")}
     </div>
   `);
 }
