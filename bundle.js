@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SX7: {
+    tier: "Schimpanse",
+    kernthema: "Vollständige Verschmelzung mit einer Idee, Person oder einem Moment (Naranjo: Suggestibilität)",
+    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs"],
+    fingerabdruecke: [
+      {
+        titel: "Vollständige Verschmelzung mit einer Idee, Person oder einem Moment",
+        beschreibung: "Naranjo nannte diesen Subtyp den der ›Suggestibilität‹: Statt Begeisterung zu streuen, bündelt sich die gesamte Intensität auf einen einzigen Punkt – eine Überzeugung, einen Menschen, eine Sache –, mit einer Kraft, die keine halben Bindungen kennt.",
+        beleg: "Gudrun Ensslin: ›Sie verschmilzt vollständig mit einer Idee, einem Menschen, einer Vision – und wird von dieser Verschmelzung buchstäblich fortgerissen … Wenn die neue Überzeugung da ist, wird das alte Leben vollständig abgeworfen‹; Victor Lustig: ›Eine Fähigkeit, sich vollständig in eine Idee, eine Person, einen Moment hineinzuversetzen – und dabei so überzeugend zu wirken, dass die eigene Begeisterung ansteckend wird‹; Clyde Barrow, dessen ›gesamtes Leben von ständiger Bewegung, immer neuen Fluchtwegen‹ geprägt war."
+      },
+      {
+        titel: "Ansteckende Intensität, die eine ganze Gruppe oder einen ganzen Raum mitreißt",
+        beschreibung: "Die eigene Begeisterung bleibt nicht privat, sondern überträgt sich unmittelbar auf das Umfeld – ein Publikum, ein Orchester, ein Saal wird Teil des eigenen intensiven Moments.",
+        beleg: "Franz Liszt, dessen Konzerte die ›Lisztomania‹ auslösten – ohnmächtige Zuhörerinnen, zerrissene Klaviersaiten: ›Der Schimpanse spielt nicht für sich – er reißt begeistert den ganzen Saal mit sich‹; Leonard Bernstein, der ›das Orchester mit einer Ekstase mitriss, die man auf Aufnahmen auch heute noch förmlich spüren kann‹; Shakira: ›Wenn er sich bewegt, bewegt sich alles um ihn herum mit.‹"
+      },
+      {
+        titel: "Ständige, offen sichtbare Verwandlung ohne Scham",
+        beschreibung: "Persönliche Entwicklung geschieht nicht im Verborgenen, sondern öffentlich und unmittelbar – Häutungen, Rollenwechsel oder gegensätzliche innere Anteile werden nicht versteckt, sondern offen ausgelebt.",
+        beleg: "Miley Cyrus, ›vom Disney-Kinderstar zur eigenständigen Künstlerin … jede dieser Häutungen war laut, sichtbar – und ehrlich‹; Robert Schumann, der seine Persönlichkeit bewusst in die Figuren Florestan und Eusebius aufspaltete: ›Als wüsste er selbst, dass in ihm mehr als eine Stimme sprach‹; Caroline Peters: ›Der Schimpanse, der sich in jeden verwandeln kann – und dabei nie vergisst, wer er selbst ist.‹"
+      },
+      {
+        titel: "Wenn die totale Verschmelzung sich auf eine zerstörerische Idee oder Person richtet (Schattenform)",
+        beschreibung: "Dieselbe vollständige, kompromisslose Hingabefähigkeit kann sich in der destruktiven Ausprägung auf eine gewaltsame Ideologie, eine schädliche Beziehung oder ein betrügerisches System richten – mit derselben Totalität wie im positiven Fall.",
+        beleg: "Aileen Wuornos, für die eine Beziehung ›das einzige Fundament ihres Lebens‹ darstellte, bevor sie zur Serienmörderin wurde; Sean ›P. Diddy‹ Combs, dessen jahrzehntelange öffentliche Inszenierung eine systematische Ausbeutung verdeckte; Ronnie Biggs, der sich einem einzigen spektakulären Coup verschrieb, der sein gesamtes weiteres Leben bestimmte. Wichtig: Diese Fälle sind seltene, extreme Ausnahmen unter den SX7-Porträts dieses Kompasses, keine typische Ausprägung."
+      }
+    ]
+  },
   SO7: {
     tier: "Biber",
     kernthema: "Rastloses Bauen im Dienst der Gemeinschaft – nie wirklich fertig (Naranjo: Kontratyp der Sieben)",
