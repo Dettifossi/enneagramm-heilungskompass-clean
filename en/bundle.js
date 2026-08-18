@@ -640,6 +640,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nikola Tesla – Self-Preservation Type 4",
     teaser:"SE4w5 · 1856–1943. Inventor, engineer. Alternating current, Wardenclyffe Tower, War of the Currents with Edison. The dove that invented for all humanity and, in the end, loved only a single white dove. Animal correspondence: Dove.",
     tags:["Wissenschaft","Geschichte"], gender:"m"},
+{ route:"beruehmte-derek-goodwin", name:"Derek Goodwin", added:"2026-08-18", subtyp:"SE4w5",
+    heading:"Derek Goodwin – Self-Preservation Type 4",
+    teaser:"SE4w5 · 1920–2008. British ornithologist at the Natural History Museum London, definitive works on doves, crows and estrildid finches. A life spent in the background, devoted to its own archetypal animal. Animal correspondence: Dove.",
+    tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-sam-altman", name:"Sam Altman", added:"2026-08-10", subtyp:"SE4w5",
     heading:"Sam Altman – Self-Preservation Type 4",
     teaser:"SE4w5 · born 1985. CEO of OpenAI, former president of Y Combinator. A quiet, methodical struggle to build a future no one has built yet – five days of ouster and return in November 2023, without public drama. Animal correspondence: Dove.",
@@ -4745,6 +4749,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-winifred-charlesworth", name:"Mrs. Winifred Charlesworth", subtyp:"SO2w1", tier:"Golden Retriever"},
   {route:"beruehmte-bernard-faye", name:"Dr. Bernard Faye", subtyp:"SX2w1", tier:"Camel"},
   {route:"beruehmte-marlene-zuk", name:"Prof. Dr. Marlene Zuk", subtyp:"SX3w4", tier:"Peacock"},
+  {route:"beruehmte-derek-goodwin", name:"Derek Goodwin", subtyp:"SE4w5", tier:"Dove"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -28433,7 +28438,69 @@ function nikolaTeslaPortraitPage() {
         {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SE4 – Dove"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoi (SE4w5)"},
         {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SE4w5)"},
+        {route:"beruehmte-derek-goodwin", label:"Portrait: Derek Goodwin (SE4w5)"},
       ])}
+    </div>
+  `);
+}
+
+function derekGoodwinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-derek-goodwin-portrait.jpg" alt="Dove" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Derek Goodwin</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Ornithologist, 1920&ndash;2008 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The dove that devoted its life to the dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four &ndash; it withdraws into the quiet and the persistent, processing its inner experience not in public but in decades of unassuming devotion to a cause entirely its own. Few lives illustrate this pattern as literally as that of Derek Goodwin: as principal scientific officer for birds at the Natural History Museum in London, he wrote, over decades, the books on doves, crows, and estrildid finches that are still regarded as the definitive works in their fields &ndash; a man whose archetypal animal is the dove, who devoted his entire working life to that one bird.</p>
+          <p class="vb-intro">Goodwin was born Richard Patrick Goodwin in 1920 in Woking, though his parents called him Derek for his whole life, for reasons he himself never fully understood. After military service in the Royal Artillery, including the Siege of Tobruk, a chance event in 1945 &ndash; buying back issues of the Avicultural Magazine &ndash; led to his being hired into the bird room of the Natural History Museum, with no formal training in ornithology whatsoever. From this accidental beginning grew a life's work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: significance in the background</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Four (SE4)</strong> does not seek its uniqueness in the spotlight, but in a quiet mastery often visible only to fellow specialists &ndash; it need not prove to anyone how special it is, as long as its own work is deep enough and true enough. Goodwin was a reserved, quiet scientist working behind the scenes, not a public communicator like some of his more famous students. Anyone searching for him today finds mostly professional biographies, obituaries, and his books &ndash; hardly any private photographs, hardly any public appearances.</p>
+          <p class="vb-intro">And yet this work, carried out in the background, radiated far beyond him: Goodwin taught and mentored later well-known ornithologists and behavioral scientists such as Aubrey Manning, Rob Hume, and Desmond Morris &ndash; he himself remained in the shadows while his students gained recognition. This is the Self-Preservation Four exactly: significance arises not through visibility, but through the quiet quality of what is passed on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: the encyclopedic body of work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four an analytical depth and an enormous thirst for knowledge &ndash; one's feeling for a subject is not merely lived through but translated into meticulous, systematic expertise. Goodwin's books on estrildid finches, crows, and pigeons, written over decades, are still regarded as the authoritative standard works in their respective fields &ndash; a Five-wing that was never satisfied with superficial interest, but documented every detail of these birds' behavior across an entire working life.</p>
+          <p class="vb-intro">His advocacy for the endangered golden pheasant and Lady Amherst's pheasant carried the same signature: he wrote numerous letters and articles on their protection and even resigned from the Royal Society for the Protection of Birds because he considered its efforts on their behalf insufficient &ndash; an uncompromising, expertly grounded stance that he held consistently against the mainstream of his own field, including his skepticism toward the reintroduction of raptors such as the white-tailed eagle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE4w5 is its ability to turn <strong>a deep, often painfully unassuming inner devotion into lasting expertise</strong> &ndash; Goodwin's works on doves, crows, and finches are still consulted by ornithologists as references today, far beyond his own lifetime. Honored as a corresponding member of the Deutsche Ornithologen-Gesellschaft despite never having learned German, his example shows that depth of expertise can cross linguistic and geographic borders.</p>
+          <p class="vb-intro">The shadow shows in the near-total invisibility of the person behind the work: where other scientists publicly marketed their findings, Goodwin remained, to the end, the quiet expert in the background &ndash; his photograph is still hard to find online today. The reverse side of the Self-Preservation Four with a Five-wing: pouring one's own uniqueness so completely into the subject that the person themself disappears behind it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The dove that served the dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Goodwin died in 2008 at the age of 88. What he left the world is not a public legacy like Nikola Tesla's, but a quiet, professionally uncontested foundation &ndash; books from which generations of ornithologists learned, without ever seeing their author's name in the headlines.</p>
+          <p class="vb-intro">In the end, one image remains that shows the Self-Preservation Four with a Five-wing in its purest form: a man whose archetypal animal is the dove, who spent his entire life in service to that very dove &ndash; not in the spotlight, but in the quiet, decades-long precision of a body of work that outlasted him.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SE4 – Dove"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SE4w5)"},
+        {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoi (SE4w5)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-derek-goodwin")}
     </div>
   `);
 }
@@ -35763,12 +35830,12 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Dove",
     kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin"],
     fingerabdruecke: [
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
         beschreibung: "Unlike the louder Four subtypes, inner pain or depth shows itself hardly at all outwardly. Processing happens in quiet, often decades-long persistence – without seeking applause for one's own inner struggle.",
-        beleg: "Sam Altman and Leo Tolstoy are described in almost identical terms: 'It doesn't put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It seeks no applause for its inner struggle'; Paul McCartney, about whose 'deepest inner self surprisingly little is known,' despite over sixty years in public life; Clemens G. Arvay, whose work carried 'no drama, no self-staging, but a message that carries and remains.'"
+        beleg: "Sam Altman and Leo Tolstoy are described in almost identical terms: 'It doesn't put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It seeks no applause for its inner struggle'; Paul McCartney, about whose 'deepest inner self surprisingly little is known,' despite over sixty years in public life; Clemens G. Arvay, whose work carried 'no drama, no self-staging, but a message that carries and remains'; Derek Goodwin, whose definitive works on doves, crows and estrildid finches shaped generations of ornithologists while he himself stayed so invisible as the 'quiet expert in the background' that hardly any photograph of him can be found."
       },
       {
         titel: "Toughness despite vulnerability – keeps carrying on, returns where others would give up",
@@ -57277,6 +57344,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-drew-barrymore": drewBarrymorePortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
+      "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
