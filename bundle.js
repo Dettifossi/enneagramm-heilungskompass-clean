@@ -31725,6 +31725,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Osho \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w4 \u00b7 1931\u20131990. Mystiker, Kommune-Gr\u00fcnder, Autor von \u00fcber 600 B\u00fcchern. Vom Ashram in Poona zur Utopie-Stadt Rajneeshpuram \u2013 der Waschb\u00e4r, der Systeme baut, w\u00e4hrend die Vier alle Konventionen infrage stellt. Tierentsprechung: Waschb\u00e4r.",
     tags:["Sonstiges"] , gender:"m"},
+  { route:"beruehmte-sterling-north", name:"Sterling North", added:"2026-08-18", subtyp:"SE3w4",
+    heading:"Sterling North \u2013 Selbsterhaltender Typ 3",
+    teaser:"SE3w4 \u00b7 1906\u20131974. Schriftsteller und Literaturredakteur. Machte mit seinem Buch \u00bbRascal\u00ab (1963, Newbery Honor, verfilmt von Disney) den Waschb\u00e4ren weltber\u00fchmt \u2013 und blieb dem echten Tier sein ganzes Leben lang verbunden.",
+    tags:["Literatur"], gender:"m"},
   { route:"beruehmte-sahra-wagenknecht", name:"Sahra Wagenknecht", added:"2026-07-20", subtyp:"SO3w2",
     heading:"Sahra Wagenknecht \u2013 Sozialer Typ 3",
     teaser:"SO3w2 \u00b7 geb. 1969. Politikerin, Buchautorin, Gr\u00fcnderin des BSW. Die Analytikerin des Popul\u00e4ren \u2013 der Gepard, der nicht nur sprintet, sondern auch wei\u00df, wohin. Tierentsprechung: Gepard.",
@@ -32509,10 +32513,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mario Barth \u2013 Sexueller Typ 9",
     teaser:"SX9w8 \u00b7 geb. 1972. Comedian, Rekordhalter f\u00fcr die gr\u00f6\u00dfte Comedy-Show der Welt (Olympiastadion Berlin). Das Faultier, das sich mit dem Lachen der Masse verschmilzt \u2013 und mit Wucht zubei\u00dft, wenn Kritik kommt.",
     tags:["Comedy"], gender:"m"},
-  { route:"beruehmte-sterling-north", name:"Sterling North", added:"2026-08-18", subtyp:"SE3w4",
-    heading:"Sterling North \u2013 Selbsterhaltender Typ 3",
-    teaser:"SE3w4 \u00b7 1906\u20131974. Schriftsteller und Literaturredakteur. Machte mit seinem Buch \u00bbRascal\u00ab (1963, Newbery Honor, verfilmt von Disney) den Waschb\u00e4ren weltber\u00fchmt \u2013 und blieb dem echten Tier sein ganzes Leben lang verbunden.",
-    tags:["Literatur"], gender:"m"},
 ];
 
 const ASTROLOGIE_PORTRAITS = [
