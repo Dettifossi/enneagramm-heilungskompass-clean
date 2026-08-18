@@ -2184,6 +2184,7 @@ text.nav = [
     { route: "laenderzuordnungen", label: "Country Assignments" },
     { route: "planetenzuordnungen", label: "Planets & Moons of the Solar System" },
     { route: "tierlexikon", label: "Animal Lexicon" },
+    { route: "lebensmusterkompass", label: "Life Pattern Compass (Biographical Fingerprints)" },
   ]},
   { route: "schaubilder", label: "Diagrams", dropdown: [
     { route: "60-sekunden-scan", label: "60-Second Scan" },
@@ -35086,6 +35087,906 @@ function astrologieAngelaMerkelPage() {
   );
 }
 
+// Life Pattern Compass (Lebensmusterkompass) – recurring biographical fingerprints per subtype,
+// worked out from the internal analysis of all case portraits in this compass
+// (Famous Personalities + Criminal Psychology). No external scientific proof,
+// but an internal, coherent observation tool – see the note on the overview page.
+//
+// lebensmusterkompassPortraitsForCode: automatically collects ALL portraits (Famous
+// Personalities + Criminal Psychology) with a matching subtype code from the arrays
+// BERUEHMT_PORTRAITS/KRIMINAL_PORTRAITS that are maintained anyway. That way the example
+// list on the detail pages updates itself automatically with every new portrait, without
+// manually maintaining a separate list.
+function lebensmusterkompassPortraitsForCode(code) {
+  const all = [...BERUEHMT_PORTRAITS, ...KRIMINAL_PORTRAITS];
+  return all
+    .filter(p => (p.subtyp || "").toUpperCase().startsWith(code))
+    .map(p => ({ name: p.name, route: p.route }));
+}
+
+// Fine-tuning of animal image alignment (zoom-crop circles, e.g. Life Pattern Compass,
+// Tritype page, card views): default left offset is -8%. Individual subtypes whose
+// animal is positioned differently in the source image can be overridden here without
+// affecting the others.
+const TIER_AVATAR_LEFT_OVERRIDES = {
+  SE1: -14, SX1: -11, SO2: -14, SX2: -12, SE3: -6, SX4: -7, SO4: -20, SE5: -11,
+  SO5: -11, SE6: -12, SX6: -12, SE7: -11, SO7: -11, SX7: -6, SE8: -15, SO8: -11, SE9: -15, SO9: -14, SX9: -13,
+};
+function tierAvatarLeft(code) {
+  const c = (code || "").toUpperCase();
+  const v = TIER_AVATAR_LEFT_OVERRIDES[c];
+  return (typeof v === "number" ? v : -8) + "%";
+}
+// Vertical fine-tuning (default -20%) – only needed for a few exceptions so far.
+const TIER_AVATAR_TOP_OVERRIDES = {
+  SX6: -26, SE3: -26,
+};
+function tierAvatarTop(code) {
+  const c = (code || "").toUpperCase();
+  const v = TIER_AVATAR_TOP_OVERRIDES[c];
+  return (typeof v === "number" ? v : -20) + "%";
+}
+
+const LEBENSMUSTERKOMPASS = {
+  SO9: {
+    tier: "Buffalo",
+    kernthema: "Identity through belonging to a community, not through the individual person (Naranjo: Participation)",
+    beispiele: ["Amelia Earhart", "Sandra Hüller", "Kevin Costner", "Peter Falk", "Steffi Graf", "Julian Assange", "Ronald Reagan", "Wilma Mankiller", "Willy Brandt", "Nick Leeson", "Leslie Van Houten"],
+    fingerabdruecke: [
+      {
+        titel: "Identity through belonging to a cause or community, not through the individual person",
+        beschreibung: "Naranjo called this subtype the one of 'Participation': the self does not appear as an individual, but merges with a group, an idea, or a larger cause – its thinking and feeling becomes one's own.",
+        beleg: "Julian Assange: 'An animal that defines itself not through going it alone, but through being bound to a larger cause ... He doesn't fight for himself – he fights for something bigger than his own survival'; Kevin Costner: 'He is part of something bigger, and he knows it'; Amelia Earhart, whose 'real project was never personal thrill, but the proof that women can fly like men.'"
+      },
+      {
+        titel: "Calm, unhurried presence that the herd nonetheless follows",
+        beschreibung: "Leadership or impact arises not through command, volume, or dominance, but through a mere, trust-inspiring presence that others join of their own accord.",
+        beleg: "Ronald Reagan: 'The buffalo doesn't lead by command, but by movement: when it walks, the herd walks with it'; Peter Falk as Columbo: 'An investigator who never shouts, never threatens ... The buffalo looks as if you could push it aside. You're wrong every time'; Steffi Graf: 'She makes no drama. She needs no audience to know she is there ... The buffalo proves nothing. It's simply there – and it wins.'"
+      },
+      {
+        titel: "Patiently carrying the burden until a point is reached where something breaks through",
+        beschreibung: "Burdens are carried silently for a long time, without complaint and without visible warning signs – until either a quiet, symbolically powerful moment or a sudden collapse releases the pent-up tension.",
+        beleg: "Willy Brandt's genuflection in Warsaw: 'Not a word. No gesture of deliberation ... It was a buffalo bowing before what had been – and thereby representing an entire people'; Nick Leeson, who 'carried the burden of hidden losses in silence – for years ... He only broke down once the burden had become physically unbearable.'"
+      },
+      {
+        titel: "When complete merging with the community turns destructive (shadow form)",
+        beschreibung: "In its destructive expression, the same need for complete belonging transfers onto a harmful or violence-prone community – one's own judgment is almost entirely replaced by that of the group.",
+        beleg: "Leslie Van Houten, who after her parents' divorce was left 'without social ground' and in the Manson Family found 'not a person, but a community': 'Once it moves in a direction, it does so completely'; Nick Leeson, whose desire to belong led him to conceal losses until he brought England's oldest merchant bank down with him. Important: these two cases are rare, extreme exceptions among the SO9 portraits in this compass, not a typical expression."
+      }
+    ]
+  },
+  SE9: {
+    tier: "Elephant",
+    kernthema: "Calm, weighty presence instead of volume – once in motion, nothing stops it (Naranjo: Appetite)",
+    beispiele: ["James Levine", "Bärbel Bas", "Ludwig Erhard", "Laozi (Lao Tzu)", "Angela Merkel", "Carmen Goglin", "Gina Rinehart", "Thomas Aquinas", "David Hume", "Hans-Dietrich Genscher", "Abida Parveen", "Johannes Brahms", "Alfons Schuhbeck"],
+    fingerabdruecke: [
+      {
+        titel: "Calm, weighty presence instead of volume",
+        beschreibung: "Impact arises not from talking or performing, but from mere, weighty presence – the room changes without a single word being necessary.",
+        beleg: "James Levine: 'He needs no action to have an effect. It's enough that he's there'; Angela Merkel: 'A presence that arises not from volume, but from weight ... She rarely spoke loudly. She made no grand gestures'; Thomas Aquinas, nicknamed 'the dumb ox,' about whom his teacher said: 'His bellowing in teaching will one day fill the whole world.'"
+      },
+      {
+        titel: "Once in motion, nothing stops it anymore",
+        beschreibung: "Progress happens not hastily, but at its own, unwavering pace – once a direction is set, hardly any obstacle still stops that movement.",
+        beleg: "Ludwig Erhard: 'Once it's moving, hardly anything stops it' – 'a man who held stubbornly to an idea until it became reality'; Gina Rinehart: 'The elephant moves slowly. But it moves in one direction, and that direction no longer changes'; Angela Merkel: 'Waiting it out as method.'"
+      },
+      {
+        titel: "Appetite and enjoyment as an expression of the joy of life that soothes an inner emptiness",
+        beschreibung: "Naranjo called this subtype the one of 'Appetite': physical pleasure, habit, and comfort serve to soothe a deeper inner emptiness – not as weakness, but as a deeply rooted life principle.",
+        beleg: "Alfons Schuhbeck: 'The self-preservation subtype of the Nine is called \"Appetite\": the inner emptiness every Nine carries is soothed through physical pleasure, food, habit, and comfort'; Johannes Brahms, who 'remained frugal even after fame had long made him one of the richest composers in Europe'; Abida Parveen: 'Appetite for merging,' whose calm, unhurried singing sends entire concert halls into a trance."
+      },
+      {
+        titel: "When the quiet appetite turns into quiet self-service without guilt (shadow form)",
+        beschreibung: "In its destructive expression, the same appetite that otherwise seeks comfort and enjoyment turns into a persistent, barely noticed circumvention of rules – accompanied by the quiet feeling of claiming a well-earned right.",
+        beleg: "Alfons Schuhbeck, who 'quietly and persistently circumvented the law – without inner turmoil, without guilt, almost without noticing it himself,' and manipulated cash records for years: 'I work so hard, I achieve so much – what I take for myself is my good right.' Important: this is the only known case of this kind among the SE9 portraits in this compass, not a typical expression."
+      }
+    ]
+  },
+  SX8: {
+    tier: "Crocodile",
+    kernthema: "Patient waiting, then complete, lightning-fast seizure (Naranjo: Possession)",
+    beispiele: ["Adele Neuhauser", "Pablo Picasso", "Prof. Grahame Webb", "Donald J. Trump", "Diogenes of Sinope", "Giacomo Puccini", "Gerhard Schröder", "Ruth Bader Ginsburg", "Genesis P-Orridge", "Eli Jaxon-Bear", "John McAfee", "Jeffrey Epstein"],
+    fingerabdruecke: [
+      {
+        titel: "Patient waiting, then complete, lightning-fast seizure",
+        beschreibung: "Naranjo called this subtype the one of 'Possession': strength shows itself not in constant activity, but in near-motionless waiting, followed by a single, complete, and irrevocable strike at the right moment.",
+        beleg: "Adele Neuhauser: 'The crocodile is still until it acts ... No warning. No wasted energy. Just the grip that holds'; Ruth Bader Ginsburg: 'Patient in waiting, precise in its grip, unimpressed by resistance' – 'The crocodile needs no posturing. Its grip is enough'; Genesis P-Orridge: 'Once it snaps shut, there is no going back.'"
+      },
+      {
+        titel: "Radical, unprotected public life instead of retreat",
+        beschreibung: "Instead of hiding, one's own life or conviction is lived demonstratively in public – without regard for social expectations or etiquette, and precisely because of that, hard to ignore.",
+        beleg: "Diogenes of Sinope, who lived 'without a house, without possessions, without shame' in the marketplace of Athens: 'The crocodile doesn't hide – it lies visibly on the bank, and whoever passes must reckon with it'; Donald Trump: 'He dominates rooms, draws in cameras, is never neutral'; Giacomo Puccini, who 'paid no regard to etiquette' and 'still drew the full attention of every room' he entered."
+      },
+      {
+        titel: "Relentless drive that never fades over a whole lifetime",
+        beschreibung: "One's own hunger for expression, experience, or impact does not diminish over decades – no retreat, no creative pause, no noticeable drop in intensity with age.",
+        beleg: "Pablo Picasso, who for 91 years worked 'tirelessly, insatiably, unswayed by any expectation that was not his own' and left behind more than 20,000 works: 'The crocodile eats as long as it's hungry. And Picasso's hunger ... never went out'; Gerhard Schröder, whose 'entire instinctual orientation' was already visible as a young Juso chairman at the Chancellery fence: 'I want to get in there.'"
+      },
+      {
+        titel: "When possession-taking turns into a network of control over people (shadow form)",
+        beschreibung: "In its destructive expression, the same ability for complete seizure is directed not at ideas or works, but at people – through a system of dependency, seduction, and quiet enmeshment that secures power over others.",
+        beleg: "Jeffrey Epstein, whose 'system was not based on open coercion, but on seduction, enmeshment, and the quiet awareness: once part of this network,' one remained bound; John McAfee, who lived on his estate in Belize 'surrounded by armed bodyguards,' which he called 'his kingdom.' Important: these two cases are rare, extreme exceptions among the SX8 portraits in this compass, not a typical expression – notably, Eli Jaxon-Bear shows the reverse: how the same possession-taking pattern can also be fully let go."
+      }
+    ]
+  },
+  SO8: {
+    tier: "Lion",
+    kernthema: "Strength used not for oneself, but for the pride (Naranjo: Friendship and Brotherhood)",
+    beispiele: ["Socrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Muhammad ibn Abdullah", "Helmut Kohl", "John Gotti"],
+    fingerabdruecke: [
+      {
+        titel: "Strength used not for oneself, but for the pride",
+        beschreibung: "Naranjo described this subtype as the type of 'Friendship and Brotherhood': strength does not serve personal self-assertion, but the protection and cohesion of a community one feels responsible for.",
+        beleg: "Michelle Obama: 'Strength here is not an end in itself – it serves the We. The lion protects its pride. Michelle Obama protects her people'; Carsten Stahl: 'His strength isn't for himself – it's for those standing next to him. When the weak are threatened, the lion rises'; Karl Marx: 'He didn't fight for himself. He fought for a pride he never knew personally: the working class of the whole world.'"
+      },
+      {
+        titel: "Mere presence is enough – no constant roaring needed",
+        beschreibung: "Authority and impact arise not through the permanent demonstration of power, but through a physical and mental presence felt as soon as it enters a room.",
+        beleg: "Bud Spencer: 'The lion doesn't need to roar to have an effect. Its presence alone is enough ... When the pride is in danger, it rises. Until then, it's simply there'; Helmut Kohl: 'He doesn't roar constantly; his power lies in the sheer physical and mental presence others feel as soon as he enters a room.'"
+      },
+      {
+        titel: "Precise, chosen intervention instead of indiscriminate confrontation",
+        beschreibung: "Strength is not deployed indiscriminately, but only after careful observation, at the right moment and with a clear target – without wasting unnecessary energy.",
+        beleg: "Jamaica Kincaid: 'The lion doesn't fight indiscriminately. It waits, observes, chooses the moment. And when it attacks, it does so with a precision that wastes no energy'; Socrates, who remained 'barefoot in winter, indifferent to comfort, incorruptible in his convictions': 'The lion doesn't retreat when things get uncomfortable – it holds its ground.'"
+      },
+      {
+        titel: "When pride loyalty becomes a publicly displayed criminal brotherhood (shadow form)",
+        beschreibung: "In its destructive expression, the same protective instinct and the same pride loyalty become the basis of a criminal organization – power is not hidden here, but demonstratively displayed.",
+        beleg: "John Gotti, who ran the Gambino clan 'not from hiding, but in the spotlight': 'He wore Brioni suits worth thousands of dollars. He waved at cameras ... He was their king – and he knew it.' Important: this is the only known case of this kind among the SO8 portraits in this compass, not a typical expression."
+      }
+    ]
+  },
+  SE8: {
+    tier: "Orangutan",
+    kernthema: "Solitary, quiet territory with no need for an audience (Naranjo: Satisfaction)",
+    beispiele: ["Dr. Umberto Eco", "Jacqueline Mars", "Indra Nooyi", "Toni Morrison", "Dhapanbal Yunupingu", "Golda Meir", "Dr. Biruté Galdikas", "Winston Churchill", "Griselda Blanco", "Salvatore Riina"],
+    fingerabdruecke: [
+      {
+        titel: "Solitary, quiet territory with no need for an audience or validation",
+        beschreibung: "Naranjo called this subtype the one of 'Satisfaction': security arises through personal, material, or positional self-sufficiency – not through social recognition. Power doesn't need to prove itself to anyone; it simply is.",
+        beleg: "Jacqueline Mars: 'The orangutan is the most solitary of the great apes: it needs no troop, no stage, no validation ... She has given hardly any public interviews for decades'; Toni Morrison: 'She lives her own way, at her own pace, with a dignity that needs no explanation'; Golda Meir: 'A quiet power that doesn't need to prove itself.'"
+      },
+      {
+        titel: "Patient, systematic building of one's own territory over decades",
+        beschreibung: "Position or influence do not arise from a single spectacular step, but through persistent, often unassuming construction, level by level, over a very long period.",
+        beleg: "Indra Nooyi, who arrived in the US with 'little more than 500 dollars in her pocket' and 28 years later led one of the world's largest food corporations: 'The systematic, patient building of a territory, level by level, until no one doubted anymore who sat on top'; Dr. Biruté Galdikas, whose decades of fieldwork made her the world's leading orangutan expert – the same principle mirrored in her own research work."
+      },
+      {
+        titel: "Unshakable steadfastness under extreme pressure",
+        beschreibung: "When the situation becomes most difficult, a physical and psychological immovability appears that does not yield even under the greatest external pressure – not through loud resistance, but through sheer, unshakable staying.",
+        beleg: "Winston Churchill, who in 1940 'stayed on the branch while the storm raged': 'His body is built to stay – not to flee'; Golda Meir: 'This is not the story of a career. It's the story of a survival – and a will that would not break.'"
+      },
+      {
+        titel: "When the same quiet territorial control becomes ruthless and lethal (shadow form)",
+        beschreibung: "In its destructive expression, the characteristic quiet, unassuming securing of power becomes not legitimate building, but ruthless, often lethal control over a criminal territory – led from hiding, without a public face.",
+        beleg: "Griselda Blanco: 'She ruled the cocaine trade in Miami not through charisma or political influence, but through quiet, ruthless control ... And whoever crossed her, disappeared'; Salvatore Riina, who remained undetected for 23 years while, as a mafia boss, he was responsible for hundreds of murders. Important: these two cases are rare, extreme exceptions among the SE8 portraits in this compass, not a typical expression."
+      }
+    ]
+  },
+  SX7: {
+    tier: "Chimpanzee",
+    kernthema: "Complete merging with an idea, person, or moment (Naranjo: Suggestibility)",
+    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs"],
+    fingerabdruecke: [
+      {
+        titel: "Complete merging with an idea, person, or moment",
+        beschreibung: "Naranjo called this subtype the one of 'Suggestibility': instead of spreading enthusiasm, the entire intensity bundles onto a single point – a conviction, a person, a cause – with a force that knows no half-commitments.",
+        beleg: "Gudrun Ensslin: 'She merges completely with an idea, a person, a vision – and is literally swept away by that merging ... Once the new conviction is there, the old life is completely cast off'; Victor Lustig: 'An ability to fully immerse himself in an idea, a person, a moment – and to appear so convincing that his own enthusiasm becomes contagious'; Clyde Barrow, whose 'entire life was shaped by constant movement, ever new escape routes.'"
+      },
+      {
+        titel: "Contagious intensity that sweeps up an entire group or room",
+        beschreibung: "One's own enthusiasm doesn't stay private, but transfers directly onto the surroundings – an audience, an orchestra, a hall becomes part of one's own intense moment.",
+        beleg: "Franz Liszt, whose concerts triggered 'Lisztomania' – fainting listeners, torn piano strings: 'The chimpanzee doesn't play for himself – he sweeps the whole hall along with his enthusiasm'; Leonard Bernstein, who 'swept the orchestra into an ecstasy you can still feel almost physically on recordings today'; Shakira: 'When she moves, everything around her moves too.'"
+      },
+      {
+        titel: "Constant, openly visible transformation without shame",
+        beschreibung: "Personal development happens not in hiding, but publicly and directly – shedding skins, changing roles, or contradictory inner parts are not concealed, but lived openly.",
+        beleg: "Miley Cyrus, 'from Disney child star to independent artist ... every one of these transformations was loud, visible – and honest'; Robert Schumann, who consciously split his personality into the figures Florestan and Eusebius: 'As if he himself knew that more than one voice spoke within him'; Caroline Peters: 'The chimpanzee, who can turn into anyone – and never forgets who he himself is.'"
+      },
+      {
+        titel: "When total merging turns toward a destructive idea or person (shadow form)",
+        beschreibung: "In its destructive expression, this same complete, uncompromising capacity for devotion can direct itself toward a violent ideology, a harmful relationship, or a fraudulent system – with the same totality as in the positive case.",
+        beleg: "Aileen Wuornos, for whom a relationship 'was the only foundation of her life' before she became a serial killer; Sean 'P. Diddy' Combs, whose decades of public staging concealed systematic exploitation; Ronnie Biggs, who devoted himself to a single spectacular heist that shaped the rest of his life. Important: these cases are rare, extreme exceptions among the SX7 portraits in this compass, not a typical expression."
+      }
+    ]
+  },
+  SO7: {
+    tier: "Beaver",
+    kernthema: "Restless building in service of the community – never really finished (Naranjo: countertype of the Seven)",
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Nikola Tesla", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr."],
+    fingerabdruecke: [
+      {
+        titel: "Restless, never-finished building in service of a larger system",
+        beschreibung: "Instead of enjoying things for oneself, something is continuously built that has an effect beyond one's own person – as soon as one project is finished, the next already begins, with no real pause.",
+        beleg: "Elon Musk: 'The beaver doesn't do half measures. It builds and builds – and looks for the next obstacle to dam'; Nikola Tesla, who 'left behind over 300 patents and changed the technical infrastructure of all humanity, without ever pausing on a single invention'; Hazel Brugger: 'The beaver always has a new project'; Drew Barrymore: 'If a dam collapses, the beaver starts over immediately, without dwelling on it.'"
+      },
+      {
+        titel: "Complete inner planning before the first move is even made",
+        beschreibung: "Before anything is visibly built, the whole work first arises completely on the inside – as a clear vision that is then translated into reality step by step.",
+        beleg: "Nikola Tesla, who 'saw spontaneous, flashing inner images of machines that he could construct down to the last detail in his mind's eye before he ever picked up a tool': 'The beaver plans the dam completely in its head before the first branch falls'; Dieter Nuhr: 'The beaver, who examines every stone carefully before placing it.'"
+      },
+      {
+        titel: "Service to something bigger than oneself, instead of personal fame",
+        beschreibung: "One's own work is understood not as self-promotion, but as a contribution to a community, an idea, or a system that is bigger than one's own person.",
+        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'"
+      },
+      {
+        titel: "When a perfect, dutiful facade conceals an excessive, destructive reality (shadow form)",
+        beschreibung: "In its destructive expression, exactly the adaptive achievement that marks the countertype of the Seven – dutifulness, friendly conduct, apparent self-sacrifice – becomes the perfect cover for a completely different, often excessive inner reality that eventually breaks through violently.",
+        beleg: "Chris Watts: 'A social Type 7 – the countertype of the Seven – hides his true excess behind a cloak of duty and self-sacrifice for so long, until it wipes out everything that threatens to hold him' – 'unassuming, polite, compliant' on the outside, until the murder of his family; Frank Abagnale Jr., who as a con artist 'skillfully' built entire false identities and careers instead of real ones. Important: these two cases are rare, extreme exceptions among the SO7 portraits in this compass, not a typical expression."
+      }
+    ]
+  },
+  SX6: {
+    tier: "Wolf",
+    kernthema: "Fear is not avoided but confronted head-on – strength as counter-fear (Naranjo: countertype of the Six)",
+    beispiele: ["Vladimir Putin", "Plato", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson"],
+    fingerabdruecke: [
+      {
+        titel: "Fear is not avoided, but confronted head-on",
+        beschreibung: "Unlike the other Six subtypes, this expression seeks security not through adaptation or retreat, but through directly confronting one's own fear – strength becomes the counter-reaction to a deep-seated insecurity.",
+        beleg: "Beethoven: 'Whoever learns as a child that vulnerability is punished, learns to preempt it with toughness'; Michael Schumacher: 'The wolf doesn't cower before the threat. It turns around and runs toward it. That's the sexual Six at its deepest: fear not as paralysis, but as fuel'; Kollegah: 'The wolf has fear – and turns that fear into strength'; Putin's childhood memory of a cornered rat that leapt at his face: 'Whoever is cornered must never retreat.'"
+      },
+      {
+        titel: "Direct eye contact and plain speech instead of retreat or diplomacy",
+        beschreibung: "Conflicts are not avoided, but sought out and fought openly – with a directness that surprises or unsettles many, but is rarely dishonest.",
+        beleg: "Katja Riemann: 'The wolf doesn't shy from the threat, but looks it straight in the eye ... Plain speech instead of diplomacy'; Byron Katie: 'Wolves test each other through eye contact and closeness, not through retreat' – her method 'The Work' as a principle of not avoiding one's own fear; Alice Schwarzer: 'She sparked debates no one wanted to have ... The wolf that never stops howling.'"
+      },
+      {
+        titel: "Strength from the pack instead of going it alone",
+        beschreibung: "One's own strength arises not in isolation, but in connection with a group, an ensemble, or a community for which one exposes oneself and proves oneself again and again.",
+        beleg: "Anke Engelke: 'Her strength comes not from isolation, but from connection'; Jennifer Aniston: 'The ability to keep putting herself into the pack ... and hold her ground there when it gets uncomfortable'; Alice Schwarzer: 'The wolf lives in the pack, fights for the pack – and bares its teeth when the pack is threatened.'"
+      },
+      {
+        titel: "When the fear-counter-fear dynamic tips into fanatical ideology or violence (shadow form)",
+        beschreibung: "In its destructive expression, the head-on confrontation of one's own fear turns into violent, often ideologically charged control over others – or a pack is exploited through fear and fascination instead of being protected.",
+        beleg: "Charles Manson: 'The wolf needs the pack, creates it, leads it through fear and fascination at once ... a pack leader who never picked up a weapon himself – and yet was the most dangerous one in the pack'; Anders Breivik, whose ideology 'developed over years and culminated in a murderous manifestation of hatred and alienation'; Armin Meiwes, who eventually acted out a fantasy nurtured for decades. Important: these three cases are rare, extreme exceptions among the SX6 portraits in this compass, not a typical expression."
+      }
+    ]
+  },
+  SO6: {
+    tier: "Meerkat",
+    kernthema: "Standing guard for the group, not for oneself – security through belonging and duty",
+    beispiele: ["Melanie Kreis", "Immanuel Kant", "Dr. Sigmund Freud", "Andy Reid", "Donata Hopfen", "Herbert Grönemeyer", "James Corden", "Adolf Eichmann"],
+    fingerabdruecke: [
+      {
+        titel: "Standing guard for the group, not for oneself",
+        beschreibung: "One's own role is consistently subordinated to the collective: visibility or personal appearance take a back seat to reliably fulfilling one's own function within the system.",
+        beleg: "Melanie Kreis: 'She is described as reliable, precise, analytical – and as someone who works for the company, not for her own appearance. That's the meerkat: it stands guard. Not for itself. For the group'; Andy Reid: 'Not the loudest animal in the pack, but the one who stands guard longest and most reliably – for a system bigger than itself'; James Corden: 'It's rarely the biggest animal in the pack, but always the one that does the most to keep everyone together.'"
+      },
+      {
+        titel: "Security through fixed, reliable routine instead of departure",
+        beschreibung: "Reliability arises through recurring, fixed structures in everyday life – the same paths, the same times, the same procedures – that offer protection from an unpredictable world.",
+        beleg: "Immanuel Kant, who in 80 years of life practically never left Königsberg and whose daily schedule was so unfailingly timed 'that the residents of Königsberg are said to have set their clocks by his afternoon walk': 'The meerkat posts its guards at the same spots, at the same time, every day'; Andy Reid, who for over thirty years has worn 'the same checkered short-sleeved shirt, with the same cheeseburger smile.'"
+      },
+      {
+        titel: "The w7 variant: not waiting, but running ahead of the group",
+        beschreibung: "Instead of methodically scanning the horizon, this expression actively brings movement into the system – mobilizes the group before a threat is even visible, or actively gathers people together.",
+        beleg: "Donata Hopfen: 'Others take off running, mobilize the group, bring movement into the territory before the threat is even visible ... The meerkat of the SO6w7 doesn't run away – it runs ahead'; James Corden, who in 'Carpool Karaoke' literally gathers people into his own car: 'Get in, sing along, be part of it.'"
+      },
+      {
+        titel: "When embeddedness in a system completely replaces one's own conscience (shadow form)",
+        beschreibung: "In its destructive expression, belonging to an authority structure becomes not a means of security, but a complete substitute for independent moral judgment – orders are carried out without being questioned.",
+        beleg: "Adolf Eichmann: 'The meerkat trusts the system of the colony completely – it doesn't doubt, it doesn't question, it carries out ... Joining the NSDAP and the SS was for him not an ideological act – it was an act of embeddedness. He rose because he was reliable, obedient, carried out tasks cleanly. That is the SO6 career: not through brilliance, but through conformity.' Important: this is the only known case of this kind among the SO6 portraits in this compass, not a typical expression."
+      }
+    ]
+  },
+  SE6: {
+    tier: "Rabbit",
+    kernthema: "Constant alertness to danger, security sought in the familiar (Naranjo: Warmth)",
+    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List"],
+    fingerabdruecke: [
+      {
+        titel: "Perceiving danger earlier than others – constant, active alertness",
+        beschreibung: "The senses are continuously oriented toward possible threats. This often makes it possible to foresee developments before they become visible to others – not out of anxiety in the negative sense, but as constantly active risk assessment.",
+        beleg: "Herbert Kickl: 'It hears earlier, smells earlier, senses earlier than others when something is wrong'; Sundar Pichai: 'It listens before it moves ... stays calm exactly when others panic, because it analyzed the situation long before it escalated'; Malaika Mihambo, whose long jump is a 'controlled explosion': 'When it does jump, it's only after carefully weighing the ground, the distance, the danger.'"
+      },
+      {
+        titel: "Security in the familiar rather than on the big stage",
+        beschreibung: "The true home is not publicity or the spotlight, but the close, familiar circle – friends, family, a known place – from which extraordinary achievement can also arise.",
+        beleg: "Franz Schubert, who 'avoided the publicity of the concert hall his whole life and found his true home in the private circle of close friends' – the Schubertiads; Woody Allen, who has 'spent practically his entire life in Manhattan' and prefers 'familiar routes, at familiar times'; Neil Armstrong, who after the moon landing 'wanted nothing more than normalcy' and returned to his farm in Ohio; Beatrice Chebet: 'The rabbit doesn't run away. It runs home.'"
+      },
+      {
+        titel: "Calm functioning under extreme pressure, because the danger was already calculated",
+        beschreibung: "Even in exceptional situations, a surprising capacity to act remains – not through spontaneous courage, but because possible threats had already been mentally played out in advance.",
+        beleg: "Fyodor Dostoevsky, who survived a mock execution, and whose rabbit-nature remained 'astonishingly functional even in exceptional situations,' 'because it had already calculated the danger before it arrived'; Sundar Pichai, who leads one of the world's most powerful technology companies 'without ever raising his voice ... no step that isn't secured.'"
+      },
+      {
+        titel: "When years of suppressed fear unexpectedly erupt into violence (shadow form)",
+        beschreibung: "In its destructive expression, fear remains outwardly controlled and invisible for years – until a situation arises with no perceived way out, and the pent-up tension discharges abruptly and unpredictably.",
+        beleg: "John List: 'The rabbit flees when it can. But cornered – with no way out, no escape route – it lashes out. Hard, sudden, surprising ... For years he kept his ears up, registered every sign of danger, stayed silent, kept his head down, functioned. And then ... he lashed out.' Important: this is the only known case of this kind among the SE6 portraits in this compass, not a typical expression."
+      }
+    ]
+  },
+  SX5: {
+    tier: "Hedgehog",
+    kernthema: "Spikes on the outside, softness within – trust as an exclusive, protected space",
+    beispiele: ["Frédéric Chopin", "Taylor Swift", "Tilda Swinton", "Siddhartha Gautama (Buddha)", "Friedrich Nietzsche", "Greta Garbo", "Mark Zuckerberg", "Edward Snowden", "Jodie Foster", "Jeffrey Dahmer", "Joel Rifkin"],
+    fingerabdruecke: [
+      {
+        titel: "Spikes on the outside, extraordinary softness underneath – accessible only to very few",
+        beschreibung: "The defensive, unapproachable exterior is not coldness, but protection for a particularly intense, sensitive interior that only shows itself once trust has been built.",
+        beleg: "Taylor Swift: 'Whoever knows him knows: underneath is something extraordinarily soft. But you have to have built trust to touch it'; Mark Zuckerberg: 'The spikes are made of code. The inside is seen only by those he truly trusts'; Edward Snowden: 'Whoever wants to touch it must earn its trust. And whoever forces it will get stung.'"
+      },
+      {
+        titel: "Retreat as a deliberate reserving of intimacy for a few exclusive connections",
+        beschreibung: "Withdrawal from the public eye doesn't mean indifference to closeness, but exactly the opposite: energy and intimacy are consciously saved for very few, but very deep, relationships.",
+        beleg: "Jodie Foster: 'The retreat happens not out of indifference, but to save one's own intimacy and energy for very few, exclusive connections'; Greta Garbo, who at 36 withdrew from public life for almost fifty years: 'Total immersion in the one intense encounter ... and just as radical a retreat before and after' – 'I want to be let alone,' not alone, but left in peace."
+      },
+      {
+        titel: "Radical breakthrough to the core instead of attachment to system, status, or possessions",
+        beschreibung: "Instead of binding oneself to external securities, social systems, or institutions, the one decisive question is pursued to its utmost – with cutting, often solitary consistency.",
+        beleg: "Siddhartha Gautama, who left palace, wife, and son 'to dissect a single question with cutting consistency': 'No path of attachment to people, places, or institutions, but a path of radical penetration' – 'Depth instead of system'; Friedrich Nietzsche, who 'preferred, from the start, to think alone rather than in company.'"
+      },
+      {
+        titel: "When the desire for exclusive closeness tips into a claim of ownership over the other (shadow form)",
+        beschreibung: "In its destructive expression, the wish for the one, deep connection turns into a claim to fully possess and control the other – up to the total extinguishing of the other's independent existence.",
+        beleg: "Jeffrey Dahmer: 'He didn't want to destroy his victims – he wanted to possess them'; Joel Rifkin, who outwardly lived as an unremarkable resident of a quiet suburb while murdering, entirely hidden, over years. Important: these two cases are rare, extreme exceptions among the SX5 portraits in this compass, not a typical expression."
+      }
+    ]
+  },
+  SO5: {
+    tier: "Octopus",
+    kernthema: "Multi-armed, parallel knowledge that serves the community (Naranjo: Totem) – or is controlled as an instrument of power",
+    beispiele: ["Dr. Albert Einstein", "Gertrude Belle Elion", "Dr. Claudio Naranjo", "Leonardo da Vinci", "Georg Wilhelm Friedrich Hegel", "Isaac Newton", "Pythagoras", "Jennifer Mather", "Bill Gates", "Günther Jauch", "Dr. Ted Kaczynski", "Dr. Harold Shipman"],
+    fingerabdruecke: [
+      {
+        titel: "Multi-armed, parallel thinking made available to the community",
+        beschreibung: "Naranjo called this subtype the one of the 'Totem': gathered knowledge is not kept for oneself, but offered to the group as a contribution. Characteristic is thinking simultaneously in several areas or directions, without exhausting oneself in a single one.",
+        beleg: "Leonardo da Vinci: 'A being of extraordinary intelligence, exploring the world with countless arms at once and making his knowledge available to the community instead of hoarding it for himself' – painter, anatomist, engineer, botanist at once; Gertrude Belle Elion, 'who thought simultaneously in several directions' and 'saved millions of lives with her work, without most people today knowing her name'; Jennifer Mather: 'Knowledge as a contribution to the community.'"
+      },
+      {
+        titel: "Knowledge is developed in secret for years before being released in a controlled way",
+        beschreibung: "Unlike spontaneous sharing, the release of knowledge occurs only after long, often decades-long, quiet preparation – and then consciously dosed, at a self-chosen moment.",
+        beleg: "Isaac Newton, who kept the foundations of his physics 'to himself almost exclusively for over two decades': 'The octopus doesn't hide out of weakness. It hides because it wants to keep control over when and how its knowledge reaches the world'; Hegel, who only received his first professorship at 46, after 'a long phase of quiet, withdrawn system-writing'; Pythagoras, who shared his knowledge 'outward only in precisely measured doses.'"
+      },
+      {
+        titel: "A structure or an order of one's own as a framework for shared but guarded knowledge",
+        beschreibung: "Instead of spreading knowledge individually or haphazardly, a dedicated institution, circle, or system often emerges, within which knowledge is passed on and maintained in a controlled way.",
+        beleg: "Pythagoras, who founded a community in Croton that was 'at once a research circle, a religious order, and a political alliance': 'The octopus builds itself a shell, a structure, within which it controls its knowledge'; Hegel's lifelong philosophical system, 'the system as totem'; Claudio Naranjo, whose own Enneagram school served as an ordered system for passing on his life's work."
+      },
+      {
+        titel: "When the same pattern becomes an instrument of power instead of service (shadow form)",
+        beschreibung: "In its destructive expression, gathered knowledge or a controlled structure becomes not a gift to the community, but a means of control used over others or against them.",
+        beleg: "Bill Gates: 'Behind the friendly sweater ... lies a pattern that runs through his whole life: systematic control over what others need ... The totem as an instrument of power'; Dr. Harold Shipman, who as a trusted family doctor used his medical knowledge to kill at least 218 patients over two decades; Dr. Ted Kaczynski, who directed universal erudition against the society he believed he was saving. Important: Gates' case is critical, not criminal, and by no means to be equated with Shipman or Kaczynski – yet all three show the same underlying structure at very different degrees of severity."
+      }
+    ]
+  },
+  SE5: {
+    tier: "Owl",
+    kernthema: "Retreat as a deliberately built fortress – quiet observation instead of flight",
+    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch Spinoza", "Carl Tanzler", "Joachim Kroll"],
+    fingerabdruecke: [
+      {
+        titel: "Retreat as a deliberately built 'fortress' instead of mere flight",
+        beschreibung: "The retreat space is not a sign of weakness, but an actively built, protected base from which to observe, think, and work – small, manageable, but entirely under one's own control.",
+        beleg: "Xu Bing: 'The owl who, in a time of the greatest publicity, learned to withdraw into the silence of the character' – 'the fortress of characters'; Peter Lustig, whose camper became a 'fortress'; Warren Buffett, who has lived in the same house in Omaha since 1958: 'the fortress in Omaha'; Hermann Hesse, who spent forty years in his house in Ticino: 'the fortress in Ticino'; Spinoza: 'the fortress of thought.'"
+      },
+      {
+        titel: "Patient waiting until the knowledge or the moment is unassailable",
+        beschreibung: "Acting or publishing happens not impulsively, but only once every objection has been anticipated and every detail secured – a process that may look like hesitation from outside but is an expression of extreme care.",
+        beleg: "Charles Darwin, who 'held back his theory of evolution for twenty years before publishing it ... until what he'd observed was unassailable'; Warren Buffett: 'She only acts once she has truly understood what she sees. And when she acts, she does so with a precision others mistake for luck, but which presupposes decades of patient observation.'"
+      },
+      {
+        titel: "Rejection or crisis becomes a method of retreat, rather than leading to open rupture",
+        beschreibung: "Rejection, banishment, or a deep life crisis is met not with resistance or confrontation, but with a calm, methodical retreat into a self-chosen, controlled existence.",
+        beleg: "Spinoza, banished from his community at 23: 'He did not react with resistance or negotiation – he withdrew ... and lived the rest of his life outside any community that could have bound him'; Xu Bing, whose family was destroyed by the Cultural Revolution: 'That experience did not become a rupture, but a method'; Hermann Hesse, whose crisis after fleeing the monastery seminary shaped 'a lifelong movement inward'; Marie Curie, who left her homeland because women were not allowed to study there."
+      },
+      {
+        titel: "When the invisible intensity of isolation condenses into something irreversible (shadow form)",
+        beschreibung: "In its destructive expression, the same quiet, barely visible intensity does not lead to insight, but to an obsessive fixation that builds unnoticed over years until it tips into something extreme and irreversible.",
+        beleg: "Carl Tanzler: 'The owl observes from a distance and hoards what fascinates it, with an intensity invisible from outside – until it turns into something irreversible' – he preserved the corpse of a dead woman for seven years; Joachim Kroll, whom neighbors found to be a 'quiet, unremarkable, almost childlike man,' while he murdered undetected for over two decades. Important: these two cases are rare, extreme exceptions among the SE5 portraits in this compass, not a typical expression."
+      }
+    ]
+  },
+  SX4: {
+    tier: "Chihuahua",
+    kernthema: "Small in stature, immense inner life – intensity that knows no half-measures (Naranjo: Competitiveness)",
+    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler"],
+    fingerabdruecke: [
+      {
+        titel: "Small in stature or origin, immense inner life – intensity without half-measures",
+        beschreibung: "Naranjo called this subtype the one of 'Competitiveness': an intensity utterly disproportionate to outward appearance or starting conditions. No half-feeling, no moderate demeanor – whatever is felt is felt completely.",
+        beleg: "Freddie Mercury: 'The Chihuahua who turns into a lion – and never stops being a Chihuahua'; Rihanna, from 'a child from the Caribbean to the most global entertainer of her generation': 'Small, where she comes from. Unstoppable, where she's going'; Billie Eilish: 'It doesn't shake out of weakness, but out of alertness: every fiber of its small body is tuned to intensity'; Dante, Debussy, and the Marquis de Sade are described in almost identical terms: 'Small in stature, immense inner life, incapable of half-measures.'"
+      },
+      {
+        titel: "Rejection or exile becomes creative power, rather than leading to revenge or resignation",
+        beschreibung: "Injury, rejection, or forced distance does not lead to withdrawal, but becomes the most fertile material for a work or path of one's own.",
+        beleg: "Voltaire, who turned exile from France into 'the most fertile period of his life'; Dante, who out of his banishment from Florence created 'one of the mightiest literary works in world history': 'He turned banishment not into resignation, but into the material for a work that secured him posthumously exactly the immortality the city denied him in life'; Ana de Armas, who fought her way through Hollywood without a safety net or connections."
+      },
+      {
+        titel: "Uncompromising intensity that submits to no external convention",
+        beschreibung: "Adapting to expectations, rules, or social norms is experienced as constriction, which is resisted with all one's strength – even when that means open conflict with one's own era.",
+        beleg: "Claude Debussy, who as a student 'regularly provoked his teachers with chord progressions considered \"wrong\"': 'The Chihuahua who sensed from the start: the rules I'm being taught are not the truth I'm looking for'; Linda Leinweber: 'Depth that isn't ashamed. Insight that doesn't hide'; Voltaire, who after his imprisonment in the Bastille 'bit back sharper' instead of staying silent."
+      },
+      {
+        titel: "When the same boundless intensity turns against others instead of against conventions (shadow form)",
+        beschreibung: "In its destructive expression, uncompromising intensity turns not productive but destructive: wounded pride, absolute rivalry, or a love tragically fused with violence tip into harm or annihilation of others.",
+        beleg: "The Marquis de Sade, whose radical rejection of all order discharged in documented acts of violence against others; Bonnie Parker, who during a 21-month crime spree wrote poems about her relationship with Clyde Barrow that 'almost prophetically anticipated her own violent death' – 'a dark premonition of her own downfall that does not diminish the love, but completes it'; Adolf Hitler as the most extreme, most consequential expression. Important: these cases are rare, dangerous extreme forms – the overwhelming majority of SX4 in this compass show none of this pattern."
+      }
+    ]
+  },
+  SO4: {
+    tier: "Armadillo",
+    kernthema: "A hard shell on the outside, an extraordinarily sensitive inside underneath (Naranjo: Shame)",
+    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraclitus", "Hippocrates of Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger"],
+    fingerabdruecke: [
+      {
+        titel: "A hard shell on the outside, an extraordinarily sensitive inside underneath",
+        beschreibung: "Naranjo called this subtype the one of 'Shame': the deep feeling of being structurally different and lacking. Outwardly, an effective, impenetrable facade often shows itself – coolness, perfection, humor – protecting an extremely vulnerable interior without ever fully hiding it.",
+        beleg: "Romy Schneider: 'The armadillo that shows itself in public while curling up inside' – 'pain, loneliness, the feeling of never truly being seen'; Michael Jackson: 'The armadillo shows the world its armor. What lies beneath, it shows almost no one'; Til Schweiger and Taddl, whose 'smooth outer facade' and 'seemingly carefree humor,' respectively, protect the same deep emotional vulnerability."
+      },
+      {
+        titel: "Wears one's own otherness visibly, instead of hiding it",
+        beschreibung: "Part of the SO4 does not hide introvertedly in its own shell, but consciously carries its own uniqueness outward – as a visible sign that both connects and excludes.",
+        beleg: "Johnny Depp: 'This Four doesn't hide in its own shell, but wears it proudly – as proof of its own uniqueness, on a stage everyone can see'; Gustav Mahler, who as a Jew and artist with a radically idiosyncratic voice 'doesn't hide his otherness, but carries it visibly into the public, into a group that both fascinates and excludes him'; Javier Parisi, who 'isn't content with his own shell, but puts on a second, foreign one – and in that, paradoxically, finds himself,' as a John Lennon look-alike."
+      },
+      {
+        titel: "Meaning through deliberate distance from a community one remains devoted to nonetheless",
+        beschreibung: "One's own significance arises not through adaptation, but through deliberate contrast to the community – one turns away without ever fully leaving it, because it remains the resonance chamber that sharpens one's own thinking or feeling.",
+        beleg: "Heraclitus, who turned away from public life, 'which he considered superficial,' but remained 'devoted to Ephesus'; Hippocrates, who distanced himself from his family's religious healing arts: 'The armadillo remains part of the community of healers – but contradicts it at its core'; Fiona Apple, whose years of withdrawal from the spotlight made her 'nonetheless, or precisely because of that, one of the most unsparing observers'; Edgar Allan Poe and Marcel Proust, who withdrew physically in order to write about what they observed."
+      },
+      {
+        titel: "When the longing for belonging fails completely (shadow form)",
+        beschreibung: "In its most destructive expression, the lifelong feeling of exclusion leads not to art or productive distance, but to a despair that discharges outward as destructive rage.",
+        beleg: "Elliot Rodger: 'A shell of pride, with an unbearable longing for belonging deep inside, and no way to reconcile the two poles ... He watched other young people belonging and couldn't understand why he found no way in.' Important: this is the only known case of this kind among the SO4 portraits in this compass – a rare, tragic extreme form, not a typical expression."
+      }
+    ]
+  },
+  SE4: {
+    tier: "Dove",
+    kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "David Berkowitz"],
+    fingerabdruecke: [
+      {
+        titel: "Deep emotional life that is not publicly displayed, but processed quietly",
+        beschreibung: "Unlike the louder Four subtypes, inner pain or depth shows itself hardly at all outwardly. Processing happens in quiet, often decades-long persistence – without seeking applause for one's own inner struggle.",
+        beleg: "Sam Altman and Leo Tolstoy are described in almost identical terms: 'It doesn't put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It seeks no applause for its inner struggle'; Paul McCartney, about whose 'deepest inner self surprisingly little is known,' despite over sixty years in public life; Clemens G. Arvay, whose work carried 'no drama, no self-staging, but a message that carries and remains.'"
+      },
+      {
+        titel: "Toughness despite vulnerability – keeps carrying on, returns where others would give up",
+        beschreibung: "The delicate, sensitive appearance is deceptive about considerable inner endurance: the path continues even through storms and setbacks, not because fear is absent, but because a deep knowledge of one's own direction carries it.",
+        beleg: "Lady Diana: 'The dove is tough: it finds its way even over great distances, even through storms'; Tim Bendzko: 'It returns. Not because it knows no fear, but because it knows where it belongs ... That's the dove: it carries the weight – and sings anyway'; Nicolas Cage: 'Tougher than it looks, its greatest strength lies in righting itself again and again despite inner vulnerability.'"
+      },
+      {
+        titel: "Complete inner processing before stepping outward",
+        beschreibung: "Before anything becomes visible – a work, a stance, a decision – it is first fully lived through, observed, and processed inwardly. No spontaneous action, but a conscious landing only once the inner process is complete.",
+        beleg: "Karoline Herfurth: 'This dove doesn't land right away. It circles first. It observes, takes in, carries inwardly what it has seen – and then lands exactly where it's needed'; Leo Tolstoy's lifelong diary ritual of 'unsparing self-observation,' which became 'the foundation of his entire literary work.'"
+      },
+      {
+        titel: "When the inner burden overwhelms – from radical self-assertion to self-dissolution (shadow form)",
+        beschreibung: "The same depth and sensitivity that otherwise leads to great creative power can, in extreme cases, become radical identity defense, complete exhaustion, or – in its most destructive form – a psychotic break with one's own inner voice.",
+        beleg: "Nicolas Cage, who with a new name 'resisted with all his strength the dissolution of his own identity within an overpowering family tradition'; Clemens G. Arvay, who took his own life in 2022 – 'the dove that shows others the way sometimes lost its own'; David Berkowitz, who attributed his acts to an external, demonic voice. Important: Arvay and Berkowitz represent very different, rare extreme forms – despair and violent crime must not be equated here; neither is the typical expression of SE4 in this compass."
+      }
+    ]
+  },
+  SX3: {
+    tier: "Peacock",
+    kernthema: "Immediate presence and magnetism – without calculation, yet with full effect",
+    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Diane Downs", "Luka Magnotta", "Richard Ramírez"],
+    fingerabdruecke: [
+      {
+        titel: "Immediate, magnetic presence instead of calculated staging",
+        beschreibung: "The effect arises not through planned strategy, but through a presence that escapes analysis – one can hardly resist it without being able to say exactly how it comes about.",
+        beleg: "Brad Pitt: 'The peacock, whose effect doesn't come from calculation, but from pure, immediate presence. He has nothing to prove, he only needs to be there'; Brigitte Bardot: 'An animal that doesn't unfold its feathers to calculate an effect, but because splendor is its nature'; Marilyn Monroe: 'Her presence wasn't technique, but a presence no one could escape.'"
+      },
+      {
+        titel: "Radiates without deliberately deploying it",
+        beschreibung: "In some cases, the effect happens almost unconsciously – the person is barely aware of their own magnetism, which often strengthens the effect even further.",
+        beleg: "Kai Pflaume: 'He doesn't radiate because he has to. He radiates because his light comes from within'; Lena Meyer-Landrut: 'The peacock doesn't spread its tail on command. It does so because it's its nature. What sometimes distinguishes it: it doesn't always know it itself' – 'She attracts without seducing. She radiates without staging.'"
+      },
+      {
+        titel: "The deliberate, complete performance as an art form for others",
+        beschreibung: "At the other end of the same spectrum stands the fully conscious, completely played-out self-presentation – not a private pleasure, but a deliberate performance that knows exactly what effect it wants to achieve.",
+        beleg: "Dieter Bohlen: 'The peacock is the only animal that unfolds its finest moment entirely for others. The peacock's tail is not a private pleasure. It's a performance ... The peacock knows exactly what it is – and doesn't hide it.'"
+      },
+      {
+        titel: "When the perfect ideal or the perfect performance becomes a murderous fixation (shadow form)",
+        beschreibung: "In its destructive expression, the same urge for complete, overwhelming self-presentation turns into something destructive: an image of oneself is defended or staged at any cost – even against one's own conscience or with fatal consequences.",
+        beleg: "Diane Downs, who killed her own children 'to be the perfect, unattached ideal for a man'; Luka Magnotta, whose acts are described as 'an extreme self-staging of horror' – video release included; Richard Ramírez, whose courtroom conduct – 'the victory sign, the pentagram on his palm, the look for the cameras' – carried the performance into his own trial. Important: these three cases are rare extreme forms, not a typical expression of SX3 in this compass."
+      }
+    ]
+  },
+  SE3: {
+    tier: "Raccoon",
+    kernthema: "Competence over glamour – the natural mask that builds a functioning system out of little (Naranjo: the countertype of the Three)",
+    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff"],
+    fingerabdruecke: [
+      {
+        titel: "Unassuming facade instead of the spotlight – competence over glamour (Naranjo: countertype)",
+        beschreibung: "Unlike the social and sexual Threes, this subtype seeks no stage. Naranjo called it the 'countertype' of the Three: instead of self-staging, it shows modesty, groundedness, a deliberate avoidance of the spotlight – while the same energy runs underneath.",
+        beleg: "Kathrin Bauerfeind: 'No loud appearance, no glamour, no stage ... The raccoon doesn't dig in the spotlight – it builds its own territory'; Tony Shalhoub and Judit Polgár are described in almost identical terms: 'An animal easily underestimated ... works with skilled hands in hiding'; Joseph Haydn: 'no child prodigy like Mozart, no raging titan like Beethoven,' but three decades of loyal service. As a warning, Volodymyr Zelenskyy: 'An actor playing a role until he himself no longer knows where the role ends and he begins – that is the trap of the self-preservation Three.'"
+      },
+      {
+        titel: "Building a working system out of little or from nothing",
+        beschreibung: "Instead of waiting for existing resources or head starts, a viable, sometimes decades-functioning system emerges from limited means, often out of sheer resourcefulness.",
+        beleg: "Osho, who built 'from a dusty plot in Pune an international commune operation' and later an entire city with its own airport; Madame Tussaud, who turned a craft into 'a global company' that 'still exists in dozens of cities almost two hundred years after her death'; Sadhguru: 'The raccoon makes much from little – quietly, efficiently, without fuss. And then you look, and it has planted the entire desert.'"
+      },
+      {
+        titel: "Years of disciplined practice in hiding before mastery becomes visible",
+        beschreibung: "Skills that later seem effortless almost never arise overnight, but through years of quiet, often painfully consistent repetition, long before the public knows anything about it.",
+        beleg: "Lang Lang: 'The raccoon learned early: skill doesn't come through talent alone, but through endless, often painful repetition'; Judit Polgár, whose mastery was the result of 'thousands of hours of training at the board, long before the public knew about her'; Tom Keating, who over two decades created more than 2,000 paintings in the style of about 100 masters – craft mastery deliberately aimed against the art market."
+      },
+      {
+        titel: "When the natural mask becomes deliberate deception – a harmless facade conceals fraud or crime (shadow form)",
+        beschreibung: "In its destructive expression, exactly this unassuming, trustworthy-seeming facade becomes the perfect tool: whoever doesn't want to shine draws no suspicion – and can use that unassumingness for years to commit large-scale fraud or worse.",
+        beleg: "Bernie Madoff: 'The SE3 doesn't stage itself loud and glamorous ... but quiet, respectable, trustworthy' – over 20 years of the largest investment fraud in history; Belle Gunness, who seemed 'deceptively harmless': 'She asked for help. She wrote loving letters ... And she buried them in her pig pen'; Ruja Ignatova and Samuel Bankman-Fried as modern variants of the same pattern in financial fraud; Anna Anderson, who 'built an existence out of almost nothing' – except that the nothing was a stolen identity. Important: the majority of SE3 in this compass show none of this pattern – it is an extreme form of the same quiet effectiveness, not a typical expression."
+      }
+    ]
+  },
+  SX2: {
+    tier: "Camel",
+    kernthema: "Turning an entire audience into a single, personal encounter",
+    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart"],
+    fingerabdruecke: [
+      {
+        titel: "Intimacy at scale – the many become one",
+        beschreibung: "The ability to present oneself, even before a huge audience, in a way that makes every single person feel personally addressed – seduction not as a trick, but as a natural frequency.",
+        beleg: "Monika Gruber, whose shows 'fill halls with thousands of people' and who nonetheless 'creates intimacy at scale: she turns an audience into a single personal encounter'; Elvis Presley, who 'didn't sing for an audience, he sang for every single person in it'; Braco, 'The Gazer,' whose mere gaze before thousands 'creates the feeling of being seen'; Pamela Reif, who conveys to millions on screens: 'I'm here with you.'"
+      },
+      {
+        titel: "Carries and gives itself fully without pushing forward",
+        beschreibung: "Devotion shows itself not as loud courting, but as steady, patient carrying – in service of a connection, a path, a partner, without asking for much in return.",
+        beleg: "Matthias Schweighöfer, who as a director 'brings his crew along as if every set were a community': 'The camel doesn't just cross the desert. It makes sure everyone arrives'; Milow, who 'gently carried' a harsh song 'until it landed'; Anastasiia Metelkina, whose pair-skating career literally rests on mutual carrying: 'Two bodies must carry each other ... a single breach of trust means the fall.'"
+      },
+      {
+        titel: "Stores energy, then releases it in a single, complete outburst",
+        beschreibung: "Reserve is not a lack of feeling, but preparation: intensity is gathered and then, when needed, released fully without any holding back.",
+        beleg: "Monika Gruber: 'The camel stores: energy, water, patience – and when it finally drinks, it drinks up to 150 liters at once. What she feels, she feels completely. What she gives, she gives entirely'; Elvis: 'The camel knows the desert of the beginnings. And it still gives everything, the moment it's needed'; Dr. Bernard Faye, whose decades of meticulous research made him the world's leading camel expert – the same pattern seen in several other animal-researcher portraits in this compass: whoever researches this energy often carries it within themselves."
+      },
+      {
+        titel: "Seduction as an instrument of power that can abruptly turn against the object of devotion (shadow form)",
+        beschreibung: "In its destructive expression, the same complete, intense devotion becomes a means of pressure: if the expected return – closeness, recognition, bonding – fails to appear, that same devotion can turn into an equally complete, uncompromising reversal.",
+        beleg: "Pamela Smart: 'The camel gives everything ... But it's not a tame animal. Whoever underestimates it, whoever thinks they can exploit it permanently, experiences another side: the camel bites, spits, breaks free.' She gave a 15-year-old 'the feeling of being the most important thing in the world' – 'and once she got what she needed, her gift became the deadliest tool she could use.' Important: this is the only known extreme form among the SX2 portraits in this compass, not a typical expression."
+      }
+    ]
+  },
+  SO2: {
+    tier: "Golden Retriever",
+    kernthema: "Devotion that belongs not to the individual, but to the whole community",
+    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
+    fingerabdruecke: [
+      {
+        titel: "Devotion that isn't limited to individuals, but belongs to the whole community",
+        beschreibung: "Unlike the other Two subtypes, care is directed not at the one relationship or one's own family, but at a collective – a congregation, an audience, a nation, everyone currently within reach.",
+        beleg: "Jesus Christ: 'Where the sexual Two seduces the one person and the self-preservation Two provides for their own family, the social Two turns to the community as a whole'; Mother Meera, who 'received hundreds of strangers every day, for decades'; Zoe Saldaña: 'An animal whose warmth isn't limited to one person, but belongs to everyone in the pack'; Nina Chuba, whose closeness to her audience feels 'real,' 'because warmth is its nature.'"
+      },
+      {
+        titel: "Personal closeness as an instrument of leadership – connection instead of distance to secure power",
+        beschreibung: "Leadership arises not through intimidation or distance, but through deliberately investing in countless individual relationships that, in the end, add up to enormous collective loyalty.",
+        beleg: "Julius Caesar: 'Where a thrifty strategist would have built reserves, the social Two invested in relationship. The capital he built up wasn't money – it was affection, loyalty'; Napoleon, who 'knew his soldiers' names, addressed them directly'; Alexander the Great, who 'personally visited the wounded' – 'connection beats force'; Barack Obama: 'He walks into a room and makes it bigger.'"
+      },
+      {
+        titel: "Behind the warmth lies considerable inner strength that shows when it counts",
+        beschreibung: "The affable, soft appearance is not a lack of strength, but the surface of considerable stamina and determination that becomes visible once real effort is required.",
+        beleg: "Barack Obama: 'He's no lapdog. Behind the warmth lies considerable inner strength'; Kamala Harris: 'When push comes to shove, it shows that behind the warmth lies a tough will'; Marisa Abela, who 'reads the room before she enters it'; Albert Schweitzer, who at the height of his academic success began a medical degree in order to go to Africa as a doctor: 'He sees where there is need, and goes there, even if it means leaving everything behind.'"
+      },
+      {
+        titel: "Collective pride that tips into an agent of annihilation when one's own significance to the group is threatened (shadow form)",
+        beschreibung: "In its destructive expression, the same wish to be indispensable to a collective becomes a dangerous dynamic: when one's own role as protector or savior of the group is called into question, that same care can turn into ruthless, collective destruction.",
+        beleg: "Jim Jones, who built hospitals and soup kitchens before more than 900 of his followers died: 'The Enneagram explains how the two belong together: the kindness and the annihilation'; Osama bin Laden, whose 'pride was not personal, but collective: pride as protector and savior of the Muslim world' – 'the golden retriever: loyal, warm, ready to sacrifice for the pack – and dangerous, when it believes it's defending its family'; Jack Unterweger, who became a celebrated writer in prison and murdered again after his release. Important: the overwhelming majority of SO2 in this compass show none of this pattern – it's a rare extreme form, not a typical expression."
+      }
+    ]
+  },
+  SE2: {
+    tier: "Hippopotamus",
+    kernthema: "Indispensability as access to closeness – calm, rooted strength instead of loud self-display",
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    fingerabdruecke: [
+      {
+        titel: "Indispensability as access to closeness and significance (Naranjo: 'Privilege')",
+        beschreibung: "Belonging and significance are not demanded, but secured through care, effort, and the quiet feeling of being needed. Naranjo called this subtype the one of 'Privilege': winning a special place in another's life through indispensability.",
+        beleg: "'Naranjo also described this subtype as one who takes care of others first, in order to soothe their own neediness indirectly' (Ulrike Meinhof, whose 'care for the seemingly weak was real – and at the same time the core of her identity'); Dr. Camille Fritsch as the leading voice of hippo conservation; Ai Weiwei, whose art is inseparable from his commitment to others."
+      },
+      {
+        titel: "A good-natured, unwieldy facade that turns into unstoppable force when the territory is threatened",
+        beschreibung: "From outside, the appearance seems warm, round, approachable, sometimes even clumsy. But once one's own territory – literally or figuratively – is threatened, a force appears that no one thought possible.",
+        beleg: "Jack Black: 'It looks clumsy, loud, awkward – and is at the same time one of Africa's most dangerous animals as soon as its territory seems threatened'; Uli Hoeneß, who 'understood FC Bayern as his territory and marked and defended it with every ounce of his body'; Oprah Winfrey: 'Whoever thinks warmth and power are mutually exclusive hasn't understood the hippo'; Gloria von Thurn und Taxis, in whom 'the hippo stepped out of the water' when the family faced financial collapse."
+      },
+      {
+        titel: "Deep rootedness in one's own terrain instead of flight – staying as strength",
+        beschreibung: "Instead of leaving the field under resistance, strength arises precisely from remaining in place, from familiarity with one's own origin, and from persistent endurance, even when it becomes uncomfortable.",
+        beleg: "Armin Rohde, who after decades as a star still calls himself 'unchanged, a child of the Ruhrpott': 'The hippo stays in its water – and becomes unmistakable precisely because of it'; J. J. Liu, who endured hours at the poker table in pain: 'The hippo doesn't leave its water when things get difficult. It stays'; Isabella Briggs, who early on 'learns where her place is and persistently builds on it'; Franka Potente's Lola, who after every run 'returns to her home waters.'"
+      },
+      {
+        titel: "A protective layer and concealment as a survival system, not as weakness",
+        beschreibung: "What looks from outside like withdrawal, vulnerability, or hiding is often a carefully functioning protective system that releases visible strength only at the decisive moment.",
+        beleg: "Frida Kahlo, whose body 'remained hidden under plaster, bandages, and braces for long stretches of her life' – 'only what she wanted to show remained visible'; Marie Antoinette's elaborate appearance as a 'shining, impenetrable surface behind which a young woman hid'; Natascha Kampusch, whose eight years of captivity show 'how a being builds its own protected space under extreme pressure and remains functional within it'; Margot Friedländer, who 'doesn't submerge to disappear,' but 'because that's where her safety lies' – and surfaces 'exactly at the moment she's needed.'"
+      },
+      {
+        titel: "An impeccable facade of care as cover for control or exploitation (shadow form)",
+        beschreibung: "In its destructive expression, exactly this caring or trusted role becomes the perfect cover: whoever makes themselves indispensable draws no suspicion – and can abuse that position for years for control, exploitation, or violence in the closest circle.",
+        beleg: "Jeanne Weber, who as a caregiver murdered 'in the closest, most trusted circle' and, even after suspicion grew, kept 'voluntarily taking on the care of children'; John Wayne Gacy, businessman and precinct captain, who also performed as a clown; Peter Sutcliffe, who was seen as 'a friendly, quiet neighbor'; Harvey Weinstein, whose position of power as a patron concealed abuse for decades. Important: the overwhelming majority of SE2 in this compass show none of this pattern – it's a rare extreme form of the same underlying energy, not a typical expression."
+      }
+    ]
+  },
+  SX1: {
+    tier: "Black Mamba",
+    kernthema: "Uncompromising intensity in the closest circle instead of reforming the whole world",
+    beispiele: ["Klaus Kinski", "Marie-Agnes Strack-Zimmermann", "Grigori Rasputin", "Robbie Williams", "Jamie Lee Curtis", "Udo Lindenberg", "Johann Sebastian Bach", "Leonardo DiCaprio", "Thea Litschka-Koen", "Bill Haast", "Romulus Whitaker", "Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl"],
+    fingerabdruecke: [
+      {
+        titel: "Penetrating, inescapable presence instead of flattering charisma",
+        beschreibung: "The effect arises not through courting sympathy, but through an intensity one can hardly escape at close range – a gaze, a stage presence, a focus that forces the other person into complete wakefulness.",
+        beleg: "'To be near her means to be fully awake' (Klaus Kinski); Rasputin's gaze, under which St. Petersburg society ladies felt 'fully seen, stripped bare to the core' – 'not a charisma that flatters, but one that penetrates'; Leonardo DiCaprio's role preparation 'without half-measures' – 'the mamba's bite: complete, precise.'"
+      },
+      {
+        titel: "Unassuming, withdrawn facade that turns abruptly into uncompromising hardness when integrity is wounded",
+        beschreibung: "Outwardly, the appearance often looks reserved, dutiful, almost unremarkable. But as soon as one's own integrity, conviction, or purity is called into question, an immediate, precise, relentless reaction follows – with no in-between stages.",
+        beleg: "Udo Lindenberg: 'It seems almost inconspicuous from outside, until it feels threatened. Then it strikes with a precision and speed nothing escapes'; Johann Sebastian Bach, 'a whole life the quiet, dutiful church musician on the outside – and a man who never hesitated a second when his musical convictions were challenged,' who as a child secretly copied forbidden sheet music by moonlight, 'whatever the cost, even his own eyesight.'"
+      },
+      {
+        titel: "Radical honesty that cannot be faked – even against one's own image",
+        beschreibung: "Adapting to expectations, image management, or diplomatic silence are barely possible when something feels false or inauthentic – even when speaking up damages one's own career or reputation.",
+        beleg: "Robbie Williams: 'What's wrong gets named, even when it concerns oneself ... The mamba can't be permanently forced into a choreography'; Marie-Agnes Strack-Zimmermann: 'The mamba doesn't wait for everyone to agree'; Jamie Lee Curtis, who early on developed 'an inner resistance' to the false world of her Hollywood family."
+      },
+      {
+        titel: "Lethal control in the most private circle – behind an impeccable civic facade (shadow form)",
+        beschreibung: "In its destructive expression, the same uncompromisingness is directed not at defending truth, but at total control over the closest, most intimate relationship – partner, family, one's own home –, often undetected for years behind an image of civic unremarkableness.",
+        beleg: "Gary Ridgway: 'Churchgoer. Married three times. Father of a son ... no criminal record' – undetected for two decades; Josef Fritzl: 'On the outside he was a respected citizen ... an unremarkable man in an unremarkable small town'; Gennadi Mikhasevich, who as a member of the people's militia even took part in the manhunt for the perpetrator he himself was; Mary Ann Cotton and Paul Bernardo as further examples of the same logic: control over the closest circle, disguised as care or immaculateness."
+      }
+    ]
+  },
+  SO1: {
+    tier: "Goose",
+    kernthema: "Watchful responsibility for the order of the community rather than for oneself alone",
+    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke"],
+    fingerabdruecke: [
+      {
+        titel: "Watchful, incorruptible guardianship of order that reacts abruptly and harshly when violated",
+        beschreibung: "Outwardly, the demeanor seems disciplined, civic, unobtrusively controlled. But as soon as one's own order or a principle felt to be just is violated, a decisive, often surprisingly harsh reaction follows – without drama, but without compromise.",
+        beleg: "'The goose is deeply territorial. It doesn't hesitate. It attacks decisively when it feels its order has been violated' (Ted Bundy); Friedrich Merz: 'He says what he thinks ... The goose doesn't back away when convinced it's doing the right thing'; Xanthippe and Adam Smith are described in almost identical terms as 'watchful, principled, incorruptible in their sense of right and wrong'; Ursula von der Leyen 'stands guard, loudly announces every disturbance, defends its territory if need be with bites.'"
+      },
+      {
+        titel: "Responsibility for the collective instead of going it alone – formation instead of solo",
+        beschreibung: "One's own achievement is consistently placed in the service of a group, a team, or a society. Here, leadership means holding the formation together and opening spaces for others, not one's own advancement.",
+        beleg: "Jürgen Klopp: 'The goose doesn't fly alone. It flies in V-formation ... When one goose tires, another takes the lead'; David Bowie, whose transformations 'opened a space no one had entered before, and which many were allowed to enter afterward' – 'the goose doesn't fly for itself alone. It calls so the others can find the formation'; Konrad Lorenz, who 'passed his knowledge on to the group instead of managing it alone.'"
+      },
+      {
+        titel: "Breaking with an established system out of moral conviction – founding a system of one's own",
+        beschreibung: "When the existing system is felt to be fundamentally wrong or unjust, criticism from within is not enough. Instead, a coherent counter-system of one's own often emerges that lasts for decades or centuries.",
+        beleg: "Samuel Hahnemann, who found the medicine of his time 'so dangerous that he turned his back on it for years – to eventually found a coherent medical system of his own'; Confucius, who devoted 'his whole life to the question of how a disintegrating society can be brought back into a viable form through example, custom, and self-cultivation'; Jordan Peterson, whose '12 Rules for Life' sold more than five million copies – 'he preaches responsibility, order, structure, because he knows what chaos costs.'"
+      },
+      {
+        titel: "An impeccable public facade concealing – in its shadow form – precise, unannounced retribution",
+        beschreibung: "In its destructive expression, the same incorruptible sense of order becomes justification for calculated violence: a debt felt to be just is collected, methodically and without warning, while the image of the model citizen is maintained on the outside.",
+        beleg: "Ted Bundy: 'On the outside: student, volunteer, party activist, a man who helped others. Inside: a person whose inner order had been destroyed by a rejection – who took the right to collect that debt. Quiet, methodical, precise'; Heinrich Pommerenke, whose almost 48 years in prison were the longest single confinement in the history of the Federal Republic of Germany. Important: the overwhelming majority of SO1 in this compass (von der Leyen, Merz, Klopp, Bowie, Hahnemann, Confucius, and others) show none of this pattern – it is a rare extreme form, not a typical expression."
+      }
+    ]
+  },
+  SE1: {
+    tier: "Eagle",
+    kernthema: "Perfectionism directed not at the world, but at one's own preparation and integrity",
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow"],
+    fingerabdruecke: [
+      {
+        titel: "Worry directed inward, instead of correcting the world",
+        beschreibung: "Naranjo called this subtype 'Worry': a constant, mostly quiet inner question of whether one truly lives up to one's own standard. Unlike the social or sexual One, this perfectionism is not aimed at correcting others, but inward, at one's own craft, one's own preparation, one's own integrity.",
+        beleg: "Robert De Niro: 'No interview in which he explains himself' – the perfectionism shows itself only in the work itself; Christoph Waltz, who asks himself whether he 'lives up to his own standard of truthfulness'; Magnus Carlsen, who constantly asks himself 'whether this position has truly been optimally exploited'; Marie Kondo, whose unease is about 'whether her own environment truly feels right'; Astrid Lindgren, Anthony Hopkins, Pierce Brosnan, Dan Brown, Aristotle, and Adenauer show the same inward-directed, incorruptible self-examination – never as reproach toward others, always as a demand on themselves."
+      },
+      {
+        titel: "Quiet precision without a show – the dive after a long circling",
+        beschreibung: "The effect arises not through volume or self-display, but through long, patient observation, followed by a single, highly precise action that needs no repetition.",
+        beleg: "'The eagle watches for a long time before acting ... and when it finally strikes, it does so with an accuracy that needs no repetition' (De Niro); Anthony Hopkins won an Oscar for just about sixteen minutes of screen time as Hannibal Lecter – 'the eagle doesn't need to scream to be feared'; Magnus Carlsen's opponents describe games against him as 'slow suffocation'; Christoph Waltz waited fifty years for his role with Tarantino: 'The eagle had circled patiently. Then it struck.'"
+      },
+      {
+        titel: "Decades of persistence despite setbacks, before the breakthrough comes",
+        beschreibung: "Success often doesn't come early or suddenly, but only after many years of quiet, often unnoticed practice and repeated failure – carried by a discipline that isn't discouraged by setbacks.",
+        beleg: "Udo Jürgens 'took part in talent competitions for over ten years' before his breakthrough came, winning the Eurovision Song Contest only after several failed attempts; Ken Follett kept up the same literary consistency 'for over sixty years,' even in old age; Konrad Adenauer began his 'true historical role' only at age 73; Christoph Waltz's fifty-year wait for the right role."
+      },
+      {
+        titel: "An impeccable civic facade concealing – in its shadow form – the darkest act",
+        beschreibung: "In its destructive expression, the same discipline, the same care, and the same demand for dutifulness become the perfect cover: an impeccably correct public life, behind which a completely opposite second reality remains undetected for years.",
+        beleg: "Mikhail Popkov was an active police officer throughout his killing spree and 'was seen as an unremarkable, dutiful citizen'; Dennis Rader remained undetected for decades as a 'church council chairman ... community compliance officer ... husband and father'; Andrei Chikatilo 'was seen as a teacher, party member, and unremarkable citizen'; Dorothea Puente cultivated 'an impeccable public image: friendly landlady, benefactress of the community.' Arno Funke forms the counterpoint within the same pattern: the same meticulous, controlled method, but – characteristic of the Nine wing – without any readiness for violence: 'He was less a criminal than a man who, under financial pressure, resorted to meticulous but nonviolent means.'"
+      }
+    ]
+  },
+  SX9: {
+    tier: "Sloth",
+    kernthema: "Merging with a single being, work, or style instead of belonging to a group",
+    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi"],
+    fingerabdruecke: [
+      {
+        titel: "The one bond instead of many contacts",
+        beschreibung: "Life repeatedly centers not around a network, an institution, or an audience, but around a single, often non-human or very private relationship, or a single work or role. This one merging becomes the pivot of the entire further biography – up to a dissolving of the boundary between self and other.",
+        beleg: "Foster and his nameless octopus, Goodall and the chimpanzee David Greybeard, Salceda and the sloth Velcro; Velázquez in 'Las Meninas,' where 'the boundary between viewer and viewed blurs'; Beltracchi, whose art forgeries are described as 'merging with the spirit of dead masters'; Carl Rogers' unconditionally accepting therapeutic presence for the person before him; Mario Barth, who since his stage debut in 2001 'merged from then on with a stage persona that spoke to a mass audience' – the Berlin working-class guy character; Keanu Reeves' merging with individual iconic roles (Neo, John Wick), without ever living out the star facade that comes with them."
+      },
+      {
+        titel: "Apparent sluggishness that turns, when needed, into full, precise intensity",
+        beschreibung: "From outside, the underlying stance seems reserved, effortless, almost uninvolved. But as soon as the right moment or a boundary violation occurs, a surprisingly complete, highly precise reaction appears – no gradual escalation, but a flip from zero to a hundred.",
+        beleg: "'The sloth hangs still until it moves. When it moves, it gives everything' (Makatsch); Dakota Johnson's 'claws you only see once you get too close'; Iga Świątek, who seems 'effortless,' but 'when she snaps, with a precision that astonishes'; Keanu Reeves' sloths are 'not lazy – they're extremely energy-efficient, they do exactly what's needed, with a minimum of effort and a maximum of effect,' visible in the contrast between the calm private person and the physically fully exhausting John Wick role."
+      },
+      {
+        titel: "Slow, unforced expansion over decades instead of planned career strategy",
+        beschreibung: "Instead of strategically forcing or building success, the life's work unfolds at an incidental, almost self-forgetting pace – over many years, without ever giving the impression of forcing, staging, or an entourage.",
+        beleg: "Sophie Marceau: 'a slow, almost incidental expanding over decades ... without ever giving the impression of forcing anything'; Hundertwasser's lifelong work of letting architecture merge with nature, instead of delivering individual finished projects; Keanu Reeves, who despite world fame 'sits alone on a park bench eating a sandwich – no bodyguard, no entourage': 'The sloth person needs no stage. He's simply there.'"
+      },
+      {
+        titel: "A biographical turning point often precedes the actual devotion",
+        beschreibung: "In some of the cases (not all), the beginning is not a planned path, but a crisis, a rupture, or a coincidence – out of which the later, often lifelong, merging experience first develops.",
+        beleg: "Craig Foster's burnout before encountering the octopus; Ana Salceda's accidental, unplanned foster motherhood for an orphaned young animal. Counter-examples like Świątek, Marceau, or Barth (a planned switch from telecommunications technician to stage persona) show: this pattern is common, but not a necessary criterion."
+      }
+    ]
+  },
+  SE7: {
+    tier: "Gorilla",
+    kernthema: "Building a protected, family-like system instead of going it alone",
+    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader", "Mariah Carey", "Moritz Bleibtreu", "Niels Högel", "Jasmine Paolini", "Jeanne Calment", "Junko Tabei", "Wallace Shawn"],
+    fingerabdruecke: [
+      {
+        titel: "A self-created territory instead of a foreign career ladder",
+        beschreibung: "Instead of rising within existing institutions, a protected microcosm of one's own is built – a studio, a research station, a body of knowledge, a versatile repertoire of roles, sometimes simply a place one stays loyal to for life – in which one's own rules apply.",
+        beleg: "Hans Zimmer's Remote Control Productions in Santa Monica; Dian Fossey's Karisoke research station in the Virunga mountains; Francis Bacon's 'Instauratio Magna,' the 'Great Renewal' of all knowledge as his own territory; Jeanne Calment, who spent practically her entire life in Arles instead of traveling; Moritz Bleibtreu, whose 'dense, unusually versatile body of work – from comedy to psychological thriller' forms his own, self-staked acting territory: 'The SE7 doesn't look for the one big role – it looks for the next experience.' Junko Tabei showed the same principle by founding a women's climbing club, carving out her own territory on the eight-thousanders outside male-dominated institutions."
+      },
+      {
+        titel: "Room-filling calm instead of fighting for attention",
+        beschreibung: "The effect arises not through show or confrontation, but through a mere, reassuring or unobtrusively weighty presence – which, however, can flip into full intensity the moment it truly matters.",
+        beleg: "'Larry King's mere presence in a TV studio had something reassuring about it' – over sixty years, more than 50,000 interviews, without aggressive interviewing; Wallace Shawn, who 'looks cozy – and carries the weight of ideas,' without ever wanting to stand out; Jasmine Paolini, who off the court appears 'warm, laughing, family-oriented,' 'never like someone playing tennis to reap glory' – while on court she is 'explosive, combative, tireless': 'The gorilla doesn't dance – but when it smiles, the whole forest lights up.'"
+      },
+      {
+        titel: "Enjoyment and abundance as a lived principle instead of asceticism",
+        beschreibung: "Even under pressure, in old age, or despite professional hardship, a pronounced joy in sensual pleasure – food, drink, physical well-being, savoring every single moment – remains a consistent biographical element, not as weakness but as an affirmation of life.",
+        beleg: "Mariah Carey: 'loves food – not as a weakness, but as an expression of life, joy, abundance'; Jeanne Calment, who smoked until 117, ate almost a kilogram of chocolate a week, and still fenced at 85; Wallace Shawn, who describes food as 'sensual pleasure, a social act, proof that life can be good'; Jasmine Paolini's hunger to 'reach every ball,' even after two lost Grand Slam finals within a few weeks – 'not destructive, but inexhaustible.'"
+      },
+      {
+        titel: "Uncompromising toughness when the territory is threatened – even in a corrupted form (especially with the 8-wing)",
+        beschreibung: "As long as no one attacks the system that has been built, the underlying stance remains peaceful. If one's own territory or freedom is threatened, this calm can abruptly flip into uncompromising toughness. In its shadow form, the same need to control one's own territory also shows itself as staging artificial dependency, in order to appear indispensable.",
+        beleg: "Dian Fossey after the killing of the gorilla Digit by poachers; Andreas Baader's turn from sociable demeanor to unyielding readiness for violence, the moment his freedom was at stake; Niels Högel's pattern of first putting patients in mortal danger, in order to then stage himself as a rescuer – the same control logic over one's own territory, here in destructive form; Moritz Bleibtreu's unsparing portrayal of Andreas Baader itself illustrates the mechanism from outside: 'The gorilla that moves peacefully through the forest, but becomes a relentless defender the moment its territory is touched' – Naranjo occasionally called SE7 the 'hidden Eight' in this sense: of all three Seven variants, the one that asserts itself most uncompromisingly in a crisis."
+      }
+    ]
+  },
+  SO3: {
+    tier: "Cheetah",
+    kernthema: "Control over one's own image and the decisive public moment",
+    beispiele: ["Karl Lagerfeld", "Cristiano Ronaldo", "Sahra Wagenknecht", "Pharrell Williams", "Dr. Christiaan Barnard", "Louis XIV", "Sean Connery", "Teresa of Ávila", "Bella Thorne", "Gottfried Wilhelm Leibniz", "Dr. Laurie Marker"],
+    fingerabdruecke: [
+      {
+        titel: "The controlled gaze as an instrument of power",
+        beschreibung: "Strikingly often, one's own gaze – whether by concealing it or deploying it deliberately – becomes a conscious control instrument: whoever sees is seen; whoever withdraws becomes a mystery that holds attention.",
+        beleg: "Karl Lagerfeld's permanent sunglasses as an 'instrument of control'; Sahra Wagenknecht's 'calm, precise, slightly surveying' gaze that 'seeks the audience, measures the effect, calculates the resonance'; Dr. Laurie Marker's demeanor, carrying 'speed, visibility, flawless precision' – the same qualities she researches in the cheetah. Important: this is a visible behavioral pattern, not a reliable diagnostic criterion on its own."
+      },
+      {
+        titel: "The one bold, publicly visible leap instead of gradual approach",
+        beschreibung: "Decisive success often arises not through gradual approach, but through a single, risky, publicly visible step at exactly the right moment – combined with verifiable record numbers as proof of top position.",
+        beleg: "Christiaan Barnard dared the world's first heart transplant in 1967: 'the cheetah hunts not from strength, but from speed and daring'; Louis XIV staged himself as the 'Sun King' already at age 14 – a program he carried out for the rest of his life; Cristiano Ronaldo: five World Player of the Year titles, over 900 career goals – 'not one of the best. The best'; Teresa of Ávila, who with chronically poor health founded seventeen reformed convents within two decades: 'The cheetah doesn't stay behind with the herd. It sprints ahead, while others keep the usual pace.'"
+      },
+      {
+        titel: "Parallel fields of success instead of a single specialty",
+        beschreibung: "Success is not confined to one field, but pursued and achieved simultaneously or successively in several, often unrelated areas.",
+        beleg: "Pharrell Williams between music production, his own band, and creative direction in menswear; Bella Thorne as 'actress, singer, director, author, entrepreneur, social-media star'; Leibniz simultaneously as 'philosopher, mathematician, logician, jurist, diplomat, historian, librarian, and engineer' – 'not one after another, but in constant overlap'; Dr. Laurie Marker, who alongside her fieldwork built a worldwide protection, education, and breeding program (Cheetah Conservation Fund) in parallel, instead of staying with pure science."
+      },
+      {
+        titel: "Transformation into a recognizable symbol – or a deliberate rejection of the safe territory for it",
+        beschreibung: "At the end of the development often stands an instantly identifiable, iconic image. The path there often runs through a deliberate rejection of a safe but limiting option in favor of the open, visible field.",
+        beleg: "Lagerfeld: 'He had turned himself into a symbol ... global, timeless'; Leibniz turned down a secure professorship because 'the cheetah doesn't stay in the protected territory of a single lecture hall'; Sean Connery's radical crossing of distance from milkman to James Bond; Teresa of Ávila, for whom the regular convent routine was not enough: 'She didn't just want to be a nun – she wanted to renew the order, visibly, tangibly, undeniably.'"
+      }
+    ]
+  }
+};
+
+function lebensmusterkompassPage() {
+  const subtypes = [
+    { code: "SE1", tier: "Eagle" }, { code: "SO1", tier: "Goose" }, { code: "SX1", tier: "Black Mamba" },
+    { code: "SE2", tier: "Hippopotamus" }, { code: "SO2", tier: "Golden Retriever" }, { code: "SX2", tier: "Camel" },
+    { code: "SE3", tier: "Raccoon" }, { code: "SO3", tier: "Cheetah" }, { code: "SX3", tier: "Peacock" },
+    { code: "SE4", tier: "Dove" }, { code: "SO4", tier: "Armadillo" }, { code: "SX4", tier: "Chihuahua" },
+    { code: "SE5", tier: "Owl" }, { code: "SO5", tier: "Octopus" }, { code: "SX5", tier: "Hedgehog" },
+    { code: "SE6", tier: "Rabbit" }, { code: "SO6", tier: "Meerkat" }, { code: "SX6", tier: "Wolf" },
+    { code: "SE7", tier: "Gorilla" }, { code: "SO7", tier: "Beaver" }, { code: "SX7", tier: "Chimpanzee" },
+    { code: "SE8", tier: "Orangutan" }, { code: "SO8", tier: "Lion" }, { code: "SX8", tier: "Crocodile" },
+    { code: "SE9", tier: "Elephant" }, { code: "SO9", tier: "Buffalo" }, { code: "SX9", tier: "Sloth" },
+  ];
+  const buttons = subtypes.map(s => {
+    const hasData = !!LEBENSMUSTERKOMPASS[s.code];
+    const col = typeColorFromCode(s.code);
+    return `
+      <button
+        data-route="lebensmusterkompass/${s.code.toLowerCase()}"
+        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:none;border:2px solid ${hasData ? col : "var(--border)"};border-radius:10px;cursor:${hasData ? "pointer" : "default"};padding:.7rem .4rem;${hasData ? "" : "opacity:.5;"}"
+        ${hasData ? "" : "disabled"}
+        title="${s.tier} (${s.code})${hasData ? "" : " – in progress"}"
+      >
+        <div style="position:relative;width:40px;height:40px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${hasData ? col : "var(--border)"};${hasData ? "" : "filter:grayscale(1);"}">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${s.code.toLowerCase()}.jpg" alt="${s.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(s.code)};left:${tierAvatarLeft(s.code)};width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+        </div>
+        <span style="font-size:.75rem;font-weight:700;color:${col};letter-spacing:.04em;">${s.code}</span>
+        <span style="font-size:.68rem;color:var(--muted);text-align:center;line-height:1.2;">${s.tier}${hasData ? "" : "<br><span style='font-size:.6rem;'>in progress</span>"}</span>
+      </button>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; Life Pattern Compass</p>
+        <h1 class="section-title">Life Pattern Compass</h1>
+        <img src="assets/lebensmusterkompass-hero.jpg?v=2" alt="Life Pattern Compass – biographical fingerprints" style="width:100%;height:auto;border-radius:12px;margin:0.8rem 0 1.4rem;display:block;" loading="lazy" />
+        <p class="psycho-intro">Biographical fingerprints of the 27 subtypes &ndash; recurring identifying traits worked out from the internal analysis of every case portrait in this compass (Famous Personalities, gripping criminal-psychology cases, and further portraits, e.g. from Astrology meets Enneagram).</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">This section follows a simple goal: instead of offering only general character descriptions, it looks for <strong>concrete, recurring patterns in life stories</strong> &ndash; actions, decisions, surprising turning points &ndash; that show up similarly across several, independently typed people of the same subtype. These 'biographical fingerprints' are meant to help confirm a typing not only through the criteria usually applied so far (such as look quality or gut feeling), but additionally by checking and confirming it against concrete life-story threads. Within this compass, that is a new approach that has not existed in this form before: alongside central, often decisive criteria such as look quality, criteria emerge that run like a red thread through an entire life &ndash; and that only become visible once real time is taken for a person, the way it happens during a thorough initial analysis in Enneagram homeopathy.</p>
+          <p class="vb-intro"><strong>Important note on method:</strong> these patterns are not externally verified, scientific proof. They were drawn from the internal analysis of this compass's own case portraits &ndash; and those portraits were already written with a particular view of the respective subtype. That view is fed not only by the portrait texts themselves, but by over thirty years of practical experience working with people of the 27 subtypes &ndash; observations that have continuously flowed into the portraits. There is therefore a methodological circularity risk: the patterns could reflect existing assumptions instead of independently confirming them. Understand this section as an internal, continuously growing observation tool, fed by decades of practical experience &ndash; not as absolute, externally verified proof. All 27 subtypes have now been worked out &ndash; the section is updated continuously as new portraits appear.</p>
+        </blockquote>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:0.8rem;margin:2rem 0;">
+          ${buttons}
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+          {route:"kriminalpsychologie", label:"Criminal psychology"},
+          {route:"tierlexikon", label:"Animal lexicon of the 27 subtypes"},
+          {route:"knowledge", label:"Knowledge base"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function lebensmusterkompassDetailPage(codeRaw) {
+  const code = (codeRaw || "").toUpperCase();
+  const data = LEBENSMUSTERKOMPASS[code];
+  if (!data) {
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("wissen")}
+        <div class="page-content">
+          <h1 class="section-title">Not yet available</h1>
+          <p class="psycho-intro">The Life Pattern Compass for ${code} is still in progress.</p>
+          ${relatedLinks([{route:"lebensmusterkompass", label:"Back to the Life Pattern Compass"}])}
+        </div>
+      </div>
+    `);
+  }
+  const col = typeColorFromCode(code);
+  const portraitsAuto = lebensmusterkompassPortraitsForCode(code);
+  const beispieleLinks = portraitsAuto.length
+    ? portraitsAuto.map(p => `<button class="related-link-btn" data-route="${p.route}" style="font-size:0.82rem;">${p.name}</button>`).join("")
+    : `<span style="font-size:0.87rem;color:var(--muted);">${data.beispiele.join(", ")}</span>`;
+  const cards = data.fingerabdruecke.map((f, i) => `
+    <div class="vb-blockquote" style="margin-bottom:1.2rem;">
+      <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:0.7rem;">
+        <span style="background:${col};color:#fff;font-size:0.72rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.06em;white-space:nowrap;text-shadow:0 1px 2px rgba(0,0,0,0.35);">Fingerprint ${i + 1}</span>
+        <strong style="font-size:1.02rem;color:var(--ink);">${f.titel}</strong>
+      </div>
+      <p style="margin:0 0 0.7rem;font-size:0.9rem;line-height:1.6;">${f.beschreibung}</p>
+      <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:var(--copper);text-transform:uppercase;">Evidence from the portraits</span><p style="margin:0.2rem 0 0;font-size:0.87rem;line-height:1.55;font-style:italic;color:var(--muted);">${f.beleg}</p></div>
+    </div>
+  `).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; Life Pattern Compass</p>
+        <h1 class="section-title" style="display:flex;align-items:center;gap:0.7rem;flex-wrap:wrap;">
+          <div style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${col};">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="${data.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+          </div>
+          <span>${code} &middot; ${data.tier}: Biographical fingerprints</span>
+        </h1>
+        <p class="psycho-intro">${data.kernthema}</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro" style="margin-bottom:0.6rem;">Portraits drawn on (automatically compiled from every ${code} entry in this compass &ndash; grows on its own with every new portrait):</p>
+          <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">${beispieleLinks}</div>
+        </blockquote>
+
+        ${cards}
+
+        ${relatedLinks([
+          {route:"lebensmusterkompass", label:"Back to the Life Pattern Compass"},
+          {route:`subtype/${code.toLowerCase()}`, label:`${code} – ${data.tier}: subtype profile`},
+          {route:"tierlexikon", label:"Animal lexicon of the 27 subtypes"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function tritypenPage() {
   const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/";
   const profile = [
@@ -55980,6 +56881,7 @@ function subtypeSchaubilderPage() {
     "beziehungen": beziehungenPage,
     "tierentsprechungen": tierentsprechungenPage,
     "tierlexikon": tierlexikonPage,
+    "lebensmusterkompass": lebensmusterkompassPage,
     "tritypen": tritypenPage,
     "triadendefizite": triadendefizitePage,
     "differenzierung": differenzierungPage,
@@ -56570,6 +57472,8 @@ function subtypeSchaubilderPage() {
       app.innerHTML = toolDetailPage(param);
     } else if (base === "tierlexikon" && param) {
       app.innerHTML = tierlexikonDetailPage(param);
+    } else if (base === "lebensmusterkompass" && param) {
+      app.innerHTML = lebensmusterkompassDetailPage(param);
     } else {
       app.innerHTML = (routes[base] || routes.start)();
       if (base === 'dashboard' || !base) { _translateImpulseIfNeeded(); }
