@@ -16082,7 +16082,7 @@ function adeleNeuhauserPortraitPage() {
 function sterlingNorthPortraitPage() {
   const galleryItem = (src, alt, caption) => `
     <figure style="margin:0 0 0.9rem;break-inside:avoid;-webkit-column-break-inside:avoid;display:inline-block;width:100%;">
-      <img src="../assets/portraits/sterling-north-gallery/${src}" alt="${alt}" loading="lazy" style="width:100%;height:auto;border-radius:8px;display:block;border:1px solid var(--border);" />
+      <img src="../assets/portraits/sterling-north-gallery/${src}?v=2" alt="${alt}" loading="lazy" style="width:100%;height:auto;border-radius:8px;display:block;border:1px solid var(--border);" />
       <figcaption style="font-size:0.72rem;color:var(--muted);margin-top:0.3rem;line-height:1.4;">${caption}</figcaption>
     </figure>
   `;
