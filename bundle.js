@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SE8: {
+    tier: "Orang-Utan",
+    kernthema: "Solitäres, stilles Territorium ohne Publikumsbedürfnis (Naranjo: Satisfaktion)",
+    beispiele: ["Dr. Umberto Eco", "Jacqueline Mars", "Indra Nooyi", "Toni Morrison", "Dhapanbal Yunupingu", "Golda Meir", "Dr. Biruté Galdikas", "Winston Churchill", "Griselda Blanco", "Salvatore Riina"],
+    fingerabdruecke: [
+      {
+        titel: "Solitäres, stilles Territorium ohne Bedürfnis nach Publikum oder Bestätigung",
+        beschreibung: "Naranjo nannte diesen Subtyp den der ›Satisfaktion‹: Sicherheit entsteht durch persönliche, materielle oder positionelle Absicherung – nicht durch soziale Anerkennung. Macht muss sich niemandem beweisen, sie ist einfach vorhanden.",
+        beleg: "Jacqueline Mars: ›Der Orang-Utan ist der solitärste der Menschenaffen: Er braucht kein Rudel, keine Bühne, keine Bestätigung … Öffentliche Interviews gibt sie seit Jahrzehnten so gut wie keine‹; Toni Morrison: ›Er lebt auf seine eigene Weise, in seinem eigenen Rhythmus, mit einer Würde, die nicht erklärt werden muss‹; Golda Meir: ›Eine stille Macht, die sich nicht beweisen muss.‹"
+      },
+      {
+        titel: "Geduldiger, systematischer Aufbau des eigenen Territoriums über Jahrzehnte",
+        beschreibung: "Position oder Einfluss entstehen nicht durch einen einzelnen spektakulären Schritt, sondern durch beharrlichen, oft unauffälligen Aufbau, Ebene um Ebene, über einen sehr langen Zeitraum.",
+        beleg: "Indra Nooyi, die mit ›wenig mehr als 500 Dollar in der Tasche‹ in die USA kam und 28 Jahre später einen der größten Lebensmittelkonzerne der Welt führte: ›Das systematische, geduldige Errichten eines Territoriums, Ebene um Ebene, bis niemand mehr daran zweifelte, wer oben sitzt‹; Dr. Biruté Galdikas, deren jahrzehntelange Feldforschung sie zur weltweit führenden Orang-Utan-Expertin machte – dasselbe Prinzip in der eigenen Forschungsarbeit gespiegelt."
+      },
+      {
+        titel: "Unerschütterliche Standfestigkeit unter extremem Druck",
+        beschreibung: "Wenn die Lage am schwierigsten wird, zeigt sich eine körperliche und psychische Unbeweglichkeit, die selbst unter größtem äußeren Druck nicht weicht – nicht durch lauten Widerstand, sondern durch bloßes, unerschütterliches Bleiben.",
+        beleg: "Winston Churchill, der 1940 ›auf dem Ast blieb, während der Sturm tobte‹: ›Sein Körper ist gebaut, um zu bleiben – nicht um zu fliehen‹; Golda Meir: ›Das ist nicht die Geschichte einer Karriere. Es ist die Geschichte eines Überlebens – und eines Willens, der nicht zu brechen war.‹"
+      },
+      {
+        titel: "Wenn dieselbe stille Territorialkontrolle rücksichtslos und tödlich wird (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird die charakteristische stille, unauffällige Machtabsicherung nicht zum legitimen Aufbau, sondern zu kompromissloser, oft tödlicher Kontrolle über ein kriminelles Territorium – aus dem Verborgenen heraus geführt, ohne öffentliches Gesicht.",
+        beleg: "Griselda Blanco: ›Sie regierte das Kokaingeschäft in Miami nicht durch Charisma oder politischen Einfluss, sondern durch stille, kompromisslose Kontrolle … Und wer ihr in die Quere kam, verschwand‹; Salvatore Riina, der 23 Jahre lang unentdeckt untertauchte, während er als Mafia-Boss hunderte Morde verantwortete. Wichtig: Diese beiden Fälle sind seltene, extreme Ausnahmen unter den SE8-Porträts dieses Kompasses, keine typische Ausprägung."
+      }
+    ]
+  },
   SX7: {
     tier: "Schimpanse",
     kernthema: "Vollständige Verschmelzung mit einer Idee, Person oder einem Moment (Naranjo: Suggestibilität)",
