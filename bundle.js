@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SO4: {
+    tier: "Gürteltier",
+    kernthema: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter (Naranjo: Scham)",
+    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraklit", "Hippokrates von Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger"],
+    fingerabdruecke: [
+      {
+        titel: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter",
+        beschreibung: "Naranjo nannte diesen Subtyp den der ›Scham‹: das tiefe Gefühl, strukturell anders und mangelhaft zu sein. Nach außen zeigt sich häufig eine wirkende, undurchdringliche Fassade – Coolness, Perfektion, Humor –, die ein extrem verletzliches Inneres schützt, ohne es je ganz zu verbergen.",
+        beleg: "Romy Schneider: ›Das Gürteltier, das sich in der Öffentlichkeit zeigt und sich dabei innerlich einrollt‹ – ›Schmerz, Einsamkeit, das Gefühl, nie wirklich gesehen zu werden‹; Michael Jackson: ›Das Gürteltier zeigt der Welt seine Rüstung. Was darunter liegt, zeigt es fast niemandem‹; Til Schweiger und Taddl, deren ›glatte Außenfassade‹ bzw. ›scheinbar sorgloser Humor‹ dieselbe tiefe emotionale Verletzlichkeit schützt."
+      },
+      {
+        titel: "Trägt das eigene Anderssein sichtbar zur Schau, statt es zu verbergen",
+        beschreibung: "Ein Teil der SO4 verbirgt sich nicht introvertiert im eigenen Panzer, sondern trägt die eigene Einzigartigkeit bewusst nach außen – als sichtbares Zeichen, das zugleich verbindet und ausgrenzt.",
+        beleg: "Johnny Depp: ›Diese Vier versteckt sich nicht im eigenen Panzer, sondern trägt ihn stolz zur Schau – als Beweis der eigenen Einzigartigkeit, auf einer Bühne, die alle sehen können‹; Gustav Mahler, der als Jude und Künstler mit radikal eigenwilliger Sprache ›sein Anderssein nicht verbirgt, sondern sichtbar in die Öffentlichkeit trägt, in eine Gruppe, die es zugleich fasziniert und ausschließt‹; Javier Parisi, der ›sich nicht mit dem eigenen Panzer zufriedengibt, sondern sich einen zweiten, fremden anlegt – und darin, paradoxerweise, sich selbst findet‹, als John-Lennon-Doppelgänger."
+      },
+      {
+        titel: "Bedeutung durch bewusste Abgrenzung von einer Gemeinschaft, der man dennoch zugewandt bleibt",
+        beschreibung: "Die eigene Bedeutung entsteht nicht durch Anpassung, sondern durch den bewussten Kontrast zur Gemeinschaft – man wendet sich ab, ohne sie je ganz zu verlassen, weil sie der Resonanzraum bleibt, an dem sich das eigene Denken oder Fühlen schärft.",
+        beleg: "Heraklit, der sich vom öffentlichen Leben abwandte, ›das er für oberflächlich hielt‹, aber ›Ephesos zugewandt‹ blieb; Hippokrates, der sich von der religiösen Heilkunst seiner Familie abgrenzte: ›Das Gürteltier bleibt Teil der Gemeinschaft der Heiler – aber es widerspricht ihr in ihrem Kern‹; Fiona Apple, deren jahrelange Rückzüge aus dem Rampenlicht sie ›trotzdem, oder gerade deshalb, zu den schonungslosesten Beobachterinnen‹ machten; Edgar Allan Poe und Marcel Proust, die sich körperlich zurückzogen, um über das Beobachtete zu schreiben."
+      },
+      {
+        titel: "Wenn die Sehnsucht nach Zugehörigkeit auf ganzer Linie scheitert (Schattenform)",
+        beschreibung: "In der destruktivsten Ausprägung führt das lebenslange Gefühl des Ausgeschlossenseins nicht zu Kunst oder produktiver Abgrenzung, sondern zu einer Verzweiflung, die sich nach außen in zerstörerischer Wut entlädt.",
+        beleg: "Elliot Rodger: ›Ein Panzer aus Stolz, tief innen eine unerträgliche Sehnsucht nach Zugehörigkeit, und kein Weg, diese beiden Pole zu versöhnen … Er beobachtete andere Jugendliche beim Dazugehören und verstand nicht, warum er keinen Zugang fand.‹ Wichtig: Dies ist der einzige Fall dieser Art unter den 14 SO4-Porträts dieses Kompasses – eine seltene, tragische Extremform, keine typische Ausprägung."
+      }
+    ]
+  },
   SE4: {
     tier: "Taube",
     kernthema: "Tiefes Gefühlsleben, das nicht zur Schau gestellt, sondern still, zäh und beharrlich getragen wird",
