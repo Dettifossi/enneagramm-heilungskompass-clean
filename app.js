@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SX5: {
+    tier: "Igel",
+    kernthema: "Stacheln nach außen, Weichheit innen – Vertrauen als exklusiver, geschützter Raum",
+    beispiele: ["Frédéric Chopin", "Taylor Swift", "Tilda Swinton", "Siddhartha Gautama (Buddha)", "Friedrich Nietzsche", "Greta Garbo", "Mark Zuckerberg", "Edward Snowden", "Jodie Foster", "Jeffrey Dahmer", "Joel Rifkin"],
+    fingerabdruecke: [
+      {
+        titel: "Stacheln nach außen, außergewöhnliche Weichheit darunter – nur für sehr wenige zugänglich",
+        beschreibung: "Die abwehrende, unnahbare Außenseite ist keine Kälte, sondern Schutz für ein besonders intensives, empfindsames Inneres, das sich erst nach aufgebautem Vertrauen zeigt.",
+        beleg: "Taylor Swift: ›Wer ihn kennt, weiß: Darunter ist etwas außerordentlich Weiches. Aber man muss Vertrauen aufgebaut haben, um es zu berühren‹; Mark Zuckerberg: ›Die Stacheln sind aus Code. Das Innere sieht nur, wem er wirklich vertraut‹; Edward Snowden: ›Wer ihn berühren will, muss sein Vertrauen gewinnen. Und wer ihn zwingt, wird sich stechen.‹"
+      },
+      {
+        titel: "Rückzug als gezielte Reservierung von Intimität für wenige exklusive Verbindungen",
+        beschreibung: "Der Rückzug aus der Öffentlichkeit bedeutet nicht Gleichgültigkeit gegenüber Nähe, sondern das genaue Gegenteil: Energie und Intimität werden bewusst für ganz wenige, dafür sehr tiefe Beziehungen aufgespart.",
+        beleg: "Jodie Foster: ›Der Rückzug geschieht nicht aus Gleichgültigkeit, sondern um die eigene Intimität und Energie für ganz wenige, exklusive Verbindungen aufzusparen‹; Greta Garbo, die sich mit 36 Jahren fast fünfzig Jahre aus der Öffentlichkeit zurückzog: ›Das restlose Eintauchen in die eine, intensive Begegnung … und der ebenso radikale Rückzug davor und danach‹ – ›I want to be let alone‹, nicht allein, sondern in Ruhe gelassen."
+      },
+      {
+        titel: "Radikaler Durchbruch zum Kern statt Anhaftung an System, Status oder Besitz",
+        beschreibung: "Statt sich an äußere Sicherheiten, gesellschaftliche Systeme oder Institutionen zu binden, wird die eine, entscheidende Frage bis zum Äußersten durchdrungen – mit schneidender, oft einsamer Konsequenz.",
+        beleg: "Siddhartha Gautama, der Palast, Frau und Sohn verließ, ›um mit schneidender Konsequenz eine einzige Frage zu zerlegen‹: ›Kein Weg der Anhaftung an Menschen, Orte oder Institutionen, sondern ein Weg des radikalen Durchdringens‹ – ›Tiefe statt System‹; Friedrich Nietzsche, der ›von Anfang an lieber allein dachte als in Gesellschaft.‹"
+      },
+      {
+        titel: "Wenn das Verlangen nach exklusiver Nähe zum Besitzanspruch über den anderen kippt (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird aus dem Wunsch nach der einen, tiefen Verbindung ein Anspruch, den anderen vollständig für sich zu besitzen und zu kontrollieren – bis zur völligen Auslöschung von dessen eigenständiger Existenz.",
+        beleg: "Jeffrey Dahmer: ›Er wollte seine Opfer nicht vernichten – er wollte sie besitzen‹; Joel Rifkin, der äußerlich als unauffälliger Bewohner eines stillen Vororts lebte, während er über Jahre in völliger Verborgenheit mordete. Wichtig: Diese beiden Fälle sind seltene, extreme Ausnahmen unter den 11 SX5-Porträts dieses Kompasses, keine typische Ausprägung."
+      }
+    ]
+  },
   SO5: {
     tier: "Oktopus",
     kernthema: "Vielarmiges, paralleles Wissen, das der Gemeinschaft dient (Naranjo: Totem) – oder als Machtinstrument kontrolliert wird",
