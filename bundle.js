@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SE4: {
+    tier: "Taube",
+    kernthema: "Tiefes Gefühlsleben, das nicht zur Schau gestellt, sondern still, zäh und beharrlich getragen wird",
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "David Berkowitz"],
+    fingerabdruecke: [
+      {
+        titel: "Tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still verarbeitet wird",
+        beschreibung: "Anders als bei den lauteren Vierer-Subtypen zeigt sich der innere Schmerz oder die innere Tiefe kaum nach außen. Die Verarbeitung geschieht in stiller, oft jahrzehntelanger Beharrlichkeit – ohne Applaus für das eigene Ringen zu suchen.",
+        beleg: "Sam Altman und Leo Tolstoi werden fast wortgleich beschrieben: ›Sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus für ihr inneres Ringen‹; Paul McCartney, über dessen ›tiefstes Inneres man erstaunlich wenig weiß‹, obwohl er über sechzig Jahre öffentlich wirkte; Clemens G. Arvay, dessen Werk ›kein Drama, keine Selbstinszenierung, aber eine Botschaft, die trägt und bleibt‹ war."
+      },
+      {
+        titel: "Zähigkeit trotz Verletzlichkeit – trägt weiter, kehrt zurück, wo andere aufgeben würden",
+        beschreibung: "Die zarte, empfindsame Erscheinung täuscht über eine erhebliche innere Ausdauer hinweg: Der Weg wird auch durch Sturm und Rückschläge fortgesetzt, nicht weil Angst fehlt, sondern weil eine tiefe Kenntnis der eigenen Richtung trägt.",
+        beleg: "Lady Diana: ›Die Taube ist zäh: Sie findet ihren Weg auch über weite Strecken, auch durch Sturm‹; Tim Bendzko: ›Sie kehrt zurück. Nicht weil sie keine Angst kennt, sondern weil sie weiß, wohin sie gehört … Das ist die Taube: Sie trägt das Gewicht – und sie singt trotzdem‹; Nicolas Cage: ›Zäher, als sie wirkt, ihre größte Kraft liegt darin, sich trotz innerer Verletzlichkeit immer wieder neu aufzurichten.‹"
+      },
+      {
+        titel: "Vollständiges inneres Durchleben, bevor nach außen getreten wird",
+        beschreibung: "Bevor etwas sichtbar wird – ein Werk, eine Haltung, eine Entscheidung –, wird es zunächst vollständig innerlich durchlebt, beobachtet und verarbeitet. Kein spontanes Handeln, sondern ein bewusstes Landen erst dann, wenn der innere Prozess abgeschlossen ist.",
+        beleg: "Karoline Herfurth: ›Diese Taube landet nicht gleich. Sie kreist zuerst. Sie beobachtet, nimmt wahr, trägt innerlich, was sie gesehen hat – und landet dann genau dort, wo sie gebraucht wird‹; Leo Tolstois lebenslanges Tagebuch-Ritual ›der schonungslosen Selbstbeobachtung‹, das zur ›Grundlage seines gesamten literarischen Werks‹ wurde."
+      },
+      {
+        titel: "Wenn die innere Last überwältigt – von radikaler Selbstbehauptung bis zur Selbstauflösung (Schattenform)",
+        beschreibung: "Dieselbe Tiefe und Empfindsamkeit, die sonst zu großer schöpferischer Kraft führt, kann in Extremfällen zu radikaler Identitätsabwehr, zur völligen Erschöpfung oder – in der destruktivsten Form – zu einem psychotischen Bruch mit der eigenen inneren Stimme werden.",
+        beleg: "Nicolas Cage, der sich mit einem neuen Namen ›mit aller Kraft gegen die Auflösung der eigenen Identität in einer übermächtigen Familientradition‹ wehrte; Clemens G. Arvay, der sich 2022 das Leben nahm – ›die Taube, die anderen den Weg zeigt, hat ihren eigenen manchmal verloren‹; David Berkowitz, der seine Taten einer externen, dämonischen Stimme zuschrieb. Wichtig: Arvay und Berkowitz stehen für sehr unterschiedliche, seltene Extremformen – Verzweiflung und Gewaltverbrechen dürfen hier nicht gleichgesetzt werden, keines von beiden ist die typische Ausprägung der SE4 in diesem Kompass."
+      }
+    ]
+  },
   SX3: {
     tier: "Pfau",
     kernthema: "Unmittelbare Präsenz und Magnetismus – ohne Berechnung, aber mit ganzer Wirkung",
