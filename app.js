@@ -50223,16 +50223,26 @@ function sterlingNorthPortraitPage() {
                           background:var(--paper);list-style:none;user-select:none;font-weight:700;
                           font-size:0.95rem;color:var(--ink);">
             <span style="font-size:1.2rem;">&#128247;</span>
-            <span style="flex:1;">Bildergalerie: Sterling North und Rascal (21 Fotos)</span>
+            <span style="flex:1;">Bildergalerie: Sterling North und Rascal (28 Fotos)</span>
             <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
           </summary>
           <div style="padding:1rem 1.2rem 1.4rem;">
             <p style="font-size:0.85rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.55;">Eine dokumentarische Sammlung aus verschiedenen Lebensphasen Sterling Norths, Ausgaben und Adaptionen von »Rascal« sowie dem bis heute bestehenden Andenken der Sterling North Society in Edgerton, Wisconsin.</p>
 
-            ${galleryGroup("Familie, Schreibtisch und Alltag", [
+            ${galleryGroup("Kindheit und Jugend", [
+              ["sterling-north-23-elf-jahre.jpg", "Sterling North im Alter von elf Jahren", "Im Alter von 11 Jahren – dem Alter, in dem die Rascal-Geschichte spielt"],
+              ["sterling-north-24-vierzehn-jahre.jpg", "Sterling North im Alter von vierzehn Jahren", "Im Alter von 14 Jahren"],
+              ["sterling-north-25-sechzehn-jahre.jpg", "Sterling North im Alter von sechzehn Jahren", "Im Alter von 16 Jahren"],
               ["sterling-north-01-familie.jpg", "Familienfotos Sterling North", "Familienfotos aus verschiedenen Lebensabschnitten"],
+            ])}
+
+            ${galleryGroup("Familie und Alltag", [
+              ["sterling-north-26-mit-vater.jpg", "Sterling North mit seinem Vater", "Mit seinem Vater"],
+              ["sterling-north-27-mit-bruder.jpg", "Sterling North mit seinem älteren Bruder", "Mit seinem älteren Bruder"],
+              ["sterling-north-28-mit-onkel.jpg", "Sterling North mit einem Onkel väterlicherseits", "Mit einem Onkel väterlicherseits"],
               ["sterling-north-02-schreibtisch.jpg", "Sterling North an der Schreibmaschine", "Am Schreibtisch, mit seiner Royal-Schreibmaschine"],
               ["sterling-north-03-ehefrau.jpg", "Sterling North mit seiner Frau Gladys", "Mit seiner Frau Gladys Buchanan North"],
+              ["sterling-north-29-ehefrau-portraet.jpg", "Gladys Buchanan North, Porträt", "Seine Frau Gladys Buchanan North (SO2w1)"],
               ["sterling-north-04-angeln.jpg", "Sterling North beim Angeln", "Beim Angeln – ein Leben in ländlicher Umgebung"],
               ["sterling-north-05-portraet.jpg", "Porträtfoto Sterling North", "Porträtaufnahme"],
             ])}
