@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SO9: {
+    tier: "Büffel",
+    kernthema: "Identität durch Zugehörigkeit zu einer Gemeinschaft, nicht durch die einzelne Person (Naranjo: Teilhabe)",
+    beispiele: ["Amelia Earhart", "Sandra Hüller", "Kevin Costner", "Peter Falk", "Steffi Graf", "Julian Assange", "Ronald Reagan", "Wilma Mankiller", "Willy Brandt", "Nick Leeson", "Leslie Van Houten"],
+    fingerabdruecke: [
+      {
+        titel: "Identität durch Zugehörigkeit zu einer Sache oder Gemeinschaft, nicht durch die einzelne Person",
+        beschreibung: "Naranjo nannte diesen Subtyp den der ›Teilhabe‹ (Participation): Das eigene Selbst tritt nicht als Einzelperson auf, sondern verschmilzt mit einer Gruppe, einer Idee oder einer größeren Sache – deren Denken und Fühlen wird zum eigenen.",
+        beleg: "Julian Assange: ›Ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine größere Sache definiert … Er kämpft nicht für sich selbst – er kämpft für etwas, das größer ist als das eigene Überleben‹; Kevin Costner: ›Er ist Teil von etwas Größerem, und er weiß es‹; Amelia Earhart, deren ›eigentliches Projekt nie der persönliche Nervenkitzel war, sondern der Beweis, dass Frauen fliegen können wie Männer.‹"
+      },
+      {
+        titel: "Ruhige, unaufgeregte Präsenz, der die Herde dennoch folgt",
+        beschreibung: "Führung oder Wirkung entsteht nicht durch Befehl, Lautstärke oder Dominanz, sondern durch eine bloße, vertrauenerweckende Präsenz, der andere sich von selbst anschließen.",
+        beleg: "Ronald Reagan: ›Der Büffel führt nicht durch Befehl, sondern durch Bewegung: Wenn er läuft, läuft die Herde mit‹; Peter Falk als Columbo: ›Ein Ermittler, der nie brüllt, nie droht … Der Büffel wirkt, als könnte man ihn beiseiteschieben. Man irrt sich jedes Mal‹; Steffi Graf: ›Sie macht kein Drama. Sie braucht kein Publikum, um zu wissen, dass sie da ist … Der Büffel beweist nichts. Er ist einfach da – und er gewinnt.‹"
+      },
+      {
+        titel: "Geduldiges Tragen der Last, bis ein Punkt erreicht ist, an dem etwas durchbricht",
+        beschreibung: "Belastungen werden lange schweigend getragen, ohne Klage und ohne sichtbare Warnzeichen – bis entweder ein stiller, symbolisch kraftvoller Moment oder ein plötzlicher Zusammenbruch die aufgestaute Spannung entlädt.",
+        beleg: "Willy Brandts Kniefall von Warschau: ›Kein Wort. Keine Geste des Überlegens … Es war ein Büffel, der sich vor dem beugte, was war – und damit ein ganzes Volk repräsentierte‹; Nick Leeson, der ›die Last der verborgenen Verluste schweigend trug – jahrelang … Er brach erst dann zusammen, als die Last physisch untragbar geworden war.‹"
+      },
+      {
+        titel: "Wenn die vollständige Verschmelzung mit der Gemeinschaft in eine zerstörerische Richtung geht (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung überträgt sich dasselbe Bedürfnis nach vollständiger Zugehörigkeit auf eine schädliche oder gewaltbereite Gemeinschaft – das eigene Urteil wird dabei fast vollständig durch das der Gruppe ersetzt.",
+        beleg: "Leslie Van Houten, die nach der Scheidung ihrer Eltern ›ohne sozialen Halt‹ zurückblieb und in der Manson Family ›nicht einen Menschen, sondern eine Gemeinschaft‹ fand: ›Wenn er sich in eine Richtung bewegt, macht er es vollständig‹; Nick Leeson, dessen Wunsch dazuzugehören ihn dazu brachte, Verluste zu verschweigen, bis er die älteste Handelsbank Englands mit in den Kollaps riss. Wichtig: Diese beiden Fälle sind seltene, extreme Ausnahmen unter den SO9-Porträts dieses Kompasses, keine typische Ausprägung."
+      }
+    ]
+  },
   SE9: {
     tier: "Elefant",
     kernthema: "Ruhige, gewichtige Präsenz statt Lautstärke – wer einmal in Bewegung ist, ist nicht mehr aufzuhalten (Naranjo: Appetit)",
@@ -43238,7 +43265,7 @@ function lebensmusterkompassPage() {
 
         <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
           <p class="vb-intro">Diese Rubrik verfolgt ein einfaches Ziel: Statt nur allgemeine Charakterbeschreibungen zu liefern, sucht sie nach <strong>konkreten, wiederkehrenden Mustern im Lebenslauf</strong> &ndash; Handlungen, Entscheidungen, \xfcberraschende Wendepunkte &ndash;, die sich bei mehreren, unabh\xe4ngig voneinander typisierten Personen desselben Subtyps \xe4hnlich zeigen. Diese &bdquo;biografischen Fingerabdr\xfccke&ldquo; sollen helfen, eine Typisierung nicht nur anhand der bisher \xfcblichen Kriterien (etwa Blickqualit\xe4t oder Bauchgef\xfchl) vorzunehmen, sondern zus\xe4tzlich \xfcber konkrete Lebenslauflinien zu \xfcberpr\xfcfen und zu best\xe4tigen. Das ist im Rahmen dieses Kompasses ein neuer Ansatz, den es in dieser Form bislang nicht gab: neben zentralen, oft entscheidenden Kriterien wie der Blickqualit\xe4t treten damit Kriterien, die sich wie ein roter Faden durch ein ganzes Leben ziehen &ndash; und die erst sichtbar werden, wenn man sich f\xfcr einen Menschen wirklich Zeit nimmt, so wie es im Rahmen einer ausf\xfchrlichen Erstanalyse in der Enneagramm-Hom\xf6opathie geschieht.</p>
-          <p class="vb-intro"><strong>Wichtiger Hinweis zur Methode:</strong> Diese Muster sind keine au\xdfenstehend verifizierte, wissenschaftliche Beweisf\xfchrung. Sie wurden aus der internen Analyse der eigenen Fallportr\xe4ts dieses Kompasses gewonnen &ndash; und diese Portr\xe4ts wurden bereits mit einem bestimmten Blick auf den jeweiligen Subtyp geschrieben. Dieser Blick speist sich nicht nur aus den Portr\xe4ttexten selbst, sondern aus \xfcber drei\xdfig Jahren praktischer Erfahrung im Umgang mit Menschen der 27 Subtypen &ndash; Beobachtungen, die fortlaufend in die Portr\xe4ts eingeflossen sind. Es besteht daher ein methodisches Zirkularit\xe4tsrisiko: Die Muster k\xf6nnten eigene Vorannahmen widerspiegeln, statt sie unabh\xe4ngig zu best\xe4tigen. Verstehen Sie diese Rubrik als ein internes, kontinuierlich wachsendes Beobachtungsinstrument, gespeist aus jahrzehntelanger Praxiserfahrung &ndash; nicht als absolut objektiven, au\xdfenstehenden Beweis. Aktuell im Aufbau, wird laufend aktualisiert.</p>
+          <p class="vb-intro"><strong>Wichtiger Hinweis zur Methode:</strong> Diese Muster sind keine au\xdfenstehend verifizierte, wissenschaftliche Beweisf\xfchrung. Sie wurden aus der internen Analyse der eigenen Fallportr\xe4ts dieses Kompasses gewonnen &ndash; und diese Portr\xe4ts wurden bereits mit einem bestimmten Blick auf den jeweiligen Subtyp geschrieben. Dieser Blick speist sich nicht nur aus den Portr\xe4ttexten selbst, sondern aus \xfcber drei\xdfig Jahren praktischer Erfahrung im Umgang mit Menschen der 27 Subtypen &ndash; Beobachtungen, die fortlaufend in die Portr\xe4ts eingeflossen sind. Es besteht daher ein methodisches Zirkularit\xe4tsrisiko: Die Muster k\xf6nnten eigene Vorannahmen widerspiegeln, statt sie unabh\xe4ngig zu best\xe4tigen. Verstehen Sie diese Rubrik als ein internes, kontinuierlich wachsendes Beobachtungsinstrument, gespeist aus jahrzehntelanger Praxiserfahrung &ndash; nicht als absolut objektiven, au\xdfenstehenden Beweis. Alle 27 Subtypen sind inzwischen ausgearbeitet &ndash; die Rubrik wird laufend aktualisiert, sobald neue Portr\xe4ts erscheinen.</p>
         </blockquote>
 
         <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:0.8rem;margin:2rem 0;">

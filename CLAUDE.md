@@ -48,7 +48,7 @@ Dieser Schritt ist **nicht** Teil des automatisierten Post-Commit-Hooks (der kü
 
 ## Lebensmusterkompass — Pflichtschritt bei jedem neuen Porträt zu einem bereits bearbeiteten Subtyp
 
-Die Rubrik „Lebensmusterkompass" (`LEBENSMUSTERKOMPASS`-Objekt in `bundle.js`, vor `function tritypenPage()`) enthält je bearbeitetem Subtyp 3–5 „biografische Fingerabdrücke" mit `beschreibung` (abstraktes Muster) und `beleg` (konkrete Zitate/Fakten aus den Porträts). Stand August 2026 bereits ausgearbeitet: SE1, SO1, SX1, SE2, SO2, SX2, SE3, SX3, SE4, SO4, SX4, SE5, SO5, SX5, SE7, SX9, SO3 — wird laufend um weitere Subtypen ergänzt.
+Die Rubrik „Lebensmusterkompass" (`LEBENSMUSTERKOMPASS`-Objekt in `bundle.js`, vor `function tritypenPage()`) enthält je Subtyp 3–5 „biografische Fingerabdrücke" mit `beschreibung` (abstraktes Muster) und `beleg` (konkrete Zitate/Fakten aus den Porträts). Stand August 2026: **alle 27 Subtypen sind ausgearbeitet.** Bei Bedarf (deutlich mehr neue Porträts zu einem Subtyp, neue erkennbare Muster) können bestehende Einträge überarbeitet/erweitert werden — das ist dann keine Pflicht mehr, sondern optionale Pflege.
 
 **Die Beispielporträts-Liste auf der Detailseite aktualisiert sich automatisch** (`lebensmusterkompassPortraitsForCode()` zieht live aus `BERUEHMT_PORTRAITS`/`KRIMINAL_PORTRAITS`) — hier ist nichts weiter zu tun.
 
