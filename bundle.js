@@ -42429,10 +42429,23 @@ const TIER_DOKU = {
 };
 
 // Lebensmusterkompass – wiederkehrende biografische Fingerabdrücke je Subtyp,
-// herausgearbeitet aus der internen Analyse von 350+ Fallporträts dieses Kompasses
+// herausgearbeitet aus der internen Analyse sämtlicher Fallporträts dieses Kompasses
 // (Berühmte Persönlichkeiten + Kriminalpsychologie). Kein externer wissenschaftlicher
 // Beleg, sondern ein internes, kohärentes Beobachtungsinstrument – siehe Hinweis-Box
 // auf der Übersichtsseite.
+//
+// lebensmusterkompassPortraitsForCode: sammelt automatisch ALLE Porträts (Berühmte
+// Persönlichkeiten + Kriminalpsychologie) mit passendem Subtyp-Code aus den ohnehin
+// gepflegten Arrays BERUEHMT_PORTRAITS/KRIMINAL_PORTRAITS. Dadurch aktualisiert sich
+// die Beispielliste auf den Detailseiten automatisch bei jedem neuen Porträt, ohne
+// manuelle Pflege einer separaten Liste.
+function lebensmusterkompassPortraitsForCode(code) {
+  const all = [...BERUEHMT_PORTRAITS, ...KRIMINAL_PORTRAITS];
+  return all
+    .filter(p => (p.subtyp || "").toUpperCase().startsWith(code))
+    .map(p => ({ name: p.name, route: p.route }));
+}
+
 const LEBENSMUSTERKOMPASS = {
   SX9: {
     tier: "Faultier",
@@ -42551,6 +42564,7 @@ function lebensmusterkompassPage() {
       <div class="page-content">
         <p class="eyebrow">Wissen &middot; Lebensmusterkompass</p>
         <h1 class="section-title">Lebensmusterkompass</h1>
+        <img src="assets/lebensmusterkompass-hero.jpg" alt="Lebensmusterkompass – biografische Fingerabdr\xfccke" style="width:100%;height:auto;border-radius:12px;margin:0.8rem 0 1.4rem;display:block;" loading="lazy" />
         <p class="psycho-intro">Biografische Fingerabdr\xfccke der 27 Subtypen &ndash; wiederkehrende Erkennungsmerkmale, herausgearbeitet aus der internen Analyse s\xe4mtlicher Fallportr\xe4ts dieses Kompasses (Ber\xfchmte Pers\xf6nlichkeiten, spannende Kriminalf\xe4lle sowie weitere Portr\xe4ts, z. B. aus Astrologie meets Enneagramm).</p>
 
         <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
@@ -42591,7 +42605,10 @@ function lebensmusterkompassDetailPage(codeRaw) {
     `);
   }
   const col = typeColorFromCode(code);
-  const beispiele = data.beispiele.join(", ");
+  const portraitsAuto = lebensmusterkompassPortraitsForCode(code);
+  const beispieleLinks = portraitsAuto.length
+    ? portraitsAuto.map(p => `<button class="related-link-btn" data-route="${p.route}" style="font-size:0.82rem;">${p.name}</button>`).join("")
+    : `<span style="font-size:0.87rem;color:var(--muted);">${data.beispiele.join(", ")}</span>`;
   const cards = data.fingerabdruecke.map((f, i) => `
     <div class="vb-blockquote" style="margin-bottom:1.2rem;">
       <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:0.7rem;">
@@ -42612,7 +42629,8 @@ function lebensmusterkompassDetailPage(codeRaw) {
         <p class="psycho-intro">${data.kernthema}</p>
 
         <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
-          <p class="vb-intro">Herangezogene Beispielportr\xe4ts (Auswahl): ${beispiele}. Alle Muster sind aus der internen Portr\xe4t-Sammlung dieses Kompasses herausgearbeitet &ndash; siehe methodischer Hinweis auf der \xdcbersichtsseite.</p>
+          <p class="vb-intro" style="margin-bottom:0.6rem;">Herangezogene Portr\xe4ts (automatisch aus allen ${code}-Eintr\xe4gen dieses Kompasses zusammengestellt &ndash; erg\xe4nzt sich bei jedem neuen Portr\xe4t von selbst):</p>
+          <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">${beispieleLinks}</div>
         </blockquote>
 
         ${cards}
