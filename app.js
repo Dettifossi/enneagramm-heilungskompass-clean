@@ -42436,62 +42436,62 @@ const TIER_DOKU = {
 const LEBENSMUSTERKOMPASS = {
   SX9: {
     tier: "Faultier",
-    kernthema: "Verschmelzung mit einem einzelnen Wesen statt Zugehörigkeit zu einer Gruppe",
-    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch"],
+    kernthema: "Verschmelzung mit einem einzelnen Wesen, Werk oder Stil statt Zugehörigkeit zu einer Gruppe",
+    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi"],
     fingerabdruecke: [
       {
         titel: "Die eine Bindung statt der vielen Kontakte",
-        beschreibung: "Immer wieder zentriert sich das Leben nicht um ein Netzwerk, eine Institution oder ein Publikum, sondern um eine einzelne, oft nicht-menschliche oder sehr private Beziehung: ein bestimmtes Tier, eine bestimmte Rolle, ein bestimmter Mensch. Diese eine Bindung wird zum Dreh- und Angelpunkt der gesamten weiteren Biografie.",
-        beleg: "Foster und sein namenloser Oktopus, Goodall und der Schimpanse David Greybeard, Salceda und das Faultier Velcro – in jedem Fall beginnt die eigentliche Geschichte erst mit der Begegnung mit einem einzigen Individuum, nicht mit einer Art oder einem Fachgebiet im Allgemeinen."
+        beschreibung: "Immer wieder zentriert sich das Leben nicht um ein Netzwerk, eine Institution oder ein Publikum, sondern um eine einzelne, oft nicht-menschliche oder sehr private Beziehung bzw. ein einzelnes Werk: ein bestimmtes Tier, eine bestimmte Rolle, ein bestimmter Stil. Diese eine Verschmelzung wird zum Dreh- und Angelpunkt der gesamten weiteren Biografie – bis hin zur Auflösung der Grenze zwischen dem eigenen Ich und dem Gegenüber.",
+        beleg: "Foster und sein namenloser Oktopus, Goodall und der Schimpanse David Greybeard, Salceda und das Faultier Velcro; Velázquez in ›Las Meninas‹, wo ›die Grenze zwischen Betrachter und Betrachtetem verschwimmt‹; Beltracchi, dessen Kunstfälschungen als ›Verschmelzung mit dem Geist toter Meister‹ beschrieben werden; Carl Rogers' bedingungslos annehmende therapeutische Präsenz für sein Gegenüber."
       },
       {
-        titel: "Scheinbare Passivität, die sich bei Berührung in volle Intensität verwandelt",
-        beschreibung: "Von außen wirkt die Grundhaltung zurückhaltend, wartend, fast unbeteiligt. Doch sobald der richtige Moment oder eine Grenzüberschreitung eintritt, zeigt sich eine überraschend vollständige, ungeteilte Reaktion – kein abgestuftes Engagement, sondern ein Umschlagen von Null auf Hundert.",
-        beleg: "›Das Faultier hängt still, bis es sich bewegt. Wenn es sich bewegt, gibt es alles‹ (Makatsch-Porträt); Dakota Johnsons ›Krallen, die man erst sieht, wenn man zu nahe kommt‹."
+        titel: "Scheinbare Trägheit, die sich bei Bedarf in volle, präzise Intensität verwandelt",
+        beschreibung: "Von außen wirkt die Grundhaltung zurückhaltend, mühelos, fast unbeteiligt. Doch sobald der richtige Moment oder eine Grenzüberschreitung eintritt, zeigt sich eine überraschend vollständige, hochpräzise Reaktion – kein abgestuftes Engagement, sondern ein Umschlagen von Null auf Hundert.",
+        beleg: "›Das Faultier hängt still, bis es sich bewegt. Wenn es sich bewegt, gibt es alles‹ (Makatsch); Dakota Johnsons ›Krallen, die man erst sieht, wenn man zu nahe kommt‹; Iga Świątek, die ›mühelos‹ wirkt, aber ›wenn sie zuschnappt, mit einer Präzision, die verblüfft‹."
       },
       {
-        titel: "Eine biografische Zäsur geht der eigentlichen Hingabe voraus",
-        beschreibung: "Häufig steht am Anfang nicht ein geplanter Karriereweg, sondern eine Krise, ein Bruch, ein Erschöpfungszustand – aus dem heraus sich die spätere, oft lebenslange Verschmelzungserfahrung erst entwickelt.",
-        beleg: "Craig Fosters Burnout vor der Begegnung mit dem Oktopus; Ana Salcedas zufällige, ungeplante Pflegemutterschaft für ein verwaistes Jungtier."
+        titel: "Langsame, unforcierte Ausdehnung über Jahrzehnte statt geplanter Karriereplanung",
+        beschreibung: "Statt einen Erfolg strategisch zu forcieren oder auszubauen, entfaltet sich das Lebenswerk in einem beiläufigen, fast selbstvergessenen Tempo – über viele Jahre, ohne den Eindruck von Zwang oder Kalkül.",
+        beleg: "Sophie Marceau: ›ein langsames, fast beiläufiges Sich-Ausdehnen über Jahrzehnte … ohne dass sie dabei je den Eindruck erweckte, etwas zu erzwingen‹; Hundertwassers lebenslanges Werk, Architektur mit Natur verschmelzen zu lassen, statt einzelne abgeschlossene Projekte abzuliefern."
       },
       {
-        titel: "Der Rückzug aus dem erwarteten, lauteren Weg",
-        beschreibung: "Ein vorgezeichneter, öffentlichkeitswirksamer oder dynastischer Weg wird bewusst nicht fortgesetzt zugunsten einer leiseren, unaufdringlicheren Form der Präsenz.",
-        beleg: "Dakota Johnson, die die Hollywood-Dynastie ihrer Familie hätte bequem fortschreiben können, wählt stattdessen eine ›Anwesenheit, die sich nicht aufdrängt‹."
+        titel: "Häufig geht der eigentlichen Hingabe eine biografische Zäsur voraus",
+        beschreibung: "Bei einem Teil der Fälle (nicht bei allen) steht am Anfang nicht ein geplanter Weg, sondern eine Krise, ein Bruch oder ein Zufall – aus dem heraus sich die spätere, oft lebenslange Verschmelzungserfahrung erst entwickelt.",
+        beleg: "Craig Fosters Burnout vor der Begegnung mit dem Oktopus; Ana Salcedas zufällige, ungeplante Pflegemutterschaft für ein verwaistes Jungtier. Gegenbeispiele wie Świątek oder Marceau zeigen: Dieses Muster ist häufig, aber kein zwingendes Kriterium."
       }
     ]
   },
   SE7: {
     tier: "Gorilla",
     kernthema: "Aufbau eines geschützten, familienähnlichen Systems statt Einzelkämpfertum",
-    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader"],
+    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader", "Mariah Carey", "Moritz Bleibtreu", "Niels Högel", "Jasmine Paolini", "Jeanne Calment", "Junko Tabei", "Wallace Shawn"],
     fingerabdruecke: [
       {
         titel: "Ein selbst geschaffenes Territorium statt einer fremden Karriereleiter",
-        beschreibung: "Statt in bestehenden Institutionen aufzusteigen, wird ein eigener, geschützter Mikrokosmos aufgebaut – ein Studio, eine Forschungsstation, ein Wissensgebäude –, in dem eigene Regeln gelten und den man selbst kontrolliert.",
-        beleg: "Hans Zimmers Remote Control Productions in Santa Monica; Dian Fosseys Forschungsstation Karisoke in den Virunga-Bergen; Francis Bacons ›Instauratio Magna‹, die ›Große Erneuerung‹ des gesamten Wissens als sein eigenes Territorium."
+        beschreibung: "Statt in bestehenden Institutionen aufzusteigen, wird ein eigener, geschützter Mikrokosmos aufgebaut – ein Studio, eine Forschungsstation, ein Wissensgebäude, manchmal auch schlicht ein Ort, dem man ein Leben lang treu bleibt –, in dem eigene Regeln gelten.",
+        beleg: "Hans Zimmers Remote Control Productions; Dian Fosseys Forschungsstation Karisoke; Francis Bacons ›Instauratio Magna‹; Jeanne Calment, die praktisch ihr gesamtes Leben in Arles verbrachte statt zu reisen."
       },
       {
         titel: "Raumfüllende Ruhe statt Kampf um Aufmerksamkeit",
-        beschreibung: "Die Wirkung entsteht nicht durch Show oder Konfrontation, sondern durch eine bloße, beruhigende Präsenz, die Vertrauen erzeugt, ohne sich aufzudrängen.",
-        beleg: "›Larry Kings bloße Anwesenheit in einem Fernsehstudio hatte etwas Beruhigendes‹ – über sechs Jahrzehnte, mehr als 50.000 Interviews, ohne aggressive Gesprächsführung."
+        beschreibung: "Die Wirkung entsteht nicht durch Show oder Konfrontation, sondern durch eine bloße, beruhigende oder unaufdringlich gewichtige Präsenz.",
+        beleg: "›Larry Kings bloße Anwesenheit in einem Fernsehstudio hatte etwas Beruhigendes‹; Wallace Shawn, der ›gemütlich aussieht – und das Schwergewicht der Ideen trägt‹, ohne je auffallen zu wollen."
       },
       {
-        titel: "Mentoring: Das selbst gebaute Rudel wird weitergegeben",
-        beschreibung: "Wer sich ein eigenes Territorium geschaffen hat, öffnet es typischerweise für andere – als Ausbildungsstätte, als Familienersatz, als Ort, an dem die nächste Generation lernt.",
-        beleg: "Zimmer bildete in seinem Studio Dutzende Komponisten aus (Junkie XL, Ramin Djawadi u. a.); ›Der Gorilla baut kein Territorium. Er baut ein Rudel.‹"
+        titel: "Genuss und Fülle als gelebtes Prinzip statt Askese",
+        beschreibung: "Auch unter Druck, im hohen Alter oder trotz beruflicher Härte bleibt eine ausgeprägte Freude an sinnlichem Genuss – Essen, Trinken, körperliches Wohlbefinden – ein durchgängiges biografisches Element, nicht als Schwäche, sondern als Lebensbejahung.",
+        beleg: "Mariah Carey: ›liebt das Essen – nicht als Schwäche, sondern als Ausdruck von Leben, Freude, Überfluss‹; Jeanne Calment, die bis 117 rauchte, fast ein Kilo Schokolade pro Woche aß und noch mit 85 focht; Wallace Shawn, der Essen als ›sinnliches Vergnügen, sozialen Akt, Beweis dafür, dass das Leben gut sein kann‹ beschreibt."
       },
       {
-        titel: "Kompromisslose Härte, sobald das Revier bedroht wird (v. a. bei w8)",
-        beschreibung: "Solange niemand das aufgebaute System angreift, bleibt die Grundhaltung friedlich und zugewandt. Wird das eigene Revier jedoch bedroht, kann diese Ruhe abrupt in kompromisslose, harte Verteidigung umschlagen – ohne Zwischenstufen.",
-        beleg: "Dian Fossey nach der Tötung des Gorillas Digit durch Wilderer; Andreas Baaders Wendung von geselligem Auftreten zu unnachgiebiger Gewaltbereitschaft, sobald seine Freiheit infrage stand."
+        titel: "Kompromisslose Härte bei Bedrohung des Reviers – auch in korrumpierter Form (v. a. bei w8)",
+        beschreibung: "Solange niemand das aufgebaute System angreift, bleibt die Grundhaltung friedlich. Wird das eigene Revier bedroht, kann diese Ruhe abrupt in harte Verteidigung umschlagen. In der Schattenform zeigt sich dasselbe Kontrollbedürfnis über das eigene Revier auch als Inszenierung künstlicher Abhängigkeit, um selbst als unentbehrlich zu erscheinen.",
+        beleg: "Dian Fossey nach der Tötung des Gorillas Digit; Andreas Baaders Wendung zu unnachgiebiger Gewaltbereitschaft; Niels Högels Muster, Patienten erst in Lebensgefahr zu bringen, um sich anschließend als Retter zu inszenieren – dieselbe Kontrolllogik über das eigene Revier, hier in zerstörerischer Ausprägung."
       }
     ]
   },
   SO3: {
     tier: "Gepard",
-    kernthema: "Kontrolle über das eigene Bild als bewusst eingesetztes Instrument",
-    beispiele: ["Karl Lagerfeld", "Cristiano Ronaldo", "Sahra Wagenknecht", "Pharrell Williams"],
+    kernthema: "Kontrolle über das eigene Bild und den entscheidenden öffentlichen Moment",
+    beispiele: ["Karl Lagerfeld", "Cristiano Ronaldo", "Sahra Wagenknecht", "Pharrell Williams", "Dr. Christiaan Barnard", "Ludwig XIV.", "Sean Connery", "Teresa von Ávila", "Bella Thorne", "Gottfried Wilhelm Leibniz", "Dr. Laurie Marker"],
     fingerabdruecke: [
       {
         titel: "Der kontrollierte Blick als Machtinstrument",
@@ -42499,19 +42499,19 @@ const LEBENSMUSTERKOMPASS = {
         beleg: "Karl Lagerfelds permanente Sonnenbrille als ›Instrument der Kontrolle‹; Sahra Wagenknechts ›ruhiger, präziser, leicht überblickender‹ Blick, der ›das Publikum sucht, die Wirkung misst, die Resonanz berechnet‹. Wichtig: Dies ist ein sichtbares Verhaltensmuster, kein zuverlässiges Diagnosekriterium für sich allein."
       },
       {
-        titel: "Leistung, die sich in überprüfbaren Rekordzahlen ausdrückt",
-        beschreibung: "Der Erfolg wird nicht nur behauptet, sondern in objektiv nachprüfbaren, oft superlativischen Zahlen sichtbar gemacht – Titel, Rekorde, Auszeichnungen –, die als Beleg für die Spitzenposition dienen.",
-        beleg: "Cristiano Ronaldo: fünf Weltfußballer-Titel, fünf Champions-League-Siege, über 900 Karrieretore – ›nicht einer der Besten. Der Beste.‹"
+        titel: "Der eine gewagte, öffentlich sichtbare Sprung statt schrittweiser Annäherung",
+        beschreibung: "Der entscheidende Erfolg entsteht oft nicht durch allmähliche Annäherung, sondern durch einen einzelnen, riskanten, öffentlich sichtbaren Schritt im genau richtigen Moment – verbunden mit überprüfbaren Rekordzahlen als Beleg der Spitzenposition.",
+        beleg: "Christiaan Barnard wagte 1967 die weltweit erste Herztransplantation, ›der Gepard jagt nicht aus Kraft, sondern aus Tempo und Wagemut‹; Ludwig XIV. inszenierte sich bereits mit 14 Jahren als ›Sonnenkönig‹ – ein Programm, das er zeitlebens fortführte; Cristiano Ronaldo: fünf Weltfußballer-Titel, über 900 Karrieretore – ›nicht einer der Besten. Der Beste.‹"
       },
       {
         titel: "Parallele Erfolgsfelder statt eines einzigen Fachgebiets",
-        beschreibung: "Erfolg wird nicht auf ein Gebiet begrenzt, sondern gleichzeitig oder nacheinander in mehreren, oft branchenfremden Bereichen gesucht und erreicht – ein Zeichen von Anpassungsgeschwindigkeit statt Spezialisierung.",
-        beleg: "Pharrell Williams: Musikproduktion (Neptunes), eigene Band (N.E.R.D.), Kreativdirektor für Herrenmode bei Louis Vuitton – ›kein anderer Künstler seiner Generation ist so vielen Spuren gleichzeitig nachgejagt.‹"
+        beschreibung: "Erfolg wird nicht auf ein Gebiet begrenzt, sondern gleichzeitig oder nacheinander in mehreren, oft branchenfremden Bereichen gesucht und erreicht.",
+        beleg: "Pharrell Williams zwischen Musikproduktion, eigener Band und Mode-Kreativdirektion; Bella Thorne als ›Schauspielerin, Sängerin, Regisseurin, Autorin, Unternehmerin, Social-Media-Star‹; Leibniz gleichzeitig als ›Philosoph, Mathematiker, Logiker, Jurist, Diplomat, Historiker, Bibliothekar und Ingenieur‹ – ›nicht nacheinander, sondern in ständiger Überlappung‹."
       },
       {
-        titel: "Verwandlung in ein wiedererkennbares, ikonisches Symbol",
-        beschreibung: "Am Ende der Entwicklung steht häufig nicht mehr nur eine Person, sondern ein sofort identifizierbares, plakatives Erscheinungsbild, das unabhängig vom Kontext funktioniert.",
-        beleg: "Lagerfeld: ›Er hatte sich in ein Symbol verwandelt, das auf Anhieb identifizierbar war, weltweit, zeitlos.‹"
+        titel: "Verwandlung in ein wiedererkennbares Symbol – oder bewusste Ablehnung des sicheren Reviers dafür",
+        beschreibung: "Am Ende der Entwicklung steht häufig ein sofort identifizierbares, ikonisches Erscheinungsbild. Der Weg dorthin führt oft über die bewusste Ablehnung einer sicheren, aber begrenzenden Option zugunsten der offenen, sichtbaren Fläche.",
+        beleg: "Lagerfeld: ›Er hatte sich in ein Symbol verwandelt … weltweit, zeitlos‹; Leibniz lehnte eine sichere Professur ab, weil ›der Gepard nicht im geschützten Revier eines einzelnen Hörsaals bleibt‹; Sean Connerys radikale Distanzüberwindung vom Milchmann zu James Bond."
       }
     ]
   }
