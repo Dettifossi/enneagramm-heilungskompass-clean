@@ -42462,6 +42462,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SE1: {
+    tier: "Adler",
+    kernthema: "Perfektionismus, der sich nicht an der Welt, sondern an der eigenen Vorbereitung und Integrität abarbeitet",
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristoteles", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Dennis Nilsen", "Dorothea Puente", "Michail Popkow", "Dennis Rader", "Andrei Tschikatilo", "Arno Funke", "Paul Ogorzow"],
+    fingerabdruecke: [
+      {
+        titel: "Die Sorge nach innen statt die Welt korrigieren",
+        beschreibung: "Naranjo nannte diesen Subtyp ›Worry‹ – Besorgnis: eine ständige, meist leise innere Frage, ob man dem eigenen Anspruch wirklich gerecht wird. Anders als die soziale oder sexuelle Eins richtet sich dieser Perfektionismus nicht auf die Korrektur anderer, sondern nach innen, auf das eigene Handwerk, die eigene Vorbereitung, die eigene Integrität.",
+        beleg: "Robert De Niro: ›Kein Interview, in dem er sich selbst erklärt‹ – der Perfektionismus zeigt sich nur in der Arbeit selbst; Christoph Waltz, der fragt, ob er ›dem eigenen Anspruch an Wahrhaftigkeit genügt‹; Magnus Carlsen, der sich unablässig fragt, ›ob diese Stellung wirklich optimal ausgeschöpft‹ ist; Marie Kondo, deren Unruhe gilt, ›ob das eigene Umfeld wirklich stimmt‹; Astrid Lindgren, Anthony Hopkins, Pierce Brosnan, Dan Brown, Aristoteles und Adenauer zeigen dieselbe nach innen gerichtete, unbestechliche Selbstprüfung – nie als Vorwurf an andere, immer als Anspruch an sich selbst."
+      },
+      {
+        titel: "Stille Präzision ohne Show – der Sturzflug nach langem Kreisen",
+        beschreibung: "Die Wirkung entsteht nicht durch Lautstärke oder Selbstdarstellung, sondern durch langes, geduldiges Beobachten, gefolgt von einer einzigen, hochpräzisen Handlung, die keine Wiederholung braucht.",
+        beleg: "›Der Adler beobachtet lange, bevor er handelt … und wenn er schließlich zuschlägt, dann mit einer Genauigkeit, die keine Wiederholung braucht‹ (De Niro); Anthony Hopkins wurde mit nur rund sechzehn Minuten Screentime als Hannibal Lecter oscarprämiert – ›der Adler muss nicht schreien, um gefürchtet zu werden‹; Magnus Carlsens Gegner beschreiben Partien gegen ihn als ›langsames Erdrücken‹; Christoph Waltz wartete fünfzig Jahre auf seine Rolle bei Tarantino: ›Der Adler hatte geduldig gekreist. Dann schlug er zu.‹"
+      },
+      {
+        titel: "Jahrzehntelange Beharrlichkeit trotz Rückschlägen, bevor der Durchbruch kommt",
+        beschreibung: "Der Erfolg stellt sich häufig nicht früh oder plötzlich ein, sondern erst nach vielen Jahren stiller, oft unbeachteter Übung und wiederholten Scheiterns – getragen von einer Disziplin, die sich durch Misserfolg nicht entmutigen lässt.",
+        beleg: "Udo Jürgens nahm ›über zehn Jahre lang an Talentwettbewerben teil‹, bevor sich sein Durchbruch einstellte, und gewann erst nach mehreren gescheiterten Anläufen den Eurovision Song Contest; Ken Follett hielt ›über sechzig Jahre‹ hinweg dieselbe schriftstellerische Konstanz durch, auch im hohen Alter; Konrad Adenauer begann seine ›eigentliche historische Rolle‹ erst mit 73 Jahren; Christoph Waltz' fünfzigjähriges Warten auf die passende Rolle."
+      },
+      {
+        titel: "Untadelige bürgerliche Fassade, hinter der sich – in der Schattenform – die dunkelste Tat verbirgt",
+        beschreibung: "In der destruktiven Ausprägung wird dieselbe Disziplin, dieselbe Sorgfalt und derselbe Anspruch an Pflichterfüllung zur perfekten Tarnung: ein makellos korrektes öffentliches Leben, hinter dem sich über Jahre unentdeckt eine völlig gegensätzliche zweite Wirklichkeit verbirgt.",
+        beleg: "Michail Popkow war während seiner gesamten Mordserie aktiver Polizeibeamter und ›galt als unauffälliger, pflichtbewusster Bürger‹; Dennis Rader blieb jahrzehntelang unentdeckt als ›Kirchenratsvorsitzender … kommunaler Ordnungsbeauftragter … Ehemann und Vater‹; Andrei Tschikatilo ›galt als Lehrer, Parteimitglied und unauffälliger Staatsbürger‹; Dorothea Puente pflegte ›ein tadelloses öffentliches Bild: freundliche Vermieterin, Wohltäterin der Gemeinde‹. Arno Funke bildet den Gegenpol innerhalb desselben Musters: dieselbe akribische, kontrollierte Methodik, aber – charakteristisch für den Neunerflügel – ohne jede Gewaltbereitschaft: ›Er war weniger Verbrecher als ein Mensch, der unter materiellem Druck zu akribischen, aber gewaltlosen Mitteln griff.‹"
+      }
+    ]
+  },
   SX9: {
     tier: "Faultier",
     kernthema: "Verschmelzung mit einem einzelnen Wesen, Werk oder Stil statt Zugehörigkeit zu einer Gruppe",
