@@ -50235,18 +50235,18 @@ function sterlingNorthPortraitPage() {
               ["sterling-north-31-vierzehn-jahre-b.jpg", "Sterling North im Alter von vierzehn Jahren, zweites Foto", "Ebenfalls im Alter von 14 Jahren"],
               ["sterling-north-25-sechzehn-jahre.jpg", "Sterling North im Alter von sechzehn Jahren", "Im Alter von 16 Jahren"],
               ["sterling-north-30-achtzehn-jahre-schreibend.jpg", "Sterling North im Alter von achtzehn Jahren, schreibend", "Mit 18 Jahren, introvertiert schreibend im Arbeitszimmer der Familie – schon hier schriftstellerisch tätig"],
-              ["sterling-north-01-familie.jpg", "Familienfotos Sterling North", "Familienfotos aus verschiedenen Lebensabschnitten"],
+              ["sterling-north-01-familie.jpg", "Sterling North mit seiner Frau Gladys und ihren beiden Kindern, Fotostreifen", "Familienfoto (Fotostreifen, von oben nach unten): Sterling North im Alter von etwa 55 Jahren, seine Frau Gladys und ihre beiden Kinder"],
             ])}
 
             ${galleryGroup("Familie und Alltag", [
               ["sterling-north-26-mit-vater.jpg", "Sterling North mit seinem Vater", "Mit seinem Vater"],
+              ["sterling-north-04-angeln.jpg", "Sterling North beim Angeln", "Beim Angeln – seine Lieblingsbeschäftigung in ländlicher Umgebung: ganz still werden, warten, bis der große Fang kommt"],
               ["sterling-north-27-mit-bruder.jpg", "Sterling North mit seinem älteren Bruder", "Mit seinem älteren Bruder"],
               ["sterling-north-28-mit-onkel.jpg", "Sterling North mit einem Onkel väterlicherseits", "Mit einem Onkel väterlicherseits"],
               ["sterling-north-02-schreibtisch.jpg", "Sterling North an der Schreibmaschine", "Am Schreibtisch, mit seiner Royal-Schreibmaschine"],
               ["sterling-north-03-ehefrau.jpg", "Sterling North mit seiner Frau Gladys", "Mit seiner Frau Gladys Buchanan North"],
               ["sterling-north-29-ehefrau-portraet.jpg", "Gladys Buchanan North, Porträt", "Seine Frau Gladys Buchanan North (SO2w1)"],
               ["sterling-north-32-mit-ehefrau-schreibmaschine.jpg", "Sterling North mit seiner Frau an der Schreibmaschine", "Mit 43 Jahren, gemeinsam mit seiner Frau an der Schreibmaschine – die selbsterhaltende Waschbärfigur gut erkennbar"],
-              ["sterling-north-04-angeln.jpg", "Sterling North beim Angeln", "Beim Angeln – ein Leben in ländlicher Umgebung"],
               ["sterling-north-05-portraet.jpg", "Porträtfoto Sterling North", "Porträtaufnahme"],
             ])}
 
