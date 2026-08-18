@@ -34582,7 +34582,7 @@ function startPage() {
 
   const profileGlimpse = !firstVisit ? `
     <div class="first-glimpse">
-      ${p.image ? `<div style="position:relative;width:72px;height:72px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 3px ${typeColorFromCode(p.code)};"><img src="${p.image}" alt="${text.meta.resonanceImageAltPrefix} ${p.code}" style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;border-radius:0;" /></div>` : `<div class="profile-badge">${p.emoji || p.code}</div>`}
+      ${p.image ? `<div style="position:relative;width:72px;height:72px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 3px ${typeColorFromCode(p.code)};"><img src="${p.image}" alt="${text.meta.resonanceImageAltPrefix} ${p.code}" style="position:absolute;top:${tierAvatarTop(p.code)};left:${tierAvatarLeft(p.code)};width:140%;height:140%;object-fit:cover;border-radius:0;" /></div>` : `<div class="profile-badge">${p.emoji || p.code}</div>`}
       <div>
         <span>${p.code} \u00b7 ${p.title}</span>
         <strong>${p.focus}</strong>
@@ -38965,7 +38965,7 @@ function profilePage() {
       return `<button class="profile-card${active}" style="animation-delay:${delay}s" data-select-profile="${id}">
         <div class="profile-card__visual" style="position:relative;border-radius:50%;overflow:hidden;box-shadow:0 0 0 3px ${tc};">
           ${p.image
-            ? `<img src="${p.image}" alt="${p.archetype || p.code}" class="profile-card__img" style="position:absolute;inset:0;width:140%;height:140%;margin:-20%;object-fit:cover;border-radius:0;animation:none;" />`
+            ? `<img src="${p.image}" alt="${p.archetype || p.code}" class="profile-card__img" style="position:absolute;top:${tierAvatarTop(p.code)};left:${tierAvatarLeft(p.code)};width:140%;height:140%;object-fit:cover;border-radius:0;animation:none;" />`
             : `<span class="profile-card__emoji">${p.emoji || ''}</span>`}
         </div>
         <span class="profile-card__code" style="color:${tc};">${p.code}</span>
