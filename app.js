@@ -38331,8 +38331,8 @@ function typeColorFromCode(code) { return typeColor(code ? code.slice(-1) : 0); 
 // deren Tier auf dem Quellbild anders positioniert ist, können hier gezielt überschrieben
 // werden, ohne die anderen zu beeinflussen.
 const TIER_AVATAR_LEFT_OVERRIDES = {
-  SE1: -14, SX1: -12, SO2: -14, SX2: -12, SE3: -6, SO4: -16, SE5: -11,
-  SO7: -10, SX7: -6, SE8: -16, SO8: -11, SE9: -13, SO9: -13, SX9: -14,
+  SE1: -14, SX1: -11, SO2: -14, SX2: -12, SE3: -6, SO4: -20, SE5: -11,
+  SX6: -10, SO7: -10, SX7: -6, SE8: -16, SO8: -10, SE9: -15, SO9: -14, SX9: -13,
 };
 function tierAvatarLeft(code) {
   const c = (code || "").toUpperCase();
@@ -38341,7 +38341,7 @@ function tierAvatarLeft(code) {
 }
 // Vertikale Feinjustierung (Standard -20%) – bislang nur für einzelne Ausnahmen nötig.
 const TIER_AVATAR_TOP_OVERRIDES = {
-  SX6: -26,
+  SX6: -26, SE3: -24,
 };
 function tierAvatarTop(code) {
   const c = (code || "").toUpperCase();
