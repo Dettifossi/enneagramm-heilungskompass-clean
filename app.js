@@ -42487,6 +42487,33 @@ function lebensmusterkompassPortraitsForCode(code) {
 }
 
 const LEBENSMUSTERKOMPASS = {
+  SE3: {
+    tier: "Waschbär",
+    kernthema: "Können statt Glänzen – die natürliche Maske, die aus Wenigem ein funktionierendes System baut (Naranjo: der Kontratyp der Drei)",
+    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff"],
+    fingerabdruecke: [
+      {
+        titel: "Unscheinbare Fassade statt Rampenlicht – Können statt Glänzen (Naranjo: Kontratyp)",
+        beschreibung: "Anders als die sozialen und sexuellen Dreier sucht dieser Subtyp keine Bühne. Naranjo nannte ihn den ›Kontratyp‹ der Drei: Statt Selbstinszenierung zeigt sich Bescheidenheit, Bodenständigkeit, ein bewusstes Vermeiden des Rampenlichts – während die Energie darunter dieselbe bleibt.",
+        beleg: "Kathrin Bauerfeind: ›Kein lauter Auftritt, kein Glanz, keine Bühne … Der Waschbär wühlt nicht im Rampenlicht – er schafft sich sein eigenes Territorium‹; Tony Shalhoub und Judit Polgár werden fast wortgleich beschrieben: ›Ein Tier, das man leicht unterschätzt … arbeitet mit feinen, geschickten Händen im Verborgenen‹; Joseph Haydn: ›kein Wunderkind wie Mozart, kein zorniger Titan wie Beethoven‹, sondern drei Jahrzehnte loyaler Dienst. Als Warnung dient Wolodymyr Selenskyj: ›Ein Schauspieler, der eine Rolle spielt, bis er selbst nicht mehr weiß, wo die Rolle endet und er anfängt – das ist die Falle der selbsterhaltenden Drei.‹"
+      },
+      {
+        titel: "Aus wenig oder aus dem Nichts ein funktionierendes System bauen",
+        beschreibung: "Statt auf vorhandene Ressourcen oder Startvorteile zu warten, entsteht aus begrenzten Mitteln, oft aus purer Findigkeit, ein tragfähiges, manchmal jahrzehntelang funktionierendes System.",
+        beleg: "Osho, der ›aus einem staubigen Grundstück in Poona einen internationalen Kommune-Betrieb‹ und später eine ganze Stadt mit eigenem Flughafen aufbaute; Madame Tussaud, die aus einem Handwerk ›ein Weltunternehmen‹ machte, das ›fast zweihundert Jahre nach ihrem Tod in Dutzenden Städten‹ weiterbesteht; Sadhguru: ›Der Waschbär macht aus dem Wenigen viel – leise, effizient, ohne Aufhebens. Und dann schaut man hin, und er hat die ganze Wüste bepflanzt.‹"
+      },
+      {
+        titel: "Jahrelange, disziplinierte Übung im Verborgenen, bevor sich Meisterschaft zeigt",
+        beschreibung: "Fähigkeiten, die später mühelos wirken, entstehen fast nie über Nacht, sondern über Jahre stiller, oft schmerzhaft konsequenter Wiederholung, lange bevor eine Öffentlichkeit davon erfährt.",
+        beleg: "Lang Lang: ›Der Waschbär lernte früh: Können entsteht nicht durch Talent allein, sondern durch endlose, oft schmerzhafte Wiederholung‹; Judit Polgár, deren Meisterschaft das Ergebnis ›Tausender Trainingsstunden am Brett, lange bevor die Öffentlichkeit von ihr wusste‹ war; Tom Keating, der über zwei Jahrzehnte mehr als 2.000 Gemälde im Stil von rund 100 Meistern schuf – Handwerksbeherrschung, die er bewusst gegen den Kunstmarkt richtete."
+      },
+      {
+        titel: "Die natürliche Maske wird zur bewussten Täuschung – harmlose Fassade verdeckt Betrug oder Verbrechen (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird genau dieselbe unauffällige, vertrauenswürdig wirkende Fassade zum perfekten Werkzeug: Wer nicht glänzen will, gerät nicht in Verdacht – und kann diese Unauffälligkeit über Jahre für Betrug in großem Stil oder Schlimmeres nutzen.",
+        beleg: "Bernie Madoff: ›Der SE3er inszeniert sich nicht laut und glamourös … sondern still, seriös, vertrauenswürdig‹ – über 20 Jahre größter Anlagebetrug der Geschichte; Belle Gunness, die ›täuschend harmlos‹ wirkte: ›Sie bat um Hilfe. Sie schrieb liebevolle Briefe … Und sie begrub sie in ihrem Schweinestall‹; Ruja Ignatova und Samuel Bankman-Fried als moderne Varianten desselben Musters im Finanzbetrug; Anna Anderson, die sich ›aus fast nichts eine Existenz baute‹ – nur dass das Nichts eine fremde Identität war. Wichtig: Die Mehrheit der SE3 in diesem Kompass zeigt dieses Muster nicht – es handelt sich um eine Extremform derselben stillen Wirksamkeit, keine typische Ausprägung."
+      }
+    ]
+  },
   SX2: {
     tier: "Kamel",
     kernthema: "Ein ganzes Publikum in eine einzige, persönliche Begegnung verwandeln",
