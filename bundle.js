@@ -33388,6 +33388,10 @@ if (!location.hash || location.hash === "#start") {
   document.title = text.meta.appTitle;
 }
 
+// Echter Navigations-Stack: merkt sich die tatsächlich besuchte Route, damit
+// der "Zurück"-Button (js-back-btn) dorthin zurückführt, woher man wirklich
+// kam – statt zu einem für die Seite fest hinterlegten Standardziel.
+window.__routeStack = window.__routeStack || [];
 window.addEventListener("hashchange", () => {
   const raw = location.hash.replace("#", "") || "start";
   const [newRoute, scrollAnchor] = raw.split("|");
@@ -33396,6 +33400,10 @@ window.addEventListener("hashchange", () => {
   if (newRoute !== "differenzierung") diffState = { a: null, b: null };
   if (newRoute !== "situationskompass") situKompState = { situId: null, subtypeCode: null };
   if (newRoute !== "krisenkompass") krisenState = { typNr: null, krisenId: null };
+  if (state.route && state.route !== newRoute) {
+    window.__routeStack.push(state.route);
+    if (window.__routeStack.length > 40) window.__routeStack.shift();
+  }
   state.route = newRoute;
   if (window.__gtag) window.__gtag('event', 'page_view', { page_path: '/#' + newRoute, page_title: newRoute });
   render();
@@ -39235,6 +39243,13 @@ function bindEvents() {
   });
 
   document.getElementById("js-back-btn")?.addEventListener("click", () => {
+    // Bevorzugt: tatsächlich besuchte Vorseite aus dem Navigations-Stack
+    // (z. B. Lebensmusterkompass, Suche, ...), statt des fest hinterlegten
+    // Standardziels der jeweiligen Seite.
+    if (window.__routeStack && window.__routeStack.length) {
+      go(window.__routeStack.pop());
+      return;
+    }
     const target = document.getElementById("js-back-target");
     if (target && target.dataset.route) { go(target.dataset.route); }
     else if (history.length > 1) { history.back(); }
