@@ -42903,7 +42903,7 @@ function lebensmusterkompassDetailPage(codeRaw) {
   const cards = data.fingerabdruecke.map((f, i) => `
     <div class="vb-blockquote" style="margin-bottom:1.2rem;">
       <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:0.7rem;">
-        <span style="background:${col};color:#1a1208;font-size:0.72rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.06em;white-space:nowrap;">Fingerabdruck ${i + 1}</span>
+        <span style="background:${col};color:#fff;font-size:0.72rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.06em;white-space:nowrap;text-shadow:0 1px 2px rgba(0,0,0,0.35);">Fingerabdruck ${i + 1}</span>
         <strong style="font-size:1.02rem;color:var(--ink);">${f.titel}</strong>
       </div>
       <p style="margin:0 0 0.7rem;font-size:0.9rem;line-height:1.6;">${f.beschreibung}</p>
