@@ -756,6 +756,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Billie Eilish – Sexual Type 4",
     teaser:"SX4w3 · born 2001. Singer, songwriter. From a SoundCloud upload at fourteen to a four-category Grammy sweep and two Oscars – the Chihuahua that whispers instead of shouting, and becomes inescapable precisely because of it.",
     tags:["Music"], gender:"f"},
+{ route:"beruehmte-paris-hilton", name:"Paris Hilton", added:"2026-08-18", subtyp:"SX4w3",
+    heading:"Paris Hilton – Sexual Type 4",
+    teaser:"SX4w3 · born 1981. Heiress, businesswoman, reality TV pioneer. For over a decade accompanied by her most famous companion, the Chihuahua Tinkerbell. A constructed persona as a shield, concealing a far more vulnerable person for decades. Animal correspondence: Chihuahua.",
+    tags:["Medien","Wirtschaft"], gender:"f"},
 { route:"beruehmte-christian-raetsch", name:"Dr. Christian Rätsch", subtyp:"SE5w4",
     heading:"Christian Rätsch – Self-Preservation Type 5",
     teaser:"SP5w4 · 1957–2022. Ethnologist, ethnopharmacologist. Encyclopedia of Psychoactive Plants. The owl that sees in the dark – and preserves the knowledge others do not want to see.",
@@ -28634,6 +28638,66 @@ function carlFriedrichGaussPortraitPage() {
   `);
 }
 
+function parisHiltonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-paris-hilton-portrait.jpg" alt="Chihuahua" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Paris Hilton</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Heiress, businesswoman, reality TV pioneer, born 1981 &ndash; Animal correspondence: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua who always had a Chihuahua by her side</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal of the Sexual Four &ndash; small, but with a presence that fills the entire room, dramatic in every gesture, always searching for the one intense bond that outshines everything else. Few images embody this principle as literally as Paris Hilton with her most famous companion: the Chihuahua Tinkerbell, who barely left her side for over a decade, was carried through public life in diamond-studded outfits, and became the symbol of an entire fashion trend &ndash; the "handbag dog."</p>
+          <p class="vb-intro">Hilton, great-granddaughter of hotel founder Conrad Hilton, first became known in the late 1990s as part of New York's society scene before becoming world-famous from 2003 onward with the reality series "The Simple Life." Her style &ndash; tracksuits, rhinestones, and that small dog in the handbag &ndash; shaped mass taste for years, long before influencer marketing was a term anyone used.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Four: intensity as both stage and shield</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>Sexual Four (SX4)</strong> "Competition": it seeks its significance not in quiet withdrawal, but in a dramatic, impossible-to-ignore presence that aims to win the competition for attention and intensity. Over the years, Hilton perfected a public persona &ndash; a breathy, girlish voice, an almost theatrically staged naivety &ndash; so effective that it became a template for an entire generation of later reality and social-media personalities.</p>
+          <p class="vb-intro">Yet this very persona was, as Hilton later revealed herself, a shield: in interviews she described herself as "a very naturally shy person" and explained that her real voice was deeper and calmer than the public had ever heard. The Sexual Four shows its most paradoxical side here: building a stage persona of such intensity that it could completely conceal the vulnerable self behind it for decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: the perfectly staged brand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Four an unerring sense for image, impact, and marketing &ndash; its own intensity is not only felt but strategically translated into a successful, recognizable brand. Hilton built a business empire out of her public figure: perfumes, fashion lines, a DJ career, entrepreneurial ventures &ndash; a body of work that went far beyond her original society fame, and one that later reality stars, including Kim Kardashian, have explicitly credited her with paving the way for.</p>
+          <p class="vb-intro">Tinkerbell, too, was part of this deliberate staging: the Chihuahua appeared regularly on "The Simple Life," became a small celebrity in her own right, and reinforced exactly the image of boundless, glamorous playfulness that Hilton embodied as a brand. The Three-wing knows precisely which detail completes an image.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX4w3 is its ability to turn <strong>inner intensity into a culture-shaping public figure</strong> &ndash; Hilton verifiably changed how an entire generation understood fame, fashion, and public self-presentation, long before social media made this mechanism accessible to everyone.</p>
+          <p class="vb-intro">The shadow only showed decades later, in the documentary "This Is Paris" (2020), in which Hilton deliberately dropped the facade and spoke about painful childhood experiences at so-called "troubled teen" institutions. She described how liberating it was to finally be seen as a vulnerable human being instead of a perfect persona. The flip side of the Sexual Four with a Three-wing: building a stage persona so convincing that the world barely glimpsed the actual self behind it for decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Chihuahua that shows a heart beats beneath the armor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tinkerbell died in 2015 at age fourteen, deeply mourned by Hilton, who spoke openly about her close, years-long bond with the small dog. What remains is a double image: the glamorous, unmistakable persona with the Chihuahua in her handbag &ndash; and the woman who, decades later, found the courage to publicly set that armor down.</p>
+          <p class="vb-intro">Few images could stand more fittingly for the Sexual Four with a Three-wing: a small animal of boundless, unmistakable presence at the side of a woman whose own equally intense public staging only late in life gave way to a glimpse of a tender, vulnerable inner self.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"lebensmusterkompass/sx4", label:"Life Pattern Compass: SX4 – Chihuahua"},
+        {route:"beruehmte-billie-eilish", label:"Portrait: Billie Eilish (SX4w3)"},
+        {route:"beruehmte-rihanna", label:"Portrait: Rihanna (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function julesVernePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -35905,12 +35969,12 @@ const LEBENSMUSTERKOMPASS = {
   SX4: {
     tier: "Chihuahua",
     kernthema: "Small in stature, immense inner life – intensity that knows no half-measures (Naranjo: Competitiveness)",
-    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler"],
+    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton"],
     fingerabdruecke: [
       {
         titel: "Small in stature or origin, immense inner life – intensity without half-measures",
         beschreibung: "Naranjo called this subtype the one of 'Competitiveness': an intensity utterly disproportionate to outward appearance or starting conditions. No half-feeling, no moderate demeanor – whatever is felt is felt completely.",
-        beleg: "Freddie Mercury: 'The Chihuahua who turns into a lion – and never stops being a Chihuahua'; Rihanna, from 'a child from the Caribbean to the most global entertainer of her generation': 'Small, where she comes from. Unstoppable, where she's going'; Billie Eilish: 'It doesn't shake out of weakness, but out of alertness: every fiber of its small body is tuned to intensity'; Dante, Debussy, and the Marquis de Sade are described in almost identical terms: 'Small in stature, immense inner life, incapable of half-measures.'"
+        beleg: "Freddie Mercury: 'The Chihuahua who turns into a lion – and never stops being a Chihuahua'; Rihanna, from 'a child from the Caribbean to the most global entertainer of her generation': 'Small, where she comes from. Unstoppable, where she's going'; Billie Eilish: 'It doesn't shake out of weakness, but out of alertness: every fiber of its small body is tuned to intensity'; Dante, Debussy, and the Marquis de Sade are described in almost identical terms: 'Small in stature, immense inner life, incapable of half-measures'; Paris Hilton, whose years-long companion, the Chihuahua Tinkerbell, became a literal emblem of her own unmistakable stage intensity."
       },
       {
         titel: "Rejection or exile becomes creative power, rather than leading to revenge or resignation",
@@ -57477,6 +57541,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
       "beruehmte-carl-friedrich-gauss": carlFriedrichGaussPortraitPage,
+      "beruehmte-paris-hilton": parisHiltonPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
