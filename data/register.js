@@ -898,6 +898,7 @@ export const registerEntriesEN = [
   { term: "Cristiano Ronaldo", route: "beruehmte-cristiano-ronaldo", description: "Portrait: SO3w2 · Social Type 3 · Football star, self-optimization" },
   { term: "David L. Rathmer", route: "beruehmte-david-l-rathmer", description: "Portrait: SE3w4 · Self-Preservation Type 3 · Enneagram trainer" },
   { term: "Dieter Bohlen", route: "beruehmte-dieter-bohlen", description: "Portrait: SX3w4 · Sexual Type 3 · Pop producer, Modern Talking" },
+  { term: "Marlene Zuk", route: "beruehmte-marlene-zuk", description: "Portrait: SX3w4 · Sexual Type 3 · evolutionary biologist, Hamilton-Zuk hypothesis" },
   { term: "Adele", route: "beruehmte-adele", description: "Portrait: SE4w3 · Self-Preservation Type 4 · Singer, songwriter" },
   { term: "Nicolas Cage", route: "beruehmte-nicolas-cage", description: "Portrait: SE4w3 · Self-Preservation Type 4 · Actor" },
   { term: "Adele Neuhauser", route: "beruehmte-adele-neuhauser", description: "Portrait: SX8w7 · Sexual Type 8 · Actress, Bibi Fellner, Tatort, Austrian Film Prize, Crocodile" },

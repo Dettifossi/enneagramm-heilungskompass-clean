@@ -448,6 +448,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dieter Bohlen – Sexual Type 3",
     teaser:"SX3w4 · born 1954. Music producer, composer, TV judge. Over 500 million records sold. The peacock that spreads its feathers – and wants to know what lies beneath.",
     tags:["Musik"] },
+  { route:"beruehmte-marlene-zuk", name:"Prof. Dr. Marlene Zuk", added:"2026-08-18", subtyp:"SX3w4",
+    heading:"Marlene Zuk – Sexual Type 3",
+    teaser:"SX3w4 · born 1956. Evolutionary biologist, professor. Hamilton-Zuk hypothesis: ornaments like the peacock's tail as honest signals of health and parasite resistance. The peacock that researches instead of merely shining. Animal correspondence: Peacock.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-lady-diana", name:"Lady Diana", subtyp:"SE4w3",
     heading:"Lady Diana – Self-Preservation Type 4",
     teaser:"SP4w3 · 1961–1997. Princess of Wales. The dove that carries messages – empathy as strength, inner pain as a silent burden, and a warmth that touched millions.",
@@ -31997,6 +32001,66 @@ function dieterBohlenPortraitPage() {
 }
 
 
+function marleneZukPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-marlene-zuk-portrait.jpg" alt="Peacock" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Marlene Zuk</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexual Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Evolutionary biologist &amp; behavioral ecologist, b. 1956 &ndash; showed why the peacock's tail is honest &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The scientist who explained the peacock's tail</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hardly any portrait in this compass connects animal correspondence and life's work as directly as this one: Marlene Zuk has devoted her entire scientific life to the question of why nature produces something like the peacock's tail in the first place &ndash; that conspicuous, seemingly impractical display of splendor that attracts predators, costs energy, and offers no obvious survival advantage at first glance. As an evolutionary biologist and professor, among others at the University of Minnesota, she has studied sexual selection, parasites, and the evolution of such extreme ornaments in depth &ndash; and in doing so, without realizing it, made her own archetypal principle the theme of her life.</p>
+          <p class="vb-intro">The <strong>peacock</strong> is the animal of the sexual Three &ndash; the only animal that unfolds its finest moment entirely for others, as a message, as proof, as an invitation: <em>Look at me. I am real.</em> Marlene Zuk did not live out this principle the way an actress or a pop star might &ndash; she dissected it, measured it, and documented it in laboratories and in the field over decades. Here, the sexual Three shows itself not as self-display, but as research passion: she wanted to understand precisely what attraction, beauty, and courtship actually mean biologically.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Hamilton-Zuk hypothesis: more than mere appearance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Marlene Zuk became world-famous, among other things, for the <strong>Hamilton-Zuk hypothesis</strong>, developed together with W. D. Hamilton. Before her research, ornamental splendor in nature &ndash; the peacock's tail, loud birdsong, brilliant colors &ndash; was often considered mere evolutionary decoration, a byproduct without deeper meaning. Zuk proved the opposite: such visual and acoustic signals are honest indicators of genuine biological fitness and parasite resistance. Whoever can display such splendor must, on the inside, actually be healthy and resilient &ndash; anything else would be biologically unaffordable.</p>
+          <p class="vb-intro">This is the sexual Three with a Four-wing in its purest scientific form: performance and presentation must not be a hollow facade. They must be underpinned by real substance, by genuine worth &ndash; "more than mere appearance." What the SX3w4 carries within as a felt sense of life (the longing not merely to shine, but to be genuinely significant), Zuk demonstrated as a law of nature: the peacock does not deceive. Its tail is an honest signal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: from literature to hard science</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A sexual Three with a weaker Four-wing might have approached these themes in a more popular, entertaining, quick-impact way. Marlene Zuk's path instead shows the typical depth of the Four: she began her studies at the University of California, Santa Barbara, originally majoring in English Literature &ndash; that is, in language, expression, meaning &ndash; before switching decisively to biology. Rather than engaging only theoretically or aesthetically with stories about beauty and courtship, she dug deep into empirical lab and field research, earned her doctorate at the University of Michigan, and rose to a professorship. She wanted to make the mechanisms of attraction and reproduction precisely measurable &ndash; not just describe them, but prove them.</p>
+          <p class="vb-intro">This shift &ndash; from literature to rigorous empirical science &ndash; is the signature of the Four-wing on an otherwise impact-focused Three: the need to look beneath the surface until the last doubt is resolved. This same stance appears in her later popular-science books such as <em>»Sexual Selections: What We Can and Can't Learn About Sex From Animals«</em> and <em>»Paleofantasy«</em>: in them, Zuk deliberately dismantles romantic illusions &ndash; for instance, popular myths about the "paleo diet" or a supposedly perfect, "natural" original state of humanity. This analytical, unsparing eye for the reality behind the illusion is typical of people who combine achievement with intellectual depth, rather than blindly following every trend.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow of the sexual Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX3w4 is its ability not merely to generate attraction and impact, but to understand it &ndash; and to communicate that understanding clearly to a broad audience. Marlene Zuk is known for bringing complex biological behaviors into sharp, analytical focus without oversimplifying or romanticizing them. This is the mature form of the peacock: not just wanting to be beautiful, but understanding why beauty exists at all.</p>
+          <p class="vb-intro">The Three's passion is <strong>vanity / deceit</strong> &ndash; the deep need to be perceived as successful and admirable. In a researcher like Zuk, this pattern shows itself not destructively, but sublimated: it drives her to keep delivering new evidence, new facets, new books &ndash; as if her own scientific substance had to be proven anew each time. The Four-wing carries with it the risk that mere recognition is never enough &ndash; that behind every new insight lurks the next question of whether one has really dug deep enough.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The peacock that researched the tail instead of merely spreading it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Three leads from the question <em>How am I seen?</em> to the realization <em>I am – even when no one is watching.</em> Marlene Zuk's life's work shows a particular, sublimated form of this path: she did not direct the question of beauty, attraction, and the pursuit of recognition at herself, but at nature &ndash; and in doing so found something that points beyond mere self-display: that true splendor only holds up when real substance stands behind it.</p>
+          <p class="vb-intro">In this, Marlene Zuk represents a rare, particularly integrous expression of the sexual Three with a Four-wing: one who does not live out her own archetypal principle, but researches it &ndash; giving the world a gift that reaches far beyond her own person. The peacock that, at some point, no longer just spreads its tail, but can explain exactly why it does so in the first place.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: subtype profile"},
+        {route:"tierlexikon/sx3", label:"Animal Lexicon: Peacock"},
+        {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
+        {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function bradPittPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -35715,7 +35779,7 @@ const LEBENSMUSTERKOMPASS = {
   SX3: {
     tier: "Peacock",
     kernthema: "Immediate presence and magnetism – without calculation, yet with full effect",
-    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Diane Downs", "Luka Magnotta", "Richard Ramírez"],
+    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Diane Downs", "Luka Magnotta", "Richard Ramírez"],
     fingerabdruecke: [
       {
         titel: "Immediate, magnetic presence instead of calculated staging",
@@ -57098,6 +57162,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-brad-pitt": bradPittPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
+      "beruehmte-marlene-zuk": marleneZukPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-voltaire": voltairePortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,

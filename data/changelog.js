@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v1208", date: "2026-08-18", text: "Porträt Prof. Dr. Marlene Zuk jetzt auch auf Englisch verfügbar.", text_en: "Prof. Dr. Marlene Zuk portrait now also available in English.", route: "beruehmte-marlene-zuk" },
     { version: "v1207", date: "2026-08-18", text: "Neues Porträt: Prof. Dr. Marlene Zuk (SX3w4, Pfau) – Evolutionsbiologin, deren Hamilton-Zuk-Hypothese erklärt, warum das Pfauenrad ein ehrliches Signal ist.", text_en: "New portrait: Prof. Dr. Marlene Zuk (SX3w4, Peacock) – evolutionary biologist whose Hamilton-Zuk hypothesis explains why the peacock's tail is an honest signal.", route: "beruehmte-marlene-zuk" },
     { version: "v1206", date: "2026-08-18", text: "Porträt Sterling North jetzt auch auf Englisch verfügbar, inklusive aller 32 Galeriefotos in korrigierter Reihenfolge.", text_en: "Sterling North portrait now also available in English, including all 32 gallery photos in corrected order.", route: "beruehmte-sterling-north" },
     { version: "v1205", date: "2026-08-18", text: "Neues Porträt: Sterling North (SE3w4, Waschbär) – Schriftsteller, der mit »Rascal« den Waschbären weltberühmt machte, inklusive Bildergalerie mit 32 Fotos.", text_en: "New portrait: Sterling North (SE3w4, Raccoon) – writer who made the raccoon world-famous with »Rascal«, including a 32-photo gallery.", route: "beruehmte-sterling-north" },
