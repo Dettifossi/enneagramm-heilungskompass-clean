@@ -1080,6 +1080,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Prof. Dr. Frank Rosell – Social Type 7",
     teaser:"SO7w6 · b. 1969. Norwegian biologist, professor at the University of South-Eastern Norway, world-leading authority on beavers, known as \"the beaver pope.\" Leads the Norwegian Beaver Project since 1997, over 130 scientific publications, standard work \"Beavers.\" Animal correspondence: Beaver.",
     tags:["Wissenschaft"], gender:"m"},
+{ route:"beruehmte-dietland-mueller-schwarze", name:"Prof. Dr. Dietland Müller-Schwarze", added:"2026-08-19", subtyp:"SO7w6",
+    heading:"Prof. Dr. Dietland Müller-Schwarze – Social Type 7",
+    teaser:"SO7w6 · German-American biologist, professor emeritus, pioneer of beaver behavioural research. 26 years of fieldwork on beavers' chemical communication, standard work \"The Beaver: Its Life and Impact.\" Animal correspondence: Beaver.",
+    tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-hazel-brugger", name:"Hazel Brugger", subtyp:"SO7w8",
     heading:"Hazel Brugger – Social Type 7",
     teaser:"SO7w8 · born 1993. Comedian, cabaret artist, presenter, blogger, author, slam poet. Swiss-American. The beaver that builds, amuses and attacks – with speed, depth and a laugh that misses nothing. Animal correspondence: Beaver.",
@@ -4807,6 +4811,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-david-mech", name:"Dr. L. David Mech", subtyp:"SX6w5", tier:"Wolf"},
   {route:"beruehmte-douglas-smith", name:"Dr. Douglas W. Smith", subtyp:"SX6w5", tier:"Wolf"},
   {route:"beruehmte-frank-rosell", name:"Prof. Dr. Frank Rosell", subtyp:"SO7w6", tier:"Beaver"},
+  {route:"beruehmte-dietland-mueller-schwarze", name:"Prof. Dr. Dietland Müller-Schwarze", subtyp:"SO7w6", tier:"Beaver"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -29282,10 +29287,71 @@ function frankRosellPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-dietland-mueller-schwarze", label:"Portrait: Prof. Dr. Dietland Müller-Schwarze (SO7w6)"},
         {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
-        {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-frank-rosell")}
+    </div>
+  `);
+}
+
+function dietlandMuellerSchwarzePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-dietland-mueller-schwarze-portrait.jpg" alt="Beaver" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Dietland Müller-Schwarze</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Biologist, pioneer of beaver behavioural research &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The beaver who first decoded the beaver's language</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the Social Seven &ndash; it does not build for itself, but creates knowledge and structures that reach far beyond its own person. Few scientists laid the foundation for this field of research as completely as Prof. Dr. Dietland Müller-Schwarze: the German-American biologist is regarded as the pioneer of modern beaver behavioural research and devoted 26 years of his career to these animals' chemical communication &ndash; long before younger researchers such as Frank Rosell carried the field further.</p>
+          <p class="vb-intro">Born in Germany, Müller-Schwarze began his academic career with doctoral research in animal behaviour under none other than Nobel laureate Konrad Lorenz at the Max Planck Institute for Behavioural Physiology &ndash; the very same Konrad Lorenz who is himself portrayed in this compass as a Social One (Goose). From there, his research took him across Germany, Sweden, Greece, India, South Africa, Canada, Uruguay, and all the way to Antarctica.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: a life's work as a gift to an entire field</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo calls the <strong>Social Seven (SO7)</strong> "Sacrifice": it sacrifices immediate joy for a larger idea &ndash; and finds fulfillment precisely there. Müller-Schwarze's 26-year study of beavers' scent communication was exactly that: patient, decades-long foundational work whose results he made available to the entire scientific community through six books and countless papers, rather than keeping them to himself.</p>
+          <p class="vb-intro">His academic stations &ndash; Freiburg, Utah State University, and finally the State University of New York's College of Environmental Science and Forestry in Syracuse &ndash; show the same restless, cosmopolitan energy that distinguishes other Social Sevens in this compass: never rooted in a single place, but always in service of expanding a larger body of knowledge.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: scientific rigor in the tradition of Lorenz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven a methodical reliability that shows clearly in Müller-Schwarze's groundbreaking pheromone research: he systematically tested 24 individual chemical compounds isolated from beaver castoreum, one by one, on wild beavers in their own territory &ndash; a meticulous, methodically secured approach that goes far beyond superficial observation.</p>
+          <p class="vb-intro">That he began his scientific training under Konrad Lorenz, one of the founding fathers of modern behavioural research, fits this Six note: security and authority were first gained through connection to a recognized, institutionally secured tradition, before Müller-Schwarze became an independent authority in his own right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 is its ability to turn <strong>insatiable curiosity, sustained over decades, into a foundational, world-renowned base for an entire field of research</strong> &ndash; his standard work "The Beaver: Its Life and Impact" remains an unchallenged classic to this day and laid the scientific groundwork on which later beaver researchers such as Rosell and Campbell-Palmer could build.</p>
+          <p class="vb-intro">The shadow of the Social Seven with a Six-wing shows in how much such a far-traveled, broadly scoped life's work can let one's own personal visibility disappear behind the institution and the field &ndash; even basic biographical details such as his birth year are today barely to be found publicly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The beaver who laid the foundation for all beaver researchers to come</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Müller-Schwarze gives the world is not just knowledge about a single animal, but the methodical foundation of an entire field of research &ndash; whether it concerns the meticulous study of dams, of highly complex family systems, or of beavers' role as "ecosystem engineers": these questions can only be asked by today's researchers because Müller-Schwarze was among the first to answer them systematically.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly fit the Social Seven with a Six-wing more fittingly: a man whose archetypal animal is the beaver, who was among the first to lay the entire scientific foundation for this one fascinating rodent &ndash; and, in doing so, unconsciously carried his own deepest pattern into the world.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-frank-rosell", label:"Portrait: Prof. Dr. Frank Rosell (SO7w6)"},
+        {route:"beruehmte-konrad-lorenz", label:"Portrait: Konrad Lorenz (SO1w9)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-dietland-mueller-schwarze")}
     </div>
   `);
 }
@@ -36372,7 +36438,7 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Beaver",
     kernthema: "Restless building in service of the community – never really finished (Naranjo: countertype of the Seven)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze"],
     fingerabdruecke: [
       {
         titel: "Restless, never-finished building in service of a larger system",
@@ -36382,7 +36448,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Complete inner planning before the first move is even made",
         beschreibung: "Before anything is visibly built, the whole work first arises completely on the inside – as a clear vision that is then translated into reality step by step.",
-        beleg: "Dieter Nuhr: 'The beaver, who examines every stone carefully before placing it'; Jules Verne, who often thought through his technical inventions in complete detail long before the technology he described actually existed."
+        beleg: "Dieter Nuhr: 'The beaver, who examines every stone carefully before placing it'; Jules Verne, who often thought through his technical inventions in complete detail long before the technology he described actually existed; Prof. Dr. Dietland Müller-Schwarze, who systematically tested 24 individual chemical compounds from beaver castoreum one at a time on wild beavers, rather than jumping to conclusions."
       },
       {
         titel: "Service to something bigger than oneself, instead of personal fame",
@@ -58143,6 +58209,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-david-mech": davidMechPortraitPage,
       "beruehmte-douglas-smith": douglasSmithPortraitPage,
       "beruehmte-frank-rosell": frankRosellPortraitPage,
+      "beruehmte-dietland-mueller-schwarze": dietlandMuellerSchwarzePortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,

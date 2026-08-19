@@ -32273,6 +32273,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Prof. Dr. Frank Rosell \u2013 Sozialer Typ 7",
     teaser:"SO7w6 \u00b7 geb. 1969. Norwegischer Biologe, Professor an der University of South-Eastern Norway, weltweit f\u00fchrende Autorit\u00e4t f\u00fcr Biber, genannt \u201eder Biber-Papst\u201c. Leitet seit 1997 das Norwegian Beaver Project, \u00fcber 130 Fachpublikationen, Standardwerk \u201eBeavers\u201c. Tierentsprechung: Biber.",
     tags:["Wissenschaft"], gender:"m"},
+  { route:"beruehmte-dietland-mueller-schwarze", name:"Prof. Dr. Dietland M\u00fcller-Schwarze", added:"2026-08-19", subtyp:"SO7w6",
+    heading:"Prof. Dr. Dietland M\u00fcller-Schwarze \u2013 Sozialer Typ 7",
+    teaser:"SO7w6 \u00b7 Deutsch-amerikanischer Biologe, emeritierter Professor, Pionier der Biber-Verhaltensforschung. 26 Jahre Feldforschung zur chemischen Kommunikation der Biber, Standardwerk \u201eThe Beaver: Its Life and Impact\u201c. Tierentsprechung: Biber.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-dieter-nuhr", name:"Dieter Nuhr", added:"2026-07-22", subtyp:"SO7w8",
     heading:"Dieter Nuhr \u2013 Sozialer Typ 7",
     teaser:"SO7w8 \u00b7 geb. 1960 in Wesel am Rhein. Kabarettist, Comedian, Moderator, Maler. Nuhr im Ersten (ARD seit 2005). Der Biber mit Achterfl\u00fcgel: Komik als Dienst an der \u00d6ffentlichkeit, Haltung als Schutzschild.",
@@ -35283,6 +35287,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-david-mech", name:"Dr. L. David Mech", subtyp:"SX6w5", tier:"Wolf"},
   {route:"beruehmte-douglas-smith", name:"Dr. Douglas W. Smith", subtyp:"SX6w5", tier:"Wolf"},
   {route:"beruehmte-frank-rosell", name:"Prof. Dr. Frank Rosell", subtyp:"SO7w6", tier:"Biber"},
+  {route:"beruehmte-dietland-mueller-schwarze", name:"Prof. Dr. Dietland Müller-Schwarze", subtyp:"SO7w6", tier:"Biber"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42728,7 +42733,7 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Biber",
     kernthema: "Rastloses Bauen im Dienst der Gemeinschaft – nie wirklich fertig (Naranjo: Kontratyp der Sieben)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze"],
     fingerabdruecke: [
       {
         titel: "Rastloses, nie abgeschlossenes Bauen im Dienst eines größeren Systems",
@@ -42738,7 +42743,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Vollständige innere Planung, bevor überhaupt der erste Handgriff erfolgt",
         beschreibung: "Bevor sichtbar gebaut wird, entsteht das ganze Werk zunächst vollständig im Inneren – als klare Vorstellung, die dann Schritt für Schritt in die Wirklichkeit übersetzt wird.",
-        beleg: "Dieter Nuhr: ›Der Biber, der jeden Stein genau prüft, bevor er ihn einsetzt‹; Jules Verne, der seine technischen Erfindungen oft bis ins Detail durchdacht hatte, lange bevor die beschriebene Technik überhaupt existierte."
+        beleg: "Dieter Nuhr: ›Der Biber, der jeden Stein genau prüft, bevor er ihn einsetzt‹; Jules Verne, der seine technischen Erfindungen oft bis ins Detail durchdacht hatte, lange bevor die beschriebene Technik überhaupt existierte; Prof. Dr. Dietland Müller-Schwarze, der 24 einzelne chemische Verbindungen aus dem Bibersekret systematisch nacheinander an wildlebenden Bibern testete, statt vorschnell zu verallgemeinern."
       },
       {
         titel: "Dienst an etwas Größerem als sich selbst, statt persönlichem Ruhm",
@@ -48703,10 +48708,71 @@ function frankRosellPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
         {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-dietland-mueller-schwarze", label:"Porträt: Prof. Dr. Dietland Müller-Schwarze (SO7w6)"},
         {route:"beruehmte-jules-verne", label:"Porträt: Jules Verne (SO7w6)"},
-        {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-frank-rosell")}
+    </div>
+  `);
+}
+
+function dietlandMuellerSchwarzePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dietland-mueller-schwarze-portrait.jpg" alt="Biber" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Dietland Müller-Schwarze</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Biologe, Pionier der Biber-Verhaltensforschung &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der die Sprache des Bibers als Erster entschlüsselte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben &ndash; er baut nicht für sich selbst, sondern schafft Wissen und Strukturen, die weit über die eigene Person hinausreichen. Kaum ein Wissenschaftler legte den Grundstein für dieses Forschungsfeld so vollständig wie Prof. Dr. Dietland Müller-Schwarze: Der deutsch-amerikanische Biologe gilt als Pionier der modernen Biber-Verhaltensforschung und widmete 26 Jahre seiner Karriere der chemischen Kommunikation dieser Tiere &ndash; lange bevor jüngere Forscher wie Frank Rosell dieses Feld weiterführten.</p>
+          <p class="vb-intro">In Deutschland geboren, begann Müller-Schwarze seine akademische Laufbahn mit einer Doktorarbeit in Verhaltensforschung bei niemand Geringerem als Nobelpreisträger Konrad Lorenz am Max-Planck-Institut für Verhaltensphysiologie &ndash; jenem Konrad Lorenz, der in diesem Kompass selbst als soziale Eins (Gans) porträtiert ist. Von dort aus führte ihn seine Forschung über Deutschland, Schweden, Griechenland, Indien, Südafrika, Kanada, Uruguay bis in die Antarktis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Ein Lebenswerk als Geschenk an ein ganzes Forschungsfeld</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nennt die <strong>soziale Sieben (SO7)</strong> "Sacrifice": Sie opfert unmittelbare Freude für eine größere Idee &ndash; und findet gerade darin Erfüllung. Müller-Schwarzes 26-jährige Erforschung der Duftkommunikation von Bibern war genau das: eine geduldige, jahrzehntelange Grundlagenarbeit, deren Ergebnisse er in sechs Büchern und zahllosen Fachartikeln der gesamten wissenschaftlichen Gemeinschaft zur Verfügung stellte, statt sie für sich zu behalten.</p>
+          <p class="vb-intro">Seine akademischen Stationen &ndash; Freiburg, Utah State University, schließlich die State University of New York (SUNY-ESF) in Syracuse &ndash; zeigen dieselbe rastlose, weltoffene Energie, die auch andere soziale Siebener in diesem Kompass auszeichnet: nie an einem einzigen Ort verwurzelt, sondern stets im Dienst der Erweiterung eines größeren Wissenskörpers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Wissenschaftliche Genauigkeit in der Tradition Lorenz'</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> verleiht der Sieben eine methodische Verlässlichkeit, die sich in Müller-Schwarzes bahnbrechender Pheromonforschung deutlich zeigt: Er testete systematisch 24 einzelne, aus dem Bibersekret Castoreum isolierte chemische Verbindungen einzeln an wildlebenden Bibern in ihrem eigenen Revier &ndash; eine akribische, methodisch abgesicherte Vorgehensweise, die weit über oberflächliche Beobachtung hinausgeht.</p>
+          <p class="vb-intro">Dass er seine wissenschaftliche Ausbildung ausgerechnet bei Konrad Lorenz begann, einem der Gründerväter der modernen Verhaltensforschung, passt zu dieser Sechser-Note: Sicherheit und Autorität wurden zunächst über die Anbindung an eine anerkannte, institutionell abgesicherte Tradition gewonnen, bevor Müller-Schwarze zur eigenständigen Instanz seines Fachgebiets wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 ist die Fähigkeit, <strong>eine unstillbare Neugier über Jahrzehnte in ein grundlegendes, weltweit anerkanntes Fundament eines ganzen Forschungsfeldes</strong> zu verwandeln &ndash; sein Standardwerk "The Beaver: Its Life and Impact" gilt bis heute als unangefochtener Klassiker und legte die wissenschaftliche Basis, auf der spätere Biber-Forschende wie Rosell oder Campbell-Palmer aufbauen konnten.</p>
+          <p class="vb-intro">Der Schatten der sozialen Sieben mit Sechserflügel zeigt sich darin, wie sehr ein derart weit gereistes, breit angelegtes Lebenswerk die eigene, private Sichtbarkeit hinter der Institution und dem Fachgebiet verschwinden lassen kann &ndash; selbst grundlegende biografische Details wie sein Geburtsjahr sind heute öffentlich kaum mehr auffindbar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Biber, der das Fundament für alle nachfolgenden Biber-Forschenden legte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Müller-Schwarze der Welt gibt, ist nicht nur Wissen über ein einzelnes Tier, sondern das methodische Fundament eines ganzen Forschungsfeldes &ndash; ob es nun um die akribische Erforschung der Dämme, der hochkomplexen Familiensysteme oder der Rolle der Biber als "Ökosystem-Ingenieure" geht: Diese Fragen stellen sich heutige Forschende erst, weil Müller-Schwarze sie als einer der Ersten systematisch beantwortet hat.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das kaum treffender für die soziale Sieben mit Sechserflügel sein könnte: ein Mann, dessen archetypisches Tier der Biber ist, der als einer der Ersten das gesamte wissenschaftliche Fundament für dieses eine, faszinierende Nagetier legte &ndash; und damit unbewusst sein eigenes tiefstes Muster in die Welt trug.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-frank-rosell", label:"Porträt: Prof. Dr. Frank Rosell (SO7w6)"},
+        {route:"beruehmte-konrad-lorenz", label:"Porträt: Konrad Lorenz (SO1w9)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-dietland-mueller-schwarze")}
     </div>
   `);
 }
@@ -92619,6 +92685,7 @@ function render() {
       "beruehmte-david-mech": davidMechPortraitPage,
       "beruehmte-douglas-smith": douglasSmithPortraitPage,
       "beruehmte-frank-rosell": frankRosellPortraitPage,
+      "beruehmte-dietland-mueller-schwarze": dietlandMuellerSchwarzePortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,

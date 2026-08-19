@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v1227", date: "2026-08-19", text: "Neues Porträt: Prof. Dr. Dietland Müller-Schwarze (SO7w6, Biber) – Pionier der Biber-Verhaltensforschung, Schüler Konrad Lorenz'.", text_en: "New portrait: Prof. Dr. Dietland Müller-Schwarze (SO7w6, Beaver) – pioneer of beaver behavioural research, trained under Konrad Lorenz.", route: "beruehmte-dietland-mueller-schwarze" },
     { version: "v1226", date: "2026-08-19", text: "Neues Porträt: Prof. Dr. Frank Rosell (SO7w6, Biber) – Biologe, „der Biber-Papst“, Leiter des Norwegian Beaver Project.", text_en: "New portrait: Prof. Dr. Frank Rosell (SO7w6, Beaver) – biologist, \"the beaver pope,\" leader of the Norwegian Beaver Project.", route: "beruehmte-frank-rosell" },
     { version: "v1225", date: "2026-08-19", text: "Neues Porträt: Dr. Douglas W. Smith (SX6w5, Wolf) – Wildtierbiologe, Leiter des Yellowstone-Wolfsprojekts.", text_en: "New portrait: Dr. Douglas W. Smith (SX6w5, Wolf) – wildlife biologist, leader of the Yellowstone Wolf Project.", route: "beruehmte-douglas-smith" },
     { version: "v1224", date: "2026-08-19", text: "Neues Porträt: Dr. L. David Mech (SX6w5, Wolf) – Biologe, „Vater der modernen Wolfsforschung“, seit über 60 Jahren im Feld.", text_en: "New portrait: Dr. L. David Mech (SX6w5, Wolf) – biologist, \"father of modern wolf research,\" over 60 years in the field.", route: "beruehmte-david-mech" },
