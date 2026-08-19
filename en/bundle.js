@@ -2273,6 +2273,7 @@ text.nav = [
   { route: "dashboard", label: "Compass" },
   { route: "heilung", label: "Healing", dropdown: [
     { route: "healing",        label: "Healing Compass" },
+    { route: "psychosomatik",  label: "Psychosomatics Register" },
     { route: "tcm",            label: "TCM & Meridians" },
     { route: "homoeopathie",   label: "Homeopathic Remedies" },
     { route: "mineralstoffe",  label: "Mineral Impulses" },
@@ -54731,6 +54732,109 @@ function subtypeChartsPage() {
   `);
 }
 
+const PSYCHOSOMATIK_KRANKHEITEN = {
+  herzinfarkt: {
+    titel: "Heart Attack",
+    icon: "&#10084;&#65039;",
+    kurz: "When the heart no longer goes along with a life that has long been lived past it.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor.",
+    einleitung: "Cardiology has known since the 1950s the concept of the &bdquo;Type A personality&ldquo; (Friedman &amp; Rosenman): ambitious, time-driven, competitive, with suppressed or explosive aggression – a pattern that long-term studies correlate with elevated cardiovascular risk. Traditional Chinese Medicine likewise assigns the heart to the Fire element, the seat of Shen, the spirit and the joy of life – when this fire falls out of rhythm, psychosomatic medicine often reads it as an expression of denied or forced joy, chronic self-overextension, or a life that has long been lived past one's own heart.",
+    subtypen: [
+      {
+        code: "SE1 / SO1",
+        titel: "Anger turned inward",
+        punkte: [
+          "Decades of self-control as the supreme life principle: nothing may get out of control, least of all one's own anger.",
+          "Anger is not expressed but disciplined and managed – a permanent tension that rarely finds release.",
+          "The heart literally carries the weight of an explosion the person never allowed themselves in their entire life.",
+        ],
+      },
+      {
+        code: "SE3 / SO3",
+        titel: "A heart in the service of achievement",
+        punkte: [
+          "Self-worth is measured by the next result, the next proof of one's own competence.",
+          "Exhaustion is not read as a warning sign but as a weakness to be overcome.",
+          "The heart keeps pumping to the rhythm of the next target, long after the body has already asked for a pause.",
+        ],
+      },
+      {
+        code: "SO8 / SE8",
+        titel: "Strength that must never let up",
+        punkte: [
+          "Withdrawal, vulnerability, or the need for rest are experienced as a point of attack, not as a legitimate need.",
+          "Intensity is a life principle: full power, full speed, no half measures.",
+          "The heart runs permanently under high tension, because slowing down has no place in the inner self-image.",
+        ],
+      },
+    ],
+    abschluss: "This explicitly does not mean that other subtypes are spared – rather, that these three patterns particularly often create a constellation in which lifestyle, inner tension, and body work in the same direction over years. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
+};
+
+function psychosomatikPage() {
+  const entries = Object.entries(PSYCHOSOMATIK_KRANKHEITEN);
+  const cards = entries.map(([slug, k]) => `
+    <button class="tool-card--link" data-route="psychosomatik/${slug}" style="display:block;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;cursor:pointer;">
+      <div style="display:flex;align-items:center;gap:0.7rem;margin-bottom:0.4rem;">
+        <span style="font-size:1.4rem;">${k.icon}</span>
+        <h3 style="margin:0;font-size:1.1rem;color:var(--ink);">${k.titel}</h3>
+      </div>
+      <p style="margin:0;font-size:0.9rem;color:var(--muted);">${k.kurz}</p>
+    </button>
+  `).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("psychosomatik")}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Psychosomatics Register</h1>
+      <p class="psycho-intro">Illnesses seen through a psychosomatic lens, connected to the Enneagram: where do typical inner patterns of a given subtype show up in connection with certain symptom pictures, among many other factors? <strong>Important: every person can develop any illness, regardless of subtype.</strong> This page does not replace a medical diagnosis or treatment, but offers a complementary, holistic layer of interpretation – in the same spirit as the Homeopathy section of this Compass: not addressing the symptom, but the underlying life force.</p>
+      <div style="max-width:640px;margin-top:1.2rem;">
+        ${cards}
+      </div>
+      ${relatedLinks([
+        {route:"healing", label:"Healing Compass"},
+        {route:"homoeopathie", label:"Homeopathic Remedies"},
+        {route:"tcm", label:"TCM & Meridians"},
+      ])}
+    </div>
+  `);
+}
+
+function psychosomatikDetailPage(slug) {
+  const k = PSYCHOSOMATIK_KRANKHEITEN[slug];
+  if (!k) return psychosomatikPage();
+  const subtypBloecke = k.subtypen.map(s => `
+    <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid var(--copper);border-radius:0 8px 8px 0;padding:1.1rem 1.3rem;margin-bottom:1rem;max-width:640px;">
+      <p style="font-size:0.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.3rem;">${s.code}</p>
+      <p style="font-family:var(--serif);font-size:1.1rem;color:var(--ink);margin:0 0 0.7rem;font-weight:600;">${s.titel}</p>
+      <ul style="margin:0;padding-left:1.2rem;">
+        ${s.punkte.map(p => `<li style="font-size:0.93rem;line-height:1.65;color:var(--ink);margin-bottom:0.4rem;">${p}</li>`).join("")}
+      </ul>
+    </div>
+  `).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("psychosomatik")}
+      <button class="ghost-link" data-route="psychosomatik" style="margin-bottom:1rem;">&larr; All Illnesses</button>
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:0 0 0.6rem;">${k.icon} ${k.titel}</h1>
+      <div style="background:color-mix(in srgb, var(--copper) 8%, var(--paper));border-radius:10px;padding:1rem 1.2rem;margin-bottom:1.3rem;max-width:640px;">
+        <p style="margin:0;font-size:0.88rem;font-style:italic;color:var(--muted);">${k.disclaimer}</p>
+      </div>
+      <p class="psycho-intro" style="max-width:640px;">${k.einleitung}</p>
+      <p style="font-size:0.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.07em;margin:1.3rem 0 0.8rem;">Connections in the Enneagram</p>
+      ${subtypBloecke}
+      <p class="psycho-intro" style="max-width:640px;margin-top:1rem;">${k.abschluss}</p>
+      ${relatedLinks([
+        {route:"psychosomatik", label:"All Illnesses"},
+        {route:"healing", label:"Healing Compass"},
+        {route:"homoeopathie", label:"Homeopathic Remedies"},
+      ])}
+    </div>
+  `);
+}
+
 function homoeopathiePage() {
   const param = state.route.split("/")[1];
   const typNr = param ? parseInt(param) : null;
@@ -59231,6 +59335,7 @@ function subtypeSchaubilderPage() {
     "tierentsprechungen": tierentsprechungenPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
+    "psychosomatik": psychosomatikPage,
     "tierforscher-uebereinstimmung": tierforscherUebereinstimmungPage,
     "bewusstseinsgrad-normalverteilung": bewusstseinsgradNormalverteilungPage,
     "tritypen": tritypenPage,
@@ -59855,6 +59960,8 @@ function subtypeSchaubilderPage() {
       app.innerHTML = tierlexikonDetailPage(param);
     } else if (base === "lebensmusterkompass" && param) {
       app.innerHTML = lebensmusterkompassDetailPage(param);
+    } else if (base === "psychosomatik" && param) {
+      app.innerHTML = psychosomatikDetailPage(param);
     } else {
       app.innerHTML = (routes[base] || routes.start)();
       if (base === 'dashboard' || !base) { _translateImpulseIfNeeded(); }

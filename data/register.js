@@ -375,6 +375,8 @@ export const registerEntries = [
   { term: "Ätherische Öle (Subtyp-Seite)",  route: "aetherische-oele",    description: "Ätherische Öle für alle 27 Subtypen – spezifische Duft-Empfehlungen und Wirkungsweise" },
   { term: "Bachblüten",              route: "bachblueten",           description: "Bach-Blüten-Empfehlungen für alle 27 Subtypen des Enneagramms" },
   { term: "Homöopathie (Subtyp-Seite)", route: "homoeopathie",        description: "Homöopathische Mittel für alle 27 Subtypen – Arzneimittelbild und Wirkungsweise" },
+  { term: "Psychosomatik-Register",     route: "psychosomatik",              description: "Krankheitsbilder aus psychosomatischer Sicht, verknüpft mit dem Enneagramm" },
+  { term: "Herzinfarkt (Psychosomatik)", route: "psychosomatik/herzinfarkt",   description: "Psychosomatische Deutung: Typ-A-Persönlichkeit, TCM-Feuer-Element, Enneagramm SE1/SO1, SE3/SO3, SO8/SE8" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
@@ -1418,6 +1420,8 @@ export const registerEntriesEN = [
   { term: "Essential Oils (Subtype Page)", route: "aetherische-oele", description: "Essential oils for all 27 subtypes – specific scent recommendations and mode of action" },
   { term: "Bach Flowers", route: "bachblueten", description: "Bach flower recommendations for all 27 subtypes of the Enneagram" },
   { term: "Homeopathy (Subtype Page)", route: "homoeopathie", description: "Homeopathic remedies for all 27 subtypes – drug picture and mode of action" },
+  { term: "Psychosomatics Register", route: "psychosomatik", description: "Illnesses interpreted through a psychosomatic lens, connected to the Enneagram" },
+  { term: "Heart Attack (Psychosomatics)", route: "psychosomatik/herzinfarkt", description: "Psychosomatic interpretation: Type A personality, TCM fire element, Enneagram SE1/SO1, SE3/SO3, SO8/SE8" },
   { term: "Mineral Substance Impulses", route: "mineralstoffe", description: "Mineral substance impulses for all 27 subtypes – type-specific micronutrients" },
   { term: "Healing Teas", route: "heiltees", description: "Medicinal plant teas for all 27 subtypes – effect and preparation" },
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },
