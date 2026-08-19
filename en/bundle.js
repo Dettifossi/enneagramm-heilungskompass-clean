@@ -685,6 +685,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Johnny Depp – Social Type 4",
     teaser:"SO4w3 · born 1963. Actor and musician. Captain Jack Sparrow, Edward Scissorhands, Hollywood Vampires. The armadillo that never hid its difference, but turned it into the most dazzling stage persona of its time.",
     land:"USA", tags:["Film","Music"], gender:"m"},
+{ route:"beruehmte-hugh-grant", name:"Hugh Grant", added:"2026-08-19", subtyp:"SO4w3",
+    heading:"Hugh Grant – Social Type 4",
+    teaser:"SO4w3 · born 1960. Actor. From stammering romantic lead to darker character actor. The armadillo that turned its insecurity into a signature.",
+    land:"United Kingdom", tags:["Film"], gender:"m"},
 { route:"beruehmte-john-lennon", name:"John Lennon", subtyp:"SO4w5",
     heading:"John Lennon – Social Type 4",
     teaser:"SO4w5 · 1940–1980. Musician, composer, peace activist, co-founder of The Beatles. The armadillo that asked the world: Imagine there’s peace.",
@@ -20217,6 +20221,70 @@ function edgarAllanPoePortraitPage() {
   `);
 }
 
+function hughGrantPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-hugh-grant-portrait.jpg" alt="Hugh Grant – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hugh Grant</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">British actor, born 1960 &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo with the Stammering Charm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four &ndash; a creature that does not hide its difference but wears it visibly on its skin. Unlike its more introverted counterparts, this Four does not retreat into its own shell but turns it into a signature trademark &ndash; as proof of its own uniqueness, on a stage everyone can see.</p>
+          <p class="vb-intro">The British actor Hugh Grant was born in 1960 in London, studied English Literature at Oxford, and was already performing on stage there before tentatively turning to film. His international breakthrough came only in 1994, in his mid-thirties, in "Four Weddings and a Funeral" &ndash; a role that defined one very specific character: the charmingly stammering, perpetually apologizing Englishman who can barely finish a sentence for sheer self-doubt. That one, unmistakable nuance became his trademark &ndash; and the blueprint for his entire early career.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: Turning Awkwardness into a Unique Selling Point</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> does not live its difference in hiding but seeks out the group, precisely in order to be seen there as the special exception. Grant built his entire early career on one single, highly specific form of otherness: his own publicly displayed social awkwardness. In "Notting Hill," "Bridget Jones's Diary," and "Love Actually," he played variations of the same figure &ndash; lovable, but structurally insecure, unable to say his own feelings straight out.</p>
+          <p class="vb-intro">Grant himself repeatedly confirmed this self-perception in public: he described himself as "terribly insecure" and said he had feared his entire career that any given film could be his last. This is typical of the social Four: one's own vulnerability is not hidden but transformed into a recognizable image that fascinates an audience of millions &ndash; and that simultaneously proves just how different one is from the mass of self-assured leading men.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: The Calculated Reinvention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Four the ability not only to feel its own image but to market it deliberately and reinvent it when needed. When Grant himself concluded he had gotten "too old and ugly and fat" to keep playing the romantic lead, he pulled off one of Hollywood's most remarkable image transformations: he became a character actor for dazzling villains and complex supporting roles &ndash; the vain children's author in "Paddington 2," the shifty lawyer in "The Gentlemen," politician Jeremy Thorpe in "A Very English Scandal," for which he received an Emmy nomination.</p>
+          <p class="vb-intro">This deliberate, strategic repositioning &ndash; away from the lovable stammerer, toward the darker character actor &ndash; is the purest expression of SO4w3: the Four feels the fading relevance of the old image, the Three-wing stages a new, successful performance from it instead of clinging to the old role.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Price of the Public Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1995, at the height of his fame, Grant was arrested in Los Angeles over a public indiscretion &ndash; a personal low point that filled every tabloid in the world. Instead of withdrawing, Grant went on "The Tonight Show" with Jay Leno just days later and faced the public humiliation head-on, with exactly the self-deprecating, sheepish openness that had already defined his screen persona. The appearance is still considered one of the most skillful crisis interviews in celebrity history &ndash; and it saved his career instead of ending it.</p>
+          <p class="vb-intro">For the social Four with Three-wing, the deepest personal misstep of all became a public stage: shame was not hidden but transformed, in real time, into a performance that won the audience over &ndash; a pattern that repeated decades later in Grant's much-discussed, deliberately uncomfortable interview appearances, such as at the 2023 Oscars, widely described online as "deliciously awkward."</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO4w3 is the ability to <strong>turn deep insecurity into effective art</strong> &ndash; to shape a single, honestly felt weakness into a character that an audience of millions loves for decades. Grant's best roles live from exactly this risk: not avoiding his own embarrassment, but turning it into a comic and moving art form.</p>
+          <p class="vb-intro">The shadow shows itself in a chronic, publicly admitted self-deprecation: Grant repeatedly called himself the "dumb" one in his family and spoke of having "marginally less self-hatred" since he stopped being typecast as the romantic lead. The flip side of SO4w3: when one's own insecurity becomes the most reliable currency, genuine self-acceptance can vanish behind perfectly calculated self-irony &ndash; and some interviewers get, instead of the charm, only the prickly, dismissive side of that same façade.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Armadillo That Made Its Insecurity a Signature</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hugh Grant remains one of the few actors to have turned two entirely different career phases into independent successes &ndash; first as the stammering romantic lead of an entire genre, then as one of his generation's most interesting character actors. Both phases draw from the same source: the willingness not to hide his own awkwardness and insecurity, but to make it visible.</p>
+          <p class="vb-intro">The armadillo that never concealed its most vulnerable side, but first turned it into the trademark of the lovable stammerer and later into the foundation of darker character roles &ndash; that is the lasting image of the social Four with Three-wing: vulnerability that reinvents itself instead of disappearing.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-johnny-depp", label:"Portrait: Johnny Depp (SO4w3)"},
+        {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
+      ])}
+    </div>
+  `);
+}
 function johnnyDeppPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -37323,7 +37391,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "A hard shell on the outside, an extraordinarily sensitive inside underneath",
         beschreibung: "Naranjo called this subtype the one of 'Shame': the deep feeling of being structurally different and lacking. Outwardly, an effective, impenetrable facade often shows itself – coolness, perfection, humor – protecting an extremely vulnerable interior without ever fully hiding it.",
-        beleg: "Romy Schneider: 'The armadillo that shows itself in public while curling up inside' – 'pain, loneliness, the feeling of never truly being seen'; Michael Jackson: 'The armadillo shows the world its armor. What lies beneath, it shows almost no one'; Til Schweiger and Taddl, whose 'smooth outer facade' and 'seemingly carefree humor,' respectively, protect the same deep emotional vulnerability."
+        beleg: "Romy Schneider: 'The armadillo that shows itself in public while curling up inside' – 'pain, loneliness, the feeling of never truly being seen'; Michael Jackson: 'The armadillo shows the world its armor. What lies beneath, it shows almost no one'; Til Schweiger and Taddl, whose 'smooth outer facade' and 'seemingly carefree humor,' respectively, protect the same deep emotional vulnerability; Hugh Grant, who repeatedly described himself as 'terribly insecure' and whose charmingly stammering screen persona displayed the very insecurity he privately called chronic self-hatred."
       },
       {
         titel: "Wears one's own otherness visibly, instead of hiding it",
@@ -59020,6 +59088,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-gerhard-schroeder": gerhardSchroederPortraitPage,
       "beruehmte-konrad-adenauer": konradAdenauerPortraitPage,
       "beruehmte-edgar-allan-poe": edgarAllanPoePortraitPage,
+      "beruehmte-hugh-grant": hughGrantPortraitPage,
       "beruehmte-johnny-depp": johnnyDeppPortraitPage,
       "beruehmte-morgan-freeman": morganFreemanPortraitPage,
       "beruehmte-leonard-bernstein": leonardBernsteinPortraitPage,
