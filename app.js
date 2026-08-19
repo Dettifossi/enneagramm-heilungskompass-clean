@@ -32269,6 +32269,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Madame Guyon \u2013 Sozialer Typ 7",
     teaser:"SO7w6 \u00b7 geb. 1648, gest. 1717. Mystikerin, bedeutendste Vertreterin des Quietismus. Verfolgt als H\u00e4retikerin, jahrelang inhaftiert, u. a. in der Bastille. Der Biber, der sich ganz der Hingabe an Gott verschrieb \u2013 und Verfolgung mit stiller Standhaftigkeit ertrug.",
     tags:["Spiritualit\u00e4t","Geschichte"], gender:"f"},
+  { route:"beruehmte-frank-rosell", name:"Prof. Dr. Frank Rosell", added:"2026-08-19", subtyp:"SO7w6",
+    heading:"Prof. Dr. Frank Rosell \u2013 Sozialer Typ 7",
+    teaser:"SO7w6 \u00b7 geb. 1969. Norwegischer Biologe, Professor an der University of South-Eastern Norway, weltweit f\u00fchrende Autorit\u00e4t f\u00fcr Biber, genannt \u201eder Biber-Papst\u201c. Leitet seit 1997 das Norwegian Beaver Project, \u00fcber 130 Fachpublikationen, Standardwerk \u201eBeavers\u201c. Tierentsprechung: Biber.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-dieter-nuhr", name:"Dieter Nuhr", added:"2026-07-22", subtyp:"SO7w8",
     heading:"Dieter Nuhr \u2013 Sozialer Typ 7",
     teaser:"SO7w8 \u00b7 geb. 1960 in Wesel am Rhein. Kabarettist, Comedian, Moderator, Maler. Nuhr im Ersten (ARD seit 2005). Der Biber mit Achterfl\u00fcgel: Komik als Dienst an der \u00d6ffentlichkeit, Haltung als Schutzschild.",
@@ -35278,6 +35282,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-tim-clutton-brock", name:"Prof. Tim Clutton-Brock", subtyp:"SO6w5", tier:"Erdmännchen"},
   {route:"beruehmte-david-mech", name:"Dr. L. David Mech", subtyp:"SX6w5", tier:"Wolf"},
   {route:"beruehmte-douglas-smith", name:"Dr. Douglas W. Smith", subtyp:"SX6w5", tier:"Wolf"},
+  {route:"beruehmte-frank-rosell", name:"Prof. Dr. Frank Rosell", subtyp:"SO7w6", tier:"Biber"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42723,12 +42728,12 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Biber",
     kernthema: "Rastloses Bauen im Dienst der Gemeinschaft – nie wirklich fertig (Naranjo: Kontratyp der Sieben)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr."],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell"],
     fingerabdruecke: [
       {
         titel: "Rastloses, nie abgeschlossenes Bauen im Dienst eines größeren Systems",
         beschreibung: "Statt für sich selbst zu genießen, wird kontinuierlich etwas errichtet, das über die eigene Person hinaus wirkt – kaum ist ein Projekt fertig, beginnt bereits das nächste, ohne wirkliche Pause.",
-        beleg: "Elon Musk: ›Der Biber macht keine halben Sachen. Er baut und baut – und sucht sich das nächste Hindernis, das es zu stauen gilt‹; Hazel Brugger: ›Der Biber hat immer ein neues Projekt‹; Drew Barrymore: ›Fällt ein Damm ein, beginnt der Biber sofort von Neuem, ohne lange innezuhalten.‹"
+        beleg: "Elon Musk: ›Der Biber macht keine halben Sachen. Er baut und baut – und sucht sich das nächste Hindernis, das es zu stauen gilt‹; Hazel Brugger: ›Der Biber hat immer ein neues Projekt‹; Drew Barrymore: ›Fällt ein Damm ein, beginnt der Biber sofort von Neuem, ohne lange innezuhalten‹; Prof. Dr. Frank Rosell, der über 130 Fachpublikationen verfasste und sein Wissen sogar über Biber hinaus auf den Geruchssinn von Hunden ausweitete – der Biber baut nicht nur an einem Damm."
       },
       {
         titel: "Vollständige innere Planung, bevor überhaupt der erste Handgriff erfolgt",
@@ -48641,6 +48646,67 @@ function douglasSmithPortraitPage() {
         {route:"beruehmte-moses", label:"Porträt: Moses (SX6w5)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-douglas-smith")}
+    </div>
+  `);
+}
+
+function frankRosellPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-frank-rosell-portrait.jpg" alt="Biber" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Frank Rosell</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Biologe, "der Biber-Papst", geb. 1969 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der zur Weltautorität über den Biber wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben &ndash; er baut nicht für sich selbst, sondern schafft Strukturen und Wissen, die weit über die eigene Person hinausreichen, und ist nie wirklich fertig, sondern erweitert sein Werk beständig. Kaum ein Wissenschaftler verkörpert dieses Prinzip so vollständig wie Prof. Dr. Frank Rosell: Der norwegische Biologe leitet seit 1997 das Norwegian Beaver Project und gilt weltweit als "der Biber-Papst" &ndash; die erste Anlaufstelle für Regierungen und Naturschutzorganisationen, wenn es um Wiederansiedlung oder Management von Bibern geht.</p>
+          <p class="vb-intro">Geboren 1969, ist Rosell seit 1994 an der University of South-Eastern Norway tätig und hat über 130 begutachtete Fachpublikationen verfasst, die meisten davon über Biber. Sein gemeinsam mit Dr. Róisín Campbell-Palmer verfasstes Standardwerk "Beavers: Ecology, Behaviour, Conservation, and Management" gilt international als das maßgebliche Nachschlagewerk zum Thema.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Wissen als Beitrag zu etwas Größerem</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nennt die <strong>soziale Sieben (SO7)</strong> "Sacrifice": Sie opfert die eigene, unmittelbare Freude für eine größere Idee &ndash; und findet gerade darin ihre tiefste Erfüllung. Rosells Forschung geht weit über reine Grundlagenwissenschaft hinaus: Er verstand sein Werk stets als Beitrag zu praktischen Lösungen für Naturschutz und Umweltmanagement, mit dem Ziel, politische Entscheidungen und öffentliche Debatten über bedrohte Arten und ihre Lebensräume fundiert zu unterfüttern.</p>
+          <p class="vb-intro">Bezeichnend ist auch, dass sein Fachwissen nicht bei Bibern stehen blieb: 2018 veröffentlichte er zusätzlich ein Buch über den Geruchssinn von Hunden ("Secrets of the Snout"), das in mehrere Sprachen übersetzt wurde. Der Biber baut nicht nur an einem einzigen Damm &ndash; er erweitert sein Wissen beständig in neue, verwandte Gebiete, immer im Dienst eines größeren Verständnisses von Tierverhalten und -kommunikation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Verlässlichkeit als wissenschaftliche Instanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Sieben eine Qualität, die im Kontrast zu ihrer grenzenlosen Neugier steht: Verlässlichkeit, methodische Absicherung und die Bereitschaft, zur institutionell anerkannten, vertrauenswürdigen Autorität zu werden. Dass Rosell weltweit als erster Ansprechpartner für Regierungen und Naturschutzbehörden gilt, ist genau dieser Sechser-Note zu verdanken &ndash; nicht das schillernde Multitalent, sondern die über Jahrzehnte aufgebaute, überprüfbare Verlässlichkeit einer Institution.</p>
+          <p class="vb-intro">Sein systematisches Erforschen der Duftmarkierungssysteme und komplexen Familienstrukturen von Bibern &ndash; ein Thema, das enorme methodische Geduld erfordert &ndash; zeigt diese Kombination aus Siebener-Neugier und Sechser-Gründlichkeit: Neue Fragen werden nicht oberflächlich gestreift, sondern in ein solides, über Jahrzehnte abgesichertes Fachwissen überführt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 ist die Fähigkeit, <strong>unstillbare Neugier in eine verlässliche, weltweit anerkannte Wissensinstitution</strong> zu verwandeln &ndash; Rosells Arbeit revolutionierte das Verständnis davon, wie Biber über Duftmarken und komplexe Familiensysteme kommunizieren, und sein Rat prägt bis heute Naturschutzentscheidungen rund um den Globus.</p>
+          <p class="vb-intro">Der Schatten der sozialen Sieben mit Sechserflügel zeigt sich darin, wie sehr die eigene Identität zur institutionellen Funktion werden kann: Als "der Biber-Papst" bekannt zu sein, bedeutet auch, dass die eigene Person zunehmend mit einer einzigen, wenn auch sehr breit gefächerten Rolle verschmilzt &ndash; eine Autorität, die Sicherheit bietet, aber auch bindet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Biber, der ein Wissensbauwerk für den Biber errichtete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Rosell der Welt gibt, ist ein über Jahrzehnte gewachsenes, breit abgesichertes Fundament an Wissen über eine Tierart, die selbst für ihre komplexen Bauwerke bekannt ist &ndash; ein passendes Bild für einen Mann, der sein eigenes Wissensgebäude mit derselben Beharrlichkeit errichtete, die er bei seinem Forschungsobjekt beobachtete.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: ein Mann, dessen archetypisches Tier der Biber ist, der sein gesamtes Berufsleben genau diesem einen, unermüdlich bauenden Tier widmete &ndash; und dabei, offenbar unbewusst, sein eigenes tiefstes Muster erforschte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-jules-verne", label:"Porträt: Jules Verne (SO7w6)"},
+        {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-frank-rosell")}
     </div>
   `);
 }
@@ -92552,6 +92618,7 @@ function render() {
       "beruehmte-tim-clutton-brock": timCluttonBrockPortraitPage,
       "beruehmte-david-mech": davidMechPortraitPage,
       "beruehmte-douglas-smith": douglasSmithPortraitPage,
+      "beruehmte-frank-rosell": frankRosellPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
