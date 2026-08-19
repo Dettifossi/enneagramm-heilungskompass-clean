@@ -948,6 +948,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Prof. Dr. Marta Manser – Social Type 6",
     teaser:"SO6w5 · Swiss behavioural biologist, professor at the University of Zurich, director of the Kalahari Research Centre. Decoded meerkats' complex alarm-call system – an early-warning system for the whole group. Animal correspondence: Meerkat.",
     tags:["Wissenschaft"], gender:"f"},
+{ route:"beruehmte-tim-clutton-brock", name:"Prof. Tim Clutton-Brock", added:"2026-08-19", subtyp:"SO6w5",
+    heading:"Prof. Tim Clutton-Brock – Social Type 6",
+    teaser:"SO6w5 · British evolutionary biologist, professor at Cambridge, founder of the Kalahari Meerkat Project. Decades of research into why individuals serve the group instead of reproducing themselves – cooperative survival as a life's theme. Animal correspondence: Meerkat.",
+    tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-herbert-groenemeyer", name:"Herbert Grönemeyer", subtyp:"SO6w7",
     heading:"Herbert Grönemeyer – Social Type 6",
     teaser:"SO6w7 · born 1956. Musician, composer, lyricist, actor. Bochum. Mensch. The meerkat that rises after every loss – and sings.",
@@ -4787,6 +4791,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-hugh-warwick", name:"Hugh Warwick", subtyp:"SX5w4", tier:"Hedgehog"},
   {route:"beruehmte-anne-mcbride", name:"Dr. Anne McBride", subtyp:"SE6w5", tier:"Rabbit"},
   {route:"beruehmte-marta-manser", name:"Prof. Dr. Marta Manser", subtyp:"SO6w5", tier:"Meerkat"},
+  {route:"beruehmte-tim-clutton-brock", name:"Prof. Tim Clutton-Brock", subtyp:"SO6w5", tier:"Meerkat"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -29018,10 +29023,71 @@ function martaManserPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
         {route:"lebensmusterkompass/so6", label:"Life Pattern Compass: SO6 – Meerkat"},
+        {route:"beruehmte-tim-clutton-brock", label:"Portrait: Prof. Tim Clutton-Brock (SO6w5)"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
-        {route:"beruehmte-andy-reid", label:"Portrait: Andy Reid (SO6w5)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-marta-manser")}
+    </div>
+  `);
+}
+
+function timCluttonBrockPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-tim-clutton-brock-portrait.jpg" alt="Meerkat" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Tim Clutton-Brock</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Evolutionary biologist &ndash; Animal correspondence: Meerkat</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The meerkat who built a community for the meerkat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>meerkat</strong> is the animal of the Social Six &ndash; total interconnection, mutual protection, a constant eye on the community. Few scientists embody this principle as fully as Prof. Tim Clutton-Brock: in 1993, the Cambridge zoologist founded the Kalahari Meerkat Project &ndash; one of the longest-running behavioural studies in the world, still ongoing today and carrying generations of researchers.</p>
+          <p class="vb-intro">Rather than working as a solo genius, he built a collaborative infrastructure over decades: land purchases, farmhouses, a continuously staffed field research team. His best-known book carries the programmatic title "Mammal Societies" &ndash; societies, not individuals.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Six: the central question of service to the group</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Six (SO6)</strong> defines its own identity through duty and belonging to a larger whole &ndash; its significance lies not in individual freedom, but in a reliable function within a system. Clutton-Brock's central scientific question captures exactly this theme: "What's the benefit to the individuals who don't get to breed, but spend their time helping others?"</p>
+          <p class="vb-intro">This question about the meaning of cooperative behaviour &ndash; why a meerkat forgoes its own reproduction for the sake of the group &ndash; is, at its core, the scientific translation of his own SO6 pattern: security and significance arise not through self-interest, but through a reliable role within the collective.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: decades of systematic fieldwork</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Six an analytical depth and the willingness to immerse itself in a single research system over very long periods. Alongside the Kalahari Meerkat Project, Clutton-Brock simultaneously oversaw two other decades-long long-term studies &ndash; red deer on the Scottish island of Rùm and Soay sheep on St Kilda &ndash; a methodical stamina that goes far beyond a typical academic career.</p>
+          <p class="vb-intro">This combination of Six-style duty toward the larger shared project and Five-style systematism in carrying it out made him the founder not merely of a study, but of an entire research infrastructure that persists even after his own retirement from active leadership.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO6w5 is its ability to <strong>create a lasting, collective institution that reaches far beyond one's own lifetime</strong> &ndash; the Kalahari Meerkat Project, through the television series "Meerkat Manor," shaped the public understanding of animal behaviour worldwide, while also training generations of behavioural biologists.</p>
+          <p class="vb-intro">The shadow of the Social Six with a Five-wing shows in a certain personal reticence: public attention goes to the project, the animals, the system &ndash; not to the person. Photos and personal details remain noticeably scarce, typical of a head type who consistently places their own visibility behind the cause.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The meerkat who built a community of meerkat researchers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Clutton-Brock gives the world is not just knowledge about a single animal, but a living model of how cooperative behaviour arises and persists at all &ndash; a subject he not only researched but lived out himself by building his own decades-long research team.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly fit the Social Six with a Five-wing more fittingly: a man whose archetypal animal is the meerkat, who devoted his life's work to the question of why individuals serve the community &ndash; and, in doing so, built a community that continues to explore that very question today.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
+        {route:"lebensmusterkompass/so6", label:"Life Pattern Compass: SO6 – Meerkat"},
+        {route:"beruehmte-marta-manser", label:"Portrait: Prof. Dr. Marta Manser (SO6w5)"},
+        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-tim-clutton-brock")}
     </div>
   `);
 }
@@ -36162,12 +36228,12 @@ const LEBENSMUSTERKOMPASS = {
   SO6: {
     tier: "Meerkat",
     kernthema: "Standing guard for the group, not for oneself – security through belonging and duty",
-    beispiele: ["Melanie Kreis", "Immanuel Kant", "Dr. Sigmund Freud", "Andy Reid", "Donata Hopfen", "Herbert Grönemeyer", "James Corden", "Adolf Eichmann", "Prof. Dr. Marta Manser"],
+    beispiele: ["Melanie Kreis", "Immanuel Kant", "Dr. Sigmund Freud", "Andy Reid", "Donata Hopfen", "Herbert Grönemeyer", "James Corden", "Adolf Eichmann", "Prof. Dr. Marta Manser", "Prof. Tim Clutton-Brock"],
     fingerabdruecke: [
       {
         titel: "Standing guard for the group, not for oneself",
         beschreibung: "One's own role is consistently subordinated to the collective: visibility or personal appearance take a back seat to reliably fulfilling one's own function within the system.",
-        beleg: "Melanie Kreis: 'She is described as reliable, precise, analytical – and as someone who works for the company, not for her own appearance. That's the meerkat: it stands guard. Not for itself. For the group'; Andy Reid: 'Not the loudest animal in the pack, but the one who stands guard longest and most reliably – for a system bigger than itself'; James Corden: 'It's rarely the biggest animal in the pack, but always the one that does the most to keep everyone together'; Prof. Dr. Marta Manser, who scientifically decoded how meerkats' alarm-call system protects the whole group – and, tellingly, titled her own public lecture on it 'Teamwork in the Savanna,' not 'my discovery.'"
+        beleg: "Melanie Kreis: 'She is described as reliable, precise, analytical – and as someone who works for the company, not for her own appearance. That's the meerkat: it stands guard. Not for itself. For the group'; Andy Reid: 'Not the loudest animal in the pack, but the one who stands guard longest and most reliably – for a system bigger than itself'; James Corden: 'It's rarely the biggest animal in the pack, but always the one that does the most to keep everyone together'; Prof. Dr. Marta Manser, who scientifically decoded how meerkats' alarm-call system protects the whole group – and, tellingly, titled her own public lecture on it 'Teamwork in the Savanna,' not 'my discovery'; Prof. Tim Clutton-Brock, whose central research question asks why individuals serve the group instead of reproducing themselves – and who spent decades building a collaborative research infrastructure instead of a solo career."
       },
       {
         titel: "Security through fixed, reliable routine instead of departure",
@@ -57875,6 +57941,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-anne-mcbride": anneMcBridePortraitPage,
       "beruehmte-john-wayne": johnWaynePortraitPage,
       "beruehmte-marta-manser": martaManserPortraitPage,
+      "beruehmte-tim-clutton-brock": timCluttonBrockPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,

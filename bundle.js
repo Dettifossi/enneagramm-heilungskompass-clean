@@ -32141,6 +32141,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Prof. Dr. Marta Manser \u2013 Sozialer Typ 6",
     teaser:"SO6w5 \u00b7 Schweizer Verhaltensbiologin, Professorin an der Universit\u00e4t Z\u00fcrich, Leiterin des Kalahari Research Centre. Entschl\u00fcsselte das komplexe Warnrufsystem der Erdm\u00e4nnchen \u2013 ein Fr\u00fchwarnsystem f\u00fcr die ganze Gruppe. Tierentsprechung: Erdm\u00e4nnchen.",
     tags:["Wissenschaft"], gender:"f"},
+  { route:"beruehmte-tim-clutton-brock", name:"Prof. Tim Clutton-Brock", added:"2026-08-19", subtyp:"SO6w5",
+    heading:"Prof. Tim Clutton-Brock \u2013 Sozialer Typ 6",
+    teaser:"SO6w5 \u00b7 Britischer Evolutionsbiologe, Professor in Cambridge, Gr\u00fcnder des Kalahari Meerkat Project. Jahrzehntelange Erforschung, warum Individuen der Gruppe dienen, statt sich selbst fortzupflanzen \u2013 kooperatives \u00dcberleben als Lebensthema. Tierentsprechung: Erdm\u00e4nnchen.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-donata-hopfen", name:"Donata Hopfen", added:"2026-07-21", subtyp:"SO6w7",
     heading:"Donata Hopfen \u2013 Sozialer Typ 6",
     teaser:"SO6w7 \xb7 geb. 1976 in Hamburg. Unternehmensberaterin, Digitalstrategin, Ex-CEO der Bild und der DFL. Das Erdm\xe4nnchen, das vorausl\xe4uft &ndash; und der Gruppe den Weg freimacht.",
@@ -35263,6 +35267,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-hugh-warwick", name:"Hugh Warwick", subtyp:"SX5w4", tier:"Igel"},
   {route:"beruehmte-anne-mcbride", name:"Dr. Anne McBride", subtyp:"SE6w5", tier:"Kaninchen"},
   {route:"beruehmte-marta-manser", name:"Prof. Dr. Marta Manser", subtyp:"SO6w5", tier:"Erdmännchen"},
+  {route:"beruehmte-tim-clutton-brock", name:"Prof. Tim Clutton-Brock", subtyp:"SO6w5", tier:"Erdmännchen"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42762,12 +42767,12 @@ const LEBENSMUSTERKOMPASS = {
   SO6: {
     tier: "Erdmännchen",
     kernthema: "Wache halten für die Gruppe, nicht für sich selbst – Sicherheit durch Zugehörigkeit und Pflicht",
-    beispiele: ["Melanie Kreis", "Immanuel Kant", "Dr. Sigmund Freud", "Andy Reid", "Donata Hopfen", "Herbert Grönemeyer", "James Corden", "Adolf Eichmann", "Prof. Dr. Marta Manser"],
+    beispiele: ["Melanie Kreis", "Immanuel Kant", "Dr. Sigmund Freud", "Andy Reid", "Donata Hopfen", "Herbert Grönemeyer", "James Corden", "Adolf Eichmann", "Prof. Dr. Marta Manser", "Prof. Tim Clutton-Brock"],
     fingerabdruecke: [
       {
         titel: "Wache halten für die Gruppe, nicht für sich selbst",
         beschreibung: "Die eigene Rolle wird konsequent dem Kollektiv untergeordnet: Sichtbarkeit oder persönlicher Auftritt sind nachrangig gegenüber der zuverlässigen Erfüllung der eigenen Funktion im System.",
-        beleg: "Melanie Kreis: ›Sie wird beschrieben als zuverlässig, präzise, analytisch – und als jemand, der für den Konzern arbeitet, nicht für den eigenen Auftritt. Das ist das Erdmännchen: Es hält Wache. Nicht für sich. Für die Gruppe‹; Andy Reid: ›Nicht das lauteste Tier im Rudel, sondern dasjenige, das am längsten und zuverlässigsten Wache hält – für ein System, das größer ist als es selbst‹; James Corden: ›Es ist selten das größte Tier im Rudel, aber immer das, das am meisten dafür tut, dass alle zusammenbleiben‹; Prof. Dr. Marta Manser, die wissenschaftlich entschlüsselte, wie das Warnrufsystem der Erdmännchen die ganze Gruppe schützt – und ihren eigenen Vortrag dazu bezeichnenderweise ›Teamarbeit in der Savanne‹ nannte, nicht ›meine Entdeckung‹."
+        beleg: "Melanie Kreis: ›Sie wird beschrieben als zuverlässig, präzise, analytisch – und als jemand, der für den Konzern arbeitet, nicht für den eigenen Auftritt. Das ist das Erdmännchen: Es hält Wache. Nicht für sich. Für die Gruppe‹; Andy Reid: ›Nicht das lauteste Tier im Rudel, sondern dasjenige, das am längsten und zuverlässigsten Wache hält – für ein System, das größer ist als es selbst‹; James Corden: ›Es ist selten das größte Tier im Rudel, aber immer das, das am meisten dafür tut, dass alle zusammenbleiben‹; Prof. Dr. Marta Manser, die wissenschaftlich entschlüsselte, wie das Warnrufsystem der Erdmännchen die ganze Gruppe schützt – und ihren eigenen Vortrag dazu bezeichnenderweise ›Teamarbeit in der Savanne‹ nannte, nicht ›meine Entdeckung‹; Prof. Tim Clutton-Brock, dessen zentrale Forschungsfrage lautet, warum Individuen der Gruppe dienen, statt sich selbst fortzupflanzen – und der über Jahrzehnte selbst eine kollaborative Forschungsinfrastruktur statt einer Einzelgänger-Karriere aufbaute."
       },
       {
         titel: "Sicherheit durch feste, verlässliche Routine statt Aufbruch",
@@ -48439,10 +48444,71 @@ function martaManserPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
         {route:"lebensmusterkompass/so6", label:"Lebensmusterkompass: SO6 – Erdmännchen"},
+        {route:"beruehmte-tim-clutton-brock", label:"Porträt: Prof. Tim Clutton-Brock (SO6w5)"},
         {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
-        {route:"beruehmte-andy-reid", label:"Porträt: Andy Reid (SO6w5)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-marta-manser")}
+    </div>
+  `);
+}
+
+function timCluttonBrockPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-tim-clutton-brock-portrait.jpg" alt="Erdmännchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Tim Clutton-Brock</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Sozialer Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Evolutionsbiologe &ndash; Tierentsprechung: Erdmännchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdmännchen, das eine Gemeinschaft für das Erdmännchen aufbaute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> ist das Tier der sozialen Sechs &ndash; absolute Vernetzung, gegenseitige Absicherung, der ständige Blick auf die Gemeinschaft. Kaum ein Wissenschaftler verkörpert dieses Prinzip so vollständig wie Prof. Tim Clutton-Brock: 1993 gründete der Cambridge-Zoologe das Kalahari Meerkat Project &ndash; eine der weltweit langlebigsten Verhaltensstudien überhaupt, die bis heute läuft und Generationen von Forschenden trägt.</p>
+          <p class="vb-intro">Statt als Einzelgänger-Genie zu arbeiten, baute er über Jahrzehnte eine kollaborative Infrastruktur auf: Landkauf, Farmhäuser, ein durchgehend besetztes Feldforschungsteam. Sein bekanntestes Buch trägt den programmatischen Titel "Mammal Societies" &ndash; Säugetiergesellschaften, nicht Säugetierindividuen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sechs: Die zentrale Frage nach dem Dienst an der Gruppe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sechs (SO6)</strong> definiert ihre eigene Identität über Pflicht und Zugehörigkeit zu einem größeren Ganzen &ndash; die eigene Bedeutung liegt nicht in individueller Freiheit, sondern in der verlässlichen Funktion innerhalb eines Systems. Clutton-Brocks zentrale wissenschaftliche Frage bringt genau dieses Thema auf den Punkt: "Was ist der Nutzen für die Individuen, die selbst nicht brüten, sondern ihre Zeit damit verbringen, anderen zu helfen?"</p>
+          <p class="vb-intro">Diese Frage nach dem Sinn kooperativen Verhaltens &ndash; warum ein Erdmännchen zugunsten der Gruppe auf die eigene Fortpflanzung verzichtet &ndash; ist im Kern die wissenschaftliche Übersetzung des eigenen SO6-Musters: Sicherheit und Bedeutung entstehen nicht durch Eigennutz, sondern durch die verlässliche Rolle im Kollektiv.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Jahrzehntelange, systematische Feldforschung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Sechs eine analytische Tiefe und die Bereitschaft, sich über sehr lange Zeiträume in ein einziges Forschungssystem zu vertiefen. Neben dem Kalahari Meerkat Project betreute Clutton-Brock parallel zwei weitere jahrzehntelange Langzeitstudien &ndash; Rothirsche auf der schottischen Insel Rùm und Soay-Schafe auf St Kilda &ndash; ein methodisches Ausdauervermögen, das weit über normale akademische Karrieren hinausgeht.</p>
+          <p class="vb-intro">Diese Kombination aus Sechser-Pflichtgefühl gegenüber dem großen gemeinsamen Projekt und Fünfer-Systematik in der Durchführung machte ihn zum Gründer nicht nur einer Studie, sondern einer ganzen Forschungsinfrastruktur, die auch nach seinem eigenen Ausscheiden aus der aktiven Leitung weiterbesteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO6w5 ist die Fähigkeit, <strong>eine dauerhafte, kollektive Institution zu erschaffen, die weit über die eigene Lebenszeit hinausreicht</strong> &ndash; das Kalahari Meerkat Project prägte über die Fernsehserie "Meerkat Manor" das öffentliche Verständnis von Tierverhalten weltweit und bildete zugleich Generationen von Verhaltensbiologinnen und -biologen aus.</p>
+          <p class="vb-intro">Der Schatten der sozialen Sechs mit Fünferflügel zeigt sich in einer gewissen persönlichen Zurückhaltung: Die öffentliche Aufmerksamkeit gilt dem Projekt, den Tieren, dem System &ndash; nicht der eigenen Person. Fotos und persönliche Details bleiben auffällig rar, typisch für einen Kopftypen, der die eigene Sichtbarkeit konsequent hinter die Sache stellt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Erdmännchen, das eine Gemeinschaft von Erdmännchen-Erforschenden schuf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Clutton-Brock der Welt gibt, ist nicht nur Wissen über ein einzelnes Tier, sondern ein lebendiges Modell dafür, wie kooperatives Verhalten überhaupt entsteht und weiterbesteht &ndash; ein Thema, das er nicht nur erforschte, sondern durch den Aufbau seines eigenen jahrzehntelangen Forschungsteams selbst vorlebte.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das kaum treffender für die soziale Sechs mit Fünferflügel sein könnte: ein Mann, dessen archetypisches Tier das Erdmännchen ist, der sein Lebenswerk der Frage widmete, warum Individuen der Gemeinschaft dienen &ndash; und dabei selbst eine Gemeinschaft aufbaute, die diese Frage bis heute weiter erforscht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so6", label:"Lebensmusterkompass: SO6 – Erdmännchen"},
+        {route:"beruehmte-marta-manser", label:"Porträt: Prof. Dr. Marta Manser (SO6w5)"},
+        {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-tim-clutton-brock")}
     </div>
   `);
 }
@@ -92351,6 +92417,7 @@ function render() {
       "beruehmte-anne-mcbride": anneMcBridePortraitPage,
       "beruehmte-john-wayne": johnWaynePortraitPage,
       "beruehmte-marta-manser": martaManserPortraitPage,
+      "beruehmte-tim-clutton-brock": timCluttonBrockPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
