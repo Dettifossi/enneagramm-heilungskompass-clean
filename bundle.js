@@ -42947,7 +42947,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Zurückweisung oder Verbannung wird zu schöpferischer Kraft, statt in Rache oder Resignation zu münden",
         beschreibung: "Verletzung, Ablehnung oder erzwungene Distanz führen nicht zum Rückzug, sondern werden zum fruchtbarsten Material für ein eigenständiges Werk oder einen eigenständigen Weg.",
-        beleg: "Voltaire, der nach Verbannung aus Frankreich das Exil ›in den fruchtbarsten Abschnitt seines Lebens‹ verwandelte; Dante, der aus seiner Verbannung aus Florenz ›eines der gewaltigsten literarischen Werke der Weltgeschichte‹ schuf: ›Er verwandelte die Verbannung nicht in Resignation, sondern in das Material für ein Werk, das ihm posthum genau jene Unsterblichkeit sicherte, die ihm die Stadt zu Lebzeiten verweigerte‹; Ana de Armas, die sich ohne Netz und Kontakte in Hollywood durchkämpfte."
+        beleg: "Voltaire, der nach Verbannung aus Frankreich das Exil ›in den fruchtbarsten Abschnitt seines Lebens‹ verwandelte; Dante, der aus seiner Verbannung aus Florenz ›eines der gewaltigsten literarischen Werke der Weltgeschichte‹ schuf: ›Er verwandelte die Verbannung nicht in Resignation, sondern in das Material für ein Werk, das ihm posthum genau jene Unsterblichkeit sicherte, die ihm die Stadt zu Lebzeiten verweigerte‹; Ana de Armas, die sich ohne Netz und Kontakte in Hollywood durchkämpfte; Paris Hilton, die belastende Erfahrungen in sogenannten „Troubled-Teen“-Einrichtungen jahrzehntelang hinter einer perfekt inszenierten Kunstfigur verbarg, aus der zugleich ein eigenes Geschäftsimperium entstand."
       },
       {
         titel: "Kompromisslose Intensität, die sich keiner fremden Konvention fügt",
@@ -42979,7 +42979,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Bedeutung durch bewusste Abgrenzung von einer Gemeinschaft, der man dennoch zugewandt bleibt",
         beschreibung: "Die eigene Bedeutung entsteht nicht durch Anpassung, sondern durch den bewussten Kontrast zur Gemeinschaft – man wendet sich ab, ohne sie je ganz zu verlassen, weil sie der Resonanzraum bleibt, an dem sich das eigene Denken oder Fühlen schärft.",
-        beleg: "Heraklit, der sich vom öffentlichen Leben abwandte, ›das er für oberflächlich hielt‹, aber ›Ephesos zugewandt‹ blieb; Hippokrates, der sich von der religiösen Heilkunst seiner Familie abgrenzte: ›Das Gürteltier bleibt Teil der Gemeinschaft der Heiler – aber es widerspricht ihr in ihrem Kern‹; Fiona Apple, deren jahrelange Rückzüge aus dem Rampenlicht sie ›trotzdem, oder gerade deshalb, zu den schonungslosesten Beobachterinnen‹ machten; Edgar Allan Poe und Marcel Proust, die sich körperlich zurückzogen, um über das Beobachtete zu schreiben."
+        beleg: "Heraklit, der sich vom öffentlichen Leben abwandte, ›das er für oberflächlich hielt‹, aber ›Ephesos zugewandt‹ blieb; Hippokrates, der sich von der religiösen Heilkunst seiner Familie abgrenzte: ›Das Gürteltier bleibt Teil der Gemeinschaft der Heiler – aber es widerspricht ihr in ihrem Kern‹; Fiona Apple, deren jahrelange Rückzüge aus dem Rampenlicht sie ›trotzdem, oder gerade deshalb, zu den schonungslosesten Beobachterinnen‹ machten; Edgar Allan Poe und Marcel Proust, die sich körperlich zurückzogen, um über das Beobachtete zu schreiben; Dr. Mariella Superina, die sich innerhalb der Naturschutzgemeinschaft bewusst auf eine einzige, kaum beachtete Nische spezialisierte – Gürteltiere statt der prominenteren Großtiere – und gerade darin zur unersetzbaren, weltweit anerkannten Stimme wurde."
       },
       {
         titel: "Wenn die Sehnsucht nach Zugehörigkeit auf ganzer Linie scheitert (Schattenform)",
@@ -43033,7 +43033,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Die bewusste, vollständige Darbietung als Kunstform für andere",
         beschreibung: "Am anderen Ende desselben Spektrums steht die ganz bewusst eingesetzte, vollständig ausgespielte Selbstdarstellung – kein privates Vergnügen, sondern eine gezielte Vorstellung, die genau weiß, welche Wirkung sie erzielen will.",
-        beleg: "Dieter Bohlen: ›Der Pfau ist das einzige Tier, das seinen schönsten Moment vollständig für andere entfaltet. Das Rad des Pfaus ist kein privates Vergnügen. Es ist eine Vorstellung … Der Pfau weiß genau, was er ist – und er versteckt es nicht.‹"
+        beleg: "Dieter Bohlen: ›Der Pfau ist das einzige Tier, das seinen schönsten Moment vollständig für andere entfaltet. Das Rad des Pfaus ist kein privates Vergnügen. Es ist eine Vorstellung … Der Pfau weiß genau, was er ist – und er versteckt es nicht.‹; Prof. Dr. Marlene Zuk, die komplexe biologische Zusammenhänge bewusst glasklar und für ein breites Publikum aufbereitet – eine Wissenschaft, die nicht nur verstanden, sondern sichtbar dargeboten werden will."
       },
       {
         titel: "Das perfekte Ideal oder die perfekte Inszenierung wird zur mörderischen Fixierung (Schattenform)",

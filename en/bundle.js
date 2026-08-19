@@ -36836,7 +36836,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Rejection or exile becomes creative power, rather than leading to revenge or resignation",
         beschreibung: "Injury, rejection, or forced distance does not lead to withdrawal, but becomes the most fertile material for a work or path of one's own.",
-        beleg: "Voltaire, who turned exile from France into 'the most fertile period of his life'; Dante, who out of his banishment from Florence created 'one of the mightiest literary works in world history': 'He turned banishment not into resignation, but into the material for a work that secured him posthumously exactly the immortality the city denied him in life'; Ana de Armas, who fought her way through Hollywood without a safety net or connections."
+        beleg: "Voltaire, who turned exile from France into 'the most fertile period of his life'; Dante, who out of his banishment from Florence created 'one of the mightiest literary works in world history': 'He turned banishment not into resignation, but into the material for a work that secured him posthumously exactly the immortality the city denied him in life'; Ana de Armas, who fought her way through Hollywood without a safety net or connections; Paris Hilton, who spent decades concealing distressing experiences in so-called "troubled teen" facilities behind a perfectly staged public persona, out of which a business empire of her own emerged."
       },
       {
         titel: "Uncompromising intensity that submits to no external convention",
@@ -36868,7 +36868,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Meaning through deliberate distance from a community one remains devoted to nonetheless",
         beschreibung: "One's own significance arises not through adaptation, but through deliberate contrast to the community – one turns away without ever fully leaving it, because it remains the resonance chamber that sharpens one's own thinking or feeling.",
-        beleg: "Heraclitus, who turned away from public life, 'which he considered superficial,' but remained 'devoted to Ephesus'; Hippocrates, who distanced himself from his family's religious healing arts: 'The armadillo remains part of the community of healers – but contradicts it at its core'; Fiona Apple, whose years of withdrawal from the spotlight made her 'nonetheless, or precisely because of that, one of the most unsparing observers'; Edgar Allan Poe and Marcel Proust, who withdrew physically in order to write about what they observed."
+        beleg: "Heraclitus, who turned away from public life, 'which he considered superficial,' but remained 'devoted to Ephesus'; Hippocrates, who distanced himself from his family's religious healing arts: 'The armadillo remains part of the community of healers – but contradicts it at its core'; Fiona Apple, whose years of withdrawal from the spotlight made her 'nonetheless, or precisely because of that, one of the most unsparing observers'; Edgar Allan Poe and Marcel Proust, who withdrew physically in order to write about what they observed; Dr. Mariella Superina, who deliberately specialized within the conservation community in a single, little-noticed niche – armadillos, rather than the more prominent large mammals – and precisely through that became the irreplaceable, globally recognized voice for it."
       },
       {
         titel: "When the longing for belonging fails completely (shadow form)",
@@ -36922,7 +36922,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "The deliberate, complete performance as an art form for others",
         beschreibung: "At the other end of the same spectrum stands the fully conscious, completely played-out self-presentation – not a private pleasure, but a deliberate performance that knows exactly what effect it wants to achieve.",
-        beleg: "Dieter Bohlen: 'The peacock is the only animal that unfolds its finest moment entirely for others. The peacock's tail is not a private pleasure. It's a performance ... The peacock knows exactly what it is – and doesn't hide it.'"
+        beleg: "Dieter Bohlen: 'The peacock is the only animal that unfolds its finest moment entirely for others. The peacock's tail is not a private pleasure. It's a performance ... The peacock knows exactly what it is – and doesn't hide it.'; Prof. Dr. Marlene Zuk, who deliberately renders complex biological findings crystal-clear and accessible to a broad audience – science that wants not only to be understood, but to be visibly performed."
       },
       {
         titel: "When the perfect ideal or the perfect performance becomes a murderous fixation (shadow form)",
