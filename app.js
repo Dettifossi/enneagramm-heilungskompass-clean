@@ -49654,7 +49654,7 @@ function winstonChurchillPortraitPage() {
         <h2 class="vb-section">1. Der Orang-Utan</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier des selbsterhaltenden Typs 8 &ndash; massiv, geduldig, kaum aus der Ruhe zu bringen. Er braucht kein Publikum, um seine Kraft zu beweisen; er sitzt einfach da, wo er sitzt, und wer ihn verdr\u00e4ngen will, muss ihn erst einmal bewegen. Sein K\u00f6rper ist gebaut, um zu bleiben &ndash; nicht um zu fliehen.</p>
-          <p class="vb-intro">Winston Churchill, 1874 auf Schloss Blenheim geboren, war genau dieser Orang-Utan: k\u00f6rperlich massig, in der \u00d6ffentlichkeit oft untersch\u00e4tzt, politisch mehrfach f\u00fcr gescheitert erkl\u00e4rt &ndash; und doch immer wieder da, wenn es darauf ankam. Als Gro\u00dfbritannien 1940 vor der Invasion durch Nazi-Deutschland stand, war es dieser Mann, kein anderer, der auf dem Ast blieb, w\u00e4hrend der Sturm tobte.</p>
+          <p class="vb-intro">Der britische Staatsmann Winston Churchill, 1874 auf Schloss Blenheim geboren, war genau dieser Orang-Utan: k\u00f6rperlich massig, in der \u00d6ffentlichkeit oft untersch\u00e4tzt, politisch mehrfach f\u00fcr gescheitert erkl\u00e4rt &ndash; und doch immer wieder da, wenn es darauf ankam. Als Gro\u00dfbritannien 1940 vor der Invasion durch Nazi-Deutschland stand, war es dieser Mann, kein anderer, der auf dem Ast blieb, w\u00e4hrend der Sturm tobte.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Acht: Das Recht auf Widerstand</h2>
@@ -49784,7 +49784,7 @@ function carstenStahlPortraitPage() {
         <h2 class="vb-section">1. Der L\xf6we</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>L\xf6we</strong> ist das Tier des sozialen Typs 8 &ndash; und kein Bild trifft Carsten Stahl genauer. Der L\xf6we ist kein Einzelk\xe4mpfer. Er lebt im Rudel, jagt f\xfcr das Rudel, sch\xfctzt das Rudel. Seine Kraft ist nicht f\xfcr sich selbst &ndash; sie ist f\xfcr die, die neben ihm stehen. Wenn Schwache bedroht werden, steht der L\xf6we auf. Das ist kein Reflex. Das ist Charakter.</p>
-          <p class="vb-intro">Carsten Stahl, 1974 in Heidelberg geboren, ist Kampfsportler, Buchautor und Antimobbingaktivist. Er hat seine K\xf6rperkraft nie zum Selbstzweck gemacht: Sie ist sein Werkzeug, um dorthin zu gehen, wo Schw\xe4chere keine Stimme haben &ndash; in die Schulen, auf die B\xfchnen, auf die Bildschirme. Der L\xf6we muss nicht zeigen, was er kann. Aber wenn der Moment es verlangt, ist er da.</p>
+          <p class="vb-intro">Der deutsche Kampfsportler Carsten Stahl, 1974 in Heidelberg geboren, ist Kampfsportler, Buchautor und Antimobbingaktivist. Er hat seine K\xf6rperkraft nie zum Selbstzweck gemacht: Sie ist sein Werkzeug, um dorthin zu gehen, wo Schw\xe4chere keine Stimme haben &ndash; in die Schulen, auf die B\xfchnen, auf die Bildschirme. Der L\xf6we muss nicht zeigen, was er kann. Aber wenn der Moment es verlangt, ist er da.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Acht: Solidarit\xe4t</h2>
@@ -49848,7 +49848,7 @@ function cynthiaLummisPortraitPage() {
         <h2 class="vb-section">1. Die L\u00f6win</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>L\u00f6we</strong> ist das Tier des sozialen Typs 8 &ndash; ein Wesen, das seine Kraft nicht f\u00fcr sich selbst einsetzt, sondern f\u00fcr das Rudel, dem es angeh\u00f6rt. Er verteidigt Territorium und Zugeh\u00f6rige zugleich, tritt vor, wenn Gefahr droht, und weicht nicht, solange sein Rudel bedroht ist. Seine St\u00e4rke ist keine Show &ndash; sie ist Funktion.</p>
-          <p class="vb-intro">Cynthia Lummis, geboren 1954 in Cheyenne, Wyoming, ist genau diese L\u00f6win: eine Ranch-Erbin aus f\u00fcnfter Generation, die sich \u00fcber Jahrzehnte durch die Politik Wyomings nach oben k\u00e4mpfte &ndash; als Abgeordnete, als State Treasurer, als Kongressabgeordnete und schlie\u00dflich, 2020, als erste Frau, die Wyoming im US-Senat vertrat. Sie k\u00e4mpft f\u00fcr ihr Rudel: die Rancher, die Bergarbeiter, die konservativen W\u00e4hler eines der am d\u00fcnnsten besiedelten Bundesstaaten der USA.</p>
+          <p class="vb-intro">Die US-amerikanische Senatorin Cynthia Lummis, geboren 1954 in Cheyenne, Wyoming, ist genau diese L\u00f6win: eine Ranch-Erbin aus f\u00fcnfter Generation, die sich \u00fcber Jahrzehnte durch die Politik Wyomings nach oben k\u00e4mpfte &ndash; als Abgeordnete, als State Treasurer, als Kongressabgeordnete und schlie\u00dflich, 2020, als erste Frau, die Wyoming im US-Senat vertrat. Sie k\u00e4mpft f\u00fcr ihr Rudel: die Rancher, die Bergarbeiter, die konservativen W\u00e4hler eines der am d\u00fcnnsten besiedelten Bundesstaaten der USA.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Acht: Solidarit\u00e4t mit den \u00dcbersehenen</h2>
@@ -50041,7 +50041,7 @@ function fritzPerlsPortraitPage() {
         <h2 class="vb-section">1. Der Löwe, der auf dem heißen Stuhl provozierte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 &ndash; ein Raubtier, das seine Kraft nicht versteckt, sondern offen zeigt, um eine Gruppe wachzurütteln. Kaum jemand verkörperte das so kompromisslos wie Fritz Perls: In seinen legendären Gruppen-Workshops setzte er Teilnehmer auf den berüchtigten "Hot Seat" und konfrontierte sie direkt, oft schonungslos, mit ihren Vermeidungsstrategien &ndash; vor den Augen aller Anwesenden. Wer eine Ausrede vorbrachte, wurde nicht sanft begleitet, sondern unmittelbar mit der eigenen Abwehr konfrontiert.</p>
-          <p class="vb-intro">Friedrich Salomon Perls wurde 1893 in Berlin geboren, studierte Medizin und Psychiatrie, arbeitete zeitweise mit Kurt Goldstein und wurde in der Psychoanalyse bei Wilhelm Reich und Karen Horney ausgebildet. 1933, nach der nationalsozialistischen Machtübernahme, floh er als Jude aus Deutschland, zunächst in die Niederlande, dann nach Südafrika und schließlich in die USA. Der Löwe verlässt sein Territorium nicht kampflos &ndash; aber wenn die Gefahr real wird, verteidigt er nicht die alte Ordnung, sondern baut sich eine neue auf.</p>
+          <p class="vb-intro">Der deutsche Psychiater Friedrich Salomon Perls wurde 1893 in Berlin geboren, studierte Medizin und Psychiatrie, arbeitete zeitweise mit Kurt Goldstein und wurde in der Psychoanalyse bei Wilhelm Reich und Karen Horney ausgebildet. 1933, nach der nationalsozialistischen Machtübernahme, floh er als Jude aus Deutschland, zunächst in die Niederlande, dann nach Südafrika und schließlich in die USA. Der Löwe verlässt sein Territorium nicht kampflos &ndash; aber wenn die Gefahr real wird, verteidigt er nicht die alte Ordnung, sondern baut sich eine neue auf.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Acht: Eine neue Therapie-Gemeinschaft</h2>
@@ -50234,7 +50234,7 @@ function budSpencerPortraitPage() {
         <h2 class="vb-section">1. Der L\u00f6we</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>L\u00f6we</strong> ist das Tier des sozialen Typs 8 &ndash; und kein Bild passt besser zu Bud Spencer. Der L\u00f6we muss nicht br\u00fcllen, um zu wirken. Seine Pr\u00e4senz allein ist genug. Er sitzt im Schatten des Akazienbaums, ruhig und massiv, w\u00e4hrend kleinere Tiere einen gro\u00dfen Bogen um ihn machen &ndash; nicht aus Feindschaft, sondern aus Respekt. Wenn das Rudel in Gefahr ist, steht er auf. Bis dahin ist er einfach da.</p>
-          <p class="vb-intro">Bud Spencer war dieses Tier. Fast 1,90 Meter, \u00fcber 120 Kilo &ndash; und dennoch war er kein Einsch\u00fcchterer. Wer ihn kannte, sah den warmen Blick, das tiefe Lachen, die bedingungslose Treue zu seiner Familie und zu seinem lebenslangen Freund Terence Hill. Der L\u00f6we sch\u00fctzt, ohne zu drohen. Bud Spencer sch\u00fctzte, ohne gro\u00dfe Worte zu machen.</p>
+          <p class="vb-intro">Der italienische Schauspieler Bud Spencer war dieses Tier. Fast 1,90 Meter, \u00fcber 120 Kilo &ndash; und dennoch war er kein Einsch\u00fcchterer. Wer ihn kannte, sah den warmen Blick, das tiefe Lachen, die bedingungslose Treue zu seiner Familie und zu seinem lebenslangen Freund Terence Hill. Der L\u00f6we sch\u00fctzt, ohne zu drohen. Bud Spencer sch\u00fctzte, ohne gro\u00dfe Worte zu machen.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Acht: Solidarit\u00e4t</h2>
@@ -50292,7 +50292,7 @@ function karlMarxPortraitPage() {
         <h2 class="vb-section">1. Der L\u00f6we</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>L\u00f6we</strong> ist das Tier des sozialen Typs 8 &ndash; ein Wesen, das seine Kraft nicht f\u00fcr sich selbst, sondern f\u00fcr sein Rudel einsetzt. Er muss nicht st\u00e4ndig br\u00fcllen; seine blo\u00dfe Pr\u00e4senz gen\u00fcgt, um Respekt zu erzwingen. Doch wenn das Rudel bedroht ist &ndash; oder wenn er selbst zum Kampf um dessen \u00dcberleben aufruft &ndash; entfaltet er eine Wucht, die niemand ignorieren kann.</p>
-          <p class="vb-intro">Karl Marx, 1818 in Trier geboren, war dieser L\u00f6we: kein lauter Selbstdarsteller, sondern ein Mann, der \u00fcber Jahrzehnte im Verborgenen &ndash; in Bibliotheken, in Armut, im Londoner Exil &ndash; an einem Werk arbeitete, das er als Waffe f\u00fcr die Unterdr\u00fcckten verstand. Er k\u00e4mpfte nicht f\u00fcr sich. Er k\u00e4mpfte f\u00fcr ein Rudel, das er nie pers\u00f6nlich kannte: die Arbeiterklasse der ganzen Welt.</p>
+          <p class="vb-intro">Der deutsche Philosoph Karl Marx, 1818 in Trier geboren, war dieser L\u00f6we: kein lauter Selbstdarsteller, sondern ein Mann, der \u00fcber Jahrzehnte im Verborgenen &ndash; in Bibliotheken, in Armut, im Londoner Exil &ndash; an einem Werk arbeitete, das er als Waffe f\u00fcr die Unterdr\u00fcckten verstand. Er k\u00e4mpfte nicht f\u00fcr sich. Er k\u00e4mpfte f\u00fcr ein Rudel, das er nie pers\u00f6nlich kannte: die Arbeiterklasse der ganzen Welt.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Acht: Solidarit\u00e4t mit den Ausgebeuteten</h2>
@@ -50565,7 +50565,7 @@ function diogenesPortraitPage() {
         <h2 class="vb-section">1. Das Krokodil</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier des sexuellen Typs 8 &ndash; ein Wesen, das sich um keine gesellschaftliche Ordnung schert, kaum Bed\u00fcrfnisse zeigt und dennoch die volle Aufmerksamkeit jedes Gew\u00e4ssers auf sich zieht, das es betritt. Es lebt \u00f6ffentlich, ungesch\u00fctzt, ohne R\u00fcckzugsort &ndash; und genau das macht es so schwer zu ignorieren.</p>
-          <p class="vb-intro">Diogenes von Sinope, geboren um 412 v. Chr., lebte in einer ausrangierten Tonne (einem Pithos, einem gro\u00dfen Vorratsgef\u00e4\u00df) auf dem Marktplatz von Athen &ndash; ohne Haus, ohne Besitz, ohne Scham. Der Legende nach ging er tags\u00fcber mit einer brennenden Lampe durch die Stra\u00dfen und erkl\u00e4rte auf die Frage, was er suche: \u201eIch suche einen Menschen." Kein Philosoph der Antike hat radikaler \u00f6ffentlich gelebt als er. Das Krokodil verbirgt sich nicht &ndash; es liegt sichtbar am Ufer, und wer vorbeikommt, muss sich mit ihm auseinandersetzen.</p>
+          <p class="vb-intro">Der griechische Philosoph Diogenes von Sinope, geboren um 412 v. Chr., lebte in einer ausrangierten Tonne (einem Pithos, einem gro\u00dfen Vorratsgef\u00e4\u00df) auf dem Marktplatz von Athen &ndash; ohne Haus, ohne Besitz, ohne Scham. Der Legende nach ging er tags\u00fcber mit einer brennenden Lampe durch die Stra\u00dfen und erkl\u00e4rte auf die Frage, was er suche: \u201eIch suche einen Menschen." Kein Philosoph der Antike hat radikaler \u00f6ffentlich gelebt als er. Das Krokodil verbirgt sich nicht &ndash; es liegt sichtbar am Ufer, und wer vorbeikommt, muss sich mit ihm auseinandersetzen.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Acht: Schamlosigkeit als Befreiung</h2>
@@ -50760,7 +50760,7 @@ function ruthBaderGinsburgPortraitPage() {
         <h2 class="vb-section">1. Das Krokodil</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier des sexuellen Typs 8 &ndash; und kein Bild trifft Ruth Bader Ginsburg pr\xe4ziser. Das Krokodil ist das \xe4lteste Raubtier der Erde: geduldig im Warten, pr\xe4zise im Zugriff, unbeeindruckt von Gegenwehr und nahezu unver\xe4ndert seit Jahrmillionen. Es braucht keine Gr\xf6\xdfe, um Respekt einzufl\xf6\xdfen. Es gen\xfcgt, dass es da ist.</p>
-          <p class="vb-intro">Ginsburg, 1933 in Brooklyn geboren, 2020 verstorben, war 27 Jahre lang Richterin am Obersten Gerichtshof der Vereinigten Staaten &ndash; die zweite Frau in dieser Geschichte. Sie war 1,57 Meter gro\xdf. Sie sprach leise. Ihre Sondervoten waren ber\xfchmt daf\xfcr, dass sie den Mehrheitsmeinungen direkt, ohne Umschreibung, ins Herz schnitten. Das Krokodil braucht kein Imponiergehabe. Sein Zugriff reicht.</p>
+          <p class="vb-intro">Die US-amerikanische Richterin Ruth Bader Ginsburg, 1933 in Brooklyn geboren, 2020 verstorben, war 27 Jahre lang Richterin am Obersten Gerichtshof der Vereinigten Staaten &ndash; die zweite Frau in dieser Geschichte. Sie war 1,57 Meter gro\xdf. Sie sprach leise. Ihre Sondervoten waren ber\xfchmt daf\xfcr, dass sie den Mehrheitsmeinungen direkt, ohne Umschreibung, ins Herz schnitten. Das Krokodil braucht kein Imponiergehabe. Sein Zugriff reicht.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Acht: Besitz</h2>
@@ -50948,7 +50948,7 @@ function angelaMerkelPortraitPage() {
         <h2 class="vb-section">1. Der Elefant</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des selbsterhaltenden Typs 9 &ndash; und kein Bild trifft Angela Merkel genauer. Der Elefant ist geduldig, erdend, von einer Pr\xe4senz, die nicht durch Lautst\xe4rke entsteht, sondern durch Gewicht. Er bewegt sich nicht eilig. Aber er bewegt sich &ndash; und wenn er in Bewegung ist, h\xe4lt ihn nichts auf.</p>
-          <p class="vb-intro">Merkel, 1954 in Hamburg geboren, aufgewachsen in der DDR, Physikerin von Beruf, wurde nach der Wende \xfcber Nacht zur Politikerin und regierte Deutschland f\xfcr sechzehn Jahre. Sie sprach selten laut. Sie machte keine gro\xdfen Gesten. Und sie \xfcberstand Krisen, Gegner und Koalitionspartner mit einer Beharrlichkeit, die mehr wie Naturgewalt wirkte als wie Strategie. Das ist der Elefant: Er braucht keine Szene. Er hat Zeit.</p>
+          <p class="vb-intro">Die deutsche Politikerin Angela Merkel, 1954 in Hamburg geboren, aufgewachsen in der DDR, Physikerin von Beruf, wurde nach der Wende \xfcber Nacht zur Politikerin und regierte Deutschland f\xfcr sechzehn Jahre. Sie sprach selten laut. Sie machte keine gro\xdfen Gesten. Und sie \xfcberstand Krisen, Gegner und Koalitionspartner mit einer Beharrlichkeit, die mehr wie Naturgewalt wirkte als wie Strategie. Das ist der Elefant: Er braucht keine Szene. Er hat Zeit.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Neun: Aussitzen als Methode</h2>
@@ -51682,7 +51682,7 @@ function helmutKohlPortraitPage() {
         <h2 class="vb-section">1. Der L\u00f6we aus der Pfalz</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>L\u00f6we</strong> ist das Tier der sozialen Acht &ndash; nicht der einzelne J\u00e4ger, sondern das Oberhaupt des Rudels, das Territorium und Zusammenhalt zugleich verteidigt. Er br\u00fcllt nicht st\u00e4ndig; seine Macht liegt in der schieren physischen und mentalen Pr\u00e4senz, die andere sp\u00fcren, sobald er den Raum betritt.</p>
-          <p class="vb-intro">Helmut Kohl wurde 1930 in Ludwigshafen am Rhein geboren und erlebte als Jugendlicher das Ende des Zweiten Weltkriegs &ndash; eine Erfahrung, die sein ganzes politisches Leben pr\u00e4gte: nie wieder sollte Deutschland isoliert, nie wieder Europa gespalten sein. Schon mit 16 Jahren trat er der CDU bei, mit 39 wurde er rheinland-pf\u00e4lzischer Ministerpr\u00e4sident, mit 52 Bundeskanzler &ndash; ein Aufstieg, der von Anfang an auf schierer Ausdauer, Statur und einem untr\u00fcglichen Machtinstinkt beruhte. Kohl war k\u00f6rperlich gro\u00df, oft untersch\u00e4tzt von seinen Gegnern wegen seines bed\u00e4chtigen Pf\u00e4lzer Dialekts &ndash; und genau darin lag seine St\u00e4rke: Er lie\u00df sich nie in ein Tempo dr\u00e4ngen, das nicht seines war.</p>
+          <p class="vb-intro">Der deutsche Politiker Helmut Kohl wurde 1930 in Ludwigshafen am Rhein geboren und erlebte als Jugendlicher das Ende des Zweiten Weltkriegs &ndash; eine Erfahrung, die sein ganzes politisches Leben pr\u00e4gte: nie wieder sollte Deutschland isoliert, nie wieder Europa gespalten sein. Schon mit 16 Jahren trat er der CDU bei, mit 39 wurde er rheinland-pf\u00e4lzischer Ministerpr\u00e4sident, mit 52 Bundeskanzler &ndash; ein Aufstieg, der von Anfang an auf schierer Ausdauer, Statur und einem untr\u00fcglichen Machtinstinkt beruhte. Kohl war k\u00f6rperlich gro\u00df, oft untersch\u00e4tzt von seinen Gegnern wegen seines bed\u00e4chtigen Pf\u00e4lzer Dialekts &ndash; und genau darin lag seine St\u00e4rke: Er lie\u00df sich nie in ein Tempo dr\u00e4ngen, das nicht seines war.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Acht: Macht im Dienst der Gruppe</h2>
@@ -51746,7 +51746,7 @@ function gerhardSchroederPortraitPage() {
         <h2 class="vb-section">1. Das Krokodil im Anzug</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier der sexuellen Acht &ndash; lauernd, kraftvoll, im entscheidenden Moment blitzschnell zuschnappend. Es teilt sein Revier mit niemandem und misst seine Kraft im direkten, unmittelbaren Duell &ndash; nicht durch langsame Strategie, sondern durch den einen entscheidenden Biss zur richtigen Zeit.</p>
-          <p class="vb-intro">Gerhard Schr\u00f6der wurde 1944 in Mossenberg (Lippe) geboren, wenige Wochen vor dem Kriegstod seines Vaters, den er nie kennenlernte. Er wuchs in \u00e4rmlichen Verh\u00e4ltnissen auf, arbeitete fr\u00fch in einem Eisenwarengesch\u00e4ft, holte \u00fcber den zweiten Bildungsweg Abitur und Jurastudium nach. Der Aufstieg vom Arbeiterkind zum Bundeskanzler war f\u00fcr ihn selbst stets Teil seiner politischen Erz\u00e4hlung &ndash; ein Beweis daf\u00fcr, dass Wille und Kampfkraft Herkunft \u00fcberwinden k\u00f6nnen. Als Jusochef lie\u00df er sich 1982 vor dem Kanzleramtszaun fotografieren, die H\u00e4nde am Gitter, mit dem Satz: &bdquo;Ich will da rein.&ldquo; Ein Bild, das seine ganze Instinktausrichtung vorwegnahm.</p>
+          <p class="vb-intro">Der deutsche Politiker Gerhard Schr\u00f6der wurde 1944 in Mossenberg (Lippe) geboren, wenige Wochen vor dem Kriegstod seines Vaters, den er nie kennenlernte. Er wuchs in \u00e4rmlichen Verh\u00e4ltnissen auf, arbeitete fr\u00fch in einem Eisenwarengesch\u00e4ft, holte \u00fcber den zweiten Bildungsweg Abitur und Jurastudium nach. Der Aufstieg vom Arbeiterkind zum Bundeskanzler war f\u00fcr ihn selbst stets Teil seiner politischen Erz\u00e4hlung &ndash; ein Beweis daf\u00fcr, dass Wille und Kampfkraft Herkunft \u00fcberwinden k\u00f6nnen. Als Jusochef lie\u00df er sich 1982 vor dem Kanzleramtszaun fotografieren, die H\u00e4nde am Gitter, mit dem Satz: &bdquo;Ich will da rein.&ldquo; Ein Bild, das seine ganze Instinktausrichtung vorwegnahm.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Acht: Der Kampf als Lebensform</h2>
@@ -52880,7 +52880,7 @@ function davidHumePortraitPage() {
         <h2 class="vb-section">1. Der Elefant, der an allem zweifelte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des selbsterhaltenden Typs 9 &ndash; geduldig, erdend, von einer Pr\u00e4senz, die nicht durch Lautst\u00e4rke entsteht, sondern durch Gewicht. Er l\u00e4sst sich nicht aus der Ruhe bringen, selbst wenn er die Grundfesten der Welt in Frage stellt. Er tr\u00e4gt seine Erkenntnisse gelassen, ohne sie jemandem aufzudr\u00e4ngen.</p>
-          <p class="vb-intro">David Hume wurde 1711 in Edinburgh geboren, studierte kurz Jura, brach das Studium ab und widmete sich stattdessen der Philosophie &ndash; gegen den Wunsch seiner Familie. Zeitgenossen beschrieben ihn \u00fcbereinstimmend als heiter, umg\u00e4nglich, ohne jede Bitterkeit, obwohl er zeitlebens gegen erbitterten Widerstand der Kirche und akademischer Institutionen anschrieb. Man nannte ihn &bdquo;le bon David&ldquo; &ndash; den guten David &ndash; selbst in Kreisen, die seine Ideen f\u00fcr gef\u00e4hrlich hielten.</p>
+          <p class="vb-intro">Der schottische Philosoph David Hume wurde 1711 in Edinburgh geboren, studierte kurz Jura, brach das Studium ab und widmete sich stattdessen der Philosophie &ndash; gegen den Wunsch seiner Familie. Zeitgenossen beschrieben ihn \u00fcbereinstimmend als heiter, umg\u00e4nglich, ohne jede Bitterkeit, obwohl er zeitlebens gegen erbitterten Widerstand der Kirche und akademischer Institutionen anschrieb. Man nannte ihn &bdquo;le bon David&ldquo; &ndash; den guten David &ndash; selbst in Kreisen, die seine Ideen f\u00fcr gef\u00e4hrlich hielten.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Neun: Gelassenheit als Methode</h2>
@@ -53472,7 +53472,7 @@ function abidaParveenPortraitPage() {
         <h2 class="vb-section">1. Der Elefant</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des Typs 9 &ndash; ein Wesen von enormer Masse, das sich nicht beeilen muss, um Eindruck zu machen. Er bewegt sich in seinem eigenen Rhythmus, geduldig, unersch\u00fctterlich, und wenn er sich einmal in Bewegung setzt, folgt ihm alles um ihn herum. Seine Kraft liegt nicht im Angriff, sondern im schieren Gewicht seiner Pr\u00e4senz.</p>
-          <p class="vb-intro">Abida Parveen, geboren 1954 in Larkana, Pakistan, ist dieser Elefant auf der B\u00fchne. Wenn sie in einem farbenpr\u00e4chtigen Gewand auf die B\u00fchne tritt und die Augen schlie\u00dft, geschieht zun\u00e4chst wenig &ndash; keine Show, keine Choreografie, kein Spektakel. Und doch versinkt der gesamte Konzertsaal binnen Minuten in eine kollektive Trance, mitgezogen von einer Stimme, die keine Eile kennt und genau deshalb alles mit sich rei\u00dft.</p>
+          <p class="vb-intro">Die pakistanische S\u00e4ngerin Abida Parveen, geboren 1954 in Larkana, Pakistan, ist dieser Elefant auf der B\u00fchne. Wenn sie in einem farbenpr\u00e4chtigen Gewand auf die B\u00fchne tritt und die Augen schlie\u00dft, geschieht zun\u00e4chst wenig &ndash; keine Show, keine Choreografie, kein Spektakel. Und doch versinkt der gesamte Konzertsaal binnen Minuten in eine kollektive Trance, mitgezogen von einer Stimme, die keine Eile kennt und genau deshalb alles mit sich rei\u00dft.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit auf Verschmelzung</h2>
@@ -53536,7 +53536,7 @@ function johannesBrahmsPortraitPage() {
         <h2 class="vb-section">1. Der Elefant</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier der selbsterhaltenden Neun des Enneagramms – ein Wesen von enormem Gewicht, das sich trotzdem gemächlich, fast bedächtig durch die Welt bewegt, das nichts vergisst und niemanden verlässt, dem es einmal die Treue geschworen hat. Johannes Brahms war dieser Elefant: massig in seiner künstlerischen Statur, unerschütterlich in seinen Bindungen, und mit einem Gedächtnis, das eine einzige Freundschaft über vier Jahrzehnte trug.</p>
-          <p class="vb-intro">Geboren 1833 in Hamburg als Sohn eines Stadtmusikers, verdiente sich der junge Brahms als Teenager sein Geld am Klavier in Hafenkneipen St. Paulis – eine harte, karge Schule, die ihn Zeit seines Lebens genügsam bleiben ließ, auch als sein Ruhm ihn längst zu einem der reichsten Komponisten Europas gemacht hatte.</p>
+          <p class="vb-intro">Der deutsche Komponist Johannes Brahms, geboren 1833 in Hamburg als Sohn eines Stadtmusikers, verdiente sich als Teenager als Teenager sein Geld am Klavier in Hafenkneipen St. Paulis – eine harte, karge Schule, die ihn Zeit seines Lebens genügsam bleiben ließ, auch als sein Ruhm ihn längst zu einem der reichsten Komponisten Europas gemacht hatte.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit im Kleinen</h2>
@@ -53603,7 +53603,7 @@ function kevinCostnerPortraitPage() {
         <h2 class="vb-section">1. Der B\xfcffel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>B\xfcffel</strong> ist das Tier des sozialen Typs 9 &ndash; und kein Bild trifft Kevin Costner genauer. Der B\xfcffel lebt im Kollektiv. Er bewegt sich langsam, mit Gewicht, bodennah. Er ist nicht das lauteste Tier der Pr\xe4rie &ndash; aber wenn er in Bewegung ist, folgt ihm die Herde. Seine Kraft liegt nicht in der Dominanz, sondern in der Zugeh\xf6rigkeit: Er ist Teil von etwas Gr\xf6\xdferem, und er wei\xdf es.</p>
-          <p class="vb-intro">Kevin Costner, 1955 in Lynwood, Kalifornien geboren, ist einer der seltensten Typen in Hollywood: ein Schauspieler, der nicht glitzert, sondern tr\xe4gt. Er spricht langsam. Er spielt langsam. Seine besten Rollen sind M\xe4nner, die nicht f\xfcr sich k\xe4mpfen &ndash; sondern f\xfcr etwas, das gr\xf6\xdfer ist als sie selbst: ein Land, eine Gemeinschaft, ein versunkenes Versprechen.</p>
+          <p class="vb-intro">Der US-amerikanische Schauspieler Kevin Costner, 1955 in Lynwood, Kalifornien geboren, ist einer der seltensten Typen in Hollywood: ein Schauspieler, der nicht glitzert, sondern tr\xe4gt. Er spricht langsam. Er spielt langsam. Seine besten Rollen sind M\xe4nner, die nicht f\xfcr sich k\xe4mpfen &ndash; sondern f\xfcr etwas, das gr\xf6\xdfer ist als sie selbst: ein Land, eine Gemeinschaft, ein versunkenes Versprechen.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Neun: In der Gemeinschaft aufgehen</h2>
@@ -53734,7 +53734,7 @@ function igaSwiatekPortraitPage() {
         <h2 class="vb-section">1. Das Faultier</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und wer Iga \u015awi\u0105tek beim Spielen beobachtet, versteht warum. Das Faultier wirkt, als schliefe es halb. Es bewegt sich nicht, wenn es sich nicht bewegen muss. Doch dieser Eindruck t\xe4uscht: Das Faultier ist perfekt an seine Umgebung angepasst. Jede Bewegung sitzt. Kein Energieaufwand ohne Notwendigkeit. Und wenn es zuschnappt &ndash; dann mit einer Pr\xe4zision, die verbl\xfcffend ist.</p>
-          <p class="vb-intro">Iga \u015awi\u0105tek, 2001 in Warschau, Polen geboren, ist die dominanteste Tennisspielerin ihrer Generation. Sie gewann Roland Garros 2020, 2022, 2023 und 2024 &ndash; viermal das h\xe4rteste Sandplatz-Turnier der Welt. Dazu die US Open 2022. Sie war \xfcber 150 Wochen lang die Nummer eins der Weltrangliste. Und wer ihr dabei zusieht, fragt sich: Wie macht sie das so m\xfchelos?</p>
+          <p class="vb-intro">Die polnische Tennisspielerin Iga \u015awi\u0105tek, 2001 in Warschau, Polen geboren, ist die dominanteste Tennisspielerin ihrer Generation. Sie gewann Roland Garros 2020, 2022, 2023 und 2024 &ndash; viermal das h\xe4rteste Sandplatz-Turnier der Welt. Dazu die US Open 2022. Sie war \xfcber 150 Wochen lang die Nummer eins der Weltrangliste. Und wer ihr dabei zusieht, fragt sich: Wie macht sie das so m\xfchelos?</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Neun: Im Fluss verschwinden</h2>
@@ -53799,7 +53799,7 @@ function steffiGrafPortraitPage() {
         <h2 class="vb-section">1. Der B\u00fcffel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>B\u00fcffel</strong> ist das Tier des sozialen Typs 9 &ndash; und kein Bild trifft Steffi Graf genauer. Der B\u00fcffel ist kein Tier des Showrooms. Er ist kein Tier der Posen und der Gesten. Er senkt den Kopf und l\u00e4uft. Er geht durch, was auch immer vor ihm liegt &ndash; ruhig, massiv, unaufhaltsam. Er macht kein Drama. Er braucht kein Publikum, um zu wissen, dass er da ist.</p>
-          <p class="vb-intro">Steffi Graf hatte diese Qualit\u00e4t auf dem Tennisplatz wie sonst kaum jemand. Sie hat 22 Grand-Slam-Titel gewonnen &ndash; mehr als jede andere Spielerin ihrer Generation. 1988 gelang ihr der <strong>Golden Slam</strong>: alle vier Grand-Slam-Turniere und die Olympische Goldmedaille in einem Jahr. Eine Leistung, die in der Geschichte des Tennis einmalig ist. Und sie hat das alles gemacht, ohne dass man je das Gef\u00fchl hatte, sie m\u00fcsse es sich beweisen. Der B\u00fcffel beweist nichts. Er ist einfach da &ndash; und er gewinnt.</p>
+          <p class="vb-intro">Die deutsche Tennisspielerin Steffi Graf hatte diese Qualit\u00e4t auf dem Tennisplatz wie sonst kaum jemand. Sie hat 22 Grand-Slam-Titel gewonnen &ndash; mehr als jede andere Spielerin ihrer Generation. 1988 gelang ihr der <strong>Golden Slam</strong>: alle vier Grand-Slam-Turniere und die Olympische Goldmedaille in einem Jahr. Eine Leistung, die in der Geschichte des Tennis einmalig ist. Und sie hat das alles gemacht, ohne dass man je das Gef\u00fchl hatte, sie m\u00fcsse es sich beweisen. Der B\u00fcffel beweist nichts. Er ist einfach da &ndash; und er gewinnt.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Neun: Partizipation</h2>
@@ -53859,7 +53859,7 @@ function julianAssangePortraitPage() {
         <h2 class="vb-section">1. Der B\u00fcffel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>B\u00fcffel</strong> ist das Tier des sozialen Typs 9 &ndash; ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine gr\u00f6\u00dfere Sache definiert. Er senkt den Kopf und geht hindurch durch das, was ihm im Weg steht, ohne sich um Ansehen oder Applaus zu k\u00fcmmern. Er k\u00e4mpft nicht f\u00fcr sich selbst &ndash; er k\u00e4mpft f\u00fcr etwas, das gr\u00f6\u00dfer ist als das eigene \u00dcberleben.</p>
-          <p class="vb-intro">Julian Assange, 1971 in Townsville, Australien, geboren, ist dieser B\u00fcffel: kein Redner, der Menschenmengen mitrei\u00dft, sondern ein Programmierer und Aktivist, der glaubte, dass die Wahrheit selbst das m\u00e4chtigste Werkzeug sei. Mit der Gr\u00fcndung von WikiLeaks 2006 begann er, eine Plattform zu bauen, die geheime Dokumente von Regierungen und Konzernen der Welt\u00f6ffentlichkeit zug\u00e4nglich machen sollte &ndash; ohne R\u00fccksicht darauf, wer dabei blo\u00dfgestellt wurde.</p>
+          <p class="vb-intro">Der australische Aktivist Julian Assange, 1971 in Townsville, Australien, geboren, ist dieser B\u00fcffel: kein Redner, der Menschenmengen mitrei\u00dft, sondern ein Programmierer und Aktivist, der glaubte, dass die Wahrheit selbst das m\u00e4chtigste Werkzeug sei. Mit der Gr\u00fcndung von WikiLeaks 2006 begann er, eine Plattform zu bauen, die geheime Dokumente von Regierungen und Konzernen der Welt\u00f6ffentlichkeit zug\u00e4nglich machen sollte &ndash; ohne R\u00fccksicht darauf, wer dabei blo\u00dfgestellt wurde.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Neun: Aufgehen in einer gr\u00f6\u00dferen Sache</h2>
@@ -54052,7 +54052,7 @@ function dakotaJohnsonPortraitPage() {
         <h2 class="vb-section">1. Das Faultier</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und wer Dakota Johnson in einem Interview beobachtet, dem erschlie\u00dft sich das Bild sofort. Das Faultier h\xe4ngt. Es blinzelt. Es wirkt, als interessiere es sich f\xfcr nichts und niemanden. Und doch ist es vollkommen pr\xe4sent &ndash; mit Krallen, die man erst sieht, wenn man zu nahe kommt.</p>
-          <p class="vb-intro">Dakota Johnson, 1989 in Austin, Texas geboren, ist Enkelin von Tippi Hedren, Tochter von Melanie Griffith und Don Johnson &ndash; Hollywoodblut in der dritten Generation. Sie h\xe4tte die Dynastie bequem fortschreiben k\xf6nnen. Stattdessen w\xe4hlte sie etwas, das schwerer zu beschreiben ist: eine Art Anwesenheit, die sich nicht aufdr\u00e4ngt. Eine Intensit\xe4t, die sich versteckt. Ein L\xe4cheln, das halb Einladung und halb Grenze ist.</p>
+          <p class="vb-intro">Die US-amerikanische Schauspielerin Dakota Johnson, 1989 in Austin, Texas geboren, ist Enkelin von Tippi Hedren, Tochter von Melanie Griffith und Don Johnson &ndash; Hollywoodblut in der dritten Generation. Sie h\xe4tte die Dynastie bequem fortschreiben k\xf6nnen. Stattdessen w\xe4hlte sie etwas, das schwerer zu beschreiben ist: eine Art Anwesenheit, die sich nicht aufdr\u00e4ngt. Eine Intensit\xe4t, die sich versteckt. Ein L\xe4cheln, das halb Einladung und halb Grenze ist.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Neun: Verschwinden im Anderen</h2>
@@ -54117,7 +54117,7 @@ function heikeMakatschPortraitPage() {
         <h2 class="vb-section">1. Das Faultier</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und wer dabei an Passivit\u00e4t denkt, versteht das Faultier falsch. Faultiere sind keine faulen Tiere. Sie sind Meister der Energieeffizienz: Sie warten, bis der richtige Moment kommt &ndash; und dann bewegen sie sich mit einer Pr\u00e4zision und Ausdauer, die \u00fcberrascht. Ihr Gleichgewicht im Baum ist keine Schw\u00e4che. Es ist eine Form von Kontrolle, die nach innen gerichtet ist.</p>
-          <p class="vb-intro">Heike Makatsch tr\u00e4gt diese Qualit\u00e4t auf der Leinwand und dahinter. Sie ist keine Schauspielerin der gro\u00dfen Gesten, der bewusst platzierten Auftritte. Sie ist jemand, der wartet &ndash; auf die richtige Rolle, den richtigen Moment, den richtigen Ton &ndash; und dann vollst\u00e4ndig eintaucht. Das Faultier h\u00e4ngt still, bis es sich bewegt. Wenn es sich bewegt, gibt es alles.</p>
+          <p class="vb-intro">Die deutsche Schauspielerin Heike Makatsch tr\u00e4gt diese Qualit\u00e4t auf der Leinwand und dahinter. Sie ist keine Schauspielerin der gro\u00dfen Gesten, der bewusst platzierten Auftritte. Sie ist jemand, der wartet &ndash; auf die richtige Rolle, den richtigen Moment, den richtigen Ton &ndash; und dann vollst\u00e4ndig eintaucht. Das Faultier h\u00e4ngt still, bis es sich bewegt. Wenn es sich bewegt, gibt es alles.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Neun: Der Verst\u00e4rkungstyp</h2>
@@ -54177,7 +54177,7 @@ function marioBarthPortraitPage() {
         <h2 class="vb-section">1. Das Faultier</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; ein Tier, das nicht k\u00e4mpft, sondern verschmilzt. Es h\u00e4ngt entspannt im Ge\u00e4st, l\u00e4sst die Welt an sich vorbeiziehen und geht ganz in seiner Umgebung auf. Doch wer glaubt, das Faultier sei wehrlos, irrt: Ber\u00fchrt man es an der falschen Stelle, reagiert es pl\u00f6tzlich mit \u00fcberraschender Wucht.</p>
-          <p class="vb-intro">Mario Barth, 1972 in Berlin-Mariendorf geboren, eines von sechs Geschwistern, lernte zun\u00e4chst Fernmeldeelektroniker bei Siemens, bevor er sich der Comedy zuwandte. 2001 deb\u00fctierte er mit seinem ersten B\u00fchnenprogramm &ndash; und verschmolz von da an mit einer B\u00fchnenfigur, die zum Millionenpublikum sprach: der Berliner Kumpeltyp, der die ewigen Reibereien zwischen M\u00e4nnern und Frauen auf den Punkt bringt.</p>
+          <p class="vb-intro">Der deutsche Komiker Mario Barth, 1972 in Berlin-Mariendorf geboren, eines von sechs Geschwistern, lernte zun\u00e4chst Fernmeldeelektroniker bei Siemens, bevor er sich der Comedy zuwandte. 2001 deb\u00fctierte er mit seinem ersten B\u00fchnenprogramm &ndash; und verschmolz von da an mit einer B\u00fchnenfigur, die zum Millionenpublikum sprach: der Berliner Kumpeltyp, der die ewigen Reibereien zwischen M\u00e4nnern und Frauen auf den Punkt bringt.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit der Masse</h2>
@@ -54565,7 +54565,7 @@ function keanuReevesPortraitPage() {
         <h2 class="vb-section">1. Das Faultier</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und kein Bild trifft Keanu Reeves genauer, auch wenn es auf den ersten Blick paradox wirkt: Denn Faultiere sind nicht faul. Sie sind \u00e4u\u00dferst energiesparend &ndash; sie machen <em>genau das, was n\u00f6tig ist</em>, mit einem Minimum an Aufwand und einem Maximum an Wirkung. Das Faultier h\xe4ngt still im Baum, bewegt sich kaum &ndash; und niemand kommt auf die Idee, es zu untersch\xe4tzen.</p>
-          <p class="vb-intro">Keanu Reeves ist einer der erfolgreichsten Schauspieler der Welt. Er hat mit <em>The Matrix</em> (1999) eine der ikonischsten Filmfiguren des Kinos verk\u00f6rpert, mit <em>John Wick</em> eine der intensivsten Actionrollen der letzten Jahrzehnte gespielt &ndash; und ist im wirklichen Leben der Mann, der allein auf einer Parkbank sitzt und ein Sandwich isst. Kein Bodyguard, keine Entourage. Der Faultier-Mensch braucht keine B\u00fchne. Er ist einfach da.</p>
+          <p class="vb-intro">Der kanadische Schauspieler Keanu Reeves ist einer der erfolgreichsten Schauspieler der Welt. Er hat mit <em>The Matrix</em> (1999) eine der ikonischsten Filmfiguren des Kinos verk\u00f6rpert, mit <em>John Wick</em> eine der intensivsten Actionrollen der letzten Jahrzehnte gespielt &ndash; und ist im wirklichen Leben der Mann, der allein auf einer Parkbank sitzt und ein Sandwich isst. Kein Bodyguard, keine Entourage. Der Faultier-Mensch braucht keine B\u00fchne. Er ist einfach da.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Neun: Union</h2>
@@ -54626,7 +54626,7 @@ function ronaldReaganPortraitPage() {
         <h2 class="vb-section">1. Der B\xfcffel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>B\xfcffel</strong> ist das Tier des sozialen Typs 9 &ndash; und kein Bild trifft Ronald Reagan genauer. Der B\xfcffel f\xfchrt nicht durch Befehl, sondern durch Bewegung: Wenn er l\xe4uft, l\xe4uft die Herde mit. Er strahlt eine Ruhe aus, die Vertrauen erzeugt. Er ist bodennah, massiv, unerschrocken &ndash; und er braucht keinen Applaus, um zu wissen, wohin er geht.</p>
-          <p class="vb-intro">Reagan, 1911 in Tampico, Illinois geboren, 2004 gestorben, war Schauspieler, Gewerkschaftspr\xe4sident, Gouverneur und schlie\xdflich der 40. Pr\xe4sident der Vereinigten Staaten &ndash; f\xfcr zwei Amtszeiten, von 1981 bis 1989. Er war der \xe4lteste Pr\xe4sident in der Geschichte der USA, als er sein Amt antrat. Er gewann mit einer Leichtigkeit, die seine Gegner r\xe4tseln lie\xdf: keine Anspannung, keine Sch\xe4rfe, kein sichtbarer Ehrgeiz. Nur ein L\xe4cheln, ein paar einfache S\xe4tze &ndash; und das Land folgte ihm.</p>
+          <p class="vb-intro">Der US-amerikanische Pr\u00e4sident Ronald Reagan, 1911 in Tampico, Illinois geboren, 2004 gestorben, war Schauspieler, Gewerkschaftspr\xe4sident, Gouverneur und schlie\xdflich der 40. Pr\xe4sident der Vereinigten Staaten &ndash; f\xfcr zwei Amtszeiten, von 1981 bis 1989. Er war der \xe4lteste Pr\xe4sident in der Geschichte der USA, als er sein Amt antrat. Er gewann mit einer Leichtigkeit, die seine Gegner r\xe4tseln lie\xdf: keine Anspannung, keine Sch\xe4rfe, kein sichtbarer Ehrgeiz. Nur ein L\xe4cheln, ein paar einfache S\xe4tze &ndash; und das Land folgte ihm.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Neun: Amerika als Gef\xfchl</h2>
@@ -54691,7 +54691,7 @@ function wilmaMankillerPortraitPage() {
         <h2 class="vb-section">1. Der B\u00fcffel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>B\u00fcffel</strong> ist das Tier des sozialen Typs 9 &ndash; ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine gr\u00f6\u00dfere Sache definiert. Er senkt den Kopf und geht hindurch durch das, was ihm im Weg steht, ohne sich um Ansehen oder Applaus zu k\u00fcmmern. Er tr\u00e4gt die Herde, auch wenn er selbst geschw\u00e4cht ist.</p>
-          <p class="vb-intro">Wilma Mankiller, 1945 in Tahlequah, Oklahoma geboren, ist dieser B\u00fcffel ungefiltert: sechstes von elf Kindern einer Cherokee-Familie, mit zehn Jahren in eine Umsiedlungspolitik der US-Regierung nach San Francisco verpflanzt, kehrte sie in den 1970er-Jahren zur\u00fcck, um die Cherokee Nation von innen wieder aufzubauen &ndash; und trug sie zehn Jahre lang als erste weibliche Principal Chief ihrer Geschichte.</p>
+          <p class="vb-intro">Die US-amerikanische Cherokee-Politikerin Wilma Mankiller, 1945 in Tahlequah, Oklahoma geboren, ist dieser B\u00fcffel ungefiltert: sechstes von elf Kindern einer Cherokee-Familie, mit zehn Jahren in eine Umsiedlungspolitik der US-Regierung nach San Francisco verpflanzt, kehrte sie in den 1970er-Jahren zur\u00fcck, um die Cherokee Nation von innen wieder aufzubauen &ndash; und trug sie zehn Jahre lang als erste weibliche Principal Chief ihrer Geschichte.</p>
           <p class="vb-intro">Selbst ihr Nachname erz\u00e4hlt diese B\u00fcffel-Geschichte weiter: <em>Mankiller</em> (Cherokee: <em>Asagasta</em>) war urspr\u00fcnglich kein Familienname, sondern ein milit\u00e4rischer Ehrentitel der Cherokee-Gesellschaft &ndash; verliehen an einen Krieger, der ein Dorf verteidigte und besch\u00fctzte, sinngem\u00e4\u00df \u201eBesch\u00fctzer der Menschen\u201c. Als US-Beh\u00f6rden im 18. und 19. Jahrhundert Namenslisten anlegten, wurde dieser Titel w\u00f6rtlich ins Englische \u00fcbersetzt und als Nachname festgeschrieben. Mankiller selbst ging mit dem ungew\u00f6hnlichen Namen selbstbewusst um: \u201eMankiller ist ein alter Cherokee-Titel &ndash; so etwas wie ein milit\u00e4rischer Rang, ein Hauptmann. Aber es ist ein gro\u00dfartiger Name, wenn man im Hotel reservieren m\u00f6chte\u201c, scherzte sie gerne. Ein Name, der buchst\u00e4blich Besch\u00fctzerin bedeutet &ndash; getragen von einer Frau, die genau das f\u00fcr ihre Nation wurde.</p>
         </blockquote>
 
@@ -54883,7 +54883,7 @@ function baerbelBasPortraitPage() {
         <h2 class="vb-section">1. Der Elefant</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des Typs 9 &ndash; und kaum ein Bild trifft B\u00e4rbel Bas besser. Der Elefant ist kein Tier des Spektakels. Er ist kein Tier der Eitelkeit. Er ist ein Tier der Ausdauer, des Ged\u00e4chtnisses und der stillen Pr\u00e4senz, die man nicht \u00fcbersehen kann, auch wenn man es versucht. Der Elefant braucht keinen L\u00e4rm, um zu wirken &ndash; seine blo\u00dfe Anwesenheit ver\u00e4ndert den Raum.</p>
-          <p class="vb-intro">B\u00e4rbel Bas hat genau diese Qualit\u00e4t. Die Bundestagspr\u00e4sidentin aus Duisburg ist keine Politikerin, die mit gro\u00dfen Gesten auff\u00e4llt. Sie ist eine, die durch Verl\u00e4sslichkeit wirkt, durch Fairness, durch das beharrliche Bem\u00fchen um Ordnung in einem Haus, das zunehmend unruhiger geworden ist. Der Elefant h\u00fctet die Herde. B\u00e4rbel Bas h\u00fctet das Parlament.</p>
+          <p class="vb-intro">Die deutsche Politikerin B\u00e4rbel Bas hat genau diese Qualit\u00e4t. Die Bundestagspr\u00e4sidentin aus Duisburg ist keine Politikerin, die mit gro\u00dfen Gesten auff\u00e4llt. Sie ist eine, die durch Verl\u00e4sslichkeit wirkt, durch Fairness, durch das beharrliche Bem\u00fchen um Ordnung in einem Haus, das zunehmend unruhiger geworden ist. Der Elefant h\u00fctet die Herde. B\u00e4rbel Bas h\u00fctet das Parlament.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit</h2>
@@ -54941,7 +54941,7 @@ function ludwigErhardPortraitPage() {
         <h2 class="vb-section">1. Der Elefant</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des Typs 9 &ndash; und kaum ein Bild trifft Ludwig Erhard genauer. Der Elefant ist ein massiges, ruhiges Tier, das keinen L\u00e4rm braucht, um zu wirken. Er bewegt sich langsam, bed\u00e4chtig, mit einer Pr\u00e4senz, die einfach da ist, unabh\u00e4ngig davon, ob jemand hinschaut. Wenn er einmal in Bewegung ist, h\u00e4lt ihn kaum etwas auf.</p>
-          <p class="vb-intro">Ludwig Erhard, 1897 in F\u00fcrth geboren, war dieser Elefant: rundlich, gem\u00fctlich wirkend, mit Zigarre und ruhiger Stimme &ndash; und dennoch der Mann, der Deutschland aus den Tr\u00fcmmern des Zweiten Weltkriegs in eines der stabilsten Wirtschaftssysteme Europas f\u00fchrte. Kein Revolution\u00e4r, kein Redner, der Massen mitriss. Ein Mann, der beharrlich an einer Idee festhielt, bis sie Wirklichkeit wurde.</p>
+          <p class="vb-intro">Der deutsche Politiker Ludwig Erhard, 1897 in F\u00fcrth geboren, war dieser Elefant: rundlich, gem\u00fctlich wirkend, mit Zigarre und ruhiger Stimme &ndash; und dennoch der Mann, der Deutschland aus den Tr\u00fcmmern des Zweiten Weltkriegs in eines der stabilsten Wirtschaftssysteme Europas f\u00fchrte. Kein Revolution\u00e4r, kein Redner, der Massen mitriss. Ein Mann, der beharrlich an einer Idee festhielt, bis sie Wirklichkeit wurde.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit auf Stabilit\u00e4t</h2>
@@ -60267,7 +60267,7 @@ function diegoVelazquezPortraitPage() {
         <h2 class="vb-section">1. Das Faultier</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun – kein Symbol für Trägheit, sondern für eine Existenzweise, die sich der Umgebung so vollständig anverwandelt, dass die Grenze zwischen Betrachter und Betrachtetem verschwimmt. Kaum ein Gemälde der Kunstgeschichte macht dieses Verschwimmen so bewusst wie Diego Velázquez' Meisterwerk "Las Meninas" (1656): Der Maler selbst steht im Bild, vor einer riesigen Leinwand, deren Motiv man nicht sieht – ein Spiegel im Hintergrund zeigt das Königspaar, das offenbar genau dort steht, wo der Betrachter des Gemäldes steht. Wer schaut hier eigentlich wen an?</p>
-          <p class="vb-intro">Velázquez wurde 1599 in Sevilla geboren und trat mit elf Jahren in die Werkstatt des Malers Francisco Pacheco ein, dessen Tochter er später heiratete. Schon in seinen frühen sevillanischen Bodegones – Alltagsszenen mit Küchengeräten und einfachen Menschen – zeigte sich eine Fähigkeit, die ihn während seines ganzen Lebens auszeichnete: sich so vollständig in das Gemalte zu versenken, dass Maler, Motiv und Betrachter kaum noch voneinander zu trennen sind.</p>
+          <p class="vb-intro">Der spanische Maler Diego Velázquez wurde 1599 in Sevilla geboren und trat mit elf Jahren in die Werkstatt des Malers Francisco Pacheco ein, dessen Tochter er später heiratete. Schon in seinen frühen sevillanischen Bodegones – Alltagsszenen mit Küchengeräten und einfachen Menschen – zeigte sich eine Fähigkeit, die ihn während seines ganzen Lebens auszeichnete: sich so vollständig in das Gemalte zu versenken, dass Maler, Motiv und Betrachter kaum noch voneinander zu trennen sind.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Neun: Der Verstärkungstyp der Verschmelzung</h2>
