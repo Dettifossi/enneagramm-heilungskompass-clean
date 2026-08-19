@@ -89372,7 +89372,7 @@ function _psychosomatikBuecherHtml() {
   return `
     <section class="werk" style="margin-top:2.5rem;">
       <div class="section-divider"><span>Fachbücher zur Heilung</span></div>
-      <p class="lead-small werk__lead">Das Verlagshausprogramm zu Homöopathie und Enneagramm-Heilkunde &ndash; die fachliche Grundlage, aus der auch dieses Psychosomatik-Register schöpft.</p>
+      <p class="lead-small werk__lead">Das Verlagshausprogramm zur Homöopathie und zur Enneagramm-Heilkunde &ndash; die fachliche Grundlage, aus der auch dieses Psychosomatik-Register schöpft.</p>
       <div class="werk-grid">${cardsFor("homoeopathie")}</div>
     </section>
     <section class="werk" style="margin-top:2rem;">
