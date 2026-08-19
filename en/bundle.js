@@ -1012,6 +1012,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Moses – Sexual Type 6",
     teaser:"SX6w5 · c. 13th century BCE (biblical tradition). Prophet, lawgiver, leader of the Exodus. From the reluctant shepherd at the burning bush to the fearless confronter of Pharaoh. The wolf who overcomes his own fear first, then walks his pack through the desert.",
     tags:["Religion","History"]},
+{ route:"beruehmte-david-mech", name:"Dr. L. David Mech", added:"2026-08-19", subtyp:"SX6w5",
+    heading:"Dr. L. David Mech – Sexual Type 6",
+    teaser:"SX6w5 · b. 1937. American biologist, the \"father of modern wolf research,\" founder of the International Wolf Center. Over 60 years of wolf research, author of the standard work \"The Wolf.\" The wolf who spent his life studying the pack – and, along the way, his own archetype. Animal correspondence: Wolf.",
+    tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-michael-schumacher", name:"Michael Schumacher", added:"2026-07-21", subtyp:"SX6w7",
     heading:"Michael Schumacher – Sexual Type 6",
     teaser:"SX6w7 \xb7 born 1969 in H\xfcrth. Formula 1 racing driver, seven-time world champion, 91 victories. The wolf who turned fear into speed &mdash; and whose silence since 2013 is louder than anything he has ever said.",
@@ -4792,6 +4796,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-anne-mcbride", name:"Dr. Anne McBride", subtyp:"SE6w5", tier:"Rabbit"},
   {route:"beruehmte-marta-manser", name:"Prof. Dr. Marta Manser", subtyp:"SO6w5", tier:"Meerkat"},
   {route:"beruehmte-tim-clutton-brock", name:"Prof. Tim Clutton-Brock", subtyp:"SO6w5", tier:"Meerkat"},
+  {route:"beruehmte-david-mech", name:"Dr. L. David Mech", subtyp:"SX6w5", tier:"Wolf"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -29092,6 +29097,67 @@ function timCluttonBrockPortraitPage() {
   `);
 }
 
+function davidMechPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-david-mech-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. L. David Mech</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Biologist, "father of modern wolf research," b. 1937 &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The wolf who spent his life studying the wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the Sexual Six &ndash; it meets fear not by retreating but through direct confrontation, seeking the test, the pack, the structure that holds up when it truly matters. Few scientists embody this principle as literally as Dr. L. David Mech: since 1958 &ndash; over sixty years &ndash; he has studied wolves in Minnesota, on Isle Royale, in Alaska, in Yellowstone National Park, and on the Arctic's Ellesmere Island, and is regarded worldwide as the leading authority on the subject.</p>
+          <p class="vb-intro">Born in 1937 in Auburn, New York, Mech turned a single, decades-long research question into a life's work: roughly 380 scientific publications, eleven books, including the still-definitive standard work "The Wolf: The Ecology and Behavior of an Endangered Species" (1970). In 1985 he additionally founded the International Wolf Center to bring his knowledge to a broader public.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: direct confrontation instead of avoidance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Six (SX6)</strong> meets its own fear counterphobically &ndash; not through avoidance, but through direct, often decades-long engagement with exactly what others would fear. Mech spent countless weeks in the Arctic winter on Ellesmere Island observing wild wolf packs at close range &ndash; a research method that demands extraordinary physical toughness and a willingness to expose oneself to extreme cold and isolation over long periods.</p>
+          <p class="vb-intro">Also telling is his intellectual willingness to confront himself: in the 1970s, Mech significantly shaped the popular concept of the "alpha wolf" within a strict dominance hierarchy &ndash; and later publicly corrected this very theory himself, once became world-famous, when newer field observations showed that a wolf pack is usually a family structure of parents and offspring, not a hierarchy of rank battles. Questioning one's own, once-defended certainty the moment new facts demand it is pure Sexual Six.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: decades of meticulous fieldwork</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Six an analytical depth and the willingness to immerse itself in a single field of knowledge over extremely long periods. Roughly 380 scientific publications on a single animal, spread across more than six decades, represent a degree of systematic persistence that goes far beyond a typical academic career.</p>
+          <p class="vb-intro">This combination of Six-style willingness to confront the field directly and Five-style systematism in analysis made Mech the incorruptible, fact-based authority on everything to do with wolf behaviour &ndash; an authority resting not on charisma, but on decades of collected, verifiable observational data.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w5 is its ability to turn <strong>direct, often uncomfortable confrontation with reality into reliable, self-correcting knowledge</strong> &ndash; Mech's research fundamentally changed how science and the public understand wolves, and his International Wolf Center continues to shape conservation and environmental education worldwide.</p>
+          <p class="vb-intro">The shadow of the Sexual Six with a Five-wing shows in how tightly one's own identity can become bound to a single, doggedly pursued subject &ndash; a life devoted almost exclusively to one animal for over sixty years leaves little room for other roles beyond this one, all-consuming research question.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The wolf who sought the truth about the wolf, even against himself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Mech gives the world is not merely knowledge about a single animal, but a model of how science should work: with the willingness to retract even one's own, world-famous theory the moment the facts demand it. That is rare &ndash; and deeply Sexual Six.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly stand more fittingly for the Sexual Six with a Five-wing: a man whose archetypal animal is the wolf, who devoted his entire life to the incorruptible study of that very animal &ndash; and, apparently unconsciously, studied his own deepest pattern along the way.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"lebensmusterkompass/sx6", label:"Life Pattern Compass: SX6 – Wolf"},
+        {route:"beruehmte-moses", label:"Portrait: Moses (SX6w5)"},
+        {route:"beruehmte-wladimir-putin", label:"Portrait: Vladimir Putin (SX6w5)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-david-mech")}
+    </div>
+  `);
+}
+
 function julesVernePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -36201,7 +36267,7 @@ const LEBENSMUSTERKOMPASS = {
   SX6: {
     tier: "Wolf",
     kernthema: "Fear is not avoided but confronted head-on – strength as counter-fear (Naranjo: countertype of the Six)",
-    beispiele: ["Vladimir Putin", "Plato", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson"],
+    beispiele: ["Vladimir Putin", "Plato", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech"],
     fingerabdruecke: [
       {
         titel: "Fear is not avoided, but confronted head-on",
@@ -36211,7 +36277,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Direct eye contact and plain speech instead of retreat or diplomacy",
         beschreibung: "Conflicts are not avoided, but sought out and fought openly – with a directness that surprises or unsettles many, but is rarely dishonest.",
-        beleg: "Katja Riemann: 'The wolf doesn't shy from the threat, but looks it straight in the eye ... Plain speech instead of diplomacy'; Byron Katie: 'Wolves test each other through eye contact and closeness, not through retreat' – her method 'The Work' as a principle of not avoiding one's own fear; Alice Schwarzer: 'She sparked debates no one wanted to have ... The wolf that never stops howling.'"
+        beleg: "Katja Riemann: 'The wolf doesn't shy from the threat, but looks it straight in the eye ... Plain speech instead of diplomacy'; Byron Katie: 'Wolves test each other through eye contact and closeness, not through retreat' – her method 'The Work' as a principle of not avoiding one's own fear; Alice Schwarzer: 'She sparked debates no one wanted to have ... The wolf that never stops howling'; Dr. L. David Mech, who publicly retracted his own, world-famous 'alpha wolf' theory the moment new facts disproved it – plain speech even against his own authority, rather than clinging to a comfortable, outdated certainty."
       },
       {
         titel: "Strength from the pack instead of going it alone",
@@ -57942,6 +58008,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-john-wayne": johnWaynePortraitPage,
       "beruehmte-marta-manser": martaManserPortraitPage,
       "beruehmte-tim-clutton-brock": timCluttonBrockPortraitPage,
+      "beruehmte-david-mech": davidMechPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,

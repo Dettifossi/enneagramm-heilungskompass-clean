@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v1224", date: "2026-08-19", text: "Neues Porträt: Dr. L. David Mech (SX6w5, Wolf) – Biologe, „Vater der modernen Wolfsforschung“, seit über 60 Jahren im Feld.", text_en: "New portrait: Dr. L. David Mech (SX6w5, Wolf) – biologist, \"father of modern wolf research,\" over 60 years in the field.", route: "beruehmte-david-mech" },
     { version: "v1223", date: "2026-08-19", text: "Neues Porträt: Prof. Tim Clutton-Brock (SO6w5, Erdmännchen) – Evolutionsbiologe, Gründer des Kalahari Meerkat Project.", text_en: "New portrait: Prof. Tim Clutton-Brock (SO6w5, Meerkat) – evolutionary biologist, founder of the Kalahari Meerkat Project.", route: "beruehmte-tim-clutton-brock" },
     { version: "v1222", date: "2026-08-19", text: "Neues Porträt: Prof. Dr. Marta Manser (SO6w5, Erdmännchen) – Verhaltensbiologin, entschlüsselte das Warnrufsystem der Erdmännchen.", text_en: "New portrait: Prof. Dr. Marta Manser (SO6w5, Meerkat) – behavioural biologist who decoded meerkats' alarm-call system.", route: "beruehmte-marta-manser" },
     { version: "v1221", date: "2026-08-19", text: "Neues Porträt: John Wayne (SX8w7, Krokodil) – Schauspieler, Westernikone „The Duke“, über 170 Filme.", text_en: "New portrait: John Wayne (SX8w7, Crocodile) – actor, Western icon \"The Duke,\" over 170 films.", route: "beruehmte-john-wayne" },
