@@ -32313,6 +32313,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Prof. Dr. Frans de Waal \u2013 Sexueller Typ 7",
     teaser:"SX7w6 \u00b7 1948\u20132024. Niederl\u00e4ndisch-amerikanischer Primatologe, \u201eBr\u00fcckenbauer zwischen Mensch und Schimpanse\u201c. Bahnbrechende Studien \u00fcber Machtallianzen, Vers\u00f6hnung und Empathie bei Schimpansen und Bonobos, Bestseller \u201eChimpanzee Politics\u201c. Tierentsprechung: Schimpanse.",
     tags:["Wissenschaft"], gender:"m"},
+  { route:"beruehmte-jill-pruetz", name:"Dr. Jill Pruetz", added:"2026-08-19", subtyp:"SX7w6",
+    heading:"Dr. Jill Pruetz \u2013 Sexueller Typ 7",
+    teaser:"SX7w6 \u00b7 geb. 1965. US-amerikanische Anthropologin und Primatologin, entdeckte die \u201eSavannen-Schimpansen\u201c von Fongoli im Senegal \u2013 die einzigen Menschenaffen, die systematisch mit selbst gefertigten Speeren jagen. Tierentsprechung: Schimpanse.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-ina-mueller", name:"Ina M\u00fcller", subtyp:"SX7w8",
     heading:"Ina M\u00fcller \u2013 Sexueller Typ 7",
     teaser:"SX7w8 \u00b7 geb. 1965. S\u00e4ngerin, Musikkabarettistin, Fernsehmoderatorin (Inas Nacht). Der Schimpanse mit Achterfl\u00fcgel: lebenslustig, direkt, unerschrocken \u2013 und immer nah am Menschen. Tierentsprechung: Schimpanse.",
@@ -35298,6 +35302,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-dietland-mueller-schwarze", name:"Prof. Dr. Dietland Müller-Schwarze", subtyp:"SO7w6", tier:"Biber"},
   {route:"beruehmte-frans-de-waal", name:"Prof. Dr. Frans de Waal", subtyp:"SX7w6", tier:"Schimpanse"},
   {route:"beruehmte-christophe-boesch", name:"Prof. Dr. Christophe Boesch", subtyp:"SX7w8", tier:"Schimpanse"},
+  {route:"beruehmte-jill-pruetz", name:"Dr. Jill Pruetz", subtyp:"SX7w6", tier:"Schimpanse"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42716,12 +42721,12 @@ const LEBENSMUSTERKOMPASS = {
   SX7: {
     tier: "Schimpanse",
     kernthema: "Vollständige Verschmelzung mit einer Idee, Person oder einem Moment (Naranjo: Suggestibilität)",
-    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs", "Prof. Dr. Frans de Waal", "Prof. Dr. Christophe Boesch"],
+    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs", "Prof. Dr. Frans de Waal", "Prof. Dr. Christophe Boesch", "Dr. Jill Pruetz"],
     fingerabdruecke: [
       {
         titel: "Vollständige Verschmelzung mit einer Idee, Person oder einem Moment",
         beschreibung: "Naranjo nannte diesen Subtyp den der ›Suggestibilität‹: Statt Begeisterung zu streuen, bündelt sich die gesamte Intensität auf einen einzigen Punkt – eine Überzeugung, einen Menschen, eine Sache –, mit einer Kraft, die keine halben Bindungen kennt.",
-        beleg: "Gudrun Ensslin: ›Sie verschmilzt vollständig mit einer Idee, einem Menschen, einer Vision – und wird von dieser Verschmelzung buchstäblich fortgerissen … Wenn die neue Überzeugung da ist, wird das alte Leben vollständig abgeworfen‹; Victor Lustig: ›Eine Fähigkeit, sich vollständig in eine Idee, eine Person, einen Moment hineinzuversetzen – und dabei so überzeugend zu wirken, dass die eigene Begeisterung ansteckend wird‹; Clyde Barrow, dessen ›gesamtes Leben von ständiger Bewegung, immer neuen Fluchtwegen‹ geprägt war; Prof. Dr. Frans de Waal, der den direkten, persönlichen intellektuellen Austausch mit Einzelnen suchte statt sich in institutionellen Netzwerken zu verlieren, und dessen Spätwerk sich fast ausschließlich der einen Frage nach Empathie und Bindung widmete; Prof. Dr. Christophe Boesch, der fünf Jahre mit seiner jungen Familie im unerschlossenen Regenwald lebte, um eine einzige wilde Schimpansengruppe zu erforschen – keine halben Sachen, sondern volle, riskante Hingabe."
+        beleg: "Gudrun Ensslin: ›Sie verschmilzt vollständig mit einer Idee, einem Menschen, einer Vision – und wird von dieser Verschmelzung buchstäblich fortgerissen … Wenn die neue Überzeugung da ist, wird das alte Leben vollständig abgeworfen‹; Victor Lustig: ›Eine Fähigkeit, sich vollständig in eine Idee, eine Person, einen Moment hineinzuversetzen – und dabei so überzeugend zu wirken, dass die eigene Begeisterung ansteckend wird‹; Clyde Barrow, dessen ›gesamtes Leben von ständiger Bewegung, immer neuen Fluchtwegen‹ geprägt war; Prof. Dr. Frans de Waal, der den direkten, persönlichen intellektuellen Austausch mit Einzelnen suchte statt sich in institutionellen Netzwerken zu verlieren, und dessen Spätwerk sich fast ausschließlich der einen Frage nach Empathie und Bindung widmete; Prof. Dr. Christophe Boesch, der fünf Jahre mit seiner jungen Familie im unerschlossenen Regenwald lebte, um eine einzige wilde Schimpansengruppe zu erforschen – keine halben Sachen, sondern volle, riskante Hingabe; Dr. Jill Pruetz, die bewusst eines der unwirtlichsten Terrains der Primatenforschung wählte und jeden einzelnen Schimpansen ihrer Gruppe beim Namen kennt – eine tief individuelle, hoch persönliche Verbindung statt distanzierter Beobachtung."
       },
       {
         titel: "Ansteckende Intensität, die eine ganze Gruppe oder einen ganzen Raum mitreißt",
@@ -48841,8 +48846,8 @@ function fransDeWaalPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
         {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-jill-pruetz", label:"Porträt: Dr. Jill Pruetz (SX7w6)"},
         {route:"beruehmte-christophe-boesch", label:"Porträt: Prof. Dr. Christophe Boesch (SX7w8)"},
-        {route:"beruehmte-leonard-bernstein", label:"Porträt: Leonard Bernstein (SX7w6)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-frans-de-waal")}
     </div>
@@ -48903,9 +48908,70 @@ function christopheBoeschPortraitPage() {
         {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
         {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
         {route:"beruehmte-frans-de-waal", label:"Porträt: Prof. Dr. Frans de Waal (SX7w6)"},
-        {route:"beruehmte-shakira", label:"Porträt: Shakira (SX7w8)"},
+        {route:"beruehmte-jill-pruetz", label:"Porträt: Dr. Jill Pruetz (SX7w6)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-christophe-boesch")}
+    </div>
+  `);
+}
+
+function jillPruetzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jill-pruetz-portrait.jpg" alt="Schimpanse" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Jill Pruetz</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Anthropologin, Entdeckerin der "Savannen-Schimpansen", geb. 1965 &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse, der die Waffen des Schimpansen entdeckte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben &ndash; klug, verspielt, stets auf der Suche nach der einen entscheidenden, intensiven Entdeckung. Kaum eine Forscherin verkörpert dieses Prinzip so eindrücklich wie Dr. Jill Pruetz: Die amerikanische Anthropologin leitet seit 2001 das Fongoli Savanna Chimpanzee Project im Senegal &ndash; und entdeckte dort etwas, das die Primatenforschung veränderte.</p>
+          <p class="vb-intro">Die Schimpansen von Fongoli leben in einem außergewöhnlich heißen, trockenen Savannenlebensraum, hausen zur Abkühlung in Höhlen &ndash; und Pruetz wies als Erste nach, dass sie gezielt Speere aus Ästen fertigen, um damit Buschbabys aus Baumhöhlen zu jagen. Es war die erste systematisch dokumentierte Werkzeugjagd bei nichtmenschlichen Primaten weltweit, eine echte Weltsensation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Das Unwirtlichste aufsuchen, um das Unerwartetste zu finden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht die volle Intensität, nicht die sichere Distanz &ndash; sie geht dorthin, wo es unbequem, unerforscht und riskant ist, weil genau dort die tiefste Erkenntnis wartet. Pruetz wählte bewusst kein geschütztes Reservat, sondern eines der unwirtlichsten Terrains überhaupt: glühend heiße, offene Savanne statt kühlem, dichtem Regenwald &ndash; ein Lebensraum, in dem vor ihr kaum jemand Schimpansen systematisch erforscht hatte.</p>
+          <p class="vb-intro">Sie kennt jeden einzelnen Schimpansen ihrer Gruppe beim Namen und über Jahre gewachsene Persönlichkeit &ndash; eine tiefe, hoch individuelle Bindung an ihre Forschungssubjekte, kein distanziertes Beobachten aus der Ferne. Genau diese Kombination aus Grenzgang und intensiver persönlicher Verbindung ist der Kern der sexuellen Sieben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Folgen statt Führen, Bindung statt Alleingang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben ein feines Gespür für Sicherheit durch Vertrauen und Kooperation &ndash; im Unterschied zum konfrontativen Achterflügel, den etwa Christophe Boesch (SX7w8) verkörperte. Auf die Frage, wie man in gefährlichen Situationen wie einem Buschfeuer reagieren solle, antwortet Pruetz bezeichnenderweise nicht mit einer Strategie der eigenen Führung, sondern der Nachahmung: "You need to follow the chimps! ... follow the chimps and do what they do." Vorsichtiger Respekt vor fremder Expertise statt forschem Alleingang.</p>
+          <p class="vb-intro">Auch ihre Betonung der Zusammenarbeit mit lokalen Guides und senegalesischen Forschenden &ndash; "without those local people and their cultural traditions here, we probably wouldn't have these chimps" &ndash; zeigt diese Sechser-Note: Sicherheit und Erfolg entstehen durch verlässliche Partnerschaften, nicht durch einsame Konfrontation. 2008 gründete sie zusätzlich die Organisation Neighbor Ape, um das Wohl der Menschen einzubeziehen, die sich den Lebensraum mit den Schimpansen teilen &ndash; Fürsorge für die gesamte Gemeinschaft, nicht nur für das Forschungsobjekt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX7w6 ist die Fähigkeit, <strong>intensive Entdeckerenergie mit verlässlicher Kooperation zu verbinden</strong> &ndash; Pruetz' Speer-Entdeckung veränderte grundlegend, wie die Wissenschaft Werkzeuggebrauch und Jagdverhalten bei Menschenaffen versteht, und ihr Engagement für die Menschen vor Ort macht ihre Forschung zu einem Modell für nachhaltigen Naturschutz.</p>
+          <p class="vb-intro">Der Schatten der sexuellen Sieben mit Sechserflügel zeigt sich darin, wie sehr die eigene Sicherheit an externe Vertrauenspersonen und -strukturen gebunden bleibt &ndash; jahrelange Feldarbeit in einer der gefährlichsten Umgebungen der Primatenforschung, getragen von einem Netz aus Vertrauen, das ebenso stark wie verletzlich sein kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Schimpanse, der den Werkzeuggebrauch des Schimpansen enthüllte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Pruetz der Welt gibt, ist der Beweis, dass Werkzeuggebrauch und zielgerichtete Jagd keine rein menschlichen Fähigkeiten sind &ndash; eine Entdeckung, die sie in eine Reihe mit Frans de Waal und Christophe Boesch stellt, den beiden anderen großen sexuellen Siebenern der Schimpansenforschung, jeder auf seine eigene, unverwechselbare Art.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das kaum treffender für die sexuelle Sieben mit Sechserflügel sein könnte: eine Frau, deren archetypisches Tier der Schimpanse ist, die sich ins unwirtlichste Terrain vorwagte, um das Überraschendste im Verhalten dieses Tieres zu finden &ndash; getragen von Vertrauen, nicht von Konfrontation, und dabei, offenbar unbewusst, ihr eigenes tiefstes archetypisches Muster erforschend.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-frans-de-waal", label:"Porträt: Prof. Dr. Frans de Waal (SX7w6)"},
+        {route:"beruehmte-christophe-boesch", label:"Porträt: Prof. Dr. Christophe Boesch (SX7w8)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-jill-pruetz")}
     </div>
   `);
 }
@@ -92821,6 +92887,7 @@ function render() {
       "beruehmte-dietland-mueller-schwarze": dietlandMuellerSchwarzePortraitPage,
       "beruehmte-frans-de-waal": fransDeWaalPortraitPage,
       "beruehmte-christophe-boesch": christopheBoeschPortraitPage,
+      "beruehmte-jill-pruetz": jillPruetzPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
