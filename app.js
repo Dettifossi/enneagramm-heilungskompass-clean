@@ -48805,7 +48805,7 @@ function fransDeWaalPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Sieben: Die eine intensive Verbindung statt der breiten Bühne</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht ihre Erfüllung nicht in institutioneller Gruppenzugehörigkeit, sondern in intensiven, bedeutungsvollen Einzelverbindungen &ndash; eine idealisierende, oft geradezu verliebte Hingabe an eine Person, eine Idee oder ein Wesen. De Waals wissenschaftliches Vermächtnis kreist genau um dieses Thema: Versöhnung, Empathie und Bindung standen im Zentrum seiner späteren Bonobo-Forschung, festgehalten in Büchern wie "The Age of Empathy" und "The Bonobo and the Atheist".</p>
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht ihre Erfüllung nicht in institutioneller Gruppenzugehörigkeit, sondern in intensiven, bedeutungsvollen Einzelverbindungen &ndash; eine idealisierende, oft geradezu verliebte Hingabe an eine Person, eine Idee oder ein Wesen. De Waals wissenschaftliches Vermächtnis kreist genau um dieses Thema: Versöhnung, Empathie und Bindung standen im Zentrum seiner späteren Bonobo-Forschung, festgehalten in Büchern wie "The Age of Empathy" (deutsch: "Das Zeitalter der Empathie") und "The Bonobo and the Atheist" (deutsch etwa: "Der Bonobo und der Atheist").</p>
           <p class="vb-intro">Wegbegleiter beschreiben ihn als jemanden, der den direkten, persönlichen intellektuellen Austausch suchte &ndash; Einzelgespräche, individuelle Antworten auf die Arbeit einzelner Kolleginnen und Kollegen, statt sich in institutionellen Netzwerken zu verlieren. Genau diese Vorliebe für die eine bedeutsame Verbindung, nicht für die breite Bühne, ist der Kern der sexuellen Sieben.</p>
         </blockquote>
 
@@ -48824,7 +48824,7 @@ function fransDeWaalPortraitPage() {
         <h2 class="vb-section">5. Der Schimpanse, der zeigte, wie viel Mensch im Tier steckt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was de Waal der Welt gab, ist ein grundlegend verändertes Verständnis davon, was Tiere fühlen, planen und wissen können &ndash; ein Vermächtnis, das weit über die Fachwelt hinaus in die öffentliche Debatte über Tierbewusstsein und Empathie hineinwirkte.</p>
-          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: ein Mann, dessen archetypisches Tier der Schimpanse ist, der sein gesamtes Leben genau diesem klugen, verspielten, bindungsfähigen Tier widmete &ndash; und dabei, offenbar unbewusst, sein eigenes tiefstes Muster erforschte.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: ein Mann, dessen archetypisches Tier der Schimpanse ist, der sein gesamtes Leben genau diesem klugen, verspielten, bindungsfähigen Tier widmete &ndash; und dabei, offenbar unbewusst, sein eigenes, tiefstes archetypisches Muster erforschte.</p>
         </blockquote>
 
       </div>
