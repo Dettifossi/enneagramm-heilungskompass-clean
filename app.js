@@ -31910,6 +31910,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Mariella Superina \u2013 Sozialer Typ 4",
     teaser:"SO4w5 \u00b7 Schweizer Tier\u00e4rztin und Wissenschaftlerin, seit \u00fcber 20 Jahren die weltweit f\u00fchrende G\u00fcrteltierforscherin, Vorsitzende der IUCN-Spezialistengruppe f\u00fcr G\u00fcrteltiere. Weltweit anerkannte Autorit\u00e4t f\u00fcr ausgerechnet das eigene archetypische Tier. Tierentsprechung: G\u00fcrteltier.",
     land:"Schweiz", tags:["Wissenschaft"], gender:"f"},
+  { route:"beruehmte-lauren-gardner", name:"Prof. Lauren Gardner", added:"2026-08-19", subtyp:"SO4w5",
+    heading:"Prof. Lauren Gardner – Sozialer Typ 4",
+    teaser:"SO4w5 · US-amerikanische Ingenieurin und Epidemiologin, Johns Hopkins University. Schöpferin des weltweit meistgenutzten COVID-19-Dashboards, TIME-100-Mitglied 2020. Verantwortung statt Sichtbarkeit als Antrieb. Tierentsprechung: Gürteltier.",
+    land:"USA", tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-voltaire", name:"Voltaire", added:"2026-08-14", subtyp:"SX4w3",
     heading:"Voltaire – Sexueller Typ 4",
     teaser:"SX4w3 · 1694–1778. Französischer Schriftsteller und Philosoph der Aufklärung. Bastille-Haft, Fall Calas, ›Candide‹, Fehde mit Rousseau. Der Chihuahua mit Dreierflügel: gekränkter Stolz als Antrieb für lebenslangen Kampf gegen Ungerechtigkeit. Tierentsprechung: Chihuahua.",
@@ -43014,7 +43018,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Bedeutung durch bewusste Abgrenzung von einer Gemeinschaft, der man dennoch zugewandt bleibt",
         beschreibung: "Die eigene Bedeutung entsteht nicht durch Anpassung, sondern durch den bewussten Kontrast zur Gemeinschaft – man wendet sich ab, ohne sie je ganz zu verlassen, weil sie der Resonanzraum bleibt, an dem sich das eigene Denken oder Fühlen schärft.",
-        beleg: "Heraklit, der sich vom öffentlichen Leben abwandte, ›das er für oberflächlich hielt‹, aber ›Ephesos zugewandt‹ blieb; Hippokrates, der sich von der religiösen Heilkunst seiner Familie abgrenzte: ›Das Gürteltier bleibt Teil der Gemeinschaft der Heiler – aber es widerspricht ihr in ihrem Kern‹; Fiona Apple, deren jahrelange Rückzüge aus dem Rampenlicht sie ›trotzdem, oder gerade deshalb, zu den schonungslosesten Beobachterinnen‹ machten; Edgar Allan Poe und Marcel Proust, die sich körperlich zurückzogen, um über das Beobachtete zu schreiben; Dr. Mariella Superina, die sich innerhalb der Naturschutzgemeinschaft bewusst auf eine einzige, kaum beachtete Nische spezialisierte – Gürteltiere statt der prominenteren Großtiere – und gerade darin zur unersetzbaren, weltweit anerkannten Stimme wurde."
+        beleg: "Heraklit, der sich vom öffentlichen Leben abwandte, ›das er für oberflächlich hielt‹, aber ›Ephesos zugewandt‹ blieb; Hippokrates, der sich von der religiösen Heilkunst seiner Familie abgrenzte: ›Das Gürteltier bleibt Teil der Gemeinschaft der Heiler – aber es widerspricht ihr in ihrem Kern‹; Fiona Apple, deren jahrelange Rückzüge aus dem Rampenlicht sie ›trotzdem, oder gerade deshalb, zu den schonungslosesten Beobachterinnen‹ machten; Edgar Allan Poe und Marcel Proust, die sich körperlich zurückzogen, um über das Beobachtete zu schreiben; Dr. Mariella Superina, die sich innerhalb der Naturschutzgemeinschaft bewusst auf eine einzige, kaum beachtete Nische spezialisierte – Gürteltiere statt der prominenteren Großtiere – und gerade darin zur unersetzbaren, weltweit anerkannten Stimme wurde; Prof. Lauren Gardner, deren Verkehrsingenieurwesen-Hintergrund innerhalb der Epidemiologie-Gemeinschaft zunächst eine Außenseiterposition war – ›welche Rolle fehlt noch, die nur ich mit meinem Fachwissen ausfüllen kann?‹ –, bevor ihr Dashboard zur zentralen Referenz der ganzen Fachwelt wurde."
       },
       {
         titel: "Wenn die Sehnsucht nach Zugehörigkeit auf ganzer Linie scheitert (Schattenform)",
@@ -48205,6 +48209,65 @@ function mariellaSuperinaPortraitPage() {
         {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-mariella-superina")}
+    </div>
+  `);
+}
+
+function laurenGardnerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-lauren-gardner-portrait.jpg" alt="Prof. Lauren Gardner – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Lauren Gardner</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Ingenieurin und Epidemiologin, Johns Hopkins University &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier, das die Welt durch die Pandemie navigierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier &ndash; es sucht seine Zugehörigkeit nicht durch Anpassung an die Masse, sondern durch eine ganz eigene, unverwechselbare Rolle innerhalb einer Gemeinschaft, die es erst dadurch wirklich sichtbar macht. Die US-amerikanische Bauingenieurin und Epidemiologin Prof. Lauren Gardner promovierte an der University of Texas in Austin im Verkehrsingenieurwesen, lehrte zunächst an der University of New South Wales in Sydney und kam 2019 als Associate Professor für Civil and Systems Engineering an die Johns Hopkins University, mit einer Zweitanstellung an der dortigen Bloomberg School of Public Health.</p>
+          <p class="vb-intro">Am 22. Januar 2020 veröffentlichte sie gemeinsam mit ihrem Doktoranden Ensheng Dong ein interaktives Online-Dashboard, das die Ausbreitung eines damals noch weitgehend unbekannten Virus in Echtzeit sichtbar machte &ndash; entwickelt für die eigene kleine Forschungsgemeinschaft, in einer einzigen Nacht zusammengebaut. Innerhalb weniger Wochen wurde es zur meistgenutzten, meistzitierten Datenquelle der gesamten Pandemie: über 200 Milliarden Abfragen, zeitweise 4,5 Milliarden Zugriffe an einem einzigen Tag.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Bedeutung durch eine unverwechselbare Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> sucht ihren Wert nicht im Rückzug, sondern in einer besonderen, unersetzbaren Stellung innerhalb einer Gemeinschaft &ndash; sie will nicht irgendein Mitglied sein, sondern dasjenige, ohne das etwas Wesentliches fehlen würde. Gardner füllte genau diese Lücke: Als weltweit maßgebliche Institutionen noch keine verlässlichen, öffentlich zugänglichen Echtzeitdaten lieferten, wurde ihr Dashboard zur zentralen Referenz für Regierungen, Gesundheitsbehörden, Medien und Millionen Privatpersonen gleichzeitig &ndash; eine Rolle, die vorher schlicht nicht existierte.</p>
+          <p class="vb-intro">2020 wählte das TIME Magazine sie unter die 100 einflussreichsten Menschen der Welt, mit der Begründung, sie habe Daten &bdquo;demokratisiert&ldquo; und ein &bdquo;Vakuum an Public-Health-Führung&ldquo; gefüllt. Bezeichnend dabei: Gardner betonte in Interviews wiederholt, die Arbeit sei nie ein Ich-Projekt gewesen, sondern das Ergebnis eines ganzen Teams &ndash; unter anderem am Applied Physics Laboratory, mit Studierenden ihres Center for Systems Science and Engineering und Partnern bei Esri. Genau darin zeigt sich die soziale Vier: Die eigene Einzigartigkeit entsteht nicht gegen die Gemeinschaft, sondern durch die besondere Rolle innerhalb von ihr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Verantwortung statt Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier eine analytische Nüchternheit und ein tiefes Pflichtgefühl gegenüber dem eigenen Fachwissen &ndash; die Aufmerksamkeit wird nicht gesucht, sondern als notwendige Folge der eigenen Verantwortung akzeptiert. &bdquo;Ich habe das Gefühl, es ist meine Verantwortung, das zu teilen, was ich weiß&ldquo;, sagte Gardner über ihre Entscheidung, die Daten trotz wachsender öffentlicher Last weiterzuführen. Ihre Sorge galt dabei weniger der eigenen Sichtbarkeit als der Qualität der Vermittlung: &bdquo;Menschen sind schrecklich in Statistik&ldquo;, betonte sie, &bdquo;rohe Zahlen zu präsentieren ist wirklich schwierig.&ldquo;</p>
+          <p class="vb-intro">Als das Dashboard binnen weniger Tage zum meistbeachteten Werkzeug der Pandemie wurde, beschrieb Gardner selbst eher Verunsicherung als Stolz: Ende März 2020 stellte sie öffentlich infrage, ob die Veröffentlichung überhaupt die richtige Entscheidung gewesen sei, während das Projekt &bdquo;150 Prozent&ldquo; der Zeit ihres Teams beanspruchte. Diese Fünfer-Distanz zur eigenen plötzlichen Berühmtheit &ndash; lieber die Sache selbst prüfen als sich an der Aufmerksamkeit zu freuen &ndash; ist die reinste Ausprägung der SO4w5: Die Vier trägt die einzigartige Verantwortung, der Fünferflügel hält dabei kühlen, analytischen Kopf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 ist die Fähigkeit, <strong>die eigene Einzigartigkeit in eine unersetzbare gesellschaftliche Rolle</strong> zu verwandeln &ndash; Gardners akademische Nischenkompetenz in Verkehrsmodellierung und Krankheitsausbreitung wurde, im entscheidenden Moment, zur Infrastruktur, auf die sich buchstäblich die ganze Welt verließ. 2022 erhielt sie dafür den Lasker~Bloomberg Public Service Award, den bedeutendsten US-amerikanischen Medizinpreis, den sie als &bdquo;zutiefst geehrt und bescheiden gemacht&ldquo; für eine Leistung annahm, die &bdquo;die harte Arbeit und Hingabe vieler anderer&ldquo; erfordert habe.</p>
+          <p class="vb-intro">Der Schatten der sozialen Vier mit Fünferflügel zeigt sich darin, wie unvorbereitet eine zurückhaltende, auf Fachtiefe ausgelegte Forscherin auf beispiellose globale Aufmerksamkeit trifft: Aus einem Werkzeug für die eigene kleine Forschungsgemeinschaft wurde über Nacht ein Referenzpunkt für Milliarden Menschen &ndash; eine Last, die Gardner selbst zeitweise an der eigenen Entscheidung zweifeln ließ, obwohl das Dashboard sich längst als unverzichtbar erwiesen hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Gürteltier, das zur Referenz einer ganzen Pandemie wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Gardner der Welt gab, war nicht nur ein technisches Werkzeug, sondern eine Rolle, die zuvor niemand ausfüllte: die einer verlässlichen, unabhängigen Stimme inmitten widersprüchlicher Informationen. Die soziale Vier mit Fünferflügel fragt nicht: Wie falle ich auf? Sondern: Welche Rolle fehlt noch, die nur ich mit meinem Fachwissen ausfüllen kann?</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das kaum treffender für dieses Muster stehen könnte: eine Ingenieurin, die aus einer Nacht akribischer Datenarbeit heraus zur meistgenutzten Informationsquelle einer globalen Krise wurde &ndash; nicht durch das Streben nach Sichtbarkeit, sondern durch eine Verantwortung, die niemand sonst so genau übernehmen konnte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so4", label:"Lebensmusterkompass: SO4 – Gürteltier"},
+        {route:"beruehmte-mariella-superina", label:"Porträt: Dr. Mariella Superina (SO4w5)"},
+      ])}
     </div>
   `);
 }
@@ -93410,6 +93473,7 @@ function render() {
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
+      "beruehmte-lauren-gardner": laurenGardnerPortraitPage,
       "beruehmte-carl-friedrich-gauss": carlFriedrichGaussPortraitPage,
       "beruehmte-paris-hilton": parisHiltonPortraitPage,
       "beruehmte-ingo-zimmermann": ingoZimmermannPortraitPage,
