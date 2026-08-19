@@ -32602,6 +32602,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mario Barth \u2013 Sexueller Typ 9",
     teaser:"SX9w8 \u00b7 geb. 1972. Comedian, Rekordhalter f\u00fcr die gr\u00f6\u00dfte Comedy-Show der Welt (Olympiastadion Berlin). Das Faultier, das sich mit dem Lachen der Masse verschmilzt \u2013 und mit Wucht zubei\u00dft, wenn Kritik kommt.",
     tags:["Comedy"], gender:"m"},
+  { route:"beruehmte-lucy-cooke", name:"Lucy Cooke", added:"2026-08-19", subtyp:"SX9w8",
+    heading:"Lucy Cooke \u2013 Sexueller Typ 9",
+    teaser:"SX9w8 \u00b7 britische Zoologin, Bestseller-Autorin (\u201eThe Truth About Animals\u201c), Gr\u00fcnderin der Sloth Appreciation Society. Verschmolz ihr Leben mit dem Faultier \u2013 und macht dessen tr\u00e4gen Ruf mit spr\u00fchender, humorvoller Verve zunichte.",
+    tags:["Wissenschaft"], gender:"f"},
 ];
 
 const ASTROLOGIE_PORTRAITS = [
@@ -35322,6 +35326,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-cynthia-moss", name:"Dr. Cynthia Moss", subtyp:"SE9w1", tier:"Elefant"},
   {route:"beruehmte-alan-mcelligott", name:"Dr. Alan McElligott", subtyp:"SO9w1", tier:"Büffel"},
   {route:"beruehmte-ana-salceda", name:"Ana Salceda", subtyp:"SX9w1", tier:"Faultier"},
+  {route:"beruehmte-lucy-cooke", name:"Lucy Cooke", subtyp:"SX9w8", tier:"Faultier"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -43265,7 +43270,7 @@ const LEBENSMUSTERKOMPASS = {
   SX9: {
     tier: "Faultier",
     kernthema: "Verschmelzung mit einem einzelnen Wesen, Werk oder Stil statt Zugehörigkeit zu einer Gruppe",
-    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi"],
+    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke"],
     fingerabdruecke: [
       {
         titel: "Die eine Bindung statt der vielen Kontakte",
@@ -43275,7 +43280,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Scheinbare Trägheit, die sich bei Bedarf in volle, präzise Intensität verwandelt",
         beschreibung: "Von außen wirkt die Grundhaltung zurückhaltend, mühelos, fast unbeteiligt. Doch sobald der richtige Moment oder eine Grenzüberschreitung eintritt, zeigt sich eine überraschend vollständige, hochpräzise Reaktion – kein abgestuftes Engagement, sondern ein Umschlagen von Null auf Hundert.",
-        beleg: "›Das Faultier hängt still, bis es sich bewegt. Wenn es sich bewegt, gibt es alles‹ (Makatsch); Dakota Johnsons ›Krallen, die man erst sieht, wenn man zu nahe kommt‹; Iga Świątek, die ›mühelos‹ wirkt, aber ›wenn sie zuschnappt, mit einer Präzision, die verblüfft‹; Keanu Reeves' Faultiere sind ›nicht faul – sie sind äußerst energiesparend, sie machen genau das, was nötig ist, mit einem Minimum an Aufwand und einem Maximum an Wirkung‹, sichtbar im Kontrast zwischen der ruhigen Privatperson und der körperlich vollständig ausgereizten John-Wick-Rolle."
+        beleg: "›Das Faultier hängt still, bis es sich bewegt. Wenn es sich bewegt, gibt es alles‹ (Makatsch); Dakota Johnsons ›Krallen, die man erst sieht, wenn man zu nahe kommt‹; Iga Świątek, die ›mühelos‹ wirkt, aber ›wenn sie zuschnappt, mit einer Präzision, die verblüfft‹; Keanu Reeves' Faultiere sind ›nicht faul – sie sind äußerst energiesparend, sie machen genau das, was nötig ist, mit einem Minimum an Aufwand und einem Maximum an Wirkung‹, sichtbar im Kontrast zwischen der ruhigen Privatperson und der körperlich vollständig ausgereizten John-Wick-Rolle; Lucy Cooke, deren humorvolle, forsche Lebendigkeit den trägen Ruf ihres Tieres mit sprühender intellektueller Begeisterung kontrastiert – ein Faultier, das keineswegs träge wirkt, sobald es das Wort ergreift."
       },
       {
         titel: "Langsame, unforcierte Ausdehnung über Jahrzehnte statt geplanter Karriereplanung",
@@ -54213,8 +54218,74 @@ function marioBarthPortraitPage() {
           {route:"subtype/sx9", label:"SX9 \u2013 Das Faultier: Subtyp-Profil"},
           {route:"beruehmte-heike-makatsch", label:"Portr\u00e4t: Heike Makatsch (SX9w8)"},
           {route:"beruehmte-dakota-johnson", label:"Portr\u00e4t: Dakota Johnson (SX9w8)"},
+          {route:"beruehmte-lucy-cooke", label:"Portr\u00e4t: Lucy Cooke (SX9w8)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function lucyCookePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-lucy-cooke-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lucy Cooke</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Britische Zoologin, Bestseller-Autorin &ndash; Gründerin der Sloth Appreciation Society &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier, das zur Botschafterin des Faultiers wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun &ndash; kein träges, sondern ein Tier, das sich seiner Umgebung so vollständig verschmilzt, dass die Grenze zwischen ihm und seinem Lebensraum verschwimmt. Lucy Cooke ist genau diese Verschmelzung: Die britische Zoologin gilt heute als eine der weltweit bekanntesten Faultier-Botschafterinnen &ndash; Gründerin der Sloth Appreciation Society, Bestseller-Autorin, preisgekrönte TV-Produzentin, deren gesamtes öffentliches Wirken untrennbar mit diesem einen Tier verbunden ist.</p>
+          <p class="vb-intro">Ihr Werdegang ist zoologisch fundiert: Master in Zoologie am New College, Oxford, unter dem Evolutionsbiologen Richard Dawkins. Und doch verschrieb sie sich nicht der wissenschaftlichen Distanz, sondern einer fast liebevollen Hingabe an ein einziges, lange unterschätztes Tier &ndash; und wurde selbst zu einem Teil dessen, was sie erforscht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit dem Missverstandenen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht die Verschmelzung in ihrer intensivsten Form &ndash; mit einem einzigen Wesen, einem Ideal, oder, wie bei Cooke, mit einem einzigen, oft missverstandenen Tier. Sie gründete die Sloth Appreciation Society, schrieb gleich mehrere Bücher ausschließlich über Faultiere (<em>A Little Book of Sloth</em>, <em>The Power of Sloth</em>, <em>Life in the Sloth Lane</em>) und produzierte virale Faultier-Videos samt eigenem Kalender. Kein Nebenprojekt unter vielen &ndash; das Faultier ist der rote Faden ihres gesamten Lebenswerks.</p>
+          <p class="vb-intro">›Ich bin von seltsamen, wunderbaren Tieren angezogen, die oft ungeliebt oder missverstanden sind. Ich liebe einen Underdog‹, sagt Cooke über sich selbst. Ihr Verdienst besteht darin, das Faultier aus der Ecke des vermeintlich Dummen und Trägen zu holen und der Welt seine faszinierende Evolutionsbiologie und sein tatsächliches Sozialverhalten nahezubringen &ndash; ja, auch Faultiere pflegen soziale Bindungen, wie Forschung inzwischen zeigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Lebendigkeit statt Trägheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der sexuellen Neun genau das, was dem Faultier seinem Ruf nach fehlt: pralle, körperliche Lebendigkeit. Cooke wird beschrieben als kühn, direkt, mit hoher, dynamischer Energie &ndash; sie spricht selbstironisch über ihre Feldforschung, nennt eine Begegnung mit einer Ameisenbärzunge ›ziemlich einprägsam‹ und ihre Kaulquappen-Untersuchungen scherzhaft ihr ›Unterwasser-Hinterteil‹. Das ist nicht die zurückhaltende, prinzipientreue Note eines Einserflügels, sondern die forsche, warme, leicht provokante Energie des Achterflügels.</p>
+          <p class="vb-intro">Genau diese Kombination macht sie zur perfekten Botschafterin: eine humorvolle, aufgeweckte, ›lebendige‹ Persönlichkeit, die den trägen Rhythmus ihres Tieres mit sprühender intellektueller Begeisterung verbindet. Der Achterflügel verhindert, dass die Verschmelzung der Neun in bloße Anpassung kippt &ndash; stattdessen wird daraus eine forsche, unüberhörbare Stimme für ein Tier, das sich selbst nie hätte Gehör verschaffen können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w8 ist die Fähigkeit, <strong>vollständige Verschmelzung mit einem Thema in ansteckende, öffentlichkeitswirksame Begeisterung</strong> zu verwandeln &ndash; Cookes Arbeit veränderte grundlegend, wie die Öffentlichkeit über Faultiere denkt, und ihr Bestseller <em>The Truth About Animals</em> weitete dieses Prinzip auf zahlreiche weitere missverstandene Arten aus.</p>
+          <p class="vb-intro">Der Schatten der sexuellen Neun mit Achterflügel zeigt sich dort, wo die eigene Identität so vollständig mit einem einzigen Thema verschmilzt, dass eine Trennung kaum noch denkbar ist &ndash; ein Leben, das öffentlich fast ausschließlich als ›die Faultier-Frau‹ wahrgenommen wird, so verdient dieser Ruf auch ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Faultier, das der Welt zeigte, was im Faultier steckt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Lucy Cooke der Welt gibt, ist der Beweis, dass Langsamkeit keine Schwäche, sondern eine eigenständige, hocheffiziente Überlebensstrategie ist &ndash; und dass genau dieses Prinzip, mit der richtigen Portion Lebendigkeit erzählt, ein Millionenpublikum begeistern kann.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass beinahe wie ein lebender Beweis wirkt: eine Frau, deren archetypisches Tier das Faultier ist, die sich diesem Tier mit einer Hingabe verschrieb, die weit über wissenschaftliches Interesse hinausging &ndash; und die dabei, mit ansteckender Energie, offenbar unbewusst ihr eigenes tiefstes Muster erforschte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("enneagramm-zoo", "27 Tierporträts – jedes Subtyp-Tier mit Charakter, Biologie und Enneagramm-Bezug.", "Enneagramm-Zoo")}
+      ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 9 Typen als innere Landkarte – Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
+        {route:"beruehmte-mario-barth", label:"Porträt: Mario Barth (SX9w8)"},
+        {route:"beruehmte-heike-makatsch", label:"Porträt: Heike Makatsch (SX9w8)"},
+        {route:"beruehmte-ana-salceda", label:"Porträt: Ana Salceda (SX9w1) – ebenfalls Faultier-Übereinstimmung"},
+        {route:"tierforscher-uebereinstimmung", label:"Tierforscher-Übereinstimmung: weitere Beispiele"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-lucy-cooke")}
     </div>
   `);
 }
@@ -54467,6 +54538,7 @@ function anaSalcedaPortraitPage() {
           {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
           {route:"beruehmte-jane-goodall", label:"Porträt: Jane Goodall (SX9w1)"},
           {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1)"},
+          {route:"beruehmte-lucy-cooke", label:"Porträt: Lucy Cooke (SX9w8) – ebenfalls Faultier-Übereinstimmung"},
           {route:"tierforscher-uebereinstimmung", label:"Tierforscher-Übereinstimmung: weitere Beispiele"},
         ])}
         ${animalResearcherMatchBlock("beruehmte-ana-salceda")}
@@ -93324,6 +93396,7 @@ function render() {
     "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,
     "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
     "beruehmte-mario-barth": marioBarthPortraitPage,
+    "beruehmte-lucy-cooke": lucyCookePortraitPage,
           "beruehmte-james-levine": jamesLevinePortraitPage,
     "beruehmte-baerbel-bas": baerbelBasPortraitPage,
     "beruehmte-ludwig-erhard": ludwigErhardPortraitPage,
