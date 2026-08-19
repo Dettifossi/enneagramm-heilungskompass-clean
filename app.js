@@ -32538,6 +32538,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Julian Assange \u2013 Sozialer Typ 9",
     teaser:"SO9w1 \u00b7 geb. 1971 in Townsville, Australien. Gr\u00fcnder von WikiLeaks, Enth\u00fcller geheimer Regierungsdokumente. Der B\u00fcffel, der sich f\u00fcr Transparenz und die Gemeinschaft der Informierten aufopferte \u2013 und Jahre in Isolation und Haft daf\u00fcr zahlte.",
     tags:["Medien","Aktivismus"], gender:"m"},
+  { route:"beruehmte-alan-mcelligott", name:"Dr. Alan McElligott", added:"2026-08-19", subtyp:"SO9w1",
+    heading:"Dr. Alan McElligott \u2013 Sozialer Typ 9",
+    teaser:"SO9w1 \u00b7 Verhaltensforscher an der City University of Hong Kong, erforscht das Sozialleben von Wasserb\u00fcffelherden. Entdeckte, dass selbst verwilderte Wasserb\u00fcffel komplexe Freundschaften und Pers\u00f6nlichkeitsprofile pflegen. Der B\u00fcffel, der die Herde des B\u00fcffels erforschte.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-ronald-reagan", name:"Ronald Reagan", added:"2026-07-22", subtyp:"SO9w8",
     heading:"Ronald Reagan \u2013 Sozialer Typ 9",
     teaser:"SO9w8 \u00b7 1911\u20132004. 40. Pr\u00e4sident der USA 1981\u20131989. Der Gro\u00dfe Kommunikator: Morning in America, Evil Empire, Gorbatschow. Der B\u00fcffel, der l\u00e4chelt \u2013 und dem die Herde folgt.",
@@ -35316,6 +35320,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", tier:"Taube"},
   {route:"beruehmte-laurence-frank", name:"Dr. Laurence Frank", subtyp:"SO8w7", tier:"Löwe"},
   {route:"beruehmte-cynthia-moss", name:"Dr. Cynthia Moss", subtyp:"SE9w1", tier:"Elefant"},
+  {route:"beruehmte-alan-mcelligott", name:"Dr. Alan McElligott", subtyp:"SO9w1", tier:"Büffel"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42606,12 +42611,12 @@ const LEBENSMUSTERKOMPASS = {
   SO9: {
     tier: "Büffel",
     kernthema: "Identität durch Zugehörigkeit zu einer Gemeinschaft, nicht durch die einzelne Person (Naranjo: Teilhabe)",
-    beispiele: ["Amelia Earhart", "Sandra Hüller", "Kevin Costner", "Peter Falk", "Steffi Graf", "Julian Assange", "Ronald Reagan", "Wilma Mankiller", "Willy Brandt", "Nick Leeson", "Leslie Van Houten"],
+    beispiele: ["Amelia Earhart", "Sandra Hüller", "Kevin Costner", "Peter Falk", "Steffi Graf", "Julian Assange", "Ronald Reagan", "Wilma Mankiller", "Willy Brandt", "Nick Leeson", "Leslie Van Houten", "Dr. Alan McElligott"],
     fingerabdruecke: [
       {
         titel: "Identität durch Zugehörigkeit zu einer Sache oder Gemeinschaft, nicht durch die einzelne Person",
         beschreibung: "Naranjo nannte diesen Subtyp den der ›Teilhabe‹ (Participation): Das eigene Selbst tritt nicht als Einzelperson auf, sondern verschmilzt mit einer Gruppe, einer Idee oder einer größeren Sache – deren Denken und Fühlen wird zum eigenen.",
-        beleg: "Julian Assange: ›Ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine größere Sache definiert … Er kämpft nicht für sich selbst – er kämpft für etwas, das größer ist als das eigene Überleben‹; Kevin Costner: ›Er ist Teil von etwas Größerem, und er weiß es‹; Amelia Earhart, deren ›eigentliches Projekt nie der persönliche Nervenkitzel war, sondern der Beweis, dass Frauen fliegen können wie Männer.‹; Sandra Hüller, die in Interviews auffallend selten über sich selbst als Star spricht, fast immer über das Ensemble, das Team, die Regie – und ihrem Theater in Leipzig trotz internationalem Ruhm treu blieb; Wilma Mankiller, die einen Cherokee-Ehrentitel trug, der wörtlich ›Beschützerin der Menschen‹ bedeutet, und ihr erstes großes Projekt gemeinsam mit den Bewohnern eines Ortes verlegte – nicht als Verwalterin von außen, sondern als Teil der Sache selbst."
+        beleg: "Julian Assange: ›Ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine größere Sache definiert … Er kämpft nicht für sich selbst – er kämpft für etwas, das größer ist als das eigene Überleben‹; Kevin Costner: ›Er ist Teil von etwas Größerem, und er weiß es‹; Amelia Earhart, deren ›eigentliches Projekt nie der persönliche Nervenkitzel war, sondern der Beweis, dass Frauen fliegen können wie Männer.‹; Sandra Hüller, die in Interviews auffallend selten über sich selbst als Star spricht, fast immer über das Ensemble, das Team, die Regie – und ihrem Theater in Leipzig trotz internationalem Ruhm treu blieb; Wilma Mankiller, die einen Cherokee-Ehrentitel trug, der wörtlich ›Beschützerin der Menschen‹ bedeutet, und ihr erstes großes Projekt gemeinsam mit den Bewohnern eines Ortes verlegte – nicht als Verwalterin von außen, sondern als Teil der Sache selbst; Dr. Alan McElligott, der nicht das einzelne Tier, sondern das Beziehungsgeflecht der ganzen Büffelherde erforschte – und dessen eigener Forschungsstil auf Teams und Zusammenarbeit statt auf Alleingang setzt."
       },
       {
         titel: "Ruhige, unaufgeregte Präsenz, der die Herde dennoch folgt",
@@ -53653,6 +53658,7 @@ function peterFalkPortraitPage() {
         {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
         {route:"beruehmte-kevin-costner", label:"Porträt: Kevin Costner (SO9w1)"},
         {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1)"},
+        {route:"beruehmte-alan-mcelligott", label:"Porträt: Dr. Alan McElligott (SO9w1)"},
       ])}
     </div>
   `);
@@ -53843,6 +53849,68 @@ function julianAssangePortraitPage() {
         {route:"subtype/so9", label:"SO9 \u2013 Der B\u00fcffel: Subtyp-Profil"},
         {route:"beruehmte-steffi-graf", label:"Portr\u00e4t: Steffi Graf (SO9w1)"},
       ])}
+    </div>
+  `);
+}
+
+function alanMcelligottPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-alan-mcelligott-portrait.jpg" alt="Büffel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Alan McElligott</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Verhaltensforscher an der City University of Hong Kong &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel, der die Herde des Büffels erforschte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier der sozialen Neun &ndash; kein Bison aus den Weiten Nordamerikas, sondern der asiatische Wasserbüffel: ein Herdentier, das seinen Wert nicht durch Alleingang, sondern durch verlässliche Zugehörigkeit zur Gruppe findet. Dr. Alan McElligott, Verhaltensforscher an der City University of Hong Kong, widmete einen zentralen Teil seiner Forschung genau diesem Tier &ndash; und wurde zu einer international anerkannten Stimme im Verständnis seines Sozialverhaltens.</p>
+          <p class="vb-intro">Gemeinsam mit seinem Forschungsteam untersuchte er verwilderte, frei lebende Wasserbüffelpopulationen und wies nach, was lange als unwahrscheinlich galt: Diese Tiere pflegen komplexe soziale Freundschaften, eigene Persönlichkeitsprofile und bevorzugte Bindungen innerhalb der Herde &ndash; keineswegs nur ›stumpfe‹ oder rein zweckgerichtete Wesen, wie oft fälschlich angenommen wurde. Der Büffel, der beweist, dass der Büffel mehr ist als sein Klischee.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Identität durch Zugehörigkeit zur Herde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> findet ihre Identität nicht als Einzelperson, sondern in der Verschmelzung mit einer Gruppe, einem Team, einer gemeinsamen Sache. McElligotts gesamte Forschungslaufbahn trägt diese Handschrift: Statt einer Karriere des Alleingangs baute er über Stationen in Zürich, Nottingham, London und schließlich Hongkong immer wieder neue, kollaborative Forschungsteams auf &ndash; sein eigener Hinweis an potenzielle Doktorandinnen und Postdocs, sich jederzeit bei ihm zu melden, zeigt eine einladende, auf Zusammenarbeit ausgelegte Grundhaltung statt akademischer Territorialität.</p>
+          <p class="vb-intro">Auch sein Blick auf die Wasserbüffel selbst ist ein sozialer: Es geht ihm nicht um das einzelne, isolierte Tier, sondern um das Beziehungsgeflecht der ganzen Herde &ndash; wer mit wem Zeit verbringt, welche Persönlichkeiten sich anziehen, wie Zusammenhalt entsteht und bewahrt wird. Ein Forscher, der die soziale Struktur einer Gruppe untersucht, weil ihn genau das seit jeher am meisten interessiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Prinzipientreue statt lauter Selbstdarstellung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Neun eine klare, methodische Prinzipientreue &ndash; erkennbar an McElligotts nüchternem, sachlichem Kommunikationsstil: kurze, konkrete Bewerbungsanforderungen statt bürokratischer Hürden, ein direktes ›Get in touch!‹ statt langer Vorreden. Auch bei seiner Forschung zur öffentlichen Wahrnehmung der Hongkonger Wasserbüffel bleibt er auffallend ausgewogen: Er benennt sowohl die Sorgen der Anwohner als auch den kulturellen Wert der Tiere, ohne eine Seite zu dramatisieren.</p>
+          <p class="vb-intro">Das unterscheidet den Einserflügel deutlich vom konfrontativeren Achterflügel: Statt eine Position mit Nachdruck durchzusetzen, sucht McElligott den ausgewogenen, methodisch abgesicherten Standpunkt &ndash; belegt durch Daten, nicht durch Überzeugungskraft allein. ›Vertrautheit mit Wildtieren im ländlichen Raum führt häufig zu positiveren Wahrnehmungen‹, sagt er über seine Forschung zu den Hongkonger Büffeln &ndash; eine typisch nüchterne, un-dramatische Einser-Beobachtung, kein lautes Plädoyer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w1 ist die Fähigkeit, <strong>das unauffällige Sozialleben einer unterschätzten Tierart sichtbar zu machen</strong> &ndash; McElligotts Arbeit veränderte grundlegend, wie Wissenschaft und Öffentlichkeit über Wasserbüffel denken: nicht als stumpfe Nutztiere, sondern als soziale Wesen mit eigenen Bindungen und Persönlichkeiten.</p>
+          <p class="vb-intro">Der Schatten der sozialen Neun mit Einserflügel zeigt sich dort, wo die eigene Position hinter der Gruppe, dem Team oder der ausgewogenen Datenlage zurücktritt &ndash; eine Zurückhaltung, die Objektivität sichert, aber auch bedeuten kann, dass die eigene Stimme in einer kontroversen Debatte leiser bleibt, als sie sein könnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Büffel, der der Herde ihre Tiefe zurückgab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Alan McElligott der Welt gibt, ist der wissenschaftliche Beweis, dass ein Tier, das lange als teilnahmslos und stumpf galt, in Wahrheit ein reiches soziales Innenleben besitzt &ndash; Freundschaften, Persönlichkeit, Zugehörigkeit. Genau das ist die Substanz, die die soziale Neun in jedem Kontext sucht.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass beinahe wie ein lebender Beweis wirkt: ein Mann, dessen archetypisches Tier der Büffel ist, der genau diesem Tier seine Forscherlaufbahn widmete &ndash; und dabei entdeckte, dass die Herde, die er erforschte, demselben Prinzip von Zugehörigkeit und stiller Verbundenheit folgt, das auch sein eigenes Wesen trägt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so9", label:"Lebensmusterkompass: SO9 – Büffel"},
+        {route:"beruehmte-julian-assange", label:"Porträt: Julian Assange (SO9w1)"},
+        {route:"beruehmte-sandra-hueller", label:"Porträt: Sandra Hüller (SO9w1)"},
+        {route:"tierforscher-uebereinstimmung", label:"Tierforscher-Übereinstimmung: weitere Beispiele"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-alan-mcelligott")}
     </div>
   `);
 }
@@ -93168,6 +93236,7 @@ function render() {
         "beruehmte-iga-swiatek": igaSwiatekPortraitPage,
     "beruehmte-steffi-graf": steffiGrafPortraitPage,
     "beruehmte-julian-assange": julianAssangePortraitPage,
+    "beruehmte-alan-mcelligott": alanMcelligottPortraitPage,
           "beruehmte-ronald-reagan": ronaldReaganPortraitPage,
     "beruehmte-wilma-mankiller": wilmaMankillerPortraitPage,
     "beruehmte-willy-brandt": willyBrandtPortraitPage,
