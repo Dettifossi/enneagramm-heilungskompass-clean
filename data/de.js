@@ -4560,7 +4560,7 @@ export const werkRegister = [
     status: "live",
   },
   {
-    id: "27-persönlichkeiten",
+    id: "die-27-persoenlichkeiten-des-enneagramms",
     title: "Die 27 Persönlichkeiten des Enneagramms",
     themes: ["Subtypen", "Charakterprofile", "Typbestimmung"],
     typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
@@ -4570,7 +4570,7 @@ export const werkRegister = [
     status: "live",
   },
   {
-    id: "code-der-persönlichkeit",
+    id: "der-code-deiner-persoenlichkeit",
     title: "Der Code deiner Persönlichkeit",
     themes: ["Typbestimmung", "Spurensuche", "Selbsterkenntnis"],
     typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
@@ -4629,7 +4629,7 @@ export const werkRegister = [
     status: "live",
   },
   {
-    id: "führung-mit-fundament",
+    id: "fuehrung-mit-fundament",
     title: "F\xfchrung mit Fundament (David L. Rathmer)",
     themes: ["F\xfchrung", "Enneagramm", "Entwicklung"],
     typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
@@ -4906,7 +4906,7 @@ export const werkRegister = [
     status: "live",
   },
   {
-    id: "sprache-der-sexualität",
+    id: "die-sprache-unserer-sexualitaet",
     title: "Die Sprache unserer Sexualität",
     themes: ["Instinkte", "Beziehungen", "Entwicklung"],
     typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],

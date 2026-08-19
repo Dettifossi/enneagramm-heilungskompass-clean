@@ -49329,7 +49329,7 @@ function enneagrammEmotionalitaetPage() {
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("sprache-unserer-beziehungen", "How the 9 types experience closeness, bonding, and feeling in relationships — and what each type needs to truly arrive emotionally.", "Die Sprache unserer Beziehungen")}
-        ${bookTip("sprache-der-sexualität", "Emotionality and instinct working together — how feeling and desire connect in the 9 types and their subtypes.", "Die Sprache unserer Sexualität")}
+        ${bookTip("die-sprache-unserer-sexualitaet", "Emotionality and instinct working together — how feeling and desire connect in the 9 types and their subtypes.", "Die Sprache unserer Sexualität")}
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 subtypes in detail — the normal, boosting, and counter variant of every Enneagram type explained in depth.", "Die verborgene Dynamik der 27 Subtypen")}
       </div>
       ${relatedLinks([
@@ -49418,7 +49418,7 @@ function enneagrammInstinktPage() {
 
       </div>
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("sprache-der-sexualität", "Instinct and emotionality working together — how desire and bodily energy connect in the 9 types and their subtypes.", "Die Sprache unserer Sexualität")}
+        ${bookTip("die-sprache-unserer-sexualitaet", "Instinct and emotionality working together — how desire and bodily energy connect in the 9 types and their subtypes.", "Die Sprache unserer Sexualität")}
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 subtypes in detail — the normal, boosting, and counter variant of every Enneagram type explained in depth.", "Die verborgene Dynamik der 27 Subtypen")}
         ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
       </div>
@@ -54833,6 +54833,23 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
   },
 };
 
+// Roadmap of the roughly 100 most common conditions in Western industrialized nations
+// (Germany/Europe), categorized like PSYCHOSOMATIK_KATEGORIEN. Written up one at a time
+// and then moved into PSYCHOSOMATIK_KRANKHEITEN. Until then they appear on the overview
+// page as "in preparation" without their own detail page.
+const PSYCHOSOMATIK_GEPLANT = {
+  "herz-kreislauf": ["High Blood Pressure (Hypertension)", "Stroke", "Heart Failure", "Atrial Fibrillation", "Coronary Artery Disease / Angina Pectoris", "Varicose Veins", "Thrombosis", "Atherosclerosis", "Low Blood Pressure (Hypotension)"],
+  "bewegungsapparat": ["Back Pain / Herniated Disc", "Osteoarthritis", "Rheumatoid Arthritis", "Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
+  "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
+  "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
+  "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],
+  "hormone-stoffwechsel": ["Type 2 Diabetes", "Hypothyroidism", "Hyperthyroidism (Graves' Disease)", "Hashimoto's Thyroiditis", "Overweight / Obesity", "Metabolic Syndrome", "PCOS (Polycystic Ovary Syndrome)", "Menopause Symptoms", "Premenstrual Syndrome (PMS)", "Insulin Resistance / Prediabetes"],
+  "nerven-psyche": ["Migraine", "Tension Headache", "Depression", "Generalized Anxiety Disorder", "Panic Attacks", "Burnout Syndrome", "Insomnia", "Tinnitus", "Vertigo / Dizziness", "Restless Legs Syndrome", "Teeth Grinding (Bruxism)", "Chronic Fatigue Syndrome (ME/CFS)"],
+  "immunsystem": ["Multiple Sclerosis", "Frequent Infections / Weak Immune System", "Long COVID / Post-Viral Syndrome", "Lupus", "Food Allergies", "Sarcoidosis"],
+  "onkologie": ["Breast Cancer", "Prostate Cancer", "Colorectal Cancer", "Lung Cancer", "Skin Cancer (Melanoma)", "Stomach Cancer", "Pancreatic Cancer", "Leukemia"],
+  "sonstige": ["Chronic Kidney Disease", "Erectile Dysfunction", "Infertility", "Periodontitis", "Chronic Bladder Infection (Cystitis)", "Glaucoma", "Endometriosis", "Urinary Incontinence"],
+};
+
 function _psychosomatikBuecherHtml() {
   const w = text.werk;
   const cardsFor = (cat) => werkRegister.filter(b => b.category === cat).map((book) => {
@@ -54878,7 +54895,8 @@ function psychosomatikPage() {
     const kat = k.kategorie || "sonstige";
     (byKategorie[kat] = byKategorie[kat] || []).push([slug, k]);
   });
-  const aktiveKategorien = PSYCHOSOMATIK_KATEGORIEN.filter(kat => byKategorie[kat.key]);
+  const geplantByKategorie = PSYCHOSOMATIK_GEPLANT || {};
+  const aktiveKategorien = PSYCHOSOMATIK_KATEGORIEN.filter(kat => byKategorie[kat.key] || (geplantByKategorie[kat.key] && geplantByKategorie[kat.key].length));
 
   const quickNav = aktiveKategorien.map(kat => {
     return `<a href="#" onclick="event.preventDefault();var el=document.getElementById('psy-${kat.key}');if(el)el.scrollIntoView({behavior:'smooth',block:'start'});"
@@ -54888,7 +54906,7 @@ function psychosomatikPage() {
   }).join("");
 
   const sections = aktiveKategorien.map(kat => {
-    const items = byKategorie[kat.key]
+    const items = (byKategorie[kat.key] || [])
       .slice()
       .sort((a, b) => a[1].titel.localeCompare(b[1].titel, "en"));
     const cards = items.map(([slug, k]) => `
@@ -54900,9 +54918,18 @@ function psychosomatikPage() {
         <p style="margin:0;font-size:0.9rem;color:var(--muted);">${k.kurz}</p>
       </button>
     `).join("");
+    const geplant = (geplantByKategorie[kat.key] || []).slice().sort((a, b) => a.localeCompare(b, "en"));
+    const geplantHtml = geplant.length ? `
+      <div style="margin:${cards ? "0.3rem" : "0"} 0 0.9rem;">
+        <p style="font-size:0.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em;margin:0 0 0.5rem;">In Preparation</p>
+        <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">
+          ${geplant.map(titel => `<span style="display:inline-block;padding:0.3rem 0.65rem;border-radius:6px;background:color-mix(in srgb, var(--muted) 10%, var(--paper));color:var(--muted);font-size:0.82rem;">${titel}</span>`).join("")}
+        </div>
+      </div>
+    ` : "";
     return `
       <div id="psy-${kat.key}" style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;color:var(--copper);text-transform:uppercase;padding:1.2rem 0 0.4rem;margin-top:0.5rem;border-bottom:1.5px solid color-mix(in srgb, var(--copper) 20%, var(--paper));">${kat.label}</div>
-      <div style="margin-top:0.8rem;">${cards}</div>
+      <div style="margin-top:0.8rem;">${cards}${geplantHtml}</div>
     `;
   }).join("");
 
@@ -54910,7 +54937,7 @@ function psychosomatikPage() {
     <div class="page-container">
       ${pageHeader("psychosomatik")}
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Psychosomatics Register</h1>
-      <p class="psycho-intro">Illnesses seen through a psychosomatic lens, connected to the Enneagram: where do typical inner patterns of a given subtype show up in connection with certain symptom pictures, among many other factors? <strong>Important: every person can develop any illness, regardless of subtype.</strong> This page does not replace a medical diagnosis or treatment, but offers a complementary, holistic layer of interpretation – in the same spirit as the Homeopathy section of this Compass: not addressing the symptom, but the underlying life force.</p>
+      <p class="psycho-intro">Illnesses seen through a psychosomatic lens, connected to the Enneagram: where do typical inner patterns of a given subtype show up in connection with certain symptom pictures, among many other factors? <strong>Important: every person can develop any illness, regardless of subtype.</strong> This page does not replace a medical diagnosis or treatment, but offers a complementary, holistic layer of interpretation – in the same spirit as the Homeopathy section of this Compass: not addressing the symptom, but the underlying life force. The register keeps growing with more conditions; topics not yet written up are marked &bdquo;in preparation&ldquo; within each category.</p>
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.4rem;margin:1.3rem 0 0.4rem;">
         ${quickNav}
       </div>

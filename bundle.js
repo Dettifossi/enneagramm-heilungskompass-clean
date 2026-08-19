@@ -89327,6 +89327,24 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
   },
 };
 
+// Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
+// (Deutschland/Europa) – kategorisiert nach demselben Schema wie PSYCHOSOMATIK_KATEGORIEN.
+// Werden nach und nach ausformuliert und dann nach PSYCHOSOMATIK_KRANKHEITEN verschoben
+// (Definition, Notfall-Hinweis falls zutreffend, Disclaimer, alle 27 Subtypen). Bis dahin
+// erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
+const PSYCHOSOMATIK_GEPLANT = {
+  "herz-kreislauf": ["Bluthochdruck (Hypertonie)", "Schlaganfall", "Herzinsuffizienz", "Vorhofflimmern", "Koronare Herzkrankheit / Angina Pectoris", "Krampfadern (Varikose)", "Thrombose", "Arteriosklerose", "Niedriger Blutdruck (Hypotonie)"],
+  "bewegungsapparat": ["Rückenschmerzen / Bandscheibenvorfall", "Arthrose", "Rheumatoide Arthritis", "Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
+  "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
+  "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
+  "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
+  "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
+  "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
+  "immunsystem": ["Multiple Sklerose", "Häufige Infekte / Immunschwäche", "Long-COVID / Post-Viral-Syndrom", "Lupus erythematodes", "Nahrungsmittelallergien", "Sarkoidose"],
+  "onkologie": ["Brustkrebs", "Prostatakrebs", "Darmkrebs", "Lungenkrebs", "Hautkrebs (Melanom)", "Magenkrebs", "Bauchspeicheldrüsenkrebs", "Leukämie"],
+  "sonstige": ["Chronische Nierenerkrankung", "Erektile Dysfunktion", "Unerfüllter Kinderwunsch", "Parodontitis", "Chronische Blasenentzündung (Zystitis)", "Grüner Star (Glaukom)", "Endometriose", "Blasenschwäche / Inkontinenz"],
+};
+
 function _psychosomatikBuecherHtml() {
   const w = text.werk;
   const cardsFor = (cat) => werkRegister.filter(b => b.category === cat).map((book) => {
@@ -89372,7 +89390,8 @@ function psychosomatikPage() {
     const kat = k.kategorie || "sonstige";
     (byKategorie[kat] = byKategorie[kat] || []).push([slug, k]);
   });
-  const aktiveKategorien = PSYCHOSOMATIK_KATEGORIEN.filter(kat => byKategorie[kat.key]);
+  const geplantByKategorie = PSYCHOSOMATIK_GEPLANT || {};
+  const aktiveKategorien = PSYCHOSOMATIK_KATEGORIEN.filter(kat => byKategorie[kat.key] || (geplantByKategorie[kat.key] && geplantByKategorie[kat.key].length));
 
   const quickNav = aktiveKategorien.map(kat => {
     return `<a href="#" onclick="event.preventDefault();var el=document.getElementById('psy-${kat.key}');if(el)el.scrollIntoView({behavior:'smooth',block:'start'});"
@@ -89382,7 +89401,7 @@ function psychosomatikPage() {
   }).join("");
 
   const sections = aktiveKategorien.map(kat => {
-    const items = byKategorie[kat.key]
+    const items = (byKategorie[kat.key] || [])
       .slice()
       .sort((a, b) => a[1].titel.localeCompare(b[1].titel, "de"));
     const cards = items.map(([slug, k]) => `
@@ -89394,9 +89413,18 @@ function psychosomatikPage() {
         <p style="margin:0;font-size:0.9rem;color:var(--muted);">${k.kurz}</p>
       </button>
     `).join("");
+    const geplant = (geplantByKategorie[kat.key] || []).slice().sort((a, b) => a.localeCompare(b, "de"));
+    const geplantHtml = geplant.length ? `
+      <div style="margin:${cards ? "0.3rem" : "0"} 0 0.9rem;">
+        <p style="font-size:0.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em;margin:0 0 0.5rem;">In Vorbereitung</p>
+        <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">
+          ${geplant.map(titel => `<span style="display:inline-block;padding:0.3rem 0.65rem;border-radius:6px;background:color-mix(in srgb, var(--muted) 10%, var(--paper));color:var(--muted);font-size:0.82rem;">${titel}</span>`).join("")}
+        </div>
+      </div>
+    ` : "";
     return `
       <div id="psy-${kat.key}" style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;color:var(--copper);text-transform:uppercase;padding:1.2rem 0 0.4rem;margin-top:0.5rem;border-bottom:1.5px solid color-mix(in srgb, var(--copper) 20%, var(--paper));">${kat.label}</div>
-      <div style="margin-top:0.8rem;">${cards}</div>
+      <div style="margin-top:0.8rem;">${cards}${geplantHtml}</div>
     `;
   }).join("");
 
@@ -89404,7 +89432,7 @@ function psychosomatikPage() {
     <div class="page-container">
       ${pageHeader("psychosomatik")}
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Psychosomatik-Register</h1>
-      <p class="psycho-intro">Krankheitsbilder aus psychosomatischer Sicht, verknüpft mit dem Enneagramm: Wo zeigen sich bei welchem Subtyp typische innere Muster, die – neben vielen anderen Faktoren – mit bestimmten Beschwerdebildern in Verbindung gebracht werden? <strong>Wichtig: Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Diese Seite ersetzt keine ärztliche Diagnose oder Behandlung, sondern bietet eine ergänzende, ganzheitliche Deutungsebene – im selben Sinn, in dem auch der Homöopathie-Bereich dieses Kompasses arbeitet: nicht am Symptom ansetzen, sondern an der zugrunde liegenden Lebenskraft.</p>
+      <p class="psycho-intro">Krankheitsbilder aus psychosomatischer Sicht, verknüpft mit dem Enneagramm: Wo zeigen sich bei welchem Subtyp typische innere Muster, die – neben vielen anderen Faktoren – mit bestimmten Beschwerdebildern in Verbindung gebracht werden? <strong>Wichtig: Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Diese Seite ersetzt keine ärztliche Diagnose oder Behandlung, sondern bietet eine ergänzende, ganzheitliche Deutungsebene – im selben Sinn, in dem auch der Homöopathie-Bereich dieses Kompasses arbeitet: nicht am Symptom ansetzen, sondern an der zugrunde liegenden Lebenskraft. Das Register wird laufend um weitere Krankheitsbilder erweitert; noch nicht ausgearbeitete Themen sind je Kategorie als &bdquo;in Vorbereitung&ldquo; gekennzeichnet.</p>
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.4rem;margin:1.3rem 0 0.4rem;">
         ${quickNav}
       </div>
