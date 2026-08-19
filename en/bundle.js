@@ -1120,6 +1120,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Prof. Dr. Frans de Waal – Sexual Type 7",
     teaser:"SX7w6 · 1948–2024. Dutch-American primatologist, \"bridge-builder between humans and chimpanzees.\" Groundbreaking studies on power alliances, reconciliation, and empathy in chimpanzees and bonobos, bestseller \"Chimpanzee Politics.\" Animal correspondence: Chimpanzee.",
     tags:["Wissenschaft"], gender:"m"},
+{ route:"beruehmte-jill-pruetz", name:"Dr. Jill Pruetz", added:"2026-08-19", subtyp:"SX7w6",
+    heading:"Dr. Jill Pruetz – Sexual Type 7",
+    teaser:"SX7w6 · b. 1965. American anthropologist and primatologist, discovered the \"savanna chimpanzees\" of Fongoli in Senegal – the only great apes known to systematically hunt with self-made spears. Animal correspondence: Chimpanzee.",
+    tags:["Wissenschaft"], gender:"f"},
 { route:"beruehmte-ina-mueller", name:"Ina Müller", subtyp:"SX7w8",
     heading:"Ina Müller – Sexual Type 7",
     teaser:"SX7w8 · born 1965. Singer, musical cabaret artist, TV presenter (Inas Nacht). The chimpanzee with Eight-wing: zestful, direct, fearless – and always close to people. Animal correspondence: Chimpanzee.",
@@ -4822,6 +4826,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-dietland-mueller-schwarze", name:"Prof. Dr. Dietland Müller-Schwarze", subtyp:"SO7w6", tier:"Beaver"},
   {route:"beruehmte-frans-de-waal", name:"Prof. Dr. Frans de Waal", subtyp:"SX7w6", tier:"Chimpanzee"},
   {route:"beruehmte-christophe-boesch", name:"Prof. Dr. Christophe Boesch", subtyp:"SX7w8", tier:"Chimpanzee"},
+  {route:"beruehmte-jill-pruetz", name:"Dr. Jill Pruetz", subtyp:"SX7w6", tier:"Chimpanzee"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -29421,7 +29426,7 @@ function fransDeWaalPortraitPage() {
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
         {route:"beruehmte-christophe-boesch", label:"Portrait: Prof. Dr. Christophe Boesch (SX7w8)"},
-        {route:"beruehmte-leonard-bernstein", label:"Portrait: Leonard Bernstein (SX7w6)"},
+        {route:"beruehmte-jill-pruetz", label:"Portrait: Dr. Jill Pruetz (SX7w6)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-frans-de-waal")}
     </div>
@@ -29482,9 +29487,70 @@ function christopheBoeschPortraitPage() {
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
         {route:"beruehmte-frans-de-waal", label:"Portrait: Prof. Dr. Frans de Waal (SX7w6)"},
-        {route:"beruehmte-shakira", label:"Portrait: Shakira (SX7w8)"},
+        {route:"beruehmte-jill-pruetz", label:"Portrait: Dr. Jill Pruetz (SX7w6)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-christophe-boesch")}
+    </div>
+  `);
+}
+
+function jillPruetzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jill-pruetz-portrait.jpg" alt="Chimpanzee" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Jill Pruetz</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Anthropologist, discoverer of the "savanna chimpanzees," b. 1965 &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The chimpanzee who discovered the chimpanzee's weapon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the Sexual Seven &ndash; clever, playful, always searching for the one decisive, intense discovery. Few researchers embody this principle as strikingly as Dr. Jill Pruetz: the American anthropologist has led the Fongoli Savanna Chimpanzee Project in Senegal since 2001 &ndash; and discovered something there that changed primatology.</p>
+          <p class="vb-intro">The chimpanzees of Fongoli live in an exceptionally hot, dry savanna habitat, dwell in caves to cool down &ndash; and Pruetz was the first to document that they deliberately fashion spears from branches to hunt bushbabies out of tree hollows. It was the first systematically documented tool-assisted hunting behaviour in any nonhuman primate worldwide, a genuine sensation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Seven: seeking the harshest terrain to find the unexpected</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Seven (SX7)</strong> seeks full intensity, not safe distance &ndash; it goes where things are uncomfortable, unexplored, and risky, because that is exactly where the deepest insight waits. Pruetz deliberately chose not a protected reserve, but one of the harshest terrains imaginable: blistering, open savanna instead of cool, dense rainforest &ndash; a habitat hardly anyone had systematically studied chimpanzees in before her.</p>
+          <p class="vb-intro">She knows every single chimpanzee in her group by name and by a personality shaped over years &ndash; a deep, highly individual bond with her research subjects, not distant observation. This very combination of pushing boundaries and intense personal connection is the core of the Sexual Seven.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: following instead of leading, trust instead of confrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven a fine sense for security through trust and cooperation &ndash; in contrast to the confrontational Eight-wing embodied by, for instance, Christophe Boesch (SX7w8). Asked how to respond to dangerous situations like a bush fire, Pruetz tellingly answers not with a strategy of self-assertion, but of imitation: "You need to follow the chimps! ... follow the chimps and do what they do." Cautious respect for expertise beyond her own, rather than bold self-reliance.</p>
+          <p class="vb-intro">Her emphasis on collaboration with local guides and Senegalese researchers &ndash; "without those local people and their cultural traditions here, we probably wouldn't have these chimps" &ndash; shows this same Six note: security and success arise through reliable partnerships, not solitary confrontation. In 2008 she additionally founded the organization Neighbor Ape to include the welfare of the people who share this landscape with the chimpanzees &ndash; care for the whole community, not just the research subject.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX7w6 is its ability to <strong>combine intense pioneering energy with reliable cooperation</strong> &ndash; Pruetz's spear discovery fundamentally changed how science understands tool use and hunting behaviour in great apes, and her commitment to local people makes her research a model for sustainable conservation.</p>
+          <p class="vb-intro">The shadow of the Sexual Seven with a Six-wing shows in how much one's own security remains tied to external trusted partners and structures &ndash; years of fieldwork in one of the most dangerous environments in primatology, carried by a web of trust that can be as strong as it is fragile.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The chimpanzee who revealed the chimpanzee's tool use</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Pruetz gives the world is proof that tool use and purposeful hunting are not purely human abilities &ndash; a discovery that places her alongside Frans de Waal and Christophe Boesch, the two other great Sexual Sevens of chimpanzee research, each in their own unmistakable way.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly fit the Sexual Seven with a Six-wing more fittingly: a woman whose archetypal animal is the chimpanzee, who ventured into the harshest terrain to find the most surprising behaviour of this animal &ndash; carried by trust, not confrontation, and, apparently unconsciously, studying her own deepest archetypal pattern along the way.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-frans-de-waal", label:"Portrait: Prof. Dr. Frans de Waal (SX7w6)"},
+        {route:"beruehmte-christophe-boesch", label:"Portrait: Prof. Dr. Christophe Boesch (SX7w8)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-jill-pruetz")}
     </div>
   `);
 }
@@ -36544,12 +36610,12 @@ const LEBENSMUSTERKOMPASS = {
   SX7: {
     tier: "Chimpanzee",
     kernthema: "Complete merging with an idea, person, or moment (Naranjo: Suggestibility)",
-    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs", "Prof. Dr. Frans de Waal", "Prof. Dr. Christophe Boesch"],
+    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs", "Prof. Dr. Frans de Waal", "Prof. Dr. Christophe Boesch", "Dr. Jill Pruetz"],
     fingerabdruecke: [
       {
         titel: "Complete merging with an idea, person, or moment",
         beschreibung: "Naranjo called this subtype the one of 'Suggestibility': instead of spreading enthusiasm, the entire intensity bundles onto a single point – a conviction, a person, a cause – with a force that knows no half-commitments.",
-        beleg: "Gudrun Ensslin: 'She merges completely with an idea, a person, a vision – and is literally swept away by that merging ... Once the new conviction is there, the old life is completely cast off'; Victor Lustig: 'An ability to fully immerse himself in an idea, a person, a moment – and to appear so convincing that his own enthusiasm becomes contagious'; Clyde Barrow, whose 'entire life was shaped by constant movement, ever new escape routes'; Prof. Dr. Frans de Waal, who sought direct, personal intellectual exchange with individuals rather than losing himself in institutional networks, and whose late work devoted itself almost exclusively to the single question of empathy and bonding; Prof. Dr. Christophe Boesch, who lived five years with his young family in untamed rainforest to study a single wild chimpanzee community – no half measures, but full, risky devotion."
+        beleg: "Gudrun Ensslin: 'She merges completely with an idea, a person, a vision – and is literally swept away by that merging ... Once the new conviction is there, the old life is completely cast off'; Victor Lustig: 'An ability to fully immerse himself in an idea, a person, a moment – and to appear so convincing that his own enthusiasm becomes contagious'; Clyde Barrow, whose 'entire life was shaped by constant movement, ever new escape routes'; Prof. Dr. Frans de Waal, who sought direct, personal intellectual exchange with individuals rather than losing himself in institutional networks, and whose late work devoted itself almost exclusively to the single question of empathy and bonding; Prof. Dr. Christophe Boesch, who lived five years with his young family in untamed rainforest to study a single wild chimpanzee community – no half measures, but full, risky devotion; Dr. Jill Pruetz, who deliberately chose one of the harshest terrains in primatology and knows every single chimpanzee in her group by name – a deeply individual, highly personal bond rather than distant observation."
       },
       {
         titel: "Contagious intensity that sweeps up an entire group or room",
@@ -58345,6 +58411,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-dietland-mueller-schwarze": dietlandMuellerSchwarzePortraitPage,
       "beruehmte-frans-de-waal": fransDeWaalPortraitPage,
       "beruehmte-christophe-boesch": christopheBoeschPortraitPage,
+      "beruehmte-jill-pruetz": jillPruetzPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
