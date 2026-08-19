@@ -16167,7 +16167,7 @@ function adeleNeuhauserPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-adele-neuhauser-portrait.jpg" alt="Krokodil" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-adele-neuhauser-portrait.jpg" alt="Adele Neuhauser – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Adele Neuhauser</p>
         <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with Seven Wings</p>
@@ -16245,7 +16245,7 @@ function sterlingNorthPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-sterling-north-portrait.jpg" alt="Raccoon" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-sterling-north-portrait.jpg" alt="Sterling North – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sterling North</p>
         <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
@@ -16378,7 +16378,7 @@ function angelaMerkelPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-angela-merkel-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-angela-merkel-portrait.jpg" alt="Angela Merkel – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Angela Merkel</p>
         <p class="krim-portrait-typ">SE9w8 &middot; Self-Preservation Type 9 with aft wing</p>
@@ -16444,7 +16444,7 @@ function carmenGoglinPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-carmen-goglin-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-carmen-goglin-portrait.jpg" alt="Carmen Goglin – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Carmen Goglin</p>
         <p class="krim-portrait-typ">SP9w8 &middot; Self-Preservation Type 9 with aft wing</p>
@@ -16507,7 +16507,7 @@ function ginaRinehartPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-gina-rinehart-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-gina-rinehart-portrait.jpg" alt="Gina Rinehart – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Gina Rinehart</p>
         <p class="krim-portrait-typ">SP9w8 &middot; Self-Preservation Type 9 with aft wing</p>
@@ -16761,7 +16761,7 @@ function shakiraPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-shakira-portrait.jpg" alt="Chimpanzee" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-shakira-portrait.jpg" alt="Shakira – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Shakira</p>
         <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight-wing</p>
@@ -16825,7 +16825,7 @@ function carolinePetersPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-caroline-peters-portrait.jpg" alt="Schimpanse" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-caroline-peters-portrait.jpg" alt="Caroline Peters – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Caroline Peters</p>
         <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-Wing</p>
@@ -16888,7 +16888,7 @@ function carstenStahlPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-carsten-stahl-portrait.jpg" alt="L\xf6we" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-carsten-stahl-portrait.jpg" alt="Carsten Stahl – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Carsten Stahl</p>
         <p class="krim-portrait-typ">SO8w7 &middot; Social Type 8 with Seven Wings</p>
@@ -16951,7 +16951,7 @@ function cynthiaLummisPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-cynthia-lummis-portrait.jpg" alt="Lion" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-cynthia-lummis-portrait.jpg" alt="Cynthia Lummis – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Cynthia Lummis</p>
         <p class="krim-portrait-typ">SO8w7 &middot; Social Type 8 with Seven-wing</p>
@@ -17017,7 +17017,7 @@ function carlRogersPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-carl-rogers-portrait.jpg" alt="Sloth" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-carl-rogers-portrait.jpg" alt="Dr. Carl Rogers – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Carl Rogers</p>
         <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
@@ -17081,7 +17081,7 @@ function dakotaJohnsonPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-dakota-johnson-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-dakota-johnson-portrait.jpg" alt="Dakota Johnson – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dakota Johnson</p>
         <p class="krim-portrait-typ">SX9w8 &middot; Sexual Type 9 with aft wing</p>
@@ -17213,7 +17213,7 @@ function dieterNuhrPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-dieter-nuhr-portrait.jpg" alt="Biber" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-dieter-nuhr-portrait.jpg" alt="Dieter Nuhr – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dieter Nuhr</p>
         <p class="krim-portrait-typ">SO7w8 &middot; Social Type 7 with aft wing</p>
@@ -17276,7 +17276,7 @@ function donataHopfenPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-donata-hopfen-portrait.jpg" alt="Erdm\xe4nnchen" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-donata-hopfen-portrait.jpg" alt="Donata Hopfen – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Donata Hopfen</p>
         <p class="krim-portrait-typ">SO6w7 &middot; Social Type 6 with Seven Wings</p>
@@ -17412,7 +17412,7 @@ function fredericChopinPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-frederic-chopin-portrait.jpg" alt="Igel" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-frederic-chopin-portrait.jpg" alt="Fr&eacute;d&eacute;ric Chopin – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Fr&eacute;d&eacute;ric Chopin</p>
         <p class="krim-portrait-typ">SX5w4 &middot; Sexual Type 5 with quadruple wing</p>
@@ -17484,7 +17484,7 @@ function gloriaVonThurnUndTaxisPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-gloria-von-thurn-und-taxis-portrait.jpg" alt="Gloria von Thurn und Taxis" class="krim-portrait-img" loading="lazy"
+          <img src="../assets/portraits/beruehmte-gloria-von-thurn-und-taxis-portrait.jpg" alt="Gloria von Thurn and Taxis – Portrait" class="krim-portrait-img" loading="lazy"
             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
           <div style="display:none;width:100%;aspect-ratio:1;background:var(--surface,#f4f0e8);border-radius:50%;align-items:center;justify-content:center;font-size:4rem;">🦛</div>
         </div>
@@ -17622,7 +17622,7 @@ function goldaMeirPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-golda-meir-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-golda-meir-portrait.jpg" alt="Golda Meir – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Golda Meir</p>
         <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with nine-wing piano</p>
@@ -17685,7 +17685,7 @@ function biruteGaldikasPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-birute-galdikas-portrait.jpg" alt="Orangutan" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-birute-galdikas-portrait.jpg" alt="Dr. Biruté Galdikas – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Biruté Galdikas</p>
         <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with Nine-wing</p>
@@ -17751,7 +17751,7 @@ function winstonChurchillPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-winston-churchill-portrait.jpg" alt="Orangutan" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-winston-churchill-portrait.jpg" alt="Winston Churchill – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Winston Churchill</p>
         <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with Nine-wing</p>
@@ -17822,7 +17822,7 @@ function guentherJauchPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-guenther-jauch-portrait.jpg" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-guenther-jauch-portrait.jpg" alt="G\xfcnther Jauch – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">G\xfcnther Jauch</p>
         <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with six wings</p>
@@ -17891,7 +17891,7 @@ function igaSwiatekPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-iga-swiatek-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-iga-swiatek-portrait.jpg" alt="Iga Świątek – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Iga Świątek</p>
         <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with Einserfl\xfcgel</p>
@@ -17955,7 +17955,7 @@ function jacquelineMarsPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-jacqueline-mars-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-jacqueline-mars-portrait.jpg" alt="Jacqueline Mars – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jacqueline Mars</p>
         <p class="krim-portrait-typ">SE8w7 &middot; Self-Preservation Type 8 with seven wing</p>
@@ -18018,7 +18018,7 @@ function dhapanbalYunupinguPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-dhapanbal-yunupingu-portrait.jpg" alt="Orangutan" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-dhapanbal-yunupingu-portrait.jpg" alt="Dhapanbal Yunupingu – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dhapanbal Yunupingu</p>
         <p class="krim-portrait-typ">SP8w9 &middot; Self-Preservation Type 8 with Nine-wing</p>
@@ -18082,7 +18082,7 @@ function indraNooyiPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-indra-nooyi-portrait.jpg" alt="Orangutan" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-indra-nooyi-portrait.jpg" alt="Indra Nooyi – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Indra Nooyi</p>
         <p class="krim-portrait-typ">SE8w7 &middot; Self-Preservation Type 8 with Seven-wing</p>
@@ -18280,7 +18280,7 @@ function jamaicaKincaidPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-jamaica-kincaid-portrait.jpg" alt="L\xf6we" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-jamaica-kincaid-portrait.jpg" alt="Jamaica Kincaid – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jamaica Kincaid</p>
         <p class="krim-portrait-typ">SO8w9 &middot; Social Type 8 with nine-wing piano</p>
@@ -18343,7 +18343,7 @@ function jamesLevinePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-james-levine-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-james-levine-portrait.jpg" alt="James Levine – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">James Levine</p>
         <p class="krim-portrait-typ">SE9w1 &middot; Self-Preservation Type 9 with Einserfl\xfcgel</p>
@@ -18406,7 +18406,7 @@ function romulusWhitakerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-romulus-whitaker-portrait.jpg" alt="Black Mamba" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-romulus-whitaker-portrait.jpg" alt="Romulus Whitaker – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Romulus Whitaker</p>
         <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with Two-wing</p>
@@ -18468,7 +18468,7 @@ function theaLitschkaKoenPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-thea-litschka-koen-portrait.jpg" alt="Black Mamba" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-thea-litschka-koen-portrait.jpg" alt="Thea Litschka-Koen – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Thea Litschka-Koen</p>
         <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with Two-wing</p>
@@ -19132,7 +19132,7 @@ function kevinCostnerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-kevin-costner-portrait.jpg" alt="B\xfcffel" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-kevin-costner-portrait.jpg" alt="Kevin Costner – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Kevin Costner</p>
         <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with Einserfl\xfcgel</p>
@@ -19196,7 +19196,7 @@ function ameliaEarhartPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-amelia-earhart-portrait.jpg" alt="Buffalo" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-amelia-earhart-portrait.jpg" alt="Amelia Earhart – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Amelia Earhart</p>
         <p class="krim-portrait-typ">SP9w1 &middot; Social Type 9 with One-wing</p>
@@ -19259,7 +19259,7 @@ function sandraHuellerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-sandra-hueller-portrait.jpg" alt="B\xfcffel" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-sandra-hueller-portrait.jpg" alt="Sandra H\xfcller – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sandra H\xfcller</p>
         <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with Einserfl\xfcgel</p>
@@ -19520,7 +19520,7 @@ function billHaastPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-bill-haast-portrait.jpg" alt="Black Mamba" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-bill-haast-portrait.jpg" alt="Bill Haast – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Bill Haast</p>
         <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with Nine-wing</p>
@@ -19775,7 +19775,7 @@ function samuelHahnemannPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-samuel-hahnemann-portrait.jpg" alt="Goose" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-samuel-hahnemann-portrait.jpg" alt="Dr. Samuel Hahnemann – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Samuel Hahnemann</p>
         <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
@@ -19880,7 +19880,7 @@ function albertEinsteinPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-albert-einstein-portrait.jpg" alt="Octopus" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-albert-einstein-portrait.jpg" alt="Dr. Albert Einstein – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Albert Einstein</p>
         <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with Four-wing</p>
@@ -19945,7 +19945,7 @@ function gerhardSchroederPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-gerhard-schroeder-portrait.jpg" alt="Crocodile" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-gerhard-schroeder-portrait.jpg" alt="Gerhard Schröder – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Gerhard Schröder</p>
         <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with Seven-wing</p>
@@ -20010,7 +20010,7 @@ function konradAdenauerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-konrad-adenauer-portrait.jpg" alt="Eagle" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-konrad-adenauer-portrait.jpg" alt="Konrad Adenauer – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Konrad Adenauer</p>
         <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
@@ -20143,7 +20143,7 @@ function edgarAllanPoePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-edgar-allan-poe-portrait.jpg" alt="Armadillo" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-edgar-allan-poe-portrait.jpg" alt="Edgar Allan Poe – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Edgar Allan Poe</p>
         <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
@@ -20208,7 +20208,7 @@ function johnnyDeppPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-johnny-depp-portrait.jpg" alt="Armadillo" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-johnny-depp-portrait.jpg" alt="Johnny Depp – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Johnny Depp</p>
         <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-wing</p>
@@ -20273,7 +20273,7 @@ function morganFreemanPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-morgan-freeman-portrait.jpg" alt="Chimpanzee" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-morgan-freeman-portrait.jpg" alt="Morgan Freeman – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Morgan Freeman</p>
         <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
@@ -20404,7 +20404,7 @@ function nicolasCagePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-nicolas-cage-portrait.jpg" alt="Dove" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-nicolas-cage-portrait.jpg" alt="Nicolas Cage – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nicolas Cage</p>
         <p class="krim-portrait-typ">SE4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
@@ -20469,7 +20469,7 @@ function leoTolstoiPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-leo-tolstoi-portrait.jpg" alt="Dove" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-leo-tolstoi-portrait.jpg" alt="Leo Tolstoy – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Leo Tolstoy</p>
         <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
@@ -20598,7 +20598,7 @@ function gustavMahlerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-gustav-mahler-portrait.jpg" alt="Armadillo" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-gustav-mahler-portrait.jpg" alt="Gustav Mahler – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Gustav Mahler</p>
         <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
@@ -20663,7 +20663,7 @@ function marcelProustPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-marcel-proust-portrait.jpg" alt="Armadillo" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-marcel-proust-portrait.jpg" alt="Marcel Proust – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Marcel Proust</p>
         <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
@@ -20871,7 +20871,7 @@ function leonardoDaVinciPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-leonardo-da-vinci-portrait.jpg" alt="Octopus" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-leonardo-da-vinci-portrait.jpg" alt="Leonardo da Vinci – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Leonardo da Vinci</p>
         <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with Four-wing</p>
@@ -20937,7 +20937,7 @@ function udoJuergensPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-udo-juergens-portrait.jpg" alt="Eagle" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-udo-juergens-portrait.jpg" alt="Udo Jürgens – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Udo Jürgens</p>
         <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation Type 1 with Two-wing</p>
@@ -21002,7 +21002,7 @@ function mahatmaGandhiPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-mahatma-gandhi-portrait.jpg" alt="Rabbit" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-mahatma-gandhi-portrait.jpg" alt="Mahatma Gandhi – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Mahatma Gandhi</p>
         <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
@@ -21074,7 +21074,7 @@ function helmutKohlPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-helmut-kohl-portrait.jpg" alt="Lion" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-helmut-kohl-portrait.jpg" alt="Helmut Kohl – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Helmut Kohl</p>
         <p class="krim-portrait-typ">SO8w9 &middot; Social Type 8 with Nine-wing</p>
@@ -21413,7 +21413,7 @@ function cynthiaMossPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-cynthia-moss-portrait.jpg" alt="Elephant" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-cynthia-moss-portrait.jpg" alt="Dr. Cynthia Moss – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Cynthia Moss</p>
         <p class="krim-portrait-typ">SE9w1 &middot; Self-Preservation Type 9 with One-wing</p>
@@ -22125,7 +22125,7 @@ function mariahCareyPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-mariah-carey-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-mariah-carey-portrait.jpg" alt="Mariah Carey – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Mariah Carey</p>
         <p class="krim-portrait-typ">SE7w8 &middot; Self-Preservation Type 7 with aft wing</p>
@@ -22469,7 +22469,7 @@ function melanieKreisPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-melanie-kreis-portrait.jpg" alt="Erdm\xe4nnchen" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-melanie-kreis-portrait.jpg" alt="Melanie Kreis – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Melanie Kreis</p>
         <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with F\xfcnferfl\xfcgel</p>
@@ -22536,7 +22536,7 @@ function michaelSchumacherPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-michael-schumacher-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-michael-schumacher-portrait.jpg" alt="Michael Schumacher – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Michael Schumacher</p>
         <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven Wings</p>
@@ -22669,7 +22669,7 @@ function neilArmstrongPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-neil-armstrong-portrait.jpg" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-neil-armstrong-portrait.jpg" alt="Neil Armstrong – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Neil Armstrong</p>
         <p class="krim-portrait-typ">SE6w7 &middot; Self-Preservation Type 6 with seven-winged wing</p>
@@ -23081,7 +23081,7 @@ function ronaldReaganPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-ronald-reagan-portrait.jpg" alt="B\xfcffel" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-ronald-reagan-portrait.jpg" alt="Ronald Reagan – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ronald Reagan</p>
         <p class="krim-portrait-typ">SO9w8 &middot; Social Type 9 with aft wing</p>
@@ -23145,7 +23145,7 @@ function rowanAtkinsonPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-rowan-atkinson-portrait.jpg" alt="Biber" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-rowan-atkinson-portrait.jpg" alt="Rowan Atkinson – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Rowan Atkinson</p>
         <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-Wing</p>
@@ -23275,7 +23275,7 @@ function ruthBaderGinsburgPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-ruth-bader-ginsburg-portrait.jpg" alt="Krokodil" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-ruth-bader-ginsburg-portrait.jpg" alt="Ruth Bader Ginsburg – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ruth Bader Ginsburg</p>
         <p class="krim-portrait-typ">SX8w9 &middot; Sexual Type 8 with nine wing\xfcgel</p>
@@ -23479,7 +23479,7 @@ function fridaKahloPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-frida-kahlo-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-frida-kahlo-portrait.jpg" alt="Frida Kahlo – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Frida Kahlo</p>
         <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
@@ -23545,7 +23545,7 @@ function nataschaKampuschPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-natascha-kampusch-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-natascha-kampusch-portrait.jpg" alt="Natascha Kampusch – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Natascha Kampusch</p>
         <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
@@ -23673,7 +23673,7 @@ function isabellaBriggsPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-isabel-briggs-myers-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-isabel-briggs-myers-portrait.jpg" alt="Isabella Briggs – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Isabella Briggs</p>
         <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
@@ -23731,7 +23731,7 @@ function arminRohdePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-armin-rohde-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-armin-rohde-portrait.jpg" alt="Armin Rohde – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Armin Rohde</p>
         <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
@@ -23789,7 +23789,7 @@ function mutterMeeraPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-mutter-meera-portrait.jpg" alt="Golden Retriever" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-mutter-meera-portrait.jpg" alt="Mother Meera – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Mother Meera</p>
         <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
@@ -23853,7 +23853,7 @@ function sucharitBhakdiPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-sucharit-bhakdi-portrait.jpg" alt="Sucharit Bhakdi" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-sucharit-bhakdi-portrait.jpg" alt="Prof. Dr. Sucharit Bhakdi – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. Dr. Sucharit Bhakdi</p>
         <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-Wing &middot; Herztyp</p>
@@ -24124,7 +24124,7 @@ function sundarPichaiPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-sundar-pichai-portrait.jpg" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-sundar-pichai-portrait.jpg" alt="Sundar Pichai – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sundar Pichai</p>
         <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with F\xfcnferfl\xfcgel</p>
@@ -24458,7 +24458,7 @@ function yayoiKusamaPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-yayoi-kusama-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-yayoi-kusama-portrait.jpg" alt="Yayoi Kusama – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Yayoi Kusama</p>
         <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
@@ -24592,7 +24592,7 @@ function veraBirkenbihlPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-vera-birkenbihl-portrait.jpg" alt="Vera Birkenbihl" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-vera-birkenbihl-portrait.jpg" alt="Vera F. Birkenbihl – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Vera F. Birkenbihl</p>
         <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with six-wing wing</p>
@@ -24732,7 +24732,7 @@ function junkoTabeiPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-junko-tabei-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-junko-tabei-portrait.jpg" alt="Junko Tabei – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Junko Tabei</p>
         <p class="krim-portrait-typ">SP7w6 &middot; Self-Preservation Type 7 with Six-wing</p>
@@ -24796,7 +24796,7 @@ function jeanneCalmentPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-jeanne-calment-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-jeanne-calment-portrait.jpg" alt="Jeanne Calment – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jeanne Calment</p>
         <p class="krim-portrait-typ">SP7w6 &middot; Self-Preservation Type 7 with Six-wing</p>
@@ -24868,7 +24868,7 @@ function larryKingPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-larry-king-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-larry-king-portrait.jpg" alt="Larry King – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Larry King</p>
         <p class="krim-portrait-typ">SP7w6 &middot; Self-Preservation Type 7 with Six-wing</p>
@@ -24932,7 +24932,7 @@ function wallaceShawnPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-wallace-shawn-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-wallace-shawn-portrait.jpg" alt="Wallace Shawn – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Wallace Shawn</p>
         <p class="krim-portrait-typ">SE7w6 &middot; Self-Preservation Type 7 with Six-Wing</p>
@@ -25463,7 +25463,7 @@ function robertDeNiroPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-robert-de-niro-portrait.jpg" alt="Eagle" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-robert-de-niro-portrait.jpg" alt="Robert De Niro – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Robert De Niro</p>
         <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
@@ -25591,7 +25591,7 @@ function pierceBrosnanPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-pierce-brosnan-portrait.jpg" alt="Eagle" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-pierce-brosnan-portrait.jpg" alt="Pierce Brosnan – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Pierce Brosnan</p>
         <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation Type 1 with Two-wing</p>
@@ -25656,7 +25656,7 @@ function peterSharpePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-peter-sharpe-portrait.jpg" alt="Eagle" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-peter-sharpe-portrait.jpg" alt="Dr. Peter Sharpe – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Peter Sharpe</p>
         <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
@@ -25723,7 +25723,7 @@ function anthonyHopkinsPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-anthony-hopkins-portrait.jpg" alt="Eagle" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-anthony-hopkins-portrait.jpg" alt="Anthony Hopkins – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Anthony Hopkins</p>
         <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
@@ -25790,7 +25790,7 @@ function magnusCarlsenPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-magnus-carlsen-portrait.jpg" alt="Eagle" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-magnus-carlsen-portrait.jpg" alt="Magnus Carlsen – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Magnus Carlsen</p>
         <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
@@ -25857,7 +25857,7 @@ function astridLindgrenPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-astrid-lindgren-portrait.jpg" alt="Eagle" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-astrid-lindgren-portrait.jpg" alt="Astrid Lindgren – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Astrid Lindgren</p>
         <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
@@ -26055,7 +26055,7 @@ function johnLennonPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-john-lennon-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-john-lennon-portrait.jpg" alt="John Lennon – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">John Lennon</p>
         <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
@@ -26260,7 +26260,7 @@ function tilSchweigerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-til-schweiger-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-til-schweiger-portrait.jpg" alt="Til Schweiger – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Til Schweiger</p>
         <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-wing</p>
@@ -26328,7 +26328,7 @@ function michaelJacksonPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-michael-jackson-portrait.jpg" alt="Armadillo" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-michael-jackson-portrait.jpg" alt="Michael Jackson – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Michael Jackson</p>
         <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-wing</p>
@@ -26395,7 +26395,7 @@ function taddlPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-taddl-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-taddl-portrait.jpg" alt="Taddl (Daniel Tjarks) – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Taddl (Daniel Tjarks)</p>
         <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-wing</p>
@@ -26456,7 +26456,7 @@ function romySchneiderPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-romy-schneider-portrait.jpg" alt="Gürteltier" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-romy-schneider-portrait.jpg" alt="Romy Schneider – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Romy Schneider</p>
         <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-wing</p>
@@ -26588,7 +26588,7 @@ function clemensArvayPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-clemens-arvay-portrait.jpg" alt="Taube" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-clemens-arvay-portrait.jpg" alt="Clemens G. Arvay – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Clemens G. Arvay</p>
         <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
@@ -26650,7 +26650,7 @@ function freddieMercuryPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-freddie-mercury-portrait.jpg" alt="Chihuahua" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-freddie-mercury-portrait.jpg" alt="Freddie Mercury – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Freddie Mercury</p>
         <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with Three-wing</p>
@@ -26771,7 +26771,7 @@ function anaDeArmasPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-ana-de-armas-portrait.jpg" alt="Chihuahua" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-ana-de-armas-portrait.jpg" alt="Ana de Armas – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ana de Armas</p>
         <p class="krim-portrait-typ">SX4w5 &middot; Sexual Type 4 with Five-wing</p>
@@ -26833,7 +26833,7 @@ function christianRaetschPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-christian-raetsch-portrait.jpg" alt="Eule" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-christian-raetsch-portrait.jpg" alt="Dr. Christian Rätsch – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Christian Rätsch</p>
         <p class="krim-portrait-typ">SP5w4 &middot; Self-Preservation Type 5 with Four-wing</p>
@@ -27030,7 +27030,7 @@ function jenniferMatherPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-jennifer-mather-portrait.jpg" alt="Octopus" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-jennifer-mather-portrait.jpg" alt="Jennifer Mather – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jennifer Mather</p>
         <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with Six-wing</p>
@@ -27091,7 +27091,7 @@ function billGatesPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-bill-gates-portrait.jpg" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-bill-gates-portrait.jpg" alt="Bill Gates – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Bill Gates</p>
         <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with Six-wing</p>
@@ -27353,7 +27353,7 @@ function kollegahPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-kollegah-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-kollegah-portrait.jpg" alt="Kollegah – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Kollegah</p>
         <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
@@ -27414,7 +27414,7 @@ function ludwigVanBeethovenPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-ludwig-van-beethoven-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-ludwig-van-beethoven-portrait.jpg" alt="Ludwig van Beethoven – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ludwig van Beethoven</p>
         <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
@@ -27487,7 +27487,7 @@ function wladimirPutinPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-wladimir-putin-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-wladimir-putin-portrait.jpg" alt="Vladimir Putin – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Vladimir Putin</p>
         <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
@@ -27554,7 +27554,7 @@ function aliceSchwarzerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-alice-schwarzer-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-alice-schwarzer-portrait.jpg" alt="Alice Schwarzer – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Alice Schwarzer</p>
         <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
@@ -27614,7 +27614,7 @@ function ankeEngelkePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-anke-engelke-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-anke-engelke-portrait.jpg" alt="Anke Engelke – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Anke Engelke</p>
         <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
@@ -27672,7 +27672,7 @@ function byronKatiePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-byron-katie-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-byron-katie-portrait.jpg" alt="Byron Katie – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Byron Katie</p>
         <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
@@ -27737,7 +27737,7 @@ function katjaRiemannPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-katja-riemann-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-katja-riemann-portrait.jpg" alt="Katja Riemann – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Katja Riemann</p>
         <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
@@ -27796,7 +27796,7 @@ function jenniferAnistonPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-jennifer-aniston-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-jennifer-aniston-portrait.jpg" alt="Jennifer Aniston – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jennifer Aniston</p>
         <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
@@ -27861,7 +27861,7 @@ function scarlettJohanssonPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-scarlett-johansson-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-scarlett-johansson-portrait.jpg" alt="Scarlett Johansson – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Scarlett Johansson</p>
         <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
@@ -27926,7 +27926,7 @@ function jasminPaoliniPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-jasmine-paolini-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-jasmine-paolini-portrait.jpg" alt="Jasmine Paolini – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jasmine Paolini</p>
         <p class="krim-portrait-typ">SP7w6 &middot; Self-Preservation Type 7 with Six-wing</p>
@@ -27984,7 +27984,7 @@ function moritzBleibtreuPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-moritz-bleibtreu-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-moritz-bleibtreu-portrait.jpg" alt="Moritz Bleibtreu – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Moritz Bleibtreu</p>
         <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
@@ -28046,7 +28046,7 @@ function hansZimmerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-hans-zimmer-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-hans-zimmer-portrait.jpg" alt="Hans Zimmer – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Hans Zimmer</p>
         <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
@@ -28104,7 +28104,7 @@ function francisBaconPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-francis-bacon-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-francis-bacon-portrait.jpg" alt="Francis Bacon – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Francis Bacon</p>
         <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
@@ -28168,7 +28168,7 @@ function drewBarrymorePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-drew-barrymore-portrait.jpg" alt="Beaver" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-drew-barrymore-portrait.jpg" alt="Drew Barrymore – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Drew Barrymore</p>
         <p class="krim-portrait-typ">SO7w8 &middot; Social Type 7 with Eight-wing</p>
@@ -28290,7 +28290,7 @@ function mileyCyrusPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-miley-cyrus-portrait.jpg" alt="Chimpanzee" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-miley-cyrus-portrait.jpg" alt="Miley Cyrus – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Miley Cyrus</p>
         <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
@@ -28470,7 +28470,7 @@ function jeanneMarieGuyonPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-jeanne-marie-guyon-portrait.jpg" alt="Beaver" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-jeanne-marie-guyon-portrait.jpg" alt="Jeanne-Marie Bouvier de la Motte Guyon – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jeanne-Marie Bouvier de la Motte Guyon</p>
         <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
@@ -28594,7 +28594,7 @@ function nikolaTeslaPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Dove" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Nikola Tesla – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nikola Tesla</p>
         <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
@@ -28663,7 +28663,7 @@ function derekGoodwinPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-derek-goodwin-portrait.jpg" alt="Dove" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-derek-goodwin-portrait.jpg" alt="Derek Goodwin – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Derek Goodwin</p>
         <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
@@ -28726,7 +28726,7 @@ function mariellaSuperinaPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-mariella-superina-portrait.jpg" alt="Armadillo" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-mariella-superina-portrait.jpg" alt="Dr. Mariella Superina – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Mariella Superina</p>
         <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
@@ -28789,7 +28789,7 @@ function carlFriedrichGaussPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-carl-friedrich-gauss-portrait.jpg" alt="Owl" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-carl-friedrich-gauss-portrait.jpg" alt="Carl Friedrich Gauss – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Carl Friedrich Gauss</p>
         <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
@@ -28848,7 +28848,7 @@ function parisHiltonPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-paris-hilton-portrait.jpg" alt="Chihuahua" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-paris-hilton-portrait.jpg" alt="Paris Hilton – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Paris Hilton</p>
         <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with Three-wing</p>
@@ -28910,7 +28910,7 @@ function ingoZimmermannPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-ingo-zimmermann-portrait.jpg" alt="Owl" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-ingo-zimmermann-portrait.jpg" alt="Prof. Dr. Ingo Zimmermann – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. Dr. Ingo Zimmermann</p>
         <p class="krim-portrait-typ">SE5w4 &middot; Self-Preservation Type 5 with Four-wing</p>
@@ -28973,7 +28973,7 @@ function hughWarwickPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-hugh-warwick-portrait.jpg" alt="Hedgehog" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-hugh-warwick-portrait.jpg" alt="Hugh Warwick – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Hugh Warwick</p>
         <p class="krim-portrait-typ">SX5w4 &middot; Sexual Type 5 with Four-wing</p>
@@ -29036,7 +29036,7 @@ function anneMcBridePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-anne-mcbride-portrait.jpg" alt="Rabbit" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-anne-mcbride-portrait.jpg" alt="Dr. Anne McBride – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Anne McBride</p>
         <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
@@ -29099,7 +29099,7 @@ function johnWaynePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-john-wayne-portrait.jpg" alt="Crocodile" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-john-wayne-portrait.jpg" alt="John Wayne – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">John Wayne</p>
         <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with Seven-wing</p>
@@ -29159,7 +29159,7 @@ function martaManserPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-marta-manser-portrait.jpg" alt="Meerkat" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-marta-manser-portrait.jpg" alt="Prof. Dr. Marta Manser – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. Dr. Marta Manser</p>
         <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with Five-wing</p>
@@ -29222,7 +29222,7 @@ function timCluttonBrockPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-tim-clutton-brock-portrait.jpg" alt="Meerkat" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-tim-clutton-brock-portrait.jpg" alt="Prof. Tim Clutton-Brock – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. Tim Clutton-Brock</p>
         <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with Five-wing</p>
@@ -29285,7 +29285,7 @@ function davidMechPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-david-mech-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-david-mech-portrait.jpg" alt="Dr. L. David Mech – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. L. David Mech</p>
         <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
@@ -29348,7 +29348,7 @@ function douglasSmithPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-douglas-smith-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-douglas-smith-portrait.jpg" alt="Dr. Douglas W. Smith – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Douglas W. Smith</p>
         <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
@@ -29411,7 +29411,7 @@ function frankRosellPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-frank-rosell-portrait.jpg" alt="Beaver" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-frank-rosell-portrait.jpg" alt="Prof. Dr. Frank Rosell – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. Dr. Frank Rosell</p>
         <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
@@ -29474,7 +29474,7 @@ function dietlandMuellerSchwarzePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-dietland-mueller-schwarze-portrait.jpg" alt="Beaver" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-dietland-mueller-schwarze-portrait.jpg" alt="Prof. Dr. Dietland Müller-Schwarze – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. Dr. Dietland Müller-Schwarze</p>
         <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
@@ -29537,7 +29537,7 @@ function fransDeWaalPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-frans-de-waal-portrait.jpg" alt="Chimpanzee" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-frans-de-waal-portrait.jpg" alt="Prof. Dr. Frans de Waal – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. Dr. Frans de Waal</p>
         <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
@@ -29601,7 +29601,7 @@ function christopheBoeschPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-christophe-boesch-portrait.jpg" alt="Chimpanzee" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-christophe-boesch-portrait.jpg" alt="Prof. Dr. Christophe Boesch – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. Dr. Christophe Boesch</p>
         <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight-wing</p>
@@ -29664,7 +29664,7 @@ function jillPruetzPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-jill-pruetz-portrait.jpg" alt="Chimpanzee" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-jill-pruetz-portrait.jpg" alt="Dr. Jill Pruetz – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Jill Pruetz</p>
         <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
@@ -29786,7 +29786,7 @@ function umbertEcoPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-umberto-eco-portrait.jpg" alt="Orang-Utan" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-umberto-eco-portrait.jpg" alt="Dr. Umberto Eco – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Umberto Eco</p>
         <p class="krim-portrait-typ">SP8w7 &middot; Self-Preservation Type 8 with Seven-wing</p>
@@ -29962,7 +29962,7 @@ function laurenceFrankPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-laurence-frank-portrait.jpg" alt="Lion" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-laurence-frank-portrait.jpg" alt="Dr. Laurence Frank – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Laurence Frank</p>
         <p class="krim-portrait-typ">SO8w7 &middot; Social Type 8 with Seven-wing</p>
@@ -30084,7 +30084,7 @@ function karlMarxPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-karl-marx-portrait.jpg" alt="Lion" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-karl-marx-portrait.jpg" alt="Karl Marx – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Karl Marx</p>
         <p class="krim-portrait-typ">SO8w9 &middot; Social Type 8 with Nine-wing</p>
@@ -30149,7 +30149,7 @@ function pabloPicassoPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-pablo-picasso-portrait.jpg" alt="Crocodile" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-pablo-picasso-portrait.jpg" alt="Pablo Picasso – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Pablo Picasso</p>
         <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with Seven-wing</p>
@@ -30232,7 +30232,7 @@ function grahameWebbPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-grahame-webb-portrait.jpg" alt="Crocodile" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-grahame-webb-portrait.jpg" alt="Prof. Grahame Webb – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. Grahame Webb</p>
         <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with Seven-wing</p>
@@ -30357,7 +30357,7 @@ function diogenesPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-diogenes-portrait.jpg" alt="Crocodile" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-diogenes-portrait.jpg" alt="Diogenes of Sinope – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Diogenes of Sinope</p>
         <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with Seven-wing</p>
@@ -30479,7 +30479,7 @@ function eliJaxonBearPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-eli-jaxon-bear-portrait.jpg" alt="Crocodile" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-eli-jaxon-bear-portrait.jpg" alt="Eli Jaxon-Bear – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Eli Jaxon-Bear</p>
         <p class="krim-portrait-typ">SX8w9 &middot; Sexual Type 8 with Nine-wing</p>
@@ -30682,7 +30682,7 @@ function carlTanzlerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-carl-tanzler-portrait.jpg" alt="Owl" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-carl-tanzler-portrait.jpg" alt="Carl Tanzler – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Carl Tanzler</p>
         <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
@@ -30753,7 +30753,7 @@ function marieCuriePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-marie-curie-portrait.jpg" alt="Owl" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-marie-curie-portrait.jpg" alt="Marie Curie – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Marie Curie</p>
         <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
@@ -30951,7 +30951,7 @@ function spinozaPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-spinoza-portrait.jpg" alt="Owl" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-spinoza-portrait.jpg" alt="Baruch de Spinoza – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Baruch de Spinoza</p>
         <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
@@ -31019,7 +31019,7 @@ function adamSmithPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-adam-smith-portrait.jpg" alt="Goose" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-adam-smith-portrait.jpg" alt="Adam Smith – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Adam Smith</p>
         <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
@@ -31208,7 +31208,7 @@ function abidaParveenPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-abida-parveen-portrait.jpg" alt="Elephant" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-abida-parveen-portrait.jpg" alt="Abida Parveen – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Abida Parveen</p>
         <p class="krim-portrait-typ">SP9w8 &middot; Self-Preservation Type 9 with Eight-wing</p>
@@ -31398,7 +31398,7 @@ function julianAssangePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-julian-assange-portrait.jpg" alt="Buffalo" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-julian-assange-portrait.jpg" alt="Julian Assange – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Julian Assange</p>
         <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with One-wing</p>
@@ -31463,7 +31463,7 @@ function alanMcelligottPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-alan-mcelligott-portrait.jpg" alt="Buffalo" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-alan-mcelligott-portrait.jpg" alt="Dr. Alan McElligott – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Alan McElligott</p>
         <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with One-wing</p>
@@ -31587,7 +31587,7 @@ function marioBarthPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-mario-barth-portrait.jpg" alt="Sloth" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-mario-barth-portrait.jpg" alt="Mario Barth – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Mario Barth</p>
         <p class="krim-portrait-typ">SX9w8 &middot; Sexual Type 9 with Eight-wing</p>
@@ -31653,7 +31653,7 @@ function lucyCookePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-lucy-cooke-portrait.jpg" alt="Sloth" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-lucy-cooke-portrait.jpg" alt="Lucy Cooke – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Lucy Cooke</p>
         <p class="krim-portrait-typ">SX9w8 &middot; Sexual Type 9 with Eight-wing</p>
@@ -31718,7 +31718,7 @@ function janeGoodallPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-jane-goodall-portrait.jpg" alt="Sloth" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-jane-goodall-portrait.jpg" alt="Dr. Jane Goodall – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Jane Goodall</p>
         <p class="krim-portrait-typ">SP9w1 &middot; Sexual Type 9 with One-wing</p>
@@ -31782,7 +31782,7 @@ function laurieMarkerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-laurie-marker-portrait.jpg" alt="Cheetah" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-laurie-marker-portrait.jpg" alt="Dr. Laurie Marker – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Laurie Marker</p>
         <p class="krim-portrait-typ">SO3w4 &middot; Social Type 3 with Four-wing</p>
@@ -31848,7 +31848,7 @@ function craigFosterPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-craig-foster-portrait.jpg" alt="Sloth" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-craig-foster-portrait.jpg" alt="Craig Foster – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Craig Foster</p>
         <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
@@ -31911,7 +31911,7 @@ function anaSalcedaPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-ana-salceda-portrait.jpg" alt="Sloth" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-ana-salceda-portrait.jpg" alt="Ana Salceda – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ana Salceda</p>
         <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
@@ -32036,7 +32036,7 @@ function sophieMarceauPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-sophie-marceau-portrait.jpg" alt="Faultier" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-sophie-marceau-portrait.jpg" alt="Sophie Marceau – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sophie Marceau</p>
         <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
@@ -32161,7 +32161,7 @@ function wilmaMankillerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-wilma-mankiller-portrait.jpg" alt="Buffalo" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-wilma-mankiller-portrait.jpg" alt="Wilma Mankiller – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Wilma Mankiller</p>
         <p class="krim-portrait-typ">SO9w8 &middot; Social Type 9 with Eight-wing</p>
@@ -32284,7 +32284,7 @@ function ludwigErhardPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-ludwig-erhard-portrait.jpg" alt="Elephant" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-ludwig-erhard-portrait.jpg" alt="Ludwig Erhard – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ludwig Erhard</p>
         <p class="krim-portrait-typ">SP9w1 &middot; Self-Preservation Type 9 with One-wing</p>
@@ -32348,7 +32348,7 @@ function herbertGroenomeyerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-herbert-groenemeyer-portrait.jpg" alt="Erdmännchen" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-herbert-groenemeyer-portrait.jpg" alt="Herbert Grönemeyer – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Herbert Grönemeyer</p>
         <p class="krim-portrait-typ">SO6w7 &middot; Social Type 6 with Seven-wing</p>
@@ -32407,7 +32407,7 @@ function jamesCordenPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-james-corden-portrait.jpg" alt="Meerkat" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-james-corden-portrait.jpg" alt="James Corden – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">James Corden</p>
         <p class="krim-portrait-typ">SO6w7 &middot; Social Type 6 with Seven-wing</p>
@@ -32476,7 +32476,7 @@ function sigmundFreudPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-sigmund-freud-portrait.jpg" alt="Erdmännchen" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-sigmund-freud-portrait.jpg" alt="Dr. Sigmund Freud – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Sigmund Freud</p>
         <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with Five-wing</p>
@@ -32607,7 +32607,7 @@ function andyReidPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-andy-reid-portrait.jpg" alt="Meerkat" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-andy-reid-portrait.jpg" alt="Andy Reid – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Andy Reid</p>
         <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with Five-wing</p>
@@ -32675,7 +32675,7 @@ function beatriceChebetPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-beatrice-chebet-portrait.jpg" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-beatrice-chebet-portrait.jpg" alt="Beatrice Chebet – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Beatrice Chebet</p>
         <p class="krim-portrait-typ">SP6w7 &middot; Self-Preservation Type 6 with Seven-wing</p>
@@ -32806,7 +32806,7 @@ function herbertKicklPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-herbert-kickl-portrait.jpg" alt="Kaninchen" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-herbert-kickl-portrait.jpg" alt="Herbert Kickl – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Herbert Kickl</p>
         <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
@@ -32938,7 +32938,7 @@ function markZuckerbergPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-mark-zuckerberg-portrait.jpg" alt="Igel" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-mark-zuckerberg-portrait.jpg" alt="Mark Zuckerberg – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Mark Zuckerberg</p>
         <p class="krim-portrait-typ">SX5w6 &middot; Sexual Type 5 with Six-wing</p>
@@ -32999,7 +32999,7 @@ function edwardSnowdenPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-edward-snowden-portrait.jpg" alt="Igel" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-edward-snowden-portrait.jpg" alt="Edward Snowden – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Edward Snowden</p>
         <p class="krim-portrait-typ">SX5w6 &middot; Sexual Type 5 with Six-wing</p>
@@ -33131,7 +33131,7 @@ function taylorSwiftPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-taylor-swift-portrait.jpg" alt="Igel" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-taylor-swift-portrait.jpg" alt="Taylor Swift – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Taylor Swift</p>
         <p class="krim-portrait-typ">SX5w4 &middot; Sexual Type 5 with Four-wing</p>
@@ -33263,7 +33263,7 @@ function claudioNaranjoPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-claudio-naranjo-portrait.jpg" alt="Claudio Naranjo" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-claudio-naranjo-portrait.jpg" alt="Dr. Claudio Naranjo – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Claudio Naranjo</p>
         <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with Four-wing</p>
@@ -33329,7 +33329,7 @@ function gertrudeElionPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-gertrude-elion-portrait.jpg" alt="Oktopus" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-gertrude-elion-portrait.jpg" alt="Gertrude Belle Elion – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Gertrude Belle Elion</p>
         <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with Four-wing</p>
@@ -33389,7 +33389,7 @@ function peterLustigPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-peter-lustig-portrait.jpg" alt="Eule" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-peter-lustig-portrait.jpg" alt="Peter Lustig – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Peter Lustig</p>
         <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
@@ -33450,7 +33450,7 @@ function ladyDianaPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-lady-diana-portrait.jpg" alt="Taube" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-lady-diana-portrait.jpg" alt="Lady Diana – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Lady Diana</p>
         <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
@@ -33512,7 +33512,7 @@ function dieterBohlenPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-dieter-bohlen-portrait.jpg" alt="Pfau" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-dieter-bohlen-portrait.jpg" alt="Dieter Bohlen – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dieter Bohlen</p>
         <p class="krim-portrait-typ">SX3w4 &middot; Sexual Type 3 with Four-wing</p>
@@ -33574,7 +33574,7 @@ function marleneZukPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-marlene-zuk-portrait.jpg" alt="Peacock" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-marlene-zuk-portrait.jpg" alt="Prof. Dr. Marlene Zuk – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. Dr. Marlene Zuk</p>
         <p class="krim-portrait-typ">SX3w4 &middot; Sexual Type 3 with Four-wing</p>
@@ -33637,7 +33637,7 @@ function bradPittPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-brad-pitt-portrait.jpg" alt="Peacock" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-brad-pitt-portrait.jpg" alt="Brad Pitt – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Brad Pitt</p>
         <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with Two-wing</p>
@@ -33705,7 +33705,7 @@ function kaiPflaumePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-kai-pflaume-portrait.jpg" alt="Pfau" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-kai-pflaume-portrait.jpg" alt="Kai Pflaume – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Kai Pflaume</p>
         <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with Two-wing</p>
@@ -33829,7 +33829,7 @@ function konradLorenzPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-konrad-lorenz-portrait.jpg" alt="Goose" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-konrad-lorenz-portrait.jpg" alt="Konrad Lorenz – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Konrad Lorenz</p>
         <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
@@ -33895,7 +33895,7 @@ function jordanPetersonPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-jordan-peterson-portrait.jpg" alt="Gans" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-jordan-peterson-portrait.jpg" alt="Dr. Jordan Peterson – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Jordan Peterson</p>
         <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
@@ -34265,7 +34265,7 @@ function camilleFritschPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-camille-fritsch-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-camille-fritsch-portrait.jpg" alt="Dr. Camille Fritsch – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Camille Fritsch</p>
         <p class="krim-portrait-typ">SE2w1 &middot; Self-Preservation Type 2 with One-wing</p>
@@ -34326,7 +34326,7 @@ function jjLiuPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-jj-liu-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-jj-liu-portrait.jpg" alt="J. J. Liu – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">J. J. Liu</p>
         <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
@@ -34384,7 +34384,7 @@ function frankaPotentePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-franka-potente-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-franka-potente-portrait.jpg" alt="Franka Potente – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Franka Potente</p>
         <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
@@ -34445,7 +34445,7 @@ function margotFriedlaenderPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-margot-friedlaender-portrait.jpg" alt="Hippopotamus" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-margot-friedlaender-portrait.jpg" alt="Margot Friedländer – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Margot Friedländer</p>
         <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
@@ -34577,7 +34577,7 @@ function janUllrichPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-jan-ullrich-portrait.jpg" alt="Flusspferd" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-jan-ullrich-portrait.jpg" alt="Jan Ullrich – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jan Ullrich</p>
         <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
@@ -34638,7 +34638,7 @@ function barackObamaPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-barack-obama-portrait.jpg" alt="Golden Retriever" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-barack-obama-portrait.jpg" alt="Barack Obama – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Barack Obama</p>
         <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
@@ -34700,7 +34700,7 @@ function albertSchweitzerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-albert-schweitzer-portrait.jpg" alt="Albert Schweitzer" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-albert-schweitzer-portrait.jpg" alt="Dr. Albert Schweitzer – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Albert Schweitzer</p>
         <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
@@ -34769,7 +34769,7 @@ function winifredCharlesworthPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-winifred-charlesworth-portrait.jpg" alt="Golden Retriever" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-winifred-charlesworth-portrait.jpg" alt="Mrs. Winifred Charlesworth – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Mrs. Winifred Charlesworth</p>
         <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
@@ -34897,7 +34897,7 @@ function ninaChubaPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-nina-chuba-portrait.jpg" alt="Golden Retriever" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-nina-chuba-portrait.jpg" alt="Nina Chuba – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nina Chuba</p>
         <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing</p>
@@ -34960,7 +34960,7 @@ function zoeSaldanaPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-zoe-saldana-portrait.jpg" alt="Golden Retriever" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-zoe-saldana-portrait.jpg" alt="Zoe Saldaña – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Zoe Saldaña</p>
         <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing</p>
@@ -35087,7 +35087,7 @@ function bernardFayePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-bernard-faye-portrait.jpg" alt="Camel" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-bernard-faye-portrait.jpg" alt="Dr. Bernard Faye – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Bernard Faye</p>
         <p class="krim-portrait-typ">SX2w1 &middot; Sexual Type 2 with One-wing</p>
@@ -35148,7 +35148,7 @@ function matthiasSchweighoeferPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-matthias-schweighoefer-portrait.jpg" alt="Kamel" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-matthias-schweighoefer-portrait.jpg" alt="Matthias Schweigh&ouml;fer – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Matthias Schweigh&ouml;fer</p>
         <p class="krim-portrait-typ">SX2w1 &middot; Sexual Type 2 with One-wing</p>
@@ -35277,7 +35277,7 @@ function cristianoRonaldoPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-cristiano-ronaldo-portrait.jpg" alt="Gepard" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-cristiano-ronaldo-portrait.jpg" alt="Cristiano Ronaldo – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Cristiano Ronaldo</p>
         <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-wing</p>
@@ -35540,7 +35540,7 @@ function christiaanBarnardPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-christiaan-barnard-portrait.jpg" alt="Christiaan Barnard" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-christiaan-barnard-portrait.jpg" alt="Dr. Christiaan Barnard – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Christiaan Barnard</p>
         <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-wing</p>
@@ -35617,7 +35617,7 @@ function ludwigXIVPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-ludwig-xiv-portrait.jpg" alt="Louis XIV" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-ludwig-xiv-portrait.jpg" alt="Louis XIV &ndash; the Sun King – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Louis XIV &ndash; the Sun King</p>
         <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-wing</p>
@@ -35682,7 +35682,7 @@ function kathrinBauerfeindPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-kathrin-bauerfeind-portrait.jpg" alt="Waschb&auml;r" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-kathrin-bauerfeind-portrait.jpg" alt="Kathrin Bauerfeind – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Kathrin Bauerfeind</p>
         <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
@@ -35803,7 +35803,7 @@ function annaAndersonPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-anna-anderson-portrait.jpg" alt="Raccoon" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-anna-anderson-portrait.jpg" alt="Anna Anderson – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Anna Anderson</p>
         <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
@@ -35927,7 +35927,7 @@ function sadhguruPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-sadhguru-portrait.jpg" alt="Waschb&auml;r" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-sadhguru-portrait.jpg" alt="Sadhguru – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sadhguru</p>
         <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
@@ -36121,7 +36121,7 @@ function penelopeCruzPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-penelope-cruz-portrait.jpg" alt="Pen&eacute;lope Cruz" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-penelope-cruz-portrait.jpg" alt="Penélope Cruz – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Penélope Cruz</p>
         <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
@@ -36254,7 +36254,7 @@ function bracoPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-braco-portrait.jpg" alt="Kamel" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-braco-portrait.jpg" alt="Braco – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Braco</p>
         <p class="krim-portrait-typ">SX2w3 &middot; Sexual Type 2 with Three-wing</p>
@@ -45027,7 +45027,7 @@ function dianFosseyPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-dian-fossey-portrait.jpg" alt="Gorilla" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-dian-fossey-portrait.jpg" alt="Dian Fossey – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dian Fossey</p>
         <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
@@ -58457,7 +58457,7 @@ function bellaThornePage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-bella-thorne-portrait.jpg" alt="Gepard" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-bella-thorne-portrait.jpg" alt="Bella Thorne – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Bella Thorne</p>
         <p class="krim-portrait-typ">SO3w4 &middot; Social Type 3 with a Four Wing</p>
