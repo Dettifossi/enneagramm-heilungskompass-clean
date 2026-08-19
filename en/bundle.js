@@ -1076,6 +1076,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Madame Guyon – Social Type 7",
     teaser:"SO7w6 · born 1648, died 1717. Mystic, the leading exponent of Quietism. Persecuted as a heretic, imprisoned for years, including in the Bastille. The beaver that devoted itself entirely to surrender to God – and endured persecution with quiet steadfastness.",
     tags:["Spiritualität","Geschichte"]},
+{ route:"beruehmte-frank-rosell", name:"Prof. Dr. Frank Rosell", added:"2026-08-19", subtyp:"SO7w6",
+    heading:"Prof. Dr. Frank Rosell – Social Type 7",
+    teaser:"SO7w6 · b. 1969. Norwegian biologist, professor at the University of South-Eastern Norway, world-leading authority on beavers, known as \"the beaver pope.\" Leads the Norwegian Beaver Project since 1997, over 130 scientific publications, standard work \"Beavers.\" Animal correspondence: Beaver.",
+    tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-hazel-brugger", name:"Hazel Brugger", subtyp:"SO7w8",
     heading:"Hazel Brugger – Social Type 7",
     teaser:"SO7w8 · born 1993. Comedian, cabaret artist, presenter, blogger, author, slam poet. Swiss-American. The beaver that builds, amuses and attacks – with speed, depth and a laugh that misses nothing. Animal correspondence: Beaver.",
@@ -4802,6 +4806,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-tim-clutton-brock", name:"Prof. Tim Clutton-Brock", subtyp:"SO6w5", tier:"Meerkat"},
   {route:"beruehmte-david-mech", name:"Dr. L. David Mech", subtyp:"SX6w5", tier:"Wolf"},
   {route:"beruehmte-douglas-smith", name:"Dr. Douglas W. Smith", subtyp:"SX6w5", tier:"Wolf"},
+  {route:"beruehmte-frank-rosell", name:"Prof. Dr. Frank Rosell", subtyp:"SO7w6", tier:"Beaver"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -29224,6 +29229,67 @@ function douglasSmithPortraitPage() {
   `);
 }
 
+function frankRosellPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-frank-rosell-portrait.jpg" alt="Beaver" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Frank Rosell</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Biologist, "the beaver pope," b. 1969 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The beaver who became the world authority on the beaver</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the Social Seven &ndash; it does not build for itself, but creates structures and knowledge that reach far beyond its own person, and is never truly finished, constantly expanding its work. Few scientists embody this principle as fully as Prof. Dr. Frank Rosell: the Norwegian biologist has led the Norwegian Beaver Project since 1997 and is known worldwide as "the beaver pope" &ndash; the first point of contact for governments and conservation organizations on beaver reintroduction or management.</p>
+          <p class="vb-intro">Born in 1969, Rosell has worked at the University of South-Eastern Norway since 1994 and has authored over 130 peer-reviewed publications, most of them on beavers. His standard work "Beavers: Ecology, Behaviour, Conservation, and Management," co-authored with Dr. Róisín Campbell-Palmer, is internationally regarded as the definitive reference on the subject.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: knowledge as a contribution to something larger</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo calls the <strong>Social Seven (SO7)</strong> "Sacrifice": it sacrifices its own immediate joy for a larger idea &ndash; and finds its deepest fulfillment precisely there. Rosell's research goes far beyond pure basic science: he has always understood his work as a contribution to practical solutions for conservation and environmental management, aiming to ground policy decisions and public debate about threatened species and their habitats in solid science.</p>
+          <p class="vb-intro">Telling, too, is that his expertise did not stop at beavers: in 2018 he additionally published a book on dogs' sense of smell ("Secrets of the Snout"), which was translated into several languages. The beaver does not build a single dam alone &ndash; it constantly extends its knowledge into new, related fields, always in service of a larger understanding of animal behaviour and communication.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: reliability as a scientific institution</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Social Seven a quality that stands in contrast to its boundless curiosity: reliability, methodical rigor, and the willingness to become an institutionally recognized, trustworthy authority. That Rosell is the world's first point of contact for governments and conservation agencies is owed precisely to this Six note &ndash; not the dazzling multi-talent, but the verifiable reliability built up over decades, like an institution.</p>
+          <p class="vb-intro">His systematic study of beavers' scent-marking systems and complex family structures &ndash; a subject that demands enormous methodical patience &ndash; shows this combination of Seven-style curiosity and Six-style thoroughness: new questions are not skimmed superficially but converted into solid, decades-secured expertise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 is its ability to turn <strong>insatiable curiosity into a reliable, world-renowned institution of knowledge</strong> &ndash; Rosell's work revolutionized the understanding of how beavers communicate through scent marks and complex family systems, and his counsel continues to shape conservation decisions around the globe.</p>
+          <p class="vb-intro">The shadow of the Social Seven with a Six-wing shows in how much one's own identity can merge into an institutional function: being known as "the beaver pope" also means the person increasingly fuses with a single, if very broad, role &ndash; an authority that offers security but also binds.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The beaver who built a knowledge structure for the beaver</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Rosell gives the world is a broadly secured foundation of knowledge, built over decades, about an animal itself famous for its complex structures &ndash; a fitting image for a man who built his own edifice of knowledge with the same persistence he observed in his research subject.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a man whose archetypal animal is the beaver, who devoted his entire professional life to that one tirelessly building animal &ndash; and, apparently unconsciously, studied his own deepest pattern along the way.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
+        {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-frank-rosell")}
+    </div>
+  `);
+}
+
 function julesVernePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -36306,12 +36372,12 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Beaver",
     kernthema: "Restless building in service of the community – never really finished (Naranjo: countertype of the Seven)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr."],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell"],
     fingerabdruecke: [
       {
         titel: "Restless, never-finished building in service of a larger system",
         beschreibung: "Instead of enjoying things for oneself, something is continuously built that has an effect beyond one's own person – as soon as one project is finished, the next already begins, with no real pause.",
-        beleg: "Elon Musk: 'The beaver doesn't do half measures. It builds and builds – and looks for the next obstacle to dam'; Hazel Brugger: 'The beaver always has a new project'; Drew Barrymore: 'If a dam collapses, the beaver starts over immediately, without dwelling on it.'"
+        beleg: "Elon Musk: 'The beaver doesn't do half measures. It builds and builds – and looks for the next obstacle to dam'; Hazel Brugger: 'The beaver always has a new project'; Drew Barrymore: 'If a dam collapses, the beaver starts over immediately, without dwelling on it'; Prof. Dr. Frank Rosell, who authored over 130 scientific publications and extended his expertise even beyond beavers into dogs' sense of smell – the beaver doesn't build just one dam."
       },
       {
         titel: "Complete inner planning before the first move is even made",
@@ -58076,6 +58142,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-tim-clutton-brock": timCluttonBrockPortraitPage,
       "beruehmte-david-mech": davidMechPortraitPage,
       "beruehmte-douglas-smith": douglasSmithPortraitPage,
+      "beruehmte-frank-rosell": frankRosellPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
