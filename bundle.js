@@ -89248,43 +89248,87 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     definition: "Der Herzinfarkt (Myokardinfarkt) bezeichnet den akuten, meist durch ein verschlossenes Herzkranzgefäß (Koronararterie) verursachten Untergang von Herzmuskelgewebe infolge einer Sauerstoff- und Nährstoffunterversorgung (Ischämie). Auslöser ist in der Regel die koronare Herzkrankheit (KHK) – eine fortschreitende Verengung der Herzkranzgefäße durch Arteriosklerose, also Ablagerungen (Plaques) an den Gefäßwänden. Reißt eine solche Plaque auf, kann sich ein Blutgerinnsel (Thrombus) bilden, das das Gefäß vollständig verschließt.",
     disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arztbesuch ersetzen.",
     einleitung: "Die Herzmedizin kennt seit den 1950er-Jahren das Konzept der &bdquo;Typ-A-Persönlichkeit&ldquo; (Friedman &amp; Rosenman): ehrgeizig, zeitgetrieben, wettbewerbsorientiert, mit unterdrückter oder explosiver Aggression – ein Muster, das in Langzeitstudien mit erhöhtem kardiovaskulärem Risiko korreliert. Auch die Traditionelle Chinesische Medizin ordnet das Herz dem Feuer-Element zu, dem Sitz des Shen, des Geistes und der Lebensfreude – gerät dieses Feuer aus dem Takt, liest die Psychosomatik das häufig als Ausdruck verweigerter oder erzwungener Freude, chronischer Selbstüberforderung oder eines Lebens, das lange am eigenen Herzen vorbeigelebt wurde.",
-    subtypen: [
+    typen: [
       {
-        code: "SE1 / SO1",
-        titel: "Der nach innen gerichtete Zorn",
-        punkte: [
-          "Jahrzehntelange Selbstkontrolle als oberstes Lebensprinzip: Nichts darf außer Kontrolle geraten, am wenigsten die eigene Wut.",
-          "Der Zorn wird nicht ausgedrückt, sondern diszipliniert verwaltet – eine Daueranspannung, die selten Entladung findet.",
-          "Das Herz trägt buchstäblich die Last einer Explosion, die sich der Mensch sein Leben lang nie erlaubt hat.",
+        typ: 1, titel: "Zorn – die Frage, wohin er darf",
+        varianten: [
+          { code: "SE1", text: "Bei der selbsterhaltenden Eins ist der Zorn am radikalsten nach innen gerichtet: Selbstkontrolle wird zum obersten Lebensprinzip, nichts darf außer Kontrolle geraten, am wenigsten die eigene Wut. Der Ärger wird nicht ausgedrückt, sondern diszipliniert verwaltet – eine Daueranspannung, die selten Entladung findet. Von den drei Einser-Varianten trägt sie damit das klassischste Bild der stillen, chronisch unterdrückten Anspannung, wie sie das Typ-A-Konzept beschreibt." },
+          { code: "SO1", text: "Bei der sozialen Eins verwandelt sich der Zorn in moralische Empörung: Sie wird zur Reformerin der Gruppe, benennt Missstände, kämpft für das, was richtig ist. Der Ärger findet ein Ventil in Worten und Engagement – aber das zugrunde liegende Gefühl, dass die Welt permanent nicht in Ordnung ist, bleibt ein chronischer innerer Stressfaktor, der eher über kognitive Erschöpfung als über reine Unterdrückung wirkt." },
+          { code: "SX1", text: "Bei der sexuellen Eins ist der Zorn am direktesten ausgelebt: intensive, fordernde Nähe zum Partner, Eifersucht, der Anspruch, auch die Beziehung zu vervollkommnen. Der Ärger hat ein unmittelbares Ventil – dadurch potenziell weniger stille Dauerspannung, dafür eine emotionale Achterbahn mit episodischen Belastungsspitzen statt gleichmäßigem Druck." },
         ],
       },
       {
-        code: "SE3 / SO3",
-        titel: "Das Herz im Dienst der Leistung",
-        punkte: [
-          "Der eigene Wert bemisst sich am nächsten Ergebnis, am nächsten Beweis der eigenen Tüchtigkeit.",
-          "Erschöpfung wird nicht als Warnsignal gelesen, sondern als Schwäche, die es zu überwinden gilt.",
-          "Das Herz pumpt im Takt der Zielvorgaben weiter, lange nachdem der Körper längst um eine Pause gebeten hat.",
+        typ: 2, titel: "Stolz – wessen Bedürfnisse zählen",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei lebt den Satz „Ich brauche niemanden“ am wörtlichsten: stille Selbstaufopferung im privaten, familiären Rahmen, die eigenen Bedürfnisse werden dauerhaft verdrängt. Die Belastung entsteht nicht aus Wettbewerb, sondern aus permanentem Gedecktsein für andere – das eigene Herz wird schlicht nie gehört." },
+          { code: "SO2", text: "Die soziale Zwei sucht Stolz über öffentliche Unentbehrlichkeit: ständige Verfügbarkeit für die Gemeinschaft, das Gefühl, gebraucht zu werden. Chronische Überlastung entsteht hier durch die Unfähigkeit, Nein zu sagen – eine Erschöpfungsform, die dem „Helfersyndrom“ nahesteht." },
+          { code: "SX2", text: "Die sexuelle Zwei sucht Stolz über Verführung und Unwiderstehlichkeit für eine einzelne Person, intensives, oft possessives Geben in der Zweierbeziehung. Emotionale Volatilität und Eifersucht wirken hier als eigener Dauerstressor, weniger die klassische Erschöpfung durch Überarbeitung." },
         ],
       },
       {
-        code: "SO8 / SE8",
-        titel: "Die Kraft, die niemals nachlassen darf",
-        punkte: [
-          "Rückzug, Verletzlichkeit oder Ruhebedürfnis werden als Angriffsfläche erlebt, nicht als legitimes Bedürfnis.",
-          "Intensität ist Lebensprinzip: volle Kraft, volles Tempo, keine halben Sachen.",
-          "Das Herz läuft dauerhaft auf Hochspannung, weil Herunterschalten im inneren Selbstbild keinen Platz hat.",
+        typ: 3, titel: "Leistung – wo das Herz mitläuft",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei misst den eigenen Wert am nächsten Ergebnis, am nächsten Beweis der eigenen Tüchtigkeit – still und effizient statt spektakulär. Erschöpfung wird nicht als Warnsignal gelesen, sondern als Schwäche, die es zu überwinden gilt. Das Herz pumpt im Takt der Zielvorgaben weiter, lange nachdem der Körper längst um eine Pause gebeten hat." },
+          { code: "SO3", text: "Die soziale Drei sucht Erfolg öffentlich sichtbar: Status, Wettbewerb, Anerkennung durch Leistung vor Publikum. Sie kommt dem klassischen Bild der Typ-A-Persönlichkeit am nächsten – ehrgeizig, zeitgetrieben, ständig im Vergleich mit anderen." },
+          { code: "SX3", text: "Die sexuelle Drei setzt Leistung im Beziehungskontext ein: Attraktivität, Charisma und permanente Selbstoptimierung, um für den einen Menschen „der oder die Beste“ zu sein. Die Erschöpfung entsteht aus dem Druck, auch im intimsten Bereich nie nachzulassen." },
+        ],
+      },
+      {
+        typ: 4, titel: "Neid – wenn Sehnsucht statt Wut das Herz belastet",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, erträgt Leid zäh und nach außen kaum sichtbar – die Verbindung zum Herzinfarkt-Muster ist hier weniger über Wut, eher über chronisch unterdrückte Trauer und Sehnsucht denkbar: ein Leben, das leise weiterläuft, obwohl innerlich viel unausgesprochen bleibt." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar und zu einem Teil der eigenen Identität – dramatische emotionale Intensität, die sich eher in Erschöpfungszuständen als in klassischer Typ-A-Anspannung äußert." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, oft im ständigen Vergleich mit anderen Beziehungen oder Idealen. Heftige emotionale Ausschläge und eine potenziell konfliktreiche Beziehungsdynamik sind hier der wahrscheinlichere Belastungsfaktor als stille Dauerspannung." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug – wenn Distanz selbst zum Risiko wird",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück, minimiert Bedürfnisse, hält emotionale Distanz. Im klassischen Sinn ist das kein Typ-A-Muster – doch soziale Isolation ist medizinisch selbst ein anerkannter Risikofaktor für Herz-Kreislauf-Erkrankungen, unabhängig von akutem Stress." },
+          { code: "SO5", text: "Die soziale Fünf sucht Zugang zur Gruppe über Wissen und Beobachtung, hält aber auch im sozialen Kontext innere Distanz – eine Mischung aus Teilhabe und Rückzug, die eigene Bedürfnisse selten klar benennt." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine „vertraute“ Verbindung von großer Tiefe bei gleichzeitig radikaler Abschottung nach außen." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst – der Körper in Daueralarm",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs sucht Sicherheit durch Vorsicht und Vorbereitung – eine Form von Daueralarmbereitschaft, die über chronisch erhöhte Stresshormonspiegel plausibel mit erhöhtem kardiovaskulärem Risiko in Verbindung gebracht werden kann." },
+          { code: "SO6", text: "Die soziale Sechs sucht Sicherheit über Zugehörigkeit zu Gruppe oder Autorität, ist loyal und regeltreu – die Belastung entsteht hier vor allem aus dem Gefühl der Verantwortung für das Kollektiv." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch: durch Stärke-Projektion, Konfrontation, das Gegenteil von Rückzug. Diese Mischung aus Angst und Zorn erzeugt eigene, episodische Belastungsspitzen." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit – Zerstreuung statt Stille",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über Optionen, Netzwerke und praktische Absicherung ab – Rastlosigkeit und viele parallele Projekte führen zu einer Erschöpfung durch Zerstreuung, nicht durch klassische Anspannung." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung lange verleugnet." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv, „alles, sofort“ – hier ist der plausibelste Zusammenhang zum Herzinfarkt-Risiko oft nicht die innere Anspannung selbst, sondern der Lebensstil: Suchtpotenzial gegenüber Nikotin, Alkohol oder anderen Genussmitteln, die medizinisch als anerkannte Risikofaktoren gelten." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle – die Kraft, die niemals nachlassen darf",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen – Rückzug oder Ruhebedürfnis werden als Angriffsfläche erlebt, nicht als legitimes Bedürfnis. Das Herz läuft dauerhaft auf Hochspannung, weil Herunterschalten im inneren Selbstbild keinen Platz hat." },
+          { code: "SO8", text: "Die soziale Acht übernimmt Kontrolle über die Gruppe, oft in einer Beschützerrolle: „Niemand in meinem Umfeld darf schwach sein.“ Verantwortungsdruck und permanente Führungsspannung sind hier der zentrale Belastungsfaktor." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, ohne Halbes. Die Belastung zeigt sich in extremen emotionalen und körperlichen Ausschlägen statt in gleichmäßiger Dauerspannung." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit – das Herz, das nie gehört wurde",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort, Routine und Konfliktvermeidung – wenig akute Stressbelastung auf den ersten Blick, aber „Selbstvergessenheit“ bedeutet auch: die eigenen Herzenswünsche werden über Jahrzehnte nie gehört. Das ist die vielleicht wörtlichste Entsprechung zur Kernthese dieses Eintrags – ein Leben, das lange am eigenen Herzen vorbeigelebt wird." },
+          { code: "SO9", text: "Die soziale Neun sucht Harmonie um jeden Preis innerhalb der Gruppe, ordnet die eigene Meinung konsequent unter – eine chronische Selbstauslöschung zugunsten des sozialen Friedens." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Herzens, das nie eine eigene Stimme fand." },
         ],
       },
     ],
-    abschluss: "Das heißt ausdrücklich nicht, dass andere Subtypen verschont blieben – sondern dass diese drei Muster besonders häufig eine Konstellation erzeugen, in der Lebensstil, innere Anspannung und Körper über Jahre in dieselbe Richtung wirken. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+    abschluss: "Kein Subtyp ist vor einem Herzinfarkt gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit dem Herzen als Organ der Lebenskraft verhandelt – manche über Anspannung und Kontrolle, andere über Rückzug, Erschöpfung oder ein nie gehörtes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
 };
 
 function _psychosomatikBuecherHtml() {
   const w = text.werk;
-  const books = werkRegister.filter(b => b.category === "homoeopathie");
-  const cards = books.map((book) => {
+  const cardsFor = (cat) => werkRegister.filter(b => b.category === cat).map((book) => {
     const isPending = book.status === "link_pruefen";
     const verlagsLink = isPending
       ? `<span class="deepen-link deepen-link--pending">${w.linkPending}</span>`
@@ -89308,9 +89352,14 @@ function _psychosomatikBuecherHtml() {
 
   return `
     <section class="werk" style="margin-top:2.5rem;">
-      <div class="section-divider"><span>Bücher zur Heilung</span></div>
+      <div class="section-divider"><span>Fachbücher zur Heilung</span></div>
       <p class="lead-small werk__lead">Das Verlagshausprogramm zu Homöopathie und Enneagramm-Heilkunde &ndash; die fachliche Grundlage, aus der auch dieses Psychosomatik-Register schöpft.</p>
-      <div class="werk-grid">${cards}</div>
+      <div class="werk-grid">${cardsFor("homoeopathie")}</div>
+    </section>
+    <section class="werk" style="margin-top:2rem;">
+      <div class="section-divider"><span>Spirituelle & persönliche Heilungsbücher</span></div>
+      <p class="lead-small werk__lead">Über die Fachliteratur hinaus bietet das Verlagshausprogramm auch spirituelle und persönlichkeitsorientierte Titel zu Heilung und Leidenschaft.</p>
+      <div class="werk-grid">${cardsFor("persönliche-entwicklung")}</div>
     </section>
   `;
 }
@@ -89374,15 +89423,20 @@ function psychosomatikPage() {
 function psychosomatikDetailPage(slug) {
   const k = PSYCHOSOMATIK_KRANKHEITEN[slug];
   if (!k) return psychosomatikPage();
-  const subtypBloecke = k.subtypen.map(s => `
-    <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid var(--copper);border-radius:0 8px 8px 0;padding:1.1rem 1.3rem;margin-bottom:1rem;max-width:640px;">
-      <p style="font-size:0.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.3rem;">${s.code}</p>
-      <p style="font-family:var(--serif);font-size:1.1rem;color:var(--ink);margin:0 0 0.7rem;font-weight:600;">${s.titel}</p>
-      <ul style="margin:0;padding-left:1.2rem;">
-        ${s.punkte.map(p => `<li style="font-size:0.93rem;line-height:1.65;color:var(--ink);margin-bottom:0.4rem;">${p}</li>`).join("")}
-      </ul>
+  const subtypBloecke = k.typen.map(t => {
+    const farbe = typeColor(t.typ);
+    return `
+    <div style="background:color-mix(in srgb, ${farbe} 5%, var(--paper));border-left:3px solid ${farbe};border-radius:0 8px 8px 0;padding:1.1rem 1.3rem;margin-bottom:1rem;max-width:640px;">
+      <p style="font-size:0.78rem;font-weight:700;color:${farbe};text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.3rem;">Typ ${t.typ}</p>
+      <p style="font-family:var(--serif);font-size:1.1rem;color:var(--ink);margin:0 0 0.8rem;font-weight:600;">${t.titel}</p>
+      ${t.varianten.map(v => `
+        <p style="margin:0 0 0.7rem;font-size:0.93rem;line-height:1.65;color:var(--ink);">
+          <span style="font-weight:700;color:${farbe};">${v.code}</span> &middot; ${v.text}
+        </p>
+      `).join("")}
     </div>
-  `).join("");
+  `;
+  }).join("");
 
   return shell(`
     <div class="page-container">

@@ -54754,43 +54754,87 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     definition: "A heart attack (myocardial infarction) refers to the acute death of heart-muscle tissue, usually caused by a blocked coronary artery, resulting in an insufficient supply of oxygen and nutrients (ischemia). The trigger is typically coronary artery disease (CAD) – a progressive narrowing of the coronary arteries caused by atherosclerosis, i.e. deposits (plaques) on the vessel walls. If such a plaque ruptures, a blood clot (thrombus) can form that completely blocks the vessel.",
     disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor.",
     einleitung: "Cardiology has known since the 1950s the concept of the &bdquo;Type A personality&ldquo; (Friedman &amp; Rosenman): ambitious, time-driven, competitive, with suppressed or explosive aggression – a pattern that long-term studies correlate with elevated cardiovascular risk. Traditional Chinese Medicine likewise assigns the heart to the Fire element, the seat of Shen, the spirit and the joy of life – when this fire falls out of rhythm, psychosomatic medicine often reads it as an expression of denied or forced joy, chronic self-overextension, or a life that has long been lived past one's own heart.",
-    subtypen: [
+    typen: [
       {
-        code: "SE1 / SO1",
-        titel: "Anger turned inward",
-        punkte: [
-          "Decades of self-control as the supreme life principle: nothing may get out of control, least of all one's own anger.",
-          "Anger is not expressed but disciplined and managed – a permanent tension that rarely finds release.",
-          "The heart literally carries the weight of an explosion the person never allowed themselves in their entire life.",
+        typ: 1, titel: "Anger – the question of where it may go",
+        varianten: [
+          { code: "SE1", text: "In the self-preservation One, anger is most radically turned inward: self-control becomes the supreme life principle, nothing may get out of control, least of all one's own anger. The anger is not expressed but disciplined and managed – a permanent tension that rarely finds release. Of the three One variants, this is the classic picture of the silent, chronically suppressed tension described by the Type-A concept." },
+          { code: "SO1", text: "In the social One, anger turns into moral outrage: they become the group's reformer, naming what's wrong, fighting for what is right. The anger finds an outlet in words and engagement – but the underlying feeling that the world is permanently not as it should be remains a chronic inner stressor, working more through cognitive exhaustion than pure suppression." },
+          { code: "SX1", text: "In the sexual One, anger is lived most directly: intense, demanding closeness to the partner, jealousy, the drive to perfect the relationship itself. The anger has an immediate outlet – potentially less silent, sustained tension, but instead an emotional rollercoaster with episodic peaks of strain rather than steady pressure." },
         ],
       },
       {
-        code: "SE3 / SO3",
-        titel: "A heart in the service of achievement",
-        punkte: [
-          "Self-worth is measured by the next result, the next proof of one's own competence.",
-          "Exhaustion is not read as a warning sign but as a weakness to be overcome.",
-          "The heart keeps pumping to the rhythm of the next target, long after the body has already asked for a pause.",
+        typ: 2, titel: "Pride – whose needs count",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two lives the sentence &bdquo;I need no one&ldquo; most literally: quiet self-sacrifice within the private, family sphere, one's own needs permanently pushed aside. The strain arises not from competition but from permanently covering for others – one's own heart simply never gets heard." },
+          { code: "SO2", text: "The social Two seeks pride through public indispensability: constant availability for the community, the feeling of being needed. Chronic overload arises here through the inability to say no – a form of exhaustion close to what is called helper syndrome." },
+          { code: "SX2", text: "The sexual Two seeks pride through seduction and being irresistible to one single person, intense, often possessive giving within the pair-bond. Emotional volatility and jealousy act here as their own stressor, more than the classic exhaustion from overwork." },
         ],
       },
       {
-        code: "SO8 / SE8",
-        titel: "Strength that must never let up",
-        punkte: [
-          "Withdrawal, vulnerability, or the need for rest are experienced as a point of attack, not as a legitimate need.",
-          "Intensity is a life principle: full power, full speed, no half measures.",
-          "The heart runs permanently under high tension, because slowing down has no place in the inner self-image.",
+        typ: 3, titel: "Achievement – where the heart keeps running along",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three measures self-worth by the next result, the next proof of one's own competence – quietly and efficiently rather than spectacularly. Exhaustion is not read as a warning sign but as a weakness to be overcome. The heart keeps pumping to the rhythm of the next target, long after the body has already asked for a pause." },
+          { code: "SO3", text: "The social Three seeks success visibly in public: status, competition, recognition through performance in front of an audience. Of the three, this variant comes closest to the classic picture of the Type-A personality – ambitious, time-driven, constantly comparing themselves to others." },
+          { code: "SX3", text: "The sexual Three deploys achievement within the relational context: attractiveness, charisma, and constant self-optimization in order to be &bdquo;the best&ldquo; for the one person that matters. The exhaustion arises from the pressure to never let up even in the most intimate sphere." },
+        ],
+      },
+      {
+        typ: 4, titel: "Envy – when longing rather than anger burdens the heart",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, endures suffering doggedly and with little outward visibility – the link to the heart-attack pattern here runs less through anger and more through chronically suppressed grief and longing: a life that quietly carries on while much remains unspoken inside." },
+          { code: "SO4", text: "The social Four makes their own suffering visible and part of their identity – dramatic emotional intensity that shows up more as states of exhaustion than as classic Type-A tension." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity, often in constant comparison with other relationships or ideals. Intense emotional swings and a potentially conflict-laden relationship dynamic are the more likely stressor here than silent, sustained tension." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal – when distance itself becomes the risk",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically, minimizes needs, keeps emotional distance. In the classic sense this is not a Type-A pattern – yet social isolation is itself a recognized medical risk factor for cardiovascular disease, independent of acute stress." },
+          { code: "SO5", text: "The social Five seeks access to the group through knowledge and observation, but keeps inner distance even in social contexts – a mixture of participation and withdrawal that rarely names its own needs clearly." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – a confiding connection of great depth alongside radical closure to the outside world." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear – the body on permanent alert",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six seeks safety through caution and preparation – a form of permanent alertness that, through chronically elevated stress-hormone levels, is plausibly linked to elevated cardiovascular risk." },
+          { code: "SO6", text: "The social Six seeks safety through belonging to a group or authority, loyal and rule-abiding – the strain here arises above all from the felt responsibility for the collective." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically: through projected strength, confrontation, the opposite of withdrawal. This mixture of fear and anger produces its own episodic peaks of strain." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony – scattering instead of stillness",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through options, networks, and practical safeguards – restlessness and many parallel projects lead to exhaustion through scattering rather than classic tension." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – an idealistic, often duty-bound self-sacrifice that denies its own exhaustion for a long time." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – &bdquo;everything, now&ldquo;. Here the more plausible link to heart-attack risk is often not the inner tension itself but the lifestyle: susceptibility to nicotine, alcohol, or other stimulants that are medically recognized risk factors." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control – strength that must never let up",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight secures its own existence through control over material and physical resources – withdrawal or the need for rest is experienced as a point of attack, not a legitimate need. The heart runs permanently under high tension, because slowing down has no place in the inner self-image." },
+          { code: "SO8", text: "The social Eight takes control over the group, often in a protector role: &bdquo;No one around me is allowed to be weak.&ldquo; The pressure of responsibility and permanent leadership tension are the central strain here." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway. The strain shows up in extreme emotional and physical swings rather than steady, sustained tension." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting – the heart that was never heard",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort, routine, and conflict avoidance – little acute stress at first glance, but &bdquo;self-forgetting&ldquo; also means: one's own heart's desires go unheard for decades. This is perhaps the most literal match to this entry's core thesis – a life lived past one's own heart for a very long time." },
+          { code: "SO9", text: "The social Nine seeks harmony at any cost within the group, consistently subordinating its own opinion – a chronic self-erasure in favor of social peace." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a heart that never found its own voice." },
         ],
       },
     ],
-    abschluss: "This explicitly does not mean that other subtypes are spared – rather, that these three patterns particularly often create a constellation in which lifestyle, inner tension, and body work in the same direction over years. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+    abschluss: "No subtype is immune to a heart attack, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates with the heart as the organ of life force in its own way – some through tension and control, others through withdrawal, exhaustion, or a need of their own that was never heard. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
 };
 
 function _psychosomatikBuecherHtml() {
   const w = text.werk;
-  const books = werkRegister.filter(b => b.category === "homoeopathie");
-  const cards = books.map((book) => {
+  const cardsFor = (cat) => werkRegister.filter(b => b.category === cat).map((book) => {
     const isPending = book.status === "link_pruefen";
     const verlagsLink = isPending
       ? `<span class="deepen-link deepen-link--pending">${w.linkPending}</span>`
@@ -54814,9 +54858,14 @@ function _psychosomatikBuecherHtml() {
 
   return `
     <section class="werk" style="margin-top:2.5rem;">
-      <div class="section-divider"><span>Books on Healing</span></div>
+      <div class="section-divider"><span>Specialist Books on Healing</span></div>
       <p class="lead-small werk__lead">The publishing program on homeopathy and Enneagram healing arts &ndash; the professional foundation this Psychosomatics Register also draws on.</p>
-      <div class="werk-grid">${cards}</div>
+      <div class="werk-grid">${cardsFor("homoeopathie")}</div>
+    </section>
+    <section class="werk" style="margin-top:2rem;">
+      <div class="section-divider"><span>Spiritual &amp; Personal Healing Books</span></div>
+      <p class="lead-small werk__lead">Beyond the specialist literature, the publishing program also offers spiritual and personal-development titles on healing and passion.</p>
+      <div class="werk-grid">${cardsFor("persönliche-entwicklung")}</div>
     </section>
   `;
 }
@@ -54880,15 +54929,20 @@ function psychosomatikPage() {
 function psychosomatikDetailPage(slug) {
   const k = PSYCHOSOMATIK_KRANKHEITEN[slug];
   if (!k) return psychosomatikPage();
-  const subtypBloecke = k.subtypen.map(s => `
-    <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid var(--copper);border-radius:0 8px 8px 0;padding:1.1rem 1.3rem;margin-bottom:1rem;max-width:640px;">
-      <p style="font-size:0.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.3rem;">${s.code}</p>
-      <p style="font-family:var(--serif);font-size:1.1rem;color:var(--ink);margin:0 0 0.7rem;font-weight:600;">${s.titel}</p>
-      <ul style="margin:0;padding-left:1.2rem;">
-        ${s.punkte.map(p => `<li style="font-size:0.93rem;line-height:1.65;color:var(--ink);margin-bottom:0.4rem;">${p}</li>`).join("")}
-      </ul>
+  const subtypBloecke = k.typen.map(t => {
+    const farbe = typeColor(t.typ);
+    return `
+    <div style="background:color-mix(in srgb, ${farbe} 5%, var(--paper));border-left:3px solid ${farbe};border-radius:0 8px 8px 0;padding:1.1rem 1.3rem;margin-bottom:1rem;max-width:640px;">
+      <p style="font-size:0.78rem;font-weight:700;color:${farbe};text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.3rem;">Type ${t.typ}</p>
+      <p style="font-family:var(--serif);font-size:1.1rem;color:var(--ink);margin:0 0 0.8rem;font-weight:600;">${t.titel}</p>
+      ${t.varianten.map(v => `
+        <p style="margin:0 0 0.7rem;font-size:0.93rem;line-height:1.65;color:var(--ink);">
+          <span style="font-weight:700;color:${farbe};">${v.code}</span> &middot; ${v.text}
+        </p>
+      `).join("")}
     </div>
-  `).join("");
+  `;
+  }).join("");
 
   return shell(`
     <div class="page-container">
