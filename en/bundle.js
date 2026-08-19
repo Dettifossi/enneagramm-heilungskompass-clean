@@ -16641,7 +16641,7 @@ function robertSchumannPortraitPage() {
         <h2 class="vb-section">1. The Chimpanzee in Two Guises</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of Sexual Type 7 &ndash; a creature that does not live in quiet distance but in immediate, often overflowing contact with the world. Few composers made this dual nature as conscious as Robert Schumann, who split his own personality into two literary figures: the stormy, impulsive <em>Florestan</em> and the dreamy, inward-turned <em>Eusebius</em>. He signed his music reviews alternately with both names &ndash; as if he himself knew that more than one voice spoke within him.</p>
-          <p class="vb-intro">Born in 1810 in Zwickau as the son of a bookseller and writer, Schumann grew up in a house full of literature. The chimpanzee's restlessness showed itself early: law studies here, piano virtuosity there, poetry in between &ndash; before he finally committed himself entirely to music. A self-inflicted hand injury, likely caused by a mechanical practice device, abruptly ended his career as a pianist and redirected all his energy toward composing and writing.</p>
+          <p class="vb-intro">The German composer Robert Schumann, born in 1810 in Zwickau as the son of a bookseller and writer, grew up in a house full of literature. The chimpanzee's restlessness showed itself early: law studies here, piano virtuosity there, poetry in between &ndash; before he finally committed himself entirely to music. A self-inflicted hand injury, likely caused by a mechanical practice device, abruptly ended his career as a pianist and redirected all his energy toward composing and writing.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Sexual Seven: Enthusiasm Without Reservation</h2>
@@ -16708,7 +16708,7 @@ function franzLisztPortraitPage() {
         <h2 class="vb-section">1. The Chimpanzee Who Sent Whole Halls Into Ecstasy</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of Sexual Type 7 &ndash; a creature that does not live in quiet distance but in immediate, often overflowing contact with the world, infecting entire crowds with its energy. Few musicians in history experienced this as literally as Franz Liszt: the poet Heinrich Heine coined the term "Lisztomania" in 1844 specifically for the collective hysteria his concerts triggered &ndash; women fainting, fighting over his broken piano strings and discarded gloves to keep as relics.</p>
-          <p class="vb-intro">Born in 1811 in Raiding, Hungary, the son of an estate manager in the service of the Esterházy princes, Liszt showed extraordinary talent even as a child, which soon led him to lessons with Carl Czerny and later to Paris. His physical playing style was so powerful that piano strings regularly snapped during his performances &ndash; a piano maker had to supply specially reinforced instruments for his concerts. The chimpanzee does not play for itself &ndash; it enthusiastically sweeps the entire hall along with it.</p>
+          <p class="vb-intro">The Hungarian composer Franz Liszt, born in 1811 in Raiding, Hungary, the son of an estate manager in the service of the Esterházy princes, showed extraordinary talent even as a child, which soon led him to lessons with Carl Czerny and later to Paris. His physical playing style was so powerful that piano strings regularly snapped during his performances &ndash; a piano maker had to supply specially reinforced instruments for his concerts. The chimpanzee does not play for itself &ndash; it enthusiastically sweeps the entire hall along with it.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Sexual Seven: Enthusiasm Without Reservation</h2>
@@ -16772,7 +16772,7 @@ function shakiraPortraitPage() {
         <h2 class="vb-section">1. The Chimpanzee</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Chimpanzee</strong> is the animal of the Sexual Type 7 &ndash; a creature that learns not through reflection but through movement, rhythm and direct contact with the world. It is curious, physically present, immediate &ndash; and when it moves, everything around it moves with it.</p>
-          <p class="vb-intro">Shakira, born 1977 in Barranquilla on Colombia's Caribbean coast, is this Chimpanzee in its clearest expression. Even as a child she wrote songs, danced on restaurant tables in her hometown, and was discovered by a talent manager who called her “unstoppable.” Her hips, as she herself sang in one of her most famous songs, don't lie &ndash; and that unfiltered, physical honesty is the very core of her entire art.</p>
+          <p class="vb-intro">The Colombian singer Shakira, born 1977 in Barranquilla on Colombia's Caribbean coast, is this Chimpanzee in its clearest expression. Even as a child she wrote songs, danced on restaurant tables in her hometown, and was discovered by a talent manager who called her “unstoppable.” Her hips, as she herself sang in one of her most famous songs, don't lie &ndash; and that unfiltered, physical honesty is the very core of her entire art.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Seven: Ecstasy as a Form of Expression</h2>
@@ -16836,7 +16836,7 @@ function carolinePetersPortraitPage() {
         <h2 class="vb-section">1. The Chimpanzee</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The chimpanzee is the most intelligent and expressive animal of the forest – and the most unpredictable. It learns through observation and imitation, switching lightning-fast between playful and serious, between tenderness and intensity. Its face is an instrument; its body tells a story even when silent. And it needs community – not as a background, but as a stage.</p>
-          <p class="vb-intro">Caroline Peters was born in 1971 in Cologne and studied acting at the University of Music and Theatre Hamburg. Anyone who experiences her in a scene – whether as a clumsy investigator in the Eifel or in a tragedy on the Burgtheater stage – understands immediately: This woman does not ponder whether she plays a character. She is the character. The chimpanzee who can transform into anyone – and in doing so never forgets who he himself is.</p>
+          <p class="vb-intro">The German actress Caroline Peters was born in 1971 in Cologne and studied acting at the University of Music and Theatre Hamburg. Anyone who experiences her in a scene – whether as a clumsy investigator in the Eifel or in a tragedy on the Burgtheater stage – understands immediately: This woman does not ponder whether she plays a character. She is the character. The chimpanzee who can transform into anyone – and in doing so never forgets who he himself is.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The sexual Seven: Intoxication of Transformation</h2>
@@ -17224,7 +17224,7 @@ function dieterNuhrPortraitPage() {
         <h2 class="vb-section">1. The Beaver</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The beaver builds for the community. He is no loner he changes his environment in a planned and lasting way, in the service of all who come after. His dam is no monument of self-dramatization, but a work: purpose-bound, solid, built to last. And the beaver is not an animal to be intimidated. Anyone who threatens his dam gets to feel that.</p>
-          <p class="vb-intro">Dieter Nuhr was born in 1960 in Wesel am Rhein and grew up in the Ruhr area. He studied pedagogy, art history, and geography at the University of Duisburg studies that would shape his later view of society, education, and culture. He is not a cabaret artist from the gut; he is a cabaret artist from observation. The beaver who inspects every stone carefully before putting it into place.</p>
+          <p class="vb-intro">The German comedian Dieter Nuhr was born in 1960 in Wesel am Rhein and grew up in the Ruhr area. He studied pedagogy, art history, and geography at the University of Duisburg studies that would shape his later view of society, education, and culture. He is not a cabaret artist from the gut; he is a cabaret artist from observation. The beaver who inspects every stone carefully before putting it into place.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Society: In the Service of the Public</h2>
@@ -17633,7 +17633,7 @@ function goldaMeirPortraitPage() {
         <h2 class="vb-section">1. The Orangutan</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The orangutan is the animal of the self-preservation Type 8, and no image fits Golda Meir more precisely. The orangutan is the most solitary of the great apes: it needs no pack, no approval, no stage. It lives by its own laws, with a quiet power that does not need to prove itself. Its gaze is patient and vigilant at the same time—the gaze of a creature that wastes no energy and never forgets what it has seen.</p>
-          <p class="vb-intro">Golda Meir, born in 1898 in Kyiv, emigrated with her family to the USA as a child, moved to British Palestine as a young woman, and four decades later became the fourth Prime Minister of the State of Israel. This is not the story of a career. It is the story of survival and of a will that could not be broken. The orangutan that slowly walks through the forest and in the end sits higher than all the others.</p>
+          <p class="vb-intro">The Israeli politician Golda Meir, born in 1898 in Kyiv, emigrated with her family to the USA as a child, moved to British Palestine as a young woman, and four decades later became the fourth Prime Minister of the State of Israel. This is not the story of a career. It is the story of survival and of a will that could not be broken. The orangutan that slowly walks through the forest and in the end sits higher than all the others.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Eight: The Right to Survival</h2>
@@ -17966,7 +17966,7 @@ function jacquelineMarsPortraitPage() {
         <h2 class="vb-section">1. The Orangutan</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The orangutan is the animal of the self-preservation Type 8, and no image fits Jacqueline Mars more accurately. The orangutan is the most solitary of the great apes: it needs no pack, no stage, no validation. It lives at its own rhythm, on its own territory, surrounded by what it has accumulated over decades. Anyone who does not disturb it will never lay eyes on it. And that is exactly by design.</p>
-          <p class="vb-intro">Jacqueline Mars, born in Newark in 1939, is the granddaughter of Frank C. Mars, founder of the confectionery company of the same name, and daughter of Forrest Mars Sr., who expanded the business into a global giant. Together with her brothers John and Forrest Jr., she owns roughly a one-third stake in Mars, Incorporated, one of the largest private companies in the world. Her net worth is estimated at over 30 billion dollars. She has given virtually no public interviews for decades.</p>
+          <p class="vb-intro">The American businesswoman Jacqueline Mars, born in Newark in 1939, is the granddaughter of Frank C. Mars, founder of the confectionery company of the same name, and daughter of Forrest Mars Sr., who expanded the business into a global giant. Together with her brothers John and Forrest Jr., she owns roughly a one-third stake in Mars, Incorporated, one of the largest private companies in the world. Her net worth is estimated at over 30 billion dollars. She has given virtually no public interviews for decades.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Eight: Satisfaction</h2>
@@ -18093,7 +18093,7 @@ function indraNooyiPortraitPage() {
         <h2 class="vb-section">1. The Orangutan</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Orangutan</strong> is the animal of Self-Preservation Type 8 &ndash; heavy-set, grounded, with a strength that needs no audience to be real. It builds its territory calmly, branch by branch, and once it is done, it sits enthroned above it, unchallenged. It is not a loud fighter &ndash; it is simply immovable once it has settled in.</p>
-          <p class="vb-intro">Indra Nooyi, born 1955 in Chennai, India, arrived in the United States in 1978 with little more than 500 dollars in her pocket to study at the Yale School of Management. Twenty-eight years later, as chairman and CEO, she led one of the largest food and beverage companies in the world. No coincidence, no stroke of luck &ndash; but the systematic, patient construction of a territory, level by level, until no one doubted any longer who sat at the top.</p>
+          <p class="vb-intro">The Indian-American executive Indra Nooyi, born 1955 in Chennai, India, arrived in the United States in 1978 with little more than 500 dollars in her pocket to study at the Yale School of Management. Twenty-eight years later, as chairman and CEO, she led one of the largest food and beverage companies in the world. No coincidence, no stroke of luck &ndash; but the systematic, patient construction of a territory, level by level, until no one doubted any longer who sat at the top.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Eight: Satisfaction Through Building</h2>
@@ -20284,7 +20284,7 @@ function morganFreemanPortraitPage() {
         <h2 class="vb-section">1. The Chimpanzee With the Voice of Providence</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the sexual Seven &ndash; playful, curious, socially highly intelligent, always on the lookout for the next exciting experience that draws the group under its spell. It doesn't captivate through restraint but through sheer presence and magnetism &ndash; a creature that sweeps others along without ever having to push itself into the foreground.</p>
-          <p class="vb-intro">Morgan Freeman was born in 1937 in Memphis, Tennessee, and grew up between rural Mississippi and Chicago, in an era of deep racial segregation in the American South. He discovered acting as a child through a school play and made his first nationwide radio appearance at age 12. After four years in the US Air Force as a radar technician, he finally decided against a military career and for art &ndash; a leap into the unknown that would only pay off after decades of hard, often unsuccessful work as an off-Broadway actor and children's TV performer. His real breakthrough came only at age 50, with the film "Street Smart" (1987) &ndash; a late but lasting flowering.</p>
+          <p class="vb-intro">The American actor Morgan Freeman was born in 1937 in Memphis, Tennessee, and grew up between rural Mississippi and Chicago, in an era of deep racial segregation in the American South. He discovered acting as a child through a school play and made his first nationwide radio appearance at age 12. After four years in the US Air Force as a radar technician, he finally decided against a military career and for art &ndash; a leap into the unknown that would only pay off after decades of hard, often unsuccessful work as an off-Broadway actor and children's TV performer. His real breakthrough came only at age 50, with the film "Street Smart" (1987) &ndash; a late but lasting flowering.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Seven: Intensity Through Variety</h2>
@@ -22547,7 +22547,7 @@ function michaelSchumacherPortraitPage() {
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The wolf is no animal of comfort. It is vigilant, territorial, oriented toward its group—and when it hunts, it hunts with everything it has. The wolf does not duck from threat. It turns around and runs toward it. That is the sexual Six in its deepest expression: fear not as paralysis, but as fuel.</p>
-          <p class="vb-intro">Michael Schumacher is this wolf. Seven-time Formula 1 world champion, 91 victories, five consecutive titles with Ferrari—numbers that were without comparison in the history of motorsport when he retired for the first time in 2006. And yet it would be wrong to understand Schumacher through his statistics. What distinguished him was no expert feeling from a distance. It was an intensity that treated every centimeter of the track as personal territory. The wolf marks its territory. And it defends it.</p>
+          <p class="vb-intro">The German racing driver Michael Schumacher is this wolf. Seven-time Formula 1 world champion, 91 victories, five consecutive titles with Ferrari—numbers that were without comparison in the history of motorsport when he retired for the first time in 2006. And yet it would be wrong to understand Schumacher through his statistics. What distinguished him was no expert feeling from a distance. It was an intensity that treated every centimeter of the track as personal territory. The wolf marks its territory. And it defends it.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Strength: Fear as a Drive</h2>
@@ -23156,7 +23156,7 @@ function rowanAtkinsonPortraitPage() {
         <h2 class="vb-section">1. The Beaver</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The beaver is the most industrious animal in the forest—and the most architecturally gifted. It builds not because it has to, but because it cannot do otherwise. It transforms its environment, plans in systems, and works with a stamina that would push other animals to their limits. The beaver lives within a tight family unit; its lodge is no mere hiding spot, but a masterwork—a complex structure designed for the protection of all. And it is more patient than any other: a dam is not built overnight.</p>
-          <p class="vb-intro">Rowan Atkinson was born in 1955 in Consett, County Durham, the youngest of four sons of a prosperous farmer and company director. He studied electrical engineering at Newcastle and later earned his Master's degree at Queen's College, Oxford. The man behind Mr. Bean is no instinctive, gut-driven clown—he is an engineer of comedy: precise, methodical, geared toward perfection. The beaver building its dam stone by stone.</p>
+          <p class="vb-intro">The British actor Rowan Atkinson was born in 1955 in Consett, County Durham, the youngest of four sons of a prosperous farmer and company director. He studied electrical engineering at Newcastle and later earned his Master's degree at Queen's College, Oxford. The man behind Mr. Bean is no instinctive, gut-driven clown—he is an engineer of comedy: precise, methodical, geared toward perfection. The beaver building its dam stone by stone.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Society: Belonging Instead of Outbreak</h2>
@@ -24879,7 +24879,7 @@ function larryKingPortraitPage() {
         <h2 class="vb-section">1. The Gorilla</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Gorilla</strong> is the most powerful animal of the rainforest &ndash; and the most peaceful. It seeks no confrontation; it sits, eats, observes, and those who encounter it feel strangely safe in its presence. The Gorilla lives in a group, cares for those around it, and its size feels reassuring rather than threatening.</p>
-          <p class="vb-intro">Larry King, born 1933 as Lawrence Harvey Zeiger in Brooklyn, was exactly this Gorilla &ndash; a man with distinctive horn-rimmed glasses and suspenders, whose mere presence in a television studio had something calming about it. Over more than six decades in broadcasting he conducted more than 50,000 interviews &ndash; with seven US presidents, with world leaders, with murderers, with pop stars. What set him apart was not aggressiveness in conversation, but the opposite: the ability to create a space in which people felt safe enough to reveal something real.</p>
+          <p class="vb-intro">The American host Larry King, born 1933 as Lawrence Harvey Zeiger in Brooklyn, was exactly this Gorilla &ndash; a man with distinctive horn-rimmed glasses and suspenders, whose mere presence in a television studio had something calming about it. Over more than six decades in broadcasting he conducted more than 50,000 interviews &ndash; with seven US presidents, with world leaders, with murderers, with pop stars. What set him apart was not aggressiveness in conversation, but the opposite: the ability to create a space in which people felt safe enough to reveal something real.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Family: Closeness as a Profession</h2>
@@ -27364,7 +27364,7 @@ function kollegahPortraitPage() {
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Wolf</strong> is the animal of the Sexual Type 6 &ndash; a predator that kills not out of malice but out of necessity. It lives in hierarchies, fights for its position, and bares its teeth not because it enjoys pain but because it knows: whoever does not assert themselves gets pushed aside. The Wolf has fear &ndash; and it transforms that fear into strength.</p>
-          <p class="vb-intro">Kollegah &ndash; born Felix Antoine Blume in 1984 in Singen &ndash; is this Wolf. One of the commercially most successful German rappers of all time, known for an artistic alter ego that shows no weakness to the outside world: the Boss, the pimp-baron, the superior figure who whispers away every adversary. But the alter ego is armour. Beneath it lies the question that all Sixes know: <em>Am I truly safe? Am I truly strong enough?</em></p>
+          <p class="vb-intro">The German rapper Kollegah &ndash; born Felix Antoine Blume in 1984 in Singen &ndash; is this Wolf. One of the commercially most successful German rappers of all time, known for an artistic alter ego that shows no weakness to the outside world: the Boss, the pimp-baron, the superior figure who whispers away every adversary. But the alter ego is armour. Beneath it lies the question that all Sixes know: <em>Am I truly safe? Am I truly strong enough?</em></p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Six: Strength as Counter-Fear</h2>
@@ -27498,7 +27498,7 @@ function wladimirPutinPortraitPage() {
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Wolf</strong> is the animal of the Sexual Type 6 &ndash; a pack animal that asserts its position through strength and answers any threat to its territory with bared teeth. The Wolf does not trust easily. It watches for a long time before it acts, and when it acts, it does so decisively. It knows fear &ndash; and precisely for that reason it refuses to allow it.</p>
-          <p class="vb-intro">Vladimir Putin, born 1952 in Leningrad, today's St. Petersburg, into modest circumstances and the only surviving child of his parents after two siblings died in the war or of illness, is this Wolf. His path from KGB officer through the St. Petersburg administration to the top of the Russian state is the story of a man who learned that control over one's own environment is the only reliable answer to an uncertain world.</p>
+          <p class="vb-intro">The Russian president Vladimir Putin, born 1952 in Leningrad, today's St. Petersburg, into modest circumstances and the only surviving child of his parents after two siblings died in the war or of illness, is this Wolf. His path from KGB officer through the St. Petersburg administration to the top of the Russian state is the story of a man who learned that control over one's own environment is the only reliable answer to an uncertain world.</p>
           <p class="vb-intro">Fittingly, Putin recounted in his memoirs a formative childhood memory from a courtyard in Leningrad: he had cornered a rat with a stick &ndash; but instead of surrendering, the animal suddenly leapt straight at his face. For him this became a central life lesson: when cornered, never retreat, but spring forward like the rat. The rat is a fitting image for the SX6: it does not attack out of superiority but out of fear and confinement &ndash; and turns that into aggression. How deep this pattern runs is shown by another famous SX6, Watergate operative G. Gordon Liddy, who was tormented by a rat phobia as a child and later caught, cooked and ate one to conquer his fear through sheer will. Whether metaphorically, as with Putin, or literally, as with Liddy: both try to escape their own vulnerability by becoming the most dangerous factor in the room themselves.</p>
         </blockquote>
 
@@ -27565,7 +27565,7 @@ function aliceSchwarzerPortraitPage() {
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Wolf</strong> is the animal of the Sexual Type 6 &ndash; an animal that appears in fairy tales as a threat, but in reality is above all one thing: loyal, territorial and misunderstood. The Wolf lives in the pack, fights for the pack &ndash; and bares its teeth when the pack is threatened. It does not duck away. It does not evade. And it remembers who stood against it.</p>
-          <p class="vb-intro">Alice Schwarzer is this Wolf. For more than five decades she has fought for women's rights &ndash; with a directness that frightens many and a persistence that few can muster. She initiated debates that no one wanted to have. She named structures that no one wanted to name. And she has paid a price for it: hostility, contempt, misunderstanding &ndash; and more opponents than most people accumulate in a lifetime. The Wolf that does not stop howling.</p>
+          <p class="vb-intro">The German journalist Alice Schwarzer is this Wolf. For more than five decades she has fought for women's rights &ndash; with a directness that frightens many and a persistence that few can muster. She initiated debates that no one wanted to have. She named structures that no one wanted to name. And she has paid a price for it: hostility, contempt, misunderstanding &ndash; and more opponents than most people accumulate in a lifetime. The Wolf that does not stop howling.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Six: Strength Against Fear</h2>
@@ -27625,7 +27625,7 @@ function ankeEngelkePortraitPage() {
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Wolf</strong> is the animal of the Sexual Type 6 &ndash; and it fits Anke Engelke with a precision one only recognises on closer inspection. Wolves are considered social animals: loyal, playful, closely bound within the pack. But what distinguishes them from other pack animals is their willingness to engage openly. The Wolf does not evade. It faces things. It bares its teeth &ndash; not from aggression but from clarity. It defines who it is by saying what it will not accept.</p>
-          <p class="vb-intro">Anke Engelke is a she-wolf. Her stage is the pack: ensemble, comedy partners, colleagues. Her strength comes not from isolation but from connection. And her humour is not a retreat &ndash; it is a presence. Direct. Unmasked. With teeth one can see, because one knows there is no attack behind them &ndash; only clarity.</p>
+          <p class="vb-intro">The German comedian Anke Engelke is a she-wolf. Her stage is the pack: ensemble, comedy partners, colleagues. Her strength comes not from isolation but from connection. And her humour is not a retreat &ndash; it is a presence. Direct. Unmasked. With teeth one can see, because one knows there is no attack behind them &ndash; only clarity.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Six: Strength as an Answer to Fear (Counter-Type)</h2>
@@ -27683,7 +27683,7 @@ function byronKatiePortraitPage() {
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Type 6 &ndash; an animal that does not avoid threat, but looks it straight in the eye. Wolves test one another through eye contact and closeness, not through retreat. Anyone who wants to hold their place in the pack must be able to stand firm when things get uncomfortable &ndash; exactly the movement Byron Katie turned into her life's work: not avoiding her own fear, but looking directly at it, question by question.</p>
-          <p class="vb-intro">Byron Kathleen Reid, born in 1942 in the desert town of Barstow, California, was a successful businesswoman in real estate during the 1970s, married, mother of three children. Nothing about this life hinted at what followed: a near-total inner collapse &ndash; and, born out of it, one of the most influential self-inquiry methods of our time.</p>
+          <p class="vb-intro">The American Byron Kathleen Reid, born in 1942 in the desert town of Barstow, California, was a successful businesswoman in real estate during the 1970s, married, mother of three children. Nothing about this life hinted at what followed: a near-total inner collapse &ndash; and, born out of it, one of the most influential self-inquiry methods of our time.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Six: The Abyss Before the Turn (Countertype)</h2>
@@ -27748,7 +27748,7 @@ function katjaRiemannPortraitPage() {
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Type 6 &ndash; an animal that does not avoid threat, but looks it straight in the eye. It tests, holds eye contact, bares its teeth when it must. Hardly any German actress embodies this directness as consistently as Katja Riemann: known not only for her roles, but for interviews in which she holds nothing back.</p>
-          <p class="vb-intro">Born in 1963 in Bad Kreuznach and trained at the Folkwang drama school in Essen, Riemann became a star of German cinema overnight with <em>Der bewegte Mann</em> (1994), alongside Til Schweiger (SO4w3). But unlike many who follow their first major success with something similar, she has since shifted consistently between comedy, musical film, and historical drama &ndash; with a willingness to take risks that has become rare.</p>
+          <p class="vb-intro">The German actress Katja Riemann, born in 1963 in Bad Kreuznach and trained at the Folkwang drama school in Essen, became a star of German cinema overnight with <em>Der bewegte Mann</em> (1994), alongside Til Schweiger (SO4w3). But unlike many who follow their first major success with something similar, she has since shifted consistently between comedy, musical film, and historical drama &ndash; with a willingness to take risks that has become rare.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Six: Plain Speech Over Diplomacy (Countertype)</h2>
@@ -27807,7 +27807,7 @@ function jenniferAnistonPortraitPage() {
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Wolf</strong> is the animal of the Sexual Type 6 &ndash; an animal that draws its strength not from solitude but from the pack in which it proves itself. Wolves constantly test one another: through eye contact, through physical closeness, through the giving and reclaiming of status. Whoever wants to hold their ground in the pack must show that they can stand firm &ndash; not through size alone, but through the willingness to expose themselves.</p>
-          <p class="vb-intro">Jennifer Aniston, born 1969 in Sherman Oaks, embodies exactly that. Her career did not begin with a leap into the spotlight but with years of small roles and cancelled shows before the role that changed everything arrived in 1994. What has carried her through the decades is not a single spectacular achievement, but the ability to keep stepping back into the pack &ndash; ensemble, team, public eye &ndash; and to hold her ground there when it gets uncomfortable.</p>
+          <p class="vb-intro">The American actress Jennifer Aniston, born 1969 in Sherman Oaks, embodies exactly that. Her career did not begin with a leap into the spotlight but with years of small roles and cancelled shows before the role that changed everything arrived in 1994. What has carried her through the decades is not a single spectacular achievement, but the ability to keep stepping back into the pack &ndash; ensemble, team, public eye &ndash; and to hold her ground there when it gets uncomfortable.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Six: Strength as an Answer to Fear (Counter-Type)</h2>
@@ -27872,7 +27872,7 @@ function scarlettJohanssonPortraitPage() {
         <h2 class="vb-section">1. The Wolf</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Wolf</strong> is the animal of the Sexual Type 6 &ndash; an animal of enormous presence that senses exactly when it can allow closeness and when it must defend its territory. The Wolf rarely shows weakness outwardly. It carries its vigilance in its posture, its gaze, the way it enters a room &ndash; not loud, but unmistakable.</p>
-          <p class="vb-intro">Scarlett Johansson, born 1984 in New York City, is this Wolf. Since her childhood debut in <em>The Horse Whisperer</em> and her breakthrough with <em>Lost in Translation</em> (2003), she has established herself as one of world cinema's most intense presences &ndash; an actress who rarely needs to say much to fill a room. This intensity doesn't come out of nowhere. It is the Wolf's signature: a force that is felt before a word is spoken.</p>
+          <p class="vb-intro">The American actress Scarlett Johansson, born 1984 in New York City, is this Wolf. Since her childhood debut in <em>The Horse Whisperer</em> and her breakthrough with <em>Lost in Translation</em> (2003), she has established herself as one of world cinema's most intense presences &ndash; an actress who rarely needs to say much to fill a room. This intensity doesn't come out of nowhere. It is the Wolf's signature: a force that is felt before a word is spoken.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Six: Strength as a Shield</h2>
@@ -27995,7 +27995,7 @@ function moritzBleibtreuPortraitPage() {
         <h2 class="vb-section">1. The Gorilla</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>gorilla</strong> is the animal of the Self-Preservation Type 7 &ndash; and it surprises, because at a glance one does not associate it with lightness. The gorilla is powerful, calm, and deeply family-oriented. It lives in a close-knit group, tends its bonds, protects its troop. It does not seek confrontation &ndash; but does not avoid it either, when it matters.</p>
-          <p class="vb-intro">Moritz Bleibtreu, born in 1971 in Munich, son of actor Hans-Peter Bleibtreu, has for over three decades been one of the most versatile faces of German cinema. Few of his generation can point to such a dense, unusually varied body of work &ndash; from comedy to psychological thriller, from historical roles to major international productions.</p>
+          <p class="vb-intro">The German actor Moritz Bleibtreu, born in 1971 in Munich, son of actor Hans-Peter Bleibtreu, has for over three decades been one of the most versatile faces of German cinema. Few of his generation can point to such a dense, unusually varied body of work &ndash; from comedy to psychological thriller, from historical roles to major international productions.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Seven: Joy as Craft</h2>
@@ -28115,7 +28115,7 @@ function francisBaconPortraitPage() {
         <h2 class="vb-section">1. The Gorilla</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Gorilla</strong> is the animal of the Self-Preservation Type 7 &ndash; an animal of enormous strength that lives in a group, whose reach extends over an entire territory, and whose presence fills a room without any effort. The Gorilla thinks in large connections &ndash; and builds its surroundings so it can grow within them.</p>
-          <p class="vb-intro">Francis Bacon, born 1561 in London, son of the Lord Keeper Nicholas Bacon, is this Gorilla. Hardly any thinker of his time reached for so much at once: lawyer, politician, philosopher of science, essayist &ndash; and, at the peak of his career, Lord Chancellor of England, the Crown's highest legal office. His declared life's goal was nothing less than the <em>Instauratio Magna</em>, the "Great Renewal" of all human knowledge. A Gorilla does not build a small nest &ndash; it builds a territory that can carry an entire troop.</p>
+          <p class="vb-intro">The British philosopher Francis Bacon, born 1561 in London, son of the Lord Keeper Nicholas Bacon, is this Gorilla. Hardly any thinker of his time reached for so much at once: lawyer, politician, philosopher of science, essayist &ndash; and, at the peak of his career, Lord Chancellor of England, the Crown's highest legal office. His declared life's goal was nothing less than the <em>Instauratio Magna</em>, the "Great Renewal" of all human knowledge. A Gorilla does not build a small nest &ndash; it builds a territory that can carry an entire troop.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Seven: Joy in Discovery</h2>
@@ -28179,7 +28179,7 @@ function drewBarrymorePortraitPage() {
         <h2 class="vb-section">1. The Beaver</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Beaver</strong> is the animal of the Social Type 7 &ndash; a builder that survives disaster by simply continuing to build. If a dam collapses, the Beaver starts again immediately, without dwelling on it for long. It does not work for itself alone, but for an entire ecosystem that depends on its construction.</p>
-          <p class="vb-intro">Drew Barrymore, born 1975 in Los Angeles into the legendary Barrymore acting dynasty, is this Beaver. At age seven she became world-famous for her role as Gertie in <em>E.T. the Extra-Terrestrial</em> (1982) &ndash; and subsequently fell into one of Hollywood's most public childhood crises. But instead of breaking under it, she rebuilt her life again and again: as an actress, as an entrepreneur, as one of the most successful producers of her generation, and finally as one of America's most beloved talk show hosts.</p>
+          <p class="vb-intro">The American actress Drew Barrymore, born 1975 in Los Angeles into the legendary Barrymore acting dynasty, is this Beaver. At age seven she became world-famous for her role as Gertie in <em>E.T. the Extra-Terrestrial</em> (1982) &ndash; and subsequently fell into one of Hollywood's most public childhood crises. But instead of breaking under it, she rebuilt her life again and again: as an actress, as an entrepreneur, as one of the most successful producers of her generation, and finally as one of America's most beloved talk show hosts.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Seven: Joy as a Shared Good</h2>
@@ -28301,7 +28301,7 @@ function mileyCyrusPortraitPage() {
         <h2 class="vb-section">1. The Chimpanzee</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Chimpanzee</strong> is the animal of the Sexual Type 7 &ndash; lively, contact-seeking, constantly in motion. It does not learn from a distance, but through direct contact with what surrounds it. It transforms when its environment changes &ndash; and does so without false shyness, often right in front of everyone's eyes.</p>
-          <p class="vb-intro">Miley Cyrus, born 1992 in Franklin, Tennessee, daughter of country singer Billy Ray Cyrus, is a Chimpanzee who grew up in public &ndash; from Disney child star to independent artist, from the well-behaved girl in a blonde wig to a startlingly self-assured pop icon, and further into the reflective, self-possessed singer who today touches whole generations with “Flowers”. Every one of these sheddings of skin was loud, visible &ndash; and honest.</p>
+          <p class="vb-intro">The American singer Miley Cyrus, born 1992 in Franklin, Tennessee, daughter of country singer Billy Ray Cyrus, is a Chimpanzee who grew up in public &ndash; from Disney child star to independent artist, from the well-behaved girl in a blonde wig to a startlingly self-assured pop icon, and further into the reflective, self-possessed singer who today touches whole generations with “Flowers”. Every one of these sheddings of skin was loud, visible &ndash; and honest.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Seven: Transformation as a Way of Life</h2>
@@ -28365,7 +28365,7 @@ function inaMuellerPortraitPage() {
         <h2 class="vb-section">1. The Chimpanzee</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Chimpanzee</strong> is the animal of the Sexual Type 7 &ndash; and Ina Müller is a Chimpanzee through and through. The Chimpanzee needs contact: direct, vivid, unfiltered. It learns not from books but through encounter. It is curious, full of energy, sometimes loud, sometimes tender &ndash; but always present. And when it laughs, the whole forest laughs with it.</p>
-          <p class="vb-intro">Ina Müller created with <em>Inas Nacht</em> a format that is unique in the German television landscape: no couch, no desk, no distance. A bar, a piano, a guest, a conversation &ndash; and a host who genuinely listens. The Chimpanzee does not sit opposite. It sits beside. And that makes all the difference.</p>
+          <p class="vb-intro">The German host Ina Müller created with <em>Inas Nacht</em> a format that is unique in the German television landscape: no couch, no desk, no distance. A bar, a piano, a guest, a conversation &ndash; and a host who genuinely listens. The Chimpanzee does not sit opposite. It sits beside. And that makes all the difference.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Seven: Intensity in the Moment</h2>
@@ -29296,7 +29296,7 @@ function davidMechPortraitPage() {
         <h2 class="vb-section">1. The wolf who spent his life studying the wolf</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>wolf</strong> is the animal of the Sexual Six &ndash; it meets fear not by retreating but through direct confrontation, seeking the test, the pack, the structure that holds up when it truly matters. Few scientists embody this principle as literally as Dr. L. David Mech: since 1958 &ndash; over sixty years &ndash; he has studied wolves in Minnesota, on Isle Royale, in Alaska, in Yellowstone National Park, and on the Arctic's Ellesmere Island, and is regarded worldwide as the leading authority on the subject.</p>
-          <p class="vb-intro">Born in 1937 in Auburn, New York, Mech turned a single, decades-long research question into a life's work: roughly 380 scientific publications, eleven books, including the still-definitive standard work "The Wolf: The Ecology and Behavior of an Endangered Species" (1970). In 1985 he additionally founded the International Wolf Center to bring his knowledge to a broader public.</p>
+          <p class="vb-intro">The American wolf researcher L. David Mech, born in 1937 in Auburn, New York, turned a single, decades-long research question into a life's work: roughly 380 scientific publications, eleven books, including the still-definitive standard work "The Wolf: The Ecology and Behavior of an Endangered Species" (1970). In 1985 he additionally founded the International Wolf Center to bring his knowledge to a broader public.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Six: direct confrontation instead of avoidance</h2>
@@ -29738,7 +29738,7 @@ function julesVernePortraitPage() {
         <h2 class="vb-section">1. The Beaver Who Wrote the Future in Advance</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Beaver</strong> is the animal of the Social Type 7 &ndash; it does not build for itself, but creates structures that transform an entire landscape, and is never truly finished. Few writers lived this restless building as thoroughly as Jules Verne: over more than forty years he wrote more than sixty novels and stories for his series "Voyages extraordinaires" &ndash; a literary universe spanning the entire known world of his time and far beyond, from the center of the earth to the moon.</p>
-          <p class="vb-intro">Verne was born in 1828 in Nantes, the son of a lawyer. As a boy, he reportedly tried to smuggle himself aboard a sailing ship bound for India as a cabin boy &ndash; his father retrieved him at the last moment. This early, thwarted attempt to escape to the open sea later transformed into a lifelong literary building project: where real departure was denied him, imagination became the ship that knew no boundary.</p>
+          <p class="vb-intro">The French writer Jules Verne was born in 1828 in Nantes, the son of a lawyer. As a boy, he reportedly tried to smuggle himself aboard a sailing ship bound for India as a cabin boy &ndash; his father retrieved him at the last moment. This early, thwarted attempt to escape to the open sea later transformed into a lifelong literary building project: where real departure was denied him, imagination became the ship that knew no boundary.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Social Seven: Knowledge as a Gift to Humanity</h2>
