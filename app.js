@@ -32309,6 +32309,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonard Bernstein \u2013 Sexueller Typ 7",
     teaser:"SX7w6 \u00b7 1918\u20131990. Dirigent, Komponist, Pianist. West Side Story, Young People's Concerts, New York Philharmonic. Der Schimpanse mit Sechserfl\u00fcgel: grenzenlose Begeisterung, gepaart mit p\u00e4dagogischer Mission und nie ganz beruhigtem Zweifel. Tierentsprechung: Schimpanse.",
     tags:["Musik"], gender:"m"},
+  { route:"beruehmte-frans-de-waal", name:"Prof. Dr. Frans de Waal", added:"2026-08-19", subtyp:"SX7w6",
+    heading:"Prof. Dr. Frans de Waal \u2013 Sexueller Typ 7",
+    teaser:"SX7w6 \u00b7 1948\u20132024. Niederl\u00e4ndisch-amerikanischer Primatologe, \u201eBr\u00fcckenbauer zwischen Mensch und Schimpanse\u201c. Bahnbrechende Studien \u00fcber Machtallianzen, Vers\u00f6hnung und Empathie bei Schimpansen und Bonobos, Bestseller \u201eChimpanzee Politics\u201c. Tierentsprechung: Schimpanse.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-ina-mueller", name:"Ina M\u00fcller", subtyp:"SX7w8",
     heading:"Ina M\u00fcller \u2013 Sexueller Typ 7",
     teaser:"SX7w8 \u00b7 geb. 1965. S\u00e4ngerin, Musikkabarettistin, Fernsehmoderatorin (Inas Nacht). Der Schimpanse mit Achterfl\u00fcgel: lebenslustig, direkt, unerschrocken \u2013 und immer nah am Menschen. Tierentsprechung: Schimpanse.",
@@ -35288,6 +35292,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-douglas-smith", name:"Dr. Douglas W. Smith", subtyp:"SX6w5", tier:"Wolf"},
   {route:"beruehmte-frank-rosell", name:"Prof. Dr. Frank Rosell", subtyp:"SO7w6", tier:"Biber"},
   {route:"beruehmte-dietland-mueller-schwarze", name:"Prof. Dr. Dietland Müller-Schwarze", subtyp:"SO7w6", tier:"Biber"},
+  {route:"beruehmte-frans-de-waal", name:"Prof. Dr. Frans de Waal", subtyp:"SX7w6", tier:"Schimpanse"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42706,12 +42711,12 @@ const LEBENSMUSTERKOMPASS = {
   SX7: {
     tier: "Schimpanse",
     kernthema: "Vollständige Verschmelzung mit einer Idee, Person oder einem Moment (Naranjo: Suggestibilität)",
-    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs"],
+    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs", "Prof. Dr. Frans de Waal"],
     fingerabdruecke: [
       {
         titel: "Vollständige Verschmelzung mit einer Idee, Person oder einem Moment",
         beschreibung: "Naranjo nannte diesen Subtyp den der ›Suggestibilität‹: Statt Begeisterung zu streuen, bündelt sich die gesamte Intensität auf einen einzigen Punkt – eine Überzeugung, einen Menschen, eine Sache –, mit einer Kraft, die keine halben Bindungen kennt.",
-        beleg: "Gudrun Ensslin: ›Sie verschmilzt vollständig mit einer Idee, einem Menschen, einer Vision – und wird von dieser Verschmelzung buchstäblich fortgerissen … Wenn die neue Überzeugung da ist, wird das alte Leben vollständig abgeworfen‹; Victor Lustig: ›Eine Fähigkeit, sich vollständig in eine Idee, eine Person, einen Moment hineinzuversetzen – und dabei so überzeugend zu wirken, dass die eigene Begeisterung ansteckend wird‹; Clyde Barrow, dessen ›gesamtes Leben von ständiger Bewegung, immer neuen Fluchtwegen‹ geprägt war."
+        beleg: "Gudrun Ensslin: ›Sie verschmilzt vollständig mit einer Idee, einem Menschen, einer Vision – und wird von dieser Verschmelzung buchstäblich fortgerissen … Wenn die neue Überzeugung da ist, wird das alte Leben vollständig abgeworfen‹; Victor Lustig: ›Eine Fähigkeit, sich vollständig in eine Idee, eine Person, einen Moment hineinzuversetzen – und dabei so überzeugend zu wirken, dass die eigene Begeisterung ansteckend wird‹; Clyde Barrow, dessen ›gesamtes Leben von ständiger Bewegung, immer neuen Fluchtwegen‹ geprägt war; Prof. Dr. Frans de Waal, der den direkten, persönlichen intellektuellen Austausch mit Einzelnen suchte statt sich in institutionellen Netzwerken zu verlieren, und dessen Spätwerk sich fast ausschließlich der einen Frage nach Empathie und Bindung widmete."
       },
       {
         titel: "Ansteckende Intensität, die eine ganze Gruppe oder einen ganzen Raum mitreißt",
@@ -48773,6 +48778,67 @@ function dietlandMuellerSchwarzePortraitPage() {
         {route:"beruehmte-konrad-lorenz", label:"Porträt: Konrad Lorenz (SO1w9)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-dietland-mueller-schwarze")}
+    </div>
+  `);
+}
+
+function fransDeWaalPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-frans-de-waal-portrait.jpg" alt="Schimpanse" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Frans de Waal</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Primatologe, "Brückenbauer zwischen Mensch und Schimpanse", 1948&ndash;2024 &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse, der die Politik der Schimpansen entdeckte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben &ndash; klug, verspielt, sozial hochintelligent, mit einer Vorliebe für intensive Bindungen und intellektuelle Grenzüberschreitung. Kaum ein Wissenschaftler verkörperte dieses Prinzip so vollständig wie Prof. Dr. Frans de Waal: Der niederländisch-amerikanische Primatologe gilt als der weltweit einflussreichste Verhaltensforscher seines Fachs und wurde als "Brückenbauer zwischen Mensch und Schimpanse" bekannt.</p>
+          <p class="vb-intro">Geboren 1948 in 's-Hertogenbosch, promovierte de Waal 1977 in Utrecht. Sein bahnbrechendes Erstwerk "Chimpanzee Politics" (1982) dokumentierte die komplexen Machtallianzen und Bündniswechsel von Schimpansen im Zoo von Arnhem &ndash; und führte den Begriff der "machiavellistischen Intelligenz" in die Primatenforschung ein. De Waal starb 2024 im Alter von 75 Jahren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Die eine intensive Verbindung statt der breiten Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht ihre Erfüllung nicht in institutioneller Gruppenzugehörigkeit, sondern in intensiven, bedeutungsvollen Einzelverbindungen &ndash; eine idealisierende, oft geradezu verliebte Hingabe an eine Person, eine Idee oder ein Wesen. De Waals wissenschaftliches Vermächtnis kreist genau um dieses Thema: Versöhnung, Empathie und Bindung standen im Zentrum seiner späteren Bonobo-Forschung, festgehalten in Büchern wie "The Age of Empathy" und "The Bonobo and the Atheist".</p>
+          <p class="vb-intro">Wegbegleiter beschreiben ihn als jemanden, der den direkten, persönlichen intellektuellen Austausch suchte &ndash; Einzelgespräche, individuelle Antworten auf die Arbeit einzelner Kolleginnen und Kollegen, statt sich in institutionellen Netzwerken zu verlieren. Genau diese Vorliebe für die eine bedeutsame Verbindung, nicht für die breite Bühne, ist der Kern der sexuellen Sieben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Bündnisse und Loyalität als Forschungsgegenstand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben ein feines Gespür für Sicherheit, Loyalität und die Dynamik von Bündnissen &ndash; genau jene Themen, die de Waal zeitlebens erforschte. Sein Frühwerk zeigte, dass Macht bei Schimpansen nicht aus roher Aggression entsteht, sondern aus Beziehungen, die von Großzügigkeit und Unparteilichkeit geprägt sind &ndash; ein zutiefst sechserhaftes Verständnis von Sicherheit durch Bündnispflege statt durch Dominanz.</p>
+          <p class="vb-intro">Diese Kombination aus siebenhafter intellektueller Neugier und sechserhaftem Gespür für Loyalitätsstrukturen machte ihn zu einem Forscher, der Konventionen mit spielerischer Brillanz aufbrach: Er bewies, wie viel Mensch im Tier steckt und wie viel Tier im Menschen &ndash; nie als Provokation um ihrer selbst willen, sondern immer sorgfältig belegt und methodisch abgesichert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX7w6 ist die Fähigkeit, <strong>intellektuelle Aufregung und intensive Bindungsfähigkeit in ein Lebenswerk zu verwandeln, das die Grenze zwischen Mensch und Tier neu zog</strong> &ndash; de Waals Bücher wurden in zwanzig Sprachen übersetzt und machten ihn zu einem der öffentlich sichtbarsten Primatologen der Welt.</p>
+          <p class="vb-intro">Der Schatten der sexuellen Sieben mit Sechserflügel zeigt sich darin, wie sehr die eigene wissenschaftliche Autorität an intensive persönliche Bindungen gekoppelt sein kann, statt an breite institutionelle Absicherung &ndash; ein Ansatz, der zugleich seine größte Stärke und seine größte Verletzlichkeit war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Schimpanse, der zeigte, wie viel Mensch im Tier steckt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was de Waal der Welt gab, ist ein grundlegend verändertes Verständnis davon, was Tiere fühlen, planen und wissen können &ndash; ein Vermächtnis, das weit über die Fachwelt hinaus in die öffentliche Debatte über Tierbewusstsein und Empathie hineinwirkte.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: ein Mann, dessen archetypisches Tier der Schimpanse ist, der sein gesamtes Leben genau diesem klugen, verspielten, bindungsfähigen Tier widmete &ndash; und dabei, offenbar unbewusst, sein eigenes tiefstes Muster erforschte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-leonard-bernstein", label:"Porträt: Leonard Bernstein (SX7w6)"},
+        {route:"beruehmte-morgan-freeman", label:"Porträt: Morgan Freeman (SX7w6)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-frans-de-waal")}
     </div>
   `);
 }
@@ -92686,6 +92752,7 @@ function render() {
       "beruehmte-douglas-smith": douglasSmithPortraitPage,
       "beruehmte-frank-rosell": frankRosellPortraitPage,
       "beruehmte-dietland-mueller-schwarze": dietlandMuellerSchwarzePortraitPage,
+      "beruehmte-frans-de-waal": fransDeWaalPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
