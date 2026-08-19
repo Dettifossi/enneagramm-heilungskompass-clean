@@ -1212,6 +1212,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gerhard Schröder – Sexual Type 8",
     teaser:"SX8w7 · born 1944. German Chancellor (1998–2005). Agenda 2010, the \"Basta principle\", media chancellor. The crocodile that forced through the great reform effort against every resistance – then kept going its own way, unbowed.",
     tags:["Politics"], gender:"m"},
+{ route:"beruehmte-john-wayne", name:"John Wayne", added:"2026-08-19", subtyp:"SX8w7",
+    heading:"John Wayne – Sexual Type 8",
+    teaser:"SX8w7 · 1907–1979. Actor, Western icon, \"The Duke.\" Over 170 films, embodiment of the unyielding American hero. The crocodile whose sheer screen presence filled theaters – and who was noticeably more contemplative in private than his roles suggested.",
+    tags:["Schauspiel"], gender:"m"},
 { route:"beruehmte-genesis-p-orridge", name:"Genesis P-Orridge", subtyp:"SX8w9",
     heading:"Genesis P-Orridge – Sexual Type 8",
     teaser:"SX8w9 · 1950–2020. Musician, performance artist, occultist, founder of Throbbing Gristle. The crocodile that crossed the boundaries of body, art and identity – and never came back. Animal correspondence: Crocodile.",
@@ -28896,6 +28900,66 @@ function anneMcBridePortraitPage() {
   `);
 }
 
+function johnWaynePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-john-wayne-portrait.jpg" alt="Crocodile" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Wayne</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Actor, "The Duke," 1907&ndash;1979 &ndash; Animal correspondence: Crocodile</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The crocodile that filled an entire screen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>crocodile</strong> is the animal of the Sexual Eight &ndash; massive, impossible to overlook, with a presence that dominates the entire space the moment it appears. Few actors embodied this principle as fully as John Wayne: 6'4" tall, well over 220 pounds at the peak of his career, he literally towered over every scene he appeared in. Whether talking, swearing, or fighting, everything he did happened at full force, never half-heartedly.</p>
+          <p class="vb-intro">With over 170 films and his definitive breakthrough in 1939's "Stagecoach" under director John Ford, Wayne became the embodiment of the unyielding American Western and war hero &ndash; a symbol that reached far beyond cinema to become an icon of an entire country.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Eight: raw force as expression</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Eight (SX8)</strong> lives its intensity unfiltered and physically &ndash; it does not seek the diplomatic middle ground, but the full, immediate expression of force, presence, and will. Wayne perfected exactly this energy on screen: the taciturn, hard-hitting hero who does not avoid conflict but settles it directly and with full force &ndash; a figure that knows no half-measures.</p>
+          <p class="vb-intro">What's telling is how much this role overshadowed the public perception of the man behind it: biographers describe an "interesting gap" between the tough on-screen Wayne and the private person, who was noticeably more contemplative. His own children, too, describe a father who was "tough, but very loving" &ndash; hard on the outside, with a depth underneath that stayed hidden from movie audiences.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: momentum, energy, tireless output</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Eight an extra dose of momentum, pace, and appetite for ever-new projects &ndash; the Eight's pure assertiveness is complemented by an expansive, hard-to-stop energy. Over five decades, Wayne made more than 170 films, often several a year, at a pace unreachable for most actors of his generation.</p>
+          <p class="vb-intro">This combination of Eight-force and Seven-pace made him one of the defining figures of 20th-century American cinema &ndash; not a hesitant perfectionist, but a man who moved from one project to the next, always at full commitment, rarely pausing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX8w7 is its ability to turn <strong>raw, unfiltered presence into a decades-long cultural symbol</strong> &ndash; Wayne became the personification of an entire genre, whose images of American strength and unyielding resolve still resonate today, far beyond film itself.</p>
+          <p class="vb-intro">The shadow shows in how completely such an uncompromisingly charged public figure can obscure the actual person behind it: "The Duke" on screen was so overpowering that the noticeably more contemplative, complex private person John Wayne remained largely invisible to the broader public &ndash; a discrepancy typical of the Sexual Eight, whose outward force rarely tells the whole inner story.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The crocodile that became a symbol of an entire country</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wayne died in 1979, yet his image as "The Duke" endures as one of Hollywood's most defining. Few actors have managed to translate physical presence so completely into cultural meaning &ndash; an effect that reached far beyond acting itself.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly stand more fittingly for the Sexual Eight with a Seven-wing: a man of overwhelming physical and dramatic force, whose presence shaped an entire profession and an entire genre &ndash; and who, invisible to most, kept a noticeably quieter, more contemplative side behind it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
+        {route:"lebensmusterkompass/sx8", label:"Life Pattern Compass: SX8 – Crocodile"},
+        {route:"beruehmte-gerhard-schroeder", label:"Portrait: Gerhard Schröder (SX8w7)"},
+        {route:"beruehmte-pablo-picasso", label:"Portrait: Pablo Picasso (SX8w7)"},
+      ])}
+    </div>
+  `);
+}
+
 function julesVernePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -35870,7 +35934,7 @@ const LEBENSMUSTERKOMPASS = {
   SX8: {
     tier: "Crocodile",
     kernthema: "Patient waiting, then complete, lightning-fast seizure (Naranjo: Possession)",
-    beispiele: ["Adele Neuhauser", "Pablo Picasso", "Prof. Grahame Webb", "Donald J. Trump", "Diogenes of Sinope", "Giacomo Puccini", "Gerhard Schröder", "Ruth Bader Ginsburg", "Genesis P-Orridge", "Eli Jaxon-Bear", "John McAfee", "Jeffrey Epstein"],
+    beispiele: ["Adele Neuhauser", "Pablo Picasso", "Prof. Grahame Webb", "Donald J. Trump", "Diogenes of Sinope", "Giacomo Puccini", "Gerhard Schröder", "Ruth Bader Ginsburg", "Genesis P-Orridge", "Eli Jaxon-Bear", "John McAfee", "Jeffrey Epstein", "John Wayne"],
     fingerabdruecke: [
       {
         titel: "Patient waiting, then complete, lightning-fast seizure",
@@ -35880,7 +35944,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Radical, unprotected public life instead of retreat",
         beschreibung: "Instead of hiding, one's own life or conviction is lived demonstratively in public – without regard for social expectations or etiquette, and precisely because of that, hard to ignore.",
-        beleg: "Diogenes of Sinope, who lived 'without a house, without possessions, without shame' in the marketplace of Athens: 'The crocodile doesn't hide – it lies visibly on the bank, and whoever passes must reckon with it'; Donald Trump: 'He dominates rooms, draws in cameras, is never neutral'; Giacomo Puccini, who 'paid no regard to etiquette' and 'still drew the full attention of every room' he entered."
+        beleg: "Diogenes of Sinope, who lived 'without a house, without possessions, without shame' in the marketplace of Athens: 'The crocodile doesn't hide – it lies visibly on the bank, and whoever passes must reckon with it'; Donald Trump: 'He dominates rooms, draws in cameras, is never neutral'; Giacomo Puccini, who 'paid no regard to etiquette' and 'still drew the full attention of every room' he entered; John Wayne, whose sheer physical presence on screen towered over every scene – never half-hearted, never in the background."
       },
       {
         titel: "Relentless drive that never fades over a whole lifetime",
@@ -57743,6 +57807,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-ingo-zimmermann": ingoZimmermannPortraitPage,
       "beruehmte-hugh-warwick": hughWarwickPortraitPage,
       "beruehmte-anne-mcbride": anneMcBridePortraitPage,
+      "beruehmte-john-wayne": johnWaynePortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,

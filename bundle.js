@@ -32405,6 +32405,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gerhard Schr\u00f6der \u2013 Sexueller Typ 8",
     teaser:"SX8w7 \u00b7 geb. 1944. Deutscher Bundeskanzler (1998\u20132005). Agenda 2010, Basta-Prinzip, Medienkanzler. Das Krokodil, das den Kraftakt der Reform gegen jeden Widerstand durchsetzte \u2013 und danach seinen eigenen Weg unbeirrt weiterging.",
     tags:["Politik"], gender:"m"},
+  { route:"beruehmte-john-wayne", name:"John Wayne", added:"2026-08-19", subtyp:"SX8w7",
+    heading:"John Wayne \u2013 Sexueller Typ 8",
+    teaser:"SX8w7 \u00b7 1907\u20131979. Schauspieler, Westernikone, \u201eThe Duke\u201c. \u00dcber 170 Filme, Verk\u00f6rperung des unbeugsamen amerikanischen Helden. Das Krokodil, dessen blo\u00dfe Leinwandpr\u00e4senz Kinos\u00e4le f\u00fcllte \u2013 und das im Privaten deutlich nachdenklicher war, als seine Rollen vermuten lie\u00dfen.",
+    tags:["Schauspiel"], gender:"m"},
   { route:"beruehmte-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", added:"2026-07-22", subtyp:"SX8w9",
     heading:"Ruth Bader Ginsburg \u2013 Sexueller Typ 8",
     teaser:"SX8w9 \u00b7 1933\u20132020. US-Bundesrichterin am Supreme Court, RBG. Pionierin der Geschlechtergleichstellung, legendary dissenter. Das Krokodil, das bleibt \u2013 der Abdruck ist geblieben.",
@@ -42591,7 +42595,7 @@ const LEBENSMUSTERKOMPASS = {
   SX8: {
     tier: "Krokodil",
     kernthema: "Geduldiges Warten, dann vollständiger, blitzschneller Zugriff (Naranjo: Besitz/Besitzergreifung)",
-    beispiele: ["Adele Neuhauser", "Pablo Picasso", "Prof. Grahame Webb", "Donald J. Trump", "Diogenes von Sinope", "Giacomo Puccini", "Gerhard Schröder", "Ruth Bader Ginsburg", "Genesis P-Orridge", "Eli Jaxon-Bear", "John McAfee", "Jeffrey Epstein"],
+    beispiele: ["Adele Neuhauser", "Pablo Picasso", "Prof. Grahame Webb", "Donald J. Trump", "Diogenes von Sinope", "Giacomo Puccini", "Gerhard Schröder", "Ruth Bader Ginsburg", "Genesis P-Orridge", "Eli Jaxon-Bear", "John McAfee", "Jeffrey Epstein", "John Wayne"],
     fingerabdruecke: [
       {
         titel: "Geduldiges Warten, dann vollständiger, blitzschneller Zugriff",
@@ -42601,7 +42605,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Radikale, ungeschützte Öffentlichkeit statt Rückzug",
         beschreibung: "Statt sich zu verbergen, wird das eigene Leben oder die eigene Überzeugung demonstrativ öffentlich gelebt – ohne Rücksicht auf gesellschaftliche Erwartungen oder Etikette, und gerade dadurch schwer zu ignorieren.",
-        beleg: "Diogenes von Sinope, der ›ohne Haus, ohne Besitz, ohne Scham‹ auf dem Marktplatz von Athen lebte: ›Das Krokodil verbirgt sich nicht – es liegt sichtbar am Ufer, und wer vorbeikommt, muss sich mit ihm auseinandersetzen‹; Donald Trump: ›Er dominiert Räume, zieht Kameras an, ist nie neutral‹; Giacomo Puccini, der ›keine Rücksicht auf Etikette‹ nahm und ›trotzdem die volle Aufmerksamkeit jedes Raums‹ auf sich zog."
+        beleg: "Diogenes von Sinope, der ›ohne Haus, ohne Besitz, ohne Scham‹ auf dem Marktplatz von Athen lebte: ›Das Krokodil verbirgt sich nicht – es liegt sichtbar am Ufer, und wer vorbeikommt, muss sich mit ihm auseinandersetzen‹; Donald Trump: ›Er dominiert Räume, zieht Kameras an, ist nie neutral‹; Giacomo Puccini, der ›keine Rücksicht auf Etikette‹ nahm und ›trotzdem die volle Aufmerksamkeit jedes Raums‹ auf sich zog; John Wayne, dessen bloße körperliche Präsenz auf der Leinwand jede Szene überragte – nie halbherzig, nie im Hintergrund."
       },
       {
         titel: "Unermüdlicher, über ein ganzes Leben nie erlöschender Antrieb",
@@ -48313,6 +48317,66 @@ function anneMcBridePortraitPage() {
         {route:"beruehmte-fjodor-dostojewski", label:"Porträt: Fjodor Dostojewski (SE6w5)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-anne-mcbride")}
+    </div>
+  `);
+}
+
+function johnWaynePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-john-wayne-portrait.jpg" alt="Krokodil" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Wayne</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexueller Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, "The Duke", 1907&ndash;1979 &ndash; Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil, das eine ganze Leinwand füllte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier der sexuellen Acht &ndash; massiv, unübersehbar, mit einer Präsenz, die den gesamten Raum beherrscht, sobald es sich zeigt. Kaum ein Schauspieler verkörperte dieses Prinzip so vollständig wie John Wayne: 1,93 Meter groß, weit über 100 Kilogramm schwer auf dem Höhepunkt seiner Karriere, überragte er buchstäblich jede Szene, in der er auftrat. Ob Sprechen, Fluchen oder Kämpfen &ndash; alles geschah bei ihm mit voller Wucht, nie halbherzig.</p>
+          <p class="vb-intro">Mit über 170 Filmen und dem endgültigen Durchbruch 1939 in "Stagecoach" unter Regisseur John Ford wurde Wayne zur Verkörperung des unbeugsamen amerikanischen Western- und Kriegshelden &ndash; ein Symbol, das weit über das Kino hinaus zum Sinnbild eines ganzen Landes wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Acht: Rohe Kraft als Ausdrucksmittel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong> lebt ihre Intensität ungefiltert und körperlich aus &ndash; sie sucht nicht die diplomatische Mitte, sondern den vollen, unmittelbaren Ausdruck von Kraft, Präsenz und Willen. Wayne perfektionierte genau diese Energie auf der Leinwand: der schweigsame, hart durchgreifende Held, der Konflikte nicht vermeidet, sondern direkt und mit voller Wucht austrägt &ndash; eine Figur, die keine Zwischentöne kennt.</p>
+          <p class="vb-intro">Bezeichnend ist, wie sehr diese Rolle die öffentliche Wahrnehmung des Mannes dahinter überlagerte: Biografen beschreiben eine "interessante Lücke" zwischen dem harten Leinwand-Wayne und dem privaten Menschen, der deutlich nachdenklicher war. Auch seine eigenen Kinder berichten von einem Vater, der "tough, but very loving" war &ndash; hart nach außen, aber mit einer Tiefe darunter, die dem Kinopublikum verborgen blieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Schwung, Energie, unermüdliches Schaffen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> verleiht der Acht eine zusätzliche Portion Schwung, Tempo und Appetit auf immer neue Projekte &ndash; die pure Durchsetzungskraft der Acht wird um eine expansive, kaum zu bremsende Energie ergänzt. Wayne drehte über fünf Jahrzehnte hinweg mehr als 170 Filme, oft mehrere pro Jahr, in einem Tempo, das für die meisten Schauspieler seiner Generation unerreichbar blieb.</p>
+          <p class="vb-intro">Diese Kombination aus Acht-Wucht und Sieben-Tempo machte ihn zu einer der bestimmenden Figuren des amerikanischen Kinos des 20. Jahrhunderts &ndash; kein zögerlicher Perfektionist, sondern ein Mann, der von einem Projekt zum nächsten voranschritt, immer mit vollem Einsatz, selten mit Pause.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX8w7 ist die Fähigkeit, <strong>rohe, ungefilterte Präsenz in ein jahrzehntelanges kulturelles Symbol</strong> zu verwandeln &ndash; Wayne wurde zur Personifizierung eines ganzen Genres, dessen Bilder von amerikanischer Stärke und Unbeugsamkeit bis heute nachwirken, weit über den Film hinaus.</p>
+          <p class="vb-intro">Der Schatten zeigt sich darin, wie sehr eine derart kompromisslos aufgeladene öffentliche Figur die eigentliche Person dahinter verdecken kann: Der "Duke" auf der Leinwand war so übermächtig, dass die deutlich nachdenklichere, komplexere Privatperson John Wayne für das breite Publikum kaum sichtbar wurde &ndash; eine Diskrepanz, die typisch für die sexuelle Acht ist, deren äußere Wucht selten die ganze innere Geschichte erzählt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Krokodil, das zum Sinnbild eines ganzen Landes wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wayne starb 1979, doch sein Bild als "The Duke" überdauert bis heute als eines der prägendsten Hollywoods. Kaum ein Schauspieler hat es geschafft, körperliche Präsenz derart vollständig in kulturelle Bedeutung zu übersetzen &ndash; eine Wirkung, die weit über die reine Schauspielkunst hinausging.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für die sexuelle Acht mit Siebenerflügel kaum treffender sein könnte: ein Mann von überwältigender physischer und darstellerischer Wucht, dessen Präsenz einen ganzen Berufsstand und ein ganzes Genre prägte &ndash; und der sich dahinter, für die meisten unsichtbar, eine deutlich stillere, nachdenklichere Seite bewahrte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx8", label:"Lebensmusterkompass: SX8 – Krokodil"},
+        {route:"beruehmte-gerhard-schroeder", label:"Porträt: Gerhard Schröder (SX8w7)"},
+        {route:"beruehmte-pablo-picasso", label:"Porträt: Pablo Picasso (SX8w7)"},
+      ])}
     </div>
   `);
 }
@@ -92219,6 +92283,7 @@ function render() {
       "beruehmte-ingo-zimmermann": ingoZimmermannPortraitPage,
       "beruehmte-hugh-warwick": hughWarwickPortraitPage,
       "beruehmte-anne-mcbride": anneMcBridePortraitPage,
+      "beruehmte-john-wayne": johnWaynePortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
