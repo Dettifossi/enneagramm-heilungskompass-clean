@@ -1336,6 +1336,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Julian Assange – Social Type 9",
     teaser:"SO9w1 · born 1971 in Townsville, Australia. Founder of WikiLeaks, revealer of secret government documents. The buffalo who sacrificed himself for transparency and the community of the informed – and paid years of isolation and imprisonment for it.",
     tags:["Medien","Aktivismus"], gender:"m"},
+{ route:"beruehmte-alan-mcelligott", name:"Dr. Alan McElligott", added:"2026-08-19", subtyp:"SO9w1",
+    heading:"Dr. Alan McElligott – Social Type 9",
+    teaser:"SO9w1 · Behavioral researcher at the City University of Hong Kong, studies the social life of water buffalo herds. Discovered that even feral water buffalo maintain complex friendships and personality profiles. The buffalo who researched the buffalo's herd.",
+    tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-willy-brandt", name:"Willy Brandt", subtyp:"SO9w8",
     heading:"Willy Brandt – Social Type 9",
     teaser:"SO9w8 · 1913–1992. Federal Chancellor, Nobel Peace Prize 1971, architect of Ostpolitik. The Warsaw Kneel – a silence that wrote history. Animal correspondence: Buffalo.",
@@ -4844,6 +4848,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", tier:"Dove"},
   {route:"beruehmte-laurence-frank", name:"Dr. Laurence Frank", subtyp:"SO8w7", tier:"Lion"},
   {route:"beruehmte-cynthia-moss", name:"Dr. Cynthia Moss", subtyp:"SE9w1", tier:"Elephant"},
+  {route:"beruehmte-alan-mcelligott", name:"Dr. Alan McElligott", subtyp:"SO9w1", tier:"Buffalo"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -31387,7 +31392,70 @@ function julianAssangePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
         {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
+        {route:"beruehmte-alan-mcelligott", label:"Portrait: Dr. Alan McElligott (SO9w1)"},
       ])}
+    </div>
+  `);
+}
+
+function alanMcelligottPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-alan-mcelligott-portrait.jpg" alt="Buffalo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Alan McElligott</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Behavioral researcher at the City University of Hong Kong &ndash; Animal correspondence: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo Who Researched the Buffalo's Herd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>buffalo</strong> is the animal of the Social Nine &ndash; not a bison from the plains of North America, but the Asian water buffalo: a herd animal that finds its value not through going it alone, but through reliable belonging to the group. Dr. Alan McElligott, a behavioral researcher at the City University of Hong Kong, devoted a central part of his research to exactly this animal &ndash; and became an internationally recognized voice in understanding its social behavior.</p>
+          <p class="vb-intro">Together with his research team, he studied feral, free-ranging water buffalo populations and demonstrated what had long been considered unlikely: these animals maintain complex social friendships, individual personality profiles, and preferred bonds within the herd &ndash; by no means the merely 'dull' or purely functional creatures they are often mistakenly assumed to be. The buffalo who proves that the buffalo is more than its cliché.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Nine: Identity Through Belonging to the Herd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Nine (SO9)</strong> finds its identity not as an individual, but by merging with a group, a team, a shared cause. McElligott's entire research career bears this signature: instead of a career of going it alone, he repeatedly built new, collaborative research teams across stops in Zurich, Nottingham, London, and finally Hong Kong &ndash; his own note to prospective PhD and postdoc candidates that they are always welcome to get in touch shows a welcoming, cooperation-oriented stance rather than academic territorialism.</p>
+          <p class="vb-intro">His view of the water buffalo themselves is likewise a social one: he is not concerned with the single, isolated animal, but with the web of relationships across the whole herd &ndash; who spends time with whom, which personalities are drawn to each other, how cohesion arises and is maintained. A researcher who studies the social structure of a group because that, above all, has always fascinated him most.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Adherence to Principle Instead of Loud Self-Promotion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Social Nine a clear, methodical adherence to principle &ndash; visible in McElligott's sober, matter-of-fact communication style: short, concrete application requirements instead of bureaucratic hurdles, a direct 'Get in touch!' instead of long preambles. In his research on public perception of Hong Kong's water buffalo, too, he remains strikingly balanced: he names both residents' concerns and the animals' cultural value, without dramatizing either side.</p>
+          <p class="vb-intro">That clearly distinguishes the One-wing from the more confrontational Eight-wing: instead of pushing a position with force, McElligott seeks the balanced, methodically grounded standpoint &ndash; backed by data, not by persuasive force alone. 'Familiarity with wildlife in rural areas often leads to more positive perceptions,' he says of his research on the Hong Kong buffalo &ndash; a typically sober, undramatic One observation, not a loud plea.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO9w1 is the ability to <strong>make the inconspicuous social life of an underestimated species visible</strong> &ndash; McElligott's work fundamentally changed how science and the public think about water buffalo: not as dull livestock, but as social beings with their own bonds and personalities.</p>
+          <p class="vb-intro">The shadow of the Social Nine with a One-wing shows where one's own position steps back behind the group, the team, or the balanced data &ndash; a restraint that safeguards objectivity, but can also mean that one's own voice stays quieter in a controversial debate than it could be.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Buffalo Who Gave the Herd Back Its Depth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Alan McElligott gives the world is scientific proof that an animal long considered indifferent and dull in fact possesses a rich social inner life &ndash; friendships, personality, belonging. That is exactly the substance the Social Nine seeks in every context.</p>
+          <p class="vb-intro">In the end, one image remains that reads almost like living proof for this compass: a man whose archetypal animal is the buffalo, who devoted his research career to exactly that animal &ndash; and in doing so discovered that the herd he studied follows the same principle of belonging and quiet connection that also carries his own nature.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
+        {route:"lebensmusterkompass/so9", label:"Life Pattern Compass: SO9 – Buffalo"},
+        {route:"beruehmte-julian-assange", label:"Portrait: Julian Assange (SO9w1)"},
+        {route:"beruehmte-sandra-hueller", label:"Portrait: Sandra Hüller (SO9w1)"},
+        {route:"tierforscher-uebereinstimmung", label:"Animal-Researcher Correspondence: more examples"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-alan-mcelligott")}
     </div>
   `);
 }
@@ -36713,12 +36781,12 @@ const LEBENSMUSTERKOMPASS = {
   SO9: {
     tier: "Buffalo",
     kernthema: "Identity through belonging to a community, not through the individual person (Naranjo: Participation)",
-    beispiele: ["Amelia Earhart", "Sandra Hüller", "Kevin Costner", "Peter Falk", "Steffi Graf", "Julian Assange", "Ronald Reagan", "Wilma Mankiller", "Willy Brandt", "Nick Leeson", "Leslie Van Houten"],
+    beispiele: ["Amelia Earhart", "Sandra Hüller", "Kevin Costner", "Peter Falk", "Steffi Graf", "Julian Assange", "Ronald Reagan", "Wilma Mankiller", "Willy Brandt", "Nick Leeson", "Leslie Van Houten", "Dr. Alan McElligott"],
     fingerabdruecke: [
       {
         titel: "Identity through belonging to a cause or community, not through the individual person",
         beschreibung: "Naranjo called this subtype the one of 'Participation': the self does not appear as an individual, but merges with a group, an idea, or a larger cause – its thinking and feeling becomes one's own.",
-        beleg: "Julian Assange: 'An animal that defines itself not through going it alone, but through being bound to a larger cause ... He doesn't fight for himself – he fights for something bigger than his own survival'; Kevin Costner: 'He is part of something bigger, and he knows it'; Amelia Earhart, whose 'real project was never personal thrill, but the proof that women can fly like men.'; Sandra Hüller, who in interviews rarely talks about herself as a star, almost always about the ensemble, the team, the direction – and stayed loyal to her theater in Leipzig despite international fame; Wilma Mankiller, who carried a Cherokee honorific title that literally means 'protector of the people,' and laid her first major project's water line together with residents – not as an outside administrator, but as part of the cause itself."
+        beleg: "Julian Assange: 'An animal that defines itself not through going it alone, but through being bound to a larger cause ... He doesn't fight for himself – he fights for something bigger than his own survival'; Kevin Costner: 'He is part of something bigger, and he knows it'; Amelia Earhart, whose 'real project was never personal thrill, but the proof that women can fly like men.'; Sandra Hüller, who in interviews rarely talks about herself as a star, almost always about the ensemble, the team, the direction – and stayed loyal to her theater in Leipzig despite international fame; Wilma Mankiller, who carried a Cherokee honorific title that literally means 'protector of the people,' and laid her first major project's water line together with residents – not as an outside administrator, but as part of the cause itself; Dr. Alan McElligott, who studied not the single animal but the web of relationships across the entire buffalo herd – and whose own research style favors teams and collaboration over going it alone."
       },
       {
         titel: "Calm, unhurried presence that the herd nonetheless follows",
@@ -58744,6 +58812,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-abida-parveen": abidaParveenPortraitPage,
       "beruehmte-steffi-graf": steffiGrafPortraitPage,
       "beruehmte-julian-assange": julianAssangePortraitPage,
+      "beruehmte-alan-mcelligott": alanMcelligottPortraitPage,
       "beruehmte-willy-brandt": willyBrandtPortraitPage,
       "beruehmte-wilma-mankiller": wilmaMankillerPortraitPage,
       "beruehmte-jane-goodall": janeGoodallPortraitPage,
