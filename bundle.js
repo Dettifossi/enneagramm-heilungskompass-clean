@@ -48733,7 +48733,7 @@ function dietlandMuellerSchwarzePortraitPage() {
 
         <h2 class="vb-section">1. Der Biber, der die Sprache des Bibers als Erster entschlüsselte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben &ndash; er baut nicht für sich selbst, sondern schafft Wissen und Strukturen, die weit über die eigene Person hinausreichen. Kaum ein Wissenschaftler legte den Grundstein für dieses Forschungsfeld so vollständig wie Prof. Dr. Dietland Müller-Schwarze: Der deutsch-amerikanische Biologe gilt als Pionier der modernen Biber-Verhaltensforschung und widmete 26 Jahre seiner Karriere der chemischen Kommunikation dieser Tiere &ndash; lange bevor jüngere Forscher wie Frank Rosell dieses Feld weiterführten.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben &ndash; er baut nicht für sich selbst, sondern schafft Wissen und Strukturen, die weit über die eigene Person hinausreichen. Kaum ein Wissenschaftler legte den Grundstein für dieses Forschungsfeld so vollständig wie Prof. Dr. Dietland Müller-Schwarze: Der deutsch-amerikanische Biologe gilt als Pionier der modernen Biber-Verhaltensforschung und widmete 26 Jahre seiner Karriere der chemischen Kommunikation dieser Tiere &ndash; lange bevor jüngere Forscher wie Frank Rosell (SO7w6) dieses Feld weiterführten.</p>
           <p class="vb-intro">In Deutschland geboren, begann Müller-Schwarze seine akademische Laufbahn mit einer Doktorarbeit in Verhaltensforschung bei niemand Geringerem als Nobelpreisträger Konrad Lorenz am Max-Planck-Institut für Verhaltensphysiologie &ndash; jenem Konrad Lorenz, der in diesem Kompass selbst als soziale Eins (Gans) porträtiert ist. Von dort aus führte ihn seine Forschung über Deutschland, Schweden, Griechenland, Indien, Südafrika, Kanada, Uruguay bis in die Antarktis.</p>
         </blockquote>
 
@@ -48751,7 +48751,7 @@ function dietlandMuellerSchwarzePortraitPage() {
 
         <h2 class="vb-section">4. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO7w6 ist die Fähigkeit, <strong>eine unstillbare Neugier über Jahrzehnte in ein grundlegendes, weltweit anerkanntes Fundament eines ganzen Forschungsfeldes</strong> zu verwandeln &ndash; sein Standardwerk "The Beaver: Its Life and Impact" gilt bis heute als unangefochtener Klassiker und legte die wissenschaftliche Basis, auf der spätere Biber-Forschende wie Rosell oder Campbell-Palmer aufbauen konnten.</p>
+          <p class="vb-intro">Das Licht der SO7w6 ist die Fähigkeit, <strong>eine unstillbare Neugier über Jahrzehnte in ein grundlegendes, weltweit anerkanntes Fundament eines ganzen Forschungsfeldes</strong> zu verwandeln &ndash; sein Standardwerk "The Beaver: Its Life and Impact" (deutsch etwa: "Der Biber: Sein Leben und seine Wirkung") gilt bis heute als unangefochtener Klassiker und legte die wissenschaftliche Basis, auf der spätere Biber-Forschende wie Rosell oder Campbell-Palmer aufbauen konnten.</p>
           <p class="vb-intro">Der Schatten der sozialen Sieben mit Sechserflügel zeigt sich darin, wie sehr ein derart weit gereistes, breit angelegtes Lebenswerk die eigene, private Sichtbarkeit hinter der Institution und dem Fachgebiet verschwinden lassen kann &ndash; selbst grundlegende biografische Details wie sein Geburtsjahr sind heute öffentlich kaum mehr auffindbar.</p>
         </blockquote>
 
