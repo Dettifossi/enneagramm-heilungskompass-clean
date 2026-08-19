@@ -32033,7 +32033,7 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-jennifer-mather", name:"Jennifer Mather", added:"2026-08-17", subtyp:"SO5w6",
     heading:"Jennifer Mather – Sozialer Typ 5",
     teaser:"SO5w6 · geb. 1943. Verhaltensforscherin, weltweit führende Oktopus-Kognitionsforscherin, wissenschaftliche Beraterin von „My Octopus Teacher“. Der Oktopus, der ein Leben lang den Oktopus erforschte – Tierentsprechung und Lebenswerk in seltener Übereinstimmung.",
-    land:"Kanada", tags:["Wissenschaft"], gender:"w"},
+    land:"Kanada", tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-bill-gates", name:"Bill Gates", subtyp:"SO5w6",
     heading:"Bill Gates \u2013 Sozialer Typ 5",
     teaser:"SO5w6 \u00b7 geb. 1955. Microsoft-Gr\u00fcnder, Milliard\u00e4r. Investor in Industrie, Landwirtschaft und globale Gesundheitspolitik. Der Oktopus, der mit acht Armen die Welt umfasst \u2013 und nicht mehr losl\u00e4sst.",
