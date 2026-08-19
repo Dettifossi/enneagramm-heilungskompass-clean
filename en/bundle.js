@@ -946,11 +946,11 @@ const BERUEHMT_PORTRAITS = [
     tags:["Sport","Führung"] },
 { route:"beruehmte-marta-manser", name:"Prof. Dr. Marta Manser", added:"2026-08-19", subtyp:"SO6w5",
     heading:"Prof. Dr. Marta Manser – Social Type 6",
-    teaser:"SO6w5 · Swiss behavioural biologist, professor at the University of Zurich, director of the Kalahari Research Centre. Decoded meerkats' complex alarm-call system – an early-warning system for the whole group. Animal correspondence: Meerkat.",
+    teaser:"SO6w5 · b. 1962. Swiss behavioural biologist, professor at the University of Zurich, director of the Kalahari Research Centre. Decoded meerkats' complex alarm-call system – an early-warning system for the whole group. Animal correspondence: Meerkat.",
     tags:["Wissenschaft"], gender:"f"},
 { route:"beruehmte-tim-clutton-brock", name:"Prof. Tim Clutton-Brock", added:"2026-08-19", subtyp:"SO6w5",
     heading:"Prof. Tim Clutton-Brock – Social Type 6",
-    teaser:"SO6w5 · British evolutionary biologist, professor at Cambridge, founder of the Kalahari Meerkat Project. Decades of research into why individuals serve the group instead of reproducing themselves – cooperative survival as a life's theme. Animal correspondence: Meerkat.",
+    teaser:"SO6w5 · b. 1946. British evolutionary biologist, professor at Cambridge, founder of the Kalahari Meerkat Project. Decades of research into why individuals serve the group instead of reproducing themselves – cooperative survival as a life's theme. Animal correspondence: Meerkat.",
     tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-herbert-groenemeyer", name:"Herbert Grönemeyer", subtyp:"SO6w7",
     heading:"Herbert Grönemeyer – Social Type 6",
@@ -28981,7 +28981,7 @@ function martaManserPortraitPage() {
         </div>
         <p class="krim-portrait-name">Prof. Dr. Marta Manser</p>
         <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with Five-wing</p>
-        <p class="krim-portrait-subtitle">Behavioural biologist &ndash; Animal correspondence: Meerkat</p>
+        <p class="krim-portrait-subtitle">Behavioural biologist, b. 1962 &ndash; Animal correspondence: Meerkat</p>
       </div>
       <div class="page-content">
 
@@ -29042,7 +29042,7 @@ function timCluttonBrockPortraitPage() {
         </div>
         <p class="krim-portrait-name">Prof. Tim Clutton-Brock</p>
         <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with Five-wing</p>
-        <p class="krim-portrait-subtitle">Evolutionary biologist &ndash; Animal correspondence: Meerkat</p>
+        <p class="krim-portrait-subtitle">Evolutionary biologist, b. 1946 &ndash; Animal correspondence: Meerkat</p>
       </div>
       <div class="page-content">
 
