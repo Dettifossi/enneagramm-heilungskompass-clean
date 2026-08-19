@@ -32185,6 +32185,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. L. David Mech \u2013 Sexueller Typ 6",
     teaser:"SX6w5 \u00b7 geb. 1937. US-amerikanischer Biologe, \u201eVater der modernen Wolfsforschung\u201c, Gr\u00fcnder des International Wolf Center. Seit \u00fcber 60 Jahren Wolfsforschung, Standardwerk \u201eThe Wolf\u201c. Der Wolf, der sein Leben lang das Rudel erforschte \u2013 und dabei die eigene Tierentsprechung studierte. Tierentsprechung: Wolf.",
     tags:["Wissenschaft"], gender:"m"},
+  { route:"beruehmte-douglas-smith", name:"Dr. Douglas W. Smith", added:"2026-08-19", subtyp:"SX6w5",
+    heading:"Dr. Douglas W. Smith \u2013 Sexueller Typ 6",
+    teaser:"SX6w5 \u00b7 US-amerikanischer Wildtierbiologe, Leiter des Yellowstone-Wolfsprojekts seit 1997. Managte ab 1995 die spektakul\u00e4re Wiederansiedlung der W\u00f6lfe im Yellowstone-Nationalpark und dokumentierte, wie ein einziges Rudel ein ganzes \u00d6kosystem ver\u00e4ndern kann. Tierentsprechung: Wolf.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-michael-schumacher", name:"Michael Schumacher", added:"2026-07-21", subtyp:"SX6w7",
     heading:"Michael Schumacher \u2013 Sexueller Typ 6",
     teaser:"SX6w7 \xb7 geb. 1969 in H\xfcrth. Formel-1-Rennfahrer, siebenmaliger Weltmeister, 91 Siege. Der Wolf, der Angst in Geschwindigkeit verwandelt hat &ndash; und dessen Stille seit 2013 lauter ist als alles, was er je gesagt hat.",
@@ -35273,6 +35277,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-marta-manser", name:"Prof. Dr. Marta Manser", subtyp:"SO6w5", tier:"Erdmännchen"},
   {route:"beruehmte-tim-clutton-brock", name:"Prof. Tim Clutton-Brock", subtyp:"SO6w5", tier:"Erdmännchen"},
   {route:"beruehmte-david-mech", name:"Dr. L. David Mech", subtyp:"SX6w5", tier:"Wolf"},
+  {route:"beruehmte-douglas-smith", name:"Dr. Douglas W. Smith", subtyp:"SX6w5", tier:"Wolf"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42745,12 +42750,12 @@ const LEBENSMUSTERKOMPASS = {
   SX6: {
     tier: "Wolf",
     kernthema: "Angst wird nicht vermieden, sondern frontal angegriffen – Stärke als Gegenangst (Naranjo: Kontratyp der Sechs)",
-    beispiele: ["Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech"],
+    beispiele: ["Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith"],
     fingerabdruecke: [
       {
         titel: "Angst wird nicht vermieden, sondern frontal angegriffen",
         beschreibung: "Anders als die anderen Sechser-Subtypen sucht diese Ausprägung Sicherheit nicht durch Anpassung oder Rückzug, sondern durch das direkte Konfrontieren der eigenen Angst – Stärke wird zur Gegenreaktion auf eine tief sitzende Unsicherheit.",
-        beleg: "Beethoven: ›Wer schon als Kind lernt, dass Verletzlichkeit bestraft wird, lernt, ihr mit Härte zuvorzukommen‹; Michael Schumacher: ›Der Wolf duckt sich nicht vor der Bedrohung. Er dreht sich um und läuft ihr entgegen. Das ist die sexuelle Sechs in ihrer tiefsten Ausprägung: Angst nicht als Lähmung, sondern als Treibstoff‹; Kollegah: ›Der Wolf hat Angst – und er verwandelt diese Angst in Kraft‹; Putins Kindheitserinnerung an eine in die Enge getriebene Ratte, die ihm ins Gesicht sprang: ›Wer in die Enge getrieben ist, darf sich niemals zurückziehen.‹"
+        beleg: "Beethoven: ›Wer schon als Kind lernt, dass Verletzlichkeit bestraft wird, lernt, ihr mit Härte zuvorzukommen‹; Michael Schumacher: ›Der Wolf duckt sich nicht vor der Bedrohung. Er dreht sich um und läuft ihr entgegen. Das ist die sexuelle Sechs in ihrer tiefsten Ausprägung: Angst nicht als Lähmung, sondern als Treibstoff‹; Kollegah: ›Der Wolf hat Angst – und er verwandelt diese Angst in Kraft‹; Putins Kindheitserinnerung an eine in die Enge getriebene Ratte, die ihm ins Gesicht sprang: ›Wer in die Enge getrieben ist, darf sich niemals zurückziehen‹; Dr. Douglas W. Smith, der die Wiederansiedlung der Wölfe in Yellowstone gegen erheblichen politischen Widerstand von Ranchern und Jägern durchsetzte, statt dem Konflikt auszuweichen."
       },
       {
         titel: "Direkter Blickkontakt und Klartext statt Rückzug oder Diplomatie",
@@ -48571,10 +48576,71 @@ function davidMechPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
+        {route:"beruehmte-douglas-smith", label:"Porträt: Dr. Douglas W. Smith (SX6w5)"},
         {route:"beruehmte-moses", label:"Porträt: Moses (SX6w5)"},
-        {route:"beruehmte-wladimir-putin", label:"Porträt: Wladimir Putin (SX6w5)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-david-mech")}
+    </div>
+  `);
+}
+
+function douglasSmithPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-douglas-smith-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Douglas W. Smith</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Wildtierbiologe, Leiter des Yellowstone-Wolfsprojekts &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf, der die Wölfe zurück nach Yellowstone brachte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs &ndash; er begegnet der Angst nicht durch Rückzug, sondern durch direkte Konfrontation, und findet seine tiefste Bedeutung im Schutz und Überleben des Rudels. Kaum ein Lebenswerk zeigt dieses Prinzip so unmittelbar wie das von Dr. Douglas W. Smith: 1994 von der US-Nationalparkverwaltung als Projektbiologe für die Wiederansiedlung der Wölfe in Yellowstone engagiert, leitete er ab 1997 über Jahrzehnte das gesamte Yellowstone-Wolfsprojekt &ndash; bis zu seiner Pensionierung 2022, nach 28 Dienstjahren im Park.</p>
+          <p class="vb-intro">Bereits vor Yellowstone hatte Smith von 1979 bis 1992 auf Isle Royale mit Wölfen gearbeitet &ndash; demselben legendären Langzeitforschungsgebiet, in dem auch Dr. L. David Mech, der "Vater der modernen Wolfsforschung", seine Karriere begann. Beide Männer verbrachten ihr Leben buchstäblich im rauen Freiland, um denselben komplexen sozialen Code des Wolfes zu entschlüsseln &ndash; eine Verbindung, die weit über bloße fachliche Kollegenschaft hinausgeht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Krisenbewältigung im Dienst des Rudels</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> begegnet Angst kontraphobisch &ndash; nicht durch Ausweichen, sondern durch die direkte Übernahme von Verantwortung genau dort, wo andere zurückschrecken würden. Die Wiederansiedlung der Wölfe in Yellowstone 1995 war ein hochriskantes, politisch umkämpftes Projekt: Smith musste nicht nur wissenschaftlich, sondern auch gegen erheblichen öffentlichen Widerstand von Ranchern und Jägern bestehen, um die Wölfe dauerhaft im Park zu etablieren.</p>
+          <p class="vb-intro">Sein Lebenswerk dokumentiert eindrücklich, wie die Rückkehr eines einzigen Rudels das gesamte ökologische Gleichgewicht eines riesigen Nationalparks verändern kann &ndash; bis hin zum Flussverlauf, der sich durch das veränderte Verhalten der Elche und die dadurch zurückkehrende Ufervegetation neu formte. Genau diese Hingabe an das Überleben und den Schutz einer ganzen Gemeinschaft, nicht nur einzelner Tiere, ist der Kern der sexuellen Sechs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Wissenschaftliche Tiefe über Jahrzehnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Sechs eine analytische Tiefe, die sich in Smiths wissenschaftlicher Laufbahn deutlich zeigt: Seine Promotion an der University of Nevada widmete sich dem kooperativen Brutverhalten von Bibern &ndash; einem weiteren sozial hochorganisierten Tier &ndash;, bevor er sein gesamtes Wissen in die systematische, jahrzehntelange Beobachtung der Yellowstone-Wolfsrudel einbrachte.</p>
+          <p class="vb-intro">Als Ko-Autor von Standardwerken wie "Wolves on the Hunt: The Behavior of Wolves Hunting Wild Prey" (deutsch etwa: "Wölfe auf der Jagd: Das Jagdverhalten von Wölfen") übersetzte er jahrzehntelange Feldbeobachtung in überprüfbares, wissenschaftlich abgesichertes Wissen &ndash; dieselbe Kombination aus Sechser-Verantwortungsübernahme im Feld und Fünfer-Systematik in der Auswertung, die auch Mechs Lebenswerk prägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 ist die Fähigkeit, <strong>unter erheblichem Druck und Widerstand die Verantwortung für ein ganzes ökologisches System zu übernehmen</strong> &ndash; die Wolfswiederansiedlung in Yellowstone gilt heute als eines der erfolgreichsten Naturschutzprojekte der Geschichte und veränderte grundlegend, wie Wissenschaft und Öffentlichkeit das Konzept der "trophischen Kaskade" verstehen: wie ein einziges Raubtier ein gesamtes Ökosystem stabilisieren kann.</p>
+          <p class="vb-intro">Der Schatten der sexuellen Sechs mit Fünferflügel zeigt sich in der enormen persönlichen Belastung eines derart konfliktreichen Lebenswerks: Über Jahrzehnte im Zentrum eines politisch aufgeladenen Streits zu stehen, erfordert eine Widerstandsfähigkeit, die kaum Raum für andere Lebensbereiche jenseits dieser einen, alles fordernden Aufgabe lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Zwei Wölfe, ein Code</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Smith der Welt gibt, ist der lebende Beweis dafür, dass ein einzelnes Rudel eine ganze Landschaft heilen kann &ndash; ein Werk, das er, wie Mech, mit jahrzehntelanger, kontraphobischer Hingabe an ein und dasselbe Tier vollbrachte. Beide Männer, beide SX6w5, beide dem Wolf verschrieben &ndash; nicht zufällig, sondern als zwei Ausprägungen desselben archetypischen Prinzips.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das kaum treffender für die sexuelle Sechs mit Fünferflügel sein könnte: ein Mann, dessen archetypisches Tier der Wolf ist, der die Wölfe buchstäblich zurück in ihre Heimat brachte &ndash; und dabei ein Rudel von Forschenden anführte, so wie ein Alphatier sein eigenes Rudel führt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
+        {route:"beruehmte-david-mech", label:"Porträt: Dr. L. David Mech (SX6w5)"},
+        {route:"beruehmte-moses", label:"Porträt: Moses (SX6w5)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-douglas-smith")}
     </div>
   `);
 }
@@ -92485,6 +92551,7 @@ function render() {
       "beruehmte-marta-manser": martaManserPortraitPage,
       "beruehmte-tim-clutton-brock": timCluttonBrockPortraitPage,
       "beruehmte-david-mech": davidMechPortraitPage,
+      "beruehmte-douglas-smith": douglasSmithPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
