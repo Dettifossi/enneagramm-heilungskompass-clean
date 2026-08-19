@@ -31718,6 +31718,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Judit Polgár – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · geb. 1976. Schach-Großmeisterin, spielstärkste Frau der Schachgeschichte. Jüngste Großmeisterin der Geschichte 1991, Platz 8 der Weltrangliste 2005. Der Waschbär, der sich die härteste statt die bequemste Bühne suchte. Tierentsprechung: Waschbär.",
     land:"Ungarn", tags:["Sport"], gender:"f"},
+  { route:"beruehmte-annika-von-mutius", name:"Dr. Annika von Mutius", added:"2026-08-19", subtyp:"SE3w4",
+    heading:"Dr. Annika von Mutius – Selbsterhaltender Typ 3",
+    teaser:"SE3w4 · Deutsche Unternehmerin, Gründerin des KI-Recruiting-Start-ups Empion. Promovierte Mathematikerin, Forbes „30 Under 30 Europe“. Substanz statt Inszenierung als Antrieb. Tierentsprechung: Waschbär.",
+    land:"Deutschland", tags:["Wirtschaft"], gender:"f"},
   { route:"beruehmte-madame-tussaud", name:"Madame Tussaud", added:"2026-08-08", subtyp:"SE3w4",
     heading:"Madame Tussaud \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w4 \u00b7 1761\u20131850. Wachsbildnerin, Museumsgr\u00fcnderin. Totenmasken der Guillotine-Opfer w\u00e4hrend der Franz\u00f6sischen Revolution, 33 Jahre Wandertournee durch Gro\u00dfbritannien, das \u201eKabinett des Schreckens\u201c \u2013 der Waschb\u00e4r, der aus reiner \u00dcberlebensfertigkeit ein Weltunternehmen baute. Tierentsprechung: Waschb\u00e4r.",
@@ -43098,7 +43102,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Aus wenig oder aus dem Nichts ein funktionierendes System bauen",
         beschreibung: "Statt auf vorhandene Ressourcen oder Startvorteile zu warten, entsteht aus begrenzten Mitteln, oft aus purer Findigkeit, ein tragfähiges, manchmal jahrzehntelang funktionierendes System.",
-        beleg: "Osho, der ›aus einem staubigen Grundstück in Poona einen internationalen Kommune-Betrieb‹ und später eine ganze Stadt mit eigenem Flughafen aufbaute; Madame Tussaud, die aus einem Handwerk ›ein Weltunternehmen‹ machte, das ›fast zweihundert Jahre nach ihrem Tod in Dutzenden Städten‹ weiterbesteht; Sadhguru: ›Der Waschbär macht aus dem Wenigen viel – leise, effizient, ohne Aufhebens. Und dann schaut man hin, und er hat die ganze Wüste bepflanzt.‹"
+        beleg: "Osho, der ›aus einem staubigen Grundstück in Poona einen internationalen Kommune-Betrieb‹ und später eine ganze Stadt mit eigenem Flughafen aufbaute; Madame Tussaud, die aus einem Handwerk ›ein Weltunternehmen‹ machte, das ›fast zweihundert Jahre nach ihrem Tod in Dutzenden Städten‹ weiterbesteht; Sadhguru: ›Der Waschbär macht aus dem Wenigen viel – leise, effizient, ohne Aufhebens. Und dann schaut man hin, und er hat die ganze Wüste bepflanzt.‹; Dr. Annika von Mutius, die statt auf lautes Marketing über Jahre auf die technische Substanz eines KI-Matching-Systems setzte, bevor Empion mit Konzernen wie Procter & Gamble zusammenarbeitete – Aufmerksamkeit, die der Substanz folgte, nicht umgekehrt."
       },
       {
         titel: "Jahrelange, disziplinierte Übung im Verborgenen, bevor sich Meisterschaft zeigt",
@@ -63821,6 +63825,65 @@ function juditPolgarPortraitPage() {
         {route:"beruehmte-kathrin-bauerfeind", label:"Porträt: Kathrin Bauerfeind (SE3w4)"},
         {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
         {route:"beruehmte-magnus-carlsen", label:"Porträt: Magnus Carlsen (SE1w9) – von ihr besiegter Weltmeister"},
+      ])}
+    </div>
+  `);
+}
+
+function annikaVonMutiusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-annika-von-mutius-portrait.jpg" alt="Dr. Annika von Mutius – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Annika von Mutius</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Unternehmerin, Gründerin von Empion &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das man leicht unterschätzt. Kein lauter Auftritt, kein Glamour, keine Inszenierung um ihrer selbst willen. Der Waschbär arbeitet mit feinen, geschickten Händen im Verborgenen und wird erst dann sichtbar, wenn man genau hinschaut, was er eigentlich alles kann.</p>
+          <p class="vb-intro">Die deutsche Unternehmerin Dr. Annika von Mutius wuchs in Koblenz auf, in einer Familie, die ein Unternehmen zur Drahtverarbeitung führte &ndash; ein solider, handwerklich geprägter Familienbetrieb, kein Umfeld, das nach großer Bühne verlangte. Sie promovierte in Mathematik an der WHU in Vallendar, empfand die akademische Laufbahn dann aber als zu abstrakt und ging stattdessen für vier Jahre als Head of Product zu Multiply Labs ins Silicon Valley &ndash; ein Umweg über reine Praxis, bevor sie den eigenen Weg fand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Substanz statt Inszenierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei &ndash; der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em></p>
+          <p class="vb-intro">Im Dezember 2021 gründete von Mutius gemeinsam mit Larissa Leitner das HR-Tech-Start-up Empion &ndash; eine Plattform, die per Künstlicher Intelligenz Bewerbende und Unternehmen nicht nur nach Qualifikation, sondern nach Werten, Skills und Persönlichkeitsmerkmalen zusammenbringt. Statt auf lautes Marketing zu setzen, baute das Team über Jahre an der eigentlichen technischen Substanz des Matchings &ndash; mit dem Ergebnis, dass Empion heute mit Konzernen wie Procter &amp; Gamble und den Volksbanken arbeitet, neun Millionen US-Dollar an Finanzierung einsammelte und den Wettbewerber Zalvus übernahm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Der eigene Weg zwischen Familienunternehmen und Start-up</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet mein Weg &ndash; jenseits dessen, was von mir erwartet wird?</em> Von Mutius beschreibt ihre eigene Position selbst als ein Leben &bdquo;zwischen den Stühlen&ldquo; &ndash; zwischen dem soliden, handwerklich geprägten Familienunternehmen ihrer Eltern und der volatilen, oft überinszenierten Start-up-Welt, der sie sich mit Empion verschrieben hat, ohne in ihr aufzugehen.</p>
+          <p class="vb-intro">Bezeichnend ist ihr eigener Rückblick auf das Gründerinnendasein: Sie stellte öffentlich fest, dass mit dem Wachstum eines Start-ups der persönliche Erfolg an Bedeutung verliert &ndash; eine für die reine SE3w2 untypische Beobachtung, die zeigt, wie sehr der Viererflügel die eigene Rolle immer wieder an einer tieferen, persönlichen Bedeutungsfrage misst, statt sich allein an Wachstumszahlen zu orientieren. 2024 wurde sie zusätzlich in den Vorstand des KI-Bundesverbands gewählt &ndash; eine öffentliche Rolle, die sie dennoch mit derselben nüchternen, unaufgeregten Handwerklichkeit ausfüllt wie ihre unternehmerische Arbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem Handwerk echte Einzigartigkeit zu schöpfen. Von Mutius baute mit Empion ein Produkt, dessen Kern &ndash; die algorithmische Passung von Werten statt bloßer Qualifikation &ndash; tatsächlich funktionieren musste, bevor es überhaupt vermarktbar wurde. Ihre Auszeichnungen, darunter Forbes &bdquo;30 Under 30 Europe&ldquo; und das Handelsblatt-Ranking &bdquo;Menschen des Jahres&ldquo;, folgten der Substanz, nicht umgekehrt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unverwechselbar zu gelten, während man zugleich vermeidet, sich selbst als Person in den Vordergrund zu stellen. Der Viererflügel bringt seinen eigenen Schatten mit: die ständige Notwendigkeit, sich von jeder vorgezeichneten Erwartung &ndash; ob Familienunternehmen oder reine Start-up-Logik &ndash; abzugrenzen und einen völlig eigenen Maßstab zu setzen, was auf Dauer isolierend wirken kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Beweisen zum Weitergeben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Leistung.</em> Für die SE3w4 zeigt sich das darin, dass der eigene Wert nicht mehr am nächsten Finanzierungsmeilenstein hängt, sondern an der Wahrhaftigkeit des eigenen Weges.</p>
+          <p class="vb-intro">Von Mutius' eigene Beobachtung, dass persönlicher Erfolg beim Wachsen eines Unternehmens an Bedeutung verliert, liest sich wie ein früher Schritt genau auf diesem Weg &ndash; ein Waschbär, der sein Handwerk nicht mehr als Beweis der eigenen Ausnahmestellung braucht, sondern als etwas, das über die eigene Person hinausweist: ein Unternehmen, das anderen Menschen zu einem passenderen Arbeitsplatz verhilft, statt nur die eigene Gründerinnen-Geschichte zu erzählen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},
+        {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
       ])}
     </div>
   `);
@@ -93527,6 +93590,7 @@ function render() {
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
       "beruehmte-judit-polgar": juditPolgarPortraitPage,
+      "beruehmte-annika-von-mutius": annikaVonMutiusPortraitPage,
       "beruehmte-anna-anderson": annaAndersonPortraitPage,
       "beruehmte-peter-falk": peterFalkPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
