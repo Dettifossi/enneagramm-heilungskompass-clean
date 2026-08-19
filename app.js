@@ -15839,6 +15839,7 @@ const uiText = {
     { route: "dashboard", label: "Kompass" },
     { route: "heilung", label: "Heilung", dropdown: [
       { route: "healing",        label: "Heilmittel-Kompass" },
+      { route: "psychosomatik",  label: "Psychosomatik-Register" },
       { route: "tcm",            label: "TCM & Meridiane" },
       { route: "homoeopathie",   label: "Hom\u00f6opathische Mittel" },
       { route: "mineralstoffe",  label: "Mineralstoffimpulse" },
@@ -89225,6 +89226,109 @@ function subtypeSchaubilderPage() {
   `);
 }
 
+const PSYCHOSOMATIK_KRANKHEITEN = {
+  herzinfarkt: {
+    titel: "Herzinfarkt",
+    icon: "&#10084;&#65039;",
+    kurz: "Wenn das Herz nicht mehr mitmacht bei einem Leben, das an ihm vorbeigelebt wurde.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arztbesuch ersetzen.",
+    einleitung: "Die Herzmedizin kennt seit den 1950er-Jahren das Konzept der &bdquo;Typ-A-Persönlichkeit&ldquo; (Friedman &amp; Rosenman): ehrgeizig, zeitgetrieben, wettbewerbsorientiert, mit unterdrückter oder explosiver Aggression – ein Muster, das in Langzeitstudien mit erhöhtem kardiovaskulärem Risiko korreliert. Auch die Traditionelle Chinesische Medizin ordnet das Herz dem Feuer-Element zu, dem Sitz des Shen, des Geistes und der Lebensfreude – gerät dieses Feuer aus dem Takt, liest die Psychosomatik das häufig als Ausdruck verweigerter oder erzwungener Freude, chronischer Selbstüberforderung oder eines Lebens, das lange am eigenen Herzen vorbeigelebt wurde.",
+    subtypen: [
+      {
+        code: "SE1 / SO1",
+        titel: "Der nach innen gerichtete Zorn",
+        punkte: [
+          "Jahrzehntelange Selbstkontrolle als oberstes Lebensprinzip: Nichts darf außer Kontrolle geraten, am wenigsten die eigene Wut.",
+          "Der Zorn wird nicht ausgedrückt, sondern diszipliniert verwaltet – eine Daueranspannung, die selten Entladung findet.",
+          "Das Herz trägt buchstäblich die Last einer Explosion, die sich der Mensch sein Leben lang nie erlaubt hat.",
+        ],
+      },
+      {
+        code: "SE3 / SO3",
+        titel: "Das Herz im Dienst der Leistung",
+        punkte: [
+          "Der eigene Wert bemisst sich am nächsten Ergebnis, am nächsten Beweis der eigenen Tüchtigkeit.",
+          "Erschöpfung wird nicht als Warnsignal gelesen, sondern als Schwäche, die es zu überwinden gilt.",
+          "Das Herz pumpt im Takt der Zielvorgaben weiter, lange nachdem der Körper längst um eine Pause gebeten hat.",
+        ],
+      },
+      {
+        code: "SO8 / SE8",
+        titel: "Die Kraft, die niemals nachlassen darf",
+        punkte: [
+          "Rückzug, Verletzlichkeit oder Ruhebedürfnis werden als Angriffsfläche erlebt, nicht als legitimes Bedürfnis.",
+          "Intensität ist Lebensprinzip: volle Kraft, volles Tempo, keine halben Sachen.",
+          "Das Herz läuft dauerhaft auf Hochspannung, weil Herunterschalten im inneren Selbstbild keinen Platz hat.",
+        ],
+      },
+    ],
+    abschluss: "Das heißt ausdrücklich nicht, dass andere Subtypen verschont blieben – sondern dass diese drei Muster besonders häufig eine Konstellation erzeugen, in der Lebensstil, innere Anspannung und Körper über Jahre in dieselbe Richtung wirken. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
+};
+
+function psychosomatikPage() {
+  const entries = Object.entries(PSYCHOSOMATIK_KRANKHEITEN);
+  const cards = entries.map(([slug, k]) => `
+    <button class="tool-card--link" data-route="psychosomatik/${slug}" style="display:block;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;cursor:pointer;">
+      <div style="display:flex;align-items:center;gap:0.7rem;margin-bottom:0.4rem;">
+        <span style="font-size:1.4rem;">${k.icon}</span>
+        <h3 style="margin:0;font-size:1.1rem;color:var(--ink);">${k.titel}</h3>
+      </div>
+      <p style="margin:0;font-size:0.9rem;color:var(--muted);">${k.kurz}</p>
+    </button>
+  `).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("psychosomatik")}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Psychosomatik-Register</h1>
+      <p class="psycho-intro">Krankheitsbilder aus psychosomatischer Sicht, verknüpft mit dem Enneagramm: Wo zeigen sich bei welchem Subtyp typische innere Muster, die – neben vielen anderen Faktoren – mit bestimmten Beschwerdebildern in Verbindung gebracht werden? <strong>Wichtig: Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Diese Seite ersetzt keine ärztliche Diagnose oder Behandlung, sondern bietet eine ergänzende, ganzheitliche Deutungsebene – im selben Sinn, in dem auch der Homöopathie-Bereich dieses Kompasses arbeitet: nicht am Symptom ansetzen, sondern an der zugrunde liegenden Lebenskraft.</p>
+      <div style="max-width:640px;margin-top:1.2rem;">
+        ${cards}
+      </div>
+      ${relatedLinks([
+        {route:"healing", label:"Heilmittel-Kompass"},
+        {route:"homoeopathie", label:"Hom\xf6opathische Mittel"},
+        {route:"tcm", label:"TCM & Meridiane"},
+      ])}
+    </div>
+  `);
+}
+
+function psychosomatikDetailPage(slug) {
+  const k = PSYCHOSOMATIK_KRANKHEITEN[slug];
+  if (!k) return psychosomatikPage();
+  const subtypBloecke = k.subtypen.map(s => `
+    <div style="background:color-mix(in srgb, var(--copper) 4%, var(--paper));border-left:3px solid var(--copper);border-radius:0 8px 8px 0;padding:1.1rem 1.3rem;margin-bottom:1rem;max-width:640px;">
+      <p style="font-size:0.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.3rem;">${s.code}</p>
+      <p style="font-family:var(--serif);font-size:1.1rem;color:var(--ink);margin:0 0 0.7rem;font-weight:600;">${s.titel}</p>
+      <ul style="margin:0;padding-left:1.2rem;">
+        ${s.punkte.map(p => `<li style="font-size:0.93rem;line-height:1.65;color:var(--ink);margin-bottom:0.4rem;">${p}</li>`).join("")}
+      </ul>
+    </div>
+  `).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("psychosomatik")}
+      <button class="ghost-link" data-route="psychosomatik" style="margin-bottom:1rem;">&larr; Alle Krankheitsbilder</button>
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:0 0 0.6rem;">${k.icon} ${k.titel}</h1>
+      <div style="background:color-mix(in srgb, var(--copper) 8%, var(--paper));border-radius:10px;padding:1rem 1.2rem;margin-bottom:1.3rem;max-width:640px;">
+        <p style="margin:0;font-size:0.88rem;font-style:italic;color:var(--muted);">${k.disclaimer}</p>
+      </div>
+      <p class="psycho-intro" style="max-width:640px;">${k.einleitung}</p>
+      <p style="font-size:0.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.07em;margin:1.3rem 0 0.8rem;">Anknüpfungspunkte im Enneagramm</p>
+      ${subtypBloecke}
+      <p class="psycho-intro" style="max-width:640px;margin-top:1rem;">${k.abschluss}</p>
+      ${relatedLinks([
+        {route:"psychosomatik", label:"Alle Krankheitsbilder"},
+        {route:"healing", label:"Heilmittel-Kompass"},
+        {route:"homoeopathie", label:"Hom\xf6opathische Mittel"},
+      ])}
+    </div>
+  `);
+}
+
 function homoeopathiePage() {
   const param = state.route.split("/")[1];
   const typNr = param ? parseInt(param) : null;
@@ -93590,6 +93694,7 @@ function render() {
     "tierentsprechungen": tierentsprechungenPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
+    "psychosomatik": psychosomatikPage,
     "tierforscher-uebereinstimmung": tierforscherUebereinstimmungPage,
     "bewusstseinsgrad-normalverteilung": bewusstseinsgradNormalverteilungPage,
     "tritypen": tritypenPage,
@@ -94213,6 +94318,8 @@ function render() {
       app.innerHTML = tierlexikonDetailPage(param);
     } else if (base === "lebensmusterkompass" && param) {
       app.innerHTML = lebensmusterkompassDetailPage(param);
+    } else if (base === "psychosomatik" && param) {
+      app.innerHTML = psychosomatikDetailPage(param);
     } else {
       app.innerHTML = (routes[base] || routes.start)();
     const isBadgePage = (base.startsWith("kriminalpsychologie-") && base !== "kriminalpsychologie")
