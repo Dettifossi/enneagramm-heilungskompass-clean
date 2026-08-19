@@ -42439,6 +42439,8 @@ function tierentsprechungenPage() {
         </div>
       </div>
       ${relatedLinks([
+        {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+        {route:"tierforscher-uebereinstimmung", label:"Tierforscher-\xdcbereinstimmung: lebende Beweise"},
         {route:"obstsorten", label:"Obstsorten"},
         {route:"gemuesesorten", label:"Gem\xfcsesorten der Typen"},
         {route:"weinsorten", label:"Weinsorten der Typen"},
@@ -42531,6 +42533,11 @@ function tierlexikonPage() {
       </div>
       ${bookTip("enneagramm-zoo", "27 Tierportr\u00e4ts \u2013 jedes Subtyp-Tier mit Charakter, Biologie und Enneagramm-Bezug.", "Enneagramm-Zoo")}
       ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 9 Typen als innere Landkarte \u2013 Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
+      ${relatedLinks([
+        {route:"tierentsprechungen", label:"Schaubild: Tierentsprechungen der 27 Subtypen"},
+        {route:"tierforscher-uebereinstimmung", label:"Tierforscher-\u00dcbereinstimmung: lebende Beweise"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdr\u00fccke)"},
+      ])}
     </div>
   `);
 }
@@ -43442,6 +43449,7 @@ function tierforscherUebereinstimmungPage() {
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdrücke)"},
           {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+          {route:"tierentsprechungen", label:"Schaubild: Tierentsprechungen der 27 Subtypen"},
         ])}
       </div>
     </div>
@@ -43694,6 +43702,24 @@ function tierlexikonDetailPage(codeRaw) {
           </div>
         `;
       })()}
+      ${(() => {
+        const matches = ANIMAL_RESEARCHER_MATCHES.filter(m => m.subtyp.slice(0, 3) === code);
+        if (!matches.length) return "";
+        const items = matches.map(m =>
+          `<button class="related-link-btn" data-route="${m.route}" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:20px;padding:.35rem .95rem;font-size:0.82rem;font-family:'EB Garamond',serif;cursor:pointer;white-space:nowrap;">${m.name} (${m.subtyp}) \u2192</button>`
+        ).join("");
+        return `
+          <div style="margin-top:2rem;padding-top:1.2rem;border-top:1px solid var(--line);">
+            <h2 style="font-size:1rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">\u2726 Lebende Beweise: ${data.tier}-\u00dcbereinstimmung</h2>
+            <p style="font-size:.85rem;color:var(--muted);margin:0 0 .8rem;">Diese Personen widmen ihr Lebensthema ausgerechnet dem ${data.tier} \u2013 und sind selbst ${code}.</p>
+            <div style="display:flex;flex-wrap:wrap;gap:.5rem;">${items}</div>
+          </div>
+        `;
+      })()}
+      ${relatedLinks([
+        {route:"tierlexikon", label:"Zur\u00fcck zum Tierlexikon"},
+        {route:"tierforscher-uebereinstimmung", label:"Tierforscher-\u00dcbereinstimmung: alle 27 Subtypen"},
+      ])}
     </div>
   `);
 }

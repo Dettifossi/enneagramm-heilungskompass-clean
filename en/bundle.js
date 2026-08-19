@@ -15405,6 +15405,8 @@ function tierentsprechungenPage() {
         </div>
       </div>
       ${relatedLinks([
+        {route:"tierlexikon", label:"Animal Lexicon of the 27 Subtypes"},
+        {route:"tierforscher-uebereinstimmung", label:"Animal-Researcher Correspondence: living proof"},
         {route:"obstsorten", label:"Fruit Varieties"},
         {route:"gemuesesorten", label:"Vegetable Varieties of the Types"},
         {route:"weinsorten", label:"Wine Varieties of the Types"},
@@ -15497,6 +15499,11 @@ function tierlexikonPage() {
       </div>
       ${bookTip("enneagramm-zoo", "27 Animal Portraits – each Subtype animal with character, biology and Enneagram connection.", "Enneagramm-Zoo")}
       ${bookTip("archetypen-der-tiere-im-enneagramm", "The archetypal animals of the 9 types as an inner map – images that work instantly.", "Archetypen der Tiere im Enneagramm")}
+      ${relatedLinks([
+        {route:"tierentsprechungen", label:"Chart: Animal Correspondences of the 27 Subtypes"},
+        {route:"tierforscher-uebereinstimmung", label:"Animal-Researcher Correspondence: living proof"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass (Biographical Fingerprints)"},
+      ])}
     </div>
   `);
 }
@@ -15629,6 +15636,24 @@ function tierlexikonDetailPage(codeRaw) {
           </div>
         `;
       })()}
+      ${(() => {
+        const matches = ANIMAL_RESEARCHER_MATCHES.filter(m => m.subtyp.slice(0, 3) === code);
+        if (!matches.length) return "";
+        const items = matches.map(m =>
+          `<button class="related-link-btn" data-route="${m.route}" style="background:none;border:1px solid var(--gold);color:var(--copper);border-radius:20px;padding:.35rem .95rem;font-size:0.82rem;font-family:'EB Garamond',serif;cursor:pointer;white-space:nowrap;">${m.name} (${m.subtyp}) →</button>`
+        ).join("");
+        return `
+          <div style="margin-top:2rem;padding-top:1.2rem;border-top:1px solid var(--line);">
+            <h2 style="font-size:1rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">✦ Living Proof: ${data.tier} Correspondence</h2>
+            <p style="font-size:.85rem;color:var(--muted);margin:0 0 .8rem;">These people devote their life's theme to exactly the ${data.tier} &ndash; and are themselves ${code}.</p>
+            <div style="display:flex;flex-wrap:wrap;gap:.5rem;">${items}</div>
+          </div>
+        `;
+      })()}
+      ${relatedLinks([
+        {route:"tierlexikon", label:"Back to Animal Lexicon"},
+        {route:"tierforscher-uebereinstimmung", label:"Animal-Researcher Correspondence: all 27 subtypes"},
+      ])}
     </div>
   `);
 }
@@ -37405,6 +37430,7 @@ function tierforscherUebereinstimmungPage() {
           {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
           {route:"lebensmusterkompass", label:"Life Pattern Compass (Biographical Fingerprints)"},
           {route:"tierlexikon", label:"Animal lexicon of the 27 subtypes"},
+          {route:"tierentsprechungen", label:"Chart: Animal Correspondences of the 27 Subtypes"},
         ])}
       </div>
     </div>
