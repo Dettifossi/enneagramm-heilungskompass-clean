@@ -63923,7 +63923,7 @@ function changpengZhaoPortraitPage() {
         <h2 class="vb-section">3. Der Viererflügel: Der eigene, unangepasste Weg in einer neuen Branche</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet mein Weg &ndash; jenseits dessen, was von mir erwartet wird?</em> Zhao baute Binance bewusst außerhalb der etablierten Finanzwelt auf, ohne festen Firmensitz, mit einer dezentral über die ganze Welt verteilten Belegschaft &ndash; ein radikal eigener organisatorischer Weg, der sich keiner klassischen Unternehmensstruktur unterordnete.</p>
-          <p class="vb-intro">Diese Eigenständigkeit war zugleich sein größter kommerzieller Vorteil und sein größtes regulatorisches Risiko: Binance operierte über Jahre in einem selbst geschaffenen Graubereich zwischen den Regulierungssystemen verschiedener Länder &ndash; ein Weg, der Wachstum ermöglichte, den kein etabliertes Finanzunternehmen so gegangen wäre.</p>
+          <p class="vb-intro">Diese Eigenständigkeit war zugleich sein größter kommerzieller Vorteil und sein größtes regulatorisches Risiko: Binance operierte über Jahre in einem selbst geschaffenen Graubereich zwischen den Regulierungssystemen verschiedener Länder &ndash; ein Weg, der zwar Wachstum ermöglichte, den aber kein etabliertes Finanzunternehmen so gegangen wäre.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Der Preis der eigenen Regellosigkeit</h2>
