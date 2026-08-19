@@ -32139,11 +32139,11 @@ const BERUEHMT_PORTRAITS = [
     tags:["Sport","F\u00fchrung"], gender:"m"},
   { route:"beruehmte-marta-manser", name:"Prof. Dr. Marta Manser", added:"2026-08-19", subtyp:"SO6w5",
     heading:"Prof. Dr. Marta Manser \u2013 Sozialer Typ 6",
-    teaser:"SO6w5 \u00b7 Schweizer Verhaltensbiologin, Professorin an der Universit\u00e4t Z\u00fcrich, Leiterin des Kalahari Research Centre. Entschl\u00fcsselte das komplexe Warnrufsystem der Erdm\u00e4nnchen \u2013 ein Fr\u00fchwarnsystem f\u00fcr die ganze Gruppe. Tierentsprechung: Erdm\u00e4nnchen.",
+    teaser:"SO6w5 \u00b7 geb. 1962. Schweizer Verhaltensbiologin, Professorin an der Universit\u00e4t Z\u00fcrich, Leiterin des Kalahari Research Centre. Entschl\u00fcsselte das komplexe Warnrufsystem der Erdm\u00e4nnchen \u2013 ein Fr\u00fchwarnsystem f\u00fcr die ganze Gruppe. Tierentsprechung: Erdm\u00e4nnchen.",
     tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-tim-clutton-brock", name:"Prof. Tim Clutton-Brock", added:"2026-08-19", subtyp:"SO6w5",
     heading:"Prof. Tim Clutton-Brock \u2013 Sozialer Typ 6",
-    teaser:"SO6w5 \u00b7 Britischer Evolutionsbiologe, Professor in Cambridge, Gr\u00fcnder des Kalahari Meerkat Project. Jahrzehntelange Erforschung, warum Individuen der Gruppe dienen, statt sich selbst fortzupflanzen \u2013 kooperatives \u00dcberleben als Lebensthema. Tierentsprechung: Erdm\u00e4nnchen.",
+    teaser:"SO6w5 \u00b7 geb. 1946. Britischer Evolutionsbiologe, Professor in Cambridge, Gr\u00fcnder des Kalahari Meerkat Project. Jahrzehntelange Erforschung, warum Individuen der Gruppe dienen, statt sich selbst fortzupflanzen \u2013 kooperatives \u00dcberleben als Lebensthema. Tierentsprechung: Erdm\u00e4nnchen.",
     tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-donata-hopfen", name:"Donata Hopfen", added:"2026-07-21", subtyp:"SO6w7",
     heading:"Donata Hopfen \u2013 Sozialer Typ 6",
@@ -48402,7 +48402,7 @@ function martaManserPortraitPage() {
         </div>
         <p class="krim-portrait-name">Prof. Dr. Marta Manser</p>
         <p class="krim-portrait-typ">SO6w5 &middot; Sozialer Typ 6 mit Fünferflügel</p>
-        <p class="krim-portrait-subtitle">Verhaltensbiologin &ndash; Tierentsprechung: Erdmännchen</p>
+        <p class="krim-portrait-subtitle">Verhaltensbiologin, geb. 1962 &ndash; Tierentsprechung: Erdmännchen</p>
       </div>
       <div class="page-content">
 
@@ -48463,7 +48463,7 @@ function timCluttonBrockPortraitPage() {
         </div>
         <p class="krim-portrait-name">Prof. Tim Clutton-Brock</p>
         <p class="krim-portrait-typ">SO6w5 &middot; Sozialer Typ 6 mit Fünferflügel</p>
-        <p class="krim-portrait-subtitle">Evolutionsbiologe &ndash; Tierentsprechung: Erdmännchen</p>
+        <p class="krim-portrait-subtitle">Evolutionsbiologe, geb. 1946 &ndash; Tierentsprechung: Erdmännchen</p>
       </div>
       <div class="page-content">
 
