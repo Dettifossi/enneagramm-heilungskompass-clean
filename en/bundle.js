@@ -4833,6 +4833,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-christophe-boesch", name:"Prof. Dr. Christophe Boesch", subtyp:"SX7w8", tier:"Chimpanzee"},
   {route:"beruehmte-jill-pruetz", name:"Dr. Jill Pruetz", subtyp:"SX7w6", tier:"Chimpanzee"},
   {route:"beruehmte-paris-hilton", name:"Paris Hilton", subtyp:"SX4w3", tier:"Chihuahua"},
+  {route:"beruehmte-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", tier:"Dove"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
