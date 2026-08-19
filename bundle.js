@@ -32187,7 +32187,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-douglas-smith", name:"Dr. Douglas W. Smith", added:"2026-08-19", subtyp:"SX6w5",
     heading:"Dr. Douglas W. Smith \u2013 Sexueller Typ 6",
-    teaser:"SX6w5 \u00b7 US-amerikanischer Wildtierbiologe, Leiter des Yellowstone-Wolfsprojekts seit 1997. Managte ab 1995 die spektakul\u00e4re Wiederansiedlung der W\u00f6lfe im Yellowstone-Nationalpark und dokumentierte, wie ein einziges Rudel ein ganzes \u00d6kosystem ver\u00e4ndern kann. Tierentsprechung: Wolf.",
+    teaser:"SX6w5 \u00b7 geb. 1960. US-amerikanischer Wildtierbiologe, Leiter des Yellowstone-Wolfsprojekts seit 1997. Managte ab 1995 die spektakul\u00e4re Wiederansiedlung der W\u00f6lfe im Yellowstone-Nationalpark und dokumentierte, wie ein einziges Rudel ein ganzes \u00d6kosystem ver\u00e4ndern kann. Tierentsprechung: Wolf.",
     tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-michael-schumacher", name:"Michael Schumacher", added:"2026-07-21", subtyp:"SX6w7",
     heading:"Michael Schumacher \u2013 Sexueller Typ 6",
@@ -48595,14 +48595,14 @@ function douglasSmithPortraitPage() {
         </div>
         <p class="krim-portrait-name">Dr. Douglas W. Smith</p>
         <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit Fünferflügel</p>
-        <p class="krim-portrait-subtitle">Wildtierbiologe, Leiter des Yellowstone-Wolfsprojekts &ndash; Tierentsprechung: Wolf</p>
+        <p class="krim-portrait-subtitle">Wildtierbiologe, Leiter des Yellowstone-Wolfsprojekts, geb. 1960 &ndash; Tierentsprechung: Wolf</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. Der Wolf, der die Wölfe zurück nach Yellowstone brachte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs &ndash; er begegnet der Angst nicht durch Rückzug, sondern durch direkte Konfrontation, und findet seine tiefste Bedeutung im Schutz und Überleben des Rudels. Kaum ein Lebenswerk zeigt dieses Prinzip so unmittelbar wie das von Dr. Douglas W. Smith: 1994 von der US-Nationalparkverwaltung als Projektbiologe für die Wiederansiedlung der Wölfe in Yellowstone engagiert, leitete er ab 1997 über Jahrzehnte das gesamte Yellowstone-Wolfsprojekt &ndash; bis zu seiner Pensionierung 2022, nach 28 Dienstjahren im Park.</p>
-          <p class="vb-intro">Bereits vor Yellowstone hatte Smith von 1979 bis 1992 auf Isle Royale mit Wölfen gearbeitet &ndash; demselben legendären Langzeitforschungsgebiet, in dem auch Dr. L. David Mech, der "Vater der modernen Wolfsforschung", seine Karriere begann. Beide Männer verbrachten ihr Leben buchstäblich im rauen Freiland, um denselben komplexen sozialen Code des Wolfes zu entschlüsseln &ndash; eine Verbindung, die weit über bloße fachliche Kollegenschaft hinausgeht.</p>
+          <p class="vb-intro">Bereits vor Yellowstone hatte Smith von 1979 bis 1992 auf Isle Royale mit Wölfen gearbeitet &ndash; demselben legendären Langzeitforschungsgebiet, in dem auch Dr. L. David Mech (SX6w5), der "Vater der modernen Wolfsforschung" und selbst seit über sechzig Jahren führender Wolfsforscher, seine Karriere begann. Beide Männer verbrachten ihr Leben buchstäblich im rauen Freiland, um denselben komplexen sozialen Code des Wolfes zu entschlüsseln &ndash; eine Verbindung, die weit über bloße fachliche Kollegenschaft hinausgeht.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Sechs: Krisenbewältigung im Dienst des Rudels</h2>
@@ -48613,7 +48613,7 @@ function douglasSmithPortraitPage() {
 
         <h2 class="vb-section">3. Der Fünferflügel: Wissenschaftliche Tiefe über Jahrzehnte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Sechs eine analytische Tiefe, die sich in Smiths wissenschaftlicher Laufbahn deutlich zeigt: Seine Promotion an der University of Nevada widmete sich dem kooperativen Brutverhalten von Bibern &ndash; einem weiteren sozial hochorganisierten Tier &ndash;, bevor er sein gesamtes Wissen in die systematische, jahrzehntelange Beobachtung der Yellowstone-Wolfsrudel einbrachte.</p>
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Sechs eine analytische Tiefe, die sich in Smiths wissenschaftlicher Laufbahn deutlich zeigt: Seine Promotion an der University of Nevada widmete sich dem kooperativen Brutverhalten von Bibern &ndash; einem weiteren sozial hochorganisierten Tier (der Tierentsprechung der sozialen Sieben des Enneagramms) &ndash;, bevor er sein gesamtes Wissen in die systematische, jahrzehntelange Beobachtung der Yellowstone-Wolfsrudel einbrachte.</p>
           <p class="vb-intro">Als Ko-Autor von Standardwerken wie "Wolves on the Hunt: The Behavior of Wolves Hunting Wild Prey" (deutsch etwa: "Wölfe auf der Jagd: Das Jagdverhalten von Wölfen") übersetzte er jahrzehntelange Feldbeobachtung in überprüfbares, wissenschaftlich abgesichertes Wissen &ndash; dieselbe Kombination aus Sechser-Verantwortungsübernahme im Feld und Fünfer-Systematik in der Auswertung, die auch Mechs Lebenswerk prägt.</p>
         </blockquote>
 

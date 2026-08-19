@@ -1018,7 +1018,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-douglas-smith", name:"Dr. Douglas W. Smith", added:"2026-08-19", subtyp:"SX6w5",
     heading:"Dr. Douglas W. Smith – Sexual Type 6",
-    teaser:"SX6w5 · American wildlife biologist, leader of the Yellowstone Wolf Project since 1997. Managed the spectacular reintroduction of wolves to Yellowstone National Park from 1995 onward and documented how a single pack can transform an entire ecosystem. Animal correspondence: Wolf.",
+    teaser:"SX6w5 · b. 1960. American wildlife biologist, leader of the Yellowstone Wolf Project since 1997. Managed the spectacular reintroduction of wolves to Yellowstone National Park from 1995 onward and documented how a single pack can transform an entire ecosystem. Animal correspondence: Wolf.",
     tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-michael-schumacher", name:"Michael Schumacher", added:"2026-07-21", subtyp:"SX6w7",
     heading:"Michael Schumacher – Sexual Type 6",
@@ -29174,14 +29174,14 @@ function douglasSmithPortraitPage() {
         </div>
         <p class="krim-portrait-name">Dr. Douglas W. Smith</p>
         <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
-        <p class="krim-portrait-subtitle">Wildlife biologist, leader of the Yellowstone Wolf Project &ndash; Animal correspondence: Wolf</p>
+        <p class="krim-portrait-subtitle">Wildlife biologist, leader of the Yellowstone Wolf Project, b. 1960 &ndash; Animal correspondence: Wolf</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The wolf who brought the wolves back to Yellowstone</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>wolf</strong> is the animal of the Sexual Six &ndash; it meets fear not by retreating but through direct confrontation, finding its deepest meaning in protecting and sustaining the pack. Few life's works show this principle as directly as that of Dr. Douglas W. Smith: hired in 1994 by the National Park Service as project biologist for the reintroduction of wolves to Yellowstone, he led the entire Yellowstone Wolf Project from 1997 onward for decades &ndash; until his retirement in 2022, after 28 years of service to the park.</p>
-          <p class="vb-intro">Even before Yellowstone, Smith had worked with wolves on Isle Royale from 1979 to 1992 &ndash; the very same legendary long-term research site where Dr. L. David Mech, the "father of modern wolf research," began his own career. Both men spent their lives literally in the rough field, decoding the same complex social code of the wolf &ndash; a connection that goes far beyond mere professional collegiality.</p>
+          <p class="vb-intro">Even before Yellowstone, Smith had worked with wolves on Isle Royale from 1979 to 1992 &ndash; the very same legendary long-term research site where Dr. L. David Mech (SX6w5), the "father of modern wolf research" and himself a leading wolf researcher for over sixty years, began his own career. Both men spent their lives literally in the rough field, decoding the same complex social code of the wolf &ndash; a connection that goes far beyond mere professional collegiality.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Six: crisis management in service of the pack</h2>
@@ -29192,7 +29192,7 @@ function douglasSmithPortraitPage() {
 
         <h2 class="vb-section">3. The Five-wing: scientific depth across decades</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Six an analytical depth clearly visible in Smith's scientific career: his PhD at the University of Nevada focused on cooperative breeding in beavers &ndash; another highly socially organized animal &ndash; before he brought all of that knowledge into the systematic, decades-long observation of Yellowstone's wolf packs.</p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Six an analytical depth clearly visible in Smith's scientific career: his PhD at the University of Nevada focused on cooperative breeding in beavers &ndash; another highly socially organized animal (the animal correspondence of the Enneagram's Social Seven) &ndash; before he brought all of that knowledge into the systematic, decades-long observation of Yellowstone's wolf packs.</p>
           <p class="vb-intro">As co-author of standard works such as "Wolves on the Hunt: The Behavior of Wolves Hunting Wild Prey," he translated decades of fieldwork into verifiable, scientifically grounded knowledge &ndash; the same combination of Six-style responsibility-taking in the field and Five-style systematism in analysis that also defines Mech's life's work.</p>
         </blockquote>
 
