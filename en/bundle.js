@@ -1400,6 +1400,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mario Barth – Sexual Type 9",
     teaser:"SX9w8 · born 1972. Comedian, record holder for the largest comedy show in the world (Berlin Olympic Stadium). The sloth that merges with the laughter of the crowd – and bites back with force when criticism comes.",
     tags:["Comedy"], gender:"m"},
+{ route:"beruehmte-lucy-cooke", name:"Lucy Cooke", added:"2026-08-19", subtyp:"SX9w8",
+    heading:"Lucy Cooke – Sexual Type 9",
+    teaser:"SX9w8 · British zoologist, bestselling author (\"The Truth About Animals\"), founder of the Sloth Appreciation Society. Merged her life with the sloth – and demolishes its lazy reputation with sparkling, humorous verve.",
+    tags:["Wissenschaft"], gender:"f"},
 { route:"beruehmte-carl-rogers", name:"Dr. Carl Rogers", added:"2026-08-05", subtyp:"SX9w1",
     heading:"Carl Rogers – Sexual Type 9",
     teaser:"SX9w1 · 1902–1987. Psychologist, founder of client-centered therapy. The sloth who created the judgment-free space in which people could find themselves again – unconditional positive regard as a therapeutic principle.",
@@ -4850,6 +4854,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-cynthia-moss", name:"Dr. Cynthia Moss", subtyp:"SE9w1", tier:"Elephant"},
   {route:"beruehmte-alan-mcelligott", name:"Dr. Alan McElligott", subtyp:"SO9w1", tier:"Buffalo"},
   {route:"beruehmte-ana-salceda", name:"Ana Salceda", subtyp:"SX9w1", tier:"Sloth"},
+  {route:"beruehmte-lucy-cooke", name:"Lucy Cooke", subtyp:"SX9w8", tier:"Sloth"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -31634,8 +31639,74 @@ function marioBarthPortraitPage() {
           {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
           {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8)"},
           {route:"beruehmte-dakota-johnson", label:"Portrait: Dakota Johnson (SX9w8)"},
+          {route:"beruehmte-lucy-cooke", label:"Portrait: Lucy Cooke (SX9w8)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function lucyCookePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-lucy-cooke-portrait.jpg" alt="Sloth" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lucy Cooke</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexual Type 9 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">British zoologist, bestselling author &ndash; founder of the Sloth Appreciation Society &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth Who Became the Sloth's Ambassador</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> is the animal of the Sexual Nine &ndash; not a lazy animal, but one that merges so completely with its environment that the boundary between it and its habitat blurs. Lucy Cooke is exactly this merging: the British zoologist is today one of the world's best-known sloth ambassadors &ndash; founder of the Sloth Appreciation Society, bestselling author, award-winning TV producer, whose entire public life's work is inseparably bound to this one animal.</p>
+          <p class="vb-intro">Her background is scientifically grounded: a master's degree in zoology from New College, Oxford, under evolutionary biologist Richard Dawkins. And yet she did not commit herself to scientific detachment, but to an almost loving devotion to a single, long-underestimated animal &ndash; and became, herself, part of what she studies.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Nine: Merging With the Misunderstood</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Nine (SX9)</strong> seeks merging in its most intense form &ndash; with a single being, an ideal, or, as with Cooke, a single, often misunderstood animal. She founded the Sloth Appreciation Society, wrote several books exclusively about sloths (<em>A Little Book of Sloth</em>, <em>The Power of Sloth</em>, <em>Life in the Sloth Lane</em>), and produced viral sloth videos along with her own calendar. Not one side project among many &ndash; the sloth is the red thread running through her entire life's work.</p>
+          <p class="vb-intro">'I am attracted to weird and wonderful animals that are often unloved or misunderstood. I love an underdog,' Cooke says of herself. Her achievement lies in rescuing the sloth from the corner of the supposedly stupid and lazy, and bringing the world its fascinating evolutionary biology and its actual social behavior &ndash; yes, even sloths maintain social bonds, as research now shows.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: Vividness Instead of Sluggishness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Sexual Nine exactly what the sloth, by reputation, lacks: full-blooded, physical vividness. Cooke is described as bold, direct, with high, dynamic energy &ndash; she speaks self-deprecatingly about her fieldwork, calls an encounter with an anteater's tongue 'pretty memorable,' and jokingly refers to her tadpole studies as examining her 'underwater booty.' This is not the reserved, principled note of a One-wing, but the forthright, warm, slightly provocative energy of the Eight-wing.</p>
+          <p class="vb-intro">Exactly this combination makes her the perfect ambassador: a humorous, sharp, 'vivid' personality that pairs the sluggish rhythm of her animal with sparkling intellectual enthusiasm. The Eight-wing keeps the Nine's merging from tipping into mere accommodation &ndash; instead it becomes a forthright, unmissable voice for an animal that could never have made itself heard on its own.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SX9w8 is the ability to <strong>turn complete merging with a subject into contagious, publicly effective enthusiasm</strong> &ndash; Cooke's work fundamentally changed how the public thinks about sloths, and her bestseller <em>The Truth About Animals</em> extended this principle to numerous other misunderstood species.</p>
+          <p class="vb-intro">The shadow of the Sexual Nine with an Eight-wing shows where one's own identity merges so completely with a single subject that separation becomes almost unthinkable &ndash; a life publicly perceived almost exclusively as 'the sloth woman,' however well-earned that reputation may be.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Sloth Who Showed the World What's in the Sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Lucy Cooke gives the world is proof that slowness is not a weakness but a distinct, highly efficient survival strategy &ndash; and that exactly this principle, told with the right dose of liveliness, can captivate an audience of millions.</p>
+          <p class="vb-intro">In the end, one image remains that reads almost like living proof for this compass: a woman whose archetypal animal is the sloth, who devoted herself to that animal with a dedication far exceeding scientific interest &ndash; and who, with contagious energy, apparently unknowingly researched her own deepest pattern along the way.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("enneagramm-zoo", "27 Animal Portraits – each Subtype animal with character, biology and Enneagram connection.", "Enneagramm-Zoo")}
+      ${bookTip("archetypen-der-tiere-im-enneagramm", "The archetypal animals of the 9 types as an inner map – images that work instantly.", "Archetypen der Tiere im Enneagramm")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"lebensmusterkompass/sx9", label:"Life Pattern Compass: SX9 – Sloth"},
+        {route:"beruehmte-mario-barth", label:"Portrait: Mario Barth (SX9w8)"},
+        {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8)"},
+        {route:"beruehmte-ana-salceda", label:"Portrait: Ana Salceda (SX9w1) – also a sloth correspondence"},
+        {route:"tierforscher-uebereinstimmung", label:"Animal-Researcher Correspondence: more examples"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-lucy-cooke")}
     </div>
   `);
 }
@@ -31888,6 +31959,7 @@ function anaSalcedaPortraitPage() {
           {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
           {route:"beruehmte-jane-goodall", label:"Portrait: Jane Goodall (SX9w1)"},
           {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1)"},
+          {route:"beruehmte-lucy-cooke", label:"Portrait: Lucy Cooke (SX9w8) – also a sloth correspondence"},
           {route:"tierforscher-uebereinstimmung", label:"Animal-Researcher Correspondence: more examples"},
         ])}
         ${animalResearcherMatchBlock("beruehmte-ana-salceda")}
@@ -37505,7 +37577,7 @@ const LEBENSMUSTERKOMPASS = {
   SX9: {
     tier: "Sloth",
     kernthema: "Merging with a single being, work, or style instead of belonging to a group",
-    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi"],
+    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke"],
     fingerabdruecke: [
       {
         titel: "The one bond instead of many contacts",
@@ -37515,7 +37587,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Apparent sluggishness that turns, when needed, into full, precise intensity",
         beschreibung: "From outside, the underlying stance seems reserved, effortless, almost uninvolved. But as soon as the right moment or a boundary violation occurs, a surprisingly complete, highly precise reaction appears – no gradual escalation, but a flip from zero to a hundred.",
-        beleg: "'The sloth hangs still until it moves. When it moves, it gives everything' (Makatsch); Dakota Johnson's 'claws you only see once you get too close'; Iga Świątek, who seems 'effortless,' but 'when she snaps, with a precision that astonishes'; Keanu Reeves' sloths are 'not lazy – they're extremely energy-efficient, they do exactly what's needed, with a minimum of effort and a maximum of effect,' visible in the contrast between the calm private person and the physically fully exhausting John Wick role."
+        beleg: "'The sloth hangs still until it moves. When it moves, it gives everything' (Makatsch); Dakota Johnson's 'claws you only see once you get too close'; Iga Świątek, who seems 'effortless,' but 'when she snaps, with a precision that astonishes'; Keanu Reeves' sloths are 'not lazy – they're extremely energy-efficient, they do exactly what's needed, with a minimum of effort and a maximum of effect,' visible in the contrast between the calm private person and the physically fully exhausting John Wick role; Lucy Cooke, whose humorous, forthright vividness contrasts her animal's sluggish reputation with sparkling intellectual enthusiasm – a sloth that seems anything but sluggish the moment it starts talking."
       },
       {
         titel: "Slow, unforced expansion over decades instead of planned career strategy",
@@ -58897,6 +58969,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
       "beruehmte-mario-barth": marioBarthPortraitPage,
+      "beruehmte-lucy-cooke": lucyCookePortraitPage,
       "beruehmte-baerbel-bas": baerbelBasPortraitPage,
       "beruehmte-ludwig-erhard": ludwigErhardPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
