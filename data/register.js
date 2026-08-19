@@ -389,6 +389,7 @@ export const registerEntries = [
   // Tierlexikon
   { term: "Tierlexikon",               route: "tierlexikon",            description: "Das vollständige Tierlexikon: alle 27 Tierarchetypn mit Bedeutung, Qualitäten und Instinktzuordnung" },
   { term: "Lebensmusterkompass",       route: "lebensmusterkompass",    description: "Biografische Fingerabdrücke der 27 Subtypen – wiederkehrende Muster aus 350+ Fallporträts" },
+  { term: "Tierforscher-Übereinstimmung", route: "tierforscher-uebereinstimmung", description: "Übersicht: Tierforscher und andere Personen, deren Lebensthema ihrer eigenen Tierentsprechung entspricht" },
 
   { term: "Wetter- und Naturphänomene der 9 Typen", route: "wetter-naturphaenomene-der-9-typen", description: "Archetypische Wetter- und Naturphänomen-Entsprechungen für jeden Enneagrammtyp" },
   { term: "Architektur & Raumgestaltung der 9 Typen", route: "architektur-raumgestaltung-der-9-typen", description: "Archetypische Baustile und Raumgestaltungen für jeden Enneagrammtyp" },
@@ -1405,6 +1406,7 @@ export const registerEntriesEN = [
   { term: "Face Scan", route: "gesichts-scan", description: "Preparation for your personal type consultation: take a photo scan or short video" },
   { term: "Animal Lexicon", route: "tierlexikon", description: "The complete animal lexicon: all 27 animal archetypes with meaning, qualities, and instinct assignment" },
   { term: "Life Pattern Compass", route: "lebensmusterkompass", description: "Biographical fingerprints of the 27 subtypes – recurring patterns from 350+ case portraits" },
+  { term: "Animal-Researcher Correspondence", route: "tierforscher-uebereinstimmung", description: "Overview: animal researchers and others whose life theme matches their own animal correspondence" },
   { term: "Weather and Nature Phenomena of the 9 Types", route: "wetter-naturphaenomene-der-9-typen", description: "Archetypal weather and nature phenomenon equivalents for each Enneagram type" },
   { term: "Architecture & Interior Design of the 9 Types", route: "architektur-raumgestaltung-der-9-typen", description: "Archetypal architectural styles and interior designs for each Enneagram type" },
   { term: "Bear Species of the 9 Types", route: "baerenarten-der-9-typen", description: "Archetypal bear equivalents for each Enneagram type" },

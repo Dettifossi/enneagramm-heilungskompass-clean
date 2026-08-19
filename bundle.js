@@ -15874,6 +15874,7 @@ const uiText = {
       { route: "planetenzuordnungen", label: "Planeten & Trabanten des Sonnensystems" },
       { route: "tierlexikon", label: "Tierlexikon" },
       { route: "lebensmusterkompass", label: "Lebensmusterkompass (Biografische Fingerabdrücke)" },
+      { route: "tierforscher-uebereinstimmung", label: "Tierforscher-Übereinstimmung" },
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
       { route: "tritypen", label: "Die 27 Tritypen des Enneagramms (f\xfcr Fortgeschrittene)" },
     ]},
@@ -35303,6 +35304,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-frans-de-waal", name:"Prof. Dr. Frans de Waal", subtyp:"SX7w6", tier:"Schimpanse"},
   {route:"beruehmte-christophe-boesch", name:"Prof. Dr. Christophe Boesch", subtyp:"SX7w8", tier:"Schimpanse"},
   {route:"beruehmte-jill-pruetz", name:"Dr. Jill Pruetz", subtyp:"SX7w6", tier:"Schimpanse"},
+  {route:"beruehmte-paris-hilton", name:"Paris Hilton", subtyp:"SX4w3", tier:"Chihuahua"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -43374,7 +43376,72 @@ function lebensmusterkompassPage() {
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
           {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+          {route:"tierforscher-uebereinstimmung", label:"Tierforscher-Übereinstimmung"},
           {route:"knowledge", label:"Wissensbasis"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function tierforscherUebereinstimmungPage() {
+  const subtypes = [
+    { code: "SE1", tier: "Adler" }, { code: "SO1", tier: "Gans" }, { code: "SX1", tier: "Schwarze Mamba" },
+    { code: "SE2", tier: "Flusspferd" }, { code: "SO2", tier: "Golden Retriever" }, { code: "SX2", tier: "Kamel" },
+    { code: "SE3", tier: "Waschbär" }, { code: "SO3", tier: "Gepard" }, { code: "SX3", tier: "Pfau" },
+    { code: "SE4", tier: "Taube" }, { code: "SO4", tier: "Gürteltier" }, { code: "SX4", tier: "Chihuahua" },
+    { code: "SE5", tier: "Eule" }, { code: "SO5", tier: "Oktopus" }, { code: "SX5", tier: "Igel" },
+    { code: "SE6", tier: "Kaninchen" }, { code: "SO6", tier: "Erdmännchen" }, { code: "SX6", tier: "Wolf" },
+    { code: "SE7", tier: "Gorilla" }, { code: "SO7", tier: "Biber" }, { code: "SX7", tier: "Schimpanse" },
+    { code: "SE8", tier: "Orang-Utan" }, { code: "SO8", tier: "Löwe" }, { code: "SX8", tier: "Krokodil" },
+    { code: "SE9", tier: "Elefant" }, { code: "SO9", tier: "Büffel" }, { code: "SX9", tier: "Faultier" },
+  ];
+  const tiles = subtypes.map(s => {
+    const matches = ANIMAL_RESEARCHER_MATCHES.filter(m => m.subtyp.slice(0, 3) === s.code);
+    const hasData = matches.length > 0;
+    const col = typeColorFromCode(s.code);
+    const names = matches.map(m =>
+      `<button class="related-link-btn" data-route="${m.route}" style="display:block;width:100%;text-align:left;background:none;border:none;border-top:1px solid var(--border);padding:.5rem 0;cursor:pointer;color:var(--copper);font-family:'EB Garamond',serif;font-size:0.88rem;">${m.name} <span style="color:var(--muted);font-size:0.78rem;">(${m.subtyp})</span> &#8594;</button>`
+    ).join("");
+    return `
+      <div style="border:2px solid ${hasData ? col : "var(--border)"};border-radius:12px;padding:1rem 1.1rem;${hasData ? "" : "opacity:.55;"}">
+        <div style="display:flex;align-items:center;gap:.7rem;margin-bottom:.3rem;">
+          <div style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${hasData ? col : "var(--border)"};${hasData ? "" : "filter:grayscale(1);"}">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${s.code.toLowerCase()}.jpg" alt="${s.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(s.code)};left:${tierAvatarLeft(s.code)};width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+          </div>
+          <div>
+            <div style="font-size:.8rem;font-weight:700;color:${col};letter-spacing:.04em;">${s.code}</div>
+            <div style="font-size:.85rem;color:var(--muted);">${s.tier}</div>
+          </div>
+        </div>
+        ${hasData ? names : `<p style="font-size:.8rem;color:var(--muted);margin:.5rem 0 0;">Noch kein Beispiel bekannt.</p>`}
+      </div>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Tierforscher-Übereinstimmung</p>
+        <h1 class="section-title">Tierforscher-Übereinstimmung</h1>
+        <p class="psycho-intro">Ein auffälliges, immer wieder auftretendes Muster unter den Porträts dieses Kompasses: Menschen, deren Lebensthema oder sogar Lebenswerk ausgerechnet dem Tier gilt, das im Enneagramm ihre eigene Tierentsprechung ist &ndash; oft, ohne dass ihnen dieser Zusammenhang selbst bewusst war.</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Die Tierentsprechungen dieses Kompasses sind kein rein literarisches Bild &ndash; sie finden auffallend häufig ihre Entsprechung in der Wirklichkeit. Immer wieder zeigt sich: Wer sich sein ganzes Leben lang, oft mit größter Hingabe, einem bestimmten Tier widmet &ndash; als Forscherin, Forscher oder auch als Halterin eines auffällig geliebten Begleittieres &ndash;, gehört häufig genau zu dem Subtyp, dem dieses Tier im Enneagramm zugeordnet ist. Prof. Grahame Webb erforscht seit Jahrzehnten Krokodile und ist selbst ein Krokodil (SX8w7). Dr. Jill Pruetz widmet ihr Leben den Schimpansen und ist selbst ein Schimpanse (SX7w6). Paris Hilton, deren Chihuahua Tinkerbell zu ihrem Markenzeichen wurde, ist selbst ein Chihuahua (SX4w3). Diese Liste sammelt alle bislang in diesem Kompass gefundenen Fälle dieser Art &ndash; sortiert nach Subtyp, damit sichtbar wird, wie verblüffend häufig sich dieses Muster wiederholt.</p>
+          <p class="vb-intro"><strong>Wichtiger Hinweis zur Methode:</strong> Auch dies ist kein außenstehend verifizierter, wissenschaftlicher Beweis, sondern eine fortlaufend wachsende Sammlung von Beobachtungen aus der eigenen Porträtarbeit dieses Kompasses. Gerade weil diese Übereinstimmungen aber unabhängig von der jeweiligen Typisierung entstanden &ndash; die Tierentsprechung stand in aller Regel schon fest, lange bevor irgendjemand vom Lebenswerk der jeweiligen Person wusste &ndash;, ist die schiere Häufung dieser Fälle bemerkenswert. Diese Rubrik wird automatisch ergänzt, sobald ein neues passendes Porträt entsteht.</p>
+        </blockquote>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1rem;margin:2rem 0;">
+          ${tiles}
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdrücke)"},
+          {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
         ])}
       </div>
     </div>
@@ -92744,6 +92811,7 @@ function render() {
     "tierentsprechungen": tierentsprechungenPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
+    "tierforscher-uebereinstimmung": tierforscherUebereinstimmungPage,
     "bewusstseinsgrad-normalverteilung": bewusstseinsgradNormalverteilungPage,
     "tritypen": tritypenPage,
     "triadendefizite": triadendefizitePage,
