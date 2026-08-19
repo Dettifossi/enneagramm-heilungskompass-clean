@@ -48357,7 +48357,7 @@ function ingoZimmermannPortraitPage() {
         <h2 class="vb-section">5. Die Eule, die sich selbst erkannt hat</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Zimmermann besonders macht, ist nicht nur, dass er eine Eule hält &ndash; es ist, wie beharrlich und wie selbstverständlich er sie über Jahre hinweg in seine Arbeit einbindet, fast als bräuchte er selbst diese ruhige, distanzierte Präsenz ebenso sehr wie seine Studierenden und Klientinnen und Klienten. Genau diese Beharrlichkeit spricht dafür, dass hier etwas Tieferes am Werk ist als eine originelle Lehrmethode.</p>
-          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass beinahe wie ein lebender Beweis wirkt: ein Mann, dessen archetypisches Tier die Eule ist, der sie &ndash; offenbar unbewusst, aber mit großer Konsequenz &ndash; als treue Begleiterin gewählt hat und sich in ihrer Nähe erkennbar wohlfühlt.</p>
+          <p class="vb-intro">Was bleibt, ist ein Bild von seltener Stimmigkeit: ein Mann, dessen archetypisches Tier die Eule ist, der sie &ndash; offenbar unbewusst, aber mit großer Konsequenz &ndash; als treue Begleiterin gewählt hat und sich in ihrer Nähe erkennbar wohlfühlt.</p>
         </blockquote>
 
       </div>
@@ -48965,7 +48965,7 @@ function fransDeWaalPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Sieben: Die eine intensive Verbindung statt der breiten Bühne</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht ihre Erfüllung nicht in institutioneller Gruppenzugehörigkeit, sondern in intensiven, bedeutungsvollen Einzelverbindungen &ndash; eine idealisierende, oft geradezu verliebte Hingabe an eine Person, eine Idee oder ein Wesen. De Waals wissenschaftliches Vermächtnis kreist genau um dieses Thema: Versöhnung, Empathie und Bindung standen im Zentrum seiner späteren Bonobo-Forschung, festgehalten in Büchern wie "The Age of Empathy" (deutsch: "Das Zeitalter der Empathie") und "The Bonobo and the Atheist" (deutsch etwa: "Der Bonobo und der Atheist").</p>
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht ihre Erfüllung nicht in institutioneller Gruppenzugehörigkeit, sondern in intensiven, bedeutungsvollen Einzelverbindungen &ndash; eine idealisierende, oft geradezu verliebte Hingabe an eine Person, eine Idee oder ein Wesen. De Waals wissenschaftliches Vermächtnis kreist genau um dieses Thema: Versöhnung, Empathie und Bindung standen im Zentrum seiner späteren Bonobo-Forschung, festgehalten in Büchern wie "The Age of Empathy" (deutsch: "Das Zeitalter der Empathie") und "The Bonobo and the Atheist" (deutsch: "Der Mensch, der Bonobo und die Zehn Gebote").</p>
           <p class="vb-intro">Bezeichnend ist dabei, dass de Waal seinen Forschungsschwerpunkt im Laufe seiner Karriere zunehmend vom Schimpansen hin zum Bonobo verlagerte &ndash; einer Primatenart, die unter allen Menschenaffen für ihre außergewöhnlich intensive, körperlich-sexuelle Konfliktlösung und Bindungspflege bekannt ist. Kaum ein Tier verkörpert das sexuelle Instinktprinzip so unmittelbar wie der Bonobo, und dass gerade eine sexuelle Sieben im Lauf ihres Lebens immer stärker zu genau diesem Tier fand, fügt sich stimmig in das Gesamtbild.</p>
           <p class="vb-intro">Wegbegleiter beschreiben ihn als jemanden, der den direkten, persönlichen intellektuellen Austausch suchte &ndash; Einzelgespräche, individuelle Antworten auf die Arbeit einzelner Kolleginnen und Kollegen, statt sich in institutionellen Netzwerken zu verlieren. Genau diese Vorliebe für die eine bedeutsame Verbindung, nicht für die breite Bühne, ist der Kern der sexuellen Sieben.</p>
         </blockquote>
@@ -50194,7 +50194,7 @@ function laurenceFrankPortraitPage() {
         <h2 class="vb-section">5. Der Löwe, der die Löwen rettete</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Laurence Frank der Welt gibt, ist der Beweis, dass Artenschutz nicht gegen, sondern nur mit den Menschen gelingt, die am nächsten am Konflikt leben. Sein Lebenswerk verband Stärke mit sozialer Diplomatie, um dem König der Tiere das Überleben in einer sich radikal verändernden Welt zu sichern.</p>
-          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass beinahe wie ein lebender Beweis wirkt: ein Mann, dessen archetypisches Tier der Löwe ist, der sein gesamtes Berufsleben genau diesem Tier widmete – nicht durch Rückzug ins Labor, sondern durch furchtlose, jahrzehntelange Präsenz zwischen Löwen und Menschen, genau dort, wo es am gefährlichsten und am nötigsten war.</p>
+          <p class="vb-intro">Es ist kaum treffender zu illustrieren als mit diesem einen Bild: ein Mann, dessen archetypisches Tier der Löwe ist, der sein gesamtes Berufsleben genau diesem Tier widmete – nicht durch Rückzug ins Labor, sondern durch furchtlose, jahrzehntelange Präsenz zwischen Löwen und Menschen, genau dort, wo es am gefährlichsten und am nötigsten war.</p>
         </blockquote>
 
       </div>
@@ -53947,7 +53947,7 @@ function alanMcelligottPortraitPage() {
         <h2 class="vb-section">5. Der Büffel, der der Herde ihre Tiefe zurückgab</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Alan McElligott der Welt gibt, ist der wissenschaftliche Beweis, dass ein Tier, das lange als teilnahmslos und stumpf galt, in Wahrheit ein reiches soziales Innenleben besitzt &ndash; Freundschaften, Persönlichkeit, Zugehörigkeit. Genau das ist die Substanz, die die soziale Neun in jedem Kontext sucht.</p>
-          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass beinahe wie ein lebender Beweis wirkt: ein Mann, dessen archetypisches Tier der Büffel ist, der genau diesem Tier seine Forscherlaufbahn widmete &ndash; und dabei entdeckte, dass die Herde, die er erforschte, demselben Prinzip von Zugehörigkeit und stiller Verbundenheit folgt, das auch sein eigenes Wesen trägt.</p>
+          <p class="vb-intro">Kaum ein Lebenslauf spiegelt sein eigenes Prinzip so unmittelbar wider: ein Mann, dessen archetypisches Tier der Büffel ist, der genau diesem Tier seine Forscherlaufbahn widmete &ndash; und dabei entdeckte, dass die Herde, die er erforschte, demselben Prinzip von Zugehörigkeit und stiller Verbundenheit folgt, das auch sein eigenes Wesen trägt.</p>
         </blockquote>
 
       </div>
@@ -54267,7 +54267,7 @@ function lucyCookePortraitPage() {
         <h2 class="vb-section">5. Das Faultier, das der Welt zeigte, was im Faultier steckt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Lucy Cooke der Welt gibt, ist der Beweis, dass Langsamkeit keine Schwäche, sondern eine eigenständige, hocheffiziente Überlebensstrategie ist &ndash; und dass genau dieses Prinzip, mit der richtigen Portion Lebendigkeit erzählt, ein Millionenpublikum begeistern kann.</p>
-          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass beinahe wie ein lebender Beweis wirkt: eine Frau, deren archetypisches Tier das Faultier ist, die sich diesem Tier mit einer Hingabe verschrieb, die weit über wissenschaftliches Interesse hinausging &ndash; und die dabei, mit ansteckender Energie, offenbar unbewusst ihr eigenes tiefstes Muster erforschte.</p>
+          <p class="vb-intro">Ein Bild bleibt zurück, das für sich selbst spricht: eine Frau, deren archetypisches Tier das Faultier ist, die sich diesem Tier mit einer Hingabe verschrieb, die weit über wissenschaftliches Interesse hinausging &ndash; und die dabei, mit ansteckender Energie, offenbar unbewusst ihr eigenes tiefstes Muster erforschte.</p>
         </blockquote>
 
       </div>
@@ -60971,7 +60971,7 @@ function cynthiaMossPortraitPage() {
         <h2 class="vb-section">5. Der Elefant, der die Elefanten nie verließ</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Cynthia Moss der Welt gibt, ist nicht nur wissenschaftliches Wissen über eine Tierart, sondern der lebende Beweis, dass Beständigkeit selbst eine Form von Größe sein kann. Ihr Lebenswerk zeigt, wie ein einziges Thema, geduldig über ein halbes Jahrhundert verfolgt, tiefer trägt als jede kurzlebige Vielfalt.</p>
-          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass beinahe wie ein lebender Beweis wirkt: eine Frau, deren archetypisches Tier der Elefant ist, die ihr gesamtes erwachsenes Leben im Einklang mit genau diesen friedlichen, tief geerdeten Riesen verbrachte &ndash; nicht durch Distanz und Wechsel, sondern durch ein halbes Jahrhundert ungebrochener, treuer Präsenz.</p>
+          <p class="vb-intro">Was am Ende bleibt, ist eine Biografie, die sich kaum treffender denken lässt: eine Frau, deren archetypisches Tier der Elefant ist, die ihr gesamtes erwachsenes Leben im Einklang mit genau diesen friedlichen, tief geerdeten Riesen verbrachte &ndash; nicht durch Distanz und Wechsel, sondern durch ein halbes Jahrhundert ungebrochener, treuer Präsenz.</p>
         </blockquote>
 
       </div>
