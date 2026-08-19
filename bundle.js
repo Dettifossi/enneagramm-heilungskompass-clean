@@ -63734,7 +63734,7 @@ function tonyShalhoubPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das man leicht unterschätzt. Kein lauter Auftritt, kein Glamour, keine rote Teppich-Inszenierung um ihrer selbst willen. Der Waschbär arbeitet mit feinen, geschickten Händen im Verborgenen und wird erst dann sichtbar, wenn man genau hinschaut, was er eigentlich alles kann.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, dessen Geschick sich erst in den Details zeigt: in der Feinmotorik der Pfoten, im geduldigen Ausprobieren, im methodischen Herantasten an jede neue Aufgabe. Kein Tier für die große Geste, sondern für die tausend kleinen, exakt ausgeführten Handgriffe, aus denen sich am Ende Meisterschaft zusammensetzt.</p>
           <p class="vb-intro">Der US-amerikanische Schauspieler Tony Shalhoub, ausgebildet an der Yale School of Drama, war über Jahrzehnte genau das: ein Schauspieler, dessen Namen viele erst nach seinen Rollen kennenlernten, nicht umgekehrt. Bevor er 2002 als zwanghaft-akribischer Detektiv Adrian Monk zum Star wurde, hatte er sich bereits durch Theater, Independent-Filme und Nebenrollen ein Handwerk erarbeitet, das kaum ein anderer Schauspieler seiner Generation so präzise beherrschte.</p>
         </blockquote>
 
@@ -63794,7 +63794,7 @@ function juditPolgarPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das man leicht unterschätzt. Kein lauter Auftritt, kein Glamour, keine Inszenierung um ihrer selbst willen. Der Waschbär arbeitet mit feinen, geschickten Händen im Verborgenen und wird erst dann sichtbar, wenn man genau hinschaut, was er eigentlich alles kann.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein nachtaktives Tier, das seine Umgebung nicht mit roher Kraft, sondern mit ertasteter Präzision erschließt: Es befühlt, prüft, kalkuliert, bevor es zugreift. Erst wer genau hinsieht, erkennt die Berechnung hinter der scheinbar spielerischen Bewegung.</p>
           <p class="vb-intro">Die ungarische Schachspielerin Judit Polgár, geboren 1976 in Budapest als jüngste der drei Polgár-Schwestern, wuchs in einem pädagogischen Experiment ihres Vaters László Polgár auf, der überzeugt war, dass Genie erlernbar sei, wenn man früh genug und intensiv genug übt. Die drei Töchter wurden zu Hause unterrichtet, mit Schach als Kernfach des Curriculums – keine Laune des Schicksals, sondern das Ergebnis Tausender Trainingsstunden am Brett, lange bevor die Öffentlichkeit von ihr wusste.</p>
         </blockquote>
 
@@ -63855,7 +63855,7 @@ function annikaVonMutiusPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das man leicht unterschätzt. Kein lauter Auftritt, kein Glamour, keine Inszenierung um ihrer selbst willen. Der Waschbär arbeitet mit feinen, geschickten Händen im Verborgenen und wird erst dann sichtbar, wenn man genau hinschaut, was er eigentlich alles kann.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das lieber ein funktionierendes System baut als ein Schaufenster. Es zeigt nicht, was es kann, sondern lässt das Ergebnis für sich sprechen, während im Verborgenen längst die eigentliche Arbeit läuft.</p>
           <p class="vb-intro">Die deutsche Unternehmerin Dr. Annika von Mutius wuchs in Koblenz auf, in einer Familie, die ein Unternehmen zur Drahtverarbeitung führte &ndash; ein solider, handwerklich geprägter Familienbetrieb, kein Umfeld, das nach großer Bühne verlangte. Sie promovierte in Mathematik an der WHU in Vallendar, empfand die akademische Laufbahn dann aber als zu abstrakt und ging stattdessen für vier Jahre als Head of Product zu Multiply Labs ins Silicon Valley &ndash; ein Umweg über reine Praxis, bevor sie den eigenen Weg fand.</p>
         </blockquote>
 
@@ -63914,7 +63914,7 @@ function changpengZhaoPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das man leicht unterschätzt. Kein lauter Auftritt, kein Glamour, keine Inszenierung um ihrer selbst willen. Der Waschbär arbeitet mit feinen, geschickten Händen im Verborgenen und wird erst dann sichtbar, wenn man genau hinschaut, was er eigentlich alles kann.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das im Dunkeln am geschicktesten ist: unauffällig, anpassungsfähig, überall zuhause, wo es gerade gebraucht wird. Erst wenn man genau hinschaut, wird sichtbar, wie viel Kontrolle in dieser scheinbaren Bescheidenheit steckt.</p>
           <p class="vb-intro">Der kanadisch-chinesische Unternehmer Changpeng Zhao, meist nur als &bdquo;CZ&ldquo; bekannt, wurde 1977 in der chinesischen Provinz Jiangsu geboren und wanderte als Teenager mit seiner Familie nach Kanada aus, wo er in Vancouver aufwuchs und Informatik an der McGill University studierte. Vor der eigenen Firmengründung arbeitete er handwerklich-technisch im Hintergrund von Finanzsystemen &ndash; bei Bloomberg Tradebook, bei der Handelssoftware-Firma Fusion Systems und schließlich als Chief Technology Officer bei OKCoin, einer der damals größten Krypto-Börsen.</p>
         </blockquote>
 

@@ -35976,7 +35976,7 @@ function tonyShalhoubPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that is easy to underestimate. No loud entrance, no glamour, no red-carpet self-staging for its own sake. The raccoon works with skillful, deft hands out of sight, and only becomes visible once you look closely at everything it can actually do.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal whose skill only reveals itself in the details: in the fine motor control of its paws, in patient trial and error, in the methodical way it approaches every new task. Not an animal built for the grand gesture, but for the thousand small, precisely executed movements that add up to mastery.</p>
           <p class="vb-intro">The American actor Tony Shalhoub, trained at the Yale School of Drama, was exactly that for decades: an actor whose name many people learned only after learning his roles, not the other way around. Before he became a star in 2002 as the compulsively meticulous detective Adrian Monk, he had already built a craft through theater, independent films, and supporting roles that few actors of his generation mastered as precisely.</p>
         </blockquote>
 
@@ -36099,7 +36099,7 @@ function juditPolgarPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that is easy to underestimate. No loud entrance, no glamour, no self-staging for its own sake. The raccoon works with skillful, deft hands out of sight, and only becomes visible once you look closely at everything it can actually do.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; a nocturnal animal that reads its surroundings not through raw force, but through touch and calculation: it feels, tests, computes before it strikes. Only those who look closely recognize the calculation behind what looks like a playful movement.</p>
           <p class="vb-intro">The Hungarian chess player Judit Polgár, born in 1976 in Budapest as the youngest of the three Polgár sisters, grew up in an educational experiment devised by her father László Polgár, who was convinced that genius could be trained if practice began early enough and intensively enough. The three daughters were homeschooled with chess as the core subject of their curriculum &ndash; not happenstance, but the result of thousands of hours of training at the board, long before the public ever heard of her.</p>
         </blockquote>
 
@@ -36160,7 +36160,7 @@ function annikaVonMutiusPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that is easy to underestimate. No loud entrance, no glamour, no self-staging for its own sake. The raccoon works with skillful, deft hands out of sight, and only becomes visible once you look closely at everything it can actually do.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that would rather build a working system than a shop window. It doesn't show off what it can do; it lets the result speak for itself, while the real work quietly continues out of sight.</p>
           <p class="vb-intro">The German entrepreneur Dr. Annika von Mutius grew up in Koblenz, in a family that ran a wire-processing company &ndash; a solid, craft-driven family business, not an environment that called for a big stage. She earned her PhD in mathematics at WHU in Vallendar, but found the academic path too abstract and instead spent four years as Head of Product at Multiply Labs in Silicon Valley &ndash; a detour through pure practice before she found her own way.</p>
         </blockquote>
 
@@ -36219,7 +36219,7 @@ function changpengZhaoPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that is easy to underestimate. No loud entrance, no glamour, no self-staging for its own sake. The raccoon works with skillful, deft hands out of sight, and only becomes visible once you look closely at everything it can actually do.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal at its most skillful in the dark: unremarkable, adaptable, at home wherever it happens to be needed. Only on closer inspection does it become clear how much control lies behind that apparent modesty.</p>
           <p class="vb-intro">The Canadian-Chinese entrepreneur Changpeng Zhao, usually known simply as "CZ," was born in 1977 in China's Jiangsu province and emigrated with his family to Canada as a teenager, growing up in Vancouver and studying computer science at McGill University. Before founding his own company, he worked in the technical background of financial systems &ndash; at Bloomberg Tradebook, at the trading-software firm Fusion Systems, and finally as Chief Technology Officer at OKCoin, at the time one of the largest crypto exchanges in the world.</p>
         </blockquote>
 
