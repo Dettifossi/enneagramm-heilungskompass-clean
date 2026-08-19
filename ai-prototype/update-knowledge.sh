@@ -12,7 +12,9 @@ node ai-prototype/extract-register.mjs
 node ai-prototype/extract-laender.mjs
 node ai-prototype/extract-en-laender.mjs
 node ai-prototype/extract-more.mjs
+node ai-prototype/extract-psychosomatik.mjs
 node ai-prototype/extract-en-core.mjs
 node ai-prototype/extract-en-shared.mjs
+node ai-prototype/extract-en-psychosomatik.mjs
 node ai-prototype/build-knowledge.mjs
 node ai-prototype/build-knowledge-en.mjs

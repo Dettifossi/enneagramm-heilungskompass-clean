@@ -54752,7 +54752,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     icon: "&#10084;&#65039;",
     kurz: "When the heart no longer goes along with a life that has long been lived past it.",
     definition: "A heart attack (myocardial infarction) refers to the acute death of heart-muscle tissue, usually caused by a blocked coronary artery, resulting in an insufficient supply of oxygen and nutrients (ischemia). The trigger is typically coronary artery disease (CAD) – a progressive narrowing of the coronary arteries caused by atherosclerosis, i.e. deposits (plaques) on the vessel walls. If such a plaque ruptures, a blood clot (thrombus) can form that completely blocks the vessel.",
-    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    notfall: "If you suspect an acute heart attack (e.g. sudden, persistent pressure or pain in the chest, radiating into the arm, jaw or back, shortness of breath, cold sweat, a sense of impending doom): call emergency services immediately, request an ambulance, or go to the nearest hospital without delay. In this situation every minute counts – this is not the moment for psychosomatic interpretation, but for immediate emergency medical care.",
     einleitung: "Cardiology has known since the 1950s the concept of the &bdquo;Type A personality&ldquo; (Friedman &amp; Rosenman): ambitious, time-driven, competitive, with suppressed or explosive aggression – a pattern that long-term studies correlate with elevated cardiovascular risk. Traditional Chinese Medicine likewise assigns the heart to the Fire element, the seat of Shen, the spirit and the joy of life – when this fire falls out of rhythm, psychosomatic medicine often reads it as an expression of denied or forced joy, chronic self-overextension, or a life that has long been lived past one's own heart.",
     typen: [
       {
@@ -54953,6 +54954,11 @@ function psychosomatikDetailPage(slug) {
       <div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
         <p style="font-size:0.75rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.5rem;">Definition</p>
         <p style="margin:0;font-size:0.92rem;line-height:1.65;color:var(--ink);">${k.definition}</p>
+      </div>` : ""}
+      ${k.notfall ? `
+      <div style="background:color-mix(in srgb, #c0392b 10%, var(--paper));border:1.5px solid #c0392b;border-radius:10px;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
+        <p style="font-size:0.75rem;font-weight:700;color:#c0392b;text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.5rem;">⚠ Important Emergency Notice</p>
+        <p style="margin:0;font-size:0.92rem;line-height:1.65;color:var(--ink);font-weight:600;">${k.notfall}</p>
       </div>` : ""}
       <div style="background:color-mix(in srgb, var(--copper) 8%, var(--paper));border-radius:10px;padding:1rem 1.2rem;margin-bottom:1.3rem;max-width:640px;">
         <p style="margin:0;font-size:0.88rem;font-style:italic;color:var(--muted);">${k.disclaimer}</p>

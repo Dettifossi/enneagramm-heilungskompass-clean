@@ -44,6 +44,13 @@ if (fs.existsSync(portraitsPath)) {
   chunks.push(...portraitChunks);
 }
 
+// Psychosomatik-Register ergänzen (falls bereits per extract-psychosomatik.mjs generiert)
+const psychosomatikPath = path.join(__dirname, "knowledge-psychosomatik.json");
+if (fs.existsSync(psychosomatikPath)) {
+  const psychosomatikChunks = JSON.parse(fs.readFileSync(psychosomatikPath, "utf-8"));
+  chunks.push(...psychosomatikChunks);
+}
+
 const outDir = path.join(__dirname, "worker");
 fs.mkdirSync(outDir, { recursive: true });
 const outPath = path.join(outDir, "knowledge.json");

@@ -89246,7 +89246,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     icon: "&#10084;&#65039;",
     kurz: "Wenn das Herz nicht mehr mitmacht bei einem Leben, das an ihm vorbeigelebt wurde.",
     definition: "Der Herzinfarkt (Myokardinfarkt) bezeichnet den akuten, meist durch ein verschlossenes Herzkranzgefäß (Koronararterie) verursachten Untergang von Herzmuskelgewebe infolge einer Sauerstoff- und Nährstoffunterversorgung (Ischämie). Auslöser ist in der Regel die koronare Herzkrankheit (KHK) – eine fortschreitende Verengung der Herzkranzgefäße durch Arteriosklerose, also Ablagerungen (Plaques) an den Gefäßwänden. Reißt eine solche Plaque auf, kann sich ein Blutgerinnsel (Thrombus) bilden, das das Gefäß vollständig verschließt.",
-    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arztbesuch ersetzen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    notfall: "Bei akutem Verdacht auf einen Herzinfarkt (z. B. plötzlicher, anhaltender Druck oder Schmerz im Brustkorb, Ausstrahlung in Arm, Kiefer oder Rücken, Atemnot, Kaltschweißigkeit, Todesangst): sofort den Notruf 112 wählen, den Rettungsdienst rufen oder unverzüglich ins nächste Krankenhaus fahren. In diesem Fall zählt jede Minute – hier ist kein Raum für psychosomatische Deutung, sondern für sofortige medizinische Notfallversorgung.",
     einleitung: "Die Herzmedizin kennt seit den 1950er-Jahren das Konzept der &bdquo;Typ-A-Persönlichkeit&ldquo; (Friedman &amp; Rosenman): ehrgeizig, zeitgetrieben, wettbewerbsorientiert, mit unterdrückter oder explosiver Aggression – ein Muster, das in Langzeitstudien mit erhöhtem kardiovaskulärem Risiko korreliert. Auch die Traditionelle Chinesische Medizin ordnet das Herz dem Feuer-Element zu, dem Sitz des Shen, des Geistes und der Lebensfreude – gerät dieses Feuer aus dem Takt, liest die Psychosomatik das häufig als Ausdruck verweigerter oder erzwungener Freude, chronischer Selbstüberforderung oder eines Lebens, das lange am eigenen Herzen vorbeigelebt wurde.",
     typen: [
       {
@@ -89447,6 +89448,11 @@ function psychosomatikDetailPage(slug) {
       <div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
         <p style="font-size:0.75rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.5rem;">Definition</p>
         <p style="margin:0;font-size:0.92rem;line-height:1.65;color:var(--ink);">${k.definition}</p>
+      </div>` : ""}
+      ${k.notfall ? `
+      <div style="background:color-mix(in srgb, #c0392b 10%, var(--paper));border:1.5px solid #c0392b;border-radius:10px;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
+        <p style="font-size:0.75rem;font-weight:700;color:#c0392b;text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.5rem;">⚠ Wichtiger Hinweis für den Notfall</p>
+        <p style="margin:0;font-size:0.92rem;line-height:1.65;color:var(--ink);font-weight:600;">${k.notfall}</p>
       </div>` : ""}
       <div style="background:color-mix(in srgb, var(--copper) 8%, var(--paper));border-radius:10px;padding:1rem 1.2rem;margin-bottom:1.3rem;max-width:640px;">
         <p style="margin:0;font-size:0.88rem;font-style:italic;color:var(--muted);">${k.disclaimer}</p>

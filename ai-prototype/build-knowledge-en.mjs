@@ -13,6 +13,7 @@ const files = [
   "knowledge-en-laender.json", // Länderzuordnungen
   "knowledge-en-portraits.json", // berühmte Personen + Kriminalfälle
   "knowledge-en-shared.json", // Beziehungspaarungen, Differenzierungen, Situationskompass, Register
+  "knowledge-en-psychosomatik.json", // Psychosomatik-Register
 ];
 
 let chunks = [];
