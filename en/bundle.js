@@ -16389,7 +16389,7 @@ function angelaMerkelPortraitPage() {
         <h2 class="vb-section">1. The Elephant</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The elephant is the animal of the self-preservation type 9 – and no image fits Angela Merkel more accurately. The elephant is patient, grounding, possessing a presence that does not arise through loudness, but through weight. It does not move hurriedly. But it moves – and once it is in motion, nothing stops it.</p>
-          <p class="vb-intro">Merkel, born in Hamburg in 1954, raised in the GDR, a physicist by profession, became a politician overnight after the fall of the Berlin Wall and governed Germany for sixteen years. She rarely spoke loudly. She made no grand gestures. And she survived crises, opponents, and coalition partners with a persistence that felt more like a force of nature than strategy. That is the elephant: It needs no stage. It has time.</p>
+          <p class="vb-intro">The German politician Angela Merkel, born in Hamburg in 1954, raised in the GDR, a physicist by profession, became a politician overnight after the fall of the Berlin Wall and governed Germany for sixteen years. She rarely spoke loudly. She made no grand gestures. And she survived crises, opponents, and coalition partners with a persistence that felt more like a force of nature than strategy. That is the elephant: It needs no stage. It has time.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The self-preservation Nine: Sitting things out as a method</h2>
@@ -16899,7 +16899,7 @@ function carstenStahlPortraitPage() {
         <h2 class="vb-section">1. The Lion</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The lion is the animal of the social type 8 – and no image fits Carsten Stahl more accurately. The lion is no lone fighter. He lives in a pride, hunts for the pride, protects the pride. His strength is not for himself – it is for those who stand beside him. When the weak are threatened, the lion stands up. That is no reflex. That is character.</p>
-          <p class="vb-intro">Carsten Stahl, born in 1974 in Heidelberg, is a martial artist, book author, and anti-bullying activist. He has never made his physical strength an end in itself: It is his tool to go where the weaker have no voice – into schools, onto stages, onto screens. The lion does not need to show what he can do. But when the moment demands it, he is there.</p>
+          <p class="vb-intro">The German martial artist Carsten Stahl, born in 1974 in Heidelberg, is a martial artist, book author, and anti-bullying activist. He has never made his physical strength an end in itself: It is his tool to go where the weaker have no voice – into schools, onto stages, onto screens. The lion does not need to show what he can do. But when the moment demands it, he is there.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The social Eight: Solidarity</h2>
@@ -16962,7 +16962,7 @@ function cynthiaLummisPortraitPage() {
         <h2 class="vb-section">1. The Lioness</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Lion</strong> is the animal of Social Type 8 &ndash; a creature that uses its strength not for itself, but for the pride it belongs to. It defends territory and kin alike, steps forward when danger threatens, and does not retreat as long as its pride is under threat. Its strength is no display &ndash; it is function.</p>
-          <p class="vb-intro">Cynthia Lummis, born in 1954 in Cheyenne, Wyoming, is exactly this lioness: a fifth-generation ranching heir who fought her way up through Wyoming politics over decades &ndash; as a state representative, as State Treasurer, as a member of Congress, and finally, in 2020, as the first woman ever to represent Wyoming in the US Senate. She fights for her pride: the ranchers, the miners, the conservative voters of one of the most sparsely populated states in the country.</p>
+          <p class="vb-intro">The American senator Cynthia Lummis, born in 1954 in Cheyenne, Wyoming, is exactly this lioness: a fifth-generation ranching heir who fought her way up through Wyoming politics over decades &ndash; as a state representative, as State Treasurer, as a member of Congress, and finally, in 2020, as the first woman ever to represent Wyoming in the US Senate. She fights for her pride: the ranchers, the miners, the conservative voters of one of the most sparsely populated states in the country.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Eight: Solidarity with the Overlooked</h2>
@@ -17092,7 +17092,7 @@ function dakotaJohnsonPortraitPage() {
         <h2 class="vb-section">1. The Sloth</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The sloth is the animal of the sexual type 9 and anyone who observes Dakota Johnson in an interview immediately understands the image. The sloth hangs. It blinks. It seems as if it were interested in nothing and no one. And yet it is fully present with claws that you only see when you get too close.</p>
-          <p class="vb-intro">Dakota Johnson, born in 1989 in Austin, Texas, is the granddaughter of Tippi Hedren, daughter of Melanie Griffith and Don Johnson Hollywood blood in the third generation. She could have comfortably continued the dynasty. Instead, she chose something that is harder to describe: a kind of presence that does not impose itself. An intensity that hides itself. A smile that is half invitation and half boundary.</p>
+          <p class="vb-intro">The American actress Dakota Johnson, born in 1989 in Austin, Texas, is the granddaughter of Tippi Hedren, daughter of Melanie Griffith and Don Johnson Hollywood blood in the third generation. She could have comfortably continued the dynasty. Instead, she chose something that is harder to describe: a kind of presence that does not impose itself. An intensity that hides itself. A smile that is half invitation and half boundary.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The sexual Nine: Disappearing into the Other</h2>
@@ -17762,7 +17762,7 @@ function winstonChurchillPortraitPage() {
         <h2 class="vb-section">1. The Orangutan</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Orangutan</strong> is the animal of Self-Preservation Type 8 &ndash; massive, patient, hardly ever shaken. It needs no audience to prove its strength; it simply sits where it sits, and whoever wants to displace it must first find a way to move it. Its body is built to stay &ndash; not to flee.</p>
-          <p class="vb-intro">Winston Churchill, born in 1874 at Blenheim Palace, was exactly this orangutan: physically heavy-set, often underestimated in public life, repeatedly declared politically finished &ndash; and yet always there when it mattered most. When Britain faced invasion by Nazi Germany in 1940, it was this man, no one else, who stayed on the branch while the storm raged.</p>
+          <p class="vb-intro">The British statesman Winston Churchill, born in 1874 at Blenheim Palace, was exactly this orangutan: physically heavy-set, often underestimated in public life, repeatedly declared politically finished &ndash; and yet always there when it mattered most. When Britain faced invasion by Nazi Germany in 1940, it was this man, no one else, who stayed on the branch while the storm raged.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Eight: The Right to Resist</h2>
@@ -17902,7 +17902,7 @@ function igaSwiatekPortraitPage() {
         <h2 class="vb-section">1. The Sloth</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The sloth is the animal of the sexual Type 9, and anyone watching Iga Świątek play understands why. The sloth appears as if half-asleep. It does not move unless it has to. Yet this impression is deceptive: the sloth is perfectly adapted to its environment. Every movement lands. No expenditure of energy without necessity. And when it snaps—it does so with a precision that is astonishing.</p>
-          <p class="vb-intro">Iga Świątek, born in 2001 in Warsaw, Poland, is the most dominant tennis player of her generation. She won Roland Garros four times—2020, 2022, 2023, and 2024—the toughest clay-court tournament in the world. In addition, she won the US Open in 2022. She spent over 150 weeks as number one in the world rankings. And watching her, one asks: how does she do it so effortlessly?</p>
+          <p class="vb-intro">The Polish tennis player Iga Świątek, born in 2001 in Warsaw, Poland, is the most dominant tennis player of her generation. She won Roland Garros four times—2020, 2022, 2023, and 2024—the toughest clay-court tournament in the world. In addition, she won the US Open in 2022. She spent over 150 weeks as number one in the world rankings. And watching her, one asks: how does she do it so effortlessly?</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Nine: Disappearing into the Flow</h2>
@@ -18226,7 +18226,7 @@ function fritzPerlsPortraitPage() {
         <h2 class="vb-section">1. The Lion Who Provoked From the Hot Seat</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>lion</strong> is the animal of Social Type 8 &ndash; a predator that does not hide its strength but displays it openly to shake a group awake. Few people embodied this as uncompromisingly as Fritz Perls: in his legendary group workshops, he placed participants in the notorious "hot seat" and confronted them directly, often bluntly, with their own avoidance strategies &ndash; in front of everyone present. Anyone who offered an excuse was not gently guided along but met immediately with their own defense mechanism.</p>
-          <p class="vb-intro">Friedrich Salomon Perls was born in 1893 in Berlin, studied medicine and psychiatry, worked for a time with Kurt Goldstein, and trained in psychoanalysis under Wilhelm Reich and Karen Horney. In 1933, after the Nazi seizure of power, he fled Germany as a Jew, first to the Netherlands, then to South Africa, and finally to the United States. The lion does not abandon its territory without a fight &ndash; but once the danger becomes real, it does not defend the old order, it builds a new one.</p>
+          <p class="vb-intro">The German psychiatrist Friedrich Salomon Perls was born in 1893 in Berlin, studied medicine and psychiatry, worked for a time with Kurt Goldstein, and trained in psychoanalysis under Wilhelm Reich and Karen Horney. In 1933, after the Nazi seizure of power, he fled Germany as a Jew, first to the Netherlands, then to South Africa, and finally to the United States. The lion does not abandon its territory without a fight &ndash; but once the danger becomes real, it does not defend the old order, it builds a new one.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Social Eight: A New Therapeutic Community</h2>
@@ -19143,7 +19143,7 @@ function kevinCostnerPortraitPage() {
         <h2 class="vb-section">1. The Buffalo</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The buffalo is the animal of the social Type 9, and no image fits Kevin Costner more accurately. The buffalo lives in the collective. It moves slowly, with weight, close to the ground. It is not the loudest animal on the prairie—but when it moves, the herd follows. Its strength lies not in dominance, but in belonging: it is part of something larger, and it knows it.</p>
-          <p class="vb-intro">Kevin Costner, born in 1955 in Lynwood, California, is one of the rarest types in Hollywood: an actor who does not glitter, but carries. He speaks slowly. He acts slowly. His best roles are men who do not fight for themselves, but for something larger than themselves: a country, a community, a lost promise.</p>
+          <p class="vb-intro">The American actor Kevin Costner, born in 1955 in Lynwood, California, is one of the rarest types in Hollywood: an actor who does not glitter, but carries. He speaks slowly. He acts slowly. His best roles are men who do not fight for themselves, but for something larger than themselves: a country, a community, a lost promise.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Nine: Merging into the Community</h2>
@@ -19721,7 +19721,7 @@ function diegoVelazquezPortraitPage() {
         <h2 class="vb-section">1. The Sloth</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Sloth</strong> is the animal of the sexual Nine &ndash; not a symbol of laziness, but of a mode of existence that merges so completely with its surroundings that the boundary between observer and observed dissolves. Few paintings in art history make this dissolution as conscious as Diego Velázquez's masterpiece "Las Meninas" (1656): the painter himself stands in the picture, before an enormous canvas whose subject we cannot see &ndash; a mirror in the background shows the royal couple, apparently standing exactly where the viewer of the painting stands. Who, exactly, is looking at whom here?</p>
-          <p class="vb-intro">Velázquez was born in 1599 in Seville and, at eleven, entered the workshop of the painter Francisco Pacheco, whose daughter he later married. Even in his early Sevillian bodegones &ndash; everyday scenes with kitchen utensils and ordinary people &ndash; a capacity showed itself that would mark him for life: the ability to sink so completely into what he painted that painter, subject, and viewer become nearly impossible to tell apart.</p>
+          <p class="vb-intro">The Spanish painter Diego Velázquez was born in 1599 in Seville and, at eleven, entered the workshop of the painter Francisco Pacheco, whose daughter he later married. Even in his early Sevillian bodegones &ndash; everyday scenes with kitchen utensils and ordinary people &ndash; a capacity showed itself that would mark him for life: the ability to sink so completely into what he painted that painter, subject, and viewer become nearly impossible to tell apart.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Nine: The Intensifying Type of Fusion</h2>
@@ -19956,7 +19956,7 @@ function gerhardSchroederPortraitPage() {
         <h2 class="vb-section">1. The Crocodile in a Suit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>crocodile</strong> is the animal of the sexual Eight &ndash; lurking, powerful, snapping shut in a flash at the decisive moment. It shares its territory with no one and measures its strength in direct, immediate duel &ndash; not through slow strategy, but through the one decisive bite at the right time.</p>
-          <p class="vb-intro">Gerhard Schröder was born in 1944 in Mossenberg (Lippe), a few weeks before his father was killed in the war &ndash; a father he never got to know. He grew up in poor circumstances, worked early on in a hardware store, and later earned his high school diploma and law degree through the second-chance education route. His rise from a working-class child to Chancellor was always, in his own telling, part of his political narrative &ndash; proof that will and fighting spirit can overcome one's origins. As head of the Young Socialists in 1982, he had himself photographed at the fence of the Chancellery, hands gripping the railings, with the line: "I want to get in there." An image that foreshadowed his entire instinctual orientation.</p>
+          <p class="vb-intro">The German politician Gerhard Schröder was born in 1944 in Mossenberg (Lippe), a few weeks before his father was killed in the war &ndash; a father he never got to know. He grew up in poor circumstances, worked early on in a hardware store, and later earned his high school diploma and law degree through the second-chance education route. His rise from a working-class child to Chancellor was always, in his own telling, part of his political narrative &ndash; proof that will and fighting spirit can overcome one's origins. As head of the Young Socialists in 1982, he had himself photographed at the fence of the Chancellery, hands gripping the railings, with the line: "I want to get in there." An image that foreshadowed his entire instinctual orientation.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Eight: Struggle as a Way of Life</h2>
@@ -21085,7 +21085,7 @@ function helmutKohlPortraitPage() {
         <h2 class="vb-section">1. The Lion from the Palatinate</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>lion</strong> is the animal of the social Eight &ndash; not the lone hunter, but the head of the pride, defending territory and cohesion at once. It doesn't roar constantly; its power lies in sheer physical and mental presence, felt by everyone the moment it enters the room.</p>
-          <p class="vb-intro">Helmut Kohl was born in 1930 in Ludwigshafen am Rhein and experienced the end of the Second World War as a teenager &ndash; an experience that shaped his entire political life: never again should Germany be isolated, never again should Europe be divided. He joined the CDU at just 16, became Minister-President of Rhineland-Palatinate at 39, and Chancellor at 52 &ndash; a rise built from the start on sheer stamina, physical stature, and an unerring instinct for power. Kohl was physically imposing, often underestimated by opponents because of his measured Palatinate dialect &ndash; and that was precisely his strength: he never let himself be pushed into a pace that wasn't his own.</p>
+          <p class="vb-intro">The German politician Helmut Kohl was born in 1930 in Ludwigshafen am Rhein and experienced the end of the Second World War as a teenager &ndash; an experience that shaped his entire political life: never again should Germany be isolated, never again should Europe be divided. He joined the CDU at just 16, became Minister-President of Rhineland-Palatinate at 39, and Chancellor at 52 &ndash; a rise built from the start on sheer stamina, physical stature, and an unerring instinct for power. Kohl was physically imposing, often underestimated by opponents because of his measured Palatinate dialect &ndash; and that was precisely his strength: he never let himself be pushed into a pace that wasn't his own.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Eight: Power in the Service of the Group</h2>
@@ -23092,7 +23092,7 @@ function ronaldReaganPortraitPage() {
         <h2 class="vb-section">1. The Buffalo</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The buffalo is the animal symbol of the Social Type 9—and no image captures Ronald Reagan more accurately. The buffalo leads not by command, but through movement: when it moves, the herd moves with it. It exudes a calm that inspires trust. Grounded, solid, undaunted—it needs no applause to know where it is going.</p>
-          <p class="vb-intro">Born in 1911 in Tampico, Illinois, and passing away in 2004, Reagan was an actor, union president, governor, and ultimately the 40th President of the United States—serving two terms from 1981 to 1989. He was the oldest president in US history when he took office. He won with an ease that left his opponents baffled: no tension, no edge, no visible ambition. Just a smile, a few simple phrases—and the country followed him.</p>
+          <p class="vb-intro">The American president Ronald Reagan, born in 1911 in Tampico, Illinois, and passing away in 2004, was an actor, union president, governor, and ultimately the 40th President of the United States—serving two terms from 1981 to 1989. He was the oldest president in US history when he took office. He won with an ease that left his opponents baffled: no tension, no edge, no visible ambition. Just a smile, a few simple phrases—and the country followed him.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Nine: America as a Feeling</h2>
@@ -23286,7 +23286,7 @@ function ruthBaderGinsburgPortraitPage() {
         <h2 class="vb-section">1. The Crocodile</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The crocodile is the animal symbol of the Sexual Type 8—and no image captures Ruth Bader Ginsburg more precisely. The crocodile is the oldest predator on Earth: patient in waiting, precise in its strike, unimpressed by opposition, and virtually unchanged for millions of years. It needs no grand size to command respect. Its mere presence is enough.</p>
-          <p class="vb-intro">Ginsburg, born in Brooklyn in 1933 and passing away in 2020, served as an Associate Justice on the Supreme Court of the United States for 27 years—only the second woman in its history. She stood 5 feet 1 inch tall. She spoke quietly. Her dissenting opinions were famous for cutting straight to the heart of majority rulings without euphemism. The crocodile needs no bravado. Its grip is sufficient.</p>
+          <p class="vb-intro">The American judge Ruth Bader Ginsburg, born in Brooklyn in 1933 and passing away in 2020, served as an Associate Justice on the Supreme Court of the United States for 27 years—only the second woman in its history. She stood 5 feet 1 inch tall. She spoke quietly. Her dissenting opinions were famous for cutting straight to the heart of majority rulings without euphemism. The crocodile needs no bravado. Its grip is sufficient.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Eight: Possession</h2>
@@ -30037,7 +30037,7 @@ function budSpencerPortraitPage() {
         <h2 class="vb-section">1. The Lion</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Lion</strong> is the animal of Social Type 8 &ndash; and no image fits Bud Spencer better. The lion does not need to roar to make an impression. Its presence alone is enough. It sits in the shade of the acacia tree, calm and massive, while smaller animals give it a wide berth &ndash; not out of hostility, but out of respect. When the pride is in danger, it stands up. Until then, it is simply there.</p>
-          <p class="vb-intro">Bud Spencer was this animal. Nearly 1.90 metres tall, over 120 kilos &ndash; and yet he was not an intimidator. Those who knew him saw the warm gaze, the deep laugh, the unconditional loyalty to his family and to his lifelong friend Terence Hill. The lion protects without threatening. Bud Spencer protected without making grand speeches.</p>
+          <p class="vb-intro">The Italian actor Bud Spencer was this animal. Nearly 1.90 metres tall, over 120 kilos &ndash; and yet he was not an intimidator. Those who knew him saw the warm gaze, the deep laugh, the unconditional loyalty to his family and to his lifelong friend Terence Hill. The lion protects without threatening. Bud Spencer protected without making grand speeches.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Eight: Solidarity</h2>
@@ -30095,7 +30095,7 @@ function karlMarxPortraitPage() {
         <h2 class="vb-section">1. The Lion</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Lion</strong> is the animal of Social Type 8 &ndash; a creature that uses its strength not for itself, but for its pride. It does not need to roar constantly; its mere presence commands respect. But when the pride is threatened &ndash; or when it calls for a fight for the pride's survival &ndash; it unleashes a force no one can ignore.</p>
-          <p class="vb-intro">Karl Marx, born in 1818 in Trier, was this lion: not a loud self-promoter, but a man who spent decades working in obscurity &ndash; in libraries, in poverty, in London exile &ndash; on a body of work he understood as a weapon for the oppressed. He did not fight for himself. He fought for a pride he never personally knew: the working class of the entire world.</p>
+          <p class="vb-intro">The German philosopher Karl Marx, born in 1818 in Trier, was this lion: not a loud self-promoter, but a man who spent decades working in obscurity &ndash; in libraries, in poverty, in London exile &ndash; on a body of work he understood as a weapon for the oppressed. He did not fight for himself. He fought for a pride he never personally knew: the working class of the entire world.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Eight: Solidarity with the Exploited</h2>
@@ -30368,7 +30368,7 @@ function diogenesPortraitPage() {
         <h2 class="vb-section">1. The Crocodile</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Crocodile</strong> is the animal of Sexual Type 8 &ndash; a creature that cares nothing for social order, shows almost no needs, and yet draws the full attention of any water it enters. It lives openly, unprotected, without a place to retreat to &ndash; and that is exactly what makes it impossible to ignore.</p>
-          <p class="vb-intro">Diogenes of Sinope, born around 412 BC, lived in a discarded barrel (a pithos, a large storage jar) in the marketplace of Athens &ndash; without a house, without possessions, without shame. According to legend, he walked the streets by daylight carrying a lit lamp, and when asked what he was searching for, replied: “I am looking for an honest man.” No philosopher of antiquity lived more radically in public than he did. The crocodile does not hide &ndash; it lies visible on the shore, and anyone passing by has to reckon with it.</p>
+          <p class="vb-intro">The Greek philosopher Diogenes of Sinope, born around 412 BC, lived in a discarded barrel (a pithos, a large storage jar) in the marketplace of Athens &ndash; without a house, without possessions, without shame. According to legend, he walked the streets by daylight carrying a lit lamp, and when asked what he was searching for, replied: “I am looking for an honest man.” No philosopher of antiquity lived more radically in public than he did. The crocodile does not hide &ndash; it lies visible on the shore, and anyone passing by has to reckon with it.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Eight: Shamelessness as Liberation</h2>
@@ -30555,7 +30555,7 @@ function davidHumePortraitPage() {
         <h2 class="vb-section">1. The Elephant Who Doubted Everything</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>elephant</strong> is the animal of the self-preservation Nine &ndash; patient, grounding, possessing a presence that comes not from volume but from weight. It is not easily rattled, even when it questions the very foundations of the world. It carries its insights calmly, without forcing them on anyone.</p>
-          <p class="vb-intro">David Hume was born in 1711 in Edinburgh, briefly studied law, abandoned it, and devoted himself to philosophy instead &ndash; against his family&#39;s wishes. Contemporaries consistently described him as cheerful, agreeable, without a trace of bitterness, even though he spent his life writing against fierce opposition from the church and academic institutions. He was called &bdquo;le bon David&ldquo; &ndash; the good David &ndash; even by circles that considered his ideas dangerous.</p>
+          <p class="vb-intro">The Scottish philosopher David Hume was born in 1711 in Edinburgh, briefly studied law, abandoned it, and devoted himself to philosophy instead &ndash; against his family&#39;s wishes. Contemporaries consistently described him as cheerful, agreeable, without a trace of bitterness, even though he spent his life writing against fierce opposition from the church and academic institutions. He was called &bdquo;le bon David&ldquo; &ndash; the good David &ndash; even by circles that considered his ideas dangerous.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Nine: Calm as Method</h2>
@@ -31219,7 +31219,7 @@ function abidaParveenPortraitPage() {
         <h2 class="vb-section">1. The Elephant</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Elephant</strong> is the animal of Type 9 &ndash; a creature of enormous mass that does not need to hurry to make an impression. It moves at its own pace, patient, unshakeable, and once it sets itself in motion, everything around it follows. Its power lies not in attack, but in the sheer weight of its presence.</p>
-          <p class="vb-intro">Abida Parveen, born in 1954 in Larkana, Pakistan, is this elephant on stage. When she steps onto the stage in richly coloured robes and closes her eyes, little happens at first &ndash; no show, no choreography, no spectacle. And yet within minutes the entire concert hall sinks into a collective trance, carried along by a voice that knows no hurry and precisely because of that sweeps everything with it.</p>
+          <p class="vb-intro">The Pakistani singer Abida Parveen, born in 1954 in Larkana, Pakistan, is this elephant on stage. When she steps onto the stage in richly coloured robes and closes her eyes, little happens at first &ndash; no show, no choreography, no spectacle. And yet within minutes the entire concert hall sinks into a collective trance, carried along by a voice that knows no hurry and precisely because of that sweeps everything with it.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Nine: Appetite for Merging</h2>
@@ -31283,7 +31283,7 @@ function johannesBrahmsPortraitPage() {
         <h2 class="vb-section">1. The Elephant</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>elephant</strong> is the animal of the self-preservation Nine of the Enneagram &ndash; a being of enormous weight that nonetheless moves through the world unhurried, almost deliberate, that forgets nothing, and that never abandons anyone to whom it has once pledged loyalty. Johannes Brahms was this elephant: massive in his artistic stature, unshakable in his bonds, and possessed of a memory that carried a single friendship across four decades.</p>
-          <p class="vb-intro">Born in 1833 in Hamburg as the son of a town musician, the young Brahms earned money as a teenager playing piano in the dockside taverns of St. Pauli &ndash; a hard, spare schooling that kept him modest for the rest of his life, even after fame had made him one of the wealthiest composers in Europe.</p>
+          <p class="vb-intro">The German composer Johannes Brahms, born in 1833 in Hamburg as the son of a town musician, earned money as a teenager as a teenager playing piano in the dockside taverns of St. Pauli &ndash; a hard, spare schooling that kept him modest for the rest of his life, even after fame had made him one of the wealthiest composers in Europe.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Self-Preservation Nine: Appetite in Small Things</h2>
@@ -31349,7 +31349,7 @@ function steffiGrafPortraitPage() {
         <h2 class="vb-section">1. The Buffalo</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Buffalo</strong> is the animal of Social Type 9 &ndash; and no image fits Steffi Graf more precisely. The buffalo is not a showroom animal. It is not an animal of poses and gestures. It lowers its head and runs. It pushes through whatever lies in front of it &ndash; calm, massive, unstoppable. It makes no drama. It needs no audience to know that it is there.</p>
-          <p class="vb-intro">Steffi Graf had this quality on the tennis court like almost no one else. She won 22 Grand Slam titles &ndash; more than any other player of her generation. In 1988 she achieved the <strong>Golden Slam</strong>: all four Grand Slam tournaments and the Olympic gold medal in one year. An achievement unique in the history of tennis. And she did all of this without ever giving the impression that she needed to prove it to herself. The buffalo proves nothing. It is simply there &ndash; and it wins.</p>
+          <p class="vb-intro">The German tennis player Steffi Graf had this quality on the tennis court like almost no one else. She won 22 Grand Slam titles &ndash; more than any other player of her generation. In 1988 she achieved the <strong>Golden Slam</strong>: all four Grand Slam tournaments and the Olympic gold medal in one year. An achievement unique in the history of tennis. And she did all of this without ever giving the impression that she needed to prove it to herself. The buffalo proves nothing. It is simply there &ndash; and it wins.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Nine: Participation</h2>
@@ -31409,7 +31409,7 @@ function julianAssangePortraitPage() {
         <h2 class="vb-section">1. The Buffalo</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Buffalo</strong> is the animal of Social Type 9 &ndash; an animal defined not by acting alone, but by being embedded in something larger than itself. It lowers its head and pushes through whatever stands in its way, unconcerned with recognition or applause. It does not fight for itself &ndash; it fights for something bigger than its own survival.</p>
-          <p class="vb-intro">Julian Assange, born in 1971 in Townsville, Australia, is this buffalo: not an orator who sweeps up crowds, but a programmer and activist who believed truth itself was the most powerful tool there is. With the founding of WikiLeaks in 2006, he began building a platform designed to make secret government and corporate documents accessible to the world &ndash; without regard for who was exposed in the process.</p>
+          <p class="vb-intro">The Australian activist Julian Assange, born in 1971 in Townsville, Australia, is this buffalo: not an orator who sweeps up crowds, but a programmer and activist who believed truth itself was the most powerful tool there is. With the founding of WikiLeaks in 2006, he began building a platform designed to make secret government and corporate documents accessible to the world &ndash; without regard for who was exposed in the process.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Nine: Dissolving Into a Larger Cause</h2>
@@ -31538,7 +31538,7 @@ function heikeMakatschPortraitPage() {
         <h2 class="vb-section">1. The Sloth</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Sloth</strong> is the animal of Sexual Type 9 &ndash; and those who think of passivity misunderstand the sloth. Sloths are not lazy animals. They are masters of energy efficiency: they wait until the right moment comes &ndash; and then move with a precision and endurance that surprises. Their balance in the tree is not weakness. It is a form of control directed inward.</p>
-          <p class="vb-intro">Heike Makatsch carries this quality on screen and behind it. She is not an actress of grand gestures, of consciously placed appearances. She is someone who waits &ndash; for the right role, the right moment, the right tone &ndash; and then immerses herself completely. The sloth hangs quietly until it moves. When it moves, it gives everything.</p>
+          <p class="vb-intro">The German actress Heike Makatsch carries this quality on screen and behind it. She is not an actress of grand gestures, of consciously placed appearances. She is someone who waits &ndash; for the right role, the right moment, the right tone &ndash; and then immerses herself completely. The sloth hangs quietly until it moves. When it moves, it gives everything.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Nine: The Amplifier Type</h2>
@@ -31598,7 +31598,7 @@ function marioBarthPortraitPage() {
         <h2 class="vb-section">1. The Sloth</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Sloth</strong> is the animal of Sexual Type 9 &ndash; an animal that does not fight, but merges. It hangs relaxed in the branches, lets the world drift past, and dissolves entirely into its surroundings. But anyone who thinks the sloth is defenseless is mistaken: touched in the wrong spot, it suddenly responds with surprising force.</p>
-          <p class="vb-intro">Mario Barth, born 1972 in Berlin-Mariendorf, one of six siblings, first trained as a telecommunications electrician before turning to comedy. In 2001 he debuted with his first stage show &ndash; and from then on merged with a stage persona that spoke to a mass audience: the Berlin everyman who nails the eternal friction between men and women.</p>
+          <p class="vb-intro">The German comedian Mario Barth, born 1972 in Berlin-Mariendorf, one of six siblings, first trained as a telecommunications electrician before turning to comedy. In 2001 he debuted with his first stage show &ndash; and from then on merged with a stage persona that spoke to a mass audience: the Berlin everyman who nails the eternal friction between men and women.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Nine: Merging with the Crowd</h2>
@@ -31986,7 +31986,7 @@ function keanuReevesPortraitPage() {
         <h2 class="vb-section">1. The Sloth</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Sloth</strong> is the animal of Sexual Type 9 &ndash; and no image fits Keanu Reeves more precisely, even if it seems paradoxical at first sight: for sloths are not lazy. They are extremely energy-efficient &ndash; they do <em>exactly what is necessary</em>, with a minimum of effort and a maximum of effect. The sloth hangs quietly in the tree, barely moving &ndash; and no one gets the idea of underestimating it.</p>
-          <p class="vb-intro">Keanu Reeves is one of the most successful actors in the world. With <em>The Matrix</em> (1999) he embodied one of the most iconic characters in cinema, with <em>John Wick</em> he played one of the most intense action roles of recent decades &ndash; and in real life he is the man who sits alone on a park bench eating a sandwich. No bodyguard, no entourage. The sloth person needs no stage. He is simply there.</p>
+          <p class="vb-intro">The Canadian actor Keanu Reeves is one of the most successful actors in the world. With <em>The Matrix</em> (1999) he embodied one of the most iconic characters in cinema, with <em>John Wick</em> he played one of the most intense action roles of recent decades &ndash; and in real life he is the man who sits alone on a park bench eating a sandwich. No bodyguard, no entourage. The sloth person needs no stage. He is simply there.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Nine: Union</h2>
@@ -32172,7 +32172,7 @@ function wilmaMankillerPortraitPage() {
         <h2 class="vb-section">1. The Buffalo</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Buffalo</strong> is the animal of Social Type 9 &ndash; an animal that defines itself not through going it alone, but through being bound to something larger than itself. It lowers its head and pushes through whatever stands in its way, unconcerned with recognition or applause. It carries the herd, even when it is weakened itself.</p>
-          <p class="vb-intro">Wilma Mankiller, born 1945 in Tahlequah, Oklahoma, is this buffalo unfiltered: the sixth of eleven children in a Cherokee family, relocated at age ten to San Francisco under a federal termination-era policy, she returned to Oklahoma in the 1970s to help rebuild the Cherokee Nation from within &ndash; and carried it for ten years as its first woman Principal Chief.</p>
+          <p class="vb-intro">The American Cherokee politician Wilma Mankiller, born 1945 in Tahlequah, Oklahoma, is this buffalo unfiltered: the sixth of eleven children in a Cherokee family, relocated at age ten to San Francisco under a federal termination-era policy, she returned to Oklahoma in the 1970s to help rebuild the Cherokee Nation from within &ndash; and carried it for ten years as its first woman Principal Chief.</p>
           <p class="vb-intro">Even her surname carries this buffalo story forward: <em>Mankiller</em> (Cherokee: <em>Asagasta</em>) was originally not a family name at all, but a military honorific of Cherokee society &ndash; bestowed on a warrior who defended and protected a village, roughly meaning “protector of the people.” When US authorities began compiling name registers in the 18th and 19th centuries, this title was translated literally into English and fixed as a surname. Mankiller herself handled the unusual name with confident humor: “Mankiller is an old Cherokee title &ndash; it's like a military rank, something like a captain. But it's a great name to have when you're trying to make a hotel reservation,” she liked to joke. A name that literally means protector &ndash; carried by a woman who became exactly that for her nation.</p>
         </blockquote>
 
@@ -32237,7 +32237,7 @@ function baerbelBasPortraitPage() {
         <h2 class="vb-section">1. The Elephant</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Elephant</strong> is the animal of Type 9 &ndash; and few images fit Bärbel Bas better. The elephant is not a spectacle animal. It is not a vanity animal. It is an animal of endurance, memory, and the quiet presence that cannot be overlooked, even when one tries. The elephant needs no noise to have an effect &ndash; its mere presence changes the room.</p>
-          <p class="vb-intro">Bärbel Bas has exactly this quality. The President of the Bundestag from Duisburg is not a politician who stands out through grand gestures. She is one who works through reliability, through fairness, through the persistent effort to maintain order in a chamber that has grown increasingly restless. The elephant guards the herd. Bärbel Bas guards the parliament.</p>
+          <p class="vb-intro">The German politician Bärbel Bas has exactly this quality. The President of the Bundestag from Duisburg is not a politician who stands out through grand gestures. She is one who works through reliability, through fairness, through the persistent effort to maintain order in a chamber that has grown increasingly restless. The elephant guards the herd. Bärbel Bas guards the parliament.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Nine: Appetite</h2>
@@ -32295,7 +32295,7 @@ function ludwigErhardPortraitPage() {
         <h2 class="vb-section">1. The Elephant</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Elephant</strong> is the animal of Type 9 &ndash; and few images fit Ludwig Erhard better. The elephant is a heavy, calm animal that needs no noise to have an effect. It moves slowly, deliberately, with a presence that simply is, whether or not anyone is watching. Once it is in motion, little can stop it.</p>
-          <p class="vb-intro">Ludwig Erhard, born in 1897 in Fürth, was this elephant: portly, seemingly relaxed, cigar in hand and calm of voice &ndash; and yet the man who led Germany out of the rubble of the Second World War into one of the most stable economies in Europe. No revolutionary, no speaker who swept up crowds. A man who held on persistently to an idea until it became reality.</p>
+          <p class="vb-intro">The German politician Ludwig Erhard, born in 1897 in Fürth, was this elephant: portly, seemingly relaxed, cigar in hand and calm of voice &ndash; and yet the man who led Germany out of the rubble of the Second World War into one of the most stable economies in Europe. No revolutionary, no speaker who swept up crowds. A man who held on persistently to an idea until it became reality.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Nine: Appetite for Stability</h2>
