@@ -59814,21 +59814,41 @@ setTimeout(showTagesimpuls, 600);
     return div;
   }
 
-  btn.addEventListener("click", function () {
-    panel.style.display = panel.style.display === "none" ? "flex" : "none";
-    if (panel.style.display === "flex") {
-      inputEl.focus();
-      playMilestone("wegweiser-intro");
-    }
-  });
-  closeEl.addEventListener("click", function () {
-    panel.style.display = "none";
-  });
+  // Suggestion chips: lower the entry barrier on first open, when the chat
+  // window is still empty and a new user doesn't know what to ask.
+  const SUGGESTION_CHIPS = [
+    "What is my animal correspondence?",
+    "Which subtype fits impulsive?",
+    "What's the difference between passion and wound?",
+    "How do I find my subtype?",
+  ];
+  function removeSuggestionChips() {
+    const el = msgsEl.querySelector("#wegweiser-chips");
+    if (el) el.remove();
+  }
+  function showSuggestionChips() {
+    if (msgsEl.children.length) return; // only show on the very first open
+    const wrap = document.createElement("div");
+    wrap.id = "wegweiser-chips";
+    wrap.style.cssText = "display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:0.6rem;";
+    SUGGESTION_CHIPS.forEach(function (q) {
+      const chip = document.createElement("button");
+      chip.type = "button";
+      chip.textContent = q;
+      chip.style.cssText =
+        "border:1px solid var(--copper,#a5652f);background:transparent;color:var(--copper,#a5652f);" +
+        "border-radius:999px;padding:0.35rem 0.7rem;font-size:0.8rem;cursor:pointer;font-family:inherit;text-align:left;";
+      chip.addEventListener("mouseover", function () { chip.style.background = "var(--copper,#a5652f)"; chip.style.color = "#fff"; });
+      chip.addEventListener("mouseout", function () { chip.style.background = "transparent"; chip.style.color = "var(--copper,#a5652f)"; });
+      chip.addEventListener("click", function () { askQuestion(q); });
+      wrap.appendChild(chip);
+    });
+    msgsEl.appendChild(wrap);
+  }
 
-  formEl.addEventListener("submit", async function (e) {
-    e.preventDefault();
-    const question = inputEl.value.trim();
+  async function askQuestion(question) {
     if (!question) return;
+    removeSuggestionChips();
     addMsg(question, "user");
     inputEl.value = "";
     const loadingEl = addMsg("… thinking …", "meta");
@@ -59853,6 +59873,23 @@ setTimeout(showTagesimpuls, 600);
       loadingEl.remove();
       addMsg("Connection error. Please try again later.", "meta");
     }
+  }
+
+  btn.addEventListener("click", function () {
+    panel.style.display = panel.style.display === "none" ? "flex" : "none";
+    if (panel.style.display === "flex") {
+      inputEl.focus();
+      playMilestone("wegweiser-intro");
+      showSuggestionChips();
+    }
+  });
+  closeEl.addEventListener("click", function () {
+    panel.style.display = "none";
+  });
+
+  formEl.addEventListener("submit", function (e) {
+    e.preventDefault();
+    askQuestion(inputEl.value.trim());
   });
 })();
 
