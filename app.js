@@ -48409,7 +48409,7 @@ function martaManserPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Sechs: Sicherheit durch das Frühwarnsystem der Gruppe</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Sechs (SO6)</strong> sucht Sicherheit nicht in individueller Stärke, sondern in einem verlässlichen System aus gegenseitiger Warnung, Loyalität und klaren Rollen innerhalb der Gemeinschaft &ndash; jedes Mitglied trägt Verantwortung für alle, alle tragen Verantwortung für jedes Mitglied. Mansers Forschung hat genau dieses Prinzip beim Erdmännchen wissenschaftlich präzise entschlüsselt: die "Sentinel"-Funktion, bei der einzelne Tiere reihum Wache stehen, während der Rest der Gruppe ungestört nach Nahrung suchen kann.</p>
+          <p class="vb-intro">Die <strong>soziale Sechs (SO6)</strong> sucht Sicherheit nicht in individueller Stärke, sondern in einem verlässlichen System aus gegenseitiger Warnung, Loyalität und klaren Rollen innerhalb der Gemeinschaft &ndash; jedes Mitglied trägt Verantwortung für alle, alle tragen Verantwortung für jedes Mitglied. Mansers Forschung hat genau dieses Prinzip beim Erdmännchen wissenschaftlich präzise entschlüsselt: die "Sentinel"-Funktion (das Wächterprinzip), bei der einzelne Tiere reihum Wache stehen, während der Rest der Gruppe ungestört nach Nahrung suchen kann.</p>
           <p class="vb-intro">Dass ausgerechnet sie zur international führenden Stimme für dieses kollektive Frühwarnsystem wurde, liest sich wie ein Spiegelbild des eigenen inneren Musters: Sicherheit entsteht nicht durch einen einzelnen starken Einzelkämpfer, sondern durch ein Netz aus Kommunikation, das die ganze Gruppe schützt.</p>
         </blockquote>
 
