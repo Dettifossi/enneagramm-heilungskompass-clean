@@ -32181,6 +32181,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Moses \u2013 Sexueller Typ 6",
     teaser:"SX6w5 \u00b7 ca. 13. Jh. v. Chr. (biblische \u00dcberlieferung). Prophet, Gesetzgeber, Anf\u00fchrer des Exodus. Vom z\u00f6gernden Hirten am brennenden Dornbusch zum furchtlosen Gegenspieler des Pharaos. Der Wolf, der die eigene Angst erst \u00fcberwindet, um dann f\u00fcr sein Rudel durch die W\u00fcste zu gehen.",
     tags:["Religion","Geschichte"], gender:"m"},
+  { route:"beruehmte-david-mech", name:"Dr. L. David Mech", added:"2026-08-19", subtyp:"SX6w5",
+    heading:"Dr. L. David Mech \u2013 Sexueller Typ 6",
+    teaser:"SX6w5 \u00b7 geb. 1937. US-amerikanischer Biologe, \u201eVater der modernen Wolfsforschung\u201c, Gr\u00fcnder des International Wolf Center. Seit \u00fcber 60 Jahren Wolfsforschung, Standardwerk \u201eThe Wolf\u201c. Der Wolf, der sein Leben lang das Rudel erforschte \u2013 und dabei die eigene Tierentsprechung studierte. Tierentsprechung: Wolf.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-michael-schumacher", name:"Michael Schumacher", added:"2026-07-21", subtyp:"SX6w7",
     heading:"Michael Schumacher \u2013 Sexueller Typ 6",
     teaser:"SX6w7 \xb7 geb. 1969 in H\xfcrth. Formel-1-Rennfahrer, siebenmaliger Weltmeister, 91 Siege. Der Wolf, der Angst in Geschwindigkeit verwandelt hat &ndash; und dessen Stille seit 2013 lauter ist als alles, was er je gesagt hat.",
@@ -35268,6 +35272,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-anne-mcbride", name:"Dr. Anne McBride", subtyp:"SE6w5", tier:"Kaninchen"},
   {route:"beruehmte-marta-manser", name:"Prof. Dr. Marta Manser", subtyp:"SO6w5", tier:"Erdmännchen"},
   {route:"beruehmte-tim-clutton-brock", name:"Prof. Tim Clutton-Brock", subtyp:"SO6w5", tier:"Erdmännchen"},
+  {route:"beruehmte-david-mech", name:"Dr. L. David Mech", subtyp:"SX6w5", tier:"Wolf"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42740,7 +42745,7 @@ const LEBENSMUSTERKOMPASS = {
   SX6: {
     tier: "Wolf",
     kernthema: "Angst wird nicht vermieden, sondern frontal angegriffen – Stärke als Gegenangst (Naranjo: Kontratyp der Sechs)",
-    beispiele: ["Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson"],
+    beispiele: ["Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech"],
     fingerabdruecke: [
       {
         titel: "Angst wird nicht vermieden, sondern frontal angegriffen",
@@ -42750,7 +42755,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Direkter Blickkontakt und Klartext statt Rückzug oder Diplomatie",
         beschreibung: "Konflikten wird nicht ausgewichen, sondern sie werden gesucht und offen ausgetragen – mit einer Direktheit, die viele überrascht oder verunsichert, aber selten unehrlich ist.",
-        beleg: "Katja Riemann: ›Der Wolf weicht der Bedrohung nicht aus, sondern sieht sie direkt an … Klartext statt Diplomatie‹; Byron Katie: ›Wölfe testen sich gegenseitig durch Blickkontakt und Nähe, nicht durch Rückzug‹ – ihre Methode ›The Work‹ als Prinzip, der eigenen Angst nicht auszuweichen; Alice Schwarzer: ›Sie hat Debatten angestoßen, die niemand führen wollte … Der Wolf, der nicht aufhört zu heulen.‹"
+        beleg: "Katja Riemann: ›Der Wolf weicht der Bedrohung nicht aus, sondern sieht sie direkt an … Klartext statt Diplomatie‹; Byron Katie: ›Wölfe testen sich gegenseitig durch Blickkontakt und Nähe, nicht durch Rückzug‹ – ihre Methode ›The Work‹ als Prinzip, der eigenen Angst nicht auszuweichen; Alice Schwarzer: ›Sie hat Debatten angestoßen, die niemand führen wollte … Der Wolf, der nicht aufhört zu heulen‹; Dr. L. David Mech, der seine eigene, weltberühmt gewordene These vom ›Alpha-Wolf‹ öffentlich widerrief, sobald neue Fakten sie widerlegten – Klartext auch gegen die eigene Autorität, statt an einer bequemen, überholten Sicherheit festzuhalten."
       },
       {
         titel: "Kraft aus dem Rudel statt aus Einzelgängertum",
@@ -48509,6 +48514,67 @@ function timCluttonBrockPortraitPage() {
         {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-tim-clutton-brock")}
+    </div>
+  `);
+}
+
+function davidMechPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-david-mech-portrait.jpg" alt="Wolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. L. David Mech</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Biologe, "Vater der modernen Wolfsforschung", geb. 1937 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf, der sein Leben lang den Wolf erforschte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs &ndash; er begegnet der Angst nicht durch Rückzug, sondern durch direkte Konfrontation, sucht die Prüfung, das Rudel, die Struktur, die im Ernstfall Bestand hat. Kaum ein Wissenschaftler verkörpert dieses Prinzip so buchstäblich wie Dr. L. David Mech: Seit 1958, also seit über sechzig Jahren, erforscht er Wölfe &ndash; in Minnesota, auf Isle Royale, in Alaska, im Yellowstone-Nationalpark und auf der arktischen Ellesmere-Insel &ndash; und gilt weltweit als die führende Autorität zum Thema.</p>
+          <p class="vb-intro">1937 in Auburn, New York, geboren, machte Mech aus einer einzigen, jahrzehntelang verfolgten Forschungsfrage ein Lebenswerk: rund 380 wissenschaftliche Publikationen, elf Bücher, darunter das bis heute maßgebliche Standardwerk "The Wolf: The Ecology and Behavior of an Endangered Species" (1970). 1985 gründete er zusätzlich das International Wolf Center, um sein Wissen einer breiten Öffentlichkeit zugänglich zu machen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Direkte Konfrontation statt Ausweichen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> begegnet der eigenen Angst konterphobisch &ndash; nicht durch Vermeidung, sondern durch die direkte, oft jahrzehntelange Auseinandersetzung mit genau dem, was andere fürchten würden. Mech verbrachte unzählige Wochen im arktischen Winter auf Ellesmere Island, um wilde Wolfsrudel aus nächster Nähe zu beobachten &ndash; eine Forschungsmethode, die außergewöhnliche physische Härte und die Bereitschaft erfordert, sich extremer Kälte und Isolation über lange Zeiträume auszusetzen.</p>
+          <p class="vb-intro">Bezeichnend ist auch seine intellektuelle Konfrontationsbereitschaft mit sich selbst: Mech prägte in den 1970er-Jahren maßgeblich das populäre Konzept des "Alpha-Wolfs" in einer strikten Dominanzhierarchie &ndash; und korrigierte diese eigene, weltberühmt gewordene These später selbst öffentlich, als neuere Feldbeobachtungen zeigten, dass ein Wolfsrudel meist eine familiäre Eltern-Kind-Struktur ist, keine Rangordnungskämpfe. Die eigene, einst verteidigte Sicherheit infrage zu stellen, sobald neue Fakten es verlangen, ist reine sexuelle Sechs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Jahrzehnte akribischer Feldforschung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Sechs eine analytische Tiefe und die Bereitschaft, sich über extrem lange Zeiträume in ein einziges Wissensgebiet zu vertiefen. Rund 380 wissenschaftliche Publikationen über ein einziges Tier, verteilt über mehr als sechs Jahrzehnte, sind ein Ausmaß an systematischer Beharrlichkeit, das weit über normale akademische Karrieren hinausgeht.</p>
+          <p class="vb-intro">Diese Kombination aus Sechser-Konfrontationsbereitschaft im Feld und Fünfer-Systematik in der Auswertung machte Mech zur unbestechlichen, faktenbasierten Instanz für alles, was mit Wolfsverhalten zu tun hat &ndash; eine Autorität, die sich nicht auf Charisma stützt, sondern auf jahrzehntelang gesammelte, überprüfbare Beobachtungsdaten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 ist die Fähigkeit, <strong>direkte, oft unbequeme Konfrontation mit der Realität in verlässliches, sich selbst korrigierendes Wissen</strong> zu verwandeln &ndash; Mechs Forschung veränderte grundlegend, wie Wissenschaft und Öffentlichkeit Wölfe verstehen, und sein International Wolf Center prägt bis heute Naturschutz und Umweltbildung weltweit.</p>
+          <p class="vb-intro">Der Schatten der sexuellen Sechs mit Fünferflügel zeigt sich darin, wie sehr die eigene Identität an ein einziges, hartnäckig verfolgtes Thema gebunden werden kann &ndash; ein Leben, das über sechzig Jahre fast ausschließlich einem einzigen Tier gewidmet war, lässt wenig Raum für andere Rollen jenseits dieser einen, alles bestimmenden Forschungsfrage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Wolf, der die Wahrheit über den Wolf suchte, auch gegen sich selbst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Mech der Welt gibt, ist nicht nur Wissen über ein einzelnes Tier, sondern ein Vorbild dafür, wie Wissenschaft funktionieren sollte: mit der Bereitschaft, auch die eigene, weltberühmt gewordene These zu widerrufen, sobald die Fakten es verlangen. Das ist selten &ndash; und zutiefst sexuelle Sechs.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das kaum treffender für die sexuelle Sechs mit Fünferflügel sein könnte: ein Mann, dessen archetypisches Tier der Wolf ist, der sein gesamtes Leben der unbestechlichen Erforschung genau dieses Tieres widmete &ndash; und dabei, offenbar unbewusst, sein eigenes tiefstes Muster erforschte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
+        {route:"beruehmte-moses", label:"Porträt: Moses (SX6w5)"},
+        {route:"beruehmte-wladimir-putin", label:"Porträt: Wladimir Putin (SX6w5)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-david-mech")}
     </div>
   `);
 }
@@ -92418,6 +92484,7 @@ function render() {
       "beruehmte-john-wayne": johnWaynePortraitPage,
       "beruehmte-marta-manser": martaManserPortraitPage,
       "beruehmte-tim-clutton-brock": timCluttonBrockPortraitPage,
+      "beruehmte-david-mech": davidMechPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
