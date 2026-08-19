@@ -36480,7 +36480,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Identity through belonging to a cause or community, not through the individual person",
         beschreibung: "Naranjo called this subtype the one of 'Participation': the self does not appear as an individual, but merges with a group, an idea, or a larger cause – its thinking and feeling becomes one's own.",
-        beleg: "Julian Assange: 'An animal that defines itself not through going it alone, but through being bound to a larger cause ... He doesn't fight for himself – he fights for something bigger than his own survival'; Kevin Costner: 'He is part of something bigger, and he knows it'; Amelia Earhart, whose 'real project was never personal thrill, but the proof that women can fly like men.'"
+        beleg: "Julian Assange: 'An animal that defines itself not through going it alone, but through being bound to a larger cause ... He doesn't fight for himself – he fights for something bigger than his own survival'; Kevin Costner: 'He is part of something bigger, and he knows it'; Amelia Earhart, whose 'real project was never personal thrill, but the proof that women can fly like men.'; Sandra Hüller, who in interviews rarely talks about herself as a star, almost always about the ensemble, the team, the direction – and stayed loyal to her theater in Leipzig despite international fame; Wilma Mankiller, who carried a Cherokee honorific title that literally means 'protector of the people,' and laid her first major project's water line together with residents – not as an outside administrator, but as part of the cause itself."
       },
       {
         titel: "Calm, unhurried presence that the herd nonetheless follows",
@@ -36507,17 +36507,17 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Calm, weighty presence instead of volume",
         beschreibung: "Impact arises not from talking or performing, but from mere, weighty presence – the room changes without a single word being necessary.",
-        beleg: "James Levine: 'He needs no action to have an effect. It's enough that he's there'; Angela Merkel: 'A presence that arises not from volume, but from weight ... She rarely spoke loudly. She made no grand gestures'; Thomas Aquinas, nicknamed 'the dumb ox,' about whom his teacher said: 'His bellowing in teaching will one day fill the whole world.'"
+        beleg: "James Levine: 'He needs no action to have an effect. It's enough that he's there'; Angela Merkel: 'A presence that arises not from volume, but from weight ... She rarely spoke loudly. She made no grand gestures'; Thomas Aquinas, nicknamed 'the dumb ox,' about whom his teacher said: 'His bellowing in teaching will one day fill the whole world.'; Bärbel Bas, who as President of the Bundestag stands out through reliability and persistent efforts toward order rather than grand gestures; David Hume, who questioned the foundations of the world while remaining remarkably unruffled – 'le bon David' even among those who considered his ideas dangerous."
       },
       {
         titel: "Once in motion, nothing stops it anymore",
         beschreibung: "Progress happens not hastily, but at its own, unwavering pace – once a direction is set, hardly any obstacle still stops that movement.",
-        beleg: "Ludwig Erhard: 'Once it's moving, hardly anything stops it' – 'a man who held stubbornly to an idea until it became reality'; Gina Rinehart: 'The elephant moves slowly. But it moves in one direction, and that direction no longer changes'; Angela Merkel: 'Waiting it out as method.'"
+        beleg: "Ludwig Erhard: 'Once it's moving, hardly anything stops it' – 'a man who held stubbornly to an idea until it became reality'; Gina Rinehart: 'The elephant moves slowly. But it moves in one direction, and that direction no longer changes'; Angela Merkel: 'Waiting it out as method.'; Laotse, who according to legend simply rode west at the end of his life and vanished into the desert – no fight for reform, but a quiet, final departure from a world he no longer wished to support; Hans-Dietrich Genscher, whose 23 years at the Foreign Office were no career of great ruptures, but one of patient accumulation, year by year, step by step."
       },
       {
         titel: "Appetite and enjoyment as an expression of the joy of life that soothes an inner emptiness",
         beschreibung: "Naranjo called this subtype the one of 'Appetite': physical pleasure, habit, and comfort serve to soothe a deeper inner emptiness – not as weakness, but as a deeply rooted life principle.",
-        beleg: "Alfons Schuhbeck: 'The self-preservation subtype of the Nine is called \"Appetite\": the inner emptiness every Nine carries is soothed through physical pleasure, food, habit, and comfort'; Johannes Brahms, who 'remained frugal even after fame had long made him one of the richest composers in Europe'; Abida Parveen: 'Appetite for merging,' whose calm, unhurried singing sends entire concert halls into a trance."
+        beleg: "Alfons Schuhbeck: 'The self-preservation subtype of the Nine is called \"Appetite\": the inner emptiness every Nine carries is soothed through physical pleasure, food, habit, and comfort'; Johannes Brahms, who 'remained frugal even after fame had long made him one of the richest composers in Europe'; Abida Parveen: 'Appetite for merging,' whose calm, unhurried singing sends entire concert halls into a trance; Carmen Goglin, who turned laughter yoga into a profession and gives others exactly what the SE9 seeks for itself – physical relaxation, ease, the feeling that nothing is urgent right now."
       },
       {
         titel: "When the quiet appetite turns into quiet self-service without guilt (shadow form)",
@@ -36544,7 +36544,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Relentless drive that never fades over a whole lifetime",
         beschreibung: "One's own hunger for expression, experience, or impact does not diminish over decades – no retreat, no creative pause, no noticeable drop in intensity with age.",
-        beleg: "Pablo Picasso, who for 91 years worked 'tirelessly, insatiably, unswayed by any expectation that was not his own' and left behind more than 20,000 works: 'The crocodile eats as long as it's hungry. And Picasso's hunger ... never went out'; Gerhard Schröder, whose 'entire instinctual orientation' was already visible as a young Juso chairman at the Chancellery fence: 'I want to get in there.'"
+        beleg: "Pablo Picasso, who for 91 years worked 'tirelessly, insatiably, unswayed by any expectation that was not his own' and left behind more than 20,000 works: 'The crocodile eats as long as it's hungry. And Picasso's hunger ... never went out'; Gerhard Schröder, whose 'entire instinctual orientation' was already visible as a young Juso chairman at the Chancellery fence: 'I want to get in there.'; Prof. Grahame Webb, who before specializing in crocodiles had already researched kangaroos, sharks, sea turtles, monkeys, tuna, and whales, and afterward built a research station, crocodile farm, school, and novel on top of that – never a single territory, always a growing empire."
       },
       {
         titel: "When possession-taking turns into a network of control over people (shadow form)",
@@ -36561,7 +36561,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Strength used not for oneself, but for the pride",
         beschreibung: "Naranjo described this subtype as the type of 'Friendship and Brotherhood': strength does not serve personal self-assertion, but the protection and cohesion of a community one feels responsible for.",
-        beleg: "Michelle Obama: 'Strength here is not an end in itself – it serves the We. The lion protects its pride. Michelle Obama protects her people'; Carsten Stahl: 'His strength isn't for himself – it's for those standing next to him. When the weak are threatened, the lion rises'; Karl Marx: 'He didn't fight for himself. He fought for a pride he never knew personally: the working class of the whole world.'"
+        beleg: "Michelle Obama: 'Strength here is not an end in itself – it serves the We. The lion protects its pride. Michelle Obama protects her people'; Carsten Stahl: 'His strength isn't for himself – it's for those standing next to him. When the weak are threatened, the lion rises'; Karl Marx: 'He didn't fight for himself. He fought for a pride he never knew personally: the working class of the whole world.'; Cynthia Lummis, who for decades has fought for one of the least populous US states, often overlooked in Washington – concretely for ranchers, miners, and voters she knows, not distant ideological debates; Mohammed ibn Abdullah, who grew up an orphan and spent his life advocating for the most disenfranchised in his society – orphans, widows, slaves."
       },
       {
         titel: "Mere presence is enough – no constant roaring needed",
@@ -36571,7 +36571,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Precise, chosen intervention instead of indiscriminate confrontation",
         beschreibung: "Strength is not deployed indiscriminately, but only after careful observation, at the right moment and with a clear target – without wasting unnecessary energy.",
-        beleg: "Jamaica Kincaid: 'The lion doesn't fight indiscriminately. It waits, observes, chooses the moment. And when it attacks, it does so with a precision that wastes no energy'; Socrates, who remained 'barefoot in winter, indifferent to comfort, incorruptible in his convictions': 'The lion doesn't retreat when things get uncomfortable – it holds its ground.'"
+        beleg: "Jamaica Kincaid: 'The lion doesn't fight indiscriminately. It waits, observes, chooses the moment. And when it attacks, it does so with a precision that wastes no energy'; Socrates, who remained 'barefoot in winter, indifferent to comfort, incorruptible in his convictions': 'The lion doesn't retreat when things get uncomfortable – it holds its ground.'; Fritz Perls, who deliberately placed workshop participants on the 'hot seat' and confronted them individually, directly, and unsparingly with their own defenses – not indiscriminate attack, but precise intervention exactly where it worked."
       },
       {
         titel: "When pride loyalty becomes a publicly displayed criminal brotherhood (shadow form)",
@@ -36588,12 +36588,12 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Solitary, quiet territory with no need for an audience or validation",
         beschreibung: "Naranjo called this subtype the one of 'Satisfaction': security arises through personal, material, or positional self-sufficiency – not through social recognition. Power doesn't need to prove itself to anyone; it simply is.",
-        beleg: "Jacqueline Mars: 'The orangutan is the most solitary of the great apes: it needs no troop, no stage, no validation ... She has given hardly any public interviews for decades'; Toni Morrison: 'She lives her own way, at her own pace, with a dignity that needs no explanation'; Golda Meir: 'A quiet power that doesn't need to prove itself.'"
+        beleg: "Jacqueline Mars: 'The orangutan is the most solitary of the great apes: it needs no troop, no stage, no validation ... She has given hardly any public interviews for decades'; Toni Morrison: 'She lives her own way, at her own pace, with a dignity that needs no explanation'; Golda Meir: 'A quiet power that doesn't need to prove itself.'; Dhapanbal Yunupingu, who does not loudly defend a defining artistic legacy but quietly claims it – staying in the place where it was created rather than marketing it elsewhere."
       },
       {
         titel: "Patient, systematic building of one's own territory over decades",
         beschreibung: "Position or influence do not arise from a single spectacular step, but through persistent, often unassuming construction, level by level, over a very long period.",
-        beleg: "Indra Nooyi, who arrived in the US with 'little more than 500 dollars in her pocket' and 28 years later led one of the world's largest food corporations: 'The systematic, patient building of a territory, level by level, until no one doubted anymore who sat on top'; Dr. Biruté Galdikas, whose decades of fieldwork made her the world's leading orangutan expert – the same principle mirrored in her own research work."
+        beleg: "Indra Nooyi, who arrived in the US with 'little more than 500 dollars in her pocket' and 28 years later led one of the world's largest food corporations: 'The systematic, patient building of a territory, level by level, until no one doubted anymore who sat on top'; Dr. Biruté Galdikas, whose decades of fieldwork made her the world's leading orangutan expert – the same principle mirrored in her own research work; Dr. Umberto Eco, who amassed over 30,000 books as a thinking instrument – not a single step, but a personal territory of knowledge grown over decades."
       },
       {
         titel: "Unshakable steadfastness under extreme pressure",
