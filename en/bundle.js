@@ -1216,6 +1216,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Cynthia Lummis – Social Type 8",
     teaser:"SO8w7 · born 1954 in Cheyenne, Wyoming. US Senator, first female Bitcoin advocate in the US Senate, former Wyoming State Treasurer. The lioness who fights for her pride – uncompromising, direct, and always at the front line.",
     tags:["Politik"], gender:"f"},
+{ route:"beruehmte-laurence-frank", name:"Dr. Laurence Frank", added:"2026-08-19", subtyp:"SO8w7",
+    heading:"Dr. Laurence Frank – Social Type 8",
+    teaser:"SO8w7 · Wildlife biologist, founder of Living with Lions and pioneer of the Lion Guardians. Over 35 years of fearless field research on lions and hyenas in Kenya, reconciling Maasai warriors with the lions they once killed. The lion who fought for the lion. Animal correspondence: Lion.",
+    tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-jamaica-kincaid", name:"Jamaica Kincaid", added:"2026-07-22", subtyp:"SO8w9",
     heading:"Jamaica Kincaid – Social Type 8",
     teaser:"SO8w9 · born 1949 in Antigua. Writer, essayist, Harvard professor. Annie John, A Small Place, Lucy. The lion who writes - sharper than any complaint, more precise than any accusation.",
@@ -4834,6 +4838,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-jill-pruetz", name:"Dr. Jill Pruetz", subtyp:"SX7w6", tier:"Chimpanzee"},
   {route:"beruehmte-paris-hilton", name:"Paris Hilton", subtyp:"SX4w3", tier:"Chihuahua"},
   {route:"beruehmte-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", tier:"Dove"},
+  {route:"beruehmte-laurence-frank", name:"Dr. Laurence Frank", subtyp:"SO8w7", tier:"Lion"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -16981,6 +16986,7 @@ function cynthiaLummisPortraitPage() {
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
         {route:"beruehmte-carsten-stahl", label:"Portrait: Carsten Stahl (SO8w7)"},
         {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+        {route:"beruehmte-laurence-frank", label:"Portrait: Dr. Laurence Frank (SO8w7)"},
       ])}
     </div>
   `);
@@ -29822,6 +29828,68 @@ function michelleObamaPortraitPage() {
   `);
 }
 
+function laurenceFrankPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-laurence-frank-portrait.jpg" alt="Lion" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Laurence Frank</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Social Type 8 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Wildlife biologist, founder of Living with Lions &ndash; Animal correspondence: Lion</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Lion Who Fought for the Lion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>lion</strong> is the animal of the Social Eight &ndash; strength used not for oneself, but for the pride. Dr. Laurence Frank, affiliated with UC Berkeley and the University of Oxford, devoted his life to exactly this animal: over 35 years of fearless field research on lions and hyenas in Kenya, without ever pursuing a tenured post, because fieldwork in the bush mattered to him more than the academic career ladder.</p>
+          <p class="vb-intro">He became world-famous as founder of the Lion Guardians project: he recognized that the greatest threat to lions was not nature but conflict with Maasai settlers &ndash; and developed a concept that turned former lion killers into lion protectors. The lion who understood that his animal survives only if he himself mediates between the fronts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Eight: Strength in Service of a Larger Cause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Eight (SO8)</strong> deploys its strength not for its own safety, but for the protection of a community &ndash; for Frank that meant two communities at once: the lions of Kenya and the Maasai who had to live alongside them. Instead of imposing regulations from outside, he worked directly with Maasai warriors and ranchers and explicitly acknowledged their hardships: a lion attacking a cow means real hardship for a pastoral family, not an abstract conservation problem.</p>
+          <p class="vb-intro">His guiding principle &ndash; roughly: "When the world is dying around you, you have to do something" &ndash; shows the Social Eight in its most pragmatic form: not theory, but action that changes something immediately. The Lion Guardians are exactly that: not an imported solution, but a structure that returns to the community itself the responsibility and the dignity to reshape its own relationship with the lion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Fearless, Impatient, Obsessed with the Next Case</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Social Eight speed, appetite for risk, and an almost impatient energy &ndash; clearly distinguishable from the calmer, more mediating Nine-wing. Colleagues describe Frank as "Laurence of the Hyenas": a man who fearlessly stalks through the bush at night, tracking dangerous predators with infrared goggles, showing an almost obsessive enthusiasm &ndash; he calls a decomposing hyena skull an "exquisite specimen." This is not a Nine-wing that waits and mediates; this is a Seven-wing that plunges headfirst into the next adventure.</p>
+          <p class="vb-intro">His temperament, too, fits the Seven-wing more than the Nine: his jaw twitches when he gets angry &ndash; which, colleagues note, happens fairly often. He curses in the middle of perfectly parsed, almost Victorian sentences. That is not the quiet, conflict-avoiding presence of the Nine, but the fast, high-energy, sometimes impatient intensity of the Seven &ndash; embedded in the protective strength of the Social Eight.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO8w7 is the ability to <strong>turn fearlessness and rapid action into genuine protection for a threatened species</strong> &ndash; Frank's Lion Guardians model is now cited worldwide as a template for human-predator coexistence and has demonstrably saved lion populations that would otherwise have been wiped out.</p>
+          <p class="vb-intro">The shadow shows in exactly the impatience that drives him: a certain restlessness, a quick temper, a distance from academic recognition that never mattered enough to him to seriously pursue. His deep emotional bond with the animals, too &ndash; he was visibly moved when forced to euthanize a rabid hyena he had observed for years &ndash; shows how much scientific distance this work actually cost him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Lion Who Saved the Lions</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Laurence Frank gives the world is proof that species conservation succeeds not against, but only with the people who live closest to the conflict. His life's work combined strength with social diplomacy to secure the king of beasts' survival in a radically changing world.</p>
+          <p class="vb-intro">In the end, one image remains that reads almost like a living proof for this compass: a man whose archetypal animal is the lion, who devoted his entire career to exactly that animal &ndash; not by retreating into a laboratory, but through decades of fearless presence between lions and people, exactly where it was most dangerous and most needed.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
+        {route:"lebensmusterkompass/so8", label:"Life Pattern Compass: SO8 – Lion"},
+        {route:"beruehmte-cynthia-lummis", label:"Portrait: Cynthia Lummis (SO8w7)"},
+        {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+        {route:"tierforscher-uebereinstimmung", label:"Animal-Researcher Correspondence: more examples"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-laurence-frank")}
+    </div>
+  `);
+}
+
 function budSpencerPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -36658,12 +36726,12 @@ const LEBENSMUSTERKOMPASS = {
   SO8: {
     tier: "Lion",
     kernthema: "Strength used not for oneself, but for the pride (Naranjo: Friendship and Brotherhood)",
-    beispiele: ["Socrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Muhammad ibn Abdullah", "Helmut Kohl", "John Gotti"],
+    beispiele: ["Socrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Muhammad ibn Abdullah", "Helmut Kohl", "John Gotti", "Dr. Laurence Frank"],
     fingerabdruecke: [
       {
         titel: "Strength used not for oneself, but for the pride",
         beschreibung: "Naranjo described this subtype as the type of 'Friendship and Brotherhood': strength does not serve personal self-assertion, but the protection and cohesion of a community one feels responsible for.",
-        beleg: "Michelle Obama: 'Strength here is not an end in itself – it serves the We. The lion protects its pride. Michelle Obama protects her people'; Carsten Stahl: 'His strength isn't for himself – it's for those standing next to him. When the weak are threatened, the lion rises'; Karl Marx: 'He didn't fight for himself. He fought for a pride he never knew personally: the working class of the whole world.'; Cynthia Lummis, who for decades has fought for one of the least populous US states, often overlooked in Washington – concretely for ranchers, miners, and voters she knows, not distant ideological debates; Mohammed ibn Abdullah, who grew up an orphan and spent his life advocating for the most disenfranchised in his society – orphans, widows, slaves."
+        beleg: "Michelle Obama: 'Strength here is not an end in itself – it serves the We. The lion protects its pride. Michelle Obama protects her people'; Carsten Stahl: 'His strength isn't for himself – it's for those standing next to him. When the weak are threatened, the lion rises'; Karl Marx: 'He didn't fight for himself. He fought for a pride he never knew personally: the working class of the whole world.'; Cynthia Lummis, who for decades has fought for one of the least populous US states, often overlooked in Washington – concretely for ranchers, miners, and voters she knows, not distant ideological debates; Mohammed ibn Abdullah, who grew up an orphan and spent his life advocating for the most disenfranchised in his society – orphans, widows, slaves; Dr. Laurence Frank, who devoted his life not only to lions but simultaneously to the Maasai who had to live alongside them – strength in service of two communities at once."
       },
       {
         titel: "Mere presence is enough – no constant roaring needed",
@@ -58740,6 +58808,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-carsten-stahl": carstenStahlPortraitPage,
       "beruehmte-cynthia-lummis": cynthiaLummisPortraitPage,
+      "beruehmte-laurence-frank": laurenceFrankPortraitPage,
       "beruehmte-carl-rogers": carlRogersPortraitPage,
       "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,
       "beruehmte-david-l-rathmer": davidLRathmerPortraitPage,
