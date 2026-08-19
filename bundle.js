@@ -63973,7 +63973,7 @@ function brynKenneyPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das man leicht unterschätzt. Kein lauter Auftritt, kein Glamour, keine Inszenierung um ihrer selbst willen. Der Waschbär arbeitet mit feinen, geschickten Händen im Verborgenen und wird erst dann sichtbar, wenn man genau hinschaut, was er eigentlich alles kann.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier mit ruhigen Pfoten und wachen Augen, das am Pokertisch niemand fürchtet, bis es zu spät ist. Es blufft nicht durch Lautstärke, sondern durch die schiere Präzision seiner Bewegungen: Während andere Tiere um Aufmerksamkeit buhlen, sammelt der Waschbär in aller Stille genau die Informationen, die am Ende den Unterschied machen.</p>
           <p class="vb-intro">Der US-amerikanische Profi-Pokerspieler Bryn Kenney wurde 1986 in Long Beach, New York, geboren und spielte als Jugendlicher wettkampfmäßig das Strategiekartenspiel Magic: The Gathering &ndash; ein analytisches, tief taktisches Spiel, das seine spätere Herangehensweise an Poker entscheidend prägte. Mit sechzehn begann er, online Poker zu spielen, lange bevor ihn irgendjemand kannte, und erkannte früh, dass er damit sein Geld verdienen konnte. Seinen ersten größeren Live-Gewinn erzielte er 2007 &ndash; Jahre stiller, weitgehend unbeachteter Übung, bevor die Öffentlichkeit von ihm erfuhr.</p>
         </blockquote>
 

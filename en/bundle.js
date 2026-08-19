@@ -36278,7 +36278,7 @@ function brynKenneyPortraitPage() {
 
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that is easy to underestimate. No loud entrance, no glamour, no self-staging for its own sake. The raccoon works with skillful, deft hands out of sight, and only becomes visible once you look closely at everything it can actually do.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal with quiet paws and watchful eyes that no one fears at the poker table until it's too late. It doesn't bluff through volume, but through the sheer precision of its movements: while other animals compete for attention, the raccoon quietly gathers exactly the information that ends up making the difference.</p>
           <p class="vb-intro">The American professional poker player Bryn Kenney was born in 1986 in Long Beach, New York, and competed as a teenager in the strategy card game Magic: The Gathering &ndash; an analytical, deeply tactical game that decisively shaped his later approach to poker. At sixteen he began playing poker online, long before anyone knew his name, and quickly realized he could make a living from it. His first significant live cash came in 2007 &ndash; years of quiet, largely unnoticed practice before the public ever heard of him.</p>
         </blockquote>
 
