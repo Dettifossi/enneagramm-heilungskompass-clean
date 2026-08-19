@@ -533,6 +533,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Changpeng Zhao – Self-Preservation Type 3",
     teaser:"SE3w4 · Canadian-Chinese entrepreneur, founder of Binance, the world's largest crypto exchange. Technical infrastructure over performance, a radically independent path outside existing rulebooks. Animal correspondence: Raccoon.",
     land:"Canada/China", tags:["Wirtschaft"], gender:"m"},
+{ route:"beruehmte-bryn-kenney", name:"Bryn Kenney", added:"2026-08-19", subtyp:"SE3w4",
+    heading:"Bryn Kenney – Self-Preservation Type 3",
+    teaser:"SE3w4 · American professional poker player, #1 on the All-Time Money List with roughly $90 million. Largest single tournament cash in poker history (2019). Self-described \"lone wolf\" of the scene. Animal correspondence: Raccoon.",
+    land:"USA", tags:["Sport"], gender:"m"},
 { route:"beruehmte-madame-tussaud", name:"Madame Tussaud", added:"2026-08-08", subtyp:"SE3w4",
     heading:"Madame Tussaud – Self-Preservation Type 3",
     teaser:"SP3w4 · 1761–1850. Wax sculptor, museum founder. Death masks of guillotine victims during the French Revolution, 33 years touring Britain, the \"Chamber of Horrors\" – the raccoon that turned pure survival skill into a world enterprise. Animal correspondence: Raccoon.",
@@ -36257,6 +36261,59 @@ function changpengZhaoPortraitPage() {
   `);
 }
 
+function brynKenneyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-bryn-kenney-portrait.jpg" alt="Bryn Kenney – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bryn Kenney</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">American professional poker player &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that is easy to underestimate. No loud entrance, no glamour, no self-staging for its own sake. The raccoon works with skillful, deft hands out of sight, and only becomes visible once you look closely at everything it can actually do.</p>
+          <p class="vb-intro">The American professional poker player Bryn Kenney was born in 1986 in Long Beach, New York, and competed as a teenager in the strategy card game Magic: The Gathering &ndash; an analytical, deeply tactical game that decisively shaped his later approach to poker. At sixteen he began playing poker online, long before anyone knew his name, and quickly realized he could make a living from it. His first significant live cash came in 2007 &ndash; years of quiet, largely unnoticed practice before the public ever heard of him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Three: Skill Over the Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> is the counter-type of the Three &ndash; the subtype that does not display achievement outwardly but directs it inward: toward security, competence, craft mastery. SE3 does not ask <em>How am I seen?</em> but <em>What can I actually do?</em></p>
+          <p class="vb-intro">A week before his exam to become a real estate broker, his grandmother died &ndash; a turning point that made clear to Kenney there was no longer any reason to keep pursuing that conventional path. He chose poker as a profession, not out of rebellion, but because it was where he had already proven he had genuine skill. Over decades he sharpened his abilities across countless tournaments, until in 2019 he took second place in the Triton Million for Charity for the single largest cash ever recorded in poker history: over $20.5 million. Since 2026 he has led the All-Time Money List with roughly $90.76 million in tournament winnings &ndash; ahead of Justin Bonomo and longtime leader Daniel Negreanu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: The Lone Wolf at the Table</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three a question that goes beyond mere competence: <em>What does my path mean &ndash; beyond what is expected of me?</em> Kenney describes himself bluntly as an outsider in the scene: "I am like the lone wolf in this poker world," he once said &ndash; a self-description that reveals just how much he sees himself as an independent figure who doesn't fit the usual mold, even within a scene where he stands at the absolute athletic top.</p>
+          <p class="vb-intro">His flamboyant personal style &ndash; expensive watches, showy chains, blunt talk at the table &ndash; looks at first glance like pure self-display, but on closer inspection is more an expression of an entirely own standard than a wish to please a crowd. Kenney himself puts it in almost philosophical terms: "My whole experience of life is there is no dream that's been too big, because any dream that I've had has come into reality."</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SE3w4 is its ability to draw genuine uniqueness from pure skill. Kenney's years of skill-building, developed out of sight, ultimately produced the largest single tournament cash ever paid out in poker history &ndash; not a lucky strike, but the result of thousands of hours of analysis that no one from the outside ever saw.</p>
+          <p class="vb-intro">The passion of the Three is <strong>vanity / deceit</strong> &ndash; in SE3w4, subtly present as the need to be seen as unique and unrepeatable, while the real substance stays hidden behind a facade, whether one of understatement or, as with Kenney, one of demonstrative extravagance. The shadow of the Four-wing shows in the isolation that the self-image of the "lone wolf" brings with it: "No one's perfect," Kenney once admitted himself &ndash; a brief line that hints at how much criticism and friction such an uncompromising, individual path can also generate from the outside.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-annika-von-mutius", label:"Portrait: Dr. Annika von Mutius (SE3w4)"},
+        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function sadhguruPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -37735,7 +37792,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Years of disciplined practice in hiding before mastery becomes visible",
         beschreibung: "Skills that later seem effortless almost never arise overnight, but through years of quiet, often painfully consistent repetition, long before the public knows anything about it.",
-        beleg: "Lang Lang: 'The raccoon learned early: skill doesn't come through talent alone, but through endless, often painful repetition'; Judit Polgár, whose mastery was the result of 'thousands of hours of training at the board, long before the public knew about her'; Tom Keating, who over two decades created more than 2,000 paintings in the style of about 100 masters – craft mastery deliberately aimed against the art market; Penélope Cruz, who trained in classical ballet and dramatic art before ever stepping in front of a camera – years of training as a foundation, not a footnote; David L. Rathmer, who was introduced to the Enneagram at age eight and turned that into over fifteen years of empirical research, long before it became a standalone, internationally used method."
+        beleg: "Lang Lang: 'The raccoon learned early: skill doesn't come through talent alone, but through endless, often painful repetition'; Judit Polgár, whose mastery was the result of 'thousands of hours of training at the board, long before the public knew about her'; Tom Keating, who over two decades created more than 2,000 paintings in the style of about 100 masters – craft mastery deliberately aimed against the art market; Penélope Cruz, who trained in classical ballet and dramatic art before ever stepping in front of a camera – years of training as a foundation, not a footnote; David L. Rathmer, who was introduced to the Enneagram at age eight and turned that into over fifteen years of empirical research, long before it became a standalone, internationally used method; Bryn Kenney, who began playing poker online at sixteen, 'long before anyone knew his name,' and whose years of skill-building, developed out of sight, only became visible in 2019 with the largest single cash in poker history."
       },
       {
         titel: "When the natural mask becomes deliberate deception – a harmless facade conceals fraud or crime (shadow form)",
@@ -59447,6 +59504,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-judit-polgar": juditPolgarPortraitPage,
       "beruehmte-annika-von-mutius": annikaVonMutiusPortraitPage,
       "beruehmte-changpeng-zhao": changpengZhaoPortraitPage,
+      "beruehmte-bryn-kenney": brynKenneyPortraitPage,
       "beruehmte-anna-anderson": annaAndersonPortraitPage,
       "beruehmte-peter-falk": peterFalkPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,

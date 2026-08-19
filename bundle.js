@@ -31726,6 +31726,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Changpeng Zhao – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · Kanadisch-chinesischer Unternehmer, Gründer von Binance, der größten Kryptobörse der Welt. Technische Infrastruktur statt Auftritt, radikal eigener Weg außerhalb bestehender Regelwerke. Tierentsprechung: Waschbär.",
     land:"Kanada/China", tags:["Wirtschaft"], gender:"m"},
+  { route:"beruehmte-bryn-kenney", name:"Bryn Kenney", added:"2026-08-19", subtyp:"SE3w4",
+    heading:"Bryn Kenney – Selbsterhaltender Typ 3",
+    teaser:"SE3w4 · US-amerikanischer Profi-Pokerspieler, Nr. 1 der All-Time-Money-List mit rund 90 Mio. Dollar. Größter Einzelgewinn der Pokergeschichte (2019). Selbstbeschreibung als »einsamer Wolf« der Szene. Tierentsprechung: Waschbär.",
+    land:"USA", tags:["Sport"], gender:"m"},
   { route:"beruehmte-madame-tussaud", name:"Madame Tussaud", added:"2026-08-08", subtyp:"SE3w4",
     heading:"Madame Tussaud \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w4 \u00b7 1761\u20131850. Wachsbildnerin, Museumsgr\u00fcnderin. Totenmasken der Guillotine-Opfer w\u00e4hrend der Franz\u00f6sischen Revolution, 33 Jahre Wandertournee durch Gro\u00dfbritannien, das \u201eKabinett des Schreckens\u201c \u2013 der Waschb\u00e4r, der aus reiner \u00dcberlebensfertigkeit ein Weltunternehmen baute. Tierentsprechung: Waschb\u00e4r.",
@@ -43111,7 +43115,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Jahrelange, disziplinierte Übung im Verborgenen, bevor sich Meisterschaft zeigt",
         beschreibung: "Fähigkeiten, die später mühelos wirken, entstehen fast nie über Nacht, sondern über Jahre stiller, oft schmerzhaft konsequenter Wiederholung, lange bevor eine Öffentlichkeit davon erfährt.",
-        beleg: "Lang Lang: ›Der Waschbär lernte früh: Können entsteht nicht durch Talent allein, sondern durch endlose, oft schmerzhafte Wiederholung‹; Judit Polgár, deren Meisterschaft das Ergebnis ›Tausender Trainingsstunden am Brett, lange bevor die Öffentlichkeit von ihr wusste‹ war; Tom Keating, der über zwei Jahrzehnte mehr als 2.000 Gemälde im Stil von rund 100 Meistern schuf – Handwerksbeherrschung, die er bewusst gegen den Kunstmarkt richtete; Penélope Cruz, die sich in klassischem Ballett und dramatischer Kunst ausbilden ließ, bevor sie überhaupt vor die Kamera trat – jahrelanges Training als Fundament, nicht als Fußnote; David L. Rathmer, der mit acht Jahren an das Enneagramm herangeführt wurde und daraus über fünfzehn Jahre empirischer Forschung machte, lange bevor daraus eine eigenständige, international eingesetzte Methode wurde."
+        beleg: "Lang Lang: ›Der Waschbär lernte früh: Können entsteht nicht durch Talent allein, sondern durch endlose, oft schmerzhafte Wiederholung‹; Judit Polgár, deren Meisterschaft das Ergebnis ›Tausender Trainingsstunden am Brett, lange bevor die Öffentlichkeit von ihr wusste‹ war; Tom Keating, der über zwei Jahrzehnte mehr als 2.000 Gemälde im Stil von rund 100 Meistern schuf – Handwerksbeherrschung, die er bewusst gegen den Kunstmarkt richtete; Penélope Cruz, die sich in klassischem Ballett und dramatischer Kunst ausbilden ließ, bevor sie überhaupt vor die Kamera trat – jahrelanges Training als Fundament, nicht als Fußnote; David L. Rathmer, der mit acht Jahren an das Enneagramm herangeführt wurde und daraus über fünfzehn Jahre empirischer Forschung machte, lange bevor daraus eine eigenständige, international eingesetzte Methode wurde; Bryn Kenney, der mit sechzehn Jahren online Poker zu spielen begann, ›lange bevor ihn irgendjemand kannte‹, und dessen jahrelange, im Verborgenen erarbeitete Spielstärke erst 2019 mit dem größten Einzelgewinn der Pokergeschichte sichtbar wurde."
       },
       {
         titel: "Die natürliche Maske wird zur bewussten Täuschung – harmlose Fassade verdeckt Betrug oder Verbrechen (Schattenform)",
@@ -63936,6 +63940,59 @@ function changpengZhaoPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem technischem Handwerk echte Einzigartigkeit zu schöpfen. Zhao baute eine Infrastruktur, die Millionen Menschen weltweit tatsächlich nutzten &ndash; nicht durch Hype, sondern weil das Produkt funktionierte, während zahlreiche Wettbewerber an Sicherheitslücken und Ausfällen scheiterten.</p>
           <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unangreifbar zu gelten, während die eigentliche Substanz nach außen kaum erklärt wird. Der Schatten des Viererflügels zeigte sich hier sehr konkret: Der bewusste Verzicht auf Anpassung an bestehende Regelwerke, der Binance groß gemacht hatte, wurde am Ende zur strafrechtlichen Konsequenz &ndash; ein Muster, das zeigt, wie schmal der Grat zwischen eigenständigem Weg und Regelbruch sein kann.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-annika-von-mutius", label:"Porträt: Dr. Annika von Mutius (SE3w4)"},
+        {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function brynKenneyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-bryn-kenney-portrait.jpg" alt="Bryn Kenney – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bryn Kenney</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Profi-Pokerspieler &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das man leicht unterschätzt. Kein lauter Auftritt, kein Glamour, keine Inszenierung um ihrer selbst willen. Der Waschbär arbeitet mit feinen, geschickten Händen im Verborgenen und wird erst dann sichtbar, wenn man genau hinschaut, was er eigentlich alles kann.</p>
+          <p class="vb-intro">Der US-amerikanische Profi-Pokerspieler Bryn Kenney wurde 1986 in Long Beach, New York, geboren und spielte als Jugendlicher wettkampfmäßig das Strategiekartenspiel Magic: The Gathering &ndash; ein analytisches, tief taktisches Spiel, das seine spätere Herangehensweise an Poker entscheidend prägte. Mit sechzehn begann er, online Poker zu spielen, lange bevor ihn irgendjemand kannte, und erkannte früh, dass er damit sein Geld verdienen konnte. Seinen ersten größeren Live-Gewinn erzielte er 2007 &ndash; Jahre stiller, weitgehend unbeachteter Übung, bevor die Öffentlichkeit von ihm erfuhr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei &ndash; der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em></p>
+          <p class="vb-intro">Eine Woche vor seiner Prüfung zum Immobilienmakler starb seine Großmutter &ndash; ein Wendepunkt, der Kenney klarmachte, dass es für ihn keinen Grund mehr gab, diesen konventionellen Weg weiterzuverfolgen. Er entschied sich für Poker als Profession, nicht aus Rebellion, sondern weil er dort bereits nachweislich etwas konnte. Über Jahrzehnte baute er seine Fähigkeiten in unzähligen Turnieren aus, bis er 2019 beim Triton Million for Charity mit einem zweiten Platz den bis heute größten Einzelgewinn der Pokergeschichte einstrich: über 20,5 Millionen US-Dollar. Seit 2026 führt er die All-Time-Money-List mit rund 90,76 Millionen Dollar Turniergewinnen an &ndash; vor Justin Bonomo und dem langjährigen Spitzenreiter Daniel Negreanu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Der einsame Wolf am Tisch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet mein Weg &ndash; jenseits dessen, was von mir erwartet wird?</em> Kenney beschreibt sich selbst unumwunden als Außenseiter der Szene: &bdquo;Ich bin wie der einsame Wolf in dieser Pokerwelt&ldquo;, sagte er einmal &ndash; eine Selbstbeschreibung, die zeigt, wie sehr er sich als eigenständige, nicht ins übliche Schema passende Figur begreift, selbst innerhalb einer Szene, in der er sportlich an der absoluten Spitze steht.</p>
+          <p class="vb-intro">Sein extravaganter persönlicher Stil &ndash; teure Uhren, auffällige Ketten, unverblümte Ansagen am Tisch &ndash; wirkt auf den ersten Blick wie reine Selbstdarstellung, ist bei genauerem Hinsehen aber eher Ausdruck eines völlig eigenen Maßstabs als der Wunsch, einer Gruppe zu gefallen. Kenney selbst formuliert eine fast schon philosophische Grundhaltung dazu: &bdquo;Meine ganze Lebenserfahrung ist, dass es keinen Traum gab, der zu groß war &ndash; jeder Traum, den ich hatte, wurde Wirklichkeit.&ldquo;</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem Können echte Einzigartigkeit zu schöpfen. Kenneys jahrelange, im Verborgenen erarbeitete Spielstärke führte am Ende zum größten je ausgezahlten Turniergewinn der Pokergeschichte &ndash; kein Zufallstreffer, sondern das Ergebnis von tausenden Stunden Analyse, die niemand von außen sah.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unverwechselbar zu gelten, während die eigene Substanz zugleich hinter einer Fassade aus Understatement oder, wie bei Kenney, hinter demonstrativer Extravaganz verborgen bleibt. Der Schatten des Viererflügels zeigt sich in der Isolation, die das Selbstbild des &bdquo;einsamen Wolfs&ldquo; mit sich bringt: &bdquo;Niemand ist perfekt&ldquo;, räumte Kenney selbst einmal ein &ndash; ein knapper Satz, der andeutet, wie viel Kritik und Reibung ein derart kompromissloser Eigenweg auch nach außen erzeugt.</p>
         </blockquote>
 
       </div>
@@ -93655,6 +93712,7 @@ function render() {
       "beruehmte-judit-polgar": juditPolgarPortraitPage,
       "beruehmte-annika-von-mutius": annikaVonMutiusPortraitPage,
       "beruehmte-changpeng-zhao": changpengZhaoPortraitPage,
+      "beruehmte-bryn-kenney": brynKenneyPortraitPage,
       "beruehmte-anna-anderson": annaAndersonPortraitPage,
       "beruehmte-peter-falk": peterFalkPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
