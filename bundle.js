@@ -35321,6 +35321,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-laurence-frank", name:"Dr. Laurence Frank", subtyp:"SO8w7", tier:"Löwe"},
   {route:"beruehmte-cynthia-moss", name:"Dr. Cynthia Moss", subtyp:"SE9w1", tier:"Elefant"},
   {route:"beruehmte-alan-mcelligott", name:"Dr. Alan McElligott", subtyp:"SO9w1", tier:"Büffel"},
+  {route:"beruehmte-ana-salceda", name:"Ana Salceda", subtyp:"SX9w1", tier:"Faultier"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -53876,7 +53877,7 @@ function alanMcelligottPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Neun: Identität durch Zugehörigkeit zur Herde</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> findet ihre Identität nicht als Einzelperson, sondern in der Verschmelzung mit einer Gruppe, einem Team, einer gemeinsamen Sache. McElligotts gesamte Forschungslaufbahn trägt diese Handschrift: Statt einer Karriere des Alleingangs baute er über Stationen in Zürich, Nottingham, London und schließlich Hongkong immer wieder neue, kollaborative Forschungsteams auf &ndash; sein eigener Hinweis an potenzielle Doktorandinnen und Postdocs, sich jederzeit bei ihm zu melden, zeigt eine einladende, auf Zusammenarbeit ausgelegte Grundhaltung statt akademischer Territorialität.</p>
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> findet ihre Identität nicht als Einzelperson, sondern in der Verschmelzung mit einer Gruppe, einem Team, einer gemeinsamen Sache. McElligotts gesamte Forschungslaufbahn trägt diese Handschrift: Der gebürtige Ire, der Zoologie in Cork und Dublin studierte, baute statt einer Karriere des Alleingangs über Stationen in Zürich, Nottingham, London und schließlich Hongkong immer wieder neue, kollaborative Forschungsteams auf &ndash; sein eigener Hinweis an potenzielle Doktorandinnen und Postdocs, sich jederzeit bei ihm zu melden, zeigt eine einladende, auf Zusammenarbeit ausgelegte Grundhaltung statt akademischer Territorialität.</p>
           <p class="vb-intro">Auch sein Blick auf die Wasserbüffel selbst ist ein sozialer: Es geht ihm nicht um das einzelne, isolierte Tier, sondern um das Beziehungsgeflecht der ganzen Herde &ndash; wer mit wem Zeit verbringt, welche Persönlichkeiten sich anziehen, wie Zusammenhalt entsteht und bewahrt wird. Ein Forscher, der die soziale Struktur einer Gruppe untersucht, weil ihn genau das seit jeher am meisten interessiert.</p>
         </blockquote>
 
@@ -54414,7 +54415,9 @@ function anaSalcedaPortraitPage() {
           {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
           {route:"beruehmte-jane-goodall", label:"Porträt: Jane Goodall (SX9w1)"},
           {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1)"},
+          {route:"tierforscher-uebereinstimmung", label:"Tierforscher-Übereinstimmung: weitere Beispiele"},
         ])}
+        ${animalResearcherMatchBlock("beruehmte-ana-salceda")}
       </div>
     </div>
   `);

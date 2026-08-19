@@ -4849,6 +4849,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-laurence-frank", name:"Dr. Laurence Frank", subtyp:"SO8w7", tier:"Lion"},
   {route:"beruehmte-cynthia-moss", name:"Dr. Cynthia Moss", subtyp:"SE9w1", tier:"Elephant"},
   {route:"beruehmte-alan-mcelligott", name:"Dr. Alan McElligott", subtyp:"SO9w1", tier:"Buffalo"},
+  {route:"beruehmte-ana-salceda", name:"Ana Salceda", subtyp:"SX9w1", tier:"Sloth"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -31421,7 +31422,7 @@ function alanMcelligottPortraitPage() {
 
         <h2 class="vb-section">2. The Social Nine: Identity Through Belonging to the Herd</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Social Nine (SO9)</strong> finds its identity not as an individual, but by merging with a group, a team, a shared cause. McElligott's entire research career bears this signature: instead of a career of going it alone, he repeatedly built new, collaborative research teams across stops in Zurich, Nottingham, London, and finally Hong Kong &ndash; his own note to prospective PhD and postdoc candidates that they are always welcome to get in touch shows a welcoming, cooperation-oriented stance rather than academic territorialism.</p>
+          <p class="vb-intro">The <strong>Social Nine (SO9)</strong> finds its identity not as an individual, but by merging with a group, a team, a shared cause. McElligott's entire research career bears this signature: Irish by birth, and educated in zoology in Cork and Dublin, he built, instead of a career of going it alone, repeatedly new, collaborative research teams across stops in Zurich, Nottingham, London, and finally Hong Kong &ndash; his own note to prospective PhD and postdoc candidates that they are always welcome to get in touch shows a welcoming, cooperation-oriented stance rather than academic territorialism.</p>
           <p class="vb-intro">His view of the water buffalo themselves is likewise a social one: he is not concerned with the single, isolated animal, but with the web of relationships across the whole herd &ndash; who spends time with whom, which personalities are drawn to each other, how cohesion arises and is maintained. A researcher who studies the social structure of a group because that, above all, has always fascinated him most.</p>
         </blockquote>
 
@@ -31829,7 +31830,9 @@ function anaSalcedaPortraitPage() {
           {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
           {route:"beruehmte-jane-goodall", label:"Portrait: Jane Goodall (SX9w1)"},
           {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1)"},
+          {route:"tierforscher-uebereinstimmung", label:"Animal-Researcher Correspondence: more examples"},
         ])}
+        ${animalResearcherMatchBlock("beruehmte-ana-salceda")}
       </div>
     </div>
   `);
