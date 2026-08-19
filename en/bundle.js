@@ -1288,6 +1288,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Laozi (Lao Tzu) – Self-Preservation Type 9",
     teaser:"SE9w1 · c. 6th century BCE (legendary). Philosopher, founder of Daoism, traditionally credited as author of the Tao Te Ching. According to legend, he finally rode a black ox into the desert and vanished. The elephant that lets go of what it no longer needs to carry – wu wei as the Nine's highest expression.",
     tags:["Philosophy","Religion"]},
+{ route:"beruehmte-cynthia-moss", name:"Dr. Cynthia Moss", added:"2026-08-19", subtyp:"SE9w1",
+    heading:"Dr. Cynthia Moss – Self-Preservation Type 9",
+    teaser:"SE9w1 · b. 1940. Behavioral ecologist, founder of the Amboseli Elephant Research Project in 1972, over 50 years of unbroken observation of the same elephant families. The 'Grande Dame of elephant research.' The elephant who spent her whole life with elephants.",
+    tags:["Wissenschaft"], gender:"f"},
 { route:"beruehmte-thomas-von-aquin", name:"Thomas Aquinas", added:"2026-08-14", subtyp:"SE9w8",
     heading:"Thomas Aquinas – Self-Preservation Type 9",
     teaser:"SE9w8 · c. 1225–1274. Italian theologian and philosopher, Summa Theologica, founder of Thomism. The 'dumb ox' who endured a year of captivity unmoved. The elephant with the Eight-wing: calm as daily practice, unyielding at the decisive moment. Animal correspondence: Elephant.",
@@ -4839,6 +4843,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-paris-hilton", name:"Paris Hilton", subtyp:"SX4w3", tier:"Chihuahua"},
   {route:"beruehmte-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", tier:"Dove"},
   {route:"beruehmte-laurence-frank", name:"Dr. Laurence Frank", subtyp:"SO8w7", tier:"Lion"},
+  {route:"beruehmte-cynthia-moss", name:"Dr. Cynthia Moss", subtyp:"SE9w1", tier:"Elephant"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -21374,7 +21379,70 @@ function laoziPortraitPage() {
         {route:"subtype/se9", label:"SE9 – The Elephant: Subtype profile"},
         {route:"beruehmte-buddha", label:"Portrait: Siddhartha Gautama (Buddha) (SX5w4)"},
         {route:"beruehmte-konfuzius", label:"Portrait: Confucius (Kong Fuzi) (SO1w2)"},
+        {route:"beruehmte-cynthia-moss", label:"Portrait: Dr. Cynthia Moss (SE9w1)"},
       ])}
+    </div>
+  `);
+}
+
+function cynthiaMossPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-cynthia-moss-portrait.jpg" alt="Elephant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Cynthia Moss</p>
+        <p class="krim-portrait-typ">SE9w1 &middot; Self-Preservation Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Behavioral ecologist, born 1940 &ndash; founder of the Amboseli Elephant Research Project &ndash; Animal correspondence: Elephant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant Who Stayed with the Elephants for a Lifetime</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>elephant</strong> is the animal of the Self-Preservation Nine &ndash; majestic, deeply grounded, peaceful, carried by wisdom, memory, and unshakeable loyalty, working steadily in the background rather than pushing itself to the front. Dr. Cynthia Moss embodies this principle so completely that there is hardly a more fitting image in this compass: the American behavioral ecologist is regarded as the undisputed grande dame of elephant research.</p>
+          <p class="vb-intro">In 1972, together with Harvey Croze, she founded the Amboseli Elephant Research Project in Kenya &ndash; and still directs it today, more than fifty years later. She has followed individual elephant families and their matriarchs continuously for over five decades: the same animals, the same region, the same quiet, unshakeable focus, decade after decade. This is not one career among several. It is a single, undivided life's work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Nine: Constancy as a Way of Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Nine (SE9)</strong> seeks peace and security through constancy, through the familiar, through patiently staying with what has proven right. Moss lives this principle with a radicalness rare even among field researchers: asked who has had the greatest influence on her life, she simply answers with the name of an elephant &ndash; Echo, a matriarch she followed for decades.</p>
+          <p class="vb-intro">'I cannot imagine leaving the elephants. They mean everything to me,' Moss says of herself &ndash; a sentence that speaks less of scientific ambition than of a deep, steady bond carrying an entire life. Books like <em>Elephant Memories</em> made the world aware for the first time of how deep elephants' emotional lives, grief, and social intelligence run &ndash; not through spectacular single observations, but through decades of patient continuity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Principled Consistency Instead of Confrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Self-Preservation Nine a clear, methodical adherence to principle &ndash; unlike the more confrontational, impulsive Eight-wing. Moss states her positions on elephant protection unmistakably and directly: asked about the threat level, she answers simply 'Yes, I do,' and she demands outright that governments ban all sales of ivory. Yet this clarity expresses itself not as loud confrontation, but as persistent, institutional work through organizations and scientific channels &ndash; coalitions built over decades rather than single dramatic gestures.</p>
+          <p class="vb-intro">That is exactly the difference from the Eight-wing: where an SE9w8 would intervene more from the gut and with greater force, Moss works methodically, carefully, evidence-based &ndash; a scientific rigor sustained for over fifty years that does not waver even when her position is politically inconvenient. Adherence to principle, not confrontation, is her instrument.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SE9w1 is the ability to <strong>devote an entire life, undivided, to a single, constant subject</strong> &ndash; Moss's research fundamentally changed how the world thinks about elephants' inner lives, and her Amboseli project is today the longest continuous study of free-living elephants in existence.</p>
+          <p class="vb-intro">The shadow shows in the flip side of this constancy: a life organized almost entirely around a single subject, a single place, the same few familiar beings. Where others change careers, subjects, or regions to keep developing, the SE9w1 stays where trust has already grown &ndash; a strength that is at the same time a deliberate refusal of everything new and unfamiliar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Elephant Who Never Left the Elephants</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Cynthia Moss gives the world is not only scientific knowledge about a species, but living proof that constancy itself can be a form of greatness. Her life's work shows how a single subject, patiently pursued over half a century, carries deeper than any short-lived variety.</p>
+          <p class="vb-intro">In the end, one image remains that reads almost like living proof for this compass: a woman whose archetypal animal is the elephant, who spent her entire adult life in step with exactly these peaceful, deeply grounded giants &ndash; not through distance and change, but through half a century of unbroken, loyal presence.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se9", label:"SE9 – The Elephant: Subtype profile"},
+        {route:"lebensmusterkompass/se9", label:"Life Pattern Compass: SE9 – Elephant"},
+        {route:"beruehmte-laozi", label:"Portrait: Laozi (Lao Tzu) (SE9w1)"},
+        {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SE9w1)"},
+        {route:"tierforscher-uebereinstimmung", label:"Animal-Researcher Correspondence: more examples"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-cynthia-moss")}
     </div>
   `);
 }
@@ -36672,12 +36740,12 @@ const LEBENSMUSTERKOMPASS = {
   SE9: {
     tier: "Elephant",
     kernthema: "Calm, weighty presence instead of volume – once in motion, nothing stops it (Naranjo: Appetite)",
-    beispiele: ["James Levine", "Bärbel Bas", "Ludwig Erhard", "Laozi (Lao Tzu)", "Angela Merkel", "Carmen Goglin", "Gina Rinehart", "Thomas Aquinas", "David Hume", "Hans-Dietrich Genscher", "Abida Parveen", "Johannes Brahms", "Alfons Schuhbeck"],
+    beispiele: ["James Levine", "Bärbel Bas", "Ludwig Erhard", "Laozi (Lao Tzu)", "Angela Merkel", "Carmen Goglin", "Gina Rinehart", "Thomas Aquinas", "David Hume", "Hans-Dietrich Genscher", "Abida Parveen", "Johannes Brahms", "Alfons Schuhbeck", "Dr. Cynthia Moss"],
     fingerabdruecke: [
       {
         titel: "Calm, weighty presence instead of volume",
         beschreibung: "Impact arises not from talking or performing, but from mere, weighty presence – the room changes without a single word being necessary.",
-        beleg: "James Levine: 'He needs no action to have an effect. It's enough that he's there'; Angela Merkel: 'A presence that arises not from volume, but from weight ... She rarely spoke loudly. She made no grand gestures'; Thomas Aquinas, nicknamed 'the dumb ox,' about whom his teacher said: 'His bellowing in teaching will one day fill the whole world.'; Bärbel Bas, who as President of the Bundestag stands out through reliability and persistent efforts toward order rather than grand gestures; David Hume, who questioned the foundations of the world while remaining remarkably unruffled – 'le bon David' even among those who considered his ideas dangerous."
+        beleg: "James Levine: 'He needs no action to have an effect. It's enough that he's there'; Angela Merkel: 'A presence that arises not from volume, but from weight ... She rarely spoke loudly. She made no grand gestures'; Thomas Aquinas, nicknamed 'the dumb ox,' about whom his teacher said: 'His bellowing in teaching will one day fill the whole world.'; Bärbel Bas, who as President of the Bundestag stands out through reliability and persistent efforts toward order rather than grand gestures; David Hume, who questioned the foundations of the world while remaining remarkably unruffled – 'le bon David' even among those who considered his ideas dangerous; Dr. Cynthia Moss, who followed the same elephant families for over fifty years without ever standing out through spectacular individual actions – impact through quiet, patient continuity rather than performance."
       },
       {
         titel: "Once in motion, nothing stops it anymore",
@@ -58716,6 +58784,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,
+      "beruehmte-cynthia-moss": cynthiaMossPortraitPage,
       "beruehmte-greta-garbo": gretaGarboPortraitPage,
       "beruehmte-buddha": buddhaPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
