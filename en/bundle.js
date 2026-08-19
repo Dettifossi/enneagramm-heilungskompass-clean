@@ -29535,7 +29535,7 @@ function jillPruetzPortraitPage() {
 
         <h2 class="vb-section">5. The chimpanzee who revealed the chimpanzee's tool use</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">What Pruetz gives the world is proof that tool use and purposeful hunting are not purely human abilities &ndash; a discovery that places her alongside Frans de Waal and Christophe Boesch, the two other great Sexual Sevens of chimpanzee research, each in their own unmistakable way.</p>
+          <p class="vb-intro">What Pruetz gives the world is proof that tool use and purposeful hunting are not purely human abilities &ndash; a discovery that places her alongside Frans de Waal (SX7w6) and Christophe Boesch (SX7w8), the two other great Sexual Sevens of chimpanzee research, each in their own unmistakable way and individual wing expression.</p>
           <p class="vb-intro">In the end, one image remains that could hardly fit the Sexual Seven with a Six-wing more fittingly: a woman whose archetypal animal is the chimpanzee, who ventured into the harshest terrain to find the most surprising behaviour of this animal &ndash; carried by trust, not confrontation, and, apparently unconsciously, studying her own deepest archetypal pattern along the way.</p>
         </blockquote>
 
