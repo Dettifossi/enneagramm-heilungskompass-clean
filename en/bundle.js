@@ -54952,6 +54952,7 @@ function psychosomatikPage() {
       <div style="max-width:640px;margin-top:0.6rem;">
         ${sections}
       </div>
+      <img src="../assets/schaubilder/psychosomatik-register-beratung.jpg" alt="Consultation session with the Enneagram symbol and anatomical models on the table" loading="lazy" style="width:100%;max-width:640px;border-radius:14px;margin:1.6rem 0 1.3rem;box-shadow:0 4px 18px rgba(0,0,0,.12);display:block;">
       ${_psychosomatikBuecherHtml()}
       ${relatedLinks([
         {route:"healing", label:"Healing Compass"},
