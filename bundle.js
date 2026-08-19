@@ -47158,7 +47158,7 @@ function jasminPaoliniPortraitPage() {
         <h2 class="vb-section">1. Der Gorilla</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; und er \u00fcberrascht, weil man ihn beim ersten Hinsehen nicht mit Leichtigkeit verbindet. Der Gorilla ist m\u00e4chtig, ruhig und zutiefst familienorientiert. Er lebt im engen Verband, pflegt Bindungen, sch\u00fctzt sein Rudel. Er sucht keine Konfrontation &ndash; aber weicht ihr auch nicht aus, wenn es darauf ankommt. Seine St\u00e4rke ist keine Aggression. Sie ist Verl\u00e4sslichkeit.</p>
-          <p class="vb-intro">Jasmine Paolini ist dieser Gorilla. Auf dem Platz: explosiv, kampfstark, unerm\u00fcdlich. Abseits davon: warm, lachend, famili\u00e4r. Sie feiert Siege mit einer Offenheit, die ansteckt, und tr\u00e4gt Niederlagen mit einer W\u00fcrde, die beeindruckt. Der Gorilla tanzt nicht &ndash; aber wenn er l\u00e4chelt, leuchtet der ganze Wald.</p>
+          <p class="vb-intro">Die italienische Tennisspielerin Jasmine Paolini ist dieser Gorilla. Auf dem Platz: explosiv, kampfstark, unerm\u00fcdlich. Abseits davon: warm, lachend, famili\u00e4r. Sie feiert Siege mit einer Offenheit, die ansteckt, und tr\u00e4gt Niederlagen mit einer W\u00fcrde, die beeindruckt. Der Gorilla tanzt nicht &ndash; aber wenn er l\u00e4chelt, leuchtet der ganze Wald.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude als Heimat</h2>
@@ -47644,7 +47644,7 @@ function borisBeckerPortraitPage() {
         <h2 class="vb-section">1. Der Schimpanse</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 &ndash; und Boris Becker ist ein Schimpanse in seiner reinsten, st\u00fcrmischsten Form. Der Schimpanse braucht Intensit\u00e4t: Wettkampf, Kontakt, Triumph. Er lebt im Jetzt, geht volles Risiko und liebt das Spiel mehr als den Plan. 1985, mit 17 Jahren, betrat Boris Becker den Centre Court in Wimbledon als Unbekannter &ndash; und verlie\u00df ihn als j\u00fcngsten Wimbledon-Sieger aller Zeiten. Der Schimpanse hatte zugeschlagen. Und die Welt schaute zu.</p>
-          <p class="vb-intro">Was den Schimpansen ausmacht, ist nicht seine Kraft allein &ndash; es ist seine Unmittelbarkeit. Boris Becker war nie ein taktischer Spieler. Er war ein explosiver. Sein Aufschlag war Donner, sein Netzangriff war Risiko, sein Spiel war Spektakel. Das ist der Schimpanse in voller Entfaltung: kein Kalk\u00fcl, kein Z\u00f6gern &ndash; nur der Moment, der alles ist.</p>
+          <p class="vb-intro">Was den Schimpansen ausmacht, ist nicht seine Kraft allein &ndash; es ist seine Unmittelbarkeit. Der deutsche Tennisspieler Boris Becker war nie ein taktischer Spieler. Er war ein explosiver. Sein Aufschlag war Donner, sein Netzangriff war Risiko, sein Spiel war Spektakel. Das ist der Schimpanse in voller Entfaltung: kein Kalk\u00fcl, kein Z\u00f6gern &ndash; nur der Moment, der alles ist.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Sieben: Intensit\u00e4t als Identit\u00e4t</h2>
@@ -48333,7 +48333,7 @@ function ingoZimmermannPortraitPage() {
         <h2 class="vb-section">1. Die Eule, die ihre eigene Tierentsprechung auf der Schulter trägt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>Eule</strong> ist das Tier der selbsterhaltenden Fünf &ndash; sie hortet ihre Energie, reguliert Nähe und Distanz mit großer Sorgfalt, und zeigt sich der Welt nur dort, wo sie sich wirklich sicher fühlt. Kaum ein lebendes Beispiel macht dieses Prinzip so unmittelbar sichtbar wie Prof. Dr. Ingo Zimmermann: Der Professor für Soziale Arbeit und psychologischer Psychotherapeut bringt regelmäßig einen Waldkauz namens Hugo &ndash; eine Eulenart &ndash; mit in den Hörsaal &ndash; ein Mann, dessen archetypisches Tier die Eule ist, der sie ganz offensichtlich unbewusst in sich selbst erkannt hat und sie seit Jahren buchstäblich an seiner Seite trägt.</p>
-          <p class="vb-intro">Hugo wurde von seinen Elterntieren verlassen und von Zimmermann ab dem zehnten Lebenstag von Hand aufgezogen &ndash; eine jahrelange, geduldige Bindungsarbeit, aus der eine außergewöhnlich enge Vertrautheit zwischen Mensch und einem von Natur aus scheuen Tier entstand. Diese Beharrlichkeit, über Jahre an einer einzigen, tiefen Verbindung zu arbeiten, statt sich in vielen oberflächlichen Kontakten zu verlieren, ist selbst schon ein Fünfer-Muster.</p>
+          <p class="vb-intro">Hugo wurde von seinen Elterntieren verlassen und vom deutschen Verhaltensforscher Zimmermann ab dem zehnten Lebenstag von Hand aufgezogen &ndash; eine jahrelange, geduldige Bindungsarbeit, aus der eine außergewöhnlich enge Vertrautheit zwischen Mensch und einem von Natur aus scheuen Tier entstand. Diese Beharrlichkeit, über Jahre an einer einzigen, tiefen Verbindung zu arbeiten, statt sich in vielen oberflächlichen Kontakten zu verlieren, ist selbst schon ein Fünfer-Muster.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Fünf: Nähe und Distanz als Fachgebiet</h2>
@@ -48522,7 +48522,7 @@ function johnWaynePortraitPage() {
         <h2 class="vb-section">1. Das Krokodil, das eine ganze Leinwand füllte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier der sexuellen Acht &ndash; massiv, unübersehbar, mit einer Präsenz, die den gesamten Raum beherrscht, sobald es sich zeigt. Kaum ein Schauspieler verkörperte dieses Prinzip so vollständig wie John Wayne: 1,93 Meter groß, weit über 100 Kilogramm schwer auf dem Höhepunkt seiner Karriere, überragte er buchstäblich jede Szene, in der er auftrat. Ob Sprechen, Fluchen oder Kämpfen &ndash; alles geschah bei ihm mit voller Wucht, nie halbherzig.</p>
-          <p class="vb-intro">Mit über 170 Filmen und dem endgültigen Durchbruch 1939 in "Stagecoach" unter Regisseur John Ford wurde Wayne zur Verkörperung des unbeugsamen amerikanischen Western- und Kriegshelden &ndash; ein Symbol, das weit über das Kino hinaus zum Sinnbild eines ganzen Landes wurde.</p>
+          <p class="vb-intro">Mit über 170 Filmen und dem endgültigen Durchbruch 1939 in "Stagecoach" unter Regisseur John Ford wurde der US-amerikanische Schauspieler Wayne zur Verkörperung des unbeugsamen amerikanischen Western- und Kriegshelden &ndash; ein Symbol, das weit über das Kino hinaus zum Sinnbild eines ganzen Landes wurde.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Acht: Rohe Kraft als Ausdrucksmittel</h2>
@@ -49465,7 +49465,7 @@ function umbertEcoPortraitPage() {
         <h2 class="vb-section">1. Der Orang-Utan</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier des selbsterhaltenden Typs 8 &ndash; und kein Bild trifft Umberto Eco genauer. Der Orang-Utan ist der solit\u00e4rste der Menschenaffen: Er braucht kein Rudel. Er bewegt sich langsam, bed\u00e4chtig, mit einer W\u00fcrde, die keine Eile kennt. Sein Werkzeuggebrauch ist legend\u00e4r. Er ist der Einzige unter den Affen, der Jahrzehnte alte Kenntnisse \u00fcber Nahrungsquellen in einem bestimmten Revier speichert &ndash; ein wandelndes Archiv.</p>
-          <p class="vb-intro">Umberto Eco besa\u00df \u00fcber 30.000 B\u00fccher. Nicht als Dekoration, sondern als Denkinstrument. Er nannte es seine <em>Antibibliothek</em>: die B\u00fccher, die man noch nicht gelesen hat, seien wichtiger als die gelesenen &ndash; denn sie erinnern an alles, was man noch nicht wei\u00df. Der Orang-Utan thront in seinem Baum, umgeben von dem, was er angesammelt hat. Und er l\u00e4chelt, wenn andere fragen, ob er das alles wirklich gelesen hat.</p>
+          <p class="vb-intro">Der italienische Schriftsteller Umberto Eco besa\u00df \u00fcber 30.000 B\u00fccher. Nicht als Dekoration, sondern als Denkinstrument. Er nannte es seine <em>Antibibliothek</em>: die B\u00fccher, die man noch nicht gelesen hat, seien wichtiger als die gelesenen &ndash; denn sie erinnern an alles, was man noch nicht wei\u00df. Der Orang-Utan thront in seinem Baum, umgeben von dem, was er angesammelt hat. Und er l\u00e4chelt, wenn andere fragen, ob er das alles wirklich gelesen hat.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Acht: Lust als Lebensphilosophie</h2>
@@ -49725,7 +49725,7 @@ function toniMorrisonPortraitPage() {
         <h2 class="vb-section">1. Der Orang-Utan</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier des selbsterhaltenden Typs 8 &ndash; und kein Bild passt besser zu Toni Morrison. Der Orang-Utan ist der solit\u00e4rste der Menschenaffen: Er braucht kein Rudel, keine Best\u00e4tigung, keine Zuschauer. Er lebt auf seine eigene Weise, in seinem eigenen Rhythmus, mit einer W\u00fcrde, die nicht erkl\u00e4rt werden muss. Sein Blick ist ruhig und tief zugleich &ndash; der Blick eines Wesens, das schon viel gesehen hat und nichts davon verdr\u00e4ngt.</p>
-          <p class="vb-intro">Toni Morrison schrieb \u00fcber das, was Amerika verdr\u00e4ngt hatte. Die Sklaverei, die Dem\u00fctigung, das Schweigen der \u00dcberlebenden. Sie tat das nicht anklagend oder hysterisch, sondern mit der Ruhe des Orang-Utans: geerdet, geduldig, unausweichlich. Wer ihren B\u00fcchern begegnet, kommt nicht unbesch\u00e4digt heraus &ndash; und das war ihre Absicht.</p>
+          <p class="vb-intro">Die US-amerikanische Schriftstellerin Toni Morrison schrieb \u00fcber das, was Amerika verdr\u00e4ngt hatte. Die Sklaverei, die Dem\u00fctigung, das Schweigen der \u00dcberlebenden. Sie tat das nicht anklagend oder hysterisch, sondern mit der Ruhe des Orang-Utans: geerdet, geduldig, unausweichlich. Wer ihren B\u00fcchern begegnet, kommt nicht unbesch\u00e4digt heraus &ndash; und das war ihre Absicht.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Acht: Satisfaktion</h2>
@@ -53668,7 +53668,7 @@ function peterFalkPortraitPage() {
         <h2 class="vb-section">1. Der Büffel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier des sozialen Typs 9 – ein Tier, das nie durch Angriffslust auffällt, sondern durch sein bloßes, unaufgeregtes Dasein Wirkung entfaltet. Er bewegt sich langsam, wirkt schwerfällig, fast harmlos – und ist doch das Tier, dem auf der Prärie am wenigsten jemand freiwillig im Weg steht. Kaum ein Schauspieler verkörperte dieses Bild so treffend wie Peter Falk, und kaum eine Rolle machte es so sichtbar wie seine berühmteste: der Detective Columbo, im zerknitterten Trenchcoat, mit halb gerauchter Zigarre und einem alten Peugeot, der ständig kaputtzugehen scheint.</p>
-          <p class="vb-intro">Von 1968 bis 2003 spielte Falk diesen Mann in insgesamt 69 Folgen – einen Ermittler, der nie brüllt, nie droht, nie mit gezogener Waffe auftritt. Sein einziges Werkzeug ist Geduld. Der Büffel wirkt, als könnte man ihn beiseiteschieben. Man irrt sich jedes Mal – und diese Rolle passte auf Falk so genau, dass viele bis heute glauben, er habe darin kaum gespielt, sondern einfach sich selbst gezeigt.</p>
+          <p class="vb-intro">Von 1968 bis 2003 spielte der US-amerikanische Schauspieler Peter Falk diesen Mann in insgesamt 69 Folgen – einen Ermittler, der nie brüllt, nie droht, nie mit gezogener Waffe auftritt. Sein einziges Werkzeug ist Geduld. Der Büffel wirkt, als könnte man ihn beiseiteschieben. Man irrt sich jedes Mal – und diese Rolle passte auf Falk so genau, dass viele bis heute glauben, er habe darin kaum gespielt, sondern einfach sich selbst gezeigt.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Neun: Gleich unter Ungleichen</h2>
@@ -54438,7 +54438,7 @@ function craigFosterPortraitPage() {
         <h2 class="vb-section">1. Das Faultier</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun &ndash; ein Tier, das nichts erzwingt, sondern wartet, bis die Welt sich ihm von selbst zeigt. Craig Foster, aufgewachsen in einem Bungalow wenige Schritte vom Meer entfernt am Kap der Guten Hoffnung, verbrachte seine Kindheit damit, Gezeitentümpel nach Krebsen, Fischen und alten Artefakten zu durchsuchen &ndash; sein erster Tauchgang fand im Alter von drei Jahren statt. Er nannte diesen Küstenstreifen später seinen &bdquo;magischen Kindheitswald&ldquo;.</p>
-          <p class="vb-intro">Weltbekannt wurde er als Regisseur und Hauptfigur des Dokumentarfilms &bdquo;My Octopus Teacher&ldquo; (2020), der ein Jahr seiner täglichen Begegnungen mit einem wilden Oktopus in einem südafrikanischen Tangwald zeigt &ndash; und 2021 den Oscar als bester Dokumentarfilm gewann.</p>
+          <p class="vb-intro">Der s\xfcdafrikanische Craig Foster wurde weltbekannt als Regisseur und Hauptfigur des Dokumentarfilms &bdquo;My Octopus Teacher&ldquo; (2020), der ein Jahr seiner täglichen Begegnungen mit einem wilden Oktopus in einem südafrikanischen Tangwald zeigt &ndash; und 2021 den Oscar als bester Dokumentarfilm gewann.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung als Heilung</h2>
@@ -54757,7 +54757,7 @@ function willyBrandtPortraitPage() {
         <h2 class="vb-section">1. Der B\u00fcffel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>B\u00fcffel</strong> ist das Tier des sozialen Typs 9 &ndash; und kaum eine Pers\u00f6nlichkeit des 20. Jahrhunderts verk\u00f6rpert dieses Bild so vollst\u00e4ndig wie Willy Brandt. Der B\u00fcffel ist ein Tier der Herde: gro\u00df, geerdet, still im Inneren. Er trumpft nicht auf, er dominiert nicht durch L\u00e4rm. Er ist einfach da &ndash; massiv, verl\u00e4sslich, unersch\u00fctterlich. Und wenn er sich in Bewegung setzt, h\u00e4lt ihn nichts auf.</p>
-          <p class="vb-intro">Am 7. Dezember 1970 kniete Willy Brandt vor dem Mahnmal des Warschauer Ghettos. Kein Wort. Keine Geste des \u00dcberlegens &ndash; er lie\u00df sich einfach nieder, im Regen, auf den Knien, und schwieg. Minuten lang. Das war kein diplomatischer Akt, kein Protokoll, keine Regieanweisung. Es war ein B\u00fcffel, der sich vor dem beugte, was war &ndash; und damit ein ganzes Volk repr\u00e4sentierte. Dieser Kniefall ging um die Welt. Er ist auch heute noch eines der m\u00e4chtigsten Bilder der deutschen Nachkriegsgeschichte.</p>
+          <p class="vb-intro">Am 7. Dezember 1970 kniete der deutsche Politiker Willy Brandt vor dem Mahnmal des Warschauer Ghettos. Kein Wort. Keine Geste des \u00dcberlegens &ndash; er lie\u00df sich einfach nieder, im Regen, auf den Knien, und schwieg. Minuten lang. Das war kein diplomatischer Akt, kein Protokoll, keine Regieanweisung. Es war ein B\u00fcffel, der sich vor dem beugte, was war &ndash; und damit ein ganzes Volk repr\u00e4sentierte. Dieser Kniefall ging um die Welt. Er ist auch heute noch eines der m\u00e4chtigsten Bilder der deutschen Nachkriegsgeschichte.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Neun: Partizipation</h2>
@@ -55064,7 +55064,7 @@ function jamesCordenPortraitPage() {
         <h2 class="vb-section">1. Das Erdm\u00e4nnchen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Erdm\u00e4nnchen</strong> lebt nicht f\u00fcr sich allein. Es lebt f\u00fcr die Gruppe, mit der Gruppe, durch die Gruppe. Es ist selten das gr\u00f6\u00dfte Tier im Rudel, aber immer das, das am meisten daf\u00fcr tut, dass alle zusammenbleiben. Es organisiert, es sorgt sich, es holt andere mit ins Boot &ndash; oder, in diesem Fall, mit ins Auto.</p>
-          <p class="vb-intro">James Corden hat aus genau diesem Impuls ein Weltformat gemacht: In \u2039Carpool Karaoke\u203a setzt er sich mit den gr\u00f6\u00dften Popstars der Welt in ein Auto, singt mit ihnen mit, lacht mit ihnen, macht aus einer Autofahrt einen gemeinsamen Moment, den Millionen Menschen mitf\u00fchlen. Kein Interview im klassischen Sinn, sondern eine Einladung: Komm rein, sing mit, sei Teil davon. Das ist das Erdm\u00e4nnchen bei der Arbeit &ndash; es holt die Gruppe zusammen, auch wenn die Gruppe gerade aus einem Weltstar und einer Kamera besteht.</p>
+          <p class="vb-intro">Der britische Moderator James Corden hat aus genau diesem Impuls ein Weltformat gemacht: In \u2039Carpool Karaoke\u203a setzt er sich mit den gr\u00f6\u00dften Popstars der Welt in ein Auto, singt mit ihnen mit, lacht mit ihnen, macht aus einer Autofahrt einen gemeinsamen Moment, den Millionen Menschen mitf\u00fchlen. Kein Interview im klassischen Sinn, sondern eine Einladung: Komm rein, sing mit, sei Teil davon. Das ist das Erdm\u00e4nnchen bei der Arbeit &ndash; es holt die Gruppe zusammen, auch wenn die Gruppe gerade aus einem Weltstar und einer Kamera besteht.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Sechs: Zugeh\u00f6rigkeit als B\u00fchne</h2>
@@ -55343,7 +55343,7 @@ function andyReidPortraitPage() {
         <h2 class="vb-section">1. Das Erdm\u00e4nnchen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Erdm\u00e4nnchen</strong> lebt f\u00fcr die Gruppe und in klaren Rollen. Ein Tier h\u00e4lt Wache, w\u00e4hrend die anderen graben, fressen, spielen &ndash; und wechselt sich mit den anderen ab, ohne dass es je Chaos gibt. Es ist kein Einzelg\u00e4nger, es ist ein Systemwesen. Andy Reid steht seit \u00fcber drei\u00dfig Jahren an der Seitenlinie amerikanischer Football-Stadien &ndash; im selben karierten Kurzarmhemd, mit demselben Cheeseburger-L\u00e4cheln, mit demselben dicken Ordner voller Spielz\u00fcge unter dem Arm. Kein Trainer der NFL-Geschichte hat mehr Spiele gewonnen. Und kaum einer wirkt dabei so unaufgeregt.</p>
-          <p class="vb-intro">Reid schreit nicht an der Seitenlinie, er inszeniert sich nicht als Feldherr. Er steht da, den Spielzugkatalog in der Hand, und beobachtet. Das ist das Erdm\u00e4nnchen: nicht das lauteste Tier im Rudel, sondern dasjenige, das am l\u00e4ngsten und zuverl\u00e4ssigsten Wache h\u00e4lt &ndash; f\u00fcr ein System, das gr\u00f6\u00dfer ist als es selbst.</p>
+          <p class="vb-intro">Der US-amerikanische Trainer Andy Reid schreit nicht an der Seitenlinie, er inszeniert sich nicht als Feldherr. Er steht da, den Spielzugkatalog in der Hand, und beobachtet. Das ist das Erdm\u00e4nnchen: nicht das lauteste Tier im Rudel, sondern dasjenige, das am l\u00e4ngsten und zuverl\u00e4ssigsten Wache h\u00e4lt &ndash; f\u00fcr ein System, das gr\u00f6\u00dfer ist als es selbst.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die Pflicht: Sicherheit durch Struktur</h2>
@@ -59887,7 +59887,7 @@ function romulusWhitakerPortraitPage() {
         <h2 class="vb-section">1. Die Schwarze Mamba</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; blitzschnell, pr\xe4zise, kompromisslos, ganz auf ein einziges Gesetz konzentriert. Romulus Whitaker, in den USA geboren und seit seinem achten Lebensjahr in Indien aufgewachsen, gilt als &bdquo;The Snakeman of India&ldquo; und wurde mit dem Padma Shri geehrt, einem der h\xf6chsten zivilen Orden Indiens.</p>
-          <p class="vb-intro">Eine ehrliche Anmerkung vorab, \xe4hnlich wie schon bei Dr. Peter Sharpe (SE1w9) und dem Steinadler versus Wei\xdfkopfseeadler: Whitakers eigentliches Lebenswerk kreist vor allem um die K\xf6nigskobra &ndash; die Agumbe Rainforest Research Station, die er 2005 gr\xfcndete, ist heute weltweit f\xfchrend in der K\xf6nigskobra-Forschung. Die exakte Art unterscheidet sich damit von seiner Tierentsprechung Schwarze Mamba. Doch wie beim Adler gilt auch bei Schlangen: Das Enneagramm unterscheidet hier nicht nach Spezies, sondern nach dem archetypischen Prinzip der Schlange selbst &ndash; blitzschnell, pr\xe4zise, unbestechlich in ihrem eigenen Gesetz. Und genau dieses Prinzip verk\xf6rpert Whitaker \xfcber sein gesamtes Lebenswerk hinweg, unabh\xe4ngig von der einzelnen Art.</p>
+          <p class="vb-intro">Eine ehrliche Anmerkung vorab, \xe4hnlich wie schon bei Dr. Peter Sharpe (SE1w9) und dem Steinadler versus Wei\xdfkopfseeadler: Das eigentliche Lebenswerk des US-amerikanisch-indischen Herpetologen Romulus Whitaker kreist vor allem um die K\xf6nigskobra &ndash; die Agumbe Rainforest Research Station, die er 2005 gr\xfcndete, ist heute weltweit f\xfchrend in der K\xf6nigskobra-Forschung. Die exakte Art unterscheidet sich damit von seiner Tierentsprechung Schwarze Mamba. Doch wie beim Adler gilt auch bei Schlangen: Das Enneagramm unterscheidet hier nicht nach Spezies, sondern nach dem archetypischen Prinzip der Schlange selbst &ndash; blitzschnell, pr\xe4zise, unbestechlich in ihrem eigenen Gesetz. Und genau dieses Prinzip verk\xf6rpert Whitaker \xfcber sein gesamtes Lebenswerk hinweg, unabh\xe4ngig von der einzelnen Art.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Eins: F\xfcnfzig Jahre eine Mission</h2>
@@ -60144,7 +60144,7 @@ function billHaastPortraitPage() {
         <h2 class="vb-section">1. Die Schwarze Mamba</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; blitzschnell, pr\xe4zise, kompromisslos, ganz auf ein einziges Gesetz konzentriert, das keine Ausnahme kennt. Bill Haast war eine lebende Legende der Schlangenforschung: 1947 gr\xfcndete er das <em>Miami Serpentarium</em>, das zeitweise \xfcber f\xfcnfhundert Giftschlangen beherbergte, und wurde zu einem der einflussreichsten Giftsammler der Wissenschaftsgeschichte.</p>
-          <p class="vb-intro">Wie bei Thea Litschka-Koen (SX1w2) und der Schwarzen Mamba zeigt sich auch hier dieselbe verbl\xfcffende \xdcbereinstimmung zwischen Tierentsprechung und Lebenswerk &ndash; nur mit einem anderen Fl\xfcgel und einer anderen Grundfarbe: Wo Litschka-Koen ihre Hingabe an die Schlange in Partnerschaft und Gemeinschaftsarbeit lebte, lebte Haast sie in radikaler Einsamkeit und in Selbstversuchen.</p>
+          <p class="vb-intro">Wie bei Thea Litschka-Koen (SX1w2) und der Schwarzen Mamba zeigt sich auch hier dieselbe verbl\xfcffende \xdcbereinstimmung zwischen Tierentsprechung und Lebenswerk &ndash; nur mit einem anderen Fl\xfcgel und einer anderen Grundfarbe: Wo Litschka-Koen ihre Hingabe an die Schlange in Partnerschaft und Gemeinschaftsarbeit lebte, lebte der US-amerikanische Bill Haast sie in radikaler Einsamkeit und in Selbstversuchen.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Eins: Ein Gesetz ohne Ausnahme</h2>
