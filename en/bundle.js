@@ -18813,7 +18813,7 @@ function teresaVonAvilaPortraitPage() {
         <h2 class="vb-section">1. The Cheetah Who Founded a Realm of Convents</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>cheetah</strong> is the animal of the social Three &ndash; the fastest animal on earth, built for visible, undeniable success. Few historical figures outside politics or the stage embody this pattern as vividly as Teresa of Ávila. With chronically fragile health, in an era when women were barely permitted to appear in public at all, she built a network of seventeen reformed convents across Spain within two decades &ndash; an institutional achievement that even healthy men of her time would have struggled to match.</p>
-          <p class="vb-intro">Born in 1515 in Ávila, the daughter of a wealthy merchant family with Jewish roots, she entered the Carmelite order at twenty against her father's wishes. But ordinary convent life soon wasn't enough for her. She didn't want merely to be a nun &ndash; she wanted to renew the order, visibly, tangibly, irrefutably. The cheetah does not stay back with the pack. It sprints ahead while others keep to their accustomed pace.</p>
+          <p class="vb-intro">The Spanish mystic Teresa of Ávila, born in 1515 in Ávila, the daughter of a wealthy merchant family with Jewish roots, entered the Carmelite order at twenty against her father's wishes. But ordinary convent life soon wasn't enough for her. She didn't want merely to be a nun &ndash; she wanted to renew the order, visibly, tangibly, irrefutably. The cheetah does not stay back with the pack. It sprints ahead while others keep to their accustomed pace.</p>
         </blockquote>
 
         <h2 class="vb-section">2. SO3: Reform as Visible Work</h2>
@@ -18880,7 +18880,7 @@ function gottfriedWilhelmLeibnizPortraitPage() {
         <h2 class="vb-section">1. The Cheetah That Ran Every Field at Once</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>cheetah</strong> is the animal of the social Three &ndash; the fastest animal on earth, built for visible, undeniable success. Few historical figures embody this image as completely as Gottfried Wilhelm Leibniz, often called the "last universal genius": he worked simultaneously as philosopher, mathematician, logician, lawyer, diplomat, historian, librarian, and engineer &ndash; not one after another, but in constant overlap, often on several major projects at once.</p>
-          <p class="vb-intro">Born in 1646 in Leipzig, the son of a professor of moral philosophy, he largely taught himself Latin and Greek as a child by gaining access to his father's library. By the age of twenty he already held a doctorate and was qualified for an academic career &ndash; yet he turned down an offered professorship at Altdorf. The cheetah does not remain in the protected territory of a single lecture hall. It seeks the open plain, where speed can truly show itself.</p>
+          <p class="vb-intro">The German philosopher Gottfried Wilhelm Leibniz, born in 1646 in Leipzig, the son of a professor of moral philosophy, largely taught himself Latin and Greek as a child by gaining access to his father's library. By the age of twenty he already held a doctorate and was qualified for an academic career &ndash; yet he turned down an offered professorship at Altdorf. The cheetah does not remain in the protected territory of a single lecture hall. It seeks the open plain, where speed can truly show itself.</p>
         </blockquote>
 
         <h2 class="vb-section">2. SO3: Courts, Academies, and the Stage of Recognition</h2>
@@ -18947,7 +18947,7 @@ function seanConneryPortraitPage() {
         <h2 class="vb-section">1. The Cheetah</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the social Three &ndash; the fastest animal on Earth, but not the loudest. Its success rests on precision, not raw force: every movement calculated, every appearance optimized for maximum effect. The cheetah stands out instantly &ndash; and that is exactly its aim.</p>
-          <p class="vb-intro">Sean Connery, born the son of a truck driver in a poor district of Edinburgh, worked as a milkman, coffin polisher, and wrestler before placing third in the Mr. Universe bodybuilding contest &ndash; and from there, within just a few years, became James Bond, the very embodiment of worldly sophistication and elegance. No other actor of his generation crossed such a distance between origin and image. The cheetah that sprints from nothing and leads the field within seconds.</p>
+          <p class="vb-intro">The Scottish actor Sean Connery, born the son of a truck driver in a poor district of Edinburgh, worked as a milkman, coffin polisher, and wrestler before placing third in the Mr. Universe bodybuilding contest &ndash; and from there, within just a few years, became James Bond, the very embodiment of worldly sophistication and elegance. No other actor of his generation crossed such a distance between origin and image. The cheetah that sprints from nothing and leads the field within seconds.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Three: From Milkman to Global Icon</h2>
@@ -19014,7 +19014,7 @@ function adelePortraitPage() {
         <h2 class="vb-section">1. The Dove</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>dove</strong> has been the symbol of peace for millennia &ndash; delicate at a glance, but resilient at its core. It carries messages over long distances and returns, even through storms. Not an animal of loud gestures, but one that works through persistence &ndash; and through what it carries in its beak.</p>
-          <p class="vb-intro">Adele Laurie Blue Adkins has spent over fifteen years turning private heartbreak into songs sung around the world &ndash; from &bdquo;Someone Like You&ldquo; to &bdquo;Easy on Me.&ldquo; None of these songs were calculated. They grew out of real pain that became a message reaching millions. The dove that carries its innermost self outward &ndash; not to be seen, but because the song needs to be carried out.</p>
+          <p class="vb-intro">The British singer Adele Laurie Blue Adkins has spent over fifteen years turning private heartbreak into songs sung around the world &ndash; from &bdquo;Someone Like You&ldquo; to &bdquo;Easy on Me.&ldquo; None of these songs were calculated. They grew out of real pain that became a message reaching millions. The dove that carries its innermost self outward &ndash; not to be seen, but because the song needs to be carried out.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Four: Pain as a Quiet World</h2>
@@ -19082,7 +19082,7 @@ function karolineHerfurthPortraitPage() {
         <h2 class="vb-section">1. The Dove That Observes</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The dove is the animal of the self-preservation Type 4, and in Karoline Herfurth it demonstrates a special quality: this dove does not land right away. It circles first. It observes, perceives, carries internally what it has seen, and then lands right where it is needed. That is the self-preservation Four with a Five wing: a person who fully lives through their inner world before stepping outward.</p>
-          <p class="vb-intro">Karoline Herfurth is one of the few personalities in Germany who embody this synthesis: a powerful emotional presence on screen, quiet restraint beside it. No constant social media stream, no continuous explanations. Instead: films that speak for themselves. An attitude that says more than any interview.</p>
+          <p class="vb-intro">The German actress Karoline Herfurth is one of the few personalities in Germany who embody this synthesis: a powerful emotional presence on screen, quiet restraint beside it. No constant social media stream, no continuous explanations. Instead: films that speak for themselves. An attitude that says more than any interview.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Four: Tenacity Without Drama</h2>
@@ -20154,7 +20154,7 @@ function edgarAllanPoePortraitPage() {
         <h2 class="vb-section">1. The Armadillo That Withdrew Into the Night</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four &ndash; a creature that, when threatened, doesn't flee but withdraws into its own shell, preferring to live hidden rather than expose itself to the glare of the public eye. It wears its difference visibly on its skin &ndash; and precisely there lies its quiet dignity.</p>
-          <p class="vb-intro">Edgar Allan Poe was born in 1809 in Boston, lost both biological parents by the age of not quite three, and grew up in the household of the merchant family Allan in Richmond &ndash; never formally adopted, always a foreign body in his own home. This early experience of loss and non-belonging runs through his entire body of work like a red thread. His life was marked by poverty, failed positions, early fame, and equally early collapse &ndash; a rollercoaster that kept his personality oscillating for life between brilliant literary sharpness and deep despair.</p>
+          <p class="vb-intro">The American writer Edgar Allan Poe was born in 1809 in Boston, lost both biological parents by the age of not quite three, and grew up in the household of the merchant family Allan in Richmond &ndash; never formally adopted, always a foreign body in his own home. This early experience of loss and non-belonging runs through his entire body of work like a red thread. His life was marked by poverty, failed positions, early fame, and equally early collapse &ndash; a rollercoaster that kept his personality oscillating for life between brilliant literary sharpness and deep despair.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Four: Chosen Suffering</h2>
@@ -20219,7 +20219,7 @@ function johnnyDeppPortraitPage() {
         <h2 class="vb-section">1. The Armadillo on the Big Stage</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four &ndash; a creature that does not hide its difference but wears it visibly on its skin. Unlike its more introverted counterparts, this Four does not retreat into its own shell but proudly displays it &ndash; as proof of its own uniqueness, on a stage everyone can see.</p>
-          <p class="vb-intro">Johnny Depp was born in 1963 in Owensboro, Kentucky, grew up in a childhood marked by frequent moves and family tension, and dropped out of school at 15 to become a musician. Before becoming an actor, he played in bands, including with musicians who later ended up in Guns N' Roses &ndash; the longing for artistic expression was, from the start, bigger than any conventional career plan. His breakthrough came in 1987 with the television series "21 Jump Street" &ndash; a role he himself considered, for the rest of his life, too polished a teen-idol image, one that never fit his sense of himself as an artist.</p>
+          <p class="vb-intro">The American actor Johnny Depp was born in 1963 in Owensboro, Kentucky, grew up in a childhood marked by frequent moves and family tension, and dropped out of school at 15 to become a musician. Before becoming an actor, he played in bands, including with musicians who later ended up in Guns N' Roses &ndash; the longing for artistic expression was, from the start, bigger than any conventional career plan. His breakthrough came in 1987 with the television series "21 Jump Street" &ndash; a role he himself considered, for the rest of his life, too polished a teen-idol image, one that never fit his sense of himself as an artist.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Four: Uniqueness as a Work for the Stage</h2>
@@ -20415,7 +20415,7 @@ function nicolasCagePortraitPage() {
         <h2 class="vb-section">1. The Dove in the Lion's Skin</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four &ndash; a creature that does not put its deep, often painful emotional life on public display but carries it within, finding its own unmistakable path through quiet persistence. It is tougher than it appears, and its greatest strength lies in rising again, again and again, despite inner vulnerability.</p>
-          <p class="vb-intro">Nicolas Cage was born in 1964 in Long Beach, California, as Nicolas Kim Coppola, nephew of director Francis Ford Coppola. To escape any suspicion of nepotism and to forge a completely independent name for himself, he adopted the stage name "Cage" early on &ndash; inspired by the comic hero Luke Cage and the avant-garde composer John Cage. An act of radical self-assertion, typical of a Four fighting with all its strength against the dissolution of its own identity within an overpowering family tradition.</p>
+          <p class="vb-intro">The American actor Nicolas Cage was born in 1964 in Long Beach, California, as Nicolas Kim Coppola, nephew of director Francis Ford Coppola. To escape any suspicion of nepotism and to forge a completely independent name for himself, he adopted the stage name "Cage" early on &ndash; inspired by the comic hero Luke Cage and the avant-garde composer John Cage. An act of radical self-assertion, typical of a Four fighting with all its strength against the dissolution of its own identity within an overpowering family tradition.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Four: The Quiet Struggle for One's Own Survival</h2>
@@ -20480,7 +20480,7 @@ function leoTolstoiPortraitPage() {
         <h2 class="vb-section">1. The Dove That Thought Through Its Own Suffering</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four &ndash; it does not put its deep emotional life on display but processes it in quiet, often decades-long persistence. It seeks no applause for its pain, only its own, unmistakable way through it.</p>
-          <p class="vb-intro">Lev Nikolayevich Tolstoy was born in 1828 on the family estate of Yasnaya Polyana, lost both parents early, and grew up with relatives. As a young man he already kept a meticulous diary &ndash; a lifelong ritual of unsparing self-observation in which he recorded his own moral weaknesses, his gambling addiction, his sexual transgressions, and his constant self-criticism in minute detail. This early habit of inner bookkeeping became the foundation of his entire literary work.</p>
+          <p class="vb-intro">The Russian writer Lev Nikolayevich Tolstoy was born in 1828 on the family estate of Yasnaya Polyana, lost both parents early, and grew up with relatives. As a young man he already kept a meticulous diary &ndash; a lifelong ritual of unsparing self-observation in which he recorded his own moral weaknesses, his gambling addiction, his sexual transgressions, and his constant self-criticism in minute detail. This early habit of inner bookkeeping became the foundation of his entire literary work.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Four: Suffering as a Quiet Burden</h2>
@@ -20544,7 +20544,7 @@ function samAltmanPortraitPage() {
         <h2 class="vb-section">1. The Dove at the Center of a Storm</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Dove is the animal of the self-preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It does not seek applause for its inner struggle, but its own, unmistakable way through it – even when the world around it has long since grown loud.</p>
-          <p class="vb-intro">Sam Altman, born in 1985 in Chicago, is as CEO of OpenAI one of the most influential people in the history of technology – responsible for ChatGPT, a product that reordered public discourse about artificial intelligence within just a few years. And yet Altman remains strikingly reserved in public: no stage presence in the style of other tech founders, no demonstrative self-promotion, but a calm, almost understated tone, even when the scale of his decisions affects all of humanity.</p>
+          <p class="vb-intro">The American entrepreneur Sam Altman, born in 1985 in Chicago, is as CEO of OpenAI one of the most influential people in the history of technology – responsible for ChatGPT, a product that reordered public discourse about artificial intelligence within just a few years. And yet Altman remains strikingly reserved in public: no stage presence in the style of other tech founders, no demonstrative self-promotion, but a calm, almost understated tone, even when the scale of his decisions affects all of humanity.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Four: Ambition as a Quiet Burden</h2>
@@ -21720,7 +21720,7 @@ function brigitteBardotPortraitPage() {
         <h2 class="vb-section">1. The Peacock</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Peacock</strong> is the animal of the sexual Three &ndash; an animal that does not unfurl its plumage out of calculation, but because splendor is its very nature. Not an animal of the stage in the broad sense, but one of immediate impact: whoever encounters a peacock cannot escape its presence. That is not a strategy &ndash; it is expression.</p>
-          <p class="vb-intro">Brigitte Bardot became an international icon overnight with <em>And God Created Woman</em> (1956) &ndash; and shook the bourgeois morality of her time. Not a scandal about her person alone, but the sheer impact of her presence on screen changed how femininity could be portrayed in European cinema. The peacock that transforms an entire audience simply by being what it is.</p>
+          <p class="vb-intro">The French actress Brigitte Bardot became an international icon overnight with <em>And God Created Woman</em> (1956) &ndash; and shook the bourgeois morality of her time. Not a scandal about her person alone, but the sheer impact of her presence on screen changed how femininity could be portrayed in European cinema. The peacock that transforms an entire audience simply by being what it is.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Three: Magnetism as Life&#39;s Theme</h2>
@@ -22751,7 +22751,7 @@ function elvisPresleyPortraitPage() {
         <h2 class="vb-section">1. The Camel on Stage</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Camel</strong> is the animal of the sexual Two &ndash; enduring, devoted, able to go beyond its own limits for others. It carries what it has straight to the one person who needs it right now, without calculation, without holding back. In Elvis Presley, this image became a stage presence that electrified an entire generation: he did not sing to an audience, he sang to every single person in it, with an intensity that reached across the room as if no one else existed.</p>
-          <p class="vb-intro">Elvis Aaron Presley, born in 1935 in Tupelo, Mississippi, grew up in modest circumstances, closely bonded to his mother Gladys, whose love he described throughout his life as his surest ground. In 1954 he recorded his first songs in Memphis &ndash; and within a few years, a shy young man with an unusual voice became the best-selling solo artist in music history. The camel knows the desert of beginnings. And it still gives everything the moment it is needed.</p>
+          <p class="vb-intro">The American singer Elvis Aaron Presley, born in 1935 in Tupelo, Mississippi, grew up in modest circumstances, closely bonded to his mother Gladys, whose love he described throughout his life as his surest ground. In 1954 he recorded his first songs in Memphis &ndash; and within a few years, a shy young man with an unusual voice became the best-selling solo artist in music history. The camel knows the desert of beginnings. And it still gives everything the moment it is needed.</p>
         </blockquote>
 
         <h2 class="vb-section">2. SX2: Seduction as a Stage Language</h2>
@@ -22817,7 +22817,7 @@ function pamelaReifPortraitPage() {
 
         <h2 class="vb-section">1. The Camel That Reaches Through the Screen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Pamela Reif, born in 1996 in Karlsruhe, started on Instagram in 2012 at the age of sixteen. What began as a hobby turned into one of Europe's most successful fitness empires: millions of subscribers on Instagram and YouTube, the Pam App, the bestseller "You Deserve This," collections, brand collaborations—and behind it all, a person who views all of this not primarily as a business, but as an offer of connection. The camel knows the desert. It knows how long the journey takes. And yet it gives everything it has.</p>
+          <p class="vb-intro">The German Pamela Reif, born in 1996 in Karlsruhe, started on Instagram in 2012 at the age of sixteen. What began as a hobby turned into one of Europe's most successful fitness empires: millions of subscribers on Instagram and YouTube, the Pam App, the bestseller "You Deserve This," collections, brand collaborations—and behind it all, a person who views all of this not primarily as a business, but as an offer of connection. The camel knows the desert. It knows how long the journey takes. And yet it gives everything it has.</p>
           <p class="vb-intro">Her gaze into the camera is direct and inviting at the same time. No performative agitation, no put-on motivation—but a quiet, intense attentiveness typical of the SX2. The sexual Two does not seek the masses. It seeks the one person—and Pamela Reif has the ability to generate the feeling in millions of people simultaneously of being precisely that one person. That is rare. That is seduction in the deepest Enneagram sense: not necessarily manipulation, but the true art of connection.</p>
         </blockquote>
 
@@ -25347,7 +25347,7 @@ function wolodymyrSelenskyjPortraitPage() {
         <h2 class="vb-section">1. The Raccoon: Nocturnal, Skilful, Invisible</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The raccoon is the animal symbol of the Self-Preservation Type 3—and it is not an animal you recognize immediately. It comes at night. It opens locks, rummages through supplies, leaves tracks—but is long gone by the time you look for it. It appears harmless, almost cute. Its face naturally wears a mask. And it is clever enough to know exactly that.</p>
-          <p class="vb-intro">Volodymyr Zelenskyy, born in Kryvyi Rih in 1978, began his career as a comedian and actor. In the television series Servant of the People, he played a teacher who accidentally becomes president—and then actually became the President of Ukraine. What sounds like a fairytale is a warning in the Enneagram: An actor playing a role until he himself no longer knows where the role ends and he begins. That is the trap of the Self-Preservation Three—and in Zelenskyy's case, it sprung on the global stage.</p>
+          <p class="vb-intro">The Ukrainian politician Volodymyr Zelenskyy, born in Kryvyi Rih in 1978, began his career as a comedian and actor. In the television series Servant of the People, he played a teacher who accidentally becomes president—and then actually became the President of Ukraine. What sounds like a fairytale is a warning in the Enneagram: An actor playing a role until he himself no longer knows where the role ends and he begins. That is the trap of the Self-Preservation Three—and in Zelenskyy's case, it sprung on the global stage.</p>
         </blockquote>
 
         <h2 class="vb-section">2. SP3: The Countertype of Three – The Hero Who Isn't One</h2>
@@ -26271,7 +26271,7 @@ function tilSchweigerPortraitPage() {
         <h2 class="vb-section">1. The Armadillo</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Armadillo</strong> is the animal of the social Type 4 &ndash; armored on the outside, soft within. It rolls up when it feels threatened and presents the world with an impenetrable shell. Those who truly know it are aware: behind that lies an extraordinarily sensitive creature that feels more than it would ever show.</p>
-          <p class="vb-intro">Til Schweiger &ndash; born 1963, actor, director, and producer &ndash; is one of the best-known personalities in German film. His trademark: an aura of coolness, self-assurance, and mildly provocative directness. Those who look more closely recognize the armadillo: a person who, beneath his polished exterior, carries a deep emotional vulnerability &ndash; and transforms it into art with considerable craft.</p>
+          <p class="vb-intro">The German actor Til Schweiger &ndash; born 1963, director, and producer &ndash; is one of the best-known personalities in German film. His trademark: an aura of coolness, self-assurance, and mildly provocative directness. Those who look more closely recognize the armadillo: a person who, beneath his polished exterior, carries a deep emotional vulnerability &ndash; and transforms it into art with considerable craft.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Shame as Silent Driving Force</h2>
@@ -26406,7 +26406,7 @@ function taddlPortraitPage() {
         <h2 class="vb-section">1. The Armadillo</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Armadillo</strong> is the animal of the social Type 4 &ndash; a creature that is armored on the outside, that rolls itself up at danger and presents an impenetrable shell. Those who observe it from the outside see the armor. Those who know it are aware: beneath that is something extraordinarily soft. A creature that feels. That is vulnerable. That longs. And that can keep this longing hidden behind its shell for years.</p>
-          <p class="vb-intro">Taddl &ndash; born Daniel Tjarks in 1996 &ndash; began his career as a teenager on YouTube and became one of the best-known German content creators of his generation. Millions followed his videos, his collaborations with other YouTubers, his seemingly carefree humor. But those who looked closely could recognize the armadillo: a young man who used wit and self-irony to protect his interior &ndash; and who eventually began to set the armor aside.</p>
+          <p class="vb-intro">The German content creator Taddl &ndash; born Daniel Tjarks in 1996 &ndash; began his career as a teenager on YouTube and became one of the best-known German content creators of his generation. Millions followed his videos, his collaborations with other YouTubers, his seemingly carefree humor. But those who looked closely could recognize the armadillo: a young man who used wit and self-irony to protect his interior &ndash; and who eventually began to set the armor aside.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Type 4: Shame as Silent Driving Force</h2>
@@ -26467,7 +26467,7 @@ function romySchneiderPortraitPage() {
         <h2 class="vb-section">1. The Armadillo</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Armadillo</strong> is the animal of the social Type 4 &ndash; and it is an animal full of contradictions. On the outside it bears a hard shell that makes it seem invulnerable. But this shell protects an interior that is extraordinarily sensitive: the armadillo is one of the few mammals that, when threatened, neither fights nor flees, but rolls itself up &ndash; it wraps itself within itself. At the same time, the armadillo is a sociable creature. It does not live alone. It needs community, even if it sometimes feels like a stranger within it.</p>
-          <p class="vb-intro">Romy Schneider was one of the greatest actresses of the 20th century &ndash; and one of the loneliest. The world saw the glamour: <em>Sissi</em>, the screen, the awards, the elegance. What lay behind the shell, she described again and again herself: pain, loneliness, the feeling of never being truly seen &ndash; only the role, never the woman. The armadillo that shows itself in public while rolling up within.</p>
+          <p class="vb-intro">The Austrian-German actress Romy Schneider was one of the greatest actresses of the 20th century &ndash; and one of the loneliest. The world saw the glamour: <em>Sissi</em>, the screen, the awards, the elegance. What lay behind the shell, she described again and again herself: pain, loneliness, the feeling of never being truly seen &ndash; only the role, never the woman. The armadillo that shows itself in public while rolling up within.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Four: Shame as Drive</h2>
@@ -28605,7 +28605,7 @@ function nikolaTeslaPortraitPage() {
         <h2 class="vb-section">1. The dove that invented for all humanity</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four &ndash; it does not put its deep emotional life on display, but processes it in quiet, often decades-long persistence, seeking its uniqueness not in applause but in an entirely own, unmistakable path. Nikola Tesla embodied this principle in an almost literal way: the AC induction motor, the transformer, radio technology, the foundations of radar, remote control &ndash; he left behind more than 300 patents and reshaped the technical infrastructure of all humanity. And yet he was, throughout his life, no man of the spotlight, but a deeply lonely, introverted outsider who, in the end, found his most intense and lasting emotional bond not with a human being, but with a single white dove.</p>
-          <p class="vb-intro">Tesla was born in 1856 in Smiljan, in present-day Croatia, the son of a Serbian Orthodox priest. Even as a child, he later reported, he had spontaneous, flash-like inner images of machines that he could construct in complete detail in his mind's eye before ever picking up a tool &ndash; an inner world of images so intense that, at times, it became almost indistinguishable from outer reality.</p>
+          <p class="vb-intro">The Serbian-American inventor Nikola Tesla was born in 1856 in Smiljan, in present-day Croatia, the son of a Serbian Orthodox priest. Even as a child, he later reported, he had spontaneous, flash-like inner images of machines that he could construct in complete detail in his mind's eye before ever picking up a tool &ndash; an inner world of images so intense that, at times, it became almost indistinguishable from outer reality.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Four: uniqueness over conformity</h2>
@@ -33461,7 +33461,7 @@ function ladyDianaPortraitPage() {
         <h2 class="vb-section">1. The Dove</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>dove</strong> has been the symbol of peace for millennia &ndash; and on the surface it seems delicate, almost vulnerable. And yet the dove is resilient: it finds its way even over long distances, even through storms. It carries messages. It returns. The dove pauses where others fly on &ndash; and in that pausing something quiet arises that moves more than many loud gestures.</p>
-          <p class="vb-intro">Diana Frances Spencer, Princess of Wales, was one of the most recognized faces of the twentieth century &ndash; and at the same time one of the loneliest personalities of her era. In a world of protocol, palace, and public life, she carried something within her that resisted categorization: a sensitivity that sometimes paralyzed her, and a capacity for connection that touched millions. The dove that carries messages &ndash; even when the journey is arduous.</p>
+          <p class="vb-intro">The British Diana Frances Spencer, Princess of Wales, was one of the most recognized faces of the twentieth century &ndash; and at the same time one of the loneliest personalities of her era. In a world of protocol, palace, and public life, she carried something within her that resisted categorization: a sensitivity that sometimes paralyzed her, and a capacity for connection that touched millions. The dove that carries messages &ndash; even when the journey is arduous.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Four: Suffering as a Silent World</h2>
@@ -33648,7 +33648,7 @@ function bradPittPortraitPage() {
         <h2 class="vb-section">1. The Peacock</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Peacock</strong> is the animal of the Sexual Three &ndash; an animal whose impact does not come from calculation but from pure, immediate presence. It doesn't need to prove anything, it only needs to be there. Whoever encounters it feels a magnetism that resists analysis &ndash; and that is exactly where its power lies.</p>
-          <p class="vb-intro">Brad Pitt became an object of collective fascination almost overnight with a small but unmistakable supporting role in <em>Thelma &amp; Louise</em> (1991) &ndash; a few minutes of screen time were enough to make an entire cinema audience sit up. No elaborately staged star entrance, just plain physical presence that resists explanation and can only be experienced. The Peacock that changes a room simply by what it portrays.</p>
+          <p class="vb-intro">The American actor Brad Pitt became an object of collective fascination almost overnight with a small but unmistakable supporting role in <em>Thelma &amp; Louise</em> (1991) &ndash; a few minutes of screen time were enough to make an entire cinema audience sit up. No elaborately staged star entrance, just plain physical presence that resists explanation and can only be experienced. The Peacock that changes a room simply by what it portrays.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Three: Magnetism as a Life Theme</h2>
@@ -33716,7 +33716,7 @@ function kaiPflaumePortraitPage() {
         <h2 class="vb-section">1. The Peacock</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>peacock</strong> is the animal of the sexual Three &ndash; and barely any image fits Kai Pflaume better. The peacock does not display its most beautiful plumage in order to impress. It displays it because it belongs to him. His splendor is not a performance, it is an expression of his nature. Anyone who observes a peacock senses: this is real. This needs no stage.</p>
-          <p class="vb-intro">Kai Pflaume has been present in German television for more than thirty years &ndash; and without scandal, without rupture, without changing his mask. He has remained the same: warm, curious, personal. That is the secret of the peacock. He does not radiate because he must. He radiates because his light comes from within.</p>
+          <p class="vb-intro">The German host Kai Pflaume has been present in German television for more than thirty years &ndash; and without scandal, without rupture, without changing his mask. He has remained the same: warm, curious, personal. That is the secret of the peacock. He does not radiate because he must. He radiates because his light comes from within.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Three: Magnetism as Life Theme</h2>
@@ -35483,7 +35483,7 @@ function oshoPortraitPage() {
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that probes its surroundings with alert paws, checks every crack for usefulness, and builds functioning systems out of limited means. Not a loud animal, but an extraordinarily resourceful one: it survives not through strength but through cleverness and the ability to adapt to any environment.</p>
-          <p class="vb-intro">Osho, born Chandra Mohan Jain, built an international commune operation out of a dusty plot in Poona within a few years &ndash; and shortly after, in the Oregon desert, a functioning city within four years, complete with its own airport, hospital, sewage treatment plant, and bus transit system for tens of thousands of visitors. The raccoon that turns bare land into a functioning system &ndash; with an efficiency that stunned even critics.</p>
+          <p class="vb-intro">The Indian Osho, born Chandra Mohan Jain, built an international commune operation out of a dusty plot in Poona within a few years &ndash; and shortly after, in the Oregon desert, a functioning city within four years, complete with its own airport, hospital, sewage treatment plant, and bus transit system for tens of thousands of visitors. The raccoon that turns bare land into a functioning system &ndash; with an efficiency that stunned even critics.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Three: The Guru as System Builder</h2>
@@ -35551,7 +35551,7 @@ function christiaanBarnardPortraitPage() {
         <h2 class="vb-section">1. The Cheetah</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>cheetah</strong> is the animal of the social Three &ndash; the fastest animal on earth, built for the one decisive sprint that determines whether the hunt succeeds or fails. On December 3, 1967, Christiaan Barnard dared exactly that sprint: at Groote Schuur Hospital in Cape Town, he became the first person ever to transplant a human heart, taken from the deceased donor Denise Darvall, into the body of the gravely ill patient Louis Washkansky.</p>
-          <p class="vb-intro">Born in 1922 in Beaufort West as the son of a poor Dutch Reformed missionary, Barnard worked his way to the top of cardiac surgery through medical studies in Cape Town and specialized training in the United States under the renowned surgeon Owen Wangensteen. The cheetah does not hunt through strength but through speed and audacity &ndash; and Barnard used exactly that speed to dare an operation that many established surgeons of his time still shied away from.</p>
+          <p class="vb-intro">The South African surgeon Christiaan Barnard, born in 1922 in Beaufort West as the son of a poor Dutch Reformed missionary, worked his way to the top of cardiac surgery through medical studies in Cape Town and specialized training in the United States under the renowned surgeon Owen Wangensteen. The cheetah does not hunt through strength but through speed and audacity &ndash; and Barnard used exactly that speed to dare an operation that many established surgeons of his time still shied away from.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Social Three: Fame Overnight</h2>
@@ -35628,7 +35628,7 @@ function ludwigXIVPortraitPage() {
         <h2 class="vb-section">1. The Cheetah</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>cheetah</strong> is the animal of the social Three &ndash; fast, striking, built for the one decisive moment when every eye turns toward it. In 1653, at fourteen, Louis XIV personally danced the role of the sun god Apollo in the "Ballet de la Nuit" &ndash; a performance that earned him the epithet "Sun King" and became the program of his entire reign. No coincidence, no one-off youthful appearance, but the first deliberate staging of an image he would spend his life perfecting.</p>
-          <p class="vb-intro">Born in 1638, the son of Louis XIII, he ascended the throne at the age of four, ruling initially under the regency of his mother, Anne of Austria, and Cardinal Mazarin. Only after Mazarin's death in 1661 did he, at just twenty-two, take up personal rule &ndash; and immediately began staging himself as the radiant center of his realm. The cheetah does not wait for permission to shine. It seizes the moment the instant the opportunity appears.</p>
+          <p class="vb-intro">Born in 1638 the son of Louis XIII, the French king Louis XIV ascended the throne at the age of four, ruling initially under the regency of his mother, Anne of Austria, and Cardinal Mazarin. Only after Mazarin's death in 1661 did he, at just twenty-two, take up personal rule &ndash; and immediately began staging himself as the radiant center of his realm. The cheetah does not wait for permission to shine. It seizes the moment the instant the opportunity appears.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Social Three: The State as Stage</h2>
@@ -35693,7 +35693,7 @@ function kathrinBauerfeindPortraitPage() {
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Raccoon</strong> is the animal of the self-preservation Three &ndash; and it is a creature one underestimates. No loud entrance, no glamour, no stage. The raccoon wears a natural mask, moves quietly through the night, notices what others overlook, and applies its dexterity in entirely practical ways: What do I need? How do I get there? The raccoon is not a performer &ndash; it is a survivor with nimble hands.</p>
-          <p class="vb-intro">Kathrin Bauerfeind is a figure in the German media landscape that eludes this logic. She is not loud. She is not glamorous. And yet she is everywhere: talk shows, podcasts, books, television series, journalistic texts. Not through self-promotion, but through competence, reliability, and a stylistic distinctiveness that has built up over years. The raccoon does not rummage in the spotlight &ndash; it creates its own territory.</p>
+          <p class="vb-intro">The German host Kathrin Bauerfeind is a figure in the German media landscape that eludes this logic. She is not loud. She is not glamorous. And yet she is everywhere: talk shows, podcasts, books, television series, journalistic texts. Not through self-promotion, but through competence, reliability, and a stylistic distinctiveness that has built up over years. The raccoon does not rummage in the spotlight &ndash; it creates its own territory.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Three: Skill Over Shine</h2>
@@ -35754,7 +35754,7 @@ function tonyShalhoubPortraitPage() {
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that is easy to underestimate. No loud entrance, no glamour, no red-carpet self-staging for its own sake. The raccoon works with skillful, deft hands out of sight, and only becomes visible once you look closely at everything it can actually do.</p>
-          <p class="vb-intro">Tony Shalhoub, trained at the Yale School of Drama, was exactly that for decades: an actor whose name many people learned only after learning his roles, not the other way around. Before he became a star in 2002 as the compulsively meticulous detective Adrian Monk, he had already built a craft through theater, independent films, and supporting roles that few actors of his generation mastered as precisely.</p>
+          <p class="vb-intro">The American actor Tony Shalhoub, trained at the Yale School of Drama, was exactly that for decades: an actor whose name many people learned only after learning his roles, not the other way around. Before he became a star in 2002 as the compulsively meticulous detective Adrian Monk, he had already built a craft through theater, independent films, and supporting roles that few actors of his generation mastered as precisely.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Self-Preservation Three: Skill Over Shine</h2>
@@ -35877,7 +35877,7 @@ function juditPolgarPortraitPage() {
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that is easy to underestimate. No loud entrance, no glamour, no self-staging for its own sake. The raccoon works with skillful, deft hands out of sight, and only becomes visible once you look closely at everything it can actually do.</p>
-          <p class="vb-intro">Judit Polgár, born in 1976 in Budapest as the youngest of the three Polgár sisters, grew up in an educational experiment devised by her father László Polgár, who was convinced that genius could be trained if practice began early enough and intensively enough. The three daughters were homeschooled with chess as the core subject of their curriculum &ndash; not happenstance, but the result of thousands of hours of training at the board, long before the public ever heard of her.</p>
+          <p class="vb-intro">The Hungarian chess player Judit Polgár, born in 1976 in Budapest as the youngest of the three Polgár sisters, grew up in an educational experiment devised by her father László Polgár, who was convinced that genius could be trained if practice began early enough and intensively enough. The three daughters were homeschooled with chess as the core subject of their curriculum &ndash; not happenstance, but the result of thousands of hours of training at the board, long before the public ever heard of her.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Self-Preservation Three: Skill Over Shine</h2>
@@ -36000,7 +36000,7 @@ function josephHaydnPortraitPage() {
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that on the surface seems unremarkable, skillful, adaptable, without any need to stand in the glaring light. Joseph Haydn was exactly this raccoon: no prodigy like Mozart, no wrathful titan like Beethoven, but a man who worked loyally within a single employment relationship for three decades &ndash; and out of it created the most extensive, most reliable body of work of the Viennese Classical era.</p>
-          <p class="vb-intro">Born in 1732 in Rohrau as the son of a wheelwright, he became a choirboy at St. Stephen's Cathedral in Vienna as a child, until his voice broke and took that existence from him. Years as a freelance, often penniless musician followed, before he entered the service of the princely Esterházy family in 1761 &ndash; an appointment he, amid growing influence and growing fame, never truly left until shortly before the end of his life.</p>
+          <p class="vb-intro">The Austrian composer Joseph Haydn, born in 1732 in Rohrau as the son of a wheelwright, became a choirboy at St. Stephen's Cathedral in Vienna as a child, until his voice broke and took that existence from him. Years as a freelance, often penniless musician followed, before he entered the service of the princely Esterházy family in 1761 &ndash; an appointment he, amid growing influence and growing fame, never truly left until shortly before the end of his life.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Self-Preservation Three: Security Through Quiet Achievement</h2>
@@ -36132,7 +36132,7 @@ function penelopeCruzPortraitPage() {
         <h2 class="vb-section">1. The Raccoon</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that impresses not through performance but through dexterity. It wears a natural mask, adapts to its surroundings, finds a way through every niche &ndash; quietly, functionally, without making a fuss of itself.</p>
-          <p class="vb-intro">Penélope Cruz debuted on Spanish television at fifteen, shot her first feature film at seventeen, and has remained present ever since, across more than three decades &ndash; the only Spanish actress to hold an Oscar, equally at home in Hollywood blockbusters and Spanish auteur cinema. And yet her public image is remarkably unspectacular: no permanent scandal, no staged self-presentation, but a body of work that speaks for itself. The raccoon that fits into every role, every language, every film set &ndash; and yet never disappears.</p>
+          <p class="vb-intro">The Spanish actress Penélope Cruz debuted on Spanish television at fifteen, shot her first feature film at seventeen, and has remained present ever since, across more than three decades &ndash; the only Spanish actress to hold an Oscar, equally at home in Hollywood blockbusters and Spanish auteur cinema. And yet her public image is remarkably unspectacular: no permanent scandal, no staged self-presentation, but a body of work that speaks for itself. The raccoon that fits into every role, every language, every film set &ndash; and yet never disappears.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Three: Craft Instead of Spotlight</h2>
@@ -58468,7 +58468,7 @@ function bellaThornePage() {
         <h2 class="vb-section">1. The Cheetah</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>cheetah</strong> is the animal of the Social Three &ndash; the fastest land animal on Earth. What distinguishes the cheetah is not size or raw power, but the ability to accelerate to full speed in the shortest possible time. No hesitation, no detours, just a direct leap toward the goal. The cheetah is an animal of the public space &ndash; it does not hunt in secret; it hunts on the savannah, visible to everyone.</p>
-          <p class="vb-intro">Bella Thorne became known at age thirteen as a child actress with Disney &ndash; and has not paused since. Actress, singer, director, author, entrepreneur, social media star with tens of millions of followers. The pace is cheetah pace: always in motion, always present, always on the next leap. Standing still is not an option for the Social Three &ndash; it needs the run to feel alive.</p>
+          <p class="vb-intro">The American actress Bella Thorne became known at age thirteen as a child actress with Disney &ndash; and has not paused since. Actress, singer, director, author, entrepreneur, social media star with tens of millions of followers. The pace is cheetah pace: always in motion, always present, always on the next leap. Standing still is not an option for the Social Three &ndash; it needs the run to feel alive.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Three: Visibility as a Life Theme</h2>
