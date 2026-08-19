@@ -725,6 +725,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Mariella Superina – Social Type 4",
     teaser:"SO4w5 · Swiss veterinarian and scientist, for over 20 years the world's leading armadillo researcher, chair of the IUCN Armadillo Specialist Group. A globally recognized authority on her own archetypal animal. Animal correspondence: Armadillo.",
     land:"Switzerland", tags:["Wissenschaft"], gender:"f"},
+{ route:"beruehmte-lauren-gardner", name:"Prof. Lauren Gardner", added:"2026-08-19", subtyp:"SO4w5",
+    heading:"Prof. Lauren Gardner – Social Type 4",
+    teaser:"SO4w5 · American engineer and epidemiologist, Johns Hopkins University. Creator of the world's most used COVID-19 dashboard, TIME 100 member 2020. Responsibility over visibility as the driving force. Animal correspondence: Armadillo.",
+    land:"USA", tags:["Wissenschaft"], gender:"f"},
 { route:"beruehmte-voltaire", name:"Voltaire", added:"2026-08-14", subtyp:"SX4w3",
     heading:"Voltaire – Sexual Type 4",
     teaser:"SX4w3 · 1694–1778. French Enlightenment writer and philosopher. Bastille imprisonment, the Calas affair, 'Candide', feud with Rousseau. The chihuahua with the Three-wing: wounded pride as the drive behind a lifelong fight against injustice. Animal correspondence: Chihuahua.",
@@ -28866,6 +28870,65 @@ function mariellaSuperinaPortraitPage() {
   `);
 }
 
+function laurenGardnerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-lauren-gardner-portrait.jpg" alt="Prof. Lauren Gardner – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Lauren Gardner</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Engineer and epidemiologist, Johns Hopkins University &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The armadillo that navigated the world through a pandemic</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the Social Four &ndash; it does not seek belonging by blending into the crowd, but through an entirely its own, unmistakable role within a community, a role that is what makes it visible in the first place. The American civil engineer and epidemiologist Prof. Lauren Gardner earned her PhD in transportation engineering at the University of Texas at Austin, first taught at the University of New South Wales in Sydney, and joined Johns Hopkins University in 2019 as Associate Professor of Civil and Systems Engineering, with a joint appointment at the Bloomberg School of Public Health.</p>
+          <p class="vb-intro">On January 22, 2020, she and her doctoral student Ensheng Dong published an interactive online dashboard that made the spread of a then still largely unknown virus visible in real time &ndash; built for their own small research community, assembled in a single night. Within weeks it became the most used, most cited data source of the entire pandemic: more than 200 billion feature requests, at times 4.5 billion hits in a single day.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: significance through an irreplaceable role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Four (SO4)</strong> seeks its worth not in withdrawal, but in a special, irreplaceable standing within a community &ndash; it does not want to be just any member, but the one whose absence would leave something essential missing. Gardner filled exactly that gap: while major global institutions still lacked reliable, publicly accessible real-time data, her dashboard became the central reference for governments, health authorities, media outlets, and millions of private individuals all at once &ndash; a role that simply had not existed before.</p>
+          <p class="vb-intro">In 2020, TIME magazine named her one of the 100 most influential people in the world, crediting her with "democratizing data" and filling "a void of public health leadership." Tellingly, Gardner repeatedly stressed in interviews that the work was never a solo project but the result of an entire team &ndash; including colleagues at the Applied Physics Laboratory, students in her Center for Systems Science and Engineering, and partners at Esri. This is the Social Four exactly: one's own uniqueness arises not against the community, but through a special role within it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: responsibility instead of performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four an analytical sobriety and a deep sense of duty toward its own expertise &ndash; attention is not sought, but accepted as the necessary consequence of one's own responsibility. "I feel like it's my responsibility to share things that I know," Gardner said of her decision to keep the data running despite the growing public burden. Her concern lay less with her own visibility than with the quality of communication: "Humans are horrible at statistics," she stressed, "presenting raw numbers is really tricky."</p>
+          <p class="vb-intro">When the dashboard became the pandemic's most closely watched tool within days, Gardner herself described uncertainty rather than pride: in late March 2020, she publicly questioned whether publishing it had even been the right decision, while the project claimed "150 percent" of her team's time. This Five-wing distance from her own sudden fame &ndash; scrutinizing the matter itself rather than enjoying the attention &ndash; is the purest expression of SO4w5: the Four carries the unique responsibility, the Five-wing keeps a cool, analytical head while doing it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w5 is its ability to turn <strong>its own uniqueness into an irreplaceable role within society</strong> &ndash; Gardner's academic niche expertise in traffic modeling and disease spread became, at the decisive moment, infrastructure that literally the entire world relied on. In 2022 she received the Lasker~Bloomberg Public Service Award, America's most significant medical prize, which she accepted "deeply honored and humbled" for an achievement that "required the hard work and dedication of many others."</p>
+          <p class="vb-intro">The shadow of the Social Four with a Five-wing shows in how unprepared a reserved researcher, built for depth rather than exposure, can be when she meets unprecedented global attention: a tool for her own small research community became, overnight, a reference point for billions of people &ndash; a burden that at times made Gardner herself doubt her own decision, even as the dashboard had long since proven indispensable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The armadillo that became the reference point of an entire pandemic</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Gardner gave the world was not merely a technical tool, but a role no one had filled before: that of a reliable, independent voice amid contradictory information. The Social Four with a Five-wing does not ask: how do I stand out? It asks: which role is still missing that only I, with my expertise, can fill?</p>
+          <p class="vb-intro">In the end, one image remains that could hardly stand more fittingly for this pattern: an engineer who, out of one night of meticulous data work, became the most used information source of a global crisis &ndash; not through a pursuit of visibility, but through a responsibility that no one else could have taken on quite so precisely.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"lebensmusterkompass/so4", label:"Life Pattern Compass: SO4 – Armadillo"},
+        {route:"beruehmte-mariella-superina", label:"Portrait: Dr. Mariella Superina (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
 function carlFriedrichGaussPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -37401,7 +37464,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Meaning through deliberate distance from a community one remains devoted to nonetheless",
         beschreibung: "One's own significance arises not through adaptation, but through deliberate contrast to the community – one turns away without ever fully leaving it, because it remains the resonance chamber that sharpens one's own thinking or feeling.",
-        beleg: "Heraclitus, who turned away from public life, 'which he considered superficial,' but remained 'devoted to Ephesus'; Hippocrates, who distanced himself from his family's religious healing arts: 'The armadillo remains part of the community of healers – but contradicts it at its core'; Fiona Apple, whose years of withdrawal from the spotlight made her 'nonetheless, or precisely because of that, one of the most unsparing observers'; Edgar Allan Poe and Marcel Proust, who withdrew physically in order to write about what they observed; Dr. Mariella Superina, who deliberately specialized within the conservation community in a single, little-noticed niche – armadillos, rather than the more prominent large mammals – and precisely through that became the irreplaceable, globally recognized voice for it."
+        beleg: "Heraclitus, who turned away from public life, 'which he considered superficial,' but remained 'devoted to Ephesus'; Hippocrates, who distanced himself from his family's religious healing arts: 'The armadillo remains part of the community of healers – but contradicts it at its core'; Fiona Apple, whose years of withdrawal from the spotlight made her 'nonetheless, or precisely because of that, one of the most unsparing observers'; Edgar Allan Poe and Marcel Proust, who withdrew physically in order to write about what they observed; Dr. Mariella Superina, who deliberately specialized within the conservation community in a single, little-noticed niche – armadillos, rather than the more prominent large mammals – and precisely through that became the irreplaceable, globally recognized voice for it; Prof. Lauren Gardner, whose transportation-engineering background was initially an outsider position within the epidemiology community – 'which role is still missing that only I, with my expertise, can fill?' – before her dashboard became the central reference point for the entire field."
       },
       {
         titel: "When the longing for belonging fails completely (shadow form)",
@@ -59018,6 +59081,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
+      "beruehmte-lauren-gardner": laurenGardnerPortraitPage,
       "beruehmte-carl-friedrich-gauss": carlFriedrichGaussPortraitPage,
       "beruehmte-paris-hilton": parisHiltonPortraitPage,
       "beruehmte-ingo-zimmermann": ingoZimmermannPortraitPage,
