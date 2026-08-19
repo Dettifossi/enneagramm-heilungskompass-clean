@@ -89226,17 +89226,22 @@ function subtypeSchaubilderPage() {
   `);
 }
 
+// Eigene, gedämpfte Kategorie-Farbpalette (bewusst abgesetzt von TYPE_COLORS, damit
+// keine Verwechslung mit den Enneagramm-Typfarben entsteht) – angelehnt an medizinische
+// Fachbuch-Konventionen (Herz/Kreislauf rötlich, Bewegungsapparat erdig, Atemwege luftig-
+// bläulich, Haut hautfarben, Nerven/Psyche blau, Immunsystem weinrot, Onkologie gedämpft-
+// dunkel), aber entsättigt genug, um zum ruhigen Gesamtbild des Kompasses zu passen.
 const PSYCHOSOMATIK_KATEGORIEN = [
-  { key: "herz-kreislauf", label: "Herz-Kreislauf-System" },
-  { key: "bewegungsapparat", label: "Bewegungsapparat" },
-  { key: "atemwege", label: "Atemwege & Lunge" },
-  { key: "verdauung", label: "Verdauungssystem" },
-  { key: "haut", label: "Haut" },
-  { key: "hormone-stoffwechsel", label: "Hormone & Stoffwechsel" },
-  { key: "nerven-psyche", label: "Nervensystem & Psyche" },
-  { key: "immunsystem", label: "Immunsystem & Autoimmun" },
-  { key: "onkologie", label: "Onkologie" },
-  { key: "sonstige", label: "Sonstige Krankheitsbilder" },
+  { key: "herz-kreislauf", label: "Herz-Kreislauf-System", farbe: "#b6483f" },
+  { key: "bewegungsapparat", label: "Bewegungsapparat", farbe: "#8a7860" },
+  { key: "atemwege", label: "Atemwege & Lunge", farbe: "#4a7f91" },
+  { key: "verdauung", label: "Verdauungssystem", farbe: "#ab7d42" },
+  { key: "haut", label: "Haut", farbe: "#c99b7a" },
+  { key: "hormone-stoffwechsel", label: "Hormone & Stoffwechsel", farbe: "#7d6a8c" },
+  { key: "nerven-psyche", label: "Nervensystem & Psyche", farbe: "#46688f" },
+  { key: "immunsystem", label: "Immunsystem & Autoimmun", farbe: "#7a3d4a" },
+  { key: "onkologie", label: "Onkologie", farbe: "#5c4a5e" },
+  { key: "sonstige", label: "Sonstige Krankheitsbilder", farbe: "#6b6558" },
 ];
 
 const PSYCHOSOMATIK_KRANKHEITEN = {
@@ -89394,18 +89399,20 @@ function psychosomatikPage() {
   const aktiveKategorien = PSYCHOSOMATIK_KATEGORIEN.filter(kat => byKategorie[kat.key] || (geplantByKategorie[kat.key] && geplantByKategorie[kat.key].length));
 
   const quickNav = aktiveKategorien.map(kat => {
+    const f = kat.farbe || "var(--copper)";
     return `<a href="#" onclick="event.preventDefault();var el=document.getElementById('psy-${kat.key}');if(el)el.scrollIntoView({behavior:'smooth',block:'start'});"
-      style="display:inline-block;padding:0.3rem 0.7rem;border-radius:6px;border:1.5px solid var(--copper);font-size:0.8rem;font-weight:700;color:var(--copper);background:var(--bg);text-decoration:none;opacity:0.85;"
-      onmouseover="this.style.opacity='1';this.style.background='color-mix(in srgb, var(--copper) 12%, var(--bg))'"
+      style="display:inline-block;padding:0.3rem 0.7rem;border-radius:6px;border:1.5px solid ${f};font-size:0.8rem;font-weight:700;color:${f};background:var(--bg);text-decoration:none;opacity:0.85;"
+      onmouseover="this.style.opacity='1';this.style.background='color-mix(in srgb, ${f} 12%, var(--bg))'"
       onmouseout="this.style.opacity='0.85';this.style.background='var(--bg)'">${kat.label}</a>`;
   }).join("");
 
   const sections = aktiveKategorien.map(kat => {
+    const f = kat.farbe || "var(--copper)";
     const items = (byKategorie[kat.key] || [])
       .slice()
       .sort((a, b) => a[1].titel.localeCompare(b[1].titel, "de"));
     const cards = items.map(([slug, k]) => `
-      <button class="tool-card--link" data-route="psychosomatik/${slug}" style="display:block;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;cursor:pointer;">
+      <button class="tool-card--link" data-route="psychosomatik/${slug}" style="display:block;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-left:4px solid ${f};border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;cursor:pointer;">
         <div style="display:flex;align-items:center;gap:0.7rem;margin-bottom:0.4rem;">
           <span style="font-size:1.4rem;">${k.icon}</span>
           <h3 style="margin:0;font-size:1.1rem;color:var(--ink);">${k.titel}</h3>
@@ -89418,12 +89425,12 @@ function psychosomatikPage() {
       <div style="margin:${cards ? "0.3rem" : "0"} 0 0.9rem;">
         <p style="font-size:0.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em;margin:0 0 0.5rem;">In Vorbereitung</p>
         <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">
-          ${geplant.map(titel => `<span style="display:inline-block;padding:0.3rem 0.65rem;border-radius:6px;background:color-mix(in srgb, var(--muted) 10%, var(--paper));color:var(--muted);font-size:0.82rem;">${titel}</span>`).join("")}
+          ${geplant.map(titel => `<span style="display:inline-block;padding:0.3rem 0.65rem;border-radius:6px;background:color-mix(in srgb, ${f} 10%, var(--paper));color:color-mix(in srgb, ${f} 70%, var(--muted));font-size:0.82rem;">${titel}</span>`).join("")}
         </div>
       </div>
     ` : "";
     return `
-      <div id="psy-${kat.key}" style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;color:var(--copper);text-transform:uppercase;padding:1.2rem 0 0.4rem;margin-top:0.5rem;border-bottom:1.5px solid color-mix(in srgb, var(--copper) 20%, var(--paper));">${kat.label}</div>
+      <div id="psy-${kat.key}" style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;color:${f};text-transform:uppercase;padding:1.2rem 0 0.4rem;margin-top:0.5rem;border-bottom:1.5px solid color-mix(in srgb, ${f} 30%, var(--paper));">${kat.label}</div>
       <div style="margin-top:0.8rem;">${cards}${geplantHtml}</div>
     `;
   }).join("");
