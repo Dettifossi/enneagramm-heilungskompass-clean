@@ -54732,11 +54732,26 @@ function subtypeChartsPage() {
   `);
 }
 
+const PSYCHOSOMATIK_KATEGORIEN = [
+  { key: "herz-kreislauf", label: "Cardiovascular System" },
+  { key: "bewegungsapparat", label: "Musculoskeletal System" },
+  { key: "atemwege", label: "Respiratory System & Lungs" },
+  { key: "verdauung", label: "Digestive System" },
+  { key: "haut", label: "Skin" },
+  { key: "hormone-stoffwechsel", label: "Hormones & Metabolism" },
+  { key: "nerven-psyche", label: "Nervous System & Psyche" },
+  { key: "immunsystem", label: "Immune System & Autoimmune" },
+  { key: "onkologie", label: "Oncology" },
+  { key: "sonstige", label: "Other Conditions" },
+];
+
 const PSYCHOSOMATIK_KRANKHEITEN = {
   herzinfarkt: {
     titel: "Heart Attack",
+    kategorie: "herz-kreislauf",
     icon: "&#10084;&#65039;",
     kurz: "When the heart no longer goes along with a life that has long been lived past it.",
+    definition: "A heart attack (myocardial infarction) refers to the acute death of heart-muscle tissue, usually caused by a blocked coronary artery, resulting in an insufficient supply of oxygen and nutrients (ischemia). The trigger is typically coronary artery disease (CAD) – a progressive narrowing of the coronary arteries caused by atherosclerosis, i.e. deposits (plaques) on the vessel walls. If such a plaque ruptures, a blood clot (thrombus) can form that completely blocks the vessel.",
     disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor.",
     einleitung: "Cardiology has known since the 1950s the concept of the &bdquo;Type A personality&ldquo; (Friedman &amp; Rosenman): ambitious, time-driven, competitive, with suppressed or explosive aggression – a pattern that long-term studies correlate with elevated cardiovascular risk. Traditional Chinese Medicine likewise assigns the heart to the Fire element, the seat of Shen, the spirit and the joy of life – when this fire falls out of rhythm, psychosomatic medicine often reads it as an expression of denied or forced joy, chronic self-overextension, or a life that has long been lived past one's own heart.",
     subtypen: [
@@ -54772,26 +54787,87 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
   },
 };
 
+function _psychosomatikBuecherHtml() {
+  const w = text.werk;
+  const books = werkRegister.filter(b => b.category === "homoeopathie");
+  const cards = books.map((book) => {
+    const isPending = book.status === "link_pruefen";
+    const verlagsLink = isPending
+      ? `<span class="deepen-link deepen-link--pending">${w.linkPending}</span>`
+      : `<a class="deepen-link" href="${book.link}" target="_blank" rel="noopener">${w.openBook} →</a>`;
+    const bodLink = !isPending && book.bodUrl
+      ? `<a class="deepen-link deepen-link--bod" href="${book.bodUrl}" target="_blank" rel="noopener">Buy at BoD →</a>`
+      : "";
+    const coverImg = `<img src="${CDN}assets/covers/${book.id}.jpg" alt="" loading="lazy"
+      onerror="this.parentElement.style.display='none'"
+      style="width:60px;flex-shrink:0;border-radius:4px;object-fit:cover;align-self:flex-start;box-shadow:0 1px 4px rgba(0,0,0,.18);">`;
+    return `
+      <article class="werk-card" style="display:flex;gap:.75rem;align-items:flex-start;">
+        <div style="width:60px;flex-shrink:0;">${coverImg}</div>
+        <div style="min-width:0;">
+          <h3 style="margin-top:0;">${book.title}</h3>
+          <p class="werk-card__themes">${w.themes}: ${book.themes.join(" · ")}</p>
+          <div class="werk-card__links">${verlagsLink}${bodLink}</div>
+        </div>
+      </article>`;
+  }).join("");
+
+  return `
+    <section class="werk" style="margin-top:2.5rem;">
+      <div class="section-divider"><span>Books on Healing</span></div>
+      <p class="lead-small werk__lead">The publishing program on homeopathy and Enneagram healing arts &ndash; the professional foundation this Psychosomatics Register also draws on.</p>
+      <div class="werk-grid">${cards}</div>
+    </section>
+  `;
+}
+
 function psychosomatikPage() {
   const entries = Object.entries(PSYCHOSOMATIK_KRANKHEITEN);
-  const cards = entries.map(([slug, k]) => `
-    <button class="tool-card--link" data-route="psychosomatik/${slug}" style="display:block;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;cursor:pointer;">
-      <div style="display:flex;align-items:center;gap:0.7rem;margin-bottom:0.4rem;">
-        <span style="font-size:1.4rem;">${k.icon}</span>
-        <h3 style="margin:0;font-size:1.1rem;color:var(--ink);">${k.titel}</h3>
-      </div>
-      <p style="margin:0;font-size:0.9rem;color:var(--muted);">${k.kurz}</p>
-    </button>
-  `).join("");
+  const byKategorie = {};
+  entries.forEach(([slug, k]) => {
+    const kat = k.kategorie || "sonstige";
+    (byKategorie[kat] = byKategorie[kat] || []).push([slug, k]);
+  });
+  const aktiveKategorien = PSYCHOSOMATIK_KATEGORIEN.filter(kat => byKategorie[kat.key]);
+
+  const quickNav = aktiveKategorien.map(kat => {
+    return `<a href="#" onclick="event.preventDefault();var el=document.getElementById('psy-${kat.key}');if(el)el.scrollIntoView({behavior:'smooth',block:'start'});"
+      style="display:inline-block;padding:0.3rem 0.7rem;border-radius:6px;border:1.5px solid var(--copper);font-size:0.8rem;font-weight:700;color:var(--copper);background:var(--bg);text-decoration:none;opacity:0.85;"
+      onmouseover="this.style.opacity='1';this.style.background='color-mix(in srgb, var(--copper) 12%, var(--bg))'"
+      onmouseout="this.style.opacity='0.85';this.style.background='var(--bg)'">${kat.label}</a>`;
+  }).join("");
+
+  const sections = aktiveKategorien.map(kat => {
+    const items = byKategorie[kat.key]
+      .slice()
+      .sort((a, b) => a[1].titel.localeCompare(b[1].titel, "en"));
+    const cards = items.map(([slug, k]) => `
+      <button class="tool-card--link" data-route="psychosomatik/${slug}" style="display:block;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;cursor:pointer;">
+        <div style="display:flex;align-items:center;gap:0.7rem;margin-bottom:0.4rem;">
+          <span style="font-size:1.4rem;">${k.icon}</span>
+          <h3 style="margin:0;font-size:1.1rem;color:var(--ink);">${k.titel}</h3>
+        </div>
+        <p style="margin:0;font-size:0.9rem;color:var(--muted);">${k.kurz}</p>
+      </button>
+    `).join("");
+    return `
+      <div id="psy-${kat.key}" style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;color:var(--copper);text-transform:uppercase;padding:1.2rem 0 0.4rem;margin-top:0.5rem;border-bottom:1.5px solid color-mix(in srgb, var(--copper) 20%, var(--paper));">${kat.label}</div>
+      <div style="margin-top:0.8rem;">${cards}</div>
+    `;
+  }).join("");
 
   return shell(`
     <div class="page-container">
       ${pageHeader("psychosomatik")}
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Psychosomatics Register</h1>
       <p class="psycho-intro">Illnesses seen through a psychosomatic lens, connected to the Enneagram: where do typical inner patterns of a given subtype show up in connection with certain symptom pictures, among many other factors? <strong>Important: every person can develop any illness, regardless of subtype.</strong> This page does not replace a medical diagnosis or treatment, but offers a complementary, holistic layer of interpretation – in the same spirit as the Homeopathy section of this Compass: not addressing the symptom, but the underlying life force.</p>
-      <div style="max-width:640px;margin-top:1.2rem;">
-        ${cards}
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.4rem;margin:1.3rem 0 0.4rem;">
+        ${quickNav}
       </div>
+      <div style="max-width:640px;margin-top:0.6rem;">
+        ${sections}
+      </div>
+      ${_psychosomatikBuecherHtml()}
       ${relatedLinks([
         {route:"healing", label:"Healing Compass"},
         {route:"homoeopathie", label:"Homeopathic Remedies"},
@@ -54819,6 +54895,11 @@ function psychosomatikDetailPage(slug) {
       ${pageHeader("psychosomatik")}
       <button class="ghost-link" data-route="psychosomatik" style="margin-bottom:1rem;">&larr; All Illnesses</button>
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:0 0 0.6rem;">${k.icon} ${k.titel}</h1>
+      ${k.definition ? `
+      <div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
+        <p style="font-size:0.75rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.5rem;">Definition</p>
+        <p style="margin:0;font-size:0.92rem;line-height:1.65;color:var(--ink);">${k.definition}</p>
+      </div>` : ""}
       <div style="background:color-mix(in srgb, var(--copper) 8%, var(--paper));border-radius:10px;padding:1rem 1.2rem;margin-bottom:1.3rem;max-width:640px;">
         <p style="margin:0;font-size:0.88rem;font-style:italic;color:var(--muted);">${k.disclaimer}</p>
       </div>
