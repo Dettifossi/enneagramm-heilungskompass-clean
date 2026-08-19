@@ -31870,6 +31870,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Johnny Depp \u2013 Sozialer Typ 4",
     teaser:"SO4w3 \u00b7 geb. 1963. Schauspieler und Musiker. Captain Jack Sparrow, Edward mit den Scherenh\u00e4nden, Hollywood Vampires. Das G\u00fcrteltier, das sein Anderssein nie versteckte, sondern zur schillerndsten B\u00fchnenfigur seiner Zeit machte.",
     land:"USA", tags:["Film","Musik"], gender:"m"},
+  { route:"beruehmte-hugh-grant", name:"Hugh Grant", added:"2026-08-19", subtyp:"SO4w3",
+    heading:"Hugh Grant \u2013 Sozialer Typ 4",
+    teaser:"SO4w3 \u00b7 geb. 1960. Schauspieler. Vom stotternden romantischen Helden zum abgr\u00fcndigen Charakterdarsteller. Das G\u00fcrteltier, das seine Unsicherheit zum Markenzeichen machte.",
+    land:"Gro\u00dfbritannien", tags:["Film"], gender:"m"},
   { route:"beruehmte-john-lennon", name:"John Lennon", subtyp:"SO4w5",
     heading:"John Lennon \u2013 Sozialer Typ 4",
     teaser:"SO4w5 \u00b7 1940\u20131980. Musiker, Komponist, Friedensaktivist, Mitbegr\u00fcnder der Beatles. Das G\u00fcrteltier, das die Welt fragte: Stell Dir vor, es w\u00e4re Frieden.",
@@ -43000,7 +43004,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter",
         beschreibung: "Naranjo nannte diesen Subtyp den der ›Scham‹: das tiefe Gefühl, strukturell anders und mangelhaft zu sein. Nach außen zeigt sich häufig eine wirkende, undurchdringliche Fassade – Coolness, Perfektion, Humor –, die ein extrem verletzliches Inneres schützt, ohne es je ganz zu verbergen.",
-        beleg: "Romy Schneider: ›Das Gürteltier, das sich in der Öffentlichkeit zeigt und sich dabei innerlich einrollt‹ – ›Schmerz, Einsamkeit, das Gefühl, nie wirklich gesehen zu werden‹; Michael Jackson: ›Das Gürteltier zeigt der Welt seine Rüstung. Was darunter liegt, zeigt es fast niemandem‹; Til Schweiger und Taddl, deren ›glatte Außenfassade‹ bzw. ›scheinbar sorgloser Humor‹ dieselbe tiefe emotionale Verletzlichkeit schützt."
+        beleg: "Romy Schneider: ›Das Gürteltier, das sich in der Öffentlichkeit zeigt und sich dabei innerlich einrollt‹ – ›Schmerz, Einsamkeit, das Gefühl, nie wirklich gesehen zu werden‹; Michael Jackson: ›Das Gürteltier zeigt der Welt seine Rüstung. Was darunter liegt, zeigt es fast niemandem‹; Til Schweiger und Taddl, deren ›glatte Außenfassade‹ bzw. ›scheinbar sorgloser Humor‹ dieselbe tiefe emotionale Verletzlichkeit schützt; Hugh Grant, der sich selbst wiederholt als ›terribly insecure‹ bezeichnete und dessen charmant-stotternde Leinwandfigur genau jene Unsicherheit zur Schau trug, die er privat als chronisches Selbsthass-Gefühl beschrieb."
       },
       {
         titel: "Trägt das eigene Anderssein sichtbar zur Schau, statt es zu verbergen",
@@ -51997,6 +52001,70 @@ function edgarAllanPoePortraitPage() {
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
         {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
         {route:"beruehmte-fiona-apple", label:"Portr\xe4t: Fiona Apple (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+function hughGrantPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hugh-grant-portrait.jpg" alt="Hugh Grant – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hugh Grant</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Sozialer Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Britischer Schauspieler, geb. 1960 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier mit dem stotternden Charme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier &ndash; ein Wesen, das sein Anderssein nicht verbirgt, sondern sichtbar auf der Haut trägt. Anders als seine introvertierten Artgenossen versteckt sich diese Vier nicht im eigenen Panzer, sondern macht ihn zum Markenzeichen &ndash; als Beweis der eigenen Einzigartigkeit, auf einer Bühne, die alle sehen können.</p>
+          <p class="vb-intro">Der britische Schauspieler Hugh Grant wurde 1960 in London geboren, studierte Englische Literatur in Oxford und stand dort bereits auf der Theaterbühne, bevor er sich zaghaft dem Film zuwandte. Sein internationaler Durchbruch kam erst 1994, mit Mitte dreißig, in &bdquo;Vier Hochzeiten und ein Todesfall&ldquo; &ndash; eine Rolle, die eine ganz bestimmte Figur prägte: den charmant stotternden, sich ständig entschuldigenden Englishman, der vor lauter Selbstzweifel kaum einen Satz zu Ende bringt. Diese eine, unverwechselbare Nuance wurde zu seinem Markenzeichen &ndash; und zur Blaupause seiner gesamten frühen Karriere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Die eigene Unbeholfenheit als Alleinstellungsmerkmal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> lebt ihre Andersartigkeit nicht im Verborgenen, sondern sucht die Gruppe, um genau dort als die besondere Ausnahme wahrgenommen zu werden. Grant baute seine gesamte frühe Karriere auf einer einzigen, hochspezifischen Andersartigkeit auf: der eigenen, öffentlich zur Schau gestellten sozialen Unbeholfenheit. In &bdquo;Notting Hill&ldquo;, &bdquo;Bridget Jones&ldquo; und &bdquo;Tatsächlich... Liebe&ldquo; spielte er Variationen derselben Figur: liebenswert, aber strukturell unsicher, unfähig, seine eigenen Gefühle geradeheraus auszusprechen.</p>
+          <p class="vb-intro">Grant selbst hat diese Selbstwahrnehmung immer wieder öffentlich bestätigt: Er beschrieb sich als &bdquo;terribly insecure&ldquo; und sagte, er habe sein ganzes Leben lang befürchtet, jeder Film könnte sein letzter sein. Für die soziale Vier ist genau das typisch: Die eigene Verletzlichkeit wird nicht versteckt, sondern in ein wiedererkennbares Bild verwandelt, das ein Millionenpublikum fasziniert &ndash; und das zugleich beweist, wie sehr man sich von der Masse selbstsicherer Leinwandhelden unterscheidet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die kalkulierte Neuerfindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> verleiht der Vier die Fähigkeit, das eigene Bild nicht nur zu fühlen, sondern es gezielt zu vermarkten und bei Bedarf neu zu erfinden. Als Grant selbst befand, er sei &bdquo;zu alt und zu hässlich und zu dick&ldquo; geworden, um weiter den romantischen Helden zu spielen, vollzog er eine der bemerkenswertesten Image-Wenden Hollywoods: Er wurde zum Charakterdarsteller für schillernde Bösewichte und komplexe Nebenfiguren &ndash; der eitle Kinderbuchautor in &bdquo;Paddington 2&ldquo;, der windige Anwalt in &bdquo;The Gentlemen&ldquo;, der Politiker Jeremy Thorpe in &bdquo;A Very English Scandal&ldquo;, für den er eine Emmy-Nominierung erhielt.</p>
+          <p class="vb-intro">Diese bewusste, strategische Neupositionierung &ndash; weg vom liebenswerten Stotterer, hin zum abgründigen Charakterdarsteller &ndash; ist die reinste Ausprägung der SO4w3: Die Vier fühlt die eigene Vergänglichkeit des alten Images, der Dreierflügel setzt daraus eine neue, erfolgreiche Performance in Szene, statt in der alten Rolle zu verharren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Preis der öffentlichen Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1995, auf dem Höhepunkt seines Ruhms, wurde Grant in Los Angeles wegen einer öffentlichen Verfehlung verhaftet &ndash; ein persönlicher Tiefpunkt, der jede Boulevardzeitung der Welt füllte. Statt sich zurückzuziehen, ging Grant wenige Tage später live in die &bdquo;Tonight Show&ldquo; zu Jay Leno und stellte sich der öffentlichen Demütigung direkt: mit genau jener selbstironischen, verlegenen Offenheit, die schon seine Filmfigur ausmachte. Der Auftritt gilt bis heute als eines der geschicktesten Krisen-Interviews der Promigeschichte &ndash; und rettete seine Karriere, statt sie zu beenden.</p>
+          <p class="vb-intro">Für die soziale Vier mit Dreierflügel wurde ausgerechnet der tiefste persönliche Fehltritt zu einer öffentlichen Bühne: Die Scham wurde nicht verborgen, sondern in Echtzeit in eine Performance verwandelt, die das Publikum überzeugte &ndash; ein Muster, das sich Jahrzehnte später in Grants viel diskutierten, bewusst unbequemen Interviewauftritten wiederholt, etwa bei den Oscars 2023, die als &bdquo;deliciously awkward&ldquo; durch die sozialen Medien gingen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w3 ist die Fähigkeit, <strong>tiefe Unsicherheit in wirkungsvolle Kunst</strong> zu verwandeln &ndash; aus einer einzigen, ehrlich empfundenen Schwäche eine Figur zu formen, die ein Millionenpublikum über Jahrzehnte hinweg liebt. Grants beste Rollen leben genau von diesem Wagnis: der eigenen Verlegenheit nicht auszuweichen, sondern sie zur komischen wie berührenden Kunstform zu machen.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einer chronischen, öffentlich eingestandenen Selbstabwertung: Grant bezeichnete sich selbst wiederholt als das &bdquo;dumme&ldquo; Familienmitglied und sprach von &bdquo;marginally less self-hatred&ldquo;, seit er nicht mehr auf die romantische Rolle festgelegt sei. Die Kehrseite der SO4w3: Wenn die eigene Unsicherheit zum verlässlichsten Kapital wird, kann echte Selbstannahme hinter der perfekt kalkulierten Selbstironie verschwinden &ndash; und mancher Interviewpartner bekommt statt Charme nur noch die abweisende, gereizte Seite dieser Fassade zu sehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Gürteltier, das seine Unsicherheit zur Signatur machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hugh Grant bleibt einer der wenigen Schauspieler, die zwei komplett unterschiedliche Karrierephasen zu jeweils eigenständigen Erfolgen gemacht haben &ndash; erst als der stotternde romantische Held eines ganzen Genres, dann als einer der interessantesten Charakterdarsteller seiner Generation. Beide Phasen speisen sich aus derselben Quelle: der Bereitschaft, die eigene Unbeholfenheit und Unsicherheit nicht zu verstecken, sondern sichtbar zu machen.</p>
+          <p class="vb-intro">Das Gürteltier, das seine verletzlichste Seite nie verbarg, sondern sie erst zum Markenzeichen des liebenswerten Stotterers und später zur Grundlage abgründiger Charakterrollen machte &ndash; das ist das bleibende Bild der sozialen Vier mit Dreierflügel: Verletzlichkeit, die sich neu erfindet, statt zu verschwinden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-johnny-depp", label:"Portr\xe4t: Johnny Depp (SO4w3)"},
+        {route:"beruehmte-til-schweiger", label:"Portr\xe4t: Til Schweiger (SO4w3)"},
       ])}
     </div>
   `);
@@ -93444,6 +93512,7 @@ function render() {
     "beruehmte-gerhard-schroeder": gerhardSchroederPortraitPage,
     "beruehmte-konrad-adenauer": konradAdenauerPortraitPage,
     "beruehmte-edgar-allan-poe": edgarAllanPoePortraitPage,
+    "beruehmte-hugh-grant": hughGrantPortraitPage,
     "beruehmte-johnny-depp": johnnyDeppPortraitPage,
     "beruehmte-morgan-freeman": morganFreemanPortraitPage,
     "beruehmte-leonard-bernstein": leonardBernsteinPortraitPage,
