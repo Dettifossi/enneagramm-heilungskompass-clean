@@ -529,6 +529,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Annika von Mutius – Self-Preservation Type 3",
     teaser:"SE3w4 · German entrepreneur, founder of the AI recruiting startup Empion. PhD mathematician, Forbes \"30 Under 30 Europe.\" Substance over staging as the driving force. Animal correspondence: Raccoon.",
     land:"Germany", tags:["Wirtschaft"], gender:"f"},
+{ route:"beruehmte-changpeng-zhao", name:"Changpeng Zhao", added:"2026-08-19", subtyp:"SE3w4",
+    heading:"Changpeng Zhao – Self-Preservation Type 3",
+    teaser:"SE3w4 · Canadian-Chinese entrepreneur, founder of Binance, the world's largest crypto exchange. Technical infrastructure over performance, a radically independent path outside existing rulebooks. Animal correspondence: Raccoon.",
+    land:"Canada/China", tags:["Wirtschaft"], gender:"m"},
 { route:"beruehmte-madame-tussaud", name:"Madame Tussaud", added:"2026-08-08", subtyp:"SE3w4",
     heading:"Madame Tussaud – Self-Preservation Type 3",
     teaser:"SP3w4 · 1761–1850. Wax sculptor, museum founder. Death masks of guillotine victims during the French Revolution, 33 years touring Britain, the \"Chamber of Horrors\" – the raccoon that turned pure survival skill into a world enterprise. Animal correspondence: Raccoon.",
@@ -36194,6 +36198,65 @@ function annikaVonMutiusPortraitPage() {
   `);
 }
 
+function changpengZhaoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-changpeng-zhao-portrait.jpg" alt="Changpeng Zhao – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Changpeng Zhao</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Canadian-Chinese entrepreneur, founder of Binance &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that is easy to underestimate. No loud entrance, no glamour, no self-staging for its own sake. The raccoon works with skillful, deft hands out of sight, and only becomes visible once you look closely at everything it can actually do.</p>
+          <p class="vb-intro">The Canadian-Chinese entrepreneur Changpeng Zhao, usually known simply as "CZ," was born in 1977 in China's Jiangsu province and emigrated with his family to Canada as a teenager, growing up in Vancouver and studying computer science at McGill University. Before founding his own company, he worked in the technical background of financial systems &ndash; at Bloomberg Tradebook, at the trading-software firm Fusion Systems, and finally as Chief Technology Officer at OKCoin, at the time one of the largest crypto exchanges in the world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Three: Infrastructure Over Performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> is the counter-type of the Three &ndash; the subtype that does not display achievement outwardly but directs it inward: toward security, competence, craft mastery. SE3 does not ask <em>How am I seen?</em> but <em>What can I actually do?</em></p>
+          <p class="vb-intro">In 2013, Zhao became interested in Bitcoin and sold his apartment in Shanghai to devote himself fully to it. In 2017, he founded Binance &ndash; within a few years, the platform became the largest cryptocurrency exchange in the world, offering spot trading, futures markets, staking services, and its own BNB ecosystem. The rise came not through spectacular public appearances but through technical infrastructure that reliably worked, while numerous competing exchanges failed at scaling and stability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: A Path of One's Own in an Unregulated Industry</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three a question that goes beyond mere competence: <em>What does my path mean &ndash; beyond what is expected of me?</em> Zhao deliberately built Binance outside the established financial world, without a fixed headquarters, with a workforce spread out decentrally across the entire globe &ndash; a radically individual organizational path that submitted to no classic corporate structure.</p>
+          <p class="vb-intro">This independence was at once his greatest commercial advantage and his greatest regulatory risk: for years, Binance operated in a gray zone it had essentially created for itself, between the regulatory systems of different countries &ndash; a path that enabled growth no established financial company would have taken in the same way.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Price of Self-Made Rules</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In November 2023, as part of a settlement with US authorities, Zhao pleaded guilty to failing to maintain an effective anti-money-laundering program &ndash; a violation of the Bank Secrecy Act. Binance paid a $4.32 billion penalty, Zhao personally paid a $50 million criminal fine plus another $50 million to the US Commodity Futures Trading Commission. He stepped down as CEO and, under the terms of the settlement, was barred from any managerial role at Binance. In April 2024, he was sentenced to four months in prison &ndash; far less than the 36 months prosecutors had sought.</p>
+          <p class="vb-intro">Unlike pure fraud cases, this was not about embezzled customer funds, but about a systematic compliance failure within an otherwise functioning business &ndash; the flip side of the unregulated w4 path: whoever deliberately moves outside existing systems ultimately also carries their consequences once those systems catch up.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SE3w4 is its ability to draw genuine uniqueness from pure technical craft. Zhao built infrastructure that millions of people around the world actually used &ndash; not through hype, but because the product worked, while numerous competitors failed due to security breaches and outages.</p>
+          <p class="vb-intro">The passion of the Three is <strong>vanity / deceit</strong> &ndash; in SE3w4, subtly present as the need to be seen as unique and untouchable, while the actual substance is rarely explained to the outside world. The shadow of the Four-wing showed itself here very concretely: the deliberate refusal to conform to existing rulebooks, which had made Binance great, ultimately became a criminal consequence &ndash; a pattern that shows how narrow the line between an independent path and breaking the rules can be.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-annika-von-mutius", label:"Portrait: Dr. Annika von Mutius (SE3w4)"},
+        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function sadhguruPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -59383,6 +59446,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
       "beruehmte-judit-polgar": juditPolgarPortraitPage,
       "beruehmte-annika-von-mutius": annikaVonMutiusPortraitPage,
+      "beruehmte-changpeng-zhao": changpengZhaoPortraitPage,
       "beruehmte-anna-anderson": annaAndersonPortraitPage,
       "beruehmte-peter-falk": peterFalkPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,

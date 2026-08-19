@@ -31722,6 +31722,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Annika von Mutius – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · Deutsche Unternehmerin, Gründerin des KI-Recruiting-Start-ups Empion. Promovierte Mathematikerin, Forbes „30 Under 30 Europe“. Substanz statt Inszenierung als Antrieb. Tierentsprechung: Waschbär.",
     land:"Deutschland", tags:["Wirtschaft"], gender:"f"},
+  { route:"beruehmte-changpeng-zhao", name:"Changpeng Zhao", added:"2026-08-19", subtyp:"SE3w4",
+    heading:"Changpeng Zhao – Selbsterhaltender Typ 3",
+    teaser:"SE3w4 · Kanadisch-chinesischer Unternehmer, Gründer von Binance, der größten Kryptobörse der Welt. Technische Infrastruktur statt Auftritt, radikal eigener Weg außerhalb bestehender Regelwerke. Tierentsprechung: Waschbär.",
+    land:"Kanada/China", tags:["Wirtschaft"], gender:"m"},
   { route:"beruehmte-madame-tussaud", name:"Madame Tussaud", added:"2026-08-08", subtyp:"SE3w4",
     heading:"Madame Tussaud \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w4 \u00b7 1761\u20131850. Wachsbildnerin, Museumsgr\u00fcnderin. Totenmasken der Guillotine-Opfer w\u00e4hrend der Franz\u00f6sischen Revolution, 33 Jahre Wandertournee durch Gro\u00dfbritannien, das \u201eKabinett des Schreckens\u201c \u2013 der Waschb\u00e4r, der aus reiner \u00dcberlebensfertigkeit ein Weltunternehmen baute. Tierentsprechung: Waschb\u00e4r.",
@@ -63889,6 +63893,65 @@ function annikaVonMutiusPortraitPage() {
   `);
 }
 
+function changpengZhaoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-changpeng-zhao-portrait.jpg" alt="Changpeng Zhao – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Changpeng Zhao</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Kanadisch-chinesischer Unternehmer, Gründer von Binance &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das man leicht unterschätzt. Kein lauter Auftritt, kein Glamour, keine Inszenierung um ihrer selbst willen. Der Waschbär arbeitet mit feinen, geschickten Händen im Verborgenen und wird erst dann sichtbar, wenn man genau hinschaut, was er eigentlich alles kann.</p>
+          <p class="vb-intro">Der kanadisch-chinesische Unternehmer Changpeng Zhao, meist nur als &bdquo;CZ&ldquo; bekannt, wurde 1977 in der chinesischen Provinz Jiangsu geboren und wanderte als Teenager mit seiner Familie nach Kanada aus, wo er in Vancouver aufwuchs und Informatik an der McGill University studierte. Vor der eigenen Firmengründung arbeitete er handwerklich-technisch im Hintergrund von Finanzsystemen &ndash; bei Bloomberg Tradebook, bei der Handelssoftware-Firma Fusion Systems und schließlich als Chief Technology Officer bei OKCoin, einer der damals größten Krypto-Börsen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Infrastruktur statt Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei &ndash; der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em></p>
+          <p class="vb-intro">2013 wurde Zhao auf Bitcoin aufmerksam und verkaufte seine Wohnung in Shanghai, um sich vollständig dem Thema zu widmen. 2017 gründete er Binance &ndash; innerhalb weniger Jahre wurde die Plattform zur größten Kryptowährungsbörse der Welt, mit Spot-Handel, Terminmärkten, Staking-Diensten und dem eigenen BNB-Ökosystem. Der Aufstieg gelang nicht durch spektakuläre öffentliche Auftritte, sondern durch technische Infrastruktur, die zuverlässig funktionierte, während andere Börsen an Skalierung und Stabilität scheiterten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Der eigene, unangepasste Weg in einer neuen Branche</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet mein Weg &ndash; jenseits dessen, was von mir erwartet wird?</em> Zhao baute Binance bewusst außerhalb der etablierten Finanzwelt auf, ohne festen Firmensitz, mit einer dezentral über die ganze Welt verteilten Belegschaft &ndash; ein radikal eigener organisatorischer Weg, der sich keiner klassischen Unternehmensstruktur unterordnete.</p>
+          <p class="vb-intro">Diese Eigenständigkeit war zugleich sein größter kommerzieller Vorteil und sein größtes regulatorisches Risiko: Binance operierte über Jahre in einem selbst geschaffenen Graubereich zwischen den Regulierungssystemen verschiedener Länder &ndash; ein Weg, der Wachstum ermöglichte, den kein etabliertes Finanzunternehmen so gegangen wäre.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Preis der eigenen Regellosigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im November 2023 bekannte sich Zhao im Rahmen einer Einigung mit US-Behörden schuldig, kein wirksames Programm gegen Geldwäsche unterhalten zu haben &ndash; ein Verstoß gegen den Bank Secrecy Act. Binance zahlte eine Strafe von 4,32 Milliarden US-Dollar, Zhao persönlich 50 Millionen Dollar Bußgeld und weitere 50 Millionen an die US-Terminbörsenaufsicht. Er trat als CEO zurück und durfte laut Vergleich keine Führungsrolle bei Binance mehr ausüben. Im April 2024 wurde er zu vier Monaten Haft verurteilt &ndash; deutlich weniger als die von der Staatsanwaltschaft geforderten 36 Monate.</p>
+          <p class="vb-intro">Anders als bei reinen Betrugsfällen ging es hier nicht um veruntreute Kundengelder, sondern um ein systematisches Versäumnis bei der Regelkonformität eines im Kern funktionierenden Geschäfts &ndash; die Kehrseite des unangepassten w4-Wegs: Wer sich bewusst außerhalb bestehender Systeme bewegt, trägt am Ende auch deren Konsequenzen, wenn diese Systeme ihn schließlich einholen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem technischem Handwerk echte Einzigartigkeit zu schöpfen. Zhao baute eine Infrastruktur, die Millionen Menschen weltweit tatsächlich nutzten &ndash; nicht durch Hype, sondern weil das Produkt funktionierte, während zahlreiche Wettbewerber an Sicherheitslücken und Ausfällen scheiterten.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unangreifbar zu gelten, während die eigentliche Substanz nach außen kaum erklärt wird. Der Schatten des Viererflügels zeigte sich hier sehr konkret: Der bewusste Verzicht auf Anpassung an bestehende Regelwerke, der Binance groß gemacht hatte, wurde am Ende zur strafrechtlichen Konsequenz &ndash; ein Muster, das zeigt, wie schmal der Grat zwischen eigenständigem Weg und Regelbruch sein kann.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-annika-von-mutius", label:"Porträt: Dr. Annika von Mutius (SE3w4)"},
+        {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function davidLRathmerPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -93591,6 +93654,7 @@ function render() {
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
       "beruehmte-judit-polgar": juditPolgarPortraitPage,
       "beruehmte-annika-von-mutius": annikaVonMutiusPortraitPage,
+      "beruehmte-changpeng-zhao": changpengZhaoPortraitPage,
       "beruehmte-anna-anderson": annaAndersonPortraitPage,
       "beruehmte-peter-falk": peterFalkPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
