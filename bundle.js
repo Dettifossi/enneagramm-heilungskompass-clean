@@ -32137,6 +32137,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Andy Reid \u2013 Sozialer Typ 6",
     teaser:"SO6w5 \u00b7 geb. 1958. NFL-Head-Coach, Kansas City Chiefs. \u00dcber zwei Jahrzehnte dieselbe Grundstruktur, Hunderte Spielz\u00fcge im Kopf, drei Super-Bowl-Titel. Das Erdm\u00e4nnchen, das die Playbook-Wache nie verl\u00e4sst.",
     tags:["Sport","F\u00fchrung"], gender:"m"},
+  { route:"beruehmte-marta-manser", name:"Prof. Dr. Marta Manser", added:"2026-08-19", subtyp:"SO6w5",
+    heading:"Prof. Dr. Marta Manser \u2013 Sozialer Typ 6",
+    teaser:"SO6w5 \u00b7 Schweizer Verhaltensbiologin, Professorin an der Universit\u00e4t Z\u00fcrich, Leiterin des Kalahari Research Centre. Entschl\u00fcsselte das komplexe Warnrufsystem der Erdm\u00e4nnchen \u2013 ein Fr\u00fchwarnsystem f\u00fcr die ganze Gruppe. Tierentsprechung: Erdm\u00e4nnchen.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-donata-hopfen", name:"Donata Hopfen", added:"2026-07-21", subtyp:"SO6w7",
     heading:"Donata Hopfen \u2013 Sozialer Typ 6",
     teaser:"SO6w7 \xb7 geb. 1976 in Hamburg. Unternehmensberaterin, Digitalstrategin, Ex-CEO der Bild und der DFL. Das Erdm\xe4nnchen, das vorausl\xe4uft &ndash; und der Gruppe den Weg freimacht.",
@@ -35258,6 +35262,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-ingo-zimmermann", name:"Prof. Dr. Ingo Zimmermann", subtyp:"SE5w4", tier:"Eule"},
   {route:"beruehmte-hugh-warwick", name:"Hugh Warwick", subtyp:"SX5w4", tier:"Igel"},
   {route:"beruehmte-anne-mcbride", name:"Dr. Anne McBride", subtyp:"SE6w5", tier:"Kaninchen"},
+  {route:"beruehmte-marta-manser", name:"Prof. Dr. Marta Manser", subtyp:"SO6w5", tier:"Erdmännchen"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42757,12 +42762,12 @@ const LEBENSMUSTERKOMPASS = {
   SO6: {
     tier: "Erdmännchen",
     kernthema: "Wache halten für die Gruppe, nicht für sich selbst – Sicherheit durch Zugehörigkeit und Pflicht",
-    beispiele: ["Melanie Kreis", "Immanuel Kant", "Dr. Sigmund Freud", "Andy Reid", "Donata Hopfen", "Herbert Grönemeyer", "James Corden", "Adolf Eichmann"],
+    beispiele: ["Melanie Kreis", "Immanuel Kant", "Dr. Sigmund Freud", "Andy Reid", "Donata Hopfen", "Herbert Grönemeyer", "James Corden", "Adolf Eichmann", "Prof. Dr. Marta Manser"],
     fingerabdruecke: [
       {
         titel: "Wache halten für die Gruppe, nicht für sich selbst",
         beschreibung: "Die eigene Rolle wird konsequent dem Kollektiv untergeordnet: Sichtbarkeit oder persönlicher Auftritt sind nachrangig gegenüber der zuverlässigen Erfüllung der eigenen Funktion im System.",
-        beleg: "Melanie Kreis: ›Sie wird beschrieben als zuverlässig, präzise, analytisch – und als jemand, der für den Konzern arbeitet, nicht für den eigenen Auftritt. Das ist das Erdmännchen: Es hält Wache. Nicht für sich. Für die Gruppe‹; Andy Reid: ›Nicht das lauteste Tier im Rudel, sondern dasjenige, das am längsten und zuverlässigsten Wache hält – für ein System, das größer ist als es selbst‹; James Corden: ›Es ist selten das größte Tier im Rudel, aber immer das, das am meisten dafür tut, dass alle zusammenbleiben.‹"
+        beleg: "Melanie Kreis: ›Sie wird beschrieben als zuverlässig, präzise, analytisch – und als jemand, der für den Konzern arbeitet, nicht für den eigenen Auftritt. Das ist das Erdmännchen: Es hält Wache. Nicht für sich. Für die Gruppe‹; Andy Reid: ›Nicht das lauteste Tier im Rudel, sondern dasjenige, das am längsten und zuverlässigsten Wache hält – für ein System, das größer ist als es selbst‹; James Corden: ›Es ist selten das größte Tier im Rudel, aber immer das, das am meisten dafür tut, dass alle zusammenbleiben‹; Prof. Dr. Marta Manser, die wissenschaftlich entschlüsselte, wie das Warnrufsystem der Erdmännchen die ganze Gruppe schützt – und ihren eigenen Vortrag dazu bezeichnenderweise ›Teamarbeit in der Savanne‹ nannte, nicht ›meine Entdeckung‹."
       },
       {
         titel: "Sicherheit durch feste, verlässliche Routine statt Aufbruch",
@@ -48377,6 +48382,67 @@ function johnWaynePortraitPage() {
         {route:"beruehmte-gerhard-schroeder", label:"Porträt: Gerhard Schröder (SX8w7)"},
         {route:"beruehmte-pablo-picasso", label:"Porträt: Pablo Picasso (SX8w7)"},
       ])}
+    </div>
+  `);
+}
+
+function martaManserPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marta-manser-portrait.jpg" alt="Erdmännchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Marta Manser</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Sozialer Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Verhaltensbiologin &ndash; Tierentsprechung: Erdmännchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdmännchen, das das Frühwarnsystem des Erdmännchens entschlüsselte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> ist das Tier der sozialen Sechs &ndash; absolute Vernetzung, gegenseitige Absicherung, der ständige Blick auf die Gemeinschaft und die obligatorische Wache, die vor Gefahr warnt, bevor sie die Gruppe erreicht. Kaum eine Forscherin verkörpert dieses Prinzip so unmittelbar wie Prof. Dr. Marta Manser: Seit den 1990er-Jahren erforscht sie in der Kalahari das soziale Leben der Erdmännchen und leitet heute das Kalahari Research Centre &ndash; eine Institution, die selbst auf jahrzehntelanger, kollektiver Teamarbeit beruht.</p>
+          <p class="vb-intro">Weltberühmt wurde sie für den Nachweis, dass Erdmännchen ein hochkomplexes Warnsystem besitzen: unterschiedliche Rufe für unterschiedliche Feinde &ndash; Greifvögel, Schlangen, Bodenraubtiere &ndash;, die fast wie eine primitive Sprache funktionieren. Bezeichnend ist schon der Titel eines ihrer bekannten öffentlichen Vorträge: "Teamarbeit in der Savanne" &ndash; sie rahmt ihr Forschungsthema selbst konsequent als Gruppenleistung, nicht als individuelle Entdeckung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sechs: Sicherheit durch das Frühwarnsystem der Gruppe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sechs (SO6)</strong> sucht Sicherheit nicht in individueller Stärke, sondern in einem verlässlichen System aus gegenseitiger Warnung, Loyalität und klaren Rollen innerhalb der Gemeinschaft &ndash; jedes Mitglied trägt Verantwortung für alle, alle tragen Verantwortung für jedes Mitglied. Mansers Forschung hat genau dieses Prinzip beim Erdmännchen wissenschaftlich präzise entschlüsselt: die "Sentinel"-Funktion, bei der einzelne Tiere reihum Wache stehen, während der Rest der Gruppe ungestört nach Nahrung suchen kann.</p>
+          <p class="vb-intro">Dass ausgerechnet sie zur international führenden Stimme für dieses kollektive Frühwarnsystem wurde, liest sich wie ein Spiegelbild des eigenen inneren Musters: Sicherheit entsteht nicht durch einen einzelnen starken Einzelkämpfer, sondern durch ein Netz aus Kommunikation, das die ganze Gruppe schützt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Präzise Analyse statt lauter Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Sechs eine analytische Zurückhaltung &ndash; Sicherheit entsteht über nüchterne, exakte Erkenntnis, nicht über Charisma oder Wärme im Auftritt. In öffentlichen Vorträgen zeigt Manser eine ruhige, sachliche Vortragshaltung, unaufgeregte Gestik, eine ganz auf den Inhalt konzentrierte Präsenz &ndash; kein Entertainment, sondern präzise vermitteltes Fachwissen.</p>
+          <p class="vb-intro">Dazu passt auch, dass sie zusätzlich zur Feldforschung in der Kalahari eine eigene Erdmännchen-Kolonie in Zürich aufgebaut hat, um Kommunikation und Kognition unter kontrollierten Bedingungen systematisch zu untersuchen &ndash; typische Fünfer-Energie: Wissen wird nicht nur gesammelt, sondern in eine dauerhafte, methodisch abgesicherte Infrastruktur überführt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO6w5 ist die Fähigkeit, <strong>das unsichtbare Kommunikationssystem einer Gemeinschaft sichtbar und wissenschaftlich beweisbar zu machen</strong> &ndash; Mansers Arbeit hat das Verständnis tierischer Kommunikation grundlegend erweitert und mit über 10.000 Zitationen weit über die eigene Fachdisziplin hinaus gewirkt.</p>
+          <p class="vb-intro">Der Schatten der sozialen Sechs mit Fünferflügel zeigt sich in einer gewissen öffentlichen Zurückhaltung: Fotos und persönliche Details sind auffällig schwer zu finden &ndash; typisch für einen Kopftypen, der lieber im Hintergrund der eigenen Forschung bleibt, als selbst im Rampenlicht zu stehen. Sicherheit wird über das System gesucht, nicht über persönliche Sichtbarkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Erdmännchen, das die Sprache des Erdmännchens verstand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Manser der Welt gibt, ist ein präzises, wissenschaftlich abgesichertes Verständnis dafür, wie eine Gemeinschaft sich gegenseitig vor Gefahr schützt &ndash; genau jenes Prinzip, das eine soziale Sechs von innen heraus kennt, weil sie selbst danach lebt.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: eine Frau, deren archetypisches Tier das Erdmännchen ist, die als Wissenschaftlerin genau das System entschlüsselte, das ihre eigene Sicherheit im Kern beschreibt &ndash; die Wache, die warnt, damit die Gemeinschaft weiterleben kann.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so6", label:"Lebensmusterkompass: SO6 – Erdmännchen"},
+        {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
+        {route:"beruehmte-andy-reid", label:"Porträt: Andy Reid (SO6w5)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-marta-manser")}
     </div>
   `);
 }
@@ -92284,6 +92350,7 @@ function render() {
       "beruehmte-hugh-warwick": hughWarwickPortraitPage,
       "beruehmte-anne-mcbride": anneMcBridePortraitPage,
       "beruehmte-john-wayne": johnWaynePortraitPage,
+      "beruehmte-marta-manser": martaManserPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,

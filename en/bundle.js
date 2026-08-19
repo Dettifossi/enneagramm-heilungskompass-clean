@@ -944,6 +944,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Andy Reid – Social Type 6",
     teaser:"SO6w5 · born 1958. NFL head coach, Kansas City Chiefs. Over two decades of the same core structure, hundreds of plays memorized, three Super Bowl titles. The meerkat that never leaves its playbook watch.",
     tags:["Sport","Führung"] },
+{ route:"beruehmte-marta-manser", name:"Prof. Dr. Marta Manser", added:"2026-08-19", subtyp:"SO6w5",
+    heading:"Prof. Dr. Marta Manser – Social Type 6",
+    teaser:"SO6w5 · Swiss behavioural biologist, professor at the University of Zurich, director of the Kalahari Research Centre. Decoded meerkats' complex alarm-call system – an early-warning system for the whole group. Animal correspondence: Meerkat.",
+    tags:["Wissenschaft"], gender:"f"},
 { route:"beruehmte-herbert-groenemeyer", name:"Herbert Grönemeyer", subtyp:"SO6w7",
     heading:"Herbert Grönemeyer – Social Type 6",
     teaser:"SO6w7 · born 1956. Musician, composer, lyricist, actor. Bochum. Mensch. The meerkat that rises after every loss – and sings.",
@@ -4782,6 +4786,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-ingo-zimmermann", name:"Prof. Dr. Ingo Zimmermann", subtyp:"SE5w4", tier:"Owl"},
   {route:"beruehmte-hugh-warwick", name:"Hugh Warwick", subtyp:"SX5w4", tier:"Hedgehog"},
   {route:"beruehmte-anne-mcbride", name:"Dr. Anne McBride", subtyp:"SE6w5", tier:"Rabbit"},
+  {route:"beruehmte-marta-manser", name:"Prof. Dr. Marta Manser", subtyp:"SO6w5", tier:"Meerkat"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -28960,6 +28965,67 @@ function johnWaynePortraitPage() {
   `);
 }
 
+function martaManserPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-marta-manser-portrait.jpg" alt="Meerkat" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Marta Manser</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Behavioural biologist &ndash; Animal correspondence: Meerkat</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The meerkat who decoded the meerkat's early-warning system</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>meerkat</strong> is the animal of the Social Six &ndash; total interconnection, mutual protection, a constant eye on the community, and the obligatory sentinel that warns of danger before it reaches the group. Few researchers embody this principle as directly as Prof. Dr. Marta Manser: since the 1990s she has studied meerkats' social life in the Kalahari and now directs the Kalahari Research Centre &ndash; an institution itself built on decades of collective teamwork.</p>
+          <p class="vb-intro">She became world-famous for demonstrating that meerkats possess a highly complex alarm system: distinct calls for different predators &ndash; raptors, snakes, ground predators &ndash; that function almost like a primitive language. Telling, too, is the title of one of her best-known public lectures: "Teamwork in the Savanna" &ndash; she consistently frames her own research subject as a group achievement, not an individual discovery.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Six: security through the group's early-warning system</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Six (SO6)</strong> seeks security not in individual strength, but in a reliable system of mutual warning, loyalty, and clear roles within the community &ndash; every member carries responsibility for all, and all carry responsibility for every member. Manser's research has scientifically decoded exactly this principle in meerkats: the "sentinel" function, in which individual animals take turns standing guard while the rest of the group forages undisturbed.</p>
+          <p class="vb-intro">That she of all people became the internationally leading voice for this collective early-warning system reads like a mirror of her own inner pattern: security arises not from a single strong individual, but from a network of communication that protects the whole group.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: precise analysis instead of the loud stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Six an analytical reserve &ndash; security arises through sober, exact knowledge, not through charisma or warmth of delivery. In public lectures, Manser shows a calm, matter-of-fact presenting style, unhurried gestures, a presence entirely focused on content &ndash; not entertainment, but precisely conveyed expertise.</p>
+          <p class="vb-intro">Fittingly, beyond her fieldwork in the Kalahari, she also built her own captive meerkat colony in Zurich to systematically study communication and cognition under controlled conditions &ndash; typical Five energy: knowledge is not merely gathered but converted into a durable, methodically secured infrastructure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO6w5 is its ability to make <strong>a community's invisible communication system visible and scientifically provable</strong> &ndash; Manser's work has fundamentally expanded the understanding of animal communication, with over 10,000 citations reaching far beyond her own discipline.</p>
+          <p class="vb-intro">The shadow of the Social Six with a Five-wing shows in a certain public reticence: photos and personal details are noticeably hard to find &ndash; typical of a head type who would rather stay in the background of their own research than stand in the spotlight themselves. Security is sought through the system, not through personal visibility.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The meerkat who understood the meerkat's language</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Manser gives the world is a precise, scientifically grounded understanding of how a community protects itself from danger through mutual communication &ndash; exactly the principle a Social Six knows from the inside, because it lives by it itself.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a woman whose archetypal animal is the meerkat, who as a scientist decoded the very system that describes her own security at its core &ndash; the sentinel that warns, so the community can carry on.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
+        {route:"lebensmusterkompass/so6", label:"Life Pattern Compass: SO6 – Meerkat"},
+        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
+        {route:"beruehmte-andy-reid", label:"Portrait: Andy Reid (SO6w5)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-marta-manser")}
+    </div>
+  `);
+}
+
 function julesVernePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -36096,12 +36162,12 @@ const LEBENSMUSTERKOMPASS = {
   SO6: {
     tier: "Meerkat",
     kernthema: "Standing guard for the group, not for oneself – security through belonging and duty",
-    beispiele: ["Melanie Kreis", "Immanuel Kant", "Dr. Sigmund Freud", "Andy Reid", "Donata Hopfen", "Herbert Grönemeyer", "James Corden", "Adolf Eichmann"],
+    beispiele: ["Melanie Kreis", "Immanuel Kant", "Dr. Sigmund Freud", "Andy Reid", "Donata Hopfen", "Herbert Grönemeyer", "James Corden", "Adolf Eichmann", "Prof. Dr. Marta Manser"],
     fingerabdruecke: [
       {
         titel: "Standing guard for the group, not for oneself",
         beschreibung: "One's own role is consistently subordinated to the collective: visibility or personal appearance take a back seat to reliably fulfilling one's own function within the system.",
-        beleg: "Melanie Kreis: 'She is described as reliable, precise, analytical – and as someone who works for the company, not for her own appearance. That's the meerkat: it stands guard. Not for itself. For the group'; Andy Reid: 'Not the loudest animal in the pack, but the one who stands guard longest and most reliably – for a system bigger than itself'; James Corden: 'It's rarely the biggest animal in the pack, but always the one that does the most to keep everyone together.'"
+        beleg: "Melanie Kreis: 'She is described as reliable, precise, analytical – and as someone who works for the company, not for her own appearance. That's the meerkat: it stands guard. Not for itself. For the group'; Andy Reid: 'Not the loudest animal in the pack, but the one who stands guard longest and most reliably – for a system bigger than itself'; James Corden: 'It's rarely the biggest animal in the pack, but always the one that does the most to keep everyone together'; Prof. Dr. Marta Manser, who scientifically decoded how meerkats' alarm-call system protects the whole group – and, tellingly, titled her own public lecture on it 'Teamwork in the Savanna,' not 'my discovery.'"
       },
       {
         titel: "Security through fixed, reliable routine instead of departure",
@@ -57808,6 +57874,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-hugh-warwick": hughWarwickPortraitPage,
       "beruehmte-anne-mcbride": anneMcBridePortraitPage,
       "beruehmte-john-wayne": johnWaynePortraitPage,
+      "beruehmte-marta-manser": martaManserPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
