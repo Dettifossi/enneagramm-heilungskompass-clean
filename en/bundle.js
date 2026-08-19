@@ -1140,6 +1140,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Shakira – Sexual Type 7",
     teaser:"SX7w8 · born 1977 in Barranquilla, Colombia. Singer, songwriter, dancer, producer. “Hips Don't Lie”, “Waka Waka”, over 80 million records sold. The chimpanzee with Eight-wing: rhythm as the language of the body, intensity without a brake, strength that turns personal pain into stage presence.",
     tags:["Musik"], gender:"f"},
+{ route:"beruehmte-christophe-boesch", name:"Prof. Dr. Christophe Boesch", added:"2026-08-19", subtyp:"SX7w8",
+    heading:"Prof. Dr. Christophe Boesch – Sexual Type 7",
+    teaser:"SX7w8 · 1951–2024. Swiss primatologist, longtime director at the Max Planck Institute for Evolutionary Anthropology, pioneer of chimpanzee culture research in Taï National Park. Demonstrated that chimpanzees possess distinct cultures passed down through generations. Animal correspondence: Chimpanzee.",
+    tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-caroline-peters", name:"Caroline Peters", added:"2026-07-22", subtyp:"SX7w6",
     heading:"Caroline Peters – Sexual Type 7",
     teaser:"SX7w6 · born 1971 in Cologne. Actress. Murder with a View (ARD), Burgtheater Vienna, Grimme Prize. The chimpanzee with six wings: the rush of transformation, loyalty as an anchor.",
@@ -4817,6 +4821,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-frank-rosell", name:"Prof. Dr. Frank Rosell", subtyp:"SO7w6", tier:"Beaver"},
   {route:"beruehmte-dietland-mueller-schwarze", name:"Prof. Dr. Dietland Müller-Schwarze", subtyp:"SO7w6", tier:"Beaver"},
   {route:"beruehmte-frans-de-waal", name:"Prof. Dr. Frans de Waal", subtyp:"SX7w6", tier:"Chimpanzee"},
+  {route:"beruehmte-christophe-boesch", name:"Prof. Dr. Christophe Boesch", subtyp:"SX7w8", tier:"Chimpanzee"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -29415,10 +29420,71 @@ function fransDeWaalPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-christophe-boesch", label:"Portrait: Prof. Dr. Christophe Boesch (SX7w8)"},
         {route:"beruehmte-leonard-bernstein", label:"Portrait: Leonard Bernstein (SX7w6)"},
-        {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-frans-de-waal")}
+    </div>
+  `);
+}
+
+function christopheBoeschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-christophe-boesch-portrait.jpg" alt="Chimpanzee" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Christophe Boesch</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Primatologist, pioneer of chimpanzee culture research, 1951&ndash;2024 &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The chimpanzee who discovered chimpanzee culture</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the Sexual Seven &ndash; clever, playful, intensity-seeking, never a homebody. Few scientists embodied this principle as boldly as Prof. Dr. Christophe Boesch: the Swiss primatologist, born in 1951 in St. Gallen, founded the Taï Chimpanzee Project on the Ivory Coast in 1979 together with his wife Hedwige &ndash; the first continuous long-term study of wild chimpanzees in unbroken rainforest.</p>
+          <p class="vb-intro">For five years the couple lived in the forest with their two young children to habituate a wild chimpanzee community to their presence. Boesch was the first to demonstrate that chimpanzees possess highly developed, distinct "cultures" &ndash; different techniques for cracking nuts, tool use, and collective hunting, passed down from generation to generation. He died in 2024 at the age of 72.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Seven: the thrill as a path to deep insight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Seven (SX7)</strong> does not seek safe distance, but full, risky fusion with its subject &ndash; intensity as a path to truth. Boesch was a classic field researcher who did not avoid the risk of the African rainforest but actively sought it out: decades in dense jungle, often in close proximity to wild, unhabituated animals, with his own young family in the middle of it all.</p>
+          <p class="vb-intro">This willingness to put his own life and the lives of his loved ones on the line for the one, all-deciding insight is pure Sexual Seven energy: not the cautious distance of the observer, but full, risky devotion to the research subject itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: confrontation instead of diplomacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven a direct, uncompromising assertiveness &ndash; unlike the diplomatic, loyal Six-wing embodied by, for instance, Frans de Waal, Boesch met obstacles with open confrontation. Obituaries describe him as someone with little patience for bureaucracy or unnecessary delays &ndash; whether dealing with changing governments, obstructive mining companies, or skeptical donors.</p>
+          <p class="vb-intro">Rather than fitting into existing institutions, he founded and led several of his own: co-founder and director of the Max Planck Institute for Evolutionary Anthropology, founder and president of the Wild Chimpanzee Foundation. He actively drove the creation of new national parks, such as Moyen-Bafing National Park in Guinea &ndash; an offensive, shaping energy that clearly speaks for the Eight-wing, in contrast to the more cautious, network-oriented Six note of other Sexual Sevens in this compass.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX7w8 is its ability to turn <strong>risky, uncompromising devotion into groundbreaking, world-changing insight</strong> &ndash; Boesch's demonstration of chimpanzee culture fundamentally changed how science thinks about animal intelligence and tradition, and his fight for national parks still protects habitats today that would otherwise be lost.</p>
+          <p class="vb-intro">The shadow of the Sexual Seven with an Eight-wing shows in the sheer uncompromising nature of this path: five years with young children in untamed rainforest, constant confrontation with authorities and corporations &ndash; a life that knows no half-measures, but also leaves little room for caution or retreat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The chimpanzee who showed that the chimpanzee has culture</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Boesch gave the world is the scientific proof that culture is not a purely human phenomenon &ndash; a legacy that shifted the boundary between human and animal just as his contemporary Frans de Waal's did, only by a different, more confrontational route.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly fit the Sexual Seven with an Eight-wing more fittingly: a man whose archetypal animal is the chimpanzee, who did not avoid the risk of the rainforest but sought the ultimate thrill and the deepest insight &ndash; and, apparently unconsciously, studied his own deepest archetypal pattern along the way.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-frans-de-waal", label:"Portrait: Prof. Dr. Frans de Waal (SX7w6)"},
+        {route:"beruehmte-shakira", label:"Portrait: Shakira (SX7w8)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-christophe-boesch")}
     </div>
   `);
 }
@@ -36478,12 +36544,12 @@ const LEBENSMUSTERKOMPASS = {
   SX7: {
     tier: "Chimpanzee",
     kernthema: "Complete merging with an idea, person, or moment (Naranjo: Suggestibility)",
-    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs", "Prof. Dr. Frans de Waal"],
+    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs", "Prof. Dr. Frans de Waal", "Prof. Dr. Christophe Boesch"],
     fingerabdruecke: [
       {
         titel: "Complete merging with an idea, person, or moment",
         beschreibung: "Naranjo called this subtype the one of 'Suggestibility': instead of spreading enthusiasm, the entire intensity bundles onto a single point – a conviction, a person, a cause – with a force that knows no half-commitments.",
-        beleg: "Gudrun Ensslin: 'She merges completely with an idea, a person, a vision – and is literally swept away by that merging ... Once the new conviction is there, the old life is completely cast off'; Victor Lustig: 'An ability to fully immerse himself in an idea, a person, a moment – and to appear so convincing that his own enthusiasm becomes contagious'; Clyde Barrow, whose 'entire life was shaped by constant movement, ever new escape routes'; Prof. Dr. Frans de Waal, who sought direct, personal intellectual exchange with individuals rather than losing himself in institutional networks, and whose late work devoted itself almost exclusively to the single question of empathy and bonding."
+        beleg: "Gudrun Ensslin: 'She merges completely with an idea, a person, a vision – and is literally swept away by that merging ... Once the new conviction is there, the old life is completely cast off'; Victor Lustig: 'An ability to fully immerse himself in an idea, a person, a moment – and to appear so convincing that his own enthusiasm becomes contagious'; Clyde Barrow, whose 'entire life was shaped by constant movement, ever new escape routes'; Prof. Dr. Frans de Waal, who sought direct, personal intellectual exchange with individuals rather than losing himself in institutional networks, and whose late work devoted itself almost exclusively to the single question of empathy and bonding; Prof. Dr. Christophe Boesch, who lived five years with his young family in untamed rainforest to study a single wild chimpanzee community – no half measures, but full, risky devotion."
       },
       {
         titel: "Contagious intensity that sweeps up an entire group or room",
@@ -58278,6 +58344,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-frank-rosell": frankRosellPortraitPage,
       "beruehmte-dietland-mueller-schwarze": dietlandMuellerSchwarzePortraitPage,
       "beruehmte-frans-de-waal": fransDeWaalPortraitPage,
+      "beruehmte-christophe-boesch": christopheBoeschPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
