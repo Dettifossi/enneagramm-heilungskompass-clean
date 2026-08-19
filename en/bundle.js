@@ -525,6 +525,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Judit Polgár – Self-Preservation Type 3",
     teaser:"SP3w4 · born 1976. Chess grandmaster, strongest female chess player in history. Youngest grandmaster in history in 1991, 8th in the open world ranking in 2005. The raccoon that sought out the hardest stage, not the most comfortable one. Animal correspondence: Raccoon.",
     land:"Hungary", tags:["Sport"], gender:"f"},
+{ route:"beruehmte-annika-von-mutius", name:"Dr. Annika von Mutius", added:"2026-08-19", subtyp:"SE3w4",
+    heading:"Dr. Annika von Mutius – Self-Preservation Type 3",
+    teaser:"SE3w4 · German entrepreneur, founder of the AI recruiting startup Empion. PhD mathematician, Forbes \"30 Under 30 Europe.\" Substance over staging as the driving force. Animal correspondence: Raccoon.",
+    land:"Germany", tags:["Wirtschaft"], gender:"f"},
 { route:"beruehmte-madame-tussaud", name:"Madame Tussaud", added:"2026-08-08", subtyp:"SE3w4",
     heading:"Madame Tussaud – Self-Preservation Type 3",
     teaser:"SP3w4 · 1761–1850. Wax sculptor, museum founder. Death masks of guillotine victims during the French Revolution, 33 years touring Britain, the \"Chamber of Horrors\" – the raccoon that turned pure survival skill into a world enterprise. Animal correspondence: Raccoon.",
@@ -36131,6 +36135,65 @@ function juditPolgarPortraitPage() {
   `);
 }
 
+function annikaVonMutiusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-annika-von-mutius-portrait.jpg" alt="Dr. Annika von Mutius – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Annika von Mutius</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">German entrepreneur, founder of Empion &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that is easy to underestimate. No loud entrance, no glamour, no self-staging for its own sake. The raccoon works with skillful, deft hands out of sight, and only becomes visible once you look closely at everything it can actually do.</p>
+          <p class="vb-intro">The German entrepreneur Dr. Annika von Mutius grew up in Koblenz, in a family that ran a wire-processing company &ndash; a solid, craft-driven family business, not an environment that called for a big stage. She earned her PhD in mathematics at WHU in Vallendar, but found the academic path too abstract and instead spent four years as Head of Product at Multiply Labs in Silicon Valley &ndash; a detour through pure practice before she found her own way.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Three: Substance Over Staging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> is the counter-type of the Three &ndash; the subtype that does not display achievement outwardly but directs it inward: toward security, competence, craft mastery. SE3 does not ask <em>How am I seen?</em> but <em>What can I actually do?</em></p>
+          <p class="vb-intro">In December 2021, von Mutius co-founded the HR-tech startup Empion together with Larissa Leitner &ndash; a platform that uses artificial intelligence to match applicants and companies not just by qualification, but by values, skills, and personality traits. Rather than relying on loud marketing, the team spent years building the actual technical substance of the matching process &ndash; with the result that Empion now works with corporations such as Procter &amp; Gamble and the Volksbanken, raised nine million US dollars in funding, and acquired its competitor Zalvus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: A Path of One's Own Between Family Business and Startup</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three a question that goes beyond mere competence: <em>What does my path mean &ndash; beyond what is expected of me?</em> Von Mutius herself describes her position as a life "between the chairs" &ndash; between the solid, craft-driven family business run by her parents and the volatile, often overstaged startup world she has committed herself to with Empion, without ever fully dissolving into it.</p>
+          <p class="vb-intro">Telling is her own reflection on being a founder: she publicly noted that as a startup grows, personal success matters less &ndash; an observation atypical of a pure SE3w2, showing how strongly the Four-wing keeps measuring its own role against a deeper, personal question of meaning rather than growth figures alone. In 2024 she was also elected to the board of Germany's AI Federal Association &ndash; a public role she nonetheless fills with the same sober, unshowy craftsmanship as her entrepreneurial work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SE3w4 is its ability to draw genuine uniqueness from pure craft. Von Mutius built with Empion a product whose core &ndash; algorithmic matching by values rather than mere qualification &ndash; actually had to work before it could ever be marketed. Her recognitions, including Forbes "30 Under 30 Europe" and Handelsblatt's "People of the Year" ranking, followed the substance, not the other way around.</p>
+          <p class="vb-intro">The passion of the Three is <strong>vanity / deceit</strong> &ndash; in SE3w4, subtly present as the need to be seen as unique and unrepeatable while simultaneously avoiding putting oneself as a person in the foreground. The Four-wing brings its own shadow: the constant need to set herself apart from every predetermined expectation &ndash; whether family business or pure startup logic &ndash; and to establish an entirely own standard, which over time can become isolating.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Healing Path: From Proving to Passing On</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Three leads from the question <em>What have I achieved?</em> to the realization <em>I am &ndash; beyond all achievement.</em> For SE3w4, this shows in no longer tying one's own worth to the next funding milestone, but to the truthfulness of one's own path.</p>
+          <p class="vb-intro">Von Mutius' own observation that personal success matters less as a company grows reads like an early step on exactly this path &ndash; a raccoon who no longer needs her craft as proof of her own exceptional standing, but as something that points beyond herself: a company that helps other people find a workplace that truly fits them, rather than just telling her own founder story.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SE3w4)"},
+        {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function sadhguruPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -37604,7 +37667,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Building a working system out of little or from nothing",
         beschreibung: "Instead of waiting for existing resources or head starts, a viable, sometimes decades-functioning system emerges from limited means, often out of sheer resourcefulness.",
-        beleg: "Osho, who built 'from a dusty plot in Pune an international commune operation' and later an entire city with its own airport; Madame Tussaud, who turned a craft into 'a global company' that 'still exists in dozens of cities almost two hundred years after her death'; Sadhguru: 'The raccoon makes much from little – quietly, efficiently, without fuss. And then you look, and it has planted the entire desert.'"
+        beleg: "Osho, who built 'from a dusty plot in Pune an international commune operation' and later an entire city with its own airport; Madame Tussaud, who turned a craft into 'a global company' that 'still exists in dozens of cities almost two hundred years after her death'; Sadhguru: 'The raccoon makes much from little – quietly, efficiently, without fuss. And then you look, and it has planted the entire desert.'; Dr. Annika von Mutius, who spent years building the technical substance of an AI matching system instead of relying on loud marketing, before Empion began working with corporations like Procter & Gamble – attention that followed the substance, not the other way around."
       },
       {
         titel: "Years of disciplined practice in hiding before mastery becomes visible",
@@ -59319,6 +59382,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
       "beruehmte-judit-polgar": juditPolgarPortraitPage,
+      "beruehmte-annika-von-mutius": annikaVonMutiusPortraitPage,
       "beruehmte-anna-anderson": annaAndersonPortraitPage,
       "beruehmte-peter-falk": peterFalkPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
