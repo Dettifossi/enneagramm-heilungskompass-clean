@@ -36836,7 +36836,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Rejection or exile becomes creative power, rather than leading to revenge or resignation",
         beschreibung: "Injury, rejection, or forced distance does not lead to withdrawal, but becomes the most fertile material for a work or path of one's own.",
-        beleg: "Voltaire, who turned exile from France into 'the most fertile period of his life'; Dante, who out of his banishment from Florence created 'one of the mightiest literary works in world history': 'He turned banishment not into resignation, but into the material for a work that secured him posthumously exactly the immortality the city denied him in life'; Ana de Armas, who fought her way through Hollywood without a safety net or connections; Paris Hilton, who spent decades concealing distressing experiences in so-called "troubled teen" facilities behind a perfectly staged public persona, out of which a business empire of her own emerged."
+        beleg: "Voltaire, who turned exile from France into 'the most fertile period of his life'; Dante, who out of his banishment from Florence created 'one of the mightiest literary works in world history': 'He turned banishment not into resignation, but into the material for a work that secured him posthumously exactly the immortality the city denied him in life'; Ana de Armas, who fought her way through Hollywood without a safety net or connections; Paris Hilton, who spent decades concealing distressing experiences in so-called 'troubled teen' facilities behind a perfectly staged public persona, out of which a business empire of her own emerged."
       },
       {
         titel: "Uncompromising intensity that submits to no external convention",
