@@ -32478,6 +32478,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Laotse (Laozi) \u2013 Selbsterhaltender Typ 9",
     teaser:"SE9w1 \u00b7 ca. 6. Jh. v. Chr. (Legende). Philosoph, Begr\u00fcnder des Daoismus, zugeschriebener Verfasser des Daodejing. Der Legende nach ritt er zuletzt auf einem schwarzen B\u00fcffel in die W\u00fcste davon. Der Elefant, der losl\u00e4sst, was er nicht halten muss \u2013 Wu Wei als h\u00f6chste Form der Neun.",
     tags:["Philosophie","Religion"], gender:"m"},
+  { route:"beruehmte-cynthia-moss", name:"Dr. Cynthia Moss", added:"2026-08-19", subtyp:"SE9w1",
+    heading:"Dr. Cynthia Moss \u2013 Selbsterhaltender Typ 9",
+    teaser:"SE9w1 \u00b7 geb. 1940. Verhaltensbiologin, Gr\u00fcnderin des Amboseli Elephant Research Project 1972, seit \u00fcber 50 Jahren l\u00fcckenlose Begleitung derselben Elefantenfamilien. Die \u201eGrande Dame der Elefantenforschung\u201c. Der Elefant, der sein ganzes Leben mit Elefanten verbrachte.",
+    tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-angela-merkel", name:"Angela Merkel", added:"2026-07-22", subtyp:"SE9w8",
     heading:"Angela Merkel \u2013 Selbsterhaltende Typ 9",
     teaser:"SE9w8 \u00b7 geb. 1954. Bundeskanzlerin 2005\u20132021. Sechzehn Jahre Aussitzen, Entscheiden, Beharren \u2013 und ein Erbe voller Widerspr\u00fcche. Der Elefant, der sich in seinem eigenen Rhythmus bewegt. Manchmal Weisheit. Manchmal Stillstand.",
@@ -35311,6 +35315,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-paris-hilton", name:"Paris Hilton", subtyp:"SX4w3", tier:"Chihuahua"},
   {route:"beruehmte-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", tier:"Taube"},
   {route:"beruehmte-laurence-frank", name:"Dr. Laurence Frank", subtyp:"SO8w7", tier:"Löwe"},
+  {route:"beruehmte-cynthia-moss", name:"Dr. Cynthia Moss", subtyp:"SE9w1", tier:"Elefant"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42628,12 +42633,12 @@ const LEBENSMUSTERKOMPASS = {
   SE9: {
     tier: "Elefant",
     kernthema: "Ruhige, gewichtige Präsenz statt Lautstärke – wer einmal in Bewegung ist, ist nicht mehr aufzuhalten (Naranjo: Appetit)",
-    beispiele: ["James Levine", "Bärbel Bas", "Ludwig Erhard", "Laotse (Laozi)", "Angela Merkel", "Carmen Goglin", "Gina Rinehart", "Thomas von Aquin", "David Hume", "Hans-Dietrich Genscher", "Abida Parveen", "Johannes Brahms", "Alfons Schuhbeck"],
+    beispiele: ["James Levine", "Bärbel Bas", "Ludwig Erhard", "Laotse (Laozi)", "Angela Merkel", "Carmen Goglin", "Gina Rinehart", "Thomas von Aquin", "David Hume", "Hans-Dietrich Genscher", "Abida Parveen", "Johannes Brahms", "Alfons Schuhbeck", "Dr. Cynthia Moss"],
     fingerabdruecke: [
       {
         titel: "Ruhige, gewichtige Präsenz statt Lautstärke",
         beschreibung: "Wirkung entsteht nicht durch Reden oder Auftreten, sondern durch bloße, gewichtige Anwesenheit – der Raum verändert sich, ohne dass ein Wort nötig wäre.",
-        beleg: "James Levine: ›Er braucht keine Aktion, um zu wirken. Es genügt, dass er da ist‹; Angela Merkel: ›Eine Präsenz, die nicht durch Lautstärke entsteht, sondern durch Gewicht … Sie sprach selten laut. Sie machte keine großen Gesten‹; Thomas von Aquin, genannt ›der stumme Ochse‹, über den sein Lehrer sagte: ›Sein Gebrüll in der Lehre wird eines Tages die ganze Welt erfüllen.‹; Bärbel Bas, die als Bundestagspräsidentin nicht mit großen Gesten auffällt, sondern durch Verlässlichkeit und beharrliches Bemühen um Ordnung wirkt; David Hume, der die Grundfesten der Welt infrage stellte und dabei erstaunlich unaufgeregt blieb – ›le bon David‹ selbst in Kreisen, die seine Ideen für gefährlich hielten."
+        beleg: "James Levine: ›Er braucht keine Aktion, um zu wirken. Es genügt, dass er da ist‹; Angela Merkel: ›Eine Präsenz, die nicht durch Lautstärke entsteht, sondern durch Gewicht … Sie sprach selten laut. Sie machte keine großen Gesten‹; Thomas von Aquin, genannt ›der stumme Ochse‹, über den sein Lehrer sagte: ›Sein Gebrüll in der Lehre wird eines Tages die ganze Welt erfüllen.‹; Bärbel Bas, die als Bundestagspräsidentin nicht mit großen Gesten auffällt, sondern durch Verlässlichkeit und beharrliches Bemühen um Ordnung wirkt; David Hume, der die Grundfesten der Welt infrage stellte und dabei erstaunlich unaufgeregt blieb – ›le bon David‹ selbst in Kreisen, die seine Ideen für gefährlich hielten; Dr. Cynthia Moss, die über fünfzig Jahre dieselben Elefantenfamilien begleitete, ohne je durch spektakuläre Einzelaktionen aufzufallen – Wirkung durch stille, geduldige Kontinuität statt durch Auftritt."
       },
       {
         titel: "Einmal in Bewegung, ist nichts mehr aufzuhalten",
@@ -60711,7 +60716,70 @@ function laoziPortraitPage() {
         {route:"subtype/se9", label:"SE9 \u2013 Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-buddha", label:"Portr\u00e4t: Siddhartha Gautama (Buddha) (SX5w4)"},
         {route:"beruehmte-konfuzius", label:"Portr\u00e4t: Konfuzius (Kong Fuzi) (SO1w2)"},
+        {route:"beruehmte-cynthia-moss", label:"Portr\u00e4t: Dr. Cynthia Moss (SE9w1)"},
       ])}
+    </div>
+  `);
+}
+
+function cynthiaMossPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-cynthia-moss-portrait.jpg" alt="Elefant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Cynthia Moss</p>
+        <p class="krim-portrait-typ">SE9w1 &middot; Selbsterhaltender Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Verhaltensbiologin, geb. 1940 &ndash; Gründerin des Amboseli Elephant Research Project &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant, der ein Leben lang bei den Elefanten blieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier der selbsterhaltenden Neun &ndash; majestätisch, tief geerdet, friedlich, getragen von Weisheit, Gedächtnis und unerschütterlicher Loyalität, beständig im Hintergrund wirkend statt sich in den Vordergrund zu drängen. Dr. Cynthia Moss verkörpert dieses Prinzip so vollständig, dass es kaum ein treffenderes Bild in diesem Kompass gibt: Die amerikanische Verhaltensbiologin gilt als unbestrittene Grande Dame der Elefantenforschung.</p>
+          <p class="vb-intro">1972 gründete sie gemeinsam mit Harvey Croze das Amboseli Elephant Research Project in Kenia &ndash; und leitet es bis heute, über fünfzig Jahre später. Sie hat einzelne Elefantenfamilien und ihre Matriarchinnen über mehr als fünf Jahrzehnte lückenlos begleitet: dieselben Tiere, dieselbe Region, derselbe stille, unerschütterliche Fokus, Jahrzehnt um Jahrzehnt. Das ist keine Karriere unter mehreren. Das ist ein einziges, ungeteiltes Lebenswerk.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Beständigkeit als Lebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> sucht Frieden und Sicherheit durch Beständigkeit, durch das Vertraute, durch das geduldige Verweilen bei dem, was sich als richtig erwiesen hat. Moss lebt dieses Prinzip in einer Radikalität, die selbst unter Feldforschern selten ist: Auf die Frage, wer den größten Einfluss auf ihr Leben gehabt habe, antwortet sie schlicht mit dem Namen einer Elefantin &ndash; Echo, einer Matriarchin, die sie über Jahrzehnte begleitete.</p>
+          <p class="vb-intro">›Ich kann mir nicht vorstellen, die Elefanten zu verlassen. Sie bedeuten mir alles‹, sagt Moss über sich selbst &ndash; ein Satz, der weniger von wissenschaftlichem Ehrgeiz spricht als von einer tiefen, beständigen Bindung, die ein ganzes Leben trägt. Bücher wie ›Elephant Memories‹ machten der Welt erstmals bewusst, wie tief das Gefühlsleben, die Trauer und die soziale Intelligenz von Elefanten reicht &ndash; nicht durch spektakuläre Einzelbeobachtungen, sondern durch jahrzehntelange, geduldige Kontinuität.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Prinzipientreue statt Konfrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der selbsterhaltenden Neun eine klare, methodische Prinzipientreue &ndash; im Unterschied zum konfrontativeren, impulsiveren Achterflügel. Moss vertritt ihre Positionen zum Schutz der Elefanten unmissverständlich direkt: Auf die Frage nach der Bedrohungslage antwortet sie knapp mit ›Ja‹, und sie fordert unumwunden, dass Regierungen jeden Elfenbeinhandel verbieten müssten. Doch diese Klarheit äußert sich nicht als lautstarke Konfrontation, sondern als beharrliche, institutionelle Arbeit über Organisationen und wissenschaftliche Kanäle &ndash; über Jahrzehnte aufgebaute Kooperationen statt einmaliger dramatischer Auftritte.</p>
+          <p class="vb-intro">Genau das ist der Unterschied zum Achterflügel: Wo eine SE9w8 eher aus dem Bauch heraus und mit größerer Wucht eingreifen würde, arbeitet Moss methodisch, sorgfältig, evidenzbasiert &ndash; eine über fünfzig Jahre durchgehaltene wissenschaftliche Genauigkeit, die selbst dann nicht ins Wanken gerät, wenn die eigene Position politisch unbequem ist. Prinzipientreue, nicht Konfrontation, ist ihr Instrument.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE9w1 ist die Fähigkeit, <strong>ein ganzes Leben ungeteilt einem einzigen, beständigen Thema zu widmen</strong> &ndash; Moss' Forschung veränderte grundlegend, wie die Welt über das Innenleben von Elefanten denkt, und ihr Amboseli-Projekt ist heute die längste ununterbrochene Studie an frei lebenden Elefanten überhaupt.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kehrseite dieser Beständigkeit: ein Leben, das sich fast vollständig um ein einziges Thema, einen einzigen Ort, dieselben wenigen vertrauten Wesen organisiert. Wo andere Karrierewege, Themen oder Regionen wechseln, um sich weiterzuentwickeln, bleibt die SE9w1 dort, wo Vertrauen bereits gewachsen ist &ndash; eine Stärke, die zugleich eine bewusste Absage an alles Neue, Unvertraute ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Elefant, der die Elefanten nie verließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Cynthia Moss der Welt gibt, ist nicht nur wissenschaftliches Wissen über eine Tierart, sondern der lebende Beweis, dass Beständigkeit selbst eine Form von Größe sein kann. Ihr Lebenswerk zeigt, wie ein einziges Thema, geduldig über ein halbes Jahrhundert verfolgt, tiefer trägt als jede kurzlebige Vielfalt.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass beinahe wie ein lebender Beweis wirkt: eine Frau, deren archetypisches Tier der Elefant ist, die ihr gesamtes erwachsenes Leben im Einklang mit genau diesen friedlichen, tief geerdeten Riesen verbrachte &ndash; nicht durch Distanz und Wechsel, sondern durch ein halbes Jahrhundert ungebrochener, treuer Präsenz.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se9", label:"Lebensmusterkompass: SE9 – Elefant"},
+        {route:"beruehmte-laozi", label:"Porträt: Laotse (Laozi) (SE9w1)"},
+        {route:"beruehmte-baerbel-bas", label:"Porträt: Bärbel Bas (SE9w1)"},
+        {route:"tierforscher-uebereinstimmung", label:"Tierforscher-Übereinstimmung: weitere Beispiele"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-cynthia-moss")}
     </div>
   `);
 }
@@ -93150,6 +93218,7 @@ function render() {
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,
       "beruehmte-laozi": laoziPortraitPage,
+      "beruehmte-cynthia-moss": cynthiaMossPortraitPage,
       "beruehmte-greta-garbo": gretaGarboPortraitPage,
       "beruehmte-buddha": buddhaPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
