@@ -54945,6 +54945,7 @@ function psychosomatikPage() {
       ${pageHeader("psychosomatik")}
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Psychosomatics Register</h1>
       <p class="psycho-intro">Illnesses seen through a psychosomatic lens, connected to the Enneagram: where do typical inner patterns of a given subtype show up in connection with certain symptom pictures, among many other factors? <strong>Important: every person can develop any illness, regardless of subtype.</strong> This page does not replace a medical diagnosis or treatment, but offers a complementary, holistic layer of interpretation – in the same spirit as the Homeopathy section of this Compass: not addressing the symptom, but the underlying life force. The register keeps growing with more conditions; topics not yet written up are marked &bdquo;in preparation&ldquo; within each category.</p>
+      <img src="../assets/schaubilder/psychosomatik-register-header.jpg" alt="Body and Enneagram symbol as an image for the Psychosomatics Register" loading="lazy" style="width:100%;max-width:640px;border-radius:14px;margin:1.3rem 0;box-shadow:0 4px 18px rgba(0,0,0,.12);display:block;">
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.4rem;margin:1.3rem 0 0.4rem;">
         ${quickNav}
       </div>

@@ -89440,6 +89440,7 @@ function psychosomatikPage() {
       ${pageHeader("psychosomatik")}
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Psychosomatik-Register</h1>
       <p class="psycho-intro">Krankheitsbilder aus psychosomatischer Sicht, verknüpft mit dem Enneagramm: Wo zeigen sich bei welchem Subtyp typische innere Muster, die – neben vielen anderen Faktoren – mit bestimmten Beschwerdebildern in Verbindung gebracht werden? <strong>Wichtig: Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Diese Seite ersetzt keine ärztliche Diagnose oder Behandlung, sondern bietet eine ergänzende, ganzheitliche Deutungsebene – im selben Sinn, in dem auch der Homöopathie-Bereich dieses Kompasses arbeitet: nicht am Symptom ansetzen, sondern an der zugrunde liegenden Lebenskraft. Das Register wird laufend um weitere Krankheitsbilder erweitert; noch nicht ausgearbeitete Themen sind je Kategorie als &bdquo;in Vorbereitung&ldquo; gekennzeichnet.</p>
+      <img src="./assets/schaubilder/psychosomatik-register-header.jpg" alt="K\xf6rper und Enneagramm-Symbol als Sinnbild f\xfcr das Psychosomatik-Register" loading="lazy" style="width:100%;max-width:640px;border-radius:14px;margin:1.3rem 0;box-shadow:0 4px 18px rgba(0,0,0,.12);display:block;">
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.4rem;margin:1.3rem 0 0.4rem;">
         ${quickNav}
       </div>
