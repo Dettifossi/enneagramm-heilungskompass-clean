@@ -2280,8 +2280,8 @@ text.nav = [
     { route: "laenderzuordnungen", label: "Country Assignments" },
     { route: "planetenzuordnungen", label: "Planets & Moons of the Solar System" },
     { route: "tierlexikon", label: "Animal Lexicon" },
-    { route: "lebensmusterkompass", label: "Life Pattern Compass (Biographical Fingerprints)" },
     { route: "tierforscher-uebereinstimmung", label: "Animal-Researcher Correspondence" },
+    { route: "lebensmusterkompass", label: "Life Pattern Compass (Biographical Fingerprints)" },
     { route: "bewusstseinsgrad-normalverteilung", label: "Levels of Consciousness & the Gaussian Normal Distribution" },
   ]},
   { route: "schaubilder", label: "Diagrams", dropdown: [
