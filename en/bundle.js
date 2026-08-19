@@ -54845,7 +54845,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Type 2 Diabetes", "Hypothyroidism", "Hyperthyroidism (Graves' Disease)", "Hashimoto's Thyroiditis", "Overweight / Obesity", "Metabolic Syndrome", "PCOS (Polycystic Ovary Syndrome)", "Menopause Symptoms", "Premenstrual Syndrome (PMS)", "Insulin Resistance / Prediabetes"],
   "nerven-psyche": ["Migraine", "Tension Headache", "Depression", "Generalized Anxiety Disorder", "Panic Attacks", "Burnout Syndrome", "Insomnia", "Tinnitus", "Vertigo / Dizziness", "Restless Legs Syndrome", "Teeth Grinding (Bruxism)", "Chronic Fatigue Syndrome (ME/CFS)"],
-  "immunsystem": ["Multiple Sclerosis", "Frequent Infections / Weak Immune System", "Long COVID / Post-Viral Syndrome", "Lupus", "Food Allergies", "Sarcoidosis"],
+  "immunsystem": ["Multiple Sclerosis", "Frequent Infections / Weak Immune System", "Long COVID / Post-Viral Syndrome", "Post-Vaccination Syndrome", "Lupus", "Food Allergies", "Sarcoidosis"],
   "onkologie": ["Breast Cancer", "Prostate Cancer", "Colorectal Cancer", "Lung Cancer", "Skin Cancer (Melanoma)", "Stomach Cancer", "Pancreatic Cancer", "Leukemia"],
   "sonstige": ["Chronic Kidney Disease", "Erectile Dysfunction", "Infertility", "Periodontitis", "Chronic Bladder Infection (Cystitis)", "Glaucoma", "Endometriosis", "Urinary Incontinence"],
 };
