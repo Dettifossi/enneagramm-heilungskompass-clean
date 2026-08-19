@@ -42591,7 +42591,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Identität durch Zugehörigkeit zu einer Sache oder Gemeinschaft, nicht durch die einzelne Person",
         beschreibung: "Naranjo nannte diesen Subtyp den der ›Teilhabe‹ (Participation): Das eigene Selbst tritt nicht als Einzelperson auf, sondern verschmilzt mit einer Gruppe, einer Idee oder einer größeren Sache – deren Denken und Fühlen wird zum eigenen.",
-        beleg: "Julian Assange: ›Ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine größere Sache definiert … Er kämpft nicht für sich selbst – er kämpft für etwas, das größer ist als das eigene Überleben‹; Kevin Costner: ›Er ist Teil von etwas Größerem, und er weiß es‹; Amelia Earhart, deren ›eigentliches Projekt nie der persönliche Nervenkitzel war, sondern der Beweis, dass Frauen fliegen können wie Männer.‹"
+        beleg: "Julian Assange: ›Ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine größere Sache definiert … Er kämpft nicht für sich selbst – er kämpft für etwas, das größer ist als das eigene Überleben‹; Kevin Costner: ›Er ist Teil von etwas Größerem, und er weiß es‹; Amelia Earhart, deren ›eigentliches Projekt nie der persönliche Nervenkitzel war, sondern der Beweis, dass Frauen fliegen können wie Männer.‹; Sandra Hüller, die in Interviews auffallend selten über sich selbst als Star spricht, fast immer über das Ensemble, das Team, die Regie – und ihrem Theater in Leipzig trotz internationalem Ruhm treu blieb; Wilma Mankiller, die einen Cherokee-Ehrentitel trug, der wörtlich ›Beschützerin der Menschen‹ bedeutet, und ihr erstes großes Projekt gemeinsam mit den Bewohnern eines Ortes verlegte – nicht als Verwalterin von außen, sondern als Teil der Sache selbst."
       },
       {
         titel: "Ruhige, unaufgeregte Präsenz, der die Herde dennoch folgt",
@@ -42618,17 +42618,17 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Ruhige, gewichtige Präsenz statt Lautstärke",
         beschreibung: "Wirkung entsteht nicht durch Reden oder Auftreten, sondern durch bloße, gewichtige Anwesenheit – der Raum verändert sich, ohne dass ein Wort nötig wäre.",
-        beleg: "James Levine: ›Er braucht keine Aktion, um zu wirken. Es genügt, dass er da ist‹; Angela Merkel: ›Eine Präsenz, die nicht durch Lautstärke entsteht, sondern durch Gewicht … Sie sprach selten laut. Sie machte keine großen Gesten‹; Thomas von Aquin, genannt ›der stumme Ochse‹, über den sein Lehrer sagte: ›Sein Gebrüll in der Lehre wird eines Tages die ganze Welt erfüllen.‹"
+        beleg: "James Levine: ›Er braucht keine Aktion, um zu wirken. Es genügt, dass er da ist‹; Angela Merkel: ›Eine Präsenz, die nicht durch Lautstärke entsteht, sondern durch Gewicht … Sie sprach selten laut. Sie machte keine großen Gesten‹; Thomas von Aquin, genannt ›der stumme Ochse‹, über den sein Lehrer sagte: ›Sein Gebrüll in der Lehre wird eines Tages die ganze Welt erfüllen.‹; Bärbel Bas, die als Bundestagspräsidentin nicht mit großen Gesten auffällt, sondern durch Verlässlichkeit und beharrliches Bemühen um Ordnung wirkt; David Hume, der die Grundfesten der Welt infrage stellte und dabei erstaunlich unaufgeregt blieb – ›le bon David‹ selbst in Kreisen, die seine Ideen für gefährlich hielten."
       },
       {
         titel: "Einmal in Bewegung, ist nichts mehr aufzuhalten",
         beschreibung: "Fortschritt geschieht nicht eilig, sondern in einem eigenen, unbeirrbaren Tempo – sobald eine Richtung eingeschlagen ist, hält kaum ein Hindernis diese Bewegung noch auf.",
-        beleg: "Ludwig Erhard: ›Wenn er einmal in Bewegung ist, hält ihn kaum etwas auf‹ – ›ein Mann, der beharrlich an einer Idee festhielt, bis sie Wirklichkeit wurde‹; Gina Rinehart: ›Der Elefant bewegt sich langsam. Aber er bewegt sich in eine Richtung, und diese Richtung ändert sich nicht mehr‹; Angela Merkel: ›Aussitzen als Methode.‹"
+        beleg: "Ludwig Erhard: ›Wenn er einmal in Bewegung ist, hält ihn kaum etwas auf‹ – ›ein Mann, der beharrlich an einer Idee festhielt, bis sie Wirklichkeit wurde‹; Gina Rinehart: ›Der Elefant bewegt sich langsam. Aber er bewegt sich in eine Richtung, und diese Richtung ändert sich nicht mehr‹; Angela Merkel: ›Aussitzen als Methode.‹; Laotse, der der Überlieferung nach am Ende seines Lebens einfach gen Westen ritt und in der Wüste verschwand – kein Kampf um Reform, sondern der stille, endgültige Abschied von einer Welt, die er nicht mehr mittragen wollte; Hans-Dietrich Genscher, dessen 23 Jahre im Auswärtigen Amt keine Karriere der großen Brüche waren, sondern eine der geduldigen Akkumulation, Jahr für Jahr, Schritt für Schritt."
       },
       {
         titel: "Appetit und Genuss als Ausdruck von Lebensfreude, die die innere Leere dämpft",
         beschreibung: "Naranjo nannte diesen Subtyp den des ›Appetits‹: Körperlicher Genuss, Gewohnheit und Komfort dienen dazu, eine tiefer liegende innere Leere zu dämpfen – nicht als Schwäche, sondern als tief verwurzeltes Lebensprinzip.",
-        beleg: "Alfons Schuhbeck: ›Der selbsterhaltende Subtyp der Neun nennt sich »Appetit«: Die innere Leere, die jede Neun mit sich trägt, wird durch körperlichen Genuss, Essen, Gewohnheit und Komfort gedämpft‹; Johannes Brahms, der ›genügsam blieb, auch als sein Ruhm ihn längst zu einem der reichsten Komponisten Europas gemacht hatte‹; Abida Parveen: ›Appetit auf Verschmelzung‹, deren ruhiger, eileloser Gesang ganze Konzertsäle in Trance versetzt."
+        beleg: "Alfons Schuhbeck: ›Der selbsterhaltende Subtyp der Neun nennt sich »Appetit«: Die innere Leere, die jede Neun mit sich trägt, wird durch körperlichen Genuss, Essen, Gewohnheit und Komfort gedämpft‹; Johannes Brahms, der ›genügsam blieb, auch als sein Ruhm ihn längst zu einem der reichsten Komponisten Europas gemacht hatte‹; Abida Parveen: ›Appetit auf Verschmelzung‹, deren ruhiger, eileloser Gesang ganze Konzertsäle in Trance versetzt; Carmen Goglin, die aus Lachyoga einen Beruf machte und anderen genau das vermittelt, was die SE9 für sich selbst sucht – Körperentspannung, Leichtigkeit, das Gefühl, dass gerade nichts dringend ist."
       },
       {
         titel: "Wenn der stille Appetit zur stillen Selbstbedienung ohne Schuldgefühl wird (Schattenform)",
@@ -42655,7 +42655,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Unermüdlicher, über ein ganzes Leben nie erlöschender Antrieb",
         beschreibung: "Der eigene Hunger nach Ausdruck, Erfahrung oder Wirkung lässt über Jahrzehnte nicht nach – ohne Rückzug, ohne Schaffenspause, ohne dass die Intensität mit dem Alter spürbar abnimmt.",
-        beleg: "Pablo Picasso, der 91 Jahre lang ›unermüdlich, unersättlich, unbeirrbar von jeder Erwartung, die nicht seine eigene war‹ arbeitete und über 20.000 Werke hinterließ: ›Das Krokodil frisst, solange es Hunger hat. Und Picassos Hunger … erlosch nie‹; Gerhard Schröder, dessen ›ganze Instinktausrichtung‹ bereits als Jusochef am Kanzleramtszaun sichtbar wurde: ›Ich will da rein.‹"
+        beleg: "Pablo Picasso, der 91 Jahre lang ›unermüdlich, unersättlich, unbeirrbar von jeder Erwartung, die nicht seine eigene war‹ arbeitete und über 20.000 Werke hinterließ: ›Das Krokodil frisst, solange es Hunger hat. Und Picassos Hunger … erlosch nie‹; Gerhard Schröder, dessen ›ganze Instinktausrichtung‹ bereits als Jusochef am Kanzleramtszaun sichtbar wurde: ›Ich will da rein.‹; Prof. Grahame Webb, der vor der Spezialisierung auf Krokodile bereits an Kängurus, Haien, Meeresschildkröten, Affen, Thunfischen und Walen forschte und danach zusätzlich Forschungsstation, Krokodilfarm, Schule und Roman aufbaute – nie ein einziges Revier, immer ein wachsendes Imperium."
       },
       {
         titel: "Wenn Besitzergreifung sich in ein Netzwerk der Kontrolle über Menschen verwandelt (Schattenform)",
@@ -42672,7 +42672,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Kraft, die nicht für sich selbst, sondern für das Rudel eingesetzt wird",
         beschreibung: "Naranjo beschrieb diesen Subtyp als den Typus der ›Freundschaft und Bruderschaft‹: Stärke dient nicht der persönlichen Selbstbehauptung, sondern dem Schutz und Zusammenhalt einer Gemeinschaft, für die man sich verantwortlich fühlt.",
-        beleg: "Michelle Obama: ›Stärke ist hier kein Selbstzweck – sie ist im Dienst des Wir. Der Löwe schützt sein Rudel. Michelle Obama schützt ihr Volk‹; Carsten Stahl: ›Seine Kraft ist nicht für sich selbst – sie ist für die, die neben ihm stehen. Wenn Schwache bedroht werden, steht der Löwe auf‹; Karl Marx: ›Er kämpfte nicht für sich. Er kämpfte für ein Rudel, das er nie persönlich kannte: die Arbeiterklasse der ganzen Welt.‹"
+        beleg: "Michelle Obama: ›Stärke ist hier kein Selbstzweck – sie ist im Dienst des Wir. Der Löwe schützt sein Rudel. Michelle Obama schützt ihr Volk‹; Carsten Stahl: ›Seine Kraft ist nicht für sich selbst – sie ist für die, die neben ihm stehen. Wenn Schwache bedroht werden, steht der Löwe auf‹; Karl Marx: ›Er kämpfte nicht für sich. Er kämpfte für ein Rudel, das er nie persönlich kannte: die Arbeiterklasse der ganzen Welt.‹; Cynthia Lummis, die seit Jahrzehnten für einen der bevölkerungsärmsten und in Washington oft übersehenen US-Bundesstaaten kämpft – konkret für Rancher, Bergarbeiter und Wähler, die sie kennt, statt für ferne ideologische Debatten; Mohammed ibn Abdullah, der als Waise aufwuchs und sich zeitlebens für die Rechtlosesten seiner Gesellschaft einsetzte – Waisen, Witwen, Sklaven."
       },
       {
         titel: "Bloße Präsenz genügt – kein ständiges Brüllen nötig",
@@ -42682,7 +42682,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Präzises, gewähltes Eingreifen statt wahlloser Konfrontation",
         beschreibung: "Kraft wird nicht wahllos eingesetzt, sondern erst nach genauer Beobachtung, im richtigen Moment und mit klarer Zielrichtung – ohne unnötige Energie zu verschwenden.",
-        beleg: "Jamaica Kincaid: ›Der Löwe kämpft nicht wahllos. Er wartet, beobachtet, wählt den Moment. Und wenn er angreift, dann mit einer Präzision, die keine Energie verschwendet‹; Sokrates, der ›barfuß im Winter unterwegs, gleichgültig gegenüber Komfort, unbestechlich in seinen Überzeugungen‹ blieb: ›Der Löwe zieht sich nicht zurück, wenn es unbequem wird – er hält stand.‹"
+        beleg: "Jamaica Kincaid: ›Der Löwe kämpft nicht wahllos. Er wartet, beobachtet, wählt den Moment. Und wenn er angreift, dann mit einer Präzision, die keine Energie verschwendet‹; Sokrates, der ›barfuß im Winter unterwegs, gleichgültig gegenüber Komfort, unbestechlich in seinen Überzeugungen‹ blieb: ›Der Löwe zieht sich nicht zurück, wenn es unbequem wird – er hält stand.‹; Fritz Perls, der Teilnehmer seiner Workshops gezielt auf den ›Hot Seat‹ setzte und einzeln, direkt und schonungslos mit ihrer eigenen Abwehr konfrontierte – kein wahlloses Angreifen, sondern präzises Eingreifen genau dort, wo es wirkte."
       },
       {
         titel: "Wenn Rudel-Loyalität zur öffentlich zur Schau gestellten kriminellen Bruderschaft wird (Schattenform)",
@@ -42699,12 +42699,12 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Solitäres, stilles Territorium ohne Bedürfnis nach Publikum oder Bestätigung",
         beschreibung: "Naranjo nannte diesen Subtyp den der ›Satisfaktion‹: Sicherheit entsteht durch persönliche, materielle oder positionelle Absicherung – nicht durch soziale Anerkennung. Macht muss sich niemandem beweisen, sie ist einfach vorhanden.",
-        beleg: "Jacqueline Mars: ›Der Orang-Utan ist der solitärste der Menschenaffen: Er braucht kein Rudel, keine Bühne, keine Bestätigung … Öffentliche Interviews gibt sie seit Jahrzehnten so gut wie keine‹; Toni Morrison: ›Er lebt auf seine eigene Weise, in seinem eigenen Rhythmus, mit einer Würde, die nicht erklärt werden muss‹; Golda Meir: ›Eine stille Macht, die sich nicht beweisen muss.‹"
+        beleg: "Jacqueline Mars: ›Der Orang-Utan ist der solitärste der Menschenaffen: Er braucht kein Rudel, keine Bühne, keine Bestätigung … Öffentliche Interviews gibt sie seit Jahrzehnten so gut wie keine‹; Toni Morrison: ›Er lebt auf seine eigene Weise, in seinem eigenen Rhythmus, mit einer Würde, die nicht erklärt werden muss‹; Golda Meir: ›Eine stille Macht, die sich nicht beweisen muss.‹; Dhapanbal Yunupingu, die ein prägendes künstlerisches Erbe nicht lautstark verteidigt, sondern still beansprucht – und am Ort bleibt, an dem es entstand, statt es woanders zu vermarkten."
       },
       {
         titel: "Geduldiger, systematischer Aufbau des eigenen Territoriums über Jahrzehnte",
         beschreibung: "Position oder Einfluss entstehen nicht durch einen einzelnen spektakulären Schritt, sondern durch beharrlichen, oft unauffälligen Aufbau, Ebene um Ebene, über einen sehr langen Zeitraum.",
-        beleg: "Indra Nooyi, die mit ›wenig mehr als 500 Dollar in der Tasche‹ in die USA kam und 28 Jahre später einen der größten Lebensmittelkonzerne der Welt führte: ›Das systematische, geduldige Errichten eines Territoriums, Ebene um Ebene, bis niemand mehr daran zweifelte, wer oben sitzt‹; Dr. Biruté Galdikas, deren jahrzehntelange Feldforschung sie zur weltweit führenden Orang-Utan-Expertin machte – dasselbe Prinzip in der eigenen Forschungsarbeit gespiegelt."
+        beleg: "Indra Nooyi, die mit ›wenig mehr als 500 Dollar in der Tasche‹ in die USA kam und 28 Jahre später einen der größten Lebensmittelkonzerne der Welt führte: ›Das systematische, geduldige Errichten eines Territoriums, Ebene um Ebene, bis niemand mehr daran zweifelte, wer oben sitzt‹; Dr. Biruté Galdikas, deren jahrzehntelange Feldforschung sie zur weltweit führenden Orang-Utan-Expertin machte – dasselbe Prinzip in der eigenen Forschungsarbeit gespiegelt; Dr. Umberto Eco, der über 30.000 Bücher als Denkinstrument ansammelte – kein Einzelschritt, sondern ein über Jahrzehnte gewachsenes, persönliches Wissensterritorium."
       },
       {
         titel: "Unerschütterliche Standfestigkeit unter extremem Druck",
