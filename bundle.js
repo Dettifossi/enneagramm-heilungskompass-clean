@@ -48356,7 +48356,7 @@ function johnWaynePortraitPage() {
         <h2 class="vb-section">3. Der Siebenerflügel: Schwung, Energie, unermüdliches Schaffen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> verleiht der Acht eine zusätzliche Portion Schwung, Tempo und Appetit auf immer neue Projekte &ndash; die pure Durchsetzungskraft der Acht wird um eine expansive, kaum zu bremsende Energie ergänzt. Wayne drehte über fünf Jahrzehnte hinweg mehr als 170 Filme, oft mehrere pro Jahr, in einem Tempo, das für die meisten Schauspieler seiner Generation unerreichbar blieb.</p>
-          <p class="vb-intro">Diese Kombination aus Acht-Wucht und Sieben-Tempo machte ihn zu einer der bestimmenden Figuren des amerikanischen Kinos des 20. Jahrhunderts &ndash; kein zögerlicher Perfektionist, sondern ein Mann, der von einem Projekt zum nächsten voranschritt, immer mit vollem Einsatz, selten mit Pause.</p>
+          <p class="vb-intro">Diese Kombination aus der Wucht der Acht und dem Tempo der Sieben machte ihn zu einer der bestimmenden Figuren des amerikanischen Kinos des 20. Jahrhunderts &ndash; kein zögerlicher Perfektionist, sondern ein Mann, der von einem Projekt zum nächsten voranschritt, immer mit vollem Einsatz, selten mit Pause.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Licht und Schatten</h2>
