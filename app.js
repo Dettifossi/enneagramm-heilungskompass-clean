@@ -32394,6 +32394,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Cynthia Lummis \u2013 Sozialer Typ 8",
     teaser:"SO8w7 \u00b7 geb. 1954 in Cheyenne, Wyoming. US-Senatorin, erste weibliche Bitcoin-Verfechterin im US-Senat, ehem. Wyoming State Treasurer. Die L\u00f6win, die f\u00fcr ihre Herde k\u00e4mpft \u2013 kompromisslos, direkt, und immer an vorderster Front.",
     tags:["Politik"], gender:"f"},
+  { route:"beruehmte-laurence-frank", name:"Dr. Laurence Frank", added:"2026-08-19", subtyp:"SO8w7",
+    heading:"Dr. Laurence Frank \u2013 Sozialer Typ 8",
+    teaser:"SO8w7 \u00b7 Wildtierbiologe, Gr\u00fcnder von Living with Lions und Vordenker der Lion Guardians. \u00dcber 35 Jahre furchtlose Feldforschung an L\u00f6wen und Hy\u00e4nen in Kenia, vers\u00f6hnte Massai-Krieger mit den L\u00f6wen, die sie einst t\u00f6teten. Der L\u00f6we, der f\u00fcr den L\u00f6wen k\u00e4mpft. Tierentsprechung: L\u00f6we.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-bud-spencer", name:"Bud Spencer", subtyp:"SO8w9",
     heading:"Bud Spencer \u2013 Sozialer Typ 8",
     teaser:"SO8w9 \u00b7 Carlo Pedersoli, 1929\u20132016. Schauspieler, Schwimmer, Unternehmer, Familienvater. Vier F\u00e4uste f\u00fcr ein Halleluja. Der L\u00f6we, der nicht braucht zu br\u00fcllen \u2013 er ist einfach da. Tierentsprechung: L\u00f6we.",
@@ -35306,6 +35310,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-jill-pruetz", name:"Dr. Jill Pruetz", subtyp:"SX7w6", tier:"Schimpanse"},
   {route:"beruehmte-paris-hilton", name:"Paris Hilton", subtyp:"SX4w3", tier:"Chihuahua"},
   {route:"beruehmte-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", tier:"Taube"},
+  {route:"beruehmte-laurence-frank", name:"Dr. Laurence Frank", subtyp:"SO8w7", tier:"Löwe"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42677,12 +42682,12 @@ const LEBENSMUSTERKOMPASS = {
   SO8: {
     tier: "Löwe",
     kernthema: "Kraft, die nicht für sich selbst, sondern für das Rudel eingesetzt wird (Naranjo: Freundschaft und Bruderschaft)",
-    beispiele: ["Sokrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Mohammed ibn Abdullah", "Helmut Kohl", "John Gotti"],
+    beispiele: ["Sokrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Mohammed ibn Abdullah", "Helmut Kohl", "John Gotti", "Dr. Laurence Frank"],
     fingerabdruecke: [
       {
         titel: "Kraft, die nicht für sich selbst, sondern für das Rudel eingesetzt wird",
         beschreibung: "Naranjo beschrieb diesen Subtyp als den Typus der ›Freundschaft und Bruderschaft‹: Stärke dient nicht der persönlichen Selbstbehauptung, sondern dem Schutz und Zusammenhalt einer Gemeinschaft, für die man sich verantwortlich fühlt.",
-        beleg: "Michelle Obama: ›Stärke ist hier kein Selbstzweck – sie ist im Dienst des Wir. Der Löwe schützt sein Rudel. Michelle Obama schützt ihr Volk‹; Carsten Stahl: ›Seine Kraft ist nicht für sich selbst – sie ist für die, die neben ihm stehen. Wenn Schwache bedroht werden, steht der Löwe auf‹; Karl Marx: ›Er kämpfte nicht für sich. Er kämpfte für ein Rudel, das er nie persönlich kannte: die Arbeiterklasse der ganzen Welt.‹; Cynthia Lummis, die seit Jahrzehnten für einen der bevölkerungsärmsten und in Washington oft übersehenen US-Bundesstaaten kämpft – konkret für Rancher, Bergarbeiter und Wähler, die sie kennt, statt für ferne ideologische Debatten; Mohammed ibn Abdullah, der als Waise aufwuchs und sich zeitlebens für die Rechtlosesten seiner Gesellschaft einsetzte – Waisen, Witwen, Sklaven."
+        beleg: "Michelle Obama: ›Stärke ist hier kein Selbstzweck – sie ist im Dienst des Wir. Der Löwe schützt sein Rudel. Michelle Obama schützt ihr Volk‹; Carsten Stahl: ›Seine Kraft ist nicht für sich selbst – sie ist für die, die neben ihm stehen. Wenn Schwache bedroht werden, steht der Löwe auf‹; Karl Marx: ›Er kämpfte nicht für sich. Er kämpfte für ein Rudel, das er nie persönlich kannte: die Arbeiterklasse der ganzen Welt.‹; Cynthia Lummis, die seit Jahrzehnten für einen der bevölkerungsärmsten und in Washington oft übersehenen US-Bundesstaaten kämpft – konkret für Rancher, Bergarbeiter und Wähler, die sie kennt, statt für ferne ideologische Debatten; Mohammed ibn Abdullah, der als Waise aufwuchs und sich zeitlebens für die Rechtlosesten seiner Gesellschaft einsetzte – Waisen, Witwen, Sklaven; Dr. Laurence Frank, der sein Leben nicht nur den Löwen, sondern zugleich den Massai widmete, die mit ihnen leben mussten – Stärke im Dienst zweier Gemeinschaften zugleich."
       },
       {
         titel: "Bloße Präsenz genügt – kein ständiges Brüllen nötig",
@@ -49826,6 +49831,7 @@ function cynthiaLummisPortraitPage() {
         {route:"subtype/so8", label:"SO8 \u2013 Der L\u00f6we: Subtyp-Profil"},
         {route:"beruehmte-carsten-stahl", label:"Portr\u00e4t: Carsten Stahl (SO8w7)"},
         {route:"beruehmte-michelle-obama", label:"Portr\u00e4t: Michelle Obama (SO8w7)"},
+        {route:"beruehmte-laurence-frank", label:"Portr\u00e4t: Dr. Laurence Frank (SO8w7)"},
       ])}
     </div>
   `);
@@ -50086,6 +50092,68 @@ function jamaicaKincaidPortraitPage() {
   `);
 }
 
+
+function laurenceFrankPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-laurence-frank-portrait.jpg" alt="Löwe" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Laurence Frank</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Wildtierbiologe, Gründer von Living with Lions &ndash; Tierentsprechung: Löwe</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Löwe, der für den Löwen kämpfte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier der sozialen Acht &ndash; Stärke, die nicht für sich selbst, sondern für das Rudel eingesetzt wird. Dr. Laurence Frank, verbunden mit der UC Berkeley und der University of Oxford, widmete sein Leben genau diesem Tier: über 35 Jahre furchtlose Feldforschung an Löwen und Hyänen in Kenia, ohne je eine feste Professur anzustreben, weil ihm die Arbeit im Busch wichtiger war als die akademische Karriereleiter.</p>
+          <p class="vb-intro">Weltbekannt wurde er als Gründer des Lion-Guardians-Projekts: Er erkannte, dass die größte Bedrohung für Löwen nicht die Natur war, sondern der Konflikt mit den Massai-Siedlern – und entwickelte ein Konzept, das ehemalige Löwentöter zu Löwenbeschützern machte. Der Löwe, der erkannte, dass sein Tier nur überlebt, wenn er selbst zwischen den Fronten vermittelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Stärke im Dienst einer größeren Sache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft nicht für die eigene Sicherheit ein, sondern für den Schutz einer Gemeinschaft – bei Frank waren das gleich zwei Gemeinschaften zugleich: die Löwen Kenias und die Massai, die mit ihnen leben mussten. Statt von außen Vorschriften zu erlassen, arbeitete er direkt mit Massai-Kriegern und Ranchern zusammen und erkannte deren Nöte ausdrücklich an: Ein Löwenangriff auf eine Kuh bedeutet für eine Hirtenfamilie echte Not, kein abstraktes Naturschutzproblem.</p>
+          <p class="vb-intro">Sein Leitsatz &ndash; sinngemäß: „Wenn die Welt um dich herum stirbt, musst du etwas tun" &ndash; zeigt die soziale Acht in ihrer pragmatischsten Form: nicht Theorie, sondern Handeln, das sofort etwas verändert. Die Lion Guardians sind genau das: keine importierte Lösung, sondern eine Struktur, die der Gemeinschaft selbst die Verantwortung und die Würde zurückgibt, ihr eigenes Verhältnis zum Löwen neu zu gestalten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Furchtlos, ungeduldig, besessen vom nächsten Fall</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der sozialen Acht Tempo, Risikofreude und eine fast ungeduldige Energie – deutlich unterscheidbar vom ruhigeren, stärker vermittelnden Neunerflügel. Kollegen beschreiben Frank als „Laurence of the Hyenas": einen Mann, der nachts furchtlos durch den Busch streift, mit Nachtsichtgeräten gefährliche Raubtiere aufspürt und dabei eine fast obsessive Begeisterung zeigt – einen verwesenden Hyänenschädel nennt er ein „exquisites Exemplar". Das ist kein Neunerflügel, der abwartet und vermittelt; das ist ein Siebenerflügel, der sich kopfüber ins nächste Abenteuer stürzt.</p>
+          <p class="vb-intro">Auch sein Temperament passt zum Siebenerflügel mehr als zum Neuner: Sein Kiefer zuckt, wenn er wütend wird – was, wie Kollegen anmerken, recht häufig vorkommt. Er flucht mitten in druckreif formulierten, fast viktorianisch komplexen Sätzen. Das ist nicht die stille, konfliktvermeidende Präsenz der Neun, sondern die schnelle, hochenergetische, manchmal ungeduldige Intensität der Sieben – eingebettet in die Beschützerkraft der sozialen Acht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO8w7 ist die Fähigkeit, <strong>Furchtlosigkeit und schnelles Handeln in echten Schutz für eine bedrohte Art</strong> zu verwandeln – Franks Lion-Guardians-Modell wird heute weltweit als Vorbild für Mensch-Raubtier-Koexistenz herangezogen und hat nachweislich Löwenpopulationen gerettet, die sonst ausgerottet worden wären.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in genau der Ungeduld, die ihn antreibt: eine gewisse Rastlosigkeit, ein schnelles Aufbrausen, eine Distanz zur akademischen Anerkennung, die ihm nie wichtig genug war, um sie ernsthaft zu verfolgen. Auch seine tiefe emotionale Bindung an die Tiere – er wurde sichtbar bewegt, als er eine tollwütige Hyäne einschläfern musste, die er zuvor über Jahre beobachtet hatte – zeigt, wie viel wissenschaftliche Distanz ihn diese Arbeit tatsächlich gekostet hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Löwe, der die Löwen rettete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Laurence Frank der Welt gibt, ist der Beweis, dass Artenschutz nicht gegen, sondern nur mit den Menschen gelingt, die am nächsten am Konflikt leben. Sein Lebenswerk verband Stärke mit sozialer Diplomatie, um dem König der Tiere das Überleben in einer sich radikal verändernden Welt zu sichern.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass beinahe wie ein lebender Beweis wirkt: ein Mann, dessen archetypisches Tier der Löwe ist, der sein gesamtes Berufsleben genau diesem Tier widmete – nicht durch Rückzug ins Labor, sondern durch furchtlose, jahrzehntelange Präsenz zwischen Löwen und Menschen, genau dort, wo es am gefährlichsten und am nötigsten war.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so8", label:"Lebensmusterkompass: SO8 – Löwe"},
+        {route:"beruehmte-cynthia-lummis", label:"Porträt: Cynthia Lummis (SO8w7)"},
+        {route:"beruehmte-michelle-obama", label:"Porträt: Michelle Obama (SO8w7)"},
+        {route:"tierforscher-uebereinstimmung", label:"Tierforscher-Übereinstimmung: weitere Beispiele"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-laurence-frank")}
+    </div>
+  `);
+}
 
 function budSpencerPortraitPage() {
   return shell(`
@@ -92995,6 +93063,7 @@ function render() {
     "beruehmte-toni-morrison": toniMorrisonPortraitPage,
           "beruehmte-carsten-stahl": carstenStahlPortraitPage,
           "beruehmte-cynthia-lummis": cynthiaLummisPortraitPage,
+          "beruehmte-laurence-frank": laurenceFrankPortraitPage,
     "beruehmte-michelle-obama": michelleObamaPortraitPage,
     "beruehmte-sokrates": sokratesPortraitPage,
     "beruehmte-fritz-perls": fritzPerlsPortraitPage,
