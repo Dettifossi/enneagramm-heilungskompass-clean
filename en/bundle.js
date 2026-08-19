@@ -1116,6 +1116,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonard Bernstein – Sexual Type 7",
     teaser:"SX7w6 · 1918–1990. Conductor, composer, pianist. West Side Story, Young People's Concerts, New York Philharmonic. The chimpanzee with a Six-wing: boundless enthusiasm paired with an educational mission and never-quite-settled doubt. Animal correspondence: Chimpanzee.",
     tags:["Music"], gender:"m"},
+{ route:"beruehmte-frans-de-waal", name:"Prof. Dr. Frans de Waal", added:"2026-08-19", subtyp:"SX7w6",
+    heading:"Prof. Dr. Frans de Waal – Sexual Type 7",
+    teaser:"SX7w6 · 1948–2024. Dutch-American primatologist, \"bridge-builder between humans and chimpanzees.\" Groundbreaking studies on power alliances, reconciliation, and empathy in chimpanzees and bonobos, bestseller \"Chimpanzee Politics.\" Animal correspondence: Chimpanzee.",
+    tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-ina-mueller", name:"Ina Müller", subtyp:"SX7w8",
     heading:"Ina Müller – Sexual Type 7",
     teaser:"SX7w8 · born 1965. Singer, musical cabaret artist, TV presenter (Inas Nacht). The chimpanzee with Eight-wing: zestful, direct, fearless – and always close to people. Animal correspondence: Chimpanzee.",
@@ -4812,6 +4816,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-douglas-smith", name:"Dr. Douglas W. Smith", subtyp:"SX6w5", tier:"Wolf"},
   {route:"beruehmte-frank-rosell", name:"Prof. Dr. Frank Rosell", subtyp:"SO7w6", tier:"Beaver"},
   {route:"beruehmte-dietland-mueller-schwarze", name:"Prof. Dr. Dietland Müller-Schwarze", subtyp:"SO7w6", tier:"Beaver"},
+  {route:"beruehmte-frans-de-waal", name:"Prof. Dr. Frans de Waal", subtyp:"SX7w6", tier:"Chimpanzee"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -29356,6 +29361,67 @@ function dietlandMuellerSchwarzePortraitPage() {
   `);
 }
 
+function fransDeWaalPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-frans-de-waal-portrait.jpg" alt="Chimpanzee" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Frans de Waal</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Primatologist, "bridge-builder between humans and chimpanzees," 1948&ndash;2024 &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The chimpanzee who discovered chimpanzee politics</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the Sexual Seven &ndash; clever, playful, socially highly intelligent, with a preference for intense bonds and intellectual boundary-crossing. Few scientists embodied this principle as fully as Prof. Dr. Frans de Waal: the Dutch-American primatologist is regarded as the most influential behavioural researcher in his field worldwide and became known as the "bridge-builder between humans and chimpanzees."</p>
+          <p class="vb-intro">Born in 1948 in 's-Hertogenbosch, de Waal earned his doctorate in Utrecht in 1977. His groundbreaking first book, "Chimpanzee Politics" (1982), documented the complex power alliances and shifting coalitions of chimpanzees at Arnhem Zoo &ndash; and introduced the concept of "Machiavellian intelligence" into primatology. De Waal died in 2024 at the age of 75.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Seven: the one intense bond instead of the wide stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Seven (SX7)</strong> finds its fulfillment not in institutional group belonging, but in intense, meaningful one-on-one connections &ndash; an idealizing, almost enamored devotion to a person, an idea, or a being. De Waal's scientific legacy circles around exactly this theme: reconciliation, empathy, and bonding stood at the center of his later bonobo research, captured in books such as "The Age of Empathy" and "The Bonobo and the Atheist."</p>
+          <p class="vb-intro">Colleagues describe him as someone who sought direct, personal intellectual exchange &ndash; individual conversations, personal responses to individual colleagues' work, rather than losing himself in institutional networks. This very preference for the one meaningful connection, not the broad stage, is the core of the Sexual Seven.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: alliances and loyalty as a research subject</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven a fine sense for security, loyalty, and the dynamics of alliances &ndash; exactly the themes de Waal studied throughout his career. His early work showed that power among chimpanzees does not arise from raw aggression, but from relationships defined by generosity and impartiality &ndash; a deeply Six-style understanding of security through alliance-tending rather than dominance.</p>
+          <p class="vb-intro">This combination of Seven-style intellectual curiosity and Six-style sensitivity to loyalty structures made him a researcher who broke conventions with playful brilliance: he showed how much human there is in the animal, and how much animal there is in the human &ndash; never as provocation for its own sake, but always carefully documented and methodically secured.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX7w6 is its ability to turn <strong>intellectual excitement and intense capacity for bonding into a life's work that redrew the line between human and animal</strong> &ndash; de Waal's books were translated into twenty languages and made him one of the world's most publicly visible primatologists.</p>
+          <p class="vb-intro">The shadow of the Sexual Seven with a Six-wing shows in how much one's own scientific authority can become tied to intense personal bonds rather than broad institutional backing &ndash; an approach that was at once his greatest strength and his greatest vulnerability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The chimpanzee who showed how much human there is in the animal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What de Waal gave the world is a fundamentally changed understanding of what animals can feel, plan, and know &ndash; a legacy that reached far beyond academia into the public debate about animal consciousness and empathy.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly fit this compass more fittingly: a man whose archetypal animal is the chimpanzee, who devoted his entire life to that clever, playful, deeply bonding animal &ndash; and, apparently unconsciously, studied his own deepest pattern along the way.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-leonard-bernstein", label:"Portrait: Leonard Bernstein (SX7w6)"},
+        {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-frans-de-waal")}
+    </div>
+  `);
+}
+
 function julesVernePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -36411,12 +36477,12 @@ const LEBENSMUSTERKOMPASS = {
   SX7: {
     tier: "Chimpanzee",
     kernthema: "Complete merging with an idea, person, or moment (Naranjo: Suggestibility)",
-    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs"],
+    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs", "Prof. Dr. Frans de Waal"],
     fingerabdruecke: [
       {
         titel: "Complete merging with an idea, person, or moment",
         beschreibung: "Naranjo called this subtype the one of 'Suggestibility': instead of spreading enthusiasm, the entire intensity bundles onto a single point – a conviction, a person, a cause – with a force that knows no half-commitments.",
-        beleg: "Gudrun Ensslin: 'She merges completely with an idea, a person, a vision – and is literally swept away by that merging ... Once the new conviction is there, the old life is completely cast off'; Victor Lustig: 'An ability to fully immerse himself in an idea, a person, a moment – and to appear so convincing that his own enthusiasm becomes contagious'; Clyde Barrow, whose 'entire life was shaped by constant movement, ever new escape routes.'"
+        beleg: "Gudrun Ensslin: 'She merges completely with an idea, a person, a vision – and is literally swept away by that merging ... Once the new conviction is there, the old life is completely cast off'; Victor Lustig: 'An ability to fully immerse himself in an idea, a person, a moment – and to appear so convincing that his own enthusiasm becomes contagious'; Clyde Barrow, whose 'entire life was shaped by constant movement, ever new escape routes'; Prof. Dr. Frans de Waal, who sought direct, personal intellectual exchange with individuals rather than losing himself in institutional networks, and whose late work devoted itself almost exclusively to the single question of empathy and bonding."
       },
       {
         titel: "Contagious intensity that sweeps up an entire group or room",
@@ -58210,6 +58276,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-douglas-smith": douglasSmithPortraitPage,
       "beruehmte-frank-rosell": frankRosellPortraitPage,
       "beruehmte-dietland-mueller-schwarze": dietlandMuellerSchwarzePortraitPage,
+      "beruehmte-frans-de-waal": fransDeWaalPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
