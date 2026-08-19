@@ -729,6 +729,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Prof. Lauren Gardner – Social Type 4",
     teaser:"SO4w5 · American engineer and epidemiologist, Johns Hopkins University. Creator of the world's most used COVID-19 dashboard, TIME 100 member 2020. Responsibility over visibility as the driving force. Animal correspondence: Armadillo.",
     land:"USA", tags:["Wissenschaft"], gender:"f"},
+{ route:"beruehmte-ajeet-kaur", name:"Ajeet Kaur", added:"2026-08-19", subtyp:"SO4w5",
+    heading:"Ajeet Kaur – Social Type 4",
+    teaser:"SO4w5 · American singer and mantra artist. Chronic illness since childhood, music as sanctuary and healing path for herself and others. Animal correspondence: Armadillo.",
+    land:"USA", tags:["Musik"], gender:"f"},
 { route:"beruehmte-voltaire", name:"Voltaire", added:"2026-08-14", subtyp:"SX4w3",
     heading:"Voltaire – Sexual Type 4",
     teaser:"SX4w3 · 1694–1778. French Enlightenment writer and philosopher. Bastille imprisonment, the Calas affair, 'Candide', feud with Rousseau. The chihuahua with the Three-wing: wounded pride as the drive behind a lifelong fight against injustice. Animal correspondence: Chihuahua.",
@@ -28929,6 +28933,66 @@ function laurenGardnerPortraitPage() {
   `);
 }
 
+function ajeetKaurPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ajeet-kaur-portrait.jpg" alt="Ajeet Kaur – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ajeet Kaur</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">American singer and mantra artist &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The armadillo that withdrew into music</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the Social Four &ndash; a creature that does not hide its difference but wears it visibly on its skin, while its sensitive interior stays protected underneath. The American singer Ajeet Kaur, born Siobhan Moore, grew up in the forests and mountains of New Hampshire, in a household shaped equally by the Sikh tradition and the Roman Catholic faith. At age eight she was diagnosed with Hashimoto's thyroiditis, a chronic autoimmune disease of the thyroid &ndash; an early physical experience of being different that would accompany her for the rest of her life.</p>
+          <p class="vb-intro">She encountered Kundalini Yoga through her family even before birth. At eleven, at a women's camp in New Mexico led by Yogi Bhajan, she experienced how deeply music could uplift an entire room of people &ndash; a moment that convinced her there was nothing else she would rather do than offer a healing vibration through sound. At sixteen she began her Kundalini Yoga teacher training.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: healing as a communal act</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Four (SO4)</strong> seeks its worth not in pure withdrawal, but in a special role within a community &ndash; here: the worldwide Kundalini Yoga and mantra community. With her debut album "Sacred Waters" (2013) and "At the Temple Door" (2014), which featured renowned chant artist Snatam Kaur, Ajeet Kaur established herself as a distinct voice within a genre she remained deeply loyal to. She still tours today both with her own band and alongside Snatam Kaur &ndash; a belonging that never becomes mere conformity.</p>
+          <p class="vb-intro">Her own, deeply personal health history flowed directly into her public role as a healer through music: "Mantra and music has always been a big part of managing my own health," she once said. This is typical of the Social Four: one's own suffering is not hidden but becomes the foundation of a role that serves others &ndash; and is seen precisely through that role.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: music as a sanctuary rather than a stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four an introverted, retreat-oriented note &ndash; one's own emotional world is not put on display but moved into a protected inner space, from which something only later reaches the outside. Ajeet Kaur describes music in exactly these terms: "Music has always been a sanctuary for me. It's a place I can always disappear into and feel reunited with a deeper and more peaceful part of myself. I've retreated into music this way since I was a child and still do today."</p>
+          <p class="vb-intro">This language of retreat &ndash; not of performance &ndash; is the purest expression of SO4w5: art and music as "the greatest healers, teachers, and therapists" of her life, as she puts it herself, not primarily as a means of self-presentation. The stage exists, but it is a side effect of a process that is, at its core, private and meditative.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w5 is its ability to turn <strong>one's own suffering into a source of healing for others</strong> &ndash; Ajeet Kaur's early experience of illness did not become a mere limitation but the starting point of an artistic path that has accompanied people worldwide in concerts and workshops for decades. From a very personal vulnerability grew a role that offers others genuine comfort.</p>
+          <p class="vb-intro">The shadow of the Social Four with a Five-wing shows where retreating into music becomes the only available coping strategy &ndash; where a chronic illness must be carried for a lifetime, and introverted, meditative processing can at times remain harder to access than a more direct, open way of handling pain and vulnerability in daily life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The armadillo that turned its vulnerability into sound</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ajeet Kaur remains one of the most distinctive voices in the contemporary mantra and Kundalini music scene &ndash; an artist who never made a secret of her chronic illness, but instead made it the source of music explicitly meant to be understood as medicine. Her path shows how, out of early physical vulnerability, a life's work can grow that shows others that very vulnerability as something shareable, not shameful.</p>
+          <p class="vb-intro">The armadillo that built its shell not out of hardness, but out of sound &ndash; that is the lasting image of the Social Four with a Five-wing: vulnerability that does not put itself on display, but withdraws, in order to touch others from there, in stillness.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"lebensmusterkompass/so4", label:"Life Pattern Compass: SO4 – Armadillo"},
+        {route:"beruehmte-mariella-superina", label:"Portrait: Dr. Mariella Superina (SO4w5)"},
+        {route:"beruehmte-lauren-gardner", label:"Portrait: Prof. Lauren Gardner (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
 function carlFriedrichGaussPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -37454,7 +37518,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "A hard shell on the outside, an extraordinarily sensitive inside underneath",
         beschreibung: "Naranjo called this subtype the one of 'Shame': the deep feeling of being structurally different and lacking. Outwardly, an effective, impenetrable facade often shows itself – coolness, perfection, humor – protecting an extremely vulnerable interior without ever fully hiding it.",
-        beleg: "Romy Schneider: 'The armadillo that shows itself in public while curling up inside' – 'pain, loneliness, the feeling of never truly being seen'; Michael Jackson: 'The armadillo shows the world its armor. What lies beneath, it shows almost no one'; Til Schweiger and Taddl, whose 'smooth outer facade' and 'seemingly carefree humor,' respectively, protect the same deep emotional vulnerability; Hugh Grant, who repeatedly described himself as 'terribly insecure' and whose charmingly stammering screen persona displayed the very insecurity he privately called chronic self-hatred."
+        beleg: "Romy Schneider: 'The armadillo that shows itself in public while curling up inside' – 'pain, loneliness, the feeling of never truly being seen'; Michael Jackson: 'The armadillo shows the world its armor. What lies beneath, it shows almost no one'; Til Schweiger and Taddl, whose 'smooth outer facade' and 'seemingly carefree humor,' respectively, protect the same deep emotional vulnerability; Hugh Grant, who repeatedly described himself as 'terribly insecure' and whose charmingly stammering screen persona displayed the very insecurity he privately called chronic self-hatred; Ajeet Kaur, whose chronic autoimmune illness since childhood became the source of a public role as a healer through music, while she herself stresses that she 'retreated into music' since childhood 'to disappear and feel reunited with a deeper and more peaceful part of myself.'"
       },
       {
         titel: "Wears one's own otherness visibly, instead of hiding it",
@@ -59082,6 +59146,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
       "beruehmte-lauren-gardner": laurenGardnerPortraitPage,
+      "beruehmte-ajeet-kaur": ajeetKaurPortraitPage,
       "beruehmte-carl-friedrich-gauss": carlFriedrichGaussPortraitPage,
       "beruehmte-paris-hilton": parisHiltonPortraitPage,
       "beruehmte-ingo-zimmermann": ingoZimmermannPortraitPage,

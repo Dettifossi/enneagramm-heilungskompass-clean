@@ -31914,6 +31914,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Prof. Lauren Gardner – Sozialer Typ 4",
     teaser:"SO4w5 · US-amerikanische Ingenieurin und Epidemiologin, Johns Hopkins University. Schöpferin des weltweit meistgenutzten COVID-19-Dashboards, TIME-100-Mitglied 2020. Verantwortung statt Sichtbarkeit als Antrieb. Tierentsprechung: Gürteltier.",
     land:"USA", tags:["Wissenschaft"], gender:"f"},
+  { route:"beruehmte-ajeet-kaur", name:"Ajeet Kaur", added:"2026-08-19", subtyp:"SO4w5",
+    heading:"Ajeet Kaur – Sozialer Typ 4",
+    teaser:"SO4w5 · US-amerikanische Sängerin und Mantra-Künstlerin. Chronische Krankheit seit Kindheit, Musik als Zufluchtsort und Heilungsweg für sich und andere. Tierentsprechung: Gürteltier.",
+    land:"USA", tags:["Musik"], gender:"f"},
   { route:"beruehmte-voltaire", name:"Voltaire", added:"2026-08-14", subtyp:"SX4w3",
     heading:"Voltaire – Sexueller Typ 4",
     teaser:"SX4w3 · 1694–1778. Französischer Schriftsteller und Philosoph der Aufklärung. Bastille-Haft, Fall Calas, ›Candide‹, Fehde mit Rousseau. Der Chihuahua mit Dreierflügel: gekränkter Stolz als Antrieb für lebenslangen Kampf gegen Ungerechtigkeit. Tierentsprechung: Chihuahua.",
@@ -43008,7 +43012,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter",
         beschreibung: "Naranjo nannte diesen Subtyp den der ›Scham‹: das tiefe Gefühl, strukturell anders und mangelhaft zu sein. Nach außen zeigt sich häufig eine wirkende, undurchdringliche Fassade – Coolness, Perfektion, Humor –, die ein extrem verletzliches Inneres schützt, ohne es je ganz zu verbergen.",
-        beleg: "Romy Schneider: ›Das Gürteltier, das sich in der Öffentlichkeit zeigt und sich dabei innerlich einrollt‹ – ›Schmerz, Einsamkeit, das Gefühl, nie wirklich gesehen zu werden‹; Michael Jackson: ›Das Gürteltier zeigt der Welt seine Rüstung. Was darunter liegt, zeigt es fast niemandem‹; Til Schweiger und Taddl, deren ›glatte Außenfassade‹ bzw. ›scheinbar sorgloser Humor‹ dieselbe tiefe emotionale Verletzlichkeit schützt; Hugh Grant, der sich selbst wiederholt als ›terribly insecure‹ bezeichnete und dessen charmant-stotternde Leinwandfigur genau jene Unsicherheit zur Schau trug, die er privat als chronisches Selbsthass-Gefühl beschrieb."
+        beleg: "Romy Schneider: ›Das Gürteltier, das sich in der Öffentlichkeit zeigt und sich dabei innerlich einrollt‹ – ›Schmerz, Einsamkeit, das Gefühl, nie wirklich gesehen zu werden‹; Michael Jackson: ›Das Gürteltier zeigt der Welt seine Rüstung. Was darunter liegt, zeigt es fast niemandem‹; Til Schweiger und Taddl, deren ›glatte Außenfassade‹ bzw. ›scheinbar sorgloser Humor‹ dieselbe tiefe emotionale Verletzlichkeit schützt; Hugh Grant, der sich selbst wiederholt als ›terribly insecure‹ bezeichnete und dessen charmant-stotternde Leinwandfigur genau jene Unsicherheit zur Schau trug, die er privat als chronisches Selbsthass-Gefühl beschrieb; Ajeet Kaur, deren chronische Autoimmunerkrankung seit der Kindheit zur Quelle einer öffentlichen Rolle als Heilerin durch Musik wurde, während sie selbst betont, sich schon als Kind ›in die Musik zurückgezogen‹ zu haben, ›um verschwinden und mich wieder mit einem tieferen, ruhigeren Teil von mir selbst verbunden fühlen zu können‹."
       },
       {
         titel: "Trägt das eigene Anderssein sichtbar zur Schau, statt es zu verbergen",
@@ -48267,6 +48271,66 @@ function laurenGardnerPortraitPage() {
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
         {route:"lebensmusterkompass/so4", label:"Lebensmusterkompass: SO4 – Gürteltier"},
         {route:"beruehmte-mariella-superina", label:"Porträt: Dr. Mariella Superina (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function ajeetKaurPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ajeet-kaur-portrait.jpg" alt="Ajeet Kaur – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ajeet Kaur</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanische Sängerin und Mantra-Künstlerin &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier, das sich in die Musik zurückzog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier &ndash; ein Wesen, das sein Anderssein nicht verbirgt, sondern sichtbar auf der Haut trägt, während sein empfindsames Inneres darunter geschützt bleibt. Die US-amerikanische Sängerin Ajeet Kaur, bürgerlich Siobhan Moore, wuchs in den Wäldern und Bergen von New Hampshire auf, mit einem Elternhaus, das gleichermaßen von der Sikh-Tradition und dem römisch-katholischen Glauben geprägt war. Mit acht Jahren wurde bei ihr Hashimoto-Thyreoiditis diagnostiziert, eine chronische Autoimmunerkrankung der Schilddrüse &ndash; eine frühe körperliche Erfahrung von Andersartigkeit, die ihr gesamtes weiteres Leben begleiten sollte.</p>
+          <p class="vb-intro">Bereits im Mutterleib kam sie über ihre Familie mit Kundalini-Yoga in Berührung. Mit elf Jahren erlebte sie bei einem von Yogi Bhajan geleiteten Frauen-Camp in New Mexico, wie sehr Musik einen ganzen Raum von Menschen heben kann &ndash; ein Moment, der sie zur Überzeugung brachte, nichts anderes tun zu wollen, als heilende Schwingung durch Klang weiterzugeben. Mit sechzehn begann sie ihre Kundalini-Yoga-Lehrerausbildung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Heilung als gemeinschaftlicher Akt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> sucht ihren Wert nicht im reinen Rückzug, sondern in einer besonderen Rolle innerhalb einer Gemeinschaft &ndash; hier: der weltweiten Kundalini-Yoga- und Mantra-Gemeinschaft. Mit ihrem Debütalbum &bdquo;Sacred Waters&ldquo; (2013) und &bdquo;At the Temple Door&ldquo; (2014), auf dem unter anderem die bekannte Chant-Künstlerin Snatam Kaur mitwirkte, positionierte sich Ajeet Kaur als eigenständige Stimme innerhalb eines Genres, dem sie zugleich treu blieb. Sie tourt bis heute sowohl mit der eigenen Band als auch gemeinsam mit Snatam Kaur &ndash; eine Zugehörigkeit, die nie zur bloßen Anpassung wird.</p>
+          <p class="vb-intro">Ihre eigene, ganz persönliche Krankheitsgeschichte floss dabei direkt in ihre öffentliche Rolle als Heilerin durch Musik ein: &bdquo;Mantra und Musik waren immer ein großer Teil davon, wie ich mit meiner eigenen Gesundheit umgehe&ldquo;, sagte sie einmal. Für die soziale Vier ist das typisch: Das eigene Leid wird nicht verborgen, sondern zur Grundlage einer Rolle, die anderen dient &ndash; und genau darin gesehen zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Musik als Zufluchtsort statt als Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier eine introvertierte, rückzugsorientierte Note &ndash; die eigene Gefühlswelt wird nicht ausgestellt, sondern in einen geschützten Innenraum verlagert, aus dem heraus erst später etwas nach außen dringt. Ajeet Kaur beschreibt Musik explizit in genau diesen Begriffen: &bdquo;Musik war für mich immer ein Zufluchtsort. Ein Ort, an dem ich verschwinden und mich wieder mit einem tieferen, ruhigeren Teil von mir selbst verbunden fühlen kann. Ich ziehe mich schon seit meiner Kindheit auf diese Weise in die Musik zurück, und tue es bis heute.&ldquo;</p>
+          <p class="vb-intro">Diese Sprache des Rückzugs &ndash; nicht des Auftritts &ndash; ist die reinste Ausprägung der SO4w5: Kunst und Musik als &bdquo;die größten Heiler, Lehrer und Therapeuten&ldquo; ihres Lebens, wie sie selbst sagt, nicht primär als Mittel der Selbstdarstellung. Die Bühne existiert, aber sie ist Nebeneffekt eines im Kern privaten, meditativen Prozesses.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 ist die Fähigkeit, <strong>eigenes Leiden in eine Quelle der Heilung für andere</strong> zu verwandeln &ndash; Ajeet Kaurs frühe Krankheitserfahrung wurde nicht zur bloßen Einschränkung, sondern zum Ausgangspunkt eines künstlerischen Weges, der seit Jahrzehnten Menschen weltweit in Konzerten und Workshops begleitet. Aus einer sehr persönlichen Verletzlichkeit entstand eine Rolle, die anderen echten Trost bietet.</p>
+          <p class="vb-intro">Der Schatten der sozialen Vier mit Fünferflügel zeigt sich, wo der Rückzug in die Musik zur einzigen verfügbaren Bewältigungsstrategie wird &ndash; wo eine chronische Krankheit lebenslang mitgetragen werden muss und die introvertierte, meditative Verarbeitung mitunter schwerer zugänglich bleibt als ein direkterer, offener Umgang mit Schmerz und Verletzlichkeit im Alltag.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Gürteltier, das seine Verletzlichkeit zum Klang machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ajeet Kaur bleibt eine der eigenständigsten Stimmen der zeitgenössischen Mantra- und Kundalini-Musikszene &ndash; eine Künstlerin, die ihre chronische Krankheit nie zum Geheimnis machte, sondern zur Quelle einer Musik, die explizit als Heilmittel verstanden werden will. Ihr Weg zeigt, wie aus früher körperlicher Verletzlichkeit ein Lebenswerk entstehen kann, das anderen genau diese Verletzlichkeit als etwas Teilbares, nicht Beschämendes zeigt.</p>
+          <p class="vb-intro">Das Gürteltier, das seinen Panzer nicht aus Härte baute, sondern aus Klang &ndash; das ist das bleibende Bild der sozialen Vier mit Fünferflügel: Verletzlichkeit, die sich nicht zur Schau stellt, sondern sich zurückzieht, um von dort aus, in aller Stille, andere zu berühren.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so4", label:"Lebensmusterkompass: SO4 – Gürteltier"},
+        {route:"beruehmte-mariella-superina", label:"Porträt: Dr. Mariella Superina (SO4w5)"},
+        {route:"beruehmte-lauren-gardner", label:"Porträt: Prof. Lauren Gardner (SO4w5)"},
       ])}
     </div>
   `);
@@ -93474,6 +93538,7 @@ function render() {
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
       "beruehmte-lauren-gardner": laurenGardnerPortraitPage,
+      "beruehmte-ajeet-kaur": ajeetKaurPortraitPage,
       "beruehmte-carl-friedrich-gauss": carlFriedrichGaussPortraitPage,
       "beruehmte-paris-hilton": parisHiltonPortraitPage,
       "beruehmte-ingo-zimmermann": ingoZimmermannPortraitPage,
