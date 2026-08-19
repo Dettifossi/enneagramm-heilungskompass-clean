@@ -54260,7 +54260,7 @@ function lucyCookePortraitPage() {
 
         <h2 class="vb-section">4. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX9w8 ist die Fähigkeit, <strong>vollständige Verschmelzung mit einem Thema in ansteckende, öffentlichkeitswirksame Begeisterung</strong> zu verwandeln &ndash; Cookes Arbeit veränderte grundlegend, wie die Öffentlichkeit über Faultiere denkt, und ihr Bestseller <em>The Truth About Animals</em> weitete dieses Prinzip auf zahlreiche weitere missverstandene Arten aus.</p>
+          <p class="vb-intro">Das Licht der SX9w8 ist die Fähigkeit, <strong>vollständige Verschmelzung mit einem Thema in ansteckende, öffentlichkeitswirksame Begeisterung</strong> zu verwandeln &ndash; Cookes Arbeit veränderte grundlegend, wie die Öffentlichkeit über Faultiere denkt, und ihr Bestseller <em>The Truth About Animals</em> (deutsch: »Erstaunliche Wahrheit über Tiere«) weitete dieses Prinzip auf zahlreiche weitere missverstandene Arten aus.</p>
           <p class="vb-intro">Der Schatten der sexuellen Neun mit Achterflügel zeigt sich dort, wo die eigene Identität so vollständig mit einem einzigen Thema verschmilzt, dass eine Trennung kaum noch denkbar ist &ndash; ein Leben, das öffentlich fast ausschließlich als ›die Faultier-Frau‹ wahrgenommen wird, so verdient dieser Ruf auch ist.</p>
         </blockquote>
 
