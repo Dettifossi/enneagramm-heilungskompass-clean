@@ -17497,7 +17497,7 @@ function gloriaVonThurnUndTaxisPortraitPage() {
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The hippopotamus is the animal of the self-preservation Two, and hardly any personality in post-war German history embodies this animal as fully as Gloria von Thurn und Taxis. A newborn hippopotamus already weighs around fifty kilograms &ndash; it does not enter the world as a fragile infant, but from its very first minute carries the full weight of its species. Whoever underestimates it has never seen what it has carried within itself since birth.</p>
-          <p class="vb-intro">In the 1980s, Gloria von Thurn und Taxis was known as the punk princess: mohawk, parties, excesses, a life followed with enthusiasm by the tabloid press. When her husband Johannes died in 1990, leaving the family with debt in the billions and a chaotic corporate structure, the hippopotamus stepped out of the water. What followed was not a metamorphosis it was a revelation. Who Gloria von Thurn und Taxis really was only showed itself at the moment when everything was on the line.</p>
+          <p class="vb-intro">The German aristocrat Gloria von Thurn und Taxis was known in the 1980s as the punk princess: mohawk, parties, excesses, a life followed with enthusiasm by the tabloid press. When her husband Johannes died in 1990, leaving the family with debt in the billions and a chaotic corporate structure, the hippopotamus stepped out of the water. What followed was not a metamorphosis it was a revelation. Who Gloria von Thurn und Taxis really was only showed itself at the moment when everything was on the line.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Two: Survival as the Primary Duty</h2>
@@ -17565,7 +17565,7 @@ function jackBlackPortraitPage() {
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The hippopotamus is the animal of the self-preservation Two—an animal people underestimate until they feel its true power. It looks bulky, loud, clumsy—and is at the same time one of the most dangerous animals in Africa the moment its territory seems threatened. This exact double nature, clowning on the surface, unbridled energy underneath, is Jack Black's signature.</p>
-          <p class="vb-intro">Few actors throw themselves into a role with such physical abandon as Jack Black. The sweeping facial expressions, the theatrical gestures, the volume with which he fills a room—that carries a clear signature: the energy of the hippopotamus in its clearest expression: seemingly harmless and comic at first, then suddenly there with a force nobody can escape.</p>
+          <p class="vb-intro">Few American actors throw themselves into a role with such physical abandon as Jack Black. The sweeping facial expressions, the theatrical gestures, the volume with which he fills a room—that carries a clear signature: the energy of the hippopotamus in its clearest expression: seemingly harmless and comic at first, then suddenly there with a force nobody can escape.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Two: Care with Full Physical Commitment</h2>
@@ -18540,7 +18540,7 @@ function robbieWilliamsPortraitPage() {
         <h2 class="vb-section">1. The Black Mamba</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Black Mamba is the animal of the sexual One—lightning-fast, precise, uncompromising. It does not attack out of malice, but out of an inner law: what is wrong is named, even when it concerns the self. Few animals embody so precisely the inability to pretend—and the consequences that follow when someone tries to anyway.</p>
-          <p class="vb-intro">Robbie Williams, born in 1974 in Stoke-on-Trent, joined the boy band Take That at sixteen—and quickly became the most restless, least manageable figure in the group. While the others maintained the image, he broke it: too loud, too honest, too much himself for a format that demanded control. The Black Mamba cannot be permanently forced into a choreography.</p>
+          <p class="vb-intro">The British singer Robbie Williams, born in 1974 in Stoke-on-Trent, joined the boy band Take That at sixteen—and quickly became the most restless, least manageable figure in the group. While the others maintained the image, he broke it: too loud, too honest, too much himself for a format that demanded control. The Black Mamba cannot be permanently forced into a choreography.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual One: Radical Honesty as a Driving Force</h2>
@@ -18673,7 +18673,7 @@ function juergenKloppPortraitPage() {
         <h2 class="vb-section">1. The Goose</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The goose is the animal of the social One, and no animal fits Jürgen Klopp more accurately. The goose does not fly alone. It flies in a V-formation, it calls out, it holds the group together, it takes responsibility for the collective. When one goose is exhausted, another takes the lead. The principle is solidarity and the conviction that together you get further than alone.</p>
-          <p class="vb-intro">Jürgen Klopp, born in 1967 in Stuttgart, was decent as a player and extraordinary as a manager. Not because he was tactically as brilliant as others, but because he understood what teams really need: the feeling of playing for each other. With BVB, he won the German Championship twice and the DFB-Pokal. With FC Liverpool, he won the Champions League in 2019 and the English Championship in 2020—titles Liverpool had waited over thirty years for. No coincidence. A goose finding its formation.</p>
+          <p class="vb-intro">The German football manager Jürgen Klopp, born in 1967 in Stuttgart, was decent as a player and extraordinary as a manager. Not because he was tactically as brilliant as others, but because he understood what teams really need: the feeling of playing for each other. With BVB, he won the German Championship twice and the DFB-Pokal. With FC Liverpool, he won the Champions League in 2019 and the English Championship in 2020—titles Liverpool had waited over thirty years for. No coincidence. A goose finding its formation.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social One: Ideals for the Collective</h2>
@@ -19399,7 +19399,7 @@ function klausKinskiPortraitPage() {
         <h2 class="vb-section">1. The Black Mamba</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Black Mamba is the animal of the sexual Type 1, and no animal reflects Klaus Kinski in a more terrifying way. The Black Mamba is known for its speed, precision, and deadly strike. It does not strike out of whim, but out of an inner law: when it feels threatened, it reacts mercilessly. Indifference is foreign to it. Being near it means being fully awake.</p>
-          <p class="vb-intro">Klaus Kinski, born in 1926 in Danzig, died in 1991 in California, was one of the most intense personalities in film history. With Werner Herzog, he made five films that count among the most significant in German cinema: Aguirre, the Wrath of God, Nosferatu the Vampyre, Woyzeck, Fitzcarraldo, and Cobra Verde. On set, he was legendarily feared. And legendarily indispensable.</p>
+          <p class="vb-intro">The German actor Klaus Kinski, born in 1926 in Danzig, died in 1991 in California, was one of the most intense personalities in film history. With Werner Herzog, he made five films that count among the most significant in German cinema: Aguirre, the Wrath of God, Nosferatu the Vampyre, Woyzeck, Fitzcarraldo, and Cobra Verde. On set, he was legendarily feared. And legendarily indispensable.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual One: Fervor and the Countertype</h2>
@@ -19465,7 +19465,7 @@ function udoLindenbergPortraitPage() {
         <h2 class="vb-section">1. The Black Mamba</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Black Mamba does not wear its warning color openly – from a distance it looks almost unremarkable, until it feels threatened. Then it strikes with a precision and speed that nothing can escape. Anyone who has ever glimpsed Udo Lindenberg flash out from under his hat, sunglasses, and coat knows this principle: armor behind which pure alertness hides.</p>
-          <p class="vb-intro">Udo Lindenberg, born in 1946 in Gronau, is considered the inventor of German-language rock – a genre that simply did not exist before him, because no one believed you could sing German with such nonchalance, such irreverence, such poetry. With his Panikorchester, he wrote his way, from the early seventies onward, into a country that did not yet take its own language seriously in rock – and stayed the course, with the same consistency, for more than fifty years.</p>
+          <p class="vb-intro">The German musician Udo Lindenberg, born in 1946 in Gronau, is considered the inventor of German-language rock – a genre that simply did not exist before him, because no one believed you could sing German with such nonchalance, such irreverence, such poetry. With his Panikorchester, he wrote his way, from the early seventies onward, into a country that did not yet take its own language seriously in rock – and stayed the course, with the same consistency, for more than fifty years.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual One: Fervor and the Countertype</h2>
@@ -19592,7 +19592,7 @@ function rasputinPortraitPage() {
         <h2 class="vb-section">1. The Black Mamba</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Black Mamba</strong> is the animal of the sexual One &ndash; an animal that works not through volume, but through the sheer inevitability of its presence. Anyone who comes too close feels an intensity that is almost impossible to escape. This animal is no random choice: the mamba does not strike out of rage, but out of an inner compulsion toward purity &ndash; a force that knows no half measures.</p>
-          <p class="vb-intro">Contemporaries described Rasputin's gaze as the first thing anyone noticed about him &ndash; piercing, impossible to ignore, unsettling to some, healing to others. Ladies of St. Petersburg's salons reported feeling completely seen under that gaze, stripped down to the core. This is the Black Mamba at work: not a charisma that flatters, but one that penetrates.</p>
+          <p class="vb-intro">Contemporaries of the Russian mystic Rasputin described his gaze as the first thing anyone noticed about him &ndash; piercing, impossible to ignore, unsettling to some, healing to others. Ladies of St. Petersburg's salons reported feeling completely seen under that gaze, stripped down to the core. This is the Black Mamba at work: not a charisma that flatters, but one that penetrates.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual One: Purity as a Burning Desire</h2>
@@ -19786,7 +19786,7 @@ function samuelHahnemannPortraitPage() {
         <h2 class="vb-section">1. The Goose Who Demanded a Gentler Medicine</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; watchful, incorruptible, with an unerring sense for when something is fundamentally wrong. It tolerates no half-measures once convinced that the order itself is sick. Few life stories illustrate this stance more vividly than Samuel Hahnemann&#39;s, who considered the medicine of his time so dangerous that he turned his back on it for years &ndash; only to found, in the end, a coherent medical system of his own that still accompanies millions of people worldwide today.</p>
-          <p class="vb-intro">Christian Friedrich Samuel Hahnemann was born on April 10, 1755, in Meissen, the son of a porcelain painter. Even as a child he was considered exceptionally gifted and curious; his teacher is said to have allowed him at times to help shape the lessons himself. His talent showed early in a remarkable gift for languages: besides Latin and Greek, he came to command English, French, Italian, Arabic, Hebrew, Syriac, and Chaldean &ndash; a versatility reminiscent of polymaths of his era such as Goethe. This linguistic gift later became his economic lifeline: for years he supported his family as a sought-after translator of medical, chemical, and scientific literature from English and French. He studied medicine in Leipzig, Vienna, and Erlangen, earning his doctorate in 1779 &ndash; a path that should have led him straight into the medical profession. But what he witnessed there as standard practice never let him rest.</p>
+          <p class="vb-intro">The German physician Christian Friedrich Samuel Hahnemann was born on April 10, 1755, in Meissen, the son of a porcelain painter. Even as a child he was considered exceptionally gifted and curious; his teacher is said to have allowed him at times to help shape the lessons himself. His talent showed early in a remarkable gift for languages: besides Latin and Greek, he came to command English, French, Italian, Arabic, Hebrew, Syriac, and Chaldean &ndash; a versatility reminiscent of polymaths of his era such as Goethe. This linguistic gift later became his economic lifeline: for years he supported his family as a sought-after translator of medical, chemical, and scientific literature from English and French. He studied medicine in Leipzig, Vienna, and Erlangen, earning his doctorate in 1779 &ndash; a path that should have led him straight into the medical profession. But what he witnessed there as standard practice never let him rest.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social One: Outrage at a Sick System</h2>
@@ -20021,7 +20021,7 @@ function konradAdenauerPortraitPage() {
         <h2 class="vb-section">1. The Eagle Above the Rubble</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One &ndash; it builds its nest high above the ground, far from chaos and chance, and surveys its territory from there with unerring clarity. It rarely acts on impulse; its flight is calculated, its prey carefully targeted, its territory defended with the utmost care.</p>
-          <p class="vb-intro">Konrad Adenauer was born in 1876 in Cologne, studied law, and became Cologne's mayor in 1917 &ndash; an office he filled with disciplined work ethic and great urban-planning foresight, including the creation of Cologne's green belt. In 1933 he was forced out of office by the Nazis, arrested repeatedly, and at times forced into hiding. After the war, at the age of 73, his real historical role began: in 1949 he became the first Chancellor of the newly founded Federal Republic of Germany &ndash; and remained so for 14 years, until 1963.</p>
+          <p class="vb-intro">The German politician Konrad Adenauer was born in 1876 in Cologne, studied law, and became Cologne's mayor in 1917 &ndash; an office he filled with disciplined work ethic and great urban-planning foresight, including the creation of Cologne's green belt. In 1933 he was forced out of office by the Nazis, arrested repeatedly, and at times forced into hiding. After the war, at the age of 73, his real historical role began: in 1949 he became the first Chancellor of the newly founded Federal Republic of Germany &ndash; and remained so for 14 years, until 1963.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation One: Order as a Principle of Survival</h2>
@@ -20086,7 +20086,7 @@ function aristotelesPortraitPage() {
         <h2 class="vb-section">1. The Eagle Over the Academy</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Eagle flies alone, high enough to survey the whole field before it fixes on a single point. It seeks no validation in the crowd – it seeks overview, order, a clear view of the whole. No thinker of antiquity embodies this principle as completely as Aristotle.</p>
-          <p class="vb-intro">Aristotle, born in 384 BC in Stagira, arrived at Plato's Academy in Athens at seventeen and stayed for nearly twenty years – first as a student, then as an independent thinker. He later became tutor to Alexander the Great and eventually founded his own school, the Lyceum. His work spans nearly every field of knowledge of his time: logic, physics, biology, ethics, politics, poetics, metaphysics – a life's work of a systematic rigor that still shapes Western science today.</p>
+          <p class="vb-intro">The Greek philosopher Aristotle, born in 384 BC in Stagira, arrived at Plato's Academy in Athens at seventeen and stayed for nearly twenty years – first as a student, then as an independent thinker. He later became tutor to Alexander the Great and eventually founded his own school, the Lyceum. His work spans nearly every field of knowledge of his time: logic, physics, biology, ethics, politics, poetics, metaphysics – a life's work of a systematic rigor that still shapes Western science today.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation One: The Golden Mean as a Way of Life</h2>
@@ -20948,7 +20948,7 @@ function udoJuergensPortraitPage() {
         <h2 class="vb-section">1. The Eagle With the Longest Breath in Schlager Music</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One &ndash; it builds its work with the utmost care, disciplined and persistent, high above the fast-moving hustle, and surveys its craft with unerring precision. Hardly any artist embodies this lifelong, disciplined persistence as much as Udo Jürgens.</p>
-          <p class="vb-intro">Udo Jürgen Bockelmann was born in 1934 in Klagenfurt, began playing piano and trumpet as a child, and composed his first schlager song at age 14. Despite years of setbacks &ndash; he took part in talent competitions and selection processes for over a decade before his breakthrough came &ndash; he held unwaveringly to his musical discipline: daily piano practice, meticulous work perfecting melodies and lyrics, an almost craftsman-like standard for his own art.</p>
+          <p class="vb-intro">The Austrian singer Udo Jürgen Bockelmann was born in 1934 in Klagenfurt, began playing piano and trumpet as a child, and composed his first schlager song at age 14. Despite years of setbacks &ndash; he took part in talent competitions and selection processes for over a decade before his breakthrough came &ndash; he held unwaveringly to his musical discipline: daily piano practice, meticulous work perfecting melodies and lyrics, an almost craftsman-like standard for his own art.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation One: Perfection as a Life Principle</h2>
@@ -21287,7 +21287,7 @@ function konfuziusPortraitPage() {
         <h2 class="vb-section">1. The Goose</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; an animal that flies in formation, holds the line, and insists loudly and unyieldingly that everyone stays within the same order. No accidental animal for a man who devoted his entire life to the question of how a disintegrating society could be brought back into a workable shape through example, ritual, and self-cultivation. Kong Fuzi &ndash; Latinized in the West as Confucius &ndash; lived from 551 to 479 BCE, during a period of political fragmentation and moral decline known as China's Spring and Autumn period.</p>
-          <p class="vb-intro">Born into an impoverished noble family, he worked his way up as a minor official before becoming a wandering teacher: for decades he traveled with a growing circle of students through China's warring principalities, offered his counsel to rulers, and was usually sent away disappointed. Only after his death did his teachings, recorded in the <em>Analects</em> (Lunyu), become the defining moral and political foundation of China for more than two millennia.</p>
+          <p class="vb-intro">The Chinese philosopher Confucius, born into an impoverished noble family, worked his way up as a minor official before becoming a wandering teacher: for decades he traveled with a growing circle of students through China's warring principalities, offered his counsel to rulers, and was usually sent away disappointed. Only after his death did his teachings, recorded in the <em>Analects</em> (Lunyu), become the defining moral and political foundation of China for more than two millennia.</p>
         </blockquote>
 
         <h2 class="vb-section">2. "This Is the True Mistake" &ndash; Self-Correction as Principle</h2>
@@ -22204,7 +22204,7 @@ function marieAgnesStrackZimmermannPortraitPage() {
         <h2 class="vb-section">1. The Black Mamba</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Black Mamba is the animal of the sexual One—lightning-fast, precise, and completely uncompromising. It does not attack out of aggression, but out of an inner law: what is wrong is called out. What is disingenuous is rejected. What is right is defended with everything available.</p>
-          <p class="vb-intro">Marie-Agnes Strack-Zimmermann, born in 1958 in Düsseldorf, is one of the most direct politicians the German Bundestag has experienced in recent decades. As chair of the Defense Committee, she became the sharpest public warner advocating for adequate equipment for the Bundeswehr and clear support for Ukraine at a time when many political colleagues were still banking on balance. The mamba does not wait until everyone agrees.</p>
+          <p class="vb-intro">The German politician Marie-Agnes Strack-Zimmermann, born in 1958 in Düsseldorf, is one of the most direct politicians the German Bundestag has experienced in recent decades. As chair of the Defense Committee, she became the sharpest public warner advocating for adequate equipment for the Bundeswehr and clear support for Ukraine at a time when many political colleagues were still banking on balance. The mamba does not wait until everyone agrees.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual One: Fervor as a Drive</h2>
@@ -22271,7 +22271,7 @@ function marieKondoPortraitPage() {
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The eagle is the animal of the self-preservation One, and Marie Kondo embodies it with a purity that is rare. The eagle has a sharp eye for the essential. It sees what is right and what is not right with a precision that needs no argument. It circles, it observes, it discerns. And when it lands, it lands exactly.</p>
-          <p class="vb-intro">Marie Kondo was born in Tokyo in 1984 and began reading home interior magazines at age five. At nine, she organized the bookshelves in her classroom. At fifteen, she developed the first basic outlines of her later method. That is no career that was planned—that is an eagle following its inner compass before encountering any external pressure of expectations.</p>
+          <p class="vb-intro">The Japanese organizing consultant Marie Kondo was born in Tokyo in 1984 and began reading home interior magazines at age five. At nine, she organized the bookshelves in her classroom. At fifteen, she developed the first basic outlines of her later method. That is no career that was planned—that is an eagle following its inner compass before encountering any external pressure of expectations.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation One: Order as an Inner Need</h2>
@@ -22885,7 +22885,7 @@ function queenElizabethIIPortraitPage() {
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Elizabeth Alexandra Mary Windsor ascended the throne in 1952 at the age of twenty-five, following the death of her father King George VI—a throne she had not sought, which had fallen to her through the abdication of her uncle Edward VIII. She said yes. Not with enthusiasm, not with ambition—but with the quiet, absolute resolve of a person who understands that certain tasks are non-negotiable. For seventy years, she renewed this yes every single day. The eagle remained at its post.</p>
-          <p class="vb-intro">Queen Elizabeth II lived out this pattern in a form that is historically unique. In seventy years, she never gave an interview in which she expressed her personal opinion on a political question. Never. Not because she didn't have one—but because she knew the position was more important than the person. The SE1 does not deny its own wishes out of weakness. It puts them aside out of inner conviction: "This comes first."</p>
+          <p class="vb-intro">The British monarch Queen Elizabeth II lived out this pattern in a form that is historically unique. In seventy years, she never gave an interview in which she expressed her personal opinion on a political question. Never. Not because she didn't have one—but because she knew the position was more important than the person. The SE1 does not deny its own wishes out of weakness. It puts them aside out of inner conviction: "This comes first."</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation One: Duty as Life's Purpose</h2>
@@ -23423,7 +23423,7 @@ function johannSebastianBachPortraitPage() {
         <h2 class="vb-section">1. The Black Mamba</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>black mamba</strong> appears unremarkable from the outside, almost withdrawn &ndash; until it perceives its integrity to be threatened. Then it responds with a precision and uncompromising force that leaves no doubt. Johann Sebastian Bach carried exactly this double face: outwardly the quiet, dutiful church musician for a lifetime &ndash; and a man who did not hesitate for a second when his musical convictions were called into question.</p>
-          <p class="vb-intro">Orphaned early &ndash; both parents died before his tenth birthday &ndash; Bach grew up with his older brother Johann Christoph, who denied him access to a valuable collection of sheet music. The young Bach copied it in secret, for months, by moonlight &ndash; an early testament to the zeal with which he claimed what he believed rightfully his, whatever the cost, even to his own eyesight.</p>
+          <p class="vb-intro">Orphaned early &ndash; both parents died before his tenth birthday &ndash; the German composer Johann Sebastian Bach grew up with his older brother Johann Christoph, who denied him access to a valuable collection of sheet music. The young Bach copied it in secret, for months, by moonlight &ndash; an early testament to the zeal with which he claimed what he believed rightfully his, whatever the cost, even to his own eyesight.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Sexual One: Zeal and the Contratype</h2>
@@ -23490,7 +23490,7 @@ function fridaKahloPortraitPage() {
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal whose eyes, ears, and nostrils sit on a single line along its head, allowing it to submerge almost entirely while remaining awake and connected to the world above the surface. The body rests hidden, protected, nearly motionless &ndash; only what is essential stays visible, alert, present.</p>
-          <p class="vb-intro">Frida Kahlo lived exactly this hiddenness in her own body: at six she contracted polio, at eighteen she survived a bus accident that shattered her spine, pelvis, and right leg &ndash; over thirty operations, corsets, and lifelong pain followed. For long stretches of her life her body was hidden beneath plaster, bandages, and support structures &ndash; visible only what she chose to show: her face, her gaze, her art. Painting became for her exactly that connection between the hidden, wounded body and the wakeful, present surface &ndash; not one artistic choice among several, but the single condition under which her existence could continue at all.</p>
+          <p class="vb-intro">The Mexican artist Frida Kahlo lived exactly this hiddenness in her own body: at six she contracted polio, at eighteen she survived a bus accident that shattered her spine, pelvis, and right leg &ndash; over thirty operations, corsets, and lifelong pain followed. For long stretches of her life her body was hidden beneath plaster, bandages, and support structures &ndash; visible only what she chose to show: her face, her gaze, her art. Painting became for her exactly that connection between the hidden, wounded body and the wakeful, present surface &ndash; not one artistic choice among several, but the single condition under which her existence could continue at all.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Two: The Own Body as the First Terrain of Care</h2>
@@ -23556,7 +23556,7 @@ function nataschaKampuschPortraitPage() {
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The hippopotamus is the animal of the self-preservation Two – an animal whose skin produces its own reddish secretion that acts as a natural protective film: it keeps the sensitive surface supple and makes the animal instantly unmistakable. What looks vulnerable from the outside – the glossy, unusually colored skin – is in truth a carefully functioning survival system, one capable of asserting itself with enormous force when needed.</p>
-          <p class="vb-intro">Natascha Kampusch was abducted in 1998 at age ten on her way to school and held for eight years in a five-square-meter, nearly airtight cellar, before escaping in 2006. That she survived those years – physically and psychologically – is exactly what the hippopotamus embodies: a creature that builds its own protective space under extreme pressure and remains functional inside it, where others would break.</p>
+          <p class="vb-intro">The Austrian Natascha Kampusch was abducted in 1998 at age ten on her way to school and held for eight years in a five-square-meter, nearly airtight cellar, before escaping in 2006. That she survived those years – physically and psychologically – is exactly what the hippopotamus embodies: a creature that builds its own protective space under extreme pressure and remains functional inside it, where others would break.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The self-preservation Two: Survival through relationship</h2>
@@ -24266,7 +24266,7 @@ function uliHoenessPortraitPage() {
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The hippopotamus is the animal of the Self-Preservation Two—and Uli Hoeneß is this animal in its most uncompromising expression. The hippopotamus needs no audience. It needs its territory: the water it knows, the riverbanks that belong to it, the boundaries it marks and defends with every gram of its body. It seems good-natured—until someone gets too close. Then it shows what it is truly made of.</p>
-          <p class="vb-intro">Uli Hoeneß has been FC Bayern Munich for over fifty years. Not as an employee, not as an official—but as a human being who understood this club as his territory and built it with an energy unparalleled in German football history. He won as a player, built as a manager, led as president—and after the deepest fall of his life, he returned. The hippopotamus stands up.</p>
+          <p class="vb-intro">The German football executive Uli Hoeneß has been FC Bayern Munich for over fifty years. Not as an employee, not as an official—but as a human being who understood this club as his territory and built it with an energy unparalleled in German football history. He won as a player, built as a manager, led as president—and after the deepest fall of his life, he returned. The hippopotamus stands up.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Two: Caretaking as a Survival Principle</h2>
@@ -24333,7 +24333,7 @@ function wolfgangAmadeusMozartPortraitPage() {
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that appears playful and good-natured from the outside, yet asserts itself with unexpected force the moment its territory or its own are threatened. Wolfgang Amadeus Mozart rarely fit the image of the otherworldly, floating genius that posterity has made of him &ndash; he was a man of enormous directness, physical zest for life, and a very concrete sense of what he needed in order to survive.</p>
-          <p class="vb-intro">Born in 1756 in Salzburg, he was paraded through the courts of Europe from age six by his father Leopold, himself a composer and ambitious manager of his son's career &ndash; Paris, London, The Hague, Italy. A child who had to learn to secure his own and his family's survival through his talent before he ever knew a childhood outside the stage.</p>
+          <p class="vb-intro">The Austrian composer Wolfgang Amadeus Mozart, born in 1756 in Salzburg, was paraded through the courts of Europe from age six by his father Leopold, himself a composer and ambitious manager of his son's career &ndash; Paris, London, The Hague, Italy. A child who had to learn to secure his own and his family's survival through his talent before he ever knew a childhood outside the stage.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Self-Preservation Two: Care as a Survival Principle</h2>
@@ -24402,7 +24402,7 @@ function aiWeiweiPortraitPage() {
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that looks good-natured and round, yet ranks among the most dangerous animals of its habitat the moment its territory is threatened. Ai Weiwei carries this dual nature unmistakably: an artist with a warm, often ironic eye for people, who at the same time became one of the most fearless critics of the Chinese government &ndash; a man who does not surrender his ground without a fight.</p>
-          <p class="vb-intro">Born in 1957 as the son of the poet Ai Qing, he spent much of his childhood in exile: his father was branded a "rightist" during the Cultural Revolution and sent with the family to a labor camp in Xinjiang. Ai Weiwei grew up, then, with the very concrete, physically felt knowledge that safety and existence are never a given &ndash; a formation that sharpened his self-preservation instinct from an early age.</p>
+          <p class="vb-intro">The Chinese artist Ai Weiwei, born in 1957 as the son of the poet Ai Qing, spent much of his childhood in exile: his father was branded a "rightist" during the Cultural Revolution and sent with the family to a labor camp in Xinjiang. Ai Weiwei grew up, then, with the very concrete, physically felt knowledge that safety and existence are never a given &ndash; a formation that sharpened his self-preservation instinct from an early age.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Self-Preservation Two: Care as Concrete Action</h2>
@@ -24469,7 +24469,7 @@ function yayoiKusamaPortraitPage() {
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal whose skin would crack within hours without constant contact with water. It even secretes a reddish fluid of its own that shields its skin from the sun on the rare occasions it must leave the water. Its element is not a preference. It is the one condition under which its body can exist at all.</p>
-          <p class="vb-intro">Yayoi Kusama has painted dots since her childhood &ndash; countless, endlessly repeating circles that spread across canvases, pumpkins, entire rooms, and her own body. For her this is no artistic concept in the ordinary sense, but a matter of survival: without painting, she herself has said, she would long ago have taken her own life. The Hippopotamus needs its water. Kusama needs her dots.</p>
+          <p class="vb-intro">The Japanese artist Yayoi Kusama has painted dots since her childhood &ndash; countless, endlessly repeating circles that spread across canvases, pumpkins, entire rooms, and her own body. For her this is no artistic concept in the ordinary sense, but a matter of survival: without painting, she herself has said, she would long ago have taken her own life. The Hippopotamus needs its water. Kusama needs her dots.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Two: Art as a Means of Survival</h2>
@@ -24535,7 +24535,7 @@ function oprahWinfreyPortraitPage() {
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The hippopotamus is the animal of the Self-Preservation Two, and Oprah Winfrey carries her double nature with rare clarity. The hippopotamus appears warm, round, approachable, and is at the same time one of the most powerful animals in its habitat, defending its territory with absolute determination. Whoever believes warmth and power exclude each other has not understood the hippopotamus.</p>
-          <p class="vb-intro">Oprah Winfrey grew up in poverty in Mississippi, experienced abuse and neglect in her childhood, and built out of that one of the most influential media empires in the world. This is not an ordinary rags-to-riches story. It is the story of a hippopotamus that first had to fight for its own territory before it began creating space for others.</p>
+          <p class="vb-intro">The American media mogul Oprah Winfrey grew up in poverty in Mississippi, experienced abuse and neglect in her childhood, and built out of that one of the most influential media empires in the world. This is not an ordinary rags-to-riches story. It is the story of a hippopotamus that first had to fight for its own territory before it began creating space for others.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Two: Care as Foundation</h2>
@@ -25081,7 +25081,7 @@ function napoleonBonapartePortraitPage() {
         <h2 class="vb-section">1. The Golden Retriever Who Wanted to Embrace a Continent</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Claudio Naranjo, the founder of the modern Enneagram subtype teaching, classified Napoleon Bonaparte in his seminars and writings as belonging to the <strong>social Two</strong> &ndash; the Golden Retriever, who seeks connection, significance, and admiration. At first glance this is surprising: the popular Enneagram school would intuitively place Napoleon at Type 8 (the Challenger) or Type 3 (the Achiever). But Naranjo looked deeper, at the passion and fixation behind the action &ndash; and the social Two is, at its core, by no means only the reserved helper in the background. She strives for influence, significance, and admiration on the grandest possible stage, driven by <strong>pride</strong> and the unconscious wish to be indispensable and powerful.</p>
-          <p class="vb-intro">Born in 1769 on Corsica, into an impoverished but proud noble family, Napoleon's social rise did not come through withdrawal and calculation, but through sheer personal impact: he knew his soldiers' names, addressed them directly, let himself be seen in their midst, shared their hardships. Where a purely power-driven type would have cultivated distance and fear, Napoleon invested in relationship &ndash; and it was precisely this ability to bind entire armies to himself that was the real reason for his unparalleled rise from provincial Corsican officer to Emperor of the French.</p>
+          <p class="vb-intro">Born in 1769 on Corsica into an impoverished but proud noble family, the French general Napoleon's social rise did not come through withdrawal and calculation, but through sheer personal impact: he knew his soldiers' names, addressed them directly, let himself be seen in their midst, shared their hardships. Where a purely power-driven type would have cultivated distance and fear, Napoleon invested in relationship &ndash; and it was precisely this ability to bind entire armies to himself that was the real reason for his unparalleled rise from provincial Corsican officer to Emperor of the French.</p>
         </blockquote>
 
         <h2 class="vb-section">2. SO2: Ambition as a Form of Love</h2>
@@ -25147,7 +25147,7 @@ function juliusCaesarPortraitPage() {
         <h2 class="vb-section">1. The Golden Retriever Who Embraced an Empire</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; devoted, generous, irresistibly driven to be needed and loved. Few historical figures show this pattern as clearly as Julius Caesar. His contemporaries consistently describe a man who won people over by storm: through charm, through generosity, through the ability to make every single person &ndash; legionary, senator, or Roman street crowd &ndash; feel personally important to him.</p>
-          <p class="vb-intro">Born in 100 BC into an old but impoverished patrician family, Caesar deliberately and dramatically went into debt in his early years to fund public games, cover allies' debts, and hand out favors. Where a frugal strategist would have built reserves, the social Two invested in relationship. The capital he built was not money &ndash; it was affection, loyalty, indebtedness. And that capital eventually paid out in legions and consulships.</p>
+          <p class="vb-intro">Born in 100 BC into an old but impoverished patrician family, the Roman general Julius Caesar deliberately and dramatically went into debt in his early years to fund public games, cover allies' debts, and hand out favors. Where a frugal strategist would have built reserves, the social Two invested in relationship. The capital he built was not money &ndash; it was affection, loyalty, indebtedness. And that capital eventually paid out in legions and consulships.</p>
         </blockquote>
 
         <h2 class="vb-section">2. SO2: Ambition as a Form of Love</h2>
@@ -25213,7 +25213,7 @@ function alexanderDerGrossePortraitPage() {
         <h2 class="vb-section">1. The Golden Retriever Who Wanted to Embrace the World</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; warm, generous, irresistibly driven to be needed and loved. Few historical figures display this pattern as unbrokenly as Alexander the Great. Contemporary sources consistently describe a man who knew his soldiers by name, personally visited the wounded, and in eleven years of unbroken campaigning was never far from the front line &ndash; a general who sought closeness where others would have used distance to secure their power.</p>
-          <p class="vb-intro">Born in 356 BC as the son of King Philip II of Macedon, Alexander was personally tutored by Aristotle (SE1w9) &ndash; an education that gave him intellectual depth alongside soldierly toughness. As a boy he tamed the supposedly unbreakable horse Bucephalus simply by turning it away from its own shadow and then approaching it calmly and openly &ndash; an early miniature of his entire leadership style: connection over coercion.</p>
+          <p class="vb-intro">Born in 356 BC as the son of King Philip II of Macedon, the Macedonian king Alexander the Great was personally tutored by Aristotle (SE1w9) &ndash; an education that gave him intellectual depth alongside soldierly toughness. As a boy he tamed the supposedly unbreakable horse Bucephalus simply by turning it away from its own shadow and then approaching it calmly and openly &ndash; an early miniature of his entire leadership style: connection over coercion.</p>
         </blockquote>
 
         <h2 class="vb-section">2. SO2: Ambition as a Form of Love</h2>
@@ -25279,7 +25279,7 @@ function willSmithPortraitPage() {
         <h2 class="vb-section">1. The Golden Retriever Who Wants to Embrace the World</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Golden Retriever is the animal symbol of the Social Type 2—and Will Smith is perhaps the most famous Golden Retriever personality in the entertainment world. He is naturally approachable, warm, engaging. He wants everyone to feel good. He wants everyone to laugh. He wants to be loved—and he gives everything he has to get it. No other animal in the Enneagram universe radiates this kind of unconditional, active, almost contagious warmth like the Golden Retriever. No other human being in 1990s and 2000s Hollywood embodied this warmth as completely as Will Smith.</p>
-          <p class="vb-intro">Born in Philadelphia in 1968 and raised in modest circumstances, Will Smith began his career as a rapper—and as the Fresh Prince, became the darling of an entire generation within just a few years. His energy was irresistible: effervescent, playful, warm—and always directed at the audience. The Social Two does not live for themselves. They live for others. Will Smith did not just need the audience as spectators—he needed them as recipients of his energy, as confirmation that he is welcome.</p>
+          <p class="vb-intro">The American actor Will Smith, born in Philadelphia in 1968 and raised in modest circumstances, began his career as a rapper—and as the Fresh Prince, became the darling of an entire generation within just a few years. His energy was irresistible: effervescent, playful, warm—and always directed at the audience. The Social Two does not live for themselves. They live for others. Will Smith did not just need the audience as spectators—he needed them as recipients of his energy, as confirmation that he is welcome.</p>
         </blockquote>
 
         <h2 class="vb-section">2. SO2: Ambition as a Form of Love</h2>
@@ -25413,7 +25413,7 @@ function stingPortraitPage() {
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Eagle</strong> flies alone. He needs no formation, no validation, no stage. He is at home in his heights &ndash; far above the noise of the world, with a gaze that takes in everything and misses nothing. When he lands, he does so with complete intention.</p>
-          <p class="vb-intro">Gordon Sumner, who called himself Sting, could have remained a teacher. He had the diploma, the position, the security. But the inner voice of the One tolerates no compromise: when the right thing is waiting, one must do it. Sting gave up the safe harbor and went to London &ndash; knowing it could not be otherwise.</p>
+          <p class="vb-intro">The British musician Gordon Sumner, who called himself Sting, could have remained a teacher. He had the diploma, the position, the security. But the inner voice of the One tolerates no compromise: when the right thing is waiting, one must do it. Sting gave up the safe harbor and went to London &ndash; knowing it could not be otherwise.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation One: Craftsmanship as Conscience</h2>
@@ -25474,7 +25474,7 @@ function robertDeNiroPortraitPage() {
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; an animal that impresses not through volume but through precision. It observes for a long time before it acts. It wastes no movement. And when it finally strikes, it does so with an accuracy that needs no repetition.</p>
-          <p class="vb-intro">Robert De Niro has been considered one of the most exacting observers in his field for decades. No interview in which he explains himself. No talk-show presence that distracts from his work. The Eagle does not appear in order to be seen. It appears when the role demands it &ndash; and vanishes again into silence afterward.</p>
+          <p class="vb-intro">The American actor Robert De Niro has been considered one of the most exacting observers in his field for decades. No interview in which he explains himself. No talk-show presence that distracts from his work. The Eagle does not appear in order to be seen. It appears when the role demands it &ndash; and vanishes again into silence afterward.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation One: Truth as Craft</h2>
@@ -25542,7 +25542,7 @@ function christophWaltzPortraitPage() {
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; and no image captures Christoph Waltz more precisely. The eagle circles high, far above the action. He sees what others do not see. He waits. He judges. And when he acts, he does so with a precision that needs no second chance.</p>
-          <p class="vb-intro">Christoph Waltz waited fifty years. Not because he lacked talent &ndash; but because the system had not yet prepared the right thing for him. At 52, Quentin Tarantino discovered him and gave him Hans Landa &ndash; one of the most complex roles in film history. The eagle had circled patiently. Then he struck.</p>
+          <p class="vb-intro">The Austrian actor Christoph Waltz waited fifty years. Not because he lacked talent &ndash; but because the system had not yet prepared the right thing for him. At 52, Quentin Tarantino discovered him and gave him Hans Landa &ndash; one of the most complex roles in film history. The eagle had circled patiently. Then he struck.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation One: Perfection as Inner Duty</h2>
@@ -25602,7 +25602,7 @@ function pierceBrosnanPortraitPage() {
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; it circles high, observes precisely, and when it acts, it does so with a precision that needs no correction. Not an animal of noise, but of quiet, focused mastery of its own territory.</p>
-          <p class="vb-intro">Pierce Brosnan played James Bond in four films between 1995 and 2002 &ndash; a role that demands above all discipline and control: the perfectly fitted suit, the flawless posture, no wasted gesture. What many read as mere elegance was, for Brosnan, genuine work: he prepared meticulously for every action scene himself and insisted on performing as many of his own stunts as possible. The Eagle shows no strain. But it has done the work.</p>
+          <p class="vb-intro">The Irish actor Pierce Brosnan played James Bond in four films between 1995 and 2002 &ndash; a role that demands above all discipline and control: the perfectly fitted suit, the flawless posture, no wasted gesture. What many read as mere elegance was, for Brosnan, genuine work: he prepared meticulously for every action scene himself and insisted on performing as many of his own stunts as possible. The Eagle shows no strain. But it has done the work.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation One: The Demand on Oneself</h2>
@@ -25734,7 +25734,7 @@ function anthonyHopkinsPortraitPage() {
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; an animal that wastes no movement. It observes at length from stillness before it acts, and when it strikes, it needs no second chance. Power without noise. Precision without any visible strain.</p>
-          <p class="vb-intro">Anthony Hopkins won the Academy Award for Best Actor for playing Hannibal Lecter in <em>The Silence of the Lambs</em> (1991) with barely sixteen minutes of screen time &ndash; one of the shortest performances ever honored with that award. This was not chance, but pure economy: every gesture, every glance, every pause was placed with such precision that the threat built not through volume but through complete stillness. The Eagle need not scream to be feared.</p>
+          <p class="vb-intro">The Welsh actor Anthony Hopkins won the Academy Award for Best Actor for playing Hannibal Lecter in <em>The Silence of the Lambs</em> (1991) with barely sixteen minutes of screen time &ndash; one of the shortest performances ever honored with that award. This was not chance, but pure economy: every gesture, every glance, every pause was placed with such precision that the threat built not through volume but through complete stillness. The Eagle need not scream to be feared.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation One: Precision as Self-Obligation</h2>
@@ -25801,7 +25801,7 @@ function magnusCarlsenPortraitPage() {
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; it hunts not with force but with patience and a gaze that catches every detail. It circles for a long time over the field before it strikes, and when it strikes, no second movement is needed.</p>
-          <p class="vb-intro">Magnus Carlsen has been considered the best chess player in the world for over a decade &ndash; not through spectacular combinations, but through an almost inhuman ability to relentlessly convert minimal, barely visible advantages into winning positions. Opponents often describe games against him as a slow crushing: no single mistake decides the game, but the sum of countless subtle imprecisions that the Eagle registers mercilessly and exploits.</p>
+          <p class="vb-intro">The Norwegian chess player Magnus Carlsen has been considered the best chess player in the world for over a decade &ndash; not through spectacular combinations, but through an almost inhuman ability to relentlessly convert minimal, barely visible advantages into winning positions. Opponents often describe games against him as a slow crushing: no single mistake decides the game, but the sum of countless subtle imprecisions that the Eagle registers mercilessly and exploits.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation One: Flawlessness as Craft</h2>
@@ -25944,7 +25944,7 @@ function kenFollettPortraitPage() {
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Eagle</strong> is not a frantic hunter. It circles calmly, steadily, over long stretches &ndash; and that long, patient circling, not a sudden dive, is the most fitting description of Ken Follett's writing career, now spanning more than six decades. No other living author of historical fiction can point to such an unbroken, decades-long consistency.</p>
-          <p class="vb-intro">His international breakthrough came with an espionage novel about a German agent in wartime England, published in 1978 &ndash; after years as a largely unnoticed author. Decade after decade of new, often thousand-page works followed, ranging from a medieval cathedral to the world wars of the twentieth century. The eagle circles, surveys the entire landscape of history &ndash; and lets nothing rush it.</p>
+          <p class="vb-intro">The Welsh writer Ken Follett achieved his international breakthrough with an espionage novel about a German agent in wartime England, published in 1978 &ndash; after years as a largely unnoticed author. Decade after decade of new, often thousand-page works followed, ranging from a medieval cathedral to the world wars of the twentieth century. The eagle circles, surveys the entire landscape of history &ndash; and lets nothing rush it.</p>
           <p class="vb-intro">What stands out is sheer stamina: where other bestselling authors slow down after a few decades, Follett continues, well into old age, to publish extensive, meticulously researched doorstoppers. That is no fluke, but lived self-preservation &ndash; a system that keeps itself stable across decades.</p>
         </blockquote>
 
@@ -26007,7 +26007,7 @@ function danBrownPortraitPage() {
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Eagle</strong> sees patterns where others see only isolated pieces. It circles high above the landscape, connecting what appears separate on the ground, and only strikes when it is absolutely certain. That is precisely Dan Brown's literary signature: symbols, codes, hidden connections between art, history, and religion &ndash; made visible by a gaze that surveys everything at once.</p>
-          <p class="vb-intro">Before becoming a novelist, Brown was a musician and songwriter without major success. The turning point came only with an early novel and, above all, with his breakthrough novel about symbolism and hidden codes, which made him world-famous in 2003. Here too: years of circling, then the precise dive at exactly the right moment.</p>
+          <p class="vb-intro">Before becoming a novelist, the American writer Dan Brown was a musician and songwriter without major success. The turning point came only with an early novel and, above all, with his breakthrough novel about symbolism and hidden codes, which made him world-famous in 2003. Here too: years of circling, then the precise dive at exactly the right moment.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation One: Research as Inner Duty</h2>
@@ -31030,7 +31030,7 @@ function adamSmithPortraitPage() {
         <h2 class="vb-section">1. The Goose Who Designed a Moral Order</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; watchful, principled, incorruptible in its sense of right and wrong. It doesn&#39;t fly for itself alone: it holds the formation together and watches over the rules that keep the common good intact.</p>
-          <p class="vb-intro">Adam Smith was born in 1723 in Kirkcaldy, Scotland, a few months after his father&#39;s death. He was raised by his mother, to whom he remained closely bound his whole life, studied at Glasgow and Oxford, and became a professor of logic in 1751 and of moral philosophy the following year, in Glasgow. Contemporaries described him as absent-minded, modest, almost shy in person &ndash; and at the same time as one of the sharpest observers of human behavior of his age.</p>
+          <p class="vb-intro">The Scottish economist Adam Smith was born in 1723 in Kirkcaldy, Scotland, a few months after his father&#39;s death. He was raised by his mother, to whom he remained closely bound his whole life, studied at Glasgow and Oxford, and became a professor of logic in 1751 and of moral philosophy the following year, in Glasgow. Contemporaries described him as absent-minded, modest, almost shy in person &ndash; and at the same time as one of the sharpest observers of human behavior of his age.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social One: Justice as a Principle of Order</h2>
@@ -33777,7 +33777,7 @@ function angelinaJoliePortraitPage() {
         <h2 class="vb-section">1. The Goose</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Goose</strong> is the animal of the social One &ndash; and a creature that is underestimated at a glance. No beauty like the peacock. No strength like the eagle. But anyone who has ever encountered a goose knows: it does not yield. It protects its territory. It warns its group. And when it flies in formation, it does so not for itself &ndash; but for everyone.</p>
-          <p class="vb-intro">Angelina Jolie has been in the public eye for decades. Not because she seeks attention &ndash; but because attention arises when someone speaks with that kind of clarity. As a UN Special Envoy for Refugees, as a director of films about genocide, as a mother of six children from three continents: she has devoted her life to a conviction. The conviction that it is wrong to look away.</p>
+          <p class="vb-intro">The American actress Angelina Jolie has been in the public eye for decades. Not because she seeks attention &ndash; but because attention arises when someone speaks with that kind of clarity. As a UN Special Envoy for Refugees, as a director of films about genocide, as a mother of six children from three continents: she has devoted her life to a conviction. The conviction that it is wrong to look away.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social One: Justice as Vocation</h2>
@@ -33966,7 +33966,7 @@ function davidBowiePortraitPage() {
         <h2 class="vb-section">1. The Goose</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Goose</strong> is the animal of the social One &ndash; an animal that watches, warns, and opens spaces for the group that it would not otherwise have. In David Bowie, this shows not as musical formation but as cultural formation: he went ahead so others could follow. Each of his transformations &ndash; Ziggy Stardust, the Thin White Duke, later the reserved Berlin-era electronic experimenter &ndash; opened a space no one had entered before, and that many were allowed to enter afterward.</p>
-          <p class="vb-intro">Born in London in 1947 as David Robert Jones, he was at first a modestly successful musician under several names, before he transformed popular culture in the early 1970s with an androgynous, extraterrestrial stage persona. This was no fluke and no mere self-expression &ndash; it was a deliberate, almost strategic opening of public space for everything that had had no place there before.</p>
+          <p class="vb-intro">The British musician David Bowie, born in London in 1947 as David Robert Jones, was at first a modestly successful musician under several names, before he transformed popular culture in the early 1970s with an androgynous, extraterrestrial stage persona. This was no fluke and no mere self-expression &ndash; it was a deliberate, almost strategic opening of public space for everything that had had no place there before.</p>
           <p class="vb-intro">The goose does not fly for itself alone. It calls out so that others can find the formation. Bowie did exactly that &ndash; across five decades, in ever new form.</p>
         </blockquote>
 
@@ -34028,7 +34028,7 @@ function ursulaVonDerLeyenPortraitPage() {
         <h2 class="vb-section">1. The Goose</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Goose</strong> is not a quiet animal. It stands watch, loudly announces every disturbance, and defends its territory with bites if necessary &ndash; not out of malice, but from a deep inner mandate: order must be defended, or it falls apart. No other animal fits Ursula von der Leyen better, whose entire political career has been carried by an unshakeable sense of mission.</p>
-          <p class="vb-intro">From the German Federal Ministry of Family Affairs through the Ministry of Defence to the top of the EU Commission, her rise has followed a straightness rarely seen. Always where structures needed reordering, always with the claim to do it better, more disciplined, more European than her predecessors. The goose does not stand watch by accident &ndash; it sought out the watch post.</p>
+          <p class="vb-intro">The German politician Ursula von der Leyen rose from the German Federal Ministry of Family Affairs through the Ministry of Defence to the top of the EU Commission, following a straightness rarely seen. Always where structures needed reordering, always with the claim to do it better, more disciplined, more European than her predecessors. The goose does not stand watch by accident &ndash; it sought out the watch post.</p>
           <p class="vb-intro">But whoever stands watch inevitably comes into conflict with everything it believes it is protecting. That is precisely the point at which the goose becomes one of the most controversial figures in European politics of recent years &ndash; more on that shortly.</p>
         </blockquote>
 
@@ -34090,7 +34090,7 @@ function friedrichMerzPortraitPage() {
         <h2 class="vb-section">1. The Goose</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Goose</strong> is the animal of the social One &ndash; and it is a creature that does not decorate but functions. No elegance for elegance&#39;s sake. No shying away from conflicts when the territory must be defended. The goose flies in formation, upholds order, and warns the group when something is wrong. Those who underestimate it are in for a surprise.</p>
-          <p class="vb-intro">Friedrich Merz is a figure in German politics that polarizes &ndash; and not by accident. He says what he thinks. He names what he considers wrong. He is not afraid of uncomfortable positions. That is not a stylistic choice &ndash; that is structure. The goose does not back down when it is convinced it is doing the right thing.</p>
+          <p class="vb-intro">The German politician Friedrich Merz is a figure in German politics that polarizes &ndash; and not by accident. He says what he thinks. He names what he considers wrong. He is not afraid of uncomfortable positions. That is not a stylistic choice &ndash; that is structure. The goose does not back down when it is convinced it is doing the right thing.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social One: Order as Vocation</h2>
@@ -34152,7 +34152,7 @@ function leonardoDiCaprioPortraitPage() {
         <h2 class="vb-section">1. The Black Mamba</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Black Mamba</strong> is the animal of the sexual One &ndash; and it is a creature under pressure. Not outwardly. Inwardly. The Black Mamba is precise, fast, and relentless. When it strikes, it does not do so from brutality, but from an impulse that can no longer be stopped. It is the animal of a being that holds itself to the highest standards &ndash; and pursues those standards with an intensity others can barely comprehend.</p>
-          <p class="vb-intro">Leonardo DiCaprio has, for every role of his life, entered zones almost no other actor willingly goes. Eaten raw meat. Slept in the snow. Learned languages, transformed bodies, invested decades in characters. That is not ambition. That is the bite of the mamba: complete, precise, without half-measures.</p>
+          <p class="vb-intro">The American actor Leonardo DiCaprio has, for every role of his life, entered zones almost no other actor willingly goes. Eaten raw meat. Slept in the snow. Learned languages, transformed bodies, invested decades in characters. That is not ambition. That is the bite of the mamba: complete, precise, without half-measures.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual One: Perfection as Intimate Fire</h2>
@@ -34213,7 +34213,7 @@ function gretaThunbergPortraitPage() {
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that can block an entire riverbed without taking a single step. It does not need to attack to have an effect. It only needs to stand in one place and refuse to move &ndash; and the whole current around it has to find a new way.</p>
-          <p class="vb-intro">Greta Thunberg sat alone in front of the Swedish Riksdag in August 2018 &ndash; a fifteen-year-old girl with a hand-made sign. She did not ask for permission. She did not wait for the right moment. She acted, because the situation demanded action. That is the energy of the hippopotamus: not loud, until it must be loud &ndash; and then unstoppable.</p>
+          <p class="vb-intro">The Swedish climate activist Greta Thunberg sat alone in front of the Swedish Riksdag in August 2018 &ndash; a fifteen-year-old girl with a hand-made sign. She did not ask for permission. She did not wait for the right moment. She acted, because the situation demanded action. That is the energy of the hippopotamus: not loud, until it must be loud &ndash; and then unstoppable.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Two: The Right to Exist</h2>
@@ -34395,7 +34395,7 @@ function frankaPotentePortraitPage() {
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that does not run because it is being hunted, but because it knows what is at stake. When it moves, it moves with its full body, without detour, without hesitation &ndash; and afterward returns to its own waters, rather than lingering permanently on foreign ground.</p>
-          <p class="vb-intro">Franka Potente became the embodiment of exactly this energy in 1998 with <em>Run Lola Run</em>: across three replayed scenarios, she runs through Berlin for almost the entire film to save a relationship, a life &ndash; not an aimless flight, but a race against time in service of another person. This role became emblematic of her career: high intensity, full physical commitment, always in service of something larger than her own visibility.</p>
+          <p class="vb-intro">The German actress Franka Potente became the embodiment of exactly this energy in 1998 with <em>Run Lola Run</em>: across three replayed scenarios, she runs through Berlin for almost the entire film to save a relationship, a life &ndash; not an aimless flight, but a race against time in service of another person. This role became emblematic of her career: high intensity, full physical commitment, always in service of something larger than her own visibility.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Two: Care Within the Familiar Circle</h2>
@@ -34456,7 +34456,7 @@ function margotFriedlaenderPortraitPage() {
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that can spend up to sixteen hours a day almost entirely submerged, barely visible, barely noticeable, and yet awake the whole time. It does not submerge to disappear. It submerges because that is where its safety lies &ndash; and it surfaces exactly in the moment it is needed.</p>
-          <p class="vb-intro">Margot Friedländer survived the Holocaust, emigrated to the United States after the war, and lived a quiet, withdrawn life there for over fifty years. Only after her husband's death, well into her seventies, did she begin to speak &ndash; and past eighty she returned permanently to Berlin to appear, tirelessly, before school classes until shortly before her death at 103. The Hippopotamus rests long in the water. But when it moves, it moves with a determination nothing can stop.</p>
+          <p class="vb-intro">The German Margot Friedländer survived the Holocaust, emigrated to the United States after the war, and lived a quiet, withdrawn life there for over fifty years. Only after her husband's death, well into her seventies, did she begin to speak &ndash; and past eighty she returned permanently to Berlin to appear, tirelessly, before school classes until shortly before her death at 103. The Hippopotamus rests long in the water. But when it moves, it moves with a determination nothing can stop.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Two: Care as a Principle of Survival</h2>
@@ -34522,7 +34522,7 @@ function soerenKierkegaardPortraitPage() {
         <h2 class="vb-section">1. The Hippopotamus That Stayed in Its Own Waters</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that marks its territory with a precision biologists only came to understand late: it scatters its dung along exact, repeated paths, always in the same places, as if every boundary of its territory had to be recorded in writing. No accident, no randomness &ndash; a system any intruder can read, if it looks closely enough.</p>
-          <p class="vb-intro">Søren Kierkegaard barely left Copenhagen his entire life, remaining almost exclusively within his own city, his own mind, his own inner waters &ndash; and from there defended, with unrelenting consistency, what he held to be the truth about human existence.</p>
+          <p class="vb-intro">The Danish philosopher Søren Kierkegaard barely left Copenhagen his entire life, remaining almost exclusively within his own city, his own mind, his own inner waters &ndash; and from there defended, with unrelenting consistency, what he held to be the truth about human existence.</p>
           <p class="vb-intro">Born in 1813, the youngest of seven children of a wealthy but deeply melancholic wool merchant, he grew up in a household steeped in guilt and religious dread: his father later confessed to him that in his youth he had cursed God, and that he had had an affair before marrying Kierkegaard's mother &ndash; a confession that convinced the young Søren his family lived under a divine curse. Five of his siblings died before he reached adulthood himself. The hippopotamus learned early: survival means looking closely at what is truly threatening.</p>
         </blockquote>
 
@@ -34588,7 +34588,7 @@ function janUllrichPortraitPage() {
         <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that, despite its enormous weight, walks along a riverbed with a lightness no one would credit it with, pushing off and gliding almost weightlessly, even though it can barely swim in the ordinary sense. It moves most powerfully exactly where its own weight should be working against it.</p>
-          <p class="vb-intro">Jan Ullrich lived this animal within himself &ndash; with everything that entails. On the bike he was the purest natural talent in cycling history: power output, rhythm, capacity to suffer at a level that compelled even his sharpest rivals to reverence. Away from the bike he searched again and again for balance &ndash; and did not always find it. The hippopotamus needs its water. For Ullrich, the bicycle was that water.</p>
+          <p class="vb-intro">The German cyclist Jan Ullrich lived this animal within himself &ndash; with everything that entails. On the bike he was the purest natural talent in cycling history: power output, rhythm, capacity to suffer at a level that compelled even his sharpest rivals to reverence. Away from the bike he searched again and again for balance &ndash; and did not always find it. The hippopotamus needs its water. For Ullrich, the bicycle was that water.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Two: Pleasure as a Basic Feeling</h2>
@@ -34649,7 +34649,7 @@ function barackObamaPortraitPage() {
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; and it is a creature that warms every room it enters. Friendly, engaged, naturally oriented toward connection. The Golden Retriever wants to please, wants to be useful, wants to be needed. But it is no lapdog. Behind the warmth lies considerable inner strength &ndash; and the ability to place that strength in service of others without losing itself in the process.</p>
-          <p class="vb-intro">Barack Obama has, since his first public speech, been a force that draws people in &ndash; not through intimidation, but through connection. He enters a room and makes it larger. He speaks, and people who never felt addressed feel addressed. That is the gift of the social Two: the ability to strengthen the bond between people simply by being present.</p>
+          <p class="vb-intro">The American politician Barack Obama has, since his first public speech, been a force that draws people in &ndash; not through intimidation, but through connection. He enters a room and makes it larger. He speaks, and people who never felt addressed feel addressed. That is the gift of the social Two: the ability to strengthen the bond between people simply by being present.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Two: Help as Social Force</h2>
@@ -34841,7 +34841,7 @@ function marisaAbelaPortraitPage() {
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two, a creature that does not treat connection as a task but as its very nature. Friendly, engaged, attentive to what a room needs. The Golden Retriever does not push itself forward, it is simply present, attuned, ready. And when things get serious, it becomes clear that behind the warmth lies remarkable stamina.</p>
-          <p class="vb-intro">Marisa Abela, born in 1996 in London, has grown in just a few years from supporting roles to celebrated lead performances, not through volume, but through a presence that binds directors and audiences alike. Those who work with her describe someone who reads a room before she enters it, and who knows exactly what a scene, an ensemble, a moment needs right now.</p>
+          <p class="vb-intro">The British actress Marisa Abela, born in 1996 in London, has grown in just a few years from supporting roles to celebrated lead performances, not through volume, but through a presence that binds directors and audiences alike. Those who work with her describe someone who reads a room before she enters it, and who knows exactly what a scene, an ensemble, a moment needs right now.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Two: Belonging as Drive</h2>
@@ -34908,7 +34908,7 @@ function ninaChubaPortraitPage() {
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; and it is a creature you can barely resist. Not because it forces itself on you. But because it is so unaffectedly present. No calculation, no distance, no mask. The Golden Retriever comes toward you &ndash; and you know immediately: this is real. It really means it.</p>
-          <p class="vb-intro">Nina Chuba has built one of the deepest fan bonds in the German music scene in a very short time &ndash; not through perfect staging, but through closeness. She talks about her feelings, about bad days, about insecurity. She replies to comments. She makes her music a space in which her listeners do not feel alone. That is the Golden Retriever: it does not warm because it must. It warms because warmth is its nature.</p>
+          <p class="vb-intro">The German singer Nina Chuba has built one of the deepest fan bonds in the German music scene in a very short time &ndash; not through perfect staging, but through closeness. She talks about her feelings, about bad days, about insecurity. She replies to comments. She makes her music a space in which her listeners do not feel alone. That is the Golden Retriever: it does not warm because it must. It warms because warmth is its nature.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Two: Connection as Vocation</h2>
@@ -34971,7 +34971,7 @@ function zoeSaldanaPortraitPage() {
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that does not limit its warmth to one person, but extends it to everyone in the pack. It seeks community rather than exclusive attachment, and feels most at ease when it can be part of something larger that it serves.</p>
-          <p class="vb-intro">Zoe Saldaña is the only actress to hold lead roles in several of the highest-grossing film franchises in cinema history &ndash; as Neytiri in <em>Avatar</em>, as Gamora in the Marvel films, as Uhura in the rebooted <em>Star Trek</em> series. In all three cases she is part of an ensemble larger than herself, and carries that ensemble along rather than standing apart from it. The Golden Retriever seeks the pack, not the solitary hunt.</p>
+          <p class="vb-intro">The American actress Zoe Saldaña is the only actress to hold lead roles in several of the highest-grossing film franchises in cinema history &ndash; as Neytiri in <em>Avatar</em>, as Gamora in the Marvel films, as Uhura in the rebooted <em>Star Trek</em> series. In all three cases she is part of an ensemble larger than herself, and carries that ensemble along rather than standing apart from it. The Golden Retriever seeks the pack, not the solitary hunt.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Two: Belonging as a Life Principle</h2>
@@ -35030,7 +35030,7 @@ function kamalaHarrisPortraitPage() {
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two, a creature that seeks belonging by committing itself to the community. Friendly, engaged, oriented toward connection. The Golden Retriever wants to be needed, not by one person, but by many. It runs ahead, looks back, gathers the group. And when things get tough, it becomes clear that behind the warmth lies a tenacious will.</p>
-          <p class="vb-intro">Kamala Harris, born in 1964 in Oakland as the daughter of an Indian cancer researcher and a Jamaican economist, grew up in a household shaped by civil rights activism, her mother took her to demonstrations as a toddler. That early imprint became a career that circled almost without interruption around a single question: how can I become effective for the community?</p>
+          <p class="vb-intro">The American politician Kamala Harris, born in 1964 in Oakland as the daughter of an Indian cancer researcher and a Jamaican economist, grew up in a household shaped by civil rights activism, her mother took her to demonstrations as a toddler. That early imprint became a career that circled almost without interruption around a single question: how can I become effective for the community?</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Two: Service as Political Calling</h2>
