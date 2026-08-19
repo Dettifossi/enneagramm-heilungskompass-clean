@@ -64,6 +64,7 @@ export const registerEntries = [
   { term: "Boris Becker (Kriminalpsychologie)", route: "kriminalpsychologie-boris-becker", description: "Kriminalpsychologisches Portrait: Tennislegende, Insolvenz, SX7w8-Analyse" },
   { term: "Frank Abagnale Jr.",             route: "kriminalpsychologie-frank-abagnale-jr", description: "Kriminalpsychologisches Portrait: Meisterfälscher & Betrüger, Catch Me If You Can" },
   { term: "Victor Lustig", route: "kriminalpsychologie-victor-lustig", description: "Kriminalpsychologisches Portrait: SX7w8 – verkaufte den Eiffelturm zweimal, betrog Al Capone" },
+  { term: "Ronnie Biggs", route: "kriminalpsychologie-ronnie-biggs", description: "Kriminalpsychologisches Portrait: SX7w8 – Großer Postraub 1963, Gefängnisausbruch, Rio de Janeiro" },
   { term: "Osama bin Laden",                route: "kriminalpsychologie-osama-bin-laden",  description: "Kriminalpsychologisches Portrait: Al-Qaida-Gründer, 11. September, ideologische Zerstörung" },
   { term: "P. Diddy",                       route: "kriminalpsychologie-p-diddy",           description: "Kriminalpsychologisches Portrait: Hip-Hop-Mogul, Machtmissbrauch, #MeToo-Kontext" },
   { term: "Vincenzo Peruggia",              route: "kriminalpsychologie-vincenzo-peruggia", description: "Kriminalpsychologisches Portrait: Diebstahl der Mona Lisa 1911, Nationalstolz & Obsession" },
@@ -383,6 +384,7 @@ export const registerEntries = [
 
   // Typentest
   { term: "Typentest (Motivational)",  route: "typentest-motivational", description: "Motivationaler Typentest mit Fokus auf innere Antriebe und Bedürfnisse" },
+  { term: "Gesichts-Scan",             route: "gesichts-scan",          description: "Vorbereitung für die persönliche Typberatung: Foto-Scan oder Kurzvideo aufnehmen" },
 
   // Tierlexikon
   { term: "Tierlexikon",               route: "tierlexikon",            description: "Das vollständige Tierlexikon: alle 27 Tierarchetypn mit Bedeutung, Qualitäten und Instinktzuordnung" },
@@ -1400,6 +1402,7 @@ export const registerEntriesEN = [
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },
   { term: "Crisis Compass", route: "krisenkompass", description: "Crisis Compass: Enneagram support in acute crises – subtype-specific impulses" },
   { term: "Type Test (Motivational)", route: "typentest-motivational", description: "Motivational type test with a focus on inner drives and needs" },
+  { term: "Face Scan", route: "gesichts-scan", description: "Preparation for your personal type consultation: take a photo scan or short video" },
   { term: "Animal Lexicon", route: "tierlexikon", description: "The complete animal lexicon: all 27 animal archetypes with meaning, qualities, and instinct assignment" },
   { term: "Life Pattern Compass", route: "lebensmusterkompass", description: "Biographical fingerprints of the 27 subtypes – recurring patterns from 350+ case portraits" },
   { term: "Weather and Nature Phenomena of the 9 Types", route: "wetter-naturphaenomene-der-9-typen", description: "Archetypal weather and nature phenomenon equivalents for each Enneagram type" },
@@ -1515,6 +1518,7 @@ export const registerEntriesEN = [
   { term: "Boris Becker (Criminal Psychology)", route: "kriminalpsychologie-boris-becker", description: "Criminal psychological portrait: tennis legend, insolvency, SX7w8 analysis" },
   { term: "Frank Abagnale Jr.", route: "kriminalpsychologie-frank-abagnale-jr", description: "Criminal psychological portrait: master forger & con artist, Catch Me If You Can" },
   { term: "Victor Lustig", route: "kriminalpsychologie-victor-lustig", description: "Criminal psychological portrait: SX7w8 – sold the Eiffel Tower twice, conned Al Capone" },
+  { term: "Ronnie Biggs", route: "kriminalpsychologie-ronnie-biggs", description: "Criminal psychological portrait: SX7w8 – Great Train Robbery 1963, prison escape, Rio de Janeiro" },
   { term: "Osama bin Laden", route: "kriminalpsychologie-osama-bin-laden", description: "Criminal psychological portrait: Al-Qaeda founder, September 11, ideological destruction" },
   { term: "P. Diddy", route: "kriminalpsychologie-p-diddy", description: "Criminal psychological portrait: hip-hop mogul, abuse of power, #MeToo context" },
   { term: "Vincenzo Peruggia", route: "kriminalpsychologie-vincenzo-peruggia", description: "Criminal psychological portrait: theft of the Mona Lisa 1911, national pride & obsession" },

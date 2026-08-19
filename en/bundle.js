@@ -796,6 +796,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hermann Hesse – Self-Preservation Type 5",
     teaser:"SP5w6 · 1877–1962. Writer, Nobel laureate. Forty years withdrawn in Montagnola – Siddhartha, Steppenwolf, The Glass Bead Game. The owl that made retreat an art form. Animal correspondence: Owl.",
     tags:["Literature"], gender:"m"},
+{ route:"beruehmte-spinoza", name:"Baruch de Spinoza", added:"2026-08-10", subtyp:"SE5w6",
+    heading:"Baruch de Spinoza – Self-Preservation Type 5",
+    teaser:"SP5w6 · 1632–1677. Rationalist philosopher, author of the Ethics. Living withdrawn in Amsterdam and The Hague, he ground lenses for a living and thought through the most radical conception of God of his time. The owl that withdrew from every community in order to see more clearly.",
+    tags:["Philosophy"], gender:"m"},
 { route:"beruehmte-vera-birkenbihl", name:"Vera Birkenbihl", added:"2026-07-21", subtyp:"SE5w6",
     heading:"Vera Birkenbihl – Self-Preservation Type 5",
     teaser:"SE5w6 \xb7 1946–2011. Trainer, author, thought leader. Over fifty books, millions of readers, one system: brain-friendly learning. The owl who knew how thinking thinks - and taught it.",
@@ -30639,6 +30643,7 @@ function reneDescartesPortraitPage() {
         {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
+        {route:"beruehmte-spinoza", label:"Portrait: Baruch de Spinoza (SP5w6) – commented on his philosophy in the only work he published during his lifetime under his own name"},
         {route:"beruehmte-hermann-hesse", label:"Portrait: Hermann Hesse (SP5w6)"},
         {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
       ])}
@@ -30705,6 +30710,75 @@ function hermannHessePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
         {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
+        {route:"beruehmte-spinoza", label:"Portrait: Baruch de Spinoza (SP5w6)"},
+        {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
+      ])}
+    </div>
+  `);
+}
+
+function spinozaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-spinoza-portrait.jpg" alt="Owl" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Baruch de Spinoza</p>
+        <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Rationalist philosopher, 1632&ndash;1677 &ndash; Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Owl Who Withdrew from the World</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>owl</strong> is the animal of Type 5 &ndash; a creature that sees most clearly at dusk, that withdraws in order to observe, and whose gaze penetrates what remains hidden to others. It needs no herd, no pack &ndash; its strength lies in solitude, in undisturbed thought.</p>
+          <p class="vb-intro">Baruch (later Benedictus) de Spinoza was born in 1632 in Amsterdam, the son of a Portuguese-Jewish merchant family that had fled the Inquisition from Portugal. In 1656, at just 23 years old, he was placed under the <em>cherem</em> by Amsterdam's Jewish community &ndash; the harshest ban the community knew: no contact, no trade, no shared roof with him ever again. The exact reasons were never recorded in writing, but his already-known doubts about the literal interpretation of scripture and about a personal, intervening God are held to be the cause. Spinoza did not react with resistance or negotiation &ndash; he withdrew, changed his name to Benedictus, and lived the rest of his life outside any community that could have bound him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Five: The Fortress of Thought</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Five (SP5)</strong> is, according to Naranjo, the reinforcement type of the Five: here the passion of <em>avarice</em> &ndash; the hoarding of energy, space, and time &ndash; is lived most nakedly. Naranjo called this subtype <em>Castle</em>: one's own territory becomes a fortress, behind whose walls the world stays outside. Spinoza lived this castle literally: after the ban, he first moved away from Amsterdam, living in Rijnsburg, later Voorburg, and finally The Hague &ndash; always withdrawn, mostly alone, in small, sparse rooms.</p>
+          <p class="vb-intro">He earned his living grinding optical lenses for microscopes and telescopes &ndash; quiet, precise manual work that required almost no contact with others and which he mastered expertly. He lived extremely frugally, largely declined generous financial gifts from admirers, and limited himself to the bare essentials. This radical self-sufficiency was not asceticism for its own sake, but the condition for what he valued most: undisturbed time to think.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: The System He Stayed Loyal To</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Self-Preservation Five a watchful orientation toward security and an extraordinary loyalty to system &ndash; not loyalty to institutions, but to a self-devised, internally coherent principle. Spinoza's major work, the <em>Ethica, ordine geometrico demonstrata</em> (Ethics, Demonstrated in Geometrical Order), published posthumously in 1677, is exactly that: a philosophical system built like a Euclidean theorem &ndash; definitions, axioms, proofs, step by step, without gaps. No other major philosophical work in history is built so uncompromisingly systematically.</p>
+          <p class="vb-intro">This loyalty to system also showed in his most famous decision: in 1673, the University of Heidelberg offered him a chair in philosophy &ndash; with the assurance of complete freedom to teach, as long as he did not disturb the state religion. Spinoza declined. He feared that even this restriction would eventually bend his thinking, and chose the insecurity of lens-grinding over the security of an academic post &ndash; the Six-wing weighs risk precisely, and sometimes the answer, against security, falls in favor of intellectual independence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Deus sive Natura: The Most Radical Conception of God of His Time</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At the center of the Ethics stands Spinoza's most famous and consequential formula: <em>Deus sive Natura</em> &ndash; God, or equivalently, Nature. For Spinoza there is only a single, infinite substance encompassing everything that exists &ndash; no God outside the world who created and steers it, but God as the world itself, in its complete, necessary lawfulness. Everything that happens, happens with the same necessity with which the angles of a triangle sum to 180 degrees.</p>
+          <p class="vb-intro">This position cost him not only the ban of the Jewish community but made him, during his lifetime and long after his death, a target of the charge of atheism &ndash; his already anonymously published <em>Tractatus Theologico-Politicus</em> (1670), which founded historical-critical biblical interpretation and demanded freedom of opinion, was banned in several countries. Spinoza responded as the reinforcement type of the Five does: he withdrew further, never published the Ethics at all during his lifetime, and limited the circle he entrusted with his thoughts to a small group of trusted correspondents.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SP5w6 is the ability to combine <strong>radical intellectual independence with a robust, internally coherent system</strong>. Spinoza thought through free will, the relationship between affect and reason, and the limits of tolerance as consistently as almost no philosopher before him &ndash; laying one of the cornerstones of the modern Enlightenment, long before it bore that name.</p>
+          <p class="vb-intro">The shadow: his withdrawal from every community &ndash; Jewish and Christian alike &ndash; also meant a life almost entirely without closeness, without a family of his own, without a fixed place of belonging. The castle of the SP5 protects thought, but it costs connection. Spinoza himself seems to have knowingly accepted this price &ndash; whether he also regretted it can hardly be read from his surviving letters. This very inaccessibility still makes him one of the most enigmatic figures in the history of philosophy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Owl Who Died of Lung Disease</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Spinoza died in 1677 in The Hague at only 44 years old, presumably of a lung disease worsened by decades of inhaling glass dust while grinding lenses &ndash; his craft, which secured him the independence to think, likely also contributed to his early death. Friends published his <em>Opera Posthuma</em> that same year, including the Ethics &ndash; the work he himself had never had printed under his own name.</p>
+          <p class="vb-intro">The owl left the world as withdrawn as it had passed through it &ndash; without office, without family, without congregation. What remained was a self-contained system of thought that only generations later &ndash; from Leibniz to Einstein, who explicitly invoked "Spinoza's God" &ndash; would unfold its full significance.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8)"},
+        {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4) – invoked Spinoza's conception of God"},
+        {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6) – whose philosophy he commented on in the only work he published under his own name during his lifetime"},
+        {route:"beruehmte-hermann-hesse", label:"Portrait: Hermann Hesse (SP5w6)"},
         {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
       ])}
     </div>
@@ -58432,6 +58506,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-rene-descartes": reneDescartesPortraitPage,
       "beruehmte-carl-tanzler": carlTanzlerPortraitPage,
       "beruehmte-hermann-hesse": hermannHessePortraitPage,
+      "beruehmte-spinoza": spinozaPortraitPage,
       "beruehmte-xanthippe": xanthippePortraitPage,
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
       "beruehmte-abida-parveen": abidaParveenPortraitPage,
