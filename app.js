@@ -32333,6 +32333,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Shakira \u2013 Sexueller Typ 7",
     teaser:"SX7w8 \u00b7 geb. 1977 in Barranquilla, Kolumbien. S\u00e4ngerin, Songwriterin, T\u00e4nzerin, Produzentin. \u201eHips Don't Lie\u201c, \u201eWaka Waka\u201c, \u00fcber 80 Millionen verkaufte Tontr\u00e4ger. Der Schimpanse mit Achterfl\u00fcgel: Rhythmus als Sprache des K\u00f6rpers, Intensit\u00e4t ohne Bremse, Kraft, die aus pers\u00f6nlichem Schmerz B\u00fchnenpr\u00e4senz macht.",
     tags:["Musik"], gender:"f"},
+  { route:"beruehmte-christophe-boesch", name:"Prof. Dr. Christophe Boesch", added:"2026-08-19", subtyp:"SX7w8",
+    heading:"Prof. Dr. Christophe Boesch \u2013 Sexueller Typ 7",
+    teaser:"SX7w8 \u00b7 1951\u20132024. Schweizer Primatologe, langj\u00e4hriger Direktor am Max-Planck-Institut f\u00fcr evolution\u00e4re Anthropologie, Pionier der Schimpansen-Kulturforschung im Ta\u00ef-Nationalpark. Wies nach, dass Schimpansen unterschiedliche, von Generation zu Generation weitergegebene Kulturen besitzen. Tierentsprechung: Schimpanse.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-umberto-eco", name:"Dr. Umberto Eco", subtyp:"SE8w7",
     heading:"Umberto Eco \u2013 Selbsterhaltender Typ 8",
     teaser:"SE8w7 \u00b7 1932\u20132016. Schriftsteller, Semiotiker, Philosoph, Medienwissenschaftler. Der Name der Rose, Das Foucaultsche Pendel. 30.000 B\u00fccher. Der Orang-Utan, der im Labyrinth zu Hause ist \u2013 und der wei\u00df, dass alle Zeichen l\u00fcgen. Tierentsprechung: Orang-Utan.",
@@ -35293,6 +35297,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-frank-rosell", name:"Prof. Dr. Frank Rosell", subtyp:"SO7w6", tier:"Biber"},
   {route:"beruehmte-dietland-mueller-schwarze", name:"Prof. Dr. Dietland Müller-Schwarze", subtyp:"SO7w6", tier:"Biber"},
   {route:"beruehmte-frans-de-waal", name:"Prof. Dr. Frans de Waal", subtyp:"SX7w6", tier:"Schimpanse"},
+  {route:"beruehmte-christophe-boesch", name:"Prof. Dr. Christophe Boesch", subtyp:"SX7w8", tier:"Schimpanse"},
 ];
 
 function animalResearcherMatchBlock(currentRoute) {
@@ -42711,12 +42716,12 @@ const LEBENSMUSTERKOMPASS = {
   SX7: {
     tier: "Schimpanse",
     kernthema: "Vollständige Verschmelzung mit einer Idee, Person oder einem Moment (Naranjo: Suggestibilität)",
-    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs", "Prof. Dr. Frans de Waal"],
+    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs", "Prof. Dr. Frans de Waal", "Prof. Dr. Christophe Boesch"],
     fingerabdruecke: [
       {
         titel: "Vollständige Verschmelzung mit einer Idee, Person oder einem Moment",
         beschreibung: "Naranjo nannte diesen Subtyp den der ›Suggestibilität‹: Statt Begeisterung zu streuen, bündelt sich die gesamte Intensität auf einen einzigen Punkt – eine Überzeugung, einen Menschen, eine Sache –, mit einer Kraft, die keine halben Bindungen kennt.",
-        beleg: "Gudrun Ensslin: ›Sie verschmilzt vollständig mit einer Idee, einem Menschen, einer Vision – und wird von dieser Verschmelzung buchstäblich fortgerissen … Wenn die neue Überzeugung da ist, wird das alte Leben vollständig abgeworfen‹; Victor Lustig: ›Eine Fähigkeit, sich vollständig in eine Idee, eine Person, einen Moment hineinzuversetzen – und dabei so überzeugend zu wirken, dass die eigene Begeisterung ansteckend wird‹; Clyde Barrow, dessen ›gesamtes Leben von ständiger Bewegung, immer neuen Fluchtwegen‹ geprägt war; Prof. Dr. Frans de Waal, der den direkten, persönlichen intellektuellen Austausch mit Einzelnen suchte statt sich in institutionellen Netzwerken zu verlieren, und dessen Spätwerk sich fast ausschließlich der einen Frage nach Empathie und Bindung widmete."
+        beleg: "Gudrun Ensslin: ›Sie verschmilzt vollständig mit einer Idee, einem Menschen, einer Vision – und wird von dieser Verschmelzung buchstäblich fortgerissen … Wenn die neue Überzeugung da ist, wird das alte Leben vollständig abgeworfen‹; Victor Lustig: ›Eine Fähigkeit, sich vollständig in eine Idee, eine Person, einen Moment hineinzuversetzen – und dabei so überzeugend zu wirken, dass die eigene Begeisterung ansteckend wird‹; Clyde Barrow, dessen ›gesamtes Leben von ständiger Bewegung, immer neuen Fluchtwegen‹ geprägt war; Prof. Dr. Frans de Waal, der den direkten, persönlichen intellektuellen Austausch mit Einzelnen suchte statt sich in institutionellen Netzwerken zu verlieren, und dessen Spätwerk sich fast ausschließlich der einen Frage nach Empathie und Bindung widmete; Prof. Dr. Christophe Boesch, der fünf Jahre mit seiner jungen Familie im unerschlossenen Regenwald lebte, um eine einzige wilde Schimpansengruppe zu erforschen – keine halben Sachen, sondern volle, riskante Hingabe."
       },
       {
         titel: "Ansteckende Intensität, die eine ganze Gruppe oder einen ganzen Raum mitreißt",
@@ -48836,10 +48841,71 @@ function fransDeWaalPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
         {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-christophe-boesch", label:"Porträt: Prof. Dr. Christophe Boesch (SX7w8)"},
         {route:"beruehmte-leonard-bernstein", label:"Porträt: Leonard Bernstein (SX7w6)"},
-        {route:"beruehmte-morgan-freeman", label:"Porträt: Morgan Freeman (SX7w6)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-frans-de-waal")}
+    </div>
+  `);
+}
+
+function christopheBoeschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-christophe-boesch-portrait.jpg" alt="Schimpanse" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Christophe Boesch</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Primatologe, Pionier der Schimpansen-Kulturforschung, 1951&ndash;2024 &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse, der die Kultur des Schimpansen entdeckte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben &ndash; klug, verspielt, intensitätssuchend, nie ein Stubenhocker. Kaum ein Wissenschaftler verkörperte dieses Prinzip so risikofreudig wie Prof. Dr. Christophe Boesch: Der Schweizer Primatologe, geboren 1951 in St. Gallen, gründete 1979 gemeinsam mit seiner Frau Hedwige das Taï-Schimpansenprojekt an der Elfenbeinküste &ndash; die erste kontinuierliche Langzeitstudie an wildlebenden Schimpansen in geschlossenem Regenwald.</p>
+          <p class="vb-intro">Fünf Jahre lang lebte das Paar mit seinen beiden kleinen Kindern im Wald, um eine wilde Schimpansengruppe an ihre Anwesenheit zu gewöhnen. Boesch wies als Erster nach, dass Schimpansen über hochentwickelte, unterschiedliche "Kulturen" verfügen &ndash; verschiedene Techniken beim Nüsseknacken, Werkzeuggebrauch und kollektiver Jagd, die von Generation zu Generation weitergegeben werden. Er starb 2024 im Alter von 72 Jahren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Der Kick als Zugang zur tiefen Erkenntnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht keine sichere Distanz, sondern die volle, riskante Verschmelzung mit ihrem Gegenstand &ndash; Intensität als Weg zur Wahrheit. Boesch war ein klassischer Feldforscher, der das Risiko des afrikanischen Regenwalds nicht scheute, sondern aktiv aufsuchte: Jahrzehnte im dichten Urwald, oft in unmittelbarer Nähe wilder, unhabituierter Tiere, mit der eigenen jungen Familie mittendrin.</p>
+          <p class="vb-intro">Diese Bereitschaft, das eigene Leben und das seiner Liebsten für die eine, alles entscheidende Erkenntnis einzusetzen, ist reine sexuelle Siebener-Energie: nicht die vorsichtige Distanz des Beobachters, sondern die volle, riskante Hingabe an das Forschungsobjekt selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Konfrontation statt Diplomatie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Sieben eine direkte, kompromisslose Durchsetzungskraft &ndash; im Unterschied zum diplomatisch-loyalen Sechserflügel, den etwa Frans de Waal verkörperte, begegnete Boesch Hindernissen mit offener Konfrontation. Nachrufe beschreiben ihn als jemanden, der wenig Geduld mit Bürokratie oder unnötigen Verzögerungen hatte &ndash; ob im Umgang mit wechselnden Regierungen, widerständigen Bergbaufirmen oder skeptischen Geldgebern.</p>
+          <p class="vb-intro">Statt sich in bestehende Institutionen einzufügen, gründete und leitete er selbst mehrere: Mitbegründer und Direktor des Max-Planck-Instituts für evolutionäre Anthropologie, Gründer und Präsident der Wild Chimpanzee Foundation. Er trieb aktiv die Einrichtung neuer Nationalparks voran, etwa den Moyen-Bafing-Nationalpark in Guinea &ndash; eine offensive, gestaltende Energie, die klar für den Achterflügel spricht, im Kontrast zur vorsichtigeren, netzwerkorientierten Sechser-Note anderer sexueller Siebener in diesem Kompass.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX7w8 ist die Fähigkeit, <strong>riskante, kompromisslose Hingabe in bahnbrechende, weltverändernde Erkenntnis</strong> zu verwandeln &ndash; Boeschs Nachweis der Schimpansenkultur veränderte grundlegend, wie die Wissenschaft über tierische Intelligenz und Tradition denkt, und sein Kampf für Nationalparks schützt bis heute Lebensräume, die sonst verloren wären.</p>
+          <p class="vb-intro">Der Schatten der sexuellen Sieben mit Achterflügel zeigt sich in der schieren Kompromisslosigkeit dieses Weges: fünf Jahre mit kleinen Kindern im unerschlossenen Regenwald, ständige Konfrontation mit Behörden und Konzernen &ndash; ein Leben, das keine halben Sachen kennt, aber auch wenig Raum für Vorsicht oder Rückzug lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Schimpanse, der zeigte, dass der Schimpanse Kultur hat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Boesch der Welt gab, ist der wissenschaftliche Beweis, dass Kultur kein rein menschliches Phänomen ist &ndash; ein Vermächtnis, das die Grenze zwischen Mensch und Tier ebenso verschob wie das seines Zeitgenossen Frans de Waal, nur auf einem anderen, konfrontativeren Weg dorthin.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das kaum treffender für die sexuelle Sieben mit Achterflügel sein könnte: ein Mann, dessen archetypisches Tier der Schimpanse ist, der das Risiko des Regenwalds nicht scheute, sondern den ultimativen Kick und die tiefe Erkenntnis suchte &ndash; und dabei, offenbar unbewusst, sein eigenes, tiefstes archetypisches Muster erforschte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-frans-de-waal", label:"Porträt: Prof. Dr. Frans de Waal (SX7w6)"},
+        {route:"beruehmte-shakira", label:"Porträt: Shakira (SX7w8)"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-christophe-boesch")}
     </div>
   `);
 }
@@ -92754,6 +92820,7 @@ function render() {
       "beruehmte-frank-rosell": frankRosellPortraitPage,
       "beruehmte-dietland-mueller-schwarze": dietlandMuellerSchwarzePortraitPage,
       "beruehmte-frans-de-waal": fransDeWaalPortraitPage,
+      "beruehmte-christophe-boesch": christopheBoeschPortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
