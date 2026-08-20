@@ -37848,7 +37848,7 @@ function tierquizPage() {
             </ul>
             <button class="cta-gold-btn" data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.7rem 1.8rem;font-size:0.95rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 14px rgba(0,0,0,.2);">Jetzt freischalten &#8594;</button>
           </div>
-          <p style="font-size:0.82rem;color:var(--muted);margin-top:1.2rem;line-height:1.5;">Dieses Ergebnis ist ein Anhaltspunkt \u2013 kein Test ersetzt eine genaue Typbestimmung. F\u00fcr mehr Tiefe empfehlen wir den <a href="#" data-route="diagnosetest" style="color:var(--gold);">ausf\u00fchrlichen Diagnose-Test</a>.</p>
+          <p style="font-size:0.82rem;color:var(--muted);margin-top:1.2rem;line-height:1.5;">Dieses Ergebnis ist ein Anhaltspunkt \u2013 kein Test ersetzt eine genaue Typbestimmung. F\u00fcr mehr Tiefe empfehlen wir den <a href="javascript:void(0)" data-route="diagnosetest" style="color:var(--gold);">ausf\u00fchrlichen Diagnose-Test</a>.</p>
         </div>
       </div>
     </div>
@@ -89595,7 +89595,7 @@ function symptomlexikonPage() {
     <div class="page-container">
       ${pageHeader("symptomlexikon")}
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Symptomlexikon</h1>
-      <p class="psycho-intro">Ein schneller Überblick über typische Symptome der Krankheitsbilder aus dem Psychosomatik-Register – zur ersten Orientierung, wenn die Frage im Raum steht: &bdquo;Ist das jetzt eigentlich ernst?&ldquo; <strong>Wichtig: Dieses Lexikon ersetzt keine ärztliche Diagnose.</strong> Bei akuten, plötzlich auftretenden oder starken Beschwerden immer sofort ärztlichen bzw. notärztlichen Rat einholen, statt hier nachzuschlagen. Die ausführliche psychosomatische Deutung je Krankheitsbild findet sich im <a href="#" data-route="psychosomatik">Psychosomatik-Register</a>.</p>
+      <p class="psycho-intro">Ein schneller Überblick über typische Symptome der Krankheitsbilder aus dem Psychosomatik-Register – zur ersten Orientierung, wenn die Frage im Raum steht: &bdquo;Ist das jetzt eigentlich ernst?&ldquo; <strong>Wichtig: Dieses Lexikon ersetzt keine ärztliche Diagnose.</strong> Bei akuten, plötzlich auftretenden oder starken Beschwerden immer sofort ärztlichen bzw. notärztlichen Rat einholen, statt hier nachzuschlagen. Die ausführliche psychosomatische Deutung je Krankheitsbild findet sich im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>.</p>
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.4rem;margin:1.3rem 0 0.4rem;">
         ${quickNav}
       </div>

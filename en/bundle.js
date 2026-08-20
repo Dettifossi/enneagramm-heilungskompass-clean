@@ -7404,7 +7404,7 @@ function tierquizPage() {
             </ul>
             <button class="cta-gold-btn" data-route="freischalt" style="background:var(--gold-dark);color:var(--copper);border:3px solid #8a5a1a;border-radius:10px;padding:.7rem 1.8rem;font-size:0.95rem;font-weight:700;cursor:pointer;font-family:'EB Garamond',serif;box-shadow:0 4px 14px rgba(0,0,0,.2);">Unlock now &#8594;</button>
           </div>
-          <p style="font-size:0.82rem;color:var(--muted);margin-top:1.2rem;line-height:1.5;">This result is a pointer — no test replaces a precise type determination. For more depth we recommend the <a href="#" data-route="diagnosetest" style="color:var(--gold);">detailed diagnosis test</a>.</p>
+          <p style="font-size:0.82rem;color:var(--muted);margin-top:1.2rem;line-height:1.5;">This result is a pointer — no test replaces a precise type determination. For more depth we recommend the <a href="javascript:void(0)" data-route="diagnosetest" style="color:var(--gold);">detailed diagnosis test</a>.</p>
         </div>
       </div>
     </div>
@@ -55100,7 +55100,7 @@ function symptomlexikonPage() {
     <div class="page-container">
       ${pageHeader("symptomlexikon")}
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Symptom Lexicon</h1>
-      <p class="psycho-intro">A quick overview of typical symptoms for the conditions in the Psychosomatics Register – for a first orientation when the question comes up: &bdquo;Is this actually serious?&ldquo; <strong>Important: this lexicon does not replace a medical diagnosis.</strong> For acute, sudden, or severe symptoms, always seek medical or emergency care immediately instead of looking it up here. The full psychosomatic interpretation for each condition can be found in the <a href="#" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      <p class="psycho-intro">A quick overview of typical symptoms for the conditions in the Psychosomatics Register – for a first orientation when the question comes up: &bdquo;Is this actually serious?&ldquo; <strong>Important: this lexicon does not replace a medical diagnosis.</strong> For acute, sudden, or severe symptoms, always seek medical or emergency care immediately instead of looking it up here. The full psychosomatic interpretation for each condition can be found in the <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.4rem;margin:1.3rem 0 0.4rem;">
         ${quickNav}
       </div>
