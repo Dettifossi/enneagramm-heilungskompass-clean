@@ -57543,12 +57543,14 @@ function rowanAtkinsonPortraitPage() {
         <h2 class="vb-section">6. Der Biber, der nicht aufh\u00f6ren kann</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Rowan Atkinson ist seit vier Jahrzehnten im Gesch\u00e4ft &ndash; und zeigt keine Anzeichen, aufzuh\u00f6ren. Er hat Mr. Bean mehrfach f\u00fcr tot erkl\u00e4rt und ihn dann doch zur\u00fcckgebracht. Er hat erkl\u00e4rt, die physische Komik werde mit dem Alter schwerer &ndash; und dann <em>Johnny English Strikes Again</em> gedreht. Das ist der Biber: Er baut, auch wenn der Damm fertig ist. Er baut, weil Bauen sein Wesen ist. Und er vergisst nicht, was er einmal begonnen hat.</p>
+          <p class="vb-intro">Ein fast unheimlich genauer historischer Vorl\u00e4ufer desselben Subtyps: <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Moli\u00e8re</a> (SO7w6, 1622&ndash;1673) &ndash; auch bei ihm verschwand echte Verletzlichkeit hinter der Maske einer Rolle, auch er war abseits der B\u00fchne wortkarg und zur\u00fcckgezogen, auch er baute mit seiner Theatertruppe eine Institution statt eines Einzelwerks. Nachzulesen im <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Krankheitsportr\u00e4t zu Moli\u00e8re</a>.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
+          {route:"krankheitsportraets-moliere", label:"Krankheitsportr\u00e4t: Moli\u00e8re (SO7w6)"},
           {route:"beruehmte-elon-musk", label:"Portr\u00e4t: Elon Musk (SO7w6)"},
           {route:"beruehmte-hazel-brugger", label:"Portr\u00e4t: Hazel Brugger (SO7w8)"},
           {route:"beruehmte-jasmin-paolini", label:"Portr\u00e4t: Jasmin Paolini (SE7w6)"},

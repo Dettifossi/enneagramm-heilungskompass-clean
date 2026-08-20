@@ -23306,12 +23306,14 @@ function rowanAtkinsonPortraitPage() {
         <h2 class="vb-section">6. The Beaver Who Cannot Stop</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Rowan Atkinson has been in the business for four decades—and shows no sign of stopping. He has declared Mr. Bean dead multiple times, only to bring him back. He noted that physical comedy grows harder with age—and then filmed "Johnny English Strikes Again." That is the beaver: it builds even when the dam is finished. It builds because building is its nature. And it never forgets what it once began.</p>
+          <p class="vb-intro">An almost eerily precise historical forerunner of the same subtype: <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Molière</a> (SO7w6, 1622–1673) – he too let real vulnerability disappear behind the mask of a role, he too was reserved and withdrawn off stage, he too built an institution with his theater troupe rather than a single body of work. Read more in the <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Illness Portrait on Molière</a>.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
+          {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
           {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
           {route:"beruehmte-hazel-brugger", label:"Portrait: Hazel Brugger (SO7w8)"},
           {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
