@@ -192,6 +192,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5", heading:"Sigmund Freud – Social Type 6", krankheit:"Oral and Jaw Cancer", teaser:"SO6w5 – founder of psychoanalysis, 1856–1939. Diagnosed with jaw cancer in 1923, over 30 surgeries in 16 years, kept smoking cigars despite the diagnosis and refused effective painkillers for years to stay mentally clear. Died in 1939 in London exile through physician-assisted death." , land:"Austria", gender:"m", jahre:"1856–1939"},
   { route:"krankheitsportraets-marie-curie", name:"Marie Curie", subtyp:"SE5w6", heading:"Marie Curie – Self-Preservation Type 5", krankheit:"Aplastic Anemia from Chronic Radiation Exposure", teaser:"SE5w6 – physicist and chemist, 1867–1934. Decades of unprotected work with radioactive materials, radium samples carried in her coat pocket, notebooks still radioactive today. Died in 1934 of aplastic anemia, a direct consequence of the radiation exposure whose dangers she herself helped to uncover." , land:"Poland/France", gender:"f", jahre:"1867–1934"},
   { route:"krankheitsportraets-charles-darwin", name:"Charles Darwin", subtyp:"SE5w6", heading:"Charles Darwin – Self-Preservation Type 5", krankheit:"Chronic, Never Clearly Diagnosed Digestive and Exhaustion Complaints", teaser:"SE5w6 – naturalist and founder of the theory of evolution, 1809–1882. Nearly forty years of nausea, vomiting, heart palpitations, and exhaustion, never clearly diagnosed. Proposed causes range from Chagas disease to a psychosomatic origin rooted in radical withdrawal from the outside world." , land:"United Kingdom", gender:"m", jahre:"1809–1882"},
+  { route:"krankheitsportraets-winston-churchill", name:"Winston Churchill", subtyp:"SE8w9", heading:"Winston Churchill – Self-Preservation Type 8", krankheit:"Lifelong Depression (\"the black dog\") and a Concealed Stroke While in Office", teaser:"SE8w9 – British statesman, Prime Minister 1940–1945 & 1951–1955, 1874–1965. Suffered a severe stroke while in office in 1953, which he kept concealed from the public and much of his own cabinet for weeks, and lived with recurring depression his entire life." , land:"United Kingdom", gender:"m", jahre:"1874–1965"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -17725,10 +17726,13 @@ function goldaMeirPortraitPage() {
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
+        <p class="vb-intro">Since the 1960s, Meir had lived with a lymphoma diagnosis that she kept largely secret throughout her entire term as Prime Minister – a parallel to Winston Churchill (also SE8w9), whose own concealed stroke is explored in his own <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">Illness Portrait</a>.</p>
+
         ${relatedLinks([
           {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9)"},
           {route:"beruehmte-umberto-eco", label:"Portrait: Umberto Eco (SE8w7)"},
           {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
+          {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9)"},
         ])}
       </div>
     </div>
@@ -17863,10 +17867,12 @@ function winstonChurchillPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <p class="vb-intro">The severe stroke he suffered while in office in 1953 and kept concealed for weeks, and his lifelong depression – "the black dog" – are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">Illness Portrait of Churchill</a>.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
         {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
+        {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9)"},
       ])}
     </div>
   `);
@@ -38738,15 +38744,22 @@ function krankheitsportraetsPage() {
   const cards = items.map(p => {
     const typ = parseInt((p.subtyp || "").replace(/[^0-9]/g, "")[0] || "0");
     const farbe = typeColor(typ);
+    const tierKey = (p.subtyp || "").substring(0, 3).toLowerCase();
+    const tierImg = tierKey ? `https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${tierKey}.jpg` : "";
     return `
       <button class="tool-card--link" data-route="${p.route}" style="display:block;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-left:4px solid ${farbe};border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;cursor:pointer;">
-        <div style="display:flex;align-items:baseline;gap:0.6rem;flex-wrap:wrap;margin-bottom:0.4rem;">
-          <h3 style="margin:0;font-size:1.1rem;color:var(--ink);">${p.name}</h3>
-          <span style="font-size:0.78rem;font-weight:700;color:${farbe};">${p.subtyp}</span>
-          ${p.jahre ? `<span style="font-size:0.78rem;color:var(--muted);">${p.jahre}</span>` : ""}
+        <div style="display:flex;gap:0.9rem;align-items:flex-start;">
+          ${tierImg ? `<span style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px ${farbe};margin-top:0.15rem;"><img src="${tierImg}" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(tierKey)};left:${tierAvatarLeft(tierKey)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" /></span>` : ""}
+          <div style="flex:1;min-width:0;">
+            <div style="display:flex;align-items:baseline;gap:0.6rem;flex-wrap:wrap;margin-bottom:0.4rem;">
+              <h3 style="margin:0;font-size:1.1rem;color:var(--ink);">${p.name}</h3>
+              <span style="font-size:0.78rem;font-weight:700;color:${farbe};">${p.subtyp}</span>
+              ${p.jahre ? `<span style="font-size:0.78rem;color:var(--muted);">${p.jahre}</span>` : ""}
+            </div>
+            <p style="margin:0 0 0.5rem;font-size:0.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;">${p.krankheit}</p>
+            <p style="margin:0;font-size:0.9rem;color:var(--muted);">${p.teaser}</p>
+          </div>
         </div>
-        <p style="margin:0 0 0.5rem;font-size:0.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;">${p.krankheit}</p>
-        <p style="margin:0;font-size:0.9rem;color:var(--muted);">${p.teaser}</p>
       </button>
     `;
   }).join("");
@@ -39574,6 +39587,180 @@ function charlesDarwinKrankheitsportraetPage() {
         {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SE5w6)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se5", label:"Subtype Profile SE5"},
+      ])}
+    </div>
+  `);
+}
+
+function winstonChurchillKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-winston-churchill-portrait.jpg" alt="Winston Churchill – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Winston Churchill</p>
+        <p class="krim-portrait-typ">SE8w9 · Self-Preservation Type 8 with Nine-wing · 1874–1965</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Orangutan</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Animal correspondence: Orangutan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Winston Churchill</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-winston-churchill">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and type structure in general.
+        This page deals exclusively with two chapters that are mentioned there only in
+        passing: his lifelong, recurring depression, which he himself called "the black dog,"
+        and a severe stroke in June 1953, which he kept concealed as Prime Minister for weeks
+        from the public, the press, and much of his own cabinet.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Churchill</strong> is classified as the <strong>Self-Preservation Eight with
+        Nine-wing</strong> – the same subtype as
+        <a href="javascript:void(0)" data-route="beruehmte-golda-meir">Golda Meir</a>
+        in this Compass. Naranjo called the Self-Preservation Eight <em>Satisfacción</em>:
+        safety arises from the uncompromising defense of one's own territory and the refusal
+        to show weakness. The Nine-wing adds the stamina to hold a position for years without
+        prematurely triumphing or giving up – for Churchill, this extended to how he handled
+        his own health.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Confrontational, direct, appraising:</strong>
+        Churchill's gaze in speeches and film footage was always turned outward, ready for
+        resistance – the typical "orangutan gaze" of the Eight, which allows no weakness.</p>
+        <p class="vb-intro"><strong>b) Unshakeable outward, hidden inward:</strong>
+        Publicly, Churchill never showed doubt or fear – the depression that accompanied him
+        his whole life, and the stroke of 1953, he concealed with the same determination he
+        used against political opponents.</p>
+        <p class="vb-intro"><strong>c) Watchful against any sign of losing control:</strong>
+        Wherever a publicly visible weakness could have undermined his authority, Churchill
+        responded with immediate information control – typical Self-Preservation Eight: one's
+        own territory includes the image others hold of oneself.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) The office as territory to be defended:</strong>
+        Even with advancing age and visibly declining health, Churchill did not consider
+        resigning – 10 Downing Street was territory an SE8 does not vacate voluntarily.</p>
+        <p class="vb-intro"><strong>b) Appetite as a life principle:</strong>
+        Cigars, whisky, lavish food into old age – the Self-Preservation Eight secures
+        abundance and intensity, regardless of medical warnings.</p>
+        <p class="vb-intro"><strong>c) Control over his own narrative:</strong>
+        With the help of press baron Lord Beaverbrook and loyal doctors, Churchill deliberately
+        steered what became public about his health – the Eight decides for herself which
+        image of her reaches the world.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Persisting despite visible decline:</strong>
+        After the stroke in June 1953, Churchill's left side was paralyzed for days and his
+        speech impaired – yet he was leading the country again within weeks, as if nothing had
+        happened.</p>
+        <p class="vb-intro"><strong>b) Endurance instead of haste, thanks to the Nine-wing:</strong>
+        Where an SE8w7 might have pushed impatiently for a quick recovery, Churchill took time
+        to recuperate – in secrecy, but without relinquishing his position.</p>
+        <p class="vb-intro"><strong>c) Loyal complicity as a shield:</strong>
+        Cabinet members, doctors, and journalists who knew the severity of the stroke kept it
+        uniformly quiet – a network that defended Churchill's territory without his needing to
+        actively enforce it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Appearing unassailable even in weakness:</strong>
+        The public remained largely unaware of the stroke during his lifetime – Churchill
+        appeared, until the end, as the rock he wanted to be.</p>
+        <p class="vb-intro"><strong>b) Respect earned through demonstrated resilience:</strong>
+        Precisely because he showed no weakness, the myth of his unshakeability grew – an
+        effect the SE8 cultivates, consciously or not.</p>
+        <p class="vb-intro"><strong>c) An image that still resonates today:</strong>
+        Only decades after his death did the full extent of his health crises become publicly
+        known – evidence of how completely the information control had worked.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Uncompromising self-expenditure:</strong>
+        Churchill worked, smoked, and drank into old age with the same intensity as in his
+        youth – the SE8 knows little moderation as long as her own strength holds.</p>
+        <p class="vb-intro"><strong>b) The black dog as counterpoint:</strong>
+        His recurring depression stood in sharp contrast to the public facade – an inner
+        exhaustion he kept almost entirely private his whole life.</p>
+        <p class="vb-intro"><strong>c) Control at the cost of the body:</strong>
+        The will to master his own weakness rather than yield to it took its toll – multiple
+        strokes and increasing physical frailty marked his final years.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) The black dog, a lifelong companion:</strong>
+        Churchill suffered recurring severe depressive episodes he himself called "the black
+        dog." He rarely spoke of it openly – a rare admission of weakness from a man who never
+        showed one publicly.</p>
+        <p class="vb-intro"><strong>b) A concealed stroke while in office:</strong>
+        On June 23, 1953, Churchill suffered a severe stroke during a dinner at 10 Downing
+        Street. His cabinet was only partially informed, and the public was told he was
+        suffering from "exhaustion." He withdrew for weeks to recover, without his office or
+        authority ever being seriously questioned.</p>
+        <p class="vb-intro"><strong>c) Return to office and public life as proof of strength:</strong>
+        In October 1953 – against his doctors' advice, but with visibly restored strength –
+        Churchill delivered a party conference speech that served as proof he remained fit to
+        govern. The Self-Preservation Eight demonstrates strength not through words but
+        through the sheer fact of continuing.</p>
+        <p class="vb-intro"><strong>d) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="beruehmte-golda-meir">Golda Meir</a> (SE8w9)
+        likewise led her country as Prime Minister while keeping a serious illness (lymphoma)
+        largely secret for years, without relinquishing her office. Both cases show the same
+        SE8 pattern: one's own position is defended like territory – illness is not a reason
+        to voluntarily vacate it, but information one controls oneself.</p>
+        <p class="vb-intro"><strong>e) Why the brain, of all places?</strong>
+        A stroke strikes exactly the organ that governs control, speech, and the capacity to
+        act – for a Self-Preservation Eight, whose entire identity rests on unbroken
+        self-assertion, hardly any organ failure is more threatening. That Churchill was
+        struck precisely where command and will originate, and that he concealed exactly this
+        loss of control more consistently than any other ailment of his life, reads as the
+        sharpest point of his entire life pattern: where the SE8 tolerates no weakness, the
+        stroke was the most radical attack on his own territory his body could inflict – and
+        he answered with the same weapon he had used his whole life: silence, persistence, no
+        surrender. This reading is explored in more depth in this Compass's Psychosomatics
+        Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Framing without determinism:</strong>
+        This does not mean the Self-Preservation Eight's pattern inevitably leads to strokes –
+        <strong>every person can develop any illness, regardless of subtype.</strong> What
+        Churchill's case can show is a pattern that stands out again and again in practice
+        wherever uncompromising defense of one's own invulnerability is present – one possible
+        explanation among many, not a verdict. The corresponding condition will be developed
+        step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Churchill</strong> embodies the Self-Preservation Eight with Nine-wing right
+        down into his own illness history: a lifelong refusal to show weakness, complete
+        control over his own public image, and a stroke he fought with the same unbending
+        will that made him a symbol of resistance in 1940. The orangutan who stayed on the
+        branch while the storm raged also held on when the storm raged inside his own body –
+        until almost no one knew.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9) – life's work"},
+        {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se8", label:"Subtype Profile SE8"},
       ])}
     </div>
   `);
@@ -60952,6 +61139,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
       "krankheitsportraets-marie-curie": marieCurieKrankheitsportraetPage,
       "krankheitsportraets-charles-darwin": charlesDarwinKrankheitsportraetPage,
+      "krankheitsportraets-winston-churchill": winstonChurchillKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

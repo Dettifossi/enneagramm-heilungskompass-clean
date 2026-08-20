@@ -23965,6 +23965,7 @@ const registerEntries = [
   { term: "Sigmund Freud Krankheitsporträt", route: "krankheitsportraets-sigmund-freud", description: "Portrait: SO6w5 · Sozialer Typ 6 · Kieferkrebs, rauchte trotz Diagnose weiter, ärztlich assistierter Tod" },
   { term: "Marie Curie Krankheitsporträt", route: "krankheitsportraets-marie-curie", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Strahlenbelastung, aplastische Anämie" },
   { term: "Charles Darwin Krankheitsporträt", route: "krankheitsportraets-charles-darwin", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · chronische Verdauungs- und Erschöpfungsbeschwerden" },
+  { term: "Winston Churchill Krankheitsporträt", route: "krankheitsportraets-winston-churchill", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Depression, verheimlichter Schlaganfall im Amt" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31386,6 +31387,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5", heading:"Sigmund Freud – Sozialer Typ 6", krankheit:"Mundhöhlen- und Kieferkrebs", teaser:"SO6w5 – Begründer der Psychoanalyse, 1856–1939. 1923 mit Kieferkrebs diagnostiziert, über 30 Operationen in 16 Jahren, rauchte trotz der Diagnose weiter Zigarren und lehnte lange wirksame Schmerzmittel ab, um geistig klar zu bleiben. Starb 1939 im Londoner Exil durch ärztlich assistierten Tod." , land:"Österreich", gender:"m", jahre:"1856–1939"},
   { route:"krankheitsportraets-marie-curie", name:"Marie Curie", subtyp:"SE5w6", heading:"Marie Curie – Selbsterhaltender Typ 5", krankheit:"Aplastische Anämie durch chronische Strahlenbelastung", teaser:"SE5w6 – Physikerin und Chemikerin, 1867–1934. Jahrzehntelange, ungeschützte Arbeit mit radioaktiven Stoffen, Radiumproben in der Kitteltasche, kontaminierte Notizbücher bis heute radioaktiv. Starb 1934 an aplastischer Anämie als direkte Folge der Strahlenbelastung, deren Gefahr sie selbst mit erforscht hatte." , land:"Polen/Frankreich", gender:"f", jahre:"1867–1934"},
   { route:"krankheitsportraets-charles-darwin", name:"Charles Darwin", subtyp:"SE5w6", heading:"Charles Darwin – Selbsterhaltender Typ 5", krankheit:"Chronische, nie eindeutig diagnostizierte Verdauungs- und Erschöpfungsbeschwerden", teaser:"SE5w6 – Naturforscher und Begründer der Evolutionstheorie, 1809–1882. Fast vierzig Jahre lang Übelkeit, Erbrechen, Herzklopfen und Erschöpfung, nie eindeutig diagnostiziert. Diskutierte Ursachen reichen von der Chagas-Krankheit bis zu psychosomatischer Genese durch radikalen Rückzug von der Außenwelt." , land:"Vereinigtes Königreich", gender:"m", jahre:"1809–1882"},
+  { route:"krankheitsportraets-winston-churchill", name:"Winston Churchill", subtyp:"SE8w9", heading:"Winston Churchill – Selbsterhaltender Typ 8", krankheit:"Lebenslange Depression („the black dog“) und verheimlichter Schlaganfall im Amt", teaser:"SE8w9 – Britischer Staatsmann, Premierminister 1940–1945 & 1951–1955, 1874–1965. Erlitt 1953 im Amt einen schweren Schlaganfall, den er wochenlang vor Öffentlichkeit und weiten Teilen des Kabinetts verbarg, und litt lebenslang an wiederkehrender Depression." , land:"Vereinigtes Königreich", gender:"m", jahre:"1874–1965"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -49740,10 +49742,13 @@ function goldaMeirPortraitPage() {
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
         </blockquote>
 
+        <p class="vb-intro">Bereits seit den 1960er-Jahren lebte Meir mit einer Lymphdr\u00fcsenkrebs-Diagnose, die sie \u00fcber ihre gesamte Amtszeit als Premierministerin weitgehend geheim hielt \u2013 eine Parallele zu Winston Churchill (ebenfalls SE8w9), dessen eigener verheimlichter Schlaganfall im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">Krankheitsportr\u00e4t</a> gedeutet wird.</p>
+
         ${relatedLinks([
           {route:"beruehmte-toni-morrison", label:"Portr\xe4t: Toni Morrison (SE8w9)"},
           {route:"beruehmte-umberto-eco", label:"Portr\xe4t: Umberto Eco (SE8w7)"},
           {route:"astrologie-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+          {route:"krankheitsportraets-winston-churchill", label:"Krankheitsportr\u00e4t: Winston Churchill (SE8w9)"},
         ])}
       </div>
     </div>
@@ -49879,10 +49884,12 @@ function winstonChurchillPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      <p class="vb-intro">Der 1953 im Amt erlittene, wochenlang verheimlichte Schlaganfall und die lebenslange Depression \u2013 &bdquo;the black dog&ldquo; \u2013 werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">Krankheitsportr\u00e4t zu Churchill</a> gedeutet.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se8", label:"SE8 \u2013 Der Orang-Utan: Subtyp-Profil"},
         {route:"beruehmte-golda-meir", label:"Portr\u00e4t: Golda Meir (SE8w9)"},
+        {route:"krankheitsportraets-winston-churchill", label:"Krankheitsportr\u00e4t: Winston Churchill (SE8w9)"},
       ])}
     </div>
   `);
@@ -65484,15 +65491,22 @@ function krankheitsportraetsPage() {
   const cards = items.map(p => {
     const typ = parseInt((p.subtyp || "").replace(/[^0-9]/g, "")[0] || "0");
     const farbe = typeColor(typ);
+    const tierKey = (p.subtyp || "").substring(0, 3).toLowerCase();
+    const tierImg = tierKey ? `https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${tierKey}.jpg` : "";
     return `
       <button class="tool-card--link" data-route="${p.route}" style="display:block;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-left:4px solid ${farbe};border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;cursor:pointer;">
-        <div style="display:flex;align-items:baseline;gap:0.6rem;flex-wrap:wrap;margin-bottom:0.4rem;">
-          <h3 style="margin:0;font-size:1.1rem;color:var(--ink);">${p.name}</h3>
-          <span style="font-size:0.78rem;font-weight:700;color:${farbe};">${p.subtyp}</span>
-          ${p.jahre ? `<span style="font-size:0.78rem;color:var(--muted);">${p.jahre}</span>` : ""}
+        <div style="display:flex;gap:0.9rem;align-items:flex-start;">
+          ${tierImg ? `<span style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px ${farbe};margin-top:0.15rem;"><img src="${tierImg}" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(tierKey)};left:${tierAvatarLeft(tierKey)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" /></span>` : ""}
+          <div style="flex:1;min-width:0;">
+            <div style="display:flex;align-items:baseline;gap:0.6rem;flex-wrap:wrap;margin-bottom:0.4rem;">
+              <h3 style="margin:0;font-size:1.1rem;color:var(--ink);">${p.name}</h3>
+              <span style="font-size:0.78rem;font-weight:700;color:${farbe};">${p.subtyp}</span>
+              ${p.jahre ? `<span style="font-size:0.78rem;color:var(--muted);">${p.jahre}</span>` : ""}
+            </div>
+            <p style="margin:0 0 0.5rem;font-size:0.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;">${p.krankheit}</p>
+            <p style="margin:0;font-size:0.9rem;color:var(--muted);">${p.teaser}</p>
+          </div>
         </div>
-        <p style="margin:0 0 0.5rem;font-size:0.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;">${p.krankheit}</p>
-        <p style="margin:0;font-size:0.9rem;color:var(--muted);">${p.teaser}</p>
       </button>
     `;
   }).join("");
@@ -66364,6 +66378,190 @@ function charlesDarwinKrankheitsportraetPage() {
         {route:"krankheitsportraets-marie-curie", label:"Krankheitsporträt: Marie Curie (SE5w6)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se5", label:"Subtyp-Profil SE5"},
+      ])}
+    </div>
+  `);
+}
+
+function winstonChurchillKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-winston-churchill-portrait.jpg" alt="Winston Churchill – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Winston Churchill</p>
+        <p class="krim-portrait-typ">SE8w9 · Selbsterhaltender Typ 8 mit Neunerflügel · 1874–1965</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Orang-Utan</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Tierentsprechung: Orang-Utan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Winston Churchill</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-winston-churchill">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur
+        im Allgemeinen. Hier geht es ausschließlich um zwei Kapitel, die dort nur nebenbei
+        erwähnt werden: seine lebenslange, wiederkehrende Depression, die er selbst
+        &bdquo;the black dog&ldquo; nannte, und einen schweren Schlaganfall im Juni 1953, den
+        er im Amt des Premierministers wochenlang vor Öffentlichkeit, Presse und weiten Teilen
+        des eigenen Kabinetts verbergen ließ.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Churchill</strong> ist der <strong>selbsterhaltenden Acht mit Neunerflügel</strong>
+        zugeordnet – demselben Subtyp wie <a href="javascript:void(0)" data-route="beruehmte-golda-meir">Golda Meir</a>
+        in diesem Kompass. Naranjo nannte die selbsterhaltende Acht <em>Satisfacción</em>:
+        Sicherheit entsteht durch kompromisslose Verteidigung des eigenen Territoriums und die
+        Weigerung, Schwäche zu zeigen. Der Neunerflügel bringt die Ausdauer hinzu, eine
+        Position über Jahre zu halten, ohne vorschnell zu triumphieren oder aufzugeben – bei
+        Churchill auch im Umgang mit der eigenen Gesundheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Konfrontativ, direkt, prüfend:</strong>
+        Churchills Blick in Reden und Bildmaterial war stets nach außen gerichtet, bereit zum
+        Widerstand – der typische &bdquo;Orang-Utan-Blick&ldquo; der Acht, der keine Schwäche
+        zulässt.</p>
+        <p class="vb-intro"><strong>b) Nach außen unerschütterlich, nach innen verborgen:</strong>
+        Öffentlich zeigte Churchill nie Zweifel oder Angst – die Depression, die ihn
+        lebenslang begleitete, und den Schlaganfall von 1953 verbarg er mit derselben
+        Entschlossenheit, mit der er politische Gegner bekämpfte.</p>
+        <p class="vb-intro"><strong>c) Wachsam gegenüber jedem Anzeichen von Kontrollverlust:</strong>
+        Wo eine öffentlich sichtbare Schwäche seine Autorität hätte untergraben können,
+        reagierte Churchill mit sofortiger Informationskontrolle – typisch selbsterhaltende
+        Acht: das eigene Territorium umfasst auch das Bild, das andere von einem haben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Das Amt als Territorium, das verteidigt wird:</strong>
+        Auch mit fortschreitendem Alter und sichtbar nachlassender Gesundheit dachte Churchill
+        nicht an Rücktritt – die Downing Street war Territorium, das eine SE8 nicht freiwillig
+        räumt.</p>
+        <p class="vb-intro"><strong>b) Appetit als Lebensprinzip:</strong>
+        Zigarren, Whisky, opulentes Essen bis ins hohe Alter – die selbsterhaltende Acht
+        sichert sich Fülle und Intensität, ungeachtet medizinischer Warnungen.</p>
+        <p class="vb-intro"><strong>c) Kontrolle über die eigene Erzählung:</strong>
+        Mit Hilfe des Pressemagnaten Lord Beaverbrook und loyaler Ärzte steuerte Churchill
+        gezielt, was über seinen Gesundheitszustand öffentlich wurde – die Acht bestimmt
+        selbst, welches Bild von ihr in die Welt geht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Durchhalten trotz sichtbaren Verfalls:</strong>
+        Nach dem Schlaganfall im Juni 1953 war Churchills linke Körperseite tagelang gelähmt,
+        seine Sprache beeinträchtigt – dennoch führte er das Land wenige Wochen später wieder,
+        als sei nichts geschehen.</p>
+        <p class="vb-intro"><strong>b) Ausdauer statt Eile, dank Neunerflügel:</strong>
+        Wo eine SE8w7 vielleicht ungeduldig auf schnelle Genesung gedrängt hätte, ließ sich
+        Churchill Zeit für seine Erholung – im Verborgenen, aber ohne die Position
+        aufzugeben.</p>
+        <p class="vb-intro"><strong>c) Loyale Komplizenschaft als Schutzschild:</strong>
+        Kabinettsmitglieder, Ärzte und Journalisten, die von der Schwere des Schlaganfalls
+        wussten, hielten geschlossen dicht – ein Netzwerk, das Churchills Territorium mit
+        verteidigte, ohne dass er es aktiv erzwingen musste.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Unangreifbar wirkend, selbst in der Schwäche:</strong>
+        Der Öffentlichkeit blieb der Schlaganfall zu Lebzeiten weitgehend unbekannt – Churchill
+        erschien bis zuletzt als der Fels, der er sein wollte.</p>
+        <p class="vb-intro"><strong>b) Respekt durch demonstrierte Unbeugsamkeit:</strong>
+        Gerade weil er keine Schwäche zeigte, wuchs der Mythos um seine Unerschütterlichkeit –
+        ein Effekt, den die SE8 bewusst oder unbewusst kultiviert.</p>
+        <p class="vb-intro"><strong>c) Ein Bild, das bis heute nachwirkt:</strong>
+        Erst Jahrzehnte nach seinem Tod wurde das volle Ausmaß seiner gesundheitlichen Krisen
+        öffentlich bekannt – ein Beleg dafür, wie vollständig die Informationskontrolle
+        funktioniert hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kompromisslose Verausgabung:</strong>
+        Churchill arbeitete, rauchte und trank bis ins hohe Alter mit derselben Intensität wie
+        in jungen Jahren – die SE8 kennt kaum Mäßigung, solange die eigene Kraft trägt.</p>
+        <p class="vb-intro"><strong>b) Der schwarze Hund als Gegenpol:</strong>
+        Die wiederkehrende Depression stand in scharfem Kontrast zur öffentlichen Fassade –
+        eine innere Erschöpfung, die er zeitlebens fast vollständig privat hielt.</p>
+        <p class="vb-intro"><strong>c) Kontrolle bis zur Erschöpfung des Körpers:</strong>
+        Der Wille, die eigene Schwäche zu beherrschen statt ihr nachzugeben, forderte seinen
+        Tribut – mehrere Schlaganfälle und zunehmende körperliche Gebrechlichkeit prägten
+        seine letzten Lebensjahre.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Der schwarze Hund, ein Leben lang:</strong>
+        Churchill litt wiederkehrend an schweren depressiven Episoden, die er selbst
+        &bdquo;the black dog&ldquo; nannte. Er sprach nur selten offen darüber – ein seltenes
+        Eingeständnis von Schwäche bei einem Mann, der öffentlich nie eine zeigte.</p>
+        <p class="vb-intro"><strong>b) Ein verborgener Schlaganfall im Amt:</strong>
+        Am 23. Juni 1953 erlitt Churchill während eines Abendessens in der Downing Street
+        einen schweren Schlaganfall. Sein Kabinett wurde nur teilweise informiert, der
+        Öffentlichkeit gegenüber sprach man von &bdquo;Erschöpfung&ldquo;. Er zog sich für
+        Wochen zur Erholung zurück, ohne dass sein Amt oder seine Autorität ernsthaft in Frage
+        gestellt wurden.</p>
+        <p class="vb-intro"><strong>c) Rückkehr in Amt und Öffentlichkeit als Beweis der Stärke:</strong>
+        Im Oktober 1953 hielt Churchill – gegen den Rat seiner Ärzte, aber mit sichtbar
+        wiederhergestellter Kraft – eine Parteikonferenzrede, die als Beweis diente, dass er
+        weiterhin regierungsfähig war. Die selbsterhaltende Acht demonstriert Stärke nicht
+        durch Worte, sondern durch die schiere Tatsache des Weitermachens.</p>
+        <p class="vb-intro"><strong>d) Eine Parallele im gleichen Subtyp:</strong>
+        Auch <a href="javascript:void(0)" data-route="beruehmte-golda-meir">Golda Meir</a>
+        (SE8w9) führte ihr Land als Premierministerin, während sie eine schwere Krankheit
+        (Lymphdrüsenkrebs) über Jahre weitgehend geheim hielt und ihr Amt nicht aufgab. Bei
+        beiden zeigt sich dasselbe SE8-Muster: Die eigene Position wird verteidigt wie
+        Territorium – Krankheit ist kein Grund, sie freiwillig zu räumen, sondern eine
+        Information, die man selbst kontrolliert.</p>
+        <p class="vb-intro"><strong>e) Warum ausgerechnet das Gehirn?</strong>
+        Ein Schlaganfall trifft genau jenes Organ, das über Kontrolle, Sprache und
+        Handlungsfähigkeit entscheidet – für eine selbsterhaltende Acht, deren gesamte
+        Identität auf ungebrochener Selbstbehauptung beruht, ist kaum ein Organversagen
+        bedrohlicher denkbar. Dass Churchill ausgerechnet dort getroffen wurde, wo Befehl und
+        Wille entstehen, und dass er genau diesen Kontrollverlust am konsequentesten von allen
+        Beschwerden seines Lebens verbarg, liest sich als Zuspitzung seines gesamten
+        Lebensmusters: Wo die SE8 keine Schwäche duldet, war der Schlaganfall der radikalste
+        Angriff auf das eigene Territorium, den sein Körper ihm zufügen konnte – und er
+        antwortete mit derselben Waffe, die er sein Leben lang eingesetzt hatte: Verschweigen,
+        Weitermachen, keine Kapitulation. Diese Deutung wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Acht zwangsläufig zu
+        Schlaganfällen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
+        vom Subtyp.</strong> Was sich an Churchills Fall zeigen lässt, ist ein Muster, das bei
+        kompromissloser Verteidigung der eigenen Unangreifbarkeit in der Praxis immer wieder
+        auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Churchill</strong> verkörpert die selbsterhaltende Acht mit Neunerflügel bis
+        in die eigene Krankheitsgeschichte hinein: eine lebenslange Weigerung, Schwäche zu
+        zeigen, eine vollständige Kontrolle über das eigene öffentliche Bild und ein
+        Schlaganfall, den er mit derselben Unbeugsamkeit bekämpfte, die ihn 1940 zum Symbol
+        des Widerstands gemacht hatte. Der Orang-Utan, der auf dem Ast blieb, während der
+        Sturm tobte, hielt auch fest, als der Sturm im eigenen Körper tobte – bis fast
+        niemand davon erfuhr.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-winston-churchill", label:"Porträt: Winston Churchill (SE8w9) – Lebenswerk"},
+        {route:"beruehmte-golda-meir", label:"Porträt: Golda Meir (SE8w9)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se8", label:"Subtyp-Profil SE8"},
       ])}
     </div>
   `);
@@ -95362,6 +95560,7 @@ function render() {
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
       "krankheitsportraets-marie-curie": marieCurieKrankheitsportraetPage,
       "krankheitsportraets-charles-darwin": charlesDarwinKrankheitsportraetPage,
+      "krankheitsportraets-winston-churchill": winstonChurchillKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
