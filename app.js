@@ -23967,6 +23967,7 @@ const registerEntries = [
   { term: "Charles Darwin Krankheitsporträt", route: "krankheitsportraets-charles-darwin", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · chronische Verdauungs- und Erschöpfungsbeschwerden" },
   { term: "Winston Churchill Krankheitsporträt", route: "krankheitsportraets-winston-churchill", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Depression, verheimlichter Schlaganfall im Amt" },
   { term: "Gustav Mahler Krankheitsporträt", route: "krankheitsportraets-gustav-mahler", description: "Portrait: SO4w5 · Sozialer Typ 4 · Herzklappenentzündung, verarbeitet im Spätwerk" },
+  { term: "Ruth Bader Ginsburg Krankheitsporträt", route: "krankheitsportraets-ruth-bader-ginsburg", description: "Portrait: SX8w9 · Sexueller Typ 8 · fünf Krebserkrankungen über zwei Jahrzehnte" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31390,6 +31391,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-charles-darwin", name:"Charles Darwin", subtyp:"SE5w6", heading:"Charles Darwin – Selbsterhaltender Typ 5", krankheit:"Chronische, nie eindeutig diagnostizierte Verdauungs- und Erschöpfungsbeschwerden", teaser:"SE5w6 – Naturforscher und Begründer der Evolutionstheorie, 1809–1882. Fast vierzig Jahre lang Übelkeit, Erbrechen, Herzklopfen und Erschöpfung, nie eindeutig diagnostiziert. Diskutierte Ursachen reichen von der Chagas-Krankheit bis zu psychosomatischer Genese durch radikalen Rückzug von der Außenwelt." , land:"Vereinigtes Königreich", gender:"m", jahre:"1809–1882"},
   { route:"krankheitsportraets-winston-churchill", name:"Winston Churchill", subtyp:"SE8w9", heading:"Winston Churchill – Selbsterhaltender Typ 8", krankheit:"Lebenslange Depression („the black dog“) und verheimlichter Schlaganfall im Amt", teaser:"SE8w9 – Britischer Staatsmann, Premierminister 1940–1945 & 1951–1955, 1874–1965. Erlitt 1953 im Amt einen schweren Schlaganfall, den er wochenlang vor Öffentlichkeit und weiten Teilen des Kabinetts verbarg, und litt lebenslang an wiederkehrender Depression." , land:"Vereinigtes Königreich", gender:"m", jahre:"1874–1965"},
   { route:"krankheitsportraets-gustav-mahler", name:"Gustav Mahler", subtyp:"SO4w5", heading:"Gustav Mahler – Sozialer Typ 4", krankheit:"Subakute bakterielle Endokarditis (Herzklappenentzündung)", teaser:"SO4w5 – österreichischer Komponist und Dirigent, 1860–1911. 1907 mit einer schweren Herzerkrankung diagnostiziert, im selben Jahr der Tod seiner Tochter und der Verlust seiner Position an der Wiener Hofoper. Verarbeitete die Diagnose unmittelbar in seinem Spätwerk, darunter Das Lied von der Erde und die Neunte Sinfonie." , land:"Österreich", gender:"m", jahre:"1860–1911"},
+  { route:"krankheitsportraets-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", subtyp:"SX8w9", heading:"Ruth Bader Ginsburg – Sexueller Typ 8", krankheit:"Fünf Krebserkrankungen über zwei Jahrzehnte", teaser:"SX8w9 – US-Bundesrichterin am Supreme Court, 1933–2020. Überstand von 1999 bis 2019/2020 fünf verschiedene Krebserkrankungen (Darm, Bauchspeicheldrüse zweimal, Lunge), ohne ihr Amt freiwillig zu räumen. Starb 2020 im Amt, wenige Wochen vor der Präsidentschaftswahl." , land:"USA", gender:"f", jahre:"1933–2020"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -50986,10 +50988,12 @@ function ruthBaderGinsburgPortraitPage() {
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
         </blockquote>
 
+        <p class="vb-intro">Die fünf Krebserkrankungen über zwei Jahrzehnte, die sie nie zum freiwilligen Rücktritt bewogen, werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-ruth-bader-ginsburg">Krankheitsporträt zu Ginsburg</a> gedeutet.</p>
         ${relatedLinks([
           {route:"beruehmte-genesis-p-orridge", label:"Portr\xe4t: Genesis P-Orridge (SX8w9)"},
           {route:"beruehmte-donald-trump", label:"Portr\xe4t: Donald J. Trump (SX8w7)"},
           {route:"beruehmte-jamaica-kincaid", label:"Portr\xe4t: Jamaica Kincaid (SO8w9)"},
+          {route:"krankheitsportraets-ruth-bader-ginsburg", label:"Krankheitsporträt: Ruth Bader Ginsburg (SX8w9)"},
         ])}
       </div>
     </div>
@@ -66864,6 +66868,189 @@ function gustavMahlerKrankheitsportraetPage() {
         {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so4", label:"Subtyp-Profil SO4"},
+      ])}
+    </div>
+  `);
+}
+
+function ruthBaderGinsburgKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ruth-bader-ginsburg-portrait.jpg" alt="Ruth Bader Ginsburg – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ruth Bader Ginsburg</p>
+        <p class="krim-portrait-typ">SX8w9 · Sexueller Typ 8 mit Neunerflügel · 1933–2020</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Krokodil</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx8.jpg" alt="Tierentsprechung: Krokodil" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX8")};left:${tierAvatarLeft("SX8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Ruth Bader Ginsburg</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-ruth-bader-ginsburg">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihr Lebenswerk und ihre Typstruktur im
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur nebenbei erwähnt
+        wird: Über zwei Jahrzehnte hinweg überstand Ginsburg fünf verschiedene
+        Krebserkrankungen – Darmkrebs 1999, Bauchspeicheldrüsenkrebs 2009, Lungenkrebs 2018 und
+        erneut Bauchspeicheldrüsenkrebs 2019/2020 – ohne ihr Amt am Supreme Court auch nur einen
+        Tag freiwillig zu räumen. Sie starb 2020 im Amt, wenige Wochen vor einer
+        Präsidentschaftswahl, deren Ausgang über ihre Nachfolge entscheiden würde.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Ginsburg</strong> ist der <strong>sexuellen Acht mit Neunerflügel</strong>
+        zugeordnet. Naranjo nannte die sexuelle Acht <em>Besitz</em>: Sie will nicht nur
+        siegen, sondern die vollständige, unverhandelbare Verbindung zu dem, wofür sie steht.
+        Der Neunerflügel bringt Geduld und Ausdauer hinzu – die SX8w9 schlägt nicht sofort zu
+        wie die SX8w7, sie wartet, bis der Moment vollständig ist, und hält dann fest, was sie
+        einmal erreicht hat, mit einer Beharrlichkeit, die auch von schwerer Krankheit kaum zu
+        erschüttern war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Präzise, unbeeindruckt von Gegenwehr:</strong>
+        Ginsburgs Blick richtete sich auf das Wesentliche, ohne sich von Lärm oder Widerstand
+        ablenken zu lassen – der Krokodilblick, der geduldig wartet und dann mit absoluter
+        Präzision zuschlägt.</p>
+        <p class="vb-intro"><strong>b) Nach außen unerschütterlich, nach innen kämpfend:</strong>
+        Über Jahre hinweg saß Ginsburg im Gerichtssaal, kurz nach Chemotherapie-Sitzungen,
+        ohne dass ihre Erkrankung öffentlich sichtbar wurde. Ihr Blick verriet nichts von dem,
+        was ihr Körper gerade durchlief.</p>
+        <p class="vb-intro"><strong>c) Wachsam gegenüber jedem Anzeichen, das Amt zu verlieren:</strong>
+        Politischer Druck, freiwillig zurückzutreten, um einer demokratischen Nachfolge Platz
+        zu machen, prallte an ihr ab – typisch sexuelle Acht: Das eigene Territorium wird
+        nicht aus strategischer Vorsicht geräumt, sondern verteidigt, bis es nicht mehr geht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Fünf Krebserkrankungen, ein Amt:</strong>
+        Darmkrebs, zweimal Bauchspeicheldrüsenkrebs, Lungenkrebs – über zwei Jahrzehnte hinweg
+        kehrte die Krankheit in immer neuer Form zurück. Ginsburg reagierte jedes Mal mit
+        Behandlung, Genesung und Rückkehr ins Amt, nie mit Rückzug.</p>
+        <p class="vb-intro"><strong>b) Körperliches Training als Statement:</strong>
+        Ginsburgs öffentlich bekanntes, intensives Fitnessprogramm mit Liegestützen und
+        Planks bis ins hohe Alter wurde zum Symbol ihrer physischen Unbeugsamkeit – ein
+        bewusst kultiviertes Gegenbild zur Zerbrechlichkeit, die man ihr aufgrund von Alter
+        und Krankheit unterstellte.</p>
+        <p class="vb-intro"><strong>c) Arbeit ohne Unterbrechung:</strong>
+        Selbst nach Operationen und während laufender Chemotherapien verpasste Ginsburg kaum
+        eine mündliche Verhandlung – Krankheit wurde als Umstand behandelt, der die Arbeit
+        begleitet, nicht als Grund, sie zu unterbrechen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Weigerung, das Feld zu räumen:</strong>
+        Trotz jahrelangen politischen Drucks, während der Obama-Regierung zurückzutreten, um
+        eine demokratische Nachfolge zu sichern, blieb Ginsburg im Amt – eine Entscheidung,
+        die nach ihrem Tod 2020 zur umstrittensten ihrer Karriere wurde.</p>
+        <p class="vb-intro"><strong>b) Ausdauer statt Eile, dank Neunerflügel:</strong>
+        Wo eine SX8w7 vielleicht impulsiv reagiert hätte, verarbeitete Ginsburg jede neue
+        Diagnose mit derselben geduldigen Beharrlichkeit, mit der sie jahrzehntelang auf die
+        richtigen Rechtsfälle gewartet hatte.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Zurückhaltung, private Konsequenz:</strong>
+        Ginsburg sprach öffentlich selten ausführlich über ihre Erkrankungen – sie ließ ihre
+        Anwesenheit im Amt selbst sprechen, statt Mitleid oder Aufmerksamkeit für ihren
+        Gesundheitszustand zu suchen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Unerschütterlich wirkend, trotz fünffacher Krankheit:</strong>
+        Für die Öffentlichkeit blieb Ginsburg bis kurz vor ihrem Tod die unbeugsame &bdquo;Notorious
+        RBG&ldquo; – ein Bild, das ihre eigene Zurückhaltung über die Schwere ihrer Erkrankungen
+        maßgeblich mit aufgebaut hatte.</p>
+        <p class="vb-intro"><strong>b) Respekt durch demonstrierte Beständigkeit:</strong>
+        Gerade weil sie trotz wiederholter Krebsdiagnosen weiterarbeitete, wuchs der Mythos
+        um ihre Unerschütterlichkeit – ein Effekt, den die SX8 durch reines Durchhalten
+        erzeugt, ohne ihn aktiv zu inszenieren.</p>
+        <p class="vb-intro"><strong>c) Eine Nachfolge, die zur nationalen Frage wurde:</strong>
+        Ihr Tod wenige Wochen vor der Wahl 2020 löste eine der umstrittensten
+        Richterbesetzungen der US-Geschichte aus – ein Beleg dafür, wie sehr ihr Verbleib im
+        Amt bis zuletzt politisches Gewicht trug.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kompromisslose Verausgabung für die Sache:</strong>
+        Ginsburg arbeitete bis in ihre letzten Lebenswochen an Urteilsbegründungen – die SX8
+        kennt kaum Schonung, solange die eigene Kraft für die Sache reicht, für die sie steht.</p>
+        <p class="vb-intro"><strong>b) Trennung von Person und Amt kaum möglich:</strong>
+        Ihr Selbstverständnis war untrennbar mit ihrer Rolle am Gericht verbunden – ein
+        Rückzug hätte sich angefühlt wie die Aufgabe eines Teils ihrer selbst.</p>
+        <p class="vb-intro"><strong>c) Kontrolle über den eigenen Körper durch Disziplin:</strong>
+        Das strenge Fitnessprogramm war auch ein Versuch, die Kontrolle zu behalten, die die
+        Krankheit ihr wiederholt zu entreißen drohte – Disziplin als Antwort auf körperliche
+        Verwundbarkeit.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Vierteljahrhundert im Ausnahmezustand:</strong>
+        1999 Darmkrebs, 2009 Bauchspeicheldrüsenkrebs, 2018 Lungenkrebs, 2019 erneut
+        Bauchspeicheldrüsenkrebs – Ginsburg lebte mehr als zwanzig Jahre lang mit der
+        wiederkehrenden Gewissheit, dass ihr Körper sie erneut angreifen könnte. Jedes Mal
+        kehrte sie nach Behandlung ins Amt zurück.</p>
+        <p class="vb-intro"><strong>b) Öffentliche Untertreibung, private Realität:</strong>
+        Ginsburgs Büro kommunizierte neue Diagnosen meist knapp und sachlich, oft erst nach
+        erfolgter Behandlung. Diese kontrollierte Informationspolitik ähnelt dem Muster, das
+        sich auch bei anderen Machtträgern findet, die ihre Position nicht durch den Anschein
+        von Schwäche gefährden wollen.</p>
+        <p class="vb-intro"><strong>c) Das Amt als Territorium, das nicht verhandelbar ist:</strong>
+        Selbst als sich 2019 und 2020 ihr Gesundheitszustand sichtbar verschlechterte, lehnte
+        Ginsburg jeden Gedanken an einen Rücktritt ab. Für die sexuelle Acht ist das erreichte
+        Territorium – hier: der Sitz am höchsten Gericht der Vereinigten Staaten – etwas, das
+        man verteidigt, nicht freiwillig übergibt, solange noch Kraft dafür da ist.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet der wiederkehrende Kampf?</strong>
+        Fünf verschiedene Krebserkrankungen an fünf verschiedenen Organen lassen sich nicht auf
+        ein einzelnes Organsymbol zuspitzen wie bei anderen Krankheitsporträts dieses Kompasses
+        – ihr roter Faden liegt woanders: im Muster der wiederholten Invasion und Abwehr selbst.
+        Krebs ist medizinisch betrachtet eine Invasion des eigenen Körpers durch entartete,
+        körperfremd gewordene Zellen – eine Grenzverletzung des eigenen Territoriums von
+        innen. Für eine sexuelle Acht, deren gesamte Leidenschaft um Besitz, Grenzverteidigung
+        und die Weigerung kreist, etwas Erkämpftes wieder herzugeben, liegt es nahe, gerade in
+        dieser wiederholten körperlichen Grenzverletzung eine Zuspitzung des eigenen
+        Lebensmusters zu lesen: Ginsburg reagierte auf jede neue Diagnose nicht mit Rückzug,
+        sondern mit derselben Haltung, mit der sie ihr Amt gegen politischen Druck
+        verteidigte – Territorium wird nicht aufgegeben, gleich ob der Angriff von außen oder
+        von innen kommt. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Acht zwangsläufig zu Krebserkrankungen
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Ginsburgs Fall zeigen lässt, ist ein Muster, das bei
+        kompromissloser Verteidigung des eigenen Territoriums in der Praxis immer wieder
+        auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Ginsburg</strong> verkörpert die sexuelle Acht mit Neunerflügel bis in die
+        eigene Krankheitsgeschichte hinein: fünf Krebserkrankungen, fünf Rückkehrungen ins Amt,
+        und eine Weigerung, das eigene Territorium aufzugeben, die sich gegen politischen Druck
+        ebenso richtete wie gegen den eigenen, wiederholt erkrankten Körper. Das Krokodil, das
+        geduldig wartet und dann mit absoluter Präzision zuschlägt, verteidigte bis zuletzt
+        genau das eine Revier, das ihr am wichtigsten war – bis der Körper selbst keine
+        Verteidigung mehr zuließ.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-ruth-bader-ginsburg", label:"Porträt: Ruth Bader Ginsburg (SX8w9) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx8", label:"Subtyp-Profil SX8"},
       ])}
     </div>
   `);
@@ -95864,6 +96051,7 @@ function render() {
       "krankheitsportraets-charles-darwin": charlesDarwinKrankheitsportraetPage,
       "krankheitsportraets-winston-churchill": winstonChurchillKrankheitsportraetPage,
       "krankheitsportraets-gustav-mahler": gustavMahlerKrankheitsportraetPage,
+      "krankheitsportraets-ruth-bader-ginsburg": ruthBaderGinsburgKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
