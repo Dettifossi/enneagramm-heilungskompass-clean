@@ -4565,8 +4565,8 @@ export const werkRegister = [
     themes: ["Subtypen", "Charakterprofile", "Typbestimmung"],
     typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
     category: "enneagramm",
-    link: "https://www.verlagshausrathmer.com/buch.html?slug=die-27-persönlichkeiten-des-enneagramms",
-    bodUrl: "https://buchshop.bod.de/die-27-persönlichkeiten-des-enneagramms-detlef-rathmer-9783746046600",
+    link: "https://www.verlagshausrathmer.com/buch.html?slug=die-27-persoenlichkeiten-des-enneagramms",
+    bodUrl: "https://buchshop.bod.de/die-27-persoenlichkeiten-des-enneagramms-detlef-rathmer-9783746046600",
     status: "live",
   },
   {
@@ -4575,8 +4575,8 @@ export const werkRegister = [
     themes: ["Typbestimmung", "Spurensuche", "Selbsterkenntnis"],
     typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
     category: "enneagramm",
-    link: "https://www.verlagshausrathmer.com/buch.html?slug=der-code-deiner-persönlichkeit",
-    bodUrl: "https://buchshop.bod.de/der-code-deiner-persönlichkeit-detlef-rathmer-9783695192557",
+    link: "https://www.verlagshausrathmer.com/buch.html?slug=der-code-deiner-persoenlichkeit",
+    bodUrl: "https://buchshop.bod.de/der-code-deiner-persoenlichkeit-detlef-rathmer-9783695192557",
     status: "live",
   },
   {
@@ -4634,7 +4634,7 @@ export const werkRegister = [
     themes: ["F\xfchrung", "Enneagramm", "Entwicklung"],
     typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
     category: "enneagramm",
-    link: "https://www.verlagshausrathmer.com/buch.html?slug=führung-mit-fundament",
+    link: "https://www.verlagshausrathmer.com/buch.html?slug=fuehrung-mit-fundament",
     status: "live",
   },
 
@@ -4911,7 +4911,8 @@ export const werkRegister = [
     themes: ["Instinkte", "Beziehungen", "Entwicklung"],
     typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
     category: "persönliche-entwicklung",
-    link: "https://www.verlagshausrathmer.com/buch.html?slug=die-sprache-unserer-sexualität",
+    link: "https://www.verlagshausrathmer.com/buch.html?slug=die-sprache-unserer-sexualitaet",
+    bodUrl: "https://buchshop.bod.de/die-sprache-unserer-sexualitaet-detlef-rathmer-9783695158706",
     status: "live",
   },
   {

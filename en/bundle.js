@@ -49,6 +49,7 @@ let fbSignOut = null;
 
 
 const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/kompass/";
+const R2_CDN = "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/"; // Fallback für Buchcover, falls auf Cloudinary (noch) nicht vorhanden
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
@@ -6419,7 +6420,7 @@ function werkSection() {
       ? `<a class="deepen-link deepen-link--bod" href="${book.bodUrl}" target="_blank" rel="noopener">Buy at BoD →</a>`
       : "";
     const coverImg = `<img src="${CDN}assets/covers/${book.id}.jpg" alt="" loading="lazy"
-      onerror="this.parentElement.style.display='none'"
+      onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='${R2_CDN}assets/covers/${book.id}.jpg';}else{this.parentElement.style.display='none';}"
       style="width:60px;flex-shrink:0;border-radius:4px;object-fit:cover;align-self:flex-start;box-shadow:0 1px 4px rgba(0,0,0,.18);">`;
     return `
       <article class="werk-card" data-category="${book.category || ""}" style="display:flex;gap:.75rem;align-items:flex-start;">
@@ -54875,7 +54876,7 @@ function _psychosomatikBuecherHtml() {
       ? `<a class="deepen-link deepen-link--bod" href="${book.bodUrl}" target="_blank" rel="noopener">Buy at BoD →</a>`
       : "";
     const coverImg = `<img src="${CDN}assets/covers/${book.id}.jpg" alt="" loading="lazy"
-      onerror="this.parentElement.style.display='none'"
+      onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='${R2_CDN}assets/covers/${book.id}.jpg';}else{this.parentElement.style.display='none';}"
       style="width:60px;flex-shrink:0;border-radius:4px;object-fit:cover;align-self:flex-start;box-shadow:0 1px 4px rgba(0,0,0,.18);">`;
     return `
       <article class="werk-card" style="display:flex;gap:.75rem;align-items:flex-start;">
