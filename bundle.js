@@ -23964,6 +23964,7 @@ const registerEntries = [
   { term: "Molière", route: "krankheitsportraets-moliere", description: "Portrait: SO7w6 · Sozialer Typ 7 · Dramatiker, starb während der Aufführung von Der eingebildete Kranke" },
   { term: "Sigmund Freud Krankheitsporträt", route: "krankheitsportraets-sigmund-freud", description: "Portrait: SO6w5 · Sozialer Typ 6 · Kieferkrebs, rauchte trotz Diagnose weiter, ärztlich assistierter Tod" },
   { term: "Marie Curie Krankheitsporträt", route: "krankheitsportraets-marie-curie", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Strahlenbelastung, aplastische Anämie" },
+  { term: "Charles Darwin Krankheitsporträt", route: "krankheitsportraets-charles-darwin", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · chronische Verdauungs- und Erschöpfungsbeschwerden" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31384,6 +31385,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-moliere", name:"Molière", subtyp:"SO7w6", heading:"Molière – Sozialer Typ 7", krankheit:"Chronische Lungenerkrankung (vermutlich Tuberkulose)", teaser:"SO7w6 – französischer Dramatiker und Schauspieler, 1622–1673. Schöpfer von Tartuffe, Der Menschenfeind und Der eingebildete Kranke. Brach 1673 während der vierten Aufführung von Der eingebildete Kranke – in der Rolle eines Hypochonders – auf der Bühne zusammen und starb Stunden später an einem Lungenleiden, das er jahrelang verschwiegen hatte." , land:"Frankreich", gender:"m", jahre:"1622–1673"},
   { route:"krankheitsportraets-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5", heading:"Sigmund Freud – Sozialer Typ 6", krankheit:"Mundhöhlen- und Kieferkrebs", teaser:"SO6w5 – Begründer der Psychoanalyse, 1856–1939. 1923 mit Kieferkrebs diagnostiziert, über 30 Operationen in 16 Jahren, rauchte trotz der Diagnose weiter Zigarren und lehnte lange wirksame Schmerzmittel ab, um geistig klar zu bleiben. Starb 1939 im Londoner Exil durch ärztlich assistierten Tod." , land:"Österreich", gender:"m", jahre:"1856–1939"},
   { route:"krankheitsportraets-marie-curie", name:"Marie Curie", subtyp:"SE5w6", heading:"Marie Curie – Selbsterhaltender Typ 5", krankheit:"Aplastische Anämie durch chronische Strahlenbelastung", teaser:"SE5w6 – Physikerin und Chemikerin, 1867–1934. Jahrzehntelange, ungeschützte Arbeit mit radioaktiven Stoffen, Radiumproben in der Kitteltasche, kontaminierte Notizbücher bis heute radioaktiv. Starb 1934 an aplastischer Anämie als direkte Folge der Strahlenbelastung, deren Gefahr sie selbst mit erforscht hatte." , land:"Polen/Frankreich", gender:"f", jahre:"1867–1934"},
+  { route:"krankheitsportraets-charles-darwin", name:"Charles Darwin", subtyp:"SE5w6", heading:"Charles Darwin – Selbsterhaltender Typ 5", krankheit:"Chronische, nie eindeutig diagnostizierte Verdauungs- und Erschöpfungsbeschwerden", teaser:"SE5w6 – Naturforscher und Begründer der Evolutionstheorie, 1809–1882. Fast vierzig Jahre lang Übelkeit, Erbrechen, Herzklopfen und Erschöpfung, nie eindeutig diagnostiziert. Diskutierte Ursachen reichen von der Chagas-Krankheit bis zu psychosomatischer Genese durch radikalen Rückzug von der Außenwelt." , land:"Vereinigtes Königreich", gender:"m", jahre:"1809–1882"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -57099,11 +57101,13 @@ function charlesDarwinPortraitPage() {
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      <p class="vb-intro">Die fast vierzig Jahre ungekl\xe4rter chronischer Beschwerden nach der Beagle-Reise \u2013 von \xdcbelkeit bis Ersch\xf6pfung \u2013 werden ausf\xfchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-charles-darwin">Krankheitsportr\xe4t zu Darwin</a> gedeutet.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
         {route:"beruehmte-vera-birkenbihl", label:"Portr\xe4t: Vera Birkenbihl (SE5w6)"},
         {route:"beruehmte-warren-buffett", label:"Portr\xe4t: Warren Buffett (SE5w6)"},
+        {route:"krankheitsportraets-charles-darwin", label:"Krankheitsportr\u00e4t: Charles Darwin (SE5w6) \u2013 chronische Beschwerden"},
         {route:"krankheitsportraets-marie-curie", label:"Krankheitsportr\u00e4t: Marie Curie (SE5w6) \u2013 Parallele zu Darwins chronischer Erkrankung"},
       ])}
     </div>
@@ -66165,7 +66169,199 @@ function marieCurieKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-marie-curie", label:"Porträt: Marie Curie (SE5w6) – Lebenswerk"},
         {route:"beruehmte-charles-darwin", label:"Porträt: Charles Darwin (SE5w6)"},
+        {route:"krankheitsportraets-charles-darwin", label:"Krankheitsporträt: Charles Darwin (SE5w6)"},
         {route:"krankheitsportraets-sigmund-freud", label:"Krankheitsporträt: Sigmund Freud (SO6w5)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se5", label:"Subtyp-Profil SE5"},
+      ])}
+    </div>
+  `);
+}
+
+function charlesDarwinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-charles-darwin-portrait.jpg" alt="Charles Darwin" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Charles Darwin</p>
+        <p class="krim-portrait-typ">SE5w6 · Selbsterhaltender Typ 5 mit Sechserflügel · 1809–1882</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Eule</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Tierentsprechung: Eule" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Charles Darwin</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-charles-darwin">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur
+        im Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur nebenbei
+        erwähnt wird: Ab seiner Rückkehr von der Weltreise auf der <em>HMS Beagle</em> 1836
+        litt Darwin fast vierzig Jahre lang unter chronischer Übelkeit, Erbrechen, Herzklopfen,
+        Kopfschmerzen und quälender Erschöpfung – Symptome, die zu Lebzeiten nie eindeutig
+        diagnostiziert wurden. Bis heute diskutieren Historiker und Mediziner mögliche
+        Ursachen, von der Chagas-Krankheit (durch einen Insektenstich in Südamerika) über eine
+        seltene Stoffwechselerkrankung bis zu einer überwiegend psychosomatischen Genese.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Darwin</strong> ist der <strong>selbsterhaltenden Fünf mit Sechserflügel</strong>
+        zugeordnet – demselben Subtyp wie <a href="javascript:void(0)" data-route="beruehmte-marie-curie">Marie Curie</a>
+        in diesem Kompass. Naranjo nannte die selbsterhaltende Fünf die <em>Burg</em>:
+        Sicherheit entsteht durch Rückzug in eine kontrollierte, abgeschottete Umgebung, die
+        vor Überwältigung und Energieverlust schützt – bei Darwin Down House, in dem er die
+        letzten vierzig Jahre seines Lebens fast ohne Reisen und gesellschaftliche
+        Verpflichtungen verbrachte. Der Sechserflügel bringt die wache Vorsicht hinzu, jede
+        Konsequenz vorab zu bedenken, bevor man sich exponiert.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Geduldig, detailversessen, unbestechlich:</strong>
+        Darwins Blick sammelte über Jahrzehnte Beobachtungen, bis kein Einwand mehr Platz
+        fand – der Fünferblick, der lieber zu viel als zu wenig prüft, bevor er urteilt.</p>
+        <p class="vb-intro"><strong>b) Nach außen wachsam, nach innen unklar:</strong>
+        Jede mögliche Reaktion auf seine Theorie hatte Darwin durchdacht – doch die eigenen,
+        über Jahrzehnte anhaltenden Krankheitssymptome blieben für ihn selbst und seine Ärzte
+        rätselhaft, nie eindeutig eingeordnet.</p>
+        <p class="vb-intro"><strong>c) Zurückgezogen, sobald es um die eigene Person geht:</strong>
+        Öffentliche Debatten, Vorträge, Auftritte überließ Darwin lieber Verbündeten wie
+        Thomas Huxley – &bdquo;Darwins Bulldogge&ldquo; – während er selbst in Down House
+        blieb. Typisch selbsterhaltende Fünf: Präsenz kostet Energie, die anderswo gebraucht
+        wird.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein Leben nach striktem Takt:</strong>
+        Feste Arbeitszeiten, ein täglicher Rundweg durch den Garten, der <em>Sandwalk</em>,
+        kaum spontane Unterbrechungen – die Burg der SE5 lebt von Vorhersehbarkeit als
+        Energiequelle.</p>
+        <p class="vb-intro"><strong>b) Wissen als einzige verlässliche Sicherheit:</strong>
+        Acht Jahre widmete Darwin allein der monografischen Untersuchung von
+        Rankenfußkrebsen, bevor er sich an seine große Theorie wagte – Sicherheit durch
+        vollständige Beherrschung des Details, nicht durch äußere Bestätigung.</p>
+        <p class="vb-intro"><strong>c) Down House als Refugium:</strong>
+        Vierzig Jahre ohne nennenswerte Reisen, nach der einen großen Exposition auf der
+        Beagle – ein selbst gewählter Rückzugsort, der die Außenwelt auf ein kontrollierbares
+        Maß reduzierte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Zwanzig Jahre Absicherung, bevor er sprach:</strong>
+        Die Kerngedanken zur natürlichen Selektion entwickelte Darwin bereits um 1838 –
+        veröffentlicht wurden sie erst 1859. Der Sechserflügel füllte die Zwischenzeit mit
+        Beweissammlung und dem Durchdenken jeder möglichen Konsequenz.</p>
+        <p class="vb-intro"><strong>b) Rücksicht bis zur Selbstverleugnung:</strong>
+        Darwin fürchtete, seine tief gläubige Frau Emma mit seinen Gedanken zu verletzen –
+        eine Vorsicht, die beinahe dazu geführt hätte, dass Alfred Russel Wallace ihm mit
+        einer nahezu identischen Theorie zuvorkam.</p>
+        <p class="vb-intro"><strong>c) Überzeugung durch Masse statt Lautstärke:</strong>
+        Nicht ein einzelner Geistesblitz, sondern ein kaum zu widerlegender Berg an
+        Beobachtungen war Darwins eigentliches Argument – die SE5w6 in ihrer produktivsten
+        Form.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Unangreifbar durch Vollständigkeit:</strong>
+        Darwins Werk überzeugte, weil es kaum eine Lücke offen ließ – eine Wirkung, die aus
+        jahrzehntelanger Vorbereitung erwuchs, nicht aus einem einzelnen überzeugenden
+        Moment.</p>
+        <p class="vb-intro"><strong>b) Zurückhaltend, aber unerschütterlich in der Sache:</strong>
+        Darwin mied die große Bühne, ließ sich in der Substanz seiner Theorie aber von
+        niemandem beirren – eine Kombination, die selbsterhaltende Fünfen oft leicht
+        unterschätzbar erscheinen lässt.</p>
+        <p class="vb-intro"><strong>c) Vertrauen durch Beweisbarkeit:</strong>
+        Anhänger folgten ihm nicht aus Charisma, sondern weil die schiere Menge an Belegen
+        kaum zu widerlegen war – der Fünferblick verlangt sich selbst diese Beweisbarkeit ab,
+        bevor er sie von anderen erwartet.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Sparsamer Umgang mit begrenzter Kraft:</strong>
+        Darwins gesamter Tagesablauf war darauf ausgerichtet, seine begrenzte Energie auf das
+        Wesentliche zu konzentrieren – Reisen, Geselligkeit und öffentliche Auftritte wurden
+        konsequent gestrichen.</p>
+        <p class="vb-intro"><strong>b) Der Körper als Vollstrecker der Burg:</strong>
+        Ob organisch oder psychosomatisch – seine chronischen Beschwerden erzwangen genau
+        jenen Rückzug, den die Burg ohnehin verlangte, und lieferten damit eine zusätzliche,
+        körperliche Rechtfertigung für den Rückzug von der Welt.</p>
+        <p class="vb-intro"><strong>c) Vorsicht, die in Lähmung kippen kann:</strong>
+        Der Sechserflügel verwandelte Vorsicht streckenweise in beinahe lähmendes Zögern –
+        zwanzig Jahre zwischen Erkenntnis und Veröffentlichung, in denen Darwin fast die
+        Urheberschaft an seiner eigenen Lebensleistung verloren hätte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Vierzig Jahre ungeklärter Beschwerden:</strong>
+        Übelkeit, Erbrechen nach dem Essen, Herzklopfen, Kopfschmerzen, Hautprobleme,
+        quälende Erschöpfung – ab 1836 begleiteten Darwin diese Symptome bis kurz vor seinem
+        Tod 1882. Zahlreiche Ärzte wurden konsultiert, zahlreiche Kuren versucht, ohne dass je
+        eine eindeutige Diagnose gestellt wurde.</p>
+        <p class="vb-intro"><strong>b) Die Wasserkur als Ritual der Kontrolle:</strong>
+        Darwin unterzog sich wiederholt aufwendigen Hydrotherapie-Kuren in Spezialkliniken –
+        strikt getaktete Anwendungen von kaltem Wasser, Wickeln und Bädern nach festem Schema.
+        Das ist der Fünferflügel in der Krankheit selbst: Selbst die Behandlung musste
+        nachvollziehbar strukturiert und kontrollierbar sein.</p>
+        <p class="vb-intro"><strong>c) Rückzug als doppelte Notwendigkeit:</strong>
+        Die Krankheit lieferte Darwin einen zusätzlichen, unangreifbaren Grund für den
+        Rückzug, den die Burg der SE5 ohnehin verlangte – ob als Ursache oder Folge des
+        zurückgezogenen Lebens lässt sich im Nachhinein kaum trennen. Beides verstärkte sich
+        gegenseitig über Jahrzehnte.</p>
+        <p class="vb-intro"><strong>d) Eine Parallele im gleichen Subtyp:</strong>
+        Auch <a href="javascript:void(0)" data-route="beruehmte-marie-curie">Marie Curie</a>
+        (SE5w6) ordnete den eigenen Körper konsequent der Arbeit unter, bis eine chronische
+        Erkrankung – bei ihr eine radiologisch bedingte, bei Darwin eine nie eindeutig
+        geklärte – zum festen Bestandteil des Lebens wurde. Bei beiden zeigt sich dasselbe
+        SE5-Muster: Der Körper wird zur Nebensache erklärt, solange die eigentliche Arbeit im
+        Refugium weiterläuft.</p>
+        <p class="vb-intro"><strong>e) Warum ausgerechnet der Magen?</strong>
+        Der Verdauungstrakt ist die eigentliche körperliche Grenze zur Außenwelt: Er
+        entscheidet, was hineingelassen und was abgewiesen wird. Bei einer selbsterhaltenden
+        Fünf, deren gesamte psychische Strategie im selektiven Filtern äußerer Reize besteht –
+        nur so viel Welt hereinlassen, wie sich verarbeiten lässt –, liegt es nahe, genau
+        diesen Filter körperlich versagen zu sehen: Darwins Verdauungssystem lehnte
+        wiederkehrend ab, was ihm zugeführt wurde, so wie er selbst Reisen, Geselligkeit und
+        öffentliche Auftritte konsequent ablehnte. Der Magen wurde zur Festungsmauer, die
+        Darwin ohnehin um sich gezogen hatte – nur eben von innen. Diese Deutung wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Fünf zwangsläufig zu
+        chronischen Verdauungsbeschwerden führt – <strong>jeder Mensch kann jede Krankheit
+        bekommen, unabhängig vom Subtyp.</strong> Was sich an Darwins Fall zeigen lässt, ist
+        ein Muster, das bei radikalem Rückzug von äußeren Reizen in der Praxis immer wieder
+        auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Darwin</strong> verkörpert die selbsterhaltende Fünf mit Sechserflügel bis in
+        die eigene Krankheitsgeschichte hinein: ein Leben, radikal reduziert auf das
+        Wesentliche, ein Körper, der genau jenen Rückzug erzwang, den die Burg ohnehin
+        verlangte, und eine Vorsicht, die zwanzig Jahre lang selbst die eigene Urheberschaft
+        gefährdete. Die Eule, die geduldig wartete, bis ihre Erkenntnis unangreifbar war,
+        musste zugleich lernen, mit einem Körper zu leben, der sich selbst nie vollständig
+        erklären ließ.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-charles-darwin", label:"Porträt: Charles Darwin (SE5w6) – Lebenswerk"},
+        {route:"beruehmte-marie-curie", label:"Porträt: Marie Curie (SE5w6)"},
+        {route:"krankheitsportraets-marie-curie", label:"Krankheitsporträt: Marie Curie (SE5w6)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se5", label:"Subtyp-Profil SE5"},
       ])}
@@ -95165,6 +95361,7 @@ function render() {
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
       "krankheitsportraets-marie-curie": marieCurieKrankheitsportraetPage,
+      "krankheitsportraets-charles-darwin": charlesDarwinKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

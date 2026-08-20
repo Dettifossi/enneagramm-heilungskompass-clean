@@ -191,6 +191,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-moliere", name:"Molière", subtyp:"SO7w6", heading:"Molière – Social Type 7", krankheit:"Chronic Lung Disease (presumably Tuberculosis)", teaser:"SO7w6 – French playwright and actor, 1622–1673. Creator of Tartuffe, The Misanthrope, and The Imaginary Invalid. Collapsed on stage during the fourth performance of The Imaginary Invalid – in the role of a hypochondriac – and died hours later of a lung ailment he had concealed for years." , land:"France", gender:"m", jahre:"1622–1673"},
   { route:"krankheitsportraets-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5", heading:"Sigmund Freud – Social Type 6", krankheit:"Oral and Jaw Cancer", teaser:"SO6w5 – founder of psychoanalysis, 1856–1939. Diagnosed with jaw cancer in 1923, over 30 surgeries in 16 years, kept smoking cigars despite the diagnosis and refused effective painkillers for years to stay mentally clear. Died in 1939 in London exile through physician-assisted death." , land:"Austria", gender:"m", jahre:"1856–1939"},
   { route:"krankheitsportraets-marie-curie", name:"Marie Curie", subtyp:"SE5w6", heading:"Marie Curie – Self-Preservation Type 5", krankheit:"Aplastic Anemia from Chronic Radiation Exposure", teaser:"SE5w6 – physicist and chemist, 1867–1934. Decades of unprotected work with radioactive materials, radium samples carried in her coat pocket, notebooks still radioactive today. Died in 1934 of aplastic anemia, a direct consequence of the radiation exposure whose dangers she herself helped to uncover." , land:"Poland/France", gender:"f", jahre:"1867–1934"},
+  { route:"krankheitsportraets-charles-darwin", name:"Charles Darwin", subtyp:"SE5w6", heading:"Charles Darwin – Self-Preservation Type 5", krankheit:"Chronic, Never Clearly Diagnosed Digestive and Exhaustion Complaints", teaser:"SE5w6 – naturalist and founder of the theory of evolution, 1809–1882. Nearly forty years of nausea, vomiting, heart palpitations, and exhaustion, never clearly diagnosed. Proposed causes range from Chagas disease to a psychosomatic origin rooted in radical withdrawal from the outside world." , land:"United Kingdom", gender:"m", jahre:"1809–1882"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -24837,11 +24838,13 @@ function charlesDarwinPortraitPage() {
             ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <p class="vb-intro">The nearly forty years of unexplained chronic complaints following the Beagle voyage – from nausea to exhaustion – are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-charles-darwin">Illness Portrait of Darwin</a>.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
         {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SE5w6)"},
         {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5w6)"},
+        {route:"krankheitsportraets-charles-darwin", label:"Illness Portrait: Charles Darwin (SE5w6)"},
         {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SE5w6) – parallel to Darwin's chronic illness"},
       ])}
     </div>
@@ -39386,7 +39389,189 @@ function marieCurieKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-marie-curie", label:"Portrait: Marie Curie (SE5w6) – life's work"},
         {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6)"},
+        {route:"krankheitsportraets-charles-darwin", label:"Illness Portrait: Charles Darwin (SE5w6)"},
         {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se5", label:"Subtype Profile SE5"},
+      ])}
+    </div>
+  `);
+}
+
+function charlesDarwinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-charles-darwin-portrait.jpg" alt="Charles Darwin" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Charles Darwin</p>
+        <p class="krim-portrait-typ">SE5w6 · Self-Preservation Type 5 with Six-wing · 1809–1882</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Owl</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Charles Darwin</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-charles-darwin">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and type structure in general.
+        This page deals exclusively with a chapter that's mentioned there only in passing:
+        from his return from the world voyage on the <em>HMS Beagle</em> in 1836, Darwin
+        suffered for nearly forty years from chronic nausea, vomiting, heart palpitations,
+        headaches, and debilitating exhaustion – symptoms never clearly diagnosed in his
+        lifetime. Historians and physicians still debate possible causes today, from Chagas
+        disease (via an insect bite in South America) to a rare metabolic disorder to a
+        largely psychosomatic origin.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Darwin</strong> is classified as the <strong>Self-Preservation Five with
+        Six-wing</strong> – the same subtype as
+        <a href="javascript:void(0)" data-route="beruehmte-marie-curie">Marie Curie</a>
+        in this Compass. Naranjo called the Self-Preservation Five the <em>Castle</em>: safety
+        arises from retreating into a controlled, sealed-off environment that protects
+        against being overwhelmed and losing energy – for Darwin, Down House, where he spent
+        the last forty years of his life with almost no travel or social obligations. The
+        Six-wing adds the watchful caution to weigh every consequence before exposing oneself.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Patient, meticulous, incorruptible:</strong>
+        Darwin's gaze gathered observations for decades until no objection had room left –
+        the Five's gaze, which would rather check too much than too little before it
+        judges.</p>
+        <p class="vb-intro"><strong>b) Watchful outward, unclear inward:</strong>
+        Darwin had thought through every possible reaction to his theory – yet his own
+        decades-long symptoms remained a mystery to him and his doctors, never clearly
+        categorized.</p>
+        <p class="vb-intro"><strong>c) Withdrawn as soon as it concerns himself:</strong>
+        Public debates, lectures, appearances – Darwin preferred to leave those to allies
+        like Thomas Huxley, "Darwin's Bulldog," while he himself stayed at Down House.
+        Typical Self-Preservation Five: presence costs energy needed elsewhere.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) A life on a strict rhythm:</strong>
+        Fixed working hours, a daily walk through the garden, the <em>Sandwalk</em>, hardly
+        any spontaneous interruptions – the SE5's Castle lives on predictability as a source
+        of energy.</p>
+        <p class="vb-intro"><strong>b) Knowledge as the only reliable safety:</strong>
+        Darwin spent eight years alone on a monographic study of barnacles before venturing
+        his great theory – safety through complete mastery of detail, not through outside
+        confirmation.</p>
+        <p class="vb-intro"><strong>c) Down House as refuge:</strong>
+        Forty years with essentially no travel, after the one great exposure on the Beagle –
+        a self-chosen retreat that reduced the outside world to a manageable measure.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Twenty years of securing evidence before he spoke:</strong>
+        Darwin developed his core ideas on natural selection as early as 1838 – they weren't
+        published until 1859. The Six-wing filled the interval with evidence-gathering and
+        weighing every possible consequence.</p>
+        <p class="vb-intro"><strong>b) Consideration to the point of self-denial:</strong>
+        Darwin feared hurting his devoutly religious wife Emma with his ideas – a caution
+        that nearly let Alfred Russel Wallace beat him to a nearly identical theory.</p>
+        <p class="vb-intro"><strong>c) Persuasion through mass rather than volume:</strong>
+        Not a single flash of insight but a nearly irrefutable mountain of observations was
+        Darwin's actual argument – the SE5w6 at its most productive.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Unassailable through thoroughness:</strong>
+        Darwin's work convinced because it left hardly a gap open – an effect that grew from
+        decades of preparation, not from a single persuasive moment.</p>
+        <p class="vb-intro"><strong>b) Reserved, yet unshakeable on substance:</strong>
+        Darwin avoided the big stage but wouldn't be swayed on the substance of his theory –
+        a combination that often makes Self-Preservation Fives easy to underestimate.</p>
+        <p class="vb-intro"><strong>c) Trust earned through provability:</strong>
+        Followers came not from charisma but because the sheer weight of evidence was hard to
+        refute – the Five's gaze demands this provability of itself before expecting it of
+        others.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Sparing with limited strength:</strong>
+        Darwin's entire daily routine was designed to concentrate his limited energy on the
+        essential – travel, socializing, and public appearances were consistently cut.</p>
+        <p class="vb-intro"><strong>b) The body as enforcer of the Castle:</strong>
+        Whether organic or psychosomatic, his chronic complaints forced exactly the
+        withdrawal the Castle demanded anyway, supplying an additional, physical
+        justification for retreating from the world.</p>
+        <p class="vb-intro"><strong>c) Caution that can tip into paralysis:</strong>
+        The Six-wing turned caution, at times, into near-paralyzing hesitation – twenty years
+        between insight and publication, during which Darwin nearly lost credit for his own
+        life's work.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) Forty years of unexplained complaints:</strong>
+        Nausea, vomiting after meals, heart palpitations, headaches, skin problems,
+        debilitating exhaustion – from 1836 these symptoms accompanied Darwin almost until
+        his death in 1882. Numerous doctors were consulted, numerous cures attempted, without
+        a clear diagnosis ever being made.</p>
+        <p class="vb-intro"><strong>b) The water cure as a ritual of control:</strong>
+        Darwin repeatedly underwent elaborate hydrotherapy treatments at specialized
+        clinics – strictly scheduled applications of cold water, wraps, and baths on a fixed
+        regimen. This is the Six-wing within the illness itself: even the treatment had to be
+        comprehensibly structured and controllable.</p>
+        <p class="vb-intro"><strong>c) Withdrawal as a double necessity:</strong>
+        The illness gave Darwin an additional, unassailable reason for the retreat the SE5's
+        Castle demanded anyway – whether as cause or consequence of the withdrawn life is
+        hardly separable in hindsight. Both reinforced each other over decades.</p>
+        <p class="vb-intro"><strong>d) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="beruehmte-marie-curie">Marie Curie</a>
+        (SE5w6) likewise consistently subordinated her own body to the work, until a chronic
+        illness – radiological in her case, never clearly resolved in Darwin's – became a
+        fixed part of life. Both cases show the same SE5 pattern: the body is declared
+        secondary as long as the actual work in the refuge continues.</p>
+        <p class="vb-intro"><strong>e) Why the stomach, of all places?</strong>
+        The digestive tract is the body's actual boundary to the outside world: it decides
+        what is let in and what is turned away. For a Self-Preservation Five, whose entire
+        psychological strategy consists of selectively filtering outside stimuli – letting in
+        only as much of the world as can be processed – it is tempting to see exactly this
+        filter fail physically: Darwin's digestive system repeatedly rejected what was given
+        to it, just as he himself consistently rejected travel, socializing, and public
+        appearances. The stomach became the fortress wall Darwin had already drawn around
+        himself – only from the inside. This reading is explored in more depth in this
+        Compass's Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Framing without determinism:</strong>
+        This does not mean the Self-Preservation Five's pattern inevitably leads to chronic
+        digestive complaints – <strong>every person can develop any illness, regardless of
+        subtype.</strong> What Darwin's case can show is a pattern that stands out again and
+        again in practice wherever radical withdrawal from outside stimuli is present – one
+        possible explanation among many, not a verdict. The corresponding condition will be
+        developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Darwin</strong> embodies the Self-Preservation Five with Six-wing right down
+        into his own illness history: a life radically reduced to the essential, a body that
+        forced exactly the withdrawal the Castle demanded anyway, and a caution that, for
+        twenty years, endangered even his own credit as discoverer. The owl that waited
+        patiently until its insight was unassailable also had to learn to live with a body
+        that never fully explained itself.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6) – life's work"},
+        {route:"beruehmte-marie-curie", label:"Portrait: Marie Curie (SE5w6)"},
+        {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SE5w6)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se5", label:"Subtype Profile SE5"},
       ])}
@@ -60766,6 +60951,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
       "krankheitsportraets-marie-curie": marieCurieKrankheitsportraetPage,
+      "krankheitsportraets-charles-darwin": charlesDarwinKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
