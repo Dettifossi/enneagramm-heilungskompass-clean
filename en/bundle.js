@@ -54940,12 +54940,25 @@ function psychosomatikPage() {
     `;
   }).join("");
 
+  const subtypeRegister = [1,2,3,4,5,6,7,8,9].map(typNr => {
+    const farbe = typeColor(typNr);
+    return ["SE","SO","SX"].map(inst => {
+      const code = inst + typNr;
+      return `<button data-route="psychosomatik-subtyp/${code}" style="padding:.4rem .75rem;border-radius:6px;border:1.5px solid ${farbe};background:var(--bg);color:${farbe};font-size:.82rem;font-weight:700;cursor:pointer;font-family:inherit;">${code}</button>`;
+    }).join("");
+  }).join("");
+
   return shell(`
     <div class="page-container">
       ${pageHeader("psychosomatik")}
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Psychosomatics Register</h1>
       <p class="psycho-intro">Illnesses seen through a psychosomatic lens, connected to the Enneagram: where do typical inner patterns of a given subtype show up in connection with certain symptom pictures, among many other factors? <strong>Important: every person can develop any illness, regardless of subtype.</strong> This page does not replace a medical diagnosis or treatment, but offers a complementary, holistic layer of interpretation – in the same spirit as the Homeopathy section of this Compass: not addressing the symptom, but the underlying life force. The register keeps growing with more conditions; topics not yet written up are marked &bdquo;in preparation&ldquo; within each category.</p>
       <img src="../assets/schaubilder/psychosomatik-register-header.jpg?v=2" alt="Body and Enneagram symbol as an image for the Psychosomatics Register" loading="lazy" style="width:100%;max-width:640px;border-radius:14px;margin:1.3rem 0;box-shadow:0 4px 18px rgba(0,0,0,.12);display:block;">
+      <div style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1.1rem 1.3rem;margin:0 0 1.3rem;max-width:640px;">
+        <p style="font-size:0.75rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.4rem;">Search Register by Subtype</p>
+        <p style="margin:0 0 0.8rem;font-size:0.88rem;color:var(--muted);">All conditions in this register filtered by subtype at a glance &ndash; e.g. how Heart Attack, and in time all other conditions, show up specifically for SE1 or SX7.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">${subtypeRegister}</div>
+      </div>
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.4rem;margin:1.3rem 0 0.4rem;">
         ${quickNav}
       </div>
@@ -54958,6 +54971,62 @@ function psychosomatikPage() {
         {route:"healing", label:"Healing Compass"},
         {route:"homoeopathie", label:"Homeopathic Remedies"},
         {route:"tcm", label:"TCM & Meridians"},
+      ])}
+    </div>
+  `);
+}
+
+function psychosomatikSubtypPage(code) {
+  code = (code || "").toUpperCase();
+  const typNr = parseInt(code.slice(-1), 10);
+  const farbe = typeColor(typNr);
+  const entries = Object.entries(PSYCHOSOMATIK_KRANKHEITEN);
+  const treffer = [];
+  entries.forEach(([slug, k]) => {
+    const t = (k.typen || []).find(t => t.typ === typNr);
+    if (!t) return;
+    const v = (t.varianten || []).find(v => v.code === code);
+    if (!v) return;
+    const kat = PSYCHOSOMATIK_KATEGORIEN.find(kt => kt.key === k.kategorie);
+    treffer.push({ slug, k, v, kat });
+  });
+
+  const cards = treffer.length ? treffer.map(({ slug, k, v, kat }) => {
+    const katFarbe = kat ? kat.farbe : farbe;
+    return `
+    <button class="tool-card--link" data-route="psychosomatik/${slug}" style="display:block;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-left:4px solid ${katFarbe};border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;cursor:pointer;">
+      <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.5rem;">
+        <span style="font-size:1.3rem;">${k.icon}</span>
+        <div>
+          <h3 style="margin:0;font-size:1.05rem;color:var(--ink);">${k.titel}</h3>
+          ${kat ? `<p style="margin:0;font-size:0.72rem;color:${katFarbe};text-transform:uppercase;letter-spacing:0.05em;font-weight:700;">${kat.label}</p>` : ""}
+        </div>
+      </div>
+      <p style="margin:0;font-size:0.9rem;line-height:1.6;color:var(--ink);">${v.text}</p>
+    </button>
+  `;
+  }).join("") : `<p style="color:var(--muted);font-size:0.92rem;max-width:640px;">No conditions have been written up for ${code} yet &ndash; the register keeps growing, and new entries will appear here automatically as soon as they're added.</p>`;
+
+  const subtypeNav = [1,2,3,4,5,6,7,8,9].map(t => {
+    const f = typeColor(t);
+    return ["SE","SO","SX"].map(inst => {
+      const c = inst + t;
+      const active = c === code;
+      return `<button data-route="psychosomatik-subtyp/${c}" style="padding:.35rem .65rem;border-radius:6px;border:1.5px solid ${f};background:${active ? f : "var(--bg)"};color:${active ? "#fff" : f};font-size:.78rem;font-weight:700;cursor:pointer;font-family:inherit;">${c}</button>`;
+    }).join("");
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("psychosomatik")}
+      <button class="ghost-link" data-route="psychosomatik" style="margin-bottom:1rem;">&larr; All Conditions</button>
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:${farbe};margin:0 0 0.5rem;">${code}</h1>
+      <p class="psycho-intro" style="max-width:640px;">All conditions from the Psychosomatics Register written up so far for the ${code} subtype &ndash; at a glance. <strong>Important: every person can develop any illness, regardless of subtype;</strong> this is about patterns that stand out in practice, not a statistical claim.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:0.35rem;margin:1.2rem 0 1.4rem;max-width:640px;">${subtypeNav}</div>
+      <div style="max-width:640px;">${cards}</div>
+      ${relatedLinks([
+        {route:"psychosomatik", label:"All Conditions"},
+        {route:"subtype/" + code.toLowerCase(), label:"Subtype Profile " + code},
       ])}
     </div>
   `);
@@ -60139,6 +60208,8 @@ function subtypeSchaubilderPage() {
       app.innerHTML = lebensmusterkompassDetailPage(param);
     } else if (base === "psychosomatik" && param) {
       app.innerHTML = psychosomatikDetailPage(param);
+    } else if (base === "psychosomatik-subtyp" && param) {
+      app.innerHTML = psychosomatikSubtypPage(param);
     } else {
       app.innerHTML = (routes[base] || routes.start)();
       if (base === 'dashboard' || !base) { _translateImpulseIfNeeded(); }
