@@ -188,7 +188,10 @@ const KRIMINAL_PORTRAITS = [
 // discussion with the user: interpreting a living person's current, uncertain diagnosis this
 // way would be tactless and would contradict the app's own disclaimer of "no determinism").
 const KRANKHEITS_PORTRAITS = [
-  { route:"krankheitsportraets-moliere", name:"Molière", subtyp:"SO1w9", heading:"Molière – Social Type 1", krankheit:"Chronic Lung Disease (presumably Tuberculosis)", teaser:"SO1w9 – French playwright and actor, 1622–1673. Creator of Tartuffe, The Misanthrope, and The Imaginary Invalid. Collapsed on stage during the fourth performance of The Imaginary Invalid – in the role of a hypochondriac – and died hours later of a lung ailment he had concealed for years." , land:"France", gender:"m", jahre:"1622–1673"},
+  // Molière (SO1w9) is fully written (see molierePortraitPage()), but the type assignment
+  // has not yet been finally confirmed by the user – so it is deliberately not listed/linked
+  // here yet. Once the type is confirmed, uncomment the entry below.
+  // { route:"krankheitsportraets-moliere", name:"Molière", subtyp:"SO1w9", heading:"Molière – Social Type 1", krankheit:"Chronic Lung Disease (presumably Tuberculosis)", teaser:"SO1w9 – French playwright and actor, 1622–1673. Creator of Tartuffe, The Misanthrope, and The Imaginary Invalid. Collapsed on stage during the fourth performance of The Imaginary Invalid – in the role of a hypochondriac – and died hours later of a lung ailment he had concealed for years." , land:"France", gender:"m", jahre:"1622–1673"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -37299,7 +37302,11 @@ function astrologieAngelaMerkelPage() {
 // list on the detail pages updates itself automatically with every new portrait, without
 // manually maintaining a separate list.
 function lebensmusterkompassPortraitsForCode(code) {
-  const all = [...BERUEHMT_PORTRAITS, ...KRIMINAL_PORTRAITS];
+  // Automatically pulls from all three portrait registers (Famous Personalities,
+  // Criminal Psychology, Illness Portraits) – any new portrait in one of the three
+  // areas automatically appears as an example portrait on the matching subtype's
+  // Life Pattern Compass page. See CLAUDE.md ("Lebensmusterkompass – Pflichtschritt").
+  const all = [...BERUEHMT_PORTRAITS, ...KRIMINAL_PORTRAITS, ...KRANKHEITS_PORTRAITS];
   return all
     .filter(p => (p.subtyp || "").toUpperCase().startsWith(code))
     .map(p => ({ name: p.name, route: p.route }));
@@ -60271,7 +60278,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-wolodymyr-selenskyj": wolodymyrSelenskyjPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "krankheitsportraets": krankheitsportraetsPage,
-      "krankheitsportraets-moliere": molierePortraitPage,
+      // "krankheitsportraets-moliere": molierePortraitPage, // type assignment not yet finally confirmed – disabled for now
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

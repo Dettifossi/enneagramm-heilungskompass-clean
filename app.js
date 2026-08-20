@@ -23961,7 +23961,6 @@ const registerEntries = [
   { term: "#MeToo", route: "kriminalpsychologie-harvey-weinstein", description: "Harvey Weinstein als Ausl\u00f6ser der globalen #MeToo-Bewegung \u2013 Enneagramm-Analyse" },
   { term: "Kriminalpsychologie", route: "kriminalpsychologie", description: "Enneagramm-Analyse bekannter Kriminalf\u00e4lle \u2013 wie innere Strukturen zur Dunkelheit f\xfchren k\xf6nnen" },
   { term: "Krankheitsporträts", route: "krankheitsportraets", description: "Biografien historischer Persönlichkeiten, bei denen eine dokumentierte Krankheit als roter Faden gedeutet wird" },
-  { term: "Molière", route: "krankheitsportraets-moliere", description: "Portrait: SO1w9 · Sozialer Typ 1 · Dramatiker, starb während der Aufführung von Der eingebildete Kranke" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31379,7 +31378,10 @@ const KRIMINAL_PORTRAITS = [
 // (siehe CLAUDE.md-Diskussion: bei lebenden Personen mit aktueller, ungewisser Erkrankung
 // w\xe4re eine solche Deutung taktlos und widerspr\xe4che dem eigenen Disclaimer "kein Determinismus").
 const KRANKHEITS_PORTRAITS = [
-  { route:"krankheitsportraets-moliere", name:"Moli\xe8re", subtyp:"SO1w9", heading:"Moli\xe8re \u2013 Sozialer Typ 1", krankheit:"Chronische Lungenerkrankung (vermutlich Tuberkulose)", teaser:"SO1w9 \u2013 franz\xf6sischer Dramatiker und Schauspieler, 1622\u20131673. Sch\xf6pfer von Tartuffe, Der Menschenfeind und Der eingebildete Kranke. Brach 1673 w\xe4hrend der vierten Auff\xfchrung von Der eingebildete Kranke \u2013 in der Rolle eines Hypochonders \u2013 auf der B\xfchne zusammen und starb Stunden sp\xe4ter an einem Lungenleiden, das er jahrelang verschwiegen hatte." , land:"Frankreich", gender:"m", jahre:"1622\u20131673"},
+  // Moli\xe8re (SO1w9) ist inhaltlich fertig geschrieben (siehe molierePortraitPage()), aber die
+  // Typzuordnung ist noch nicht vom Nutzer final best\u00e4tigt \u2013 daher hier bewusst noch nicht
+  // gelistet/verlinkt. Sobald der Typ final feststeht: Eintrag wieder einkommentieren.
+  // { route:"krankheitsportraets-moliere", name:"Moli\xe8re", subtyp:"SO1w9", heading:"Moli\xe8re \u2013 Sozialer Typ 1", krankheit:"Chronische Lungenerkrankung (vermutlich Tuberkulose)", teaser:"SO1w9 \u2013 franz\xf6sischer Dramatiker und Schauspieler, 1622\u20131673. Sch\xf6pfer von Tartuffe, Der Menschenfeind und Der eingebildete Kranke. Brach 1673 w\xe4hrend der vierten Auff\xfchrung von Der eingebildete Kranke \u2013 in der Rolle eines Hypochonders \u2013 auf der B\xfchne zusammen und starb Stunden sp\xe4ter an einem Lungenleiden, das er jahrelang verschwiegen hatte." , land:"Frankreich", gender:"m", jahre:"1622\u20131673"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -42648,7 +42650,11 @@ const TIER_DOKU = {
 // die Beispielliste auf den Detailseiten automatisch bei jedem neuen Porträt, ohne
 // manuelle Pflege einer separaten Liste.
 function lebensmusterkompassPortraitsForCode(code) {
-  const all = [...BERUEHMT_PORTRAITS, ...KRIMINAL_PORTRAITS];
+  // Zieht automatisch aus allen drei Porträt-Registern (Ber\xfchmte Pers\xf6nlichkeiten,
+  // Kriminalpsychologie, Krankheitsportr\xe4ts) – jedes neue Portr\xe4t in einem der drei
+  // Bereiche taucht dadurch automatisch als Beispielportr\xe4t im Lebensmusterkompass des
+  // passenden Subtyps auf. Siehe CLAUDE.md ("Lebensmusterkompass – Pflichtschritt").
+  const all = [...BERUEHMT_PORTRAITS, ...KRIMINAL_PORTRAITS, ...KRANKHEITS_PORTRAITS];
   return all
     .filter(p => (p.subtyp || "").toUpperCase().startsWith(code))
     .map(p => ({ name: p.name, route: p.route }));
@@ -94653,7 +94659,7 @@ function render() {
       "beruehmte-bella-thorne": bellaThornePage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "krankheitsportraets": krankheitsportraetsPage,
-      "krankheitsportraets-moliere": molierePortraitPage,
+      // "krankheitsportraets-moliere": molierePortraitPage, // Typzuordnung noch nicht final bestätigt – vorerst deaktiviert
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
