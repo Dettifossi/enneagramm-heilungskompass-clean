@@ -23973,6 +23973,7 @@ const registerEntries = [
   { term: "Franz Kafka Krankheitsporträt", route: "krankheitsportraets-franz-kafka", description: "Portrait: SE5w4 · Selbsterhaltender Typ 5 · Kehlkopf-Tuberkulose" },
   { term: "Ronald Reagan Krankheitsporträt", route: "krankheitsportraets-ronald-reagan", description: "Portrait: SO9w8 · Sozialer Typ 9 · Alzheimer-Krankheit" },
   { term: "David Bowie Krankheitsporträt", route: "krankheitsportraets-david-bowie", description: "Portrait: SO1w2 · Sozialer Typ 1 · Leberkrebs, verwandelt in das Album Blackstar" },
+  { term: "Wolfgang Amadeus Mozart Krankheitsporträt", route: "krankheitsportraets-wolfgang-amadeus-mozart", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · fieberhafte Erkrankung mit Nierenversagen, Tod mit 35 Jahren" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31402,6 +31403,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-franz-kafka", name:"Franz Kafka", subtyp:"SE5w4", heading:"Franz Kafka – Selbsterhaltender Typ 5", krankheit:"Kehlkopf-Tuberkulose", teaser:"SE5w4 – Schriftsteller, 1883–1924. Ab 1917 an Tuberkulose erkrankt, die zuletzt auf den Kehlkopf übergriff und ihm das Sprechen unmöglich machte. Starb 1924 im Alter von 40 Jahren, kommunizierte in den letzten Wochen nur noch über handschriftliche Zettel." , land:"Tschechien/Österreich-Ungarn", gender:"m", jahre:"1883–1924"},
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Sozialer Typ 9", krankheit:"Alzheimer-Krankheit", teaser:"SO9w8 – 40. US-Präsident 1981–1989, 1911–2004. Gab 1994 in einem handschriftlichen Brief an die amerikanische Öffentlichkeit seine Alzheimer-Diagnose bekannt und zog sich danach zehn Jahre lang fast vollständig aus der Öffentlichkeit zurück." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Sozialer Typ 1", krankheit:"Leberkrebs", teaser:"SO1w2 – Musiker und Künstler, 1947–2016. Kämpfte 18 Monate lang im Verborgenen gegen Leberkrebs und verwandelte die Diagnose in sein letztes Werk, das Album Blackstar, das zwei Tage vor seinem Tod erschien." , land:"Vereinigtes Königreich", gender:"m", jahre:"1947–2016"},
+  { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2", krankheit:"Fieberhafte Erkrankung mit Nierenversagen (vermutlich Folge einer Streptokokken-Infektion)", teaser:"SE2w3 – österreichischer Komponist, 1756–1791. Von Kindheit an eine Kette fieberhafter Erkrankungen (Pocken, Typhus, wiederkehrendes Scharlach), starb 1791 mit 35 Jahren nach zweiwöchiger Krankheit mit Fieber und generalisierten Ödemen – während er gleichzeitig an drei Großwerken arbeitete, darunter das unvollendete Requiem." , land:"Österreich", gender:"m", jahre:"1756–1791"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -59756,12 +59758,15 @@ function wolfgangAmadeusMozartPortraitPage() {
           <p class="vb-intro">In nur 35 Lebensjahren hinterließ er über 600 Werke – eine Fülle, die die Ausdauer und den Ehrgeiz der SE2w3 in ihrer reinsten, unermüdlichsten Form zeigt. Das Flusspferd mit Dreierflügel: fürsorglich bis zur eigenen Erschöpfung, stolz auf das Geschaffene, und unaufhörlich getrieben von der Frage, ob das nächste Werk den eigenen Wert erneut beweisen würde. Die Antwort der Nachwelt kam, wie so oft bei diesem Subtyp, erst nach seinem Tod – dafür umso lauter.</p>
         </blockquote>
 
+        <p class="vb-intro">Die seit der Kindheit immer wiederkehrende Kette fieberhafter Erkrankungen und Mozarts plötzlicher Tod 1791 werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-wolfgang-amadeus-mozart">Krankheitsporträt zu Mozart</a> gedeutet.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Krankheitsporträt: Wolfgang Amadeus Mozart (SE2w3)"},
         {route:"beruehmte-johann-sebastian-bach", label:"Porträt: Johann Sebastian Bach (SX1w9) – dessen Fugenkunst er studierte"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – der ihm möglicherweise vorspielte"},
         {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5) – der ihn zeitlebens verehrte"},
@@ -68019,6 +68024,181 @@ function davidBowieKrankheitsportraetPage() {
         {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8) – Gegenmodell: direkte statt verschlüsselte Offenlegung"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so1", label:"Subtyp-Profil SO1"},
+      ])}
+    </div>
+  `);
+}
+
+function wolfgangAmadeusMozartKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-wolfgang-amadeus-mozart-portrait.jpg" alt="Wolfgang Amadeus Mozart" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Amadeus Mozart</p>
+        <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel · 1756–1791</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Flusspferd</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Tierentsprechung: Flusspferd" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Wolfgang Amadeus Mozart</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-wolfgang-amadeus-mozart">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift wird:
+        eine seit der Kindheit immer wiederkehrende Kette fieberhafter Erkrankungen, die im
+        Dezember 1791 mit seinem plötzlichen Tod im Alter von nur 35 Jahren endete.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Mozart</strong> ist der <strong>selbsterhaltenden Zwei mit Dreierflügel</strong>
+        zugeordnet. Naranjo beschrieb die SE2 als <em>Me First</em> – den Subtyp, der zuerst
+        für das eigene Überleben und das der ihm am nächsten Stehenden sorgt, bevor er sich
+        weiter nach außen wendet. Der Dreierflügel gibt dieser Fürsorge einen zusätzlichen,
+        unbedingten Antrieb: den Beweis der eigenen Unentbehrlichkeit durch sichtbare Leistung –
+        ein Muster, das sich bis in Mozarts letzte, fieberhaft arbeitsreichen Lebensmonate
+        hinein nachverfolgen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Erdverbunden statt entrückt:</strong>
+        Anders als das Bild des überirdisch schwebenden Genies, das die Nachwelt aus ihm
+        machte, richtete sich Mozarts Blick zeitlebens auf sehr konkrete, körperliche Dinge –
+        auf Einnahmen, Aufträge, die Gesundheit der eigenen Familie, das eigene Auskommen.</p>
+        <p class="vb-intro"><strong>b) Der eigene Körper als zuverlässiger, aber überforderter Resonanzboden:</strong>
+        Schon als Kind lernte Mozart, fieberhafte Erschöpfung als vorübergehenden Zustand zu
+        behandeln, den man durchsteht, nicht als Warnsignal, dem man nachgibt – eine Haltung,
+        die sich durch sein gesamtes Leben zieht.</p>
+        <p class="vb-intro"><strong>c) Die Familie fest im Blick, auch im eigenen Verfall:</strong>
+        Noch in den letzten Wochen kümmerte sich Mozart um Constanze und die gemeinsamen
+        Kinder, um Schüler und Kollegen – die Fürsorge der SE2 setzte nicht aus, als der
+        eigene Körper längst Warnsignale sendete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine lebenslange Kette fieberhafter Erkrankungen:</strong>
+        Mit elf Jahren erkrankte Mozart an Pocken, die ihn nach Angaben seiner Schwester
+        Nannerl neun Tage lang erblinden ließen. 1765/66, während der großen Europatournee,
+        erkrankten er und Nannerl lebensbedrohlich an Typhus. Hinzu kamen im Lauf seines
+        Lebens wiederholte Scharlach- und rheumatische Fieberschübe sowie chronisch
+        wiederkehrende Mandelentzündungen.</p>
+        <p class="vb-intro"><strong>b) Drei Großprojekte parallel im letzten Lebensjahr:</strong>
+        1791 arbeitete Mozart gleichzeitig an <em>Die Zauberflöte</em>, an <em>La clemenza di
+        Tito</em> (unter Zeitdruck für die Prager Krönungsfeierlichkeiten komponiert) und am
+        Requiem – einem anonym in Auftrag gegebenen Werk, das er nicht mehr vollenden sollte.</p>
+        <p class="vb-intro"><strong>c) Beginn der letzten Erkrankung:</strong>
+        Um den 20. November 1791 erkrankte Mozart mit hohem Fieber, Kopfschmerzen, Hautausschlag
+        sowie Schmerzen und Schwellungen in Armen und Beinen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Rasche Verschlechterung in der zweiten Krankheitswoche:</strong>
+        Erbrechen, Durchfall, eine generalisierte Flüssigkeitseinlagerung im ganzen Körper und
+        zunehmende Atemnot kamen hinzu – Mozart konnte sich zuletzt nicht mehr allein
+        aufsetzen.</p>
+        <p class="vb-intro"><strong>b) Arbeit am Requiem bis kurz vor dem Tod:</strong>
+        Noch von seinem Krankenbett aus erklärte Mozart seinem Schüler Franz Xaver Süßmayr
+        Einzelheiten der Instrumentierung – der Dreierflügel der SE2 ließ selbst im Angesicht
+        des eigenen Sterbens nicht vom unvollendeten Beweisstück ab.</p>
+        <p class="vb-intro"><strong>c) Tod am 5. Dezember 1791:</strong>
+        Etwa fünfzehn Tage nach den ersten Symptomen starb Mozart im Alter von 35 Jahren. Die
+        Beisetzung in einem Wiener Schachtgrab war damals übliche Praxis, kein Zeichen von
+        Armut, wie ein späterer Mythos behauptete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Eine vage zeitgenössische Diagnose:</strong>
+        Der Wiener Totenschein nannte als Ursache "hitziges Frieselfieber" – eine damals
+        gebräuchliche Sammelbezeichnung für fieberhafte Ausschlagskrankheiten, keine moderne
+        Diagnose.</p>
+        <p class="vb-intro"><strong>b) Eine widerlegte Legende:</strong>
+        Die bis heute populäre Erzählung einer Vergiftung durch Antonio Salieri – literarisch
+        u.a. durch Puschkin und später den Film <em>Amadeus</em> verbreitet – wird von der
+        seriösen medizinhistorischen Forschung nicht gestützt und gilt als widerlegt.</p>
+        <p class="vb-intro"><strong>c) Die heute plausibelste Erklärung:</strong>
+        Eine 2009 veröffentlichte retrospektive Studie zu einer zeitgleichen Wiener
+        Streptokokken-Epidemie mit gehäuften Nierenkomplikationen stützt die These einer
+        Streptokokken-Infektion mit nachfolgendem rheumatischem Fieber und einer daraus
+        entstandenen Nierenentzündung (Glomerulonephritis) als wahrscheinlichste Todesursache.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Höchstleistung trotz einsetzender Erschöpfung:</strong>
+        Dass Mozart im selben Jahr, in dem sein Körper bereits erkennbar geschwächt war, drei
+        umfangreiche Großwerke gleichzeitig vorantrieb, zeigt die Ausdauer der SE2w3 in ihrer
+        rastlosesten Form.</p>
+        <p class="vb-intro"><strong>b) Ein Werk, das ohne ihn zu Ende gebracht wurde:</strong>
+        Das Requiem blieb bei Mozarts Tod unvollendet und wurde von Süßmayr fertiggestellt –
+        selbst im Tod blieb sein letztes Werk Gegenstand fremder Vollendung.</p>
+        <p class="vb-intro"><strong>c) Das Flusspferd, das sein Revier bis zur völligen Erschöpfung verteidigte:</strong>
+        Die Energie der SE2w3 richtete sich bis zuletzt auf denselben Antrieb, der Mozarts
+        ganzes Leben prägte: keinen Auftrag unerfüllt zu lassen, keinen Beweis des eigenen
+        Wertes auszulassen, auch wenn der eigene Körper längst an seine Grenzen stieß.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Pocken mit neun Tagen Blindheit:</strong>
+        Bereits mit elf Jahren stand Mozarts Körper einer lebensbedrohlichen Erkrankung
+        gegenüber, die ihn zeitweise das Augenlicht kostete – ein früher Beleg für eine von
+        Kindheit an erhöhte Anfälligkeit.</p>
+        <p class="vb-intro"><strong>b) Typhus auf der großen Europatournee:</strong>
+        1765/66 erkrankten Wolfgang und Nannerl während der von ihrem Vater organisierten
+        Konzertreise durch Europa lebensbedrohlich an Typhus – ein früher Beleg dafür, wie sehr
+        die beruflich bedingten Strapazen der Familie Mozart Gesundheit und Überleben direkt
+        gegeneinander stellten.</p>
+        <p class="vb-intro"><strong>c) Wiederkehrende Scharlach- und rheumatische Fieberschübe:</strong>
+        Über die gesamte Kindheit und Jugend hinweg dokumentieren Briefe der Familie
+        wiederholte fieberhafte Erkrankungen und chronische Mandelentzündungen – eine
+        Konstitution, die nie vollständig zur Ruhe kam.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet eine Überflutung des eigenen Körpers?</strong>
+        Die plausibelste Erklärung für Mozarts Tod beschreibt ein Nierenversagen, bei dem sich
+        Flüssigkeit ungehindert im ganzen Körper staut, weil das ausgleichende Organ seine
+        Funktion verliert. Für eine selbsterhaltende Zwei mit Dreierflügel, deren ganzes Leben
+        von der Frage bestimmt war, wie sie das eigene Überleben durch immer neue, sichtbare
+        Beweise der eigenen Unentbehrlichkeit sichert, liegt eine Deutung nahe: ein System, das
+        nie gelernt hatte, sich selbst Erholung zuzugestehen, lief zuletzt buchstäblich über.
+        Der Körper, der sein ganzes Leben lang zuverlässig funktionierte, obwohl er permanent
+        gefordert wurde, konnte die Überlastung am Ende nicht mehr ausgleichen. Diese Deutung
+        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Zwei zwangsläufig zu
+        Nierenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Mozarts Fall zeigen lässt, ist ein Muster,
+        das bei dem Bedürfnis, das eigene Überleben unablässig durch neue Beweise zu sichern,
+        in der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Mozart</strong> verkörpert die selbsterhaltende Zwei mit Dreierflügel bis in
+        die eigene Krankheitsgeschichte hinein: eine von Kindheit an fiebernde, nie ganz zur
+        Ruhe kommende Konstitution, die er ein Leben lang durch schiere Ausdauer und
+        unermüdliche Arbeit überspielte – bis der eigene Körper im Dezember 1791 keine weitere
+        Leistung mehr aufbringen konnte. Das Flusspferd, das sein Revier bis zur letzten
+        Sekunde verteidigte, auch als die eigene Kraft längst erschöpft war.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se2", label:"Subtyp-Profil SE2"},
       ])}
     </div>
   `);
@@ -97025,6 +97205,7 @@ function render() {
       "krankheitsportraets-franz-kafka": franzKafkaKrankheitsportraetPage,
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
+      "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
