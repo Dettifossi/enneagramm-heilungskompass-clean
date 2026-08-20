@@ -65533,7 +65533,7 @@ function freudKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="beruehmte-sigmund-freud">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur
         im Allgemeinen. Hier geht es ausschließlich um ein Kapitel seines Lebens, das dort
-        nur gestreift wird: Ab 1923 – Freud war 67 – wurde bei ihm Krebs im Mund- und
+        nur nebenbei erwähnt wird: Ab 1923 – Freud war 67 – wurde bei ihm Krebs im Mund- und
         Kieferbereich diagnostiziert, Folge seines jahrzehntelangen, exzessiven
         Zigarrenkonsums (bis zu 20 am Tag). Es folgten über 30 Operationen in 16 Jahren, eine
         entstellende Gesichtsprothese, die er selbst &bdquo;das Monster&ldquo; nannte, chronische
@@ -65985,8 +65985,8 @@ function marieCurieKrankheitsportraetPage() {
         <strong>Marie Curie</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-marie-curie">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um ihr Lebenswerk und ihre Typstruktur im
-        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift wird:
-        Jahrzehntelange, ungeschützte Arbeit mit radioaktiven Stoffen – ohne Handschuhe, ohne
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur nebenbei
+        erwähnt wird: Jahrzehntelange, ungeschützte Arbeit mit radioaktiven Stoffen – ohne Handschuhe, ohne
         Bleiabschirmung, mit Radiumproben in der Kitteltasche, weil das Leuchten im Dunkeln sie
         faszinierte. 1934 starb Curie an aplastischer Anämie, einer direkten Folge dieser
         Strahlenbelastung. Ihre Laborjournale sind bis heute so radioaktiv, dass sie nur in

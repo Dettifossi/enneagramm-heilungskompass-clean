@@ -38787,8 +38787,8 @@ function freudKrankheitsportraetPage() {
         <strong>Sigmund Freud</strong>, founder of psychoanalysis, already has a
         <a href="javascript:void(0)" data-route="beruehmte-sigmund-freud">portrait under Famous Personalities</a>
         in this Compass – that one covers his life's work and type structure in general.
-        This page covers only one chapter of his life that's merely touched on there:
-        starting in 1923 – Freud was 67 – he was diagnosed with cancer of the mouth and
+        This page covers only one chapter of his life that's mentioned there only in
+        passing: starting in 1923 – Freud was 67 – he was diagnosed with cancer of the mouth and
         jaw, the result of decades of excessive cigar smoking (up to 20 a day). Over 30
         surgeries followed across 16 years, a disfiguring dental prosthesis he himself
         called &bdquo;the monster&ldquo;, chronic pain – and a refusal to give up either
@@ -39214,7 +39214,8 @@ function marieCurieKrankheitsportraetPage() {
         <strong>Marie Curie</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-marie-curie">portrait under Famous Personalities</a>
         in this Compass – that page covers her life's work and her type structure in general.
-        This page deals exclusively with a chapter only briefly touched there: decades of
+        This page deals exclusively with a chapter that's mentioned there only in
+        passing: decades of
         unprotected work with radioactive materials – no gloves, no lead shielding, radium
         samples carried in her coat pocket because the glow in the dark fascinated her. In
         1934 Curie died of aplastic anemia, a direct consequence of this radiation exposure.
