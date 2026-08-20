@@ -15624,12 +15624,13 @@ const werkRegister = [
     status: "live",
   },
   {
-    id: "code-of-your-personality",
-    title: "The Code of Your Personality (English)",
-    themes: ["Typbestimmung", "Selbsterkenntnis", "English"],
+    id: "der-code-deiner-persoenlichkeit",
+    title: "Der Code deiner Pers\u00f6nlichkeit",
+    themes: ["Typbestimmung", "Spurensuche", "Selbsterkenntnis"],
     typen: [1, 2, 3, 4, 5, 6, 7, 8, 9],
     category: "pers\u00f6nliche-entwicklung",
-    link: "https://www.verlagshausrathmer.com/buch.html?slug=the-code-of-your-personality",
+    link: "https://www.verlagshausrathmer.com/buch.html?slug=der-code-deiner-persoenlichkeit",
+    bodUrl: "https://buchshop.bod.de/der-code-deiner-persoenlichkeit-detlef-rathmer-9783695192557",
     status: "live",
   },
   {
