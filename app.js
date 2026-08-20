@@ -23971,6 +23971,7 @@ const registerEntries = [
   { term: "Friedrich Nietzsche Krankheitsporträt", route: "krankheitsportraets-friedrich-nietzsche", description: "Portrait: SX5w4 · Sexueller Typ 5 · Migräne, Sehschwäche, geistiger Zusammenbruch" },
   { term: "Fjodor Dostojewski Krankheitsporträt", route: "krankheitsportraets-fjodor-dostojewski", description: "Portrait: SE6w5 · Selbsterhaltender Typ 6 · lebenslange Epilepsie" },
   { term: "Franz Kafka Krankheitsporträt", route: "krankheitsportraets-franz-kafka", description: "Portrait: SE5w4 · Selbsterhaltender Typ 5 · Kehlkopf-Tuberkulose" },
+  { term: "Ronald Reagan Krankheitsporträt", route: "krankheitsportraets-ronald-reagan", description: "Portrait: SO9w8 · Sozialer Typ 9 · Alzheimer-Krankheit" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31398,6 +31399,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-friedrich-nietzsche", name:"Friedrich Nietzsche", subtyp:"SX5w4", heading:"Friedrich Nietzsche – Sexueller Typ 5", krankheit:"Chronische Migräne, Sehschwäche und geistiger Zusammenbruch", teaser:"SX5w4 – deutscher Philosoph, 1844–1900. Über Jahrzehnte chronische Migräne, Magenbeschwerden und fortschreitende Sehschwäche. Brach 1889 in Turin geistig zusammen und verbrachte die letzten elf Lebensjahre in geistiger Umnachtung – Ursache bis heute nicht abschließend geklärt." , land:"Deutschland", gender:"m", jahre:"1844–1900"},
   { route:"krankheitsportraets-fjodor-dostojewski", name:"Fjodor Dostojewski", subtyp:"SE6w5", heading:"Fjodor Dostojewski – Selbsterhaltender Typ 6", krankheit:"Lebenslange Epilepsie", teaser:"SE6w5 – russischer Schriftsteller, 1821–1881. Litt sein gesamtes erwachsenes Leben an Epilepsie, deren berühmte Aura er als Moment vollkommener Harmonie beschrieb. Verarbeitete die Krankheit direkt in seinen Romanfiguren, allen voran Fürst Myschkin in Der Idiot." , land:"Russland", gender:"m", jahre:"1821–1881"},
   { route:"krankheitsportraets-franz-kafka", name:"Franz Kafka", subtyp:"SE5w4", heading:"Franz Kafka – Selbsterhaltender Typ 5", krankheit:"Kehlkopf-Tuberkulose", teaser:"SE5w4 – Schriftsteller, 1883–1924. Ab 1917 an Tuberkulose erkrankt, die zuletzt auf den Kehlkopf übergriff und ihm das Sprechen unmöglich machte. Starb 1924 im Alter von 40 Jahren, kommunizierte in den letzten Wochen nur noch über handschriftliche Zettel." , land:"Tschechien/Österreich-Ungarn", gender:"m", jahre:"1883–1924"},
+  { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Sozialer Typ 9", krankheit:"Alzheimer-Krankheit", teaser:"SO9w8 – 40. US-Präsident 1981–1989, 1911–2004. Gab 1994 in einem handschriftlichen Brief an die amerikanische Öffentlichkeit seine Alzheimer-Diagnose bekannt und zog sich danach zehn Jahre lang fast vollständig aus der Öffentlichkeit zurück." , land:"USA", gender:"m", jahre:"1911–2004"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -54934,10 +54936,12 @@ function ronaldReaganPortraitPage() {
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
         </blockquote>
 
+        <p class="vb-intro">Die 1994 öffentlich gemachte Alzheimer-Diagnose und der handschriftliche Abschiedsbrief werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-ronald-reagan">Krankheitsporträt zu Reagan</a> gedeutet.</p>
         ${relatedLinks([
           {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
           {route:"beruehmte-kevin-costner", label:"Portr\xe4t: Kevin Costner (SO9w1)"},
           {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+          {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8)"},
         ])}
       </div>
     </div>
@@ -55004,6 +55008,7 @@ function wilmaMankillerPortraitPage() {
           {route:"beruehmte-ronald-reagan", label:"Portr\xe4t: Ronald Reagan (SO9w8)"},
           {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
           {route:"beruehmte-julian-assange", label:"Portr\xe4t: Julian Assange (SO9w1)"},
+          {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8) – Parallele zu Mankillers Krankheitsgeschichte"},
         ])}
       </div>
     </div>
@@ -67630,6 +67635,193 @@ function franzKafkaKrankheitsportraetPage() {
         {route:"beruehmte-franz-kafka", label:"Porträt: Franz Kafka (SE5w4) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se5", label:"Subtyp-Profil SE5"},
+      ])}
+    </div>
+  `);
+}
+
+function ronaldReaganKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ronald-reagan-portrait.jpg" alt="Ronald Reagan – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ronald Reagan</p>
+        <p class="krim-portrait-typ">SO9w8 · Sozialer Typ 9 mit Achterflügel · 1911–2004</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Büffel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so9.jpg" alt="Tierentsprechung: Büffel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO9")};left:${tierAvatarLeft("SO9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Ronald Reagan</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-ronald-reagan">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur kurz erwähnt
+        wird: 1994 gab Reagan öffentlich bekannt, an Alzheimer zu erkranken sein – in einem
+        handschriftlichen Brief an die amerikanische Öffentlichkeit, der bis heute als einer
+        der bewegendsten politischen Abschiedstexte der jüngeren US-Geschichte gilt.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Reagan</strong> ist der <strong>sozialen Neun mit Achterflügel</strong>
+        zugeordnet – demselben Subtyp wie <a href="javascript:void(0)" data-route="beruehmte-wilma-mankiller">Wilma Mankiller</a>
+        in diesem Kompass. Naranjo nannte die soziale Neun <em>Partizipation</em>: Sie erlebt
+        sich selbst am vollständigsten als Teil eines größeren Ganzen und gibt anderen das
+        Gefühl, ebenfalls dazuzugehören. Der Achterflügel bringt die Direktheit und den Mut
+        hinzu, im entscheidenden Moment klar zu sprechen – eine Klarheit, die ihm ausgerechnet
+        im Umgang mit der eigenen Diagnose besonders deutlich gelang.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Nach außen gerichtet, auf Zugehörigkeit bedacht:</strong>
+        Reagans Blick suchte stets die Verbindung zum Publikum, zur Nation, zum Gegenüber –
+        auch als er selbst wusste, dass ihm diese Fähigkeit zunehmend entgleiten würde.</p>
+        <p class="vb-intro"><strong>b) Klarheit im entscheidenden Moment:</strong>
+        Der Abschiedsbrief von 1994 ist in seiner Direktheit bemerkenswert – kein Ausweichen,
+        keine beschönigende Sprache, sondern eine klare, öffentliche Benennung der eigenen
+        Diagnose. Der Achterflügel ermöglichte genau diese Offenheit, wo viele andere
+        Politiker seiner Generation eine Krankheit dieser Art verschwiegen hätten.</p>
+        <p class="vb-intro"><strong>c) Rückzug aus der Öffentlichkeit, ohne Bitterkeit:</strong>
+        Nach der Diagnose zog sich Reagan fast vollständig aus dem öffentlichen Leben zurück –
+        typisch soziale Neun: kein Kampf um die eigene Sichtbarkeit, sondern ein stiller
+        Abschied von der Bühne.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die Diagnose als später Einschnitt:</strong>
+        Reagan war zum Zeitpunkt der Diagnose 1994 bereits fünf Jahre aus dem Amt geschieden –
+        die Krankheit traf ihn in einer Lebensphase, die eigentlich als ruhiger Ausklang einer
+        bewegten Karriere gedacht war.</p>
+        <p class="vb-intro"><strong>b) Öffentliche Offenheit als bewusste Entscheidung:</strong>
+        Reagan hätte die Diagnose ebenso gut privat halten können. Dass er sie öffentlich
+        machte, folgte demselben Impuls, mit dem er als Präsident Zugehörigkeit stiftete –
+        auch im eigenen Leiden wollte er die Nation nicht ausschließen.</p>
+        <p class="vb-intro"><strong>c) Zehn Jahre fast vollständiger Rückzug:</strong>
+        Von der Diagnose 1994 bis zu seinem Tod 2004 verbrachte Reagan die meiste Zeit
+        außerhalb der Öffentlichkeit, gepflegt von seiner Frau Nancy Reagan.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) &bdquo;Die Reise in den Sonnenuntergang meines Lebens&ldquo;:</strong>
+        Diese Formulierung aus dem Abschiedsbrief wurde zu einem der meistzitierten Sätze der
+        amerikanischen Politikgeschichte – eine Sprache, die selbst die eigene Krankheit noch
+        in ein Bild von Zugehörigkeit und Frieden übersetzte, statt in Kampf oder Verzweiflung.</p>
+        <p class="vb-intro"><strong>b) Ein Vermächtnis für die Forschung:</strong>
+        Reagans öffentliche Offenlegung trug wesentlich dazu bei, das gesellschaftliche Tabu um
+        Alzheimer zu verringern und die Forschungsfinanzierung in den USA zu erhöhen – ein
+        Nutzen für die Gemeinschaft, der über sein eigenes Schicksal hinausreichte.</p>
+        <p class="vb-intro"><strong>c) Nancy Reagan als beständige Konstante:</strong>
+        Die enge, jahrzehntelange Bindung zu seiner Frau blieb bis zuletzt der zentrale Halt –
+        typisch soziale Neun: Identität, die sich aus verlässlicher Zugehörigkeit speist,
+        nicht aus Eigenständigkeit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Bild, das im kollektiven Gedächtnis blieb:</strong>
+        Der Abschiedsbrief prägt bis heute, wie sich Amerikaner an Reagans letzte Lebensjahre
+        erinnern – nicht als Verfall, sondern als würdevoller, bewusst gewählter Rückzug.</p>
+        <p class="vb-intro"><strong>b) Enttabuisierung einer stigmatisierten Krankheit:</strong>
+        Zu einer Zeit, in der Demenzerkrankungen kaum öffentlich thematisiert wurden, machte
+        Reagans Offenheit die Krankheit gesellschaftsfähiger – ein seltener Fall, in dem
+        persönliches Leiden direkt gemeinschaftlichen Nutzen stiftete.</p>
+        <p class="vb-intro"><strong>c) Ein Nachruf, der schon zu Lebzeiten begann:</strong>
+        Weil die letzten zehn Lebensjahre kaum öffentlich sichtbar waren, verschob sich
+        Reagans öffentliches Bild bereits vor seinem Tod 2004 in Richtung eines historischen
+        Vermächtnisses statt einer noch aktiven Figur.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Rückzug statt Widerstand:</strong>
+        Anders als manche Krankheitsporträts dieses Kompasses, in denen die Betroffenen bis
+        zuletzt kämpften, zeigt Reagans Fall die andere Seite der Neun: ein friedliches
+        Loslassen, sobald der Rückzug unausweichlich wurde.</p>
+        <p class="vb-intro"><strong>b) Verschmelzung von Person und Amt löste sich auf:</strong>
+        Die Krankheit trennte schrittweise, was Reagans Identität einst ausgemacht hatte – die
+        enge Verbindung zwischen der eigenen Person und der Rolle, ein ganzes Land zu
+        repräsentieren.</p>
+        <p class="vb-intro"><strong>c) Stille als letzte Botschaft:</strong>
+        Die zunehmende öffentliche Unsichtbarkeit selbst wurde zur Aussage – ein Mann, der
+        einst durch reine Präsenz wirkte, zog sich am Ende so leise zurück, wie er einst
+        aufgetreten war.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein zehnjähriger, öffentlich angekündigter Abschied:</strong>
+        Reagan verkündete seine Diagnose 1994 selbst und lebte danach zehn weitere Jahre mit
+        fortschreitender Alzheimer-Erkrankung, bis zu seinem Tod 2004 im Alter von 93 Jahren.</p>
+        <p class="vb-intro"><strong>b) Der Brief als letzte große Kommunikationsleistung:</strong>
+        Der handschriftliche Brief vom 5. November 1994 war zugleich Abschied und letzte
+        politische Kommunikationsleistung eines Mannes, der als &bdquo;der große
+        Kommunikator&ldquo; in die Geschichte einging – eine letzte, bewusste Botschaft an die
+        Gemeinschaft, bevor die Fähigkeit dazu selbst verloren ging.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Offenheit statt Verheimlichung:</strong>
+        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses, in denen die
+        Erkrankung über Jahre verborgen blieb, entschied sich Reagan für den umgekehrten Weg –
+        typisch soziale Neun: Die eigene Diagnose wurde selbst zu einem Akt der Zugehörigkeit,
+        geteilt mit einer ganzen Nation.</p>
+        <p class="vb-intro"><strong>d) Eine Parallele im gleichen Subtyp:</strong>
+        Auch <a href="javascript:void(0)" data-route="beruehmte-wilma-mankiller">Wilma
+        Mankiller</a> (SO9w8) führte ihre Gemeinschaft durch ihr wichtigstes Jahrzehnt, während
+        ihr eigener Körper sie mehrfach an den Rand des Todes brachte – Myasthenia gravis,
+        Nierenerkrankung, Krebs. Bei beiden zeigt sich dasselbe SO9w8-Muster: Die eigene
+        Erkrankung wird nicht zum Rückzugsgrund von der Gemeinschaft, sondern in irgendeiner
+        Form mit ihr geteilt – bei Mankiller durch beharrliches Weiterführen trotz Krankheit,
+        bei Reagan durch die bewusste, öffentliche Offenlegung der eigenen Diagnose.</p>
+        <p class="vb-intro"><strong>e) Warum ausgerechnet das Gedächtnis?</strong>
+        Reagans gesamte politische Wirkung beruhte auf seiner Fähigkeit, Menschen ein Gefühl
+        von Zugehörigkeit zu vermitteln – sich selbst als Teil eines größeren Ganzen zu
+        erleben und dieses Gefühl auf andere zu übertragen. Alzheimer greift exakt jene
+        Fähigkeit an, die dafür die Voraussetzung ist: das Gedächtnis, das eigene Leben, die
+        eigene Geschichte, die eigenen Bindungen als zusammenhängendes Ganzes zu erleben. Für
+        eine soziale Neun, deren Identität sich aus dem Aufgehen in etwas Größerem speist,
+        liegt es nahe, gerade in einer Krankheit, die das Selbst allmählich aus der eigenen
+        Lebensgeschichte löst, eine Zuspitzung des eigenen Lebensmusters zu lesen: Wo die SO9
+        sich Zeit ihres Lebens in Gemeinschaft und Zugehörigkeit auflöst, um Frieden zu finden,
+        löste sich am Ende auch die Erinnerung an diese Zugehörigkeit selbst auf – nicht mehr
+        freiwillig gewählt, sondern unaufhaltsam. Diese Deutung wird im Psychosomatik-Register
+        dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Neun zwangsläufig zu Alzheimer oder
+        anderen Demenzerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Reagans Fall zeigen lässt, ist ein Muster,
+        das bei Identität, die sich primär aus Zugehörigkeit speist, in der Praxis immer
+        wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Reagan</strong> verkörpert die soziale Neun mit Achterflügel bis in die eigene
+        Krankheitsgeschichte hinein: eine öffentliche, mutige Offenlegung der eigenen Diagnose,
+        ein friedlicher Rückzug statt eines Kampfes, und eine Krankheit, die ausgerechnet jene
+        Fähigkeit auflöste, auf der sein gesamtes Lebenswerk beruhte – die Verbindung zu
+        anderen als Teil des eigenen Selbst zu erleben. Der Büffel, der eine ganze Nation
+        zusammenhielt, verlor am Ende die Erinnerung an sich selbst – und wurde gerade durch
+        diese letzte, offene Geste noch einmal zu dem, was er sein Leben lang war: ein Mann,
+        der andere nicht ausschloss, selbst im eigenen Verfall nicht.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-ronald-reagan", label:"Porträt: Ronald Reagan (SO9w8) – Lebenswerk"},
+        {route:"beruehmte-wilma-mankiller", label:"Porträt: Wilma Mankiller (SO9w8)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so9", label:"Subtyp-Profil SO9"},
       ])}
     </div>
   `);
@@ -96634,6 +96826,7 @@ function render() {
       "krankheitsportraets-friedrich-nietzsche": friedrichNietzscheKrankheitsportraetPage,
       "krankheitsportraets-fjodor-dostojewski": fjodorDostojewskiKrankheitsportraetPage,
       "krankheitsportraets-franz-kafka": franzKafkaKrankheitsportraetPage,
+      "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
