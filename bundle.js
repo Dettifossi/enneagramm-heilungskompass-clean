@@ -23970,6 +23970,7 @@ const registerEntries = [
   { term: "Ruth Bader Ginsburg Krankheitsporträt", route: "krankheitsportraets-ruth-bader-ginsburg", description: "Portrait: SX8w9 · Sexueller Typ 8 · vier Krebserkrankungen an drei sehr unterschiedlichen Organen über zwei Jahrzehnte" },
   { term: "Friedrich Nietzsche Krankheitsporträt", route: "krankheitsportraets-friedrich-nietzsche", description: "Portrait: SX5w4 · Sexueller Typ 5 · Migräne, Sehschwäche, geistiger Zusammenbruch" },
   { term: "Fjodor Dostojewski Krankheitsporträt", route: "krankheitsportraets-fjodor-dostojewski", description: "Portrait: SE6w5 · Selbsterhaltender Typ 6 · lebenslange Epilepsie" },
+  { term: "Franz Kafka Krankheitsporträt", route: "krankheitsportraets-franz-kafka", description: "Portrait: SE5w4 · Selbsterhaltender Typ 5 · Kehlkopf-Tuberkulose" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31396,6 +31397,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", subtyp:"SX8w9", heading:"Ruth Bader Ginsburg – Sexueller Typ 8", krankheit:"Vier Krebserkrankungen an drei sehr unterschiedlichen Organen über zwei Jahrzehnte", teaser:"SX8w9 – US-Bundesrichterin am Supreme Court, 1933–2020. Überstand von 1999 bis 2019/2020 vier Krebsdiagnosen an insgesamt drei verschiedenen, sehr unterschiedlichen Organen (Darm, Bauchspeicheldrüse zweimal, Lunge), ohne ihr Amt freiwillig zu räumen. Starb 2020 im Amt, wenige Wochen vor der Präsidentschaftswahl." , land:"USA", gender:"f", jahre:"1933–2020"},
   { route:"krankheitsportraets-friedrich-nietzsche", name:"Friedrich Nietzsche", subtyp:"SX5w4", heading:"Friedrich Nietzsche – Sexueller Typ 5", krankheit:"Chronische Migräne, Sehschwäche und geistiger Zusammenbruch", teaser:"SX5w4 – deutscher Philosoph, 1844–1900. Über Jahrzehnte chronische Migräne, Magenbeschwerden und fortschreitende Sehschwäche. Brach 1889 in Turin geistig zusammen und verbrachte die letzten elf Lebensjahre in geistiger Umnachtung – Ursache bis heute nicht abschließend geklärt." , land:"Deutschland", gender:"m", jahre:"1844–1900"},
   { route:"krankheitsportraets-fjodor-dostojewski", name:"Fjodor Dostojewski", subtyp:"SE6w5", heading:"Fjodor Dostojewski – Selbsterhaltender Typ 6", krankheit:"Lebenslange Epilepsie", teaser:"SE6w5 – russischer Schriftsteller, 1821–1881. Litt sein gesamtes erwachsenes Leben an Epilepsie, deren berühmte Aura er als Moment vollkommener Harmonie beschrieb. Verarbeitete die Krankheit direkt in seinen Romanfiguren, allen voran Fürst Myschkin in Der Idiot." , land:"Russland", gender:"m", jahre:"1821–1881"},
+  { route:"krankheitsportraets-franz-kafka", name:"Franz Kafka", subtyp:"SE5w4", heading:"Franz Kafka – Selbsterhaltender Typ 5", krankheit:"Kehlkopf-Tuberkulose", teaser:"SE5w4 – Schriftsteller, 1883–1924. Ab 1917 an Tuberkulose erkrankt, die zuletzt auf den Kehlkopf übergriff und ihm das Sprechen unmöglich machte. Starb 1924 im Alter von 40 Jahren, kommunizierte in den letzten Wochen nur noch über handschriftliche Zettel." , land:"Tschechien/Österreich-Ungarn", gender:"m", jahre:"1883–1924"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -46312,11 +46314,13 @@ function franzKafkaPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <p class="vb-intro">Die ab 1917 diagnostizierte Tuberkulose, die zuletzt seinen Kehlkopf befiel und ihm die Stimme nahm, wird ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-franz-kafka">Krankheitsporträt zu Kafka</a> gedeutet.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
         {route:"beruehmte-xu-bing", label:"Porträt: Xu Bing (SE5w4)"},
         {route:"beruehmte-christian-raetsch", label:"Porträt: Christian Rätsch (SE5w4)"},
+        {route:"krankheitsportraets-franz-kafka", label:"Krankheitsporträt: Franz Kafka (SE5w4)"},
       ])}
     </div>
   `);
@@ -67444,6 +67448,188 @@ function fjodorDostojewskiKrankheitsportraetPage() {
         {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se6", label:"Subtyp-Profil SE6"},
+      ])}
+    </div>
+  `);
+}
+
+function franzKafkaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-franz-kafka-portrait.jpg" alt="Franz Kafka" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Franz Kafka</p>
+        <p class="krim-portrait-typ">SE5w4 · Selbsterhaltender Typ 5 mit Viererflügel · 1883–1924</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Eule</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Tierentsprechung: Eule" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Franz Kafka</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-franz-kafka">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur kurz erwähnt
+        wird: Ab 1917 litt Kafka an Tuberkulose. In seinen letzten Lebensmonaten griff die
+        Krankheit auf den Kehlkopf über und machte ihm das Sprechen so unerträglich schmerzhaft,
+        dass er zuletzt nur noch über handschriftliche Zettel mit seiner Umgebung
+        kommunizieren konnte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Kafka</strong> ist der <strong>selbsterhaltenden Fünf mit Viererflügel</strong>
+        zugeordnet. Naranjo nannte die selbsterhaltende Fünf die <em>Burg</em>: Das eigene
+        Territorium wird zur Festung, die den Zugriff der Welt so weit wie möglich beschränkt.
+        Der Viererflügel bringt ein Gespür für das Einzigartige am eigenen inneren Erleben
+        hinzu – auch am eigenen Leiden, das Kafka nie nur als medizinisches Faktum, sondern
+        stets auch als Ausdruck seiner inneren Zerrissenheit deutete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Nach innen gerichtet, unbestechlich genau:</strong>
+        Kafkas Blick auf die eigene Krankheit war derselbe wie auf seine literarischen Figuren
+        – schonungslos präzise, ohne sich selbst zu schonen oder die eigene Lage zu
+        beschönigen.</p>
+        <p class="vb-intro"><strong>b) Krankheit als Bestätigung eines Verdachts:</strong>
+        In Briefen deutete Kafka die Tuberkulose-Diagnose fast erleichtert – als hätte sein
+        Körper endlich ausgesprochen, was sein Geist längst wusste. Der Fünferblick erkennt
+        auch im eigenen Verfall noch ein Muster, das sich einordnen lässt.</p>
+        <p class="vb-intro"><strong>c) Rückzug bis zur völligen Sprachlosigkeit:</strong>
+        Als die Krankheit den Kehlkopf befiel, verlor Kafka buchstäblich seine Stimme – die
+        Burg der SE5 erreichte hier ihre radikalste, ihm selbst nicht mehr aufgezwungene, aber
+        auch nicht mehr überwindbare Form.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die Diagnose als später Einschnitt:</strong>
+        1917 wurde bei Kafka Tuberkulose diagnostiziert, im Alter von 34 Jahren – ein
+        Wendepunkt, der ihm zunehmend Rückzugsgründe lieferte, die er zuvor nur psychologisch
+        hatte begründen müssen.</p>
+        <p class="vb-intro"><strong>b) Die Krankheit als Argument gegen Bindung:</strong>
+        Bereits vor der Diagnose hatte Kafka zwei Verlobungen mit Felice Bauer gelöst, weil ihm
+        die Ehe wie eine Bedrohung seiner literarischen Existenz erschien. Die Tuberkulose
+        lieferte ihm später ein zusätzliches, kaum anfechtbares Argument gegen jede dauerhafte
+        Nähe.</p>
+        <p class="vb-intro"><strong>c) Sanatorien statt Öffentlichkeit:</strong>
+        Die letzten Lebensjahre verbrachte Kafka überwiegend in Sanatorien – ein äußerlich
+        erzwungener, innerlich aber vertrauter Rückzug aus der Welt, die er zeitlebens
+        gemieden hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Schreiben bis zur physischen Grenze:</strong>
+        Auch in den letzten Lebensmonaten korrigierte Kafka noch Druckfahnen und arbeitete an
+        der Erzählung <em>Ein Hungerkünstler</em> – deren Titelfigur sich zu Tode fastet, weil
+        sie nie die Nahrung fand, die ihr schmeckte, ein Bild, das sich mit Kafkas eigenem,
+        durch die Krankheit erzwungenen Verhungern auf beklemmende Weise überschneidet.</p>
+        <p class="vb-intro"><strong>b) Kommunikation nur noch auf Papier:</strong>
+        In den letzten Wochen konnte Kafka nicht mehr sprechen und verständigte sich
+        ausschließlich über handschriftliche Zettel – eine Situation, die sein gesamtes
+        literarisches Schaffen, das fast ausschließlich im Schreiben und nie im direkten
+        Gespräch stattfand, auf tragische Weise beim Wort nahm.</p>
+        <p class="vb-intro"><strong>c) Milena Jesenská an seiner Seite:</strong>
+        Trotz seines Rückzugsmusters ließ Kafka in seiner letzten Lebensphase Milena
+        Jesenská so nah an sich heran wie kaum einen anderen Menschen – ein seltener Bruch der
+        sonst so konsequent verteidigten Burg.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Werk, das erst nach dem Tod wirkte:</strong>
+        Kafka starb 1924 weitgehend unbekannt als Schriftsteller – die Wucht seines Werks
+        entfaltete sich vollständig erst posthum, durch Max Brods Weigerung, es wie gewünscht
+        zu vernichten.</p>
+        <p class="vb-intro"><strong>b) Krankheit als literarisches Echo:</strong>
+        Themen wie Verfall, Bestrafung und Ausgeliefertsein an den eigenen Körper durchziehen
+        Kafkas Werk schon vor der Diagnose – die Tuberkulose bestätigte, wirkungsvoller als
+        jede Interpretation, ein Grundmuster, das er lange vorher literarisch vorweggenommen
+        hatte.</p>
+        <p class="vb-intro"><strong>c) Stille, die zur Stimme wurde:</strong>
+        Der Mensch, der im Sterben buchstäblich verstummte, wurde postum zu einer der
+        einflussreichsten literarischen Stimmen des zwanzigsten Jahrhunderts – eine Ironie, die
+        Kafka selbst kaum hätte erfinden können.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Schaffenskraft trotz fortschreitendem Verfall:</strong>
+        Selbst als Essen und Sprechen zur Qual wurden, arbeitete Kafka weiter an seinen Texten
+        – die Energie floss bis zuletzt dorthin, wo für ihn die eigentliche Existenz stattfand.</p>
+        <p class="vb-intro"><strong>b) Verschmelzung von Körper und literarischem Motiv:</strong>
+        Für Kafka gab es keine klare Trennung zwischen dem eigenen körperlichen Verfall und den
+        Themen seines Werks – beides durchdrang sich gegenseitig, ohne dass er es künstlich
+        trennen musste.</p>
+        <p class="vb-intro"><strong>c) Rückzug als einzig verbliebene Handlungsmöglichkeit:</strong>
+        Wo dem Körper immer weniger Handlungsspielraum blieb, zog sich Kafka noch tiefer in das
+        Schreiben zurück – die letzte, ihm verbliebene Form von Kontrolle.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Sieben Jahre mit einer tödlichen Diagnose:</strong>
+        1917 mit Tuberkulose diagnostiziert, starb Kafka 1924 im Alter von nur 40 Jahren in
+        einem Sanatorium bei Wien – sieben Jahre, in denen die Krankheit sein Leben zunehmend
+        bestimmte, ohne dass er sein literarisches Schaffen aufgab.</p>
+        <p class="vb-intro"><strong>b) Der Hungerkünstler als Vorwegnahme:</strong>
+        In seiner letzten vollendeten Erzählung, <em>Ein Hungerkünstler</em>, lässt Kafka eine
+        Figur verhungern, weil sie nie fand, was ihr schmeckte – kurz darauf machte die
+        fortschreitende Kehlkopf-Tuberkulose auch Kafka selbst das Essen so schmerzhaft, dass
+        er buchstäblich verhungerte.</p>
+        <p class="vb-intro"><strong>c) Ein Rückzugsargument, das er sich nie wünschen musste:</strong>
+        Kafka hatte sein Leben lang Nähe mit dem Verweis auf seine literarische Existenz
+        gemieden. Die Tuberkulose lieferte ihm, ungewollt, ein Argument, das niemand mehr
+        infrage stellen konnte – die Burg der SE5, diesmal nicht selbst errichtet, sondern vom
+        eigenen Körper endgültig vollendet.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet der Kehlkopf?</strong>
+        Kafkas gesamtes literarisches Werk kreist um Figuren, die sich einem übermächtigen,
+        undurchschaubaren System gegenüber nicht verständlich machen können – Josef K. in
+        <em>Der Prozess</em> erfährt nie, wessen er beschuldigt wird, der Landvermesser in
+        <em>Das Schloss</em> erreicht die Behörde nie, die über ihn entscheidet. Dass
+        ausgerechnet Kafkas eigene Krankheit sich zuletzt in seinem Kehlkopf festsetzte und ihm
+        buchstäblich die Stimme nahm, liest sich als bitterste denkbare Zuspitzung dieses
+        Grundmusters: der Mensch, dessen Figuren ein Leben lang nicht gehört wurden, verlor am
+        Ende auch selbst die physische Fähigkeit, gehört zu werden – und musste seine letzten
+        Worte, wie seine Figuren ihre letzten Hoffnungen, buchstäblich zu Papier bringen, statt
+        sie aussprechen zu können. Diese Deutung wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Fünf zwangsläufig zu
+        Tuberkulose oder anderen Erkrankungen der Atemwege führt – <strong>jeder Mensch kann
+        jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Kafkas Fall zeigen
+        lässt, ist ein Muster, das bei radikalem Rückzug aus zwischenmenschlicher Nähe in der
+        Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Kafka</strong> verkörpert die selbsterhaltende Fünf mit Viererflügel bis in die
+        eigene Krankheitsgeschichte hinein: ein Rückzug, der zur Lebensform wurde, ein Leiden,
+        das er nie von seinem Werk trennte, und eine Krankheit, die ihm ausgerechnet jenes
+        Organ nahm, mit dem er sich der Welt hätte verständlich machen können – während seine
+        Figuren genau dasselbe Schicksal literarisch vorweggenommen hatten. Die Eule, die im
+        Dunkeln schrieb, um von niemandem gesehen zu werden, verstummte am Ende auch im
+        wörtlichen Sinn – und wurde gerade dadurch zu einer der gehörtesten Stimmen der
+        Literaturgeschichte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-franz-kafka", label:"Porträt: Franz Kafka (SE5w4) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se5", label:"Subtyp-Profil SE5"},
       ])}
     </div>
   `);
@@ -96447,6 +96633,7 @@ function render() {
       "krankheitsportraets-ruth-bader-ginsburg": ruthBaderGinsburgKrankheitsportraetPage,
       "krankheitsportraets-friedrich-nietzsche": friedrichNietzscheKrankheitsportraetPage,
       "krankheitsportraets-fjodor-dostojewski": fjodorDostojewskiKrankheitsportraetPage,
+      "krankheitsportraets-franz-kafka": franzKafkaKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

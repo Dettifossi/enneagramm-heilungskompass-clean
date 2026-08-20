@@ -197,6 +197,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", subtyp:"SX8w9", heading:"Ruth Bader Ginsburg – Sexual Type 8", krankheit:"Four Cancers in Three Very Different Organs Over Two Decades", teaser:"SX8w9 – US Supreme Court Justice, 1933–2020. Survived four cancer diagnoses in three very different organs from 1999 to 2019/2020 (colon, pancreatic twice, lung) without ever voluntarily giving up her seat. Died in office in 2020, weeks before the presidential election." , land:"USA", gender:"f", jahre:"1933–2020"},
   { route:"krankheitsportraets-friedrich-nietzsche", name:"Friedrich Nietzsche", subtyp:"SX5w4", heading:"Friedrich Nietzsche – Sexual Type 5", krankheit:"Chronic Migraines, Failing Eyesight, and Mental Collapse", teaser:"SX5w4 – German philosopher, 1844–1900. Decades of chronic migraines, stomach complaints, and progressively failing eyesight. Suffered a mental collapse in Turin in 1889 and spent the last eleven years of his life in mental darkness – cause still not conclusively established." , land:"Germany", gender:"m", jahre:"1844–1900"},
   { route:"krankheitsportraets-fjodor-dostojewski", name:"Fjodor Dostojewski", subtyp:"SE6w5", heading:"Fjodor Dostoevsky – Self-Preservation Type 6", krankheit:"Lifelong Epilepsy", teaser:"SE6w5 – Russian writer, 1821–1881. Suffered from epilepsy for his entire adult life; described its famous aura as a moment of perfect harmony. Wrote the illness directly into his fiction, above all in Prince Myshkin in The Idiot." , land:"Russia", gender:"m", jahre:"1821–1881"},
+  { route:"krankheitsportraets-franz-kafka", name:"Franz Kafka", subtyp:"SE5w4", heading:"Franz Kafka – Self-Preservation Type 5", krankheit:"Laryngeal Tuberculosis", teaser:"SE5w4 – writer, 1883–1924. Diagnosed with tuberculosis in 1917, which eventually spread to his larynx and made speech impossible. Died in 1924 at age 40, communicating in his final weeks only through handwritten notes." , land:"Czechia/Austria-Hungary", gender:"m", jahre:"1883–1924"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -27162,11 +27163,13 @@ function franzKafkaPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <p class="vb-intro">The tuberculosis diagnosed from 1917 onward, which ultimately reached his larynx and took his voice, is explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-franz-kafka">Illness Portrait of Kafka</a>.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
         {route:"beruehmte-xu-bing", label:"Portrait: Xu Bing (SP5w4)"},
         {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SP5w4)"},
+        {route:"krankheitsportraets-franz-kafka", label:"Illness Portrait: Franz Kafka (SE5w4)"},
       ])}
     </div>
   `);
@@ -40609,6 +40612,176 @@ function fjodorDostojewskiKrankheitsportraetPage() {
         {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se6", label:"Subtype Profile SE6"},
+      ])}
+    </div>
+  `);
+}
+
+function franzKafkaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-franz-kafka-portrait.jpg" alt="Franz Kafka" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Franz Kafka</p>
+        <p class="krim-portrait-typ">SE5w4 · Self-Preservation Type 5 with Four-wing · 1883–1924</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Owl</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Franz Kafka</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-franz-kafka">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and type structure in general.
+        This page deals exclusively with a chapter only briefly mentioned there: from 1917
+        onward, Kafka suffered from tuberculosis. In his final months the illness spread to
+        his larynx, making speech so unbearably painful that he could communicate with those
+        around him only through handwritten notes.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Kafka</strong> is classified as the <strong>Self-Preservation Five with
+        Four-wing</strong>. Naranjo called the Self-Preservation Five the <em>Castle</em>: her
+        own territory becomes a fortress that limits the world's access as much as possible.
+        The Four-wing adds a sense for what is unique in one's own inner experience – including
+        one's own suffering, which Kafka never read merely as a medical fact but always also as
+        an expression of his inner rupture.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Turned inward, unsparingly precise:</strong>
+        Kafka's gaze on his own illness was the same as on his literary characters – mercilessly
+        precise, without sparing himself or softening his own situation.</p>
+        <p class="vb-intro"><strong>b) Illness as confirmation of a suspicion:</strong>
+        In letters, Kafka read the tuberculosis diagnosis almost with relief – as if his body
+        had finally spoken what his mind had long known. The Five's gaze finds a pattern to
+        classify even in its own decline.</p>
+        <p class="vb-intro"><strong>c) Withdrawal to the point of total voicelessness:</strong>
+        When the illness struck his larynx, Kafka literally lost his voice – the SE5's Castle
+        reached here its most radical form, no longer self-imposed but also no longer
+        surmountable.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) The diagnosis as a late turning point:</strong>
+        Kafka was diagnosed with tuberculosis in 1917, at age 34 – a turning point that
+        increasingly gave him grounds for withdrawal he had previously had to justify only
+        psychologically.</p>
+        <p class="vb-intro"><strong>b) Illness as an argument against commitment:</strong>
+        Even before the diagnosis, Kafka had broken off two engagements to Felice Bauer
+        because marriage felt to him like a threat to his literary existence. Tuberculosis
+        later gave him an additional, nearly unassailable argument against any lasting
+        closeness.</p>
+        <p class="vb-intro"><strong>c) Sanatoriums instead of public life:</strong>
+        Kafka spent his final years mostly in sanatoriums – an outwardly forced, but inwardly
+        familiar withdrawal from a world he had avoided his whole life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Writing to the physical limit:</strong>
+        Even in his final months, Kafka was still correcting proofs and working on the story
+        <em>A Hunger Artist</em> – whose title character starves to death because he never
+        found the food that suited him, an image that overlaps with Kafka's own, illness-forced
+        starvation in unsettling ways.</p>
+        <p class="vb-intro"><strong>b) Communication only on paper:</strong>
+        In his final weeks, Kafka could no longer speak and communicated exclusively through
+        handwritten notes – a situation that took his entire literary output, which had almost
+        always happened in writing rather than direct conversation, tragically at its word.</p>
+        <p class="vb-intro"><strong>c) Milena Jesenská at his side:</strong>
+        Despite his pattern of withdrawal, Kafka let Milena Jesenská closer to him in his final
+        phase than almost anyone else – a rare breach of the Castle he otherwise defended so
+        consistently.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A body of work that only took effect after death:</strong>
+        Kafka died in 1924, largely unknown as a writer – the full force of his work unfolded
+        only posthumously, through Max Brod's refusal to destroy it as instructed.</p>
+        <p class="vb-intro"><strong>b) Illness as a literary echo:</strong>
+        Themes of decay, punishment, and being at the mercy of one's own body run through
+        Kafka's work even before the diagnosis – the tuberculosis confirmed, more forcefully
+        than any interpretation could, a pattern he had already anticipated in literature.</p>
+        <p class="vb-intro"><strong>c) Silence that became a voice:</strong>
+        The man who literally fell silent as he died became, posthumously, one of the most
+        influential literary voices of the twentieth century – an irony Kafka himself could
+        hardly have invented.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Creative power despite advancing decline:</strong>
+        Even as eating and speaking became agony, Kafka kept working on his texts – energy
+        flowed, to the end, to where his actual existence took place.</p>
+        <p class="vb-intro"><strong>b) Fusion of body and literary motif:</strong>
+        For Kafka there was no clear separation between his own physical decline and the themes
+        of his work – both permeated each other without needing to be artificially separated.</p>
+        <p class="vb-intro"><strong>c) Withdrawal as the only remaining course of action:</strong>
+        As his body's room to act kept shrinking, Kafka withdrew even deeper into writing – the
+        last form of control still left to him.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) Seven years with a fatal diagnosis:</strong>
+        Diagnosed with tuberculosis in 1917, Kafka died in 1924 at only 40 years old in a
+        sanatorium near Vienna – seven years in which the illness increasingly dictated his
+        life without his giving up his literary work.</p>
+        <p class="vb-intro"><strong>b) The Hunger Artist as anticipation:</strong>
+        In his last completed story, <em>A Hunger Artist</em>, Kafka has a character starve
+        because he never found what suited his taste – shortly afterward, advancing laryngeal
+        tuberculosis made eating so painful for Kafka himself that he, too, literally starved.</p>
+        <p class="vb-intro"><strong>c) A ground for withdrawal he never had to wish for:</strong>
+        Kafka had spent his whole life avoiding closeness by citing his literary existence.
+        Tuberculosis gave him, unwanted, an argument no one could question anymore – the SE5's
+        Castle, this time not self-built but finally completed by his own body.</p>
+        <p class="vb-intro"><strong>d) Why the larynx, of all places?</strong>
+        Kafka's entire literary work revolves around characters who cannot make themselves
+        understood before an overpowering, incomprehensible system – Josef K. in <em>The
+        Trial</em> never learns what he is accused of, the land surveyor in <em>The Castle</em>
+        never reaches the authority that decides his fate. That Kafka's own illness ultimately
+        settled in his larynx and literally took his voice reads as the bitterest conceivable
+        intensification of this pattern: the man whose characters were never heard for a whole
+        lifetime ultimately lost, himself, the physical ability to be heard at all – and had to
+        put his final words on paper, just as his characters had to put their final hopes
+        there, rather than being able to speak them aloud. This reading is explored in more
+        depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        This does not mean the Self-Preservation Five's pattern inevitably leads to
+        tuberculosis or other respiratory illnesses – <strong>every person can develop any
+        illness, regardless of subtype.</strong> What Kafka's case can show is a pattern that
+        stands out again and again in practice wherever radical withdrawal from interpersonal
+        closeness is present – one possible explanation among many, not a verdict. The
+        corresponding condition will be developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Kafka</strong> embodies the Self-Preservation Five with Four-wing right down
+        into his own illness history: a withdrawal that became a way of life, a suffering he
+        never separated from his work, and an illness that took from him exactly the organ he
+        might have used to make himself understood to the world – while his characters had
+        already anticipated the very same fate in fiction. The owl who wrote in the dark so
+        that no one would see him ultimately fell silent in the literal sense too – and became,
+        precisely because of that, one of the most heard voices in literary history.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-franz-kafka", label:"Portrait: Franz Kafka (SE5w4) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se5", label:"Subtype Profile SE5"},
       ])}
     </div>
   `);
@@ -61992,6 +62165,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-ruth-bader-ginsburg": ruthBaderGinsburgKrankheitsportraetPage,
       "krankheitsportraets-friedrich-nietzsche": friedrichNietzscheKrankheitsportraetPage,
       "krankheitsportraets-fjodor-dostojewski": fjodorDostojewskiKrankheitsportraetPage,
+      "krankheitsportraets-franz-kafka": franzKafkaKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
