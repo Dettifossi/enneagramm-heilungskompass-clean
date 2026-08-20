@@ -39909,9 +39909,9 @@ function gustavMahlerKrankheitsportraetPage() {
         After the 1907 diagnosis, Mahler began meticulously monitoring his pulse – the same
         analytical precision he otherwise devoted to his scores now turned onto his own body.</p>
         <p class="vb-intro"><strong>c) Publicly visible, even in suffering:</strong>
-        Unlike Molière, who concealed his illness, Mahler processed his diagnosis immediately
-        and publicly – in his work, before an audience his music often unsettled. This is
-        Social Four visibility, not One-like concealment.</p>
+        Unlike Molière (SO7w6), who concealed his illness, Mahler processed his diagnosis
+        immediately and publicly – in his work, before an audience his music often unsettled.
+        This is SO4-typical visibility, not One-like concealment.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -39956,7 +39956,15 @@ function gustavMahlerKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) A work ahead of its time:</strong>
         Celebrated in his lifetime mainly as a conductor, Mahler's compositional work was only
         recognized as significant decades after his death – an audience that could only
-        follow his radical openness in retrospect.</p>
+        follow his radical openness in retrospect. This is typical of gifted individuals of
+        the Social Four subtype: they often set groundbreaking developments in motion that go
+        unrecognized in their own lifetime and only gain their true significance after their
+        death – almost as if fate were mirroring the SO4's position as the Four's classic
+        withdrawal type: someone who spends an entire life striving to be a person of special
+        significance tends not to find that significance precisely when pursued most directly,
+        but only afterward, unconsciously, once the ego itself is no longer in the way. What
+        the ego insists on obtaining, it typically does not receive, or not to the degree it
+        wished for.</p>
         <p class="vb-intro"><strong>c) Visible suffering as a legacy:</strong>
         Unlike concealed or suppressed illness histories, Mahler's final chapter lies openly
         documented – in letters, in the recollections of colleagues, and above all in the

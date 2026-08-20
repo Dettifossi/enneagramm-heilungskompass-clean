@@ -66709,9 +66709,9 @@ function gustavMahlerKrankheitsportraetPage() {
         analytische Genauigkeit, die er sonst seinen Partituren widmete, richtete sich nun auf
         den eigenen Körper.</p>
         <p class="vb-intro"><strong>c) Öffentlich sichtbar, auch im Leid:</strong>
-        Anders als Molière, der seine Krankheit verbarg, verarbeitete Mahler seine Diagnose
-        unmittelbar und öffentlich – in seinem Werk, vor einem Publikum, das seine Musik oft
-        genug verstörte. Das ist sozialer Vierer-typische Sichtbarkeit, kein einser-typisches
+        Anders als Molière (SO7w6), der seine Krankheit verbarg, verarbeitete Mahler seine
+        Diagnose unmittelbar und öffentlich – in seinem Werk, vor einem Publikum, das seine
+        Musik oft genug verstörte. Das ist SO4-typische Sichtbarkeit, kein einser-typisches
         Verschweigen.</p>
       </div>
 
@@ -66753,13 +66753,21 @@ function gustavMahlerKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
         <p class="vb-intro"><strong>a) Tragik, die zur Kunstform wird:</strong>
-        Mahlers Spätwerk gilt bis heute als einige der ergreifendsten Musik der
+        Mahlers Spätwerk gilt bis heute als eine der ergreifendsten Musik der
         Konzertliteratur – gerade weil die eigene Sterblichkeit unmittelbar hörbar wird, statt
         verborgen zu bleiben.</p>
         <p class="vb-intro"><strong>b) Ein Werk, das seiner Zeit voraus war:</strong>
         Zu Lebzeiten vor allem als Dirigent gefeiert, wurde Mahlers kompositorisches Werk erst
         Jahrzehnte nach seinem Tod als bedeutend anerkannt – ein Publikum, das seiner
-        radikalen Offenheit erst nachträglich folgen konnte.</p>
+        radikalen Offenheit erst nachträglich folgen konnte. Das ist typisch für geniale
+        Menschen des Subtyps der sozialen Vier: Sie leiten oft bahnbrechende Entwicklungen ein,
+        die zu ihren eigenen Lebzeiten nicht anerkannt werden und erst über den eigenen Tod
+        hinaus ihre wahre Bedeutung gewinnen – fast so, als würde das Schicksal der SO4, dem
+        klassischen Versteckungstyp der Vier, spiegeln: Wer sein ganzes Leben lang danach
+        strebt, ein besonderer Mensch zu sein, erreicht diese besondere Bedeutung gerade dann
+        nicht, wenn er sie am unmittelbarsten anstrebt, sondern erst im Nachhinein, unbewusst,
+        wenn das eigene Ego nicht mehr im Weg steht. Was man vom Ego her unbedingt anstrebt,
+        bekommt man in der Regel nicht oder nicht in dem Maß, wie man es sich wünscht.</p>
         <p class="vb-intro"><strong>c) Sichtbares Leid als Vermächtnis:</strong>
         Anders als bei verheimlichten oder verdrängten Krankheitsgeschichten liegt Mahlers
         letztes Kapitel offen zutage – dokumentiert in Briefen, Erinnerungen von Weggefährten
