@@ -38914,7 +38914,15 @@ function freudKrankheitsportraetPage() {
         physician Max Schur for a lethal dose of morphine. Even dying, he did not want to
         leave to chance – the Six who holds on to control over her own security until the
         very end, this time as a conscious decision over the final moment.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>e) Why the mouth, of all places?</strong>
+        For Freud, the mouth was the organ of two central functions at once: speech, with
+        which he taught, defended, and asserted authority for his theories, and the cigar,
+        his most important soothing agent against the underlying anxiety beneath the Six's
+        restless vigilance. Of all organs, the one through which he created both his
+        intellectual security (speaking, teaching, interpreting) and his emotional security
+        (the oral comfort of the cigar) became the site of the fatal illness – a reading
+        explored in more depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Framing without determinism:</strong>
         This does not mean the social Six's pattern inevitably leads to cancer –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Freud's case can show is a pattern that stands out again and again in practice with
@@ -39159,7 +39167,16 @@ function molierePortraitPage() {
         audience – the same masking move as Rowan Atkinson's, only under deadly seriousness.
         Read as a corrective: the body forced, on stage itself, the very attention that had
         been denied it for years in real life – a symptom as a final, unavoidable signpost.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>f) Why the lungs, of all places?</strong>
+        The lungs stand for breath – for the free, unhindered intake of life, precisely the
+        element the social Seven tries to secure through constant motion, ever-new roles and
+        projects. A chronic lung condition therefore hits an SO7 at her most sensitive point:
+        it constrains exactly the breadth and mobility that mean vitality itself to Type 7.
+        That Molière collapsed on stage of all places – in the moment of deepest breath before
+        an audience – reads as this pattern's sharpest point: the body forced the pause the
+        mind would never have allowed itself. This reading is explored in more depth in this
+        Compass's Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>g) Framing without determinism:</strong>
         This does not mean the social Seven inevitably leads to lung disease –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Molière's case can show is a pattern that stands out again and again in practice
@@ -39337,7 +39354,15 @@ function marieCurieKrankheitsportraetPage() {
         retreat into one's own competence protects effectively against the world – but it also
         makes it easier to overlook one's own physical warning signs, because attention to the
         body is experienced as a distraction from the actual cause.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Context without determinism:</strong>
+        <p class="vb-intro"><strong>e) Why the bone marrow, of all places?</strong>
+        Aplastic anemia means the bone marrow stops producing new blood cells – the body
+        literally shuts down its own resource production. For a Self-Preservation Five, whose
+        entire strategy consists of getting by on minimal consumption and hoarding resources
+        rather than continually renewing them, this reads like a physical intensification of
+        her own core pattern: where the SE5 economizes psychologically so as not to run out,
+        the organ that should have kept supplying her ultimately failed Curie of all things.
+        This reading is explored in more depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Context without determinism:</strong>
         This does not mean that the Self-Preservation Five's pattern inevitably leads to
         radiation damage or similar conditions – <strong>every person can develop any illness,
         regardless of subtype.</strong> What Curie's case can show is a pattern that stands out

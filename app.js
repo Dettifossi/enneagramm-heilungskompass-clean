@@ -65666,7 +65666,16 @@ function freudKrankheitsportraetPage() {
         nicht dem Zufall überlassen, sondern selbst bestimmen – die Sechs, die bis zuletzt
         die Kontrolle über die eigene Sicherheit behält, diesmal als bewusste Entscheidung
         über den letzten Moment.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        <p class="vb-intro"><strong>e) Warum ausgerechnet der Mund?</strong>
+        Der Mund war bei Freud das Organ zweier zentraler Funktionen zugleich: der Sprache, mit
+        der er seine Theorien lehrte, verteidigte und Autorität behauptete, und der Zigarre,
+        seinem wichtigsten Beruhigungsmittel gegen die Grundangst, die unter der rastlosen
+        Wachsamkeit der Sechs liegt. Ausgerechnet das Organ, mit dem er sowohl seine
+        intellektuelle Sicherheit (Sprechen, Lehren, Deuten) als auch seine emotionale
+        Sicherheit (die orale Beruhigung durch die Zigarre) herstellte, wurde zum Ort der
+        tödlichen Erkrankung – eine Deutung, die im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet wird.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sozialen Sechs zwangsläufig zu Krebserkrankungen führt –
         <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
         sich an Freuds Fall zeigen lässt, ist ein Muster, das bei einer Gewohnheit, die eng
@@ -65926,7 +65935,17 @@ function molierePortraitPage() {
         Atkinson, nur unter tödlichem Ernst. Gelesen als Korrektiv: Der Körper erzwang auf
         der Bühne selbst jene Aufmerksamkeit, die ihm im echten Leben jahrelang verweigert
         worden war – ein Symptom als letzter, unausweichlicher Wegweiser.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Einordnung ohne Determinismus:</strong>
+        <p class="vb-intro"><strong>f) Warum ausgerechnet die Lunge?</strong>
+        Die Lunge steht für den Atem – für die freie, ungehinderte Aufnahme von Leben, genau
+        jenes Element, das die soziale Sieben durch ständige Bewegung, immer neue Rollen und
+        Projekte zu sichern versucht. Eine chronische Lungenerkrankung trifft eine SO7 damit
+        an ihrem empfindlichsten Punkt: Sie schränkt genau jene Weite und Beweglichkeit ein,
+        die für den Typ 7 gleichbedeutend mit Lebendigkeit ist. Dass Molière ausgerechnet auf
+        der Bühne zusammenbrach – im Moment tiefsten Atemholens vor Publikum – liest sich als
+        Zuspitzung dieses Musters: Der Körper erzwang die Pause, die der Geist sich nie
+        erlaubt hätte. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>g) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass die soziale Sieben zwangsläufig zu Lungenkrankheiten führt –
         <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
         sich an Molières Fall zeigen lässt, ist ein Muster, das bei chronischer
@@ -66111,7 +66130,16 @@ function marieCurieKrankheitsportraetPage() {
         wirksam vor der Welt – aber er macht es zugleich leichter, die eigenen körperlichen
         Warnsignale zu übergehen, weil Aufmerksamkeit für den Körper als Ablenkung von der
         eigentlichen Sache empfunden wird.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        <p class="vb-intro"><strong>e) Warum ausgerechnet das Knochenmark?</strong>
+        Aplastische Anämie bedeutet, dass das Knochenmark aufhört, neue Blutzellen zu
+        produzieren – der Körper stellt buchstäblich seine eigene Ressourcenproduktion ein.
+        Bei einer selbsterhaltenden Fünf, deren gesamte Strategie darin besteht, mit
+        minimalem Verbrauch auszukommen und Ressourcen zu horten statt sie laufend zu
+        erneuern, liest sich das wie eine körperliche Zuspitzung des eigenen Grundmusters: Wo
+        die SE5 psychisch spart, um nicht zu verarmen, versagte bei Curie am Ende
+        ausgerechnet das Organ, das für Nachschub hätte sorgen sollen. Diese Deutung wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der selbsterhaltenden Fünf zwangsläufig zu
         Strahlenschäden oder ähnlichen Erkrankungen führt – <strong>jeder Mensch kann jede
         Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Curies Fall zeigen
