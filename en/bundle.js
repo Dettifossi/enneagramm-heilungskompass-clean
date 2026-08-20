@@ -41241,7 +41241,7 @@ function wolfgangAmadeusMozartKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) Working on the Requiem until shortly before death:</strong>
         Even from his sickbed, Mozart explained details of the orchestration to his student
         Franz Xaver Süssmayr – the Three-wing of the SE2 would not let go of the unfinished
-        proof of worth, even in the face of his own dying.</p>
+        musical work, even in the face of his own dying.</p>
         <p class="vb-intro"><strong>c) Death on December 5, 1791:</strong>
         About fifteen days after the first symptoms, Mozart died at the age of 35. His burial
         in a Viennese shaft grave was standard practice at the time, not a sign of poverty as

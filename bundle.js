@@ -68113,7 +68113,7 @@ function wolfgangAmadeusMozartKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) Arbeit am Requiem bis kurz vor dem Tod:</strong>
         Noch von seinem Krankenbett aus erklärte Mozart seinem Schüler Franz Xaver Süßmayr
         Einzelheiten der Instrumentierung – der Dreierflügel der SE2 ließ selbst im Angesicht
-        des eigenen Sterbens nicht vom unvollendeten Beweisstück ab.</p>
+        des eigenen Sterbens nicht vom unvollendeten Musikstück ab.</p>
         <p class="vb-intro"><strong>c) Tod am 5. Dezember 1791:</strong>
         Etwa fünfzehn Tage nach den ersten Symptomen starb Mozart im Alter von 35 Jahren. Die
         Beisetzung in einem Wiener Schachtgrab war damals übliche Praxis, kein Zeichen von
