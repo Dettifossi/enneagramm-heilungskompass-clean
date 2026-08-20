@@ -23966,6 +23966,7 @@ const registerEntries = [
   { term: "Marie Curie Krankheitsporträt", route: "krankheitsportraets-marie-curie", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Strahlenbelastung, aplastische Anämie" },
   { term: "Charles Darwin Krankheitsporträt", route: "krankheitsportraets-charles-darwin", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · chronische Verdauungs- und Erschöpfungsbeschwerden" },
   { term: "Winston Churchill Krankheitsporträt", route: "krankheitsportraets-winston-churchill", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Depression, verheimlichter Schlaganfall im Amt" },
+  { term: "Gustav Mahler Krankheitsporträt", route: "krankheitsportraets-gustav-mahler", description: "Portrait: SO4w5 · Sozialer Typ 4 · Herzklappenentzündung, verarbeitet im Spätwerk" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31388,6 +31389,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-marie-curie", name:"Marie Curie", subtyp:"SE5w6", heading:"Marie Curie – Selbsterhaltender Typ 5", krankheit:"Aplastische Anämie durch chronische Strahlenbelastung", teaser:"SE5w6 – Physikerin und Chemikerin, 1867–1934. Jahrzehntelange, ungeschützte Arbeit mit radioaktiven Stoffen, Radiumproben in der Kitteltasche, kontaminierte Notizbücher bis heute radioaktiv. Starb 1934 an aplastischer Anämie als direkte Folge der Strahlenbelastung, deren Gefahr sie selbst mit erforscht hatte." , land:"Polen/Frankreich", gender:"f", jahre:"1867–1934"},
   { route:"krankheitsportraets-charles-darwin", name:"Charles Darwin", subtyp:"SE5w6", heading:"Charles Darwin – Selbsterhaltender Typ 5", krankheit:"Chronische, nie eindeutig diagnostizierte Verdauungs- und Erschöpfungsbeschwerden", teaser:"SE5w6 – Naturforscher und Begründer der Evolutionstheorie, 1809–1882. Fast vierzig Jahre lang Übelkeit, Erbrechen, Herzklopfen und Erschöpfung, nie eindeutig diagnostiziert. Diskutierte Ursachen reichen von der Chagas-Krankheit bis zu psychosomatischer Genese durch radikalen Rückzug von der Außenwelt." , land:"Vereinigtes Königreich", gender:"m", jahre:"1809–1882"},
   { route:"krankheitsportraets-winston-churchill", name:"Winston Churchill", subtyp:"SE8w9", heading:"Winston Churchill – Selbsterhaltender Typ 8", krankheit:"Lebenslange Depression („the black dog“) und verheimlichter Schlaganfall im Amt", teaser:"SE8w9 – Britischer Staatsmann, Premierminister 1940–1945 & 1951–1955, 1874–1965. Erlitt 1953 im Amt einen schweren Schlaganfall, den er wochenlang vor Öffentlichkeit und weiten Teilen des Kabinetts verbarg, und litt lebenslang an wiederkehrender Depression." , land:"Vereinigtes Königreich", gender:"m", jahre:"1874–1965"},
+  { route:"krankheitsportraets-gustav-mahler", name:"Gustav Mahler", subtyp:"SO4w5", heading:"Gustav Mahler – Sozialer Typ 4", krankheit:"Subakute bakterielle Endokarditis (Herzklappenentzündung)", teaser:"SO4w5 – österreichischer Komponist und Dirigent, 1860–1911. 1907 mit einer schweren Herzerkrankung diagnostiziert, im selben Jahr wie der Tod seiner Tochter und der Verlust seiner Position an der Wiener Hofoper. Verarbeitete die Diagnose unmittelbar in seinem Spätwerk, darunter Das Lied von der Erde und die Neunte Sinfonie." , land:"Österreich", gender:"m", jahre:"1860–1911"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -52684,11 +52686,13 @@ function gustavMahlerPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      <p class="vb-intro">Die 1907 diagnostizierte Herzklappenentz\u00fcndung und ihr unmittelbarer Niederschlag im Sp\u00e4twerk \u2013 von \u201eDas Lied von der Erde\u201c bis zur Neunten Sinfonie \u2013 werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-gustav-mahler">Krankheitsportr\u00e4t zu Mahler</a> gedeutet.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
         {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
         {route:"beruehmte-edgar-allan-poe", label:"Portr\xe4t: Edgar Allan Poe (SO4w5)"},
+        {route:"krankheitsportraets-gustav-mahler", label:"Krankheitsportr\u00e4t: Gustav Mahler (SO4w5)"},
       ])}
     </div>
   `);
@@ -52754,6 +52758,7 @@ function marcelProustPortraitPage() {
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
         {route:"beruehmte-gustav-mahler", label:"Portr\xe4t: Gustav Mahler (SO4w5)"},
         {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
+        {route:"krankheitsportraets-gustav-mahler", label:"Krankheitsportr\u00e4t: Gustav Mahler (SO4w5) \u2013 Parallele zu Prousts Wettlauf gegen die Zeit"},
       ])}
     </div>
   `);
@@ -66562,6 +66567,197 @@ function winstonChurchillKrankheitsportraetPage() {
         {route:"beruehmte-golda-meir", label:"Porträt: Golda Meir (SE8w9)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se8", label:"Subtyp-Profil SE8"},
+      ])}
+    </div>
+  `);
+}
+
+function gustavMahlerKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-gustav-mahler-portrait.jpg" alt="Gustav Mahler – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gustav Mahler</p>
+        <p class="krim-portrait-typ">SO4w5 · Sozialer Typ 4 mit Fünferflügel · 1860–1911</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gürteltier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Gustav Mahler</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-gustav-mahler">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur
+        im Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur nebenbei
+        erwähnt wird: 1907 wurde bei Mahler eine schwere, bakteriell bedingte Herzklappenerkrankung
+        (subakute Endokarditis) diagnostiziert – im selben Jahr, in dem er auch seine Tochter
+        Maria und seine Position an der Wiener Hofoper verlor. Die Krankheit prägte seine
+        letzten vier Lebensjahre und sein Spätwerk bis zu seinem Tod 1911.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Mahler</strong> ist der <strong>sozialen Vier mit Fünferflügel</strong>
+        zugeordnet – demselben Subtyp wie <a href="javascript:void(0)" data-route="beruehmte-marcel-proust">Marcel Proust</a>
+        in diesem Kompass. Die soziale Vier sucht die Gruppe, um dort ihre tragische
+        Einzigartigkeit sichtbar auszuleben, statt im Verborgenen zu leiden. Der Fünferflügel
+        bringt den Drang hinzu, das eigene Gefühlsleben nicht nur zu durchleben, sondern in ein
+        gewaltiges, durchkonstruiertes System zu fassen – bei Mahler die Sinfonie als
+        &bdquo;Weltentwurf&ldquo;, der am Ende auch die eigene Sterblichkeit einschließen musste.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Nach innen gerichtet, tief empfindend:</strong>
+        Mahlers Blick suchte stets die eigene Gefühlswelt und übersetzte sie unmittelbar in
+        Klang – der typische Vierer-Blick, der das Erleben nicht verdrängt, sondern gestaltet.</p>
+        <p class="vb-intro"><strong>b) Wachsam gegenüber dem eigenen Herzschlag:</strong>
+        Nach der Diagnose 1907 begann Mahler, seinen Puls akribisch zu überwachen – dieselbe
+        analytische Genauigkeit, die er sonst seinen Partituren widmete, richtete sich nun auf
+        den eigenen Körper.</p>
+        <p class="vb-intro"><strong>c) Öffentlich sichtbar, auch im Leid:</strong>
+        Anders als Molière, der seine Krankheit verbarg, verarbeitete Mahler seine Diagnose
+        unmittelbar und öffentlich – in seinem Werk, vor einem Publikum, das seine Musik oft
+        genug verstörte. Das ist sozialer Vierer-typische Sichtbarkeit, kein einser-typisches
+        Verschweigen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Dreifachschlag von 1907:</strong>
+        Innerhalb weniger Monate verlor Mahler seine Tochter, seine Position an der Wiener
+        Hofoper und erhielt die Diagnose seiner eigenen tödlichen Herzkrankheit – die soziale
+        Vier verbirgt solches Leid nicht, sondern übersetzt es unmittelbar in Kunst.</p>
+        <p class="vb-intro"><strong>b) Ärztliche Einschränkungen als neue Realität:</strong>
+        Mahler wurde angewiesen, keinen anstrengenden Sport mehr zu treiben und seine
+        körperliche Aktivität drastisch einzuschränken – ein empfindlicher Einschnitt für
+        einen Mann, der zuvor stundenlange Bergwanderungen unternommen hatte.</p>
+        <p class="vb-intro"><strong>c) Weiterarbeit trotz Diagnose:</strong>
+        Statt sich zurückzuziehen, komponierte Mahler in den verbleibenden Jahren einige seiner
+        bedeutendsten Werke – &bdquo;Das Lied von der Erde&ldquo;, die Neunte Sinfonie, die
+        unvollendete Zehnte. Die Krankheit bremste die Produktivität nicht, sie beschleunigte
+        sie.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der Aberglaube der Neunten:</strong>
+        Aus Furcht vor dem &bdquo;Fluch der Neunten&ldquo; – da mehrere große Komponisten nach
+        ihrer neunten Sinfonie starben – nummerierte Mahler &bdquo;Das Lied von der Erde&ldquo;
+        bewusst nicht als Sinfonie. Die Ironie der Geschichte: Er starb dennoch, kurz nach der
+        Vollendung seiner tatsächlichen Neunten und mitten in der Arbeit an der Zehnten.</p>
+        <p class="vb-intro"><strong>b) Reisen trotz Schwäche:</strong>
+        Auch nach der Diagnose reiste Mahler mehrfach in die USA, um das New Yorker
+        Philharmonic Orchestra zu dirigieren – die soziale Vier sucht die Bühne, auch wenn der
+        Körper längst Grenzen setzt.</p>
+        <p class="vb-intro"><strong>c) Die Krankheit als kompositorisches Material:</strong>
+        Statt die Diagnose zu verschweigen oder zu verdrängen, floss sie unmittelbar in seine
+        letzten Werke ein – &bdquo;Das Lied von der Erde&ldquo; endet mit dem berühmten,
+        mehrfach wiederholten &bdquo;ewig&ldquo;, einem musikalischen Abschied, der als direkte
+        Reaktion auf die eigene Sterblichkeit gelesen wird.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tragik, die zur Kunstform wird:</strong>
+        Mahlers Spätwerk gilt bis heute als einige der ergreifendsten Musik der
+        Konzertliteratur – gerade weil die eigene Sterblichkeit unmittelbar hörbar wird, statt
+        verborgen zu bleiben.</p>
+        <p class="vb-intro"><strong>b) Ein Werk, das seiner Zeit voraus war:</strong>
+        Zu Lebzeiten vor allem als Dirigent gefeiert, wurde Mahlers kompositorisches Werk erst
+        Jahrzehnte nach seinem Tod als bedeutend anerkannt – ein Publikum, das seiner
+        radikalen Offenheit erst nachträglich folgen konnte.</p>
+        <p class="vb-intro"><strong>c) Sichtbares Leid als Vermächtnis:</strong>
+        Anders als bei verheimlichten oder verdrängten Krankheitsgeschichten liegt Mahlers
+        letztes Kapitel offen zutage – dokumentiert in Briefen, Erinnerungen von Weggefährten
+        und vor allem in der Musik selbst.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Verdichtete Schaffenskraft unter Zeitdruck:</strong>
+        Das Bewusstsein der eigenen Sterblichkeit beschleunigte statt bremste Mahlers
+        Produktivität – die letzten Werke entstanden mit einer Intensität, die kaum Pausen
+        zuließ.</p>
+        <p class="vb-intro"><strong>b) Verschmelzung von Leben und Werk:</strong>
+        Für Mahler gab es keine Trennung zwischen der eigenen Krankheitserfahrung und seiner
+        Musik – beides floss unmittelbar ineinander, ohne Distanz oder Verzögerung.</p>
+        <p class="vb-intro"><strong>c) Rastlosigkeit trotz körperlicher Grenzen:</strong>
+        Auch mit eingeschränkter Belastbarkeit dirigierte, reiste und komponierte Mahler bis
+        kurz vor seinem Tod – eine Energie, die sich der ärztlichen Vorsicht immer wieder
+        widersetzte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Jahr der dreifachen Erschütterung:</strong>
+        1907 verlor Mahler binnen weniger Monate seine Tochter Maria, seine Position an der
+        Wiener Hofoper durch antisemitisch motivierte Kampagnen, und erhielt die Diagnose einer
+        subakuten bakteriellen Endokarditis – eine Herzklappenentzündung, die zu jener Zeit als
+        unheilbar galt.</p>
+        <p class="vb-intro"><strong>b) Das Zählen des eigenen Pulses:</strong>
+        Zeitgenössische Berichte beschreiben, wie Mahler nach der Diagnose begann, seinen
+        eigenen Herzschlag akribisch zu kontrollieren und zu zählen – dieselbe analytische
+        Präzision, die er als Fünferflügel sonst seinen Partituren widmete, wandte sich nun
+        auf das eigene, versagende Organ.</p>
+        <p class="vb-intro"><strong>c) Kompositorische Verarbeitung statt Verdrängung:</strong>
+        Anders als bei Molière oder Freud, die ihre Krankheit über Jahre verbargen, verarbeitete
+        Mahler seine Diagnose unmittelbar in seinem Werk – &bdquo;Das Lied von der Erde&ldquo;
+        und die Neunte Sinfonie gelten als direkte künstlerische Auseinandersetzung mit dem
+        eigenen nahenden Tod. Die soziale Vier verbirgt ihr Leid nicht, sie macht es zum
+        zentralen Thema ihrer Kunst.</p>
+        <p class="vb-intro"><strong>d) Eine Parallele im gleichen Subtyp:</strong>
+        Auch <a href="javascript:void(0)" data-route="beruehmte-marcel-proust">Marcel Proust</a>
+        (SO4w5) wusste, dass seine chronische Lungenkrankheit ihn früh töten würde, und
+        arbeitete bis zum Sterbebett an seinem Lebenswerk, um es rechtzeitig zu vollenden. Bei
+        beiden zeigt sich dasselbe SO4w5-Muster: Das Wissen um die eigene Sterblichkeit wird
+        nicht verdrängt, sondern in einen Wettlauf gegen die Zeit verwandelt, der das
+        Spätwerk zur eindringlichsten Aussage des gesamten Schaffens macht.</p>
+        <p class="vb-intro"><strong>e) Warum ausgerechnet das Herz?</strong>
+        Das Herz ist seit jeher das Symbol für Gefühl, Sehnsucht und emotionale Tiefe – genau
+        jene Eigenschaften, auf denen die gesamte Identität der Vier beruht. Für eine soziale
+        Vier, deren Leidenschaft und Kunst aus einem übervollen, oft schmerzhaften Gefühlsleben
+        gespeist wird, liegt es nahe, gerade in einer Erkrankung des Herzens eine Zuspitzung
+        des eigenen Lebensmusters zu lesen: ein Organ, das jahrzehntelang Verlust, Sehnsucht und
+        Intensität in Musik übersetzt hatte, versagte am Ende buchstäblich unter dieser Last.
+        Mahler beantwortete das nicht mit Rückzug, sondern mit noch dichterer, noch
+        unmittelbarerer musikalischer Verarbeitung – bis das Herz, das seine Kunst überhaupt
+        erst ermöglicht hatte, selbst zum Thema seiner letzten Werke wurde. Diese Deutung wird
+        im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Vier zwangsläufig zu Herzerkrankungen
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Mahlers Fall zeigen lässt, ist ein Muster, das bei
+        unmittelbarer künstlerischer Verarbeitung existenziellen Leids in der Praxis immer
+        wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Mahler</strong> verkörpert die soziale Vier mit Fünferflügel bis in die eigene
+        Krankheitsgeschichte hinein: existenzielles Leid, das nicht verborgen, sondern in
+        monumentale, alles umfassende Kunst verwandelt wird, und ein Herz, das jahrzehntelang
+        Sehnsucht und Verlust in Musik übersetzt hatte, bevor es selbst zum letzten,
+        eindringlichsten Thema seines Werks wurde. Das Gürteltier, das im Zentrum der Wiener
+        Musikwelt stand und doch nie ganz dazugehörte, übersetzte auch sein eigenes Sterben in
+        ein Klangbild, das bis heute nachwirkt.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5) – Lebenswerk"},
+        {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}
     </div>
   `);
@@ -95561,6 +95757,7 @@ function render() {
       "krankheitsportraets-marie-curie": marieCurieKrankheitsportraetPage,
       "krankheitsportraets-charles-darwin": charlesDarwinKrankheitsportraetPage,
       "krankheitsportraets-winston-churchill": winstonChurchillKrankheitsportraetPage,
+      "krankheitsportraets-gustav-mahler": gustavMahlerKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
