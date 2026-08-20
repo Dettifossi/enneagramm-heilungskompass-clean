@@ -63585,6 +63585,7 @@ function ludwigXIVPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Ludwig XIV. starb 1715 in Versailles an Wundbrand, im Alter von 76 Jahren, nach 72 Regierungsjahren – länger als jeder andere Monarch der europäischen Geschichte. Seine letzten Worte an seinen Urenkel und Nachfolger sollen eine seltene, fast selbstkritische Warnung enthalten haben: nicht seinem Beispiel im übertriebenen Bauen und Kriegführen zu folgen.</p>
           <p class="vb-intro">Der Gepard, der als Vierzehnjähriger die Sonne tanzte, machte dieses Bild sechs Jahrzehnte lang zur Realität eines ganzen Königreichs. Das ist das bleibende Bild der sozialen Drei mit Zweierflügel: die Fähigkeit, aus einem einzigen strahlenden Auftritt ein Lebenswerk zu formen – verbunden mit der tiefen Notwendigkeit, dabei stets von anderen gesehen, bewundert und persönlich an sich gebunden zu sein.</p>
+          <p class="vb-intro">Zu seinem Hofstaat gehörte auch <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Molière</a> (SO7w6) – der Dramatiker, dessen Theatertruppe unter Ludwigs Gönnerschaft stand und der sich der schärfsten Gesellschaftssatire seiner Zeit widmete, bevor er 1673 auf der Bühne zusammenbrach. Mehr dazu im <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Krankheitsporträt zu Molière</a>.</p>
         </blockquote>
 
       </div>
@@ -63592,6 +63593,7 @@ function ludwigXIVPortraitPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
+        {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
         {route:"beruehmte-christiaan-barnard", label:"Porträt: Christiaan Barnard (SO3w2)"},
@@ -65515,7 +65517,7 @@ function molierePortraitPage() {
         Anwaltssohn auf, um Schauspieler und Theaterdirektor zu werden – und schuf mit
         Stücken wie <em>Tartuffe</em>, <em>Der Menschenfeind</em> und <em>Der eingebildete
         Kranke</em> ein Werk, das bis heute als schärfste Gesellschaftssatire der
-        französischen Klassik gilt. Zeitgenössen beschrieben ihn als den
+        französischen Klassik gilt. Zeitgenossen beschrieben ihn als den
         &bdquo;Contemplateur&ldquo; – einen wortkargen, scharf beobachtenden Menschen, der
         im persönlichen Umgang eher zurückhaltend und ernst wirkte, auf der Bühne aber
         blitzschnell, fordernd und hochemotional agieren konnte. Am 17. Februar 1673 brach
@@ -65570,7 +65572,7 @@ function molierePortraitPage() {
         Molières Blick auf die Welt war der eines genauen, fast distanzierten Beobachters,
         der die kleinen Widersprüche zwischen Anspruch und Wirklichkeit registrierte –
         die Grundlage jeder guten Satire. Kein zorniger Richterblick, sondern ein
-        neugieriges, wachsames Sammeln von Material – typisch siebener-sechser.</p>
+        neugieriges, wachsames Sammeln von Material – typisch für die SO7w6.</p>
         <p class="vb-intro"><strong>b) Groß, glänzend, aber ohne offen gezeigtes Gefühl:</strong>
         Zeitgenössische wie spätere Darstellungen zeigen ausdrucksstarke, große Augen –
         wach und aufmerksam, aber selten zornig oder eindeutig gefühlsbetont. Das passt zur
@@ -65579,7 +65581,17 @@ function molierePortraitPage() {
         <p class="vb-intro"><strong>c) Wachsam gegenüber Gefahr:</strong>
         Der Sechserflügel zeigt sich im Blick als ständige Einschätzung: Wie weit kann ich
         gehen, bevor es gefährlich wird? Diese Kalkulation – nie ganz sorglos, nie ganz
-        furchtlos – ist der Unterschied zu einer reineren, unbekümmerteren Sieben.</p>
+        furchtlos – ist der Unterschied zu einer reineren, unbekümmerteren Sieben, und das
+        Erkennungsmerkmal der SO7, dem &bdquo;erwachsenen Siebener&ldquo;.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die Sieben, die sich selbst nicht ganz traut:</strong>
+        Die soziale Sieben ist bei Naranjo ein sogenannter <strong>Kontratyp</strong>: Sie
+        lebt die Leidenschaft ihres Typs – die Völlerei, das Verlangen nach immer mehr
+        Erfahrung und Genuss – nicht offen aus, sondern verneint sie innerlich, unbewusst,
+        zugunsten des Dienstes an der Gruppe. Das gilt nicht nur für die SO7, sondern für
+        alle neun Kontratypen des Enneagramms: Weil sie sich mit dem eigenen Kernprinzip nie
+        ganz wohlfühlen und es unbewusst ablehnen, neigen sie schneller als andere Subtypen
+        dazu, unter Druck in ihre Stress- und Entspannungspunkte abzurutschen – bei Molière
+        genau das, was sich später als Verschiebung Richtung Typ 1 zeigt (siehe Abschnitt 6).</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -65597,9 +65609,10 @@ function molierePortraitPage() {
         getarnt.</p>
         <p class="vb-intro"><strong>c) Institution statt Einzelwerk:</strong>
         Als Autor, Regisseur, Schauspieler und Theaterleiter in Personalunion baute er über
-        Jahrzehnte eine Truppe auf, die ihn überdauerte – sozialer Instinkt in Reinform:
-        Energie fließt in den Aufbau und Erhalt einer Gemeinschaft, nicht in die eine
-        intensive Zweierbeziehung.</p>
+        Jahrzehnte eine Schauspielertruppe auf, die ihn überdauerte – sozialer Instinkt in
+        Reinform: Energie fließt in den Aufbau und Erhalt einer Gemeinschaft, nicht in die
+        eine intensive Zweierbeziehung wie bei der SX7 oder in die eigene materielle
+        Absicherung wie bei der SE7.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -65612,8 +65625,8 @@ function molierePortraitPage() {
         ungedeckt.</p>
         <p class="vb-intro"><strong>b) Ausdauer durch Vielfalt statt Sturheit:</strong>
         Trotz Zensur und wiederholter Aufführungsverbote gab er nie auf – aber er wich aus,
-        überarbeitete, fand neue Wege um das Verbot herum. Das ist siebener-typische
-        Beweglichkeit, nicht einser-typisches stures Beharren auf dem einen richtigen Weg.</p>
+        überarbeitete, fand neue Wege um das Verbot herum. Das ist die siebener-typische
+        Beweglichkeit, kein einser-typisches, stures Beharren auf dem einen richtigen Weg.</p>
         <p class="vb-intro"><strong>c) Die Maske als Ich-Schutz:</strong>
         Immer wieder spielte er selbst die zentralen Rollen seiner Stücke – auch die des
         Argan, des eingebildeten Kranken. Die Rolle war ein sicherer Ort, um Dinge zu zeigen
@@ -65623,14 +65636,15 @@ function molierePortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
         <p class="vb-intro"><strong>a) Geliebt und angefeindet zugleich:</strong>
-        <strong>Molière</strong> genoss die Günstlingschaft Ludwigs XIV. und zugleich die
-        erbitterte Feindschaft der von ihm bloßgestellten Kreise – typisch für die soziale
-        Sieben, die polarisiert, weil sie unbequeme Wahrheiten unterhaltsam verpackt, statt
-        sie zu verschweigen.</p>
+        <strong>Molière</strong> genoss die Günstlingschaft <a href="javascript:void(0)" data-route="beruehmte-ludwig-xiv">Ludwigs XIV.</a>
+        (SO3w2, ebenfalls in diesem Kompass porträtiert) und zugleich die erbitterte
+        Feindschaft der von ihm bloßgestellten Kreise – typisch für die soziale Sieben, die
+        polarisiert, weil sie unbequeme Wahrheiten unterhaltsam verpackt, statt sie zu
+        verschweigen.</p>
         <p class="vb-intro"><strong>b) Unterhaltsam statt anklagend:</strong>
         Seine Kritik wirkte nie nur wie eine Anklage, sondern brachte immer auch zum Lachen.
         Diese Gabe, gesellschaftliche Schärfe in Unterhaltung zu verwandeln, machte ihn beim
-        breiten Publikum beliebt – klassische SO7-Wirkung: Komik als Dienst an der
+        breiten Publikum beliebt – die klassische SO7-Wirkung: Komik als Dienst an der
         Öffentlichkeit.</p>
         <p class="vb-intro"><strong>c) Autorität durch Handwerk, nicht durch Charisma allein:</strong>
         Seine Truppe folgte ihm über Jahrzehnte, weil er als Handwerker des Theaters
@@ -65652,7 +65666,8 @@ function molierePortraitPage() {
         <p class="vb-intro"><strong>c) Humor als Ventil statt Konfrontation:</strong>
         Er wich echten emotionalen Konflikten – auch dem mit dem eigenen Körper – aus,
         indem er sie in Komödie verwandelte. Das ist der klassische Siebener-Reflex: Schmerz
-        sofort in Leichtigkeit ummünzen, statt ihn zu fühlen.</p>
+        sofort in Leichtigkeit ummünzen, statt ihn zu fühlen (die typische Leidvermeidung
+        des Typ 7).</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
@@ -65662,7 +65677,19 @@ function molierePortraitPage() {
         Lungenleiden – vermutlich Tuberkulose –, das sich in wiederkehrenden Hustenanfällen
         und zunehmender Erschöpfung zeigte. Er sprach kaum darüber, spielte weiter, leitete
         weiter, schrieb weiter.</p>
-        <p class="vb-intro"><strong>b) Wenn die Sieben in ihren Stresspunkt abrutscht – die Eins:</strong>
+        <p class="vb-intro"><strong>b) Die Leidvermeidung als klinisches Muster:</strong>
+        Dieses Verhalten zeigt sich in der therapeutischen Praxis bei Siebener-Patienten
+        regelmäßig: Wesentliches wird zunächst verschwiegen oder heruntergespielt und kommt
+        oft erst gegen Ende einer ausführlichen Anamnese zutage, wenn genauer nachgefragt
+        wird – die typische Leidvermeidung als Abwehrmechanismus, auf die man als Therapeut
+        gezielt achten muss. Hinzu kommt die Neigung, die eigene Erkrankung positiv
+        umzudeuten – Sätze wie &bdquo;Bis auf meinen Krebs geht es mir eigentlich gut, ich
+        habe drei erwachsene Kinder und eine Frau, die mich liebt&ldquo; sind typisch.
+        Dadurch werden Siebener-Patienten von Ärzten häufig nicht ernst genommen: Wer eine
+        so gute Miene zum Krankheitsbild macht, wird in seinem tatsächlichen Leidensdruck
+        unterschätzt, weil die zugrunde liegenden Enneagramm-Strukturen im klinischen
+        Alltag meist unbekannt sind. Die Patienten fühlen sich dadurch oft unverstanden.</p>
+        <p class="vb-intro"><strong>c) Wenn die Sieben in ihren Stresspunkt abrutscht – die Eins:</strong>
         Hier zeigt sich ein wichtiges Muster, das für Krankheitsporträts allgemein gilt:
         Unter jahrelangem, chronischem Stress bewegen sich Typen häufig entlang ihrer
         Stresslinie in Richtung ihres Stresspunkts – bei der Sieben ist das die Eins. Genau
@@ -65674,7 +65701,7 @@ function molierePortraitPage() {
         chronischer Überlastung immer weiter in ihre Stressrichtung hineinbewegt hat – der
         Kern bleibt Sieben, aber das Verhalten verhärtet sich zunehmend einser-artig:
         strenger, kontrollierter, pflichtbewusster, humorloser.</p>
-        <p class="vb-intro"><strong>c) Die soziale Sieben und die Pflicht, zu funktionieren:</strong>
+        <p class="vb-intro"><strong>d) Die soziale Sieben und die Pflicht, zu funktionieren:</strong>
         Die soziale Sieben definiert ihren Wert über den Dienst an der Gruppe – hier: an
         Truppe, Publikum und dem eigenen künstlerischen Anspruch. Krankheit einzugestehen
         hätte bedeutet, diesen Dienst zu unterbrechen. Der Sechserflügel verstärkt zusätzlich
@@ -65682,7 +65709,7 @@ function molierePortraitPage() {
         wie eine Bedrohung behandelt, die man kontrolliert, nicht wie ein Bedürfnis, das man
         äußert. So wurde aus einer behandelbaren Warnung über Jahre ein unaufhaltsames
         Fortschreiten.</p>
-        <p class="vb-intro"><strong>d) Die bittere Pointe: Der eingebildete Kranke:</strong>
+        <p class="vb-intro"><strong>e) Die bittere Pointe: Der eingebildete Kranke:</strong>
         Die letzte Ironie seines Lebens ist zugleich die deutlichste Deutung: Er starb in
         der Rolle eines Mannes, der sich Krankheiten einbildet, während er selbst an einer
         realen, tödlichen Krankheit litt, die er sich nicht einzugestehen erlaubte. Schon
@@ -65691,7 +65718,7 @@ function molierePortraitPage() {
         Atkinson, nur unter tödlichem Ernst. Gelesen als Korrektiv: Der Körper erzwang auf
         der Bühne selbst jene Aufmerksamkeit, die ihm im echten Leben jahrelang verweigert
         worden war – ein Symptom als letzter, unausweichlicher Wegweiser.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass die soziale Sieben zwangsläufig zu Lungenkrankheiten führt –
         <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
         sich an Molières Fall zeigen lässt, ist ein Muster, das bei chronischer

@@ -35898,6 +35898,7 @@ function ludwigXIVPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Louis XIV died in 1715 at Versailles of gangrene, aged 76, after 72 years on the throne &ndash; longer than any other monarch in European history. His last words to his great-grandson and successor are said to have contained a rare, almost self-critical warning: not to follow his example in excessive building and warfare.</p>
           <p class="vb-intro">The cheetah who, at fourteen, danced the sun turned that image into the reality of an entire kingdom for six decades. That is the lasting image of the social Three with the Two-wing: the ability to turn a single radiant performance into a life's work &ndash; joined with the deep need to always be seen, admired, and personally bound to others in the process.</p>
+          <p class="vb-intro">Among his court was also <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Molière</a> (SO7w6) &ndash; the playwright whose theater troupe stood under Louis's patronage and who devoted himself to the sharpest social satire of his time, before collapsing on stage in 1673. More in the <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Illness Portrait on Molière</a>.</p>
         </blockquote>
 
       </div>
@@ -35905,6 +35906,7 @@ function ludwigXIVPortraitPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
+        {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
         {route:"beruehmte-christiaan-barnard", label:"Portrait: Christiaan Barnard (SO3w2)"},
@@ -38823,7 +38825,7 @@ function molierePortraitPage() {
         Molière's way of looking at the world was that of a precise, almost detached
         observer who registered the small contradictions between claim and reality – the
         foundation of any good satire. Not an angry, judging gaze, but a curious, watchful
-        gathering of material – typical Seven-Six.</p>
+        gathering of material – typical of the SO7w6.</p>
         <p class="vb-intro"><strong>b) Large, bright, but without openly displayed feeling:</strong>
         Contemporary and later depictions show expressive, large eyes – alert and attentive,
         but rarely angry or clearly emotional. This fits a social Seven far from the sexual
@@ -38832,7 +38834,17 @@ function molierePortraitPage() {
         <p class="vb-intro"><strong>c) Watchful for danger:</strong>
         The Six-wing shows up in the gaze as a constant assessment: how far can I go before
         it becomes dangerous? This calculation – never quite carefree, never quite fearless
-        – is what sets him apart from a purer, more untroubled Seven.</p>
+        – is what sets him apart from a purer, more untroubled Seven, and the hallmark of the
+        SO7, the &bdquo;grown-up Seven&ldquo;.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The Seven that doesn't quite trust itself:</strong>
+        The social Seven is, in Naranjo's terms, a so-called <strong>countertype</strong>:
+        she lives out her type's core passion – gluttony, the craving for ever more
+        experience and pleasure – not openly, but inwardly denies it, unconsciously, in
+        favor of service to the group. This applies not only to the SO7, but to all nine
+        countertypes of the Enneagram: because they never feel quite at home in their own
+        core principle and unconsciously reject it, they tend to slide into their stress and
+        security points under pressure more readily than other subtypes – for Molière,
+        exactly what later shows up as a drift toward Type One (see section 6).</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -38849,8 +38861,9 @@ function molierePortraitPage() {
         cause.</p>
         <p class="vb-intro"><strong>c) Institution rather than a single body of work:</strong>
         As author, director, actor, and theater manager all in one, he spent decades
-        building a troupe that outlived him – social instinct in its purest form: energy
-        flows into building and sustaining a community, not into the one intense pair-bond.</p>
+        building a theater troupe that outlived him – social instinct in its purest form:
+        energy flows into building and sustaining a community, not into the one intense
+        pair-bond as with the SX7, or into personal material security as with the SE7.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -38862,8 +38875,8 @@ function molierePortraitPage() {
         This is exactly the Six-wing: attack, yes, but covered, never fully exposed.</p>
         <p class="vb-intro"><strong>b) Persistence through variety, not stubbornness:</strong>
         Despite censorship and repeated performance bans, he never gave up – but he sidestepped,
-        revised, found new ways around the ban. This is Seven-style agility, not One-style
-        stubborn insistence on the one right way.</p>
+        revised, found new ways around the ban. This is the Seven-style agility, not a
+        One-style stubborn insistence on the one right way.</p>
         <p class="vb-intro"><strong>c) The mask as self-protection:</strong>
         Again and again he played the central roles in his own plays – including Argan, the
         imaginary invalid. The role was a safe place to show things, even about himself,
@@ -38873,14 +38886,14 @@ function molierePortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
         <p class="vb-intro"><strong>a) Beloved and reviled at once:</strong>
-        <strong>Molière</strong> enjoyed the favor of Louis XIV while facing the bitter
-        enmity of the circles he exposed – typical of the social Seven, who polarizes
-        because she packages uncomfortable truths as entertainment instead of staying
-        silent.</p>
+        <strong>Molière</strong> enjoyed the favor of <a href="javascript:void(0)" data-route="beruehmte-ludwig-xiv">Louis XIV</a>
+        (SO3w2, also portrayed in this Compass) while facing the bitter enmity of the
+        circles he exposed – typical of the social Seven, who polarizes because she packages
+        uncomfortable truths as entertainment instead of staying silent.</p>
         <p class="vb-intro"><strong>b) Entertaining rather than accusatory:</strong>
         His criticism never landed as mere accusation, but always also made people laugh.
         This gift for turning social sharpness into entertainment made him beloved by a
-        broad audience – classic SO7 effect: comedy as a service to the public.</p>
+        broad audience – the classic SO7 effect: comedy as a service to the public.</p>
         <p class="vb-intro"><strong>c) Authority through craft, not charisma alone:</strong>
         His troupe followed him for decades because he was undeniably competent as a
         craftsman of theater – the Six-wing demands this demonstrable competence of itself
@@ -38901,7 +38914,8 @@ function molierePortraitPage() {
         <p class="vb-intro"><strong>c) Humor as an outlet rather than confrontation:</strong>
         He avoided real emotional conflict – including conflict with his own body – by
         turning it into comedy. This is the classic Seven reflex: convert pain into
-        lightness immediately, rather than feeling it.</p>
+        lightness immediately, rather than feeling it (the typical Seven-style avoidance
+        of suffering).</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
@@ -38910,7 +38924,19 @@ function molierePortraitPage() {
         <strong>Molière</strong> had suffered from a chronic lung ailment – presumably
         tuberculosis – since the 1660s, showing up in recurring coughing fits and growing
         exhaustion. He barely spoke of it, kept performing, kept directing, kept writing.</p>
-        <p class="vb-intro"><strong>b) When the Seven slides into her stress point – the One:</strong>
+        <p class="vb-intro"><strong>b) Avoidance of suffering as a clinical pattern:</strong>
+        This behavior shows up regularly in therapeutic practice with Seven patients:
+        significant issues are initially concealed or downplayed, often surfacing only late
+        in a thorough intake interview, once questioned more closely – the typical avoidance
+        of suffering as a defense mechanism therapists need to watch for specifically. There
+        is also a tendency to reframe one's own illness positively – sentences like
+        &bdquo;Apart from my cancer I'm actually doing fine, I have three grown children and
+        a wife who loves me&ldquo; are typical. As a result, Seven patients are often not
+        taken seriously by doctors: someone who puts such a good face on their condition
+        gets underestimated in their actual level of suffering, because the underlying
+        Enneagram structures are usually unknown in everyday clinical practice. Patients
+        often end up feeling misunderstood as a result.</p>
+        <p class="vb-intro"><strong>c) When the Seven slides into her stress point – the One:</strong>
         This reveals an important pattern that applies to Illness Portraits in general:
         under years of chronic stress, types often move along their stress line toward
         their stress point – for the Seven, that is the One. This is exactly why a first,
@@ -38921,14 +38947,14 @@ function molierePortraitPage() {
         overload, kept drifting further along her stress direction – the core remains
         Seven, but the behavior hardens into increasingly One-like patterns: stricter, more
         controlled, more duty-bound, less humorous.</p>
-        <p class="vb-intro"><strong>c) The social Seven and the duty to function:</strong>
+        <p class="vb-intro"><strong>d) The social Seven and the duty to function:</strong>
         The social Seven defines her worth through service to the group – here, to the
         troupe, the audience, and her own artistic standard. Admitting illness would have
         meant interrupting that service. The Six-wing further reinforces the tendency to
         manage danger rather than address it openly – illness was treated like a threat to
         be controlled, not a need to be voiced. So a treatable warning turned, over years,
         into an unstoppable progression.</p>
-        <p class="vb-intro"><strong>d) The bitter punchline: The Imaginary Invalid:</strong>
+        <p class="vb-intro"><strong>e) The bitter punchline: The Imaginary Invalid:</strong>
         The final irony of his life is also its clearest interpretation: he died playing a
         man who imagines illnesses, while he himself suffered from a real, fatal one he
         would not allow himself to acknowledge. Just a month earlier, on January 17, 1673,
@@ -38936,7 +38962,7 @@ function molierePortraitPage() {
         audience – the same masking move as Rowan Atkinson's, only under deadly seriousness.
         Read as a corrective: the body forced, on stage itself, the very attention that had
         been denied it for years in real life – a symptom as a final, unavoidable signpost.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Framing without determinism:</strong>
         This does not mean the social Seven inevitably leads to lung disease –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Molière's case can show is a pattern that stands out again and again in practice
