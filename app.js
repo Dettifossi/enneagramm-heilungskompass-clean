@@ -23967,7 +23967,7 @@ const registerEntries = [
   { term: "Charles Darwin Krankheitsporträt", route: "krankheitsportraets-charles-darwin", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · chronische Verdauungs- und Erschöpfungsbeschwerden" },
   { term: "Winston Churchill Krankheitsporträt", route: "krankheitsportraets-winston-churchill", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Depression, verheimlichter Schlaganfall im Amt" },
   { term: "Gustav Mahler Krankheitsporträt", route: "krankheitsportraets-gustav-mahler", description: "Portrait: SO4w5 · Sozialer Typ 4 · Herzklappenentzündung, verarbeitet im Spätwerk" },
-  { term: "Ruth Bader Ginsburg Krankheitsporträt", route: "krankheitsportraets-ruth-bader-ginsburg", description: "Portrait: SX8w9 · Sexueller Typ 8 · fünf Krebserkrankungen über zwei Jahrzehnte" },
+  { term: "Ruth Bader Ginsburg Krankheitsporträt", route: "krankheitsportraets-ruth-bader-ginsburg", description: "Portrait: SX8w9 · Sexueller Typ 8 · vier Krebserkrankungen an drei Organen über zwei Jahrzehnte" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31391,7 +31391,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-charles-darwin", name:"Charles Darwin", subtyp:"SE5w6", heading:"Charles Darwin – Selbsterhaltender Typ 5", krankheit:"Chronische, nie eindeutig diagnostizierte Verdauungs- und Erschöpfungsbeschwerden", teaser:"SE5w6 – Naturforscher und Begründer der Evolutionstheorie, 1809–1882. Fast vierzig Jahre lang Übelkeit, Erbrechen, Herzklopfen und Erschöpfung, nie eindeutig diagnostiziert. Diskutierte Ursachen reichen von der Chagas-Krankheit bis zu psychosomatischer Genese durch radikalen Rückzug von der Außenwelt." , land:"Vereinigtes Königreich", gender:"m", jahre:"1809–1882"},
   { route:"krankheitsportraets-winston-churchill", name:"Winston Churchill", subtyp:"SE8w9", heading:"Winston Churchill – Selbsterhaltender Typ 8", krankheit:"Lebenslange Depression („the black dog“) und verheimlichter Schlaganfall im Amt", teaser:"SE8w9 – Britischer Staatsmann, Premierminister 1940–1945 & 1951–1955, 1874–1965. Erlitt 1953 im Amt einen schweren Schlaganfall, den er wochenlang vor Öffentlichkeit und weiten Teilen des Kabinetts verbarg, und litt lebenslang an wiederkehrender Depression." , land:"Vereinigtes Königreich", gender:"m", jahre:"1874–1965"},
   { route:"krankheitsportraets-gustav-mahler", name:"Gustav Mahler", subtyp:"SO4w5", heading:"Gustav Mahler – Sozialer Typ 4", krankheit:"Subakute bakterielle Endokarditis (Herzklappenentzündung)", teaser:"SO4w5 – österreichischer Komponist und Dirigent, 1860–1911. 1907 mit einer schweren Herzerkrankung diagnostiziert, im selben Jahr der Tod seiner Tochter und der Verlust seiner Position an der Wiener Hofoper. Verarbeitete die Diagnose unmittelbar in seinem Spätwerk, darunter Das Lied von der Erde und die Neunte Sinfonie." , land:"Österreich", gender:"m", jahre:"1860–1911"},
-  { route:"krankheitsportraets-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", subtyp:"SX8w9", heading:"Ruth Bader Ginsburg – Sexueller Typ 8", krankheit:"Fünf Krebserkrankungen über zwei Jahrzehnte", teaser:"SX8w9 – US-Bundesrichterin am Supreme Court, 1933–2020. Überstand von 1999 bis 2019/2020 fünf verschiedene Krebserkrankungen (Darm, Bauchspeicheldrüse zweimal, Lunge), ohne ihr Amt freiwillig zu räumen. Starb 2020 im Amt, wenige Wochen vor der Präsidentschaftswahl." , land:"USA", gender:"f", jahre:"1933–2020"},
+  { route:"krankheitsportraets-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", subtyp:"SX8w9", heading:"Ruth Bader Ginsburg – Sexueller Typ 8", krankheit:"Vier Krebserkrankungen an drei Organen über zwei Jahrzehnte", teaser:"SX8w9 – US-Bundesrichterin am Supreme Court, 1933–2020. Überstand von 1999 bis 2019/2020 vier Krebsdiagnosen an drei Organen (Darm, Bauchspeicheldrüse zweimal, Lunge), ohne ihr Amt freiwillig zu räumen. Starb 2020 im Amt, wenige Wochen vor der Präsidentschaftswahl." , land:"USA", gender:"f", jahre:"1933–2020"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -50988,7 +50988,7 @@ function ruthBaderGinsburgPortraitPage() {
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
         </blockquote>
 
-        <p class="vb-intro">Die fünf Krebserkrankungen über zwei Jahrzehnte, die sie nie zum freiwilligen Rücktritt bewogen, werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-ruth-bader-ginsburg">Krankheitsporträt zu Ginsburg</a> gedeutet.</p>
+        <p class="vb-intro">Die vier Krebserkrankungen an drei Organen über zwei Jahrzehnte, die sie nie zum freiwilligen Rücktritt bewogen, werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-ruth-bader-ginsburg">Krankheitsporträt zu Ginsburg</a> gedeutet.</p>
         ${relatedLinks([
           {route:"beruehmte-genesis-p-orridge", label:"Portr\xe4t: Genesis P-Orridge (SX8w9)"},
           {route:"beruehmte-donald-trump", label:"Portr\xe4t: Donald J. Trump (SX8w7)"},
@@ -66903,8 +66903,8 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="beruehmte-ruth-bader-ginsburg">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um ihr Lebenswerk und ihre Typstruktur im
         Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur nebenbei erwähnt
-        wird: Über zwei Jahrzehnte hinweg überstand Ginsburg fünf verschiedene
-        Krebserkrankungen – Darmkrebs 1999, Bauchspeicheldrüsenkrebs 2009, Lungenkrebs 2018 und
+        wird: Über zwei Jahrzehnte hinweg überstand Ginsburg vier
+        Krebserkrankungen an drei Organen – Darmkrebs 1999, Bauchspeicheldrüsenkrebs 2009, Lungenkrebs 2018 und
         erneut Bauchspeicheldrüsenkrebs 2019/2020 – ohne ihr Amt am Supreme Court auch nur einen
         Tag freiwillig zu räumen. Sie starb 2020 im Amt, wenige Wochen vor einer
         Präsidentschaftswahl, deren Ausgang über ihre Nachfolge entscheiden würde.
@@ -66938,7 +66938,7 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Fünf Krebserkrankungen, ein Amt:</strong>
+        <p class="vb-intro"><strong>a) Vier Krebserkrankungen, ein Amt:</strong>
         Darmkrebs, zweimal Bauchspeicheldrüsenkrebs, Lungenkrebs – über zwei Jahrzehnte hinweg
         kehrte die Krankheit in immer neuer Form zurück. Ginsburg reagierte jedes Mal mit
         Behandlung, Genesung und Rückkehr ins Amt, nie mit Rückzug.</p>
@@ -66971,7 +66971,7 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Unerschütterlich wirkend, trotz fünffacher Krankheit:</strong>
+        <p class="vb-intro"><strong>a) Unerschütterlich wirkend, trotz wiederholter Krankheit:</strong>
         Für die Öffentlichkeit blieb Ginsburg bis kurz vor ihrem Tod die unbeugsame &bdquo;Notorious
         RBG&ldquo; – ein Bild, das ihre eigene Zurückhaltung über die Schwere ihrer Erkrankungen
         maßgeblich mit aufgebaut hatte.</p>
@@ -67017,7 +67017,7 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
         Territorium – hier: der Sitz am höchsten Gericht der Vereinigten Staaten – etwas, das
         man verteidigt, nicht freiwillig übergibt, solange noch Kraft dafür da ist.</p>
         <p class="vb-intro"><strong>d) Warum ausgerechnet der wiederkehrende Kampf?</strong>
-        Fünf verschiedene Krebserkrankungen an fünf verschiedenen Organen lassen sich nicht auf
+        Vier Krebserkrankungen an nur drei verschiedenen Organen lassen sich nicht auf
         ein einzelnes Organsymbol zuspitzen wie bei anderen Krankheitsporträts dieses Kompasses
         – ihr roter Faden liegt woanders: im Muster der wiederholten Invasion und Abwehr selbst.
         Krebs ist medizinisch betrachtet eine Invasion des eigenen Körpers durch entartete,
@@ -67045,7 +67045,7 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
         <strong>Ginsburg</strong> verkörpert die sexuelle Acht mit Neunerflügel bis in die
-        eigene Krankheitsgeschichte hinein: fünf Krebserkrankungen, fünf Rückkehrungen ins Amt,
+        eigene Krankheitsgeschichte hinein: vier Krebserkrankungen, vier Rückkehrungen ins Amt,
         und eine Weigerung, das eigene Territorium aufzugeben, die sich gegen politischen Druck
         ebenso richtete wie gegen den eigenen, wiederholt erkrankten Körper. Das Krokodil, das
         geduldig wartet und dann mit absoluter Präzision zuschlägt, verteidigte bis zuletzt

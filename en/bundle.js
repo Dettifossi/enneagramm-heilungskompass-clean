@@ -194,7 +194,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-charles-darwin", name:"Charles Darwin", subtyp:"SE5w6", heading:"Charles Darwin – Self-Preservation Type 5", krankheit:"Chronic, Never Clearly Diagnosed Digestive and Exhaustion Complaints", teaser:"SE5w6 – naturalist and founder of the theory of evolution, 1809–1882. Nearly forty years of nausea, vomiting, heart palpitations, and exhaustion, never clearly diagnosed. Proposed causes range from Chagas disease to a psychosomatic origin rooted in radical withdrawal from the outside world." , land:"United Kingdom", gender:"m", jahre:"1809–1882"},
   { route:"krankheitsportraets-winston-churchill", name:"Winston Churchill", subtyp:"SE8w9", heading:"Winston Churchill – Self-Preservation Type 8", krankheit:"Lifelong Depression (\"the black dog\") and a Concealed Stroke While in Office", teaser:"SE8w9 – British statesman, Prime Minister 1940–1945 & 1951–1955, 1874–1965. Suffered a severe stroke while in office in 1953, which he kept concealed from the public and much of his own cabinet for weeks, and lived with recurring depression his entire life." , land:"United Kingdom", gender:"m", jahre:"1874–1965"},
   { route:"krankheitsportraets-gustav-mahler", name:"Gustav Mahler", subtyp:"SO4w5", heading:"Gustav Mahler – Social Type 4", krankheit:"Subacute Bacterial Endocarditis (Heart Valve Infection)", teaser:"SO4w5 – Austrian composer and conductor, 1860–1911. Diagnosed with a severe heart condition in 1907, the same year his daughter died and he lost his position at the Vienna Court Opera. Processed the diagnosis immediately in his late works, including Das Lied von der Erde and the Ninth Symphony." , land:"Austria", gender:"m", jahre:"1860–1911"},
-  { route:"krankheitsportraets-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", subtyp:"SX8w9", heading:"Ruth Bader Ginsburg – Sexual Type 8", krankheit:"Five Cancers Over Two Decades", teaser:"SX8w9 – US Supreme Court Justice, 1933–2020. Survived five different cancers from 1999 to 2019/2020 (colon, pancreatic twice, lung) without ever voluntarily giving up her seat. Died in office in 2020, weeks before the presidential election." , land:"USA", gender:"f", jahre:"1933–2020"},
+  { route:"krankheitsportraets-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", subtyp:"SX8w9", heading:"Ruth Bader Ginsburg – Sexual Type 8", krankheit:"Four Cancers in Three Organs Over Two Decades", teaser:"SX8w9 – US Supreme Court Justice, 1933–2020. Survived four cancer diagnoses in three organs from 1999 to 2019/2020 (colon, pancreatic twice, lung) without ever voluntarily giving up her seat. Died in office in 2020, weeks before the presidential election." , land:"USA", gender:"f", jahre:"1933–2020"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -23456,7 +23456,7 @@ function ruthBaderGinsburgPortraitPage() {
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
-        <p class="vb-intro">The five cancers over two decades that never moved her to voluntary resignation are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-ruth-bader-ginsburg">Illness Portrait of Ginsburg</a>.</p>
+        <p class="vb-intro">The four cancers in three organs over two decades that never moved her to voluntary resignation are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-ruth-bader-ginsburg">Illness Portrait of Ginsburg</a>.</p>
         ${relatedLinks([
           {route:"beruehmte-genesis-p-orridge", label:"Portrait: Genesis P-Orridge (SX8w9)"},
           {route:"beruehmte-donald-trump", label:"Portrait: Donald J. Trump (SX8w7)"},
@@ -40093,7 +40093,7 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="beruehmte-ruth-bader-ginsburg">portrait under Famous Personalities</a>
         in this Compass – that page covers her life's work and type structure in general.
         This page deals exclusively with a chapter that's mentioned there only in passing:
-        over more than two decades, Ginsburg survived five different cancers – colon cancer in
+        over more than two decades, Ginsburg survived four cancer diagnoses in three organs – colon cancer in
         1999, pancreatic cancer in 2009, lung cancer in 2018, and pancreatic cancer again in
         2019/2020 – without ever voluntarily giving up her seat on the Supreme Court for a
         single day. She died in office in 2020, weeks before a presidential election whose
@@ -40126,7 +40126,7 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
-        <p class="vb-intro"><strong>a) Five cancers, one seat:</strong>
+        <p class="vb-intro"><strong>a) Four cancers, one seat:</strong>
         Colon cancer, pancreatic cancer twice, lung cancer – over two decades, the illness kept
         returning in ever new forms. Each time, Ginsburg responded with treatment, recovery,
         and a return to the bench, never with retreat.</p>
@@ -40157,7 +40157,7 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
-        <p class="vb-intro"><strong>a) Appearing unshakeable despite five illnesses:</strong>
+        <p class="vb-intro"><strong>a) Appearing unshakeable despite repeated illness:</strong>
         To the public, Ginsburg remained, until shortly before her death, the unbending
         "Notorious RBG" – an image her own reticence about the severity of her illnesses
         substantially helped build.</p>
@@ -40202,7 +40202,7 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
         court in the United States – is something to be defended, not voluntarily handed over,
         as long as any strength remains to do so.</p>
         <p class="vb-intro"><strong>d) Why the recurring fight, of all things?</strong>
-        Five different cancers in five different organs cannot be narrowed to a single organ
+        Four cancers in only three different organs cannot be narrowed to a single organ
         symbol the way other Illness Portraits in this Compass can – her red thread lies
         elsewhere: in the pattern of repeated invasion and defense itself. Medically speaking,
         cancer is an invasion of the body by its own cells turned foreign and malignant – a
@@ -40228,7 +40228,7 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
         <strong>Ginsburg</strong> embodies the Sexual Eight with Nine-wing right down into her
-        own illness history: five cancers, five returns to the bench, and a refusal to give up
+        own illness history: four cancers, four returns to the bench, and a refusal to give up
         her own territory that was directed as much against political pressure as against her
         own, repeatedly ill body. The crocodile, who waits patiently and then strikes with
         absolute precision, defended, until the very end, exactly the one territory that
