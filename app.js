@@ -67393,7 +67393,7 @@ function fjodorDostojewskiKrankheitsportraetPage() {
         <p class="vb-intro"><strong>c) Sofortige literarische Verarbeitung statt Verdrängung:</strong>
         Anders als bei Krankheitsgeschichten, die über Jahre verborgen blieben, verarbeitete
         Dostojewski seine Epilepsie unmittelbar und wiederholt in seinem Werk – am
-        eindrücklichsten in der Figur des Fürst Myschkin, dessen Anfälle Wort für Wort
+        eindrücklichsten in der Figur des Fürsten Myschkin, dessen Anfälle Wort für Wort
         Dostojewskis eigenen Erfahrungen nachempfunden sind.</p>
         <p class="vb-intro"><strong>d) Eine Parallele im gleichen Subtyp:</strong>
         Auch <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">Franz
