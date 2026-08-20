@@ -190,6 +190,7 @@ const KRIMINAL_PORTRAITS = [
 const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-moliere", name:"Molière", subtyp:"SO7w6", heading:"Molière – Social Type 7", krankheit:"Chronic Lung Disease (presumably Tuberculosis)", teaser:"SO7w6 – French playwright and actor, 1622–1673. Creator of Tartuffe, The Misanthrope, and The Imaginary Invalid. Collapsed on stage during the fourth performance of The Imaginary Invalid – in the role of a hypochondriac – and died hours later of a lung ailment he had concealed for years." , land:"France", gender:"m", jahre:"1622–1673"},
   { route:"krankheitsportraets-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5", heading:"Sigmund Freud – Social Type 6", krankheit:"Oral and Jaw Cancer", teaser:"SO6w5 – founder of psychoanalysis, 1856–1939. Diagnosed with jaw cancer in 1923, over 30 surgeries in 16 years, kept smoking cigars despite the diagnosis and refused effective painkillers for years to stay mentally clear. Died in 1939 in London exile through physician-assisted death." , land:"Austria", gender:"m", jahre:"1856–1939"},
+  { route:"krankheitsportraets-marie-curie", name:"Marie Curie", subtyp:"SE5w6", heading:"Marie Curie – Self-Preservation Type 5", krankheit:"Aplastic Anemia from Chronic Radiation Exposure", teaser:"SE5w6 – physicist and chemist, 1867–1934. Decades of unprotected work with radioactive materials, radium samples carried in her coat pocket, notebooks still radioactive today. Died in 1934 of aplastic anemia, a direct consequence of the radiation exposure whose dangers she herself helped to uncover." , land:"Poland/France", gender:"f", jahre:"1867–1934"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -24841,6 +24842,7 @@ function charlesDarwinPortraitPage() {
         {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
         {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SE5w6)"},
         {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5w6)"},
+        {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SE5w6) – parallel to Darwin's chronic illness"},
       ])}
     </div>
   `);
@@ -31040,9 +31042,12 @@ function marieCuriePortraitPage() {
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
         </blockquote>
 
+        <p class="vb-intro">Her final years – marked by decades of unprotected work with radioactive materials and her death from aplastic anemia in 1934 – are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-marie-curie">Illness Portrait of Curie</a>.</p>
+
         ${relatedLinks([
           {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
           {route:"beruehmte-amelia-earhart", label:"Portrait: Amelia Earhart (SP9w1)"},
+          {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SE5w6)"},
         ])}
       </div>
     </div>
@@ -39182,6 +39187,182 @@ function molierePortraitPage() {
         {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so7", label:"Subtype Profile SO7"},
+      ])}
+    </div>
+  `);
+}
+
+function marieCurieKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-marie-curie-portrait.jpg" alt="Marie Curie – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marie Curie</p>
+        <p class="krim-portrait-typ">SE5w6 · Self-Preservation Type 5 with Six-wing · 1867–1934</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Owl</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Marie Curie</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-marie-curie">portrait under Famous Personalities</a>
+        in this Compass – that page covers her life's work and her type structure in general.
+        This page deals exclusively with a chapter only briefly touched there: decades of
+        unprotected work with radioactive materials – no gloves, no lead shielding, radium
+        samples carried in her coat pocket because the glow in the dark fascinated her. In
+        1934 Curie died of aplastic anemia, a direct consequence of this radiation exposure.
+        Her lab notebooks are still so radioactive today that they are kept in lead-lined
+        boxes and can only be examined wearing protective clothing.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Curie</strong> is classified as the <strong>Self-Preservation Five with
+        Six-wing</strong> – the same subtype as
+        <a href="javascript:void(0)" data-route="beruehmte-charles-darwin">Charles Darwin</a>
+        in this Compass. Naranjo called the Self-Preservation Five the <em>Refuge</em>: safety
+        arises from retreating into a self-controlled space in which knowledge and competence
+        form the actual basis of existence – for Curie, the laboratory in which she quite
+        literally lived. The Six-wing adds loyal devotion to a cause larger than oneself – for
+        Curie, the conviction that her research served humanity, whatever the cost.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Precise, tireless, incorruptible:</strong>
+        Curie's gaze went to what others overlooked – invisible radiation hidden in tons of
+        pitchblende, sought by manual labor over years. That is the Five's gaze: truth doesn't
+        sit on the surface but must be laboriously uncovered.</p>
+        <p class="vb-intro"><strong>b) Watchful outward, blind inward:</strong>
+        For measurement errors, imprecise data, and methodological weaknesses Curie had no
+        tolerance – but for the advancing warning signs of her own body (exhaustion, scarred
+        fingers, cataracts) her gaze stayed conspicuously unfocused.</p>
+        <p class="vb-intro"><strong>c) Reserved as soon as fame begins:</strong>
+        Grand appearances, honors, public stages – Curie avoided them wherever possible; her
+        gaze belonged to the lab, not the audience. Typical Self-Preservation Five: attention
+        as distraction from the actual work.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Asceticism as a way of life:</strong>
+        Already as a student in Paris, Curie reduced food, heating, and comfort to the bare
+        minimum to afford her studies – a frugality she kept for life, long after it was
+        financially necessary.</p>
+        <p class="vb-intro"><strong>b) Competence rather than relationship as an anchor of safety:</strong>
+        It wasn't recognition or belonging that grounded Curie, but precise knowledge of her
+        field – a foundation no one could take from her.</p>
+        <p class="vb-intro"><strong>c) The lab as refuge:</strong>
+        A makeshift shed became, for years, her actual home – a self-controlled space the
+        outside world and its demands could not reach.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Loyalty beyond death:</strong>
+        After Pierre Curie's death in 1906, Marie took over not only his professorship but
+        continued their joint research with the same persistence – the Six-wing as a bond that
+        turns loss into continuation.</p>
+        <p class="vb-intro"><strong>b) Service to a cause larger than oneself:</strong>
+        The mobile X-ray units in World War I, the training of roughly 150 X-ray assistants –
+        knowledge was consistently translated into concrete benefit for others, not hoarded as
+        private merit.</p>
+        <p class="vb-intro"><strong>c) Stubbornness where caution was warranted:</strong>
+        Curie and her contemporaries understood the dangers of radioactive radiation only
+        incompletely – yet even as early suspicions arose, she barely changed her working
+        methods. That is the flip side of the Refuge: someone who is self-sufficient also
+        needs no warning from outside.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) An unreachable role model:</strong>
+        As the only person in history with Nobel Prizes in two different sciences, Curie still
+        looks like an exception today – an effect she built entirely through quiet, tireless
+        persistence.</p>
+        <p class="vb-intro"><strong>b) Reserved, yet unbending:</strong>
+        Curie avoided the big stage but wouldn't be swayed on substance – a combination that
+        often makes Self-Preservation Fives seem easy to underestimate, until their persistence
+        proves stronger than louder resistance.</p>
+        <p class="vb-intro"><strong>c) Trust earned through demonstrable achievement:</strong>
+        Her standing grew not from charisma but from results that could not be argued away –
+        the Five's gaze demands this provability of itself before expecting it of others.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Sparing with her own energy – except in the lab:</strong>
+        Curie lived frugally in nearly everything, yet spent herself in the lab without
+        discernible limit – energy flowed to where actual safety was located.</p>
+        <p class="vb-intro"><strong>b) Fusion of person and research:</strong>
+        Her identity was inseparable from her work – a distinction between "Marie Curie" and
+        "the research" made no sense to her.</p>
+        <p class="vb-intro"><strong>c) Retreat instead of recovery:</strong>
+        Rather than resting when exhausted, Curie withdrew even deeper into the lab – a
+        movement that gave short-term safety but contributed, long-term, to her own
+        destruction.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) The invisible poison:</strong>
+        Curie carried radium samples in her coat pocket because the glow in the dark fascinated
+        her, kept contaminated notebooks unprotected, and worked for decades without gloves or
+        lead shielding. Her fingers were scarred and burned, she developed cataracts and
+        chronic exhaustion – symptoms she consistently attributed to hard work, not to the
+        radiation whose danger she herself had helped to research.</p>
+        <p class="vb-intro"><strong>b) Self-denial becomes denial of illness:</strong>
+        The same ascetic stance with which Curie, as a student, went without heating and
+        adequate food, she later applied unconsciously to her symptoms of illness: her own
+        body was secondary as long as the work continued. The Self-Preservation Five's Refuge
+        protects against the outside world – but it offers no protection against dangers one
+        carries into that refuge oneself.</p>
+        <p class="vb-intro"><strong>c) Loyalty to the cause over her own body:</strong>
+        The Six-wing bound Curie to the conviction that her research served humanity – a duty
+        that weighed heavier than her own safety. She kept researching even as her health
+        visibly declined, until she died in 1934 at a sanatorium in the French Alps of
+        aplastic anemia.</p>
+        <p class="vb-intro"><strong>d) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="beruehmte-charles-darwin">Charles Darwin</a>
+        (SE5w6) also lived for decades with a chronic, never clearly diagnosed illness,
+        retreated ever deeper into his self-controlled refuge at Down House because of it, and
+        hardly let it keep him from his research work. Both cases show the same SE5 pattern:
+        retreat into one's own competence protects effectively against the world – but it also
+        makes it easier to overlook one's own physical warning signs, because attention to the
+        body is experienced as a distraction from the actual cause.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Context without determinism:</strong>
+        This does not mean that the Self-Preservation Five's pattern inevitably leads to
+        radiation damage or similar conditions – <strong>every person can develop any illness,
+        regardless of subtype.</strong> What Curie's case can show is a pattern that stands out
+        again and again in practice wherever total devotion to one's own work is present – one
+        possible explanation among many, not a verdict. The corresponding condition will be
+        developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Curie</strong> embodies the Self-Preservation Five with Six-wing right down
+        into her own illness history: radical frugality, a refuge built of knowledge and
+        competence, and loyalty to her cause that outweighed every warning sign from her own
+        body. The owl, which sees in the dark what others overlook, ended up overlooking the
+        one thing closest to her – the radiation she herself had made visible to the world.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-marie-curie", label:"Portrait: Marie Curie (SE5w6) – life's work"},
+        {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6)"},
+        {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se5", label:"Subtype Profile SE5"},
       ])}
     </div>
   `);
@@ -60558,6 +60739,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
+      "krankheitsportraets-marie-curie": marieCurieKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
