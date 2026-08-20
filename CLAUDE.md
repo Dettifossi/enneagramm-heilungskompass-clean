@@ -58,6 +58,12 @@ Die Rubrik „Lebensmusterkompass" (`LEBENSMUSTERKOMPASS`-Objekt in `bundle.js`,
 
 **Keine exakten Porträt-Zahlen in `beleg`/`beschreibung` verwenden** (z. B. nicht „einziger Fall unter den 14 SO4-Porträts"), da diese bei jedem neuen Porträt veralten würden und nicht automatisch mitgezählt werden. Stattdessen zahlenfreie, zeitlose Formulierungen wie „der einzige bekannte Fall dieser Art unter den SO4-Porträts dieses Kompasses" oder „die überwiegende Mehrheit der SX4 in diesem Kompass zeigt dieses Muster nicht". Trifft ein neues Porträt eine bestehende „einziger/einzige"-Aussage nicht mehr zu (z. B. weil ein zweiter vergleichbarer Fall dazukommt), muss die Formulierung entsprechend angepasst werden (z. B. zu „einer von zwei bekannten Fällen").
 
+## Krankheitsporträts — Stresspunkt bei chronischer Erkrankung mitdenken
+
+Bei der Typisierung für **Krankheitsporträts** (historische Personen, deren Krankheitsverlauf gedeutet wird) gilt eine wichtige methodische Faustregel, die sich am Fall Molière (SO7w6) gezeigt hat: Wer über Jahre oder Jahrzehnte in chronischem Stress lebt (z. B. durch eine lange verschwiegene, fortschreitende Krankheit), bewegt sich zunehmend entlang seiner **Stresslinie** in Richtung seines **Stresspunkts** — beim Typ 7 ist das die Eins, beim Typ 1 die Vier, usw. Dadurch zeigt die Person in ihren letzten Lebensjahren/-monaten vermehrt Verhaltensweisen des Stresspunkt-Typs (bei Molière: zunehmende Rigidität, Pflichterfüllung um jeden Preis, Unfähigkeit, Schwäche zuzugeben — alles Einser-Muster), **obwohl der Kerntyp unverändert bleibt** (bei Molière: SO7w6).
+
+**Praktische Konsequenz:** Eine erste Typisierung, die sich stark auf späte Lebensjahre oder den Krankheitsverlauf stützt, kann leicht fälschlich beim Stresspunkt-Typ statt beim tatsächlichen Kerntyp landen (das ist bei Molière zuerst passiert — anfänglich fälschlich als SO1 statt SO7w6 gedeutet). Bei der Typisierung für Krankheitsporträts deshalb immer **auch** die frühen/mittleren Lebensjahre, das Grundtemperament und die Lebensweise vor der Erkrankung heranziehen, nicht nur die Symptomatik der letzten Phase. Die Verschiebung Richtung Stresspunkt selbst ist dann ein eigener, lohnender Teil der Deutung im Abschnitt „Die Krankheit als roter Faden" — nicht verschweigen, sondern explizit machen.
+
 ## Register & Suchfunktion — Pflichtschritt bei jedem neuen Inhalt
 
 **Suche = Register.** Beide greifen auf `data/register.js` zurück (`registerEntries`-Array).

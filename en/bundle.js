@@ -188,10 +188,7 @@ const KRIMINAL_PORTRAITS = [
 // discussion with the user: interpreting a living person's current, uncertain diagnosis this
 // way would be tactless and would contradict the app's own disclaimer of "no determinism").
 const KRANKHEITS_PORTRAITS = [
-  // Molière (SO1w9) is fully written (see molierePortraitPage()), but the type assignment
-  // has not yet been finally confirmed by the user – so it is deliberately not listed/linked
-  // here yet. Once the type is confirmed, uncomment the entry below.
-  // { route:"krankheitsportraets-moliere", name:"Molière", subtyp:"SO1w9", heading:"Molière – Social Type 1", krankheit:"Chronic Lung Disease (presumably Tuberculosis)", teaser:"SO1w9 – French playwright and actor, 1622–1673. Creator of Tartuffe, The Misanthrope, and The Imaginary Invalid. Collapsed on stage during the fourth performance of The Imaginary Invalid – in the role of a hypochondriac – and died hours later of a lung ailment he had concealed for years." , land:"France", gender:"m", jahre:"1622–1673"},
+  { route:"krankheitsportraets-moliere", name:"Molière", subtyp:"SO7w6", heading:"Molière – Social Type 7", krankheit:"Chronic Lung Disease (presumably Tuberculosis)", teaser:"SO7w6 – French playwright and actor, 1622–1673. Creator of Tartuffe, The Misanthrope, and The Imaginary Invalid. Collapsed on stage during the fourth performance of The Imaginary Invalid – in the role of a hypochondriac – and died hours later of a lung ailment he had concealed for years." , land:"France", gender:"m", jahre:"1622–1673"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -38761,112 +38758,148 @@ function molierePortraitPage() {
       ${pageHeader("krankheitsportraets")}
       <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
       <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/moliere-portrait.jpg" alt="Molière – 17th-century engraving" class="krim-portrait-img" loading="lazy" />
+        </div>
         <p class="krim-portrait-name">Molière (Jean-Baptiste Poquelin)</p>
-        <p class="krim-portrait-typ">SO1w9 · Social Type 1 with One-wing · 1622–1673</p>
+        <p class="krim-portrait-typ">SO7w6 · Social Type 7 with Six-wing · 1622–1673</p>
       </div>
       <p class="psycho-intro">
         <strong>Molière</strong>, born Jean-Baptiste Poquelin, is France's most significant
         writer of comedy. He gave up a secure bourgeois future as a lawyer's son to become
         an actor and theater director – and created, with plays like <em>Tartuffe</em>,
         <em>The Misanthrope</em>, and <em>The Imaginary Invalid</em>, a body of work still
-        regarded as the sharpest social satire of French classicism. He drew hypocrites,
-        misers, hypochondriacs, and misanthropes – figures so trapped in their fixed idea
-        that they become blind to everything else. On February 17, 1673, he collapsed on
-        stage during the fourth performance of <em>The Imaginary Invalid</em> – playing
-        Argan, a man who imagines himself sick – and died a few hours later from a
-        hemorrhage, the result of a lung ailment he had concealed for years.
+        regarded as the sharpest social satire of French classicism. Contemporaries called
+        him the &bdquo;Contemplateur&ldquo; – a man of few words, a sharp observer, reserved
+        and serious in person, yet quick-witted, demanding, and highly emotional on stage.
+        On February 17, 1673, he collapsed on stage during the fourth performance of
+        <em>The Imaginary Invalid</em> – playing Argan, a man who imagines himself sick –
+        and died a few hours later from a hemorrhage, the result of a lung ailment he had
+        concealed for years.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
-        <strong>Molière</strong> is assigned to the <strong>social One with One-wing</strong> in
-        the Enneagram. The passion of the One is <em>anger</em> – a deep inner indignation
-        at hypocrisy, injustice, and moral failure. The social One (SO1) directs this energy
-        not privately, but publicly: she becomes the group's reformer, naming what's wrong –
-        for Molière, quite literally, by playing society's flaws back to it on stage. The
-        One-wing turns the sharp accusation into wit rather than rage: it transforms moral
-        anger into comedy that can entertain <em>and</em> land its point, without attacking
-        head-on – the art of indirect confrontation.</p>
+        <strong>Molière</strong> is assigned to the <strong>social Seven with Six-wing</strong>
+        in the Enneagram – the same subtype as <a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a>
+        in this Compass. Claudio Naranjo called the social Seven the &bdquo;martyr&ldquo;: she
+        sacrifices her own enjoyment in service of a larger cause – for Molière, literally,
+        by understanding comedy as a work of moral enlightenment rather than mere
+        entertainment. The Six-wing adds vigilance, self-doubt, and a wary distrust of
+        authority and human masks – he never attacked hypocrisy head-on, but hid the
+        criticism behind a character he could, if necessary, defend as &bdquo;just theater&ldquo;.
+        This is not One-style moral outrage, but Seven-style forward flight combined with
+        Six-style caution: seeking intensity and experience (7), while carefully calculating
+        the danger involved (6).</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, var(--gold) 6%, var(--paper));border:1px solid var(--gold);border-radius:10px;padding:1.1rem 1.3rem;margin-bottom:2rem;max-width:100%;">
+        <h3 style="font-size:1rem;font-weight:700;margin:0 0 0.7rem;color:var(--ink);">A Striking Parallel: Rowan Atkinson (SO7w6)</h3>
+        <p class="vb-intro" style="margin-bottom:0.6rem;">Molière isn't a household name today – but <a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a>
+        is. Comparing the two – same subtype, 350 years apart – is almost eerily accurate:</p>
+        <p class="vb-intro"><strong>The mask as a shield:</strong> Atkinson's stutter
+        disappears the moment he steps into a role – Mr. Bean barely speaks; Blackadder
+        delivers perfectly crafted sentences. Molière did the structurally identical thing:
+        when a real coughing fit overwhelmed him on January 17, 1673, a month before his
+        death, he spontaneously turned it into a piece of comic stage business – hiding real
+        vulnerability behind the character, exactly as Atkinson's masks conceal his real
+        speech impediment.</p>
+        <p class="vb-intro"><strong>Reserved the moment the curtain falls:</strong> Atkinson
+        is described as privately &bdquo;reserved, almost invisible&ldquo;, avoiding the
+        spotlight off stage. Contemporaries described Molière in almost the same words: a man
+        of few words, uneasy with strangers, a quiet observer. Both display the same SO7w6
+        double nature: full intensity on stage, withdrawn before and after.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>Perfectionism born of self-doubt:</strong>
+        Atkinson is said to have developed individual sketches for years before releasing
+        them – the Six-wing asks: <em>Am I really good enough?</em> Molière's total control
+        as author, director, actor, and troupe manager all in one carries the same
+        signature: perfection not as indulgence, but as an inner safeguard against failure.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Gaze Quality</h3>
-        <p class="vb-intro"><strong>a) Observant and exposing:</strong>
-        Molière's way of looking at the world was that of a precise observer who registered
-        the small contradictions between claim and reality – the foundation of any good
-        satire. This is the One's checking quality: what's wrong here?</p>
-        <p class="vb-intro"><strong>b) Humane rather than judging:</strong>
-        The One-wing softens the One's moral gaze: Molière's characters are ridiculous, but
-        rarely truly evil – he doesn't condemn, he shows. This almost fatherly leniency in
-        the gaze sets him apart from a purer One's sharpness.</p>
-        <p class="vb-intro"><strong>c) Searching for the right measure:</strong>
-        Again and again he sets a voice of reason against his characters' excess – a typical
-        One's gaze: there is a right way, against which the wrong is measured.</p>
+        <p class="vb-intro"><strong>a) Observant rather than accusing:</strong>
+        Molière's way of looking at the world was that of a precise, almost detached
+        observer who registered the small contradictions between claim and reality – the
+        foundation of any good satire. Not an angry, judging gaze, but a curious, watchful
+        gathering of material – typical Seven-Six.</p>
+        <p class="vb-intro"><strong>b) Large, bright, but without openly displayed feeling:</strong>
+        Contemporary and later depictions show expressive, large eyes – alert and attentive,
+        but rarely angry or clearly emotional. This fits a social Seven far from the sexual
+        instinct: intensity for him lies not in personal emotional expression, but in the
+        effect he produces on stage.</p>
+        <p class="vb-intro"><strong>c) Watchful for danger:</strong>
+        The Six-wing shows up in the gaze as a constant assessment: how far can I go before
+        it becomes dangerous? This calculation – never quite carefree, never quite fearless
+        – is what sets him apart from a purer, more untroubled Seven.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
-        <p class="vb-intro"><strong>a) Early departure from the expected path:</strong>
+        <p class="vb-intro"><strong>a) Early flight from the expected path:</strong>
         As the son of a royal court upholsterer, <strong>Molière</strong> could have led a
-        secure bourgeois life. Instead, at 21, he founded his own theater company – an early
-        expression of the One's conviction that doing the right thing matters more than doing
-        the comfortable thing.</p>
-        <p class="vb-intro"><strong>b) Satire as a moral mission:</strong>
-        <strong>Molière</strong> understood comedy not as mere entertainment but as a means of
-        social correction. <em>Tartuffe</em> – a play about religious hypocrisy – was banned
-        for years as a result. He held his ground despite the powerful enemies it earned him.</p>
-        <p class="vb-intro"><strong>c) Perfectionism in the craft:</strong>
-        As author, director, actor, and theater manager all in one, he carried full
-        responsibility for every performance. This total control over his own work is typical
-        of the One: only if you do it yourself will it be done right.</p>
+        secure bourgeois life. Instead, at 21, he founded his own, financially high-risk
+        theater company – the Seven, who escapes confinement and predictability in order to
+        experience and produce as much as possible.</p>
+        <p class="vb-intro"><strong>b) Comedy as legitimized self-purpose:</strong>
+        <strong>Molière</strong> framed his work in moral terms – comedy as social
+        enlightenment, not mere pleasure. This is the Naranjo &bdquo;martyr&ldquo; mechanism of
+        the social Seven: one's own delight in play is disguised as service to a higher
+        cause.</p>
+        <p class="vb-intro"><strong>c) Institution rather than a single body of work:</strong>
+        As author, director, actor, and theater manager all in one, he spent decades
+        building a troupe that outlived him – social instinct in its purest form: energy
+        flows into building and sustaining a community, not into the one intense pair-bond.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
-        <p class="vb-intro"><strong>a) An incorruptible eye for double standards:</strong>
+        <p class="vb-intro"><strong>a) Criticism through disguise:</strong>
         Whether hypocrite (<em>Tartuffe</em>), miser (<em>The Miser</em>), or misanthrope
-        (<em>The Misanthrope</em>) – <strong>Molière</strong> repeatedly exposed the gap
-        between what people claim to be and what they actually are. This incorruptibility is
-        pure One's anger, channeled into art.</p>
-        <p class="vb-intro"><strong>b) Persistence despite resistance:</strong>
-        Despite censorship, powerful opponents, and repeated performance bans, he never gave
-        up. The One holds to what she believes is right – even under considerable pressure.</p>
-        <p class="vb-intro"><strong>c) Self-portrayal in his own mirror:</strong>
+        (<em>The Misanthrope</em>) – <strong>Molière</strong> never attacked wrongdoing
+        directly, but always through a stage character he could, if needed, hide behind.
+        This is exactly the Six-wing: attack, yes, but covered, never fully exposed.</p>
+        <p class="vb-intro"><strong>b) Persistence through variety, not stubbornness:</strong>
+        Despite censorship and repeated performance bans, he never gave up – but he sidestepped,
+        revised, found new ways around the ban. This is Seven-style agility, not One-style
+        stubborn insistence on the one right way.</p>
+        <p class="vb-intro"><strong>c) The mask as self-protection:</strong>
         Again and again he played the central roles in his own plays – including Argan, the
-        imaginary invalid. The reasoning voice Alceste in <em>The Misanthrope</em> is
-        considered by many biographers a self-portrait: a man who cannot bear the world's
-        hypocrisy and nearly breaks under it.</p>
+        imaginary invalid. The role was a safe place to show things, even about himself,
+        that he would never have said openly off stage.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
-        <p class="vb-intro"><strong>a) Respected and reviled at once:</strong>
-        <strong>Molière</strong> enjoyed the favor of Louis XIV while facing the bitter enmity
-        of the circles he exposed – typical of the social One, who polarizes public discourse
-        by speaking uncomfortable truths.</p>
-        <p class="vb-intro"><strong>b) Witty rather than bitter:</strong>
-        The One-wing ensured his criticism never landed as mere accusation, but always also
-        made people laugh. This gift for turning moral sharpness into entertainment made him
-        beloved by a broad audience, whereas a purer One would likely have alienated it.</p>
-        <p class="vb-intro"><strong>c) Authority through craft:</strong>
-        His troupe followed him for decades – not through charisma alone, but because he was
-        undeniably competent as a craftsman of theater. This too is One-energy at work:
-        respect earned through demonstrable rightness.</p>
+        <p class="vb-intro"><strong>a) Beloved and reviled at once:</strong>
+        <strong>Molière</strong> enjoyed the favor of Louis XIV while facing the bitter
+        enmity of the circles he exposed – typical of the social Seven, who polarizes
+        because she packages uncomfortable truths as entertainment instead of staying
+        silent.</p>
+        <p class="vb-intro"><strong>b) Entertaining rather than accusatory:</strong>
+        His criticism never landed as mere accusation, but always also made people laugh.
+        This gift for turning social sharpness into entertainment made him beloved by a
+        broad audience – classic SO7 effect: comedy as a service to the public.</p>
+        <p class="vb-intro"><strong>c) Authority through craft, not charisma alone:</strong>
+        His troupe followed him for decades because he was undeniably competent as a
+        craftsman of theater – the Six-wing demands this demonstrable competence of itself
+        before it allows itself to trust.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Quality</h3>
-        <p class="vb-intro"><strong>a) Driven by an inner must:</strong>
-        <strong>Molière</strong> wrote, staged, and performed to the point of physical
-        exhaustion – play after play, year after year, without extended rest. This is One's
-        energy: the inner must to keep going as long as the task remains unfinished.</p>
-        <p class="vb-intro"><strong>b) Fusion of self and mission:</strong>
+        <p class="vb-intro"><strong>a) Restless, multi-branched energy:</strong>
+        <strong>Molière</strong> wrote, staged, and performed in parallel – play after play,
+        year after year, without extended rest. This is Seven's energy: the need to
+        experience and create as much as possible at once, before time or opportunity runs
+        out.</p>
+        <p class="vb-intro"><strong>b) Fusion of self and institution:</strong>
         For him there was no separation between his own life and the theater – he literally
-        died on stage. This complete identification with one's own calling is an energetic
-        signature of the social One.</p>
-        <p class="vb-intro"><strong>c) Denial of his own exhaustion:</strong>
-        He kept his advancing illness secret from the public – even from his own troupe. The
-        One tolerates weakness in herself least of all the types; admitting to being sick
-        would have meant no longer functioning properly.</p>
+        died on stage. This complete identification with one's own mission is an energetic
+        signature of the social Seven.</p>
+        <p class="vb-intro"><strong>c) Humor as an outlet rather than confrontation:</strong>
+        He avoided real emotional conflict – including conflict with his own body – by
+        turning it into comedy. This is the classic Seven reflex: convert pain into
+        lightness immediately, rather than feeling it.</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
@@ -38874,48 +38907,61 @@ function molierePortraitPage() {
         <p class="vb-intro"><strong>a) A decade of concealed illness:</strong>
         <strong>Molière</strong> had suffered from a chronic lung ailment – presumably
         tuberculosis – since the 1660s, showing up in recurring coughing fits and growing
-        exhaustion. Contemporary accounts describe him as visibly weakened in his final years.
-        He barely spoke of it, kept performing, kept directing, kept writing.</p>
-        <p class="vb-intro"><strong>b) The social One and the duty to function:</strong>
-        From an Enneagram perspective, this is a particularly telling constellation: the
-        social One defines her worth through service to a cause – here, to the troupe, the
-        audience, and her own artistic standard. Admitting illness would have meant
-        interrupting that service. The One-wing reinforces the tendency to put one's own
-        needs aside and to avoid conflict – including conflict with one's own body – rather
-        than addressing it. So a treatable warning turned, over years, into an unstoppable
-        progression.</p>
-        <p class="vb-intro"><strong>c) The bitter punchline: The Imaginary Invalid:</strong>
-        The final irony of his life is also its clearest interpretation: he died playing a man
-        who imagines illnesses, while he himself suffered from a real, fatal one he would not
-        allow himself to acknowledge. Where Argan, the stage character, fears imaginary
-        ailments, Molière, the man, suppressed a genuine one. Read as a corrective: the body
-        forced, on stage itself, the very attention that had been denied it for years in real
-        life – a symptom as a final, unavoidable signpost.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Framing without determinism:</strong>
-        This does not mean the social One inevitably leads to lung disease –
+        exhaustion. He barely spoke of it, kept performing, kept directing, kept writing.</p>
+        <p class="vb-intro"><strong>b) When the Seven slides into her stress point – the One:</strong>
+        This reveals an important pattern that applies to Illness Portraits in general:
+        under years of chronic stress, types often move along their stress line toward
+        their stress point – for the Seven, that is the One. This is exactly why a first,
+        superficial look at Molière's late years so easily points toward &bdquo;One&ldquo;: the
+        growing rigidity, the duty-bound perseverance at any cost, the inability to admit
+        weakness, the moral seriousness with which he ran his work in the end. These are not
+        signs of a One core, but the picture of a social Seven who, over decades of chronic
+        overload, kept drifting further along her stress direction – the core remains
+        Seven, but the behavior hardens into increasingly One-like patterns: stricter, more
+        controlled, more duty-bound, less humorous.</p>
+        <p class="vb-intro"><strong>c) The social Seven and the duty to function:</strong>
+        The social Seven defines her worth through service to the group – here, to the
+        troupe, the audience, and her own artistic standard. Admitting illness would have
+        meant interrupting that service. The Six-wing further reinforces the tendency to
+        manage danger rather than address it openly – illness was treated like a threat to
+        be controlled, not a need to be voiced. So a treatable warning turned, over years,
+        into an unstoppable progression.</p>
+        <p class="vb-intro"><strong>d) The bitter punchline: The Imaginary Invalid:</strong>
+        The final irony of his life is also its clearest interpretation: he died playing a
+        man who imagines illnesses, while he himself suffered from a real, fatal one he
+        would not allow himself to acknowledge. Just a month earlier, on January 17, 1673,
+        he had turned a real coughing fit into comic stage business live in front of an
+        audience – the same masking move as Rowan Atkinson's, only under deadly seriousness.
+        Read as a corrective: the body forced, on stage itself, the very attention that had
+        been denied it for years in real life – a symptom as a final, unavoidable signpost.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        This does not mean the social Seven inevitably leads to lung disease –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Molière's case can show is a pattern that stands out again and again in practice
-        wherever chronic self-denial in favor of outward duties is present – one possible
-        explanation among many, not a verdict. The corresponding respiratory condition will be
-        developed step by step in this Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        wherever chronic self-denial in favor of outward duties is present – and where
+        someone slides into their stress point over years – one possible explanation among
+        many, not a verdict. The corresponding respiratory condition will be developed step
+        by step in this Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Molière</strong> embodies the social One with One-wing in perhaps its most
-        effective form: moral anger transformed into art rather than accusation, a life spent
-        in service of a cause larger than himself. That very strength became his undoing in
-        the end: the inability to take his own exhaustion seriously as long as duty called let
-        a treatable illness become a fatal one. His final performance – a man imagining
-        illness while actually dying – remains one of the most striking images in theater
-        history.</p>
+        <strong>Molière</strong> embodies the social Seven with Six-wing in perhaps its most
+        effective form: restless creative drive, transformed into a life's work in service
+        of a cause larger than himself – secured by wary caution toward powerful opponents.
+        That very combination became his undoing in the end: under the pressure of decades
+        of responsibility, he kept sliding deeper into his stress point, the One – stiffer,
+        more duty-bound, less able to take his own exhaustion seriously – until a treatable
+        illness became a fatal one. His final performance – a man imagining illness while
+        actually dying – remains one of the most striking images in theater history.</p>
       </div>
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/so1", label:"Subtype Profile SO1"},
+        {route:"subtype/so7", label:"Subtype Profile SO7"},
       ])}
     </div>
   `);
@@ -60278,7 +60324,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-wolodymyr-selenskyj": wolodymyrSelenskyjPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "krankheitsportraets": krankheitsportraetsPage,
-      // "krankheitsportraets-moliere": molierePortraitPage, // type assignment not yet finally confirmed – disabled for now
+      "krankheitsportraets-moliere": molierePortraitPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

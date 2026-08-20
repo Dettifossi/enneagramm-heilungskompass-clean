@@ -23961,6 +23961,7 @@ const registerEntries = [
   { term: "#MeToo", route: "kriminalpsychologie-harvey-weinstein", description: "Harvey Weinstein als Ausl\u00f6ser der globalen #MeToo-Bewegung \u2013 Enneagramm-Analyse" },
   { term: "Kriminalpsychologie", route: "kriminalpsychologie", description: "Enneagramm-Analyse bekannter Kriminalf\u00e4lle \u2013 wie innere Strukturen zur Dunkelheit f\xfchren k\xf6nnen" },
   { term: "Krankheitsporträts", route: "krankheitsportraets", description: "Biografien historischer Persönlichkeiten, bei denen eine dokumentierte Krankheit als roter Faden gedeutet wird" },
+  { term: "Molière", route: "krankheitsportraets-moliere", description: "Portrait: SO7w6 · Sozialer Typ 7 · Dramatiker, starb während der Aufführung von Der eingebildete Kranke" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31378,10 +31379,7 @@ const KRIMINAL_PORTRAITS = [
 // (siehe CLAUDE.md-Diskussion: bei lebenden Personen mit aktueller, ungewisser Erkrankung
 // w\xe4re eine solche Deutung taktlos und widerspr\xe4che dem eigenen Disclaimer "kein Determinismus").
 const KRANKHEITS_PORTRAITS = [
-  // Moli\xe8re (SO1w9) ist inhaltlich fertig geschrieben (siehe molierePortraitPage()), aber die
-  // Typzuordnung ist noch nicht vom Nutzer final best\u00e4tigt \u2013 daher hier bewusst noch nicht
-  // gelistet/verlinkt. Sobald der Typ final feststeht: Eintrag wieder einkommentieren.
-  // { route:"krankheitsportraets-moliere", name:"Moli\xe8re", subtyp:"SO1w9", heading:"Moli\xe8re \u2013 Sozialer Typ 1", krankheit:"Chronische Lungenerkrankung (vermutlich Tuberkulose)", teaser:"SO1w9 \u2013 franz\xf6sischer Dramatiker und Schauspieler, 1622\u20131673. Sch\xf6pfer von Tartuffe, Der Menschenfeind und Der eingebildete Kranke. Brach 1673 w\xe4hrend der vierten Auff\xfchrung von Der eingebildete Kranke \u2013 in der Rolle eines Hypochonders \u2013 auf der B\xfchne zusammen und starb Stunden sp\xe4ter an einem Lungenleiden, das er jahrelang verschwiegen hatte." , land:"Frankreich", gender:"m", jahre:"1622\u20131673"},
+  { route:"krankheitsportraets-moliere", name:"Molière", subtyp:"SO7w6", heading:"Molière – Sozialer Typ 7", krankheit:"Chronische Lungenerkrankung (vermutlich Tuberkulose)", teaser:"SO7w6 – französischer Dramatiker und Schauspieler, 1622–1673. Schöpfer von Tartuffe, Der Menschenfeind und Der eingebildete Kranke. Brach 1673 während der vierten Aufführung von Der eingebildete Kranke – in der Rolle eines Hypochonders – auf der Bühne zusammen und starb Stunden später an einem Lungenleiden, das er jahrelang verschwiegen hatte." , land:"Frankreich", gender:"m", jahre:"1622–1673"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -65501,182 +65499,228 @@ function molierePortraitPage() {
   return shell(`
     <div class="page-container">
       ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsportr\xe4ts</button>
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
       <div class="krim-portrait-wrap">
-        <p class="krim-portrait-name">Moli\xe8re (Jean-Baptiste Poquelin)</p>
-        <p class="krim-portrait-typ">SO1w9 \xb7 Sozialer Typ 1 mit Neunerfl\xfcgel \xb7 1622–1673</p>
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/moliere-portrait.jpg" alt="Molière – Stich, 17. Jahrhundert" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Molière (Jean-Baptiste Poquelin)</p>
+        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel · 1622–1673</p>
       </div>
       <p class="psycho-intro">
-        <strong>Moli\xe8re</strong>, eigentlich Jean-Baptiste Poquelin, ist der bedeutendste
-        Kom\xf6diendichter Frankreichs. Er gab eine gesicherte b\xfcrgerliche Existenz als
+        <strong>Molière</strong>, eigentlich Jean-Baptiste Poquelin, ist der bedeutendste
+        Komödiendichter Frankreichs. Er gab eine gesicherte bürgerliche Existenz als
         Anwaltssohn auf, um Schauspieler und Theaterdirektor zu werden – und schuf mit
-        St\xfccken wie <em>Tartuffe</em>, <em>Der Menschenfeind</em> und <em>Der eingebildete
-        Kranke</em> ein Werk, das bis heute als sch\xe4rfste Gesellschaftssatire der
-        franz\xf6sischen Klassik gilt. Er zeichnete Heuchler, Geizige, Hypochonder und
-        Menschenfeinde – Figuren, die so sehr in ihrer fixen Idee gefangen sind, dass sie
-        blind f\xfcr alles andere werden. Am 17. Februar 1673 brach er w\xe4hrend der vierten
-        Auff\xfchrung von <em>Der eingebildete Kranke</em> – ausgerechnet in der Rolle des
-        Argan, eines Mannes, der sich krank fantasiert – auf offener B\xfchne zusammen und
-        starb wenige Stunden sp\xe4ter an einem Blutsturz, Folge eines jahrelang
-        verschwiegenen Lungenleidens.
+        Stücken wie <em>Tartuffe</em>, <em>Der Menschenfeind</em> und <em>Der eingebildete
+        Kranke</em> ein Werk, das bis heute als schärfste Gesellschaftssatire der
+        französischen Klassik gilt. Zeitgenössen beschrieben ihn als den
+        &bdquo;Contemplateur&ldquo; – einen wortkargen, scharf beobachtenden Menschen, der
+        im persönlichen Umgang eher zurückhaltend und ernst wirkte, auf der Bühne aber
+        blitzschnell, fordernd und hochemotional agieren konnte. Am 17. Februar 1673 brach
+        er während der vierten Aufführung von <em>Der eingebildete Kranke</em> –
+        ausgerechnet in der Rolle des Argan, eines Mannes, der sich krank fantasiert – auf
+        offener Bühne zusammen und starb wenige Stunden später an einem Blutsturz, Folge
+        eines jahrelang verschwiegenen Lungenleidens.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Moli\xe8re</strong> wird der <strong>Sozialen Eins mit Neunerfl\xfcgel</strong> im
-        Enneagramm zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> – eine tiefe
-        innere Emp\xf6rung \xfcber Heuchelei, Ungerechtigkeit und moralisches Versagen. Die
-        soziale Eins (SO1) richtet diese Energie nicht privat-verdeckt, sondern \xf6ffentlich
-        aus: Sie wird zur Reformerin der Gruppe, die Missst\xe4nde benennt – bei Moli\xe8re w\xf6rtlich,
-        indem er der Gesellschaft ihre Fehler auf der B\xfchne vorspielte. Der Neunerfl\xfcgel
-        verwandelt die scharfe Anklage in Witz statt in Wut: Er macht aus dem moralischen
-        Zorn eine Kom\xf6die, die unterhalten <em>und</em> treffen kann, ohne direkt zu
-        attackieren – die Kunst der indirekten Konfrontation.</p>
+        <strong>Molière</strong> wird der <strong>Sozialen Sieben mit Sechserflügel</strong>
+        im Enneagramm zugeordnet – demselben Subtyp wie <a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a>
+        in diesem Kompass. Claudio Naranjo nannte die soziale Sieben den &bdquo;Märtyrer&ldquo;:
+        Sie opfert den eigenen Genuss dem Dienst an einer größeren Sache – bei Molière
+        wörtlich, indem er Komödie als moralisches Aufklärungswerk verstand, nicht als
+        bloße Unterhaltung. Der Sechserflügel bringt Wachsamkeit, Selbstzweifel und ein
+        waches Misstrauen gegenüber Autoritäten und menschlichen Masken hinzu – er
+        greift Heuchelei nie direkt an, sondern versteckt die Kritik hinter einer Figur, die
+        er notfalls als &bdquo;nur Theater&ldquo; verteidigen konnte. Das ist keine Einser-Moral,
+        sondern siebener-typische Flucht nach vorn, kombiniert mit sechser-typischer Vorsicht:
+        Intensität und Erfahrung suchen (7), aber die Gefahr dabei genau kalkulieren (6).</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, var(--gold) 6%, var(--paper));border:1px solid var(--gold);border-radius:10px;padding:1.1rem 1.3rem;margin-bottom:2rem;max-width:100%;">
+        <h3 style="font-size:1rem;font-weight:700;margin:0 0 0.7rem;color:var(--ink);">Verblüffende Parallele: Rowan Atkinson (SO7w6)</h3>
+        <p class="vb-intro" style="margin-bottom:0.6rem;">Molière ist heute nicht jedem ein Begriff – <a href="javascript:void(0)" data-route="beruehmte-rowan-atkinson">Rowan Atkinson</a>
+        dagegen kennt fast jeder. Der Vergleich der beiden – gleicher Subtyp, 350 Jahre
+        auseinander – ist fast unheimlich treffend:</p>
+        <p class="vb-intro"><strong>Die Maske als Schutzschild:</strong> Atkinsons Stottern
+        verschwindet, sobald er in eine Rolle schlüpft – Mr. Bean spricht kaum, Blackadder
+        brilliert in perfekten Sätzen. Genau das tat Molière strukturell identisch: Als er
+        am 17. Januar 1673, einen Monat vor seinem Tod, von einem echten Hustenanfall
+        überwältigt wurde, deutete er ihn spontan in eine komische Bühnenaktion um – er
+        versteckte die reale Verletzlichkeit hinter der Figur, genau wie Atkinsons Masken
+        seine reale Sprechstörung verdecken.</p>
+        <p class="vb-intro"><strong>Zurückhaltend, sobald der Vorhang fällt:</strong> Über
+        Atkinson heißt es, er sei privat &bdquo;zurückhaltend, fast unsichtbar&ldquo; und meide
+        das Rampenlicht abseits der Bühne. Zeitgenossen beschrieben Molière fast wortgleich:
+        wortkarg, unbehaglich unter Fremden, ein stiller Beobachter. Beide zeigen dieselbe
+        SO7w6-Doppelnatur: auf der Bühne voller Intensität, davor und danach zurückgezogen.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>Perfektionismus aus Selbstzweifel:</strong>
+        Atkinson soll einzelne Sketche über Jahre entwickelt haben, bevor sie öffentlich
+        wurden – der Sechserflügel fragt: <em>Bin ich wirklich gut genug?</em> Molières
+        totale Kontrolle als Autor, Regisseur, Schauspieler und Truppenleiter in einer Person
+        trägt dieselbe Handschrift: Perfektion nicht als Kür, sondern als innere
+        Absicherung gegen das Versagen.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Beobachtend und entlarvend:</strong>
-        Moli\xe8res Blick auf die Welt war der eines genauen Beobachters, der die kleinen
-        Widerspr\xfcche zwischen Anspruch und Wirklichkeit registrierte – die Grundlage
-        jeder guten Satire. Das ist die pr\xfcfende Qualit\xe4t der Eins: Was stimmt hier
-        nicht?</p>
-        <p class="vb-intro"><strong>b) Human statt richtend:</strong>
-        Der Neunerfl\xfcgel mildert den moralischen Blick der Eins: Moli\xe8res Figuren
-        sind l\xe4cherlich, aber selten wirklich b\xf6se – er verurteilt nicht, er zeigt.
-        Diese fast v\xe4terliche Nachsicht im Blick unterscheidet ihn von reinerer
-        Einser-Sch\xe4rfe.</p>
-        <p class="vb-intro"><strong>c) Auf der Suche nach dem Ma\xdf:</strong>
-        Immer wieder stellt er der \xdcbertreibung seiner Figuren einen R\xe4soneur
-        gegen\xfcber, der f\xfcr Vernunft und rechtes Ma\xdf steht – ein typischer Einser-Blick:
-        Es gibt ein Richtiges, an dem sich das Falsche misst.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Beobachtend statt anklagend:</strong>
+        Molières Blick auf die Welt war der eines genauen, fast distanzierten Beobachters,
+        der die kleinen Widersprüche zwischen Anspruch und Wirklichkeit registrierte –
+        die Grundlage jeder guten Satire. Kein zorniger Richterblick, sondern ein
+        neugieriges, wachsames Sammeln von Material – typisch siebener-sechser.</p>
+        <p class="vb-intro"><strong>b) Groß, glänzend, aber ohne offen gezeigtes Gefühl:</strong>
+        Zeitgenössische wie spätere Darstellungen zeigen ausdrucksstarke, große Augen –
+        wach und aufmerksam, aber selten zornig oder eindeutig gefühlsbetont. Das passt zur
+        SX-fernen sozialen Sieben: Intensität liegt bei ihm nicht im persönlichen Gefühlsausdruck,
+        sondern in der Wirkung, die er auf der Bühne erzeugt.</p>
+        <p class="vb-intro"><strong>c) Wachsam gegenüber Gefahr:</strong>
+        Der Sechserflügel zeigt sich im Blick als ständige Einschätzung: Wie weit kann ich
+        gehen, bevor es gefährlich wird? Diese Kalkulation – nie ganz sorglos, nie ganz
+        furchtlos – ist der Unterschied zu einer reineren, unbekümmerteren Sieben.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Fr\xfche Abkehr vom vorgezeichneten Weg:</strong>
-        Als Sohn eines k\xf6niglichen Hoftapezierers h\xe4tte <strong>Moli\xe8re</strong> ein gesichertes
-        b\xfcrgerliches Leben f\xfchren k\xf6nnen. Stattdessen gr\xfcndete er mit 21 Jahren ein
-        eigenes Theaterunternehmen – ein fr\xfcher Ausdruck der Einser-\xdcberzeugung, dass
-        das Richtige wichtiger ist als das Bequeme.</p>
-        <p class="vb-intro"><strong>b) Satire als moralischer Auftrag:</strong>
-        <strong>Moli\xe8re</strong> verstand Kom\xf6die nicht als blo\xdfe Unterhaltung, sondern als
-        Mittel gesellschaftlicher Korrektur. <em>Tartuffe</em> – ein St\xfcck \xfcber
-        religi\xf6se Heuchelei – wurde deshalb jahrelang verboten. Er hielt an seiner
-        Kritik fest, obwohl sie ihn mächtige Feinde kostete.</p>
-        <p class="vb-intro"><strong>c) Perfektionismus im Handwerk:</strong>
-        Als Autor, Regisseur, Schauspieler und Theaterleiter in Personalunion trug er
-        die volle Verantwortung f\xfcr jede Auff\xfchrung. Diese totale Kontrolle \xfcber das
-        eigene Werk ist typisch f\xfcr die Eins: Nur wenn man es selbst macht, wird es
-        richtig gemacht.</p>
+        <p class="vb-intro"><strong>a) Frühe Flucht aus dem vorgezeichneten Weg:</strong>
+        Als Sohn eines königlichen Hoftapezierers hätte <strong>Molière</strong> ein gesichertes
+        bürgerliches Leben führen können. Stattdessen gründete er mit 21 Jahren ein
+        eigenes, finanziell hochriskantes Theaterunternehmen – die Sieben, die sich der
+        Enge und Vorhersehbarkeit entzieht, um möglichst viel Erfahrung und Wirkung zu
+        erleben.</p>
+        <p class="vb-intro"><strong>b) Komödie als legitimierter Selbstzweck:</strong>
+        <strong>Molière</strong> rahmte sein Schaffen moralisch – Komödie als gesellschaftliche
+        Aufklärung, nicht als reines Vergnügen. Das ist der Naranjo-&bdquo;Märtyrer&ldquo;-Mechanismus
+        der sozialen Sieben: die eigene Lust am Spiel wird als Dienst an einer höheren Sache
+        getarnt.</p>
+        <p class="vb-intro"><strong>c) Institution statt Einzelwerk:</strong>
+        Als Autor, Regisseur, Schauspieler und Theaterleiter in Personalunion baute er über
+        Jahrzehnte eine Truppe auf, die ihn überdauerte – sozialer Instinkt in Reinform:
+        Energie fließt in den Aufbau und Erhalt einer Gemeinschaft, nicht in die eine
+        intensive Zweierbeziehung.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Unbestechlicher Blick f\xfcr Doppelmoral:</strong>
+        <p class="vb-intro"><strong>a) Kritik durch Verkleidung:</strong>
         Ob Heuchler (<em>Tartuffe</em>), Geizhals (<em>Der Geizige</em>) oder Menschenfeind
-        (<em>Der Menschenfeind</em>) – <strong>Moli\xe8re</strong> entlarvte immer wieder die
-        L\xfccke zwischen dem, was Menschen vorgeben zu sein, und dem, was sie tats\xe4chlich
-        sind. Diese Unbestechlichkeit ist reiner Einser-Zorn, kanalisiert in Kunst.</p>
-        <p class="vb-intro"><strong>b) Ausdauer trotz Widerstand:</strong>
-        Trotz Zensur, m\xe4chtiger Gegner und wiederholter Auff\xfchrungsverbote gab er nie
-        auf. Die Eins h\xe4lt an dem fest, was sie f\xfcr richtig h\xe4lt – auch gegen erheblichen
-        Druck.</p>
-        <p class="vb-intro"><strong>c) Selbstdarstellung im eigenen Spiegel:</strong>
-        Immer wieder spielte er selbst die zentralen Rollen seiner St\xfccke – auch die
-        des Argan, des eingebildeten Kranken. Der R\xe4soneur Alceste in <em>Der
-        Menschenfeind</em> gilt vielen Biografen als Selbstportr\xe4t: ein Mann, der die
-        Heuchelei der Welt nicht ertr\xe4gt und daran fast zerbricht.</p>
+        (<em>Der Menschenfeind</em>) – <strong>Molière</strong> griff Missstände nie direkt an,
+        sondern immer durch eine Bühnenfigur, hinter der er sich im Zweifel verstecken
+        konnte. Genau das ist der Sechserflügel: Angriff ja, aber abgesichert, nie ganz
+        ungedeckt.</p>
+        <p class="vb-intro"><strong>b) Ausdauer durch Vielfalt statt Sturheit:</strong>
+        Trotz Zensur und wiederholter Aufführungsverbote gab er nie auf – aber er wich aus,
+        überarbeitete, fand neue Wege um das Verbot herum. Das ist siebener-typische
+        Beweglichkeit, nicht einser-typisches stures Beharren auf dem einen richtigen Weg.</p>
+        <p class="vb-intro"><strong>c) Die Maske als Ich-Schutz:</strong>
+        Immer wieder spielte er selbst die zentralen Rollen seiner Stücke – auch die des
+        Argan, des eingebildeten Kranken. Die Rolle war ein sicherer Ort, um Dinge zu zeigen
+        (auch über sich selbst), die er außerhalb der Bühne nie offen ausgesprochen hätte.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Respektiert und angefeindet zugleich:</strong>
-        <strong>Moli\xe8re</strong> genoss die G\xfcnstlingschaft Ludwigs XIV. und zugleich die
-        erbitterte Feindschaft der von ihm blo\xdfgestellten Kreise – typisch f\xfcr die
-        soziale Eins, die im \xf6ffentlichen Diskurs polarisiert, weil sie unbequeme
-        Wahrheiten ausspricht.</p>
-        <p class="vb-intro"><strong>b) Witzig statt bitter:</strong>
-        Der Neunerfl\xfcgel sorgte daf\xfcr, dass seine Kritik nie nur anklagend wirkte,
-        sondern immer auch zum Lachen brachte. Diese Gabe, moralische Sch\xe4rfe in
-        Unterhaltung zu verwandeln, machte ihn beim breiten Publikum beliebt, w\xe4hrend
-        eine reinere Eins vermutlich abgestoßen h\xe4tte.</p>
-        <p class="vb-intro"><strong>c) Autorit\xe4t durch Handwerk:</strong>
-        Seine Truppe folgte ihm \xfcber Jahrzehnte – nicht durch Charisma allein, sondern
-        weil er als Handwerker des Theaters unbestreitbar kompetent war. Auch das ist
-        Einser-Wirkung: Respekt durch nachweisbare Richtigkeit.</p>
+        <p class="vb-intro"><strong>a) Geliebt und angefeindet zugleich:</strong>
+        <strong>Molière</strong> genoss die Günstlingschaft Ludwigs XIV. und zugleich die
+        erbitterte Feindschaft der von ihm bloßgestellten Kreise – typisch für die soziale
+        Sieben, die polarisiert, weil sie unbequeme Wahrheiten unterhaltsam verpackt, statt
+        sie zu verschweigen.</p>
+        <p class="vb-intro"><strong>b) Unterhaltsam statt anklagend:</strong>
+        Seine Kritik wirkte nie nur wie eine Anklage, sondern brachte immer auch zum Lachen.
+        Diese Gabe, gesellschaftliche Schärfe in Unterhaltung zu verwandeln, machte ihn beim
+        breiten Publikum beliebt – klassische SO7-Wirkung: Komik als Dienst an der
+        Öffentlichkeit.</p>
+        <p class="vb-intro"><strong>c) Autorität durch Handwerk, nicht durch Charisma allein:</strong>
+        Seine Truppe folgte ihm über Jahrzehnte, weil er als Handwerker des Theaters
+        unbestreitbar kompetent war – der Sechserflügel verlangt sich selbst diese
+        nachweisbare Kompetenz ab, bevor er sich Vertrauen erlaubt.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Getrieben von innerem Muss:</strong>
-        <strong>Moli\xe8re</strong> schrieb, inszenierte und spielte bis zur physischen
-        Ersch\xf6pfung – ein St\xfcck pro St\xfcck, Jahr um Jahr, ohne l\xe4ngere Pause. Das ist
-        Einser-Energie: das innere Muss, weiterzumachen, solange die Aufgabe nicht
-        erf\xfcllt ist.</p>
-        <p class="vb-intro"><strong>b) Verschmelzung von Person und Auftrag:</strong>
-        F\xfcr ihn gab es keine Trennung zwischen dem eigenen Leben und dem Theater –
-        er starb buchst\xe4blich auf der B\xfchne. Diese vollst\xe4ndige Identifikation mit der
-        eigenen Sendung ist eine energetische Signatur der sozialen Eins.</p>
-        <p class="vb-intro"><strong>c) Verleugnung der eigenen Erschöpfung:</strong>
-        Er verschwieg seine fortschreitende Krankheit \xf6ffentlich – auch vor der
-        eigenen Truppe. Die Eins duldet Schw\xe4che bei sich selbst am wenigsten von
-        allen Typen; zuzugeben, krank zu sein, h\xe4tte bedeutet, nicht mehr richtig zu
-        funktionieren.</p>
+        <p class="vb-intro"><strong>a) Rastlose, vielfach verzweigte Energie:</strong>
+        <strong>Molière</strong> schrieb, inszenierte und spielte parallel – Stück um Stück,
+        Jahr um Jahr, ohne längere Pause. Das ist Siebener-Energie: das Bedürfnis, möglichst
+        viel gleichzeitig zu erleben und zu erschaffen, bevor die Zeit oder die Möglichkeit
+        verstreicht.</p>
+        <p class="vb-intro"><strong>b) Verschmelzung von Person und Institution:</strong>
+        Für ihn gab es keine Trennung zwischen dem eigenen Leben und dem Theater – er starb
+        buchstäblich auf der Bühne. Diese vollständige Identifikation mit der eigenen
+        Mission ist eine energetische Signatur der sozialen Sieben.</p>
+        <p class="vb-intro"><strong>c) Humor als Ventil statt Konfrontation:</strong>
+        Er wich echten emotionalen Konflikten – auch dem mit dem eigenen Körper – aus,
+        indem er sie in Komödie verwandelte. Das ist der klassische Siebener-Reflex: Schmerz
+        sofort in Leichtigkeit ummünzen, statt ihn zu fühlen.</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
         <p class="vb-intro"><strong>a) Ein Jahrzehnt verschwiegener Krankheit:</strong>
-        <strong>Moli\xe8re</strong> litt schon seit den 1660er-Jahren an einem chronischen
-        Lungenleiden – vermutlich Tuberkulose –, das sich in wiederkehrenden
-        Hustenanf\xe4llen und zunehmender Ersch\xf6pfung zeigte. Zeitgen\xf6ssische Berichte
-        beschreiben ihn in den letzten Jahren als sichtlich geschw\xe4cht. Er sprach
-        kaum dar\xfcber, spielte weiter, leitete weiter, schrieb weiter.</p>
-        <p class="vb-intro"><strong>b) Die soziale Eins und die Pflicht, zu funktionieren:</strong>
-        Aus Enneagramm-Sicht liegt hier eine besonders sprechende Konstellation: Die
-        soziale Eins definiert ihren Wert \xfcber den Dienst an der Sache – hier: an
-        Truppe, Publikum und dem eigenen k\xfcnstlerischen Anspruch. Krankheit einzugestehen
-        h\xe4tte bedeutet, diesen Dienst zu unterbrechen. Der Neunerfl\xfcgel verst\xe4rkt die
-        Tendenz, eigene Bed\xfcrfnisse hintanzustellen und Konflikte – auch den Konflikt
-        mit dem eigenen K\xf6rper – zu vermeiden, statt ihn anzusprechen. So wurde aus
-        einer behandelbaren Warnung \xfcber Jahre ein unaufhaltsames Fortschreiten.</p>
-        <p class="vb-intro"><strong>c) Die bittere Pointe: Der eingebildete Kranke:</strong>
-        Die letzte Ironie seines Lebens ist zugleich die deutlichste Deutung: Er starb
-        in der Rolle eines Mannes, der sich Krankheiten einbildet, w\xe4hrend er selbst
-        an einer realen, tödlichen Krankheit litt, die er sich nicht einzugestehen
-        erlaubte. Wo Argan, die B\xfchnenfigur, sich vor imagin\xe4ren Leiden f\xfcrchtet,
-        verdr\xe4ngte Moli\xe8re, der Mensch, ein echtes. Gelesen als Korrektiv: Der K\xf6rper
-        erzwang auf der B\xfchne selbst jene Aufmerksamkeit, die ihm im echten Leben
-        jahrelang verweigert worden war – ein Symptom als letzter, unausweichlicher
-        Wegweiser.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das hei\xdft nicht, dass die soziale Eins zwangsl\xe4ufig zu Lungenkrankheiten
-        f\xfchrt – <strong>jeder Mensch kann jede Krankheit bekommen, unabh\xe4ngig vom
-        Subtyp.</strong> Was sich an Moli\xe8res Fall zeigen l\xe4sst, ist ein Muster, das bei
-        chronischer Selbstverleugnung zugunsten \xe4u\xdferer Pflichten in der Praxis
-        immer wieder auff\xe4llt – eine von vielen m\xf6glichen Erkl\xe4rungen, kein Urteil.
-        Das entsprechende Krankheitsbild der Atemwege wird in diesem Kompass nach
-        und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        <strong>Molière</strong> litt schon seit den 1660er-Jahren an einem chronischen
+        Lungenleiden – vermutlich Tuberkulose –, das sich in wiederkehrenden Hustenanfällen
+        und zunehmender Erschöpfung zeigte. Er sprach kaum darüber, spielte weiter, leitete
+        weiter, schrieb weiter.</p>
+        <p class="vb-intro"><strong>b) Wenn die Sieben in ihren Stresspunkt abrutscht – die Eins:</strong>
+        Hier zeigt sich ein wichtiges Muster, das für Krankheitsporträts allgemein gilt:
+        Unter jahrelangem, chronischem Stress bewegen sich Typen häufig entlang ihrer
+        Stresslinie in Richtung ihres Stresspunkts – bei der Sieben ist das die Eins. Genau
+        das erklärt, warum eine erste, oberflächliche Betrachtung von Molières späten
+        Lebensjahren so leicht in Richtung &bdquo;Eins&ldquo; führt: die zunehmende Rigidität,
+        die Pflichterfüllung um jeden Preis, die Unfähigkeit, Schwäche zuzugeben, der
+        moralische Ernst, mit dem er sein Werk zuletzt betrieb. Das sind keine Anzeichen
+        eines Einser-Kerns, sondern das Bild einer sozialen Sieben, die sich über Jahrzehnte
+        chronischer Überlastung immer weiter in ihre Stressrichtung hineinbewegt hat – der
+        Kern bleibt Sieben, aber das Verhalten verhärtet sich zunehmend einser-artig:
+        strenger, kontrollierter, pflichtbewusster, humorloser.</p>
+        <p class="vb-intro"><strong>c) Die soziale Sieben und die Pflicht, zu funktionieren:</strong>
+        Die soziale Sieben definiert ihren Wert über den Dienst an der Gruppe – hier: an
+        Truppe, Publikum und dem eigenen künstlerischen Anspruch. Krankheit einzugestehen
+        hätte bedeutet, diesen Dienst zu unterbrechen. Der Sechserflügel verstärkt zusätzlich
+        die Neigung, Gefahr zu verwalten statt sie offen anzusprechen – die Krankheit wurde
+        wie eine Bedrohung behandelt, die man kontrolliert, nicht wie ein Bedürfnis, das man
+        äußert. So wurde aus einer behandelbaren Warnung über Jahre ein unaufhaltsames
+        Fortschreiten.</p>
+        <p class="vb-intro"><strong>d) Die bittere Pointe: Der eingebildete Kranke:</strong>
+        Die letzte Ironie seines Lebens ist zugleich die deutlichste Deutung: Er starb in
+        der Rolle eines Mannes, der sich Krankheiten einbildet, während er selbst an einer
+        realen, tödlichen Krankheit litt, die er sich nicht einzugestehen erlaubte. Schon
+        einen Monat zuvor, am 17. Januar 1673, hatte er einen echten Hustenanfall live in
+        eine komische Bühnenaktion verwandelt – dieselbe Maskierungs-Bewegung wie bei Rowan
+        Atkinson, nur unter tödlichem Ernst. Gelesen als Korrektiv: Der Körper erzwang auf
+        der Bühne selbst jene Aufmerksamkeit, die ihm im echten Leben jahrelang verweigert
+        worden war – ein Symptom als letzter, unausweichlicher Wegweiser.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass die soziale Sieben zwangsläufig zu Lungenkrankheiten führt –
+        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
+        sich an Molières Fall zeigen lässt, ist ein Muster, das bei chronischer
+        Selbstverleugnung zugunsten äußerer Pflichten – und beim Abrutschen in den
+        Stresspunkt über Jahre hinweg – in der Praxis immer wieder auffällt – eine von
+        vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild der
+        Atemwege wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Moli\xe8re</strong> verk\xf6rpert die soziale Eins mit Neunerfl\xfcgel in ihrer
-        vielleicht wirkungsvollsten Form: moralischer Zorn, verwandelt in Kunst statt
-        in Anklage, ein Leben lang im Dienst einer Sache, die gr\xf6\xdfer war als er selbst.
-        Genau diese St\xe4rke wurde ihm am Ende zum Verh\xe4ngnis: Die Unf\xe4higkeit, die
-        eigene Erschöpfung ernst zu nehmen, solange die Pflicht rief, lie\xdf eine
-        behandelbare Krankheit zur t\xf6dlichen werden. Sein letzter Auftritt – als
-        Mann, der sich Krankheit einbildet, w\xe4hrend er wirklich stirbt – bleibt eines
-        der eindr\xfccklichsten Bilder der Theatergeschichte.</p>
+        <strong>Molière</strong> verkörpert die soziale Sieben mit Sechserflügel in ihrer
+        vielleicht wirkungsvollsten Form: rastlose Schaffenskraft, verwandelt in ein
+        Lebenswerk im Dienst einer Sache, die größer war als er selbst – abgesichert durch
+        wache Vorsicht gegenüber mächtigen Gegnern. Genau diese Kombination wurde ihm am
+        Ende zum Verhängnis: Unter dem Druck jahrzehntelanger Verantwortung rutschte er
+        immer tiefer in seinen Stresspunkt, die Eins – starrer, pflichtbewusster,
+        unfähiger, die eigene Erschöpfung ernst zu nehmen –, bis eine behandelbare
+        Krankheit zur tödlichen wurde. Sein letzter Auftritt – als Mann, der sich Krankheit
+        einbildet, während er wirklich stirbt – bleibt eines der eindrücklichsten Bilder
+        der Theatergeschichte.</p>
       </div>
 
       ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsportr\xe4ts"},
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/so1", label:"Subtyp-Profil SO1"},
+        {route:"subtype/so7", label:"Subtyp-Profil SO7"},
       ])}
     </div>
   `);
@@ -94659,7 +94703,7 @@ function render() {
       "beruehmte-bella-thorne": bellaThornePage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "krankheitsportraets": krankheitsportraetsPage,
-      // "krankheitsportraets-moliere": molierePortraitPage, // Typzuordnung noch nicht final bestätigt – vorerst deaktiviert
+      "krankheitsportraets-moliere": molierePortraitPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
