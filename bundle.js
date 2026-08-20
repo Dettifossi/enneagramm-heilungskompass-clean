@@ -66029,7 +66029,7 @@ function marieCurieKrankheitsportraetPage() {
         beibehielt, auch als sie es sich längst nicht mehr hätte leisten müssen.</p>
         <p class="vb-intro"><strong>b) Kompetenz statt Beziehung als Sicherheitsanker:</strong>
         Nicht Anerkennung, nicht Zugehörigkeit gaben Curie Halt, sondern das genaue Wissen um
-        ihr Fachgebiet – ein Fundament, das sie sich niemand nehmen konnte.</p>
+        ihr Fachgebiet – ein Fundament, das ihr niemand nehmen konnte.</p>
         <p class="vb-intro"><strong>c) Das Labor als Refugium:</strong>
         Ein notdürftig eingerichteter Schuppen wurde über Jahre zum eigentlichen Zuhause – ein
         selbst kontrollierter Raum, in dem die Außenwelt mit ihren Ansprüchen keinen Zugriff
