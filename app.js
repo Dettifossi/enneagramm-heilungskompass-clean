@@ -23972,6 +23972,7 @@ const registerEntries = [
   { term: "Fjodor Dostojewski Krankheitsporträt", route: "krankheitsportraets-fjodor-dostojewski", description: "Portrait: SE6w5 · Selbsterhaltender Typ 6 · lebenslange Epilepsie" },
   { term: "Franz Kafka Krankheitsporträt", route: "krankheitsportraets-franz-kafka", description: "Portrait: SE5w4 · Selbsterhaltender Typ 5 · Kehlkopf-Tuberkulose" },
   { term: "Ronald Reagan Krankheitsporträt", route: "krankheitsportraets-ronald-reagan", description: "Portrait: SO9w8 · Sozialer Typ 9 · Alzheimer-Krankheit" },
+  { term: "David Bowie Krankheitsporträt", route: "krankheitsportraets-david-bowie", description: "Portrait: SO1w2 · Sozialer Typ 1 · Leberkrebs, verwandelt in das Album Blackstar" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31400,6 +31401,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-fjodor-dostojewski", name:"Fjodor Dostojewski", subtyp:"SE6w5", heading:"Fjodor Dostojewski – Selbsterhaltender Typ 6", krankheit:"Lebenslange Epilepsie", teaser:"SE6w5 – russischer Schriftsteller, 1821–1881. Litt sein gesamtes erwachsenes Leben an Epilepsie, deren berühmte Aura er als Moment vollkommener Harmonie beschrieb. Verarbeitete die Krankheit direkt in seinen Romanfiguren, allen voran Fürst Myschkin in Der Idiot." , land:"Russland", gender:"m", jahre:"1821–1881"},
   { route:"krankheitsportraets-franz-kafka", name:"Franz Kafka", subtyp:"SE5w4", heading:"Franz Kafka – Selbsterhaltender Typ 5", krankheit:"Kehlkopf-Tuberkulose", teaser:"SE5w4 – Schriftsteller, 1883–1924. Ab 1917 an Tuberkulose erkrankt, die zuletzt auf den Kehlkopf übergriff und ihm das Sprechen unmöglich machte. Starb 1924 im Alter von 40 Jahren, kommunizierte in den letzten Wochen nur noch über handschriftliche Zettel." , land:"Tschechien/Österreich-Ungarn", gender:"m", jahre:"1883–1924"},
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Sozialer Typ 9", krankheit:"Alzheimer-Krankheit", teaser:"SO9w8 – 40. US-Präsident 1981–1989, 1911–2004. Gab 1994 in einem handschriftlichen Brief an die amerikanische Öffentlichkeit seine Alzheimer-Diagnose bekannt und zog sich danach zehn Jahre lang fast vollständig aus der Öffentlichkeit zurück." , land:"USA", gender:"m", jahre:"1911–2004"},
+  { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Sozialer Typ 1", krankheit:"Leberkrebs", teaser:"SO1w2 – Musiker und Künstler, 1947–2016. Kämpfte 18 Monate lang im Verborgenen gegen Leberkrebs und verwandelte die Diagnose in sein letztes Werk, das Album Blackstar, das zwei Tage vor seinem Tod erschien." , land:"Vereinigtes Königreich", gender:"m", jahre:"1947–2016"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -58917,10 +58919,12 @@ function davidBowiePortraitPage() {
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      <p class="vb-intro">Die 18 im Verborgenen durchlittenen Monate mit Leberkrebs und ihre Verwandlung in das Album <em>Blackstar</em> werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-david-bowie">Krankheitsportr\u00e4t zu Bowie</a> gedeutet.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so1", label:"SO1 \u2013 Subtyp-Profil"},
         {route:"beruehmte-freddie-mercury", label:"Freddie Mercury im Vergleich"},
+        {route:"krankheitsportraets-david-bowie", label:"Krankheitsportr\u00e4t: David Bowie (SO1w2)"},
       ])}
     </div>
   `);
@@ -67822,6 +67826,189 @@ function ronaldReaganKrankheitsportraetPage() {
         {route:"beruehmte-wilma-mankiller", label:"Porträt: Wilma Mankiller (SO9w8)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so9", label:"Subtyp-Profil SO9"},
+      ])}
+    </div>
+  `);
+}
+
+function davidBowieKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-david-bowie-portrait.jpg" alt="David Bowie" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Bowie</p>
+        <p class="krim-portrait-typ">SO1w2 · Sozialer Typ 1 mit Zweierflügel · 1947–2016</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gans</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Tierentsprechung: Gans" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>David Bowie</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-david-bowie">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur am Rande
+        vorkommt: 18 Monate lang kämpfte Bowie im Verborgenen gegen Leberkrebs, ohne dass
+        Öffentlichkeit oder die meisten seiner engsten Mitarbeiter davon wussten – und
+        verwandelte die Diagnose in sein letztes, bewusst komponiertes Werk.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Bowie</strong> ist der <strong>sozialen Eins mit Zweierflügel</strong>
+        zugeordnet. Naranjo beschrieb die soziale Eins als den Subtyp, der seinen
+        Vollkommenheitsanspruch nicht primär nach innen, sondern an das Kollektiv richtet – als
+        Botschaft, als Korrektiv, als bewusst gesetztes Beispiel. Der Zweierflügel bringt echte
+        menschliche Wärme hinzu, die Fähigkeit, nicht nur für ein Ideal zu kämpfen, sondern
+        anderen Menschen konkret etwas zu geben – auch im eigenen Sterben blieb Bowie dieser
+        Geste treu.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Nach außen gerichtet, auf Wirkung bedacht:</strong>
+        Bowies Blick galt zeitlebens der Frage, welche Botschaft er der Öffentlichkeit
+        vermitteln wollte – diese Haltung veränderte sich auch angesichts der eigenen
+        Sterblichkeit nicht.</p>
+        <p class="vb-intro"><strong>b) Kontrolle über die eigene Erzählung bis zuletzt:</strong>
+        Statt die Diagnose öffentlich zu machen oder sie dem Zufall der Gerüchteküche zu
+        überlassen, entschied Bowie, wann, wie und in welcher künstlerischen Form die Welt
+        davon erfahren sollte.</p>
+        <p class="vb-intro"><strong>c) Verschlüsselte statt direkte Kommunikation:</strong>
+        Anders als bei anderen Krankheitsporträts dieses Kompasses, in denen Betroffene ihre
+        Diagnose direkt benannten, wählte Bowie den Umweg über Kunst – ein für die soziale Eins
+        typischer Weg, eine Botschaft nicht roh, sondern in eine bewusst geformte Aussage zu
+        kleiden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die Diagnose als Auftakt zu einem letzten Projekt:</strong>
+        2014 wurde bei Bowie Leberkrebs diagnostiziert. Statt sich zurückzuziehen, begann er
+        unmittelbar mit der Arbeit an einem letzten großen künstlerischen Statement.</p>
+        <p class="vb-intro"><strong>b) Radikale Geheimhaltung:</strong>
+        Selbst enge Mitarbeiter und Musiker, die mit ihm im Studio saßen, wussten über weite
+        Strecken nichts von der Diagnose – eine für die soziale Eins ungewöhnliche, aber
+        bewusste Entscheidung: Die private Krankheit sollte die öffentliche Botschaft nicht
+        überschatten.</p>
+        <p class="vb-intro"><strong>c) Zwei parallele letzte Werke:</strong>
+        Neben dem Album <em>Blackstar</em> entstand zeitgleich das Musical <em>Lazarus</em>
+        (2015) – beide Werke kreisen unverkennbar um Tod, Abschied und Verwandlung, Jahre bevor
+        die Öffentlichkeit den Grund dafür kannte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Blackstar als bewusst gesetzter Schlusspunkt:</strong>
+        Das Album erschien am 8. Januar 2016, an Bowies 69. Geburtstag – zwei Tage vor seinem
+        Tod. Der Zeitpunkt war kein Zufall, sondern letzte, präzise Regie über die eigene
+        Geschichte.</p>
+        <p class="vb-intro"><strong>b) Lazarus als unverhüllte Selbstdeutung:</strong>
+        Im Video zur Single <em>Lazarus</em> liegt Bowie in einem Krankenbett, mit
+        verbundenen Augen, und singt: &bdquo;Look up here, I'm in heaven.&ldquo; Erst nach
+        seinem Tod erkannte die Öffentlichkeit, wie unmittelbar dieses Bild seine tatsächliche
+        Situation beschrieb.</p>
+        <p class="vb-intro"><strong>c) Produzent Tony Visconti als Mitwisser:</strong>
+        Nur ein kleiner, ausgewählter Kreis um Produzent Tony Visconti wusste von der Diagnose
+        und half, das letzte Werk exakt so zu gestalten, wie Bowie es sich vorstellte – ein
+        letztes Beispiel seiner lebenslangen Fähigkeit, andere Künstler in sein Projekt
+        einzubinden, ohne selbst die Kontrolle abzugeben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Werk, das sich erst nach dem Tod vollständig erschloss:</strong>
+        Erst als am 10. Januar 2016 Bowies Tod bekannt wurde, verstand die Öffentlichkeit
+        <em>Blackstar</em> als das, was es tatsächlich war – ein bewusst komponiertes
+        Abschiedswerk, kein gewöhnliches Album.</p>
+        <p class="vb-intro"><strong>b) Kritische Neubewertung binnen Stunden:</strong>
+        Musikkritiker, die das Album zwei Tage zuvor noch als rätselhaft und düster
+        beschrieben hatten, lasen es nach der Todesnachricht neu – ein seltener Fall, in dem
+        sich die öffentliche Deutung eines Kunstwerks binnen 48 Stunden vollständig
+        verschob.</p>
+        <p class="vb-intro"><strong>c) Eine letzte Botschaft an ein globales Publikum:</strong>
+        Mit <em>Blackstar</em> gelang Bowie noch einmal genau das, was sein gesamtes Werk
+        auszeichnete: einen Raum zu öffnen, den vorher niemand betreten hatte – diesmal den
+        Raum des öffentlich gestalteten eigenen Sterbens.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Höchste Schaffenskraft trotz fortschreitender Krankheit:</strong>
+        In den letzten 18 Lebensmonaten produzierte Bowie zwei vollständige, komplexe Werke –
+        ein Arbeitspensum, das viele gesunde Künstler nicht erreichen.</p>
+        <p class="vb-intro"><strong>b) Verschmelzung von Sterben und künstlerischer Aussage:</strong>
+        Für Bowie gab es keine Trennung zwischen dem eigenen körperlichen Verfall und dem
+        Inhalt seiner Kunst – beides wurde zu ein und demselben letzten Statement.</p>
+        <p class="vb-intro"><strong>c) Energie, die bis zum letzten Moment kanalisiert blieb:</strong>
+        Auch als der Körper zunehmend schwächer wurde, blieb die kreative Energie auf ein
+        einziges, klar umrissenes Ziel gerichtet – das fertige, veröffentlichte Werk.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) 18 Monate im Verborgenen:</strong>
+        Von der Diagnose 2014 bis zu seinem Tod am 10. Januar 2016 hielt Bowie seine
+        Erkrankung nahezu vollständig geheim – nur ein enger Kreis von Vertrauten wusste
+        davon.</p>
+        <p class="vb-intro"><strong>b) Zwei Tage zwischen Werk und Tod:</strong>
+        <em>Blackstar</em> erschien am 8. Januar 2016, Bowie starb am 10. Januar – ein zeitlicher
+        Abstand, der zeigt, wie präzise er den Zeitpunkt der Veröffentlichung noch selbst
+        bestimmte, während sein Körper bereits im Sterben lag.</p>
+        <p class="vb-intro"><strong>c) Verschlüsselung statt Ankündigung:</strong>
+        Anders als Ronald Reagan, der seine Diagnose in einem direkten Brief an die
+        Öffentlichkeit richtete, wählte Bowie den entgegengesetzten Weg: Er verschlüsselte die
+        eigene Sterblichkeit in Musik, Text und Bild, statt sie unmittelbar auszusprechen – für
+        die soziale Eins typisch, deren Botschaften an das Kollektiv selten roh, sondern fast
+        immer kunstvoll geformt daherkommen.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet eine letzte Verwandlung?</strong>
+        Bowies gesamtes künstlerisches Leben bestand aus einer Kette bewusster Verwandlungen –
+        Ziggy Stardust, der Thin White Duke, der Berliner Elektronik-Experimentator –, jede
+        davon ein Raum, den er für andere öffnete, lange bevor sie wussten, dass sie ihn
+        brauchten. Die eigene Sterblichkeit wurde zu seiner letzten, konsequentesten
+        Verwandlung: Er inszenierte sein eigenes Sterben nicht als privaten Verfall, sondern
+        als ein weiteres, letztes öffentliches Statement, komponiert mit derselben Präzision
+        wie jede Rolle zuvor. Für eine soziale Eins, deren Leidenschaft der Zorn ist – der
+        unbedingte Wille, etwas Wichtiges korrekt und vollständig an die Welt weiterzugeben –
+        liegt es nahe, gerade im eigenen Tod die letzte, radikalste Form dieses Musters zu
+        lesen: Selbst das Unausweichliche wurde nicht dem Zufall überlassen, sondern bis zur
+        letzten Sekunde gestaltet. Diese Deutung wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Eins zwangsläufig zu Krebserkrankungen
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Bowies Fall zeigen lässt, ist ein Muster, das bei dem
+        Bedürfnis, selbst die eigene Sterblichkeit noch als bewusst gestaltete Botschaft an ein
+        Publikum zu formen, in der Praxis immer wieder auffällt – eine von vielen möglichen
+        Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
+        und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Bowie</strong> verkörpert die soziale Eins mit Zweierflügel bis in die eigene
+        Krankheitsgeschichte hinein: eine Diagnose, die er nicht direkt aussprach, sondern in
+        sein letztes, kunstvoll geformtes Werk verwandelte, und ein Sterben, das er bis zum
+        letzten Tag selbst inszenierte, statt es dem Zufall zu überlassen. Die Gans, die ihr
+        Leben lang für die Formation anderer rief, öffnete mit ihrem letzten Ruf noch einmal
+        einen Raum, den vorher niemand betreten hatte – den Raum des öffentlich gestalteten
+        eigenen Todes.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-david-bowie", label:"Porträt: David Bowie (SO1w2) – Lebenswerk"},
+        {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8) – Gegenmodell: direkte statt verschlüsselte Offenlegung"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so1", label:"Subtyp-Profil SO1"},
       ])}
     </div>
   `);
@@ -96827,6 +97014,7 @@ function render() {
       "krankheitsportraets-fjodor-dostojewski": fjodorDostojewskiKrankheitsportraetPage,
       "krankheitsportraets-franz-kafka": franzKafkaKrankheitsportraetPage,
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
+      "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

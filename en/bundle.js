@@ -199,6 +199,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-fjodor-dostojewski", name:"Fjodor Dostojewski", subtyp:"SE6w5", heading:"Fjodor Dostoevsky – Self-Preservation Type 6", krankheit:"Lifelong Epilepsy", teaser:"SE6w5 – Russian writer, 1821–1881. Suffered from epilepsy for his entire adult life; described its famous aura as a moment of perfect harmony. Wrote the illness directly into his fiction, above all in Prince Myshkin in The Idiot." , land:"Russia", gender:"m", jahre:"1821–1881"},
   { route:"krankheitsportraets-franz-kafka", name:"Franz Kafka", subtyp:"SE5w4", heading:"Franz Kafka – Self-Preservation Type 5", krankheit:"Laryngeal Tuberculosis", teaser:"SE5w4 – writer, 1883–1924. Diagnosed with tuberculosis in 1917, which eventually spread to his larynx and made speech impossible. Died in 1924 at age 40, communicating in his final weeks only through handwritten notes." , land:"Czechia/Austria-Hungary", gender:"m", jahre:"1883–1924"},
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Social Type 9", krankheit:"Alzheimer's Disease", teaser:"SO9w8 – 40th US President 1981–1989, 1911–2004. Announced his Alzheimer's diagnosis in 1994 in a handwritten letter to the American public, then withdrew almost entirely from public life for the following ten years." , land:"USA", gender:"m", jahre:"1911–2004"},
+  { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Social Type 1", krankheit:"Liver Cancer", teaser:"SO1w2 – musician and artist, 1947–2016. Fought liver cancer in secret for 18 months and transformed the diagnosis into his final work, the album Blackstar, released two days before his death." , land:"United Kingdom", gender:"m", jahre:"1947–2016"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -34282,10 +34283,12 @@ function davidBowiePortraitPage() {
             ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <p class="vb-intro">The 18 months he secretly fought liver cancer, and how they were transformed into the album <em>Blackstar</em>, are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-david-bowie">Illness Portrait of Bowie</a>.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so1", label:"SO1 – Subtype Profile"},
         {route:"beruehmte-freddie-mercury", label:"Freddie Mercury compared"},
+        {route:"krankheitsportraets-david-bowie", label:"Illness Portrait: David Bowie (SO1w2)"},
       ])}
     </div>
   `);
@@ -40966,6 +40969,177 @@ function ronaldReaganKrankheitsportraetPage() {
         {route:"beruehmte-wilma-mankiller", label:"Portrait: Wilma Mankiller (SO9w8)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so9", label:"Subtype Profile SO9"},
+      ])}
+    </div>
+  `);
+}
+
+function davidBowieKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-david-bowie-portrait.jpg" alt="David Bowie" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Bowie</p>
+        <p class="krim-portrait-typ">SO1w2 · Social Type 1 with Two-wing · 1947–2016</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Goose</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Animal correspondence: Goose" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>David Bowie</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-david-bowie">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and type structure in general.
+        This page deals exclusively with a chapter only briefly mentioned there: for 18
+        months, Bowie fought liver cancer in secret, unknown to the public and to most of his
+        closest collaborators – and transformed the diagnosis into his final, deliberately
+        composed work.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Bowie</strong> is classified as the <strong>Social One with Two-wing</strong>.
+        Naranjo described the Social One as the subtype who directs her striving for perfection
+        not primarily inward but at the collective – as a message, a corrective, a deliberately
+        set example. The Two-wing adds genuine human warmth, the ability not just to fight for
+        an ideal but to give other people something concrete – Bowie remained true to this
+        gesture even in his own dying.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Turned outward, focused on impact:</strong>
+        Bowie's gaze always concerned itself with what message he wanted to convey to the
+        public – this stance did not change in the face of his own mortality.</p>
+        <p class="vb-intro"><strong>b) Control over his own narrative to the end:</strong>
+        Rather than making the diagnosis public or leaving it to the rumor mill, Bowie decided
+        when, how, and in what artistic form the world would learn about it.</p>
+        <p class="vb-intro"><strong>c) Encoded rather than direct communication:</strong>
+        Unlike other Illness Portraits in this Compass, in which the subjects named their
+        diagnosis directly, Bowie took the detour through art – typical of the Social One,
+        whose messages to the collective rarely arrive raw, but almost always in a
+        deliberately shaped form.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) The diagnosis as the start of a final project:</strong>
+        In 2014, Bowie was diagnosed with liver cancer. Rather than withdrawing, he began
+        immediately working on one last major artistic statement.</p>
+        <p class="vb-intro"><strong>b) Radical secrecy:</strong>
+        Even close collaborators and musicians who sat with him in the studio knew nothing of
+        the diagnosis for long stretches – an unusual but deliberate decision for a Social
+        One: the private illness was not to overshadow the public message.</p>
+        <p class="vb-intro"><strong>c) Two parallel final works:</strong>
+        Alongside the album <em>Blackstar</em>, the musical <em>Lazarus</em> (2015) was created
+        at the same time – both works unmistakably circle around death, farewell, and
+        transformation, years before the public knew the reason why.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Blackstar as a deliberately set final point:</strong>
+        The album was released on January 8, 2016, Bowie's 69th birthday – two days before his
+        death. The timing was no accident, but a final, precise act of directing his own
+        story.</p>
+        <p class="vb-intro"><strong>b) Lazarus as unveiled self-interpretation:</strong>
+        In the video for the single <em>Lazarus</em>, Bowie lies in a hospital bed, eyes
+        bandaged, singing: "Look up here, I'm in heaven." Only after his death did the public
+        realize how directly this image described his actual situation.</p>
+        <p class="vb-intro"><strong>c) Producer Tony Visconti as confidant:</strong>
+        Only a small, chosen circle around producer Tony Visconti knew of the diagnosis and
+        helped shape the final work exactly as Bowie envisioned it – one last example of his
+        lifelong ability to draw other artists into his project without ever ceding control
+        himself.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A work that only fully revealed itself after death:</strong>
+        Only when Bowie's death became known on January 10, 2016, did the public understand
+        <em>Blackstar</em> for what it actually was – a deliberately composed farewell work,
+        not an ordinary album.</p>
+        <p class="vb-intro"><strong>b) Critical reassessment within hours:</strong>
+        Music critics who had described the album two days earlier as puzzling and dark
+        reread it after the news of his death – a rare case in which the public interpretation
+        of a work of art shifted completely within 48 hours.</p>
+        <p class="vb-intro"><strong>c) A final message to a global audience:</strong>
+        With <em>Blackstar</em>, Bowie achieved once more exactly what had defined his entire
+        body of work: opening a space no one had entered before – this time, the space of a
+        deliberately shaped, public death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Peak creative output despite advancing illness:</strong>
+        In his final 18 months, Bowie produced two complete, complex works – a workload many
+        healthy artists never reach.</p>
+        <p class="vb-intro"><strong>b) Fusion of dying and artistic statement:</strong>
+        For Bowie, there was no separation between his own physical decline and the content of
+        his art – both became one and the same final statement.</p>
+        <p class="vb-intro"><strong>c) Energy that stayed channeled to the very last moment:</strong>
+        Even as his body grew increasingly weaker, his creative energy remained directed at a
+        single, clearly defined goal – the finished, released work.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) 18 months in secret:</strong>
+        From his diagnosis in 2014 to his death on January 10, 2016, Bowie kept his illness
+        almost entirely secret – only a small circle of confidants knew.</p>
+        <p class="vb-intro"><strong>b) Two days between work and death:</strong>
+        <em>Blackstar</em> was released on January 8, 2016; Bowie died on January 10 – a
+        margin that shows how precisely he still determined the timing of the release himself,
+        while his body was already dying.</p>
+        <p class="vb-intro"><strong>c) Encoding instead of announcement:</strong>
+        Unlike Ronald Reagan, who addressed his diagnosis directly in a letter to the public,
+        Bowie chose the opposite path: he encoded his own mortality in music, lyrics, and
+        image rather than stating it directly – typical of the Social One, whose messages to
+        the collective rarely arrive raw, but almost always in artfully shaped form.</p>
+        <p class="vb-intro"><strong>d) Why one final transformation, of all things?</strong>
+        Bowie's entire artistic life consisted of a chain of deliberate transformations – Ziggy
+        Stardust, the Thin White Duke, the Berlin electronic experimentalist – each one a
+        space he opened for others long before they knew they needed it. His own mortality
+        became his final, most consistent transformation: he staged his own dying not as
+        private decline, but as one more, final public statement, composed with the same
+        precision as every role before it. For a Social One, whose passion is anger – the
+        unconditional will to pass something important on to the world correctly and
+        completely – it is tempting to read exactly her own death as the last, most radical
+        form of this pattern: even the unavoidable was not left to chance, but shaped down to
+        the final second. This reading is explored in more depth in this Compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        This does not mean the Social One's pattern inevitably leads to cancer –
+        <strong>every person can develop any illness, regardless of subtype.</strong> What
+        Bowie's case can show is a pattern that stands out again and again in practice
+        wherever the need exists to shape even one's own mortality into a deliberately
+        composed message for an audience – one possible explanation among many, not a verdict.
+        The corresponding condition will be developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Bowie</strong> embodies the Social One with Two-wing right down into his own
+        illness history: a diagnosis he did not state directly but transformed into his final,
+        artfully shaped work, and a dying he staged himself until the very last day, rather
+        than leaving it to chance. The goose who called for the formation of others her whole
+        life opened, with her final call, one more space no one had entered before – the space
+        of a publicly shaped death.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-david-bowie", label:"Portrait: David Bowie (SO1w2) – life's work"},
+        {route:"krankheitsportraets-ronald-reagan", label:"Illness Portrait: Ronald Reagan (SO9w8) – counter-model: direct rather than encoded disclosure"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so1", label:"Subtype Profile SO1"},
       ])}
     </div>
   `);
@@ -62351,6 +62525,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-fjodor-dostojewski": fjodorDostojewskiKrankheitsportraetPage,
       "krankheitsportraets-franz-kafka": franzKafkaKrankheitsportraetPage,
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
+      "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
