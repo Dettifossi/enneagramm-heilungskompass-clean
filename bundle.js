@@ -31406,6 +31406,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Sozialer Typ 9", krankheit:"Alzheimer-Krankheit", teaser:"SO9w8 – 40. US-Präsident 1981–1989, 1911–2004. Gab 1994 in einem handschriftlichen Brief an die amerikanische Öffentlichkeit seine Alzheimer-Diagnose bekannt und zog sich danach zehn Jahre lang fast vollständig aus der Öffentlichkeit zurück." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Sozialer Typ 1", krankheit:"Leberkrebs", teaser:"SO1w2 – Musiker und Künstler, 1947–2016. Kämpfte 18 Monate lang im Verborgenen gegen Leberkrebs und verwandelte die Diagnose in sein letztes Werk, das Album Blackstar, das zwei Tage vor seinem Tod erschien." , land:"Vereinigtes Königreich", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2", krankheit:"Fieberhafte Erkrankung mit Nierenversagen (vermutlich Folge einer Streptokokken-Infektion)", teaser:"SE2w3 – österreichischer Komponist, 1756–1791. Von Kindheit an eine Kette fieberhafter Erkrankungen (Pocken, Typhus, wiederkehrendes Scharlach), starb 1791 mit 35 Jahren nach zweiwöchiger Krankheit mit Fieber und generalisierten Ödemen – während er gleichzeitig an drei Großwerken arbeitete, darunter das unvollendete Requiem." , land:"Österreich", gender:"m", jahre:"1756–1791"},
+  { route:"krankheitsportraets-konrad-adenauer", name:"Konrad Adenauer", subtyp:"SE1w9", heading:"Konrad Adenauer – Selbsterhaltender Typ 1", krankheit:"Schwere Gesichtsverletzungen durch Autounfall (1917), später Verfolgung und Haft, Tod nach zwei Herzinfarkten und Lungenentzündung (1967)", teaser:"SE1w9 – deutscher Bundeskanzler 1949–1963, 1876–1967. Sein Gesicht wurde 1917 bei einem schweren Autounfall zertrümmert; er formte die Narben zum Ausdruck kontrollierter Autorität um. Zwei Jahrzehnte später Verfolgung und Haft unter den Nationalsozialisten, bis ins hohe Alter bemerkenswert vital." , land:"Deutschland", gender:"m", jahre:"1876–1967"},
   { route:"krankheitsportraets-friedrich-schiller", name:"Friedrich Schiller", subtyp:"SX6w5", heading:"Friedrich Schiller – Sexueller Typ 6", krankheit:"Lungentuberkulose", teaser:"SX6w5 – Dichter, Dramatiker und Historiker, 1759–1805. Seit der Kindheit fragile Konstitution, ab 1791 wiederkehrende lebensbedrohliche Fieber- und Hustenanfälle, vierzehn Jahre kompromissloser Arbeit gegen den eigenen Verfall. Starb 1805 mit 45 Jahren an akuter Lungenentzündung – die Obduktion zeigte einen vollständig zerstörten Lungenflügel." , land:"Deutschland", gender:"m", jahre:"1759–1805"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Sozialer Typ 3", krankheit:"Krebserkrankung (Todesursache offiziell nie bestätigt; laut Assistent Prostatakrebs, diagnostiziert 2015)", teaser:"SO3w4 – Modedesigner und Chanel-Kreativdirektor, 1933–2019. Hielt eine Krebsdiagnose nach übereinstimmenden Berichten fast vier Jahre lang selbst vor engsten Vertrauten geheim und fehlte erst vier Wochen vor seinem Tod erstmals seit 35 Jahren bei einer Chanel-Show." , land:"Deutschland/Frankreich", gender:"m", jahre:"1933–2019"},
 ];
@@ -52142,12 +52143,15 @@ function konradAdenauerPortraitPage() {
           <p class="vb-intro">Der Adler, der sp\u00e4t noch einmal aufstieg, nachdem sein Nest zerst\u00f6rt worden war, und der von dort, in ruhiger, unbeirrbarer H\u00f6he, ein zerbrochenes Land St\u00fcck f\u00fcr St\u00fcck wieder aufbaute &ndash; das ist das bleibende Bild der selbsterhaltenden Eins mit Neunerfl\u00fcgel: Ordnung, die nicht aus H\u00e4rte entsteht, sondern aus geduldiger, prinzipientreuer Sorgfalt.</p>
         </blockquote>
 
+        <p class="vb-intro">Der schwere Autounfall von 1917, der sein Gesicht lebenslang ver\u00e4nderte, sowie die Verfolgung und Haft unter den Nationalsozialisten werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-konrad-adenauer">Krankheitsportr\u00e4t zu Adenauer</a> gedeutet.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"krankheitsportraets-konrad-adenauer", label:"Krankheitsportr\u00e4t: Konrad Adenauer (SE1w9)"},
         {route:"subtype/se1", label:"SE1 \u2013 Der Adler: Subtyp-Profil"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portr\xe4t: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-helmut-kohl", label:"Portr\xe4t: Helmut Kohl (SO8w9) \u2013 Bundeskanzler"},
@@ -68717,6 +68721,188 @@ function friedrichSchillerKrankheitsportraetPage() {
         {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – Gegenmodell: Verbergen statt Konfrontation"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
+      ])}
+    </div>
+  `);
+}
+
+function konradAdenauerKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-konrad-adenauer-portrait.jpg" alt="Konrad Adenauer" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Konrad Adenauer</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel · 1876–1967</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Adler</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Konrad Adenauer</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-konrad-adenauer">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift wird:
+        ein schwerer Autounfall 1917, der sein Gesicht lebenslang veränderte, gefolgt von
+        Verfolgung und Haft unter den Nationalsozialisten sowie den gesundheitlichen
+        Einbrüchen seines letzten Lebensjahres.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Adenauer</strong> ist der <strong>selbsterhaltenden Eins mit Neunerflügel</strong>
+        zugeordnet. Die SE1 richtet den Vollkommenheitsanspruch der Eins auf das eigene,
+        unmittelbare Überleben und Funktionieren – Ordnung, Kontrolle und moralische
+        Korrektheit als Schutz vor Chaos und Verletzlichkeit. Der Neunerflügel bringt eine
+        ruhige, unerschütterlich wirkende Präsenz hinzu, hinter der sich Anspannung oft lange
+        verbirgt – ein Muster, das sich bis in Adenauers äußerlich stets kontrollierte Haltung
+        nach einem im wörtlichen Sinne zertrümmerten Gesicht nachverfolgen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Kontrolle über das eigene Erscheinungsbild als Lebensprinzip:</strong>
+        Nach dem Unfall, der sein Gesicht dauerhaft veränderte, arbeitete Adenauer sein
+        gesamtes weiteres Leben an einer öffentlichen Erscheinung von unerschütterlicher
+        Ruhe und Autorität – das genaue Gegenteil der erlittenen Verwundbarkeit.</p>
+        <p class="vb-intro"><strong>b) Wachsamkeit als Grundhaltung:</strong>
+        Ob nach dem Unfall, während der Verfolgung durch die Nationalsozialisten oder im hohen
+        Amt – Adenauers Blick galt stets der Frage, welche Gefahr als Nächstes drohen könnte,
+        und wie ihr durch Vorsicht und Struktur zu begegnen sei.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Fassung trotz privater Erschütterung:</strong>
+        Selbst in den Monaten der Gestapo-Verfolgung 1944 hielt Adenauer nach eigener
+        Aussage seine Haltung gegenüber den Verhörenden als "scharf, aber korrekt" –
+        eine kontrollierte Contenance, die auch unter existenziellem Druck nicht zusammenbrach.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein schwerer Autounfall 1917:</strong>
+        Der Dienstwagen des damals 41-jährigen Kölner Beigeordneten Adenauer kollidierte mit
+        einer Straßenbahn. Jochbein und Nasenbein brachen, der Unterkiefer wurde zertrümmert
+        und ausgerenkt, mehrere Zähne gingen verloren, die Sehkraft war beeinträchtigt, dazu
+        kamen tiefe Kopfwunden.</p>
+        <p class="vb-intro"><strong>b) Monatelange Rekonstruktion:</strong>
+        Es folgten ein monatelanger Krankenhausaufenthalt und mehrere rekonstruktive
+        Operationen am Gesicht. Die markanten, eingefallenen Gesichtszüge, für die Adenauer
+        später bekannt wurde, sind zu einem erheblichen Teil direkte Unfallfolge – keine
+        gewöhnliche Alterserscheinung.</p>
+        <p class="vb-intro"><strong>c) Verfolgung ab 1933:</strong>
+        Nach der Machtübernahme der Nationalsozialisten wurde Adenauer als Kölner
+        Oberbürgermeister abgesetzt und aus Köln verwiesen; er fand zeitweise Zuflucht in der
+        Abtei Maria Laach. Im Juni 1934, im Umfeld des sogenannten Röhm-Putsches, folgte eine
+        zweitägige Gestapo-Haft.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Flucht und erneute Verhaftung 1944:</strong>
+        Wegen einer perniziösen Anämie zunächst als hafuntauglich eingestuft und ins
+        Krankenhaus verlegt, gelang Adenauer im September 1944 mit einem gefälschten
+        Transportschein die Flucht. Er tauchte in einer Pension bei Hachenburg unter, wurde
+        jedoch wieder aufgegriffen.</p>
+        <p class="vb-intro"><strong>b) Zwei Monate Gestapo-Gefängnis Brauweiler:</strong>
+        Von Ende September bis Ende November 1944 saß Adenauer im Gestapo-Gefängnis
+        Brauweiler ein. Seine Zelle lag direkt über dem Verhörraum – nachts hörte er die
+        Misshandlung anderer Gefangener und verbrachte, wie er selbst beschrieb,
+        schweißgebadete Nächte unter psychischer Belastung.</p>
+        <p class="vb-intro"><strong>c) Das Trauma der eigenen Familie:</strong>
+        Seine Frau Auguste, unter Verhör zur Preisgabe seines Fluchtortes gezwungen, versuchte
+        aus Schuldgefühlen sich das Leben zu nehmen. Sie wurde rechtzeitig gerettet, starb
+        jedoch 1948 an den Spätfolgen – ein Leid, das die gesamte Familie Adenauer
+        lebenslang begleitete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Bemerkenswerte Vitalität trotz allem:</strong>
+        Trotz Unfall, Verfolgung und Haft amtierte Adenauer von 1949 bis 1963 als
+        Bundeskanzler – bis ins Alter von 87 Jahren galt er als außergewöhnlich
+        arbeitsfähig und vital.</p>
+        <p class="vb-intro"><strong>b) Zwei Herzinfarkte im Frühjahr 1967:</strong>
+        Am 29. März 1967 erlitt der 91-Jährige einen ersten Herzinfarkt, über Ostern folgte
+        ein zweiter. Sein Körper, der jahrzehntelang bemerkenswert stabil funktioniert hatte,
+        begann in den letzten Lebenswochen rasch nachzulassen.</p>
+        <p class="vb-intro"><strong>c) Tod nach kurzer letzter Erkrankung:</strong>
+        Auf die Herzinfarkte folgte eine grippale Bronchitis, die sich zu einer Lungenentzündung
+        entwickelte. Konrad Adenauer starb am 19. April 1967 im Alter von 91 Jahren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Wiederaufbau als Lebensmuster:</strong>
+        So wie sein Gesicht nach 1917 chirurgisch wiederhergestellt wurde, baute Adenauer nach
+        1945 buchstäblich einen zerstörten Staat wieder auf – ein Muster von Rekonstruktion
+        nach Zerstörung, das sich durch sein gesamtes Leben zieht.</p>
+        <p class="vb-intro"><strong>b) Kontrolle als Energiequelle unter Druck:</strong>
+        Die Fähigkeit, unter existenzieller Bedrohung – Unfall, Verfolgung, Haft – äußerlich
+        gefasst zu bleiben, war keine Abwesenheit von Angst, sondern eine trainierte,
+        disziplinierte Kanalisierung der eigenen Anspannung in kontrolliertes Handeln.</p>
+        <p class="vb-intro"><strong>c) Der Adler, der bis zuletzt im Amt blieb:</strong>
+        Die Energie der SE1w9 richtete sich bis ins hohe Alter auf dieselbe Grundhaltung:
+        Ordnung schaffen, Verantwortung tragen, nicht aufgeben, solange die Aufgabe nicht
+        erfüllt ist.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Verletzung, kein fortschreitendes Leiden:</strong>
+        Anders als bei den meisten anderen Krankheitsporträts dieses Kompasses steht bei
+        Adenauer am Anfang keine schleichende Erkrankung, sondern ein einmaliges, plötzliches
+        Trauma – der Autounfall von 1917 –, dessen körperliche und wohl auch psychische
+        Folgen ihn jedoch lebenslang begleiteten.</p>
+        <p class="vb-intro"><strong>b) Eine zweite Erschütterung, zwei Jahrzehnte später:</strong>
+        Wo der Unfall 1917 den Körper traf, trafen Verfolgung und Haft 1933/34 und 1944 die
+        Existenz und die Familie – zwei sehr unterschiedliche, aber strukturell verwandte
+        Erfahrungen von plötzlichem Kontrollverlust, denen Adenauer beide Male mit äußerer
+        Fassung begegnete.</p>
+        <p class="vb-intro"><strong>c) Ein Körper, der bis zum Schluss funktionierte:</strong>
+        Erst mit 91 Jahren, im Frühjahr 1967, versagte der Körper endgültig – nach
+        Jahrzehnten, in denen er trotz früher Verletzung bemerkenswert stabil geblieben war.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet das Gesicht?</strong>
+        Bei einer selbsterhaltenden Eins, deren gesamtes Lebensprinzip auf Kontrolle,
+        Korrektheit und makelloser äußerer Haltung beruht, liegt eine Deutung nahe: Der
+        Unfall traf ausgerechnet jenen Körperteil, über den Autorität, moralische Integrität
+        und öffentliches Auftreten am unmittelbarsten vermittelt werden – das Gesicht. Statt
+        sich zurückzuziehen, verwandelte Adenauer die sichtbaren Narben in das Gegenteil von
+        Schwäche: ein Gesicht, das zu einem der bekanntesten und autoritätsstiftendsten
+        Erscheinungsbilder der deutschen Nachkriegsgeschichte wurde. Diese Deutung ist eine
+        plausible Interpretation, kein historisch belegter Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu Unfällen
+        oder Verletzungen führt – <strong>jeder Mensch kann jede Krankheit oder Verletzung
+        erleiden, unabhängig vom Subtyp.</strong> Was sich an Adenauers Fall zeigen lässt, ist
+        ein Muster, das bei dem Bedürfnis, gerade nach erlittener Verwundbarkeit äußere
+        Kontrolle und Ordnung wiederherzustellen, in der Praxis immer wieder auffällt – eine
+        von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird
+        in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Adenauer</strong> verkörpert die selbsterhaltende Eins mit Neunerflügel bis in
+        die eigene Verletzungs- und Verfolgungsgeschichte hinein: ein 1917 zertrümmertes
+        Gesicht, das er zum Ausdruck kontrollierter Autorität umformte, zwei Jahrzehnte
+        später Verfolgung und Haft, denen er mit derselben äußeren Fassung begegnete, und ein
+        Körper, der bis zum 91. Lebensjahr bemerkenswert stabil blieb. Der Adler, der nach
+        jedem Sturz wieder aufstieg – nicht unversehrt, aber ungebrochen in seiner
+        Entschlossenheit, Ordnung wiederherzustellen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-konrad-adenauer", label:"Porträt: Konrad Adenauer (SE1w9) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
       ])}
     </div>
   `);
@@ -97726,6 +97912,7 @@ function render() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-konrad-adenauer": konradAdenauerKrankheitsportraetPage,
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,

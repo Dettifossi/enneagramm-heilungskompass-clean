@@ -201,6 +201,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Social Type 9", krankheit:"Alzheimer's Disease", teaser:"SO9w8 – 40th US President 1981–1989, 1911–2004. Announced his Alzheimer's diagnosis in 1994 in a handwritten letter to the American public, then withdrew almost entirely from public life for the following ten years." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Social Type 1", krankheit:"Liver Cancer", teaser:"SO1w2 – musician and artist, 1947–2016. Fought liver cancer in secret for 18 months and transformed the diagnosis into his final work, the album Blackstar, released two days before his death." , land:"United Kingdom", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Self-Preservation Type 2", krankheit:"Febrile Illness with Kidney Failure (likely following a streptococcal infection)", teaser:"SE2w3 – Austrian composer, 1756–1791. A lifelong chain of feverish illnesses since childhood (smallpox, typhoid fever, recurring scarlet fever) preceded his death at 35 after a two-week illness with fever and generalized swelling – while he was working on three major works at once, including the unfinished Requiem." , land:"Austria", gender:"m", jahre:"1756–1791"},
+  { route:"krankheitsportraets-konrad-adenauer", name:"Konrad Adenauer", subtyp:"SE1w9", heading:"Konrad Adenauer – Self-Preservation Type 1", krankheit:"Severe facial injuries from a car accident (1917), later persecution and imprisonment, death after two heart attacks and pneumonia (1967)", teaser:"SE1w9 – German Chancellor 1949–1963, 1876–1967. His face was shattered in a severe car accident in 1917; he turned the scars into an expression of controlled authority. Two decades later, persecution and imprisonment under the National Socialists, remarkably vital well into old age." , land:"Germany", gender:"m", jahre:"1876–1967"},
   { route:"krankheitsportraets-friedrich-schiller", name:"Friedrich Schiller", subtyp:"SX6w5", heading:"Friedrich Schiller – Sexual Type 6", krankheit:"Pulmonary Tuberculosis", teaser:"SX6w5 – poet, playwright, and historian, 1759–1805. Fragile constitution since childhood, recurring life-threatening fever and coughing fits from 1791 onward, fourteen years of uncompromising work against his own decline. Died in 1805 at 45 of acute pneumonia – the autopsy found a completely destroyed lung." , land:"Germany", gender:"m", jahre:"1759–1805"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Social Type 3", krankheit:"Cancer (cause of death never officially confirmed; assistant reported prostate cancer, diagnosed 2015)", teaser:"SO3w4 – fashion designer and Chanel creative director, 1933–2019. According to consistent reports, kept a cancer diagnosis secret for nearly four years even from those closest to him, and missed a Chanel show for the first time in 35 years only four weeks before his death." , land:"Germany/France", gender:"m", jahre:"1933–2019"},
 ];
@@ -20152,12 +20153,15 @@ function konradAdenauerPortraitPage() {
           <p class="vb-intro">The eagle that rose once more late in life, after its nest had been destroyed, and from there, in calm, unwavering altitude, rebuilt a shattered country piece by piece &ndash; that is the lasting image of the self-preservation One with a Nine-wing: order that arises not from harshness but from patient, principled care.</p>
         </blockquote>
 
+        <p class="vb-intro">The severe car accident of 1917, which permanently changed his face, as well as the persecution and imprisonment under the Nazis, are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-konrad-adenauer">Illness Portrait of Adenauer</a>.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"krankheitsportraets-konrad-adenauer", label:"Illness Portrait: Konrad Adenauer (SE1w9)"},
         {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SO8w9) – Chancellor"},
@@ -41828,6 +41832,181 @@ function friedrichSchillerKrankheitsportraetPage() {
   `);
 }
 
+function konradAdenauerKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-konrad-adenauer-portrait.jpg" alt="Konrad Adenauer" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Konrad Adenauer</p>
+        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-wing · 1876–1967</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Eagle</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Animal correspondence: Eagle" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Konrad Adenauer</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-konrad-adenauer">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and type structure in general.
+        This page deals exclusively with a chapter only briefly touched on there: a severe
+        car accident in 1917 that permanently changed his face, followed by persecution and
+        imprisonment under the National Socialists, and the health decline of his final year.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Adenauer</strong> is classified as the <strong>Self-Preservation One with
+        Nine-wing</strong>. SP1 directs the One's striving for perfection at its own
+        immediate survival and functioning – order, control, and moral correctness as
+        protection against chaos and vulnerability. The Nine-wing adds a calm, seemingly
+        unshakeable presence, behind which tension often hides for a long time – a pattern
+        traceable right into Adenauer's outwardly always controlled bearing after a literally
+        shattered face.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Control over his own appearance as a life principle:</strong>
+        After the accident that permanently changed his face, Adenauer spent the rest of his
+        life cultivating a public image of unshakeable calm and authority – the exact
+        opposite of the vulnerability he had suffered.</p>
+        <p class="vb-intro"><strong>b) Vigilance as a basic stance:</strong>
+        Whether after the accident, during persecution by the National Socialists, or in high
+        office – Adenauer's gaze was always fixed on what threat might come next, and how to
+        meet it through caution and structure.</p>
+        <p class="vb-intro"><strong>c) Public composure despite private upheaval:</strong>
+        Even during the months of Gestapo persecution in 1944, Adenauer, by his own account,
+        maintained a stance toward his interrogators that was "sharp, but correct" – a
+        controlled composure that did not break even under existential pressure.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) A severe car accident in 1917:</strong>
+        The official car of the then 41-year-old Cologne deputy mayor Adenauer collided with
+        a tram. His cheekbone and nasal bone were broken, his lower jaw shattered and
+        dislocated, several teeth were lost, his eyesight was impaired, and he suffered deep
+        head wounds.</p>
+        <p class="vb-intro"><strong>b) Months of reconstruction:</strong>
+        A months-long hospital stay followed, along with several reconstructive facial
+        surgeries. The distinctive, gaunt features Adenauer later became known for are, to a
+        considerable extent, a direct consequence of the accident – not an ordinary sign of
+        aging.</p>
+        <p class="vb-intro"><strong>c) Persecution from 1933 onward:</strong>
+        After the National Socialists seized power, Adenauer was removed as mayor of Cologne
+        and expelled from the city; he found temporary refuge at Maria Laach Abbey. In June
+        1934, amid the so-called Röhm purge, he was held by the Gestapo for two days.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Flight and re-arrest in 1944:</strong>
+        Initially declared unfit for imprisonment due to pernicious anemia and moved to a
+        hospital, Adenauer escaped in September 1944 using a forged transport document. He
+        went into hiding at a guesthouse near Hachenburg but was recaptured.</p>
+        <p class="vb-intro"><strong>b) Two months in the Gestapo prison at Brauweiler:</strong>
+        From late September to late November 1944, Adenauer was held in the Gestapo prison at
+        Brauweiler. His cell was directly above the interrogation room – at night he heard
+        other prisoners being mistreated, and, as he himself described it, spent nights
+        drenched in sweat under psychological strain.</p>
+        <p class="vb-intro"><strong>c) His own family's trauma:</strong>
+        His wife Auguste, forced under interrogation to reveal his hiding place, attempted to
+        take her own life out of guilt. She was saved in time but died in 1948 from the
+        long-term effects – a grief that accompanied the entire Adenauer family for life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Remarkable vitality despite everything:</strong>
+        Despite the accident, persecution, and imprisonment, Adenauer served as Chancellor
+        from 1949 to 1963 – he was considered exceptionally capable and vital well into his
+        87th year.</p>
+        <p class="vb-intro"><strong>b) Two heart attacks in the spring of 1967:</strong>
+        On March 29, 1967, the 91-year-old suffered a first heart attack; a second followed
+        over Easter. A body that had functioned remarkably stably for decades began to fail
+        rapidly in his final weeks.</p>
+        <p class="vb-intro"><strong>c) Death after a brief final illness:</strong>
+        The heart attacks were followed by a case of bronchitis that developed into pneumonia.
+        Konrad Adenauer died on April 19, 1967, at the age of 91.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Reconstruction as a life pattern:</strong>
+        Just as his face was surgically reconstructed after 1917, Adenauer literally
+        rebuilt a destroyed state after 1945 – a pattern of reconstruction after destruction
+        that runs through his entire life.</p>
+        <p class="vb-intro"><strong>b) Control as a source of energy under pressure:</strong>
+        The ability to remain outwardly composed under existential threat – the accident,
+        persecution, imprisonment – was not an absence of fear, but a trained, disciplined
+        channeling of his own tension into controlled action.</p>
+        <p class="vb-intro"><strong>c) The eagle that stayed in office to the end:</strong>
+        The energy of the SP1w9 remained directed, well into old age, at the same basic
+        stance: creating order, carrying responsibility, not giving up as long as the task
+        was not yet done.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) An injury, not a progressive illness:</strong>
+        Unlike most other Illness Portraits in this Compass, Adenauer's story does not begin
+        with a creeping disease, but with a single, sudden trauma – the 1917 car accident –
+        whose physical and likely psychological consequences accompanied him for the rest of
+        his life.</p>
+        <p class="vb-intro"><strong>b) A second shock, two decades later:</strong>
+        Where the 1917 accident struck his body, persecution and imprisonment in 1933/34 and
+        1944 struck his existence and his family – two very different but structurally
+        related experiences of sudden loss of control, both of which Adenauer met with
+        outward composure.</p>
+        <p class="vb-intro"><strong>c) A body that functioned until the very end:</strong>
+        Only at 91, in the spring of 1967, did his body finally fail – after decades in which
+        it had remained remarkably stable despite the early injury.</p>
+        <p class="vb-intro"><strong>d) Why, of all things, the face?</strong>
+        For a Self-Preservation One whose entire life principle rests on control,
+        correctness, and a flawless outward bearing, one reading suggests itself: the
+        accident struck precisely the part of the body through which authority, moral
+        integrity, and public presence are most directly conveyed – the face. Rather than
+        withdrawing, Adenauer turned the visible scars into the opposite of weakness: a face
+        that became one of the most recognizable and authority-conferring images in
+        postwar German history. This reading is a plausible interpretation, not a
+        historically documented causal link, and is explored in more depth in this Compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        This does not mean the Self-Preservation One's pattern inevitably leads to accidents
+        or injuries – <strong>every person can suffer any illness or injury, regardless of
+        subtype.</strong> What Adenauer's case can show is a pattern that stands out again and
+        again in practice wherever the need exists to restore outward control and order
+        precisely after suffered vulnerability – one possible explanation among many, not a
+        verdict. The corresponding condition will be developed step by step in this
+        Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Adenauer</strong> embodies the Self-Preservation One with Nine-wing right down
+        into his own history of injury and persecution: a face shattered in 1917 that he
+        turned into an expression of controlled authority, persecution and imprisonment two
+        decades later that he met with the same outward composure, and a body that remained
+        remarkably stable until his 91st year. The eagle that rose again after every fall –
+        not unscathed, but unbroken in its determination to restore order.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SE1w9) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se1", label:"Subtype Profile SE1"},
+      ])}
+    </div>
+  `);
+}
+
 function kriminalpsychologiePage() {
   const allInst = ["SE","SO","SX"];
   const allTyp  = [1,2,3,4,5,6,7,8,9];
@@ -63212,6 +63391,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-konrad-adenauer": konradAdenauerKrankheitsportraetPage,
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
