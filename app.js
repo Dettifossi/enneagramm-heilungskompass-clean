@@ -68802,7 +68802,7 @@ function konradAdenauerKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
         <p class="vb-intro"><strong>a) Flucht und erneute Verhaftung 1944:</strong>
-        Wegen einer perniziösen Anämie zunächst als hafuntauglich eingestuft und ins
+        Wegen einer perniziösen Anämie zunächst als haftuntauglich eingestuft und ins
         Krankenhaus verlegt, gelang Adenauer im September 1944 mit einem gefälschten
         Transportschein die Flucht. Er tauchte in einer Pension bei Hachenburg unter, wurde
         jedoch wieder aufgegriffen.</p>
