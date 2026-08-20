@@ -55533,7 +55533,11 @@ function psychosomatikSubtypPage(code) {
     return ["SE","SO","SX"].map(inst => {
       const c = inst + t;
       const active = c === code;
-      return `<button data-route="psychosomatik-subtyp/${c}" style="padding:.35rem .65rem;border-radius:6px;border:1.5px solid ${f};background:${active ? f : "var(--bg)"};color:${active ? "#fff" : f};font-size:.78rem;font-weight:700;cursor:pointer;font-family:inherit;">${c}</button>`;
+      const tierKey = c.toLowerCase();
+      return `<button data-route="psychosomatik-subtyp/${c}" style="display:inline-flex;align-items:center;gap:.3rem;padding:.3rem .6rem .3rem .35rem;border-radius:6px;border:1.5px solid ${f};background:${active ? f : "var(--bg)"};color:${active ? "#fff" : f};font-size:.78rem;font-weight:700;cursor:pointer;font-family:inherit;">
+        <span style="position:relative;width:18px;height:18px;border-radius:50%;overflow:hidden;flex-shrink:0;display:inline-block;box-shadow:0 0 0 1.5px ${active ? "#fff" : f};">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${tierKey}.jpg" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(c)};left:${tierAvatarLeft(c)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+        </span>${c}</button>`;
     }).join("");
   }).join("");
 
@@ -55541,7 +55545,11 @@ function psychosomatikSubtypPage(code) {
     <div class="page-container">
       ${pageHeader("psychosomatik")}
       <button class="ghost-link" data-route="psychosomatik" style="margin-bottom:1rem;">&larr; All Conditions</button>
-      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:${farbe};margin:0 0 0.5rem;">${code}</h1>
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:${farbe};margin:0 0 0.5rem;display:flex;align-items:center;gap:0.6rem;">
+        <span style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;display:inline-block;box-shadow:0 0 0 2px ${farbe};">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+        </span>${code}
+      </h1>
       <p class="psycho-intro" style="max-width:640px;">All conditions from the Psychosomatics Register written up so far for the ${code} subtype &ndash; at a glance. <strong>Important: every person can develop any illness, regardless of subtype;</strong> this is about patterns that stand out in practice, not a statistical claim.</p>
       <div style="display:flex;flex-wrap:wrap;gap:0.35rem;margin:1.2rem 0 1.4rem;max-width:640px;">${subtypeNav}</div>
       <div style="max-width:640px;">${cards}</div>
