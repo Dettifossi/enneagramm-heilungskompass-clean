@@ -66801,13 +66801,15 @@ function gustavMahlerKrankheitsportraetPage() {
         Zeitgenössische Berichte beschreiben, wie Mahler nach der Diagnose begann, seinen
         eigenen Herzschlag akribisch zu kontrollieren und zu zählen – dieselbe analytische
         Präzision, die er mit seinem starken Fünferflügel sonst seinen Partituren widmete,
-        wandte sich nun auf das eigene, versagende Organ. Die soziale Vier wird aufgrund dieser
-        perfektionistischen Neigung, die sie in Richtung ihres Stresspunkts Eins bewegt, auch
-        als &bdquo;der kritische Kommentator&ldquo; bezeichnet – selbstkritisch, nie ganz
-        zufrieden mit dem eigenen Werk, ohne deshalb selbst zum Typ Eins zu werden. Im
-        Krankheitsfall, unter dem zunehmenden Energieverlust und den Schicksalsschlägen jener
-        Jahre, verstärkte sich dieses Muster auf psychischer Ebene zusätzlich – ein kritischer
-        Kommentator, der mit seinem eigenen Werk nie ganz zufrieden war.</p>
+        wandte sich nun auf das eigene, versagende Organ. Die soziale Vier wird aufgrund einer
+        perfektionistischen Neigung, die sie in Richtung ihres Entspannungspunkts, der Eins,
+        bewegt, auch als &bdquo;der kritische Kommentator&ldquo; bezeichnet – paradoxerweise:
+        Was bei der Eins selbst gesunde, wohlwollende Selbstkorrektur wäre, zeigt sich bei der
+        Vier oft schon im Normalzustand als unerbittliche Selbstkritik, nie ganz zufrieden mit
+        dem eigenen Werk, ohne dass die Vier deshalb selbst zur Eins wird. Im Krankheitsfall,
+        unter dem zunehmenden Energieverlust und den Schicksalsschlägen jener Jahre, verstärkte
+        sich dieses Muster auf psychischer Ebene zusätzlich – ein kritischer Kommentator, der
+        mit seinem eigenen Werk nie ganz zufrieden war.</p>
         <p class="vb-intro"><strong>c) Kompositorische Verarbeitung statt Verdrängung:</strong>
         Anders als bei Molière (SO7w6) oder Freud (SO6w5), die ihre Krankheit über Jahre
         verbargen, verarbeitete

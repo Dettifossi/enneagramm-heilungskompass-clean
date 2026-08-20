@@ -39996,11 +39996,13 @@ function gustavMahlerKrankheitsportraetPage() {
         Contemporary accounts describe how Mahler, after the diagnosis, began meticulously
         monitoring and counting his own heartbeat – the same analytical precision his strong
         Five-wing otherwise devoted to his scores now turned onto his own failing organ. The
-        Social Four is, because of this perfectionist tendency that pulls her toward her stress
-        point, the One, also known as "the critical commentator" – self-critical, never quite
-        satisfied with her own work, without thereby becoming a Type One herself. In illness,
-        under the mounting energy loss and blows of fate of those years, this pattern
-        intensified further on a psychological level – a critical commentator who was never
+        Social Four is, because of a perfectionist tendency that pulls her toward her growth
+        point, the One, also known as "the critical commentator" – paradoxically: what would be
+        healthy, benevolent self-correction for the One herself often shows up in the Four,
+        even at baseline, as relentless self-criticism, never quite satisfied with her own
+        work, without the Four thereby becoming a One. In illness, under the mounting energy
+        loss and blows of fate of those years, this pattern intensified further on a
+        psychological level – a critical commentator who was never
         quite satisfied with his own work.</p>
         <p class="vb-intro"><strong>c) Artistic processing instead of suppression:</strong>
         Unlike Molière (SO7w6) or Freud (SO6w5), who concealed their illness for years, Mahler processed his
