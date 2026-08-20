@@ -201,6 +201,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Social Type 9", krankheit:"Alzheimer's Disease", teaser:"SO9w8 – 40th US President 1981–1989, 1911–2004. Announced his Alzheimer's diagnosis in 1994 in a handwritten letter to the American public, then withdrew almost entirely from public life for the following ten years." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Social Type 1", krankheit:"Liver Cancer", teaser:"SO1w2 – musician and artist, 1947–2016. Fought liver cancer in secret for 18 months and transformed the diagnosis into his final work, the album Blackstar, released two days before his death." , land:"United Kingdom", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Self-Preservation Type 2", krankheit:"Febrile Illness with Kidney Failure (likely following a streptococcal infection)", teaser:"SE2w3 – Austrian composer, 1756–1791. A lifelong chain of feverish illnesses since childhood (smallpox, typhoid fever, recurring scarlet fever) preceded his death at 35 after a two-week illness with fever and generalized swelling – while he was working on three major works at once, including the unfinished Requiem." , land:"Austria", gender:"m", jahre:"1756–1791"},
+  { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Social Type 3", krankheit:"Cancer (cause of death never officially confirmed; assistant reported prostate cancer, diagnosed 2015)", teaser:"SO3w4 – fashion designer and Chanel creative director, 1933–2019. According to consistent reports, kept a cancer diagnosis secret for nearly four years even from those closest to him, and missed a Chanel show for the first time in 35 years only four weeks before his death." , land:"Germany/France", gender:"m", jahre:"1933–2019"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -18865,6 +18866,8 @@ function karlLagerfeldPortraitPage() {
           <p class="vb-intro">A conscious SO3w4 knows that his work is greater than he is—and that he himself is greater than his work. The cheetah pausing to look at its reflection without immediately sprinting on—that is the energy that was always waiting behind the white ponytail and the dark lenses.</p>
         </blockquote>
 
+        <p class="vb-intro">The cancer diagnosis he reportedly kept secret for nearly four years, even from those closest to him, is explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-karl-lagerfeld">Illness Portrait of Lagerfeld</a>.</p>
+
       </div>
 
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
@@ -18872,6 +18875,7 @@ function karlLagerfeldPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
 
       ${relatedLinks([
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4)"},
         {route:"beruehmte-sahra-wagenknecht", label:"Portrait: Sahra Wagenknecht (SO3w2)"},
         {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"}
@@ -41329,6 +41333,181 @@ function wolfgangAmadeusMozartKrankheitsportraetPage() {
   `);
 }
 
+function karlLagerfeldKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-karl-lagerfeld-portrait.jpg" alt="Karl Lagerfeld" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karl Lagerfeld</p>
+        <p class="krim-portrait-typ">SO3w4 · Social Type 3 with Four-wing · 1933–2019</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Cheetah</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Animal correspondence: Cheetah" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Karl Lagerfeld</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-karl-lagerfeld">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and type structure in general.
+        This page deals exclusively with a chapter left out there: a cancer diagnosis that,
+        according to consistent reports, he kept secret for years even from those closest to
+        him, until he died in February 2019 at the age of 85.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Lagerfeld</strong> is classified as the <strong>Social Three with
+        Four-wing</strong>. Naranjo called the Social Three the <em>Reinforcement Type</em> –
+        she is not simply successful, she <em>is</em> the success she embodies, and the image
+        she presents to the world must remain seamlessly intact. The Four-wing adds a fine
+        sense for aesthetics and staging, but also a deep shame over anything that could
+        damage this flawless image – illness and age belong among the hardest themes for this
+        combination to ever admit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) The image before the truth:</strong>
+        Lagerfeld's public gaze was always concerned with what image of him became visible to
+        the outside world – this priority did not change even in the face of a progressing
+        illness.</p>
+        <p class="vb-intro"><strong>b) Weakness as the one non-negotiable taboo:</strong>
+        Where other Illness Portraits in this Compass tell of subjects who eventually
+        disclosed their diagnosis deliberately, Lagerfeld took the opposite path: rumors about
+        his health were actively denied by those around him.</p>
+        <p class="vb-intro"><strong>c) Control down to the last visible gesture:</strong>
+        When he first missed a Chanel show in January 2019, he sent a video message to
+        colleagues to dispel concerns – even the withdrawal itself was staged once more, not
+        simply accepted.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) A contradictory diagnosis:</strong>
+        At the time of his death, media reports cited pancreatic cancer, though this was never
+        officially confirmed by Chanel or the family. In late 2019, his longtime personal
+        assistant Sébastien Jondeau stated that Lagerfeld had in fact suffered from prostate
+        cancer, diagnosed as early as 2015 – the exact type of cancer remains unresolved to
+        this day.</p>
+        <p class="vb-intro"><strong>b) Nearly four years of complete secrecy:</strong>
+        According to Jondeau's account, even Lagerfeld's closest family members did not know
+        of the 2015 diagnosis – a degree of secrecy that goes far beyond what is documented in
+        other Illness Portraits in this Compass.</p>
+        <p class="vb-intro"><strong>c) 35 years without a single missed appointment:</strong>
+        Since taking over at Chanel in 1983, Lagerfeld had never once missed a show's closing
+        bow – until January 2019, weeks before his death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) The first visible sign of weakness:</strong>
+        At the Chanel Haute Couture show on January 22, 2019, Lagerfeld missed the closing
+        applause for the first time in 35 years; "exhaustion" was officially cited as the
+        reason, with Virginie Viard standing in for him.</p>
+        <p class="vb-intro"><strong>b) The radical weight loss as an act of control, not a health project:</strong>
+        Starting in 2000/2001, Lagerfeld lost about 42 kilograms over roughly 13 months on a
+        diet he himself marketed – not out of health concerns, but because he wanted to fit
+        into the slim-cut suits of a younger designer. Weight loss this rapid is generally
+        considered medically risky.</p>
+        <p class="vb-intro"><strong>c) Rigid self-control extending even to sleep:</strong>
+        Lagerfeld repeatedly emphasized in public that he slept exactly seven hours and woke
+        without an alarm: "I sleep seven hours. I don't wake up before – the house could
+        collapse, but I sleep my seven hours." Even sleep was declared a disciplined,
+        controlled ritual.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A death that caught the fashion world unprepared:</strong>
+        Because health concerns had been dismissed by those around him only weeks earlier,
+        news of Lagerfeld's death on February 19, 2019, came as a shock to the public, even
+        though his body had evidently long been marked by illness.</p>
+        <p class="vb-intro"><strong>b) No official confirmation of the cause of death to this day:</strong>
+        Neither Chanel nor the family has ever confirmed an official diagnosis – one final,
+        consistent act of image preservation reaching beyond death itself.</p>
+        <p class="vb-intro"><strong>c) A workload with no visible retreat:</strong>
+        To the end, Lagerfeld oversaw up to eight collections a year for Chanel alongside
+        several for Fendi – no documented withdrawal before January 2019.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The public role as a shield:</strong>
+        As long as the role of the flawlessly functioning fashion czar could be sustained, the
+        energy for it seemed to be there too – the image carried the body, not the other way
+        around.</p>
+        <p class="vb-intro"><strong>b) Exhaustion as the only permitted explanation:</strong>
+        Even once the withdrawal became unmistakable, the official language stayed within the
+        controllable – "exhaustion" instead of illness, a term that limits weakness in time
+        rather than letting it appear threatening.</p>
+        <p class="vb-intro"><strong>c) The cheetah that stayed at full sprint until the last show:</strong>
+        The energy of the SO3w4 remained directed to the end at the same drive that had
+        defined Lagerfeld's entire career: to allow no collection, no appearance, no image
+        that did not match his own staging.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) Diagnosed in 2015, kept secret until death:</strong>
+        According to his longtime personal assistant Sébastien Jondeau, Lagerfeld received a
+        cancer diagnosis as early as 2015 – four years he apparently used to maintain the
+        outward appearance of complete wellness.</p>
+        <p class="vb-intro"><strong>b) Active denial instead of disclosure:</strong>
+        Unlike Ronald Reagan, who addressed his diagnosis directly in a letter to the public,
+        or David Bowie, who encoded it in art, Lagerfeld chose a third path: simply rejecting
+        any suggestion of illness for as long as possible.</p>
+        <p class="vb-intro"><strong>c) A single visible sign, four weeks before death:</strong>
+        Only his absence from the Chanel show in January 2019 – after 35 years of unbroken
+        presence – let the public glimpse what must have long been known internally.</p>
+        <p class="vb-intro"><strong>d) Why, of all things, an organ that works unseen?</strong>
+        Both the pancreas and the prostate – the two competing diagnoses – are among the
+        organs that can develop disease for a long time without externally visible symptoms,
+        often noticed only at an advanced stage. For a Social Three with Four-wing, whose
+        entire life's work rested on the seamless maintenance of a flawless outward image, one
+        reading suggests itself: falling ill in an organ that is itself hidden, sending no
+        visible warning signs, fits a life in which everything inward – doubt, weakness, age,
+        fear – remained strictly concealed behind a flawless outward facade. The body fell ill
+        in a place as invisible as the truth he had concealed his whole life. This reading is
+        explored in more depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        This does not mean the Social Three's pattern inevitably leads to cancer –
+        <strong>every person can develop any illness, regardless of subtype.</strong> What
+        Lagerfeld's case can show is a pattern that stands out again and again in practice
+        wherever the need exists to conceal every weakness completely from the public – one
+        possible explanation among many, not a verdict. The corresponding condition will be
+        developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Lagerfeld</strong> embodies the Social Three with Four-wing right down into his
+        own illness history: a diagnosis apparently kept secret for nearly four years even
+        from his own family, a public image kept flawlessly intact save for a single exception
+        four weeks before his death, and a cause of death never officially confirmed to this
+        day. The cheetah that held its pace until the last visible second – and withdrew only
+        once no further sprint remained possible.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4) – life's work"},
+        {route:"beruehmte-teresa-von-avila", label:"Portrait: Teresa von Ávila (SO3w4) – also kept working through severe illness"},
+        {route:"krankheitsportraets-david-bowie", label:"Illness Portrait: David Bowie (SO1w2) – also secrecy, but artistically encoded rather than denied"},
+        {route:"krankheitsportraets-ronald-reagan", label:"Illness Portrait: Ronald Reagan (SO9w8) – counter-model: direct disclosure rather than denial"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so3", label:"Subtype Profile SO3"},
+      ])}
+    </div>
+  `);
+}
+
 function kriminalpsychologiePage() {
   const allInst = ["SE","SO","SX"];
   const allTyp  = [1,2,3,4,5,6,7,8,9];
@@ -62711,6 +62890,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

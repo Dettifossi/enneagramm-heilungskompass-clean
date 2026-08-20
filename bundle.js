@@ -23974,6 +23974,7 @@ const registerEntries = [
   { term: "Ronald Reagan Krankheitsporträt", route: "krankheitsportraets-ronald-reagan", description: "Portrait: SO9w8 · Sozialer Typ 9 · Alzheimer-Krankheit" },
   { term: "David Bowie Krankheitsporträt", route: "krankheitsportraets-david-bowie", description: "Portrait: SO1w2 · Sozialer Typ 1 · Leberkrebs, verwandelt in das Album Blackstar" },
   { term: "Wolfgang Amadeus Mozart Krankheitsporträt", route: "krankheitsportraets-wolfgang-amadeus-mozart", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · fieberhafte Erkrankung mit Nierenversagen, Tod mit 35 Jahren" },
+  { term: "Karl Lagerfeld Krankheitsporträt", route: "krankheitsportraets-karl-lagerfeld", description: "Portrait: SO3w4 · Sozialer Typ 3 · Krebserkrankung, fast vier Jahre lang geheim gehalten" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31404,6 +31405,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Sozialer Typ 9", krankheit:"Alzheimer-Krankheit", teaser:"SO9w8 – 40. US-Präsident 1981–1989, 1911–2004. Gab 1994 in einem handschriftlichen Brief an die amerikanische Öffentlichkeit seine Alzheimer-Diagnose bekannt und zog sich danach zehn Jahre lang fast vollständig aus der Öffentlichkeit zurück." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Sozialer Typ 1", krankheit:"Leberkrebs", teaser:"SO1w2 – Musiker und Künstler, 1947–2016. Kämpfte 18 Monate lang im Verborgenen gegen Leberkrebs und verwandelte die Diagnose in sein letztes Werk, das Album Blackstar, das zwei Tage vor seinem Tod erschien." , land:"Vereinigtes Königreich", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2", krankheit:"Fieberhafte Erkrankung mit Nierenversagen (vermutlich Folge einer Streptokokken-Infektion)", teaser:"SE2w3 – österreichischer Komponist, 1756–1791. Von Kindheit an eine Kette fieberhafter Erkrankungen (Pocken, Typhus, wiederkehrendes Scharlach), starb 1791 mit 35 Jahren nach zweiwöchiger Krankheit mit Fieber und generalisierten Ödemen – während er gleichzeitig an drei Großwerken arbeitete, darunter das unvollendete Requiem." , land:"Österreich", gender:"m", jahre:"1756–1791"},
+  { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Sozialer Typ 3", krankheit:"Krebserkrankung (Todesursache offiziell nie bestätigt; laut Assistent Prostatakrebs, diagnostiziert 2015)", teaser:"SO3w4 – Modedesigner und Chanel-Kreativdirektor, 1933–2019. Hielt eine Krebsdiagnose nach übereinstimmenden Berichten fast vier Jahre lang selbst vor engsten Vertrauten geheim und fehlte erst vier Wochen vor seinem Tod erstmals seit 35 Jahren bei einer Chanel-Show." , land:"Deutschland/Frankreich", gender:"m", jahre:"1933–2019"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -63259,6 +63261,8 @@ function karlLagerfeldPortraitPage() {
           <p class="vb-intro">Ein bewusster SO3w4er wei\u00df, dass sein Werk gr\u00f6\u00dfer ist als er &ndash; und dass er selbst gr\u00f6\u00dfer ist als sein Werk. Der Gepard, der inneh\u00e4lt und sein Spiegelbild betrachtet, ohne sofort weiterzusprinten &ndash; das ist die Energie, die hinter dem wei\u00dfen Pferdeschwanz und den dunklen Gl\u00e4sern immer gewartet hat.</p>
         </blockquote>
 
+        <p class="vb-intro">Die Krebsdiagnose, die er nach \u00fcbereinstimmenden Berichten fast vier Jahre lang selbst vor engsten Vertrauten geheim hielt, wird ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-karl-lagerfeld">Krankheitsportr\u00e4t zu Lagerfeld</a> gedeutet.</p>
+
       </div>
 
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
@@ -63266,6 +63270,7 @@ function karlLagerfeldPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
 
       ${relatedLinks([
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsportr\u00e4t: Karl Lagerfeld (SO3w4)"},
         {route:"beruehmte-sahra-wagenknecht", label:"Portr\u00e4t: Sahra Wagenknecht (SO3w2)"},
         {route:"beruehmte-cristiano-ronaldo", label:"Portr\u00e4t: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-david-l-rathmer", label:"Portr\u00e4t: David L. Rathmer (SE3w4)"}
@@ -68199,6 +68204,186 @@ function wolfgangAmadeusMozartKrankheitsportraetPage() {
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se2", label:"Subtyp-Profil SE2"},
+      ])}
+    </div>
+  `);
+}
+
+function karlLagerfeldKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-karl-lagerfeld-portrait.jpg" alt="Karl Lagerfeld" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karl Lagerfeld</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel · 1933–2019</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gepard</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Tierentsprechung: Gepard" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Karl Lagerfeld</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-karl-lagerfeld">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort ausgespart bleibt:
+        eine Krebserkrankung, die er nach übereinstimmenden Berichten jahrelang selbst vor
+        engsten Vertrauten geheim hielt, bis er im Februar 2019 im Alter von 85 Jahren starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Lagerfeld</strong> ist der <strong>sozialen Drei mit Viererflügel</strong>
+        zugeordnet. Naranjo nannte die soziale Drei den <em>Verstärkungstyp</em> – sie ist nicht
+        einfach erfolgreich, sie <em>ist</em> der Erfolg, den sie verkörpert, und das Bild, das
+        sie von sich zeigt, muss lückenlos intakt bleiben. Der Viererflügel bringt ein feines
+        Gespür für Ästhetik und Inszenierung hinzu, aber auch eine tiefe Scham vor allem, was
+        dieses makellose Bild beschädigen könnte – Krankheit und Alter gehören für diese
+        Kombination zu den am schwersten zuzulassenden Themen überhaupt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Das Bild vor der Wahrheit:</strong>
+        Lagerfelds öffentlicher Blick galt zeitlebens der Frage, welches Bild von ihm nach
+        außen sichtbar wurde – diese Priorität änderte sich auch angesichts einer
+        fortschreitenden Erkrankung nicht.</p>
+        <p class="vb-intro"><strong>b) Schwäche als das eine nicht verhandelbare Tabu:</strong>
+        Wo andere Krankheitsporträts dieses Kompasses von Betroffenen erzählen, die ihre
+        Diagnose irgendwann bewusst offenlegten, wählte Lagerfeld den entgegengesetzten Weg:
+        Gerüchte über seinen Gesundheitszustand wurden aus seinem Umfeld aktiv dementiert.</p>
+        <p class="vb-intro"><strong>c) Kontrolle bis zur letzten sichtbaren Geste:</strong>
+        Als er im Januar 2019 erstmals bei einer Chanel-Show fehlte, schickte er eine
+        Videobotschaft an Weggefährten, um Sorgen zu zerstreuen – selbst der Rückzug wurde
+        noch einmal inszeniert, nicht einfach hingenommen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine widersprüchliche Diagnose:</strong>
+        Zum Zeitpunkt seines Todes kursierte in den Medien die Angabe
+        Bauchspeicheldrüsenkrebs, offiziell von Chanel oder der Familie jedoch nie bestätigt.
+        Ende 2019 erklärte sein langjähriger persönlicher Assistent Sébastien Jondeau, Lagerfeld
+        habe tatsächlich an Prostatakrebs gelitten, diagnostiziert bereits 2015 – die genaue
+        Krebsart bleibt bis heute nicht zweifelsfrei geklärt.</p>
+        <p class="vb-intro"><strong>b) Fast vier Jahre vollständige Geheimhaltung:</strong>
+        Nach Jondeaus Darstellung wussten selbst engste Familienangehörige nicht von der 2015
+        gestellten Diagnose – eine Geheimhaltung, die weit über das hinausgeht, was in anderen
+        Krankheitsporträts dieses Kompasses dokumentiert ist.</p>
+        <p class="vb-intro"><strong>c) 35 Jahre ohne einen einzigen Fehltermin:</strong>
+        Seit seinem Amtsantritt bei Chanel 1983 hatte Lagerfeld keine einzige Schlussverbeugung
+        einer Show verpasst – bis zum Januar 2019, wenige Wochen vor seinem Tod.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Das erste sichtbare Zeichen von Schwäche:</strong>
+        Bei der Chanel-Haute-Couture-Show am 22. Januar 2019 fehlte Lagerfeld erstmals seit 35
+        Jahren beim Schlussapplaus; offiziell wurde "Erschöpfung" als Grund genannt, Virginie
+        Viard vertrat ihn.</p>
+        <p class="vb-intro"><strong>b) Der radikale Gewichtsverlust als Kontrollakt, nicht als Gesundheitsprojekt:</strong>
+        Ab 2000/2001 verlor Lagerfeld innerhalb von rund 13 Monaten etwa 42 Kilogramm mit
+        einer eigens vermarkteten Diät – nicht aus gesundheitlicher Sorge, sondern weil er in
+        die schmal geschnittenen Anzüge eines jüngeren Designers passen wollte. Ein derart
+        schneller Gewichtsverlust gilt medizinisch grundsätzlich als riskant.</p>
+        <p class="vb-intro"><strong>c) Rigide Selbstkontrolle bis in den Schlaf:</strong>
+        Lagerfeld betonte wiederholt öffentlich, exakt sieben Stunden zu schlafen und ohne
+        Wecker aufzuwachen: "Ich schlafe sieben Stunden. Ich wache nicht vorher auf – das Haus
+        kann zusammenbrechen, aber ich schlafe meine sieben Stunden." Selbst der Schlaf wurde
+        zum disziplinierten, kontrollierten Ritual erklärt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Tod, der die Modewelt unvorbereitet traf:</strong>
+        Weil Gesundheitssorgen aus seinem Umfeld noch wenige Wochen zuvor zurückgewiesen
+        worden waren, kam die Nachricht von Lagerfelds Tod am 19. Februar 2019 für die
+        Öffentlichkeit überraschend, obwohl sein Körper offenbar längst gezeichnet war.</p>
+        <p class="vb-intro"><strong>b) Bis heute keine offizielle Bestätigung der Todesursache:</strong>
+        Weder Chanel noch die Familie haben je eine offizielle Diagnose bestätigt – ein
+        letzter, konsequenter Akt der Bilderhaltung, der über den Tod hinausreicht.</p>
+        <p class="vb-intro"><strong>c) Ein Arbeitspensum ohne erkennbaren Rückzug:</strong>
+        Bis zuletzt betreute Lagerfeld parallel bis zu acht Kollektionen jährlich für Chanel
+        sowie mehrere für Fendi – kein dokumentierter Rückzug vor dem Januar 2019.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Die öffentliche Rolle als Schutzschild:</strong>
+        Solange die Rolle des makellos funktionierenden Modezaren aufrechterhalten werden
+        konnte, schien auch die Energie dafür vorhanden – das Bild trug den Körper, nicht
+        umgekehrt.</p>
+        <p class="vb-intro"><strong>b) Erschöpfung als einzig zugelassene Erklärung:</strong>
+        Selbst als der Rückzug unübersehbar wurde, blieb die offizielle Sprachregelung im
+        Rahmen des Kontrollierbaren – "Erschöpfung" statt Krankheit, ein Begriff, der
+        Schwäche zeitlich begrenzt, nicht bedrohlich erscheinen lässt.</p>
+        <p class="vb-intro"><strong>c) Der Gepard, der bis zur letzten Show im vollen Sprint blieb:</strong>
+        Die Energie der SO3w4 richtete sich bis zuletzt auf denselben Antrieb, der Lagerfelds
+        gesamte Karriere prägte: keine Kollektion, keinen Auftritt, kein Bild zuzulassen, das
+        nicht der eigenen Inszenierung entsprach.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Diagnose 2015, geheim gehalten bis zum Tod:</strong>
+        Laut Aussage seines langjährigen persönlichen Assistenten Sébastien Jondeau erhielt
+        Lagerfeld bereits 2015 eine Krebsdiagnose – vier Jahre, die er offenbar nutzte, um nach
+        außen den Anschein völliger Unversehrtheit aufrechtzuerhalten.</p>
+        <p class="vb-intro"><strong>b) Aktives Dementi statt Offenlegung:</strong>
+        Anders als Ronald Reagan, der seine Diagnose in einem direkten Brief an die
+        Öffentlichkeit richtete, oder David Bowie, der sie in Kunst verschlüsselte, wählte
+        Lagerfeld eine dritte Variante: das schlichte Zurückweisen jeder Andeutung von
+        Krankheit, so lange wie irgend möglich.</p>
+        <p class="vb-intro"><strong>c) Ein einziges sichtbares Zeichen, vier Wochen vor dem Tod:</strong>
+        Erst das Fehlen bei der Chanel-Show im Januar 2019 – nach 35 Jahren lückenloser
+        Präsenz – ließ öffentlich erahnen, was intern längst bekannt gewesen sein muss.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet ein Organ, das im Verborgenen arbeitet?</strong>
+        Sowohl die Bauchspeicheldrüse als auch die Prostata – die beiden konkurrierenden
+        Diagnosen – zählen zu den Organen, die lange Zeit ohne äußerlich sichtbare Symptome
+        erkranken können, oft erst in fortgeschrittenem Stadium bemerkt werden. Für eine
+        soziale Drei mit Viererflügel, deren gesamtes Lebenswerk auf der lückenlosen
+        Aufrechterhaltung eines makellosen äußeren Bildes beruhte, liegt eine Deutung nahe:
+        ausgerechnet ein Organ zu erkranken, das selbst im Verborgenen liegt und keine
+        sichtbaren Warnzeichen sendet, passt zu einem Leben, in dem alles Innere – Zweifel,
+        Schwäche, Alter, Angst – strikt hinter einer makellosen äußeren Fassade verborgen
+        blieb. Der Körper erkrankte an einer Stelle, die so unsichtbar war wie die Wahrheit,
+        die er ein Leben lang verbarg. Diese Deutung wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Drei zwangsläufig zu Krebserkrankungen
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Lagerfelds Fall zeigen lässt, ist ein Muster, das bei dem
+        Bedürfnis, jede Schwäche restlos vor der Öffentlichkeit zu verbergen, in der Praxis
+        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Lagerfeld</strong> verkörpert die soziale Drei mit Viererflügel bis in die
+        eigene Krankheitsgeschichte hinein: eine Diagnose, die vermutlich fast vier Jahre lang
+        selbst vor der eigenen Familie verborgen blieb, ein öffentliches Bild, das bis auf
+        eine einzige Ausnahme vier Wochen vor dem Tod makellos intakt gehalten wurde, und eine
+        Todesursache, die bis heute nie offiziell bestätigt wurde. Der Gepard, der sein Tempo
+        bis zur letzten sichtbaren Sekunde hielt – und sich erst dann zurückzog, als kein
+        weiterer Sprint mehr möglich war.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-karl-lagerfeld", label:"Porträt: Karl Lagerfeld (SO3w4) – Lebenswerk"},
+        {route:"beruehmte-teresa-von-avila", label:"Porträt: Teresa von Ávila (SO3w4) – ebenfalls Weiterarbeit trotz schwerer Krankheit"},
+        {route:"krankheitsportraets-david-bowie", label:"Krankheitsporträt: David Bowie (SO1w2) – ebenfalls Geheimhaltung, aber künstlerisch verschlüsselt statt dementiert"},
+        {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8) – Gegenmodell: direkte Offenlegung statt Dementi"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so3", label:"Subtyp-Profil SO3"},
       ])}
     </div>
   `);
@@ -97206,6 +97391,7 @@ function render() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
