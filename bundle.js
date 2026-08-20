@@ -67503,8 +67503,8 @@ function franzKafkaKrankheitsportraetPage() {
         auch im eigenen Verfall noch ein Muster, das sich einordnen lässt.</p>
         <p class="vb-intro"><strong>c) Rückzug bis zur völligen Sprachlosigkeit:</strong>
         Als die Krankheit den Kehlkopf befiel, verlor Kafka buchstäblich seine Stimme – die
-        Burg der SE5 erreichte hier ihre radikalste, ihm selbst nicht mehr aufgezwungene, aber
-        auch nicht mehr überwindbare Form.</p>
+        Burg der SE5 erreichte hier ihre radikalste Form – nicht mehr von ihm selbst errichtet,
+        sondern ihm vom Schicksal auferlegt, und ebenso wenig mehr zu überwinden.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">

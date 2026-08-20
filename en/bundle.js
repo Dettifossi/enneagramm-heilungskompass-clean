@@ -40665,8 +40665,8 @@ function franzKafkaKrankheitsportraetPage() {
         classify even in its own decline.</p>
         <p class="vb-intro"><strong>c) Withdrawal to the point of total voicelessness:</strong>
         When the illness struck his larynx, Kafka literally lost his voice – the SE5's Castle
-        reached here its most radical form, no longer self-imposed but also no longer
-        surmountable.</p>
+        reached here its most radical form – no longer erected by his own choosing, but
+        imposed on him by fate, and just as impossible to overcome.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
