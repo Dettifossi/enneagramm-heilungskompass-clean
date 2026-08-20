@@ -65667,7 +65667,7 @@ function molierePortraitPage() {
         Er wich echten emotionalen Konflikten – auch dem mit dem eigenen Körper – aus,
         indem er sie in Komödie verwandelte. Das ist der klassische Siebener-Reflex: Schmerz
         sofort in Leichtigkeit ummünzen, statt ihn zu fühlen (die typische Leidvermeidung
-        des Typ 7).</p>
+        des Typs 7).</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
