@@ -181,6 +181,16 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-wolfgang-beltracchi",  name:"Wolfgang Beltracchi",                subtyp:"SX9w1",  heading:"Wolfgang Beltracchi \u2013 Sexual Type 9",                               teaser:"SX9w1 – Art forger, born 1951. Over 50 forged masterworks, undetected for decades – the sexual Nine with One-wing: merger with the spirit of dead masters." , land:"Germany", tags:["Betrug"], gender:"m"},
 ];
 
+// Illness Portraits: biographies of historical (mostly deceased) figures where a documented
+// illness is interpreted as a "red thread" running through the life story - in the same
+// spirit as the Psychosomatics Register, just at the level of an individual biography rather
+// than a condition. Deliberately limited for now to deceased, well-documented cases (see
+// discussion with the user: interpreting a living person's current, uncertain diagnosis this
+// way would be tactless and would contradict the app's own disclaimer of "no determinism").
+const KRANKHEITS_PORTRAITS = [
+  { route:"krankheitsportraets-moliere", name:"Molière", subtyp:"SO1w9", heading:"Molière – Social Type 1", krankheit:"Chronic Lung Disease (presumably Tuberculosis)", teaser:"SO1w9 – French playwright and actor, 1622–1673. Creator of Tartuffe, The Misanthrope, and The Imaginary Invalid. Collapsed on stage during the fourth performance of The Imaginary Invalid – in the role of a hypochondriac – and died hours later of a lung ailment he had concealed for years." , land:"France", gender:"m", jahre:"1622–1673"},
+];
+
 const BERUEHMT_PORTRAITS = [
 { route:"beruehmte-queen-elizabeth-ii", name:"Queen Elizabeth II.", added:"2026-07-20", subtyp:"SE1w9",
     heading:"Queen Elizabeth II. – Self-Preservation Type 1",
@@ -2305,6 +2315,7 @@ text.nav = [
     { route: "enneagramm-kunst", label: "Enneagram Art" },
     { route: "enneagramm-filme", label: "Enneagram Movie Recommendations" },
     { route: "kriminalpsychologie", label: "Fascinating Criminal Cases (Criminal Psychology)" },
+    { route: "krankheitsportraets", label: "Illness Portraits" },
     { route: "laenderzuordnungen", label: "Country Assignments" },
     { route: "planetenzuordnungen", label: "Planets & Moons of the Solar System" },
     { route: "tierlexikon", label: "Animal Lexicon" },
@@ -38701,6 +38712,208 @@ function ronnieBiggsPortraitPage() {
     </div>
   `);
 }
+function krankheitsportraetsPage() {
+  const items = KRANKHEITS_PORTRAITS.slice().sort((a, b) => a.name.localeCompare(b.name, "en"));
+
+  const cards = items.map(p => {
+    const typ = parseInt((p.subtyp || "").replace(/[^0-9]/g, "")[0] || "0");
+    const farbe = typeColor(typ);
+    return `
+      <button class="tool-card--link" data-route="${p.route}" style="display:block;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-left:4px solid ${farbe};border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;cursor:pointer;">
+        <div style="display:flex;align-items:baseline;gap:0.6rem;flex-wrap:wrap;margin-bottom:0.4rem;">
+          <h3 style="margin:0;font-size:1.1rem;color:var(--ink);">${p.name}</h3>
+          <span style="font-size:0.78rem;font-weight:700;color:${farbe};">${p.subtyp}</span>
+          ${p.jahre ? `<span style="font-size:0.78rem;color:var(--muted);">${p.jahre}</span>` : ""}
+        </div>
+        <p style="margin:0 0 0.5rem;font-size:0.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;">${p.krankheit}</p>
+        <p style="margin:0;font-size:0.9rem;color:var(--muted);">${p.teaser}</p>
+      </button>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Illness Portraits</h1>
+      <p class="psycho-intro">Biographies of historical figures in whom a documented illness becomes visible as a red thread running through years or decades of life – connected to the person's Enneagram subtype. Read in a holistic sense, illness is often not just fate, but also a corrective: a signpost that announces itself long before it becomes unavoidable. <strong>Deliberately limited to deceased, historically well-documented cases</strong> – out of respect for people with a current, still-uncertain diagnosis. This page does not replace a medical or historical diagnosis, but offers a psychological-biographical layer of interpretation, in which every illness is understood as an individual interplay of many factors – never as the inevitable consequence of a type.</p>
+      <div style="max-width:640px;margin-top:1rem;">
+        ${cards}
+      </div>
+      ${relatedLinks([
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"beruehmte-persoenlichkeiten", label:"Famous Personalities"},
+        {route:"kriminalpsychologie", label:"Criminal Psychology"},
+      ])}
+    </div>
+  `);
+}
+
+function molierePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <p class="krim-portrait-name">Molière (Jean-Baptiste Poquelin)</p>
+        <p class="krim-portrait-typ">SO1w9 · Social Type 1 with One-wing · 1622–1673</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Molière</strong>, born Jean-Baptiste Poquelin, is France's most significant
+        writer of comedy. He gave up a secure bourgeois future as a lawyer's son to become
+        an actor and theater director – and created, with plays like <em>Tartuffe</em>,
+        <em>The Misanthrope</em>, and <em>The Imaginary Invalid</em>, a body of work still
+        regarded as the sharpest social satire of French classicism. He drew hypocrites,
+        misers, hypochondriacs, and misanthropes – figures so trapped in their fixed idea
+        that they become blind to everything else. On February 17, 1673, he collapsed on
+        stage during the fourth performance of <em>The Imaginary Invalid</em> – playing
+        Argan, a man who imagines himself sick – and died a few hours later from a
+        hemorrhage, the result of a lung ailment he had concealed for years.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Molière</strong> is assigned to the <strong>social One with One-wing</strong> in
+        the Enneagram. The passion of the One is <em>anger</em> – a deep inner indignation
+        at hypocrisy, injustice, and moral failure. The social One (SO1) directs this energy
+        not privately, but publicly: she becomes the group's reformer, naming what's wrong –
+        for Molière, quite literally, by playing society's flaws back to it on stage. The
+        One-wing turns the sharp accusation into wit rather than rage: it transforms moral
+        anger into comedy that can entertain <em>and</em> land its point, without attacking
+        head-on – the art of indirect confrontation.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Gaze Quality</h3>
+        <p class="vb-intro"><strong>a) Observant and exposing:</strong>
+        Molière's way of looking at the world was that of a precise observer who registered
+        the small contradictions between claim and reality – the foundation of any good
+        satire. This is the One's checking quality: what's wrong here?</p>
+        <p class="vb-intro"><strong>b) Humane rather than judging:</strong>
+        The One-wing softens the One's moral gaze: Molière's characters are ridiculous, but
+        rarely truly evil – he doesn't condemn, he shows. This almost fatherly leniency in
+        the gaze sets him apart from a purer One's sharpness.</p>
+        <p class="vb-intro"><strong>c) Searching for the right measure:</strong>
+        Again and again he sets a voice of reason against his characters' excess – a typical
+        One's gaze: there is a right way, against which the wrong is measured.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Early departure from the expected path:</strong>
+        As the son of a royal court upholsterer, <strong>Molière</strong> could have led a
+        secure bourgeois life. Instead, at 21, he founded his own theater company – an early
+        expression of the One's conviction that doing the right thing matters more than doing
+        the comfortable thing.</p>
+        <p class="vb-intro"><strong>b) Satire as a moral mission:</strong>
+        <strong>Molière</strong> understood comedy not as mere entertainment but as a means of
+        social correction. <em>Tartuffe</em> – a play about religious hypocrisy – was banned
+        for years as a result. He held his ground despite the powerful enemies it earned him.</p>
+        <p class="vb-intro"><strong>c) Perfectionism in the craft:</strong>
+        As author, director, actor, and theater manager all in one, he carried full
+        responsibility for every performance. This total control over his own work is typical
+        of the One: only if you do it yourself will it be done right.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
+        <p class="vb-intro"><strong>a) An incorruptible eye for double standards:</strong>
+        Whether hypocrite (<em>Tartuffe</em>), miser (<em>The Miser</em>), or misanthrope
+        (<em>The Misanthrope</em>) – <strong>Molière</strong> repeatedly exposed the gap
+        between what people claim to be and what they actually are. This incorruptibility is
+        pure One's anger, channeled into art.</p>
+        <p class="vb-intro"><strong>b) Persistence despite resistance:</strong>
+        Despite censorship, powerful opponents, and repeated performance bans, he never gave
+        up. The One holds to what she believes is right – even under considerable pressure.</p>
+        <p class="vb-intro"><strong>c) Self-portrayal in his own mirror:</strong>
+        Again and again he played the central roles in his own plays – including Argan, the
+        imaginary invalid. The reasoning voice Alceste in <em>The Misanthrope</em> is
+        considered by many biographers a self-portrait: a man who cannot bear the world's
+        hypocrisy and nearly breaks under it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Respected and reviled at once:</strong>
+        <strong>Molière</strong> enjoyed the favor of Louis XIV while facing the bitter enmity
+        of the circles he exposed – typical of the social One, who polarizes public discourse
+        by speaking uncomfortable truths.</p>
+        <p class="vb-intro"><strong>b) Witty rather than bitter:</strong>
+        The One-wing ensured his criticism never landed as mere accusation, but always also
+        made people laugh. This gift for turning moral sharpness into entertainment made him
+        beloved by a broad audience, whereas a purer One would likely have alienated it.</p>
+        <p class="vb-intro"><strong>c) Authority through craft:</strong>
+        His troupe followed him for decades – not through charisma alone, but because he was
+        undeniably competent as a craftsman of theater. This too is One-energy at work:
+        respect earned through demonstrable rightness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Quality</h3>
+        <p class="vb-intro"><strong>a) Driven by an inner must:</strong>
+        <strong>Molière</strong> wrote, staged, and performed to the point of physical
+        exhaustion – play after play, year after year, without extended rest. This is One's
+        energy: the inner must to keep going as long as the task remains unfinished.</p>
+        <p class="vb-intro"><strong>b) Fusion of self and mission:</strong>
+        For him there was no separation between his own life and the theater – he literally
+        died on stage. This complete identification with one's own calling is an energetic
+        signature of the social One.</p>
+        <p class="vb-intro"><strong>c) Denial of his own exhaustion:</strong>
+        He kept his advancing illness secret from the public – even from his own troupe. The
+        One tolerates weakness in herself least of all the types; admitting to being sick
+        would have meant no longer functioning properly.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A decade of concealed illness:</strong>
+        <strong>Molière</strong> had suffered from a chronic lung ailment – presumably
+        tuberculosis – since the 1660s, showing up in recurring coughing fits and growing
+        exhaustion. Contemporary accounts describe him as visibly weakened in his final years.
+        He barely spoke of it, kept performing, kept directing, kept writing.</p>
+        <p class="vb-intro"><strong>b) The social One and the duty to function:</strong>
+        From an Enneagram perspective, this is a particularly telling constellation: the
+        social One defines her worth through service to a cause – here, to the troupe, the
+        audience, and her own artistic standard. Admitting illness would have meant
+        interrupting that service. The One-wing reinforces the tendency to put one's own
+        needs aside and to avoid conflict – including conflict with one's own body – rather
+        than addressing it. So a treatable warning turned, over years, into an unstoppable
+        progression.</p>
+        <p class="vb-intro"><strong>c) The bitter punchline: The Imaginary Invalid:</strong>
+        The final irony of his life is also its clearest interpretation: he died playing a man
+        who imagines illnesses, while he himself suffered from a real, fatal one he would not
+        allow himself to acknowledge. Where Argan, the stage character, fears imaginary
+        ailments, Molière, the man, suppressed a genuine one. Read as a corrective: the body
+        forced, on stage itself, the very attention that had been denied it for years in real
+        life – a symptom as a final, unavoidable signpost.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Framing without determinism:</strong>
+        This does not mean the social One inevitably leads to lung disease –
+        <strong>every person can develop any illness, regardless of subtype.</strong> What
+        Molière's case can show is a pattern that stands out again and again in practice
+        wherever chronic self-denial in favor of outward duties is present – one possible
+        explanation among many, not a verdict. The corresponding respiratory condition will be
+        developed step by step in this Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Molière</strong> embodies the social One with One-wing in perhaps its most
+        effective form: moral anger transformed into art rather than accusation, a life spent
+        in service of a cause larger than himself. That very strength became his undoing in
+        the end: the inability to take his own exhaustion seriously as long as duty called let
+        a treatable illness become a fatal one. His final performance – a man imagining
+        illness while actually dying – remains one of the most striking images in theater
+        history.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so1", label:"Subtype Profile SO1"},
+      ])}
+    </div>
+  `);
+}
+
 function kriminalpsychologiePage() {
   const allInst = ["SE","SO","SX"];
   const allTyp  = [1,2,3,4,5,6,7,8,9];
@@ -60057,6 +60270,8 @@ function subtypeSchaubilderPage() {
       "beruehmte-will-smith": willSmithPortraitPage,
       "beruehmte-wolodymyr-selenskyj": wolodymyrSelenskyjPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
+      "krankheitsportraets": krankheitsportraetsPage,
+      "krankheitsportraets-moliere": molierePortraitPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
