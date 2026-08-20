@@ -41782,8 +41782,8 @@ function friedrichSchillerKrankheitsportraetPage() {
         decade and a half with an illness he never publicly placed at the center of his life,
         but which he, in effect, overwrote through continued work.</p>
         <p class="vb-intro"><strong>c) Confrontation instead of self-protection as a consistent pattern:</strong>
-        Unlike Karl Lagerfeld, who hid his illness behind a flawless image, or David Bowie, who
-        encoded his in art, Schiller did not hide his illness at all – he simply ignored it
+        Unlike Karl Lagerfeld (SO3w4), who hid his illness behind a flawless image, or David
+        Bowie (SO1w2), who encoded his in art, Schiller did not hide his illness at all – he simply ignored it
         through continued, undiminished intensity of work, until his body no longer allowed
         further confrontation.</p>
         <p class="vb-intro"><strong>d) Why, of all things, the lung – the organ of voice?</strong>

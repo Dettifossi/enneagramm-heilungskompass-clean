@@ -68672,8 +68672,8 @@ function friedrichSchillerKrankheitsportraetPage() {
         anderthalb Jahrzehnte mit einer Krankheit, die er nie öffentlich in den Mittelpunkt
         stellte, sondern die er durch fortgesetzte Arbeit gewissermaßen überschrieb.</p>
         <p class="vb-intro"><strong>c) Konfrontation statt Schonung als durchgehendes Muster:</strong>
-        Anders als Karl Lagerfeld, der seine Krankheit hinter einem makellosen Bild verbarg,
-        oder David Bowie, der sie künstlerisch verschlüsselte, verbarg Schiller seine Krankheit
+        Anders als Karl Lagerfeld (SO3w4), der seine Krankheit hinter einem makellosen Bild
+        verbarg, oder David Bowie (SO1w2), der sie künstlerisch verschlüsselte, verbarg Schiller seine Krankheit
         nicht – er ignorierte sie schlicht durch fortgesetzte, unvermindert intensive Arbeit,
         bis der Körper keine weitere Konfrontation mehr zuließ.</p>
         <p class="vb-intro"><strong>d) Warum ausgerechnet die Lunge, das Organ der Stimme?</strong>
