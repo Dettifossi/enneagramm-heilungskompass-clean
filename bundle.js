@@ -15840,6 +15840,7 @@ const uiText = {
     { route: "heilung", label: "Heilung", dropdown: [
       { route: "healing",        label: "Heilmittel-Kompass" },
       { route: "psychosomatik",  label: "Psychosomatik-Register" },
+      { route: "symptomlexikon", label: "Symptomlexikon" },
       { route: "tcm",            label: "TCM & Meridiane" },
       { route: "homoeopathie",   label: "Hom\u00f6opathische Mittel" },
       { route: "mineralstoffe",  label: "Mineralstoffimpulse" },
@@ -89251,6 +89252,14 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     icon: "&#10084;&#65039;",
     kurz: "Wenn das Herz nicht mehr mitmacht bei einem Leben, das an ihm vorbeigelebt wurde.",
     definition: "Der Herzinfarkt (Myokardinfarkt) bezeichnet den akuten, meist durch ein verschlossenes Herzkranzgefäß (Koronararterie) verursachten Untergang von Herzmuskelgewebe infolge einer Sauerstoff- und Nährstoffunterversorgung (Ischämie). Auslöser ist in der Regel die koronare Herzkrankheit (KHK) – eine fortschreitende Verengung der Herzkranzgefäße durch Arteriosklerose, also Ablagerungen (Plaques) an den Gefäßwänden. Reißt eine solche Plaque auf, kann sich ein Blutgerinnsel (Thrombus) bilden, das das Gefäß vollständig verschließt.",
+    symptome: [
+      "Plötzlicher, oft als vernichtend beschriebener Druck oder Schmerz hinter dem Brustbein, der länger als 5 Minuten anhält",
+      "Ausstrahlung des Schmerzes in linken Arm, beide Arme, Kiefer, Hals, Rücken oder Oberbauch",
+      "Atemnot, auch ohne körperliche Anstrengung",
+      "Kaltschweißigkeit, Übelkeit, Erbrechen",
+      "Todesangst, ein Gefühl starker innerer Beklemmung",
+      "Bei Frauen, älteren Menschen und Diabetikern oft untypischer: eher diffuses Druckgefühl, Erschöpfung, Übelkeit statt klassischem Brustschmerz – nicht seltener, aber leichter zu übersehen",
+    ],
     disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
     notfall: "Bei akutem Verdacht auf einen Herzinfarkt (z. B. plötzlicher, anhaltender Druck oder Schmerz im Brustkorb, Ausstrahlung in Arm, Kiefer oder Rücken, Atemnot, Kaltschweißigkeit, Todesangst): sofort den Notruf 112 wählen, den Rettungsdienst rufen oder unverzüglich ins nächste Krankenhaus fahren. In diesem Fall zählt jede Minute – hier ist kein Raum für psychosomatische Deutung, sondern für sofortige medizinische Notfallversorgung.",
     einleitung: "Die Herzmedizin kennt seit den 1950er-Jahren das Konzept der &bdquo;Typ-A-Persönlichkeit&ldquo; (Friedman &amp; Rosenman): ehrgeizig, zeitgetrieben, wettbewerbsorientiert, mit unterdrückter oder explosiver Aggression – ein Muster, das in Langzeitstudien mit erhöhtem kardiovaskulärem Risiko korreliert. Auch die Traditionelle Chinesische Medizin ordnet das Herz dem Feuer-Element zu, dem Sitz des Shen, des Geistes und der Lebensfreude – gerät dieses Feuer aus dem Takt, liest die Psychosomatik das häufig als Ausdruck verweigerter oder erzwungener Freude, chronischer Selbstüberforderung oder eines Lebens, das lange am eigenen Herzen vorbeigelebt wurde.",
@@ -89454,6 +89463,13 @@ function psychosomatikPage() {
         <p style="margin:0 0 0.8rem;font-size:0.88rem;color:var(--muted);">Alle Krankheitsbilder dieses Registers auf einen Blick nach Subtyp gefiltert &ndash; zum Beispiel, wie sich der Herzinfarkt, aber künftig auch alle weiteren Krankheiten, bei der SE1 oder der SX7 zeigen.</p>
         <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">${subtypeRegister}</div>
       </div>
+      <button class="tool-card--link" data-route="symptomlexikon" style="display:flex;align-items:center;gap:0.8rem;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1rem 1.3rem;margin-bottom:1.3rem;max-width:640px;cursor:pointer;">
+        <span style="font-size:1.5rem;">📖</span>
+        <span>
+          <span style="display:block;font-weight:700;color:var(--ink);font-size:1rem;">Symptomlexikon</span>
+          <span style="display:block;font-size:0.85rem;color:var(--muted);">Schneller Überblick: Welche Symptome gehören typischerweise zu welchem Krankheitsbild?</span>
+        </span>
+      </button>
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.4rem;margin:1.3rem 0 0.4rem;">
         ${quickNav}
       </div>
@@ -89527,6 +89543,73 @@ function psychosomatikSubtypPage(code) {
   `);
 }
 
+function symptomlexikonPage() {
+  const entries = Object.entries(PSYCHOSOMATIK_KRANKHEITEN).filter(([, k]) => k.symptome && k.symptome.length);
+  const byKategorie = {};
+  entries.forEach(([slug, k]) => {
+    const kat = k.kategorie || "sonstige";
+    (byKategorie[kat] = byKategorie[kat] || []).push([slug, k]);
+  });
+  const geplantByKategorie = PSYCHOSOMATIK_GEPLANT || {};
+  const aktiveKategorien = PSYCHOSOMATIK_KATEGORIEN.filter(kat => byKategorie[kat.key] || (geplantByKategorie[kat.key] && geplantByKategorie[kat.key].length));
+
+  const quickNav = aktiveKategorien.map(kat => {
+    const f = kat.farbe || "var(--copper)";
+    return `<a href="#" onclick="event.preventDefault();var el=document.getElementById('sym-${kat.key}');if(el)el.scrollIntoView({behavior:'smooth',block:'start'});"
+      style="display:inline-block;padding:0.3rem 0.7rem;border-radius:6px;border:1.5px solid ${f};font-size:0.8rem;font-weight:700;color:${f};background:var(--bg);text-decoration:none;opacity:0.85;"
+      onmouseover="this.style.opacity='1';this.style.background='color-mix(in srgb, ${f} 12%, var(--bg))'"
+      onmouseout="this.style.opacity='0.85';this.style.background='var(--bg)'">${kat.label}</a>`;
+  }).join("");
+
+  const sections = aktiveKategorien.map(kat => {
+    const f = kat.farbe || "var(--copper)";
+    const items = (byKategorie[kat.key] || []).slice().sort((a, b) => a[1].titel.localeCompare(b[1].titel, "de"));
+    const cards = items.map(([slug, k]) => `
+      <div style="background:var(--ivory);border:1.5px solid var(--border);border-left:4px solid ${f};border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;">
+        <div style="display:flex;align-items:center;gap:0.7rem;margin-bottom:0.5rem;">
+          <span style="font-size:1.3rem;">${k.icon}</span>
+          <h3 style="margin:0;font-size:1.05rem;color:var(--ink);">${k.titel}</h3>
+        </div>
+        <ul style="margin:0 0 0.7rem;padding-left:1.2rem;">
+          ${k.symptome.map(s => `<li style="font-size:0.88rem;line-height:1.6;color:var(--ink);margin-bottom:0.25rem;">${s}</li>`).join("")}
+        </ul>
+        <button class="ghost-link" data-route="psychosomatik/${slug}" style="font-size:0.82rem;">Mehr zu ${k.titel} &rarr;</button>
+      </div>
+    `).join("");
+    const geplant = (geplantByKategorie[kat.key] || []).slice().sort((a, b) => a.localeCompare(b, "de"));
+    const geplantHtml = geplant.length ? `
+      <div style="margin:${cards ? "0.3rem" : "0"} 0 0.9rem;">
+        <p style="font-size:0.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em;margin:0 0 0.5rem;">In Vorbereitung</p>
+        <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">
+          ${geplant.map(titel => `<span style="display:inline-block;padding:0.3rem 0.65rem;border-radius:6px;background:color-mix(in srgb, ${f} 10%, var(--paper));color:color-mix(in srgb, ${f} 70%, var(--muted));font-size:0.82rem;">${titel}</span>`).join("")}
+        </div>
+      </div>
+    ` : "";
+    return `
+      <div id="sym-${kat.key}" style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;color:${f};text-transform:uppercase;padding:1.2rem 0 0.4rem;margin-top:0.5rem;border-bottom:1.5px solid color-mix(in srgb, ${f} 30%, var(--paper));">${kat.label}</div>
+      <div style="margin-top:0.8rem;">${cards}${geplantHtml}</div>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("symptomlexikon")}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Symptomlexikon</h1>
+      <p class="psycho-intro">Ein schneller Überblick über typische Symptome der Krankheitsbilder aus dem Psychosomatik-Register – zur ersten Orientierung, wenn die Frage im Raum steht: &bdquo;Ist das jetzt eigentlich ernst?&ldquo; <strong>Wichtig: Dieses Lexikon ersetzt keine ärztliche Diagnose.</strong> Bei akuten, plötzlich auftretenden oder starken Beschwerden immer sofort ärztlichen bzw. notärztlichen Rat einholen, statt hier nachzuschlagen. Die ausführliche psychosomatische Deutung je Krankheitsbild findet sich im <a href="#" data-route="psychosomatik">Psychosomatik-Register</a>.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.4rem;margin:1.3rem 0 0.4rem;">
+        ${quickNav}
+      </div>
+      <div style="max-width:640px;margin-top:0.6rem;">
+        ${sections}
+      </div>
+      ${relatedLinks([
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"healing", label:"Heilmittel-Kompass"},
+      ])}
+    </div>
+  `);
+}
+
 function psychosomatikDetailPage(slug) {
   const k = PSYCHOSOMATIK_KRANKHEITEN[slug];
   if (!k) return psychosomatikPage();
@@ -89554,6 +89637,13 @@ function psychosomatikDetailPage(slug) {
       <div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
         <p style="font-size:0.75rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.5rem;">Definition</p>
         <p style="margin:0;font-size:0.92rem;line-height:1.65;color:var(--ink);">${k.definition}</p>
+      </div>` : ""}
+      ${k.symptome && k.symptome.length ? `
+      <div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
+        <p style="font-size:0.75rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.5rem;">Typische Symptome</p>
+        <ul style="margin:0;padding-left:1.2rem;">
+          ${k.symptome.map(s => `<li style="font-size:0.92rem;line-height:1.65;color:var(--ink);margin-bottom:0.3rem;">${s}</li>`).join("")}
+        </ul>
       </div>` : ""}
       ${k.notfall ? `
       <div style="background:color-mix(in srgb, #c0392b 10%, var(--paper));border:1.5px solid #c0392b;border-radius:10px;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
@@ -93942,6 +94032,7 @@ function render() {
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
     "psychosomatik": psychosomatikPage,
+    "symptomlexikon": symptomlexikonPage,
     "tierforscher-uebereinstimmung": tierforscherUebereinstimmungPage,
     "bewusstseinsgrad-normalverteilung": bewusstseinsgradNormalverteilungPage,
     "tritypen": tritypenPage,

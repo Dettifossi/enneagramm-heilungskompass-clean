@@ -43,6 +43,7 @@ function buildChunks(KRANKHEITEN, KATEGORIEN) {
       `${k.titel} (Psychosomatics Register${kategorieLabel[k.kategorie] ? " · " + kategorieLabel[k.kategorie] : ""})`,
       k.kurz,
       k.definition ? `Definition: ${k.definition}` : "",
+      k.symptome && k.symptome.length ? `Typical symptoms: ${k.symptome.join("; ")}` : "",
       k.notfall ? `Emergency notice: ${k.notfall}` : "",
       k.disclaimer ? k.disclaimer : "",
       k.einleitung ? k.einleitung : "",

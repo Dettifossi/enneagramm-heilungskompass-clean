@@ -50,6 +50,7 @@ function buildChunks(KRANKHEITEN, KATEGORIEN, langLabel) {
       `${k.titel} (${langLabel === "en" ? "Psychosomatics Register" : "Psychosomatik-Register"}${kategorieLabel[k.kategorie] ? " · " + kategorieLabel[k.kategorie] : ""})`,
       k.kurz,
       k.definition ? `Definition: ${k.definition}` : "",
+      k.symptome && k.symptome.length ? `Typische Symptome: ${k.symptome.join("; ")}` : "",
       k.notfall ? `Notfall-Hinweis: ${k.notfall}` : "",
       k.disclaimer ? k.disclaimer : "",
       k.einleitung ? k.einleitung : "",

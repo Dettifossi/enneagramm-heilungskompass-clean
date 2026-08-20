@@ -2274,6 +2274,7 @@ text.nav = [
   { route: "heilung", label: "Healing", dropdown: [
     { route: "healing",        label: "Healing Compass" },
     { route: "psychosomatik",  label: "Psychosomatics Register" },
+    { route: "symptomlexikon", label: "Symptom Lexicon" },
     { route: "tcm",            label: "TCM & Meridians" },
     { route: "homoeopathie",   label: "Homeopathic Remedies" },
     { route: "mineralstoffe",  label: "Mineral Impulses" },
@@ -54757,6 +54758,14 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     icon: "&#10084;&#65039;",
     kurz: "When the heart no longer goes along with a life that has long been lived past it.",
     definition: "A heart attack (myocardial infarction) refers to the acute death of heart-muscle tissue, usually caused by a blocked coronary artery, resulting in an insufficient supply of oxygen and nutrients (ischemia). The trigger is typically coronary artery disease (CAD) – a progressive narrowing of the coronary arteries caused by atherosclerosis, i.e. deposits (plaques) on the vessel walls. If such a plaque ruptures, a blood clot (thrombus) can form that completely blocks the vessel.",
+    symptome: [
+      "Sudden, often crushing pressure or pain behind the breastbone lasting longer than 5 minutes",
+      "Pain radiating into the left arm, both arms, jaw, neck, back, or upper abdomen",
+      "Shortness of breath, even without physical exertion",
+      "Cold sweat, nausea, vomiting",
+      "A sense of impending doom, strong inner distress",
+      "In women, older adults, and diabetics, symptoms are often less typical: a diffuse feeling of pressure, exhaustion, or nausea instead of classic chest pain – no less common, but easier to miss",
+    ],
     disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
     notfall: "If you suspect an acute heart attack (e.g. sudden, persistent pressure or pain in the chest, radiating into the arm, jaw or back, shortness of breath, cold sweat, a sense of impending doom): call emergency services immediately, request an ambulance, or go to the nearest hospital without delay. In this situation every minute counts – this is not the moment for psychosomatic interpretation, but for immediate emergency medical care.",
     einleitung: "Cardiology has known since the 1950s the concept of the &bdquo;Type A personality&ldquo; (Friedman &amp; Rosenman): ambitious, time-driven, competitive, with suppressed or explosive aggression – a pattern that long-term studies correlate with elevated cardiovascular risk. Traditional Chinese Medicine likewise assigns the heart to the Fire element, the seat of Shen, the spirit and the joy of life – when this fire falls out of rhythm, psychosomatic medicine often reads it as an expression of denied or forced joy, chronic self-overextension, or a life that has long been lived past one's own heart.",
@@ -54959,6 +54968,13 @@ function psychosomatikPage() {
         <p style="margin:0 0 0.8rem;font-size:0.88rem;color:var(--muted);">All conditions in this register filtered by subtype at a glance &ndash; e.g. how Heart Attack, and in time all other conditions, show up specifically for SE1 or SX7.</p>
         <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">${subtypeRegister}</div>
       </div>
+      <button class="tool-card--link" data-route="symptomlexikon" style="display:flex;align-items:center;gap:0.8rem;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1rem 1.3rem;margin-bottom:1.3rem;max-width:640px;cursor:pointer;">
+        <span style="font-size:1.5rem;">📖</span>
+        <span>
+          <span style="display:block;font-weight:700;color:var(--ink);font-size:1rem;">Symptom Lexicon</span>
+          <span style="display:block;font-size:0.85rem;color:var(--muted);">Quick overview: which symptoms typically belong to which condition?</span>
+        </span>
+      </button>
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.4rem;margin:1.3rem 0 0.4rem;">
         ${quickNav}
       </div>
@@ -55032,6 +55048,73 @@ function psychosomatikSubtypPage(code) {
   `);
 }
 
+function symptomlexikonPage() {
+  const entries = Object.entries(PSYCHOSOMATIK_KRANKHEITEN).filter(([, k]) => k.symptome && k.symptome.length);
+  const byKategorie = {};
+  entries.forEach(([slug, k]) => {
+    const kat = k.kategorie || "sonstige";
+    (byKategorie[kat] = byKategorie[kat] || []).push([slug, k]);
+  });
+  const geplantByKategorie = PSYCHOSOMATIK_GEPLANT || {};
+  const aktiveKategorien = PSYCHOSOMATIK_KATEGORIEN.filter(kat => byKategorie[kat.key] || (geplantByKategorie[kat.key] && geplantByKategorie[kat.key].length));
+
+  const quickNav = aktiveKategorien.map(kat => {
+    const f = kat.farbe || "var(--copper)";
+    return `<a href="#" onclick="event.preventDefault();var el=document.getElementById('sym-${kat.key}');if(el)el.scrollIntoView({behavior:'smooth',block:'start'});"
+      style="display:inline-block;padding:0.3rem 0.7rem;border-radius:6px;border:1.5px solid ${f};font-size:0.8rem;font-weight:700;color:${f};background:var(--bg);text-decoration:none;opacity:0.85;"
+      onmouseover="this.style.opacity='1';this.style.background='color-mix(in srgb, ${f} 12%, var(--bg))'"
+      onmouseout="this.style.opacity='0.85';this.style.background='var(--bg)'">${kat.label}</a>`;
+  }).join("");
+
+  const sections = aktiveKategorien.map(kat => {
+    const f = kat.farbe || "var(--copper)";
+    const items = (byKategorie[kat.key] || []).slice().sort((a, b) => a[1].titel.localeCompare(b[1].titel, "en"));
+    const cards = items.map(([slug, k]) => `
+      <div style="background:var(--ivory);border:1.5px solid var(--border);border-left:4px solid ${f};border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;">
+        <div style="display:flex;align-items:center;gap:0.7rem;margin-bottom:0.5rem;">
+          <span style="font-size:1.3rem;">${k.icon}</span>
+          <h3 style="margin:0;font-size:1.05rem;color:var(--ink);">${k.titel}</h3>
+        </div>
+        <ul style="margin:0 0 0.7rem;padding-left:1.2rem;">
+          ${k.symptome.map(s => `<li style="font-size:0.88rem;line-height:1.6;color:var(--ink);margin-bottom:0.25rem;">${s}</li>`).join("")}
+        </ul>
+        <button class="ghost-link" data-route="psychosomatik/${slug}" style="font-size:0.82rem;">More on ${k.titel} &rarr;</button>
+      </div>
+    `).join("");
+    const geplant = (geplantByKategorie[kat.key] || []).slice().sort((a, b) => a.localeCompare(b, "en"));
+    const geplantHtml = geplant.length ? `
+      <div style="margin:${cards ? "0.3rem" : "0"} 0 0.9rem;">
+        <p style="font-size:0.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em;margin:0 0 0.5rem;">In Preparation</p>
+        <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">
+          ${geplant.map(titel => `<span style="display:inline-block;padding:0.3rem 0.65rem;border-radius:6px;background:color-mix(in srgb, ${f} 10%, var(--paper));color:color-mix(in srgb, ${f} 70%, var(--muted));font-size:0.82rem;">${titel}</span>`).join("")}
+        </div>
+      </div>
+    ` : "";
+    return `
+      <div id="sym-${kat.key}" style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;color:${f};text-transform:uppercase;padding:1.2rem 0 0.4rem;margin-top:0.5rem;border-bottom:1.5px solid color-mix(in srgb, ${f} 30%, var(--paper));">${kat.label}</div>
+      <div style="margin-top:0.8rem;">${cards}${geplantHtml}</div>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("symptomlexikon")}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Symptom Lexicon</h1>
+      <p class="psycho-intro">A quick overview of typical symptoms for the conditions in the Psychosomatics Register – for a first orientation when the question comes up: &bdquo;Is this actually serious?&ldquo; <strong>Important: this lexicon does not replace a medical diagnosis.</strong> For acute, sudden, or severe symptoms, always seek medical or emergency care immediately instead of looking it up here. The full psychosomatic interpretation for each condition can be found in the <a href="#" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.4rem;margin:1.3rem 0 0.4rem;">
+        ${quickNav}
+      </div>
+      <div style="max-width:640px;margin-top:0.6rem;">
+        ${sections}
+      </div>
+      ${relatedLinks([
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"healing", label:"Healing Compass"},
+      ])}
+    </div>
+  `);
+}
+
 function psychosomatikDetailPage(slug) {
   const k = PSYCHOSOMATIK_KRANKHEITEN[slug];
   if (!k) return psychosomatikPage();
@@ -55059,6 +55142,13 @@ function psychosomatikDetailPage(slug) {
       <div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
         <p style="font-size:0.75rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.5rem;">Definition</p>
         <p style="margin:0;font-size:0.92rem;line-height:1.65;color:var(--ink);">${k.definition}</p>
+      </div>` : ""}
+      ${k.symptome && k.symptome.length ? `
+      <div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
+        <p style="font-size:0.75rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.5rem;">Typical Symptoms</p>
+        <ul style="margin:0;padding-left:1.2rem;">
+          ${k.symptome.map(s => `<li style="font-size:0.92rem;line-height:1.65;color:var(--ink);margin-bottom:0.3rem;">${s}</li>`).join("")}
+        </ul>
       </div>` : ""}
       ${k.notfall ? `
       <div style="background:color-mix(in srgb, #c0392b 10%, var(--paper));border:1.5px solid #c0392b;border-radius:10px;padding:1rem 1.2rem;margin-bottom:1rem;max-width:640px;">
@@ -59582,6 +59672,7 @@ function subtypeSchaubilderPage() {
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
     "psychosomatik": psychosomatikPage,
+    "symptomlexikon": symptomlexikonPage,
     "tierforscher-uebereinstimmung": tierforscherUebereinstimmungPage,
     "bewusstseinsgrad-normalverteilung": bewusstseinsgradNormalverteilungPage,
     "tritypen": tritypenPage,
