@@ -54983,6 +54983,20 @@ function psychosomatikPage() {
       </div>
       <img src="../assets/schaubilder/psychosomatik-register-beratung.jpg?v=2" alt="Consultation session with the Enneagram symbol and anatomical models on the table" loading="lazy" style="width:100%;max-width:640px;border-radius:14px;margin:1.6rem 0 1.3rem;box-shadow:0 4px 18px rgba(0,0,0,.12);display:block;">
       ${_psychosomatikBuecherHtml()}
+      <section class="beratungs-cta" style="grid-template-columns:1fr;max-width:640px;">
+        <div class="beratungs-cta__card beratungs-cta__card--behandlung">
+          <div class="beratungs-cta__text">
+            <p class="beratungs-cta__eyebrow">Naturheilpraxis Detlef Rathmer</p>
+            <h3 class="beratungs-cta__title">Would you like your symptoms accompanied psychosomatically?</h3>
+            <p class="beratungs-cta__body">Psychological Homeopathy connects the patterns of this register with an individual treatment tailored to your subtype. If you're interested in an initial consultation, feel free to reach out.</p>
+          </div>
+          <div class="beratungs-cta__contact">
+            <a class="beratungs-cta__btn beratungs-cta__btn--secondary" href="mailto:detlefrathmer@t-online.de?subject=Inquiry%20about%20psychosomatic%20accompaniment">✉ Email</a>
+            <a class="beratungs-cta__btn beratungs-cta__btn--whatsapp" href="https://wa.me/4915758786201?text=I%27d%20like%20to%20ask%20about%20psychosomatic%20accompaniment." target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+          <a class="beratungs-cta__web" href="https://www.psychologische-homoeopathie.de" target="_blank" rel="noopener">Naturheilpraxis Detlef Rathmer → psychologische-homoeopathie.de</a>
+        </div>
+      </section>
       ${relatedLinks([
         {route:"healing", label:"Healing Compass"},
         {route:"homoeopathie", label:"Homeopathic Remedies"},
