@@ -38746,7 +38746,14 @@ function ronnieBiggsPortraitPage() {
   `);
 }
 function krankheitsportraetsPage() {
-  const items = KRANKHEITS_PORTRAITS.slice().sort((a, b) => a.name.localeCompare(b.name, "en"));
+  const instOrder = { SE: 0, SO: 1, SX: 2 };
+  const items = KRANKHEITS_PORTRAITS.slice().sort((a, b) => {
+    const aInst = (a.subtyp || "").substring(0, 2).toUpperCase();
+    const bInst = (b.subtyp || "").substring(0, 2).toUpperCase();
+    const aTyp = parseInt((a.subtyp || "").replace(/[^0-9]/g, "")[0] || "0");
+    const bTyp = parseInt((b.subtyp || "").replace(/[^0-9]/g, "")[0] || "0");
+    return (instOrder[aInst] ?? 9) - (instOrder[bInst] ?? 9) || aTyp - bTyp || a.name.localeCompare(b.name, "en");
+  });
 
   const instBtn = val => {
     const active = val === "ALL";
