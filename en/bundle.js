@@ -1121,6 +1121,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Elon Musk – Social Type 7",
     teaser:"SO7w6 · born 1971. Entrepreneur, founder of PayPal, SpaceX, X (formerly Twitter), co-owner of Tesla. The beaver that builds worlds – and never finishes. Animal correspondence: Beaver.",
     tags:["Wirtschaft","Wissenschaft"] , gender:"m"},
+{ route:"beruehmte-johann-wolfgang-von-goethe", name:"Johann Wolfgang von Goethe", added:"2026-08-20", subtyp:"SO7w6",
+    heading:"Johann Wolfgang von Goethe – Social Type 7",
+    teaser:"SO7w6 · 1749–1832. Poet, natural scientist, statesman. Faust, Werther, Wilhelm Meister, theory of colors – nearly fifty years of loyal administrative service in Weimar alongside a restless literary and scientific body of work. The beaver who worked on a single structure (Faust) for sixty years. Animal correspondence: Beaver.",
+    land:"Germany", tags:["Literature","Wissenschaft"], gender:"m"},
 { route:"beruehmte-jules-verne", name:"Jules Verne", added:"2026-08-15", subtyp:"SO7w6",
     heading:"Jules Verne – Social Type 7",
     teaser:"SO7w6 · 1828–1905. Writer, visionary. Voyages extraordinaires, 20,000 Leagues Under the Sea, From the Earth to the Moon. The beaver that wrote the future in advance, bound to a controlling publisher. Animal correspondence: Beaver.",
@@ -30065,8 +30069,75 @@ function julesVernePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-johann-wolfgang-von-goethe", label:"Portrait: Johann Wolfgang von Goethe (SO7w6)"},
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SE4w5)"},
         {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function johannWolfgangVonGoethePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-johann-wolfgang-von-goethe-portrait.jpg" alt="Johann Wolfgang von Goethe" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johann Wolfgang von Goethe</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Poet, natural scientist, statesman, 1749&ndash;1832 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver Who Never Considered a Structure Finished</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Beaver</strong> is the animal of the Social Type 7 &ndash; it does not build for its own enjoyment, but erects structures that reach far beyond it, and is never truly finished. Few figures in German intellectual history embody this restless, never-completed building as thoroughly as Johann Wolfgang von Goethe: poet, playwright, novelist, natural scientist, minister, theater director &ndash; often all at once, for an entire lifetime.</p>
+          <p class="vb-intro">Born in 1749 in Frankfurt am Main, the son of a wealthy, strictly disciplining lawyer, Goethe grew up in a household that treated education as both duty and end in itself. Even as a teenager he learned several languages in parallel, wrote his first poems, and began what would shape his entire life: never lingering in a single field of interest, but constantly opening up new ones.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Seven: Education as Service to the Community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called <strong>Social Seven (SO7)</strong> <em>Sacrifice</em>: it directs the Seven's insatiable appetite not toward its own enjoyment, but sacrifices it for a larger idea &ndash; and finds its deepest fulfillment precisely there. Goethe lived this to a degree that astonished his contemporaries: in 1775, at just 26, at the height of his literary fame from "The Sorrows of Young Werther," he accepted the invitation of the young Duke Carl August to Weimar &ndash; and committed himself for nearly fifty years to administrative work that often stood diametrically opposed to his true artistic nature.</p>
+          <p class="vb-intro">He took on responsibility for the mining commission, the road-building commission, the war commission, and eventually the finances of the small duchy &ndash; tasks that had little to do with poetry, but served a larger system to which he had dedicated himself. The Beaver does not build to shine, but because it believes the community it belongs to needs its building.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Loyalty, System, and Flight as the Exception</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the Social Seven a quality that stands in contrast to its boundless curiosity: the need for a reliable framework, for loyalty to an authority it can trust. Goethe's nearly fifty years of loyalty to Duke Carl August &ndash; despite numerous lucrative offers from other courts &ndash; is pure Six energy: the Beaver would rather build within a proven, security-providing system than leave the protective shore entirely.</p>
+          <p class="vb-intro">His scientific method carries the same signature: in his theory of colors, his anatomy, and his botany, Goethe worked with meticulous, often decades-long systematics &ndash; he collected, compared, and ordered before forming a thesis. Even his most famous boundary-crossing confirms the Six-wing rather than contradicting it: in 1786 he fled secretly, at night, without informing his employer beforehand, to Italy &ndash; a one-time, carefully planned breakout from a framework he experienced as confining, not a permanent break from commitment and duty. After two years he returned to Weimar and resumed his offices.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Excess Across Six Decades</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Seven is called <strong>gluttony</strong> or <strong>excess</strong>: the insatiable appetite for ever new fields of experience. In Goethe this shows in a range that still astonishes today: alongside his poetic work &ndash; novels, plays, poetry, travel writing &ndash; he pursued serious natural-scientific research for decades. In 1784 he discovered the human intermaxillary bone, developed his own theory of color opposed to Newton's, and engaged intensively with mineralogy, geology, and plant morphology.</p>
+          <p class="vb-intro">This excess shows most clearly in "Faust": Goethe worked on this one piece for over sixty years, from first drafts in the 1770s to the completion of Part Two in 1831, a year before his death &ndash; a structure that accompanied him his entire life and that he, ever the Beaver, never truly wanted to declare finished until it had to be.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Schiller and the Shared Building Site of Weimar Classicism</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1794, Goethe's intense friendship with Friedrich Schiller began &ndash; one of the most productive artistic relationships in German literary history. Unlike a purely caretaking Two-style bond, this connection was above all a shared intellectual building project: the two co-edited journals, co-wrote the satirical "Xenien," and spurred each other on to new works through an intense correspondence. The Beaver does not seek the one close bond, but the companion with whom it can build together.</p>
+          <p class="vb-intro">When Napoleon received Goethe in Erfurt in 1808, he is said to have remarked afterward: "Voilà un homme!" &ndash; "Behold a man!" Even the most powerful ruler in Europe recognized in Goethe a stature that could not be confined to a single field. After Schiller's early death in 1805, Goethe wrote that he had lost "half of his existence" &ndash; a rare, open admission of loss from a man whose energy was otherwise almost always directed forward, toward new projects.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: A Life With No Completion Date</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Goethe died in 1832 in Weimar at the age of 82, a year after finally completing "Faust Part Two" &ndash; almost as if the Beaver had wanted to finish its last great structure before leaving the building site. His body of work encompasses poetry, drama, novels, autobiographical writing, natural-scientific treatises, and a correspondence of several tens of thousands of surviving letters.</p>
+          <p class="vb-intro">That is the legacy of SO7w6: an energy that never settled for a single structure but kept erecting new dams &ndash; literature, science, administration, friendship &ndash; while, unlike an unbound Eight-wing Seven, remaining loyal for a lifetime to one system, one sovereign, one place. The Beaver that did not run away to be free, but kept building, for sixty years, exactly where it was rooted.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
+        {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
+        {route:"beruehmte-jeanne-marie-guyon", label:"Portrait: Jeanne-Marie Bouvier de la Motte Guyon (SO7w6)"},
       ])}
     </div>
   `);
@@ -38920,8 +38991,6 @@ window.khApply = function() {
     b.classList.toggle("kf-btn--active", b.dataset.khGender === s.gender || (s.gender === "ALL" && b.dataset.khGender === "ALL"));
   });
 };
-  `);
-}
 
 function freudKrankheitsportraetPage() {
   return shell(`
@@ -62621,6 +62690,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-frans-de-waal": fransDeWaalPortraitPage,
       "beruehmte-christophe-boesch": christopheBoeschPortraitPage,
       "beruehmte-jill-pruetz": jillPruetzPortraitPage,
+      "beruehmte-johann-wolfgang-von-goethe": johannWolfgangVonGoethePortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
       "beruehmte-umberto-eco": umbertEcoPortraitPage,

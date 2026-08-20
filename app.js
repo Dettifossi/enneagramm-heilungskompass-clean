@@ -24097,6 +24097,7 @@ const registerEntries = [
   { term: "Rowan Atkinson",                 route: "beruehmte-rowan-atkinson",              description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Mr. Bean, Blackadder, Johnny English, Biber" },
   { term: "Elon Musk",                     route: "beruehmte-elon-musk",                   description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Tesla, SpaceX, Vision\u00e4r" },
   { term: "Nikola Tesla",                  route: "beruehmte-nikola-tesla",                description: "Portrait: SE4w5 · Selbsterhaltender Typ 4 · Erfinder, Ingenieur, Wechselstrompionier" },
+  { term: "Johann Wolfgang von Goethe",     route: "beruehmte-johann-wolfgang-von-goethe", description: "Portrait: SO7w6 · Sozialer Typ 7 · Dichter, Naturforscher, Staatsmann" },
   { term: "Jules Verne",                   route: "beruehmte-jules-verne",                 description: "Portrait: SO7w6 · Sozialer Typ 7 · Schriftsteller, Visionär" },
   { term: "Elvis Presley",                 route: "beruehmte-elvis-presley",               description: "Portrait: SX2w3 \u00b7 Sexueller Typ 2 \u00b7 King of Rock'n'Roll, S\u00e4nger, Schauspieler" },
   { term: "Freddie Mercury",               route: "beruehmte-freddie-mercury",             description: "Portrait: SX4w3 \u00b7 Sexueller Typ 4 \u00b7 Queen-Fronts\u00e4nger, B\u00fchnenmagier" },
@@ -32329,6 +32330,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Elon Musk \u2013 Sozialer Typ 7",
     teaser:"SO7w6 \u00b7 geb. 1971. Unternehmer, Gr\u00fcnder von PayPal, SpaceX, X (ehem. Twitter), Mitinhaber von Tesla. Reichster Mensch der Welt (Stand 2026). Der Biber, der Welten baut \u2013 und dabei nie fertig wird. Tierentsprechung: Biber.",
     tags:["Wirtschaft","Wissenschaft"] , gender:"m"},
+  { route:"beruehmte-johann-wolfgang-von-goethe", name:"Johann Wolfgang von Goethe", added:"2026-08-20", subtyp:"SO7w6",
+    heading:"Johann Wolfgang von Goethe – Sozialer Typ 7",
+    teaser:"SO7w6 · 1749–1832. Dichter, Naturforscher, Staatsmann. Faust, Werther, Wilhelm Meister, Farbenlehre – fast fünfzig Jahre loyaler Verwaltungsdienst in Weimar neben einem rastlosen literarischen und wissenschaftlichen Werk. Der Biber, der sechzig Jahre an einem einzigen Bauwerk (Faust) arbeitete. Tierentsprechung: Biber.",
+    tags:["Literatur","Wissenschaft"], gender:"m"},
   { route:"beruehmte-jules-verne", name:"Jules Verne", added:"2026-08-15", subtyp:"SO7w6",
     heading:"Jules Verne – Sozialer Typ 7",
     teaser:"SO7w6 · 1828–1905. Schriftsteller, Visionär. Voyages extraordinaires, 20.000 Meilen unter dem Meer, Von der Erde zum Mond. Der Biber, der die Zukunft vorausschrieb, gebunden an einen kontrollierenden Verleger. Tierentsprechung: Biber.",
@@ -49397,8 +49402,75 @@ function julesVernePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-johann-wolfgang-von-goethe", label:"Porträt: Johann Wolfgang von Goethe (SO7w6)"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
         {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function johannWolfgangVonGoethePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-johann-wolfgang-von-goethe-portrait.jpg" alt="Johann Wolfgang von Goethe" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johann Wolfgang von Goethe</p>
+        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Dichter, Naturforscher, Staatsmann, 1749–1832 – Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der nie ein Bauwerk für abgeschlossen hielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 – er baut nicht für den eigenen Genuss, sondern errichtet Strukturen, die weit über ihn hinaus wirken, und ist dabei nie wirklich fertig. Kaum eine Gestalt der deutschen Geistesgeschichte verkörpert dieses rastlose, nie abgeschlossene Bauen so umfassend wie Johann Wolfgang von Goethe: Dichter, Dramatiker, Romanautor, Naturforscher, Minister, Theaterleiter – oft alles gleichzeitig, ein Leben lang.</p>
+          <p class="vb-intro">Geboren 1749 in Frankfurt am Main als Sohn eines wohlhabenden, streng erziehenden Juristen, wuchs Goethe in einem Haushalt auf, der Bildung als Pflicht und Selbstzweck zugleich verstand. Schon als Jugendlicher lernte er mehrere Sprachen parallel, verfasste erste Gedichte und begann, was sein ganzes Leben prägen sollte: nie bei einem einzigen Interessensgebiet zu verweilen, sondern beständig neue Bereiche zu erschließen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Bildung als Dienst an der Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> nennt Naranjo <em>Sacrifice</em>: Sie richtet den unstillbaren Appetit der Sieben nicht auf den eigenen Genuss, sondern opfert ihn zugunsten einer größeren Idee – und findet gerade darin ihre tiefste Erfüllung. Goethe lebte das in einem Ausmaß, das seine Zeitgenossen verblüffte: 1775, mit nur 26 Jahren, auf dem Höhepunkt seines literarischen Ruhms durch "Die Leiden des jungen Werthers", folgte er der Einladung des jungen Herzogs Carl August nach Weimar – und verpflichtete sich für fast fünfzig Jahre einer Verwaltungsarbeit, die seiner eigentlichen künstlerischen Natur oft diametral entgegenstand.</p>
+          <p class="vb-intro">Er übernahm Verantwortung für die Bergwerkskommission, die Wegebaukommission, die Kriegskommission und schließlich die Finanzen des kleinen Herzogtums – Aufgaben, die wenig mit Dichtung zu tun hatten, aber einem größeren System dienten, dem er sich verschrieben hatte. Der Biber baut nicht, um zu glänzen, sondern weil er glaubt, dass die Gemeinschaft, der er sich zugehörig fühlt, sein Bauen braucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Loyalität, System und die Flucht als Ausnahme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> gibt der sozialen Sieben eine Qualität, die im Kontrast zu ihrer grenzenlosen Neugier steht: das Bedürfnis nach einem verlässlichen Rahmen, nach Loyalität gegenüber einer Autorität, der man sich anvertrauen kann. Goethes fast fünfzigjährige Treue zu Herzog Carl August – trotz zahlreicher lukrativer Angebote anderer Höfe – ist reine Sechserenergie: der Biber, der lieber innerhalb eines bewährten, sicherheitsspendenden Systems baut, als das schützende Ufer ganz zu verlassen.</p>
+          <p class="vb-intro">Auch seine wissenschaftliche Methode trägt diese Handschrift: In der Farbenlehre, der Anatomie und der Botanik arbeitete Goethe mit akribischer, oft jahrzehntelanger Systematik – er sammelte, verglich, ordnete, bevor er eine These formulierte. Und selbst seine berühmteste Grenzüberschreitung bestätigt den Sechserflügel eher, als sie zu widerlegen: 1786 floh er heimlich, nachts, ohne seinen Dienstherrn vorab einzuweihen, nach Italien – ein einmaliger, in sich sorgfältig geplanter Ausbruch aus einem als eng empfundenen Rahmen, keine dauerhafte Abkehr von Bindung und Pflicht. Nach zwei Jahren kehrte er nach Weimar zurück und nahm seine Ämter wieder auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Maßlosigkeit über sechs Jahrzehnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> oder <strong>Maßlosigkeit</strong>: der unstillbare Appetit auf immer neue Erfahrungsfelder. Bei Goethe zeigt sich das in einer Bandbreite, die bis heute verblüfft: Neben seinem dichterischen Werk – Romane, Dramen, Lyrik, Reiseberichte – betrieb er über Jahrzehnte ernsthafte naturwissenschaftliche Forschung. Er entdeckte 1784 den menschlichen Zwischenkieferknochen, entwickelte eine eigene, gegen Newton gerichtete Farbenlehre und beschäftigte sich intensiv mit Mineralogie, Geologie und der Morphologie der Pflanzen.</p>
+          <p class="vb-intro">Am deutlichsten zeigt sich diese Maßlosigkeit an "Faust": Goethe arbeitete über sechzig Jahre an diesem einen Werk, von ersten Entwürfen in den 1770er-Jahren bis zur Fertigstellung des zweiten Teils 1831, ein Jahr vor seinem Tod – ein Bauwerk, das ihn sein ganzes Leben begleitete und das er, ganz Biber, nie wirklich für abgeschlossen erklären wollte, bis es sein musste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Schiller und die gemeinsame Baustelle der Weimarer Klassik</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1794 begann Goethes intensive Freundschaft mit Friedrich Schiller – eine der produktivsten Künstlerbeziehungen der deutschen Literaturgeschichte. Anders als eine reine Zweier-Fürsorgebeziehung war diese Verbindung vor allem ein gemeinsames intellektuelles Bauprojekt: Beide gaben gemeinsam Zeitschriften heraus, verfassten gemeinsam die satirischen "Xenien" und trieben sich über einen intensiven Briefwechsel gegenseitig zu neuen Werken an. Der Biber sucht nicht die eine enge Bindung, sondern den Gefährten, mit dem gemeinsam gebaut werden kann.</p>
+          <p class="vb-intro">Als Napoleon Goethe 1808 in Erfurt empfing, soll er nach der Begegnung gesagt haben: "Voilà un homme!" – "Das ist ein Mann!" Selbst der mächtigste Herrscher Europas erkannte in Goethe eine Statur, die sich nicht auf ein einziges Feld beschränken ließ. Nach Schillers frühem Tod 1805 schrieb Goethe, ihm sei "die Hälfte seines Daseins" genommen worden – ein seltenes, offenes Eingeständnis von Verlust bei einem Mann, dessen Energie sonst fast immer nach vorn, in neue Projekte, gerichtet war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: ein Leben ohne Fertigstellungsdatum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Goethe starb 1832 in Weimar im Alter von 82 Jahren, ein Jahr nachdem er "Faust II" endlich abgeschlossen hatte – fast so, als hätte der Biber sein letztes großes Bauwerk erst vollenden wollen, bevor er die Baustelle verließ. Sein Werk umfasst Lyrik, Dramatik, Romane, autobiografische Schriften, naturwissenschaftliche Abhandlungen und einen Briefwechsel von mehreren zehntausend erhaltenen Briefen.</p>
+          <p class="vb-intro">Das ist das Vermächtnis der SO7w6: eine Energie, die sich nie mit einem einzigen Bauwerk begnügte, sondern beständig neue Dämme errichtete – Literatur, Wissenschaft, Verwaltung, Freundschaft –, und die dabei, anders als eine ungebundene Achterflügel-Sieben, ihr Leben lang loyal an ein System, einen Landesherrn, einen Ort gebunden blieb. Der Biber, der nicht davonlief, um frei zu sein, sondern der genau dort, wo er verwurzelt war, sechzig Jahre lang weiterbaute.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-jules-verne", label:"Porträt: Jules Verne (SO7w6)"},
+        {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
+        {route:"beruehmte-jeanne-marie-guyon", label:"Porträt: Jeanne-Marie Bouvier de la Motte Guyon (SO7w6)"},
       ])}
     </div>
   `);
@@ -97158,6 +97230,7 @@ function render() {
       "beruehmte-frans-de-waal": fransDeWaalPortraitPage,
       "beruehmte-christophe-boesch": christopheBoeschPortraitPage,
       "beruehmte-jill-pruetz": jillPruetzPortraitPage,
+      "beruehmte-johann-wolfgang-von-goethe": johannWolfgangVonGoethePortraitPage,
       "beruehmte-jules-verne": julesVernePortraitPage,
       "beruehmte-jeanne-marie-guyon": jeanneMarieGuyonPortraitPage,
           "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
