@@ -39960,7 +39960,8 @@ function gustavMahlerKrankheitsportraetPage() {
         the Social Four subtype: they often set groundbreaking developments in motion that go
         unrecognized in their own lifetime and only gain their true significance after their
         death – almost as if fate were mirroring the SO4's position as the Four's classic
-        withdrawal type: someone who spends an entire life striving to be a person of special
+        intensifying type, who lives out the Four's passion of envy all the more intensely:
+        someone who spends an entire life striving to be a person of special
         significance tends not to find that significance precisely when pursued most directly,
         but only afterward, unconsciously, once the ego itself is no longer in the way. What
         the ego insists on obtaining, it typically does not receive, or not to the degree it
@@ -39993,11 +39994,16 @@ function gustavMahlerKrankheitsportraetPage() {
         incurable at the time.</p>
         <p class="vb-intro"><strong>b) Counting his own pulse:</strong>
         Contemporary accounts describe how Mahler, after the diagnosis, began meticulously
-        monitoring and counting his own heartbeat – the same analytical precision he
-        otherwise devoted, as a Five-wing, to his scores now turned onto his own failing
-        organ.</p>
+        monitoring and counting his own heartbeat – the same analytical precision his strong
+        Five-wing otherwise devoted to his scores now turned onto his own failing organ. The
+        Social Four is, because of this perfectionist tendency that pulls her toward her stress
+        point, the One, also known as "the critical commentator" – self-critical, never quite
+        satisfied with her own work, without thereby becoming a Type One herself. In illness,
+        under the mounting energy loss and blows of fate of those years, this pattern
+        intensified further on a psychological level – a critical commentator who was never
+        quite satisfied with his own work.</p>
         <p class="vb-intro"><strong>c) Artistic processing instead of suppression:</strong>
-        Unlike Molière or Freud, who concealed their illness for years, Mahler processed his
+        Unlike Molière (SO7w6) or Freud (SO6w5), who concealed their illness for years, Mahler processed his
         diagnosis directly in his work – Das Lied von der Erde and the Ninth Symphony are seen
         as a direct artistic confrontation with his own approaching death. The Social Four does
         not hide her suffering; she makes it the central subject of her art.</p>

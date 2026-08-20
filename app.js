@@ -66763,7 +66763,8 @@ function gustavMahlerKrankheitsportraetPage() {
         Menschen des Subtyps der sozialen Vier: Sie leiten oft bahnbrechende Entwicklungen ein,
         die zu ihren eigenen Lebzeiten nicht anerkannt werden und erst über den eigenen Tod
         hinaus ihre wahre Bedeutung gewinnen – fast so, als würde das Schicksal der SO4, dem
-        klassischen Versteckungstyp der Vier, spiegeln: Wer sein ganzes Leben lang danach
+        klassischen Verstärkungstyp der Vier, der seine Leidenschaft des Neids und der
+        Missgunst verstärkt auslebt, spiegeln: Wer sein ganzes Leben lang danach
         strebt, ein besonderer Mensch zu sein, erreicht diese besondere Bedeutung gerade dann
         nicht, wenn er sie am unmittelbarsten anstrebt, sondern erst im Nachhinein, unbewusst,
         wenn das eigene Ego nicht mehr im Weg steht. Was man vom Ego her unbedingt anstrebt,
@@ -66799,10 +66800,17 @@ function gustavMahlerKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) Das Zählen des eigenen Pulses:</strong>
         Zeitgenössische Berichte beschreiben, wie Mahler nach der Diagnose begann, seinen
         eigenen Herzschlag akribisch zu kontrollieren und zu zählen – dieselbe analytische
-        Präzision, die er als Fünferflügel sonst seinen Partituren widmete, wandte sich nun
-        auf das eigene, versagende Organ.</p>
+        Präzision, die er mit seinem starken Fünferflügel sonst seinen Partituren widmete,
+        wandte sich nun auf das eigene, versagende Organ. Die soziale Vier wird aufgrund dieser
+        perfektionistischen Neigung, die sie in Richtung ihres Stresspunkts Eins bewegt, auch
+        als &bdquo;der kritische Kommentator&ldquo; bezeichnet – selbstkritisch, nie ganz
+        zufrieden mit dem eigenen Werk, ohne deshalb selbst zum Typ Eins zu werden. Im
+        Krankheitsfall, unter dem zunehmenden Energieverlust und den Schicksalsschlägen jener
+        Jahre, verstärkte sich dieses Muster auf psychischer Ebene zusätzlich – ein kritischer
+        Kommentator, der mit seinem eigenen Werk nie ganz zufrieden war.</p>
         <p class="vb-intro"><strong>c) Kompositorische Verarbeitung statt Verdrängung:</strong>
-        Anders als bei Molière oder Freud, die ihre Krankheit über Jahre verbargen, verarbeitete
+        Anders als bei Molière (SO7w6) oder Freud (SO6w5), die ihre Krankheit über Jahre
+        verbargen, verarbeitete
         Mahler seine Diagnose unmittelbar in seinem Werk – &bdquo;Das Lied von der Erde&ldquo;
         und die Neunte Sinfonie gelten als direkte künstlerische Auseinandersetzung mit dem
         eigenen nahenden Tod. Die soziale Vier verbirgt ihr Leid nicht, sie macht es zum
