@@ -196,6 +196,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-gustav-mahler", name:"Gustav Mahler", subtyp:"SO4w5", heading:"Gustav Mahler – Social Type 4", krankheit:"Subacute Bacterial Endocarditis (Heart Valve Infection)", teaser:"SO4w5 – Austrian composer and conductor, 1860–1911. Diagnosed with a severe heart condition in 1907, the same year his daughter died and he lost his position at the Vienna Court Opera. Processed the diagnosis immediately in his late works, including Das Lied von der Erde and the Ninth Symphony." , land:"Austria", gender:"m", jahre:"1860–1911"},
   { route:"krankheitsportraets-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", subtyp:"SX8w9", heading:"Ruth Bader Ginsburg – Sexual Type 8", krankheit:"Four Cancers in Three Very Different Organs Over Two Decades", teaser:"SX8w9 – US Supreme Court Justice, 1933–2020. Survived four cancer diagnoses in three very different organs from 1999 to 2019/2020 (colon, pancreatic twice, lung) without ever voluntarily giving up her seat. Died in office in 2020, weeks before the presidential election." , land:"USA", gender:"f", jahre:"1933–2020"},
   { route:"krankheitsportraets-friedrich-nietzsche", name:"Friedrich Nietzsche", subtyp:"SX5w4", heading:"Friedrich Nietzsche – Sexual Type 5", krankheit:"Chronic Migraines, Failing Eyesight, and Mental Collapse", teaser:"SX5w4 – German philosopher, 1844–1900. Decades of chronic migraines, stomach complaints, and progressively failing eyesight. Suffered a mental collapse in Turin in 1889 and spent the last eleven years of his life in mental darkness – cause still not conclusively established." , land:"Germany", gender:"m", jahre:"1844–1900"},
+  { route:"krankheitsportraets-fjodor-dostojewski", name:"Fjodor Dostojewski", subtyp:"SE6w5", heading:"Fjodor Dostoevsky – Self-Preservation Type 6", krankheit:"Lifelong Epilepsy", teaser:"SE6w5 – Russian writer, 1821–1881. Suffered from epilepsy for his entire adult life; described its famous aura as a moment of perfect harmony. Wrote the illness directly into his fiction, above all in Prince Myshkin in The Idiot." , land:"Russia", gender:"m", jahre:"1821–1881"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -24178,6 +24179,7 @@ function franzSchubertPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      <p class="vb-intro">His fatal illness, shared within his trusted circle at the Schubertiades, is picked up as an SE6w5 parallel in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-fjodor-dostojewski">Illness Portrait of Dostoevsky</a>.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se6", label:"SE6 \u2013 The Rabbit: Subtype Profile"},
@@ -24186,6 +24188,7 @@ function franzSchubertPortraitPage() {
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) – whom Schubert revered throughout his life"},
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SE6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
+        {route:"krankheitsportraets-fjodor-dostojewski", label:"Illness Portrait: Fjodor Dostoevsky (SE6w5)"},
       ])}
     </div>
   `);
@@ -24248,11 +24251,13 @@ function fjodorDostojewskiPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <p class="vb-intro">His lifelong epilepsy and its direct literary processing in characters such as Prince Myshkin are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-fjodor-dostojewski">Illness Portrait of Dostoevsky</a>.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
         {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SE6w5)"},
+        {route:"krankheitsportraets-fjodor-dostojewski", label:"Illness Portrait: Fjodor Dostoevsky (SE6w5)"},
       ])}
     </div>
   `);
@@ -40425,6 +40430,185 @@ function friedrichNietzscheKrankheitsportraetPage() {
         {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx5", label:"Subtype Profile SX5"},
+      ])}
+    </div>
+  `);
+}
+
+function fjodorDostojewskiKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-fjodor-dostojewski-portrait.jpg" alt="Fjodor Dostoevsky – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fjodor Dostoevsky</p>
+        <p class="krim-portrait-typ">SE6w5 · Self-Preservation Type 6 with Five-wing · 1821–1881</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Rabbit</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se6.jpg" alt="Animal correspondence: Rabbit" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE6")};left:${tierAvatarLeft("SE6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Fjodor Dostoevsky</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-fjodor-dostojewski">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and type structure in general.
+        This page deals exclusively with a chapter only touched on there: Dostoevsky suffered
+        from epilepsy for the whole of his adult life – an illness he did not conceal but wrote
+        directly into several of his most significant literary characters, above all Prince
+        Myshkin in <em>The Idiot</em>.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Dostoevsky</strong> is classified as the <strong>Self-Preservation Six with
+        Five-wing</strong> – the same subtype as
+        <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">Franz Schubert</a>
+        in this Compass. Naranjo called the Self-Preservation Six <em>Warmth</em>: she seeks
+        safety not through confrontation but through human closeness and belonging. The
+        Five-wing adds the analytical depth to think every experience – including her own
+        illness – through to the end, and to render it in literature.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Watchful for every warning sign:</strong>
+        Dostoevsky described the seconds before an epileptic seizure – the so-called aura –
+        with a precision hardly matched by any other sufferer in literary history. The
+        Five-wing analyzes even one's own body down to the last detail.</p>
+        <p class="vb-intro"><strong>b) Between ecstasy and loss of control:</strong>
+        In this aura, Dostoevsky reported an overwhelming sense of harmony and certainty –
+        followed by complete loss of control in the seizure itself. This exact tension between
+        absolute safety and its sudden collapse is the core of the Six's fear.</p>
+        <p class="vb-intro"><strong>c) Processed publicly, not concealed:</strong>
+        Dostoevsky did not hide his illness but transferred it directly onto his characters –
+        an unusual openness, for his time, about a then heavily stigmatized condition.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) A lifelong companion:</strong>
+        The first seizures appeared while he was still young – decades before Dostoevsky
+        became a celebrated writer. The illness was no late fate but a constant companion of
+        his entire body of work.</p>
+        <p class="vb-intro"><strong>b) Worsening under existential pressure:</strong>
+        Seizures increased during periods of extreme strain – during forced labor in Siberia,
+        during the years of gambling addiction, during financial hardship. The SE6 responds to
+        threat with heightened vigilance, which here translated directly into the body.</p>
+        <p class="vb-intro"><strong>c) Literary processing as a constant:</strong>
+        The illness appears in some form in nearly every major Dostoevsky novel – not as a
+        minor detail, but as a central element of characterization.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Prince Myshkin as literary self-portrait:</strong>
+        In <em>The Idiot</em> (1869), Dostoevsky gave his protagonist the same illness, the
+        same auras, the same oscillation between otherworldly clarity and social
+        vulnerability – one of the most direct instances of self-processing in literary
+        history.</p>
+        <p class="vb-intro"><strong>b) Precise medical observation:</strong>
+        Dostoevsky's descriptions of the aura are still regarded by neurologists as among the
+        most precise literary accounts of temporal lobe epilepsy – the Five-wing turns his own
+        suffering into almost clinical observation.</p>
+        <p class="vb-intro"><strong>c) The illness as a recurring motif, not a stigma:</strong>
+        Rather than concealing his epilepsy, Dostoevsky made it a recurring narrative motif –
+        in Smerdyakov in <em>The Brothers Karamazov</em> it even becomes a central plot
+        device.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A body of work that turns illness into insight:</strong>
+        Dostoevsky's novels still rank among the psychologically sharpest literature of the
+        19th century – precisely because his own suffering flowed directly into his
+        characters' psychology instead of remaining external.</p>
+        <p class="vb-intro"><strong>b) Recognition despite stigma:</strong>
+        At a time when epilepsy was often equated with moral weakness or even possession,
+        Dostoevsky's openness made the illness fit for literature, without romanticizing it.</p>
+        <p class="vb-intro"><strong>c) A medical as much as a literary legacy:</strong>
+        The term "Dostoevsky epilepsy" is still used in neurological literature today – a rare
+        fusion of literary and medical afterlife.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Creative power despite physical exhaustion:</strong>
+        After severe seizures, Dostoevsky was often weakened for days – yet he always returned
+        to work with the same intensity.</p>
+        <p class="vb-intro"><strong>b) Fusion of suffering and work:</strong>
+        For Dostoevsky, there was no separation between his own experience of illness and his
+        literature – both flowed directly into each other, without distance.</p>
+        <p class="vb-intro"><strong>c) The aura as brief, deceptive safety:</strong>
+        The short feeling of absolute certainty before the seizure may itself have given
+        Dostoevsky a measure for those moments of complete inner peace the SE6 spends her
+        whole life seeking – even if bought at a steep physical price.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) One illness, an entire life:</strong>
+        Dostoevsky already suffered from epilepsy in his youth – a condition that accompanied
+        him until his death in 1881 and whose cause was untreatable in his lifetime.</p>
+        <p class="vb-intro"><strong>b) The famous aura:</strong>
+        Dostoevsky repeatedly described, including in letters, the fraction-of-a-second
+        feeling before a seizure as the happiest moment of his life – a sensation of perfect
+        harmony for which, as he himself wrote, he would have given years of his life.</p>
+        <p class="vb-intro"><strong>c) Immediate literary processing instead of suppression:</strong>
+        Unlike illness histories concealed for years, Dostoevsky processed his epilepsy
+        directly and repeatedly in his work – most vividly in the figure of Prince Myshkin,
+        whose seizures are modeled word for word on Dostoevsky's own experiences.</p>
+        <p class="vb-intro"><strong>d) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">Franz Schubert</a>
+        (SE6w5) likewise processed his fatal illness not in secret but within a circle of
+        trust – for Schubert, the friends of the Schubertiades, to whom he sang <em>Winterreise</em>
+        and asked how it made them feel; for Dostoevsky, the readers of his novels, to whom he
+        communicated his illness through his characters. Both cases show the same SE6w5
+        pattern: fear and suffering are not endured in isolation but shared in community –
+        whether real or literary – and thereby made bearable.</p>
+        <p class="vb-intro"><strong>e) Why this illness, of all things?</strong>
+        The epileptic aura, as Dostoevsky described it, was the exact opposite of what one
+        would expect from an illness: a brief moment of perfect certainty and harmony –
+        immediately followed by the total loss of control of the seizure itself. For a
+        Self-Preservation Six, whose entire life revolves around the search for safety and the
+        fear of its sudden collapse, it is tempting to read exactly this sequence as a physical
+        intensification of her own life pattern: the one moment of absolute certainty that
+        dissolves, in the very next instant, unstoppably into loss of control – the Six's core
+        fear, lived out literally in her own nervous system, over and over, for an entire
+        lifetime. This reading is explored in more depth in this Compass's Psychosomatics
+        Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Framing without determinism:</strong>
+        This does not mean the Self-Preservation Six's pattern inevitably leads to epilepsy –
+        <strong>every person can develop any illness, regardless of subtype.</strong> What
+        Dostoevsky's case can show is a pattern that stands out again and again in practice
+        wherever existential fear is immediately processed into literature – one possible
+        explanation among many, not a verdict. The corresponding condition will be developed
+        step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Dostoevsky</strong> embodies the Self-Preservation Six with Five-wing right
+        down into his own illness history: a lifelong condition he did not hide but brought
+        into language in his most significant works, and an aura that promised, in a fraction
+        of a second, exactly the absolute safety his whole life was searching for – only to
+        lose it again in the same instant. The rabbit that once stood before the firing squad
+        carried his deepest fear, for the rest of his life, in his own nervous system too – and
+        transformed it, again and again, into literature that still makes other people's fear
+        more understandable today.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostoevsky (SE6w5) – life's work"},
+        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se6", label:"Subtype Profile SE6"},
       ])}
     </div>
   `);
@@ -61807,6 +61991,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-gustav-mahler": gustavMahlerKrankheitsportraetPage,
       "krankheitsportraets-ruth-bader-ginsburg": ruthBaderGinsburgKrankheitsportraetPage,
       "krankheitsportraets-friedrich-nietzsche": friedrichNietzscheKrankheitsportraetPage,
+      "krankheitsportraets-fjodor-dostojewski": fjodorDostojewskiKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

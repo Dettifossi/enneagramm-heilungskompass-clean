@@ -23969,6 +23969,7 @@ const registerEntries = [
   { term: "Gustav Mahler Krankheitsporträt", route: "krankheitsportraets-gustav-mahler", description: "Portrait: SO4w5 · Sozialer Typ 4 · Herzklappenentzündung, verarbeitet im Spätwerk" },
   { term: "Ruth Bader Ginsburg Krankheitsporträt", route: "krankheitsportraets-ruth-bader-ginsburg", description: "Portrait: SX8w9 · Sexueller Typ 8 · vier Krebserkrankungen an drei sehr unterschiedlichen Organen über zwei Jahrzehnte" },
   { term: "Friedrich Nietzsche Krankheitsporträt", route: "krankheitsportraets-friedrich-nietzsche", description: "Portrait: SX5w4 · Sexueller Typ 5 · Migräne, Sehschwäche, geistiger Zusammenbruch" },
+  { term: "Fjodor Dostojewski Krankheitsporträt", route: "krankheitsportraets-fjodor-dostojewski", description: "Portrait: SE6w5 · Selbsterhaltender Typ 6 · lebenslange Epilepsie" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31394,6 +31395,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-gustav-mahler", name:"Gustav Mahler", subtyp:"SO4w5", heading:"Gustav Mahler – Sozialer Typ 4", krankheit:"Subakute bakterielle Endokarditis (Herzklappenentzündung)", teaser:"SO4w5 – österreichischer Komponist und Dirigent, 1860–1911. 1907 mit einer schweren Herzerkrankung diagnostiziert, im selben Jahr der Tod seiner Tochter und der Verlust seiner Position an der Wiener Hofoper. Verarbeitete die Diagnose unmittelbar in seinem Spätwerk, darunter Das Lied von der Erde und die Neunte Sinfonie." , land:"Österreich", gender:"m", jahre:"1860–1911"},
   { route:"krankheitsportraets-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", subtyp:"SX8w9", heading:"Ruth Bader Ginsburg – Sexueller Typ 8", krankheit:"Vier Krebserkrankungen an drei sehr unterschiedlichen Organen über zwei Jahrzehnte", teaser:"SX8w9 – US-Bundesrichterin am Supreme Court, 1933–2020. Überstand von 1999 bis 2019/2020 vier Krebsdiagnosen an insgesamt drei verschiedenen, sehr unterschiedlichen Organen (Darm, Bauchspeicheldrüse zweimal, Lunge), ohne ihr Amt freiwillig zu räumen. Starb 2020 im Amt, wenige Wochen vor der Präsidentschaftswahl." , land:"USA", gender:"f", jahre:"1933–2020"},
   { route:"krankheitsportraets-friedrich-nietzsche", name:"Friedrich Nietzsche", subtyp:"SX5w4", heading:"Friedrich Nietzsche – Sexueller Typ 5", krankheit:"Chronische Migräne, Sehschwäche und geistiger Zusammenbruch", teaser:"SX5w4 – deutscher Philosoph, 1844–1900. Über Jahrzehnte chronische Migräne, Magenbeschwerden und fortschreitende Sehschwäche. Brach 1889 in Turin geistig zusammen und verbrachte die letzten elf Lebensjahre in geistiger Umnachtung – Ursache bis heute nicht abschließend geklärt." , land:"Deutschland", gender:"m", jahre:"1844–1900"},
+  { route:"krankheitsportraets-fjodor-dostojewski", name:"Fjodor Dostojewski", subtyp:"SE6w5", heading:"Fjodor Dostojewski – Selbsterhaltender Typ 6", krankheit:"Lebenslange Epilepsie", teaser:"SE6w5 – russischer Schriftsteller, 1821–1881. Litt sein gesamtes erwachsenes Leben an Epilepsie, deren berühmte Aura er als Moment vollkommener Harmonie beschrieb. Verarbeitete die Krankheit direkt in seinen Romanfiguren, allen voran Fürst Myschkin in Der Idiot." , land:"Russland", gender:"m", jahre:"1821–1881"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -56120,11 +56122,13 @@ function fjodorDostojewskiPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      <p class="vb-intro">Die lebenslange Epilepsie und ihre direkte Verarbeitung in Figuren wie F\u00fcrst Myschkin werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-fjodor-dostojewski">Krankheitsportr\u00e4t zu Dostojewski</a> gedeutet.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se6", label:"SE6 \u2013 Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-sundar-pichai", label:"Portr\xe4t: Sundar Pichai (SE6w5)"},
         {route:"beruehmte-herbert-kickl", label:"Portr\xe4t: Herbert Kickl (SE6w5)"},
+        {route:"krankheitsportraets-fjodor-dostojewski", label:"Krankheitsportr\u00e4t: Fjodor Dostojewski (SE6w5)"},
       ])}
     </div>
   `);
@@ -56263,6 +56267,7 @@ function franzSchubertPortraitPage() {
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-fjodor-dostojewski", label:"Porträt: Fjodor Dostojewski (SE6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
+        {route:"krankheitsportraets-fjodor-dostojewski", label:"Krankheitsporträt: Fjodor Dostojewski (SE6w5) – Parallele zu Schuberts geteiltem Leiden"},
       ])}
     </div>
   `);
@@ -67250,6 +67255,195 @@ function friedrichNietzscheKrankheitsportraetPage() {
         {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx5", label:"Subtyp-Profil SX5"},
+      ])}
+    </div>
+  `);
+}
+
+function fjodorDostojewskiKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-fjodor-dostojewski-portrait.jpg" alt="Fjodor Dostojewski – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fjodor Dostojewski</p>
+        <p class="krim-portrait-typ">SE6w5 · Selbsterhaltender Typ 6 mit Fünferflügel · 1821–1881</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Kaninchen</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se6.jpg" alt="Tierentsprechung: Kaninchen" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE6")};left:${tierAvatarLeft("SE6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Fjodor Dostojewski</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-fjodor-dostojewski">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift wird:
+        Dostojewski litt sein gesamtes erwachsenes Leben lang an Epilepsie – einer Krankheit,
+        die er nicht verschwieg, sondern direkt in mehrere seiner bedeutendsten literarischen
+        Figuren einschrieb, allen voran Fürst Myschkin in <em>Der Idiot</em>.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Dostojewski</strong> ist der <strong>selbsterhaltenden Sechs mit
+        Fünferflügel</strong> zugeordnet – demselben Subtyp wie
+        <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">Franz Schubert</a>
+        in diesem Kompass. Naranjo nannte die selbsterhaltende Sechs die <em>Wärme</em>: Sie
+        sucht Sicherheit nicht durch Konfrontation, sondern durch menschliche Nähe und
+        Zugehörigkeit. Der Fünferflügel bringt die analytische Tiefe hinzu, jede Erfahrung –
+        auch die eigene Krankheit – bis zum Ende zu durchdenken und literarisch zu
+        durchdringen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Wachsam gegenüber jedem Vorzeichen:</strong>
+        Dostojewski beschrieb die Sekunden vor einem epileptischen Anfall – die sogenannte
+        Aura – mit einer Genauigkeit, die kaum ein anderer Betroffener der Literaturgeschichte
+        erreicht hat. Der Fünferflügel analysiert selbst den eigenen Körper bis ins letzte
+        Detail.</p>
+        <p class="vb-intro"><strong>b) Zwischen Ekstase und Kontrollverlust:</strong>
+        In dieser Aura empfand Dostojewski nach eigener Schilderung ein überwältigendes Gefühl
+        von Harmonie und Gewissheit – gefolgt von völligem Kontrollverlust im Anfall selbst.
+        Genau diese Spannung zwischen absoluter Sicherheit und ihrem plötzlichen Zusammenbruch
+        ist der Kern der sechser-typischen Angst.</p>
+        <p class="vb-intro"><strong>c) Öffentlich verarbeitet, nicht verschwiegen:</strong>
+        Dostojewski verbarg seine Krankheit nicht, sondern übertrug sie direkt auf seine
+        Romanfiguren – eine für seine Zeit ungewöhnliche Offenheit gegenüber einer damals stark
+        stigmatisierten Erkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine lebenslange Begleiterin:</strong>
+        Schon in jungen Jahren traten die ersten Anfälle auf – Jahrzehnte, bevor Dostojewski
+        zum gefeierten Schriftsteller wurde. Die Krankheit war kein spätes Schicksal, sondern
+        ein ständiger Begleiter seines gesamten Schaffens.</p>
+        <p class="vb-intro"><strong>b) Verschärfung unter existenziellem Druck:</strong>
+        Die Anfälle häuften sich in Phasen extremer Belastung – während der Zwangsarbeit in
+        Sibirien, während der Spielsucht-Jahre, während finanzieller Not. Die SE6 reagiert auf
+        Bedrohung mit erhöhter Wachsamkeit, die sich hier unmittelbar körperlich niederschlug.</p>
+        <p class="vb-intro"><strong>c) Literarische Verarbeitung als Konstante:</strong>
+        In nahezu jedem großen Roman Dostojewskis taucht die Krankheit in irgendeiner Form auf
+        – nicht als bloßes Detail, sondern als zentrales Element der Figurenzeichnung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Fürst Myschkin als literarisches Selbstporträt:</strong>
+        In <em>Der Idiot</em> (1869) gab Dostojewski seinem Protagonisten dieselbe Krankheit,
+        dieselben Auren, dasselbe Schwanken zwischen überirdischer Klarheit und
+        gesellschaftlicher Verletzlichkeit – eine der direktesten Selbstverarbeitungen der
+        Literaturgeschichte.</p>
+        <p class="vb-intro"><strong>b) Präzise medizinische Beobachtung:</strong>
+        Dostojewskis Beschreibungen der Aura gelten bis heute unter Neurologen als eines der
+        genauesten literarischen Zeugnisse einer Temporallappenepilepsie – der Fünferflügel
+        verwandelt eigenes Leiden in beinahe klinische Beobachtung.</p>
+        <p class="vb-intro"><strong>c) Die Krankheit als wiederkehrendes Motiv, nicht als Stigma:</strong>
+        Statt die Epilepsie zu verbergen, machte Dostojewski sie zu einem wiederkehrenden
+        Erzählmotiv – bei Smerdjakow in <em>Die Brüder Karamasow</em> sogar zum zentralen
+        Handlungselement.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Werk, das Krankheit zur Erkenntnisquelle macht:</strong>
+        Dostojewskis Romane gelten bis heute als psychologisch schärfste Literatur des 19.
+        Jahrhunderts – gerade weil sein eigenes Leiden unmittelbar in die Figurenpsychologie
+        einfloss, statt äußerlich zu bleiben.</p>
+        <p class="vb-intro"><strong>b) Anerkennung trotz Stigma:</strong>
+        In einer Zeit, in der Epilepsie oft mit moralischer Schwäche oder gar Besessenheit
+        gleichgesetzt wurde, machte Dostojewskis offener Umgang die Krankheit literaturfähig,
+        ohne sie zu verklären.</p>
+        <p class="vb-intro"><strong>c) Ein medizinisches wie literarisches Vermächtnis:</strong>
+        Der Begriff der &bdquo;dostojewskischen Epilepsie&ldquo; wird bis heute in der
+        neurologischen Fachliteratur verwendet – eine seltene Verschmelzung von literarischem
+        und medizinischem Nachruhm.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Schaffenskraft trotz körperlicher Erschöpfung:</strong>
+        Nach schweren Anfällen war Dostojewski oft tagelang geschwächt – und kehrte dennoch
+        immer wieder mit derselben Intensität zur Arbeit zurück.</p>
+        <p class="vb-intro"><strong>b) Verschmelzung von Leiden und Werk:</strong>
+        Für Dostojewski gab es keine Trennung zwischen der eigenen Krankheitserfahrung und
+        seiner Literatur – beides floss unmittelbar ineinander, ohne Distanz.</p>
+        <p class="vb-intro"><strong>c) Die Aura als kurzzeitige, trügerische Sicherheit:</strong>
+        Das kurze Gefühl absoluter Gewissheit vor dem Anfall lieferte Dostojewski
+        möglicherweise selbst einen Maßstab für jene Momente völliger innerer Ruhe, nach denen
+        die SE6 ihr ganzes Leben lang sucht – wenn auch um einen hohen körperlichen Preis
+        erkauft.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit, ein ganzes Leben lang:</strong>
+        Schon in jungen Jahren litt Dostojewski an Epilepsie – eine Erkrankung, die ihn bis zu
+        seinem Tod 1881 begleitete und deren Ursache zu Lebzeiten nicht behandelbar war.</p>
+        <p class="vb-intro"><strong>b) Die berühmte Aura:</strong>
+        Dostojewski beschrieb wiederholt, auch in Briefen, das Sekundenbruchteile andauernde
+        Gefühl vor einem Anfall als den glücklichsten Moment seines Lebens – eine Empfindung
+        vollkommener Harmonie, für die er, wie er selbst schrieb, Jahre seines Lebens gegeben
+        hätte.</p>
+        <p class="vb-intro"><strong>c) Sofortige literarische Verarbeitung statt Verdrängung:</strong>
+        Anders als bei Krankheitsgeschichten, die über Jahre verborgen blieben, verarbeitete
+        Dostojewski seine Epilepsie unmittelbar und wiederholt in seinem Werk – am
+        eindrücklichsten in der Figur des Fürst Myschkin, dessen Anfälle Wort für Wort
+        Dostojewskis eigenen Erfahrungen nachempfunden sind.</p>
+        <p class="vb-intro"><strong>d) Eine Parallele im gleichen Subtyp:</strong>
+        Auch <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">Franz
+        Schubert</a> (SE6w5) verarbeitete sein tödliches Leiden nicht im Verborgenen, sondern
+        im vertrauten Kreis – bei Schubert die Freunde der Schubertiaden, denen er die
+        <em>Winterreise</em> vorsang und nach ihrer Reaktion fragte; bei Dostojewski die Leser
+        seiner Romane, denen er seine Krankheit über seine Figuren mitteilte. Bei beiden zeigt
+        sich dasselbe SE6w5-Muster: Angst und Leiden werden nicht isoliert ertragen, sondern in
+        Gemeinschaft – ob real oder literarisch – geteilt und dadurch erträglich gemacht.</p>
+        <p class="vb-intro"><strong>e) Warum ausgerechnet diese Krankheit?</strong>
+        Die epileptische Aura, wie Dostojewski sie beschrieb, war das genaue Gegenteil dessen,
+        was man von einer Krankheit erwarten würde: ein kurzer Moment vollkommener Gewissheit
+        und Harmonie – unmittelbar gefolgt vom totalen Kontrollverlust des eigentlichen
+        Anfalls. Für eine selbsterhaltende Sechs, deren gesamtes Leben um die Suche nach
+        Sicherheit und die Angst vor deren plötzlichem Zusammenbruch kreist, liegt es nahe,
+        genau in dieser Abfolge eine körperliche Zuspitzung des eigenen Lebensmusters zu lesen:
+        der eine Moment absoluter Gewissheit, der sich im nächsten Augenblick unaufhaltsam in
+        Kontrollverlust auflöst – die Grundangst der Sechs, buchstäblich im eigenen Nervensystem
+        durchlebt, wieder und wieder, ein ganzes Leben lang. Diese Deutung wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Sechs zwangsläufig zu Epilepsie
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Dostojewskis Fall zeigen lässt, ist ein Muster, das bei
+        unmittelbarer literarischer Verarbeitung existenzieller Angst in der Praxis immer
+        wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Dostojewski</strong> verkörpert die selbsterhaltende Sechs mit Fünferflügel bis
+        in die eigene Krankheitsgeschichte hinein: eine lebenslange Erkrankung, die er nicht
+        verbarg, sondern in seinen bedeutendsten Werken zur Sprache brachte, und eine Aura, die
+        in Sekundenbruchteilen genau jene absolute Sicherheit versprach, nach der sein ganzes
+        Leben suchte – nur um sie im selben Moment wieder zu verlieren. Das Kaninchen, das
+        einst vor dem Erschießungskommando stand, trug seine tiefste Angst zeitlebens auch im
+        eigenen Nervensystem – und verwandelte sie, wieder und wieder, in Literatur, die bis
+        heute die Angst anderer Menschen verständlicher macht.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Porträt: Fjodor Dostojewski (SE6w5) – Lebenswerk"},
+        {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se6", label:"Subtyp-Profil SE6"},
       ])}
     </div>
   `);
@@ -96252,6 +96446,7 @@ function render() {
       "krankheitsportraets-gustav-mahler": gustavMahlerKrankheitsportraetPage,
       "krankheitsportraets-ruth-bader-ginsburg": ruthBaderGinsburgKrankheitsportraetPage,
       "krankheitsportraets-friedrich-nietzsche": friedrichNietzscheKrankheitsportraetPage,
+      "krankheitsportraets-fjodor-dostojewski": fjodorDostojewskiKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
