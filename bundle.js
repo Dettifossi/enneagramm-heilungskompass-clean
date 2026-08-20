@@ -23968,6 +23968,7 @@ const registerEntries = [
   { term: "Winston Churchill Krankheitsporträt", route: "krankheitsportraets-winston-churchill", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Depression, verheimlichter Schlaganfall im Amt" },
   { term: "Gustav Mahler Krankheitsporträt", route: "krankheitsportraets-gustav-mahler", description: "Portrait: SO4w5 · Sozialer Typ 4 · Herzklappenentzündung, verarbeitet im Spätwerk" },
   { term: "Ruth Bader Ginsburg Krankheitsporträt", route: "krankheitsportraets-ruth-bader-ginsburg", description: "Portrait: SX8w9 · Sexueller Typ 8 · vier Krebserkrankungen an drei sehr unterschiedlichen Organen über zwei Jahrzehnte" },
+  { term: "Friedrich Nietzsche Krankheitsporträt", route: "krankheitsportraets-friedrich-nietzsche", description: "Portrait: SX5w4 · Sexueller Typ 5 · Migräne, Sehschwäche, geistiger Zusammenbruch" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31392,6 +31393,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-winston-churchill", name:"Winston Churchill", subtyp:"SE8w9", heading:"Winston Churchill – Selbsterhaltender Typ 8", krankheit:"Lebenslange Depression („the black dog“) und verheimlichter Schlaganfall im Amt", teaser:"SE8w9 – Britischer Staatsmann, Premierminister 1940–1945 & 1951–1955, 1874–1965. Erlitt 1953 im Amt einen schweren Schlaganfall, den er wochenlang vor Öffentlichkeit und weiten Teilen des Kabinetts verbarg, und litt lebenslang an wiederkehrender Depression." , land:"Vereinigtes Königreich", gender:"m", jahre:"1874–1965"},
   { route:"krankheitsportraets-gustav-mahler", name:"Gustav Mahler", subtyp:"SO4w5", heading:"Gustav Mahler – Sozialer Typ 4", krankheit:"Subakute bakterielle Endokarditis (Herzklappenentzündung)", teaser:"SO4w5 – österreichischer Komponist und Dirigent, 1860–1911. 1907 mit einer schweren Herzerkrankung diagnostiziert, im selben Jahr der Tod seiner Tochter und der Verlust seiner Position an der Wiener Hofoper. Verarbeitete die Diagnose unmittelbar in seinem Spätwerk, darunter Das Lied von der Erde und die Neunte Sinfonie." , land:"Österreich", gender:"m", jahre:"1860–1911"},
   { route:"krankheitsportraets-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", subtyp:"SX8w9", heading:"Ruth Bader Ginsburg – Sexueller Typ 8", krankheit:"Vier Krebserkrankungen an drei sehr unterschiedlichen Organen über zwei Jahrzehnte", teaser:"SX8w9 – US-Bundesrichterin am Supreme Court, 1933–2020. Überstand von 1999 bis 2019/2020 vier Krebsdiagnosen an insgesamt drei verschiedenen, sehr unterschiedlichen Organen (Darm, Bauchspeicheldrüse zweimal, Lunge), ohne ihr Amt freiwillig zu räumen. Starb 2020 im Amt, wenige Wochen vor der Präsidentschaftswahl." , land:"USA", gender:"f", jahre:"1933–2020"},
+  { route:"krankheitsportraets-friedrich-nietzsche", name:"Friedrich Nietzsche", subtyp:"SX5w4", heading:"Friedrich Nietzsche – Sexueller Typ 5", krankheit:"Chronische Migräne, Sehschwäche und geistiger Zusammenbruch", teaser:"SX5w4 – deutscher Philosoph, 1844–1900. Über Jahrzehnte chronische Migräne, Magenbeschwerden und fortschreitende Sehschwäche. Brach 1889 in Turin geistig zusammen und verbrachte die letzten elf Lebensjahre in geistiger Umnachtung – Ursache bis heute nicht abschließend geklärt." , land:"Deutschland", gender:"m", jahre:"1844–1900"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -56652,11 +56654,13 @@ function fredericChopinPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      <p class="vb-intro">Sein früher körperlicher Zusammenbruch nach der Trennung von George Sand 1847 wird im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-friedrich-nietzsche">Krankheitsporträt zu Nietzsche</a> als SX5w4-Parallele aufgegriffen.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/sx5", label:"SX5 \u2013 Der Igel: Subtyp-Profil"},
         {route:"beruehmte-taylor-swift", label:"Portr\xe4t: Taylor Swift (SX5w4)"},
         {route:"beruehmte-tilda-swinton", label:"Portr\xe4t: Tilda Swinton (SX5w4)"},
+        {route:"krankheitsportraets-friedrich-nietzsche", label:"Krankheitsporträt: Friedrich Nietzsche (SX5w4)"},
       ])}
     </div>
   `);
@@ -56719,12 +56723,14 @@ function friedrichNietzschePortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      <p class="vb-intro">Die jahrzehntelange chronische Migräne, Sehschwäche und der geistige Zusammenbruch 1889 werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-friedrich-nietzsche">Krankheitsporträt zu Nietzsche</a> gedeutet.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx5", label:"SX5 \u2013 Der Igel: Subtyp-Profil"},
         {route:"beruehmte-frederic-chopin", label:"Portr\xe4t: Fr\xe9d\xe9ric Chopin (SX5w4)"},
         {route:"beruehmte-greta-garbo", label:"Portr\xe4t: Greta Garbo (SX5w4)"},
         {route:"beruehmte-immanuel-kant", label:"Portr\xe4t: Immanuel Kant (SO6w5) – dessen Pflichtethik er scharf kritisierte"},
+        {route:"krankheitsportraets-friedrich-nietzsche", label:"Krankheitsporträt: Friedrich Nietzsche (SX5w4)"},
       ])}
     </div>
   `);
@@ -67058,6 +67064,192 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
         {route:"beruehmte-ruth-bader-ginsburg", label:"Porträt: Ruth Bader Ginsburg (SX8w9) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx8", label:"Subtyp-Profil SX8"},
+      ])}
+    </div>
+  `);
+}
+
+function friedrichNietzscheKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-friedrich-nietzsche-portrait.jpg" alt="Friedrich Nietzsche" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Friedrich Nietzsche</p>
+        <p class="krim-portrait-typ">SX5w4 · Sexueller Typ 5 mit Viererflügel · 1844–1900</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Igel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Tierentsprechung: Igel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Friedrich Nietzsche</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-friedrich-nietzsche">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur nebenbei erwähnt
+        wird: Über Jahrzehnte begleiteten Nietzsche chronische Migräne, quälende
+        Magenbeschwerden und fortschreitende Sehschwäche, bis fast zur Erblindung. Am 3. Januar
+        1889 brach er auf einer Turiner Straße zusammen und verbrachte die letzten elf Jahre
+        seines Lebens in geistiger Umnachtung – eine Ursache, die bis heute nicht abschließend
+        geklärt ist.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Nietzsche</strong> ist der <strong>sexuellen Fünf mit Viererflügel</strong>
+        zugeordnet – demselben Subtyp wie <a href="javascript:void(0)" data-route="beruehmte-frederic-chopin">Frédéric Chopin</a>
+        in diesem Kompass. Naranjo nannte die sexuelle Fünf den Kontratyp der Fünf: Ihr
+        Schlüsselbegriff ist <em>Vertrauen</em> – sie sucht nicht Distanz zu allen, sondern
+        die eine Verbindung, die alles trägt. Der Viererflügel macht aus dem Schmerz eines
+        Bruchs künstlerischen und sprachlichen Ausdruck von unerhörter Intensität.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Nach innen gerichtet, radikal ehrlich:</strong>
+        Nietzsches Blick suchte die eigene Wahrheit ohne Rücksicht auf Konvention – der
+        typische Fünferblick, der sich selbst durchleuchtet, bevor er die Welt beurteilt.</p>
+        <p class="vb-intro"><strong>b) Wachsam gegenüber dem eigenen Körper, ohne ihn schonen zu können:</strong>
+        Nietzsche führte akribisch Buch über seine Migräneanfälle, Sehstörungen und
+        Verdauungsbeschwerden – dieselbe analytische Genauigkeit, mit der er Philosophie
+        betrieb, richtete sich auch auf sein eigenes, zunehmend versagendes Nervensystem.</p>
+        <p class="vb-intro"><strong>c) Öffentlich nur auf dem Papier, nie im Gespräch:</strong>
+        Seine radikalste Selbstoffenbarung, <em>Ecce Homo</em>, entstand kurz vor dem
+        Zusammenbruch – die sexuelle Fünf öffnet sich vollständig, aber ausschließlich im
+        eigenen Medium, nie im direkten, ungeschützten Kontakt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Rückzug aus dem Amt:</strong>
+        1879 gab Nietzsche aus gesundheitlichen Gründen seine Professur in Basel auf – mit
+        nur 34 Jahren. Das Aufgeben eines gesicherten Postens war für die sexuelle Fünf
+        weniger Verlust als Befreiung: Rückzug ist keine Schwäche, sondern die Voraussetzung
+        für das eine, entscheidende Werk.</p>
+        <p class="vb-intro"><strong>b) Zehn Jahre auf der Suche nach dem richtigen Klima:</strong>
+        Sils-Maria im Sommer, Nizza und Genua im Winter – Nietzsche wanderte von Ort zu Ort,
+        stets auf der Suche nach Bedingungen, die seine Beschwerden linderten, oft mit nur
+        einem Koffer.</p>
+        <p class="vb-intro"><strong>c) Höchste Produktivität trotz körperlichen Verfalls:</strong>
+        Ausgerechnet in diesen Jahren radikaler Zurückgezogenheit und fortschreitender
+        Krankheit entstanden seine Hauptwerke – <em>Also sprach Zarathustra</em>, <em>Jenseits
+        von Gut und Böse</em>, <em>Zur Genealogie der Moral</em>.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Krise als Schreibauslöser:</strong>
+        Innerhalb weniger Wochen nach dem endgültigen Bruch mit Lou Salomé 1883 schrieb
+        Nietzsche den ersten Teil von <em>Also sprach Zarathustra</em> – Schmerz, der sich
+        sofort in Sprache verwandelte, statt verdrängt zu werden.</p>
+        <p class="vb-intro"><strong>b) Fast völlige Isolation als Lebensform:</strong>
+        Ohne akademische Anstellung, ohne feste Bindung, meist allein – die sexuelle Fünf
+        erträgt diese Isolation nicht nur, sie braucht sie, um den einen Kanal offen zu
+        halten, durch den alles strömt.</p>
+        <p class="vb-intro"><strong>c) Der Zusammenbruch als radikalstes Symptom:</strong>
+        Am 3. Januar 1889 brach Nietzsche in Turin zusammen, nachdem er – so die Überlieferung
+        – einen misshandelten Kutschgaul umarmt hatte. Von diesem Tag an schrieb er nie wieder
+        ein philosophisches Werk.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Werk, das erst nach dem Zusammenbruch wirkte:</strong>
+        Nietzsche starb 1900, ohne je zu erleben, wie sein Denken die Philosophie des
+        zwanzigsten Jahrhunderts prägen würde – eine Wirkung, die vollständig posthum
+        einsetzte.</p>
+        <p class="vb-intro"><strong>b) Verformt durch fremde Hände:</strong>
+        Seine Schwester Elisabeth, die ihn in den letzten Jahren pflegte, verfälschte später
+        seine Schriften für nationalistische Zwecke – eine bittere Ironie für einen Denker,
+        dessen Werk gerade der Vereinnahmung durch fremde Ideologien widersprach.</p>
+        <p class="vb-intro"><strong>c) Ein Bild, das bis heute nachwirkt:</strong>
+        Der zusammenbrechende Philosoph, der einen misshandelten Gaul umarmt, ist zu einem der
+        bekanntesten Bilder der Philosophiegeschichte geworden – ein Symptom, das zur Legende
+        wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Geiz mit Energie, nicht mit Geld:</strong>
+        Das Schicksalsmuster der Fünf gilt bei der SX5 nicht dem materiellen Besitz, sondern
+        der eigenen Kraft – und Nietzsche hatte kaum eine Reserve übrig, die er nicht restlos
+        in sein Werk investierte.</p>
+        <p class="vb-intro"><strong>b) Verschmelzung von Denken und Leiden:</strong>
+        Für Nietzsche gab es keine Trennung zwischen körperlichem Schmerz und philosophischer
+        Erkenntnis – manche seiner schärfsten Einsichten entstanden unmittelbar aus Phasen
+        akuter Migräne.</p>
+        <p class="vb-intro"><strong>c) Rastlose Produktivität bis zur völligen Erschöpfung:</strong>
+        In den Jahren vor dem Zusammenbruch schrieb Nietzsche in einem Tempo, das seinen
+        Körper offensichtlich überforderte – als spüre er, dass die Zeit, die ihm blieb,
+        begrenzt war.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Jahrzehnte ungeklärter Beschwerden:</strong>
+        Chronische Migräne, quälende Magenbeschwerden, fortschreitende Sehschwäche – die
+        genaue Ursache blieb zu Lebzeiten ungeklärt und wird bis heute diskutiert: von einer
+        seltenen Erbkrankheit über einen langsam wachsenden Hirntumor bis zu einer damals
+        diagnostizierten, aber nie zweifelsfrei belegten Syphilis-Infektion.</p>
+        <p class="vb-intro"><strong>b) Elf Jahre Umnachtung nach dem Zusammenbruch:</strong>
+        Nach dem 3. Januar 1889 sprach und schrieb Nietzsche nie wieder zusammenhängend. Er
+        wurde zunächst von seiner Mutter, nach deren Tod 1897 von seiner Schwester Elisabeth
+        gepflegt, bis er 1900 in Weimar starb.</p>
+        <p class="vb-intro"><strong>c) Der letzte offene Kanal:</strong>
+        Nietzsche hatte sich zeitlebens fast ausschließlich auf dem Papier vollständig
+        gezeigt, nie im direkten Gespräch. Als der geistige Zusammenbruch auch diesen letzten
+        verbliebenen Kanal verschloss, blieb kein Weg mehr, sich der Welt mitzuteilen.</p>
+        <p class="vb-intro"><strong>d) Eine Parallele im gleichen Subtyp:</strong>
+        Auch <a href="javascript:void(0)" data-route="beruehmte-frederic-chopin">Frédéric Chopin</a>
+        (SX5w4) brach körperlich zusammen, kurz nachdem seine eine entscheidende Verbindung
+        zerbrochen war – bei Chopin die Trennung von George Sand 1847, bei Nietzsche der Bruch
+        mit Lou Salomé 1883. Bei beiden zeigt sich dasselbe SX5w4-Muster: Die eine Verbindung,
+        die alles trägt, ist zugleich das, wovon die körperliche und schöpferische Kraft
+        abhängt – zerbricht sie, folgt der körperliche Einbruch auf dem Fuß.</p>
+        <p class="vb-intro"><strong>e) Warum ausgerechnet der Kopf?</strong>
+        Migräne, Sehschwäche und schließlich der geistige Zusammenbruch trafen bei Nietzsche
+        exakt jenes Organ, das für die sexuelle Fünf das Zentrum ihrer gesamten Existenz
+        bildet: den Ort, an dem Gedanken entstehen, verdichtet und schließlich in Sprache
+        verwandelt werden. Für einen Menschen, der sich der Welt fast ausschließlich über
+        seinen Kopf – über das geschriebene Wort – mitteilte, war ein Angriff auf genau dieses
+        Organ die radikalstmögliche Bedrohung: nicht nur des Körpers, sondern der einzigen
+        Verbindung, die ihm zur Welt noch blieb. Dass ausgerechnet der Verstand selbst
+        versagte, bei einem Philosophen, dessen ganzes Werk der Schärfe des Denkens gewidmet
+        war, liest sich als bitterste denkbare Zuspitzung seines Lebensmusters. Diese Deutung
+        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Fünf zwangsläufig zu neurologischen
+        Erkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
+        vom Subtyp.</strong> Was sich an Nietzsches Fall zeigen lässt, ist ein Muster, das bei
+        totaler Konzentration der eigenen Kraft auf ein einziges geistiges Werk in der Praxis
+        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Nietzsche</strong> verkörpert die sexuelle Fünf mit Viererflügel bis in die
+        eigene Krankheitsgeschichte hinein: radikale Konzentration der eigenen Kraft auf ein
+        einziges Werk, eine Isolation, die Voraussetzung statt Mangel war, und ein
+        Zusammenbruch, der ausgerechnet das Organ traf, über das er sich der Welt je
+        mitgeteilt hatte. Der Igel aus Röcken zeigte sich nie vollständig einem Menschen –
+        aber Seite für Seite seinem Werk, bis der Kopf selbst, der all das ermöglicht hatte,
+        verstummte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-friedrich-nietzsche", label:"Porträt: Friedrich Nietzsche (SX5w4) – Lebenswerk"},
+        {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx5", label:"Subtyp-Profil SX5"},
       ])}
     </div>
   `);
@@ -96059,6 +96251,7 @@ function render() {
       "krankheitsportraets-winston-churchill": winstonChurchillKrankheitsportraetPage,
       "krankheitsportraets-gustav-mahler": gustavMahlerKrankheitsportraetPage,
       "krankheitsportraets-ruth-bader-ginsburg": ruthBaderGinsburgKrankheitsportraetPage,
+      "krankheitsportraets-friedrich-nietzsche": friedrichNietzscheKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

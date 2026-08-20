@@ -195,6 +195,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-winston-churchill", name:"Winston Churchill", subtyp:"SE8w9", heading:"Winston Churchill – Self-Preservation Type 8", krankheit:"Lifelong Depression (\"the black dog\") and a Concealed Stroke While in Office", teaser:"SE8w9 – British statesman, Prime Minister 1940–1945 & 1951–1955, 1874–1965. Suffered a severe stroke while in office in 1953, which he kept concealed from the public and much of his own cabinet for weeks, and lived with recurring depression his entire life." , land:"United Kingdom", gender:"m", jahre:"1874–1965"},
   { route:"krankheitsportraets-gustav-mahler", name:"Gustav Mahler", subtyp:"SO4w5", heading:"Gustav Mahler – Social Type 4", krankheit:"Subacute Bacterial Endocarditis (Heart Valve Infection)", teaser:"SO4w5 – Austrian composer and conductor, 1860–1911. Diagnosed with a severe heart condition in 1907, the same year his daughter died and he lost his position at the Vienna Court Opera. Processed the diagnosis immediately in his late works, including Das Lied von der Erde and the Ninth Symphony." , land:"Austria", gender:"m", jahre:"1860–1911"},
   { route:"krankheitsportraets-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", subtyp:"SX8w9", heading:"Ruth Bader Ginsburg – Sexual Type 8", krankheit:"Four Cancers in Three Very Different Organs Over Two Decades", teaser:"SX8w9 – US Supreme Court Justice, 1933–2020. Survived four cancer diagnoses in three very different organs from 1999 to 2019/2020 (colon, pancreatic twice, lung) without ever voluntarily giving up her seat. Died in office in 2020, weeks before the presidential election." , land:"USA", gender:"f", jahre:"1933–2020"},
+  { route:"krankheitsportraets-friedrich-nietzsche", name:"Friedrich Nietzsche", subtyp:"SX5w4", heading:"Friedrich Nietzsche – Sexual Type 5", krankheit:"Chronic Migraines, Failing Eyesight, and Mental Collapse", teaser:"SX5w4 – German philosopher, 1844–1900. Decades of chronic migraines, stomach complaints, and progressively failing eyesight. Suffered a mental collapse in Turin in 1889 and spent the last eleven years of his life in mental darkness – cause still not conclusively established." , land:"Germany", gender:"m", jahre:"1844–1900"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -17454,12 +17455,14 @@ function friedrichNietzschePortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <p class="vb-intro">The decades of chronic migraines, failing eyesight, and the mental collapse of 1889 are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-friedrich-nietzsche">Illness Portrait of Nietzsche</a>.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
         {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
         {route:"beruehmte-greta-garbo", label:"Portrait: Greta Garbo (SX5w4)"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5) – whose duty-based ethics he sharply criticized"},
+        {route:"krankheitsportraets-friedrich-nietzsche", label:"Illness Portrait: Friedrich Nietzsche (SX5w4)"},
       ])}
     </div>
   `);
@@ -17527,11 +17530,13 @@ function fredericChopinPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <p class="vb-intro">His early physical collapse after the separation from George Sand in 1847 is picked up as an SX5w4 parallel in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-friedrich-nietzsche">Illness Portrait of Nietzsche</a>.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
         {route:"beruehmte-taylor-swift", label:"Portrait: Taylor Swift (SX5w4)"},
         {route:"beruehmte-tilda-swinton", label:"Portrait: Tilda Swinton (SX5w4)"},
+        {route:"krankheitsportraets-friedrich-nietzsche", label:"Illness Portrait: Friedrich Nietzsche (SX5w4)"},
       ])}
     </div>
   `);
@@ -40246,6 +40251,185 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
   `);
 }
 
+function friedrichNietzscheKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-friedrich-nietzsche-portrait.jpg" alt="Friedrich Nietzsche" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Friedrich Nietzsche</p>
+        <p class="krim-portrait-typ">SX5w4 · Sexual Type 5 with Four-wing · 1844–1900</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Hedgehog</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Animal correspondence: Hedgehog" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Friedrich Nietzsche</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-friedrich-nietzsche">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and type structure in general.
+        This page deals exclusively with a chapter that's mentioned there only in passing: for
+        decades, Nietzsche was accompanied by chronic migraines, agonizing stomach complaints,
+        and progressively failing eyesight, nearly to the point of blindness. On January 3,
+        1889, he collapsed on a street in Turin and spent the last eleven years of his life in
+        mental darkness – a cause that remains unresolved to this day.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Nietzsche</strong> is classified as the <strong>Sexual Five with Four-wing</strong>
+        – the same subtype as
+        <a href="javascript:void(0)" data-route="beruehmte-frederic-chopin">Frédéric Chopin</a>
+        in this Compass. Naranjo called the sexual Five the Five's countertype: her key concept
+        is <em>Trust</em> – she seeks not distance from everyone, but the one bond that carries
+        everything. The Four-wing turns the pain of a rupture into artistic and linguistic
+        expression of unheard-of intensity.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Turned inward, radically honest:</strong>
+        Nietzsche's gaze sought his own truth without regard for convention – the typical
+        Five's gaze, which illuminates itself before it judges the world.</p>
+        <p class="vb-intro"><strong>b) Watchful of his own body, unable to spare it:</strong>
+        Nietzsche kept meticulous records of his migraine attacks, visual disturbances, and
+        digestive complaints – the same analytical precision he applied to philosophy also
+        turned onto his own, increasingly failing nervous system.</p>
+        <p class="vb-intro"><strong>c) Public only on paper, never in conversation:</strong>
+        His most radical self-revelation, <em>Ecce Homo</em>, was written shortly before the
+        collapse – the sexual Five opens herself completely, but exclusively within her own
+        medium, never in direct, unguarded contact.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Resigning from office:</strong>
+        In 1879, Nietzsche gave up his professorship in Basel for health reasons – at only 34.
+        Giving up a secure position was, for the sexual Five, less a loss than a liberation:
+        withdrawal is not weakness but the precondition for the one, decisive work.</p>
+        <p class="vb-intro"><strong>b) Ten years searching for the right climate:</strong>
+        Sils-Maria in summer, Nice and Genoa in winter – Nietzsche wandered from place to
+        place, always searching for conditions that eased his complaints, often with just one
+        suitcase.</p>
+        <p class="vb-intro"><strong>c) Peak productivity despite physical decline:</strong>
+        It was precisely in these years of radical withdrawal and advancing illness that his
+        major works emerged – <em>Thus Spoke Zarathustra</em>, <em>Beyond Good and Evil</em>,
+        <em>On the Genealogy of Morality</em>.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Crisis as a trigger for writing:</strong>
+        Within a few weeks of the final rupture with Lou Salomé in 1883, Nietzsche wrote the
+        first part of <em>Thus Spoke Zarathustra</em> – pain that turned immediately into
+        language rather than being suppressed.</p>
+        <p class="vb-intro"><strong>b) Near-total isolation as a way of life:</strong>
+        With no academic post, no lasting bond, mostly alone – the sexual Five does not merely
+        endure this isolation, she needs it to keep open the one channel through which
+        everything flows.</p>
+        <p class="vb-intro"><strong>c) The collapse as the most radical symptom:</strong>
+        On January 3, 1889, Nietzsche collapsed in Turin, reportedly after embracing a
+        mistreated carriage horse. From that day on, he never wrote another philosophical
+        work.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A work that only took effect after the collapse:</strong>
+        Nietzsche died in 1900, never living to see how his thought would shape twentieth-
+        century philosophy – an impact that set in entirely posthumously.</p>
+        <p class="vb-intro"><strong>b) Distorted by other hands:</strong>
+        His sister Elisabeth, who cared for him in his final years, later falsified his
+        writings for nationalist purposes – a bitter irony for a thinker whose work
+        specifically opposed being co-opted by foreign ideologies.</p>
+        <p class="vb-intro"><strong>c) An image that still resonates today:</strong>
+        The collapsing philosopher embracing a mistreated horse has become one of the most
+        famous images in the history of philosophy – a symptom that became a legend.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Miserliness with energy, not money:</strong>
+        The Five's fatal flaw applies, for the SX5, not to material wealth but to her own
+        strength – and Nietzsche had scarcely any reserve he did not invest entirely in his
+        work.</p>
+        <p class="vb-intro"><strong>b) Fusion of thought and suffering:</strong>
+        For Nietzsche, there was no separation between physical pain and philosophical
+        insight – some of his sharpest ideas arose directly out of phases of acute migraine.</p>
+        <p class="vb-intro"><strong>c) Restless productivity to the point of total exhaustion:</strong>
+        In the years before the collapse, Nietzsche wrote at a pace that clearly overtaxed his
+        body – as if he sensed the time remaining to him was limited.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) Decades of unexplained complaints:</strong>
+        Chronic migraines, agonizing stomach complaints, progressively failing eyesight – the
+        exact cause remained unresolved in his lifetime and is still debated today: from a
+        rare hereditary disorder to a slow-growing brain tumor to a syphilis infection
+        diagnosed at the time but never conclusively proven.</p>
+        <p class="vb-intro"><strong>b) Eleven years of mental darkness after the collapse:</strong>
+        After January 3, 1889, Nietzsche never again spoke or wrote coherently. He was cared
+        for first by his mother, then, after her death in 1897, by his sister Elisabeth, until
+        he died in Weimar in 1900.</p>
+        <p class="vb-intro"><strong>c) The last open channel:</strong>
+        Nietzsche had, throughout his life, revealed himself almost exclusively on paper,
+        never in direct conversation. When the mental collapse closed even this last remaining
+        channel, no way remained to communicate with the world at all.</p>
+        <p class="vb-intro"><strong>d) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="beruehmte-frederic-chopin">Frédéric Chopin</a>
+        (SX5w4) likewise broke down physically shortly after his one decisive bond had
+        shattered – for Chopin, the separation from George Sand in 1847; for Nietzsche, the
+        rupture with Lou Salomé in 1883. Both cases show the same SX5w4 pattern: the one bond
+        that carries everything is also what the physical and creative strength depend on –
+        when it breaks, physical collapse follows close behind.</p>
+        <p class="vb-intro"><strong>e) Why the head, of all places?</strong>
+        Migraines, failing eyesight, and finally mental collapse struck Nietzsche in exactly
+        the organ that forms the center of the sexual Five's entire existence: the place where
+        thoughts arise, are concentrated, and finally transformed into language. For someone
+        who communicated with the world almost exclusively through his head – through the
+        written word – an attack on precisely this organ was the most radical threat
+        imaginable: not only to the body, but to the only connection he still had to the
+        world. That the mind itself failed, in a philosopher whose entire work was devoted to
+        the sharpness of thought, reads as the bitterest conceivable intensification of his
+        own life pattern. This reading is explored in more depth in this Compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Framing without determinism:</strong>
+        This does not mean the sexual Five's pattern inevitably leads to neurological illness –
+        <strong>every person can develop any illness, regardless of subtype.</strong> What
+        Nietzsche's case can show is a pattern that stands out again and again in practice
+        wherever total concentration of one's own strength on a single intellectual work is
+        present – one possible explanation among many, not a verdict. The corresponding
+        condition will be developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Nietzsche</strong> embodies the Sexual Five with Four-wing right down into his
+        own illness history: radical concentration of his own strength on a single work, an
+        isolation that was precondition rather than deficiency, and a collapse that struck
+        exactly the organ through which he had ever communicated with the world. The hedgehog
+        from Röcken never fully revealed himself to another person – but he did, page by page,
+        to his work, until the very head that had made all of it possible fell silent.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-friedrich-nietzsche", label:"Portrait: Friedrich Nietzsche (SX5w4) – life's work"},
+        {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx5", label:"Subtype Profile SX5"},
+      ])}
+    </div>
+  `);
+}
+
 function kriminalpsychologiePage() {
   const allInst = ["SE","SO","SX"];
   const allTyp  = [1,2,3,4,5,6,7,8,9];
@@ -61622,6 +61806,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-winston-churchill": winstonChurchillKrankheitsportraetPage,
       "krankheitsportraets-gustav-mahler": gustavMahlerKrankheitsportraetPage,
       "krankheitsportraets-ruth-bader-ginsburg": ruthBaderGinsburgKrankheitsportraetPage,
+      "krankheitsportraets-friedrich-nietzsche": friedrichNietzscheKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
