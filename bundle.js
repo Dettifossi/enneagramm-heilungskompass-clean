@@ -68334,9 +68334,9 @@ function karlLagerfeldKrankheitsportraetPage() {
         Lagerfeld bereits 2015 eine Krebsdiagnose – vier Jahre, die er offenbar nutzte, um nach
         außen den Anschein völliger Unversehrtheit aufrechtzuerhalten.</p>
         <p class="vb-intro"><strong>b) Aktives Dementi statt Offenlegung:</strong>
-        Anders als Ronald Reagan, der seine Diagnose in einem direkten Brief an die
-        Öffentlichkeit richtete, oder David Bowie, der sie in Kunst verschlüsselte, wählte
-        Lagerfeld eine dritte Variante: das schlichte Zurückweisen jeder Andeutung von
+        Anders als Ronald Reagan (SO9w8), der seine Diagnose in einem direkten Brief an die
+        Öffentlichkeit richtete, oder David Bowie (SO1w2), der sie in Kunst verschlüsselte,
+        wählte Lagerfeld eine dritte Variante: das schlichte Zurückweisen jeder Andeutung von
         Krankheit, so lange wie irgend möglich.</p>
         <p class="vb-intro"><strong>c) Ein einziges sichtbares Zeichen, vier Wochen vor dem Tod:</strong>
         Erst das Fehlen bei der Chanel-Show im Januar 2019 – nach 35 Jahren lückenloser

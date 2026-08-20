@@ -41458,9 +41458,9 @@ function karlLagerfeldKrankheitsportraetPage() {
         cancer diagnosis as early as 2015 – four years he apparently used to maintain the
         outward appearance of complete wellness.</p>
         <p class="vb-intro"><strong>b) Active denial instead of disclosure:</strong>
-        Unlike Ronald Reagan, who addressed his diagnosis directly in a letter to the public,
-        or David Bowie, who encoded it in art, Lagerfeld chose a third path: simply rejecting
-        any suggestion of illness for as long as possible.</p>
+        Unlike Ronald Reagan (SO9w8), who addressed his diagnosis directly in a letter to the
+        public, or David Bowie (SO1w2), who encoded it in art, Lagerfeld chose a third path:
+        simply rejecting any suggestion of illness for as long as possible.</p>
         <p class="vb-intro"><strong>c) A single visible sign, four weeks before death:</strong>
         Only his absence from the Chanel show in January 2019 – after 35 years of unbroken
         presence – let the public glimpse what must have long been known internally.</p>
