@@ -38745,13 +38745,59 @@ function ronnieBiggsPortraitPage() {
 function krankheitsportraetsPage() {
   const items = KRANKHEITS_PORTRAITS.slice().sort((a, b) => a.name.localeCompare(b.name, "en"));
 
+  const instBtn = val => {
+    const active = val === "ALL";
+    return `<button class="kf-btn${active ? " kf-btn--active" : ""}" data-kh-inst="${val}" onclick="khSet('inst','${val}')">${val === "ALL" ? "All" : val}</button>`;
+  };
+  const typBtn = n => {
+    const active = n === 0;
+    const label = n === 0 ? "All" : n;
+    return `<button class="kf-btn${active ? " kf-btn--active" : ""}" data-kh-typ="${n}" onclick="khSet('typ',${n})">${label}</button>`;
+  };
+  const genderBtn = (val, label) => {
+    const active = val === "ALL";
+    return `<button class="kf-btn${active ? " kf-btn--active" : ""}" data-kh-gender="${val}" onclick="khSet('gender','${val}')">${label}</button>`;
+  };
+  const filterBar = `
+    <div class="kf-bar">
+      <div class="kf-row"><span class="kf-label">Instinct</span>${instBtn("ALL")}${["SE","SO","SX"].map(instBtn).join("")}</div>
+      <div class="kf-row"><span class="kf-label">Type</span>${typBtn(0)}${[1,2,3,4,5,6,7,8,9].map(typBtn).join("")}</div>
+      <div class="kf-row"><span class="kf-label">Gender</span>${genderBtn("ALL","All")}${genderBtn("m","Male")}${genderBtn("f","Female")}</div>
+      <div class="kf-count"><span id="kh-count-num">${items.length}</span> of ${items.length} portraits</div>
+    </div>
+  `;
+
+  const allCodes = [1,2,3,4,5,6,7,8,9].flatMap(n => ["SE","SO","SX"].map(p => p + n));
+  const registerBox = items.length === 0 ? "" : `
+    <div id="kh-register" style="background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1rem 1.2rem;margin-bottom:1rem;">
+      <p style="font-size:0.78rem;font-weight:700;letter-spacing:0.08em;color:var(--muted);margin:0 0 0.7rem;text-transform:uppercase;">Quick navigation by subtype</p>
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.3rem;">
+        ${allCodes.map(code => {
+          const n = parseInt(code.slice(-1));
+          const col = TYPE_COLORS[n] || "var(--copper)";
+          const tierKey = code.toLowerCase();
+          const has = items.some(p => (p.subtyp || "").toUpperCase().startsWith(code));
+          return `<a href="#" onclick="event.preventDefault();khSetSubtyp('${code}');"
+            style="display:inline-flex;align-items:center;gap:.3rem;padding:.25rem .6rem .25rem .3rem;border-radius:6px;border:1.5px solid ${col};font-size:0.8rem;font-weight:700;color:${col};background:var(--bg);text-decoration:none;opacity:${has ? "0.95" : "0.35"};"
+            onmouseover="this.style.opacity='1';this.style.background='${col}20'"
+            onmouseout="this.style.opacity='${has ? "0.95" : "0.35"}';this.style.background='var(--bg)'">
+            <span style="position:relative;width:18px;height:18px;border-radius:50%;overflow:hidden;flex-shrink:0;display:inline-block;box-shadow:0 0 0 1.5px ${col};">
+              <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${tierKey}.jpg" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            </span>${code}</a>`;
+        }).join("")}
+      </div>
+    </div>
+  `;
+
   const cards = items.map(p => {
     const typ = parseInt((p.subtyp || "").replace(/[^0-9]/g, "")[0] || "0");
     const farbe = typeColor(typ);
-    const tierKey = (p.subtyp || "").substring(0, 3).toLowerCase();
+    const inst = (p.subtyp || "").substring(0, 2).toUpperCase();
+    const subtypCode = (p.subtyp || "").substring(0, 3).toUpperCase();
+    const tierKey = subtypCode.toLowerCase();
     const tierImg = tierKey ? `https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${tierKey}.jpg` : "";
     return `
-      <button class="tool-card--link" data-route="${p.route}" style="display:block;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-left:4px solid ${farbe};border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;cursor:pointer;">
+      <button class="tool-card--link kh-card" data-route="${p.route}" data-kh-inst="${inst}" data-kh-typ="${typ}" data-kh-gender="${p.gender || ""}" data-kh-code="${subtypCode}" style="display:block;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-left:4px solid ${farbe};border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;cursor:pointer;">
         <div style="display:flex;gap:0.9rem;align-items:flex-start;">
           ${tierImg ? `<span style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px ${farbe};margin-top:0.15rem;"><img src="${tierImg}" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(tierKey)};left:${tierAvatarLeft(tierKey)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" /></span>` : ""}
           <div style="flex:1;min-width:0;">
@@ -38773,7 +38819,9 @@ function krankheitsportraetsPage() {
       ${pageHeader("krankheitsportraets")}
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Illness Portraits</h1>
       <p class="psycho-intro">Biographies of historical figures in whom a documented illness becomes visible as a red thread running through years or decades of life – connected to the person's Enneagram subtype. Read in a holistic sense, illness is often not just fate, but also a corrective: a signpost that announces itself long before it becomes unavoidable. <strong>Deliberately limited to deceased, historically well-documented cases</strong> – out of respect for people with a current, still-uncertain diagnosis. This page does not replace a medical or historical diagnosis, but offers a psychological-biographical layer of interpretation, in which every illness is understood as an individual interplay of many factors – never as the inevitable consequence of a type.</p>
-      <div style="max-width:640px;margin-top:1rem;">
+      ${filterBar}
+      ${registerBox}
+      <div id="kh-list" style="max-width:640px;margin-top:1rem;">
         ${cards}
       </div>
       ${relatedLinks([
@@ -38782,6 +38830,48 @@ function krankheitsportraetsPage() {
         {route:"kriminalpsychologie", label:"Criminal Psychology"},
       ])}
     </div>
+  `);
+}
+
+window.khState = { inst:"ALL", typ:0, gender:"ALL" };
+window.khSet = function(dim, val) {
+  if (window.khState[dim] === val) { window.khState[dim] = dim === "typ" ? 0 : "ALL"; }
+  else { window.khState[dim] = val; }
+  khApply();
+};
+window.khSetSubtyp = function(code) {
+  window.khState.inst = code.substring(0, 2);
+  window.khState.typ = parseInt(code.slice(-1));
+  khApply();
+  const list = document.getElementById("kh-list");
+  if (list) list.scrollIntoView({ behavior: "smooth", block: "start" });
+};
+window.khApply = function() {
+  const s = window.khState;
+  const cards = document.querySelectorAll(".kh-card[data-kh-inst]");
+  let vis = 0;
+  cards.forEach(function(c) {
+    const ok = (s.inst === "ALL" || c.dataset.khInst === s.inst)
+      && (s.typ === 0 || parseInt(c.dataset.khTyp) === s.typ)
+      && (s.gender === "ALL" || c.dataset.khGender === s.gender);
+    c.style.display = ok ? "" : "none";
+    if (ok) vis++;
+  });
+  const cnt = document.getElementById("kh-count-num");
+  if (cnt) cnt.textContent = vis;
+  const filtered = s.inst !== "ALL" || s.typ !== 0 || s.gender !== "ALL";
+  const reg = document.getElementById("kh-register");
+  if (reg) reg.style.display = filtered ? "none" : "";
+  document.querySelectorAll(".kf-btn[data-kh-inst]").forEach(function(b) {
+    b.classList.toggle("kf-btn--active", b.dataset.khInst === s.inst || (s.inst === "ALL" && b.dataset.khInst === "ALL"));
+  });
+  document.querySelectorAll(".kf-btn[data-kh-typ]").forEach(function(b) {
+    b.classList.toggle("kf-btn--active", parseInt(b.dataset.khTyp) === (s.typ || 0));
+  });
+  document.querySelectorAll(".kf-btn[data-kh-gender]").forEach(function(b) {
+    b.classList.toggle("kf-btn--active", b.dataset.khGender === s.gender || (s.gender === "ALL" && b.dataset.khGender === "ALL"));
+  });
+};
   `);
 }
 
