@@ -89451,7 +89451,7 @@ function psychosomatikPage() {
       <img src="./assets/schaubilder/psychosomatik-register-header.jpg?v=2" alt="K\xf6rper und Enneagramm-Symbol als Sinnbild f\xfcr das Psychosomatik-Register" loading="lazy" style="width:100%;max-width:640px;border-radius:14px;margin:1.3rem 0;box-shadow:0 4px 18px rgba(0,0,0,.12);display:block;">
       <div style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1.1rem 1.3rem;margin:0 0 1.3rem;max-width:640px;">
         <p style="font-size:0.75rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.07em;margin:0 0 0.4rem;">Suchregister nach Subtyp</p>
-        <p style="margin:0 0 0.8rem;font-size:0.88rem;color:var(--muted);">Alle Krankheitsbilder dieses Registers auf einen Blick nach Subtyp gefiltert &ndash; z. B. wie sich Herzinfarkt, aber künftig auch alle weiteren Krankheiten, gerade bei SE1 oder SX7 zeigen.</p>
+        <p style="margin:0 0 0.8rem;font-size:0.88rem;color:var(--muted);">Alle Krankheitsbilder dieses Registers auf einen Blick nach Subtyp gefiltert &ndash; zum Beispiel, wie sich der Herzinfarkt, aber künftig auch alle weiteren Krankheiten, bei der SE1 oder der SX7 zeigen.</p>
         <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">${subtypeRegister}</div>
       </div>
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.4rem;margin:1.3rem 0 0.4rem;">
