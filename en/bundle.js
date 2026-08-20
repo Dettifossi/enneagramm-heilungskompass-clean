@@ -38757,7 +38757,7 @@ function krankheitsportraetsPage() {
     const bInst = (b.subtyp || "").substring(0, 2).toUpperCase();
     const aTyp = parseInt((a.subtyp || "").replace(/[^0-9]/g, "")[0] || "0");
     const bTyp = parseInt((b.subtyp || "").replace(/[^0-9]/g, "")[0] || "0");
-    return (instOrder[aInst] ?? 9) - (instOrder[bInst] ?? 9) || aTyp - bTyp || a.name.localeCompare(b.name, "en");
+    return aTyp - bTyp || (instOrder[aInst] ?? 9) - (instOrder[bInst] ?? 9) || a.name.localeCompare(b.name, "en");
   });
 
   const instBtn = val => {
@@ -39356,7 +39356,7 @@ function marieCurieKrankheitsportraetPage() {
         <strong>Marie Curie</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-marie-curie">portrait under Famous Personalities</a>
         in this Compass – that page covers her life's work and her type structure in general.
-        This page deals exclusively with a chapter that's mentioned there only in
+        This page deals exclusively with a chapter barely touched on there in
         passing: decades of
         unprotected work with radioactive materials – no gloves, no lead shielding, radium
         samples carried in her coat pocket because the glow in the dark fascinated her. In
@@ -39542,8 +39542,8 @@ function charlesDarwinKrankheitsportraetPage() {
         <strong>Charles Darwin</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-charles-darwin">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work and type structure in general.
-        This page deals exclusively with a chapter that's mentioned there only in passing:
-        from his return from the world voyage on the <em>HMS Beagle</em> in 1836, Darwin
+        This page deals exclusively with a chapter that's hardly more than
+        glossed over there: from his return from the world voyage on the <em>HMS Beagle</em> in 1836, Darwin
         suffered for nearly forty years from chronic nausea, vomiting, heart palpitations,
         headaches, and debilitating exhaustion – symptoms never clearly diagnosed in his
         lifetime. Historians and physicians still debate possible causes today, from Chagas
@@ -39723,8 +39723,8 @@ function winstonChurchillKrankheitsportraetPage() {
         <strong>Winston Churchill</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-winston-churchill">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work and type structure in general.
-        This page deals exclusively with two chapters that are mentioned there only in
-        passing: his lifelong, recurring depression, which he himself called "the black dog,"
+        This page deals exclusively with two chapters only briefly touched on there: his
+        lifelong, recurring depression, which he himself called "the black dog,"
         and a severe stroke in June 1953, which he kept concealed as Prime Minister for weeks
         from the public, the press, and much of his own cabinet.
       </p>
@@ -39897,7 +39897,7 @@ function gustavMahlerKrankheitsportraetPage() {
         <strong>Gustav Mahler</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-gustav-mahler">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work and type structure in general.
-        This page deals exclusively with a chapter that's mentioned there only in passing:
+        This page deals exclusively with a chapter only lightly sketched there:
         in 1907, Mahler was diagnosed with a severe, bacterially caused heart valve infection
         (subacute endocarditis) – the same year he also lost his daughter Maria and his
         position at the Vienna Court Opera. The illness shaped his final four years and his
@@ -40097,8 +40097,8 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
         <strong>Ruth Bader Ginsburg</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-ruth-bader-ginsburg">portrait under Famous Personalities</a>
         in this Compass – that page covers her life's work and type structure in general.
-        This page deals exclusively with a chapter that's mentioned there only in passing:
-        over more than two decades, Ginsburg survived four cancer diagnoses in three very different organs – colon cancer in
+        This page deals exclusively with a chapter that gets only a brief mention
+        there: over more than two decades, Ginsburg survived four cancer diagnoses in three very different organs – colon cancer in
         1999, pancreatic cancer in 2009, lung cancer in 2018, and pancreatic cancer again in
         2019/2020 – without ever voluntarily giving up her seat on the Supreme Court for a
         single day. She died in office in 2020, weeks before a presidential election whose
@@ -40273,8 +40273,8 @@ function friedrichNietzscheKrankheitsportraetPage() {
         <strong>Friedrich Nietzsche</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-friedrich-nietzsche">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work and type structure in general.
-        This page deals exclusively with a chapter that's mentioned there only in passing: for
-        decades, Nietzsche was accompanied by chronic migraines, agonizing stomach complaints,
+        This page deals exclusively with a chapter only fleetingly touched on
+        there: for decades, Nietzsche was accompanied by chronic migraines, agonizing stomach complaints,
         and progressively failing eyesight, nearly to the point of blindness. On January 3,
         1889, he collapsed on a street in Turin and spent the last eleven years of his life in
         mental darkness – a cause that remains unresolved to this day.
@@ -40414,7 +40414,7 @@ function friedrichNietzscheKrankheitsportraetPage() {
         <strong>Nietzsche</strong> embodies the Sexual Five with Four-wing right down into his
         own illness history: radical concentration of his own strength on a single work, an
         isolation that was precondition rather than deficiency, and a collapse that struck
-        exactly the organ through which he had ever communicated with the world. The hedgehog
+        exactly the one organ through which he had ever communicated with the world. The hedgehog
         from Röcken never fully revealed himself to another person – but he did, page by page,
         to his work, until the very head that had made all of it possible fell silent.</p>
       </div>

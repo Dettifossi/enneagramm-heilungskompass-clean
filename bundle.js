@@ -65507,7 +65507,7 @@ function krankheitsportraetsPage() {
     const bInst = (b.subtyp || "").substring(0, 2).toUpperCase();
     const aTyp = parseInt((a.subtyp || "").replace(/[^0-9]/g, "")[0] || "0");
     const bTyp = parseInt((b.subtyp || "").replace(/[^0-9]/g, "")[0] || "0");
-    return (instOrder[aInst] ?? 9) - (instOrder[bInst] ?? 9) || aTyp - bTyp || a.name.localeCompare(b.name, "de");
+    return aTyp - bTyp || (instOrder[aInst] ?? 9) - (instOrder[bInst] ?? 9) || a.name.localeCompare(b.name, "de");
   });
 
   const instBtn = val => {
@@ -66132,8 +66132,8 @@ function marieCurieKrankheitsportraetPage() {
         <strong>Marie Curie</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-marie-curie">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um ihr Lebenswerk und ihre Typstruktur im
-        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur nebenbei
-        erwähnt wird: Jahrzehntelange, ungeschützte Arbeit mit radioaktiven Stoffen – ohne Handschuhe, ohne
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur am Rande
+        vorkommt: Jahrzehntelange, ungeschützte Arbeit mit radioaktiven Stoffen – ohne Handschuhe, ohne
         Bleiabschirmung, mit Radiumproben in der Kitteltasche, weil das Leuchten im Dunkeln sie
         faszinierte. 1934 starb Curie an aplastischer Anämie, einer direkten Folge dieser
         Strahlenbelastung. Ihre Laborjournale sind bis heute so radioaktiv, dass sie nur in
@@ -66324,8 +66324,8 @@ function charlesDarwinKrankheitsportraetPage() {
         <strong>Charles Darwin</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-charles-darwin">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur
-        im Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur nebenbei
-        erwähnt wird: Ab seiner Rückkehr von der Weltreise auf der <em>HMS Beagle</em> 1836
+        im Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort kaum mehr als
+        gestreift wird: Ab seiner Rückkehr von der Weltreise auf der <em>HMS Beagle</em> 1836
         litt Darwin fast vierzig Jahre lang unter chronischer Übelkeit, Erbrechen, Herzklopfen,
         Kopfschmerzen und quälender Erschöpfung – Symptome, die zu Lebzeiten nie eindeutig
         diagnostiziert wurden. Bis heute diskutieren Historiker und Mediziner mögliche
@@ -66515,8 +66515,8 @@ function winstonChurchillKrankheitsportraetPage() {
         <strong>Winston Churchill</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-winston-churchill">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur
-        im Allgemeinen. Hier geht es ausschließlich um zwei Kapitel, die dort nur nebenbei
-        erwähnt werden: seine lebenslange, wiederkehrende Depression, die er selbst
+        im Allgemeinen. Hier geht es ausschließlich um zwei Kapitel, die dort nur beiläufig
+        angesprochen werden: seine lebenslange, wiederkehrende Depression, die er selbst
         &bdquo;the black dog&ldquo; nannte, und einen schweren Schlaganfall im Juni 1953, den
         er im Amt des Premierministers wochenlang vor Öffentlichkeit, Presse und weiten Teilen
         des eigenen Kabinetts verbergen ließ.
@@ -66699,8 +66699,8 @@ function gustavMahlerKrankheitsportraetPage() {
         <strong>Gustav Mahler</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-gustav-mahler">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur
-        im Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur nebenbei
-        erwähnt wird: 1907 wurde bei Mahler eine schwere, bakteriell bedingte Herzklappenerkrankung
+        im Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur knapp
+        angedeutet wird: 1907 wurde bei Mahler eine schwere, bakteriell bedingte Herzklappenerkrankung
         (subakute Endokarditis) diagnostiziert – im selben Jahr, in dem er auch seine Tochter
         Maria und seine Position an der Wiener Hofoper verlor. Die Krankheit prägte seine
         letzten vier Lebensjahre und sein Spätwerk bis zu seinem Tod 1911.
@@ -66908,8 +66908,8 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
         <strong>Ruth Bader Ginsburg</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-ruth-bader-ginsburg">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um ihr Lebenswerk und ihre Typstruktur im
-        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur nebenbei erwähnt
-        wird: Über zwei Jahrzehnte hinweg überstand Ginsburg vier
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur kurz zur
+        Sprache kommt: Über zwei Jahrzehnte hinweg überstand Ginsburg vier
         Krebserkrankungen an insgesamt drei verschiedenen, sehr unterschiedlichen Organen – Darmkrebs 1999, Bauchspeicheldrüsenkrebs 2009, Lungenkrebs 2018 und
         erneut Bauchspeicheldrüsenkrebs 2019/2020 – ohne ihr Amt am Supreme Court auch nur einen
         Tag freiwillig zu räumen. Sie starb 2020 im Amt, wenige Wochen vor einer
@@ -67091,8 +67091,8 @@ function friedrichNietzscheKrankheitsportraetPage() {
         <strong>Friedrich Nietzsche</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-friedrich-nietzsche">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur nebenbei erwähnt
-        wird: Über Jahrzehnte begleiteten Nietzsche chronische Migräne, quälende
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur flüchtig
+        gestreift wird: Über Jahrzehnte begleiteten Nietzsche chronische Migräne, quälende
         Magenbeschwerden und fortschreitende Sehschwäche, bis fast zur Erblindung. Am 3. Januar
         1889 brach er auf einer Turiner Straße zusammen und verbrachte die letzten elf Jahre
         seines Lebens in geistiger Umnachtung – eine Ursache, die bis heute nicht abschließend
@@ -67238,8 +67238,8 @@ function friedrichNietzscheKrankheitsportraetPage() {
         <strong>Nietzsche</strong> verkörpert die sexuelle Fünf mit Viererflügel bis in die
         eigene Krankheitsgeschichte hinein: radikale Konzentration der eigenen Kraft auf ein
         einziges Werk, eine Isolation, die Voraussetzung statt Mangel war, und ein
-        Zusammenbruch, der ausgerechnet das Organ traf, über das er sich der Welt je
-        mitgeteilt hatte. Der Igel aus Röcken zeigte sich nie vollständig einem Menschen –
+        Zusammenbruch, der ausgerechnet das einzige Organ traf, über das er sich der Welt
+        jemals mitgeteilt hatte. Der Igel aus Röcken zeigte sich nie vollständig einem Menschen –
         aber Seite für Seite seinem Werk, bis der Kopf selbst, der all das ermöglicht hatte,
         verstummte.</p>
       </div>
