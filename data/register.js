@@ -375,6 +375,7 @@ export const registerEntries = [
   { term: "David Bowie Krankheitsporträt", route: "krankheitsportraets-david-bowie", description: "Portrait: SO1w2 · Sozialer Typ 1 · Leberkrebs, verwandelt in das Album Blackstar" },
   { term: "Wolfgang Amadeus Mozart Krankheitsporträt", route: "krankheitsportraets-wolfgang-amadeus-mozart", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · fieberhafte Erkrankung mit Nierenversagen, Tod mit 35 Jahren" },
   { term: "Karl Lagerfeld Krankheitsporträt", route: "krankheitsportraets-karl-lagerfeld", description: "Portrait: SO3w4 · Sozialer Typ 3 · Krebserkrankung, fast vier Jahre lang geheim gehalten" },
+  { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Tom Keating", route: "kriminalpsychologie-tom-keating", description: "Kriminalpsychologisches Portrait: SE3w4, Kunstf\xe4lscher mit \xfcber 2.000 Werken, Zeitbomben gegen den Kunstmarkt" },
@@ -428,6 +429,7 @@ export const registerEntries = [
   // Berühmte Persönlichkeiten – Portraits
   { term: "Wladimir Putin",                route: "beruehmte-wladimir-putin",              description: "Portrait: SX6w5 · Sexueller Typ 6 · Politiker, Präsident der Russischen Föderation" },
   { term: "Platon",                        route: "beruehmte-platon",                      description: "Portrait: SX6w5 · Sexueller Typ 6 · Philosoph, Schüler des Sokrates, Gründer der Akademie" },
+  { term: "Friedrich Schiller",            route: "beruehmte-friedrich-schiller",          description: "Portrait: SX6w5 · Sexueller Typ 6 · Dichter, Dramatiker, Historiker" },
   { term: "Ludwig van Beethoven",          route: "beruehmte-ludwig-van-beethoven",        description: "Portrait: SX6w5 · Sexueller Typ 6 · Komponist, Neunte Symphonie, Eroica" },
   { term: "Robert Schumann",               route: "beruehmte-robert-schumann",             description: "Portrait: SX7w8 · Sexueller Typ 7 · Komponist, Liederjahr 1840, Entdecker von Johannes Brahms" },
   { term: "Franz Liszt",                   route: "beruehmte-franz-liszt",                 description: "Portrait: SX7w8 · Sexueller Typ 7 · Komponist und Pianist, Lisztomania" },
@@ -860,6 +862,7 @@ export const registerEntriesEN = [
   // Famous Personalities – Portraits
   { term: "Vladimir Putin", route: "beruehmte-wladimir-putin", description: "Portrait: SX6w5 · Sexual Type 6 · Politician, President of the Russian Federation" },
   { term: "Plato", route: "beruehmte-platon", description: "Portrait: SX6w5 · Sexual Type 6 · Philosopher, student of Socrates, founder of the Academy" },
+  { term: "Friedrich Schiller", route: "beruehmte-friedrich-schiller", description: "Portrait: SX6w5 · Sexual Type 6 · Poet, playwright, historian" },
   { term: "Ludwig van Beethoven", route: "beruehmte-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexual Type 6 · Composer, Ninth Symphony, Eroica" },
   { term: "Robert Schumann", route: "beruehmte-robert-schumann", description: "Portrait: SX7w8 · Sexual Type 7 · Composer, Year of Song 1840, discoverer of Johannes Brahms" },
   { term: "Franz Liszt", route: "beruehmte-franz-liszt", description: "Portrait: SX7w8 · Sexual Type 7 · Composer and pianist, Lisztomania" },
@@ -1439,6 +1442,7 @@ export const registerEntriesEN = [
   { term: "David Bowie Illness Portrait", route: "krankheitsportraets-david-bowie", description: "Portrait: SO1w2 · Social Type 1 · liver cancer, transformed into the album Blackstar" },
   { term: "Wolfgang Amadeus Mozart Illness Portrait", route: "krankheitsportraets-wolfgang-amadeus-mozart", description: "Portrait: SE2w3 · Self-Preservation Type 2 · febrile illness with kidney failure, died at 35" },
   { term: "Karl Lagerfeld Illness Portrait", route: "krankheitsportraets-karl-lagerfeld", description: "Portrait: SO3w4 · Social Type 3 · cancer, kept secret for nearly four years" },
+  { term: "Friedrich Schiller Illness Portrait", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexual Type 6 · pulmonary tuberculosis, fourteen years of work against his own decline" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Criminal psychological portrait: Self-preservation Type 3, Medellín cartel, accumulation and deception" },
   { term: "Medellín Cartel", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar and the Medellín cartel – SE3 analysis" },
   { term: "Tom Keating", route: "kriminalpsychologie-tom-keating", description: "Criminal psychological portrait: SE3w4, art forger with over 2,000 works, time bombs against the art market" },

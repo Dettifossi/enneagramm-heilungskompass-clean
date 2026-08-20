@@ -31406,6 +31406,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Sozialer Typ 9", krankheit:"Alzheimer-Krankheit", teaser:"SO9w8 – 40. US-Präsident 1981–1989, 1911–2004. Gab 1994 in einem handschriftlichen Brief an die amerikanische Öffentlichkeit seine Alzheimer-Diagnose bekannt und zog sich danach zehn Jahre lang fast vollständig aus der Öffentlichkeit zurück." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Sozialer Typ 1", krankheit:"Leberkrebs", teaser:"SO1w2 – Musiker und Künstler, 1947–2016. Kämpfte 18 Monate lang im Verborgenen gegen Leberkrebs und verwandelte die Diagnose in sein letztes Werk, das Album Blackstar, das zwei Tage vor seinem Tod erschien." , land:"Vereinigtes Königreich", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2", krankheit:"Fieberhafte Erkrankung mit Nierenversagen (vermutlich Folge einer Streptokokken-Infektion)", teaser:"SE2w3 – österreichischer Komponist, 1756–1791. Von Kindheit an eine Kette fieberhafter Erkrankungen (Pocken, Typhus, wiederkehrendes Scharlach), starb 1791 mit 35 Jahren nach zweiwöchiger Krankheit mit Fieber und generalisierten Ödemen – während er gleichzeitig an drei Großwerken arbeitete, darunter das unvollendete Requiem." , land:"Österreich", gender:"m", jahre:"1756–1791"},
+  { route:"krankheitsportraets-friedrich-schiller", name:"Friedrich Schiller", subtyp:"SX6w5", heading:"Friedrich Schiller – Sexueller Typ 6", krankheit:"Lungentuberkulose", teaser:"SX6w5 – Dichter, Dramatiker und Historiker, 1759–1805. Seit der Kindheit fragile Konstitution, ab 1791 wiederkehrende lebensbedrohliche Fieber- und Hustenanfälle, vierzehn Jahre kompromissloser Arbeit gegen den eigenen Verfall. Starb 1805 mit 45 Jahren an akuter Lungenentzündung – die Obduktion zeigte einen vollständig zerstörten Lungenflügel." , land:"Deutschland", gender:"m", jahre:"1759–1805"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Sozialer Typ 3", krankheit:"Krebserkrankung (Todesursache offiziell nie bestätigt; laut Assistent Prostatakrebs, diagnostiziert 2015)", teaser:"SO3w4 – Modedesigner und Chanel-Kreativdirektor, 1933–2019. Hielt eine Krebsdiagnose nach übereinstimmenden Berichten fast vier Jahre lang selbst vor engsten Vertrauten geheim und fehlte erst vier Wochen vor seinem Tod erstmals seit 35 Jahren bei einer Chanel-Show." , land:"Deutschland/Frankreich", gender:"m", jahre:"1933–2019"},
 ];
 
@@ -32234,6 +32235,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Platon – Sexueller Typ 6",
     teaser:"SX6w5 · ca. 428–348 v. Chr. Griechischer Philosoph, Schüler des Sokrates, Gründer der Akademie. Ideenlehre, Höhlengleichnis, ›Politeia‹. Der Wolf mit Fünferflügel: aus dem Verrat an Sokrates eine unerschütterliche Ordnung geschaffen. Tierentsprechung: Wolf.",
     land:"Großbritannien", tags:["Geschichte","Philosophie"], gender:"m"},
+  { route:"beruehmte-friedrich-schiller", name:"Friedrich Schiller", added:"2026-08-20", subtyp:"SX6w5",
+    heading:"Friedrich Schiller – Sexueller Typ 6",
+    teaser:"SX6w5 · 1759–1805. Dichter, Dramatiker, Historiker. Die Räuber, Kabale und Liebe, Don Karlos, Wilhelm Tell. Floh aus Württemberg, um der Zensur des Herzogs zu entgehen, und schrieb sein bedeutendstes Alterswerk unter fortschreitender, tödlicher Krankheit. Enger Freund Goethes. Tierentsprechung: Wolf.",
+    tags:["Literatur","Philosophie"], gender:"m"},
   { route:"beruehmte-ludwig-van-beethoven", name:"Ludwig van Beethoven", added:"2026-08-13", subtyp:"SX6w5",
     heading:"Ludwig van Beethoven \u2013 Sexueller Typ 6",
     teaser:"SX6w5 \u00b7 1770\u20131827. Deutscher Komponist. Neunte Symphonie, Mondscheinsonate, Eroica. Der Wolf, der seine fortschreitende Taubheit nicht besiegte, sondern der Angst mit trotziger Sch\u00f6pferkraft ins Gesicht sprang \u2013 \u201aIch will dem Schicksal in den Rachen greifen'.",
@@ -49468,6 +49473,7 @@ function johannWolfgangVonGoethePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-friedrich-schiller", label:"Porträt: Friedrich Schiller (SX6w5) – enger Freund und Briefpartner"},
         {route:"beruehmte-jules-verne", label:"Porträt: Jules Verne (SO7w6)"},
         {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
         {route:"beruehmte-jeanne-marie-guyon", label:"Porträt: Jeanne-Marie Bouvier de la Motte Guyon (SO7w6)"},
@@ -62876,9 +62882,79 @@ function ludwigVanBeethovenPortraitPage() {
         {route:"beruehmte-johann-sebastian-bach", label:"Porträt: Johann Sebastian Bach (SX1w9)"},
         {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2) – sein kurzzeitiger Lehrer"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-friedrich-schiller", label:"Porträt: Friedrich Schiller (SX6w5) – dessen ›Ode an die Freude‹ er in der Neunten vertonte"},
         {route:"beruehmte-wladimir-putin", label:"Porträt: Wladimir Putin (SX6w5)"},
         {route:"beruehmte-alice-schwarzer", label:"Porträt: Alice Schwarzer (SX6w5)"},
         {route:"beruehmte-napoleon-bonaparte", label:"Porträt: Napoleon Bonaparte (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function friedrichSchillerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-friedrich-schiller-portrait.jpg" alt="Friedrich Schiller" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Friedrich Schiller</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexueller Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Dichter, Dramatiker, Historiker, 1759–1805 – Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf, der der Zensur die Zähne zeigte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Rudeltier, das Bedrohung nicht meidet, sondern ihr direkt entgegentritt. Kaum ein Dichter der deutschen Literaturgeschichte verkörpert dieses Muster so unverkennbar wie Friedrich Schiller, dessen frühes Werk ein einziger, offener Angriff auf die Tyrannei seiner Zeit war – geschrieben unter den Augen genau jener Autorität, gegen die es sich richtete.</p>
+          <p class="vb-intro">Geboren 1759 in Marbach am Neckar als Sohn eines Militärarztes, wurde der junge Schiller mit vierzehn Jahren gegen seinen und den Willen seiner Eltern in die Karlsschule des württembergischen Herzogs Karl Eugen gezwungen – eine militärisch strenge Kadettenanstalt, in der er, statt Theologie, gegen seine Neigung Medizin studieren musste. Aus dieser jahrelangen erzwungenen Unterordnung unter eine willkürliche Autorität entstand ein Grundmuster, das sein gesamtes Werk durchzieht: die Weigerung, sich einer Macht zu beugen, die er als ungerecht empfand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Gegenangst gegen den Herzog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs – statt sich vor Bedrohung zurückzuziehen, tritt sie ihr mit demonstrativer Stärke entgegen. Schiller lebte das schon als Student: Heimlich, gegen die Regeln der Karlsschule, verfasste er sein erstes Drama "Die Räuber" – eine so aufrührerische Anklage gegen Willkürherrschaft und gesellschaftliche Erstarrung, dass es 1782 bei der Uraufführung in Mannheim das Publikum zu Tränen und Tumult trieb.</p>
+          <p class="vb-intro">Um der Uraufführung selbst beizuwohnen, verließ Schiller Württemberg ohne die Erlaubnis des Herzogs – eine offene Regelverletzung, für die er kurzzeitig inhaftiert und mit einem Schreibverbot für alles außer medizinischen Schriften belegt wurde. Statt sich zu fügen, floh er wenige Monate später in einer Nacht- und Nebelaktion aus Württemberg, mittellos, ohne gesicherte Zukunft, nur um sich der Zensur des Herzogs endgültig zu entziehen. Der Wolf, der lieber das eigene Rudel und die eigene Sicherheit verlässt, als sich einer Autorität zu unterwerfen, die er nicht mehr respektieren kann.</p>
+          <p class="vb-intro">Diese Konfrontationsbereitschaft blieb sein Leben lang Programm: Seine Dramen "Kabale und Liebe" und "Don Karlos" führen erneut Tyrannei, Machtmissbrauch und den Kampf des Einzelnen um Freiheit und Würde vor – nie als abstrakte Theorie, sondern als zugespitzter, oft lebensgefährlicher Konflikt zwischen Individuum und Obrigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug in Theorie, Geschichte und System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sexuellen Sechs analytische Tiefe und die Fähigkeit, sich in ein durchdachtes Gedankengebäude zurückzuziehen, bis jede Position argumentativ abgesichert ist. Nach den stürmischen Jugenddramen wandte sich Schiller zunehmend der Geschichtsschreibung und der Philosophie zu: 1789 wurde er, ohne akademischen Doktortitel, auf Empfehlung Goethes zum Professor für Geschichte in Jena berufen.</p>
+          <p class="vb-intro">In seinen "Briefen über die ästhetische Erziehung des Menschen" entwickelte er, ausgehend von Kant, ein systematisches philosophisches Konzept, wie der Mensch durch Kunst und Schönheit zu innerer Freiheit finden könne – eine hochkomplexe, jahrelang durchdachte Theorie, kein spontaner Gefühlsausbruch. Der Fünferflügel verwandelte den jungen Wutdramatiker in einen der präzisesten Denker seiner Zeit, ohne dass die Wachsamkeit und Kampfbereitschaft der Sechs je verschwand – sie verlagerte sich nur vom offenen Konflikt in die argumentative Verteidigung einer Idee.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Dem eigenen Körper die Stirn geboten: Die letzten vierzehn Jahre</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1791 erlitt Schiller eine schwere, vermutlich mit Tuberkulose zusammenhängende Krankheitskrise mit hohem Fieber und Krämpfen, die ihn beinahe das Leben kostete und von der er sich nie vollständig erholte. Statt sich zurückzuziehen, arbeitete er die verbleibenden vierzehn Lebensjahre unter dem ständigen Druck einer fortschreitenden Erkrankung – und schrieb in genau dieser Zeit sein bedeutendstes Alterswerk: die "Wallenstein"-Trilogie, "Maria Stuart", "Die Jungfrau von Orleans" und "Wilhelm Tell".</p>
+          <p class="vb-intro">Freunde berichteten, Schiller habe nachts oft nur mit Hilfe von starkem Kaffee und Champagner weiterarbeiten können, wenn der Körper längst hätte aufgeben wollen. Das ist die SX6w5 in ihrer kompromisslosesten Form: nicht dem eigenen Verfall auszuweichen, sondern ihm mit derselben Härte zu begegnen, mit der Schiller einst dem Herzog Karl Eugen begegnet war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Goethe: Zwei Bautypen im gemeinsamen Gespräch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1794 begann die enge Freundschaft zwischen Schiller und Johann Wolfgang von Goethe (SO7w6) – eine der folgenreichsten Künstlerbeziehungen der deutschen Literaturgeschichte. Über mehr als tausend erhaltene Briefe hinweg diskutierten die beiden Ästhetik, Dramaturgie und Philosophie, gaben gemeinsam die Zeitschrift "Die Horen" heraus und verfassten gemeinsam die scharfzüngigen "Xenien" gegen literarische Gegner.</p>
+          <p class="vb-intro">Wo Goethes soziale Sieben rastlos neue Bauwerke in alle Richtungen errichtete, ohne je fertig zu werden, verteidigte Schillers sexuelle Sechs mit Fünferflügel eine begrenzte Zahl zentraler Überzeugungen mit unerbittlicher, kompromissloser Konsequenz – zwei sehr unterschiedliche Energien, die sich gegenseitig zu Höchstleistungen anspornten. Als Schiller 1805 mit nur 45 Jahren starb, schrieb Goethe, ihm sei "die Hälfte seines Daseins" genommen worden – ein Satz, der zeigt, wie sehr auch der rastlose Biber den kompromisslosen Wolf als unersetzlichen Gefährten brauchte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Eine Ode, die zur Weltsprache der Freiheit wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schillers 1785 verfasstes Gedicht "An die Freude" wurde 1824 von Ludwig van Beethoven (SX6w5) – demselben Subtyp wie Schiller selbst – im Finalsatz seiner Neunten Symphonie vertont und avancierte später zur Europahymne: ein Wolf, der die Worte eines anderen Wolfes zur universellen Botschaft von Freiheit und Brüderlichkeit machte.</p>
+          <p class="vb-intro">Schiller starb 1805 in Weimar, erschöpft von vierzehn Jahren Arbeit gegen den eigenen zerfallenden Körper. Das ist das Vermächtnis der SX6w5: eine Energie, die sich weder von einem Herzog noch von der eigenen Sterblichkeit zum Schweigen bringen ließ, sondern beides als Bedrohung erkannte, der man sich stellt – nicht, vor der man flieht. Der Wolf, der bis zur letzten Zeile kämpfte, für Freiheit, für Würde, für die eigene, nicht verhandelbare Stimme.</p>
+        </blockquote>
+
+        <p class="vb-intro">Die seit der Kindheit fragile Konstitution und die vierzehn Jahre Arbeit gegen den eigenen, zunehmend zerstörten Körper werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-friedrich-schiller">Krankheitsporträt zu Schiller</a> gedeutet.</p>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"krankheitsportraets-friedrich-schiller", label:"Krankheitsporträt: Friedrich Schiller (SX6w5)"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-johann-wolfgang-von-goethe", label:"Porträt: Johann Wolfgang von Goethe (SO7w6) – enger Freund und Briefpartner"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – vertonte Schillers ›Ode an die Freude‹"},
       ])}
     </div>
   `);
@@ -68456,6 +68532,187 @@ function karlLagerfeldKrankheitsportraetPage() {
         {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8) – Gegenmodell: direkte Offenlegung statt Dementi"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so3", label:"Subtyp-Profil SO3"},
+      ])}
+    </div>
+  `);
+}
+
+function friedrichSchillerKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-friedrich-schiller-portrait.jpg" alt="Friedrich Schiller" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Friedrich Schiller</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexueller Typ 6 mit Fünferflügel · 1759–1805</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Tierentsprechung: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Friedrich Schiller</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-friedrich-schiller">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift wird:
+        eine seit der Kindheit anfällige Konstitution, ein vermutlich während des
+        Medizinstudiums erworbener Tuberkulose-Keim und vierzehn Jahre Arbeit gegen einen
+        Körper, der bereits 1791 lebensbedrohlich zusammengebrochen war.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Schiller</strong> ist der <strong>sexuellen Sechs mit Fünferflügel</strong>
+        zugeordnet. Naranjo beschrieb die SX6 als Kontratyp der Sechs: Statt sich vor Bedrohung
+        zurückzuziehen, begegnet sie ihr mit demonstrativer Stärke. Der Fünferflügel bringt
+        analytische Tiefe und die Fähigkeit, sich in Arbeit und Struktur zu vertiefen, bis
+        keine Kraft mehr übrig ist – ein Muster, das sich bis in Schillers letzte, von
+        fortschreitender Krankheit gezeichnete Lebensjahre nachverfolgen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Der eigene Körper als weiterer Gegner, dem man sich stellt:</strong>
+        Schillers Blick auf die eigene, fortschreitende Krankheit war derselbe wie auf jede
+        andere Bedrohung seines Lebens – nicht ausweichen, sondern weiterarbeiten, als ließe
+        sich der Verfall durch Willenskraft aufhalten.</p>
+        <p class="vb-intro"><strong>b) Warnzeichen als Hindernis, nicht als Grenze:</strong>
+        Schon an der Karlsschule lag der junge Schiller wiederholt wegen Husten und
+        Lungenkatarrhen im Krankenzimmer – ein früher Hinweis auf eine fragile Konstitution,
+        die er zeitlebens nicht als Grenze, sondern als weiteres Hindernis behandelte.</p>
+        <p class="vb-intro"><strong>c) Nächte, die dem Tag abgerungen wurden:</strong>
+        Goethe bemerkte über Schillers Arbeitsweise bewundernd und zugleich besorgt: „Seine
+        durchwachten Nächte haben unseren Tag erhellt" – eine Beobachtung, die zeigt, wie sehr
+        Schillers Umfeld die Kosten seiner Arbeitsweise bereits ahnte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein möglicher Ursprung während des Medizinstudiums:</strong>
+        Während seines erzwungenen Medizinstudiums an der Karlsschule obduzierte Schiller
+        einen Kommilitonen, der an Lungentuberkulose gestorben war. Historiker und Mediziner
+        gehen davon aus, dass er sich in dieser Zeit den Krankheitskeim zuzog, der ihn fortan
+        begleitete.</p>
+        <p class="vb-intro"><strong>b) Raubbau am eigenen Körper als Lebensstil:</strong>
+        Schiller arbeitete oft die ganze Nacht durch, ernährte sich unregelmäßig und
+        schlecht und litt unter chronischen Verdauungsproblemen und wiederkehrenden
+        Infekten – eine Lebensweise, die seine ohnehin fragile Konstitution zusätzlich
+        schwächte.</p>
+        <p class="vb-intro"><strong>c) Der Zusammenbruch von 1791:</strong>
+        Mit 32 Jahren erlitt Schiller die ersten wiederkehrenden, lebensbedrohlichen Anfälle
+        von schwerem Fieber, heftigem Husten mit Blutauswurf und Ohnmachten – vermutlich
+        schwere Schübe der Tuberkulose. Er erholte sich danach nie wieder vollständig.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Vierzehn Jahre Arbeit gegen den eigenen Verfall:</strong>
+        Nach 1791 lebte und arbeitete Schiller weitere vierzehn Jahre unter dem ständigen
+        Druck der fortschreitenden Krankheit – und schrieb ausgerechnet in dieser Zeit sein
+        bedeutendstes Alterswerk: die Wallenstein-Trilogie, Maria Stuart, Die Jungfrau von
+        Orleans und Wilhelm Tell.</p>
+        <p class="vb-intro"><strong>b) Rascher Verfall im Frühjahr 1805:</strong>
+        Nach einem Theaterbesuch am 1. Mai 1805 erlitt Schiller einen schweren Zusammenbruch
+        mit Fieberkrämpfen. Acht Tage später, am 9. Mai 1805, starb er im Alter von nur 45
+        Jahren an einer akuten Lungenentzündung.</p>
+        <p class="vb-intro"><strong>c) Ein Obduktionsbefund, der selbst die behandelnden Ärzte erschütterte:</strong>
+        Die Obduktion am Tag nach seinem Tod ergab einen völlig zerstörten, vernarbten und
+        fest mit dem Herzbeutel verwachsenen rechten Lungenflügel, stark angegriffene, „fast
+        aufgelöste" Nieren und einen altersuntypisch zurückgebildeten Herzmuskel.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Arzturteil, das Fassungslosigkeit ausdrückte:</strong>
+        Der behandelnde Arzt fasste den Zustand des verstorbenen Dichters in dem später oft
+        zitierten Satz zusammen: „Bei diesen Umständen muss man sich wundern, wie der arme
+        Mann so lange hat leben können."</p>
+        <p class="vb-intro"><strong>b) Ein Körper, der längst hätte aufgeben müssen:</strong>
+        Der Obduktionsbefund zeigt, dass Schillers Organismus über Jahre hinweg auf einem
+        Bruchteil seiner eigentlichen Funktionsfähigkeit weiterarbeitete – medizinisch kaum
+        erklärbar, außer durch schiere Widerstandskraft.</p>
+        <p class="vb-intro"><strong>c) Kreativität, die mit dem Verfall parallel zunahm:</strong>
+        Statt nachzulassen, entstanden gerade in den letzten, von Krankheit gezeichneten
+        Lebensjahren einige seiner reifsten und bedeutendsten Werke – ein Befund, der viele
+        Zeitgenossen und spätere Biografen ratlos zurückließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Wolf, der sich nicht zurückzog, sondern angriff:</strong>
+        Wie er einst dem Herzog Karl Eugen und der Zensur die Stirn geboten hatte, begegnete
+        Schiller auch der eigenen Krankheit nicht mit Rückzug, sondern mit fortgesetzter,
+        kompromissloser Arbeit.</p>
+        <p class="vb-intro"><strong>b) Energie, die bis zur physiologischen Erschöpfung reichte:</strong>
+        Die durchwachten Nächte, von Goethe bewundernd beschrieben, waren zugleich ein
+        fortlaufender Raubbau – Energie, die dem eigenen Körper buchstäblich entzogen wurde, um
+        das Werk voranzutreiben.</p>
+        <p class="vb-intro"><strong>c) Kein Innehalten bis zum letzten Zusammenbruch:</strong>
+        Noch acht Tage vor seinem Tod besuchte Schiller ein Theater – ein Leben, das bis
+        buchstäblich zum letzten möglichen Moment nach außen gerichtet blieb, statt sich
+        zurückzuziehen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine fragile Konstitution seit der Kindheit:</strong>
+        Bereits als Kind galt Schiller als zart und anfällig – ein Muster, das sich durch die
+        Jahre an der Karlsschule mit wiederholten Lungenkatarrhen fortsetzte, lange bevor die
+        eigentliche Erkrankung ausbrach.</p>
+        <p class="vb-intro"><strong>b) Vierzehn Jahre zwischen Zusammenbruch und Tod:</strong>
+        Vom ersten lebensbedrohlichen Anfall 1791 bis zu seinem Tod 1805 lebte Schiller
+        anderthalb Jahrzehnte mit einer Krankheit, die er nie öffentlich in den Mittelpunkt
+        stellte, sondern die er durch fortgesetzte Arbeit gewissermaßen überschrieb.</p>
+        <p class="vb-intro"><strong>c) Konfrontation statt Schonung als durchgehendes Muster:</strong>
+        Anders als Karl Lagerfeld, der seine Krankheit hinter einem makellosen Bild verbarg,
+        oder David Bowie, der sie künstlerisch verschlüsselte, verbarg Schiller seine Krankheit
+        nicht – er ignorierte sie schlicht durch fortgesetzte, unvermindert intensive Arbeit,
+        bis der Körper keine weitere Konfrontation mehr zuließ.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Lunge, das Organ der Stimme?</strong>
+        Der Obduktionsbefund zeigt einen Lungenflügel, der über Jahre hinweg vernarbte und
+        schließlich vollständig funktionsunfähig wurde. Für eine sexuelle Sechs, deren
+        gesamtes Werk aus dem lauten, kompromisslosen Widerspruch gegen Tyrannei und
+        Unterdrückung bestand – deren Stimme selbst zur Waffe wurde –, liegt eine Deutung
+        nahe: ausgerechnet das Organ, das Stimme, Atem und Widerstand physisch trägt, wurde
+        Schauplatz eines jahrzehntelangen, unsichtbaren Kampfes, den er nie durch Rückzug,
+        sondern immer nur durch Weiterarbeiten zu gewinnen versuchte. Der Wolf, der so lange
+        weiterkämpfte, bis buchstäblich kein Atem mehr blieb. Diese Deutung wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu
+        Lungenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Schillers Fall zeigen lässt, ist ein
+        Muster, das bei dem Bedürfnis, Bedrohung – auch die eigene Sterblichkeit – nicht durch
+        Rückzug, sondern durch fortgesetzte Konfrontation zu bewältigen, in der Praxis immer
+        wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Schiller</strong> verkörpert die sexuelle Sechs mit Fünferflügel bis in die
+        eigene Krankheitsgeschichte hinein: eine seit der Kindheit fragile Konstitution, ein
+        wahrscheinlich im Medizinstudium erworbener Krankheitskeim und vierzehn Jahre
+        kompromissloser Arbeit gegen einen zunehmend zerstörten Körper, bis am 9. Mai 1805
+        buchstäblich kein Widerstand mehr möglich war. Der Wolf, der der Bedrohung – der
+        Zensur wie der eigenen Sterblichkeit – nie auswich, sondern ihr bis zur letzten
+        Konsequenz die Stirn bot.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-friedrich-schiller", label:"Porträt: Friedrich Schiller (SX6w5) – Lebenswerk"},
+        {route:"beruehmte-johann-wolfgang-von-goethe", label:"Porträt: Johann Wolfgang von Goethe (SO7w6) – enger Freund und Briefpartner"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – Gegenmodell: Verbergen statt Konfrontation"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
       ])}
     </div>
   `);
@@ -97166,6 +97423,7 @@ function render() {
       "beruehmte-franz-kafka": franzKafkaPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
+      "beruehmte-friedrich-schiller": friedrichSchillerPortraitPage,
       "beruehmte-ludwig-van-beethoven": ludwigVanBeethovenPortraitPage,
       "beruehmte-platon": platonPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
@@ -97464,6 +97722,7 @@ function render() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,

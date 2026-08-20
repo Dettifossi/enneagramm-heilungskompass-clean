@@ -201,6 +201,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Social Type 9", krankheit:"Alzheimer's Disease", teaser:"SO9w8 – 40th US President 1981–1989, 1911–2004. Announced his Alzheimer's diagnosis in 1994 in a handwritten letter to the American public, then withdrew almost entirely from public life for the following ten years." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Social Type 1", krankheit:"Liver Cancer", teaser:"SO1w2 – musician and artist, 1947–2016. Fought liver cancer in secret for 18 months and transformed the diagnosis into his final work, the album Blackstar, released two days before his death." , land:"United Kingdom", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Self-Preservation Type 2", krankheit:"Febrile Illness with Kidney Failure (likely following a streptococcal infection)", teaser:"SE2w3 – Austrian composer, 1756–1791. A lifelong chain of feverish illnesses since childhood (smallpox, typhoid fever, recurring scarlet fever) preceded his death at 35 after a two-week illness with fever and generalized swelling – while he was working on three major works at once, including the unfinished Requiem." , land:"Austria", gender:"m", jahre:"1756–1791"},
+  { route:"krankheitsportraets-friedrich-schiller", name:"Friedrich Schiller", subtyp:"SX6w5", heading:"Friedrich Schiller – Sexual Type 6", krankheit:"Pulmonary Tuberculosis", teaser:"SX6w5 – poet, playwright, and historian, 1759–1805. Fragile constitution since childhood, recurring life-threatening fever and coughing fits from 1791 onward, fourteen years of uncompromising work against his own decline. Died in 1805 at 45 of acute pneumonia – the autopsy found a completely destroyed lung." , land:"Germany", gender:"m", jahre:"1759–1805"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Social Type 3", krankheit:"Cancer (cause of death never officially confirmed; assistant reported prostate cancer, diagnosed 2015)", teaser:"SO3w4 – fashion designer and Chanel creative director, 1933–2019. According to consistent reports, kept a cancer diagnosis secret for nearly four years even from those closest to him, and missed a Chanel show for the first time in 35 years only four weeks before his death." , land:"Germany/France", gender:"m", jahre:"1933–2019"},
 ];
 
@@ -1029,6 +1030,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Plato – Sexual Type 6",
     teaser:"SX6w5 · c. 428–348 BC. Greek philosopher, student of Socrates, founder of the Academy. Theory of Forms, Allegory of the Cave, 'Republic'. The Wolf with the Five-wing: turning the betrayal of Socrates into an unshakeable order. Animal correspondence: Wolf.",
     land:"United Kingdom", tags:["History","Philosophy"], gender:"m"},
+{ route:"beruehmte-friedrich-schiller", name:"Friedrich Schiller", added:"2026-08-20", subtyp:"SX6w5",
+    heading:"Friedrich Schiller – Sexual Type 6",
+    teaser:"SX6w5 · 1759–1805. Poet, playwright, historian. The Robbers, Intrigue and Love, Don Carlos, William Tell. Fled Württemberg to escape the Duke's censorship, and wrote his most significant late work under a progressing, fatal illness. Close friend of Goethe.",
+    land:"Germany", tags:["Literature","Philosophy"], gender:"m"},
 { route:"beruehmte-ludwig-van-beethoven", name:"Ludwig van Beethoven", added:"2026-08-13", subtyp:"SX6w5",
     heading:"Ludwig van Beethoven – Sexual Type 6",
     teaser:"SX6w5 · 1770–1827. German composer. Ninth Symphony, Moonlight Sonata, Eroica. The Wolf who didn't defeat his advancing deafness but leapt at fear's throat with defiant creative force – 'I will seize Fate by the throat.'",
@@ -27650,9 +27655,79 @@ function ludwigVanBeethovenPortraitPage() {
         {route:"beruehmte-johann-sebastian-bach", label:"Portrait: Johann Sebastian Bach (SX1w9)"},
         {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SE3w2) \u2013 his brief teacher"},
         {route:"subtype/sx6", label:"SX6 \u2013 The Wolf: Subtype Profile"},
+        {route:"beruehmte-friedrich-schiller", label:"Portrait: Friedrich Schiller (SX6w5) \u2013 whose \u2018Ode to Joy\u2019 he set to music in the Ninth"},
         {route:"beruehmte-wladimir-putin", label:"Portrait: Vladimir Putin (SX6w5)"},
         {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
         {route:"beruehmte-napoleon-bonaparte", label:"Portrait: Napoleon Bonaparte (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function friedrichSchillerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-friedrich-schiller-portrait.jpg" alt="Friedrich Schiller" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Friedrich Schiller</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Poet, playwright, historian, 1759&ndash;1805 &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf Who Bared Its Teeth at Censorship</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of Sexual Type 6 &ndash; a pack animal that does not avoid threat but meets it head-on. Few poets in German literary history embody this pattern as unmistakably as Friedrich Schiller, whose early work was one open attack on the tyranny of his time &ndash; written under the eyes of the very authority it targeted.</p>
+          <p class="vb-intro">Born in 1759 in Marbach am Neckar, the son of a military surgeon, young Schiller was forced at fourteen, against his own and his parents' will, into the Karlsschule of the W\u00fcrttemberg Duke Karl Eugen &ndash; a militarily strict cadet academy where he had to study medicine against his inclination, instead of theology. Out of this years-long, enforced submission to an arbitrary authority grew a foundational pattern that runs through his entire body of work: the refusal to bow to a power he experienced as unjust.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Six: Strength as Counter-Fear Against the Duke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Sexual Six (SX6)</strong> is, according to Naranjo, the <strong>counter-type</strong> of the Six &ndash; instead of withdrawing from threat, it meets it with demonstrated strength. Schiller lived this already as a student: secretly, against the rules of the Karlsschule, he wrote his first drama "The Robbers" &ndash; so inflammatory an indictment of arbitrary rule and social rigidity that its 1782 premiere in Mannheim drove the audience to tears and uproar.</p>
+          <p class="vb-intro">To attend the premiere himself, Schiller left W\u00fcrttemberg without the Duke's permission &ndash; an open violation of the rules, for which he was briefly imprisoned and banned from writing anything except medical texts. Rather than submitting, he fled W\u00fcrttemberg a few months later in a night-time escape, penniless, with no secure future, simply to escape the Duke's censorship for good. The wolf that would rather leave its own pack and its own safety than submit to an authority it can no longer respect.</p>
+          <p class="vb-intro">This readiness for confrontation remained his program for life: his plays "Intrigue and Love" and "Don Carlos" again depict tyranny, abuse of power, and the individual's fight for freedom and dignity &ndash; never as abstract theory, but as a sharply drawn, often life-threatening conflict between the individual and authority.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Retreat into Theory, History, and System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-Wing (w5)</strong> gives the Sexual Six analytical depth and the ability to retreat into a thoroughly reasoned framework of ideas until every position is argumentatively secured. After the turbulent dramas of his youth, Schiller increasingly turned to historiography and philosophy: in 1789, without a formal doctorate, he was appointed professor of history in Jena on Goethe's recommendation.</p>
+          <p class="vb-intro">In his "Letters on the Aesthetic Education of Man," building on Kant, he developed a systematic philosophical concept of how human beings might find inner freedom through art and beauty &ndash; a highly complex theory reasoned out over years, not a spontaneous outburst of feeling. The Five-Wing turned the young rebel-dramatist into one of the most precise thinkers of his time, without the Six's vigilance and readiness for combat ever disappearing &ndash; it merely shifted from open conflict into the argumentative defense of an idea.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Facing Down His Own Body: The Final Fourteen Years</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1791, Schiller suffered a severe health crisis, likely tuberculosis-related, with high fever and convulsions that nearly cost him his life and from which he never fully recovered. Rather than withdrawing, he worked the remaining fourteen years of his life under the constant pressure of a progressing illness &ndash; and wrote, in precisely this period, his most significant late work: the "Wallenstein" trilogy, "Mary Stuart," "The Maid of Orleans," and "William Tell."</p>
+          <p class="vb-intro">Friends reported that Schiller often could only keep working at night with the help of strong coffee and champagne, when his body had long wanted to give up. This is SX6w5 at its most uncompromising: not evading one's own decline, but meeting it with the same hardness with which Schiller had once met Duke Karl Eugen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Goethe: Two Building Types in Shared Conversation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1794, the close friendship between Schiller and Johann Wolfgang von Goethe (SO7w6) began &ndash; one of the most consequential artistic relationships in German literary history. Across more than a thousand surviving letters, the two discussed aesthetics, dramaturgy, and philosophy, co-edited the journal "Die Horen," and jointly wrote the sharp-tongued "Xenien" against literary opponents.</p>
+          <p class="vb-intro">Where Goethe's Social Seven restlessly erected new structures in every direction without ever finishing, Schiller's Sexual Six with Five-wing defended a limited number of central convictions with relentless, uncompromising consistency &ndash; two very different energies that spurred each other to their best work. When Schiller died in 1805 at only 45, Goethe wrote that he had lost "half of his existence" &ndash; a sentence that shows how much even the restless beaver needed the uncompromising wolf as an irreplaceable companion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: An Ode That Became the World's Language of Freedom</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schiller's 1785 poem "Ode to Joy" was set to music in 1824 by Ludwig van Beethoven (SX6w5) &ndash; the same subtype as Schiller himself &ndash; in the finale of his Ninth Symphony, and later became Europe's anthem: one wolf turning another wolf's words into a universal message of freedom and brotherhood.</p>
+          <p class="vb-intro">Schiller died in 1805 in Weimar, exhausted from fourteen years of work against his own failing body. This is the legacy of SX6w5: an energy that would be silenced neither by a duke nor by its own mortality, but recognized both as threats to be confronted &ndash; not fled from. The wolf that fought to the last line, for freedom, for dignity, for its own, non-negotiable voice.</p>
+        </blockquote>
+
+        <p class="vb-intro">The fragile constitution he lived with since childhood and the fourteen years of work against his own, increasingly destroyed body are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-friedrich-schiller">Illness Portrait of Schiller</a>.</p>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"krankheitsportraets-friedrich-schiller", label:"Illness Portrait: Friedrich Schiller (SX6w5)"},
+        {route:"subtype/sx6", label:"SX6 \u2013 The Wolf: Subtype Profile"},
+        {route:"beruehmte-johann-wolfgang-von-goethe", label:"Portrait: Johann Wolfgang von Goethe (SO7w6) \u2013 close friend and correspondent"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5) \u2013 set Schiller\u2019s \u2018Ode to Joy\u2019 to music"},
       ])}
     </div>
   `);
@@ -30135,6 +30210,7 @@ function johannWolfgangVonGoethePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-friedrich-schiller", label:"Portrait: Friedrich Schiller (SX6w5) – close friend and correspondent"},
         {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
         {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
         {route:"beruehmte-jeanne-marie-guyon", label:"Portrait: Jeanne-Marie Bouvier de la Motte Guyon (SO7w6)"},
@@ -41572,6 +41648,178 @@ function karlLagerfeldKrankheitsportraetPage() {
         {route:"krankheitsportraets-ronald-reagan", label:"Illness Portrait: Ronald Reagan (SO9w8) – counter-model: direct disclosure rather than denial"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so3", label:"Subtype Profile SO3"},
+      ])}
+    </div>
+  `);
+}
+
+function friedrichSchillerKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-friedrich-schiller-portrait.jpg" alt="Friedrich Schiller" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Friedrich Schiller</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexual Type 6 with Five-wing · 1759–1805</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Animal correspondence: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Friedrich Schiller</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-friedrich-schiller">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and type structure in general.
+        This page deals exclusively with a chapter only briefly touched on there: a fragile
+        constitution since childhood, a tuberculosis germ likely contracted during his medical
+        studies, and fourteen years of work against a body that had already collapsed,
+        life-threateningly, in 1791.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Schiller</strong> is classified as the <strong>Sexual Six with Five-wing</strong>.
+        Naranjo described SX6 as the Six's counter-type: rather than withdrawing from threat,
+        it meets it with demonstrated strength. The Five-wing adds analytical depth and the
+        ability to immerse itself in work and structure until no strength remains – a pattern
+        that can be traced right into Schiller's final years, marked by progressing illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) His own body as one more opponent to be confronted:</strong>
+        Schiller's view of his own progressing illness was the same as his view of every other
+        threat in his life – not to evade it, but to keep working, as if sheer willpower could
+        halt the decline.</p>
+        <p class="vb-intro"><strong>b) Warning signs as obstacles, not limits:</strong>
+        Already at the Karlsschule, the young Schiller repeatedly lay in the infirmary with
+        coughs and lung catarrh – an early sign of a fragile constitution that he treated his
+        whole life not as a limit, but as one more obstacle.</p>
+        <p class="vb-intro"><strong>c) Nights wrested from the day:</strong>
+        Goethe remarked on Schiller's working method with admiration and concern in equal
+        measure: "His sleepless nights illuminated our days" – an observation that shows how
+        clearly those around Schiller already sensed the cost of his way of working.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) A possible origin during his medical studies:</strong>
+        During his enforced medical studies at the Karlsschule, Schiller dissected a fellow
+        student who had died of pulmonary tuberculosis. Historians and physicians believe he
+        may have contracted the illness that would accompany him from then on during this
+        period.</p>
+        <p class="vb-intro"><strong>b) Wearing down his own body as a way of life:</strong>
+        Schiller often worked through the entire night, ate irregularly and poorly, and
+        suffered from chronic digestive problems and recurring infections – a lifestyle that
+        further weakened his already fragile constitution.</p>
+        <p class="vb-intro"><strong>c) The collapse of 1791:</strong>
+        At 32, Schiller suffered the first of recurring, life-threatening attacks of severe
+        fever, violent coughing with blood, and fainting spells – likely severe flare-ups of
+        tuberculosis. He never fully recovered afterward.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Fourteen years of work against his own decline:</strong>
+        After 1791, Schiller lived and worked another fourteen years under the constant
+        pressure of a progressing illness – and wrote, in precisely this period, his most
+        significant late work: the "Wallenstein" trilogy, "Mary Stuart," "The Maid of Orleans,"
+        and "William Tell."</p>
+        <p class="vb-intro"><strong>b) Rapid decline in the spring of 1805:</strong>
+        After attending the theater on May 1, 1805, Schiller suffered a severe collapse with
+        febrile convulsions. Eight days later, on May 9, 1805, he died at only 45 years of age
+        of acute pneumonia.</p>
+        <p class="vb-intro"><strong>c) An autopsy finding that shocked even the treating physicians:</strong>
+        The autopsy performed the day after his death found a right lung completely destroyed,
+        scarred, and firmly fused to the pericardium, severely damaged, "almost dissolved"
+        kidneys, and a heart muscle atrophied in a way unusual for his age.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A doctor's verdict that expressed sheer disbelief:</strong>
+        The treating physician summed up the state of the deceased poet in a sentence later
+        often quoted: "Given these circumstances, one must wonder how the poor man was able
+        to live so long."</p>
+        <p class="vb-intro"><strong>b) A body that should long since have given out:</strong>
+        The autopsy findings show that Schiller's organism had been functioning for years at a
+        fraction of its actual capacity – medically almost inexplicable, except through sheer
+        force of resistance.</p>
+        <p class="vb-intro"><strong>c) Creativity that rose in parallel with the decline:</strong>
+        Rather than tapering off, some of his most mature and significant works emerged
+        precisely in the last years marked by illness – a finding that left many
+        contemporaries and later biographers baffled.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The wolf that did not retreat, but attacked:</strong>
+        Just as he had once stood his ground against Duke Karl Eugen and censorship, Schiller
+        met his own illness not with withdrawal, but with continued, uncompromising work.</p>
+        <p class="vb-intro"><strong>b) Energy drawn to the point of physiological exhaustion:</strong>
+        The sleepless nights Goethe admiringly described were, at the same time, an ongoing
+        depletion – energy literally drawn from his own body to keep the work moving forward.</p>
+        <p class="vb-intro"><strong>c) No pause before the final collapse:</strong>
+        Even eight days before his death, Schiller attended the theater – a life that stayed
+        turned outward almost to the literal last possible moment, rather than withdrawing.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A fragile constitution since childhood:</strong>
+        Even as a child Schiller was considered delicate and susceptible – a pattern that
+        continued through his years at the Karlsschule with repeated lung catarrh, long before
+        the actual illness broke out.</p>
+        <p class="vb-intro"><strong>b) Fourteen years between collapse and death:</strong>
+        From the first life-threatening attack in 1791 to his death in 1805, Schiller lived a
+        decade and a half with an illness he never publicly placed at the center of his life,
+        but which he, in effect, overwrote through continued work.</p>
+        <p class="vb-intro"><strong>c) Confrontation instead of self-protection as a consistent pattern:</strong>
+        Unlike Karl Lagerfeld, who hid his illness behind a flawless image, or David Bowie, who
+        encoded his in art, Schiller did not hide his illness at all – he simply ignored it
+        through continued, undiminished intensity of work, until his body no longer allowed
+        further confrontation.</p>
+        <p class="vb-intro"><strong>d) Why, of all things, the lung – the organ of voice?</strong>
+        The autopsy findings show a lung that scarred over years and eventually became
+        completely non-functional. For a Sexual Six whose entire body of work consisted of
+        loud, uncompromising opposition to tyranny and oppression – whose voice itself became
+        a weapon – one reading suggests itself: precisely the organ that physically carries
+        voice, breath, and resistance became the site of a decades-long, invisible battle that
+        he never tried to win by retreating, only ever by continuing to work. The wolf that
+        kept fighting until, quite literally, no breath remained. This reading is explored in
+        more depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        This does not mean the Sexual Six's pattern inevitably leads to lung disease –
+        <strong>every person can develop any illness, regardless of subtype.</strong> What
+        Schiller's case can show is a pattern that stands out again and again in practice
+        wherever the need exists to meet threat – including one's own mortality – not through
+        withdrawal but through continued confrontation – one possible explanation among many,
+        not a verdict. The corresponding condition will be developed step by step in this
+        Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Schiller</strong> embodies the Sexual Six with Five-wing right down into his
+        own illness history: a fragile constitution since childhood, a germ likely contracted
+        during his medical studies, and fourteen years of uncompromising work against an
+        increasingly destroyed body, until on May 9, 1805, literally no further resistance was
+        possible. The wolf that never evaded threat – whether censorship or its own
+        mortality – but faced it down to the very last consequence.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-friedrich-schiller", label:"Portrait: Friedrich Schiller (SX6w5) – life's work"},
+        {route:"beruehmte-johann-wolfgang-von-goethe", label:"Portrait: Johann Wolfgang von Goethe (SO7w6) – close friend and correspondent"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – counter-model: concealment rather than confrontation"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx6", label:"Subtype Profile SX6"},
       ])}
     </div>
   `);
@@ -62652,6 +62900,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-franz-kafka": franzKafkaPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
+      "beruehmte-friedrich-schiller": friedrichSchillerPortraitPage,
       "beruehmte-ludwig-van-beethoven": ludwigVanBeethovenPortraitPage,
       "beruehmte-platon": platonPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
@@ -62960,6 +63209,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
