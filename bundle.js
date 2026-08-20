@@ -65515,6 +65515,12 @@ function freudKrankheitsportraetPage() {
         </div>
         <p class="krim-portrait-name">Dr. Sigmund Freud</p>
         <p class="krim-portrait-typ">SO6w5 · Sozialer Typ 6 mit Fünferflügel · 1856–1939</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Erdmännchen</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so6.jpg" alt="Tierentsprechung: Erdmännchen" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO6")};left:${tierAvatarLeft("SO6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
       </div>
       <p class="psycho-intro">
         <strong>Sigmund Freud</strong>, Begründer der Psychoanalyse, ist bereits als
@@ -65647,7 +65653,7 @@ function freudKrankheitsportraetPage() {
         gewesen wäre mit dem Aufgeben der eigenen Funktionsfähigkeit, und damit der Pflicht,
         die sein Leben trug.</p>
         <p class="vb-intro"><strong>d) Ein kontrolliertes Ende:</strong>
-        Anders als bei Molière, der seine Krankheit bis zum erzwungenen Zusammenbruch
+        Anders als bei Molière (SO7w6), der seine Krankheit bis zum erzwungenen Zusammenbruch
         verdrängte, blieb Freud sich seiner Diagnose von Anfang an bewusst – typisch für die
         wache, nie ganz sorglose Sechs. Als 1939 keine Behandlung mehr half, bat er seinen
         Arzt Max Schur ausdrücklich um eine tödliche Morphindosis. Auch das Sterben wollte er
@@ -65655,7 +65661,7 @@ function freudKrankheitsportraetPage() {
         die Kontrolle über die eigene Sicherheit behält, diesmal als bewusste Entscheidung
         über den letzten Moment.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass die soziale Sechs zwangsläufig zu Krebserkrankungen führt –
+        Das heißt nicht, dass das Muster der sozialen Sechs zwangsläufig zu Krebserkrankungen führt –
         <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
         sich an Freuds Fall zeigen lässt, ist ein Muster, das bei einer Gewohnheit, die eng
         mit der eigenen Identität und Funktionsfähigkeit verwoben ist, in der Praxis immer
@@ -65700,6 +65706,12 @@ function molierePortraitPage() {
         </div>
         <p class="krim-portrait-name">Molière (Jean-Baptiste Poquelin)</p>
         <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel · 1622–1673</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Biber</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Tierentsprechung: Biber" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
       </div>
       <p class="psycho-intro">
         <strong>Molière</strong>, eigentlich Jean-Baptiste Poquelin, ist der bedeutendste
@@ -89953,7 +89965,11 @@ function psychosomatikPage() {
     const farbe = typeColor(typNr);
     return ["SE","SO","SX"].map(inst => {
       const code = inst + typNr;
-      return `<button data-route="psychosomatik-subtyp/${code}" style="padding:.4rem .75rem;border-radius:6px;border:1.5px solid ${farbe};background:var(--bg);color:${farbe};font-size:.82rem;font-weight:700;cursor:pointer;font-family:inherit;">${code}</button>`;
+      const tierKey = code.toLowerCase();
+      return `<button data-route="psychosomatik-subtyp/${code}" style="display:inline-flex;align-items:center;gap:.35rem;padding:.35rem .7rem .35rem .4rem;border-radius:6px;border:1.5px solid ${farbe};background:var(--bg);color:${farbe};font-size:.82rem;font-weight:700;cursor:pointer;font-family:inherit;">
+        <span style="position:relative;width:22px;height:22px;border-radius:50%;overflow:hidden;flex-shrink:0;display:inline-block;box-shadow:0 0 0 1.5px ${farbe};">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${tierKey}.jpg" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+        </span>${code}</button>`;
     }).join("");
   }).join("");
 
