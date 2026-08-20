@@ -41745,10 +41745,13 @@ function friedrichSchillerKrankheitsportraetPage() {
         The treating physician summed up the state of the deceased poet in a sentence later
         often quoted: "Given these circumstances, one must wonder how the poor man was able
         to live so long."</p>
-        <p class="vb-intro"><strong>b) A body that should long since have given out:</strong>
+        <p class="vb-intro"><strong>b) A weakened body, carried by one of the most willpower-driven constitutions of the Enneagram:</strong>
         The autopsy findings show that Schiller's organism had been functioning for years at a
-        fraction of its actual capacity – medically almost inexplicable, except through sheer
-        force of resistance.</p>
+        fraction of its actual capacity. Medically, that is barely explicable through the
+        body itself – but it is explicable through the mental willpower of the Sexual Six,
+        which ranks among the most willpower-driven of the Enneagram's 27 subtypes. It was
+        not the weakened body that endured, but the principle that kept driving it forward
+        regardless – exactly what left the treating physician so astonished.</p>
         <p class="vb-intro"><strong>c) Creativity that rose in parallel with the decline:</strong>
         Rather than tapering off, some of his most mature and significant works emerged
         precisely in the last years marked by illness – a finding that left many

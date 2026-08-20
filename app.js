@@ -68631,10 +68631,14 @@ function friedrichSchillerKrankheitsportraetPage() {
         Der behandelnde Arzt fasste den Zustand des verstorbenen Dichters in dem später oft
         zitierten Satz zusammen: „Bei diesen Umständen muss man sich wundern, wie der arme
         Mann so lange hat leben können."</p>
-        <p class="vb-intro"><strong>b) Ein Körper, der längst hätte aufgeben müssen:</strong>
+        <p class="vb-intro"><strong>b) Ein geschwächter Körper, getragen von einer der willensstärksten Konstitutionen des Enneagramms:</strong>
         Der Obduktionsbefund zeigt, dass Schillers Organismus über Jahre hinweg auf einem
-        Bruchteil seiner eigentlichen Funktionsfähigkeit weiterarbeitete – medizinisch kaum
-        erklärbar, außer durch schiere Widerstandskraft.</p>
+        Bruchteil seiner eigentlichen Funktionsfähigkeit weiterarbeitete. Medizinisch lässt
+        sich das kaum durch den Körper selbst erklären – wohl aber durch die mentale
+        Willenskraft der sexuellen Sechs, die unter den 27 Subtypen des Enneagramms zu den
+        willensstärksten zählt. Nicht der geschwächte Körper hielt durch, sondern das
+        Prinzip, das ihn trotz allem weiter antrieb – genau das, was den behandelnden Arzt so
+        erstaunte.</p>
         <p class="vb-intro"><strong>c) Kreativität, die mit dem Verfall parallel zunahm:</strong>
         Statt nachzulassen, entstanden gerade in den letzten, von Krankheit gezeichneten
         Lebensjahren einige seiner reifsten und bedeutendsten Werke – ein Befund, der viele
