@@ -4164,6 +4164,16 @@ function startPage() {
       <a class="model-credit__link" href="https://www.enneascholars.de" target="_blank" rel="noopener">More on David’s Work → enneascholars.de</a>
     </section>
 
+    <section style="max-width:680px;margin:1.4rem auto 0;padding:0 1rem;">
+      <div style="background:rgba(180,120,0,0.07);border:1px solid var(--gold,#c4a456);border-radius:12px;padding:0.9rem 1.1rem;font-size:0.83rem;color:var(--ink);line-height:1.5;">
+        <strong>💡 Tip:</strong> The Compass is especially easy to navigate on a tablet. If you're looking for one:
+        <a href="https://www.amazon.de/Apple-iPad-mit-A16-Chip/dp/B0DZ768LXJ?linkCode=ll2&tag=enneagrammkom-21&linkId=a890798e4a26c6b4733dd802af4166a1&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" style="color:var(--copper);font-weight:600;">Apple iPad</a>
+        ·
+        <a href="https://www.amazon.de/Samsung-AI-Tablet-Speicher-Akkulaufzeit-Herstellergarantie/dp/B0DZJ7QQBJ?linkCode=ll2&tag=enneagrammkom-21&linkId=d9bc23c013f1ebef49df58cd82fa9613&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" style="color:var(--copper);font-weight:600;">Samsung Galaxy Tab</a> (lower-cost alternative)
+        <span style="color:var(--muted);"> – Advertisement, affiliate links.</span>
+      </div>
+    </section>
+
     ${hasHeilwissen() ? `
     <section id="bewertungen" style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
       <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:0.3rem;">&#11088; Rate the Compass</h2>

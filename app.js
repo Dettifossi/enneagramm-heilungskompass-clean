@@ -34937,6 +34937,16 @@ function startPage() {
       <a class="model-credit__link" href="https://www.enneascholars.de" target="_blank" rel="noopener">Mehr zu Davids Arbeit \u2192 enneascholars.de</a>
     </section>
 
+    <section style="max-width:680px;margin:1.4rem auto 0;padding:0 1rem;">
+      <div style="background:rgba(180,120,0,0.07);border:1px solid var(--gold,#c4a456);border-radius:12px;padding:0.9rem 1.1rem;font-size:0.83rem;color:var(--ink);line-height:1.5;">
+        <strong>\ud83d\udca1 Tipp:</strong> Der Kompass l\u00e4sst sich auf einem Tablet besonders \u00fcbersichtlich bedienen. Falls Sie noch eines suchen:
+        <a href="https://www.amazon.de/Apple-iPad-mit-A16-Chip/dp/B0DZ768LXJ?linkCode=ll2&tag=enneagrammkom-21&linkId=a890798e4a26c6b4733dd802af4166a1&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" style="color:var(--copper);font-weight:600;">Apple iPad</a>
+        \u00b7
+        <a href="https://www.amazon.de/Samsung-AI-Tablet-Speicher-Akkulaufzeit-Herstellergarantie/dp/B0DZJ7QQBJ?linkCode=ll2&tag=enneagrammkom-21&linkId=d9bc23c013f1ebef49df58cd82fa9613&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" style="color:var(--copper);font-weight:600;">Samsung Galaxy Tab</a> (g\u00fcnstigere Alternative)
+        <span style="color:var(--muted);"> \u2013 Werbung, Affiliate-Links.</span>
+      </div>
+    </section>
+
     ${hasHeilwissen() ? `
     <section id="bewertungen" style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
       <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:0.3rem;">&#11088; Den Kompass bewerten</h2>
