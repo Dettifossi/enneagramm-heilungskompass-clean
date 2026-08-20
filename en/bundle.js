@@ -189,6 +189,7 @@ const KRIMINAL_PORTRAITS = [
 // way would be tactless and would contradict the app's own disclaimer of "no determinism").
 const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-moliere", name:"Molière", subtyp:"SO7w6", heading:"Molière – Social Type 7", krankheit:"Chronic Lung Disease (presumably Tuberculosis)", teaser:"SO7w6 – French playwright and actor, 1622–1673. Creator of Tartuffe, The Misanthrope, and The Imaginary Invalid. Collapsed on stage during the fourth performance of The Imaginary Invalid – in the role of a hypochondriac – and died hours later of a lung ailment he had concealed for years." , land:"France", gender:"m", jahre:"1622–1673"},
+  { route:"krankheitsportraets-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5", heading:"Sigmund Freud – Social Type 6", krankheit:"Oral and Jaw Cancer", teaser:"SO6w5 – founder of psychoanalysis, 1856–1939. Diagnosed with jaw cancer in 1923, over 30 surgeries in 16 years, kept smoking cigars despite the diagnosis and refused effective painkillers for years to stay mentally clear. Died in 1939 in London exile through physician-assisted death." , land:"Austria", gender:"m", jahre:"1856–1939"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -32754,6 +32755,7 @@ function sigmundFreudPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Six leads from the question <em>Can I trust the group?</em> to the recognition <em>I can trust myself &ndash; even without a watch post.</em> For the SO6w5 this means letting go of the movement one has built &ndash; not leaving it, but no longer controlling it. Sharing knowledge without determining what becomes of it.</p>
           <p class="vb-intro">In 1938, aged 82 and gravely ill, Freud fled from Vienna to London &ndash; after the National Socialists had burned his books and destroyed his world. He kept working until shortly before his death. The meerkat at its post, until the last moment. That is the SO6w5 on its healing path: not out of duty, but because the watching itself makes sense &ndash; and because one trusts what one has seen.</p>
+          <p class="vb-intro">These final 16 years – marked by over 30 surgeries for jaw cancer that Freud, despite the diagnosis, never took as reason to give up his cigars – are covered in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-sigmund-freud">Illness Portrait on Freud</a>.</p>
         </blockquote>
 
       </div>
@@ -32761,6 +32763,7 @@ function sigmundFreudPortraitPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
+        {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5)"},
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
         {route:"beruehmte-andy-reid", label:"Portrait: Andy Reid (SO6w5)"},
@@ -32834,6 +32837,7 @@ function immanuelKantPortraitPage() {
         {route:"beruehmte-friedrich-nietzsche", label:"Portrait: Friedrich Nietzsche (SX5w4) – the sharpest critic of his duty-based ethics"},
         {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Portrait: Gottfried Wilhelm Leibniz (SO3w4) – whose rationalism shaped his early, 'dogmatic' phase of thought"},
         {route:"beruehmte-sigmund-freud", label:"Portrait: Sigmund Freud (SO6w5)"},
+        {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5) – jaw cancer despite warnings"},
       ])}
     </div>
   `);
@@ -38751,6 +38755,182 @@ function krankheitsportraetsPage() {
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"beruehmte-persoenlichkeiten", label:"Famous Personalities"},
         {route:"kriminalpsychologie", label:"Criminal Psychology"},
+      ])}
+    </div>
+  `);
+}
+
+function freudKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-sigmund-freud-portrait.jpg" alt="Dr. Sigmund Freud – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Sigmund Freud</p>
+        <p class="krim-portrait-typ">SO6w5 · Social Type 6 with Five-wing · 1856–1939</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Sigmund Freud</strong>, founder of psychoanalysis, already has a
+        <a href="javascript:void(0)" data-route="beruehmte-sigmund-freud">portrait under Famous Personalities</a>
+        in this Compass – that one covers his life's work and type structure in general.
+        This page covers only one chapter of his life that's merely touched on there:
+        starting in 1923 – Freud was 67 – he was diagnosed with cancer of the mouth and
+        jaw, the result of decades of excessive cigar smoking (up to 20 a day). Over 30
+        surgeries followed across 16 years, a disfiguring dental prosthesis he himself
+        called &bdquo;the monster&ldquo;, chronic pain – and a refusal to give up either
+        smoking or his work. In 1939, in exile in London, incurable and in agony, he asked
+        his physician Max Schur for a lethal dose of morphine. Schur granted it – one of
+        the most famous cases of physician-assisted death in medical history.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Freud</strong> is assigned to the <strong>social Six with Five-wing</strong> –
+        the same subtype as <a href="javascript:void(0)" data-route="beruehmte-immanuel-kant">Immanuel Kant</a>
+        in this Compass. Naranjo called the social Six the subtype of <em>duty</em>: security
+        arises from belonging to a community with clear rules and from fulfilling a task
+        larger than oneself – for Freud, the psychoanalytic movement he founded, led, and
+        defended to the end. The Five-wing adds the characteristic intellectual systematicity
+        and a deep need for mental clarity – exactly the need that would later determine how
+        he handled pain and dying.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Gaze Quality</h3>
+        <p class="vb-intro"><strong>a) Analytical and incorruptible:</strong>
+        Freud's gaze dissected, ordered, interpreted – patients, culture, himself. Nothing
+        stayed at the surface; everything was probed for the structure behind it. This is
+        the Five-wing: understanding as security.</p>
+        <p class="vb-intro"><strong>b) Watchful for betrayal and deviation:</strong>
+        Freud precisely registered who stayed loyal to the movement and who drifted away –
+        he experienced Jung's and Adler's splits not as intellectual disagreement but as a
+        broken bond. Typical Six-style vigilance toward one's own group.</p>
+        <p class="vb-intro"><strong>c) Unapproachable, to preserve clarity:</strong>
+        Silence, abstinence, the couch instead of eye contact – Freud's analytic setting
+        deliberately created distance. Not disinterest, but the Five-wing, which needs
+        observational space in order to see at all.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) The movement as a shelter:</strong>
+        Freud founded not just a method but an institution – the Vienna, then the
+        International Psychoanalytic Association. The social Six found security not in
+        going it alone, but in building a community of like minds.</p>
+        <p class="vb-intro"><strong>b) Uncomfortable truth as duty:</strong>
+        Sexuality as a driving force of the psyche, the unconscious as the true center of
+        mental life: these were not comfortable theses in turn-of-the-century Vienna. Freud
+        held to them anyway – duty to the truth outweighed the need for approval.</p>
+        <p class="vb-intro"><strong>c) The system as protection against doubt:</strong>
+        Drive theory, the structural model, dream interpretation – a theoretical edifice
+        built closed over decades. The Five-wing enabled this systematicity; the social Six
+        needed it as solid ground.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Qualities</h3>
+        <p class="vb-intro"><strong>a) Demanding and giving loyalty:</strong>
+        Whoever stayed true to the movement could count on Freud's support; whoever went
+        their own way lost it. This is the Six, for whom belonging is not a side issue but
+        the foundation of one's own security.</p>
+        <p class="vb-intro"><strong>b) Building authority – and distrusting it:</strong>
+        Freud became an authority himself, yet remained watchful of outside criticism
+        throughout his life, while growing increasingly authoritarian within the movement
+        itself. The Six's fate pattern: erecting authorities while fearing what happens
+        should they fall.</p>
+        <p class="vb-intro"><strong>c) Precision over intuition:</strong>
+        His works did not arise from spontaneous inspiration but from years of observing,
+        collecting, ordering. Five-wing systematicity, applied to the unconscious itself.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Respected and deeply contested:</strong>
+        Freud permanently changed how people think about themselves – while being attacked
+        throughout his life by colleagues and the church alike. The social Six who champions
+        uncomfortable truths polarizes almost inevitably.</p>
+        <p class="vb-intro"><strong>b) An authority figure with a need for control:</strong>
+        Within his movement he expected loyalty and answered deviation with exclusion – an
+        orthodoxy he himself was not always willing to question.</p>
+        <p class="vb-intro"><strong>c) Trust through demonstrable systematicity:</strong>
+        Followers didn't follow him for charisma alone, but because his theoretical edifice
+        felt internally coherent – the Five-wing demands this coherence of itself before it
+        expects it of others.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Quality</h3>
+        <p class="vb-intro"><strong>a) Restless systematic work:</strong>
+        Freud wrote, practiced, and corresponded at an enormous pace across decades – the
+        Six, who generates security through steady fulfillment of duty.</p>
+        <p class="vb-intro"><strong>b) Fusion of self and movement:</strong>
+        His self-understanding was inseparable from psychoanalysis – attacks on the theory
+        felt to him like attacks on himself.</p>
+        <p class="vb-intro"><strong>c) Control rather than trust as a basic stance:</strong>
+        Where a more relaxed Six learns to trust the group and life more, Freud held the
+        reins himself throughout his life – including in how he handled his own body, as his
+        illness shows with particular clarity.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) Sixteen years, thirty surgeries:</strong>
+        <strong>Freud</strong> had smoked cigars since his youth, often up to 20 a day –
+        despite repeated warnings, despite his own heart trouble in younger years, despite
+        the cancer diagnosis in 1923. He kept smoking almost until his death. Over 30
+        surgeries followed, along with a palate prosthesis that made speaking and eating an
+        ordeal and that he himself called &bdquo;the monster&ldquo;.</p>
+        <p class="vb-intro"><strong>b) Clarity valued above freedom from pain:</strong>
+        For long stretches, Freud refused effective painkillers and made do with aspirin –
+        for fear that stronger medication might cloud his thinking. This is the Five-wing
+        in its purest, most dangerous form: mental clarity as the highest good, to which even
+        one's own freedom from pain is subordinated. The social Six also needs this clarity
+        in order to keep standing guard – over her own theory, over the movement, over her
+        patients.</p>
+        <p class="vb-intro"><strong>c) The addiction one doesn't give up because it belongs to the work:</strong>
+        Freud himself described cigar smoking as indispensable to his thinking and
+        productivity. This reveals a paradoxical side of the otherwise so duty-bound Six:
+        while normally vigilant toward outside authorities – doctors, warnings, her own body
+        – Freud, in this one matter, trusted his own judgment over medicine's, because giving
+        up the cigar would have meant giving up his own ability to function, and with it the
+        duty that carried his life.</p>
+        <p class="vb-intro"><strong>d) A controlled ending:</strong>
+        Unlike Molière, who suppressed his illness until his body forced a collapse, Freud
+        remained aware of his diagnosis from the start – typical of the watchful, never quite
+        carefree Six. When no treatment helped anymore in 1939, he explicitly asked his
+        physician Max Schur for a lethal dose of morphine. Even dying, he did not want to
+        leave to chance – the Six who holds on to control over her own security until the
+        very end, this time as a conscious decision over the final moment.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        This does not mean the social Six inevitably leads to cancer –
+        <strong>every person can develop any illness, regardless of subtype.</strong> What
+        Freud's case can show is a pattern that stands out again and again in practice with
+        a habit tightly woven into one's own identity and ability to function – one possible
+        explanation among many, not a verdict. The corresponding condition will be developed
+        step by step in this Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Freud</strong> embodies the social Six with Five-wing right into his own
+        illness: mental clarity as the highest good, loyalty to his cause placed above his
+        own needs, and even facing death, still the wish to retain control rather than
+        surrender to uncertainty. Where Molière suppressed his illness until his body forced
+        it on him in front of an audience, Freud looked his diagnosis in the eye from the
+        start – and decided, right up to his last breath, exactly what he was willing to
+        sacrifice for it.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-sigmund-freud", label:"Portrait: Sigmund Freud (SO6w5) – life's work"},
+        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
+        {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so6", label:"Subtype Profile SO6"},
       ])}
     </div>
   `);
@@ -60353,6 +60533,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie": kriminalpsychologiePage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
+      "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

@@ -23962,6 +23962,7 @@ const registerEntries = [
   { term: "Kriminalpsychologie", route: "kriminalpsychologie", description: "Enneagramm-Analyse bekannter Kriminalf\u00e4lle \u2013 wie innere Strukturen zur Dunkelheit f\xfchren k\xf6nnen" },
   { term: "Krankheitsporträts", route: "krankheitsportraets", description: "Biografien historischer Persönlichkeiten, bei denen eine dokumentierte Krankheit als roter Faden gedeutet wird" },
   { term: "Molière", route: "krankheitsportraets-moliere", description: "Portrait: SO7w6 · Sozialer Typ 7 · Dramatiker, starb während der Aufführung von Der eingebildete Kranke" },
+  { term: "Sigmund Freud Krankheitsporträt", route: "krankheitsportraets-sigmund-freud", description: "Portrait: SO6w5 · Sozialer Typ 6 · Kieferkrebs, rauchte trotz Diagnose weiter, ärztlich assistierter Tod" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31380,6 +31381,7 @@ const KRIMINAL_PORTRAITS = [
 // w\xe4re eine solche Deutung taktlos und widerspr\xe4che dem eigenen Disclaimer "kein Determinismus").
 const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-moliere", name:"Molière", subtyp:"SO7w6", heading:"Molière – Sozialer Typ 7", krankheit:"Chronische Lungenerkrankung (vermutlich Tuberkulose)", teaser:"SO7w6 – französischer Dramatiker und Schauspieler, 1622–1673. Schöpfer von Tartuffe, Der Menschenfeind und Der eingebildete Kranke. Brach 1673 während der vierten Aufführung von Der eingebildete Kranke – in der Rolle eines Hypochonders – auf der Bühne zusammen und starb Stunden später an einem Lungenleiden, das er jahrelang verschwiegen hatte." , land:"Frankreich", gender:"m", jahre:"1622–1673"},
+  { route:"krankheitsportraets-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5", heading:"Sigmund Freud – Sozialer Typ 6", krankheit:"Mundhöhlen- und Kieferkrebs", teaser:"SO6w5 – Begründer der Psychoanalyse, 1856–1939. 1923 mit Kieferkrebs diagnostiziert, über 30 Operationen in 16 Jahren, rauchte trotz der Diagnose weiter Zigarren und lehnte lange wirksame Schmerzmittel ab, um geistig klar zu bleiben. Starb 1939 im Londoner Exil durch ärztlich assistierten Tod." , land:"Österreich", gender:"m", jahre:"1856–1939"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -55468,6 +55470,7 @@ function sigmundFreudPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Kann ich der Gruppe vertrauen?</em> zur Erkenntnis <em>Ich kann mir selbst vertrauen &ndash; auch ohne Wachposten.</em> F\u00fcr die SO6w5 bedeutet das, die Bewegung, die man aufgebaut hat, loszulassen &ndash; nicht zu verlassen, aber nicht mehr zu kontrollieren. Wissen zu teilen, ohne zu bestimmen, was daraus wird.</p>
           <p class="vb-intro">Freud floh 1938, mit 82 Jahren und schwer krank, aus Wien nach London &ndash; nachdem die Nationalsozialisten seine B\u00fccher verbrannt und seine Welt zerst\u00f6rt hatten. Er arbeitete bis kurz vor seinem Tod weiter. Das Erdm\u00e4nnchen auf seinem Posten, bis zum letzten Moment. Das ist die SO6w5 auf ihrem Heilungsweg: nicht aus Pflicht, sondern weil das Wachen selbst Sinn ergibt &ndash; und weil man dem vertraut, was man gesehen hat.</p>
+          <p class="vb-intro">Diese letzten 16 Lebensjahre – geprägt von über 30 Operationen wegen eines Kieferkrebses, den Freud trotz Diagnose nicht zum Anlass nahm, seine Zigarren aufzugeben – werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-sigmund-freud">Krankheitsporträt zu Freud</a> gedeutet.</p>
         </blockquote>
 
       </div>
@@ -55486,6 +55489,7 @@ function sigmundFreudPortraitPage() {
         </a>
       </div>
       ${relatedLinks([
+        {route:"krankheitsportraets-sigmund-freud", label:"Krankheitsporträt: Sigmund Freud (SO6w5)"},
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so6", label:"SO6 \u2013 Das Erdm\u00e4nnchen: Subtyp-Profil"},
         {route:"beruehmte-andy-reid", label:"Portr\u00e4t: Andy Reid (SO6w5)"},
@@ -55559,6 +55563,7 @@ function immanuelKantPortraitPage() {
         {route:"beruehmte-friedrich-nietzsche", label:"Portr\u00e4t: Friedrich Nietzsche (SX5w4) \u2013 sch\u00e4rfster Kritiker seiner Pflichtethik"},
         {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Portr\u00e4t: Gottfried Wilhelm Leibniz (SO3w4) \u2013 dessen Rationalismus seine fr\u00fche, \u203adogmatische\u2039 Denkphase pr\u00e4gte"},
         {route:"beruehmte-sigmund-freud", label:"Portr\u00e4t: Sigmund Freud (SO6w5)"},
+        {route:"krankheitsportraets-sigmund-freud", label:"Krankheitsporträt: Sigmund Freud (SO6w5) – Kieferkrebs trotz Warnungen"},
       ])}
     </div>
   `);
@@ -65494,6 +65499,191 @@ function krankheitsportraetsPage() {
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"beruehmte-persoenlichkeiten", label:"Ber\xfchmte Pers\xf6nlichkeiten"},
         {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
+      ])}
+    </div>
+  `);
+}
+
+function freudKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sigmund-freud-portrait.jpg" alt="Dr. Sigmund Freud – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Sigmund Freud</p>
+        <p class="krim-portrait-typ">SO6w5 · Sozialer Typ 6 mit Fünferflügel · 1856–1939</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Sigmund Freud</strong>, Begründer der Psychoanalyse, ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-sigmund-freud">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur
+        im Allgemeinen. Hier geht es ausschließlich um ein Kapitel seines Lebens, das dort
+        nur gestreift wird: Ab 1923 – Freud war 67 – wurde bei ihm Krebs im Mund- und
+        Kieferbereich diagnostiziert, Folge seines jahrzehntelangen, exzessiven
+        Zigarrenkonsums (bis zu 20 am Tag). Es folgten über 30 Operationen in 16 Jahren, eine
+        entstellende Gesichtsprothese, die er selbst &bdquo;das Monster&ldquo; nannte, chronische
+        Schmerzen – und die Weigerung, das Rauchen oder die Arbeit aufzugeben. 1939,
+        im Londoner Exil, unheilbar und unter Qualen, bat er seinen Arzt Max Schur um eine
+        tödliche Morphindosis. Schur gewährte sie – einer der bekanntesten Fälle
+        ärztlich assistierten Sterbens der Medizingeschichte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Freud</strong> ist der <strong>Sozialen Sechs mit Fünferflügel</strong>
+        zugeordnet – demselben Subtyp wie <a href="javascript:void(0)" data-route="beruehmte-immanuel-kant">Immanuel Kant</a>
+        in diesem Kompass. Naranjo nannte die soziale Sechs den Subtyp der <em>Pflicht</em>:
+        Sicherheit entsteht durch Zugehörigkeit zu einer Gemeinschaft mit klaren Regeln und
+        durch das Erfüllen einer Aufgabe, die größer ist als man selbst – bei Freud die
+        psychoanalytische Bewegung, die er gründete, leitete und bis zuletzt verteidigte.
+        Der Fünferflügel bringt die charakteristische intellektuelle Systematik und ein tiefes
+        Bedürfnis nach geistiger Klarheit hinzu – genau das Bedürfnis, das später über seinen
+        Umgang mit Schmerz und Sterben entscheiden sollte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Analytisch und unbestechlich:</strong>
+        Freuds Blick zerlegte, ordnete, deutete – auf Patienten, auf Kultur, auf sich selbst.
+        Nichts blieb an der Oberfläche stehen, alles wurde auf eine dahinterliegende
+        Struktur hin befragt. Das ist der Fünferflügel: Verstehen als Sicherheit.</p>
+        <p class="vb-intro"><strong>b) Wachsam gegenüber Verrat und Abweichung:</strong>
+        Freud registrierte genau, wer der Bewegung treu blieb und wer sich entfernte – Jungs
+        und Adlers Abspaltungen erlebte er nicht als intellektuelle Differenz, sondern als
+        Bruch eines Bundes. Typisch sechser-typische Wachsamkeit gegenüber der eigenen
+        Gruppe.</p>
+        <p class="vb-intro"><strong>c) Unnahbar, um Klarheit zu wahren:</strong>
+        Schweigen, Abstinenz, die Couch statt Augenkontakt – Freuds analytisches Setting
+        schuf bewusst Distanz. Das ist kein Desinteresse, sondern der Fünferflügel, der
+        Beobachtungsraum braucht, um überhaupt sehen zu können.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die Bewegung als Schutzraum:</strong>
+        Freud gründete nicht nur eine Methode, sondern eine Institution – die Wiener, später
+        die Internationale Psychoanalytische Vereinigung. Sicherheit fand die soziale Sechs
+        nicht im Alleingang, sondern im Aufbau einer Gemeinschaft Gleichgesinnter.</p>
+        <p class="vb-intro"><strong>b) Unbequeme Wahrheit als Pflicht:</strong>
+        Sexualität als Triebkraft der Psyche, das Unbewusste als eigentliches Zentrum des
+        Seelenlebens: Das waren keine bequemen Thesen im Wien der Jahrhundertwende. Freud
+        vertrat sie trotzdem – Pflicht zur Wahrheit wog schwerer als das Bedürfnis nach
+        Zustimmung.</p>
+        <p class="vb-intro"><strong>c) Das System als Schutz vor Zweifel:</strong>
+        Triebtheorie, Strukturmodell, Traumdeutung – ein über Jahrzehnte hin geschlossenes
+        theoretisches Gebäude. Der Fünferflügel ermöglichte diese Systematik; die soziale
+        Sechs brauchte sie als festen Boden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Loyalität einfordern und geben:</strong>
+        Wer der Bewegung treu blieb, konnte auf Freuds Rückhalt zählen; wer eigene Wege
+        ging, verlor ihn. Das ist die Sechs, für die Zugehörigkeit keine Nebensache,
+        sondern das Fundament der eigenen Sicherheit ist.</p>
+        <p class="vb-intro"><strong>b) Autorität aufbauen – und ihr misstrauen:</strong>
+        Freud wurde selbst zur Autorität, blieb aber zeitlebens wachsam gegenüber Kritik von
+        außen, während er innerhalb der Bewegung selbst zunehmend autoritär auftrat. Das
+        Schicksalsmuster der Sechs: Autoritäten errichten und zugleich fürchten, was
+        geschieht, wenn sie fallen.</p>
+        <p class="vb-intro"><strong>c) Präzision statt Intuition:</strong>
+        Seine Werke entstanden nicht aus spontaner Eingebung, sondern aus jahrelangem
+        Beobachten, Sammeln, Ordnen. Fünferflügel-Systematik, angewendet auf das
+        Unbewusste selbst.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Respektiert und tief umstritten:</strong>
+        Freud veränderte für immer, wie Menschen über sich selbst denken – und wurde
+        zugleich lebenslang von Fachkollegen und Kirche gleichermaßen angefeindet. Die
+        soziale Sechs, die unbequeme Wahrheiten vertritt, polarisiert fast zwangsläufig.</p>
+        <p class="vb-intro"><strong>b) Autoritätsperson mit Kontrollbedürfnis:</strong>
+        Innerhalb seiner Bewegung erwartete er Gefolgschaft und reagierte auf Abweichung mit
+        Ausschluss – eine Orthodoxie, die er selbst zu hinterfragen nicht immer bereit war.</p>
+        <p class="vb-intro"><strong>c) Vertrauen durch nachweisbare Systematik:</strong>
+        Anhänger folgten ihm nicht aus Charisma allein, sondern weil sein theoretisches
+        Gebäude in sich stimmig wirkte – der Fünferflügel verlangt sich selbst diese
+        Kohärenz ab, bevor er sie von anderen erwartet.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Rastlose Systemarbeit:</strong>
+        Freud schrieb, praktizierte und korrespondierte in einem enormen Pensum über
+        Jahrzehnte – die Sechs, die durch stetige Pflichterfüllung Sicherheit erzeugt.</p>
+        <p class="vb-intro"><strong>b) Verschmelzung von Person und Bewegung:</strong>
+        Sein Selbstverständnis war untrennbar mit der Psychoanalyse verbunden – Angriffe auf
+        die Theorie erlebte er wie Angriffe auf sich selbst.</p>
+        <p class="vb-intro"><strong>c) Kontrolle statt Vertrauen als Grundhaltung:</strong>
+        Wo eine entspanntere Sechs lernt, der Gruppe und dem Leben mehr zu vertrauen, hielt
+        Freud lebenslang selbst die Fäden in der Hand – auch im Umgang mit dem eigenen
+        Körper, wie sich in seiner Krankheit besonders deutlich zeigt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Sechzehn Jahre, dreißig Operationen:</strong>
+        <strong>Freud</strong> rauchte seit seiner Jugend Zigarren, oft bis zu 20 am Tag – trotz
+        wiederholter Warnungen, trotz eigener Herzprobleme in jüngeren Jahren, trotz der
+        1923 gestellten Krebsdiagnose. Er rauchte weiter, bis kurz vor seinem Tod. Über
+        30 Operationen folgten, eine Gaumenprothese, die Sprechen und Essen zur Qual machte
+        und die er selbst &bdquo;das Monster&ldquo; nannte.</p>
+        <p class="vb-intro"><strong>b) Klarheit wichtiger als Schmerzfreiheit:</strong>
+        Freud lehnte über weite Strecken wirksame Schmerzmittel ab und begnügte sich mit
+        Aspirin – aus Sorge, stärkere Mittel könnten seine Denkfähigkeit trüben. Das ist der
+        Fünferflügel in seiner reinsten, gefährlichsten Form: geistige Klarheit als
+        höchstes Gut, dem selbst die eigene Schmerzfreiheit untergeordnet wird. Die soziale
+        Sechs braucht diese Klarheit außerdem, um weiterhin Wache halten zu können – über
+        die eigene Theorie, über die Bewegung, über die eigenen Patienten.</p>
+        <p class="vb-intro"><strong>c) Die Sucht, die man nicht aufgibt, weil sie zur Arbeit gehört:</strong>
+        Freud selbst beschrieb das Zigarrenrauchen als unverzichtbar für seine Denkfähigkeit
+        und Produktivität. Hier zeigt sich eine paradoxe Seite der sonst so pflichtbewussten
+        Sechs: Während sie äußeren Autoritäten (Ärzten, Warnungen, dem eigenen Körper)
+        gegenüber eigentlich wachsam ist, vertraute Freud in dieser einen Sache lieber dem
+        eigenen Urteil als dem der Medizin – weil das Aufgeben der Zigarre gleichbedeutend
+        gewesen wäre mit dem Aufgeben der eigenen Funktionsfähigkeit, und damit der Pflicht,
+        die sein Leben trug.</p>
+        <p class="vb-intro"><strong>d) Ein kontrolliertes Ende:</strong>
+        Anders als bei Molière, der seine Krankheit bis zum erzwungenen Zusammenbruch
+        verdrängte, blieb Freud sich seiner Diagnose von Anfang an bewusst – typisch für die
+        wache, nie ganz sorglose Sechs. Als 1939 keine Behandlung mehr half, bat er seinen
+        Arzt Max Schur ausdrücklich um eine tödliche Morphindosis. Auch das Sterben wollte er
+        nicht dem Zufall überlassen, sondern selbst bestimmen – die Sechs, die bis zuletzt
+        die Kontrolle über die eigene Sicherheit behält, diesmal als bewusste Entscheidung
+        über den letzten Moment.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass die soziale Sechs zwangsläufig zu Krebserkrankungen führt –
+        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
+        sich an Freuds Fall zeigen lässt, ist ein Muster, das bei einer Gewohnheit, die eng
+        mit der eigenen Identität und Funktionsfähigkeit verwoben ist, in der Praxis immer
+        wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Freud</strong> verkörpert die soziale Sechs mit Fünferflügel bis in die
+        eigene Krankheitsgeschichte hinein: geistige Klarheit als höchstes Gut, Loyalität zur
+        eigenen Sache über die eigenen Bedürfnisse gestellt, und selbst im Angesicht des
+        Todes noch der Wunsch, die Kontrolle zu behalten statt sich dem Ungewissen zu
+        überlassen. Wo Molière seine Krankheit verdrängte, bis der Körper sie ihm auf offener
+        Bühne aufzwang, sah Freud seiner Diagnose von Anfang an klar ins Auge – und
+        entschied bis zum letzten Atemzug selbst, was er dafür zu opfern bereit war.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-sigmund-freud", label:"Porträt: Sigmund Freud (SO6w5) – Lebenswerk"},
+        {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
+        {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so6", label:"Subtyp-Profil SO6"},
       ])}
     </div>
   `);
@@ -94733,6 +94923,7 @@ function render() {
       "kriminalpsychologie": kriminalpsychologiePage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
+      "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
