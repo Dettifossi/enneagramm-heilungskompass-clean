@@ -95930,7 +95930,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über viele parallele Optionen ab – ständige Vorwärtsbewegung ohne echte Rückkehr zur Ruhe, ein Muster, das dem Bild eines Systems ohne funktionierenden Rückfluss nahekommt." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – die eigene Erschöpfung wird lange nicht als Zeichen gelesen, dass Rückzug nötig wäre." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – hier ist der plausiblere Zusammenhang oft der Lebensstil: langes Stehen, wenig Bewegungsroutine oder Übergewicht als anerkannte Risikofaktoren für Krampfadern, unabhängig von der inneren Rastlosigkeit selbst." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – hier ist der plausibelste Zusammenhang oft nicht die innere Rastlosigkeit selbst, sondern der Lebensstil: langes Stehen, wenig Bewegungsroutine oder Übergewicht als anerkannte Risikofaktoren für Krampfadern." },
         ],
       },
       {
@@ -95957,7 +95957,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     kategorie: "herz-kreislauf",
     icon: "&#129649;",
     kurz: "Wenn aus einem Stau ein fester, unbeweglicher Block wird.",
-    definition: "Eine Thrombose bezeichnet die Bildung eines Blutgerinnsels (Thrombus) innerhalb eines Blutgefäßes, das den Blutfluss teilweise oder vollständig blockiert. Am häufigsten betroffen sind die tiefen Beinvenen (tiefe Venenthrombose, TVT). Nach dem Virchow-Trias entstehen Thrombosen durch das Zusammenspiel dreier Faktoren: verlangsamter Blutfluss (Stase, etwa durch langes Sitzen, Liegen oder Immobilität), Schädigung der Gefäßwand und eine erhöhte Gerinnungsneigung des Blutes (z. B. durch Hormone, Rauchen, genetische Veranlagung oder Krebserkrankungen). Die größte Gefahr besteht darin, dass sich ein Teil des Gerinnsels löst und über die Blutbahn in die Lunge gelangt – eine Lungenembolie, die lebensbedrohlich sein kann.",
+    definition: "Eine Thrombose bezeichnet die Bildung eines Blutgerinnsels (Thrombus) innerhalb eines Blutgefäßes, das den Blutfluss teilweise oder vollständig blockiert. Am häufigsten betroffen sind die tiefen Beinvenen (tiefe Venenthrombose, TVT). Nach der Virchow-Trias entstehen Thrombosen durch das Zusammenspiel dreier Faktoren: verlangsamter Blutfluss (Stase, etwa durch langes Sitzen, Liegen oder Immobilität), Schädigung der Gefäßwand und eine erhöhte Gerinnungsneigung des Blutes (z. B. durch Hormone, Rauchen, genetische Veranlagung oder Krebserkrankungen). Die größte Gefahr besteht darin, dass sich ein Teil des Gerinnsels löst und über die Blutbahn in die Lunge gelangt – eine Lungenembolie, die lebensbedrohlich sein kann.",
     symptome: [
       "Einseitige Schwellung des Beins, oft mit Spannungsgefühl",
       "Ziehender, dumpfer Schmerz oder Druckgefühl in Wade oder Oberschenkel, der bei Belastung zunimmt",
@@ -95968,7 +95968,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     notfall: "Bei plötzlicher Atemnot, stechendem Brustschmerz, schnellem Herzschlag oder Bluthusten: sofort den Notruf 112 wählen – Verdacht auf eine Lungenembolie. Bei plötzlicher, deutlicher Schwellung, Schmerz, Überwärmung und Rötung eines Beins: zeitnah ärztliche Hilfe aufsuchen. Eine Thrombose sollte nie eigenständig durch Massage oder Bewegung des betroffenen Bereichs behandelt werden – dies kann das Gerinnsel lösen und einen Notfall auslösen.",
     disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
-    einleitung: "Wo Krampfadern das Bild eines gestauten, aber noch fließenden Rückflusses zeigen, geht die Thrombose einen Schritt weiter: Aus dem Stau wird ein fester, unbeweglicher Block. Der erste Faktor des Virchow-Trias – die Stase, der verlangsamte oder stillstehende Fluss – trägt diese Deutung bereits im medizinischen Fachbegriff selbst. Die Traditionelle Chinesische Medizin beschreibt einen verwandten, weiter fortgeschrittenen Zustand als Blut-Stase (im Unterschied zur bloßen Blut-Stagnation): eine verfestigte Blockade, die oft mit lange gehaltenem, nie gelöstem emotionalem Widerstand in Verbindung gebracht wird. Die Psychosomatik liest in der Thrombose deshalb oft das Bild eines Lebens, einer Entscheidung oder eines Gefühls, das über die reine Stagnation hinaus zu einer festen, unbeweglichen Blockade erstarrt ist.",
+    einleitung: "Wo Krampfadern das Bild eines gestauten, aber noch fließenden Rückflusses zeigen, geht die Thrombose einen Schritt weiter: Aus dem Stau wird ein fester, unbeweglicher Block. Der erste Faktor der Virchow-Trias – die Stase, der verlangsamte oder stillstehende Fluss – trägt diese Deutung bereits im medizinischen Fachbegriff selbst. Die Traditionelle Chinesische Medizin beschreibt einen verwandten, weiter fortgeschrittenen Zustand als Blut-Stase (im Unterschied zur bloßen Blut-Stagnation): eine verfestigte Blockade, die oft mit lange gehaltenem, nie gelöstem emotionalem Widerstand in Verbindung gebracht wird. Die Psychosomatik liest in der Thrombose deshalb oft das Bild eines Lebens, einer Entscheidung oder eines Gefühls, das über die reine Stagnation hinaus zu einer festen, unbeweglichen Blockade erstarrt ist.",
     typen: [
       {
         typ: 1, titel: "Zorn, der zu einem harten, unbeweglichen Block erstarrt",
@@ -96005,7 +96005,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug, der zum völligen Stillstand wird",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und bewegt sich oft wenig – von den drei Fünfer-Varianten am unmittelbarsten mit dem medizinischen Risikofaktor Immobilität verbunden, da körperliche Bewegungsarmut die Stase im Virchow-Trias direkt begünstigt." },
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und bewegt sich oft wenig – von den drei Fünfer-Varianten am unmittelbarsten mit dem medizinischen Risikofaktor Immobilität verbunden, da körperliche Bewegungsarmut die Stase in der Virchow-Trias direkt begünstigt." },
           { code: "SO5", text: "Die soziale Fünf hält auch im sozialen Kontext innere Distanz – ein Zustand, der weniger körperliche als geistige Zurückgezogenheit bedeutet." },
           { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale Verbindung, die trotz Rückzug Bewegung in der Tiefe ermöglicht." },
         ],
@@ -96021,7 +96021,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Maßlosigkeit, die durch abrupten Stillstand besonders hart trifft",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über ständige Bewegung, Optionen und Aktivität ab – ausgerechnet lange Phasen der Immobilität (etwa lange Flugreisen, ein wiederkehrendes Muster bei dieser Variante) gelten medizinisch als anerkannter Risikofaktor für Thrombosen." },
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über ständige Bewegung, Optionen und Aktivität ab – ausgerechnet lange Phasen erzwungener Immobilität, etwa auf langen Flugreisen zwischen den vielen parallelen Projekten dieser Variante, gelten medizinisch als anerkannter Risikofaktor für Thrombosen." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – die eigene Erschöpfung wird lange nicht als Warnsignal gelesen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – Rauchen in Kombination mit hormonellen Verhütungsmitteln gilt medizinisch als besonders anerkannter Risikofaktor für Thrombosen." },
         ],
