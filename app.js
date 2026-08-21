@@ -95487,6 +95487,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Arteriosklerose gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit dem langsamen, oft jahrzehntelangen Prozess des Verhärtens und Verengens verhandelt – manche über Dauerspannung und Kontrolle, andere über Rückzug, Erschöpfung oder ein nie gehörtes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  bluthochdruck: {
+    titel: "Bluthochdruck (Hypertonie)",
+    kategorie: "herz-kreislauf",
+    icon: "&#128200;",
+    kurz: "Wenn der innere Druck sich nicht mehr äußern darf und stattdessen im Körper bleibt.",
+    definition: "Bluthochdruck (arterielle Hypertonie) bezeichnet einen dauerhaft erhöhten Druck des Blutes in den Arterien – ab Werten von 140/90 mmHg spricht man in der Regel von Hypertonie. In den meisten Fällen (rund 90 Prozent) liegt eine sogenannte primäre oder essenzielle Hypertonie vor, bei der keine einzelne körperliche Ursache gefunden wird, sondern ein Zusammenspiel aus Veranlagung, Lebensstil, Ernährung, Gewicht, Alkohol und chronischem Stress. Unbehandelt erhöht chronischer Bluthochdruck über Jahre das Risiko für Herzinfarkt, Schlaganfall, Nierenschäden und Arteriosklerose erheblich – gerade weil er selbst so lange unbemerkt bleibt, gilt er in der Medizin als &bdquo;stiller Killer&ldquo;.",
+    symptome: [
+      "Meist über Jahre keine spürbaren Symptome – Bluthochdruck bleibt oft ein Zufallsbefund",
+      "Gelegentlich morgendliche Kopfschmerzen, vor allem im Hinterkopf",
+      "Schwindel, Ohrensausen, Sehstörungen bei stark erhöhten Werten",
+      "Nasenbluten, das ungewöhnlich häufig auftritt",
+      "Kurzatmigkeit oder Herzklopfen bei Belastung",
+      "Nervosität, innere Unruhe, ein diffuses Gefühl von Anspannung, das sich schwer benennen lässt",
+    ],
+    notfall: "Bei einer hypertensiven Krise (Blutdruckwerte ab etwa 180/120 mmHg) in Verbindung mit starken Kopfschmerzen, Sehstörungen, Brustschmerzen, Atemnot, Verwirrtheit oder neurologischen Ausfällen: sofort den Notruf 112 wählen. Dies kann auf einen unmittelbar drohenden Schlaganfall, Herzinfarkt oder ein Organversagen hinweisen – hier zählt jede Minute, kein Raum für psychosomatische Deutung.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Die Psychosomatik liest im Bluthochdruck seit Langem eine sprachliche Doppeldeutigkeit wörtlich: &bdquo;Unter Druck stehen&ldquo;, sich &bdquo;etwas nicht anmerken lassen&ldquo;, den eigenen Ärger oder die eigene Erschöpfung &bdquo;runterschlucken&ldquo; – Redewendungen, die sich im Körper als messbarer physischer Druck wiederfinden lassen. Die Traditionelle Chinesische Medizin ordnet viele Formen der Hypertonie dem aufsteigenden Leber-Yang zu: eine Fülle- und Spannungsenergie, die typischerweise mit chronisch unterdrücktem Ärger, Frustration oder einem Übermaß an nach innen gerichteter Anspannung in Verbindung gebracht wird. In beiden Sichtweisen ist Bluthochdruck weniger ein isoliertes Organproblem als der körperliche Ausdruck eines Systems, das über lange Zeit mehr Druck aufrechterhalten musste, als es eigentlich freisetzen konnte.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der sich nach innen staut",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält jede Regung von Ärger diszipliniert unter Kontrolle – nichts darf sichtbar werden. Genau dieses konsequente Zurückhalten, ohne je ein Ventil zu finden, liest die Psychosomatik als eines der plausibelsten Bilder für einen chronisch erhöhten inneren Druck, der sich nie entladen darf." },
+          { code: "SO1", text: "Die soziale Eins verwandelt Ärger in moralisches Engagement für die Gruppe – ein Teil des Drucks findet ein Ventil in Worten und Reformwillen, doch die Grundspannung, dass die Welt permanent korrigiert werden muss, bleibt bestehen." },
+          { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter aus, in der Beziehung selbst – dadurch potenziell weniger chronischer Dauerdruck, dafür wiederkehrende, episodische Drucksteigerungen in intensiven Momenten." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der niemanden um Hilfe bittet",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei lebt den Satz „Ich brauche niemanden“ am wörtlichsten – stille Selbstaufopferung, bei der die eigene Erschöpfung nie ausgesprochen wird. Ein System, das dauerhaft mehr gibt, als es empfängt, gerät leicht selbst unter erhöhten Druck." },
+          { code: "SO2", text: "Die soziale Zwei sucht Bedeutung über permanente Verfügbarkeit für die Gemeinschaft – die Unfähigkeit, Nein zu sagen, erzeugt eine chronische Überlastung, die sich über Jahre zu einer stillen Dauerbelastung des gesamten Kreislaufsystems verdichten kann." },
+          { code: "SX2", text: "Die sexuelle Zwei investiert intensives, oft possessives Geben in die eine Beziehung – emotionale Volatilität und Eifersucht erzeugen hier eher episodische Drucksteigerungen als eine gleichmäßige Dauerspannung." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die den inneren Druck erhöht",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet still und effizient weiter, auch wenn der Körper längst Pause fordert – Erschöpfung wird als Schwäche gedeutet, nicht als Signal. Der innere Druck, ständig funktionieren zu müssen, wird selten bewusst wahrgenommen, geschweige denn geäußert." },
+          { code: "SO3", text: "Die soziale Drei sucht Erfolg sichtbar und im ständigen Vergleich mit anderen – ein Leben im Wettbewerbsmodus, das dem klassischen Bild der Typ-A-Persönlichkeit am nächsten kommt und kaum echte Entspannungsphasen kennt." },
+          { code: "SX3", text: "Die sexuelle Drei setzt permanente Selbstoptimierung im Beziehungskontext ein – der Druck, auch im Intimsten nie nachzulassen, wird selten offen benannt, aber über Jahre mitgetragen." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich als Anspannung festsetzt",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahre unausgesprochene Sehnsucht, die sich nie in Worte, sondern nur in innerer Anspannung entlädt." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar und zum Teil der eigenen Identität – die emotionale Intensität findet zumindest ein Ventil nach außen, wodurch der innere Druck hier weniger verdeckt bleibt als beim Kontratyp." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen – heftige, episodische Ausschläge prägen hier das Bild eher als eine gleichmäßige Dauerspannung." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der die eigene Überforderung verbirgt",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und minimiert Kontakt und Bedürfnisse – der Rückzug wirkt beruhigend, kann aber auch bedeuten, dass innere Überforderung nie einen Adressaten findet und stattdessen als stille körperliche Anspannung bestehen bleibt." },
+          { code: "SO5", text: "Die soziale Fünf sucht Zugang zur Gruppe über Wissen, hält aber innerlich Distanz – eine Mischung aus Teilhabe und Rückzug, bei der eigene Überforderung selten klar benannt wird." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, aber tiefe Verbindung bei gleichzeitig radikaler Abschottung nach außen, in der Druck kaum ein Ventil findet." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die den Körper in Daueralarm hält",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in einer Form von Daueralarmbereitschaft – Vorsicht und ständige Vorbereitung auf das Schlimmste halten das vegetative Nervensystem in permanenter Anspannung, ein Zustand, der sich medizinisch plausibel mit chronisch erhöhtem Blutdruck in Verbindung bringen lässt." },
+          { code: "SO6", text: "Die soziale Sechs sucht Sicherheit über Zugehörigkeit zu Gruppe oder Autorität – die Belastung entsteht hier vor allem aus dem Gefühl der Verantwortung für das Kollektiv, einer Sorge, die selten offen ausgesprochen wird." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Rückzug – diese Mischung aus Angst und Zorn erzeugt episodische Drucksteigerungen statt der gleichmäßigen Dauerspannung der anderen Sechser-Varianten." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die das System überreizt",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über Optionen, Netzwerke und Genussmittel ab – ein Lebensstil, der auf permanente Reizsuche statt Ruhe setzt, gilt medizinisch als eigenständiger Risikofaktor für erhöhten Blutdruck, unabhängig von innerer Anspannung." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung und die damit verbundenen körperlichen Warnsignale lange verleugnet." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – hier ist der plausibelste Zusammenhang oft nicht die innere Anspannung selbst, sondern der Lebensstil: Nikotin, Alkohol oder andere Genussmittel als anerkannte, medizinisch gut belegte Risikofaktoren für erhöhten Blutdruck." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die niemals nachlassen darf",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen – Ruhebedürfnis wird als Angriffsfläche erlebt, nicht als legitimes Bedürfnis. Das System läuft dauerhaft auf Hochspannung, weil Herunterschalten im inneren Selbstbild keinen Platz hat." },
+          { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung und Führung für die Gruppe, oft in einer Beschützerrolle – permanente Führungsspannung und die Überzeugung, niemals schwach sein zu dürfen, sind hier der zentrale, über Jahre wirkende Belastungsfaktor." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, ohne Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger Dauerspannung." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, deren Druck sich nach außen zeigt",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort, Routine und Konfliktvermeidung – nach außen wirkt vieles entspannt, doch die über Jahrzehnte fortgesetzte Selbstvergessenheit bedeutet auch: der eigene innere Druck wird nie bewusst wahrgenommen, geschweige denn geäußert, und bleibt stattdessen als messbarer Blutdruck bestehen." },
+          { code: "SO9", text: "Die soziale Neun sucht Harmonie um jeden Preis innerhalb der Gruppe und ordnet die eigene Meinung konsequent unter – eine chronische Selbstauslöschung zugunsten des sozialen Friedens, die sich still und über lange Zeit aufbaut." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Systems, das über Jahrzehnte nie eine eigene, unabhängige Stimme fand – und dessen Spannung sich still im Körper hält." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor Bluthochdruck gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit innerem Druck verhandelt – manche über Kontrolle und Anspannung, andere über Rückzug, Erschöpfung oder ein nie geäußertes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -95495,7 +95588,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // (Definition, Notfall-Hinweis falls zutreffend, Disclaimer, alle 27 Subtypen). Bis dahin
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["Bluthochdruck (Hypertonie)", "Schlaganfall", "Herzinsuffizienz", "Vorhofflimmern", "Koronare Herzkrankheit / Angina Pectoris", "Krampfadern (Varikose)", "Thrombose", "Niedriger Blutdruck (Hypotonie)"],
+  "herz-kreislauf": ["Schlaganfall", "Herzinsuffizienz", "Vorhofflimmern", "Koronare Herzkrankheit / Angina Pectoris", "Krampfadern (Varikose)", "Thrombose", "Niedriger Blutdruck (Hypotonie)"],
   "bewegungsapparat": ["Rückenschmerzen / Bandscheibenvorfall", "Arthrose", "Rheumatoide Arthritis", "Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
