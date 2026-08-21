@@ -61178,6 +61178,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to varicose veins, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates letting go and the return flow of what has accumulated in its own way – some through sustained effort and control, others through quiet giving, restlessness, or a need of their own that was never voiced. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  thrombose: {
+    titel: "Thrombosis",
+    kategorie: "herz-kreislauf",
+    icon: "&#129649;",
+    kurz: "When pooling turns into a solid, immovable block.",
+    definition: "Thrombosis refers to the formation of a blood clot (thrombus) inside a blood vessel that partially or completely blocks blood flow. The deep leg veins are most commonly affected (deep vein thrombosis, DVT). According to Virchow's triad, thrombosis arises from the interplay of three factors: slowed blood flow (stasis, for example from prolonged sitting, lying down, or immobility), damage to the vessel wall, and an increased tendency of the blood to clot (e.g. from hormones, smoking, genetic predisposition, or cancer). The greatest danger is that part of the clot detaches and travels through the bloodstream to the lungs – a pulmonary embolism, which can be life-threatening.",
+    symptome: [
+      "Swelling in one leg, often with a feeling of tightness",
+      "Pulling, dull pain or a feeling of pressure in the calf or thigh that increases with exertion",
+      "Warmth and redness of the affected area of skin",
+      "Visibly more pronounced superficial vein pattern",
+      "Sometimes only discreet or no symptoms at all, especially with smaller clots",
+      "Sudden shortness of breath, sharp chest pain, or coughing up blood as signs of a possible pulmonary embolism",
+    ],
+    notfall: "In the case of sudden shortness of breath, sharp chest pain, rapid heartbeat, or coughing up blood: call emergency services immediately – suspected pulmonary embolism. In the case of sudden, marked swelling, pain, warmth, and redness of one leg: seek medical help promptly. A thrombosis should never be self-treated with massage or movement of the affected area – this can dislodge the clot and trigger an emergency.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Where varicose veins show the picture of a pooled but still flowing return, thrombosis goes one step further: pooling turns into a solid, immovable block. The first factor of Virchow's triad – stasis, the slowed or halted flow – already carries this interpretation in the medical term itself. Traditional Chinese Medicine describes a related, further advanced state as Blood stasis (as distinct from mere Blood stagnation): a solidified blockage often linked to long-held, never-released emotional resistance. Psychosomatic medicine therefore often reads thrombosis as the picture of a life, a decision, or a feeling that has hardened beyond mere stagnation into a fixed, immovable blockage.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that hardens into a solid, immovable block",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One holds anger back, disciplined, for years, without ever releasing it – if this control is not just maintained but hardens further over time, psychosomatic medicine reads in it a plausible picture for a tension condensing into a fixed blockage rather than ever dissolving." },
+          { code: "SO1", text: "The social One holds firmly to the conviction that the world needs correcting – an immovable moral stance that can solidify over the years." },
+          { code: "SX1", text: "The sexual One lives anger more directly – potentially less permanent hardening, more punctual discharge." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that hardens into complete standstill",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two gives quietly, without ever asking for recognition or relief – if this pattern remains unchanged over decades, the steady pooling can turn into a fixed, immovable state in which nothing moves anymore." },
+          { code: "SO2", text: "The social Two stays permanently available to the community – an exhaustion that, if never acknowledged, can solidify into a rigid, unchanging pattern." },
+          { code: "SX2", text: "The sexual Two invests intense giving into the one relationship – the strain here tends to be episodic rather than a permanent, hardening blockage." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that is abruptly forced to a standstill",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps working without break – precisely because movement and activity are identity-defining for it, forced immobility (for instance after surgery or injury) can be linked especially directly with the risk factor of stasis." },
+          { code: "SO3", text: "The social Three stays in constant competition mode – a sudden, forced standstill contradicts its entire self-image and can be experienced as especially burdensome in this extreme case." },
+          { code: "SX3", text: "The sexual Three optimizes itself permanently within the relational context – standstill here is experienced more as a threat to its own attractiveness than as a physical risk." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that hardens into immovable pain",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – a years-long, unspoken, never-moved longing can harden into a rigid, unchanging inner state." },
+          { code: "SO4", text: "The social Four makes its own suffering visible – the outward emotional movement works against inner rigidity more than in the counter-type." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity – intense, episodic swings that tend to promote movement rather than a permanent blockage." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that turns into complete standstill",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically and often moves little – of the three Five variants, this one is most directly linked to the medical risk factor of immobility, since low physical activity directly promotes the stasis factor of Virchow's triad." },
+          { code: "SO5", text: "The social Five keeps inner distance even in social contexts – a state that means more mental than physical withdrawal." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – a narrow connection that allows for movement in depth despite the withdrawal." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that freezes the body into rigidity",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six responds to perceived threat with caution and withdrawal – a form of inner rigidity that comes close to the picture of a system thrown out of flow and blocked." },
+          { code: "SO6", text: "The social Six carries ongoing worry for the collective – this worry is rarely voiced openly or set into motion." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation rather than rigidity – producing episodic tension rather than a permanent blockage." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that is hit especially hard by abrupt standstill",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through constant movement, options, and activity – it is precisely long periods of immobility (such as long flights, a recurring pattern for this variant) that count medically as a recognized risk factor for thrombosis." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – its own exhaustion is not read as a warning sign for a long time." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – smoking combined with hormonal contraceptives is medically recognized as a particularly significant risk factor for thrombosis." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that blocks itself once forced into standstill",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight keeps tight control over its own resources – a forced standstill (for instance through illness or surgery) fundamentally contradicts this self-image and can be experienced as especially burdensome." },
+          { code: "SO8", text: "The social Eight carries permanent leadership tension for the group – standstill here is often interpreted as a failure of its own protective function." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – the strain shows up in extreme, episodic swings rather than in permanent rigidity." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that solidifies into complete inner standstill",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort and routine – low-movement, comfortable habits, combined with the decades-long continued self-forgetting, fit especially directly with the picture of a stasis that solidifies over time." },
+          { code: "SO9", text: "The social Nine consistently subordinates its own opinion to the group – a chronic self-erasure in which its own inner state stays immovable for years." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a system that, over decades, never found a movement of its own." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to thrombosis, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates standstill, movement, and the release of blockages in its own way – some through hardened control, others through quiet exhaustion, restlessness, or a need of their own that was never set into motion. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -61185,7 +61278,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // and then moved into PSYCHOSOMATIK_KRANKHEITEN. Until then they appear on the overview
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["Stroke", "Thrombosis", "Low Blood Pressure (Hypotension)"],
+  "herz-kreislauf": ["Stroke", "Low Blood Pressure (Hypotension)"],
   "bewegungsapparat": ["Back Pain / Herniated Disc", "Osteoarthritis", "Rheumatoid Arthritis", "Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
