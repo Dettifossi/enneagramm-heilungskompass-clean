@@ -43479,7 +43479,7 @@ function robertSchumannKrankheitsportraetPage() {
         doctors forbade from visiting for a long time, fearing a reunion could further worsen
         his condition.</p>
         <p class="vb-intro"><strong>b) The young Brahms as the only constant:</strong>
-        While Clara was kept away, the 20-year-old Johannes Brahms, whom Schumann had hailed as
+        While Clara was kept away, the 20-year-old Johannes Brahms (SE9w8), whom Schumann had hailed as
         a coming master only months earlier, visited him regularly in Endenich and became the
         family's closest support during this time.</p>
         <p class="vb-intro"><strong>c) A reunion only shortly before death:</strong>

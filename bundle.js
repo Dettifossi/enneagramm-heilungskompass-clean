@@ -70449,7 +70449,7 @@ function robertSchumannKrankheitsportraetPage() {
         Frau Clara, der die Ärzte lange Zeit jeden Besuch untersagten, aus Sorge, ein
         Wiedersehen könnte seinen Zustand weiter verschlechtern.</p>
         <p class="vb-intro"><strong>b) Der junge Brahms als einzige Konstante:</strong>
-        Während Clara ferngehalten wurde, besuchte der 20-jährige Johannes Brahms, den Schumann
+        Während Clara ferngehalten wurde, besuchte der 20-jährige Johannes Brahms (SE9w8), den Schumann
         wenige Monate zuvor als kommenden Meister gefeiert hatte, ihn regelmäßig in Endenich und
         wurde in dieser Zeit zur engsten Stütze der gesamten Familie.</p>
         <p class="vb-intro"><strong>c) Ein Wiedersehen erst kurz vor dem Tod:</strong>
