@@ -95339,7 +95339,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Leistung – wo das Herz mitläuft",
         varianten: [
       { code: "SE3", text: "Die selbsterhaltende Drei misst den eigenen Wert am nächsten konkreten Ergebnis: der abgeschlossenen Aufgabe, der sauber geführten Buchhaltung, dem Garten, der besser aussieht als der der Nachbarn. Sie glänzt selten öffentlich – ihre Bestätigung holt sie sich in stiller, effizienter Betriebsamkeit, oft ohne dass jemand außer ihr selbst überhaupt bemerkt, wie viel sie leistet. Erschöpfung wird dabei konsequent uminterpretiert: nicht als Warnsignal, sondern als Charakterschwäche, die es zu überwinden gilt. Das Herz pumpt im Takt selbst gesetzter Zielvorgaben lange weiter, nachdem der Körper längst deutliche Zeichen gesendet hat, kürzerzutreten." },
-          { code: "SO3", text: "Die soziale Drei sucht Erfolg sichtbar und im Vergleich: Karriere, Titel, das Auto vor der Tür, die Anerkennung des Publikums. Sie kommt dem klassischen Bild der kardiologisch beschriebenen Typ-A-Persönlichkeit am nächsten von allen 27 Subtypen – ehrgeizig, zeitgetrieben, in einem inneren Wettlauf, der nie wirklich endet, weil der nächste Vergleich, der nächste Konkurrent, die nächste Bestleistung schon wartet. Das Herz arbeitet hier gegen eine Uhr, die nur in ihrem eigenen Kopf tickt, aber real genug ist, um Blutdruck und Puls dauerhaft zu erhöhen." },
+      { code: "SO3", text: "Die soziale Drei sucht Erfolg sichtbar und im Vergleich: Karriere, Titel, das Auto vor der Tür, die Anerkennung des Publikums. Sie kommt dem klassischen Bild der kardiologisch beschriebenen Typ-A-Persönlichkeit am nächsten von allen 27 Subtypen – ehrgeizig, zeitgetrieben, in einem inneren Wettlauf, der nie wirklich endet, weil der nächste Vergleich, der nächste Konkurrent, die nächste Bestleistung schon wartet. Das Herz arbeitet hier gegen eine Uhr, die nur in ihrem eigenen Kopf tickt, aber real genug ist, um Blutdruck und Puls dauerhaft zu erhöhen." },
           { code: "SX3", text: "Die sexuelle Drei setzt ihre Leistungskraft gezielt im Beziehungskontext ein: Attraktivität, Charisma, permanente Selbstoptimierung, um für den einen wichtigen Menschen unübertroffen zu sein – „der oder die Beste“, nicht in einem Wettbewerb, sondern im Auge des Geliebten. Die Erschöpfung entsteht hier weniger aus öffentlichem Vergleich als aus dem privaten, nie endenden Druck, auch im intimsten Bereich keine Schwäche, keine Nachlässigkeit, kein Nachlassen zu zeigen – ein Anspruch, der gerade dort am meisten Kraft kostet, wo eigentlich Entspannung möglich sein sollte." },
         ],
       },
@@ -95355,7 +95355,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug – wenn Distanz selbst zum Risiko wird",
         varianten: [
       { code: "SE5", text: "Die selbsterhaltende Fünf reduziert ihr Leben systematisch auf das Nötigste: minimale Bedürfnisse, minimaler Kontakt, ein selbst gewählter, oft als angenehm erlebter Rückzug aus einer Welt, die als übergriffig und energiezehrend empfunden wird. Im klassischen Sinn ist das kein Typ-A-Muster – hier fehlt die äußere Betriebsamkeit völlig. Doch soziale Isolation ist medizinisch selbst ein eigenständiger, gut belegter Risikofaktor für Herz-Kreislauf-Erkrankungen, unabhängig von akutem Stress: Ein Herz, das selten im Austausch mit anderen schlägt, verliert etwas von dem, was Herzfrequenzvariabilität und Regeneration nachweislich fördert." },
-          { code: "SO5", text: "Die soziale Fünf sucht ihren Platz in der Gruppe über Wissen, nicht über Nähe – sie beobachtet, sammelt, kommentiert von der Seitenlinie aus, während sie auch dort, wo sie physisch anwesend ist, eine innere Distanz aufrechterhält. Diese Mischung aus Teilhabe und Rückzug bedeutet, dass eigene Bedürfnisse selten klar benannt werden, weil das Benennen selbst schon als zu exponierend empfunden wird – eine leise, aber beständige Form der Selbstverleugnung, die sich über Jahre in einem Körper niederschlägt, der ebenfalls gelernt hat, wenig zu verlangen." },
+      { code: "SO5", text: "Die soziale Fünf sucht ihren Platz in der Gruppe über Wissen, nicht über Nähe – sie beobachtet, sammelt, kommentiert von der Seitenlinie aus, während sie auch dort, wo sie physisch anwesend ist, eine innere Distanz aufrechterhält. Diese Mischung aus Teilhabe und Rückzug bedeutet, dass eigene Bedürfnisse selten klar benannt werden, weil das Benennen selbst schon als zu exponierend empfunden wird – eine leise, aber beständige Form der Selbstverleugnung, die sich über Jahre in einem Körper niederschlägt, der ebenfalls gelernt hat, wenig zu verlangen." },
           { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber ausschließlich mit sehr wenigen, sorgfältig ausgewählten Menschen – eine „vertraute“ Verbindung von großer emotionaler Tiefe, umgeben von einer radikalen Abschottung gegenüber allen anderen. Diese Konzentration auf eine einzige oder sehr wenige Bindungen kann durchaus nährend wirken, doch die fast vollständige Abwesenheit eines breiteren sozialen Netzes – ebenfalls medizinisch als kardiovaskulärer Risikofaktor beschrieben – bedeutet, dass beim Verlust oder Rückzug dieser einen Bindung kaum Auffangnetz bleibt." },
         ],
       },
@@ -95432,7 +95432,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Leistung, die den Fluss nie unterbricht",
         varianten: [
       { code: "SE3", text: "Erschöpfung wird bei der selbsterhaltenden Drei als Schwäche gedeutet, nicht als Signal, das ernst zu nehmen wäre – sie arbeitet still und effizient weiter, auch wenn der Körper längst Pause fordert. Sie ist die Person, die den Feierabend nutzt, um noch die Steuererklärung fertigzustellen, während andere sich entspannen, und die dieses Verhalten nicht als Getriebenheit, sondern als schlichte Selbstverständlichkeit empfindet. Über Jahrzehnte verdichtet sich diese ständige Selbstüberforderung zu einem Bild, in dem auch die Gefäße nie zur Ruhe kommen – ein System im Dauerbetrieb, dem die Regenerationsphasen fehlen, die für gesunde Gefäßelastizität notwendig wären." },
-          { code: "SO3", text: "Die soziale Drei sucht Erfolg sichtbar und im Vergleich mit anderen – ein Leben im ständigen Wettbewerbsmodus, das dem klassischen Bild der Typ-A-Persönlichkeit am nächsten kommt und über Jahre kaum echte Erholungsphasen kennt. Jeder Erfolg wird sofort relativiert durch den nächsten möglichen Vergleich, jede Anerkennung ist nur so lange gültig, bis jemand anderes sie übertrifft – ein Zustand permanenter, selbst erzeugter Alarmbereitschaft, der dem Gefäßsystem über Jahrzehnte kaum Gelegenheit zur Entspannung lässt." },
+      { code: "SO3", text: "Ein Leben im ständigen Wettbewerbsmodus, das dem klassischen Bild der Typ-A-Persönlichkeit am nächsten kommt: So sucht die soziale Drei Erfolg sichtbar und im Vergleich mit anderen, über Jahre kaum echte Erholungsphasen kennend. Jeder Erfolg wird sofort relativiert durch den nächsten möglichen Vergleich, jede Anerkennung ist nur so lange gültig, bis jemand anderes sie übertrifft – ein Zustand permanenter, selbst erzeugter Alarmbereitschaft, der dem Gefäßsystem über Jahrzehnte kaum Gelegenheit zur Entspannung lässt." },
           { code: "SX3", text: "Die sexuelle Drei setzt permanente Selbstoptimierung im Beziehungskontext ein – der Druck, auch im Intimsten nie nachzulassen, erzeugt eine Anspannung, die selten offen benannt, aber über Jahre mitgetragen wird. Attraktivität, Anpassungsfähigkeit, die ständige Bereitschaft, sich für den einen Menschen neu zu erfinden – all das kostet Kraft, die selten als Erschöpfung erkannt wird, weil sie hinter dem Gefühl versteckt bleibt, geliebt werden zu müssen, um wertvoll zu sein." },
         ],
       },
@@ -95448,7 +95448,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug, der die Bahnen verengt",
         varianten: [
       { code: "SE5", text: "Kontakt zu anderen wird von der selbsterhaltenden Fünf als Kostenfaktor erlebt, nicht als Nährstoff – sie zieht sich radikal zurück und minimiert Kontakt und Bedürfnisse zu einem kargen, selbstgenügsamen Leben. Soziale Isolation ist medizinisch selbst ein anerkannter Risikofaktor für Gefäßerkrankungen, unabhängig von akutem Stress, und passt damit besonders deutlich zum Bild eines Systems, das sich über Jahre selbst verengt: Ein Kreislauf, der selten im Austausch mit anderen aktiviert wird, verliert etwas von seiner natürlichen Weite." },
-          { code: "SO5", text: "Die soziale Fünf sucht Zugang zur Gruppe über Wissen, hält aber innerlich Distanz – sie kann in Gesellschaft brillieren, ohne je wirklich präsent zu sein, weil ein Teil von ihr immer schon wieder in der Beobachterrolle ist. Diese Mischung aus Teilhabe und Rückzug bedeutet, dass eigene Bedürfnisse selten klar benannt werden, weil das Benennen selbst schon zu viel Nähe verlangen würde – eine leise, chronische Enge, die sich über Jahre im System festsetzen kann." },
+      { code: "SO5", text: "Ohne je wirklich präsent zu sein, kann die soziale Fünf in Gesellschaft brillieren, weil ein Teil von ihr immer schon wieder in der Beobachterrolle ist – sie sucht Zugang zur Gruppe über Wissen, hält aber innerlich Distanz. Diese Mischung aus Teilhabe und Rückzug bedeutet, dass eigene Bedürfnisse selten klar benannt werden, weil das Benennen selbst schon zu viel Nähe verlangen würde – eine leise, chronische Enge, die sich über Jahre im System festsetzen kann." },
           { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, aber tiefe Verbindung bei gleichzeitig radikaler Abschottung nach außen. Innerhalb dieser einen oder wenigen Bindungen kann durchaus echter Austausch stattfinden, doch die fast vollständige Abwesenheit eines breiteren sozialen Netzes bedeutet, dass das Gefäßsystem insgesamt selten von der weitenden Wirkung vielfältiger sozialer Kontakte profitiert." },
         ],
       },
@@ -95525,7 +95525,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Leistung, die den inneren Druck erhöht",
         varianten: [
       { code: "SE3", text: "Der innere Druck, ständig funktionieren zu müssen, wird bei der selbsterhaltenden Drei selten bewusst wahrgenommen, geschweige denn geäußert – sie arbeitet still und effizient weiter, auch wenn der Körper längst Pause fordert. Sie erledigt eine Aufgabe nach der anderen, ohne sich je die Frage zu stellen, ob das Tempo ihr selbst noch guttut." },
-          { code: "SO3", text: "Die soziale Drei sucht Erfolg sichtbar und im ständigen Vergleich mit anderen – ein Leben im Wettbewerbsmodus, das dem klassischen Bild der Typ-A-Persönlichkeit am nächsten kommt und kaum echte Entspannungsphasen kennt. Jeder Erfolg wird sofort zur neuen Ausgangslage für den nächsten Vergleich, sodass echte Ruhe strukturell kaum vorgesehen ist." },
+      { code: "SO3", text: "Kaum echte Entspannungsphasen kennt das Leben im Wettbewerbsmodus, das dem klassischen Bild der Typ-A-Persönlichkeit am nächsten kommt und in dem die soziale Drei Erfolg sichtbar und im ständigen Vergleich mit anderen sucht. Jeder Erfolg wird sofort zur neuen Ausgangslage für den nächsten Vergleich, sodass echte Ruhe strukturell kaum vorgesehen ist." },
           { code: "SX3", text: "Die sexuelle Drei setzt permanente Selbstoptimierung im Beziehungskontext ein – der Druck, auch im Intimsten nie nachzulassen, wird selten offen benannt, aber über Jahre mitgetragen. Sie will für den einen Menschen makellos sein, in jeder Hinsicht, und dieser Anspruch lässt selbst die vertrauteste Beziehung zu einem Ort werden, an dem Anspannung nie ganz weicht." },
         ],
       },
@@ -95541,7 +95541,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug, der die eigene Überforderung verbirgt",
         varianten: [
       { code: "SE5", text: "Der Rückzug wirkt beruhigend, kann aber auch bedeuten, dass innere Überforderung nie einen Adressaten findet – die selbsterhaltende Fünf zieht sich radikal zurück und minimiert Kontakt und Bedürfnisse. Sie zieht sich in ihr Zimmer, ihre Gedanken, ihre eigene Welt zurück, gerade dann, wenn die Überforderung am größten wäre – und genau dieser Rückzug verhindert, dass die Spannung je einen Ausweg findet." },
-          { code: "SO5", text: "Die soziale Fünf sucht Zugang zur Gruppe über Wissen, hält aber innerlich Distanz – eine Mischung aus Teilhabe und Rückzug, bei der eigene Überforderung selten klar benannt wird. Sie kann brillant über ein Thema sprechen, ohne je zu erwähnen, wie erschöpft sie eigentlich ist." },
+      { code: "SO5", text: "Selten klar benannt wird eigene Überforderung bei der sozialen Fünf, die Zugang zur Gruppe über Wissen sucht, aber innerlich Distanz hält – eine Mischung aus Teilhabe und Rückzug. Sie kann brillant über ein Thema sprechen, ohne je zu erwähnen, wie erschöpft sie eigentlich ist." },
           { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, aber tiefe Verbindung bei gleichzeitig radikaler Abschottung nach außen, in der Druck kaum ein Ventil findet. Selbst in dieser engsten Bindung bleibt oft ein letzter Rückzugsraum, den sie nie ganz öffnet." },
         ],
       },
@@ -95618,7 +95618,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Leistung, die die eigene Substanz verbraucht",
         varianten: [
       { code: "SE3", text: "Über Jahrzehnte kann konsequentes Ignorieren der eigenen Grenzen bei der selbsterhaltenden Drei die Substanz selbst erschöpfen – Erschöpfung wird als Schwäche gedeutet, die es zu überwinden gilt, nicht als Warnsignal. Sie funktioniert, bis buchstäblich nichts mehr geht, weil Innehalten sich nie wie eine echte Option angefühlt hat." },
-          { code: "SO3", text: "Die soziale Drei sucht Erfolg sichtbar und im ständigen Vergleich mit anderen – ein Leben im Wettbewerbsmodus, das kaum echte Regenerationsphasen kennt und die eigene Kraft über Jahre kontinuierlich beansprucht. Jeder Erfolg treibt sie zum nächsten, sodass echte Erholung strukturell kaum vorgesehen ist." },
+      { code: "SO3", text: "Kaum echte Regenerationsphasen kennt das Leben im Wettbewerbsmodus, in dem die soziale Drei Erfolg sichtbar und im ständigen Vergleich mit anderen sucht – die eigene Kraft wird über Jahre kontinuierlich beansprucht. Jeder Erfolg treibt sie zum nächsten, sodass echte Erholung strukturell kaum vorgesehen ist." },
           { code: "SX3", text: "Die sexuelle Drei setzt permanente Selbstoptimierung im Beziehungskontext ein – der Druck, auch im Intimsten nie nachzulassen, zehrt über Jahre an einer Substanz, die selten bewusst geschont wird. Sie investiert ihre gesamte Energie in das Bild, das der geliebte Mensch von ihr haben soll, und vergisst dabei, wie viel diese ständige Selbstinszenierung tatsächlich kostet." },
         ],
       },
@@ -95634,7 +95634,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug, der die eigenen Reserven schont – und isoliert",
         varianten: [
       { code: "SE5", text: "Ein Verhalten, das kurzfristig Kraft spart, aber sozial isoliert: So zieht sich die selbsterhaltende Fünf radikal zurück und minimiert Bedürfnisse. Isolation gilt medizinisch selbst als eigenständiger Risikofaktor für einen ungünstigen Verlauf bei bereits bestehenden Herz-Kreislauf-Erkrankungen: Der Rückzug schützt vor Überforderung, nimmt aber auch die stärkende Wirkung echten menschlichen Austauschs." },
-          { code: "SO5", text: "Die soziale Fünf sucht Zugang zur Gruppe über Wissen, hält aber innerlich Distanz – eine Mischung aus Teilhabe und Rückzug, die eigene Erschöpfung selten offen zeigt. Sie kann stundenlang über ein Thema sprechen, ohne je zu erwähnen, wie leer sie sich dabei innerlich fühlt." },
+      { code: "SO5", text: "Selten offen gezeigt wird die eigene Erschöpfung der sozialen Fünf, die Zugang zur Gruppe über Wissen sucht, aber innerlich Distanz hält – eine Mischung aus Teilhabe und Rückzug. Sie kann stundenlang über ein Thema sprechen, ohne je zu erwähnen, wie leer sie sich dabei innerlich fühlt." },
           { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, tiefe Verbindung, die zumindest an einer Stelle echten Austausch von Kraft und Nähe ermöglicht. Diese eine oder wenige Bindungen können durchaus nährend wirken, auch wenn das breitere soziale Netz fehlt." },
         ],
       },
@@ -95711,7 +95711,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Vielfachtakt, der den eigenen Rhythmus überlagert",
         varianten: [
       { code: "SE3", text: "Ein Leben im Multitasking-Modus, das dem eigenen Herzen kaum je erlaubt, in einem einzigen, ruhigen Takt zu schlagen: So jongliert die selbsterhaltende Drei meist mehrere parallele Projekte gleichzeitig, arbeitet effizient, aber ständig auf mehreren Ebenen zugleich. Sie wechselt fließend zwischen Aufgaben, ohne zwischendurch je wirklich abzuschalten, bis die innere Taktung selbst durcheinandergerät." },
-          { code: "SO3", text: "Die soziale Drei orientiert sich an mehreren Erfolgsmaßstäben gleichzeitig – Karriere, Status, Anerkennung in verschiedenen sozialen Kreisen –, was einen ständig wechselnden inneren Takt erzeugt, je nachdem, welchem Publikum sie sich gerade zuwendet. Diese ständige Anpassung an unterschiedliche Erwartungen kann den eigenen, verlässlichen Rhythmus regelrecht auflösen." },
+      { code: "SO3", text: "Karriere, Status, Anerkennung in verschiedenen sozialen Kreisen: An mehreren Erfolgsmaßstäben gleichzeitig orientiert sich die soziale Drei, was einen ständig wechselnden inneren Takt erzeugt, je nachdem, welchem Publikum sie sich gerade zuwendet. Diese ständige Anpassung an unterschiedliche Erwartungen kann den eigenen, verlässlichen Rhythmus regelrecht auflösen." },
           { code: "SX3", text: "Die sexuelle Drei bündelt ihren Ehrgeiz auf die eine Beziehung, in der sie begehrenswert und erfolgreich erscheinen will – ein intensiver, aber konzentrierter Einsatz, der eher zu punktuellen, heftigen inneren Ausschlägen in besonders zugespitzten Beziehungsmomenten führt als zu chronischer, breitflächiger Zersplitterung." },
         ],
       },
@@ -95727,7 +95727,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Reizüberflutung, vor der sich der Rückzug nicht schützen kann",
         varianten: [
       { code: "SE5", text: "Um äußere Reize zu minimieren und die eigenen begrenzten Ressourcen zu schützen, zieht sich die selbsterhaltende Fünf zurück – diese Strategie hilft gegen äußere Überforderung, kann aber innere, gedanklich fortlaufend verarbeitete Reizfülle nicht verhindern: Der Kopf bleibt oft in ständiger, leiser Aktivität, selbst wenn die äußere Welt bereits auf Abstand gehalten wird." },
-          { code: "SO5", text: "Die soziale Fünf sammelt und verarbeitet fortlaufend Wissen aus vielen verschiedenen Quellen gleichzeitig, oft in mehreren Themengebieten parallel – diese kognitive Vielspurigkeit, das gleichzeitige Verfolgen unterschiedlicher Gedankenstränge, kann sich als ein Zuviel an gleichzeitiger innerer Aktivität niederschlagen, das dem Herzen seinen ruhigen Takt erschwert." },
+      { code: "SO5", text: "Oft in mehreren Themengebieten parallel: So sammelt und verarbeitet die soziale Fünf fortlaufend Wissen aus vielen verschiedenen Quellen gleichzeitig – diese kognitive Vielspurigkeit kann sich als ein Zuviel an gleichzeitiger innerer Aktivität niederschlagen, das dem Herzen seinen ruhigen Takt erschwert." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen ausgewählten Menschen – diese Konzentration auf eine schmale, aber tiefe Verbindung kann in besonders intensiven Momenten des Austauschs zu punktuellen inneren Ausschlägen führen, bleibt aber insgesamt fokussierter als die breite Zerstreuung anderer Subtypen." },
         ],
       },
@@ -95804,7 +95804,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Leistungsanspruch, der die eigene Grenze überrennt",
         varianten: [
       { code: "SE3", text: "Innehalten fühlt sich bei der selbsterhaltenden Drei wie ein Versagen an, das sie sich nicht erlaubt – sie funktioniert effizient und diszipliniert, auch wenn der Körper längst deutliche Warnsignale sendet. Ein wiederkehrender Schmerz, der genau an der Belastungsgrenze auftaucht, kann so zum einzigen Signal werden, das sie überhaupt noch ernst nimmt, weil rein rationale Warnungen längst ignoriert wurden." },
-          { code: "SO3", text: "Die soziale Drei misst sich fortlaufend am Erfolg anderer und treibt sich selbst zu immer höherer Leistung an, um im Vergleich zu bestehen – dieser äußere Maßstab kennt keine natürliche Obergrenze, wodurch die eigene körperliche Belastungsgrenze regelmäßig überschritten wird, bevor sie überhaupt wahrgenommen wird." },
+      { code: "SO3", text: "Um im Vergleich zu bestehen, misst sich die soziale Drei fortlaufend am Erfolg anderer und treibt sich selbst zu immer höherer Leistung an – dieser äußere Maßstab kennt keine natürliche Obergrenze, wodurch die eigene körperliche Belastungsgrenze regelmäßig überschritten wird, bevor sie überhaupt wahrgenommen wird." },
           { code: "SX3", text: "Die sexuelle Drei setzt ihre gesamte Energie darauf, in der Beziehung begehrenswert und erfolgreich zu erscheinen – dieser fokussierte, aber intensive Einsatz erzeugt eher punktuelle Belastungsspitzen in zugespitzten Beziehungsmomenten als eine über den ganzen Alltag verteilte, chronische Überforderung." },
         ],
       },
@@ -95820,7 +95820,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug, der die Grenze verschiebt, statt sie aufzulösen",
         varianten: [
       { code: "SE5", text: "Um die eigenen begrenzten Ressourcen zu schonen, reduziert die selbsterhaltende Fünf äußere Anforderungen so weit wie möglich – diese Strategie funktioniert gegen äußere Überforderung gut, kann aber verhindern, dass die Person überhaupt lernt, wo ihre reale körperliche Belastungsgrenze liegt, weil sie sie so konsequent umgeht." },
-          { code: "SO5", text: "Die soziale Fünf hält sich mit ihrem Wissen für die Gruppe verfügbar, oft in intellektuell fordernden, langen Arbeitsphasen – diese kognitive Dauerbeanspruchung, ohne ausreichende körperliche Erholung, kann sich als ein Schmerz zeigen, der die geistige Grenze in eine körperliche übersetzt." },
+      { code: "SO5", text: "Oft in intellektuell fordernden, langen Arbeitsphasen hält sich die soziale Fünf mit ihrem Wissen für die Gruppe verfügbar – diese kognitive Dauerbeanspruchung, ohne ausreichende körperliche Erholung, kann sich als ein Schmerz zeigen, der die geistige Grenze in eine körperliche übersetzt." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – diese fokussierte, aber tiefe Investition kann in besonders intensiven Momenten des Austauschs zu punktuellen Belastungsspitzen führen, bleibt aber insgesamt begrenzter als die breite Überforderung anderer Subtypen." },
         ],
       },
@@ -95897,7 +95897,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Erfolgsdruck, der keine Entlastung kennt",
         varianten: [
       { code: "SE3", text: "Erholung wird bei der selbsterhaltenden Drei als verlorene Zeit erlebt, nicht als notwendiger Ausgleich – sie arbeitet effizient weiter, auch wenn der Körper längst um Pause bittet. Über Jahre kann dieses Fehlen echter Erleichterungsphasen sich körperlich als ein System zeigen, das ständig unter Druck steht, ohne je wirklich zu entspannen." },
-          { code: "SO3", text: "Die soziale Drei sammelt Erfolge und Anerkennung fortlaufend an, ohne sich je zurückzulehnen und das Erreichte wirklich zu genießen – dieser endlose Vergleich mit dem nächsten Ziel verhindert die innere Erleichterung, die eigentlich auf jeden Erfolg folgen sollte." },
+      { code: "SO3", text: "Ohne sich je zurückzulehnen und das Erreichte wirklich zu genießen, sammelt die soziale Drei Erfolge und Anerkennung fortlaufend an – dieser endlose Vergleich mit dem nächsten Ziel verhindert die innere Erleichterung, die eigentlich auf jeden Erfolg folgen sollte." },
           { code: "SX3", text: "Die sexuelle Drei setzt ihre gesamte Energie darauf, in der Beziehung begehrenswert zu erscheinen – dieser fokussierte, oft intensive Einsatz kann in besonders zugespitzten Beziehungsmomenten zu punktuellen Belastungsspitzen führen, statt sich gleichmäßig über die Zeit zu stauen." },
         ],
       },
@@ -95913,7 +95913,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug, der auch die eigene Erleichterung verhindert",
         varianten: [
       { code: "SE5", text: "Auch die eigene Erleichterung fällt unter das Minimieren, das die selbsterhaltende Fünf sich auferlegt: Sie zieht sich zurück und hält Bedürfnisse, auch emotionale, konsequent zurück. Sie erlaubt sich selten, sich fallenzulassen oder loszulassen, weil das wie Kontrollverlust wirkt. Ein Rückfluss, der strukturell nicht vorgesehen ist, passt zu diesem Muster besonders genau." },
-          { code: "SO5", text: "Die soziale Fünf sammelt fortlaufend Wissen an, ohne sich je wirklich damit zufrieden zu geben – dieses endlose intellektuelle Anhäufen, ohne inneren Abschluss, kann sich als ein Stau ohne Entlastung niederschlagen." },
+      { code: "SO5", text: "Ohne sich je wirklich damit zufrieden zu geben, sammelt die soziale Fünf fortlaufend Wissen an – dieses endlose intellektuelle Anhäufen, ohne inneren Abschluss, kann sich als ein Stau ohne Entlastung niederschlagen." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen, tiefen Verbindung findet zumindest an einer Stelle echter emotionaler Austausch und damit auch Erleichterung statt, anders als bei der breiteren Zurückhaltung der anderen Fünf-Varianten." },
         ],
       },
@@ -95990,7 +95990,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Unbeugsamer Erfolgswille, der keine Bewegung mehr zulässt",
         varianten: [
       { code: "SE3", text: "Innehalten oder Kurswechsel fühlen sich bei der selbsterhaltenden Drei wie Versagen an – sie hält an ihrem einmal eingeschlagenen Kurs fest, auch wenn er längst nicht mehr passt. Diese Starrheit, die selbst dann nicht nachgibt, wenn der Körper klare Warnsignale sendet, kann sich als eine feste, unbewegliche innere Blockade zeigen." },
-          { code: "SO3", text: "Die soziale Drei verhärtet ihre Position im ständigen Wettbewerb um Anerkennung zunehmend – der Vergleich mit anderen lässt kaum Raum für Flexibilität oder Nachgiebigkeit, was sich über Jahre zu einer festen inneren Blockade verfestigen kann." },
+      { code: "SO3", text: "Kaum Raum für Flexibilität oder Nachgiebigkeit lässt der Vergleich mit anderen, in dem sich die soziale Drei zunehmend verhärtet – so verhärtet sich ihre Position im ständigen Wettbewerb um Anerkennung, was sich über Jahre zu einer festen inneren Blockade verfestigen kann." },
           { code: "SX3", text: "Die sexuelle Drei verhärtet sich in einzelnen Beziehungskrisen, wenn ihr Bild als erfolgreiche, begehrenswerte Partnerin bedroht scheint – diese Erstarrung tritt eher punktuell und intensiv auf als gleichmäßig über die Zeit verteilt." },
         ],
       },
@@ -96006,7 +96006,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug, der zur inneren Erstarrung wird",
         varianten: [
       { code: "SE5", text: "Über Jahre kann ein anfangs schützender Rückzug zu einer festen, kaum mehr auflösbaren inneren Isolation erstarren – so zieht sich die selbsterhaltende Fünf konsequent zurück und hält Kontakt wie Bedürfnisse auf ein Minimum, selbst dann, wenn Nähe eigentlich möglich wäre." },
-          { code: "SO5", text: "Die soziale Fünf verschanzt sich zunehmend hinter ihrem Wissen und hält emotionale Nähe auf Distanz – diese intellektuelle Position kann sich über die Zeit zu einer starren, kaum mehr beweglichen Haltung verfestigen, die echten Austausch erschwert." },
+      { code: "SO5", text: "Zunehmend verschanzt sich die soziale Fünf hinter ihrem Wissen und hält emotionale Nähe auf Distanz – diese intellektuelle Position kann sich über die Zeit zu einer starren, kaum mehr beweglichen Haltung verfestigen, die echten Austausch erschwert." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung bleibt echte Bewegung und echter Austausch meist erhalten, was der vollständigen Erstarrung der anderen Fünf-Varianten entgegenwirkt." },
         ],
       },
@@ -96083,7 +96083,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Erfolgsfassade, hinter der sich die Erschöpfung staut",
         varianten: [
       { code: "SE3", text: "Jedes Signal von Schwäche wird bei der selbsterhaltenden Drei konsequent übergangen – sie funktioniert effizient weiter, auch wenn der Körper längst deutliche Warnsignale sendet. Diese über Jahre fortgesetzte Verleugnung der eigenen Erschöpfung kann sich als innere Fülle ansammeln, die sich, wenn der Damm bricht, besonders unvermittelt entlädt." },
-          { code: "SO3", text: "Die soziale Drei hält die Fassade des Erfolgs auch dann noch aufrecht, wenn innerlich längst nichts mehr zusammenpasst – dieser wachsende Widerspruch zwischen äußerem Bild und innerer Realität kann sich über Jahre zu einer aufgestauten Spannung verdichten, die sich plötzlich entlädt." },
+      { code: "SO3", text: "Auch wenn innerlich längst nichts mehr zusammenpasst, hält die soziale Drei die Fassade des Erfolgs aufrecht – dieser wachsende Widerspruch zwischen äußerem Bild und innerer Realität kann sich über Jahre zu einer aufgestauten Spannung verdichten, die sich plötzlich entlädt." },
           { code: "SX3", text: "Die sexuelle Drei setzt ihre gesamte Energie darauf, in der Beziehung als erfolgreich und begehrenswert zu erscheinen – diese fokussierte, aber intensive Anstrengung erzeugt eher punktuelle Drucksteigerungen in einzelnen Beziehungskrisen als eine gleichmäßig akkumulierte Fülle." },
         ],
       },
@@ -96099,7 +96099,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Zurückgehaltene Gedankenwelt, die keinen Ausdruck findet",
         varianten: [
       { code: "SE5", text: "Nicht nur Bedürfnisse, auch Gedanken und Gefühle hält die selbsterhaltende Fünf konsequent für sich, zieht sich radikal zurück – eine über Jahre nie geteilte innere Welt, die sich als aufgestaute Fülle ansammeln kann, ohne dass je jemand von ihrer Existenz erfährt." },
-          { code: "SO5", text: "Die soziale Fünf hält emotionale Nähe hinter intellektuellem Wissen auf Distanz – diese fortgesetzte Trennung von Denken und Fühlen kann über Jahre zu einer inneren Fülle führen, die sich der bewussten Wahrnehmung weitgehend entzieht, bis sie sich unvermittelt zeigt." },
+      { code: "SO5", text: "Hinter intellektuellem Wissen hält die soziale Fünf emotionale Nähe auf Distanz – diese fortgesetzte Trennung von Denken und Fühlen kann über Jahre zu einer inneren Fülle führen, die sich der bewussten Wahrnehmung weitgehend entzieht, bis sie sich unvermittelt zeigt." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen, tiefen Verbindung findet zumindest an einer Stelle echter Austausch statt, was der vollständigen inneren Aufstauung der anderen Fünf-Varianten entgegenwirkt." },
         ],
       },
@@ -96176,7 +96176,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Leistungsdruck, der die eigene Kraft für andere aufbraucht",
         varianten: [
       { code: "SE3", text: "Anders als die soziale Drei sucht die selbsterhaltende Drei kaum Anerkennung nach außen – sie arbeitet still und effizient, oft im Hintergrund, ohne den eigenen Beitrag sichtbar zu behaupten, was langfristig dazu führen kann, dass ihr die Energie fehlt, für die eigene Position überhaupt einzustehen." },
-          { code: "SO3", text: "Die soziale Drei bezieht ihren Antrieb fast ausschließlich aus äußerer Anerkennung – bleibt diese aus oder wird der Erfolg nicht bemerkt, kann die innere Energiequelle regelrecht versiegen, weil sie nie gelernt hat, Kraft aus sich selbst heraus zu schöpfen." },
+      { code: "SO3", text: "Fast ausschließlich aus äußerer Anerkennung bezieht die soziale Drei ihren Antrieb – bleibt diese aus oder wird der Erfolg nicht bemerkt, kann die innere Energiequelle regelrecht versiegen, weil sie nie gelernt hat, Kraft aus sich selbst heraus zu schöpfen." },
           { code: "SX3", text: "Die sexuelle Drei setzt ihre Energie konzentriert darauf, in der Beziehung begehrenswert zu erscheinen – der Kraftmangel zeigt sich hier eher punktuell, wenn diese Anstrengung über einen längeren Zeitraum nicht die erhoffte Bestätigung findet." },
         ],
       },
@@ -96192,7 +96192,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug, der die eigene Energie schont, aber auch mindert",
         varianten: [
       { code: "SE5", text: "Bewusst reduziert die selbsterhaltende Fünf ihren Energieverbrauch, minimiert Bedürfnisse und äußere Reize – diese Strategie schont knappe Ressourcen, kann aber gleichzeitig bedeuten, dass der Körper sich an ein dauerhaft niedriges Energieniveau gewöhnt, das dann auch dort fehlt, wo tatsächlich Kraft gebraucht würde." },
-          { code: "SO5", text: "Die soziale Fünf zieht sich innerlich hinter ihr Wissen zurück, auch wenn sie äußerlich an der Gruppe teilnimmt – diese Distanzierung von echtem emotionalem Engagement kann dazu führen, dass ihr die Energie fehlt, sich mit vollem Nachdruck für die eigene Position einzusetzen." },
+      { code: "SO5", text: "Auch wenn sie äußerlich an der Gruppe teilnimmt, zieht sich die soziale Fünf innerlich hinter ihr Wissen zurück – diese Distanzierung von echtem emotionalem Engagement kann dazu führen, dass ihr die Energie fehlt, sich mit vollem Nachdruck für die eigene Position einzusetzen." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung kann durchaus lebendige Energie fließen, was den chronischen Kraftmangel der anderen Fünf-Varianten hier abmildert." },
         ],
       },
@@ -96269,7 +96269,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Immer gleicher Erfolgsweg, der keine Kurskorrektur zulässt",
         varianten: [
       { code: "SE3", text: "Weil es funktioniert, wird es nie verändert: Die selbsterhaltende Drei hält an einem einmal bewährten, effizienten Arbeitsmuster fest und wiederholt dieselben Bewegungsabläufe über Jahre. Diese Weigerung kann genau die einseitige, wiederholte Belastung erzeugen, die Gelenke mechanisch am stärksten abnutzt." },
-          { code: "SO3", text: "Die soziale Drei verfolgt über Jahre denselben Erfolgspfad, das immer gleiche Muster von Leistung und Anerkennung, ohne es zu variieren – diese unveränderte Ausrichtung kann sich als eine Rigidität zeigen, die auch körperlich zunehmend weniger Anpassungsfähigkeit zulässt." },
+      { code: "SO3", text: "Ohne es zu variieren, verfolgt die soziale Drei über Jahre denselben Erfolgspfad, das immer gleiche Muster von Leistung und Anerkennung – diese unveränderte Ausrichtung kann sich als eine Rigidität zeigen, die auch körperlich zunehmend weniger Anpassungsfähigkeit zulässt." },
           { code: "SX3", text: "Die sexuelle Drei passt ihr Verhalten stark an die jeweilige Beziehung und deren Erwartungen an – diese Anpassungsfähigkeit im Beziehungskontext kann der starren Wiederholung, die für Arthrose typisch ist, zumindest teilweise entgegenwirken." },
         ],
       },
@@ -96285,7 +96285,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug, der zur unveränderten Routine erstarrt",
         varianten: [
       { code: "SE5", text: "Wenig Bewegung, wenig Variation über Jahrzehnte: So zieht sich die selbsterhaltende Fünf in dieselben, minimalistischen Routinen zurück, verändert wenig, meidet neue Anforderungen. Diese über die Zeit unveränderte Lebensweise passt besonders genau zum Bild eines Gelenks, das sich durch immer gleiche, nie variierte Muster abnutzt." },
-          { code: "SO5", text: "Die soziale Fünf vertieft sich über Jahre in dasselbe intellektuelle Terrain, wiederholt dieselben Denkmuster, ohne sie durch neue körperliche oder emotionale Erfahrungen zu ergänzen – diese einseitige, unveränderte Ausrichtung kann sich als Rigidität auch körperlich zeigen." },
+      { code: "SO5", text: "Ohne sie durch neue körperliche oder emotionale Erfahrungen zu ergänzen, wiederholt die soziale Fünf über Jahre dasselbe intellektuelle Terrain, dieselben Denkmuster – diese einseitige, unveränderte Ausrichtung kann sich als Rigidität auch körperlich zeigen." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen, aber lebendigen Verbindung bleibt zumindest an einer Stelle Bewegung und Veränderung erhalten, was der vollständigen Erstarrung der anderen Fünf-Varianten entgegenwirkt." },
         ],
       },
@@ -96362,7 +96362,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Leistungslast, die keine Unterstützung zulässt",
         varianten: [
       { code: "SE3", text: "Hilfe anzunehmen widerspricht dem Selbstbild der eigenständigen Leistungsfähigkeit – die selbsterhaltende Drei arbeitet effizient und allein weiter, auch wenn der Rücken längst um Entlastung bittet. Dieses konsequente Alleintragen kann sich über Jahre als chronischer Rückenschmerz zeigen." },
-          { code: "SO3", text: "Die soziale Drei trägt den Druck, im ständigen Vergleich mit anderen zu bestehen, meist ohne dies je offen zu zeigen – diese unsichtbare Last des permanenten Leistungsanspruchs kann sich körperlich als Rückenschmerz niederschlagen." },
+      { code: "SO3", text: "Meist ohne dies je offen zu zeigen, trägt die soziale Drei den Druck, im ständigen Vergleich mit anderen zu bestehen – diese unsichtbare Last des permanenten Leistungsanspruchs kann sich körperlich als Rückenschmerz niederschlagen." },
           { code: "SX3", text: "Die sexuelle Drei setzt ihre Energie konzentriert darauf, in der Beziehung erfolgreich zu erscheinen – dieser fokussierte Einsatz erzeugt eher punktuelle Belastungsspitzen in zugespitzten Beziehungsmomenten als eine chronische, gleichmäßig verteilte Last." },
         ],
       },
@@ -96378,7 +96378,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug, der die Last unsichtbar macht, aber nicht auflöst",
         varianten: [
       { code: "SE5", text: "Ohne je um Unterstützung zu bitten, trägt die selbsterhaltende Fünf ihre Sorgen allein und zieht sich zurück – diese konsequente Selbstisolation, gerade in Bezug auf emotionale Lasten, passt zum Bild eines Rückens, der eine Bürde trägt, die nie geteilt wurde." },
-          { code: "SO5", text: "Die soziale Fünf hält sich mit ihrem Wissen für die Gruppe verfügbar, verbirgt aber die eigene innere Last hinter intellektueller Distanz – dieses ständige Zurückhalten kann sich körperlich als Rückenschmerz zeigen, wo verdrängte Anspannung sich niederschlägt." },
+      { code: "SO5", text: "Hinter intellektueller Distanz verbirgt die soziale Fünf die eigene innere Last, hält sich mit ihrem Wissen für die Gruppe verfügbar – dieses ständige Zurückhalten kann sich körperlich als Rückenschmerz zeigen, wo verdrängte Anspannung sich niederschlägt." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung kann zumindest an einer Stelle echte Entlastung stattfinden, was der vollständigen Isolation der anderen Fünf-Varianten entgegenwirkt." },
         ],
       },
@@ -96455,7 +96455,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Leistungsanspruch, der keine eigene Schwäche duldet",
         varianten: [
       { code: "SE3", text: "Jedes Zeichen von Schwäche wird als persönliches Versagen gewertet und entsprechend hart mit sich selbst ins Gericht gegangen: So verlangt die selbsterhaltende Drei von sich selbst kompromisslose Leistung, auch wenn der Körper längst Erschöpfung signalisiert. Diese innere Härte gegen sich selbst passt zum Bild eines Immunsystems, das sich gegen den eigenen Körper wendet." },
-          { code: "SO3", text: "Die soziale Drei misst sich unaufhörlich am Erfolg anderer und wertet die eigene Person hart ab, sobald sie im Vergleich zurückbleibt – diese fortlaufende innere Selbstabwertung kann sich körperlich als ein System niederschlagen, das sich selbst als Ziel wählt." },
+      { code: "SO3", text: "Sobald sie im Vergleich zurückbleibt, wertet die soziale Drei die eigene Person hart ab, misst sich unaufhörlich am Erfolg anderer – diese fortlaufende innere Selbstabwertung kann sich körperlich als ein System niederschlagen, das sich selbst als Ziel wählt." },
           { code: "SX3", text: "Die sexuelle Drei richtet ihren Perfektionsanspruch stark auf die Beziehung und das Bild, das der geliebte Mensch von ihr hat – diese Ausrichtung nach außen kann den nach innen gerichteten Selbstangriff, der für rheumatoide Arthritis typisch ist, zumindest teilweise abmildern." },
         ],
       },
@@ -96471,7 +96471,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug, der die eigene Verletzlichkeit bekämpft",
         varianten: [
       { code: "SE5", text: "Mit derselben Härte, mit der sie äußere Zumutungen abwehrt, behandelt die selbsterhaltende Fünf oft auch die eigenen emotionalen Bedürfnisse – sie zieht sich radikal zurück. Diese innere Feindseligkeit gegenüber der eigenen Verletzlichkeit passt zum Bild eines Systems, das sich selbst als Bedrohung behandelt." },
-          { code: "SO5", text: "Die soziale Fünf hält emotionale Bedürftigkeit hinter intellektueller Distanz auf Abstand, auch sich selbst gegenüber – diese fortgesetzte Selbstverleugnung kann sich körperlich als ein System zeigen, das sich selbst konsequent abwehrt." },
+      { code: "SO5", text: "Auch sich selbst gegenüber hält die soziale Fünf emotionale Bedürftigkeit hinter intellektueller Distanz auf Abstand – diese fortgesetzte Selbstverleugnung kann sich körperlich als ein System zeigen, das sich selbst konsequent abwehrt." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung kann zumindest an einer Stelle echte Selbstakzeptanz stattfinden, was der vollständigen inneren Abwehr der anderen Fünf-Varianten entgegenwirkt." },
         ],
       },
@@ -96548,7 +96548,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Leistungsstreben, das die eigene Substanz übergeht",
         varianten: [
       { code: "SE3", text: "Leistung wird höher bewertet als das eigene Wohlergehen: Die selbsterhaltende Drei arbeitet effizient weiter, über Jahre, ohne sich je bewusst Erholung oder echte Selbstfürsorge zu gönnen. Diese über Jahrzehnte fortgesetzte Vernachlässigung der eigenen Substanz zugunsten der Funktion kann sich als eine still schwindende Knochendichte zeigen." },
-          { code: "SO3", text: "Die soziale Drei misst sich fortlaufend am Erfolg anderer und investiert ihre gesamte Energie in äußere Anerkennung, während die innere Substanz, die eigene Selbstfürsorge, über Jahre unbeachtet bleibt – dieser äußere Fokus kann sich körperlich als schwindende Substanz zeigen." },
+      { code: "SO3", text: "Über Jahre unbeachtet bleibt die innere Substanz, die eigene Selbstfürsorge, wenn die soziale Drei ihre gesamte Energie in äußere Anerkennung investiert und sich fortlaufend am Erfolg anderer misst – dieser äußere Fokus kann sich körperlich als schwindende Substanz zeigen." },
           { code: "SX3", text: "Die sexuelle Drei setzt ihre Energie konzentriert darauf, in der Beziehung begehrenswert zu erscheinen – dieser fokussierte, aber emotional lebendige Einsatz unterscheidet sich von der reinen Funktionsorientierung anderer Drei-Varianten und kann etwas mehr innere Nährung ermöglichen." },
         ],
       },
@@ -96564,7 +96564,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug, der auch die eigene Nährung minimiert",
         varianten: [
       { code: "SE5", text: "Nicht nur äußere Bedürfnisse, auch die eigene körperliche Selbstfürsorge minimiert die selbsterhaltende Fünf – ein Leben in bewusster Reduktion, das über Jahrzehnte unbemerkt an der eigenen Substanz zehren kann, ganz im Bild der stillen, lange unbemerkten Osteoporose." },
-          { code: "SO5", text: "Die soziale Fünf sammelt fortlaufend intellektuelles Wissen, vernachlässigt dabei aber oft die körperliche Ebene der Selbstfürsorge – dieses einseitige Fokussieren auf den Kopf, unter Vernachlässigung des Körpers, kann sich als schwindende körperliche Substanz zeigen." },
+      { code: "SO5", text: "Vernachlässigt bleibt oft die körperliche Ebene der Selbstfürsorge, während die soziale Fünf fortlaufend intellektuelles Wissen sammelt – dieses einseitige Fokussieren auf den Kopf, unter Vernachlässigung des Körpers, kann sich als schwindende körperliche Substanz zeigen." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung kann durchaus echte Nährung stattfinden, was der vollständigen Auszehrung der anderen Fünf-Varianten entgegenwirkt." },
         ],
       },
@@ -96641,7 +96641,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Vielfachbelastung, die sich in keinem einzelnen Projekt zeigt",
         varianten: [
       { code: "SE3", text: "Diese über den gesamten Alltag verteilte Anspannung, nirgends an einem einzelnen Punkt konzentriert, entsteht, wenn die selbsterhaltende Drei meist mehrere parallele Projekte gleichzeitig jongliert und auf vielen Ebenen zugleich arbeitet. Das passt zum Bild eines Schmerzes, der den ganzen Körper durchzieht, ohne dass sich eine einzelne Struktur dafür verantwortlich zeigt." },
-          { code: "SO3", text: "Die soziale Drei orientiert sich an mehreren Erfolgsmaßstäben gleichzeitig, in verschiedenen sozialen Kreisen – diese ständige Verteilung der eigenen Energie auf viele Fronten kann sich als ein System zeigen, das insgesamt überlastet ist, ohne dass sich eine einzelne Ursache benennen lässt." },
+      { code: "SO3", text: "In verschiedenen sozialen Kreisen orientiert sich die soziale Drei an mehreren Erfolgsmaßstäben gleichzeitig – diese ständige Verteilung der eigenen Energie auf viele Fronten kann sich als ein System zeigen, das insgesamt überlastet ist, ohne dass sich eine einzelne Ursache benennen lässt." },
           { code: "SX3", text: "Die sexuelle Drei bündelt ihren Ehrgeiz auf die eine Beziehung – diese Fokussierung auf einen konzentrierten Bereich steht dem diffusen, über die ganze Existenz verteilten Erschöpfungsmuster entgegen." },
         ],
       },
@@ -96657,7 +96657,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Reizüberflutung, die überall gleichzeitig verarbeitet werden muss",
         varianten: [
       { code: "SE5", text: "Innerlich verarbeitet die selbsterhaltende Fünf oft fortlaufend eine Fülle an Eindrücken, ohne diese je an einer konkreten Stelle zu entladen, während sie sich äußerlich zurückzieht, um Reize zu minimieren. Dieses diffuse, im ganzen System verteilte Verarbeiten passt zum Bild eines Schmerzes, der überall gleichzeitig auftritt, ohne dass sich eine einzelne Quelle finden lässt." },
-          { code: "SO5", text: "Die soziale Fünf verarbeitet fortlaufend Wissen aus vielen verschiedenen Quellen gleichzeitig – diese kognitive Vielspurigkeit, über viele Themen und Denkrichtungen verteilt, kann sich als eine diffuse, nirgends konzentrierte Überlastung des gesamten Systems zeigen." },
+      { code: "SO5", text: "Über viele Themen und Denkrichtungen verteilt verarbeitet die soziale Fünf fortlaufend Wissen aus vielen verschiedenen Quellen gleichzeitig – diese kognitive Vielspurigkeit kann sich als eine diffuse, nirgends konzentrierte Überlastung des gesamten Systems zeigen." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen ausgewählten Menschen – diese Konzentration auf eine schmale, tiefe Verbindung steht der diffusen, über viele Bereiche verteilten Reizverarbeitung entgegen." },
         ],
       },
@@ -96734,7 +96734,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Zugriff, der nie zur Ruhe kommt",
         varianten: [
       { code: "SE3", text: "Wiederholte, monotone Arbeitsbewegungen ohne ausreichende Erholung: So arbeitet die selbsterhaltende Drei effizient und mit den eigenen Händen weiter, auch wenn der Körper längst um Pause bittet. Das passt besonders genau zum mechanischen Entstehungsmuster des Karpaltunnelsyndroms." },
-          { code: "SO3", text: "Die soziale Drei greift fortlaufend nach neuen Erfolgen und Projekten, um im Vergleich mit anderen zu bestehen – dieser endlose Zugriff auf immer neue Aufgaben, ohne echte Regenerationsphasen, kann sich als überlastete, eingeengte Handlungsfähigkeit zeigen." },
+      { code: "SO3", text: "Um im Vergleich mit anderen zu bestehen, greift die soziale Drei fortlaufend nach neuen Erfolgen und Projekten – dieser endlose Zugriff auf immer neue Aufgaben, ohne echte Regenerationsphasen, kann sich als überlastete, eingeengte Handlungsfähigkeit zeigen." },
           { code: "SX3", text: "Die sexuelle Drei setzt ihre Energie konzentriert darauf, in der Beziehung begehrenswert zu erscheinen – dieser fokussierte Einsatz erzeugt eher punktuelle Anspannung als eine chronische, mechanisch wiederholte Überlastung der Hand." },
         ],
       },
@@ -96750,7 +96750,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug in konzentrierte, oft manuelle Tätigkeit",
         varianten: [
       { code: "SE5", text: "Stundenlang vertieft sich die selbsterhaltende Fünf in konzentrierte, wiederholte Handarbeit – Lesen, Schreiben, feine manuelle Tätigkeiten –, ohne die eigenen körperlichen Grenzen zu beachten. Diese fokussierte, aber lange fortgesetzte Belastung einer einzelnen Körperregion passt zum mechanischen Entstehungsmuster des Karpaltunnelsyndroms." },
-          { code: "SO5", text: "Die soziale Fünf verarbeitet fortlaufend Wissen, oft in langen Phasen konzentrierter Schreibarbeit – diese wiederholte, monotone Belastung der Hände ohne ausreichende Pausen kann sich als eingeengte Handlungsfähigkeit zeigen." },
+      { code: "SO5", text: "Oft in langen Phasen konzentrierter Schreibarbeit verarbeitet die soziale Fünf fortlaufend Wissen – diese wiederholte, monotone Belastung der Hände ohne ausreichende Pausen kann sich als eingeengte Handlungsfähigkeit zeigen." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – diese emotionale, nicht primär mechanische Fokussierung erzeugt seltener die Art körperlicher Überlastung, die für das Karpaltunnelsyndrom typisch ist." },
         ],
       },
@@ -96827,7 +96827,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Angesammelter Druck hinter der Erfolgsfassade",
         varianten: [
       { code: "SE3", text: "Über Monate angesammelter innerer Druck kann sich bei der selbsterhaltenden Drei schließlich in einem einzigen, dramatischen Zusammenbruch entladen – sie hält die Fassade der Funktionsfähigkeit über lange Zeit aufrecht und verdrängt Erschöpfung und Frustration konsequent, ganz im Bild des scheinbar plötzlichen Gichtanfalls." },
-          { code: "SO3", text: "Die soziale Drei hält den Druck des ständigen Vergleichs mit anderen lange zurück, bevor sich angestaute Frustration über ausbleibenden Erfolg schließlich Bahn bricht – diese Dynamik aus langer Ansammlung und plötzlicher Entladung passt zum psychosomatischen Bild der Gicht." },
+      { code: "SO3", text: "Bevor sich angestaute Frustration über ausbleibenden Erfolg schließlich Bahn bricht, hält die soziale Drei den Druck des ständigen Vergleichs mit anderen lange zurück – diese Dynamik aus langer Ansammlung und plötzlicher Entladung passt zum psychosomatischen Bild der Gicht." },
           { code: "SX3", text: "Die sexuelle Drei drückt Frustration über ausbleibende Anerkennung in der Beziehung eher direkt und zeitnah aus – diese unmittelbarere Reaktion steht der langen, stillen Ansammlung entgegen, die für die Gicht typisch ist." },
         ],
       },
@@ -96843,7 +96843,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug, der Ärger lange im Verborgenen ansammelt",
         varianten: [
       { code: "SE5", text: "Auch Unmut und Ärger hält die selbsterhaltende Fünf konsequent für sich und zieht sich zurück – diese über lange Zeit im Verborgenen angesammelte, nie geäußerte Spannung passt zum Bild einer Intensität, die sich, wenn sie sich löst, unerwartet scharf entlädt." },
-          { code: "SO5", text: "Die soziale Fünf hält Frustration über die Gruppe oft hinter intellektueller Distanz zurück, statt sie direkt zu äußern – diese lange Ansammlung ohne Entladung passt zum psychosomatischen Bild der Gicht." },
+      { code: "SO5", text: "Statt sie direkt zu äußern, hält die soziale Fünf Frustration über die Gruppe oft hinter intellektueller Distanz zurück – diese lange Ansammlung ohne Entladung passt zum psychosomatischen Bild der Gicht." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung findet zumindest an einer Stelle echter emotionaler Austausch statt, was der vollständigen, langen Ansammlung entgegenwirkt." },
         ],
       },
@@ -96920,7 +96920,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Immer derselbe angespannte Leistungsgriff",
         varianten: [
       { code: "SE3", text: "Ohne je bewusst zu entspannen, wiederholt die selbsterhaltende Drei über Jahre dieselben effizienten, aber verkrampften Arbeitsbewegungen. Diese monotone, nie variierte Anstrengung passt besonders direkt zum mechanischen Entstehungsmuster des Tennisarms: ein Ansatzpunkt, der unter der ständigen Wiederholung derselben Bewegung erschöpft ist." },
-          { code: "SO3", text: "Die soziale Drei wiederholt über Jahre denselben angespannten Griff nach Erfolg und Anerkennung, immer mit demselben inneren Druck – diese unveränderte Anstrengung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
+      { code: "SO3", text: "Immer mit demselben inneren Druck wiederholt die soziale Drei über Jahre denselben angespannten Griff nach Erfolg und Anerkennung – diese unveränderte Anstrengung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
           { code: "SX3", text: "Die sexuelle Drei passt ihr Verhalten stark an die jeweilige Beziehung an – diese Anpassungsfähigkeit steht der starren, monotonen Wiederholung entgegen, die für den Tennisarm besonders typisch ist." },
         ],
       },
@@ -96936,7 +96936,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug in dieselbe konzentrierte, angespannte Handarbeit",
         varianten: [
       { code: "SE5", text: "Über Jahre vertieft sich die selbsterhaltende Fünf in dieselbe konzentrierte, oft manuelle Beschäftigung – Lesen, Schreiben, feine repetitive Tätigkeiten –, ohne die eigenen körperlichen Grenzen zu beachten. Diese monotone, nie variierte Belastung einer einzelnen Körperregion passt besonders genau zum mechanischen Entstehungsmuster des Tennisarms." },
-          { code: "SO5", text: "Die soziale Fünf wiederholt über Jahre dieselben angespannten Denk- und Schreibbewegungen, ohne sie durch körperliche Variation zu ergänzen – diese einseitige, unveränderte Belastung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
+      { code: "SO5", text: "Ohne sie durch körperliche Variation zu ergänzen, wiederholt die soziale Fünf über Jahre dieselben angespannten Denk- und Schreibbewegungen – diese einseitige, unveränderte Belastung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – diese emotionale, nicht primär mechanisch-repetitive Fokussierung erzeugt seltener die Art körperlicher Überlastung, die für den Tennisarm typisch ist." },
         ],
       },
@@ -97013,7 +97013,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Leistungshaltung, die keine Entspannung der Schulter zulässt",
         varianten: [
       { code: "SE3", text: "Immer bereit für die nächste Aufgabe hält die selbsterhaltende Drei ihre Schultern buchstäblich und im übertragenen Sinne straff – echte Entspannung, echtes Loslassen der Anspannung, gelingt selten. Diese über Jahre gehaltene Grundspannung passt zum Bild einer zunehmenden Erstarrung des Schultergelenks." },
-          { code: "SO3", text: "Die soziale Drei hält eine aufrechte, leistungsbereite Körperhaltung auch dann noch, wenn Erschöpfung längst eingesetzt hat – diese unveränderte, nie entspannte Haltung kann sich als eine Versteifung der Schulter zeigen." },
+      { code: "SO3", text: "Auch wenn Erschöpfung längst eingesetzt hat, hält die soziale Drei eine aufrechte, leistungsbereite Körperhaltung aufrecht – diese unveränderte, nie entspannte Haltung kann sich als eine Versteifung der Schulter zeigen." },
           { code: "SX3", text: "Die sexuelle Drei lässt in der Beziehung durchaus emotionale Nähe und Berührung zu, um begehrenswert zu erscheinen – diese Offenheit steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist." },
         ],
       },
@@ -97029,7 +97029,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug, der Nähe konsequent auf Abstand hält",
         varianten: [
       { code: "SE5", text: "Konsequent auf Abstand hält die selbsterhaltende Fünf auch körperliche Nähe und zieht sich radikal zurück – ein Körper, der sich über Jahre daran gewöhnt hat, Umarmung zu vermeiden, kann sich genau an der Schulter, dem Ort der Umarmung, als Erstarrung zeigen, die sich selbst dann nicht mehr löst, wenn Nähe eigentlich möglich wäre." },
-          { code: "SO5", text: "Die soziale Fünf hält emotionale und körperliche Nähe hinter intellektueller Distanz auf Abstand – diese fortgesetzte Trennung kann sich über Jahre als eine Versteifung der Schulter zeigen, die für Offenheit zuständig wäre." },
+      { code: "SO5", text: "Hinter intellektueller Distanz hält die soziale Fünf emotionale und körperliche Nähe auf Abstand – diese fortgesetzte Trennung kann sich über Jahre als eine Versteifung der Schulter zeigen, die für Offenheit zuständig wäre." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung bleibt echte körperliche Nähe erhalten, was der vollständigen Erstarrung der anderen Fünf-Varianten entgegenwirkt." },
         ],
       },
@@ -97106,7 +97106,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Leistung, die bis zum plötzlichen Zusammenbruch durchhält",
         varianten: [
       { code: "SE3", text: "Bis ein einziger zusätzlicher Handgriff, ein letztes Bücken, genügt, damit der überlastete Rücken plötzlich nachgibt: So arbeitet die selbsterhaltende Drei effizient weiter, auch wenn der Körper längst um Pause bittet. Dieses Muster, bis zum Zusammenbruch durchzuhalten, ohne vorher nachzugeben, passt besonders genau zum Bild des Hexenschusses." },
-          { code: "SO3", text: "Die soziale Drei hält den Druck des ständigen Vergleichs mit anderen lange durch, ohne die eigene Erschöpfung je zu zeigen – wenn diese lange angesammelte Überforderung sich schließlich löst, geschieht dies oft plötzlich und unübersehbar." },
+      { code: "SO3", text: "Ohne die eigene Erschöpfung je zu zeigen, hält die soziale Drei den Druck des ständigen Vergleichs mit anderen lange durch – wenn diese lange angesammelte Überforderung sich schließlich löst, geschieht dies oft plötzlich und unübersehbar." },
           { code: "SX3", text: "Die sexuelle Drei zeigt Erschöpfung in der Beziehung eher direkt, wenn ihr Bild als erfolgreiche Partnerin bedroht scheint – diese unmittelbarere Reaktion steht dem lange zurückgehaltenen, dann plötzlich einschießenden Muster entgegen." },
         ],
       },
@@ -97122,7 +97122,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug, der die eigene Überlastung lange verbirgt",
         varianten: [
       { code: "SE5", text: "Bis ein einziger zusätzlicher Reiz genügt, damit das längst überforderte System plötzlich Einspruch erhebt: So zieht sich die selbsterhaltende Fünf zurück und trägt körperliche wie emotionale Belastung lange allein. Dieses Muster, lange durchzuhalten, ohne je um Hilfe zu bitten, passt zum Bild des plötzlich einschießenden Hexenschusses." },
-          { code: "SO5", text: "Die soziale Fünf hält Erschöpfung hinter intellektueller Distanz lange verborgen – wenn diese verdrängte Belastung sich schließlich körperlich zeigt, geschieht dies oft plötzlich und unerwartet." },
+      { code: "SO5", text: "Lange verborgen hält die soziale Fünf Erschöpfung hinter intellektueller Distanz – wenn diese verdrängte Belastung sich schließlich körperlich zeigt, geschieht dies oft plötzlich und unerwartet." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung findet zumindest an einer Stelle echte Entlastung statt, was der vollständigen, langen Ansammlung entgegenwirkt." },
         ],
       },
@@ -97199,7 +97199,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 3, titel: "Immer dieselbe effiziente Bewegung ohne Pause",
         varianten: [
       { code: "SE3", text: "Ohne je bewusst zu pausieren, wiederholt die selbsterhaltende Drei über Jahre dieselben effizienten, aber monotonen Arbeitsbewegungen. Diese ständige, nie unterbrochene Anstrengung passt besonders direkt zum mechanischen Entstehungsmuster der Sehnenscheidenentzündung: eine Hülle, die sich entzündet, weil sie nie eine Erholungspause bekam." },
-          { code: "SO3", text: "Die soziale Drei wiederholt über Jahre denselben angespannten Griff nach Erfolg, oft mit denselben konkreten Handlungen – diese unveränderte Anstrengung kann sich als eine entzündete Schutzhülle zeigen." },
+      { code: "SO3", text: "Oft mit denselben konkreten Handlungen wiederholt die soziale Drei über Jahre denselben angespannten Griff nach Erfolg – diese unveränderte Anstrengung kann sich als eine entzündete Schutzhülle zeigen." },
           { code: "SX3", text: "Die sexuelle Drei passt ihr Verhalten stark an die jeweilige Beziehung an – diese Anpassungsfähigkeit steht der starren, monotonen Wiederholung entgegen, die für die Sehnenscheidenentzündung besonders typisch ist." },
         ],
       },
@@ -97215,7 +97215,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 5, titel: "Rückzug in dieselbe konzentrierte, repetitive Tätigkeit",
         varianten: [
       { code: "SE5", text: "Ohne die eigenen körperlichen Grenzen zu beachten, vertieft sich die selbsterhaltende Fünf über Jahre in dieselbe konzentrierte, oft manuelle Beschäftigung – Lesen, Schreiben, repetitive feine Tätigkeiten. Diese monotone, nie variierte Belastung passt besonders genau zum mechanischen Entstehungsmuster der Sehnenscheidenentzündung." },
-          { code: "SO5", text: "Die soziale Fünf wiederholt über Jahre dieselben angespannten Schreibbewegungen, ohne sie durch körperliche Variation zu ergänzen – diese einseitige, unveränderte Belastung kann sich als eine entzündete Schutzhülle zeigen." },
+      { code: "SO5", text: "Ohne sie durch körperliche Variation zu ergänzen, wiederholt die soziale Fünf über Jahre dieselben angespannten Schreibbewegungen – diese einseitige, unveränderte Belastung kann sich als eine entzündete Schutzhülle zeigen." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – diese emotionale, nicht primär mechanisch-repetitive Fokussierung erzeugt seltener die Art körperlicher Überlastung, die für die Sehnenscheidenentzündung typisch ist." },
         ],
       },
