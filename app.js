@@ -12582,7 +12582,7 @@ const subtypeProfiles = {
         "Was w\u00e4re, wenn ich heute zur Gemeinschaft geh\u00f6re - genau so, wie ich bin?",
         "Ich lerne: Echter Selbstausdruck zieht Verbindung an.",
         "Mein Wert zeigt sich nicht im Vergleich - er zeigt sich in meinem Beitrag.",
-        "Was w\u00e4re, wenn Anerkennung heute sekundaer ist - und Beitrag primaer?",
+        "Was w\u00e4re, wenn Anerkennung heute sekund\u00e4r ist - und Beitrag prim\u00e4r?",
         "Ich merke, wenn Scham mich zur\u00fcckh\u00e4lt. Ich trete trotzdem vor.",
         "Mein Heilmittel: W\u00fcrde als Lebenshaltung. Heute trage ich sie.",
         "Was w\u00e4re, wenn meine Tiefe heute eine Br\u00fccke zur Gemeinschaft baut?",
@@ -98879,7 +98879,7 @@ function musikPage() {
     { nr: 4, name: "Der Individualist", tier: "Blaue Elster", vid: "R09IW7vjcxQ" },
     { nr: 5, name: "Der Beobachter",  tier: "Mustang",     vid: "rzkLF6KDCFw" },
     { nr: 6, name: "Der Loyale",      tier: "Sch\u00e4ferhund", vid: "rIfT6OQgOAU" },
-    { nr: 7, name: "Der Enthusiast",  tier: "Lippenbaer",  vid: "BVYOCZ6xMlA" },
+    { nr: 7, name: "Der Enthusiast",  tier: "Lippenbär",  vid: "BVYOCZ6xMlA" },
     { nr: 8, name: "Der Herausforderer", tier: "L\u00f6we",     vid: "afuljgIKAOU" },
     { nr: 9, name: "Der Friedensstifter", tier: "Elefant", vid: "prWKIp0Voq8" },
   ];
