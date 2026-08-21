@@ -59,6 +59,14 @@ button {
   padding: 24px 0 56px;
 }
 
+/* Zentriert Seiteninhalte auf breiten Screens (iPad/Desktop) statt sie
+   linksbündig über die volle app-shell-Breite laufen zu lassen. Auf dem
+   iPhone wirkungslos, da der Viewport ohnehin schmaler ist. */
+.page-container {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
 .topline {
   display: flex;
   align-items: center;
