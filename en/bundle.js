@@ -61643,6 +61643,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to back pain or a herniated disc, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates load, support, and its own backbone in its own way – some through carrying alone and control, others through withdrawal, overload, or a burden of their own that was never set down. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  rheumatoide_arthritis: {
+    titel: "Rheumatoid Arthritis",
+    kategorie: "bewegungsapparat",
+    icon: "&#128170;",
+    kurz: "When the body turns against the very joints meant to make movement possible.",
+    definition: "Rheumatoid arthritis is an autoimmune disease in which the body's own immune system mistakenly attacks the inner lining of the joints (synovial membrane). The resulting chronic inflammation leads to swelling, pain, and, if untreated, the progressive destruction of cartilage and bone. Unlike mechanically caused osteoarthritis, rheumatoid arthritis typically begins symmetrically in small joints – often first in the fingers and wrists – and can spread to numerous other joints and, in severe cases, to internal organs. The exact cause is not conclusively established; a combination of genetic predisposition, environmental factors, and a misdirected immune response is considered likely.",
+    symptome: [
+      "Symmetrical swelling and pain in small joints, usually starting in the fingers and wrists",
+      "Pronounced morning stiffness typically lasting longer than an hour – unlike osteoarthritis",
+      "Warmth and redness over the affected joints",
+      "General exhaustion, fatigue, occasionally mild fever",
+      "Rheumatoid nodules (palpable lumps under the skin) in advanced disease",
+      "Progressively increasing joint deformity and limited mobility if untreated",
+    ],
+    notfall: "Rheumatoid arthritis itself is generally not an acute emergency, but should be evaluated by a rheumatologist at first signs, since early treatment can significantly slow progression. In the case of sudden high fever, severe worsening of the disease, or signs of internal organ involvement (e.g. shortness of breath, chest pain): seek medical help promptly.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "As an autoimmune disease, rheumatoid arthritis occupies a special place among joint conditions: here the body turns not against external strain, but against itself. Psychosomatic medicine often reads this as a picture of inwardly directed harshness – a system that has learned, over the years, to treat itself with the same uncompromising force it actually meant to direct against outside threats. Traditional Chinese Medicine assigns many inflammatory joint complaints to Bi syndrome – a blockage caused by external factors such as Wind, Cold, and Dampness that settles in the joints, often promoted by an already weakened underlying system. In both views, rheumatoid arthritis is less external wear than an inner conflict breaking through into the body.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that turns against its own body",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One often directs its harshest criticism at itself – a perfectionist standard that shows no leniency, not even toward its own body. Psychosomatic medicine reads this inwardly turned harshness as a plausible picture for an immune system that turns against its own joints instead of fending off outside threats." },
+          { code: "SO1", text: "The social One directs its moral strictness primarily outward, at the group – the inner self-reproach is less central here than in the self-preservation variant." },
+          { code: "SX1", text: "The sexual One lives its principles directly within the relationship – a pattern more interpersonal than turned inward against its own body." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that never grants itself the care it gives others",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two gives unconditionally to others but denies itself the same care – a system that protects and nourishes outward while remaining relentless toward itself can be read psychosomatically as a body that treats its own joints with similar mercilessness." },
+          { code: "SO2", text: "The social Two cares about the wellbeing of the community – its own self-care often falls by the wayside in the process." },
+          { code: "SX2", text: "The sexual Two focuses its caregiving on the one relationship – a more focused, less generalized form of self-neglect." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that shows no leniency toward itself even in exhaustion",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps functioning even when the body sends clear warning signs – exhaustion and signs of inflammation are treated as obstacles to overcome, not as messages to heed." },
+          { code: "SO3", text: "The social Three maintains public performance even when the body has long been rebelling – showing weakness contradicts its entire self-image." },
+          { code: "SX3", text: "The sexual Three optimizes itself within the relational context – physical complaints can here especially touch the concern for its own appearance." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that settles in a body that does not forgive itself",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – inner self-criticism that is never allowed outward can turn against its own body instead." },
+          { code: "SO4", text: "The social Four makes its own suffering visible – an outward outlet that works against the purely inwardly directed harshness." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity – a form of movement that discharges more interpersonally than against its own body." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that distrusts even its own self-care",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five radically minimizes its own needs – even the need for care and leniency toward itself is set aside, which can correspond to a body that grants itself little sparing." },
+          { code: "SO5", text: "The social Five keeps inner distance even in social contexts – self-care is sought more cognitively than physically." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – quite caring within this narrow connection, including toward itself." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that turns its alertness against its own body",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six lives in constant alertness toward outside dangers – an overactive warning system that can be read psychosomatically as a picture of an immune system that likewise overreacts, only against its own body instead of outside threats." },
+          { code: "SO6", text: "The social Six continually worries about the collective – its own physical state of alert is rarely noticed in the process." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation – an outward-directed, less self-directed form of alertness." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that overrides even inflammation signals",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through many parallel activities – pain and inflammation are ignored or overridden for as long as possible to keep up the pace." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – early signs of illness are often not taken seriously for a long time." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – early symptoms tend to be overridden here rather than consciously noticed." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that rejects even its own illness as weakness",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight secures its own existence through control over material and physical resources – a chronic illness that begins invisibly fundamentally contradicts this self-image and is often denied for a long time." },
+          { code: "SO8", text: "The social Eight carries permanent leadership tension for the group – admitting illness is experienced as a failure of its own protective function." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – physical limitations are especially hard to accept here." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that overlooks even its own body's signs of illness",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort and routine – the decades-long continued self-forgetting also means its own body's early signs of illness go consciously unnoticed for a long time, until the inflammation has already advanced considerably." },
+          { code: "SO9", text: "The social Nine consistently subordinates its own opinion to the group – a self-erasure that can also affect its own physical signals." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a body that only notices its own signals once they can no longer be overlooked." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to rheumatoid arthritis, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates inwardly directed harshness, self-care, and its own immune system in its own way – some through perfectionism and self-criticism, others through denial, control, or a warning sign of their own that was never noticed. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -61651,7 +61744,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Rheumatoid Arthritis", "Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
+  "bewegungsapparat": ["Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],
