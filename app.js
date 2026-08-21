@@ -71452,7 +71452,17 @@ function elizabethBarrettBrowningKrankheitsportraetPage() {
         ohnehin anstrebt – eine Substanz, die dem eigenen Muster nicht entgegenwirkt, sondern es
         potenziert. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch
         ausführlicher entfaltet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Einordnung ohne Determinismus:</strong>
+        <p class="vb-intro"><strong>d) Das Stresspunkt-Mittel, verordnet an eine Neun:</strong>
+        Aus Sicht der Enneagramm-Homöopathie, wie sie in diesem Kompass verwendet wird, ist Opium
+        (Schlafmohn) das homöopathische Heilmittel des Typs 6 – der Stresspunkt der Neun. Ein
+        homöopathisches Stresspunkt-Mittel ist bei einem anderen Typ nie neutral: Es verstärkt
+        genau jenes Muster, in das der Mensch unter Belastung ohnehin abgleitet – bei der Neun ist
+        das die Passivität, die Schläfrigkeit, die Unbewusstheit gegenüber dem eigenen Leben.
+        Barrett Browning erhielt über Jahrzehnte, medizinisch begründet als Schmerzmittel,
+        ausgerechnet jenes Mittel, das ihr eigenes Notfallmuster nicht auflöste, sondern
+        chemisch vertiefte – aus enneagrammhomöopathischer Sicht denkbar ungünstig, auch wenn die
+        damalige Medizin von dieser Zuordnung naturgemäß nichts wissen konnte.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sexuellen Neun zwangsläufig zu Abhängigkeitserkrankungen
         führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
         Was sich an Barrett Brownings Fall zeigen lässt, ist ein Muster, das bei tiefer
