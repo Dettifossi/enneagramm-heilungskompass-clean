@@ -31406,6 +31406,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Sozialer Typ 9", krankheit:"Alzheimer-Krankheit", teaser:"SO9w8 – 40. US-Präsident 1981–1989, 1911–2004. Gab 1994 in einem handschriftlichen Brief an die amerikanische Öffentlichkeit seine Alzheimer-Diagnose bekannt und zog sich danach zehn Jahre lang fast vollständig aus der Öffentlichkeit zurück." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Sozialer Typ 1", krankheit:"Leberkrebs", teaser:"SO1w2 – Musiker und Künstler, 1947–2016. Kämpfte 18 Monate lang im Verborgenen gegen Leberkrebs und verwandelte die Diagnose in sein letztes Werk, das Album Blackstar, das zwei Tage vor seinem Tod erschien." , land:"Vereinigtes Königreich", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2", krankheit:"Fieberhafte Erkrankung mit Nierenversagen (vermutlich Folge einer Streptokokken-Infektion)", teaser:"SE2w3 – österreichischer Komponist, 1756–1791. Von Kindheit an eine Kette fieberhafter Erkrankungen (Pocken, Typhus, wiederkehrendes Scharlach), starb 1791 mit 35 Jahren nach zweiwöchiger Krankheit mit Fieber und generalisierten Ödemen – während er gleichzeitig an drei Großwerken arbeitete, darunter das unvollendete Requiem." , land:"Österreich", gender:"m", jahre:"1756–1791"},
+  { route:"krankheitsportraets-johann-sebastian-bach", name:"Johann Sebastian Bach", subtyp:"SX1w9", heading:"Johann Sebastian Bach – Sexueller Typ 1", krankheit:"Erblindung durch missglückte Staroperationen, Tod nach Schlaganfall und Fieber", teaser:"SX1w9 – Komponist, 1685–1750. Über Jahre fortschreitende Sehschwäche, zwei missglückte Augenoperationen im März 1750 durch den zweifelhaften Okulisten John Taylor führten zur vollständigen Erblindung. Starb vier Monate später nach einem Schlaganfall – derselbe Operateur erblindete kurz darauf auch Händel." , land:"Deutschland", gender:"m", jahre:"1685–1750"},
   { route:"krankheitsportraets-konrad-adenauer", name:"Konrad Adenauer", subtyp:"SE1w9", heading:"Konrad Adenauer – Selbsterhaltender Typ 1", krankheit:"Schwere Gesichtsverletzungen durch Autounfall (1917), später Verfolgung und Haft, Tod nach zwei Herzinfarkten und Lungenentzündung (1967)", teaser:"SE1w9 – deutscher Bundeskanzler 1949–1963, 1876–1967. Sein Gesicht wurde 1917 bei einem schweren Autounfall zertrümmert; er formte die Narben zum Ausdruck kontrollierter Autorität um. Zwei Jahrzehnte später Verfolgung und Haft unter den Nationalsozialisten, bis ins hohe Alter bemerkenswert vital." , land:"Deutschland", gender:"m", jahre:"1876–1967"},
   { route:"krankheitsportraets-friedrich-schiller", name:"Friedrich Schiller", subtyp:"SX6w5", heading:"Friedrich Schiller – Sexueller Typ 6", krankheit:"Lungentuberkulose", teaser:"SX6w5 – Dichter, Dramatiker und Historiker, 1759–1805. Seit der Kindheit fragile Konstitution, ab 1791 wiederkehrende lebensbedrohliche Fieber- und Hustenanfälle, vierzehn Jahre kompromissloser Arbeit gegen den eigenen Verfall. Starb 1805 mit 45 Jahren an akuter Lungenentzündung – die Obduktion zeigte einen vollständig zerstörten Lungenflügel." , land:"Deutschland", gender:"m", jahre:"1759–1805"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Sozialer Typ 3", krankheit:"Krebserkrankung (Todesursache offiziell nie bestätigt; laut Assistent Prostatakrebs, diagnostiziert 2015)", teaser:"SO3w4 – Modedesigner und Chanel-Kreativdirektor, 1933–2019. Hielt eine Krebsdiagnose nach übereinstimmenden Berichten fast vier Jahre lang selbst vor engsten Vertrauten geheim und fehlte erst vier Wochen vor seinem Tod erstmals seit 35 Jahren bei einer Chanel-Show." , land:"Deutschland/Frankreich", gender:"m", jahre:"1933–2019"},
@@ -61719,12 +61720,15 @@ function johannSebastianBachPortraitPage() {
           <p class="vb-intro">Das Vermächtnis der SX1w9 liegt genau in dieser Spannung: eine Inbrunst, die keine Anerkennung brauchte, um sich vollständig zu geben, und ein Beharren, das genau wusste, dass die eigentliche Prüfung nicht der Applaus der Zeitgenossen, sondern die Musik selbst war. Die Schwarze Mamba, die niemand fürchten musste, außer derjenige, der ihre Maßstäbe verriet.</p>
         </blockquote>
 
+        <p class="vb-intro">Die über Jahre fortschreitende Erblindung und die beiden missglückten Augenoperationen kurz vor seinem Tod 1750 werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-johann-sebastian-bach">Krankheitsporträt zu Bach</a> gedeutet.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"krankheitsportraets-johann-sebastian-bach", label:"Krankheitsporträt: Johann Sebastian Bach (SX1w9)"},
         {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8) – von Bachs Formstrenge geprägt"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5)"},
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3) – studierte seine Fugenkunst"},
@@ -68903,6 +68907,182 @@ function konradAdenauerKrankheitsportraetPage() {
         {route:"beruehmte-konrad-adenauer", label:"Porträt: Konrad Adenauer (SE1w9) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se1", label:"Subtyp-Profil SE1"},
+      ])}
+    </div>
+  `);
+}
+
+function johannSebastianBachKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-johann-sebastian-bach-portrait.jpg" alt="Johann Sebastian Bach" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johann Sebastian Bach</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel · 1685–1750</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Schwarze Mamba</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Tierentsprechung: Schwarze Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Johann Sebastian Bach</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-johann-sebastian-bach">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift wird:
+        eine über Jahre fortschreitende Erblindung, zwei missglückte Augenoperationen und Bachs
+        Tod wenige Monate danach im Jahr 1750.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Bach</strong> ist dem <strong>sexuellen Typ 1 mit Neunerflügel</strong>
+        zugeordnet. Die SX1 richtet den Vollkommenheitsanspruch der Eins nicht auf die ganze
+        Welt, sondern mit kompromissloser Intensität auf den engsten Kreis – auf eine einzige
+        Sache, eine einzige Berufung, für die keine Mühe zu groß ist. Der Neunerflügel bringt
+        eine ruhige, undramatische Beharrlichkeit hinzu: Bach klagte selten, er arbeitete
+        weiter – ein Muster, das sich bis in seine letzten, fast erblindeten Lebensmonate
+        nachverfolgen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Die Augen als Werkzeug der Hingabe, nicht der Schonung:</strong>
+        Schon als Junge kopierte Bach der Überlieferung nach heimlich verbotene Notenblätter
+        bei Mondlicht – eine frühe Bereitschaft, die eigene Sehkraft für die Musik aufs Spiel
+        zu setzen, lange bevor sie tatsächlich in Gefahr geriet.</p>
+        <p class="vb-intro"><strong>b) Nachlassende Sicht als hingenommene Realität, nicht als Alarmsignal:</strong>
+        Die zunehmend zittrige, schwer lesbare Handschrift seiner letzten Notenmanuskripte
+        dokumentiert eine über Jahre fortschreitende Sehschwäche, die Bach offenbar arbeitend
+        durchstand, statt sich frühzeitig zurückzuziehen.</p>
+        <p class="vb-intro"><strong>c) Konzentration auf das eine Werk trotz schwindender Sicht:</strong>
+        Noch in den späten 1740er-Jahren arbeitete Bach an großen, hochkomplexen Kompositionen
+        wie der h-Moll-Messe – eine Konzentration auf das Wesentliche, die für die sexuelle
+        Eins mit Neunerflügel typisch ist.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine schleichende Verschlechterung ohne klare Diagnose:</strong>
+        Zeitgenössische Quellen dokumentieren keinen genauen Beginn der Augenerkrankung –
+        rückblickend wird sie als grauer Star gedeutet, zeitgenössisch aber nie eindeutig
+        diagnostiziert.</p>
+        <p class="vb-intro"><strong>b) Zwei Operationen im März 1750:</strong>
+        Bach unterzog sich zwei Eingriffen durch den reisenden, selbsternannten "Chevalier"
+        John Taylor, einen britischen Augenoperateur von zweifelhaftem Ruf. Die angewandte
+        Methode, das sogenannte "Couching", verlagerte die getrübte Linse, statt sie zu
+        entfernen – ein bereits damals veraltetes, riskantes Verfahren.</p>
+        <p class="vb-intro"><strong>c) Vollständige Erblindung nach der zweiten Operation:</strong>
+        Nach etwa einer Woche musste erneut operiert werden, da sich der Star zurückbildete.
+        Diese zweite Operation führte zur vollständigen Erblindung Bachs.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Derselbe Operateur, dasselbe Schicksal bei Händel:</strong>
+        Kurz nach Bach operierte John Taylor auch Georg Friedrich Händel – mit ebenfalls
+        verheerendem Ausgang. Zwei der bedeutendsten Komponisten des Barock wurden von
+        demselben zweifelhaften "Wunderheiler" erblindet.</p>
+        <p class="vb-intro"><strong>b) Vier Monate zwischen Erblindung und Tod:</strong>
+        Am 28. Juli 1750, rund vier Monate nach den Operationen, starb Bach nach einem
+        Schlaganfall, dem laut dem 1754 veröffentlichten Nekrolog ein "hitziges Fieber"
+        vorausging – vermutlich eine fieberhafte Infektion.</p>
+        <p class="vb-intro"><strong>c) Die Kausalität bleibt Deutung, nicht gesicherter Fakt:</strong>
+        Ob die Operationen selbst den tödlichen Verlauf auslösten, ist eine in der Forschung
+        verbreitete, plausible, aber nicht abschließend bewiesene Verbindung – eine
+        moderne Autopsie im heutigen Sinne existiert nicht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Eine populäre Legende, die der Forschung nicht standhält:</strong>
+        Die romantische Erzählung, Bach sei mitten in der Komposition der letzten Fuge der
+        "Kunst der Fuge" gestorben, ist heute widerlegt – das Autograph der letzten,
+        unvollendeten Fuge stammt bereits aus den Jahren 1748/49, also von vor der
+        Erblindung.</p>
+        <p class="vb-intro"><strong>b) Die h-Moll-Messe als plausibleres letztes großes Werk:</strong>
+        Der Bach-Forscher Christoph Wolff argumentiert, dass eher die h-Moll-Messe als
+        Bachs eigentliches letztes vollendetes Hauptwerk gelten sollte – ein Werk, das er
+        offenbar noch mit erheblicher Sehkraft-Einschränkung zu Ende brachte.</p>
+        <p class="vb-intro"><strong>c) Eine bis heute diskutierte Rückdiagnose:</strong>
+        Manche Forscher vermuten einen fortgeschrittenen Diabetes als Ursache sowohl der
+        Sehverschlechterung als auch der schlechten Wundheilung nach der Operation – eine
+        moderne Vermutung, keine gesicherte historische Diagnose.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Arbeit als Konstante trotz nachlassender Sicht:</strong>
+        Bach ließ sich von der fortschreitenden Sehschwäche offenbar nicht von seiner
+        kompositorischen Arbeit abbringen – ein Ausdruck der Intensität, mit der die
+        sexuelle Eins sich der einen, alles überragenden Sache widmet.</p>
+        <p class="vb-intro"><strong>b) Neunerflügel-Gelassenheit im Angesicht des Risikos:</strong>
+        Die Entscheidung, sich einem riskanten, damals bereits umstrittenen Eingriff zu
+        unterziehen, statt mit der Erblindung zu leben, zeigt eine ruhige, fast fatalistische
+        Risikobereitschaft – kein dramatischer Kampf, sondern ein stiller Versuch,
+        das Problem zu lösen und weiterzuarbeiten.</p>
+        <p class="vb-intro"><strong>c) Die Schwarze Mamba, die bis zum letzten Biss präzise blieb:</strong>
+        Selbst in den letzten Lebensmonaten, fast vollständig erblindet, blieb Bachs
+        kompositorisches Denken offenbar ungebrochen scharf – eine Präzision, die keine
+        Behinderung zu trüben vermochte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Risiko, das schon in der Kindheit begann:</strong>
+        Der Überlieferung nach kopierte der junge Bach verbotene Notenblätter heimlich bei
+        Mondlicht – ein früher, selbst gewählter Raubbau an den eigenen Augen im Dienst der
+        Musik, Jahrzehnte bevor die tatsächliche Erblindung eintrat.</p>
+        <p class="vb-intro"><strong>b) Jahre schleichenden Verlusts, ohne öffentliches Klagen:</strong>
+        Die zunehmend unleserliche Handschrift seiner letzten Manuskripte ist der einzige
+        erhaltene Hinweis auf eine Verschlechterung, die Bach offenbar nie in den Mittelpunkt
+        seiner eigenen Aufzeichnungen stellte.</p>
+        <p class="vb-intro"><strong>c) Zwei Operationen, ein Verlust, vier Monate bis zum Tod:</strong>
+        Die zeitliche Nähe zwischen der vollständigen Erblindung im März 1750 und Bachs Tod
+        am 28. Juli 1750 ist historisch gut belegt, auch wenn die genaue kausale Kette
+        Gegenstand fortlaufender Deutung bleibt.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Augen?</strong>
+        Für eine sexuelle Eins, deren gesamte Hingabe sich mit kompromissloser Intensität auf
+        die eine Sache richtet, der sie sich verschrieben hat, liegt eine Deutung nahe: Die
+        Augen waren für Bach zeitlebens das Organ, mit dem er sich seiner Berufung
+        unterwarf – im Kerzenlicht kopierend als Kind, über Notenblätter gebeugt als
+        Komponist. Dass ausgerechnet dieses Organ am Ende versagte, nachdem er es ein Leben
+        lang ohne Rücksicht auf sich selbst beansprucht hatte, liest sich als konsequenter
+        Abschluss eines Musters, das schon in der Kindheit angelegt war. Diese Deutung ist
+        eine plausible Interpretation, kein belegter historischer Kausalzusammenhang, und
+        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Eins zwangsläufig zu
+        Augenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Bachs Fall zeigen lässt, ist ein Muster,
+        das bei der kompromisslosen Hingabe an eine einzige Berufung, ohne Rücksicht auf die
+        eigenen körperlichen Grenzen, in der Praxis immer wieder auffällt – eine von vielen
+        möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Bach</strong> verkörpert den sexuellen Typ 1 mit Neunerflügel bis in die
+        eigene Krankheitsgeschichte hinein: ein Organ, das er als Kind schon riskierte und
+        als Erwachsener bis zur vollständigen Erblindung beanspruchte, zwei riskante
+        Operationen, denen er sich ruhig und ohne öffentliches Aufsehen unterzog, und ein Tod
+        vier Monate später, dessen genaue Ursache bis heute Gegenstand der Forschung ist.
+        Die Schwarze Mamba, die selbst im Dunkeln noch komponierte – präzise bis zuletzt.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-johann-sebastian-bach", label:"Porträt: Johann Sebastian Bach (SX1w9) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx1", label:"Subtyp-Profil SX1"},
       ])}
     </div>
   `);
@@ -97912,6 +98092,7 @@ function render() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-johann-sebastian-bach": johannSebastianBachKrankheitsportraetPage,
       "krankheitsportraets-konrad-adenauer": konradAdenauerKrankheitsportraetPage,
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,

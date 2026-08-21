@@ -201,6 +201,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Social Type 9", krankheit:"Alzheimer's Disease", teaser:"SO9w8 – 40th US President 1981–1989, 1911–2004. Announced his Alzheimer's diagnosis in 1994 in a handwritten letter to the American public, then withdrew almost entirely from public life for the following ten years." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Social Type 1", krankheit:"Liver Cancer", teaser:"SO1w2 – musician and artist, 1947–2016. Fought liver cancer in secret for 18 months and transformed the diagnosis into his final work, the album Blackstar, released two days before his death." , land:"United Kingdom", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Self-Preservation Type 2", krankheit:"Febrile Illness with Kidney Failure (likely following a streptococcal infection)", teaser:"SE2w3 – Austrian composer, 1756–1791. A lifelong chain of feverish illnesses since childhood (smallpox, typhoid fever, recurring scarlet fever) preceded his death at 35 after a two-week illness with fever and generalized swelling – while he was working on three major works at once, including the unfinished Requiem." , land:"Austria", gender:"m", jahre:"1756–1791"},
+  { route:"krankheitsportraets-johann-sebastian-bach", name:"Johann Sebastian Bach", subtyp:"SX1w9", heading:"Johann Sebastian Bach – Sexual Type 1", krankheit:"Blindness from failed cataract surgeries, death after stroke and fever", teaser:"SX1w9 – composer, 1685–1750. Years-long progressive vision loss, two failed eye operations in March 1750 by the dubious oculist John Taylor led to complete blindness. Died four months later after a stroke – the same surgeon blinded Handel shortly after." , land:"Germany", gender:"m", jahre:"1685–1750"},
   { route:"krankheitsportraets-konrad-adenauer", name:"Konrad Adenauer", subtyp:"SE1w9", heading:"Konrad Adenauer – Self-Preservation Type 1", krankheit:"Severe facial injuries from a car accident (1917), later persecution and imprisonment, death after two heart attacks and pneumonia (1967)", teaser:"SE1w9 – German Chancellor 1949–1963, 1876–1967. His face was shattered in a severe car accident in 1917; he turned the scars into an expression of controlled authority. Two decades later, persecution and imprisonment under the National Socialists, remarkably vital well into old age." , land:"Germany", gender:"m", jahre:"1876–1967"},
   { route:"krankheitsportraets-friedrich-schiller", name:"Friedrich Schiller", subtyp:"SX6w5", heading:"Friedrich Schiller – Sexual Type 6", krankheit:"Pulmonary Tuberculosis", teaser:"SX6w5 – poet, playwright, and historian, 1759–1805. Fragile constitution since childhood, recurring life-threatening fever and coughing fits from 1791 onward, fourteen years of uncompromising work against his own decline. Died in 1805 at 45 of acute pneumonia – the autopsy found a completely destroyed lung." , land:"Germany", gender:"m", jahre:"1759–1805"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Social Type 3", krankheit:"Cancer (cause of death never officially confirmed; assistant reported prostate cancer, diagnosed 2015)", teaser:"SO3w4 – fashion designer and Chanel creative director, 1933–2019. According to consistent reports, kept a cancer diagnosis secret for nearly four years even from those closest to him, and missed a Chanel show for the first time in 35 years only four weeks before his death." , land:"Germany/France", gender:"m", jahre:"1933–2019"},
@@ -23631,12 +23632,15 @@ function johannSebastianBachPortraitPage() {
           <p class="vb-intro">The legacy of SX1w9 lies exactly in this tension: a zeal that needed no recognition to give itself fully, and a persistence that knew all along that the real test was not the applause of contemporaries, but the music itself. The black mamba that no one needed to fear &ndash; unless they betrayed its standards.</p>
         </blockquote>
 
+        <p class="vb-intro">The years-long progressive blindness and the two failed eye operations shortly before his death in 1750 are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-johann-sebastian-bach">Illness Portrait of Bach</a>.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"krankheitsportraets-johann-sebastian-bach", label:"Illness Portrait: Johann Sebastian Bach (SX1w9)"},
         {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SP9w8) – shaped by Bach's rigor of form"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) – who studied his fugal art"},
@@ -42002,6 +42006,176 @@ function konradAdenauerKrankheitsportraetPage() {
         {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SE1w9) – life's work"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se1", label:"Subtype Profile SE1"},
+      ])}
+    </div>
+  `);
+}
+
+function johannSebastianBachKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-johann-sebastian-bach-portrait.jpg" alt="Johann Sebastian Bach" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johann Sebastian Bach</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexual Type 1 with Nine-wing · 1685–1750</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Black Mamba</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Animal correspondence: Black Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Johann Sebastian Bach</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-johann-sebastian-bach">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and type structure in general.
+        This page deals exclusively with a chapter only briefly touched on there: a
+        years-long progressive blindness, two failed eye operations, and Bach's death only
+        months later in 1750.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Bach</strong> is classified as the <strong>Sexual Type 1 with Nine-wing</strong>.
+        SX1 directs the One's striving for perfection not at the whole world, but with
+        uncompromising intensity at the innermost circle – at one single cause, one single
+        calling, for which no effort is too great. The Nine-wing adds a calm, undramatic
+        persistence: Bach rarely complained, he simply kept working – a pattern traceable
+        right into his final months of near-total blindness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) The eyes as an instrument of devotion, not of self-preservation:</strong>
+        As a boy, tradition holds, Bach secretly copied forbidden sheet music by moonlight –
+        an early willingness to stake his own eyesight for music, decades before it was
+        actually at risk.</p>
+        <p class="vb-intro"><strong>b) Failing sight accepted as reality, not as an alarm signal:</strong>
+        The increasingly shaky, barely legible handwriting of his last manuscripts documents
+        a years-long progressive weakening of his eyesight that Bach apparently endured while
+        continuing to work, rather than withdrawing early.</p>
+        <p class="vb-intro"><strong>c) Focus on the one work despite failing vision:</strong>
+        Even in the late 1740s, Bach was working on major, highly complex compositions such
+        as the Mass in B minor – a focus on the essential that is typical of the Sexual One
+        with Nine-wing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) A gradual decline with no clear diagnosis:</strong>
+        Contemporary sources document no precise onset of the eye disease – in retrospect it
+        is interpreted as cataract, though it was never clearly diagnosed at the time.</p>
+        <p class="vb-intro"><strong>b) Two operations in March 1750:</strong>
+        Bach underwent two procedures by the traveling, self-styled "Chevalier" John Taylor,
+        a British eye surgeon of dubious reputation. The method used, so-called "couching,"
+        displaced the clouded lens rather than removing it – an already outdated, risky
+        procedure at the time.</p>
+        <p class="vb-intro"><strong>c) Complete blindness after the second operation:</strong>
+        About a week later, a second operation was needed because the cataract had returned.
+        This second procedure resulted in Bach's complete blindness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) The same surgeon, the same fate for Handel:</strong>
+        Shortly after Bach, John Taylor also operated on Georg Friedrich Handel – with
+        similarly disastrous results. Two of the Baroque era's most significant composers
+        were blinded by the same dubious "miracle healer."</p>
+        <p class="vb-intro"><strong>b) Four months between blindness and death:</strong>
+        On July 28, 1750, roughly four months after the operations, Bach died following a
+        stroke that, according to the obituary published in 1754, was preceded by a
+        "feverish illness" – likely a febrile infection.</p>
+        <p class="vb-intro"><strong>c) The causal link remains interpretation, not established fact:</strong>
+        Whether the operations themselves triggered the fatal course of events is a
+        plausible connection widely made in the research literature, but not conclusively
+        proven – no autopsy in the modern sense exists.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A popular legend that does not hold up to research:</strong>
+        The romantic story that Bach died in the middle of composing the final fugue of "The
+        Art of Fugue" is now debunked – the autograph of the last, unfinished fugue dates
+        from 1748/49, that is, from before his blindness.</p>
+        <p class="vb-intro"><strong>b) The Mass in B minor as the more plausible final work:</strong>
+        Bach scholar Christoph Wolff argues that the Mass in B minor should instead be
+        regarded as Bach's actual final completed major work – one he apparently finished
+        despite considerable visual impairment.</p>
+        <p class="vb-intro"><strong>c) A retrospective diagnosis still debated today:</strong>
+        Some researchers suspect advanced diabetes as the cause of both the failing eyesight
+        and the poor wound healing after the surgery – a modern conjecture, not an
+        established historical diagnosis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Work as a constant despite failing sight:</strong>
+        Bach apparently did not let his progressive vision loss deter him from his
+        compositional work – an expression of the intensity with which the Sexual One
+        devotes itself to the one, all-encompassing cause.</p>
+        <p class="vb-intro"><strong>b) Nine-wing calm in the face of risk:</strong>
+        The decision to undergo a risky, already controversial procedure rather than live
+        with blindness shows a calm, almost fatalistic willingness to take risks – not a
+        dramatic struggle, but a quiet attempt to solve the problem and keep working.</p>
+        <p class="vb-intro"><strong>c) The black mamba that stayed precise to the last strike:</strong>
+        Even in his final months, nearly completely blind, Bach's compositional thinking
+        apparently remained undiminished in its sharpness – a precision that no impairment
+        could cloud.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A risk that began in childhood:</strong>
+        Tradition holds that the young Bach secretly copied forbidden sheet music by
+        moonlight – an early, self-chosen strain on his own eyes in the service of music,
+        decades before actual blindness set in.</p>
+        <p class="vb-intro"><strong>b) Years of gradual loss, without public complaint:</strong>
+        The increasingly illegible handwriting of his final manuscripts is the only
+        surviving evidence of a decline that Bach apparently never placed at the center of
+        his own writings.</p>
+        <p class="vb-intro"><strong>c) Two operations, one loss, four months to death:</strong>
+        The close timing between complete blindness in March 1750 and Bach's death on July
+        28, 1750, is well documented historically, even though the exact causal chain
+        remains a matter of ongoing interpretation.</p>
+        <p class="vb-intro"><strong>d) Why, of all things, the eyes?</strong>
+        For a Sexual One whose entire devotion is directed with uncompromising intensity at
+        the one cause to which it has committed itself, one reading suggests itself: the
+        eyes were, for Bach, throughout his life, the organ through which he submitted
+        himself to his calling – copying by candlelight as a child, bent over sheet music as
+        a composer. That precisely this organ failed in the end, after a lifetime of being
+        used without regard for his own well-being, reads as the consistent conclusion of a
+        pattern already established in childhood. This reading is a plausible
+        interpretation, not a documented historical causal link, and is explored in more
+        depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        This does not mean the Sexual One's pattern inevitably leads to eye disease –
+        <strong>every person can develop any illness, regardless of subtype.</strong> What
+        Bach's case can show is a pattern that stands out again and again in practice
+        wherever uncompromising devotion to a single calling exists, without regard for one's
+        own physical limits – one possible explanation among many, not a verdict. The
+        corresponding condition will be developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Bach</strong> embodies the Sexual One with Nine-wing right down into his own
+        illness history: an organ he already risked as a child and used, as an adult, right
+        up to complete blindness, two risky operations he underwent calmly and without
+        public fuss, and a death four months later whose exact cause remains a subject of
+        research to this day. The black mamba that kept composing even in the dark –
+        precise to the very end.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-johann-sebastian-bach", label:"Portrait: Johann Sebastian Bach (SX1w9) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx1", label:"Subtype Profile SX1"},
       ])}
     </div>
   `);
@@ -63391,6 +63565,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-johann-sebastian-bach": johannSebastianBachKrankheitsportraetPage,
       "krankheitsportraets-konrad-adenauer": konradAdenauerKrankheitsportraetPage,
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
