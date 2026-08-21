@@ -39154,7 +39154,7 @@ function freudKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Gaze Quality</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Analytical and incorruptible:</strong>
         Freud's gaze dissected, ordered, interpreted – patients, culture, himself. Nothing
         stayed at the surface; everything was probed for the structure behind it. This is
@@ -39597,7 +39597,7 @@ function marieCurieKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Precise, tireless, incorruptible:</strong>
         Curie's gaze went to what others overlooked – invisible radiation hidden in tons of
         pitchblende, sought by manual labor over years. That is the Five's gaze: truth doesn't
@@ -39783,7 +39783,7 @@ function charlesDarwinKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Patient, meticulous, incorruptible:</strong>
         Darwin's gaze gathered observations for decades until no objection had room left –
         the Five's gaze, which would rather check too much than too little before it
@@ -39961,7 +39961,7 @@ function winstonChurchillKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Confrontational, direct, appraising:</strong>
         Churchill's gaze in speeches and film footage was always turned outward, ready for
         resistance – the typical "orangutan gaze" of the Eight, which allows no weakness.</p>
@@ -40136,7 +40136,7 @@ function gustavMahlerKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Turned inward, deeply feeling:</strong>
         Mahler's gaze always sought his own emotional world and translated it directly into
         sound – the typical Four's gaze, which does not suppress experience but shapes it.</p>
@@ -40335,7 +40335,7 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Precise, undeterred by resistance:</strong>
         Ginsburg's gaze went to what mattered, undistracted by noise or resistance – the
         crocodile's gaze, which waits patiently and then strikes with absolute precision.</p>
@@ -40511,7 +40511,7 @@ function friedrichNietzscheKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Turned inward, radically honest:</strong>
         Nietzsche's gaze sought his own truth without regard for convention – the typical
         Five's gaze, which illuminates itself before it judges the world.</p>
@@ -40689,7 +40689,7 @@ function fjodorDostojewskiKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Watchful for every warning sign:</strong>
         Dostoevsky described the seconds before an epileptic seizure – the so-called aura –
         with a precision hardly matched by any other sufferer in literary history. The
@@ -40867,7 +40867,7 @@ function franzKafkaKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Turned inward, unsparingly precise:</strong>
         Kafka's gaze on his own illness was the same as on his literary characters – mercilessly
         precise, without sparing himself or softening his own situation.</p>
@@ -41038,7 +41038,7 @@ function ronaldReaganKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Turned outward, attuned to belonging:</strong>
         Reagan's gaze always sought connection – to the audience, the nation, the person in
         front of him – even as he himself knew this ability would increasingly slip away.</p>
@@ -41217,7 +41217,7 @@ function davidBowieKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Turned outward, focused on impact:</strong>
         Bowie's gaze always concerned itself with what message he wanted to convey to the
         public – this stance did not change in the face of his own mortality.</p>
@@ -41387,7 +41387,7 @@ function wolfgangAmadeusMozartKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Earthy rather than otherworldly:</strong>
         Unlike the image of the ethereal, floating genius that posterity has made of him,
         Mozart's gaze was directed throughout his life at very concrete, physical matters –
@@ -41558,7 +41558,7 @@ function karlLagerfeldKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) The image before the truth:</strong>
         Lagerfeld's public gaze was always concerned with what image of him became visible to
         the outside world – this priority did not change even in the face of a progressing
@@ -41732,7 +41732,7 @@ function friedrichSchillerKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) His own body as one more opponent to be confronted:</strong>
         Schiller's view of his own progressing illness was the same as his view of every other
         threat in his life – not to evade it, but to keep working, as if sheer willpower could
@@ -41908,7 +41908,7 @@ function konradAdenauerKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Control over his own appearance as a life principle:</strong>
         After the accident that permanently changed his face, Adenauer spent the rest of his
         life cultivating a public image of unshakeable calm and authority – the exact
@@ -42082,7 +42082,7 @@ function johannSebastianBachKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) The eyes as an instrument of devotion, not of self-preservation:</strong>
         As a boy, tradition holds, Bach secretly copied forbidden sheet music by moonlight –
         an early willingness to stake his own eyesight for music, decades before it was
@@ -42253,7 +42253,7 @@ function napoleonBonaparteKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) His own body as secondary to the mission:</strong>
         Napoleon's gaze was always fixed on the bigger picture – the campaign, the empire,
         his own historical role. Physical ailments were consistently treated as secondary,
@@ -42423,7 +42423,7 @@ function elvisPresleyKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) The audience before his own body:</strong>
         Elvis's gaze remained fixed, to the end, on what his audience expected of him – not
         on what his body could still deliver.</p>
@@ -42581,7 +42581,7 @@ function oshoKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) His own suffering as a public narrative:</strong>
         Unlike subjects who conceal their illness, Osho made his physical decline itself the
         subject of his discourses – a combination of functional drive and dramatic
@@ -42750,7 +42750,7 @@ function marilynMonroeKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Pain that had to disappear behind the image:</strong>
         Monroe's chronic endometriosis symptoms were never allowed to disturb the flawless
         public image – contracts are said to have specifically protected her from work
@@ -42919,7 +42919,7 @@ function ladyDianaKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) A beginning in the week of the engagement:</strong>
         Diana later said herself that her bulimia began "the week after we got engaged" to
         Prince Charles in February 1981 – triggered, among other things, by a disparaging
@@ -43083,7 +43083,7 @@ function freddieMercuryKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Rumors he never confirmed:</strong>
         From the mid-1980s onward, press rumors about Mercury's health increasingly
         circulated – he himself never commented publicly, neither confirming nor denying
@@ -43250,11 +43250,13 @@ function albertEinsteinKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) A chance finding during an examination:</strong>
         In December 1948, Einstein consulted thoracic surgeon Dr. Rudolph Nissen for
-        recurring abdominal pain; during an exploratory operation, Nissen discovered a large
-        abdominal aortic aneurysm.</p>
+        recurring abdominal pain; during an exploratory operation (a surgical procedure to
+        determine the cause, without knowing beforehand what it would find), Nissen
+        discovered a large abdominal aortic aneurysm (a bulge in the main artery that can
+        rupture at any time).</p>
         <p class="vb-intro"><strong>b) A stopgap instead of a cure:</strong>
         Since aortic grafts did not yet exist at the time, Nissen wrapped the aneurysm in
         cellophane – a foreign-body reaction was meant to thicken the aortic wall with fibrous

@@ -65912,7 +65912,7 @@ function freudKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Analytisch und unbestechlich:</strong>
         Freuds Blick zerlegte, ordnete, deutete – auf Patienten, auf Kultur, auf sich selbst.
         Nichts blieb an der Oberfläche stehen, alles wurde auf eine dahinterliegende
@@ -66380,7 +66380,7 @@ function marieCurieKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Genau, ausdauernd, unbestechlich:</strong>
         Curies Blick richtete sich auf das, was andere übersahen – unsichtbare Strahlung in
         tonnenweise Pechblende, gesucht mit bloßer Handarbeit über Jahre hinweg. Das ist der
@@ -66573,7 +66573,7 @@ function charlesDarwinKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Geduldig, detailversessen, unbestechlich:</strong>
         Darwins Blick sammelte über Jahrzehnte Beobachtungen, bis kein Einwand mehr Platz
         fand – der Fünferblick, der lieber zu viel als zu wenig prüft, bevor er urteilt.</p>
@@ -66761,7 +66761,7 @@ function winstonChurchillKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Konfrontativ, direkt, prüfend:</strong>
         Churchills Blick in Reden und Bildmaterial war stets nach außen gerichtet, bereit zum
         Widerstand – der typische &bdquo;Orang-Utan-Blick&ldquo; der Acht, der keine Schwäche
@@ -66945,7 +66945,7 @@ function gustavMahlerKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Nach innen gerichtet, tief empfindend:</strong>
         Mahlers Blick suchte stets die eigene Gefühlswelt und übersetzte sie unmittelbar in
         Klang – der typische Vierer-Blick, der das Erleben nicht verdrängt, sondern gestaltet.</p>
@@ -67155,7 +67155,7 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Präzise, unbeeindruckt von Gegenwehr:</strong>
         Ginsburgs Blick richtete sich auf das Wesentliche, ohne sich von Lärm oder Widerstand
         ablenken zu lassen – der Krokodilblick, der geduldig wartet und dann mit absoluter
@@ -67337,7 +67337,7 @@ function friedrichNietzscheKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Nach innen gerichtet, radikal ehrlich:</strong>
         Nietzsches Blick suchte die eigene Wahrheit ohne Rücksicht auf Konvention – der
         typische Fünferblick, der sich selbst durchleuchtet, bevor er die Welt beurteilt.</p>
@@ -67523,7 +67523,7 @@ function fjodorDostojewskiKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Wachsam gegenüber jedem Vorzeichen:</strong>
         Dostojewski beschrieb die Sekunden vor einem epileptischen Anfall – die sogenannte
         Aura – mit einer Genauigkeit, die kaum ein anderer Betroffener der Literaturgeschichte
@@ -67711,7 +67711,7 @@ function franzKafkaKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Nach innen gerichtet, unbestechlich genau:</strong>
         Kafkas Blick auf die eigene Krankheit war derselbe wie auf seine literarischen Figuren
         – schonungslos präzise, ohne sich selbst zu schonen oder die eigene Lage zu
@@ -67893,7 +67893,7 @@ function ronaldReaganKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Nach außen gerichtet, auf Zugehörigkeit bedacht:</strong>
         Reagans Blick suchte stets die Verbindung zum Publikum, zur Nation, zum Gegenüber –
         auch als er selbst wusste, dass ihm diese Fähigkeit zunehmend entgleiten würde.</p>
@@ -68080,7 +68080,7 @@ function davidBowieKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Nach außen gerichtet, auf Wirkung bedacht:</strong>
         Bowies Blick galt zeitlebens der Frage, welche Botschaft er der Öffentlichkeit
         vermitteln wollte – diese Haltung veränderte sich auch angesichts der eigenen
@@ -68262,7 +68262,7 @@ function wolfgangAmadeusMozartKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Erdverbunden statt entrückt:</strong>
         Anders als das Bild des überirdisch schwebenden Genies, das die Nachwelt aus ihm
         machte, richtete sich Mozarts Blick zeitlebens auf sehr konkrete, körperliche Dinge –
@@ -68437,7 +68437,7 @@ function karlLagerfeldKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Das Bild vor der Wahrheit:</strong>
         Lagerfelds öffentlicher Blick galt zeitlebens der Frage, welches Bild von ihm nach
         außen sichtbar wurde – diese Priorität änderte sich auch angesichts einer
@@ -68617,7 +68617,7 @@ function friedrichSchillerKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Der eigene Körper als weiterer Gegner, dem man sich stellt:</strong>
         Schillers Blick auf die eigene, fortschreitende Krankheit war derselbe wie auf jede
         andere Bedrohung seines Lebens – nicht ausweichen, sondern weiterarbeiten, als ließe
@@ -68803,7 +68803,7 @@ function konradAdenauerKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Kontrolle über das eigene Erscheinungsbild als Lebensprinzip:</strong>
         Nach dem Unfall, der sein Gesicht dauerhaft veränderte, arbeitete Adenauer sein
         gesamtes weiteres Leben an einer öffentlichen Erscheinung von unerschütterlicher
@@ -68984,7 +68984,7 @@ function johannSebastianBachKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Die Augen als Werkzeug der Hingabe, nicht der Schonung:</strong>
         Schon als Junge kopierte Bach der Überlieferung nach heimlich verbotene Notenblätter
         bei Mondlicht – eine frühe Bereitschaft, die eigene Sehkraft für die Musik aufs Spiel
@@ -69161,7 +69161,7 @@ function napoleonBonaparteKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Der eigene Körper als Nebensache neben der Mission:</strong>
         Napoleons Blick galt zeitlebens dem großen Ganzen – dem Feldzug, dem Reich, der
         eigenen historischen Rolle. Körperliche Beschwerden wurden konsequent nachrangig
@@ -69341,7 +69341,7 @@ function elvisPresleyKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Das Publikum vor dem eigenen Körper:</strong>
         Elvis' Blick galt bis zuletzt der Frage, was sein Publikum von ihm erwartete – nicht
         der Frage, was sein Körper noch leisten konnte.</p>
@@ -69508,7 +69508,7 @@ function oshoKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Das eigene Leiden als öffentliche Erzählung:</strong>
         Anders als Betroffene, die ihre Erkrankung verschweigen, machte Osho seinen
         körperlichen Verfall selbst zum Thema seiner Diskurse – eine für die SE3w4 typische
@@ -69682,7 +69682,7 @@ function marilynMonroeKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Schmerz, der hinter dem Image verschwinden musste:</strong>
         Monroes chronische Endometriose-Beschwerden durften das makellose öffentliche Bild
         nie stören – Verträge sollen sie sogar gezielt vor Arbeit während besonders
@@ -69855,7 +69855,7 @@ function ladyDianaKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Ein Beginn in der Verlobungswoche:</strong>
         Diana beschrieb später selbst, ihre Bulimie habe "in der Woche nach der Verlobung"
         mit Prinz Charles im Februar 1981 begonnen – ausgelöst unter anderem durch eine
@@ -70030,7 +70030,7 @@ function freddieMercuryKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Gerüchte, die er nie bestätigte:</strong>
         Ab Mitte der 1980er-Jahre kursierten in der Presse zunehmend Gerüchte über Mercurys
         Gesundheitszustand – er selbst äußerte sich dazu öffentlich nicht, weder bestätigend
@@ -70210,11 +70210,13 @@ function albertEinsteinKrankheitsportraetPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Ein Zufallsfund bei einer Untersuchung:</strong>
         Im Dezember 1948 suchte Einstein wegen wiederkehrender Bauchschmerzen den
-        Thoraxchirurgen Dr. Rudolph Nissen auf, der bei einer explorativen Operation ein
-        großes Bauchaortenaneurysma entdeckte.</p>
+        Thoraxchirurgen Dr. Rudolph Nissen auf, der bei einer explorativen Operation (ein
+        chirurgischer Eingriff zur Ursachenklärung, ohne dass vorab feststand, was er finden
+        würde) ein großes Bauchaortenaneurysma entdeckte (eine krankhafte Aussackung der
+        Hauptschlagader, die jederzeit reißen kann).</p>
         <p class="vb-intro"><strong>b) Eine Notlösung statt Heilung:</strong>
         Da Aortentransplantate damals noch nicht existierten, umwickelte Nissen das
         Aneurysma mit Cellophan – eine Fremdkörperreaktion sollte die Aortenwand fibrotisch
