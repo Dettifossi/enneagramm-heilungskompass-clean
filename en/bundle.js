@@ -1476,6 +1476,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Lucy Cooke – Sexual Type 9",
     teaser:"SX9w8 · British zoologist, bestselling author (\"The Truth About Animals\"), founder of the Sloth Appreciation Society. Merged her life with the sloth – and demolishes its lazy reputation with sparkling, humorous verve.",
     land:"United Kingdom", tags:["Wissenschaft"], gender:"f"},
+{ route:"beruehmte-elizabeth-barrett-browning", name:"Elizabeth Barrett Browning", added:"2026-08-21", subtyp:"SX9w8",
+    heading:"Elizabeth Barrett Browning – Sexual Type 9",
+    teaser:"SX9w8 · 1806–1861. English poet, chronically ill and confined to her father's house for decades. Merged her life radically with a single person – her secret love for Robert Browning – and defied total disownment by her own father to do it.",
+    land:"United Kingdom", tags:["Literatur"], gender:"f"},
 { route:"beruehmte-carl-rogers", name:"Dr. Carl Rogers", added:"2026-08-05", subtyp:"SX9w1",
     heading:"Carl Rogers – Sexual Type 9",
     teaser:"SX9w1 · 1902–1987. Psychologist, founder of client-centered therapy. The sloth who created the judgment-free space in which people could find themselves again – unconditional positive regard as a therapeutic principle.",
@@ -32073,6 +32077,7 @@ function heikeMakatschPortraitPage() {
         {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
+        {route:"beruehmte-elizabeth-barrett-browning", label:"Portrait: Elizabeth Barrett Browning (SX9w8)"},
       ])}
     </div>
   `);
@@ -32138,6 +32143,7 @@ function marioBarthPortraitPage() {
           {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8)"},
           {route:"beruehmte-dakota-johnson", label:"Portrait: Dakota Johnson (SX9w8)"},
           {route:"beruehmte-lucy-cooke", label:"Portrait: Lucy Cooke (SX9w8)"},
+          {route:"beruehmte-elizabeth-barrett-browning", label:"Portrait: Elizabeth Barrett Browning (SX9w8)"},
         ])}
       </div>
     </div>
@@ -32201,10 +32207,72 @@ function lucyCookePortraitPage() {
         {route:"lebensmusterkompass/sx9", label:"Life Pattern Compass: SX9 – Sloth"},
         {route:"beruehmte-mario-barth", label:"Portrait: Mario Barth (SX9w8)"},
         {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8)"},
+        {route:"beruehmte-elizabeth-barrett-browning", label:"Portrait: Elizabeth Barrett Browning (SX9w8)"},
         {route:"beruehmte-ana-salceda", label:"Portrait: Ana Salceda (SX9w1) – also a sloth correspondence"},
         {route:"tierforscher-uebereinstimmung", label:"Animal-Researcher Correspondence: more examples"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-lucy-cooke")}
+    </div>
+  `);
+}
+
+function elizabethBarrettBrowningPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-elizabeth-barrett-browning-portrait.jpg" alt="Elizabeth Barrett Browning – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elizabeth Barrett Browning</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexual Type 9 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">English poet (1806&ndash;1861) &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. A Life That Withdrew Into One Room</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">For more than twenty years, Elizabeth Barrett scarcely left her room in the family house on London's Wimpole Street. A chronic illness &ndash; likely a combination of a lung condition and a never fully explained spinal injury from her youth &ndash; had confined her to her bed and to the strict regime of her father, Edward Moulton-Barrett, a man who forbade every one of his twelve children to marry, and who bound his ailing eldest daughter to himself with a mixture of care and control.</p>
+          <p class="vb-intro">Out of this tiny, sealed-off radius, Elizabeth Barrett nonetheless became the most famous English poet of her age &ndash; more famous in her lifetime than her later husband Robert Browning ever was. Her work did not emerge despite the isolation, but in the middle of it: verse written in the half-light of a sickroom that became, at the same time, the workshop of one of the most singular voices in Victorian literature.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Nine: Everything Staked on a Single Bond</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Nine (SX9)</strong> does not seek belonging to a group but complete merging with a single being. In 1845, a correspondence began that shows this pattern in its purest form: the young poet Robert Browning wrote her an admiring letter after reading her poems &ndash; and from that single contact grew, almost entirely through letters, the central bond of the rest of her life within twenty months. The two exchanged 574 letters before secretly marrying in 1846.</p>
+          <p class="vb-intro">It is telling that this love grew not in public but in secret &ndash; hidden from her own family, with her father never suspecting what was unfolding inside his own house. The Sexual Nine invests her entire energy in the one relationship that matters, letting everything else &ndash; even her own safety &ndash; recede behind it. Barrett's most famous collection, <em>Sonnets from the Portuguese</em>, is devoted exactly to this merging: 44 love sonnets to Robert, which she only showed him after the wedding, too shy of the intimacy they contained.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: Flight as an Act of Defiance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> shows itself in Elizabeth Barrett Browning not as loudness but as a quiet, unshakeable resolve the moment the one bond is at stake. When it became clear that her father would never permit a marriage, the 40-year-old, physically fragile woman made a decision that would have been barely conceivable for a Sexual Nine with a weakly developed Eight-wing: in 1846 she secretly fled the family home, married Robert Browning without her family's knowledge, and left England for Italy days later &ndash; fully aware that her father would disown her for life and never write to her again.</p>
+          <p class="vb-intro">This is no impulsive break but a calculated, courageous fight for the one bond that mattered &ndash; carried by a strength that lay beneath the fragile surface of the chronically ill poet. Later, in Italy, the same steel continued: in <em>Casa Guidi Windows</em> (1851) and the even sharper <em>Poems Before Congress</em> (1860), she took blunt political sides in favor of Italian independence &ndash; and in <em>The Cry of the Children</em> (1843) she denounced child labor in British factories and mines with a directness that scandalized parts of the public. Not a retreat into private life, but a fight waged with the pen, once the body had long since run out of other weapons.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SX9w8 is the ability to <strong>turn a single, deep bond into the source of a life's turning point</strong> &ndash; and to fight resolutely for it if necessary, rather than dissolving into deference or illness. The marriage to Robert Browning brought, after decades of isolation, a period of health stabilization, literary maturity (her verse novel <em>Aurora Leigh</em>, 1856, still stands today as one of the major works of Victorian women's literature), and a life in Florence she would never have dared imagine for herself.</p>
+          <p class="vb-intro">The shadow shows in the radical narrowness of this merging: for a lifetime, Elizabeth Barrett Browning was almost entirely dependent on a single bond &ndash; first the (sickly) symbiosis with her father's house, then the marriage to Robert. The price of the flight was a final, never-healed break with her own father, who did not deem her worthy of a single letter before his death in 1857. The SX9w8 wins the one bond &ndash; and often loses all the others, irrevocably, in the process.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Sloth That Only Awoke in Florence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> appears motionless until it clings with all its strength to the one branch that matters for its survival &ndash; and that is exactly the image Elizabeth Barrett Browning's life leaves behind. More than twenty years of a life in a darkened room, shaped by illness and paternal control. Then, within a few months, a flight, a marriage, a new country &ndash; and fifteen years in Florence, in which she became the most widely read poet of her age, before she died in 1861 in her husband's arms.</p>
+          <p class="vb-intro">What remains is the image of a woman whose outward stillness concealed, for decades, an unsuspected inner strength &ndash; one that, when it mattered, clung with total resolve to the one bond that saved her life.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"lebensmusterkompass/sx9", label:"Life Pattern Compass: SX9 – Sloth"},
+        {route:"beruehmte-lucy-cooke", label:"Portrait: Lucy Cooke (SX9w8)"},
+        {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8)"},
+        {route:"beruehmte-mario-barth", label:"Portrait: Mario Barth (SX9w8)"},
+      ])}
     </div>
   `);
 }
@@ -65384,6 +65452,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
       "beruehmte-mario-barth": marioBarthPortraitPage,
       "beruehmte-lucy-cooke": lucyCookePortraitPage,
+      "beruehmte-elizabeth-barrett-browning": elizabethBarrettBrowningPortraitPage,
       "beruehmte-baerbel-bas": baerbelBasPortraitPage,
       "beruehmte-ludwig-erhard": ludwigErhardPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
