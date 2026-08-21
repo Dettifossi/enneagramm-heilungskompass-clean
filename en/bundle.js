@@ -217,6 +217,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-karl-marx", name:"Karl Marx", subtyp:"SO8w9", heading:"Karl Marx – Social Type 8", krankheit:"Chronic, severe boils and carbuncles (likely hidradenitis suppurativa), accompanied by bronchitis, liver complaints, and rheumatism", teaser:"SO8w9 – philosopher, economist, founder of Marxism, 1818–1883. Suffered for over four decades from painful carbuncles that at times kept him from sitting and repeatedly delayed work on 'Capital.' Died in 1883 from the effects of chronic bronchitis." , land:"Germany/United Kingdom", gender:"m", jahre:"1818–1883"},
   { route:"krankheitsportraets-james-levine", name:"James Levine", subtyp:"SE9w1", heading:"James Levine – Self-Preservation Type 9", krankheit:"Decades-long progressive Parkinson's disease with severe accompanying back injuries", teaser:"SE9w1 – conductor and pianist, 1943–2021. First tremor symptoms as early as the 1990s, kept private for years, a severe fall in 2011 with spinal injury, increasing reliance on a wheelchair. Died in 2021 from complications of his long-standing illness." , land:"USA", gender:"m", jahre:"1943–2021"},
   { route:"krankheitsportraets-david-hume", name:"David Hume", subtyp:"SE9w8", heading:"David Hume – Self-Preservation Type 9", krankheit:"Chronic bowel disease (likely colorectal cancer or a severe chronic inflammatory condition), steadily progressing over just over four years", teaser:"SE9w8 – Scottish philosopher, 1711–1776. First digestive complaints from 1772 on, steady weight loss, wrote the composed autobiography 'My Own Life' shortly before his death. Died in 1776 in Edinburgh with remarkable philosophical calm." , land:"Scotland", gender:"m", jahre:"1711–1776"},
+  { route:"krankheitsportraets-elizabeth-barrett-browning", name:"Elizabeth Barrett Browning", subtyp:"SX9w8", heading:"Elizabeth Barrett Browning – Sexual Type 9", krankheit:"Decades-long, never definitively diagnosed chronic illness (likely a spinal condition and/or early lung disease) with accompanying lifelong opium dependency", teaser:"SX9w8 – English poet, 1806–1861. Chronic complaints from her teens, early prescription of laudanum leading to decades of dependency, more than twenty years of near-total isolation in her father's house. Health improved only after her secret flight to Italy in 1846." , land:"United Kingdom", gender:"f", jahre:"1806–1861"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -32261,6 +32262,8 @@ function elizabethBarrettBrowningPortraitPage() {
           <p class="vb-intro">What remains is the image of a woman whose outward stillness concealed, for decades, an unsuspected inner strength &ndash; one that, when it mattered, clung with total resolve to the one bond that saved her life.</p>
         </blockquote>
 
+        <p class="vb-intro">Her decades-long, never definitively diagnosed chronic illness and the accompanying opium dependency are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-elizabeth-barrett-browning">Illness Portrait</a>.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -32272,6 +32275,7 @@ function elizabethBarrettBrowningPortraitPage() {
         {route:"beruehmte-lucy-cooke", label:"Portrait: Lucy Cooke (SX9w8)"},
         {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8)"},
         {route:"beruehmte-mario-barth", label:"Portrait: Mario Barth (SX9w8)"},
+        {route:"krankheitsportraets-elizabeth-barrett-browning", label:"Illness Portrait: Elizabeth Barrett Browning (SX9w8)"},
       ])}
     </div>
   `);
@@ -44286,6 +44290,176 @@ function davidHumeKrankheitsportraetPage() {
         {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se9", label:"Subtype Profile SE9"},
+      ])}
+    </div>
+  `);
+}
+
+function elizabethBarrettBrowningKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-elizabeth-barrett-browning-portrait.jpg" alt="Elizabeth Barrett Browning" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elizabeth Barrett Browning</p>
+        <p class="krim-portrait-typ">SX9w8 · Sexual Type 9 with Eight-wing · 1806–1861</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Sloth</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx9.jpg" alt="Animal correspondence: Sloth" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX9")};left:${tierAvatarLeft("SX9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Elizabeth Barrett Browning</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-elizabeth-barrett-browning">portrait under Famous Personalities</a>
+        in this Compass – that page covers her poetic life's work and the flight to Italy. This
+        portrait is devoted to a chapter only touched on there: a decades-long, never definitively
+        diagnosed chronic illness, coupled with a lifelong opium dependency – and what it means
+        for a Sexual Nine to fight, quite literally, against her own unconsciousness.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Barrett Browning</strong> is classified as the <strong>Sexual Nine with
+        Eight-wing</strong>. Naranjo called the Sexual Nine <em>Fusion</em>: the longing to
+        dissolve completely into a single counterpart. The Eight-wing gives that fusion a force
+        that, if necessary, asserts itself with fight rather than mere accommodation. Exactly this
+        interplay – decades of chemically deepened unconsciousness toward her own life,
+        interrupted by a single, radically wide-awake act of self-assertion – shaped Barrett
+        Browning's entire course of illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) First chronic complaints in her teens:</strong>
+        From around the age of fifteen, Elizabeth Barrett suffered from persistent pain, likely
+        connected to a spinal injury – possibly the result of a riding accident – whose exact
+        nature remains medically unresolved to this day.</p>
+        <p class="vb-intro"><strong>b) Early prescription of opium:</strong>
+        Already as a young woman, doctors prescribed her laudanum (opium tincture) for the pain –
+        a common but highly addictive remedy at the time, which would accompany her for the rest
+        of her life.</p>
+        <p class="vb-intro"><strong>c) Worsening through a lung condition:</strong>
+        Alongside her back pain, a chronic lung weakness developed, prompting her family in 1838
+        to send her to recover in the milder climate of Torquay on the English south coast.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) A diagnosis that cannot be reconstructed with certainty today:</strong>
+        Medical historians discuss possible causes ranging from a spinal condition to an early
+        form of tuberculosis to a functional illness intensified by chronic pain and family
+        confinement – no definitive modern diagnosis can be recovered from the historical
+        sources.</p>
+        <p class="vb-intro"><strong>b) A decades-long opium dependency as an illness in its own right:</strong>
+        Unlike most Illness Portraits in this Compass, a second, self-generated ailment joined the
+        original physical condition: the ongoing medicinal use of opium led to a physical
+        dependency that shaped her life for decades.</p>
+        <p class="vb-intro"><strong>c) A trauma that deepened the illness:</strong>
+        In 1840, her beloved brother Edward drowned in a sailing accident off Torquay – weeks
+        after he had stayed by her side against their father's wishes to care for her. Elizabeth
+        held herself partly responsible for his death and withdrew even further from life for
+        years afterward.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) More than twenty years spent almost entirely in her own room:</strong>
+        After her brother's death, her isolation in her father's house on London's Wimpole Street
+        deepened considerably – contemporaries described her as a woman who scarcely left her bed
+        and received visitors almost exclusively lying down.</p>
+        <p class="vb-intro"><strong>b) A life increasingly lived in a half-sleep:</strong>
+        The daily dose of opium dulled not only pain but also wakefulness – in her letters,
+        Barrett herself described periods of hazy fatigue that cut her off from her surroundings,
+        long before anyone would have used the word dependency for it.</p>
+        <p class="vb-intro"><strong>c) And in the middle of it all: unbroken literary productivity:</strong>
+        It was precisely out of this state that some of her best-known works emerged – a finding
+        that still occupies doctors and biographers today, given how much mental clarity remained
+        alongside the physical and chemical weakness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) The 1846 flight as a physical turning point:</strong>
+        After the secret marriage and the move to Italy, Barrett Browning's health improved
+        noticeably – a warmer climate, a self-determined life, and distance from her father's
+        house had a measurably positive effect, even though her opium use continued.</p>
+        <p class="vb-intro"><strong>b) Four miscarriages and one surviving child:</strong>
+        In Italy she suffered several miscarriages before her son Robert Wiedeman Barrett Browning
+        (called "Pen") was born healthy in 1849 – a medically remarkable event given her health
+        at the time.</p>
+        <p class="vb-intro"><strong>c) A final decade between creative power and decline:</strong>
+        The 1850s brought both her most politically engaged work and a renewed, gradual physical
+        decline that accelerated markedly in her final years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The Eight-wing that acted from within the fog:</strong>
+        The decision to flee in 1846 was made by a woman who had lived for years in a state of
+        chemically dulled consciousness – and who was nonetheless capable of carrying out a
+        high-risk, months-long secret plan down to the last detail. That is the signature of the
+        Eight-wing: strength that remains capable of action even through a fog.</p>
+        <p class="vb-intro"><strong>b) Fusion that turned against her own unconsciousness:</strong>
+        The Sexual Nine seeks fusion – for Barrett Browning, this took the form for over twenty
+        years mainly of fusion with her own passivity, her sickroom, her sedation. The bond with
+        Robert Browning was the first fusion that pulled her out of this unconsciousness instead
+        of drawing her further into it.</p>
+        <p class="vb-intro"><strong>c) A wakefulness that appeared only in the most extreme moments:</strong>
+        What stands out is how punctual her strength was – not a sustained rebellion against her
+        situation, but a single, highly concentrated outbreak when everything truly was at stake.
+        In between, the familiar dulling remained in place.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) An illness that became literal unconsciousness:</strong>
+        The Sexual Nine carries as its shadow side the danger of adapting and merging so
+        completely that wakefulness toward one's own life is lost – in hardly any other portrait
+        in this Compass does this pattern become as concretely physical as in a woman whose daily
+        opium dose chemically reinforced exactly this unconsciousness for decades.</p>
+        <p class="vb-intro"><strong>b) The Eight-wing as the part that woke up:</strong>
+        Had Elizabeth Barrett been a Sexual Nine without a strongly developed Eight-wing, this
+        decades-long dulling would likely have continued to the end. Instead, exactly at the
+        moment when the one bond that mattered was threatened, a resolve broke through strong
+        enough to cut through her own fog and carry out an escape plan down to the last detail.
+        The illness all but challenged the Eight-wing to show itself.</p>
+        <p class="vb-intro"><strong>c) Why opium, of all things?</strong>
+        For a Sexual Nine whose deepest pattern is fusion with the other to the point of
+        dissolving her own boundaries, one interpretation suggests itself: opium chemically
+        produces exactly the state of dissolved boundaries and dulled wakefulness that the Sexual
+        Nine already pursues psychologically – a substance that does not counteract the underlying
+        pattern but amplifies it. This interpretation is explored further in this Compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) A classification without determinism:</strong>
+        This does not mean that the Sexual Nine pattern inevitably leads to dependency disorders –
+        <strong>anyone can develop any illness, regardless of subtype.</strong> What Barrett
+        Browning's case illustrates is a pattern that recurs in practice with deep fusion
+        tendencies – one of many possible explanations, not a verdict. The corresponding illness
+        picture is being developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Barrett Browning's</strong> medical history, the Sexual Nine with Eight-wing
+        can be read in a particularly sharp form: decades of deepened, even chemically produced
+        unconsciousness toward her own life – and a single, radically wide-awake act that broke
+        through exactly this dulling when the one bond that mattered was at stake. The sloth that
+        hangs in a half-sleep most of the time – and, in the one moment that counts, grips with
+        all its strength.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-elizabeth-barrett-browning", label:"Portrait: Elizabeth Barrett Browning (SX9w8) – Life's Work"},
+        {route:"beruehmte-lucy-cooke", label:"Portrait: Lucy Cooke (SX9w8)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx9", label:"Subtype Profile SX9"},
       ])}
     </div>
   `);
@@ -65701,6 +65875,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-karl-marx": karlMarxKrankheitsportraetPage,
       "krankheitsportraets-james-levine": jamesLevineKrankheitsportraetPage,
       "krankheitsportraets-david-hume": davidHumeKrankheitsportraetPage,
+      "krankheitsportraets-elizabeth-barrett-browning": elizabethBarrettBrowningKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
