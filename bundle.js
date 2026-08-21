@@ -95348,7 +95348,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp innerhalb der Vieren, zeigt selten das erwartete dramatische Leiden – sie funktioniert, kümmert sich, hält durch, oft über Jahrzehnte, während innerlich eine tiefe, nie eingestandene Sehnsucht nach dem eigentlichen, authentischen Leben mitläuft. Die Verbindung zum Herzinfarkt-Muster liegt hier weniger in offener Wut als in chronisch unterdrückter Trauer: ein Leben, das leise und pflichtbewusst weiterläuft, während im Inneren viel unausgesprochen bleibt und sich als stille, nie thematisierte Last auf das Herz legt." },
           { code: "SO4", text: "Die soziale Vier trägt ihren Schmerz nach außen, spricht offen über Erschöpfung und Überforderung, statt sie hinter einer Fassade zu verbergen – dieser Ausdruck wirkt wie ein Sicherheitsventil, das dem Herzen zumindest einen Teil des Drucks nimmt, den die stille Erschöpfung anderer Subtypen ungebremst ansammelt. Kardiologisch zeigt sich die Belastung trotzdem, aber eher in Phasen ausgeprägter Erschöpfung nach emotionalen Hochphasen als in der gleichmäßigen, chronisch verdeckten Anspannung, wie sie das klassische Typ-A-Muster beschreibt." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der einen Beziehung, oft begleitet von einem ständigen, quälenden Vergleich – mit früheren Partnern, mit einem imaginierten Ideal, mit dem, was die Liebe sein könnte, aber gerade nicht ist. Heftige emotionale Ausschläge und eine potenziell konfliktreiche, auf-und-ab-Beziehungsdynamik sind hier der wahrscheinlichere Belastungsfaktor als eine stille Dauerspannung – das Herz wird weniger durch andauernden Druck als durch wiederkehrende, intensive emotionale Erschütterungen beansprucht." },
+      { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der einen Beziehung, oft begleitet von einem ständigen, quälenden Vergleich – mit früheren Partnern, mit einem imaginierten Ideal, mit dem, was die Liebe sein könnte, aber gerade nicht ist. Heftige emotionale Ausschläge und eine potenziell konfliktreiche, auf-und-ab-Beziehungsdynamik sind hier der wahrscheinlichere Belastungsfaktor als eine stille Dauerspannung – das Herz wird weniger durch andauernden Druck als durch wiederkehrende, intensive emotionale Erschütterungen beansprucht." },
         ],
       },
       {
@@ -95356,7 +95356,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Die selbsterhaltende Fünf reduziert ihr Leben systematisch auf das Nötigste: minimale Bedürfnisse, minimaler Kontakt, ein selbst gewählter, oft als angenehm erlebter Rückzug aus einer Welt, die als übergriffig und energiezehrend empfunden wird. Im klassischen Sinn ist das kein Typ-A-Muster – hier fehlt die äußere Betriebsamkeit völlig. Doch soziale Isolation ist medizinisch selbst ein eigenständiger, gut belegter Risikofaktor für Herz-Kreislauf-Erkrankungen, unabhängig von akutem Stress: Ein Herz, das selten im Austausch mit anderen schlägt, verliert etwas von dem, was Herzfrequenzvariabilität und Regeneration nachweislich fördert." },
       { code: "SO5", text: "Die soziale Fünf sucht ihren Platz in der Gruppe über Wissen, nicht über Nähe – sie beobachtet, sammelt, kommentiert von der Seitenlinie aus, während sie auch dort, wo sie physisch anwesend ist, eine innere Distanz aufrechterhält. Diese Mischung aus Teilhabe und Rückzug bedeutet, dass eigene Bedürfnisse selten klar benannt werden, weil das Benennen selbst schon als zu exponierend empfunden wird – eine leise, aber beständige Form der Selbstverleugnung, die sich über Jahre in einem Körper niederschlägt, der ebenfalls gelernt hat, wenig zu verlangen." },
-          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber ausschließlich mit sehr wenigen, sorgfältig ausgewählten Menschen – eine „vertraute“ Verbindung von großer emotionaler Tiefe, umgeben von einer radikalen Abschottung gegenüber allen anderen. Diese Konzentration auf eine einzige oder sehr wenige Bindungen kann durchaus nährend wirken, doch die fast vollständige Abwesenheit eines breiteren sozialen Netzes – ebenfalls medizinisch als kardiovaskulärer Risikofaktor beschrieben – bedeutet, dass beim Verlust oder Rückzug dieser einen Bindung kaum Auffangnetz bleibt." },
+      { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber ausschließlich mit sehr wenigen, sorgfältig ausgewählten Menschen – eine „vertraute“ Verbindung von großer emotionaler Tiefe, umgeben von einer radikalen Abschottung gegenüber allen anderen. Diese Konzentration auf eine einzige oder sehr wenige Bindungen kann durchaus nährend wirken, doch die fast vollständige Abwesenheit eines breiteren sozialen Netzes – ebenfalls medizinisch als kardiovaskulärer Risikofaktor beschrieben – bedeutet, dass beim Verlust oder Rückzug dieser einen Bindung kaum Auffangnetz bleibt." },
         ],
       },
       {
@@ -95441,7 +95441,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Nie in Bewegung, sondern nur in innerer Verhärtung entlädt sich die über Jahrzehnte unausgesprochene Sehnsucht der selbsterhaltenden Vier, dem Kontratyp, der Leid zäh und nach außen kaum sichtbar trägt. Sie funktioniert nach außen unauffällig, fast tapfer, während innerlich ein tiefes Gefühl des Andersseins, des Nicht-ganz-Dazugehörens mitläuft, das nie Raum bekommt, sich zu zeigen oder zu lösen. Dieses stille Tragen ohne Ventil passt zum Bild einer Ablagerung, die sich Schicht für Schicht verfestigt, weil sie nie an die Oberfläche darf." },
           { code: "SO4", text: "Wo andere Subtypen ihre Erschöpfung verbergen, stellt die soziale Vier ihre Verletzlichkeit offen zur Schau, macht sie fast zu einem Teil ihrer Identität in der Gruppe – dieses Zeigen ist zugleich ein Ventil: Die Anspannung staut sich weniger lange an, weil sie regelmäßig einen Ausweg findet. Die zugrunde liegende Sehnsucht nach Vollständigkeit bleibt trotzdem bestehen, auch wenn sie hier immerhin ausgesprochen wird." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen – nichts fühlt sich je vollständig genug an, immer schwingt die Ahnung mit, dass es woanders intensiver, echter, tiefer sein könnte. Heftige, episodische Ausschläge prägen hier das Bild eher als eine gleichmäßige, lautlose Verhärtung: Die Gefäße erleben weniger konstanten Druck als wiederkehrende, intensive emotionale Wellen." },
+      { code: "SX4", text: "Nichts fühlt sich je vollständig genug an, immer schwingt die Ahnung mit, dass es woanders intensiver, echter, tiefer sein könnte: So lebt die sexuelle Vier kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen. Heftige, episodische Ausschläge prägen hier das Bild eher als eine gleichmäßige, lautlose Verhärtung: Die Gefäße erleben weniger konstanten Druck als wiederkehrende, intensive emotionale Wellen." },
         ],
       },
       {
@@ -95449,7 +95449,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Kontakt zu anderen wird von der selbsterhaltenden Fünf als Kostenfaktor erlebt, nicht als Nährstoff – sie zieht sich radikal zurück und minimiert Kontakt und Bedürfnisse zu einem kargen, selbstgenügsamen Leben. Soziale Isolation ist medizinisch selbst ein anerkannter Risikofaktor für Gefäßerkrankungen, unabhängig von akutem Stress, und passt damit besonders deutlich zum Bild eines Systems, das sich über Jahre selbst verengt: Ein Kreislauf, der selten im Austausch mit anderen aktiviert wird, verliert etwas von seiner natürlichen Weite." },
       { code: "SO5", text: "Ohne je wirklich präsent zu sein, kann die soziale Fünf in Gesellschaft brillieren, weil ein Teil von ihr immer schon wieder in der Beobachterrolle ist – sie sucht Zugang zur Gruppe über Wissen, hält aber innerlich Distanz. Diese Mischung aus Teilhabe und Rückzug bedeutet, dass eigene Bedürfnisse selten klar benannt werden, weil das Benennen selbst schon zu viel Nähe verlangen würde – eine leise, chronische Enge, die sich über Jahre im System festsetzen kann." },
-          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, aber tiefe Verbindung bei gleichzeitig radikaler Abschottung nach außen. Innerhalb dieser einen oder wenigen Bindungen kann durchaus echter Austausch stattfinden, doch die fast vollständige Abwesenheit eines breiteren sozialen Netzes bedeutet, dass das Gefäßsystem insgesamt selten von der weitenden Wirkung vielfältiger sozialer Kontakte profitiert." },
+      { code: "SX5", text: "Innerhalb einer schmalen, aber tiefen Verbindung, bei gleichzeitig radikaler Abschottung nach außen, kann durchaus echter Austausch stattfinden – so teilt sich die sexuelle Fünf intensiv, aber nur mit sehr wenigen Menschen, doch die fast vollständige Abwesenheit eines breiteren sozialen Netzes bedeutet, dass das Gefäßsystem insgesamt selten von der weitenden Wirkung vielfältiger sozialer Kontakte profitiert." },
         ],
       },
       {
@@ -95534,7 +95534,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Pflichtbewusst, fast unauffällig funktioniert die selbsterhaltende Vier, der Kontratyp, während innerlich ein tiefes Gefühl des Nicht-ganz-Angekommenseins mitläuft, das nie Raum bekommt, sich zu äußern – eine über Jahre unausgesprochene Sehnsucht, die sich nie in Worte, sondern nur in innerer Anspannung entlädt." },
           { code: "SO4", text: "Die soziale Vier lässt ihre innere Anspannung selten lange unbemerkt – sie zeigt Verletzlichkeit, spricht über ihre Kämpfe, sucht in der Gruppe Resonanz für das eigene Leiden. Dieser fortlaufende Ausdruck kann verhindern, dass sich der innere Druck so unbemerkt aufbaut wie bei stiller gehaltenen Subtypen, auch wenn die zugrunde liegende Sehnsucht selbst davon unberührt bleibt." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen – heftige, episodische Ausschläge prägen hier das Bild eher als eine gleichmäßige Dauerspannung. Der innere Druck steigt und fällt mit der Intensität des Gefühlslebens, statt sich als konstante Grundspannung zu halten." },
+      { code: "SX4", text: "Der innere Druck steigt und fällt mit der Intensität des Gefühlslebens, statt sich als konstante Grundspannung zu halten – so lebt die sexuelle Vier kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen." },
         ],
       },
       {
@@ -95542,7 +95542,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Der Rückzug wirkt beruhigend, kann aber auch bedeuten, dass innere Überforderung nie einen Adressaten findet – die selbsterhaltende Fünf zieht sich radikal zurück und minimiert Kontakt und Bedürfnisse. Sie zieht sich in ihr Zimmer, ihre Gedanken, ihre eigene Welt zurück, gerade dann, wenn die Überforderung am größten wäre – und genau dieser Rückzug verhindert, dass die Spannung je einen Ausweg findet." },
       { code: "SO5", text: "Selten klar benannt wird eigene Überforderung bei der sozialen Fünf, die Zugang zur Gruppe über Wissen sucht, aber innerlich Distanz hält – eine Mischung aus Teilhabe und Rückzug. Sie kann brillant über ein Thema sprechen, ohne je zu erwähnen, wie erschöpft sie eigentlich ist." },
-          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, aber tiefe Verbindung bei gleichzeitig radikaler Abschottung nach außen, in der Druck kaum ein Ventil findet. Selbst in dieser engsten Bindung bleibt oft ein letzter Rückzugsraum, den sie nie ganz öffnet." },
+      { code: "SX5", text: "Selbst in der engsten Bindung bleibt bei der sexuellen Fünf oft ein letzter Rückzugsraum, den sie nie ganz öffnet – sie teilt sich intensiv, aber nur mit sehr wenigen Menschen, eine schmale, aber tiefe Verbindung, in der Druck kaum ein Ventil findet." },
         ],
       },
       {
@@ -95627,7 +95627,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Nach außen tapfer funktioniert die selbsterhaltende Vier, der Kontratyp, während innerlich ein tiefes Gefühl der Unerfülltheit an ihrer Substanz zehrt, ohne dass es je einen Namen bekommt – eine über Jahre unausgesprochene Sehnsucht kann sich so als stille, nie thematisierte Erschöpfung im Körper niederschlagen." },
           { code: "SO4", text: "Die soziale Vier identifiziert sich stark mit ihrem Schmerz und trägt ihn sichtbar in die Gemeinschaft – dieses Zurschaustellen ist zugleich ein Stück Selbstfürsorge, weil es verhindert, dass die eigene Erschöpfung völlig unbemerkt bleibt. Anders als bei stillen Subtypen findet die Auszehrung hier wenigstens einen Resonanzraum, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen – heftige, episodische Kraftanstrengungen prägen hier das Bild eher als eine gleichmäßige Auszehrung. Jede Beziehungskrise wird mit voller emotionaler Wucht durchlebt, was punktuell erschöpft, statt gleichmäßig zu zehren." },
+      { code: "SX4", text: "Jede Beziehungskrise wird mit voller emotionaler Wucht durchlebt, was punktuell erschöpft, statt gleichmäßig zu zehren – so lebt die sexuelle Vier kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen." },
         ],
       },
       {
@@ -95635,7 +95635,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Ein Verhalten, das kurzfristig Kraft spart, aber sozial isoliert: So zieht sich die selbsterhaltende Fünf radikal zurück und minimiert Bedürfnisse. Isolation gilt medizinisch selbst als eigenständiger Risikofaktor für einen ungünstigen Verlauf bei bereits bestehenden Herz-Kreislauf-Erkrankungen: Der Rückzug schützt vor Überforderung, nimmt aber auch die stärkende Wirkung echten menschlichen Austauschs." },
       { code: "SO5", text: "Selten offen gezeigt wird die eigene Erschöpfung der sozialen Fünf, die Zugang zur Gruppe über Wissen sucht, aber innerlich Distanz hält – eine Mischung aus Teilhabe und Rückzug. Sie kann stundenlang über ein Thema sprechen, ohne je zu erwähnen, wie leer sie sich dabei innerlich fühlt." },
-          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, tiefe Verbindung, die zumindest an einer Stelle echten Austausch von Kraft und Nähe ermöglicht. Diese eine oder wenige Bindungen können durchaus nährend wirken, auch wenn das breitere soziale Netz fehlt." },
+      { code: "SX5", text: "Auch wenn das breitere soziale Netz fehlt, können die eine oder wenigen Bindungen, die die sexuelle Fünf pflegt, durchaus nährend wirken – sie teilt sich intensiv, aber nur mit sehr wenigen Menschen, eine schmale, tiefe Verbindung, die zumindest an einer Stelle echten Austausch von Kraft und Nähe ermöglicht." },
         ],
       },
       {
@@ -95720,7 +95720,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Erstaunlich beherrscht funktioniert die selbsterhaltende Vier, der Kontratyp, nach außen, während sie innere Gefühlsstürme meist zurückhält – doch genau diese unterdrückte, nie kanalisierte emotionale Intensität kann sich psychosomatisch als ein plötzlich aus dem Takt geratener Herzschlag entladen, wenn der innere Druck irgendwann die äußere Fassade übersteigt." },
           { code: "SO4", text: "Die soziale Vier teilt intensive Gefühle offen mit der Gruppe, lässt niemanden im Unklaren über ihren inneren Zustand – dieser Ausdruck nach außen kann als eine Art Ventil wirken, das dem inneren Chaos zumindest teilweise eine Richtung gibt, auch wenn die zugrunde liegende emotionale Überflutung selbst bestehen bleibt und den eigenen Takt weiterhin gefährdet." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der Beziehung, mit heftigen Ausschlägen zwischen Verschmelzung und Verzweiflung – genau diese dramatischen inneren Wendungen liest die Psychosomatik als naheliegendes Bild für einen Herzrhythmus, der in emotional zugespitzten Momenten seinen geordneten Takt verliert und ins Chaotische kippt." },
+      { code: "SX4", text: "Mit heftigen Ausschlägen zwischen Verschmelzung und Verzweiflung lebt die sexuelle Vier kompromisslose emotionale Intensität in der Beziehung – genau diese dramatischen inneren Wendungen liest die Psychosomatik als naheliegendes Bild für einen Herzrhythmus, der in emotional zugespitzten Momenten seinen geordneten Takt verliert und ins Chaotische kippt." },
         ],
       },
       {
@@ -95728,7 +95728,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Um äußere Reize zu minimieren und die eigenen begrenzten Ressourcen zu schützen, zieht sich die selbsterhaltende Fünf zurück – diese Strategie hilft gegen äußere Überforderung, kann aber innere, gedanklich fortlaufend verarbeitete Reizfülle nicht verhindern: Der Kopf bleibt oft in ständiger, leiser Aktivität, selbst wenn die äußere Welt bereits auf Abstand gehalten wird." },
       { code: "SO5", text: "Oft in mehreren Themengebieten parallel: So sammelt und verarbeitet die soziale Fünf fortlaufend Wissen aus vielen verschiedenen Quellen gleichzeitig – diese kognitive Vielspurigkeit kann sich als ein Zuviel an gleichzeitiger innerer Aktivität niederschlagen, das dem Herzen seinen ruhigen Takt erschwert." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen ausgewählten Menschen – diese Konzentration auf eine schmale, aber tiefe Verbindung kann in besonders intensiven Momenten des Austauschs zu punktuellen inneren Ausschlägen führen, bleibt aber insgesamt fokussierter als die breite Zerstreuung anderer Subtypen." },
+      { code: "SX5", text: "Auf eine schmale, aber tiefe Verbindung konzentriert sich die sexuelle Fünf, öffnet sich intensiv, aber nur gegenüber sehr wenigen ausgewählten Menschen – das kann in besonders intensiven Momenten des Austauschs zu punktuellen inneren Ausschlägen führen, bleibt aber insgesamt fokussierter als die breite Zerstreuung anderer Subtypen." },
         ],
       },
       {
@@ -95813,7 +95813,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Statt einen Ausdruck zu finden, kann sich das intensive innere Leid, das die selbsterhaltende Vier, der Kontratyp, meist zäh und nach außen kontrolliert trägt, körperlich als ein Schmerz zeigen, der genau dann auftritt, wenn die innere Anspannung eine bestimmte Schwelle überschreitet." },
           { code: "SO4", text: "Anders als viele andere Subtypen hält die soziale Vier ihre Belastungsgrenze nicht geheim – sie spricht über Erschöpfung, zeigt sich verletzlich vor der Gruppe, findet darin zumindest teilweise ein Ventil. Der Ausdruck der eigenen emotionalen Intensität kann helfen, die innere Belastung nicht ausschließlich körperlich austragen zu müssen, auch wenn die zugrunde liegende Sehnsucht nach Vollständigkeit bestehen bleibt." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der Beziehung, mit heftigen Ausschlägen zwischen Nähe und Verzweiflung – gerade diese dramatischen inneren Wendungen liest die Psychosomatik als naheliegendes Bild für einen Schmerz, der in emotional zugespitzten Momenten seine eigene, unsichtbare Grenze markiert." },
+      { code: "SX4", text: "Mit heftigen Ausschlägen zwischen Nähe und Verzweiflung lebt die sexuelle Vier kompromisslose emotionale Intensität in der Beziehung – gerade diese dramatischen inneren Wendungen liest die Psychosomatik als naheliegendes Bild für einen Schmerz, der in emotional zugespitzten Momenten seine eigene, unsichtbare Grenze markiert." },
         ],
       },
       {
@@ -95821,7 +95821,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Um die eigenen begrenzten Ressourcen zu schonen, reduziert die selbsterhaltende Fünf äußere Anforderungen so weit wie möglich – diese Strategie funktioniert gegen äußere Überforderung gut, kann aber verhindern, dass die Person überhaupt lernt, wo ihre reale körperliche Belastungsgrenze liegt, weil sie sie so konsequent umgeht." },
       { code: "SO5", text: "Oft in intellektuell fordernden, langen Arbeitsphasen hält sich die soziale Fünf mit ihrem Wissen für die Gruppe verfügbar – diese kognitive Dauerbeanspruchung, ohne ausreichende körperliche Erholung, kann sich als ein Schmerz zeigen, der die geistige Grenze in eine körperliche übersetzt." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – diese fokussierte, aber tiefe Investition kann in besonders intensiven Momenten des Austauschs zu punktuellen Belastungsspitzen führen, bleibt aber insgesamt begrenzter als die breite Überforderung anderer Subtypen." },
+      { code: "SX5", text: "Fokussiert, aber tief investiert sich die sexuelle Fünf, öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – das kann in besonders intensiven Momenten des Austauschs zu punktuellen Belastungsspitzen führen, bleibt aber insgesamt begrenzter als die breite Überforderung anderer Subtypen." },
         ],
       },
       {
@@ -95906,7 +95906,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Ohne es je auszudrücken trägt die selbsterhaltende Vier, der Kontratyp, ihr Leid zäh und stumm – eine über Jahre unausgesprochene Sehnsucht, die nie ein Ventil findet. Dieses fortgesetzte Zurückhalten kann sich körperlich als eine Stauung zeigen: Gefühle, die nie fließen dürfen, wie Blut, das nie zurückfließt." },
           { code: "SO4", text: "Die soziale Vier hält Groll und Enttäuschung selten lange zurück – sie spricht sie aus, trägt sie sichtbar in die Gemeinschaft, statt sie im Verborgenen anzustauen. Dieser regelmäßige Ausdruck kann der reinen körperlichen Stauung zumindest teilweise entgegenwirken, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
-          { code: "SX4", text: "Die sexuelle Vier lebt ihre emotionale Intensität kompromisslos in der Beziehung aus – diese heftigen, aber episodischen Ausschläge zwischen Verschmelzung und Verzweiflung erzeugen eher punktuelle innere Anspannung als eine gleichmäßig über Jahre akkumulierte Stauung." },
+      { code: "SX4", text: "Zwischen Verschmelzung und Verzweiflung schwankt die kompromisslose emotionale Intensität, die die sexuelle Vier in der Beziehung auslebt – diese heftigen, aber episodischen Ausschläge erzeugen eher punktuelle innere Anspannung als eine gleichmäßig über Jahre akkumulierte Stauung." },
         ],
       },
       {
@@ -95914,7 +95914,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Auch die eigene Erleichterung fällt unter das Minimieren, das die selbsterhaltende Fünf sich auferlegt: Sie zieht sich zurück und hält Bedürfnisse, auch emotionale, konsequent zurück. Sie erlaubt sich selten, sich fallenzulassen oder loszulassen, weil das wie Kontrollverlust wirkt. Ein Rückfluss, der strukturell nicht vorgesehen ist, passt zu diesem Muster besonders genau." },
       { code: "SO5", text: "Ohne sich je wirklich damit zufrieden zu geben, sammelt die soziale Fünf fortlaufend Wissen an – dieses endlose intellektuelle Anhäufen, ohne inneren Abschluss, kann sich als ein Stau ohne Entlastung niederschlagen." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen, tiefen Verbindung findet zumindest an einer Stelle echter emotionaler Austausch und damit auch Erleichterung statt, anders als bei der breiteren Zurückhaltung der anderen Fünf-Varianten." },
+      { code: "SX5", text: "Anders als bei der breiteren Zurückhaltung der anderen Fünf-Varianten findet innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt, zumindest an einer Stelle echter emotionaler Austausch und damit auch Erleichterung statt." },
         ],
       },
       {
@@ -95999,7 +95999,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Aus einem lebendigen, fließenden Gefühl kann eine feste, erstarrte innere Blockade werden, wenn die selbsterhaltende Vier, der Kontratyp, ihr inneres Leid über Jahre zurückhält, ohne es je auszudrücken – eine Blockade, die nie die Chance bekam, sich zu lösen, weil sie nie nach außen durfte." },
           { code: "SO4", text: "Wo andere Subtypen ihr Leid stumm mit sich herumtragen, bringt die soziale Vier es fortlaufend zur Sprache, macht es zum Teil ihrer sozialen Präsenz – dieser Ausdruck nach außen kann verhindern, dass sich das Gefühl zu einer völlig unbeweglichen inneren Blockade verfestigt, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, mit heftigen Ausschlägen zwischen Nähe und Verzweiflung – in besonders zugespitzten Momenten kann sich diese Intensität kurzzeitig zu völliger emotionaler Erstarrung verdichten, bevor sie sich wieder löst." },
+      { code: "SX4", text: "In besonders zugespitzten Momenten kann sich die emotionale Intensität, mit der die sexuelle Vier zwischen Nähe und Verzweiflung schwankt, kurzzeitig zu völliger emotionaler Erstarrung verdichten, bevor sie sich wieder löst." },
         ],
       },
       {
@@ -96007,7 +96007,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Über Jahre kann ein anfangs schützender Rückzug zu einer festen, kaum mehr auflösbaren inneren Isolation erstarren – so zieht sich die selbsterhaltende Fünf konsequent zurück und hält Kontakt wie Bedürfnisse auf ein Minimum, selbst dann, wenn Nähe eigentlich möglich wäre." },
       { code: "SO5", text: "Zunehmend verschanzt sich die soziale Fünf hinter ihrem Wissen und hält emotionale Nähe auf Distanz – diese intellektuelle Position kann sich über die Zeit zu einer starren, kaum mehr beweglichen Haltung verfestigen, die echten Austausch erschwert." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung bleibt echte Bewegung und echter Austausch meist erhalten, was der vollständigen Erstarrung der anderen Fünf-Varianten entgegenwirkt." },
+      { code: "SX5", text: "Echte Bewegung und echter Austausch bleiben innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt, meist erhalten – was der vollständigen Erstarrung der anderen Fünf-Varianten entgegenwirkt." },
         ],
       },
       {
@@ -96092,7 +96092,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Diese fortgesetzte Verleugnung einer eigentlich sehr lebendigen emotionalen Welt entsteht, wenn die selbsterhaltende Vier, der Kontratyp, intensives inneres Leid über Jahre zäh und stumm trägt, ohne es je auszudrücken. Sie kann sich als aufgestaute Fülle zeigen, die sich, wenn sie sich löst, mit besonderer Wucht Bahn bricht, weil sie nie einen anderen Ausweg gefunden hat." },
           { code: "SO4", text: "Die soziale Vier stellt ihr Leiden bewusst zur Schau, sucht in der Gruppe Resonanz für ihren Schmerz – dieses fortlaufende Ventil kann helfen, die innere emotionale Fülle über die Jahre eher abzuleiten als anzustauen, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der Beziehung, mit heftigen Ausschlägen zwischen Verschmelzung und Verzweiflung – diese dramatischen, aber ausgelebten Wendungen entladen sich eher fortlaufend als sich über Jahrzehnte zu einer einzigen großen Fülle aufzustauen." },
+      { code: "SX4", text: "Dramatisch, aber ausgelebt: So entladen sich die Wendungen der kompromisslosen emotionalen Intensität, mit der die sexuelle Vier zwischen Verschmelzung und Verzweiflung schwankt, eher fortlaufend als sich über Jahrzehnte zu einer einzigen großen Fülle aufzustauen." },
         ],
       },
       {
@@ -96100,7 +96100,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Nicht nur Bedürfnisse, auch Gedanken und Gefühle hält die selbsterhaltende Fünf konsequent für sich, zieht sich radikal zurück – eine über Jahre nie geteilte innere Welt, die sich als aufgestaute Fülle ansammeln kann, ohne dass je jemand von ihrer Existenz erfährt." },
       { code: "SO5", text: "Hinter intellektuellem Wissen hält die soziale Fünf emotionale Nähe auf Distanz – diese fortgesetzte Trennung von Denken und Fühlen kann über Jahre zu einer inneren Fülle führen, die sich der bewussten Wahrnehmung weitgehend entzieht, bis sie sich unvermittelt zeigt." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen, tiefen Verbindung findet zumindest an einer Stelle echter Austausch statt, was der vollständigen inneren Aufstauung der anderen Fünf-Varianten entgegenwirkt." },
+      { code: "SX5", text: "Zumindest an einer Stelle findet echter Austausch statt innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen inneren Aufstauung der anderen Fünf-Varianten entgegenwirkt." },
         ],
       },
       {
@@ -96185,7 +96185,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Die Energie, die es kostet, inneres Leid ständig zu verbergen, kann der selbsterhaltenden Vier, dem Kontratyp, an anderer Stelle fehlen: der Kraft, sich selbst mit Nachdruck in der Welt zu behaupten, während sie nach außen erstaunlich beherrscht funktioniert." },
           { code: "SO4", text: "Die soziale Vier bezieht einen Teil ihrer Identität aus dem sichtbar gemachten Leid – diese Identifikation mit dem eigenen Schmerz kann paradoxerweise Energie binden, die für eine kraftvolle Selbstbehauptung im Alltag fehlt, weil der Fokus stärker auf dem Ausdruck des Leids liegt als auf dem eigenen Antrieb." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – diese Intensität selbst ist eine Form von Kraft, auch wenn sie sich nicht als stabiler, gleichmäßiger Antrieb zeigt, sondern in heftigen Wellen zwischen Aufschwung und Erschöpfung." },
+      { code: "SX4", text: "Diese Intensität selbst ist eine Form von Kraft, auch wenn sie sich nicht als stabiler, gleichmäßiger Antrieb zeigt, sondern in heftigen Wellen zwischen Aufschwung und Erschöpfung: So lebt die sexuelle Vier kompromisslose emotionale Intensität." },
         ],
       },
       {
@@ -96193,7 +96193,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Bewusst reduziert die selbsterhaltende Fünf ihren Energieverbrauch, minimiert Bedürfnisse und äußere Reize – diese Strategie schont knappe Ressourcen, kann aber gleichzeitig bedeuten, dass der Körper sich an ein dauerhaft niedriges Energieniveau gewöhnt, das dann auch dort fehlt, wo tatsächlich Kraft gebraucht würde." },
       { code: "SO5", text: "Auch wenn sie äußerlich an der Gruppe teilnimmt, zieht sich die soziale Fünf innerlich hinter ihr Wissen zurück – diese Distanzierung von echtem emotionalem Engagement kann dazu führen, dass ihr die Energie fehlt, sich mit vollem Nachdruck für die eigene Position einzusetzen." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung kann durchaus lebendige Energie fließen, was den chronischen Kraftmangel der anderen Fünf-Varianten hier abmildert." },
+      { code: "SX5", text: "Durchaus lebendige Energie kann innerhalb der schmalen Verbindung fließen, die die sexuelle Fünf pflegt – was den chronischen Kraftmangel der anderen Fünf-Varianten hier abmildert." },
         ],
       },
       {
@@ -96278,7 +96278,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Nie auszudrücken, was eigentlich gefühlt wird: An diesem immer gleichen inneren Muster hält die selbsterhaltende Vier, der Kontratyp, über Jahre unverändert fest. Es kann sich als eine Rigidität zeigen, die sich in mangelnder Flexibilität auch auf körperlicher Ebene niederschlägt." },
           { code: "SO4", text: "Die soziale Vier hält an keiner starren Rolle fest, zeigt sich der Gruppe mal verletzlich, mal kämpferisch, je nachdem, was die Situation verlangt – diese Beweglichkeit im emotionalen Ausdruck kann der starren, immer gleichen Wiederholung entgegenwirken, die für Arthrose besonders typisch ist." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, die sich von Beziehung zu Beziehung, von Moment zu Moment stark verändert – diese hohe emotionale Variabilität steht dem starren, wiederholten Muster entgegen, das die Arthrose psychosomatisch besonders kennzeichnet." },
+      { code: "SX4", text: "Von Beziehung zu Beziehung, von Moment zu Moment stark verändert sich die kompromisslose emotionale Intensität der sexuellen Vier – diese hohe emotionale Variabilität steht dem starren, wiederholten Muster entgegen, das die Arthrose psychosomatisch besonders kennzeichnet." },
         ],
       },
       {
@@ -96286,7 +96286,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Wenig Bewegung, wenig Variation über Jahrzehnte: So zieht sich die selbsterhaltende Fünf in dieselben, minimalistischen Routinen zurück, verändert wenig, meidet neue Anforderungen. Diese über die Zeit unveränderte Lebensweise passt besonders genau zum Bild eines Gelenks, das sich durch immer gleiche, nie variierte Muster abnutzt." },
       { code: "SO5", text: "Ohne sie durch neue körperliche oder emotionale Erfahrungen zu ergänzen, wiederholt die soziale Fünf über Jahre dasselbe intellektuelle Terrain, dieselben Denkmuster – diese einseitige, unveränderte Ausrichtung kann sich als Rigidität auch körperlich zeigen." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen, aber lebendigen Verbindung bleibt zumindest an einer Stelle Bewegung und Veränderung erhalten, was der vollständigen Erstarrung der anderen Fünf-Varianten entgegenwirkt." },
+      { code: "SX5", text: "Zumindest an einer Stelle bleiben Bewegung und Veränderung erhalten innerhalb der schmalen, aber lebendigen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen Erstarrung der anderen Fünf-Varianten entgegenwirkt." },
         ],
       },
       {
@@ -96371,7 +96371,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Ein Rücken, der sich unter über Jahre unausgesprochener Sehnsucht buchstäblich krümmt: So trägt die selbsterhaltende Vier, der Kontratyp, intensives inneres Leid zäh und stumm, ohne es je auszudrücken. Das kann psychosomatisch als eines der plausibelsten Bilder für diesen niemals abgelegten emotionalen Druck gelesen werden." },
           { code: "SO4", text: "Die soziale Vier spricht offen über die Lasten, die sie trägt, statt sie schweigend mit sich herumzuschleppen – dieser Ausdruck nach außen kann als Ventil wirken, das der reinen körperlichen Rückenlast zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – diese heftigen, aber ausgelebten Ausschläge zwischen Nähe und Verzweiflung erzeugen eher punktuelle innere Anspannung als eine gleichmäßig über Jahre akkumulierte Rückenlast." },
+      { code: "SX4", text: "Heftig, aber ausgelebt: So zeigen sich die Ausschläge zwischen Nähe und Verzweiflung, die die kompromisslose emotionale Intensität der sexuellen Vier prägen – sie erzeugen eher punktuelle innere Anspannung als eine gleichmäßig über Jahre akkumulierte Rückenlast." },
         ],
       },
       {
@@ -96379,7 +96379,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Ohne je um Unterstützung zu bitten, trägt die selbsterhaltende Fünf ihre Sorgen allein und zieht sich zurück – diese konsequente Selbstisolation, gerade in Bezug auf emotionale Lasten, passt zum Bild eines Rückens, der eine Bürde trägt, die nie geteilt wurde." },
       { code: "SO5", text: "Hinter intellektueller Distanz verbirgt die soziale Fünf die eigene innere Last, hält sich mit ihrem Wissen für die Gruppe verfügbar – dieses ständige Zurückhalten kann sich körperlich als Rückenschmerz zeigen, wo verdrängte Anspannung sich niederschlägt." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung kann zumindest an einer Stelle echte Entlastung stattfinden, was der vollständigen Isolation der anderen Fünf-Varianten entgegenwirkt." },
+      { code: "SX5", text: "Zumindest an einer Stelle kann echte Entlastung stattfinden innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen Isolation der anderen Fünf-Varianten entgegenwirkt." },
         ],
       },
       {
@@ -96464,7 +96464,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Nie nach außen ausgesprochen, sondern gegen sich selbst gerichtet: So hält die selbsterhaltende Vier, der Kontratyp, ihr Leid zurück und richtet ihre Enttäuschung über die eigene vermeintliche Unzulänglichkeit gegen sich selbst. Diese Selbstverurteilung passt besonders genau zum Bild eines Immunsystems, das sich gegen den eigenen Körper wendet." },
           { code: "SO4", text: "Die soziale Vier richtet ihre emotionale Intensität eher nach außen als konsequent gegen sich selbst, spricht ihr Leiden offen aus, statt es innerlich zu verurteilen – dieser Ausdruck kann den vollständigen Selbstangriff, der bei anderen Vier-Varianten möglich ist, etwas abmildern, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, die sich stark nach außen richtet, in die Beziehung – diese Externalisierung steht dem konsequent nach innen gerichteten Selbstangriff entgegen, der für rheumatoide Arthritis psychosomatisch besonders typisch ist." },
+      { code: "SX4", text: "Stark nach außen, in die Beziehung gerichtet ist die kompromisslose emotionale Intensität, die die sexuelle Vier lebt – diese Externalisierung steht dem konsequent nach innen gerichteten Selbstangriff entgegen, der für rheumatoide Arthritis psychosomatisch besonders typisch ist." },
         ],
       },
       {
@@ -96472,7 +96472,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Mit derselben Härte, mit der sie äußere Zumutungen abwehrt, behandelt die selbsterhaltende Fünf oft auch die eigenen emotionalen Bedürfnisse – sie zieht sich radikal zurück. Diese innere Feindseligkeit gegenüber der eigenen Verletzlichkeit passt zum Bild eines Systems, das sich selbst als Bedrohung behandelt." },
       { code: "SO5", text: "Auch sich selbst gegenüber hält die soziale Fünf emotionale Bedürftigkeit hinter intellektueller Distanz auf Abstand – diese fortgesetzte Selbstverleugnung kann sich körperlich als ein System zeigen, das sich selbst konsequent abwehrt." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung kann zumindest an einer Stelle echte Selbstakzeptanz stattfinden, was der vollständigen inneren Abwehr der anderen Fünf-Varianten entgegenwirkt." },
+      { code: "SX5", text: "Zumindest an einer Stelle kann echte Selbstakzeptanz stattfinden innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen inneren Abwehr der anderen Fünf-Varianten entgegenwirkt." },
         ],
       },
       {
@@ -96557,7 +96557,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Über Jahre unbemerkt zehrt eine tiefe, nie gestillte Sehnsucht nach Vollständigkeit an der Substanz der selbsterhaltenden Vier, dem Kontratyp, die nach außen tapfer funktioniert. Dieses stille, nie geäußerte Fehlen kann sich als eine langsam schwindende innere Dichte zeigen, ganz ähnlich der Osteoporose, die sich ebenfalls erst spät zu erkennen gibt." },
           { code: "SO4", text: "Die soziale Vier verbirgt ihre innere Leere nicht, sondern zeigt sie – dieser fortlaufende, oft unbewusst wirksame Ausdruck erzeugt zumindest eine Form von Aufmerksamkeit und Zuwendung von außen, was der vollständigen, unbemerkten Auszehrung anderer Vier-Varianten etwas entgegenwirkt." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, ein lebendiger, wenn auch wechselhafter Austausch mit dem geliebten Menschen – diese emotionale Lebendigkeit kann eine gewisse innere Nährung ermöglichen, die der stillen Auszehrung anderer Subtypen entgegensteht." },
+      { code: "SX4", text: "Ein lebendiger, wenn auch wechselhafter Austausch mit dem geliebten Menschen prägt die kompromisslose emotionale Intensität, die die sexuelle Vier lebt – diese emotionale Lebendigkeit kann eine gewisse innere Nährung ermöglichen, die der stillen Auszehrung anderer Subtypen entgegensteht." },
         ],
       },
       {
@@ -96565,7 +96565,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Nicht nur äußere Bedürfnisse, auch die eigene körperliche Selbstfürsorge minimiert die selbsterhaltende Fünf – ein Leben in bewusster Reduktion, das über Jahrzehnte unbemerkt an der eigenen Substanz zehren kann, ganz im Bild der stillen, lange unbemerkten Osteoporose." },
       { code: "SO5", text: "Vernachlässigt bleibt oft die körperliche Ebene der Selbstfürsorge, während die soziale Fünf fortlaufend intellektuelles Wissen sammelt – dieses einseitige Fokussieren auf den Kopf, unter Vernachlässigung des Körpers, kann sich als schwindende körperliche Substanz zeigen." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung kann durchaus echte Nährung stattfinden, was der vollständigen Auszehrung der anderen Fünf-Varianten entgegenwirkt." },
+      { code: "SX5", text: "Durchaus echte Nährung kann stattfinden innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen Auszehrung der anderen Fünf-Varianten entgegenwirkt." },
         ],
       },
       {
@@ -96650,7 +96650,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Nie an einer konkreten Stelle erkennbar: So hält die selbsterhaltende Vier, der Kontratyp, intensive innere Gefühlsstürme zurück. Diese über den ganzen Körper diffundierte, nie lokalisierte emotionale Wucht passt besonders genau zum Bild der Fibromyalgie: ein Schmerz, der überall spürbar ist, weil er nirgends explizit ausgesprochen werden durfte." },
           { code: "SO4", text: "Die soziale Vier benennt ihren Schmerz konkret, statt ihn diffus im Körper zu verteilen – dieser fokussierte, klar artikulierte Ausdruck steht dem diffusen, über den ganzen Körper verteilten Schmerzmuster entgegen, das eher bei weniger ausgedrückten Formen von Leid auftritt." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der Beziehung – diese fokussierte, wenn auch heftige Intensität konzentriert sich auf einen Bereich, statt sich diffus über den ganzen Körper zu verteilen." },
+      { code: "SX4", text: "Fokussiert, wenn auch heftig konzentriert sich die kompromisslose emotionale Intensität, die die sexuelle Vier in der Beziehung lebt, auf einen Bereich, statt sich diffus über den ganzen Körper zu verteilen." },
         ],
       },
       {
@@ -96658,7 +96658,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Innerlich verarbeitet die selbsterhaltende Fünf oft fortlaufend eine Fülle an Eindrücken, ohne diese je an einer konkreten Stelle zu entladen, während sie sich äußerlich zurückzieht, um Reize zu minimieren. Dieses diffuse, im ganzen System verteilte Verarbeiten passt zum Bild eines Schmerzes, der überall gleichzeitig auftritt, ohne dass sich eine einzelne Quelle finden lässt." },
       { code: "SO5", text: "Über viele Themen und Denkrichtungen verteilt verarbeitet die soziale Fünf fortlaufend Wissen aus vielen verschiedenen Quellen gleichzeitig – diese kognitive Vielspurigkeit kann sich als eine diffuse, nirgends konzentrierte Überlastung des gesamten Systems zeigen." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen ausgewählten Menschen – diese Konzentration auf eine schmale, tiefe Verbindung steht der diffusen, über viele Bereiche verteilten Reizverarbeitung entgegen." },
+      { code: "SX5", text: "Auf eine schmale, tiefe Verbindung konzentriert sich die sexuelle Fünf, öffnet sich intensiv, aber nur gegenüber sehr wenigen ausgewählten Menschen – das steht der diffusen, über viele Bereiche verteilten Reizverarbeitung entgegen." },
         ],
       },
       {
@@ -96743,7 +96743,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Oft mit angespannten, kontrollierten Händen funktioniert die selbsterhaltende Vier, der Kontratyp, nach außen beherrscht, während sie an ihrem stillen inneren Leid festhält – dieses über Jahre unausgesprochene, aber körperlich festgehaltene Muster kann sich als eingeengte Handlungsfähigkeit zeigen." },
           { code: "SO4", text: "Die soziale Vier trägt inneren Schmerz vor allem als emotionalen, nicht als mechanischen Ausdruck in die Gruppe – dieser primär sprachlich-emotionale statt körperliche Ausdruck steht der rein mechanischen Überlastung, die für Karpaltunnelsyndrom typisch ist, eher entgegen." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – diese emotionale, nicht primär körperlich-mechanische Intensität erzeugt seltener die Art wiederholter Handbelastung, die für das Karpaltunnelsyndrom ursächlich ist." },
+      { code: "SX4", text: "Emotional, nicht primär körperlich-mechanisch: So ist die kompromisslose Intensität, die die sexuelle Vier lebt, geartet – sie erzeugt seltener die Art wiederholter Handbelastung, die für das Karpaltunnelsyndrom ursächlich ist." },
         ],
       },
       {
@@ -96751,7 +96751,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Stundenlang vertieft sich die selbsterhaltende Fünf in konzentrierte, wiederholte Handarbeit – Lesen, Schreiben, feine manuelle Tätigkeiten –, ohne die eigenen körperlichen Grenzen zu beachten. Diese fokussierte, aber lange fortgesetzte Belastung einer einzelnen Körperregion passt zum mechanischen Entstehungsmuster des Karpaltunnelsyndroms." },
       { code: "SO5", text: "Oft in langen Phasen konzentrierter Schreibarbeit verarbeitet die soziale Fünf fortlaufend Wissen – diese wiederholte, monotone Belastung der Hände ohne ausreichende Pausen kann sich als eingeengte Handlungsfähigkeit zeigen." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – diese emotionale, nicht primär mechanische Fokussierung erzeugt seltener die Art körperlicher Überlastung, die für das Karpaltunnelsyndrom typisch ist." },
+      { code: "SX5", text: "Emotional, nicht primär mechanisch fokussiert sich die sexuelle Fünf, öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – diese Fokussierung erzeugt seltener die Art körperlicher Überlastung, die für das Karpaltunnelsyndrom typisch ist." },
         ],
       },
       {
@@ -96836,7 +96836,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Diese lange, stille Ansammlung, die nie einen Ausweg findet, entsteht, wenn die selbsterhaltende Vier, der Kontratyp, intensives inneres Leid über Jahre zurückhält, ohne es je auszudrücken. Sie passt besonders genau zum Bild der Gicht: eine Intensität, die sich, wenn sie sich löst, scharf und unübersehbar entlädt." },
           { code: "SO4", text: "Die soziale Vier lässt aufgestaute Enttäuschung selten lange in sich gären, sondern bringt sie zeitnah in der Gruppe zur Sprache – dieser regelmäßige Ausdruck steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
-          { code: "SX4", text: "Die sexuelle Vier lebt ihre emotionale Intensität kompromisslos und unmittelbar aus – diese direkte, fortlaufende Entladung steht der langen Ansammlung entgegen, die für die Gicht psychosomatisch typisch ist." },
+      { code: "SX4", text: "Direkt und fortlaufend entlädt sich die kompromisslose, unmittelbar ausgelebte emotionale Intensität der sexuellen Vier – diese direkte Entladung steht der langen Ansammlung entgegen, die für die Gicht psychosomatisch typisch ist." },
         ],
       },
       {
@@ -96844,7 +96844,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Auch Unmut und Ärger hält die selbsterhaltende Fünf konsequent für sich und zieht sich zurück – diese über lange Zeit im Verborgenen angesammelte, nie geäußerte Spannung passt zum Bild einer Intensität, die sich, wenn sie sich löst, unerwartet scharf entlädt." },
       { code: "SO5", text: "Statt sie direkt zu äußern, hält die soziale Fünf Frustration über die Gruppe oft hinter intellektueller Distanz zurück – diese lange Ansammlung ohne Entladung passt zum psychosomatischen Bild der Gicht." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung findet zumindest an einer Stelle echter emotionaler Austausch statt, was der vollständigen, langen Ansammlung entgegenwirkt." },
+      { code: "SX5", text: "Zumindest an einer Stelle findet echter emotionaler Austausch statt innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen, langen Ansammlung entgegenwirkt." },
         ],
       },
       {
@@ -96929,7 +96929,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Mit angespannten, kontrollierten Händen funktioniert die selbsterhaltende Vier, der Kontratyp, nach außen beherrscht und hält über Jahre dieselbe innere Anspannung fest. Diese unveränderte, nie gelöste körperliche Haltung passt zum Bild eines Sehnenansatzes, der unter ständiger, nie variierter Anspannung erschöpft ist." },
           { code: "SO4", text: "Die soziale Vier passt ihre emotionale Selbstdarstellung an das jeweilige Publikum an, wiederholt selten dieselbe Geste zweimal genau gleich – diese Beweglichkeit im Ausdruck kann der starren, immer gleichen körperlichen Anspannung entgegenwirken, die für den Tennisarm besonders typisch ist." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, die sich von Moment zu Moment stark verändert – diese hohe Variabilität steht dem starren, wiederholten Muster entgegen, das den Tennisarm psychosomatisch kennzeichnet." },
+      { code: "SX4", text: "Von Moment zu Moment stark verändert sich die kompromisslose emotionale Intensität der sexuellen Vier – diese hohe Variabilität steht dem starren, wiederholten Muster entgegen, das den Tennisarm psychosomatisch kennzeichnet." },
         ],
       },
       {
@@ -96937,7 +96937,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Über Jahre vertieft sich die selbsterhaltende Fünf in dieselbe konzentrierte, oft manuelle Beschäftigung – Lesen, Schreiben, feine repetitive Tätigkeiten –, ohne die eigenen körperlichen Grenzen zu beachten. Diese monotone, nie variierte Belastung einer einzelnen Körperregion passt besonders genau zum mechanischen Entstehungsmuster des Tennisarms." },
       { code: "SO5", text: "Ohne sie durch körperliche Variation zu ergänzen, wiederholt die soziale Fünf über Jahre dieselben angespannten Denk- und Schreibbewegungen – diese einseitige, unveränderte Belastung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – diese emotionale, nicht primär mechanisch-repetitive Fokussierung erzeugt seltener die Art körperlicher Überlastung, die für den Tennisarm typisch ist." },
+      { code: "SX5", text: "Emotional, nicht primär mechanisch-repetitiv fokussiert sich die sexuelle Fünf, öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – diese Fokussierung erzeugt seltener die Art körperlicher Überlastung, die für den Tennisarm typisch ist." },
         ],
       },
       {
@@ -97022,7 +97022,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Die Sehnsucht nach Umarmung und Verbindung bleibt bei der selbsterhaltenden Vier, dem Kontratyp, oft unerfüllt – sie hält den eigenen Körper unbewusst angespannt, um das Leid nicht zu zeigen. Diese unaufgelöste Spannung zwischen Sehnsucht und Kontrolle kann sich genau an der Schulter zeigen, jenem Gelenk, das für Umarmung zuständig wäre." },
           { code: "SO4", text: "Die soziale Vier drückt ihre Sehnsucht nach Nähe offen aus und sucht durchaus Berührung und Verbindung – dieser Ausdruck steht der stillen, nie gelösten Erstarrung entgegen, die für die Frozen Shoulder besonders typisch ist." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale und körperliche Intensität in der Beziehung, mit viel direkter Nähe – diese ausgelebte Intensität steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist." },
+      { code: "SX4", text: "Mit viel direkter Nähe lebt die sexuelle Vier kompromisslose emotionale und körperliche Intensität in der Beziehung – diese ausgelebte Intensität steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist." },
         ],
       },
       {
@@ -97030,7 +97030,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Konsequent auf Abstand hält die selbsterhaltende Fünf auch körperliche Nähe und zieht sich radikal zurück – ein Körper, der sich über Jahre daran gewöhnt hat, Umarmung zu vermeiden, kann sich genau an der Schulter, dem Ort der Umarmung, als Erstarrung zeigen, die sich selbst dann nicht mehr löst, wenn Nähe eigentlich möglich wäre." },
       { code: "SO5", text: "Hinter intellektueller Distanz hält die soziale Fünf emotionale und körperliche Nähe auf Abstand – diese fortgesetzte Trennung kann sich über Jahre als eine Versteifung der Schulter zeigen, die für Offenheit zuständig wäre." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung bleibt echte körperliche Nähe erhalten, was der vollständigen Erstarrung der anderen Fünf-Varianten entgegenwirkt." },
+      { code: "SX5", text: "Echte körperliche Nähe bleibt erhalten innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen Erstarrung der anderen Fünf-Varianten entgegenwirkt." },
         ],
       },
       {
@@ -97115,7 +97115,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Bis ein einziger, oft nichtiger Anlass genügt, damit sich lange zurückgehaltene Anspannung körperlich Bahn bricht: So trägt die selbsterhaltende Vier, der Kontratyp, intensives inneres Leid zäh und stumm, ohne es je auszudrücken. Dieses plötzliche, blitzartige Einschießen nach langer stiller Ansammlung passt besonders genau zum Bild des Hexenschusses." },
           { code: "SO4", text: "Die soziale Vier neigt dazu, Anspannung zeitnah zu artikulieren, statt sie über Wochen anzusammeln – dieser regelmäßige Ausdruck steht dem plötzlichen, blitzartigen Einschießen entgegen, das für den Hexenschuss besonders typisch ist." },
-          { code: "SX4", text: "Die sexuelle Vier lebt ihre emotionale Intensität kompromisslos und unmittelbar aus – diese direkte, fortlaufende Entladung steht der langen Ansammlung entgegen, die für den Hexenschuss psychosomatisch typisch ist." },
+      { code: "SX4", text: "Direkt und fortlaufend entlädt sich die kompromisslose, unmittelbar ausgelebte emotionale Intensität der sexuellen Vier – diese direkte Entladung steht der langen Ansammlung entgegen, die für den Hexenschuss psychosomatisch typisch ist." },
         ],
       },
       {
@@ -97123,7 +97123,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Bis ein einziger zusätzlicher Reiz genügt, damit das längst überforderte System plötzlich Einspruch erhebt: So zieht sich die selbsterhaltende Fünf zurück und trägt körperliche wie emotionale Belastung lange allein. Dieses Muster, lange durchzuhalten, ohne je um Hilfe zu bitten, passt zum Bild des plötzlich einschießenden Hexenschusses." },
       { code: "SO5", text: "Lange verborgen hält die soziale Fünf Erschöpfung hinter intellektueller Distanz – wenn diese verdrängte Belastung sich schließlich körperlich zeigt, geschieht dies oft plötzlich und unerwartet." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung findet zumindest an einer Stelle echte Entlastung statt, was der vollständigen, langen Ansammlung entgegenwirkt." },
+      { code: "SX5", text: "Zumindest an einer Stelle findet echte Entlastung statt innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen, langen Ansammlung entgegenwirkt." },
         ],
       },
       {
@@ -97208,7 +97208,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE4", text: "Oft mit denselben angespannten, kontrollierten Handbewegungen hält die selbsterhaltende Vier, der Kontratyp, über Jahre dieselbe innere Anspannung fest. Diese unveränderte, nie gelöste körperliche Haltung passt zum Bild einer Sehnenscheide, die unter ständiger, nie variierter Anspannung erschöpft." },
           { code: "SO4", text: "Die soziale Vier wechselt zwischen verschiedenen Formen des Ausdrucks – mal Worte, mal Gestik, mal Rückzug ins Künstlerische –, statt eine einzige Bewegung endlos zu wiederholen. Diese Beweglichkeit kann der starren, immer gleichen Anspannung entgegenwirken, die für die Sehnenscheidenentzündung besonders typisch ist." },
-          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, die sich von Moment zu Moment stark verändert – diese hohe Variabilität steht dem starren, wiederholten Muster entgegen, das die Sehnenscheidenentzündung psychosomatisch kennzeichnet." },
+      { code: "SX4", text: "Von Moment zu Moment stark verändert sich die kompromisslose emotionale Intensität der sexuellen Vier – diese hohe Variabilität steht dem starren, wiederholten Muster entgegen, das die Sehnenscheidenentzündung psychosomatisch kennzeichnet." },
         ],
       },
       {
@@ -97216,7 +97216,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Ohne die eigenen körperlichen Grenzen zu beachten, vertieft sich die selbsterhaltende Fünf über Jahre in dieselbe konzentrierte, oft manuelle Beschäftigung – Lesen, Schreiben, repetitive feine Tätigkeiten. Diese monotone, nie variierte Belastung passt besonders genau zum mechanischen Entstehungsmuster der Sehnenscheidenentzündung." },
       { code: "SO5", text: "Ohne sie durch körperliche Variation zu ergänzen, wiederholt die soziale Fünf über Jahre dieselben angespannten Schreibbewegungen – diese einseitige, unveränderte Belastung kann sich als eine entzündete Schutzhülle zeigen." },
-          { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – diese emotionale, nicht primär mechanisch-repetitive Fokussierung erzeugt seltener die Art körperlicher Überlastung, die für die Sehnenscheidenentzündung typisch ist." },
+      { code: "SX5", text: "Emotional, nicht primär mechanisch-repetitiv fokussiert sich die sexuelle Fünf, öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – diese Fokussierung erzeugt seltener die Art körperlicher Überlastung, die für die Sehnenscheidenentzündung typisch ist." },
         ],
       },
       {
