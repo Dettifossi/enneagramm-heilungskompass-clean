@@ -71380,10 +71380,10 @@ function elizabethBarrettBrowningKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Über zwanzig Jahre fast ohne das eigene Zimmer:</strong>
+        <p class="vb-intro"><strong>a) Über zwanzig Jahre kaum aus dem eigenen Zimmer heraus:</strong>
         Nach dem Tod ihres Bruders verschärfte sich ihre Isolation im Elternhaus in der Londoner
-        Wimpole Street erheblich – Zeitgenossen beschrieben sie als eine Frau, die kaum noch das
-        Bett verließ und Besuch fast nur noch liegend empfing.</p>
+        Wimpole Street erheblich – Zeitgenossen beschrieben sie als eine Frau, die ihr Zimmer
+        kaum noch verließ, das Bett fast nie und Besuch fast nur noch liegend empfing.</p>
         <p class="vb-intro"><strong>b) Ein Leben, das sich zunehmend im Halbschlaf abspielte:</strong>
         Die tägliche Opiumdosis dämpfte nicht nur den Schmerz, sondern auch die Wachheit – Barrett
         selbst beschrieb in Briefen Phasen benommener Müdigkeit, die sie von ihrer Umwelt
