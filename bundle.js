@@ -69851,7 +69851,8 @@ function ladyDianaKrankheitsportraetPage() {
         fortbestehende Beziehung zu Camilla Parker Bowles.</p>
         <p class="vb-intro"><strong>b) Ein Muster, das sie selbst als zerstörerisch erkannte:</strong>
         Im Panorama-Interview 1995 nannte Diana die Bulimie selbst "a repetitive pattern which
-        is very destructive to yourself" – ein Kreislauf aus kurzzeitigem Trost und
+        is very destructive to yourself" (›ein sich wiederholendes Muster, das sehr
+        zerstörerisch für einen selbst ist‹) – ein Kreislauf aus kurzzeitigem Trost und
         anschließendem Ekel, den sie über Jahre allein austrug.</p>
         <p class="vb-intro"><strong>c) Eine Fassade, die lange hielt:</strong>
         Nach außen blieb Diana über Jahre die makellos gestylte Prinzessin – während im
@@ -69868,7 +69869,9 @@ function ladyDianaKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) Selbstverletzung als Hilferuf zur falschen Adresse:</strong>
         Diana beschrieb im Panorama-Interview auch Episoden von Selbstverletzung: "you have so
         much pain inside yourself that you try and hurt yourself on the outside because you
-        want help, but it's the wrong help you're asking for."</p>
+        want help, but it's the wrong help you're asking for." (›Man hat so viel Schmerz in
+        sich, dass man versucht, sich selbst von außen zu verletzen, weil man Hilfe will – aber
+        es ist die falsche Hilfe, um die man bittet.‹)</p>
         <p class="vb-intro"><strong>c) Postnatale Depression nach der Geburt Prinz Williams:</strong>
         Diana litt nach der Geburt ihres ersten Sohnes an postnataler Depression – ein
         Zustand, den ihr Umfeld laut ihrer eigenen Aussage als Instabilität deutete, statt ihn
@@ -69880,7 +69883,8 @@ function ladyDianaKrankheitsportraetPage() {
         <p class="vb-intro"><strong>a) Verharmlosung statt Fürsorge:</strong>
         Diana schilderte, aus dem Umfeld von Charles sei durchgeklungen, sie sei "again
         unstable and sick and should be put in a home of some sort ... I was almost an
-        embarrassment" – Pathologisierung statt Unterstützung.</p>
+        embarrassment" (›wieder instabil und krank und sollte irgendwo untergebracht werden
+        ... ich war fast schon eine Peinlichkeit‹) – Pathologisierung statt Unterstützung.</p>
         <p class="vb-intro"><strong>b) 1992: die indirekte erste Öffnung:</strong>
         Mit Andrew Mortons Buch gelangten Bulimie, frühere Verzweiflungsmomente im Palast und
         Charles' Beziehung zu Camilla erstmals an die Öffentlichkeit – ohne dass Diana zu
@@ -69888,7 +69892,8 @@ function ladyDianaKrankheitsportraetPage() {
         <p class="vb-intro"><strong>c) 1995: die eigene Stimme:</strong>
         Im BBC-Panorama-Interview mit Martin Bashir am 3. November 1995 sprach Diana erstmals
         selbst und direkt öffentlich über Bulimie, Selbstverletzung und die Ehe: "There were
-        three of us in this marriage, so it was a bit crowded."</p>
+        three of us in this marriage, so it was a bit crowded." (›Wir waren zu dritt in dieser
+        Ehe, das war etwas eng.‹)</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
