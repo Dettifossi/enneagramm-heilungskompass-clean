@@ -95952,6 +95952,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Krampfadern gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit dem Loslassen und dem Rückfluss von Angesammeltem verhandelt – manche über Dauereinsatz und Kontrolle, andere über stilles Geben, Rastlosigkeit oder ein nie geäußertes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  thrombose: {
+    titel: "Thrombose",
+    kategorie: "herz-kreislauf",
+    icon: "&#129649;",
+    kurz: "Wenn aus einem Stau ein fester, unbeweglicher Block wird.",
+    definition: "Eine Thrombose bezeichnet die Bildung eines Blutgerinnsels (Thrombus) innerhalb eines Blutgefäßes, das den Blutfluss teilweise oder vollständig blockiert. Am häufigsten betroffen sind die tiefen Beinvenen (tiefe Venenthrombose, TVT). Nach dem Virchow-Trias entstehen Thrombosen durch das Zusammenspiel dreier Faktoren: verlangsamter Blutfluss (Stase, etwa durch langes Sitzen, Liegen oder Immobilität), Schädigung der Gefäßwand und eine erhöhte Gerinnungsneigung des Blutes (z. B. durch Hormone, Rauchen, genetische Veranlagung oder Krebserkrankungen). Die größte Gefahr besteht darin, dass sich ein Teil des Gerinnsels löst und über die Blutbahn in die Lunge gelangt – eine Lungenembolie, die lebensbedrohlich sein kann.",
+    symptome: [
+      "Einseitige Schwellung des Beins, oft mit Spannungsgefühl",
+      "Ziehender, dumpfer Schmerz oder Druckgefühl in Wade oder Oberschenkel, der bei Belastung zunimmt",
+      "Überwärmung und Rötung der betroffenen Hautstelle",
+      "Sichtbar verstärkte oberflächliche Venenzeichnung",
+      "Manchmal nur diskrete oder gar keine Symptome, besonders bei kleineren Thrombosen",
+      "Plötzliche Atemnot, stechender Brustschmerz oder Bluthusten als Anzeichen einer möglichen Lungenembolie",
+    ],
+    notfall: "Bei plötzlicher Atemnot, stechendem Brustschmerz, schnellem Herzschlag oder Bluthusten: sofort den Notruf 112 wählen – Verdacht auf eine Lungenembolie. Bei plötzlicher, deutlicher Schwellung, Schmerz, Überwärmung und Rötung eines Beins: zeitnah ärztliche Hilfe aufsuchen. Eine Thrombose sollte nie eigenständig durch Massage oder Bewegung des betroffenen Bereichs behandelt werden – dies kann das Gerinnsel lösen und einen Notfall auslösen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Wo Krampfadern das Bild eines gestauten, aber noch fließenden Rückflusses zeigen, geht die Thrombose einen Schritt weiter: Aus dem Stau wird ein fester, unbeweglicher Block. Der erste Faktor des Virchow-Trias – die Stase, der verlangsamte oder stillstehende Fluss – trägt diese Deutung bereits im medizinischen Fachbegriff selbst. Die Traditionelle Chinesische Medizin beschreibt einen verwandten, weiter fortgeschrittenen Zustand als Blut-Stase (im Unterschied zur bloßen Blut-Stagnation): eine verfestigte Blockade, die oft mit lange gehaltenem, nie gelöstem emotionalem Widerstand in Verbindung gebracht wird. Die Psychosomatik liest in der Thrombose deshalb oft das Bild eines Lebens, einer Entscheidung oder eines Gefühls, das über die reine Stagnation hinaus zu einer festen, unbeweglichen Blockade erstarrt ist.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der zu einem harten, unbeweglichen Block erstarrt",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger über Jahre diszipliniert zurück, ohne ihn je zu lösen – wird diese Kontrolle nicht nur aufrechterhalten, sondern über die Zeit noch verhärtet, liest die Psychosomatik darin ein plausibles Bild für eine Spannung, die sich zu einer festen Blockade verdichtet, statt sich je aufzulösen." },
+          { code: "SO1", text: "Die soziale Eins hält an der Überzeugung fest, dass die Welt korrigiert werden muss – eine unbewegliche moralische Grundhaltung, die sich über Jahre verfestigen kann." },
+          { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter aus – dadurch potenziell weniger dauerhafte Verhärtung, mehr punktuelle Entladung." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der sich in völligen Stillstand verhärtet",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei gibt still, ohne je um Anerkennung oder Erleichterung zu bitten – bleibt dieses Muster über Jahrzehnte unverändert bestehen, kann aus dem stetigen Stau ein fester, unbeweglicher Zustand werden, in dem sich nichts mehr bewegt." },
+          { code: "SO2", text: "Die soziale Zwei bleibt permanent verfügbar für die Gemeinschaft – eine Erschöpfung, die sich, wenn sie nie anerkannt wird, zu einem starren, unveränderlichen Muster verfestigen kann." },
+          { code: "SX2", text: "Die sexuelle Zwei investiert intensives Geben in die eine Beziehung – die Belastung zeigt sich hier eher episodisch als in einer dauerhaften, sich verhärtenden Blockade." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die abrupt zum Stillstand gezwungen wird",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet ununterbrochen weiter – gerade weil Bewegung und Aktivität für sie identitätsstiftend sind, kann eine erzwungene Immobilität (etwa nach einer Operation oder Verletzung) besonders unmittelbar mit dem Risikofaktor Stase in Verbindung gebracht werden." },
+          { code: "SO3", text: "Die soziale Drei bleibt im ständigen Wettbewerbsmodus – ein plötzlicher, erzwungener Stillstand widerspricht ihrem gesamten Selbstverständnis und kann als Extremfall besonders belastend erlebt werden." },
+          { code: "SX3", text: "Die sexuelle Drei optimiert sich permanent im Beziehungskontext – Stillstand wird hier eher als Bedrohung der eigenen Anziehungskraft erlebt denn als körperliches Risiko." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich zu unbeweglichem Schmerz verhärtet",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahre unausgesprochene, nie bewegte Sehnsucht kann sich zu einem starren, unveränderlichen inneren Zustand verhärten." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar – die emotionale Bewegung nach außen wirkt einer inneren Erstarrung eher entgegen als beim Kontratyp." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – heftige, episodische Ausschläge, die Bewegung eher fördern als eine dauerhafte Blockade." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der zum völligen Stillstand wird",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und bewegt sich oft wenig – von den drei Fünfer-Varianten am unmittelbarsten mit dem medizinischen Risikofaktor Immobilität verbunden, da körperliche Bewegungsarmut die Stase im Virchow-Trias direkt begünstigt." },
+          { code: "SO5", text: "Die soziale Fünf hält auch im sozialen Kontext innere Distanz – ein Zustand, der weniger körperliche als geistige Zurückgezogenheit bedeutet." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale Verbindung, die trotz Rückzug Bewegung in der Tiefe ermöglicht." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die den Körper in Erstarrung versetzt",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs reagiert auf wahrgenommene Bedrohung mit Vorsicht und Rückzug – eine Form innerer Erstarrung, die dem Bild eines aus dem Fluss geratenen, blockierten Systems nahekommt." },
+          { code: "SO6", text: "Die soziale Sechs trägt fortlaufend Sorge um das Kollektiv – diese Sorge wird selten offen ausgesprochen oder in Bewegung gebracht." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Erstarrung – dadurch eher episodische Anspannung als eine dauerhafte Blockade." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die durch abrupten Stillstand besonders hart trifft",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über ständige Bewegung, Optionen und Aktivität ab – ausgerechnet lange Phasen der Immobilität (etwa lange Flugreisen, ein wiederkehrendes Muster bei dieser Variante) gelten medizinisch als anerkannter Risikofaktor für Thrombosen." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – die eigene Erschöpfung wird lange nicht als Warnsignal gelesen." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – Rauchen in Kombination mit hormonellen Verhütungsmitteln gilt medizinisch als besonders anerkannter Risikofaktor für Thrombosen." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die sich selbst blockiert, wenn sie erzwungen zum Stillstand kommt",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht hält Kontrolle über die eigenen Ressourcen straff aufrecht – ein erzwungener Stillstand (etwa durch Krankheit oder Operation) widerspricht diesem Selbstbild fundamental und kann besonders belastend erlebt werden." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Führungsspannung für die Gruppe – Stillstand wird hier oft als Versagen der eigenen Schutzfunktion gedeutet." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich in extremen, episodischen Ausschlägen statt in dauerhafter Erstarrung." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die sich zu völligem inneren Stillstand verfestigt",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und Routine – bewegungsarme, gemütliche Gewohnheiten passen in Kombination mit der über Jahrzehnte fortgesetzten Selbstvergessenheit besonders unmittelbar zum Bild einer Stase, die sich über die Zeit verfestigt." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – eine chronische Selbstauslöschung, bei der der eigene innere Zustand über Jahre unbeweglich bleibt." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Systems, das über Jahrzehnte nie eine eigene, unabhängige Bewegung fand." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor Thrombose gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Stillstand, Bewegung und dem Lösen von Blockaden verhandelt – manche über erstarrte Kontrolle, andere über stille Erschöpfung, Rastlosigkeit oder ein nie bewegtes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -95960,7 +96053,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // (Definition, Notfall-Hinweis falls zutreffend, Disclaimer, alle 27 Subtypen). Bis dahin
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["Schlaganfall", "Thrombose", "Niedriger Blutdruck (Hypotonie)"],
+  "herz-kreislauf": ["Schlaganfall", "Niedriger Blutdruck (Hypotonie)"],
   "bewegungsapparat": ["Rückenschmerzen / Bandscheibenvorfall", "Arthrose", "Rheumatoide Arthritis", "Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
