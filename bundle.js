@@ -32704,7 +32704,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Großbritannien", tags:["Wissenschaft"], gender:"f"},
   { route:"beruehmte-elizabeth-barrett-browning", name:"Elizabeth Barrett Browning", added:"2026-08-21", subtyp:"SX9w8",
     heading:"Elizabeth Barrett Browning – Sexueller Typ 9",
-    teaser:"SX9w8 · 1806–1861. Englische Dichterin, jahrzehntelang chronisch krank und im Väterhaus isoliert. Verschmolz ihr Leben radikal mit einem einzigen Menschen – der geheimen Liebe zu Robert Browning – und trotzte dafür der völligen Verstoßung durch den eigenen Vater.",
+    teaser:"SX9w8 · 1806–1861. Englische Dichterin, jahrzehntelang chronisch krank und im Vaterhaus isoliert. Verschmolz ihr Leben radikal mit einem einzigen Menschen – der geheimen Liebe zu Robert Browning – und trotzte dafür der völligen Verstoßung durch den eigenen Vater.",
     land:"Großbritannien", tags:["Literatur"], gender:"f"},
 ];
 
