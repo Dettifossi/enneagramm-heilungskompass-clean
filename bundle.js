@@ -69647,9 +69647,10 @@ function marilynMonroeKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="beruehmte-marilyn-monroe">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um ihr Lebenswerk und ihre Typstruktur im
         Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: eine
-        jahrelang hinter dem makellosen Image verborgene Endometriose, eine eskalierende
-        Schlafmittelabhängigkeit und ein Tod 1962, dessen genaue Umstände bis heute umstritten
-        sind.
+        jahrelang hinter dem makellosen Image verborgene Endometriose (eine chronische, oft
+        sehr schmerzhafte Erkrankung, bei der sich gebärmutterschleimhautähnliches Gewebe
+        außerhalb der Gebärmutter ansiedelt), eine eskalierende Schlafmittelabhängigkeit und
+        ein Tod 1962, dessen genaue Umstände bis heute umstritten sind.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>

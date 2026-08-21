@@ -42715,9 +42715,11 @@ function marilynMonroeKrankheitsportraetPage() {
         <strong>Marilyn Monroe</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-marilyn-monroe">portrait under Famous Personalities</a>
         in this Compass – that page covers her life's work and type structure in general.
-        This portrait is devoted to a chapter barely present there: endometriosis hidden for
-        years behind a flawless image, an escalating dependency on sleeping pills, and a death
-        in 1962 whose exact circumstances remain disputed to this day.
+        This portrait is devoted to a chapter barely present there: endometriosis (a chronic,
+        often very painful condition in which tissue similar to the uterine lining grows
+        outside the uterus) hidden for years behind a flawless image, an escalating
+        dependency on sleeping pills, and a death in 1962 whose exact circumstances remain
+        disputed to this day.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
