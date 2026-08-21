@@ -95354,7 +95354,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug – wenn Distanz selbst zum Risiko wird",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf reduziert ihr Leben systematisch auf das Nötigste: minimale Bedürfnisse, minimaler Kontakt, ein selbst gewählter, oft als angenehm erlebter Rückzug aus einer Welt, die als übergriffig und energiezehrend empfunden wird. Im klassischen Sinn ist das kein Typ-A-Muster – hier fehlt die äußere Betriebsamkeit völlig. Doch soziale Isolation ist medizinisch selbst ein eigenständiger, gut belegter Risikofaktor für Herz-Kreislauf-Erkrankungen, unabhängig von akutem Stress: Ein Herz, das selten im Austausch mit anderen schlägt, verliert etwas von dem, was Herzfrequenzvariabilität und Regeneration nachweislich fördert." },
+      { code: "SE5", text: "Die selbsterhaltende Fünf reduziert ihr Leben systematisch auf das Nötigste: minimale Bedürfnisse, minimaler Kontakt, ein selbst gewählter, oft als angenehm erlebter Rückzug aus einer Welt, die als übergriffig und energiezehrend empfunden wird. Im klassischen Sinn ist das kein Typ-A-Muster – hier fehlt die äußere Betriebsamkeit völlig. Doch soziale Isolation ist medizinisch selbst ein eigenständiger, gut belegter Risikofaktor für Herz-Kreislauf-Erkrankungen, unabhängig von akutem Stress: Ein Herz, das selten im Austausch mit anderen schlägt, verliert etwas von dem, was Herzfrequenzvariabilität und Regeneration nachweislich fördert." },
           { code: "SO5", text: "Die soziale Fünf sucht ihren Platz in der Gruppe über Wissen, nicht über Nähe – sie beobachtet, sammelt, kommentiert von der Seitenlinie aus, während sie auch dort, wo sie physisch anwesend ist, eine innere Distanz aufrechterhält. Diese Mischung aus Teilhabe und Rückzug bedeutet, dass eigene Bedürfnisse selten klar benannt werden, weil das Benennen selbst schon als zu exponierend empfunden wird – eine leise, aber beständige Form der Selbstverleugnung, die sich über Jahre in einem Körper niederschlägt, der ebenfalls gelernt hat, wenig zu verlangen." },
           { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber ausschließlich mit sehr wenigen, sorgfältig ausgewählten Menschen – eine „vertraute“ Verbindung von großer emotionaler Tiefe, umgeben von einer radikalen Abschottung gegenüber allen anderen. Diese Konzentration auf eine einzige oder sehr wenige Bindungen kann durchaus nährend wirken, doch die fast vollständige Abwesenheit eines breiteren sozialen Netzes – ebenfalls medizinisch als kardiovaskulärer Risikofaktor beschrieben – bedeutet, dass beim Verlust oder Rückzug dieser einen Bindung kaum Auffangnetz bleibt." },
         ],
@@ -95362,7 +95362,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Angst – der Körper in Daueralarm",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs begegnet der Welt mit Vorsicht, Vorausplanung und einem inneren Frühwarnsystem, das selten wirklich abschaltet – Rücklagen, Notfallpläne, das gedankliche Durchspielen dessen, was schiefgehen könnte, bevor es überhaupt passiert. Diese Form der Daueralarmbereitschaft ist medizinisch alles andere als harmlos: chronisch erhöhte Cortisol- und Adrenalinspiegel durch anhaltende Wachsamkeit gelten als plausibler Mechanismus für erhöhtes kardiovaskuläres Risiko, selbst wenn nie ein konkretes, benennbares Ereignis eintritt – der Körper reagiert auf die Erwartung der Gefahr fast so, als wäre sie bereits eingetreten." },
+      { code: "SE6", text: "Die selbsterhaltende Sechs begegnet der Welt mit Vorsicht, Vorausplanung und einem inneren Frühwarnsystem, das selten wirklich abschaltet – Rücklagen, Notfallpläne, das gedankliche Durchspielen dessen, was schiefgehen könnte, bevor es überhaupt passiert. Diese Form der Daueralarmbereitschaft ist medizinisch alles andere als harmlos: chronisch erhöhte Cortisol- und Adrenalinspiegel durch anhaltende Wachsamkeit gelten als plausibler Mechanismus für erhöhtes kardiovaskuläres Risiko, selbst wenn nie ein konkretes, benennbares Ereignis eintritt – der Körper reagiert auf die Erwartung der Gefahr fast so, als wäre sie bereits eingetreten." },
           { code: "SO6", text: "Die soziale Sechs sucht Sicherheit nicht in eigener Vorsorge, sondern in Zugehörigkeit – zu einer Gruppe, einer Institution, einer klaren Autorität, der sie loyal folgt und deren Regeln sie gewissenhaft einhält. Die Belastung entsteht hier vor allem aus dem Gefühl der Verantwortung für das Kollektiv: Sorge nicht in erster Linie um sich selbst, sondern darum, ob die Gemeinschaft, an der die eigene Sicherheit hängt, intakt bleibt – eine Sorge, die selten offen ausgesprochen wird und sich stattdessen als diffuse, chronische innere Anspannung niederschlägt." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch: durch Stärke-Projektion, gezielte Provokation, das bewusste Aufsuchen dessen, wovor sie sich eigentlich fürchtet, um die Angst zu widerlegen, statt ihr auszuweichen. Diese Mischung aus Angst und Zorn erzeugt weniger eine gleichmäßige Dauerspannung als eigene, episodische Belastungsspitzen – intensive Momente der Konfrontation, in denen Herzfrequenz und Blutdruck kurzfristig, aber deutlich ausschlagen, gefolgt von Phasen relativer Ruhe, bis zur nächsten selbst gesuchten Bewährungsprobe." },
         ],
@@ -95447,7 +95447,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug, der die Bahnen verengt",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und minimiert Kontakt und Bedürfnisse – ein karges, selbstgenügsames Leben, in dem Kontakt zu anderen als Kostenfaktor, nicht als Nährstoff erlebt wird. Soziale Isolation ist medizinisch selbst ein anerkannter Risikofaktor für Gefäßerkrankungen, unabhängig von akutem Stress, und passt damit besonders deutlich zum Bild eines Systems, das sich über Jahre selbst verengt: Ein Kreislauf, der selten im Austausch mit anderen aktiviert wird, verliert etwas von seiner natürlichen Weite." },
+      { code: "SE5", text: "Kontakt zu anderen wird von der selbsterhaltenden Fünf als Kostenfaktor erlebt, nicht als Nährstoff – sie zieht sich radikal zurück und minimiert Kontakt und Bedürfnisse zu einem kargen, selbstgenügsamen Leben. Soziale Isolation ist medizinisch selbst ein anerkannter Risikofaktor für Gefäßerkrankungen, unabhängig von akutem Stress, und passt damit besonders deutlich zum Bild eines Systems, das sich über Jahre selbst verengt: Ein Kreislauf, der selten im Austausch mit anderen aktiviert wird, verliert etwas von seiner natürlichen Weite." },
           { code: "SO5", text: "Die soziale Fünf sucht Zugang zur Gruppe über Wissen, hält aber innerlich Distanz – sie kann in Gesellschaft brillieren, ohne je wirklich präsent zu sein, weil ein Teil von ihr immer schon wieder in der Beobachterrolle ist. Diese Mischung aus Teilhabe und Rückzug bedeutet, dass eigene Bedürfnisse selten klar benannt werden, weil das Benennen selbst schon zu viel Nähe verlangen würde – eine leise, chronische Enge, die sich über Jahre im System festsetzen kann." },
           { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, aber tiefe Verbindung bei gleichzeitig radikaler Abschottung nach außen. Innerhalb dieser einen oder wenigen Bindungen kann durchaus echter Austausch stattfinden, doch die fast vollständige Abwesenheit eines breiteren sozialen Netzes bedeutet, dass das Gefäßsystem insgesamt selten von der weitenden Wirkung vielfältiger sozialer Kontakte profitiert." },
         ],
@@ -95455,7 +95455,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Angst, die sich Schicht für Schicht ablagert",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in einer Form von Daueralarmbereitschaft, die über chronisch erhöhte Stresshormonspiegel plausibel mit einem erhöhten Risiko für Gefäßveränderungen in Verbindung gebracht werden kann – Sicherheit wird gesucht, aber nie endgültig gefunden, und die Anspannung bleibt Jahr für Jahr bestehen. Sie plant für Eventualitäten, die nie eintreten, und selbst wenn nichts passiert, bleibt die Erleichterung nur von kurzer Dauer, bevor die nächste Sorge Raum greift." },
+      { code: "SE6", text: "Sicherheit wird gesucht, aber nie endgültig gefunden, und die Anspannung bleibt Jahr für Jahr bestehen – so lässt sich die Daueralarmbereitschaft der selbsterhaltenden Sechs über chronisch erhöhte Stresshormonspiegel plausibel mit einem erhöhten Risiko für Gefäßveränderungen in Verbindung bringen. Sie plant für Eventualitäten, die nie eintreten, und selbst wenn nichts passiert, bleibt die Erleichterung nur von kurzer Dauer, bevor die nächste Sorge Raum greift." },
           { code: "SO6", text: "Die soziale Sechs sucht Sicherheit über Zugehörigkeit zu Gruppe oder Autorität – die Belastung entsteht hier vor allem aus dem Gefühl der Verantwortung für das Kollektiv, einer Sorge, die selten offen ausgesprochen wird, sondern sich als beständiges Pflichtgefühl im Hintergrund hält. Diese Loyalität kostet über Jahrzehnte Kraft, weil das eigene Wohlergehen konsequent hinter das Wohl der Gemeinschaft zurücktritt." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Rückzug – diese Mischung aus Angst und Zorn erzeugt episodische Belastungsspitzen statt der gleichmäßigen Dauerspannung der anderen Sechser-Varianten. Sie sucht bewusst die Situationen auf, die andere meiden würden, um zu beweisen, dass die Angst sie nicht kontrolliert – ein Muster, das intensive, aber punktuelle statt chronische Anspannung erzeugt." },
         ],
@@ -95540,7 +95540,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug, der die eigene Überforderung verbirgt",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und minimiert Kontakt und Bedürfnisse – der Rückzug wirkt beruhigend, kann aber auch bedeuten, dass innere Überforderung nie einen Adressaten findet und stattdessen als stille körperliche Anspannung bestehen bleibt. Sie zieht sich in ihr Zimmer, ihre Gedanken, ihre eigene Welt zurück, gerade dann, wenn die Überforderung am größten wäre – und genau dieser Rückzug verhindert, dass die Spannung je einen Ausweg findet." },
+      { code: "SE5", text: "Der Rückzug wirkt beruhigend, kann aber auch bedeuten, dass innere Überforderung nie einen Adressaten findet – die selbsterhaltende Fünf zieht sich radikal zurück und minimiert Kontakt und Bedürfnisse. Sie zieht sich in ihr Zimmer, ihre Gedanken, ihre eigene Welt zurück, gerade dann, wenn die Überforderung am größten wäre – und genau dieser Rückzug verhindert, dass die Spannung je einen Ausweg findet." },
           { code: "SO5", text: "Die soziale Fünf sucht Zugang zur Gruppe über Wissen, hält aber innerlich Distanz – eine Mischung aus Teilhabe und Rückzug, bei der eigene Überforderung selten klar benannt wird. Sie kann brillant über ein Thema sprechen, ohne je zu erwähnen, wie erschöpft sie eigentlich ist." },
           { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, aber tiefe Verbindung bei gleichzeitig radikaler Abschottung nach außen, in der Druck kaum ein Ventil findet. Selbst in dieser engsten Bindung bleibt oft ein letzter Rückzugsraum, den sie nie ganz öffnet." },
         ],
@@ -95548,7 +95548,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Angst, die den Körper in Daueralarm hält",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in einer Form von Daueralarmbereitschaft – Vorsicht und ständige Vorbereitung auf das Schlimmste halten das vegetative Nervensystem in permanenter Anspannung, ein Zustand, der sich medizinisch plausibel mit chronisch erhöhtem Blutdruck in Verbindung bringen lässt. Sie plant für Szenarien, die selten eintreten, aber die bloße gedankliche Vorbereitung darauf hält den Körper in ständiger Wachsamkeit." },
+      { code: "SE6", text: "Vorsicht und ständige Vorbereitung auf das Schlimmste halten das vegetative Nervensystem der selbsterhaltenden Sechs in permanenter Anspannung, ein Zustand, der sich medizinisch plausibel mit chronisch erhöhtem Blutdruck in Verbindung bringen lässt. Sie plant für Szenarien, die selten eintreten, aber die bloße gedankliche Vorbereitung darauf hält den Körper in ständiger Wachsamkeit." },
           { code: "SO6", text: "Die soziale Sechs sucht Sicherheit über Zugehörigkeit zu Gruppe oder Autorität – die Belastung entsteht hier vor allem aus dem Gefühl der Verantwortung für das Kollektiv, einer Sorge, die selten offen ausgesprochen wird. Sie hält sich an Regeln, folgt loyal denen, denen sie vertraut, und trägt dabei die stille Last, dass diese Loyalität nie enden darf." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Rückzug – diese Mischung aus Angst und Zorn erzeugt episodische Drucksteigerungen statt der gleichmäßigen Dauerspannung der anderen Sechser-Varianten. Sie sucht die Auseinandersetzung, statt ihr auszuweichen, und genau diese Konfrontationen erzeugen kurze, aber intensive Druckspitzen." },
         ],
@@ -95633,7 +95633,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug, der die eigenen Reserven schont – und isoliert",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und minimiert Bedürfnisse – ein Verhalten, das kurzfristig Kraft spart, aber sozial isoliert. Isolation gilt medizinisch selbst als eigenständiger Risikofaktor für einen ungünstigen Verlauf bei bereits bestehenden Herz-Kreislauf-Erkrankungen: Der Rückzug schützt vor Überforderung, nimmt aber auch die stärkende Wirkung echten menschlichen Austauschs." },
+      { code: "SE5", text: "Ein Verhalten, das kurzfristig Kraft spart, aber sozial isoliert: So zieht sich die selbsterhaltende Fünf radikal zurück und minimiert Bedürfnisse. Isolation gilt medizinisch selbst als eigenständiger Risikofaktor für einen ungünstigen Verlauf bei bereits bestehenden Herz-Kreislauf-Erkrankungen: Der Rückzug schützt vor Überforderung, nimmt aber auch die stärkende Wirkung echten menschlichen Austauschs." },
           { code: "SO5", text: "Die soziale Fünf sucht Zugang zur Gruppe über Wissen, hält aber innerlich Distanz – eine Mischung aus Teilhabe und Rückzug, die eigene Erschöpfung selten offen zeigt. Sie kann stundenlang über ein Thema sprechen, ohne je zu erwähnen, wie leer sie sich dabei innerlich fühlt." },
           { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, tiefe Verbindung, die zumindest an einer Stelle echten Austausch von Kraft und Nähe ermöglicht. Diese eine oder wenige Bindungen können durchaus nährend wirken, auch wenn das breitere soziale Netz fehlt." },
         ],
@@ -95641,7 +95641,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Angst, die die Reserven über Jahre aufzehrt",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in einer Form von Daueralarmbereitschaft – ständige Vorsicht und Vorbereitung auf das Schlimmste beanspruchen über Jahre Energie, die dem Körper an anderer Stelle fehlt. Sie plant für Eventualitäten, die selten eintreten, und verbraucht dabei kontinuierlich Kraft, die für echte Erholung fehlt." },
+      { code: "SE6", text: "Über Jahre beanspruchen ständige Vorsicht und Vorbereitung auf das Schlimmste Energie, die dem Körper der selbsterhaltenden Sechs an anderer Stelle fehlt. Sie plant für Eventualitäten, die selten eintreten, und verbraucht dabei kontinuierlich Kraft, die für echte Erholung fehlt." },
           { code: "SO6", text: "Die soziale Sechs sucht Sicherheit über Zugehörigkeit zu Gruppe oder Autorität – die Sorge um das Kollektiv wird selten offen ausgesprochen, zehrt aber kontinuierlich an der eigenen Kraft. Sie trägt die gefühlte Verantwortung für das Wohlergehen ihrer Gemeinschaft, oft ohne dass diese Last je geteilt wird." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Rückzug – diese Mischung aus Angst und Zorn erzeugt episodische Kraftanstrengungen statt einer gleichmäßigen Dauerbelastung. Sie sucht die Bewährungsprobe aktiv auf, was punktuell viel Energie kostet, aber zwischen den Episoden auch Phasen relativer Erholung erlaubt." },
         ],
@@ -95726,7 +95726,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Reizüberflutung, vor der sich der Rückzug nicht schützen kann",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich zurück, um äußere Reize zu minimieren und die eigenen begrenzten Ressourcen zu schützen – diese Strategie hilft gegen äußere Überforderung, kann aber innere, gedanklich fortlaufend verarbeitete Reizfülle nicht verhindern: Der Kopf bleibt oft in ständiger, leiser Aktivität, selbst wenn die äußere Welt bereits auf Abstand gehalten wird." },
+      { code: "SE5", text: "Um äußere Reize zu minimieren und die eigenen begrenzten Ressourcen zu schützen, zieht sich die selbsterhaltende Fünf zurück – diese Strategie hilft gegen äußere Überforderung, kann aber innere, gedanklich fortlaufend verarbeitete Reizfülle nicht verhindern: Der Kopf bleibt oft in ständiger, leiser Aktivität, selbst wenn die äußere Welt bereits auf Abstand gehalten wird." },
           { code: "SO5", text: "Die soziale Fünf sammelt und verarbeitet fortlaufend Wissen aus vielen verschiedenen Quellen gleichzeitig, oft in mehreren Themengebieten parallel – diese kognitive Vielspurigkeit, das gleichzeitige Verfolgen unterschiedlicher Gedankenstränge, kann sich als ein Zuviel an gleichzeitiger innerer Aktivität niederschlagen, das dem Herzen seinen ruhigen Takt erschwert." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen ausgewählten Menschen – diese Konzentration auf eine schmale, aber tiefe Verbindung kann in besonders intensiven Momenten des Austauschs zu punktuellen inneren Ausschlägen führen, bleibt aber insgesamt fokussierter als die breite Zerstreuung anderer Subtypen." },
         ],
@@ -95734,7 +95734,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Vielfachalarm, der den Takt aus dem Gleichgewicht bringt",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs bereitet sich gedanklich auf viele mögliche Gefahren gleichzeitig vor, wägt Szenarien ab, plant Rückzugswege – dieses parallele Durchspielen unterschiedlicher Bedrohungsbilder erzeugt eine Art inneres Dauerflimmern der Gedanken, das sich psychosomatisch als naheliegendes Bild für einen aus dem Takt geratenen Herzschlag anbietet." },
+      { code: "SE6", text: "Ein paralleles Durchspielen unterschiedlicher Bedrohungsbilder erzeugt bei der selbsterhaltenden Sechs eine Art inneres Dauerflimmern der Gedanken – sie bereitet sich gedanklich auf viele mögliche Gefahren gleichzeitig vor, wägt Szenarien ab, plant Rückzugswege. Das bietet sich psychosomatisch als naheliegendes Bild für einen aus dem Takt geratenen Herzschlag an." },
           { code: "SO6", text: "Die soziale Sechs sucht Sicherheit über Zugehörigkeit zu Autorität oder Gruppe, überwacht dabei fortlaufend viele soziale Signale gleichzeitig – wer ist loyal, wem ist zu trauen, wo drohen Konflikte –, ein gleichzeitiges Verarbeiten vielfacher sozialer Reize, das den eigenen inneren Rhythmus zersplittern kann." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, sucht die Konfrontation aktiv auf – diese Mischung aus Angst und Mut erzeugt eher punktuelle, intensive innere Ausschläge in konkreten Bewährungsmomenten als eine gleichmäßig verteilte, chronische Zersplitterung der Aufmerksamkeit." },
         ],
@@ -95819,7 +95819,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug, der die Grenze verschiebt, statt sie aufzulösen",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf reduziert äußere Anforderungen so weit wie möglich, um die eigenen begrenzten Ressourcen zu schonen – diese Strategie funktioniert gegen äußere Überforderung gut, kann aber verhindern, dass die Person überhaupt lernt, wo ihre reale körperliche Belastungsgrenze liegt, weil sie sie so konsequent umgeht." },
+      { code: "SE5", text: "Um die eigenen begrenzten Ressourcen zu schonen, reduziert die selbsterhaltende Fünf äußere Anforderungen so weit wie möglich – diese Strategie funktioniert gegen äußere Überforderung gut, kann aber verhindern, dass die Person überhaupt lernt, wo ihre reale körperliche Belastungsgrenze liegt, weil sie sie so konsequent umgeht." },
           { code: "SO5", text: "Die soziale Fünf hält sich mit ihrem Wissen für die Gruppe verfügbar, oft in intellektuell fordernden, langen Arbeitsphasen – diese kognitive Dauerbeanspruchung, ohne ausreichende körperliche Erholung, kann sich als ein Schmerz zeigen, der die geistige Grenze in eine körperliche übersetzt." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – diese fokussierte, aber tiefe Investition kann in besonders intensiven Momenten des Austauschs zu punktuellen Belastungsspitzen führen, bleibt aber insgesamt begrenzter als die breite Überforderung anderer Subtypen." },
         ],
@@ -95827,7 +95827,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Daueranspannung, die die Grenze ständig neu auslotet",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Vorsicht und Vorbereitung auf mögliche Gefahren – diese permanente muskuläre und mentale Anspannung, nie wirklich entspannt, kann über Jahre die eigene Belastungsgrenze absenken, sodass schon geringere Anstrengungen den wiederkehrenden Schmerz auslösen." },
+      { code: "SE6", text: "Nie wirklich entspannt: So lebt die selbsterhaltende Sechs in ständiger Vorsicht und Vorbereitung auf mögliche Gefahren – diese permanente muskuläre und mentale Anspannung kann über Jahre die eigene Belastungsgrenze absenken, sodass schon geringere Anstrengungen den wiederkehrenden Schmerz auslösen." },
           { code: "SO6", text: "Die soziale Sechs übernimmt Verantwortung für das Wohlergehen ihrer Gruppe und trägt dabei die gefühlte Last vieler Sorgen gleichzeitig – diese kontinuierliche kollektive Anspannung, selten offen ausgesprochen, kann sich körperlich als ein Schmerz manifestieren, der genau an der eigenen Belastungsgrenze auftritt." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation statt Rückzug – diese Mischung aus Angst und Mut erzeugt eher punktuelle, intensive Belastungsspitzen in konkreten Bewährungsmomenten als eine gleichmäßig verteilte chronische Überlastung." },
         ],
@@ -95912,7 +95912,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug, der auch die eigene Erleichterung verhindert",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich zurück und hält Bedürfnisse, auch emotionale, konsequent zurück – dieses Minimieren umfasst auch die eigene Erleichterung: Sie erlaubt sich selten, sich fallenzulassen oder loszulassen, weil das wie Kontrollverlust wirkt. Ein Rückfluss, der strukturell nicht vorgesehen ist, passt zu diesem Muster besonders genau." },
+      { code: "SE5", text: "Auch die eigene Erleichterung fällt unter das Minimieren, das die selbsterhaltende Fünf sich auferlegt: Sie zieht sich zurück und hält Bedürfnisse, auch emotionale, konsequent zurück. Sie erlaubt sich selten, sich fallenzulassen oder loszulassen, weil das wie Kontrollverlust wirkt. Ein Rückfluss, der strukturell nicht vorgesehen ist, passt zu diesem Muster besonders genau." },
           { code: "SO5", text: "Die soziale Fünf sammelt fortlaufend Wissen an, ohne sich je wirklich damit zufrieden zu geben – dieses endlose intellektuelle Anhäufen, ohne inneren Abschluss, kann sich als ein Stau ohne Entlastung niederschlagen." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen, tiefen Verbindung findet zumindest an einer Stelle echter emotionaler Austausch und damit auch Erleichterung statt, anders als bei der breiteren Zurückhaltung der anderen Fünf-Varianten." },
         ],
@@ -95920,7 +95920,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Dauersorge, die sich nie entlädt",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs trägt ständige Sorge um mögliche Gefahren mit sich, ohne dass diese Anspannung je wirklich abklingt – ein Nervensystem in Daueralarmbereitschaft, das kaum Erleichterung kennt. Dieses Muster, Last zu tragen, ohne sie je abzulegen, passt zum Bild des gestörten venösen Rückflusses." },
+      { code: "SE6", text: "Ohne dass diese Anspannung je wirklich abklingt, trägt die selbsterhaltende Sechs ständige Sorge um mögliche Gefahren mit sich – ein Nervensystem in Daueralarmbereitschaft, das kaum Erleichterung kennt. Dieses Muster, Last zu tragen, ohne sie je abzulegen, passt zum Bild des gestörten venösen Rückflusses." },
           { code: "SO6", text: "Die soziale Sechs sorgt sich fortlaufend um das Wohlergehen ihrer Gruppe, eine Verantwortung, die selten geteilt und noch seltener abgegeben wird – diese kollektive, nie erleichterte Sorge kann sich körperlich als eine Stauung zeigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese Mischung aus Angst und Mut erzeugt eher punktuelle Entladungen in konkreten Bewährungsmomenten als eine gleichmäßig verteilte, nie erleichterte Dauerlast." },
         ],
@@ -96005,7 +96005,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug, der zur inneren Erstarrung wird",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich konsequent zurück und hält Kontakt wie Bedürfnisse auf ein Minimum – über Jahre kann dieser Rückzug von einer schützenden Strategie zu einer festen, kaum mehr auflösbaren inneren Isolation erstarren, die sich selbst dann nicht mehr löst, wenn Nähe eigentlich möglich wäre." },
+      { code: "SE5", text: "Über Jahre kann ein anfangs schützender Rückzug zu einer festen, kaum mehr auflösbaren inneren Isolation erstarren – so zieht sich die selbsterhaltende Fünf konsequent zurück und hält Kontakt wie Bedürfnisse auf ein Minimum, selbst dann, wenn Nähe eigentlich möglich wäre." },
           { code: "SO5", text: "Die soziale Fünf verschanzt sich zunehmend hinter ihrem Wissen und hält emotionale Nähe auf Distanz – diese intellektuelle Position kann sich über die Zeit zu einer starren, kaum mehr beweglichen Haltung verfestigen, die echten Austausch erschwert." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung bleibt echte Bewegung und echter Austausch meist erhalten, was der vollständigen Erstarrung der anderen Fünf-Varianten entgegenwirkt." },
         ],
@@ -96013,7 +96013,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Festgefahrenes Misstrauen, das sich verhärtet",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs hält an einmal gefassten Ängsten und Vorsichtsmaßnahmen fest, auch wenn die Gefahr längst gebannt ist – diese starre Wachsamkeit, die sich nicht mehr löst, kann sich über Jahre zu einer festen inneren Blockade verhärten, die selbst bei objektiver Entwarnung nicht nachgibt." },
+      { code: "SE6", text: "Auch wenn die Gefahr längst gebannt ist, hält die selbsterhaltende Sechs an einmal gefassten Ängsten und Vorsichtsmaßnahmen fest – diese starre Wachsamkeit, die sich nicht mehr löst, kann sich über Jahre zu einer festen inneren Blockade verhärten, die selbst bei objektiver Entwarnung nicht nachgibt." },
           { code: "SO6", text: "Die soziale Sechs verhärtet sich in ihrem Misstrauen gegenüber vermeintlichen Bedrohungen für die Gruppe zunehmend – ein einmal gefasster Verdacht kann sich zu einer festen, kaum mehr revidierbaren Position verfestigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation statt Erstarrung – dieses Verhalten hält das System eher in Bewegung, während echte Erstarrung hier seltener und eher in konkreten Rückschlagsmomenten auftritt." },
         ],
@@ -96098,7 +96098,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Zurückgehaltene Gedankenwelt, die keinen Ausdruck findet",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und hält nicht nur Bedürfnisse, sondern auch Gedanken und Gefühle konsequent für sich – eine über Jahre nie geteilte innere Welt, die sich als aufgestaute Fülle ansammeln kann, ohne dass je jemand von ihrer Existenz erfährt." },
+      { code: "SE5", text: "Nicht nur Bedürfnisse, auch Gedanken und Gefühle hält die selbsterhaltende Fünf konsequent für sich, zieht sich radikal zurück – eine über Jahre nie geteilte innere Welt, die sich als aufgestaute Fülle ansammeln kann, ohne dass je jemand von ihrer Existenz erfährt." },
           { code: "SO5", text: "Die soziale Fünf hält emotionale Nähe hinter intellektuellem Wissen auf Distanz – diese fortgesetzte Trennung von Denken und Fühlen kann über Jahre zu einer inneren Fülle führen, die sich der bewussten Wahrnehmung weitgehend entzieht, bis sie sich unvermittelt zeigt." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen, tiefen Verbindung findet zumindest an einer Stelle echter Austausch statt, was der vollständigen inneren Aufstauung der anderen Fünf-Varianten entgegenwirkt." },
         ],
@@ -96106,7 +96106,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Angst, die sich zu explosiver Spannung verdichtet",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Alarmbereitschaft, trägt Sorgen und Ängste über Jahre mit sich, ohne dass diese je wirklich zur Ruhe kommen – dieses Nervensystem in Dauerspannung, das nie wirklich entlastet wird, passt zum Bild einer aufgestauten Fülle, die sich irgendwann Bahn bricht." },
+      { code: "SE6", text: "Ohne dass sie je wirklich zur Ruhe kommen, trägt die selbsterhaltende Sechs Sorgen und Ängste über Jahre mit sich, lebt in ständiger Alarmbereitschaft – dieses Nervensystem in Dauerspannung, das nie wirklich entlastet wird, passt zum Bild einer aufgestauten Fülle, die sich irgendwann Bahn bricht." },
           { code: "SO6", text: "Die soziale Sechs trägt die gefühlte Verantwortung für das Wohlergehen ihrer Gruppe, eine Last, die selten geteilt und nie wirklich abgelegt wird – diese kollektive, nie erleichterte Sorge kann sich über Jahre zu einer inneren Fülle verdichten." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese Entladung im Außen kann verhindern, dass sich die innere Spannung zu einer gleichmäßig akkumulierten Fülle aufstaut, auch wenn einzelne Bewährungsmomente selbst hochintensiv bleiben." },
         ],
@@ -96191,7 +96191,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug, der die eigene Energie schont, aber auch mindert",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf reduziert bewusst ihren Energieverbrauch, minimiert Bedürfnisse und äußere Reize – diese Strategie schont knappe Ressourcen, kann aber gleichzeitig bedeuten, dass der Körper sich an ein dauerhaft niedriges Energieniveau gewöhnt, das dann auch dort fehlt, wo tatsächlich Kraft gebraucht würde." },
+      { code: "SE5", text: "Bewusst reduziert die selbsterhaltende Fünf ihren Energieverbrauch, minimiert Bedürfnisse und äußere Reize – diese Strategie schont knappe Ressourcen, kann aber gleichzeitig bedeuten, dass der Körper sich an ein dauerhaft niedriges Energieniveau gewöhnt, das dann auch dort fehlt, wo tatsächlich Kraft gebraucht würde." },
           { code: "SO5", text: "Die soziale Fünf zieht sich innerlich hinter ihr Wissen zurück, auch wenn sie äußerlich an der Gruppe teilnimmt – diese Distanzierung von echtem emotionalem Engagement kann dazu führen, dass ihr die Energie fehlt, sich mit vollem Nachdruck für die eigene Position einzusetzen." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung kann durchaus lebendige Energie fließen, was den chronischen Kraftmangel der anderen Fünf-Varianten hier abmildert." },
         ],
@@ -96199,7 +96199,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Angst, die Energie bindet statt sie freizusetzen",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs verausgabt viel Energie im gedanklichen Durchspielen möglicher Gefahren, ohne dass diese Energie je in konkretes, kraftvolles Handeln mündet – dieses Kreisen im Vorfeld kann dazu führen, dass für die eigentliche Selbstbehauptung am Ende zu wenig übrig bleibt." },
+      { code: "SE6", text: "Ohne dass diese Energie je in konkretes, kraftvolles Handeln mündet, verausgabt die selbsterhaltende Sechs viel Kraft im gedanklichen Durchspielen möglicher Gefahren – dieses Kreisen im Vorfeld kann dazu führen, dass für die eigentliche Selbstbehauptung am Ende zu wenig übrig bleibt." },
           { code: "SO6", text: "Die soziale Sechs bindet ihre Energie an die Sorge um das Kollektiv, statt sie für die eigene Position einzusetzen – diese kontinuierliche Ausrichtung auf äußere Sicherheit statt auf inneren Antrieb kann sich als ein Mangel an selbstbezogener Kraft zeigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – dieses Verhalten setzt eher punktuell viel Energie frei, statt sie chronisch zu binden, weshalb hier seltener ein dauerhafter Kraftmangel im Vordergrund steht." },
         ],
@@ -96284,7 +96284,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug, der zur unveränderten Routine erstarrt",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich über Jahrzehnte in dieselben, minimalistischen Routinen zurück, verändert wenig, meidet neue Anforderungen – diese über die Zeit unveränderte Lebensweise, wenig Bewegung, wenig Variation, passt besonders genau zum Bild eines Gelenks, das sich durch immer gleiche, nie variierte Muster abnutzt." },
+      { code: "SE5", text: "Wenig Bewegung, wenig Variation über Jahrzehnte: So zieht sich die selbsterhaltende Fünf in dieselben, minimalistischen Routinen zurück, verändert wenig, meidet neue Anforderungen. Diese über die Zeit unveränderte Lebensweise passt besonders genau zum Bild eines Gelenks, das sich durch immer gleiche, nie variierte Muster abnutzt." },
           { code: "SO5", text: "Die soziale Fünf vertieft sich über Jahre in dasselbe intellektuelle Terrain, wiederholt dieselben Denkmuster, ohne sie durch neue körperliche oder emotionale Erfahrungen zu ergänzen – diese einseitige, unveränderte Ausrichtung kann sich als Rigidität auch körperlich zeigen." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen, aber lebendigen Verbindung bleibt zumindest an einer Stelle Bewegung und Veränderung erhalten, was der vollständigen Erstarrung der anderen Fünf-Varianten entgegenwirkt." },
         ],
@@ -96292,7 +96292,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Vorsicht, die dieselben Sicherheitsmuster wiederholt",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs wiederholt über Jahre dieselben Vorsichtsmaßnahmen und Sicherheitsrituale, ohne sie je zu hinterfragen – diese unveränderte, immer gleiche Vorbereitung auf mögliche Gefahren kann sich als eine Rigidität zeigen, die auch der körperlichen Beweglichkeit zunehmend weniger Raum lässt." },
+      { code: "SE6", text: "Ohne sie je zu hinterfragen, wiederholt die selbsterhaltende Sechs über Jahre dieselben Vorsichtsmaßnahmen und Sicherheitsrituale – diese unveränderte, immer gleiche Vorbereitung auf mögliche Gefahren kann sich als eine Rigidität zeigen, die auch der körperlichen Beweglichkeit zunehmend weniger Raum lässt." },
           { code: "SO6", text: "Die soziale Sechs hält über Jahre an denselben Loyalitäten und Gruppenstrukturen fest, verändert selten ihre soziale Position – diese unveränderte Verankerung kann sich als eine Rigidität zeigen, die sich auch körperlich in mangelnder Anpassungsfähigkeit niederschlägt." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, sucht aktiv neue Herausforderungen und Konfrontationen – diese Bereitschaft, sich immer wieder neuen Situationen zu stellen, steht der starren Wiederholung entgegen, die für Arthrose besonders typisch ist." },
         ],
@@ -96377,7 +96377,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug, der die Last unsichtbar macht, aber nicht auflöst",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich zurück und trägt ihre Sorgen allein, ohne je um Unterstützung zu bitten – diese konsequente Selbstisolation, gerade in Bezug auf emotionale Lasten, passt zum Bild eines Rückens, der eine Bürde trägt, die nie geteilt wurde." },
+      { code: "SE5", text: "Ohne je um Unterstützung zu bitten, trägt die selbsterhaltende Fünf ihre Sorgen allein und zieht sich zurück – diese konsequente Selbstisolation, gerade in Bezug auf emotionale Lasten, passt zum Bild eines Rückens, der eine Bürde trägt, die nie geteilt wurde." },
           { code: "SO5", text: "Die soziale Fünf hält sich mit ihrem Wissen für die Gruppe verfügbar, verbirgt aber die eigene innere Last hinter intellektueller Distanz – dieses ständige Zurückhalten kann sich körperlich als Rückenschmerz zeigen, wo verdrängte Anspannung sich niederschlägt." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung kann zumindest an einer Stelle echte Entlastung stattfinden, was der vollständigen Isolation der anderen Fünf-Varianten entgegenwirkt." },
         ],
@@ -96385,7 +96385,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Sorge, die als stumme Last getragen wird",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs trägt ständige Sorge um mögliche Gefahren mit sich, oft ohne diese Angst je offen zu benennen – ein Nervensystem in Daueralarmbereitschaft, das nie wirklich entlastet wird, passt zum Bild eines Rückens, der unter unbenannter Sorge steht." },
+      { code: "SE6", text: "Oft ohne diese Angst je offen zu benennen, trägt die selbsterhaltende Sechs ständige Sorge um mögliche Gefahren mit sich – ein Nervensystem in Daueralarmbereitschaft, das nie wirklich entlastet wird, passt zum Bild eines Rückens, der unter unbenannter Sorge steht." },
           { code: "SO6", text: "Die soziale Sechs trägt die gefühlte Verantwortung für das Wohlergehen ihrer Gruppe, eine Last, die selten geteilt wird – diese kollektive, nie erleichterte Sorge kann sich über Jahre als Rückenschmerz zeigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese Entladung im Außen kann verhindern, dass sich die innere Last zu einer gleichmäßig akkumulierten Rückenspannung aufstaut." },
         ],
@@ -96470,7 +96470,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug, der die eigene Verletzlichkeit bekämpft",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und behandelt die eigenen emotionalen Bedürfnisse oft mit derselben Härte, mit der sie äußere Zumutungen abwehrt – diese innere Feindseligkeit gegenüber der eigenen Verletzlichkeit passt zum Bild eines Systems, das sich selbst als Bedrohung behandelt." },
+      { code: "SE5", text: "Mit derselben Härte, mit der sie äußere Zumutungen abwehrt, behandelt die selbsterhaltende Fünf oft auch die eigenen emotionalen Bedürfnisse – sie zieht sich radikal zurück. Diese innere Feindseligkeit gegenüber der eigenen Verletzlichkeit passt zum Bild eines Systems, das sich selbst als Bedrohung behandelt." },
           { code: "SO5", text: "Die soziale Fünf hält emotionale Bedürftigkeit hinter intellektueller Distanz auf Abstand, auch sich selbst gegenüber – diese fortgesetzte Selbstverleugnung kann sich körperlich als ein System zeigen, das sich selbst konsequent abwehrt." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung kann zumindest an einer Stelle echte Selbstakzeptanz stattfinden, was der vollständigen inneren Abwehr der anderen Fünf-Varianten entgegenwirkt." },
         ],
@@ -96478,7 +96478,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Misstrauen, das sich zuletzt gegen sich selbst richtet",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs richtet ihre Wachsamkeit gegen äußere Gefahren, wendet aber oft auch die eigene Selbstkritik hart gegen sich selbst, wenn sie glaubt, nicht ausreichend vorbereitet zu sein – diese nach innen gerichtete Härte passt zum Bild eines Immunsystems, das sich selbst als potenzielle Bedrohung behandelt." },
+      { code: "SE6", text: "Nicht nur gegen äußere Gefahren, auch gegen sich selbst richtet die selbsterhaltende Sechs oft ihre harte Selbstkritik, wenn sie glaubt, nicht ausreichend vorbereitet zu sein – diese nach innen gerichtete Härte passt zum Bild eines Immunsystems, das sich selbst als potenzielle Bedrohung behandelt." },
           { code: "SO6", text: "Die soziale Sechs sorgt sich um die Sicherheit ihrer Gruppe und macht sich selbst oft Vorwürfe, wenn sie das Gefühl hat, die Gemeinschaft nicht ausreichend geschützt zu haben – diese Selbstbeschuldigung kann sich körperlich als ein System zeigen, das sich gegen sich selbst richtet." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation nach außen – diese Externalisierung von Angst und Anspannung steht dem konsequent nach innen gerichteten Selbstangriff entgegen, der bei anderen Sechs-Varianten möglich ist." },
         ],
@@ -96563,7 +96563,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug, der auch die eigene Nährung minimiert",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf minimiert nicht nur äußere Bedürfnisse, sondern oft auch die eigene körperliche Selbstfürsorge – ein Leben in bewusster Reduktion, das über Jahrzehnte unbemerkt an der eigenen Substanz zehren kann, ganz im Bild der stillen, lange unbemerkten Osteoporose." },
+      { code: "SE5", text: "Nicht nur äußere Bedürfnisse, auch die eigene körperliche Selbstfürsorge minimiert die selbsterhaltende Fünf – ein Leben in bewusster Reduktion, das über Jahrzehnte unbemerkt an der eigenen Substanz zehren kann, ganz im Bild der stillen, lange unbemerkten Osteoporose." },
           { code: "SO5", text: "Die soziale Fünf sammelt fortlaufend intellektuelles Wissen, vernachlässigt dabei aber oft die körperliche Ebene der Selbstfürsorge – dieses einseitige Fokussieren auf den Kopf, unter Vernachlässigung des Körpers, kann sich als schwindende körperliche Substanz zeigen." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung kann durchaus echte Nährung stattfinden, was der vollständigen Auszehrung der anderen Fünf-Varianten entgegenwirkt." },
         ],
@@ -96571,7 +96571,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Dauersorge, die die eigene Substanz aufzehrt",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Alarmbereitschaft, verausgabt über Jahre viel innere Energie auf Sorge und Vorbereitung, ohne dass dieser Verbrauch je durch bewusste Selbstfürsorge ausgeglichen wird – dieses stille, nie thematisierte Ungleichgewicht kann sich als schwindende innere Substanz zeigen." },
+      { code: "SE6", text: "Ohne dass dieser Verbrauch je durch bewusste Selbstfürsorge ausgeglichen wird, verausgabt die selbsterhaltende Sechs über Jahre viel innere Energie auf Sorge und Vorbereitung, lebt in ständiger Alarmbereitschaft – dieses stille, nie thematisierte Ungleichgewicht kann sich als schwindende innere Substanz zeigen." },
           { code: "SO6", text: "Die soziale Sechs trägt die gefühlte Verantwortung für das Wohlergehen ihrer Gruppe, eine Last, die selten geteilt wird und über Jahre an der eigenen Substanz zehren kann, ohne dass es je bewusst bemerkt wird." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese Entladung im Außen kann verhindern, dass sich die innere Erschöpfung zu einer gleichmäßig über Jahre akkumulierten Substanzauszehrung entwickelt." },
         ],
@@ -96656,7 +96656,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Reizüberflutung, die überall gleichzeitig verarbeitet werden muss",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich zurück, um äußere Reize zu minimieren, verarbeitet aber innerlich oft fortlaufend eine Fülle an Eindrücken, ohne diese je an einer konkreten Stelle zu entladen – dieses diffuse, im ganzen System verteilte Verarbeiten passt zum Bild eines Schmerzes, der überall gleichzeitig auftritt, ohne dass sich eine einzelne Quelle finden lässt." },
+      { code: "SE5", text: "Innerlich verarbeitet die selbsterhaltende Fünf oft fortlaufend eine Fülle an Eindrücken, ohne diese je an einer konkreten Stelle zu entladen, während sie sich äußerlich zurückzieht, um Reize zu minimieren. Dieses diffuse, im ganzen System verteilte Verarbeiten passt zum Bild eines Schmerzes, der überall gleichzeitig auftritt, ohne dass sich eine einzelne Quelle finden lässt." },
           { code: "SO5", text: "Die soziale Fünf verarbeitet fortlaufend Wissen aus vielen verschiedenen Quellen gleichzeitig – diese kognitive Vielspurigkeit, über viele Themen und Denkrichtungen verteilt, kann sich als eine diffuse, nirgends konzentrierte Überlastung des gesamten Systems zeigen." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen ausgewählten Menschen – diese Konzentration auf eine schmale, tiefe Verbindung steht der diffusen, über viele Bereiche verteilten Reizverarbeitung entgegen." },
         ],
@@ -96664,7 +96664,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Vielfachalarm, der den ganzen Körper in Anspannung hält",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs bereitet sich gedanklich auf viele mögliche Gefahren gleichzeitig vor – dieses parallele Durchspielen unterschiedlicher Bedrohungsbilder hält den gesamten Körper in einer diffusen, nirgends konzentrierten Anspannung, die dem Bild der Fibromyalgie – ein System in genereller Überforderung – besonders nahekommt." },
+      { code: "SE6", text: "Den gesamten Körper in einer diffusen, nirgends konzentrierten Anspannung hält das parallele Durchspielen unterschiedlicher Bedrohungsbilder, mit dem sich die selbsterhaltende Sechs gedanklich auf viele mögliche Gefahren gleichzeitig vorbereitet – das kommt dem Bild der Fibromyalgie, einem System in genereller Überforderung, besonders nahe." },
           { code: "SO6", text: "Die soziale Sechs überwacht fortlaufend viele soziale Signale gleichzeitig, sorgt sich um das Wohlergehen der gesamten Gruppe – dieses gleichzeitige Verarbeiten vielfacher sozialer Reize kann sich als diffuse, über das gesamte System verteilte Überlastung zeigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive, punktuelle Konfrontation – diese fokussierte Entladung steht der diffusen, über viele gleichzeitige Sorgen verteilten Anspannung anderer Sechs-Varianten entgegen." },
         ],
@@ -96749,7 +96749,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug in konzentrierte, oft manuelle Tätigkeit",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich zurück, vertieft sich oft stundenlang in konzentrierte, wiederholte Handarbeit – Lesen, Schreiben, feine manuelle Tätigkeiten –, ohne die eigenen körperlichen Grenzen zu beachten. Diese fokussierte, aber lange fortgesetzte Belastung einer einzelnen Körperregion passt zum mechanischen Entstehungsmuster des Karpaltunnelsyndroms." },
+      { code: "SE5", text: "Stundenlang vertieft sich die selbsterhaltende Fünf in konzentrierte, wiederholte Handarbeit – Lesen, Schreiben, feine manuelle Tätigkeiten –, ohne die eigenen körperlichen Grenzen zu beachten. Diese fokussierte, aber lange fortgesetzte Belastung einer einzelnen Körperregion passt zum mechanischen Entstehungsmuster des Karpaltunnelsyndroms." },
           { code: "SO5", text: "Die soziale Fünf verarbeitet fortlaufend Wissen, oft in langen Phasen konzentrierter Schreibarbeit – diese wiederholte, monotone Belastung der Hände ohne ausreichende Pausen kann sich als eingeengte Handlungsfähigkeit zeigen." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – diese emotionale, nicht primär mechanische Fokussierung erzeugt seltener die Art körperlicher Überlastung, die für das Karpaltunnelsyndrom typisch ist." },
         ],
@@ -96757,7 +96757,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Angespannter Griff, der Sicherheit festhalten will",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs hält an Sicherheitsmaßnahmen und Vorbereitung mit großer, oft körperlich spürbarer Anspannung fest – dieser dauerhaft angespannte Griff, nie wirklich entspannt, passt zum Bild eines Kanals, der sich unter ständiger muskulärer Anspannung einengt." },
+      { code: "SE6", text: "Mit großer, oft körperlich spürbarer Anspannung hält die selbsterhaltende Sechs an Sicherheitsmaßnahmen und Vorbereitung fest – dieser dauerhaft angespannte Griff, nie wirklich entspannt, passt zum Bild eines Kanals, der sich unter ständiger muskulärer Anspannung einengt." },
           { code: "SO6", text: "Die soziale Sechs hält an ihrer Verantwortung für das Wohlergehen der Gruppe fest, oft mit konkreten, wiederholten Handlungen der Fürsorge – diese kontinuierliche Belastung kann sich als eingeengte Handlungsfähigkeit zeigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese eher episodische, punktuelle Anspannung unterscheidet sich von der gleichmäßig wiederholten mechanischen Belastung, die für das Karpaltunnelsyndrom typisch ist." },
         ],
@@ -96842,7 +96842,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug, der Ärger lange im Verborgenen ansammelt",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich zurück und hält auch Unmut und Ärger konsequent für sich – diese über lange Zeit im Verborgenen angesammelte, nie geäußerte Spannung passt zum Bild einer Intensität, die sich, wenn sie sich löst, unerwartet scharf entlädt." },
+      { code: "SE5", text: "Auch Unmut und Ärger hält die selbsterhaltende Fünf konsequent für sich und zieht sich zurück – diese über lange Zeit im Verborgenen angesammelte, nie geäußerte Spannung passt zum Bild einer Intensität, die sich, wenn sie sich löst, unerwartet scharf entlädt." },
           { code: "SO5", text: "Die soziale Fünf hält Frustration über die Gruppe oft hinter intellektueller Distanz zurück, statt sie direkt zu äußern – diese lange Ansammlung ohne Entladung passt zum psychosomatischen Bild der Gicht." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung findet zumindest an einer Stelle echter emotionaler Austausch statt, was der vollständigen, langen Ansammlung entgegenwirkt." },
         ],
@@ -96850,7 +96850,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Angst, die sich zu explosiver Reaktion verdichtet",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs trägt Sorgen und Ängste über lange Zeit mit sich, ohne dass diese je wirklich zur Ruhe kommen – diese angesammelte, nie entladene Anspannung kann sich schließlich in einer plötzlichen, heftigen Reaktion Bahn brechen, ganz im Bild des scheinbar aus dem Nichts auftretenden Gichtanfalls." },
+      { code: "SE6", text: "Diese angesammelte, nie entladene Anspannung kann sich schließlich in einer plötzlichen, heftigen Reaktion Bahn brechen, wenn die selbsterhaltende Sechs Sorgen und Ängste über lange Zeit mit sich trägt, ohne dass sie je wirklich zur Ruhe kommen – ganz im Bild des scheinbar aus dem Nichts auftretenden Gichtanfalls." },
           { code: "SO6", text: "Die soziale Sechs trägt die Sorge um das Kollektiv über lange Zeit mit sich, oft ohne sie je auszusprechen – diese kollektive, nie erleichterte Anspannung kann sich schließlich scharf entladen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive, unmittelbare Konfrontation – diese direktere Entladung steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist." },
         ],
@@ -96935,7 +96935,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug in dieselbe konzentrierte, angespannte Handarbeit",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf vertieft sich über Jahre in dieselbe konzentrierte, oft manuelle Beschäftigung – Lesen, Schreiben, feine repetitive Tätigkeiten –, ohne die eigenen körperlichen Grenzen zu beachten. Diese monotone, nie variierte Belastung einer einzelnen Körperregion passt besonders genau zum mechanischen Entstehungsmuster des Tennisarms." },
+      { code: "SE5", text: "Über Jahre vertieft sich die selbsterhaltende Fünf in dieselbe konzentrierte, oft manuelle Beschäftigung – Lesen, Schreiben, feine repetitive Tätigkeiten –, ohne die eigenen körperlichen Grenzen zu beachten. Diese monotone, nie variierte Belastung einer einzelnen Körperregion passt besonders genau zum mechanischen Entstehungsmuster des Tennisarms." },
           { code: "SO5", text: "Die soziale Fünf wiederholt über Jahre dieselben angespannten Denk- und Schreibbewegungen, ohne sie durch körperliche Variation zu ergänzen – diese einseitige, unveränderte Belastung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – diese emotionale, nicht primär mechanisch-repetitive Fokussierung erzeugt seltener die Art körperlicher Überlastung, die für den Tennisarm typisch ist." },
         ],
@@ -96943,7 +96943,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Immer derselbe angespannte Vorsichtsgriff",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs wiederholt über Jahre dieselben Vorsichtsmaßnahmen mit körperlich spürbarer Anspannung, immer mit demselben festen, nie gelösten Griff – diese unveränderte, monotone Anspannung passt zum Bild eines Sehnenansatzes, der unter ständiger Wiederholung erschöpft ist." },
+      { code: "SE6", text: "Immer mit demselben festen, nie gelösten Griff wiederholt die selbsterhaltende Sechs über Jahre dieselben Vorsichtsmaßnahmen mit körperlich spürbarer Anspannung – diese unveränderte, monotone Anspannung passt zum Bild eines Sehnenansatzes, der unter ständiger Wiederholung erschöpft ist." },
           { code: "SO6", text: "Die soziale Sechs wiederholt über Jahre dieselbe angespannte Fürsorgegeste für ihre Gruppe, immer mit demselben Verantwortungsgefühl – diese unveränderte Haltung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive, wechselnde Konfrontation – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für den Tennisarm typisch ist." },
         ],
@@ -97028,7 +97028,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug, der Nähe konsequent auf Abstand hält",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und hält auch körperliche Nähe konsequent auf Abstand – ein Körper, der sich über Jahre daran gewöhnt hat, Umarmung zu vermeiden, kann sich genau an der Schulter, dem Ort der Umarmung, als Erstarrung zeigen, die sich selbst dann nicht mehr löst, wenn Nähe eigentlich möglich wäre." },
+      { code: "SE5", text: "Konsequent auf Abstand hält die selbsterhaltende Fünf auch körperliche Nähe und zieht sich radikal zurück – ein Körper, der sich über Jahre daran gewöhnt hat, Umarmung zu vermeiden, kann sich genau an der Schulter, dem Ort der Umarmung, als Erstarrung zeigen, die sich selbst dann nicht mehr löst, wenn Nähe eigentlich möglich wäre." },
           { code: "SO5", text: "Die soziale Fünf hält emotionale und körperliche Nähe hinter intellektueller Distanz auf Abstand – diese fortgesetzte Trennung kann sich über Jahre als eine Versteifung der Schulter zeigen, die für Offenheit zuständig wäre." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung bleibt echte körperliche Nähe erhalten, was der vollständigen Erstarrung der anderen Fünf-Varianten entgegenwirkt." },
         ],
@@ -97036,7 +97036,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Angespannte Wachsamkeit, die die Schulter nie entspannt",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Alarmbereitschaft, die Schultern buchstäblich hochgezogen, bereit für die nächste Bedrohung – diese dauerhaft angespannte Körperhaltung, nie wirklich gelöst, passt besonders genau zum Bild der Frozen Shoulder: eine Erstarrung genau dort, wo Entspannung und Offenheit möglich wären." },
+      { code: "SE6", text: "Die Schultern buchstäblich hochgezogen, bereit für die nächste Bedrohung: So lebt die selbsterhaltende Sechs in ständiger Alarmbereitschaft. Diese dauerhaft angespannte Körperhaltung, nie wirklich gelöst, passt besonders genau zum Bild der Frozen Shoulder: eine Erstarrung genau dort, wo Entspannung und Offenheit möglich wären." },
           { code: "SO6", text: "Die soziale Sechs trägt die Sorge um das Wohlergehen ihrer Gruppe körperlich als Anspannung mit sich, oft ohne sie je bewusst zu lösen – diese kollektive, nie erleichterte Spannung kann sich als Versteifung der Schulter zeigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese Entladung im Außen kann verhindern, dass sich die innere Anspannung zu einer gleichmäßig akkumulierten Schultererstarrung aufstaut." },
         ],
@@ -97121,7 +97121,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug, der die eigene Überlastung lange verbirgt",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich zurück und trägt körperliche wie emotionale Belastung lange allein – bis ein einziger zusätzlicher Reiz genügt, damit das längst überforderte System plötzlich Einspruch erhebt. Dieses Muster, lange durchzuhalten, ohne je um Hilfe zu bitten, passt zum Bild des plötzlich einschießenden Hexenschusses." },
+      { code: "SE5", text: "Bis ein einziger zusätzlicher Reiz genügt, damit das längst überforderte System plötzlich Einspruch erhebt: So zieht sich die selbsterhaltende Fünf zurück und trägt körperliche wie emotionale Belastung lange allein. Dieses Muster, lange durchzuhalten, ohne je um Hilfe zu bitten, passt zum Bild des plötzlich einschießenden Hexenschusses." },
           { code: "SO5", text: "Die soziale Fünf hält Erschöpfung hinter intellektueller Distanz lange verborgen – wenn diese verdrängte Belastung sich schließlich körperlich zeigt, geschieht dies oft plötzlich und unerwartet." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – innerhalb dieser schmalen Verbindung findet zumindest an einer Stelle echte Entlastung statt, was der vollständigen, langen Ansammlung entgegenwirkt." },
         ],
@@ -97129,7 +97129,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Dauersorge, die sich plötzlich körperlich entlädt",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs trägt ständige Sorge und muskuläre Anspannung über lange Zeit mit sich, ohne dass diese je wirklich zur Ruhe kommt – bis eine einzige zusätzliche Bewegung genügt, damit sich diese Dauerspannung plötzlich Bahn bricht. Genau dieses Muster passt zum Bild des blitzartig einschießenden Hexenschusses." },
+      { code: "SE6", text: "Bis eine einzige zusätzliche Bewegung genügt, damit sich Dauerspannung plötzlich Bahn bricht: So trägt die selbsterhaltende Sechs ständige Sorge und muskuläre Anspannung über lange Zeit mit sich, ohne dass diese je wirklich zur Ruhe kommt. Genau dieses Muster passt zum Bild des blitzartig einschießenden Hexenschusses." },
           { code: "SO6", text: "Die soziale Sechs trägt die Sorge um das Kollektiv über lange Zeit mit sich, oft ohne sie je auszusprechen – wenn diese kollektive, nie erleichterte Anspannung sich schließlich löst, geschieht dies oft plötzlich." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive, unmittelbare Konfrontation – diese direktere Entladung steht der langen, stillen Ansammlung entgegen, die für den Hexenschuss typisch ist." },
         ],
@@ -97214,7 +97214,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 5, titel: "Rückzug in dieselbe konzentrierte, repetitive Tätigkeit",
         varianten: [
-          { code: "SE5", text: "Die selbsterhaltende Fünf vertieft sich über Jahre in dieselbe konzentrierte, oft manuelle Beschäftigung – Lesen, Schreiben, repetitive feine Tätigkeiten –, ohne die eigenen körperlichen Grenzen zu beachten. Diese monotone, nie variierte Belastung passt besonders genau zum mechanischen Entstehungsmuster der Sehnenscheidenentzündung." },
+      { code: "SE5", text: "Ohne die eigenen körperlichen Grenzen zu beachten, vertieft sich die selbsterhaltende Fünf über Jahre in dieselbe konzentrierte, oft manuelle Beschäftigung – Lesen, Schreiben, repetitive feine Tätigkeiten. Diese monotone, nie variierte Belastung passt besonders genau zum mechanischen Entstehungsmuster der Sehnenscheidenentzündung." },
           { code: "SO5", text: "Die soziale Fünf wiederholt über Jahre dieselben angespannten Schreibbewegungen, ohne sie durch körperliche Variation zu ergänzen – diese einseitige, unveränderte Belastung kann sich als eine entzündete Schutzhülle zeigen." },
           { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur gegenüber sehr wenigen Menschen – diese emotionale, nicht primär mechanisch-repetitive Fokussierung erzeugt seltener die Art körperlicher Überlastung, die für die Sehnenscheidenentzündung typisch ist." },
         ],
@@ -97222,7 +97222,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 6, titel: "Immer dieselbe angespannte Vorsichtsbewegung",
         varianten: [
-          { code: "SE6", text: "Die selbsterhaltende Sechs wiederholt über Jahre dieselben Vorsichtsmaßnahmen mit körperlich spürbarer Anspannung, immer mit demselben festen, nie gelösten Griff – diese unveränderte, monotone Anspannung passt zum Bild einer Sehnenscheide, die unter ständiger Wiederholung derselben Bewegung erschöpft." },
+      { code: "SE6", text: "Immer mit demselben festen, nie gelösten Griff wiederholt die selbsterhaltende Sechs über Jahre dieselben Vorsichtsmaßnahmen mit körperlich spürbarer Anspannung – diese unveränderte, monotone Anspannung passt zum Bild einer Sehnenscheide, die unter ständiger Wiederholung derselben Bewegung erschöpft." },
           { code: "SO6", text: "Die soziale Sechs wiederholt über Jahre dieselbe angespannte Fürsorgegeste für ihre Gruppe, immer mit denselben konkreten Handlungen – diese unveränderte Haltung kann sich als eine entzündete Schutzhülle zeigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive, wechselnde Konfrontation – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für die Sehnenscheidenentzündung typisch ist." },
         ],
