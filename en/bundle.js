@@ -61364,6 +61364,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to stroke, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates pent-up tension, denied expression, and sudden loss of control in its own way – some through sustained control that eventually breaks, others through quiet giving, restlessness, or a voice of their own that was never heard. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  niedriger_blutdruck: {
+    titel: "Low Blood Pressure (Hypotension)",
+    kategorie: "herz-kreislauf",
+    icon: "&#128167;",
+    kurz: "When a life carries too little pressure to assert itself.",
+    definition: "Hypotension is generally diagnosed at blood pressure readings below about 100–110/60 mmHg. Unlike high blood pressure, low blood pressure is only considered medically treatable if it actually causes symptoms – many people, particularly young, slim women, live symptom-free with permanently low readings. Orthostatic hypotension is common: a drop in blood pressure upon standing up quickly, because the vessels do not adjust fast enough to the change in body position. Causes range from constitutional predisposition, dehydration, and prolonged bed rest to certain medications, hormonal disorders, or a dysregulation of the autonomic nervous system.",
+    symptome: [
+      "Dizziness or graying out of vision, especially upon standing quickly",
+      "Persistent fatigue, lack of drive, and rapid exhaustion",
+      "Cold hands and feet, reduced ability to concentrate",
+      "Headaches, ringing in the ears, blurred vision",
+      "Heart palpitations as the body's compensatory response to low pressure",
+      "In pronounced cases, brief fainting (syncope)",
+    ],
+    notfall: "In the case of sudden fainting with injury, prolonged unconsciousness, chest pain, or signs of circulatory shock (very rapid, barely palpable pulse, pale, cold and clammy skin, confusion): call emergency services immediately. Ordinary, chronic hypotension without such accompanying symptoms is generally not an emergency.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Where most other conditions in this register tell a story of too much pressure – pent-up tension that hardens or suddenly discharges – low blood pressure shows the exact opposite: too little pressure, too little force to assert one's own position outward. Traditional Chinese Medicine describes a related state as Qi deficiency, in particular sinking Middle Qi (Zhong Qi Xia Xian): a lifting force too weak to give the body the energy to carry itself upward and outward. Psychosomatic medicine therefore often reads this as the picture of a life that rarely asserts itself with full force – not out of suppression, as with the conditions of excess, but out of a fundamental lack of built-up inner drive.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that never builds up into pressure in the first place",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One usually keeps anger under strict control – with a tendency toward low blood pressure, this shows up more as a general holding back of its own force, not as pent-up pressure but as a fundamental withdrawal of self-expression." },
+          { code: "SO1", text: "The social One is engaged in the moral improvement of the group – if this engagement stays quiet and reserved rather than confrontational, it can show up as a lack of assertive force." },
+          { code: "SX1", text: "The sexual One lives anger more directly within the relationship – of the three One variants, the least typical fit for this pattern of holding back." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that makes itself so small it stays invisible",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two lives the sentence &bdquo;I need no one&ldquo; most literally – a life that consistently holds back and never formulates its own demands fits the picture of a system that scarcely asserts itself outward with force." },
+          { code: "SO2", text: "The social Two stays available to the community – if its own need is never really voiced, the inner drive to assert itself also stays underdeveloped." },
+          { code: "SX2", text: "The sexual Two invests intense giving into the one relationship – here intense devotion tends to appear rather than general holding back, less typical for this pattern." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that never dares to make demands of its own",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three works quietly and efficiently, often without visibly demanding recognition for its own achievement – a pattern that can coincide with a generally reserved, low-assertion demeanor." },
+          { code: "SO3", text: "The social Three seeks success visibly and in competition – of the three Three variants, the least typical fit for this pattern of holding back, since public presence is central to its self-image." },
+          { code: "SX3", text: "The sexual Three optimizes itself within the relational context – more intense adaptation to the other than general lack of force." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that withdraws inward instead of asserting itself",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – a longing never asserted outward over the years can coincide with a generally withdrawn, low-force appearance." },
+          { code: "SO4", text: "The social Four makes its own suffering visible – here the longing at least finds an outward outlet, which works against pure lack of force." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity – a pattern that fits intense expression more than a general withdrawal of one's own force." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that becomes the permanent baseline state",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically, minimizing needs and contact – of all 27 subtypes, probably the most direct match to a system that fundamentally builds up little pressure to assert itself outward." },
+          { code: "SO5", text: "The social Five keeps inner distance even in social contexts – a withdrawn, observing pattern that likewise develops little outward-directed force." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – quite forceful within this narrow connection, yet still reserved outwardly." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that tends to paralyze rather than activate",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six seeks safety through caution – where this caution shows up as general holding back rather than active alertness, it can coincide with a rather low-force, low-assertion demeanor." },
+          { code: "SO6", text: "The social Six seeks safety through belonging to a group or authority – its own position is rarely represented with force." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation – of the three Six variants, the least typical fit for this pattern of low force." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that, despite outward activity, builds little substance of its own",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through many parallel options – outwardly often in motion, yet a pattern can lie behind it that never really settles enough to build its own force and substance." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – a pattern in which its own drive is rarely deployed for its own cause." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – of the three Seven variants, the least typical fit for this pattern, since high, not low, energy tends to dominate here." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that rarely coincides with this pattern",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight keeps tight control over its own resources – of all 27 subtypes, probably the least typical fit for low blood pressure, since assertiveness and force belong to the core pattern of this variant." },
+          { code: "SO8", text: "The social Eight carries permanent leadership tension for the group – here too, active force tends to dominate, not its absence." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – a pattern that fits high rather than low blood pressure." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that gives its own life too little force",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort, routine, and conflict avoidance – the decades-long continued self-forgetting also means its own life force is never directed outward with force. Of the 27 subtypes, possibly the clearest match to a system lacking its own, built-up pressure." },
+          { code: "SO9", text: "The social Nine consistently subordinates its own opinion to the group – a pattern that rarely lends its own position force." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a system that never built its own, independent pressure, because it dissolved entirely into the other instead." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to low blood pressure, and no pattern is a verdict. What emerges is simply that some subtypes – especially those whose core pattern is already oriented toward withdrawal, reserve, or self-forgetting – wrestle especially often with a lack of their own, outward-directed force, while other subtypes, whose pattern relies more on assertion and control, are affected less often. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -61371,7 +61464,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // and then moved into PSYCHOSOMATIK_KRANKHEITEN. Until then they appear on the overview
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["Low Blood Pressure (Hypotension)"],
+  "herz-kreislauf": [],
   "bewegungsapparat": ["Back Pain / Herniated Disc", "Osteoarthritis", "Rheumatoid Arthritis", "Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],

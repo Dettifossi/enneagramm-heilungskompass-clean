@@ -96138,6 +96138,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor einem Schlaganfall gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit aufgestauter Spannung, verweigertem Ausdruck und plötzlichem Kontrollverlust verhandelt – manche über Dauerkontrolle, die irgendwann bricht, andere über stilles Geben, Rastlosigkeit oder eine nie gehörte eigene Stimme. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  niedriger_blutdruck: {
+    titel: "Niedriger Blutdruck (Hypotonie)",
+    kategorie: "herz-kreislauf",
+    icon: "&#128167;",
+    kurz: "Wenn dem eigenen Leben zu wenig Druck innewohnt, um sich selbst zu behaupten.",
+    definition: "Von Hypotonie spricht man in der Regel bei Blutdruckwerten unter 100–110/60 mmHg. Anders als Bluthochdruck gilt niedriger Blutdruck medizinisch nur dann als behandlungsbedürftig, wenn er tatsächlich Beschwerden verursacht – viele Menschen, insbesondere junge, schlanke Frauen, leben beschwerdefrei mit dauerhaft niedrigen Werten. Häufig ist die orthostatische Hypotonie: ein Blutdruckabfall beim raschen Aufstehen, weil sich die Gefäße nicht schnell genug an die veränderte Körperposition anpassen. Ursachen reichen von konstitutioneller Veranlagung über Flüssigkeitsmangel und langes Liegen bis zu bestimmten Medikamenten, hormonellen Störungen oder einer Fehlregulation des vegetativen Nervensystems.",
+    symptome: [
+      "Schwindel oder Schwarzwerden vor Augen, besonders beim raschen Aufstehen",
+      "Anhaltende Müdigkeit, Antriebslosigkeit und rasche Erschöpfbarkeit",
+      "Kalte Hände und Füße, verminderte Konzentrationsfähigkeit",
+      "Kopfschmerzen, Ohrensausen, verschwommenes Sehen",
+      "Herzklopfen als kompensatorische Reaktion des Körpers auf den niedrigen Druck",
+      "In ausgeprägten Fällen kurzzeitige Ohnmacht (Synkope)",
+    ],
+    notfall: "Bei plötzlicher Ohnmacht mit Verletzung, anhaltender Bewusstlosigkeit, Brustschmerz oder Anzeichen eines Kreislaufschocks (sehr schneller, kaum tastbarer Puls, blasse, kaltschweißige Haut, Verwirrtheit): sofort den Notruf 112 wählen. Die gewöhnliche, chronische Hypotonie ohne solche Begleitsymptome ist dagegen in der Regel kein Notfall.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Wo die meisten anderen Krankheitsbilder dieses Registers von zu viel Druck erzählen – aufgestaute Spannung, die sich verhärtet oder plötzlich entlädt –, zeigt niedriger Blutdruck das genaue Gegenteil: zu wenig Druck, zu wenig Kraft, die eigene Position nach außen zu behaupten. Die Traditionelle Chinesische Medizin beschreibt einen verwandten Zustand als Qi-Mangel, insbesondere als abgesunkenes Mitte-Qi (Zhong Qi Xia Xian): eine zu schwache Hebekraft, die dem Körper die Energie fehlen lässt, sich selbst nach oben und nach außen zu tragen. Die Psychosomatik liest darin oft das Bild eines Lebens, das sich selten mit voller Kraft behauptet – nicht aus Verdrängung wie bei den Krankheitsbildern des Übermaßes, sondern aus einem grundlegenden Mangel an aufgebautem inneren Antrieb.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der gar nicht erst zu Druck aufgebaut wird",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger meist streng unter Kontrolle – bei einer Neigung zu niedrigem Blutdruck zeigt sich das eher als generelle Zurückhaltung der eigenen Kraft, nicht als Aufstauung, sondern als grundsätzliche Zurücknahme des eigenen Ausdrucks." },
+          { code: "SO1", text: "Die soziale Eins engagiert sich für die moralische Verbesserung der Gruppe – bleibt dieses Engagement eher leise und zurückhaltend statt konfrontativ, kann sich das als Mangel an durchsetzungsfähigem Nachdruck zeigen." },
+          { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter in der Beziehung aus – von den drei Einser-Varianten am wenigsten typisch für dieses Muster der Zurückhaltung." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der sich so klein macht, dass er sich selbst unsichtbar hält",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei lebt den Satz „Ich brauche niemanden“ am wörtlichsten – ein Leben, das sich konsequent zurücknimmt und nie eigene Ansprüche formuliert, passt zum Bild eines Systems, das sich selbst kaum mit Nachdruck nach außen behauptet." },
+          { code: "SO2", text: "Die soziale Zwei bleibt für die Gemeinschaft verfügbar – wird das eigene Bedürfnis dabei nie wirklich formuliert, bleibt auch der innere Antrieb, sich selbst durchzusetzen, unterentwickelt." },
+          { code: "SX2", text: "Die sexuelle Zwei investiert intensives Geben in die eine Beziehung – hier findet sich eher intensive Zuwendung als generelle Zurückhaltung, weniger typisch für dieses Muster." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die sich selbst nie zutraut, Ansprüche zu stellen",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet still und effizient, oft ohne die eigene Leistung sichtbar einzufordern – ein Muster, das mit einem generell zurückhaltenden, wenig durchsetzungsstarken Auftreten zusammenfallen kann." },
+          { code: "SO3", text: "Die soziale Drei sucht Erfolg sichtbar und im Wettbewerb – von den drei Dreier-Varianten am wenigsten typisch für dieses Muster der Zurückhaltung, da öffentliche Präsenz ihrem Selbstverständnis zentral ist." },
+          { code: "SX3", text: "Die sexuelle Drei optimiert sich im Beziehungskontext – eher intensive Anpassung an den anderen als generelle Kraftlosigkeit." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich nach innen zurückzieht statt sich zu behaupten",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahre nie nach außen behauptete Sehnsucht kann mit einem generell zurückgenommenen, kraftlosen Erscheinungsbild einhergehen." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar – hier findet die Sehnsucht zumindest ein Ventil nach außen, was einer reinen Kraftlosigkeit eher entgegenwirkt." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – ein Muster, das eher intensivem Ausdruck als generellem Rückzug der eigenen Kraft entspricht." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der zum dauerhaften Grundzustand wird",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück, minimiert Bedürfnisse und Kontakt – von allen 27 Subtypen vermutlich die unmittelbarste Entsprechung zu einem System, das grundsätzlich wenig Druck aufbaut, um sich nach außen zu behaupten." },
+          { code: "SO5", text: "Die soziale Fünf hält auch im sozialen Kontext innere Distanz – ein zurückgezogenes, beobachtendes Muster, das ebenfalls wenig nach außen gerichteten Nachdruck entwickelt." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – innerhalb dieser schmalen Verbindung durchaus kraftvoll, nach außen jedoch ebenfalls zurückhaltend." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die eher lähmt als aktiviert",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs sucht Sicherheit durch Vorsicht – wo diese Vorsicht sich als generelle Zurückhaltung statt als aktive Alarmbereitschaft zeigt, kann das mit einem eher kraftlosen, wenig durchsetzungsfähigen Auftreten einhergehen." },
+          { code: "SO6", text: "Die soziale Sechs sucht Sicherheit über Zugehörigkeit zu Gruppe oder Autorität – die eigene Position wird dabei selten mit Nachdruck vertreten." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation – von den drei Sechser-Varianten am wenigsten typisch für dieses Muster der Kraftlosigkeit." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die trotz äußerer Aktivität wenig eigene Substanz aufbaut",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über viele parallele Optionen ab – äußerlich oft in Bewegung, kann dahinter dennoch ein Muster liegen, das nie wirklich zur Ruhe kommt, um eigene Kraft und Substanz aufzubauen." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – ein Muster, bei dem der eigene Antrieb selten für die eigene Sache eingesetzt wird." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – von den drei Siebener-Varianten am wenigsten typisch für dieses Muster, da hier meist hohe, nicht niedrige Energie im Vordergrund steht." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die selten mit diesem Muster zusammenfällt",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht hält Kontrolle über die eigenen Ressourcen straff aufrecht – von allen 27 Subtypen vermutlich am wenigsten typisch für niedrigen Blutdruck, da Durchsetzungskraft und Nachdruck zum Kernmuster dieser Variante gehören." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Führungsspannung für die Gruppe – auch hier steht aktive Kraftentfaltung meist im Vordergrund, nicht deren Fehlen." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – ein Muster, das eher zu hohem als zu niedrigem Blutdruck passt." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die dem eigenen Leben zu wenig Nachdruck verleiht",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort, Routine und Konfliktvermeidung – die über Jahrzehnte fortgesetzte Selbstvergessenheit bedeutet auch, dass sich die eigene Lebenskraft nie mit Nachdruck nach außen richtet. Von den 27 Subtypen möglicherweise die deutlichste Entsprechung zu einem System, dem es an eigenem, aufgebautem Druck fehlt." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – ein Muster, das der eigenen Position selten Nachdruck verleiht." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Systems, das nie eigenen, unabhängigen Druck aufbaute, weil es sich stattdessen ganz in den anderen auflöste." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor niedrigem Blutdruck gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass manche Subtypen – vor allem jene, deren Grundmuster ohnehin auf Rückzug, Zurückhaltung oder Selbstvergessenheit ausgerichtet ist – besonders häufig mit einem Mangel an eigenem, nach außen gerichtetem Nachdruck ringen, während andere Subtypen, deren Muster stärker auf Durchsetzung und Kontrolle setzt, seltener betroffen sind. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -96146,7 +96239,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // (Definition, Notfall-Hinweis falls zutreffend, Disclaimer, alle 27 Subtypen). Bis dahin
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["Niedriger Blutdruck (Hypotonie)"],
+  "herz-kreislauf": [],
   "bewegungsapparat": ["Rückenschmerzen / Bandscheibenvorfall", "Arthrose", "Rheumatoide Arthritis", "Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],

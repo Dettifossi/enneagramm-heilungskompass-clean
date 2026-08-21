@@ -417,6 +417,7 @@ export const registerEntries = [
   { term: "Krampfadern (Psychosomatik)", route: "psychosomatik/krampfadern", description: "Psychosomatische Deutung: gestörtes Loslassen, TCM Milz-Qi-Mangel, Enneagramm alle 27 Subtypen" },
   { term: "Thrombose (Psychosomatik)", route: "psychosomatik/thrombose", description: "Psychosomatische Deutung: verhärteter Stillstand, TCM Blut-Stase, Enneagramm alle 27 Subtypen" },
   { term: "Schlaganfall (Psychosomatik)", route: "psychosomatik/schlaganfall", description: "Psychosomatische Deutung: plötzlicher Ausdrucksverlust, TCM innerer Wind, Enneagramm alle 27 Subtypen" },
+  { term: "Niedriger Blutdruck (Psychosomatik)", route: "psychosomatik/niedriger_blutdruck", description: "Psychosomatische Deutung: fehlender Nachdruck, TCM abgesunkenes Mitte-Qi, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
@@ -1508,6 +1509,7 @@ export const registerEntriesEN = [
   { term: "Varicose Veins (Psychosomatics)", route: "psychosomatik/krampfadern", description: "Psychosomatic interpretation: disturbed letting go, TCM Spleen Qi deficiency, Enneagram all 27 subtypes" },
   { term: "Thrombosis (Psychosomatics)", route: "psychosomatik/thrombose", description: "Psychosomatic interpretation: hardened standstill, TCM Blood stasis, Enneagram all 27 subtypes" },
   { term: "Stroke (Psychosomatics)", route: "psychosomatik/schlaganfall", description: "Psychosomatic interpretation: sudden loss of expression, TCM internal wind, Enneagram all 27 subtypes" },
+  { term: "Low Blood Pressure (Psychosomatics)", route: "psychosomatik/niedriger_blutdruck", description: "Psychosomatic interpretation: lack of assertive force, TCM sinking Middle Qi, Enneagram all 27 subtypes" },
   { term: "Mineral Substance Impulses", route: "mineralstoffe", description: "Mineral substance impulses for all 27 subtypes – type-specific micronutrients" },
   { term: "Healing Teas", route: "heiltees", description: "Medicinal plant teas for all 27 subtypes – effect and preparation" },
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },
