@@ -31406,6 +31406,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Sozialer Typ 9", krankheit:"Alzheimer-Krankheit", teaser:"SO9w8 – 40. US-Präsident 1981–1989, 1911–2004. Gab 1994 in einem handschriftlichen Brief an die amerikanische Öffentlichkeit seine Alzheimer-Diagnose bekannt und zog sich danach zehn Jahre lang fast vollständig aus der Öffentlichkeit zurück." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Sozialer Typ 1", krankheit:"Leberkrebs", teaser:"SO1w2 – Musiker und Künstler, 1947–2016. Kämpfte 18 Monate lang im Verborgenen gegen Leberkrebs und verwandelte die Diagnose in sein letztes Werk, das Album Blackstar, das zwei Tage vor seinem Tod erschien." , land:"Vereinigtes Königreich", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2", krankheit:"Fieberhafte Erkrankung mit Nierenversagen (vermutlich Folge einer Streptokokken-Infektion)", teaser:"SE2w3 – österreichischer Komponist, 1756–1791. Von Kindheit an eine Kette fieberhafter Erkrankungen (Pocken, Typhus, wiederkehrendes Scharlach), starb 1791 mit 35 Jahren nach zweiwöchiger Krankheit mit Fieber und generalisierten Ödemen – während er gleichzeitig an drei Großwerken arbeitete, darunter das unvollendete Requiem." , land:"Österreich", gender:"m", jahre:"1756–1791"},
+  { route:"krankheitsportraets-napoleon-bonaparte", name:"Napoleon Bonaparte", subtyp:"SO2w3", heading:"Napoleon Bonaparte – Sozialer Typ 2", krankheit:"Magenkarzinom (nach Autopsie), zuvor jahrzehntelange wiederkehrende Magenbeschwerden", teaser:"SO2w3 – französischer Kaiser und Feldherr, 1769–1821. Über Jahrzehnte wiederkehrende Magenbeschwerden, eine umstrittene Episode bei Waterloo, dramatischer Verfall im Exil auf St. Helena. Starb 1821 an einem Magenkarzinom – derselben Krankheit, an der wahrscheinlich auch sein Vater starb." , land:"Frankreich", gender:"m", jahre:"1769–1821"},
   { route:"krankheitsportraets-johann-sebastian-bach", name:"Johann Sebastian Bach", subtyp:"SX1w9", heading:"Johann Sebastian Bach – Sexueller Typ 1", krankheit:"Erblindung durch missglückte Staroperationen, Tod nach Schlaganfall und Fieber", teaser:"SX1w9 – Komponist, 1685–1750. Über Jahre fortschreitende Sehschwäche, zwei missglückte Augenoperationen im März 1750 durch den zweifelhaften Okulisten John Taylor führten zur vollständigen Erblindung. Starb vier Monate später nach einem Schlaganfall – derselbe Operateur ließ kurz darauf auch Händel erblinden." , land:"Deutschland", gender:"m", jahre:"1685–1750"},
   { route:"krankheitsportraets-konrad-adenauer", name:"Konrad Adenauer", subtyp:"SE1w9", heading:"Konrad Adenauer – Selbsterhaltender Typ 1", krankheit:"Schwere Gesichtsverletzungen durch Autounfall (1917), später Verfolgung und Haft, Tod nach zwei Herzinfarkten und Lungenentzündung (1967)", teaser:"SE1w9 – deutscher Bundeskanzler 1949–1963, 1876–1967. Sein Gesicht wurde 1917 bei einem schweren Autounfall zertrümmert; er formte die Narben zum Ausdruck kontrollierter Autorität um. Zwei Jahrzehnte später Verfolgung und Haft unter den Nationalsozialisten, bis ins hohe Alter bemerkenswert vital." , land:"Deutschland", gender:"m", jahre:"1876–1967"},
   { route:"krankheitsportraets-friedrich-schiller", name:"Friedrich Schiller", subtyp:"SX6w5", heading:"Friedrich Schiller – Sexueller Typ 6", krankheit:"Lungentuberkulose", teaser:"SX6w5 – Dichter, Dramatiker und Historiker, 1759–1805. Seit der Kindheit fragile Konstitution, ab 1791 wiederkehrende lebensbedrohliche Fieber- und Hustenanfälle, vierzehn Jahre kompromissloser Arbeit gegen den eigenen Verfall. Starb 1805 mit 45 Jahren an akuter Lungenentzündung – die Obduktion zeigte einen vollständig zerstörten Lungenflügel." , land:"Deutschland", gender:"m", jahre:"1759–1805"},
@@ -62744,12 +62745,15 @@ function napoleonBonapartePortraitPage() {
           <p class="vb-intro">Hier erreicht die SO2w3 ihre größte Tragweite: ein Mensch, dessen persönliches Bedürfnis nach Bedeutung und Zugehörigkeit sich in Institutionen verwandelte, die Jahrhunderte überdauerten. Der Golden Retriever mit dem Dreierflügel kann einen Kontinent neu ordnen – wenn er lernt, dass wahre Zugehörigkeit nicht erobert und nicht durch immer neue Beweise gesichert werden muss, sondern einfach ist.</p>
         </blockquote>
 
+        <p class="vb-intro">Die über Jahrzehnte wiederkehrenden Magenbeschwerden und Napoleons Tod 1821 an einem Magenkarzinom werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-napoleon-bonaparte">Krankheitsporträt zu Napoleon</a> gedeutet.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"krankheitsportraets-napoleon-bonaparte", label:"Krankheitsporträt: Napoleon Bonaparte (SO2w3)"},
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3)"},
         {route:"beruehmte-will-smith", label:"Porträt: Will Smith (SO2w3)"},
@@ -69083,6 +69087,187 @@ function johannSebastianBachKrankheitsportraetPage() {
         {route:"beruehmte-johann-sebastian-bach", label:"Porträt: Johann Sebastian Bach (SX1w9) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx1", label:"Subtyp-Profil SX1"},
+      ])}
+    </div>
+  `);
+}
+
+function napoleonBonaparteKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-napoleon-bonaparte-portrait.jpg" alt="Napoleon Bonaparte" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Napoleon Bonaparte</p>
+        <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel · 1769–1821</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Tierentsprechung: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Napoleon Bonaparte</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-napoleon-bonaparte">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift wird:
+        über Jahrzehnte wiederkehrende Magenbeschwerden, ihre dramatische Zuspitzung im Exil
+        auf St. Helena und Napoleons Tod 1821 an einem Magenkarzinom – derselben Krankheit,
+        an der wahrscheinlich auch sein Vater starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Napoleon</strong> ist dem <strong>sozialen Typ 2 mit Dreierflügel</strong>
+        zugeordnet. Die SO2 richtet die Fürsorge der Zwei nicht auf eine einzelne Beziehung,
+        sondern auf ein ganzes Kollektiv – Napoleon investierte, wie Naranjo es beschreibt,
+        nicht in Rücklagen, sondern in Beziehung und Loyalität im großen Maßstab. Der
+        Dreierflügel bringt unbedingten Ehrgeiz und die Weigerung hinzu, sich von Schwäche –
+        auch der eigenen körperlichen – aufhalten zu lassen. Genau dieses Muster lässt sich
+        bis in seine letzten, von Schmerzen gezeichneten Lebensjahre nachverfolgen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Der eigene Körper als Nebensache neben der Mission:</strong>
+        Napoleons Blick galt zeitlebens dem großen Ganzen – dem Feldzug, dem Reich, der
+        eigenen historischen Rolle. Körperliche Beschwerden wurden konsequent nachrangig
+        behandelt, solange sie die Handlungsfähigkeit nicht vollständig lähmten.</p>
+        <p class="vb-intro"><strong>b) Funktionieren trotz Schmerz als Führungsanspruch:</strong>
+        Berichten zufolge saß Napoleon am Morgen der Schlacht von Waterloo, am 18. Juni 1815,
+        trotz akuter Beschwerden bereits um acht Uhr angezogen und beritten im Sattel – ein
+        Führungsanspruch, der keine sichtbare Schwäche duldete.</p>
+        <p class="vb-intro"><strong>c) Körperlicher Verfall im Exil als letzte, unausweichliche Realität:</strong>
+        Erst auf St. Helena, fern jeder Bühne, wich diese Haltung zunehmend einem Körper, der
+        sich der reinen Willenskraft nicht länger fügte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Wiederkehrende Magenbeschwerden über Jahre:</strong>
+        Schon vor seinem Exil sind bei Napoleon gelegentliche Magen- und
+        Verdauungsbeschwerden dokumentiert – der genaue Beginn lässt sich in den erhaltenen
+        Quellen nicht präzise datieren, doch das Muster zog sich durch weite Teile seines
+        Erwachsenenlebens.</p>
+        <p class="vb-intro"><strong>b) Eine historisch umstrittene Episode bei Waterloo:</strong>
+        Sein Bruder Jérôme berichtete später, Napoleon habe an diesem Tag unter akut
+        entzündeten Hämorrhoiden und Blasenbeschwerden gelitten. Die These, dies habe seine
+        taktischen Entscheidungen und damit die Niederlage beeinflusst, ist in der
+        Geschichtsschreibung populär, aber umstritten und nicht abschließend belegt.</p>
+        <p class="vb-intro"><strong>c) Zunehmendes Gewicht in den späteren Jahren:</strong>
+        Rekonstruktionen anhand erhaltener Kleidungsstücke zeigen eine deutliche
+        Gewichtszunahme von rund 67 auf etwa 90 Kilogramm zwischen 1808 und 1820 – ein
+        Kontrollverlust über den eigenen Körper, der seiner sonstigen Disziplin
+        entgegenstand.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Verschlechterung ab 1818:</strong>
+        Im Exil auf St. Helena verstärkten sich ab 1818 Übelkeit, Magenschmerzen und
+        Harnprobleme. Ab September 1820 folgten häufigere Attacken mit Erbrechen, Fieber und
+        Appetitlosigkeit; im Dezember 1820 konnte Napoleon kaum noch gehen.</p>
+        <p class="vb-intro"><strong>b) Rapider Verfall in den letzten Lebensmonaten:</strong>
+        Zwischen Oktober 1820 und Februar 1821 verschlechterte sich sein Zustand dramatisch:
+        anhaltende Bauchschmerzen, Erbrechen, eine ausgeprägte Abneigung gegen Fleisch,
+        Schluckbeschwerden, Nachtschweiß und fortschreitende Schwäche. Im letzten Lebensjahr
+        verlor er etwa elf Kilogramm.</p>
+        <p class="vb-intro"><strong>c) Tod am 5. Mai 1821:</strong>
+        Napoleon starb im Alter von 51 Jahren auf St. Helena. Die Autopsie ergab ein
+        infiltrativ-ulzeratives Magenkarzinom mit einer arrosiven Blutung als wahrscheinlicher
+        unmittelbarer Todesursache – ein heute in der medizinhistorischen Forschung breit
+        akzeptierter Befund.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Eine widerlegte Verschwörungstheorie:</strong>
+        Die lange populäre Theorie, Napoleon sei mit Arsen vergiftet worden, gilt heute durch
+        mehrere unabhängige moderne Gewebeanalysen als weitgehend widerlegt – erhöhte
+        Arsenwerte werden eher auf zeittypische Umweltbelastungen zurückgeführt, nicht auf
+        gezielte Vergiftung.</p>
+        <p class="vb-intro"><strong>b) Ein wissenschaftlicher Konsens, der die Legende überdauert hat:</strong>
+        Anders als die Vergiftungstheorie ist die Diagnose Magenkrebs autopsiebasiert und
+        gilt in der Fachwelt als solide belegt – eine nüchterne, aber weniger dramatische
+        Erklärung als die jahrzehntelang kursierende Mordthese.</p>
+        <p class="vb-intro"><strong>c) Die Waterloo-These als Sinnbild seines gesamten Krankheitsverlaufs:</strong>
+        Ob körperliche Beschwerden tatsächlich die Schlacht beeinflussten oder nicht – die
+        Erzählung selbst zeigt exemplarisch, wie sehr Napoleons Körper und sein historisches
+        Handeln in der öffentlichen Wahrnehmung untrennbar miteinander verwoben wurden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Funktionieren bis zur Grenze des Erträglichen:</strong>
+        Die Bereitschaft, trotz akuter Schmerzen im Sattel zu sitzen und eine Schlacht zu
+        führen, zeigt die Dreierflügel-Energie der SO2 in Reinform: Leistung wird erbracht,
+        bis der Körper buchstäblich nicht mehr kann.</p>
+        <p class="vb-intro"><strong>b) Der Verlust der Bühne als eigentlicher Wendepunkt:</strong>
+        Erst als mit dem Exil auch das Publikum, für das Napoleon lebte, verschwand, begann
+        der körperliche Verfall sich ungebremst zu zeigen – als hätte die Energie der
+        sozialen Zwei zuvor den Körper mitgetragen.</p>
+        <p class="vb-intro"><strong>c) Der Golden Retriever, der bis zuletzt für ein Ganzes kämpfte:</strong>
+        Selbst im Angesicht des eigenen körperlichen Verfalls diktierte Napoleon auf St.
+        Helena seine Memoiren – ein letzter Versuch, weiter für ein Publikum, eine
+        Nachwelt, zu wirken.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein über Jahrzehnte wiederkehrendes Muster:</strong>
+        Von gelegentlichen Magenbeschwerden in den Feldzugsjahren bis zum tödlichen Karzinom
+        auf St. Helena zieht sich eine erkennbare, wenn auch lange nicht ernst genommene
+        Linie durch Napoleons Erwachsenenleben.</p>
+        <p class="vb-intro"><strong>b) Eine auffällige familiäre Parallele:</strong>
+        Napoleons Vater Carlo Buonaparte starb 1785 nach Jahren zunehmender Schwäche
+        ebenfalls an Magenkrebs. Napoleon selbst äußerte auf St. Helena die Furcht, das
+        gleiche Schicksal wie sein Vater zu teilen – eine Furcht, die sich bewahrheitete.</p>
+        <p class="vb-intro"><strong>c) Der Körper als letzter Ort, der sich nicht kommandieren ließ:</strong>
+        Ein Mann, der ganze Armeen und halb Europa befehligte, konnte den eigenen Magen
+        nicht befehligen – ein Kontrast, der Napoleons letzte Lebensjahre auf St. Helena
+        prägte.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet der Magen?</strong>
+        Für eine soziale Zwei mit Dreierflügel, deren gesamte Identität an sichtbarer
+        Leistung und der Fürsorge für ein großes Kollektiv hing, liegt eine Deutung nahe: Der
+        Magen ist das Organ, das buchstäblich verdauen muss, was von außen kommt – bei
+        Napoleon jahrzehntelang ein Übermaß an Verantwortung, Druck und ungebremstem Ehrgeiz,
+        ohne dass je Raum für Verdauung im übertragenen Sinn blieb. Dass ausgerechnet dieses
+        Organ am Ende versagte, in einem Exil, das ihm zum ersten Mal in seinem Leben nichts
+        mehr zu verdauen ließ als die eigene Vergangenheit, liest sich als konsequenter
+        Abschluss dieses Musters. Diese Deutung ist eine plausible Interpretation, kein
+        belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Zwei zwangsläufig zu
+        Magenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Napoleons Fall zeigen lässt, ist ein
+        Muster, das bei der kompromisslosen Priorisierung von Leistung und Fürsorge für ein
+        großes Ganzes über die eigenen körperlichen Signale hinweg in der Praxis immer wieder
+        auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Napoleon</strong> verkörpert den sozialen Typ 2 mit Dreierflügel bis in die
+        eigene Krankheitsgeschichte hinein: über Jahrzehnte hingenommene Magenbeschwerden,
+        eine umstrittene, aber sinnbildliche Episode bei Waterloo, und ein Tod 1821, der
+        exakt das familiäre Muster seines Vaters wiederholte. Der Golden Retriever, der
+        ganze Armeen mobilisierte, bis der eigene Körper die letzte, unüberwindbare
+        Front wurde.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-napoleon-bonaparte", label:"Porträt: Napoleon Bonaparte (SO2w3) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so2", label:"Subtyp-Profil SO2"},
       ])}
     </div>
   `);
@@ -98092,6 +98277,7 @@ function render() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-napoleon-bonaparte": napoleonBonaparteKrankheitsportraetPage,
       "krankheitsportraets-johann-sebastian-bach": johannSebastianBachKrankheitsportraetPage,
       "krankheitsportraets-konrad-adenauer": konradAdenauerKrankheitsportraetPage,
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,

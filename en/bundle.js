@@ -201,6 +201,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Social Type 9", krankheit:"Alzheimer's Disease", teaser:"SO9w8 – 40th US President 1981–1989, 1911–2004. Announced his Alzheimer's diagnosis in 1994 in a handwritten letter to the American public, then withdrew almost entirely from public life for the following ten years." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Social Type 1", krankheit:"Liver Cancer", teaser:"SO1w2 – musician and artist, 1947–2016. Fought liver cancer in secret for 18 months and transformed the diagnosis into his final work, the album Blackstar, released two days before his death." , land:"United Kingdom", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Self-Preservation Type 2", krankheit:"Febrile Illness with Kidney Failure (likely following a streptococcal infection)", teaser:"SE2w3 – Austrian composer, 1756–1791. A lifelong chain of feverish illnesses since childhood (smallpox, typhoid fever, recurring scarlet fever) preceded his death at 35 after a two-week illness with fever and generalized swelling – while he was working on three major works at once, including the unfinished Requiem." , land:"Austria", gender:"m", jahre:"1756–1791"},
+  { route:"krankheitsportraets-napoleon-bonaparte", name:"Napoleon Bonaparte", subtyp:"SO2w3", heading:"Napoleon Bonaparte – Social Type 2", krankheit:"Gastric cancer (per autopsy), preceded by decades of recurring stomach ailments", teaser:"SO2w3 – French emperor and military leader, 1769–1821. Decades of recurring stomach ailments, a disputed episode at Waterloo, dramatic decline in exile on St. Helena. Died in 1821 of gastric cancer – the same disease that likely killed his father." , land:"France", gender:"m", jahre:"1769–1821"},
   { route:"krankheitsportraets-johann-sebastian-bach", name:"Johann Sebastian Bach", subtyp:"SX1w9", heading:"Johann Sebastian Bach – Sexual Type 1", krankheit:"Blindness from failed cataract surgeries, death after stroke and fever", teaser:"SX1w9 – composer, 1685–1750. Years-long progressive vision loss, two failed eye operations in March 1750 by the dubious oculist John Taylor led to complete blindness. Died four months later after a stroke – the same surgeon blinded Handel shortly after." , land:"Germany", gender:"m", jahre:"1685–1750"},
   { route:"krankheitsportraets-konrad-adenauer", name:"Konrad Adenauer", subtyp:"SE1w9", heading:"Konrad Adenauer – Self-Preservation Type 1", krankheit:"Severe facial injuries from a car accident (1917), later persecution and imprisonment, death after two heart attacks and pneumonia (1967)", teaser:"SE1w9 – German Chancellor 1949–1963, 1876–1967. His face was shattered in a severe car accident in 1917; he turned the scars into an expression of controlled authority. Two decades later, persecution and imprisonment under the National Socialists, remarkably vital well into old age." , land:"Germany", gender:"m", jahre:"1876–1967"},
   { route:"krankheitsportraets-friedrich-schiller", name:"Friedrich Schiller", subtyp:"SX6w5", heading:"Friedrich Schiller – Sexual Type 6", krankheit:"Pulmonary Tuberculosis", teaser:"SX6w5 – poet, playwright, and historian, 1759–1805. Fragile constitution since childhood, recurring life-threatening fever and coughing fits from 1791 onward, fourteen years of uncompromising work against his own decline. Died in 1805 at 45 of acute pneumonia – the autopsy found a completely destroyed lung." , land:"Germany", gender:"m", jahre:"1759–1805"},
@@ -25303,12 +25304,15 @@ function napoleonBonapartePortraitPage() {
           <p class="vb-intro">Here the SO2w3 reaches its greatest scope: a person whose personal need for significance and belonging transformed into institutions that outlasted centuries. The Golden Retriever with the Three-Wing can reorder a continent &ndash; if he learns that true belonging need not be conquered, nor secured through ever-new proof, but simply is.</p>
         </blockquote>
 
+        <p class="vb-intro">The decades-long recurring stomach ailments and Napoleon's death in 1821 from gastric cancer are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-napoleon-bonaparte">Illness Portrait of Napoleon</a>.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"krankheitsportraets-napoleon-bonaparte", label:"Illness Portrait: Napoleon Bonaparte (SO2w3)"},
         {route:"subtype/so2", label:"SO2 \u2013 The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3)"},
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
@@ -42176,6 +42180,177 @@ function johannSebastianBachKrankheitsportraetPage() {
         {route:"beruehmte-johann-sebastian-bach", label:"Portrait: Johann Sebastian Bach (SX1w9) – life's work"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx1", label:"Subtype Profile SX1"},
+      ])}
+    </div>
+  `);
+}
+
+function napoleonBonaparteKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-napoleon-bonaparte-portrait.jpg" alt="Napoleon Bonaparte" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Napoleon Bonaparte</p>
+        <p class="krim-portrait-typ">SO2w3 · Social Type 2 with Three-wing · 1769–1821</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Animal correspondence: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Napoleon Bonaparte</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-napoleon-bonaparte">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and type structure in general.
+        This page deals exclusively with a chapter only briefly touched on there: decades of
+        recurring stomach ailments, their dramatic escalation during his exile on St. Helena,
+        and Napoleon's death in 1821 from gastric cancer – the same disease that likely
+        killed his father.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Napoleon</strong> is classified as the <strong>Social Two with Three-wing</strong>.
+        SO2 directs the Two's care not at a single relationship, but at an entire collective –
+        Napoleon, as Naranjo would put it, invested not in reserves, but in relationship and
+        loyalty on a grand scale. The Three-wing adds unconditional ambition and a refusal to
+        be held back by weakness – including his own physical weakness. This exact pattern
+        can be traced right into his final years, marked by pain.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) His own body as secondary to the mission:</strong>
+        Napoleon's gaze was always fixed on the bigger picture – the campaign, the empire,
+        his own historical role. Physical ailments were consistently treated as secondary,
+        as long as they did not completely paralyze his ability to act.</p>
+        <p class="vb-intro"><strong>b) Functioning through pain as a leadership imperative:</strong>
+        Reports suggest that on the morning of the Battle of Waterloo, June 18, 1815, Napoleon
+        was already dressed and on horseback by eight o'clock despite acute discomfort – a
+        leadership stance that tolerated no visible weakness.</p>
+        <p class="vb-intro"><strong>c) Physical decline in exile as a final, inescapable reality:</strong>
+        Only on St. Helena, far from any stage, did this stance increasingly give way to a
+        body that no longer submitted to sheer willpower.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Recurring stomach ailments over the years:</strong>
+        Even before his exile, occasional stomach and digestive complaints are documented for
+        Napoleon – the exact onset cannot be precisely dated in the surviving sources, but the
+        pattern ran through much of his adult life.</p>
+        <p class="vb-intro"><strong>b) A historically disputed episode at Waterloo:</strong>
+        His brother Jérôme later reported that Napoleon suffered from acutely inflamed
+        hemorrhoids and bladder problems that day. The theory that this affected his tactical
+        decisions, and thus the defeat, is popular in historiography but disputed and not
+        conclusively proven.</p>
+        <p class="vb-intro"><strong>c) Increasing weight in his later years:</strong>
+        Reconstructions based on surviving clothing show a marked weight gain from around 67
+        to about 90 kilograms between 1808 and 1820 – a loss of control over his own body
+        that stood in contrast to his usual discipline.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Deterioration from 1818 onward:</strong>
+        In exile on St. Helena, nausea, stomach pain, and urinary problems intensified from
+        1818 onward. From September 1820, more frequent attacks followed with vomiting,
+        fever, and loss of appetite; by December 1820, Napoleon could barely walk.</p>
+        <p class="vb-intro"><strong>b) Rapid decline in his final months:</strong>
+        Between October 1820 and February 1821, his condition deteriorated dramatically:
+        persistent abdominal pain, vomiting, a marked aversion to meat, difficulty swallowing,
+        night sweats, and progressive weakness. In his final year, he lost about eleven
+        kilograms.</p>
+        <p class="vb-intro"><strong>c) Death on May 5, 1821:</strong>
+        Napoleon died at age 51 on St. Helena. The autopsy found an infiltrative, ulcerative
+        gastric carcinoma with an eroding hemorrhage as the likely immediate cause of death –
+        a finding widely accepted today in medical-historical research.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A debunked conspiracy theory:</strong>
+        The long-popular theory that Napoleon was poisoned with arsenic is now considered
+        largely disproven by several independent modern tissue analyses – elevated arsenic
+        levels are more likely attributed to era-typical environmental exposure than to
+        deliberate poisoning.</p>
+        <p class="vb-intro"><strong>b) A scientific consensus that has outlasted the legend:</strong>
+        Unlike the poisoning theory, the gastric cancer diagnosis is autopsy-based and
+        considered solidly supported in the field – a sober, if less dramatic, explanation
+        than the murder theory that circulated for decades.</p>
+        <p class="vb-intro"><strong>c) The Waterloo theory as a symbol of his entire illness course:</strong>
+        Whether physical ailments actually influenced the battle or not, the story itself
+        illustrates just how inseparably Napoleon's body and his historical actions became
+        intertwined in public perception.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Functioning to the limit of the bearable:</strong>
+        The willingness to sit in the saddle and command a battle despite acute pain shows
+        the Three-wing energy of the SO2 in its purest form: performance delivered until the
+        body literally cannot anymore.</p>
+        <p class="vb-intro"><strong>b) The loss of the stage as the actual turning point:</strong>
+        Only once exile also took away the audience Napoleon lived for did his physical
+        decline begin to show itself unchecked – as though the energy of the Social Two had
+        previously carried the body along with it.</p>
+        <p class="vb-intro"><strong>c) The Golden Retriever that fought for a greater whole to the end:</strong>
+        Even in the face of his own physical decline, Napoleon dictated his memoirs on St.
+        Helena – one last attempt to keep acting for an audience, for posterity.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A pattern recurring over decades:</strong>
+        From occasional stomach complaints during the campaign years to the fatal carcinoma
+        on St. Helena, a recognizable, if long unacknowledged, line runs through Napoleon's
+        adult life.</p>
+        <p class="vb-intro"><strong>b) A striking family parallel:</strong>
+        Napoleon's father, Carlo Buonaparte, died in 1785 after years of increasing weakness,
+        also from gastric cancer. Napoleon himself expressed fear on St. Helena of sharing his
+        father's fate – a fear that proved justified.</p>
+        <p class="vb-intro"><strong>c) The body as the one front that could not be commanded:</strong>
+        A man who commanded entire armies and half of Europe could not command his own
+        stomach – a contrast that marked Napoleon's final years on St. Helena.</p>
+        <p class="vb-intro"><strong>d) Why, of all things, the stomach?</strong>
+        For a Social Two with Three-wing, whose entire identity hinged on visible achievement
+        and care for a large collective, one reading suggests itself: the stomach is the
+        organ that must literally digest what comes from outside – for Napoleon, for
+        decades, an excess of responsibility, pressure, and unchecked ambition, with never any
+        room left to digest, in the figurative sense. That precisely this organ failed in the
+        end, in an exile that for the first time in his life left him nothing to digest but
+        his own past, reads as the consistent conclusion of this pattern. This reading is a
+        plausible interpretation, not a documented historical causal link, and is explored in
+        more depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        This does not mean the Social Two's pattern inevitably leads to stomach disease –
+        <strong>every person can develop any illness, regardless of subtype.</strong> What
+        Napoleon's case can show is a pattern that stands out again and again in practice
+        wherever performance and care for a larger whole are prioritized uncompromisingly
+        over one's own bodily signals – one possible explanation among many, not a verdict.
+        The corresponding condition will be developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Napoleon</strong> embodies the Social Two with Three-wing right down into his
+        own illness history: decades of accepted stomach ailments, a disputed but symbolic
+        episode at Waterloo, and a death in 1821 that echoed his father's fate almost exactly.
+        The Golden Retriever who mobilized entire armies, until his own body became the last,
+        insurmountable front.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-napoleon-bonaparte", label:"Portrait: Napoleon Bonaparte (SO2w3) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so2", label:"Subtype Profile SO2"},
       ])}
     </div>
   `);
@@ -63565,6 +63740,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-napoleon-bonaparte": napoleonBonaparteKrankheitsportraetPage,
       "krankheitsportraets-johann-sebastian-bach": johannSebastianBachKrankheitsportraetPage,
       "krankheitsportraets-konrad-adenauer": konradAdenauerKrankheitsportraetPage,
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
