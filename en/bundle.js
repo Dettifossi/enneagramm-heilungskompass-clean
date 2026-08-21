@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=49";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=50";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -213,6 +213,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-friedrich-schiller", name:"Friedrich Schiller", subtyp:"SX6w5", heading:"Friedrich Schiller – Sexual Type 6", krankheit:"Pulmonary Tuberculosis", teaser:"SX6w5 – poet, playwright, and historian, 1759–1805. Fragile constitution since childhood, recurring life-threatening fever and coughing fits from 1791 onward, fourteen years of uncompromising work against his own decline. Died in 1805 at 45 of acute pneumonia – the autopsy found a completely destroyed lung." , land:"Germany", gender:"m", jahre:"1759–1805"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Social Type 3", krankheit:"Cancer (cause of death never officially confirmed; assistant reported prostate cancer, diagnosed 2015)", teaser:"SO3w4 – fashion designer and Chanel creative director, 1933–2019. According to consistent reports, kept a cancer diagnosis secret for nearly four years even from those closest to him, and missed a Chanel show for the first time in 35 years only four weeks before his death." , land:"Germany/France", gender:"m", jahre:"1933–2019"},
   { route:"krankheitsportraets-robert-schumann", name:"Robert Schumann", subtyp:"SX7w8", heading:"Robert Schumann – Sexual Type 7", krankheit:"Mental illness (retrospectively discussed: bipolar disorder, schizoaffective illness, or a late neurological effect of a syphilis infection)", teaser:"SX7w8 – composer and music critic, 1810–1856. Jumped into the Rhine in 1854 in a fit of utter despair, then himself asked to be admitted to an asylum near Bonn, where he died in 1856, largely isolated from his wife Clara until shortly before his death." , land:"Germany", gender:"m", jahre:"1810–1856"},
+  { route:"krankheitsportraets-francis-bacon", name:"Francis Bacon", subtyp:"SE7w8", heading:"Francis Bacon – Self-Preservation Type 7", krankheit:"Chronic gout and kidney stones, fatal bronchitis/pneumonia after a self-conducted cold experiment", teaser:"SE7w8 – philosopher, statesman, and founder of modern empiricism, 1561–1626. Suffered decades of gout and kidney stones, died in 1626 of a chill caught while stuffing a chicken with snow in winter to test cold as a preservation method." , land:"United Kingdom", gender:"m", jahre:"1561–1626"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -28439,12 +28440,15 @@ function francisBaconPortraitPage() {
           <p class="vb-intro">That is exactly what Bacon did in the five years remaining after his fall. Freed from public office, he devoted himself almost entirely to writing and completed some of his most significant works. His death in April 1626 fits no other subtype so well as the SP7w8: on a carriage ride, the idea struck him that cold might delay decay &ndash; he stopped, bought a chicken, stuffed it with snow with his own hands, and caught a fatal chill in the process. The Gorilla that, to its last breath, reached for the next discovery &ndash; and made one more experiment while dying.</p>
         </blockquote>
 
+        <p class="vb-intro">His decades of gout and the exact circumstances of the fatal chicken experiment are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-francis-bacon">Illness Portrait of Bacon</a>.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"krankheitsportraets-francis-bacon", label:"Illness Portrait: Francis Bacon (SP7w8)"},
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
       ])}
@@ -43551,6 +43555,171 @@ function robertSchumannKrankheitsportraetPage() {
         {route:"beruehmte-franz-liszt", label:"Portrait: Franz Liszt (SX7w8)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx7", label:"Subtype Profile SX7"},
+      ])}
+    </div>
+  `);
+}
+
+function francisBaconKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-francis-bacon-portrait.jpg" alt="Francis Bacon" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Francis Bacon</p>
+        <p class="krim-portrait-typ">SP7w8 · Self-Preservation Type 7 with Eight-wing · 1561–1626</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Gorilla</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Animal correspondence: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Francis Bacon</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-francis-bacon">portrait under Famous Personalities</a>
+        in this Compass – that page covers his philosophical life's work, his political rise
+        and fall. This portrait is devoted to a chapter only touched on there: decades of
+        chronic gout, kidney stones, and digestive complaints – and a death that reads like the
+        final, fatal consequence of his own scientific curiosity.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Bacon</strong> is classified as the <strong>self-preservation Seven with
+        Eight-wing</strong>. Naranjo called this subtype the "hidden Eight": a Seven that
+        combines its curiosity and capacity for enjoyment with the assertiveness and
+        directness of the Eight, without displaying it openly. It was exactly this combination
+        of insatiable curiosity and a refusal to be deterred by physical limits that shaped
+        his relationship to his own health as well.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A fragile constitution from youth onward:</strong>
+        Contemporary accounts already describe Bacon as sickly and frail as a young man – a
+        physical fragility that stood in striking contrast to his tireless intellectual and
+        political drive.</p>
+        <p class="vb-intro"><strong>b) Recurring gout attacks from middle age on:</strong>
+        From his forties on, Bacon increasingly suffered from painful bouts of gout that at
+        times confined him to bed – an illness at the time closely associated with excessive
+        indulgence in meat and wine, the lifestyle of a man who never held back at court or in
+        politics.</p>
+        <p class="vb-intro"><strong>c) Kidney stones as a constant companion:</strong>
+        Alongside the gout, Bacon's own records document recurring, agonizing kidney stone
+        attacks that accompanied him for years and repeatedly interrupted his legal and
+        scientific work.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Illness as a footnote in an overcrowded schedule:</strong>
+        Despite the recurring complaints, Bacon's letters contain few complaints about his own
+        health – illness was briefly mentioned, then set aside for the next task, never made
+        into a central theme.</p>
+        <p class="vb-intro"><strong>b) A man who practiced his own medicine:</strong>
+        Bacon experimented himself with diet, herbal remedies, and lifestyle to relieve his
+        complaints – his "Sylva Sylvarum," a posthumously published collection of natural
+        observations, contains numerous notes on health, longevity, and bodily care that
+        likely also arose from his own affliction.</p>
+        <p class="vb-intro"><strong>c) Financial worry as an additional burden:</strong>
+        Perpetually in debt despite high offices and considerable income, Bacon lived in a
+        chronic tension between the demands of representation and financial insecurity – a
+        constant stress that likely placed additional strain on his physical condition.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) The 1621 fall as an additional strain:</strong>
+        The bribery charges, the removal from office, and the brief imprisonment in the Tower
+        struck a man already in poor health, in his sixties – contemporaries reported visible
+        physical decline in the months after his political fall.</p>
+        <p class="vb-intro"><strong>b) Retreat to the countryside, not retreat from work:</strong>
+        After losing his offices, Bacon withdrew to his estate at Gorhambury – but rather than
+        resting, he worked in the following five years more intensively than perhaps ever
+        before on his scientific writings, often into the early morning hours.</p>
+        <p class="vb-intro"><strong>c) The final carriage ride in the winter of 1626:</strong>
+        On the way to Highgate near London, in icy winter weather, Bacon had the idea that cold
+        might delay decay – a thought he immediately pursued experimentally, without regard
+        for the weather.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) The chicken experiment:</strong>
+        Bacon stopped the carriage, bought a chicken from a farm woman, and stuffed it with
+        snow with his own hands to test whether cold could prevent decay – an early, serious
+        attempt at food preservation, centuries before modern refrigeration.</p>
+        <p class="vb-intro"><strong>b) Too ill for the journey home:</strong>
+        The experiment left Bacon with a severe chill that rapidly worsened. He was too weak to
+        return to his own house and was instead taken to the nearby home of Lord Arundel.</p>
+        <p class="vb-intro"><strong>c) Death within days:</strong>
+        On April 9, 1626, Francis Bacon died at Arundel's house of bronchitis or pneumonia that
+        had developed from the chill – only days after the experiment that triggered his
+        death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The Eight-wing that ignored its own weakness too:</strong>
+        The same assertiveness that carried Bacon through political offices and grand
+        scientific projects also led him to disregard his own physical warning signs – gout,
+        kidney stones, and an already weakened state did not stop him from exposing himself to
+        a spontaneous experiment in winter.</p>
+        <p class="vb-intro"><strong>b) Curiosity with no built-in emergency brake:</strong>
+        The self-preservation Seven normally seeks security through caution and practical
+        foresight – in Bacon, that caution increasingly gave way, in his last decade, to pure
+        curiosity that no longer heeded his own condition.</p>
+        <p class="vb-intro"><strong>c) Work as the last remaining territory:</strong>
+        After losing his political power, all of the SP7w8's energy shifted to the one field
+        still left to him – his own research – with an intensity that seemed to know no
+        limit.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A life of chronic pain, rarely voiced:</strong>
+        Decades of gout and kidney stones accompanied Bacon through his entire political and
+        scientific career, without his giving them notable space in his writings – illness was
+        for him an obstacle to be worked around, not a theme to dwell on.</p>
+        <p class="vb-intro"><strong>b) A death that became an emblem of the whole life:</strong>
+        Scarcely any other Illness Portrait in this Compass shows such a literal match between
+        life pattern and cause of death: Bacon died not despite but because of his insatiable
+        curiosity – the very trait that carried his entire body of work became, at the decisive
+        moment, his undoing.</p>
+        <p class="vb-intro"><strong>c) Why, of all things, a chill?</strong>
+        For a self-preservation Seven with Eight-wing, whose security traditionally comes from
+        practical foresight and physical robustness, one reading suggests itself: precisely a
+        banal, avoidable chill – no dramatic affliction, but a carelessness in the face of his
+        own curiosity – became the fatal consequence of a life stance that systematically
+        subordinated practical caution to the joy of discovery. This reading is explored in
+        more depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Framing without determinism:</strong>
+        This does not mean the self-preservation Seven's pattern inevitably leads to such
+        accidents – <strong>every person can develop any illness, regardless of subtype.</strong>
+        What Bacon's case can show is a pattern that stands out again and again in practice
+        wherever curiosity runs without a brake – one possible explanation among many, not a
+        verdict. The corresponding condition will be developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Bacon's</strong> final years, the self-preservation Seven with Eight-wing
+        reveals itself in its most consistent form: decades of chronic, rarely voiced physical
+        burden that never truly restrained his insatiable curiosity – until a single
+        spontaneous experiment in the icy winter became his last. The gorilla that reached for
+        the next discovery to its final breath – and made one last experiment while dying.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-francis-bacon", label:"Portrait: Francis Bacon (SP7w8) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se7", label:"Subtype Profile SE7"},
       ])}
     </div>
   `);
@@ -64961,6 +65130,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "krankheitsportraets-robert-schumann": robertSchumannKrankheitsportraetPage,
+      "krankheitsportraets-francis-bacon": francisBaconKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
