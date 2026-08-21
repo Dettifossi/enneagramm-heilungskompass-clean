@@ -31407,6 +31407,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Sozialer Typ 1", krankheit:"Leberkrebs", teaser:"SO1w2 – Musiker und Künstler, 1947–2016. Kämpfte 18 Monate lang im Verborgenen gegen Leberkrebs und verwandelte die Diagnose in sein letztes Werk, das Album Blackstar, das zwei Tage vor seinem Tod erschien." , land:"Vereinigtes Königreich", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2", krankheit:"Fieberhafte Erkrankung mit Nierenversagen (vermutlich Folge einer Streptokokken-Infektion)", teaser:"SE2w3 – österreichischer Komponist, 1756–1791. Von Kindheit an eine Kette fieberhafter Erkrankungen (Pocken, Typhus, wiederkehrendes Scharlach), starb 1791 mit 35 Jahren nach zweiwöchiger Krankheit mit Fieber und generalisierten Ödemen – während er gleichzeitig an drei Großwerken arbeitete, darunter das unvollendete Requiem." , land:"Österreich", gender:"m", jahre:"1756–1791"},
   { route:"krankheitsportraets-marilyn-monroe", name:"Marilyn Monroe", subtyp:"SX3w4", heading:"Marilyn Monroe – Sexueller Typ 3", krankheit:"Tödliche Kombination aus Barbituraten (Nembutal) und Chloralhydrat, offiziell als wahrscheinlicher Suizid eingestuft", teaser:"SX3w4 – Schauspielerin, 1926–1962. Jahrelang hinter dem makellosen Image verborgene Endometriose, eskalierende Schlafmittelabhängigkeit, ein erzwungener Psychiatrieaufenthalt 1961. Starb 1962 mit 36 Jahren – die genauen Todesumstände sind bis heute umstritten." , land:"USA", gender:"f", jahre:"1926–1962"},
+  { route:"krankheitsportraets-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3", heading:"Freddie Mercury – Sexueller Typ 4", krankheit:"AIDS-bedingte Bronchopneumonie, nach fast fünf Jahren strikter Geheimhaltung erst einen Tag vor dem Tod öffentlich bestätigt", teaser:"SX4w3 – Musiker, Queen-Frontsänger, 1946–1991. Diagnose laut Jim Hutton im Frühjahr 1987, seither strikte Geheimhaltung bei gleichzeitigem Weiterarbeiten bis zur körperlichen Erschöpfung. Bestätigte die Erkrankung selbst erst am 23. November 1991, starb am nächsten Tag." , land:"Großbritannien", gender:"m", jahre:"1946–1991"},
   { route:"krankheitsportraets-lady-diana", name:"Lady Diana", subtyp:"SE4w3", heading:"Lady Diana – Selbsterhaltender Typ 4", krankheit:"Über Jahre verschwiegene Bulimie, verbunden mit Selbstverletzung und postnataler Depression", teaser:"SE4w3 – Princess of Wales, 1961–1997. Begann laut eigener Aussage in der Woche nach der Verlobung mit Prinz Charles 1981, machte sie erst 1995 im BBC-Panorama-Interview selbst öffentlich. Starb 1997 bei einem Autounfall in Paris – ohne belegten Zusammenhang mit der früheren Erkrankung." , land:"Vereinigtes Königreich", gender:"f", jahre:"1961–1997"},
   { route:"krankheitsportraets-osho", name:"Osho", subtyp:"SE3w4", heading:"Osho – Selbsterhaltender Typ 3", krankheit:"Herzversagen nach chronischen Beschwerden (Diabetes, Asthma, Rückenschmerzen) und einer bis heute umstrittenen Vergiftungsbehauptung", teaser:"SE3w4 – spiritueller Lehrer, 1931–1990. Chronische Beschwerden seit den frühen 1970ern, zwölftägige Haft in den USA 1985, danach neue Symptome, die er und sein Umfeld auf eine nie unabhängig bestätigte Vergiftung zurückführten. Starb 1990 mit 58 Jahren – die genaue Todesursache bleibt bis heute umstritten." , land:"Indien", gender:"m", jahre:"1931–1990"},
   { route:"krankheitsportraets-elvis-presley", name:"Elvis Presley", subtyp:"SX2w3", heading:"Elvis Presley – Sexueller Typ 2", krankheit:"Herzrhythmusstörung bei Herz-Kreislauf-Erkrankung und Megakolon, begünstigt durch jahrelange Medikamentenabhängigkeit", teaser:"SX2w3 – Musiker, 1935–1977. Über ein Jahrzehnt eskalierende Medikamentenabhängigkeit, ein stark vergrößertes Herz und ein Megakolon laut Autopsie. Tourte fast ununterbrochen weiter, während sein Körper sichtbar zusammenbrach. Starb 1977 mit nur 42 Jahren – die genaue Todesursache wird bis heute diskutiert." , land:"USA", gender:"m", jahre:"1935–1977"},
@@ -43076,7 +43077,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Zurückweisung oder Verbannung wird zu schöpferischer Kraft, statt in Rache oder Resignation zu münden",
         beschreibung: "Verletzung, Ablehnung oder erzwungene Distanz führen nicht zum Rückzug, sondern werden zum fruchtbarsten Material für ein eigenständiges Werk oder einen eigenständigen Weg.",
-        beleg: "Voltaire, der nach Verbannung aus Frankreich das Exil ›in den fruchtbarsten Abschnitt seines Lebens‹ verwandelte; Dante, der aus seiner Verbannung aus Florenz ›eines der gewaltigsten literarischen Werke der Weltgeschichte‹ schuf: ›Er verwandelte die Verbannung nicht in Resignation, sondern in das Material für ein Werk, das ihm posthum genau jene Unsterblichkeit sicherte, die ihm die Stadt zu Lebzeiten verweigerte‹; Ana de Armas, die sich ohne Netz und Kontakte in Hollywood durchkämpfte; Paris Hilton, die belastende Erfahrungen in sogenannten „Troubled-Teen“-Einrichtungen jahrzehntelang hinter einer perfekt inszenierten Kunstfigur verbarg, aus der zugleich ein eigenes Geschäftsimperium entstand."
+        beleg: "Voltaire, der nach Verbannung aus Frankreich das Exil ›in den fruchtbarsten Abschnitt seines Lebens‹ verwandelte; Dante, der aus seiner Verbannung aus Florenz ›eines der gewaltigsten literarischen Werke der Weltgeschichte‹ schuf: ›Er verwandelte die Verbannung nicht in Resignation, sondern in das Material für ein Werk, das ihm posthum genau jene Unsterblichkeit sicherte, die ihm die Stadt zu Lebzeiten verweigerte‹; Ana de Armas, die sich ohne Netz und Kontakte in Hollywood durchkämpfte; Paris Hilton, die belastende Erfahrungen in sogenannten „Troubled-Teen“-Einrichtungen jahrzehntelang hinter einer perfekt inszenierten Kunstfigur verbarg, aus der zugleich ein eigenes Geschäftsimperium entstand; Freddie Mercury, der ausgerechnet in seinem letzten Lebensjahr, körperlich sichtbar geschwächt durch eine jahrelang geheim gehaltene AIDS-Erkrankung, einige der eindringlichsten Aufnahmen seiner Karriere schuf, statt sich zurückzuziehen."
       },
       {
         titel: "Kompromisslose Intensität, die sich keiner fremden Konvention fügt",
@@ -45575,6 +45576,10 @@ function freddieMercuryPortraitPage() {
         <p class="krim-portrait-subtitle">Rocks\u00e4nger &amp; Songwriter, 1946&ndash;1991 &ndash; Tierentsprechung: Chihuahua</p>
       </div>
       <div class="page-content">
+        <p class="vb-intro" style="text-align:center;font-style:italic;">
+          Ein eigenes <a href="javascript:void(0)" data-route="krankheitsportraets-freddie-mercury">Krankheitsportr\u00e4t</a>
+          widmet sich Mercurys jahrelang geheim gehaltener AIDS-Erkrankung und ihrer Offenlegung 1991.
+        </p>
 
         <h2 class="vb-section">1. Der Chihuahua</h2>
         <blockquote class="vb-blockquote">
@@ -45616,6 +45621,7 @@ function freddieMercuryPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx4", label:"SX4 \u2013 Der Chihuahua: Subtyp-Profil"},
+        {route:"krankheitsportraets-freddie-mercury", label:"Krankheitsportr\u00e4t: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-john-lennon", label:"Portr\u00e4t: John Lennon (SO4w5)"},
         {route:"beruehmte-voltaire", label:"Portr\u00e4t: Voltaire (SX4w3)"},
       ])}
@@ -69975,6 +69981,185 @@ function ladyDianaKrankheitsportraetPage() {
         {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
+      ])}
+    </div>
+  `);
+}
+
+function freddieMercuryKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-freddie-mercury-portrait.jpg" alt="Freddie Mercury" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Freddie Mercury</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexueller Typ 4 mit Dreierflügel · 1946–1991</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Tierentsprechung: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Freddie Mercury</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-freddie-mercury">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: eine fast
+        fünf Jahre lang streng geheim gehaltene AIDS-Erkrankung, die er erst einen Tag vor
+        seinem Tod 1991 selbst öffentlich bestätigte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Mercury</strong> ist dem <strong>sexuellen Typ 4 mit Dreierflügel</strong>
+        zugeordnet. Die SX4 verwandelt persönlichen Schmerz und Sehnsucht in Intensität, die
+        andere unmittelbar berührt – auf der Bühne kompromisslos sichtbar. Der Dreierflügel
+        bringt die Fähigkeit, dieses Innenleben in beeindruckende öffentliche Wirkung zu
+        gießen. Genau diese Spannung zwischen radikaler Selbstoffenbarung auf der Bühne und
+        einer ebenso radikal kontrollierten Privatsphäre prägt auch Mercurys
+        Krankheitsgeschichte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Gerüchte, die er nie bestätigte:</strong>
+        Ab Mitte der 1980er-Jahre kursierten in der Presse zunehmend Gerüchte über Mercurys
+        Gesundheitszustand – er selbst äußerte sich dazu öffentlich nicht, weder bestätigend
+        noch dementierend.</p>
+        <p class="vb-intro"><strong>b) Eine Diagnose, die Privatsache blieb:</strong>
+        Laut den Erinnerungen seines Partners Jim Hutton wurde Mercury im Frühjahr 1987 mit
+        HIV diagnostiziert – eine Information, die er über Jahre auch engsten Vertrauten nur
+        stückweise mitteilte.</p>
+        <p class="vb-intro"><strong>c) Eine Bühnenpräsenz, die keinen Verfall zeigte:</strong>
+        Bis zu seinem letzten öffentlichen Auftritt blieb die Diskrepanz zwischen der
+        strahlenden Kunstfigur und dem zunehmend geschwächten Körper dahinter für die
+        Öffentlichkeit kaum sichtbar.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine klare Ansage an die Band:</strong>
+        Laut Roger Taylor rief Mercury die Band zu einem Treffen zusammen und sagte
+        sinngemäß, sie würden wohl ahnen, was mit ihm los sei – aber es solle "nicht bekannt
+        werden" und "keinen Unterschied machen"; er wolle einfach weiterarbeiten, "bis ich
+        verdammt noch mal umfalle" (›until I fucking well drop‹), und bat um ihre
+        Unterstützung dabei.</p>
+        <p class="vb-intro"><strong>b) Weiterarbeiten trotz sichtbarer Schwäche:</strong>
+        Bei den Aufnahmen zu "The Show Must Go On" konnte Mercury laut Brian May kaum noch
+        stehen, bestand aber darauf zu singen: "He could hardly stand, but he said 'I'll
+        fucking do it, darling!'" (›Er konnte kaum stehen, sagte aber: Ich mach das
+        verdammt noch mal, Liebling!‹)</p>
+        <p class="vb-intro"><strong>c) Ein Album, dessen Veröffentlichung sich verzögerte:</strong>
+        "Innuendo", aufgenommen zwischen März 1989 und November 1990, verschob sich wegen
+        seines Gesundheitszustands vom ursprünglich geplanten Termin Ende 1990 auf Februar
+        1991.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein letztes Video in bewusstem Schwarz-Weiß:</strong>
+        Für das am 30. Mai 1991 gedrehte Video zu "These Are the Days of Our Lives" wurde
+        bewusst Schwarz-Weiß gewählt, um seinen sichtbaren körperlichen Verfall zu kaschieren
+        – später aufgetauchtes Farbmaterial zeigte, wie geschwächt er tatsächlich war.</p>
+        <p class="vb-intro"><strong>b) "I still love you" – letzte Worte auf Kamera:</strong>
+        Mercury bewegte sich im Video kaum noch und trug die emotionale Wirkung fast
+        ausschließlich über Mimik; sein geflüstertes "I still love you" am Ende gilt als
+        seine letzten Worte vor laufender Kamera.</p>
+        <p class="vb-intro"><strong>c) Eine Presseerklärung einen Tag vor dem Tod:</strong>
+        Am 23. November 1991 bestätigte Mercury in einer kurzen Erklärung selbst: "I wish to
+        confirm that I have been tested HIV-positive and have AIDS" (›Ich möchte bestätigen,
+        dass bei mir HIV positiv getestet wurde und dass ich AIDS habe‹) – nach Jahren
+        strikter Geheimhaltung erklärte er, die Zeit sei nun gekommen, dass Freunde und Fans
+        weltweit die Wahrheit erfahren sollten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 24. November 1991:</strong>
+        Mercury starb einen Tag nach seiner Presseerklärung an einer Bronchopneumonie als
+        Folge von AIDS, in seinem Haus in London.</p>
+        <p class="vb-intro"><strong>b) Sein Partner Jim Hutton an seiner Seite:</strong>
+        Jim Hutton, seit sechs Jahren Mercurys Lebenspartner, war in seinen letzten Stunden
+        bei ihm. Wenige Tage zuvor soll Mercury zu ihm gesagt haben: "I never realized you
+        were as strong as you are" (›Ich habe nie gemerkt, wie stark du eigentlich bist‹).</p>
+        <p class="vb-intro"><strong>c) Ein Konzert, das zum globalen Ereignis wurde:</strong>
+        Das Freddie Mercury Tribute Concert am 20. April 1992 in Wembley war innerhalb von
+        vier Stunden ausverkauft und erreichte laut Schätzungen bis zu einer Milliarde
+        Zuschauer weltweit – die Erlöse begründeten den bis heute aktiven Mercury Phoenix
+        Trust.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Vollständige Kontrolle über die eigene Erzählung:</strong>
+        Genau die SX4w3-Fähigkeit, das eigene Bild bewusst zu gestalten, ermöglichte es
+        Mercury, die Deutungshoheit über seine Krankheit bis zuletzt selbst zu behalten –
+        statt sie der Presse zu überlassen.</p>
+        <p class="vb-intro"><strong>b) Intensität statt Rückzug:</strong>
+        Anders als ein offener Zusammenbruch zeigte sich Mercurys Reaktion auf die Krankheit
+        als gesteigerte kreative Intensität – er nutzte die verbleibende Zeit, um so viel
+        Musik wie möglich fertigzustellen, statt sich zurückzuziehen.</p>
+        <p class="vb-intro"><strong>c) Der Chihuahua, der bis zuletzt nicht aufhörte zu bellen:</strong>
+        Bis zum letzten möglichen Moment blieb die schöpferische Energie ungebrochen –
+        selbst als der Körper längst nicht mehr mithalten konnte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Identität, die schon immer neu erschaffen wurde:</strong>
+        Mercury, geboren als Farrokh Bulsara in Sansibar, hatte sich zeitlebens neu erfunden
+        – auch gegenüber seinen Eltern verschwieg er sowohl seine Homosexualität als auch
+        später seine Erkrankung vollständig.</p>
+        <p class="vb-intro"><strong>b) Eine über Jahre verborgene Krankheit:</strong>
+        Von den ersten Gerüchten Mitte der 1980er über die Diagnose 1987 bis zur
+        Presseerklärung 1991 zieht sich eine durchgehende, aber öffentlich fast vollständig
+        kontrollierte Linie – nichts wurde ihm entrissen, alles wurde von ihm selbst
+        freigegeben.</p>
+        <p class="vb-intro"><strong>c) Ein letztes Jahr zwischen Verfall und Schaffenskraft:</strong>
+        Gerade 1990/91 – körperlich sichtbar geschwächt – entstanden einige der
+        eindringlichsten Aufnahmen seiner Karriere, darunter "The Show Must Go On" und "These
+        Are the Days of Our Lives".</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet das Immunsystem?</strong>
+        Für eine sexuelle Vier mit Dreierflügel, deren Identität sich über schonungslose
+        Selbstoffenbarung auf der Bühne bei gleichzeitiger strikter Kontrolle der eigenen
+        Privatsphäre definierte, liegt eine Deutung nahe: Ausgerechnet jenes System, das
+        zwischen dem eigenen Selbst und der Außenwelt unterscheidet und schützt, wurde zum
+        Ort des Zusammenbruchs – während die öffentliche Kontrolle über das eigene Bild bis
+        zuletzt aufrechterhalten wurde. Diese Deutung ist eine plausible Interpretation,
+        kein belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register
+        dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Vier zwangsläufig zu AIDS oder anderen
+        Immunerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Mercurys Fall zeigen lässt, ist ein
+        Muster, das bei dem Bedürfnis, radikale Selbstoffenbarung und strikte
+        Privatsphäre-Kontrolle gleichzeitig zu leben, in der Praxis immer wieder auffällt –
+        eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild
+        wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Mercurys</strong> Geschichte offenbart sich die sexuelle Vier mit
+        Dreierflügel noch einmal mit voller Wucht: eine Krankheit, über Jahre mit
+        eiserner Selbstkontrolle verborgen, ein Körper, der zusehends versagte, während die
+        Schaffenskraft bis zuletzt ungebrochen blieb, und ein letztes öffentliches Wort, das
+        er sich selbst aussuchte, statt es sich nehmen zu lassen. Der Chihuahua, der bis zum
+        letzten Atemzug seine eigene Erzählung bestimmte – und dessen Vermächtnis, der
+        Mercury Phoenix Trust, bis heute weiterwirkt.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
       ])}
     </div>
   `);
@@ -98993,6 +99178,7 @@ function render() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-freddie-mercury": freddieMercuryKrankheitsportraetPage,
       "krankheitsportraets-lady-diana": ladyDianaKrankheitsportraetPage,
       "krankheitsportraets-marilyn-monroe": marilynMonroeKrankheitsportraetPage,
       "krankheitsportraets-osho": oshoKrankheitsportraetPage,
