@@ -97068,6 +97068,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor einer Frozen Shoulder oder einem Schulter-Impingement gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Öffnung, Nähe und Bewegungsfreiheit verhandelt – manche über Daueranspannung und Kontrolle, andere über Rückzug, Überlastung oder eine nie bemerkte eigene Erstarrung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  ischialgie: {
+    titel: "Ischialgie / Hexenschuss",
+    kategorie: "bewegungsapparat",
+    icon: "&#9889;",
+    kurz: "Wenn ein einziger, plötzlicher Moment den ganzen Rücken für Tage lahmlegt.",
+    definition: "Ischialgie bezeichnet einen Schmerz entlang des Ischiasnervs, meist ausgelöst durch eine Reizung oder Kompression der Nervenwurzel im unteren Rücken – häufig durch einen Bandscheibenvorfall, eine Verengung des Wirbelkanals oder eine muskuläre Verspannung. Der Schmerz strahlt typischerweise vom unteren Rücken über das Gesäß bis in Ober- und Unterschenkel aus. Der Hexenschuss (Lumbago) dagegen bezeichnet einen plötzlich einschießenden, oft heftigen Schmerz im unteren Rücken selbst, meist ausgelöst durch eine ungeschickte, ruckartige Bewegung – etwa beim Bücken oder Aufrichten –, ohne dass zwingend eine Nervenwurzel betroffen sein muss. Beide Beschwerdebilder treten oft gemeinsam auf und teilen die Region, aus der sie entstehen.",
+    symptome: [
+      "Plötzlich einschießender, oft blitzartiger Schmerz im unteren Rücken (Hexenschuss)",
+      "Ausstrahlender, häufig brennender oder ziehender Schmerz vom Gesäß über die Rückseite des Beins (Ischialgie)",
+      "Verstärkung der Beschwerden beim Husten, Niesen oder Pressen",
+      "Verspannte, kaum bewegliche Rückenmuskulatur, oft mit einer schmerzbedingten Schonhaltung",
+      "Kribbeln oder Taubheitsgefühl im betroffenen Bein bei Nervenbeteiligung",
+      "Eingeschränkte Fähigkeit, sich zu bücken, aufzurichten oder zu drehen",
+    ],
+    notfall: "Bei plötzlichem Verlust der Blasen- oder Darmkontrolle, Taubheitsgefühl im Bereich des Gesäßes oder der Innenschenkel (&bdquo;Reithosenanästhesie&ldquo;) oder rasch fortschreitender Lähmung eines oder beider Beine: sofort den Notruf 112 wählen. Dies kann auf ein Kaudasyndrom hinweisen, eine seltene, aber akut operationsbedürftige Notfallsituation. Der gewöhnliche Hexenschuss oder eine Ischialgie ohne diese Warnzeichen sind dagegen in der Regel kein Notfall, sollten aber bei anhaltenden Beschwerden ärztlich abgeklärt werden.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Anders als die schleichenden Rückenschmerzen, die sich über Jahre entwickeln, sind der Hexenschuss und die akute Ischialgie oft ein einziger, plötzlicher Moment: eine Bewegung zu viel, ein letzter Tropfen, der ein längst überlastetes Fass zum Überlaufen bringt. Die Traditionelle Chinesische Medizin ordnet diese Beschwerden häufig einer plötzlichen Blockade von Qi und Blut im unteren Rücken zu, oft ausgelöst durch das Zusammentreffen einer bereits bestehenden Schwäche mit einem akuten äußeren Reiz wie Kälte oder einer ungeschickten Bewegung. Die Psychosomatik liest in diesem plötzlichen, blitzartigen Einschießen oft ein Bild jener Momente, in denen eine lange zurückgehaltene Überlastung sich nicht länger kontrollieren lässt – nicht als langsamer Verschleiß, sondern als ein einziger, unübersehbarer Moment des Zusammenbruchs.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der sich in einem einzigen, blitzartigen Moment entlädt",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger über Jahre diszipliniert zurück, ohne ihn je zu äußern – bricht diese Kontrolle irgendwann punktuell zusammen, liest die Psychosomatik darin ein plausibles Bild für einen Schmerz, der plötzlich, blitzartig einschießt, statt sich allmählich zu lösen." },
+          { code: "SO1", text: "Die soziale Eins trägt eine über Jahre gesammelte moralische Empörung – diese entlädt sich selten in einem einzigen, klaren Moment, eher in fortlaufendem Engagement." },
+          { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter aus – dadurch potenziell mehr punktuelle Entladung, die eher zum Bild des plötzlichen Einschießens passt." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der die eigene Überlastung erst bei einer letzten, kleinen Bewegung zeigt",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei gibt still, bis die eigenen Kräfte erschöpft sind – oft ist es eine scheinbar harmlose, alltägliche Bewegung, die den Zusammenbruch einer längst überlasteten Struktur auslöst, ganz wie beim Hexenschuss." },
+          { code: "SO2", text: "Die soziale Zwei bleibt für die Gemeinschaft verfügbar, bis zur eigenen Überlastung – ein System, das lange durchhält, bevor es an einer einzigen Stelle plötzlich nachgibt." },
+          { code: "SX2", text: "Die sexuelle Zwei investiert intensives Geben in die eine Beziehung – die Belastungsspitzen entstehen hier eher episodisch." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die bis zum plötzlichen Zusammenbruch weiterläuft",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei funktioniert ununterbrochen weiter, bis der Körper mit einem einzigen, unübersehbaren Ereignis Stopp sagt – ein plötzlicher Hexenschuss passt zum Bild eines Systems, das erst dann innehält, wenn es keine andere Wahl mehr hat." },
+          { code: "SO3", text: "Die soziale Drei treibt sich im ständigen Wettbewerb voran, bis der Körper unübersehbar Grenzen setzt – ein abruptes Stoppschild, das mitten in einer erfolgreichen Phase auftaucht." },
+          { code: "SX3", text: "Die sexuelle Drei optimiert sich permanent im Beziehungskontext – die Belastung zeigt sich hier eher als schleichender emotionaler Druck denn als plötzliches Ereignis." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich plötzlich und schmerzhaft Bahn bricht",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahre unausgesprochene Sehnsucht, die sich nie in kleinen Schritten löst, kann sich in einem einzigen, plötzlichen Moment schmerzhaft entladen." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar – ein Ventil nach außen, das eher zu kontinuierlichem Ausdruck als zu einem einzigen abrupten Ereignis passt." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – heftige, episodische Ausschläge, die durchaus zum Bild eines plötzlichen Einschießens passen können." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der eine einzige, ungewohnte Bewegung überlastet",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und bewegt sich oft wenig – eine seltene, ungewohnte körperliche Anstrengung nach langer Inaktivität kann den Rücken besonders unvorbereitet treffen, ganz wie beim klassischen Hexenschuss-Auslöser." },
+          { code: "SO5", text: "Die soziale Fünf hält auch im sozialen Kontext innere Distanz – eine Zurückhaltung, die eher geistiger als körperlicher Natur ist." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – innerhalb dieser schmalen Verbindung durchaus lebendig und beweglich." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die sich plötzlich in einem einzigen, scharfen Schmerz entlädt",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Alarmbereitschaft – diese chronische Anspannung liest die Psychosomatik als möglichen Nährboden für einen Rücken, der sich irgendwann nicht mehr kontrolliert entlädt, sondern schlagartig durchbricht." },
+          { code: "SO6", text: "Die soziale Sechs trägt fortlaufend Sorge um das Kollektiv – diese Sorge wird selten offen ausgesprochen oder abgegeben." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Erstarrung – dadurch eher episodische Anspannung als eine dauerhaft aufgestaute Blockade." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die den Rücken durch abrupte, unvorbereitete Bewegung überfordert",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über viele parallele Aktivitäten ab – ein Lebensstil ständiger, oft impulsiver Bewegung ohne ausreichende Vorbereitung passt besonders unmittelbar zum Bild eines plötzlichen, überraschenden Rückeneinschusses." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – die eigene Erschöpfung wird lange nicht als Warnsignal gelesen." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – spontane, ungeplante körperliche Anstrengungen gehören zu einem Muster, das den Rücken selten schont." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die erst durch ein plötzliches Ereignis zum Innehalten gezwungen wird",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht hält Kontrolle über die eigenen Ressourcen straff aufrecht – ein plötzlicher Hexenschuss kann hier als die eine Stelle gelesen werden, an der der Körper eine Pause erzwingt, die der Wille sich selbst nie erlaubt hätte." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Führungsspannung für die Gruppe – ein abrupter körperlicher Ausfall wird hier oft als Versagen der eigenen Schutzfunktion erlebt." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich in extremen, episodischen Ausschlägen, die zum Bild eines plötzlichen Ereignisses passen." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die erst durch einen plötzlichen Schmerz unterbrochen wird",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und Routine – nach außen wirkt vieles entspannt, doch wenn eine über Jahrzehnte fortgesetzte Selbstvergessenheit auf eine ungewohnte Bewegung trifft, kann der Körper mit einem einzigen, plötzlichen Schmerz genau dort Grenzen ziehen, wo die eigene Stimme es nie täte." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – eine chronische Selbstauslöschung, bei der die Belastungsgrenze regelmäßig überschritten wird, bevor der Körper eingreift." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Rückens, der die eigene Grenze erst dann spürt, wenn der Schmerz sie unübersehbar macht." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor Ischialgie oder einem Hexenschuss gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit angesammelter Überlastung und plötzlicher Entladung verhandelt – manche über zurückgehaltene Spannung, andere über Kontrolle, Bewegungsmangel oder eine nie rechtzeitig bemerkte eigene Grenze. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -97077,7 +97170,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
+  "bewegungsapparat": ["Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],

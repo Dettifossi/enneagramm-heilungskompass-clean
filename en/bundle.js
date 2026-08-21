@@ -62294,6 +62294,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to frozen shoulder or shoulder impingement, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates openness, closeness, and freedom of movement in its own way – some through sustained tension and control, others through withdrawal, overload, or a rigidity of their own that was never noticed. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  ischialgie: {
+    titel: "Sciatica",
+    kategorie: "bewegungsapparat",
+    icon: "&#9889;",
+    kurz: "When a single, sudden moment locks up the entire back for days.",
+    definition: "Sciatica refers to pain along the sciatic nerve, usually triggered by irritation or compression of the nerve root in the lower back – often caused by a herniated disc, a narrowing of the spinal canal, or muscular tension. The pain typically radiates from the lower back through the buttock into the thigh and calf. Lumbago, by contrast, refers to a suddenly shooting, often severe pain in the lower back itself, usually triggered by an awkward, jerky movement – for instance while bending or straightening up – without a nerve root necessarily being involved. Both conditions often occur together and share the region from which they arise.",
+    symptome: [
+      "Suddenly shooting, often lightning-like pain in the lower back (lumbago)",
+      "Radiating, often burning or pulling pain from the buttock down the back of the leg (sciatica)",
+      "Worsening of symptoms when coughing, sneezing, or straining",
+      "Tense, barely mobile back muscles, often with a pain-driven protective posture",
+      "Tingling or numbness in the affected leg when a nerve is involved",
+      "Limited ability to bend, straighten up, or turn",
+    ],
+    notfall: "In the case of sudden loss of bladder or bowel control, numbness in the area of the buttocks or inner thighs (&bdquo;saddle anesthesia&ldquo;), or rapidly progressing weakness in one or both legs: call emergency services immediately. This can indicate cauda equina syndrome, a rare but acutely surgery-requiring emergency. Ordinary lumbago or sciatica without these warning signs is generally not an emergency, but should be medically evaluated if symptoms persist.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Unlike gradually developing back pain that builds up over years, lumbago and acute sciatica are often a single, sudden moment: one movement too many, a final drop that overflows an already overloaded barrel. Traditional Chinese Medicine often assigns these complaints to a sudden blockage of Qi and Blood in the lower back, frequently triggered by the meeting of an already existing weakness with an acute outer stimulus such as cold or an awkward movement. Psychosomatic medicine therefore often reads this sudden, lightning-like shooting pain as a picture of those moments when a long-held-back overload can no longer be controlled – not as slow wear, but as a single, unmistakable moment of collapse.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that discharges in a single, lightning-like moment",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One holds anger back, disciplined, for years, without ever voicing it – if this control eventually breaks down at some point, psychosomatic medicine reads in it a plausible picture for a pain that shoots in suddenly, like lightning, rather than releasing gradually." },
+          { code: "SO1", text: "The social One carries a moral outrage accumulated over years – this rarely discharges in a single, clear moment, more often in ongoing engagement." },
+          { code: "SX1", text: "The sexual One lives anger more directly – potentially more punctual discharge, which fits the picture of sudden shooting pain better." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that only shows its own overload at one last, small movement",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two gives quietly until its own strength is exhausted – often it is a seemingly harmless, everyday movement that triggers the collapse of an already overloaded structure, just like with lumbago." },
+          { code: "SO2", text: "The social Two stays available to the community up to the point of its own overload – a system that holds out for a long time before suddenly giving way at a single point." },
+          { code: "SX2", text: "The sexual Two invests intense giving into the one relationship – the peaks of strain here tend to arise episodically." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that keeps going until a sudden collapse",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps functioning without break until the body says stop with a single, unmistakable event – a sudden bout of lumbago fits the picture of a system that only pauses when it has no other choice left." },
+          { code: "SO3", text: "The social Three drives itself forward in constant competition until the body unmistakably sets limits – an abrupt stop sign that appears in the middle of a successful phase." },
+          { code: "SX3", text: "The sexual Three optimizes itself permanently within the relational context – the strain here shows up more as gradual emotional pressure than as a sudden event." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that suddenly and painfully breaks through",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – a years-long, unspoken longing that never releases in small steps can discharge painfully in a single, sudden moment." },
+          { code: "SO4", text: "The social Four makes its own suffering visible – an outward outlet that fits continuous expression better than a single abrupt event." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity – intense, episodic swings that can certainly fit the picture of a sudden shooting pain." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that overloads a single, unfamiliar movement",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically and often moves little – a rare, unfamiliar physical exertion after long inactivity can hit the back especially unprepared, just like the classic trigger for lumbago." },
+          { code: "SO5", text: "The social Five keeps inner distance even in social contexts – a reserve that is more mental than physical in nature." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – quite lively and mobile within this narrow connection." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that suddenly discharges in a single, sharp pain",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six lives in constant alertness – psychosomatic medicine reads this chronic tension as a possible breeding ground for a back that eventually discharges not in a controlled way but abruptly, all at once." },
+          { code: "SO6", text: "The social Six continually worries about the collective – this worry is rarely voiced openly or handed off." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation rather than rigidity – producing episodic tension rather than a permanently pent-up blockage." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that overtaxes the back through abrupt, unprepared movement",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through many parallel activities – a lifestyle of constant, often impulsive movement without adequate preparation fits especially directly with the picture of a sudden, surprising bout of back pain." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – its own exhaustion is not read as a warning sign for a long time." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – spontaneous, unplanned physical exertion is part of a pattern that rarely spares the back." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that only pauses once forced to by a sudden event",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight keeps tight control over its own resources – a sudden bout of lumbago can here be read as the one place where the body forces a pause that the will would never have granted itself." },
+          { code: "SO8", text: "The social Eight carries permanent leadership tension for the group – an abrupt physical incapacity is often experienced here as a failure of its own protective function." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – the strain shows up in extreme, episodic swings that fit the picture of a sudden event." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that is only interrupted by a sudden pain",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort and routine – outwardly much looks relaxed, but when a decades-long continued self-forgetting meets an unfamiliar movement, the body can draw a line with a single, sudden pain exactly where its own voice never would." },
+          { code: "SO9", text: "The social Nine consistently subordinates its own opinion to the group – a chronic self-erasure in which the limit is regularly crossed before the body intervenes." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a back that only feels its own limit once the pain makes it unmistakable." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to sciatica or lumbago, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates accumulated overload and sudden discharge in its own way – some through held-back tension, others through control, lack of movement, or a limit of their own that was never noticed in time. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -62302,7 +62395,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Sciatica", "Tendinitis"],
+  "bewegungsapparat": ["Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],
