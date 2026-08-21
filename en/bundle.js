@@ -60620,6 +60620,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to a heart attack, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates with the heart as the organ of life force in its own way – some through tension and control, others through withdrawal, exhaustion, or a need of their own that was never heard. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  arteriosklerose: {
+    titel: "Atherosclerosis",
+    kategorie: "herz-kreislauf",
+    icon: "&#129505;",
+    kurz: "When, over decades, what was never allowed to flow settles and hardens.",
+    definition: "Atherosclerosis (commonly known as &bdquo;hardening of the arteries&ldquo;) is a chronic condition of the artery walls that usually progresses over decades: fat, calcium, connective tissue and inflammatory cells build up as plaques inside the vessel wall, and the arteries gradually harden and narrow. Virtually any artery in the body can be affected – the coronary arteries (coronary artery disease), the vessels supplying the brain (stroke risk), or the leg arteries (peripheral arterial disease, &bdquo;intermittent claudication&ldquo;). Atherosclerosis itself is usually silent for years and often only becomes visible through its consequences – heart attack, stroke, circulatory disturbances.",
+    symptome: [
+      "Usually no noticeable symptoms for years – the disease stays silent for a long time",
+      "When leg arteries narrow: calf pain while walking that eases at rest (intermittent claudication)",
+      "When coronary arteries narrow: pressure or pain in the chest under exertion (angina pectoris)",
+      "When the vessels supplying the brain narrow: temporary visual disturbances, speech disturbances, weakness on one side of the body (warning signs of stroke)",
+      "Cold feet, poorly healing wounds on the legs as a sign of advanced circulatory disturbance",
+      "Erectile dysfunction can be an early warning sign of atherosclerosis",
+    ],
+    notfall: "If symptoms appear suddenly – visual disturbances, speech disturbances, weakness or numbness on one side of the body, severe chest pain, or a sudden, severe loss of circulation in a leg – call emergency services immediately. These symptoms can indicate an acute stroke, heart attack, or vessel blockage – here every minute counts, this is not the moment for psychosomatic interpretation.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Conventional medicine today understands atherosclerosis primarily as a chronic inflammatory process: tiny injuries to the inner vessel wall, often promoted by high blood pressure, smoking, or elevated blood lipids, set off a years-long cascade of inflammation and deposit-building. Traditional Chinese Medicine describes a related picture as Blood stagnation (Xue Yu) – a flow that comes to a halt because Qi has been unable to circulate freely for a long time. Psychosomatic medicine often reads this slow, silent hardening of the vessels as a symbol: a life, an attitude, or a feeling that was no longer allowed to flow for decades, but instead solidified layer by layer – until the body itself becomes rigid where the soul already was.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that condenses into deposits",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One keeps its own anger disciplined and under control for decades – nothing may show on the outside, everything stays internally managed. Psychosomatic medicine reads exactly this permanent management of tension that never finds release as a plausible symbol for a process that settles layer by layer in the vessel walls instead of ever dissolving." },
+          { code: "SO1", text: "The social One turns anger into moral engagement for the group – the anger gets an outlet in words and reform efforts, yet the underlying feeling that the world constantly needs correcting remains a chronic, never fully resolved inner state of tension." },
+          { code: "SX1", text: "The sexual One lives anger more directly, within the relationship itself – potentially less silent, sustained hardening, but recurring episodes of intense emotional tension that can accumulate over the years." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that lets no one in",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two suppresses its own needs for decades in favor of others – a quiet, never voiced giving in which nothing flows back. This one-sided, never reciprocated flow can be read psychosomatically as an image for vessels that narrow because the circulation between giving and receiving is permanently out of balance." },
+          { code: "SO2", text: "The social Two seeks meaning through constant availability to the community – the inability to say no creates a chronic overload that can condense over the years into a quiet, sustained strain on the entire circulatory system." },
+          { code: "SX2", text: "The sexual Two invests intense, often possessive giving into the one relationship – emotional volatility and jealousy act here more as episodic peaks of strain than as steady, sustained narrowing." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that never lets the flow pause",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps working quietly and efficiently even when the body has long been asking for a break – exhaustion is read as weakness, not as a signal. Over decades, this constant self-overextension condenses into a picture in which the vessels, too, never come to rest." },
+          { code: "SO3", text: "The social Three seeks success visibly and in comparison with others – a life in permanent competition mode that comes closest to the picture of the Type-A personality and rarely knows real periods of recovery over the years." },
+          { code: "SX3", text: "The sexual Three deploys constant self-optimization within the relational context – the pressure to never let up even in the most intimate sphere creates a tension that is rarely named openly but is carried for years." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that settles in",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – a decades-long, unspoken longing that never discharges into movement, only into inner hardening." },
+          { code: "SO4", text: "The social Four makes its own suffering visible and part of its own identity – the emotional intensity at least finds an outward outlet, which may make the silent solidification less pronounced here than in the counter-type." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity, often in constant comparison with ideals or other relationships – intense, episodic swings shape the picture here more than a steady, silent hardening." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that narrows the pathways",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically and minimizes contact and needs – social isolation is itself a recognized medical risk factor for vascular disease, independent of acute stress, and fits especially clearly with the picture of a system that narrows itself over the years." },
+          { code: "SO5", text: "The social Five seeks access to the group through knowledge, but keeps inner distance – a mixture of participation and withdrawal in which its own needs are rarely named clearly." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – a narrow but deep connection alongside radical closure to the outside world." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that deposits itself layer by layer",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six lives in a form of permanent alertness that, through chronically elevated stress-hormone levels, is plausibly linked to elevated risk of vascular change – safety is sought but never finally found, and the tension persists year after year." },
+          { code: "SO6", text: "The social Six seeks safety through belonging to a group or authority – the strain here arises above all from a felt responsibility for the collective, a worry that is rarely voiced openly." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation rather than withdrawal – this mixture of fear and anger produces episodic peaks of strain rather than the steady, sustained tension of the other Six variants." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that overtaxes the vessels",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through options, networks, and indulgences – restlessness and a lifestyle geared toward permanent scattering rather than rest counts medically as its own risk factor for vascular change, independent of inner tension." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – an idealistic, often duty-bound self-sacrifice that denies its own exhaustion and the physical warning signs that come with it for a long time." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – here the more plausible link is often not the inner tension itself but the lifestyle: nicotine, alcohol, or other stimulants as recognized, medically well-documented risk factors for atherosclerosis." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that leaves no room to spare",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight secures its own existence through control over material and physical resources – the need for rest is experienced as a point of attack, not a legitimate need. The system runs permanently under high tension, because slowing down has no place in the inner self-image." },
+          { code: "SO8", text: "The social Eight takes on responsibility and leadership for the group, often in a protector role – permanent leadership tension and the conviction of never being allowed to be weak are the central, long-running strain here." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – the strain shows up more in extreme swings than in steady, sustained hardening." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that hardens silently",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort, routine, and conflict avoidance – little visible tension on the outside, but a decades-long continued self-forgetting in which its own needs are never heard. This silent self-hardening may be the most direct match to a disease that itself stays symptom-free for years." },
+          { code: "SO9", text: "The social Nine seeks harmony at any cost within the group, consistently subordinating its own opinion – a chronic self-erasure in favor of social peace that builds up quietly over a long time." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a system that, over decades, never found a movement of its own." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to atherosclerosis, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates, in its own way, with the slow, often decades-long process of hardening and narrowing – some through sustained tension and control, others through withdrawal, exhaustion, or a need of their own that was never heard. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -60627,7 +60720,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // and then moved into PSYCHOSOMATIK_KRANKHEITEN. Until then they appear on the overview
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["High Blood Pressure (Hypertension)", "Stroke", "Heart Failure", "Atrial Fibrillation", "Coronary Artery Disease / Angina Pectoris", "Varicose Veins", "Thrombosis", "Atherosclerosis", "Low Blood Pressure (Hypotension)"],
+  "herz-kreislauf": ["High Blood Pressure (Hypertension)", "Stroke", "Heart Failure", "Atrial Fibrillation", "Coronary Artery Disease / Angina Pectoris", "Varicose Veins", "Thrombosis", "Low Blood Pressure (Hypotension)"],
   "bewegungsapparat": ["Back Pain / Herniated Disc", "Osteoarthritis", "Rheumatoid Arthritis", "Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],

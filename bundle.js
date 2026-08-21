@@ -95394,6 +95394,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor einem Herzinfarkt gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit dem Herzen als Organ der Lebenskraft verhandelt – manche über Anspannung und Kontrolle, andere über Rückzug, Erschöpfung oder ein nie gehörtes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  arteriosklerose: {
+    titel: "Arteriosklerose",
+    kategorie: "herz-kreislauf",
+    icon: "&#129505;",
+    kurz: "Wenn sich über Jahrzehnte ablagert, was nie fließen durfte.",
+    definition: "Arteriosklerose (umgangssprachlich &bdquo;Arterienverkalkung&ldquo;) bezeichnet eine chronische, meist über Jahrzehnte fortschreitende Erkrankung der Arterienwände: Fett, Kalk, Bindegewebe und Entzündungszellen lagern sich als Plaques in der Gefäßinnenwand ab, die Gefäße verhärten und verengen sich zunehmend. Betroffen sein können praktisch alle Arterien des Körpers – die Herzkranzgefäße (koronare Herzkrankheit), die hirnversorgenden Gefäße (Schlaganfallrisiko) oder die Beinarterien (periphere arterielle Verschlusskrankheit, &bdquo;Schaufensterkrankheit&ldquo;). Arteriosklerose selbst verläuft meist über Jahre symptomlos und wird oft erst durch ihre Folgeerkrankungen – Herzinfarkt, Schlaganfall, Durchblutungsstörungen – sichtbar.",
+    symptome: [
+      "Meist über Jahre keine spürbaren Symptome – die Erkrankung bleibt lange stumm",
+      "Bei Verengung der Beinarterien: Wadenschmerzen beim Gehen, die in Ruhe nachlassen (Schaufensterkrankheit)",
+      "Bei Verengung der Herzkranzgefäße: Druckgefühl oder Schmerz in der Brust bei Belastung (Angina pectoris)",
+      "Bei Verengung der hirnversorgenden Gefäße: vorübergehende Sehstörungen, Sprachstörungen, Schwäche einer Körperseite (Warnzeichen für Schlaganfall)",
+      "Kalte Füße, schlecht heilende Wunden an den Beinen als Zeichen fortgeschrittener Durchblutungsstörung",
+      "Erektile Dysfunktion kann ein frühes Warnzeichen für Arteriosklerose sein",
+    ],
+    notfall: "Bei plötzlich auftretenden Symptomen wie Sehstörungen, Sprachstörungen, halbseitiger Schwäche oder Taubheitsgefühl, starkem Brustschmerz oder plötzlicher, schwerer Durchblutungsstörung eines Beins: sofort den Notruf 112 wählen. Diese Symptome können auf einen akuten Schlaganfall, Herzinfarkt oder Gefäßverschluss hinweisen – hier zählt jede Minute, kein Raum für psychosomatische Deutung.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Die Schulmedizin versteht Arteriosklerose heute vor allem als chronisch-entzündlichen Prozess: winzige Verletzungen der Gefäßinnenwand, oft durch Bluthochdruck, Rauchen oder erhöhte Blutfette begünstigt, ziehen über Jahre eine Kaskade aus Entzündung und Ablagerung nach sich. Die Traditionelle Chinesische Medizin beschreibt ein verwandtes Bild als Blut-Stagnation (Xue Yu) – ein Fluss, der ins Stocken gerät, weil Qi über lange Zeit nicht frei zirkulieren kann. Die Psychosomatik liest in diesem langsamen, lautlosen Verhärten der Gefäße oft ein Sinnbild: ein Leben, eine Haltung oder ein Gefühl, das über Jahrzehnte nicht mehr fließen durfte, sondern sich Schicht für Schicht verfestigt hat – bis der Körper selbst starr wird, wo die Seele es längst war.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der sich zu Ablagerungen verdichtet",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält den eigenen Ärger über Jahrzehnte diszipliniert unter Kontrolle – nichts darf nach außen dringen, alles bleibt innerlich verwaltet. Genau diese Dauerverwaltung von Spannung, die nie eine Entladung findet, liest die Psychosomatik als plausibles Sinnbild für einen Prozess, der sich Schicht für Schicht in den Gefäßwänden ablagert, statt sich je zu lösen." },
+          { code: "SO1", text: "Die soziale Eins verwandelt Ärger in moralisches Engagement für die Gruppe – der Zorn bekommt ein Ventil in Worten und Reformwillen, doch das zugrunde liegende Gefühl, dass die Welt permanent korrigiert werden muss, bleibt ein chronischer, nie ganz gelöster innerer Spannungszustand." },
+          { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter aus, in der Beziehung selbst – dadurch potenziell weniger stille Dauerverhärtung, dafür wiederkehrende Episoden intensiver emotionaler Anspannung, die sich über die Jahre kumulieren können." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der niemanden hereinlässt",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei verdrängt eigene Bedürfnisse über Jahrzehnte zugunsten anderer – ein stilles, nie geäußertes Geben, bei dem nichts zurückfließt. Dieses einseitige, nie erwiderte Strömen lässt sich psychosomatisch als Bild für Gefäße lesen, die sich verengen, weil der Kreislauf von Geben und Nehmen dauerhaft aus dem Gleichgewicht ist." },
+          { code: "SO2", text: "Die soziale Zwei sucht Bedeutung über permanente Verfügbarkeit für die Gemeinschaft – die Unfähigkeit, Nein zu sagen, erzeugt eine chronische Überlastung, die sich über Jahre zu einer stillen Dauerbelastung des gesamten Kreislaufsystems verdichten kann." },
+          { code: "SX2", text: "Die sexuelle Zwei investiert intensives, oft possessives Geben in die eine Beziehung – emotionale Volatilität und Eifersucht wirken hier eher als episodische Belastungsspitzen denn als gleichmäßige Dauerverengung." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die den Fluss nie unterbricht",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet still und effizient weiter, auch wenn der Körper längst Pause fordert – Erschöpfung wird als Schwäche gedeutet, nicht als Signal. Über Jahrzehnte verdichtet sich diese ständige Selbstüberforderung zu einem Bild, in dem auch die Gefäße nie zur Ruhe kommen." },
+          { code: "SO3", text: "Die soziale Drei sucht Erfolg sichtbar und im Vergleich mit anderen – ein Leben im ständigen Wettbewerbsmodus, das dem Bild der Typ-A-Persönlichkeit am nächsten kommt und über Jahre kaum echte Erholungsphasen kennt." },
+          { code: "SX3", text: "Die sexuelle Drei setzt permanente Selbstoptimierung im Beziehungskontext ein – der Druck, auch im Intimsten nie nachzulassen, erzeugt eine Anspannung, die selten offen benannt, aber über Jahre mitgetragen wird." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich festsetzt",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahrzehnte unausgesprochene Sehnsucht, die sich nie in Bewegung, sondern nur in innerer Verhärtung entlädt." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar und zum Teil der eigenen Identität – die emotionale Intensität findet zumindest ein Ventil nach außen, wodurch die stille Verfestigung hier weniger ausgeprägt sein kann als beim Kontratyp." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen – heftige, episodische Ausschläge prägen hier das Bild eher als eine gleichmäßige, lautlose Verhärtung." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der die Bahnen verengt",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und minimiert Kontakt und Bedürfnisse – soziale Isolation ist medizinisch selbst ein anerkannter Risikofaktor für Gefäßerkrankungen, unabhängig von akutem Stress, und passt damit besonders deutlich zum Bild eines Systems, das sich über Jahre selbst verengt." },
+          { code: "SO5", text: "Die soziale Fünf sucht Zugang zur Gruppe über Wissen, hält aber innerlich Distanz – eine Mischung aus Teilhabe und Rückzug, bei der eigene Bedürfnisse selten klar benannt werden." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, aber tiefe Verbindung bei gleichzeitig radikaler Abschottung nach außen." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die sich Schicht für Schicht ablagert",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in einer Form von Daueralarmbereitschaft, die über chronisch erhöhte Stresshormonspiegel plausibel mit einem erhöhten Risiko für Gefäßveränderungen in Verbindung gebracht werden kann – Sicherheit wird gesucht, aber nie endgültig gefunden, und die Anspannung bleibt Jahr für Jahr bestehen." },
+          { code: "SO6", text: "Die soziale Sechs sucht Sicherheit über Zugehörigkeit zu Gruppe oder Autorität – die Belastung entsteht hier vor allem aus dem Gefühl der Verantwortung für das Kollektiv, einer Sorge, die selten offen ausgesprochen wird." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Rückzug – diese Mischung aus Angst und Zorn erzeugt episodische Belastungsspitzen statt der gleichmäßigen Dauerspannung der anderen Sechser-Varianten." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die die Gefäße überfordert",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über Optionen, Netzwerke und Genussmittel ab – Rastlosigkeit und ein Lebensstil, der auf permanente Zerstreuung statt Ruhe setzt, gilt medizinisch als eigenständiger Risikofaktor für Gefäßveränderungen, unabhängig von innerer Anspannung." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung und die damit verbundenen körperlichen Warnsignale lange verleugnet." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – hier ist der plausibelste Zusammenhang oft nicht die innere Anspannung selbst, sondern der Lebensstil: Nikotin, Alkohol oder andere Genussmittel als anerkannte, medizinisch gut belegte Risikofaktoren für Arteriosklerose." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die keinen Spielraum lässt",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen – Ruhebedürfnis wird als Angriffsfläche erlebt, nicht als legitimes Bedürfnis. Das System läuft dauerhaft auf Hochspannung, weil Herunterschalten im inneren Selbstbild keinen Platz hat." },
+          { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung und Führung für die Gruppe, oft in einer Beschützerrolle – permanente Führungsspannung und die Überzeugung, niemals schwach sein zu dürfen, sind hier der zentrale, über Jahre wirkende Belastungsfaktor." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, ohne Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger Dauerverhärtung." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die sich lautlos verhärtet",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort, Routine und Konfliktvermeidung – wenig sichtbare Anspannung nach außen, aber eine über Jahrzehnte fortgesetzte Selbstvergessenheit, bei der die eigenen Bedürfnisse nie gehört werden. Genau dieses lautlose Sich-Verhärten passt womöglich am unmittelbarsten zum Bild einer Krankheit, die selbst über Jahre symptomfrei bleibt." },
+          { code: "SO9", text: "Die soziale Neun sucht Harmonie um jeden Preis innerhalb der Gruppe und ordnet die eigene Meinung konsequent unter – eine chronische Selbstauslöschung zugunsten des sozialen Friedens, die sich still und über lange Zeit aufbaut." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Systems, das über Jahrzehnte nie eine eigene, unabhängige Bewegung fand." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor Arteriosklerose gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit dem langsamen, oft jahrzehntelangen Prozess des Verhärtens und Verengens verhandelt – manche über Dauerspannung und Kontrolle, andere über Rückzug, Erschöpfung oder ein nie gehörtes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -95402,7 +95495,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // (Definition, Notfall-Hinweis falls zutreffend, Disclaimer, alle 27 Subtypen). Bis dahin
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["Bluthochdruck (Hypertonie)", "Schlaganfall", "Herzinsuffizienz", "Vorhofflimmern", "Koronare Herzkrankheit / Angina Pectoris", "Krampfadern (Varikose)", "Thrombose", "Arteriosklerose", "Niedriger Blutdruck (Hypotonie)"],
+  "herz-kreislauf": ["Bluthochdruck (Hypertonie)", "Schlaganfall", "Herzinsuffizienz", "Vorhofflimmern", "Koronare Herzkrankheit / Angina Pectoris", "Krampfadern (Varikose)", "Thrombose", "Niedriger Blutdruck (Hypotonie)"],
   "bewegungsapparat": ["Rückenschmerzen / Bandscheibenvorfall", "Arthrose", "Rheumatoide Arthritis", "Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
