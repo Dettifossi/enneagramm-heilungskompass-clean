@@ -61550,6 +61550,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to osteoarthritis, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates mobility, adaptation, and repetition in its own way – some through rigid control, others through lack of movement, overuse, or unchanged routines. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  rueckenschmerzen: {
+    titel: "Back Pain / Herniated Disc",
+    kategorie: "bewegungsapparat",
+    icon: "&#129701;",
+    kurz: "When the back carries a load that was never meant to be carried alone.",
+    definition: "Back pain is among the most common complaints of all, most often affecting the lumbar spine. A distinction is made between acute (up to 6 weeks), subacute, and chronic back pain (longer than 12 weeks). In most cases, the cause is so-called non-specific – muscular tension, poor posture, lack of movement – without any structural damage being detectable. A herniated disc occurs when the gel-like core of a disc pushes out through the outer fibrous ring and presses on a nerve – often accompanied by pain radiating into the leg (sciatica) or arm. Not every herniated disc causes symptoms; many are discovered incidentally during examinations without ever having triggered any complaints.",
+    symptome: [
+      "Pain localized to the back or radiating into the leg or arm, often increasing with movement or certain postures",
+      "Muscle tension or palpable hardening of the back muscles",
+      "Tingling, numbness, or weakness in the leg or arm when a nerve is involved (radiculopathy)",
+      "Limited mobility of the spine, difficulty bending or straightening up",
+      "Increased pain when coughing, sneezing, or straining, when a disc is involved",
+      "Chronic, dull, persistent pain with no clear trigger in longer-standing complaints",
+    ],
+    notfall: "In the case of sudden loss of bladder or bowel control, numbness in the area of the buttocks or inner thighs (&bdquo;saddle anesthesia&ldquo;), or rapidly progressing weakness in one or both legs: call emergency services immediately. This can indicate cauda equina syndrome, a rare but acutely surgery-requiring emergency. In the case of new, very severe back pain after a fall or accident, especially in older adults, seek prompt medical evaluation (fracture risk).",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Hardly any part of the body carries as many figures of speech as the back: to &bdquo;have someone's back&ldquo;, to &bdquo;carry a burden on one's back&ldquo;, to &bdquo;bend under the weight&ldquo;, to &bdquo;show backbone&ldquo;. Traditional Chinese Medicine assigns the lower back directly to the Kidneys – the &bdquo;residence of the Kidneys&ldquo;, as classical texts put it – the very organ system also responsible for willpower (Zhi) and the ability to hold up under pressure. Chronic fear and exhaustion of Kidney energy are considered classic triggers of persistent lower back pain there. Psychosomatic medicine therefore often reads back pain as a picture that aligns with both views: a burden carried alone and unsupported for too long, a responsibility that should have rested on more shoulders, or a life that rarely got to stand fully upright and show its full stature.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that becomes the load the back carries",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One takes on responsibility in a disciplined way, without ever delegating – the burden of duty and self-control is carried alone for years. Psychosomatic medicine reads exactly this solitary carrying without relief as a plausible picture for a back that eventually gives way under the weight." },
+          { code: "SO1", text: "The social One carries responsibility for the group's moral order – a self-imposed burden that is rarely shared." },
+          { code: "SX1", text: "The sexual One carries its demands directly into the relationship – a more punctual, less generalized form of burden than in the other One variants." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that carries everything alone, never letting itself be supported",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two lives the sentence &bdquo;I need no one&ldquo; most literally – it carries for others but never lets itself be carried. A back that only ever gives and never accepts support is psychosomatically one of the most direct pictures for this condition." },
+          { code: "SO2", text: "The social Two makes itself indispensable to the entire community – its own exhaustion under this self-chosen burden is rarely acknowledged." },
+          { code: "SX2", text: "The sexual Two carries its caregiving into the one relationship – a more focused, less broadly distributed form of burden." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that treats its own back like a beast of burden",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps functioning even when the body has long been asking for a break – exhaustion is read as weakness, not as a warning sign. The back literally carries the results of this self-overextension." },
+          { code: "SO3", text: "The social Three keeps taking on new projects for public recognition – a constantly growing load that is rarely questioned." },
+          { code: "SX3", text: "The sexual Three optimizes itself within the relational context – the strain shows up more as emotional pressure than as physical load-bearing." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that weighs heavily on the shoulders",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – a years-long, unspoken longing that can literally settle as weight in the back." },
+          { code: "SO4", text: "The social Four makes its own suffering visible – the outward emotional relief works against the purely physical burden." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity – a form of movement that tends to create outlets rather than a silent accumulation of load." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that allows little support from outside",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically and carries its needs alone – behavior that structurally rules out support from outside and corresponds to a literally unsupported back." },
+          { code: "SO5", text: "The social Five keeps inner distance even in social contexts – support is sought more through knowledge than through relationship." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – quite supported within this narrow connection." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that literally settles in the back",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six lives in constant alertness – from the perspective of Traditional Chinese Medicine, which links fear directly to Kidney energy and thus to the lower back, this is one of the most direct pictures of this condition." },
+          { code: "SO6", text: "The social Six continually worries about the collective – a burden rarely named openly or handed off." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation rather than withdrawal – a more active, less burdened stance than the other Six variants." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that overloads the back with too much at once",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through many parallel projects – too many simultaneously carried commitments can cumulatively show up as overload in the back." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – its own exhaustion under this additional load is denied for a long time." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – lack of movement or sudden, unprepared physical strain count medically as recognized risk factors for acute back complaints." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that carries all the weight itself instead of leaning on support",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight secures its own existence through control over material and physical resources – letting itself be supported is experienced as a point of attack, not as legitimate relief." },
+          { code: "SO8", text: "The social Eight carries permanent responsibility for the group, often in a protector role – &bdquo;I'll carry this for everyone&ldquo;, even when its own back has long since shown its limits." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – the strain shows up more in extreme swings than in steady, structural overload." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that never sets its own load down",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort, routine, and conflict avoidance – the decades-long continued self-forgetting also means its own burden is never consciously named or set down, but simply carried on." },
+          { code: "SO9", text: "The social Nine consistently subordinates its own opinion to the group – a burden of adaptation that builds quietly over the years." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a back that never learned to distinguish the other's weight from its own load." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to back pain or a herniated disc, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates load, support, and its own backbone in its own way – some through carrying alone and control, others through withdrawal, overload, or a burden of their own that was never set down. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -61558,7 +61651,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Back Pain / Herniated Disc", "Rheumatoid Arthritis", "Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
+  "bewegungsapparat": ["Rheumatoid Arthritis", "Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],
