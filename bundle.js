@@ -23979,6 +23979,7 @@ const registerEntries = [
   { term: "Francis Bacon Krankheitsporträt", route: "krankheitsportraets-francis-bacon", description: "Portrait: SE7w8 · Selbsterhaltender Typ 7 · Chronische Gicht, tödliches Hühnchen-Experiment 1626" },
   { term: "Karl Marx Krankheitsporträt", route: "krankheitsportraets-karl-marx", description: "Portrait: SO8w9 · Sozialer Typ 8 · Chronische Karbunkel, Arbeit am Kapital trotz jahrzehntelanger Schmerzen" },
   { term: "James Levine Krankheitsporträt", route: "krankheitsportraets-james-levine", description: "Portrait: SE9w1 · Selbsterhaltender Typ 9 · Jahrzehntelange Parkinson-Erkrankung" },
+  { term: "David Hume Krankheitsporträt", route: "krankheitsportraets-david-hume", description: "Portrait: SE9w8 · Selbsterhaltender Typ 9 · Chronische Darmerkrankung, gelassener Tod 1776" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31425,6 +31426,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-francis-bacon", name:"Francis Bacon", subtyp:"SE7w8", heading:"Francis Bacon – Selbsterhaltender Typ 7", krankheit:"Chronische Gicht und Nierensteine, tödliche Bronchitis/Lungenentzündung nach einem selbst durchgeführten Kälte-Experiment", teaser:"SE7w8 – Philosoph, Staatsmann und Begründer des modernen Empirismus, 1561–1626. Litt jahrzehntelang an Gicht und Nierensteinen, starb 1626 an einer Erkältung, die er sich zuzog, als er im Winter ein Hühnchen mit Schnee ausstopfte, um Kälte als Konservierungsmethode zu testen." , land:"Großbritannien", gender:"m", jahre:"1561–1626"},
   { route:"krankheitsportraets-karl-marx", name:"Karl Marx", subtyp:"SO8w9", heading:"Karl Marx – Sozialer Typ 8", krankheit:"Chronische, schwere Furunkel und Karbunkel (vermutlich Hidradenitis suppurativa), begleitet von Bronchitis, Leberbeschwerden und Rheuma", teaser:"SO8w9 – Philosoph, Ökonom, Begründer des Marxismus, 1818–1883. Litt über vier Jahrzehnte an schmerzhaften Karbunkeln, die ihn zeitweise am Sitzen hinderten und die Arbeit am 'Kapital' immer wieder verzögerten. Starb 1883 an den Folgen chronischer Bronchitis." , land:"Deutschland/Vereinigtes Königreich", gender:"m", jahre:"1818–1883"},
   { route:"krankheitsportraets-james-levine", name:"James Levine", subtyp:"SE9w1", heading:"James Levine – Selbsterhaltender Typ 9", krankheit:"Über Jahrzehnte fortschreitende Parkinson-Erkrankung mit schweren begleitenden Rückenverletzungen", teaser:"SE9w1 – Dirigent und Pianist, 1943–2021. Erste Tremorsymptome bereits in den 1990er-Jahren, jahrelang privat gehalten, ein schwerer Sturz 2011 mit Rückenmarksverletzung, zunehmende Rollstuhlpflicht. Starb 2021 an den Komplikationen der langjährigen Erkrankung." , land:"USA", gender:"m", jahre:"1943–2021"},
+  { route:"krankheitsportraets-david-hume", name:"David Hume", subtyp:"SE9w8", heading:"David Hume – Selbsterhaltender Typ 9", krankheit:"Chronische Darmerkrankung (vermutlich Darmkarzinom oder schwere chronisch-entzündliche Erkrankung), stetig fortschreitend über gut vier Jahre", teaser:"SE9w8 – schottischer Philosoph, 1711–1776. Erste Verdauungsbeschwerden ab 1772, stetiger Gewichtsverlust, verfasste kurz vor dem Tod die gelassene Autobiografie 'My Own Life'. Starb 1776 in Edinburgh mit bemerkenswerter philosophischer Ruhe." , land:"Schottland", gender:"m", jahre:"1711–1776"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -53311,7 +53313,8 @@ function davidHumePortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Neun f\u00fchrt von der Selbstvergessenheit zur <strong>wahren inneren Handlung</strong> &ndash; nicht zum Verschwinden im Komfort, sondern zur bewussten Teilnahme am eigenen Leben. Hume lebte diesen Weg bereits vor: Er wich den gro\u00dfen Fragen nie aus, verweigerte sich nur dem Streit um ihrer selbst willen.</p>
           <p class="vb-intro">Als Hume 1776 im Sterben lag, besuchte ihn der Schriftsteller James Boswell, der von ihm wissen wollte, ob er angesichts des nahen Todes nicht doch an ein Leben nach dem Tod glaube. Hume antwortete ruhig und ohne jede Angst, es gebe keinen Grund zur Sorge &ndash; eine Gelassenheit, die Boswell zutiefst ersch\u00fctterte, weil sie so gar nicht zum erwarteten Bild eines &bdquo;gottlosen&ldquo; Sterbenden passte. Der Elefant aus Edinburgh verlie\u00df die Welt so, wie er sie durchquert hatte: unger\u00fchrt, neugierig, ohne die Bequemlichkeit einer Illusion zu brauchen.</p>
-        </blockquote>
+
+        <p class="vb-intro">Seine chronische, \u00fcber vier Jahre fortschreitende Darmerkrankung und seine bemerkenswerte Gelassenheit im Sterben werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-david-hume">Krankheitsportr\u00e4t zu Hume</a> gedeutet.</p>
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
@@ -53319,6 +53322,7 @@ function davidHumePortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"krankheitsportraets-david-hume", label:"Krankheitsportr\u00e4t: David Hume (SE9w8)"},
         {route:"subtype/se9", label:"SE9 \u2013 Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
@@ -71051,6 +71055,177 @@ function jamesLevineKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-james-levine", label:"Porträt: James Levine (SE9w1) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se9", label:"Subtyp-Profil SE9"},
+      ])}
+    </div>
+  `);
+}
+
+function davidHumeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-david-hume-portrait.jpg" alt="David Hume" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Hume</p>
+        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel · 1711–1776</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Elefant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Tierentsprechung: Elefant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>David Hume</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-david-hume">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein philosophisches Lebenswerk und seine
+        Gelassenheit im Zweifel. Hier geht es ausschließlich um ein Kapitel, das dort nur
+        gestreift wird: eine chronische Darmerkrankung, die ihn in seinen letzten Lebensjahren
+        zunehmend schwächte – und die er mit derselben bemerkenswerten Ruhe verarbeitete, mit
+        der er zeitlebens philosophiert hatte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Hume</strong> ist der <strong>selbsterhaltenden Neun mit Achterflügel</strong>
+        zugeordnet. Naranjo nannte die selbsterhaltende Neun <em>Appetit</em>: die Sehnsucht
+        nach innerem Frieden und Komfort. Der Achterflügel gibt dieser Gelassenheit eine
+        unerschütterliche Standfestigkeit, die auch dem eigenen Tod ohne Ausweichen
+        gegenübertreten kann. Genau diese Verbindung aus Ruhe und innerer Festigkeit prägte,
+        wie Hume seine letzte, tödliche Krankheit verarbeitete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste Verdauungsbeschwerden ab 1772:</strong>
+        Etwa vier Jahre vor seinem Tod bemerkte Hume erste anhaltende Verdauungsstörungen und
+        Durchfälle, die er zunächst als vorübergehend abtat und mit gewohnter Gelassenheit
+        hinnahm.</p>
+        <p class="vb-intro"><strong>b) Stetiger Gewichtsverlust:</strong>
+        In den folgenden Jahren magerte Hume, der zeitlebens für seine Vorliebe an gutem Essen
+        und geselligen Diners bekannt war, zunehmend ab – ein auffälliger Kontrast zu seinem
+        früheren, oft als rundlich beschriebenen Erscheinungsbild.</p>
+        <p class="vb-intro"><strong>c) Eine Reise nach Bath zur Kur:</strong>
+        1775 reiste Hume ins englische Bath, um die dortigen Heilquellen zur Linderung seiner
+        Beschwerden zu nutzen – ein damals übliches, aber letztlich wirkungsloses Mittel gegen
+        seine fortschreitende Erkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine bis heute nicht abschließend geklärte Diagnose:</strong>
+        Medizinhistoriker vermuten heute überwiegend ein Darmkarzinom oder eine schwere
+        chronisch-entzündliche Darmerkrankung als Ursache von Humes Symptomen – eine
+        eindeutige, moderne Diagnose ist aus den historischen Quellen nicht mehr zu
+        rekonstruieren.</p>
+        <p class="vb-intro"><strong>b) Kontinuierliches Fortschreiten über gut vier Jahre:</strong>
+        Anders als bei manch anderem Krankheitsporträt dieses Kompasses gab es bei Hume keine
+        dramatischen Wendepunkte oder Krisen – seine Erkrankung entwickelte sich stetig und
+        gleichmäßig fortschreitend, ohne größere Rückschläge oder Erholungsphasen.</p>
+        <p class="vb-intro"><strong>c) Ungebrochene geistige Klarheit bis zuletzt:</strong>
+        Trotz des körperlichen Verfalls blieb Humes intellektuelle Schärfe nach übereinstimmenden
+        Zeugenberichten bis in seine letzten Lebenswochen vollständig erhalten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) "Mein eigenes Leben" – die letzte, nüchterne Bilanz:</strong>
+        Im April 1776, wenige Monate vor seinem Tod, verfasste Hume die kurze Autobiografie "My
+        Own Life" – eine erstaunlich sachliche, fast heitere Rückschau auf sein Leben, in der er
+        seine nahende Sterblichkeit nüchtern und ohne jede Dramatik erwähnte.</p>
+        <p class="vb-intro"><strong>b) Der Besuch James Boswells im Juli 1776:</strong>
+        Der Schriftsteller James Boswell suchte den sterbenden Hume auf, um herauszufinden, ob
+        der berühmte Skeptiker angesichts des Todes nicht doch Angst zeige oder zu religiösem
+        Glauben zurückfinde.</p>
+        <p class="vb-intro"><strong>c) Eine Gelassenheit, die Boswell zutiefst erschütterte:</strong>
+        Hume erklärte ruhig, er sehe keinen Grund zur Sorge und rechne mit einer vollständigen
+        Auflösung nach dem Tod – eine Haltung, die Boswell, selbst tief religiös, in seinen
+        eigenen Tagebüchern als beunruhigend und zugleich bewundernswert beschrieb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Gesellige Abende bis kurz vor dem Ende:</strong>
+        Selbst in den letzten Wochen empfing Hume weiterhin Freunde zu Gesprächen und kleinen
+        Diners in seinem Haus in Edinburgh – der gesellige Lebensstil, der ihn sein ganzes Leben
+        ausgezeichnet hatte, wich der Krankheit nicht kampflos.</p>
+        <p class="vb-intro"><strong>b) Regelung der eigenen Nachlassangelegenheiten:</strong>
+        Hume ordnete seine Papiere und literarischen Angelegenheiten, darunter die postume
+        Veröffentlichung der "Dialoge über natürliche Religion", mit derselben nüchternen
+        Sorgfalt, mit der er sein gesamtes Werk organisiert hatte.</p>
+        <p class="vb-intro"><strong>c) Tod am 25. August 1776 in Edinburgh:</strong>
+        David Hume starb in seinem Haus in Edinburgh, im Kreis vertrauter Menschen, im Alter von
+        65 Jahren – ohne die theatralische Inszenierung, die manche Zeitgenossen von einem so
+        berühmten "gottlosen" Philosophen vielleicht erwartet hätten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Achterflügel, der auch im Sterben nicht auswich:</strong>
+        Dieselbe Bereitschaft, eine Position bis zum radikalen Ende zu denken, die Humes
+        gesamtes philosophisches Werk prägte, zeigte sich auch im Angesicht des Todes – er
+        verweigerte sich jeder tröstenden Illusion, ohne dabei bitter oder verzweifelt zu wirken.</p>
+        <p class="vb-intro"><strong>b) Appetit, der sich nicht vom nahenden Ende trüben ließ:</strong>
+        Die selbsterhaltende Neun sucht Frieden im Vertrauten – Hume fand diesen Frieden bis
+        zuletzt in Gesprächen, Büchern und der Gesellschaft von Freunden, auch als sein Körper
+        ihn zunehmend im Stich ließ.</p>
+        <p class="vb-intro"><strong>c) Keine Flucht, kein Kampf – nur Gleichmut:</strong>
+        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses findet sich bei Hume
+        weder ein verzweifelter Kampf gegen die Krankheit noch ein resignierter Rückzug –
+        stattdessen eine fast meditative Gelassenheit, die seine gesamte Philosophie bereits
+        vorweggenommen hatte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit, die zur letzten philosophischen Prüfung wurde:</strong>
+        Hume hatte sein ganzes Leben lang für einen skeptischen, illusionslosen Blick auf
+        Kausalität, Selbst und Gottesbeweise argumentiert – seine eigene, tödliche Erkrankung
+        wurde zur unausweichlichen Gelegenheit, diese Haltung nicht nur zu vertreten, sondern
+        tatsächlich zu leben.</p>
+        <p class="vb-intro"><strong>b) Kein Wendepunkt, keine Umkehr:</strong>
+        Anders als so manche Sterbebett-Bekehrung, die die Nachwelt sich von einem berühmten
+        Skeptiker erhofft hätte, blieb Hume bis zum letzten Atemzug seiner philosophischen
+        Grundhaltung treu – die Krankheit veränderte seine Überzeugungen nicht, sie bestätigte
+        sie.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet der Darm?</strong>
+        Für eine selbsterhaltende Neun mit Achterflügel, deren tiefstes Bedürfnis darin besteht,
+        inneren Frieden und Verdauung im wörtlichsten Sinn zu bewahren – die Fähigkeit, alles
+        Aufgenommene ruhig zu verarbeiten, ohne sich aus der Fassung bringen zu lassen –, liegt
+        eine Deutung nahe: Ausgerechnet das Organ, das für Aufnahme, Verarbeitung und
+        Gleichgewicht steht, wurde bei Hume selbst zum Schauplatz eines langsamen, aber
+        unaufhaltsamen Verfalls. Diese Deutung wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Neun zwangsläufig zu
+        Darmerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
+        vom Subtyp.</strong> Was sich an Humes Fall zeigen lässt, ist ein Muster, das bei
+        tiefem, philosophisch begründetem Gleichmut in der Praxis immer wieder auffällt – eine
+        von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Humes</strong> Sterben lässt sich die selbsterhaltende Neun mit
+        Achterflügel in ihrer reifsten Form ablesen: eine über vier Jahre fortschreitende,
+        tödliche Erkrankung, die weder Kampf noch Verzweiflung, sondern eine seltene,
+        philosophisch fundierte Gelassenheit hervorbrachte. Der Elefant, der die Welt so
+        verließ, wie er sie durchquert hatte – ungerührt, neugierig, ohne die Bequemlichkeit
+        einer Illusion zu brauchen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-david-hume", label:"Porträt: David Hume (SE9w8) – Lebenswerk"},
+        {route:"beruehmte-james-levine", label:"Porträt: James Levine (SE9w1)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se9", label:"Subtyp-Profil SE9"},
       ])}
@@ -100086,6 +100261,7 @@ function render() {
       "krankheitsportraets-francis-bacon": francisBaconKrankheitsportraetPage,
       "krankheitsportraets-karl-marx": karlMarxKrankheitsportraetPage,
       "krankheitsportraets-james-levine": jamesLevineKrankheitsportraetPage,
+      "krankheitsportraets-david-hume": davidHumeKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

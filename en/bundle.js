@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=52";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=53";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -216,6 +216,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-francis-bacon", name:"Francis Bacon", subtyp:"SE7w8", heading:"Francis Bacon – Self-Preservation Type 7", krankheit:"Chronic gout and kidney stones, fatal bronchitis/pneumonia after a self-conducted cold experiment", teaser:"SE7w8 – philosopher, statesman, and founder of modern empiricism, 1561–1626. Suffered decades of gout and kidney stones, died in 1626 of a chill caught while stuffing a chicken with snow in winter to test cold as a preservation method." , land:"United Kingdom", gender:"m", jahre:"1561–1626"},
   { route:"krankheitsportraets-karl-marx", name:"Karl Marx", subtyp:"SO8w9", heading:"Karl Marx – Social Type 8", krankheit:"Chronic, severe boils and carbuncles (likely hidradenitis suppurativa), accompanied by bronchitis, liver complaints, and rheumatism", teaser:"SO8w9 – philosopher, economist, founder of Marxism, 1818–1883. Suffered for over four decades from painful carbuncles that at times kept him from sitting and repeatedly delayed work on 'Capital.' Died in 1883 from the effects of chronic bronchitis." , land:"Germany/United Kingdom", gender:"m", jahre:"1818–1883"},
   { route:"krankheitsportraets-james-levine", name:"James Levine", subtyp:"SE9w1", heading:"James Levine – Self-Preservation Type 9", krankheit:"Decades-long progressive Parkinson's disease with severe accompanying back injuries", teaser:"SE9w1 – conductor and pianist, 1943–2021. First tremor symptoms as early as the 1990s, kept private for years, a severe fall in 2011 with spinal injury, increasing reliance on a wheelchair. Died in 2021 from complications of his long-standing illness." , land:"USA", gender:"m", jahre:"1943–2021"},
+  { route:"krankheitsportraets-david-hume", name:"David Hume", subtyp:"SE9w8", heading:"David Hume – Self-Preservation Type 9", krankheit:"Chronic bowel disease (likely colorectal cancer or a severe chronic inflammatory condition), steadily progressing over just over four years", teaser:"SE9w8 – Scottish philosopher, 1711–1776. First digestive complaints from 1772 on, steady weight loss, wrote the composed autobiography 'My Own Life' shortly before his death. Died in 1776 in Edinburgh with remarkable philosophical calm." , land:"Scotland", gender:"m", jahre:"1711–1776"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -31076,6 +31077,9 @@ function davidHumePortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Nine leads from self-forgetting to <strong>true inner action</strong> &ndash; not disappearing into comfort, but consciously participating in one&#39;s own life. Hume lived this path already: he never avoided the great questions, only refused arguing for its own sake.</p>
           <p class="vb-intro">As Hume lay dying in 1776, the writer James Boswell visited him, wanting to know whether, facing death, he still did not believe in an afterlife. Hume answered calmly and without any fear that there was no reason for concern &ndash; a composure that deeply unsettled Boswell, because it fit so poorly with the expected image of a &bdquo;godless&ldquo; dying man. The elephant from Edinburgh left the world the way he had crossed it: unmoved, curious, needing no illusion for comfort.</p>
+
+          <p class="vb-intro">His chronic bowel disease, progressing over four years, and his remarkable composure while dying are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-david-hume">Illness Portrait of Hume</a>.</p>
+
         </blockquote>
 
       </div>
@@ -31084,6 +31088,7 @@ function davidHumePortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"krankheitsportraets-david-hume", label:"Illness Portrait: David Hume (SE9w8)"},
         {route:"subtype/se9", label:"SE9 – The Elephant: Subtype Profile"},
         {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
@@ -44048,6 +44053,169 @@ function jamesLevineKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se9", label:"Subtype Profile SE9"},
+      ])}
+    </div>
+  `);
+}
+
+function davidHumeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-david-hume-portrait.jpg" alt="David Hume" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Hume</p>
+        <p class="krim-portrait-typ">SE9w8 · Self-Preservation Type 9 with Eight-wing · 1711–1776</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Elephant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Animal correspondence: Elephant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>David Hume</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-david-hume">portrait under Famous Personalities</a>
+        in this Compass – that page covers his philosophical life's work and his equanimity in
+        doubt. This portrait is devoted to a chapter only touched on there: a chronic bowel
+        disease that increasingly weakened him in his final years – which he processed with the
+        same remarkable calm with which he had philosophized his entire life.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Hume</strong> is classified as the <strong>self-preservation Nine with
+        Eight-wing</strong>. Naranjo called the self-preservation Nine <em>Appetite</em>: the
+        longing for inner peace and comfort. The Eight-wing gives that equanimity an
+        unshakeable steadfastness that can face even one's own death without flinching. It was
+        exactly this combination of calm and inner firmness that shaped how Hume processed his
+        final, fatal illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) First digestive complaints from 1772 on:</strong>
+        About four years before his death, Hume noticed persistent digestive disturbances and
+        diarrhea, which he initially dismissed as temporary and accepted with his usual
+        composure.</p>
+        <p class="vb-intro"><strong>b) Steady weight loss:</strong>
+        In the following years, Hume, known throughout his life for his fondness for good food
+        and sociable dinners, grew increasingly thin – a striking contrast to his earlier,
+        often described as portly, appearance.</p>
+        <p class="vb-intro"><strong>c) A trip to Bath for treatment:</strong>
+        In 1775, Hume traveled to the English town of Bath to make use of its healing waters to
+        ease his complaints – a common but ultimately ineffective remedy at the time against
+        his progressing illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) A diagnosis still not conclusively settled today:</strong>
+        Medical historians today mostly suspect colorectal cancer or a severe chronic
+        inflammatory bowel disease as the cause of Hume's symptoms – a definitive modern
+        diagnosis can no longer be reconstructed from the historical sources.</p>
+        <p class="vb-intro"><strong>b) Continuous progression over just over four years:</strong>
+        Unlike some other Illness Portraits in this Compass, Hume's case involved no dramatic
+        turning points or crises – his illness developed steadily and evenly, without major
+        setbacks or periods of recovery.</p>
+        <p class="vb-intro"><strong>c) Unbroken mental clarity to the end:</strong>
+        Despite his physical decline, Hume's intellectual sharpness, according to consistent
+        witness accounts, remained fully intact into his final weeks of life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) "My Own Life" – the final, sober reckoning:</strong>
+        In April 1776, a few months before his death, Hume wrote the short autobiography "My
+        Own Life" – a remarkably matter-of-fact, almost cheerful retrospective on his life, in
+        which he noted his approaching mortality soberly and without any drama.</p>
+        <p class="vb-intro"><strong>b) James Boswell's visit in July 1776:</strong>
+        The writer James Boswell sought out the dying Hume to find out whether the famous
+        skeptic might, in the face of death, show fear after all, or return to religious
+        belief.</p>
+        <p class="vb-intro"><strong>c) A composure that shook Boswell to the core:</strong>
+        Hume calmly stated he saw no reason for concern and expected complete dissolution after
+        death – an attitude that Boswell, himself deeply religious, described in his own diaries
+        as unsettling and admirable at once.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Sociable evenings until shortly before the end:</strong>
+        Even in his final weeks, Hume continued receiving friends for conversation and small
+        dinners at his house in Edinburgh – the sociable lifestyle that had marked his entire
+        life did not yield to illness without a fight.</p>
+        <p class="vb-intro"><strong>b) Settling his own literary affairs:</strong>
+        Hume put his papers and literary affairs in order, including the posthumous publication
+        of the "Dialogues Concerning Natural Religion," with the same sober care with which he
+        had organized his entire body of work.</p>
+        <p class="vb-intro"><strong>c) Death on August 25, 1776, in Edinburgh:</strong>
+        David Hume died at his house in Edinburgh, surrounded by close friends, at the age of
+        65 – without the theatrical staging that some contemporaries might have expected from
+        such a famous "godless" philosopher.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The Eight-wing that did not flinch even in dying:</strong>
+        The same willingness to think a position through to its radical end that shaped Hume's
+        entire philosophical work also showed itself in the face of death – he refused every
+        comforting illusion, without appearing bitter or despairing.</p>
+        <p class="vb-intro"><strong>b) Appetite undimmed by the approaching end:</strong>
+        The self-preservation Nine seeks peace in the familiar – Hume kept finding that peace to
+        the end in conversation, books, and the company of friends, even as his body increasingly
+        failed him.</p>
+        <p class="vb-intro"><strong>c) No flight, no fight – only equanimity:</strong>
+        Unlike many other Illness Portraits in this Compass, Hume's case shows neither a
+        desperate fight against illness nor a resigned withdrawal – instead, an almost
+        meditative composure that his entire philosophy had already anticipated.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) An illness that became the final philosophical test:</strong>
+        Hume had argued his entire life for a skeptical, illusion-free view of causality, the
+        self, and proofs of God – his own fatal illness became the inescapable opportunity not
+        only to advocate that stance, but to actually live it.</p>
+        <p class="vb-intro"><strong>b) No turning point, no reversal:</strong>
+        Unlike the deathbed conversion posterity might have hoped for from such a famous
+        skeptic, Hume remained true to his philosophical stance to his final breath – the
+        illness did not change his convictions, it confirmed them.</p>
+        <p class="vb-intro"><strong>c) Why, of all things, the bowel?</strong>
+        For a self-preservation Nine with Eight-wing, whose deepest need is to preserve inner
+        peace and digestion in the most literal sense – the ability to calmly process everything
+        taken in, without being thrown off balance – one reading suggests itself: precisely the
+        organ responsible for intake, processing, and equilibrium became, in Hume, the site of a
+        slow but unstoppable decline. This reading is explored in more depth in this Compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Framing without determinism:</strong>
+        This does not mean the self-preservation Nine's pattern inevitably leads to bowel
+        disease – <strong>every person can develop any illness, regardless of subtype.</strong>
+        What Hume's case can show is a pattern that stands out again and again in practice
+        wherever deep, philosophically grounded equanimity exists – one possible explanation
+        among many, not a verdict. The corresponding condition will be developed step by step in
+        this Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics
+        Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Hume's</strong> dying, the self-preservation Nine with Eight-wing reveals
+        itself at its most mature: a fatal illness progressing over more than four years that
+        produced neither struggle nor despair, but a rare, philosophically grounded equanimity.
+        The elephant that left the world just as it had walked through it – unmoved, curious,
+        with no need for the comfort of illusion.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8) – life's work"},
+        {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se9", label:"Subtype Profile SE9"},
       ])}
@@ -65463,6 +65631,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-francis-bacon": francisBaconKrankheitsportraetPage,
       "krankheitsportraets-karl-marx": karlMarxKrankheitsportraetPage,
       "krankheitsportraets-james-levine": jamesLevineKrankheitsportraetPage,
+      "krankheitsportraets-david-hume": davidHumeKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
