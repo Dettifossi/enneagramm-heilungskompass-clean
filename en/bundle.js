@@ -61457,6 +61457,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to low blood pressure, and no pattern is a verdict. What emerges is simply that some subtypes – especially those whose core pattern is already oriented toward withdrawal, reserve, or self-forgetting – wrestle especially often with a lack of their own, outward-directed force, while other subtypes, whose pattern relies more on assertion and control, are affected less often. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  arthrose: {
+    titel: "Osteoarthritis",
+    kategorie: "bewegungsapparat",
+    icon: "&#129442;",
+    kurz: "When one's own flexibility wears down over decades instead of being renewed.",
+    definition: "Osteoarthritis refers to the progressive wear of joint cartilage, which normally acts as a cushion between bones, allowing smooth, friction-free movement. As this cartilage wears away, the bones increasingly rub directly against each other, the joint loses mobility, and responds with pain, inflammation, and, in advanced stages, bony outgrowths (osteophytes). The knees, hips, hands, and spine are most commonly affected. Osteoarthritis is promoted by age, being overweight, repeated or uneven strain, previous injuries, and genetic predisposition. Unlike inflammatory rheumatic diseases, osteoarthritis is primarily a mechanical, degenerative process rather than a primarily inflammatory one.",
+    symptome: [
+      "Joint pain that typically increases with exertion and eases at rest (in advanced stages, also pain at rest)",
+      "Morning stiffness of the joints that usually resolves within a few minutes – unlike inflammatory joint disease",
+      "Start-up pain: discomfort at the beginning of movement that improves after a short time",
+      "Grinding or grating sounds in the joint during movement (crepitus)",
+      "Increasingly limited mobility of the affected joint",
+      "Joint swelling, visible deformity, or increased joint circumference in advanced stages",
+    ],
+    notfall: "In the case of sudden, very severe joint pain with redness, warmth, swelling, and fever: seek medical help promptly – this can indicate acute joint inflammation, a gout attack, or a bacterial joint infection, which differs from ordinary osteoarthritis and should be treated quickly. Ordinary, chronically progressive osteoarthritis is generally not an emergency.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Joints are, within the body, the very sites of mobility – where rigid bones connect in a way that makes movement, changes of direction, and adaptation possible in the first place. Traditional Chinese Medicine assigns bones and joints primarily to the Kidneys (to Jing, the life essence that naturally diminishes with age), while tendons and ligaments belong to the Liver. Kidney weakness combined with poorly nourished tendons is considered there a classic picture of progressive joint complaints. Psychosomatic medicine often reads a related image in osteoarthritis: a rigidity lived over decades – too little adaptability, too much friction from always the same, unchanged movement patterns – that wears down exactly the place that should be responsible for flexibility and change of direction.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that hardens into rigid principles",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One holds firmly to a strict, often unchanging set of rules for its own life – exceptions are rarely allowed. Psychosomatic medicine reads this decades-long lived rigidity in thought and action as a plausible symbol for joints increasingly lacking mobility, because the whole system barely adapts." },
+          { code: "SO1", text: "The social One holds unwaveringly to its idea of how the world ought to be – a moral rigidity that, over time, bends as little as a worn joint." },
+          { code: "SX1", text: "The sexual One lives its principles more directly within the relationship – potentially more situational flexibility toward the one person, less general rigidity than in the other One variants." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that bends for others but never for itself",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two adapts unobtrusively to others' needs, without ever demanding its own – a flexibility that only ever moves in one direction. Its own need for others to yield in return stays unlived and can settle as inner inflexibility." },
+          { code: "SO2", text: "The social Two stays flexibly available for the community's needs – this constant outward readiness to adapt rarely comes with the same willingness to yield toward itself." },
+          { code: "SX2", text: "The sexual Two adapts intensely to the one relationship – a very targeted, punctual form of flexibility, less typical of general adaptability in everyday life." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that repeats the same movement over and over",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three perfects efficient, repeatable routines – a pattern that physically maps directly onto the repeated overuse or uneven strain that underlies osteoarthritis as mechanical wear." },
+          { code: "SO3", text: "The social Three holds firmly to a proven, publicly successful presentation – change is rarely risked as long as the existing pattern brings recognition." },
+          { code: "SX3", text: "The sexual Three continuously re-optimizes itself within the relational context – here adaptability tends to appear rather than rigid repetition, less typical of this pattern." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that gets stuck in unchanging patterns",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and in an unchanging way over years – an inner state that rarely shifts fundamentally can show up physically as diminishing adaptability." },
+          { code: "SO4", text: "The social Four lives out its shifting moods – this outward emotional movement works against pure physical rigidity." },
+          { code: "SX4", text: "The sexual Four lives uncompromising, intense feelings – frequent emotional movement, less fitting to the picture of rigidity than in the other Four variants." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that avoids movement altogether",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically and often moves little – lack of movement is itself a recognized medical risk factor for joint wear, since insufficient use worsens the nourishment of cartilage tissue." },
+          { code: "SO5", text: "The social Five keeps inner distance even in social contexts – a reserve that is more mental than physical in nature." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – quite lively and mobile within this narrow connection." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that leads to rigid caution rather than flexible adaptation",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six seeks safety through fixed routines and caution – a core stance that tends to avoid rather than seek change, coming close to the picture of limited mobility." },
+          { code: "SO6", text: "The social Six holds firmly to proven rules and authorities – a form of structural rigidity that puts safety above flexibility." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation – a more active, more mobile stance than the other Six variants." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that overloads the joints through too much movement",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through many parallel activities – a lifestyle in constant, often restless motion that can strain the joints cumulatively over the years through overuse rather than lack of movement." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – its own physical overload goes unnoticed for a long time." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – being overweight as a consequence of an unregulated lifestyle counts medically as an independent risk factor for osteoarthritis, especially in weight-bearing joints." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that allows no yielding",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight keeps tight control over its own resources – giving way is experienced as weakness, not as necessary flexibility. The system stays hard exactly where elasticity would actually be called for." },
+          { code: "SO8", text: "The social Eight carries permanent leadership tension for the group – a stance that rarely leaves room for its own yielding." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – the strain shows up more in extreme swings than in steady, structural rigidity." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that wears itself down through the same routines",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort and always the same routines – movement patterns and habits barely changed over decades fit directly with the picture of a system that wears itself down through repetition without renewal." },
+          { code: "SO9", text: "The social Nine consistently subordinates its own opinion to the group – an adaptation that rarely has its own mobility in mind." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a system that, for decades, moved to the other's rhythm instead of developing a mobility of its own." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to osteoarthritis, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates mobility, adaptation, and repetition in its own way – some through rigid control, others through lack of movement, overuse, or unchanged routines. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -61465,7 +61558,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Back Pain / Herniated Disc", "Osteoarthritis", "Rheumatoid Arthritis", "Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
+  "bewegungsapparat": ["Back Pain / Herniated Disc", "Rheumatoid Arthritis", "Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],

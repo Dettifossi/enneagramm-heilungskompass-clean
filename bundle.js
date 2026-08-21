@@ -96231,6 +96231,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor niedrigem Blutdruck gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass manche Subtypen – vor allem jene, deren Grundmuster ohnehin auf Rückzug, Zurückhaltung oder Selbstvergessenheit ausgerichtet ist – besonders häufig mit einem Mangel an eigenem, nach außen gerichtetem Nachdruck ringen, während andere Subtypen, deren Muster stärker auf Durchsetzung und Kontrolle setzt, seltener betroffen sind. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  arthrose: {
+    titel: "Arthrose",
+    kategorie: "bewegungsapparat",
+    icon: "&#129442;",
+    kurz: "Wenn die eigene Beweglichkeit sich über Jahrzehnte abnutzt, statt erneuert zu werden.",
+    definition: "Arthrose (Osteoarthrose) bezeichnet den fortschreitenden Verschleiß des Gelenkknorpels, der als natürlicher Puffer zwischen den Knochen normalerweise für reibungsfreie Bewegung sorgt. Nutzt sich dieser Knorpel ab, reiben Knochen zunehmend direkt aufeinander, das Gelenk verliert an Beweglichkeit und reagiert mit Schmerz, Entzündung und im fortgeschrittenen Stadium mit knöchernen Anbauten (Osteophyten). Am häufigsten betroffen sind Knie, Hüfte, Hände und Wirbelsäule. Begünstigt wird Arthrose durch Alter, Übergewicht, einseitige oder wiederholte Fehlbelastung, frühere Verletzungen und genetische Veranlagung. Anders als entzündlich-rheumatische Erkrankungen ist Arthrose in erster Linie ein mechanisch-degenerativer, kein primär entzündlicher Prozess.",
+    symptome: [
+      "Gelenkschmerzen, die typischerweise bei Belastung zunehmen und sich in Ruhe bessern (im fortgeschrittenen Stadium auch Ruheschmerz)",
+      "Morgensteifigkeit der Gelenke, die sich meist innerhalb weniger Minuten löst – anders als bei entzündlichen Gelenkerkrankungen",
+      "Anlaufschmerz: Beschwerden zu Beginn einer Bewegung, die sich nach kurzer Zeit bessern",
+      "Knirschende oder reibende Geräusche im Gelenk bei Bewegung (Krepitation)",
+      "Zunehmend eingeschränkte Beweglichkeit des betroffenen Gelenks",
+      "Gelenkschwellung, sichtbare Verformung oder Umfangsvermehrung im fortgeschrittenen Stadium",
+    ],
+    notfall: "Bei plötzlich auftretendem, sehr starkem Gelenkschmerz mit Rötung, Überwärmung, Schwellung und Fieber: zeitnah ärztliche Hilfe aufsuchen – dies kann auf eine akute Gelenkentzündung, einen Gichtanfall oder eine bakterielle Gelenkinfektion hinweisen, die sich von gewöhnlicher Arthrose unterscheidet und rasch behandelt werden sollte. Die gewöhnliche, chronisch fortschreitende Arthrose ist dagegen in der Regel kein Notfall.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Gelenke sind im Körper die Orte der Beweglichkeit schlechthin – dort, wo sich starre Knochen so verbinden, dass Bewegung, Richtungswechsel und Anpassung überhaupt erst möglich werden. Die Traditionelle Chinesische Medizin ordnet Knochen und Gelenke vor allem der Niere zu (dem Jing, der Lebenssubstanz, die sich mit dem Alter natürlicherweise verringert), die Sehnen und Bänder dagegen der Leber. Nierenschwäche in Kombination mit unzureichend genährten Sehnen gilt dort als klassisches Bild fortschreitender Gelenkbeschwerden. Die Psychosomatik liest in der Arthrose oft ein verwandtes Sinnbild: eine über Jahrzehnte gelebte Rigidität – zu wenig Anpassungsfähigkeit, zu viel Reibung durch immer gleiche, unveränderte Bewegungsmuster –, die genau jenen Ort abnutzt, der eigentlich für Flexibilität und Richtungswechsel zuständig wäre.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der zu starren Prinzipien erstarrt",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält an einem strengen, oft unveränderlichen Regelwerk für das eigene Leben fest – Ausnahmen sind selten erlaubt. Diese über Jahrzehnte gelebte Starrheit im Denken und Handeln liest die Psychosomatik als plausibles Sinnbild für Gelenke, denen zunehmend die Beweglichkeit fehlt, weil sich das ganze System kaum anpasst." },
+          { code: "SO1", text: "Die soziale Eins hält unbeirrt an ihrer Vorstellung fest, wie die Welt richtig zu sein hätte – eine moralische Rigidität, die sich mit der Zeit ebenso wenig biegen lässt wie ein abgenutztes Gelenk." },
+          { code: "SX1", text: "Die sexuelle Eins lebt ihre Prinzipien direkter in der Beziehung aus – dadurch potenziell mehr situative Flexibilität im Umgang mit dem einen Menschen, weniger generelle Starrheit als bei den anderen Einser-Varianten." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der sich für andere biegt, aber nie für sich selbst",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei passt sich unauffällig an die Bedürfnisse anderer an, ohne je die eigenen einzufordern – eine Beweglichkeit, die immer nur in eine Richtung geht. Das eigene Bedürfnis nach Nachgiebigkeit der anderen ihr gegenüber bleibt dabei ungelebt und kann sich als innere Unbeweglichkeit niederschlagen." },
+          { code: "SO2", text: "Die soziale Zwei bleibt flexibel verfügbar für die Bedürfnisse der Gemeinschaft – diese ständige Anpassungsbereitschaft nach außen geht selten mit derselben Nachgiebigkeit sich selbst gegenüber einher." },
+          { code: "SX2", text: "Die sexuelle Zwei passt sich intensiv an die eine Beziehung an – eine sehr gezielte, punktuelle Form der Beweglichkeit, die weniger auf generelle Anpassungsbereitschaft im Alltag zutrifft." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die immer denselben Bewegungsablauf wiederholt",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei perfektioniert effiziente, wiederholbare Abläufe – ein Muster, das körperlich unmittelbar der wiederholten Fehl- oder Überbelastung entspricht, die der Arthrose als mechanischer Verschleiß zugrunde liegt." },
+          { code: "SO3", text: "Die soziale Drei hält an einem bewährten, öffentlich erfolgreichen Auftreten fest – Wandel wird selten riskiert, solange das bisherige Muster Anerkennung bringt." },
+          { code: "SX3", text: "Die sexuelle Drei optimiert sich im Beziehungskontext fortlaufend neu – hier findet sich eher Anpassungsbereitschaft als starre Wiederholung, weniger typisch für dieses Muster." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich in unveränderlichen Mustern festfährt",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und in gleichbleibender Weise über Jahre – ein innerer Zustand, der sich selten grundlegend verändert, kann sich körperlich als abnehmende Anpassungsfähigkeit zeigen." },
+          { code: "SO4", text: "Die soziale Vier lebt ihre wechselnden Stimmungen aus – diese emotionale Beweglichkeit nach außen steht der reinen körperlichen Rigidität eher entgegen." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose, intensive Gefühle – häufige emotionale Bewegung, die weniger zum Bild der Erstarrung passt als bei anderen Vierer-Varianten." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der Bewegung insgesamt meidet",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und bewegt sich oft wenig – Bewegungsmangel gilt medizinisch selbst als eigenständiger Risikofaktor für Gelenkverschleiß, da mangelnde Beanspruchung die Ernährung des Knorpelgewebes verschlechtert." },
+          { code: "SO5", text: "Die soziale Fünf hält auch im sozialen Kontext innere Distanz – eine Zurückhaltung, die eher geistiger als körperlicher Natur ist." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – innerhalb dieser schmalen Verbindung durchaus lebendig und beweglich." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die zu starrer Vorsicht statt beweglicher Anpassung führt",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs sucht Sicherheit durch feste Routinen und Vorsicht – eine Grundhaltung, die Veränderung eher meidet als sucht und sich damit dem Bild eingeschränkter Beweglichkeit annähert." },
+          { code: "SO6", text: "Die soziale Sechs hält an bewährten Regeln und Autoritäten fest – eine Form von struktureller Starrheit, die Sicherheit über Flexibilität stellt." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation – eine aktivere, bewegtere Haltung als bei den anderen Sechser-Varianten." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die die Gelenke durch zu viel Bewegung überlastet",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über viele parallele Aktivitäten ab – ein Lebensstil in ständiger, oft rastloser Bewegung, der die Gelenke über Jahre kumulativ durch Überbeanspruchung statt durch Mangel an Bewegung belasten kann." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – die eigene körperliche Überlastung wird dabei lange nicht wahrgenommen." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – Übergewicht als Folge eines unregulierten Lebensstils gilt medizinisch als eigenständiger Risikofaktor für Arthrose, besonders in den belastungstragenden Gelenken." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die keine Nachgiebigkeit erlaubt",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht hält Kontrolle über die eigenen Ressourcen straff aufrecht – Nachgeben wird als Schwäche erlebt, nicht als notwendige Beweglichkeit. Das System bleibt hart, wo eigentlich Elastizität gefragt wäre." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Führungsspannung für die Gruppe – eine Haltung, die selten Raum für eigene Nachgiebigkeit lässt." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger struktureller Starrheit." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die sich in immer gleichen Routinen abnutzt",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und immer gleiche Routinen – über Jahrzehnte kaum veränderte Bewegungsmuster und Gewohnheiten passen unmittelbar zum Bild eines Systems, das sich durch Wiederholung ohne Erneuerung abnutzt." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – eine Anpassung, die selten die eigene Beweglichkeit im Sinn hat." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Systems, das sich über Jahrzehnte nach dem Rhythmus des anderen bewegte, statt eine eigene, variable Beweglichkeit zu entwickeln." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor Arthrose gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Beweglichkeit, Anpassung und Wiederholung verhandelt – manche über starre Kontrolle, andere über Bewegungsmangel, Überlastung oder unveränderte Routinen. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -96240,7 +96333,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Rückenschmerzen / Bandscheibenvorfall", "Arthrose", "Rheumatoide Arthritis", "Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
+  "bewegungsapparat": ["Rückenschmerzen / Bandscheibenvorfall", "Rheumatoide Arthritis", "Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
