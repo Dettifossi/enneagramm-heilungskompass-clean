@@ -95859,6 +95859,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor koronarer Herzkrankheit oder Angina pectoris gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen seine eigene, oft unsichtbare Belastungsgrenze auf eigene Weise erreicht – manche über Kontrolle bis zum Anschlag, andere über stilles Geben, Maßlosigkeit oder ein nie gehörtes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  krampfadern: {
+    titel: "Krampfadern (Varikose)",
+    kategorie: "herz-kreislauf",
+    icon: "&#129482;",
+    kurz: "Wenn das, was zurückfließen sollte, sich stattdessen staut.",
+    definition: "Krampfadern (Varizen) sind erweiterte, geschlängelte oberflächliche Venen, meist an den Beinen. Ursache ist eine Schwäche der Venenklappen, die normalerweise verhindern, dass Blut auf seinem Weg zurück zum Herzen wieder zurückfließt. Funktionieren die Klappen nicht mehr richtig, staut sich das Blut, die Venen weiten sich und werden sichtbar. Begünstigt wird die Entstehung durch genetische Veranlagung, langes Stehen oder Sitzen, Schwangerschaft, Übergewicht und zunehmendes Alter. Unbehandelt kann sich über Jahre eine chronische Venenschwäche mit Hautveränderungen, Ödemen und in fortgeschrittenen Fällen offenen Beinen (venösen Ulzera) entwickeln.",
+    symptome: [
+      "Sichtbare, geschlängelte, bläulich-violette Venen, meist an Waden oder Oberschenkeln",
+      "Schweregefühl, Spannung oder Müdigkeit in den Beinen, die im Tagesverlauf zunehmen",
+      "Abendliche Schwellungen (Ödeme) an Knöcheln und Unterschenkeln",
+      "Nächtliche Wadenkrämpfe",
+      "Juckreiz über den betroffenen Venen",
+      "Bei fortgeschrittener Erkrankung: bräunliche Hautverfärbungen, Verhärtungen oder offene Stellen am Unterschenkel",
+    ],
+    notfall: "Bei plötzlicher, starker Schwellung, Rötung, Überwärmung und Schmerz eines Beins (Verdacht auf eine tiefe Venenthrombose) oder bei plötzlicher Atemnot und Brustschmerz (Verdacht auf eine Lungenembolie als mögliche Komplikation): sofort ärztliche Hilfe bzw. den Notruf 112 in Anspruch nehmen. Krampfadern selbst sind meist kein Notfall, ihre Komplikationen können es aber sein.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Venen sind, anders als Arterien, keine treibende, sondern eine rückführende Struktur: Sie tragen das Blut gegen die Schwerkraft zurück zum Herzen – ein passiver Rückfluss, der auf funktionierenden Klappen und der Bewegung der Beinmuskulatur beruht. Die Traditionelle Chinesische Medizin ordnet die Fähigkeit, Gewebe, Organe und Blutgefäße an ihrem Platz zu halten, dem Milz-Qi zu – ist dieses durch anhaltende Überlastung, Grübeln oder Überarbeitung geschwächt, verliert der Körper seine strukturelle Festigkeit, Dinge &bdquo;sacken ab&ldquo; oder stauen sich. Die Psychosomatik liest in Krampfadern deshalb oft nicht das Bild eines zu starken Drucks, sondern das eines gestörten Loslassens: eine Last, die zu lange getragen wurde, ohne dass der Rückweg – die Erleichterung, das Sich-wieder-Leeren – je wirklich stattfand.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der sich nicht lösen lässt",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger diszipliniert fest, statt ihn je loszulassen – eine Anspannung, die sich anstaut, weil ihr der Rückweg zur Entladung fehlt. Genau dieses Nicht-Loslassen-Können liest die Psychosomatik als plausibles Bild für ein System, dem der Rückfluss fehlt." },
+          { code: "SO1", text: "Die soziale Eins trägt ihr Engagement für die Gruppe fortlaufend weiter, ohne sich je davon zu erholen – die eigene Erschöpfung wird selten als Zeichen gelesen, dass auch Rückzug und Ruhe erlaubt sein müssten." },
+          { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter in der Beziehung aus – dadurch potenziell mehr punktuelle Entladung, weniger dauerhaftes Festhalten." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der ewig weitergibt, ohne je loszulassen",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei gibt still, ohne je um Erleichterung zu bitten – ein System, das immer nur nach vorn, nie zurück fließt. Das lässt sich psychosomatisch unmittelbar als gestörter Rückfluss lesen: Geben ohne je eine Gegenbewegung des Empfangens oder Loslassens." },
+          { code: "SO2", text: "Die soziale Zwei bleibt permanent für die Gemeinschaft verfügbar – die Unfähigkeit, Nein zu sagen, verhindert, dass sich angesammelte Erschöpfung je wirklich entlädt." },
+          { code: "SX2", text: "Die sexuelle Zwei investiert intensives Geben in die eine Beziehung – die Belastung zeigt sich hier eher episodisch als in einem gleichmäßig gestauten Rückfluss." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die keine Rückkehr zur Ruhe kennt",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet ununterbrochen weiter, ohne echte Erholungsphasen einzuplanen – ein System, das ständig vorwärtsdrängt, ohne je zur Ruhe zurückzukehren, passt zum Bild eines gestörten venösen Rückflusses." },
+          { code: "SO3", text: "Die soziale Drei bleibt im ständigen Wettbewerbsmodus – Erfolg wird angehäuft, ohne dass je eine echte Bewegung der Entlastung stattfindet." },
+          { code: "SX3", text: "Die sexuelle Drei setzt permanente Selbstoptimierung im Beziehungskontext ein – der Druck, nie nachzulassen, verhindert eine echte Rückkehr zur Ruhe." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich staut, statt sich zu lösen",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahre unausgesprochene Sehnsucht, die sich nie entlädt, sondern sich Schicht für Schicht anstaut." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar – die emotionale Intensität findet zumindest ein Ventil nach außen, was echtem Loslassen näherkommt als beim Kontratyp." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – heftige, episodische Ausschläge, die zumindest kurzfristig Entladung ermöglichen." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der Bewegung meidet, wodurch der Fluss stockt",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und bewegt sich oft wenig – körperliche Bewegung ist medizinisch entscheidend für den venösen Rückfluss, weshalb ein bewegungsarmer Rückzug diesem Prozess besonders unmittelbar entgegenwirken kann." },
+          { code: "SO5", text: "Die soziale Fünf hält auch im sozialen Kontext innere Distanz – eine Mischung aus Teilhabe und Rückzug, bei der echtes Loslassen selten stattfindet." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, aber echte Verbindung, die zumindest an einer Stelle Fluss ermöglicht." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die festhält, statt loszulassen",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs hält an Vorsicht und Vorbereitung fest, als sei Loslassen selbst gefährlich – eine Grundhaltung, die dem Bild eines gestauten, nie freigegebenen Rückflusses entspricht." },
+          { code: "SO6", text: "Die soziale Sechs trägt fortlaufend Sorge um das Kollektiv – diese Sorge wird selten offen ausgesprochen oder abgegeben." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation – dadurch eher episodische Entladung als dauerhaftes Festhalten." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die vorwärtsdrängt, aber nie zurückkehrt",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über viele parallele Optionen ab – ständige Vorwärtsbewegung ohne echte Rückkehr zur Ruhe, ein Muster, das dem Bild eines Systems ohne funktionierenden Rückfluss nahekommt." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – die eigene Erschöpfung wird lange nicht als Zeichen gelesen, dass Rückzug nötig wäre." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – hier ist der plausiblere Zusammenhang oft der Lebensstil: langes Stehen, wenig Bewegungsroutine oder Übergewicht als anerkannte Risikofaktoren für Krampfadern, unabhängig von der inneren Rastlosigkeit selbst." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die niemals nachgibt",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht hält Kontrolle über die eigenen Ressourcen straff aufrecht – Nachgeben oder Loslassen wird als Schwäche erlebt, nicht als notwendiger Rückfluss." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Führungsspannung für die Gruppe – die eigene Erschöpfung wird selten als Anlass gesehen, loszulassen." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich in extremen, episodischen Ausschlägen statt in stetigem Stau." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die sich Jahr für Jahr aufstaut",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und Routine – nach außen wirkt vieles entspannt, doch die über Jahrzehnte fortgesetzte Selbstvergessenheit bedeutet auch: das eigene Bedürfnis nach Erleichterung wird nie geäußert, sondern staut sich Jahr für Jahr weiter an." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – eine chronische Selbstauslöschung, bei der die eigene Last selten je abgegeben wird." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Systems, das über Jahrzehnte nie eine eigene Bewegung des Loslassens fand." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor Krampfadern gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit dem Loslassen und dem Rückfluss von Angesammeltem verhandelt – manche über Dauereinsatz und Kontrolle, andere über stilles Geben, Rastlosigkeit oder ein nie geäußertes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -95867,7 +95960,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // (Definition, Notfall-Hinweis falls zutreffend, Disclaimer, alle 27 Subtypen). Bis dahin
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["Schlaganfall", "Krampfadern (Varikose)", "Thrombose", "Niedriger Blutdruck (Hypotonie)"],
+  "herz-kreislauf": ["Schlaganfall", "Thrombose", "Niedriger Blutdruck (Hypotonie)"],
   "bewegungsapparat": ["Rückenschmerzen / Bandscheibenvorfall", "Arthrose", "Rheumatoide Arthritis", "Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],

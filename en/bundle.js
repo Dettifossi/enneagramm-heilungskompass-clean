@@ -61085,6 +61085,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to coronary artery disease or angina pectoris, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes reaches its own, often invisible limit in its own way – some through control pushed to the max, others through quiet giving, excess, or a need of their own that was never heard. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  krampfadern: {
+    titel: "Varicose Veins",
+    kategorie: "herz-kreislauf",
+    icon: "&#129482;",
+    kurz: "When what should flow back instead pools and stagnates.",
+    definition: "Varicose veins refer to enlarged, twisted superficial veins, usually in the legs. The cause is weakened vein valves that normally prevent blood from flowing backward on its way to the heart. When these valves stop working properly, blood pools, the veins widen, and become visible. Development is promoted by genetic predisposition, prolonged standing or sitting, pregnancy, being overweight, and advancing age. Left untreated, chronic venous insufficiency can develop over the years, with skin changes, edema, and, in advanced cases, open leg ulcers (venous ulcers).",
+    symptome: [
+      "Visible, twisted, bluish-purple veins, usually on the calves or thighs",
+      "A feeling of heaviness, tension, or tiredness in the legs that increases over the course of the day",
+      "Evening swelling (edema) at the ankles and lower legs",
+      "Nighttime calf cramps",
+      "Itching over the affected veins",
+      "In advanced disease: brownish skin discoloration, hardening, or open sores on the lower leg",
+    ],
+    notfall: "In the case of sudden, severe swelling, redness, warmth, and pain in one leg (suspected deep vein thrombosis), or sudden shortness of breath and chest pain (suspected pulmonary embolism as a possible complication): seek medical help immediately or call emergency services. Varicose veins themselves are usually not an emergency, but their complications can be.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Unlike arteries, veins are not a driving but a returning structure: they carry blood back to the heart against gravity – a passive return flow that depends on functioning valves and the movement of the leg muscles. Traditional Chinese Medicine assigns the ability to hold tissue, organs, and blood vessels in their place to Spleen Qi – if this is weakened by sustained overload, rumination, or overwork, the body loses its structural firmness, things &bdquo;sag&ldquo; or pool. Psychosomatic medicine therefore often reads varicose veins not as a picture of excessive pressure, but as one of disturbed letting go: a burden carried for too long, without the return path – the relief, the emptying out again – ever really taking place.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that cannot be released",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One holds anger disciplined, rather than ever releasing it – a tension that pools because it lacks a return path to discharge. Psychosomatic medicine reads exactly this inability to let go as a plausible picture for a system lacking a return flow." },
+          { code: "SO1", text: "The social One carries its engagement for the group forward continuously, without ever recovering from it – its own exhaustion is rarely read as a sign that withdrawal and rest should also be allowed." },
+          { code: "SX1", text: "The sexual One lives anger more directly within the relationship – potentially more punctual release, less permanent holding on." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that keeps giving forever, without ever letting go",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two gives quietly, without ever asking for relief – a system that only ever flows forward, never back. This can be read psychosomatically as a direct picture of disturbed return flow: giving without any counter-movement of receiving or letting go." },
+          { code: "SO2", text: "The social Two remains permanently available to the community – the inability to say no prevents accumulated exhaustion from ever really discharging." },
+          { code: "SX2", text: "The sexual Two invests intense giving into the one relationship – the strain here tends to be episodic rather than an evenly pooled return flow." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that knows no return to rest",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps working without break, without ever scheduling real periods of recovery – a system that constantly pushes forward, without ever returning to rest, fits the picture of disturbed venous return flow." },
+          { code: "SO3", text: "The social Three stays in constant competition mode – success accumulates without any real movement of relief ever taking place." },
+          { code: "SX3", text: "The sexual Three deploys constant self-optimization within the relational context – the pressure to never let up prevents a real return to rest." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that pools instead of releasing",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – a years-long, unspoken longing that never discharges but instead pools, layer by layer." },
+          { code: "SO4", text: "The social Four makes its own suffering visible – the emotional intensity at least finds an outward outlet, which comes closer to real letting go than in the counter-type." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity – intense, episodic swings that at least allow for short-term release." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that avoids movement, causing the flow to stall",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically and often moves little – physical movement is medically essential for venous return, which is why a low-movement withdrawal can work especially directly against this process." },
+          { code: "SO5", text: "The social Five keeps inner distance even in social contexts – a mixture of participation and withdrawal in which real letting go rarely takes place." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – a narrow but real connection that at least allows for flow in one place." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that holds on instead of letting go",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six holds on to caution and preparation as if letting go itself were dangerous – a stance that matches the picture of a pooled, never-released return flow." },
+          { code: "SO6", text: "The social Six carries ongoing worry for the collective – this worry is rarely voiced openly or handed off." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation – producing episodic release rather than permanent holding on." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that pushes forward but never returns",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through many parallel options – constant forward motion without a real return to rest, a pattern that comes close to the picture of a system lacking functioning return flow." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – its own exhaustion is not read for a long time as a sign that withdrawal is needed." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – here the more plausible link is often the lifestyle: prolonged standing, little movement routine, or being overweight as recognized risk factors for varicose veins, independent of the inner restlessness itself." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that never gives way",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight keeps tight control over its own resources – giving way or letting go is experienced as weakness, not as a necessary return flow." },
+          { code: "SO8", text: "The social Eight carries permanent leadership tension for the group – its own exhaustion is rarely seen as reason enough to let go." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – the strain shows up in extreme, episodic swings rather than steady pooling." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that pools year after year",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort and routine – outwardly much looks relaxed, but the decades-long continued self-forgetting also means: its own need for relief is never voiced, and instead keeps pooling year after year." },
+          { code: "SO9", text: "The social Nine consistently subordinates its own opinion to the group – a chronic self-erasure in which its own burden is rarely ever handed off." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a system that, over decades, never found a movement of its own for letting go." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to varicose veins, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates letting go and the return flow of what has accumulated in its own way – some through sustained effort and control, others through quiet giving, restlessness, or a need of their own that was never voiced. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -61092,7 +61185,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // and then moved into PSYCHOSOMATIK_KRANKHEITEN. Until then they appear on the overview
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["Stroke", "Varicose Veins", "Thrombosis", "Low Blood Pressure (Hypotension)"],
+  "herz-kreislauf": ["Stroke", "Thrombosis", "Low Blood Pressure (Hypotension)"],
   "bewegungsapparat": ["Back Pain / Herniated Disc", "Osteoarthritis", "Rheumatoid Arthritis", "Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
