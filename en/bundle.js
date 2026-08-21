@@ -60899,6 +60899,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to heart failure, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates its own exhaustion and regulation of strength in its own way – some through sustained effort and control, others through withdrawal, quiet giving, or a need of their own that was never heard. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  vorhofflimmern: {
+    titel: "Atrial Fibrillation",
+    kategorie: "herz-kreislauf",
+    icon: "&#128163;",
+    kurz: "When the body's own rhythm is lost and chaotic quivering takes its place.",
+    definition: "Atrial fibrillation is the most common sustained heart rhythm disorder: instead of contracting in an orderly rhythm, the heart's atria contract chaotically and far too fast – up to 350 to 600 times per minute, with no effective pumping action. The ventricles pick up only part of these irregular electrical signals, which shows up as an irregular, often too-fast pulse. Atrial fibrillation can occur in episodes (paroxysmal, with a spontaneous return to normal rhythm), persist for longer periods (persistent), or become permanent. It is promoted by, among other things, high blood pressure, heart valve disease, an overactive thyroid, sleep apnea, alcohol, and advancing age. The greatest danger lies in blood clots forming in the no-longer-effectively-pumping atria, which can trigger a stroke.",
+    symptome: [
+      "Fluttering, palpitations, or an irregular, 'flickering' heartbeat",
+      "Sometimes completely symptom-free – atrial fibrillation is then discovered incidentally during an examination",
+      "Sudden exhaustion, weakness, or reduced exercise capacity",
+      "Dizziness, lightheadedness, occasionally shortness of breath",
+      "A feeling of tightness or slight pressure in the chest",
+      "Inner restlessness or anxiety accompanying the noticeable, irregular heartbeat",
+    ],
+    notfall: "In the case of sudden, very fast and irregular heartbeat combined with severe dizziness, fainting, severe chest pain, or signs of a stroke (e.g. sudden speech, vision, or movement problems): call emergency services immediately. Atrial fibrillation itself is usually not an acute emergency, but it can trigger a stroke or occur alongside another emergency – when in doubt, always seek medical advice.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "The very name carries the psychosomatic interpretation within it: a &bdquo;flickering&ldquo; instead of an orderly beat, a loss of one's own rhythm in favor of chaotic, far too rapid quivering. Traditional Chinese Medicine often assigns irregular heart rhythms to a disturbance of the Heart Shen – the spirit that resides in the heart and is responsible for inner calm, clarity, and orderly thought. When the Shen is thrown off balance by too many simultaneous stimuli, worries, or emotional overload, the heartbeat, too, loses its calm rhythm. Psychosomatic medicine therefore often reads atrial fibrillation as the picture of a life that has lost its own, reliable rhythm – overstimulated, fragmented, or pulled in too many directions at once.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that throws off the rhythm the moment control slips",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One keeps anger under strict control for years – a tightly timed, disciplined rhythm that tolerates no deviation. When this control eventually breaks down at some point, a plausible psychosomatic picture emerges of a rhythm that abruptly tips into chaos instead of discharging in an orderly way." },
+          { code: "SO1", text: "The social One continually invests energy into the moral improvement of the group – many parallel concerns and a constant sense that something needs correcting can fragment its own inner rhythm." },
+          { code: "SX1", text: "The sexual One lives anger more directly within the relationship – episodic, intense outbursts disrupt the rhythm at specific points rather than fragmenting it permanently." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that tends to too many people at once",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two gives quietly and unobtrusively, often to several people at the same time, without ever giving feedback about its own load. This simultaneous, never-synchronized giving in many directions can be read psychosomatically as a heart that no longer finds a unified rhythm." },
+          { code: "SO2", text: "The social Two is available to the whole community – the multitude of simultaneous needs it responds to creates an inner fragmentation that leaves little room for its own rhythm." },
+          { code: "SX2", text: "The sexual Two concentrates its giving on the one relationship – the emotional volatility and jealousy tend to produce intense, episodic swings rather than a permanent fragmentation." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that manages too many fronts at once",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three works quietly and efficiently on several goals at once, often without conscious pauses between tasks. This parallel processing of diverse demands without a fixed rhythm fits the picture of a beat dissolving into too many simultaneous, uncoordinated impulses." },
+          { code: "SO3", text: "The social Three juggles public visibility, competition, and recognition simultaneously – a life in constant comparison that rarely knows a calm rhythm of its own." },
+          { code: "SX3", text: "The sexual Three deploys constant self-optimization within the relational context – the pressure to be convincing in many roles at once can lead to an inner sense of fragmentation." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that shifts back and forth between states",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries shifting inner states doggedly and with little outward visibility – a rapid, invisible shifting between moods that can manifest as inner restlessness without a fixed rhythm." },
+          { code: "SO4", text: "The social Four lives its shifting moods visibly – the intensity at least finds an outward outlet rather than fragmenting purely inwardly." },
+          { code: "SX4", text: "The sexual Four lives uncompromising, rapidly shifting emotional intensity – an up and down that comes close to the picture of a heart flickering between states instead of holding a calm rhythm." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that hides an inner overload of stimuli",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically to minimize outer stimuli – yet internally, thoughts and impressions can keep piling up unnoticed and produce tension in irregular surges." },
+          { code: "SO5", text: "The social Five gathers knowledge from many sources at once while keeping inner distance – an abundance of simultaneously processed impressions that rarely settles." },
+          { code: "SX5", text: "The sexual Five focuses intensely on very few people – a narrow but calmer connection that produces less fragmentation than the other Five variants." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that never lets the mind rest",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six lives in constant, often unconscious alertness, thoughts circling around possible dangers – a restless, self-driving inner state that can plausibly be linked to a rhythm thrown out of sync." },
+          { code: "SO6", text: "The social Six continually worries about the collective and its safety – many parallel worries about other people create an inner fragmentation that is rarely voiced openly." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation rather than rumination – producing episodic peaks of tension rather than a permanent inner scatteredness." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that seeks too many stimuli at once",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through many parallel options and projects – a life deliberately geared toward variety and scattering fits especially directly with the picture of a rhythm dissolving into too many simultaneous impulses." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – its own inner scatteredness often goes unnoticed for a long time." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively, &bdquo;everything, now&ldquo; – caffeine, alcohol, or other stimulants are medically recognized, well-documented triggers of atrial fibrillation, independent of the inner tension itself." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that tips into chaos when it suddenly slips",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight keeps tight control over material and physical resources – when this system reaches its limits, the sudden loss of control can be read psychosomatically as an abrupt tipping from orderly rhythm into chaos." },
+          { code: "SO8", text: "The social Eight carries permanent leadership tension for the group – many simultaneous responsibilities create an inner state that rarely truly settles." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – the strain shows up in extreme, episodic swings rather than in steady, sustained tension." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting whose own rhythm was never found",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort and routine – outwardly much looks calm, but the decades-long continued self-forgetting also means: its own, authentic life rhythm was never really found, but replaced by externally imposed routines." },
+          { code: "SO9", text: "The social Nine consistently subordinates its own opinion to the group – a chronic self-erasure in which its own inner rhythm permanently yields to that of the community." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a heart that never found its own, independent rhythm." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to atrial fibrillation, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates with its own inner rhythm in its own way – some through tight control that eventually slips, others through scattering, overstimulation, or a rhythm of their own that was never found. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -60906,7 +60999,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // and then moved into PSYCHOSOMATIK_KRANKHEITEN. Until then they appear on the overview
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["Stroke", "Atrial Fibrillation", "Coronary Artery Disease / Angina Pectoris", "Varicose Veins", "Thrombosis", "Low Blood Pressure (Hypotension)"],
+  "herz-kreislauf": ["Stroke", "Coronary Artery Disease / Angina Pectoris", "Varicose Veins", "Thrombosis", "Low Blood Pressure (Hypotension)"],
   "bewegungsapparat": ["Back Pain / Herniated Disc", "Osteoarthritis", "Rheumatoid Arthritis", "Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
