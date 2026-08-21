@@ -96696,6 +96696,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Fibromyalgie gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit diffuser Überforderung, nicht lokalisierbarem Schmerz und der eigenen Schmerzverarbeitung verhandelt – manche über Dauerkontrolle, andere über Rückzug, Reizüberflutung oder eine nie konkret benannte eigene Erschöpfung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  karpaltunnelsyndrom: {
+    titel: "Karpaltunnelsyndrom",
+    kategorie: "bewegungsapparat",
+    icon: "&#129508;",
+    kurz: "Wenn genau der Nerv eingeengt wird, der Greifen und Zupacken erst möglich macht.",
+    definition: "Das Karpaltunnelsyndrom entsteht durch eine Einengung des Mittelnervs (Nervus medianus) im Handgelenk, dort, wo er zusammen mit mehreren Sehnen durch einen engen, von Bändern umschlossenen Kanal – den Karpaltunnel – verläuft. Schwillt das Gewebe in diesem Kanal an, etwa durch wiederholte Belastung, entzündliche Prozesse, hormonelle Veränderungen (häufig in der Schwangerschaft) oder anatomische Enge, gerät der Nerv unter Druck. Die Folge sind Sensibilitätsstörungen und Schmerzen in den vom Nerv versorgten Fingern – meist Daumen, Zeige-, Mittel- und Teil des Ringfingers. Unbehandelt kann es zu einer dauerhaften Schädigung des Nervs mit Kraftverlust der Hand kommen.",
+    symptome: [
+      "Kribbeln oder Taubheitsgefühl in Daumen, Zeige-, Mittel- und teilweise Ringfinger, häufig nachts auftretend",
+      "Schmerzen im Handgelenk, die in den Unterarm ausstrahlen können",
+      "Ein Gefühl geschwollener, ungeschickter Finger, obwohl äußerlich keine Schwellung sichtbar ist",
+      "Vorübergehende Besserung durch Ausschütteln der Hand (&bdquo;Flick-Zeichen&ldquo;)",
+      "Nachlassende Feinmotorik, Schwierigkeiten beim Zuknöpfen oder Greifen kleiner Gegenstände",
+      "Im fortgeschrittenen Stadium erkennbarer Kraftverlust und Rückbildung der Daumenballenmuskulatur",
+    ],
+    notfall: "Das Karpaltunnelsyndrom selbst ist kein akuter Notfall, sollte aber bei anhaltenden oder zunehmenden Beschwerden ärztlich abgeklärt werden, um eine dauerhafte Nervenschädigung zu vermeiden. Bei plötzlichem, vollständigem Sensibilitätsverlust oder ausgeprägter Schwäche der Hand nach einer Verletzung: zeitnah ärztliche Hilfe aufsuchen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Die Hand ist eines der wichtigsten Werkzeuge für Handlungsfähigkeit überhaupt – mit ihr greifen wir zu, halten fest, arbeiten, geben und nehmen. Wird ausgerechnet der Nerv eingeengt, der genau diese Fähigkeit steuert, liegt eine psychosomatische Lesart nahe: eine Situation, in der das eigene Zugreifen oder Festhalten – sei es an einer Aufgabe, einer Beziehung oder einem Lebensabschnitt – über die eigene Kapazität hinaus beansprucht wird, bis genau der Kanal, durch den Handlungsfähigkeit fließt, sich zu eng anfühlt. Die Traditionelle Chinesische Medizin ordnet Beschwerden dieser Art häufig einer lokalen Qi- und Blut-Stagnation zu, oft begünstigt durch wiederholte, monotone Bewegungen ohne ausreichende Erholung – ein Bild, das sich mit der westlichen Deutung eines überlasteten, unter Dauerdruck stehenden Kanals deckt.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der sich in Zupacken und Festhalten kanalisiert",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins erledigt Aufgaben mit disziplinierter, oft wiederholter Präzision – eine über Jahre wiederholte, kaum variierte Handbewegung passt unmittelbar zum Bild einer mechanischen Überlastung des Karpaltunnels." },
+          { code: "SO1", text: "Die soziale Eins hält beharrlich an ihren Aufgaben für die Gruppe fest – ein Zupacken, das selten pausiert, auch wenn die Hand längst Ermüdung zeigt." },
+          { code: "SX1", text: "Die sexuelle Eins lebt ihre Ansprüche direkt in der Beziehung aus – eine punktuellere, weniger repetitive Form von Anspannung als bei den anderen Einser-Varianten." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der immer weiter zupackt, ohne sich Pausen zu erlauben",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei gibt still und praktisch – oft mit den eigenen Händen, sei es im Haushalt oder in der Pflege anderer –, ohne sich je eine Erholungspause zu gönnen. Ein System, das ständig zupackt, ohne loszulassen, ist psychosomatisch eines der unmittelbarsten Bilder für diese Krankheit." },
+          { code: "SO2", text: "Die soziale Zwei bleibt praktisch verfügbar für die Gemeinschaft – die eigenen Hände sind oft im Dienst anderer im Einsatz, selten in Ruhe." },
+          { code: "SX2", text: "Die sexuelle Zwei konzentriert ihre Fürsorge auf die eine Beziehung – eine fokussiertere, weniger dauerhaft beanspruchende Form der Belastung." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die die Hände als Werkzeug bis zur Erschöpfung nutzt",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet effizient und oft handwerklich präzise weiter, auch wenn der Körper längst Pause fordert – eine wiederholte, kaum unterbrochene Beanspruchung der Hände passt zum Bild eines überlasteten Kanals." },
+          { code: "SO3", text: "Die soziale Drei setzt ihre Fähigkeiten sichtbar für öffentliche Anerkennung ein – die eigenen Hände werden dabei selten geschont." },
+          { code: "SX3", text: "Die sexuelle Drei optimiert sich im Beziehungskontext – die Belastung zeigt sich hier eher als emotionaler Druck denn als mechanische Überbeanspruchung." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich in einem Griff festsetzt, der nie loslässt",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – ein inneres Festhalten, das sich nie löst, kann sich körperlich als ein Griff zeigen, der buchstäblich nicht mehr loslässt." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar – ein Ventil nach außen, das der reinen körperlichen Verengung eher entgegenwirkt." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – eine Form der Bewegung, die eher Ausdruck sucht als sich in einem Griff zu verhärten." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der die Hände lieber am Schreibtisch als in Bewegung hält",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück, oft in Tätigkeiten mit repetitiver Handbelastung (Lesen, Schreiben, Arbeiten am Bildschirm) – eine körperlich einseitige Belastung, die klassisch mit dem Karpaltunnelsyndrom in Verbindung gebracht wird." },
+          { code: "SO5", text: "Die soziale Fünf sammelt Wissen, oft in stundenlanger, sitzender Tätigkeit – eine ähnliche mechanische Beanspruchung wie bei der selbsterhaltenden Variante." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, aber lebendige Verbindung mit weniger einseitiger körperlicher Belastung." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die sich in einem Griff manifestiert, der nicht loslassen kann",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs hält an Vorsicht und Vorbereitung fest – eine Grundhaltung, die sich körperlich als ein Festhalten zeigen kann, das selbst dann nicht nachgibt, wenn Entlastung nötig wäre." },
+          { code: "SO6", text: "Die soziale Sechs trägt fortlaufend Sorge um das Kollektiv – eine Belastung, die sich selten körperlich konkret zeigt." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Festhalten – eine aktivere, weniger verengende Haltung als bei den anderen Sechser-Varianten." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die die Hände für zu viele Projekte gleichzeitig einsetzt",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über viele parallele Projekte ab – wechselnde, aber insgesamt kumulativ hohe Handbeanspruchung durch zu viele gleichzeitige Tätigkeiten kann sich langfristig auf den Karpaltunnel auswirken." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – die eigene körperliche Überlastung wird dabei lange nicht wahrgenommen." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – ein Muster, das selten auf gleichmäßige, schonende Handbewegungen achtet." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die auch dann noch fest zupackt, wenn Loslassen nötig wäre",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht hält Kontrolle über die eigenen Ressourcen straff aufrecht – ein fester Griff, der nicht loslassen will, passt unmittelbar zum Bild eines Kanals, der durch anhaltenden Druck verengt bleibt." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Führungsspannung für die Gruppe – die eigenen Hände bleiben dabei selten wirklich entspannt." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger mechanischer Überbeanspruchung." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die dieselbe Bewegung Jahr für Jahr wiederholt",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und immer gleiche Routinen – über Jahrzehnte kaum veränderte, repetitive Handbewegungen ohne bewusste Pausen passen unmittelbar zum Bild eines Kanals, der sich durch Wiederholung ohne Erneuerung verengt." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – eine Anpassung, die selten die eigene körperliche Erholung im Sinn hat." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Griffs, der sich am anderen festhält, ohne die eigene Anspannung je zu bemerken." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor einem Karpaltunnelsyndrom gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Zugreifen, Festhalten und Loslassen verhandelt – manche über repetitive Überlastung, andere über Kontrolle, Rückzug oder eine nie bemerkte eigene Anspannung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -96705,7 +96798,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
+  "bewegungsapparat": ["Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
