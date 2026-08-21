@@ -421,6 +421,7 @@ export const registerEntries = [
   { term: "Arthrose (Psychosomatik)", route: "psychosomatik/arthrose", description: "Psychosomatische Deutung: gelebte Rigidität, TCM Nieren-Jing-Mangel, Enneagramm alle 27 Subtypen" },
   { term: "Rückenschmerzen (Psychosomatik)", route: "psychosomatik/rueckenschmerzen", description: "Psychosomatische Deutung: allein getragene Last, TCM Nieren-Energie, Enneagramm alle 27 Subtypen" },
   { term: "Rheumatoide Arthritis (Psychosomatik)", route: "psychosomatik/rheumatoide_arthritis", description: "Psychosomatische Deutung: nach innen gerichtete Härte, TCM Bi-Syndrom, Enneagramm alle 27 Subtypen" },
+  { term: "Osteoporose (Psychosomatik)", route: "psychosomatik/osteoporose", description: "Psychosomatische Deutung: still schwindende Substanz, TCM Nieren-Jing, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
@@ -1516,6 +1517,7 @@ export const registerEntriesEN = [
   { term: "Osteoarthritis (Psychosomatics)", route: "psychosomatik/arthrose", description: "Psychosomatic interpretation: lived rigidity, TCM Kidney Jing deficiency, Enneagram all 27 subtypes" },
   { term: "Back Pain (Psychosomatics)", route: "psychosomatik/rueckenschmerzen", description: "Psychosomatic interpretation: burden carried alone, TCM Kidney energy, Enneagram all 27 subtypes" },
   { term: "Rheumatoid Arthritis (Psychosomatics)", route: "psychosomatik/rheumatoide_arthritis", description: "Psychosomatic interpretation: inwardly directed harshness, TCM Bi syndrome, Enneagram all 27 subtypes" },
+  { term: "Osteoporosis (Psychosomatics)", route: "psychosomatik/osteoporose", description: "Psychosomatic interpretation: silently diminishing substance, TCM Kidney Jing, Enneagram all 27 subtypes" },
   { term: "Mineral Substance Impulses", route: "mineralstoffe", description: "Mineral substance impulses for all 27 subtypes – type-specific micronutrients" },
   { term: "Healing Teas", route: "heiltees", description: "Medicinal plant teas for all 27 subtypes – effect and preparation" },
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },

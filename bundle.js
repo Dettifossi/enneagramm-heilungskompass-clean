@@ -96510,6 +96510,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor rheumatoider Arthritis gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit nach innen gerichteter Härte, Selbstfürsorge und dem eigenen Immunsystem verhandelt – manche über Perfektionismus und Selbstkritik, andere über Verdrängung, Kontrolle oder ein nie wahrgenommenes eigenes Warnsignal. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  osteoporose: {
+    titel: "Osteoporose",
+    kategorie: "bewegungsapparat",
+    icon: "&#129446;",
+    kurz: "Wenn die eigene Substanz über Jahrzehnte schwindet, ohne dass es lange bemerkt wird.",
+    definition: "Osteoporose bezeichnet eine chronische Erkrankung des Skeletts, bei der die Knochendichte abnimmt und sich die innere Struktur der Knochen zunehmend verschlechtert. Die Knochen werden poröser, verlieren an Stabilität und brechen bereits bei geringer Belastung leichter – typischerweise an Wirbelkörpern, Oberschenkelhals oder Handgelenk. Frauen sind nach den Wechseljahren durch den Östrogenmangel besonders häufig betroffen, doch auch Männer erkranken, insbesondere im höheren Alter. Weitere Risikofaktoren sind Bewegungsmangel, Calcium- und Vitamin-D-Mangel, Rauchen, übermäßiger Alkoholkonsum, bestimmte Medikamente (etwa Cortison) sowie eine genetische Veranlagung. Osteoporose selbst verursacht meist über Jahre keine Beschwerden und wird oft erst durch einen Knochenbruch entdeckt – weshalb sie in der Medizin manchmal als &bdquo;stille Krankheit&ldquo; bezeichnet wird.",
+    symptome: [
+      "Über Jahre meist keine spürbaren Symptome – die Erkrankung bleibt lange unbemerkt",
+      "Rückenschmerzen durch Wirbelkörperveränderungen, oft schleichend zunehmend",
+      "Abnahme der Körpergröße über die Jahre",
+      "Zunehmende Rundrückenbildung (&bdquo;Witwenbuckel&ldquo;) im fortgeschrittenen Stadium",
+      "Knochenbrüche bereits bei geringfügigen Stürzen oder Belastungen, oft der erste sichtbare Hinweis auf die Erkrankung",
+      "Anhaltende Rückenschmerzen nach einem scheinbar harmlosen Sturz können auf einen Wirbelkörperbruch hinweisen",
+    ],
+    notfall: "Osteoporose selbst ist kein akuter Notfall. Bei plötzlichem, starkem Rückenschmerz nach einem Sturz oder einer Belastung, insbesondere in Kombination mit einer bekannten Osteoporose-Diagnose oder im höheren Alter, sowie bei jedem Verdacht auf einen Knochenbruch (z. B. nach einem Sturz auf die Hüfte oder das Handgelenk): zeitnah ärztliche Hilfe aufsuchen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Knochen sind das innerste Gerüst des Körpers – die Struktur, die allem anderen erst Halt gibt, meist unsichtbar und ohne dass ihr viel Aufmerksamkeit geschenkt wird, bis sie nachgibt. Die Traditionelle Chinesische Medizin ordnet Knochensubstanz direkt der Niere und dem Jing zu, jener Lebenssubstanz, die sich mit dem Alter natürlicherweise verringert, aber auch durch chronische Erschöpfung, unzureichende Selbstfürsorge oder ein Leben ohne ausreichende innere Reserven schneller aufgebraucht werden kann. Die Psychosomatik liest in der Osteoporose oft ein Bild, das genau diese Unsichtbarkeit teilt: eine Substanz, die über Jahrzehnte im Verborgenen schwindet, weil sie nie genug Beachtung, Nährstoff oder Fürsorge erhielt, bis der Mangel sich plötzlich und unübersehbar zeigt.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der die eigene Substanz für andere verausgabt",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält jahrzehntelang eine strenge, disziplinierte Selbstkontrolle aufrecht, die kaum Raum für eigene Fürsorge lässt – eine Konstitution, die sich unbemerkt abbaut, weil auf sie selbst zu achten nicht zur obersten Priorität zählt." },
+          { code: "SO1", text: "Die soziale Eins investiert ihre Kraft fortlaufend in die moralische Verbesserung der Gruppe – die eigene Substanz wird dabei selten als etwas behandelt, das eigene Aufmerksamkeit verdient." },
+          { code: "SX1", text: "Die sexuelle Eins lebt ihre Prinzipien direkt in der Beziehung aus – eine fokussiertere Form der Kraftinvestition als bei den anderen Einser-Varianten." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der sich selbst nie die Nährstoffe gönnt, die er anderen gibt",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei lebt den Satz „Ich brauche niemanden“ am wörtlichsten – ein Leben, das über Jahrzehnte gibt, ohne selbst aufgefüllt zu werden. Eine Substanz, die sich unbemerkt aufbraucht, ist psychosomatisch eines der unmittelbarsten Bilder für diese stille Erschöpfung." },
+          { code: "SO2", text: "Die soziale Zwei macht sich für die gesamte Gemeinschaft unentbehrlich – die eigene Erschöpfung unter dieser Dauerverfügbarkeit wird selten anerkannt oder aufgefangen." },
+          { code: "SX2", text: "Die sexuelle Zwei konzentriert ihre Fürsorge auf die eine Beziehung – eine fokussiertere, weniger breit verteilte Form der Selbstvernachlässigung." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die die eigene Substanz für Ergebnisse verbraucht",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei funktioniert unermüdlich weiter, ohne die eigene Substanz je bewusst zu regenerieren – Erschöpfung wird nicht als Warnsignal gelesen, sondern als Schwäche, die es zu überwinden gilt." },
+          { code: "SO3", text: "Die soziale Drei investiert ihre Kraft in immer neue öffentlich sichtbare Erfolge – die eigene innere Substanz wird dabei selten geschont." },
+          { code: "SX3", text: "Die sexuelle Drei optimiert sich fortlaufend im Beziehungskontext – die Belastung zeigt sich hier eher als emotionaler Druck denn als reine Substanzerschöpfung." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die die eigene Substanz nie wirklich nährt",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahre unausgesprochene Sehnsucht, die sich still auf die eigene Konstitution auswirken kann, ohne je thematisiert zu werden." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar – ein Ventil nach außen, das der stillen Substanzerschöpfung eher entgegenwirkt." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – eine Form der Bewegung, die eher Ausdruck sucht als sich still zu erschöpfen." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der die eigene Substanz durch Bewegungsmangel zusätzlich schwächt",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und bewegt sich oft wenig – Bewegungsmangel gilt medizinisch selbst als eigenständiger Risikofaktor für Knochenschwund, da fehlende Belastung den Knochenaufbau nicht anregt." },
+          { code: "SO5", text: "Die soziale Fünf hält auch im sozialen Kontext innere Distanz – eine Zurückhaltung, die eher geistiger als körperlicher Natur ist." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – innerhalb dieser schmalen Verbindung durchaus lebendig." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die über Jahre an der eigenen Nierensubstanz zehrt",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Alarmbereitschaft – aus Sicht der Traditionellen Chinesischen Medizin, die Angst direkt mit der Nierenenergie und damit mit der Knochensubstanz verbindet, ist dies eines der unmittelbarsten Bilder dieses Krankheitsbildes." },
+          { code: "SO6", text: "Die soziale Sechs trägt fortlaufend Sorge um das Kollektiv – eine Belastung, die selten offen benannt oder abgegeben wird." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Rückzug – eine aktivere, weniger zehrende Haltung als bei den anderen Sechser-Varianten." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die die eigene Substanz durch Lebensstil zusätzlich belastet",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über viele parallele Aktivitäten ab – ein Lebensstil, der wenig Raum für regelmäßige, knochenaufbauende Bewegung lässt, kann sich langfristig zusätzlich auf die Substanz auswirken." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – die eigene Selbstfürsorge, auch in Bezug auf Ernährung und Bewegung, wird dabei leicht vernachlässigt." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – Rauchen und übermäßiger Alkoholkonsum gelten medizinisch als anerkannte, gut belegte Risikofaktoren für Osteoporose." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die auch den eigenen Substanzverlust lange verdrängt",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen – eine unsichtbar fortschreitende Erkrankung widerspricht diesem Selbstbild fundamental und wird oft lange nicht wahrgenommen." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Führungsspannung für die Gruppe – die eigene Substanz wird dabei selten als etwas behandelt, das Schonung verdient." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – körperliche Vulnerabilität wird hier besonders schwer akzeptiert." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die die eigene Substanz still verschwinden lässt",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und Routine – die über Jahrzehnte fortgesetzte Selbstvergessenheit bedeutet auch, dass die eigene Substanz nie bewusst wahrgenommen oder gepflegt wird, bis der Mangel sich unübersehbar zeigt. Möglicherweise die deutlichste Entsprechung zum Bild der stillen, unbemerkten Krankheit." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – eine Selbstauslöschung, die sich auch auf die eigene Substanz auswirken kann." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Systems, das über Jahrzehnte nie eine eigene, unabhängige Substanz aufbaute." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor Osteoporose gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Substanz, Selbstfürsorge und der eigenen inneren Reserve verhandelt – manche über Dauereinsatz für andere, andere über Bewegungsmangel, Verdrängung oder eine nie bewusst wahrgenommene eigene Erschöpfung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -96519,7 +96612,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
+  "bewegungsapparat": ["Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],

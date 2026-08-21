@@ -61736,6 +61736,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to rheumatoid arthritis, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates inwardly directed harshness, self-care, and its own immune system in its own way – some through perfectionism and self-criticism, others through denial, control, or a warning sign of their own that was never noticed. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  osteoporose: {
+    titel: "Osteoporosis",
+    kategorie: "bewegungsapparat",
+    icon: "&#129446;",
+    kurz: "When one's own substance diminishes for decades without being noticed for a long time.",
+    definition: "Osteoporosis refers to a chronic disease of the skeleton in which bone density decreases and the inner structure of the bones progressively deteriorates. The bones become more porous, lose stability, and fracture more easily even under minor strain – typically in the vertebrae, femoral neck, or wrist. Women are especially affected after menopause due to estrogen deficiency, but men also develop the disease, particularly at older ages. Other risk factors include lack of movement, calcium and vitamin D deficiency, smoking, excessive alcohol consumption, certain medications (such as cortisone), and genetic predisposition. Osteoporosis itself usually causes no symptoms for years and is often only discovered through a bone fracture – which is why medicine sometimes calls it the &bdquo;silent disease&ldquo;.",
+    symptome: [
+      "Usually no noticeable symptoms for years – the disease remains unnoticed for a long time",
+      "Back pain from changes in the vertebrae, often gradually increasing",
+      "Loss of height over the years",
+      "Increasing rounding of the upper back (&bdquo;dowager's hump&ldquo;) in advanced stages",
+      "Bone fractures from minor falls or strains, often the first visible sign of the disease",
+      "Persistent back pain after a seemingly harmless fall can indicate a vertebral fracture",
+    ],
+    notfall: "Osteoporosis itself is not an acute emergency. In the case of sudden, severe back pain after a fall or strain, especially combined with a known osteoporosis diagnosis or at an older age, and with any suspected bone fracture (e.g. after a fall onto the hip or wrist): seek medical help promptly.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Bones are the innermost scaffolding of the body – the structure that gives everything else its support, usually invisible and given little attention until it gives way. Traditional Chinese Medicine assigns bone substance directly to the Kidneys and to Jing, the life essence that naturally diminishes with age, but can also be used up faster through chronic exhaustion, insufficient self-care, or a life lived without adequate inner reserves. Psychosomatic medicine often reads a picture in osteoporosis that shares exactly this invisibility: a substance that diminishes unseen over decades because it never received enough attention, nourishment, or care, until the deficiency suddenly and unmistakably shows itself.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that spends its own substance on others",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One maintains strict, disciplined self-control for decades, leaving little room for its own care – a constitution that quietly breaks down because attending to itself never counts as the top priority." },
+          { code: "SO1", text: "The social One continually invests its strength in the moral improvement of the group – its own substance is rarely treated as something deserving its own attention." },
+          { code: "SX1", text: "The sexual One lives its principles directly within the relationship – a more focused form of investing strength than in the other One variants." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that never grants itself the nourishment it gives others",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two lives the sentence &bdquo;I need no one&ldquo; most literally – a life that gives for decades without ever being replenished. A substance that quietly depletes itself is psychosomatically one of the most direct pictures of this silent exhaustion." },
+          { code: "SO2", text: "The social Two makes itself indispensable to the entire community – its own exhaustion under this constant availability is rarely acknowledged or caught." },
+          { code: "SX2", text: "The sexual Two focuses its caregiving on the one relationship – a more focused, less broadly distributed form of self-neglect." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that spends its own substance on results",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps functioning tirelessly, never consciously regenerating its own substance – exhaustion is not read as a warning sign but as a weakness to be overcome." },
+          { code: "SO3", text: "The social Three invests its strength in ever new, publicly visible successes – its own inner substance is rarely spared in the process." },
+          { code: "SX3", text: "The sexual Three continuously optimizes itself within the relational context – the strain shows up more as emotional pressure than as pure depletion of substance." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that never truly nourishes its own substance",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – a years-long, unspoken longing can quietly affect its own constitution without ever being addressed." },
+          { code: "SO4", text: "The social Four makes its own suffering visible – an outward outlet that works against silent depletion of substance." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity – a form of movement that seeks expression rather than quietly depleting itself." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that further weakens its own substance through lack of movement",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically and often moves little – lack of movement is itself a recognized medical risk factor for bone loss, since insufficient strain fails to stimulate bone formation." },
+          { code: "SO5", text: "The social Five keeps inner distance even in social contexts – a reserve that is more mental than physical in nature." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – quite lively within this narrow connection." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that drains its own Kidney substance over the years",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six lives in constant alertness – from the perspective of Traditional Chinese Medicine, which links fear directly to Kidney energy and thus to bone substance, this is one of the most direct pictures of this condition." },
+          { code: "SO6", text: "The social Six continually worries about the collective – a strain rarely named openly or handed off." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation rather than withdrawal – a more active, less depleting stance than the other Six variants." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that further strains its own substance through lifestyle",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through many parallel activities – a lifestyle that leaves little room for regular, bone-building movement can additionally affect substance over the long term." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – its own self-care, including nutrition and movement, is easily neglected in the process." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – smoking and excessive alcohol consumption are medically recognized, well-documented risk factors for osteoporosis." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that denies even its own loss of substance for a long time",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight secures its own existence through control over material and physical resources – an invisibly progressing disease fundamentally contradicts this self-image and often goes unnoticed for a long time." },
+          { code: "SO8", text: "The social Eight carries permanent leadership tension for the group – its own substance is rarely treated as something that deserves sparing." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – physical vulnerability is especially hard to accept here." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that lets its own substance quietly disappear",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort and routine – the decades-long continued self-forgetting also means its own substance is never consciously noticed or tended to, until the deficiency becomes unmistakable. Possibly the clearest match to the picture of a silent, unnoticed disease." },
+          { code: "SO9", text: "The social Nine consistently subordinates its own opinion to the group – a self-erasure that can also affect its own substance." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a system that, over decades, never built its own, independent substance." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to osteoporosis, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates substance, self-care, and its own inner reserve in its own way – some through sustained effort for others, others through lack of movement, denial, or an exhaustion of their own that was never consciously noticed. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -61744,7 +61837,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
+  "bewegungsapparat": ["Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],
