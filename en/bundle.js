@@ -61829,6 +61829,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to osteoporosis, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates substance, self-care, and its own inner reserve in its own way – some through sustained effort for others, others through lack of movement, denial, or an exhaustion of their own that was never consciously noticed. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  fibromyalgie: {
+    titel: "Fibromyalgia",
+    kategorie: "bewegungsapparat",
+    icon: "&#127775;",
+    kurz: "When the whole body reports pain without a single place where anything can be found.",
+    definition: "Fibromyalgia (fibromyalgia syndrome) is a chronic pain condition characterized by widespread, often shifting pain in muscles, tendons, and joints, usually accompanied by pronounced exhaustion, sleep disturbances, and cognitive impairment (&bdquo;fibro fog&ldquo;). Unlike inflammatory or degenerative joint diseases, laboratory and imaging tests show no structural abnormalities – diagnosis rests on the characteristic symptom picture and the exclusion of other causes. The exact origin remains incompletely understood to this day; a disturbed pain processing in the central nervous system is discussed, often in interplay with chronic stress, earlier traumatic experiences, and heightened pain sensitivity.",
+    symptome: [
+      "Chronic, widespread pain in muscles and connective tissue, often shifting to different parts of the body",
+      "Pronounced exhaustion that barely improves even with sleep",
+      "Unrefreshing sleep despite adequate sleep duration",
+      "Difficulties with concentration and memory (&bdquo;fibro fog&ldquo;)",
+      "Increased tenderness at certain points of the body (tender points)",
+      "Frequently accompanying complaints such as irritable bowel, headaches, sensitivity to cold or heat, inner restlessness",
+    ],
+    notfall: "Fibromyalgia itself is not an acute emergency. However, since the symptoms can resemble other, sometimes more serious conditions, newly appearing or strongly changing symptoms should be medically evaluated to rule out other causes (such as inflammatory rheumatic or neurological diseases).",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Among the conditions of the musculoskeletal system, fibromyalgia occupies a special place: the pain is real and often considerable, yet it cannot be pinned to any single structure – as if not one joint or tendon were affected, but the entire way the body processes stimuli and strain in the first place. Traditional Chinese Medicine often describes a related state as a combination of Liver Qi stagnation (blocked, non-flowing life energy, frequently from suppressed emotions) and a general exhaustion of Qi and Blood. Psychosomatic medicine therefore often reads fibromyalgia less as the picture of a local injury than of a system that had to process more, over the years, than it could handle – until the entire body became a resonance chamber for an overload that cannot be pinned down anywhere concrete.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that spreads diffusely through the whole body",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One keeps anger disciplined and under control for decades, never discharging it at any single point – a pattern that psychosomatically fits the picture of a pain that does not pin itself to a single spot but spreads across the entire system." },
+          { code: "SO1", text: "The social One carries a diffuse, never fully quenched dissatisfaction with the state of the world – an underlying tension hard to pin to any single cause." },
+          { code: "SX1", text: "The sexual One lives anger more directly within the relationship – a more focused form of discharge than in the other One variants." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that never names its own exhaustion at any concrete point",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two gives quietly, never naming its own overload at any concrete point – a diffuse, never localized exhaustion is read by psychosomatic medicine as one of the most direct pictures for a symptom picture that likewise cannot be assigned to any single cause." },
+          { code: "SO2", text: "The social Two stays permanently available to the community – its own exhaustion spreads across many small, never individually named overloads." },
+          { code: "SX2", text: "The sexual Two focuses its caregiving on the one relationship – a more focused, less diffuse form of strain." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that systemically overtaxes the body for years",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps functioning without break, without real periods of recovery – a permanent overload that can affect not a single organ but the entire system." },
+          { code: "SO3", text: "The social Three keeps taking on new, publicly visible successes – the price for it rarely shows up in one place, but as diffuse overall exhaustion." },
+          { code: "SX3", text: "The sexual Three continuously optimizes itself within the relational context – the strain shows up more as emotional pressure than as a body-wide symptom picture." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that shows up as body-wide, never graspable pain",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – a years-long, unspoken, diffuse longing that cannot be named anywhere concretely can show up physically as an equally diffuse pain." },
+          { code: "SO4", text: "The social Four makes its own suffering visible – an outward outlet that works against pure physical diffuseness." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity – a form of movement that seeks concrete expression rather than diffusing throughout the body." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that never names its own exhaustion concretely",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically and minimizes contact – an inner exhaustion never put into words can instead settle physically as a diffuse, hard-to-localize symptom picture." },
+          { code: "SO5", text: "The social Five keeps inner distance even in social contexts – its own strain tends to be processed cognitively rather than named physically." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – quite concrete and graspable within this narrow connection." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that holds the entire body in permanent tension",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six lives in constant alertness – a chronic, diffuse tension throughout the nervous system that is plausibly linked medically to the disturbed pain processing seen in fibromyalgia." },
+          { code: "SO6", text: "The social Six continually worries about the collective – a strain rarely pinned to any single point." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation rather than withdrawal – a more active, less diffusely distributed tension than the other Six variants." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that chronically overstimulates the nervous system",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through many parallel activities and stimuli – a lifestyle of constant overstimulation that can chronically overtax the nervous system over the years and further sensitize pain processing." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – its own overload goes unnoticed for a long time." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – a pattern of constant stimulus-seeking that rarely grants the nervous system real recovery." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that finds diffuse, ungraspable pain especially hard to accept",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight secures its own existence through control over material and physical resources – a condition that cannot be assigned to any concrete cause fundamentally contradicts this need for clarity and control." },
+          { code: "SO8", text: "The social Eight carries permanent leadership tension for the group – diffuse, ungraspable exhaustion rarely fits its own self-image of strength." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – a condition with no clear point of attack is especially hard to accept here." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that reports itself as diffuse, whole-body pain",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort and conflict avoidance – the decades-long continued self-forgetting also means its own exhaustion is never named at any concrete point but spreads diffusely throughout the whole body. Possibly the clearest match to this condition." },
+          { code: "SO9", text: "The social Nine consistently subordinates its own opinion to the group – a self-erasure that can show up physically as diffuse rather than localized." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a body that no longer feels its own boundary anywhere concretely." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to fibromyalgia, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates diffuse overload, unlocalizable pain, and its own pain processing in its own way – some through sustained control, others through withdrawal, overstimulation, or an exhaustion of their own that was never named concretely. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -61837,7 +61930,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
+  "bewegungsapparat": ["Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],

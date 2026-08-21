@@ -96603,6 +96603,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Osteoporose gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Substanz, Selbstfürsorge und der eigenen inneren Reserve verhandelt – manche über Dauereinsatz für andere, andere über Bewegungsmangel, Verdrängung oder eine nie bewusst wahrgenommene eigene Erschöpfung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  fibromyalgie: {
+    titel: "Fibromyalgie",
+    kategorie: "bewegungsapparat",
+    icon: "&#127775;",
+    kurz: "Wenn der ganze Körper Schmerz meldet, ohne dass sich an einer einzigen Stelle etwas finden lässt.",
+    definition: "Fibromyalgie (Fibromyalgiesyndrom) ist eine chronische Schmerzerkrankung, die sich durch großflächige, oft wandernde Schmerzen in Muskeln, Sehnen und Gelenken auszeichnet, meist begleitet von ausgeprägter Erschöpfung, Schlafstörungen und kognitiven Beeinträchtigungen (&bdquo;Fibro-Fog&ldquo;). Anders als bei entzündlichen oder degenerativen Gelenkerkrankungen finden sich in Labor- und Bildgebungsuntersuchungen keine strukturellen Auffälligkeiten – die Diagnose stützt sich auf das charakteristische Beschwerdebild und den Ausschluss anderer Ursachen. Die genaue Entstehung ist bis heute nicht vollständig geklärt; diskutiert wird eine gestörte Schmerzverarbeitung im zentralen Nervensystem, oft im Zusammenspiel mit chronischem Stress, früheren traumatischen Erfahrungen und einer erhöhten Schmerzempfindlichkeit.",
+    symptome: [
+      "Chronische, großflächige Schmerzen in Muskeln und Bindegewebe, oft an wechselnden Stellen des Körpers",
+      "Ausgeprägte Erschöpfung, die sich auch durch Schlaf kaum bessert",
+      "Nicht erholsamer Schlaf trotz ausreichender Schlafdauer",
+      "Konzentrations- und Gedächtnisstörungen (&bdquo;Fibro-Fog&ldquo;)",
+      "Erhöhte Druckempfindlichkeit bestimmter Körperstellen (Tender Points)",
+      "Häufig begleitende Beschwerden wie Reizdarm, Kopfschmerzen, Kälte- oder Wärmeempfindlichkeit, innere Unruhe",
+    ],
+    notfall: "Fibromyalgie selbst ist kein akuter Notfall. Da die Symptome jedoch anderen, teils ernsteren Erkrankungen ähneln können, sollten neu auftretende oder sich stark verändernde Beschwerden ärztlich abgeklärt werden, um andere Ursachen (etwa entzündlich-rheumatische oder neurologische Erkrankungen) auszuschließen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Fibromyalgie nimmt unter den Krankheitsbildern des Bewegungsapparats eine besondere Stellung ein: Der Schmerz ist real und oft erheblich, doch er lässt sich an keiner einzelnen Struktur festmachen – als sei nicht ein Gelenk oder eine Sehne betroffen, sondern die gesamte Art, wie der Körper Reize und Belastung überhaupt verarbeitet. Die Traditionelle Chinesische Medizin beschreibt einen verwandten Zustand oft als Verbindung aus Leber-Qi-Stagnation (blockierte, nicht fließende Lebensenergie, häufig durch unterdrückte Emotionen) und einer generellen Erschöpfung von Qi und Blut. Die Psychosomatik liest in der Fibromyalgie deshalb oft weniger das Bild einer lokalen Verletzung als das eines Systems, das über Jahre mehr verarbeiten musste, als es verkraften konnte – bis der ganze Körper zum Resonanzraum für eine Überlastung wurde, die sich nirgends konkret festmachen lässt.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der sich diffus über den ganzen Körper verteilt",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger über Jahrzehnte diszipliniert unter Kontrolle, ohne ihn je an einer Stelle zu entladen – ein Muster, das psychosomatisch zum Bild eines Schmerzes passt, der sich nicht an einer einzelnen Stelle festmacht, sondern sich über das ganze System verteilt." },
+          { code: "SO1", text: "Die soziale Eins trägt eine diffuse, nie ganz stillbare Unzufriedenheit mit dem Zustand der Welt – eine Grundspannung, die sich schwer an einer einzigen Ursache festmachen lässt." },
+          { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter in der Beziehung aus – eine fokussiertere Form der Entladung als bei den anderen Einser-Varianten." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der die eigene Erschöpfung nirgends konkret benennt",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei gibt still, ohne je die eigene Überforderung an einer konkreten Stelle zu benennen – eine diffuse, nie lokalisierte Erschöpfung liest die Psychosomatik als eines der unmittelbarsten Bilder für ein Beschwerdebild, das sich ebenfalls keiner einzelnen Ursache zuordnen lässt." },
+          { code: "SO2", text: "Die soziale Zwei bleibt permanent für die Gemeinschaft verfügbar – die eigene Erschöpfung verteilt sich über viele kleine, nie einzeln benannte Überforderungen." },
+          { code: "SX2", text: "Die sexuelle Zwei konzentriert ihre Fürsorge auf die eine Beziehung – eine fokussiertere, weniger diffuse Form der Belastung." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die den Körper über Jahre systemisch überfordert",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei funktioniert ununterbrochen weiter, ohne echte Regenerationsphasen – eine Dauerüberforderung, die sich nicht auf ein einzelnes Organ, sondern auf das gesamte System auswirken kann." },
+          { code: "SO3", text: "Die soziale Drei stemmt immer neue öffentlich sichtbare Erfolge – der Preis dafür zeigt sich selten an einer Stelle, sondern als diffuse Gesamterschöpfung." },
+          { code: "SX3", text: "Die sexuelle Drei optimiert sich fortlaufend im Beziehungskontext – die Belastung zeigt sich hier eher als emotionaler Druck denn als körperweite Symptomatik." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich als körperweiter, nie greifbarer Schmerz zeigt",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahre unausgesprochene, diffuse Sehnsucht, die sich nirgends konkret benennen lässt, kann sich körperlich als ebenso diffuser Schmerz zeigen." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar – ein Ventil nach außen, das der reinen körperlichen Diffusität eher entgegenwirkt." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – eine Form der Bewegung, die eher konkreten Ausdruck sucht als sich diffus im Körper zu verteilen." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der die eigene Erschöpfung nie konkret benennt",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und minimiert Kontakt – eine innere Erschöpfung, die nie in Worte gefasst wird, kann sich stattdessen körperlich als diffuses, schwer lokalisierbares Beschwerdebild niederschlagen." },
+          { code: "SO5", text: "Die soziale Fünf hält auch im sozialen Kontext innere Distanz – die eigene Belastung wird eher kognitiv verarbeitet als körperlich benannt." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – innerhalb dieser schmalen Verbindung durchaus konkret und greifbar." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die den ganzen Körper in Daueranspannung hält",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Alarmbereitschaft – eine chronische, diffuse Anspannung des gesamten Nervensystems, die medizinisch plausibel mit der gestörten Schmerzverarbeitung bei Fibromyalgie in Verbindung gebracht werden kann." },
+          { code: "SO6", text: "Die soziale Sechs trägt fortlaufend Sorge um das Kollektiv – eine Belastung, die sich selten an einer einzelnen Stelle festmacht." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Rückzug – eine aktivere, weniger diffus verteilte Anspannung als bei den anderen Sechser-Varianten." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die das Nervensystem chronisch überreizt",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über viele parallele Aktivitäten und Reize ab – ein Lebensstil ständiger Überstimulation, der das Nervensystem über Jahre chronisch überreizen und die Schmerzverarbeitung zusätzlich sensibilisieren kann." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – die eigene Überforderung wird dabei lange nicht wahrgenommen." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – ein Muster ständiger Reizsuche, das dem Nervensystem selten echte Erholung gönnt." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die diffuse, nicht greifbare Schmerzen besonders schwer akzeptiert",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen – ein Krankheitsbild, das sich keiner konkreten Ursache zuordnen lässt, widerspricht diesem Bedürfnis nach Klarheit und Kontrolle fundamental." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Führungsspannung für die Gruppe – diffuse, nicht greifbare Erschöpfung passt selten zum eigenen Selbstbild von Stärke." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – ein Krankheitsbild ohne klaren Angriffspunkt wird hier besonders schwer akzeptiert." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die sich als diffuser Ganzkörperschmerz meldet",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und Konfliktvermeidung – die über Jahrzehnte fortgesetzte Selbstvergessenheit bedeutet auch, dass die eigene Erschöpfung nie an einer konkreten Stelle benannt wird, sondern sich diffus über den ganzen Körper verteilt. Möglicherweise die deutlichste Entsprechung zu diesem Krankheitsbild." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – eine Selbstauslöschung, die sich körperlich diffus, statt an einer Stelle, zeigen kann." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Körpers, der die eigene Grenze nirgends konkret mehr spürt." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor Fibromyalgie gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit diffuser Überforderung, nicht lokalisierbarem Schmerz und der eigenen Schmerzverarbeitung verhandelt – manche über Dauerkontrolle, andere über Rückzug, Reizüberflutung oder eine nie konkret benannte eigene Erschöpfung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -96612,7 +96705,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
+  "bewegungsapparat": ["Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
