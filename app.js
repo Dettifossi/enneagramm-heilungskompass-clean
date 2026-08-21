@@ -31407,6 +31407,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Sozialer Typ 1", krankheit:"Leberkrebs", teaser:"SO1w2 – Musiker und Künstler, 1947–2016. Kämpfte 18 Monate lang im Verborgenen gegen Leberkrebs und verwandelte die Diagnose in sein letztes Werk, das Album Blackstar, das zwei Tage vor seinem Tod erschien." , land:"Vereinigtes Königreich", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2", krankheit:"Fieberhafte Erkrankung mit Nierenversagen (vermutlich Folge einer Streptokokken-Infektion)", teaser:"SE2w3 – österreichischer Komponist, 1756–1791. Von Kindheit an eine Kette fieberhafter Erkrankungen (Pocken, Typhus, wiederkehrendes Scharlach), starb 1791 mit 35 Jahren nach zweiwöchiger Krankheit mit Fieber und generalisierten Ödemen – während er gleichzeitig an drei Großwerken arbeitete, darunter das unvollendete Requiem." , land:"Österreich", gender:"m", jahre:"1756–1791"},
   { route:"krankheitsportraets-marilyn-monroe", name:"Marilyn Monroe", subtyp:"SX3w4", heading:"Marilyn Monroe – Sexueller Typ 3", krankheit:"Tödliche Kombination aus Barbituraten (Nembutal) und Chloralhydrat, offiziell als wahrscheinlicher Suizid eingestuft", teaser:"SX3w4 – Schauspielerin, 1926–1962. Jahrelang hinter dem makellosen Image verborgene Endometriose, eskalierende Schlafmittelabhängigkeit, ein erzwungener Psychiatrieaufenthalt 1961. Starb 1962 mit 36 Jahren – die genauen Todesumstände sind bis heute umstritten." , land:"USA", gender:"f", jahre:"1926–1962"},
+  { route:"krankheitsportraets-albert-einstein", name:"Albert Einstein", subtyp:"SO5w4", heading:"Albert Einstein – Sozialer Typ 5", krankheit:"Bauchaortenaneurysma, über sechseinhalb Jahre bekannt und nur notdürftig stabilisiert, tödliche Ruptur 1955", teaser:"SO5w4 – Physiker, Nobelpreisträger, 1879–1955. Diagnose 1948, seither mit einer bekannten, nie kurativ behandelten Bedrohung gelebt. Lehnte 1955 eine erneute Operation bewusst ab und starb wenige Tage später an der Ruptur des Aneurysmas – bis zuletzt arbeitend." , land:"Deutschland/USA", gender:"m", jahre:"1879–1955"},
   { route:"krankheitsportraets-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3", heading:"Freddie Mercury – Sexueller Typ 4", krankheit:"AIDS-bedingte Bronchopneumonie, nach fast fünf Jahren strikter Geheimhaltung erst einen Tag vor dem Tod öffentlich bestätigt", teaser:"SX4w3 – Musiker, Queen-Frontsänger, 1946–1991. Diagnose laut Jim Hutton im Frühjahr 1987, seither strikte Geheimhaltung bei gleichzeitigem Weiterarbeiten bis zur körperlichen Erschöpfung. Bestätigte die Erkrankung selbst erst am 23. November 1991, starb am nächsten Tag." , land:"Großbritannien", gender:"m", jahre:"1946–1991"},
   { route:"krankheitsportraets-lady-diana", name:"Lady Diana", subtyp:"SE4w3", heading:"Lady Diana – Selbsterhaltender Typ 4", krankheit:"Über Jahre verschwiegene Bulimie, verbunden mit Selbstverletzung und postnataler Depression", teaser:"SE4w3 – Princess of Wales, 1961–1997. Begann laut eigener Aussage in der Woche nach der Verlobung mit Prinz Charles 1981, machte sie erst 1995 im BBC-Panorama-Interview selbst öffentlich. Starb 1997 bei einem Autounfall in Paris – ohne belegten Zusammenhang mit der früheren Erkrankung." , land:"Vereinigtes Königreich", gender:"f", jahre:"1961–1997"},
   { route:"krankheitsportraets-osho", name:"Osho", subtyp:"SE3w4", heading:"Osho – Selbsterhaltender Typ 3", krankheit:"Herzversagen nach chronischen Beschwerden (Diabetes, Asthma, Rückenschmerzen) und einer bis heute umstrittenen Vergiftungsbehauptung", teaser:"SE3w4 – spiritueller Lehrer, 1931–1990. Chronische Beschwerden seit den frühen 1970ern, zwölftägige Haft in den USA 1985, danach neue Symptome, die er und sein Umfeld auf eine nie unabhängig bestätigte Vergiftung zurückführten. Starb 1990 mit 58 Jahren – die genaue Todesursache bleibt bis heute umstritten." , land:"Indien", gender:"m", jahre:"1931–1990"},
@@ -43023,7 +43024,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Wissen wird über Jahre im Verborgenen entwickelt, bevor es kontrolliert freigegeben wird",
         beschreibung: "Anders als spontane Mitteilung erfolgt die Weitergabe von Wissen erst nach langer, oft jahrzehntelanger Vorbereitung im Stillen – und dann bewusst dosiert, zum selbst gewählten Zeitpunkt.",
-        beleg: "Isaac Newton, der die Grundlagen seiner Physik ›über zwei Jahrzehnte lang fast ausschließlich für sich behalten hatte‹: ›Der Oktopus verbirgt sich nicht aus Schwäche. Er verbirgt sich, weil er die Kontrolle darüber behalten will, wann und wie sein Wissen die Welt erreicht‹; Hegel, der erst mit 46 Jahren seine erste Professur erhielt, nach ›einer langen Phase des stillen, zurückgezogenen Systemschreibens‹; Pythagoras, der sein Wissen ›nach außen nur in genau bemessenen Dosen‹ weitergab."
+        beleg: "Isaac Newton, der die Grundlagen seiner Physik ›über zwei Jahrzehnte lang fast ausschließlich für sich behalten hatte‹: ›Der Oktopus verbirgt sich nicht aus Schwäche. Er verbirgt sich, weil er die Kontrolle darüber behalten will, wann und wie sein Wissen die Welt erreicht‹; Hegel, der erst mit 46 Jahren seine erste Professur erhielt, nach ›einer langen Phase des stillen, zurückgezogenen Systemschreibens‹; Pythagoras, der sein Wissen ›nach außen nur in genau bemessenen Dosen‹ weitergab; Einstein, der auch sein eigenes Lebensende nach demselben Prinzip behandelte: Als 1955 eine erneute Operation seines seit Jahren bekannten Aortenaneurysmas anstand, lehnte er ab – ›Ich will gehen, wenn ich will‹ – und entschied selbst über den Zeitpunkt, statt die Kontrolle abzugeben."
       },
       {
         titel: "Eine eigene Struktur oder ein eigener Orden als Rahmen für geteiltes, aber gehütetes Wissen",
@@ -61019,6 +61020,10 @@ function albertEinsteinPortraitPage() {
         <p class="krim-portrait-subtitle">Physiker, Nobelpreistr\u00e4ger, 1879&ndash;1955 &ndash; Begr\u00fcnder der Relativit\u00e4tstheorie &ndash; Tierentsprechung: Oktopus</p>
       </div>
       <div class="page-content">
+        <p class="vb-intro" style="text-align:center;font-style:italic;">
+          Ein eigenes <a href="javascript:void(0)" data-route="krankheitsportraets-albert-einstein">Krankheitsportr\u00e4t</a>
+          widmet sich Einsteins \u00fcber Jahre bekanntem Bauchaortenaneurysma und seiner bewussten Entscheidung gegen eine erneute Operation 1955.
+        </p>
 
         <h2 class="vb-section">1. Der Oktopus, der im Stillen die Formeln des Universums entschl\u00fcsselte</h2>
         <blockquote class="vb-blockquote">
@@ -61063,6 +61068,7 @@ function albertEinsteinPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so5", label:"SO5 \u2013 Der Oktopus: Subtyp-Profil"},
+        {route:"krankheitsportraets-albert-einstein", label:"Krankheitsportr\u00e4t: Albert Einstein (SO5w4)"},
         {route:"astrologie-albert-einstein", label:"Astrologie-Portr\u00e4t: Albert Einstein (SO5w6)"},
         {route:"beruehmte-guenther-jauch", label:"Portr\u00e4t: G\u00fcnther Jauch (SO5w6)"},
       ])}
@@ -70160,6 +70166,181 @@ function freddieMercuryKrankheitsportraetPage() {
         {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
+      ])}
+    </div>
+  `);
+}
+
+function albertEinsteinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-albert-einstein-portrait.jpg" alt="Albert Einstein" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Albert Einstein</p>
+        <p class="krim-portrait-typ">SO5w4 · Sozialer Typ 5 mit Viererflügel · 1879–1955</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Oktopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Tierentsprechung: Oktopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Albert Einstein</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-albert-einstein">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: ein
+        über sechseinhalb Jahre bekanntes, nur notdürftig stabilisiertes
+        Bauchaortenaneurysma und die bewusste Entscheidung, es 1955 nicht mehr operieren zu
+        lassen.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Einstein</strong> ist dem <strong>sozialen Typ 5 mit Viererflügel</strong>
+        zugeordnet. Die SO5 sucht Sicherheit über Wissen und intellektuelle Autorität
+        innerhalb einer Gemeinschaft von Gleichgesinnten, nicht über emotionale Nähe. Der
+        Viererflügel bringt eine melancholische, existenzielle Tiefe hinzu – eine Nähe zu den
+        großen Fragen von Sinn, Endlichkeit und Bedeutung. Genau diese Kombination aus
+        distanzierter Rationalität und existenzieller Tiefe prägt auch Einsteins Umgang mit
+        seiner eigenen Sterblichkeit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Ein Zufallsfund bei einer Untersuchung:</strong>
+        Im Dezember 1948 suchte Einstein wegen wiederkehrender Bauchschmerzen den
+        Thoraxchirurgen Dr. Rudolph Nissen auf, der bei einer explorativen Operation ein
+        großes Bauchaortenaneurysma entdeckte.</p>
+        <p class="vb-intro"><strong>b) Eine Notlösung statt Heilung:</strong>
+        Da Aortentransplantate damals noch nicht existierten, umwickelte Nissen das
+        Aneurysma mit Cellophan – eine Fremdkörperreaktion sollte die Aortenwand fibrotisch
+        verdicken und so vorübergehend stabilisieren. Eine echte Heilung war das nicht.</p>
+        <p class="vb-intro"><strong>c) Ein Wissen, das den Alltag kaum veränderte:</strong>
+        In den folgenden Jahren arbeitete Einstein nach außen sichtbar unvermindert weiter –
+        über einen bewussten Umgang mit dem Risiko im Alltag ist wenig überliefert, was zur
+        SO5-typischen Trennung von Wissen und emotionaler Verarbeitung passt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Sechseinhalb Jahre mit einer bekannten Zeitbombe:</strong>
+        Von der Diagnose im Dezember 1948 bis zu seinem Tod im April 1955 lebte Einstein mit
+        einem Aneurysma, das jederzeit reißen konnte – palliativ stabilisiert, aber nie
+        kurativ behandelt.</p>
+        <p class="vb-intro"><strong>b) Ein akuter Zusammenbruch im April 1955:</strong>
+        Am 12. April 1955 erlitt Einstein erneut Bauchschmerzen; Dr. Frank Glenn, Chefchirurg
+        am New York Hospital, diagnostizierte ein undichtes Aneurysma und empfahl eine
+        Resektion – eine damals neue, riskante Operationstechnik.</p>
+        <p class="vb-intro"><strong>c) Eine bewusste Ablehnung der Operation:</strong>
+        Einstein lehnte den Eingriff ab. So ist überliefert: "I want to go when I want. It is
+        tasteless to prolong life artificially. I have done my share, it is time to go. I
+        will do it elegantly." (›Ich will gehen, wenn ich will. Es ist geschmacklos, das
+        Leben künstlich zu verlängern. Ich habe meinen Teil getan, es ist Zeit zu gehen. Ich
+        werde es mit Würde tun.‹)</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Eine unvollendete Rede neben dem Krankenbett:</strong>
+        Im Princeton Hospital hatte Einstein einen unfertigen Entwurf einer Fernsehansprache
+        zum siebten Jahrestag des Staates Israel bei sich – Arbeit, die er bis zuletzt nicht
+        aufgab.</p>
+        <p class="vb-intro"><strong>b) Gleichungen bis zur letzten Nacht:</strong>
+        Nach seinem Tod fand das Pflegepersonal neun Seiten handschriftlicher Notizen mit
+        Gleichungen zur einheitlichen Feldtheorie, mit Bleistift auf gelbem Papier
+        geschrieben – seine letzte, nie abgeschlossene wissenschaftliche Suche.</p>
+        <p class="vb-intro"><strong>c) Kein Abschied, keine große Geste:</strong>
+        Einstein bereitete sich auf seinen Tod nicht mit Reden an Angehörige vor, sondern
+        arbeitete weiter, als sei nichts anders als sonst – für die SO5 typisch: Rückzug in
+        die Sache statt in die Emotion.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 18. April 1955:</strong>
+        Einstein starb im Princeton Hospital an einer inneren Blutung durch die Ruptur des
+        Aneurysmas, im Alter von 76 Jahren.</p>
+        <p class="vb-intro"><strong>b) Eine Entscheidung, die bis heute diskutiert wird:</strong>
+        Die Ablehnung der Operation gilt bis heute als eines der bekanntesten Beispiele für
+        eine bewusste, selbstbestimmte Haltung zum eigenen Lebensende in der
+        Wissenschaftsgeschichte.</p>
+        <p class="vb-intro"><strong>c) Ein Nachleben, das er nicht kontrollieren konnte:</strong>
+        Der Pathologe Thomas Harvey entnahm bei der Autopsie ohne Erlaubnis der Familie
+        Einsteins Gehirn, in der Hoffnung, spätere Forschung könne daraus seine Intelligenz
+        erklären – eine Kontroverse, die bis heute nachwirkt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kontrolle durch Wissen statt durch Handeln:</strong>
+        Die SO5-typische Strategie, Sicherheit über Verstehen statt über Eingreifen zu
+        gewinnen, zeigte sich bis zuletzt: Einstein analysierte seine Lage nüchtern und traf
+        eine informierte Entscheidung, statt sich dem medizinischen System auszuliefern.</p>
+        <p class="vb-intro"><strong>b) Rückzug in die Arbeit statt in die Angst:</strong>
+        Statt sich mit der Endlichkeit emotional auseinanderzusetzen, vertiefte er sich bis
+        zum letzten bewussten Moment in Gleichungen und Texte – die vertraute Zuflucht in
+        die Sache.</p>
+        <p class="vb-intro"><strong>c) Der Oktopus, der die Tinte selbst wählte:</strong>
+        Wo andere sich dem Zufall oder dem medizinischen Eingriff überlassen hätten, behielt
+        Einstein bis zuletzt die Deutungshoheit über den eigenen Tod – eine letzte Form von
+        Autonomie.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Leben der distanzierten Beobachtung:</strong>
+        Schon lange vor der Diagnose war Einstein für seine Fähigkeit bekannt, sich auch von
+        den größten menschlichen Umbrüchen – zwei Weltkriege, Emigration, öffentlicher Ruhm –
+        mit bemerkenswerter innerer Distanz zu betrachten.</p>
+        <p class="vb-intro"><strong>b) Eine über Jahre bekannte, aber nie verdrängte Bedrohung:</strong>
+        Von der Diagnose 1948 bis zum Tod 1955 zieht sich eine durchgehende Linie aus Wissen
+        um die eigene Sterblichkeit, die weder verheimlicht noch dramatisiert wurde – sie
+        wurde schlicht zur Kenntnis genommen.</p>
+        <p class="vb-intro"><strong>c) Ein letztes Jahr wie jedes andere:</strong>
+        Bis zum akuten Zusammenbruch im April 1955 unterschied sich sein Alltag nach außen
+        kaum von den Jahren zuvor – Arbeit, Korrespondenz, Forschung, ohne sichtbare
+        Dramatisierung der eigenen Lage.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Aorta?</strong>
+        Für eine soziale Fünf mit Viererflügel, deren Sicherheit über rationale Distanz und
+        intellektuelle Kontrolle entsteht, liegt eine Deutung nahe: Ausgerechnet jenes Gefäß,
+        das den gesamten Organismus mit Leben versorgt und dessen Versagen keine Warnung
+        gibt, wurde zum Ort einer Bedrohung, die sich der Kontrolle entzog – während Einstein
+        genau darauf mit der einzigen ihm verbliebenen Form von Kontrolle reagierte: der
+        bewussten Entscheidung, sie nicht zu bekämpfen. Diese Deutung ist eine plausible
+        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Fünf zwangsläufig zu Gefäßerkrankungen
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Einsteins Fall zeigen lässt, ist ein Muster, das bei dem
+        Bedürfnis, existenzielle Bedrohung über rationale Distanz statt über emotionale
+        Bewältigung zu verarbeiten, in der Praxis immer wieder auffällt – eine von vielen
+        möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Einsteins</strong> letzten Jahren lässt sich die soziale Fünf mit
+        Viererflügel noch einmal in aller Klarheit ablesen: eine über Jahre bekannte, nie
+        verdrängte Bedrohung, eine nüchterne, informierte Entscheidung gegen den Eingriff, und
+        eine Arbeit an den großen Fragen des Universums, die bis zur letzten Nacht nicht
+        endete. Der Oktopus, der die Tinte selbst wählte – und der noch im Sterben nach der
+        einen Formel suchte, die alles erklären würde.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-albert-einstein", label:"Porträt: Albert Einstein (SO5w4) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so5", label:"Subtyp-Profil SO5"},
       ])}
     </div>
   `);
@@ -99178,6 +99359,7 @@ function render() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-albert-einstein": albertEinsteinKrankheitsportraetPage,
       "krankheitsportraets-freddie-mercury": freddieMercuryKrankheitsportraetPage,
       "krankheitsportraets-lady-diana": ladyDianaKrankheitsportraetPage,
       "krankheitsportraets-marilyn-monroe": marilynMonroeKrankheitsportraetPage,
