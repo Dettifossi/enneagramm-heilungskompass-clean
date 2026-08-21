@@ -201,6 +201,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Social Type 9", krankheit:"Alzheimer's Disease", teaser:"SO9w8 – 40th US President 1981–1989, 1911–2004. Announced his Alzheimer's diagnosis in 1994 in a handwritten letter to the American public, then withdrew almost entirely from public life for the following ten years." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Social Type 1", krankheit:"Liver Cancer", teaser:"SO1w2 – musician and artist, 1947–2016. Fought liver cancer in secret for 18 months and transformed the diagnosis into his final work, the album Blackstar, released two days before his death." , land:"United Kingdom", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Self-Preservation Type 2", krankheit:"Febrile Illness with Kidney Failure (likely following a streptococcal infection)", teaser:"SE2w3 – Austrian composer, 1756–1791. A lifelong chain of feverish illnesses since childhood (smallpox, typhoid fever, recurring scarlet fever) preceded his death at 35 after a two-week illness with fever and generalized swelling – while he was working on three major works at once, including the unfinished Requiem." , land:"Austria", gender:"m", jahre:"1756–1791"},
+  { route:"krankheitsportraets-osho", name:"Osho", subtyp:"SE3w4", heading:"Osho – Self-Preservation Type 3", krankheit:"Heart failure after chronic ailments (diabetes, asthma, back pain) and a disputed poisoning claim", teaser:"SP3w4 – spiritual teacher, 1931–1990. Chronic ailments dating back to the early 1970s, a twelve-day detention in the United States in 1985, followed by new symptoms he and his circle attributed to a never independently confirmed poisoning. Died in 1990 at 58 – the exact cause of death remains disputed to this day." , land:"India", gender:"m", jahre:"1931–1990"},
   { route:"krankheitsportraets-elvis-presley", name:"Elvis Presley", subtyp:"SX2w3", heading:"Elvis Presley – Sexual Type 2", krankheit:"Cardiac arrhythmia with cardiovascular disease and megacolon, worsened by years of drug dependency", teaser:"SX2w3 – musician, 1935–1977. A decade-long escalating drug dependency, a severely enlarged heart, and a megacolon per autopsy. Kept touring almost without pause while his body visibly collapsed. Died in 1977 at only 42 – the exact cause of death is still debated today." , land:"USA", gender:"m", jahre:"1935–1977"},
   { route:"krankheitsportraets-napoleon-bonaparte", name:"Napoleon Bonaparte", subtyp:"SO2w3", heading:"Napoleon Bonaparte – Social Type 2", krankheit:"Gastric cancer (per autopsy), preceded by decades of recurring stomach ailments", teaser:"SO2w3 – French emperor and military leader, 1769–1821. Decades of recurring stomach ailments, a disputed episode at Waterloo, dramatic decline in exile on St. Helena. Died in 1821 of gastric cancer – the same disease that likely killed his father." , land:"France", gender:"m", jahre:"1769–1821"},
   { route:"krankheitsportraets-johann-sebastian-bach", name:"Johann Sebastian Bach", subtyp:"SX1w9", heading:"Johann Sebastian Bach – Sexual Type 1", krankheit:"Blindness from failed cataract surgeries, death after stroke and fever", teaser:"SX1w9 – composer, 1685–1750. Years-long progressive vision loss, two failed eye operations in March 1750 by the dubious oculist John Taylor led to complete blindness. Died four months later after a stroke – the same surgeon blinded Handel shortly after." , land:"Germany", gender:"m", jahre:"1685–1750"},
@@ -35984,12 +35985,15 @@ function oshoPortraitPage() {
           <p class="vb-intro">In his final years, after the collapse of Rajneeshpuram, Osho increasingly shifted the emphasis to pure stillness &ndash; &bdquo;Just Listening,&ldquo; he called it, talks without fixed teaching, often only music and silence. Whether this was genuine maturation or one last reinvention remains disputed. The raccoon that built systems all his life ended with the gesture of letting all systems go &ndash; and in that lies the real healing question of his path: whether the letting go was itself one more mask, or the first time it wasn&#39;t.</p>
         </blockquote>
 
+        <p class="vb-intro">The chronic ailments dating back to the early 1970s, the twelve-day detention in 1985, and the controversy surrounding his death in 1990 that remains unresolved to this day are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-osho">Illness Portrait of Osho</a>.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"krankheitsportraets-osho", label:"Illness Portrait: Osho (SP3w4)"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SP3w4)"},
       ])}
@@ -42513,6 +42517,172 @@ function elvisPresleyKrankheitsportraetPage() {
         {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SX2w3) – life's work"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx2", label:"Subtype Profile SX2"},
+      ])}
+    </div>
+  `);
+}
+
+function oshoKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-osho-portrait.jpg" alt="Osho" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Osho</p>
+        <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four-wing · 1931–1990</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Raccoon</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal correspondence: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Osho</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-osho">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and type structure in general.
+        This portrait is devoted to a chapter barely present there: a chain of chronic
+        ailments, a twelve-day detention in the United States in 1985, and a controversy
+        surrounding his death in 1990 that remains unresolved to this day.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Osho</strong> is classified as the <strong>Self-Preservation Three with
+        Four-wing</strong>. SP3 directs the Three's drive for success at concrete functioning
+        and the material security of one's own sphere. The Four-wing adds a pronounced
+        tendency to dramatize and imbue one's own experience with meaning – a pattern clearly
+        visible in how Osho publicly framed and interpreted his own suffering, rather than
+        concealing it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) His own suffering as a public narrative:</strong>
+        Unlike subjects who conceal their illness, Osho made his physical decline itself the
+        subject of his discourses – a combination of functional drive and dramatic
+        meaning-making typical of SP3w4.</p>
+        <p class="vb-intro"><strong>b) Functioning despite chronic complaints:</strong>
+        For years, Osho maintained an intensive lecture and travel schedule despite diabetes,
+        asthma, and severe back pain, until his physical limits forced a trip to the United
+        States for medical treatment in 1981.</p>
+        <p class="vb-intro"><strong>c) Withdrawal only once functioning was no longer possible:</strong>
+        Only from 1988 onward did his discourses increasingly narrow in scope; in April 1989
+        he gave his last public talk – a late, almost reluctant withdrawal from the active
+        role.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Chronic ailments dating back to the early 1970s:</strong>
+        During his time in Bombay, Osho developed diabetes, asthma, and various allergies,
+        worsened by the humid climate – along with chronic back pain, exhaustion, and
+        insomnia.</p>
+        <p class="vb-intro"><strong>b) Arrest in October 1985:</strong>
+        In the course of the dissolution of his commune Rajneeshpuram in Oregon, Osho was
+        arrested in North Carolina on October 28, 1985, and transported through several
+        jails over roughly twelve days before being released on 500,000 dollars bail and
+        deported from the United States.</p>
+        <p class="vb-intro"><strong>c) New symptoms after returning to India:</strong>
+        After his return in late 1985, Osho reported loss of appetite, nausea, and a feeling
+        of exhaustion that he and his closest circle no longer attributed to his earlier
+        chronic complaints.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) The poisoning claim:</strong>
+        Osho's personal physicians and his inner circle publicly suspected thallium
+        poisoning during his detention, possibly via an irradiated mattress. No independent
+        toxicological evidence was ever presented; one U.S. attorney called the claim
+        "complete fiction."</p>
+        <p class="vb-intro"><strong>b) A continuous decline without independently documented diagnosis:</strong>
+        Between 1987 and 1990, Osho's health, according to consistent accounts from those
+        around him, deteriorated continuously – no independent medical records from this
+        period are publicly accessible.</p>
+        <p class="vb-intro"><strong>c) Withdrawal into pure togetherness:</strong>
+        After his final discourse in April 1989, Osho only sat in silence with his followers,
+        giving no further talks.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Death on January 19, 1990:</strong>
+        Osho died at the ashram in Pune, India, at age 58. Physicians cited heart failure as
+        the cause of death.</p>
+        <p class="vb-intro"><strong>b) A death statement that echoed the poisoning claim:</strong>
+        The ashram itself framed the death, in its official statement, as a late consequence
+        of the suspected poisoning – an interpretation that remains independently
+        unconfirmed to this day.</p>
+        <p class="vb-intro"><strong>c) Later, equally unresolved counter-allegations:</strong>
+        Years later, journalist Abhay Vaidya and a physician involved raised suspicions that
+        Osho had been isolated from independent medical care in his final hours – these
+        allegations, too, remain without forensic clarification, and it is not documented
+        whether an autopsy was ever performed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) His own illness history as a final grand narrative:</strong>
+        Rather than concealing his suffering, Osho transformed it into a public story of
+        persecution and resistance – a fusion of self-presentation and personal drama
+        characteristic of SP3w4.</p>
+        <p class="vb-intro"><strong>b) Functioning up to the very last possible limit:</strong>
+        Even as his decline progressed, Osho held on to his role as speaker for as long as
+        possible, only relinquishing it definitively in 1989.</p>
+        <p class="vb-intro"><strong>c) The raccoon that shaped its own territory to the very end:</strong>
+        Even the interpretation of his own physical decline remained, until his death, part
+        of his own narrative – not passive suffering, but a story he actively kept shaping.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A chronic history dating back to the early 1970s:</strong>
+        Diabetes, asthma, and back pain accompanied Osho for nearly two decades before
+        taking a dramatic new turn through his 1985 detention.</p>
+        <p class="vb-intro"><strong>b) A turning point whose cause remains disputed to this day:</strong>
+        Whether the decline after 1985 truly stemmed from poisoning during detention or was a
+        continuation of decades of chronic complaints cannot be conclusively resolved from
+        publicly available sources.</p>
+        <p class="vb-intro"><strong>c) A death with three competing interpretations:</strong>
+        The official diagnosis of heart failure, the ashram's poisoning narrative, and the
+        later allegations of isolation in his final hours stand unreconciled to this day –
+        none of them forensically confirmed.</p>
+        <p class="vb-intro"><strong>d) Why, of all things, an illness history full of interpretations?</strong>
+        For a Self-Preservation Three with Four-wing, whose entire work rested on his own,
+        meaningfully narrated story, one reading suggests itself: even his own physical
+        decline became a text that had to be interpreted, given meaning, and retold – an
+        illness that could never be reduced to a single, sober medical finding, but remained,
+        to the end, part of the grand narrative of persecution and significance. This reading
+        is a plausible interpretation, not a documented historical causal link, and is
+        explored in more depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        This does not mean the Self-Preservation Three's pattern inevitably leads to chronic
+        illness or disputed circumstances of death – <strong>every person can develop any
+        illness, regardless of subtype.</strong> What Osho's case can show is a pattern that
+        stands out again and again in practice wherever personal suffering and public
+        self-interpretation become fused – one possible explanation among many, not a
+        verdict. The corresponding condition will be developed step by step in this
+        Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Osho</strong> embodies the Self-Preservation Three with Four-wing right down
+        into his own illness history: chronic ailments spanning decades, a dramatic rupture
+        through detention and an alleged poisoning, and a death in 1990 whose cause still
+        shifts between three competing narratives. The raccoon that never surrendered
+        interpretive authority over its own story, even in its own decline.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-osho", label:"Portrait: Osho (SP3w4) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se3", label:"Subtype Profile SP3"},
       ])}
     </div>
   `);
@@ -63902,6 +64072,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-osho": oshoKrankheitsportraetPage,
       "krankheitsportraets-elvis-presley": elvisPresleyKrankheitsportraetPage,
       "krankheitsportraets-napoleon-bonaparte": napoleonBonaparteKrankheitsportraetPage,
       "krankheitsportraets-johann-sebastian-bach": johannSebastianBachKrankheitsportraetPage,

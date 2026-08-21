@@ -31406,6 +31406,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Sozialer Typ 9", krankheit:"Alzheimer-Krankheit", teaser:"SO9w8 – 40. US-Präsident 1981–1989, 1911–2004. Gab 1994 in einem handschriftlichen Brief an die amerikanische Öffentlichkeit seine Alzheimer-Diagnose bekannt und zog sich danach zehn Jahre lang fast vollständig aus der Öffentlichkeit zurück." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Sozialer Typ 1", krankheit:"Leberkrebs", teaser:"SO1w2 – Musiker und Künstler, 1947–2016. Kämpfte 18 Monate lang im Verborgenen gegen Leberkrebs und verwandelte die Diagnose in sein letztes Werk, das Album Blackstar, das zwei Tage vor seinem Tod erschien." , land:"Vereinigtes Königreich", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2", krankheit:"Fieberhafte Erkrankung mit Nierenversagen (vermutlich Folge einer Streptokokken-Infektion)", teaser:"SE2w3 – österreichischer Komponist, 1756–1791. Von Kindheit an eine Kette fieberhafter Erkrankungen (Pocken, Typhus, wiederkehrendes Scharlach), starb 1791 mit 35 Jahren nach zweiwöchiger Krankheit mit Fieber und generalisierten Ödemen – während er gleichzeitig an drei Großwerken arbeitete, darunter das unvollendete Requiem." , land:"Österreich", gender:"m", jahre:"1756–1791"},
+  { route:"krankheitsportraets-osho", name:"Osho", subtyp:"SE3w4", heading:"Osho – Selbsterhaltender Typ 3", krankheit:"Herzversagen nach chronischen Beschwerden (Diabetes, Asthma, Rückenschmerzen) und einer bis heute umstrittenen Vergiftungsbehauptung", teaser:"SE3w4 – spiritueller Lehrer, 1931–1990. Chronische Beschwerden seit den frühen 1970ern, zwölftägige Haft in den USA 1985, danach neue Symptome, die er und sein Umfeld auf eine nie unabhängig bestätigte Vergiftung zurückführten. Starb 1990 mit 58 Jahren – die genaue Todesursache bleibt bis heute umstritten." , land:"Indien", gender:"m", jahre:"1931–1990"},
   { route:"krankheitsportraets-elvis-presley", name:"Elvis Presley", subtyp:"SX2w3", heading:"Elvis Presley – Sexueller Typ 2", krankheit:"Herzrhythmusstörung bei Herz-Kreislauf-Erkrankung und Megakolon, begünstigt durch jahrelange Medikamentenabhängigkeit", teaser:"SX2w3 – Musiker, 1935–1977. Über ein Jahrzehnt eskalierende Medikamentenabhängigkeit, ein stark vergrößertes Herz und ein Megakolon laut Autopsie. Tourte fast ununterbrochen weiter, während sein Körper sichtbar zusammenbrach. Starb 1977 mit nur 42 Jahren – die genaue Todesursache wird bis heute diskutiert." , land:"USA", gender:"m", jahre:"1935–1977"},
   { route:"krankheitsportraets-napoleon-bonaparte", name:"Napoleon Bonaparte", subtyp:"SO2w3", heading:"Napoleon Bonaparte – Sozialer Typ 2", krankheit:"Magenkarzinom (nach Autopsie), zuvor jahrzehntelange wiederkehrende Magenbeschwerden", teaser:"SO2w3 – französischer Kaiser und Feldherr, 1769–1821. Über Jahrzehnte wiederkehrende Magenbeschwerden, eine umstrittene Episode bei Waterloo, dramatischer Verfall im Exil auf St. Helena. Starb 1821 an einem Magenkarzinom – derselben Krankheit, an der wahrscheinlich auch sein Vater starb." , land:"Frankreich", gender:"m", jahre:"1769–1821"},
   { route:"krankheitsportraets-johann-sebastian-bach", name:"Johann Sebastian Bach", subtyp:"SX1w9", heading:"Johann Sebastian Bach – Sexueller Typ 1", krankheit:"Erblindung durch missglückte Staroperationen, Tod nach Schlaganfall und Fieber", teaser:"SX1w9 – Komponist, 1685–1750. Über Jahre fortschreitende Sehschwäche, zwei missglückte Augenoperationen im März 1750 durch den zweifelhaften Okulisten John Taylor führten zur vollständigen Erblindung. Starb vier Monate später nach einem Schlaganfall – derselbe Operateur ließ kurz darauf auch Händel erblinden." , land:"Deutschland", gender:"m", jahre:"1685–1750"},
@@ -64457,12 +64458,15 @@ function oshoPortraitPage() {
           <p class="vb-intro">In seinen letzten Lebensjahren, nach dem Zusammenbruch von Rajneeshpuram, verlegte Osho den Schwerpunkt zunehmend auf reine Stille &ndash; \u201eNur Zuh\u00f6ren" nannte er es, Vortr\u00e4ge ohne feste Lehre, oft nur Musik und Schweigen. Ob dies echte Reifung war oder eine letzte Neuerfindung, bleibt umstritten. Der Waschb\u00e4r, der lebenslang Systeme baute, endete mit der Geste, alle Systeme loszulassen &ndash; und genau darin liegt die eigentliche Heilungsfrage seines Weges: ob das Loslassen selbst noch einmal eine Maske war, oder das erste Mal keine.</p>
         </blockquote>
 
+        <p class="vb-intro">Die chronischen Beschwerden seit den fr\u00fchen 1970ern, die zw\u00f6lft\u00e4gige Haft 1985 und die bis heute umstrittene Kontroverse um seinen Tod 1990 werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-osho">Krankheitsportr\u00e4t zu Osho</a> gedeutet.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"krankheitsportraets-osho", label:"Krankheitsportr\u00e4t: Osho (SE3w4)"},
         {route:"subtype/se3", label:"SE3 \u2013 Der Waschb\u00e4r: Subtyp-Profil"},
         {route:"beruehmte-david-l-rathmer", label:"Portr\u00e4t: David L. Rathmer (SE3w4)"},
         {route:"beruehmte-kathrin-bauerfeind", label:"Portr\u00e4t: Kathrin Bauerfeind (SE3w4)"},
@@ -69440,6 +69444,175 @@ function elvisPresleyKrankheitsportraetPage() {
         {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx2", label:"Subtyp-Profil SX2"},
+      ])}
+    </div>
+  `);
+}
+
+function oshoKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-osho-portrait.jpg" alt="Osho" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Osho</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel · 1931–1990</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Waschbär</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Tierentsprechung: Waschbär" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Osho</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-osho">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: eine
+        Kette chronischer Beschwerden, eine zwölftägige Haft in den USA 1985 und eine bis
+        heute ungeklärte Kontroverse um seinen Tod 1990.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Osho</strong> ist der <strong>selbsterhaltenden Drei mit Viererflügel</strong>
+        zugeordnet. Die SE3 richtet den Erfolgsanspruch der Drei auf das eigene, konkrete
+        Funktionieren und die materielle Absicherung des eigenen Umfelds. Der Viererflügel
+        bringt eine ausgeprägte Neigung zur Dramatisierung und Bedeutungsaufladung des
+        eigenen Erlebens hinzu – ein Muster, das sich deutlich in der Art zeigt, wie Osho sein
+        eigenes Leiden öffentlich einordnete und deutete, statt es zu verschweigen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Das eigene Leiden als öffentliche Erzählung:</strong>
+        Anders als Betroffene, die ihre Erkrankung verschweigen, machte Osho seinen
+        körperlichen Verfall selbst zum Thema seiner Diskurse – eine für die SE3w4 typische
+        Verbindung aus Funktionsanspruch und dramatischer Sinnzuschreibung.</p>
+        <p class="vb-intro"><strong>b) Funktionieren trotz chronischer Beschwerden:</strong>
+        Über Jahre hinweg hielt Osho trotz Diabetes, Asthma und starker Rückenschmerzen ein
+        intensives Vortrags- und Reisepensum aufrecht, bis die körperlichen Grenzen 1981 eine
+        Reise in die USA zur medizinischen Behandlung erzwangen.</p>
+        <p class="vb-intro"><strong>c) Rückzug erst, als kein Funktionieren mehr möglich war:</strong>
+        Erst ab 1988 verengten sich seine Diskurse zunehmend, im April 1989 hielt er seinen
+        letzten öffentlichen Vortrag – ein später, fast widerstrebender Rückzug aus der
+        aktiven Rolle.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Chronische Beschwerden seit den frühen 1970er-Jahren:</strong>
+        Während seiner Zeit in Bombay entwickelten sich bei Osho Diabetes, Asthma und diverse
+        Allergien, verstärkt durch das feuchte Klima – dazu kamen chronische
+        Rückenschmerzen, Erschöpfung und Schlaflosigkeit.</p>
+        <p class="vb-intro"><strong>b) Verhaftung im Oktober 1985:</strong>
+        Im Zuge der Auflösung seiner Kommune Rajneeshpuram in Oregon wurde Osho am 28.
+        Oktober 1985 in North Carolina festgenommen und über rund zwölf Tage durch mehrere
+        Gefängnisse transportiert, bevor er gegen eine Kaution von 500.000 Dollar
+        freikam und aus den USA ausgewiesen wurde.</p>
+        <p class="vb-intro"><strong>c) Neue Symptome nach der Rückkehr nach Indien:</strong>
+        Nach seiner Rückkehr Ende 1985 berichtete Osho über Appetitlosigkeit, Übelkeit und
+        ein Gefühl der Erschöpfung, das er selbst und sein engstes Umfeld nicht mehr auf die
+        früheren chronischen Beschwerden zurückführten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Vergiftungsthese:</strong>
+        Oshos persönliche Ärzte und sein Umfeld vermuteten öffentlich eine
+        Thallium-Vergiftung während der Haft, möglicherweise über eine bestrahlte Matratze.
+        Unabhängige toxikologische Beweise dafür wurden nie vorgelegt; ein US-Anwalt
+        bezeichnete die Behauptung als reine Fiktion.</p>
+        <p class="vb-intro"><strong>b) Ein kontinuierlicher Verfall ohne unabhängig dokumentierte Diagnose:</strong>
+        Zwischen 1987 und 1990 verschlechterte sich Oshos Gesundheitszustand nach
+        übereinstimmenden Berichten seines Umfelds kontinuierlich – belastbare, unabhängige
+        Arztberichte aus dieser Zeit sind öffentlich nicht zugänglich.</p>
+        <p class="vb-intro"><strong>c) Rückzug auf das reine Zusammensein:</strong>
+        Nach seinem letzten Diskurs im April 1989 saß Osho nur noch schweigend mit seinen
+        Anhängern zusammen, ohne weitere Vorträge zu halten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 19. Januar 1990:</strong>
+        Osho starb im Ashram in Pune, Indien, im Alter von 58 Jahren. Die Ärzte nannten
+        Herzversagen als Todesursache.</p>
+        <p class="vb-intro"><strong>b) Eine Todeserklärung, die die Vergiftungsthese aufgriff:</strong>
+        Der Ashram selbst rahmte den Tod in seiner offiziellen Erklärung als Spätfolge der
+        vermuteten Vergiftung – eine Deutung, die bis heute nicht unabhängig bestätigt ist.</p>
+        <p class="vb-intro"><strong>c) Spätere, ebenfalls ungeklärte Gegenvorwürfe:</strong>
+        Jahre später äußerten unter anderem der Journalist Abhay Vaidya und ein beteiligter
+        Arzt den Verdacht, Osho sei in seinen letzten Stunden vom Kontakt zu unabhängigen
+        Ärzten abgeschirmt worden – auch diese Vorwürfe blieben ohne forensische Klärung, es
+        ist zudem nicht dokumentiert, ob überhaupt eine Autopsie stattfand.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Die eigene Krankheitsgeschichte als letztes großes Narrativ:</strong>
+        Statt sein Leiden zu verbergen, verwandelte Osho es in eine öffentliche Erzählung von
+        Verfolgung und Widerstand – eine für die SE3w4 charakteristische Verschmelzung von
+        Selbstdarstellung und persönlichem Drama.</p>
+        <p class="vb-intro"><strong>b) Funktionsfähigkeit bis zur letzten möglichen Grenze:</strong>
+        Auch mit fortschreitendem Verfall hielt Osho so lange wie irgend möglich an seiner
+        Rolle als Sprecher fest, bevor er sie erst 1989 endgültig aufgab.</p>
+        <p class="vb-intro"><strong>c) Der Waschbär, der sein Revier bis zuletzt selbst gestaltete:</strong>
+        Selbst die Deutung des eigenen körperlichen Verfalls blieb bis zum Tod Teil seines
+        eigenen Narrativs – kein passives Erleiden, sondern eine aktiv mitgeprägte Erzählung.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine chronische Vorgeschichte seit den frühen 1970ern:</strong>
+        Diabetes, Asthma und Rückenschmerzen begleiteten Osho fast zwei Jahrzehnte, bevor sie
+        1985 durch die Haft eine dramatische neue Wendung erhielten.</p>
+        <p class="vb-intro"><strong>b) Ein Wendepunkt, dessen Ursache bis heute umstritten ist:</strong>
+        Ob die Verschlechterung nach 1985 tatsächlich auf eine Vergiftung während der Haft
+        zurückgeht oder eine Fortsetzung der bereits jahrzehntelangen chronischen Beschwerden
+        war, lässt sich anhand der öffentlich zugänglichen Quellen nicht abschließend klären.</p>
+        <p class="vb-intro"><strong>c) Ein Tod mit drei konkurrierenden Deutungen:</strong>
+        Die offizielle Diagnose Herzversagen, die Vergiftungsdeutung des Ashrams und die
+        späteren Vorwürfe der Isolation in den letzten Stunden stehen bis heute unversöhnt
+        nebeneinander – keine davon ist forensisch bestätigt.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet eine Krankheitsgeschichte voller Deutungen?</strong>
+        Für eine selbsterhaltende Drei mit Viererflügel, deren gesamtes Wirken auf der
+        eigenen, bedeutungsvoll erzählten Geschichte beruhte, liegt eine Deutung nahe: Selbst
+        der eigene körperliche Verfall wurde zu einem Text, der interpretiert, gedeutet und
+        weitererzählt werden musste – eine Krankheit, die sich nie auf einen einzigen,
+        nüchternen medizinischen Befund reduzieren ließ, sondern bis zuletzt Teil der großen
+        Erzählung von Verfolgung und Bedeutung blieb. Diese Deutung ist eine plausible
+        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Drei zwangsläufig zu
+        chronischen Erkrankungen oder umstrittenen Todesumständen führt –
+        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
+        sich an Oshos Fall zeigen lässt, ist ein Muster, das bei der Verschmelzung von
+        persönlichem Leiden und öffentlicher Selbstdeutung in der Praxis immer wieder
+        auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Osho</strong> verkörpert die selbsterhaltende Drei mit Viererflügel bis in die
+        eigene Krankheitsgeschichte hinein: chronische Beschwerden über Jahrzehnte, eine
+        dramatische Zäsur durch Haft und behauptete Vergiftung, und ein Tod 1990, dessen
+        Ursache bis heute zwischen drei konkurrierenden Erzählungen schwankt. Der Waschbär,
+        der selbst im eigenen Verfall die Deutungshoheit über die eigene Geschichte nicht
+        aus der Hand gab.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-osho", label:"Porträt: Osho (SE3w4) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se3", label:"Subtyp-Profil SE3"},
       ])}
     </div>
   `);
@@ -98449,6 +98622,7 @@ function render() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-osho": oshoKrankheitsportraetPage,
       "krankheitsportraets-elvis-presley": elvisPresleyKrankheitsportraetPage,
       "krankheitsportraets-napoleon-bonaparte": napoleonBonaparteKrankheitsportraetPage,
       "krankheitsportraets-johann-sebastian-bach": johannSebastianBachKrankheitsportraetPage,
