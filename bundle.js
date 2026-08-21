@@ -95379,7 +95379,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Kontrolle – die Kraft, die niemals nachlassen darf",
         varianten: [
       { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch handfeste Kontrolle über materielle und körperliche Ressourcen – Geld, Besitz, körperliche Kraft, alles, was Unabhängigkeit garantiert. Rückzug oder das Eingestehen eines Ruhebedürfnisses werden dabei nicht als legitime menschliche Regung erlebt, sondern als Angriffsfläche, die man sich nicht erlauben darf. Das Herz läuft dauerhaft auf Hochspannung, weil im inneren Selbstbild schlicht kein Platz für ein Herunterschalten vorgesehen ist – Stärke bedeutet hier, niemals sichtbar müde zu wirken." },
-          { code: "SO8", text: "Die soziale Acht übernimmt Kontrolle nicht für sich selbst, sondern für die Gruppe, oft in einer selbst auferlegten Beschützerrolle: „Niemand in meinem Umfeld darf schwach sein, solange ich stark sein kann.“ Verantwortungsdruck und permanente Führungsspannung sind hier der zentrale Belastungsfaktor – ein Herz, das nicht nur für die eigene, sondern gefühlt für die Sicherheit aller anderen mitschlagen muss, findet selten einen Moment, in dem es wirklich nur für sich selbst da sein darf." },
+      { code: "SO8", text: "Die soziale Acht übernimmt Kontrolle nicht für sich selbst, sondern für die Gruppe, oft in einer selbst auferlegten Beschützerrolle: „Niemand in meinem Umfeld darf schwach sein, solange ich stark sein kann.“ Verantwortungsdruck und permanente Führungsspannung sind hier der zentrale Belastungsfaktor – ein Herz, das nicht nur für die eigene, sondern gefühlt für die Sicherheit aller anderen mitschlagen muss, findet selten einen Moment, in dem es wirklich nur für sich selbst da sein darf." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der einen Zweierbeziehung, Intensität pur, nichts Halbes – jede Geste, jeder Konflikt, jede Versöhnung wird mit voller Wucht durchlebt. Die Belastung zeigt sich hier folgerichtig nicht in gleichmäßiger Dauerspannung, sondern in extremen emotionalen und körperlichen Ausschlägen: kurze, hochintensive Phasen, in denen Puls und Blutdruck deutlich ausschlagen, gefolgt von ebenso intensiven Phasen der Nähe, in einem Rhythmus, der selten Mittelmaß kennt." },
         ],
       },
@@ -95387,7 +95387,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Selbstvergessenheit – das Herz, das nie gehört wurde",
         varianten: [
       { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort, feste Routinen und die konsequente Vermeidung jeglichen Konflikts – auf den ersten Blick ein Bild geringer akuter Stressbelastung. Doch „Selbstvergessenheit“ bedeutet hier wörtlich, was es sagt: Die eigenen Herzenswünsche werden über Jahrzehnte hinweg nie wirklich gehört, weder von anderen noch von der Person selbst, weil das eigene Wollen dem Frieden im Außen konsequent untergeordnet wird. Das ist vielleicht die wörtlichste Entsprechung zur Kernthese dieses Eintrags überhaupt – ein Leben, das über Jahrzehnte am eigenen Herzen vorbeigelebt wird, ohne dass es je als Verlust benannt würde." },
-          { code: "SO9", text: "Die soziale Neun sucht Harmonie um jeden Preis innerhalb der Gruppe und ordnet die eigene Meinung so konsequent unter, dass sie irgendwann kaum noch weiß, was sie selbst eigentlich denkt oder will. Diese chronische Selbstauslöschung zugunsten des sozialen Friedens wirkt nach außen wie Anpassungsfähigkeit, kostet aber über die Jahre erheblich: ein Herz, das dem Kollektiv zuliebe immer wieder auf seine eigene Stimme verzichtet, verliert genau jene Klarheit, die für Selbstfürsorge notwendig wäre." },
+      { code: "SO9", text: "Die soziale Neun sucht Harmonie um jeden Preis innerhalb der Gruppe und ordnet die eigene Meinung so konsequent unter, dass sie irgendwann kaum noch weiß, was sie selbst eigentlich denkt oder will. Diese chronische Selbstauslöschung zugunsten des sozialen Friedens wirkt nach außen wie Anpassungsfähigkeit, kostet aber über die Jahre erheblich: ein Herz, das dem Kollektiv zuliebe immer wieder auf seine eigene Stimme verzichtet, verliert genau jene Klarheit, die für Selbstfürsorge notwendig wäre." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner so vollständig, dass die eigene Identität im Anderen aufgeht – nicht aus Schwäche, sondern als tiefste Form von Hingabe, die diesem Subtyp eigen ist. In ihrer reinsten Ausprägung ist das womöglich die deutlichste Version eines Herzens, das nie eine eigene, unabhängige Stimme fand: Nicht weil es zum Schweigen gebracht wurde, sondern weil es sich freiwillig, Schritt für Schritt, in die Stimme des geliebten Menschen auflöste, bis zwischen beiden kaum noch eine Grenze spürbar war." },
         ],
       },
@@ -95472,7 +95472,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Kontrolle, die keinen Spielraum lässt",
         varianten: [
       { code: "SE8", text: "Als Angriffsfläche, nicht als legitimes Bedürfnis erlebt die selbsterhaltende Acht ihr Ruhebedürfnis – sie sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen. Das System läuft dauerhaft auf Hochspannung, weil Herunterschalten im inneren Selbstbild keinen Platz hat: Wer einmal schwach wirkt, so die unausgesprochene Überzeugung, verliert die Kontrolle über alles, wofür er oder sie gekämpft hat." },
-          { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung und Führung für die Gruppe, oft in einer Beschützerrolle – permanente Führungsspannung und die Überzeugung, niemals schwach sein zu dürfen, sind hier der zentrale, über Jahre wirkende Belastungsfaktor. Sie trägt nicht nur die eigene Last, sondern gefühlt auch die Verantwortung dafür, dass es allen anderen gut geht." },
+      { code: "SO8", text: "Nicht nur die eigene Last, sondern gefühlt auch die Verantwortung dafür, dass es allen anderen gut geht, trägt die soziale Acht, die Verantwortung und Führung für die Gruppe übernimmt – permanente Führungsspannung und die Überzeugung, niemals schwach sein zu dürfen, sind hier der zentrale, über Jahre wirkende Belastungsfaktor." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger Dauerverhärtung. Konflikte werden mit voller Wucht ausgetragen, Versöhnung ebenso, in einem Rhythmus, der wenig Raum für ruhige Zwischentöne lässt." },
         ],
       },
@@ -95480,7 +95480,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Selbstvergessenheit, die sich lautlos verhärtet",
         varianten: [
       { code: "SE9", text: "Wenig sichtbare Anspannung nach außen, aber eine über Jahrzehnte fortgesetzte Selbstvergessenheit, bei der die eigenen Bedürfnisse nie gehört werden: So flüchtet die selbsterhaltende Neun in Komfort, Routine und Konfliktvermeidung. Genau dieses lautlose Sich-Verhärten passt womöglich am unmittelbarsten zum Bild einer Krankheit, die selbst über Jahre symptomfrei bleibt: Beide entwickeln sich im Verborgenen, ohne dass jemand – auch die betroffene Person selbst nicht – wirklich hinschaut." },
-          { code: "SO9", text: "Die soziale Neun sucht Harmonie um jeden Preis innerhalb der Gruppe und ordnet die eigene Meinung konsequent unter – eine chronische Selbstauslöschung zugunsten des sozialen Friedens, die sich still und über lange Zeit aufbaut. Sie sagt selten, was sie wirklich denkt, aus Angst, damit Unruhe zu stiften – und verliert dabei über die Jahre zunehmend den Kontakt zu dem, was sie selbst eigentlich möchte." },
+      { code: "SO9", text: "Aus Angst, damit Unruhe zu stiften, sagt die soziale Neun selten, was sie wirklich denkt, sucht Harmonie um jeden Preis innerhalb der Gruppe – und verliert dabei über die Jahre zunehmend den Kontakt zu dem, was sie selbst eigentlich möchte." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Systems, das über Jahrzehnte nie eine eigene, unabhängige Bewegung fand – nicht weil es keine Kraft dazu hätte, sondern weil die tiefste Erfüllung für diesen Subtyp gerade im Verschwinden im Anderen liegt, selbst wenn das bedeutet, die eigene Richtung nie zu finden." },
         ],
       },
@@ -95565,7 +95565,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Kontrolle, die niemals nachlassen darf",
         varianten: [
       { code: "SE8", text: "Schwäche zu zeigen fühlt sich für die selbsterhaltende Acht an, als würde man sich selbst preisgeben – sie sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen. Das System läuft dauerhaft auf Hochspannung, weil Herunterschalten im inneren Selbstbild keinen Platz hat." },
-          { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung und Führung für die Gruppe, oft in einer Beschützerrolle – permanente Führungsspannung und die Überzeugung, niemals schwach sein zu dürfen, sind hier der zentrale, über Jahre wirkende Belastungsfaktor. Sie trägt gefühlt die Verantwortung für alle um sich herum, ohne sich selbst je diese Fürsorge zuzugestehen." },
+      { code: "SO8", text: "Ohne sich selbst je diese Fürsorge zuzugestehen, trägt die soziale Acht gefühlt die Verantwortung für alle um sich herum, übernimmt Verantwortung und Führung für die Gruppe – permanente Führungsspannung und die Überzeugung, niemals schwach sein zu dürfen, sind hier der zentrale, über Jahre wirkende Belastungsfaktor." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger Dauerspannung. Konflikte und Versöhnung werden mit voller Wucht durchlebt, in einem Rhythmus, der selten ruhige Zwischenphasen kennt." },
         ],
       },
@@ -95573,7 +95573,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Selbstvergessenheit, deren Druck sich nach außen zeigt",
         varianten: [
       { code: "SE9", text: "Nach außen wirkt vieles entspannt, doch der eigene innere Druck wird bei der selbsterhaltenden Neun nie bewusst wahrgenommen, geschweige denn geäußert – sie flüchtet in Komfort, Routine und Konfliktvermeidung, und dieser Druck bleibt stattdessen als messbarer Blutdruck bestehen. Sie wirkt nach außen die Ruhigste von allen, während der Körper eine andere Geschichte erzählt." },
-          { code: "SO9", text: "Die soziale Neun sucht Harmonie um jeden Preis innerhalb der Gruppe und ordnet die eigene Meinung konsequent unter – eine chronische Selbstauslöschung zugunsten des sozialen Friedens, die sich still und über lange Zeit aufbaut. Sie stimmt zu, auch wenn sie innerlich anderer Meinung ist, weil Widerspruch sich riskanter anfühlt als das eigene Verschwinden." },
+      { code: "SO9", text: "Weil Widerspruch sich riskanter anfühlt als das eigene Verschwinden, stimmt die soziale Neun zu, auch wenn sie innerlich anderer Meinung ist – eine chronische Selbstauslöschung zugunsten des sozialen Friedens, die sich still und über lange Zeit aufbaut." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Systems, das über Jahrzehnte nie eine eigene, unabhängige Stimme fand – und dessen Spannung sich still im Körper hält, weil es nie einen anderen Ausdrucksort dafür gab als genau diese eine Verschmelzung." },
         ],
       },
@@ -95658,7 +95658,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Kontrolle, die bis zur Erschöpfung durchhält",
         varianten: [
       { code: "SE8", text: "Sie kämpft weiter, lange nachdem andere längst aufgegeben hätten, weil Aufgeben für die selbsterhaltende Acht keine Option zu sein scheint – Ruhebedürfnis wird als Schwäche erlebt, nicht als legitimes Bedürfnis. Das System läuft dauerhaft auf Hochspannung, bis die Kraft irgendwann erschöpft ist." },
-          { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung und Führung für die Gruppe, oft in einer Beschützerrolle – die permanente Führungsspannung und die Überzeugung, niemals schwach sein zu dürfen, verbrauchen über Jahre erhebliche Kraft. Sie trägt nicht nur ihre eigene Last, sondern gefühlt auch die aller, für die sie sich verantwortlich fühlt." },
+      { code: "SO8", text: "Nicht nur ihre eigene Last trägt die soziale Acht, sondern gefühlt auch die aller, für die sie sich verantwortlich fühlt – sie übernimmt Verantwortung und Führung für die Gruppe, oft in einer Beschützerrolle, und die permanente Führungsspannung verbraucht über Jahre erhebliche Kraft." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger Erschöpfung. Sie gibt sich völlig, ohne Vorbehalt, was punktuell enorme Kraft kostet, statt sich gleichmäßig über die Zeit zu verteilen." },
         ],
       },
@@ -95666,7 +95666,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Selbstvergessenheit, deren Kraft irgendwann aufgebraucht ist",
         varianten: [
       { code: "SE9", text: "Die eigene Erschöpfung wird bei der selbsterhaltenden Neun nie bewusst wahrgenommen, bis die Kraft irgendwann tatsächlich nicht mehr ausreicht – sie flüchtet in Komfort, Routine und Konfliktvermeidung. Sie wirkt bis zuletzt gelassen, während der Körper längst eine andere Sprache spricht." },
-          { code: "SO9", text: "Die soziale Neun sucht Harmonie um jeden Preis innerhalb der Gruppe und ordnet die eigene Meinung konsequent unter – eine chronische Selbstauslöschung zugunsten des sozialen Friedens, die sich still und über lange Zeit auf die eigene Kraft auswirkt. Sie verzichtet immer wieder auf die eigene Stimme, bis kaum noch Energie übrig ist, um sie überhaupt noch zu finden." },
+      { code: "SO9", text: "Bis kaum noch Energie übrig ist, um sie überhaupt noch zu finden, verzichtet die soziale Neun immer wieder auf die eigene Stimme, sucht Harmonie um jeden Preis innerhalb der Gruppe – eine chronische Selbstauslöschung, die sich still über lange Zeit auf die eigene Kraft auswirkt." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Herzens, das über Jahrzehnte für den anderen schlug, bevor es die eigene Erschöpfung überhaupt bemerkte – nicht aus Selbstaufgabe, sondern weil das eigene Wohlergehen sich für diesen Subtyp untrennbar an das des geliebten Menschen geknüpft anfühlt." },
         ],
       },
@@ -95751,7 +95751,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Übersteuerung, die den Takt kippen lässt",
         varianten: [
       { code: "SE8", text: "Ständiges, gleichzeitiges Wachsamsein über mehrere Fronten hinweg kann den inneren Rhythmus der selbsterhaltenden Acht überfordern – sie kontrolliert gleichzeitig viele Bereiche ihres materiellen und körperlichen Terrains, hält alles fest im Griff, bis er unter der Last der Dauerkontrolle aus dem Takt gerät." },
-          { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung für viele Menschen gleichzeitig, führt, beschützt, entscheidet in mehreren Konflikten parallel – diese Vielfachbelastung durch gleichzeitige Führungsaufgaben kann sich als ein Zuviel an gleichzeitiger innerer Anspannung niederschlagen, das dem Herzen seinen ruhigen Takt erschwert." },
+      { code: "SO8", text: "Führt, beschützt, entscheidet in mehreren Konflikten parallel: So übernimmt die soziale Acht Verantwortung für viele Menschen gleichzeitig – diese Vielfachbelastung durch gleichzeitige Führungsaufgaben kann sich als ein Zuviel an gleichzeitiger innerer Anspannung niederschlagen, das dem Herzen seinen ruhigen Takt erschwert." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Zweierbeziehung, mit heftigen Ausschlägen zwischen Kontrolle und Hingabe – diese extreme, aber konzentrierte emotionale Wucht kann in besonders zugespitzten Beziehungsmomenten zu plötzlichen inneren Entladungen führen, statt sich gleichmäßig zu verteilen." },
         ],
       },
@@ -95759,7 +95759,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Innere Zersplitterung hinter äußerer Ruhe",
         varianten: [
       { code: "SE9", text: "Um bloß nicht bei der eigenen, dringenden Frage ankommen zu müssen, verliert sich die selbsterhaltende Neun innerlich oft in vielen kleinen, unwichtigen Beschäftigungen gleichzeitig, wirkt nach außen entspannt und behäbig – dieses stille, aber ständige Zerstreuen der eigenen Aufmerksamkeit auf Nebensächliches kann sich als ein inneres Flimmern niederschlagen, das der äußeren Ruhe widerspricht." },
-          { code: "SO9", text: "Die soziale Neun ordnet die eigenen Anliegen fortlaufend den Bedürfnissen der Gruppe unter, verfolgt dabei innerlich viele verschiedene Rücksichtnahmen gleichzeitig, ohne je die eigene Position klar zu benennen – dieses gleichzeitige Abwägen vieler fremder Interessen kann den eigenen inneren Rhythmus in unzählige Richtungen ziehen." },
+      { code: "SO9", text: "Ohne je die eigene Position klar zu benennen, verfolgt die soziale Neun innerlich viele verschiedene Rücksichtnahmen gleichzeitig, ordnet die eigenen Anliegen fortlaufend den Bedürfnissen der Gruppe unter – dieses gleichzeitige Abwägen vieler fremder Interessen kann den eigenen inneren Rhythmus in unzählige Richtungen ziehen." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt dessen Rhythmus fast vollständig als den eigenen – verändert sich der Takt des anderen plötzlich, etwa durch Streit, Distanz oder Verlustangst, kann genau dieser fremdbestimmte innere Rhythmus aus dem Gleichgewicht geraten, weil die Neun nie wirklich ihren eigenen, unabhängigen Takt gefunden hat." },
         ],
       },
@@ -95844,7 +95844,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Durchhaltekraft, die die eigene Grenze ignoriert",
         varianten: [
       { code: "SE8", text: "Schwäche oder Erschöpfung einzugestehen widerspricht dem Selbstverständnis der selbsterhaltenden Acht fundamental – sie kämpft und arbeitet weiter, lange nachdem andere längst aufgegeben hätten. Ein Schmerz, der zuverlässig bei Belastung auftritt, kann hier zum einzigen Signal werden, das diese Person überhaupt ernst nimmt, weil sie jede subtilere Warnung konsequent überhört." },
-          { code: "SO8", text: "Die soziale Acht übernimmt Führung und Verantwortung für viele Menschen gleichzeitig, oft in einer Beschützerrolle, die keine eigene Erschöpfung zulässt – diese permanente Führungsspannung kann sich als ein Schmerz zeigen, der genau an der Grenze zwischen Verantwortung und eigener Kraft auftritt." },
+      { code: "SO8", text: "Keine eigene Erschöpfung zulässt die Beschützerrolle, in der die soziale Acht Führung und Verantwortung für viele Menschen gleichzeitig übernimmt – diese permanente Führungsspannung kann sich als ein Schmerz zeigen, der genau an der Grenze zwischen Verantwortung und eigener Kraft auftritt." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Zweierbeziehung, mit heftigen Ausschlägen zwischen Kontrolle und völliger Hingabe – diese extreme, aber konzentrierte emotionale Wucht kann in besonders zugespitzten Beziehungsmomenten zu plötzlichen Belastungsspitzen führen, statt sich gleichmäßig zu verteilen." },
         ],
       },
@@ -95852,7 +95852,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Selbstvergessene Anpassung, die die eigene Grenze verschweigt",
         varianten: [
       { code: "SE9", text: "Diese Strategie schont kurzfristig, verhindert aber auch, dass die selbsterhaltende Neun je bewusst lernt, wo ihre eigene Belastungsgrenze tatsächlich liegt: Sie flüchtet in Komfort und Routine, um Konflikten und Anforderungen aus dem Weg zu gehen, bis der Körper sie unmissverständlich markiert." },
-          { code: "SO9", text: "Die soziale Neun ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter und vermeidet jede offene Auseinandersetzung um die eigene Belastbarkeit – diese chronische Selbstzurücknahme kann sich körperlich als ein Schmerz zeigen, der genau dort ansetzt, wo die eigene, nie geäußerte Grenze längst überschritten wurde." },
+      { code: "SO9", text: "Jede offene Auseinandersetzung um die eigene Belastbarkeit vermeidet die soziale Neun, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – diese chronische Selbstzurücknahme kann sich körperlich als ein Schmerz zeigen, der genau dort ansetzt, wo die eigene, nie geäußerte Grenze längst überschritten wurde." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt oft dessen Tempo und Anforderungen als die eigenen – gerät der andere unter Druck oder verlangt mehr, als die Neun eigentlich leisten kann, kann genau diese fremdbestimmte Überforderung zur eigenen körperlichen Belastungsgrenze werden, ohne dass sie je als solche benannt wird." },
         ],
       },
@@ -95937,7 +95937,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Kontrolle, die keine Schwäche und keine Entlastung zulässt",
         varianten: [
       { code: "SE8", text: "Als Schwäche, die sie sich nicht erlaubt, gelten Ruhebedürfnis oder Erleichterung für die selbsterhaltende Acht – sie sichert ihr Terrain durch permanente Kontrolle und lässt sich nie wirklich fallen. Ein System, das dauerhaft auf Spannung gehalten wird, ohne je loszulassen, passt zum Bild des gestörten venösen Rückflusses." },
-          { code: "SO8", text: "Die soziale Acht trägt Verantwortung für viele Menschen gleichzeitig, oft in einer Beschützerrolle, die keine eigene Schwäche zulässt – diese permanente Last, nie geteilt und nie abgelegt, kann sich körperlich als eine Stauung zeigen." },
+      { code: "SO8", text: "Nie geteilt und nie abgelegt wird die permanente Last, die die soziale Acht trägt, die Verantwortung für viele Menschen gleichzeitig übernimmt, oft in einer Beschützerrolle, die keine eigene Schwäche zulässt – das kann sich körperlich als eine Stauung zeigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Beziehung, mit heftigen Ausschlägen zwischen beidem – diese extreme, aber konzentrierte Intensität erzeugt eher punktuelle Belastungsspitzen als eine gleichmäßig akkumulierte Dauerlast." },
         ],
       },
@@ -95945,7 +95945,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Verdrängte Last, die sich unbemerkt staut",
         varianten: [
       { code: "SE9", text: "Diese Vermeidung verhindert, dass eine innere Last je bewusst wahrgenommen und dadurch erleichtert wird, wenn die selbsterhaltende Neun in Komfort und Routine flüchtet, um eigenen Anliegen und Konflikten aus dem Weg zu gehen. Sie wirkt entspannt, während sich im Verborgenen etwas anstaut, das nie ausgesprochen wurde." },
-          { code: "SO9", text: "Die soziale Neun ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter und verzichtet dabei immer wieder auf die eigene Stimme – diese chronische Selbstzurücknahme kann sich körperlich als ein Stau zeigen, der nie zur Sprache kommt und deshalb nie fließt." },
+      { code: "SO9", text: "Immer wieder verzichtet die soziale Neun auf die eigene Stimme, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – diese chronische Selbstzurücknahme kann sich körperlich als ein Stau zeigen, der nie zur Sprache kommt und deshalb nie fließt." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt dessen Anliegen als die eigenen, während die eigenen zurücktreten – diese fortgesetzte Selbstaufgabe zugunsten des anderen kann bedeuten, dass die eigene Last nie wirklich als solche erkannt wird, weil sie hinter der des Partners verschwindet." },
         ],
       },
@@ -96030,7 +96030,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Unnachgiebige Kontrolle, die zur festen Blockade wird",
         varianten: [
       { code: "SE8", text: "Auch wenn Nachgeben klüger wäre, hält die selbsterhaltende Acht ihre Position mit aller Kraft – Schwäche zeigen oder eine Kontrolle abgeben widerspricht ihrem Selbstverständnis fundamental. Diese Unnachgiebigkeit, die sich selbst gegen bessere Einsicht nicht bewegt, kann sich als eine feste, unbewegliche innere Blockade zeigen." },
-          { code: "SO8", text: "Die soziale Acht verhärtet ihre Position als Beschützerin der Gruppe zunehmend, besonders wenn sie sich in ihrer Verantwortung infrage gestellt sieht – diese Sturheit kann sich über Jahre zu einer festen, kaum mehr auflösbaren inneren Haltung verfestigen." },
+      { code: "SO8", text: "Besonders wenn sie sich in ihrer Verantwortung infrage gestellt sieht, verhärtet die soziale Acht ihre Position als Beschützerin der Gruppe zunehmend – diese Sturheit kann sich über Jahre zu einer festen, kaum mehr auflösbaren inneren Haltung verfestigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit heftigen Ausschlägen zwischen Kontrolle und Hingabe – in Momenten des Machtkampfs kann sich diese Intensität kurzzeitig zu völliger Unnachgiebigkeit verhärten, bevor sie sich wieder löst." },
         ],
       },
@@ -96038,7 +96038,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Verdrängte Erstarrung hinter äußerer Trägheit",
         varianten: [
       { code: "SE9", text: "Um bloß keine Entscheidung treffen zu müssen, verharrt die selbsterhaltende Neun in Routine und Komfort – diese fortgesetzte Unbeweglichkeit, ein Leben, das sich nicht mehr bewegt, weil Bewegung Konflikt bedeuten könnte, passt besonders genau zum Bild einer festen, erstarrten Blockade." },
-          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung fortlaufend der Gruppe unter und vermeidet jede Position, die zu Reibung führen könnte – diese chronische Unentschlossenheit kann sich über Jahre zu einer festen inneren Blockade verhärten, die selbst dann nicht nachgibt, wenn eine Entscheidung längst überfällig wäre." },
+      { code: "SO9", text: "Jede Position, die zu Reibung führen könnte, vermeidet die soziale Neun, ordnet die eigene Meinung fortlaufend der Gruppe unter – diese chronische Unentschlossenheit kann sich über Jahre zu einer festen inneren Blockade verhärten, die selbst dann nicht nachgibt, wenn eine Entscheidung längst überfällig wäre." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt dessen Position oft als die eigene – bleibt der Partner starr, kann diese übernommene Starrheit sich auch bei der Neun selbst festsetzen, ohne dass sie je als eigene erkannt wird." },
         ],
       },
@@ -96123,7 +96123,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Kontrolle, die bis zum Bruchpunkt durchhält",
         varianten: [
       { code: "SE8", text: "Weit über das hinaus, was andere ertragen würden, kämpft und kontrolliert die selbsterhaltende Acht bis an die eigene Grenze – Schwäche einzugestehen widerspricht ihrem tiefsten Selbstverständnis. Diese Unnachgiebigkeit, die selbst dann nicht nachgibt, wenn der Körper längst Alarm schlägt, kann sich als aufgestaute Fülle zeigen, die sich mit besonderer Wucht entlädt." },
-          { code: "SO8", text: "Die soziale Acht trägt Verantwortung für viele Menschen gleichzeitig, oft in einer Beschützerrolle, die keine eigene Erschöpfung zulässt – diese permanente Führungsspannung, nie geteilt, kann sich über Jahre zu einer inneren Fülle verdichten." },
+      { code: "SO8", text: "Nie geteilt wird die permanente Führungsspannung, die keine eigene Erschöpfung zulässt, in der Beschützerrolle, in der die soziale Acht Verantwortung für viele Menschen gleichzeitig trägt – sie kann sich über Jahre zu einer inneren Fülle verdichten." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit heftigen Ausschlägen zwischen Kontrolle und Hingabe – diese extreme, aber konzentrierte emotionale Wucht kann in besonders zugespitzten Beziehungsmomenten zu plötzlichen inneren Entladungen führen." },
         ],
       },
@@ -96131,7 +96131,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Verstummte Stimme, die sich zuletzt Gehör verschafft",
         varianten: [
       { code: "SE9", text: "Über Jahrzehnte fortgesetzte Selbstvergessenheit prägt die selbsterhaltende Neun, die in Komfort und Routine flüchtet, um Konflikten und der eigenen dringenden Frage aus dem Weg zu gehen. Diese Selbstvergessenheit kann sich als eine innere Fülle ansammeln, die sich, wenn sie sich löst, besonders unvermittelt zeigt, weil sie nie zuvor bewusst wahrgenommen wurde." },
-          { code: "SO9", text: "Die soziale Neun ordnet die eigene Stimme fortlaufend der Gruppe unter, verzichtet immer wieder darauf, die eigene Position zu vertreten – diese chronische Selbstauslöschung zugunsten des sozialen Friedens kann sich über Jahre zu einer inneren Fülle verdichten, die sich schließlich gewaltsam Ausdruck verschafft, gerade weil die eigene Stimme nie freiwillig gehört wurde." },
+      { code: "SO9", text: "Immer wieder verzichtet die soziale Neun darauf, die eigene Position zu vertreten, ordnet die eigene Stimme fortlaufend der Gruppe unter – diese chronische Selbstauslöschung zugunsten des sozialen Friedens kann sich über Jahre zu einer inneren Fülle verdichten, die sich schließlich gewaltsam Ausdruck verschafft, gerade weil die eigene Stimme nie freiwillig gehört wurde." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und gibt die eigene Identität fast vollständig zugunsten des anderen auf – diese wohl radikalste Form der Selbstaufgabe unter den 27 Subtypen bedeutet auch: eine eigene Stimme, die über Jahrzehnte nie wirklich existierte, kann sich, wenn sie sich doch einmal zeigt, nur noch schlagartig und dramatisch Bahn brechen." },
         ],
       },
@@ -96216,7 +96216,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Kraft, die nach außen fließt, statt sich selbst zu nähren",
         varianten: [
       { code: "SE8", text: "Bei der selbsterhaltenden Acht ist Energiemangel selten – ihre Kraft ist meist beträchtlich. Tritt Hypotonie dennoch auf, etwa nach Phasen extremer Überforderung, kann sie als seltener, aber deutlicher Hinweis gelesen werden, dass selbst diese scheinbar unerschöpfliche Kraftquelle Grenzen hat, die konsequent überschritten wurden." },
-          { code: "SO8", text: "Die soziale Acht setzt ihre Kraft fortlaufend für den Schutz und die Führung anderer ein – wird diese Energie nie durch eigene Regeneration ausgeglichen, kann sich über Jahre eine Erschöpfung einschleichen, die untypisch für diesen sonst kraftvollen Subtyp ist." },
+      { code: "SO8", text: "Fortlaufend setzt die soziale Acht ihre Kraft für den Schutz und die Führung anderer ein – wird diese Energie nie durch eigene Regeneration ausgeglichen, kann sich über Jahre eine Erschöpfung einschleichen, die untypisch für diesen sonst kraftvollen Subtyp ist." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung – Energiemangel zeigt sich hier, wenn überhaupt, eher als kurzzeitiger Einbruch nach besonders erschöpfenden emotionalen Zuspitzungen, nicht als chronischer Grundzustand." },
         ],
       },
@@ -96224,7 +96224,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Selbstvergessenheit, die keine eigene Kraft aufbaut",
         varianten: [
       { code: "SE9", text: "In einer Art Grundberuhigung lebt die selbsterhaltende Neun, zeigt den eigenen Antrieb selten mit Nachdruck – dieses Muster, sich selbst nie mit voller Kraft zu behaupten, sondern lieber im Komfortablen zu verharren, passt besonders genau zum Bild eines chronisch niedrigen inneren Drucks." },
-          { code: "SO9", text: "Die soziale Neun ordnet die eigene Position fortlaufend der Gruppe unter und verzichtet darauf, eigene Anliegen mit Nachdruck zu vertreten – diese chronische Zurückhaltung kann sich als ein fehlender Antrieb zeigen, für sich selbst einzustehen." },
+      { code: "SO9", text: "Auf Nachdruck bei eigenen Anliegen verzichtet die soziale Neun, ordnet die eigene Position fortlaufend der Gruppe unter – diese chronische Zurückhaltung kann sich als ein fehlender Antrieb zeigen, für sich selbst einzustehen." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und bezieht ihre Energie fast ausschließlich aus dieser Verbindung – fehlt dem Partner selbst Antrieb oder zieht er sich zurück, kann sich dieser Mangel unmittelbar auch auf die eigene, ohnehin nie unabhängig aufgebaute Kraft übertragen." },
         ],
       },
@@ -96309,7 +96309,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Unnachgiebige Haltung, die keine Anpassung zulässt",
         varianten: [
       { code: "SE8", text: "Selten weicht die selbsterhaltende Acht von ihrem Kurs ab, hält über Jahre an derselben kraftvollen, kontrollierten Haltung fest – diese Unnachgiebigkeit, die sich selbst dann nicht anpasst, wenn Flexibilität klüger wäre, passt zum Bild einer über Jahrzehnte akkumulierten mechanischen Abnutzung." },
-          { code: "SO8", text: "Die soziale Acht übernimmt über Jahre dieselbe Führungs- und Beschützerrolle, ohne sie zu variieren – diese unveränderte Position der Verantwortung kann sich als Rigidität zeigen, die sich auch körperlich in mangelnder Anpassungsfähigkeit niederschlägt." },
+      { code: "SO8", text: "Ohne sie zu variieren, übernimmt die soziale Acht über Jahre dieselbe Führungs- und Beschützerrolle – diese unveränderte Position der Verantwortung kann sich als Rigidität zeigen, die sich auch körperlich in mangelnder Anpassungsfähigkeit niederschlägt." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit heftigen, aber wechselnden Ausschlägen zwischen Kontrolle und Hingabe – diese emotionale Variabilität steht der starren, immer gleichen Wiederholung entgegen, die für Arthrose besonders typisch ist." },
         ],
       },
@@ -96317,7 +96317,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Trägheit, die dieselbe Unbeweglichkeit über Jahrzehnte fortsetzt",
         varianten: [
       { code: "SE9", text: "Über Jahrzehnte verharrt die selbsterhaltende Neun in derselben komfortablen Routine, meidet jede Veränderung, jede neue Bewegung – dieses fortgesetzte Verharren im Immergleichen ist psychosomatisch eines der unmittelbarsten Bilder für die Arthrose: ein Gelenk, das sich abnutzt, weil es nie die Chance bekam, sich auf neue Weise zu bewegen." },
-          { code: "SO9", text: "Die soziale Neun ordnet sich über Jahre fortlaufend derselben Rolle in der Gruppe unter, vermeidet jede Positionsänderung, die zu Reibung führen könnte – diese chronische Unbeweglichkeit kann sich als eine Rigidität zeigen, die sich auch körperlich niederschlägt." },
+      { code: "SO9", text: "Jede Positionsänderung, die zu Reibung führen könnte, vermeidet die soziale Neun, ordnet sich über Jahre fortlaufend derselben Rolle in der Gruppe unter – diese chronische Unbeweglichkeit kann sich als eine Rigidität zeigen, die sich auch körperlich niederschlägt." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt oft dessen Lebensrhythmus als den eigenen, über Jahre unverändert – bleibt diese Verschmelzung über Jahrzehnte bestehen, kann die fehlende eigene, unabhängige Bewegung sich ebenfalls als eine Form der Erstarrung niederschlagen." },
         ],
       },
@@ -96402,7 +96402,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Beschützerlast, die keine Schwäche zulässt",
         varianten: [
       { code: "SE8", text: "Hilfe anzunehmen widerspricht dem Selbstverständnis der selbsterhaltenden Acht fundamental – sie sichert ihr Terrain und trägt die volle Verantwortung dafür allein. Dieses konsequente Alleintragen einer oft erheblichen Last passt besonders genau zum Bild des chronischen Rückenschmerzes." },
-          { code: "SO8", text: "Die soziale Acht trägt Verantwortung für viele Menschen gleichzeitig, oft in einer Beschützerrolle, die keine eigene Erschöpfung zulässt – diese permanente, nie geteilte Last kann sich über Jahre als Rückenschmerz zeigen." },
+      { code: "SO8", text: "Keine eigene Erschöpfung zulässt die Beschützerrolle, in der die soziale Acht Verantwortung für viele Menschen gleichzeitig trägt – diese permanente, nie geteilte Last kann sich über Jahre als Rückenschmerz zeigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung – diese extreme, aber konzentrierte emotionale Wucht erzeugt eher punktuelle Belastungsspitzen in zugespitzten Beziehungsmomenten als eine gleichmäßig akkumulierte Rückenlast." },
         ],
       },
@@ -96410,7 +96410,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Verdrängte Last, die den eigenen Rücken beugt",
         varianten: [
       { code: "SE9", text: "Um eigenen Anliegen und Konflikten aus dem Weg zu gehen, flüchtet die selbsterhaltende Neun in Komfort und Routine – diese fortgesetzte Vermeidung verhindert, dass eine innere Last je bewusst wahrgenommen und dadurch erleichtert wird, und kann sich stattdessen körperlich als Rückenschmerz niederschlagen." },
-          { code: "SO9", text: "Die soziale Neun ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter und verzichtet dabei immer wieder auf die eigene Stimme – diese chronische Selbstzurücknahme kann sich als ein Rücken zeigen, der sich unter fremden Erwartungen nie aufrichtet." },
+      { code: "SO9", text: "Immer wieder verzichtet die soziale Neun auf die eigene Stimme, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – diese chronische Selbstzurücknahme kann sich als ein Rücken zeigen, der sich unter fremden Erwartungen nie aufrichtet." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt dessen Lasten oft als die eigenen, während die eigenen zurücktreten – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene Last nie wirklich als solche erkannt wird, weil sie hinter der des Partners verschwindet." },
         ],
       },
@@ -96495,7 +96495,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Unnachgiebigkeit, die sich zuletzt gegen sich selbst kehrt",
         varianten: [
       { code: "SE8", text: "Mit derselben Härte, mit der sie äußeren Widerständen begegnet, bekämpft die selbsterhaltende Acht Schwäche in sich selbst – so fundamental widerspricht ihrem Selbstverständnis, Schwäche einzugestehen, dass sie sich selbst dafür verurteilt. Diese innere Kompromisslosigkeit gegen sich selbst passt zum Bild eines Systems, das sich gegen den eigenen Körper wendet." },
-          { code: "SO8", text: "Die soziale Acht übernimmt Führung für ihre Gruppe und macht sich innerlich harte Vorwürfe, wenn sie das Gefühl hat, ihre Beschützerrolle nicht vollständig erfüllt zu haben – diese Selbstbeschuldigung kann sich körperlich als ein System zeigen, das sich gegen sich selbst richtet." },
+      { code: "SO8", text: "Wenn sie das Gefühl hat, ihre Beschützerrolle nicht vollständig erfüllt zu haben, macht sich die soziale Acht innerlich harte Vorwürfe, während sie Führung für ihre Gruppe übernimmt – diese Selbstbeschuldigung kann sich körperlich als ein System zeigen, das sich gegen sich selbst richtet." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, richtet ihre Härte eher nach außen, in den Machtkampf mit dem geliebten Menschen – diese Externalisierung kann den nach innen gerichteten Selbstangriff, der für rheumatoide Arthritis typisch ist, zumindest teilweise abmildern." },
         ],
       },
@@ -96503,7 +96503,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Selbstvergessenheit, die den eigenen Körper übergeht",
         varianten: [
       { code: "SE9", text: "So konsequent übergeht die selbsterhaltende Neun die eigenen Bedürfnisse, dass der eigene Körper über Jahrzehnte kaum je bewusst wahrgenommen wird – diese fortgesetzte Selbstvergessenheit kann sich als ein Immunsystem zeigen, das den eigenen Körper wie etwas Fremdes behandelt, weil er der Person selbst nie wirklich vertraut wurde." },
-          { code: "SO9", text: "Die soziale Neun ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter und macht sich innerlich klein, wenn sie das Gefühl hat, zu viel Raum einzunehmen – diese chronische Selbstzurücknahme kann sich körperlich als ein System zeigen, das sich selbst als überflüssig behandelt." },
+      { code: "SO9", text: "Wenn sie das Gefühl hat, zu viel Raum einzunehmen, macht sich die soziale Neun innerlich klein, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – diese chronische Selbstzurücknahme kann sich körperlich als ein System zeigen, das sich selbst als überflüssig behandelt." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und gibt die eigene Identität fast vollständig zugunsten des anderen auf – diese radikale Selbstaufgabe bedeutet auch: der eigene Körper wird kaum je als eigenständig und schützenswert erlebt, was sich als ein System zeigen kann, das sich selbst nicht als Teil des Ichs behandelt." },
         ],
       },
@@ -96588,7 +96588,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Kraft, die keine eigene Verletzlichkeit zulässt",
         varianten: [
       { code: "SE8", text: "Selbstfürsorge, die auch das eigene Bedürfnis nach Nähe und Nahrung anerkennt, widerspricht dem Selbstverständnis der selbsterhaltenden Acht fundamental – sie kämpft und kontrolliert über Jahrzehnte, ohne sich je Schwäche oder Verletzlichkeit einzugestehen. Diese fortgesetzte Härte gegen sich selbst kann sich als eine still schwindende innere Substanz zeigen." },
-          { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung für viele Menschen gleichzeitig, oft in einer Beschützerrolle, die keine eigene Bedürftigkeit zulässt – diese permanente, nie eingestandene Selbstvernachlässigung kann sich über Jahre als schwindende Substanz zeigen." },
+      { code: "SO8", text: "Keine eigene Bedürftigkeit zulässt die Beschützerrolle, in der die soziale Acht Verantwortung für viele Menschen gleichzeitig trägt – diese permanente, nie eingestandene Selbstvernachlässigung kann sich über Jahre als schwindende Substanz zeigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit einer Hingabe, die zumindest an dieser Stelle echten emotionalen Austausch ermöglicht – diese fokussierte Verbindung kann die vollständige Selbstvernachlässigung anderer Acht-Varianten etwas abmildern." },
         ],
       },
@@ -96596,7 +96596,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Selbstvergessenheit, die den eigenen Körper übersieht",
         varianten: [
       { code: "SE9", text: "Kaum je bewusst wahrgenommen oder genährt wird der eigene Körper der selbsterhaltenden Neun über Jahrzehnte, so konsequent übergeht sie die eigenen Bedürfnisse – diese fortgesetzte Selbstvergessenheit ist psychosomatisch eines der unmittelbarsten Bilder für die Osteoporose: eine Substanz, die schwindet, weil ihr über Jahre schlicht keine Aufmerksamkeit geschenkt wurde." },
-          { code: "SO9", text: "Die soziale Neun ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter und macht sich innerlich so klein, dass die eigene Selbstfürsorge kaum je Raum findet – diese chronische Selbstzurücknahme kann sich als schwindende innere Substanz zeigen." },
+      { code: "SO9", text: "So klein macht sich die soziale Neun innerlich, dass die eigene Selbstfürsorge kaum je Raum findet, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – diese chronische Selbstzurücknahme kann sich als schwindende innere Substanz zeigen." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt dessen Bedürfnisse oft als die eigenen – diese fortgesetzte Selbstaufgabe bedeutet auch: die eigene Substanz wird selten als eigenständig erkannt und genährt, weil sie hinter der des Partners verschwindet." },
         ],
       },
@@ -96681,7 +96681,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Übersteuerung an vielen Fronten gleichzeitig",
         varianten: [
       { code: "SE8", text: "Diese ständige, gleichzeitige Wachsamkeit über mehrere Fronten hinweg kann den gesamten Körper der selbsterhaltenden Acht in einer diffusen, nirgends konzentrierten Anspannung halten – sie kontrolliert gleichzeitig viele Bereiche ihres materiellen und körperlichen Terrains, hält alles gleichzeitig im Griff, was dem Schmerzbild der Fibromyalgie entspricht." },
-          { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung für viele Menschen gleichzeitig, führt und entscheidet in mehreren Konflikten parallel – diese Vielfachbelastung durch gleichzeitige Führungsaufgaben kann sich als eine diffuse, über das gesamte System verteilte Überlastung zeigen." },
+      { code: "SO8", text: "Führt und entscheidet in mehreren Konflikten parallel: So übernimmt die soziale Acht Verantwortung für viele Menschen gleichzeitig – diese Vielfachbelastung durch gleichzeitige Führungsaufgaben kann sich als eine diffuse, über das gesamte System verteilte Überlastung zeigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, konzentriert auf einen Bereich – diese fokussierte, wenn auch extreme Intensität steht dem diffusen, über den ganzen Körper verteilten Erschöpfungsmuster anderer Acht-Varianten entgegen." },
         ],
       },
@@ -96689,7 +96689,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Verdrängung, die sich als diffuser Schmerz überall zeigt",
         varianten: [
       { code: "SE9", text: "Über den gesamten Alltag verteilt, nirgends an einem Punkt konzentriert: So verliert sich die selbsterhaltende Neun in vielen kleinen, unwichtigen Beschäftigungen gleichzeitig, um bloß nicht bei der eigenen, dringenden Frage ankommen zu müssen. Das passt besonders genau zum diffusen, überall spürbaren Schmerzbild der Fibromyalgie." },
-          { code: "SO9", text: "Die soziale Neun verfolgt innerlich viele verschiedene Rücksichtnahmen gleichzeitig, ohne je die eigene Position klar zu benennen – dieses gleichzeitige Abwägen vieler fremder Interessen kann den gesamten Körper in eine diffuse, nirgends lokalisierte Anspannung versetzen." },
+      { code: "SO9", text: "Ohne je die eigene Position klar zu benennen, verfolgt die soziale Neun innerlich viele verschiedene Rücksichtnahmen gleichzeitig – dieses gleichzeitige Abwägen vieler fremder Interessen kann den gesamten Körper in eine diffuse, nirgends lokalisierte Anspannung versetzen." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, verliert die eigene Identität im Anderen – diese fortgesetzte Selbstaufgabe bedeutet auch: ein eigener Schmerz, der nie klar benannt werden durfte, kann sich über den ganzen Körper verteilen, statt an einer konkreten Stelle zu bleiben." },
         ],
       },
@@ -96774,7 +96774,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Fester Griff, der niemals nachgibt",
         varianten: [
       { code: "SE8", text: "Buchstäblich zu, wo andere zögern würden: So kontrolliert die selbsterhaltende Acht ihr Terrain mit festem Zugriff – diese dauerhaft angespannte Greifkraft, nie bewusst gelockert, passt besonders genau zum Bild eines Kanals, der sich unter permanenter mechanischer Belastung einengt." },
-          { code: "SO8", text: "Die soziale Acht übernimmt Führung und praktische Verantwortung für viele Menschen gleichzeitig, oft mit konkretem, tatkräftigem Zugreifen – diese kontinuierliche körperliche Beanspruchung kann sich als eingeengte Handlungsfähigkeit zeigen." },
+      { code: "SO8", text: "Oft mit konkretem, tatkräftigem Zugreifen übernimmt die soziale Acht Führung und praktische Verantwortung für viele Menschen gleichzeitig – diese kontinuierliche körperliche Beanspruchung kann sich als eingeengte Handlungsfähigkeit zeigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung – diese emotionale, nicht primär mechanisch-repetitive Intensität erzeugt seltener die Art wiederholter Handbelastung, die für das Karpaltunnelsyndrom ursächlich ist." },
         ],
       },
@@ -96782,7 +96782,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Stilles Zupacken, das nie als Überlastung erkannt wird",
         varianten: [
       { code: "SE9", text: "Ohne je bewusst zu bemerken, wie sehr sie ihre Hände dabei beansprucht, verrichtet die selbsterhaltende Neun über Jahrzehnte dieselben ruhigen, oft manuellen Routinetätigkeiten – diese unbemerkte, wiederholte Belastung passt besonders genau zum schleichenden Entstehungsmuster des Karpaltunnelsyndroms." },
-          { code: "SO9", text: "Die soziale Neun übernimmt fortlaufend praktische Aufgaben für die Gruppe, ohne je die eigene Belastung zu benennen – diese chronische, unbemerkte körperliche Überlastung kann sich als eingeengte Handlungsfähigkeit zeigen." },
+      { code: "SO9", text: "Ohne je die eigene Belastung zu benennen, übernimmt die soziale Neun fortlaufend praktische Aufgaben für die Gruppe – diese chronische, unbemerkte körperliche Überlastung kann sich als eingeengte Handlungsfähigkeit zeigen." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt oft dessen praktische Aufgaben und Handgriffe als die eigenen – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene körperliche Überlastung nie als eigenständig erkannt wird." },
         ],
       },
@@ -96867,7 +96867,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Unnachgiebigkeit, die sich zuletzt scharf entlädt",
         varianten: [
       { code: "SE8", text: "Dann entlädt sich angesammelte Intensität mit voller, unmittelbarer Wucht: Die selbsterhaltende Acht hält Frustration und Ärger oft lange zurück, bis eine Grenze überschritten ist. Diese Dynamik aus langer Ansammlung und plötzlicher, scharfer Entladung passt besonders genau zum Bild des Gichtanfalls." },
-          { code: "SO8", text: "Die soziale Acht trägt Verantwortung und Ärger über die Grenzen anderer oft lange mit sich, bevor sie eingreift – diese angesammelte, dann plötzlich freigesetzte Intensität passt zum psychosomatischen Bild der Gicht." },
+      { code: "SO8", text: "Bevor sie eingreift, trägt die soziale Acht Verantwortung und Ärger über die Grenzen anderer oft lange mit sich – diese angesammelte, dann plötzlich freigesetzte Intensität passt zum psychosomatischen Bild der Gicht." },
           { code: "SX8", text: "Die sexuelle Acht lebt Intensität in der Beziehung meist unmittelbar und direkt aus, statt sie anzusammeln – diese direkte Entladung steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist." },
         ],
       },
@@ -96875,7 +96875,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Verdrängter Groll, der sich zuletzt unkontrolliert zeigt",
         varianten: [
       { code: "SE9", text: "So konsequent verdrängt die selbsterhaltende Neun Ärger und Unzufriedenheit über Jahrzehnte, dass sie selbst kaum noch weiß, was sie eigentlich stört – diese radikalste Form der Verdrängung unter den 27 Subtypen kann sich als eine Ansammlung zeigen, die, wenn sie sich löst, besonders unerwartet und scharf ausfällt." },
-          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung fortlaufend der Gruppe unter und verdrängt eigenen Ärger, um den sozialen Frieden zu wahren – diese chronische Verdrängung kann sich über Jahre zu einer Ansammlung verdichten, die sich schließlich unkontrolliert entlädt." },
+      { code: "SO9", text: "Um den sozialen Frieden zu wahren, verdrängt die soziale Neun eigenen Ärger, ordnet die eigene Meinung fortlaufend der Gruppe unter – diese chronische Verdrängung kann sich über Jahre zu einer Ansammlung verdichten, die sich schließlich unkontrolliert entlädt." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und verdrängt eigenen Ärger zugunsten der Harmonie in der Beziehung – bricht dieser verdrängte Ärger dennoch irgendwann durch, geschieht dies oft überraschend heftig, weil er nie zuvor einen Ausdruck gefunden hat." },
         ],
       },
@@ -96960,7 +96960,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Immer derselbe feste, unnachgiebige Griff",
         varianten: [
       { code: "SE8", text: "Über Jahre wiederholt die selbsterhaltende Acht denselben festen, kontrollierten Zugriff auf ihr Terrain, packt buchstäblich zu, wo andere zögern würden – diese dauerhaft angespannte, nie bewusst gelockerte Greifkraft passt besonders genau zum Bild eines Sehnenansatzes, der unter permanenter mechanischer Anspannung erschöpft ist." },
-          { code: "SO8", text: "Die soziale Acht wiederholt über Jahre dieselbe tatkräftige Führungsgeste für ihre Gruppe, immer mit demselben festen Zugriff – diese unveränderte, körperlich fordernde Haltung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
+      { code: "SO8", text: "Immer mit demselben festen Zugriff wiederholt die soziale Acht über Jahre dieselbe tatkräftige Führungsgeste für ihre Gruppe – diese unveränderte, körperlich fordernde Haltung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit heftigen, aber wechselnden Ausschlägen zwischen Kontrolle und Hingabe – diese emotionale Variabilität steht der starren, immer gleichen Wiederholung entgegen, die für den Tennisarm typisch ist." },
         ],
       },
@@ -96968,7 +96968,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Immer dieselbe unbemerkte Routinebewegung",
         varianten: [
       { code: "SE9", text: "Ohne je bewusst zu bemerken, wie sehr sie dabei denselben Punkt belastet, verrichtet die selbsterhaltende Neun über Jahrzehnte dieselben ruhigen, oft manuellen Routinetätigkeiten – diese unbemerkte, monotone Wiederholung passt besonders genau zum schleichenden Entstehungsmuster des Tennisarms." },
-          { code: "SO9", text: "Die soziale Neun übernimmt fortlaufend dieselbe praktische Aufgabe für die Gruppe, ohne je die eigene Belastung zu benennen – diese chronische, unbemerkte körperliche Wiederholung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
+      { code: "SO9", text: "Ohne je die eigene Belastung zu benennen, übernimmt die soziale Neun fortlaufend dieselbe praktische Aufgabe für die Gruppe – diese chronische, unbemerkte körperliche Wiederholung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt oft dessen praktische Handgriffe als die eigenen, über Jahre unverändert – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene körperliche Überlastung nie als eigenständig erkannt wird." },
         ],
       },
@@ -97053,7 +97053,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Unnachgiebige Kraft, die keine Verletzlichkeit zulässt",
         varianten: [
       { code: "SE8", text: "Bereit zur Verteidigung ihres Terrains hält die selbsterhaltende Acht ihre Schultern buchstäblich und im übertragenen Sinne kraftvoll und angespannt – echte Entspannung, echtes Sich-Öffnen für Umarmung, widerspricht ihrem Selbstverständnis fundamental. Diese fortgesetzte Härte kann sich als eine zunehmende Erstarrung der Schulter zeigen." },
-          { code: "SO8", text: "Die soziale Acht trägt Verantwortung für viele Menschen gleichzeitig, oft mit körperlich spürbarer, nie gelöster Anspannung in Schulter und Nacken – diese permanente Führungsspannung kann sich über Jahre als Versteifung zeigen." },
+      { code: "SO8", text: "Oft mit körperlich spürbarer, nie gelöster Anspannung in Schulter und Nacken trägt die soziale Acht Verantwortung für viele Menschen gleichzeitig – diese permanente Führungsspannung kann sich über Jahre als Versteifung zeigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit viel direkter körperlicher Nähe und Hingabe – diese ausgelebte Offenheit steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist." },
         ],
       },
@@ -97061,7 +97061,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Verdrängte Anspannung hinter äußerer Entspanntheit",
         varianten: [
       { code: "SE9", text: "Oft unbewusst hält die selbsterhaltende Neun körperliche Spannung, die nie bewusst wahrgenommen oder gelöst wird, während sie nach außen entspannt wirkt – dieses stille, nie thematisierte Muster passt besonders genau zum Bild der Frozen Shoulder, die sich ebenfalls schleichend und lange unbemerkt entwickelt." },
-          { code: "SO9", text: "Die soziale Neun ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter und hält dabei oft unbewusst körperliche Spannung zurück, die nie geäußert wird – diese chronische Selbstzurücknahme kann sich als Versteifung der Schulter zeigen." },
+      { code: "SO9", text: "Oft unbewusst hält die soziale Neun körperliche Spannung zurück, die nie geäußert wird, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – diese chronische Selbstzurücknahme kann sich als Versteifung der Schulter zeigen." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und lässt dabei durchaus viel körperliche Nähe zu – diese ausgelebte Verbindung steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist, auch wenn die eigene Identität dabei zurücktritt." },
         ],
       },
@@ -97146,7 +97146,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Durchhaltekraft, die bis zum plötzlichen Bruch reicht",
         varianten: [
       { code: "SE8", text: "Bis ein einziger zusätzlicher Kraftakt genügt, damit das längst überlastete System plötzlich nachgibt: So kämpft und arbeitet die selbsterhaltende Acht weiter, lange nachdem andere längst aufgegeben hätten. Dieses Muster, bis zum Bruchpunkt durchzuhalten, ohne vorher nachzugeben, passt besonders genau zum Bild des Hexenschusses." },
-          { code: "SO8", text: "Die soziale Acht trägt Verantwortung für viele Menschen gleichzeitig, oft mit körperlich spürbarer, nie gelöster Anspannung – wenn diese permanente Führungsspannung sich schließlich löst, geschieht dies oft plötzlich und heftig." },
+      { code: "SO8", text: "Oft mit körperlich spürbarer, nie gelöster Anspannung trägt die soziale Acht Verantwortung für viele Menschen gleichzeitig – wenn diese permanente Führungsspannung sich schließlich löst, geschieht dies oft plötzlich und heftig." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung meist unmittelbar aus, statt sie anzusammeln – diese direkte Entladung steht der lange zurückgehaltenen, dann plötzlich einschießenden Überlastung entgegen." },
         ],
       },
@@ -97154,7 +97154,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Verdrängte Last, die sich unerwartet Bahn bricht",
         varianten: [
       { code: "SE9", text: "Bis eine einzige, oft harmlose Bewegung genügt, damit lange verdrängte innere Last sich körperlich Bahn bricht: So flüchtet die selbsterhaltende Neun in Komfort und Routine, um eigenen Anliegen und Konflikten aus dem Weg zu gehen. Dieses plötzliche, unerwartete Einschießen nach langer stiller Ansammlung passt besonders genau zum Bild des Hexenschusses." },
-          { code: "SO9", text: "Die soziale Neun ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter und verzichtet dabei immer wieder auf die eigene Stimme – wenn diese chronische Selbstzurücknahme sich schließlich körperlich zeigt, geschieht dies oft plötzlich und unübersehbar." },
+      { code: "SO9", text: "Immer wieder verzichtet die soziale Neun auf die eigene Stimme, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – wenn diese chronische Selbstzurücknahme sich schließlich körperlich zeigt, geschieht dies oft plötzlich und unübersehbar." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt dessen Lasten oft als die eigenen – gerät der Partner unter Druck oder verlangt mehr, als sie eigentlich leisten kann, kann sich diese fremdbestimmte Überlastung plötzlich und unerwartet körperlich zeigen." },
         ],
       },
@@ -97239,7 +97239,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 8, titel: "Immer derselbe feste, unnachgiebige Griff",
         varianten: [
       { code: "SE8", text: "Über Jahre wiederholt die selbsterhaltende Acht denselben festen, kontrollierten Zugriff auf ihr Terrain – diese dauerhaft angespannte, nie bewusst gelockerte Greifkraft passt besonders genau zum Bild einer Sehnenscheide, die unter permanenter mechanischer Anspannung erschöpft." },
-          { code: "SO8", text: "Die soziale Acht wiederholt über Jahre dieselbe tatkräftige Führungsgeste für ihre Gruppe, immer mit demselben festen Zugriff – diese unveränderte, körperlich fordernde Haltung kann sich als eine entzündete Schutzhülle zeigen." },
+      { code: "SO8", text: "Immer mit demselben festen Zugriff wiederholt die soziale Acht über Jahre dieselbe tatkräftige Führungsgeste für ihre Gruppe – diese unveränderte, körperlich fordernde Haltung kann sich als eine entzündete Schutzhülle zeigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit heftigen, aber wechselnden Ausschlägen zwischen Kontrolle und Hingabe – diese emotionale Variabilität steht der starren, immer gleichen Wiederholung entgegen, die für die Sehnenscheidenentzündung typisch ist." },
         ],
       },
@@ -97247,7 +97247,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Immer dieselbe unbemerkte Routinebewegung",
         varianten: [
       { code: "SE9", text: "Ohne je bewusst zu bemerken, wie sehr sie dabei denselben Punkt belastet, verrichtet die selbsterhaltende Neun über Jahrzehnte dieselben ruhigen, oft manuellen Routinetätigkeiten – diese unbemerkte, monotone Wiederholung passt besonders genau zum schleichenden Entstehungsmuster der Sehnenscheidenentzündung." },
-          { code: "SO9", text: "Die soziale Neun übernimmt fortlaufend dieselbe praktische Aufgabe für die Gruppe, ohne je die eigene Belastung zu benennen – diese chronische, unbemerkte körperliche Wiederholung kann sich als eine entzündete Schutzhülle zeigen." },
+      { code: "SO9", text: "Ohne je die eigene Belastung zu benennen, übernimmt die soziale Neun fortlaufend dieselbe praktische Aufgabe für die Gruppe – diese chronische, unbemerkte körperliche Wiederholung kann sich als eine entzündete Schutzhülle zeigen." },
           { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt oft dessen praktische Handgriffe als die eigenen, über Jahre unverändert – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene körperliche Überlastung nie als eigenständig erkannt wird." },
         ],
       },
