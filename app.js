@@ -95580,6 +95580,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Bluthochdruck gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit innerem Druck verhandelt – manche über Kontrolle und Anspannung, andere über Rückzug, Erschöpfung oder ein nie geäußertes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  herzinsuffizienz: {
+    titel: "Herzinsuffizienz",
+    kategorie: "herz-kreislauf",
+    icon: "&#128148;",
+    kurz: "Wenn das Herz, das jahrelang alles gegeben hat, irgendwann nicht mehr kann.",
+    definition: "Herzinsuffizienz (Herzschwäche) bezeichnet die Unfähigkeit des Herzens, den Körper ausreichend mit Blut und damit mit Sauerstoff zu versorgen – meist als Folge einer über Jahre fortschreitenden Vorschädigung, etwa durch koronare Herzkrankheit, chronischen Bluthochdruck, einen zurückliegenden Herzinfarkt oder Herzklappenerkrankungen. Anders als der akute Herzinfarkt ist die Herzinsuffizienz in der Regel keine plötzliche Katastrophe, sondern ein schleichender, oft über Jahre fortschreitender Prozess der Erschöpfung des Herzmuskels. Die Schwere wird nach der NYHA-Klassifikation (I bis IV) eingeteilt – von kaum spürbarer Einschränkung bis zu Beschwerden bereits in Ruhe.",
+    symptome: [
+      "Atemnot, zunächst nur bei Anstrengung, im fortgeschrittenen Stadium auch in Ruhe oder im Liegen",
+      "Rasche Erschöpfung und Leistungsabfall bei alltäglichen Tätigkeiten",
+      "Wassereinlagerungen (Ödeme) in Knöcheln, Unterschenkeln, im fortgeschrittenen Stadium auch im Bauchraum",
+      "Schnelle, ungewollte Gewichtszunahme durch Flüssigkeitseinlagerung innerhalb weniger Tage",
+      "Nächtlicher Husten, Unruhe beim Liegen, das Bedürfnis, mit erhöhtem Oberkörper zu schlafen",
+      "Herzrasen oder unregelmäßiger Herzschlag, blasse oder bläulich verfärbte Lippen bei stärkerer Belastung",
+    ],
+    notfall: "Bei plötzlich einsetzender, schwerer Atemnot, insbesondere in Ruhe oder im Liegen, verbunden mit Angst, schaumigem oder rosafarbenem Auswurf, starkem Herzrasen oder bläulichen Lippen: sofort den Notruf 112 wählen. Dies kann auf eine akute Dekompensation mit Lungenödem hinweisen – ein lebensbedrohlicher Zustand, der sofortige medizinische Notfallversorgung erfordert, kein Raum für psychosomatische Deutung.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Wo der Herzinfarkt das plötzliche, dramatische Ereignis ist, liest die Psychosomatik in der Herzinsuffizienz eher das langsame, oft jahrzehntelange Bild einer Kraft, die zu lange über ihre Grenzen hinaus gegeben hat. Die Traditionelle Chinesische Medizin beschreibt einen verwandten Zustand als Herz-Qi-Mangel oder Herz-Yang-Mangel – eine Erschöpfung der Lebensfeuer-Energie, die nicht durch einen einzelnen Schock, sondern durch anhaltende Auszehrung entsteht. In diesem Sinn ist die Herzschwäche weniger das Bild eines plötzlichen Bruchs als das eines Herzens, das über Jahre mehr gegeben hat, als es je zurückerhielt – bis die Substanz selbst erschöpft ist.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der die eigene Kraft über Jahre aufgebraucht hat",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält jahrzehntelang eine innere Kontrolle aufrecht, die enorme Kraft bindet, ohne je zu ruhen. Diese Dauerdisziplin, die nie Erholung zulässt, liest die Psychosomatik als plausibles Bild für eine Kraftquelle, die sich über Jahre unbemerkt erschöpft." },
+          { code: "SO1", text: "Die soziale Eins investiert ihre Energie fortlaufend in die moralische Verbesserung der Gruppe – das Engagement gibt dem Ärger ein Ventil, zehrt aber gleichzeitig kontinuierlich an den eigenen Reserven, ohne dass dies je als Erschöpfung benannt wird." },
+          { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter aus, in der Beziehung selbst – dadurch potenziell weniger chronische Dauererschöpfung, dafür wiederkehrende, intensive Kraftanstrengungen in emotional aufgeladenen Momenten." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der sich selbst leer gegeben hat",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei lebt den Satz „Ich brauche niemanden“ am wörtlichsten – ein stilles, nie erwidertes Geben über Jahrzehnte. Ein Herz, das immer nur gibt und nie empfängt, ist psychosomatisch eines der unmittelbarsten Bilder für eine allmählich erschöpfte Kraftquelle." },
+          { code: "SO2", text: "Die soziale Zwei sucht Bedeutung über permanente Verfügbarkeit für die Gemeinschaft – die Unfähigkeit, Nein zu sagen, führt über Jahre zu einer schleichenden, nie eingestandenen Auszehrung der eigenen Kraft." },
+          { code: "SX2", text: "Die sexuelle Zwei investiert intensives, oft possessives Geben in die eine Beziehung – die Erschöpfung entsteht hier eher episodisch, in Phasen besonders intensiver emotionaler Investition, als gleichmäßig über die Jahre." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die die eigene Substanz verbraucht",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet still und effizient weiter, auch wenn der Körper längst um Pause bittet – Erschöpfung wird als Schwäche gedeutet, die es zu überwinden gilt, nicht als Warnsignal. Über Jahrzehnte kann dieses konsequente Ignorieren der eigenen Grenzen die Substanz selbst erschöpfen." },
+          { code: "SO3", text: "Die soziale Drei sucht Erfolg sichtbar und im ständigen Vergleich mit anderen – ein Leben im Wettbewerbsmodus, das kaum echte Regenerationsphasen kennt und die eigene Kraft über Jahre kontinuierlich beansprucht." },
+          { code: "SX3", text: "Die sexuelle Drei setzt permanente Selbstoptimierung im Beziehungskontext ein – der Druck, auch im Intimsten nie nachzulassen, zehrt über Jahre an einer Substanz, die selten bewusst geschont wird." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die die Kraft langsam auszehrt",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahre unausgesprochene Sehnsucht kann sich als stille, nie thematisierte Erschöpfung im Körper niederschlagen." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar und zum Teil der eigenen Identität – die emotionale Intensität findet zumindest ein Ventil nach außen, was der reinen körperlichen Auszehrung möglicherweise entgegenwirkt." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen – heftige, episodische Kraftanstrengungen prägen hier das Bild eher als eine gleichmäßige Auszehrung." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der die eigenen Reserven schont – und isoliert",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und minimiert Bedürfnisse – ein Verhalten, das kurzfristig Kraft spart, aber sozial isoliert. Isolation gilt medizinisch selbst als eigenständiger Risikofaktor für einen ungünstigen Verlauf bei bereits bestehenden Herz-Kreislauf-Erkrankungen." },
+          { code: "SO5", text: "Die soziale Fünf sucht Zugang zur Gruppe über Wissen, hält aber innerlich Distanz – eine Mischung aus Teilhabe und Rückzug, die eigene Erschöpfung selten offen zeigt." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, tiefe Verbindung, die zumindest an einer Stelle echten Austausch von Kraft und Nähe ermöglicht." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die die Reserven über Jahre aufzehrt",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in einer Form von Daueralarmbereitschaft – ständige Vorsicht und Vorbereitung auf das Schlimmste beanspruchen über Jahre Energie, die dem Körper an anderer Stelle fehlt." },
+          { code: "SO6", text: "Die soziale Sechs sucht Sicherheit über Zugehörigkeit zu Gruppe oder Autorität – die Sorge um das Kollektiv wird selten offen ausgesprochen, zehrt aber kontinuierlich an der eigenen Kraft." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Rückzug – diese Mischung aus Angst und Zorn erzeugt episodische Kraftanstrengungen statt einer gleichmäßigen Dauerbelastung." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die die Reserven überzieht",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über Optionen, Netzwerke und Genussmittel ab – Rastlosigkeit und viele parallele Projekte führen zu einer Erschöpfung durch Zerstreuung, die selten als Warnsignal ernst genommen wird." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung lange verleugnet." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – ein Lebensstil, der Substanz verbraucht statt sie zu erhalten, verschärft durch mögliches Suchtpotenzial gegenüber Nikotin, Alkohol oder anderen Genussmitteln, die die Herzfunktion zusätzlich belasten können." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die bis zur Erschöpfung durchhält",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen – Ruhebedürfnis wird als Schwäche erlebt, nicht als legitimes Bedürfnis. Das System läuft dauerhaft auf Hochspannung, bis die Kraft irgendwann erschöpft ist." },
+          { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung und Führung für die Gruppe, oft in einer Beschützerrolle – die permanente Führungsspannung und die Überzeugung, niemals schwach sein zu dürfen, verbrauchen über Jahre erhebliche Kraft." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger Erschöpfung." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, deren Kraft irgendwann aufgebraucht ist",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort, Routine und Konfliktvermeidung – nach außen wirkt vieles entspannt, doch die über Jahrzehnte fortgesetzte Selbstvergessenheit bedeutet auch: die eigene Erschöpfung wird nie bewusst wahrgenommen, bis die Kraft irgendwann tatsächlich nicht mehr ausreicht." },
+          { code: "SO9", text: "Die soziale Neun sucht Harmonie um jeden Preis innerhalb der Gruppe und ordnet die eigene Meinung konsequent unter – eine chronische Selbstauslöschung zugunsten des sozialen Friedens, die sich still und über lange Zeit auf die eigene Kraft auswirkt." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Herzens, das über Jahrzehnte für den anderen schlug, bevor es die eigene Erschöpfung überhaupt bemerkte." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor Herzinsuffizienz gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit der eigenen Erschöpfung und Kraftregulation verhandelt – manche über Dauereinsatz und Kontrolle, andere über Rückzug, stilles Geben oder ein nie gehörtes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -95588,7 +95681,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // (Definition, Notfall-Hinweis falls zutreffend, Disclaimer, alle 27 Subtypen). Bis dahin
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["Schlaganfall", "Herzinsuffizienz", "Vorhofflimmern", "Koronare Herzkrankheit / Angina Pectoris", "Krampfadern (Varikose)", "Thrombose", "Niedriger Blutdruck (Hypotonie)"],
+  "herz-kreislauf": ["Schlaganfall", "Vorhofflimmern", "Koronare Herzkrankheit / Angina Pectoris", "Krampfadern (Varikose)", "Thrombose", "Niedriger Blutdruck (Hypotonie)"],
   "bewegungsapparat": ["Rückenschmerzen / Bandscheibenvorfall", "Arthrose", "Rheumatoide Arthritis", "Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
