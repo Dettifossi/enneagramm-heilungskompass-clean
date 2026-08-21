@@ -96417,6 +96417,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Rückenschmerzen oder einem Bandscheibenvorfall gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Last, Unterstützung und dem eigenen Rückgrat verhandelt – manche über Alleintragen und Kontrolle, andere über Rückzug, Überlastung oder eine nie abgesetzte eigene Bürde. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  rheumatoide_arthritis: {
+    titel: "Rheumatoide Arthritis",
+    kategorie: "bewegungsapparat",
+    icon: "&#128170;",
+    kurz: "Wenn der eigene Körper sich gegen die Gelenke wendet, die eigentlich Beweglichkeit ermöglichen sollten.",
+    definition: "Die rheumatoide Arthritis (chronische Polyarthritis) ist eine Autoimmunerkrankung, bei der sich das körpereigene Immunsystem fälschlicherweise gegen die Gelenkinnenhaut (Synovialmembran) richtet. Die daraus resultierende chronische Entzündung führt zu Schwellung, Schmerz und, unbehandelt, zur fortschreitenden Zerstörung von Knorpel und Knochen. Anders als die mechanisch bedingte Arthrose beginnt die rheumatoide Arthritis typischerweise symmetrisch an kleinen Gelenken – oft zuerst an Fingern und Handgelenken – und kann sich auf zahlreiche weitere Gelenke sowie in schweren Fällen auch auf innere Organe ausweiten. Die genaue Ursache ist nicht abschließend geklärt; eine Kombination aus genetischer Veranlagung, Umweltfaktoren und einer fehlgeleiteten Immunreaktion gilt als wahrscheinlich.",
+    symptome: [
+      "Symmetrische Schwellung und Schmerzen kleiner Gelenke, meist beginnend an Fingern und Handgelenken",
+      "Ausgeprägte Morgensteifigkeit, die typischerweise länger als eine Stunde anhält – anders als bei Arthrose",
+      "Wärme und Rötung über den betroffenen Gelenken",
+      "Allgemeine Erschöpfung, Abgeschlagenheit, gelegentlich leichtes Fieber",
+      "Rheumaknoten (tastbare Knötchen unter der Haut) bei fortgeschrittener Erkrankung",
+      "Im Verlauf zunehmende Gelenkverformungen und Bewegungseinschränkung, wenn unbehandelt",
+    ],
+    notfall: "Rheumatoide Arthritis selbst ist in der Regel kein akuter Notfall, sollte aber bei ersten Anzeichen rheumatologisch abgeklärt werden, da eine frühe Behandlung das Fortschreiten deutlich verlangsamen kann. Bei plötzlichem hohem Fieber, starker Krankheitsverschlechterung oder Anzeichen einer Beteiligung innerer Organe (z. B. Atemnot, Brustschmerz): zeitnah ärztliche Hilfe aufsuchen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Als Autoimmunerkrankung nimmt die rheumatoide Arthritis unter den Gelenkerkrankungen eine besondere Stellung ein: Hier richtet sich der Körper nicht gegen äußere Belastung, sondern gegen sich selbst. Die Psychosomatik liest darin oft ein Bild von nach innen gerichteter Härte – ein System, das über Jahre gelernt hat, sich selbst mit derselben Kompromisslosigkeit zu behandeln, mit der es eigentlich Bedrohungen von außen begegnen wollte. Die Traditionelle Chinesische Medizin ordnet viele entzündliche Gelenkbeschwerden dem Bi-Syndrom zu – einer Blockade durch äußere Faktoren wie Wind, Kälte und Feuchtigkeit, die sich in den Gelenken festsetzt, oft begünstigt durch ein bereits geschwächtes Grundsystem. In beiden Sichtweisen ist die rheumatoide Arthritis weniger äußerer Verschleiß als innerer Konflikt, der sich körperlich Bahn bricht.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der sich gegen den eigenen Körper richtet",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins richtet ihre strengste Kritik oft gegen sich selbst – ein Perfektionsanspruch, der keine Nachsicht kennt, auch nicht dem eigenen Körper gegenüber. Diese nach innen gewendete Härte liest die Psychosomatik als plausibles Bild für ein Immunsystem, das sich gegen die eigenen Gelenke wendet, statt äußere Bedrohungen abzuwehren." },
+          { code: "SO1", text: "Die soziale Eins richtet ihre moralische Strenge primär nach außen, auf die Gruppe – der innere Selbstvorwurf ist hier weniger zentral als bei der selbsterhaltenden Variante." },
+          { code: "SX1", text: "Die sexuelle Eins lebt ihre Prinzipien direkt in der Beziehung aus – ein Muster, das eher zwischenmenschlich als nach innen gegen den eigenen Körper gerichtet ist." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der sich selbst nie die Fürsorge gönnt, die er anderen gibt",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei gibt anderen bedingungslos, verweigert sich selbst aber dieselbe Fürsorge – ein System, das nach außen schützt und nährt, sich selbst gegenüber aber unerbittlich bleibt, kann sich psychosomatisch als ein Körper lesen lassen, der die eigenen Gelenke ähnlich schonungslos behandelt." },
+          { code: "SO2", text: "Die soziale Zwei sorgt sich um das Wohl der Gemeinschaft – die eigene Selbstfürsorge bleibt dabei oft auf der Strecke." },
+          { code: "SX2", text: "Die sexuelle Zwei konzentriert ihre Fürsorge auf die eine Beziehung – eine fokussiertere, weniger generalisierte Form der Selbstvernachlässigung." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die auch bei Erschöpfung keine Nachsicht mit sich selbst kennt",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei funktioniert weiter, auch wenn der Körper deutliche Warnsignale sendet – Erschöpfung und Entzündungszeichen werden als Hindernisse behandelt, die es zu überwinden gilt, nicht als Botschaften, denen nachzugeben wäre." },
+          { code: "SO3", text: "Die soziale Drei hält öffentliche Leistungsfähigkeit aufrecht, auch wenn der Körper längst rebelliert – Schwäche zu zeigen widerspricht dem gesamten Selbstverständnis." },
+          { code: "SX3", text: "Die sexuelle Drei optimiert sich im Beziehungskontext – körperliche Beschwerden können hier besonders die Sorge um das eigene Erscheinungsbild berühren." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich in einem Körper festsetzt, der sich selbst nicht verzeiht",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine innere Selbstkritik, die nie nach außen darf, kann sich stattdessen gegen den eigenen Körper richten." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar – ein Ventil nach außen, das der rein nach innen gerichteten Härte eher entgegenwirkt." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – eine Form der Bewegung, die sich eher zwischenmenschlich als gegen den eigenen Körper entlädt." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der auch der eigenen Selbstfürsorge misstraut",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf minimiert die eigenen Bedürfnisse radikal – auch das Bedürfnis nach Fürsorge und Nachsicht sich selbst gegenüber wird zurückgestellt, was mit einem Körper korrespondieren kann, der sich selbst wenig Schonung gönnt." },
+          { code: "SO5", text: "Die soziale Fünf hält auch im sozialen Kontext innere Distanz – Selbstfürsorge wird eher kognitiv als körperlich gesucht." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – innerhalb dieser schmalen Verbindung durchaus fürsorglich, auch sich selbst gegenüber." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die sich als Alarmbereitschaft gegen den eigenen Körper richtet",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Alarmbereitschaft gegenüber äußeren Gefahren – ein überaktives Warnsystem, das sich psychosomatisch als Bild für ein Immunsystem lesen lässt, das ebenfalls überreagiert, nur eben gegen den eigenen Körper statt gegen äußere Bedrohungen." },
+          { code: "SO6", text: "Die soziale Sechs sorgt sich fortlaufend um das Kollektiv – die eigene körperliche Alarmbereitschaft wird dabei selten bemerkt." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation – eine nach außen gerichtete, weniger selbstgerichtete Form der Alarmbereitschaft." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die auch Entzündungssignale überspielt",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über viele parallele Aktivitäten ab – Schmerz und Entzündung werden möglichst lange ignoriert oder überspielt, um im Tempo zu bleiben." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – frühe Krankheitszeichen werden dabei oft lange nicht ernst genommen." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – erste Symptome werden hier eher überspielt als bewusst wahrgenommen." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die auch die eigene Krankheit als Schwäche ablehnt",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen – eine chronische, unsichtbar beginnende Erkrankung widerspricht diesem Selbstbild fundamental und wird oft lange verdrängt." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Führungsspannung für die Gruppe – Krankheit zuzugeben wird als Versagen der eigenen Schutzfunktion erlebt." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – körperliche Einschränkungen werden hier besonders schwer akzeptiert." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die auch Krankheitszeichen des eigenen Körpers übersieht",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und Routine – die über Jahrzehnte fortgesetzte Selbstvergessenheit bedeutet auch, dass frühe Krankheitszeichen des eigenen Körpers lange nicht bewusst wahrgenommen werden, bis die Entzündung bereits deutlich fortgeschritten ist." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – eine Selbstauslöschung, die auch die eigenen körperlichen Signale betreffen kann." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Körpers, der die eigenen Signale erst wahrnimmt, wenn sie nicht mehr zu übersehen sind." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor rheumatoider Arthritis gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit nach innen gerichteter Härte, Selbstfürsorge und dem eigenen Immunsystem verhandelt – manche über Perfektionismus und Selbstkritik, andere über Verdrängung, Kontrolle oder ein nie wahrgenommenes eigenes Warnsignal. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -96426,7 +96519,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Rheumatoide Arthritis", "Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
+  "bewegungsapparat": ["Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
