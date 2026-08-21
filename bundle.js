@@ -70295,9 +70295,9 @@ function albertEinsteinKrankheitsportraetPage() {
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
         <p class="vb-intro"><strong>a) Ein Leben der distanzierten Beobachtung:</strong>
-        Schon lange vor der Diagnose war Einstein für seine Fähigkeit bekannt, sich auch von
-        den größten menschlichen Umbrüchen – zwei Weltkriege, Emigration, öffentlicher Ruhm –
-        mit bemerkenswerter innerer Distanz zu betrachten.</p>
+        Schon lange vor der Diagnose war Einstein für seine Fähigkeit bekannt, selbst die
+        größten menschlichen Umbrüche – zwei Weltkriege, Emigration, öffentlicher Ruhm – mit
+        bemerkenswerter innerer Distanz zu betrachten.</p>
         <p class="vb-intro"><strong>b) Eine über Jahre bekannte, aber nie verdrängte Bedrohung:</strong>
         Von der Diagnose 1948 bis zum Tod 1955 zieht sich eine durchgehende Linie aus Wissen
         um die eigene Sterblichkeit, die weder verheimlicht noch dramatisiert wurde – sie
