@@ -428,6 +428,7 @@ export const registerEntries = [
   { term: "Tennisarm (Psychosomatik)", route: "psychosomatik/tennisarm", description: "Psychosomatische Deutung: immer gleiche verkrampfte Anstrengung, TCM Qi-Blut-Stagnation, Enneagramm alle 27 Subtypen" },
   { term: "Frozen Shoulder (Psychosomatik)", route: "psychosomatik/frozen_shoulder", description: "Psychosomatische Deutung: zunehmende Erstarrung statt Öffnung, TCM Qi-Blut-Mangel, Enneagramm alle 27 Subtypen" },
   { term: "Ischialgie / Hexenschuss (Psychosomatik)", route: "psychosomatik/ischialgie", description: "Psychosomatische Deutung: plötzliche Entladung angesammelter Überlastung, TCM Qi-Blut-Blockade, Enneagramm alle 27 Subtypen" },
+  { term: "Sehnenscheidenentzündung (Psychosomatik)", route: "psychosomatik/sehnenscheidenentzuendung", description: "Psychosomatische Deutung: übermäßige Reibung durch Wiederholung, TCM Qi-Blut-Stagnation, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
@@ -1530,6 +1531,7 @@ export const registerEntriesEN = [
   { term: "Tennis Elbow (Psychosomatics)", route: "psychosomatik/tennisarm", description: "Psychosomatic interpretation: always the same cramped effort, TCM Qi-Blood stagnation, Enneagram all 27 subtypes" },
   { term: "Frozen Shoulder (Psychosomatics)", route: "psychosomatik/frozen_shoulder", description: "Psychosomatic interpretation: increasing rigidity instead of openness, TCM Qi-Blood deficiency, Enneagram all 27 subtypes" },
   { term: "Sciatica (Psychosomatics)", route: "psychosomatik/ischialgie", description: "Psychosomatic interpretation: sudden discharge of accumulated overload, TCM Qi-Blood blockage, Enneagram all 27 subtypes" },
+  { term: "Tendinitis (Psychosomatics)", route: "psychosomatik/sehnenscheidenentzuendung", description: "Psychosomatic interpretation: excessive friction from repetition, TCM Qi-Blood stagnation, Enneagram all 27 subtypes" },
   { term: "Mineral Substance Impulses", route: "mineralstoffe", description: "Mineral substance impulses for all 27 subtypes – type-specific micronutrients" },
   { term: "Healing Teas", route: "heiltees", description: "Medicinal plant teas for all 27 subtypes – effect and preparation" },
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },

@@ -97161,6 +97161,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Ischialgie oder einem Hexenschuss gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit angesammelter Überlastung und plötzlicher Entladung verhandelt – manche über zurückgehaltene Spannung, andere über Kontrolle, Bewegungsmangel oder eine nie rechtzeitig bemerkte eigene Grenze. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  sehnenscheidenentzuendung: {
+    titel: "Sehnenscheidenentzündung",
+    kategorie: "bewegungsapparat",
+    icon: "&#129440;",
+    kurz: "Wenn dieselbe Bewegung so oft wiederholt wird, bis selbst die Hülle, die sie schützt, sich entzündet.",
+    definition: "Die Sehnenscheidenentzündung (Tendovaginitis) bezeichnet eine schmerzhafte Reizung der schützenden Gleithülle, die viele Sehnen umgibt und ihnen ein reibungsarmes Gleiten entlang des Knochens ermöglicht. Am häufigsten betroffen sind die Sehnen an Handgelenk und Hand, seltener am Fuß. Ursache ist meist eine wiederholte, monotone Überlastung – etwa durch Tippen, Musizieren, handwerkliche Tätigkeiten oder repetitive Sportbewegungen –, durch die die Gleithülle sich entzündet und anschwillt, was die Bewegung der Sehne zunehmend schmerzhaft und eingeschränkt macht. Eine besondere Form ist die Tendovaginitis stenosans (schnellender Finger), bei der sich die Sehne kaum noch durch die verengte Hülle bewegen lässt und beim Strecken oder Beugen ruckartig einschnappt.",
+    symptome: [
+      "Schmerzen entlang der betroffenen Sehne, die bei Bewegung deutlich zunehmen",
+      "Schwellung und Druckempfindlichkeit über der Sehnenscheide",
+      "Knirschendes oder reibendes Gefühl bei Bewegung des betroffenen Gelenks (Krepitation)",
+      "Bei der Tendovaginitis stenosans: ein ruckartiges, schnellendes Einschnappen des Fingers beim Strecken",
+      "Zunehmende Kraftlosigkeit und Bewegungseinschränkung im betroffenen Bereich",
+      "Schmerzverstärkung bei fortgesetzter, gleichbleibender Belastung ohne Pause",
+    ],
+    notfall: "Eine Sehnenscheidenentzündung ist kein akuter Notfall. Bei ausgeprägter Rötung, Überwärmung, Fieber oder rasch zunehmender Schwellung: zeitnah ärztliche Hilfe aufsuchen, um eine bakterielle Infektion der Sehnenscheide auszuschließen, die eine dringliche Behandlung erfordert.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Die Sehnenscheide ist eine Schutzhülle – sie sorgt dafür, dass Bewegung reibungslos, ohne Widerstand geschehen kann. Entzündet sie sich, wird ausgerechnet das, was Bewegung eigentlich erleichtern sollte, selbst zur Quelle des Schmerzes. Die Traditionelle Chinesische Medizin ordnet solche Beschwerden häufig einer lokalen Stagnation von Qi und Blut zu, entstanden durch wiederholte, immer gleiche Anspannung ohne ausreichenden Ausgleich – ein Bild, das dem Tennisarm nahesteht, aber noch unmittelbarer an der schützenden Hülle selbst ansetzt. Die Psychosomatik liest darin oft ein Bild von übermäßiger Reibung: eine Bewegung, eine Aufgabe oder eine Rolle, die so oft und so gleichförmig wiederholt wird, dass selbst der schützende Rahmen, der sie eigentlich ermöglichen sollte, sich entzündet.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der sich in derselben, immer wiederholten Bewegung reibt",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins erledigt Aufgaben mit disziplinierter, oft wiederholter Präzision – dieselbe angespannte, kontrollierte Bewegung, immer wieder ausgeführt, passt unmittelbar zum Bild einer Gleithülle, die sich durch stete Reibung entzündet." },
+          { code: "SO1", text: "Die soziale Eins hält beharrlich an ihren Aufgaben für die Gruppe fest – ein Muster, das selten pausiert, auch wenn die Hand längst Ermüdung zeigt." },
+          { code: "SX1", text: "Die sexuelle Eins lebt ihre Ansprüche direkt in der Beziehung aus – eine punktuellere, weniger repetitive Form von Anspannung als bei den anderen Einser-Varianten." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der immer wieder mit derselben Bewegung gibt, ohne sich zu schonen",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei gibt still und praktisch – oft mit den eigenen Händen –, ohne sich je eine Erholungspause zu gönnen. Eine Bewegung, die sich ständig wiederholt, ohne je zu entspannen, ist psychosomatisch eines der unmittelbarsten Bilder für diese Krankheit." },
+          { code: "SO2", text: "Die soziale Zwei bleibt praktisch verfügbar für die Gemeinschaft – die eigenen Hände sind oft im Dienst anderer im Einsatz, selten in Ruhe." },
+          { code: "SX2", text: "Die sexuelle Zwei konzentriert ihre Fürsorge auf die eine Beziehung – eine fokussiertere, weniger dauerhaft beanspruchende Form der Belastung." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die dieselbe präzise Bewegung endlos wiederholt",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet effizient und oft handwerklich präzise weiter, auch wenn der Körper längst Pause fordert – eine wiederholte, kaum unterbrochene Beanspruchung derselben Sehnen passt zum Bild dieser Krankheit." },
+          { code: "SO3", text: "Die soziale Drei setzt ihre Fähigkeiten sichtbar für öffentliche Anerkennung ein – die eigenen Hände werden dabei selten geschont." },
+          { code: "SX3", text: "Die sexuelle Drei optimiert sich im Beziehungskontext – die Belastung zeigt sich hier eher als emotionaler Druck denn als mechanische Überbeanspruchung." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich in einer immer gleichen, reibenden Anspannung zeigt",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – ein inneres Festhalten, das sich nie löst, kann sich körperlich als eine immer gleiche, reibende Bewegung zeigen, die die schützende Hülle reizt." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar – ein Ventil nach außen, das der reinen körperlichen Wiederholung eher entgegenwirkt." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – eine Form der Bewegung, die eher Ausdruck sucht als sich in starrer Wiederholung zu reiben." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der dieselbe stille Bewegung stundenlang wiederholt",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück, oft in Tätigkeiten mit repetitiver Hand- und Fingerbelastung (Lesen, Schreiben, Musizieren) – eine körperlich einseitige Belastung, die klassisch mit Sehnenscheidenentzündungen in Verbindung gebracht wird." },
+          { code: "SO5", text: "Die soziale Fünf sammelt Wissen, oft in stundenlanger, sitzender Tätigkeit – eine ähnliche mechanische Beanspruchung wie bei der selbsterhaltenden Variante." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, aber lebendige Verbindung mit weniger einseitiger körperlicher Belastung." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die sich in einer immer wiederholten, reibenden Anspannung zeigt",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs hält an Vorsicht und Vorbereitung fest – eine Grundhaltung, die sich körperlich als eine sich wiederholende, angespannte Bewegung zeigen kann, die selbst dann nicht innehält, wenn Erholung nötig wäre." },
+          { code: "SO6", text: "Die soziale Sechs trägt fortlaufend Sorge um das Kollektiv – eine Belastung, die sich selten körperlich konkret zeigt." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Festhalten – eine aktivere, weniger reibende Haltung als bei den anderen Sechser-Varianten." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die dieselbe Bewegung für zu viele Projekte gleichzeitig nutzt",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über viele parallele Projekte ab – wechselnde, aber insgesamt kumulativ hohe Hand- und Fingerbeanspruchung durch zu viele gleichzeitige Tätigkeiten kann sich langfristig auf die Sehnenscheiden auswirken." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – die eigene körperliche Überlastung wird dabei lange nicht wahrgenommen." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – ein Muster, das selten auf gleichmäßige, schonende Bewegung achtet." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die auch dann noch dieselbe Bewegung wiederholt, wenn Lockerung nötig wäre",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht hält Kontrolle über die eigenen Ressourcen straff aufrecht – eine feste, nie entspannte Bewegung passt unmittelbar zum Bild einer Gleithülle, die durch anhaltende Reibung gereizt bleibt." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Führungsspannung für die Gruppe – die eigenen Hände bleiben dabei selten wirklich entspannt." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger mechanischer Überbeanspruchung." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die dieselbe Bewegung Jahr für Jahr wiederholt",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und immer gleiche Routinen – über Jahre kaum veränderte, repetitive Handbewegungen ohne bewusste Pausen passen unmittelbar zum Bild einer Sehnenscheide, die sich durch Wiederholung ohne Erneuerung entzündet." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – eine Anpassung, die selten die eigene körperliche Erholung im Sinn hat." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung einer Bewegung, die sich am anderen festhält, ohne die eigene Anspannung je zu bemerken." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor einer Sehnenscheidenentzündung gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Wiederholung, Anspannung und Erholung verhandelt – manche über repetitive Überlastung, andere über Kontrolle, Rückzug oder eine nie bemerkte eigene Anspannung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -97170,7 +97263,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Sehnenscheidenentzündung"],
+  "bewegungsapparat": [],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],

@@ -62387,6 +62387,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to sciatica or lumbago, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates accumulated overload and sudden discharge in its own way – some through held-back tension, others through control, lack of movement, or a limit of their own that was never noticed in time. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  sehnenscheidenentzuendung: {
+    titel: "Tendinitis",
+    kategorie: "bewegungsapparat",
+    icon: "&#129440;",
+    kurz: "When the same movement is repeated so often that even the sheath protecting it becomes inflamed.",
+    definition: "Tendinitis of the sheath (tenosynovitis) refers to a painful irritation of the protective gliding sheath that surrounds many tendons and allows them to slide with little friction along the bone. The tendons of the wrist and hand are most commonly affected, less often the foot. The usual cause is repeated, monotonous overload – for instance from typing, playing an instrument, manual trades, or repetitive athletic movements – through which the gliding sheath becomes inflamed and swells, making movement of the tendon increasingly painful and restricted. A particular form is stenosing tenosynovitis (trigger finger), in which the tendon can barely move through the narrowed sheath and snaps abruptly when straightening or bending.",
+    symptome: [
+      "Pain along the affected tendon, clearly increasing with movement",
+      "Swelling and tenderness over the tendon sheath",
+      "A grinding or grating sensation when moving the affected joint (crepitus)",
+      "With stenosing tenosynovitis: an abrupt, snapping motion of the finger when straightening",
+      "Increasing weakness and restricted movement in the affected area",
+      "Increased pain with continued, unchanged strain without a break",
+    ],
+    notfall: "Tendinitis is not an acute emergency. In the case of pronounced redness, warmth, fever, or rapidly increasing swelling: seek medical help promptly to rule out a bacterial infection of the tendon sheath, which requires urgent treatment.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "The tendon sheath is a protective covering – it ensures that movement can happen smoothly, without resistance. When it becomes inflamed, precisely what was supposed to make movement easier itself becomes the source of pain. Traditional Chinese Medicine often assigns complaints of this kind to a local stagnation of Qi and Blood, arising from repeated, always-the-same tension without adequate balance – a picture close to tennis elbow, but even more directly located in the protective sheath itself. Psychosomatic medicine therefore often reads this as a picture of excessive friction: a movement, a task, or a role repeated so often and so uniformly that even the protective frame meant to make it possible becomes inflamed.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that rubs against itself in the same, always-repeated motion",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One handles tasks with disciplined, often repeated precision – the same tensed, controlled movement, carried out again and again, fits directly with the picture of a gliding sheath becoming inflamed through constant friction." },
+          { code: "SO1", text: "The social One persistently holds on to its tasks for the group – a pattern that rarely pauses, even when the hand has long shown fatigue." },
+          { code: "SX1", text: "The sexual One lives its demands directly within the relationship – a more punctual, less repetitive form of tension than in the other One variants." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that keeps giving with the same movement, never sparing itself",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two gives quietly and practically – often with its own hands – without ever granting itself a recovery break. A movement that constantly repeats without ever relaxing is psychosomatically one of the most direct pictures for this condition." },
+          { code: "SO2", text: "The social Two stays practically available to the community – its own hands are often in service to others, rarely at rest." },
+          { code: "SX2", text: "The sexual Two focuses its caregiving on the one relationship – a more focused, less permanently taxing form of strain." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that endlessly repeats the same precise motion",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps working efficiently and often with hands-on precision, even when the body has long been asking for a break – repeated, barely interrupted strain on the same tendons fits the picture of this condition." },
+          { code: "SO3", text: "The social Three deploys its skills visibly for public recognition – its own hands are rarely spared in the process." },
+          { code: "SX3", text: "The sexual Three optimizes itself within the relational context – the strain shows up more as emotional pressure than as mechanical overuse." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that shows up as always the same, chafing tension",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – an inner holding on that never releases can show up physically as an always-the-same, chafing movement that irritates the protective sheath." },
+          { code: "SO4", text: "The social Four makes its own suffering visible – an outward outlet that works against pure physical repetition." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity – a form of movement that seeks expression rather than chafing through rigid repetition." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that repeats the same quiet motion for hours",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically, often into activities involving repetitive hand and finger strain (reading, writing, playing an instrument) – a physically one-sided strain classically linked to tendinitis." },
+          { code: "SO5", text: "The social Five gathers knowledge, often in hours of seated activity – a similar mechanical strain as in the self-preservation variant." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – a narrow but lively connection with less one-sided physical strain." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that shows up as always-repeated, chafing tension",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six holds firmly to caution and preparation – a core stance that can show up physically as a repeating, tensed movement that does not pause even when recovery would be needed." },
+          { code: "SO6", text: "The social Six continually worries about the collective – a strain that rarely shows up physically in a concrete way." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation rather than holding on – a more active, less chafing stance than the other Six variants." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that puts the same movement to use for too many projects at once",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through many parallel projects – varied but cumulatively high hand and finger strain from too many simultaneous activities can affect the tendon sheaths over the long term." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – its own physical overload goes unnoticed for a long time." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – a pattern that rarely attends to even, sparing movement." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that keeps repeating the same movement even when loosening would be needed",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight keeps tight control over its own resources – a firm, never-relaxed movement fits directly with the picture of a gliding sheath kept irritated through sustained friction." },
+          { code: "SO8", text: "The social Eight carries permanent leadership tension for the group – its own hands rarely stay truly relaxed." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – the strain shows up more in extreme swings than in steady mechanical overuse." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that repeats the same movement year after year",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort and always the same routines – repetitive hand movements barely changed over the years, without conscious breaks, fit directly with the picture of a tendon sheath becoming inflamed through repetition without renewal." },
+          { code: "SO9", text: "The social Nine consistently subordinates its own opinion to the group – an adaptation that rarely has its own physical recovery in mind." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a movement that holds on to the other without ever noticing its own tension." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to tendinitis, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates repetition, tension, and recovery in its own way – some through repetitive overload, others through control, withdrawal, or a tension of their own that was never noticed. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -62395,7 +62488,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Tendinitis"],
+  "bewegungsapparat": [],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],
