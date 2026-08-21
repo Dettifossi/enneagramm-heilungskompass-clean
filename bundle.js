@@ -95364,7 +95364,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Die selbsterhaltende Sechs begegnet der Welt mit Vorsicht, Vorausplanung und einem inneren Frühwarnsystem, das selten wirklich abschaltet – Rücklagen, Notfallpläne, das gedankliche Durchspielen dessen, was schiefgehen könnte, bevor es überhaupt passiert. Diese Form der Daueralarmbereitschaft ist medizinisch alles andere als harmlos: chronisch erhöhte Cortisol- und Adrenalinspiegel durch anhaltende Wachsamkeit gelten als plausibler Mechanismus für erhöhtes kardiovaskuläres Risiko, selbst wenn nie ein konkretes, benennbares Ereignis eintritt – der Körper reagiert auf die Erwartung der Gefahr fast so, als wäre sie bereits eingetreten." },
       { code: "SO6", text: "Die soziale Sechs sucht Sicherheit nicht in eigener Vorsorge, sondern in Zugehörigkeit – zu einer Gruppe, einer Institution, einer klaren Autorität, der sie loyal folgt und deren Regeln sie gewissenhaft einhält. Die Belastung entsteht hier vor allem aus dem Gefühl der Verantwortung für das Kollektiv: Sorge nicht in erster Linie um sich selbst, sondern darum, ob die Gemeinschaft, an der die eigene Sicherheit hängt, intakt bleibt – eine Sorge, die selten offen ausgesprochen wird und sich stattdessen als diffuse, chronische innere Anspannung niederschlägt." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch: durch Stärke-Projektion, gezielte Provokation, das bewusste Aufsuchen dessen, wovor sie sich eigentlich fürchtet, um die Angst zu widerlegen, statt ihr auszuweichen. Diese Mischung aus Angst und Zorn erzeugt weniger eine gleichmäßige Dauerspannung als eigene, episodische Belastungsspitzen – intensive Momente der Konfrontation, in denen Herzfrequenz und Blutdruck kurzfristig, aber deutlich ausschlagen, gefolgt von Phasen relativer Ruhe, bis zur nächsten selbst gesuchten Bewährungsprobe." },
+      { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch: durch Stärke-Projektion, gezielte Provokation, das bewusste Aufsuchen dessen, wovor sie sich eigentlich fürchtet, um die Angst zu widerlegen, statt ihr auszuweichen. Diese Mischung aus Angst und Zorn erzeugt weniger eine gleichmäßige Dauerspannung als eigene, episodische Belastungsspitzen – intensive Momente der Konfrontation, in denen Herzfrequenz und Blutdruck kurzfristig, aber deutlich ausschlagen, gefolgt von Phasen relativer Ruhe, bis zur nächsten selbst gesuchten Bewährungsprobe." },
         ],
       },
       {
@@ -95457,7 +95457,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Sicherheit wird gesucht, aber nie endgültig gefunden, und die Anspannung bleibt Jahr für Jahr bestehen – so lässt sich die Daueralarmbereitschaft der selbsterhaltenden Sechs über chronisch erhöhte Stresshormonspiegel plausibel mit einem erhöhten Risiko für Gefäßveränderungen in Verbindung bringen. Sie plant für Eventualitäten, die nie eintreten, und selbst wenn nichts passiert, bleibt die Erleichterung nur von kurzer Dauer, bevor die nächste Sorge Raum greift." },
       { code: "SO6", text: "Als beständiges Pflichtgefühl im Hintergrund hält sich die Verantwortung für das Kollektiv, die die soziale Sechs empfindet, wenn sie Sicherheit über Zugehörigkeit zu Gruppe oder Autorität sucht. Diese Loyalität kostet über Jahrzehnte Kraft, weil das eigene Wohlergehen konsequent hinter das Wohl der Gemeinschaft zurücktritt." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Rückzug – diese Mischung aus Angst und Zorn erzeugt episodische Belastungsspitzen statt der gleichmäßigen Dauerspannung der anderen Sechser-Varianten. Sie sucht bewusst die Situationen auf, die andere meiden würden, um zu beweisen, dass die Angst sie nicht kontrolliert – ein Muster, das intensive, aber punktuelle statt chronische Anspannung erzeugt." },
+      { code: "SX6", text: "Um zu beweisen, dass die Angst sie nicht kontrolliert, sucht die sexuelle Sechs bewusst die Situationen auf, die andere meiden würden, begegnet Angst gegenphobisch statt mit Rückzug – ein Muster, das intensive, aber punktuelle statt chronische Anspannung erzeugt." },
         ],
       },
       {
@@ -95550,7 +95550,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Vorsicht und ständige Vorbereitung auf das Schlimmste halten das vegetative Nervensystem der selbsterhaltenden Sechs in permanenter Anspannung, ein Zustand, der sich medizinisch plausibel mit chronisch erhöhtem Blutdruck in Verbindung bringen lässt. Sie plant für Szenarien, die selten eintreten, aber die bloße gedankliche Vorbereitung darauf hält den Körper in ständiger Wachsamkeit." },
       { code: "SO6", text: "Loyal folgt die soziale Sechs denen, denen sie vertraut, hält sich an Regeln und sucht Sicherheit über Zugehörigkeit zu Gruppe oder Autorität – sie trägt dabei die stille Last, dass diese Loyalität nie enden darf." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Rückzug – diese Mischung aus Angst und Zorn erzeugt episodische Drucksteigerungen statt der gleichmäßigen Dauerspannung der anderen Sechser-Varianten. Sie sucht die Auseinandersetzung, statt ihr auszuweichen, und genau diese Konfrontationen erzeugen kurze, aber intensive Druckspitzen." },
+      { code: "SX6", text: "Statt der Auseinandersetzung auszuweichen, sucht die sexuelle Sechs sie aktiv, begegnet Angst gegenphobisch – und genau diese Konfrontationen erzeugen kurze, aber intensive Druckspitzen statt der gleichmäßigen Dauerspannung der anderen Sechser-Varianten." },
         ],
       },
       {
@@ -95643,7 +95643,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Über Jahre beanspruchen ständige Vorsicht und Vorbereitung auf das Schlimmste Energie, die dem Körper der selbsterhaltenden Sechs an anderer Stelle fehlt. Sie plant für Eventualitäten, die selten eintreten, und verbraucht dabei kontinuierlich Kraft, die für echte Erholung fehlt." },
       { code: "SO6", text: "Kontinuierlich an der eigenen Kraft zehrt die Sorge um das Kollektiv, die selten offen ausgesprochen wird, wenn die soziale Sechs Sicherheit über Zugehörigkeit zu Gruppe oder Autorität sucht. Sie trägt die gefühlte Verantwortung für das Wohlergehen ihrer Gemeinschaft, oft ohne dass diese Last je geteilt wird." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Rückzug – diese Mischung aus Angst und Zorn erzeugt episodische Kraftanstrengungen statt einer gleichmäßigen Dauerbelastung. Sie sucht die Bewährungsprobe aktiv auf, was punktuell viel Energie kostet, aber zwischen den Episoden auch Phasen relativer Erholung erlaubt." },
+      { code: "SX6", text: "Was punktuell viel Energie kostet, aber zwischen den Episoden auch Phasen relativer Erholung erlaubt: So sucht die sexuelle Sechs die Bewährungsprobe aktiv auf, begegnet Angst gegenphobisch statt mit Rückzug." },
         ],
       },
       {
@@ -95736,7 +95736,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Ein paralleles Durchspielen unterschiedlicher Bedrohungsbilder erzeugt bei der selbsterhaltenden Sechs eine Art inneres Dauerflimmern der Gedanken – sie bereitet sich gedanklich auf viele mögliche Gefahren gleichzeitig vor, wägt Szenarien ab, plant Rückzugswege. Das bietet sich psychosomatisch als naheliegendes Bild für einen aus dem Takt geratenen Herzschlag an." },
       { code: "SO6", text: "Wer ist loyal, wem ist zu trauen, wo drohen Konflikte: Fortlaufend überwacht die soziale Sechs viele soziale Signale gleichzeitig, sucht Sicherheit über Zugehörigkeit zu Autorität oder Gruppe – dieses gleichzeitige Verarbeiten vielfacher sozialer Reize kann den eigenen inneren Rhythmus zersplittern." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, sucht die Konfrontation aktiv auf – diese Mischung aus Angst und Mut erzeugt eher punktuelle, intensive innere Ausschläge in konkreten Bewährungsmomenten als eine gleichmäßig verteilte, chronische Zersplitterung der Aufmerksamkeit." },
+      { code: "SX6", text: "Aktiv sucht die sexuelle Sechs die Konfrontation, begegnet Angst gegenphobisch – diese Mischung aus Angst und Mut erzeugt eher punktuelle, intensive innere Ausschläge in konkreten Bewährungsmomenten als eine gleichmäßig verteilte, chronische Zersplitterung der Aufmerksamkeit." },
         ],
       },
       {
@@ -95829,7 +95829,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Nie wirklich entspannt: So lebt die selbsterhaltende Sechs in ständiger Vorsicht und Vorbereitung auf mögliche Gefahren – diese permanente muskuläre und mentale Anspannung kann über Jahre die eigene Belastungsgrenze absenken, sodass schon geringere Anstrengungen den wiederkehrenden Schmerz auslösen." },
       { code: "SO6", text: "Die gefühlte Last vieler Sorgen gleichzeitig trägt die soziale Sechs, die Verantwortung für das Wohlergehen ihrer Gruppe übernimmt – diese kontinuierliche kollektive Anspannung, selten offen ausgesprochen, kann sich körperlich als ein Schmerz manifestieren, der genau an der eigenen Belastungsgrenze auftritt." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation statt Rückzug – diese Mischung aus Angst und Mut erzeugt eher punktuelle, intensive Belastungsspitzen in konkreten Bewährungsmomenten als eine gleichmäßig verteilte chronische Überlastung." },
+      { code: "SX6", text: "Statt mit Rückzug begegnet die sexuelle Sechs Angst gegenphobisch, durch aktive Konfrontation – diese Mischung aus Angst und Mut erzeugt eher punktuelle, intensive Belastungsspitzen in konkreten Bewährungsmomenten als eine gleichmäßig verteilte chronische Überlastung." },
         ],
       },
       {
@@ -95922,7 +95922,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Ohne dass diese Anspannung je wirklich abklingt, trägt die selbsterhaltende Sechs ständige Sorge um mögliche Gefahren mit sich – ein Nervensystem in Daueralarmbereitschaft, das kaum Erleichterung kennt. Dieses Muster, Last zu tragen, ohne sie je abzulegen, passt zum Bild des gestörten venösen Rückflusses." },
       { code: "SO6", text: "Selten geteilt und noch seltener abgegeben wird die Verantwortung, mit der sich die soziale Sechs fortlaufend um das Wohlergehen ihrer Gruppe sorgt – diese kollektive, nie erleichterte Sorge kann sich körperlich als eine Stauung zeigen." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese Mischung aus Angst und Mut erzeugt eher punktuelle Entladungen in konkreten Bewährungsmomenten als eine gleichmäßig verteilte, nie erleichterte Dauerlast." },
+      { code: "SX6", text: "Durch aktive Konfrontation begegnet die sexuelle Sechs Angst gegenphobisch – diese Mischung aus Angst und Mut erzeugt eher punktuelle Entladungen in konkreten Bewährungsmomenten als eine gleichmäßig verteilte, nie erleichterte Dauerlast." },
         ],
       },
       {
@@ -96015,7 +96015,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Auch wenn die Gefahr längst gebannt ist, hält die selbsterhaltende Sechs an einmal gefassten Ängsten und Vorsichtsmaßnahmen fest – diese starre Wachsamkeit, die sich nicht mehr löst, kann sich über Jahre zu einer festen inneren Blockade verhärten, die selbst bei objektiver Entwarnung nicht nachgibt." },
       { code: "SO6", text: "Ein einmal gefasster Verdacht kann sich zu einer festen, kaum mehr revidierbaren Position verfestigen, wenn die soziale Sechs sich in ihrem Misstrauen gegenüber vermeintlichen Bedrohungen für die Gruppe zunehmend verhärtet." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation statt Erstarrung – dieses Verhalten hält das System eher in Bewegung, während echte Erstarrung hier seltener und eher in konkreten Rückschlagsmomenten auftritt." },
+      { code: "SX6", text: "Statt Erstarrung wählt die sexuelle Sechs aktive Konfrontation, begegnet Angst gegenphobisch – dieses Verhalten hält das System eher in Bewegung, während echte Erstarrung hier seltener und eher in konkreten Rückschlagsmomenten auftritt." },
         ],
       },
       {
@@ -96108,7 +96108,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Ohne dass sie je wirklich zur Ruhe kommen, trägt die selbsterhaltende Sechs Sorgen und Ängste über Jahre mit sich, lebt in ständiger Alarmbereitschaft – dieses Nervensystem in Dauerspannung, das nie wirklich entlastet wird, passt zum Bild einer aufgestauten Fülle, die sich irgendwann Bahn bricht." },
       { code: "SO6", text: "Selten geteilt und nie wirklich abgelegt wird die Last, die gefühlte Verantwortung für das Wohlergehen ihrer Gruppe, die die soziale Sechs trägt – diese kollektive, nie erleichterte Sorge kann sich über Jahre zu einer inneren Fülle verdichten." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese Entladung im Außen kann verhindern, dass sich die innere Spannung zu einer gleichmäßig akkumulierten Fülle aufstaut, auch wenn einzelne Bewährungsmomente selbst hochintensiv bleiben." },
+      { code: "SX6", text: "Auch wenn einzelne Bewährungsmomente selbst hochintensiv bleiben, verhindert die Entladung im Außen, mit der die sexuelle Sechs gegenphobisch auf Angst reagiert, dass sich die innere Spannung zu einer gleichmäßig akkumulierten Fülle aufstaut." },
         ],
       },
       {
@@ -96201,7 +96201,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Ohne dass diese Energie je in konkretes, kraftvolles Handeln mündet, verausgabt die selbsterhaltende Sechs viel Kraft im gedanklichen Durchspielen möglicher Gefahren – dieses Kreisen im Vorfeld kann dazu führen, dass für die eigentliche Selbstbehauptung am Ende zu wenig übrig bleibt." },
       { code: "SO6", text: "Statt sie für die eigene Position einzusetzen, bindet die soziale Sechs ihre Energie an die Sorge um das Kollektiv – diese kontinuierliche Ausrichtung auf äußere Sicherheit statt auf inneren Antrieb kann sich als ein Mangel an selbstbezogener Kraft zeigen." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – dieses Verhalten setzt eher punktuell viel Energie frei, statt sie chronisch zu binden, weshalb hier seltener ein dauerhafter Kraftmangel im Vordergrund steht." },
+      { code: "SX6", text: "Punktuell viel Energie freisetzend, statt sie chronisch zu binden, begegnet die sexuelle Sechs Angst gegenphobisch, durch aktive Konfrontation – weshalb hier seltener ein dauerhafter Kraftmangel im Vordergrund steht." },
         ],
       },
       {
@@ -96294,7 +96294,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Ohne sie je zu hinterfragen, wiederholt die selbsterhaltende Sechs über Jahre dieselben Vorsichtsmaßnahmen und Sicherheitsrituale – diese unveränderte, immer gleiche Vorbereitung auf mögliche Gefahren kann sich als eine Rigidität zeigen, die auch der körperlichen Beweglichkeit zunehmend weniger Raum lässt." },
       { code: "SO6", text: "Selten verändert die soziale Sechs ihre soziale Position, hält über Jahre an denselben Loyalitäten und Gruppenstrukturen fest – diese unveränderte Verankerung kann sich als eine Rigidität zeigen, die sich auch körperlich in mangelnder Anpassungsfähigkeit niederschlägt." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, sucht aktiv neue Herausforderungen und Konfrontationen – diese Bereitschaft, sich immer wieder neuen Situationen zu stellen, steht der starren Wiederholung entgegen, die für Arthrose besonders typisch ist." },
+      { code: "SX6", text: "Aktiv sucht die sexuelle Sechs neue Herausforderungen und Konfrontationen, begegnet Angst gegenphobisch – diese Bereitschaft, sich immer wieder neuen Situationen zu stellen, steht der starren Wiederholung entgegen, die für Arthrose besonders typisch ist." },
         ],
       },
       {
@@ -96387,7 +96387,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Oft ohne diese Angst je offen zu benennen, trägt die selbsterhaltende Sechs ständige Sorge um mögliche Gefahren mit sich – ein Nervensystem in Daueralarmbereitschaft, das nie wirklich entlastet wird, passt zum Bild eines Rückens, der unter unbenannter Sorge steht." },
       { code: "SO6", text: "Selten geteilt wird die Last, die gefühlte Verantwortung für das Wohlergehen ihrer Gruppe, die die soziale Sechs trägt – diese kollektive, nie erleichterte Sorge kann sich über Jahre als Rückenschmerz zeigen." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese Entladung im Außen kann verhindern, dass sich die innere Last zu einer gleichmäßig akkumulierten Rückenspannung aufstaut." },
+      { code: "SX6", text: "Im Außen entlädt sich die Angst, der die sexuelle Sechs gegenphobisch durch aktive Konfrontation begegnet – das kann verhindern, dass sich die innere Last zu einer gleichmäßig akkumulierten Rückenspannung aufstaut." },
         ],
       },
       {
@@ -96480,7 +96480,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Nicht nur gegen äußere Gefahren, auch gegen sich selbst richtet die selbsterhaltende Sechs oft ihre harte Selbstkritik, wenn sie glaubt, nicht ausreichend vorbereitet zu sein – diese nach innen gerichtete Härte passt zum Bild eines Immunsystems, das sich selbst als potenzielle Bedrohung behandelt." },
       { code: "SO6", text: "Wenn sie das Gefühl hat, die Gemeinschaft nicht ausreichend geschützt zu haben, macht sich die soziale Sechs selbst oft Vorwürfe, während sie sich um die Sicherheit ihrer Gruppe sorgt – diese Selbstbeschuldigung kann sich körperlich als ein System zeigen, das sich gegen sich selbst richtet." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation nach außen – diese Externalisierung von Angst und Anspannung steht dem konsequent nach innen gerichteten Selbstangriff entgegen, der bei anderen Sechs-Varianten möglich ist." },
+      { code: "SX6", text: "Nach außen, nicht gegen sich selbst richtet sich die aktive Konfrontation, mit der die sexuelle Sechs gegenphobisch auf Angst reagiert – diese Externalisierung steht dem konsequent nach innen gerichteten Selbstangriff entgegen, der bei anderen Sechs-Varianten möglich ist." },
         ],
       },
       {
@@ -96573,7 +96573,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Ohne dass dieser Verbrauch je durch bewusste Selbstfürsorge ausgeglichen wird, verausgabt die selbsterhaltende Sechs über Jahre viel innere Energie auf Sorge und Vorbereitung, lebt in ständiger Alarmbereitschaft – dieses stille, nie thematisierte Ungleichgewicht kann sich als schwindende innere Substanz zeigen." },
       { code: "SO6", text: "Ohne dass es je bewusst bemerkt wird, kann die Last, die gefühlte Verantwortung für das Wohlergehen ihrer Gruppe, über Jahre an der eigenen Substanz der sozialen Sechs zehren, die diese Last selten teilt." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese Entladung im Außen kann verhindern, dass sich die innere Erschöpfung zu einer gleichmäßig über Jahre akkumulierten Substanzauszehrung entwickelt." },
+      { code: "SX6", text: "Im Außen entlädt sich die Angst, der die sexuelle Sechs gegenphobisch durch aktive Konfrontation begegnet – das kann verhindern, dass sich die innere Erschöpfung zu einer gleichmäßig über Jahre akkumulierten Substanzauszehrung entwickelt." },
         ],
       },
       {
@@ -96666,7 +96666,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Den gesamten Körper in einer diffusen, nirgends konzentrierten Anspannung hält das parallele Durchspielen unterschiedlicher Bedrohungsbilder, mit dem sich die selbsterhaltende Sechs gedanklich auf viele mögliche Gefahren gleichzeitig vorbereitet – das kommt dem Bild der Fibromyalgie, einem System in genereller Überforderung, besonders nahe." },
       { code: "SO6", text: "Sorgt sich um das Wohlergehen der gesamten Gruppe, überwacht fortlaufend viele soziale Signale gleichzeitig: So kann sich das gleichzeitige Verarbeiten vielfacher sozialer Reize durch die soziale Sechs als diffuse, über das gesamte System verteilte Überlastung zeigen." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive, punktuelle Konfrontation – diese fokussierte Entladung steht der diffusen, über viele gleichzeitige Sorgen verteilten Anspannung anderer Sechs-Varianten entgegen." },
+      { code: "SX6", text: "Aktiv und punktuell konfrontiert sich die sexuelle Sechs mit dem, was Angst macht – diese fokussierte Entladung steht der diffusen, über viele gleichzeitige Sorgen verteilten Anspannung anderer Sechs-Varianten entgegen." },
         ],
       },
       {
@@ -96759,7 +96759,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Mit großer, oft körperlich spürbarer Anspannung hält die selbsterhaltende Sechs an Sicherheitsmaßnahmen und Vorbereitung fest – dieser dauerhaft angespannte Griff, nie wirklich entspannt, passt zum Bild eines Kanals, der sich unter ständiger muskulärer Anspannung einengt." },
       { code: "SO6", text: "Oft mit konkreten, wiederholten Handlungen der Fürsorge hält die soziale Sechs an ihrer Verantwortung für das Wohlergehen der Gruppe fest – diese kontinuierliche Belastung kann sich als eingeengte Handlungsfähigkeit zeigen." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese eher episodische, punktuelle Anspannung unterscheidet sich von der gleichmäßig wiederholten mechanischen Belastung, die für das Karpaltunnelsyndrom typisch ist." },
+      { code: "SX6", text: "Episodisch und punktuell, nicht gleichmäßig wiederholt: So zeigt sich die aktive Konfrontation, mit der die sexuelle Sechs gegenphobisch auf Angst reagiert – sie unterscheidet sich von der gleichmäßig wiederholten mechanischen Belastung, die für das Karpaltunnelsyndrom typisch ist." },
         ],
       },
       {
@@ -96852,7 +96852,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Diese angesammelte, nie entladene Anspannung kann sich schließlich in einer plötzlichen, heftigen Reaktion Bahn brechen, wenn die selbsterhaltende Sechs Sorgen und Ängste über lange Zeit mit sich trägt, ohne dass sie je wirklich zur Ruhe kommen – ganz im Bild des scheinbar aus dem Nichts auftretenden Gichtanfalls." },
       { code: "SO6", text: "Oft ohne sie je auszusprechen, trägt die soziale Sechs die Sorge um das Kollektiv über lange Zeit mit sich – diese kollektive, nie erleichterte Anspannung kann sich schließlich scharf entladen." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive, unmittelbare Konfrontation – diese direktere Entladung steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist." },
+      { code: "SX6", text: "Unmittelbar entlädt sich die aktive Konfrontation, mit der die sexuelle Sechs gegenphobisch auf Angst reagiert – diese direktere Entladung steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist." },
         ],
       },
       {
@@ -96945,7 +96945,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Immer mit demselben festen, nie gelösten Griff wiederholt die selbsterhaltende Sechs über Jahre dieselben Vorsichtsmaßnahmen mit körperlich spürbarer Anspannung – diese unveränderte, monotone Anspannung passt zum Bild eines Sehnenansatzes, der unter ständiger Wiederholung erschöpft ist." },
       { code: "SO6", text: "Immer mit demselben Verantwortungsgefühl wiederholt die soziale Sechs über Jahre dieselbe angespannte Fürsorgegeste für ihre Gruppe – diese unveränderte Haltung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive, wechselnde Konfrontation – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für den Tennisarm typisch ist." },
+      { code: "SX6", text: "Wechselnd, nicht monoton: So gestaltet sich die aktive Konfrontation, mit der die sexuelle Sechs gegenphobisch auf Angst reagiert – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für den Tennisarm typisch ist." },
         ],
       },
       {
@@ -97038,7 +97038,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Die Schultern buchstäblich hochgezogen, bereit für die nächste Bedrohung: So lebt die selbsterhaltende Sechs in ständiger Alarmbereitschaft. Diese dauerhaft angespannte Körperhaltung, nie wirklich gelöst, passt besonders genau zum Bild der Frozen Shoulder: eine Erstarrung genau dort, wo Entspannung und Offenheit möglich wären." },
       { code: "SO6", text: "Oft ohne sie je bewusst zu lösen, trägt die soziale Sechs die Sorge um das Wohlergehen ihrer Gruppe körperlich als Anspannung mit sich – diese kollektive, nie erleichterte Spannung kann sich als Versteifung der Schulter zeigen." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese Entladung im Außen kann verhindern, dass sich die innere Anspannung zu einer gleichmäßig akkumulierten Schultererstarrung aufstaut." },
+      { code: "SX6", text: "Im Außen entlädt sich die Angst, der die sexuelle Sechs gegenphobisch durch aktive Konfrontation begegnet – das kann verhindern, dass sich die innere Anspannung zu einer gleichmäßig akkumulierten Schultererstarrung aufstaut." },
         ],
       },
       {
@@ -97131,7 +97131,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Bis eine einzige zusätzliche Bewegung genügt, damit sich Dauerspannung plötzlich Bahn bricht: So trägt die selbsterhaltende Sechs ständige Sorge und muskuläre Anspannung über lange Zeit mit sich, ohne dass diese je wirklich zur Ruhe kommt. Genau dieses Muster passt zum Bild des blitzartig einschießenden Hexenschusses." },
       { code: "SO6", text: "Oft ohne sie je auszusprechen, trägt die soziale Sechs die Sorge um das Kollektiv über lange Zeit mit sich – wenn diese kollektive, nie erleichterte Anspannung sich schließlich löst, geschieht dies oft plötzlich." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive, unmittelbare Konfrontation – diese direktere Entladung steht der langen, stillen Ansammlung entgegen, die für den Hexenschuss typisch ist." },
+      { code: "SX6", text: "Unmittelbar entlädt sich die aktive Konfrontation, mit der die sexuelle Sechs gegenphobisch auf Angst reagiert – diese direktere Entladung steht der langen, stillen Ansammlung entgegen, die für den Hexenschuss typisch ist." },
         ],
       },
       {
@@ -97224,7 +97224,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Immer mit demselben festen, nie gelösten Griff wiederholt die selbsterhaltende Sechs über Jahre dieselben Vorsichtsmaßnahmen mit körperlich spürbarer Anspannung – diese unveränderte, monotone Anspannung passt zum Bild einer Sehnenscheide, die unter ständiger Wiederholung derselben Bewegung erschöpft." },
       { code: "SO6", text: "Immer mit denselben konkreten Handlungen wiederholt die soziale Sechs über Jahre dieselbe angespannte Fürsorgegeste für ihre Gruppe – diese unveränderte Haltung kann sich als eine entzündete Schutzhülle zeigen." },
-          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive, wechselnde Konfrontation – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für die Sehnenscheidenentzündung typisch ist." },
+      { code: "SX6", text: "Wechselnd, nicht monoton: So gestaltet sich die aktive Konfrontation, mit der die sexuelle Sechs gegenphobisch auf Angst reagiert – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für die Sehnenscheidenentzündung typisch ist." },
         ],
       },
       {
