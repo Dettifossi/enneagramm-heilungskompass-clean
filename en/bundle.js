@@ -61247,7 +61247,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Gluttony that is hit especially hard by abrupt standstill",
         varianten: [
-          { code: "SE7", text: "The self-preservation Seven secures itself through constant movement, options, and activity – it is precisely long periods of immobility (such as long flights, a recurring pattern for this variant) that count medically as a recognized risk factor for thrombosis." },
+          { code: "SE7", text: "The self-preservation Seven secures itself through constant movement, options, and activity – it is precisely long periods of forced immobility, such as long flights between the many parallel projects of this variant, that count medically as a recognized risk factor for thrombosis." },
           { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – its own exhaustion is not read as a warning sign for a long time." },
           { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – smoking combined with hormonal contraceptives is medically recognized as a particularly significant risk factor for thrombosis." },
         ],
