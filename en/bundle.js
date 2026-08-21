@@ -42566,8 +42566,9 @@ function oshoKrankheitsportraetPage() {
         meaning-making typical of SP3w4.</p>
         <p class="vb-intro"><strong>b) Functioning despite chronic complaints:</strong>
         For years, Osho maintained an intensive lecture and travel schedule despite diabetes,
-        asthma, and severe back pain, until his physical limits forced a trip to the United
-        States for medical treatment in 1981.</p>
+        asthma, and severe back pain. When he left his Indian ashram in 1981 and relocated to
+        the United States, where the commune Rajneeshpuram in Oregon soon followed, the hope
+        for better medical care was explicitly cited as one of the reasons for the move.</p>
         <p class="vb-intro"><strong>c) Withdrawal only once functioning was no longer possible:</strong>
         Only from 1988 onward did his discourses increasingly narrow in scope; in April 1989
         he gave his last public talk – a late, almost reluctant withdrawal from the active

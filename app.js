@@ -69493,8 +69493,10 @@ function oshoKrankheitsportraetPage() {
         Verbindung aus Funktionsanspruch und dramatischer Sinnzuschreibung.</p>
         <p class="vb-intro"><strong>b) Funktionieren trotz chronischer Beschwerden:</strong>
         Über Jahre hinweg hielt Osho trotz Diabetes, Asthma und starker Rückenschmerzen ein
-        intensives Vortrags- und Reisepensum aufrecht, bis die körperlichen Grenzen 1981 eine
-        Reise in die USA zur medizinischen Behandlung erzwangen.</p>
+        intensives Vortrags- und Reisepensum aufrecht. Als er 1981 seinen indischen Ashram
+        verließ und in die USA übersiedelte, wo bald darauf die Kommune Rajneeshpuram in
+        Oregon entstand, wurde die Hoffnung auf bessere medizinische Versorgung explizit als
+        einer der Gründe für diesen Schritt genannt.</p>
         <p class="vb-intro"><strong>c) Rückzug erst, als kein Funktionieren mehr möglich war:</strong>
         Erst ab 1988 verengten sich seine Diskurse zunehmend, im April 1989 hielt er seinen
         letzten öffentlichen Vortrag – ein später, fast widerstrebender Rückzug aus der
