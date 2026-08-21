@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=48";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=49";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -212,6 +212,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-konrad-adenauer", name:"Konrad Adenauer", subtyp:"SE1w9", heading:"Konrad Adenauer – Self-Preservation Type 1", krankheit:"Severe facial injuries from a car accident (1917), later persecution and imprisonment, death after two heart attacks and pneumonia (1967)", teaser:"SE1w9 – German Chancellor 1949–1963, 1876–1967. His face was shattered in a severe car accident in 1917; he turned the scars into an expression of controlled authority. Two decades later, persecution and imprisonment under the National Socialists, remarkably vital well into old age." , land:"Germany", gender:"m", jahre:"1876–1967"},
   { route:"krankheitsportraets-friedrich-schiller", name:"Friedrich Schiller", subtyp:"SX6w5", heading:"Friedrich Schiller – Sexual Type 6", krankheit:"Pulmonary Tuberculosis", teaser:"SX6w5 – poet, playwright, and historian, 1759–1805. Fragile constitution since childhood, recurring life-threatening fever and coughing fits from 1791 onward, fourteen years of uncompromising work against his own decline. Died in 1805 at 45 of acute pneumonia – the autopsy found a completely destroyed lung." , land:"Germany", gender:"m", jahre:"1759–1805"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Social Type 3", krankheit:"Cancer (cause of death never officially confirmed; assistant reported prostate cancer, diagnosed 2015)", teaser:"SO3w4 – fashion designer and Chanel creative director, 1933–2019. According to consistent reports, kept a cancer diagnosis secret for nearly four years even from those closest to him, and missed a Chanel show for the first time in 35 years only four weeks before his death." , land:"Germany/France", gender:"m", jahre:"1933–2019"},
+  { route:"krankheitsportraets-robert-schumann", name:"Robert Schumann", subtyp:"SX7w8", heading:"Robert Schumann – Sexual Type 7", krankheit:"Mental illness (retrospectively discussed: bipolar disorder, schizoaffective illness, or a late neurological effect of a syphilis infection)", teaser:"SX7w8 – composer and music critic, 1810–1856. Jumped into the Rhine in 1854 in a fit of utter despair, then himself asked to be admitted to an asylum near Bonn, where he died in 1856, largely isolated from his wife Clara until shortly before his death." , land:"Germany", gender:"m", jahre:"1810–1856"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -16769,12 +16770,15 @@ function robertSchumannPortraitPage() {
           <p class="vb-intro">And yet the tragedy remains: the man who could so effortlessly carry others along and fight for them found, in the end, no way to save himself from his own undertow. The chimpanzee with the Eight-wing, who fought for Clara and burned for Brahms, lost the final fight against himself &ndash; and left behind a music that still makes audible, to this day, exactly this tension between intoxication and abyss.</p>
         </blockquote>
 
+        <p class="vb-intro">The 1854 leap into the Rhine and the two years in the asylum near Bonn are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-robert-schumann">Illness Portrait of Schumann</a>.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"krankheitsportraets-robert-schumann", label:"Illness Portrait: Robert Schumann (SX7w8)"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
         {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5)"},
         {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SE9w8) – discovered by Schumann"},
@@ -43381,6 +43385,175 @@ function albertEinsteinKrankheitsportraetPage() {
   `);
 }
 
+function robertSchumannKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-robert-schumann-portrait.jpg" alt="Robert Schumann" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robert Schumann</p>
+        <p class="krim-portrait-typ">SX7w8 · Sexual Type 7 with Eight-wing · 1810–1856</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Chimpanzee</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Animal correspondence: Chimpanzee" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Robert Schumann</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-robert-schumann">portrait under Famous Personalities</a>
+        in this Compass – that page covers his compositional life's work and type structure in
+        general. This portrait is devoted to a chapter only touched on there: a mental illness
+        that ran through his entire adult life and led him, in 1854, into the Rhine and into an
+        asylum where he died in 1856.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Schumann</strong> is classified as the <strong>Sexual Seven with Eight-wing</strong>.
+        SX7 seeks full, unrestrained surrender to whatever excites it – a composition, an idea,
+        a person. The Eight-wing gives that devotion fighting strength and willpower: where a
+        pure Seven evades, the SX7w8 stays and fights. It was exactly this intensity, which
+        carried his creative life, that turned against him in his final years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A constant tone in his ear:</strong>
+        Schumann reported a persistent, high-pitched tone he heard internally as early as his
+        youth – a kind of chronic tinnitus that stayed with him for life and that he himself
+        interpreted as an early sign of his nervous vulnerability.</p>
+        <p class="vb-intro"><strong>b) The first severe crisis in 1833:</strong>
+        After the death of his brother Julius and his sister-in-law, the 23-year-old Schumann
+        suffered a severe nervous breakdown with intense fear of death and a recurring dread of
+        losing his mind – decades before the illness finally overwhelmed him.</p>
+        <p class="vb-intro"><strong>c) A hand that no longer obeyed:</strong>
+        Around 1832, Schumann lost the ability to perform as a concert pianist through an
+        injury to his right hand whose cause remains disputed to this day. Whether a mechanical
+        practice device, nerve damage, or a side effect of contemporary mercury treatments was
+        the cause remains a subject of medical-historical debate.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Extreme swings between peak form and exhaustion:</strong>
+        Schumann's most productive phases – such as the "Year of Song" in 1840 with over 140
+        compositions – alternated with phases of deep exhaustion and melancholy, a pattern
+        music historians retrospectively often read as evidence of bipolar disorder.</p>
+        <p class="vb-intro"><strong>b) The double figure as an early self-diagnosis:</strong>
+        Already in his twenties, Schumann split his personality in literary form into the
+        stormy Florestan and the dreamy Eusebius – a self-observation that, in hindsight, reads
+        like an intuitive description of his own mood extremes, long before psychiatry had
+        corresponding diagnostic categories.</p>
+        <p class="vb-intro"><strong>c) A question of cause still disputed today:</strong>
+        Alongside bipolar disorder, medical-historical research also discusses a possible late
+        effect of a syphilis infection as a contributing cause of his mental decline – a theory
+        supported by Schumann's own diary entries about earlier treatments, but never
+        conclusively proven.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Voices that dictated music:</strong>
+        In February 1854, Schumann reported that an angelic voice had sung him a musical theme,
+        which he immediately wrote down – days later, that same voice transformed in his
+        perception into a demonic, tormenting presence.</p>
+        <p class="vb-intro"><strong>b) The leap into the Rhine:</strong>
+        On February 27, 1854, in a fit of utter despair, Schumann left his house in Düsseldorf
+        in his nightshirt and jumped from the Rhine bridge into the icy river. Fishermen pulled
+        him out, barely alive.</p>
+        <p class="vb-intro"><strong>c) His own request for admission:</strong>
+        Shortly after the suicide attempt, Schumann himself asked to be taken to an asylum – an
+        act that still shows a last remnant of conscious self-control over a situation that had
+        long since spiraled beyond his control.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Two years in the asylum near Bonn:</strong>
+        Schumann spent the last roughly two years of his life in the private asylum of Dr.
+        Franz Richarz in Endenich near Bonn – largely isolated from his wife Clara, whom
+        doctors forbade from visiting for a long time, fearing a reunion could further worsen
+        his condition.</p>
+        <p class="vb-intro"><strong>b) The young Brahms as the only constant:</strong>
+        While Clara was kept away, the 20-year-old Johannes Brahms, whom Schumann had hailed as
+        a coming master only months earlier, visited him regularly in Endenich and became the
+        family's closest support during this time.</p>
+        <p class="vb-intro"><strong>c) A reunion only shortly before death:</strong>
+        Only when his condition appeared irreversible did the doctors finally allow Clara
+        access to her husband, in July 1856 – two days before his death, after more than two
+        years of forced separation.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The intensity that turned against itself:</strong>
+        The same unrestrained capacity for devotion that carried Schumann's creative bursts –
+        entire years devoted exclusively to a single genre – turned with the same force against
+        himself in the crisis: not restrained sadness, but an undertow with no visible bottom.</p>
+        <p class="vb-intro"><strong>b) Fighting to the point of exhaustion:</strong>
+        The Eight-wing, which years earlier helped Schumann fight for his marriage to Clara
+        against the declared will of his teacher Friedrich Wieck, also showed itself in the
+        illness as a resistance that did not surrender without a fight – that resistance
+        reached as far as the open suicide attempt, then tipped into exhaustion.</p>
+        <p class="vb-intro"><strong>c) Music as an outlet until the end:</strong>
+        Even in Endenich, Schumann continued at times to compose and write down music, though
+        on a much reduced scale – the ability to translate inner states directly into music
+        never fully left him, even in his most severe phase.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) An illness without a settled diagnosis:</strong>
+        It remains unclear to this day whether Schumann suffered from bipolar disorder, a
+        schizoaffective illness, or the neurological late effects of a syphilis infection – the
+        symptoms documented in the Endenich medical records allow for several readings, none
+        conclusively proven.</p>
+        <p class="vb-intro"><strong>b) The stress line toward the One:</strong>
+        Under the chronic pressure of his illness, Schumann moved increasingly along his stress
+        line toward the Seven's stress point, the One: instead of the playful lightness of
+        earlier years, his final years showed an almost compulsive self-condemnation,
+        interpreting his own shortcomings as moral failure – typical One patterns, without his
+        core type changing.</p>
+        <p class="vb-intro"><strong>c) An undertow the Eight-wing could no longer withstand:</strong>
+        The intensity that carried Schumann throughout his life – in composing, in the fight
+        for Clara, in his enthusiasm for Brahms – had no built-in brake. When that intensity
+        turned inward, the mechanism that might have caught it was apparently missing.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Framing without determinism:</strong>
+        This does not mean the Sexual Seven's pattern inevitably leads to mental illness –
+        <strong>every person can develop any illness, regardless of subtype.</strong> What
+        Schumann's case can show is a pattern that stands out again and again in practice
+        wherever an unrestrained, boundless capacity for devotion exists – one possible
+        explanation among many, not a verdict. The corresponding condition will be developed
+        step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Schumann's</strong> final years, the Sexual Seven with Eight-wing reveals
+        itself in its most vulnerable form: a capacity for devotion with no brake, which
+        carried his creative life and, in the end, turned against himself, a final, desperate
+        struggle in the icy Rhine, and two years of forced separation from the woman for whom
+        he had once fought the entire world. The chimpanzee that struggled for connection to
+        the very end – and found it once more, two days before his death.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8) – life's work"},
+        {route:"beruehmte-franz-liszt", label:"Portrait: Franz Liszt (SX7w8)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx7", label:"Subtype Profile SX7"},
+      ])}
+    </div>
+  `);
+}
+
 function kriminalpsychologiePage() {
   const allInst = ["SE","SO","SX"];
   const allTyp  = [1,2,3,4,5,6,7,8,9];
@@ -64785,6 +64958,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-konrad-adenauer": konradAdenauerKrankheitsportraetPage,
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
+      "krankheitsportraets-robert-schumann": robertSchumannKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

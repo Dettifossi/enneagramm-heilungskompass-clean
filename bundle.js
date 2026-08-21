@@ -23975,6 +23975,7 @@ const registerEntries = [
   { term: "David Bowie Krankheitsporträt", route: "krankheitsportraets-david-bowie", description: "Portrait: SO1w2 · Sozialer Typ 1 · Leberkrebs, verwandelt in das Album Blackstar" },
   { term: "Wolfgang Amadeus Mozart Krankheitsporträt", route: "krankheitsportraets-wolfgang-amadeus-mozart", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · fieberhafte Erkrankung mit Nierenversagen, Tod mit 35 Jahren" },
   { term: "Karl Lagerfeld Krankheitsporträt", route: "krankheitsportraets-karl-lagerfeld", description: "Portrait: SO3w4 · Sozialer Typ 3 · Krebserkrankung, fast vier Jahre lang geheim gehalten" },
+  { term: "Robert Schumann Krankheitsporträt", route: "krankheitsportraets-robert-schumann", description: "Portrait: SX7w8 · Sexueller Typ 7 · Psychische Erkrankung, Rheinsprung 1854, Tod in der Heilanstalt 1856" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31417,6 +31418,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-konrad-adenauer", name:"Konrad Adenauer", subtyp:"SE1w9", heading:"Konrad Adenauer – Selbsterhaltender Typ 1", krankheit:"Schwere Gesichtsverletzungen durch Autounfall (1917), später Verfolgung und Haft, Tod nach zwei Herzinfarkten und Lungenentzündung (1967)", teaser:"SE1w9 – deutscher Bundeskanzler 1949–1963, 1876–1967. Sein Gesicht wurde 1917 bei einem schweren Autounfall zertrümmert; er formte die Narben zum Ausdruck kontrollierter Autorität um. Zwei Jahrzehnte später Verfolgung und Haft unter den Nationalsozialisten, bis ins hohe Alter bemerkenswert vital." , land:"Deutschland", gender:"m", jahre:"1876–1967"},
   { route:"krankheitsportraets-friedrich-schiller", name:"Friedrich Schiller", subtyp:"SX6w5", heading:"Friedrich Schiller – Sexueller Typ 6", krankheit:"Lungentuberkulose", teaser:"SX6w5 – Dichter, Dramatiker und Historiker, 1759–1805. Seit der Kindheit fragile Konstitution, ab 1791 wiederkehrende lebensbedrohliche Fieber- und Hustenanfälle, vierzehn Jahre kompromissloser Arbeit gegen den eigenen Verfall. Starb 1805 mit 45 Jahren an akuter Lungenentzündung – die Obduktion zeigte einen vollständig zerstörten Lungenflügel." , land:"Deutschland", gender:"m", jahre:"1759–1805"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Sozialer Typ 3", krankheit:"Krebserkrankung (Todesursache offiziell nie bestätigt; laut Assistent Prostatakrebs, diagnostiziert 2015)", teaser:"SO3w4 – Modedesigner und Chanel-Kreativdirektor, 1933–2019. Hielt eine Krebsdiagnose nach übereinstimmenden Berichten fast vier Jahre lang selbst vor engsten Vertrauten geheim und fehlte erst vier Wochen vor seinem Tod erstmals seit 35 Jahren bei einer Chanel-Show." , land:"Deutschland/Frankreich", gender:"m", jahre:"1933–2019"},
+  { route:"krankheitsportraets-robert-schumann", name:"Robert Schumann", subtyp:"SX7w8", heading:"Robert Schumann – Sexueller Typ 7", krankheit:"Psychische Erkrankung (retrospektiv diskutiert: bipolare Störung, schizoaffektive Erkrankung oder neurologische Spätfolge einer Syphilis-Infektion)", teaser:"SX7w8 – Komponist und Musikkritiker, 1810–1856. Sprang 1854 in einem Anfall völliger Verzweiflung in den Rhein, bat danach selbst um Einweisung in eine Heilanstalt bei Bonn und starb dort 1856, weitgehend isoliert von seiner Frau Clara bis kurz vor seinem Tod." , land:"Deutschland", gender:"m", jahre:"1810–1856"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -47919,12 +47921,15 @@ function robertSchumannPortraitPage() {
           <p class="vb-intro">Und doch bleibt die Tragik: Der Mann, der andere so mühelos mitreißen und für sie kämpfen konnte, fand am Ende keinen Weg, sich selbst vor dem eigenen Sog zu retten. Der Schimpanse mit Achterflügel, der um Clara kämpfte und für Brahms brannte, verlor den letzten Kampf gegen sich selbst – und hinterließ eine Musik, die nach wie vor genau diese Spannung zwischen Rausch und Abgrund hörbar macht.</p>
         </blockquote>
 
+        <p class="vb-intro">Der Sprung in den Rhein 1854 und die zwei Jahre in der Heilanstalt bei Bonn werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-robert-schumann">Krankheitsporträt zu Schumann</a> gedeutet.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"krankheitsportraets-robert-schumann", label:"Krankheitsporträt: Robert Schumann (SX7w8)"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5)"},
         {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5)"},
         {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8) – von Schumann entdeckt"},
@@ -70343,6 +70348,180 @@ function albertEinsteinKrankheitsportraetPage() {
         {route:"beruehmte-albert-einstein", label:"Porträt: Albert Einstein (SO5w4) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so5", label:"Subtyp-Profil SO5"},
+      ])}
+    </div>
+  `);
+}
+
+function robertSchumannKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-robert-schumann-portrait.jpg" alt="Robert Schumann" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robert Schumann</p>
+        <p class="krim-portrait-typ">SX7w8 · Sexueller Typ 7 mit Achterflügel · 1810–1856</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Schimpanse</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Tierentsprechung: Schimpanse" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Robert Schumann</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-robert-schumann">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein kompositorisches Lebenswerk und seine
+        Typstruktur im Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur
+        gestreift wird: eine psychische Erkrankung, die sich über sein gesamtes Erwachsenenleben
+        zog und ihn 1854 in den Rhein und in eine Heilanstalt führte, in der er 1856 starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Schumann</strong> ist der <strong>sexuellen Sieben mit Achterflügel</strong>
+        zugeordnet. Die SX7 sucht die volle, ungebremste Hingabe an das, was sie begeistert –
+        an eine Komposition, eine Idee, einen Menschen. Der Achterflügel gibt dieser Hingabe
+        Kampfkraft und Durchsetzungswillen: Wo eine reine Sieben ausweicht, bleibt die SX7w8 und
+        kämpft. Genau diese Intensität, die sein Leben lang schöpferisch trug, wandte sich in
+        seinen letzten Jahren gegen ihn selbst.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein ständiger Ton im Ohr:</strong>
+        Schumann berichtete bereits in jungen Jahren von einem beständigen, hohen Ton, den er
+        innerlich hörte – eine Art chronischer Tinnitus, der ihn zeitlebens begleitete und den
+        er selbst als frühes Anzeichen seiner nervlichen Anfälligkeit deutete.</p>
+        <p class="vb-intro"><strong>b) Die erste schwere Krise 1833:</strong>
+        Nach dem Tod seines Bruders Julius und seiner Schwägerin erlitt der 23-jährige Schumann
+        einen schweren Nervenzusammenbruch mit Todesangst und der wiederkehrenden Furcht, den
+        Verstand zu verlieren – Jahrzehnte bevor die Krankheit ihn endgültig einholte.</p>
+        <p class="vb-intro"><strong>c) Die Hand, die nicht mehr gehorchte:</strong>
+        Um 1832 verlor Schumann durch eine bis heute nicht zweifelsfrei geklärte Verletzung der
+        rechten Hand die Fähigkeit, als Konzertpianist aufzutreten. Ob eine mechanische
+        Übungsapparatur, eine Nervenschädigung oder eine Nebenwirkung damaliger
+        Quecksilberbehandlungen die Ursache war, bleibt bis heute Gegenstand medizinhistorischer
+        Debatten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Extreme Wechsel zwischen Hochform und Erschöpfung:</strong>
+        Schumanns produktivste Phasen – etwa das "Liederjahr" 1840 mit über 140 Kompositionen –
+        wechselten sich mit Phasen tiefer Erschöpfung und Schwermut ab, ein Muster, das
+        Musikhistoriker retrospektiv häufig als Hinweis auf eine bipolare Störung deuten.</p>
+        <p class="vb-intro"><strong>b) Die Doppelfigur als frühe Selbstdiagnose:</strong>
+        Schon in seinen Zwanzigern spaltete Schumann seine Persönlichkeit literarisch in den
+        stürmischen Florestan und den träumerischen Eusebius auf – eine Selbstbeobachtung, die
+        rückblickend wie eine intuitive Beschreibung der eigenen Stimmungsextreme wirkt, lange
+        bevor die Psychiatrie über entsprechende Diagnosekategorien verfügte.</p>
+        <p class="vb-intro"><strong>c) Eine bis heute umstrittene Ursachenfrage:</strong>
+        Neben der bipolaren Störung diskutiert die medizinhistorische Forschung auch eine
+        mögliche Spätfolge einer Syphilis-Infektion als Mitursache seines geistigen Verfalls –
+        eine These, die durch Schumanns eigene Tagebucheinträge über frühere Behandlungen
+        gestützt, aber nie abschließend bewiesen wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Stimmen, die Musik diktierten:</strong>
+        Im Februar 1854 berichtete Schumann, eine engelsgleiche Stimme habe ihm ein musikalisches
+        Thema vorgesungen, das er sofort niederschrieb – wenige Tage später verwandelte sich
+        dieselbe Stimme in seiner Wahrnehmung in eine dämonische, quälende Erscheinung.</p>
+        <p class="vb-intro"><strong>b) Der Sprung in den Rhein:</strong>
+        Am 27. Februar 1854 verließ Schumann in einem Anfall völliger Verzweiflung sein Haus in
+        Düsseldorf, im Nachthemd, und sprang von der Rheinbrücke in den eisigen Fluss. Fischer
+        zogen ihn heraus, kaum am Leben.</p>
+        <p class="vb-intro"><strong>c) Die eigene Bitte um Einweisung:</strong>
+        Kurz nach dem Selbstmordversuch bat Schumann selbst darum, in eine Heilanstalt gebracht
+        zu werden – ein Akt, der noch einen letzten Rest bewusster Selbstkontrolle über eine
+        Situation zeigt, die für ihn längst außer Kontrolle geraten war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Zwei Jahre in der Anstalt bei Bonn:</strong>
+        Schumann verbrachte die letzten gut zwei Jahre seines Lebens in der privaten
+        Heilanstalt des Dr. Franz Richarz in Endenich bei Bonn – weitgehend isoliert von seiner
+        Frau Clara, der die Ärzte lange Zeit jeden Besuch untersagten, aus Sorge, ein
+        Wiedersehen könnte seinen Zustand weiter verschlechtern.</p>
+        <p class="vb-intro"><strong>b) Der junge Brahms als einzige Konstante:</strong>
+        Während Clara ferngehalten wurde, besuchte der 20-jährige Johannes Brahms, den Schumann
+        wenige Monate zuvor als kommenden Meister gefeiert hatte, ihn regelmäßig in Endenich und
+        wurde in dieser Zeit zur engsten Stütze der gesamten Familie.</p>
+        <p class="vb-intro"><strong>c) Ein Wiedersehen erst kurz vor dem Tod:</strong>
+        Erst als sein Zustand unumkehrbar erschien, erlaubten die Ärzte Clara im Juli 1856
+        endlich den Zugang zu ihrem Mann – zwei Tage vor seinem Tod, nach mehr als zwei Jahren
+        erzwungener Trennung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Die Intensität, die sich gegen sich selbst wandte:</strong>
+        Dieselbe schrankenlose Hingabefähigkeit, die Schumanns kreative Schübe trug – ganze
+        Jahre, die ausschließlich einem einzigen Genre gewidmet waren –, richtete sich in der
+        Krise mit derselben Wucht gegen ihn selbst: keine gebremste Traurigkeit, sondern ein
+        Sog ohne erkennbaren Boden.</p>
+        <p class="vb-intro"><strong>b) Kampf bis zur Erschöpfung:</strong>
+        Der Achterflügel, der Schumann Jahre zuvor half, gegen den erklärten Willen seines
+        Lehrers Friedrich Wieck um die Heirat mit Clara zu kämpfen, zeigte sich auch in der
+        Krankheit als Widerstandskraft, die sich nicht kampflos ergab – bis zum offenen
+        Selbstmordversuch reichte diese Gegenwehr, dann kippte sie in die Erschöpfung.</p>
+        <p class="vb-intro"><strong>c) Musik bis zuletzt als Ausdrucksform:</strong>
+        Auch in Endenich componierte und notierte Schumann zeitweise noch, wenn auch in
+        deutlich reduziertem Umfang – die Fähigkeit, innere Zustände unmittelbar in Musik zu
+        übersetzen, verließ ihn selbst in der schwersten Phase nicht vollständig.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit ohne gesicherte Diagnose:</strong>
+        Bis heute ist unklar, ob Schumann an einer bipolaren Störung, einer schizoaffektiven
+        Erkrankung oder den neurologischen Spätfolgen einer Syphilis-Infektion litt – die
+        Symptome, die in den Krankenakten von Endenich dokumentiert sind, lassen mehrere
+        Deutungen zu, keine gilt als abschließend bewiesen.</p>
+        <p class="vb-intro"><strong>b) Die Stresslinie zur Eins:</strong>
+        Unter dem chronischen Druck seiner Krankheit rückte Schumann zunehmend entlang seiner
+        Stresslinie in Richtung des Einser-Punkts der Sieben: Statt der spielerischen Leichtigkeit
+        früherer Jahre zeigte er in den letzten Lebensjahren eine fast zwanghafte
+        Selbstverurteilung, die eigene Unzulänglichkeit als moralisches Versagen zu deuten –
+        typische Einser-Muster, ohne dass sich sein Kerntyp dadurch änderte.</p>
+        <p class="vb-intro"><strong>c) Ein Sog, dem der Achterflügel nicht mehr standhielt:</strong>
+        Die Intensität, die Schumann Zeit seines Lebens trug – im Komponieren, im Kampf um
+        Clara, in der Begeisterung für Brahms –, kannte keine eingebaute Bremse. Wenn sich diese
+        Intensität nach innen richtete, fehlte offenbar der Mechanismus, der sie hätte
+        auffangen können.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Sieben zwangsläufig zu psychischer
+        Erkrankung führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Schumanns Fall zeigen lässt, ist ein Muster, das bei
+        ungebremster, grenzenloser Hingabefähigkeit in der Praxis immer wieder auffällt – eine
+        von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Schumanns</strong> letzten Jahren lässt sich die sexuelle Sieben mit
+        Achterflügel in ihrer verletzlichsten Form ablesen: eine Hingabefähigkeit ohne Bremse,
+        die sein Leben lang schöpferisch trug und sich am Ende gegen ihn selbst wandte, ein
+        letzter, verzweifelter Kampf im eisigen Rhein, und zwei Jahre erzwungener Trennung von
+        der Frau, für die er einst gegen die ganze Welt gekämpft hatte. Der Schimpanse, der bis
+        zuletzt um Verbindung rang – und sie erst zwei Tage vor seinem Tod noch einmal fand.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-robert-schumann", label:"Porträt: Robert Schumann (SX7w8) – Lebenswerk"},
+        {route:"beruehmte-franz-liszt", label:"Porträt: Franz Liszt (SX7w8)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
       ])}
     </div>
   `);
@@ -99372,6 +99551,7 @@ function render() {
       "krankheitsportraets-konrad-adenauer": konradAdenauerKrankheitsportraetPage,
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
+      "krankheitsportraets-robert-schumann": robertSchumannKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
