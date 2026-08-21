@@ -95380,7 +95380,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen – Rückzug oder Ruhebedürfnis werden als Angriffsfläche erlebt, nicht als legitimes Bedürfnis. Das Herz läuft dauerhaft auf Hochspannung, weil Herunterschalten im inneren Selbstbild keinen Platz hat." },
           { code: "SO8", text: "Die soziale Acht übernimmt Kontrolle über die Gruppe, oft in einer Beschützerrolle: „Niemand in meinem Umfeld darf schwach sein.“ Verantwortungsdruck und permanente Führungsspannung sind hier der zentrale Belastungsfaktor." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, ohne Halbes. Die Belastung zeigt sich in extremen emotionalen und körperlichen Ausschlägen statt in gleichmäßiger Dauerspannung." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes. Die Belastung zeigt sich in extremen emotionalen und körperlichen Ausschlägen statt in gleichmäßiger Dauerspannung." },
         ],
       },
       {
@@ -95473,7 +95473,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen – Ruhebedürfnis wird als Angriffsfläche erlebt, nicht als legitimes Bedürfnis. Das System läuft dauerhaft auf Hochspannung, weil Herunterschalten im inneren Selbstbild keinen Platz hat." },
           { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung und Führung für die Gruppe, oft in einer Beschützerrolle – permanente Führungsspannung und die Überzeugung, niemals schwach sein zu dürfen, sind hier der zentrale, über Jahre wirkende Belastungsfaktor." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, ohne Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger Dauerverhärtung." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger Dauerverhärtung." },
         ],
       },
       {
@@ -95566,7 +95566,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen – Ruhebedürfnis wird als Angriffsfläche erlebt, nicht als legitimes Bedürfnis. Das System läuft dauerhaft auf Hochspannung, weil Herunterschalten im inneren Selbstbild keinen Platz hat." },
           { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung und Führung für die Gruppe, oft in einer Beschützerrolle – permanente Führungsspannung und die Überzeugung, niemals schwach sein zu dürfen, sind hier der zentrale, über Jahre wirkende Belastungsfaktor." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, ohne Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger Dauerspannung." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger Dauerspannung." },
         ],
       },
       {
