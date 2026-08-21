@@ -69692,8 +69692,8 @@ function marilynMonroeKrankheitsportraetPage() {
         <p class="vb-intro"><strong>c) Eine belastete familiäre Vorgeschichte:</strong>
         Monroes Mutter litt an paranoider Schizophrenie, ihr Großvater mütterlicherseits
         starb an einer Spätfolge einer unbehandelten Syphilis-Infektion in einer Anstalt –
-        Monroe selbst fürchtete zeitlebens, psychische Erkrankung sei in ihrer Familie
-        "verflucht".</p>
+        Monroe selbst fürchtete zeitlebens, wie ein Fluch liege psychische Erkrankung über
+        ihrer Familie.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
