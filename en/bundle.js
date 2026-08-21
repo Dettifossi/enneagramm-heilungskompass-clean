@@ -44434,7 +44434,17 @@ function elizabethBarrettBrowningKrankheitsportraetPage() {
         Nine already pursues psychologically – a substance that does not counteract the underlying
         pattern but amplifies it. This interpretation is explored further in this Compass's
         Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) A classification without determinism:</strong>
+        <p class="vb-intro"><strong>d) The stress-point remedy, given to a Nine:</strong>
+        From the perspective of Enneagram homeopathy as used in this Compass, opium (poppy) is
+        the homeopathic remedy for Type 6 – the Nine's stress point. A homeopathic stress-point
+        remedy is never neutral for another type: it reinforces exactly the pattern a person
+        slides into under strain in the first place – for the Nine, that is passivity,
+        drowsiness, unconsciousness toward one's own life. For decades, medically justified as a
+        painkiller, Barrett Browning received precisely the remedy that did not resolve her own
+        emergency pattern but chemically deepened it – from an Enneagram-homeopathic perspective a
+        strikingly unfortunate choice, even though the medicine of her time naturally had no way
+        of knowing this correspondence.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) A classification without determinism:</strong>
         This does not mean that the Sexual Nine pattern inevitably leads to dependency disorders –
         <strong>anyone can develop any illness, regardless of subtype.</strong> What Barrett
         Browning's case illustrates is a pattern that recurs in practice with deep fusion
