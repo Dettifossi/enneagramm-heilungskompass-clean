@@ -39257,7 +39257,7 @@ function freudKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Freud</strong> embodies the social Six with Five-wing right into his own
+        In <strong>Freud</strong>, the social Six with Five-wing shows itself right into his own
         illness: mental clarity as the highest good, loyalty to his cause placed above his
         own needs, and even facing death, still the wish to retain control rather than
         surrender to uncertainty. Where Molière suppressed his illness until his body forced
@@ -39698,7 +39698,7 @@ function marieCurieKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Curie</strong> embodies the Self-Preservation Five with Six-wing right down
+        <strong>Curie</strong> shows the Self-Preservation Five with Six-wing right down
         into her own illness history: radical frugality, a refuge built of knowledge and
         competence, and loyalty to her cause that outweighed every warning sign from her own
         body. The owl, which sees in the dark what others overlook, ended up overlooking the
@@ -39879,8 +39879,8 @@ function charlesDarwinKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Darwin</strong> embodies the Self-Preservation Five with Six-wing right down
-        into his own illness history: a life radically reduced to the essential, a body that
+        The Self-Preservation Five with Six-wing runs right down into <strong>Darwin's</strong>
+        own illness history: a life radically reduced to the essential, a body that
         forced exactly the withdrawal the Castle demanded anyway, and a caution that, for
         twenty years, endangered even his own credit as discoverer. The owl that waited
         patiently until its insight was unassailable also had to learn to live with a body
@@ -40054,7 +40054,7 @@ function winstonChurchillKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Churchill</strong> embodies the Self-Preservation Eight with Nine-wing right
+        <strong>Churchill</strong> lived the Self-Preservation Eight with Nine-wing right
         down into his own illness history: a lifelong refusal to show weakness, complete
         control over his own public image, and a stroke he fought with the same unbending
         will that made him a symbol of resistance in 1940. The orangutan who stayed on the
@@ -40253,7 +40253,7 @@ function gustavMahlerKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Mahler</strong> embodies the Social Four with Five-wing right down into his
+        The Social Four with Five-wing shapes <strong>Mahler's</strong> life right down into his
         own illness history: existential suffering not concealed but transformed into
         monumental, all-encompassing art, and a heart that had spent decades translating
         longing and loss into music before it became the final, most urgent subject of his
@@ -40430,7 +40430,7 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Ginsburg</strong> embodies the Sexual Eight with Nine-wing right down into her
+        <strong>Ginsburg</strong> carried the Sexual Eight with Nine-wing right down into her
         own illness history: four cancers, four returns to the bench, and a refusal to give up
         her own territory that was directed as much against political pressure as against her
         own, repeatedly ill body. The crocodile, who waits patiently and then strikes with
@@ -40609,7 +40609,7 @@ function friedrichNietzscheKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Nietzsche</strong> embodies the Sexual Five with Four-wing right down into his
+        The Sexual Five with Four-wing shows itself in <strong>Nietzsche</strong> right down into his
         own illness history: radical concentration of his own strength on a single work, an
         isolation that was precondition rather than deficiency, and a collapse that struck
         exactly the one organ through which he had ever communicated with the world. The hedgehog
@@ -40786,7 +40786,7 @@ function fjodorDostojewskiKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Dostoevsky</strong> embodies the Self-Preservation Six with Five-wing right
+        <strong>Dostoevsky</strong> stands for the Self-Preservation Six with Five-wing right
         down into his own illness history: a lifelong condition he did not hide but brought
         into language in his most significant works, and an aura that promised, in a fraction
         of a second, exactly the absolute safety his whole life was searching for – only to
@@ -40958,7 +40958,7 @@ function franzKafkaKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Kafka</strong> embodies the Self-Preservation Five with Four-wing right down
+        In <strong>Kafka</strong>, the Self-Preservation Five with Four-wing continues right
         into his own illness history: a withdrawal that became a way of life, a suffering he
         never separated from his work, and an illness that took from him exactly the organ he
         might have used to make himself understood to the world – while his characters had
@@ -41137,7 +41137,7 @@ function ronaldReaganKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Reagan</strong> embodies the Social Nine with Eight-wing right down into his
+        <strong>Reagan</strong> stands for the Social Nine with Eight-wing right down into his
         own illness history: a public, courageous disclosure of his own diagnosis, a peaceful
         withdrawal instead of a fight, and an illness that dissolved exactly the ability his
         entire life's work rested on – experiencing connection to others as part of his own
@@ -41309,8 +41309,8 @@ function davidBowieKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Bowie</strong> embodies the Social One with Two-wing right down into his own
-        illness history: a diagnosis he did not state directly but transformed into his final,
+        The Social One with Two-wing reaches, in <strong>Bowie's</strong> case, right down into his
+        own illness history: a diagnosis he did not state directly but transformed into his final,
         artfully shaped work, and a dying he staged himself until the very last day, rather
         than leaving it to chance. The goose who called for the formation of others her whole
         life opened, with her final call, one more space no one had entered before – the space
@@ -41480,7 +41480,7 @@ function wolfgangAmadeusMozartKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Mozart</strong> embodies the Self-Preservation Two with Three-wing right down
+        <strong>Mozart</strong> carried the Self-Preservation Two with Three-wing right down
         into his own illness history: a constitution that ran feverish and never fully found
         rest from childhood on, which he overcame for a lifetime through sheer endurance and
         tireless work – until his own body could no longer summon further effort in December
@@ -41652,7 +41652,7 @@ function karlLagerfeldKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Lagerfeld</strong> embodies the Social Three with Four-wing right down into his
+        In <strong>Lagerfeld</strong>, the Social Three with Four-wing runs right down into his
         own illness history: a diagnosis apparently kept secret for nearly four years even
         from his own family, a public image kept flawlessly intact save for a single exception
         four weeks before his death, and a cause of death never officially confirmed to this
@@ -41828,7 +41828,7 @@ function friedrichSchillerKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Schiller</strong> embodies the Sexual Six with Five-wing right down into his
+        <strong>Schiller's</strong> Sexual Six with Five-wing reaches right down into his
         own illness history: a fragile constitution since childhood, a germ likely contracted
         during his medical studies, and fourteen years of uncompromising work against an
         increasingly destroyed body, until on May 9, 1805, literally no further resistance was
@@ -42005,7 +42005,7 @@ function konradAdenauerKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Adenauer</strong> embodies the Self-Preservation One with Nine-wing right down
+        The Self-Preservation One with Nine-wing shapes <strong>Adenauer's</strong> life right down
         into his own history of injury and persecution: a face shattered in 1917 that he
         turned into an expression of controlled authority, persecution and imprisonment two
         decades later that he met with the same outward composure, and a body that remained
@@ -42175,8 +42175,8 @@ function johannSebastianBachKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Bach</strong> embodies the Sexual One with Nine-wing right down into his own
-        illness history: an organ he already risked as a child and used, as an adult, right
+        The Sexual One with Nine-wing shows itself in <strong>Bach</strong> right down into his
+        own illness history: an organ he already risked as a child and used, as an adult, right
         up to complete blindness, two risky operations he underwent calmly and without
         public fuss, and a death four months later whose exact cause remains a subject of
         research to this day. The black mamba that kept composing even in the dark –
@@ -42347,7 +42347,7 @@ function napoleonBonaparteKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Napoleon</strong> embodies the Social Two with Three-wing right down into his
+        <strong>Napoleon</strong> lived the Social Two with Three-wing right down into his
         own illness history: decades of accepted stomach ailments, a disputed but symbolic
         episode at Waterloo, and a death in 1821 that echoed his father's fate almost exactly.
         The Golden Retriever who mobilized entire armies, until his own body became the last,
@@ -42505,8 +42505,8 @@ function elvisPresleyKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Elvis</strong> embodies the Sexual Two with Three-wing right down into his own
-        illness history: a decade-long escalating drug dependency, a body that had to keep
+        In <strong>Elvis</strong>, the Sexual Two with Three-wing continues right down into his
+        own illness history: a decade-long escalating drug dependency, a body that had to keep
         functioning on stage for an audience to the very end, and a death in 1977 whose exact
         cause is still debated today. The camel that spent its last strength on the one great
         bond it was never willing to give up.</p>
@@ -42672,7 +42672,7 @@ function oshoKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Osho</strong> embodies the Self-Preservation Three with Four-wing right down
+        <strong>Osho's</strong> Self-Preservation Three with Four-wing reaches right down
         into his own illness history: chronic ailments spanning decades, a dramatic rupture
         through detention and an alleged poisoning, and a death in 1990 whose cause still
         shifts between three competing narratives. The raccoon that never surrendered

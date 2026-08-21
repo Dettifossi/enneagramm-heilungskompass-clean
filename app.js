@@ -66023,7 +66023,7 @@ function freudKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Freud</strong> verkörpert die soziale Sechs mit Fünferflügel bis in die
+        Bei <strong>Freud</strong> zeigt sich die soziale Sechs mit Fünferflügel bis in die
         eigene Krankheitsgeschichte hinein: geistige Klarheit als höchstes Gut, Loyalität zur
         eigenen Sache über die eigenen Bedürfnisse gestellt, und selbst im Angesicht des
         Todes noch der Wunsch, die Kontrolle zu behalten statt sich dem Ungewissen zu
@@ -66487,7 +66487,7 @@ function marieCurieKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Curie</strong> verkörpert die selbsterhaltende Fünf mit Sechserflügel bis in die
+        <strong>Curie</strong> zeigt die selbsterhaltende Fünf mit Sechserflügel bis in die
         eigene Krankheitsgeschichte hinein: radikale Genügsamkeit, ein Refugium aus Wissen und
         Kompetenz, und eine Loyalität zur eigenen Sache, die stärker wog als jedes Warnsignal
         des eigenen Körpers. Die Eule, die im Dunkeln sieht, was andere übersehen, übersah am
@@ -66678,8 +66678,8 @@ function charlesDarwinKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Darwin</strong> verkörpert die selbsterhaltende Fünf mit Sechserflügel bis in
-        die eigene Krankheitsgeschichte hinein: ein Leben, radikal reduziert auf das
+        In <strong>Darwins</strong> Leben reicht die selbsterhaltende Fünf mit Sechserflügel bis
+        in die eigene Krankheitsgeschichte hinein: ein Leben, radikal reduziert auf das
         Wesentliche, ein Körper, der genau jenen Rückzug erzwang, den die Burg ohnehin
         verlangte, und eine Vorsicht, die zwanzig Jahre lang selbst die eigene Urheberschaft
         gefährdete. Die Eule, die geduldig wartete, bis ihre Erkenntnis unangreifbar war,
@@ -66863,7 +66863,7 @@ function winstonChurchillKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Churchill</strong> verkörpert die selbsterhaltende Acht mit Neunerflügel bis
+        <strong>Churchill</strong> lebte die selbsterhaltende Acht mit Neunerflügel bis
         in die eigene Krankheitsgeschichte hinein: eine lebenslange Weigerung, Schwäche zu
         zeigen, eine vollständige Kontrolle über das eigene öffentliche Bild und ein
         Schlaganfall, den er mit derselben Unbeugsamkeit bekämpfte, die ihn 1940 zum Symbol
@@ -67072,7 +67072,7 @@ function gustavMahlerKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Mahler</strong> verkörpert die soziale Vier mit Fünferflügel bis in die eigene
+        Die soziale Vier mit Fünferflügel prägt <strong>Mahlers</strong> Leben bis in die eigene
         Krankheitsgeschichte hinein: existenzielles Leid, das nicht verborgen, sondern in
         monumentale, alles umfassende Kunst verwandelt wird, und ein Herz, das jahrzehntelang
         Sehnsucht und Verlust in Musik übersetzt hatte, bevor es selbst zum letzten,
@@ -67256,7 +67256,7 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Ginsburg</strong> verkörpert die sexuelle Acht mit Neunerflügel bis in die
+        <strong>Ginsburg</strong> trug die sexuelle Acht mit Neunerflügel bis in die
         eigene Krankheitsgeschichte hinein: vier Krebserkrankungen, vier Rückkehrungen ins Amt,
         und eine Weigerung, das eigene Territorium aufzugeben, die sich gegen politischen Druck
         ebenso richtete wie gegen den eigenen, wiederholt erkrankten Körper. Das Krokodil, das
@@ -67441,7 +67441,7 @@ function friedrichNietzscheKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Nietzsche</strong> verkörpert die sexuelle Fünf mit Viererflügel bis in die
+        Die sexuelle Fünf mit Viererflügel zeigt sich bei <strong>Nietzsche</strong> bis in die
         eigene Krankheitsgeschichte hinein: radikale Konzentration der eigenen Kraft auf ein
         einziges Werk, eine Isolation, die Voraussetzung statt Mangel war, und ein
         Zusammenbruch, der ausgerechnet das einzige Organ traf, über das er sich der Welt
@@ -67629,7 +67629,7 @@ function fjodorDostojewskiKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Dostojewski</strong> verkörpert die selbsterhaltende Sechs mit Fünferflügel bis
+        <strong>Dostojewski</strong> steht für die selbsterhaltende Sechs mit Fünferflügel bis
         in die eigene Krankheitsgeschichte hinein: eine lebenslange Erkrankung, die er nicht
         verbarg, sondern in seinen bedeutendsten Werken zur Sprache brachte, und eine Aura, die
         in Sekundenbruchteilen genau jene absolute Sicherheit versprach, nach der sein ganzes
@@ -67812,8 +67812,8 @@ function franzKafkaKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Kafka</strong> verkörpert die selbsterhaltende Fünf mit Viererflügel bis in die
-        eigene Krankheitsgeschichte hinein: ein Rückzug, der zur Lebensform wurde, ein Leiden,
+        Bei <strong>Kafka</strong> setzt sich die selbsterhaltende Fünf mit Viererflügel bis in die
+        eigene Krankheitsgeschichte fort: ein Rückzug, der zur Lebensform wurde, ein Leiden,
         das er nie von seinem Werk trennte, und eine Krankheit, die ihm ausgerechnet jenes
         Organ nahm, mit dem er sich der Welt hätte verständlich machen können – während seine
         Figuren genau dasselbe Schicksal literarisch vorweggenommen hatten. Die Eule, die im
@@ -67998,7 +67998,7 @@ function ronaldReaganKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Reagan</strong> verkörpert die soziale Neun mit Achterflügel bis in die eigene
+        <strong>Reagan</strong> steht für die soziale Neun mit Achterflügel bis in die eigene
         Krankheitsgeschichte hinein: eine öffentliche, mutige Offenlegung der eigenen Diagnose,
         ein friedlicher Rückzug statt eines Kampfes, und eine Krankheit, die ausgerechnet jene
         Fähigkeit auflöste, auf der sein gesamtes Lebenswerk beruhte – die Verbindung zu
@@ -68182,7 +68182,7 @@ function davidBowieKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Bowie</strong> verkörpert die soziale Eins mit Zweierflügel bis in die eigene
+        Die soziale Eins mit Zweierflügel reicht bei <strong>Bowie</strong> bis in die eigene
         Krankheitsgeschichte hinein: eine Diagnose, die er nicht direkt aussprach, sondern in
         sein letztes, kunstvoll geformtes Werk verwandelte, und ein Sterben, das er bis zum
         letzten Tag selbst inszenierte, statt es dem Zufall zu überlassen. Die Gans, die ihr
@@ -68359,7 +68359,7 @@ function wolfgangAmadeusMozartKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Mozart</strong> verkörpert die selbsterhaltende Zwei mit Dreierflügel bis in
+        <strong>Mozart</strong> trägt die selbsterhaltende Zwei mit Dreierflügel bis in
         die eigene Krankheitsgeschichte hinein: eine von Kindheit an fiebernde, nie ganz zur
         Ruhe kommende Konstitution, die er ein Leben lang durch schiere Ausdauer und
         unermüdliche Arbeit überspielte – bis der eigene Körper im Dezember 1791 keine weitere
@@ -68535,7 +68535,7 @@ function karlLagerfeldKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Lagerfeld</strong> verkörpert die soziale Drei mit Viererflügel bis in die
+        Bei <strong>Lagerfeld</strong> zieht sich die soziale Drei mit Viererflügel bis in die
         eigene Krankheitsgeschichte hinein: eine Diagnose, die vermutlich fast vier Jahre lang
         selbst vor der eigenen Familie verborgen blieb, ein öffentliches Bild, das bis auf
         eine einzige Ausnahme vier Wochen vor dem Tod makellos intakt gehalten wurde, und eine
@@ -68721,7 +68721,7 @@ function friedrichSchillerKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Schiller</strong> verkörpert die sexuelle Sechs mit Fünferflügel bis in die
+        <strong>Schillers</strong> sexuelle Sechs mit Fünferflügel reicht bis in die
         eigene Krankheitsgeschichte hinein: eine seit der Kindheit fragile Konstitution, ein
         wahrscheinlich im Medizinstudium erworbener Krankheitskeim und vierzehn Jahre
         kompromissloser Arbeit gegen einen zunehmend zerstörten Körper, bis am 9. Mai 1805
@@ -68905,7 +68905,7 @@ function konradAdenauerKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Adenauer</strong> verkörpert die selbsterhaltende Eins mit Neunerflügel bis in
+        Die selbsterhaltende Eins mit Neunerflügel prägt <strong>Adenauers</strong> Leben bis in
         die eigene Verletzungs- und Verfolgungsgeschichte hinein: ein 1917 zertrümmertes
         Gesicht, das er zum Ausdruck kontrollierter Autorität umformte, zwei Jahrzehnte
         später Verfolgung und Haft, denen er mit derselben äußeren Fassung begegnete, und ein
@@ -69082,7 +69082,7 @@ function johannSebastianBachKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Bach</strong> verkörpert den sexuellen Typ 1 mit Neunerflügel bis in die
+        Der sexuelle Typ 1 mit Neunerflügel zeigt sich bei <strong>Bach</strong> bis in die
         eigene Krankheitsgeschichte hinein: ein Organ, das er als Kind schon riskierte und
         als Erwachsener bis zur vollständigen Erblindung beanspruchte, zwei riskante
         Operationen, denen er sich ruhig und ohne öffentliches Aufsehen unterzog, und ein Tod
@@ -69263,7 +69263,7 @@ function napoleonBonaparteKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Napoleon</strong> verkörpert den sozialen Typ 2 mit Dreierflügel bis in die
+        <strong>Napoleon</strong> lebte den sozialen Typ 2 mit Dreierflügel bis in die
         eigene Krankheitsgeschichte hinein: über Jahrzehnte hingenommene Magenbeschwerden,
         eine umstrittene, aber sinnbildliche Episode bei Waterloo, und ein Tod 1821, der
         exakt das familiäre Muster seines Vaters wiederholte. Der Golden Retriever, der
@@ -69431,8 +69431,8 @@ function elvisPresleyKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Elvis</strong> verkörpert den sexuellen Typ 2 mit Dreierflügel bis in die
-        eigene Krankheitsgeschichte hinein: eine über ein Jahrzehnt eskalierende
+        Bei <strong>Elvis</strong> setzt sich der sexuelle Typ 2 mit Dreierflügel bis in die
+        eigene Krankheitsgeschichte fort: eine über ein Jahrzehnt eskalierende
         Medikamentenabhängigkeit, ein Körper, der auf der Bühne bis zuletzt für ein
         Publikum funktionieren musste, und ein Tod 1977, dessen genaue Ursache bis heute
         diskutiert wird. Das Kamel, das seine letzte Kraft für die eine große Verbindung
@@ -69602,7 +69602,7 @@ function oshoKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Osho</strong> verkörpert die selbsterhaltende Drei mit Viererflügel bis in die
+        <strong>Oshos</strong> selbsterhaltende Drei mit Viererflügel reicht bis in die
         eigene Krankheitsgeschichte hinein: chronische Beschwerden über Jahrzehnte, eine
         dramatische Zäsur durch Haft und behauptete Vergiftung, und ein Tod 1990, dessen
         Ursache bis heute zwischen drei konkurrierenden Erzählungen schwankt. Der Waschbär,
