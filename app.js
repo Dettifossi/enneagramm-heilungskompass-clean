@@ -95673,6 +95673,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Herzinsuffizienz gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit der eigenen Erschöpfung und Kraftregulation verhandelt – manche über Dauereinsatz und Kontrolle, andere über Rückzug, stilles Geben oder ein nie gehörtes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  vorhofflimmern: {
+    titel: "Vorhofflimmern",
+    kategorie: "herz-kreislauf",
+    icon: "&#128163;",
+    kurz: "Wenn der eigene Takt verloren geht und an seine Stelle chaotisches Zittern tritt.",
+    definition: "Vorhofflimmern ist die häufigste anhaltende Herzrhythmusstörung: Statt in einem geordneten Takt ziehen sich die Vorhöfe des Herzens chaotisch und viel zu schnell zusammen – bis zu 350- bis 600-mal pro Minute, ohne wirksame Pumpfunktion. Die Herzkammern übernehmen dabei nur einen Teil dieser unregelmäßigen elektrischen Signale, was sich als unregelmäßiger, oft zu schneller Puls bemerkbar macht. Vorhofflimmern kann anfallsartig (paroxysmal, mit spontaner Rückkehr zum normalen Rhythmus), anhaltend (persistierend) oder dauerhaft (permanent) auftreten. Begünstigt wird es unter anderem durch Bluthochdruck, Herzklappenerkrankungen, Schilddrüsenüberfunktion, Schlafapnoe, Alkohol und fortschreitendes Alter. Die größte Gefahr liegt in der Bildung von Blutgerinnseln in den nicht mehr wirksam pumpenden Vorhöfen, die einen Schlaganfall auslösen können.",
+    symptome: [
+      "Herzstolpern, spürbares Herzrasen oder ein unregelmäßiger, „flatternder“ Herzschlag",
+      "Manchmal völlig symptomfrei – Vorhofflimmern wird dann zufällig bei einer Untersuchung entdeckt",
+      "Plötzlich einsetzende Erschöpfung, Schwäche oder verminderte Belastbarkeit",
+      "Schwindel, Benommenheit, gelegentlich Kurzatmigkeit",
+      "Engegefühl oder leichter Druck in der Brust",
+      "Innere Unruhe oder Angst, die mit dem spürbaren, unregelmäßigen Herzschlag einhergeht",
+    ],
+    notfall: "Bei plötzlich einsetzendem, sehr schnellem und unregelmäßigem Herzschlag in Verbindung mit starkem Schwindel, Ohnmacht, starken Brustschmerzen oder Anzeichen eines Schlaganfalls (z. B. plötzliche Sprach-, Seh- oder Bewegungsstörungen): sofort den Notruf 112 wählen. Vorhofflimmern selbst ist meist kein akuter Notfall, kann aber einen Schlaganfall auslösen oder mit einem gleichzeitigen Notfall einhergehen – im Zweifel immer ärztlichen Rat einholen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Der Name selbst trägt die psychosomatische Deutung schon in sich: ein &bdquo;Flimmern&ldquo; statt eines geordneten Schlags, ein Verlust des eigenen Rhythmus zugunsten eines chaotischen, viel zu schnellen Zitterns. Die Traditionelle Chinesische Medizin ordnet unregelmäßige Herzrhythmen häufig einer Störung des Herz-Shen zu – des Geistes, der im Herzen wohnt und für innere Ruhe, Klarheit und geordnete Gedanken zuständig ist. Gerät der Shen durch zu viele gleichzeitige Reize, Sorgen oder emotionale Überforderung aus dem Gleichgewicht, verliert auch der Herzschlag seinen ruhigen Takt. Die Psychosomatik liest Vorhofflimmern deshalb oft als Bild eines Lebens, das seinen eigenen, verlässlichen Rhythmus verloren hat – überreizt, zersplittert oder von zu vielen Impulsen gleichzeitig beansprucht.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der den Takt durcheinanderbringt, sobald die Kontrolle kippt",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger über Jahre streng unter Kontrolle – ein straff getakteter, disziplinierter Rhythmus, der keine Abweichung duldet. Bricht diese Kontrolle irgendwann punktuell zusammen, entsteht psychosomatisch ein plausibles Bild für einen Takt, der abrupt ins Chaos kippt, statt sich geordnet zu entladen." },
+          { code: "SO1", text: "Die soziale Eins investiert fortlaufend Energie in die moralische Verbesserung der Gruppe – viele parallele Anliegen und ein ständiges Gefühl, dass etwas korrigiert werden muss, können den eigenen inneren Takt zersplittern." },
+          { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter in der Beziehung aus – episodische, intensive Ausbrüche stören den Rhythmus punktuell, statt ihn dauerhaft zu zersplittern." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der sich um zu viele gleichzeitig kümmert",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei gibt still und unauffällig, oft an mehrere Menschen gleichzeitig, ohne je Rückmeldung über die eigene Belastung zu geben. Dieses gleichzeitige, nie synchronisierte Geben in viele Richtungen kann sich psychosomatisch als ein Herz lesen lassen, das keinen einheitlichen Takt mehr findet." },
+          { code: "SO2", text: "Die soziale Zwei ist für die gesamte Gemeinschaft verfügbar – die Vielzahl gleichzeitiger Bedürfnisse, auf die sie reagiert, erzeugt eine innere Zersplitterung, die dem eigenen Rhythmus wenig Raum lässt." },
+          { code: "SX2", text: "Die sexuelle Zwei konzentriert ihr Geben auf die eine Beziehung – die emotionale Volatilität und Eifersucht erzeugen dabei eher intensive, episodische Ausschläge als eine dauerhafte Zersplitterung." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die zu viele Baustellen gleichzeitig verwaltet",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet still und effizient an mehreren Zielen zugleich, oft ohne bewusste Pausen zwischen den Aufgaben. Dieses parallele Abarbeiten verschiedenster Anforderungen ohne festen Rhythmus passt zum Bild eines Taktes, der sich in viele gleichzeitige, unkoordinierte Impulse auflöst." },
+          { code: "SO3", text: "Die soziale Drei jongliert öffentliche Sichtbarkeit, Wettbewerb und Anerkennung gleichzeitig – ein Leben in ständigem Vergleich, das kaum einen ruhigen, eigenen Takt kennt." },
+          { code: "SX3", text: "Die sexuelle Drei setzt permanente Selbstoptimierung im Beziehungskontext ein – der Druck, in vielen Rollen gleichzeitig zu überzeugen, kann zu einem inneren Gefühl der Zersplitterung führen." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die zwischen Zuständen hin und her wechselt",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt wechselnde innere Zustände zäh und nach außen kaum sichtbar – ein rasches, unsichtbares Wechseln zwischen Stimmungen, das sich als innere Unruhe ohne festen Takt manifestieren kann." },
+          { code: "SO4", text: "Die soziale Vier lebt ihre wechselnden Stimmungen sichtbar aus – die Intensität findet zumindest ein Ventil nach außen, statt sich rein innerlich zu zersplittern." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose, rasch wechselnde emotionale Intensität – ein Auf und Ab, das dem Bild eines Herzens nahekommt, das zwischen Zuständen flackert, statt einen ruhigen Takt zu halten." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der innere Reizüberflutung verbirgt",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück, um äußere Reize zu minimieren – doch innerlich können sich Gedanken und Eindrücke unbemerkt weiter aufstauen und in unregelmäßigen Schüben Anspannung erzeugen." },
+          { code: "SO5", text: "Die soziale Fünf sammelt Wissen aus vielen Quellen gleichzeitig, hält aber innerlich Distanz – eine Fülle an gleichzeitig verarbeiteten Eindrücken, die selten zur Ruhe kommt." },
+          { code: "SX5", text: "Die sexuelle Fünf konzentriert sich intensiv auf sehr wenige Menschen – eine schmale, aber ruhigere Verbindung, die weniger Zersplitterung erzeugt als die anderen Fünfer-Varianten." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die den Kopf nie zur Ruhe kommen lässt",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger, oft unbewusster Alarmbereitschaft, die Gedanken kreisen um mögliche Gefahren – ein ruheloser, sich selbst antreibender innerer Zustand, der plausibel mit einem aus dem Takt geratenen Rhythmus in Verbindung gebracht werden kann." },
+          { code: "SO6", text: "Die soziale Sechs sorgt sich fortlaufend um das Kollektiv und dessen Sicherheit – viele parallele Sorgen um andere Menschen erzeugen eine innere Zersplitterung, die selten offen benannt wird." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Grübeln – dadurch eher episodische Anspannungsspitzen als eine dauerhafte innere Zerstreutheit." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die zu viele Reize gleichzeitig sucht",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über viele parallele Optionen und Projekte ab – ein Leben, das bewusst auf Vielfalt und Zerstreuung setzt, passt besonders unmittelbar zum Bild eines Rhythmus, der sich in zu viele gleichzeitige Impulse auflöst." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – die eigene innere Zerstreutheit wird dabei oft lange nicht wahrgenommen." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv, „alles, sofort“ – Koffein, Alkohol oder andere anregende Genussmittel gelten medizinisch als anerkannte, gut belegte Auslöser von Vorhofflimmern, unabhängig von der inneren Anspannung selbst." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die bei plötzlichem Kippen ins Chaos umschlägt",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht hält die Kontrolle über materielle und körperliche Ressourcen straff aufrecht – gerät dieses System an seine Grenzen, kann der plötzliche Kontrollverlust psychosomatisch als abruptes Umschlagen von geordnetem Takt in Chaos gelesen werden." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Führungsspannung für die Gruppe – viele gleichzeitige Verantwortlichkeiten erzeugen einen inneren Zustand, der selten wirklich zur Ruhe kommt." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich in extremen, episodischen Ausschlägen statt in gleichmäßiger Dauerspannung." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, deren eigener Takt nie gefunden wurde",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und Routine – nach außen wirkt vieles ruhig, doch die über Jahrzehnte fortgesetzte Selbstvergessenheit bedeutet auch: der eigene, authentische Lebensrhythmus wurde nie wirklich gefunden, sondern durch fremdbestimmte Routinen ersetzt." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – eine chronische Selbstauslöschung, bei der der eigene innere Takt permanent dem der Gemeinschaft weicht." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Herzens, das nie zu seinem eigenen, unabhängigen Takt gefunden hat." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor Vorhofflimmern gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit dem eigenen inneren Rhythmus verhandelt – manche über straffe Kontrolle, die irgendwann kippt, andere über Zerstreuung, Reizüberflutung oder einen nie gefundenen eigenen Takt. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -95681,7 +95774,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // (Definition, Notfall-Hinweis falls zutreffend, Disclaimer, alle 27 Subtypen). Bis dahin
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["Schlaganfall", "Vorhofflimmern", "Koronare Herzkrankheit / Angina Pectoris", "Krampfadern (Varikose)", "Thrombose", "Niedriger Blutdruck (Hypotonie)"],
+  "herz-kreislauf": ["Schlaganfall", "Koronare Herzkrankheit / Angina Pectoris", "Krampfadern (Varikose)", "Thrombose", "Niedriger Blutdruck (Hypotonie)"],
   "bewegungsapparat": ["Rückenschmerzen / Bandscheibenvorfall", "Arthrose", "Rheumatoide Arthritis", "Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
