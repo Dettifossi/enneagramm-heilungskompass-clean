@@ -95332,7 +95332,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Die selbsterhaltende Zwei lebt den Satz „Ich brauche niemanden“ am wörtlichsten von allen drei Varianten: Sie sorgt praktisch, unauffällig, oft im engsten familiären Kreis – kocht, organisiert, hält den Laden am Laufen – und würde eher zusammenbrechen, als offen um Hilfe zu bitten. Die Belastung entsteht hier nicht aus Wettbewerb um Anerkennung, sondern aus einem stillen, nie ausgesprochenen Ungleichgewicht: Sie deckt andere ab, ohne selbst je gedeckt zu werden. Das eigene Herz – im wörtlichen wie im übertragenen Sinn – wird über Jahrzehnte schlicht nicht gehört, weil niemand danach fragt und sie selbst es nie einfordert." },
       { code: "SO2", text: "Die soziale Zwei sucht ihren Stolz über öffentliche Unentbehrlichkeit: Sie ist die Person, die im Verein, in der Nachbarschaft, im Kollegenkreis für alles ansprechbar ist, die nie „Nein“ sagt, weil Gebrauchtwerden ihre stärkste Bestätigung ist. Chronische Überlastung entsteht hier weniger durch stille Selbstverleugnung im Privaten als durch die schiere Zahl an Verpflichtungen, die sich unbemerkt aufsummieren – eine Erschöpfungsform, die dem sogenannten Helfersyndrom nahesteht und sich oft erst zeigt, wenn buchstäblich niemand mehr da ist, der ihr hilft, während sie allen anderen hilft." },
-          { code: "SX2", text: "Die sexuelle Zwei sucht Stolz nicht über die Masse, sondern über die eine, unwiderstehliche Wirkung auf einen einzigen Menschen – Verführung, intensive Aufmerksamkeit, ein Geben, das schnell possessive Züge annehmen kann, weil die eigene Bedeutung an dieser einen Bindung hängt. Emotionale Volatilität, Eifersucht und die ständige, unausgesprochene Frage „Bin ich noch genug?“ wirken hier als eigenständiger Dauerstressor – kardiologisch relevant weniger über klassische Erschöpfung durch Überarbeitung, sondern über die episodischen, aber intensiven Stressspitzen einer Beziehung, die nie ganz zur Ruhe kommt." },
+      { code: "SX2", text: "Die sexuelle Zwei sucht Stolz nicht über die Masse, sondern über die eine, unwiderstehliche Wirkung auf einen einzigen Menschen – Verführung, intensive Aufmerksamkeit, ein Geben, das schnell possessive Züge annehmen kann, weil die eigene Bedeutung an dieser einen Bindung hängt. Emotionale Volatilität, Eifersucht und die ständige, unausgesprochene Frage „Bin ich noch genug?“ wirken hier als eigenständiger Dauerstressor – kardiologisch relevant weniger über klassische Erschöpfung durch Überarbeitung, sondern über die episodischen, aber intensiven Stressspitzen einer Beziehung, die nie ganz zur Ruhe kommt." },
         ],
       },
       {
@@ -95340,7 +95340,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Die selbsterhaltende Drei misst den eigenen Wert am nächsten konkreten Ergebnis: der abgeschlossenen Aufgabe, der sauber geführten Buchhaltung, dem Garten, der besser aussieht als der der Nachbarn. Sie glänzt selten öffentlich – ihre Bestätigung holt sie sich in stiller, effizienter Betriebsamkeit, oft ohne dass jemand außer ihr selbst überhaupt bemerkt, wie viel sie leistet. Erschöpfung wird dabei konsequent uminterpretiert: nicht als Warnsignal, sondern als Charakterschwäche, die es zu überwinden gilt. Das Herz pumpt im Takt selbst gesetzter Zielvorgaben lange weiter, nachdem der Körper längst deutliche Zeichen gesendet hat, kürzerzutreten." },
       { code: "SO3", text: "Die soziale Drei sucht Erfolg sichtbar und im Vergleich: Karriere, Titel, das Auto vor der Tür, die Anerkennung des Publikums. Sie kommt dem klassischen Bild der kardiologisch beschriebenen Typ-A-Persönlichkeit am nächsten von allen 27 Subtypen – ehrgeizig, zeitgetrieben, in einem inneren Wettlauf, der nie wirklich endet, weil der nächste Vergleich, der nächste Konkurrent, die nächste Bestleistung schon wartet. Das Herz arbeitet hier gegen eine Uhr, die nur in ihrem eigenen Kopf tickt, aber real genug ist, um Blutdruck und Puls dauerhaft zu erhöhen." },
-          { code: "SX3", text: "Die sexuelle Drei setzt ihre Leistungskraft gezielt im Beziehungskontext ein: Attraktivität, Charisma, permanente Selbstoptimierung, um für den einen wichtigen Menschen unübertroffen zu sein – „der oder die Beste“, nicht in einem Wettbewerb, sondern im Auge des Geliebten. Die Erschöpfung entsteht hier weniger aus öffentlichem Vergleich als aus dem privaten, nie endenden Druck, auch im intimsten Bereich keine Schwäche, keine Nachlässigkeit, kein Nachlassen zu zeigen – ein Anspruch, der gerade dort am meisten Kraft kostet, wo eigentlich Entspannung möglich sein sollte." },
+      { code: "SX3", text: "Die sexuelle Drei setzt ihre Leistungskraft gezielt im Beziehungskontext ein: Attraktivität, Charisma, permanente Selbstoptimierung, um für den einen wichtigen Menschen unübertroffen zu sein – „der oder die Beste“, nicht in einem Wettbewerb, sondern im Auge des Geliebten. Die Erschöpfung entsteht hier weniger aus öffentlichem Vergleich als aus dem privaten, nie endenden Druck, auch im intimsten Bereich keine Schwäche, keine Nachlässigkeit, kein Nachlassen zu zeigen – ein Anspruch, der gerade dort am meisten Kraft kostet, wo eigentlich Entspannung möglich sein sollte." },
         ],
       },
       {
@@ -95425,7 +95425,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Buchstäblich nichts fließt zurück, weil sie sich selbst das Bitten um Gegenleistung verbietet: So verdrängt die selbsterhaltende Zwei eigene Bedürfnisse über Jahrzehnte zugunsten anderer. Dieses einseitige, nie erwiderte Strömen lässt sich psychosomatisch unmittelbar als Bild für Gefäße lesen, die sich verengen, weil der Kreislauf von Geben und Nehmen über eine ganze Lebensspanne hinweg aus dem Gleichgewicht ist: Ein System, das dauerhaft nur in eine Richtung fließt, verliert irgendwann die Elastizität, die für gesunden Austausch nötig wäre." },
       { code: "SO2", text: "Immer erreichbar, nie absagend: So sucht die soziale Zwei Bedeutung über permanente Verfügbarkeit für die Gemeinschaft, ihr Selbstwert hängt direkt daran, gebraucht zu werden. Die Unfähigkeit, Nein zu sagen, erzeugt so eine chronische Überlastung, die sich über Jahre zu einer stillen Dauerbelastung des gesamten Kreislaufsystems verdichten kann – nicht durch einen dramatischen Moment, sondern durch die schiere Anzahl an Verpflichtungen, die sich nie wirklich erschöpft, weil immer noch jemand da ist, der sie braucht." },
-          { code: "SX2", text: "Die sexuelle Zwei investiert intensives, oft possessives Geben in die eine Beziehung – Aufmerksamkeit, Fürsorge, das ständige Bemühen, für den geliebten Menschen unentbehrlich zu sein. Emotionale Volatilität und Eifersucht wirken hier eher als episodische Belastungsspitzen denn als gleichmäßige Dauerverengung: Phasen intensiver Nähe wechseln sich mit Phasen der Angst ab, nicht genug zu sein, was das Gefäßsystem eher in Wellen als in konstantem Druck beansprucht." },
+      { code: "SX2", text: "Aufmerksamkeit, Fürsorge, das ständige Bemühen, für den geliebten Menschen unentbehrlich zu sein: So investiert die sexuelle Zwei intensives, oft possessives Geben in die eine Beziehung. Emotionale Volatilität und Eifersucht wirken hier eher als episodische Belastungsspitzen denn als gleichmäßige Dauerverengung: Phasen intensiver Nähe wechseln sich mit Phasen der Angst ab, nicht genug zu sein, was das Gefäßsystem eher in Wellen als in konstantem Druck beansprucht." },
         ],
       },
       {
@@ -95433,7 +95433,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Erschöpfung wird bei der selbsterhaltenden Drei als Schwäche gedeutet, nicht als Signal, das ernst zu nehmen wäre – sie arbeitet still und effizient weiter, auch wenn der Körper längst Pause fordert. Sie ist die Person, die den Feierabend nutzt, um noch die Steuererklärung fertigzustellen, während andere sich entspannen, und die dieses Verhalten nicht als Getriebenheit, sondern als schlichte Selbstverständlichkeit empfindet. Über Jahrzehnte verdichtet sich diese ständige Selbstüberforderung zu einem Bild, in dem auch die Gefäße nie zur Ruhe kommen – ein System im Dauerbetrieb, dem die Regenerationsphasen fehlen, die für gesunde Gefäßelastizität notwendig wären." },
       { code: "SO3", text: "Ein Leben im ständigen Wettbewerbsmodus, das dem klassischen Bild der Typ-A-Persönlichkeit am nächsten kommt: So sucht die soziale Drei Erfolg sichtbar und im Vergleich mit anderen, über Jahre kaum echte Erholungsphasen kennend. Jeder Erfolg wird sofort relativiert durch den nächsten möglichen Vergleich, jede Anerkennung ist nur so lange gültig, bis jemand anderes sie übertrifft – ein Zustand permanenter, selbst erzeugter Alarmbereitschaft, der dem Gefäßsystem über Jahrzehnte kaum Gelegenheit zur Entspannung lässt." },
-          { code: "SX3", text: "Die sexuelle Drei setzt permanente Selbstoptimierung im Beziehungskontext ein – der Druck, auch im Intimsten nie nachzulassen, erzeugt eine Anspannung, die selten offen benannt, aber über Jahre mitgetragen wird. Attraktivität, Anpassungsfähigkeit, die ständige Bereitschaft, sich für den einen Menschen neu zu erfinden – all das kostet Kraft, die selten als Erschöpfung erkannt wird, weil sie hinter dem Gefühl versteckt bleibt, geliebt werden zu müssen, um wertvoll zu sein." },
+      { code: "SX3", text: "Attraktivität, Anpassungsfähigkeit, die ständige Bereitschaft, sich für den einen Menschen neu zu erfinden – all das kostet die sexuelle Drei Kraft, die selten als Erschöpfung erkannt wird, weil sie hinter dem Gefühl versteckt bleibt, geliebt werden zu müssen, um wertvoll zu sein. Der Druck, auch im Intimsten nie nachzulassen, wird selten offen benannt, aber über Jahre mitgetragen." },
         ],
       },
       {
@@ -95518,7 +95518,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Das Bitten um Hilfe fühlt sich für die selbsterhaltende Zwei an wie ein Eingeständnis von Schwäche – ihre Erschöpfung bleibt deshalb in stiller Selbstaufopferung meist unausgesprochen. Ein System, das dauerhaft mehr gibt, als es empfängt, gerät leicht selbst unter erhöhten Druck: Sie versorgt alle um sich herum, während sie selbst innerlich zunehmend unter Spannung steht, ohne dass es je jemand bemerkt – auch sie selbst nicht." },
       { code: "SO2", text: "Eine chronische Überlastung, die sich über Jahre zu einer stillen Dauerbelastung des gesamten Kreislaufsystems verdichten kann, entsteht aus der Unfähigkeit der sozialen Zwei, Nein zu sagen, während sie Bedeutung über permanente Verfügbarkeit für die Gemeinschaft sucht. Sie sagt immer zu, auch wenn der Terminkalender längst überquillt, weil das Gefühl, gebraucht zu werden, wichtiger ist als das eigene Wohlergehen." },
-          { code: "SX2", text: "Die sexuelle Zwei investiert intensives, oft possessives Geben in die eine Beziehung – emotionale Volatilität und Eifersucht erzeugen hier eher episodische Drucksteigerungen als eine gleichmäßige Dauerspannung. Die Frage, ob sie noch genug ist, ob der geliebte Mensch sich nicht doch abwendet, treibt den inneren Druck in Wellen hoch, die so schnell kommen, wie sie wieder abklingen können." },
+      { code: "SX2", text: "Ob sie noch genug ist, ob der geliebte Mensch sich nicht doch abwendet: Diese Frage treibt den inneren Druck der sexuellen Zwei, die intensives, oft possessives Geben in die eine Beziehung investiert, in Wellen hoch, die so schnell kommen, wie sie wieder abklingen können." },
         ],
       },
       {
@@ -95526,7 +95526,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Der innere Druck, ständig funktionieren zu müssen, wird bei der selbsterhaltenden Drei selten bewusst wahrgenommen, geschweige denn geäußert – sie arbeitet still und effizient weiter, auch wenn der Körper längst Pause fordert. Sie erledigt eine Aufgabe nach der anderen, ohne sich je die Frage zu stellen, ob das Tempo ihr selbst noch guttut." },
       { code: "SO3", text: "Kaum echte Entspannungsphasen kennt das Leben im Wettbewerbsmodus, das dem klassischen Bild der Typ-A-Persönlichkeit am nächsten kommt und in dem die soziale Drei Erfolg sichtbar und im ständigen Vergleich mit anderen sucht. Jeder Erfolg wird sofort zur neuen Ausgangslage für den nächsten Vergleich, sodass echte Ruhe strukturell kaum vorgesehen ist." },
-          { code: "SX3", text: "Die sexuelle Drei setzt permanente Selbstoptimierung im Beziehungskontext ein – der Druck, auch im Intimsten nie nachzulassen, wird selten offen benannt, aber über Jahre mitgetragen. Sie will für den einen Menschen makellos sein, in jeder Hinsicht, und dieser Anspruch lässt selbst die vertrauteste Beziehung zu einem Ort werden, an dem Anspannung nie ganz weicht." },
+      { code: "SX3", text: "In jeder Hinsicht will die sexuelle Drei für den einen Menschen makellos sein, setzt permanente Selbstoptimierung im Beziehungskontext ein – dieser Anspruch lässt selbst die vertrauteste Beziehung zu einem Ort werden, an dem Anspannung nie ganz weicht." },
         ],
       },
       {
@@ -95611,7 +95611,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Ein stilles, nie erwidertes Geben über Jahrzehnte prägt die selbsterhaltende Zwei, die den Satz „Ich brauche niemanden“ am wörtlichsten lebt. Ein Herz, das immer nur gibt und nie empfängt, ist psychosomatisch eines der unmittelbarsten Bilder für eine allmählich erschöpfte Kraftquelle: Sie sorgt für alle um sich herum, während niemand – sie selbst eingeschlossen – je fragt, wer für sie sorgt." },
       { code: "SO2", text: "Über Jahre führt die Unfähigkeit, Nein zu sagen, bei der sozialen Zwei zu einer schleichenden, nie eingestandenen Auszehrung der eigenen Kraft, während sie Bedeutung über permanente Verfügbarkeit für die Gemeinschaft sucht. Sie ist für alle da, gerade weil das Gebrauchtwerden ihr das Gefühl gibt, wertvoll zu sein – bis die Substanz, die sie dafür verausgabt, irgendwann nicht mehr nachwächst." },
-          { code: "SX2", text: "Die sexuelle Zwei investiert intensives, oft possessives Geben in die eine Beziehung – die Erschöpfung entsteht hier eher episodisch, in Phasen besonders intensiver emotionaler Investition, als gleichmäßig über die Jahre. Sie gibt sich in kurzen, hochintensiven Phasen fast vollständig hin, was punktuell mehr auszehrt als konstant." },
+      { code: "SX2", text: "In kurzen, hochintensiven Phasen gibt sich die sexuelle Zwei fast vollständig hin, investiert intensives, oft possessives Geben in die eine Beziehung – was punktuell mehr auszehrt als konstant, eher episodisch als gleichmäßig über die Jahre verteilt." },
         ],
       },
       {
@@ -95619,7 +95619,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Über Jahrzehnte kann konsequentes Ignorieren der eigenen Grenzen bei der selbsterhaltenden Drei die Substanz selbst erschöpfen – Erschöpfung wird als Schwäche gedeutet, die es zu überwinden gilt, nicht als Warnsignal. Sie funktioniert, bis buchstäblich nichts mehr geht, weil Innehalten sich nie wie eine echte Option angefühlt hat." },
       { code: "SO3", text: "Kaum echte Regenerationsphasen kennt das Leben im Wettbewerbsmodus, in dem die soziale Drei Erfolg sichtbar und im ständigen Vergleich mit anderen sucht – die eigene Kraft wird über Jahre kontinuierlich beansprucht. Jeder Erfolg treibt sie zum nächsten, sodass echte Erholung strukturell kaum vorgesehen ist." },
-          { code: "SX3", text: "Die sexuelle Drei setzt permanente Selbstoptimierung im Beziehungskontext ein – der Druck, auch im Intimsten nie nachzulassen, zehrt über Jahre an einer Substanz, die selten bewusst geschont wird. Sie investiert ihre gesamte Energie in das Bild, das der geliebte Mensch von ihr haben soll, und vergisst dabei, wie viel diese ständige Selbstinszenierung tatsächlich kostet." },
+      { code: "SX3", text: "In das Bild, das der geliebte Mensch von ihr haben soll, investiert die sexuelle Drei ihre gesamte Energie – und vergisst dabei, wie viel diese ständige Selbstinszenierung tatsächlich kostet, zehrt über Jahre an einer Substanz, die selten bewusst geschont wird." },
         ],
       },
       {
@@ -95704,7 +95704,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Ein permanentes inneres Jonglieren zwischen den Bedürfnissen anderer, das kaum je zur Ruhe kommt: So kümmert sich die selbsterhaltende Zwei, oft im Stillen, um sehr viele verschiedene Menschen und Aufgaben gleichzeitig. Diese Zersplitterung der eigenen Aufmerksamkeit auf unzählige gleichzeitige Fürsorgeaufgaben liest die Psychosomatik als plausibles Bild für einen Herzrhythmus, der seinen geordneten Takt an zu viele gleichzeitige Anforderungen verliert." },
       { code: "SO2", text: "Ein Leben, das strukturell kaum Raum für den eigenen, ruhigen Takt lässt: So ist die soziale Zwei für die gesamte Gruppe verfügbar, springt von einer Bitte zur nächsten, hält den Überblick über die Bedürfnisse vieler zugleich. Sie reagiert auf jeden Ruf, jede Anfrage, jede stille Erwartung, bis der eigene innere Rhythmus in der schieren Menge untergeht." },
-          { code: "SX2", text: "Die sexuelle Zwei konzentriert ihre gesamte Zuwendung auf die eine geliebte Person, oft mit verführerischer Intensität – dieser fokussierte, aber sehr intensive Einsatz kann in Phasen emotionaler Zuspitzung, etwa bei drohendem Verlust der Aufmerksamkeit des anderen, zu plötzlichen, heftigen inneren Ausschlägen führen." },
+      { code: "SX2", text: "Oft mit verführerischer Intensität konzentriert die sexuelle Zwei ihre gesamte Zuwendung auf die eine geliebte Person – dieser fokussierte, aber sehr intensive Einsatz kann in Phasen emotionaler Zuspitzung, etwa bei drohendem Verlust der Aufmerksamkeit des anderen, zu plötzlichen, heftigen inneren Ausschlägen führen." },
         ],
       },
       {
@@ -95712,7 +95712,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Ein Leben im Multitasking-Modus, das dem eigenen Herzen kaum je erlaubt, in einem einzigen, ruhigen Takt zu schlagen: So jongliert die selbsterhaltende Drei meist mehrere parallele Projekte gleichzeitig, arbeitet effizient, aber ständig auf mehreren Ebenen zugleich. Sie wechselt fließend zwischen Aufgaben, ohne zwischendurch je wirklich abzuschalten, bis die innere Taktung selbst durcheinandergerät." },
       { code: "SO3", text: "Karriere, Status, Anerkennung in verschiedenen sozialen Kreisen: An mehreren Erfolgsmaßstäben gleichzeitig orientiert sich die soziale Drei, was einen ständig wechselnden inneren Takt erzeugt, je nachdem, welchem Publikum sie sich gerade zuwendet. Diese ständige Anpassung an unterschiedliche Erwartungen kann den eigenen, verlässlichen Rhythmus regelrecht auflösen." },
-          { code: "SX3", text: "Die sexuelle Drei bündelt ihren Ehrgeiz auf die eine Beziehung, in der sie begehrenswert und erfolgreich erscheinen will – ein intensiver, aber konzentrierter Einsatz, der eher zu punktuellen, heftigen inneren Ausschlägen in besonders zugespitzten Beziehungsmomenten führt als zu chronischer, breitflächiger Zersplitterung." },
+      { code: "SX3", text: "In der sie begehrenswert und erfolgreich erscheinen will: Auf diese eine Beziehung bündelt die sexuelle Drei ihren Ehrgeiz – ein intensiver, aber konzentrierter Einsatz, der eher zu punktuellen, heftigen inneren Ausschlägen in besonders zugespitzten Beziehungsmomenten führt als zu chronischer, breitflächiger Zersplitterung." },
         ],
       },
       {
@@ -95797,7 +95797,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Die Vorstellung, eine eigene Belastungsgrenze zu haben, widerspricht dem Selbstbild der selbsterhaltenden Zwei fundamental – sie gibt im Verborgenen, oft ohne je um etwas zu bitten, weit über die eigene Kapazität hinaus. Ein Schmerz, der genau bei dieser überschrittenen Grenze zuverlässig auftritt, kann psychosomatisch als der Körper gelesen werden, der eine Grenze markiert, die die Person selbst nie anerkennen würde." },
       { code: "SO2", text: "Ohne je die eigene Erschöpfung offen einzugestehen, steht die soziale Zwei der gesamten Gemeinschaft zur Verfügung und übernimmt fortlaufend neue Aufgaben – ein Leben, das strukturell keine anerkannte Belastungsgrenze kennt. Die Angina pectoris kann hier wie ein Signal wirken, das genau dort ansetzt, wo die soziale Verpflichtung die eigene Kraft überschreitet." },
-          { code: "SX2", text: "Die sexuelle Zwei investiert sich mit großer Intensität in die eine Beziehung, verausgabt sich in einzelnen, hochemotionalen Phasen fast vollständig – die punktuelle Anspannung solcher Beziehungsmomente kann sich körperlich eher als plötzlicher, akuter Druck zeigen denn als schleichend akkumulierte Dauerüberforderung." },
+      { code: "SX2", text: "In einzelnen, hochemotionalen Phasen verausgabt sich die sexuelle Zwei fast vollständig, investiert sich mit großer Intensität in die eine Beziehung – die punktuelle Anspannung solcher Beziehungsmomente kann sich körperlich eher als plötzlicher, akuter Druck zeigen denn als schleichend akkumulierte Dauerüberforderung." },
         ],
       },
       {
@@ -95805,7 +95805,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Innehalten fühlt sich bei der selbsterhaltenden Drei wie ein Versagen an, das sie sich nicht erlaubt – sie funktioniert effizient und diszipliniert, auch wenn der Körper längst deutliche Warnsignale sendet. Ein wiederkehrender Schmerz, der genau an der Belastungsgrenze auftaucht, kann so zum einzigen Signal werden, das sie überhaupt noch ernst nimmt, weil rein rationale Warnungen längst ignoriert wurden." },
       { code: "SO3", text: "Um im Vergleich zu bestehen, misst sich die soziale Drei fortlaufend am Erfolg anderer und treibt sich selbst zu immer höherer Leistung an – dieser äußere Maßstab kennt keine natürliche Obergrenze, wodurch die eigene körperliche Belastungsgrenze regelmäßig überschritten wird, bevor sie überhaupt wahrgenommen wird." },
-          { code: "SX3", text: "Die sexuelle Drei setzt ihre gesamte Energie darauf, in der Beziehung begehrenswert und erfolgreich zu erscheinen – dieser fokussierte, aber intensive Einsatz erzeugt eher punktuelle Belastungsspitzen in zugespitzten Beziehungsmomenten als eine über den ganzen Alltag verteilte, chronische Überforderung." },
+      { code: "SX3", text: "Um in der Beziehung begehrenswert und erfolgreich zu erscheinen, setzt die sexuelle Drei ihre gesamte Energie ein – dieser fokussierte, aber intensive Einsatz erzeugt eher punktuelle Belastungsspitzen in zugespitzten Beziehungsmomenten als eine über den ganzen Alltag verteilte, chronische Überforderung." },
         ],
       },
       {
@@ -95890,7 +95890,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Ein einseitiger Fluss, der über Jahrzehnte nie umgekehrt wird: Die selbsterhaltende Zwei gibt im Verborgenen, ohne je um etwas zu bitten oder etwas zurückzunehmen. Ein Venensystem, das Blut nur in eine Richtung transportiert und dessen Rückfluss gestört ist, liest sich als eines der unmittelbarsten Bilder für diesen niemals erwiderten Kreislauf des Gebens." },
       { code: "SO2", text: "Selten nimmt die soziale Zwei selbst etwas an, während sie sich fortlaufend in den Dienst der Gemeinschaft stellt – dieses strukturelle Ungleichgewicht zwischen Geben und Empfangen kann sich körperlich als ein gestörter Rückfluss zeigen, bei dem die eigene Erleichterung nie eintritt, weil sie schlicht nicht vorgesehen ist." },
-          { code: "SX2", text: "Die sexuelle Zwei gibt sich in einzelnen, intensiven Beziehungsphasen fast vollständig hin – diese punktuelle, hochemotionale Investition erzeugt eher lokale, episodische Anspannungsspitzen als eine gleichmäßig über den Alltag verteilte Stauung." },
+      { code: "SX2", text: "Fast vollständig gibt sich die sexuelle Zwei in einzelnen, intensiven Beziehungsphasen hin – diese punktuelle, hochemotionale Investition erzeugt eher lokale, episodische Anspannungsspitzen als eine gleichmäßig über den Alltag verteilte Stauung." },
         ],
       },
       {
@@ -95898,7 +95898,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Erholung wird bei der selbsterhaltenden Drei als verlorene Zeit erlebt, nicht als notwendiger Ausgleich – sie arbeitet effizient weiter, auch wenn der Körper längst um Pause bittet. Über Jahre kann dieses Fehlen echter Erleichterungsphasen sich körperlich als ein System zeigen, das ständig unter Druck steht, ohne je wirklich zu entspannen." },
       { code: "SO3", text: "Ohne sich je zurückzulehnen und das Erreichte wirklich zu genießen, sammelt die soziale Drei Erfolge und Anerkennung fortlaufend an – dieser endlose Vergleich mit dem nächsten Ziel verhindert die innere Erleichterung, die eigentlich auf jeden Erfolg folgen sollte." },
-          { code: "SX3", text: "Die sexuelle Drei setzt ihre gesamte Energie darauf, in der Beziehung begehrenswert zu erscheinen – dieser fokussierte, oft intensive Einsatz kann in besonders zugespitzten Beziehungsmomenten zu punktuellen Belastungsspitzen führen, statt sich gleichmäßig über die Zeit zu stauen." },
+      { code: "SX3", text: "Um in der Beziehung begehrenswert zu erscheinen, setzt die sexuelle Drei ihre gesamte Energie ein – dieser fokussierte, oft intensive Einsatz kann in besonders zugespitzten Beziehungsmomenten zu punktuellen Belastungsspitzen führen, statt sich gleichmäßig über die Zeit zu stauen." },
         ],
       },
       {
@@ -95983,7 +95983,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Tief im Inneren kann sich bei der selbsterhaltenden Zwei über Jahre ein nie ausgesprochener, immer wieder verdrängter Groll ansammeln, während sie fortwährend gibt, ohne je etwas zurückzufordern. Dieser Groll verhärtet sich schließlich zu einer festen inneren Blockade, weil er nie einen Ausdruck finden durfte." },
       { code: "SO2", text: "Selten selbst gesehen zu werden, das verdrängt die soziale Zwei, die sich unermüdlich in den Dienst der Gemeinschaft stellt – dieser über die Jahre angehäufte, nie benannte Groll kann sich zu einer festen, kaum mehr auflösbaren inneren Blockade verdichten." },
-          { code: "SX2", text: "Die sexuelle Zwei erlebt in intensiven Beziehungsphasen oft heftige, aber kurzzeitige emotionale Verhärtungen, etwa bei gefühlter Zurückweisung – diese punktuellen, episodischen Erstarrungen unterscheiden sich von der langsamen, gleichmäßigen Verfestigung anderer Subtypen." },
+      { code: "SX2", text: "Etwa bei gefühlter Zurückweisung erlebt die sexuelle Zwei in intensiven Beziehungsphasen oft heftige, aber kurzzeitige emotionale Verhärtungen – diese punktuellen, episodischen Erstarrungen unterscheiden sich von der langsamen, gleichmäßigen Verfestigung anderer Subtypen." },
         ],
       },
       {
@@ -95991,7 +95991,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Innehalten oder Kurswechsel fühlen sich bei der selbsterhaltenden Drei wie Versagen an – sie hält an ihrem einmal eingeschlagenen Kurs fest, auch wenn er längst nicht mehr passt. Diese Starrheit, die selbst dann nicht nachgibt, wenn der Körper klare Warnsignale sendet, kann sich als eine feste, unbewegliche innere Blockade zeigen." },
       { code: "SO3", text: "Kaum Raum für Flexibilität oder Nachgiebigkeit lässt der Vergleich mit anderen, in dem sich die soziale Drei zunehmend verhärtet – so verhärtet sich ihre Position im ständigen Wettbewerb um Anerkennung, was sich über Jahre zu einer festen inneren Blockade verfestigen kann." },
-          { code: "SX3", text: "Die sexuelle Drei verhärtet sich in einzelnen Beziehungskrisen, wenn ihr Bild als erfolgreiche, begehrenswerte Partnerin bedroht scheint – diese Erstarrung tritt eher punktuell und intensiv auf als gleichmäßig über die Zeit verteilt." },
+      { code: "SX3", text: "Wenn ihr Bild als erfolgreiche, begehrenswerte Partnerin bedroht scheint, verhärtet sich die sexuelle Drei in einzelnen Beziehungskrisen – diese Erstarrung tritt eher punktuell und intensiv auf als gleichmäßig über die Zeit verteilt." },
         ],
       },
       {
@@ -96076,7 +96076,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Diese radikalste Form der Selbstverleugnung unter den 27 Subtypen zeigt sich, wenn die selbsterhaltende Zwei die eigenen Bedürfnisse über ein ganzes Leben hinweg so konsequent verleugnet, dass sie selbst kaum noch weiß, was sie eigentlich braucht. Diese Verleugnung kann sich als eine innere Fülle ansammeln, die, wenn sie sich löst, besonders dramatisch und plötzlich ausfällt." },
       { code: "SO2", text: "Ohne je die eigene Erschöpfung oder den eigenen unerfüllten Wunsch nach Anerkennung auszusprechen, stellt sich die soziale Zwei fortlaufend in den Dienst der Gemeinschaft – dieser über Jahre nie artikulierte innere Druck kann sich zu einer Fülle verdichten, die sich irgendwann unkontrolliert entlädt." },
-          { code: "SX2", text: "Die sexuelle Zwei erlebt in intensiven Beziehungsphasen heftige emotionale Zuspitzungen, wenn ihre Zuwendung nicht erwidert wird – diese punktuellen, episodischen Drucksteigerungen unterscheiden sich von der langsamen, über Jahrzehnte aufgebauten Fülle anderer Subtypen." },
+      { code: "SX2", text: "Wenn ihre Zuwendung nicht erwidert wird, erlebt die sexuelle Zwei in intensiven Beziehungsphasen heftige emotionale Zuspitzungen – diese punktuellen, episodischen Drucksteigerungen unterscheiden sich von der langsamen, über Jahrzehnte aufgebauten Fülle anderer Subtypen." },
         ],
       },
       {
@@ -96084,7 +96084,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Jedes Signal von Schwäche wird bei der selbsterhaltenden Drei konsequent übergangen – sie funktioniert effizient weiter, auch wenn der Körper längst deutliche Warnsignale sendet. Diese über Jahre fortgesetzte Verleugnung der eigenen Erschöpfung kann sich als innere Fülle ansammeln, die sich, wenn der Damm bricht, besonders unvermittelt entlädt." },
       { code: "SO3", text: "Auch wenn innerlich längst nichts mehr zusammenpasst, hält die soziale Drei die Fassade des Erfolgs aufrecht – dieser wachsende Widerspruch zwischen äußerem Bild und innerer Realität kann sich über Jahre zu einer aufgestauten Spannung verdichten, die sich plötzlich entlädt." },
-          { code: "SX3", text: "Die sexuelle Drei setzt ihre gesamte Energie darauf, in der Beziehung als erfolgreich und begehrenswert zu erscheinen – diese fokussierte, aber intensive Anstrengung erzeugt eher punktuelle Drucksteigerungen in einzelnen Beziehungskrisen als eine gleichmäßig akkumulierte Fülle." },
+      { code: "SX3", text: "Um in der Beziehung als erfolgreich und begehrenswert zu erscheinen, setzt die sexuelle Drei ihre gesamte Energie ein – diese fokussierte, aber intensive Anstrengung erzeugt eher punktuelle Drucksteigerungen in einzelnen Beziehungskrisen als eine gleichmäßig akkumulierte Fülle." },
         ],
       },
       {
@@ -96169,7 +96169,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Für die eigene Selbstbehauptung bleibt schlicht keine Kraft mehr übrig, wenn die selbsterhaltende Zwei jede verfügbare Energie auf die Bedürfnisse anderer richtet, ohne je etwas für sich selbst zurückzubehalten. Ein Körper, dem konstant der Antrieb fehlt, sich selbst nach vorne zu bringen, liest sich als naheliegendes Bild für diesen chronischen Mangel." },
       { code: "SO2", text: "Nur über das Gebrauchtwerden lernt die soziale Zwei früh, die eigene Bedeutung zu erfahren, während sie sich fortlaufend in den Dienst der Gemeinschaft stellt – dieses Muster, den eigenen Wert nie unabhängig von anderen zu behaupten, kann sich als ein fehlender innerer Antrieb zeigen, der eigenen Sache Gewicht zu geben." },
-          { code: "SX2", text: "Die sexuelle Zwei investiert sich in intensiven Phasen fast vollständig in die eine Beziehung – nach solchen Phasen kann eine spürbare, aber eher vorübergehende Erschöpfung folgen, die punktueller ist als der chronische, gleichmäßig verteilte Kraftmangel anderer Subtypen." },
+      { code: "SX2", text: "Nach Phasen fast vollständiger Investition in die eine Beziehung kann bei der sexuellen Zwei eine spürbare, aber eher vorübergehende Erschöpfung folgen – die punktueller ist als der chronische, gleichmäßig verteilte Kraftmangel anderer Subtypen." },
         ],
       },
       {
@@ -96177,7 +96177,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Anders als die soziale Drei sucht die selbsterhaltende Drei kaum Anerkennung nach außen – sie arbeitet still und effizient, oft im Hintergrund, ohne den eigenen Beitrag sichtbar zu behaupten, was langfristig dazu führen kann, dass ihr die Energie fehlt, für die eigene Position überhaupt einzustehen." },
       { code: "SO3", text: "Fast ausschließlich aus äußerer Anerkennung bezieht die soziale Drei ihren Antrieb – bleibt diese aus oder wird der Erfolg nicht bemerkt, kann die innere Energiequelle regelrecht versiegen, weil sie nie gelernt hat, Kraft aus sich selbst heraus zu schöpfen." },
-          { code: "SX3", text: "Die sexuelle Drei setzt ihre Energie konzentriert darauf, in der Beziehung begehrenswert zu erscheinen – der Kraftmangel zeigt sich hier eher punktuell, wenn diese Anstrengung über einen längeren Zeitraum nicht die erhoffte Bestätigung findet." },
+      { code: "SX3", text: "Wenn Anstrengung über einen längeren Zeitraum nicht die erhoffte Bestätigung findet: Genau dann zeigt sich Kraftmangel bei der sexuellen Drei, die ihre Energie konzentriert darauf setzt, in der Beziehung begehrenswert zu erscheinen." },
         ],
       },
       {
@@ -96262,7 +96262,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Immer für andere da zu sein, ohne diese Rolle je zu hinterfragen: So wiederholt die selbsterhaltende Zwei über Jahrzehnte dasselbe Muster des stillen, nie erwiderten Gebens. Diese unveränderte Haltung kann sich als eine Art körperliche Erstarrung zeigen, bei der die eigene Beweglichkeit zugunsten der immer gleichen Fürsorgehaltung abgenutzt wird." },
       { code: "SO2", text: "Ohne sie je infrage zu stellen, wiederholt die soziale Zwei in der Gemeinschaft fortlaufend dieselbe Rolle der unermüdlich Verfügbaren – diese über Jahre gleichbleibende Position kann zu einer Rigidität führen, die sich in mangelnder Anpassungsfähigkeit auch auf körperlicher Ebene zeigen kann." },
-          { code: "SX2", text: "Die sexuelle Zwei investiert sich in wechselnden, intensiven Beziehungsphasen unterschiedlich stark – diese Variabilität steht der starren Wiederholung entgegen, die für Arthrose typisch ist, auch wenn einzelne Phasen selbst sehr fordernd sein können." },
+      { code: "SX2", text: "Unterschiedlich stark investiert sich die sexuelle Zwei in wechselnden, intensiven Beziehungsphasen – diese Variabilität steht der starren Wiederholung entgegen, die für Arthrose typisch ist, auch wenn einzelne Phasen selbst sehr fordernd sein können." },
         ],
       },
       {
@@ -96270,7 +96270,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Weil es funktioniert, wird es nie verändert: Die selbsterhaltende Drei hält an einem einmal bewährten, effizienten Arbeitsmuster fest und wiederholt dieselben Bewegungsabläufe über Jahre. Diese Weigerung kann genau die einseitige, wiederholte Belastung erzeugen, die Gelenke mechanisch am stärksten abnutzt." },
       { code: "SO3", text: "Ohne es zu variieren, verfolgt die soziale Drei über Jahre denselben Erfolgspfad, das immer gleiche Muster von Leistung und Anerkennung – diese unveränderte Ausrichtung kann sich als eine Rigidität zeigen, die auch körperlich zunehmend weniger Anpassungsfähigkeit zulässt." },
-          { code: "SX3", text: "Die sexuelle Drei passt ihr Verhalten stark an die jeweilige Beziehung und deren Erwartungen an – diese Anpassungsfähigkeit im Beziehungskontext kann der starren Wiederholung, die für Arthrose typisch ist, zumindest teilweise entgegenwirken." },
+      { code: "SX3", text: "Stark an die jeweilige Beziehung und deren Erwartungen passt die sexuelle Drei ihr Verhalten an – diese Anpassungsfähigkeit im Beziehungskontext kann der starren Wiederholung, die für Arthrose typisch ist, zumindest teilweise entgegenwirken." },
         ],
       },
       {
@@ -96355,7 +96355,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Ein Rücken, der buchstäblich alles trägt, was andere brauchen, während die eigene Last nie sichtbar wird: So trägt die selbsterhaltende Zwei die Bedürfnisse anderer, ohne je die eigenen zu benennen oder um Entlastung zu bitten. Das ist psychosomatisch eines der unmittelbarsten Bilder für diesen chronisch unbemerkten Druck." },
       { code: "SO2", text: "Ohne je Unterstützung einzufordern, übernimmt die soziale Zwei viele Aufgaben gleichzeitig und stellt sich fortlaufend in den Dienst der Gemeinschaft – diese unsichtbare, nie geteilte Last kann sich körperlich als Rückenschmerz zeigen." },
-          { code: "SX2", text: "Die sexuelle Zwei investiert sich in intensiven Beziehungsphasen fast vollständig – diese punktuelle, hochemotionale Anstrengung erzeugt eher lokale Belastungsspitzen als eine gleichmäßig über den Alltag verteilte Rückenlast." },
+      { code: "SX2", text: "Fast vollständig investiert sich die sexuelle Zwei in intensiven Beziehungsphasen – diese punktuelle, hochemotionale Anstrengung erzeugt eher lokale Belastungsspitzen als eine gleichmäßig über den Alltag verteilte Rückenlast." },
         ],
       },
       {
@@ -96363,7 +96363,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Hilfe anzunehmen widerspricht dem Selbstbild der eigenständigen Leistungsfähigkeit – die selbsterhaltende Drei arbeitet effizient und allein weiter, auch wenn der Rücken längst um Entlastung bittet. Dieses konsequente Alleintragen kann sich über Jahre als chronischer Rückenschmerz zeigen." },
       { code: "SO3", text: "Meist ohne dies je offen zu zeigen, trägt die soziale Drei den Druck, im ständigen Vergleich mit anderen zu bestehen – diese unsichtbare Last des permanenten Leistungsanspruchs kann sich körperlich als Rückenschmerz niederschlagen." },
-          { code: "SX3", text: "Die sexuelle Drei setzt ihre Energie konzentriert darauf, in der Beziehung erfolgreich zu erscheinen – dieser fokussierte Einsatz erzeugt eher punktuelle Belastungsspitzen in zugespitzten Beziehungsmomenten als eine chronische, gleichmäßig verteilte Last." },
+      { code: "SX3", text: "Um in der Beziehung erfolgreich zu erscheinen, konzentriert die sexuelle Drei ihre Energie – dieser fokussierte Einsatz erzeugt eher punktuelle Belastungsspitzen in zugespitzten Beziehungsmomenten als eine chronische, gleichmäßig verteilte Last." },
         ],
       },
       {
@@ -96448,7 +96448,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Die eigene Fürsorge kommt bei der selbsterhaltenden Zwei nie beim eigenen Körper an – sie verleugnet die eigenen Bedürfnisse so konsequent, dass dieses radikale Sich-selbst-Übergehen sich als ein Immunsystem zeigen kann, das buchstäblich gegen den eigenen Körper vorgeht, weil es nie gelernt hat, ihn als schützenswert zu behandeln." },
       { code: "SO2", text: "Systematisch übergeht die soziale Zwei die eigenen Grenzen, während sie sich fortlaufend in den Dienst der Gemeinschaft stellt – dieser chronische Selbstverzicht zugunsten anderer kann sich körperlich als ein System zeigen, das die eigene Fürsorge konsequent nach außen richtet und dabei sich selbst angreift." },
-          { code: "SX2", text: "Die sexuelle Zwei richtet ihre Fürsorge intensiv auf die eine geliebte Person, was zumindest an dieser Stelle eine Form von emotionalem Austausch und Rückfluss ermöglicht – diese fokussierte Zuwendung kann den vollständigen Selbstangriff, der bei anderen Zwei-Varianten möglich ist, etwas abmildern." },
+      { code: "SX2", text: "Zumindest an dieser Stelle eine Form von emotionalem Austausch und Rückfluss ermöglicht die Fürsorge, die die sexuelle Zwei intensiv auf die eine geliebte Person richtet – diese fokussierte Zuwendung kann den vollständigen Selbstangriff, der bei anderen Zwei-Varianten möglich ist, etwas abmildern." },
         ],
       },
       {
@@ -96456,7 +96456,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Jedes Zeichen von Schwäche wird als persönliches Versagen gewertet und entsprechend hart mit sich selbst ins Gericht gegangen: So verlangt die selbsterhaltende Drei von sich selbst kompromisslose Leistung, auch wenn der Körper längst Erschöpfung signalisiert. Diese innere Härte gegen sich selbst passt zum Bild eines Immunsystems, das sich gegen den eigenen Körper wendet." },
       { code: "SO3", text: "Sobald sie im Vergleich zurückbleibt, wertet die soziale Drei die eigene Person hart ab, misst sich unaufhörlich am Erfolg anderer – diese fortlaufende innere Selbstabwertung kann sich körperlich als ein System niederschlagen, das sich selbst als Ziel wählt." },
-          { code: "SX3", text: "Die sexuelle Drei richtet ihren Perfektionsanspruch stark auf die Beziehung und das Bild, das der geliebte Mensch von ihr hat – diese Ausrichtung nach außen kann den nach innen gerichteten Selbstangriff, der für rheumatoide Arthritis typisch ist, zumindest teilweise abmildern." },
+      { code: "SX3", text: "Auf die Beziehung und das Bild, das der geliebte Mensch von ihr hat, richtet die sexuelle Drei ihren Perfektionsanspruch stark – diese Ausrichtung nach außen kann den nach innen gerichteten Selbstangriff, der für rheumatoide Arthritis typisch ist, zumindest teilweise abmildern." },
         ],
       },
       {
@@ -96541,7 +96541,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Ein Leben, das ausschließlich der Fürsorge für andere gewidmet ist, während die eigene innere Substanz nie aufgefüllt wird: So gibt die selbsterhaltende Zwei im Verborgenen, über Jahrzehnte, ohne je etwas zurückzunehmen. Ein Skelett, das über Jahre unbemerkt an Dichte verliert, weil ihm die Nährstoffe fehlen, ist psychosomatisch eines der unmittelbarsten Bilder für diesen niemals erwiderten Fluss." },
       { code: "SO2", text: "Über Jahrzehnte vergisst die soziale Zwei, sich selbst mit derselben Fürsorge zu behandeln, die sie anderen entgegenbringt, während sie sich fortlaufend in den Dienst der Gemeinschaft stellt – dieses strukturelle Ungleichgewicht kann sich als eine langsam schwindende innere Substanz zeigen." },
-          { code: "SX2", text: "Die sexuelle Zwei investiert sich in intensiven Beziehungsphasen fast vollständig – innerhalb dieser Phasen findet zumindest ein gewisser emotionaler Austausch statt, was der vollständigen, nie erwiderten Auszehrung anderer Zwei-Varianten entgegenwirkt." },
+      { code: "SX2", text: "Innerhalb intensiver Beziehungsphasen, in die sich die sexuelle Zwei fast vollständig investiert, findet zumindest ein gewisser emotionaler Austausch statt – was der vollständigen, nie erwiderten Auszehrung anderer Zwei-Varianten entgegenwirkt." },
         ],
       },
       {
@@ -96549,7 +96549,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Leistung wird höher bewertet als das eigene Wohlergehen: Die selbsterhaltende Drei arbeitet effizient weiter, über Jahre, ohne sich je bewusst Erholung oder echte Selbstfürsorge zu gönnen. Diese über Jahrzehnte fortgesetzte Vernachlässigung der eigenen Substanz zugunsten der Funktion kann sich als eine still schwindende Knochendichte zeigen." },
       { code: "SO3", text: "Über Jahre unbeachtet bleibt die innere Substanz, die eigene Selbstfürsorge, wenn die soziale Drei ihre gesamte Energie in äußere Anerkennung investiert und sich fortlaufend am Erfolg anderer misst – dieser äußere Fokus kann sich körperlich als schwindende Substanz zeigen." },
-          { code: "SX3", text: "Die sexuelle Drei setzt ihre Energie konzentriert darauf, in der Beziehung begehrenswert zu erscheinen – dieser fokussierte, aber emotional lebendige Einsatz unterscheidet sich von der reinen Funktionsorientierung anderer Drei-Varianten und kann etwas mehr innere Nährung ermöglichen." },
+      { code: "SX3", text: "Fokussiert, aber emotional lebendig setzt die sexuelle Drei ihre Energie darauf, in der Beziehung begehrenswert zu erscheinen – dieser Einsatz unterscheidet sich von der reinen Funktionsorientierung anderer Drei-Varianten und kann etwas mehr innere Nährung ermöglichen." },
         ],
       },
       {
@@ -96634,7 +96634,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Eine Erschöpfung, die sich nie an einer Aufgabe, einem Menschen oder einem Moment festmachen lässt, weil sie überall gleichzeitig stattfindet: So gibt sich die selbsterhaltende Zwei über Jahrzehnte in unzähligen kleinen, unbenannten Gesten auf. Ein Körper, der an vielen Stellen zugleich Schmerz meldet, ohne dass sich eine einzelne Ursache finden lässt, passt zu diesem über die ganze Existenz verteilten Geben." },
       { code: "SO2", text: "Zwischen unzähligen Bitten und Bedürfnissen hin und her springend, stellt sich die soziale Zwei der gesamten Gemeinschaft zur Verfügung – diese über viele gleichzeitige Fürsorgeaufgaben verteilte Erschöpfung, nirgends konzentriert, liest sich als plausibles Bild für einen diffusen, überall spürbaren Schmerz." },
-          { code: "SX2", text: "Die sexuelle Zwei konzentriert ihre Zuwendung auf die eine geliebte Person – diese Fokussierung auf einen einzigen Bereich steht dem diffusen, über den ganzen Körper verteilten Erschöpfungsmuster entgegen." },
+      { code: "SX2", text: "Auf die eine geliebte Person konzentriert die sexuelle Zwei ihre Zuwendung – diese Fokussierung auf einen einzigen Bereich steht dem diffusen, über den ganzen Körper verteilten Erschöpfungsmuster entgegen." },
         ],
       },
       {
@@ -96642,7 +96642,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Diese über den gesamten Alltag verteilte Anspannung, nirgends an einem einzelnen Punkt konzentriert, entsteht, wenn die selbsterhaltende Drei meist mehrere parallele Projekte gleichzeitig jongliert und auf vielen Ebenen zugleich arbeitet. Das passt zum Bild eines Schmerzes, der den ganzen Körper durchzieht, ohne dass sich eine einzelne Struktur dafür verantwortlich zeigt." },
       { code: "SO3", text: "In verschiedenen sozialen Kreisen orientiert sich die soziale Drei an mehreren Erfolgsmaßstäben gleichzeitig – diese ständige Verteilung der eigenen Energie auf viele Fronten kann sich als ein System zeigen, das insgesamt überlastet ist, ohne dass sich eine einzelne Ursache benennen lässt." },
-          { code: "SX3", text: "Die sexuelle Drei bündelt ihren Ehrgeiz auf die eine Beziehung – diese Fokussierung auf einen konzentrierten Bereich steht dem diffusen, über die ganze Existenz verteilten Erschöpfungsmuster entgegen." },
+      { code: "SX3", text: "Auf einen konzentrierten Bereich bündelt die sexuelle Drei ihren Ehrgeiz, die eine Beziehung – diese Fokussierung steht dem diffusen, über die ganze Existenz verteilten Erschöpfungsmuster entgegen." },
         ],
       },
       {
@@ -96727,7 +96727,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Haushalt und Fürsorge zusammenhalten, oft mit den eigenen Händen: Die selbsterhaltende Zwei packt fortlaufend Aufgaben für andere an. Dieses über Jahrzehnte wiederholte Zugreifen für andere, nie für sich selbst, passt besonders genau zum Bild eines Kanals, der sich einengt, weil er nie eine eigene Pause bekommt." },
       { code: "SO2", text: "Zu unzähligen Aufgaben gleichzeitig greift die soziale Zwei, stellt sich fortlaufend in den Dienst der Gemeinschaft – diese Vielfachbelastung der eigenen Handlungsfähigkeit, nie durch Erholung ausgeglichen, kann sich als eine eingeengte, überlastete Hand zeigen." },
-          { code: "SX2", text: "Die sexuelle Zwei investiert sich in intensiven Beziehungsphasen fast vollständig – diese punktuelle, hochemotionale Anstrengung erzeugt eher episodische Belastungsspitzen als eine gleichmäßig wiederholte mechanische Überlastung." },
+      { code: "SX2", text: "Fast vollständig investiert sich die sexuelle Zwei in intensiven Beziehungsphasen – diese punktuelle, hochemotionale Anstrengung erzeugt eher episodische Belastungsspitzen als eine gleichmäßig wiederholte mechanische Überlastung." },
         ],
       },
       {
@@ -96735,7 +96735,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Wiederholte, monotone Arbeitsbewegungen ohne ausreichende Erholung: So arbeitet die selbsterhaltende Drei effizient und mit den eigenen Händen weiter, auch wenn der Körper längst um Pause bittet. Das passt besonders genau zum mechanischen Entstehungsmuster des Karpaltunnelsyndroms." },
       { code: "SO3", text: "Um im Vergleich mit anderen zu bestehen, greift die soziale Drei fortlaufend nach neuen Erfolgen und Projekten – dieser endlose Zugriff auf immer neue Aufgaben, ohne echte Regenerationsphasen, kann sich als überlastete, eingeengte Handlungsfähigkeit zeigen." },
-          { code: "SX3", text: "Die sexuelle Drei setzt ihre Energie konzentriert darauf, in der Beziehung begehrenswert zu erscheinen – dieser fokussierte Einsatz erzeugt eher punktuelle Anspannung als eine chronische, mechanisch wiederholte Überlastung der Hand." },
+      { code: "SX3", text: "Um in der Beziehung begehrenswert zu erscheinen, konzentriert die sexuelle Drei ihre Energie – dieser fokussierte Einsatz erzeugt eher punktuelle Anspannung als eine chronische, mechanisch wiederholte Überlastung der Hand." },
         ],
       },
       {
@@ -96820,7 +96820,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Wenn er sich löst, entlädt sich mit besonderer Schärfe, was sich bei der selbsterhaltenden Zwei tief im Inneren über Jahre angesammelt hat: ein nie ausgesprochener Groll, während sie über Jahre gibt, ohne je etwas zurückzufordern. Genau dieses Muster einer lange verborgenen, dann plötzlich hervorbrechenden Intensität passt zum Bild des Gichtanfalls." },
       { code: "SO2", text: "Über Jahre verdrängt die soziale Zwei eigene Enttäuschungen, während sie sich fortlaufend in den Dienst der Gemeinschaft stellt – dieser über die Zeit angehäufte, nie benannte Groll kann sich schließlich in einem einzigen, scharfen Moment entladen." },
-          { code: "SX2", text: "Die sexuelle Zwei erlebt in intensiven Beziehungsphasen heftige, aber unmittelbar ausgedrückte emotionale Reaktionen – diese direktere Entladung steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist." },
+      { code: "SX2", text: "Heftig, aber unmittelbar ausgedrückt: So erlebt die sexuelle Zwei in intensiven Beziehungsphasen ihre emotionalen Reaktionen – diese direktere Entladung steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist." },
         ],
       },
       {
@@ -96828,7 +96828,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Über Monate angesammelter innerer Druck kann sich bei der selbsterhaltenden Drei schließlich in einem einzigen, dramatischen Zusammenbruch entladen – sie hält die Fassade der Funktionsfähigkeit über lange Zeit aufrecht und verdrängt Erschöpfung und Frustration konsequent, ganz im Bild des scheinbar plötzlichen Gichtanfalls." },
       { code: "SO3", text: "Bevor sich angestaute Frustration über ausbleibenden Erfolg schließlich Bahn bricht, hält die soziale Drei den Druck des ständigen Vergleichs mit anderen lange zurück – diese Dynamik aus langer Ansammlung und plötzlicher Entladung passt zum psychosomatischen Bild der Gicht." },
-          { code: "SX3", text: "Die sexuelle Drei drückt Frustration über ausbleibende Anerkennung in der Beziehung eher direkt und zeitnah aus – diese unmittelbarere Reaktion steht der langen, stillen Ansammlung entgegen, die für die Gicht typisch ist." },
+      { code: "SX3", text: "Eher direkt und zeitnah drückt die sexuelle Drei Frustration über ausbleibende Anerkennung in der Beziehung aus – diese unmittelbarere Reaktion steht der langen, stillen Ansammlung entgegen, die für die Gicht typisch ist." },
         ],
       },
       {
@@ -96913,7 +96913,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Ohne sie je zu variieren oder für sich selbst zu unterbrechen: So wiederholt die selbsterhaltende Zwei über Jahrzehnte dieselbe stille, zupackende Fürsorgegeste für andere. Dieses immer gleiche, nie entspannte Muster des Gebens passt besonders genau zum Bild eines Sehnenansatzes, der unter der ständigen Wiederholung derselben Bewegung erschöpft ist." },
       { code: "SO2", text: "Ohne sie je zu variieren, wiederholt die soziale Zwei in der Gemeinschaft fortlaufend dieselbe Geste des Zur-Verfügung-Stehens – diese über Jahre unveränderte, angespannte Haltung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
-          { code: "SX2", text: "Die sexuelle Zwei investiert sich in wechselnden, intensiven Beziehungsphasen unterschiedlich – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für den Tennisarm typisch ist." },
+      { code: "SX2", text: "Unterschiedlich investiert sich die sexuelle Zwei in wechselnden, intensiven Beziehungsphasen – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für den Tennisarm typisch ist." },
         ],
       },
       {
@@ -96921,7 +96921,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Ohne je bewusst zu entspannen, wiederholt die selbsterhaltende Drei über Jahre dieselben effizienten, aber verkrampften Arbeitsbewegungen. Diese monotone, nie variierte Anstrengung passt besonders direkt zum mechanischen Entstehungsmuster des Tennisarms: ein Ansatzpunkt, der unter der ständigen Wiederholung derselben Bewegung erschöpft ist." },
       { code: "SO3", text: "Immer mit demselben inneren Druck wiederholt die soziale Drei über Jahre denselben angespannten Griff nach Erfolg und Anerkennung – diese unveränderte Anstrengung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
-          { code: "SX3", text: "Die sexuelle Drei passt ihr Verhalten stark an die jeweilige Beziehung an – diese Anpassungsfähigkeit steht der starren, monotonen Wiederholung entgegen, die für den Tennisarm besonders typisch ist." },
+      { code: "SX3", text: "Stark an die jeweilige Beziehung passt die sexuelle Drei ihr Verhalten an – diese Anpassungsfähigkeit steht der starren, monotonen Wiederholung entgegen, die für den Tennisarm besonders typisch ist." },
         ],
       },
       {
@@ -97006,7 +97006,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Ein Arm, der sich ständig ausstreckt, aber nie eine Umarmung zurückerhält: So umarmt und gibt die selbsterhaltende Zwei fortwährend, ohne je selbst umarmt zu werden. Das kann sich über Jahre als eine Erschöpfung genau dieses Gelenks zeigen, das für das Geben von Nähe zuständig ist." },
       { code: "SO2", text: "Ohne je selbst aufgefangen zu werden, streckt sich die soziale Zwei fortlaufend nach der gesamten Gemeinschaft aus – diese einseitige, nie erwiderte Geste des Gebens kann sich körperlich als eine zunehmende Versteifung der Schulter zeigen." },
-          { code: "SX2", text: "Die sexuelle Zwei erhält in intensiven Beziehungsphasen durchaus Nähe zurück – dieser wechselseitige Austausch, zumindest an einer Stelle, steht der vollständigen, nie erwiderten Erschöpfung anderer Zwei-Varianten entgegen." },
+      { code: "SX2", text: "Durchaus zurückerhält die sexuelle Zwei in intensiven Beziehungsphasen Nähe – dieser wechselseitige Austausch, zumindest an einer Stelle, steht der vollständigen, nie erwiderten Erschöpfung anderer Zwei-Varianten entgegen." },
         ],
       },
       {
@@ -97014,7 +97014,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Immer bereit für die nächste Aufgabe hält die selbsterhaltende Drei ihre Schultern buchstäblich und im übertragenen Sinne straff – echte Entspannung, echtes Loslassen der Anspannung, gelingt selten. Diese über Jahre gehaltene Grundspannung passt zum Bild einer zunehmenden Erstarrung des Schultergelenks." },
       { code: "SO3", text: "Auch wenn Erschöpfung längst eingesetzt hat, hält die soziale Drei eine aufrechte, leistungsbereite Körperhaltung aufrecht – diese unveränderte, nie entspannte Haltung kann sich als eine Versteifung der Schulter zeigen." },
-          { code: "SX3", text: "Die sexuelle Drei lässt in der Beziehung durchaus emotionale Nähe und Berührung zu, um begehrenswert zu erscheinen – diese Offenheit steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist." },
+      { code: "SX3", text: "Um begehrenswert zu erscheinen, lässt die sexuelle Drei in der Beziehung durchaus emotionale Nähe und Berührung zu – diese Offenheit steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist." },
         ],
       },
       {
@@ -97099,7 +97099,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Bis ein letzter, oft unscheinbarer zusätzlicher Handgriff genügt, damit der längst überlastete Rücken plötzlich nachgibt: So gibt die selbsterhaltende Zwei über Jahre, ohne je um Entlastung zu bitten. Dieser Moment, in dem eine lange verleugnete Erschöpfung sich schließlich unübersehbar zeigt, passt besonders genau zum Bild des Hexenschusses." },
       { code: "SO2", text: "Oft über die eigenen Kräfte hinaus, ohne dies je zu benennen: So stellt sich die soziale Zwei fortlaufend in den Dienst der Gemeinschaft. Wenn diese lange angesammelte Last sich schließlich löst, geschieht dies oft plötzlich und heftig." },
-          { code: "SX2", text: "Die sexuelle Zwei investiert sich in intensiven Beziehungsphasen fast vollständig – diese punktuelle, bereits sehr intensive Anstrengung erzeugt eher unmittelbare Erschöpfung als eine lange zurückgehaltene, dann plötzlich einschießende Überlastung." },
+      { code: "SX2", text: "Bereits sehr intensiv investiert sich die sexuelle Zwei in intensiven Beziehungsphasen fast vollständig – diese punktuelle Anstrengung erzeugt eher unmittelbare Erschöpfung als eine lange zurückgehaltene, dann plötzlich einschießende Überlastung." },
         ],
       },
       {
@@ -97107,7 +97107,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Bis ein einziger zusätzlicher Handgriff, ein letztes Bücken, genügt, damit der überlastete Rücken plötzlich nachgibt: So arbeitet die selbsterhaltende Drei effizient weiter, auch wenn der Körper längst um Pause bittet. Dieses Muster, bis zum Zusammenbruch durchzuhalten, ohne vorher nachzugeben, passt besonders genau zum Bild des Hexenschusses." },
       { code: "SO3", text: "Ohne die eigene Erschöpfung je zu zeigen, hält die soziale Drei den Druck des ständigen Vergleichs mit anderen lange durch – wenn diese lange angesammelte Überforderung sich schließlich löst, geschieht dies oft plötzlich und unübersehbar." },
-          { code: "SX3", text: "Die sexuelle Drei zeigt Erschöpfung in der Beziehung eher direkt, wenn ihr Bild als erfolgreiche Partnerin bedroht scheint – diese unmittelbarere Reaktion steht dem lange zurückgehaltenen, dann plötzlich einschießenden Muster entgegen." },
+      { code: "SX3", text: "Wenn ihr Bild als erfolgreiche Partnerin bedroht scheint, zeigt die sexuelle Drei Erschöpfung in der Beziehung eher direkt – diese unmittelbarere Reaktion steht dem lange zurückgehaltenen, dann plötzlich einschießenden Muster entgegen." },
         ],
       },
       {
@@ -97192,7 +97192,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Ohne sie je zu variieren: So wiederholt die selbsterhaltende Zwei über Jahrzehnte dieselbe stille, zupackende Fürsorgegeste für andere. Dieses immer gleiche, nie unterbrochene Muster des Gebens passt besonders genau zum Bild einer Schutzhülle, die sich unter der ständigen Wiederholung derselben Bewegung entzündet." },
       { code: "SO2", text: "Über Jahre unverändert wiederholt die soziale Zwei in der Gemeinschaft fortlaufend dieselbe Geste des Zur-Verfügung-Stehens – diese konkrete körperliche Anstrengung kann sich als eine entzündete Sehnenscheide zeigen." },
-          { code: "SX2", text: "Die sexuelle Zwei investiert sich in wechselnden, intensiven Beziehungsphasen unterschiedlich – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für die Sehnenscheidenentzündung typisch ist." },
+      { code: "SX2", text: "Unterschiedlich investiert sich die sexuelle Zwei in wechselnden, intensiven Beziehungsphasen – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für die Sehnenscheidenentzündung typisch ist." },
         ],
       },
       {
@@ -97200,7 +97200,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Ohne je bewusst zu pausieren, wiederholt die selbsterhaltende Drei über Jahre dieselben effizienten, aber monotonen Arbeitsbewegungen. Diese ständige, nie unterbrochene Anstrengung passt besonders direkt zum mechanischen Entstehungsmuster der Sehnenscheidenentzündung: eine Hülle, die sich entzündet, weil sie nie eine Erholungspause bekam." },
       { code: "SO3", text: "Oft mit denselben konkreten Handlungen wiederholt die soziale Drei über Jahre denselben angespannten Griff nach Erfolg – diese unveränderte Anstrengung kann sich als eine entzündete Schutzhülle zeigen." },
-          { code: "SX3", text: "Die sexuelle Drei passt ihr Verhalten stark an die jeweilige Beziehung an – diese Anpassungsfähigkeit steht der starren, monotonen Wiederholung entgegen, die für die Sehnenscheidenentzündung besonders typisch ist." },
+      { code: "SX3", text: "Stark an die jeweilige Beziehung passt die sexuelle Drei ihr Verhalten an – diese Anpassungsfähigkeit steht der starren, monotonen Wiederholung entgegen, die für die Sehnenscheidenentzündung besonders typisch ist." },
         ],
       },
       {
