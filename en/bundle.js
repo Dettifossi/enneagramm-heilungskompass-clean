@@ -60806,6 +60806,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to high blood pressure, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates with inner pressure in its own way – some through control and tension, others through withdrawal, exhaustion, or a need of their own that was never voiced. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  herzinsuffizienz: {
+    titel: "Heart Failure",
+    kategorie: "herz-kreislauf",
+    icon: "&#128148;",
+    kurz: "When a heart that has given everything for years finally can't anymore.",
+    definition: "Heart failure (cardiac insufficiency) refers to the heart's inability to supply the body with enough blood, and therefore enough oxygen – usually the result of pre-existing damage progressing over years, such as coronary artery disease, chronic high blood pressure, a previous heart attack, or heart valve disease. Unlike an acute heart attack, heart failure is generally not a sudden catastrophe but a gradual process of the heart muscle wearing itself out, often over years. Severity is classified according to the NYHA scale (I to IV), from barely noticeable limitation to symptoms already present at rest.",
+    symptome: [
+      "Shortness of breath, at first only under exertion, in advanced stages also at rest or lying down",
+      "Rapid exhaustion and reduced capacity for everyday activities",
+      "Fluid retention (edema) in the ankles and lower legs, in advanced stages also in the abdomen",
+      "Rapid, unintended weight gain from fluid retention within a few days",
+      "Nighttime coughing, restlessness while lying down, a need to sleep with the upper body raised",
+      "Rapid or irregular heartbeat, pale or bluish lips under greater exertion",
+    ],
+    notfall: "In the case of sudden, severe shortness of breath, especially at rest or lying down, combined with anxiety, frothy or pink-tinged sputum, rapid heartbeat, or bluish lips: call emergency services immediately. This can indicate acute decompensation with pulmonary edema – a life-threatening condition requiring immediate emergency medical care, not a moment for psychosomatic interpretation.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Where a heart attack is the sudden, dramatic event, psychosomatic medicine tends to read heart failure as the slow, often decades-long picture of a strength that gave beyond its limits for too long. Traditional Chinese Medicine describes a related state as Heart Qi deficiency or Heart Yang deficiency – an exhaustion of the vital fire energy that arises not from a single shock but from sustained depletion. In this sense, heart failure is less the picture of a sudden break than that of a heart that gave more, for years, than it ever received back – until its own substance is exhausted.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that has used up its own strength over the years",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One maintains an inner control for decades that binds enormous strength without ever resting. Psychosomatic medicine reads this permanent discipline, which never allows for recovery, as a plausible picture for a source of strength that quietly depletes itself over the years." },
+          { code: "SO1", text: "The social One continually invests its energy into the moral improvement of the group – the engagement gives the anger an outlet, but at the same time continually drains its own reserves, without this ever being named as exhaustion." },
+          { code: "SX1", text: "The sexual One lives anger more directly, within the relationship itself – potentially less chronic, sustained exhaustion, but recurring, intense expenditures of strength in emotionally charged moments." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that has given itself empty",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two lives the sentence &bdquo;I need no one&ldquo; most literally – a quiet, never reciprocated giving over decades. A heart that only ever gives and never receives is psychosomatically one of the most direct pictures for a gradually depleted source of strength." },
+          { code: "SO2", text: "The social Two seeks meaning through constant availability to the community – the inability to say no leads, over the years, to a gradual, never-acknowledged depletion of its own strength." },
+          { code: "SX2", text: "The sexual Two invests intense, often possessive giving into the one relationship – here the exhaustion tends to arise episodically, in phases of especially intense emotional investment, rather than evenly over the years." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that uses up its own substance",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps working quietly and efficiently even when the body has long been asking for a break – exhaustion is read as a weakness to be overcome, not as a warning sign. Over decades, this consistent disregard for one's own limits can exhaust the substance itself." },
+          { code: "SO3", text: "The social Three seeks success visibly and in constant comparison with others – a life in competition mode that rarely knows real periods of recovery and continually draws on its own strength over the years." },
+          { code: "SX3", text: "The sexual Three deploys constant self-optimization within the relational context – the pressure to never let up even in the most intimate sphere drains, over the years, a substance that is rarely consciously spared." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that slowly drains strength",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – a years-long, unspoken longing can settle into the body as a quiet, never addressed exhaustion." },
+          { code: "SO4", text: "The social Four makes its own suffering visible and part of its own identity – the emotional intensity at least finds an outward outlet, which may work against pure physical depletion." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity, often in constant comparison with ideals or other relationships – intense, episodic exertions of strength shape the picture here more than an even depletion." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that spares its own reserves – and isolates",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically and minimizes needs – behavior that saves strength in the short term but socially isolates. Isolation is itself a recognized medical risk factor for a poorer course in existing cardiovascular disease." },
+          { code: "SO5", text: "The social Five seeks access to the group through knowledge but keeps inner distance – a mixture of participation and withdrawal that rarely shows its own exhaustion openly." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – a narrow, deep connection that at least allows real exchange of strength and closeness in one place." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that drains the reserves over the years",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six lives in a form of permanent alertness – constant caution and preparation for the worst consumes energy over the years that the body then lacks elsewhere." },
+          { code: "SO6", text: "The social Six seeks safety through belonging to a group or authority – the worry for the collective is rarely voiced openly but continually drains its own strength." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation rather than withdrawal – this mixture of fear and anger produces episodic exertions of strength rather than an even, sustained strain." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that overdraws the reserves",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through options, networks, and indulgences – restlessness and many parallel projects lead to exhaustion through scattering that is rarely taken seriously as a warning sign." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – an idealistic, often duty-bound self-sacrifice that denies its own exhaustion for a long time." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – a lifestyle that consumes substance rather than preserving it, compounded by possible susceptibility to nicotine, alcohol, or other stimulants that can place additional strain on heart function." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that holds out until exhaustion",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight secures its own existence through control over material and physical resources – the need for rest is experienced as weakness, not a legitimate need. The system runs permanently under high tension, until strength is eventually exhausted." },
+          { code: "SO8", text: "The social Eight takes on responsibility and leadership for the group, often in a protector role – the permanent leadership tension and the conviction of never being allowed to be weak consume considerable strength over the years." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – the strain shows up more in extreme swings than in even exhaustion." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting whose strength eventually runs out",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort, routine, and conflict avoidance – outwardly much looks relaxed, but the decades-long continued self-forgetting also means: its own exhaustion is never consciously noticed, until strength actually stops being sufficient." },
+          { code: "SO9", text: "The social Nine seeks harmony at any cost within the group, consistently subordinating its own opinion – a chronic self-erasure in favor of social peace that quietly affects its own strength over a long time." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a heart that beat for the other for decades before ever noticing its own exhaustion." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to heart failure, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates its own exhaustion and regulation of strength in its own way – some through sustained effort and control, others through withdrawal, quiet giving, or a need of their own that was never heard. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -60813,7 +60906,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // and then moved into PSYCHOSOMATIK_KRANKHEITEN. Until then they appear on the overview
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["Stroke", "Heart Failure", "Atrial Fibrillation", "Coronary Artery Disease / Angina Pectoris", "Varicose Veins", "Thrombosis", "Low Blood Pressure (Hypotension)"],
+  "herz-kreislauf": ["Stroke", "Atrial Fibrillation", "Coronary Artery Disease / Angina Pectoris", "Varicose Veins", "Thrombosis", "Low Blood Pressure (Hypotension)"],
   "bewegungsapparat": ["Back Pain / Herniated Disc", "Osteoarthritis", "Rheumatoid Arthritis", "Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
