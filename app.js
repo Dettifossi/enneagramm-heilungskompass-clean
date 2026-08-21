@@ -31406,6 +31406,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Sozialer Typ 9", krankheit:"Alzheimer-Krankheit", teaser:"SO9w8 – 40. US-Präsident 1981–1989, 1911–2004. Gab 1994 in einem handschriftlichen Brief an die amerikanische Öffentlichkeit seine Alzheimer-Diagnose bekannt und zog sich danach zehn Jahre lang fast vollständig aus der Öffentlichkeit zurück." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Sozialer Typ 1", krankheit:"Leberkrebs", teaser:"SO1w2 – Musiker und Künstler, 1947–2016. Kämpfte 18 Monate lang im Verborgenen gegen Leberkrebs und verwandelte die Diagnose in sein letztes Werk, das Album Blackstar, das zwei Tage vor seinem Tod erschien." , land:"Vereinigtes Königreich", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2", krankheit:"Fieberhafte Erkrankung mit Nierenversagen (vermutlich Folge einer Streptokokken-Infektion)", teaser:"SE2w3 – österreichischer Komponist, 1756–1791. Von Kindheit an eine Kette fieberhafter Erkrankungen (Pocken, Typhus, wiederkehrendes Scharlach), starb 1791 mit 35 Jahren nach zweiwöchiger Krankheit mit Fieber und generalisierten Ödemen – während er gleichzeitig an drei Großwerken arbeitete, darunter das unvollendete Requiem." , land:"Österreich", gender:"m", jahre:"1756–1791"},
+  { route:"krankheitsportraets-marilyn-monroe", name:"Marilyn Monroe", subtyp:"SX3w4", heading:"Marilyn Monroe – Sexueller Typ 3", krankheit:"Tödliche Kombination aus Barbituraten (Nembutal) und Chloralhydrat, offiziell als wahrscheinlicher Suizid eingestuft", teaser:"SX3w4 – Schauspielerin, 1926–1962. Jahrelang hinter dem makellosen Image verborgene Endometriose, eskalierende Schlafmittelabhängigkeit, ein erzwungener Psychiatrieaufenthalt 1961. Starb 1962 mit 36 Jahren – die genauen Todesumstände sind bis heute umstritten." , land:"USA", gender:"f", jahre:"1926–1962"},
   { route:"krankheitsportraets-osho", name:"Osho", subtyp:"SE3w4", heading:"Osho – Selbsterhaltender Typ 3", krankheit:"Herzversagen nach chronischen Beschwerden (Diabetes, Asthma, Rückenschmerzen) und einer bis heute umstrittenen Vergiftungsbehauptung", teaser:"SE3w4 – spiritueller Lehrer, 1931–1990. Chronische Beschwerden seit den frühen 1970ern, zwölftägige Haft in den USA 1985, danach neue Symptome, die er und sein Umfeld auf eine nie unabhängig bestätigte Vergiftung zurückführten. Starb 1990 mit 58 Jahren – die genaue Todesursache bleibt bis heute umstritten." , land:"Indien", gender:"m", jahre:"1931–1990"},
   { route:"krankheitsportraets-elvis-presley", name:"Elvis Presley", subtyp:"SX2w3", heading:"Elvis Presley – Sexueller Typ 2", krankheit:"Herzrhythmusstörung bei Herz-Kreislauf-Erkrankung und Megakolon, begünstigt durch jahrelange Medikamentenabhängigkeit", teaser:"SX2w3 – Musiker, 1935–1977. Über ein Jahrzehnt eskalierende Medikamentenabhängigkeit, ein stark vergrößertes Herz und ein Megakolon laut Autopsie. Tourte fast ununterbrochen weiter, während sein Körper sichtbar zusammenbrach. Starb 1977 mit nur 42 Jahren – die genaue Todesursache wird bis heute diskutiert." , land:"USA", gender:"m", jahre:"1935–1977"},
   { route:"krankheitsportraets-napoleon-bonaparte", name:"Napoleon Bonaparte", subtyp:"SO2w3", heading:"Napoleon Bonaparte – Sozialer Typ 2", krankheit:"Magenkarzinom (nach Autopsie), zuvor jahrzehntelange wiederkehrende Magenbeschwerden", teaser:"SO2w3 – französischer Kaiser und Feldherr, 1769–1821. Über Jahrzehnte wiederkehrende Magenbeschwerden, eine umstrittene Episode bei Waterloo, dramatischer Verfall im Exil auf St. Helena. Starb 1821 an einem Magenkarzinom – derselben Krankheit, an der wahrscheinlich auch sein Vater starb." , land:"Frankreich", gender:"m", jahre:"1769–1821"},
@@ -58370,12 +58371,15 @@ function marilynMonroePortraitPage() {
           <p class="vb-intro">Der Pfau, der nie die Gelegenheit bekam, sein Gefieder endg\u00fcltig f\u00fcr sich selbst zu tragen, statt f\u00fcr ein Publikum, das nie genug bekommen konnte.</p>
         </blockquote>
 
+        <p class="vb-intro">Die jahrelang verborgene Endometriose, die eskalierende Schlafmittelabh\u00e4ngigkeit und die bis heute umstrittenen Umst\u00e4nde ihres Todes 1962 werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-marilyn-monroe">Krankheitsportr\u00e4t zu Monroe</a> gedeutet.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"krankheitsportraets-marilyn-monroe", label:"Krankheitsportr\u00e4t: Marilyn Monroe (SX3w4)"},
         {route:"subtype/sx3", label:"SX3 \u2013 Der Pfau: Subtyp-Profil"},
         {route:"beruehmte-meg-ryan", label:"Portr\u00e4t: Meg Ryan (SX3w4)"},
         {route:"beruehmte-dieter-bohlen", label:"Portr\u00e4t: Dieter Bohlen (SX3w4)"},
@@ -69615,6 +69619,181 @@ function oshoKrankheitsportraetPage() {
         {route:"beruehmte-osho", label:"Porträt: Osho (SE3w4) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se3", label:"Subtyp-Profil SE3"},
+      ])}
+    </div>
+  `);
+}
+
+function marilynMonroeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marilyn-monroe-portrait.jpg" alt="Marilyn Monroe" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marilyn Monroe</p>
+        <p class="krim-portrait-typ">SX3w4 · Sexueller Typ 3 mit Viererflügel · 1926–1962</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Pfau</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx3.jpg" alt="Tierentsprechung: Pfau" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX3")};left:${tierAvatarLeft("SX3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Marilyn Monroe</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-marilyn-monroe">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihr Lebenswerk und ihre Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: eine
+        jahrelang hinter dem makellosen Image verborgene Endometriose, eine eskalierende
+        Schlafmittelabhängigkeit und ein Tod 1962, dessen genaue Umstände bis heute umstritten
+        sind.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Monroe</strong> ist dem <strong>sexuellen Typ 3 mit Viererflügel</strong>
+        zugeordnet. Die SX3 richtet den Erfolgsanspruch der Drei auf unwiderstehliche
+        Anziehungskraft und Faszination im engsten, intimsten Kreis – und lebt zugleich mit
+        der tiefen Angst, hinter der Maske leer zu sein. Der Viererflügel bringt eine
+        melancholische Tiefe hinzu, die Sehnsucht nach einem authentischen Selbst jenseits der
+        Rolle – eine Spannung, die sich bis in Monroes verborgene Krankheitsgeschichte
+        nachverfolgen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Schmerz, der hinter dem Image verschwinden musste:</strong>
+        Monroes chronische Endometriose-Beschwerden durften das makellose öffentliche Bild
+        nie stören – Verträge sollen sie sogar gezielt vor Arbeit während besonders
+        schmerzhafter Phasen geschützt haben, ohne dass die Öffentlichkeit je davon erfuhr.</p>
+        <p class="vb-intro"><strong>b) Die eigene Erschöpfung als etwas, das nicht sein durfte:</strong>
+        Auch als Schlaflosigkeit und Medikamentenkonsum zunahmen, blieb der äußere Auftritt
+        bis zuletzt makellos inszeniert – die Kluft zwischen innerem Zustand und öffentlichem
+        Bild wuchs Jahr für Jahr.</p>
+        <p class="vb-intro"><strong>c) Ein Rückzug, der erst spät sichtbar wurde:</strong>
+        Erst 1962, bei den Dreharbeiten zu "Something's Got to Give", wurde der innere
+        Zusammenbruch für Außenstehende unübersehbar – vorher war er hinter Professionalität
+        und Selbstkontrolle verborgen geblieben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine chronische, nie öffentlich gemachte Erkrankung:</strong>
+        Monroe litt ihr gesamtes Erwachsenenleben an Endometriose, wurde mehrfach operiert
+        und erlitt mindestens drei dokumentierte Fehlgeburten, darunter eine
+        Eileiterschwangerschaft 1957 – keine ihrer Schwangerschaften wurde ausgetragen.</p>
+        <p class="vb-intro"><strong>b) Eskalierende Schlafmittelabhängigkeit:</strong>
+        Bereits ab den frühen 1950er-Jahren dokumentiert, verschärfte sich der Konsum von
+        Barbituraten und Chloralhydrat über die Jahre; ab 1960 verschrieb ihr Psychiater
+        Ralph Greenson ihr regelmäßig Nembutal.</p>
+        <p class="vb-intro"><strong>c) Eine belastete familiäre Vorgeschichte:</strong>
+        Monroes Mutter litt an paranoider Schizophrenie, ihr Großvater mütterlicherseits
+        starb an einer Spätfolge einer unbehandelten Syphilis-Infektion in einer Anstalt –
+        Monroe selbst fürchtete zeitlebens, psychische Erkrankung sei in ihrer Familie
+        "verflucht".</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Vier Tage in der geschlossenen Psychiatrie:</strong>
+        Im Februar 1961 wurde Monroe von ihrer Analytikerin in die Payne Whitney Psychiatric
+        Clinic eingewiesen, in der Annahme, dort eine "Ruhekur" zu erhalten. Stattdessen
+        landete sie auf einer geschlossenen Station, die sie später mit einem Gefängnis
+        verglich – nach vier Tagen wurde sie auf Betreiben von Joe DiMaggio entlassen.</p>
+        <p class="vb-intro"><strong>b) Siebzehn versäumte Drehtage:</strong>
+        Bei den Dreharbeiten zu "Something's Got to Give" 1962 fehlte Monroe an siebzehn von
+        dreißig Drehtagen wegen Krankheit; die Produktion geriet über eine Million Dollar
+        über Budget.</p>
+        <p class="vb-intro"><strong>c) Entlassung durch das Studio:</strong>
+        Am 8. Juni 1962 entließ 20th Century Fox sie wegen "spektakulärer Abwesenheit" und
+        verklagte sie auf 750.000 Dollar – eine Wiedereinstellung für den Herbst wurde zwar
+        noch ausgehandelt, kam durch ihren Tod aber nicht mehr zustande.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 4./5. August 1962:</strong>
+        Monroe wurde tot in ihrem Haus in Brentwood aufgefunden. Die Autopsie stellte eine
+        tödliche Kombination aus Nembutal und Chloralhydrat fest – eine Menge, die laut dem
+        zuständigen Coroner ausgereicht hätte, um mehrere Menschen zu töten.</p>
+        <p class="vb-intro"><strong>b) Eine offiziell bewusst vorsichtige Formulierung:</strong>
+        Der Coroner stufte den Tod als "wahrscheinlichen Suizid" ein – nicht als
+        zweifelsfreien Suizid. Diese eingebaute Unsicherheit ist Teil des offiziellen
+        Befundes selbst, nicht nachträgliche Spekulation.</p>
+        <p class="vb-intro"><strong>c) Bis heute unbewiesene Gegentheorien:</strong>
+        Neben einer versehentlichen Überdosis und Suizid kursieren bis heute
+        Mordtheorien, meist im Kontext angeblicher Affären mit John und Robert Kennedy –
+        historiografisch gelten diese als unbewiesen und spekulativ, wurden aber nie
+        vollständig widerlegt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Glanz als Überlebensstrategie bis zur Erschöpfung:</strong>
+        Die strahlende, faszinierende Öffentlichkeitspersona verlangte Monroe ein Höchstmaß
+        an Energie ab, während im Verborgenen Schmerz, Schlaflosigkeit und Medikamentenkonsum
+        zunahmen.</p>
+        <p class="vb-intro"><strong>b) Ein Rückzug, der wie Kontrollverlust aussah:</strong>
+        Die zunehmenden Fehlzeiten am Set 1962 lassen sich auch als Bewegung Richtung des
+        Neuner-Stresspunkts der Drei lesen: Rückzug, Verzögerung, ein passives Entgleiten
+        statt eines offen ausgetragenen Zusammenbruchs.</p>
+        <p class="vb-intro"><strong>c) Der Pfau, dessen Federn zuletzt kaum noch zu tragen waren:</strong>
+        Bis zuletzt versuchte Monroe, die öffentliche Erwartung an Glanz und Perfektion zu
+        erfüllen, selbst als die eigene Kraft dafür längst nicht mehr ausreichte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Kindheit voller Brüche:</strong>
+        Elf Pflegefamilien, zeitweise ein Waisenhausaufenthalt und sexueller Missbrauch in
+        mindestens drei Pflegefamilien prägten Monroes frühe Jahre – eine Vorgeschichte, die
+        sie selbst später mit ihrer psychischen Verletzlichkeit in Verbindung brachte.</p>
+        <p class="vb-intro"><strong>b) Eine Krankheit, die zwei Jahrzehnte lang verborgen blieb:</strong>
+        Von den ersten dokumentierten Beschwerden bis zu ihrem Tod 1962 zieht sich eine
+        durchgehende, aber öffentlich fast vollständig unsichtbare Linie aus chronischem
+        Schmerz und zunehmender Medikamentenabhängigkeit.</p>
+        <p class="vb-intro"><strong>c) Ein letztes Jahr des offenen Zusammenbruchs:</strong>
+        Erst 1962 – Klinikaufenthalt, versäumte Drehtage, Entlassung – wurde sichtbar, was
+        zuvor jahrelang hinter der Fassade gehalten worden war.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die reproduktiven Organe?</strong>
+        Für eine sexuelle Drei mit Viererflügel, deren öffentliches Image untrennbar mit
+        Weiblichkeit, Begehrenswürdigkeit und makelloser Ausstrahlung verbunden war, liegt
+        eine Deutung nahe: Ausgerechnet jener Körperbereich, der am unmittelbarsten mit dem
+        vermarkteten Bild der Fruchtbarkeit und Verführung verknüpft war, wurde zum Ort
+        chronischen, geheim gehaltenen Leidens. Der Schmerz, der am wenigsten zum Image
+        passte, war genau der, den sie am längsten verbarg. Diese Deutung ist eine
+        plausible Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Drei zwangsläufig zu Endometriose
+        oder Medikamentenabhängigkeit führt – <strong>jeder Mensch kann jede Krankheit
+        bekommen, unabhängig vom Subtyp.</strong> Was sich an Monroes Fall zeigen lässt, ist
+        ein Muster, das bei dem Bedürfnis, Schmerz und Verletzlichkeit hinter einem
+        makellosen öffentlichen Bild zu verbergen, in der Praxis immer wieder auffällt –
+        eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild
+        wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Am Beispiel <strong>Monroes</strong> zeigt sich die sexuelle Drei mit Viererflügel
+        noch einmal auf besonders schmerzhafte Weise: eine chronische Krankheit, jahrelang
+        hinter makellosem Glanz verborgen, eine eskalierende Medikamentenabhängigkeit und ein
+        Tod, dessen genaue Umstände bis heute nicht abschließend geklärt sind. Der Pfau,
+        dessen Federn der Welt Schönheit zeigten, während dahinter ein erschöpfter,
+        schmerzgeplagter Körper um Beachtung rang, die er sich selbst nie erlaubte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-marilyn-monroe", label:"Porträt: Marilyn Monroe (SX3w4) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx3", label:"Subtyp-Profil SX3"},
       ])}
     </div>
   `);
@@ -98624,6 +98803,7 @@ function render() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-marilyn-monroe": marilynMonroeKrankheitsportraetPage,
       "krankheitsportraets-osho": oshoKrankheitsportraetPage,
       "krankheitsportraets-elvis-presley": elvisPresleyKrankheitsportraetPage,
       "krankheitsportraets-napoleon-bonaparte": napoleonBonaparteKrankheitsportraetPage,

@@ -201,6 +201,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Social Type 9", krankheit:"Alzheimer's Disease", teaser:"SO9w8 – 40th US President 1981–1989, 1911–2004. Announced his Alzheimer's diagnosis in 1994 in a handwritten letter to the American public, then withdrew almost entirely from public life for the following ten years." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Social Type 1", krankheit:"Liver Cancer", teaser:"SO1w2 – musician and artist, 1947–2016. Fought liver cancer in secret for 18 months and transformed the diagnosis into his final work, the album Blackstar, released two days before his death." , land:"United Kingdom", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Self-Preservation Type 2", krankheit:"Febrile Illness with Kidney Failure (likely following a streptococcal infection)", teaser:"SE2w3 – Austrian composer, 1756–1791. A lifelong chain of feverish illnesses since childhood (smallpox, typhoid fever, recurring scarlet fever) preceded his death at 35 after a two-week illness with fever and generalized swelling – while he was working on three major works at once, including the unfinished Requiem." , land:"Austria", gender:"m", jahre:"1756–1791"},
+  { route:"krankheitsportraets-marilyn-monroe", name:"Marilyn Monroe", subtyp:"SX3w4", heading:"Marilyn Monroe – Sexual Type 3", krankheit:"Fatal combination of barbiturates (Nembutal) and chloral hydrate, officially classified as probable suicide", teaser:"SX3w4 – actress, 1926–1962. Endometriosis hidden for years behind a flawless image, escalating dependency on sleeping pills, a forced psychiatric hospitalization in 1961. Died in 1962 at 36 – the exact circumstances of her death remain disputed to this day." , land:"USA", gender:"f", jahre:"1926–1962"},
   { route:"krankheitsportraets-osho", name:"Osho", subtyp:"SE3w4", heading:"Osho – Self-Preservation Type 3", krankheit:"Heart failure after chronic ailments (diabetes, asthma, back pain) and a disputed poisoning claim", teaser:"SP3w4 – spiritual teacher, 1931–1990. Chronic ailments dating back to the early 1970s, a twelve-day detention in the United States in 1985, followed by new symptoms he and his circle attributed to a never independently confirmed poisoning. Died in 1990 at 58 – the exact cause of death remains disputed to this day." , land:"India", gender:"m", jahre:"1931–1990"},
   { route:"krankheitsportraets-elvis-presley", name:"Elvis Presley", subtyp:"SX2w3", heading:"Elvis Presley – Sexual Type 2", krankheit:"Cardiac arrhythmia with cardiovascular disease and megacolon, worsened by years of drug dependency", teaser:"SX2w3 – musician, 1935–1977. A decade-long escalating drug dependency, a severely enlarged heart, and a megacolon per autopsy. Kept touring almost without pause while his body visibly collapsed. Died in 1977 at only 42 – the exact cause of death is still debated today." , land:"USA", gender:"m", jahre:"1935–1977"},
   { route:"krankheitsportraets-napoleon-bonaparte", name:"Napoleon Bonaparte", subtyp:"SO2w3", heading:"Napoleon Bonaparte – Social Type 2", krankheit:"Gastric cancer (per autopsy), preceded by decades of recurring stomach ailments", teaser:"SO2w3 – French emperor and military leader, 1769–1821. Decades of recurring stomach ailments, a disputed episode at Waterloo, dramatic decline in exile on St. Helena. Died in 1821 of gastric cancer – the same disease that likely killed his father." , land:"France", gender:"m", jahre:"1769–1821"},
@@ -22549,12 +22550,15 @@ function marilynMonroePortraitPage() {
           <p class="vb-intro">The peacock that never got the chance to finally wear its plumage for itself, rather than for an audience that could never get enough.</p>
         </blockquote>
 
+        <p class="vb-intro">The endometriosis hidden for years, the escalating dependency on sleeping pills, and the still-disputed circumstances of her death in 1962 are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-marilyn-monroe">Illness Portrait of Monroe</a>.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"krankheitsportraets-marilyn-monroe", label:"Illness Portrait: Marilyn Monroe (SX3w4)"},
         {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
         {route:"beruehmte-meg-ryan", label:"Portrait: Meg Ryan (SX3w4)"},
         {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
@@ -42684,6 +42688,175 @@ function oshoKrankheitsportraetPage() {
         {route:"beruehmte-osho", label:"Portrait: Osho (SP3w4) – life's work"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se3", label:"Subtype Profile SP3"},
+      ])}
+    </div>
+  `);
+}
+
+function marilynMonroeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-marilyn-monroe-portrait.jpg" alt="Marilyn Monroe" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marilyn Monroe</p>
+        <p class="krim-portrait-typ">SX3w4 · Sexual Type 3 with Four-wing · 1926–1962</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Peacock</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx3.jpg" alt="Animal correspondence: Peacock" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX3")};left:${tierAvatarLeft("SX3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Marilyn Monroe</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-marilyn-monroe">portrait under Famous Personalities</a>
+        in this Compass – that page covers her life's work and type structure in general.
+        This portrait is devoted to a chapter barely present there: endometriosis hidden for
+        years behind a flawless image, an escalating dependency on sleeping pills, and a death
+        in 1962 whose exact circumstances remain disputed to this day.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Monroe</strong> is classified as the <strong>Sexual Three with Four-wing</strong>.
+        SX3 directs the Three's drive for success at irresistible attraction and fascination
+        within the closest, most intimate circle – while living with a deep fear of being
+        empty behind the mask. The Four-wing adds a melancholic depth, a longing for an
+        authentic self beyond the role – a tension traceable right into Monroe's hidden
+        illness history.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Pain that had to disappear behind the image:</strong>
+        Monroe's chronic endometriosis symptoms were never allowed to disturb the flawless
+        public image – contracts are said to have specifically protected her from work
+        during particularly painful phases, without the public ever learning why.</p>
+        <p class="vb-intro"><strong>b) Her own exhaustion as something that wasn't allowed to exist:</strong>
+        Even as insomnia and medication use increased, her outward appearance remained
+        flawlessly staged to the end – the gap between inner state and public image widened
+        year after year.</p>
+        <p class="vb-intro"><strong>c) A withdrawal that only became visible late:</strong>
+        Only in 1962, during the filming of "Something's Got to Give," did her inner
+        breakdown become unmistakable to outsiders – before that it had remained hidden
+        behind professionalism and self-control.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) A chronic illness never made public:</strong>
+        Monroe suffered from endometriosis throughout her adult life, underwent multiple
+        surgeries, and had at least three documented miscarriages, including an ectopic
+        pregnancy in 1957 – none of her pregnancies were carried to term.</p>
+        <p class="vb-intro"><strong>b) Escalating dependency on sleeping pills:</strong>
+        Documented as early as the early 1950s, her use of barbiturates and chloral hydrate
+        intensified over the years; from 1960 onward her psychiatrist Ralph Greenson
+        regularly prescribed her Nembutal.</p>
+        <p class="vb-intro"><strong>c) A burdened family history:</strong>
+        Monroe's mother suffered from paranoid schizophrenia; her maternal grandfather died
+        of a late-stage complication of untreated syphilis in an institution – Monroe
+        herself feared throughout her life that mental illness was "cursed" into her family
+        line.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Four days in a locked psychiatric ward:</strong>
+        In February 1961, Monroe was admitted by her analyst to the Payne Whitney
+        Psychiatric Clinic, believing she would receive a "rest cure." Instead she found
+        herself on a locked ward, which she later compared to a prison – she was released
+        after four days through the intervention of Joe DiMaggio.</p>
+        <p class="vb-intro"><strong>b) Seventeen missed filming days:</strong>
+        During the filming of "Something's Got to Give" in 1962, Monroe missed seventeen of
+        thirty shooting days due to illness; the production ran over a million dollars over
+        budget.</p>
+        <p class="vb-intro"><strong>c) Dismissal by the studio:</strong>
+        On June 8, 1962, 20th Century Fox fired her for "spectacular absenteeism" and sued
+        her for 750,000 dollars – a re-hiring for the fall was negotiated but never
+        materialized due to her death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Death on August 4/5, 1962:</strong>
+        Monroe was found dead in her home in Brentwood. The autopsy found a fatal
+        combination of Nembutal and chloral hydrate – a quantity that, according to the
+        coroner, would have been enough to kill several people.</p>
+        <p class="vb-intro"><strong>b) A deliberately cautious official wording:</strong>
+        The coroner classified the death as "probable suicide" – not an unambiguous suicide.
+        This built-in uncertainty is part of the official finding itself, not later
+        speculation.</p>
+        <p class="vb-intro"><strong>c) Unproven counter-theories that persist to this day:</strong>
+        Alongside accidental overdose and suicide, murder theories continue to circulate,
+        usually in the context of alleged affairs with John and Robert Kennedy –
+        historiographically these are considered unproven and speculative, though never
+        fully disproven either.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Radiance as a survival strategy to the point of exhaustion:</strong>
+        The dazzling, fascinating public persona demanded a maximum of energy from Monroe,
+        while pain, insomnia, and medication use quietly intensified behind the scenes.</p>
+        <p class="vb-intro"><strong>b) A withdrawal that looked like loss of control:</strong>
+        The mounting absences on set in 1962 can also be read as movement toward the Three's
+        stress point, Nine: withdrawal, delay, a passive slipping away rather than an openly
+        fought breakdown.</p>
+        <p class="vb-intro"><strong>c) The peacock whose feathers grew almost too heavy to carry:</strong>
+        To the end, Monroe tried to meet public expectations of radiance and perfection,
+        even as her own strength for it had long since run out.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A childhood full of ruptures:</strong>
+        Eleven foster families, a stint in an orphanage, and sexual abuse in at least three
+        foster homes marked Monroe's early years – a history she herself later connected to
+        her psychological vulnerability.</p>
+        <p class="vb-intro"><strong>b) An illness hidden for two decades:</strong>
+        From the first documented symptoms to her death in 1962, a continuous but publicly
+        almost entirely invisible line of chronic pain and growing medication dependency
+        runs through her life.</p>
+        <p class="vb-intro"><strong>c) One final year of open breakdown:</strong>
+        Only in 1962 – hospitalization, missed filming days, dismissal – did what had been
+        held behind the facade for years become visible.</p>
+        <p class="vb-intro"><strong>d) Why, of all things, the reproductive organs?</strong>
+        For a Sexual Three with Four-wing whose public image was inseparably tied to
+        femininity, desirability, and flawless radiance, one reading suggests itself:
+        precisely the part of the body most directly linked to her marketed image of
+        fertility and seduction became the site of chronic, secretly kept suffering. The
+        pain that fit her image least was exactly the pain she hid the longest. This reading
+        is a plausible interpretation, not a documented historical causal link, and is
+        explored in more depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        This does not mean the Sexual Three's pattern inevitably leads to endometriosis or
+        medication dependency – <strong>every person can develop any illness, regardless of
+        subtype.</strong> What Monroe's case can show is a pattern that stands out again and
+        again in practice wherever the need exists to hide pain and vulnerability behind a
+        flawless public image – one possible explanation among many, not a verdict. The
+        corresponding condition will be developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Monroe's</strong> case, the Sexual Three with Four-wing shows itself once
+        more in a particularly painful way: a chronic illness hidden for years behind
+        flawless radiance, an escalating medication dependency, and a death whose exact
+        circumstances remain unresolved to this day. The peacock whose feathers showed the
+        world beauty, while behind them an exhausted, pain-ridden body struggled for a
+        recognition it never allowed itself.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx3", label:"Subtype Profile SX3"},
       ])}
     </div>
   `);
@@ -64073,6 +64246,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-marilyn-monroe": marilynMonroeKrankheitsportraetPage,
       "krankheitsportraets-osho": oshoKrankheitsportraetPage,
       "krankheitsportraets-elvis-presley": elvisPresleyKrankheitsportraetPage,
       "krankheitsportraets-napoleon-bonaparte": napoleonBonaparteKrankheitsportraetPage,
