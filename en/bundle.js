@@ -202,6 +202,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Social Type 1", krankheit:"Liver Cancer", teaser:"SO1w2 – musician and artist, 1947–2016. Fought liver cancer in secret for 18 months and transformed the diagnosis into his final work, the album Blackstar, released two days before his death." , land:"United Kingdom", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Self-Preservation Type 2", krankheit:"Febrile Illness with Kidney Failure (likely following a streptococcal infection)", teaser:"SE2w3 – Austrian composer, 1756–1791. A lifelong chain of feverish illnesses since childhood (smallpox, typhoid fever, recurring scarlet fever) preceded his death at 35 after a two-week illness with fever and generalized swelling – while he was working on three major works at once, including the unfinished Requiem." , land:"Austria", gender:"m", jahre:"1756–1791"},
   { route:"krankheitsportraets-marilyn-monroe", name:"Marilyn Monroe", subtyp:"SX3w4", heading:"Marilyn Monroe – Sexual Type 3", krankheit:"Fatal combination of barbiturates (Nembutal) and chloral hydrate, officially classified as probable suicide", teaser:"SX3w4 – actress, 1926–1962. Endometriosis hidden for years behind a flawless image, escalating dependency on sleeping pills, a forced psychiatric hospitalization in 1961. Died in 1962 at 36 – the exact circumstances of her death remain disputed to this day." , land:"USA", gender:"f", jahre:"1926–1962"},
+  { route:"krankheitsportraets-lady-diana", name:"Lady Diana", subtyp:"SE4w3", heading:"Lady Diana – Self-Preservation Type 4", krankheit:"Bulimia concealed for years, together with self-harm and postnatal depression", teaser:"SE4w3 – Princess of Wales, 1961–1997. Began, by her own account, the week after her engagement to Prince Charles in 1981; she first made it public herself in the 1995 BBC Panorama interview. Died in 1997 in a car accident in Paris – with no documented link to the earlier illness." , land:"United Kingdom", gender:"f", jahre:"1961–1997"},
   { route:"krankheitsportraets-osho", name:"Osho", subtyp:"SE3w4", heading:"Osho – Self-Preservation Type 3", krankheit:"Heart failure after chronic ailments (diabetes, asthma, back pain) and a disputed poisoning claim", teaser:"SP3w4 – spiritual teacher, 1931–1990. Chronic ailments dating back to the early 1970s, a twelve-day detention in the United States in 1985, followed by new symptoms he and his circle attributed to a never independently confirmed poisoning. Died in 1990 at 58 – the exact cause of death remains disputed to this day." , land:"India", gender:"m", jahre:"1931–1990"},
   { route:"krankheitsportraets-elvis-presley", name:"Elvis Presley", subtyp:"SX2w3", heading:"Elvis Presley – Sexual Type 2", krankheit:"Cardiac arrhythmia with cardiovascular disease and megacolon, worsened by years of drug dependency", teaser:"SX2w3 – musician, 1935–1977. A decade-long escalating drug dependency, a severely enlarged heart, and a megacolon per autopsy. Kept touring almost without pause while his body visibly collapsed. Died in 1977 at only 42 – the exact cause of death is still debated today." , land:"USA", gender:"m", jahre:"1935–1977"},
   { route:"krankheitsportraets-napoleon-bonaparte", name:"Napoleon Bonaparte", subtyp:"SO2w3", heading:"Napoleon Bonaparte – Social Type 2", krankheit:"Gastric cancer (per autopsy), preceded by decades of recurring stomach ailments", teaser:"SO2w3 – French emperor and military leader, 1769–1821. Decades of recurring stomach ailments, a disputed episode at Waterloo, dramatic decline in exile on St. Helena. Died in 1821 of gastric cancer – the same disease that likely killed his father." , land:"France", gender:"m", jahre:"1769–1821"},
@@ -33925,6 +33926,10 @@ function ladyDianaPortraitPage() {
         <p class="krim-portrait-subtitle">Princess of Wales, 1961&ndash;1997 &ndash; Animal correspondence: Dove</p>
       </div>
       <div class="page-content">
+        <p class="vb-intro" style="text-align:center;font-style:italic;">
+          A dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-lady-diana">Illness Portrait</a>
+          covers Diana's years-long concealed bulimia and her public disclosure of it from 1995 onward.
+        </p>
 
         <h2 class="vb-section">1. The Dove</h2>
         <blockquote class="vb-blockquote">
@@ -33966,6 +33971,7 @@ function ladyDianaPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"krankheitsportraets-lady-diana", label:"Illness Portrait: Lady Diana (SE4w3)"},
         {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1)"},
       ])}
     </div>
@@ -37984,7 +37990,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
         beschreibung: "Unlike the louder Four subtypes, inner pain or depth shows itself hardly at all outwardly. Processing happens in quiet, often decades-long persistence – without seeking applause for one's own inner struggle.",
-        beleg: "Sam Altman and Leo Tolstoy are described in almost identical terms: 'It doesn't put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It seeks no applause for its inner struggle'; Paul McCartney, about whose 'deepest inner self surprisingly little is known,' despite over sixty years in public life; Clemens G. Arvay, whose work carried 'no drama, no self-staging, but a message that carries and remains'; Derek Goodwin, whose definitive works on doves, crows and estrildid finches shaped generations of ornithologists while he himself stayed so invisible as the 'quiet expert in the background' that hardly any photograph of him can be found; Adele, described in everyday life as humorous and down-to-earth, while the pain behind her biggest songs is processed privately before it reaches the stage – 'you don't complain in public, you write an album.'"
+        beleg: "Sam Altman and Leo Tolstoy are described in almost identical terms: 'It doesn't put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It seeks no applause for its inner struggle'; Paul McCartney, about whose 'deepest inner self surprisingly little is known,' despite over sixty years in public life; Clemens G. Arvay, whose work carried 'no drama, no self-staging, but a message that carries and remains'; Derek Goodwin, whose definitive works on doves, crows and estrildid finches shaped generations of ornithologists while he himself stayed so invisible as the 'quiet expert in the background' that hardly any photograph of him can be found; Adele, described in everyday life as humorous and down-to-earth, while the pain behind her biggest songs is processed privately before it reaches the stage – 'you don't complain in public, you write an album'; Lady Diana, who kept her years-long bulimia so completely hidden behind a flawless public facade that even her closest circle long knew few details, and who first spoke about it publicly herself only in 1995."
       },
       {
         titel: "Toughness despite vulnerability – keeps carrying on, returns where others would give up",
@@ -42859,6 +42865,170 @@ function marilynMonroeKrankheitsportraetPage() {
         {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4) – life's work"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx3", label:"Subtype Profile SX3"},
+      ])}
+    </div>
+  `);
+}
+
+function ladyDianaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-lady-diana-portrait.jpg" alt="Lady Diana" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lady Diana</p>
+        <p class="krim-portrait-typ">SE4w3 · Self-Preservation Type 4 with Three-wing · 1961–1997</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Dove</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Lady Diana</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-lady-diana">portrait under Famous Personalities</a>
+        in this Compass – that page covers her life's work and type structure in general.
+        This portrait is devoted to a chapter barely present there: bulimia concealed for
+        years, which she first made public herself in 1995, together with self-harm and
+        postnatal depression.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Diana</strong> is classified as the <strong>Self-Preservation Four with
+        Three-wing</strong>. Unlike other Four subtypes, SE4 does not carry its suffering
+        outward but endures it silently while showing strength on the outside. The Three-wing
+        gives her the ability to turn her own experience into public effectiveness – exactly
+        this tension between hidden suffering and a flawless public facade also shapes
+        Diana's illness history.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) A beginning in the week of the engagement:</strong>
+        Diana later said herself that her bulimia began "the week after we got engaged" to
+        Prince Charles in February 1981 – triggered, among other things, by a disparaging
+        remark from Charles about her waist and by the stress of his continuing relationship
+        with Camilla Parker Bowles.</p>
+        <p class="vb-intro"><strong>b) A pattern she recognized herself as destructive:</strong>
+        In the 1995 Panorama interview, Diana called the bulimia itself "a repetitive pattern
+        which is very destructive to yourself" – a cycle of brief comfort followed by
+        disgust, which she carried alone for years.</p>
+        <p class="vb-intro"><strong>c) A facade that held for a long time:</strong>
+        Outwardly, Diana remained the flawlessly styled princess for years – while behind the
+        scenes an illness unfolded that even her closest circle long knew little about in
+        detail.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Years of bulimia:</strong>
+        According to Diana's own accounts as well as Andrew Morton's book "Diana: Her True
+        Story" (1992, for which she secretly gave interviews), the acute phase of the illness
+        lasted several years, with first attempts at treatment beginning in the late 1980s.</p>
+        <p class="vb-intro"><strong>b) Self-harm as a cry for help aimed at the wrong place:</strong>
+        In the Panorama interview, Diana also described episodes of self-harm: "you have so
+        much pain inside yourself that you try and hurt yourself on the outside because you
+        want help, but it's the wrong help you're asking for."</p>
+        <p class="vb-intro"><strong>c) Postnatal depression after the birth of Prince William:</strong>
+        Diana suffered from postnatal depression after the birth of her first son – a
+        condition that, by her own account, those around her interpreted as instability
+        rather than treating it for what it was.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Trivialization instead of care:</strong>
+        Diana described that word from Charles's circle suggested she was "again unstable and
+        sick and should be put in a home of some sort ... I was almost an embarrassment" –
+        pathologization rather than support.</p>
+        <p class="vb-intro"><strong>b) 1992: the indirect first opening:</strong>
+        With Andrew Morton's book, the bulimia, earlier moments of despair inside the palace,
+        and Charles's relationship with Camilla first reached the public – without Diana
+        being officially named as a source at the time.</p>
+        <p class="vb-intro"><strong>c) 1995: her own voice:</strong>
+        In the BBC Panorama interview with Martin Bashir on November 3, 1995, Diana spoke for
+        the first time herself and directly, publicly, about bulimia, self-harm, and the
+        marriage: "There were three of us in this marriage, so it was a bit crowded."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A long, non-linear path out of the illness:</strong>
+        From the late 1980s onward, Diana received therapy; relapses were reportedly part of
+        this process before a degree of stabilization set in.</p>
+        <p class="vb-intro"><strong>b) The public impact of the confession:</strong>
+        The Panorama interview is still considered one of the moments that helped de-stigmatize
+        public discussion of eating disorders and mental illness in Britain – far beyond the
+        royal context.</p>
+        <p class="vb-intro"><strong>c) A context that later became a subject in its own right:</strong>
+        In 2021, the Dyson Report found that Martin Bashir had obtained the interview through
+        forged documents – a matter concerning how the interview came about, not the
+        truthfulness of Diana's own statements about her illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Tenacious beneath the surface:</strong>
+        The very SE4-typical tenacity with which Diana carried the suffering alone for years
+        also made it harder to recognize for a circle that preferred to look away.</p>
+        <p class="vb-intro"><strong>b) Intensified by Camilla:</strong>
+        Diana described herself that both the bulimia and the self-harm intensified whenever
+        Charles resumed his relationship with Camilla – the illness as a direct reaction to
+        repeated emotional rejection.</p>
+        <p class="vb-intro"><strong>c) The dove that finally spoke for herself:</strong>
+        The Three-wing, which otherwise carried messages for others, turned in 1995 toward her
+        own story – a rare moment in which the public stage served not image management but
+        her own truth.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A beginning at the moment of greatest uncertainty:</strong>
+        By Diana's own account, the bulimia began exactly in the week she entered a world of
+        protocol, expectation, and a marriage with a third person already in the background.</p>
+        <p class="vb-intro"><strong>b) An illness hidden for years:</strong>
+        From 1981 through the first public hint in 1992 to the direct statement in 1995, a
+        long line of silent suffering runs behind the princess's public facade.</p>
+        <p class="vb-intro"><strong>c) Two symptoms, one shared root:</strong>
+        Diana herself described bulimia and self-harm as related expressions of the same
+        inner pain – both intensified by the same triggers.</p>
+        <p class="vb-intro"><strong>d) Why, of all things, food and the body?</strong>
+        For a Self-Preservation Four whose instinct is directed at her own survival and
+        stability, one reading suggests itself: precisely the area most directly tied to
+        self-care and self-preservation became the site of loss of control – while, thanks to
+        the Three-wing, flawless control had to be publicly demonstrated at the same time.
+        This reading is a plausible interpretation, not a documented historical causal link,
+        and is explored in more depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        This does not mean the Self-Preservation Four's pattern inevitably leads to bulimia –
+        <strong>every person can develop any illness, regardless of subtype.</strong> What
+        Diana's case can show is a pattern that stands out again and again in practice
+        wherever the need exists to hide inner suffering behind outer stability – one possible
+        explanation among many, not a verdict. The corresponding condition will be developed
+        step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Diana's</strong> story, the Self-Preservation Four with Three-wing shows
+        itself once more in its full inner tension: suffering silently endured for years
+        behind a flawless public facade, spoken aloud only late – and with all the greater
+        impact when it finally was. The dove that for a long time carried messages only for
+        others, until in 1995 she began carrying her own. Diana died in 1997 in a car accident
+        in Paris – an event with no documented connection to her earlier bulimia.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SE4w3) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se4", label:"Subtype Profile SE4"},
       ])}
     </div>
   `);
@@ -61390,6 +61560,15 @@ function stillePage() {
         </div>
       </div>
 
+      <div style="margin:2.2rem auto 0;max-width:480px;text-align:left;">
+        <p style="font-size:0.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);font-weight:700;margin:0 0 .35rem;text-align:center;">Mindfulness Exercise: The Exhale</p>
+        <p style="font-size:0.85rem;color:var(--ink-muted);margin:0 0 1rem;line-height:1.6;">Most mindfulness exercises emphasize the inhale – in the Enneagram it stands for the having-mode: the craving to get or hold onto something, depending on one's own fixation. The exhale is the other side: giving instead of taking, letting go instead of craving. This exercise starts exactly there – not forced by willpower, but reached through simply observing the exhale, opening a stillness that balances the chronic inhale-rhythm of our time.</p>
+        <div style="position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;background:#000;box-shadow:0 8px 24px rgba(0,0,0,0.18);">
+          <iframe src="https://www.youtube.com/embed/LcLK3dPagZQ" title="Mindfulness Exercise: Observing the Exhale" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+        </div>
+        <p style="font-size:0.82rem;color:var(--muted);margin-top:0.6rem;text-align:center;">Over 25 minutes – a detailed guide by Detlef Rathmer on exhale-based mindfulness.</p>
+      </div>
+
       ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven spiritual art-of-living steps for daily life &ndash; the ideal companion to daily stillness practice.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
       ${bookTip("nichts-und-alles", "A silent book about looking inward &ndash; consciousness, space, and inner freedom.", "Nichts und Alles")}
       ${bookTip("der-raum-hinter-allem", "Beyond all patterns: the silent space that remains when identification subsides &ndash; a meditative work on consciousness and freedom.", "Der Raum hinter allem")}
@@ -64248,6 +64427,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-lady-diana": ladyDianaKrankheitsportraetPage,
       "krankheitsportraets-marilyn-monroe": marilynMonroeKrankheitsportraetPage,
       "krankheitsportraets-osho": oshoKrankheitsportraetPage,
       "krankheitsportraets-elvis-presley": elvisPresleyKrankheitsportraetPage,

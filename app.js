@@ -31407,6 +31407,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Sozialer Typ 1", krankheit:"Leberkrebs", teaser:"SO1w2 – Musiker und Künstler, 1947–2016. Kämpfte 18 Monate lang im Verborgenen gegen Leberkrebs und verwandelte die Diagnose in sein letztes Werk, das Album Blackstar, das zwei Tage vor seinem Tod erschien." , land:"Vereinigtes Königreich", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2", krankheit:"Fieberhafte Erkrankung mit Nierenversagen (vermutlich Folge einer Streptokokken-Infektion)", teaser:"SE2w3 – österreichischer Komponist, 1756–1791. Von Kindheit an eine Kette fieberhafter Erkrankungen (Pocken, Typhus, wiederkehrendes Scharlach), starb 1791 mit 35 Jahren nach zweiwöchiger Krankheit mit Fieber und generalisierten Ödemen – während er gleichzeitig an drei Großwerken arbeitete, darunter das unvollendete Requiem." , land:"Österreich", gender:"m", jahre:"1756–1791"},
   { route:"krankheitsportraets-marilyn-monroe", name:"Marilyn Monroe", subtyp:"SX3w4", heading:"Marilyn Monroe – Sexueller Typ 3", krankheit:"Tödliche Kombination aus Barbituraten (Nembutal) und Chloralhydrat, offiziell als wahrscheinlicher Suizid eingestuft", teaser:"SX3w4 – Schauspielerin, 1926–1962. Jahrelang hinter dem makellosen Image verborgene Endometriose, eskalierende Schlafmittelabhängigkeit, ein erzwungener Psychiatrieaufenthalt 1961. Starb 1962 mit 36 Jahren – die genauen Todesumstände sind bis heute umstritten." , land:"USA", gender:"f", jahre:"1926–1962"},
+  { route:"krankheitsportraets-lady-diana", name:"Lady Diana", subtyp:"SE4w3", heading:"Lady Diana – Selbsterhaltender Typ 4", krankheit:"Über Jahre verschwiegene Bulimie, verbunden mit Selbstverletzung und postnataler Depression", teaser:"SE4w3 – Princess of Wales, 1961–1997. Begann laut eigener Aussage in der Woche nach der Verlobung mit Prinz Charles 1981, machte sie erst 1995 im BBC-Panorama-Interview selbst öffentlich. Starb 1997 bei einem Autounfall in Paris – ohne belegten Zusammenhang mit der früheren Erkrankung." , land:"Vereinigtes Königreich", gender:"f", jahre:"1961–1997"},
   { route:"krankheitsportraets-osho", name:"Osho", subtyp:"SE3w4", heading:"Osho – Selbsterhaltender Typ 3", krankheit:"Herzversagen nach chronischen Beschwerden (Diabetes, Asthma, Rückenschmerzen) und einer bis heute umstrittenen Vergiftungsbehauptung", teaser:"SE3w4 – spiritueller Lehrer, 1931–1990. Chronische Beschwerden seit den frühen 1970ern, zwölftägige Haft in den USA 1985, danach neue Symptome, die er und sein Umfeld auf eine nie unabhängig bestätigte Vergiftung zurückführten. Starb 1990 mit 58 Jahren – die genaue Todesursache bleibt bis heute umstritten." , land:"Indien", gender:"m", jahre:"1931–1990"},
   { route:"krankheitsportraets-elvis-presley", name:"Elvis Presley", subtyp:"SX2w3", heading:"Elvis Presley – Sexueller Typ 2", krankheit:"Herzrhythmusstörung bei Herz-Kreislauf-Erkrankung und Megakolon, begünstigt durch jahrelange Medikamentenabhängigkeit", teaser:"SX2w3 – Musiker, 1935–1977. Über ein Jahrzehnt eskalierende Medikamentenabhängigkeit, ein stark vergrößertes Herz und ein Megakolon laut Autopsie. Tourte fast ununterbrochen weiter, während sein Körper sichtbar zusammenbrach. Starb 1977 mit nur 42 Jahren – die genaue Todesursache wird bis heute diskutiert." , land:"USA", gender:"m", jahre:"1935–1977"},
   { route:"krankheitsportraets-napoleon-bonaparte", name:"Napoleon Bonaparte", subtyp:"SO2w3", heading:"Napoleon Bonaparte – Sozialer Typ 2", krankheit:"Magenkarzinom (nach Autopsie), zuvor jahrzehntelange wiederkehrende Magenbeschwerden", teaser:"SO2w3 – französischer Kaiser und Feldherr, 1769–1821. Über Jahrzehnte wiederkehrende Magenbeschwerden, eine umstrittene Episode bei Waterloo, dramatischer Verfall im Exil auf St. Helena. Starb 1821 an einem Magenkarzinom – derselben Krankheit, an der wahrscheinlich auch sein Vater starb." , land:"Frankreich", gender:"m", jahre:"1769–1821"},
@@ -43124,7 +43125,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still verarbeitet wird",
         beschreibung: "Anders als bei den lauteren Vierer-Subtypen zeigt sich der innere Schmerz oder die innere Tiefe kaum nach außen. Die Verarbeitung geschieht in stiller, oft jahrzehntelanger Beharrlichkeit – ohne Applaus für das eigene Ringen zu suchen.",
-        beleg: "Sam Altman und Leo Tolstoi werden fast wortgleich beschrieben: ›Sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus für ihr inneres Ringen‹; Paul McCartney, über dessen ›tiefstes Inneres man erstaunlich wenig weiß‹, obwohl er über sechzig Jahre öffentlich wirkte; Clemens G. Arvay, dessen Werk ›kein Drama, keine Selbstinszenierung, aber eine Botschaft, die trägt und bleibt‹ war; Derek Goodwin, dessen Standardwerke über Tauben, Krähen und Prachtfinken Generationen von Ornithologen prägten, während er selbst als ›stiller Experte im Hintergrund‹ so unsichtbar blieb, dass sich von ihm kaum ein Foto findet; Adele, die im Alltag als humorvoll und bodenständig beschrieben wird, während der Schmerz, aus dem ihre größten Songs entstehen, im Privaten verarbeitet wird, bevor er auf die Bühne kommt – ›man klagt nicht öffentlich, man schreibt ein Album.‹"
+        beleg: "Sam Altman und Leo Tolstoi werden fast wortgleich beschrieben: ›Sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus für ihr inneres Ringen‹; Paul McCartney, über dessen ›tiefstes Inneres man erstaunlich wenig weiß‹, obwohl er über sechzig Jahre öffentlich wirkte; Clemens G. Arvay, dessen Werk ›kein Drama, keine Selbstinszenierung, aber eine Botschaft, die trägt und bleibt‹ war; Derek Goodwin, dessen Standardwerke über Tauben, Krähen und Prachtfinken Generationen von Ornithologen prägten, während er selbst als ›stiller Experte im Hintergrund‹ so unsichtbar blieb, dass sich von ihm kaum ein Foto findet; Adele, die im Alltag als humorvoll und bodenständig beschrieben wird, während der Schmerz, aus dem ihre größten Songs entstehen, im Privaten verarbeitet wird, bevor er auf die Bühne kommt – ›man klagt nicht öffentlich, man schreibt ein Album‹; Lady Diana, die ihre über Jahre andauernde Bulimie so vollständig hinter der makellosen öffentlichen Fassade verbarg, dass selbst ihr nächstes Umfeld lange nichts Genaues davon wusste, und erst 1995 selbst öffentlich darüber sprach."
       },
       {
         titel: "Zähigkeit trotz Verletzlichkeit – trägt weiter, kehrt zurück, wo andere aufgeben würden",
@@ -57935,6 +57936,10 @@ function ladyDianaPortraitPage() {
         <p class="krim-portrait-subtitle">Princess of Wales, 1961&ndash;1997 &ndash; Tierentsprechung: Taube</p>
       </div>
       <div class="page-content">
+        <p class="vb-intro" style="text-align:center;font-style:italic;">
+          Ein eigenes <a href="javascript:void(0)" data-route="krankheitsportraets-lady-diana">Krankheitsporträt</a>
+          widmet sich Dianas über Jahre verschwiegener Bulimie und ihrer öffentlichen Verarbeitung ab 1995.
+        </p>
 
         <h2 class="vb-section">1. Die Taube</h2>
         <blockquote class="vb-blockquote">
@@ -57976,6 +57981,7 @@ function ladyDianaPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se4", label:"SE4 \u2013 Die Taube: Subtyp-Profil"},
+        {route:"krankheitsportraets-lady-diana", label:"Krankheitsportr\u00e4t: Lady Diana (SE4w3)"},
         {route:"beruehmte-greta-thunberg", label:"Portr\u00e4t: Greta Thunberg (SE2w1)"},
       ])}
     </div>
@@ -69795,6 +69801,175 @@ function marilynMonroeKrankheitsportraetPage() {
         {route:"beruehmte-marilyn-monroe", label:"Porträt: Marilyn Monroe (SX3w4) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx3", label:"Subtyp-Profil SX3"},
+      ])}
+    </div>
+  `);
+}
+
+function ladyDianaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-lady-diana-portrait.jpg" alt="Lady Diana" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lady Diana</p>
+        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel · 1961–1997</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Taube</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Lady Diana</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-lady-diana">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihr Lebenswerk und ihre Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: eine über
+        Jahre verschwiegene Bulimie, die sie erst 1995 selbst öffentlich machte, verbunden mit
+        Selbstverletzung und postnataler Depression.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Diana</strong> ist dem <strong>selbsterhaltenden Typ 4 mit Dreierflügel</strong>
+        zugeordnet. Die SE4 trägt ihr Leiden – anders als andere Vierer-Subtypen – nicht nach
+        außen, sondern hält es still aus, während sie nach außen Stärke zeigt. Der Dreierflügel
+        gibt ihr die Fähigkeit, das eigene Erleben in öffentliche Wirksamkeit zu verwandeln –
+        genau diese Spannung zwischen verborgenem Leiden und makelloser öffentlicher Fassade
+        prägt auch Dianas Krankheitsgeschichte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Ein Beginn in der Verlobungswoche:</strong>
+        Diana beschrieb später selbst, ihre Bulimie habe "in der Woche nach der Verlobung"
+        mit Prinz Charles im Februar 1981 begonnen – ausgelöst unter anderem durch eine
+        abwertende Bemerkung Charles' zu ihrer Taille sowie den Stress durch seine
+        fortbestehende Beziehung zu Camilla Parker Bowles.</p>
+        <p class="vb-intro"><strong>b) Ein Muster, das sie selbst als zerstörerisch erkannte:</strong>
+        Im Panorama-Interview 1995 nannte Diana die Bulimie selbst "a repetitive pattern which
+        is very destructive to yourself" – ein Kreislauf aus kurzzeitigem Trost und
+        anschließendem Ekel, den sie über Jahre allein austrug.</p>
+        <p class="vb-intro"><strong>c) Eine Fassade, die lange hielt:</strong>
+        Nach außen blieb Diana über Jahre die makellos gestylte Prinzessin – während im
+        Verborgenen ein Leiden verlief, von dem selbst ihr nächstes Umfeld lange nichts
+        Genaues wusste.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Jahrelange Bulimie:</strong>
+        Laut Dianas eigenen Schilderungen sowie Andrew Mortons Buch "Diana: Her True Story"
+        (1992, für das sie heimlich Interviews gab) zog sich die akute Phase der Erkrankung
+        über mehrere Jahre, mit ersten Therapieversuchen ab Ende der 1980er-Jahre.</p>
+        <p class="vb-intro"><strong>b) Selbstverletzung als Hilferuf zur falschen Adresse:</strong>
+        Diana beschrieb im Panorama-Interview auch Episoden von Selbstverletzung: "you have so
+        much pain inside yourself that you try and hurt yourself on the outside because you
+        want help, but it's the wrong help you're asking for."</p>
+        <p class="vb-intro"><strong>c) Postnatale Depression nach der Geburt Prinz Williams:</strong>
+        Diana litt nach der Geburt ihres ersten Sohnes an postnataler Depression – ein
+        Zustand, den ihr Umfeld laut ihrer eigenen Aussage als Instabilität deutete, statt ihn
+        als das zu behandeln, was er war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Verharmlosung statt Fürsorge:</strong>
+        Diana schilderte, aus dem Umfeld von Charles sei durchgeklungen, sie sei "again
+        unstable and sick and should be put in a home of some sort ... I was almost an
+        embarrassment" – Pathologisierung statt Unterstützung.</p>
+        <p class="vb-intro"><strong>b) 1992: die indirekte erste Öffnung:</strong>
+        Mit Andrew Mortons Buch gelangten Bulimie, frühere Verzweiflungsmomente im Palast und
+        Charles' Beziehung zu Camilla erstmals an die Öffentlichkeit – ohne dass Diana zu
+        diesem Zeitpunkt offiziell als Quelle genannt wurde.</p>
+        <p class="vb-intro"><strong>c) 1995: die eigene Stimme:</strong>
+        Im BBC-Panorama-Interview mit Martin Bashir am 3. November 1995 sprach Diana erstmals
+        selbst und direkt öffentlich über Bulimie, Selbstverletzung und die Ehe: "There were
+        three of us in this marriage, so it was a bit crowded."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein langer, nicht-linearer Weg aus der Krankheit:</strong>
+        Ab Ende der 1980er-Jahre erhielt Diana Therapie; Rückfälle gehörten laut Berichten zu
+        diesem Prozess dazu, bevor sich eine gewisse Stabilisierung einstellte.</p>
+        <p class="vb-intro"><strong>b) Öffentliche Wirkung des Geständnisses:</strong>
+        Das Panorama-Interview gilt bis heute als einer der Momente, die das öffentliche
+        Sprechen über Essstörungen und psychische Erkrankungen in Großbritannien
+        enttabuisierten – weit über den royalen Kontext hinaus.</p>
+        <p class="vb-intro"><strong>c) Ein Kontext, der später selbst zum Thema wurde:</strong>
+        2021 stellte der Dyson-Report fest, dass Martin Bashir das Interview durch gefälschte
+        Dokumente erschlichen hatte – ein Umstand, der die Zustandekommen betrifft, nicht die
+        inhaltliche Wahrhaftigkeit von Dianas eigenen Aussagen zu ihrer Krankheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Zäh unter der Oberfläche:</strong>
+        Genau die SE4-typische Zähigkeit, mit der Diana das Leiden jahrelang allein austrug,
+        machte es zugleich so schwer erkennbar für ein Umfeld, das lieber wegsah.</p>
+        <p class="vb-intro"><strong>b) Verschärfung durch Camilla:</strong>
+        Diana beschrieb selbst, dass sich sowohl Bulimie als auch Selbstverletzung
+        verstärkten, wenn Charles die Beziehung zu Camilla wieder aufnahm – das Leiden als
+        direkte Reaktion auf wiederholte emotionale Zurückweisung.</p>
+        <p class="vb-intro"><strong>c) Die Taube, die schließlich selbst sprach:</strong>
+        Der Dreierflügel, der sonst Botschaften für andere trug, wandte sich 1995 der eigenen
+        Geschichte zu – ein seltener Moment, in dem die öffentliche Bühne nicht der Imagepflege,
+        sondern der eigenen Wahrheit diente.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Beginn im Moment größter Verunsicherung:</strong>
+        Die Bulimie setzte laut Dianas eigener Schilderung genau in der Woche ein, in der sie
+        in eine Welt aus Protokoll, Erwartung und einer Ehe mit einer dritten Person im
+        Hintergrund eintrat.</p>
+        <p class="vb-intro"><strong>b) Eine über Jahre verborgene Erkrankung:</strong>
+        Von 1981 bis zur ersten öffentlichen Andeutung 1992 und der direkten Aussage 1995
+        zieht sich eine lange Linie aus stillem Leiden hinter der öffentlichen Fassade der
+        Prinzessin.</p>
+        <p class="vb-intro"><strong>c) Zwei Symptome, eine gemeinsame Wurzel:</strong>
+        Bulimie und Selbstverletzung beschrieb Diana selbst als verwandte Ausdrucksformen
+        desselben inneren Schmerzes – beide verstärkt durch dieselben Auslöser.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Essen und Körper?</strong>
+        Für eine selbsterhaltende Vier, deren Instinkt auf das eigene Überleben und die
+        eigene Stabilität gerichtet ist, liegt eine Deutung nahe: Ausgerechnet der Bereich, der
+        am unmittelbarsten mit Selbstfürsorge und Selbsterhaltung verbunden ist, wurde zum Ort
+        des Kontrollverlusts – während gleichzeitig, dank des Dreierflügels, öffentlich makellose
+        Kontrolle demonstriert werden musste. Diese Deutung ist eine plausible Interpretation,
+        kein belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register
+        dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Vier zwangsläufig zu Bulimie
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Was sich an Dianas Fall zeigen lässt, ist ein Muster, das bei dem Bedürfnis, inneres
+        Leiden hinter äußerer Stabilität zu verbergen, in der Praxis immer wieder auffällt –
+        eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild
+        wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Dianas</strong> Geschichte lässt sich die selbsterhaltende Vier mit
+        Dreierflügel noch einmal in ihrer ganzen Zerrissenheit ablesen: ein über Jahre still
+        ertragenes Leiden hinter makelloser öffentlicher Fassade, das erst spät und dann mit
+        umso größerer Wirkung ausgesprochen wurde. Die Taube, die lange nur für andere
+        Botschaften trug, bis sie 1995 begann, auch die eigene zu tragen. Diana starb 1997 bei
+        einem Autounfall in Paris – ein Ereignis, das in keinem belegten Zusammenhang mit
+        ihrer früheren Bulimie-Erkrankung steht.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
     </div>
   `);
@@ -96071,6 +96246,15 @@ function stillePage() {
         </div>
       </div>
 
+      <div style="margin:2.2rem auto 0;max-width:480px;text-align:left;">
+        <p style="font-size:0.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);font-weight:700;margin:0 0 .35rem;text-align:center;">Achtsamkeits\u00fcbung: Der Ausatem</p>
+        <p style="font-size:0.85rem;color:var(--ink-muted);margin:0 0 1rem;line-height:1.6;">Die meisten Achtsamkeits\u00fcbungen betonen die Einatmung \u2013 im Enneagramm steht sie stellvertretend f\u00fcr den Habmodus: das Verlangen, etwas zu bekommen, je nach eigener Fixierung. Der Ausatem ist die andere Seite: das Geben statt Nehmen, das Loslassen statt Verlangen. Diese \u00dcbung setzt genau dort an \u2013 nicht mit Willenskraft forciert, sondern durch blo\u00dfes Beobachten des Ausatmens wird eine Stille erreichbar, die den chronischen Einatmungsrhythmus unserer Zeit ausgleicht.</p>
+        <div style="position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;background:#000;box-shadow:0 8px 24px rgba(0,0,0,0.18);">
+          <iframe src="https://www.youtube.com/embed/LcLK3dPagZQ" title="Achtsamkeits\u00fcbung: Den Ausatem beobachten" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+        </div>
+        <p style="font-size:0.82rem;color:var(--muted);margin-top:0.6rem;text-align:center;">\u00dcber 25 Minuten \u2013 eine ausf\u00fchrliche Anleitung von Detlef Rathmer zur Ausatem-Achtsamkeit.</p>
+      </div>
+
       ${bookTip("meta-intelligenz", "Wie der Geist lernt, die eigenen Gedanken zu beobachten &ndash; elf Kapitel \u00fcber Bewusstsein, Abstand und innere Klarheit.", "Meta-Intelligenz")}
       ${bookTip("meta-intelligenz-das-hoerbuch", "Vom Autor selbst gesprochen: ein direkter Zugang zu mehr Klarheit durch das Verstehen der eigenen inneren Struktur.", "Meta-Intelligenz \u2013 Das H\u00f6rbuch")}
       ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte f\u00fcr den Alltag &ndash; der ideale Begleiter zur t\u00e4glichen Stille-Praxis.", "7 Wege zu Dir selbst \u2013 Lebenskunst f\u00fcr den Alltag")}
@@ -98804,6 +98988,7 @@ function render() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-lady-diana": ladyDianaKrankheitsportraetPage,
       "krankheitsportraets-marilyn-monroe": marilynMonroeKrankheitsportraetPage,
       "krankheitsportraets-osho": oshoKrankheitsportraetPage,
       "krankheitsportraets-elvis-presley": elvisPresleyKrankheitsportraetPage,
