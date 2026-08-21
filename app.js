@@ -96324,6 +96324,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Arthrose gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Beweglichkeit, Anpassung und Wiederholung verhandelt – manche über starre Kontrolle, andere über Bewegungsmangel, Überlastung oder unveränderte Routinen. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  rueckenschmerzen: {
+    titel: "Rückenschmerzen / Bandscheibenvorfall",
+    kategorie: "bewegungsapparat",
+    icon: "&#129701;",
+    kurz: "Wenn der Rücken eine Last trägt, die eigentlich nicht allein zu tragen wäre.",
+    definition: "Rückenschmerzen zählen zu den häufigsten Beschwerden überhaupt, betroffen ist meist die Lendenwirbelsäule. Man unterscheidet akute (bis 6 Wochen), subakute und chronische Rückenschmerzen (länger als 12 Wochen). In den meisten Fällen liegt eine sogenannte unspezifische Ursache vor – muskuläre Verspannung, Fehlhaltung, Bewegungsmangel –, ohne dass sich eine strukturelle Schädigung nachweisen lässt. Ein Bandscheibenvorfall (Diskusprolaps) entsteht, wenn der gallertartige Kern einer Bandscheibe durch den äußeren Faserring nach außen tritt und dabei auf einen Nerv drückt – häufig mit ausstrahlenden Schmerzen ins Bein (Ischialgie) oder in den Arm verbunden. Nicht jeder Bandscheibenvorfall verursacht Beschwerden; viele werden zufällig bei Untersuchungen entdeckt, ohne dass sie je Symptome ausgelöst hätten.",
+    symptome: [
+      "Lokal begrenzter oder in Bein bzw. Arm ausstrahlender Schmerz, oft mit Bewegung oder bestimmten Haltungen zunehmend",
+      "Muskelverspannung oder tastbare Verhärtung der Rückenmuskulatur",
+      "Kribbeln, Taubheitsgefühl oder Schwäche im Bein oder Arm bei Nervenbeteiligung (Radikulopathie)",
+      "Eingeschränkte Beweglichkeit der Wirbelsäule, erschwertes Bücken oder Aufrichten",
+      "Schmerzverstärkung beim Husten, Niesen oder Pressen bei Bandscheibenbeteiligung",
+      "Chronische, dumpfe Dauerschmerzen ohne klaren Auslöser bei länger bestehenden Beschwerden",
+    ],
+    notfall: "Bei plötzlichem Verlust der Blasen- oder Darmkontrolle, Taubheitsgefühl im Bereich des Gesäßes oder der Innenschenkel (&bdquo;Reithosenanästhesie&ldquo;) oder rasch fortschreitender Lähmung eines oder beider Beine: sofort den Notruf 112 wählen. Dies kann auf ein Kaudasyndrom hinweisen, eine seltene, aber akut operationsbedürftige Notfallsituation. Bei neuem, sehr starkem Rückenschmerz nach einem Sturz oder Unfall, insbesondere im höheren Alter, zeitnah ärztliche Abklärung suchen (Frakturrisiko).",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Kaum ein Körperteil trägt so viele sprachliche Bilder wie der Rücken: jemandem &bdquo;den Rücken stärken&ldquo;, eine Last &bdquo;auf dem Rücken tragen&ldquo;, sich &bdquo;den Buckel krummmachen&ldquo;, &bdquo;Rückgrat zeigen&ldquo;. Die Traditionelle Chinesische Medizin ordnet den unteren Rücken direkt der Niere zu – dem &bdquo;Wohnsitz der Nieren&ldquo;, wie es klassische Texte formulieren –, jenem Organsystem, das auch für Willenskraft (Zhi) und die Fähigkeit steht, unter Druck standzuhalten. Chronische Angst und Erschöpfung der Nieren-Energie gelten dort als klassische Auslöser anhaltender Kreuzschmerzen. Die Psychosomatik liest im Rückenschmerz deshalb oft ein Bild, das sich mit beiden Sichtweisen deckt: eine Last, die zu lange allein und ohne Unterstützung getragen wurde, eine Verantwortung, die eigentlich auf mehr Schultern gehört hätte, oder ein Leben, das sich selten wirklich aufrichten und zu voller Größe zeigen durfte.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der zur Last wird, die der Rücken trägt",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins übernimmt diszipliniert Verantwortung, ohne je zu delegieren – die Last aus Pflichtgefühl und Selbstkontrolle wird über Jahre allein getragen. Genau dieses Alleinstemmen ohne Entlastung liest die Psychosomatik als plausibles Bild für einen Rücken, der irgendwann unter dem Gewicht nachgibt." },
+          { code: "SO1", text: "Die soziale Eins trägt die Verantwortung für die moralische Ordnung der Gruppe – eine selbstauferlegte Bürde, die selten geteilt wird." },
+          { code: "SX1", text: "Die sexuelle Eins trägt ihre Ansprüche direkt in die Beziehung – eine punktuellere, weniger generalisierte Form von Last als bei den anderen Einser-Varianten." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der alles allein trägt, ohne sich stützen zu lassen",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei lebt den Satz „Ich brauche niemanden“ am wörtlichsten – sie trägt für andere, lässt sich aber selbst nie tragen. Ein Rücken, der ausschließlich gibt und nie Unterstützung annimmt, ist psychosomatisch eines der unmittelbarsten Bilder für diese Krankheit." },
+          { code: "SO2", text: "Die soziale Zwei macht sich für die gesamte Gemeinschaft unentbehrlich – die eigene Erschöpfung unter dieser selbst gewählten Last wird selten anerkannt." },
+          { code: "SX2", text: "Die sexuelle Zwei trägt ihre Fürsorge in die eine Beziehung – eine fokussiertere, weniger breit verteilte Form der Last." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die den eigenen Rücken wie ein Lasttier behandelt",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei funktioniert, auch wenn der Körper längst Pause fordert – Erschöpfung wird als Schwäche gedeutet, nicht als Warnsignal. Der Rücken trägt buchstäblich die Ergebnisse dieser Selbstüberforderung." },
+          { code: "SO3", text: "Die soziale Drei stemmt immer neue Projekte für öffentliche Anerkennung – eine ständig wachsende Last, die selten hinterfragt wird." },
+          { code: "SX3", text: "Die sexuelle Drei optimiert sich im Beziehungskontext – die Belastung zeigt sich eher als emotionaler Druck denn als körperliches Lasttragen." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die schwer auf den Schultern liegt",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahre unausgesprochene Sehnsucht, die sich buchstäblich als Gewicht im Rücken niederschlagen kann." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar – die emotionale Entlastung nach außen wirkt der reinen körperlichen Bürde eher entgegen." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – eine Form der Bewegung, die eher Ventile schafft als stille Lastenaufhäufung." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der wenig Halt von außen zulässt",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und trägt Bedürfnisse allein – ein Verhalten, das Unterstützung von außen strukturell ausschließt und mit einem buchstäblich ungestützten Rücken korrespondiert." },
+          { code: "SO5", text: "Die soziale Fünf hält auch im sozialen Kontext innere Distanz – Halt wird eher über Wissen als über Beziehung gesucht." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – innerhalb dieser schmalen Verbindung durchaus gestützt." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die sich buchstäblich im Rücken festsetzt",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Alarmbereitschaft – aus Sicht der Traditionellen Chinesischen Medizin, die Angst direkt mit der Nierenenergie und damit mit dem unteren Rücken verbindet, ist dies eines der unmittelbarsten Bilder dieses Krankheitsbildes." },
+          { code: "SO6", text: "Die soziale Sechs trägt fortlaufend Sorge um das Kollektiv – eine Last, die selten offen benannt oder abgegeben wird." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Rückzug – eine aktivere, weniger belastende Haltung als bei den anderen Sechser-Varianten." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die den Rücken durch zu viel gleichzeitig überlastet",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über viele parallele Projekte ab – zu viele gleichzeitig getragene Verpflichtungen können sich kumulativ als Überlastung des Rückens niederschlagen." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – die eigene Erschöpfung unter dieser zusätzlichen Last wird lange verleugnet." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – Bewegungsmangel oder abrupte, unvorbereitete körperliche Belastungen gelten medizinisch als anerkannte Risikofaktoren für akute Rückenbeschwerden." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die alles Gewicht selbst trägt, statt sich zu stützen",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen – sich stützen zu lassen wird als Angriffsfläche erlebt, nicht als legitime Entlastung." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Verantwortung für die Gruppe, oft in einer Beschützerrolle – „Ich trage das für alle“, auch wenn der eigene Rücken längst Grenzen anzeigt." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger struktureller Überlastung." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die die eigene Last nie absetzt",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort, Routine und Konfliktvermeidung – die über Jahrzehnte fortgesetzte Selbstvergessenheit bedeutet auch: die eigene Bürde wird nie bewusst benannt oder abgesetzt, sondern einfach weitergetragen." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – eine Anpassungslast, die sich still über Jahre aufbaut." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Rückens, der nie lernte, das Gewicht des anderen von der eigenen Last zu unterscheiden." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor Rückenschmerzen oder einem Bandscheibenvorfall gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Last, Unterstützung und dem eigenen Rückgrat verhandelt – manche über Alleintragen und Kontrolle, andere über Rückzug, Überlastung oder eine nie abgesetzte eigene Bürde. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -96333,7 +96426,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Rückenschmerzen / Bandscheibenvorfall", "Rheumatoide Arthritis", "Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
+  "bewegungsapparat": ["Rheumatoide Arthritis", "Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
