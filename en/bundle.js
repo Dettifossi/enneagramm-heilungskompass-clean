@@ -62201,6 +62201,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to tennis elbow, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates repetition, tension, and recovery in its own way – some through repetitive overload, others through control, withdrawal, or a tension of their own that was never noticed. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  frozen_shoulder: {
+    titel: "Frozen Shoulder / Shoulder Impingement",
+    kategorie: "bewegungsapparat",
+    icon: "&#129437;",
+    kurz: "When the shoulder stiffens piece by piece until movement itself becomes barely possible.",
+    definition: "Frozen shoulder (adhesive capsulitis) refers to a painful, progressive stiffening of the shoulder joint caused by inflammation and scarring shrinkage of the joint capsule. It typically progresses through three phases: a painful phase with increasing restriction of movement, a &bdquo;frozen&ldquo; phase with pronounced stiffness as pain eases, and a thawing phase in which mobility slowly returns, often over months to years. Shoulder impingement, on the other hand, arises from a narrowing of the space between the upper arm bone and the shoulder blade, often caused by overuse, poor posture, or age-related wear of the rotator cuff tendons. Both conditions affect the same joint and can transition into one another or reinforce each other.",
+    symptome: [
+      "Increasing, often gradually beginning shoulder pain that intensifies with movement",
+      "Progressive restriction of mobility, especially when lifting the arm overhead or backward",
+      "Nighttime pain that makes lying on the affected side difficult",
+      "A painful pinching sensation when lifting the arm sideways (typical of impingement)",
+      "Everyday movements like putting on a jacket or combing hair become increasingly difficult",
+      "With frozen shoulder: a phase in which mobility is barely present despite easing pain",
+    ],
+    notfall: "Neither frozen shoulder nor shoulder impingement are acute emergencies. In the case of sudden, very severe shoulder pain after a fall or accident, visible deformity, or complete inability to move the arm: seek medical help promptly to rule out a fracture or shoulder dislocation.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "The shoulder is the most mobile joint in the body – it makes embracing possible just as much as rejecting, carrying just as much as letting go, reaching out just as much as withdrawing. Precisely this joint, actually built for maximum mobility, stiffens step by step with frozen shoulder, until movement becomes barely possible. Traditional Chinese Medicine aptly calls this condition &bdquo;fifty-year-old shoulder&ldquo; and assigns it to a combination of Qi and Blood deficiency in older age, often intensified by the invasion of Wind and Cold into an already weakened system. Psychosomatic medicine therefore often reads this as a picture of increasing rigidity exactly at the place that should actually be responsible for openness, embrace, and allowing closeness – a freedom of movement that restricts itself over time, until it, often just as slowly, releases again.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that leaves the shoulder frozen at attention",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One keeps anger disciplined and under control – a baseline tension in the shoulders and neck held for years fits the picture of a capsule that stiffens step by step instead of ever releasing." },
+          { code: "SO1", text: "The social One carries the weight of moral responsibility for the group – often literally with raised, tensed shoulders." },
+          { code: "SX1", text: "The sexual One lives anger more directly within the relationship – a more punctual, less permanently hardening form of tension." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that never opens its own arms for itself",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two opens its arms for others but rarely for itself – a movement pattern always directed outward, never inward, can show up as a shoulder that progressively stiffens because it never experiences its own embrace." },
+          { code: "SO2", text: "The social Two makes itself indispensable to the community – its own shoulders often carry more than is good for them." },
+          { code: "SX2", text: "The sexual Two focuses its caregiving on the one relationship – a more focused form of strain." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that strains the shoulders to the point of rigidity",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps working without break, often with a tensed posture – a sustained strain on the shoulders rarely consciously loosened." },
+          { code: "SO3", text: "The social Three presents itself publicly with an upright, often tensed posture – a picture of strength that rarely allows the shoulder to relax." },
+          { code: "SX3", text: "The sexual Three optimizes itself within the relational context – the strain shows up more as emotional pressure than as physical rigidity." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that shows up as a shoulder that no longer opens",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – a years-long, unspoken longing for closeness can show up precisely in the shoulder that should actually make that closeness possible." },
+          { code: "SO4", text: "The social Four makes its own suffering visible – an outward outlet that works against physical rigidity." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity – a form of movement that seeks expression rather than stiffening." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that rarely opens its own arms for others",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically and minimizes physical closeness – a pattern that directly matches the picture of a shoulder increasingly closing itself off against embrace and contact." },
+          { code: "SO5", text: "The social Five keeps inner distance even in social contexts – closeness is sought more mentally than physically." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – quite open and mobile within this narrow connection." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that pulls the shoulders up into permanent tension",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six lives in constant alertness – a physical baseline posture with raised, tensed shoulders that barely releases over the years fits the picture of a progressive stiffening." },
+          { code: "SO6", text: "The social Six continually worries about the collective – a burden that often shows up physically in the shoulders." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation – a more active, less permanently tensed stance than the other Six variants." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that overloads the shoulders through constant activity",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through many parallel activities – repeated overhead movements or one-sided athletic strain can contribute to impingement over the long term." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – its own physical overload goes unnoticed for a long time." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – a pattern that rarely attends to sparing shoulder movement." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that keeps the shoulders permanently on guard",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight keeps tight control over its own resources – a physical posture always ready for battle and rarely truly relaxed fits the picture of a stiffening shoulder." },
+          { code: "SO8", text: "The social Eight carries permanent leadership tension for the group – its own shoulders rarely stay truly loose." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – the strain shows up more in extreme swings than in steady, structural rigidity." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that lets its own shoulder stiffen further year after year",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort and routine – the decades-long continued self-forgetting also means an increasing shoulder stiffness goes consciously unnoticed for a long time, until movement becomes barely possible." },
+          { code: "SO9", text: "The social Nine consistently subordinates its own opinion to the group – a self-erasure that can also show up physically as increasing rigidity." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a shoulder that opens for the other while increasingly closing off its own freedom of movement." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to frozen shoulder or shoulder impingement, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates openness, closeness, and freedom of movement in its own way – some through sustained tension and control, others through withdrawal, overload, or a rigidity of their own that was never noticed. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -62209,7 +62302,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
+  "bewegungsapparat": ["Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],

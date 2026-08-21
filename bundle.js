@@ -96975,6 +96975,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor einem Tennisarm gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Wiederholung, Anspannung und Erholung verhandelt – manche über repetitive Überlastung, andere über Kontrolle, Rückzug oder eine nie bemerkte eigene Anspannung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  frozen_shoulder: {
+    titel: "Frozen Shoulder / Schulter-Impingement",
+    kategorie: "bewegungsapparat",
+    icon: "&#129437;",
+    kurz: "Wenn die Schulter sich Stück für Stück versteift, bis Bewegung selbst kaum mehr möglich ist.",
+    definition: "Die Frozen Shoulder (adhäsive Kapsulitis) bezeichnet eine schmerzhafte, zunehmende Versteifung des Schultergelenks durch eine Entzündung und narbige Schrumpfung der Gelenkkapsel. Sie verläuft typischerweise in drei Phasen: einer schmerzhaften Phase mit zunehmenden Bewegungseinschränkungen, einer &bdquo;eingefrorenen&ldquo; Phase mit ausgeprägter Steifigkeit bei nachlassendem Schmerz, und einer Auftauphase, in der sich die Beweglichkeit langsam, oft über Monate bis Jahre, wieder normalisiert. Das Schulter-Impingement dagegen entsteht durch eine Einengung des Raums zwischen Oberarmkopf und Schulterdach, häufig durch Überlastung, Fehlhaltung oder altersbedingte Verschleißprozesse der Sehnen der Rotatorenmanschette. Beide Krankheitsbilder betreffen dasselbe Gelenk und können ineinander übergehen oder sich gegenseitig begünstigen.",
+    symptome: [
+      "Zunehmende, oft schleichend beginnende Schulterschmerzen, die sich bei Bewegung verstärken",
+      "Fortschreitende Einschränkung der Beweglichkeit, besonders beim Heben des Arms über Kopfhöhe oder nach hinten",
+      "Nächtliche Schmerzen, die das Liegen auf der betroffenen Seite erschweren",
+      "Schmerzhaftes Einklemmgefühl beim seitlichen Anheben des Arms (typisch für das Impingement)",
+      "Alltägliche Bewegungen wie Anziehen einer Jacke oder Kämmen der Haare werden zunehmend schwierig",
+      "Bei der Frozen Shoulder: eine Phase, in der die Beweglichkeit trotz nachlassendem Schmerz kaum vorhanden ist",
+    ],
+    notfall: "Weder die Frozen Shoulder noch das Schulter-Impingement sind akute Notfälle. Bei plötzlichem, sehr starkem Schulterschmerz nach einem Sturz oder Unfall, sichtbarer Fehlstellung oder völliger Unfähigkeit, den Arm zu bewegen: zeitnah ärztliche Hilfe aufsuchen, um eine Fraktur oder eine Schulterluxation auszuschließen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Die Schulter ist das beweglichste Gelenk des Körpers – sie ermöglicht Umarmung ebenso wie Zurückweisung, Tragen ebenso wie Loslassen, Ausgreifen ebenso wie Rückzug. Gerade dieses Gelenk, das eigentlich für maximale Beweglichkeit gebaut ist, versteift bei der Frozen Shoulder Schritt für Schritt, bis Bewegung kaum mehr möglich ist. Die Traditionelle Chinesische Medizin bezeichnet dieses Krankheitsbild treffend als &bdquo;Fünfzig-Jahre-Schulter&ldquo; und ordnet es einer Kombination aus Qi- und Blut-Mangel im höheren Alter zu, oft verstärkt durch das Eindringen von Wind und Kälte in ein bereits geschwächtes System. Die Psychosomatik liest darin oft ein Bild von zunehmender Erstarrung genau an der Stelle, die eigentlich für Offenheit, Umarmung und das Zulassen von Nähe zuständig wäre – eine Bewegungsfreiheit, die sich über Zeit selbst einschränkt, bis sie sich, oft ebenso langsam, wieder löst.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der die Schulter in Habachtstellung erstarren lässt",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger diszipliniert unter Kontrolle – eine über Jahre gehaltene Grundspannung in Schultern und Nacken passt zum Bild einer Kapsel, die sich Schritt für Schritt versteift, statt sich je zu lösen." },
+          { code: "SO1", text: "Die soziale Eins trägt die Last der moralischen Verantwortung für die Gruppe – oft buchstäblich mit hochgezogenen, angespannten Schultern." },
+          { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter in der Beziehung aus – eine punktuellere, weniger dauerhaft verhärtende Form der Anspannung." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der die eigenen Arme nie zur Umarmung für sich selbst öffnet",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei öffnet ihre Arme für andere, aber selten für sich selbst – ein Bewegungsmuster, das immer nach außen, nie nach innen gerichtet ist, kann sich als eine Schulter zeigen, die sich zunehmend versteift, weil sie nie die eigene Umarmung erfährt." },
+          { code: "SO2", text: "Die soziale Zwei macht sich für die Gemeinschaft unentbehrlich – die eigenen Schultern tragen oft mehr, als ihnen gut tut." },
+          { code: "SX2", text: "Die sexuelle Zwei konzentriert ihre Fürsorge auf die eine Beziehung – eine fokussiertere Form der Belastung." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die die Schultern bis zur Erstarrung beansprucht",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet ununterbrochen weiter, oft mit angespannter Körperhaltung – eine Dauerbeanspruchung der Schultern, die selten bewusst gelockert wird." },
+          { code: "SO3", text: "Die soziale Drei präsentiert sich öffentlich mit aufrechter, oft angespannter Haltung – ein Bild von Stärke, das der Schulter selten Entspannung erlaubt." },
+          { code: "SX3", text: "Die sexuelle Drei optimiert sich im Beziehungskontext – die Belastung zeigt sich hier eher als emotionaler Druck denn als körperliche Erstarrung." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich in einer Schulter zeigt, die sich nicht mehr öffnet",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahre unausgesprochene Sehnsucht nach Nähe kann sich ausgerechnet an der Schulter zeigen, die diese Nähe eigentlich ermöglichen sollte." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar – ein Ventil nach außen, das der körperlichen Erstarrung eher entgegenwirkt." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – eine Form der Bewegung, die eher Ausdruck sucht als sich zu versteifen." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der die eigenen Arme selten für andere öffnet",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und minimiert körperliche Nähe – ein Muster, das dem Bild einer Schulter, die sich zunehmend gegen Umarmung und Kontakt verschließt, unmittelbar entspricht." },
+          { code: "SO5", text: "Die soziale Fünf hält auch im sozialen Kontext innere Distanz – Nähe wird eher gedanklich als körperlich gesucht." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – innerhalb dieser schmalen Verbindung durchaus offen und beweglich." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die die Schultern in Daueranspannung hochzieht",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Alarmbereitschaft – eine körperliche Grundhaltung mit hochgezogenen, angespannten Schultern, die sich über Jahre kaum löst, passt zum Bild einer fortschreitenden Versteifung." },
+          { code: "SO6", text: "Die soziale Sechs trägt fortlaufend Sorge um das Kollektiv – eine Last, die sich körperlich oft in den Schultern zeigt." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation – eine aktivere, weniger dauerhaft verspannte Haltung als bei den anderen Sechser-Varianten." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die die Schultern durch ständige Aktivität überlastet",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über viele parallele Aktivitäten ab – wiederholte Überkopfbewegungen oder einseitige sportliche Belastung können langfristig zum Impingement beitragen." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – die eigene körperliche Überlastung wird dabei lange nicht wahrgenommen." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – ein Muster, das selten auf schonende Schulterbewegung achtet." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die die Schultern in permanente Wachhaltung versetzt",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht hält Kontrolle über die eigenen Ressourcen straff aufrecht – eine körperliche Haltung, die stets kampfbereit und selten wirklich entspannt ist, passt zum Bild einer sich versteifenden Schulter." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Führungsspannung für die Gruppe – die eigenen Schultern bleiben dabei selten wirklich locker." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger struktureller Versteifung." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die die eigene Schulter Jahr für Jahr weiter erstarren lässt",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und Routine – die über Jahrzehnte fortgesetzte Selbstvergessenheit bedeutet auch, dass eine zunehmende Schultersteifheit lange nicht bewusst wahrgenommen wird, bis Bewegung kaum mehr möglich ist." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – eine Selbstauslöschung, die sich auch körperlich als zunehmende Erstarrung zeigen kann." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung einer Schulter, die sich für den anderen öffnet, während sie sich für die eigene Bewegungsfreiheit zunehmend verschließt." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor einer Frozen Shoulder oder einem Schulter-Impingement gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Öffnung, Nähe und Bewegungsfreiheit verhandelt – manche über Daueranspannung und Kontrolle, andere über Rückzug, Überlastung oder eine nie bemerkte eigene Erstarrung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -96984,7 +97077,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
+  "bewegungsapparat": ["Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
