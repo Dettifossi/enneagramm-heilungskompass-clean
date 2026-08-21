@@ -95370,7 +95370,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Maßlosigkeit – Zerstreuung statt Stille",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über eine Vielzahl paralleler Optionen ab – mehrere Projekte, mehrere Kontakte, mehrere mögliche Fluchtwege, falls einer davon sich nicht auszahlt. Diese praktische Absicherung fühlt sich nach Freiheit an, erzeugt aber eine Erschöpfung eigener Art: nicht durch klassische Anspannung, sondern durch die schiere Zerstreuung, das ständige Springen zwischen Möglichkeiten, ohne je bei einer wirklich anzukommen. Das Herz erlebt hier weniger Druck als permanente Reizüberflutung, ein Nervensystem, das selten zur Ruhe findet, weil immer eine weitere Option lockt." },
+      { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über eine Vielzahl paralleler Optionen ab – mehrere Projekte, mehrere Kontakte, mehrere mögliche Fluchtwege, falls einer davon sich nicht auszahlt. Diese praktische Absicherung fühlt sich nach Freiheit an, erzeugt aber eine Erschöpfung eigener Art: nicht durch klassische Anspannung, sondern durch die schiere Zerstreuung, das ständige Springen zwischen Möglichkeiten, ohne je bei einer wirklich anzukommen. Das Herz erlebt hier weniger Druck als permanente Reizüberflutung, ein Nervensystem, das selten zur Ruhe findet, weil immer eine weitere Option lockt." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp unter den Siebenern, stellt eigene Bedürfnisse konsequent zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die von außen kaum als Siebener-Muster erkennbar ist, weil die sonst typische Leichtigkeit fehlt. Die eigene Erschöpfung wird dabei lange verleugnet, oft mit dem Argument, dass andere es dringender bräuchten – bis der Körper irgendwann eine Rechnung präsentiert, die der wache Verstand lange nicht sehen wollte." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv, „alles, sofort“ – ein Lebensstil, der auf Intensität statt auf Mäßigung setzt. Hier ist der plausibelste Zusammenhang zum Herzinfarkt-Risiko oft nicht die innere Anspannung selbst, sondern der gelebte Alltag: eine erhöhte Anfälligkeit für Nikotin, Alkohol oder andere Genussmittel als Mittel, die eigene Intensität noch zu steigern – medizinisch anerkannte, gut belegte Risikofaktoren, die hier weniger aus Vermeidung als aus einem grundsätzlichen Zuviel entstehen." },
         ],
@@ -95378,7 +95378,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Kontrolle – die Kraft, die niemals nachlassen darf",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch handfeste Kontrolle über materielle und körperliche Ressourcen – Geld, Besitz, körperliche Kraft, alles, was Unabhängigkeit garantiert. Rückzug oder das Eingestehen eines Ruhebedürfnisses werden dabei nicht als legitime menschliche Regung erlebt, sondern als Angriffsfläche, die man sich nicht erlauben darf. Das Herz läuft dauerhaft auf Hochspannung, weil im inneren Selbstbild schlicht kein Platz für ein Herunterschalten vorgesehen ist – Stärke bedeutet hier, niemals sichtbar müde zu wirken." },
+      { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch handfeste Kontrolle über materielle und körperliche Ressourcen – Geld, Besitz, körperliche Kraft, alles, was Unabhängigkeit garantiert. Rückzug oder das Eingestehen eines Ruhebedürfnisses werden dabei nicht als legitime menschliche Regung erlebt, sondern als Angriffsfläche, die man sich nicht erlauben darf. Das Herz läuft dauerhaft auf Hochspannung, weil im inneren Selbstbild schlicht kein Platz für ein Herunterschalten vorgesehen ist – Stärke bedeutet hier, niemals sichtbar müde zu wirken." },
           { code: "SO8", text: "Die soziale Acht übernimmt Kontrolle nicht für sich selbst, sondern für die Gruppe, oft in einer selbst auferlegten Beschützerrolle: „Niemand in meinem Umfeld darf schwach sein, solange ich stark sein kann.“ Verantwortungsdruck und permanente Führungsspannung sind hier der zentrale Belastungsfaktor – ein Herz, das nicht nur für die eigene, sondern gefühlt für die Sicherheit aller anderen mitschlagen muss, findet selten einen Moment, in dem es wirklich nur für sich selbst da sein darf." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der einen Zweierbeziehung, Intensität pur, nichts Halbes – jede Geste, jeder Konflikt, jede Versöhnung wird mit voller Wucht durchlebt. Die Belastung zeigt sich hier folgerichtig nicht in gleichmäßiger Dauerspannung, sondern in extremen emotionalen und körperlichen Ausschlägen: kurze, hochintensive Phasen, in denen Puls und Blutdruck deutlich ausschlagen, gefolgt von ebenso intensiven Phasen der Nähe, in einem Rhythmus, der selten Mittelmaß kennt." },
         ],
@@ -95463,7 +95463,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Maßlosigkeit, die die Gefäße überfordert",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über Optionen, Netzwerke und Genussmittel ab – Rastlosigkeit und ein Lebensstil, der auf permanente Zerstreuung statt Ruhe setzt, gilt medizinisch als eigenständiger Risikofaktor für Gefäßveränderungen, unabhängig von innerer Anspannung. Sie hat immer einen Plan B, C und D, und genau dieses ständige Offenhalten von Möglichkeiten verhindert, dass sie je wirklich zur Ruhe kommt." },
+      { code: "SE7", text: "Rastlosigkeit und ein Lebensstil, der auf permanente Zerstreuung statt Ruhe setzt, gilt medizinisch als eigenständiger Risikofaktor für Gefäßveränderungen – die selbsterhaltende Sieben sichert sich über Optionen, Netzwerke und Genussmittel ab, unabhängig von innerer Anspannung. Sie hat immer einen Plan B, C und D, und genau dieses ständige Offenhalten von Möglichkeiten verhindert, dass sie je wirklich zur Ruhe kommt." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung und die damit verbundenen körperlichen Warnsignale lange verleugnet. Sie kümmert sich um alle, außer um sich selbst, und wundert sich dann, wenn der Körper irgendwann Grenzen setzt, die sie sich selbst nie zugestehen wollte." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – hier ist der plausibelste Zusammenhang oft nicht die innere Anspannung selbst, sondern der Lebensstil: Nikotin, Alkohol oder andere Genussmittel als anerkannte, medizinisch gut belegte Risikofaktoren für Arteriosklerose. Der Reiz der Intensität selbst wird hier zum Gesundheitsrisiko, unabhängig davon, wie glücklich oder unglücklich diese Person sich fühlt." },
         ],
@@ -95471,7 +95471,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Kontrolle, die keinen Spielraum lässt",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen – Ruhebedürfnis wird als Angriffsfläche erlebt, nicht als legitimes Bedürfnis. Das System läuft dauerhaft auf Hochspannung, weil Herunterschalten im inneren Selbstbild keinen Platz hat: Wer einmal schwach wirkt, so die unausgesprochene Überzeugung, verliert die Kontrolle über alles, wofür er oder sie gekämpft hat." },
+      { code: "SE8", text: "Als Angriffsfläche, nicht als legitimes Bedürfnis erlebt die selbsterhaltende Acht ihr Ruhebedürfnis – sie sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen. Das System läuft dauerhaft auf Hochspannung, weil Herunterschalten im inneren Selbstbild keinen Platz hat: Wer einmal schwach wirkt, so die unausgesprochene Überzeugung, verliert die Kontrolle über alles, wofür er oder sie gekämpft hat." },
           { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung und Führung für die Gruppe, oft in einer Beschützerrolle – permanente Führungsspannung und die Überzeugung, niemals schwach sein zu dürfen, sind hier der zentrale, über Jahre wirkende Belastungsfaktor. Sie trägt nicht nur die eigene Last, sondern gefühlt auch die Verantwortung dafür, dass es allen anderen gut geht." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger Dauerverhärtung. Konflikte werden mit voller Wucht ausgetragen, Versöhnung ebenso, in einem Rhythmus, der wenig Raum für ruhige Zwischentöne lässt." },
         ],
@@ -95556,7 +95556,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Maßlosigkeit, die das System überreizt",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über Optionen, Netzwerke und Genussmittel ab – ein Lebensstil, der auf permanente Reizsuche statt Ruhe setzt, gilt medizinisch als eigenständiger Risikofaktor für erhöhten Blutdruck, unabhängig von innerer Anspannung. Sie füllt jede freie Minute mit einer neuen Möglichkeit, und genau diese Fülle wird selbst zur Belastung für ein System, das nie zur Ruhe kommt." },
+      { code: "SE7", text: "Ein Lebensstil, der auf permanente Reizsuche statt Ruhe setzt, gilt medizinisch als eigenständiger Risikofaktor für erhöhten Blutdruck – so sichert sich die selbsterhaltende Sieben über Optionen, Netzwerke und Genussmittel ab, unabhängig von innerer Anspannung. Sie füllt jede freie Minute mit einer neuen Möglichkeit, und genau diese Fülle wird selbst zur Belastung für ein System, das nie zur Ruhe kommt." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung und die damit verbundenen körperlichen Warnsignale lange verleugnet. Sie kümmert sich intensiv um andere und übersieht dabei konsequent, wie sehr sie selbst am Limit ist." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – hier ist der plausibelste Zusammenhang oft nicht die innere Anspannung selbst, sondern der Lebensstil: Nikotin, Alkohol oder andere Genussmittel als anerkannte, medizinisch gut belegte Risikofaktoren für erhöhten Blutdruck. Der Wunsch nach Intensität selbst wird hier zum körperlichen Risiko." },
         ],
@@ -95564,7 +95564,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Kontrolle, die niemals nachlassen darf",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen – Ruhebedürfnis wird als Angriffsfläche erlebt, nicht als legitimes Bedürfnis. Das System läuft dauerhaft auf Hochspannung, weil Herunterschalten im inneren Selbstbild keinen Platz hat: Schwäche zu zeigen fühlt sich an, als würde man sich selbst preisgeben." },
+      { code: "SE8", text: "Schwäche zu zeigen fühlt sich für die selbsterhaltende Acht an, als würde man sich selbst preisgeben – sie sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen. Das System läuft dauerhaft auf Hochspannung, weil Herunterschalten im inneren Selbstbild keinen Platz hat." },
           { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung und Führung für die Gruppe, oft in einer Beschützerrolle – permanente Führungsspannung und die Überzeugung, niemals schwach sein zu dürfen, sind hier der zentrale, über Jahre wirkende Belastungsfaktor. Sie trägt gefühlt die Verantwortung für alle um sich herum, ohne sich selbst je diese Fürsorge zuzugestehen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger Dauerspannung. Konflikte und Versöhnung werden mit voller Wucht durchlebt, in einem Rhythmus, der selten ruhige Zwischenphasen kennt." },
         ],
@@ -95649,7 +95649,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Maßlosigkeit, die die Reserven überzieht",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über Optionen, Netzwerke und Genussmittel ab – Rastlosigkeit und viele parallele Projekte führen zu einer Erschöpfung durch Zerstreuung, die selten als Warnsignal ernst genommen wird. Sie hat immer ein weiteres Vorhaben in der Hinterhand, und genau diese Fülle verhindert, dass ihre Reserven sich je wirklich auffüllen." },
+      { code: "SE7", text: "Rastlosigkeit und viele parallele Projekte führen bei der selbsterhaltenden Sieben zu einer Erschöpfung durch Zerstreuung, die selten als Warnsignal ernst genommen wird – sie sichert sich über Optionen, Netzwerke und Genussmittel ab. Sie hat immer ein weiteres Vorhaben in der Hinterhand, und genau diese Fülle verhindert, dass ihre Reserven sich je wirklich auffüllen." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung lange verleugnet. Sie kümmert sich hingebungsvoll um andere und übersieht dabei beharrlich, wie erschöpft sie selbst längst ist." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – ein Lebensstil, der Substanz verbraucht statt sie zu erhalten, verschärft durch mögliches Suchtpotenzial gegenüber Nikotin, Alkohol oder anderen Genussmitteln, die die Herzfunktion zusätzlich belasten können. Ihre Intensität selbst wird zum Kraftverzehr, unabhängig davon, wie erfüllend sie sich anfühlt." },
         ],
@@ -95657,7 +95657,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Kontrolle, die bis zur Erschöpfung durchhält",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen – Ruhebedürfnis wird als Schwäche erlebt, nicht als legitimes Bedürfnis. Das System läuft dauerhaft auf Hochspannung, bis die Kraft irgendwann erschöpft ist: Sie kämpft weiter, lange nachdem andere längst aufgegeben hätten, weil Aufgeben für sie keine Option zu sein scheint." },
+      { code: "SE8", text: "Sie kämpft weiter, lange nachdem andere längst aufgegeben hätten, weil Aufgeben für die selbsterhaltende Acht keine Option zu sein scheint – Ruhebedürfnis wird als Schwäche erlebt, nicht als legitimes Bedürfnis. Das System läuft dauerhaft auf Hochspannung, bis die Kraft irgendwann erschöpft ist." },
           { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung und Führung für die Gruppe, oft in einer Beschützerrolle – die permanente Führungsspannung und die Überzeugung, niemals schwach sein zu dürfen, verbrauchen über Jahre erhebliche Kraft. Sie trägt nicht nur ihre eigene Last, sondern gefühlt auch die aller, für die sie sich verantwortlich fühlt." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger Erschöpfung. Sie gibt sich völlig, ohne Vorbehalt, was punktuell enorme Kraft kostet, statt sich gleichmäßig über die Zeit zu verteilen." },
         ],
@@ -95742,7 +95742,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Zerstreuung, die den eigenen Takt in viele Richtungen zieht",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben hält sich zahlreiche Optionen und Fluchtwege gleichzeitig offen, springt zwischen Projekten, Genüssen und Möglichkeiten – dieses Leben in ständiger paralleler Vielfalt, nie ganz bei einer Sache, ist psychosomatisch eines der plausibelsten Bilder für einen Herzrhythmus, der seinen geordneten Takt an zu viele gleichzeitige Impulse verliert." },
+      { code: "SE7", text: "Nie ganz bei einer Sache: So hält sich die selbsterhaltende Sieben zahlreiche Optionen und Fluchtwege gleichzeitig offen, springt zwischen Projekten, Genüssen und Möglichkeiten. Dieses Leben in ständiger paralleler Vielfalt ist psychosomatisch eines der plausibelsten Bilder für einen Herzrhythmus, der seinen geordneten Takt an zu viele gleichzeitige Impulse verliert." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück, übernimmt oft mehrere Verpflichtungen gleichzeitig aus Pflichtgefühl – diese selbstauferlegte Vielfachbelastung kann, anders als die freudige Zerstreuung des reinen Typs, zu einer stillen, aber ebenso wirksamen inneren Überforderung führen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und mit voller Intensität, springt von einem Enthusiasmus zum nächsten – diese impulsive, oft suchtnahe Vielfalt an Reizen und Erlebnissen liest die Psychosomatik als eines der unmittelbarsten Bilder für ein chaotisches, viel zu schnelles inneres Zittern anstelle eines ruhigen Takts." },
         ],
@@ -95750,7 +95750,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Übersteuerung, die den Takt kippen lässt",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht kontrolliert gleichzeitig viele Bereiche ihres materiellen und körperlichen Terrains, hält alles fest im Griff – doch genau dieses ständige gleichzeitige Wachsamsein über mehrere Fronten hinweg kann den eigenen inneren Rhythmus überfordern, bis er unter der Last der Dauerkontrolle aus dem Takt gerät." },
+      { code: "SE8", text: "Ständiges, gleichzeitiges Wachsamsein über mehrere Fronten hinweg kann den inneren Rhythmus der selbsterhaltenden Acht überfordern – sie kontrolliert gleichzeitig viele Bereiche ihres materiellen und körperlichen Terrains, hält alles fest im Griff, bis er unter der Last der Dauerkontrolle aus dem Takt gerät." },
           { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung für viele Menschen gleichzeitig, führt, beschützt, entscheidet in mehreren Konflikten parallel – diese Vielfachbelastung durch gleichzeitige Führungsaufgaben kann sich als ein Zuviel an gleichzeitiger innerer Anspannung niederschlagen, das dem Herzen seinen ruhigen Takt erschwert." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Zweierbeziehung, mit heftigen Ausschlägen zwischen Kontrolle und Hingabe – diese extreme, aber konzentrierte emotionale Wucht kann in besonders zugespitzten Beziehungsmomenten zu plötzlichen inneren Entladungen führen, statt sich gleichmäßig zu verteilen." },
         ],
@@ -95835,7 +95835,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Rastlosigkeit, die keine echte Grenze kennt",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben hält sich ständig neue Optionen und Aktivitäten offen, springt von einem Projekt zum nächsten – dieses Leben ohne bewusst gesetzte Pausen kennt kaum eine anerkannte Belastungsgrenze, bis der Körper selbst, oft überraschend, genau diese Grenze in Form eines wiederkehrenden Schmerzes markiert." },
+      { code: "SE7", text: "Ein Leben ohne bewusst gesetzte Pausen kennt kaum eine anerkannte Belastungsgrenze – so hält sich die selbsterhaltende Sieben ständig neue Optionen und Aktivitäten offen, springt von einem Projekt zum nächsten, bis der Körper selbst, oft überraschend, genau diese Grenze in Form eines wiederkehrenden Schmerzes markiert." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt aus Pflichtgefühl Verantwortung für andere und stellt eigene Bedürfnisse zurück – diese selbstauferlegte, oft übersehene Überforderung kann sich körperlich als ein Signal zeigen, das genau dort ansetzt, wo die idealistische Opferbereitschaft die eigene Kraft überschreitet." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv, oft mit erhöhtem Risiko für Nikotin- oder Alkoholkonsum, die die Herzkranzgefäße zusätzlich belasten können – diese Kombination aus rastloser Intensität und stoffgebundenem Risikoverhalten liest die Psychosomatik als eines der direkteren Bilder für eine wiederkehrend überschrittene körperliche Grenze." },
         ],
@@ -95843,7 +95843,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Durchhaltekraft, die die eigene Grenze ignoriert",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht kämpft und arbeitet weiter, lange nachdem andere längst aufgegeben hätten – Schwäche oder Erschöpfung einzugestehen widerspricht ihrem Selbstverständnis fundamental. Ein Schmerz, der zuverlässig bei Belastung auftritt, kann hier zum einzigen Signal werden, das diese Person überhaupt ernst nimmt, weil sie jede subtilere Warnung konsequent überhört." },
+      { code: "SE8", text: "Schwäche oder Erschöpfung einzugestehen widerspricht dem Selbstverständnis der selbsterhaltenden Acht fundamental – sie kämpft und arbeitet weiter, lange nachdem andere längst aufgegeben hätten. Ein Schmerz, der zuverlässig bei Belastung auftritt, kann hier zum einzigen Signal werden, das diese Person überhaupt ernst nimmt, weil sie jede subtilere Warnung konsequent überhört." },
           { code: "SO8", text: "Die soziale Acht übernimmt Führung und Verantwortung für viele Menschen gleichzeitig, oft in einer Beschützerrolle, die keine eigene Erschöpfung zulässt – diese permanente Führungsspannung kann sich als ein Schmerz zeigen, der genau an der Grenze zwischen Verantwortung und eigener Kraft auftritt." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Zweierbeziehung, mit heftigen Ausschlägen zwischen Kontrolle und völliger Hingabe – diese extreme, aber konzentrierte emotionale Wucht kann in besonders zugespitzten Beziehungsmomenten zu plötzlichen Belastungsspitzen führen, statt sich gleichmäßig zu verteilen." },
         ],
@@ -95928,7 +95928,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Fluchtbewegung, die die eigene Last nie ablegt",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben hält sich ständig neue Optionen offen und springt von einer Ablenkung zur nächsten – diese permanente Bewegung nach vorn verhindert, dass sie je innehält und eine Last wirklich hinter sich lässt. Was nie verarbeitet wird, staut sich, auch wenn die Oberfläche leicht und beweglich wirkt." },
+      { code: "SE7", text: "Diese permanente Bewegung nach vorn verhindert, dass die selbsterhaltende Sieben je innehält und eine Last wirklich hinter sich lässt – sie hält sich ständig neue Optionen offen und springt von einer Ablenkung zur nächsten. Was nie verarbeitet wird, staut sich, auch wenn die Oberfläche leicht und beweglich wirkt." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt aus Pflichtgefühl Verantwortung für andere und stellt eigene Bedürfnisse zurück – diese selbstauferlegte Opferbereitschaft kennt selten eine bewusste Erleichterungsphase, was sich als stille, aber wirksame Stauung zeigen kann." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, springt impulsiv von einer Intensität zur nächsten – diese rastlose Vielfalt verhindert echtes Ankommen und damit auch echte Erleichterung, selbst wenn jeder einzelne Moment zunächst befreiend wirkt." },
         ],
@@ -95936,7 +95936,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Kontrolle, die keine Schwäche und keine Entlastung zulässt",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht sichert ihr Terrain durch permanente Kontrolle und lässt sich nie wirklich fallen – Ruhebedürfnis oder Erleichterung gelten als Schwäche, die sie sich nicht erlaubt. Ein System, das dauerhaft auf Spannung gehalten wird, ohne je loszulassen, passt zum Bild des gestörten venösen Rückflusses." },
+      { code: "SE8", text: "Als Schwäche, die sie sich nicht erlaubt, gelten Ruhebedürfnis oder Erleichterung für die selbsterhaltende Acht – sie sichert ihr Terrain durch permanente Kontrolle und lässt sich nie wirklich fallen. Ein System, das dauerhaft auf Spannung gehalten wird, ohne je loszulassen, passt zum Bild des gestörten venösen Rückflusses." },
           { code: "SO8", text: "Die soziale Acht trägt Verantwortung für viele Menschen gleichzeitig, oft in einer Beschützerrolle, die keine eigene Schwäche zulässt – diese permanente Last, nie geteilt und nie abgelegt, kann sich körperlich als eine Stauung zeigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Beziehung, mit heftigen Ausschlägen zwischen beidem – diese extreme, aber konzentrierte Intensität erzeugt eher punktuelle Belastungsspitzen als eine gleichmäßig akkumulierte Dauerlast." },
         ],
@@ -96021,7 +96021,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Erzwungene Erstarrung nach jahrelanger Flucht",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben hält sich ständig in Bewegung, springt von einer Option zur nächsten, um bloß nicht stillzustehen – gerade wenn diese Fluchtbewegung durch äußere Umstände erzwungen unterbrochen wird, etwa durch Krankheit oder Immobilität, kann sich das System in einer für sie besonders widersprüchlichen, abrupten Erstarrung wiederfinden." },
+      { code: "SE7", text: "Um bloß nicht stillzustehen, hält sich die selbsterhaltende Sieben ständig in Bewegung, springt von einer Option zur nächsten – gerade wenn diese Fluchtbewegung durch äußere Umstände erzwungen unterbrochen wird, etwa durch Krankheit oder Immobilität, kann sich das System in einer für sie besonders widersprüchlichen, abrupten Erstarrung wiederfinden." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, hält an ihrer selbstauferlegten Pflicht fest, für andere da zu sein, auch wenn die eigene Erschöpfung längst Grenzen setzt – diese Unfähigkeit, die eigene Position aufzugeben, kann sich über Jahre zu einer starren inneren Haltung verfestigen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus und wechselt impulsiv zwischen Intensitäten – echte Erstarrung tritt hier seltener auf, am ehesten in den seltenen Momenten, in denen sie sich gezwungen sieht, bei einer einzigen Sache zu verharren." },
         ],
@@ -96029,7 +96029,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Unnachgiebige Kontrolle, die zur festen Blockade wird",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht hält ihre Position mit aller Kraft, auch wenn Nachgeben klüger wäre – Schwäche zeigen oder eine Kontrolle abgeben widerspricht ihrem Selbstverständnis fundamental. Diese Unnachgiebigkeit, die sich selbst gegen bessere Einsicht nicht bewegt, kann sich als eine feste, unbewegliche innere Blockade zeigen." },
+      { code: "SE8", text: "Auch wenn Nachgeben klüger wäre, hält die selbsterhaltende Acht ihre Position mit aller Kraft – Schwäche zeigen oder eine Kontrolle abgeben widerspricht ihrem Selbstverständnis fundamental. Diese Unnachgiebigkeit, die sich selbst gegen bessere Einsicht nicht bewegt, kann sich als eine feste, unbewegliche innere Blockade zeigen." },
           { code: "SO8", text: "Die soziale Acht verhärtet ihre Position als Beschützerin der Gruppe zunehmend, besonders wenn sie sich in ihrer Verantwortung infrage gestellt sieht – diese Sturheit kann sich über Jahre zu einer festen, kaum mehr auflösbaren inneren Haltung verfestigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit heftigen Ausschlägen zwischen Kontrolle und Hingabe – in Momenten des Machtkampfs kann sich diese Intensität kurzzeitig zu völliger Unnachgiebigkeit verhärten, bevor sie sich wieder löst." },
         ],
@@ -96114,7 +96114,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Rastlosigkeit, die eine tiefere Erschöpfung überdeckt",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben hält sich ständig in Bewegung, springt von einem Projekt, einem Genuss, einer Ablenkung zur nächsten – diese permanente Zerstreuung kann verhindern, dass sie je bei der eigenen, tieferen Erschöpfung ankommt, die sich unbemerkt aufstaut, bis sie sich unvermittelt zeigt, oft verstärkt durch Alkohol, Nikotin oder andere Risikofaktoren." },
+      { code: "SE7", text: "Diese permanente Zerstreuung kann verhindern, dass die selbsterhaltende Sieben je bei der eigenen, tieferen Erschöpfung ankommt – sie hält sich ständig in Bewegung, springt von einem Projekt, einem Genuss, einer Ablenkung zur nächsten. Diese Erschöpfung staut sich unbemerkt auf, bis sie sich unvermittelt zeigt, oft verstärkt durch Alkohol, Nikotin oder andere Risikofaktoren." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse aus Pflichtgefühl fortlaufend zurück, ohne die eigene wachsende Erschöpfung je zuzugeben – diese selbstauferlegte, nie eingestandene Überforderung kann sich über Jahre zu einer inneren Fülle verdichten." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv aus, oft mit erhöhtem Risiko für Suchtverhalten – diese Kombination aus rastloser Intensität und stoffgebundenem Risiko liest die Psychosomatik als eines der direkteren Bilder für eine plötzliche, dramatische Entladung." },
         ],
@@ -96122,7 +96122,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Kontrolle, die bis zum Bruchpunkt durchhält",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht kämpft und kontrolliert bis an die eigene Grenze, weit über das hinaus, was andere ertragen würden – Schwäche einzugestehen widerspricht ihrem tiefsten Selbstverständnis. Diese Unnachgiebigkeit, die selbst dann nicht nachgibt, wenn der Körper längst Alarm schlägt, kann sich als aufgestaute Fülle zeigen, die sich mit besonderer Wucht entlädt." },
+      { code: "SE8", text: "Weit über das hinaus, was andere ertragen würden, kämpft und kontrolliert die selbsterhaltende Acht bis an die eigene Grenze – Schwäche einzugestehen widerspricht ihrem tiefsten Selbstverständnis. Diese Unnachgiebigkeit, die selbst dann nicht nachgibt, wenn der Körper längst Alarm schlägt, kann sich als aufgestaute Fülle zeigen, die sich mit besonderer Wucht entlädt." },
           { code: "SO8", text: "Die soziale Acht trägt Verantwortung für viele Menschen gleichzeitig, oft in einer Beschützerrolle, die keine eigene Erschöpfung zulässt – diese permanente Führungsspannung, nie geteilt, kann sich über Jahre zu einer inneren Fülle verdichten." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit heftigen Ausschlägen zwischen Kontrolle und Hingabe – diese extreme, aber konzentrierte emotionale Wucht kann in besonders zugespitzten Beziehungsmomenten zu plötzlichen inneren Entladungen führen." },
         ],
@@ -96207,7 +96207,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Zerstreute Energie, die nirgends wirklich ankommt",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben verteilt ihre Energie auf viele parallele Optionen und Projekte gleichzeitig – diese Zerstreuung kann dazu führen, dass nirgends genug konzentrierte Kraft für eine wirklich nachdrückliche Selbstbehauptung ankommt, obwohl insgesamt viel Aktivität stattfindet." },
+      { code: "SE7", text: "Nirgends kommt genug konzentrierte Kraft für eine wirklich nachdrückliche Selbstbehauptung an, obwohl insgesamt viel Aktivität stattfindet – so verteilt die selbsterhaltende Sieben ihre Energie auf viele parallele Optionen und Projekte gleichzeitig." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, richtet ihre Energie fortlaufend auf die Bedürfnisse anderer aus, oft aus Pflichtgefühl – diese selbstlose Ausrichtung, anders als bei der ungebremsten Sieben, kann zu einem Mangel an Energie führen, die für die eigene Sache reserviert bleibt." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und intensiv – ihr fehlt es selten an akuter Energie, doch die ständige Suche nach dem nächsten Impuls kann verhindern, dass diese Kraft je in eine stabile, dauerhafte Selbstbehauptung mündet." },
         ],
@@ -96215,7 +96215,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Kraft, die nach außen fließt, statt sich selbst zu nähren",
         varianten: [
-          { code: "SE8", text: "Bei der selbsterhaltenden Acht ist Energiemangel selten – ihre Kraft ist meist beträchtlich. Tritt Hypotonie dennoch auf, etwa nach Phasen extremer Überforderung, kann sie als seltener, aber deutlicher Hinweis gelesen werden, dass selbst diese scheinbar unerschöpfliche Kraftquelle Grenzen hat, die konsequent überschritten wurden." },
+      { code: "SE8", text: "Bei der selbsterhaltenden Acht ist Energiemangel selten – ihre Kraft ist meist beträchtlich. Tritt Hypotonie dennoch auf, etwa nach Phasen extremer Überforderung, kann sie als seltener, aber deutlicher Hinweis gelesen werden, dass selbst diese scheinbar unerschöpfliche Kraftquelle Grenzen hat, die konsequent überschritten wurden." },
           { code: "SO8", text: "Die soziale Acht setzt ihre Kraft fortlaufend für den Schutz und die Führung anderer ein – wird diese Energie nie durch eigene Regeneration ausgeglichen, kann sich über Jahre eine Erschöpfung einschleichen, die untypisch für diesen sonst kraftvollen Subtyp ist." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung – Energiemangel zeigt sich hier, wenn überhaupt, eher als kurzzeitiger Einbruch nach besonders erschöpfenden emotionalen Zuspitzungen, nicht als chronischer Grundzustand." },
         ],
@@ -96300,7 +96300,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Scheinbare Vielfalt, die dieselbe Fluchtbewegung wiederholt",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben wirkt nach außen abwechslungsreich, wiederholt aber im Kern über Jahre dasselbe Muster: dem Unangenehmen ausweichen, zur nächsten Option springen – diese strukturelle Wiederholung unter der Oberfläche der Vielfalt kann sich als eine Rigidität zeigen, die sich auch körperlich niederschlägt." },
+      { code: "SE7", text: "Dem Unangenehmen ausweichen, zur nächsten Option springen: Dieses Muster wiederholt sich im Kern über Jahre, auch wenn die selbsterhaltende Sieben nach außen abwechslungsreich wirkt. Diese strukturelle Wiederholung unter der Oberfläche der Vielfalt kann sich als eine Rigidität zeigen, die sich auch körperlich niederschlägt." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt über Jahre dieselbe selbstlose, pflichtbewusste Rolle für andere, ohne sie zu variieren – diese unveränderte Position kann sich als eine Rigidität zeigen, die auch körperlich zunehmend weniger Flexibilität zulässt." },
           { code: "SX7", text: "Die sexuelle Sieben lebt tatsächliche, spontane Vielfalt und wechselt impulsiv zwischen Begeisterungen – diese echte Variabilität steht der starren, wiederholten Bewegung entgegen, die für Arthrose psychosomatisch besonders typisch ist." },
         ],
@@ -96308,7 +96308,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Unnachgiebige Haltung, die keine Anpassung zulässt",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht hält über Jahre an derselben kraftvollen, kontrollierten Haltung fest, weicht selten von ihrem Kurs ab – diese Unnachgiebigkeit, die sich selbst dann nicht anpasst, wenn Flexibilität klüger wäre, passt zum Bild einer über Jahrzehnte akkumulierten mechanischen Abnutzung." },
+      { code: "SE8", text: "Selten weicht die selbsterhaltende Acht von ihrem Kurs ab, hält über Jahre an derselben kraftvollen, kontrollierten Haltung fest – diese Unnachgiebigkeit, die sich selbst dann nicht anpasst, wenn Flexibilität klüger wäre, passt zum Bild einer über Jahrzehnte akkumulierten mechanischen Abnutzung." },
           { code: "SO8", text: "Die soziale Acht übernimmt über Jahre dieselbe Führungs- und Beschützerrolle, ohne sie zu variieren – diese unveränderte Position der Verantwortung kann sich als Rigidität zeigen, die sich auch körperlich in mangelnder Anpassungsfähigkeit niederschlägt." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit heftigen, aber wechselnden Ausschlägen zwischen Kontrolle und Hingabe – diese emotionale Variabilität steht der starren, immer gleichen Wiederholung entgegen, die für Arthrose besonders typisch ist." },
         ],
@@ -96393,7 +96393,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Selbstauferlegte Last hinter scheinbarer Leichtigkeit",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben hält sich ständig in Bewegung, springt von Option zu Option – diese permanente Zerstreuung kann verhindern, dass sie je bei der eigenen, tieferen Erschöpfung ankommt, die sich unbemerkt aufstaut und sich schließlich körperlich als Rückenschmerz zeigt, sobald das Tempo einmal nachlässt." },
+      { code: "SE7", text: "Sobald das Tempo einmal nachlässt, zeigt sich, was die permanente Zerstreuung der selbsterhaltenden Sieben – ständig in Bewegung, springt von Option zu Option – bisher verhindert hat: dass sie je bei der eigenen, tieferen Erschöpfung ankommt, die sich unbemerkt aufstaut und sich dann körperlich als Rückenschmerz zeigt." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt aus Pflichtgefühl Verantwortung für andere, oft ohne diese Last je einzugestehen – diese selbstlose, nie ausgesprochene Überforderung kann sich über Jahre als chronischer Rückenschmerz zeigen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, springt impulsiv von einer Intensität zur nächsten – echte, akkumulierte Last zeigt sich hier seltener, am ehesten in den seltenen Momenten, in denen sie gezwungen ist, bei einer Verpflichtung zu verharren." },
         ],
@@ -96401,7 +96401,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Beschützerlast, die keine Schwäche zulässt",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht sichert ihr Terrain und trägt die volle Verantwortung dafür allein – Hilfe anzunehmen widerspricht ihrem Selbstverständnis fundamental. Dieses konsequente Alleintragen einer oft erheblichen Last passt besonders genau zum Bild des chronischen Rückenschmerzes." },
+      { code: "SE8", text: "Hilfe anzunehmen widerspricht dem Selbstverständnis der selbsterhaltenden Acht fundamental – sie sichert ihr Terrain und trägt die volle Verantwortung dafür allein. Dieses konsequente Alleintragen einer oft erheblichen Last passt besonders genau zum Bild des chronischen Rückenschmerzes." },
           { code: "SO8", text: "Die soziale Acht trägt Verantwortung für viele Menschen gleichzeitig, oft in einer Beschützerrolle, die keine eigene Erschöpfung zulässt – diese permanente, nie geteilte Last kann sich über Jahre als Rückenschmerz zeigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung – diese extreme, aber konzentrierte emotionale Wucht erzeugt eher punktuelle Belastungsspitzen in zugespitzten Beziehungsmomenten als eine gleichmäßig akkumulierte Rückenlast." },
         ],
@@ -96486,7 +96486,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Verleugnete Erschöpfung, die sich gegen den Körper wendet",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben ignoriert Erschöpfungssignale konsequent zugunsten der nächsten Ablenkung – diese fortgesetzte Verleugnung des eigenen Zustands kann bedeuten, dass der Körper sich selbst überlassen bleibt, ohne die Fürsorge zu erhalten, die er eigentlich bräuchte, was sich als ein System zeigen kann, das sich selbst nicht schützt, sondern angreift." },
+      { code: "SE7", text: "Zugunsten der nächsten Ablenkung ignoriert die selbsterhaltende Sieben Erschöpfungssignale konsequent – diese fortgesetzte Verleugnung des eigenen Zustands kann bedeuten, dass der Körper sich selbst überlassen bleibt, ohne die Fürsorge zu erhalten, die er eigentlich bräuchte, was sich als ein System zeigen kann, das sich selbst nicht schützt, sondern angreift." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse aus Pflichtgefühl zurück und macht sich innerlich Vorwürfe, wenn sie nicht genug für andere getan hat – diese Selbstverurteilung passt zum Bild eines Immunsystems, das sich gegen sich selbst richtet." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv nach außen aus – diese Externalisierung von Energie und Intensität steht dem konsequent nach innen gerichteten Selbstangriff entgegen, der bei anderen Sieben-Varianten möglich ist." },
         ],
@@ -96494,7 +96494,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Unnachgiebigkeit, die sich zuletzt gegen sich selbst kehrt",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht bekämpft Schwäche in sich selbst mit derselben Härte, mit der sie äußeren Widerständen begegnet – Schwäche einzugestehen widerspricht ihrem Selbstverständnis so fundamental, dass sie sich selbst dafür verurteilt. Diese innere Kompromisslosigkeit gegen sich selbst passt zum Bild eines Systems, das sich gegen den eigenen Körper wendet." },
+      { code: "SE8", text: "Mit derselben Härte, mit der sie äußeren Widerständen begegnet, bekämpft die selbsterhaltende Acht Schwäche in sich selbst – so fundamental widerspricht ihrem Selbstverständnis, Schwäche einzugestehen, dass sie sich selbst dafür verurteilt. Diese innere Kompromisslosigkeit gegen sich selbst passt zum Bild eines Systems, das sich gegen den eigenen Körper wendet." },
           { code: "SO8", text: "Die soziale Acht übernimmt Führung für ihre Gruppe und macht sich innerlich harte Vorwürfe, wenn sie das Gefühl hat, ihre Beschützerrolle nicht vollständig erfüllt zu haben – diese Selbstbeschuldigung kann sich körperlich als ein System zeigen, das sich gegen sich selbst richtet." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, richtet ihre Härte eher nach außen, in den Machtkampf mit dem geliebten Menschen – diese Externalisierung kann den nach innen gerichteten Selbstangriff, der für rheumatoide Arthritis typisch ist, zumindest teilweise abmildern." },
         ],
@@ -96579,7 +96579,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Zerstreuung, die die eigene Substanz nie auffüllt",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben hält sich ständig in Bewegung, springt von einer Ablenkung zur nächsten, ohne je wirklich innezuhalten und sich bewusst zu nähren – diese permanente Zerstreuung kann verhindern, dass die eigene Substanz je wirklich aufgefüllt wird, was sich über Jahrzehnte als schwindende innere Dichte zeigen kann." },
+      { code: "SE7", text: "Ohne je wirklich innezuhalten und sich bewusst zu nähren, springt die selbsterhaltende Sieben ständig von einer Ablenkung zur nächsten – diese permanente Zerstreuung kann verhindern, dass die eigene Substanz je wirklich aufgefüllt wird, was sich über Jahrzehnte als schwindende innere Dichte zeigen kann." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse aus Pflichtgefühl zurück, oft ohne die eigene, allmählich schwindende Substanz je zu bemerken – diese selbstlose Ausrichtung kann sich über Jahre als stille Auszehrung zeigen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und intensiv aus – diese emotionale Lebendigkeit kann eine gewisse innere Nährung ermöglichen, auch wenn die rastlose Suche nach dem nächsten Impuls echte Regeneration erschwert." },
         ],
@@ -96587,7 +96587,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Kraft, die keine eigene Verletzlichkeit zulässt",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht kämpft und kontrolliert über Jahrzehnte, ohne sich je Schwäche oder Verletzlichkeit einzugestehen – Selbstfürsorge, die auch das eigene Bedürfnis nach Nähe und Nahrung anerkennt, widerspricht ihrem Selbstverständnis fundamental. Diese fortgesetzte Härte gegen sich selbst kann sich als eine still schwindende innere Substanz zeigen." },
+      { code: "SE8", text: "Selbstfürsorge, die auch das eigene Bedürfnis nach Nähe und Nahrung anerkennt, widerspricht dem Selbstverständnis der selbsterhaltenden Acht fundamental – sie kämpft und kontrolliert über Jahrzehnte, ohne sich je Schwäche oder Verletzlichkeit einzugestehen. Diese fortgesetzte Härte gegen sich selbst kann sich als eine still schwindende innere Substanz zeigen." },
           { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung für viele Menschen gleichzeitig, oft in einer Beschützerrolle, die keine eigene Bedürftigkeit zulässt – diese permanente, nie eingestandene Selbstvernachlässigung kann sich über Jahre als schwindende Substanz zeigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit einer Hingabe, die zumindest an dieser Stelle echten emotionalen Austausch ermöglicht – diese fokussierte Verbindung kann die vollständige Selbstvernachlässigung anderer Acht-Varianten etwas abmildern." },
         ],
@@ -96672,7 +96672,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Zerstreuung, die den ganzen Körper beansprucht",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben hält sich zahlreiche Optionen und Aktivitäten gleichzeitig offen, springt zwischen Projekten und Genüssen – dieses Leben in ständiger paralleler Vielfalt beansprucht den gesamten Körper gleichzeitig, ohne dass sich die Erschöpfung je an einer einzelnen Stelle konzentriert, was zum diffusen Schmerzbild der Fibromyalgie passt." },
+      { code: "SE7", text: "Ohne dass sich die Erschöpfung je an einer einzelnen Stelle konzentriert, beansprucht ein Leben in ständiger paralleler Vielfalt den gesamten Körper der selbsterhaltenden Sieben gleichzeitig – sie hält sich zahlreiche Optionen und Aktivitäten gleichzeitig offen, springt zwischen Projekten und Genüssen. Das passt zum diffusen Schmerzbild der Fibromyalgie." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt oft mehrere Verpflichtungen gleichzeitig aus Pflichtgefühl – diese selbstauferlegte Vielfachbelastung, über viele Bereiche verteilt, kann sich als eine diffuse, generelle Überforderung des gesamten Systems zeigen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv, springt von einer Intensität zur nächsten – diese rastlose, aber fokussierte Intensität in jedem einzelnen Moment steht dem gleichmäßig diffusen Erschöpfungsmuster der Fibromyalgie eher entgegen." },
         ],
@@ -96680,7 +96680,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Übersteuerung an vielen Fronten gleichzeitig",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht kontrolliert gleichzeitig viele Bereiche ihres materiellen und körperlichen Terrains, hält alles gleichzeitig im Griff – diese ständige, gleichzeitige Wachsamkeit über mehrere Fronten hinweg kann den gesamten Körper in einer diffusen, nirgends konzentrierten Anspannung halten, die dem Schmerzbild der Fibromyalgie entspricht." },
+      { code: "SE8", text: "Diese ständige, gleichzeitige Wachsamkeit über mehrere Fronten hinweg kann den gesamten Körper der selbsterhaltenden Acht in einer diffusen, nirgends konzentrierten Anspannung halten – sie kontrolliert gleichzeitig viele Bereiche ihres materiellen und körperlichen Terrains, hält alles gleichzeitig im Griff, was dem Schmerzbild der Fibromyalgie entspricht." },
           { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung für viele Menschen gleichzeitig, führt und entscheidet in mehreren Konflikten parallel – diese Vielfachbelastung durch gleichzeitige Führungsaufgaben kann sich als eine diffuse, über das gesamte System verteilte Überlastung zeigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, konzentriert auf einen Bereich – diese fokussierte, wenn auch extreme Intensität steht dem diffusen, über den ganzen Körper verteilten Erschöpfungsmuster anderer Acht-Varianten entgegen." },
         ],
@@ -96765,7 +96765,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Vielgriffigkeit, die keine Pause kennt",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben greift fortlaufend nach neuen Optionen und Aktivitäten, springt von einem Projekt zum nächsten, oft mit den eigenen Händen aktiv – diese permanente, nie pausierte Betriebsamkeit passt zum mechanischen Überlastungsmuster des Karpaltunnelsyndroms." },
+      { code: "SE7", text: "Oft mit den eigenen Händen aktiv greift die selbsterhaltende Sieben fortlaufend nach neuen Optionen und Aktivitäten, springt von einem Projekt zum nächsten – diese permanente, nie pausierte Betriebsamkeit passt zum mechanischen Überlastungsmuster des Karpaltunnelsyndroms." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt aus Pflichtgefühl viele konkrete Aufgaben für andere, oft mit den eigenen Händen – diese selbstauferlegte, körperlich wiederholte Verpflichtung kann sich als eingeengte Handlungsfähigkeit zeigen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, springt impulsiv zwischen Intensitäten – diese emotionale, nicht primär manuell-repetitive Intensität erzeugt seltener die spezifische mechanische Überlastung des Karpaltunnelsyndroms." },
         ],
@@ -96773,7 +96773,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Fester Griff, der niemals nachgibt",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht kontrolliert ihr Terrain mit festem Zugriff, packt buchstäblich zu, wo andere zögern würden – diese dauerhaft angespannte Greifkraft, nie bewusst gelockert, passt besonders genau zum Bild eines Kanals, der sich unter permanenter mechanischer Belastung einengt." },
+      { code: "SE8", text: "Buchstäblich zu, wo andere zögern würden: So kontrolliert die selbsterhaltende Acht ihr Terrain mit festem Zugriff – diese dauerhaft angespannte Greifkraft, nie bewusst gelockert, passt besonders genau zum Bild eines Kanals, der sich unter permanenter mechanischer Belastung einengt." },
           { code: "SO8", text: "Die soziale Acht übernimmt Führung und praktische Verantwortung für viele Menschen gleichzeitig, oft mit konkretem, tatkräftigem Zugreifen – diese kontinuierliche körperliche Beanspruchung kann sich als eingeengte Handlungsfähigkeit zeigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung – diese emotionale, nicht primär mechanisch-repetitive Intensität erzeugt seltener die Art wiederholter Handbelastung, die für das Karpaltunnelsyndrom ursächlich ist." },
         ],
@@ -96858,7 +96858,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Genuss, der sich ansammelt, bis der Körper Einspruch erhebt",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben genießt Essen, Trinken und Vergnügen oft ausgiebig, als Belohnung für sich selbst – wiederholter, purinreicher Genuss über Jahre, verbunden mit der Weigerung, echte Grenzen zu setzen, passt besonders direkt zum mechanischen Entstehungsmuster der Gicht: eine Ansammlung, die sich irgendwann als scharfer Anfall Bahn bricht." },
+      { code: "SE7", text: "Als Belohnung für sich selbst genießt die selbsterhaltende Sieben Essen, Trinken und Vergnügen oft ausgiebig – wiederholter, purinreicher Genuss über Jahre, verbunden mit der Weigerung, echte Grenzen zu setzen, passt besonders direkt zum mechanischen Entstehungsmuster der Gicht: eine Ansammlung, die sich irgendwann als scharfer Anfall Bahn bricht." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, hält eigene Genüsse und Bedürfnisse aus Pflichtgefühl oft zurück – dieser gebremste, nie ausgelebte Genuss unterscheidet sich vom eher direkten Konsummuster der ungebremsten Sieben und kann seltener zur klassischen Ansammlung führen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, oft verbunden mit intensivem Konsum von Nahrung, Alkohol oder anderen Genussmitteln – diese impulsive, wiederholte Intensität liest die Psychosomatik als eines der direkteren Bilder für eine Ansammlung, die sich irgendwann explosionsartig entlädt." },
         ],
@@ -96866,7 +96866,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Unnachgiebigkeit, die sich zuletzt scharf entlädt",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht hält Frustration und Ärger oft lange zurück, bis eine Grenze überschritten ist – dann entlädt sich diese angesammelte Intensität mit voller, unmittelbarer Wucht. Diese Dynamik aus langer Ansammlung und plötzlicher, scharfer Entladung passt besonders genau zum Bild des Gichtanfalls." },
+      { code: "SE8", text: "Dann entlädt sich angesammelte Intensität mit voller, unmittelbarer Wucht: Die selbsterhaltende Acht hält Frustration und Ärger oft lange zurück, bis eine Grenze überschritten ist. Diese Dynamik aus langer Ansammlung und plötzlicher, scharfer Entladung passt besonders genau zum Bild des Gichtanfalls." },
           { code: "SO8", text: "Die soziale Acht trägt Verantwortung und Ärger über die Grenzen anderer oft lange mit sich, bevor sie eingreift – diese angesammelte, dann plötzlich freigesetzte Intensität passt zum psychosomatischen Bild der Gicht." },
           { code: "SX8", text: "Die sexuelle Acht lebt Intensität in der Beziehung meist unmittelbar und direkt aus, statt sie anzusammeln – diese direkte Entladung steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist." },
         ],
@@ -96951,7 +96951,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Vielfalt, die im Kern dieselbe Fluchtbewegung wiederholt",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben wirkt nach außen abwechslungsreich, wiederholt aber im Kern über Jahre dasselbe angespannte Muster: schnell zugreifen, schnell weiter – diese strukturelle Wiederholung unter der Oberfläche der Vielfalt kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
+      { code: "SE7", text: "Schnell zugreifen, schnell weiter: Dieses angespannte Muster wiederholt sich im Kern über Jahre, auch wenn die selbsterhaltende Sieben nach außen abwechslungsreich wirkt. Diese strukturelle Wiederholung unter der Oberfläche der Vielfalt kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt über Jahre dieselbe selbstlose, körperlich fordernde Rolle für andere, ohne sie zu variieren – diese unveränderte Position kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt tatsächliche, spontane Vielfalt und wechselt impulsiv zwischen Begeisterungen – diese echte Variabilität steht der starren, wiederholten Bewegung entgegen, die für den Tennisarm psychosomatisch besonders typisch ist." },
         ],
@@ -96959,7 +96959,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Immer derselbe feste, unnachgiebige Griff",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht wiederholt über Jahre denselben festen, kontrollierten Zugriff auf ihr Terrain, packt buchstäblich zu, wo andere zögern würden – diese dauerhaft angespannte, nie bewusst gelockerte Greifkraft passt besonders genau zum Bild eines Sehnenansatzes, der unter permanenter mechanischer Anspannung erschöpft ist." },
+      { code: "SE8", text: "Über Jahre wiederholt die selbsterhaltende Acht denselben festen, kontrollierten Zugriff auf ihr Terrain, packt buchstäblich zu, wo andere zögern würden – diese dauerhaft angespannte, nie bewusst gelockerte Greifkraft passt besonders genau zum Bild eines Sehnenansatzes, der unter permanenter mechanischer Anspannung erschöpft ist." },
           { code: "SO8", text: "Die soziale Acht wiederholt über Jahre dieselbe tatkräftige Führungsgeste für ihre Gruppe, immer mit demselben festen Zugriff – diese unveränderte, körperlich fordernde Haltung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit heftigen, aber wechselnden Ausschlägen zwischen Kontrolle und Hingabe – diese emotionale Variabilität steht der starren, immer gleichen Wiederholung entgegen, die für den Tennisarm typisch ist." },
         ],
@@ -97044,7 +97044,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Rastlosigkeit, die Anspannung nie zur Ruhe kommen lässt",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben hält sich ständig in Bewegung, springt von einer Aktivität zur nächsten – ironischerweise kann genau diese permanente Betriebsamkeit verhindern, dass Schultern und Arme je bewusst entspannt werden, was sich über Jahre als eine unerwartete Erstarrung zeigen kann, sobald das Tempo einmal nachlässt." },
+      { code: "SE7", text: "Ironischerweise kann genau die permanente Betriebsamkeit, mit der sich die selbsterhaltende Sieben ständig in Bewegung hält und von einer Aktivität zur nächsten springt, verhindern, dass Schultern und Arme je bewusst entspannt werden – was sich über Jahre als eine unerwartete Erstarrung zeigen kann, sobald das Tempo einmal nachlässt." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt aus Pflichtgefühl viele körperlich fordernde Aufgaben für andere, ohne sich je bewusst zu entspannen – diese selbstlose, nie unterbrochene Anspannung kann sich über Jahre als Versteifung der Schulter zeigen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, mit viel körperlicher Nähe und Bewegung – diese ausgelebte Offenheit steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist." },
         ],
@@ -97052,7 +97052,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Unnachgiebige Kraft, die keine Verletzlichkeit zulässt",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht hält ihre Schultern buchstäblich und im übertragenen Sinne kraftvoll und angespannt, bereit zur Verteidigung ihres Terrains – echte Entspannung, echtes Sich-Öffnen für Umarmung, widerspricht ihrem Selbstverständnis fundamental. Diese fortgesetzte Härte kann sich als eine zunehmende Erstarrung der Schulter zeigen." },
+      { code: "SE8", text: "Bereit zur Verteidigung ihres Terrains hält die selbsterhaltende Acht ihre Schultern buchstäblich und im übertragenen Sinne kraftvoll und angespannt – echte Entspannung, echtes Sich-Öffnen für Umarmung, widerspricht ihrem Selbstverständnis fundamental. Diese fortgesetzte Härte kann sich als eine zunehmende Erstarrung der Schulter zeigen." },
           { code: "SO8", text: "Die soziale Acht trägt Verantwortung für viele Menschen gleichzeitig, oft mit körperlich spürbarer, nie gelöster Anspannung in Schulter und Nacken – diese permanente Führungsspannung kann sich über Jahre als Versteifung zeigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit viel direkter körperlicher Nähe und Hingabe – diese ausgelebte Offenheit steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist." },
         ],
@@ -97137,7 +97137,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Verleugnete Erschöpfung, die sich plötzlich Bahn bricht",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben ignoriert Erschöpfungssignale konsequent zugunsten der nächsten Ablenkung, hält sich ständig in Bewegung – bis eine einzige, oft ungeschickte Bewegung genügt, damit die lange verleugnete körperliche Überlastung plötzlich einschießt. Dieses Muster passt besonders genau zum Bild des scheinbar aus dem Nichts auftretenden Hexenschusses." },
+      { code: "SE7", text: "Bis eine einzige, oft ungeschickte Bewegung genügt, damit lange verleugnete körperliche Überlastung plötzlich einschießt: So ignoriert die selbsterhaltende Sieben Erschöpfungssignale konsequent zugunsten der nächsten Ablenkung, hält sich ständig in Bewegung. Dieses Muster passt besonders genau zum Bild des scheinbar aus dem Nichts auftretenden Hexenschusses." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse aus Pflichtgefühl zurück, oft ohne die eigene wachsende Erschöpfung je einzugestehen – wenn diese sich schließlich löst, geschieht dies oft plötzlich und unerwartet." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, mit viel Bewegung und körperlicher Aktivität – diese ausgelebte Energie kann zu punktuellen Überlastungen führen, die eher direkt als nach langer stiller Ansammlung auftreten." },
         ],
@@ -97145,7 +97145,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Durchhaltekraft, die bis zum plötzlichen Bruch reicht",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht kämpft und arbeitet weiter, lange nachdem andere längst aufgegeben hätten – bis ein einziger zusätzlicher Kraftakt genügt, damit das längst überlastete System plötzlich nachgibt. Dieses Muster, bis zum Bruchpunkt durchzuhalten, ohne vorher nachzugeben, passt besonders genau zum Bild des Hexenschusses." },
+      { code: "SE8", text: "Bis ein einziger zusätzlicher Kraftakt genügt, damit das längst überlastete System plötzlich nachgibt: So kämpft und arbeitet die selbsterhaltende Acht weiter, lange nachdem andere längst aufgegeben hätten. Dieses Muster, bis zum Bruchpunkt durchzuhalten, ohne vorher nachzugeben, passt besonders genau zum Bild des Hexenschusses." },
           { code: "SO8", text: "Die soziale Acht trägt Verantwortung für viele Menschen gleichzeitig, oft mit körperlich spürbarer, nie gelöster Anspannung – wenn diese permanente Führungsspannung sich schließlich löst, geschieht dies oft plötzlich und heftig." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung meist unmittelbar aus, statt sie anzusammeln – diese direkte Entladung steht der lange zurückgehaltenen, dann plötzlich einschießenden Überlastung entgegen." },
         ],
@@ -97230,7 +97230,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Vielfalt, die im Kern dieselbe Handbewegung wiederholt",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben wirkt nach außen abwechslungsreich, wiederholt aber im Kern über Jahre dasselbe angespannte Muster: schnell zugreifen, schnell weiter – diese strukturelle Wiederholung unter der Oberfläche der Vielfalt kann sich als eine entzündete Sehnenscheide zeigen." },
+      { code: "SE7", text: "Schnell zugreifen, schnell weiter: Dieses angespannte Muster wiederholt sich im Kern über Jahre, auch wenn die selbsterhaltende Sieben nach außen abwechslungsreich wirkt. Diese strukturelle Wiederholung unter der Oberfläche der Vielfalt kann sich als eine entzündete Sehnenscheide zeigen." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt über Jahre dieselbe selbstlose, körperlich fordernde Rolle für andere, oft mit denselben konkreten Handgriffen – diese unveränderte Position kann sich als eine entzündete Schutzhülle zeigen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt tatsächliche, spontane Vielfalt und wechselt impulsiv zwischen Begeisterungen – diese echte Variabilität steht der starren, wiederholten Bewegung entgegen, die für die Sehnenscheidenentzündung psychosomatisch besonders typisch ist." },
         ],
@@ -97238,7 +97238,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 8, titel: "Immer derselbe feste, unnachgiebige Griff",
         varianten: [
-          { code: "SE8", text: "Die selbsterhaltende Acht wiederholt über Jahre denselben festen, kontrollierten Zugriff auf ihr Terrain – diese dauerhaft angespannte, nie bewusst gelockerte Greifkraft passt besonders genau zum Bild einer Sehnenscheide, die unter permanenter mechanischer Anspannung erschöpft." },
+      { code: "SE8", text: "Über Jahre wiederholt die selbsterhaltende Acht denselben festen, kontrollierten Zugriff auf ihr Terrain – diese dauerhaft angespannte, nie bewusst gelockerte Greifkraft passt besonders genau zum Bild einer Sehnenscheide, die unter permanenter mechanischer Anspannung erschöpft." },
           { code: "SO8", text: "Die soziale Acht wiederholt über Jahre dieselbe tatkräftige Führungsgeste für ihre Gruppe, immer mit demselben festen Zugriff – diese unveränderte, körperlich fordernde Haltung kann sich als eine entzündete Schutzhülle zeigen." },
           { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit heftigen, aber wechselnden Ausschlägen zwischen Kontrolle und Hingabe – diese emotionale Variabilität steht der starren, immer gleichen Wiederholung entgegen, die für die Sehnenscheidenentzündung typisch ist." },
         ],
