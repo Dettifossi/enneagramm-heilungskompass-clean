@@ -62108,6 +62108,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to gout, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates accumulation, control, and sudden discharge in its own way – some through held-back anger, others through excess indulgence, denial, or an accumulation of their own that was never noticed. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  tennisarm: {
+    titel: "Tennis Elbow (Epicondylitis)",
+    kategorie: "bewegungsapparat",
+    icon: "&#128170;",
+    kurz: "When the same tensed hand motion is repeated so often that the very point of origin starts to hurt.",
+    definition: "Tennis elbow (lateral epicondylitis) refers to a painful irritation of the tendon insertions at the outer elbow bone, where the forearm's extensor muscles attach. Despite the name, the condition rarely actually arises from playing tennis – far more common are repeated, one-sided strains on the hand and forearm muscles in everyday life or work, such as screen work with a mouse and keyboard, manual trades, or repetitive gripping motions. The constant overload creates tiny micro-injuries in the tendon fibers, which can become chronically inflamed when the tissue is not given adequate recovery. The counterpart at the inner elbow bone is called golfer's elbow.",
+    symptome: [
+      "Pain at the outer elbow, typically increasing with exertion (e.g. gripping, lifting, or turning the forearm)",
+      "Tenderness directly over the bony tendon insertion at the elbow",
+      "Painful gripping, e.g. shaking hands, lifting a cup, or opening a bottle cap",
+      "Pain radiating into the forearm, sometimes as far as the hand",
+      "Increasing weakness when gripping",
+      "In chronic cases: persistent discomfort even with minor strain or at rest",
+    ],
+    notfall: "Tennis elbow is not an acute emergency. In the case of sudden, very severe pain after an acute injury, visible swelling, deformity, or inability to move the arm: seek medical help promptly to rule out a fracture or tendon rupture.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Tennis elbow does not arise from a single, dramatic injury, but from the quiet repetition of the same tensed movement, over and over, until exactly the point where strength and movement originate – the tendon insertion – itself becomes the site of pain. Traditional Chinese Medicine often assigns complaints of this kind to a local stagnation of Qi and Blood, usually from repeated, monotonous tension without adequate balance. Psychosomatic medicine therefore often reads this as a picture of always the same, cramped effort – a task, a role, or a stance carried out again and again with a tensed grip, until exactly the point where this effort begins becomes exhausted.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that repeats itself in the same tensed motion",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One handles tasks with disciplined, often repeated precision – the same tensed control, carried out again and again, fits directly with the picture of a tendon that becomes inflamed exactly at the point where the effort begins." },
+          { code: "SO1", text: "The social One persistently holds on to its tasks for the group – a pattern that rarely pauses, even when the arm has long shown fatigue." },
+          { code: "SX1", text: "The sexual One lives its demands directly within the relationship – a more punctual, less repetitive form of tension than in the other One variants." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that keeps gripping with tension again and again",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two gives quietly and practically – often with its own hands – without ever granting itself a recovery break. A grip that constantly repeats without ever relaxing is psychosomatically one of the most direct pictures for this condition." },
+          { code: "SO2", text: "The social Two stays practically available to the community – its own hands are often in service to others, rarely at rest." },
+          { code: "SX2", text: "The sexual Two focuses its caregiving on the one relationship – a more focused, less permanently taxing form of strain." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that repeats the same precise motion until exhaustion",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps working efficiently and often with hands-on precision, even when the body has long been asking for a break – repeated, barely interrupted strain on the tendon insertions fits the picture of this overload." },
+          { code: "SO3", text: "The social Three deploys its skills visibly for public recognition – its own hands and arms are rarely spared in the process." },
+          { code: "SX3", text: "The sexual Three optimizes itself within the relational context – the strain shows up more as emotional pressure than as mechanical overuse." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that shows itself as always the same, cramped effort",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – an inner holding on that never releases can show up physically as an always-the-same, tensed movement that irritates the point of insertion." },
+          { code: "SO4", text: "The social Four makes its own suffering visible – an outward outlet that works against pure physical repetition." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity – a form of movement that seeks expression rather than hardening into rigid repetition." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that repeats the same quiet hand motion for hours",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically, often into activities involving repetitive hand and arm strain (reading, writing, working at a screen) – a physically one-sided strain classically linked to tendon irritation." },
+          { code: "SO5", text: "The social Five gathers knowledge, often in hours of seated activity – a similar mechanical strain as in the self-preservation variant." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – a narrow but lively connection with less one-sided physical strain." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that shows up as a cramped grip that will not loosen",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six holds firmly to caution and preparation – a core stance that can show up physically as a grip that does not relax even when recovery would be needed." },
+          { code: "SO6", text: "The social Six continually worries about the collective – a strain that rarely shows up physically in a concrete way." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation rather than holding on – a more active, less cramped stance than the other Six variants." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that puts its arm to work on too many activities at once",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through many parallel activities – varied but cumulatively high arm and hand strain from too many simultaneous activities can affect the tendon insertions over the long term." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – its own physical overload goes unnoticed for a long time." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – a pattern that rarely attends to even, sparing arm movement." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that keeps gripping tightly even when loosening would be needed",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight keeps tight control over its own resources – a firm, never-relaxed grip fits directly with the picture of a tendon insertion kept irritated through sustained tension." },
+          { code: "SO8", text: "The social Eight carries permanent leadership tension for the group – its own arms and hands rarely stay truly relaxed." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – the strain shows up more in extreme swings than in steady mechanical overuse." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that repeats the same tensed motion year after year",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort and always the same routines – repetitive arm movements barely changed over the years, without conscious breaks, fit directly with the picture of a tendon insertion becoming inflamed through repetition without renewal." },
+          { code: "SO9", text: "The social Nine consistently subordinates its own opinion to the group – an adaptation that rarely has its own physical recovery in mind." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a grip that holds on to the other without ever noticing its own tension." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to tennis elbow, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates repetition, tension, and recovery in its own way – some through repetitive overload, others through control, withdrawal, or a tension of their own that was never noticed. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -62116,7 +62209,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
+  "bewegungsapparat": ["Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],

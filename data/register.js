@@ -425,6 +425,7 @@ export const registerEntries = [
   { term: "Fibromyalgie (Psychosomatik)", route: "psychosomatik/fibromyalgie", description: "Psychosomatische Deutung: diffuse Überforderung, TCM Leber-Qi-Stagnation, Enneagramm alle 27 Subtypen" },
   { term: "Karpaltunnelsyndrom (Psychosomatik)", route: "psychosomatik/karpaltunnelsyndrom", description: "Psychosomatische Deutung: überbeanspruchtes Zugreifen, TCM Qi-Stagnation, Enneagramm alle 27 Subtypen" },
   { term: "Gicht (Psychosomatik)", route: "psychosomatik/gicht", description: "Psychosomatische Deutung: angestaute Intensität, TCM Feuchtigkeit-Hitze, Enneagramm alle 27 Subtypen" },
+  { term: "Tennisarm (Psychosomatik)", route: "psychosomatik/tennisarm", description: "Psychosomatische Deutung: immer gleiche verkrampfte Anstrengung, TCM Qi-Blut-Stagnation, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
@@ -1524,6 +1525,7 @@ export const registerEntriesEN = [
   { term: "Fibromyalgia (Psychosomatics)", route: "psychosomatik/fibromyalgie", description: "Psychosomatic interpretation: diffuse overload, TCM Liver Qi stagnation, Enneagram all 27 subtypes" },
   { term: "Carpal Tunnel Syndrome (Psychosomatics)", route: "psychosomatik/karpaltunnelsyndrom", description: "Psychosomatic interpretation: overtaxed grasping, TCM Qi stagnation, Enneagram all 27 subtypes" },
   { term: "Gout (Psychosomatics)", route: "psychosomatik/gicht", description: "Psychosomatic interpretation: pent-up intensity, TCM Damp-Heat, Enneagram all 27 subtypes" },
+  { term: "Tennis Elbow (Psychosomatics)", route: "psychosomatik/tennisarm", description: "Psychosomatic interpretation: always the same cramped effort, TCM Qi-Blood stagnation, Enneagram all 27 subtypes" },
   { term: "Mineral Substance Impulses", route: "mineralstoffe", description: "Mineral substance impulses for all 27 subtypes – type-specific micronutrients" },
   { term: "Healing Teas", route: "heiltees", description: "Medicinal plant teas for all 27 subtypes – effect and preparation" },
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },

@@ -96882,6 +96882,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Gicht gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Ansammlung, Kontrolle und plötzlicher Entladung verhandelt – manche über zurückgehaltenen Zorn, andere über übermäßigen Genuss, Verdrängung oder eine nie bemerkte eigene Anhäufung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  tennisarm: {
+    titel: "Tennisarm (Epicondylitis)",
+    kategorie: "bewegungsapparat",
+    icon: "&#128170;",
+    kurz: "Wenn dieselbe angespannte Handbewegung so oft wiederholt wird, bis der Ansatzpunkt selbst schmerzt.",
+    definition: "Der Tennisarm (Epicondylitis humeri radialis) bezeichnet eine schmerzhafte Reizung der Sehnenansätze am äußeren Ellenbogenknochen, dort, wo die Streckmuskeln des Unterarms ansetzen. Trotz des Namens entsteht die Erkrankung bei den wenigsten Betroffenen tatsächlich beim Tennisspielen – häufiger sind wiederholte, einseitige Belastungen der Hand- und Unterarmmuskulatur im Alltag oder Beruf, etwa durch Bildschirmarbeit mit Maus und Tastatur, handwerkliche Tätigkeiten oder repetitive Greifbewegungen. Durch die ständige Überlastung entstehen winzige Mikroverletzungen in den Sehnenfasern, die sich chronisch entzünden können, wenn dem Gewebe keine ausreichende Erholung gegönnt wird. Das Gegenstück am inneren Ellenbogenknochen wird als Golferarm bezeichnet.",
+    symptome: [
+      "Schmerzen am äußeren Ellenbogen, die typischerweise bei Belastung zunehmen (etwa beim Greifen, Heben oder Drehen des Unterarms)",
+      "Druckschmerz direkt über dem knöchernen Sehnenansatz am Ellenbogen",
+      "Schmerzhaftes Zufassen, etwa beim Händeschütteln, Anheben einer Tasse oder Aufdrehen eines Flaschendeckels",
+      "Ausstrahlung des Schmerzes in den Unterarm, manchmal bis in die Hand",
+      "Zunehmende Kraftlosigkeit beim Greifen",
+      "Bei chronischem Verlauf: dauerhafte Beschwerden auch bei geringer Belastung oder in Ruhe",
+    ],
+    notfall: "Ein Tennisarm ist kein akuter Notfall. Bei plötzlichem, sehr starkem Schmerz nach einer akuten Verletzung, sichtbarer Schwellung, Fehlstellung oder Unfähigkeit, den Arm zu bewegen: zeitnah ärztliche Hilfe aufsuchen, um eine Fraktur oder einen Sehnenriss auszuschließen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Der Tennisarm entsteht nicht durch eine einzelne, dramatische Verletzung, sondern durch die stille Wiederholung derselben angespannten Bewegung, immer wieder, bis genau der Punkt, an dem Kraft und Bewegung ihren Ursprung nehmen – der Sehnenansatz –, selbst zur Schmerzstelle wird. Die Traditionelle Chinesische Medizin ordnet solche Beschwerden häufig einer lokalen Stagnation von Qi und Blut zu, meist durch wiederholte, monotone Anspannung ohne ausreichenden Ausgleich. Die Psychosomatik liest darin oft ein Bild von immer derselben, verkrampften Anstrengung – einer Aufgabe, einer Rolle oder einer Haltung, die mit angespanntem Griff immer wieder aufs Neue ausgeführt wird, bis genau der Ansatzpunkt, an dem diese Anstrengung beginnt, erschöpft ist.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der sich in derselben angespannten Bewegung wiederholt",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins erledigt Aufgaben mit disziplinierter, oft wiederholter Präzision – dieselbe angespannte Kontrolle, immer wieder ausgeführt, passt unmittelbar zum Bild einer Sehne, die sich an genau dem Punkt entzündet, an dem die Anstrengung beginnt." },
+          { code: "SO1", text: "Die soziale Eins hält beharrlich an ihren Aufgaben für die Gruppe fest – ein Muster, das selten pausiert, auch wenn der Arm längst Ermüdung zeigt." },
+          { code: "SX1", text: "Die sexuelle Eins lebt ihre Ansprüche direkt in der Beziehung aus – eine punktuellere, weniger repetitive Form von Anspannung als bei den anderen Einser-Varianten." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der immer wieder mit angespanntem Griff zupackt",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei gibt still und praktisch – oft mit den eigenen Händen –, ohne sich je eine Erholungspause zu gönnen. Ein Griff, der sich ständig wiederholt, ohne je zu entspannen, ist psychosomatisch eines der unmittelbarsten Bilder für diese Krankheit." },
+          { code: "SO2", text: "Die soziale Zwei bleibt praktisch verfügbar für die Gemeinschaft – die eigenen Hände sind oft im Dienst anderer im Einsatz, selten in Ruhe." },
+          { code: "SX2", text: "Die sexuelle Zwei konzentriert ihre Fürsorge auf die eine Beziehung – eine fokussiertere, weniger dauerhaft beanspruchende Form der Belastung." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die dieselbe präzise Bewegung bis zur Erschöpfung wiederholt",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet effizient und oft handwerklich präzise weiter, auch wenn der Körper längst Pause fordert – eine wiederholte, kaum unterbrochene Beanspruchung der Sehnenansätze passt zum Bild dieser Überlastung." },
+          { code: "SO3", text: "Die soziale Drei setzt ihre Fähigkeiten sichtbar für öffentliche Anerkennung ein – die eigenen Hände und Arme werden dabei selten geschont." },
+          { code: "SX3", text: "Die sexuelle Drei optimiert sich im Beziehungskontext – die Belastung zeigt sich hier eher als emotionaler Druck denn als mechanische Überbeanspruchung." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich in einer immer gleichen, verkrampften Anstrengung zeigt",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – ein inneres Festhalten, das sich nie löst, kann sich körperlich als eine immer gleiche, angespannte Bewegung zeigen, die den Ansatzpunkt reizt." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar – ein Ventil nach außen, das der reinen körperlichen Wiederholung eher entgegenwirkt." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – eine Form der Bewegung, die eher Ausdruck sucht als sich in einer starren Wiederholung zu verhärten." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der dieselbe stille Handbewegung stundenlang wiederholt",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück, oft in Tätigkeiten mit repetitiver Hand- und Armbelastung (Lesen, Schreiben, Arbeiten am Bildschirm) – eine körperlich einseitige Belastung, die klassisch mit Sehnenreizungen in Verbindung gebracht wird." },
+          { code: "SO5", text: "Die soziale Fünf sammelt Wissen, oft in stundenlanger, sitzender Tätigkeit – eine ähnliche mechanische Beanspruchung wie bei der selbsterhaltenden Variante." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, aber lebendige Verbindung mit weniger einseitiger körperlicher Belastung." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die sich in einem verkrampften, nicht lockernden Griff zeigt",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs hält an Vorsicht und Vorbereitung fest – eine Grundhaltung, die sich körperlich als ein Griff zeigen kann, der selbst dann nicht entspannt, wenn Erholung nötig wäre." },
+          { code: "SO6", text: "Die soziale Sechs trägt fortlaufend Sorge um das Kollektiv – eine Belastung, die sich selten körperlich konkret zeigt." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Festhalten – eine aktivere, weniger verkrampfte Haltung als bei den anderen Sechser-Varianten." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die den Arm für zu viele Aktivitäten gleichzeitig einsetzt",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über viele parallele Aktivitäten ab – wechselnde, aber insgesamt kumulativ hohe Arm- und Handbeanspruchung durch zu viele gleichzeitige Tätigkeiten kann sich langfristig auf die Sehnenansätze auswirken." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – die eigene körperliche Überlastung wird dabei lange nicht wahrgenommen." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – ein Muster, das selten auf gleichmäßige, schonende Armbewegungen achtet." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die auch dann noch fest zugreift, wenn Lockerlassen nötig wäre",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht hält Kontrolle über die eigenen Ressourcen straff aufrecht – ein fester, nie entspannter Griff passt unmittelbar zum Bild eines Sehnenansatzes, der durch anhaltende Anspannung gereizt bleibt." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Führungsspannung für die Gruppe – die eigenen Arme und Hände bleiben dabei selten wirklich entspannt." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger mechanischer Überbeanspruchung." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die dieselbe angespannte Bewegung Jahr für Jahr wiederholt",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und immer gleiche Routinen – über Jahre kaum veränderte, repetitive Armbewegungen ohne bewusste Pausen passen unmittelbar zum Bild eines Sehnenansatzes, der sich durch Wiederholung ohne Erneuerung entzündet." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – eine Anpassung, die selten die eigene körperliche Erholung im Sinn hat." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Griffs, der sich am anderen festhält, ohne die eigene Anspannung je zu bemerken." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor einem Tennisarm gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Wiederholung, Anspannung und Erholung verhandelt – manche über repetitive Überlastung, andere über Kontrolle, Rückzug oder eine nie bemerkte eigene Anspannung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -96891,7 +96984,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
+  "bewegungsapparat": ["Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
