@@ -23977,6 +23977,7 @@ const registerEntries = [
   { term: "Karl Lagerfeld Krankheitsporträt", route: "krankheitsportraets-karl-lagerfeld", description: "Portrait: SO3w4 · Sozialer Typ 3 · Krebserkrankung, fast vier Jahre lang geheim gehalten" },
   { term: "Robert Schumann Krankheitsporträt", route: "krankheitsportraets-robert-schumann", description: "Portrait: SX7w8 · Sexueller Typ 7 · Psychische Erkrankung, Rheinsprung 1854, Tod in der Heilanstalt 1856" },
   { term: "Francis Bacon Krankheitsporträt", route: "krankheitsportraets-francis-bacon", description: "Portrait: SE7w8 · Selbsterhaltender Typ 7 · Chronische Gicht, tödliches Hühnchen-Experiment 1626" },
+  { term: "Karl Marx Krankheitsporträt", route: "krankheitsportraets-karl-marx", description: "Portrait: SO8w9 · Sozialer Typ 8 · Chronische Karbunkel, Arbeit am Kapital trotz jahrzehntelanger Schmerzen" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31421,6 +31422,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Sozialer Typ 3", krankheit:"Krebserkrankung (Todesursache offiziell nie bestätigt; laut Assistent Prostatakrebs, diagnostiziert 2015)", teaser:"SO3w4 – Modedesigner und Chanel-Kreativdirektor, 1933–2019. Hielt eine Krebsdiagnose nach übereinstimmenden Berichten fast vier Jahre lang selbst vor engsten Vertrauten geheim und fehlte erst vier Wochen vor seinem Tod erstmals seit 35 Jahren bei einer Chanel-Show." , land:"Deutschland/Frankreich", gender:"m", jahre:"1933–2019"},
   { route:"krankheitsportraets-robert-schumann", name:"Robert Schumann", subtyp:"SX7w8", heading:"Robert Schumann – Sexueller Typ 7", krankheit:"Psychische Erkrankung (retrospektiv diskutiert: bipolare Störung, schizoaffektive Erkrankung oder neurologische Spätfolge einer Syphilis-Infektion)", teaser:"SX7w8 – Komponist und Musikkritiker, 1810–1856. Sprang 1854 in einem Anfall völliger Verzweiflung in den Rhein, bat danach selbst um Einweisung in eine Heilanstalt bei Bonn und starb dort 1856, weitgehend isoliert von seiner Frau Clara bis kurz vor seinem Tod." , land:"Deutschland", gender:"m", jahre:"1810–1856"},
   { route:"krankheitsportraets-francis-bacon", name:"Francis Bacon", subtyp:"SE7w8", heading:"Francis Bacon – Selbsterhaltender Typ 7", krankheit:"Chronische Gicht und Nierensteine, tödliche Bronchitis/Lungenentzündung nach einem selbst durchgeführten Kälte-Experiment", teaser:"SE7w8 – Philosoph, Staatsmann und Begründer des modernen Empirismus, 1561–1626. Litt jahrzehntelang an Gicht und Nierensteinen, starb 1626 an einer Erkältung, die er sich zuzog, als er im Winter ein Hühnchen mit Schnee ausstopfte, um Kälte als Konservierungsmethode zu testen." , land:"Großbritannien", gender:"m", jahre:"1561–1626"},
+  { route:"krankheitsportraets-karl-marx", name:"Karl Marx", subtyp:"SO8w9", heading:"Karl Marx – Sozialer Typ 8", krankheit:"Chronische, schwere Furunkel und Karbunkel (vermutlich Hidradenitis suppurativa), begleitet von Bronchitis, Leberbeschwerden und Rheuma", teaser:"SO8w9 – Philosoph, Ökonom, Begründer des Marxismus, 1818–1883. Litt über vier Jahrzehnte an schmerzhaften Karbunkeln, die ihn zeitweise am Sitzen hinderten und die Arbeit am 'Kapital' immer wieder verzögerten. Starb 1883 an den Folgen chronischer Bronchitis." , land:"Deutschland/Vereinigtes Königreich", gender:"m", jahre:"1818–1883"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -50645,6 +50647,8 @@ function karlMarxPortraitPage() {
           <p class="vb-intro">Kein Denker des 19. Jahrhunderts hat die politische, wirtschaftliche und intellektuelle Landkarte der Welt so nachhaltig ver\u00e4ndert wie Karl Marx &ndash; im Guten wie im Schlechten. Der L\u00f6we, der aus dem Schatten der Bibliothek heraus k\u00e4mpfte, nicht auf der offenen Savanne, dessen Br\u00fcllen aber bis in die Gegenwart in jeder Debatte \u00fcber Kapitalismus, Ausbeutung und soziale Gerechtigkeit nachhallt.</p>
         </blockquote>
 
+        <p class="vb-intro">Seine jahrzehntelangen, extrem schmerzhaften Karbunkel und ihr Einfluss auf die Arbeit am "Kapital" werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-karl-marx">Krankheitsporträt zu Marx</a> gedeutet.
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -50655,6 +50659,7 @@ function karlMarxPortraitPage() {
         {route:"beruehmte-bud-spencer", label:"Portr\u00e4t: Bud Spencer (SO8w9)"},
         {route:"beruehmte-jamaica-kincaid", label:"Portr\u00e4t: Jamaica Kincaid (SO8w9)"},
         {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portr\u00e4t: Georg Wilhelm Friedrich Hegel (SO5w6) \u2013 dessen Dialektik er \u203avom Kopf auf die F\u00fc\u00dfe\u2039 stellte"},
+        {route:"krankheitsportraets-karl-marx", label:"Krankheitsporträt: Karl Marx (SO8w9)"},
       ])}
     </div>
   `);
@@ -70705,6 +70710,178 @@ function francisBaconKrankheitsportraetPage() {
         {route:"beruehmte-francis-bacon", label:"Porträt: Francis Bacon (SE7w8) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se7", label:"Subtyp-Profil SE7"},
+      ])}
+    </div>
+  `);
+}
+
+function karlMarxKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-karl-marx-portrait.jpg" alt="Karl Marx" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karl Marx</p>
+        <p class="krim-portrait-typ">SO8w9 · Sozialer Typ 8 mit Neunerflügel · 1818–1883</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Löwe</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so8.jpg" alt="Tierentsprechung: Löwe" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO8")};left:${tierAvatarLeft("SO8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Karl Marx</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-karl-marx">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seinen jahrzehntelangen
+        Kampf gegen den Kapitalismus. Hier geht es ausschließlich um ein Kapitel, das dort nur
+        gestreift wird: eine über Jahrzehnte chronische, extrem schmerzhafte Hauterkrankung, die
+        ihn buchstäblich am Sitzen hinderte, während er am "Kapital" schrieb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Marx</strong> ist der <strong>sozialen Acht mit Neunerflügel</strong>
+        zugeordnet. Naranjo nannte die soziale Acht <em>Solidarität</em>: Kraft im Dienst der
+        Unterdrückten. Der Neunerflügel bringt Geduld und die Fähigkeit, ein gewaltiges System
+        über Jahrzehnte gedanklich zu durchdringen, statt impulsiv zu handeln. Genau diese
+        stille, unerbittliche Beharrlichkeit trug Marx auch durch einen Körper, der sich ihm
+        über Jahrzehnte hinweg schmerzhaft widersetzte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste Hautbeschwerden schon in den 1840er-Jahren:</strong>
+        Bereits in seinen Zwanzigern klagte Marx in Briefen über wiederkehrende Furunkel und
+        Hautentzündungen – ein Leiden, das ihn von diesem Zeitpunkt an nie wieder ganz verließ.</p>
+        <p class="vb-intro"><strong>b) Verschärfung im Londoner Exil:</strong>
+        Mit dem Umzug nach London 1849, unter beengten Wohnverhältnissen, chronischem
+        Geldmangel und schlechter Ernährung, nahmen die Hautbeschwerden deutlich an Häufigkeit
+        und Schwere zu – ein Muster, das viele Ärzte seiner Zeit mit den Lebensbedingungen des
+        Exils in Verbindung brachten.</p>
+        <p class="vb-intro"><strong>c) Ein Leiden, das er selbst schonungslos benannte:</strong>
+        In Briefen an Friedrich Engels beschrieb Marx seine Beschwerden mit erstaunlicher
+        Offenheit und schwarzem Humor – ein früher Hinweis darauf, dass er die Krankheit nicht
+        verdrängte, sondern sie, wie so vieles andere, in sein politisches Selbstverständnis
+        einordnete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Karbunkel an den schmerzhaftesten Stellen:</strong>
+        Marx litt über Jahrzehnte an schweren, eitrigen Furunkeln und Karbunkeln – vor allem an
+        Gesäß, Rücken und im Genitalbereich –, die medizinhistorisch heute häufig als Hidradenitis
+        suppurativa gedeutet werden, eine chronisch-entzündliche Erkrankung der Schweißdrüsen.</p>
+        <p class="vb-intro"><strong>b) Monatelange Schreibunterbrechungen:</strong>
+        In besonders schweren Phasen konnte Marx wochenlang nicht sitzen und musste im Stehen
+        oder auf der Seite liegend arbeiten – die Fertigstellung des ersten Bandes von "Das
+        Kapital" verzögerte sich dadurch wiederholt um Monate.</p>
+        <p class="vb-intro"><strong>c) Ein Netz weiterer chronischer Beschwerden:</strong>
+        Neben den Karbunkeln dokumentieren seine Briefe und die Berichte seines Arztes
+        chronische Bronchitis, Leberbeschwerden, Rheuma, Kopfschmerzen und wiederkehrende
+        Augenentzündungen, vermutlich verstärkt durch nächtliches Arbeiten bei schlechtem
+        Kerzenlicht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der berühmte Galgenhumor gegenüber der Bourgeoisie:</strong>
+        Überliefert ist ein Ausspruch Marx' gegenüber Engels, er hoffe, die Bourgeoisie werde
+        sich seiner Karbunkel bis an ihr Lebensende erinnern – eine Formulierung, die den
+        eigenen körperlichen Schmerz direkt mit seinem politischen Kampf verknüpfte.</p>
+        <p class="vb-intro"><strong>b) Familientragödien als zusätzliche Last:</strong>
+        Drei seiner sieben Kinder starben in jungen Jahren, teils an den Folgen der Armut, in
+        der die Familie lebte – ein Kummer, der sich nach Berichten von Zeitgenossen auch
+        körperlich auf Marx' Gesundheitszustand auswirkte.</p>
+        <p class="vb-intro"><strong>c) Arbeit trotz Diagnose, nicht wegen ihrer Abwesenheit:</strong>
+        Anders als bei manch anderem Krankheitsporträt dieses Kompasses war sich Marx seiner
+        chronischen Beschwerden voll bewusst – er verbarg sie nicht, sondern integrierte sie in
+        seinen Alltag als ständigen, nie ganz überwundenen Gegner.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Der erste Band von "Das Kapital" 1867:</strong>
+        Trotz jahrelanger, durch Krankheit bedingter Unterbrechungen vollendete Marx den ersten
+        Band seines Hauptwerks – ein Kraftakt, der auch als Sieg über den eigenen, oft
+        widerspenstigen Körper gelesen werden kann.</p>
+        <p class="vb-intro"><strong>b) Die Bände zwei und drei blieben unvollendet:</strong>
+        Die Fortsetzung des "Kapitals" wurde von Marx nie abgeschlossen; erst Friedrich Engels
+        stellte die weiteren Bände nach Marx' Tod aus dessen Notizen zusammen – ein Hinweis
+        darauf, wie sehr die chronische Krankheit sein Lebenswerk am Ende doch begrenzte.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Isolation in den letzten Lebensjahren:</strong>
+        In seinen letzten Jahren, geschwächt durch Bronchitis und wiederkehrende
+        Lungenentzündungen, zog sich Marx zunehmend aus dem öffentlichen politischen Leben
+        zurück und war auf die Pflege durch seine Tochter Eleanor und Engels angewiesen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Neunerflügel, der auch den Körper stillhielt:</strong>
+        Dieselbe stille, unerbittliche Beharrlichkeit, mit der Marx über Jahrzehnte an seinem
+        Systemwerk arbeitete, zeigte sich auch im Umgang mit der eigenen Krankheit – kein
+        dramatisches Aufbegehren, sondern zähes Weiterarbeiten trotz wiederkehrender,
+        monatelanger Rückschläge.</p>
+        <p class="vb-intro"><strong>b) Wut, die den Körper nach innen richtete:</strong>
+        Die soziale Acht kämpft normalerweise nach außen, gegen sichtbare Feinde und
+        Ungerechtigkeit – bei Marx richtete sich ein Teil dieser Intensität, medizinhistorisch
+        diskutiert, möglicherweise auch nach innen, in Form chronischer, entzündlicher
+        Körperreaktionen.</p>
+        <p class="vb-intro"><strong>c) Die Löwen-Energie im Krankenzimmer:</strong>
+        Selbst ans Bett gefesselt, ließ Marx laut Berichten von Besuchern kaum von seiner Arbeit
+        ab – Bücher, Zeitungen und Notizen blieben griffbereit, auch wenn er zeitweise kaum
+        sitzen konnte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Leiden, das über vier Jahrzehnte begleitete:</strong>
+        Von den ersten dokumentierten Furunkeln in den 1840er-Jahren bis zu seinem Tod 1883
+        zieht sich die chronische Hauterkrankung wie ein roter Faden durch Marx' gesamtes
+        erwachsenes Leben – parallel zu seinem gesamten literarischen und politischen
+        Lebenswerk.</p>
+        <p class="vb-intro"><strong>b) Ein Körper, der sich weigerte, sich niederzuwerfen:</strong>
+        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses ist hier keine
+        Geheimhaltung dokumentiert – Marx sprach offen über seine Beschwerden, verarbeitete sie
+        sogar humoristisch, und ließ sich von ihnen dennoch nie vollständig aufhalten.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Haut?</strong>
+        Für eine soziale Acht mit Neunerflügel, deren Kampfgeist sich normalerweise nach außen,
+        gegen konkrete Ungerechtigkeit richtet, liegt eine Deutung nahe: Ausgerechnet die Haut –
+        die Grenze zwischen Innen und Außen, zwischen dem Körper und der feindlichen Welt, gegen
+        die Marx sein ganzes Leben kämpfte – wurde selbst zum Schauplatz eines chronischen,
+        schmerzhaften Konflikts. Diese Deutung wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Acht zwangsläufig zu Hauterkrankungen
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Was sich an Marx' Fall zeigen lässt, ist ein Muster, das bei chronisch nach außen
+        gerichtetem Kampfgeist in der Praxis immer wieder auffällt – eine von vielen möglichen
+        Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
+        und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Marx'</strong> chronischer Krankheitsgeschichte lässt sich die soziale Acht
+        mit Neunerflügel in ihrer zähesten Form ablesen: ein Körper, der über Jahrzehnte
+        rebellierte, ein Kampfgeist, der sich davon nie ganz aufhalten ließ, und eine Arbeit,
+        die trotz monatelanger Schmerzphasen zu einem der einflussreichsten Werke der
+        Geistesgeschichte wurde. Der Löwe, der aus dem Krankenbett heraus weiterschrieb – weil
+        Stillstand für ihn keine Option war, selbst wenn der eigene Körper ihn dazu zwingen
+        wollte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-karl-marx", label:"Porträt: Karl Marx (SO8w9) – Lebenswerk"},
+        {route:"krankheitsportraets-winston-churchill", label:"Krankheitsporträt: Winston Churchill (SE8w9)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so8", label:"Subtyp-Profil SO8"},
       ])}
     </div>
   `);
@@ -99736,6 +99913,7 @@ function render() {
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "krankheitsportraets-robert-schumann": robertSchumannKrankheitsportraetPage,
       "krankheitsportraets-francis-bacon": francisBaconKrankheitsportraetPage,
+      "krankheitsportraets-karl-marx": karlMarxKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

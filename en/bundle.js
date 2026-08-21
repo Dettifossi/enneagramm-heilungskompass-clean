@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=50";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=51";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -214,6 +214,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Social Type 3", krankheit:"Cancer (cause of death never officially confirmed; assistant reported prostate cancer, diagnosed 2015)", teaser:"SO3w4 – fashion designer and Chanel creative director, 1933–2019. According to consistent reports, kept a cancer diagnosis secret for nearly four years even from those closest to him, and missed a Chanel show for the first time in 35 years only four weeks before his death." , land:"Germany/France", gender:"m", jahre:"1933–2019"},
   { route:"krankheitsportraets-robert-schumann", name:"Robert Schumann", subtyp:"SX7w8", heading:"Robert Schumann – Sexual Type 7", krankheit:"Mental illness (retrospectively discussed: bipolar disorder, schizoaffective illness, or a late neurological effect of a syphilis infection)", teaser:"SX7w8 – composer and music critic, 1810–1856. Jumped into the Rhine in 1854 in a fit of utter despair, then himself asked to be admitted to an asylum near Bonn, where he died in 1856, largely isolated from his wife Clara until shortly before his death." , land:"Germany", gender:"m", jahre:"1810–1856"},
   { route:"krankheitsportraets-francis-bacon", name:"Francis Bacon", subtyp:"SE7w8", heading:"Francis Bacon – Self-Preservation Type 7", krankheit:"Chronic gout and kidney stones, fatal bronchitis/pneumonia after a self-conducted cold experiment", teaser:"SE7w8 – philosopher, statesman, and founder of modern empiricism, 1561–1626. Suffered decades of gout and kidney stones, died in 1626 of a chill caught while stuffing a chicken with snow in winter to test cold as a preservation method." , land:"United Kingdom", gender:"m", jahre:"1561–1626"},
+  { route:"krankheitsportraets-karl-marx", name:"Karl Marx", subtyp:"SO8w9", heading:"Karl Marx – Social Type 8", krankheit:"Chronic, severe boils and carbuncles (likely hidradenitis suppurativa), accompanied by bronchitis, liver complaints, and rheumatism", teaser:"SO8w9 – philosopher, economist, founder of Marxism, 1818–1883. Suffered for over four decades from painful carbuncles that at times kept him from sitting and repeatedly delayed work on 'Capital.' Died in 1883 from the effects of chronic bronchitis." , land:"Germany/United Kingdom", gender:"m", jahre:"1818–1883"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -30610,12 +30611,15 @@ function karlMarxPortraitPage() {
           <p class="vb-intro">No 19th-century thinker changed the political, economic, and intellectual map of the world as lastingly as Karl Marx &ndash; for better and for worse. The lion who fought from the shadow of the library, not on the open savanna, whose roar still echoes today in every debate about capitalism, exploitation, and social justice.</p>
         </blockquote>
 
+        <p class="vb-intro">His decades of extremely painful carbuncles and their effect on his work on "Capital" are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-karl-marx">Illness Portrait of Marx</a>.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"krankheitsportraets-karl-marx", label:"Illness Portrait: Karl Marx (SO8w9)"},
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
         {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
         {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portrait: Georg Wilhelm Friedrich Hegel (SO5w6) – whose dialectic he turned 'right side up again'"},
@@ -43720,6 +43724,169 @@ function francisBaconKrankheitsportraetPage() {
         {route:"beruehmte-francis-bacon", label:"Portrait: Francis Bacon (SP7w8) – life's work"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se7", label:"Subtype Profile SE7"},
+      ])}
+    </div>
+  `);
+}
+
+function karlMarxKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-karl-marx-portrait.jpg" alt="Karl Marx" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karl Marx</p>
+        <p class="krim-portrait-typ">SO8w9 · Social Type 8 with Nine-wing · 1818–1883</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Lion</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so8.jpg" alt="Animal correspondence: Lion" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO8")};left:${tierAvatarLeft("SO8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Karl Marx</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-karl-marx">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and his decades-long struggle against
+        capitalism. This portrait is devoted to a chapter only touched on there: a chronic,
+        extremely painful skin condition that literally kept him from sitting while he was
+        writing "Capital."
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Marx</strong> is classified as the <strong>Social Eight with Nine-wing</strong>.
+        Naranjo called the Social Eight <em>Solidarity</em>: strength in the service of the
+        oppressed. The Nine-wing brings patience and the ability to think through an enormous
+        system over decades rather than acting impulsively. It was exactly this quiet,
+        relentless persistence that also carried Marx through a body that resisted him,
+        painfully, for decades.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) First skin complaints as early as the 1840s:</strong>
+        Already in his twenties, Marx complained in letters of recurring boils and skin
+        inflammations – an affliction that never fully left him from that point on.</p>
+        <p class="vb-intro"><strong>b) Worsening in London exile:</strong>
+        With the move to London in 1849, amid cramped living conditions, chronic lack of money,
+        and poor nutrition, the skin complaints increased noticeably in frequency and
+        severity – a pattern many physicians of his time linked to the conditions of exile.</p>
+        <p class="vb-intro"><strong>c) An affliction he named without flinching:</strong>
+        In letters to Friedrich Engels, Marx described his complaints with striking openness
+        and black humor – an early sign that he did not repress the illness, but folded it, like
+        so much else, into his political self-understanding.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Carbuncles at the most painful sites:</strong>
+        For decades, Marx suffered severe, suppurating boils and carbuncles – above all on his
+        buttocks, back, and groin – which medical historians today often interpret as
+        hidradenitis suppurativa, a chronic inflammatory disease of the sweat glands.</p>
+        <p class="vb-intro"><strong>b) Months-long interruptions to his writing:</strong>
+        In especially severe phases, Marx could not sit for weeks and had to work standing or
+        lying on his side – the completion of the first volume of "Capital" was repeatedly
+        delayed by months as a result.</p>
+        <p class="vb-intro"><strong>c) A web of further chronic complaints:</strong>
+        Alongside the carbuncles, his letters and his physician's reports document chronic
+        bronchitis, liver complaints, rheumatism, headaches, and recurring eye
+        inflammations, likely worsened by working at night by poor candlelight.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) The famous gallows humor toward the bourgeoisie:</strong>
+        Marx is reported to have told Engels he hoped the bourgeoisie would remember his
+        carbuncles until their dying day – a line that directly linked his own physical pain to
+        his political struggle.</p>
+        <p class="vb-intro"><strong>b) Family tragedies as an additional burden:</strong>
+        Three of his seven children died young, partly as a result of the poverty in which the
+        family lived – a grief that, according to contemporaries, also took a physical toll on
+        Marx's health.</p>
+        <p class="vb-intro"><strong>c) Working despite the diagnosis, not because of its absence:</strong>
+        Unlike some other Illness Portraits in this Compass, Marx was fully aware of his chronic
+        complaints – he did not hide them, but integrated them into daily life as a constant,
+        never fully defeated adversary.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) The first volume of "Capital" in 1867:</strong>
+        Despite years of illness-related interruptions, Marx completed the first volume of his
+        major work – a feat of strength that can also be read as a victory over his own, often
+        rebellious body.</p>
+        <p class="vb-intro"><strong>b) Volumes two and three remained unfinished:</strong>
+        Marx never completed the continuation of "Capital"; only Friedrich Engels, after Marx's
+        death, assembled the later volumes from his notes – a sign of how much the chronic
+        illness ultimately limited his life's work.</p>
+        <p class="vb-intro"><strong>c) Growing isolation in his final years:</strong>
+        In his final years, weakened by bronchitis and recurring pneumonia, Marx withdrew
+        increasingly from public political life and depended on the care of his daughter
+        Eleanor and Engels.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The Nine-wing that also held the body still:</strong>
+        The same quiet, relentless persistence with which Marx worked for decades on his
+        systemic work also showed in how he handled his own illness – no dramatic rebellion, but
+        tenacious continued work despite recurring, months-long setbacks.</p>
+        <p class="vb-intro"><strong>b) Anger turned inward toward the body:</strong>
+        The Social Eight normally fights outward, against visible enemies and injustice – in
+        Marx, part of this intensity, as medical historians have discussed, may also have
+        turned inward, in the form of chronic, inflammatory bodily reactions.</p>
+        <p class="vb-intro"><strong>c) Lion energy in the sickroom:</strong>
+        Even confined to bed, Marx, according to visitors' accounts, hardly let go of his
+        work – books, newspapers, and notes remained within reach, even when he could barely
+        sit at times.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) An affliction that accompanied him for four decades:</strong>
+        From the first documented boils in the 1840s to his death in 1883, the chronic skin
+        condition runs like a red thread through Marx's entire adult life – running parallel to
+        his entire literary and political life's work.</p>
+        <p class="vb-intro"><strong>b) A body that refused to be brought down:</strong>
+        Unlike many other Illness Portraits in this Compass, no concealment is documented here –
+        Marx spoke openly about his complaints, even processed them with humor, and yet never
+        let them stop him entirely.</p>
+        <p class="vb-intro"><strong>c) Why, of all things, the skin?</strong>
+        For a Social Eight with Nine-wing, whose fighting spirit normally turns outward, against
+        concrete injustice, one reading suggests itself: precisely the skin – the boundary
+        between inside and outside, between the body and the hostile world Marx fought his
+        entire life – became itself the site of a chronic, painful conflict. This reading is
+        explored in more depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Framing without determinism:</strong>
+        This does not mean the Social Eight's pattern inevitably leads to skin conditions –
+        <strong>every person can develop any illness, regardless of subtype.</strong> What
+        Marx's case can show is a pattern that stands out again and again in practice wherever
+        chronically outward-directed fighting spirit exists – one possible explanation among
+        many, not a verdict. The corresponding condition will be developed step by step in this
+        Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics
+        Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Marx's</strong> chronic illness history, the Social Eight with Nine-wing
+        reveals itself at its most tenacious: a body that rebelled for decades, a fighting
+        spirit that was never fully stopped by it, and a body of work that, despite months-long
+        phases of pain, became one of the most influential works in intellectual history. The
+        lion that kept writing from its sickbed – because standing still was never an option,
+        even when his own body tried to force it.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9) – life's work"},
+        {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so8", label:"Subtype Profile SO8"},
       ])}
     </div>
   `);
@@ -65131,6 +65298,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "krankheitsportraets-robert-schumann": robertSchumannKrankheitsportraetPage,
       "krankheitsportraets-francis-bacon": francisBaconKrankheitsportraetPage,
+      "krankheitsportraets-karl-marx": karlMarxKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
