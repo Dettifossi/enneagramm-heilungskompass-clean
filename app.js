@@ -31406,6 +31406,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Sozialer Typ 9", krankheit:"Alzheimer-Krankheit", teaser:"SO9w8 – 40. US-Präsident 1981–1989, 1911–2004. Gab 1994 in einem handschriftlichen Brief an die amerikanische Öffentlichkeit seine Alzheimer-Diagnose bekannt und zog sich danach zehn Jahre lang fast vollständig aus der Öffentlichkeit zurück." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Sozialer Typ 1", krankheit:"Leberkrebs", teaser:"SO1w2 – Musiker und Künstler, 1947–2016. Kämpfte 18 Monate lang im Verborgenen gegen Leberkrebs und verwandelte die Diagnose in sein letztes Werk, das Album Blackstar, das zwei Tage vor seinem Tod erschien." , land:"Vereinigtes Königreich", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2", krankheit:"Fieberhafte Erkrankung mit Nierenversagen (vermutlich Folge einer Streptokokken-Infektion)", teaser:"SE2w3 – österreichischer Komponist, 1756–1791. Von Kindheit an eine Kette fieberhafter Erkrankungen (Pocken, Typhus, wiederkehrendes Scharlach), starb 1791 mit 35 Jahren nach zweiwöchiger Krankheit mit Fieber und generalisierten Ödemen – während er gleichzeitig an drei Großwerken arbeitete, darunter das unvollendete Requiem." , land:"Österreich", gender:"m", jahre:"1756–1791"},
+  { route:"krankheitsportraets-elvis-presley", name:"Elvis Presley", subtyp:"SX2w3", heading:"Elvis Presley – Sexueller Typ 2", krankheit:"Herzrhythmusstörung bei Herz-Kreislauf-Erkrankung und Megakolon, begünstigt durch jahrelange Medikamentenabhängigkeit", teaser:"SX2w3 – Musiker, 1935–1977. Über ein Jahrzehnt eskalierende Medikamentenabhängigkeit, ein stark vergrößertes Herz und ein Megakolon laut Autopsie. Tourte fast ununterbrochen weiter, während sein Körper sichtbar zusammenbrach. Starb 1977 mit nur 42 Jahren – die genaue Todesursache wird bis heute diskutiert." , land:"USA", gender:"m", jahre:"1935–1977"},
   { route:"krankheitsportraets-napoleon-bonaparte", name:"Napoleon Bonaparte", subtyp:"SO2w3", heading:"Napoleon Bonaparte – Sozialer Typ 2", krankheit:"Magenkarzinom (nach Autopsie), zuvor jahrzehntelange wiederkehrende Magenbeschwerden", teaser:"SO2w3 – französischer Kaiser und Feldherr, 1769–1821. Über Jahrzehnte wiederkehrende Magenbeschwerden, eine umstrittene Episode bei Waterloo, dramatischer Verfall im Exil auf St. Helena. Starb 1821 an einem Magenkarzinom – derselben Krankheit, an der wahrscheinlich auch sein Vater starb." , land:"Frankreich", gender:"m", jahre:"1769–1821"},
   { route:"krankheitsportraets-johann-sebastian-bach", name:"Johann Sebastian Bach", subtyp:"SX1w9", heading:"Johann Sebastian Bach – Sexueller Typ 1", krankheit:"Erblindung durch missglückte Staroperationen, Tod nach Schlaganfall und Fieber", teaser:"SX1w9 – Komponist, 1685–1750. Über Jahre fortschreitende Sehschwäche, zwei missglückte Augenoperationen im März 1750 durch den zweifelhaften Okulisten John Taylor führten zur vollständigen Erblindung. Starb vier Monate später nach einem Schlaganfall – derselbe Operateur ließ kurz darauf auch Händel erblinden." , land:"Deutschland", gender:"m", jahre:"1685–1750"},
   { route:"krankheitsportraets-konrad-adenauer", name:"Konrad Adenauer", subtyp:"SE1w9", heading:"Konrad Adenauer – Selbsterhaltender Typ 1", krankheit:"Schwere Gesichtsverletzungen durch Autounfall (1917), später Verfolgung und Haft, Tod nach zwei Herzinfarkten und Lungenentzündung (1967)", teaser:"SE1w9 – deutscher Bundeskanzler 1949–1963, 1876–1967. Sein Gesicht wurde 1917 bei einem schweren Autounfall zertrümmert; er formte die Narben zum Ausdruck kontrollierter Autorität um. Zwei Jahrzehnte später Verfolgung und Haft unter den Nationalsozialisten, bis ins hohe Alter bemerkenswert vital." , land:"Deutschland", gender:"m", jahre:"1876–1967"},
@@ -64983,12 +64984,15 @@ function elvisPresleyPortraitPage() {
           <p class="vb-intro">Das Kamel kennt die W\u00fcste und kennt die Ersch\u00f6pfung, die aus grenzenlosem Geben entsteht. Doch was bleibt, ist die Erinnerung an einen Menschen, der Millionen Fremden das Gef\u00fchl gab, in einem einzigen Song oder Blick vollst\u00e4ndig gesehen zu werden. Das ist Elvis Presley. Das ist die SX2w3, gefeiert und verletzlich zugleich.</p>
         </blockquote>
 
+        <p class="vb-intro">Die über ein Jahrzehnt eskalierende Medikamentenabhängigkeit und sein Tod 1977 werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-elvis-presley">Krankheitsporträt zu Elvis</a> gedeutet.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"krankheitsportraets-elvis-presley", label:"Krankheitsporträt: Elvis Presley (SX2w3)"},
         {route:"subtype/sx2", label:"SX2 \u2013 Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-pamela-reif", label:"Portr\u00e4t: Pamela Reif (SX2w3)"},
         {route:"beruehmte-braco", label:"Portr\u00e4t: Braco (SX2w3)"},
@@ -69268,6 +69272,174 @@ function napoleonBonaparteKrankheitsportraetPage() {
         {route:"beruehmte-napoleon-bonaparte", label:"Porträt: Napoleon Bonaparte (SO2w3) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so2", label:"Subtyp-Profil SO2"},
+      ])}
+    </div>
+  `);
+}
+
+function elvisPresleyKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-elvis-presley-portrait.jpg" alt="Elvis Presley" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elvis Presley</p>
+        <p class="krim-portrait-typ">SX2w3 · Sexueller Typ 2 mit Dreierflügel · 1935–1977</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Kamel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx2.jpg" alt="Tierentsprechung: Kamel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX2")};left:${tierAvatarLeft("SX2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Elvis Presley</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-elvis-presley">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier rückt ein Kapitel in den Vordergrund, das dort kaum berührt wird: ein
+        über ein Jahrzehnt eskalierender körperlicher Verfall durch Medikamentenabhängigkeit,
+        der 1977 mit nur 42 Jahren zu seinem Tod führte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Elvis</strong> ist dem <strong>sexuellen Typ 2 mit Dreierflügel</strong>
+        zugeordnet. Die SX2 richtet die Fürsorge und Verführungskraft der Zwei ganz auf die
+        eine, exklusive Verbindung – auf das Publikum als kollektiven Liebespartner, dem
+        vollständige Hingabe gilt. Der Dreierflügel bringt den unbedingten Willen zum
+        sichtbaren Erfolg hinzu, verbunden mit der Weigerung, dem Publikum je ein Nachlassen
+        der eigenen Strahlkraft zuzumuten. Genau dieses Muster trieb Elvis noch auf die Bühne,
+        als sein Körper längst zusammenbrach.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Das Publikum vor dem eigenen Körper:</strong>
+        Elvis' Blick galt bis zuletzt der Frage, was sein Publikum von ihm erwartete – nicht
+        der Frage, was sein Körper noch leisten konnte.</p>
+        <p class="vb-intro"><strong>b) Verfall, der auf der Bühne unübersehbar wurde:</strong>
+        Seine frühere Begleiterin Linda Thompson beschrieb seinen Anblick im CBS-Special
+        "Elvis in Concert" später als erschreckend – ein Mann, der binnen weniger Monate
+        kaum wiederzuerkennen war.</p>
+        <p class="vb-intro"><strong>c) Auftreten trotz sichtbarer Erschöpfung:</strong>
+        Von der ersten Konzertnacht dieser letzten Tournee in Omaha im Juni 1977 konnte kaum
+        Bildmaterial verwendet werden – die Aufführung galt als zu schwach, um sie zu zeigen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein Wendepunkt im Jahr 1967:</strong>
+        Sein Leibarzt George Nichopoulos, genannt "Dr. Nick", begann Elvis 1967 wegen
+        Schmerzen zu behandeln – aus heutiger Sicht der Beginn einer sich über ein Jahrzehnt
+        steigernden Medikamentenabhängigkeit.</p>
+        <p class="vb-intro"><strong>b) Fast 19.000 verschriebene Dosen:</strong>
+        In den letzten 31 Monaten vor seinem Tod erhielt Elvis Berichten zufolge rund 19.000
+        Dosen verschreibungspflichtiger Medikamente – Sedativa, Amphetamine, Tranquilizer und
+        Opioide.</p>
+        <p class="vb-intro"><strong>c) Beschleunigung nach der Scheidung 1973:</strong>
+        Nach der Trennung von Priscilla Presley im Oktober 1973 verschärften sich Gewichtszunahme
+        und Medikamentenkonsum deutlich – ein Einschnitt, den mehrere Quellen als
+        Beschleuniger seines Verfalls benennen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein stark vergrößerter Dickdarm:</strong>
+        Die Autopsie ergab ein sogenanntes Megakolon – mit fünf bis sechs Zoll Durchmesser
+        und acht bis neun Fuß Länge weit über dem Normalmaß, gefüllt mit teils Monate altem
+        Stuhl.</p>
+        <p class="vb-intro"><strong>b) Ein deutlich vergrößertes Herz:</strong>
+        Die Autopsie stellte zudem ein Herz fest, das etwa doppelt so groß war wie normal –
+        ein Befund, der auf jahrelange kardiologische Überlastung hindeutet.</p>
+        <p class="vb-intro"><strong>c) Vier Krankenhausaufenthalte in fünf Jahren:</strong>
+        In seinen letzten fünf Lebensjahren wurde Elvis mehrfach wegen Bluthochdruck und
+        Darmkomplikationen stationär behandelt – ohne dass dies seinen Tourplan dauerhaft
+        veränderte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Toxikologie mit vierzehn Substanzen:</strong>
+        Im Blut wurden nach seinem Tod vierzehn verschiedene Medikamente nachgewiesen, die
+        Codein-Konzentration lag rund zehnmal über dem therapeutischen Bereich.</p>
+        <p class="vb-intro"><strong>b) Eine bis heute umstrittene offizielle Todesursache:</strong>
+        Die Autopsie nannte eine Herzrhythmusstörung auf Basis einer bluthochdruckbedingten
+        Herzerkrankung als Todesursache – viele Fachleute sehen dagegen das Zusammenwirken
+        mehrerer Medikamente als zentralen Faktor, eine bis heute nicht einheitlich geklärte
+        Kontroverse.</p>
+        <p class="vb-intro"><strong>c) Ein Arzt, der später seine Approbation verlor:</strong>
+        "Dr. Nick" wurde 1980 wegen Überverschreibung angeklagt, aber freigesprochen; 1993
+        wurde ihm die ärztliche Zulassung schließlich entzogen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Bühnenpräsenz als letzte Konstante:</strong>
+        Selbst als Gesundheit und Körper offensichtlich zusammenbrachen, blieb der Auftritt
+        vor Publikum die eine Sache, die Elvis nicht aufgab – die Dreierflügel-Energie der
+        SX2 in ihrer kompromisslosesten Form.</p>
+        <p class="vb-intro"><strong>b) Medikamente als Mittel, die Bühne zu erreichen:</strong>
+        Die verschriebenen Substanzen dienten offenbar zunehmend nicht der Genesung, sondern
+        der bloßen Funktionsfähigkeit für den nächsten Auftritt – ein Kreislauf, der sich
+        selbst verstärkte.</p>
+        <p class="vb-intro"><strong>c) Das Kamel, das seine letzte Reserve für das Publikum aufbrauchte:</strong>
+        Die Hingabe an die eine große Beziehung – an das Publikum als Ganzes – wurde bis zum
+        Schluss aufrechterhalten, selbst als der Körper längst keine Reserven mehr besaß.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Jahrzehnt schleichender Eskalation:</strong>
+        Von den ersten Verschreibungen 1967 bis zu seinem Tod 1977 zieht sich eine
+        durchgehende, sich stetig verschärfende Linie durch Elvis' letztes Lebensjahrzehnt.</p>
+        <p class="vb-intro"><strong>b) Auftreten statt Rückzug, bis zum Ende:</strong>
+        Anders als bei Krankheitsporträts, in denen sich Betroffene zumindest zeitweise aus
+        der Öffentlichkeit zurückzogen, tourte Elvis nahezu ununterbrochen weiter – ein
+        Verhalten, das eher in Richtung des Stresspunkts der SX2, der Acht, verweist:
+        trotziges Weitermachen trotz eindeutiger Warnsignale, statt Kontrolle abzugeben.</p>
+        <p class="vb-intro"><strong>c) Sichtbarer Verfall, öffentlich kaum benannt:</strong>
+        Der körperliche Zustand war für sein Umfeld unübersehbar, wurde aber lange nicht
+        offen thematisiert – eine kollektive Verleugnung, die zum Fortbestehen des Musters
+        beitrug.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Herz und Darm?</strong>
+        Für eine sexuelle Zwei mit Dreierflügel, deren gesamte Identität an der einen
+        großen, hingebungsvollen Verbindung zum Publikum hing, liegt eine Deutung nahe: Das
+        Herz, Organ der Zuwendung und Hingabe, und der Darm, Organ der Verarbeitung dessen,
+        was von außen aufgenommen wird, versagten gemeinsam – als hätte ein Leben, das
+        ausschließlich auf das Geben an andere ausgerichtet war, irgendwann nichts mehr für
+        sich selbst übrig gehabt, um zu verarbeiten oder zu verkraften. Diese Deutung ist
+        eine plausible Interpretation, kein belegter historischer Kausalzusammenhang, und
+        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Zwei zwangsläufig zu
+        Medikamentenabhängigkeit oder Herz-Kreislauf-Erkrankungen führt –
+        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
+        sich an Elvis' Fall zeigen lässt, ist ein Muster, das bei der kompromisslosen
+        Priorisierung der Bühnenpräsenz über die eigenen körperlichen Warnsignale hinweg in
+        der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Elvis</strong> verkörpert den sexuellen Typ 2 mit Dreierflügel bis in die
+        eigene Krankheitsgeschichte hinein: eine über ein Jahrzehnt eskalierende
+        Medikamentenabhängigkeit, ein Körper, der auf der Bühne bis zuletzt für ein
+        Publikum funktionieren musste, und ein Tod 1977, dessen genaue Ursache bis heute
+        diskutiert wird. Das Kamel, das seine letzte Kraft für die eine große Verbindung
+        aufbrauchte, die es nie aufzugeben bereit war.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx2", label:"Subtyp-Profil SX2"},
       ])}
     </div>
   `);
@@ -98277,6 +98449,7 @@ function render() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-elvis-presley": elvisPresleyKrankheitsportraetPage,
       "krankheitsportraets-napoleon-bonaparte": napoleonBonaparteKrankheitsportraetPage,
       "krankheitsportraets-johann-sebastian-bach": johannSebastianBachKrankheitsportraetPage,
       "krankheitsportraets-konrad-adenauer": konradAdenauerKrankheitsportraetPage,
