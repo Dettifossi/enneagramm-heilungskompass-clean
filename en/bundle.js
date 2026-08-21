@@ -62015,6 +62015,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to carpal tunnel syndrome, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates grasping, holding on, and letting go in its own way – some through repetitive overload, others through control, withdrawal, or a tension of their own that was never noticed. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  gicht: {
+    titel: "Gout",
+    kategorie: "bewegungsapparat",
+    icon: "&#128293;",
+    kurz: "When what has accumulated suddenly, sharply, and unmistakably discharges in one joint.",
+    definition: "Gout is a metabolic disease in which elevated uric acid levels in the blood (hyperuricemia) cause uric acid crystals to deposit in the joints. These crystals trigger a sudden, very painful inflammatory reaction – the acute gout attack – which classically affects the big toe joint (podagra) but can also affect other joints. Gout is promoted by genetic predisposition, a purine-rich diet (red meat, offal, certain seafood), excessive alcohol consumption – especially beer –, being overweight, and certain conditions such as high blood pressure or impaired kidney function. Left untreated, recurring gout attacks can lead to chronic joint damage and visible uric acid deposits (tophi).",
+    symptome: [
+      "Sudden, very severe pain in a joint, often starting at night or in the early morning hours",
+      "Pronounced redness, swelling, and warmth of the affected joint",
+      "Extreme sensitivity to touch – even a blanket can feel painful",
+      "Classically the big toe joint is affected, but the knee, ankle, fingers, or elbow are also possible",
+      "Fever and general malaise during an acute attack",
+      "In chronic gout: palpable lumps (tophi) under the skin, especially on the ears, fingers, or elbows",
+    ],
+    notfall: "An acute gout attack is usually not a life-threatening emergency, but should be treated promptly to contain the inflammation. In the case of high fever, pronounced malaise, or uncertainty about whether it is gout or a bacterial joint infection (which requires emergency treatment): seek medical help promptly.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Gout already carries a psychosomatically telling picture in its very development: over weeks, months, or years, something quietly accumulates – excess uric acid – causing no symptoms at first, until it discharges sharply in a single, highly dramatic moment. Historically, gout was often linked to an excessive, indulgent lifestyle – the &bdquo;disease of kings&ldquo;, as it was sometimes called. Traditional Chinese Medicine often assigns gout to a combination of Damp-Heat (Shi Re) that pools in the joints, frequently promoted by excessive consumption of rich, heavy, or alcoholic food. Psychosomatic medicine therefore often reads this as a picture of held-back, accumulated intensity that eventually can no longer be controlled and breaks out explosively at the most sensitive point.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that accumulates for a long time before sharply erupting",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One keeps anger disciplined and under control for years – an accumulated tension that never releases in small steps but quietly builds up. Exactly this pattern fits the picture of a discharge that erupts suddenly, sharply, and at a single point, rather than releasing gradually." },
+          { code: "SO1", text: "The social One holds firmly to its moral outrage at the world – a dissatisfaction accumulated over years that rarely discharges in one single, clear outburst." },
+          { code: "SX1", text: "The sexual One lives anger more directly within the relationship – a more punctual, less long-term accumulated form of tension than in the other One variants." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that accumulates its own exhaustion until it becomes unmistakable",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two gives quietly for years, never asking for relief – an exhaustion that accumulates unnoticed until it shows itself unmistakably at one point fits the picture of a gout attack after long, silent accumulation." },
+          { code: "SO2", text: "The social Two stays permanently available to the community – an overload that builds layer by layer without ever being openly named." },
+          { code: "SX2", text: "The sexual Two invests intense giving into the one relationship – the strain here tends to be episodic rather than a long-term accumulated substance." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that piles up success until the body suddenly rebels",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps working without break, accumulating results and successes without ever pausing – a system that steadily fills up until it suddenly overflows at one point fits the picture of the acute gout attack." },
+          { code: "SO3", text: "The social Three piles up publicly visible successes – its own physical substance is rarely spared in the process." },
+          { code: "SX3", text: "The sexual Three continuously optimizes itself within the relational context – the strain shows up more as emotional pressure than as metabolic accumulation." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that quietly accumulates until it suddenly breaks out painfully",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – a years-long, unspoken, accumulated longing that never releases in small steps can instead discharge suddenly and painfully." },
+          { code: "SO4", text: "The social Four makes its own suffering visible – an outward outlet that works against pure physical accumulation." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity – a form of movement that tends to find regular expression rather than quietly accumulating." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that expresses itself as quiet, accumulated resentment",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically and rarely shares what accumulates inside – a years-long, unspoken inner accumulation that quietly builds up until it suddenly breaks out at one point." },
+          { code: "SO5", text: "The social Five keeps inner distance even in social contexts – accumulated thoughts and observations are rarely shared openly." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – quite open within this narrow connection, less accumulated." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that accumulates over the years until it breaks through explosively",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six lives in constant alertness, never fully discharging this tension – a baseline tension accumulated over the years that is plausibly linked medically to a sudden, sharp inflammatory reaction." },
+          { code: "SO6", text: "The social Six continually worries about the collective – a strain that rarely releases in one single, clear outburst." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation – a more active, less quietly accumulated buildup than the other Six variants." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that literally accumulates through excess indulgence",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through indulgence and variety – a lifestyle with rich, often purine-heavy food and alcohol consumption is medically recognized as a well-documented risk factor for gout." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – excessive indulgence is less typical here than in the other Seven variants." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – a pattern that rarely limits indulgence and excess, regardless of the long-term consequences." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that does not release pent-up anger in time either",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight keeps tight control over its own resources – even pent-up anger is rarely released in a controlled way, but held back instead, until it suddenly, sharply discharges at one point." },
+          { code: "SO8", text: "The social Eight carries permanent leadership tension for the group – accumulated pressure is rarely released in time." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – the strain shows up in extreme, episodic swings that fit the picture of a sudden attack." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that quietly accumulates year after year",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort and routine – the decades-long continued self-forgetting also means that inner tension and metabolic strain can accumulate unnoticed for years, until an attack suddenly appears." },
+          { code: "SO9", text: "The social Nine consistently subordinates its own opinion to the group – an adaptation that quietly builds up over the years, never consciously noticed." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a system that, for decades, never noticed what was accumulating inside it, until it suddenly became unmistakable." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to gout, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates accumulation, control, and sudden discharge in its own way – some through held-back anger, others through excess indulgence, denial, or an accumulation of their own that was never noticed. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -62023,7 +62116,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
+  "bewegungsapparat": ["Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],

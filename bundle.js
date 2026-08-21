@@ -96789,6 +96789,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor einem Karpaltunnelsyndrom gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Zugreifen, Festhalten und Loslassen verhandelt – manche über repetitive Überlastung, andere über Kontrolle, Rückzug oder eine nie bemerkte eigene Anspannung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  gicht: {
+    titel: "Gicht",
+    kategorie: "bewegungsapparat",
+    icon: "&#128293;",
+    kurz: "Wenn sich Angesammeltes plötzlich, scharf und unübersehbar in einem Gelenk entlädt.",
+    definition: "Gicht ist eine Stoffwechselerkrankung, bei der sich aufgrund erhöhter Harnsäurewerte im Blut (Hyperurikämie) Harnsäurekristalle in Gelenken ablagern. Diese Kristalle lösen eine plötzliche, sehr schmerzhafte Entzündungsreaktion aus – den akuten Gichtanfall –, der klassischerweise das Großzehengrundgelenk betrifft (Podagra), aber auch andere Gelenke befallen kann. Begünstigt wird Gicht durch genetische Veranlagung, purinreiche Ernährung (rotes Fleisch, Innereien, bestimmte Meeresfrüchte), übermäßigen Alkoholkonsum – insbesondere Bier –, Übergewicht und bestimmte Erkrankungen wie Bluthochdruck oder Nierenfunktionsstörungen. Unbehandelt können wiederkehrende Gichtanfälle zu chronischen Gelenkschäden und sichtbaren Harnsäureablagerungen (Tophi) führen.",
+    symptome: [
+      "Plötzlich einsetzender, sehr starker Schmerz in einem Gelenk, oft nachts oder in den frühen Morgenstunden beginnend",
+      "Ausgeprägte Rötung, Schwellung und Überwärmung des betroffenen Gelenks",
+      "Extreme Berührungsempfindlichkeit – bereits eine Bettdecke kann als schmerzhaft empfunden werden",
+      "Klassischerweise das Großzehengrundgelenk betroffen, aber auch Knie, Sprunggelenk, Finger oder Ellenbogen möglich",
+      "Fieber und allgemeines Krankheitsgefühl während eines akuten Anfalls",
+      "Bei chronischer Gicht: tastbare Knötchen (Tophi) unter der Haut, insbesondere an Ohren, Fingern oder Ellenbogen",
+    ],
+    notfall: "Ein akuter Gichtanfall ist meist kein lebensbedrohlicher Notfall, sollte aber zeitnah ärztlich behandelt werden, um die Entzündung einzudämmen. Bei hohem Fieber, ausgeprägtem Krankheitsgefühl oder Unsicherheit, ob es sich um eine Gicht oder eine bakterielle Gelenkentzündung handelt (die eine Notfallbehandlung erfordert): zeitnah ärztliche Hilfe aufsuchen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Gicht trägt in ihrer Entstehung bereits ein psychosomatisch sprechendes Bild in sich: Über Wochen, Monate oder Jahre sammelt sich still etwas an – überschüssige Harnsäure –, ohne dass es zunächst Beschwerden verursacht, bis es sich in einem einzigen, hochdramatischen Moment scharf entlädt. Historisch wurde Gicht oft mit einem übermäßigen, genussvollen Lebensstil in Verbindung gebracht – der &bdquo;Krankheit der Könige&ldquo;, wie sie manchmal genannt wurde. Die Traditionelle Chinesische Medizin ordnet Gicht häufig einer Kombination aus Feuchtigkeit-Hitze (Shi Re) zu, die sich in den Gelenken staut, oft begünstigt durch übermäßigen Konsum fetter, schwerer oder alkoholischer Nahrung. Die Psychosomatik liest darin oft ein Bild von zurückgehaltener, angesammelter Intensität, die sich schließlich nicht mehr kontrollieren lässt und explosionsartig an der empfindlichsten Stelle austritt.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der sich lange staut, bis er scharf ausbricht",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger über Jahre diszipliniert unter Kontrolle – eine angesammelte Spannung, die sich nie in kleinen Schritten löst, sondern sich still aufbaut. Genau dieses Muster passt zum Bild einer Entladung, die plötzlich, scharf und an einer einzigen Stelle ausbricht, statt sich allmählich zu lösen." },
+          { code: "SO1", text: "Die soziale Eins hält an ihrer moralischen Empörung über die Welt fest – eine über Jahre gesammelte Unzufriedenheit, die sich selten in einem einzigen, klaren Ausbruch entlädt." },
+          { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter in der Beziehung aus – eine punktuellere, weniger langfristig angesammelte Form von Spannung als bei den anderen Einser-Varianten." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der die eigene Erschöpfung ansammelt, bis sie unübersehbar wird",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei gibt still über Jahre, ohne je um Entlastung zu bitten – eine Erschöpfung, die sich unbemerkt ansammelt, bis sie sich an einer Stelle unübersehbar zeigt, passt zum Bild eines Gichtanfalls nach langer stiller Anhäufung." },
+          { code: "SO2", text: "Die soziale Zwei bleibt permanent für die Gemeinschaft verfügbar – eine Überlastung, die sich Schicht für Schicht aufbaut, ohne je offen benannt zu werden." },
+          { code: "SX2", text: "Die sexuelle Zwei investiert intensives Geben in die eine Beziehung – die Belastung zeigt sich hier eher episodisch als in einer langfristig angesammelten Substanz." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die Erfolg anhäuft, bis der Körper plötzlich rebelliert",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet ununterbrochen weiter, sammelt Ergebnisse und Erfolge an, ohne je innezuhalten – ein System, das sich stetig füllt, bis es an einer Stelle plötzlich überläuft, passt zum Bild der akuten Gichtattacke." },
+          { code: "SO3", text: "Die soziale Drei häuft öffentlich sichtbare Erfolge an – die eigene körperliche Substanz wird dabei selten geschont." },
+          { code: "SX3", text: "Die sexuelle Drei optimiert sich fortlaufend im Beziehungskontext – die Belastung zeigt sich hier eher als emotionaler Druck denn als stoffwechselbedingte Anhäufung." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich still ansammelt, bis sie plötzlich schmerzhaft hervorbricht",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahre unausgesprochene, angesammelte Sehnsucht, die sich nie in kleinen Schritten löst, kann sich stattdessen plötzlich und schmerzhaft entladen." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar – ein Ventil nach außen, das der reinen körperlichen Ansammlung eher entgegenwirkt." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – eine Form der Bewegung, die eher regelmäßig Ausdruck findet als sich still anzusammeln." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der sich in stillem, angesammeltem Groll äußert",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und teilt selten mit, was sich innerlich ansammelt – eine über Jahre unausgesprochene innere Anhäufung, die sich still aufbaut, bis sie an einer Stelle plötzlich hervorbricht." },
+          { code: "SO5", text: "Die soziale Fünf hält auch im sozialen Kontext innere Distanz – angesammelte Gedanken und Beobachtungen werden selten offen geteilt." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – innerhalb dieser schmalen Verbindung durchaus offen, weniger angesammelt." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die sich über Jahre ansammelt, bis sie explosionsartig durchbricht",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Alarmbereitschaft, ohne diese Anspannung je vollständig zu entladen – eine über Jahre angesammelte Grundspannung, die sich medizinisch plausibel mit einer plötzlichen, scharfen Entzündungsreaktion in Verbindung bringen lässt." },
+          { code: "SO6", text: "Die soziale Sechs trägt fortlaufend Sorge um das Kollektiv – eine Belastung, die sich selten in einem einzigen, klaren Ausbruch löst." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation – eine aktivere, weniger stille Ansammlung als bei den anderen Sechser-Varianten." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die sich durch übermäßigen Genuss buchstäblich anhäuft",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über Genuss und Vielfalt ab – ein Lebensstil mit reichhaltiger, oft purinreicher Ernährung und Alkoholkonsum gilt medizinisch als anerkannter, gut belegter Risikofaktor für Gicht." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – übermäßiger Genuss ist hier weniger typisch als bei den anderen Siebener-Varianten." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – ein Muster, das Genuss und Exzess selten begrenzt, unabhängig von den langfristigen Folgen." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die auch angestaute Wut nicht rechtzeitig entlädt",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht hält Kontrolle über die eigenen Ressourcen straff aufrecht – auch aufgestaute Wut wird selten kontrolliert freigesetzt, sondern eher zurückgehalten, bis sie sich an einer Stelle plötzlich, scharf entlädt." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Führungsspannung für die Gruppe – angesammelter Druck wird selten rechtzeitig abgegeben." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich in extremen, episodischen Ausschlägen, die zum Bild eines plötzlichen Anfalls passen." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die sich Jahr für Jahr unbemerkt anhäuft",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und Routine – die über Jahrzehnte fortgesetzte Selbstvergessenheit bedeutet auch, dass sich innere Anspannung und stoffwechselbedingte Belastung über Jahre unbemerkt ansammeln können, bis sich plötzlich ein Anfall zeigt." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – eine Anpassung, die sich still über Jahre aufbaut, ohne je bewusst bemerkt zu werden." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Systems, das über Jahrzehnte nie merkte, was sich in ihm ansammelte, bis es sich plötzlich unübersehbar zeigte." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor Gicht gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Ansammlung, Kontrolle und plötzlicher Entladung verhandelt – manche über zurückgehaltenen Zorn, andere über übermäßigen Genuss, Verdrängung oder eine nie bemerkte eigene Anhäufung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -96798,7 +96891,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
-  "bewegungsapparat": ["Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
+  "bewegungsapparat": ["Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
