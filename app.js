@@ -23978,6 +23978,7 @@ const registerEntries = [
   { term: "Robert Schumann Krankheitsporträt", route: "krankheitsportraets-robert-schumann", description: "Portrait: SX7w8 · Sexueller Typ 7 · Psychische Erkrankung, Rheinsprung 1854, Tod in der Heilanstalt 1856" },
   { term: "Francis Bacon Krankheitsporträt", route: "krankheitsportraets-francis-bacon", description: "Portrait: SE7w8 · Selbsterhaltender Typ 7 · Chronische Gicht, tödliches Hühnchen-Experiment 1626" },
   { term: "Karl Marx Krankheitsporträt", route: "krankheitsportraets-karl-marx", description: "Portrait: SO8w9 · Sozialer Typ 8 · Chronische Karbunkel, Arbeit am Kapital trotz jahrzehntelanger Schmerzen" },
+  { term: "James Levine Krankheitsporträt", route: "krankheitsportraets-james-levine", description: "Portrait: SE9w1 · Selbsterhaltender Typ 9 · Jahrzehntelange Parkinson-Erkrankung" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31423,6 +31424,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-robert-schumann", name:"Robert Schumann", subtyp:"SX7w8", heading:"Robert Schumann – Sexueller Typ 7", krankheit:"Psychische Erkrankung (retrospektiv diskutiert: bipolare Störung, schizoaffektive Erkrankung oder neurologische Spätfolge einer Syphilis-Infektion)", teaser:"SX7w8 – Komponist und Musikkritiker, 1810–1856. Sprang 1854 in einem Anfall völliger Verzweiflung in den Rhein, bat danach selbst um Einweisung in eine Heilanstalt bei Bonn und starb dort 1856, weitgehend isoliert von seiner Frau Clara bis kurz vor seinem Tod." , land:"Deutschland", gender:"m", jahre:"1810–1856"},
   { route:"krankheitsportraets-francis-bacon", name:"Francis Bacon", subtyp:"SE7w8", heading:"Francis Bacon – Selbsterhaltender Typ 7", krankheit:"Chronische Gicht und Nierensteine, tödliche Bronchitis/Lungenentzündung nach einem selbst durchgeführten Kälte-Experiment", teaser:"SE7w8 – Philosoph, Staatsmann und Begründer des modernen Empirismus, 1561–1626. Litt jahrzehntelang an Gicht und Nierensteinen, starb 1626 an einer Erkältung, die er sich zuzog, als er im Winter ein Hühnchen mit Schnee ausstopfte, um Kälte als Konservierungsmethode zu testen." , land:"Großbritannien", gender:"m", jahre:"1561–1626"},
   { route:"krankheitsportraets-karl-marx", name:"Karl Marx", subtyp:"SO8w9", heading:"Karl Marx – Sozialer Typ 8", krankheit:"Chronische, schwere Furunkel und Karbunkel (vermutlich Hidradenitis suppurativa), begleitet von Bronchitis, Leberbeschwerden und Rheuma", teaser:"SO8w9 – Philosoph, Ökonom, Begründer des Marxismus, 1818–1883. Litt über vier Jahrzehnte an schmerzhaften Karbunkeln, die ihn zeitweise am Sitzen hinderten und die Arbeit am 'Kapital' immer wieder verzögerten. Starb 1883 an den Folgen chronischer Bronchitis." , land:"Deutschland/Vereinigtes Königreich", gender:"m", jahre:"1818–1883"},
+  { route:"krankheitsportraets-james-levine", name:"James Levine", subtyp:"SE9w1", heading:"James Levine – Selbsterhaltender Typ 9", krankheit:"Über Jahrzehnte fortschreitende Parkinson-Erkrankung mit schweren begleitenden Rückenverletzungen", teaser:"SE9w1 – Dirigent und Pianist, 1943–2021. Erste Tremorsymptome bereits in den 1990er-Jahren, jahrelang privat gehalten, ein schwerer Sturz 2011 mit Rückenmarksverletzung, zunehmende Rollstuhlpflicht. Starb 2021 an den Komplikationen der langjährigen Erkrankung." , land:"USA", gender:"m", jahre:"1943–2021"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -55253,12 +55255,14 @@ function jamesLevinePortraitPage() {
         <h2 class="vb-section">6. Der Elefant, der das Haus bewohnte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">James Levine hat die Metropolitan Opera gepr\xe4gt wie kein Zweiter. Er hat ihr einen Klang gegeben, der erkennbar war. Er hat Generationen von S\xe4ngern und Musikern geformt. Und er hat gezeigt, wie die selbsterhaltende Neun in ihrer besten Form aussieht: vollst\xe4ndige Versenkung, langer Atem, eine Pr\xe4senz, die nicht erkl\xe4rt werden muss. In ihrer dunkelsten Form zeigt sie auch, wie der Appetit, der keine Grenze kennt, alles zerst\xf6ren kann, was er aufgebaut hat. Der Elefant vergisst nicht. Und die Geschichte auch nicht.</p>
+          <p class="vb-intro">Seine jahrzehntelange, zunächst geheim gehaltene Parkinson-Erkrankung wird ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-james-levine">Krankheitsporträt zu Levine</a> gedeutet.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
+          {route:"krankheitsportraets-james-levine", label:"Krankheitsporträt: James Levine (SE9w1)"},
           {route:"beruehmte-baerbel-bas", label:"Portr\xe4t: B\xe4rbel Bas (SE9w1)"},
           {route:"astrologie-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
           {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
@@ -70882,6 +70886,173 @@ function karlMarxKrankheitsportraetPage() {
         {route:"krankheitsportraets-winston-churchill", label:"Krankheitsporträt: Winston Churchill (SE8w9)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so8", label:"Subtyp-Profil SO8"},
+      ])}
+    </div>
+  `);
+}
+
+function jamesLevineKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-james-levine-portrait.jpg" alt="James Levine" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Levine</p>
+        <p class="krim-portrait-typ">SE9w1 · Selbsterhaltender Typ 9 mit Einserflügel · 1943–2021</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Elefant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Tierentsprechung: Elefant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>James Levine</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-james-levine">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein musikalisches Lebenswerk an der
+        Metropolitan Opera und, im letzten Abschnitt, um die 2017 öffentlich gewordenen
+        Missbrauchsvorwürfe. Hier geht es ausschließlich um ein davon getrenntes Kapitel: eine
+        über Jahrzehnte fortschreitende Parkinson-Erkrankung und schwere Rückenleiden, die ihn
+        zunehmend körperlich einschränkten, während er weiter dirigierte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Levine</strong> ist der <strong>selbsterhaltenden Neun mit Einserflügel</strong>
+        zugeordnet. Naranjo nannte die selbsterhaltende Neun <em>Appetit</em>: die Sehnsucht,
+        vollständig in etwas zu wohnen, das nährt und trägt. Der Einserflügel gibt dieser
+        Sehnsucht einen inneren Maßstab, der keine Abkürzungen duldet. Genau diese Kombination
+        aus tiefer Verwurzelung und unnachgiebigem Anspruch an sich selbst prägte auch, wie
+        Levine mit einem Körper umging, der ihm zunehmend die Kontrolle entzog.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste Tremorsymptome bereits in den 1990er-Jahren:</strong>
+        Kollegen und Orchestermitglieder bemerkten schon früh ein leichtes Zittern in Levines
+        Händen, das er über Jahre hinweg weitgehend verbarg und nicht öffentlich thematisierte.</p>
+        <p class="vb-intro"><strong>b) Rückenprobleme als frühes Warnsignal:</strong>
+        Parallel zu den ersten neurologischen Anzeichen häuften sich bei Levine schwere
+        Rückenbeschwerden, die mehrere operative Eingriffe notwendig machten und ihn wiederholt
+        für längere Zeit von der Bühne fernhielten.</p>
+        <p class="vb-intro"><strong>c) Ein Sturz 2006 als erster gravierender Einschnitt:</strong>
+        Bei einem Sturz während eines Konzertes in Boston zog sich Levine einen Rotatorenmanschettenriss
+        zu – ein Vorfall, der die zunehmende körperliche Verwundbarkeit erstmals öffentlich
+        sichtbar machte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die Parkinson-Diagnose, jahrelang privat gehalten:</strong>
+        Levine erhielt die Diagnose Parkinson vermutlich bereits in den 1990er-Jahren, machte sie
+        aber erst 2013 öffentlich – ein Muster der Geheimhaltung, das sich durch weite Teile
+        seiner Karriere zog.</p>
+        <p class="vb-intro"><strong>b) Ein schwerer Sturz 2011 als Wendepunkt:</strong>
+        Ein Sturz während der Sommerpause 2011 führte zu einer schweren Rückenmarksverletzung,
+        die eine Notoperation erforderlich machte und Levine für fast zwei Jahre komplett von
+        der Bühne fernhielt.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Abhängigkeit von technischen Hilfsmitteln:</strong>
+        Die Metropolitan Opera baute eigens einen motorisierten Rollstuhl-Lift, um Levine auf
+        das Podium zu bringen – ein sichtbares Zeichen dafür, wie sehr sich sein Körper von
+        seinem Willen, weiter zu dirigieren, entkoppelt hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Dirigieren im Sitzen, mit minimaler Handbewegung:</strong>
+        In seinen letzten aktiven Jahren dirigierte Levine sitzend, mit stark eingeschränkter
+        Armbeweglichkeit – er kommunizierte mit dem Orchester zunehmend über Blickkontakt und
+        Mimik statt über die klassische Dirigierbewegung.</p>
+        <p class="vb-intro"><strong>b) Kein Rückzug, sondern Anpassung:</strong>
+        Statt sich aus der aktiven Leitung zurückzuziehen, passte Levine seine Arbeitsweise
+        immer wieder neu an die fortschreitende Erkrankung an – ein Muster, das über Jahrzehnte
+        anhielt, bis die körperlichen Grenzen keine weitere Anpassung mehr zuließen.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Zurückhaltung trotz sichtbarer Symptome:</strong>
+        Auch nachdem der Tremor und die eingeschränkte Mobilität für das Publikum unübersehbar
+        geworden waren, sprach Levine selbst kaum öffentlich über seine Erkrankung – ein
+        Schweigen, das zur selbsterhaltenden Neun passt, die Schwäche lieber in sich trägt, als
+        sie auszusprechen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Rückkehr nach zwei Jahren Pause:</strong>
+        2013 kehrte Levine, nun dauerhaft im Rollstuhl, an die Metropolitan Opera zurück – ein
+        Comeback, das in der Klassikwelt als bemerkenswerter Ausdruck von Beharrlichkeit
+        gewürdigt wurde.</p>
+        <p class="vb-intro"><strong>b) Das Ende der aktiven Karriere 2017/2018:</strong>
+        Levines Vertrag mit der Met endete 2018 – offiziell im Zusammenhang mit den
+        Missbrauchsermittlungen, doch bereits zuvor hatte seine fortschreitende Erkrankung seine
+        Möglichkeiten, das Orchester zu leiten, spürbar eingeschränkt.</p>
+        <p class="vb-intro"><strong>c) Tod 2021 an den Folgen der Parkinson-Erkrankung:</strong>
+        James Levine starb am 9. März 2021 in Palm Springs, Kalifornien, offiziell an den
+        Komplikationen seiner langjährigen Parkinson-Erkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Einserflügel, der keine Kompromisse mit der Krankheit einging:</strong>
+        Levines innerer Anspruch an musikalische Präzision blieb auch dann bestehen, als sein
+        Körper diese Präzision zunehmend erschwerte – der Wille zur Richtigkeit ließ sich von
+        der Erkrankung nicht aufweichen.</p>
+        <p class="vb-intro"><strong>b) Appetit, der sich an die veränderten Bedingungen anpasste:</strong>
+        Die selbsterhaltende Neun sucht Vollständigkeit im Vertrauten – Levine fand diese
+        Vollständigkeit weiterhin in der Musik, auch als der Zugang zu ihr immer eingeschränkter
+        wurde, und bewahrte sich dadurch eine Form von innerer Stabilität.</p>
+        <p class="vb-intro"><strong>c) Ein Territorium, das er bis zuletzt verteidigte:</strong>
+        Wie beim Elefanten, der sein Revier nicht kampflos aufgibt, blieb die Met für Levine bis
+        zum erzwungenen Ende sein Zuhause – der Rückzug kam nicht aus eigenem Entschluss, sondern
+        wurde ihm von außen und von seinem eigenen Körper zugleich auferlegt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Vierteljahrhundert stiller Anpassung:</strong>
+        Von den ersten Tremorsymptomen in den 1990er-Jahren bis zu seinem Tod 2021 zieht sich
+        die fortschreitende Parkinson-Erkrankung wie ein roter Faden durch Levines gesamte
+        späte Karriere – begleitet von schweren, wiederholten Rückenverletzungen.</p>
+        <p class="vb-intro"><strong>b) Geheimhaltung als durchgängiges Muster:</strong>
+        Ähnlich wie bei anderen Krankheitsporträts dieses Kompasses hielt Levine seine
+        Diagnose über Jahre privat – ein Verhalten, das sich bei der selbsterhaltenden Neun
+        besonders deutlich zeigt: Stabilität nach außen zu wahren, auch wenn im Inneren längst
+        etwas ins Wanken geraten war.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Kontrolle über den eigenen Körper?</strong>
+        Für eine selbsterhaltende Neun mit Einserflügel, deren tiefstes Bedürfnis die
+        vollständige, ungestörte Verschmelzung mit ihrem Territorium ist, liegt eine Deutung
+        nahe: Ausgerechnet eine Krankheit, die schrittweise die Kontrolle über die eigenen
+        Bewegungen raubt, traf einen Mann, dessen gesamte Identität an der präzisen,
+        körperlichen Beherrschung eines Orchesters hing. Diese Deutung wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Neun zwangsläufig zu
+        Parkinson führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Levines Fall zeigen lässt, ist ein Muster, das bei stiller,
+        anpassungsbereiter Beharrlichkeit trotz fortschreitendem Kontrollverlust in der Praxis
+        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Levines</strong> jahrzehntelanger Parkinson-Erkrankung lässt sich die
+        selbsterhaltende Neun mit Einserflügel in ihrer beharrlichsten Form ablesen: eine
+        stille, über Jahre verborgene Anpassung an fortschreitenden Kontrollverlust, ein
+        unnachgiebiger innerer Anspruch, der sich von der Krankheit nicht erweichen ließ, und
+        ein Territorium, das erst aufgegeben wurde, als kein Verbleiben mehr möglich war. Der
+        Elefant, der sein Haus bewohnte, bis der eigene Körper und die äußeren Umstände ihm
+        keine andere Wahl mehr ließen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-james-levine", label:"Porträt: James Levine (SE9w1) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se9", label:"Subtyp-Profil SE9"},
       ])}
     </div>
   `);
@@ -99914,6 +100085,7 @@ function render() {
       "krankheitsportraets-robert-schumann": robertSchumannKrankheitsportraetPage,
       "krankheitsportraets-francis-bacon": francisBaconKrankheitsportraetPage,
       "krankheitsportraets-karl-marx": karlMarxKrankheitsportraetPage,
+      "krankheitsportraets-james-levine": jamesLevineKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
