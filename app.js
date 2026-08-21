@@ -95363,7 +95363,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Angst – der Körper in Daueralarm",
         varianten: [
       { code: "SE6", text: "Die selbsterhaltende Sechs begegnet der Welt mit Vorsicht, Vorausplanung und einem inneren Frühwarnsystem, das selten wirklich abschaltet – Rücklagen, Notfallpläne, das gedankliche Durchspielen dessen, was schiefgehen könnte, bevor es überhaupt passiert. Diese Form der Daueralarmbereitschaft ist medizinisch alles andere als harmlos: chronisch erhöhte Cortisol- und Adrenalinspiegel durch anhaltende Wachsamkeit gelten als plausibler Mechanismus für erhöhtes kardiovaskuläres Risiko, selbst wenn nie ein konkretes, benennbares Ereignis eintritt – der Körper reagiert auf die Erwartung der Gefahr fast so, als wäre sie bereits eingetreten." },
-          { code: "SO6", text: "Die soziale Sechs sucht Sicherheit nicht in eigener Vorsorge, sondern in Zugehörigkeit – zu einer Gruppe, einer Institution, einer klaren Autorität, der sie loyal folgt und deren Regeln sie gewissenhaft einhält. Die Belastung entsteht hier vor allem aus dem Gefühl der Verantwortung für das Kollektiv: Sorge nicht in erster Linie um sich selbst, sondern darum, ob die Gemeinschaft, an der die eigene Sicherheit hängt, intakt bleibt – eine Sorge, die selten offen ausgesprochen wird und sich stattdessen als diffuse, chronische innere Anspannung niederschlägt." },
+      { code: "SO6", text: "Die soziale Sechs sucht Sicherheit nicht in eigener Vorsorge, sondern in Zugehörigkeit – zu einer Gruppe, einer Institution, einer klaren Autorität, der sie loyal folgt und deren Regeln sie gewissenhaft einhält. Die Belastung entsteht hier vor allem aus dem Gefühl der Verantwortung für das Kollektiv: Sorge nicht in erster Linie um sich selbst, sondern darum, ob die Gemeinschaft, an der die eigene Sicherheit hängt, intakt bleibt – eine Sorge, die selten offen ausgesprochen wird und sich stattdessen als diffuse, chronische innere Anspannung niederschlägt." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch: durch Stärke-Projektion, gezielte Provokation, das bewusste Aufsuchen dessen, wovor sie sich eigentlich fürchtet, um die Angst zu widerlegen, statt ihr auszuweichen. Diese Mischung aus Angst und Zorn erzeugt weniger eine gleichmäßige Dauerspannung als eigene, episodische Belastungsspitzen – intensive Momente der Konfrontation, in denen Herzfrequenz und Blutdruck kurzfristig, aber deutlich ausschlagen, gefolgt von Phasen relativer Ruhe, bis zur nächsten selbst gesuchten Bewährungsprobe." },
         ],
       },
@@ -95371,7 +95371,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Maßlosigkeit – Zerstreuung statt Stille",
         varianten: [
       { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über eine Vielzahl paralleler Optionen ab – mehrere Projekte, mehrere Kontakte, mehrere mögliche Fluchtwege, falls einer davon sich nicht auszahlt. Diese praktische Absicherung fühlt sich nach Freiheit an, erzeugt aber eine Erschöpfung eigener Art: nicht durch klassische Anspannung, sondern durch die schiere Zerstreuung, das ständige Springen zwischen Möglichkeiten, ohne je bei einer wirklich anzukommen. Das Herz erlebt hier weniger Druck als permanente Reizüberflutung, ein Nervensystem, das selten zur Ruhe findet, weil immer eine weitere Option lockt." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp unter den Siebenern, stellt eigene Bedürfnisse konsequent zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die von außen kaum als Siebener-Muster erkennbar ist, weil die sonst typische Leichtigkeit fehlt. Die eigene Erschöpfung wird dabei lange verleugnet, oft mit dem Argument, dass andere es dringender bräuchten – bis der Körper irgendwann eine Rechnung präsentiert, die der wache Verstand lange nicht sehen wollte." },
+      { code: "SO7", text: "Die soziale Sieben, der Kontratyp unter den Siebenern, stellt eigene Bedürfnisse konsequent zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die von außen kaum als Siebener-Muster erkennbar ist, weil die sonst typische Leichtigkeit fehlt. Die eigene Erschöpfung wird dabei lange verleugnet, oft mit dem Argument, dass andere es dringender bräuchten – bis der Körper irgendwann eine Rechnung präsentiert, die der wache Verstand lange nicht sehen wollte." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv, „alles, sofort“ – ein Lebensstil, der auf Intensität statt auf Mäßigung setzt. Hier ist der plausibelste Zusammenhang zum Herzinfarkt-Risiko oft nicht die innere Anspannung selbst, sondern der gelebte Alltag: eine erhöhte Anfälligkeit für Nikotin, Alkohol oder andere Genussmittel als Mittel, die eigene Intensität noch zu steigern – medizinisch anerkannte, gut belegte Risikofaktoren, die hier weniger aus Vermeidung als aus einem grundsätzlichen Zuviel entstehen." },
         ],
       },
@@ -95456,7 +95456,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Angst, die sich Schicht für Schicht ablagert",
         varianten: [
       { code: "SE6", text: "Sicherheit wird gesucht, aber nie endgültig gefunden, und die Anspannung bleibt Jahr für Jahr bestehen – so lässt sich die Daueralarmbereitschaft der selbsterhaltenden Sechs über chronisch erhöhte Stresshormonspiegel plausibel mit einem erhöhten Risiko für Gefäßveränderungen in Verbindung bringen. Sie plant für Eventualitäten, die nie eintreten, und selbst wenn nichts passiert, bleibt die Erleichterung nur von kurzer Dauer, bevor die nächste Sorge Raum greift." },
-          { code: "SO6", text: "Die soziale Sechs sucht Sicherheit über Zugehörigkeit zu Gruppe oder Autorität – die Belastung entsteht hier vor allem aus dem Gefühl der Verantwortung für das Kollektiv, einer Sorge, die selten offen ausgesprochen wird, sondern sich als beständiges Pflichtgefühl im Hintergrund hält. Diese Loyalität kostet über Jahrzehnte Kraft, weil das eigene Wohlergehen konsequent hinter das Wohl der Gemeinschaft zurücktritt." },
+      { code: "SO6", text: "Als beständiges Pflichtgefühl im Hintergrund hält sich die Verantwortung für das Kollektiv, die die soziale Sechs empfindet, wenn sie Sicherheit über Zugehörigkeit zu Gruppe oder Autorität sucht. Diese Loyalität kostet über Jahrzehnte Kraft, weil das eigene Wohlergehen konsequent hinter das Wohl der Gemeinschaft zurücktritt." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Rückzug – diese Mischung aus Angst und Zorn erzeugt episodische Belastungsspitzen statt der gleichmäßigen Dauerspannung der anderen Sechser-Varianten. Sie sucht bewusst die Situationen auf, die andere meiden würden, um zu beweisen, dass die Angst sie nicht kontrolliert – ein Muster, das intensive, aber punktuelle statt chronische Anspannung erzeugt." },
         ],
       },
@@ -95464,7 +95464,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Maßlosigkeit, die die Gefäße überfordert",
         varianten: [
       { code: "SE7", text: "Rastlosigkeit und ein Lebensstil, der auf permanente Zerstreuung statt Ruhe setzt, gilt medizinisch als eigenständiger Risikofaktor für Gefäßveränderungen – die selbsterhaltende Sieben sichert sich über Optionen, Netzwerke und Genussmittel ab, unabhängig von innerer Anspannung. Sie hat immer einen Plan B, C und D, und genau dieses ständige Offenhalten von Möglichkeiten verhindert, dass sie je wirklich zur Ruhe kommt." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung und die damit verbundenen körperlichen Warnsignale lange verleugnet. Sie kümmert sich um alle, außer um sich selbst, und wundert sich dann, wenn der Körper irgendwann Grenzen setzt, die sie sich selbst nie zugestehen wollte." },
+      { code: "SO7", text: "Sie kümmert sich um alle, außer um sich selbst, und wundert sich dann, wenn der Körper irgendwann Grenzen setzt: So stellt die soziale Sieben, der Kontratyp, eigene Bedürfnisse zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung lange verleugnet." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – hier ist der plausibelste Zusammenhang oft nicht die innere Anspannung selbst, sondern der Lebensstil: Nikotin, Alkohol oder andere Genussmittel als anerkannte, medizinisch gut belegte Risikofaktoren für Arteriosklerose. Der Reiz der Intensität selbst wird hier zum Gesundheitsrisiko, unabhängig davon, wie glücklich oder unglücklich diese Person sich fühlt." },
         ],
       },
@@ -95549,7 +95549,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Angst, die den Körper in Daueralarm hält",
         varianten: [
       { code: "SE6", text: "Vorsicht und ständige Vorbereitung auf das Schlimmste halten das vegetative Nervensystem der selbsterhaltenden Sechs in permanenter Anspannung, ein Zustand, der sich medizinisch plausibel mit chronisch erhöhtem Blutdruck in Verbindung bringen lässt. Sie plant für Szenarien, die selten eintreten, aber die bloße gedankliche Vorbereitung darauf hält den Körper in ständiger Wachsamkeit." },
-          { code: "SO6", text: "Die soziale Sechs sucht Sicherheit über Zugehörigkeit zu Gruppe oder Autorität – die Belastung entsteht hier vor allem aus dem Gefühl der Verantwortung für das Kollektiv, einer Sorge, die selten offen ausgesprochen wird. Sie hält sich an Regeln, folgt loyal denen, denen sie vertraut, und trägt dabei die stille Last, dass diese Loyalität nie enden darf." },
+      { code: "SO6", text: "Loyal folgt die soziale Sechs denen, denen sie vertraut, hält sich an Regeln und sucht Sicherheit über Zugehörigkeit zu Gruppe oder Autorität – sie trägt dabei die stille Last, dass diese Loyalität nie enden darf." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Rückzug – diese Mischung aus Angst und Zorn erzeugt episodische Drucksteigerungen statt der gleichmäßigen Dauerspannung der anderen Sechser-Varianten. Sie sucht die Auseinandersetzung, statt ihr auszuweichen, und genau diese Konfrontationen erzeugen kurze, aber intensive Druckspitzen." },
         ],
       },
@@ -95557,7 +95557,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Maßlosigkeit, die das System überreizt",
         varianten: [
       { code: "SE7", text: "Ein Lebensstil, der auf permanente Reizsuche statt Ruhe setzt, gilt medizinisch als eigenständiger Risikofaktor für erhöhten Blutdruck – so sichert sich die selbsterhaltende Sieben über Optionen, Netzwerke und Genussmittel ab, unabhängig von innerer Anspannung. Sie füllt jede freie Minute mit einer neuen Möglichkeit, und genau diese Fülle wird selbst zur Belastung für ein System, das nie zur Ruhe kommt." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung und die damit verbundenen körperlichen Warnsignale lange verleugnet. Sie kümmert sich intensiv um andere und übersieht dabei konsequent, wie sehr sie selbst am Limit ist." },
+      { code: "SO7", text: "Intensiv kümmert sich die soziale Sieben, der Kontratyp, um andere und übersieht dabei konsequent, wie sehr sie selbst am Limit ist – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung und die damit verbundenen körperlichen Warnsignale lange verleugnet." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – hier ist der plausibelste Zusammenhang oft nicht die innere Anspannung selbst, sondern der Lebensstil: Nikotin, Alkohol oder andere Genussmittel als anerkannte, medizinisch gut belegte Risikofaktoren für erhöhten Blutdruck. Der Wunsch nach Intensität selbst wird hier zum körperlichen Risiko." },
         ],
       },
@@ -95642,7 +95642,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Angst, die die Reserven über Jahre aufzehrt",
         varianten: [
       { code: "SE6", text: "Über Jahre beanspruchen ständige Vorsicht und Vorbereitung auf das Schlimmste Energie, die dem Körper der selbsterhaltenden Sechs an anderer Stelle fehlt. Sie plant für Eventualitäten, die selten eintreten, und verbraucht dabei kontinuierlich Kraft, die für echte Erholung fehlt." },
-          { code: "SO6", text: "Die soziale Sechs sucht Sicherheit über Zugehörigkeit zu Gruppe oder Autorität – die Sorge um das Kollektiv wird selten offen ausgesprochen, zehrt aber kontinuierlich an der eigenen Kraft. Sie trägt die gefühlte Verantwortung für das Wohlergehen ihrer Gemeinschaft, oft ohne dass diese Last je geteilt wird." },
+      { code: "SO6", text: "Kontinuierlich an der eigenen Kraft zehrt die Sorge um das Kollektiv, die selten offen ausgesprochen wird, wenn die soziale Sechs Sicherheit über Zugehörigkeit zu Gruppe oder Autorität sucht. Sie trägt die gefühlte Verantwortung für das Wohlergehen ihrer Gemeinschaft, oft ohne dass diese Last je geteilt wird." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Rückzug – diese Mischung aus Angst und Zorn erzeugt episodische Kraftanstrengungen statt einer gleichmäßigen Dauerbelastung. Sie sucht die Bewährungsprobe aktiv auf, was punktuell viel Energie kostet, aber zwischen den Episoden auch Phasen relativer Erholung erlaubt." },
         ],
       },
@@ -95650,7 +95650,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Maßlosigkeit, die die Reserven überzieht",
         varianten: [
       { code: "SE7", text: "Rastlosigkeit und viele parallele Projekte führen bei der selbsterhaltenden Sieben zu einer Erschöpfung durch Zerstreuung, die selten als Warnsignal ernst genommen wird – sie sichert sich über Optionen, Netzwerke und Genussmittel ab. Sie hat immer ein weiteres Vorhaben in der Hinterhand, und genau diese Fülle verhindert, dass ihre Reserven sich je wirklich auffüllen." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung lange verleugnet. Sie kümmert sich hingebungsvoll um andere und übersieht dabei beharrlich, wie erschöpft sie selbst längst ist." },
+      { code: "SO7", text: "Hingebungsvoll kümmert sich die soziale Sieben, der Kontratyp, um andere und übersieht dabei beharrlich, wie erschöpft sie selbst längst ist – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung lange verleugnet." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – ein Lebensstil, der Substanz verbraucht statt sie zu erhalten, verschärft durch mögliches Suchtpotenzial gegenüber Nikotin, Alkohol oder anderen Genussmitteln, die die Herzfunktion zusätzlich belasten können. Ihre Intensität selbst wird zum Kraftverzehr, unabhängig davon, wie erfüllend sie sich anfühlt." },
         ],
       },
@@ -95735,7 +95735,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Vielfachalarm, der den Takt aus dem Gleichgewicht bringt",
         varianten: [
       { code: "SE6", text: "Ein paralleles Durchspielen unterschiedlicher Bedrohungsbilder erzeugt bei der selbsterhaltenden Sechs eine Art inneres Dauerflimmern der Gedanken – sie bereitet sich gedanklich auf viele mögliche Gefahren gleichzeitig vor, wägt Szenarien ab, plant Rückzugswege. Das bietet sich psychosomatisch als naheliegendes Bild für einen aus dem Takt geratenen Herzschlag an." },
-          { code: "SO6", text: "Die soziale Sechs sucht Sicherheit über Zugehörigkeit zu Autorität oder Gruppe, überwacht dabei fortlaufend viele soziale Signale gleichzeitig – wer ist loyal, wem ist zu trauen, wo drohen Konflikte –, ein gleichzeitiges Verarbeiten vielfacher sozialer Reize, das den eigenen inneren Rhythmus zersplittern kann." },
+      { code: "SO6", text: "Wer ist loyal, wem ist zu trauen, wo drohen Konflikte: Fortlaufend überwacht die soziale Sechs viele soziale Signale gleichzeitig, sucht Sicherheit über Zugehörigkeit zu Autorität oder Gruppe – dieses gleichzeitige Verarbeiten vielfacher sozialer Reize kann den eigenen inneren Rhythmus zersplittern." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, sucht die Konfrontation aktiv auf – diese Mischung aus Angst und Mut erzeugt eher punktuelle, intensive innere Ausschläge in konkreten Bewährungsmomenten als eine gleichmäßig verteilte, chronische Zersplitterung der Aufmerksamkeit." },
         ],
       },
@@ -95743,7 +95743,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Zerstreuung, die den eigenen Takt in viele Richtungen zieht",
         varianten: [
       { code: "SE7", text: "Nie ganz bei einer Sache: So hält sich die selbsterhaltende Sieben zahlreiche Optionen und Fluchtwege gleichzeitig offen, springt zwischen Projekten, Genüssen und Möglichkeiten. Dieses Leben in ständiger paralleler Vielfalt ist psychosomatisch eines der plausibelsten Bilder für einen Herzrhythmus, der seinen geordneten Takt an zu viele gleichzeitige Impulse verliert." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück, übernimmt oft mehrere Verpflichtungen gleichzeitig aus Pflichtgefühl – diese selbstauferlegte Vielfachbelastung kann, anders als die freudige Zerstreuung des reinen Typs, zu einer stillen, aber ebenso wirksamen inneren Überforderung führen." },
+      { code: "SO7", text: "Oft mehrere Verpflichtungen gleichzeitig aus Pflichtgefühl: So stellt die soziale Sieben, der Kontratyp, eigene Bedürfnisse zugunsten anderer zurück – diese selbstauferlegte Vielfachbelastung kann, anders als die freudige Zerstreuung des reinen Typs, zu einer stillen, aber ebenso wirksamen inneren Überforderung führen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und mit voller Intensität, springt von einem Enthusiasmus zum nächsten – diese impulsive, oft suchtnahe Vielfalt an Reizen und Erlebnissen liest die Psychosomatik als eines der unmittelbarsten Bilder für ein chaotisches, viel zu schnelles inneres Zittern anstelle eines ruhigen Takts." },
         ],
       },
@@ -95828,7 +95828,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Daueranspannung, die die Grenze ständig neu auslotet",
         varianten: [
       { code: "SE6", text: "Nie wirklich entspannt: So lebt die selbsterhaltende Sechs in ständiger Vorsicht und Vorbereitung auf mögliche Gefahren – diese permanente muskuläre und mentale Anspannung kann über Jahre die eigene Belastungsgrenze absenken, sodass schon geringere Anstrengungen den wiederkehrenden Schmerz auslösen." },
-          { code: "SO6", text: "Die soziale Sechs übernimmt Verantwortung für das Wohlergehen ihrer Gruppe und trägt dabei die gefühlte Last vieler Sorgen gleichzeitig – diese kontinuierliche kollektive Anspannung, selten offen ausgesprochen, kann sich körperlich als ein Schmerz manifestieren, der genau an der eigenen Belastungsgrenze auftritt." },
+      { code: "SO6", text: "Die gefühlte Last vieler Sorgen gleichzeitig trägt die soziale Sechs, die Verantwortung für das Wohlergehen ihrer Gruppe übernimmt – diese kontinuierliche kollektive Anspannung, selten offen ausgesprochen, kann sich körperlich als ein Schmerz manifestieren, der genau an der eigenen Belastungsgrenze auftritt." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation statt Rückzug – diese Mischung aus Angst und Mut erzeugt eher punktuelle, intensive Belastungsspitzen in konkreten Bewährungsmomenten als eine gleichmäßig verteilte chronische Überlastung." },
         ],
       },
@@ -95836,7 +95836,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Rastlosigkeit, die keine echte Grenze kennt",
         varianten: [
       { code: "SE7", text: "Ein Leben ohne bewusst gesetzte Pausen kennt kaum eine anerkannte Belastungsgrenze – so hält sich die selbsterhaltende Sieben ständig neue Optionen und Aktivitäten offen, springt von einem Projekt zum nächsten, bis der Körper selbst, oft überraschend, genau diese Grenze in Form eines wiederkehrenden Schmerzes markiert." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt aus Pflichtgefühl Verantwortung für andere und stellt eigene Bedürfnisse zurück – diese selbstauferlegte, oft übersehene Überforderung kann sich körperlich als ein Signal zeigen, das genau dort ansetzt, wo die idealistische Opferbereitschaft die eigene Kraft überschreitet." },
+      { code: "SO7", text: "Aus Pflichtgefühl übernimmt die soziale Sieben, der Kontratyp, Verantwortung für andere und stellt eigene Bedürfnisse zurück – diese selbstauferlegte, oft übersehene Überforderung kann sich körperlich als ein Signal zeigen, das genau dort ansetzt, wo die idealistische Opferbereitschaft die eigene Kraft überschreitet." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv, oft mit erhöhtem Risiko für Nikotin- oder Alkoholkonsum, die die Herzkranzgefäße zusätzlich belasten können – diese Kombination aus rastloser Intensität und stoffgebundenem Risikoverhalten liest die Psychosomatik als eines der direkteren Bilder für eine wiederkehrend überschrittene körperliche Grenze." },
         ],
       },
@@ -95921,7 +95921,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Dauersorge, die sich nie entlädt",
         varianten: [
       { code: "SE6", text: "Ohne dass diese Anspannung je wirklich abklingt, trägt die selbsterhaltende Sechs ständige Sorge um mögliche Gefahren mit sich – ein Nervensystem in Daueralarmbereitschaft, das kaum Erleichterung kennt. Dieses Muster, Last zu tragen, ohne sie je abzulegen, passt zum Bild des gestörten venösen Rückflusses." },
-          { code: "SO6", text: "Die soziale Sechs sorgt sich fortlaufend um das Wohlergehen ihrer Gruppe, eine Verantwortung, die selten geteilt und noch seltener abgegeben wird – diese kollektive, nie erleichterte Sorge kann sich körperlich als eine Stauung zeigen." },
+      { code: "SO6", text: "Selten geteilt und noch seltener abgegeben wird die Verantwortung, mit der sich die soziale Sechs fortlaufend um das Wohlergehen ihrer Gruppe sorgt – diese kollektive, nie erleichterte Sorge kann sich körperlich als eine Stauung zeigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese Mischung aus Angst und Mut erzeugt eher punktuelle Entladungen in konkreten Bewährungsmomenten als eine gleichmäßig verteilte, nie erleichterte Dauerlast." },
         ],
       },
@@ -95929,7 +95929,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Fluchtbewegung, die die eigene Last nie ablegt",
         varianten: [
       { code: "SE7", text: "Diese permanente Bewegung nach vorn verhindert, dass die selbsterhaltende Sieben je innehält und eine Last wirklich hinter sich lässt – sie hält sich ständig neue Optionen offen und springt von einer Ablenkung zur nächsten. Was nie verarbeitet wird, staut sich, auch wenn die Oberfläche leicht und beweglich wirkt." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt aus Pflichtgefühl Verantwortung für andere und stellt eigene Bedürfnisse zurück – diese selbstauferlegte Opferbereitschaft kennt selten eine bewusste Erleichterungsphase, was sich als stille, aber wirksame Stauung zeigen kann." },
+      { code: "SO7", text: "Selten eine bewusste Erleichterungsphase kennt die selbstauferlegte Opferbereitschaft, mit der die soziale Sieben, der Kontratyp, aus Pflichtgefühl Verantwortung für andere übernimmt und eigene Bedürfnisse zurückstellt – was sich als stille, aber wirksame Stauung zeigen kann." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, springt impulsiv von einer Intensität zur nächsten – diese rastlose Vielfalt verhindert echtes Ankommen und damit auch echte Erleichterung, selbst wenn jeder einzelne Moment zunächst befreiend wirkt." },
         ],
       },
@@ -96014,7 +96014,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Festgefahrenes Misstrauen, das sich verhärtet",
         varianten: [
       { code: "SE6", text: "Auch wenn die Gefahr längst gebannt ist, hält die selbsterhaltende Sechs an einmal gefassten Ängsten und Vorsichtsmaßnahmen fest – diese starre Wachsamkeit, die sich nicht mehr löst, kann sich über Jahre zu einer festen inneren Blockade verhärten, die selbst bei objektiver Entwarnung nicht nachgibt." },
-          { code: "SO6", text: "Die soziale Sechs verhärtet sich in ihrem Misstrauen gegenüber vermeintlichen Bedrohungen für die Gruppe zunehmend – ein einmal gefasster Verdacht kann sich zu einer festen, kaum mehr revidierbaren Position verfestigen." },
+      { code: "SO6", text: "Ein einmal gefasster Verdacht kann sich zu einer festen, kaum mehr revidierbaren Position verfestigen, wenn die soziale Sechs sich in ihrem Misstrauen gegenüber vermeintlichen Bedrohungen für die Gruppe zunehmend verhärtet." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation statt Erstarrung – dieses Verhalten hält das System eher in Bewegung, während echte Erstarrung hier seltener und eher in konkreten Rückschlagsmomenten auftritt." },
         ],
       },
@@ -96022,7 +96022,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Erzwungene Erstarrung nach jahrelanger Flucht",
         varianten: [
       { code: "SE7", text: "Um bloß nicht stillzustehen, hält sich die selbsterhaltende Sieben ständig in Bewegung, springt von einer Option zur nächsten – gerade wenn diese Fluchtbewegung durch äußere Umstände erzwungen unterbrochen wird, etwa durch Krankheit oder Immobilität, kann sich das System in einer für sie besonders widersprüchlichen, abrupten Erstarrung wiederfinden." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, hält an ihrer selbstauferlegten Pflicht fest, für andere da zu sein, auch wenn die eigene Erschöpfung längst Grenzen setzt – diese Unfähigkeit, die eigene Position aufzugeben, kann sich über Jahre zu einer starren inneren Haltung verfestigen." },
+      { code: "SO7", text: "Auch wenn die eigene Erschöpfung längst Grenzen setzt, hält die soziale Sieben, der Kontratyp, an ihrer selbstauferlegten Pflicht fest, für andere da zu sein – diese Unfähigkeit, die eigene Position aufzugeben, kann sich über Jahre zu einer starren inneren Haltung verfestigen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus und wechselt impulsiv zwischen Intensitäten – echte Erstarrung tritt hier seltener auf, am ehesten in den seltenen Momenten, in denen sie sich gezwungen sieht, bei einer einzigen Sache zu verharren." },
         ],
       },
@@ -96107,7 +96107,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Angst, die sich zu explosiver Spannung verdichtet",
         varianten: [
       { code: "SE6", text: "Ohne dass sie je wirklich zur Ruhe kommen, trägt die selbsterhaltende Sechs Sorgen und Ängste über Jahre mit sich, lebt in ständiger Alarmbereitschaft – dieses Nervensystem in Dauerspannung, das nie wirklich entlastet wird, passt zum Bild einer aufgestauten Fülle, die sich irgendwann Bahn bricht." },
-          { code: "SO6", text: "Die soziale Sechs trägt die gefühlte Verantwortung für das Wohlergehen ihrer Gruppe, eine Last, die selten geteilt und nie wirklich abgelegt wird – diese kollektive, nie erleichterte Sorge kann sich über Jahre zu einer inneren Fülle verdichten." },
+      { code: "SO6", text: "Selten geteilt und nie wirklich abgelegt wird die Last, die gefühlte Verantwortung für das Wohlergehen ihrer Gruppe, die die soziale Sechs trägt – diese kollektive, nie erleichterte Sorge kann sich über Jahre zu einer inneren Fülle verdichten." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese Entladung im Außen kann verhindern, dass sich die innere Spannung zu einer gleichmäßig akkumulierten Fülle aufstaut, auch wenn einzelne Bewährungsmomente selbst hochintensiv bleiben." },
         ],
       },
@@ -96115,7 +96115,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Rastlosigkeit, die eine tiefere Erschöpfung überdeckt",
         varianten: [
       { code: "SE7", text: "Diese permanente Zerstreuung kann verhindern, dass die selbsterhaltende Sieben je bei der eigenen, tieferen Erschöpfung ankommt – sie hält sich ständig in Bewegung, springt von einem Projekt, einem Genuss, einer Ablenkung zur nächsten. Diese Erschöpfung staut sich unbemerkt auf, bis sie sich unvermittelt zeigt, oft verstärkt durch Alkohol, Nikotin oder andere Risikofaktoren." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse aus Pflichtgefühl fortlaufend zurück, ohne die eigene wachsende Erschöpfung je zuzugeben – diese selbstauferlegte, nie eingestandene Überforderung kann sich über Jahre zu einer inneren Fülle verdichten." },
+      { code: "SO7", text: "Ohne die eigene wachsende Erschöpfung je zuzugeben, stellt die soziale Sieben, der Kontratyp, eigene Bedürfnisse aus Pflichtgefühl fortlaufend zurück – diese selbstauferlegte, nie eingestandene Überforderung kann sich über Jahre zu einer inneren Fülle verdichten." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv aus, oft mit erhöhtem Risiko für Suchtverhalten – diese Kombination aus rastloser Intensität und stoffgebundenem Risiko liest die Psychosomatik als eines der direkteren Bilder für eine plötzliche, dramatische Entladung." },
         ],
       },
@@ -96200,7 +96200,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Angst, die Energie bindet statt sie freizusetzen",
         varianten: [
       { code: "SE6", text: "Ohne dass diese Energie je in konkretes, kraftvolles Handeln mündet, verausgabt die selbsterhaltende Sechs viel Kraft im gedanklichen Durchspielen möglicher Gefahren – dieses Kreisen im Vorfeld kann dazu führen, dass für die eigentliche Selbstbehauptung am Ende zu wenig übrig bleibt." },
-          { code: "SO6", text: "Die soziale Sechs bindet ihre Energie an die Sorge um das Kollektiv, statt sie für die eigene Position einzusetzen – diese kontinuierliche Ausrichtung auf äußere Sicherheit statt auf inneren Antrieb kann sich als ein Mangel an selbstbezogener Kraft zeigen." },
+      { code: "SO6", text: "Statt sie für die eigene Position einzusetzen, bindet die soziale Sechs ihre Energie an die Sorge um das Kollektiv – diese kontinuierliche Ausrichtung auf äußere Sicherheit statt auf inneren Antrieb kann sich als ein Mangel an selbstbezogener Kraft zeigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – dieses Verhalten setzt eher punktuell viel Energie frei, statt sie chronisch zu binden, weshalb hier seltener ein dauerhafter Kraftmangel im Vordergrund steht." },
         ],
       },
@@ -96208,7 +96208,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Zerstreute Energie, die nirgends wirklich ankommt",
         varianten: [
       { code: "SE7", text: "Nirgends kommt genug konzentrierte Kraft für eine wirklich nachdrückliche Selbstbehauptung an, obwohl insgesamt viel Aktivität stattfindet – so verteilt die selbsterhaltende Sieben ihre Energie auf viele parallele Optionen und Projekte gleichzeitig." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, richtet ihre Energie fortlaufend auf die Bedürfnisse anderer aus, oft aus Pflichtgefühl – diese selbstlose Ausrichtung, anders als bei der ungebremsten Sieben, kann zu einem Mangel an Energie führen, die für die eigene Sache reserviert bleibt." },
+      { code: "SO7", text: "Anders als bei der ungebremsten Sieben richtet der Kontratyp ihre Energie fortlaufend auf die Bedürfnisse anderer aus, oft aus Pflichtgefühl – diese selbstlose Ausrichtung kann zu einem Mangel an Energie führen, die für die eigene Sache reserviert bleibt." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und intensiv – ihr fehlt es selten an akuter Energie, doch die ständige Suche nach dem nächsten Impuls kann verhindern, dass diese Kraft je in eine stabile, dauerhafte Selbstbehauptung mündet." },
         ],
       },
@@ -96293,7 +96293,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Vorsicht, die dieselben Sicherheitsmuster wiederholt",
         varianten: [
       { code: "SE6", text: "Ohne sie je zu hinterfragen, wiederholt die selbsterhaltende Sechs über Jahre dieselben Vorsichtsmaßnahmen und Sicherheitsrituale – diese unveränderte, immer gleiche Vorbereitung auf mögliche Gefahren kann sich als eine Rigidität zeigen, die auch der körperlichen Beweglichkeit zunehmend weniger Raum lässt." },
-          { code: "SO6", text: "Die soziale Sechs hält über Jahre an denselben Loyalitäten und Gruppenstrukturen fest, verändert selten ihre soziale Position – diese unveränderte Verankerung kann sich als eine Rigidität zeigen, die sich auch körperlich in mangelnder Anpassungsfähigkeit niederschlägt." },
+      { code: "SO6", text: "Selten verändert die soziale Sechs ihre soziale Position, hält über Jahre an denselben Loyalitäten und Gruppenstrukturen fest – diese unveränderte Verankerung kann sich als eine Rigidität zeigen, die sich auch körperlich in mangelnder Anpassungsfähigkeit niederschlägt." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, sucht aktiv neue Herausforderungen und Konfrontationen – diese Bereitschaft, sich immer wieder neuen Situationen zu stellen, steht der starren Wiederholung entgegen, die für Arthrose besonders typisch ist." },
         ],
       },
@@ -96301,7 +96301,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Scheinbare Vielfalt, die dieselbe Fluchtbewegung wiederholt",
         varianten: [
       { code: "SE7", text: "Dem Unangenehmen ausweichen, zur nächsten Option springen: Dieses Muster wiederholt sich im Kern über Jahre, auch wenn die selbsterhaltende Sieben nach außen abwechslungsreich wirkt. Diese strukturelle Wiederholung unter der Oberfläche der Vielfalt kann sich als eine Rigidität zeigen, die sich auch körperlich niederschlägt." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt über Jahre dieselbe selbstlose, pflichtbewusste Rolle für andere, ohne sie zu variieren – diese unveränderte Position kann sich als eine Rigidität zeigen, die auch körperlich zunehmend weniger Flexibilität zulässt." },
+      { code: "SO7", text: "Ohne sie zu variieren, übernimmt die soziale Sieben, der Kontratyp, über Jahre dieselbe selbstlose, pflichtbewusste Rolle für andere – diese unveränderte Position kann sich als eine Rigidität zeigen, die auch körperlich zunehmend weniger Flexibilität zulässt." },
           { code: "SX7", text: "Die sexuelle Sieben lebt tatsächliche, spontane Vielfalt und wechselt impulsiv zwischen Begeisterungen – diese echte Variabilität steht der starren, wiederholten Bewegung entgegen, die für Arthrose psychosomatisch besonders typisch ist." },
         ],
       },
@@ -96386,7 +96386,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Sorge, die als stumme Last getragen wird",
         varianten: [
       { code: "SE6", text: "Oft ohne diese Angst je offen zu benennen, trägt die selbsterhaltende Sechs ständige Sorge um mögliche Gefahren mit sich – ein Nervensystem in Daueralarmbereitschaft, das nie wirklich entlastet wird, passt zum Bild eines Rückens, der unter unbenannter Sorge steht." },
-          { code: "SO6", text: "Die soziale Sechs trägt die gefühlte Verantwortung für das Wohlergehen ihrer Gruppe, eine Last, die selten geteilt wird – diese kollektive, nie erleichterte Sorge kann sich über Jahre als Rückenschmerz zeigen." },
+      { code: "SO6", text: "Selten geteilt wird die Last, die gefühlte Verantwortung für das Wohlergehen ihrer Gruppe, die die soziale Sechs trägt – diese kollektive, nie erleichterte Sorge kann sich über Jahre als Rückenschmerz zeigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese Entladung im Außen kann verhindern, dass sich die innere Last zu einer gleichmäßig akkumulierten Rückenspannung aufstaut." },
         ],
       },
@@ -96394,7 +96394,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Selbstauferlegte Last hinter scheinbarer Leichtigkeit",
         varianten: [
       { code: "SE7", text: "Sobald das Tempo einmal nachlässt, zeigt sich, was die permanente Zerstreuung der selbsterhaltenden Sieben – ständig in Bewegung, springt von Option zu Option – bisher verhindert hat: dass sie je bei der eigenen, tieferen Erschöpfung ankommt, die sich unbemerkt aufstaut und sich dann körperlich als Rückenschmerz zeigt." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt aus Pflichtgefühl Verantwortung für andere, oft ohne diese Last je einzugestehen – diese selbstlose, nie ausgesprochene Überforderung kann sich über Jahre als chronischer Rückenschmerz zeigen." },
+      { code: "SO7", text: "Oft ohne diese Last je einzugestehen, übernimmt die soziale Sieben, der Kontratyp, aus Pflichtgefühl Verantwortung für andere – diese selbstlose, nie ausgesprochene Überforderung kann sich über Jahre als chronischer Rückenschmerz zeigen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, springt impulsiv von einer Intensität zur nächsten – echte, akkumulierte Last zeigt sich hier seltener, am ehesten in den seltenen Momenten, in denen sie gezwungen ist, bei einer Verpflichtung zu verharren." },
         ],
       },
@@ -96479,7 +96479,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Misstrauen, das sich zuletzt gegen sich selbst richtet",
         varianten: [
       { code: "SE6", text: "Nicht nur gegen äußere Gefahren, auch gegen sich selbst richtet die selbsterhaltende Sechs oft ihre harte Selbstkritik, wenn sie glaubt, nicht ausreichend vorbereitet zu sein – diese nach innen gerichtete Härte passt zum Bild eines Immunsystems, das sich selbst als potenzielle Bedrohung behandelt." },
-          { code: "SO6", text: "Die soziale Sechs sorgt sich um die Sicherheit ihrer Gruppe und macht sich selbst oft Vorwürfe, wenn sie das Gefühl hat, die Gemeinschaft nicht ausreichend geschützt zu haben – diese Selbstbeschuldigung kann sich körperlich als ein System zeigen, das sich gegen sich selbst richtet." },
+      { code: "SO6", text: "Wenn sie das Gefühl hat, die Gemeinschaft nicht ausreichend geschützt zu haben, macht sich die soziale Sechs selbst oft Vorwürfe, während sie sich um die Sicherheit ihrer Gruppe sorgt – diese Selbstbeschuldigung kann sich körperlich als ein System zeigen, das sich gegen sich selbst richtet." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation nach außen – diese Externalisierung von Angst und Anspannung steht dem konsequent nach innen gerichteten Selbstangriff entgegen, der bei anderen Sechs-Varianten möglich ist." },
         ],
       },
@@ -96487,7 +96487,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Verleugnete Erschöpfung, die sich gegen den Körper wendet",
         varianten: [
       { code: "SE7", text: "Zugunsten der nächsten Ablenkung ignoriert die selbsterhaltende Sieben Erschöpfungssignale konsequent – diese fortgesetzte Verleugnung des eigenen Zustands kann bedeuten, dass der Körper sich selbst überlassen bleibt, ohne die Fürsorge zu erhalten, die er eigentlich bräuchte, was sich als ein System zeigen kann, das sich selbst nicht schützt, sondern angreift." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse aus Pflichtgefühl zurück und macht sich innerlich Vorwürfe, wenn sie nicht genug für andere getan hat – diese Selbstverurteilung passt zum Bild eines Immunsystems, das sich gegen sich selbst richtet." },
+      { code: "SO7", text: "Wenn sie nicht genug für andere getan hat, macht sich die soziale Sieben, der Kontratyp, innerlich Vorwürfe, während sie eigene Bedürfnisse aus Pflichtgefühl zurückstellt – diese Selbstverurteilung passt zum Bild eines Immunsystems, das sich gegen sich selbst richtet." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv nach außen aus – diese Externalisierung von Energie und Intensität steht dem konsequent nach innen gerichteten Selbstangriff entgegen, der bei anderen Sieben-Varianten möglich ist." },
         ],
       },
@@ -96572,7 +96572,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Dauersorge, die die eigene Substanz aufzehrt",
         varianten: [
       { code: "SE6", text: "Ohne dass dieser Verbrauch je durch bewusste Selbstfürsorge ausgeglichen wird, verausgabt die selbsterhaltende Sechs über Jahre viel innere Energie auf Sorge und Vorbereitung, lebt in ständiger Alarmbereitschaft – dieses stille, nie thematisierte Ungleichgewicht kann sich als schwindende innere Substanz zeigen." },
-          { code: "SO6", text: "Die soziale Sechs trägt die gefühlte Verantwortung für das Wohlergehen ihrer Gruppe, eine Last, die selten geteilt wird und über Jahre an der eigenen Substanz zehren kann, ohne dass es je bewusst bemerkt wird." },
+      { code: "SO6", text: "Ohne dass es je bewusst bemerkt wird, kann die Last, die gefühlte Verantwortung für das Wohlergehen ihrer Gruppe, über Jahre an der eigenen Substanz der sozialen Sechs zehren, die diese Last selten teilt." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese Entladung im Außen kann verhindern, dass sich die innere Erschöpfung zu einer gleichmäßig über Jahre akkumulierten Substanzauszehrung entwickelt." },
         ],
       },
@@ -96580,7 +96580,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Zerstreuung, die die eigene Substanz nie auffüllt",
         varianten: [
       { code: "SE7", text: "Ohne je wirklich innezuhalten und sich bewusst zu nähren, springt die selbsterhaltende Sieben ständig von einer Ablenkung zur nächsten – diese permanente Zerstreuung kann verhindern, dass die eigene Substanz je wirklich aufgefüllt wird, was sich über Jahrzehnte als schwindende innere Dichte zeigen kann." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse aus Pflichtgefühl zurück, oft ohne die eigene, allmählich schwindende Substanz je zu bemerken – diese selbstlose Ausrichtung kann sich über Jahre als stille Auszehrung zeigen." },
+      { code: "SO7", text: "Oft ohne die eigene, allmählich schwindende Substanz je zu bemerken, stellt die soziale Sieben, der Kontratyp, eigene Bedürfnisse aus Pflichtgefühl zurück – diese selbstlose Ausrichtung kann sich über Jahre als stille Auszehrung zeigen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und intensiv aus – diese emotionale Lebendigkeit kann eine gewisse innere Nährung ermöglichen, auch wenn die rastlose Suche nach dem nächsten Impuls echte Regeneration erschwert." },
         ],
       },
@@ -96665,7 +96665,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Vielfachalarm, der den ganzen Körper in Anspannung hält",
         varianten: [
       { code: "SE6", text: "Den gesamten Körper in einer diffusen, nirgends konzentrierten Anspannung hält das parallele Durchspielen unterschiedlicher Bedrohungsbilder, mit dem sich die selbsterhaltende Sechs gedanklich auf viele mögliche Gefahren gleichzeitig vorbereitet – das kommt dem Bild der Fibromyalgie, einem System in genereller Überforderung, besonders nahe." },
-          { code: "SO6", text: "Die soziale Sechs überwacht fortlaufend viele soziale Signale gleichzeitig, sorgt sich um das Wohlergehen der gesamten Gruppe – dieses gleichzeitige Verarbeiten vielfacher sozialer Reize kann sich als diffuse, über das gesamte System verteilte Überlastung zeigen." },
+      { code: "SO6", text: "Sorgt sich um das Wohlergehen der gesamten Gruppe, überwacht fortlaufend viele soziale Signale gleichzeitig: So kann sich das gleichzeitige Verarbeiten vielfacher sozialer Reize durch die soziale Sechs als diffuse, über das gesamte System verteilte Überlastung zeigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive, punktuelle Konfrontation – diese fokussierte Entladung steht der diffusen, über viele gleichzeitige Sorgen verteilten Anspannung anderer Sechs-Varianten entgegen." },
         ],
       },
@@ -96673,7 +96673,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Zerstreuung, die den ganzen Körper beansprucht",
         varianten: [
       { code: "SE7", text: "Ohne dass sich die Erschöpfung je an einer einzelnen Stelle konzentriert, beansprucht ein Leben in ständiger paralleler Vielfalt den gesamten Körper der selbsterhaltenden Sieben gleichzeitig – sie hält sich zahlreiche Optionen und Aktivitäten gleichzeitig offen, springt zwischen Projekten und Genüssen. Das passt zum diffusen Schmerzbild der Fibromyalgie." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt oft mehrere Verpflichtungen gleichzeitig aus Pflichtgefühl – diese selbstauferlegte Vielfachbelastung, über viele Bereiche verteilt, kann sich als eine diffuse, generelle Überforderung des gesamten Systems zeigen." },
+      { code: "SO7", text: "Über viele Bereiche verteilt übernimmt die soziale Sieben, der Kontratyp, oft mehrere Verpflichtungen gleichzeitig aus Pflichtgefühl – diese selbstauferlegte Vielfachbelastung kann sich als eine diffuse, generelle Überforderung des gesamten Systems zeigen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv, springt von einer Intensität zur nächsten – diese rastlose, aber fokussierte Intensität in jedem einzelnen Moment steht dem gleichmäßig diffusen Erschöpfungsmuster der Fibromyalgie eher entgegen." },
         ],
       },
@@ -96758,7 +96758,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Angespannter Griff, der Sicherheit festhalten will",
         varianten: [
       { code: "SE6", text: "Mit großer, oft körperlich spürbarer Anspannung hält die selbsterhaltende Sechs an Sicherheitsmaßnahmen und Vorbereitung fest – dieser dauerhaft angespannte Griff, nie wirklich entspannt, passt zum Bild eines Kanals, der sich unter ständiger muskulärer Anspannung einengt." },
-          { code: "SO6", text: "Die soziale Sechs hält an ihrer Verantwortung für das Wohlergehen der Gruppe fest, oft mit konkreten, wiederholten Handlungen der Fürsorge – diese kontinuierliche Belastung kann sich als eingeengte Handlungsfähigkeit zeigen." },
+      { code: "SO6", text: "Oft mit konkreten, wiederholten Handlungen der Fürsorge hält die soziale Sechs an ihrer Verantwortung für das Wohlergehen der Gruppe fest – diese kontinuierliche Belastung kann sich als eingeengte Handlungsfähigkeit zeigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese eher episodische, punktuelle Anspannung unterscheidet sich von der gleichmäßig wiederholten mechanischen Belastung, die für das Karpaltunnelsyndrom typisch ist." },
         ],
       },
@@ -96766,7 +96766,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Vielgriffigkeit, die keine Pause kennt",
         varianten: [
       { code: "SE7", text: "Oft mit den eigenen Händen aktiv greift die selbsterhaltende Sieben fortlaufend nach neuen Optionen und Aktivitäten, springt von einem Projekt zum nächsten – diese permanente, nie pausierte Betriebsamkeit passt zum mechanischen Überlastungsmuster des Karpaltunnelsyndroms." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt aus Pflichtgefühl viele konkrete Aufgaben für andere, oft mit den eigenen Händen – diese selbstauferlegte, körperlich wiederholte Verpflichtung kann sich als eingeengte Handlungsfähigkeit zeigen." },
+      { code: "SO7", text: "Oft mit den eigenen Händen übernimmt die soziale Sieben, der Kontratyp, aus Pflichtgefühl viele konkrete Aufgaben für andere – diese selbstauferlegte, körperlich wiederholte Verpflichtung kann sich als eingeengte Handlungsfähigkeit zeigen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, springt impulsiv zwischen Intensitäten – diese emotionale, nicht primär manuell-repetitive Intensität erzeugt seltener die spezifische mechanische Überlastung des Karpaltunnelsyndroms." },
         ],
       },
@@ -96851,7 +96851,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Angst, die sich zu explosiver Reaktion verdichtet",
         varianten: [
       { code: "SE6", text: "Diese angesammelte, nie entladene Anspannung kann sich schließlich in einer plötzlichen, heftigen Reaktion Bahn brechen, wenn die selbsterhaltende Sechs Sorgen und Ängste über lange Zeit mit sich trägt, ohne dass sie je wirklich zur Ruhe kommen – ganz im Bild des scheinbar aus dem Nichts auftretenden Gichtanfalls." },
-          { code: "SO6", text: "Die soziale Sechs trägt die Sorge um das Kollektiv über lange Zeit mit sich, oft ohne sie je auszusprechen – diese kollektive, nie erleichterte Anspannung kann sich schließlich scharf entladen." },
+      { code: "SO6", text: "Oft ohne sie je auszusprechen, trägt die soziale Sechs die Sorge um das Kollektiv über lange Zeit mit sich – diese kollektive, nie erleichterte Anspannung kann sich schließlich scharf entladen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive, unmittelbare Konfrontation – diese direktere Entladung steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist." },
         ],
       },
@@ -96859,7 +96859,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Genuss, der sich ansammelt, bis der Körper Einspruch erhebt",
         varianten: [
       { code: "SE7", text: "Als Belohnung für sich selbst genießt die selbsterhaltende Sieben Essen, Trinken und Vergnügen oft ausgiebig – wiederholter, purinreicher Genuss über Jahre, verbunden mit der Weigerung, echte Grenzen zu setzen, passt besonders direkt zum mechanischen Entstehungsmuster der Gicht: eine Ansammlung, die sich irgendwann als scharfer Anfall Bahn bricht." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, hält eigene Genüsse und Bedürfnisse aus Pflichtgefühl oft zurück – dieser gebremste, nie ausgelebte Genuss unterscheidet sich vom eher direkten Konsummuster der ungebremsten Sieben und kann seltener zur klassischen Ansammlung führen." },
+      { code: "SO7", text: "Oft zurückgehalten werden eigene Genüsse und Bedürfnisse aus Pflichtgefühl bei der sozialen Sieben, dem Kontratyp – dieser gebremste, nie ausgelebte Genuss unterscheidet sich vom eher direkten Konsummuster der ungebremsten Sieben und kann seltener zur klassischen Ansammlung führen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, oft verbunden mit intensivem Konsum von Nahrung, Alkohol oder anderen Genussmitteln – diese impulsive, wiederholte Intensität liest die Psychosomatik als eines der direkteren Bilder für eine Ansammlung, die sich irgendwann explosionsartig entlädt." },
         ],
       },
@@ -96944,7 +96944,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Immer derselbe angespannte Vorsichtsgriff",
         varianten: [
       { code: "SE6", text: "Immer mit demselben festen, nie gelösten Griff wiederholt die selbsterhaltende Sechs über Jahre dieselben Vorsichtsmaßnahmen mit körperlich spürbarer Anspannung – diese unveränderte, monotone Anspannung passt zum Bild eines Sehnenansatzes, der unter ständiger Wiederholung erschöpft ist." },
-          { code: "SO6", text: "Die soziale Sechs wiederholt über Jahre dieselbe angespannte Fürsorgegeste für ihre Gruppe, immer mit demselben Verantwortungsgefühl – diese unveränderte Haltung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
+      { code: "SO6", text: "Immer mit demselben Verantwortungsgefühl wiederholt die soziale Sechs über Jahre dieselbe angespannte Fürsorgegeste für ihre Gruppe – diese unveränderte Haltung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive, wechselnde Konfrontation – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für den Tennisarm typisch ist." },
         ],
       },
@@ -96952,7 +96952,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Vielfalt, die im Kern dieselbe Fluchtbewegung wiederholt",
         varianten: [
       { code: "SE7", text: "Schnell zugreifen, schnell weiter: Dieses angespannte Muster wiederholt sich im Kern über Jahre, auch wenn die selbsterhaltende Sieben nach außen abwechslungsreich wirkt. Diese strukturelle Wiederholung unter der Oberfläche der Vielfalt kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt über Jahre dieselbe selbstlose, körperlich fordernde Rolle für andere, ohne sie zu variieren – diese unveränderte Position kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
+      { code: "SO7", text: "Ohne sie zu variieren, übernimmt die soziale Sieben, der Kontratyp, über Jahre dieselbe selbstlose, körperlich fordernde Rolle für andere – diese unveränderte Position kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt tatsächliche, spontane Vielfalt und wechselt impulsiv zwischen Begeisterungen – diese echte Variabilität steht der starren, wiederholten Bewegung entgegen, die für den Tennisarm psychosomatisch besonders typisch ist." },
         ],
       },
@@ -97037,7 +97037,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Angespannte Wachsamkeit, die die Schulter nie entspannt",
         varianten: [
       { code: "SE6", text: "Die Schultern buchstäblich hochgezogen, bereit für die nächste Bedrohung: So lebt die selbsterhaltende Sechs in ständiger Alarmbereitschaft. Diese dauerhaft angespannte Körperhaltung, nie wirklich gelöst, passt besonders genau zum Bild der Frozen Shoulder: eine Erstarrung genau dort, wo Entspannung und Offenheit möglich wären." },
-          { code: "SO6", text: "Die soziale Sechs trägt die Sorge um das Wohlergehen ihrer Gruppe körperlich als Anspannung mit sich, oft ohne sie je bewusst zu lösen – diese kollektive, nie erleichterte Spannung kann sich als Versteifung der Schulter zeigen." },
+      { code: "SO6", text: "Oft ohne sie je bewusst zu lösen, trägt die soziale Sechs die Sorge um das Wohlergehen ihrer Gruppe körperlich als Anspannung mit sich – diese kollektive, nie erleichterte Spannung kann sich als Versteifung der Schulter zeigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation – diese Entladung im Außen kann verhindern, dass sich die innere Anspannung zu einer gleichmäßig akkumulierten Schultererstarrung aufstaut." },
         ],
       },
@@ -97045,7 +97045,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Rastlosigkeit, die Anspannung nie zur Ruhe kommen lässt",
         varianten: [
       { code: "SE7", text: "Ironischerweise kann genau die permanente Betriebsamkeit, mit der sich die selbsterhaltende Sieben ständig in Bewegung hält und von einer Aktivität zur nächsten springt, verhindern, dass Schultern und Arme je bewusst entspannt werden – was sich über Jahre als eine unerwartete Erstarrung zeigen kann, sobald das Tempo einmal nachlässt." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt aus Pflichtgefühl viele körperlich fordernde Aufgaben für andere, ohne sich je bewusst zu entspannen – diese selbstlose, nie unterbrochene Anspannung kann sich über Jahre als Versteifung der Schulter zeigen." },
+      { code: "SO7", text: "Ohne sich je bewusst zu entspannen, übernimmt die soziale Sieben, der Kontratyp, aus Pflichtgefühl viele körperlich fordernde Aufgaben für andere – diese selbstlose, nie unterbrochene Anspannung kann sich über Jahre als Versteifung der Schulter zeigen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, mit viel körperlicher Nähe und Bewegung – diese ausgelebte Offenheit steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist." },
         ],
       },
@@ -97130,7 +97130,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Dauersorge, die sich plötzlich körperlich entlädt",
         varianten: [
       { code: "SE6", text: "Bis eine einzige zusätzliche Bewegung genügt, damit sich Dauerspannung plötzlich Bahn bricht: So trägt die selbsterhaltende Sechs ständige Sorge und muskuläre Anspannung über lange Zeit mit sich, ohne dass diese je wirklich zur Ruhe kommt. Genau dieses Muster passt zum Bild des blitzartig einschießenden Hexenschusses." },
-          { code: "SO6", text: "Die soziale Sechs trägt die Sorge um das Kollektiv über lange Zeit mit sich, oft ohne sie je auszusprechen – wenn diese kollektive, nie erleichterte Anspannung sich schließlich löst, geschieht dies oft plötzlich." },
+      { code: "SO6", text: "Oft ohne sie je auszusprechen, trägt die soziale Sechs die Sorge um das Kollektiv über lange Zeit mit sich – wenn diese kollektive, nie erleichterte Anspannung sich schließlich löst, geschieht dies oft plötzlich." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive, unmittelbare Konfrontation – diese direktere Entladung steht der langen, stillen Ansammlung entgegen, die für den Hexenschuss typisch ist." },
         ],
       },
@@ -97138,7 +97138,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Verleugnete Erschöpfung, die sich plötzlich Bahn bricht",
         varianten: [
       { code: "SE7", text: "Bis eine einzige, oft ungeschickte Bewegung genügt, damit lange verleugnete körperliche Überlastung plötzlich einschießt: So ignoriert die selbsterhaltende Sieben Erschöpfungssignale konsequent zugunsten der nächsten Ablenkung, hält sich ständig in Bewegung. Dieses Muster passt besonders genau zum Bild des scheinbar aus dem Nichts auftretenden Hexenschusses." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse aus Pflichtgefühl zurück, oft ohne die eigene wachsende Erschöpfung je einzugestehen – wenn diese sich schließlich löst, geschieht dies oft plötzlich und unerwartet." },
+      { code: "SO7", text: "Ohne die eigene wachsende Erschöpfung je einzugestehen, stellt die soziale Sieben, der Kontratyp, eigene Bedürfnisse aus Pflichtgefühl zurück – wenn diese sich schließlich löst, geschieht dies oft plötzlich und unerwartet." },
           { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, mit viel Bewegung und körperlicher Aktivität – diese ausgelebte Energie kann zu punktuellen Überlastungen führen, die eher direkt als nach langer stiller Ansammlung auftreten." },
         ],
       },
@@ -97223,7 +97223,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 6, titel: "Immer dieselbe angespannte Vorsichtsbewegung",
         varianten: [
       { code: "SE6", text: "Immer mit demselben festen, nie gelösten Griff wiederholt die selbsterhaltende Sechs über Jahre dieselben Vorsichtsmaßnahmen mit körperlich spürbarer Anspannung – diese unveränderte, monotone Anspannung passt zum Bild einer Sehnenscheide, die unter ständiger Wiederholung derselben Bewegung erschöpft." },
-          { code: "SO6", text: "Die soziale Sechs wiederholt über Jahre dieselbe angespannte Fürsorgegeste für ihre Gruppe, immer mit denselben konkreten Handlungen – diese unveränderte Haltung kann sich als eine entzündete Schutzhülle zeigen." },
+      { code: "SO6", text: "Immer mit denselben konkreten Handlungen wiederholt die soziale Sechs über Jahre dieselbe angespannte Fürsorgegeste für ihre Gruppe – diese unveränderte Haltung kann sich als eine entzündete Schutzhülle zeigen." },
           { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive, wechselnde Konfrontation – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für die Sehnenscheidenentzündung typisch ist." },
         ],
       },
@@ -97231,7 +97231,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Vielfalt, die im Kern dieselbe Handbewegung wiederholt",
         varianten: [
       { code: "SE7", text: "Schnell zugreifen, schnell weiter: Dieses angespannte Muster wiederholt sich im Kern über Jahre, auch wenn die selbsterhaltende Sieben nach außen abwechslungsreich wirkt. Diese strukturelle Wiederholung unter der Oberfläche der Vielfalt kann sich als eine entzündete Sehnenscheide zeigen." },
-          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, übernimmt über Jahre dieselbe selbstlose, körperlich fordernde Rolle für andere, oft mit denselben konkreten Handgriffen – diese unveränderte Position kann sich als eine entzündete Schutzhülle zeigen." },
+      { code: "SO7", text: "Oft mit denselben konkreten Handgriffen übernimmt die soziale Sieben, der Kontratyp, über Jahre dieselbe selbstlose, körperlich fordernde Rolle für andere – diese unveränderte Position kann sich als eine entzündete Schutzhülle zeigen." },
           { code: "SX7", text: "Die sexuelle Sieben lebt tatsächliche, spontane Vielfalt und wechselt impulsiv zwischen Begeisterungen – diese echte Variabilität steht der starren, wiederholten Bewegung entgegen, die für die Sehnenscheidenentzündung psychosomatisch besonders typisch ist." },
         ],
       },
