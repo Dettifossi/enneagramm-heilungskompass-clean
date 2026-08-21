@@ -95766,6 +95766,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Vorhofflimmern gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit dem eigenen inneren Rhythmus verhandelt – manche über straffe Kontrolle, die irgendwann kippt, andere über Zerstreuung, Reizüberflutung oder einen nie gefundenen eigenen Takt. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  koronare_herzkrankheit: {
+    titel: "Koronare Herzkrankheit / Angina Pectoris",
+    kategorie: "herz-kreislauf",
+    icon: "&#9889;",
+    kurz: "Wenn der Körper bei jeder Anstrengung dieselbe unsichtbare Grenze markiert.",
+    definition: "Die koronare Herzkrankheit (KHK) bezeichnet die durch Arteriosklerose verursachte Verengung der Herzkranzgefäße, die den Herzmuskel mit Blut versorgen. Reicht die Durchblutung unter Belastung nicht mehr aus, entsteht Angina pectoris (lateinisch für &bdquo;Brustenge&ldquo;): ein anfallsartiger, meist druckartiger Schmerz hinter dem Brustbein. Bei stabiler Angina pectoris tritt der Schmerz reproduzierbar bei einer bestimmten Belastungsschwelle auf und lässt in Ruhe oder nach Nitro-Gabe innerhalb weniger Minuten nach. Bei instabiler Angina pectoris tritt der Schmerz neu, verstärkt, länger oder bereits in Ruhe auf – ein medizinischer Notfall, da er dem Herzinfarkt unmittelbar vorausgehen kann.",
+    symptome: [
+      "Druck-, Enge- oder Brenngefühl hinter dem Brustbein, typischerweise bei körperlicher oder emotionaler Belastung",
+      "Ausstrahlung des Schmerzes in linken Arm, Kiefer, Hals, Rücken oder Oberbauch",
+      "Rückgang der Beschwerden innerhalb weniger Minuten bei Ruhe oder Nitro-Gabe (stabile Angina pectoris)",
+      "Atemnot oder ein Gefühl von Kurzatmigkeit bei Belastung",
+      "Bei Frauen, älteren Menschen und Diabetikern oft untypischer: diffuses Druckgefühl, Übelkeit, Erschöpfung statt klassischem Brustschmerz",
+      "Zunehmende Beschwerden bei immer geringerer Belastung als Warnzeichen einer Verschlechterung",
+    ],
+    notfall: "Bei neu auftretendem, sich verstärkendem, länger als 5 Minuten anhaltendem oder bereits in Ruhe auftretendem Brustschmerz, insbesondere wenn er auf Nitro-Gabe nicht anspricht: sofort den Notruf 112 wählen. Dies kann auf eine instabile Angina pectoris oder einen beginnenden Herzinfarkt hinweisen – hier zählt jede Minute, kein Raum für psychosomatische Deutung.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Anders als der einmalige, katastrophale Herzinfarkt oder das jahrzehntelang stumme Fortschreiten der Arteriosklerose zeigt sich die Angina pectoris als ein wiederkehrendes, fast zuverlässiges Signal: Bei einer bestimmten Belastungsschwelle meldet sich der Schmerz, verschwindet in Ruhe wieder – und kommt bei der nächsten Anstrengung zurück. Die Traditionelle Chinesische Medizin beschreibt einen verwandten Zustand als Xiong Bi, das &bdquo;schmerzhafte Blockade-Syndrom der Brust&ldquo;: eine Stagnation von Qi und Blut im Brustraum, die sich gerade dann zuspitzt, wenn mehr Fluss gefordert wird, als das System freigeben kann. Die Psychosomatik liest in diesem wiederkehrenden Muster oft das Bild einer immer gleichen, unsichtbaren Grenze – eines Punktes, an dem der Körper zuverlässig Einspruch erhebt, sobald die Anforderung ein bestimmtes Maß übersteigt.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der sich genau an der eigenen Belastungsgrenze zeigt",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger diszipliniert unter Kontrolle – bis zu einem bestimmten Punkt. Psychosomatisch passt das wiederkehrende, belastungsabhängige Auftreten der Angina pectoris zum Bild einer Kontrolle, die bis zu einer festen Schwelle funktioniert und genau dort spürbar an ihre Grenze stößt." },
+          { code: "SO1", text: "Die soziale Eins engagiert sich fortlaufend für die moralische Verbesserung der Gruppe – der Punkt, an dem das Engagement die eigene Kraft übersteigt, meldet sich zuverlässig als körperliches Warnsignal." },
+          { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter in der Beziehung aus – episodische, intensive Momente markieren hier eher punktuelle Belastungsspitzen als eine regelmäßig wiederkehrende Schwelle." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der sich weigert, um eine Pause zu bitten",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei gibt still, bis die eigenen Kräfte erschöpft sind – ohne je darum zu bitten, langsamer machen zu dürfen. Der Körper übernimmt dann die Rolle, die die eigene Stimme sich verweigert: Er markiert die Grenze mit Schmerz." },
+          { code: "SO2", text: "Die soziale Zwei bleibt für die Gemeinschaft verfügbar, bis zur eigenen Überlastung – die Unfähigkeit, Nein zu sagen, führt dazu, dass die eigene Belastungsgrenze immer wieder überschritten und vom Körper markiert wird." },
+          { code: "SX2", text: "Die sexuelle Zwei investiert intensives Geben in die eine Beziehung – die Belastungsspitzen entstehen hier eher episodisch, in Phasen besonders intensiver emotionaler Investition." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die immer wieder an dieselbe unsichtbare Wand stößt",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet effizient bis an die eigene Belastungsgrenze – und stößt dort wiederholt an eine körperliche Wand, die sie als Schwäche deutet, statt als klares Signal, innezuhalten." },
+          { code: "SO3", text: "Die soziale Drei treibt sich im ständigen Wettbewerb voran – die Angina pectoris kann hier als wiederkehrendes, unmissverständliches Stoppschild gelesen werden, das genau dort erscheint, wo der eigene Ehrgeiz die körperlichen Grenzen überschreitet." },
+          { code: "SX3", text: "Die sexuelle Drei optimiert sich permanent im Beziehungskontext – der Druck, auch im Intimsten nie nachzulassen, kann eine ähnliche, wiederkehrende Belastungsschwelle erzeugen." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich als wiederkehrende Enge zeigt",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine wiederkehrende körperliche Enge kann hier die einzige Stelle sein, an der sich die unausgesprochene Sehnsucht überhaupt zeigt." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar – die emotionale Intensität findet zumindest ein Ventil nach außen, was die rein körperliche Enge möglicherweise abmildert." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – heftige, episodische Ausschläge prägen hier das Bild eher als eine regelmäßig wiederkehrende Belastungsschwelle." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der Belastung von vornherein zu vermeiden sucht",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und minimiert Anforderungen – ein Verhalten, das die eigene Belastungsgrenze selten testet, wodurch sich Warnsignale hier möglicherweise später oder subtiler zeigen." },
+          { code: "SO5", text: "Die soziale Fünf hält auch im sozialen Kontext innere Distanz – eine Mischung aus Teilhabe und Rückzug, die eigene Belastung selten klar benennt." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale, tiefe Verbindung, die insgesamt weniger äußere Belastungsspitzen erzeugt." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die sich als Enge im Brustkorb ankündigt",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Alarmbereitschaft – diese Grundspannung kann sich unter zusätzlicher Belastung als spürbare, wiederkehrende Enge im Brustkorb zeigen, sobald die Kapazitätsgrenze erreicht ist." },
+          { code: "SO6", text: "Die soziale Sechs trägt fortlaufend Sorge um das Kollektiv – die Belastungsgrenze wird hier oft erst erreicht, wenn die Verantwortung für andere zu groß wird." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation – diese Mischung aus Angst und Zorn erzeugt eher episodische Belastungsspitzen als eine regelmäßige, vorhersehbare Schwelle." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die wiederholt über die eigene Grenze geht",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über viele parallele Optionen und Aktivitäten ab – ein Lebensstil, der die eigenen Grenzen wiederholt testet und überschreitet, passt besonders unmittelbar zum Bild einer immer wieder erreichten Belastungsschwelle." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – die eigene Belastungsgrenze wird dabei oft erst erkannt, wenn der Körper sie unübersehbar markiert." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – hier ist der plausibelste Zusammenhang oft nicht die innere Anspannung selbst, sondern der Lebensstil: Rauchen und andere Genussmittel als anerkannte, gut belegte Risikofaktoren der koronaren Herzkrankheit." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die keine Pause erlaubt, bis der Körper sie erzwingt",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht hält die Kontrolle über die eigenen Ressourcen straff aufrecht – Ruhebedürfnis wird als Angriffsfläche erlebt. Angina pectoris kann hier als die eine Stelle gelesen werden, an der der Körper eine Pause erzwingt, die der Wille sich selbst nie erlaubt hätte." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Führungsspannung für die Gruppe – die eigene Belastungsgrenze wird oft erst erreicht, wenn die Verantwortung für andere unerträglich wird." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich in extremen, episodischen Ausschlägen statt in einer regelmäßig wiederkehrenden Schwelle." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, deren Grenze der Körper immer wieder markiert",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und Routine – nach außen wirkt vieles entspannt, doch wenn Anforderungen die eigene Kapazität übersteigen, kann der Körper mit einer wiederkehrenden Enge genau dort Grenzen ziehen, wo die eigene Stimme es nie täte." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – eine chronische Selbstauslöschung, bei der die Belastungsgrenze regelmäßig überschritten wird, bevor der Körper eingreift." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Herzens, das die eigene Grenze erst dann spürt, wenn der Schmerz sie unübersehbar macht." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor koronarer Herzkrankheit oder Angina pectoris gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen seine eigene, oft unsichtbare Belastungsgrenze auf eigene Weise erreicht – manche über Kontrolle bis zum Anschlag, andere über stilles Geben, Maßlosigkeit oder ein nie gehörtes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -95774,7 +95867,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // (Definition, Notfall-Hinweis falls zutreffend, Disclaimer, alle 27 Subtypen). Bis dahin
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["Schlaganfall", "Koronare Herzkrankheit / Angina Pectoris", "Krampfadern (Varikose)", "Thrombose", "Niedriger Blutdruck (Hypotonie)"],
+  "herz-kreislauf": ["Schlaganfall", "Krampfadern (Varikose)", "Thrombose", "Niedriger Blutdruck (Hypotonie)"],
   "bewegungsapparat": ["Rückenschmerzen / Bandscheibenvorfall", "Arthrose", "Rheumatoide Arthritis", "Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
