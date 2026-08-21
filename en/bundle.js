@@ -60713,6 +60713,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to atherosclerosis, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates, in its own way, with the slow, often decades-long process of hardening and narrowing – some through sustained tension and control, others through withdrawal, exhaustion, or a need of their own that was never heard. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  bluthochdruck: {
+    titel: "High Blood Pressure (Hypertension)",
+    kategorie: "herz-kreislauf",
+    icon: "&#128200;",
+    kurz: "When inner pressure is no longer allowed to be expressed and stays in the body instead.",
+    definition: "High blood pressure (arterial hypertension) refers to a persistently elevated pressure of the blood within the arteries – readings of 140/90 mmHg or higher are generally classified as hypertension. In most cases (around 90 percent) this is so-called primary or essential hypertension, where no single physical cause is found, but rather an interplay of predisposition, lifestyle, diet, weight, alcohol, and chronic stress. Left untreated, chronic hypertension significantly raises the risk of heart attack, stroke, kidney damage, and atherosclerosis over the years – precisely because it stays unnoticed for so long, medicine calls it the &bdquo;silent killer&ldquo;.",
+    symptome: [
+      "Usually no noticeable symptoms for years – high blood pressure is often an incidental finding",
+      "Occasional morning headaches, especially at the back of the head",
+      "Dizziness, ringing in the ears, visual disturbances with markedly elevated readings",
+      "Nosebleeds that occur unusually often",
+      "Shortness of breath or heart palpitations under exertion",
+      "Nervousness, inner restlessness, a diffuse sense of tension that is hard to put into words",
+    ],
+    notfall: "In a hypertensive crisis (blood pressure readings from around 180/120 mmHg) combined with severe headache, visual disturbances, chest pain, shortness of breath, confusion, or neurological deficits: call emergency services immediately. This can indicate an imminent stroke, heart attack, or organ failure – here every minute counts, this is not the moment for psychosomatic interpretation.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Psychosomatic medicine has long taken the double meaning of pressure literally in cases of hypertension: being &bdquo;under pressure&ldquo;, not letting anything show, &bdquo;swallowing&ldquo; one's own anger or exhaustion – phrases that can be found again in the body as measurable physical pressure. Traditional Chinese Medicine assigns many forms of hypertension to rising Liver Yang: an excess and tension energy typically linked to chronically suppressed anger, frustration, or an overabundance of inwardly directed tension. In both views, high blood pressure is less an isolated organ problem than the bodily expression of a system that had to maintain more pressure over a long time than it was ever able to release.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that dams up inward",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One keeps every stirring of anger disciplined and under control – nothing may become visible. Psychosomatic medicine reads exactly this consistent holding back, without ever finding an outlet, as one of the more plausible pictures for a chronically elevated inner pressure that is never allowed to discharge." },
+          { code: "SO1", text: "The social One turns anger into moral engagement for the group – part of the pressure finds an outlet in words and reform efforts, yet the underlying tension that the world constantly needs correcting remains." },
+          { code: "SX1", text: "The sexual One lives anger more directly, within the relationship itself – potentially less chronic, sustained pressure, but recurring, episodic surges of pressure in intense moments." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that asks no one for help",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two lives the sentence &bdquo;I need no one&ldquo; most literally – quiet self-sacrifice in which its own exhaustion is never voiced. A system that permanently gives more than it receives easily comes under elevated pressure itself." },
+          { code: "SO2", text: "The social Two seeks meaning through constant availability to the community – the inability to say no creates a chronic overload that can condense over the years into a quiet, sustained strain on the entire circulatory system." },
+          { code: "SX2", text: "The sexual Two invests intense, often possessive giving into the one relationship – emotional volatility and jealousy tend to produce episodic surges of pressure here rather than a steady, sustained tension." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that raises the inner pressure",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps working quietly and efficiently even when the body has long been asking for a break – exhaustion is read as weakness, not as a signal. The inner pressure to keep functioning is rarely consciously noticed, let alone voiced." },
+          { code: "SO3", text: "The social Three seeks success visibly and in constant comparison with others – a life in competition mode that comes closest to the classic Type-A personality picture and rarely knows real periods of relaxation." },
+          { code: "SX3", text: "The sexual Three deploys constant self-optimization within the relational context – the pressure to never let up even in the most intimate sphere is rarely named openly but is carried for years." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that settles in as tension",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – a years-long, unspoken longing that never discharges into words, only into inner tension." },
+          { code: "SO4", text: "The social Four makes its own suffering visible and part of its own identity – the emotional intensity at least finds an outward outlet, which may make the inner pressure here less hidden than in the counter-type." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity, often in constant comparison with ideals or other relationships – intense, episodic swings shape the picture here more than a steady, sustained tension." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that conceals its own overwhelm",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically and minimizes contact and needs – the withdrawal feels calming, but can also mean that inner overwhelm never finds an addressee and instead persists as quiet physical tension." },
+          { code: "SO5", text: "The social Five seeks access to the group through knowledge, but keeps inner distance – a mixture of participation and withdrawal in which its own overwhelm is rarely named clearly." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – a narrow but deep connection alongside radical closure to the outside world, in which pressure rarely finds an outlet." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that keeps the body on permanent alert",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six lives in a form of permanent alertness – caution and constant preparation for the worst keep the autonomic nervous system in a state of ongoing tension, a state that is plausibly linked medically to chronically elevated blood pressure." },
+          { code: "SO6", text: "The social Six seeks safety through belonging to a group or authority – the strain here arises above all from a felt responsibility for the collective, a worry that is rarely voiced openly." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation rather than withdrawal – this mixture of fear and anger produces episodic surges of pressure rather than the steady, sustained tension of the other Six variants." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that overstimulates the system",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through options, networks, and indulgences – a lifestyle geared toward permanent stimulus-seeking rather than rest counts medically as its own risk factor for elevated blood pressure, independent of inner tension." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – an idealistic, often duty-bound self-sacrifice that denies its own exhaustion and the physical warning signs that come with it for a long time." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – here the more plausible link is often not the inner tension itself but the lifestyle: nicotine, alcohol, or other stimulants as recognized, medically well-documented risk factors for elevated blood pressure." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that must never let up",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight secures its own existence through control over material and physical resources – the need for rest is experienced as a point of attack, not a legitimate need. The system runs permanently under high tension, because slowing down has no place in the inner self-image." },
+          { code: "SO8", text: "The social Eight takes on responsibility and leadership for the group, often in a protector role – permanent leadership tension and the conviction of never being allowed to be weak are the central, long-running strain here." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – the strain shows up more in extreme swings than in steady, sustained tension." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting whose pressure shows on the outside",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort, routine, and conflict avoidance – outwardly much looks relaxed, but the decades-long continued self-forgetting also means: its own inner pressure is never consciously noticed, let alone voiced, and instead persists as measurable blood pressure." },
+          { code: "SO9", text: "The social Nine seeks harmony at any cost within the group, consistently subordinating its own opinion – a chronic self-erasure in favor of social peace that builds up quietly over a long time." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a system that, over decades, never found a voice of its own – and whose tension stays quietly in the body." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to high blood pressure, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates with inner pressure in its own way – some through control and tension, others through withdrawal, exhaustion, or a need of their own that was never voiced. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -60720,7 +60813,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // and then moved into PSYCHOSOMATIK_KRANKHEITEN. Until then they appear on the overview
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["High Blood Pressure (Hypertension)", "Stroke", "Heart Failure", "Atrial Fibrillation", "Coronary Artery Disease / Angina Pectoris", "Varicose Veins", "Thrombosis", "Low Blood Pressure (Hypotension)"],
+  "herz-kreislauf": ["Stroke", "Heart Failure", "Atrial Fibrillation", "Coronary Artery Disease / Angina Pectoris", "Varicose Veins", "Thrombosis", "Low Blood Pressure (Hypotension)"],
   "bewegungsapparat": ["Back Pain / Herniated Disc", "Osteoarthritis", "Rheumatoid Arthritis", "Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],

@@ -410,6 +410,7 @@ export const registerEntries = [
   { term: "Symptomlexikon",             route: "symptomlexikon",             description: "Schneller Überblick über typische Symptome der Krankheitsbilder im Psychosomatik-Register" },
   { term: "Herzinfarkt (Psychosomatik)", route: "psychosomatik/herzinfarkt",   description: "Psychosomatische Deutung: Typ-A-Persönlichkeit, TCM-Feuer-Element, Enneagramm SE1/SO1, SE3/SO3, SO8/SE8" },
   { term: "Arteriosklerose (Psychosomatik)", route: "psychosomatik/arteriosklerose", description: "Psychosomatische Deutung: chronische Gefäßverhärtung, TCM Blut-Stagnation, Enneagramm alle 27 Subtypen" },
+  { term: "Bluthochdruck (Psychosomatik)", route: "psychosomatik/bluthochdruck", description: "Psychosomatische Deutung: innerer Druck, TCM Leber-Yang-Fülle, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
@@ -1494,6 +1495,7 @@ export const registerEntriesEN = [
   { term: "Symptom Lexicon", route: "symptomlexikon", description: "Quick overview of typical symptoms for the conditions in the Psychosomatics Register" },
   { term: "Heart Attack (Psychosomatics)", route: "psychosomatik/herzinfarkt", description: "Psychosomatic interpretation: Type A personality, TCM fire element, Enneagram SE1/SO1, SE3/SO3, SO8/SE8" },
   { term: "Atherosclerosis (Psychosomatics)", route: "psychosomatik/arteriosklerose", description: "Psychosomatic interpretation: chronic vessel hardening, TCM Blood stagnation, Enneagram all 27 subtypes" },
+  { term: "High Blood Pressure (Psychosomatics)", route: "psychosomatik/bluthochdruck", description: "Psychosomatic interpretation: inner pressure, TCM Liver Yang excess, Enneagram all 27 subtypes" },
   { term: "Mineral Substance Impulses", route: "mineralstoffe", description: "Mineral substance impulses for all 27 subtypes – type-specific micronutrients" },
   { term: "Healing Teas", route: "heiltees", description: "Medicinal plant teas for all 27 subtypes – effect and preparation" },
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },
